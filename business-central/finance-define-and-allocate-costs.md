@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f892333d08036efe751cbcabf49945377990807
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 1543627340cb4947eafafffc362acddacb52ceb6
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770859"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436194"
 ---
 # <a name="defining-and-allocating-costs"></a>Definere og allokere omkostninger
 Allokering af omkostninger flytter omkostninger og indtægter mellem omkostningstyper, omkostningssteder og omkostningsobjekter. Du kan angive så mange tildelinger, som du har brug for. Hver allokering består af:  
@@ -38,7 +38,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 Hver allokering består af en fordelingskilde og en eller flere fordelingsmål. Fordelingskilden definerer, hvilke omkostninger, der vil blive tildelt. Fordelingsmålet bestemmer, hvortil omkostningerne fordeles.  
 
 ### <a name="to-set-up-cost-allocations"></a>Opsætning af omkostningsfordelinger  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Omkostningsfordeling**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Omkostningsfordeling**, og vælg derefter det relaterede link.  
 2.  På siden **Omkostningsfordeling** skal du vælge handlingen **Rediger**.  
 3.  Angiv et id for fordelingskilden i feltet **Id**.  
 4.  Definer et niveau som et tal mellem 1 og 99 i feltet **Niveau**. Fordelingsbogføringen følger niveauernes rækkefølge.  
@@ -82,7 +82,7 @@ Dette emne beskriver, hvordan du definerer tre nye fordelingsmålsomkostningsobj
 
 ### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Sådan defineres fordelingskilden PROD-omkostningssted på oversigtspanelet Generelt  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Omkostningsfordeling**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Omkostningsfordeling**, og vælg derefter det relaterede link.  
 2.  På siden **Omkostningsfordeling** skal du vælge handlingen **Ny**.  
 3.  I feltet **Id** skal du trykke på Enter eller indtaste et id.  
 4.  Angiv **1** i feltet **Niveau**.  
@@ -119,7 +119,7 @@ I dette emne vises et eksempel på, hvordan du definerer allokeringer ved hjælp
 
 ### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Sådan defineres dynamiske fordelinger baseret på varer, der er solgt i det foregående år  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Omkostningsfordelinger**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Omkostningsfordelinger**, og vælg derefter det relaterede link.  
 2.  På siden **Omkostningsfordeling** skal du vælge handlingen **Ny**.  
 3.  I feltet **Id** skal du trykke på Enter eller indtaste et id.  
 4.  Angiv **1** i feltet **Niveau**.  

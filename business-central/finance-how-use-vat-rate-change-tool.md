@@ -1,20 +1,20 @@
 ---
-title: Styre ændringer af momssats | Microsoft Docs
-description: Få mere at vide om, hvordan du bruger momssatsændringsværktøjet til Dynamics 365 Business Central.
+title: Styre ændringer af momssats
+description: Lære, hvordan du bruger Momssatsændringsværktøjet til at ændre Dynamics 365 Business Central-momssatser, der er baseret på lokal lovgivning.
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.workload: na
 ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 2f9bef0d4a2aace08d5f8fb09eae6186213a9563
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9d90364691e393ddb376b0446d298ba96a92b383
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770437"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437387"
 ---
 # <a name="managing-vat-rate-changes"></a>Styre ændringer af momssats
 
@@ -71,13 +71,13 @@ Før du konfigurerer momssatsændringsværktøj, skal du foretage følgende forb
 
 ### <a name="to-set-up-the-vat-rate-change-tool"></a>Sådan konfigureres momssatsændringsværktøjet
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfiguration af ændring af momssats**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Konfiguration af ændring af momssats** og vælg derefter det relaterede link.  
 2. På oversigtspanelerne **Stamdata**, **Kladder** og **Dokumenter** skal du vælge en bogføringsgruppeværdi i indstillingslisten for nødvendige felter. For hver gruppe kan du vælge, om der skal konverteres momsproduktbogføringsgrupper eller generelle produktbogføringsgrupper, eller om begge værdier skal konverteres, hvis de er tilgængelige i stamdata. I nogle områder kan du også angive et filter for kun at konvertere et undersæt af værdier, f.eks. finanskonti. 
 3. I oversigtspanelet **Priser inkl. moms** skal du vælge, hvilke linjetyper på ordrer du vil opdatere enhedspriser for. Enhedspriser på linjer af typen Vare og Ressource opdateres altid.
 
 ### <a name="to-set-up-product-posting-group-conversion"></a>Sådan konfigureres produktbogføringsgruppekonvertering
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfiguration af ændring af momssats**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Konfiguration af ændring af momssats** og vælg derefter det relaterede link.  
 2. På siden **Konfiguration af ændring af momssats** skal du vælge enten **Momsproduktbogf.gruppekonv.** eller **Gen. produktbogf.gruppekonv.**.  
 3. Angiv den aktuelle bogføringsgruppe i feltet **Fra kode**.  
 4. Angiv den nye bogføringsgruppe i feltet **Til kode**.  
@@ -92,7 +92,7 @@ Du bruger momssatsændringsværktøjet til at administrere ændringer i standard
 > [!IMPORTANT]  
 > Inden du foretager konvertering af momssatsændringen, kan du teste konverteringen. Det gør du ved at følge fremgangsmåde nedenfor, men sørg for at fjerne markeringen i afkrydsningsfelterne **Udfør konvertering** og **Momssatsændringsværktøjet afsluttet**. Under testkonverteringen ryddes feltet **Konverteret** i tabellen **Momssatsændringslogpost** og feltet **Konverteringsdato** i tabellen **Momssatsændringslogpost** er tomt. Når konverteringen er afsluttet, skal du vælge **Ændringslogposter for momssats** for at få vist resultaterne af prøvekonverteringen. Kontroller hver post, før du udfører konverteringen. Kontroller især transaktioner, som bruger en gammel momssats.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Momssatsændring**, og vælg derefter linket **Konfiguration af ændring af momssats**.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Momssatsændring**, og vælg derefter linket **Konfiguration af ændring af momssats**.  
 2. Kontroller, at du allerede har oprettet momsproduktbogføringsgruppekonverteringen eller den generelle produktbogføringsgruppekonvertering.  
 3. Markér afkrydsningsfeltet **Udfør konvertering**.  
 

@@ -1,6 +1,6 @@
 ---
-title: Oprette omkostningsbudgetter | Microsoft Docs
-description: Dette emne indeholder en oversigt over, hvor du kan oprette og analysere omkostningsbudgetter.
+title: Oprette omkostningsbudgetter
+description: Dette emne indeholder en oversigt over, hvor du kan oprette og analysere omkostningsbudgetter. Budgettering i omkostningsregnskab minder om budgettering i regnskabet.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,21 +8,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: da976e1e8ac2988aa2842925c2b10f4f8515ea47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 52ed39805c70fe686d96525b33ad82923628db82
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785240"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436169"
 ---
 # <a name="creating-cost-budgets"></a>Oprette omkostningsbudgetter
 Budgettering i omkostningsregnskab minder om budgettering i regnskabet. Et omkostningsbudget oprettes baseret på omkostningstyper, ligesom et budget for regnskabet oprettes baseret på finanskonti.  
 
 Et omkostningsbudget oprettes for en bestemt periode, f.eks. et regnskabsår. Du kan oprette lige så mange omkostningsbudgetter, der er behov for. Du kan oprette et nyt omkostningsbudget manuelt eller ved at importere et omkostningsbudget eller ved at kopiere et eksisterende omkostningsbudget som basis for budgettet. Du kan finde flere oplysninger i [Oprette finansbudgetter](finance-how-create-budgets.md).
 
-Brug følgende sider til at oprette og analysere omkostningsbudgetter. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") for at finde en side, og læs derefter værktøjstippet for hvert.
+Brug følgende sider til at oprette og analysere omkostningsbudgetter. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") Ikonet for at finde en side, og læs derefter værktøjstippet for hver enkelt.
 
 |Hvis du vil|Skal du se|  
 |--------|---------|  

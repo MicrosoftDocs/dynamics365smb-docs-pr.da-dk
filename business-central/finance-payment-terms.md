@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 82c60333f038f647fa4c9c2bbd68019b9c1f8026
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 10ae5c1932e21b452efd41a1212f1840101a277b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783793"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437312"
 ---
 # <a name="set-up-payment-terms"></a>Konfiguration af betalingsbetingelser
 
@@ -28,7 +28,7 @@ Hvis du vil sende rykkere til kunder om forfaldne betalinger, skal du oprette ry
 
 ## <a name="to-set-up-payment-terms"></a>Sådan defineres betalingsbetingelser
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), åbn **Betalingsbetingelser**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsbetingelser**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Efter du har angivet betalingsbetingelserne, kan du tildele dem til debitorer og kreditorer. Du kan også tildele betalingsbetingelser til betalingsmåder.  
@@ -36,7 +36,7 @@ Efter du har angivet betalingsbetingelserne, kan du tildele dem til debitorer og
 > [!TIP]
 > I basisversionen af [!INCLUDE [prod_short](includes/prod_short.md)] skal betalingsbetingelser med delbetalinger ikke understøttes. Du skal i stedet bruge funktionen til forudbetalinger. Du kan finde flere oplysninger i [Oprette forudbetalinger](finance-set-up-prepayments.md).
 >
-> I nogle lande kan du *angive* betalingsbetingelser med delbetalinger. Hvis du vil vide, om denne funktion understøttes i dit land, skal du se afsnittet **Lokal funktionalitet** i navigationsruden i venstre side på [Docs.microsoft.com ](about-localization.md)-webstedet.
+> I nogle lande kan du *angive* betalingsbetingelser med delbetalinger. Hvis du vil vide, om denne funktion understøttes i dit land, skal du se afsnittet **Lokal funktionalitet** i navigationsruden i venstre side på [Docs.microsoft.com](about-localization.md)-webstedet.
 
 ## <a name="see-also"></a>Se også
 

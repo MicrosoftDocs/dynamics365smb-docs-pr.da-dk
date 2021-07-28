@@ -1,6 +1,6 @@
 ---
 title: Opret et sandkassemiljø
-description: Oprette et miljø til udforskning, læring, demonstration, udvikling og test fra Business Central.
+description: Oprette et sandkassemiljø til test-miljø til sikker udforskning, læring, demonstration, udvikling og fejlfinding og test fra Business Central.
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 06/08/2021
 ms.author: solsen
-ms.openlocfilehash: a76ae33815b8e9368f45b72fd8703bfc47cbd079
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 2f4ca6a98aac49fa5fea7d8658ef51a9510c97d7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215624"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437673"
 ---
 # <a name="creating-a-sandbox-environment-in-prod_short"></a>Opret et sandkassemiljø i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -30,8 +30,8 @@ Administratoren kan administrere sandkassemiljøer i [Administrationscenter](/dy
 
 1. Log ind på din produktionsforekomst af [!INCLUDE[prod_short](includes/prod_short.md)].
 
-2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sandkassemiljø**, og vælg derefter det relaterede link.
-    <!-- ![Sandbox Environment Setup](./media/across-sandbox/sandbox-environment-setup.png) -->
+2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sandkassemiljø**, og vælg derefter det relaterede link.
+    <!-- ![Sandbox Environment Setup.](./media/across-sandbox/sandbox-environment-setup.png) -->
 3. Vælg knappen **Opret**.  
 
     Der vises endnu en fane i [!INCLUDE[prod_short](includes/prod_short.md)], hvor du kan afslutte opsætningen af dit sandkassemiljø.
@@ -40,12 +40,12 @@ Administratoren kan administrere sandkassemiljøer i [Administrationscenter](/dy
     >  Hvis blokering af pop op-vinduer er aktiveret i din webbrowser, kan du ændre denne indstilling, så URL-adresser fra *.businesscentral.dynamics.com-adressen tillades.
 
 Når sandkassemiljøet er klar, omdirigeres du til miljøet velkomstguide.
-<!-- ![Sandbox Welcome Wizard](./media/across-sandbox/sandbox-wizard.png) -->
+<!-- ![Sandbox Welcome Wizard.](./media/across-sandbox/sandbox-wizard.png) -->
 
 Du kan vælge knappen **Få mere at vide** for at læse om udviklerscenarier, som du kan afprøve i et sandkassemiljø, eller vælg knappen **Luk** for at fortsætte til rollecenteret i din sandkasseforekomst af [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Der vises en meddelelse om, at dette er et sandkassemiljø, øverst i rollecenteret. Du kan også se miljøtypen i titellinjen i klienten.
-    <!-- ![Sandbox RoleCenter Notification](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
+    <!-- ![Sandbox RoleCenter Notification.](./media/across-sandbox/sandbox-rolecenter-notification.png) -->
 
 > [!NOTE]
 > Et sandkassemiljø, der oprettes på denne måde, indeholder kun standarddemonstrationsdataene for CRONUS-virksomheden. Der kopieres ikke eller på anden måde overføres data fra produktionsmiljøet.
@@ -53,11 +53,11 @@ Der vises en meddelelse om, at dette er et sandkassemiljø, øverst i rollecente
 > Du kan også oprette et Sandbox-miljø baseret på produktionsdata. Dette skal gøres via Administrationscenter. Du kan finde flere oplysninger i [Administrere miljøer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments) i hjælpen til udviklere og administratorer.  
 
 <!--To switch between your production and sandbox environments, you can use the Business Central app launcher.
-    ![Sandbox Dynamics365 Menu](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
+    ![Sandbox Dynamics365 Menu.](./media/across-sandbox/sandbox-dynamics365-menu.png) -->
 
 En administrator kan begrænse eller endda blokere adgangen for bestemte brugere til sandkassemiljøet. Dette kan gøres ved hjælp af standardsikkerhedsfunktionerne i produktet, f.eks. brugerkort, brugergrupper og rettighedssæt. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).  
 
-<!-- ![Sandbox Permission Sets](./media/across-sandbox/sandbox-permission-sets.png) -->
+<!-- ![Sandbox Permission Sets.](./media/across-sandbox/sandbox-permission-sets.png) -->
 
 ## <a name="advanced-functionality-in-the-sandbox-environment"></a>Avancerede funktioner i sandkassemiljøet
 
@@ -69,9 +69,9 @@ Sandkassemiljøet er ikke mindst anvendelig, fordi det indeholder et par praktis
 
 ### <a name="advanced-user-experience"></a>Udvidet brugeroplevelse
 
-Du kan aktivere og prøve den fulde funktionalitet af standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] i en sandkasselejer ved at indstille feltet **Oplevelse** på siden **Virksomhedsoplysninger** til *Premium*. Find siden **Virksomhedsoplysninger** i menuen :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Indstillinger":::.  
+Du kan aktivere og prøve den fulde funktionalitet af standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] i en sandkasselejer ved at indstille feltet **Oplevelse** på siden **Virksomhedsoplysninger** til *Premium*. Find siden **Virksomhedsoplysninger** i :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Indstillinger-ikon."::: menu.  
 
-Når du har aktiveret *Premium*-brugeroplevelsen, får du adgang til alle standardprofilerne (rollerne) og rollecentre i standardversionen. Du kan også oprette en evalueringsvirksomhed, der er fuldt defineret, herunder med demodata og adgang til avancerede områder af produktet. Alternativt kan du kontakte en videresalgspartner for at demonstrere mulighederne. Du kan finde flere oplysninger i [Hvordan finder jeg en videresalgspartner?](/dynamics365/business-central/across-faq.yml#findpartner).  
+Når du har aktiveret *Premium*-brugeroplevelsen, får du adgang til alle standardprofilerne (rollerne) og rollecentre i standardversionen. Du kan også oprette en evalueringsvirksomhed, der er fuldt defineret, herunder med demodata og adgang til avancerede områder af produktet. Alternativt kan du kontakte en videresalgspartner for at demonstrere mulighederne. Du kan finde flere oplysninger i [Hvordan finder jeg en videresalgspartner?](across-faq.yml#how-do-i-find-a-reselling-partner).  
 
 ### <a name="complete-sample-data"></a>Komplette eksempeldata
 
@@ -80,7 +80,7 @@ I de situationer, hvor du har brug for yderligere eksempeldata, skal du kontakte
 
 #### <a name="to-create-a-company-with-complete-sample-data-in-a-sandbox"></a>Sådan opretter du en virksomhed med komplette eksempeldata i en sandkasse
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Virksomheder**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **firmaer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**, og vælg derefter **Opret ny virksomhed**.  
 3. Vælg **Næste** på siden **Assisteret opsætning af en virksomhed**.  
 4. Angiv et navn til den nye virksomhed, og vælg **Avanceret evaluering - komplette eksempeldata** i feltet **Vælg data og konfiguration for at komme i gang**.  
@@ -90,11 +90,11 @@ Når den assisterede opsætningsguide afsluttes, kan du begynde at udforske den 
 
 ### <a name="designer"></a>Designer
 
-I et sandkassemiljø er **Designer** aktiveret. Du kan aktivere Designer ved at vælge designikon ![Designer](./media/across-sandbox/sandbox-inclient-design-icon.png) på en side eller ved at vælge menupunktet **Design** i menuen ![Indstillinger](media/ui-experience/settings_icon_small.png).  
+I et sandkassemiljø er **Designer** aktiveret. Du kan aktivere designer ved at vælge designikon ![Designer.](./media/across-sandbox/sandbox-inclient-design-icon.png) På en side eller ved at vælge menupunktet **Design** i ![Indstillinger](media/ui-experience/settings_icon_small.png) i menuen Indstillinger.  
 
 Du kan finde flere oplysninger i [bruge designer ](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer)i Developer and admin Content (kun på engelsk).  
 
-<!-- ![In-client Designer](./media/across-sandbox/sandbox-inclient-designer.png) -->
+<!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
 ## <a name="see-also"></a>Se også
 

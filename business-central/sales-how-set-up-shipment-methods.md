@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: incoterms
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8390c95083eb02c208e97f0309a725e8ec4d7730
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9ee6cdceb716331e2d8338e178def4b8b1e5cfe8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778568"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436697"
 ---
 # <a name="set-up-shipment-methods"></a>Oprette leveringsformer
 
@@ -25,7 +25,7 @@ Du opretter beskrivelsen og koden for hver leveringsform på siden **Leveringsfo
 
 ## <a name="to-set-up-a-shipment-method"></a>Sådan defineres en leveringsform
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Forsendelsesformer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leveringsformer**, og vælg derefter det relaterede link.
 2. På siden **Leveringsformer** skal du vælge handlingen **Ny**.
 3. Angiv en kode og en beskrivelse af leveringsformen på den nye linje.
 
@@ -38,9 +38,9 @@ Du opretter beskrivelsen og koden for hver leveringsform på siden **Leveringsfo
 [Spore pakker](sales-how-track-packages.md)  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)  
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
 [Montagestyring](assembly-assemble-items.md)  
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Incoterms på iccwbo.org](https://iccwbo.org/resources-for-business/incoterms-rules)  
 

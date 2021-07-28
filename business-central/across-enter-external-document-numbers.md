@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/28/2021
 ms.author: edupont
-ms.openlocfilehash: abb6a3a910f8ac628587a58637b96d69bca4266f
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 2841473825ebc0fee7c9357e14e7520b94fd3793
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115931"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437773"
 ---
 # <a name="enter-external-document-numbers"></a>Angive eksterne bilagsnumre
 
@@ -28,7 +28,7 @@ Følgende fremgangsmåde beskriver, hvordan du angiver et eksternt bilagsnummer 
 
 ## <a name="to-enter-external-document-numbers-in-a-sales-order"></a>Sådan angives eksterne bilagsnumre i en salgsordre  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2. Markér den relevante salgsordre, og vælg derefter handlingen **Rediger**.  
 3. Skriv et fakturanummer i feltet **Generelt** i oversigtspanelet **Eksternt bilagsnr**.  
 

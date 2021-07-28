@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69e0b2bf449e707bc881f2d6b36a391e6a7acef3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781158"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437462"
 ---
 # <a name="migrate-customer-data"></a>Overflytte debitordata
 
@@ -42,7 +42,7 @@ Før du starter, skal du sikre dig, at du har tilladelse til at køre RapidStart
 > Tabeller, der har forskellige primære nøgler, og felter, der har forskellige datatyper, vil heller ikke blive importeret korrekt. Hvis konfigurationspakken indeholder tabellen **50000 Customer**, hvor primærnøgle **Code20**, og databasen, som du importerer pakken til, indeholder tabellen **50000 debitorbankkonto**, der har primærnøglen **Code20 + kode 20**, importeres data ikke.  
 
 1. Åbn den nye virksomhed.  
-2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.  
+2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pakker til konfiguration**, og vælg derefter det relaterede link.  
 3. Vælg handlingen **Indlæs pakke**. Gå til den .rapidstart-pakkefil, du vil indlæse, og vælg derefter handlingen **Åbn**. Under indlæsning dekomprimeres pakkeindholdet, og pakkeposten oprettes.  
 
     Når indlæsningen er fuldført, kan du se antallet af konfigurationstabeller, der er indlæst, i feltet **Antal tabeller**.  
@@ -63,7 +63,7 @@ Du kan oprette nye dataoverflytningsfiler og tilpasse dem til din virksomheds be
 > [!TIP]
 > En fil kan kun bruges til at overflytte et felt, hvis dens egenskab **FieldClass** er indstillet til **Normal**.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakke**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pakke til konfiguration**, og vælg derefter det relaterede link.  
 2. Vælg og åbn den pakke, du vil bruge til at overføre data, og vælg derefter handlingen **Hent tabeller**. Siden **Hent pakketabel** åbnes.  
 3. I feltet **TableID** skal du indtaste et tal i tabellen eller vælge en tabel på listen, f.eks. tabel 18 **Debitor**. Feltet **Tabelnavn** udfyldes automatisk.  
 4. Vælg den nye overflytningstabel, og vælg derefter under fanen **Tabeller** handlingen **Felter**. Siden **Overflytningsfelter** åbnes.  
@@ -79,7 +79,7 @@ Der oprettes en ny overflytningstabel .
 ## <a name="to-export-data-migration-files"></a>Sådan udlæses overflytningsfiler
 Når du har fastlagt de tabeller, du vil overføre debitordata til, skal du eksportere filerne.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pakker til konfiguration**, og vælg derefter det relaterede link.  
 2. Markér og åbn den pakke, som du vil bruge til eksport.
 3. Vælg den eller de tabeller, du vil eksportere, og vælg derefter handlingen **Udlæs til Excel**.
 4. Gem den eksporterede Excel-fil.  
@@ -100,7 +100,7 @@ Når du anvender data, som du har importeret fra Excel eller fra en RapidStart-p
 
 I nedenstående fremgangsmåder bør du gennemgå på forhånd, hvilke værdier du vil bevare under overflytningen. Hvis du vil udføre følgende procedurer, skal du bruge dataoverflytningsfiler (.xlsx), du har eksporteret fra [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Sådan udlæses overflytningstabeller](admin-migrate-customer-data.md#to-export-data-migration-files).
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pakker til konfiguration**, og vælg derefter det relaterede link.
 2. Åbn pakken for den pågældende virksomhed.  
 3. Vælg tabellen, hvor du vil tilknytte værdier, og vælg derefter under fanen **Tabeller** handlingen **Felter**.  
 4. For hvert felt du vil tilknytte, skal du vælge handlingen **Kobling**.  
@@ -118,7 +118,7 @@ Følgende eksempel illustrerer, hvordan [!INCLUDE[prod_short](includes/prod_shor
 3. Når du anvender data, tages den tilknytning, du har angivet i feltet **Kode** i tabellen **Sælger/indkøber**, også i betragtning ved behandlingen af felterne **Sælgerkode** og **Indkøberkode**.
 
 ## <a name="to-add-additional-values-to-prod_short"></a>Sådan føjer du flere værdier til [!INCLUDE[prod_short](includes/prod_short.md)]  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pakker til konfiguration**, og vælg derefter det relaterede link.  
 2. Vælg tabellen, hvor du vil tilføje yderligere værdier, og vælg derefter under fanen **Tabeller** handlingen **Felter**.  
 3. For de felter, hvor [!INCLUDE[prod_short](includes/prod_short.md)] skal tillade flere værdier under overflytningen, skal du markere afkrydsningsfeltet **Opret manglende koder**.  
 4. Importér debitordataene. Du kan finde flere oplysninger i [Sådan importeres debitordata](admin-migrate-customer-data.md#to-import-customer-data).

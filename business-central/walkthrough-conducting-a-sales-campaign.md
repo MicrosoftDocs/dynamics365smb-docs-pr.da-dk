@@ -1,6 +1,6 @@
 ---
 title: 'Gennemgang: Gennemførsel af en salgskampagne'
-description: En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del af oprettelsen af en kampagne er at vælge målgruppen for kampagnen. Til dette formål kan du i Business Central oprette en målgruppe eller en gruppe af kontakter ved hjælp af filtre.
+description: Denne gennemgang giver en detaljeret oversigt over alle de opgaver, der er forbundet med at udføre en salgskampagne i Business central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/25/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 653638cd056313c6f4bdb830f0b0ec32fa5e8cbf
-ms.sourcegitcommit: cce6bacca46d489423a9538d410d2d9371de0ddf
+ms.openlocfilehash: 63e2c298c7830fb993c99587a0b7475d1ece7223
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102429"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437833"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Gennemgang: Gennemførsel af en salgskampagne
 
@@ -69,7 +69,7 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 
 ### <a name="to-set-up-a-campaign"></a>Sådan oprettes en kampagne  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kampagner**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kampagner**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny** for at oprette en ny kampagne. På kampagnekortet skal du trykke på **Enter** for få indsat et kampagnenummer automatisk.  
 3. Gå til feltet **Beskrivelse**, og indtast en beskrivelse af kampagnen, f.eks. **Office Futurus-handelsmesse**.  
 4. Vælg feltet **Statuskode**, og vælg statuskode "1-plan". 
@@ -161,11 +161,11 @@ Marketingchefen beslutter, at den reducerede liste er den endelige liste over ko
 
 De vedhæftede filer sendes. Når processen er færdig, skal du vælge knappen **OK** for den meddelelse, der angiver, at målgruppen er registreret.  
 
- Brevene udskrives automatisk, og målgruppen registreres. Da målgruppen er registreret, findes den ikke længere på listen over målgrupper, men er flyttet til listen over registrerede målgrupper. Du kan se denne liste ved at vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Gemte målgrupper** og derefter vælge det relaterede link.  
+ Brevene udskrives automatisk, og målgruppen registreres. Da målgruppen er registreret, findes den ikke længere på listen over målgrupper, men er flyttet til listen over registrerede målgrupper. Du kan se den liste ved at vælge ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Gemte målgrupper**, og vælg derefter det relaterede link.  
 
 Når målgruppen er registreret, registreres hvert brev, der er sendt, som en interaktion, som du kan se i logfilen.  
 
-Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Interaktionslogposter**, og vælg derefter det relaterede link. Der er en post for hvert brev, der er sendt.  
+Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Interaktionslogposter**, og vælg derefter det relaterede link. Der er en post for hvert brev, der er sendt.  
 
 ### <a name="to-send-an-email-message-to-a-contact"></a>Sende en mail til en kontakt  
 
@@ -178,7 +178,7 @@ Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/searc
 7. Markér afkrydsningsfeltet **Opret opfølgningsmålgruppe**.  
 8. Vælg knappen **OK**.  
 
- Brevene sendes automatisk pr. mail, og målgruppen registreres. Da målgruppen er registreret, findes den ikke længere på listen over målgrupper, men er gemt på listen over registrerede målgrupper. Du kan se denne liste ved at vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Gemte målgrupper** og derefter vælge det relaterede link.  
+ Brevene sendes automatisk pr. mail, og målgruppen registreres. Da målgruppen er registreret, findes den ikke længere på listen over målgrupper, men er gemt på listen over registrerede målgrupper. Du kan se den liste ved at vælge ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Gemte målgrupper**, og vælg derefter det relaterede link.  
 
 ## <a name="registering-campaign-responses"></a>Registrere kampagnesvar
 

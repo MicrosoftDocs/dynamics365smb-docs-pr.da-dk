@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 918a450ea40676447f872ba95eb489c7cc210211
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 31cfe9390e3f31253d60ba55a95f5507cdcac622
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215099"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436947"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Designoplysninger: Bogføringsdato på post med reguleringsværdi
 Denne artikel indeholder en vejledning til brugere af funktionen Lagerkostmetode i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne specifikke artikel giver en vejledning i, hvordan kørslen **Juster kostpris - vareposter** identificerer og tildeler en bogføringsdato til de værdiposter, der er ved at blive oprettet.  
@@ -33,7 +33,7 @@ Kørslen **Reguler kostværdi – vareposter** tildeler en bogføringsdato til d
 
  Lad os gennemgå processen mere i praksis. Antag, at vi har en varepost for varesalg. Varen blev leveret på den 5. september 2013, og den blev faktureret dagen efter.  
 
-![Status for varepostnumre i scenariet](media/helene/TechArticleAdjustcost1.png "Status for varepostnumre i scenariet")  
+![Status for varepostnumre i scenariet.](media/helene/TechArticleAdjustcost1.png "Status for varepostnumre i scenariet")  
 
 Nedenfor repræsenterer den første værdipost (379) forsendelsen og har den samme bogføringsdato som den overordnede varepost.  
 
@@ -41,7 +41,7 @@ Den anden værdipost (381) repræsenterer fakturaen.
 
  Den tredje værdipost (391) er en justering af faktureringsværdiposten (381)  
 
- ![Status for værdiposter i scenariet](media/helene/TechArticleAdjustcost2.png "Status for værdiposter i scenariet")  
+ ![Status for værdiposter i scenariet.](media/helene/TechArticleAdjustcost2.png "Status for værdiposter i scenariet")  
 
  Trin 1: Reguleringsværdiposten, der skal oprettes, er knyttet til samme bogføringsdato, som den post, den justerer, illustreret ovenfor af værdipost 391.  
 
@@ -53,13 +53,13 @@ Kørslen **Juster kostpris - vareposter** bestemmer, om den første bogføringsd
 
  Lagerperioder:  
 
-![Lagerperioder i scenariet](media/helene/TechArticleAdjustcost3.png "Lagerperioder i scenariet")
+![Lagerperioder i scenariet.](media/helene/TechArticleAdjustcost3.png "Lagerperioder i scenariet")
 
  Den først tilladte bogføringsdato er den første dag i den første åbne periode. 1. september 2013.  
 
  Opsætning af Finans:  
 
-![Regnskabsopsætning i scenariet](media/helene/TechArticleAdjustcost4.png "Regnskabsopsætning i scenariet")
+![Regnskabsopsætning i scenariet.](media/helene/TechArticleAdjustcost4.png "Regnskabsopsætning i scenariet")
 
  Første tilladte bogføringsdato er den dato, der er angivet i feltet Tillad bogføring fra: 10. september 2013.  
 
@@ -69,7 +69,7 @@ Kørslen **Juster kostpris - vareposter** bestemmer, om den første bogføringsd
 
  Den oprindeligt tildelt bogføringsdato er 6. september, som vist i trin 1. Men i 2. trin identificerer kørslen Juster kostpris - vareposter, at den tidligst tilladte bogføringsdato er 10. september, og dermed tildeles 10. september til 10 reguleringsværdiposten nedenfor.  
 
- ![Status for værdiposter i scenariet 2](media/helene/TechArticleAdjustcost5.png "Status for værdiposter i scenariet 2")
+ ![Status for værdiposter i scenariet 2.](media/helene/TechArticleAdjustcost5.png "Status for værdiposter i scenariet 2")
 
  Vi har nu gennemgået konceptet for tildeling af bogføringsdatoer til værdiposter, der er oprettet af kørslen Juster kostpris - vareposter.  
 
@@ -86,11 +86,11 @@ Kørslen **Juster kostpris - vareposter** bestemmer, om den første bogføringsd
 
  Vi følger op på brugeropsætningen:  
 
-![Opsætning af brugerens tilladte bogføringsdatoer](media/helene/TechArticleAdjustcost7.png "Opsætning af brugerens tilladte bogføringsdatoer")
+![Opsætning af brugerens tilladte bogføringsdatoer.](media/helene/TechArticleAdjustcost7.png "Opsætning af brugerens tilladte bogføringsdatoer")
 
  Brugeren har i dette tilfælde et tilladt bogføringsdatointerval fra 11. september til 30. september og må derfor ikke bogføre reguleringsværdiposten med bogføringsdatoen 10. september.  
 
-![Oversigt over opsætning af den involverede bogføringsdato](media/helene/TechArticleAdjustcost8.png "Oversigt over opsætning af den involverede bogføringsdato")
+![Oversigt over opsætning af den involverede bogføringsdato.](media/helene/TechArticleAdjustcost8.png "Oversigt over opsætning af den involverede bogføringsdato")
 
  Vidensbaseartikel [952996](https://mbs2.microsoft.com/Knowledgebase/kbdisplay.aspx?WTNTZSMNWUKNTMMYXUPYZQPOUXNXSPSYOQQYYMLUQLOYYMWP) beskriver yderligere scenarier, der er relateret til nævnte fejlmeddelelse.  
 
@@ -173,9 +173,9 @@ Kørslen **Juster kostpris - vareposter** bestemmer, om den første bogføringsd
 
  Følgende vare- og værdiposter er bogført:  
 
-![Oversigt over resulterende vare- og værdiposter 1](media/helene/TechArticleAdjustcost9.png "Oversigt over resulterende vare- og værdiposter 1")
+![Oversigt over resulterende vare- og værdiposter 1.](media/helene/TechArticleAdjustcost9.png "Oversigt over resulterende vare- og værdiposter 1")
 
- ![Oversigt over resulterende vare- og værdiposter 2](media/helene/TechArticleAdjustcost10.png "Oversigt over resulterende vare- og værdiposter 2")
+ ![Oversigt over resulterende vare- og værdiposter 2.](media/helene/TechArticleAdjustcost10.png "Oversigt over resulterende vare- og værdiposter 2")
 
  Kørslen Juster kostpris - vareposter har registreret en ændring i kostprisen og har justeret de negative reguleringer.  
 
@@ -290,7 +290,7 @@ Kørslen **Juster kostpris - vareposter** bestemmer, om den første bogføringsd
 
      Bogfør modtagelse og faktura.  
 
-     ![Oversigt over resulterende vare- og værdiposter 3](media/helene/TechArticleAdjustcost11.png "Oversigt over resulterende vare- og værdiposter 3")
+     ![Oversigt over resulterende vare- og værdiposter 3.](media/helene/TechArticleAdjustcost11.png "Oversigt over resulterende vare- og værdiposter 3")
 
 6.  På arbejdsdatoen 3. januar ankommer en købsfaktura, der indeholder et ekstra varegebyr for købet, der er oprettet i trin 2. Fakturaen er dateret 30. december og bogføres derfor med bogføringsdato 30. december 2013.  
 
@@ -314,11 +314,11 @@ Kørslen **Juster kostpris - vareposter** bestemmer, om den første bogføringsd
 
      Bogfør modtagelse og faktura.  
 
-   ![Oversigt over resulterende vare- og værdiposter 4](media/helene/TechArticleAdjustcost12.png "Oversigt over resulterende vare- og værdiposter 4")
+   ![Oversigt over resulterende vare- og værdiposter 4.](media/helene/TechArticleAdjustcost12.png "Oversigt over resulterende vare- og værdiposter 4")
 
  Lageropgørelsesrapporten udskrives pr. dato 31. december 2013  
 
-![Indholdet i lagerværdirapport](media/helene/TechArticleAdjustcost13.png "Indholdet i lagerværdirapport")
+![Indholdet i lagerværdirapport.](media/helene/TechArticleAdjustcost13.png "Indholdet i lagerværdirapport")
 
  **Oversigt over scenarie:**  
 
@@ -341,7 +341,7 @@ Kørslen **Juster kostpris - vareposter** bestemmer, om den første bogføringsd
 ## <a name="history-of-post-inventory-cost-to-gl-batch-job"></a>Oversigt over kørslen Bogfør lagerregulering  
  Kørslen Bogfør lagerregulering er tæt forbundet med kørslen Juster kostpris - vareposter, hvorfor oversigten over denne kørsel opsummeres og deles også her.  
  
-![Faktisk omkostning ift. forventet omkostning](media/helene/TechArticleAdjustcost14.png "Faktisk omkostning ift. forventet omkostning")
+![Faktisk omkostning ift. forventet omkostning.](media/helene/TechArticleAdjustcost14.png "Faktisk omkostning ift. forventet omkostning")
 
 ### <a name="about-the-posting-date"></a>Om bogføringsdato
  Der skal ikke længere angives en bogføringsdato i anmodningsformularen til kørslen Bogfør lagerregulering. Finansposten oprettes med samme bogføringsdato som den tilknyttede værdipost. Med henblik på at udføre kørslen skal det tilladte bogføringsdatointerval tillade bogføringsdatoen for den tilknyttede finanspost. Hvis ikke, skal det tilladte bogføringsdatointerval midlertidigt åbnes igen ved at ændre eller fjerne datoerne i felterne Bogf. tilladt fra og Bogf. tilladt til i Opsætning af Finans. Det er nødvendigt for at undgå problemer med afstemningen, at bogføringsdato på finansposten svarer til bogføringsdatoen for værdiposten.  

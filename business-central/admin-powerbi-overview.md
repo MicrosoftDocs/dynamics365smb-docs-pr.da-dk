@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a1d0d0403798f8cd2af6b29249f01f529fb789be
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: b1328b618761a33d3dc0856c7623bd986008d283
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935232"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437437"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Oversigt over Power BI-integrationskomponent og -arkitektur for [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -42,19 +42,19 @@ Følgende tabel beskriver de tilgængelige funktioner.
 |Integreret oplevelse ved visning af en bestemt rapport i en faktaboks i [!INCLUDE[prod_short](includes/prod_short.md)]|Begge dele. Kræver konfiguration for at vise rapporter lokalt.|
 |Power BI-rapportstyring fra [!INCLUDE[prod_short](includes/prod_short.md)]|Online|
 |Standardrapporter fra Power BI i rollecentre, der er udrullet til Power BI|Online|
-|Power BI-apps på Microsoft AppSource|Online.|
+|Power BI-apps på Microsoft AppSource|Online|
 
 ## <a name="architecture"></a>Arkitektur
 
-[!INCLUDE[prod_short](includes/prod_short.md)] integreres med Power BI via en connector, der bruger OData. Datakilden til Power BI-rapporter vises som OData-webtjenester.
+[!INCLUDE[prod_short](includes/prod_short.md)] integreres med Power BI via en connector, der bruger OData. Datakilden til Power BI-rapporter vises som API-sider og OData-webtjenester.
 
-![Power BI-arkitektur til integration med Business Central](./media/power-bi-architecture.png)
+![Power BI-arkitektur til integration med Business Central.](./media/power-bi-architecture.png)
 
 ## <a name="general-flow"></a>Generelt flow
 
 I følgende diagram illustreres den grundlæggende arbejdsgang for brugere, når der oprettes forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI.
 
-![Power BI-arbejdsgang til integration med Business Central](./media/power-bi-flow.png)
+![Power BI-arbejdsgang til integration med Business Central.](./media/power-bi-flow.png)
 
 1. Bruger tilmelder sig en Power BI-konto.
 2. Bruger opretter forbindelse til Power BI fra [!INCLUDE[prod_short](includes/prod_short.md)].

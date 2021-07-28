@@ -1,5 +1,5 @@
 ---
-title: Udskrive en lagerplukliste fra en salgsordre
+title: Udskriv en plukliste fra en salgsordre
 description: Du kan udskrive en lagerplukliste direkte i salgsordrer, salg, fakturaer og andre udgående salgsdokumenter.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4cddce48df3be0a3fadaa74ed751b274ccce7f31
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 50c0a9836a45bac0dfd4a190040c908d28d5617f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115457"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436822"
 ---
 # <a name="print-the-picking-list"></a>Udskrive pluklisten
 
@@ -27,7 +27,7 @@ Denne rapport bruges typisk i virksomheder uden dedikeret funktionalitet til lag
 
 Følgende procedure er baseret på en salgsordre. Fremgangsmåden er den samme for alle andre salgsdokumenter, der kan bruges til at starte leverance af varer, f.eks. en overflytningsordre.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
+1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2. Åbn den salgsordre, som du vil plukke varer til.  
 3. Vælg handlingen **Rapport**, og vælg derefter handlingen **Plukliste efter ordre**.  
 4. Klik på **Udskriv** for at udskrive pluklisten, eller klik på **Vis udskrift** for at se den på skærmen.

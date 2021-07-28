@@ -1,6 +1,6 @@
 ---
-title: Sådan oprettes rapporter med XBRL | Microsoft Docs
-description: XBRL, som står for eXtensible Business Reporting Language, er et XML-baseret sprog til kodning af finansielle data, der gør det muligt for firmaer at behandle og dele deres data effektivt og præcist.
+title: 'Fremgangsmåde: Oprette rapporter med XBRL'
+description: XBRL er et XML-baseret sprog til kodning af finansielle data, der gør det muligt for firmaer at behandle og dele deres data effektivt og præcist.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9c806874d1bfea91224f0c458efea8a1da2d87f8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f204c769a7a1fc8ddf3c6fd97fe485be8940dc43
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776837"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437122"
 ---
 # <a name="create-reports-with-xbrl"></a>Oprette rapporter med XBRL
 XBRL, som står for eXtensible Business Reporting Language, er et XML-baseret sprog til kodning af finansielle data, der gør det muligt for firmaer at behandle og dele deres data effektivt og præcist. Talrige ERP-softwarevirksomheder og internationale revisionsfirmaer kan bruge XBRL-initiativerne til global finansiel rapportering. Det globale initiativ er at levere en standard for ensartet rapportering af finansielle oplysninger til banker, investorer og statslige myndigheder. Sådan virksomhedsrapportering kan omfatte:  
@@ -71,7 +71,7 @@ Når du har indlæst eller opdateret taksonomien, skal linjerne i skemaet forsyn
 
 Du kan oprette XBLR-linjer ved at knytte dataene i taksonomien til dataene i finansposterne.  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **XBRL-taksonomier**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **XBRL-taksonomier**, og vælg derefter det relaterede link.  
 2.  På siden **XBRL-taksonomier** skal du vælge en taksonomi fra listen.  
 3.  Vælg handlingen **Linjer**.  
 4.  Vælg en linje, og udfyld felterne.   
@@ -91,7 +91,7 @@ Du kan oprette XBLR-linjer ved at knytte dataene i taksonomien til dataene i fin
  ## <a name="to-import-an-xbrl-taxonomy"></a>Sådan indlæses en XBRL-taksonomi  
 Første trin i arbejdet med XBRL-funktionalitet er at indlæse taksonomien i din database. En taksonomi består af et eller flere skemaer og nogle linkbaser. Når du har indlæst både skemaer og linkbaserne og har knyttet linkbaserne til skemaet, kan du oprette linjer og knytte finanskontiene i kontoplanen til de tilsvarende taksonomilinjer.  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **XBRL-taksonomier**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **XBRL-taksonomier**, og vælg derefter det relaterede link.  
 2.  På siden **XBRL-taksonomier** skal du oprette en ny linje og indsætte navnet på og beskrivelsen af taksonomien.  
 3.  Vælg handlingen **Skemaer**, og indsæt derefter beskrivelsen af skemaet.  
 4.  For at importere skemaet skal du på siden **XBRL-skemaer** vælge handlingen **Indlæs** og derefter vælge en mappe og en XSD-fil. Vælg knappen **Åbn**.  
@@ -105,7 +105,7 @@ Første trin i arbejdet med XBRL-funktionalitet er at indlæse taksonomien i din
 ## <a name="to-update-an-xbrl-taxonomy"></a>Sådan opdateres en XBRL-taksonomi  
 Når en taksonomi ændres, skal du opdatere den aktuelle taksonomi i overensstemmelse hermed. Årsagen til opdateringen kan være et ændret skema, en ændret linkbase eller en ny linkbase. Når du har opdateret taksonomien, skal du konvertere linjerne for de ændrede eller nye linjer.  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **XBRL-taksonomier**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **XBRL-taksonomier**, og vælg derefter det relaterede link.  
 2.  På siden **XBRL-taksonomier** skal du vælge handlingen **Skemaer**.  
 3.  Opdater skemaet ved at vælge det, du vil opdatere, og derefter vælge handlingen **Indlæs**.  
 4.  Hvis du vil opdatere eller tilføje en ny linkbase, skal du vælge handlingen **Linkbaser**.  

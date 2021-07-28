@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 120db7bf4336444f6cf726d0f784a86841dc3e11
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: d97b0fe65a610c4b0a9dab694678afdf4631a514
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215949"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436922"
 ---
 # <a name="design-details-inventory-posting"></a>Designoplysninger: Varekladde
 
@@ -32,7 +32,7 @@ For hver lagertransaktion, f.eks. en købsleverance eller en salgsleverance, bog
 
  Med jævne mellemrum bogføres værdiposter, der er oprettet i lageropgørelsesposter, til finans for at afstemme de to posttyper af økonomiske kontrolårsager. Du kan finde flere oplysninger i [Designoplysninger: Afstemning med Finans](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Posteringsflow ved afstemning af lager med Finans](media/design_details_inventory_costing_1_entry_flow.png "Posteringsflow ved afstemning af lager med Finans")  
+ ![Posteringsflow ved afstemning af lager med Finans.](media/design_details_inventory_costing_1_entry_flow.png "Posteringsflow ved afstemning af lager med Finans")  
 
 ## <a name="example"></a>Eksempel
 

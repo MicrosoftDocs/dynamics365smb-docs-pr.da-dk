@@ -1,6 +1,6 @@
 ---
-title: Redigere bogførte salgs- og købsdokumenter | Microsoft Docs
-description: Lære mere om de forskellige bogføringsfunktioner til bogføring af købsdokumenter, og hvordan du kan opdatere bogførte dokumenter.
+title: Redigere bogførte salgs- og købsdokumenter
+description: Dette emne beskriver, hvordan du opdaterer oplysninger i et bogført bilag som en salgsleverance eller købsfaktura, når relevante oplysninger er ændret.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: ef23d98aaeeb63c17e836fd25b547703787264da
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6a2be703bfc58fbac85dd4776e5256b614eb46cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776193"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437798"
 ---
 # <a name="edit-posted-documents"></a>Redigere bogførte dokumenter
 
@@ -41,7 +42,7 @@ Følgende yderligere dokumenter kan redigeres i de angivne lande eller områder:
 
 I det følgende forklares det, hvordan du kan redigere en bogført salgsleverance. Fremgangsmåden er den samme for de andre understøttede dokumenter.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogført salgsleverancer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte salgskvitteringer**, og vælg derefter det relaterede link.
 2. Vælg det dokument, som du vil redigere, og vælg derefter handlingen **Opdater dokument**. Du kan også åbne dokumentet og derefter vælge handlingen.
 3. På siden **Bogført salgsleverance - Opdater** skal du f.eks. redigere feltet **Pakkesporingsnr.** .
 4. Vælg knappen **OK**.

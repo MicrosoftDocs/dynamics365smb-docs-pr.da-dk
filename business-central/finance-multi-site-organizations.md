@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 7002c5a3f523943e87757f7e2196e683888c21fe
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: c6821a8e542b27338ee6f9ce0c14875896019449
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087665"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437362"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central til internationale organisationer med flere lokationer
 Organisationer med flere lokationer bruger ofte en hub-and-spoke-forretningsmodel, hvor virksomheden eller hovedkontoret administrerer virksomhedens overordnede aktiviteter, mens hvert websted fungerer som en enkelt, selvstændig enhed. Websteder distribueres ofte geografisk og har forskellige behov for at dele oplysninger med hovedkvarteret. Desuden har websteder typisk ikke brug for det samme kompleksitetsniveau, og de mangler ofte ressourcerne til at opretholde et stort system.
@@ -30,7 +30,7 @@ I denne artikel beskrives nogle af de måder, som [!INCLUDE[prod_short](includes
 
 Følgende diagram er et eksempel på forskellige steder integreret med et hovedkvarter.
 
-![Diagrambeskrivelse genereret automatisk](media/multisite-headquarter-sites.png)
+![Diagrambeskrivelse genereret automatisk.](media/multisite-headquarter-sites.png)
 
 ## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Opfylde behovene på indenlandske og internationale lokationer
 
@@ -101,7 +101,7 @@ Afdelingerne har ofte brug for adgang til forsyningskæden og muligheden for at 
 
 Hovedkvarteret skal kunne reagere hurtigt på forretningsændringer i hver afdeling. Kombineret med Power Automate kan [!INCLUDE[prod_short](includes/prod_short.md)] fungere som en tidlig advarselsmekanisme.
 
-![Et skærmbillede af en beskrivelse af et socialt medieindlæg genereres automatisk](media/multisite-apps.png)
+![Et skærmbillede af en beskrivelse af et socialt medieindlæg genereres automatisk.](media/multisite-apps.png)
 
 | **Forretningsbehov** | **Sådan understøttes Business Central** | **Flere oplysninger** |
 |-------------------------|-------------------------|-------------------------|

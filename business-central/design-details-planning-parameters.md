@@ -1,6 +1,6 @@
 ---
-title: Designoplysninger – Planlægningsparametre | Microsoft Docs
-description: I dette emne beskrives de forskellige planlægningsparametre, du kan bruge i Business Central.
+title: Designoplysninger - Planlægningsparametre
+description: I dette emne beskrives de forskellige planlægningsparametre, du kan bruge, og hvordan de påvirker planlægningssystemet.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a572b9cee77a6fb89c0d44a48150dbba4742cc6e
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 31af22184e35b7c9e3c6f995b4c6e8ddbcd5589c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215849"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437883"
 ---
 # <a name="design-details-planning-parameters"></a>Designoplysninger: Planlægningsparametre
 I dette emne beskrives de forskellige planlægningsparametre, du kan bruge i [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -82,25 +82,25 @@ En planlægger vil, for at få en rationel forsyningsplan, finjustere planlægni
 
 Tidspunktet for ændringsperiode, bufferperiode og akkumuleringsperiode for lot er baseret på en forsyningsdato. Intervallet er baseret på planlægningens startdato, som vist i følgende illustration.  
 
-![Intervalelementer](media/supply_planning_5_time_bucket_elements.png "Intervalelementer")  
+![Intervalelementer.](media/supply_planning_5_time_bucket_elements.png "Intervalelementer")  
 
 I nedenstående eksempler repræsenterer sorte pile eksisterende forsyning (op) og behov (ned). Rød, grøn og orange pil er planlægningsforslag.  
 
 **Eksempel 1**: Den ændrede dato er uden for ændringsperioden, hvilket forårsager, at den eksisterende forsyning bliver annulleret. Der foreslås en ny forsyning til at dække behovet i akkumuleringsperioden for lot.  
 
-![Ændringsperiode og Akkumuleringsperiode for lot](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Ændringsperiode og Akkumuleringsperiode for lot")  
+![Ændringsperiode og Akkumuleringsperiode for lot.](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Ændringsperiode og Akkumuleringsperiode for lot")  
 
 **Eksempel 2**: Den ændrede dato er inden for ændringsperioden, hvilket forårsager, at den eksisterende forsyning skal omplanlægges. Der foreslås en ny forsyning til at dække behovet uden for akkumuleringsperioden for lot.  
 
-![Ændringsperiode, Akkumuleringsperiode for lot og ændring](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Ændringsperiode, Akkumuleringsperiode for lot og ændring")  
+![Ændringsperiode, Akkumuleringsperiode for lot og ændring.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Ændringsperiode, Akkumuleringsperiode for lot og ændring")  
 
 **Eksempel 3**: Der er et behov i bufferperioden, og forsyningsantallet i akkumuleringsperioden for lot svarer til forsyningsantallet. Næste behov er uafdækket, og der foreslås en ny forsyning.  
 
-![Bufferperiode og Akkumuleringsperiode for lot](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Bufferperiode og Akkumuleringsperiode for lot")  
+![Bufferperiode og Akkumuleringsperiode for lot.](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Bufferperiode og Akkumuleringsperiode for lot")  
 
 **Eksempel 4**: Der er et behov i bufferperioden, og forsyningen forbliver på samme dato. Den aktuelle forsyningsmængde er dog ikke nok til at dække efterspørgslen i akkumuleringsperioden for lot, så en handling, der skifter mængde af den eksisterende forsyningsordre, foreslås.  
 
-![Bufferperiode, Akkumuleringsperiode for lot og Rediger antal](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Bufferperiode, Akkumuleringsperiode for lot og Rediger antal")  
+![Bufferperiode, Akkumuleringsperiode for lot og Rediger antal.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Bufferperiode, Akkumuleringsperiode for lot og Rediger antal")  
 
 **Standardværdier:** Standardværdien for feltet **Interval** og de tre felter for genbestillingsperioden er tomme. For alle felter, undtagen feltet **Bufferperiode**, betyder det 0D (nul dage). Hvis feltet **Bufferperiode** er tomt, bruges den globale værdi i feltet **Standardbufferperiode** på siden **Produktionsopsætning**.  
 

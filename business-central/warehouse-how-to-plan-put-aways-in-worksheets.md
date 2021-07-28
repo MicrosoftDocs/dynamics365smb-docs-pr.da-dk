@@ -1,6 +1,6 @@
 ---
-title: Sådan planlægges læg-på-lager-aktiviteter i kladder | Microsoft Docs
-description: Hvis lokationen kræver både læg-på-lager og modtagelse, og du vil planlægge læg-på-lager-instruktioner til en række modtagelser – i stedet for at lade medarbejderne følge de instruktioner, der automatisk oprettes til separate bogførte modtagelser – kan du bruge læg-på-lager-kladden.
+title: 'Fremgangsmåde: Planlægge læg-på-lager-aktiviteter i kladder'
+description: Opsætte lageret, så modtagelseslinjer er tilgængelige i læg-på-lager-kladden, når du vil planlægge læg-på-lager-instruktioner for modtagelser.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7d22ba919883fd45ff0b04410a0a19ee77aa3326
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: cfe8f04e84c2bb5cddcbad71fd71b1253043b60f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771675"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438178"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planlægge læg-på-lager-aktiviteter i kladder
 Hvis lokationen kræver både læg-på-lager og modtagelse, og du vil planlægge læg-på-lager-instruktioner til en række modtagelser – i stedet for at lade medarbejderne følge de instruktioner, der automatisk oprettes til separate bogførte modtagelser – kan du bruge læg-på-lager-kladden.  
@@ -31,7 +31,7 @@ Hvis du ikke markerer feltet, oprettes der automatisk læg-på-lager-instruktion
 > 2.  Fortsæt processen på så mange læg-på-lager-aktiviteter som ønsket, indtil du har slettet alle de linjer, som du vil arbejde med i kladden. Vælg derefter **Læg-på-lager-kladder**, og fortsæt med planlægningen der.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Sådan planlægges instruktioner i læg-på-lager-kladden  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Læg-på-lager-kladde**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Læg-på-lager-kladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Hent lagerdokumenter**. Siden **Læg-på-lager-valg** åbnes.  
 
     Du kan se alle de bogførte modtagelser og registrerede interne læg-på-lager-aktiviteter, der er blevet overført til læg-på-lager-funktionen, herunder dem som der allerede er oprettet læg-på-lager-instruktioner til. Dokumenter med læg-på-lager-linjer, der fuldt ud er blevet lagt på plads og er blevet registreret, vises ikke i oversigten.  
@@ -65,9 +65,9 @@ Hvis du ikke markerer feltet, oprettes der automatisk læg-på-lager-instruktion
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -1,5 +1,5 @@
 ---
-title: Oprette salgsleads | Microsoft Docs
+title: Oprette salgsleads
 description: Beskriver, hvordan du kan oprette leads fra en sælger eller kontakt i Business Central.
 services: project-madeira
 documentationcenter: ''
@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: aa41064ceaae8366b9d588ace3de9230ec654423
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 68074c38203f987ed4ff48d9c14ad4a25891e8ba
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785469"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437262"
 ---
 # <a name="create-sales-opportunities"></a>Oprette salgsleads
 Du kan oprette leads for de salgslaeds du har for dine kontakter. Alle leads skal knyttes til en sælger eller indkøber og skal have en kontakt.
@@ -27,7 +27,7 @@ Du kan oprette leads på siden **Leadoversigt**. Men du skal normalt oprette lea
 Funktionen forudsætter, at du har defineret salgsprocesser for leads. Du kan finde flere oplysninger i [Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
 ## <a name="to-create-an-opportunity-from-a-salesperson"></a>Sådan oprettes et lead fra en sælger
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sælgere**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sælgere**, og vælg derefter det relaterede link.
 2. Vælg den sælger på listen, du vil oprette et lead for.
 3. Vælg handlingen **Leads**, og vælg derefter **Oversigt**.
 4. Vælg **Ny**, og udfyld de felterne efter relevans. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -35,7 +35,7 @@ Funktionen forudsætter, at du har defineret salgsprocesser for leads. Du kan fi
 
 
 ## <a name="to-create-an-opportunity-from-a-contact"></a>Sådan oprettes et lead fra en kontakt
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontakter**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontakter**, og vælg derefter det relaterede link.
 2. Vælg den kontakt i oversigten, du vil oprette et lead for.
 3. Gør ét af følgende:
    * Vælg handlingen **Opret lead**.
