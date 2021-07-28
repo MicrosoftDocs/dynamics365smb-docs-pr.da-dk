@@ -8,16 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: e6f6769ec8aefebaf1cabd6c2ec764c454780426
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 842c2723fb62775e35673614c609257fe9439115
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773751"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326884"
 ---
-# <a name="finance"></a>Finans
+# <a name="financial-management"></a>Økonomistyring
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en standardkonfigurationen af de fleste finansielle processer, men du kan ændre konfigurationen, så den passer til din virksomhed. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md).
 
@@ -44,7 +44,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Tildel ekstra omkostninger såsom fragt og håndtering, som du har under handel, til de varer, der er involveret, så omkostningerne afspejles i lagerværdien. |[Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md) |
 |Bogfør medarbejderes personlige udgifter for virksomhedsrelaterede aktiviteter, og refunder medarbejdere ved at foretage betaling til deres bankkonto.|[Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md)|
 | Realisere indtægter og udgifter i andre perioder end dem, hvor transaktionerne blev bogført. |[Periodisere indtægter og udgifter](finance-how-defer-revenue-expenses.md)|
-| Få mere at vide om de tilgængelige muligheder for at automatisere afsendelse af abonnementsfakturaer til kunder og registrering af tilbagevendende indtægter. |[Tilbagevendende indtægter (abonnement)](finance-recurring-invoicing.md)|
+| Få mere at vide om de tilgængelige muligheder for at automatisere afsendelse af abonnementsfakturaer til kunder og registrering af tilbagevendende indtægter. |[Arbejde med tilbagevendende indtægt](finance-recurring-invoicing.md)|
 |Få mere at vide om, hvordan du bruger flere valutaer og opdaterer valutakurser automatisk. |[Opdatere valutakurser](finance-how-update-currencies.md)|
 | Importere løntransaktioner fra din lønningslisteudbyder i finansbogholderiet. |[Importér løntransaktioner](finance-how-import-payroll-transactions.md)|
 |Brug funktioner til at beregne moms på salgs- og købstransaktioner, så du kan rapportere beløbene til skattemyndighederne.|[Arbejde moms af salg og køb](finance-work-with-vat.md)|

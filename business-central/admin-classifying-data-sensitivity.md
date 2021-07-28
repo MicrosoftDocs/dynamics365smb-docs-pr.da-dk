@@ -7,15 +7,15 @@ ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 04/01/2021
-ms.openlocfilehash: 9c015d60d0f34b35b12e0a39ca8d2b99c6e09848
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 06/14/2021
+ms.openlocfilehash: b5df66798db4a77504176d03bd46156d5d99fc56
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773175"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326534"
 ---
-# <a name="classifying-data-sensitivity"></a>Klassificere datafølsomhed
+# <a name="classifying-data-sensitivity-fields"></a>Klassificere datafølsomhedsfelter
 For at klassificere de felter, der indeholder følsomme eller personlige data, kan en Microsoft-partner angive egenskaben ```DataClassification``` på felter. Dette kræver adgang til databasetabellerne, enten via udviklingsmiljøet eller ved at køre et Windows PowerShell-script. Du kan finde flere oplysninger i [Klassificere data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Du kan tilføje et andet niveau i klassificering som en kunde ved at angive følsomhedsniveauer for de data, du gemmer i standardfelter og brugerdefinerede felter. Klassificeringen af datafølsomhed hjælper med til at sikre, at du ved, hvor du opbevarer personlige data i systemet, og gør det nemmere at besvare anmodninger fra registrerede. Hvis en kontakt eller kunde f.eks. beder dig om at eksportere deres personlige data. Du kan finde flere oplysninger i [Besvare anmodninger om personlige oplysninger](admin-responding-to-requests-about-personal-data.md).

@@ -1,6 +1,6 @@
 ---
-title: Afstemme bankkonti | Microsoft Docs
-description: Beskriver, hvordan dine lagerværdier afstemmes med finansmodulet.
+title: Afstemme bankkonti
+description: Dette beskriver, hvordan du kan udføre bankafstemninger med siden **Bankkontoafstemning**, og hvordan lagerværdien afstemmes med finansbogholderiet.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 1049043da0fd4cd5db2dc76f41a3c3df0402bbfc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c87836658bfdf1dc8497e4d8771d77b315733913
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786803"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435398"
 ---
 # <a name="reconcile-bank-accounts"></a>Afstemme bankkonti
 
@@ -62,7 +62,7 @@ For at gøre det muligt at importere bankkontoudtog som bankfeeds skal du først
 > [!TIP]
 > Du kan også importere bankkontoudtogsfiler i komma- eller semikolonsepareret format (.CSV). Du kan bruge den assisterende opsætning **Opsæt en bankkontoudtogs filformat** for at definere importformater for bankkontoudtog og knytte formatet til en bankkonto. Du kan bruge disse formater, når du indlæser bankkontoudtog for import på siden **Bankkontoafstemning**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkontoa&fstemning**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkontoafstemning**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. Vælg den relevante bankkonto i feltet **Bankkontonr.**. Bankkontoposterne, der findes på bankkontoen, vises i ruden **Bankkontoposter**.
 4. Angiv datoen for kontoudtoget fra banken i feltet **Kontoudtogsdato**.

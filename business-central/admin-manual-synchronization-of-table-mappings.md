@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 45a120bd56ea53bf0ba885f04f9bdcedbeba4c5d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ca44ce5f2f83e61080ddfff5dbe1771ffc586653
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781160"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435518"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Synkroniser tabeltilknytninger manuelt
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -43,7 +43,7 @@ Om der bliver oprettet en række, og hvor, den evt. oprettes, afhænger af synkr
 >  Du benytter typisk kun fuldstændig synkronisering, når du første gang konfigurerer integration mellem [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)], og kun én af løsningerne indeholder data, som du vil kopiere til den anden løsning. En fuldstændig synkronisering kan være nyttig i et demo-miljø. Da fuldstændig synkronisering oprettes automatisk og forbinder records mellem løsningerne, gør det hurtigere at begynde at arbejde med synkronisering af data mellem records. På den anden side bør du kun udføre en fuldstændig synkronisering, hvis du ønsker en række i [!INCLUDE[prod_short](includes/prod_short.md)] for hver række i [!INCLUDE[prod_short](includes/cds_long_md.md)] for de givne tabeltilknytninger. Ellers kan der opstå uønskede eller dobbeltoprettede records i enten [!INCLUDE[prod_short](includes/prod_short.md)] eller [!INCLUDE[prod_short](includes/cds_long_md.md)].  
 
 ### <a name="to-run-a-full-synchronization"></a>Sådan kører du en fuldstændig synkronisering  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfiguration af Dataverse-forbindelse**, og vælg derefter det tilknyttede link.
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Dataverse-forbindelseskonfiguration**, og vælg derefter det relaterede link.
 
     > [!NOTE]
     > Hvis du vil køre en komplet synkronisering for tabeller via Dynamics 365 Sales, skal du bruge siden **Opsætning af Microsoft Dynamics 365 Sales-forbindelse** i stedet.
@@ -72,14 +72,14 @@ Du kan få vist resultaterne af den fulde synkronisering på siden **Integration
 >  Ved at ændre integrationstabeltilknytningen på forhånd kan du oprette filtre, der skal styre de data, der skal synkroniseres, eller konfigurere tilknytninger for at oprette data i destinationsløsningen til ikke sammenkædede rækker i kilden. Du kan finde flere oplysninger i [Rediger tabeltilknytninger til synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md).
 
 ### <a name="to-synchronize-data-for-all-tables"></a>Synkroniser data for alle tabeller  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfiguration af Microsoft Dynamics 365 Sales-forbindelse**, og vælg derefter det tilknyttede link.
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Microsoft Dynamics 365 Sales-forbindelseskonfiguration**, og vælg derefter det relaterede link.
 2.  Vælg handlingen **Synkroniser ændrede records**, og vælg derefter **Ja**.  
 
 ## <a name="synchronize-individual-table-mappings"></a>Synkroniser individuelle tabeltilknytninger
 Du kan benytte siden **Integrationstabeltilknytninger** for at køre et synkroniseringsjob på specifikke tabeltilknytninger. Det vil synkronisere data for alle sammenkædede records og rækker i [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabellerne, der er defineret af tabeltilknytningen. Som standard synkroniseres kun data, der er blevet ændret siden sidste gang, de blev synkroniseret.  
 
 ### <a name="to-synchronize-records-of-an-integration-table-mapping"></a>Synkroniser records fra en integrationstabeltilknytning  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Integrationstabeltilknytninger**, og vælg derefter det relaterede link.
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") Vælg ikonet , åbn **Integrationstabeltilknytninger**, og vælg derefter det relaterede link.
 2.  Vælg handlingen **Synkroniser ændrede records**, og vælg derefter **Ja**.  
 
 ## <a name="see-also"></a>Se også  

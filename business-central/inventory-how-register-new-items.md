@@ -1,6 +1,6 @@
 ---
-title: Oprette kort for varer eller tjenesteydelser | Microsoft Docs
-description: Du kan oprette varekort for tjenester, du sælger som timer, og fysiske produkter, f.eks. montageelementer, færdigvarer, komponenter eller råvarer, som sælges fra lageret.
+title: Oprette kort for varer eller tjenesteydelser
+description: Du kan oprette varekort for tjenester, du sælger som timer, og fysiske produkter, f.eks. montageelementer, færdigvarer, som sælges fra lageret.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8948024ea1dc0bbbdbd6f2a2262e2616b35671e5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2195940a65ffa6cfe904e09028846991f68dfb6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785869"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435639"
 ---
 # <a name="register-new-items"></a>Registrere nye varer
 
@@ -40,7 +40,7 @@ Følgende fremgangsmåde beskriver, hvordan du opretter et varekort fra bunden. 
 
 ## <a name="to-create-a-new-item-card"></a>Sådan oprettes et nyt varekort
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
 2. På siden **Varer** skal du vælge handlingen **Ny**.
 
     Hvis der kun er én vareskabelon, åbnes nye varekort med nogle felter, der er udfyldt med oplysninger fra denne skabelon.
@@ -77,7 +77,7 @@ Hvis du vil registrere varer, der derefter bruges i produktionsordrer, skal du a
 
 Hvis du køber den samme vare fra flere forskellige leverandører, skal du angive oplysninger om hver vareleverandør, f.eks. priser, leveringstid og rabatter.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
 2. Markér den relevante vare, og vælg derefter handlingen **Rediger**.  
 3. Vælg handlingen **Leverandører**.  
 4. Vælg feltet **Kreditornr.**, og vælg derefter den kreditor, du vil konfigurere for varen.  
@@ -100,6 +100,12 @@ Når du registrerer en ny vare, kan du se de felter, der er relateret til lagers
 
 Hvis organisationen på et senere tidspunkt opsætter logistik, skal du i de fleste tilfælde gå tilbage til hver eksisterende vare for at sikre, at det indeholder de relevante oplysninger i de forskellige felter, så lager processerne kan køre som forventet. Disse oplysninger kan omfatte felter som **Lagerklassekode** eller **Læg på lager-skabelonkode**. Du kan finde flere oplysninger i [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md)  
 
+## <a name="planning"></a>Planlægning
+
+Når din virksomhed bruger forsynings planlægnings processerne i [!INCLUDE [prod_short](includes/prod_short.md)], skal du udfylde de relevante felter i oversigtspanelet **Planlægning** . Du kan finde en introduktion til planlægnings området i [design oplysninger: centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md).  
+
+Du kan finde eksempler på, hvordan du kan bruge felterne i oversigtspanelet **Planlægning**, under [konfigurere bedste fremgangsmåder: planlægningsparametre](setup-best-practices-planning-parameters.md).  
+
 ## <a name="see-also"></a>Se også
 
 [Lagerbeholdning](inventory-manage-inventory.md)  
@@ -110,6 +116,12 @@ Hvis organisationen på et senere tidspunkt opsætter logistik, skal du i de fle
 [Konfigurere bogføringsgrupper](finance-posting-groups.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
+[Om planlægningsfunktionen](production-about-planning-functionality.md)  
+[Oprette bedste fremgangsmåder: Planlægningsparametre](setup-best-practices-planning-parameters.md)  
+[Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
+[Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)  
+[Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)  
+[Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

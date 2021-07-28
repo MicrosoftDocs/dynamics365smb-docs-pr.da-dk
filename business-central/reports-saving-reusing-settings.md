@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4437d723834a8189a7155d59812c8e2e1f16b933
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d83597057975757354da06668a7e71e94e5273f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778918"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435759"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Administrere gemte indstillinger for rapporter og kørsler
 Når brugerne kører rapporter, får de normalt vist en side, hvor de kan vælge indstillinger og angive filtre for at ændre, hvilke data der skal medtages i den genererede rapport. Denne side kaldes anmodningssiden. En rapport kan medtage én eller flere *gemte indstillinger*, som brugerne kan anvende til rapporten fra anmodningssiden. *Gemte indstillinger* er grundlæggende foruddefinerede indstillinger og filtre. Med gemte indstillinger kan du hurtigt og pålideligt generere ensartede rapporter, der indeholder de korrekte data. Du kan finde flere oplysninger i [Bruge gemte indstillinger](ui-work-report.md#SavedSettings).
@@ -38,7 +38,7 @@ Hvis du har de nødvendige tilladelser, kan du få vist, oprette og redigere de 
 
 ## <a name="to-create-and-modify-saved-settings-for-all-users"></a>Sådan oprettes og redigeres gemte indstillinger for alle brugere
 Du administrerer gemte indstillinger på siden **Rapportindstillinger**. Du kan åbne siden på to måder:
--   Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rapportindstillinger**, og vælg derefter det relaterede link.
+-   Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Rapportindstillinger**, og vælg derefter det relaterede link.
 -   Åbn en rapport, vælg opslaget i feltet **Brug standardværdier fra**, og vælg derefter handlingen **Vælg fra komplet liste**.
 
 Siden viser alle eksisterende poster for gemte indstillinger for alle brugere. Hvis der er et brugernavn i feltet **Tildelt til**, er det kun denne bruger, der kan bruge de gemte indstillinger for den tilknyttede rapport. Hvis der er en markering i feltet **Del med alle brugere**, kan alle brugere anvende de gemte indstillinger for rapporten.

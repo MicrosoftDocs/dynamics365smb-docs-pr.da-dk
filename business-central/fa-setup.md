@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a35bd9a83ec05a25bc087722fb2009ca27bbfa2f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 54ade14f58d9be5957c77a768096b5f475db5798
+ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770412"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343545"
 ---
 # <a name="setting-up-fixed-assets"></a>Opsætning af anlægsaktiver
 Før du kan arbejde med anlægsaktiver, skal du angive et par ting:  
@@ -40,6 +40,8 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Aktivere forsikring af anlæg, angive generelle forsikringsoplysninger, oprette forsikringskort pr. police, og klargøre kladder til at bogføre forsikringsomkostninger. |[Definere anlægsforsikring](fa-how-setup-insurance.md) |
 | Udføre reparation af anlægsaktiver, angive generelle reparationsoplysninger, oprette bogføringskonti for reparation og definere typer af vedligeholdelsesarbejde. |[Definere anlægsreparation](fa-how-setup-maintenance.md) |
 | Få mere at vide om forskellige afskrivningsmetoder for anlægsaktiver. |[Afskrivningsmetoder](fa-depreciation-methods.md) |
+| Få mere at vide om, hvordan du anvender brugerdefinerede afskrivningsmetoder. |[Sådan konfigureres brugerdefinerede afskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
+
 
 ## <a name="see-also"></a>Se også
 [Anlægsaktiver](fa-manage.md)  

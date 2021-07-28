@@ -1,6 +1,6 @@
 ---
-title: Forudsige forsinket betaling for salgsdokumenter | Microsoft Docs
-description: Brug vores forudsigelsesmodel til at forudsige, om en faktura vil blive betalt til tiden.
+title: Forudsig forsinkede betalinger for salgsdokumenter
+description: Flere oplysninger, hvordan du bruger vores forudsigelsesmodel til at forudsige, om en faktura vil blive betalt til tiden.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 93889510c01a2feecface046440de19dcb1e83eb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: be2916e266e404ae1975eb4b721a8b83f1d02791
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787348"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434904"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Udvidelsen Forudsigelse af forsinket betaling  
 Det er vigtigt med effektiv styring af skyldige beløb for virksomhedens samlede finansielle tilstand. Udvidelsen Forudsigelse af forsinket betaling kan hjælpe dig med at reducere udestående tilgodehavender og finjustere din indsamlingsstrategier ved at forudsige, om salgsfakturaer bliver betalt til tiden. Hvis der f.eks. forudsiges en forsinkelse af en betaling, kan du vælge at justere betingelserne for betalingen eller betalingsmetoden for kunden.
@@ -26,7 +26,7 @@ Når du åbner et bogført salgsdokument, vises en meddelelse øverst på siden.
 
 Du kan aktivere udvidelsen manuelt ved at gøre følgende:
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af forudsigelse af forsinket betaling**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af forudsigelse af forsinket betaling**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 
 > [!Note]
@@ -91,7 +91,7 @@ Hvis det viser sig, at processerne ikke svarer til standardmodellen, kan du stad
 [!INCLUDE[prod_short](includes/prod_short.md)] udfører oplæring og evaluering automatisk,, når der er nok indbetalte og forsinkede fakturaer til rådighed, men du kan udføre det manuelt, når du vil.
 
 #### <a name="to-train-and-use-your-model"></a>Sådan oplærer og bruger du din model
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af forudsigelse af forsinket betaling**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af forudsigelse af forsinket betaling**, og vælg derefter det relaterede link.  
 2. I feltet **Valgt model** skal du vælge **Min model**.
 3. Vælg handlingen **Opret min model** for at oplære modellen på dine data.  
 
@@ -103,7 +103,7 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 3. Brug din Microsoft-konto til at tilmelde dig et arbejdsområde og derefter kopiere modellen.  
 4. Kør modellen, og udgiv den som en webtjeneste.  
 5. Notér URL-adressen for API og API-nøglen. Du skal bruge disse legitimationsoplysninger til en pengestrømsopsætning.  
-6. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af forudsigelse af forsinket betaling**, og vælg derefter det relaterede link.  
+6. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af forudsigelse af forsinket betaling**, og vælg derefter det relaterede link.  
 7. Marker afkrydsningsfeltet **Brug mit Azure-abonnement**.
 8. I oversigtspanelet **Legitimationsoplysninger for min model** skal angive API URL-adressen og API-nøgle til din model.  .  
 

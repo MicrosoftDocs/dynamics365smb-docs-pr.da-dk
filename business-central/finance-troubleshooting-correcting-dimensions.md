@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: dimension, correction, correct, business intelligence
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 018e0ebdb96e155959fc0042e4c2a9b778ecffb0
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 0475e814807c2218b2dcc72f3c07359b80546cc3
+ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947485"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373234"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Fejlfinding og korrigering af dimensioner
 Regnskabsrapporter og analysevisninger er ofte afhængige af data fra dimensioner. Uanset hvilke sikkerhedsforanstaltninger der er til rådighed, opstår der nogle gange en fejl, som kan medføre unøjagtigheder. I dette emne beskrives nogle af de typiske fejl, og det forklares, hvordan du retter dimensions tildelinger i bogførte transaktioner, så regnskabsrapporter er nøjagtige.
@@ -109,3 +109,17 @@ Hvis en rettelse ikke fuldføres, vises der en advarsel på rettelseskortet. Hvi
 
 ### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Brug af omkostningsregnskab med rettede finansposter
 Når du har rettet dimensionerne vil dine data til omkostningsregnskabet ikke være synkroniserede. Omkostningsregnskabet bruger dimensioner til at samle beløb for omkostningssteder og omkostningsemner og udføre omkostningsfordelinger. Ændring af dimensioner for finansposter vil det sandsynligvis betyde, at du skal køre dine omkostningsregnskabsmodeller igen. Uanset om du bare har brug for at slette nogle få omkostningsregistre og udføre fordelinger igen, eller du vil slette alle dine modeller, afhænger af de data, der er blevet opdateret, og hvordan funktionerne til omkostningsregnskabet er konfigureret. Identifikation af, hvor dimensionsrettelser vil påvirke omkostningsregnskabet, og hvor opdateringer er nødvendige, er en manuel proces. I øjeblikket kan [!INCLUDE[prod_short](includes/prod_short.md)] ikke udføre denne proces automatisk.
+
+## <a name="correcting-number-assignments-for-global-dimensions"></a>Rette nummer tildelinger for globale dimensioner
+I tabellen dimensionsopsætningspost tildeles globale dimensioner **0** i feltet genvejsdimensionnr. , og genvejsdimensioner tildeles deres genvejs dimensionsnummer, som kan være mellem 1 og 8. I nogle rapporter bruges disse nummer tildelinger til at bestemme, hvilke værdier der skal bruges i beregninger.
+
+Når dimensionsværdier importeres ved hjælp af konfigurationspakker, der er oprettet uden kørsel af validerings udløsere, eller ved at bruge brugerdefineret kode til at kalde Insert- eller Modify-metoderne uden at køre OnInsert eller OnModify valideringsudløsere, er genvejsdimensioner også tildelt et tal, der ikke er 0. Hvis dette sker, er beregningerne forkerte for dimensioner på gentagelseskladder, som bruger BD-saldoen efter kontonummer eller BD-balance efter gentagelsesmetoderne for dimensioner. 
+
+Hvis der tildeles et forkert nummer, vises siden med fejlmeddelelser, når du prøver at bogføre eller få vist kladder på siden **Tilbagevendende finanskladder** vises siden **Fejlmeddelelser**. På siden fejlmeddelelser kan du vælge linket i feltet **Kilde** for at køre en rapport, der retter tildelingen af genvejs dimensionsnumre i tabellen dimensionsgruppepost. Alternativt kan du søge efter **Opdater globalt dimensionsnr. for dimensionsgruppeposter** skal rapporten køres.
+
+Når du har kørt rapporten, kan du på siden **ændringslogposter** få vist de ændringer, der er foretaget i nummeret, i feltet Global dimensionsnr. . [!INCLUDE[prod_short](includes/prod_short.md)] registrerer altid de forrige og nye værdier. 
+
+## <a name="see-also"></a>Se også
+[Oversigt over dimensionsgruppeposter](design-details-dimension-set-entries-overview.md)
+[Arbejde med dimensioner](finance-dimensions.md)
+[Analyser data efter dimensioner](bi-how-analyze-data-dimension.md)

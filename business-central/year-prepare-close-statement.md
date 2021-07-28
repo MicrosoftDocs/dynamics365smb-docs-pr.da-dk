@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: f58ee0ab43e8d43ae2d08e67cec52a9dd63ac202
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dadfa25189aa44c032dd03aee053be39d87bc4d2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776637"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435905"
 ---
 # <a name="preparing-closing-statements"></a>Forberedelse af ultimoopgørelser
 Der findes en række standardrapporter, som du kan bruge til at samle de oplysninger, der er nødvendige ved forberedelsen af regnskabets ultimoopgørelser.
@@ -32,7 +32,7 @@ Følgende tabel indeholder et antal rapporter, som kan være nyttige i denne pro
 | Udskrive et kontoskema for at analysere tal i finanskonti eller sammenligne faktiske finansposter med finansbudgetposter. |**Kontoskema** |
 | Kontrollere, om debitor- og kreditorposter balancerer med tilsvarende finansposter. |**Afstem deb.- og kred.konti** |
 
-Klik for at se en rapport, vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), skriv navnet, som det vises i tabellen, og vælg derefter det relaterede link.
+Få vist en rapport ved at vælge ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv navnet, som det vises i tabellen, og vælg derefter det relaterede link.
 
 ## <a name="see-also"></a>Se også
 [Afslutning af år og perioder](year-close-years-periods.md)  

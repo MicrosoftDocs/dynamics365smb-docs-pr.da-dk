@@ -1,6 +1,6 @@
 ---
-title: Sådan leverer du varer | Microsoft Docs
-description: Afhængigt af konfigurationen af lagerstedet, kan du enten registrere leverance på det relaterede udgående forretningsdokument, f.eks. en salgsordre, direkte, eller du kan bruge lagerleverancedokumenter, der accepterer et workflow og kan integreres med forskellige lageraktiviteter.
+title: 'Fremgangsmåde: Sende varer'
+description: Dette emne beskriver, hvordan du leverer varer fra lagerstedet afhængigt af lager konfigurationen af leverancen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 22404e97c578f6bcaaa5f74ec40408beca7fe3c8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 60274947bb0f38ed6e116767ac5c74357482298c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782755"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435930"
 ---
 # <a name="ship-items"></a>Afsende varer
 
@@ -30,7 +30,7 @@ Når du leverer varer fra et lagersted, der er konfigureret til lagerleverance, 
 
 Nedenfor kan du se, hvordan du leverer varer fra en salgsordre. Der er tilsvarende fremgangsmåde for købsreturvareordrer, serviceordrer og udgående overflytningsordrer.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.
 2. Åbn en eksisterende salgsordre eller opret en ny. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).
 3. Angiv det leverede antal i feltet **Lever (antal)**.
 
@@ -48,7 +48,7 @@ Først skal du oprette et leverancedokument fra et virksomhedskildedokument. Der
 
 Den medarbejder, der er ansvarlig for leverancen, opretter typisk en lagerleverance. Følgende fremgangsmåde beskriver, hvordan du opretter leverancen manuelt i standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)], men din organisation kan have automatiseret dele af processen, f.eks. ved brug af håndholdte eller tilsluttede scannere, der understøttes af eksterne udbydere.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerleverancer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagerleverancer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 
     Udfyld felterne i oversigtspanelet **Generelt**. Når du henter kildedokumentlinjer, kopieres nogle af oplysningerne fra hovedet til hver linje.  
@@ -83,12 +83,12 @@ Når du har de linjer, som du vil levere, kan du starte den proces, som fører t
 
 Typisk opretter en lagermedarbejder, der er ansvarlig for pluk, et plukdokument og åbner et allerede oprettet plukdokument.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerleverancer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagerleverancer**, og vælg derefter det relaterede link.
 2. Vælg den lagerleverance, som du vil plukke til, og vælg derefter handlingen **Opret pluk**.
 3. Udfyld felterne på anmodningssiden, og vælg derefter den knappen **OK**. Det angivne lagerplukdokument oprettes.
 
     Du kan også åbne et eksisterende lagerpluk.
-4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pluk**, og vælg derefter det relaterede link. Vælg det lagerpluk, du vil arbejde på.
+4. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk**, og vælg derefter det relaterede link. Vælg det lagerpluk, du vil arbejde på.
 
     Hvis lagerstedet kræver brug af placeringer, er pluklinjerne ændret til Hent og Placer-handlingslinjer.
 
@@ -111,9 +111,9 @@ Du kan også bruge plukkladden til at samle flere forskellige plukinstruktioner 
 
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)  
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
 [Montagestyring](assembly-assemble-items.md)  
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

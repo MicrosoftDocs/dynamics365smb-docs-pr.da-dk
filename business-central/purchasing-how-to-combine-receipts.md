@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 86617934ecdb0ac2f14f6cf717f8091ba96caf95
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 83b2e9c488a429603158d800e9c7e7b96be3bd8b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772575"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435105"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Kombinere modtagelser på én enkelt faktura
 
@@ -30,7 +30,7 @@ Når købsleverancer er samlet på en faktura og bogført, oprettes der en bogf�
 
 ## <a name="to-combine-receipts"></a>Sådan samles leverancer
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).  
 3. I oversigtspanelet **Linjer** skal du vælge handlingen **Hent købsleverancelinjer**.  
 4. Vælg flere købsleverancelinjer, der skal indgå i fakturaen.  
@@ -40,7 +40,7 @@ Når købsleverancer er samlet på en faktura og bogført, oprettes der en bogf�
 
 ## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Sådan fjernes åbne købsordrer efter bogføring af kombineret modtagelse
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Slet fakturerede købsordrer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Slet fakturerede købsordrer**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 3. Vælg knappen **OK**.  
 

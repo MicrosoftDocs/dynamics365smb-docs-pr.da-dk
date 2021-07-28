@@ -1,5 +1,5 @@
 ---
-title: Brug af udvidelsen Betalinger og afstemninger (DK) | Microsoft Docs
+title: Udvidelsen Betalinger og afstemninger (DK)
 description: Udvidelsen gør det let at eksportere filer, der forud er formateret til at opfylde bankkravene til elektroniske afsendelser.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, bank, formats
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: fdd8fced06d8efd5ab6959267bfc0171c4decdd2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ef87f41ec58dbc37caff647ad577f1cfcc205dfc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785056"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6434881"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Udvidelsen Betalinger og afstemninger (DK)
 
@@ -55,7 +55,7 @@ Desuden skal du tildele kreditorer til en indenlandsk **Virksomhedsbogføringsgr
 
 ### <a name="to-allow-prod_short-to-export-payment-data"></a>Sådan tillader du [!INCLUDE[prod_short](includes/prod_short.md)] at eksportere betalingsdata
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udbetalingskladde**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udbetalingskladde**, og vælg derefter det relaterede link.  
 2. På siden **Rediger udbetalingskladde** skal du vælge kørslen **Bank**.  
 3. Vælg afkrydsningsfeltet **Tillad eksport af betaling**.  
 
@@ -67,21 +67,21 @@ Følgende tabel viser de kombinationer af FIK- og GIRO betalingsformer, som [!IN
 |----|--------|---------|---------|---------|
 |Girokontonr. eller FIK-kreditornummer? | Girokontonr. | Girokontonr. | FIK-kreditornummer | FIK-kreditornummer|
 |Tillader meddelelse til modtager? | Ja |Nej |Nej | Ja |
-|Indeholder betalingsreferencenummer? | Nej | Ja, 16 cifre. | Ja, 15 cifre. | Nej|
+|Indeholder betalingsreferencenummer? | Nej | Ja, 16 cifre. | Ja, 15 cifre. | Nr.|
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Leverandører (Kreditorer)**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.  
 2. Åbn kortet, udvid fanen **Betalinger** og vælg betalingsformen i feltet **Betalingsform**.  
 3. Afhængigt af dit valg, skal du udfylde andre felter. Se overstående tabel for en beskrivelse af kombinationerne.  
 
 ### <a name="to-specify-the-format-to-use-for-a-bank-account"></a>Sådan angives formatet, der skal bruges til en bankkonto
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.  
 2. Åbn kortet for bankkontoen.  
 3. I feltet **Format til eksport af betaling** skal du vælge formatet for udlæsningsfilen.  
 
 ## <a name="choosing-the-fik-or-giro-payment-information-for-vendor-invoices"></a>Vælg FIK- eller Giro-betalingsoplysningerne for kreditorfakturaer
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.
 2. Vælg kreditoren. Husk, at det skal være en dansk kreditor med en adresse i Danmark.
 3. Opret en faktura. Felterne **Betalingsform** og **Kreditornummer** udfyldes på basis af indstillinger på kreditorkortet. Du kan ændre dem, hvis du ønsker det.
 4. I feltet **Betalingsreference** skal du angive tallet på 15 cifre fra kreditorfakturaen.  
@@ -93,7 +93,7 @@ Følgende tabel viser de kombinationer af FIK- og GIRO betalingsformer, som [!IN
 
 ## <a name="to-use-the-extension-to-export-payment-data"></a>Så bruges udvidelsen til at eksportere betalingsdata
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udbetalingskladder**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Lav kreditorbetalingsforslagskladder**.  
 
     > [!Tip]

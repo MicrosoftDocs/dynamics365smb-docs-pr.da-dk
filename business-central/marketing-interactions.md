@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2f51679cfb1481632ea1f425e4a614764410c679
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d72025a95f6d12ab64ba6ec29de754bb9c318ab0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784463"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435793"
 ---
 # <a name="record-interactions-with-contacts"></a>Registrere interaktioner med kontakter
 Konfiguration af programmet til at registrere interaktioner består af disse opgaver:
@@ -50,7 +50,7 @@ På denne side kan du:
 * Få vist status for interaktioner.
 * Markere interaktioner som annulleret.
 
-Du kan slette interaktionslogposter, der er blevet annulleret. For at slette interaktionslogposter skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Slet annullerede interaktionslogposter** og derefter vælge det relaterede link og angive oplysningerne.
+Du kan slette interaktionslogposter, der er blevet annulleret. Du kan slette interaktionslogposter ved at vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Slet annullerede interaktionslogposter**, og vælg derefter det relaterede link og udfyld oplysningerne.
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  

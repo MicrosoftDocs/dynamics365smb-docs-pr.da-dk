@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8804f64dd2cee60514d18785feee4f8fd6cf67aa
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fccbb5d15c73a2ab74d6b14e54be1fa098dc3a12
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785944"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435668"
 ---
 # <a name="count-and-adjust-inventory-using-documents"></a>Tælle og justere lageropgørelse ved hjælp af dokumenter
 
@@ -40,7 +40,7 @@ En varelageropgørelse er et komplet dokument, der består af et varelageropgør
 
 For at oprette linjer til varelageropgørelse benytter du typisk funktionen **Beregn linjer** for at afspejle den nuværende lagerstatus som linjer på opgørelsen. Alternativt kan du bruge funktionen **"Kopiér fra dokument** for at udfylde linjerne med indholdet fra en anden åben eller bogført varelageropgørelse. Den følgende procedure beskriver kun, hvordan du benytter funktionen **Beregn linjer**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageropgørelsesordrer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **lageropgørelsesordrer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. Udfyld de obligatoriske felter i **Generel** Oversigtspanel. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Vælg handlingen **Beregn linjer**.
@@ -100,7 +100,7 @@ Du kan også vælge handlingen **Difference i lageropgørelsesordre** for at få
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Sådan findes dobbeltoprettede linjer til varelageropgørelse
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageropgørelsesordrer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **lageropgørelsesordrer**, og vælg derefter det relaterede link.
 2. Åbn varelageropgørelsen, som du ønsker at se dobbelt oprettede linjer for.
 3. Vælg handlingen **Vis dobbelt oprettede linjer**.
 
@@ -113,7 +113,7 @@ Når du har færdigudarbejdet en varelageropgørelse og ændret dens status til 
 - Hver lageropgørelseslinje er blevet optalt af mindst en varelagerregistreringslinje.
 - Afkrydsningsfelterne **I registreringslinjer** og **Antal forventet beregnet** er valgt for alle linjer i varelageropgørelsesordren.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageropgørelsesordrer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **lageropgørelsesordrer**, og vælg derefter det relaterede link.
 2. Vælg den varelageropgørelse, som du vil afslutte, og vælg derefter handlingen **Rediger**.
 
     På siden **Varelageropgørelse** kan du se det registrerede antal i feltet **Antal registreret (basis)**.
@@ -127,7 +127,7 @@ De aktuelle vareposter i regnskabet opdateres sideløbende med alle aktuelle var
 ### <a name="to-view-posted-physical-inventory-orders"></a>Sådan vises bogførte varelageropgørelser
 Efter bogføringen vil varelageropgørelsen blive slettet, og du kan få vist og vurdere dokumentet som en bogført lageropgørelsesordre med dets lageropgørelsesregistreringer og enhver kommentar, der er evt. er tilføjet.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte lageropgørelsesordrer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte lageropgørelsesordrer**, og vælg derefter det relaterede link.
 2. Vælg den bogførte lageropgørelsesordre, som du vil se, på siden **Bogførte varelageropgørelser**, og vælg så handlingen **Vis**.
 3. Vælg handlingen **Registreringer** for at åbne en liste over relaterede registreringer af varelageropgørelser.
 
@@ -199,7 +199,7 @@ Du kan udskrive disse dokumenter på ethvert trin, frigive og åbne dem igen og 
 ### <a name="to-set-up-numbering-for-inventory-documents"></a>Sådan oprettes nummerering for lagerdokumenter
 Følgende procedure viser, hvordan du konfigurerer nummerering for lageropgørelsesdokumenter.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageropsætning**, og vælg derefter det tilknyttede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Lager**, og vælg derefter det relaterede link.
 2. I oversigtspanelet **Nummerering** skal du angive nummerserier for dokumenter i følgende felter:
    - **Lagermodtagelsesnumre**  
    - **Bogførte lagermodtagelsesnumre**  
@@ -209,7 +209,7 @@ Følgende procedure viser, hvordan du konfigurerer nummerering for lageropgørel
 ### <a name="to-create-and-post-an-inventory-document"></a>Sådan oprettes og bogføres et lagerdokument
 Følgende fremgangsmåde viser, hvordan du kan oprette, udskrive og bogføre en lagertilgang. Fremgangsmåden er den samme som for lagerleverancer.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermodtagelser**, og vælg derefter det tilknyttede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagermodtagelser**, og vælg derefter det relaterede link.  
 2. Vælg lokationen i feltet **Lokationskode** i sidehovedet for **Lagermodtagelse** , og udfyld derefter de resterende felter efter behov.
 3. I oversigtspanelet **Linjer** i feltet **Vare** skal du vælge lagervaren. Angiv det antal varer, du vil tilføje, i feltet **Antal**. 
 4. Hvis du vil udskrive en rapport for **Lagermodtagelse** fra siden **Lagermodtagelse**, skal du vælge handlingen **Udskriv**.

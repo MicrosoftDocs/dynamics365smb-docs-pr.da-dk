@@ -1,6 +1,6 @@
 ---
 title: Oprette et lokationskort og definere overflytningsruter
-description: Du kan oprette et lokationskort for hvert sted, du gemme lagervarer, for eksempel et lagersted eller distributionscenter, og definere ruter for at overflytte varer mellem lokationerne.
+description: Hvis du køber, gemme eller sælger varer i mere end ét område eller lagersted, skal du oprette hver lokation med et lokationskort og definere overflytningsruter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
-ms.date: 06/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0319f0c64dd46610aa82705257091bd9478ac14f
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: d22bbea911bed7e1ea3c756e0861111a26b5df0a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184320"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435568"
 ---
 # <a name="set-up-locations"></a>Opsætte lokationer
 
@@ -38,7 +38,7 @@ Luk handlingen **Zoner** eller **Placeringer** for at få vist oplysninger om zo
 
 ### <a name="to-create-a-location-card"></a>Sådan oprettes et lokationskort
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det tilknyttede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. På siden **Lokationskort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Gentag trin 2 og 3 for hver lokation, hvor du vil foretage lageropgørelse.
@@ -52,7 +52,7 @@ Hvis du har flere lokationer, kan du definere overflytningsruter mellem lokation
 
 ### <a name="to-create-a-transfer-route"></a>Sådan oprettes en overflytningsrute
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Overflytningsruter**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **overflytningsruter**, og vælg derefter det relaterede link.
 2. Du kan også vælge handlingen **Overflytningsruter** på enhver **Lokationskort**-side.
 3. Vælg handlingen **Ny**.
 4. På siden **Lokationskort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -84,7 +84,7 @@ Du kan også vælge kun at oprette en enkelt zone og udelukkende organisere lage
 [Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md)  
 [Oprette placeringer](warehouse-how-to-create-individual-bins.md)  
 [Oprette placeringstyper](warehouse-how-to-set-up-bin-types.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)  
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1caf2fb0586cf704e5fc1354b3b4a0be096dc709
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a5ac7b1cd9d58c91584c2777442094bace0673fd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781734"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436019"
 ---
 # <a name="block-customers"></a>Blokere debitorer
 Du kan spærre en debitor, for eksempel på grund af insolvens, så kunden ikke kan føjes til salgsdokumenter, eller ingen transaktioner kan bogføres for debitoren.
@@ -32,7 +32,7 @@ Den følgende tabel beskriver indstillingerne for spærring af kunder.
 |**Alle**|Ingen transaktioner er tilladt for kunden – heller ikke indbetalinger.|  
 
 ## <a name="to-block-a-customer"></a>Sådan blokeres en kunde  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
 2. Vælg en kunde, og vælg derefter handlingen **Rediger**.
 3. I feltet **Spærret** skal du vælge, hvad der skal spærres, som beskrevet i tabellen ovenfor.
 

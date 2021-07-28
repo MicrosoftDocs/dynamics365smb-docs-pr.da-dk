@@ -1,6 +1,6 @@
 ---
 title: Metoder til afskrivning af anlægsaktiver
-description: Lære mere om de indbyggede metoder til afskrivning eller nedskrivning af anlægsaktiver i standardversionen af Business central.
+description: Lære mere om de indbyggede metoder til afskrivning eller nedskrivning af anlægsaktiver i standardversionen af Business central, der omfatter otte metoder.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.date: 04/01/2021
+ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: 9e531a4f304829b0549fbe21e8d671708373ab22
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 649a60f815da072a1a2794492c4e957ca74d8e08
+ms.sourcegitcommit: a8a01561f46c0a60f8bfd7985be0dcd3e28441fa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774151"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343370"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Metoder til afskrivning af anlægsaktiver
 
@@ -29,7 +29,7 @@ Der er otte tilgængelige afskrivningsmetoder i standardversionen af [!INCLUDE [
 * Brugerdefineret  
 
   > [!NOTE]  
-  > Angive din egen afskrivningsmetode ved at definere Afskrivningstabeller.
+  > Angive din egen afskrivningsmetode ved at definere Afskrivningstabeller. Du kan finde flere oplysninger om anvendelse af en brugerdefineret afskrivningsmetode i [Konfigurere brugerdefineret afskrivningsmetode](fa-how-setup-user-defined-depreciation-method.md).
 * Manuelt  
 
   > [!NOTE]  
@@ -221,74 +221,6 @@ Beregningsmetode:
 
     Det lineære beløb anvendes, fordi det er det største af de to.  
 
-## <a name="user-defined-depreciation"></a>Brugerdefineret afskrivning
-
-Programmet indeholder en funktion, som gør det muligt for dig at konfigurere brugerdefinerede afskrivningsmetoder.  
-
-Med en brugerdefineret metode skal du bruge siden **Afskrivningstabeller**, hvor du skal angive en afskrivningsprocent for hver periode (måned, kvartal, år eller regnskabsperiode). Når du derefter tildeler en afskrivningsprofil med en brugerdefineret metode til et anlægsaktiv, skal du angive feltet **Første brugerdefinerede dato** og **Afskriv fra den relevante anlægsdato** på siden **Anlægsafskrivningsprofiler**.  
-
-Formlen for beregning af afskrivningsbeløbet er:  
-
-*Afskrivningsbeløb = (Afskrivningsprocent x Antal afskrivningsdage x Afskrivningsgrundlag) / (100 x 360)*  
-
-### <a name="depreciation-based-on-number-of-units"></a>Afskrivning baseret på antal enheder
-
-Denne brugerdefinerede metode kan også bruges til afskrivning baseret på antal enheder, f.eks. i forbindelse med produktionsmaskiner med fastlagt levetidskapacitet. På siden **Afskrivningstabeller** kan du angive antallet af enheder, der kan produceres i hver enkelt periode (måned, kvartal, år eller regnskabsperiode).  
-
-### <a name="to-set-up-user-defined-depreciation-methods"></a>Sådan konfigureres brugerdefinerede afskrivningsmetoder
-
-På siden **Afskrivningstabel** kan du oprette brugerdefinerede afskrivningsmetoder. For eksempel kan du konfigurere afskrivning baseret på antal enheder.  
-
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Afskrivningstabeller**, og vælg derefter det relaterede link.  
-2. På siden **Afskrivningstabeloversigt** skal du vælge handlingen **Ny**.  
-3. På siden **Afskrivningstabelkort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-
-> [!TIP]
-> Brug **Tabelfunktionen Opret sum af cifre** til at definere en afskrivningstabel baseret på metode *Sum af cifre*.
-
-Med metoden *Sum af cifre* afskrives et anlæg over fire år, og afskrivningen beregnes for hvert år på følgende måde:
-
-Sum af cifre = 1 + 2 + 3 + 4 = 10 Afskrivning:
-
-* År 1 = 4/10  
-* År 2 = 3/10  
-* År 3 = 2/10  
-* År 4 = 1/10  
-
-### <a name="example---user-defined-depreciation"></a>Eksempel - Brugerdefineret afskrivning
-
-Du bruger en afskrivningsmetode, der gør det muligt at afskrive aktiver hurtigere af skattemæssige årsager.  
-
-Til et anlægsaktiv med en levetid på tre år ville du af skattemæssige årsager anvende følgende afskrivningssatser:  
-
-* År 1: 25 %  
-* År 2: 38 %  
-* År 3: 37 %  
-
-Anskaffelsesprisen er RV 100.000, og afskrivningslevetiden er fem år. Afskrivningen beregnes en gang om året.  
-
-| Dato | Anlægsbogføringstype | Dage | Beløb | Bogført værdi |
-| --- | --- | --- | --- | --- |
-| 01-01-20 |Anskaffelse |(Afskrivningens startdato) |100,000.00 |100,000.00 |
-| 31-12-20 |Afskrivninger |360 |-25.000,00 |75,000.00 |
-| 31-12-21 |Afskrivninger |360 |-38.000,00 |37,000.00 |
-| 31-12-22 |Afskrivninger |360 |-37.000,00 |0 |
-| 31-12-23 |Afskrivninger |Ingen |Ingen |0 |
-| 31-12-24 |Afskrivninger |Ingen |Ingen |0 |
-
-Hvis du bruger en brugerdefineret metode, skal felterne **Første brugerdef. dato** og **Afskriv fra** udfyldes på siden **Anlægsafskrivningsprofiler** for det anlægsaktivet. Feltet **Første brugerdef. afskr.dato** og indholdet i feltet **Periodelængde** på siden **Afskrivningstabeller** bruges til at fastsætte tidsintervallerne til afskrivningsberegninger. Dermed sikres, at den angivne procentdel begynder at blive anvendt på samme dato for alle aktiver. Feltet **Afskriv fra den** bruges til at beregne antallet af afskrivningsdage.  
-
-I det foregående eksempel er begge felter **Første brugerdef. dato** og **Afskriv. startdato** indstilles til 01/01/20 på siden **Anlægsafskrivningsprofiler** for det specifikke anlægsaktiv. Hvis feltet **Første brugerdef. afskr.dato** imidlertid indeholdte 01/01/20, og feltet **Afskriv fra den** indeholdte 04/01/20, ville resultatet være:  
-
-| Dato | Anlægsbogføringstype | Dage | Beløb | Bogført værdi |
-| --- | --- | --- | --- | --- |
-| 01-01-20 |Anskaffelse |(Afskrivningens startdato) |100,000.00 |100,000.00 |
-| 31-12-20 |Afskrivninger |270 |-18.750,00 |81,250.00 |
-| 31-12-21 |Afskrivninger |360 |-38.000,00 |42,250.00 |
-| 31-12-22 |Afskrivninger |360 |-37.000,00 |6,250.00 |
-| 31-12-23 |Afskrivninger |90 |-6.250,00 |0 |
-| 31-12-24 |Afskrivninger |Ingen |Ingen |0 |
-
 ## <a name="half-year-convention-depreciation"></a>Half-Year Convention-afskrivning (US)
 
 Metoden med det halvårlige afskrivningsprincip bliver kun anvendt, hvis du har markeret afkrydsningsfeltet **Brug Half-Year Convention (US)** på siden **Anlægsafskrivningsprofil**.  
@@ -371,7 +303,7 @@ Når du indtaster en post i B1 i anlægskassekladden og markerer afkrydsningsfel
 ## <a name="see-also"></a>Se også
 
 [Anlægsaktiver](fa-manage.md)  
-[Opsætning af anlægsaktiver](fa-setup.md)  
+[Opsætning af Anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  
 [Blive køreklar](ui-get-ready-business.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

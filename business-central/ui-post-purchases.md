@@ -1,6 +1,6 @@
 ---
-title: Om bogføring af købsdokumenter | Microsoft Docs
-description: Lære mere om de forskellige bogføringsfunktioner til bogføring af købsdokumenter, og hvordan du kan opdatere bogførte dokumenter.
+title: Om bogføring af købsdokumenter
+description: Flere oplysninger om de forskellige bogføringsfunktioner til bogføring af købsdokumenter, og hvordan du kan opdatere bogførte dokumenter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 231985097fbca402d2bce14fed66f1a8736975c4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5c29b35b34fc3cf80fd4d41b1d49b857d395e820
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783280"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325909"
 ---
 # <a name="posting-purchases"></a>Bogføring af køb
 På et købsdokument kan du vælge mellem følgende bogføringshandlinger:

@@ -1,6 +1,6 @@
 ---
-title: Modtage og konvertere elektroniske dokumenter | Microsoft Docs
-description: Du kan modtage elektroniske dokumenter direkte fra handelspartnere eller en OCR-tjeneste.
+title: Modtage og konvertere elektroniske dokumenter
+description: Beskriver, hvordan du kan modtage elektroniske dokumenter direkte fra handelspartnere eller en OCR-tjeneste.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 17a03f58ad9cca702423efe6e8810cffe25a7e81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bba45239906820f4c56b948d80a46c8ca427a342
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772550"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435080"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Modtage og konvertere elektroniske dokumenter
 Den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)] understøtter modtagelse af elektroniske fakturaer og kreditnotaer i PEPPOL-formatet, som understøttes af de største udbydere af dokumentudvekslingstjenester. For at modtage en faktura fra en kreditor som et elektronisk PEPPOL-dokument, skal du behandle dokumentet på siden Indgående bilag for at konvertere det til en købsfaktura eller finanskladdelinje i [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -41,7 +41,7 @@ Den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)] underst�
 
 ### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Sådan modtages og konverteres en elektronisk faktura til en købsfaktura  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indgående bilag**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Indgående bilag** og derefter vælge det relaterede link.  
 
 2.  Vælg linjen med den indgående bilagspost, der repræsenterer en ny indgående elektronisk faktura, og vælg derefter handlingen **Rediger**.  
 

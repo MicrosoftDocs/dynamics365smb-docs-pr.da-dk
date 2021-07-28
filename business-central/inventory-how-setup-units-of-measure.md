@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c7f30b26c05be77fd8c601635c58399198e2f595
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 92fc62cf5b1e2db5d1eb34ab2aa9f86823cfe3bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785744"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435543"
 ---
 # <a name="set-up-units-of-measure"></a>Oprette måleenheder
 
@@ -30,7 +30,7 @@ Hvis en vare lagerføres i én enhed, men produceres i en anden, kan der oprette
 
 ## <a name="to-set-up-units-of-measure"></a>Sådan oprettes måleenheder
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Enheder**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **måleenheder**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. En ny tom linje er indsat.  
 3. Udfyld felterne. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 4. Hvis du ved, at din organisation sælger varer med denne enhed til kunder i andre lande/områder, kan du tilføje oversættelser.  
@@ -43,7 +43,7 @@ Når du registrerer en ny vare, kan du vælge basisenheden på listen over de m�
 
 ## <a name="to-set-up-multiple-item-units-of-measure"></a>Sådan konfigurerer du flere vareenheder
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Åbn varekortet for den vare, du vil angive alternative enheder for.
 3. Vælg handlingen **Enheder**. Siden **Vareenheder** åbnes.
 4. Hvis feltet **Basisenhed** på varekortet er udfyldt, er denne enhed allerede konfigureret.
@@ -63,7 +63,7 @@ Du kan nu bruge alternative enheder på købs-, produktions- og salgsdokumenter 
 
 Når du sælger varer til udenlandske kunder, kan det være nødvendigt at angive enheden på kundens sprog. Det kan du gøre, når du har defineret de nødvendige enhedsoversættelser.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Enheder**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **måleenheder**, og vælg derefter det relaterede link.
 2. Marker den kode, du vil konfigurere oversættelser for, og vælg derefter handlingen **Oversættelser**.
 3. Vælg rullepilen i feltet **Sprogkode** for at se en liste over tilgængelige sprogkoder. Vælg den sprogkode, du vil angive en oversættelse til, og klik derefter på OK for at kopiere koden over i feltet.
 4. Indsæt den relevante tekst i feltet **Beskrivelse**.
@@ -73,7 +73,7 @@ Når du sælger varer til udenlandske kunder, kan det være nødvendigt at angiv
 
 Hvis du normalt køber eller sælger i andre enheder end basisenheden, kan du angive særskilte enheder, som skal bruges ved køb og salg. Det gør du ved at definere enhederne på siden **Vareenheder**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Åbn det varekort, du vil angive en standardenhedskode for salg eller køb.
 3. For salg skal du i oversigtspanelet **Fakturering** i feltet **Salgsenhed** åbne siden **Vareenheder**.
 4. For køb skal du i oversigtspanelet **Genbestilling** i feltet **Købsenhed** åbne siden **Vareenheder**.

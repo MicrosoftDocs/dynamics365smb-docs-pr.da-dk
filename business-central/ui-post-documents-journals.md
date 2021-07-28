@@ -1,6 +1,6 @@
 ---
-title: Oversigt over bogføring af dokumenter og kladder | Microsoft Docs
-description: Beskriver bogføring af handlinger og de måder, du kan bogføre dokumenter og kladder.
+title: Oversigt over bogføring af dokumenter og kladder
+description: I dette emne beskrives bogførings handlinger, og hvordan du kan bogføre dokumenter og kladder i de forskellige regnskaber.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5d34178523d0020d35c4f24985871a05fed33e49
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2dda99dcab416465b6abc68af32b6bf99e83f56a
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783289"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325934"
 ---
 # <a name="posting-documents-and-journals"></a>Bogføring af dokumenter og kladder
 Bogføringen repræsenterer regnskabshandlingen, som registrerer forretningstransaktioner i forskellige virksomhedsfinanskonti.
