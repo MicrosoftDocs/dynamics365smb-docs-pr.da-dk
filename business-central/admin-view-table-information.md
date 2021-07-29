@@ -7,14 +7,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: 7a01143dd7928d5996c1620676a758ea634bdf5d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 581d92010fa566c33775ffd6238ca6e0cfca0837
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776887"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443075"
 ---
 # <a name="viewing-table-information"></a>Sådan ser du tabeloplysninger
 
@@ -24,7 +24,7 @@ Disse oplysninger kan være nyttige til fejlfinding i forbindelse med ydeevnen, 
 
 ## <a name="viewing-table-information"></a>Sådan ser du tabeloplysninger
 
-Hvis du vil åbne denne side, skal du klikke på ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angive **Tabeloplysninger** og derefter vælge det relaterede link.
+Hvis du vil åbne denne side, skal du vælge ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, åbn **Tabeloplysninger**, og vælg derefter det relaterede link.
 
 Følgende tabel indeholder en beskrivelse af de oplysninger, der er angivet for hver tabel:
 

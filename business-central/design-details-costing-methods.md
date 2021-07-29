@@ -1,6 +1,6 @@
 ---
-title: Designoplysninger – Kostmetoder | Microsoft Docs
-description: Dette emne beskriver, hvordan kostmetoden afgør, om en faktisk eller budgetteret værdi føres som aktiv og bruges i beregningen af kostprisen.
+title: Designoplysninger - Kostmetoder
+description: Dette emne beskriver, hvordan kostmetoden afgør, om en faktisk og budgetteret værdi føres som aktiv og bruges i beregningen af kostprisen.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9f42e2ba8bf5f281be509bd58c5f88fa53ef7ba1
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: b3bfdbc2fb163d48edb6bf22eb79efa01b63090f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215349"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442431"
 ---
 # <a name="design-details-costing-methods"></a>Designoplysninger: Kostmetoder
 
@@ -36,7 +36,7 @@ Følgende metoder understøttes i [!INCLUDE[prod_short](includes/prod_short.md)]
 
  Følgende billede viser, hvordan omkostningerne passerer gennem lageret for hver kostmetode.  
 
- ![Omkostningsmetoder](media/design_details_inventory_costing_7_costing_methods.png "Omkostningsmetoder")  
+ ![Omkostningsmetoder.](media/design_details_inventory_costing_7_costing_methods.png "Omkostningsmetoder")  
 
  Kostmetoder varierer i den måde, hvorpå de værdiansætter lagerreduceringer, og om de bruger faktiske omkostninger eller standardomkostninger som værdigrundlag. Den følgende tabel beskriver de forskellige karakteristika. (LIFO-metoden er udelukket, da den minder meget om FIFO-metoden).  
 

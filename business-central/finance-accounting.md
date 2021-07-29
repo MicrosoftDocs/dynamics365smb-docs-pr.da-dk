@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9e6dd99b1ea8da7099932185a7da18b0419a244e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8e988e0b23f29f4b9969a9682eac2e2e91a30fcc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780931"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442796"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Revisoroplevelser i [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -33,7 +33,7 @@ Hvis du arbejder i flere [!INCLUDE [prod_short](includes/prod_short.md)]-firmaer
 
 ## <a name="inviting-your-external-accountant-to-your-prod_short"></a><a name="inviteaccountant"></a>Inviter din eksterne revisor indenfor i din [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Hvis du bruger en ekstern revisor til at administrere dine regnskaber og regnskabsaflæggelse, kan din administrator invitere ham eller hende indenfor i din [!INCLUDE[prod_short](includes/prod_short.md)], så de kan samarbejde med dig om dine regnskabsdata. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder tre licenser af typen Ekstern revisor. Du kan finde flere oplysninger om licenser i [Licensvejledning til Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?LinkId=871590).
+Hvis du bruger en ekstern revisor til at administrere dine regnskaber og financial reporting, kan din administrator invitere ham eller hende indenfor i din [!INCLUDE[prod_short](includes/prod_short.md)], så de kan samarbejde med dig om dine regnskabsdata. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder tre licenser af typen Ekstern revisor. Du kan finde flere oplysninger om licenser i [Licensvejledning til Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?LinkId=871590).
 
 Når din revisor har fået adgang til dit [!INCLUDE[prod_short](includes/prod_short.md)], kan han eller hun bruge rollecenteret **Regnskabsmedarbejder**, der giver nem adgang til de mest relevante sider for deres arbejde. De kan også bruge virksomheds hubben [!INCLUDE [prod_short](includes/prod_short.md)] til at styre deres arbejde. Du kan finde flere oplysninger i [Administrer arbejde på tværs af flere firmaer i virksomhedens hub](company-hub.md).  
 
@@ -44,7 +44,7 @@ Vi har gjort det nemt for dig at invitere din eksterne revisor. Du skal blot åb
 > [!Note]  
 > Dette kræver, at du har oprettet SMTP-mail. Du kan finde flere oplysninger i [Konfigurer mail](admin-how-setup-email.md).  
 
-<!-- ![Invite your accountant](./media/finance-invite-accountant/invite-accountant.png)-->
+<!-- ![Invite your accountant.](./media/finance-invite-accountant/invite-accountant.png)-->
 
 > [!IMPORTANT]  
 > Revisorens mailadresse skal være en arbejdsadresse, der er baseret på Azure Active Directory. Hvis revisoren bruger en anden type mail, så kan invitationen ikke sendes.
@@ -91,7 +91,7 @@ Revisoren modtager en e-mail, der giver vedkommende besked om, at han eller hun 
 #### <a name="to-add-the-accountant-to-the-right-company"></a>Sådan føjes revisoren til den rigtige virksomhed
 
 1. Åbn den [!INCLUDE[prod_short](includes/prod_short.md)]-virksomhed, du vil give revisoren adgang til, på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
-2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugere**, og vælg derefter det relaterede link.  
+2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugere**, og vælg derefter det relaterede link.  
 3. Vælg handlingen **Hent nye brugere fra Microsoft 365**.
 
 Denne importerer den brugerkonto, som du oprettede på Azure-portalen, til virksomheden. Du kan finde flere oplysninger i [Sådan tilføjes en bruger i Business Central](ui-how-users-permissions.md#adduser).  

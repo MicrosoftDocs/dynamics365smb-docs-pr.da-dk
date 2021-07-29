@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a27556350851de61bd31504d0c29ef60df6d890a
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: a2dd15629dfde9d2cefe6c04b758c1b88075253b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017170"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443689"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortering, søgning og filtrering
 
@@ -24,7 +24,7 @@ Der er et par ting, du kan gøre som en hjælp til at scanne, finde og begrænse
 I forbindelse med rapporter og XMLporte kan du angive filtre for at afgrænse, hvilke data der skal medtages i rapporten eller XMLport, men du kan ikke sortere og søge.
 
 > [!TIP]
-> Når du får vist dataene som felter, kan du søge og bruge grundlæggende filtrering. Når du vil bruge et komplet sæt af effektive funktioner til sortering, søgning eller filtrering, skal du vælge ikonet ![Vis som liste](media/ui_show_as_list_icon.png "Vis som liste pil til venstre") for at få vist posterne som en liste.
+> Når du får vist dataene som felter, kan du søge og bruge grundlæggende filtrering. Når du vil bruge et komplet sæt af effektive funktioner til sortering, søgning eller filtrering, skal du vælge ![Vis som liste.](media/ui_show_as_list_icon.png "Vis som liste pil til venstre") Ikon for at få vist posterne som en liste.
 
 <!--
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
@@ -45,7 +45,7 @@ Hvis du vil sortere en liste, kan du enten:
 ## <a name="searching"></a>Søgning
 
 <!--## Searching by using the Quick Filter -->
-Øverst på hver oversigtsside finder du handlingen ![Søgeoversigt](media/ui-search/search-list.png "Ikonet Søgeoversigt") **Søg**, der er en hurtig og nem måde at reducere posterne på en liste på og kun viser de poster, der indeholder data, som du er interesseret i at få vist.
+Øverst på hver listeside findes der en ![Søgeliste.](media/ui-search/search-list.png "Ikonet Søgeoversigt") **Søg**-handling giver en hurtig og nem måde at reducere posterne på en liste på og kun viser de poster, der indeholder data, som du er interesseret i at få vist.
 
 Du søger ved at vælge handlingen **Søg** og derefter skrive den tekst, du leder efter, i feltet. Du kan skrive bogstaver, tal og andre symboler.
 
@@ -144,7 +144,7 @@ Både i filterruden og på en anmodningsside angiver du filterkriterierne i felt
 
 Filterfeltets type er bestemmende for, hvilke kriterier du kan angive. For eksempel kan du, når du filtrerer et felt, der har faste værdier, kun vælge mellem disse værdier. Du kan finde yderligere oplysninger om særlige filtersymboler i [Filterkriterier](#FilterCriteria) og [Filtertokens](#FilterTokens).
 
-Kolonner, som allerede indeholder filtre, er angivet med ikonet ![Filter](media/ui-search/filter-icon.png "Filter-ikon") i kolonneoverskriften. Hvis du vil fjerne et filter, skal du vælge rullepilen og derefter vælge handlingen **Ryd filter**.
+Kolonner, som allerede indeholder filtre, er angivet med ikonet ![Filter.](media/ui-search/filter-icon.png "Filter-ikon") ikonet i kolonneoverskriften. Hvis du vil fjerne et filter, skal du vælge rullepilen og derefter vælge handlingen **Ryd filter**.
 
 > [!TIP]
 > Fremskynd søgning efter og analyse af dine data ved hjælp af kombinationer af genvejstaster. For f.eks. at markere et felt skal du bruge **Skift + Alt + F3** for at føje dette felt til filterruden, angive filterkriterierne, bruge **Ctrl + Enter** for at vende tilbage til rækkerne, vælge et andet felt og bruge **Alt + F3** til at filtrere til værdien. Du kan finde flere oplysninger i [Tastaturgenveje](keyboard-shortcuts.md#KeyboardFilter).

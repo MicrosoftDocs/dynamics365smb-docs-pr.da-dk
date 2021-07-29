@@ -1,6 +1,6 @@
 ---
-title: Angive datoer og klokkeslæt i Business Central | Microsoft Docs
-description: Få at vide, hvordan du angiver datoer og tidspunkter med forskellige produktivitetstip som oversigter, udtryk og områder. Filtrer lister eller rapporter ned til en bestemt dato eller tidsperioder.
+title: Angive datoer og klokkeslæt i Business Central
+description: Få at vide, hvordan du angiver datoer og tidspunkter med forskellige produktivitetstip som oversigter, udtryk og områder.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 404c39cba663cebc4d9ab30126de97bd20cf7e8e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8254afc467474906dd80ae76ba134a0bce88c3a0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773526"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443639"
 ---
 # <a name="working-with-calendar-dates-and-times"></a>Arbejde med kalenderdatoer og klokkeslæt
 
@@ -48,7 +48,7 @@ For at arbejde mere produktivt med datoer og klokkeslæt kan du bruge de metoder
 
 De felter, der viser et kalenderikon, kan angives ved hjælp af kalenderdatovælgeren. Aktiver kalenderikonet for at få vist kalenderdatovælgeren, eller tryk på Ctrl + Home-tastaturgenvejen i feltet.
 
-![Datofelter1](media/ui-date-field.png "Eksempel på et datofelt")
+![Datofelter.](media/ui-date-field.png "Eksempel på et datofelt")
 
 Se også [Tastaturgenveje i kalenderdatovælgeren](keyboard-shortcuts.md#calendarshortcuts).
 
@@ -72,7 +72,7 @@ I et datofelt kan du indtaste to, fire, seks eller otte cifre:
 
 ### <a name="today"></a>I dag
 
-Angiv ordet for i dag på det valgte sprog i indstillingen **Sprog**. Dette indstiller datoen til dags dato. I stedet for at angive hele ordet kan du angive en del af det fra begyndelsen, f.eks. d eller dags , så længe det ikke også er begyndelsen på et andet ord.
+Indtast ordet for _i dag_, på det sprog, der er angivet på siden **Mine indstillinger**, for at angive datoen på en post til dags dato. I stedet for at skrive hele ordet kan du skrive en del af ordet fra begyndelsen. Du kan f. eks. skrive _t_ eller _tod_, så længe det ikke også er starten på et andet ord.
 
 ### <a name="period"></a>Periode
 
@@ -80,15 +80,13 @@ For at filtrere på en bestemt regnskabsperiode skal du i et datofelt skrive bog
 
 Regnskabsperioden defineres på siden **Regnskabsperioder**. Hvis du vil se eller ændre regnskabsperioderne, skal du åbne siden [her](https://businesscentral.dynamics.com/?page=100).
 
-### <a name="current-work-date"></a>Aktuel arbejdsdato
+### <a name="work-date"></a>Arbejdsdato
 
-Med arbejdsdatofunktionen kan du registrere transaktioner ved hjælp af en anden dato end dags dato.
+Brug en arbejdsdato til at angive en dato, der ikke er dags dato på poster. En arbejdsdato er f. eks. nyttig, når du skal angive en bestemt dato for flere poster. Du kan angive arbejdsdatoen på siden **Mine indstillinger**. 
 
-Ordet for 'workdate' (arbejdsdato) på det sprog, der er angivet i indstillingen **Sprog**, indstiller datoen til den aktuelt angivne arbejdsdato, der er angivet på siden **Mine indstillinger**. I stedet for at skrive hele ordet kan du skrive en del af ordet fra begyndelsen, f.eks. 'a' eller 'arbejds'.
+En hurtig måde at indtaste arbejdsdatoen på i posterne er at indtaste noget af eller hele ordet _arbejde_, startende fra begyndelsen af ordet, på det sprog, du bruger [!INCLUDE[prod_short](includes/prod_long.md)]. Du kan f. eks. indtaste _a_ eller _arbejde_. Sproget er også angivet på siden **Indstillinger**.
 
-Hvis du ikke har angivet en arbejdsdato, bliver dags dato brugt som arbejdsdato. Det er en fordel at anvende en arbejdsdato, hvis du har mange transaktioner at udføre på en dato, der ikke er dags dato.
-
-Se også [Ændre grundlæggende indstillinger, f.eks. arbejdsdatoen](ui-change-basic-settings.md#work-date).
+Hvis du ikke har angivet en arbejdsdato, bruges dags dato. Se også [Ændre grundlæggende indstillinger, f.eks. arbejdsdatoen](ui-change-basic-settings.md#work-date).
 
 ### <a name="closing-date"></a>Ultimodato
 
@@ -199,7 +197,7 @@ Følgende eksempel viser, hvordan du kan bruge et minustegn til at angive en dat
 # Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
-![Setting a date range in the request page for the Customer Top 10 list](./media/ui-enter-date-ranges/customer-top10-list.png)
+![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
 
 Here you can limit the report to a date range such as the past 2 weeks, or a total of 6 weeks, or whatever range you want. To set date ranges, you enter dates and then use either **..** or **|** to set the range. In our example, to show the top 10 customers for the first two weeks of May, you would set the date filter to *05 01 17..05 14 17*.
 Here are a couple of other examples:

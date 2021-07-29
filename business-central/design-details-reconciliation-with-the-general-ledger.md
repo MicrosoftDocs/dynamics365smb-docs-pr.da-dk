@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: ad155e604780af087c93e4e245002f3511d3d5a9
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: eafc3f6ac86584cbf2bab6e5a5a82639ea718fc5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215796"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442331"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designoplysninger: Afstemning med Finans
 Når du bogfører lagertransaktioner, f.eks. salgsleverancer, produktionsafgang eller nedreguleringer, registreres ændringen i antal og værdi for lageret i vareposterne og værdiposterne. Det næste trin i processen er at bogføre lagerværdierne på lagerkontiene i finansregnskabet.  
@@ -82,16 +82,16 @@ Følgende tabel viser, hvordan arbejdscenteret er angivet på arbejdscenterkorte
     1. Mellemregningskonti ryddes. (Salg)  
     2. Kostpris for solgte varer bogføres. (Salg)  
 
-        ![Resultaterne af bogføring af salg på finanskonti](media/design_details_inventory_costing_3_gl_posting_sales.png "Resultaterne af bogføring af salg på finanskonti")  
+        ![Resultaterne af bogføring af salg på finanskonti.](media/design_details_inventory_costing_3_gl_posting_sales.png "Resultaterne af bogføring af salg på finanskonti")  
 5. Brugeren bogfører forbruget af 150 led, som er antallet led, der bruges til at fremstille en kæde. (Forbrug, materiale)  
 
-    ![Resultaterne af bogføring af materialer på finanskonti](media/design_details_inventory_costing_3_gl_posting_material.png "Resultaterne af bogføring af materialer på finanskonti")  
+    ![Resultaterne af bogføring af materialer på finanskonti.](media/design_details_inventory_costing_3_gl_posting_material.png "Resultaterne af bogføring af materialer på finanskonti")  
 6. Arbejdscentret brugte 60 minutter på at fremstille kæden. Brugeren bogfører konverteringsomkostningerne. (Forbrug, kapacitet)  
 
     1. De direkte omkostninger bogføres. (Forbrug, kapacitet)  
     2. De indirekte omkostninger beregnes og bogføres. (Forbrug, kapacitet)  
 
-        ![Resultaterne af bogføring af kapacitet på finanskonti](media/design_details_inventory_costing_3_gl_posting_capacity.png "Resultaterne af bogføring af kapacitet på finanskonti")  
+        ![Resultaterne af bogføring af kapacitet på finanskonti.](media/design_details_inventory_costing_3_gl_posting_capacity.png "Resultaterne af bogføring af kapacitet på finanskonti")  
 7. Brugeren bogfører de forventede omkostninger for en kæde. (Afgang)  
 8. Brugeren afslutter produktionsordren og udfører kørslen **Juster kostpris – vareposter**. (Afgang)  
 
@@ -100,7 +100,7 @@ Følgende tabel viser, hvordan arbejdscenteret er angivet på arbejdscenterkorte
     3. Den indirekte omkostning overføres fra den indirekte omkostningskonto til lagerkontoen. (Afgang)  
     4. Dette medfører en prisafvigelse på RV 157,00. Afvigelser beregnes kun for varer med standardkostpriser. (Afgang)  
 
-        ![Resultaterne af bogføring af afgang på finanskonti](media/design_details_inventory_costing_3_gl_posting_output.png "Resultaterne af bogføring af afgang på finanskonti")  
+        ![Resultaterne af bogføring af afgang på finanskonti.](media/design_details_inventory_costing_3_gl_posting_output.png "Resultaterne af bogføring af afgang på finanskonti")  
 
         > [!NOTE]  
         >  Af hensyn til overskueligheden vises kun én afvigelseskonto. I virkeligheden findes fem forskellige konti:  
@@ -113,7 +113,7 @@ Følgende tabel viser, hvordan arbejdscenteret er angivet på arbejdscenterkorte
 
 9. Brugeren regulerer kæden fra RV 150,00 til 140,00. (Regulering/værdiregulering/afrunding/overførsel)  
 
-    ![Resultaterne af bogføring af justeringer på finanskonti](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Resultaterne af bogføring af justeringer på finanskonti")  
+    ![Resultaterne af bogføring af justeringer på finanskonti.](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Resultaterne af bogføring af justeringer på finanskonti")  
 
 Du kan finde flere oplysninger om forholdet mellem kontotyperne og de forskellige typer værdiposter i [Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md).  
 

@@ -1,20 +1,20 @@
 ---
-title: Administrere brugere og roller | Microsoft Docs
-description: Lære at administrere brugere og rollecentre i Business Central.
+title: Administrere brugere og roller
+description: Lære at administrere brugerprofiler og rollecentre i Business Central. Med profiler kan administratorer centralt definere og styre, hvad brugerne kan se og gøre.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 8ccfd6b7e39acc460fcd32dbc2f20fb71fc01ae0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 74f8b0a7bdd4c95bee12b14c8354de68cafc1649
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776962"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443125"
 ---
-# <a name="manage-profiles"></a>Administrere profiler
+# <a name="manage-user-profiles"></a>Administrere brugerprofiler
 
 Alle brugere af [!INCLUDE[prod_short](includes/prod_short.md)] tildeles en profil, der afspejler deres forretningsrolle, den afdeling, de arbejder i, eller en anden kategorisering. Med profilerne kan administratorer definere og styre centralt, hvad forskellige brugertyper der kan se og foretage sig i brugergrænsefladen, så de kan udføre deres forretningsopgaver på en effektiv måde.
 
@@ -31,7 +31,7 @@ Du kan tilpasse sidelayout for en profil, så alle brugere, som profilen er tild
 ## <a name="to-create-a-profile"></a>Sådan oprettes en profil
 Hvis du ikke kan kopiere en eksisterende profil, kan du oprette en ny profil manuelt.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Profiler (roller)**, og vælg derefter det relaterede link.  
+1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, skriv **Profiler (roller)**, og vælg derefter det relaterede link.  
 2. På siden **Profiler (roller)** skal du vælge handlingen **Ny**.  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -66,7 +66,7 @@ På siden **Mine indstillinger** kan brugere definere grundlæggende funktioner 
 
 Som administrator kan du definere disse indstillinger for en profil og dermed anvende indstillingerne for alle brugere af den relaterede rolle.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Profiler (roller)**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Profiler (roller)**, og vælg derefter det relaterede link.
 2. Marker linjen for den profil, du vil ændre brugerindstillingerne for, vælg handlingen **Brugertilpasninger**.
 3. På siden **Brugertilpasninger** skal du åbne kortet for den bruger, hvis indstillinger du vil ændre.
 4. På siden **Brugertilpasningskort** kan du redigere felterne efter behov.
@@ -108,7 +108,7 @@ Du kan slette en profil ved at vælge handlingen **Slet** på siden **Profiler (
 ## <a name="to-delete-all-personalizations-made-by-a-user"></a>Sådan slettes alle tilpasninger, der er foretaget af en bruger
 Du kan slette alle de ændringer, som en bruger har foretaget på sider, der udgør deres arbejdsområde. Det kan f.eks. være nyttigt, hvis en medarbejder har skiftet rolle og ikke længere har brug for personlige indstillinger. Sletning af brugeres tilpasninger ændrer sidelayoutet tilbage til det, der er defineret af profilen.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugertilpasninger**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugertilpasninger**, og vælg derefter det relaterede link.
 
     Siden **Brugertilpasninger** viser alle brugere, der har foretaget tilpasninger.
 
@@ -122,7 +122,7 @@ Du kan også slette alle sidetilpasninger for en profil. Du kan finde flere oply
 ## <a name="to-delete-personalizations-for-specific-pages"></a>Sådan slettes tilpasninger for bestemte sider
 Du kan slette tilpasninger, som en eller flere brugere har foretaget på bestemte sider, som udgør deres arbejdsområde. Det kan f.eks. være nyttigt, hvis en ændret forretningsproces betyder, at en bruger ikke længere må bruge tilpasningen. Sletning af brugeres tilpasninger ændrer sidelayoutet tilbage til det, der er defineret af profilen.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Tilpasning af brugersider**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugersidetilpasninger**, og vælg derefter det relaterede link.
 
     Siden **Tilpasning af brugersider** viser alle de sider, der er blevet tilpasset, og den bruger, de tilhører.
 

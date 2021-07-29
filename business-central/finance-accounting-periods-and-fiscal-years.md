@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b4daacd73987e4e747f97d288ecfb51b564de7e6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e348ce883493ec621b6dbe4bc5855e0c8318178b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781032"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442821"
 ---
 # <a name="working-with-accounting-periods-and-fiscal-years"></a>Arbejde med regnskabsperioder og regnskabsår
 
@@ -35,7 +35,7 @@ Du kan oprette flere regnskabsperioder ad gangen ved hjælp af **Opret regnskabs
 
 Brug **Opret regnskabsår**-kørslen til at opdele et regnskabsår i perioder af samme varighed.  
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Regnskabsperioder**, og vælg derefter det relaterede link.  
+1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, skriv **Regnskabsperioder**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Opret år**.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
 3. I feltet **Startdato** kan du angive den dato, hvor regnskabsåret begynder.  
 4. I feltet **Antal perioder** kan du angive det antal perioder, du vil opdele regnskabsåret i. Der kan være op til 365 perioder pr. år.  
@@ -46,7 +46,7 @@ Brug **Opret regnskabsår**-kørslen til at opdele et regnskabsår i perioder af
 
 Hvis regnskabsperioderne i regnskabsåret, der har forskellig varigheder som 4-4-5-kalender, der anvendes i detail, du kan oprette det manuelt.  
   
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Regnskabsperioder**, og vælg derefter det relaterede link.  
+1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, skriv **Regnskabsperioder**, og vælg derefter det relaterede link.  
 2. I feltet **Startdato** kan du angive den dato, hvor regnskabsåret begynder. Feltet **Navn** viser navnet på måneden.  
 3. Marker afkrydsningsfeltet **Nyt regnskabsår** for at angive, at dette er den første periode i året. [!INCLUDE[prod_short](includes/prod_short.md)] bruger denne periode til at bestemme, hvilke perioder der skal lukkes ved udgangen af året.
 4. Gentag trin 2 og 3 for hver resterende periode.  
@@ -58,7 +58,7 @@ Lukning af regnskabsåret er en af opgaverne, når regnskaberne skal afsluttes. 
 > [!NOTE]  
 > Du skal altid være mindst ét åbent regnskabsår. Når du lukker et år, skal du sikre dig, der er oprettet et nyt år. Bemærk også, at når du har afsluttet ét regnskabsår, er det ikke muligt at ændre startdatoen for det efterfølgende år.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Regnskabsperioder**, og vælg derefter det relaterede link.  
+1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, skriv **Regnskabsperioder**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Afslut år**.  
 
 ## <a name="posting-entries-to-a-closed-fiscal-year"></a>Bogføre poster til et afsluttet regnskabsår

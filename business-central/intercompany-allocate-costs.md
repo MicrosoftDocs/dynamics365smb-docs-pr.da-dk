@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 471a5151314645f21f163a8f9044b168ac5a8bb3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b1946ce8d23a8f9e8f6d48a527060727a9bc3447
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786319"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444251"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Allokere omkostninger til IC-partnere
 Når du bruger Intercompany-bogføringer til at overføre dokumenter mellem partner firmaer, har momsrelaterede indstillinger (primært den momsvirksomhedsbogføringsgruppe), der er tildelt debitor-eller kreditorkontiene (associeret med IC-partneren), at bestemme, om og hvordan moms skal beregnes og registreres. Du kan også foretage omkostningsfordelinger direkte fra en købsordre til partnervirksomheder. Hvis du f.eks. registrerer en købsfaktura fra en ekstern leverandør, og du vil distribuere nogle eller alle omkostninger til en eller flere IC-partnere.
@@ -30,7 +30,7 @@ Du kan allokere omkostninger til en eller flere IC-partnere på følgende måde:
 ## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Sådan allokeres omkostninger vha. en IC-finanskladde
 Hvis du vil angive en linje i en IC-finanskladde, skal du følge disse trin. 
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncerninterne finanskladder**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncerninterne finanskladder**, og vælg derefter det relaterede link.
 2. Hvis det er nødvendigt, skal du angive **Eksternt bilagsnr.** i feltet på fakturaen fra kreditoren.
 3. Marker **Dokumenttype** i feltet og vælg **faktura**.
 4. I feltet **Kontotype** skal du vælge **Kreditor**.
@@ -57,7 +57,7 @@ Følgende procedure beskriver, hvordan du allokerer omkostninger ved hjælp af e
 > [!NOTE]
 > Hvis du vil udføre disse trin, skal du tilpasse siden **Købsfaktura** ved at tilføje felterne **IC-partnerkode**, **IC-partner Ref. type** og **IC-partner**. Du kan finde flere oplysninger i [Start af tilpasning af en side gennem det personlige banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfaktura**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogført købsfaktura**, og vælg derefter det relaterede link.
 2. I feltet **Type** skal du vælge **Finanskonto**.
    
    Finanskonto er den eneste mulighed, du kan bruge til at allokere omkostninger.  
@@ -70,7 +70,7 @@ Følgende procedure beskriver, hvordan du allokerer omkostninger ved hjælp af e
 1. Du kan bogføre købsordren ved at vælge **Bogfør**.
 
 ## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Send de allokerede omkostninger til IC-partnere
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **IC-udbakketransaktioner**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **IC-udbakketransaktioner**, og vælg derefter det relaterede link.
 2. Vælg de linjer, der skal sendes, og vælg derefter handlingen **Send til IC-partner**. 
 3. Hvis du vil fordele omkostningerne, skal du vælge handlingen **Fuldfør linjehandlinger**.
 

@@ -1,6 +1,6 @@
 ---
-title: Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner
-description: Bruge XML-skemaer til at konfigurere til dokumentudvekslingsstrukturen.
+title: XML-skemaer til at forberede dataudvekslingsdefinitioner
+description: Brug XML-skemaer til at angive data udvekslings strukturen for at definere, hvilke dataelementer du vil udveksle med.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 70e80403175c6a77d120a3b405b1b5758410c227
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 42afc2d2de9d705d90a92166084b492c3a328674
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781357"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444064"
 ---
 # <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner
 
@@ -35,7 +35,7 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 
 1. Sørg for, at den pågældende XML-skemafil er tilgængelig. Filtypenavnet er .xsd.  
 
-2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **XML-skemaer**, og vælg derefter det relaterede link.  
+2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **XML-skemaer**, og vælg derefter det relaterede link.  
 
 3. Vælg handlingen **Ny**.  
 
@@ -57,7 +57,7 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Sådan markeres eller fjernes markeringen af noder i et XML-skema  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **XML-skemafremviser**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **XML-skemaviser**, og vælg derefter det relaterede link.  
 
 2. Udfyld felterne i sidehovedet som beskrevet i følgende tabel.  
 
@@ -95,7 +95,7 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Sådan oprettes en dataudvekslingsdefinition, der er baseret på et XML-skema  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **XML-skemaer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **XML-skemaer**, og vælg derefter det relaterede link.  
 
 2. Vælg det relevante XML-skema, og vælg derefter handlingen **Åbn XML-skemafremviser**.  
 

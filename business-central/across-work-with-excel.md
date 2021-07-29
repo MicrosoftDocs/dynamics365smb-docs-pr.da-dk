@@ -10,37 +10,41 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7e3abf36444c4701229ffaac7ceade11bb1879cc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6bf12f55f6bce843c4ed12f2a40db542367fffde
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786928"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443465"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Visning og redigering i Excel fra Business Central
 
-Med sider, der viser en liste over poster i rækker og kolonner, f.eks. en liste over debitorer, salgsordrer eller fakturaer, kan du også få vist posterne ved hjælp af Microsoft Excel. Du har to muligheder for at gøre dette. Du kan vælge enten handlingen **Åbn i Excel** eller handlingen **Rediger i Excel** på siden. Forskellen på de to handlinger er følgende:  
+Med sider, der viser en liste over poster i rækker og kolonner, f.eks. en liste over debitorer, salgsordrer eller fakturaer, kan du også få vist posterne ved hjælp af Microsoft Excel. Afhængigt af siden har du to muligheder for at få vist i Excel. Du kan vælge enten handlingen **Åbn i Excel** eller handlingen **Rediger i Excel** på siden. I denne artikel forklares forskellene mellem de to handlinger.
 
 ## <a name="open-in-excel"></a>Åbn i Excel
 
+Med handlingen **Åbn i Excel** kan du foretage ændringer af posterne i Excel, men du kan ikke udgive ændringerne igen [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan kun gemme ændringerne til en Excel-fil på computeren.
+
 - Med denne handling respekterer Excel eventuelle filtre på siden, som begrænser, hvilke poster der vises. Excel-projektmappen indeholder de samme rækker og kolonner, der vises på siden i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-- Du kan foretage ændringer af posterne i Excel, men du kan ikke publicere ændringerne tilbage til [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan kun gemme ændringerne til en Excel-fil på computeren.
-
 - Denne handling fungerer både på Windows og macOS.
+
+- Fra og med opdatering 18,3 kan du også få vist lister, der vises i Sidedele, f. eks. linjerne i en salgsordre. For øjeblikket er denne funktion valgfri, hvilket kræver, at du aktiverer **Eksporter alle lister til Excel** i **funktionsstyring**. Du kan finde flere oplysninger i [Aktivere Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management). 
 
 > [!NOTE]
 > For [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø er handlingen **Åbn i Excel** tilgængelig som standard. Men hvis du konfigurerer [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø til redigering af data i Excel, erstattes handlingen **Åbn i Excel** med handlingen **Rediger i Excel**.
 
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)]  
+
 ## <a name="edit-in-excel"></a>Rediger i Excel
+
+Med handlingen **Rediger i Excel** kan du foretage ændringer af posterne i Excel, men du kan ikke udgive ændringerne igen [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - Med denne handling respekterer Excel de fleste filtre på siden, der begrænser de viste poster, så Excel-projektmappen indeholder næsten de samme poster og kolonner.
 
-- Fordelen ved handlingen **Rediger i Excel** er, at du kan ændre poster i Excel og derefter publicere ændringerne tilbage til [!INCLUDE[prod_short](includes/prod_short.md)].
-
 - Det fungerer kun i Windows, ikke i macOS.
 
-- Du kan skifte den virksomhed, du arbejder med. Skift virksomhed ved at vælge ikonet **Valgmuligheder** ![Valgmuligheder for Excel-tilføjelsesprogram](media/cogwheel.png "Valgmuligheder for Excel-tilføjelsesprogrammet") i ruden Excel-tilføjelsesprogram og derefter vælge virksomheden i feltet **Virksomhed**.  
+- Du kan skifte den virksomhed, du arbejder med. Hvis du vil skifte regnskab, skal du vælge **ikonet indstillinger for** ![Excel-Tilføjelsesprogrammet.](media/cogwheel.png "Valgmuligheder for Excel-tilføjelsesprogrammet") I Excel-tilføjelses ruden skal du vælge regnskabet fra feltet **virksomhed**.  
 
     > [!IMPORTANT]
     > Når du skifter virksomhed, skal du sikre, at feltet **Miljø** ikke er tomt. Hvis det er, skal du angive det som en af de tilgængelige indstillinger. Ellers fungerer tilføjelsesprogrammet ikke korrekt.  

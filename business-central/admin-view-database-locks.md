@@ -1,20 +1,20 @@
 ---
 title: Se databaselåse
-description: Få mere at vide om, hvordan du kan få vist oplysninger om databaselåse direkte fra klientgrænsefladen i Business Central.
+description: Få mere at vide om, hvordan du kan få vist oplysninger om kundedatabaselåse direkte fra klientgrænsefladen i Business Central.
 author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: b53677ab57d6c48b015bb0dd47ea6e315f8e80c3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fb42b07832d33c995299d5033b8c548a37a86f56
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776912"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443100"
 ---
 # <a name="viewing-database-locks"></a>Sådan ser du databaselåse
 
@@ -24,7 +24,7 @@ Brugere kan forhindres i at fuldføre transaktioner på de låste data. De vil t
 
 ## <a name="to-view-database-locks"></a>Sådan ser du databaselåse
 
-Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Databaselåse**, og vælg derefter det relaterede link.
+Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, skriv **Databaselåse**, og vælg derefter det relaterede link.
 
 Siden **Databaselåse** viser et øjebliksbillede af alle aktuelle databaselåse.
 

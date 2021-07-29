@@ -1,6 +1,6 @@
 ---
-title: Definere detaljerede rettigheder | Microsoft Docs
-description: Beskriver, hvordan du kan give brugere adgang til objekter ved at tildele dem rettighedssæt.
+title: Definere granulerede tilladelser
+description: Dette emne beskriver, hvordan du definerer granulerede tilladelser, så bestemte brugere får adgang til objekter og tildeler dem tilladelsessæt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 52a3963267a7f476943f5a6d67f1d51c395ca927
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776713"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443713"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tildele rettigheder til brugere og grupper
 
@@ -53,7 +53,7 @@ Du kan tildele rettighedssæt til brugere på to måder:
 
 ### <a name="to-assign-a-permission-set-on-a-user-card"></a>Sådan tildeles et rettighedssæt på et brugerkort
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugere**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugere**, og vælg derefter det relaterede link.
 2. Vælg den bruger, du vil tildele rettigheden til.
 Ethvert rettighedssæt, der allerede er tildelt brugeren, vises i faktaboksen **Rettighedssæt**.
 3. Vælg handlingen **Rediger** for at åbne siden **Brugerkort**.
@@ -61,14 +61,14 @@ Ethvert rettighedssæt, der allerede er tildelt brugeren, vises i faktaboksen **
 
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Sådan tildeles et rettighedssæt på siden Rettighedssæt efter bruger
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugere**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugere**, og vælg derefter det relaterede link.
 2. På siden **Brugere** skal du vælge den relevante bruger og derefter vælge handlingen **Rettighedssæt efter bruger**.
 3. På siden **Rettighedssæt efter bruger** skal du markere afkrydsningsfeltet **[brugernavn]** på en linje for det relevante rettighedssæt for at tildele sættet til brugeren.
 4. Marker afkrydsningsfeltet **Alle brugere** for at tildele rettighedssættet til alle brugere.
 
 ## <a name="to-get-an-overview-of-a-users-permissions"></a>Sådan får du vist en oversigt over en brugers rettigheder
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugere**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugere**, og vælg derefter det relaterede link.
 2. Åbn den relevante brugers kort.
 3. Vælg handlingen **Gældende rettigheder**.
 
@@ -103,7 +103,7 @@ Rettighedssæt fungerer som objektbeholdere for rettigheder, så du let kan hån
 
 ### <a name="to-create-new-permission-set-from-scratch"></a>Sådan oprettes et nyt rettighedssæt fra bunden
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rettighedssæt**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rettighedssæt**, og vælg derefter det relaterede link.
 2. For at oprette et nyt rettighedssæt skal du vælge handlingen **Ny**.
 3. Udfyld felterne på den nye linje efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Når du har oprettet et rettighedssæt, skal du tilføje de faktiske rettigheder. Du kan finde flere oplysninger i [Sådan oprettes eller redigeres rettigheder manuelt](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
 
@@ -168,7 +168,7 @@ Men brugeren behøver ikke at have fuld adgang til tabellen Salgslinje for at k�
 
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Sådan opretter eller redigerer du rettigheder ved at registrere dine handlinger
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rettighedssæt**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rettighedssæt**, og vælg derefter det relaterede link.
 2. Du kan også vælge handlingen **Rettighedssæt** på siden **Brugere**.
 3. Vælg handlingen **Ny** på siden **Rettighedssæt**.
 4. Udfyld felterne på en ny linje efter behov.
@@ -197,7 +197,7 @@ Rettighedssæt, der er tildelt til en bruger via en brugergruppe, forbliver synk
 
 Følgende procedure beskriver, hvordan du opretter brugergrupper manuelt. Hvis du vil oprette brugergrupper automatisk, skal du se [Sådan kopieres en brugergruppe og alle dens rettighedssæt](ui-define-granular-permissions.md#to-copy-a-user-group-and-all-its-permission-sets).
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugergrupper**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugergrupper**, og vælg derefter det relaterede link.
 2. Du kan også vælge handlingen **Brugergrupper** på siden **Brugere**.
 3. Du kan også vælge handlingen **Medlemmer af brugergruppe** på siden **Brugergruppe**.
 4. Du kan også vælge handlingen **Medlemmer af brugergruppe** på siden **Tilføj brugere**.
@@ -209,7 +209,7 @@ Hvis du hurtigt vil definere en ny brugergruppe, kan du kopiere alle rettighedss
 > [!NOTE]
 > Brugergruppemedlemmerne kopieres ikke til den nye brugergruppe. Du skal tilføje dem bagefter. Yderligere oplysninger finder du i [Sådan grupperes brugere i brugergrupper](ui-define-granular-permissions.md#to-group-users-in-user-groups).
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugergrupper**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugergrupper**, og vælg derefter det relaterede link.
 2. Vælg de brugergrupper, som du vil kopiere, og vælg derefter handlingen **Kopiér brugergruppe**.
 3. I feltet **Ny brugergruppekode** skal du angive et navn til gruppen og derefter vælge knappen **OK**.
 
@@ -217,7 +217,7 @@ Den nye gruppe tilføjes på siden **Brugergrupper**. Fortsæt for at tilføje b
 
 ### <a name="to-assign-permission-sets-to-user-groups"></a>Sådan tildeles rettighedssæt til brugergrupper
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugergrupper**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugergrupper**, og vælg derefter det relaterede link.
 2. Vælg den brugergruppe, du vil tildele rettigheden til.
 Ethvert rettighedssæt, der allerede er tildelt brugeren, vises i faktaboksen **Rettighedssæt**.
 3. Vælg handlingen **Brugerrettighedssæt** for at åbne siden **Brugerrettighedssæt**.
@@ -227,7 +227,7 @@ Ethvert rettighedssæt, der allerede er tildelt brugeren, vises i faktaboksen **
 
 Følgende procedure beskriver, hvordan du tildeler rettighedssæt til en brugergruppe på siden **Rettighedssæt efter brugergruppe**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugere**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugere**, og vælg derefter det relaterede link.
 2. På siden **Brugere** skal du vælge den relevante bruger og derefter vælge handlingen **Rettighedssæt efter brugergruppe**.
 3. På siden **Rettighedssæt efter brugergruppe** skal du markere afkrydsningsfeltet **[brugergruppenavn]** på en linje for det relevante rettighedssæt for at tildele sættet til brugergruppen.
 4. Marker afkrydsningsfeltet **Alle brugergrupper** for at tildele rettighedssættet til alle brugergrupper.
@@ -240,7 +240,7 @@ Følgende procedure beskriver, hvordan du tildeler rettighedssæt til en brugerg
 
 Administratorer kan definere perioder, hvor angivne brugere kan bogføre, og de kan også angive, om systemet skal registrere, hvor lang tid brugerne er logget på. Administratorer kan også knytte ansvarscentre til brugere. Du kan finde flere oplysninger i [Arbejde med ansvarscentre](inventory-responsibility-centers.md).
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugeropsætning**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugeropsætning**, og vælg derefter det relaterede link.
 2. Når siden **Brugeropsætning** åbnes, skal du vælge handlingen **Ny**.
 3. I feltet **Bruger-ID** skal du angive ID'et for en bruger, eller vælge feltet for at få vist alle aktuelle Windows-brugere i systemet.
 4. Udfyld felterne efter behov.

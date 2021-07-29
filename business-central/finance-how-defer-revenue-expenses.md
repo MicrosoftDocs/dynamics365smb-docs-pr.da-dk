@@ -1,6 +1,6 @@
 ---
-title: Periodisere indtægter og udgifter | Microsoft Docs
-description: For at genkende indtægter og udgifter i perioder ud over den periode, hvor transaktionen blev bogført, kan du automatisk periodisere eller udskyde dem inden for et angivet skema.
+title: Periodisere indtægter og udgifter
+description: For at genkende indtægter og udgifter i perioder, hvor transaktionen ikke blev bogført, kan du automatisk periodisere eller udskyde dem inden for et angivet skema.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,14 +9,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: be2a128f2c58c652e3775ef22d0844a042dd3a0e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7df3f75a106503f63d4306bd05345c2fc6af9393
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781627"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442771"
 ---
 # <a name="defer-revenues-and-expenses"></a>Periodisere indtægter og udgifter
 For at genkende en indtægt eller udgift i en periode ud over den periode, hvor transaktionen blev bogført, kan du bruge funktionen til automatisk periodisering af indtægter og udgifter inden for et angivet skema.
@@ -24,7 +24,7 @@ For at genkende en indtægt eller udgift i en periode ud over den periode, hvor 
 For at fordele indtægter eller udgifter på de involverede regnskabsperioder, skal du oprette en periodiseringsskabelon for den ressource, vare eller finanskonto, som indtægten eller udgiften skal bogføres til. Når du bogfører det relaterede salgs- eller købsbilag, periodiseres indtægten eller udgiften til de involverede regnskabsperioder i overensstemmelse med en periodiseringsplan, som er omfattet af indstillingerne i periodiseringsskabelonen og bogføringsdatoen.
 
 ## <a name="to-set-up-a-gl-account-for-deferral"></a>Sådan konfigureres en finanskonti til periodisering
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontoplan**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoplan**, og derefter vælge det relaterede link.
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne efter behov for at oprette en finanskonto til udskudte indtægter. Du kan finde flere oplysninger i [Finans- og kontoplanen](finance-general-ledger.md).
 4. Gentag trin 2 og 3 for at oprette en ny finanskonto til udskudte udgifter.
@@ -32,7 +32,7 @@ For at fordele indtægter eller udgifter på de involverede regnskabsperioder, s
 For begge typer periodisering skal du vælge **Balance** i feltet **Type**, og navngiv kontiene efter forholdene som f.eks. "Ikke-indtjent indtægt" for udskudte indtægter og "Ubetalte udgifter" for udskudte udgifter.
 
 ## <a name="to-set-up-a-deferral-template"></a>Sådan konfigureres en periodiseringsskabelon
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Periodiseringsskabeloner**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Periodiseringsskabeloner**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne efter behov.
 4. I feltet **Bergn.metode** skal du angive, hvordan feltet **Beløb** for hver periode på siden **Periodiseringsplan** beregnes. Du kan vælge mellem disse indstillinger:
@@ -55,7 +55,7 @@ Eksempel: Bogføringsdatoen er 06-02-2016. Hvis du angiver "Udgifter udskudt for
 ## <a name="to-assign-a-deferral-template-to-an-item"></a>Sådan tildeles en periodiseringsskabelon til en vare
 > [!NOTE]  
 >   Trinnene i denne procedure er de samme, som når du knytter en periodiseringsskabelon til en finanskonto eller en ressource.
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Vare**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Vare**, og vælg derefter det relaterede link.
 2. Åbn kortet for den vare, for hvilken indtægter eller udgifter skal udskydes til de regnskabsperioder, hvor varen blev solgt eller købt.
 3. I feltet **Standardperiodiseringsskabelon** skal du vælge den relevante periodiseringsskabelon.
 
@@ -63,7 +63,7 @@ Eksempel: Bogføringsdatoen er 06-02-2016. Hvis du angiver "Udgifter udskudt for
 > [!NOTE]  
 >   Trinnene i denne procedure er de samme, som når du ændrer en periodiseringsplan for udgifter fra en købsfaktura.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsfakturaer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsfakturaer**, og vælg derefter det relaterede link.
 2. Opret en salgsfaktura for en vare, der er tildelt en periodiseringsskabelon. Du kan finde flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md).
 
     Bemærk, at så snart du indtaster varen (eller ressourcen eller finanskontoen) på fakturalinjen, udfyldes feltet **Periodiseringskode** med koden for den tildelte periodiseringsskabelon.
@@ -85,7 +85,7 @@ Finansposter, der skal bogføres på den angivne periodiseringskonto, f.eks. Ikk
 > [!NOTE]  
 >   Trinnene i denne procedure er de samme, som når du gennemser rapporten Oversigt over købsperiodisering.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Oversigt over salgsperiodisering**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Oversigt over salgsperiodisering**, og vælg derefter det relaterede link.
 2. På siden **Oversigt over salgsperiodisering** i feltet **Balance pr.** skal du angive den dato, indtil hvilken du vil have vist udskudte indtægter.
 3. Vælg knappen **Vis eksempel**.
 

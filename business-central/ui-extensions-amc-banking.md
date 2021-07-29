@@ -1,6 +1,6 @@
 ---
-title: Brug af udvidelsen AMC Banking 365 Fundamentals | Microsoft Docs
-description: Du kan let udveksle data med dine banker ved at konvertere dataene til det format, de skal bruge.
+title: Brug af AMC Banking 365 Fundamentals-udvidelsen
+description: Flere oplysninger om at udveksle data med dine banker ved at konvertere dataene til det format, de skal bruge.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,20 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: bank, format, data
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: e9c7e20f73b154eeb4c9f47d9100222e0723c42f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7aaf35b16600ed6b1c23da65665c82cc952356c2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773501"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443589"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>Brug af AMC Banking 365 Fundamentals-udvidelsen
 AMC Banking 365 Fundamentals-udvidelsen gør det nemmere og mere nøjagtigt at sende data til dine banker. Udvidelsen forbinder [!INCLUDE[prod_short](includes/prod_short.md)] med AMC Banking 365 Fundamentals til Microsoft Dynamics 365 Business Central-tjenesten, som kan konvertere bankdata [!INCLUDE[prod_short](includes/prod_short.md)] til formater, der kræves af mere end 600 banker verden over. Det gør det f.eks. nemmere at overføre betalinger og kreditter til kreditorer ved at angive betalingerne i [!INCLUDE[prod_short](includes/prod_short.md)] og derefter overføre dem til din bank. Formaterne kan også forenkle bankafstemningsprocesser. Du kan finde flere oplysninger i [AMC Banking til Microsoft Dynamics 365 Business Central](https://www.amcbanking.com/bc-fundamentals/).
 
 > [!Note]
 > AMC Banking har oprettet yderligere udvidelser, som fungerer sammen med [!INCLUDE[prod_short](includes/prod_short.md)]. I dette emne beskrives kun Fundamental-udvidelsen.
+
+> [!NOTE]
+> I den generelle version af [!INCLUDE[prod_short](includes/prod_short.md)] bliver en global udbyder af tjenester til konvertering af bankoplysninger til ethvert filformat, som kræves af din bank, konfigureret og tilsluttet. I den nordamerikanske version kan den samme service bruges til at sende betalingsfiler som elektronisk pengeoverførsel, f. eks. det almindeligt brugte ACH-netværk (Automated Clearing House), men med en lidt anden proces.
 
 ## <a name="using-our-demonstration-account"></a>Bruge vores demonstrationskonto
 [!INCLUDE[prod_short](includes/prod_short.md)] leveres med en demonstrationskonto, som giver dig mulighed for at prøve AMC Banking 365 Fundamentals-udvidelsen. Vi angiver standardindstillinger for oprettelse af forbindelse til AMC Banking, angivelse af de bankkonti, der skal hentes data fra i [!INCLUDE[prod_short](includes/prod_short.md)] samt nogle få dataudvekslingsdefinitioner. Du kan få vist forbindelsesindstillingerne på siden **Konfiguration af AMC Banking**. For bankkonti indsætter udvidelsen værdier i felterne **Banknavn**, **Kreditoverførselsmedd.numre**, **Format til import af bankkontoudtog** og **Format til eksport af betaling** på bankkontokort.
@@ -48,12 +51,12 @@ For hvert nyt rettighedssæt skal du kun give **læserettighed** til **AMC Banki
 
 ### <a name="to-connect-the-extension-to-amc-banking"></a>Hvis du vil knytte udvidelsen til AMC Banking
 1. Hent et modul og en serviceplan for AMC Banking. Det kan du gøre ved at besøge siden [AMC-licens](https://license.amcbanking.com/register).
-2. I [!INCLUDE[prod_short](includes/prod_short.md)] skal du vælge ![ikonet Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Konfiguration af AMC Banking** og derefter vælge det relaterede link.  
+2. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du vælge ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **AMC Banking-konfiguration**, og vælg derefter det relaterede link.  
 3. Vælg handlingen **Assisteret opsætning** på siden **Konfiguration af AMC Banking**.
 4. Udfør trinnene i guiden til assisteret opsætning.
 
 ### <a name="to-connect-bank-accounts-to-the-extension"></a>Knytte bankkonti til udvidelsen
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.
 2. Åbn kortet for den bankkonto, du vil knytte til servicen.
 3. I feltet **Banknavn** skal du vælge det format, som din bank kræver.  
 
@@ -71,7 +74,7 @@ Brug af denne udvidelse går blot ud på at eksportere data på siden **Udbetali
 > [!CAUTION]  
 >  Når du eksporterer data ved hjælp af AMC Banking 365 Fundamentals-udvidelsen, vil nogle af virksomhedens data blive eksponeret for tjenesteudbyderen. Serviceudbyderen, AMC Consult A/S, er ansvarlig for beskyttelsen af disse data. Du kan finde flere oplysninger i [AMC's politik for beskyttelse af personlige oplysninger](https://go.microsoft.com/fwlink/?LinkId=510158).
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udbetalingskladder**, og vælg derefter det relaterede link.
 2. Opret de kladdelinjer, du vil eksportere.  
 
    > [!Note]
@@ -79,7 +82,7 @@ Brug af denne udvidelse går blot ud på at eksportere data på siden **Udbetali
 3. Vælg handlingen **Eksportér**.
 
 ### <a name="to-import-and-apply-the-converted-file"></a>Sådan importeres og anvendes den konverterede fil
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Betalingsudligningskladde**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsudligningskladde**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Importér banktransaktioner**, og vælg derefter den konverterede fil.  
 
    [!INCLUDE[prod_short](includes/prod_short.md)] opretter en ny betalingsudligningskladde, der indeholder dataene i filen. Du kan finde flere oplysninger i [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).

@@ -1,6 +1,6 @@
 ---
-title: Sådan angives data i Business Central | Microsoft Docs
-description: Få mere at vide om generelle funktioner, der hjælper dig med at indtaste data i felter.
+title: 'Fremgangsmåde: Indtaste data Business Central'
+description: Der er mange generelle funktioner, der hjælper dig med at indtaste data lettere, hurtigere og mere nøjagtigt. De grundlæggende principper og avancerede funktioner beskrives her.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d27633b6ae86c62a6ba95de51fe359094825e64d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784811"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443664"
 ---
 # <a name="entering-data"></a>Angivelse af data
 
@@ -93,7 +93,7 @@ Følgende liste indeholder nyttige oplysninger om brugen af genveje.
 
 Hvis du vil konfigurere genvejsmenuen for felter, skal du bruge tilpasning.
 
-1. Start tilpasning ved at vælge ikonet ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") og derefter handlingen **Tilpas**.
+1. Start personlige indstillinger ved at vælge ![Indstillinger.](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") Og derefter funktionen **Tilpas**.
 2. Markér et felt, der skal ændres. Markér den tilsvarende kolonneoverskrift på listerne. Vælg derefter enten **Medtag i genvej** eller **Udelad fra genvej**.
 
 Du kan finde flere oplysninger om tilpasning under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
@@ -136,9 +136,9 @@ Dette er især nyttigt, når du arbejder med store linjeelementlister, og du ska
 
 ### <a name="switching-the-focus-on-and-off"></a>Slå fokus til og fra
 
-Når du vil fokusere på linjevarer, skal du markeret et vilkårligt sted i delen med linjevarer og derefter vælge ![Ikonet Fokustilstand](media/focus-mode.png "Ikonet Fokustilstand") i øverste højre hjørne eller trykke på Ctrl+Skift+F12.
+Hvis du vil fokusere på linjeelementer, skal du vælge et vilkårligt sted i linjeelement delen og derefter vælge ![ikonet Fokustilstand.](media/focus-mode.png "Ikonet Fokustilstand") i øverste højre hjørne, eller tryk på Ctrl + Skift + F12.
 
-For at vende tilbage til normal visning skal du vælge ![Ikonet Fokustilstand](media/focus-mode.png "Ikonet Fokustilstand") eller trykke på Ctrl+Skift+F12 igen.
+Hvis du vil skifte tilbage til normal visning, skal du vælge ![ikonet Fokustilstand.](media/focus-mode.png "Ikonet Fokustilstand") eller tryk på Ctrl + Skift + F12 igen.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitasking på tværs af flere sider
 
@@ -148,15 +148,15 @@ Du kan åbne et kort eller en dokumentside i et nyt vindue. Når du åbner et ny
 - Håndtere afbrydelser af den aktuelle opgave, f.eks. et indgående opkald.
 - Holde et vindue åbent for en igangværende opgave, mens du starter eller udfører en anden opgave i vinduer.
 
-Hvis du vil åbne det aktuelle kort eller dokument i et nyt vindue, skal du vælge ![Åbn nyt vindue](media/open-new-window-icon.png "Ikonet Åbn i nyt vindue") i øverste højre hjørne eller trykke på Alt+Skift+W.
+Hvis du vil åbne det aktuelle kort eller dokument i et nyt vindue, skal du vælge ![Åbn nyt vindue.](media/open-new-window-icon.png "Ikonet Åbn i nyt vindue") i øverste højre hjørne, eller tryk på Alt + Skift + W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Hvis du vil åbne det aktuelle kort eller dokument i et nyt vindue, skal du vælge ![Åbn nyt vindue](media/open-new-window-icon.png "Ikonet Åbn i nyt vindue") i øverste højre hjørne eller trykke på Alt+Skift+W.
+Hvis du vil åbne det aktuelle kort eller dokument i et nyt vindue, skal du vælge ![Åbn nyt vindue.](media/open-new-window-icon.png "Ikonet Åbn i nyt vindue") i øverste højre hjørne, eller tryk på Alt + Skift + W.
 
 > [!NOTE]
-> Når du åbner andre sider fra et kort eller et dokument, der er åbnet i et nyt vindue, åbnes disse sider i et nyt vindue, selvom du ikke vælger ![Åbn nyt vindue](media/open-new-window-icon.png "Ikonet Åbn i nyt vindue").
+> Når du åbner andre sider fra et kort eller et dokument, der er åbnet i et nyt vindue, åbnes disse sider i et nyt vindue, selvom du ikke vælger ![Åbn nyt vindue.](media/open-new-window-icon.png "Ikonet Åbn i nyt vindue").
 
 > [!NOTE]
 > Hvis du arbejder i Safari-browseren, kan blokering af et pop op-vindue medføre, at det nye vindue ikke åbnes. Hvis det er tilfældet, skal du angive produktets URL-adresse som et tilladt websted. Du kan finde flere oplysninger i [Ændre indstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />

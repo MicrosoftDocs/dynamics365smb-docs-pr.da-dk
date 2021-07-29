@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 184591134706432ed1ea04afa86e1274b748cfe0
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 7d23dc10ffb215ee2ac160c9ec9b9fd1ddb5cc2d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215499"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442531"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designoplysninger: Tilgængelighed i lageret
 Systemet skal holde en konstant kontrol over varedisponering på lageret, så udgående ordrer kan flyde effektivt og levere optimale leverancer.  
@@ -47,7 +47,7 @@ Hvis en eller flere af betingelserne ikke er opfyldt, kan der vises forskellige 
 
  Følgende diagram viser de forskellige elementer i beregningen.  
 
- ![Disponibel til pluk med reservationsoverlap](media/design_details_warehouse_management_availability_2.png "Disponibel til pluk med reservationsoverlap")  
+ ![Disponibel til pluk med reservationsoverlap.](media/design_details_warehouse_management_availability_2.png "Disponibel til pluk med reservationsoverlap")  
 
 ## <a name="quantity-available-to-reserve"></a>Antal disponible til reservation  
  Da begreberne om placeringsindhold og reservation eksisterer side om side, skal antallet af varer, der kan reserveres, justeres med fordelinger på udgående lagerdokumenter.  
@@ -72,10 +72,10 @@ Hvis en eller flere af betingelserne ikke er opfyldt, kan der vises forskellige 
 
  Følgende diagram viser de forskellige elementer i beregningen.  
 
- ![Disponibel for reservation pr. lagertildeling](media/design_details_warehouse_management_availability_3.png "Disponibel for reservation pr. lagertildeling")  
+ ![Disponibel for reservation pr. lagertildeling.](media/design_details_warehouse_management_availability_3.png "Disponibel for reservation pr. lagertildeling")  
 
 ## <a name="see-also"></a>Se også  
- [Designoplysninger: Logistik](design-details-warehouse-management.md)  
+ [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
  [Vise varedisponering](inventory-how-availability-overview.md)
 
 

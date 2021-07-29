@@ -1,6 +1,6 @@
 ---
 title: Ændre grundlæggende indstillinger for den aktuelle bruger
-description: Lær, hvordan du kan ændre nogle af de grundlæggende indstillinger, f.eks. rollecenteret, virksomheden eller arbejdsdatoen.
+description: Få mere at vide om, hvordan du ændrer nogle grundlæggende indstillinger i Business Central, f. eks. dit rolle og rollecenter, firma, arbejdsdato og tidszone.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: a0a504aa7c06c08d2e9f4251128e4203f0f90dee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e79ebc40ea98e8e488b0394a19014cefd78c2fd0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787448"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443764"
 ---
 # <a name="change-basic-settings"></a>Ændre grundlæggende indstillinger
 
@@ -33,7 +33,7 @@ Rollen bestemmer startsiden, et startskærmbillede, der er designet til behovene
 
 Standardrollen er **Virksomhedsleder**, men du kan vælge en anden rolle for at bruge et rollecenter, der passer bedre til dine behov.  
 
-1. I øverste højre hjørne skal du vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") og derefter vælge handlingen **Mine indstillinger**.
+1. I øverste højre hjørne skal du vælge ikonet **Indstillinger** ![Indstillinger.](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") og derefter vælge handlingen **Mine indstillinger**.
 2. På siden **Mine indstillinger** skal du i feltet **Rolle** vælge den rolle, du vil bruge som standard. Vælg f.eks **Regnskabsmedarbejder**.
 3. Vælg knappen **OK**.
 
@@ -47,7 +47,7 @@ Standardfirmaet kaldes CRONUS og indeholder kun demonstrationsdata. Du kan opret
 
 Virksomhedsnavnet vises altid i øverste venstre hjørne og fungerer som en handling, som du kan vælge for at gå tilbage til rollecenteret. Du kan ændre dette navn på siden **Virksomhedsoplysninger**.
 
-1. Vælg ![Tandhjulsikonet for at åbne menuen Indstillinger](media/ui-experience/settings_icon_small.png) og derefter vælge handlingen **Virksomhedsoplysninger**.
+1. Vælg ![ikonet Tandhjul for at åbne menuen Indstillinger.](media/ui-experience/settings_icon_small.png) ikon, og vælg derefter **Virksomhedsoplysninger**.
 2. I feltet **Navn** skal du angive det nye virksomhedsnavn.
 3. Forlad siden. Systemet genstarter og viser den nye virksomhed i øverste venstre hjørne.
 
@@ -55,7 +55,7 @@ Virksomhedsnavnet vises altid i øverste venstre hjørne og fungerer som en hand
 
 Du kan tilføje et tilpasset kort i øverste højre hjørne, som du kan vælge for hurtigt at få vist virksomhedsnavnet og oplysninger om lejer i et pop op-felt. Virksomheds badgen er også nyttig, når [!INCLUDE[prod_short](includes/prod_short.md)] integreres i et andet program, f.eks, Microsoft Teams eller i et andet webprogram. Da der i disse tilfælde, hvor [!INCLUDE[web_client](includes/web_client.md)] viser mindre omkringliggende kontekstoplysninger, fungerer virksomhedens kort som den eneste måde at bestemme, hvilket firma eller hvilket miljø en post tilhører.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Virksomhedsoplysninger**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, åbn **Virksomhedsoplysninger**, og vælg derefter det relaterede link.
 2. I oversigtspanelet **Virksomhedskort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]

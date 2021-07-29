@@ -1,6 +1,6 @@
 ---
-title: Designoplysninger – Udgående lagerflow | Microsoft Docs
-description: Det udgående flow fra lageret begynder med en anmodning fra frigivne kildedokumenter om at bringe varerne ud af lagerlokationen, enten for at blive leveret til en ekstern part eller et andet sted i virksomheden. Fra lagerområdet udføres lageraktiviteterne på forskellige kompleksitetsniveauer for at bringe varerne ud til afsendelsesområderne.
+title: Designoplysninger - Udgående lagerflow
+description: Dette emne taler om rækkefølgen af den udgående lager strøm fra frigivne kildedokumenter til klargjorte varer.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 7e748719454bfbdcbacd9cf53a535ed1e38147bc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 985ef683426c2de2e917b3c3f8d860115d462d83
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777769"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442381"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designoplysninger: Udgående lagerflow
 
@@ -54,7 +54,7 @@ Desuden findes følgende interne kildedokumenter, der fungerer ligesom udgående
 
  I følgende diagram illustreres de udgående lagerstrømme af dokumenttype i grundlæggende lageropsætninger. Tallene i diagrammet svarer til trinnene i afsnittene efter diagrammet.  
 
- ![Udgående flow i grundlæggende lageropsætninger](media/design_details_warehouse_management_outbound_basic_flow.png "Udgående flow i grundlæggende lageropsætninger")  
+ ![Udgående flow i grundlæggende lageropsætninger.](media/design_details_warehouse_management_outbound_basic_flow.png "Udgående flow i grundlæggende lageropsætninger")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Frigiv kildedokument / Opret pluk (lager) eller flytning (lager)
 
@@ -81,7 +81,7 @@ Desuden findes følgende interne kildedokumenter, der fungerer ligesom udgående
 
  I følgende diagram illustreres den udgående lagerstrøm af dokumenttype i avancerede lageropsætninger. Tallene i diagrammet svarer til trinnene i afsnittene efter diagrammet.  
 
- ![Udgående flow i avancerede lageropsætninger](media/design_details_warehouse_management_outbound_advanced_flow.png "Udgående flow i avancerede lageropsætninger")  
+ ![Udgående flow i avancerede lageropsætninger.](media/design_details_warehouse_management_outbound_advanced_flow.png "Udgående flow i avancerede lageropsætninger")  
 
 ### <a name="1-release-source-document"></a>1: Frigiv kildedokument
 
@@ -133,7 +133,7 @@ Desuden findes følgende interne kildedokumenter, der fungerer ligesom udgående
 
 ## <a name="see-also"></a>Se også
 
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

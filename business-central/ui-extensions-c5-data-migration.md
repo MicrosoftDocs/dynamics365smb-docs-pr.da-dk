@@ -10,12 +10,12 @@ ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e9a121efe984e075c54c747fc426bf9a4519b81
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6b146e2a515ffd2a200574c4ce059c8a0205b602
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787398"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443564"
 ---
 # <a name="the-c5-data-migration-extension"></a>Udvidelsen C5-dataoverførsel
 
@@ -107,7 +107,7 @@ Den største filstørrelse, du kan overføre til [!INCLUDE[prod_short](includes/
 Der er nogle få trin til at eksportere data fra C5 og indlæse dem i [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
 1. I C5 skal du bruge funktionen **Eksportér databasen** til at eksportere dataene. Send derefter eksportmappen til en komprimeret (zippet) mappe.  
-2. I [!INCLUDE[prod_short](includes/prod_short.md)] skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") angive **Dataoverførsel** og derefter vælge **Dataoverførsel**.  
+2. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du vælge ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Dataoverførsel**, og vælg derefter **Dataoverførsel**.  
 3. Udfør trinnene i guiden til assisteret opsætning. Sørg for at vælge **Indlæs fra Microsoft Dynamcis C5 2012** som datakilde.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Få vist status for overførslen

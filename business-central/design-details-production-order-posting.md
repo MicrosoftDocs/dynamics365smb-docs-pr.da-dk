@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 966760ae57f9908ec7245f8e97f6d35591142332
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214874"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442356"
 ---
 # <a name="design-details-production-order-posting"></a>Designoplysninger: Bogføring af produktionsordre
 I lighed med montageordrebogføring bliver de forbrugte komponenter og den anvendte computertid konverteret og udlæst som den producerede vare, når produktionsordren er afsluttet. Du kan finde flere oplysninger i [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md). Men montageordrers kost-flow er mindre kompliceret, især fordi montageomkostninger kun bogføres én gang og derfor ikke opretter lageret for igangværende arbejde.
@@ -58,11 +58,11 @@ Bogføring af produktionsordrer til igangværende arbejdslager omfatter afgang, 
 
 Følgende diagram viser de involverede bogføringsrutiner i kodeenhed 22.  
 
-![Posteringsrutiner for produktionsordrer](media/design_details_inventory_costing_14_production_posting_1.png "Posteringsrutiner for produktionsordrer")  
+![Posteringsrutiner for produktionsordrer.](media/design_details_inventory_costing_14_production_posting_1.png "Posteringsrutiner for produktionsordrer")  
 
 I følgende diagram vises tilknytninger mellem de oprettede poster og omkostningsemnerne.  
 
-![Produktionspostflow](media/design_details_inventory_costing_14_production_posting_2.png "Produktionspostflow")  
+![Produktionspostflow.](media/design_details_inventory_costing_14_production_posting_2.png "Produktionspostflow")  
 
 Kapacitetsposten beskriver kapacitetsforbrug i tidsenheder, hvorimod den tilknyttede værdipost beskriver værdien af det specifikke kapacitetsforbrug.  
 

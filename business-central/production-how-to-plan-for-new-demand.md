@@ -1,6 +1,6 @@
 ---
-title: Sådan planlægges ordre for ordre | Microsoft Docs
-description: Denne planlægningsopgave kan udføres på siden **Ordreplanlægning**, hvor alle nye behov vises sammen med tilgængelighedsoplysninger og forsyningsforslag. Vinduet giver det fornødne overblik og de nødvendige værktøjer til at planlægge behovet effektivt ud fra salgslinjer og komponentlinjer og derefter direkte oprette forskellige typer af forsyningsordrer.
+title: 'Fremgangsmåde: Planlægge ordre for ordre'
+description: Denne planlægningsopgave kan udføres på siden Ordreplanlægning, hvor alle nye behov vises sammen med tilgængelighedsoplysninger og forsyningsforslag.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: bed73380344c0900a00d6d704ee2d853a1bf165d
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 5a3481f1f1b1c08fd3006d1d62b92387414f0d41
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216226"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444226"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planlægge efter nyt behov ordre for ordre
 Denne planlægningsopgave kan udføres på siden **Ordreplanlægning**, hvor alle nye behov vises sammen med tilgængelighedsoplysninger og forsyningsforslag. Vinduet giver det fornødne overblik og de nødvendige værktøjer til at planlægge behovet effektivt ud fra salgslinjer og komponentlinjer og derefter direkte oprette forskellige typer af forsyningsordrer.  
@@ -24,14 +24,14 @@ Du kan gå ind på siden **Ordreplanlægning** på to måder afhængigt af arbej
 
 
 ## <a name="to-plan-for-new-production-order-demand"></a>Planlægge en specifik produktionsordre  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlagte produktionsordrer**, og vælg derefter det relaterede link. (Du kan udføre disse trin for planlagte, fastlagte eller frigivne produktionsordrer).
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Planlagte produktionsordrer**, og vælg derefter det relaterede link. (Du kan udføre disse trin for planlagte, fastlagte eller frigivne produktionsordrer).
 2.  Åbn den produktionsordre, du vil planlægge, og vælg derefter handlingen **Planlægning**.  
 3.  Vælg handlingen **Beregn plan** på siden **Ordreplanlægning**.  
 
 Der vises planlægningslinjer på siden i overensstemmelse med filteret **Produktionsbehov**, dvs. uopfyldte komponentlinjer for alle eksisterende produktionsordrer. Behovet for kun denne ene produktionsordre er ikke vist, fordi det er nødvendigt at planlægge til en produktionsordre med et overblik over behovet for eventuelle tidligere komponentlinjer. Planlægningslinjer for produktionsordren i kontekst udvides.  
 
 ## <a name="to-plan-for-any-new-demand"></a>Sådan planlægges til alle nye behov  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Ordreplanlægning**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ordreplanlægning**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn plan** på siden **Ordreplanlægning**.
 3.  Vælg knappen **Udvid (+)** foran datoen i feltet **Behovsdato** for at få vist de underliggende planlægningslinjer, der repræsenterer behovslinjer med manglende tilgængelighed.  
 4.  For hver udvidet planlægningslinje, dvs. behovslinje, vises der værdier i oplysningsfelterne nederst på siden.  
@@ -83,7 +83,7 @@ Der vises planlægningslinjer på siden i overensstemmelse med filteret **Produk
 >  Hvis du skriver en senere dato end behovsdatoen, modtager du en advarselsmeddelelse.  
 
 ## <a name="to-make-supply-orders"></a>Sådan laves forsyningsordrer  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlagte produktionsordrer**, og vælg derefter det relaterede link. Du kan udføre disse trin for en planlagt, fastlagt eller frigivet produktionsordre.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Planlagte produktionsordrer**, og vælg derefter det relaterede link. Du kan udføre disse trin for en planlagt, fastlagt eller frigivet produktionsordre.  
 2.  Åbn den produktionsordre, du vil planlægge, og vælg derefter handlingen **Planlægning**.  
 3.  Placer markøren på en relevant planlægningslinje, og vælg derefter handlingen **Lav ordrer**.  
 4.  Vælg en af følgende indstillinger i feltet **Lav ordrer for** i oversigtspanelet **Ordreplanlægning** på siden **Opret forsyningsordrer**.  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 8add662badbc0d791d6a37d0feb4e3a756519f00
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: fb134ce04cb6b53f2432f0f371d7ca82411f0cee
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074583"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444014"
 ---
 # <a name="sharing-business-central-records-in-microsoft-teams"></a>Dele Business Central-poster i Microsoft Teams
 
@@ -30,12 +30,12 @@ Med [!INCLUDE [prod_short](includes/prod_short.md)]-appen kan du:
 - Kopiere et hyperlink til en hvilken som helst Business Central-post og sætte den ind i en Teams-samtale, som du kan dele med dine kolleger. Appen udvider derefter linket til et kompakt, interaktivt kort, der viser oplysninger om posten.
 - Når du er i samtalen, kan du og dine kolleger få vist flere oplysninger om posten, redigere data og handle - uden at forlade&mdash;Teams.
 
-[![Teams-integration med Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams-integration med Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 ## <a name="prerequisites"></a>Forudsætninger
 
 - Du har adgang til Microsoft Teams.
-- Du har installeret [!INCLUDE [prod_short](includes/prod_short.md)]-appen i grupper. Du kan finde flere oplysninger i [Installere [!INCLUDE [prod_short](includes/prod_short.md)]-app til Microsoft Teams](across-install-app-for-teams.md).
+- Du har installeret [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams. Du kan finde flere oplysninger i [Installere [!INCLUDE [prod_short](includes/prod_short.md)]-app til Microsoft Teams](across-install-app-for-teams.md).
 
 > [!NOTE]
 > Alle deltagerne i en samtale med Teams vil kunne få vist kort til Business Central-poster, som du sender til samtalen. Men hvis du vil have vist flere detaljer om poster, bruge **Detaljer** eller **Pop-op**-knapper på et kort, skal de have adgang til [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Administrere Microsoft Teams-integration](admin-teams-integration.md#minimum-requirements-1).
@@ -49,13 +49,13 @@ Med [!INCLUDE [prod_short](includes/prod_short.md)]-appen kan du:
 
 3. Kopiere hele URL-adressen fra browserens adresselinje.
 
-   ![Kopiere Business Central URL-adresse fra browser](media/teams-url-v2.png)
+   ![Kopiere Business Central URL-adresse fra browser.](media/teams-url-v2.png)
 4. Gå til Teams, og start en samtale, som kan chatte med en person, en gruppe personer eller en team-kanal.
 
     <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
 5. Indsætte URL-adressen i den meddelelsesboks, hvor du samler en meddelelse.
 
-   ![Indsætte Business Central URL-adresse i Teams](media/teams-paste-url-v2.png)
+   ![Indsætte Business Central URL-adresse i Teams.](media/teams-paste-url-v2.png)
 6. Første gang du indsætter et hyperlink til en samtale, bliver du bedt om at logge på [!INCLUDE [prod_short](includes/prod_short.md)] og give appen tilladelse til at hente data. Du skal blot følge vejledningen på skærmen.
 
     > [!NOTE]
@@ -87,9 +87,11 @@ Du kan få mere at vide om, hvordan du arbejder med kort og kort detaljer, i [Te
 
 ## <a name="see-also"></a>Se også
 
-[Business Central og Microsoft Teams Oversigt over integration](across-teams-overview.md)  
-[Installér appen [!INCLUDE [prod_short](includes/prod_short.md)] til Microsoft Teams](across-install-app-for-teams.md)  
+[Oversigt over integrationen af Business Central og Microsoft Teams](across-teams-overview.md)  
+[Installere appen [!INCLUDE [prod_short](includes/prod_short.md)] til Microsoft Teams](across-install-app-for-teams.md)  
 [Teams, ofte stillede spørgsmål](teams-faq.md)  
+[Søgning efter debitorer, kreditorer og andre kontakter fra Microsoft Teams](across-search-contacts-teams.md)  
+[Ændring af virksomhed og andre indstillinger i Teams](across-teams-settings.md)  
 [Fejlfinding i Teams](admin-teams-troubleshooting.md)  
 [Udvikling af Teams-integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 

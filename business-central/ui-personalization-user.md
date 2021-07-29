@@ -1,6 +1,6 @@
 ---
-title: Tilpasse sider | Microsoft Docs
-description: Få at vide, hvordan du kan tilpasse brugergrænsefladen, så den passer til din måde at arbejde på i Business Central.
+title: Tilpasse sider
+description: Få at vide, hvordan du kan tilpasse brugergrænsefladen og tilpasser dit arbejdsområde, så det passer til din måde at arbejde på i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6069e3d1bcfde5c7aead1daeb33b35201c9f05a4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: dbcf9f396c3f92093241a17cb6a358580f015cbe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783307"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442671"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse dit arbejdsområde
 Du kan tilpasse dit arbejdsområde, så det passer til dit arbejde og dine præferencer ved at ændre sidernes layout, så de kun viser de oplysninger, du har brug for, hvor du har brug for det. De tilpasningsændringer, du foretager, påvirker kun det, du ser, ikke hvad andre brugere ser.
@@ -42,7 +42,7 @@ Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden,
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Du kan begynde at tilpasse en side via banneret **Tilpasning**
 1. Åbn en side, du vil tilpasse.
-2. I øverste højre hjørne skal du vælge ikonet ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") og derefter vælge handlingen **Tilpas**.
+2. I øverste højre hjørne vælges ![Indstillinger.](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") ikon, og derefter handlingen **Tilpas**.
 
     Banneret **Tilpasning** vises øverst for at angive, at du kan begynde at foretage ændringer.
 

@@ -1,6 +1,6 @@
 ---
-title: Forberede overførsel af debitordata med skabeloner | Microsoft Docs
-description: Lær at bruge konfigurationsskabeloner til at strukturere eksisterende debitordata, inden du overfører dataene til den nye virksomhed i Business central.
+title: Forberede overflytning af debitordata med skabeloner
+description: Lær at bruge konfigurationsskabeloner til at strukturere eksisterende debitordata, inden du overfører stamdataene til den nye virksomhed i Business central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: dca94e321e6a244bdea27b16ec4c041bd97e89b7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776987"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443150"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Forberede overflytning af debitordata med skabeloner
 
@@ -47,7 +47,7 @@ Når du vælger en eksisterende dataskabelon, skal du vurdere, om skabelonerne, 
 > [!TIP]  
 > Du kan også bruge dataskabeloner til hurtigt at oprette nye poster. Brug dem til hurtigere og mere nøjagtig dataoprettelse. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationsskabeloner**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Konfigurationsskabeloner**, og vælg derefter det relaterede link.  
 2. På siden **Konfigurationsskabeloner** skal du vælge en dataskabelon på listen og derefter vælge handlingen **Rediger**.  
 
 Hvis standardskabelonerne ikke opfylder dine behov, kan du oprette nye skabeloner, eller du kan føje felter til en eksisterende skabelon. Hvis standardskabelonerne er tilstrækkelige, kan du bruge dem til at oprette poster, der er baseret på masterdataskabeloner.
@@ -100,7 +100,7 @@ Tabel-ID, tabelnavn og linjerne i den eksisterende dataskabelon indsættes i den
 
 Du kan hurtigt oprette en Excel-projektmappe, der skal fungere som en skabelon, der er baseret på strukturen i en eksisterende databasetabel. Derefter kan du bruge skabelonen til at indsamle debitordata i et ensartet format til senere import i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Arbejdsark til konfiguration**, og vælg derefter det relaterede link.
 2. Tilføj en tabel på listen, eller vælg en eksisterende tabel. Du kan finde flere oplysninger i [Administrere virksomhedskonfigurationen i et regneark](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Klik på handlingen **Vis felter** for at definere felterne fra den tabel, som du vil medtage i skabelonen.
 4. Vælg handlingen **Udlæs til skabelon**.
@@ -130,11 +130,11 @@ Du kan bruge strukturen i de data, der er indeholdt i dataskabelonerne til at ko
 
 Følgende trin illustrerer, hvordan du opretter et varekort fra en varedataskabelon. Du kan oprette en post fra alle dataskabeloner ved hjælp af samme fremgangsmåde.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationsskabeloner**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Konfigurationsskabeloner**, og vælg derefter det relaterede link.  
 2. Markér skabelonen **Vare**, og vælg derefter handlingen **Rediger**. Yderligere oplysninger finder du under [Sådan oprettes en dataskabelon](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Vælg handlingen **Opret forekomst**. Der oprettes et varekort.  
 4. Vælg knappen **OK**.  
-5. For at få vist det nye varekort skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
+5. Hvis du vil se det nye varekort, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
 6. Åbn det nye varekort.  
 7. Udvid de forskellige oversigtspaneler, og kontrollér, at oplysningerne er oprettet korrekt på dem.  
 

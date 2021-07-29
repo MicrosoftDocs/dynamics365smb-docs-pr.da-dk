@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5b962ed463a37e578371df193bca887774232ba5
-ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
+ms.openlocfilehash: 3ee0149461730e20e996f31dc7175ff3325bceca
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935332"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443914"
 ---
 # <a name="define-retention-policies"></a>Definere opbevaringspolitikker
 Administratorer kan definere opbevaringspolitikker for at angive, hvor ofte [!INCLUDE[prod_short](includes/prod_short.md)] skal slette forældede data i tabeller, der indeholder logposter og poster, der er arkiveret. Hvis du f.eks. rydder poster i logfilen, bliver det nemmere at arbejde med de data, der rent faktisk er relevante. Politikker kan omfatte alle data i de tabeller, der ligger ud over udløbsdatoen, eller du kan tilføje filterkriterier, som kun skal indeholde bestemte udløbne data i politikken. 
@@ -40,7 +40,7 @@ Opbevaringsperioderne kan være så lange eller korte, som du har lyst til. Hvis
 > Af hensyn til kompatibiliteten har vi defineret en mindste opbevaringsperiode for nogle tabeller. Hvis du angiver en opbevaringsperiode, der er kortere end minimumkravet, viser en meddelelse den obligatoriske periode.
 
 ### <a name="set-up-a-retention-policy"></a>Opsæt opbevaringspolitik
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opbevaringspolitikker**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Opbevaringspolitikker**, og vælg derefter det relaterede link.
 2. I feltet **Tabel-id** skal du vælge den tabel, du vil medtage i politikken.
 3. I feltet **Opbevaringsperiode** skal du angive, hvor længe dataene i tabellen skal være.
 4. Valgfrit: Hvis du vil anvende politikken på specifikke data i en tabel, skal du slå funktionen Anvend på alle poster fra. Oversigtspanelet til opbevaring af oplysninger vises, hvor du kan angive filtre for at oprette datasæt for hver linje. Du kan finde flere oplysninger i [Filtrering](ui-enter-criteria-filters.md#filtering).

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fd35c0af4d2b66f99c0a4a3a65f77826cd9af806
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 313de95353fc42b222fa95cd36d320881a7fbdb8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775918"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442581"
 ---
 # <a name="set-up-incoming-documents"></a>Konfigurere indgående bilag
 
@@ -29,7 +29,7 @@ Når funktionen Indgående bilag er konfigureret, kan du bruge forskellige funkt
 
 ## <a name="to-set-up-the-incoming-documents-feature"></a>Sådan konfigureres funktionen for indgående bilag
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning for indgående bilag**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Konfiguration af indkommende dokumenter**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Som en del af konfigurationen skal du beslutte, om du vil kræve godkendelse af indgående dokumenter. Hvis du vil kræve godkendelse, skal du oprette godkendere og godkendelsesworkflow. Hvis din organisation ikke ønsker at kræve godkendelse, kan du springe den næste sektion over.  
@@ -44,7 +44,7 @@ Før du kan oprette workflows, der omfatter godkendelsestrin, skal du angive wor
 
 ## <a name="to-set-up-an-ocr-service"></a>Sådan konfigureres en OCR-tjeneste
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af OCR-tjeneste**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Konfiguration af OCR-service** og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
