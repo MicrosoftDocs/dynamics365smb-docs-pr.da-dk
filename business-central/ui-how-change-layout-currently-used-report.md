@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ad5dd28d10df38fbd780ec4df5d4a87056670b99
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8e833d29df72d10786b050222d342b2d6dce927e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771081"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444750"
 ---
 # <a name="change-the-current-report-layout"></a>Ændre det aktuelle rapportlayout
 En rapport kan konfigureres med flere rapportlayout, som du kan skifte mellem efter behov.
@@ -30,7 +30,7 @@ Når der er defineret brugerdefinerede rapportlayout, kan du vælge dem fra debi
 > Rapporter af typen dokument (ikke lister), der bruger et Word-rapportlayout, er typisk hurtigere end dem, der bruger et RDLC-rapportlayout. Så hvis du har mulighed for at vælge mellem et Word- eller et RDLC-rapportlayout for en rapport af typen dokument, skal du bruge Word-rapportlayoutet til at få den bedste ydeevne.
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Sådan ændres det rapportlayout, der skal bruges til en rapport eller et dokument
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
    Siden **Valg af rapportlayout** viser en liste over alle de rapporter, der er tilgængelige i den virksomhed, der er angivet i feltet **Virksomhed** øverst på siden. Feltet **Valgt layout** angiver det layout, der aktuelt bruges af rapporten.
 2. Angiv feltet **Virksomhed** øverst på siden til det firma, der indeholder rapporten.
 3. Hvis du vil ændre layoutet for en rapport, skal du på rækken for rapporten angive feltet **Valgt layout** til en af følgende indstillinger:

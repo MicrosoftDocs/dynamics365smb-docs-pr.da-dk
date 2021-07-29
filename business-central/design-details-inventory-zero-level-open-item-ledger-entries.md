@@ -1,6 +1,6 @@
 ---
-title: Åbn vareposter
-description: Få mere at vide om, hvorfor lagerniveauet er nul, selvom der findes åbne vareposter.
+title: Åbn vareposter for lagerbeholdning nul
+description: Denne artikel vedrører et problem, hvor lagerniveauet er nul, selvom der findes åbne vareposter.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: febd7b4ff379d064f392eb55b7868697a59aacf5
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 75cf8f2ccbf7738c753a25c98ea9c79e13b9d53d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215924"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444991"
 ---
 # <a name="design-details-known-item-application-issue"></a>Designoplysninger: Kendt problem med vareudligning
 Denne artikel vedrører et problem, hvor lagerniveauet er nul, selvom der findes åbne vareposter [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -54,7 +54,7 @@ Artiklen starter ved at angive typiske symptomer på problemet, efterfulgt af de
 
  I følgende diagram vises, hvordan mængdeudligninger foretages.  
 
-![Flow af udgiftsjustering fra køb til salg](media/helene/TechArticleInventoryZero2.png "Flow af udgiftsjustering fra køb til salg")
+![Flow af udgiftsjustering fra køb til salg.](media/helene/TechArticleInventoryZero2.png "Flow af udgiftsjustering fra køb til salg")
 
  Bemærk ovenfor, at vareposten 1 (køb) både er leverandør af varen og omkostningskilden til den udlignende varepost, varepost 2 (salg).  
 
@@ -78,7 +78,7 @@ I følgende diagram vises, hvordan kostprisudligninger foretages.
 
  I følgende diagram illustreres omkostningsflowet.  
 
-![Flow af udgiftsjustering fra salg til salgsreturvare](media/helene/TechArticleInventoryZero4.png "Flow af udgiftsjustering fra salg til salgsreturvare")
+![Flow af udgiftsjustering fra salg til salgsreturvare.](media/helene/TechArticleInventoryZero4.png "Flow af udgiftsjustering fra salg til salgsreturvare")
 
  Bemærk over kostprisen overføres til vareposten 2 (salg) og derefter til vareposten 3 (salgsreturvareordre), og til sidst til vareposten 4 (salg 2).  
 
@@ -91,7 +91,7 @@ I følgende diagram vises, hvordan kostprisudligninger foretages.
 
  I følgende diagram illustreres, hvordan vareudligninger foretages i begge scenarier.  
 
-![Flow af udgiftsjustering vises i begge retninger.](media/helene/TechArticleInventoryZero6.png "Flow af udgiftsjustering vises i begge retninger")  
+![Flow af udgiftsjustering vises i begge retninger..](media/helene/TechArticleInventoryZero6.png "Flow af udgiftsjustering vises i begge retninger")  
 
  Bemærk, at der foretages en kostprisudligning (vises med blå pil) for at sikre, at post 2 (salgsreturvareordre) tildeles samme omkostninger som den varepost, den udligner, varepost 1 (salg 1). Men, der foretages ikke en antalsudligning (repræsenteret af den røde pil).  
 
@@ -133,7 +133,7 @@ I følgende diagram vises, hvordan kostprisudligninger foretages.
      |Løbenummer|Varepostløbenr.|Indgående varepostløbenr.|Udgående varepostløbenr.|Antal|Bogføringsdato|Kostprisudligning|  
      |---------|---------------------|----------------------|-----------------------|--------|------------|----------------|  
      |299|334|334|333|1|28-01-2018|Ja|  
-<!--![Why is inventory zero 8](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
+<!--![Why is inventory zero 8.](media/helene/TechArticleInventoryZero8.png "Whyisinventoryzero\_8")  -->
 
  Læg mærke til ovenfor, at den indgående varepost 334 er omkostningsudlignet til den udgående varepost 333.  
 

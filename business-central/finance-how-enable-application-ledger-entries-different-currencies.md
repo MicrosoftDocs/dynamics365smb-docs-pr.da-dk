@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: multiple currencies, payment, reconcile
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f0c56a6cc8ed428a8984cb40f43887bd297fca2a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 895673022a2d3dfa672c12a33d987aa4b05ec7b8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784861"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444608"
 ---
 # <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Aktivere anvendelsen af finansposter i forskellige valutaer
 Hvis du køber varer fra en leverandør i én valuta, men foretager betaling i en anden valuta, kan du udligne betalingen med købet.
@@ -27,7 +27,7 @@ Ligeledes, hvis du sælger til en debitor i en valuta og modtager betaling i en 
 Følgende procedure beskriver, hvordan du kan angive dette for kreditorposter på siden **Købsopsætning**. Der er tilsvarende opsætning for debitorposter på siden **Salgsopsætning**.
 
 ## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>Sådan aktiveres udligning af kreditorposter i forskellige valutaer
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsopsætning**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Købsopsætning** og derefter vælge det relaterede link.
 2. Vælg en af følgende indstillinger i feltet **Valutaudligning**.
 
 | Indstilling | Beskrivelse |
@@ -42,9 +42,9 @@ Hvis du anvender poster i forskellige valutaer, skal du oprette finanskonti, hvo
 > [!NOTE]  
 >  Du skal oprette de pågældende finanskonti, før du kan udføre opgaven. Du kan finde flere oplysninger i [Om finans- og kontoplanen](finance-general-ledger.md).
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorbogføringsgrupper**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Debitorbogføringsgrupper**, og vælg derefter det relaterede link.  
 2. I felterne **Valutaudlign.afrnd.kto (deb.)** og **Valutaudlign.afrnd.kto (kre.)** skal du indtaste de relevante finanskonti bogføring af afrundingsdifferencer.  
-3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kreditorbogføringsgrupper**, og vælg derefter det relaterede link.  
+3. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kreditorbogføringsgrupper**, og vælg derefter det relaterede link.  
 4. I felterne **Valutaudlign.afrnd.kto (deb.)** og **Valutaudlign.afrnd.kto (kre.)** skal du indtaste de relevante finanskonti bogføring af afrundingsdifferencer.  
 
 ## <a name="see-also"></a>Se også

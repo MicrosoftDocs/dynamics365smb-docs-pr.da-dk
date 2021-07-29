@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, tracing
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 5bb97f1c26ca9264718a96a9f2f7803e248927b3
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 992673cd800d7ee720e86050004c2d38796ee529
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214974"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445016"
 ---
 # <a name="design-details-item-tracking-design"></a>Designoplysninger: Design af varesporing
 
@@ -27,7 +27,7 @@ Med tilføjelsen af serie-, lot- og pakkenumre håndterer reservationssystemet p
 
 I følgende diagram beskrives udformningen af varesporingsfunktionen i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-![Eksempel på flow for varesporing](media/design_details_item_tracking_design.png "Eksempel på flow for varesporing")  
+![Eksempel på flow for varesporing.](media/design_details_item_tracking_design.png "Eksempel på flow for varesporing")  
 
 Objektet til central bogføring er ændret for at håndtere entydig underklassifikation af en bilagslinje i form af serie- eller lotnumre, og særlige relationstabeller er tilføjet for at oprette en-til-mange-relationer mellem bogførte dokumenter og deres opdelte vareposter og værdiposter.  
 

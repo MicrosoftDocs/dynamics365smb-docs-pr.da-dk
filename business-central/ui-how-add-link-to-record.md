@@ -1,5 +1,5 @@
 ---
-title: Føje vedhæftede filer, links og noter til poster | Microsoft Docs
+title: Føje vedhæftede filer, links og noter til poster
 description: Indsæt et hyperlink i et dokument eller websted til en bestemt post, f.eks. en debitor eller et dokument.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3acc0113cb14170b84363ab40a803da8b7551c75
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: eb03f2cd47624e753766f0363e037ee793f8f777
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771131"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444739"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Administrere vedhæftede filer, links og noter på kort og dokumenter
 
@@ -38,7 +38,7 @@ Du kan vedhæfte alle filtyper, der indeholder tekst, billeder eller video, på 
 
 Følgende procedure er baseret på en købsfaktura. Trinene er de samme for alle andre understøttede dokumenter og kort.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.
 2. Åbn den salgsordre, som du vil vedhæfte en fil til.
 3. Åbn fanen **Vedhæftede filer** i faktaboksen.
 4. Vælg værdien bag feltet **Dokumenter**, f.eks. "0".
@@ -58,7 +58,7 @@ Når du har brug for at gemme et dokument som en fil, kan du bruge handlingen **
 
 Følgende procedure er baseret på en salgsordre. Fremgangsmåden er den samme for alle understøttede dokumenter.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.
 2. Vælg en salgsordre, og vælg derefter handlingen **Vedhæft som PDF**.
 
 En PDF-fil med det aktuelle indhold i salgsordren tilføjes på fanen **Vedhæftede filer** i faktaboksen.
@@ -68,7 +68,7 @@ Du kan føje et link fra et kort eller et dokument til en hvilken som helst URL-
 
 Den følgende procedure er baseret på et varekort. Trinene er de samme for alle andre understøttede kort og dokumenter.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Marker den vare, du vil tilføje en kæde fra, og vælg derefter fanen **Vedhæftede filer** i faktaboksen.
 3. Vælg ikonet **+** i **Links**.
 4. I feltet **Hyperlinkadresse** skal du angive linket.
@@ -88,7 +88,7 @@ Du kan skrive en note til et dokument eller et kort, for f.eks. at kommunikere s
 
 Følgende procedure er baseret på en salgsordre. Trinene er de samme for alle andre understøttede dokumenter og kort.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.
 2. Marker den salgsordre, du vil skrive en note om, og vælg derefter fanen **Vedhæftede filer** i faktaboksen.
 3. Vælg ikonet **+** i sektionen **Noter**.
 4. Skriv en tekst i feltet **Note**, f.eks. "Dette er en vigtig bestilling".

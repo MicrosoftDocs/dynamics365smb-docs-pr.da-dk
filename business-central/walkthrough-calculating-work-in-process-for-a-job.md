@@ -1,6 +1,6 @@
 ---
 title: Gennemgang - Beregning af igangværende arbejder for en sag | Microsoft Docs
-description: Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer og holde styr på de forskellige omkostninger, der er forbundet med brugen af ressourcerne på et bestemt projekt. Sager inkluderer forbruget af medarbejdertimer, maskintimer, lagervarer og andre brugstyper, der skal registreres, efterhånden som en sag skrider frem.
+description: Sager inkluderer forbruget af medarbejdertimer, maskintimer, lagervarer og andre brugstyper, der skal registreres, efterhånden som en sag skrider frem.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0e26df80ecfc0c7921e4f06b3094ae81ae7c29e4
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 58cc257b30829fe0b9a2fe2bdec4ef6e5a5855cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216074"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445222"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Gennemgang: Beregning af igangværende arbejder for en sag
 
@@ -60,7 +60,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
 ### <a name="to-calculate-wip"></a>Sådan beregnes VIA  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
 2.  På listen **Sager** skal du vælge sagen **Kvalitetsmøbler** og derefter vælge handlingen **Rediger**. Dermed åbnes sagskortet i redigeringstilstand.  
 
      VIA kan beregnes ud fra Kostværdi, Salgsværdi, Salgsomkostning, Færdiggørelsesgrad og Afsluttet kontrakt. I dette eksempel bruger CRONUS kostværdimetoden.  
@@ -92,7 +92,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
 ### <a name="to-review-wip-warnings"></a>Gennemgå VIA -advarsler  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **IGVA-cockpit for job**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **IGVA-cockpit for job**, og vælg derefter det relaterede link.  
 2.  Markér sagen **Kvalitetsmøbler**, og vælg derefter handlingen **Vis advarsler**.  
 3.  Gennemse den advarsel, der er knyttet til sagen på siden **Advarsler om igangværende arbejde**.  
 

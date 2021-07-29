@@ -1,6 +1,6 @@
 ---
-title: Sådan modtager du varer | Microsoft Docs
-description: Når der ankommer varer til et lagersted, der er sat op til lagermodtagelse, henter du de linjer i kildedokumentet, som har udløst modtagelsen.
+title: Sådan modtages varer
+description: Dette emne er en oversigt over de forskellige måder at modtage varer på et lagersted, f. eks. varer med en købsordre eller varer med en lagermodtagelse.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5bf683be6e6d0976464240d08e0546639a46362a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f71e348a5f6b8a232d05c8729a03a7f41534caa8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771900"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445122"
 ---
 # <a name="receive-items"></a>Modtage varer
 
@@ -27,7 +27,7 @@ Når der ankommer varer til et lagersted, der er sat op til lagermodtagelse, hen
 
 Nedenfor kan du se, hvordan du modtager varer med en købsordre. Der er en tilsvarende fremgangsmåde for salgsreturvareordrer og overflytningsordrer.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordre**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **købsordrer**, og vælg derefter det relaterede link.
 2. Åbn en eksisterende købsordre eller opret en ny. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).
 3. Angiv det modtagne antal i feltet **Modtag (antal)**.
 
@@ -43,7 +43,7 @@ Nedenfor kan du se, hvordan du modtager varer med en købsordre. Der er en tilsv
 
 ## <a name="to-receive-items-with-a-warehouse-receipt"></a>Sådan modtages varer med en lagermodtagelse
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermodtagelse**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagermodtagelse**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 
     Udfyld felterne i oversigtspanelet **Generelt**. Når du henter kildedokumentlinjer, kopieres nogle af oplysningerne fra hovedet til hver linje.  
@@ -96,7 +96,7 @@ Du skal angive en procentdel,, som gør det muligt at overskride det bestilte an
 
 Følgende afsnit handler om, hvordan du opretter og tildeler en overmodtagelseskode til en vare. Trinene er de samme for en kreditor.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for en vare, som du har mistanke om kan blive leveret med et højere antal end det bestilte.
 3. Klik på søgeknappen i feltet **Overmodtagelseskode**.
 4. Vælg handlingen **Ny**.
@@ -131,9 +131,9 @@ Når du håndterer en overmodtagelse, kan du enten øge værdien i feltet **Modt
 
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)  
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
 [Montagestyring](assembly-assemble-items.md)  
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

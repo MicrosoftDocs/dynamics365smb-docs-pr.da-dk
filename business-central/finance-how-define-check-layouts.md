@@ -1,6 +1,6 @@
 ---
-title: Angive layoutet for en check | Microsoft Docs
-description: Du kan designe og udskrive checks i forskellige formater i overensstemmelse med standarderne.
+title: Angive layoutet for en check
+description: Du kan designe og udskrive checks i forskellige formater i overensstemmelse med de standarder, der er angivet af de lokale myndigheder.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 24d046d9284797e371a9cca98ad68618bf248be7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6d083e3eea85fde087a431d21bb9eae8bb4b8c5e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781602"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444633"
 ---
 # <a name="select-a-check-layout"></a>Vælge et checklayout
 Du kan udforme dine checks i overensstemmelse med de lokale myndigheders standarder. Checkbilleder kan udskrives på engelsk, fransk eller spansk.
@@ -23,7 +23,7 @@ Du kan udforme dine checks i overensstemmelse med de lokale myndigheders standar
 Checks er designet til udskrivning i amerikanske og canadiske checkbilledformater i et checkfølgebrevformat eller et følgebrev-følgebrevcheckformat.
 
 ## <a name="to-select-a-check-layout"></a>Sådan vælges et checklayout
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rapportvalg - Bankkonto**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rapportvalg - Bankkonto**, og vælg derefter det relaterede link.
 2. På siden **Rapportvalg - bankkonto** skal du vælge feltet **Check** i feltet **Forbrug**.
 3. Vælg et af følgende rapport-id'er.
 
@@ -52,10 +52,10 @@ I opdatering 15.3 og nyere er der installeret MICR-skrifttyper (Magnetic Ink Cha
 ### <a name="micr-e-13b-specifications"></a>MICR E-13B-specifikationer
 Følgende opsummerer specifikationer for de MICR E-13B-skrifttyper, som kan være nyttige, når du kalibrerer skrifttyper til at kunne bruges i checklayout på specifikke MICR-printere.
 
-![MICR E-13B-specifikationer](media/font_MICR_E-13B_Specifications.png "MICR E-13B-specifikationer")
+![MICR E-13B-specifikationer.](media/font_MICR_E-13B_Specifications.png "MICR E-13B-specifikationer")
 
 ### <a name="delimiter-characters"></a>Afgrænsningstegn
-![Afgrænsningstegn](media/font-micr-letters.png "Afgrænsningstegn")
+![Afgrænsningstegn.](media/font-micr-letters.png "Afgrænsningstegn")
 
 Den komplette specifikation af MICR E-13B-skrifttyper findes i leverandørens dokumentation her: (https://www.idautomation.com/micr-fonts/e13b/).
 
@@ -69,17 +69,17 @@ Følgende CMC-7-skrifttyper er tilgængelige i [!INCLUDE[prod_short](includes/pr
 
 Følgende opsummerer specifikationer for de MICR CMC-7-skrifttyper, som kan være nyttige, når du kalibrerer skrifttyper til at kunne bruges i checklayout på specifikke MICR-printere.
 
-![MICR CMC-7-specifikationer](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7-specifikationer")
+![MICR CMC-7-specifikationer.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7-specifikationer")
 
 ### <a name="delimiter-characters"></a>Afgrænsningstegn
-![Afgrænsningstegn](media/font-cmc7-letters.png "Afgrænsningstegn")
+![Afgrænsningstegn for CMC-7.](media/font-cmc7-letters.png "Afgrænsningstegn for CMC-7")
 
 Den komplette specifikation af MICR CMC-7-skrifttyper findes i leverandørens dokumentation her: (http://www.idautomation.com/micr-fonts/cmc7/).
 
 ### <a name="secure-font-specifications"></a>Specifikationer for sikre skrifttyper
 Følgende opsummerer specifikationer for sikkerhedsskrifttyper til checks, som kan være nyttige, når du kalibrerer skrifttyper til at kunne bruges i checklayout på specifikke MICR-printere.
 
-![Specifikationer for sikkerhedsskrifttyper til checks](media/font_check-security-font_Specifications.png "Specifikationer for sikkerhedsskrifttyper til checks")
+![Specifikationer for sikkerhedsskrifttyper til checks.](media/font_check-security-font_Specifications.png "Specifikationer for sikkerhedsskrifttyper til checks")
 
 Den komplette specifikation af sikkerhedsskrifttyper til checks findes i leverandørens dokumentation her: (https://www.idautomation.com/security-fonts/).
 

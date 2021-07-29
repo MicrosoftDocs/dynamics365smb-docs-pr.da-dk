@@ -1,6 +1,6 @@
 ---
-title: Registrere udgifter eller indtægter direkte i Finans | Microsoft Docs
-description: Du kan oprette relaterede transaktioner for aktiviteter, der ikke er repræsenteret af et dokument, f.eks. mindre udgifter eller indbetalinger, ved at bogføre kladdelinjer på siden Finanskladde.
+title: Registrere udgifter eller indtægter direkte i Finans
+description: Du kan oprette relaterede transaktioner for aktiviteter, der ikke er repræsenteret af et dokument, ved at bogføre kladdelinjer på siden Finanskladde.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e0beff15352fb8e57f57c9d0ffdcd76bc28afbb9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: b27406f2020b95bc5dd9bc8771b9d632aa6c740f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782374"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444533"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Bogføre transaktioner direkte i finansposterne
 
@@ -29,7 +29,7 @@ I modsætning til poster, der bogføres med dokumenter, som kræver en kreditnot
 
 ## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Sådan bogføres en transaktion direkte på en finanspostkonto
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finanskladder**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Finanskladder**, og vælg derefter det relaterede link.
 2. Åbn det relevante finanskladdenavn. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).
 3. Udfyld felterne efter behov på en ny kladdelinje. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 

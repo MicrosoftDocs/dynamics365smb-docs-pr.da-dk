@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: postpone
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1a3adebe30e63ea295aed6aa7beffbf581ba1be3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 525cc099b2a9b2630395a092761e0526f4760356
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784886"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444658"
 ---
 # <a name="create-gl-budgets"></a>Oprette finansbudgetter
 Du kan have flere budgetter for identiske tidsperioder ved at oprette budgetter med separate navne. Ført opretter du budgetnavnene og angiver budgettal. Derefter medtages budgetnavnene på alle de budgetposter, du opretter.  
@@ -29,7 +29,7 @@ Budgetter spiller en vigtig rolle i business intelligence, f.eks. i finansregnsk
 I Omkostningsberegning arbejder du med omkostningsbudgetter på samme måde. Du kan finde flere oplysninger i [Oprette omkostningsbudgetter](finance-create-cost-budgets.md).    
 
 ## <a name="to-create-a-new-gl-budget"></a>Sådan oprettes et nyt finansbudget  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finansbudgetter**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Finansbudgetter** og vælg derefter det relaterede link.  
 2. Vælg handlingen **Rediger liste**, og udfyld derefter felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Vælg handlingen **Rediger budget**.
 4. Øverst på siden **Budget** skal du udfylde felterne efter behov for at definere, hvad der vises.  

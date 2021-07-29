@@ -11,12 +11,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 9c2d32fd87112b839e6f60362fbd929870d47138
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 96e4ef52bc896cd02f0e6b38a470d16a00284c66
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774457"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445412"
 ---
 # <a name="view-test-reports-before-posting"></a>Vise testrapporter inden bogføring
 Når du er klar til at bogføre et dokument, f.eks en ordre, faktura eller en kreditnota, kan du teste dokumentet for at sikre, at der ingen problemer findes, der vil blokere for bogføringen.
@@ -25,7 +25,7 @@ Når du er klar til at bogføre et dokument, f.eks en ordre, faktura eller en kr
 >   Nedenstående fremgangsmåde drejer sig om kontrol, før du bogfører et købsdokument. Funktionen fungerer på samme måde for salgsdokumenter.
 
 ## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Sådan udskrives en kontrolrapport før bogføringen af en købsfaktura
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.
 2. Åbn den købsfaktura, som du vil teste.
 3. Vælg handlingen **Testrapport**.  
 

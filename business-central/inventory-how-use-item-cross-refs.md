@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0a9f84522598344435ad9c1263fe8cdea2e2a1e0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 853c574f5b262f7b826bc92dd8e35484e902c1f4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785644"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444941"
 ---
 # <a name="use-item-cross-references"></a>Bruge varereferencer
 Hvis du har oprettet en reference mellem varebeskrivelsen, du bruger til en vare, og den beskrivelse, som leverandøren af den pågældende vare bruger, indsættes leverandørens varebeskrivelse automatisk i købsdokumenter for leverandøren, når du udfylder feltet **Varereferencenr.** . De samme funktioner gælder for debitorvarenumre i salgsdokumenter.
@@ -27,7 +27,7 @@ Følgende procedurer beskriver, hvordan du kan bruge varereferencer på købssid
 
 ## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Sådan oprettes en varereference til en kreditors varebeskrivelse
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for den vare, som du vil oprette en reference for til den varebeskrivelse, som leverandøren bruger til den pågældende vare.
 3. Vælg handlingen **Varereferencer**.
 
@@ -37,7 +37,7 @@ Følgende procedurer beskriver, hvordan du kan bruge varereferencer på købssid
 
 ## <a name="to-enter-a-vendors-item-description-on-a-purchase-order"></a>Sådan angiver du en kreditors varebeskrivelse på en købsordre
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordre**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **købsordrer**, og vælg derefter det relaterede link.
 2. Opret en købsordre for den leverandør, som du angav en varereference for ovenfor.
 3. Opret en købslinje for den vare, som du angav en varereference for ovenfor.
 4. I feltet **Varereferencenr.** skal du vælge den varereference, du har oprettet, og derefter vælge knappen **OK**.

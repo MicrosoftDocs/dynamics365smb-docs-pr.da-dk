@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 10483de41b1106914a1fa477309e5b39a3f41e6b
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: 54e5985f9399d3b07a86165c720899a5a29f360e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947409"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444841"
 ---
 # <a name="track-items-with-serial-lot-and-package-numbers"></a>Spore varer med serie-, lot- og pakkenumre
 
@@ -70,7 +70,7 @@ Hvis du arbejder på siden **Varesporingslinjer** i lang tid, eller hvis der er 
 
 En varesporingskode afspejler de forskellige overvejelser, som en virksomhed skal gøre sig i forbindelse med brugen af serie- og lotnumre på varer, der bevæger sig igennem lageret.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varesporingskoder**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varesporingskoder**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. På oversigtspanelerne **Serienr.**, **Lotnr.** og **Pakkenr.** skal du definere politikker for varesporingen henholdsvis efter serie-, lot- og pakkenumre.  
@@ -97,7 +97,7 @@ Det kan være praktisk at angive særlige udløbsdatoer og regler i varesporings
 
 Det kan være praktisk at angive særlige garantier for bestemte varer i varesporingskoden. Det betyder, at du kan holde styr på, hvornår garantierne for bestemte serie- eller lotnumre udløber for varerne på dit lager.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varesporingskoder**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varesporingskoder**, og vælg derefter det relaterede link.  
 
 2. Vælg en eksisterende varesporingskode, og vælg derefter handlingen **Rediger**.  
 3. Udfyld feltet **Garantiophørsformel** i oversigtspanelet **Diverse**, og marker derefter afkrydsningsfeltet på følgende måde.  
@@ -115,7 +115,7 @@ De nøjagtige regler for håndtering af varesporingsnumre i din virksomhed beste
 > [!NOTE]  
 >  For at bruge varesporingsnumre i lageraktiviteter skal opsætningsfelterne **Lotlagersporing** og **Serienr.- lagersporing** vælges, da de definerer de bestemte regler for håndtering af serie- og lotnumre i lageraktiviteter.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordre**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **købsordrer**, og vælg derefter det relaterede link.  
 2. Markér den relevante dokumentlinje, og vælg handlingen **Linje** i oversigtspanelet **Linjer**, og vælg derefter handlingen **Varesporingslinjer**.  
 
     Du kan tildele serie- eller lotnumre på følgende måder:  
@@ -197,7 +197,7 @@ Procedurerne for håndtering af serie- og lotnumre, der overføres mellem forske
 Overførselsordren er imidlertid entydig i den pågældende leverance, og begge modtagelser sker fra samme overførselslinje og bruger derfor den samme forekomst på siden **Varesporingslinjer**. Det betyder, at varesporingslinjer, der sendes fra en lokation, skal modtages uændret på en anden.  
 
  De nøjagtige regler for håndtering af varesporingsnumre i din virksomhed bestemmes af opsætningen af tabellen  **Varesporingskode**.    
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Overflytningsordrer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **overførselsordrer**, og vælg derefter det relaterede link.  
 2. Åbn den overflytningsordre, du vil behandle. I oversigtspanelet **Linjer**, skal du vælge handlingen **Linje**, vælge handlingen **Varesporingslinjer** og derefter vælge handlingen **Leverance**.  
 3. Tilknyt eller vælg serienumre/lotnumre på siden **Varesporingslinjer** som for enhver anden udgående varetransaktion.  
 
@@ -220,7 +220,7 @@ Funktionen understøtter følgende udgående processer:
 
 I disse situationer kopieres de eksisterende varesporingslinjer automatisk til fakturaen eller kreditnotaen, men siden **Varesporingslinjer** tillader ikke, at serie- eller lotnumre ændres. Det er kun mængderne, der kan ændres.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.  
 2. Åbn en købsfaktura for varer, der er køb med serienumre eller lotnumre.  
 3. Fra en købsfakturalinje skal du i oversigtspanelet **Linjer** vælge handlingen **Hent købsleverancelinjer**.  
 4. Vælg modtagelseslinjer, der har varesporingslinjer på siden **Hent købsleverancelinjer**, og vælg derefter knappen **OK**.  
@@ -251,7 +251,7 @@ Alternatively, you can create an information card when you post journals or docu
 Du kan ændre oprettede serie- eller lotnumre på et senere tidspunkt.
 
 ## <a name="to-modify-existing-serial-or-lot-number-information"></a>Sådan ændres eksisterende serie-/lotnummeroplysninger  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
 2. Vælg en vare, der har en varesporingskode og har serie- eller lotnummeroplysninger.
 3. På siden **Varekort** skal du vælge handlingen **Poster** og derefter klikke på **Poster**.
 4. Vælg feltet **Lotnr.** eller **Serienr.**. Hvis der findes oplysninger for varesporingsnummeret, åbnes siden **Oversigt over lotnr.oplysninger** eller **Oversigt over serienr.oplysninger**.  
@@ -263,7 +263,7 @@ Du kan ikke redigere serienumre, lotnumre eller mængder. For at gøre det skal 
 ## <a name="to-reclassify-serial-or-lot-numbers"></a>Sådan omposteres serie- eller lotnumre  
 Ompostering af varesporing for en vare betyder, at et lot- eller serienummer ændres til et nyt lot- eller serienummer, eller at udløbsdatoen ændres til en ny udløbsdato. Hvis du arbejder med lotter, kan du også samle flere lotter i en enkelt lot. Disse opgaver udføres ved hjælp af vareomposteringskladden.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Vareomposteringskladde**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Vareomposteringskladder**, og vælg derefter det relaterede link.  
 2. Udfyld linjen med de relevante oplysninger. Du kan finde flere oplysninger i [Lageroptælling ved hjælp af dokumenter](inventory-how-count-inventory-with-documents.md) eller [Tælle, justere og ompostere inventar ved hjælp af kladder](inventory-how-count-adjust-reclassify.md).
 3. Vælg handlingen **Varesporingslinjer**.  
 4. Vælg det aktuelle serie- eller lotnummer i feltet **Serienr.** eller **Lotnr.**.  

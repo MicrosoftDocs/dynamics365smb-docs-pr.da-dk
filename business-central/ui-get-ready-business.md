@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bb9ace03ee8e47b25a7812e1ace624b8e88e990c
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: 6bac247787efde5e23a7460b696c241e93f5de89
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074633"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444816"
 ---
 # <a name="getting-ready-for-doing-business"></a>Bliv klar til at handle
 
@@ -23,9 +23,9 @@ Tillykke, du lige har startet din første virksomhed i [!INCLUDE[prod_short](inc
 
 For at blive klar til at handle kan du besøge siden **Assisteret opsætning**, hvor du kan starte assisterede opsætningsguides, videoer eller hjælpeemner for valgte opsætningsopgaver. Hvis du vil have adgang til siden, skal du blot vælge [dette link](https://businesscentral.dynamics.com/?page=1801).  
 
-Du kan også vælge ![Tandhjulsikonet for at åbne menuen Indstillinger](media/ui-experience/settings_icon_small.png) og derefter udføre handlingen **Assisteret opsætning**.
+Alternativt kan du vælge ![ikonet Tandhjul for at åbne menuen Indstillinger.](media/ui-experience/settings_icon_small.png) ikon, og derefter handlingen **Assisteret opsætning**.
 
-Du kan også få vist listen over assisterede opsætningsvejledninger ved at vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Assisteret opsætning** og derefter vælge det relaterede link.  
+Du kan også finde listen over assisterede opsætningsvejledninger, hvis du vælger ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Assisteret opsætning** og vælg derefter det relaterede link.  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
@@ -36,7 +36,7 @@ Når du logger på første gang eller starter et nyt regnskab, fører kontrollis
 
 Når du har overført data såsom kreditorer, debitorer og varer fra dit eksisterende økonomisystem, er du klar til at begynde. Men afhængigt af dine behov skal du overveje, om andre assisterede opsætningsguides på listen kan hjælpe dig.
 
-Hvis et område ikke er dækket af en assisteret opsætning, skal du vælge ![Tandhjulsikonet for at åbne menuen Indstillinger](media/ui-experience/settings_icon_small.png) og derefter udføre handlingen **Avancerede indstillinger**. I **Avancerede indstillinger** giver afsnittet **Manuel opsætning** adgang til opsætningssider, hvor du kan udfylde opsætningsfelter for alle områder manuelt. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+Hvis et område ikke er dækket af en assisteret opsætning, skal du vælge ![Tandhjulsikonet for at åbne menuen Indstillinger.](media/ui-experience/settings_icon_small.png) ikon, og derefter handlingen **Avancerede indstillinger**. I **Avancerede indstillinger** giver afsnittet **Manuel opsætning** adgang til opsætningssider, hvor du kan udfylde opsætningsfelter for alle områder manuelt. Du kan også finde flere oplysninger under [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
 > [!NOTE]  
 > Oversigten over assisterede opsætningsvejledninger, udvidelser og tjenester, der er tilgængelige, afhænger af den brugeroplevelse, du vælger for din virksomhed. Oplevelsen **Essential** giver adgang til mindre end oplevelsen **Premium**.

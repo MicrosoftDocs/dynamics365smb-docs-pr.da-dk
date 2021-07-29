@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track, business intelligence
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7e3bc7abb3908afc1819ac88c910dff85010c735
-ms.sourcegitcommit: cbd00f24fb471381bbfd64670237eda176bd78e5
+ms.openlocfilehash: ddcb3b3074a33fa279aa9a7cc0b04e5b5904fbac
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947434"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444683"
 ---
 # <a name="working-with-dimensions"></a>Arbejde med dimensioner
 Dimensioner er værdier, der kategoriserer poster, så du kan spore og analysere dem i dokumenter som f.eks. salgsordrer. Dimensioner kan f.eks. angive det projekt eller den afdeling, en post kommer fra.  
@@ -57,7 +57,7 @@ Når dimensioner og værdier konfigureres, kan du definere globale dimensioner o
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Sådan konfigureres standarddimensioner for kunder, leverandører og andre konti
 Du kan tildele en standarddimension for en specifik konto. Dimensionen kopieres til kladden eller dokumentet, når du angiver kontonummeret på en linje, men du kan slette og ændre koden på linjen, hvis det er relevant. Du kan også oprette en dimension, der kræves til bogføring af en post med en bestemt type konto.  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Dimensioner**, og vælg derefter det tilknyttede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Dimensioner**, og vælg derefter det relaterede link.  
 2.  På siden **Dimensioner** skal du vælge den relevante dimension og derefter vælge handlingen **Kontotype-standarddim**.  
 4.  Udfyld felterne for hver ny linje, du vil oprette. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -73,7 +73,7 @@ Du kan tildele en standarddimension for en specifik konto. Dimensionen kopieres 
 ### <a name="to-set-up-default-dimension-priorities"></a>Sådan oprettes prioritering af standarddimensioner  
 Forskellige kontotyper, f.eks. en debitorkonto eller en varekonto, kan have forskellige standarddimensioner angivet. Et resultat heraf er, at en post kan have mere end én standarddimension som forslag til en dimension. For at undgå sådanne konflikter, kan du knytte prioriteringsregler til forskellige kilder.  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Prioritering af standarddim.**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Prioritering af standarddim.**, og vælg derefter det relaterede link.  
 2.  På siden **Prioritering af standarddim.** i feltet **Kildekode** skal du indtaste kildekoden for den posteringstabel, som standarddimensionsprioriteterne skal gælde for.  
 3.  Udfyld en linje for hver standarddimensionsprioritet som du ønsker for det valgte kildespor.
 4.  Gentag denne fremgangsmåde for hvert kildespor, du vil standarddimensionsprioriteter til.  
@@ -84,7 +84,7 @@ Forskellige kontotyper, f.eks. en debitorkonto eller en varekonto, kan have fors
 ### <a name="to-set-up-dimension-combinations"></a>Sådan oprettes kombinationer af dimensioner  
 For at undgå bogføringsposter med modstridende eller irrelevante dimensioner kan du blokere eller begrænse bestemte kombinationer af to dimensioner. Hvis en dimensionskombination er blokeret, kan du ikke bogføre dimensionerne i samme post, uanset hvad dimensionsværdierne er. En begrænset dimensionskombination tillader bogføring af begge dimensioner i samme post, men kun med visse kombinationer af dimensionsværdier.
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Dimensionskombinationer**, og vælg derefter det tilknyttede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **dimensionskombinationer**, og vælg derefter det relaterede link.  
 2.  På siden **Dimensionskombinationer** skal du vælge feltet med dimensionskombinationen og vælge en af følgende indstillinger.  
 
     |Felt|Beskrivelse|
@@ -113,13 +113,13 @@ Globale dimensioner og genvejsdimensioner kan bruges som filter overalt i [!INCL
 > [!Note]
 > Når du tilføjer eller ændrer en global dimension eller genvejsdimension, logges du automatisk ud og ind igen, så den nye værdi er forberedt til brug.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Finans**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Finans**, og vælg derefter det relaterede link.
 2. Udfyld felterne i oversigtspanelet **Dimensioner**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 #### <a name="to-change-global-dimensions"></a>Sådan ændres globale dimensioner
 Når du ændrer en global dimension eller en genvejsdimension, opdateres alle poster, som er bogført i den pågældende dimension. Da denne proces kan være tidskrævende og kan påvirke ydeevnen, kan processen tilpasses databasens størrelse ved hjælp af to forskellige tilstande.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Finans**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Finans**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Rediger globale dimensioner**.
 3. Øverst på siden skal du vælge en af følgende indstillinger for at definere, i hvilken tilstand batchjobbet skal køres.
 
@@ -200,7 +200,7 @@ Globale dimensioner er altid virksomheds\-defineret og navngivet efter virksomhe
 
 Du kan se, om der er globale dimensioner for poster, når du åbner en side med poster. De to globale dimensioner adskiller sig fra resten af dimensionerne, fordi du kan bruge dem som filtre overalt i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontoplan**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoplan**, og derefter vælge det relaterede link.  
 2.  På siden **IC-kontoplan** skal du vælge handlingen **Poster**.  
 3.  Angiv et eller flere filtre, så du kun får vist de relevante poster på siden.  
 4.  Hvis du vil have vist alle dimensioner for en post, skal du vælge den og derefter vælge handlingen **Dimensioner**.  

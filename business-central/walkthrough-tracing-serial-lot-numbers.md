@@ -1,6 +1,6 @@
 ---
-title: Gennemgang - Sporing af serie-lotnumre | Microsoft Docs
-description: I dette emne beskrives de handlinger, der skal udføres for at stoppe salget af en defekt vare.
+title: Gennemgang - Sporing af serie-/lotnumre
+description: I dette emne beskrives de handlinger, der skal udføres for at forhindre, at en defekt vare sælges, og hvordan du kan spore og tilbagekalde varer, når det er nødvendigt.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6d06d39ac3e3b1bb9ad0a3b9089b295c899e9f74
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: eff79c853e5976ce85705b790542854e0e2a6ebc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216276"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445097"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Gennemgang: Sporing af serie-/lotnumre
 
@@ -77,7 +77,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
 ### <a name="to-create-the-items"></a>Sådan oprettes varerne  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. I feltet **Nummer** skal du skrive **2000**, og derefter udfylde de følgende felter.  
 
@@ -114,7 +114,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
 ### <a name="to-purchase-components"></a>Købe komponenter
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordre**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **købsordrer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. Opret en købsordre for kreditoren Custom Metals Incorporated ved at udfylde følgende linjefelter.  
 
@@ -128,7 +128,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 7. Vælg handlingen **Bogfør**, vælg indstillingen **Modtag og fakturer**, og vælg derefter knappen **OK**.  
 
     Dernæst skal du købe racerstel fra Schmeichel Møbler A/S.  
-8. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordre**, og vælg derefter det relaterede link.  
+8. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **købsordrer**, og vælg derefter det relaterede link.  
 9. Vælg handlingen **Ny**.
 10. Opret en købsordre for kreditoren, Schmeichel Møbler A/S, ved at udfylde følgende linjefelter.  
 
@@ -145,7 +145,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
 ### <a name="to-produce-end-items"></a>Fremstille færdigvarer
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Frigivne produktionsordrer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Frigivne produktionsordrer**, og vælg derefter det relaterede link.  
 2. Vælg gruppen **Ny**.  
 3. Opret en ny frigivet produktionsordre ved at udfylde følgende felter.  
 
@@ -166,7 +166,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
     Dernæst skal producere to yderligere racercykler, SN3 og SN4.  
 
-11. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Frigivne produktionsordrer**, og vælg derefter det relaterede link.  
+11. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Frigivne produktionsordrer**, og vælg derefter det relaterede link.  
 12. Vælg handlingen **Ny**.  
 13. Opret en ny frigivet produktionsordre ved at udfylde følgende felter i hovedet.  
 
@@ -191,7 +191,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
     Dernæst skal sælge racercykler. Først skal du sælge racercykler med SN1 til Ravel Møbler A/S.  
 
 ### <a name="to-sell-the-end-items"></a>Sælge færdigvarer  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**, og opret derefter en salgsordre ved at udfylde følgende felter.  
 
     |Debitor|Vare|Antal|Serienr.|  
@@ -203,7 +203,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
     Derefter skal du sælge racercyklen med SN2 til Kontorcentralen A/S.  
 
-5.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
+5.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 6.  Vælg handlingen **Ny**, og opret derefter en salgsordre ved at udfylde følgende felter.  
 
     |Debitor|Vare|Antal|Serienr.|  
@@ -215,7 +215,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
     Til sidst skal du sælge nogle racerstel separat. Kontorcentralen A/S bestiller også fire separate racerstel til deres egen montagelinje.  
 
-9. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
+9. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 10. Vælg handlingen **Ny**, og opret derefter en salgsordre ved at udfylde følgende felter.  
 
     |Debitor|Vare|Antal|Serienr.|  
@@ -233,7 +233,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
  Salgsafdelingen har fortalt den ansvarlige for kvalitetssikring, at den returnerede racercykel, vare 1002, har serienummeret SN1. Ved at anvende denne grundlæggende oplysning kan han finde ud af, hvor racercyklen sidst blev brugt, i dette tilfælde som salgsleverance til Ravel Møbler. Den ansvarlige for kvalitetssikringen skal derefter foretage en sporing tilbage til den tidligste oprindelse for at finde ud af, hvilket lotnummer det fejlbehæftede racerstel kom fra, og hvilken leverandør der leverede det.  
 
 ### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Sådan finder du ud af, hvilket lot det fejlbehæftede stel kommer fra, og hvem der leverede det  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varesporing**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varesporing**, og vælg derefter det relaterede link.  
 2.  På siden **Varesporing** skal du indtaste **SN1** i feltet **Serienr.filter** og derefter indtaste **1002** i feltet **Varefilter**.  
 3.  Behold standardindstillingen **Kun varesporing** i feltet **Vis komponenter**, og behold standardsporingsmetoden **Brug - Oprindelse** i **Sporingsmetode**.  
 4.  Vælg handlingen **Sporing**.  

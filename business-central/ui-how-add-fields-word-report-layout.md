@@ -1,5 +1,5 @@
 ---
-title: Sådan føjer du felter til et Word-rapportlayout | Microsoft Docs
+title: 'Fremgangsmåde: Føje felter til et Word-rapportlayout'
 description: Beskriver, hvor du tilføjer felter fra et rapportdatasæt til et eksisterende Word-rapportlayout for en rapport.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 52cfb4ba4ca0ba645ecca48e08d63722c2c5c5b4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 87b7bc409c313203e6d24172e60b3f92d1af9bd2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771106"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444791"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Føje felter til et Word-rapportlayout
 Et datasæt i rapporten kan bestå af felter, der viser navne, data og billeder. I dette emne beskrives fremgangsmåden for tilføjelse af felter fra et rapportedatasæt i et eksisterende Word-rapportlayout for en rapport. Du kan tilføje felter ved hjælp af den Word-tilpassede XML-del for rapporten og tilføje indholdskontrolelementer, der er knyttet til felterne i rapportens datasæt. Tilføjelse af felter kræver, at du har kendskab til rapportens datasæt, så du kan identificere de felter, du vil føje til layoutet.  
@@ -111,7 +111,7 @@ Følgende tabel indeholder en forenklet oversigt over XML for en brugerdefineret
   
  Følgende figur illustrerer den simple brugerdefinerede XML-del fra det foregående afsnit i ruden **XML-tilknytning** i et Word-dokument.  
   
- ![Klip af XML-tilknytningsruden i Word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
+ ![Klip af XML-tilknytningsruden i Word.](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
 -   Hvis du vil føje et navn eller felt til layoutet, skal du indsætte et indholdskontrolelement, der er knyttet til elementet i ruden **XML-tilknytning**.  
   

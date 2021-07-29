@@ -1,6 +1,6 @@
 ---
-title: Sådan oprettes læg-på-lager-skabeloner | Microsoft Docs
-description: Hvis du benytter styret læg-på-lager og pluk, foreslås den til enhver tid mest velegnede placering til varer ifølge den læg-på-lager-skabelon, du har defineret til lagerstedet, de placeringsniveauer, du har tildelt placeringerne, og de minimum- og maksimumantal, du har angivet for faste placeringer.
+title: Sådan oprettes læg-på-lager-skabeloner
+description: Brug læg-på-lager-skabeloner for at få foreslået de mest velegnede placeringer til dig på et hvilket som helst tidspunkt.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 336a9aa748d997d2cf4c5ae9a93cab6f96495fd6
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 715c2f0c862d720d7123bc585d9b67c642d22005
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784188"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445072"
 ---
 # <a name="set-up-put-away-templates"></a>Oprette læg-på-lager-skabeloner
 
@@ -25,7 +25,7 @@ Du kan oprette en række læg-på-lager-skabeloner og vælge en af som standards
 
 ## <a name="to-set-up-put-away-templates"></a>Sådan oprettes læg-på-lager-skabeloner
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Læg-på-lager-skabeloner**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Læg-på-lager-skabeloner**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. Indtast en kode som entydig id for skabelonen.  
 4. Indtast evt. en kort beskrivelse.  
@@ -42,9 +42,9 @@ Du kan oprette en række læg-på-lager-skabeloner og bruge dem efter behov. Den
 
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)  
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
 [Montagestyring](assembly-assemble-items.md)  
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

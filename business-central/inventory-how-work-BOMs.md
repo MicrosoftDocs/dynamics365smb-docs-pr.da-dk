@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3489ef57da691e408553b1703c4deab17622167f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 2f23357fde2dc86e0be0ee09099d57623056365c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5785619"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444916"
 ---
 # <a name="work-with-bills-of-material"></a>Arbejde med styklister
 Du kan bruge styklister til at strukturere overordnede varer, der skal samles eller fremstilles af ressourcer eller produktionsressourcer fra komponenter. En montagestykliste kan også bruges til at sælge en overordnet vare som en pakke bestående af dens komponenter.
@@ -56,14 +56,14 @@ Montagestyklister oprettes ad to omgange:
 ## <a name="to-edit-assembly-boms"></a>Sådan redigeres montagestyklister
 Du kan til enhver tid redigere linjerne på en montagestykliste. Men vær opmærksom på, at styklisten kan være i brug ved igangværende salg eller montager af den overordnede, som kan være påvirket af ændringen. Vælg **Indgår-i** for at se, hvilke varer den bruges i, og om salgs- eller montageordrer kan blive påvirket.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Vælg værdien **Ja**  i kolonnen **Montagestykliste**.
 3. Gå til siden **Montagestykliste**, og vælg handlingen **Rediger liste**, og rediger derefter felter efter behov.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Sådan får du vist komponenter og ressourcer indrykket i overensstemmelse med styklistestrukturen
 Fra siden **Montagestykliste** kan du åbne en separat side, der viser komponenterne og evt. ressourcer, der er indrykket i henhold til deres placering på styklisten under montageelementet.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for et montageelement. (Feltet **Montagestykliste** på siden **Varer** indeholder **Ja**).
 3. På siden **Varekort** skal du vælge handlingen **Montage** og derefter vælge handlingen **Montagestykliste**.
 4. På siden **Montagestykliste** skal du vælge handlingen **Vis stykliste**.
@@ -78,7 +78,7 @@ Funktionen Udfold stykliste er også tilgængelig på siden **Montagestykliste**
 
 Følgende procedure er baseret på en salgsfaktura. Samme fremgangsmåde gælder for andre salgsdokumenter og alle købsdokumenter.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsfakturaer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsfakturaer**, og vælg derefter det relaterede link.
 2. Åbn en salgsfaktura, som indeholder en linje for et montageelement.
 3. Vælg linjen for et montageelement og vælg derefter linjehandlingen **Udfold stykliste**.
 

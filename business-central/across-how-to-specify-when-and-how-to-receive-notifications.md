@@ -1,6 +1,6 @@
 ---
-title: Sådan angiver du, hvornår og hvordan notifikationer modtages | Microsoft Docs
-description: Når du konfigurerer brugere i godkendelsesworkflows, skal du angive på siderne Konfiguration af notifikation og Notifikationsplan, hvordan og hvornår de enkelte brugere får besked om godkendelsestrin i workflowet. Individuelle brugere kan også ændre deres opsætning ved at klikke på knappen Rediger notifikationsindstillinger i en vilkårlig notifikation.
+title: Angive, hvornår og hvordan notifikationer modtages
+description: Når du konfigurerer brugere i godkendelsesworkflows, skal du angive på siderne Konfiguration af notifikation og Notifikationsplan, hvordan og hvornår de enkelte brugere får besked.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d96d094547b71fc722c06facb80a131786df0e58
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 098d7a5f677310916484bcff652ff9557c96478f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774607"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445041"
 ---
 # <a name="specify-when-and-how-to-receive-notifications"></a>Angive, hvornår og hvordan notifikationer modtages
 Når du konfigurerer brugere i godkendelsesworkflows, skal du angive på siderne **Konfiguration af notifikation** og **Notifikationsplan**, hvordan og hvornår de enkelte brugere får besked om godkendelsestrin i workflowet. Individuelle brugere kan også ændre deres opsætning ved at klikke på knappen **Rediger notifikationsindstillinger** i en vilkårlig notifikation.  
@@ -31,7 +31,7 @@ Når du konfigurerer brugere i godkendelsesworkflows, skal du angive på siderne
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Angive, hvornår og hvordan brugere modtager notifikationer  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugeropsætning af godkendelser**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Godkendelse af brugerkonfiguration**, og vælg derefter det relaterede link.  
 2.  Vælg linjen med den bruger, du vil konfigurere notifikationsindstillinger for, og vælg derefter handlingen **Konfiguration af notifikation**.  
 3.  På siden **Konfiguration af notifikation** skal du udfylde felterne som beskrevet i følgende tabel.  
 

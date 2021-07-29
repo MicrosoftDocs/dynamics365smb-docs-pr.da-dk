@@ -7,16 +7,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3dff984847a3c74a6c4dad41385839c4cefdc75e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9781e2d064d48b7ce72b3c7f279c33cbfd42be7a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772125"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445247"
 ---
 # <a name="working-with-prod_short"></a>Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]
+
 Når du udfører de opgaver, interagerer du med data på forskellige måder, f.eks. når du opretter poster og indtaster data, sorterer og filtrerer data, skriver noter og skriver data til andre programmer.
 
 Du kan f.eks. justere størrelsen og placeringen af en side, udvide bredden af kolonner og øge højden på kolonneoverskrifter og ændre sorteringen af data i kolonner. Og hvis du vil bruge et vandret rullepanel til at få vist alle kolonner på en listeside eller på dokumentlinjer, er der en lodret låst rude, der sikrer, at visse kolonner ikke kan rulles.
@@ -26,7 +27,7 @@ Du kan f.eks. justere størrelsen og placeringen af en side, udvide bredden af k
 > [!TIP]
 > Hvis du vil have vist en printervenlig oversigt over de mest benyttede funktioner, skal du vælge følgende billede og hente PDF-filen.
 >
-> [ ![Ikon for PDF-filen](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Ikon, der åbner et PDF-dokument")
+> [ ![Ikon for PDF-filen.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Ikon, der åbner et PDF-dokument")
 
 ## <a name="links-to-learn-more"></a>Links til flere oplysninger
 
@@ -67,6 +68,21 @@ Her er en kort video om, hvordan du bevæger dig rundt i [!INCLUDE[prod_short](i
 
     Internet Explorer understøttes ikke længere. Du kan få flere oplysninger i [Dokumentation til Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Sørg for, at din browser altid er opdateret til den nyeste version.
+
+## <a name="action-bars"></a>Handlingslinjer
+
+I [!INCLUDE [prod_short](includes/prod_short.md)] gør du det meste af arbejdet på en liste, et dokument eller et kort. Alle tre typer sider har en linje med aktioner, der er relevante for den pågældende side, og handlingerne er næsten de samme for det enkelte kort eller dokument og for listen over objekter. På den måde kan du administrere en individuel salgsordre på siden **Salgsordre** og på listen **Salgsordrer**, herunder bogføre og fakturere den.  
+
+Men handlingerne kan også se anderledes ud eller heller ikke være til stede, afhængigt af hvordan du åbner siden. Specielt beregnet til listesider er den listeside, du åbner fra hjemmesiden, og på den side, der gengives, når du søger efter den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon er ikke ens.  
+
+Når du søger efter en åben listeside, f. eks **Salgsordrer**, vises den i Vis tilstand. De handlinger, der bruges til at redigere, få vist eller slette en individuel enhed, f. eks. en salgsordre, vises, når du vælger handlingen **Administrer**.  
+
+> [!TIP]
+> Hvis du ved, at du ofte vil bruge handlinger på dette andet niveau på handlingslinjen, skal du vælge ikonet :::image type="icon" source="media/pin.png" border="false"::: for at fastgøre handlingslinjen og få handlingerne under de forskellige menuer med det samme.
+>
+> Hvis du vil have andet niveau på handlingslinjen til at forsvinde igen, skal du vælge ikonet :::image type="icon" source="media/unpin.png" border="false":::.
+
+Men når du åbner den samme listeside fra startsiden, er handlingen **Administrer** ikke tilgængelig. I stedet for at åbne en individuel salgsordre skal du blot vælge feltet **Nummer**. I denne visning kan du ikke fastgøre handlingslinjen.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 

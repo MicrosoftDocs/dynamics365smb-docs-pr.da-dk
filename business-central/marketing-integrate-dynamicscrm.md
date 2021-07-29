@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f7e4e4c98a334fcd38d488f721eb99e6edcd77c1
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: 709624fb0794102012c7db02cf0cfe0bac943d6a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985358"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444866"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Bruge Dynamics 365 Sales fra Business Central
 Hvis du bruger Dynamics 365 Sales for Customer Engagement, kan du nyde godt af problemfri lead-til-kontant-processen ved hjælp af [!INCLUDE[prod_short](includes/prod_short.md)] for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og håndtering af økonomien.
@@ -115,7 +115,7 @@ I den aktuelle prissætning synkroniseres [!INCLUDE[prod_short](includes/prod_sh
     1. Par de varer, hvor priserne er angivet for debitorprisgruppen.
     2. På siden **Debitorprisgrupper** skal du oprette debitorprisgruppen ved at vælge **Relaterede**, derefter **Dynamics 365 Sales**, **Kobling** og derefter **Konfigurer kobling**. Koblingen opretter en aktiv prisliste i [!INCLUDE[prod_short](includes/prod_short.md)] med det samme navn som debitorprisgruppen i [!INCLUDE[crm_md](includes/crm_md.md)] og synkroniserer automatisk alle varer, som debitorprisgruppen definerer prisen for.
 
-:::image type="content" source="media/customer-price-group.png" alt-text="Debitorprisgruppeside":::
+:::image type="content" source="media/customer-price-group.png" alt-text="Debitorprisgruppeside.":::
 
 #### <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience/)  
 
@@ -131,7 +131,7 @@ Den nye prissætningsoplevelse synkroniserer prislister, der opfylder følgende 
 
 Hvis du vil synkronisere prislister, skal du på siden **Salgsprisliste** vælge **Relaterede**, **Dynamics 365 Sales**, **Kobling** og derefter **Konfigurer kobling**. 
 
-:::image type="content" source="media/sales-price-list.png" alt-text="Salgsprislisteside":::
+:::image type="content" source="media/sales-price-list.png" alt-text="Salgsprislisteside.":::
 
 ---
 

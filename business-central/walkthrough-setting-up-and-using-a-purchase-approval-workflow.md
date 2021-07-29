@@ -1,6 +1,6 @@
 ---
 title: Opsætning og brug af workflow for godkendelse af køb
-description: Du kan automatisere processen med at godkende nye eller ændrede poster, f.eks dokumenter, kladdelinjer og debitorkort, ved at oprette arbejdsgange med fremgangsmåder for de pågældende godkendelser. Før du opretter godkendelsesarbejdsgange, skal du oprette en godkender og erstatte godkenderen for hver godkendelsesbruger. Du kan også angive beløbsgrænser for godkendere for at definere, hvilke salgs- og købsposter, som de er kvalificerede til at godkende. Godkendelsesanmodninger og andre meddelelser kan sendes som mail eller intern note. For hver godkendelsesbrugeropsætning kan du også angive, hvornår der skal modtages notifikationer.
+description: Denne gennemgang fører dig gennem alle de faser, der er involveret i oprettelse og brug af en arbejdsgang til købsgodkendelse, i Business central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/26/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 964e1dae3dc754198777c703a15c1ef0b6fe82a7
-ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
+ms.openlocfilehash: 5c7575f0b3a35536e412757fe90993b764fc3ba5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6110975"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445147"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Gennemgang: Opsætning og brug af workflow for godkendelse af køb
 
@@ -52,7 +52,7 @@ Når du er logget på som dig selv, skal du indstille Anna som godkendelsesbruge
 
 #### <a name="to-set-up-yourself-and-alicia-as-approval-users"></a>Sådan opretter du dig selv og Anna som godkendelsesbrugere
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugeropsætning af godkendelser**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Godkendelse af brugerkonfiguration**, og vælg derefter det relaterede link.  
 2. På siden **Brugeropsætning af godkendelser** skal du vælge handlingen **Ny**.  
 
     > [!NOTE]  
@@ -86,7 +86,7 @@ Opret godkendelsesarbejdsgangen for købsordren ved at kopiere trinnene fra skab
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Sådan oprettes og aktiveres en godkendelsesarbejdsgang for en købsordre
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Arbejdsgange**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Arbejdsflow**, og vælg derefter det relaterede link.  
 2. Vælg **Handlinger** på siden **arbejdsprocesser**, vælg **Ny**, og vælg derefter den **nye arbejdsgang fra skabelon**-handling.  
 3. På siden **Workflowskabeloner** skal du vælge workflowskabelonen **Workflow for godkendelse af købsordre**.  
 
@@ -100,7 +100,7 @@ Brug det nye workflow Godkendelsesworkflow for købsordre ved først at logge p�
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Sådan anmoder du om godkendelse af en købsordre, som Anna
 
 1. Log ind som Anna.
-2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordre**, og vælg derefter det relaterede link.  
+2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **købsordrer**, og vælg derefter det relaterede link.  
 3. Marker linjen for at åbne indkøbsordre 106001.  
 4. Vælg **Handlinger** på siden **Indkøbsordre**, derefter **Anmod om godkendelse**, og vælg derefter handlingen **Send godkendelsesanmodning**.  
 

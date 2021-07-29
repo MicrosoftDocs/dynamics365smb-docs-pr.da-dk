@@ -1,6 +1,6 @@
 ---
-title: Gemme og tilpasse listevisninger | Microsoft Docs
-description: Få at vide, hvordan du kan oprette dine egne visninger af filtrerede lister.
+title: Gemme og tilpasse listevisninger
+description: Få mere at vide om, hvordan du opretter dine egne visninger til filtrerede lister, og hvordan du gemmer, omdøber og styrer disse visninger.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a36d513e0285e197f9ca651bab55f745b448773d
-ms.sourcegitcommit: 921f0c4043dcda2fb8fc35df1b64310bf32270d7
+ms.openlocfilehash: 6ac3489151d9e4e0ebf0867b94b59678bba0f35e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017070"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445347"
 ---
 # <a name="save-and-personalize-list-views"></a>Gemme og tilpasse listevisninger
 Når du har indstillet et filter på en liste, og du vil beholde filteret til senere brug, kan du gemme det som en visning. Du kan finde flere oplysninger om filtrering af lister i [Indstille filtre på lister](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -24,9 +24,9 @@ Hvis der findes visninger, vises gruppen **Visninger** øverst i filterruden. Vi
 
 ## <a name="to-save-a-view"></a>Sådan gemmes en visning
 1. Åbn en listeside.
-2. Vælg Ikonet ![Filterrude](media/open-filter-pane-icon.png "Ikonet Filterrude") øverst på listen eller ved at trykke på Skift+F3 for at åbne filterruden.
+2. Vælg ![Ikonet Filterrude.](media/open-filter-pane-icon.png "Ikonet Filterrude") øverst på listen eller ved at trykke på Skift + F3 for at åbne filterruden.
 3. Angiv et eller flere nye filtre. Du kan finde flere oplysninger i [Indstille filtre på lister](ui-enter-criteria-filters.md#setting-filters-on-lists).
-4. Når du har indstillet filtrene, skal du vælge ikonet ![Gem visning](media/save_view_icon.png "Gem visning").
+4. Når du har indstillet filtrene, skal du vælge ![Gem visning.](media/save_view_icon.png "Gem visning"). ikon.
 
     Hvis du indstiller et filter for en listevisning, der allerede er gemt som en visning, opdateres den eksisterende visning, når du gemmer.
 5. Hvis du gemmer en ny visning, skal du skrive et navn til visningen i feltet **Alle (kopi)**, f.eks. "Elementer, som jeg ejer".
@@ -38,7 +38,7 @@ Hvis du ikke tildeler et navn, får visningen navnet **Alle (kopi)**.
 > Ikke se ikonet ![Gem visning](media/save_view_icon.png "Gem visning")? Du kan finde flere oplysninger i [Hvorfor ikke nogen har et Gem-ikon](/dynamics365/business-central/ui-views-faq#save).
 
 ## <a name="to-rename-or-remove-a-view"></a>Sådan omdøbes eller fjernes en visning
-1. Vælg ikonet ![SVis flere indstillinger](media/show-more-options-icon.png "Vis flere indstillinger") i visningen over listen for at se, hvilke indstillinger der er tilgængelige.
+1. I forbindelse med den visning, der vises over listen, skal du vælge ![Vis flere indstillinger.](media/show-more-options-icon.png "Vis flere indstillinger") ikon for at se, hvilke indstillinger der er tilgængelige.
 2. Vælg enten handlingen **Omdøb** eller handlingen **Fjern**.
 
 ## <a name="managing-many-views"></a>Administrere mange visninger

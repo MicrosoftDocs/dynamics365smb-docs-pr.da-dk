@@ -1,6 +1,6 @@
 ---
-title: Gennemgang af Opsætning og fakturering af salgsforudbetalinger
-description: Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg eller køb inden den endelige bogføring. Du kan f.eks. kræve et depositum, før du fremstiller varer efter ordre, eller du kan kræve betaling, før du sender varerne til en kunde. Du bruger forudbetalingsfunktionen i Business Central til at fakturere og opkræve depositum, der kræves af debitorer eller at sende depositummerne til kreditorer. På den måde kan du sikre, at alle betalinger bogføres i forhold til en faktura.
+title: Oprette og fakturere salgsforudbetalinger
+description: Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg eller køb inden den endelige bogføring.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 05/25/2021
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: dacf9e5492f583513e69f2316a0440fce2597269
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 6671db4d40b8c57d5144ca23f01bb8c5c176ac42
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216176"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445172"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Gennemgang: Opsætning og fakturering af salgsforudbetalinger
 
@@ -72,7 +72,7 @@ Følgende procedurer beskriver, hvordan Pias opgaver udføres:
 
 #### <a name="to-set-up-number-series-for-prepayments"></a>Sådan opsættes nummerserierne for forudbetalinger
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsopsætning**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Salgsopsætning**, og vælg derefter det relaterede link.  
 2.  På siden **Salgsopsætning** skal du udvide oversigtspanelet **Nummerering**.  
 3.  Kontroller, at nummerserierne for de bogførte forudbetalingsfakturaer i feltet **Bogførte forudbetalingsfakturanr.** er de samme som dem, der er bogført for salgsfakturaerne (**Bogførte fakturanumre**), og at nummerserierne for bogførte forudbetalingskreditnotaer (**Bogførte forudbetalingskreditnotanr.**) er de samme som dem, der er bogført for kreditnotaer (**Bogf. kreditnotanumre**).  
 
@@ -88,7 +88,7 @@ Pia angiver, at alle debitorer skal faktureres med et depositum på 20 % for var
 
 #### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Sådan angives standardprocenten for forudbetalinger for debitorer og varer
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kunder**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.  
 2.  Åbn kortvinduet for debitor 20000 (Trey Research).
 3.  Indtast **30** i feltet **Forudbetaling i %**.  
 4.  Vælge **Relaterede** og derefter vælge **Salg**, **Forudbetalingsprocent**
@@ -106,7 +106,7 @@ Pia angiver, at alle debitorer skal faktureres med et depositum på 20 % for var
 
 #### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Angive en konto for salgsforudbetalinger i den generelle bogføringsopsætning
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogføringsopsætning**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogføringsopsætning**, og vælg derefter det relaterede link.  
 2.  Markér linjen, hvor feltet **Virksomhedsbogføringsgruppe** er indstillet til **DOMESTIC**, og feltet **Produktbogføringsgruppe** er indstillet til **DETAIL**.  
 3.  Angiv den relevante konto i feltet **Forudbetalingskonto for salg**. Markeringen gemmes automatisk.  
 
@@ -120,7 +120,7 @@ Susan opretter forudbetalingsfakturaen og sender den til kunden.
 
 #### <a name="to-create-a-sales-order-with-a-prepayment"></a>Sådan oprettes en salgsordre med en forudbetaling
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  I feltet **Debitornr.** skal du vælge **20000**.  
 4.  Luk den viste advarslen om et forfaldent beløb.  
@@ -184,7 +184,7 @@ Debitor betaler forudbetalingsbeløbet, og Arne, der arbejder i regnskabsafdelin
 
 #### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Sådan påføres en betaling på forudbetalingsfakturaer
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indbetalingskladder**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Indbetalingskladder**, og vælg derefter det relaterede link.  
 2.  Udfyld kladdelinjen med følgende oplysninger.  
 
     |Feltnavn|Indsæt|  
@@ -218,7 +218,7 @@ Arne har nu fået oplyst, at varerne i ordren er blevet afsendt, og at ordren er
 
 Arne kan få vist oversigten for at kontrollere, at salgsfakturaen blev oprettet, som tiltænkt.
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.  
 
 ## <a name="next-steps"></a>Efterfølgende trin
 
