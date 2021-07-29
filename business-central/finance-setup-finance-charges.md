@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08a2443f94efbc9920145109b4b7499a3a4e05b3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 36d841a7231794e1cfb61a928efbbf3f83bbdc27
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783618"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446261"
 ---
 # <a name="set-up-finance-charge-terms"></a>Konfiguration af Rentebetingelser
 
@@ -41,7 +41,7 @@ Hver kode i tabellen Rentebetingelser er desuden kædet sammen med en undertabel
 
 ### <a name="to-set-up-finance-charge-terms"></a>Sådan konfigurerer du rentebetingelser
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rentebetingelser**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rentebetingelser**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 3. Hvis du vil bruge mere end én kombination af rentebetingelser, kan du angive en kode for hver enkelt.
 

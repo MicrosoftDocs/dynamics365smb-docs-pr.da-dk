@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 5fc64db4120b80203f99742ed3ed834b23370c47
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 3f818e556b2ebe3f50189b0057f1302a5598d904
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216336"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543166"
 ---
 # <a name="purchase-reports-and-analytics-in-business-central"></a>Købsrapporter og analyser i Business Central
 
@@ -22,10 +22,9 @@ Købsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gør det mul
 
 I følgende tabel beskrives nogle af nøglerapporterne i købsrapporter.
 
-|Report |Objekt-id|Beskrivelse  |
+|Report |Objekt-id|Beskrivlse  |
 |---------|---------|---------|
-|**Købsstatistik**|312|Viser Købsstatistik for hver kreditor. Dette omfatter oplysninger i fem perioder med start på den dato, du angiver.<br>
-Rapporten viser de samlede køb, betalinger, renter og rabatoplysninger, herunder kontantrabatter taget og tabt. Statistikken beregnes for køb inden den dato, der er angivet på 3 1 dage fra den angivne dato, og for en periode, der omfatter alle indkøb efter tredje periode.|
+|**Købsstatistikker**|312|[!INCLUDE [reports-purchase-statistics](includes/reports-purchase-statistics.md)]|
 |**Kreditor - top 10-liste**|311|Viser oplysninger om køb fra kreditorerne inden for en valgt periode. Du kan bestemme antallet af kreditorer, der skal med i rapporten.<br>Kreditorerne sorteres efter beløb, og du kan vælge, om beløbene i rapporten skal sorteres efter køb fra kreditorerne eller efter kreditorernes saldo. Rapporten giver et hurtigt overblik over, hvilke kreditorer du skylder mest eller køber mest hos.|
 |**Kreditorvarekatalog** eller **vare/kreditorkatalog**|320 eller 720|Viser en oversigt over kreditorer for de valgte varer eller varer for de valgte kreditorer. Der vises oplysninger om købspris, beregning af leveringstid og leverandørers varenummer.<br>I USA, Canada og Mexico er denne rapport ikke tilgængelig. Brug i stedet rapporten **vare/leverandørkatalog** (10164).|
 |**Kreditor/varekøb**|313|Viser en liste over poster for hver enkelt kreditor for en valgt periode. Rapporten viser oplysninger om faktureret antal, beløb og eventuel rabat. Rapporten kan f.eks. bruges, når virksomhedens varekøb skal analyseres og til at vise, om der er sammenhæng mellem rabat og varekøb.|

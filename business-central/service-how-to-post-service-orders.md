@@ -1,6 +1,6 @@
 ---
-title: Sådan bogføres serviceordrer | Microsoft Docs
-description: Når du har oprettet en serviceordre, angivet alle de nødvendige oplysninger og foretaget eventuelle ændringer, kan du bogføre serviceordren. Ordren skal indeholde mindst én serviceartikellinje og én servicelinje, inden du kan bogføre den. Hvis ordren indeholder mere end én ordrelinje, bogføres alle linjerne på én gang.
+title: 'Fremgangsmåde: Bogføre serviceordrer'
+description: Når du har oprettet en serviceordre, angivet alle de nødvendige oplysninger og foretaget eventuelle ændringer, kan du bogføre serviceordren.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 29cfa693e8b33e3e948d49b53bae4e41f6b6c389
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 08dba596c53186d734a9f30a760f1c69ef635f8b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774300"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446093"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bogføre serviceordrer og kreditnotaer
 Når du har oprettet en serviceordre, angivet alle de nødvendige oplysninger og foretaget eventuelle ændringer, kan du bogføre serviceordren. Ordren skal indeholde mindst én serviceartikellinje og én servicelinje, inden du kan bogføre den. Hvis ordren indeholder mere end én ordrelinje, bogføres alle linjerne på én gang.  
@@ -26,7 +26,7 @@ Hvis du har et stort antal serviceordrer, kan du spare tid ved at bruge en kørs
 > Før du bogfører et servicedokument, er det en god ide at bruge handlingen **Testrapport** til at kontrollere, om der er eventuelle fejl eller manglende oplysninger. Hvis der er fejl, skal du løse problemet. Du kan udskrive en ny testrapport for at kontrollere rettelsen og derefter bogføre dokumentet.
 
 ## <a name="to-post-a-service-order"></a>Sådan bogføres serviceordrer    
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceordre** og vælg derefter det relaterede link.  
 2. Åbn den relevante serviceordre.  
 3. På siden **Serviceordre** skal du vælge en af følgende handlinger.  
 
@@ -51,7 +51,7 @@ Du kan kun bogføre forbrug, hvis linjen indeholder et antal, der er leveret, me
 Når ordren bogføres, oprettes de tilsvarende poster og bogførte dokumenter i programmet. De relevante felter opdateres i serviceordredokumentet.  
 
 ## <a name="to-batch-post-service-orders"></a>Massebogføre serviceordrer
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceordre** og vælg derefter det relaterede link.  
 2. Vælg handlingen **Massebogfør**.  
 3.  Du kan angive et filter for at vælge bestemte serviceordrenumre eller et interval af ordrenumre, som kørslen skal behandle.  
 4.  Vælg **OK** for at starte kørslen.  
@@ -59,7 +59,7 @@ Når ordren bogføres, oprettes de tilsvarende poster og bogførte dokumenter i 
 ## <a name="to-post-a-service-credit-memo"></a>Sådan bogføres servicekreditnotaer  
 Når du har oprettet en servicekreditnota og udfyldt den, kan du bogføre den. Hvis der konstateres fejl eller manglende oplysninger i kreditnotaen under bogføringen, afbrydes processen med en fejlmeddelelse.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicekreditnotaer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Servicekreditnotaer**, og vælg derefter det relaterede link.  
 2. Opret en ny servicekreditnota. Vælg handlingen **Ny**.  
 3. Udfyld de påkrævede felter.  
 4. Vælg handlingen **Bogfør**. Hvis du vil udskrive kreditnotaen samtidig med, at du bogfører den, skal du vælge handlingen **Bogfør og udskriv** i stedet for.  
@@ -72,7 +72,7 @@ Når du har oprettet en servicekreditnota og udfyldt den, kan du bogføre den. H
 ## <a name="to-post-consumption-from-a-service-order"></a>Sådan bogføres forbrug fra en serviceordre  
 I følgende fremgangsmåde beskrives det, hvordan du bogfører varer, ressourcetimer og/eller omkostninger, der er brugt til en bestemt servicehandling, som kunden ikke skal opkræves for. Bemærk, at du kun kan bogføre forbrugte varer, timer eller omkostninger for en bogført leverance, der ikke har bogførte fakturaer eller forbrug.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceordre** og vælg derefter det relaterede link.  
 2. Åbn serviceordren for at bogføre forbruget for den.  
 3. Vælg serviceartiklen. Vælg handlingen **Servicelinjer**.  
 4. Find de nødvendige poster, og angiv de antal, du vil bogføre forbrug for, i feltet **Antal til forbrug**. Antallet kan ikke være større end den mængde, der allerede er leveret, og den resterende mængde, der ikke er faktureret efter delvis fakturering af denne leverance.  
@@ -89,7 +89,7 @@ Når du har angivet detaljerne i en service, kan du regulere og bogføre antalle
 
 Følgende procedure viser, hvordan du bogfører leverancen af servicelinje på steder, hvor der ikke er indstillet til at kræve lagerekspedition.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordre**, og vælg derefter det relaterede link. 2. Vælg **Handlinger**, **Ordre**, **Servicelinjer** på siden med den serviceordre, du har valgt.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceordre** og vælg derefter det relaterede link. 2. Vælg **Handlinger**, **Ordre**, **Servicelinjer** på siden med den serviceordre, du har valgt.  
 3. Find de nødvendige poster på siden **Servicelinjer**, og angiv det antal, der skal bogføres, i feltet **Lever (antal)**.  
 
    > [!NOTE]  
@@ -106,7 +106,7 @@ Du kan flere oplysninger om forsendelse af servicelinjeartikler i avanceret lage
 ## <a name="to-undo-posted-consumption"></a>Sådan fortrydes bogført forbrug  
 Du kan annullere forbruget i serviceordrerne. F.eks. fordi det er bogført ved en fejltagelse.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte serviceforsendelser**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte serviceforsendelser**, og vælg derefter det relaterede link.  
 2. Åbn den bogførte serviceleverance, som det fejlagtige forbrug er bogført for.  
 3. Vælg handlingen **Serviceleverancelinjer**.  
 4. Vælg de linjer, der indeholder det forkerte forbrug, og vælg derefter handlingen **Fortryd forbrug**.  
@@ -124,7 +124,7 @@ Hvis du er nødt til at arbejde i længere tid med en serviceordre uden at bogf�
 
 Følgende procedure beskriver leverancebogføring direkte fra en serviceordre på lokationer uden lagerekspedition konfigureret. Hvis lokationen er konfigureret til at kræve lagerekspedition, sker leverancebogføringen i et andet lagerdokument, afhængigt af lokationsopsætningen.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceordre** og vælg derefter det relaterede link.  
 2. Åbn serviceordren, og vælg derefter handlingen **Servicelinjer**.  
 4. På de linjer, der skal bogføres, skal du udfylde felterne **Lever (antal)**, **Fakturer (antal)** og/eller **Antal til forbrug** afhængigt af, hvordan du vil bogføre linjerne.  
 5. Vælg handlingen **Bogfør**.

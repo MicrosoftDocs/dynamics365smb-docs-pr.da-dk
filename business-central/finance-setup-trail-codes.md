@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6c20c57f05d17b0b52fcc1d4c9b1234cf03c6e97
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fb3db7a2fc2c156debd36942ecc61d35d1e38f82
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773835"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446211"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Oprette kilde- og årsagskoder til revisionsspor
 
@@ -33,7 +33,7 @@ Når du bogfører eller udfører en kørsel, knyttes den korrekte kildekode auto
 
 ### <a name="to-define-source-codes"></a>Sådan defineres kildekoder
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kildekodedefinition**, og vælg derefter det relaterede link.  
+1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, angiv **Kildekodedefinition** og derefter vælge det relaterede link.  
 
 2. Angiv den relevante kildekode for hver bogføringstype og kørsel i vinduet **Kildekodedefinition**.  
 
@@ -45,7 +45,7 @@ Det kan være en fordel at ændre en kildekode. Lad os sige, at du vil ændre ki
 
 ### <a name="to-change-source-codes"></a>Sådan ændres kildekoder
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kildekoder**, og vælg derefter det relaterede link.
+1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, skriv **Varespor**, og vælg derefter det relaterede link.
 
 2. Vælg den kode, der skal ændres, på den pågældende linje i feltet **Kode**.
 
@@ -59,7 +59,7 @@ Alle nye poster, der er bogført fra finanskladden, skal have en ny kildekode.
 
 ### <a name="to-set-up-reason-codes"></a>Sådan oprettes årsagskoder
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Årsagskoder**, og vælg derefter det relaterede link.
+1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport")  ikon, skriv **revisionsspor**, og vælg derefter det relaterede link.
 
 2. I vinduet **Årsagskoder** skal du indtaste den første kode i feltet **Kode**. Angiv en beskrivende tekst i feltet **Beskrivelse**.
 
@@ -69,7 +69,7 @@ Følgende fremgangsmåde beskriver, hvordan du føjer en årsagskode til en klad
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>Sådan knytter du årsagskoder til kladdetyper
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Finanskladdetyper**, og vælg derefter det relaterede link.
+1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport")  ikon, skriv **Finanskladdetyper**, og vælg derefter det relaterede link.
 
 2. Angiv den relevante kode i feltet **Årsagskode** på linjen med den valgte kladdetype.
 

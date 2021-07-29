@@ -1,6 +1,6 @@
 ---
-title: Sådan bogføres flere dokumenter på én gang | Microsoft Docs
-description: I stedet for at bogføre individuelle dokumenter ét ad gangen, kan du vælge flere ikke-bogførte dokumenter i en oversigt til baggrundsbogføring, enten med det samme eller planlagt til f.eks. dagens slutning.
+title: Bogføre flere dokumenter på én gang
+description: I stedet for at bogføre individuelle dokumenter ét ad gangen, kan du vælge flere ikke-bogførte dokumenter i en oversigt til baggrundsbogføring.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d26b98bac791bca2dc910f010c135fe187d6abff
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773626"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446043"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Bogføre flere dokumenter på én gang
 
@@ -25,7 +25,7 @@ I stedet for at bogføre individuelle dokumenter ét ad gangen, kan du vælge fl
 
 Følgende procedure beskriver, hvordan flere købsordrer kan bogføres med det samme. Trinene er de samme for alle købs- og salgsdokumenter.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordre**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **købsordrer**, og vælg derefter det relaterede link.
 2. Fortsæt med at vælge alle de ordrer, der skal bogføres, på siden **Købsordrer**:
 3. I feltet **Nummer** skal du vælge de tre lodrette prikker for at åbne genvejsmenuen og derefter vælge handlingen **Markér flere**.
 4. Marker afkrydsningsfeltet for alle de linjer, der repræsenterer ordrer, som du vil bogføre på samme tid.
@@ -36,7 +36,7 @@ Følgende procedure beskriver, hvordan flere købsordrer kan bogføres med det s
 
 Følgende procedure beskriver, hvordan du kan massebogføre flere købsordrer. Fremgangsmåden er den samme for alle købs- og salgsdokumenter, hvor handlingen **Massebogfør** er tilgængelig.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordre**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **købsordrer**, og vælg derefter det relaterede link.  
 2. Fortsæt med at vælge alle de ordrer, der skal bogføres, på siden **Købsordrer**:
 3. I feltet **Nummer** skal du vælge de tre lodrette prikker for at åbne genvejsmenuen og derefter vælge handlingen **Markér flere**.
 4. Marker afkrydsningsfeltet for alle de linjer, der repræsenterer ordrer, som du vil bogføre på samme tid.
@@ -53,7 +53,7 @@ Opgavekøer er et effektivt værktøj til planlægning af kørsel af forretnings
 
 Nedenstående fremgangsmåde beskriver, hvordan du konfigurerer baggrundsbogføring af salgsordrer. Trinnene er lignende for indkøb.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsopsætning**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Salgsopsætning**, og vælg derefter det relaterede link.
 2. På siden **Salgsopsætning** skal du markere afkrydsningsfeltet **Bogfør med opgavekøen**.
 3. Vælg feltet **Opgavekøkategorikode**, og angiv derefter koden **SALGSBOGF**.
 
@@ -86,7 +86,7 @@ Alternativt kan du udsætte posteringer, når det er belejligt for din organisat
 
 Følgende procedure viser, hvordan du kan indstille rapporten **Massebogfør salgsordrer** til automatisk bogføring af salgsordrer kl. 16 på hverdage.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opgavekøposter**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Poster for jobkøer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. I feltet **Objekttype, der skal aktiveres** skal du vælge **Rapport**.  
 4. I feltet **Objekt-id, der skal køres** skal du vælge 296, **Massebogfør salgsordrer**.

@@ -1,19 +1,19 @@
 ---
 title: Valider et SE/CVR-nr.
-description: Lad Business Central validere momsregistreringsnummeret og andre virksomhedsoplysninger for kontakter, debitorer og kreditorer, baseret på den Europæiske Unions liste momsnummer validerings service.
+description: Lad Business Central validere momsregistreringsnummeret for kontakter, debitorer og kreditorer, baseret på den Europæiske Unions liste momsnummervalideringsservice.
 author: andregu
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.date: 04/01/2021
+ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: 9e7c60e884ad65e209a2513d63c9434a90d9b449
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 093fec7b7d456f4145e8450d06f17f1aa78ad4c1
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770287"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543218"
 ---
 # <a name="validate-vat-registration-numbers"></a>Valider et SE/CVR-nr.
 
@@ -43,8 +43,6 @@ Der er et par ting at bemærke om VIES-tjenesten til kontrol af momsnumre:
 > Det er dit ansvar at kontrollere, at dataene er gyldige. Af og til returneres data med fejl af VIES-tjenesten til kontrol af momsregistreringsnumre. Hvis valideringen mislykkes, skal du validere momsregistreringsnummeret på [webstedet](https://ec.europa.eu/taxation_customs/vies/), udskrive resultatet eller gemme det på en fælles placering og derefter tilføje linket til posten for din kunde, leverandør eller kontaktperson. Du kan få flere oplysninger i [Administrere vedhæftede filer, links og noter på kort og dokumenter](ui-how-add-link-to-record.md).
 
 ## <a name="validation-templates"></a>Valideringsskabeloner
-
-[!INCLUDE [2020rw_online_only](includes/2020rw_online_only.md)]
 
 Du kan også kontrollere andre virksomhedsoplysninger, f.eks. adressen, samt se/CVR-nummeret ved hjælp af listetjenesten. Opret i feltet **Se/CVR-nr. Siden validerings skabeloner** en post for hvert land, du vil have valideret nærmere for, og angiv derefter de oplysninger, som du vil have valideret automatisk.  
 

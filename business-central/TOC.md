@@ -55,7 +55,7 @@
 ##### [Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md)
 ##### [Designoplysninger: Lagerværdi](design-details-inventory-valuation.md)  
 ##### [Designoplysninger: Regulering](design-details-revaluation.md)
-#### Designoplysninger: Logistik
+#### Designoplysninger: Warehouse Management
 ##### [Oversigt over logistik](design-details-warehouse-management.md)
 ##### [Designoplysninger: Oversigt over logistik](design-details-warehouse-overview.md)  
 ##### [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md)  
@@ -165,9 +165,10 @@
 #### [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md)
 #### [Opsætte afskrivning af anlægsaktiv](fa-how-setup-depreciation.md)
 #### [Definere afskrivningsmetoder](fa-depreciation-methods.md)
+#### [Sådan konfigureres brugerdefinerede afskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md)
 #### [Definere anlægsforsikring](fa-how-setup-insurance.md)
 #### [Definere anlægsreparation](fa-how-setup-maintenance.md)
-### Sådan konfigureres logistikfunktioner
+### Sådan konfigureres Warehouse Management
 #### [Opsætning af lagersteder](warehouse-setup-warehouse.md)
 #### [Designoplysninger: Oversigt over logistik](design-details-warehouse-overview.md)
 #### [Oprette placeringstyper](warehouse-how-to-set-up-bin-types.md)
@@ -265,10 +266,10 @@
 ##### Administrator
 ###### [Oversigt over integration](admin-powerbi-overview.md)
 ###### [Aktivering af Power BI-integration](admin-powerbi-setup.md)
-##### Designer
+##### Rapportopretter
 ###### [Introduktion til oprettelse af rapporter](across-how-use-financials-data-source-powerbi.md)
 ###### [Oprette rapporter til visning af listedata](across-how-use-powerbi-reports-factbox.md)
-##### Forbruger
+##### Forretningsbruger
 ###### [Arbejde med Power BI-rapporter i Business Central](across-working-with-powerbi.md)
 ###### [Arbejde med Business Central-data i Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [Bruge Business Central-apps i Power BI](across-powerbi-business-central-apps.md)
@@ -449,6 +450,7 @@
 ### [Finansrapporter](finance-reports.md)
 ### Administrere tilgodehavender
 #### [Oversigt over tilgodehavender](receivables-manage-receivables.md)
+#### [Rapporter og analyser for debitor](receivables-reports.md)
 #### Udligne betalinger automatisk og afstemme bankkonti
 ##### [Oversigt over betalingsudligning](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md)
@@ -466,6 +468,7 @@
 
 ### Administrere skyldige beløb
 #### [Kreditoroversigt](payables-manage-payables.md)
+#### [Rapporter og analyser for kreditor](payables-reports.md)
 #### Foretage betaling
 ##### [Foretage betaling](payables-make-payments.md)
 ##### [Arbejde med finanskladder](ui-work-general-journals.md)
@@ -664,6 +667,7 @@
 
 ## Anlægsaktiver
 ### [Oversigt over anlægsaktiver](fa-manage.md)
+### [Rapporter og analyser af anlægsaktiver](fa-reports.md)
 ### [Anskaffede anlægsaktiver](fa-how-acquire.md)
 ### [Vedligeholde anlægsaktiver](fa-how-maintain.md)
 ### [Forsikring af anlægsaktiver](fa-how-insure.md)
@@ -893,15 +897,8 @@
 ##### [Oprette leverandører til automatiske betalingsforslag](LocalFunctionality/Belgium/how-to-set-up-vendors-for-automatic-payment-suggestions.md)
 ##### [Oprette betalingskladdeskabeloner og -navne](LocalFunctionality/Belgium/how-to-create-payment-journal-templates-and-batches.md)
 ##### [Kontrollere elektroniske betalinger](LocalFunctionality/Belgium/how-to-test-electronic-payments.md)
-##### [Udskrive betalingsfiler](LocalFunctionality/Belgium/how-to-print-payment-files.md)
-##### [Aktivere SEPA-betalinger](LocalFunctionality/Belgium/how-to-activate-sepa-payments.md)
-##### [Arkivere ikke-euro SEPA-betalinger](LocalFunctionality/Belgium/how-to-file-non-euro-sepa-payments.md)
+##### [Eksporter betalingsfiler](LocalFunctionality/Belgium/how-to-print-payment-files.md)
 ##### [Direct Debit ved hjælp af domiciler](LocalFunctionality/Belgium/direct-debit-using-domiciliation.md)
-##### [Konfigurere domicileringer](LocalFunctionality/Belgium/how-to-set-up-domiciliations.md)
-##### [Redigere og slette linjerne for domiciler](LocalFunctionality/Belgium/how-to-edit-and-delete-domiciliation-lines.md)
-##### [Kontrollere domiciler](LocalFunctionality/Belgium/how-to-test-domiciliations.md)
-##### [Eksportere og bogføre domiciler](LocalFunctionality/Belgium/how-to-export-and-post-domiciliations.md)
-##### [Oprette domicileringsforslag](LocalFunctionality/Belgium/how-to-generate-domiciliation-suggestions.md)
 ##### [CODA-bankkontoudtog](LocalFunctionality/Belgium/coda-bank-statements.md)
 ##### [Udligne CODA-udtog](LocalFunctionality/Belgium/how-to-apply-coda-statements.md)
 ##### [Automatisk overføre og bogføre CODA-udtog](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
@@ -1002,16 +999,14 @@
 ##### [Eksportere finansposter til en XML-fil](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
 ##### [Krav til rapporteringsdeklaration for handel med varer](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
 #### Banktransaktioiner og betalinger
+##### [Betalingsstyring](LocalFunctionality/France/payment-management.md)
 ##### [Konfigurere betalingsadresser](LocalFunctionality/France/how-to-set-up-payment-addresses.md)
-##### [Konfigurere betalingsstatusser](LocalFunctionality/France/how-to-set-up-payment-statuses.md)
-##### [Konfigurere betalingstrin](LocalFunctionality/France/how-to-set-up-payment-steps.md)
 ##### [Konfigurere betalingsklasser](LocalFunctionality/France/how-to-set-up-payment-classes.md)
-##### [Arkivere betalingsfølgesedler](LocalFunctionality/France/how-to-archive-payment-slips.md)
 ##### [Oprette betalingsfølgesedler](LocalFunctionality/France/how-to-create-payment-slips.md)
 ##### [Eksportere betalinger](LocalFunctionality/France/how-to-export-payments.md)
-##### [Eksportere eller importere parametre for opsætning af betalingsstyring](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
-##### [Betalingsstyring](LocalFunctionality/France/payment-management.md)
 ##### [Bogføre betalingsboner](LocalFunctionality/France/how-to-post-payment-slips.md)
+##### [Arkivere betalingsfølgesedler](LocalFunctionality/France/how-to-archive-payment-slips.md)
+##### [Eksportere eller importere parametre for opsætning af betalingsstyring](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
 #### Grundlæggende Finans
 ##### [Finansposter](LocalFunctionality/France/general-ledger.md)
 ##### [Udligne finansposter](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)
@@ -1554,6 +1549,7 @@
 #### Generelt
 ##### [Oprette en advarsel om bogføringsdato](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)
 ##### [Indtaste lovpligtige oplysninger](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
+##### [Send data til forebyggelse af svindel](LocalFunctionality/UnitedKingdom/fraud-prevention-data.md)
 ##### [Udvidelsen Britiske GetAddress.io-postnumre](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [Konfigurere britisk GetAddress.io-postnummerudvidelse](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 
@@ -1577,7 +1573,7 @@
 ## Sikkerhed og beskyttelse
 ### [Oversigt over sikkerhed og beskyttelse (kun på engelsk)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## Beskyttelse af personlige oplysninger
-### [Beskyttelse af personlige oplysninger (microsoft.com)](https://www.microsoft.com/en-us/trust-center/privacy)
+### [Beskyttelse af personlige oplysninger (microsoft.com)](https://www.microsoft.com/trust-center/privacy)
 ## Overholdelse
 ### [Oversigt over overholdelse](compliance/compliance-overview.md)
 ### [Programoverholdelse](compliance/compliance-application-compliance.md)

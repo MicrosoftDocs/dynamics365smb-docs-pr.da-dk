@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 15a6f009095c2e20cf65d38503a7c737e64e7bb8
-ms.sourcegitcommit: 5a916b0aa0a2eef0c22b5722a0af041757e6d7c2
+ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6074683"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446461"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams-integration
 
@@ -33,11 +33,11 @@ Appen [!INCLUDE [prod_short](includes/prod_short.md)] for Teams indeholder følg
 
 Uanset hvor du er i Teams, kan du finde oplysninger om debitorer, kreditorer og andre kontakter i [!INCLUDE [prod_short](includes/prod_short.md)]. Denne funktion giver dig ikke kun mulighed for at få vist generelle oplysninger om kontakter, men giver også adgang til interaktionshistorik, relaterede dokumenter og meget mere.
 
- [![Søge efter Business Central-kontakter fra Teams-kommandoboks](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
+ [![Søge efter Business Central-kontakter fra Teams-kommandoboks.](media/teams-contacts-overview.png)](media/teams-contacts-overview.png#lightbox)
 
 Du kan også dele kontaktoplysninger i en samtale. Derfra har deltagerne adgang til endnu flere oplysninger om kontakten.
 
- [![Søge efter Business Central-kontakter fra Teams-meddelelsesboks](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
+ [![Søge efter Business Central-kontakter fra Teams-meddelelsesboks.](media/teams-contacts.png)](media/teams-contacts.png#lightbox)
 
 Du kan få flere oplysninger i [Søgning efter kontakter fra Microsoft Teams](across-search-contacts-teams.md).
 
@@ -45,7 +45,7 @@ Du kan få flere oplysninger i [Søgning efter kontakter fra Microsoft Teams](ac
 
 Kopiere et hyperlink til en hvilken som helst Business Central-post og sætte den ind i en Teams-samtale, som du kan dele med dine kolleger. Appen udvider derefter linket til et kompakt, interaktivt kort, der viser oplysninger om posten.
 
-[![Teams-integration med Business Central](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams-integration med Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
 
 Når du er i samtalen, kan du og dine kolleger få vist flere oplysninger om posten, redigere data og handle - uden at forlade Teams.
 
@@ -68,6 +68,7 @@ Du kan finde flere oplysninger i [Dele poster i Microsoft Teams](across-working-
 
 [Teams, ofte stillede spørgsmål](teams-faq.md)  
 [Fejlfinding i Teams](admin-teams-troubleshooting.md)  
+[Ændring af virksomhed og andre indstillinger i Teams](across-teams-settings.md)  
 [Udvikling af Teams-integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

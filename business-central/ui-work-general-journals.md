@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d452720f5fff046a994ff5df0b2ea7bb5a209236
-ms.sourcegitcommit: 652e4b0e1a09bff265014d9f8eb3b038ab0db79e
+ms.openlocfilehash: 349dd312ae709c29138555ba6e8554a4f5e18122
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087715"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445471"
 ---
 # <a name="working-with-general-journals"></a>Arbejde med finanskladder
 
@@ -152,7 +152,7 @@ Når du har oprettet kladdelinjer, som du ved, at du sandsynligvis skal oprette 
 >   Følgende procedure beskriver varekladden, men oplysningerne gælder også for finanskladden.
 
 ### <a name="to-save-a-standard-journal"></a>Sådan gemmes en standardkladde
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladder**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varekladder**, og vælg derefter det relaterede link.
 2. Indsæt en eller flere kladdelinjer.
 3. Vælg de kladdelinjer, der skal genbruges.
 4. Vælg handlingen **Gem som standardkladde**.
@@ -168,7 +168,7 @@ Når du har gemt standardvarekladden, vises siden Varekladde, så du kan bogfør
 
 ### <a name="to-reuse-a-standard-journal"></a>Sådan genbruges en standardkladde
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladder**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varekladder**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Hent standardkladder**.
 
     Siden Standardvarekladder åbner med koder og beskrivelser for alle eksisterende standardvarekladder.
@@ -205,7 +205,7 @@ Ved enhver omnummerering af bilagsnumre respekteres relaterede udligninger, f.ek
 
 Følgende procedure er baseret på siden **Kassekladde**, men gælder for alle andre kladder, der er baseret på finanskladden, f.eks. siden **Udbetalingskladde**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finanskladder**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Finanskladder**, og vælg derefter det relaterede link.
 2. Når du er klar til at bogføre kladden, skal du vælge handlingen **Omnummerer bilagsnumre**.
 
 Værdier i feltet **Bilagsnr.** ændres, hvor det kræves, så bilagsnummeret på individuelle eller grupperede journallinjer er i rækkefølge. Når bilag omnummereres, kan du fortsætte med at bogføre kladden.

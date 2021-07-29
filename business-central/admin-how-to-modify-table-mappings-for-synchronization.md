@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9c11e4f5acb0055b42a2d172f9a7deba75edfb08
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 185d0a1c55830f6e4ed979154744076d457b5724
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779803"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446386"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Tilknytning af tabeller og felter til synkronisering
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -68,7 +68,7 @@ Sammenkædninger kan konfigureres automatisk ved hjælp af synkroniseringsjob el
 Hvis du ikke vil synkronisere alle rækker for en bestemt tabel i [!INCLUDE[prod_short](includes/cds_long_md.md)] eller tabel i [!INCLUDE[prod_short](includes/prod_short.md)], du kan indstille filtre for at begrænse antallet af poster, der synkroniseres. Du indstiller filtre på siden **Integrationstilknytninger til tabeller**.  
 
 #### <a name="to-filter-records-or-rows-for-synchronization"></a>Sådan filtrerer du poster eller rækker til synkronisering  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Integrationstabeltilknytninger**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") Vælg ikonet , åbn **Integrationstabeltilknytninger**, og vælg derefter det relaterede link.
 
 2.  Du filtrerer [!INCLUDE[prod_short](includes/prod_short.md)] records ved at indstille feltet **Tabelfiltrering**.  
 
@@ -80,7 +80,7 @@ Som standard synkroniseres kun rækker i [!INCLUDE[prod_short](includes/prod_sho
 SÆLGERE – Dynamics 365 Sales-synkroniseringsjob bruger f.eks. tabeltilknytningen SÆLGERE. Synkroniseringsjobbene kopierer data fra brugere i [!INCLUDE[prod_short](includes/cds_long_md.md)] til sælgere i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du har konfigureret tabeltilknytningen til at oprette nye records for hver bruger i [!INCLUDE[prod_short](includes/cds_long_md.md)], der ikke allerede er sammenkædet med en sælger i [!INCLUDE[prod_short](includes/prod_short.md)], oprettes en ny sælgerrække i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="to-create-new-records-during-synchronization"></a>Sådan oprettes nye records under synkronisering  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Integrationstabeltilknytninger**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") Vælg ikonet , åbn **Integrationstabeltilknytninger**, og vælg derefter det relaterede link.
 
 2.  Fjern markeringen i feltet **Synkroniser kun sammenkædede records** i tabeltilknytningsposten på listen.  
 
@@ -96,7 +96,7 @@ Hvis du installerer standardsynkroniseringsopsætningen, oprettes og bruges der 
 -   **CDSACCOUNT** bruges til at oprette og synkronisere nye konti i [!INCLUDE[prod_short](includes/cds_long_md.md)], baseret på en konto i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="to-specify-configuration-templates-on-a-table-mapping"></a>Sådan angiver du konfigurationsskabeloner i en tabeltilknytning  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Integrationstabeltilknytninger**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") Vælg ikonet , åbn **Integrationstabeltilknytninger**, og vælg derefter det relaterede link.
 
 2.  I tabeltilknytningsposten på listen i feltet **Kode til tabelkonfigurationsskabelon**, skal du vælge den konfigurationsskabelon, der skal bruges til nye records i [!INCLUDE[prod_short](includes/prod_short.md)].  
 

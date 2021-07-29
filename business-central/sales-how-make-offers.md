@@ -1,5 +1,5 @@
 ---
-title: Oprette et salgstilbud til en kunde
+title: Oprette salgstilbud
 description: Beskriver, hvordan du opretter et salgstilbuds- eller tilbudsanmodningsdokument for at registrere dit tilbud til en kunde om at sælge produkter i henhold til bestemte betingelser.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,36 +8,46 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.date: 05/27/2021
+ms.date: 07/12/2021
 ms.author: edupont
-ms.openlocfilehash: a538b7099521b10227bf5aeaefad0a9c60971068
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: a3a35738bc15e401edbd0fd3bf02ef50ff015520
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115536"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543116"
 ---
 # <a name="make-sales-quotes"></a>Oprette salgstilbud
 
-Du opretter et salgstilbud for at registrere dit tilbud til en debitor om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser. Du kan sende salgstilbuddet til debitoren for at kommunikere tilbuddet. Du kan sende dokumentet i en mail som en vedhæftet PDF-fil. Du kan også få brødteksten i mailen udfyldt med en oversigt over tilbuddet. Du kan finde flere oplysninger i [Sende dokumenter via mail](ui-how-send-documents-email.md).
+Du opretter et salgstilbud for at registrere dit tilbud til en debitor eller et emne om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser. Du kan sende salgstilbuddet til debitoren for at kommunikere tilbuddet. Du kan sende dokumentet i en mail som en vedhæftet PDF-fil. Du kan også få brødteksten i mailen udfyldt med en oversigt over tilbuddet. Du kan finde flere oplysninger i [Sende dokumenter via mail](ui-how-send-documents-email.md).
 
-Mens du forhandler med debitoren, kan du ændre og gensende salgstilbuddet så meget, som det er nødvendigt. Når debitoren accepterer tilbuddet, kan du konverterer salgstilbuddet til en salgsfaktura eller en salgsordre, hvor du behandler salget. Du kan finde flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md) eller [Sælge produkter](sales-how-sell-products.md).
+Mens du forhandler med debitoren eller om emnet, kan du ændre og gensende salgstilbuddet så meget, som det er nødvendigt. Når debitoren accepterer tilbuddet, kan du konverterer salgstilbuddet til en salgsfaktura eller en salgsordre, hvor du behandler salget. Du kan finde flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md) eller [Sælge produkter](sales-how-sell-products.md).
 
-Du kan udfylde debitorfelter i salgstilbud på to måder, afhængigt af om debitoren allerede er registreret. Se trin 2 og 3 i følgende procedure.
+I de fleste tilfælde sender du salgstilbud til potentielle kunder. Du har ofte en kontaktperson, som du kan forhandle med. Hvis de derefter accepterer tilbuddet, kan du konvertere salgstilbuddet til en ordre og registrere kundeemnet som kunde i [!INCLUDE [prod_short](includes/prod_short.md)]. I følgende procedure fokuseres der på kontakter, men du kan også sende tilbud til eksisterende kunder.  
 
 ## <a name="to-create-a-sales-quote"></a>Sådan oprettes et salgstilbud
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgstilbud**, og vælg derefter det relaterede link.
-2. I feltet **Debitor** skal du indtaste navnet på en eksisterende debitor.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgstilbud**, og vælg derefter det relaterede link.
+2. Angiv den kontakt eller debitor, som du vil sende salgstilbuddet til.
 
-   Andre felter på siden **Salgstilbud** indeholder standardoplysningerne for den valgte debitor.  
+    - Hvis salgstilbuddet vedrører en eksisterende kontakt, skal du angive navnet i feltet **Kontaktnr.** .  
 
-    [!INCLUDE [sales-create-customer](includes/sales-create-customer.md)]
+        Hvis salgstilbuddet vedrører en eksisterende debitor, skal du angive debitoren i feltet **Debitor**.
+    - Hvis kontakten ikke er registreret, skal du følge disse trin:
 
-    En række af felterne i salgstilbuddet er nu udfyldt med oplysninger, der er angivet på det nye debitorkort.  
+        1. I felterne **Kontraktnr.** skal du vælge knappen Rediger :::image type="icon" source="media/assist-edit-icon.png" border="false":::.
+        2. Vælg den nye handling i dialogboksen for at vælge kontakten **Ny** og udfyld derefter de relevante felter. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Du kan finde flere oplysninger i [Oprette kontakter](marketing-create-contact-companies.md).  
+        3. Når du har udfyldt kontaktkortet, skal du vælge den nyoprettede kontakt på listen over kontakter og derefter vælge knappen OK for at vende tilbage til salgstilbuddet.
+
+        En række af felterne i salgstilbuddet er nu udfyldt med oplysninger, der er angivet på det nye kontaktkort.
+
+        > [!NOTE]
+        > Hvis du vil beregne moms og priser for et tilbud korrekt, skal du vælge den relevante debitorskabelon i feltet **Kundeskabelonkode**. Skabelonen vil blive brugt til at konvertere kontakten til en debitor, når tilbuddet er konverteret til en salgsordre eller en faktura.
+    -  Hvis tilbuddet er til en ny kunde, skal du tilføje debitoren. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).  
+
 3. Udfylde de resterende felter efter behov på siden **Salgstilbud**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    Du er nu klar til at udfylde salgsordrelinjerne for produkter, du sælger til debitoren, eller til andre transaktioner med debitoren, som du vil registrere i en finanskonto.  
+    Du er nu klar til at udfylde salgsordrelinjerne for produkter, du sælger til debitoren, eller til andre transaktioner med debitoren om emnet, som du vil registrere i en finanskonto.  
 
     Hvis du har konfigureret de tilbagevendende salgslinjer for debitoren, f.eks en månedlig genbestillingsordre, kan du indsætte disse linjer i ordren ved at vælge handlingen **Hent tilbagevendende salgslinjer**.  
 
@@ -59,7 +69,7 @@ Du kan udfylde debitorfelter i salgstilbud på to måder, afhængigt af om debit
 7. Hvis du vil give en rabat, skal du angive en procentdel i feltet **Linjerabatpct.**. Værdien i feltet **Linjebeløb** opdateres tilsvarende.  
 
     Hvis der er konfigureret specialvarepriser i oversigtspanelet **Salgspriser og salgslinjerabatter** på debitor- eller varekortet, opdateres linjerabatprocenten, prisen og beløbet på salgslinjen automatisk, hvis priskriterierne er opfyldt. Du kan finde flere oplysninger i [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).  
-8. Gentag trin 4 til 7 for hvert produkt, du ønsker at tilbyde debitoren.
+8. Gentag trin 4 til 7 for hvert produkt, du ønsker at tilbyde kontakten.
 
     Totalerne under linjerne beregnes automatisk, mens du opretter eller redigerer linjer.  
 9. I feltet **Fakturarabatbeløb** skal du indtaste et beløb, der trækkes fra den værdi, der vises i feltet **I alt inkl. moms**.
@@ -71,9 +81,18 @@ Du kan udfylde debitorfelter i salgstilbud på to måder, afhængigt af om debit
 
 10. Når salgstilbudslinjerne er fuldført, skal du vælge handlingen **Send via mail**.
 11. På siden **Send mail** skal du udfylde de resterende felter og gennemse det integrerede salgstilbud. Du kan finde flere oplysninger i [Sende dokumenter via mail](ui-how-send-documents-email.md).
-12. Hvis kunden accepterer tilbuddet, skal du vælge handlingen **Opret faktura** eller **Lav ordre**.
+12. Hvis kontaktpersonen accepterer tilbuddet, skal du vælge **Lav ordre**-handlingen.  
 
-Salgstilbuddet fjernes fra databasen. En salgsfaktura eller salgsordre oprettes på grundlag af oplysningerne i salgstilbuddet, hvor du kan behandle salget. I feltet **Tilbudsnr.** på salgsfakturaen eller salgsordren kan du se nummeret på det salgstilbud, den blev oprettet ud fra. Du kan finde flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md) eller [Sælge produkter](sales-how-sell-products.md).  
+    Hvis organisationen foretrækker denne proces, skal du vælge handlingen **Opret faktura**.  
+    > [!NOTE]
+    > Hvis du har tilføjet en kunde i trin 2, bliver du bedt om at bekræfte konverteringen af tilbuddet til en ordre.  
+    >
+    > Hvis du har føjet en kontaktperson fra en mulig kunde i trin 2, bliver du bedt om at gøre følgende:
+    >
+    >  - Konvertere kontaktpersonen eller kundeemnet til en kunde ved at vælge en af skabeloner til konvertering af kontaktpersoner. Du kan finde flere oplysninger i [Sådan oprettes en debitor-, kreditor-, medarbejder- eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+    > - Bekræft konverteringen af tilbuddet til en ordre.
+
+Konverteringen fjerner salgstilbuddet fra databasen. En salgsfaktura eller salgsordre oprettes på grundlag af oplysningerne i salgstilbuddet, hvor du kan behandle salget. I feltet **Tilbudsnr.** på salgsfakturaen eller salgsordren kan du se nummeret på det salgstilbud, den blev oprettet ud fra. Du kan finde flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md) eller [Sælge produkter](sales-how-sell-products.md).  
 
 ## <a name="external-document-number"></a>Eksterne bilagsnumre
 
@@ -84,6 +103,7 @@ Salgstilbuddet fjernes fra databasen. En salgsfaktura eller salgsordre oprettes 
 [Salg](sales-manage-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
+[Arkivere dokumenter](across-how-to-archive-documents.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

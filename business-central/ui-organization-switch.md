@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6a5d435243b6912ddac449fd55aa4c2bce3f291
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 661a6dafc72995b74623ebad9d594755b227f697
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783382"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445918"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Skifte til et andet firma eller miljø
 
@@ -23,7 +23,7 @@ ms.locfileid: "5783382"
 
 ## <a name="switch-to-another-environment"></a>Skift til et andet miljø
 
-Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], er de miljøer, du har adgang til, tilgængelige på Dynamics 365-startsiden. Du kan åbne siden ved at vælge ikonet **Appstarter** ![Appstarter](media/app-launcher-icon.png "Appstarteren giver adgang til flere funktioner") og vælge **Dynamics 365**. Hvis du vil gå til din standardvirksomhed i dette miljø, skal du vælge feltet. Der vil være ét felt for hver miljøtype. Hvis du har mere end ét miljø af en bestemt type, kan du vælge, hvilket miljø du vil have adgang til, når du vælger feltet.
+Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], er de miljøer, du har adgang til, tilgængelige på Dynamics 365-startsiden. Du kan åbne siden ved at vælge ikonet **Appstarter** ![Appstarter.](media/app-launcher-icon.png "Appstarteren giver adgang til flere funktioner") og vælger **Dynamics 365**. Hvis du vil gå til din standardvirksomhed i dette miljø, skal du vælge feltet. Der vil være ét felt for hver miljøtype. Hvis du har mere end ét miljø af en bestemt type, kan du vælge, hvilket miljø du vil have adgang til, når du vælger feltet.
 
 Følgende billede viser felter, der giver adgang til produktions- og sandkassemiljøer på Dynamics 365-startsiden.
 
@@ -33,7 +33,7 @@ Følgende billede viser felter, der giver adgang til produktions- og sandkassemi
 
 Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], kan du hurtigt skifte til en anden virksomhed. Når du har foretaget skiftet, bliver den virksomhed, du vælger, din standardvirksomhed, som vises, næste gang du logger på.
 
-1. I øverste højre hjørne skal du vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") og derefter vælge handlingen **Mine indstillinger**.
+1. I øverste højre hjørne skal du vælge ikonet **Indstillinger** ![Indstillinger.](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter"), og derefter vælge handlingen **Mine indstillinger**.
 
     > [!TIP]
     > Du kan også bruge tastaturgenvejen Alt+T til hurtigt at åbne siden Mine indstillinger.

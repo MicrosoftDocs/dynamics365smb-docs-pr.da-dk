@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: tasks, work
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 71e9c93eede8b39561dc78ff61732273003ce8de
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 6c1e9a1e296abab8a77e47564eb70e97bfa7d57e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786978"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446411"
 ---
 # <a name="define-user-tasks"></a>Definere brugeropgaver
 
@@ -27,7 +27,7 @@ Siden **Brugeropgaver** viser alle opgaver, og du kan nemt oprette og tildele ny
 
 Du kan f.eks. oprette en opgave til dig selv eller en kollega for at få vist alle bogførte salgsfakturaer. I så fald skal knytte du opgaven til side 143, **Bogf. salgsfakturaer**. På følgende skærmbillede oprettes der en opgave for MeganB for at gennemgå de bogførte salgsfakturaer.  
 
-:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Eksempel på en brugeropgave":::
+:::image type="content" source="media/across-user-tasks/sample-user-task.png" alt-text="Eksempel på en brugeropgave.":::
 
 > [!TIP]  
 > Brug opslaget i feltet **Side**, og brug derefter feltet **Søg** til at finde den ønskede side.  

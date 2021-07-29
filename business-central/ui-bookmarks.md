@@ -1,6 +1,6 @@
 ---
-title: Oprette et bogmærke til et link til en side eller en rapport i dit rollecenter | Microsoft Docs
-description: Få at vide, hvordan du kan føje et hyperlink til dit rollecenter.
+title: Bogmærke til en side eller en rapport i rollecenteret
+description: Med bogmærkeikonet kan du tilføje en handling, der åbner en side eller en rapport fra navigationsmenuen i dit rollecenter.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,35 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 7f93d54984106cb0fce2d886f6826ba22b1d8185
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ec89d35da258020ce08710d3eafc4bce32cf81a8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5787473"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446018"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Bogmærke en side eller en rapport i rollecenteret
-Med bogmærkeikonet kan du tilføje en handling, der åbner en side eller en rapport fra navigationsmenuen i dit rollecenter. På den måde kan du hurtigt få adgang til dit foretrukne indhold eller dine forretningsopgaver. Du kan tilføje bogmærket fra målsiden eller rapporten, dvs. det skærmbillede, du vil have linket i rollecenteret til at åbne.
+Med bogmærkeikonet kan du tilføje en handling, der åbner en side eller en rapport fra navigationsmenuen i dit rollecenter. Med bogmærker kan du hurtigt få adgang til dit foretrukne indhold eller dine forretningsopgaver. Du kan tilføje bogmærket fra målsiden eller rapporten, dvs. det skærmbillede, du vil have linket i rollecenteret til at åbne.
 
 Bogmærkeikonet vises i øverste højre hjørne af en side og også i vinduet **Fortæl mig**, hvor du effektivt kan indsætte bogmærker på flere sider eller rapporter. Hvis der allerede findes et bogmærke for siden, er ikonet mørkt, og der står "Med bogmærke" i værktøjstippet.
 
 ## <a name="to-bookmark-the-target-page"></a>Sådan føjes et bogmærke til målsiden
 1. Åbn en side, som du vil oprette et link til, i dit rollecenter.
-2. Vælg ikonet ![Bogmærke](media/ui_bookmark_icon.png "Bogmærke").
+2. Vælg ikonet ![Bogmærke.](media/ui_bookmark_icon.png "Bogmærke") ikon.
 
 En handling, der er navngivet efter siden, føjes nu til navigationsmenuen i dit rollecenter.
 
 ## <a name="to-bookmark-the-target-report"></a>Sådan føjes et bogmærke til målrapporten
 1. Åbn en rapportanmodningsside, som du vil oprette et link til, i dit rollecenter.
-2. Vælg ikonet ![Bogmærke](media/ui_bookmark_icon.png "Bogmærke").
+2. Vælg ikonet ![Bogmærke.](media/ui_bookmark_icon.png "Bogmærke") ikon.
 
 En handling, der er navngivet efter rapporten, føjes nu til navigationsmenuen i dit rollecenter.
 
 ## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>Sådan oprettes et bogmærke til en side eller en rapport fra vinduet Fortæl mig
 1. Åbn vinduet **Fortæl mig**, og angiv f.eks. **Salgsordrer**.
-2. Peg på søgeresultatet for siden eller rapporten **Salgsordrer**, og vælg derefter ikonet ![Bogmærke](media/ui_bookmark_icon.png "Bogmærke").
+2. Peg på søgeresultatet for siden eller rapporten **Salgsordrer**, og vælg derefter ikonet ![Bogmærke.](media/ui_bookmark_icon.png "Bogmærke") ikon.
 
 En handling, der er navngivet efter siden eller rapporten, føjes nu til navigationsmenuen i dit rollecenter.
 
@@ -60,7 +60,7 @@ Muligheden for at bogmærke en side eller en rapport er en af mange bruger tilpa
 - **Hvorfor kan jeg ikke bogmærke bestemte sider eller rapporter?**  
 Ikke alle sider og rapporter kan gives et bogmærke. Når en side eller en rapport køres i en særlig kontekst, der er omfattet af forretningsprogrammet, vises bogmærkeikonet ikke. F.eks. kan sider, der ikke findes i vinduet **Fortæl mig**, men startes fra andre steder, ikke vise et bogmærkeikon. På samme måde vil rapportanmodningssider, der kun bruges til at indsamle filtre uden at køre rapporten, ikke vise et bogmærkeikon.
 
-Se tekniske oplysninger om [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) og [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
+  Se tekniske oplysninger om [RunRequestPage](/dynamics365/business-central/dev-itpro/developer/methods-auto/report/reportinstance-runrequestpage-method) og [FilterPageBuilder](/dynamics365/business-central/dev-itpro/developer/methods-auto/filterpagebuilder/filterpagebuilder-data-type).
 
 - **Når mine personlige indstillinger fjernes, slettes mine bogmærker så også?**  
 Ja. Bogmærker findes i navigationsmenuen. Hvis du rydder ændringer i navigationsmenuen fra en side eller rydder alle tilpasninger i rollecenteret, fjernes alle dine nye handlinger permanent.
@@ -77,6 +77,8 @@ Nummer På dette tidspunkt er det ikke muligt at føje handlinger til åbne XMLp
 
 - **Bliver bogmærkerne oversat, når jeg ændrer sproget i Business Central?**  
 Når du tilføjer en ny handling, bogmærkes oversat tekst, der var tilgængelig på det tidspunkt, hvor bogmærket blev oprettet. Hvis ny, oversat tekst tilføjes senere, vil den nye handling ikke indeholde de nyere oversættelser.
+
+- **Hvorfor kan jeg ikke tilføje tekst på en side direkte, når den er åbnet med bogmærket?**<br> Når der oprettes et bogmærke til en side, åbnes siden altid i visningstilstand fra bogmærket, selvom den var i redigeringstilstand, da den blev bogmærket. Hvis du vælger indstillingen **Foretag ændringer på side**-ikonet, ![vises blyantsikonet for at redigere siden.](media/edit-pencil.png) giver dig mulighed for at tilføje tekst i de felter, der kan redigeres.
 
 
 ## <a name="see-also"></a>Se også

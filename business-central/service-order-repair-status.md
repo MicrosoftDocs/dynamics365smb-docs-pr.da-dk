@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1cb6ba334d4584d6e3ead25606a612686258eae9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4ba9b99a7c205106b77386f297a361067b2227cc
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776812"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446068"
 ---
 # <a name="set-up-statuses-for-service-orders-and-repairs"></a>Konfigurere statusser for serviceordrer og reparationer
 
@@ -29,7 +29,7 @@ Før du kan oprette en reparationsstatus, skal du oprette servicestatusprioritet
 
 ## <a name="to-set-up-service-status-priorities"></a>Sådan defineres statusprioriteter
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrestatus**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceordrestatus**, og vælg derefter det relaterede link.  
 2. Marker den serviceordrestatus, du vil definere en prioritet for.  
 3. Vælg den prioritet, som serviceordrestatussen skal have, i feltet **Prioritet**.  
 
@@ -37,7 +37,7 @@ Gentag trin 2 og 3, indtil du har defineret prioriteten for hver af de fire stat
 
 ## <a name="to-set-up-a-repair-status"></a>Definere reparationsstatus
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Reparationsstatus**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Reparationsstatus**, og vælg derefter det relaterede link.
 2. Opret en ny reparationsstatus.  
 3. Udfyld felterne **Kode** og **Beskrivelse**.  
 4. I feltet **Serviceordrestatus** skal du vælge den ordrestatus, reparationsstatussen skal knyttes til. Feltet **Prioritet** viser prioriteten for den serviceordrestatus, du har valgt.  

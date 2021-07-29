@@ -1,17 +1,17 @@
 ---
 title: Administrere lager ved at slette dokumenter eller komprimere data
-description: Få mere at vide om, hvordan du kan bevare dine historiske oplysninger ved at komprimere poster eller slette den.
+description: Få mere at vide om, hvordan du kan håndtere historiske dokumenter (og reducere mængden af data, der er gemt i en database) ved at slette eller komprimere dem.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: c41e4d871740efde811a6bfc6190605aa4e3f573
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e29e3c0c4ce7b6cfc5ce3f38cd67781c377991ad
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781207"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543041"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Administrere lager ved at slette dokumenter eller komprimere data
 
@@ -34,67 +34,46 @@ Serviceordrer slettes ikke automatisk i programmet, men hvis det samlede antal i
 
 ## <a name="compress-data-with-date-compression"></a>Komprimer data med datokomprimering
 
-Du kan komprimere data i [!INCLUDE [prod_short](includes/prod_short.md)], så du sparer plads i databasen, hvilket i [!INCLUDE [prod_short](includes/prod_short.md)] online kan endda spare penge. Komprimeringen er baseret på datoer og fungerer ved at kombinere flere gamle poster til en ny post. Du kan kun komprimere poster fra afsluttede regnskabsår, og der indgår kun kreditorposter, hvor der står **Nej** i feltet *Åben*.  
+Du kan komprimere data i [!INCLUDE [prod_short](includes/prod_short.md)], så du sparer plads i databasen, hvilket i [!INCLUDE [prod_short](includes/prod_short.md)] online kan endda spare penge. Komprimeringen er baseret på datoer og fungerer ved at kombinere flere gamle poster til en ny post. Du kan kun komprimere poster fra afsluttede regnskabsår, og der indgår kun kreditorposter, hvor der står **Nej** i feltet **Åben**.  
 
 Kreditorposter fra forrige regnskabsår kan f.eks. komprimeres, så der kun er én kreditpost og én debetpost pr. konto pr. måned. Beløbet i den nye post er summen af alle de komprimerede poster. Den tildelte dato er startdatoen for den komprimerede periode, typisk den første dag i måneden (hvis posterne komprimeres pr. måned). Efter komprimeringen kan du stadig se bevægelserne på hver konto i det forrige regnskabsår.
 
 Antallet af poster, der kommer ud af en datokomprimeringskørsel, afhænger af, hvilke filtre du indstiller, hvilke filtre der kombineres og hvilken periodelængde, du vælger. Der vil altid være mindst én post. Når kørslen er færdig, kan du se resultatet på siden **Datokompr.journaler**.
 
-Du kan komprimere følgende datatyper [!INCLUDE [prod_short](includes/prod_short.md)] ved hjælp af batchjob:
+Du kan komprimere følgende datatyper ved hjælp af batchjob. Der er en kørsel for hver type data.
 
-* Bankkontoposter
+* Finansposter – finansposter, momsposter, bankkontoposter, finansbudgetposter, debitorposter, kreditorposter.
+* Lagerposter 
+* Ressourceposter
+* Varebudgetposter
+* Anlægsaktiver - anlægsposter, anlægsreparationsposter, anlægsforsikringsposter.
 
-  Efter komprimering kan du med funktionen **Bevar feltindhold** vælge at bevare indholdet i felterne **Dokumentnr., Vores kontakt**, **Global dimension 1-kode** og **Global dimension 2-kode**.
-* Kreditorposter
+Når du angiver kriterier for komprimeringen, kan du bruge indstillingerne under feltet **Bevar feltindhold** til at bevare oplysningerne i bestemte felter. De felter, der er tilgængelige, afhænger af de data, du komprimerer.
 
 > [!NOTE]
-> Komprimerede poster for debitorer, kreditorer, bank-og Anlægsposter bogføres en smule anderledes end standard bogføring. Det er at reducere antallet af nye finansposter, der er oprettet ved datokomprimering, og det er specielt vigtigt, når du gemmer oplysninger som f.eks. dimensioner og dokumentnumre. Datokomprimering opretter nye poster på følgende måde:
+> Før du kan udføre datokomprimering, skal dine analyser være opdaterede. Du kan finde flere oplysninger i [Opdatere en analysevisning](/dynamics365/business-central/bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
+
+Efter komprimeringen bevares indholdet i følgende felter altid: **Bogføringsdato**, **Kreditornr.**, **Dokumenttype**, **Valutakode**, **Bogføringsgruppe**, **Beløb**, **Resterende beløb**, **Oprindeligt beløb (LCY)**, **Resterende beløb (LCY)**, **Beløb (LCY)**, **Køb (LCY)**, **Fakturarabat (LCY)**, **Ydet kont.rabat (LCY)** og **Mulig kontantrabat**.
+
+> [!NOTE]
+> Komprimerede poster skal bogføres en smule anderledes end standard bogføring. Det er at reducere antallet af nye finansposter, der er oprettet ved datokomprimering, og det er specielt vigtigt, når du gemmer oplysninger som f.eks. dimensioner og dokumentnumre. Datokomprimering opretter nye poster på følgende måde:
 >* På siden **Finansposter** oprettes nye poster med nye løbenumre for de komprimerede poster. Feltet **Beskrivelse** indeholder **Datokomprimeret**, så de komprimerede poster nemt kan identificeres. 
 >* På Finanssider, f.eks. siden **Debitorposter** oprettes der en eller flere poster med nye løbenumre. 
 > Bogføringsprocessen skaber huller i nummerserien til poster på siden **Finansposter**. Disse numre tildeles kun poster på finans sider. Det nummerinterval, der er knyttet til posterne, er tilgængeligt på siden **Finansjournal** i felterne **Fra løbenr.** og **Til løbenr.** 
 
-Efter komprimeringen bevares indholdet i følgende felter altid: **Bogføringsdato**, **Kreditornr.**, **Dokumenttype**, **Valutakode**, **Bogføringsgruppe**, **Beløb**, **Resterende beløb**, **Oprindeligt beløb (LCY)**, **Resterende beløb (LCY)**, **Beløb (LCY)**, **Køb (LCY)**, **Fakturarabat (LCY)**, **Ydet kont.rabat (LCY)** og **Mulig kontantrabat**.
-
-  Desuden kan du bruge funktionen **Bevar feltindhold** til at bevare oplysningerne i følgende felter: **Dokumentnr.**, **Kreditornr.**, **Indkøberkode**, **Global dimension 1-kode** og **Global dimension 2-kode**.
-
 > [!NOTE]
 > Når du har kørt datokomprimering, er alle finanskonti låst. Du kan f.eks. ikke annullere udligning af kreditor-eller bankposter for en konto i den periode, hvor datoerne er komprimeret.
-
-<!--* General ledger entries
-* Customer ledger entries-->
-<!--* Fixed asset ledger entries
-* G/L budget entries
-* VAT entries
-
-  After the compression the contents of the following fields are always retained: **Posting Date**, **Type**, **Closed**, **Gen. Bus. Posting Group**, **Gen. Prod. Posting Group**, **VAT Calculation Type**, **Base**, and **Amount**.
-
-  With the **Retain Field Contents** facility, you can also retain the contents of the following additional fields: **Document No.**, **Bill-to/Pay-to No.**, **EU 3-Party Trade**, **Country/Region Code**, and **Internal Ref. No.**.
-* Insurance ledger entries
-* Maintenance ledger entries
-* Resource ledger entries
-
-  After the compression, the contents of the following fields are retained: **Posting Date**, **Resource No.**, **Resource Group No.**, **Entry Type**, **Quantity**, **Total Cost**, **Total Price**, and **Chargeable**.
-
-  With the **Retain Field Contents** facility, you can also retain the contents of the following additional fields: **Document No.**, **Work Type Code**, **Job No.**, **Unit of Measure Code**, **Source Type**, **Source No.**. **Chargeable**, **
-* Warehouse entries
-
-  After the compression the contents of the following fields are always retained: **Registering Date**, **Location Code**, **Zone Code**, **Bin Code**, **Item No.**, **Quantity**, **Qty. (Base)**, **Bin Type Code**, **Entry Type**, **Variant Code**, **Qty. per Unit of Measure**, **Unit of Measure Code**, **Warranty Date**, **Expiration Date**, **Cubage**, and **Weight**.
-
-  With the **Retain Field Contents** facility, you can also retain the contents of the **Serial No.** and **Lot No.** fields. -->
 
 Antallet af poster, der kommer ud af en datokomprimeringskørsel, afhænger af, hvilke filtre du indstiller, hvilke filtre der kombineres og hvilken periodelængde, du vælger. Der vil altid være mindst én post. 
 
 > [!WARNING]
 > Ved datokomprimering slettes posterne, så du bør altid lave en sikkerhedskopi af databasen, inden du starter kørslen.
 
-Følgende tabel viser felterne i oversigtspanelet **Indstillinger**, der er tilgængelige på alle batchjob. Afsnittet **Bevar feltindhold** indeholder yderligere felter, der er beskrevet ovenfor.
-
-|Felt  |Description  |
-|-------|-------------|
-|Startdato     |Indtast den første dato, der skal medtages i datokomprimeringen. Komprimeringen vil omfatte alle momsposter fra denne dato og frem til slutdatoen.|
-|Afslutningsdato     |Angiv den sidste dato, der skal medtages i datokomprimeringen. Komprimeringen vil omfatte alle momsposter fra startdatoen og frem til denne dato.|
-|Periodelængde |Angiv længden på den periode, hvor der skal komprimeres poster. Klik på feltet for at se indstillingerne. Hvis du markerer periodelængden *Kvartal*, *Måned* eller *Uge*, komprimeres kun poster med samme regnskabsperiode.|
-|Bevar feltindhold     |Marker felterne, hvis du vil bevare indholdet af bestemte felter, selvom posterne komprimeres. Jo flere felter du markerer, desto mere detaljerede bliver de komprimerede poster. Hvis du ikke markerer nogen af felterne, oprettes der kun én post pr. dag, uge eller anden periode, alt efter tidsintervallet i feltet **Periodelængde**. |
+### <a name="to-run-a-date-compression"></a>Kør datokomprimering
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Dataadministration**, og vælg derefter det relaterede link.
+2. Gør ét af følgende:
+    1. Hvis du vil bruge en assisteret installationsvejledning til at oprette datokomprimering for en eller flere typer data, skal du vælge **guiden dataadministration**.
+    1. Hvis du vil angive komprimering for en enkelt datatype, skal du vælge **datokomprimering**, **Komprimer poster** og derefter vælge de data, der skal komprimeres.
 
 ## <a name="see-also"></a>Se også
 

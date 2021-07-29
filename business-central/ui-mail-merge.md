@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d29e29eca7dfc24ded51aed994ac7003fb4d30ab
-ms.sourcegitcommit: 6bce51954f17b80491e180f25d67ff18b1618a88
+ms.openlocfilehash: 84b6a9fa74cea99f8b939edcf0cd883e39eb6937
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6110950"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445968"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Bruge Word-skabeloner til massekommunikation
 Microsoft Word-skabeloner kan gøre det nemmere at massekommunikere med objekter som f.eks. debitorer og kreditorer. Du kan f.eks. oprette brochurer, som giver debitorer besked om en salgskampagne, breve til kreditorer om en ny indkøbspolitik eller invitationer, der skal tiltrække kontakter til et kommende arrangement.
@@ -38,7 +38,7 @@ Når du opretter skabelonen i Word, kan du tilføje fletfelter på fanen **Forse
 Når du har klargjort din Word-skabelon, kan du vælge **Anvend** for at oprette dokumenterne på siden **Word-skabeloner**. Du kan enten oprette ét dokument, der indeholder sektioner for hvert objekt, eller opdele handlingen for at oprette et nyt dokument for hvert objekt.
 
 ## <a name="to-create-a-word-template"></a>Sådan oprettes en Word-skabelon
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Word-skabeloner**, og vælg derefter det tilknyttede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Word-skabeloner**, og vælg derefter det relaterede link.
 2. Følg trinnene i guiden til assisteret opsætning. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Se også
