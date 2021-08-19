@@ -236,7 +236,6 @@
 #### [Indsamle debitoropsætningsdata](admin-gather-customer-setup-values.md)
 #### [Forberede overflytning af debitordata med skabeloner](admin-use-templates-to-prepare-customer-data-for-migration.md)
 #### [Overflytte debitordata](admin-migrate-customer-data.md)
-#### [Oprette brugerdefinerede virksomhedsskabeloner](admin-how-to-create-custom-company-configuration-packages.md)
 #### [Tip: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Opsætning af mail
 #### [Konfigurer mail](admin-how-setup-email.md)
@@ -534,7 +533,11 @@
 #### [Opdatere standardkostpriser](finance-how-to-update-standard-costs.md)
 #### [Fjerne og genanvende vareposter](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Lukke åbne vareposter, der fremkommer ved fast udligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### [Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+#### Rapportere omkostninger og afstemme med regnskabet
+##### [Rapportering af omkostninger](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
+##### [Overvåge jobstatus og -udførelse](projects-how-monitor-progress-performance.md)
+#### [Regulere og afstemme lageromkostninger med finansregnskabet med opgavekø](finance-adjust-reconcile-inventory-cost-job-queue.md)
 
 ### Administrere likviditet
 #### [Oversigt over likviditet](finance-cash-flow-overview.md)
@@ -722,6 +725,8 @@
 ### [Køre fuld planlægning, MPS eller MRP](production-how-to-run-mps-and-mrp.md)
 ### [Omplanlægge eller forny produktionsordrer direkte](production-how-to-replan-refresh-production-orders.md)
 ### [Spore relationer mellem behov og forsyning](production-how-track-demand-supply.md)
+### [Indkøbskladde](production-about-planning-functionality.md#requisition-worksheet)
+### [Handlingsmeddelelser](production-how-to-run-mps-and-mrp.md#action-messages)
 <!-- ### [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md) -->
 <!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
@@ -1604,9 +1609,9 @@
 ### [Inspicere sider](across-inspect-page.md)
 ### [Sådan ser du databaselåse](admin-view-database-locks.md)
 ### [Sådan ser du tabeloplysninger](admin-view-table-information.md)
-### [Oprette et sandkassemiljø](across-how-create-sandbox-environment.md)
 ### [Aktivering af nye funktioner på forhånd](admin-feature-management.md)
 ### [Onboarding af brugere med kontrollister](admin-checklist.md)
+### [Sandkassemiljøer](across-how-create-sandbox-environment.md)
 ## Tilpasse Business Central
 ### [Oversigt over tilpasning](ui-customizing-overview.md)
 ### [Tilpasse sider til profiler](ui-personalization-manage.md)

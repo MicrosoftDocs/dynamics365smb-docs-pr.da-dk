@@ -1,5 +1,5 @@
 ---
-title: Definere den generelle lageropsætning
+title: Konfigurere generelle lageroplysninger
 description: Beskriver, hvordan du definerer den generelle Lageropsætning, så du kan administrere lagerstedet og lagerbeholdningen.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2021
+ms.date: 07/28/2021
 ms.author: edupont
-ms.openlocfilehash: a99de8575891e15712e221f28bbf3f4a46f2f771
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cc52935e743b0e8af4f934c040898e64665843fc
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435618"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688247"
 ---
 # <a name="set-up-general-inventory-information"></a>Konfigurere generelle lageroplysninger
 
@@ -31,15 +31,20 @@ Hvis du vil have detaljerede oplysninger om omkostningsfelterne **Aut. lagervær
 Hvis du automatisk vil inkludere lagerekspeditionstiden i beregningen af leveringstiden på købslinjen, kan du angive det som standardindstilling på siden **Opsætning af Lager** og for din lokation. Du kan finde flere oplysninger i [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md).  
 
 > [!NOTE]
-> Funktionen til **Automatisk regulering af kostpris** er som standard aktiveret for at sikre, at lagerværdierne altid er korrekte i finansbogholderiet, som samtidig holder salgs- og overskudsstatistikken ajour. Kostprisændringer fra indgående poster, f.eks. for køb eller produktionsoutput, er tilknyttet de relaterede udgående poster, f.eks. salg eller overførsler. Dette er nyttigt for nye [!INCLUDE[prod_short](includes/prod_short.md)] kunder og mindre virksomheder med relativt lave lagertransaktionsniveauer. Men i takt med at virksomhedens vækst vokser, og lagerniveauet stiger, kan det gøre systemets ydeevne langsommere. Hvis du vil minimere reduceret ydeevne under bogføringen, skal du vælge en tidsindstilling for at definere, hvor langt tilbage i forhold til arbejdsdatoen en indgående transaktion må forekomme for at udløse reguleringen af relaterede udgående værdiposter. Alternativt kan du ændre omkostningerne manuelt med kørslen Reguler kostværdi - vareposter.
+> Feltet **Automatisk kostregulering** er indstillet til *Altid* som standard for at sikre, at lagerværdierne altid er korrekte i finansregnskabet, som samtidig sikrer, at salgs- og overskudsstatistikken er opdateret. Kostprisændringer fra indgående poster, f.eks. for køb eller produktionsoutput, er tilknyttet de relaterede udgående poster, f.eks. salg eller overførsler. Dette er nyttigt for nye [!INCLUDE[prod_short](includes/prod_short.md)] kunder og mindre virksomheder med relativt lave lagertransaktionsniveauer.
+>
+> Men i takt med at virksomhedens vækst vokser, og lagerniveauet stiger, kan det gøre systemets ydeevne langsommere. Hvis du vil minimere reduceret ydeevne under bogføringen, skal du vælge en tidsindstilling for at definere, hvor langt tilbage i forhold til arbejdsdatoen en indgående transaktion må forekomme for at udløse reguleringen af relaterede udgående værdiposter.
+>
+> Alternativt kan du ændre omkostningerne manuelt med kørslen Reguler kostværdi - vareposter. Du kan også slå automatisk omkostningbogføring fra eller angive feltet **Automatisk kostregulering** til *Aldrig*. I begge tilfælde vises en meddelelse, hvorfra du kan starte en assisteret opsætningsvejledning, der hjælper dig med at planlægge opgaver for opgavekøen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-also"></a>Se også
+
 [Konfigurere lager](inventory-setup-inventory.md)  
-[Designoplysninger: Kostmetoder](design-details-costing-methods.md)    
+[Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
 [Administrere lager](inventory-manage-inventory.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
-[Generelle forretningsfunktioner](ui-across-business-areas.md)
+[Generelle forretningsfunktioner](ui-across-business-areas.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 46ce62b98e02f934b859dc7191d7fea69ae44af0
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 813ac2b7c8fe074e9c1f2572f947b92156a56d1a
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325414"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649783"
 ---
 # <a name="setting-up-a-company-with-rapidstart-services"></a>Oprette en virksomhed med RapidStart Services
 Du kan oprette en ny virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)] med RapidStart Services, som er et værktøj, der er udviklet til at afkorte installationstiden, forbedre implementeringens kvalitet, introducere en tilgang til implementeringer, der kan gentages, og forbedre produktiviteten ved at automatisere og forenkle tilbagevendende opgaver.  
@@ -42,7 +42,7 @@ Du kan bruge følgende komponenter til at sætte skub i opsætningen af din virk
 |Definer og valider kundens opsætningsværdier for alle centrale områder, f.eks. firmaoplysninger, finans, lager, salg eller produktion.|[Indsaml debitoropsætningsværdier](admin-gather-customer-setup-values.md)|  
 |Konfigurer kerneposter i masterdata ved brug af skabeloner for at forberede overflytning af eksisterende debitordata.|[Forberede overflytning af debitordata](admin-use-templates-to-prepare-customer-data-for-migration.md)|  
 |Definere tabeller og felter, validere eksisterende debitordata og overflytte data til databasen i [!INCLUDE[prod_short](includes/prod_short.md)].|[Overflytte debitordata](admin-migrate-customer-data.md)|
-|Forberede genbrug af virksomhedskonfigurationer i andre firmaer.|[Oprette brugerdefinerede virksomhedsskabeloner](admin-how-to-create-custom-company-configuration-packages.md)|
+|Forbered genbrug af virksomhedens konfigurationer i andre virksomheder (i indholdet til udviklere og administration).|[Oprette brugerdefinerede virksomhedsskabeloner](/dynamics-365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)|
 |Finde løsninger på kendte problemer i værktøjssættet i RapidStart Services.|[Tip: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)|  
 
 ## <a name="see-also"></a>Se også  

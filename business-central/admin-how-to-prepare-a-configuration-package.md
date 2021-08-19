@@ -1,5 +1,5 @@
 ---
-title: Sådan forberedes en konfigurationspakke
+title: Forberede en konfigurationspakke
 description: Lær nu, hvordan du forbereder en RapidStart-konfigurationspakke, som kan hjælpe med at oprette nye virksomheder på basis af eksisterende data.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 07/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 32d30efb86202b1454e307a03e2dd30056e2b149
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3b8b7792363d8d44cdfea563b422748ad39de90
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440720"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660227"
 ---
 # <a name="prepare-a-configuration-package"></a>Forberede en konfigurationspakke
 
@@ -74,8 +74,20 @@ Angiv, hvilke felter der er inkluderet i pakken. Alle felter er inkluderet som s
     - For kun at vælge de felter du vil medtage, skal du vælge handlingen **Ryd inkluderede**. Hvis du vil tilføje alle felter, skal du vælge handlingen **Angiv inkluderede**.  
     - Hvis du vil angive, at feltdata ikke skal valideres, skal du fjerne markeringen af afkrydsningsfeltet **Valider felt** for feltet.  
 
-10. Kontrollér, om du har indført potentielle fejl ved at vælge handlingen **Valider pakke**. Dette kan ske, når du ikke medtager tabeller, der er afhængige af din konfiguration.  
-11. Vælg knappen **OK**.  
+10. Hvis du vil anvende behandlingsfiltre til tabeldata, eller hvis du vil tilføje en kodeenhed med en kode, som du vil medtage i pakken, skal du vælge linjen for den relevante tabel og derefter vælge handlingen **Behandlingsregler**.
+
+    1. Udfyld felterne på siden **Behandlingsregler for konfigurationstabel**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+        - Hvis du vil anvende filtre til data, skal du angive den relevante handling i feltet **Handling**, vælge handlingen **Behandlingsfiltre** og derefter udfylde felterne.  
+
+            Microsofts konfigurationspakker til evalueringsvirksomhederne indstiller f.eks. behandlingsfiltre i tabellerne **Salgshoved** og **Købshoved**.
+        - Hvis du vil tilføje en behandlingskodeenhed, skal du angive den i feltet **Brugerdefineret kodeenheds-id**.
+
+          > [!NOTE]
+          > Denne kodeenhed skal bruge *Konfigurationspakkepost* for tabel 8614 som parameter for metoden `OnRun`.
+    2. Luk siden.
+11. Kontrollér, om du har indført potentielle fejl ved at vælge handlingen **Valider pakke**. Dette kan ske, når du ikke medtager tabeller, der er afhængige af din konfiguration.  
+12. Vælg knappen **OK**.  
 
 Når du har finjusteret listen over felter, der skal medtages i en tabel, kan du kontrollere dine resultater i Excel.  
 

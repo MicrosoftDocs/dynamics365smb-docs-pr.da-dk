@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/22/2021
+ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: 4f67eab27c95e4786b8f1d5949d678105ea21999
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: fa1b63bb94152c130077907dbe2d4e0d08281f40
+ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319145"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "6635987"
 ---
 # <a name="planning-with-or-without-locations"></a>Planlægge med eller uden lokationer
 Med hensyn til planlægning med eller uden lokationskoder på behovslinjer fungerer planlægningssystemet på samme ukomplicerede måde, når:  
@@ -25,16 +25,20 @@ Med hensyn til planlægning med eller uden lokationskoder på behovslinjer funge
 
 Hvis behovslinjerne derimod sommetider har lokationskoder og sommetider ikke, vil planlægningssystemet følge visse regler afhængigt af opsætningen.  
 
+> [!TIP]
+> Hvis du tit har brug for at planlægge behov på forskellige lokationer, anbefales det at bruge funktionen Lagervarer.
+
 ## <a name="demand-at-location"></a>Behov på lokation  
+
 Når planlægningssystemet registrerer behov på en lokation (en linje med en lokationskode), fungerer det forskelligt afhængigt af 3 vigtige opsætningsværdier.  
 
 Under et planlægningsforløb kontrollerer systemet de 3 opsætningsværdier en efter en og planlægger i overensstemmelse med dem:  
 
-1.  Er feltet **Tvungen lokationskode** markeret?  
+1. Er afkrydsningsfeltet **Tvungen lokationskode** på siden **Lageropsætning** markeret?  
 
     Hvis ja, så:  
 
-2.  Er varen registreret som lagervare?  
+2. Er varen registreret som lagervare?  
 
     Hvis ja, så:  
 
@@ -42,7 +46,7 @@ Under et planlægningsforløb kontrollerer systemet de 3 opsætningsværdier en 
 
     Hvis nej, så:  
 
-3.  Indeholder feltet **Komponenter på lokation** den efterspurgte lokationskode?  
+3. Indeholder feltet **Komponenter på lokation** på siden **Produktionsopsætning** den krævede lokationskode?  
 
     Hvis ja, så:  
 
@@ -53,9 +57,18 @@ Under et planlægningsforløb kontrollerer systemet de 3 opsætningsværdier en 
     Varen planlægges i overensstemmelse med: Genbestillingsmetode =  *Lot-for-Lot*, Medtag lager =  *Ja*, alle andre planlægningsparametre = tomme. (Varer, der benytter genbestillingsmetoden  *Ordre*, fortsætter med at bruge  *Ordre* såvel som de andre indstillinger.)  
 
 > [!NOTE]  
->  Dette minimale alternativ dækker kun det nøjagtige behov. Eventuelle definerede planlægningsparametre ignoreres.  
+> Dette minimale alternativ dækker kun det nøjagtige behov. Eventuelle definerede planlægningsparametre ignoreres.  
 
 Se forskellene i eksemplerne nedenfor.  
+
+> [!TIP]
+> Feltet **Tvungen lokationskode** på siden **Lageropsætning** og feltet **Komponenter på lokation** på siden Produktionsopsætning er meget vigtige for, styringen af, hvordan planlægningssystemets håndterer behovslinjer med/uden lokationskoder.
+>
+> I forbindelse med produktionsbehov, der er købt (når planlægningsmotoren bruges udelukkende til købsplanlægning og ikke til produktionsplanlægning), bruger [!INCLUDE [prod_short](includes/prod_short.md)] den samme lokation for komponenter som den, der er angivet på produktionsordren. Hvis du udfylder dette felt, kan du dog omdirigere komponenterne til en anden lokation.
+>
+> Du kan også definere dette for en specifik lagervare ved at vælge en anden lokationskode i feltet **Komponenter på lokation** på lagervarekortet. Bemærk, at dette sjældent giver mening, da planlægningslogikken kan blive forvrænget ved planlægning for lagervarekomponenten.
+
+Et andet vigtigt felt er feltet **Maks. ordrestørrelse** på kortet **Vare**. Det angiver det største tilladte vareantal i et ordreforslag og bruges, hvis varen leveres i en fast transportenhed, f.eks. en container, som du vil udnytte fuldt ud. Når behovet for genopfyldning er registreret, og lotstørrelsen er reguleret i forhold til den angivne genbestillingsmetode, reduceres antallet, hvis det er nødvendigt, for at overholde den højeste tilladte ordrestørrelse, du har defineret for varen. Hvis der er flere krav, beregnes der nye ordrer for at overholde dem. Dette felt er beregnet til at blive brugt sammen med produktionsmetoden Fremstil-til-lager.  
 
 ## <a name="demand-at-blank-location"></a>Behov på "tom lokation"  
 Selv hvis afkrydsningsfeltet **Tvungen lokationskode** er markeret, tillader systemet, at behovslinjer oprettes uden lokationskode – hedder også *TOM* lokation. Dette er en afvigelse for systemet, da det har forskellige opsætningsværdier, der er indstillet til at håndtere lokationer (se ovenfor), og som et resultat opretter planlægningsprogrammet ikke en planlægningslinje for en behovslinje. Hvis feltet **Tvungen lokationskode** ikke er markeret, men alle lokationsopsætningsværdierne findes, skal dette også betragtes en afvigelse, og planlægningssystemet reagerer ved at udføre det "minimale alternativ":   
@@ -133,15 +146,17 @@ Varen planlægges i overensstemmelse med planlægningsparametrene på varekortet
 
 Som det fremgår af det sidste eksempel, kan man kun få det rigtige resultat for en behovslinje uden en lokationskode ved at deaktivere alle opsætningsværdier, der er knyttet til lokationer. Ligeledes kan man kun få stabile planlægningsresultater for behov på lokationer ved at bruge lagervarer.  
 
-Hvis du ofte planlægger med behov på lokationer, anbefales det derfor kraftigt at benytte lagervarefunktionen.  
+Hvis du ofte har brug for at planlægge behov på forskellige lokationer, anbefales det derfor at bruge funktionen Lagervarer.  
 
 ## <a name="see-also"></a>Se også
-[Planlægning](production-planning.md)    
+
+[Skabelon](production-planning.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  
-[Produktion](production-manage-manufacturing.md)    
+[Produktion](production-manage-manufacturing.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
+[Opsætte lagervarer](inventory-how-to-set-up-stockkeeping-units.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
+[Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)  
 [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

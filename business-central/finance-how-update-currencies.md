@@ -1,18 +1,18 @@
 ---
 title: Opdatere valutakurser
-description: Spore beløb i forskellige valutaer ved hjælp af valutakoder, og lad Business Central hjælpe dig med at regulere valutakursen for bogførte poster med en ekstern service.
+description: Spore beløb i forskellige valutaer ved hjælp af valutakoder, og lad Business Central hjælpe dig med at regulere valutakurser for bogførte poster med en ekstern service.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: multiple currencies, adjust exchange rates
-ms.date: 06/03/2021
+ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
+ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 0baa12a7f63e67184a00dab893c8222facfe269d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c4072e0371499982fc86d6c16b4d614552bc4533
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441618"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660177"
 ---
 # <a name="update-currency-exchange-rates"></a>Opdatere valutakurser
 
@@ -29,6 +29,9 @@ Finansprogrammet er konfigureret til at bruge den lokale valuta (RV), men du kan
 > Hvis du vil bruge en ekstra rapporteringsvaluta til finansiel rapportering, skal du have kendskab til begrænsningerne. Du kan finde flere oplysninger i [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md).
 
 ## <a name="currencies"></a>Valutaer
+
+> [!NOTE]  
+> Hvis du leder efter realtidsoplysninger om valutakurser (fx) eller historiske kurser, omtales de som valuta i [!INCLUDE[prod_short](includes/prod_short.md)]. Udover denne artikel kan du også se [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md).
 
 Du kan angive valutakoder i **valutaerne**, herunder yderligere oplysninger og indstillinger, der er nødvendige for hver valutakode.
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9dd985237f0e214c404d7f254c023b67af660e48
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49ea877d2a6a213a1559b7269bc4b70f660745d7
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443150"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649883"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Forberede overflytning af debitordata med skabeloner
 
@@ -124,6 +124,7 @@ Enhver post, hvis data anvendes på denne måde, er fuldført, da den består af
 > [!NOTE]
 > Hvis dataene i tabellerne i konfigurationspakken indeholder datoer, f.eks. bogføringsdatoer på fakturaer, medtages datoerne i den tidszone, der er angivet i [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
+
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Sådan opretter du en post fra en konfigurationsskabelon
 
 Du kan bruge strukturen i de data, der er indeholdt i dataskabelonerne til at konvertere dine oplysninger til poster i databasen, én efter én. Hvis du vil gøre dette, skal du bruge funktionen **Opret forekomst**. Dette er en miniatureudgave af processen for dataoverflytning, og den kan være nyttig som prototype eller til at behandle mindre opgaver til oprettelse af data.  
@@ -137,6 +138,15 @@ Følgende trin illustrerer, hvordan du opretter et varekort fra en varedataskabe
 5. Hvis du vil se det nye varekort, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
 6. Åbn det nye varekort.  
 7. Udvid de forskellige oversigtspaneler, og kontrollér, at oplysningerne er oprettet korrekt på dem.  
+
+## <a name="to-use-conversion-templates"></a>Sådan anvendes konverteringsskabeloner
+
+Du kan konvertere kontakter til debitorer, kreditorer og medarbejdere. 
+
+### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>Sådan konverteres en kontakt til en debitor, kreditor eller medarbejder
+1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontakter**, og vælg derefter den rette kontakt. 
+2. Vælg **Handlinger**, **Funktioner** og derefter **Opret som debitor, kreditor, bank eller medarbejder** på kontaktkortet.
+
 
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Bruge en konfigurationsskabelon på en post
 
@@ -152,6 +162,9 @@ Følgende procedure er baseret på et nyt debitorkort.
 3. På siden **Debitorskabeloner** skal du vælge én af skabelonerne, og derefter vælge knappen **OK**.  
 
 Standardværdierne fra den valgte debitorskabelon indsættes i debitorkortet.
+
+> [!NOTE]
+> Du kan ikke bruge Anvend skabelon til at tømme felter for debitorer, kreditorer og lignende. Du skal i stedet bruge funktionen **Rediger i Excel**. Du kan finde flere oplysninger i [Redigere i Excel](across-work-with-excel.md#edit-in-excel).
 
 ## <a name="see-also"></a>Se også
 

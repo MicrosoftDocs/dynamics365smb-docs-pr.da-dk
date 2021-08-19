@@ -1,6 +1,6 @@
 ---
-title: Om planlægningsfunktioner | Microsoft Docs
-description: Planlægningssystemet tager højde for alle oplysninger om efterspørgsel og udbud, tæller resultaterne sammen og opretter forslag til, hvordan udbuddet kan afstemmes, så det passer til efterspørgslen.
+title: Om planlægningsfunktionen
+description: Planlægningssystemet i Dynamics 365 Business Central tager højde for alle oplysninger om efterspørgsel og udbud, tæller resultaterne sammen og opretter forslag til afstemning af udbuddet efter efterspørgslen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: dc3ef67f2f7578d81878b24662b97e47bc87a327
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e06bf94575c55d6e26fbe62c0b6cff06dd4fac70
+ms.sourcegitcommit: acc1871afa889cb699e65b1b318028c05f8e6444
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782034"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "6636012"
 ---
 # <a name="about-planning-functionality"></a>Om planlægningsfunktionen
 
@@ -37,9 +37,12 @@ Et andet formål med planlægningssystemet er at sikre, at lagerbeholdningen ikk
 
 ## <a name="planning-calculation"></a>Planlægningsberegning
 
-Udgangspunktet for planlægningssystemet er forventet og faktisk efterspørgsel fra kunderne, dvs. kundebehov og forskellige faktorer i forbindelse med genbestilling af varer til lageret. Når planlægningsberegningen køres, foreslås det (i form af aktionsmeddelelser), at der tages bestemte forholdsregler, som f.eks. kan være genbestilling fra leverandører, overflytninger mellem lagersteder eller produktion. Hvis der allerede findes genbestillingsordrer, kan den foreslåede aktivitet f.eks. være at øge eller fremskynde ordrerne for på den måde at imødekomme det ændrede behov.  
+Udgangspunktet for planlægningssystemet er forventet og faktisk efterspørgsel fra kunderne, dvs. kundebehov og forskellige faktorer i forbindelse med genbestilling af varer til lageret. Planlægningsberegningen resulterer i, at programmet foreslår bestemte handlinger ([Handlingsmeddelelser](production-how-to-run-mps-and-mrp.md#action-messages)) angående mulig genbestilling fra leverandører, overflytninger mellem lagersteder eller produktion. Hvis der allerede findes genbestillingsordrer, kan den foreslåede aktivitet f.eks. være at øge eller fremskynde ordrerne for på den måde at imødekomme det ændrede behov.  
 
 Udgangspunktet for selve planlægningen er beregningen fra brutto til netto. Et nettobehov udløser frigivelse af planlagte ordrer, som planlægges på basis af ruteoplysningerne (producerede varer) eller på basis af fremskaffelsestiden på varekortet (købte varer). De antal, der frigives i en planlagt ordre, afhænger af planlægningsberegningen og påvirkes af de parametre, der er angivet på de enkelte varekort.  
+
+> [!TIP]
+> Planlægningssystemet er afhængig af, hvordan organisationen benytter lokationer. Du kan finde flere oplysninger i [Planlægning med eller uden lokationer](production-planning-with-without-locations.md).
 
 ## <a name="planning-with-manual-transfer-orders"></a>Planlægge med manuelle overflytningsordrer
 

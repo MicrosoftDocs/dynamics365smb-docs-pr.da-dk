@@ -1,6 +1,6 @@
 ---
 title: Bogføre flere dokumenter på én gang
-description: I stedet for at bogføre individuelle dokumenter ét ad gangen, kan du vælge flere ikke-bogførte dokumenter i en oversigt til baggrundsbogføring.
+description: Få mere at vide om, hvordan du vælger flere ikke-bogførte dokumenter på en liste til umiddelbar eller planlagt massebogføring i Business central.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 33e21834dc1417f5177b167e911e002ca56f648c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4920e363af9b35afb4369682ca0310f095b02bb0
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446043"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649683"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Bogføre flere dokumenter på én gang
 
@@ -78,7 +78,7 @@ Hvis opgavekøen ikke kan bogføre salgsordren, ændres status til **Fejlmeddele
 1. I det dokument, du har forsøgt at bogføre med baggrundsbogføring, skal du vælge feltet **Opgavekøstatus**, der indeholder **Fejl**.
 2. Gennemgå fejlmeddelelsen, og løs problemet.
 
-Alternativt kan du gennemse på siden **Logposter i opgavekø**, hvis salgsordren blev bogført korrekt. Du kan finde flere oplysninger i [Sådan får du vist status eller fejl i opgavekøen](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
+Du kan også gennemgå siden **Logposter i opgavekø**, hvis salgsordren blev bogført korrekt. Du kan finde flere oplysninger i afsnittet [Overvåge opgavekøen](#monitor-the-job-queue).
 
 ## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Sådan oprettes en opgavekøpost for baggrundsbogføring af salgsordrer
 
@@ -117,6 +117,11 @@ Følgende procedure viser, hvordan du kan indstille rapporten **Massebogfør sal
 
 Salgsordrer, der falder inden for de definerede filtre, bogføres alle hverdage kl. 16.
 
+## <a name="monitor-the-job-queue"></a>Overvåge opgavekøen
+
+Hvis du konfigurerer baggrundsbogføring med opgavekøer, skal du gøre det til en fast opgave at overvåge opgavekøen for at fange eventuelle problemer. Du kan spore status på siden **Poster for opgavekøer**. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).  
+
+Som administrator kan du bruge [Application Insights](/azure/azure-monitor/app/app-insights-overview) til at indsamle og analysere telemetri, som du kan bruge til at identificere problemer. Du kan finde flere oplysninger i [Overvågning og analyse af telemtri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) i indholdet til udviklere og administration.  
 
 ## <a name="see-also"></a>Se også
 
