@@ -5,23 +5,26 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 06/23/2021
+ms.date: 08/25/2021
 ms.author: edupont
-ms.openlocfilehash: 073b89f7c80035da12f329f752b64dc8142f309d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b408afe65f2063ab77dca4e4e87fcfc4715f1204
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325580"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440488"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Tilpasse Business Central Online ved brug af udvidelser
 
 Du kan ændre [!INCLUDE[prod_short](includes/prod_short.md)] online ved at installere udvidelser, der f.eks. tilføjer funktioner, ændrer funktionsmåder eller giver dig adgang til nye onlinetjenester.
 
 > [!NOTE]
-> Hvis du vil installere udvidelser fra AppSource eller tilføje udvidelser pr. lejer, skal du have de rigtige rettigheder. Du skal enten være medlem af brugergruppen D365 EXTENSION MGT, eller du skal have rettighedssættet D365 EXTENSION MGT. Hvis du er administrator, kan du tildele brugergrupper og rettigheder til andre brugere i virksomheden.
+> Hvis du vil installere eller afinstallere udvidelser fra AppSource eller tilføje udvidelser pr. lejer, skal du have de rigtige rettigheder. Du skal enten være medlem af filen EXTEND. MGT. - ADM-brugergruppe, eller du skal have funktionen EXTEND. MGT. - ADM-rettighedssæt Hvis du er administrator, kan du tildele brugergrupper og rettigheder til andre brugere i virksomheden.
+>
+> Hvis du vil bruge de funktioner, der findes i en udvidelse, f.eks. åbne sider, køre rapporter, vælge handlinger osv., skal du være tildelt de rettighedssæt, der er installeret som en del af udvidelsen.
 
-Hvis du vil bruge de funktioner, der findes i en udvidelse, f.eks. åbne sider, køre rapporter, vælge handlinger osv., skal du være tildelt de rettighedssæt, der er installeret som en del af udvidelsen.
+> [!NOTE]  
+> Funktionen **EXTEND. MGT. - ADMIN**-tilladelsessættet blev introduceret i Business Central 2021 Release Wave 1 som en erstatning for **D365 EXTENSION MGT**-tilladelsessættet i tidligere versioner.
 
 > [!IMPORTANT]  
 > Overførsel af udvidelser pr. lejer og installation af AppSource-udvidelser understøttes ikke via siden **Udvidelsesstyring** til lokale installationer. Du kan ikke installere AppSource-lokalnumre, herunder i Docker-baserede installationer.

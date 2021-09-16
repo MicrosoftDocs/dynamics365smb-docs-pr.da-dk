@@ -1,5 +1,5 @@
 ---
-title: Arbejde med timesedler for sager | Microsoft Docs
+title: Arbejde med timesedler for sager
 description: Beskriver, hvordan du opretter en timeseddel for en sag, kopierer planlægningslinjer til den, angive arbejdstyper, udfylde timesedlen og sender den til godkendelse.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.date: 04/01/2021
+ms.date: 08/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5ebeb1d2491587afe03cc8f1e687e82bdbd2743d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 02d9536b27290ef27e5954ad6ea9004094e5cfe2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436119"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440637"
 ---
 # <a name="use-time-sheets-for-jobs"></a>Bruge timesedler for sager
 
@@ -45,8 +45,8 @@ Du kan se de timesedler, du har oprettet, på siden **Timeseddeloversigt**.
 Følgende procedure beskriver, hvordan du hurtigt føjer sagsplanlægningslinjer til en timeseddel.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Timesedler**, og vælg derefter det relaterede link.  
-2. På siden **Timeseddeloversigt** skal du vælge en timeseddel for den relevante periode og derefter klikke på handlingen **Rediger timeseddel**.  
-3. Vælg handlingen **Opret linjer fra sagsplanlægning**. Alle sagsplanlægningslinjer i timeseddeltidsperioden kopieres til timesedlen for personen eller maskinen i feltet **Ressourcenr.** på timesedlen.
+2. Vælg en timeseddel for den relevante periode på siden **Timeseddelliste**.  
+3. Vælg handlingen **Linje**, og vælg derefter **Opret linjer fra opgaveplanlægningshandling**. Alle sagsplanlægningslinjer i timeseddeltidsperioden kopieres til timesedlen for personen eller maskinen i feltet **Ressourcenr.** på timesedlen.
 
 ## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Sådan definerer du arbejdstyper og tilføjer en til en timeseddel
 Du kan definere arbejdstypen for alle timeseddellinjer for sager. På denne måde kan du tilføje oplysninger, du behøver for at fakturere debitoren for forskellige typer arbejde.
@@ -64,21 +64,21 @@ Hvis dine timeseddeloplysninger forbliver de samme fra tidsperiode til tidsperio
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Timesedler**, og vælg derefter det relaterede link.  
 2. Åbn timesedlen for en period efter perioden for en eksisterende timeseddel med linjer.  
-3. Vælg handlingen **Kopier linjer fra en tidligere timeseddel**.
+3. Vælg handlingen **Linje**, og vælg derefter **Kopiér linjer fra forrige timeseddel**.
 
 Linjerne kopieres, herunder oplysninger som type og beskrivelse. Hvis linjen f.eks. er knyttet til en sag, kopieres **Sagsnr.**. Alle kopierede linjer har statussen **Åben**. Du kan nu redigere linjerne efter behov.
 
-## <a name="to-fill-in-a-time-sheet-lines-and-submit-for-approval"></a>Sådan udfyldes en timeseddels linjer og sendes til godkendelse
+## <a name="to-fill-in-time-sheet-lines-and-submit-for-approval"></a>Sådan udfyldes en timeseddels linjer og sendes til godkendelse
 Registrering af timesedler spores i timer, standardbasisenheden for ressourcer. En timeseddel har som standard almindelige arbejdsdage fra mandag til fredag.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Timesedler**, og vælg derefter det relaterede link.  
-2. Vælg en timeseddel for den relevante periode, og vælg derefter handlingen **Rediger timeseddel**.  
-3. Udfyld felterne på en linje efter behov. Angiv det antal timer, der bruges af ressourcen på hver ugedag.
+2. Vælg en timeseddel for den relevante periode.
+3. Udfyld felterne på en linje efter behov. Angiv det antal timer, der bruges af ressourcen på hver ugedag.  
 
     > [!TIP]  
     >   Du kan se summen af timeseddeltimer, du har angivet i faktaboksen **Faktisk/budgetteret oversigt**.  
 4. Gentag trin 3 for andre arbejdstyper, der udføres af ressourcen.
-5. Vælg handlingen **Send**, og vælg derefter handlingen **Alle åbne linjer** for at sende alle linjer eller handlingen **Kun valgte linjer** for kun at sende de linjer, der er valgt på siden **Timeseddel**.  
+5. Vælg handlingen **Behandle**, og vælg derefter **Send**. Vælg nu handlingen **Alle åbne linjer** for at sende alle linjer eller handlingen **Kun valgte linjer** for kun at sende de linjer, der er valgt på siden **Timeseddel**.  
 
     > [!NOTE]  
     >   Du kan dog kun sende timeseddellinjer, som du har angivet tidspunkter for.  
@@ -96,7 +96,9 @@ En timeseddel skal sendes til godkendelse, før den kan bruges. Du kan godkende 
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leders timesedler**, og vælg derefter det relaterede link.
 2. Vælg en timeseddel på listen.  
-3. På siden **Timeseddel** skal du vælge handlingen **Godkend** og derefter vælge handlingen **Alle sendte linjer** for at godkende alle linjer eller handlingen **Kun valgte linjer** for kun at godkende de linjer, der er valgt på siden **Timeseddel**.
+3. På siden **Timeseddel** 
+    1. Vælg **Behandle**-handlingen, og vælg derefter **Godkend**.
+    2. Vælg handlingen **Alle sendte linjer** for at godkende alle linjer, eller handlingen **Kun valgte linjer** for at godkende linjer, der er valgt på siden **Timeseddel**.
 4. Vælg knappen **OK**.  
 5. Du kan også vælge handlingen **Afvis** og følge trin 4 til 5.  
 
@@ -123,13 +125,13 @@ Du kan for en sag angive en person, der er ansvarlig for sagen. Disse oplysninge
 
 ### <a name="to-approve-or-reject-a-time-sheet-by-job"></a>Sådan godkendes eller afvises en timeseddel efter sag
 
-1. Indtast **Leders timeseddel efter sag** i feltet **Søg**, og vælg derefter det relaterede link. Microsoft Dynamics NAV viser en liste over timeseddellinjer, der er knyttet til de job, du har ansvaret for.
-2. Vælg **Godkend** under fanen **Startside**. Vælg **Alle** for at godkende alle linjer. Vælg **Valgte** for kun at godkende markerede linjer.
+1. Indtast **Leders timeseddel efter sag** i feltet **Søg**, og vælg derefter det relaterede link. [!INCLUDE[prod_short](includes/prod_short.md)] viser en liste over timeseddellinjer, der er knyttet til de job, du har ansvaret for.
+2. Vælg handlingen **Godkend**, og vælg derefter handlingen **Alle sendte linjer** for at godkende alle linjer eller handlingen **Kun valgte linjer** for kun at godkende de linjer, der er valgt på siden **Timeseddel**.
 
     > [!NOTE]
     > Du kan kun godkende timesedler med status **Sendt**.
 
-3. Markér en timeseddellinje, og vælg **Bemærkninger** under fanen **Naviger** for at give yderligere oplysninger om godkendelse eller afvisning. Indtast en dato i feltet **Dato**, og angiv en bemærkning i feltet **Bemærkning**.
+3. Hvis du vil angive yderligere oplysninger om godkendelse eller afvisning, skal du vælge den **relaterede** handling, derefter vælge **bemærkninger** og derefter **Linjebemærkninger** og skrive bemærkninger.
 4. Vælg knappen **OK**.
 
 > [!NOTE]
@@ -138,9 +140,9 @@ Du kan for en sag angive en person, der er ansvarlig for sagen. Disse oplysninge
 ## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Sådan bogfører du timeseddellinjer i en ressourcekladde
 Når du har godkendt timeseddelposter for en ressource, kan du bogføre dem i den relevante ressourcekladde.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourcekladde**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourcekladder**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Foreslå linjer fra timesedler**.  
-3. Udfyld felterne efter behov.  
+3. På siden **Foreslå res.kladdelinjer** skal du udfylde felterne efter behov.  
 4. Vælg knappen **OK**. Der oprettes poster for forbrug i ressourcekladden, hvor du kan ændre oplysningerne efter behov.  
 5. Vælg handlingen **Bogfør**.  
 6. Vælg handlingen **Poster** for at bekræfte posteringen. Siden **Ressourceposter** åbnes og viser resultatet for bogføring af ressourcekladden.
@@ -148,9 +150,9 @@ Når du har godkendt timeseddelposter for en ressource, kan du bogføre dem i de
 ## <a name="to-post-time-sheet-lines-in-a-job-journal"></a>Sådan bogfører du timeseddellinjer i en sagskladde
 Når du har godkendt timeseddelposter for en sag, kan du bogføre dem i den relevante sagskladde.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagskladde**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagskladder**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Foreslå linjer fra timesedler**.  
-3. Udfyld felterne efter behov.  
+3. På siden **Foreslå Job kladdelinjer** skal du udfylde felterne efter behov.  
 4. Vælg knappen **OK**. Der oprettes poster for forbrug i sagskladden, hvor du kan ændre oplysningerne efter behov.  
 
     > [!NOTE]  
@@ -164,16 +166,17 @@ Når du har bogført timesedler, kan du arkivere dem til fremtidig reference. Al
 > [!NOTE]  
 >   Når du arkiverer en timeseddel, fjernes den fra oversigterne på siden **Timesedler** og på siden **Leders timesedler**.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Flyt timesedler til arkiv**, og vælg derefter det relaterede link.  
-2. Udfyld felterne efter behov, og vælg derefter knappen **OK**.  
-3. Hvis du vil se arkiverede timesedler, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Arkiver for timesedler** eller **Arkiver for leders timesedler**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Timesedler**, og vælg derefter det relaterede link.
+2. Vælg handlingen **Flyt timesedler til arkiv**.  
+3. På siden **Flyt timesedler til arkiv** skal du udfylde felterne efter behov, og derefter vælge knappen **OK**.  
+4. Hvis du vil se arkiverede timesedler, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Arkiver for timesedler** eller **Arkiver for leders timesedler**, og vælg derefter det relaterede link.
 
 ## <a name="see-also"></a>Se også
 [Projektstyring](projects-manage-projects.md)  
-[Konfigurere projektstyring](projects-setup-projects.md)    
+[Konfigurere projektstyring](projects-setup-projects.md)  
 [Finans](finance.md)  
-[Køb](purchasing-manage-purchasing.md)         
-[Salg](sales-manage-sales.md)     
+[Køb](purchasing-manage-purchasing.md)  
+[Salg](sales-manage-sales.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

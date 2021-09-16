@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement
-ms.date: 04/01/2021
+ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: 74c984d1abdd78f4d8af1364b3c8d285297a1cdd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 18aef7bfc5324d17d2af9f4aa4ff0ba2602c70e0
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445497"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482393"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Registrere køb med købsfakturaer
 
@@ -25,25 +25,10 @@ Du kan oprette en købsfaktura eller købsordre for at registrere omkostningerne
 
 Du kan både købe fysiske varer (varetypen **Lager**), som påvirker lagerværdien, og købe tjenester, der repræsenteres af tidsenheder. Du kan enten gøre dette med varetypen **Tjeneste** eller med linjetypen **Ressource**.
 
-> [!NOTE]  
-> Du skal bruge købsordrer, hvis din købsproces kræver, at du kan registrere delleveringer af et ordreantal, f.eks. fordi hele antallet ikke er tilgængeligt hos leverandøren. Hvis du sælger varer ved at levere direkte fra leverandøren til kunden som en direkte levering, skal du også bruge købsordrer. Du kan finde flere oplysninger i [Foretage direkte leveringer](sales-how-drop-shipment.md). I alle andre henseender fungerer købsordrer på samme måde som købsfakturaer. Følgende procedure er baseret på en købsfaktura. Fremgangsmåden er den samme for en købsordre.
-
 Når du modtager lagervarerne, eller når den købte tjeneste er fuldført, skal du bogføre købsfakturaen eller -ordren for at opdatere lager- og finansposter og aktivere betaling til kreditor i henhold til betalingsbetingelserne. Du kan få flere oplysninger i [Bogføring af køb](ui-post-purchases.md) og [Foretage betaling](payables-make-payments.md).
 
 > [!CAUTION]  
 > Bogfør ikke en købsfaktura for fysiske varer, før du har modtaget varerne og kender de endelige omkostninger for købet, herunder eventuelle ekstra gebyrer. Ellers kan din lagerværdi og avancetal blive skævt.
-
-Varekortet kan være af typen **Lager**, **Service** og **Ikke-lager** for at angive, om varekortet repræsenterer en fysisk lagerenhed, en arbejdstidsenhed eller en fysisk enhed, der ikke opbevares på lageret. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md). Købsfakturaprocessen er den samme for alle tre varetyper.
-
-> [!NOTE]
-> Du kan også købe eksterne ressourcer med købslinjetypen **Ressource**, f.eks. for at fakturere en kreditor for udført arbejde. Der er flere oplysninger i [Konfigurere ressourcer](projects-how-setup-resources.md).
->
-> Hvis du vil bruge en købt ressource, skal du muligvis angive ressourcens kapacitet og knytte den til en sag manuelt. Når en ressource købes, oprettes en ressourcepost, men ressourceposternes antal og værdi spores ikke, ligesom det f.eks. er tilfældet med varer. Hvis antal og værdi skal spores, skal du overveje at bruge andre typer linjeelementer.
-
-Du kan udfylde kreditorfelter i købsfakturaen på to måder, afhængigt af om debitoren er registreret.
-<br><br>  
-
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
 ### <a name="to-create-a-purchase-invoice"></a>Sådan oprettes en købsfaktura
 
@@ -56,12 +41,9 @@ Følgende afsnit handler om, hvordan du opretter en købsfaktura. Fremgangsmåde
 
     1. I feltet **Kreditor** skal du indtaste navnet på den nye kreditor.
     2. I dialogboksen, hvor du registrerer den nye kreditor, skal du trykke på knappen **Ja**.
-    3. På siden **Vælg en skabelon til en ny kreditor** skal du vælge en skabelon, som det nye kreditorkort skal baseres på, og derefter vælge knappen **OK**.
-    4. Et nyt kreditorkort åbnes, udfyldt med oplysninger om den valgte kreditorskabelon. Feltet **Navn** udfyldes på forhånd med den nye kreditors navn, som du har angivet på købsfakturaen.
-    5. Fortsæt med at udfylde resten af felterne på kreditorkortet. Du kan finde flere oplysninger i [Registrere nye kreditorer](purchasing-how-register-new-vendors.md).  
-    6. Når du er færdig med kreditorkortet, skal du vælge **OK** for at vende tilbage til siden **Købsfaktura**.
+    3. Du kan finde flere oplysninger om, hvordan du udfylder kreditorkortet, i [registrere nye kreditorer](purchasing-how-register-new-vendors.md).  
+    4. Når du er færdig med kreditorkortet, skal du vælge **OK** for at vende tilbage til siden **Købsfaktura**.
 
-    Flere felter på siden **Købsfaktura** udfyldes med de oplysninger, som du angav på det nye kreditorkort.
 3. Udfylde de resterende felter efter behov på siden **Købsfaktura**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     Du er nu klar til at udfylde købsfakturalinjerne med varer eller ressourcer, som du har købt af kreditoren.
@@ -71,19 +53,11 @@ Følgende afsnit handler om, hvordan du opretter en købsfaktura. Fremgangsmåde
 4. I oversigtspanelet **Linjer** skal du i feltet **Varenr.** indsætte nummeret på en vare eller en service.
 5. Angiv antal varer, der skal købes, i feltet **Antal**.
 
-    > [!NOTE]  
-    > For varen af typen **Tjeneste** og for linjer af typen **Ressource** er antallet en tidsenhed, f.eks. timer, som angivet i feltet **Enhedskode** på linjen.
-
     Feltet **Linjebeløb** opdateres, så det viser værdien i feltet **Købspris** ganget med værdien i feltet **Antal**.
 
     Prisen og linjebeløbet vises med eller uden moms, afhængigt af hvad du har valgt i feltet **Priser inkl. moms** på kreditorkortet.
 
     Totalfelterne under linjerne opdateres automatisk, når du opretter eller redigerer linjer for at få vist de beløb, der skal bogføres i finansposterne.
-
-    > [!NOTE]
-    > I sjældne tilfælde kan de bogførte beløb afvige fra det, der er vist i totalfelterne. Dette skyldes typisk afrundingsberegninger i relation til moms.
-    >
-    > Hvis du vil kontrollere de beløb, der faktisk bogføres, kan du bruge siden **Statistik**, som tager højde for afrundingsberegningerne. Hvis du vælger handlingen **Frigiv**, opdateres totalfelterne, så de omfatter afrundingsberegninger.
 
 6. I feltet **Fakturarabatbeløb** skal du indtaste et beløb, der trækkes fra den værdi, der vises i feltet **I alt inkl. moms** nederst i fakturaen.
 
@@ -92,6 +66,28 @@ Følgende afsnit handler om, hvordan du opretter en købsfaktura. Fremgangsmåde
 7. Når du modtager de købte varer eller servicer, skal du vælge **Bogfør**.
 
 Købet afspejles nu i lagerposter, ressourceposter og finansposter, og kreditorbetalingen aktiveres. Købsfakturaen fjernes fra listen over købsfakturaer og erstattes med et nyt bilag i oversigten over bogførte købsfakturaer.  
+
+> [!NOTE]
+> I sjældne tilfælde kan de bogførte beløb afvige fra det, der er vist i totalfelterne. Dette skyldes typisk afrundingsberegninger i relation til moms.
+>
+> Hvis du vil kontrollere de beløb, der faktisk bogføres, kan du bruge siden **Statistik**, som tager højde for afrundingsberegningerne. Hvis du vælger handlingen **Frigiv**, opdateres totalfelterne, så de omfatter afrundingsberegninger.
+
+## <a name="when-to-use-purchase-orders"></a>Hvornår skal købsordrer bruges?
+
+Du skal bruge købsordrer, hvis din købsproces kræver, at du kan registrere delleveringer af et ordreantal, f.eks. fordi hele antallet ikke er tilgængeligt hos leverandøren. Hvis du sælger varer ved at levere direkte fra leverandøren til kunden som en direkte levering, skal du også bruge købsordrer. Du kan finde flere oplysninger i [Foretage direkte leveringer](sales-how-drop-shipment.md). I alle andre henseender fungerer købsordrer på samme måde som købsfakturaer. Følgende procedure er baseret på en købsfaktura. Fremgangsmåden er den samme for en købsordre.
+
+<br><br>
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
+
+## <a name="selling-non-inventory-items"></a>Sælge varer, der ikke er lagervarer
+
+Varerne på en købsfaktura kan være af typen **Lager**, **Service**, **Ressource** og **Ikke-lager** for at angive, om varekortet repræsenterer en fysisk lagerenhed, en arbejdstidsenhed eller en fysisk enhed, der ikke opbevares på lageret. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md). Købsfakturaprocessen er den samme for alle tre varetyper.
+
+> [!NOTE]
+> Du kan også købe eksterne ressourcer med købslinjetypen **Ressource**, f.eks. for at fakturere en kreditor for udført arbejde. Der er flere oplysninger i [Konfigurere ressourcer](projects-how-setup-resources.md).
+>
+> Hvis du vil bruge en købt ressource, skal du muligvis angive ressourcens kapacitet og knytte den til en sag manuelt. Når en ressource købes, oprettes en ressourcepost, men ressourceposternes antal og værdi spores ikke, ligesom det f.eks. er tilfældet med varer. Hvis antal og værdi skal spores, skal du overveje at bruge andre typer linjeelementer.
 
 ## <a name="posted-invoices"></a>Bogførte fakturaer
 

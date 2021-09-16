@@ -91,6 +91,7 @@
 ### [Udvidelse af din prøveversion](admin-extend-trial.md)
 ### [Opsig eller fjern Business Central](admin-cancel.md)
 ## Køb
+### [Introduktion til et abonnement](across-preview.md#getting-started-with-a-subscription)
 ### [Blive køreklar](ui-get-ready-business.md)
 
 <!--setup-->
@@ -649,9 +650,10 @@
 ### [Vise varedisponering](inventory-how-availability-overview.md)
 ### [Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md)
 ### [Reservere varer](inventory-how-to-reserve-items.md)
+### [Konfigurere varesporing med serie-, lot- og pakkenumre](inventory-how-setup-item-tracking.md)
 ### [Spore varer med serie-, lot- og pakkenumre](inventory-how-work-item-tracking.md)
-### [Bruge varereferencer](inventory-how-use-item-cross-refs.md)
 ### [Spore vare via varesporing](inventory-how-to-trace-item-tracked-items.md)
+### [Bruge varereferencer](inventory-how-use-item-cross-refs.md)
 ### [Spærre for varer](inventory-how-block-items.md)
 ### [Arbejde med ansvarscentre](inventory-responsibility-centers.md)
 

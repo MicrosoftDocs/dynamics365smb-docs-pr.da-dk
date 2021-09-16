@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/27/2021
+ms.date: 08/19/2021
 ms.author: edupont
-ms.openlocfilehash: 2a3d35672905094e714f85ac4758cbf39ec88cb6
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
+ms.openlocfilehash: 3dcda7f44797f52e50babe4dbec90e3b2be6f19d
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688297"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440724"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Designoplysninger: Bogføringsdato på post med reguleringsværdi  
 
@@ -94,7 +94,7 @@ Den først tilladte bogføringsdato er den første dag i den første åbne perio
 |Registrer tid:       |         |
 |Lokalt adresseformat:|   Postnr.      |  
 
- Første tilladte bogføringsdato er den dato, der er angivet i feltet Tillad bogføring fra: 1. september 2020.  
+ Første tilladte bogføringsdato er den dato, der er angivet i feltet Tillad bogføring fra: 10. september 2020.  
  Hvis både lagerperioder og tilladte bogføringsdatoer i Opsætning af Finans er defineret, så er det den seneste dato af de to, der definerer det tilladte bogføringsdatointerval.  
 
  Trin 3: Tildeling af en tilladt bogføringsdato.  
@@ -164,7 +164,7 @@ Sortering: Bruger-id
 
 |Bruger-id  |Bogf. tilladt fra  | Bogf. tilladt til  |
 |---------|---------|--------|
-|<name> |  2020-09-11      |2020-09-30      |
+|BRUGERNAVN |  2020-09-10      |2020-09-30      |
 
  Hvis brugeren knyttes til et større (eller samme) tilladte bogføringsdatointerval i lagerperioden eller finansopsætningen, undgås den nævnte konflikt. Reguleringen af værdiposten med bogføringsdatoen 10. september bogføres automatisk med denne opsætning.
 

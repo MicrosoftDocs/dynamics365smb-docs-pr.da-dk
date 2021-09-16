@@ -6,19 +6,19 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: e29e3c0c4ce7b6cfc5ce3f38cd67781c377991ad
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 149f035dfd6b1abd2e00048bb1af4059e00c976f
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543041"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482166"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Administrere lager ved at slette dokumenter eller komprimere data
 
 En central rolle, f.eks. som programadministrator, skal regelmæssigt håndtere store mængder akkumulerede oversigtsdokumenter, der skal slettes eller komprimeres.  
 
 > [!TIP]
-> Du kan finde flere oplysninger om, hvordan du reducerer mængden af data, der er gemt i en database, i afsnittet om [Reduktion af data, der er gemt i Business central-databaser](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) i Developer and IT Pro Help.
+> Du kan finde flere oplysninger om, hvordan du reducerer mængden af data, der er gemt i en database, i afsnittet om [Reduktion af data, der er gemt i Business central-databaser](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) i vores Developer and IT Pro-dokumentation.
 
 ## <a name="delete-documents"></a>Slet dokumenter
 
@@ -34,7 +34,13 @@ Serviceordrer slettes ikke automatisk i programmet, men hvis det samlede antal i
 
 ## <a name="compress-data-with-date-compression"></a>Komprimer data med datokomprimering
 
-Du kan komprimere data i [!INCLUDE [prod_short](includes/prod_short.md)], så du sparer plads i databasen, hvilket i [!INCLUDE [prod_short](includes/prod_short.md)] online kan endda spare penge. Komprimeringen er baseret på datoer og fungerer ved at kombinere flere gamle poster til en ny post. Du kan kun komprimere poster fra afsluttede regnskabsår, og der indgår kun kreditorposter, hvor der står **Nej** i feltet **Åben**.  
+Du kan komprimere data i [!INCLUDE [prod_short](includes/prod_short.md)], så du sparer plads i databasen, hvilket i [!INCLUDE [prod_short](includes/prod_short.md)] online kan endda spare penge. Komprimeringen er baseret på datoer og fungerer ved at kombinere flere gamle poster til en ny post. 
+
+Du kan komprimere poster under følgende betingelser:
+
+* De er fra afsluttede regnskabsår
+* Feltet **Nej** er angivet til statussen **Åbn**. 
+* De er mindst fem år gamle. Hvis du vil komprimere data, der er mindre end fem år gamle, skal du kontakte din Microsoft-partner.
 
 Kreditorposter fra forrige regnskabsår kan f.eks. komprimeres, så der kun er én kreditpost og én debetpost pr. konto pr. måned. Beløbet i den nye post er summen af alle de komprimerede poster. Den tildelte dato er startdatoen for den komprimerede periode, typisk den første dag i måneden (hvis posterne komprimeres pr. måned). Efter komprimeringen kan du stadig se bevægelserne på hver konto i det forrige regnskabsår.
 
@@ -55,11 +61,12 @@ Når du angiver kriterier for komprimeringen, kan du bruge indstillingerne under
 
 Efter komprimeringen bevares indholdet i følgende felter altid: **Bogføringsdato**, **Kreditornr.**, **Dokumenttype**, **Valutakode**, **Bogføringsgruppe**, **Beløb**, **Resterende beløb**, **Oprindeligt beløb (LCY)**, **Resterende beløb (LCY)**, **Beløb (LCY)**, **Køb (LCY)**, **Fakturarabat (LCY)**, **Ydet kont.rabat (LCY)** og **Mulig kontantrabat**.
 
-> [!NOTE]
-> Komprimerede poster skal bogføres en smule anderledes end standard bogføring. Det er at reducere antallet af nye finansposter, der er oprettet ved datokomprimering, og det er specielt vigtigt, når du gemmer oplysninger som f.eks. dimensioner og dokumentnumre. Datokomprimering opretter nye poster på følgende måde:
->* På siden **Finansposter** oprettes nye poster med nye løbenumre for de komprimerede poster. Feltet **Beskrivelse** indeholder **Datokomprimeret**, så de komprimerede poster nemt kan identificeres. 
->* På Finanssider, f.eks. siden **Debitorposter** oprettes der en eller flere poster med nye løbenumre. 
-> Bogføringsprocessen skaber huller i nummerserien til poster på siden **Finansposter**. Disse numre tildeles kun poster på finans sider. Det nummerinterval, der er knyttet til posterne, er tilgængeligt på siden **Finansjournal** i felterne **Fra løbenr.** og **Til løbenr.** 
+## <a name="posting-compressed-entries"></a>Bogføre komprimerede poster
+Komprimerede poster skal bogføres en smule anderledes end standard bogføring. Det er at reducere antallet af nye finansposter, der er oprettet ved datokomprimering, og det er specielt vigtigt, når du gemmer oplysninger som f.eks. dimensioner og dokumentnumre. Datokomprimering opretter nye poster på følgende måde:
+* På siden **Finansposter** oprettes nye poster med nye løbenumre for de komprimerede poster. Feltet **Beskrivelse** indeholder **Datokomprimeret**, så de komprimerede poster nemt kan identificeres. 
+* På Finanssider, f.eks. siden **Debitorposter** oprettes der en eller flere poster med nye løbenumre. 
+
+Bogføringsprocessen skaber huller i nummerserien til poster på siden **Finansposter**. Disse numre tildeles kun poster på finans sider. Det nummerinterval, der er knyttet til posterne, er tilgængeligt på siden **Finansjournal** i felterne **Fra løbenr.** og **Til løbenr.** 
 
 > [!NOTE]
 > Når du har kørt datokomprimering, er alle finanskonti låst. Du kan f.eks. ikke annullere udligning af kreditor-eller bankposter for en konto i den periode, hvor datoerne er komprimeret.
@@ -67,13 +74,16 @@ Efter komprimeringen bevares indholdet i følgende felter altid: **Bogføringsda
 Antallet af poster, der kommer ud af en datokomprimeringskørsel, afhænger af, hvilke filtre du indstiller, hvilke filtre der kombineres og hvilken periodelængde, du vælger. Der vil altid være mindst én post. 
 
 > [!WARNING]
-> Ved datokomprimering slettes posterne, så du bør altid lave en sikkerhedskopi af databasen, inden du starter kørslen.
+> Datokomprimering sletter posterne, så du bør altid lave en sikkerhedskopi af databasen, inden du starter kørslen.
 
 ### <a name="to-run-a-date-compression"></a>Kør datokomprimering
 1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Dataadministration**, og vælg derefter det relaterede link.
 2. Gør ét af følgende:
-    1. Hvis du vil bruge en assisteret installationsvejledning til at oprette datokomprimering for en eller flere typer data, skal du vælge **guiden dataadministration**.
-    1. Hvis du vil angive komprimering for en enkelt datatype, skal du vælge **datokomprimering**, **Komprimer poster** og derefter vælge de data, der skal komprimeres.
+    * Hvis du vil bruge en assisteret installationsvejledning til at oprette datokomprimering for en eller flere typer data, skal du vælge **guiden dataadministration**.
+    * Hvis du vil angive komprimering for en enkelt datatype, skal du vælge **datokomprimering**, **Komprimer poster** og derefter vælge de data, der skal komprimeres.
+
+   > [!NOTE]
+   > Du kan kun komprimere data, der er mere end fem år gamle. Hvis du vil komprimere data, der er mindre end fem år gamle, skal du kontakte din Microsoft-partner.
 
 ## <a name="see-also"></a>Se også
 

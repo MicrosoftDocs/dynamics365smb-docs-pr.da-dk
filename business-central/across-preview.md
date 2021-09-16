@@ -6,14 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
-ms.date: 06/07/2021
+ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: c3d12e316e78516d355c7d1313cd37bbeedb7a29
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 06465c028c0721c5992a334400cdc975120bdeb7
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216049"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482424"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversioner og abonnementer
 
@@ -77,6 +77,11 @@ Hver gang du logger på i prøveperioden, viser en meddelelse på en blå linje 
 [!INCLUDE[prod_short](includes/prod_short.md)] onlinebruger Microsoft 365. Hvis din virksomhed bruger en anden type e-mail-opsætning, kan videresalgspartneren hjælpe dig med at beslutte, hvordan du vil overføre dataene, eller hvorvidt du bør anvende [!INCLUDE[prod_short](includes/prod_short.md)] lokalt.  
 
 Du kan også kontakte [[!INCLUDE[prod_short](includes/prod_short.md)]-salgsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
+
+> [!TIP]
+> [!INCLUDE [admin-license-trial](includes/admin-license-trial.md)]
+
+Du kan finde flere oplysninger om, hvad du kan gøre med [!INCLUDE [prod_short](includes/prod_short.md)], i afsnittet [Blive klar til at gøre forretninger](ui-get-ready-business.md) og [Forretningsfunktioner](across-business-functionality.md).  
 
 ## <a name="getting-started-with-sandboxes"></a>Introduktion til sandkasser
 

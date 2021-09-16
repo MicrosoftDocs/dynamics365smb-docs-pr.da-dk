@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: 76f93a75f9f7fd52b2495d75bffe648d53f9c844
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: b738eeef9771185c6907d963f368c462ae02f2d2
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543243"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440387"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>Salgsrapporter og analyser i Business Central
 
@@ -36,6 +36,7 @@ I følgende tabel beskrives nogle af nøglerapporterne i salgsapporter.
 |**Lagerleverancestatus**|7313|Rapporten kan bruges til alle lokationer, hvor **Påkrævede forsendelser** er aktiveret. **Lagerleverancestatus**-rapporten viser alle ikke-bogførte lagerleverancedokumenter, herunder lokationer, placeringskoder, dokument status, antal osv. Denne rapport er perfekt til at få overblik.|
 |**Plukliste (lager)**|813|Viser en oversigt over de salgsordrer, en vare indgår i. Der vises følgende oplysninger om hver vare: salgsordrelinje med debitors navn, variantkode, lokationskode, placeringskode, afsendelsesdato, antal til levering og enhed. Antallet lægges sammen for hver vare. Rapporten kan f.eks. bruges, når der skal hentes varer fra lageret.<br>**Bemærk**: Denne funktionalitet er ikke tilgængelig for avancerede lagerfunktioner.|
 |**Vare - restordrer til kunder**|718|Viser en oversigt med de ordrelinjer, hvor afsendelsesdatoen er overskredet. Der vises følgende oplysninger for de enkelte ordrer på hver vare: nummer, debitornavn, debitorens telefonnummer, afsendelsesdato, ordrestørrelse og antal i restordre. Rapporten viser også, om kunden har andre varer i restordre.|
+|**Varer i salgsordrer**|708|Viser en liste over, hvilke ordrer der endnu ikke er leveret, og hvilke varer der indgår i ordren. Den viser ordrenummer, debitors navn, afsendelsesdato, ordrestørrelse, forsinket mængde, restordreantal, pris samt eventuel rabatprocent og beløb. Ikke leveret antal, restordreantal og beløb lægges sammen for hver vare. Brug rapporten til at vise, om der er aktuelle eller kommende leveringsproblemer.|
 
 
 

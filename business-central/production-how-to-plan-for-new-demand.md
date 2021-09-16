@@ -1,21 +1,20 @@
 ---
-title: 'Fremgangsmåde: Planlægge ordre for ordre'
-description: Denne planlægningsopgave kan udføres på siden Ordreplanlægning, hvor alle nye behov vises sammen med tilgængelighedsoplysninger og forsyningsforslag.
+title: Planlægge efter nyt behov ordre for ordre
+description: Denne planlægningsopgave kan udføres på siden Ordreplanlægning, hvor alle nye behov vises sammen med tilgængelighedsoplysninger og forsyningsforslag, herunder vareerstatning.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/22/2021
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 5a3481f1f1b1c08fd3006d1d62b92387414f0d41
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 63277d695f373c1914e55530a12cb921c8b6cc4f
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444226"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440713"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Planlægge efter nyt behov ordre for ordre
 Denne planlægningsopgave kan udføres på siden **Ordreplanlægning**, hvor alle nye behov vises sammen med tilgængelighedsoplysninger og forsyningsforslag. Vinduet giver det fornødne overblik og de nødvendige værktøjer til at planlægge behovet effektivt ud fra salgslinjer og komponentlinjer og derefter direkte oprette forskellige typer af forsyningsordrer.  
@@ -67,6 +66,9 @@ Der vises planlægningslinjer på siden i overensstemmelse med filteret **Produk
 
     Hvis der findes en erstatning for den ønskede vare, er feltet **Erstatning findes** nederst i vinduet indstillet til **Ja**, og du kan derefter slå op på siden **Erstatningsvareposter** og vælge en erstatningsvare.  
 
+    > [!NOTE]  
+    > Vær opmærksom på, at erstatningsvarer ikke automatisk medfører, at en vare erstattes af en anden vare, f. eks. når der oprettes en salgsordre eller en stykliste. I stedet bliver du advaret om, at der er en erstatningsvare tilgængelig.
+
 7.  Marker feltet **Reserver**, hvis der skal foretages en reservation mellem den forsyningsordre, du opretter, og den behovslinje, som den oprettes til. Feltet er som standard tomt.  
 
     > [!NOTE]  
@@ -117,7 +119,7 @@ Når du er færdig med planlægningsarbejdet på siden **Ordreplanlægning**, og
 [Køb](purchasing-manage-purchasing.md)  
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
 [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Registrere nye varer](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

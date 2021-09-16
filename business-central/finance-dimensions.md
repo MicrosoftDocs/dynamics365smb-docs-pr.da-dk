@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track, business intelligence
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ddcb3b3074a33fa279aa9a7cc0b04e5b5904fbac
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 982f61396f1d49eeaa688d580801c14ac9c33ccb
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444683"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482218"
 ---
 # <a name="working-with-dimensions"></a>Arbejde med dimensioner
 Dimensioner er værdier, der kategoriserer poster, så du kan spore og analysere dem i dokumenter som f.eks. salgsordrer. Dimensioner kan f.eks. angive det projekt eller den afdeling, en post kommer fra.  
@@ -53,6 +53,9 @@ Når dimensioner og værdier konfigureres, kan du definere globale dimensioner o
 
 * **Globale dimensioner** bruges som filtre, f.eks. i rapporter, kørsler og XMLporte. Du kan kun bruge to globale dimensioner, så vælg dimensioner, du bruger ofte.
 * **Genvejsdimensioner** er tilgængelige som felter på kladde- og dokumentlinjer og ældre poster. Du kan oprette op til otte af disse.  
+
+> [!NOTE]
+> Når du har brugt en ny dimension i en post, f. eks. en linje eller en ny post, kan du ikke slette dimensionen, selvom du ikke bogfører posten. Det skyldes, at [!INCLUDE[prod_short](includes/prod_short.md)] med det samme opretter en dimensionsopsætning til linjen eller posten. Du kan finde flere oplysninger under [Indstillinger af dimensioner](finance-dimensions.md#dimension-sets).
 
 ### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Sådan konfigureres standarddimensioner for kunder, leverandører og andre konti
 Du kan tildele en standarddimension for en specifik konto. Dimensionen kopieres til kladden eller dokumentet, når du angiver kontonummeret på en linje, men du kan slette og ændre koden på linjen, hvis det er relevant. Du kan også oprette en dimension, der kræves til bogføring af en post med en bestemt type konto.  

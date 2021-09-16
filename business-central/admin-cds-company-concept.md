@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: CDS, , integration, sync
+ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: abeab28a87c395328accfd850a0753649515f8dc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a99ddb6153c65ab16be53b7027833de14dc4884d
+ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773332"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7482191"
 ---
 # <a name="data-ownership-models"></a>Modeller for ejerskab af data
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -39,11 +39,11 @@ Følgende billede viser et eksempel på dataopsætning i [!INCLUDE[prod_short](i
 
 ![Rodafdelingen er øverst, er grupperne er i midten, og derefter er virksomhederne nederst.](media/cds_bu_team_company.png)
 
-I denne konfiguration ejes poster, der er relateret til virksomheden Cronus US, af en gruppe, der er knyttet til Cronus US-<ID>afdelingen i [!INCLUDE[prod_short](includes/cds_long_md.md)]. Brugere, som kan få adgang til denne afdeling via en sikkerhedsrolle, der er indstillet til at vise synlighed på forretningsniveau i [!INCLUDE[prod_short](includes/cds_long_md.md)], kan nu se disse poster. Følgende eksempel viser, hvordan du kan bruge teams til at give adgang til disse poster.
+I denne konfiguration ejes poster, der er relateret til virksomheden Cronus US, af en gruppe, der er knyttet til Cronus US-afdelingen i [!INCLUDE[prod_short](includes/cds_long_md.md)]. Brugere, som kan få adgang til denne afdeling via en sikkerhedsrolle, der er indstillet til at vise synlighed på forretningsniveau i [!INCLUDE[prod_short](includes/cds_long_md.md)], kan nu se disse poster. Følgende eksempel viser, hvordan du kan bruge teams til at give adgang til disse poster.
 
 * Rollen Salgschef tildeles til medlemmer af Cronus US-salgsteamet.
 * Brugere med rollen Salgschef kan få adgang til kontoposter for medlemmer af samme afdeling.
-* Cronus US-salgsgruppen er kædet sammen med den Cronus US-afdeling, der er nævnt tidligere. Medlemmer af Cronus US-salgsteamet kan se alle de virksomheder, der tilhører Cronus US<ID>-brugeren, som ville være kommet fra Cronus US-tabelen i [!INCLUDE[prod_short](includes/prod_short.md)].
+* Cronus US-salgsgruppen er kædet sammen med den Cronus US-afdeling, der er nævnt tidligere. Medlemmer af Cronus US-salgsteamet kan se alle de virksomheder, der tilhører Cronus US-brugeren, som ville være kommet fra Cronus US-tabelen i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Men 1:1-tilknytningen mellem afdelingen, virksomheden og teamet er kun udgangspunktet som vist på følgende billede.
 
@@ -51,7 +51,7 @@ Men 1:1-tilknytningen mellem afdelingen, virksomheden og teamet er kun udgangspu
 
 I dette eksempel oprettes der en ny rod for en EUR-afdeling (Europa) i [!INCLUDE[prod_short](includes/cds_long_md.md)] som overordnet for både Cronus DE (Tyskland) og Cronus ES (Spanien). EUR-afdelingen er ikke relateret til synkronisering. Den kan dog give medlemmer af EUR-salgsteamet adgang til kontodata i både Cronus DE og Cronus ES ved at angive datasynligheden for **Overordnet/underordnet afdeling** på den tilknyttede sikkerhedsrolle i [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-Synkroniseringen bestemmer, hvilket team der skal eje regnskaber. Dette styres af feltet **Standard-ejerteam** i BCI - <ID>-rækken. Når en BCI- <ID>-post er aktiveret til synkronisering, opretter vi automatisk den tilknyttede afdeling og ejerens team (hvis det ikke allerede findes) og udfylder feltet **Standard-ejerteam**. Når synkronisering er aktiveret for en tabel, kan administratorer ændre ejerteamet, men der skal altid tildeles et team.
+Synkroniseringen bestemmer, hvilket team der skal eje regnskaber. Dette styres af feltet **Standard-ejerteam** i BCI-rækken. Når en BCI-post er aktiveret til synkronisering, opretter vi automatisk den tilknyttede afdeling og ejerens team (hvis det ikke allerede findes) og udfylder feltet **Standard-ejerteam**. Når synkronisering er aktiveret for en tabel, kan administratorer ændre ejerteamet, men der skal altid tildeles et team.
 
 > [!NOTE]
 > Posterne bliver skrivebeskyttet, når en virksomhed er blevet tilføjet og gemt. Derfor skal du sørge for at vælge den rigtige virksomhed.
