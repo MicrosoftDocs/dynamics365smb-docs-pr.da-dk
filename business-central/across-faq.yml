@@ -6,14 +6,14 @@ metadata:
   ms.service: dynamics365-business-central
   ms.topic: conceptual
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
-  ms.date: 08/24/2021
+  ms.date: 09/29/2021
   ms.author: edupont
-  ms.openlocfilehash: 3cc1b5fc394d63cd3741337263eafecdfa878fbb
-  ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+  ms.openlocfilehash: 53f4a87fea747b59bed7942885b1374377381029
+  ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
   ms.translationtype: HT
   ms.contentlocale: da-DK
-  ms.lasthandoff: 08/27/2021
-  ms.locfileid: "7440687"
+  ms.lasthandoff: 10/01/2021
+  ms.locfileid: "7588106"
 title: Ofte stillede spørgsmål om brugen af Business Central
 summary: "Dette afsnit indeholder svar på ofte stillede spørgsmål om tilmelding til og brug af en prøveversion, køb af abonnement og brug af [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan også lære, hvordan du får teknisk support.  \n"
 sections:
@@ -27,7 +27,7 @@ sections:
     answer: "Du kan tilmelde dig en gratis prøveversion, så du kan danne dig et indtryk af [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Hvis du vil have mere tid til at udforske programmet, [kan du udvide prøveperioden](#can-i-extend-my-30-day--new-company--trial-period-).  \n\nSådan kan du få hjælp til at blive klar til at foretage handler i [!INCLUDE[prod_short](includes/prod_short.md)] ved at starte assisterede opsætningsvejledninger, videoer eller emner i Hjælp for valgte opsætningsopgaver. Du kan finde flere oplysninger i [Blive klar til at handle](ui-get-ready-business.md).  \n\nNår du er klar til at købe [!INCLUDE[prod_short](includes/prod_short.md)], kan du finde en [!INCLUDE[prod_short](includes/prod_short.md)]-partner på siden [Jeg søger efter en løsningsudbyder](https://go.microsoft.com/fwlink/?linkid=2038145). Du kan finde flere oplysninger i [Hvordan finder jeg en videresalgspartner?](#how-do-i-find-a-reselling-partner).  \n"
   - question: >
       Hvad skal jeg gøre, hvis jeg har spørgsmål?
-    answer: "Hvis du har spørgsmål om [!INCLUDE[prod_short](includes/prod_short.md)], som du ikke kan finde et svar på i denne dokumentation, kan du spørge Business Central-community. Du kan finde flere oplysninger i [Dynamics 365 Business Central Community](https://community.dynamics.com/business).  \n\nFra community-startsiden kan du også finde links til vores blogs, hvor du kan også finde tip og trick. Du kan finde flere oplysninger i [Microsoft Dynamics 365 Business Central på Dynamics 365-](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) bloggen og den ældre [Dynamics 365 Business Central blog](https://community.dynamics.com/business/b/financials).  \n\nEndelig kan du kontakte din [!INCLUDE[prod_short](includes/prod_short.md)]-videresalgspartner. Du kan finde flere oplysninger i afsnittene [Hvordan kan jeg få teknisk support?](/dynamics365/business-central/across-faq#hdigetsupport) og [Hvordan finder jeg en videresalgspartner?](#how-do-i-find-a-reselling-partner).  \n"
+    answer: "Hvis du har spørgsmål om [!INCLUDE[prod_short](includes/prod_short.md)], som du ikke kan finde et svar på i denne dokumentation, kan du spørge Business Central-community. Du kan finde flere oplysninger i [Dynamics 365 Business Central Community](https://community.dynamics.com/business).  \n\nFra community-startsiden kan du også finde links til vores blogs, hvor du kan også finde tip og trick. Du kan finde flere oplysninger i [Microsoft Dynamics 365 Business Central på Dynamics 365-](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/) bloggen og den ældre [Dynamics 365 Business Central blog](https://community.dynamics.com/business/b/financials).  \n\nEndelig kan du kontakte din [!INCLUDE[prod_short](includes/prod_short.md)]-videresalgspartner. Du kan finde flere oplysninger i afsnittene [Hvordan kan jeg få teknisk support?](/dynamics365/business-central/across-faq#how-do-i-get-technical-support-for-business-central) og [Hvordan finder jeg en videresalgspartner?](#how-do-i-find-a-reselling-partner).  \n"
   - question: >
       Hvorfor kan jeg ikke finde denne funktionalitet i min Business Central?
     answer: "Har du læst om en ny funktionalitet i frigivelsesplanen eller på vores blog for nylig? I så fald er dine [!INCLUDE[prod_short](includes/prod_short.md)] muligvis ikke blevet opgraderet til den seneste version endnu. Du kan kontrollere, hvilken version dit [!INCLUDE[prod_short](includes/prod_short.md)] er baseret på, på siden [Hjælp og support](product-help-and-support.md).  \n\nDette gælder for [!INCLUDE [prod_short](includes/prod_short.md)] online og on-premises.  \n\nHvis funktionaliteten er udgivet som en udvidelse i AppSource, er der desuden en forsinkelse mellem den udvidelse, der annonceres, og dens tilgængelighed på AppSource. Dette gælder kun for [!INCLUDE [prod_short](includes/prod_short.md)] online.  \n"

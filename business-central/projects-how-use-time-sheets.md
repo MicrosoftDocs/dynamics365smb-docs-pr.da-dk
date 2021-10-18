@@ -1,5 +1,5 @@
 ---
-title: Arbejde med timesedler for sager
+title: Bruge timesedler for projekter
 description: Beskriver, hvordan du opretter en timeseddel for en sag, kopierer planlægningslinjer til den, angive arbejdstyper, udfylde timesedlen og sender den til godkendelse.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +10,14 @@ ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.date: 08/24/2021
 ms.author: edupont
-ms.openlocfilehash: 02d9536b27290ef27e5954ad6ea9004094e5cfe2
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3e29d1b745c27f7d6e5f0e8d9e444d70b2218b10
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440637"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588828"
 ---
-# <a name="use-time-sheets-for-jobs"></a>Bruge timesedler for sager
+# <a name="use-time-sheets-for-projects"></a>Bruge timesedler for projekter
 
 Du bruger kørslen **Opret timesedler** til at oprette timesedler for et angivet antal tidsperioder eller uger. Du skal have tilladelser for at kunne oprette timesedler.
 
@@ -25,9 +25,12 @@ Du kan kopiere og bruge dine sagsplanlægningslinjer i en timeseddel. På denne 
 
 Når du har godkendt timeseddelposter for en sag, kan du bogføre dem i den relevante sagskladde eller ressourcekladde.
 
-Før du kan bruge timesedler, skal du angive generelle oplysninger og angive en administrator og en eller flere godkendere af timesedler. Der er flere oplysninger i [Konfigurere timesedler](projects-how-setup-time-sheets.md).
+Før du kan bruge timesedler, skal du angive generelle oplysninger og angive en administrator og en eller flere godkendere af timesedler. Der er flere oplysninger i [Konfigurere timesedler](projects-how-setup-time-sheets.md).  
 
-## <a name="to-create-a-time-sheet"></a>Sådan opretter du en timeseddel
+> [!TIP]
+> Fra 2021 udgivelsesbølge 2 kan du administrere tildelte timesedler på en mobil enhed. Din administrator skal evt. aktivere **Funktionsopdatering: ny funktion til visning af timesedler** på siden [Funktionsstyring](https://businesscentral.dynamics.com/?page=2610) for at bruge denne funktion. Der er flere oplysninger i [Konfigurere timesedler](projects-how-setup-time-sheets.md).
+
+## <a name="to-create-time-sheets"></a>Sådan opretter du timesedler
 
 Du kan bruge kørslen **Opret timesedler** til at oprette timesedler for et angivet antal tidsperioder eller uger. Derefter kan timesedlens ejer åbne den og registrere tid, der har været brugt på en opgave.
 

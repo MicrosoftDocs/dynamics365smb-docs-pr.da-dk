@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0ed9b58b9ceec962d7f55ef5687ac36e11fbd681
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7f6f79ba1f8005363204f48c5ea9b91073b517f7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446361"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588672"
 ---
 # <a name="setting-up-cost-accounting"></a>Konfigurere omkostningsregnskab
 Før du begynder at arbejde med omkostningsregnskab, skal du udføre opsætningsopgaver.
@@ -36,7 +36,7 @@ Diagrammet over omkostningstyper ligner kontoplanen i finansregnskabet. Du kan a
 -   Opret et nyt diagram over omkostningstyper, eller tilføj nye omkostningstyper til det eksisterende diagram over omkostningstyper. Du skal oprette hver ny omkostningstype individuelt.  
 
 ### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Sådan overføres finanskontoplanen til diagrammet over omkostningstyper  
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Omkostningstyper**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Omkostningstyper**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Hent omkostningstyper fra kontoplan**. I dialogboksen skal du trykke på knappen **Ja** for at bekræfte overførslen. Funktionen bruger kontoplanen til at oprette et diagram over omkostningstyper  
 
     Diagrammet over omkostningstyper indeholder nu alle resultatopgørelseskonti i regnskabet og omfatter overskrifter og subtotaler. Du kan ændre diagrammet over omkostningstyper, hvis det er nødvendigt. For eksempel kan du slette dobbelte omkostningstyper.  
@@ -80,8 +80,8 @@ Der er et n:1 forhold mellem finanskonti og pristyper. Flere finanskonti kan til
 |------------------|------------------------------------------------|-------------------------------------------|  
 |En finanskonto for hver pristype|Én finanskonto|En pristype|  
 |Flere finanskonti for en pristype|Finanskontointerval, f.eks. 7110..7193, for finanskonto|For hver finanskonto i området er det kun én pristype|  
-|Pristyper uden tilsvarende finanskonti|<Empty>||  
-|Finanskonti, hvis poster ikke bliver overført||<Empty>|  
+|Pristyper uden tilsvarende finanskonti|\<Empty\>||  
+|Finanskonti, hvis poster ikke bliver overført||\<Empty\>|  
 
 ### <a name="cost-types-without-a-relationship-to-the-general-ledger"></a>Pristyper uden relation til finanskontoen  
 En pristype kan ikke have en relation til finanskonti, hvis en af følgende betingelser er opfyldt:  
@@ -98,7 +98,7 @@ Omkostningssteder er afdelinger, der er ansvarlige for omkostninger og indtægte
 
 ### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Sådan overføres dimensionsværdier i regnskabet til diagrammet over omkostningssteder.  
 1.  Angiv en dimension, der skal være omkostningsstedsdimensionen på siden **Opdater CA-dimensioner**. Kun værdierne fra denne dimension overføres.  
-2.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Diagram over omkostningssteder**, og vælg derefter det relaterede link.  
+2.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig 2.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Diagram over omkostningssteder**, og vælg derefter det relaterede link.  
 3.  På fanen **Handlinger** i gruppen **Funktioner** skal du vælge **Hent omkostningssteder fra dimensionen** for at overføre dimensionsværdier til diagrammet over omkostningssteder. Funktionen overfører de dimensionsværdier, som du definerede i trin 1.  
 
     > [!NOTE]  
@@ -131,7 +131,7 @@ Omkostningsobjekter er en virksomheds projekter, produkter eller tjenester. Diag
 
 ### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Sådan overføres dimensionsværdier fra regnskabet til diagrammet over omkostningsobjekter.  
 1.  Angiv en dimension, der skal være omkostningsobjektdimensionen på siden **Opdater CA-dimensioner**. Kun værdierne fra denne dimension overføres.  
-2.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Diagram over omkostningsemner**, og vælg derefter det relaterede link.  
+2.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig 3.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Diagram over omkostningsemner**, og vælg derefter det relaterede link.  
 3.  Vælg handlingen **Hent omkostningsemner fra dimensionen** for at overføre dimensionsværdier til diagrammet over omkostningsemner. Funktionen overfører de dimensionsværdier, som du definerede i trin 1.  
 
     > [!NOTE]  

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6ec88aa72ba5498a72ffe8c7ae30983657677005
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438923"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588247"
 ---
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
 
@@ -89,22 +89,22 @@ I følgende tabel beskrives de tastaturgenveje, som du kan bruge på en listesid
 
 Der findes gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prod_short](includes/prod_short.md)], f.eks. listesider og dele af **Linjer** i dokumenter. Flytning fra én celle til en anden på tværs af et gitter er muligt med tastaturet.
 
-|Tryk på disse taster<br />(i macOS)|For at gøre følgende i en listevisning |For at gøre følgende i en feltvisning |
-|--------------------------------|--------------------------|--------------------------|
-|Ctrl+Home<br />(Fn+Ctrl+venstre pil)|Markere den første række på listen. Fokus forbliver i den samme kolonne.|Flytte til det første felt i den første række. |
-|Ctrl+End<br />(Fn+Ctrl+højre pil)|Markere den sidste række på listen. Fokus forbliver i den samme kolonne.|Flytte til det sidste felt i den sidste række.|
-|Home<br />(Fn+venstre pil)|Flytte til det første felt i en række.|Flytte til det første felt i en række.|
-|End<br />(Fn+højre pil)|Flytte til det sidste felt i rækken.|Flytte til det sidste felt i en række.|
-|Enter|Åbne den record, som er knyttet til feltet.<br /><br />Kun er relevant, hvis der er knyttet en kortside til posten.|Åbne posten.<br /><br />Er kun relevant, hvis der er knyttet en kortside til posten.|
-|Ctrl+Enter|Flytte fokus til det næste element uden for listen.|Flytte fokus til det næste element uden for listen.|
-|Page Up<br />(Fn + Pil op)|Rulle for at vise rækkesættene over de aktuelle rækker i visningen. |Rulle for at vise feltsættet over de aktuelle felter i visningen. |
-|Page Down<br />(Fn + pil ned)|Rulle for at vise rækkesættene under de aktuelle rækker i visningen.|Rulle for at vise feltsættet under de aktuelle felter i visningen.|
-|Pil ned|Flytte i den samme kolonne til feltet i rækken nedenfor. |Flytte i den samme kolonne til feltet i rækken nedenfor. |
-|Pil op|Flytte i den samme kolonne til feltet i rækken ovenover.| Flytte i den samme kolonne til feltet i rækken ovenover.  |
-|Højrepil|På en skrivebeskyttet liste skal du i den samme række flytte til det næste felt til højre.<br /><br />På en redigerbar liste skal du flytte til højre i det aktuelle felt.| Flytte i den samme række til det næste felt til højre. |
-|Venstre pil|På en skrivebeskyttet liste skal du i den samme række flytte til det forrige felt til venstre. <br /><br />På en redigerbar liste skal du flytte til venstre i det aktuelle felt.| Flyt i den samme række til det forrige felt til venstre. |
-|Tab|På en redigerbar liste skal du i den samme række flytte til det næste felt til højre.|Ikke tilgængelig.||
-|Skift+Tab|På en redigerbar liste skal du i den samme række flytte til det forrige felt til venstre. | Ikke tilgængelig. |
+| Tryk på disse taster<br />(i macOS) | For at gøre følgende i en listevisning | For at gøre følgende i en feltvisning |
+|--|--|--|
+| Ctrl+Home<br />(Fn+Ctrl+venstre pil) | Markere den første række på listen. Fokus forbliver i den samme kolonne. | Flytte til det første felt i den første række. |
+| Ctrl+End<br />(Fn+Ctrl+højre pil) | Markere den sidste række på listen. Fokus forbliver i den samme kolonne. | Flytte til det sidste felt i den sidste række. |
+| Home<br />(Fn+venstre pil) | Flytte til det første felt i en række. | Flytte til det første felt i en række. |
+| End<br />(Fn+højre pil) | Flytte til det sidste felt i rækken. | Flytte til det sidste felt i en række. |
+| Enter | Åbne den record, som er knyttet til feltet.<br /><br />Kun er relevant, hvis der er knyttet en kortside til posten. | Åbne posten.<br /><br />Er kun relevant, hvis der er knyttet en kortside til posten. |
+| Ctrl+Enter | Flytte fokus til det næste element uden for listen. | Flytte fokus til det næste element uden for listen. |
+| Page Up<br />(Fn + Pil op) | Rulle for at vise rækkesættene over de aktuelle rækker i visningen. | Rulle for at vise feltsættet over de aktuelle felter i visningen. |
+| Page Down<br />(Fn + pil ned) | Rulle for at vise rækkesættene under de aktuelle rækker i visningen. | Rulle for at vise feltsættet under de aktuelle felter i visningen. |
+| Pil ned | Flytte i den samme kolonne til feltet i rækken nedenfor. | Flytte i den samme kolonne til feltet i rækken nedenfor. |
+| Pil op | Flytte i den samme kolonne til feltet i rækken ovenover. | Flytte i den samme kolonne til feltet i rækken ovenover. |
+| Højrepil | På en skrivebeskyttet liste skal du i den samme række flytte til det næste felt til højre.<br /><br />På en redigerbar liste skal du flytte til højre i det aktuelle felt. | Flytte i den samme række til det næste felt til højre. |
+| Venstre pil | På en skrivebeskyttet liste skal du i den samme række flytte til det forrige felt til venstre. <br /><br />På en redigerbar liste skal du flytte til venstre i det aktuelle felt. | Flyt i den samme række til det forrige felt til venstre. |
+| Tab | På en redigerbar liste skal du i den samme række flytte til det næste felt til højre. | Ikke tilgængelig. |  |
+| Skift+Tab | På en redigerbar liste skal du i den samme række flytte til det forrige felt til venstre. | Ikke tilgængelig. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Markere, kopiere og indsætte
 

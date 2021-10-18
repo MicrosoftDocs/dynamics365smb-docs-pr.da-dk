@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: write down
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 5ef67d3720ea83ead055e9ed2f9e83310c75ac16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3d1372425b15ee8b7b63efd64513c131cb1f1f9b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442256"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588297"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Afskrive på eller amortisere anlægsaktiver
 Afskrivning bruges til at allokere prisen for et anlægsaktiv, f.eks. maskiner og udstyr, over anlæggets afskrivningslevetid. For hvert anlæg skal du definere, hvordan det skal afskrives.  
@@ -48,7 +48,10 @@ Du kan når som helst, f.eks. en gang om måneden, udføre kørslen **Beregn afs
 5. Vælg handlingen **Bogfør**.  
 
 > [!NOTE]
-> Hvis du vælger **Brug tvungent antal dage**-feltet, og feltet **Tvungent antal dage** er indstillet til en værdi, der medfører, at værdien i feltet **Antal dage** er en dato i det forrige kalenderår, men du kan ikke bogføre afskrivningen. Du kan løse problemet ved at reducere værdien af felterne **Tvungent antal dage** til ikke mere end de dage, der er beregnet til bogføringsdatoen, med 30 dage pr. måned, eller vælg feltet **Regnskabsår 365 dage** på afskrivningsprofilen. Vi anbefaler den første indstilling, da du måske ikke vil ændre brugen af 30 dage/måneder til afskrivning. Du kan finde flere oplysninger i [regnskabsåret 365 dage afskrivning](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+> Kendt begrænsning: Hvis du angiver **Brug tvungent antal dage**-feltet, og feltet **Tvungent antal dage** er indstillet til en værdi, hvor **Bogføringsdato** minus **Antal dage** resulterer i en dato i det forrige kalenderår, lader systemet dig ikke bogføre afskrivningen.
+> Du kan undgå dette ved at reducere værdien af felterne **Tvungent antal dage** til ikke mere end de dage, der er beregnet til bogføringsdatoen, med 30 dage pr. måned ELLER vælge feltet **Regnskabsår 365 dage** på afskrivningsprofilen.
+> Vi anbefaler den første indstilling, da du måske ikke vil ændre brugen af 30 dage/måneder til afskrivning. Du kan finde flere oplysninger i [regnskabsåret 365 dage afskrivning](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
+
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Sådan bogføres afskrivning manuelt fra anlægskassekladden
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægskassekladde**, og vælg derefter det relaterede link.  

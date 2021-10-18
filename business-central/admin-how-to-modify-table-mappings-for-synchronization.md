@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 185d0a1c55830f6e4ed979154744076d457b5724
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 44729a82d50a925d9ad904f8035dd49daee24262
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446386"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588697"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Tilknytning af tabeller og felter til synkronisering
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -49,6 +49,8 @@ Tilknytningstabeller er kun det første trin. Du skal også tilknytte felterne i
 
 > [!Note]
 > Hvis du bruger en lokal version af [!INCLUDE[prod_short](includes/prod_short.md)], defineres integrationsfelttilknytninger i tabellen 5336 Integrationsfelttilknytning.
+
+Du kan tilknytte felterne manuelt, eller du kan automatisere processen ved at tilknytte flere felter på samme tid baseret på kriterier for at matche deres værdier. Yderligere oplysninger finder du under [Sådan parres flere poster baseret på matching af feltværdi](admin-how-to-couple-and-synchronize-records-manually.md).
 
 ### <a name="handling-differences-in-field-values"></a>Håndtering af forskelle i feltværdier
 Nogle gange er værdierne i de felter, du vil tilknytte, forskellige. For eksempel er sprogkoden for USA i [!INCLUDE[crm_md](includes/crm_md.md)] "U.S.", mens den i [!INCLUDE[prod_short](includes/prod_short.md)] er "US". Det betyder, at du skal transformere værdien, når du synkroniserer data. Dette sker gennem transformationsregler, som du definerer for felterne. Du kan definere transformationsregler på siden **Integrationstabeltilknytninger** ved at vælge **Tilknytning** og derefter **Felter**. Der findes foruddefinerede regler, men du kan også oprette dine egne. Du kan finde flere oplysninger i [Transformationsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).

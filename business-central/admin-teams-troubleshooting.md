@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 04/12/2021
+ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ed1d44f7aa1fe7adc899c429a6595cef23251075
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: 376d1bebd79c225a54ca8544b757a719a55bfebd
+ms.sourcegitcommit: 795f0298e32b4c0174aeeb9a7da64f1e5c8457d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341299"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7596668"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Fejlfinding af Microsoft Teams-integration med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -149,6 +149,13 @@ Som administrator, der har Azure Active Directory-administratorrettigheder, kan 
 > [!NOTE]
 > Det vil vare et stykke tid, før ændringen træder i kraft.
 
+## <a name="duplicate-text-in-the-share-to-teams-window"></a>Dublettekst i vinduet Del til Teams
+
+Når du indsætter tekst i meddelelsesboksen i vinduet **Del til Teams**, duplikeres teksten. Dette problem er kendt af Microsoft og vil blive behandlet i en senere opdatering. 
+
+## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Vinduet Del til Teams kan ikke logges ind 
+
+Dette problem kan skyldes en række årsager. Den identitet, du bruger til at logge på skal have adgang til Microsoft Teams, f.eks. via et Microsoft 365-abonnement.
 
 ## <a name="see-also"></a>Se også
 

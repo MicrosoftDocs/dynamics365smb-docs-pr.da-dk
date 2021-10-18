@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: eb03f2cd47624e753766f0363e037ee793f8f777
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 76829c832bfde71d46b2fa2a942aa68db9f5701a
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444739"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588776"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Administrere vedhæftede filer, links og noter på kort og dokumenter
 
@@ -64,7 +64,7 @@ Følgende procedure er baseret på en salgsordre. Fremgangsmåden er den samme f
 En PDF-fil med det aktuelle indhold i salgsordren tilføjes på fanen **Vedhæftede filer** i faktaboksen.
 
 ## <a name="to-add-a-link-from-an-item-card"></a>Sådan tilføjes et link fra et varekort
-Du kan føje et link fra et kort eller et dokument til en hvilken som helst URL-adresse eller sti. Det er nyttigt, når du f.eks. vil knytte et varekort til leverandørens varekatalog.
+Du kan føje et link fra et kort eller et dokument til en hvilken som helst URL-adresse. Det er nyttigt, når du f.eks. vil knytte et varekort til leverandørens varekatalog.
 
 Den følgende procedure er baseret på et varekort. Trinene er de samme for alle andre understøttede kort og dokumenter.
 

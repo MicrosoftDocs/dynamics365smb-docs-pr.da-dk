@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 05/19/2021
+ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 325783df3cacd37250c1efa75320386ef9c4cb19
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: cd53825ced18cafab27571671a203cda82d3dcc9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341504"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587861"
 ---
 # <a name="teams-faq"></a>Teams, ofte stillede spørgsmål
 
@@ -146,7 +146,11 @@ Hos Microsoft lytter vi hele tiden til feedback fra vores forskellige grupper af
 
 Hvis du vil deltage i forbedringen af appen til Teams eller har en god ide til at forenkle dit arbejde eller dine samarbejdsoplevelser i Teams, kan du tilføje en idé eller tilslutte dig eksisterende ideer på [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 
-## <a name="searching-for-contacts"></a>[Søgning efter kontakter](#tab/contacts)
+### <a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a>Hvor kan jeg finde Teams-integrationen i Business Central-webklienten? 
+
+Til funktioner i den webklient, der er sammenkædet med grupper, kan du se [links til deling af poster og side i Microsoft Teams](across-working-with-teams.md#share-link).
+
+## <a name="search-for-contacts"></a>[Søg efter kontakter](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>Hvilke tabeller søger appen i?
 
@@ -192,7 +196,7 @@ Integrationen af [!INCLUDE [prod_short.md](includes/prod_short.md)] med opkaldsf
 
 ### <a name="how-do-i-search-for-contacts-using-special-characters"></a>Hvordan søger jeg efter kontakter ved hjælp af specialtegn?
 
-Du kan indtaste søgekriterier med stort set alle Unicode-tegn. [!INCLUDE [prod_short.md](includes/prod_short.md)] har imidlertid reserveret følgende tegn til andre formål: **=**, **.**, **\**_ og _*@**. Hvis du bruger disse tegn i søgeordene, returneres de forventede resultater muligvis ikke. Hvis du ikke kan se de forventede resultater, skal du sætte apostroffer omkring tegnene i søgeordene, f.eks. **Contoso'= '2**.
+Du kan indtaste søgekriterier med stort set alle Unicode-tegn. [!INCLUDE [prod_short.md](includes/prod_short.md)] har imidlertid reserveret følgende tegn til andre formål: **=**, **.**, **\**_ og _*@**. Hvis du bruger disse tegn i søgeordene, returneres de forventede resultater muligvis ikke. Hvis du ikke kan se de forventede resultater, skal du sætte apostroffer omkring tegnene i søgeordene, f.eks. **Contoso'='2**.
 
 ### <a name="how-can-i-search-contacts-stored-in-a-different-company"></a>Hvordan kan jeg søge efter kontakter, der findes i et andet regnskab?
 
@@ -240,7 +244,7 @@ Det er ikke muligt at søge i andre tabeller på nuværende tidspunkt. Appen [!I
 
 Hvis du ønsker, at søgefunktionerne kan inkludere andre tabeller, opfordrer vi brugere af vores forum tilføje en idé eller tilslutte sig eksisterende ideer på https://aka.ms/BusinessCentralIdeas.
 
-## <a name="working-with-cards"></a>[Arbejde med kort](#tab/cards)
+## <a name="work-with-cards"></a>[Arbejde med kort](#tab/cards)
 
 ### <a name="which-types-of-links-does-the-app-support"></a>Hvilke typer links understøtter appen?
 
@@ -273,7 +277,7 @@ Når du skriver og sender en meddelelse til chatten, som indeholder et kort, vil
 
 Hvis du arbejder på tværs af [!INCLUDE [prod_short.md](includes/prod_short.md)]-firmaer, skal du kontakte administratoren for at få aktiveret et virksomhedskort for hvert regnskab. Når dette tip er aktiveret, vises dette iøjnefaldende i alle oplysnings vinduer i Teams, og det firma og miljø, som posten tilhører, vises. Hvis du vil lære, hvordan du konfigurerer virksomhedskort, skal du se [Sådan får du vist et firmalogo, så du hurtigt kan få adgang til firmaoplysninger](ui-change-basic-settings.md#badge).
 
-## <a name="working-with-card-details"></a>[Arbejde med kortdetaljer](#tab/carddetails)
+## <a name="work-with-card-details"></a>[Arbejde med kortdetaljer](#tab/carddetails)
 
 ### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Hvor er knappen til gem i vinduet detaljer i Teams?
 
@@ -303,7 +307,7 @@ Ja. Alle [!INCLUDE [prod_short.md](includes/prod_short.md)]-funktioner i vinduet
 
 Hvis du bruger funktioner i [!INCLUDE [prod_short.md](includes/prod_short.md)], der får adgang til dine aktuelle placeringskoordinater, f.eks. med Maps, skal du bruge Teams i browseren eller Teams mobil-app. Placeringen er ikke tilgængelig, når appen Teams desktop bruges. 
 
-## <a name="collaborating-with-guests"></a>[Samarbejde med gæster](#tab/collaborating)
+## <a name="collaborate-with-guests"></a>[Samarbejde med gæster](#tab/collaborating)
 
 ### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Kan jeg dele kort med brugere uden for organisationen?
 
@@ -319,8 +323,37 @@ Hvis du vil have oplysninger om andre lighedspunkter og forskelle mellem gæster
 
 Gæster har ikke adgang til app-markedspladsen for at installere apps selv. Appen kan imidlertid installeres automatisk på basis af virksomhedens politikker. En anden måde, en gæstebruger kan installere [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen på er, når de modtager en chatmeddelelse, der indeholder et [!INCLUDE [prod_short.md](includes/prod_short.md)]-kort. I dette tilfælde vælger brugeren knappen **Detaljer** eller menuen på kortet og installerer derefter [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen til brug sammen med organisationen. Når appen er installeret, modtager brugeren ikke automatisk tilladelse til at få adgang til data fra din [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
----
+## <a name="share-to-teams"></a>[Del på Teams](#tab/share)
 
+### <a name="does-share-to-teams-send-a-compact-card"></a>Kan Del på Teams sende et kompakt kort? 
+
+På dette tidspunkt er det kun et dyb link til siden, der er delt. Modtagerne får vist et hyperlink i din meddelelse, som de kan vælge at tage dem med [!INCLUDE [prod_short.md](includes/prod_short.md)] i et separat browservindue. 
+
+### <a name="will-recipients-receive-the-message-from-me-or-from-a-business-central-service-account"></a>Vil modtagerne modtage meddelelsen fra mig eller fra en Business Central-tjenestekonto? 
+
+Når du bruger Del på Teams, sendes meddelelsen til en person, gruppe eller kanal, som ligner, om du selv har sendt meddelelsen fra Microsoft Teams. Modtagere får vist meddelelsen fra dig på deres foretrukne Teams-klient og kan reagere og svare, som de plejer, i en e-mail. 
+
+### <a name="is-share-to-teams-available-in-business-central-on-premises"></a>Er Del på Teams tilgængelig i Business Central lokalt? 
+
+Nummer På samme måde som [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams kan denne funktion kun vælges til webklienten [!INCLUDE [prod_short.md](includes/prod_short.md)] online. Der er ingen planer om at understøtte [!INCLUDE [prod_short.md](includes/prod_short.md)]-installationstyper&mdash;f.eks. i det lokale miljø, hybrid-sky eller privat sky&mdash;som Microsoft hverken er vært for eller administrerer direkte.
+
+### <a name="does-share-to-teams-grant-permissions-to-recipients"></a>Kan Del på Teams give tilladelser til modtagerne? 
+
+Nummer Når du deler med en person, en gruppe eller en kanal, påvirkes tilladelserne ikke. Brugere, der allerede har tilladelse til at få vist siden og de data, som er målrettet af hyperlinket, kan gøre det. Brugere, som ikke har tilladelse til at få vist denne side og disse data eller ikke har en [!INCLUDE [prod_short.md](includes/prod_short.md)]-licens, vises som en fejlmeddelelse. 
+ 
+### <a name="must-i-have-the-teams-desktop-app-installed-to-use-share-to-teams"></a>Skal jeg have Teams Desktop-app installeret for at kunne bruge Del på Teams? 
+
+Nummer Det eneste, du behøver, er en gyldig konto, der har adgang til Microsoft Teams. 
+
+### <a name="is-share-to-teams-available-in-all-business-central-clients"></a>Er Del på Teams tilgængelig i alle Business Central-klienter? 
+
+På nuværende tidspunkt er Del på Teams udelukkende tilgængeligt i desktop-webklienten og i detaljevinduet i Teams.  
+
+### <a name="where-do-i-find-share-to-teams-in-business-central"></a>Hvor kan jeg finde Del på Teams i Business central? 
+
+Handlingen **Del på Teams** kan findes i menuen **Del** på alle sider, f. eks. kort og dokumentsider, liste-eller regnearks sider, herunder brugerdefinerede sider. Handlingen er ikke tilgængelig i dialogbokse eller sider, der vises som dialogbokse, f. eks. opslagssider eller guider.
+
+---
 ## <a name="see-also"></a>Se også
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams Oversigt over integration](across-teams-overview.md)  

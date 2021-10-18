@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
 ms.date: 08/25/2021
 ms.author: edupont
-ms.openlocfilehash: b408afe65f2063ab77dca4e4e87fcfc4715f1204
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: b9a4d6b37bce0772540a307edc9c64cba1780dc5
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440488"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587780"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Tilpasse Business Central Online ved brug af udvidelser
 
@@ -53,32 +53,6 @@ Hvis du fjerner en udvidelse, og du senere skifter mening, kan du installere den
 
 Nogle udvidelser er fra Microsoft, mens andre udvidelser leveres af [andre virksomheder](ui-extensions-other.md). Alle udvidelser testes, før de bliver tilgængelige for dig, men det anbefales, at du bruger de links, der følger med hver udvidelse, for at få mere at vide om udvidelsen, før du vælger at installere den.  
 
-Microsoft tilbyder følgende udvidelser:  
-
-* [AMC Banking 365 Fundamentals-udvidelse](ui-extensions-amc-banking.md)
-* [Ceridian løn](ui-extensions-ceridian-payroll.md)
-* [Virksomhedshub](ui-extensions-company-hub.md)  
-* [Dynamics GP Dataoverførsel](ui-extensions-dynamicsgp-data-migration.md)
-* [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
-* [Vigtig forretningsindsigt](ui-extensions-essential-business-insights.md)
-* [Billedanalyse](ui-extensions-image-analyzer.md)
-* [Intelligent sky](ui-extensions-data-replication.md)
-* [Intelligent sky basis](ui-extensions-intelligent-cloud.md)  
-* [Forudsigelser af forsinkede betalinger](ui-extensions-late-payment-prediction.md)
-* [Microsoft Pay](ui-extensions-microsoft-pay-payments.md)
-* [PayPal Payments Standard](ui-extensions-paypal-payments-standard.md)
-* [Overflytning af QuickBooks Data](ui-extensions-quickbooks-data-migration.md)
-* [QuickBooks Online Dataoverførsel](ui-extensions-quickbooks-online-data-migration.md)
-* [Import af Quickbooks-lønfiler](ui-extensions-quickbooks-payroll.md)
-* [Salgs- og lagerprognose](ui-extensions-sales-forecast.md)
-* [Momsgruppe](ui-extensions-vat-group.md)
-* [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
-* [DK – C5-dataoverførsel](ui-extensions-c5-data-migration.md)
-* [DK - Betalinger og afstemninger](ui-extensions-payments-reconciliation-formats-dk.md)
-* [DK – Tax File Formats](ui-extensions-tax-file-formats-dk.md)
-* [Udvidelsen Britiske GetAddress.io-postnumre](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
-* [US/CA/UK/AU/NZ/ZA - Send remitteringsadvis](ui-extensions-send-remittance-advice.md)
-
 > [!NOTE]  
 > Du kan holde øje med nye udvidelser fra Microsoft og andre leverandører på [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
@@ -102,6 +76,12 @@ Dette gælder også nogle funktioner i basisprogrammet, f.eks. følgende funktio
 * OCR-tjeneste
 * Online Map
 * EU-momsregistreringsnr. Tjeneste
+
+## <a name="recommended-apps"></a>Anbefalede apps
+Microsoft-partnere og -forhandlere kan oprette en udvidelse, som de kan bruge til at kompilere lister over apps, som de ofte anbefaler til deres kunder. Hvis de gør det og har installeret udvidelsen til din lejer, vil appsene være tilgængelige på siden **Anbefalede apps**. Der kan du læse om hver app og beslutte, om du vil installere dem.
+
+> [!NOTE]
+> Hvis du er Microsoft-partner eller -forhandler, og du er interesseret i at levere en liste over anbefalede apps, skal du se [Anbefal apps fra AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps).
 
 ## <a name="see-also"></a>Se også
 

@@ -41,7 +41,10 @@
 ##### [Designoplysninger: Vareudligning](design-details-item-application.md)  
 ##### [Designoplysninger: Kendt problem med vareudligning](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md)  
-##### [Designoplysninger: Bogføringsdato på post med reguleringsværdi](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### Designoplysninger: Bogføringsdato på post med reguleringsværdi
+###### [Designoplysninger: Bogføringsdato på post med reguleringsværdi](design-details-inventory-adjustment-value-entry-posting-date.md)  
+###### [Fejlmeddelelse "Bogføringsdatoen er ikke inden for intervallet af tilladte bogføringsdatoer"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+###### [Bogføringsdatoen for regulerings værdiposten sammenlignet med kildeposten](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Designoplysninger: Bogføring af forventet kostpris](design-details-expected-cost-posting.md)  
 ##### [Designoplysninger: Gennemsnitlig kostpris](design-details-average-cost.md)  
 ##### [Designoplysninger: Afvigelse](design-details-variance.md)  
@@ -94,6 +97,12 @@
 ### [Introduktion til et abonnement](across-preview.md#getting-started-with-a-subscription)
 ### [Blive køreklar](ui-get-ready-business.md)
 
+## Hurtig startvejledninger
+### [Hurtig start af Business Central](quick-start-business-central.md)
+### [Konfigurere virksomhedsoplysninger](quick-start-company-information.md)
+### [Sælge produkter og tjenester](quick-start-sell-products-and-services.md)
+### [Købe produkter og tjenester](quick-start-procurement.md)
+
 <!--setup-->
 ## Konfigurere Business Central
 ### [Oversigt over opgaver](setup.md)
@@ -133,6 +142,7 @@
 #### [Registrere nye debitorer](sales-how-register-new-customers.md)
 #### [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md)
 #### [Registrere specialsalgspriser og -rabatter](sales-how-record-sales-price-discount-payment-agreements.md)
+#### [Oprette debitorprisgrupper](sales-how-to-set-up-customer-price-groups.md)
 #### [Konfigurere sælgere](sales-how-setup-salespeople.md)
 #### [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md)
 #### [Sende dokumenter som mail](ui-how-send-documents-email.md)
@@ -240,14 +250,16 @@
 #### [Tip: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### Opsætning af mail
 #### [Konfigurer mail](admin-how-setup-email.md)
-#### Konfigurer din virksomheds indbakke i Microsoft Outlook 
-##### [Bruge Business Central som din virksomheds indbakke i Outlook](admin-outlook.md)
+#### Konfigurer din virksomheds indbakke i Microsoft Outlook
+##### [Få Business Central-tilføjelsesprogram til Outlook](admin-outlook.md)
+##### [Bruge Business Central som din virksomheds indbakke i Outlook](work-outlook-addin.md)
 ##### [Synkronisere med kontakter i Outlook](admin-synchronize-outlook-contacts.md)
 ##### [Optimere Outlook](admin-outlook-optimize.md)
 ##### [Brug af Business Central uden Outlook](admin-no-outlook.md)
 ### Opsætning af rapporter
 #### [Rapportvalg](across-report-selections.md)
 ### Opsætning af forbindelser
+#### [Få Business Central-tilføjelsesprogram til Excel](admin-deploy-excel-addin.md)
 #### Bruge Business Central som din virksomheds indbakke i Outlook 
 ##### [Oversigt](admin-outlook.md)
 ##### [Synkronisere med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)
@@ -257,10 +269,15 @@
 ##### [Administration af Teams-integration](admin-teams-integration.md)
 ##### [Installation af Business central-app i Teams](across-install-app-for-teams.md)
 ##### [Søgning efter debitorer, kreditorer og kontakter](across-search-contacts-teams.md)
-##### [Deling af poster i Teams](across-working-with-teams.md)
+##### [Dele Business Central-poster og Sidelinks i Teams](across-working-with-teams.md)
 ##### [Ændring af virksomhed og andre indstillinger](across-teams-settings.md)
 ##### [Teams, ofte stillede spørgsmål](teams-faq.md)
 ##### [Fejlfinding](admin-teams-troubleshooting.md)
+#### Bruge OneDrive til virksomheder med Business central
+##### [Oversigt](across-onedrive-overview.md)
+##### [Administrere OneDrive til virksomhedsintegration](admin-onedrive-integration.md)
+##### [Åbner Business Central-filer i OneDrive](across-share-onedrive.md)
+##### [OneDrive Ofte stillede spørgsmål](admin-onedrive-faq.md)
 #### Bruge Power BI sammen med Business Central
 ##### [Introduktion](admin-powerbi.md)
 ##### Administrator
@@ -285,6 +302,8 @@
 ### [Konfigurere basiskalendere](across-how-to-assign-base-calendars.md)
 ### [Installation af printere](ui-specify-printer-selection-reports.md)
 ### [Hent Business Central til din mobilenhed](install-mobile-app.md)
+### [Hent Business Central til din computer](install-desktop-app.md)
+
 
 ## Ofte stillede spørgsmål
 ### [Ofte stillede spørgsmål](across-faq.yml)
@@ -329,7 +348,9 @@
 ## [Registrere obligatoriske felter](ui-mandatory-fields.md)
 ## [Ændre sprog og geografisk område](about-locale-language.md)
 ## [Få vist og redigere i Excel](across-work-with-excel.md)
+## [Gemme og dele filer i OneDrive](across-share-onedrive.md)
 ## [Administrere vedhæftede filer, links og noter på kort og dokumenter](ui-how-add-link-to-record.md)
+## [Bruge Word-skabeloner til massekommunikation](ui-mail-merge.md)
 ## [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)
 ## [Skifte til et andet firma eller miljø](ui-organization-switch.md)
 ## [Administrere notifikationer](ui-smart-notifications.md)
@@ -608,6 +629,7 @@
 ### [Foretage direkte leveringer](sales-how-drop-shipment.md)
 ### [Oprette specialordrer](sales-how-to-create-special-orders.md)
 ### [Behandle salgsreturvarer eller annulleringer](sales-how-process-sales-returns-cancellations.md)
+### [Gennemgå salgsreturvareordrer](sales-how-process-sales-returns-orders.md)
 ### [Rette eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md)
 ### [Arbejde med rammesalgsordrer](sales-how-to-create-blanket-sales-orders.md)
 ### [Kombinere leverancer på én enkelt faktura](sales-how-to-combine-shipments-on-a-single-invoice.md)
@@ -653,7 +675,7 @@
 ### [Konfigurere varesporing med serie-, lot- og pakkenumre](inventory-how-setup-item-tracking.md)
 ### [Spore varer med serie-, lot- og pakkenumre](inventory-how-work-item-tracking.md)
 ### [Spore vare via varesporing](inventory-how-to-trace-item-tracked-items.md)
-### [Bruge varereferencer](inventory-how-use-item-cross-refs.md)
+### [Anvend varereferencer](inventory-how-use-item-cross-refs.md)
 ### [Spærre for varer](inventory-how-block-items.md)
 ### [Arbejde med ansvarscentre](inventory-responsibility-centers.md)
 
@@ -951,10 +973,12 @@
 ##### [Lokalisering til tjekkisk for anlæg (udvidelse)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Banktransaktioner og betalinger
 ##### [Bankfunktion](LocalFunctionality/Czech/bank-feature.md)
+##### [Bankdokumenter lokalisering for Tjekkiet (udvidelse)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
 ##### [Likviditetsstyring](LocalFunctionality/Czech/cash-desk-management.md)
 ##### [Lokalisering af likviditet til tjekkisk (forlængelse)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Registrering af salg (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Forskudsbetalinger](LocalFunctionality/Czech/advances.md)
+##### [Lokalisering af forskudsbetalinger til Tjekkiet (Udvidelse)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Likviditet
 ##### [Likviditet](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
@@ -1085,6 +1109,7 @@
 
 ### Indien
 #### [Oversigt](LocalFunctionality/India/india-local-functionality.md)
+#### [Oprette Bogføringsnummerserie](LocalFunctionality/India/posting-no-series-setup.md)
 #### Momsprogram
 ##### [Oversigt](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Konfiguration af import/eksport af skatteprogrammer](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -1161,6 +1186,8 @@
 ##### [Foreløbig TDS foreløbig post](LocalFunctionality/India/TDS-Provisional-Entries.md)
 ##### [TDS-regul. post](LocalFunctionality/India/TDS-Adjustment-Entries.md)
 ##### [TDS-betaling til myndighed](LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md)
+##### [Oversigt over TDS 194Q-sektion](LocalFunctionality/India/TDS-194Q-Section-Overview.md)
+##### [TDS 194Q-transaktioner](LocalFunctionality/India/TDS-194Q-Transactions.md)
 #### TDS for kunder
 ##### [TDS Oversigt over debitorer](LocalFunctionality/India/TDS-for-Customer-Overview.md)
 ##### [TDS-beregning for debitor](LocalFunctionality/India/TDS-Calculation-for-Customer.md)
@@ -1188,6 +1215,7 @@
 ##### [Transaktioner for underleverancer](LocalFunctionality/India/Subcontracting-Transactions.md)
 ##### [Opret GST-ansvar](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
 ##### [Rapport for underleverancer](LocalFunctionality/India/Subcontracting-Reports.md)
+#### [Stale Cheque](LocalFunctionality/India/Stale-Check.md)
 
 ### Italien
 #### [Lokal funktionalitet i den italienske version](LocalFunctionality/Italy/italy-local-functionality.md)
@@ -1603,6 +1631,7 @@
 ### [Logføre ændringer](across-log-changes.md)
 ### [Brug af opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)
 ### [Administrere lager ved at komprimere data eller slette dokumenter](admin-manage-documents.md)
+### [Arkivere data](admin-archive-data.md)
 ### [Definere dataopbevaringspolitikker](admin-data-retention-policies.md)
 ### [Udgive en webtjeneste](across-how-publish-web-service.md)
 ### [Konfiguration af API-skabeloner](admin-configuring-api-template.md)
@@ -1613,7 +1642,7 @@
 ### [Sådan ser du tabeloplysninger](admin-view-table-information.md)
 ### [Aktivering af nye funktioner på forhånd](admin-feature-management.md)
 ### [Onboarding af brugere med kontrollister](admin-checklist.md)
-### [Sandkassemiljøer](across-how-create-sandbox-environment.md)
+### [Sandkassemiljøer](admin-sandbox-environments.md)
 ## Tilpasse Business Central
 ### [Oversigt over tilpasning](ui-customizing-overview.md)
 ### [Tilpasse sider til profiler](ui-personalization-manage.md)

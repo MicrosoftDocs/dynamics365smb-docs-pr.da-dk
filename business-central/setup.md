@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: c2edc726ef61f832e0db4ca93300c89342b400e0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5cbd8a674945fa5c33d502cffb865677c66bce39
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441418"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588472"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Oversigt over opgaver til opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til din organisation.  
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til din organisation. De [Business Central-artikler i hurtig start](quick-start-business-central.md) kan hjælpe dig med at tage de første skridt til at gøre [!INCLUDE [prod_short](includes/prod_short.md)] til din egen. Denne artikel giver en oversigt over, hvordan du kan konfigurere [!INCLUDE [prod_short](includes/prod_short.md)] i organisationen.  
 
 F.eks er din kontoplan på forhånd udfyldt med en række bogføringskonti, der er klar til brug. Du kan også ændre kontoplanen efter dine behov. Du kan finde flere oplysninger i [Finans](finance.md).
 
@@ -77,6 +77,7 @@ For nogle områder kræves, at du skal være administrator i dit [!INCLUDE[prod_
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Oprettelse af nye virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Blive køreklar](ui-get-ready-business.md)  
+[Hurtig start af Business Central](quick-start-business-central.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

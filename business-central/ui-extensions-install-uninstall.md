@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.date: 06/03/2021
 ms.author: solsen
-ms.openlocfilehash: cf0dd21100fe9ec1fcc92320f04393c5385d2514
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: b9028bf88940a8c378469078ca680858b7702872
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440662"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589153"
 ---
 # <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installere og fjerne udvidelser i Business Central
 
@@ -75,6 +75,13 @@ Microsoft tilbyder følgende udvidelser:
 * [DK – Tax File Formats](ui-extensions-tax-file-formats-dk.md)
 * [Udvidelsen Britiske GetAddress.io-postnumre](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Send remitteringsadvis](ui-extensions-send-remittance-advice.md)
+
+
+## <a name="uploading-a-per-tenant-extension-pte"></a>Overfører en udvidelse pr. lejer (PTE)
+
+Du kan overføre en PTE ved hjælp af siden **styring af udvidelser**. Gå til **Administrer** på siden **udvidelsesstyring**, og vælg derefter **Overfør udvidelse**. Angiv den. programfil, der skal overføres, på siden **Overfør og installér udvidelse**. Hvis du vil fortsætte, skal du vælge knappen **Acceptér** og derefter knappen **Implementér** for at implementere PTE.
+
+Hvis PTE indeholder ændringer af skemaændringer, er det muligt at *gennemtvinge* overførslen. Hvis du vil gøre det, skal du vælge indstillingen **Gennemtving** i tilstanden **Skemasynkronisering**. Du får vist en bekræftelsesdialogboks, før du fortsætter. 
 
 ## <a name="uninstalling-an-extension"></a>Fjerne en udvidelse
 

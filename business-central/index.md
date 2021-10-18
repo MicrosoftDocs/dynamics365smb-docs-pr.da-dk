@@ -7,20 +7,20 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: e84f9df3d688ccd6e6355f90e3bf76069b371d83
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: 14dd0aa40524ca1e261b0e57aa62bfcccd80afd4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341354"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588197"
 ---
 # <a name="welcome-to-prod_long"></a>Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er en forretningsledelsesløsning, som hjælper små og mellemstore virksomheder med at automatisere og strømline forretningsprocesserne og hjælper dig med at administrere din virksomhed. Med dets mange funktioner og rige tilpasningsmuligheder giver [!INCLUDE[prod_short](includes/prod_short.md)] virksomheden mulighed for at styre forretningsaspekter, herunder bl.a. finans, produktion, salg, levering, projektstyring og service. Virksomheden kan nemt tilføje funktioner, der er relevante for driftsområdet, også funktioner, der er tilpasset højt specialiserede brancher.  
 
-Hvis du allerede har [!INCLUDE[prod_short](includes/prod_short.md)], skal du logge på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Hvis det ikke er tilfældet, kan du [hente oversigten](https://dynamics.microsoft.com/business-central/overview/), [gå til den rundvisning](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) og derefter [starte en gratis prøveperiode](https://go.microsoft.com/fwlink/?linkid=847861). Du kan finde flere oplysninger om onboarding til [!INCLUDE[prod_short](includes/prod_short.md)] i [Blive køreklar](ui-get-ready-business.md).  
+Hvis du allerede har [!INCLUDE[prod_short](includes/prod_short.md)], skal du logge på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Hvis det ikke er tilfældet, kan du [hente oversigten](https://dynamics.microsoft.com/business-central/overview/), [gå til den rundvisning](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) og derefter [starte en gratis prøveperiode](https://go.microsoft.com/fwlink/?linkid=847861). Se [artiklerne om hurtig start](quick-start-business-central.md) for at hjælpe dig med at lære dig at kende [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger om onboarding til [!INCLUDE[prod_short](includes/prod_short.md)] i [Blive køreklar](ui-get-ready-business.md).  
 
 > [!TIP]
 > Er du kommet hertil [!INCLUDE [prod_short](includes/prod_short.md)]? Hvis du ikke er sikker på, hvor du skal finde det, du søger efter, kan du **filtrere efter titler** i navigationsruden til venstre, eller du kan bruge feltet **Søg** øverst i browservinduet.  
@@ -102,8 +102,9 @@ Hvis du vil abonnere på et Really Simple Syndication (RSS)-feed af alle opdater
 ## <a name="see-also"></a>Se også
 
 [Dynamics 365 Business Central på Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Hurtig start af Business Central](quick-start-business-central.md)  
 [Kom i gang med Business Central](ui-get-ready-business.md)  
-[Besøg vores videobibliotek](across-videos.md)  
+[Besøge vores videobibliotek](across-videos.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som min virksomheds Indbakke i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[prod_short](includes/prod_short.md)] på din mobilenhed](install-mobile-app.md)  

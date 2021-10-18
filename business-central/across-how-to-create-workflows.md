@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: b4f6894c0d9c5a23445f70b2a50fcd677b17be66
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2734f4d65869ba666a53333c9338239a1cb1a1b4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438403"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588222"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Oprette arbejdsprocesser for at forbinde virksomhedsbehandlingsopgaver
 
@@ -133,7 +133,7 @@ I følgende eksempel oprettes der en ny arbejdsgang for at godkende ændringer a
     2. I feltet **På betingelse** skal du vælge ordet **Altid** og derefter vælge **Tilføj en betingelse for, hvornår en feltværdi skifter kæde**, på siden **Hændelsesbetingelser**, og vælg derefter feltet *Navn*.  
 
       Resultatet af dette trin er, at betingelsen læses som *Navnet er ændret*.  
-    3. I feltet **Svar** skal du vælge **Vælg svar**-link, og derefter skal du i feltet **Vælg svar** på siden **Arbejdsgangssvar** vælge at *tilbageføre værdien af <Field>-feltet i posten og gemme ændringssvaret*, og derefter skal du angive feltet **Navn** i *indstillingerne for den valgte svar sektion*.  
+    3. I feltet **Svar** skal du vælge **Vælg svar**-link, og derefter skal du i feltet **Vælg svar** på siden **Arbejdsgangssvar** vælge at *tilbageføre værdien af \<Field\>-feltet i posten og gemme ændringssvaret*, og derefter skal du angive feltet **Navn** i *indstillingerne for den valgte svar sektion*.  
     4. Vælg linket **Tilføj flere svar**, og tilføj derefter en post for at *oprette en godkendelsesanmodning for posten vha. godkender type <%1> og <%2>.* svar.  
     5. Under **Indstillinger for den valgte svar**-sektion til det nye svar skal du ændre feltet **Godkendertype** til *brugergruppen arbejdsgang* og derefter angive den relevante brugergruppe i feltet **arbejdsgang-brugergruppe**.  
 

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cb71c71ec67514e4ed2df02a83afe2a56e36868e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a5defde47d21492c104c767f21165573221a1e51
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440945"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587526"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter
 Fra PDF-filer eller billedfiler, som du modtager fra dine handelspartnere, kan du få en ekstern OCR-tjeneste (Optical Character Recognition) til at oprette elektroniske dokumenter, der kan konverteres til dokumentposter i [!INCLUDE[prod_short](includes/prod_short.md)]. F.eks. når du modtager en faktura i PDF-format fra en leverandør, kan du sende den til tjenesten OCR fra siden **Indgående bilag**. Dette beskrives i den første fremgangsmåde.
@@ -69,11 +69,11 @@ Nu kan du fortsætte med at oprette dokumentposter for de modtagne elektroniske 
 Følgende fremgangsmåde beskriver, hvordan du opretter en købsfakturapost fra en kreditorfaktura, der er modtaget som et elektronisk dokument fra OCR-tjenesten. Fremgangsmåden er den samme som, når du f.eks. opretter en finanskladdelinje fra en udgiftskvittering eller en salgsreturvareordre fra en kunde.
 
 > [!NOTE]  
->   Felterne **Beskrivelse** og **Nummer** på de oprettede bilagslinjer udfyldes kun, hvis du først har tilknyttet tekst, der findes i OCR-dokumentet, til de to felter i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan udføre denne tilknytning som varekrydsreferencer for dokumentlinjer af typen vare. Du kan finde flere oplysninger i [Bruge varereferencer](inventory-how-use-item-cross-refs.md). Du kan også bruge funktionen Tilknytning af tekst til konto. Du kan finde yderligere oplysninger i [Sådan tilknyttes tekst på et indgående bilag til en bestemt leverandør, finanskonto eller bankkonto](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
+>   Felterne **Beskrivelse** og **Nummer** på de oprettede bilagslinjer udfyldes kun, hvis du først har tilknyttet tekst, der findes i OCR-dokumentet, til de to felter i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan udføre denne tilknytning som varereferencer for dokumentlinjer af typen vare. Du kan finde flere oplysninger i [Bruge varereferencer](inventory-how-use-item-cross-refs.md). Du kan også bruge funktionen Tilknytning af tekst til konto. Du kan finde yderligere oplysninger i [Sådan tilknyttes tekst på et indgående bilag til en bestemt leverandør, finanskonto eller bankkonto](across-how-use-ocr-pdf-images-files.md#to-map-text-on-an-incoming-document-to-a-specific-vendor-account).
 
 1. Vælg linjen for det indgående bilag, og vælg derefter handlingen **Opret dokument**.
 
-Der oprettes en købsfaktura i [!INCLUDE[prod_short](includes/prod_short.md)] baseret på oplysningerne i det elektroniske kreditordokument, du har modtaget fra OCR-tjenesten. Oplysningerne indsættes i feltet ny købsfaktura, der er baseret på den tilknytning, du har defineret som en krydsreference eller som en tilknytning mellem tekst og konto.
+Der oprettes en købsfaktura i [!INCLUDE[prod_short](includes/prod_short.md)] baseret på oplysningerne i det elektroniske kreditordokument, du har modtaget fra OCR-tjenesten. Oplysningerne indsættes i feltet ny købsfaktura, der er baseret på den tilknytning, du har defineret som en reference eller som en tilknytning mellem tekst og konto.
 
 Enhver valideringsfejl, der typisk vedrører forkerte eller manglende stamdata i [!INCLUDE[prod_short](includes/prod_short.md)], vises i oversigtspanelet **Fejl og advarsler**. Du kan finde flere oplysninger i [Sådan håndteres fejl ved modtagelse af elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 

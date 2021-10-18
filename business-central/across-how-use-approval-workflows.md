@@ -1,33 +1,32 @@
 ---
 title: Godkende eller afvise dokumenter i workflows | Microsoft Docs
 description: Du kan anmode om, afvise eller uddelegere en godkendelse af f.eks. et købs- eller salgsdokument som en del af et workflow.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 04/01/2021
+ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: 6533bc4d141bd13772cad62f8a8574681bb60846
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 653c9e0231e7f1f28e3fe2d6987dbbf4db327faf
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440995"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588853"
 ---
 # <a name="use-approval-workflows"></a>Bruge godkendelsesworkflows
+
 Når en post, f.eks et købsdokument eller et debitorkort, skal godkendes af en person i organisationen, sendes en godkendelsesanmodning som en del af en arbejdsgang. Afhængigt af hvordan arbejdsgangen er konfigureret, får den relevante godkender derefter besked om, at posten kræver godkendelse.
 
-Du kan konfigurere godkendelsesworkflows på siden **Workflow**. Du kan finde flere oplysninger i [Opsætte workflows](across-set-up-workflows.md).
+Du kan konfigurere godkendelsesworkflows på siden **Workflow**. Du skal også angive godkendelses brugere, herunder eventuelle relevante beløbsgrænser, på siden **Brugeropsætning af godkendelser**. Du kan finde flere oplysninger i [Opsætte workflows](across-set-up-workflows.md).  
 
 Ud over godkendelsesworkflows, der er beskrevet i dette emne, kan du udføre forskellige andre opgaver i workflowet. Der er flere oplysninger i [Anvende workflows](across-use-workflows.md).
 
 Grundlæggende godkendelsesworkflows for købsdokumenter, salgsdokumenter, udbetalingskladder, debitorkort og varekort er klar til brug som vejledninger. Du kan finde flere oplysninger i [Blive køreklar](ui-get-ready-business.md).
 
 ## <a name="to-request-approval-of-a-record"></a>Sådan anmodes om godkendelse af en post
+
 Følgende opgave udføres af en godkendelsesbruger.
 
 1. På siden, hvor posten vises, kan du vælge handlingen **Send godkendelsesanmodning**.
@@ -38,6 +37,7 @@ Godkendelsespostens status opdateres fra **Oprettet** til **Åben**. Postens sta
 Når godkenderen har godkendt posten, ændres status til **Frigivet**. Du kan derefter fortsætte dine opgaver med posten.
 
 ## <a name="to-cancel-requests-for-approval"></a>Sådan annulleres godkendelsesanmodninger
+
 Følgende opgave udføres af en godkendelsesbruger med godkendelsesrettigheder.
 
 En kunde vil måske ændre en ordre, efter at den er sendt til godkendelse. I så fald kan du annullere godkendelsesprocessen og foretage de nødvendige ændringer i ordren, inden du anmoder om godkendelse igen.
@@ -47,6 +47,7 @@ En kunde vil måske ændre en ordre, efter at den er sendt til godkendelse. I s�
 Når godkendelsesanmodningen er annulleret, ændres statussen for den relaterede godkendelsespost til **Annulleret**. Postens status opdateres fra **Afventer godkendelse** til **Åben**. Godkendelsesprocessen kan derefter starte igen.
 
 ## <a name="to-approve-or-reject-requests-for-approval"></a>Sådan godkendes eller afvises anmodninger om godkendelse
+
 Følgende opgave udføres af en godkendelsesbruger med godkendelsesrettigheder.
 
 Du kan behandle godkendelsesanmodninger på siden **Anmodninger til godkendelse** for eksempel for at godkende flere anmodninger ad gangen. Alternativt kan du behandle hver anmodning i den relaterede post, f.eks siden **Købsfaktura**, ved at klikke på linket i meddelelsen, som du modtager.
@@ -62,6 +63,7 @@ Hvis der er konfigureret et godkenderhierarki, er poststatussen **Afventer godke
 På samme tid ændres godkendelsespostens status fra **Oprettet** til **Åben**, så snart der oprettes en godkendelsesanmodning for posten. Hvis anmodningen afvises, ændres godkendelsesstatusen til **Afvist**. Statussen forbliver **Åben** eller **Afvist**, indtil alle godkendere har godkendt anmodningen.
 
 ## <a name="to-delegate-requests-for-approval"></a>Sådan uddelegeres godkendelsesanmodninger
+
 Følgende opgave udføres af en godkendelsesbruger med godkendelsesrettigheder.
 
 For at forhindre, at dokumenter hober sig op eller på anden måde blokerer arbejdsgangen, kan godkenderen og godkendelsesaministratoren uddelegere en godkendelsesanmodning til en stedfortrædende godkender. Stedfortræderen kan enten være en angivet stedfortræder, den direkte godkender eller godkendelsesadministratoren, i nævnte rækkefølge. Du bruger typisk denne funktion, hvis en godkender ikke til stede og ikke kan godkende anmodninger inden forfaldsdatoen.
@@ -72,6 +74,7 @@ For at forhindre, at dokumenter hober sig op eller på anden måde blokerer arbe
 En notifikation til at godkende anmodningen sendes til en anden foruddefineret stedfortrædende godkender.
 
 ## <a name="to-manage-overdue-approval-requests"></a>Sådan administreres forfaldne godkendelsesanmodninger
+
 Følgende opgave udføres af en godkendelsesbruger med godkendelsesrettigheder.
 
 Med jævne mellemrum skal du minde brugerne i en godkendelsesarbejdsgang om forfaldne godkendelsesanmodninger, de skal reagere på. Du bruger funktionen **Send notifikationer om forfaldne godkendelser** til dette.
@@ -82,10 +85,12 @@ Funktionen **Send notifikationer om forfaldne godkendelser** tjekker for alle å
 2. På siden **Forfaldne godkendelsesanmodninger** skal du vælge handlingen **Send notifikationer om forfaldne godkendelser**.
 
 ## <a name="see-also"></a>Se også
-[Salg](sales-manage-sales.md)    
+
+[Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  
+[Salg](sales-manage-sales.md)  
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

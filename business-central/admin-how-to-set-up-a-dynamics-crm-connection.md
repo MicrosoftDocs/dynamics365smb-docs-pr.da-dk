@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: f3aa23c9037d47785bb6d07a51e3d48ff28c5747
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 7711fc0dc0ad7256f6ed58962634e39bbad86cfe
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440537"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587755"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Opret forbindelse til Microsoft Dataverse
 
@@ -107,9 +107,70 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
+## <a name="customize-the-match-based-coupling"></a>Tilpas den matchbaserede sammenkædning
+
+Fra 2021 Release Wave 2 kan du koble poster i [!INCLUDE [prod_short](includes/prod_short.md)] og [!INCLUDE [cds_long_md](includes/cds_long_md.md)] ud fra matchende kriterier, der er defineret af administratoren.  
+
+Algoritmen til identiske poster kan startes fra følgende placeringer i [!INCLUDE [prod_short](includes/prod_short.md)]:
+
+* Vis sider, der viser poster, som er synkroniseret med [!INCLUDE [cds_long_md](includes/cds_long_md.md)], f. eks. siderne kunder og varer.  
+
+    Vælg flere poster, vælg derefter den **relaterede** handling, Vælg **Dataverse**, vælg **sammenkædning**, og vælg derefter **matchbaseret sammenkædning**.
+
+    Når den match baserede sammenkædningsproces startes fra en Master dataliste, planlægges et sammenkædningsjob, umiddelbart efter at du har valgt sammenkædningskriterierne.  
+* Siden **Dataverse Fuld synkroniseringsgennemgang**.  
+
+    Når hele synkroniseringsprocessen registrerer, at du har ikke-sammenkædede poster både i [!INCLUDE [prod_short](includes/prod_short.md)] og i [!INCLUDE [cds_long_md](includes/cds_long_md.md)], vises der et **Vælg sammenkædningskriterie**-link for den relevante integrationstabel.  
+
+    Du kan starte processen til **fuld synkronisering** fra **Konfiguration af Dataverse-forbindelse**-opsætningssiden og **Konfiguration af Dynamics 365-forbindelse**, og den kan startes som et trin i indstillingen **Konfigurere en forbindelse til Dataverse** assisteret opsætning, når du vælger at afslutte installationen og køre fuld synkronisering sidst.  
+
+    Når den matchbaserede sammenkædningsproces startes fra siden **Dataverse Fuld synkroniseringsgennemgang**, planlægges et sammenkædningsjob, umiddelbart efter at du har fuldført opsætningen.  
+* Listen **Integrationstabelstilknytning**.  
+
+    Vælg en tilknytning, Vælg handlingen **Sammenkædning**, og vælg derefter **Match-baseret sammenkædning**.
+
+    Når den matchbaserede sammenkædningsproces startes fra en integrationstabeltilknytning, køres der et sammenkædningsjob for alle ikke-tilknyttede poster i tilknytningen. Hvis den blev kørt for et sæt af valgte poster på listen, køres den kun for de valgte ikke-sammenkædede poster.
+
+I alle tre tilfælde åbnes siden **Vælg sammenkædningskriterier**, så du kan definere de relevante sammenkædningskriterier. På denne side kan du tilpasse sammenkædningen med følgende opgaver:
+
+* Du kan vælge, hvilke felter der skal matche [!INCLUDE [prod_short](includes/prod_short.md)]-poster og [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-enheder efter, og du skal også vælge, om feltet tilsvarende skal skelne mellem store og små bogstaver.  
+
+* Angive, om der skal køres en synkronisering efter koblings poster, og du kan også vælge, om konflikter skal vises på siden **Løs opdateringskonflikter, hvis der anvendes tovejs tilknytning**.  
+
+* Prioritere den rækkefølge, som poster gennemsøges i, ved at angive en *matchprioritet* for de relevante tilknytningsfelter. De match prioriteter gør algoritme søgningen efter et match i et antal gentagelser, sådan som det er defineret af værdierne i **matchprioriteterne** i stigende rækkefølge. En tom værdi i feltet **Match prioritet** fortolkes som prioritet 0, så felter med denne værdi fyld medtages først.  
+
+* Angiv, om der skal oprettes en ny enhedsforekomst i [!INCLUDE [cds_long_md](includes/cds_long_md.md)], hvis der ikke er en entydig, ikke-sammenkoblet match, ved hjælp af søgekriterierne. Hvis du vil aktivere denne funktion, skal du markere afkrydsningsfeltet **Opret ny, hvis der ikke findes en match**-handling.  
+
+### <a name="view-the-results-of-the-coupling-job"></a>Vis resultaterne af sammenkædningssagen
+
+Hvis du vil have vist resultaterne af sammenkædningssagen, skal du åbne siden **integrationstabeltilknytninger**, vælge den relevante tilknytning, vælge **sammenkædningshandlingen** og derefter vælge handlingen foretag tilknytning af **integrationssammenkædningsjob**.  
+
+Hvis der er poster, der ikke er blevet kombineret, kan du foretage detaljeopløftning af værdien i kolonnen mislykkede kolonner, som åbner en liste over fejl, der angiver, hvorfor posterne ikke er blevet sammenkædet.  
+
+Mislykket kobling sker ofte i følgende tilfælde:
+
+* Der blev ikke defineret overensstemmende kriterier
+
+    Hvis det er tilfældet, skal du køre den match-baserede sammenkædning igen, men husk at definere sammenkædningskriterierne.
+
+* Der blev ikke fundet et match, der er baseret på de valgte matchende felter
+
+    Hvis det er tilfældet, skal du gentage sammenkædningen med andre tilsvarende felter.
+
+* Der er fundet flere matches for poster, baseret på de valgte matchende felter  
+
+    Hvis det er tilfældet, skal du gentage sammenkædningen med andre tilsvarende felter.
+
+* Der blev fundet et enkelt match, men den tilhørende post er allerede kombineret med en anden post i [!INCLUDE [prod_short](includes/prod_short.md)]  
+
+    Hvis det er tilfældet, skal du gentage sammenkædningen med et andet matchende felt eller undersøge, hvorfor enheden [!INCLUDE [cds_long_md](includes/cds_long_md.md)] er sammenkædet til den pågældende anden post i [!INCLUDE [prod_short](includes/prod_short.md)].
+
+> [!TIP]
+> For at hjælpe dig med at få et overblik over fremdriften i koblingen viser feltet **sammenkoblet til Dataverse**, om en bestemt post er koblet til en [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-enhed. Du kan filtrere listen over poster, der synkroniseres med [!INCLUDE [cds_long_md](includes/cds_long_md.md)] i dette felt.
+
 ## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Opgradere forbindelser fra Business Central Online til brug certifikatbaseret godkendelse
 > [!NOTE]
-> Dette afsnit er kun relevant for Business Central online-lejere, der er hosted af Microsoft. Online-arkitekturer, der er hosted af ISV'er og lokale installationer, påvirkes ikke.
+> Dette afsnit er kun relevant for [!INCLUDE[prod_short](includes/prod_short.md)] online-lejere, der er hosted af Microsoft. Online-arkitekturer, der er hosted af ISV'er og lokale installationer, påvirkes ikke.
 
 I april 2022 frarådes [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Office365-godkendelsestypen (username/password). Du kan finde flere oplysninger i [Frarådelse af Office365-godkendelsestype](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Derudover i marts 2021 fraråder [!INCLUDE[prod_short](includes/prod_short.md)] brugen af klienthemmelig-baseret service-to-service-godkendelse til online lejer, og det kræver, at der bruges certifikatbaseret service til service-godkendelse for forbindelser til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online-lejere, der er hosted af ISV'er og lokale installationer, kan fortsætte med at bruge klientens hemmelige godkendelse til at oprette forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: non-inventoriable
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f4047e6d1a8a7533933fd8faefe9a43f22f23e6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 328417821e8e5cc14bc8267e64687ce2a14f15af
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445572"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588547"
 ---
 # <a name="work-with-catalog-items"></a>Arbejde med katalogvarer
 Du kan tilbyde bestemte varer til dine kunder, som du ikke vil administrere i dit system, før du begynder at sælge dem. Når du vil begynde at administrere sådanne varer i systemet, kan du konvertere dem til normale varekort på to måder.
@@ -66,7 +66,7 @@ Der oprettes et nyt varekort, der er udfyldt på forhånd med oplysninger fra ka
 Du kan derefter udfylde eller redigere felterne på det nye varekort efter behov. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 
 > [!NOTE]  
->   Der oprettes automatisk en varereferencepost for kreditoren til varen mellem leverandørens varenummer og dit nye varenummer. Du kan finde flere oplysninger i [Bruge varereferencer](inventory-how-use-item-cross-refs.md).
+>   Der oprettes automatisk en varereference for kreditoren til varen mellem leverandørens varenummer og dit nye varenummer. Du kan finde flere oplysninger i [Bruge varereferencer](inventory-how-use-item-cross-refs.md).
 
 ## <a name="see-also"></a>Se også
 [Registrere nye varer](inventory-how-register-new-items.md)  

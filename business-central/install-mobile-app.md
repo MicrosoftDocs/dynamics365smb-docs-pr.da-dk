@@ -1,21 +1,21 @@
 ---
 title: Hent Business Central til din mobilenhed
 description: I dette emne beskrives de forskellige måder, du kan få vist og redigere Business Central-data, sende til Excel og meget mere på din telefon eller tablet.
-author: edupont04
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: phone, tablet
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 7f2d86ab1ba8f3ee0ae77aad16b64feb0fa1fe4f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.search.keywords: desktop, Windows, app
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1097689e7fc06e7d1f2f3dede95c978a3316e975
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323996"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588272"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Få Business Central på din mobilenhed
 
@@ -23,11 +23,12 @@ Få adgang til dine [!INCLUDE[prod_short](includes/prod_short.md)]-data fra din 
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
 
+> [!TIP]
+> Vil du have en app på din Windows- eller macOS-computer? Se [Hent Business Central Desktop App](install-desktop-app.md).
+
 ## <a name="get-the-app-on-my-mobile-device"></a>Hent appen på din mobilenhed.
 
-1. Installer [!INCLUDE[prod_short](includes/prod_short.md)]-appen på mobilenheden ved at hente appen fra Windows Store, App Store eller Google Play.  
-
-   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (kun pc)
+1. Installer [!INCLUDE[prod_short](includes/prod_short.md)]-appen på mobilenheden ved at hente appen fra App Store eller Google Play.  
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Start appen fra din mobilenhed.
@@ -44,9 +45,8 @@ Du skulle nu have adgang til [!INCLUDE[prod_short](includes/prod_short.md)] og k
 
 Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan du også nyde fordelene ved mobilappen. Installationen er den samme, men med et par undtagelser.
 
-1. Installer [!INCLUDE[prod_short](includes/prod_short.md)]-appen på mobilenheden ved at hente appen fra Windows Store, App Store eller Google Play.  
+1. Installer [!INCLUDE[prod_short](includes/prod_short.md)]-appen på mobilenheden ved at hente appen fra App Store eller Google Play.  
 
-   - [Windows Store](https://go.microsoft.com/fwlink/?LinkId=734848) (kun pc)
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
    - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Start appen fra din mobilenhed.

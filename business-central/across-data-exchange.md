@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 41d7ca5a8ce110d2335dd6a350636d77f2bce2c3
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 3f67cf78444e263932897948f93c8ece028989d8
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325809"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588372"
 ---
 # <a name="exchanging-data-electronically"></a>Udveksle data elektronisk
 Du kan bruge dataudvekslingsstrukturen til at håndtere udveksling af forretningsdokumenter, bankfiler, valutakurser og andre datafiler med dine samarbejdspartnere.
 
-I standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] er dataudvekslingsstrukturen brugt i funktioner som f.eks. elektroniske dokumenter, import/eksport af bankfiler og opdateringer af valutakurser. Du kan finde flere oplysninger i [Om dataudvekslingsstrukturen](across-about-the-data-exchange-framework.md).
+I standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] er dataudvekslingsstrukturen brugt i processer som f.eks. udveksling af elektroniske dokumenter, import/eksport af bankfiler og opdateringer af valutakurser. Du kan finde flere oplysninger i [Om dataudvekslingsstrukturen](across-about-the-data-exchange-framework.md).
 
 Som administrator eller Microsoft-partner kan du bruge strukturen i nye integrationsfunktioner ved at definere, hvilke data der skal udveksles og hvordan. Du kan finde flere oplysninger i [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
 

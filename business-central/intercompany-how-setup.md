@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4de43cc0430522b6d4e3566e43eaba945cd2dff2
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 1d822b61c9ed64d970d2d17939a359d898513e2d
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440461"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587576"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Konfigurere bogføring af koncernintern transaktion
 

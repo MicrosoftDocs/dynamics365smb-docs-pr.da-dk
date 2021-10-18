@@ -1,5 +1,5 @@
 ---
-title: Bruge varereferencer
+title: Anvend varereferencer
 description: Konfigurer referencer mellem de beskrivelser, som du og leverandøren bruger til en vare, så du kan indsætte leverandørens varebeskrivelse på købsdokumenter.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,22 +10,26 @@ ms.workload: na
 ms.search.keywords: item reference, cross reference, inventory
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 853c574f5b262f7b826bc92dd8e35484e902c1f4
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4eed6fce594b0b6835020fcdddb7275489b4d160
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444941"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588597"
 ---
-# <a name="use-item-cross-references"></a>Bruge varereferencer
+# <a name="use-item-references"></a>Anvend varereferencer
 Hvis du har oprettet en reference mellem varebeskrivelsen, du bruger til en vare, og den beskrivelse, som leverandøren af den pågældende vare bruger, indsættes leverandørens varebeskrivelse automatisk i købsdokumenter for leverandøren, når du udfylder feltet **Varereferencenr.** . De samme funktioner gælder for debitorvarenumre i salgsdokumenter.
 
 Følgende procedurer beskriver, hvordan du kan bruge varereferencer på købssiden. Fremgangsmåden er den samme på salgssiden.
 
 > [!NOTE]
-> Det bliver mere almindeligt for vare-id'er, f.eks. GTIN eller GUID, der indeholder 30 eller flere tegn, hvilket er mere end den aktuelle funktion for varereferencer, der kan håndtere. Hvis du skal bruge referencer, der indeholder mere end 30 tegn, kan administratoren aktivere funktionen **Skriv længere varereferencer** på siden [Funktionsstyring](https://businesscentral.dynamics.com/?page=2610) (linket kræver, at du har en [!INCLUDE[prod_short](includes/prod_short.md)]-lejer). Hvordan du bruger referencer, ændres ikke, men navnene på ting som f.eks. sider og knapper ændres. F.eks. bliver siden **Varens krydshenvisningsposter** til **Varereferenceposter**.
+> Ikke alle firmaer bruger varereferencer, så for at minimere rod på sider har vi skjult de relaterede felter og handlinger. Hvis du beslutter dig for at bruge dem, kan du aktivere til/fra-knappen **Brug varereferencer** på siden **Lageropsætning**. Når du har aktiveret varereferencer, er felterne og handlingerne tilgængelige på siderne Varekort, Kreditorkort og Debitorkort samt fra salgs- og købsdokumenter.
 
-## <a name="to-set-up-an-item-cross-reference-to-a-vendors-item-description"></a>Sådan oprettes en varereference til en kreditors varebeskrivelse
+## <a name="to-start-using-item-references"></a>Sådan begyndes du at bruge elementreferencer
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Lager**, og vælg derefter det relaterede link.
+2. Aktivér til/fra-knappen **Brug varereferencer**.
+
+## <a name="to-set-up-an-item-reference-to-a-vendors-item-description"></a>Sådan oprettes en varereference til en kreditors varebeskrivelse
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for den vare, som du vil oprette en reference for til den varebeskrivelse, som leverandøren bruger til den pågældende vare.

@@ -1,7 +1,7 @@
 ---
 title: Afstemme bankkonti
-description: Dette beskriver, hvordan du kan udføre bankafstemninger med siden **Bankkontoafstemning**, og hvordan lagerværdien afstemmes med finansbogholderiet.
-author: SorenGP
+description: Dette emne beskriver, hvordan du kan afstemme transaktionerne på de interne bankkonti med transaktionerne i kontoudtog fra banken.
+author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: c87836658bfdf1dc8497e4d8771d77b315733913
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.author: bholtorf
+ms.openlocfilehash: faf13d81c24c2b7ea566f90411b302579c4003ee
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435398"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587805"
 ---
 # <a name="reconcile-bank-accounts"></a>Afstemme bankkonti
 
@@ -77,12 +77,18 @@ Ruden **Bankkontoudtogslinjer** udfyldes i henhold til fakturaer i [!INCLUDE[pro
 1. På siden **Bankkontoafstemning** skal du vælge handlingen **Foreslå linjer**.
 2. Angiv den tidligste dato for de poster, der skal afstemmes, i feltet **Startdato**.
 3. Angiv den seneste dato for de poster, der skal afstemmes, i feltet **Slutdato**.
-4. Marker afkrydsningsfeltet **Medtag check**, hvis du vil foreslå checkposter i stedet for de tilsvarende bankkontoposter.
-5. Vælg knappen **OK**.
+
+> [!NOTE]
+> Slutdatoen svarer typisk til den dato, der er angivet i feltet **Kontoudtogsdato**. Men hvis du vil afstemme transaktioner for en del af en periode, kan du angive en anden slutdato. 
+
+1. Marker afkrydsningsfeltet **Medtag check**, hvis du vil foreslå checkposter i stedet for de tilsvarende bankkontoposter.
+1. Vælg knappen **OK**.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Sådan afstemmes kontoudtogslinjer automatisk med bankposter
 
 Siden **Bankkontoafstemning** indeholder automatisk matchningsfunktionalitet, der er baseret på en sammenligning af tekst i en bankkontoudtogslinje (venstre rude) med tekst i en eller flere bankkontoposter (højre rude). Bemærk, at du kan overskrive den foreslåede automatiske afstemning, og du kan vælge slet ikke at bruge automatisk afstemning. Du kan finde flere oplysninger i [Sådan afstemmes bankkontoudtoglinjer manuelt med bankposter](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
+
+Auto match af poster, der er baseret på et sæt betalings udlignings regler. Du kan finde flere oplysninger i [Konfigurere regler for automatisk udligning af betalinger](receivables-how-set-up-payment-application-rules.md). Du kan undersøge udgangspunktet for matches ved at bruge handlingen **match detaljer**. Detaljerne vil f. eks. omfatte navnene på de felter, der indeholdt identiske værdier.  
 
 1. På siden **Bankkontoafstemning** skal du vælge **Match automatisk**. Siden **Afstem bankposter** åbnes.
 2. I feltet **Transaktionsdatotolerance (dage)** skal du angive antallet af dage før og efter bankpostens bogføringsdato, hvorimellem funktionen skal søge efter tilsvarende transaktionsdatoer i kontoudtoget.
@@ -93,15 +99,22 @@ Siden **Bankkontoafstemning** indeholder automatisk matchningsfunktionalitet, de
     Alle bankkontoudtogslinjer og bankposter, der kan afstemmes, ændrer farve til grøn skrifttype, og afkrydsningsfeltet **Udlignet** markeres.
 4. For at fjerne et match skal du markere bankkontoudtogslinjen og derefter vælge handlingen **Fjern match**.
 
-## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Sådan afstemmes bankkontoudtoglinjer manuelt med bankposter
+> [!TIP]
+> Du kan bruge en blanding af manuel og automatisk matchning. Hvis du har matchet poster manuelt, overskriver den automatiske matchning ikke dine valg. 
 
+## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Sådan afstemmes bankkontoudtoglinjer manuelt med bankposter
 1. På siden **Bankkontoafstemning** skal du vælge en ikke-udlignet linje i ruden **Bankkontoudtogslinjer**:
 2. I ruden **Bankkontoposter** skal du vælge en eller flere bankkontoposter, der kan afstemmes med den valgte bankkontoudtogslinje. Hvis du vil vælge flere linjer, skal du trykke på og holde Ctrl-tasten nede.
+
+   > [!TIP]
+   > Du kan også manuelt sammenholde flere bankkontoudtogslinjer med én bankpost. Dette kan f. eks. være nyttigt, hvis bank indbetalingen indeholder flere betalingsmetoder, f. eks. kreditkort fra forskellige udstedere, og din bank viser dem som separate linjer. 
 3. Vælg handlingen **Match manuelt**.
 
     Den valgte bankkontoudtogslinje og de valgte bankposter ændrer farve til grøn skrifttype, og afkrydsningsfeltet **Udlignet** i højre rude markeres.
 4. Gentag trin 1 til 3 for alle kontoudtogslinjer, der ikke er afstemt.
-5. For at fjerne et match skal du markere bankkontoudtogslinjen og derefter vælge handlingen **Fjern match**.
+
+> [!TIP]
+> For at fjerne et match skal du markere bankkontoudtogslinjen og derefter vælge handlingen **Fjern match**. Hvis du har knyttet flere bankkontoudtogslinjer til en post og har behov for at fjerne en eller flere af de matchede linjer, fjernes alle de manuelle matches for posten, når du vælger **Fjern match**. 
 
 ## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines-with"></a>Sådan oprettes manglende poster, som bankkontoudtogslinjer skal afstemmes med
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: fda901d7737d7818b7ebc965d9babf1f0868f1de
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: d60dbe10adf00c375121e2fc944b626e48d28970
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322168"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587476"
 ---
 # <a name="business-process-walkthroughs"></a>Gennemgang af forretningsprocesser
 
@@ -24,7 +24,7 @@ Dette udvalg af gennemgange giver trinvise komplette forretningsprocesser, som d
  Gennemgangene er komplette scenarier og bør udføres fra start til slut for at give optimalt udbytte. Mange af dem er baseret på [!INCLUDE[prod_short](includes/prod_short.md)]-demonstrationer og giver dig mulighed for at prøve disse procedurer selv, i dit eget tempo.  
 
 > [!NOTE]
-> Nogle gennemgange kræver eksempeldata, der ikke er tilgængelige i standarddemonstrationsvirksomheden i [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [To create a company with complete sample data in a sandbox](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox). -->
+> Nogle gennemgange kræver eksempeldata, der ikke er tilgængelige i standarddemonstrationsvirksomheden i [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [Sandbox Environments](admin-sandbox-environments). -->
 
 |Hvis du vil|Skal du se|  
 |--------|---------|  

@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 384bbdbc3630928298367956da133b0b488559b8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783505"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588803"
 ---
 # <a name="setting-up-posting-groups"></a>Konfigurere bogføringsgrupper
 Bogføringsgrupper knytter enheder som debitorer, kreditorer, varer, ressourcer og salgs- og købsdokumenter til finanskonti. De sparer tid, og du undgå nemmere fejl, når du bogfører transaktioner. Transaktionsværdier går til de konti, der er angivet i bogføringsgruppen for den pågældende enhed. Det eneste krav er, at du har en kontoplan. Du kan finde flere oplysninger i [Konfigurere kontoplanen](finance-setup-chart-accounts.md).  
@@ -74,6 +74,14 @@ Din opsætning bestemmer, hvornår bogføringen foretages. For eksempel afhænge
 
 ## <a name="copying-posting-setup-lines"></a>Kopiere bogføringsopsætningslinjer
 Jo flere produkt- og virksomhedsbogføringsgrupper, du har, jo flere linjer ser du på siden Bogføringsopsætning. Dette kan betyde en masse dataangivelse for at konfigurere bogføringsopsætningen for virksomheden. Selvom der muligvis er mange forskellige kombinationer af virksomheds- og produktbogføringsgrupper, kan forskellige kombinationer stadig bogføre til de samme finanskonti. Hvis du vil begrænse mængden af manuel dataangivelse, skal du kopiere finanskontiene fra en eksisterende linje på siden **Bogføringsopsætning**.
+
+## <a name="troubleshooting-posting-group-errors"></a>Fejlfinding i forbindelse med bogføringsgruppefejl
+Bogføringsgrupper er et af de mere avancerede begreber, der skal konfigureres i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis de ikke er konfigureret korrekt, kan der opstå fejl ved bogføring af dokumenter eller kladdelinjer. Disse fejl skyldes f.eks. typisk en fejl i, hvordan finanskonti tildeles, eller hvordan bogføringsgrupper kombineres.
+
+Når der er noget galt, viser [!INCLUDE[prod_short](includes/prod_short.md)] siden **Fejlmeddelelser**. Siden **Fejlmeddelelser** kan gøre det nemmere at identificere og løse problemet. Siden indeholder en beskrivelse af den fejl, der påpeger den bogføringsgruppeopsætning, der kræver opmærksomhed. Meddelelsen kan f.eks. lyde "Salgsforudbetalingskontoen mangler en bogføringsopsætning". Der er også et link til at åbne siden, der er kilden til problemet, så du hurtigt kan løse det.  
+
+> [!NOTE]
+> Den fejlhåndtering, der er beskrevet ovenfor, er ikke tilgængelig i vare-, ressource-, medarbejder- og anlægsaktivkladder eller for finanskonti, der er tilføjet i lokale versioner af bogføringsgrupper.
 
 ## <a name="see-also"></a>Se også
 [Finans- og kontoplanen](finance-general-ledger.md)  

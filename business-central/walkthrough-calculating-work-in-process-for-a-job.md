@@ -1,5 +1,5 @@
 ---
-title: Gennemgang - Beregning af igangværende arbejder for en sag | Microsoft Docs
+title: Gennemgang - Beregning af igangværende arbejder for en sag
 description: Sager inkluderer forbruget af medarbejdertimer, maskintimer, lagervarer og andre brugstyper, der skal registreres, efterhånden som en sag skrider frem.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 58cc257b30829fe0b9a2fe2bdec4ef6e5a5855cc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8f508ae0f867fe63ee557df6aba727c0165464d1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445222"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588097"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Gennemgang: Beregning af igangværende arbejder for en sag
 
@@ -52,7 +52,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
 |Felt|Beskrivelse|  
 |-------------------------------------|---------------------------------------|  
-|**<blank>**|Lad stå tomt, hvis sagsopgaven er del af en gruppe opgaver.|  
+|**\<blank\>**|Lad stå tomt, hvis sagsopgaven er del af en gruppe opgaver.|  
 |**Total**|Definerer det område eller den gruppe af opgaver, der er medtaget i beregningen af VIA og registrering. Inden for gruppen vil alle sagsopgaver med **Sagsopgavetype** indstillet til **Bogføring** blive inkluderet i VIA i alt, medmindre feltet **VIA i alt** er indstillet til **Ekskluderet**.|  
 |**Udelukket**|Gælder kun for opgaver med **Sagsopgavetype** indstillet til **Bogføring**. Opgaven medtages ikke ved beregningen af VIA og registrering.|  
 

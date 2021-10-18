@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 656def609801a85716a4afe57d603fe93eb7569c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4d15eb7ee412b4b7447c179c04b4c434ec5fc8b7
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770959"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606435"
 ---
 # <a name="auditing-changes-in-business-central"></a>Ændringer af revision i Business Central
 En almindelig udfordring i mange forretningsstyringsprogrammer vil undgå uønskede ændringer i data. Det kan være alt fra et forkert kundetelefonnummer til en forkert postering i regnskabet. I dette emne beskrives mulighederne for at finde ud af, hvad der er ændret, hvem der ændrede det, og hvornår ændringen blev foretaget.
@@ -24,6 +24,7 @@ En almindelig udfordring i mange forretningsstyringsprogrammer vil undgå uønsk
 Du kan bruge funktionaliteten i ændringsloggen til at spore alle direkte modifikationer, som en bruger foretager af data i databasen. Du skal for hver tabel og hvert felt angive, hvad der skal registreres i loggen. Derefter skal du aktivere ændringsloggen.  
 
 Registrering af ændringer kan påvirke ydeevnen, som kan koste dig tid, og forøge størrelsen på databasen, der kan koste penge. Hvis du vil reducere disse omkostninger, skal du overveje følgende:
+
 - Vær forsigtig, når du vælger tabeller og handlinger.
 - Du skal ikke tilføje finansposter og bogførte bilag. Du skal i stedet prioritere systemfelter som f.eks. oprettet af og oprettelsesdato.
 - Undlad at bruge sporingstypen Alle felter. I stedet skal du vælge Nogle felter og kun spore de vigtigste felter.
@@ -32,7 +33,7 @@ Registrering af ændringer kan påvirke ydeevnen, som kan koste dig tid, og for�
 
 > [!Important]
 > Ændringer i poster i **ændringslogposter** efter brugerens session genstartes først, hvilket sker på følgende måde:
-<br />
+>
 > * Sessionen er udløbet og er blevet opdateret.
 > * Brugeren har valgt et andet regnskab eller Rollecenter.
 > * Bruger har logget af og på igen.
@@ -40,7 +41,7 @@ Registrering af ændringer kan påvirke ydeevnen, som kan koste dig tid, og for�
 ### <a name="working-with-the-change-log"></a>Arbejde med ændringsloggen
 Du aktiverer og deaktiverer ændringsloggen på siden **Opsætning af ændringslog**. Når en bruger aktiverer eller deaktiverer ændringsloggen, logføres denne aktivitet, så du altid kan se, hvilken bruger der har deaktiveret eller aktiveret ændringsloggen.
 
-Hvis du på siden **Opsætning af ændringslog** vælger handlingen **Tabeller**, kan du angive, hvilke tabeller du vil spore ændringer for, og hvilke ændringer du vil spore. [!INCLUDE[prod_short](includes/prod_short.md)] sporer også en række systemtabeller.
+Hvis du på siden **Opsætning af ændringslog** vælger handlingen **Tabeller**, kan du angive, hvilke tabeller du vil spore ændringer for, og hvilke ændringer du vil spore. [!INCLUDE[prod_short](includes/prod_short.md)] sporer også flere systemtabeller.
 
 > [!NOTE]
 > Du kan overvåge bestemte felter for ændringer, f.eks. felter, der indeholder følsomme data, ved at oprette felt overvågning. Hvis du vil undgå redundans, vil tabellen med feltet ikke være tilgængelig for opsætningen af ændringslog. Du kan finde flere oplysninger i [Overvågning af følsomme felter](across-log-changes.md#monitoring-sensitive-fields).
@@ -60,7 +61,10 @@ Det er vigtigt for de fleste virksomheder at holde følsomme data sikre og priva
 > Hvis du sender meddelelser via e-mail, kræver det, at du konfigurerer e-mail-funktionen i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Konfigurer mail](admin-how-setup-email.md).
 
 ### <a name="setting-up-field-monitoring"></a>Klargøring af Feltovervågning
-Du kan bruge installationsprogrammet **Overvågning af klargøring af feltovervågning** til at angive de felter, der skal overvåges, på basis af filterkriterier, f.eks. klassificeringen af data følsomhed for felterne. Du kan finde flere oplysninger i [Klassificere datafølsomhed](admin-classifying-data-sensitivity.md). Du kan også bruge vejledningen til at angive den person, der skal modtage en e-mail-notifikation, når der sker ændringer, og den e-mail-konto, der sender besked-e-mailen. Du skal angive både brugermeddelelsen og den konto, som du vil sende notifikationen fra. Når du er færdig med guiden, kan du administrere indstillingerne for feltovervågning på siden **Opsætning af feltovervågning**. 
+Du kan bruge installationsprogrammet **Overvågning af klargøring af feltovervågning** til at angive de felter, der skal overvåges, på basis af filterkriterier, f.eks. klassificeringen af data følsomhed for felterne. Du kan finde flere oplysninger i [Klassificere datafølsomhed](admin-classifying-data-sensitivity.md). Du kan også bruge vejledningen til at angive den person, der skal modtage en e-mail-notifikation, når der sker ændringer, og den e-mail-konto, der sender besked-e-mailen. Angiv både brugermeddelelsen og den konto, som du vil sende notifikationen fra. Når du er færdig med guiden, kan du administrere indstillingerne for feltovervågning på siden **Opsætning af feltovervågning**. 
+
+> [!NOTE]
+> Når du angiver den e-mail-konto, der skal sendes beskeder fra, skal du tilføje enten kontotyperne **Microsoft 365** eller **SMTP**. Meddelelser skal sendes fra en konto, der ikke er knyttet til en aktuel bruger. Du kan derfor ikke vælge kontotypen **Aktuel bruger**. Hvis du gør det, sendes der ikke beskeder. 
 
 Over tid vil listen over poster på siden **Overvågning af feltlogposter** vokse. Hvis du vil reducere antallet af poster, kan du oprette en opbevaringspolitik, der sletter poster efter en angivet periode. Du kan finde flere oplysninger i [Definere opbevaringspolitikker](admin-data-retention-policies.md).
 
@@ -73,7 +77,13 @@ Du kan administrere indstillingerne for felt overvågning, f.eks. om der skal se
 
 ### <a name="working-with-field-monitoring"></a>Arbejde med feltovervågning
 
-Alle ændrede værdier for overvågede felter er tilgængelige på siden over **Overvågning af feltlogposter**. F. eks. indeholder poster oplysninger som f.eks. det felt, værdien er ændret for, de oprindelige og nye værdier, og som foretog ændringen, og hvornår de gjorde det. Hvis du vil undersøge en ændring, skal du vælge en værdi for at åbne den side, hvor den blev oprettet. Hvis du vil have vist en liste over alle poster, skal du vælge **Feltændringsposter**.
+Alle ændrede værdier for overvågede felter er tilgængelige på siden over **Overvågning af feltlogposter**. Indtast følgende oplysninger til dette eksempel:
+
+* Feltet, værdien er ændret for.
+* De oprindelige og nye værdier.
+* Hvem der foretog ændringen, og hvornår de gjorde det. 
+
+Hvis du vil undersøge en ændring, skal du vælge en værdi for at åbne den side, hvor den blev oprettet. Hvis du vil have vist en liste over alle poster, skal du vælge **Feltændringsposter**.
 
 ### <a name="viewing-field-monitoring-telemetry"></a>Få vist feltovervågningstelemetri 
 

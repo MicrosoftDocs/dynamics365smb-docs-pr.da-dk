@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: d6c67ea5529e885483858064201a1d850bab7eff
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: fdacd0fcfd681d641f7c81249632662e90707951
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649858"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588878"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Du kan bruge opgavekøer til at planlægge opgaver
 
@@ -60,6 +60,15 @@ I følgende tabel beskrives værdierne i feltet **Status**.
 
 > [!TIP]
 > Du kan også få vist status for opgavekøposter ved hjælp af Application Insights i Microsoft Azure til mere dybdegående analyse baseret på telemetri. Du kan finde flere oplysninger i [Overvågning og analyse af telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) og [Analyse af sporingstelemetri for opgavekøs levetid](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) i [!INCLUDE [prod_short](includes/prod_short.md)] indholdet til udviklere og administration.
+
+## <a name="view-scheduled-tasks"></a>Vis planlagte opgaver
+
+Siden **Planlagte opgaver** i [!INCLUDE [prod_short](includes/prod_short.md)] viser, hvilke opgaver der er klar til kørsel i opgavekøen. Siden indeholder også oplysninger om den virksomhed, som hver opgave er konfigureret til at køre i. Det er dog kun de opgaver, der er markeret som tilhørende det aktuelle miljø, der kan køres.  
+
+Hvis det aktuelle regnskab f. eks. er i et miljø, som er en kopi af et andet miljø, stoppes alle planlagte opgaver automatisk. Brug siden **Planlagte opgaver** til at indstille, hvilke opgaver der er klar til kørsel i opgavekøen.  
+
+> [!NOTE]
+> Interne administratorer og brugere kan planlægge kørsel af opgaver. Uddelegerede administratorer kan ikke.
 
 ## <a name="the-my-job-queue-part"></a>Delen Min opgavekø
 Delen **Min opgavekø** i dit rollecenter viser de poster i opgavekøen, som du har startet, men som ikke er færdige endnu. Som standard er delen ikke synlig, så du skal føje den til dit rollecenter. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).  

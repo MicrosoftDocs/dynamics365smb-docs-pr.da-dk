@@ -1,7 +1,6 @@
 ---
 title: Administrere lager
 description: Dette emne beskriver, hvordan du administrerer de fysiske produkter, som du handler i, ved at oprette et varekort.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -11,14 +10,15 @@ ms.workload: na
 ms.search.keywords: warehouse, stock
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 022d48ad3069729736794976301db7fe2c6a6b47
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 9290d61245eec3331be315adf00e3e71a7fb5e97
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482268"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587886"
 ---
-# <a name="how-to-manage-inventory"></a>Fremgangsmåde: Regulere lagerbeholdningen
+# <a name="manage-inventory"></a>Administrere lager
+
 For hvert fysisk produkt, som du vil handle med, skal du oprette et varekort af typen **Lager**. De varer, du tilbyder kunderne, men ikke lagerfører, kan du registrere som katalogvarer, som du kan konvertere til lagervarer, når det er nødvendigt. Du kan øge eller mindske antallet af en vare på lager ved at bogføre direkte til vareposterne, f.eks. efter en fysisk optælling eller hvis du ikke registrerer indkøb.
 
 Lagerforøgelser og -reduktioner registreres naturligt også, når du bogfører købs- og salgsdokumenter. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md) og [Sælge produkter](sales-how-sell-products.md) og [Fakturere salg](sales-how-invoice-sales.md). Overførsler mellem lokationer ændrer lagerbeholdningen på tværs af virksomhedens lagersteder.   
@@ -54,7 +54,7 @@ I følgende tabel beskrives relaterede opgaver.
 |Oprette varesporing, så du kan spore vareserienumre, f. eks. for at spore varer i tilfælde af rekald.|[Konfigurere varesporing med serie-, lot- og pakkenumre](inventory-how-setup-item-tracking.md)|
 |Tildel et udgående eller indgående dokument eller en kladdelinje serienumre eller lotnumre.|[Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)|
 |Find, hvor et serie- eller lotnummer blev brugt i forsyningskæden, f.eks. i tilfælde af tilbagekaldelse.|[Spore vare via varesporing](inventory-how-to-trace-item-tracked-items.md)|
-|Konfigurer en kreditors eller debitors egen varebeskrivelse på dit varekort, så du hurtigt kan indsætte deres varebeskrivelse i handelsdokumenter.|[Bruge varereferencer](inventory-how-use-item-cross-refs.md)|
+|Konfigurer en kreditors eller debitors egen varebeskrivelse på dit varekort, så du hurtigt kan indsætte deres varebeskrivelse i handelsdokumenter.|[Anvend varereferencer](inventory-how-use-item-cross-refs.md)|
 |Spær for, at varer kan angives på salgs- eller købslinjer eller for, at de bogføres i nogen posteringer.|[Spærre for varer](inventory-how-block-items.md)|
 |Administrer forretningsaktiviteter på salgskontorer, indkøbsafdelinger eller fabriksplanlægningskontor på tværs af flere lokationer.|[Arbejde med ansvarscentre](inventory-responsibility-centers.md)|
 |Bruge ressourcer med specifikke kvalifikationer til forskellige tjenester og serviceartikler.|[Opsætte ressourceallokering](service-how-setup-resource-allocation.md)|

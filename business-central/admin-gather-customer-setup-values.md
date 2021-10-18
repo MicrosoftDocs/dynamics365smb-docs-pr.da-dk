@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d38074c1ba42377707503fc87f242ad483552c93
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f0f60976283aeba5a81c9e77e329e1ba91c82ea9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443889"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589253"
 ---
 # <a name="gather-customer-setup-values"></a>Indsaml debitoropsætningsværdier
 Du kan bruge konfigurationsspørgeskemaet for at reducere arbejdsbelastningen ved implementering ved at strømline opgave til at oprette en ny virksomhed. Du kan generere konfigurationsspørgeskemaet i [!INCLUDE[prod_short](includes/prod_short.md)] og derefter give det til kunden som en Excel- eller XML-fil.  
@@ -32,7 +32,7 @@ Du kan bruge et spørgeskema til at hjælpe dig med at afgøre omfanget af og be
 
 <!-- A configuration questionnaire has the following structure
 * The name of the questionnaire itself
-* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company informtion. Typically, configuration questionnaires have many question groups
+* Question Areas that group questions about a similar subject. For example, you might create a question area that focuses on entering company information. Typically, configuration questionnaires have many question groups
 * Questions that are closed ended, meaning that the customer must choose an answer, and can choose only one. -->
 
  Du kan kun oprette spørgeskemaer til tabeller af opsætningstypen. Du kan f.eks. bruge værktøjet til at angive oplysninger på følgende sider:  
@@ -50,9 +50,9 @@ Du kan bruge et spørgeskema til at hjælpe dig med at afgøre omfanget af og be
 -   Logistikopsætning  
 
 > [!NOTE]  
->  Hvis du vil se en komplet liste over opsætningstabeller, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Konfiguration**, og vælg derefter det relaterede link. Til at afgøre omfanget af overflytning af data i poster, skal du bruge funktionerne til overflytning. Du kan finde flere oplysninger i [Overflytning af debitordata](admin-migrate-customer-data.md).  
+>  Hvis du vil se en komplet liste over opsætningstabeller, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Konfiguration**, og vælg derefter det relaterede link. Til at afgøre omfanget af overflytning af data i poster, skal du bruge funktionerne til overflytning. Du kan finde flere oplysninger i [Overflytning af debitordata](admin-migrate-customer-data.md).  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Spørgeskema til konfiguration**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 2.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Spørgeskema til konfiguration**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.   
 3. Gå til siden **Konfigurationsspørgeskema**, og angiv følgende i feltet **kode**... 
 <!--4. In the **Name** field, enter...
@@ -82,7 +82,7 @@ Du kan bruge et spørgeskema til at hjælpe dig med at afgøre omfanget af og be
 5. I feltet **Tabel-id** skal du vælge id'et på den tabel, du vil indsamle oplysninger om. Feltet **Tabelnavn** udfyldes automatisk.  
 6. Vælg handlingen **Opdater spørgsmål**. Hvert felt i tabellen føjes til spørgeskemaet med et spørgsmålstegn efter dets etiket.
 
-Du kan omformulere etiketten for at gøre det klart, hvordan spørgsmålet skal besvares. Hvis et felt f.eks. kaldes "Navn", kan du redigere det til at angive "Hvad er navnet på <data being collected>". Du kan også vejlede andre i feltet **Reference**, inklusive en URL-adressen til en side, der indeholder yderligere oplysninger.  
+Du kan omformulere etiketten for at gøre det klart, hvordan spørgsmålet skal besvares. Hvis et felt f.eks. kaldes "Navn", kan du redigere det til at angive "Hvad er navnet på \<data being collected\>". Du kan også vejlede andre i feltet **Reference**, inklusive en URL-adressen til en side, der indeholder yderligere oplysninger.  
 
 Du kan også slette eventuelle spørgsmål, du ikke vil medtage i spørgeskemaet.  
 
@@ -98,7 +98,7 @@ Du kan bruge konfigurationsspørgeskemaet til at strukturere og dokumentere en d
 >  Du kan også oprette dit eget konfigurationsspørgeskema, som opfylder dine behov.  
 
 1. Åbn det ønskede regnskab, du vil udfylde spørgeskemaet for.
-2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Spørgeskema til konfiguration**, og vælg derefter det relaterede link.  
+2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 3.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Spørgeskema til konfiguration**, og vælg derefter det relaterede link.  
 3. Vælg spørgeskemaet for virksomheden, og vælg derefter handlingen **Udlæs til Excel** og eventuelt handlingen **Udlæs til XML**.
 4. Få kunden til at udfylde konfigurationsspørgeskemaet ved at angive svarene i Excel-projektmappen. Der er et regneark for hvert spørgsmålsområde i spørgeskemaet.   
 5. Gem Excel-projektmappen som *XML-data*. Vælg handlingen **Indlæs fra XML**, og vælg .xml-filen med kundens svar.
@@ -131,15 +131,16 @@ Når du har fuldført din validering, er dataene klar til at blive anvendt til d
 ## <a name="to-apply-answers-from-the-configuration-questionnaire"></a>Sådan anvendes svar fra konfigurationsspørgeskemaet
 Når du har indlæst og valideret oplysninger fra et konfigurationsspørgeskema, kan du overføre eller anvende opsætningsdata til de tilsvarende tabeller i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Spørgeskema til konfiguration**, og vælg derefter det relaterede link. Siden **Konfig.spørgeskema** åbnes.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 4.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Spørgeskema til konfiguration**, og vælg derefter det relaterede link. Siden **Konfig.spørgeskema** åbnes.  
 2. Vælg et konfigurationsspørgeskema på listen, og vælg derefter handlingen **Rediger liste**.  
 3. Du kan anvende svar på en af to måder.  
 
 - Hvis du vil anvende hele spørgeskemaet, skal du vælge handlingen **Anvend svar**.  
 - Hvis du vil anvende svar kun for et bestemt **Spørgsmålsområde**, skal du vælge handlingen **Spørgeområder**, vælge et **Spørgsmålsområde** på listen og derefter vælge handlingen **Anvend svar**.  
 
-### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Sådan kontrollerer du, at svarene er blevet anvendt korrekt  
-1. Kontrollér opsætningssiderne for de forskellige funktionelle områder i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde siden ved at vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") og angive navnet på opsætningssiden og derefter vælge det relaterede link.  
+### <a name="to-verify-that-answers-have-been-applied-successfully"></a>Sådan kontrollerer du, at svarene er blevet anvendt korrekt
+
+1. Kontrollér opsætningssiderne for de forskellige funktionelle områder i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde siden ved at vælge ikonet ![Elpære, der åbner funktionen Fortæl mig 5](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") og angive navnet på opsætningssiden og derefter vælge det relaterede link.  
 2. Kontrollér, at felterne er blevet udfyldt med de korrekte data fra de forskellige spørgsmålsområder i konfigurationsspørgeskemaet.  
 
 Du har nu konfigureret opsætning med debitorens forretningsmæssige oplysninger og regler.

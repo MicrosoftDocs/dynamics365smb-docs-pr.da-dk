@@ -1,21 +1,21 @@
 ---
 title: 'Fremgangsmåde: Indtaste data Business Central'
 description: Der er mange generelle funktioner, der hjælper dig med at indtaste data lettere, hurtigere og mere nøjagtigt. De grundlæggende principper og avancerede funktioner beskrives her.
-author: SorenGP
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 5832f30074c1e1d8215c705c19d75594fc017593
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.search.keywords: decimal separator, data entry, focus
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443664"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588953"
 ---
 # <a name="entering-data"></a>Angivelse af data
 
@@ -35,7 +35,6 @@ Visse redigerbare felter indeholder en vælger, der kan hjælpe dig med at angiv
 |Rullemenu          |Rullemenuer giver dig mulighed for at vælge faste værdier eller referenceposter fra en anden tabel|
 |Skifteknap eller afkrydsningsfelt|Nogle felter giver mulighed for at vælge mellem *Ja-* eller *Nej*-værdier. Parameteren bruges til at angive denne værdi og vises altid som et afkrydsningsfelt i lister|
 |Assisteret redigering       |Nogle felter indeholder brugerdefinerede vælgere, der er gode til at søge efter og vælge den bedste værdi til feltet, f.eks. et pop op-vindue|
-
 
 ### <a name="modifying-a-field-value"></a>Ændring af en feltværdi
 
@@ -58,7 +57,6 @@ Når markøren vises i slutningen af feltværdien:
 
 > [!NOTE]
 > Når du har angivet en værdi, vil Business Central kun kontrollere, at den er gyldig, når du har klikket uden for feltet eller fokuseret på et andet element, f.eks. det næste felt.  
-
 
 ## <a name="keyboard-shortcuts"></a>Tastaturgenveje
 
@@ -267,9 +265,16 @@ Her er nogle eksempler.
 
  Tallet 5 konverteres til 5 timer, hvis måleenheden er timer.  
 
-## <a name="see-also"></a>Se også  
- [Sortering af, søgning i og filtrering af lister](ui-enter-criteria-filters.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Angive den decimalseparator, der bruges af numeriske tastaturer
+
+Når du bruger decimalseparatortasten for numerisk tastatur til at indtaste data, bestemmes den faktiske decimalseparator, der er angivet i feltet, af områdeindstillingen for Business Central. Du angiver området i Business Central på siden **Mine indstillinger**.
+
+Antag f.eks., at du bruger et numerisk tastatur, der bruger et punkt (.) som decimalseparatortast. Men du indtaster data for et regionalt sprog, der bruger et komma (**,**) til decimalseparatoren, f.eks. dansk (Danmark) eller fransk (Frankrig). Decimaler som "1,23" skal derfor angives som "1,23". I dette tilfælde kan du gå til siden **Mine indstillinger** og indstille **regionen** til det nationale målsprog, f.eks. **Dansk (Danmark)** eller **Fransk (Frankrig)**. Du kan finde flere oplysninger i [Ændre grundlæggende indstillinger](ui-change-basic-settings.md#region).
+
+## <a name="see-also"></a>Se også
+
+[Sortering af, søgning i og filtrering af lister](ui-enter-criteria-filters.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

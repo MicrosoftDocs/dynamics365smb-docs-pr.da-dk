@@ -1,8 +1,6 @@
 ---
-title: Kobling og synkronisering | Microsoft Docs
+title: Kobling og synkronisering
 description: Synkronisering af en integreret tabeltilknytning muliggør synkronisering af data i alle records i en tabel i Business Central og Dynamics 365 Sales-tabellen, der er sammenkædet.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
-ms.date: 04/01/2021
+ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 53b12b6ab7e53a20bb1b8fcc659b2f1454e85321
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8e2b36b4b90e1cc348ef381a6d0f6145a87ed043
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779928"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588722"
 ---
-# <a name="coupling-and-synchronizing"></a>Kobling og synkronisering
+# <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Kobling og synkronisering af poster mellem Dataverse og Business Central
+
 Dette emne handler om, hvordan du sammenkæder en eller flere poster i [!INCLUDE[prod_short](includes/prod_short.md)] med poster i Dataverse or [!INCLUDE[crm_md](includes/crm_md.md)]. Sammenkædning af records lader dig se Dataverse-oplysninger i [!INCLUDE[prod_short](includes/prod_short.md)] og omvendt. Sammenkædningen gør det også muligt at synkronisere data mellem records. Du kan sammenkæde eksisterende records eller oprette og sammenkæde nye records.
 
 > [!Note]
@@ -48,6 +47,14 @@ Dette emne handler om, hvordan du sammenkæder en eller flere poster i [!INCLUDE
 
 > [!Note]
 > Du kan kun synkronisere en enkelt post fra [!INCLUDE[crm_md](includes/crm_md.md)] automatisk, når **Synkroniser kun sammenkædede poster** er deaktiveret, og synkroniseringsretningen angives til Tovejs eller Fra integrationstabel på siden **Integrationstabelknytning** for posten. Få flere oplysninger i [Tilknytning af tabeller og felter, der skal synkroniseres](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
+
+## <a name="to-couple-multiple-records-using-match-based-coupling"></a>Sådan sammensætter du flere poster ved hjælp af matchbaseret sammenkædning
+
+Du kan angive de data, der skal synkroniseres for et objekt, f.eks. kunde eller kontakt ved at sammenkæde poster baseret på matches. Du kan begrænse overensstemmelserne ved at gøre søgningen forskel og tildele en prioritet for hver match. Hvis der ikke findes noget match, kan du også angive, at du vil oprette objektet i Dataverse. Yderligere oplysninger finder du under [Tilpasse den matchbaserede sammenkædning](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
+
+1. Åbn listesiden i [!INCLUDE[prod_short](includes/prod_short.md)] den record, f.eks. listesiderne for kunder (debitorer) eller kontakter.
+2. Vælg den **matchbaserede sammenkædningshandling**.
+3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-synchronize-multiple-records"></a>Sådan synkroniseres flere records  
 1.  Åbn listesiden i [!INCLUDE[prod_short](includes/prod_short.md)] den record, f.eks. listesiderne for kunder (debitorer) eller kontakter.  

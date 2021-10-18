@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dcd316d7d1d360733ff15b67cc5a293576812611
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dbe5b2b5fd623d37f144a07b6570f6ee0714f9b9
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444039"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588322"
 ---
 # <a name="working-with-power-bi-reports-in-prod_short"></a>Arbejde med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -78,7 +78,7 @@ Hvis du vil lære, hvordan du opretter rapporter for listesider, skal du se [Opr
 
 En Power BI-del på en side kan vise alle de Power BI-rapporter, der er tilgængelige for dig. Hvis du vil skifte til at få vist en anden rapport, skal du vælge handlingen **Vælg rapport** på rullelisten over kommandoer øverst i delen.  
 
-På siden **Power BI-rapportvalg** vises en liste over alle de Power BI-rapporter, du har adgang til. Denne liste hentes fra Power BI-arbejdsområdet. Vælg **Aktivér** for hver enkelt rapport, der skal vises på startsiden, og vælg derefter **OK**. Du vender tilbage til siden, og den sidste rapport, du har aktiveret, vises. Brug kommandoen **Forrige** og **Næste** til at navigere mellem rapporterne på kommandorullelisten.  
+På siden **Power BI-rapportvalg** vises en liste over alle de Power BI-rapporter, du har adgang til. Denne liste hentes fra dine arbejdsområder eller arbejdsområder, som du har delt med dig i Power BI.tjenesten. Vælg **Aktivér** for hver enkelt rapport, der skal vises på startsiden, og vælg derefter **OK**. Du vender tilbage til siden, og den sidste rapport, du har aktiveret, vises. Brug kommandoen **Forrige** og **Næste** til at navigere mellem rapporterne på kommandorullelisten.  
 
 ### <a name="get-more-reports"></a>Hente flere rapporter
 

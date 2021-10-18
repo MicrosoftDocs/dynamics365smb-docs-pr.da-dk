@@ -8,16 +8,16 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: af5bdf35a2868e735aed32c120a2dcc943391e3e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3322199feee09c656b01c7723a8c95396015cde4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435240"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588447"
 ---
 # <a name="send-documents-and-emails"></a>Sende dokumenter og e-mails
 
-Du kan nemt dele oplysninger og dokumenter, f.eks. salgs- og købsordrer og fakturaer, via mail direkte fra [!INCLUDE[prod_short](includes/prod_short.md)]] uden at skulle åbne en mailapp.  
+Du kan nemt dele oplysninger og dokumenter, f.eks. salgs- og købsordrer og fakturaer, via mail direkte fra [!INCLUDE[prod_short](includes/prod_short.md)] uden at skulle åbne en mailapp.  
 
 Du kan sende næsten alle typer dokumenter som vedhæftede PDF-filer. Du kan også oprette et rapportlayout, der indeholder oplysninger fra dokumentet i e-mail-teksten, sammen med tekst, som gør e-mailen mere brugervenlig, f.eks. en standardhilsen. Du kan finde flere oplysninger i [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
@@ -33,7 +33,7 @@ For at aktivere mails fra [!INCLUDE[prod_short](includes/prod_short.md)] skal du
 Denne fremgangsmåde beskriver, hvordan du vedhæfter en bogført-salgsfaktura til en e-mail som PDF-fil og med dokumentspecifik e-mail-tekst. <!--update this-->
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.
-2. Vælg den relevante bogførte salgsfaktura, og vælg derefter handlingen **Udskriv/Send**.
+2. Vælg den relevante bogførte salgsfaktura, vælg **Udskriv/Send**, og vælg derefter handlingen **Send**.
 3. I feltet **Mail** skal du vælge **Ja (Bed om indstillinger)**. Du kan finde flere oplysninger i [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).
     
     Hvis feltet **Mail** på siden **Send bilag til** indstilles til **Ja (Bed om indstillinger)**, åbnes siden **Send mail** forhåndsudfyldt med kontaktpersonen i feltet **Til:** og dokumentet vedhæftet som PDF-fil. I feltet **Tekst** kan du enten indtaste tekst manuelt, eller du kan få udfyldt feltet med dokumentspecifikke brødtekst i mail, som du har oprettet.
@@ -51,9 +51,10 @@ Denne fremgangsmåde beskriver, hvordan du vedhæfter en bogført-salgsfaktura t
 > Hvis du ikke vil angive mailindstillinger, hver gang du sender en mail med et dokument, kan du vælge indstillingen **Ja (Brug standardindstillinger)** i feltet **Mail** på siden **Send bilag til**. I så fald åbnes siden **Send mail** ikke. Se trin 4. Du kan finde flere oplysninger i [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Sådan skrives og sendes en e-mail
+Du kan hurtigt oprette e-mails til kontakter, debitorer, kreditorer, sælgere/indkøbere og bankkonti direkte fra siderne til de pågældende enheder. Vælg **proces**, og send derefter **e-mails** for at åbne e-mail-editoren. I forbindelse med bankkonti er handlingen **Send E-mail** under **Handlinger**.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **E-makilkonti**, og vælg derefter det relaterede link.
-2. Vælg den konto, e-mailen skal sendes fra, og vælg derefter handlingen **Sammensæt e-mail**.
+> [!TIP]
+> Hvis du ofte sender e-mailmeddelelser, der ligner hinanden, eller du vil sende en masse kommunikation, f. eks. for at annoncere en salgskampagne, kan du bruge Word-skabeloner med e-mail til at gøre processen hurtigere. Du kan oprette en skabelon for en eller flere enheder, f. eks. kunder, leverandører og kontakter, som vil generere indholdet af en e-mail for dig, og endda tilpasse indholdet for modtageren baseret på data i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Bruge Word-skabeloner til masse kommunikation](ui-mail-merge.md).  
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Dokumenter, der er markeret som udskrevne, når de sendes
 

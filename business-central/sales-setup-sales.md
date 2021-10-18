@@ -10,19 +10,19 @@ ms.workload: na
 ms.search.keywords: trade, sell, configure
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d2b94d03ef8aeb75e9f1300ee90cbc08c22e339c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ab745b2f0cc98081bfb9640ca9fc2a2161b62ad2
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318580"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588645"
 ---
 # <a name="setting-up-sales"></a>Konfigurere salg
 Før du kan administrere salgsprocesser, skal du konfigurere de regler og værdier, der definerer virksomhedens salgspolitikker.
 
-Du skal definere den generelle opsætning, f.eks. hvilke salgsdokumenter der kræves, og hvordan dokumenternes værdier bogføres. Denne generelle opsætning udføres typisk én gang i forbindelse med den indledende implementering.
+Du skal definere den generelle opsætning på **Salgsopsætning**, f.eks. hvilke salgsdokumenter der kræves, hvordan deres værdi angives og den type af linjer, der skal oprettes som standard. Denne generelle opsætning udføres typisk én gang i forbindelse med den indledende implementering.
 
-En særskilt sæt opgaver i forbindelse med registrering af nye debitorer er at registrere en særlig pris eller rabataftaler, du indgår med hver debitorer.
+En særskilt sæt opgaver i forbindelse med registrering af nye debitorer er at registrere en særlig pris eller rabataftaler, du indgår med hver debitorer. Du kan finde flere oplysninger i [Registrere specielle salgspriser og rabatter](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Den finansrelaterede salgsopsætning, som betalingsmetoder og valutaer, dækkes i afsnittet Konfigurere Finans. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md).
 

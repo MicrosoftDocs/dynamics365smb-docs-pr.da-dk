@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: access, right, security
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d048350c9963ae889b5320b3c78b87336197a7a9
+ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443713"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547019"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tildele rettigheder til brugere og grupper
 
@@ -158,6 +158,9 @@ I hvert af felterne for de fem adgangstyper **Læserettighed**, **Indsætteretti
 |**Ja**|Brugeren kan udføre handlingen på det pågældende objekt.|Højeste|
 |**Indirekte**|Brugeren kan udføre handlingen på det pågældende objekt, men kun via et relateret objekt, som brugeren har fuld adgang til. Du kan finde flere oplysninger om indirekte rettigheder [Rettighedsegenskab](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) i hjælpen til udviklere og it-eksperter|Næsthøjeste|
 |**Tomt**|Brugeren kan ikke udføre handlingen på det pågældende objekt.|Laveste|
+
+> [!IMPORTANT]
+> Vær forsigtig, når du tilknytter **Indsæt tilladelse** eller **Ret tilladelse** til tabellen **9001-brugergruppemedlem** eller **9003-brugergruppetilladelsessæt**. Alle brugere, der har fået tildelt et tilladelsessæt, kan tildele sig selv til andre brugergrupper, som igen kan give dem uønskede rettigheder.
 
 ### <a name="example---indirect-permission"></a>Eksempel - indirekte rettighed
 

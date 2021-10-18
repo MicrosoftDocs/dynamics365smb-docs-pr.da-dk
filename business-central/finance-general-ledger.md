@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8590571283ae810d442d514e6968c1feb9865cd8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 2e939ef134fbe008268d190d601c70694d81297c
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321110"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588622"
 ---
 # <a name="understanding-the-general-ledger-and-the-coa"></a>Om Finans og kontoplanen
 
@@ -70,6 +70,9 @@ F.eks. har standardsaldoopgørelsen en underkategori for *Kassebeholdning* under
 3. Indrykke dem under underkategorien **Kassebeholdning**.  
 
 Næste gang du genererer kontoskemaer viser din kontoopgørelse den samlede saldo for kontant og to linjer med saldi for kontantbeholdning og checkkontoen.  
+
+## <a name="getting-a-quick-overview"></a>Få et hurtigt overblik
+Kontoplan siden viser kontiene på en hierarkisk liste, der giver hurtig adgang til nøgleoplysninger for hver konto. Listen er imidlertid statisk, og hvis du har mange konti, skal du muligvis foretage en smule rulning for at få vist oplysninger om forskellige konti. Hvis du blot vil have et hurtigt overblik over det grundlæggende, f. eks. bevægelser og saldi, er siden **Oversigt over kontoplaner** et nyttigt alternativ. Kolonnelayoutet på siden er nu det samme som på siden kontoplan (der er bare færre af dem), så du ikke behøver at vende tilbage til dig selv, og du kan udvide eller skjule de hierarkiske niveauer for at gøre visningen mere aktuel. Hvis du vil gøre det nemt at skifte mellem siderne, er siden **Oversigt over kontoplan** tilgængelig på siden kontoplan.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Adgang til at oprette og redigere konti og kontokategorier
 

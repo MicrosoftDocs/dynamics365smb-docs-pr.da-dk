@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 92fc62cf5b1e2db5d1eb34ab2aa9f86823cfe3bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 499ed3db4b82a92d147f4fcdffef4df516a80bf1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435543"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588572"
 ---
 # <a name="set-up-units-of-measure"></a>Oprette måleenheder
 
@@ -27,6 +27,8 @@ Du kan konfigurere flere enheder for en vare, så du kan knytte enheder til vare
 - Tildel alternative enheder til købs -, produktions- eller salgsdokumenter for at angive, hvor mange enheder af basisenheden du håndterer ad gangen i disse processer. F.eks. kan du køber varen i paller og kun bruge den enkeltvis i din produktion.
 
 Hvis en vare lagerføres i én enhed, men produceres i en anden, kan der oprettes en produktionsordre, hvor der bruges en produktionskladdeenhed til beregning af det rigtige antal komponenter under kørslen af **Opdater produktionsordre**. Produktionskladdeenheden kan f.eks. bruges til beregning, når den producerede vare lagerføres i enheder, men produceres i ton. Du kan finde flere oplysninger i [Arbejde med produktionskladdeenheder](production-how-to-use-the-manufacturing-batch-unit-of-measure.md).  
+
+Et andet værktøj, der gør det nemmere at arbejde med flere måleenheder for varer, er muligheden for at angive en afrundingspræcision for basisenheder. Angivelse af afrundingspræcision giver vejledning om, hvad en person skal angive for en given forretningsproces, og hjælper med at reducere afrundingsproblemer. Når du bruger alternative måleenheder, hjælper værdien i feltet **Antal pr. enhed** med at beregne antallet i basisenheden, hvilket kan føre til afrundingsproblemer. Forestil dig f.eks., at du modtager en boks, der indeholder seks elementer. Når kassen ankommer til dit lager, opdager du, at en af de seks varer mangler. Du beslutter dig for ikke at bogføre modtagelsen af en boks, men i stedet ændre det modtagne antal til fem ud af seks stk. Det ville føre til en modtagelse af 4.99998 stykker, snarere end fem. På siden **Vareenheder** kan du i feltet **Afrundingspræcision for antal** angive en værdi, der skal konvertere antallet til et tal, der er lettere at forstå. Fortsætter med eksemplet, ville vi indtaste **1** i feltet for at runde op til en endnu fem stykker.
 
 ## <a name="to-set-up-units-of-measure"></a>Sådan oprettes måleenheder
 
@@ -57,11 +59,11 @@ Når du registrerer en ny vare, kan du vælge basisenheden på listen over de m�
 
     I feltet **Basisenhed** nederst i vinduet kan du vise eller ændre varens basisenhed. Du kan også ændre basisenheden i feltet **Basisenhed** på varekortet. På siden **Basisenhed** skal basisenheden have værdien **1** i feltet **Antal pr. enhed på**.
 
-Du kan nu bruge alternative enheder på købs-, produktions- og salgsdokumenter som beskrevet i afsnittet [Sådan angives en standardenhedskode for salgs-og købstransaktioner](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
+Du kan nu bruge de alternative enheder på købs-, produktions- og salgsdokumenter. Der er flere oplysninger her [Sådan angives en standardenhedskode for salgs- og købstransaktioner](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
 ## <a name="to-set-up-unit-of-measure-translations"></a>Sådan oprettes enhedsoversættelser
 
-Når du sælger varer til udenlandske kunder, kan det være nødvendigt at angive enheden på kundens sprog. Det kan du gøre, når du har defineret de nødvendige enhedsoversættelser.
+Når du sælger varer til udenlandske kunder, kan det være nødvendigt at angive enheden på kundens sprog. Det kan du gøre ved at angive oversættelser for måleenheder.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **måleenheder**, og vælg derefter det relaterede link.
 2. Marker den kode, du vil konfigurere oversættelser for, og vælg derefter handlingen **Oversættelser**.

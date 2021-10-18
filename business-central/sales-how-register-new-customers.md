@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
-ms.date: 04/01/2021
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 37ed53ba578a9c08d82a447d3f9dc970fe558a63
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 3d014015946f9202d59127d6e871aa5dd0ec90bd
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440362"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588978"
 ---
 # <a name="register-new-customers"></a>Registrere nye debitorer
 
@@ -26,23 +26,16 @@ Før du kan registrere nye debitorer, skal du oprette forskellige salgskoder, so
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Tilføje nye debitorer
+Du kan tilføje nye debitorer manuelt ved at udfylde felterne på siden **Debitorkort**, eller du kan bruge skabeloner, der indeholder foruddefinerede oplysninger. Du kan f. eks. oprette skabeloner til forskellige typer debitorprofiler. Du kan spare tid ved at bruge skabeloner, når du tilføjer nye debitorer, så oplysningerne bliver korrekte hver gang. Hvis du opretter skabeloner til mere end én type debitor, kan du vælge den skabelon, du vil bruge, når du tilføjer en debitor. Hvis du kun opretter én skabelon, vil den blive brugt til alle nye debitorer. Når du har oprettet en skabelon, kan du bruge handlingen **Anvend skabelon** for at anvende den på en eller flere valgte debitorer. Hvis du vil oprette en skabelon, skal du angive de oplysninger, du vil genbruge, på siden Debitorkort og derefter gemme den som en skabelon. Du kan finde flere oplysninger i afsnittet [Sådan gemmes debitorkortet som en skabelon](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
-Hvis du vil registrere en ny debitor, skal du udfylde et debitorkort. Du kan oprette skabeloner til forskellige debitorprofiler, eller du kan tilføje debitorer uden skabeloner. Du kan også oprette en debitor ud fra en kontakt. Du kan finde flere oplysninger i [Sådan oprettes en debitor-, kreditor-, medarbejder- eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> Det kan være nyttigt at tilpasse siden **Debitorskabeloner**, når du opretter en skabelon. Det kan f.eks. være en god ide at føje feltet **Kreditmaksimum** til en skabelon. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> Hvis der er debitorskabeloner for forskellige debitortyper, vises der automatisk på side, når du opretter et nyt debitorkort, hvorfra du kan vælge en passende skabelon. Hvis der kun er én debitorskabelon, bruger nye debitorkort altid denne skabelon.  
+Du kan også oprette en debitor ud fra en kontakt. Du kan finde flere oplysninger i [Sådan oprettes en debitor-, kreditor-, medarbejder- eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 ### <a name="to-create-a-new-customer-card"></a>Sådan oprettes et nyt debitorkort
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.  
-2. På siden **Debitorer** skal du vælge handlingen **Ny**.
-
-    Hvis der kun er ét debitorbilag, åbnes der et nyt debitorkort, hvor nogle felter er udfyldt med oplysninger fra skabelonen.
-
-    Hvis der er mere end én debitorskabelon, åbnes der automatisk på side, hvor du kan vælge en debitorskabelon. I dette tilfælde skal du følge de næste to trin.
-3. På siden **Vælg en skabelon til en ny debitor** skal du vælge den skabelon, som du vil bruge til det nye debitorkort.
-4. Vælg knappen **OK**. Et nyt debitorkort åbnes med nogle felter udfyldt med oplysninger fra skabelonen.  
-5. Fortsæt med at udfylde eller ændre felterne på debitorkortet efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+[!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 **Priser og rabatter** indeholder indstillinger for styring af special priser eller rabatter for kunden, når en ordre opfylder bestemte kriterier. F. eks. kan kriterierne være, når de køber en bestemt vare, bestiller et minimum eller køber før en dato, f. eks. Når en kampagne afsluttes. Du kan finde flere oplysninger i [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).
 

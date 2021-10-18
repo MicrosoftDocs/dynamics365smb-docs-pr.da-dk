@@ -12,19 +12,23 @@ ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ed22406b4e02c1217e2e99db0fa6bbc811bae28b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9f25ea61c41bfeb08b9283153a96b8a78ce7c9b7
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440545"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589278"
 ---
 # <a name="register-employees"></a>Registrere medarbejdere
-For at kunne bruge funktionaliteten Personale, skal du registrere de enkelte medarbejdere ved at oprette et kort med de grundlæggende og relaterede oplysninger.
+Hvis du vil bruge personale funktionen, skal du først tilføje medarbejderen ved at udfylde felterne på siden **medarbejderkort**.
+
+## <a name="adding-new-customers"></a>Tilføje nye debitorer
+Du kan tilføje nye medarbejdere manuelt ved at udfylde felterne på siden **medarbejderkort**, eller du kan bruge skabeloner, der indeholder foruddefinerede oplysninger. Du kan f. eks. oprette skabeloner til forskellige typer medarbejderprofiler. Du kan spare tid ved at bruge skabeloner, når du tilføjer nye medarbejdere, så oplysningerne bliver korrekte hver gang. Hvis du opretter skabeloner til mere end én type medarbejder, kan du vælge den skabelon, du vil bruge, når du tilføjer en medarbejder. Hvis du kun opretter én skabelon, vil den blive brugt til alle nye medarbejdere. Når du har oprettet en skabelon, kan du bruge handlingen **Anvend skabelon** for at anvende den på en eller flere valgte medarbejdere. Hvis du vil oprette en skabelon, skal du angive de oplysninger, du vil genbruge, på siden medarbejderkort og derefter gemme den som en skabelon.
+
+> [!TIP]
+> Det kan være nyttigt at tilpasse siden **medarbejderskabeloner**, når du opretter en skabelon. Du kan f. eks. tilføje et felt, der ikke allerede vises på siden. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
 Du kan til enhver tid redigere en medarbejders oplysninger. Det er lettere at udføre personaleopgaver, hvis medarbejderoplysningerne er opdateret. Hvis f.eks. en medarbejderadresse ændres, kan du registrere dette på medarbejderens kort.
-
-Følgende procedurer beskriver, hvordan du opretter et indledende medarbejderkort, og hvordan du tildeler to typer medarbejderoplysninger til en medarbejder. Du kan desuden tildele forskellige andre relaterede oplysninger, f.eks kvalifikationer og årsagerne til inaktivitet. Du tildeler medarbejderoplysninger ved at vælge et felt eller en handling på siden **Medarbejderkort**.
 
 > [!NOTE]  
 > Du kan refundere medarbejdere for deres udgifter under forretningsaktiviteter. Til dette formål skal du udfylde felterne i oversigtspanelet **Betalinger** på siden **Medarbejderkort**. Du kan finde flere oplysninger i [Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md).
@@ -35,7 +39,7 @@ Følgende procedurer beskriver, hvordan du opretter et indledende medarbejderkor
 3. På siden **Medarbejderkort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Sådan indsætte et billede af en medarbejder
-Hvis du har et billede af en medarbejder i .bmp-format, kan du indsætte det på medarbejderkortet.
+Hvis du har et billede af en medarbejder, kan du indsætte det på medarbejderkortet.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Medarbejdere**, og vælg derefter det relaterede link.
 2. Åbn kortet for den relevante medarbejder.

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.date: 06/23/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 2d4943415af6f5cd91ac35c68a9d8433e024b6be
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 662239446426cf64ac20d766e21aee55b92f9809
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445372"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587680"
 ---
 # <a name="register-new-vendors"></a>Registrere nye kreditorer
 
@@ -32,32 +32,31 @@ Kreditorkortene indeholde de oplysninger, som er en forudsætning for at købe p
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Tilføjelse af nye kreditorer
+Du kan tilføje nye kreditorer manuelt ved at udfylde felterne på siden **Kreditorkort**, eller du kan bruge skabeloner, der indeholder foruddefinerede oplysninger. Du kan f. eks. oprette skabeloner til forskellige typer kreditorprofiler. Du kan spare tid ved at bruge skabeloner, når du tilføjer nye kreditorer, så oplysningerne bliver korrekte hver gang. Hvis du opretter skabeloner til mere end én type kreditor, kan du vælge den skabelon, du vil bruge, når du tilføjer en kreditor. Hvis du kun opretter én skabelon, vil den blive brugt til alle nye kreditorer. Når du har oprettet en skabelon, kan du bruge handlingen **Anvend skabelon** for at anvende den på en eller flere valgte kreditorer. Hvis du vil oprette en skabelon, skal du angive de oplysninger, du vil genbruge, på siden Kreditorkort og derefter gemme den som en skabelon. Du kan finde flere oplysninger i afsnittet [Sådan gemmes kreditorkortet som en skabelon](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
-Hvis du vil registrere en ny kreditor, skal du udfylde et kreditorkort. Du kan oprette skabeloner til forskellige kreditorprofiler, eller du kan tilføje kreditorer uden skabeloner. Du kan også oprette en kreditor ud fra en kontakt. Du kan finde flere oplysninger i [Sådan oprettes en debitor-, kreditor-, medarbejder- eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> Det kan være nyttigt at tilpasse siden **Kreditorskabeloner**, når du opretter en skabelon. Du kan f. eks. tilføje et felt, der ikke allerede vises på siden. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> Hvis der er kreditorskabeloner til forskellige kreditortyper, vises der automatisk en side, når du opretter et nyt kreditorkort, hvorfra du kan vælge en passende skabelon. Hvis der kun er én kreditorskabelon, bruger nye kreditorkort altid denne skabelon.  
+Du kan også oprette en kreditor ud fra en kontakt. Du kan finde flere oplysninger i [Sådan oprettes en debitor-, kreditor-, medarbejder- eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact). 
 
-### <a name="to-create-a-new-vendor-card"></a>Sådan oprettes et nyt kreditorkort
+### <a name="to-create-a-new-vendor"></a>Sådan oprettes en ny kreditor
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.  
-2. På siden **Kreditorer** skal du vælge **Ny**.
+[!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
-    Hvis der er mere end én kreditorskabelon, åbnes der automatisk en side, hvor du kan vælge en kreditorskabelon. I dette tilfælde skal du følge de næste to trin.
-    1. På siden **Vælg en skabelon til en ny kreditor** skal du vælge den skabelon, som du vil bruge til det nye kreditorkort.
-    2. Vælg knappen **OK**. Et nyt kreditorkort åbnes med nogle felter udfyldt med oplysninger fra skabelonen.
-3. Fortsæt med at udfylde eller ændre felterne på kreditorkortet efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-    > [!TIP]  
-    > Hvis du ikke på forhånd kender den faktureringsadresse, der skal bruges til alle fakturaer fra en kreditor, skal du ikke udfylde feltet **Kreditornr.**. Vælg i stedet nummeret, efter du har oprettet et dokumenthoved (købsrekvisition, ordre eller faktura)
+> [!TIP]  
+> Hvis du ikke på forhånd kender den faktureringsadresse, der skal bruges til alle fakturaer fra en kreditor, skal du ikke udfylde feltet **Kreditornr.**. Vælg i stedet nummeret, efter du har oprettet et dokumenthoved (købsrekvisition, ordre eller faktura)
 
 Kreditoren er nu registreret, og kreditorkortet er klar til at blive brugt i købsdokumenter.
 
 Hvis du vil bruge dette kreditorkort som skabelon, når du opretter nye kreditorkort, kan du gemme det som en kreditorskabelon. Du kan finde flere oplysninger i afsnittet [Sådan gemmes kreditorkortet som en skabelon](#to-save-the-vendor-card-as-a-template).
 
-### <a name="deleting-vendor-cards"></a>Sletning af kreditorkort
+### <a name="deleting-and-editing-vendor-information"></a>Slette og redigere kreditoroplysninger
 
-Hvis du har bogført en postering for en kreditor, kan du ikke slette kortet, da posterne muligvis er nødvendige med henblik på revision. Hvis du vil slette kreditorkort med poster, skal du kontakte din Microsoft-partner for at gøre dette via kode.
+Du kan til enhver tid oplysninger om kreditorkort. Hvis du har bogført en postering for en kreditor, kan du ikke slette kortet, da posterne muligvis er nødvendige med henblik på revision. Hvis du vil slette kreditorkort med poster, skal du kontakte din Microsoft-partner for at gøre dette via kode.
+
+> [!TIP]
+> Du kan ændre IBAN på en kreditors bankkonto, uden at ændringerne påvirker de historiske kreditoverførselsposter. Overførsel af remburs Journal lagrer det IBAN-nummer, Recepient Bankkontonr., der blev angivet i felterne kreditorbankkonto og modtagernavn fra siden med kreditorkortet, da posterne blev oprettet.
+
 
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Sådan gemmes kreditorkortet som en skabelon
 

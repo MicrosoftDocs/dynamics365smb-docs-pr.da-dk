@@ -5,14 +5,14 @@ author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 04/01/2021
+ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 661a6dafc72995b74623ebad9d594755b227f697
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6ed814213bea50ceb8d69c107edff450b76d8f7b
+ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445918"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7606381"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Skifte til et andet firma eller miljø
 
@@ -23,12 +23,17 @@ ms.locfileid: "6445918"
 
 ## <a name="switch-to-another-environment"></a>Skift til et andet miljø
 
-Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], er de miljøer, du har adgang til, tilgængelige på Dynamics 365-startsiden. Du kan åbne siden ved at vælge ikonet **Appstarter** ![Appstarter.](media/app-launcher-icon.png "Appstarteren giver adgang til flere funktioner") og vælger **Dynamics 365**. Hvis du vil gå til din standardvirksomhed i dette miljø, skal du vælge feltet. Der vil være ét felt for hver miljøtype. Hvis du har mere end ét miljø af en bestemt type, kan du vælge, hvilket miljø du vil have adgang til, når du vælger feltet.
+Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], er de miljøer, du har adgang til, tilgængelige på Office.com. 
 
-Følgende billede viser felter, der giver adgang til produktions- og sandkassemiljøer på Dynamics 365-startsiden.
+1. Vælg ikonet **App-starter** til ![App-starter.](media/app-launcher-icon.png "Appstarteren giver adgang til flere funktioner").
+2. Hvis du ikke kan se en app til [!INCLUDE[prod_short](includes/prod_short.md)] i den rude, der åbnes, skal du vælge **Office 365**. Skriv derefter **Business central** i feltet **Søg**, eller Vælg **Alle apps** > **Forretnings-apps**.   
+3. Der vil være én [!INCLUDE[prod_short](includes/prod_short.md)]-app angivet for hver miljø type, f. eks. produktion og sandkassetilstand. Hvis du vil skifte til et andet miljø, skal du vælge [!INCLUDE[prod_short](includes/prod_short.md)]-appen for den type miljø, den er. Hvis du har mere end ét miljø af en bestemt type, kan du vælge, hvilket miljø du vil have adgang til, når du vælger feltet.
 
-:::image type="content" source="media/app-picker-environments.png" alt-text="Startsiden for Dynamics 365 viser produktions- og sandkassemiljøer.":::
+<!--
+The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.
 
+:::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
+-->
 ## <a name="switch-to-another-company"></a>Skift til en anden virksomhed
 
 Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], kan du hurtigt skifte til en anden virksomhed. Når du har foretaget skiftet, bliver den virksomhed, du vælger, din standardvirksomhed, som vises, næste gang du logger på.

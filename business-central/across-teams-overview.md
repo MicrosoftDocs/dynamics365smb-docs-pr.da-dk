@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: c1912cda437b16495e52120eb353830751b1c06a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 49cc504c95d5636957e93b4543b05e3bfb22d989
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446461"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587501"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams-integration
 
@@ -51,6 +51,14 @@ Når du er i samtalen, kan du og dine kolleger få vist flere oplysninger om pos
 
 Du kan finde flere oplysninger i [Dele poster i Microsoft Teams](across-working-with-teams.md).
 
+### <a name="share-links-from-pages-in-business-central-to-teams"></a>Dele links fra sider i Business central til Teams
+
+Direkte fra de fleste sider med indsamling og detaljer i Business central kan du bruge handlingen **Del til Teams** fra ![Ikonet Del menu på siderne.](media/share-icon.png "Menuen Del vises på et kort.") ikon for at skrive en meddelelse, vælge modtagere, f. eks. gruppemedlemmer, grupper eller kanaler, og sende meddelelsen med et link til Business Central-siden.
+
+![Menuen Del vises på et kort.](media/teams-share-link.png "Menuen Del vises på et kort.")
+
+Du kan finde flere oplysninger i [Dele poster og sidelinks i Microsoft Teams](across-working-with-teams.md#share-link).
+
 ## <a name="get-started"></a>Kom i gang
 
 1. Der kræves en online [!INCLUDE [prod_short](includes/prod_short.md)]-brugerkonto til [!INCLUDE [prod_short](includes/prod_short.md)]-appen til Teams.
@@ -62,7 +70,7 @@ Du kan finde flere oplysninger i [Dele poster i Microsoft Teams](across-working-
 
 2. Som administrator kan du se [Administration af Microsoft Teams-integration med Business Central](admin-teams-integration.md) for at få oplysninger om opsætning af brugere, så de kan arbejde med [!INCLUDE [prod_short](includes/prod_short.md)] og Teams.
 3. Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams. Se [Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen til Microsoft Teams](across-install-app-for-teams.md).
-4. Når appen er installeret, er du klar til at gå i gang. Du kan finde flere oplysninger i [Søge efter debitorer, kreditorer og andre kontakter fra Microsoft Teams](across-search-contacts-teams.md) og [Dele poster i Microsoft Teams](across-working-with-teams.md). 
+4. Når appen er installeret, er du klar til at gå i gang. Du kan finde flere oplysninger i [Søge efter debitorer, kreditorer og andre kontakter fra Microsoft Teams](across-search-contacts-teams.md) og [Dele poster i Microsoft Teams](across-working-with-teams.md).
 
 ## <a name="see-also"></a>Se også
 

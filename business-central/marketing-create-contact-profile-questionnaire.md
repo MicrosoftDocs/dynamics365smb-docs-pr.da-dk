@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 06/22/2021
-ms.openlocfilehash: b71c63b8a02b2ddbf6f6135f30cba297dfcf418b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6ce13672651a5b6b65712928b764ad11b3db514d
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445522"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588522"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Bruge profilspørgeskemaer til at klassificere forretningskontakter
 Du kan definere profilspørgeskemaer, du vil bruge til indtastning af oplysninger om kontaktprofiler. Du kan i det enkelte spørgeskema definere forskellige spørgsmål, du vil stille dine kontaktpersoner.  
@@ -49,114 +49,35 @@ Du kan automatisk klassificere kontakter efter debitor-, kreditor- og kontaktopl
 Hvis du har angivet automatisk besvarede profilspørgsmål, udfylder [!INCLUDE[prod_short](includes/prod_short.md)] automatisk de korrekte svar for kontakterne, når du tildeler en kontakt et profilspørgeskema med de pågældende spørgsmål.  
 
 ## <a name="example"></a>Eksempel
+
 Du kan klassificere kontakter efter deres købsbeløb.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Svar</strong></th>
-<th><strong>Gælder for</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>A</p></td>
-<td><p>Kontakter, der har købt for mindst RV 500.000</p></td>
-</tr>
-<tr class="even">
-<td><p>B</p></td>
-<td><p>Kontakter, der har købt for mellem RV 100.000 og 499.999.</p></td>
-</tr>
-<tr class="odd">
-<td><p>U</p></td>
-<td><p>Kontakter, der har købt for højst RV 99.999</p></td>
-</tr>
-</tbody>
-</table>
+|Svar|Gælder for|
+|--- |--- |
+|A|Kontakter, der har købt for mindst RV 500.000|
+|B|Kontakter, der har købt for mellem RV 100.000 og 499.999.|
+|U|Kontakter, der har købt for højst RV 99.999|
 
 Det gør du ved at udfylde siden **Opsætn. af profilspørgeskema** på følgende måde:
 
-
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Type</strong></th>
-<th><strong>Beskrivelse</strong></th>
-<th><strong>Automatisk klassificering</strong></th>
-<th><strong>Fra værdi</strong></th>
-<th><strong>Til værdi</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Spørgsmål</p></td>
-<td><p>ABC-klassificering</p></td>
-<td><p>Indsæt markering ved at klikke</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p>Svar</p></td>
-<td><p>T</p></td>
-<td><p> </p></td>
-<td><p>500,000</p></td>
-<td><p> </p></td>
-</tr>
-<tr class="odd">
-<td><p>Svar</p></td>
-<td><p>B</p></td>
-<td><p> </p></td>
-<td><p>100,000</p></td>
-<td><p>499,999</p></td>
-</tr>
-<tr class="even">
-<td><p>Svar</p></td>
-<td><p>U</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p>99,999</p></td>
-</tr>
-</tbody>
-</table>
+| Type     | Beskrivlse        | Automatisk klassificering     | Fra værdi | Til værdi |
+|----------|--------------------|------------------------------|------------|----------|
+| Spørgsmål | ABC-klassificering | Indsæt markering ved at klikke |            |          |
+| Svar   | T                  |                              | 500,000    |          |
+| Svar   | B                  |                              | 100,000    | 499,999  |
+| Svar   | U                  |                              |            | 99,999   |
 
 Udfyld derefter siden **Oplysninger om profilspørgsmål** på følgende måde:
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Felt</strong></th>
-<th><strong>Værdi</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Debitorklassifikationsfelt</strong></td>
-<td><emphasis>Salg (RV)</emphasis></td>
-</tr>
-<tr>
-<td><strong>Klassificeringsmetode</strong></td>
-<td><emphasis>Defineret værdi</emphasis></td>
-</tr>
-</tbody>
-</table>
+
+| Felt                         | Værdi         |
+|-------------------------------|---------------|
+| Debitorklassifikationsfelt | Salg (RV)   |
+| Klassificeringsmetode         | Defineret værdi |
 
 Når du tildeler et profilspørgeskema med disse spørgsmål til en kontakt, udfyldes de relevante svar for kontakten automatisk på profillinjerne på kontaktkortet.
 
 ## <a name="see-also"></a>Se også
+
 [Oprettelse af kontakter](marketing-create-contact-companies.md)  
 
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: ef63963c7c37f36db34e3e8292e73d64c1b67538
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5dde158d3710219fec518633d90d145acb3e420b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438748"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7587995"
 ---
 # <a name="power-bi--faq"></a>Power BI Ofte stillede spørgsmål
 
@@ -129,12 +129,6 @@ Her er andre sider, som indeholder en større, ikke-filtreret **Power BI Reports
 Hvis du vil filtrere større datasæt, er det nemmest at angive et filter i Power BI-rapporten ved at redigere den direkte Power Query-formlen. De fleste af de filtre, du angiver, vil blive overført til Business Central via forespørgselsfoldning. Se [Trinvis opdatering for datasæt](/power-bi/admin/service-premium-incremental-refresh).
 
 Der er på nuværende tidspunkt ingen mulighed for at angive et filter til webtjeneste dataene fra Business Central. Hvis programmet har brug for at angive et filter fra Business Central, skal du oprette en brugerdefineret business Central-app til dette formål.
-
-<!-- 8 and 9 -->
-
-### <a name="for-embedding-reports-in-business-central-pages-right-now-its-only-possible-to-get-reports-from-my-workspace-in-power-bi-are-there-plans-to-make-it-possible-to-get-them-from-custom-workspaces"></a>Ved integrering af rapporter på Business Central-sider er det kun muligt at hente rapporter fra *Mit arbejdsområde* i Power BI. Er der planer om at gøre det muligt at få dem fra brugerdefinerede arbejdsområder?
-
-Ja. Vi har planer om at tilføje support til delte arbejdsområder, men vi har endnu ikke en tidslinje til at give dig.  
 
 <!-- 10 -->
 ### <a name="from-power-bi-besides-using-a-query-is-there-another-way-to-get-data-from-business-central-tables-that-dont-have-an-associated-page-for-example-like-the-item-attributes-value-mapping-table"></a>Fra Power BI, ud over at bruge en forespørgsel, er der en anden måde, hvorpå du kan få data fra Business Central-tabeller, som ikke har en tilknyttet side? F. eks. kan du lide tabellen *Værditilknytning for vareattributter*.

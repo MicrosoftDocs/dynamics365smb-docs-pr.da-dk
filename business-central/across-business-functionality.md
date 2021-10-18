@@ -10,19 +10,20 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c24e6142780fa5935576320a0d5edf683caf0a9f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 8b60f8df6d40ceaf6c2c62397cb4d21f848d9aee
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776268"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588347"
 ---
 # <a name="business-functionality"></a>Forretningsfunktioner
+
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder funktioner til almindelige forretningsprocesser i små og mellemstore virksomheder inden for engroshandel og professionelle services. Mere komplekse processer, f.eks. montage, produktion, service og styret logistik, understøttes imidlertid også.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til din virksomheds behov. Fra dit rollecenter kan du åbne assisterede opsætningsvejledninger, som hjælper dig med at konfigurere bestemte scenarier, og tilføje funktioner til [!INCLUDE[prod_short](includes/prod_short.md)]. Forskellige områder af forretningsfunktioner skal konfigureres manuelt. Du kan finde flere oplysninger i [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til din virksomheds behov. Fra dit rollecenter kan du åbne assisterede opsætningsvejledninger, som hjælper dig med at konfigurere bestemte scenarier, og tilføje funktioner til [!INCLUDE[prod_short](includes/prod_short.md)]. Forskellige områder af forretningsfunktioner skal konfigureres manuelt. De [Business Central-artikler i hurtig start](quick-start-business-central.md) kan hjælpe dig med at tage de første skridt til at gøre [!INCLUDE [prod_short](includes/prod_short.md)] til din egen. Du kan finde flere oplysninger i [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
-| Hvis du vil | Se |
+| Hvis du vil | Skal du se |
 | --- | --- |
 |Gennemføre og modtage betalinger, administrere pengestrømme, periodisere indtægter og omkostninger, opstille årsafslutning og administrere anlægsaktiver.|[Finans](finance.md)|
 |Få indsigt til udførelsen af dine forretningsaktiviteter via budgetter, kontoskemaer og analyser.|[Business Intelligence](bi.md)|

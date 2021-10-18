@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: ad1fd27bf6687993fed82ab418d621520e3439a1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7fef0f2ffe23155e840fa89a62b1822fee1efd35
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443202"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589078"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Styring af Microsoft Teams-integration med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -37,8 +37,10 @@ I dette afsnit beskrives minimumkrav til [!INCLUDE [prod_short](includes/prod_sh
     |----|---|---|
     |Søg efter kontakter i [!INCLUDE [prod_short](includes/prod_short.md)].|![markering.](media/check.png "check")|![markering](media/check.png "check")|
     |Indsæt et link til en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale, og send den som et kort.|![markering](media/check.png "check")|![markering](media/check.png "check")|
+    |Dele et hyperlink fra en side i [!INCLUDE [prod_short](includes/prod_short.md)] til en Teams-samtale.|![markering](media/check.png "check")|![markering](media/check.png "check")|
     |Se et kort over en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale.|![markering](media/check.png "check")||
     |Se flere oplysninger om et kort for en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale.|![markering](media/check.png "check")|![markering](media/check.png "check")|
+    |Åbn et sidelink i [!INCLUDE [prod_short](includes/prod_short.md)] fra en samtale.|![markering](media/check.png "check")|![markering](media/check.png "check")|
 
 - Tillad URL-prøveversion
 
@@ -68,7 +70,7 @@ Du kan finde flere oplysninger i følgende artikler i Microsoft Teams-dokumentat
 - <a name="permissions"></a>Brugerrettigheder:
 
     De kontaktsøgninger, sider og data, som brugere kan få vist og redigere i en Teams-samtale, kontrolleres oftest af deres tilladelser i [!INCLUDE [prod_short](includes/prod_short.md)].
-    
+
     - Hvis du vil søge efter kontakter, skal brugere som minimum have læsetilladelse til tabellen **Kontakter**. 
     - Hvis du vil indsætte et [!INCLUDE [prod_short](includes/prod_short.md)]-hyperlink i en Teams-samtale og få den på et kort, skal brugerne som minimum have læsetilladelse til siden og dens data.
     - Når et kort er sendt til en samtale, kan alle brugere i denne samtale se dette kort uden tilladelse til [!INCLUDE [prod_short](includes/prod_short.md)].
@@ -77,11 +79,35 @@ Du kan finde flere oplysninger i følgende artikler i Microsoft Teams-dokumentat
     
     Du kan finde flere oplysninger om rettigheder i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).
 
+## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Installere Business central-appen ved hjælp af centraliseret installation
+
+I Microsoft Teams Administration kan du konfigurere Teams App-installation for organisationen. I administrationscenter for Teams kan du bruge funktionen centraliseret installation til automatisk at installere Business Central-app i Teams for alle brugere i din organisation, bestemte grupper eller enkelte brugere.
+
+> [!NOTE]
+> Hvis du vil konfigurere centraliseret installation, skal Teams have rollen **Teams service administrator** eller **Global administrator**.
+
+1. I Business Central kan du vælge den ![Forstørrelsesglas, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikonet, skal du skrive **Teams App Centraliseret installation** og derefter vælge det relaterede link. Du kan desuden vælge [her](https://businesscentral.dynamics.com/?page=1833) for at åbne siden direkte.
+2. Læs oplysningerne om **Konfigurere Business central-appen til Teams**, og vælg derefter **Næste**.
+3. Åbn [Teams Administration](https://go.microsoft.com/fwlink/?linkid=2163970), og gennemfør følgende trin.
+    1. Gå til **Teams-apps** > **Opsætningspolitikker**.
+    2. Opret en ny politik, eller Vælg den politik, du vil bruge til at installere Business central-app'en, og vælg derefter **Tilføj apps**.
+    3. Søg efter og vælg **Business central** på siden **Tilføj installerede apps**.
+    4. Vælg **Tilføj**.
+
+       Business central skal nu vises under **installerede apps** til politikken.
+    5. Konfigurer eventuelle yderligere indstillinger, og vælg **Gem**.
+
+    Du kan finde flere oplysninger om opsætnings politikker i grupper i [Administrer politikker for app-opsætning i Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) i dokumentationen til Teams.
+4. Gå tilbage til **Teams appen centraliseret installation** i Business central, og vælg **udført**.
+
+> [!IMPORTANT]
+> Det kan være op til 24 timer, før appen Konfigurer politikken skal anvendes, og appen installeres på brugerne.
+
 ## <a name="managing-privacy-and-compliance"></a>Administrere beskyttelse af personlige oplysninger og overholdelse 
 
 Microsoft Teams indeholder omfattende styring af overholdelse og håndtering af følsomme eller personlige data&mdash;herunder data, som er føjet til chats og kanaler fra [!INCLUDE [prod_short](includes/prod_short.md)]-appen.
 
-### <a name="understanding-where-prod_short-cards-are-stored"></a>Om, hvor [!INCLUDE [prod_short](includes/prod_short.md)]-kort gemmes 
+### <a name="understanding-where-prod_short-cards-are-stored"></a>Om, hvor [!INCLUDE [prod_short](includes/prod_short.md)]-kort gemmes
 
 Når et kort er sendt til en chat, kopieres kortet og de felter, der vises på kortet, til team. Disse oplysninger er underlagt team politikkerne for organisationen, f.eks. politikker for opbevaring af data. Når der vises kort detaljer, er ingen af dataene i vinduet detaljer gemt i grupper. Dataene gemmes stadig i [!INCLUDE [prod_short](includes/prod_short.md)] og bliver kun hentet af Teams, når brugeren vælger at få vist detaljerne. 
 
