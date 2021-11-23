@@ -1229,6 +1229,8 @@
 ##### [Forberede momstransaktionsrapporter](LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md)
 ##### [Udskrive og genudskrive finansbøger og momsjournaler](LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md)
 ##### [Udskrive Intrastat-rapporter for Italien](LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy.md)
+#### A-skat
+##### [Oprette A-skat i den italienske version](LocalFunctionality/Italy/set-up-withholding-tax.md)
 ##### [Udskrive A-skatterapporter](LocalFunctionality/Italy/how-to-print-withholding-tax-reports.md)
 #### Banktransaktioiner og betalinger
 ##### [Definere betalingsbetingelser](LocalFunctionality/Italy/how-to-set-up-payment-terms.md)
@@ -1258,11 +1260,7 @@
 #### [Lokal funktionalitet i den mexikanske version](LocalFunctionality/Mexico/mexico-local-functionality.md)
 #### Skat
 ##### [Oprette og generere DIOT-rapporter](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
-##### [Mexicansk salgsmoms](LocalFunctionality/Mexico/mexico-sales-tax.md)  
-##### [Oprette forbrugsafgift og købsmoms](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
-##### [Oprette urealiseret moms og kontantrabatter på salg](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
-##### [Rapportering af salgsmoms i Mexico](LocalFunctionality/Mexico/mexico-sales-tax.md)
-##### [Oprette indbetalinger](LocalFunctionality/Mexico/how-to-create-deposits.md)  
+##### [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)  
 ##### [Moms-id-typer for Mexico](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Genberegning af moms](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Elektronisk fakturering
@@ -1274,12 +1272,13 @@
 #### Generelt
 ##### [Konfigurere PAC-webtjeneste](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Udskrive fejlfindingsrapporter](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
+##### [Oprette indbetalinger](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
 ### Nederlandene
 #### [Lokal funktionalitet i den hollandske version](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
 #### Moms
 ##### [Oprette en revisionsfil til momsmyndigheden](LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md)
-##### [Konfigurere momskategorier](LocalFunctionality\Netherlands\how-to-set-up-vat-categories.md)
+##### [Konfigurere momskategorier](LocalFunctionality/Netherlands/how-to-set-up-vat-categories.md)
 ##### [Elektroniske moms- og ICP-opgørelser](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
 ##### [Konfigurere elektroniske moms- og ICP-opgørelser](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)
 ##### [Sende elektroniske moms- og ICP-opgørelser](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
@@ -1290,7 +1289,7 @@
 ##### [Betalingsscenarie 1 - indenlandske betalinger (RV til RV)](LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md)  
 ##### [Betaling scenarie 2 - udenlandsk betaling (UV til UV)](LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-.md)  
 ##### [Betaling scenarie 3 - udenlandsk betaling (RV til UV)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
-##### [Oprette forslag](LocalFunctionality\Netherlands\how-to-create-proposals.md)
+##### [Oprette forslag](LocalFunctionality/Netherlands/how-to-create-proposals.md)
 ##### [Docket-rapporter](LocalFunctionality/Netherlands/docket-reports.md)
 ##### [Angive og bogføre kontant- og bank- eller girokladder](LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
 ##### [Udskrive kontrolrapporter for kontant og bank- eller girokladder](LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
@@ -1298,7 +1297,7 @@
 ##### [Aktivere SEPA-betalinger](LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md)
 ##### [Sende kreditorbetalinger elektronisk i SEPA ISO 20022-betalingsformatet](LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)
 ##### [Oprette og eksportere betalingshistorik](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
-##### [Importere og afstemme bankkontoudtog](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
+##### [Importere og afstemme bankkontoudtog](LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements.md)
 #### Grundlæggende Finans
 ##### [Udligne og annullere udligning af finansposter](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Nødvendige beskrivelser i finansposter](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)

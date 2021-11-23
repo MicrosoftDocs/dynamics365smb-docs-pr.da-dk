@@ -9,14 +9,14 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: phone, tablet
-  ms.date: 04/01/2021
+  ms.date: 10/25/2021
   ms.author: edupont
-  ms.openlocfilehash: 81887822a3163a7fee0d027ac1969545990f749a
-  ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+  ms.openlocfilehash: f0d31833373014ac5f1f089537bf03091540e223
+  ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
   ms.translationtype: HT
   ms.contentlocale: da-DK
-  ms.lasthandoff: 05/28/2021
-  ms.locfileid: "6115928"
+  ms.lasthandoff: 11/04/2021
+  ms.locfileid: "7752526"
 title: Ofte stillede spørgsmål til mobilapp
 summary: "I dette emne besvares spørgsmål, som erfarne brugere ofte stiller om mobilapps til [!INCLUDE [prod_short](includes/prod_short.md)].  \n"
 sections:
@@ -85,4 +85,7 @@ sections:
   - question: >
       Kan jeg tilslutte appen til vores on-premises-løsning?
     answer: "Ja, det kan du. Det er en lidt anderledes måde at logge på. Du kan finde flere oplysninger i [Tilpasning af Business Central i det lokale miljø](install-mobile-app.md#using-business-central-on-premises).  \n"
+  - question: >
+      Kan en gæstebruger bruge appen til at få adgang til vores Business Central-løsning?
+    answer: "Nummer Gæstebrugere er blevet inviteret til brugere fra en anden Azure Active Directory (AD)-lejer end dine. I dette tilfælde godkendes appen af gæste brugerens primære Azure AD-lejer, og du kan prøve at åbne Business Central-slutpunktet på den pågældende lejer i stedet for dit.  \n"
 additionalContent: "\n## <a name=\"see-also\"></a>Se også\n\n[Få Business Central på din mobilenhed](install-mobile-app.md)  \n[Sådan installerer du Business central-app til Microsoft Teams](across-install-app-for-teams.md)  \n\n[!INCLUDE[footer-include](includes/footer-banner.md)]"

@@ -5,30 +5,31 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
+ms.search.form: 103, 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: c4272e26021cecd04d6bd81ec66957032def6a8e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8c05c4a86e0bf9ace996dfc879b719324dc99593
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440199"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752362"
 ---
 # <a name="track-packages"></a>Spore pakker
-
-En række speditørfirmaer giver mulighed for på internettet at spore pakker, som de håndterer på virksomhedens vegne. Hvis du bruger mere end én af disse speditører, kan du oprette grundlæggende oplysninger og bruge den automatiske sporingsfunktion for forsendelser, bogførte salgsfakturaer, bogførte salgskreditnotaer og bogførte returvaremodtagelser. Du kan finde flere oplysninger i [Oprette speditører](sales-how-to-set-up-shipping-agents.md).  
+De fleste speditører tilbyder en webtjeneste, som du kan bruge til at spore status for dine pakker, mens de er på vej. Disse oplysninger kan være nyttige i mange forretningsprocesser, f. eks. ved levering af kundeservice. Hvis du bruger mere end én af disse speditører, kan du oprette grundlæggende oplysninger og bruge sporingsfunktionen for forsendelser, bogførte salgsleveringer, bogførte salgsfakturaer, bogførte salgskreditnotaer og bogførte returvaremodtagelser. Du kan finde flere oplysninger i [Oprette speditører](sales-how-to-set-up-shipping-agents.md). 
 
 Følgende fremgangsmåde viser, hvordan en pakke spores fra en bogført salgsleverance, men de samme trin gælder for aktivering af pakkesporing fra den bogførte salgsfaktura, den bogførte salgskreditnota og den bogførte returvarekvittering.  
 
 ## <a name="to-track-a-package"></a>Sådan spores en pakke
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogført salgsleverance**, og vælg derefter det relaterede link.
-2. Åbn den relevante leverance.
-3. Vælg handlingen **Opdater bilag**.
-4. I feltet **Pakkesporingsnr.** skal du angive det pakkenummer, du har modtaget fra speditøren. Opdater **Speditør**, hvis det er nødvendigt, og luk siden.
-5. Vælg handlingen **Pakkesporing**.
+> [!NOTE]
+> I følgende procedure bruges siden Bogført salgsleverance som et eksempel. De trin, du skal følge for at spore en pakke, er de samme på de bogførte salgsfakturaer, bogførte salgskreditnotaer og bogførte returvarekvitteringer.
 
-Standardbrowseren åbner speditørens sporingsside.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogført salgsleverance**, og vælg derefter det relaterede link.
+2. Åbn den levering, som du vil spore, og vælg derefter handlingen **Opdater dokument**.
+3. I feltet **Pakkesporingsnr.** skal du angive det pakkenummer, du har modtaget fra speditøren. 
+4. Kontroller, at den korrekte speditør og serviceniveauet er korrekt, og luk derefter siden.
+5. Vælg **Spor pakke** for at åbne speditørens pakkesporingstjeneste.
 
 ## <a name="see-also"></a>Se også
 

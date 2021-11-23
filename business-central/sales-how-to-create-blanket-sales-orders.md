@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ac3d45bb7de166a4861e22e1919c9c722602b13
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4299924a1845245eb8b73192bb14232bad25d80b
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442696"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752576"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbejde med rammesalgsordrer eller rammekøbsordrer
 
@@ -67,7 +67,7 @@ Du kan se den aktuelle status for en rammesalgsordre på siden **Statistik over 
 - I oversigtspanelet **Fakturering** kan du se en oversigt med oplysninger om hele ordren baseret på den samlede mængde i felterne **Fakturer antal** på rammesalgsordrelinjerne.  
 - I oversigtspanelet **Afsendelse** kan du se en oversigt med oplysninger baseret på den samlede mængde i felterne **Modtag (antal)** på rammesalgsordrelinjerne.  
 - I oversigtspanelet **Forudbetaling** kan du se en oversigt med oplysninger om alle forudbetalte beløb.  
-- Oversigtspanelet **Kreditor** indeholder forskellige stamoplysninger om kreditoren.    
+- Oversigtspanelet **Kreditor** indeholder forskellige stamoplysninger om kreditoren.
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Sådan vises ikke-bogførte og bogførte rammesalgsordrelinjer   
 Sammenkædningen mellem rammesalgsordre og den oprindelige salgsordre og ethvert andet salgsbilag bevares efter bogføring som en liste over bogførte og ikke-bogførte salgsordrefakturalinjer.  
@@ -76,21 +76,21 @@ Sammenkædningen mellem rammesalgsordre og den oprindelige salgsordre og ethvert
 2. Åbn den rammesalgsordre, du ønsker at se.
 3. Du kan få vist poster, der ikke er bogført, ved at vælge linjen, vælge handlingen **Linje** og derefter vælge handlingen **Ikkebogførte linjer**. Vælg en af følgende indstillinger.  
 
-    |Indstilling|Beskrivelse|
-    |--|--|
-    |**Ordrer**|Angiver åbne ordrer med tilknytning til den valgte linje.|
-    |**Fakturaer**|Angiver åbne fakturaer, der har været tilknyttet den valgte linje. Udestående fakturaer knyttes manuelt til en rammeordre, når du angiver rammeordrenummeret på salgsfakturalinjen.|
-    |**Returvareordrer**|Angiver åbne returvareordrer, der har været tilknyttet den valgte linje.|
-    |**Kreditnotaer**|Angiver åbne kreditnotaer, der har været tilknyttet den valgte linje.|
+|Indstilling|Beskrivelse|
+|--|--|
+|**Ordrer**|Angiver åbne ordrer med tilknytning til den valgte linje.|
+|**Fakturaer**|Angiver åbne fakturaer, der har været tilknyttet den valgte linje. Udestående fakturaer knyttes manuelt til en rammeordre, når du angiver rammeordrenummeret på salgsfakturalinjen.|
+|**Returvareordrer**|Angiver åbne returvareordrer, der har været tilknyttet den valgte linje.|
+|**Kreditnotaer**|Angiver åbne kreditnotaer, der har været tilknyttet den valgte linje.|
 
 4. Du kan få vist bogførte poster ved at vælge linjen, vælge handlingen **Linje** og derefter vælge handlingen **Bogførte linjer**. Vælg en af følgende indstillinger.  
 
-    |Indstilling|Beskrivelse|
-    |---|----|
-    |**Leverancer**|Bogførte leverancer med tilknytning til den valgte linje.|
-    |**Fakturaer**|Bogførte fakturaer med tilknytning til den valgte linje.|
-    |**Returvaremodtagelse**|Bogførte returvaremodtagelser med tilknytning til den valgte linje.|
-    |**Kreditnotaer**|Bogførte kreditnotaer med tilknytning til den valgte linje.|
+|Indstilling|Beskrivelse|
+|---|----|
+|**Leverancer**|Bogførte leverancer med tilknytning til den valgte linje.|
+|**Fakturaer**|Bogførte fakturaer med tilknytning til den valgte linje.|
+|**Returvaremodtagelse**|Bogførte returvaremodtagelser med tilknytning til den valgte linje.|
+|**Kreditnotaer**|Bogførte kreditnotaer med tilknytning til den valgte linje.|
 
 5. På siden **Salgslinjer** skal du vælge handlingen **Vis dokument** for at få vist posten.
 

@@ -6,12 +6,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 149f035dfd6b1abd2e00048bb1af4059e00c976f
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 5263d4ba06cc7b2dc497efb6842a927704c31f35
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482166"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724703"
 ---
 # <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Administrere lager ved at slette dokumenter eller komprimere data
 
@@ -57,7 +57,7 @@ Du kan komprimere følgende datatyper ved hjælp af batchjob. Der er en kørsel 
 Når du angiver kriterier for komprimeringen, kan du bruge indstillingerne under feltet **Bevar feltindhold** til at bevare oplysningerne i bestemte felter. De felter, der er tilgængelige, afhænger af de data, du komprimerer.
 
 > [!NOTE]
-> Før du kan udføre datokomprimering, skal dine analyser være opdaterede. Du kan finde flere oplysninger i [Opdatere en analysevisning](/dynamics365/business-central/bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
+> Før du kan udføre datokomprimering, skal dine analyser være opdaterede. Du kan finde flere oplysninger i [Opdatere en analysevisning](bi-how-analyze-data-dimension.md#to-update-an-analysis-view).
 
 Efter komprimeringen bevares indholdet i følgende felter altid: **Bogføringsdato**, **Kreditornr.**, **Dokumenttype**, **Valutakode**, **Bogføringsgruppe**, **Beløb**, **Resterende beløb**, **Oprindeligt beløb (LCY)**, **Resterende beløb (LCY)**, **Beløb (LCY)**, **Køb (LCY)**, **Fakturarabat (LCY)**, **Ydet kont.rabat (LCY)** og **Mulig kontantrabat**.
 

@@ -1,6 +1,6 @@
 ---
 title: 'Fremgangsmåde: Planlægge pluk i kladder'
-description: Lære, hvordan lagerstedet kan vælge at køre, så linjerne på leverance dokumenterne gøres tilgængelige i plukkladden.
+description: Få mere at vide om, hvordan linjer på leverancedokumenter kan gøres tilgængelige i plukkladder for lagermedarbejdere.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,52 +8,50 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
+ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: 46032a3a3ef44d56953ca9db7185e96eacf0770e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 92dd486b5b9ebb4fd67d3a28aa8f1eaab137513c
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441831"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643913"
 ---
 # <a name="plan-picks-in-worksheets"></a>Planlægge pluk i kladder
 
-Hvis dit lagersted er sat op til at kræve både pluk- og leveringsbehandling, kan lagerstedet vælge at køre, så linjerne på forsendelsesdokumenterne ikke automatisk overføres til plukinstruktioner, men i stedet bliver tilgængelige i et arbejdsark.  
+Hvis lagerstedet kræver både pluk og leverance, kan du vælge at gøre linjerne på leverance dokumenterne tilgængelige i plukkladder i stedet for plukinstruktioner.  
 
 > [!NOTE]  
 > Hvis plukinstruktionerne for lagerstedet allerede er oprettet, og du vil kombinere dem til én effektiv plukinstruktion, skal du slette de enkelte pluklister for lagerstedet. De linjer, der skal plukkes, kan nu anføres i plukkladden.  
 
-I plukkladden kan du sætte pluklister op for medarbejderne, der reducerer den tid, de har til at flytte varerne på lagerpluklisten. Der er felter, der indeholder oplysninger om, hvor mange varer der er tilgængelige i de direkte afsendelsesplaceringer. Dette er nyttigt i forbindelse med planlægning af direkte afsendelsesplaceringer, fordi programmet altid foreslår et pluk fra en direkte afsendelsesplacering før en anden placering uden at tage højde for måleenheden. Linjerne i plukkladden kan komme fra forskellige kildedokumenter og kan sorteres efter vare, hyldenr. kildedokument, forfaldsdato eller leveringsadresse.  
-
-Hvis du sorterer efter forfaldsdato, kan du vælge at slette alle linjer fra regnearket undtagen dem, der kræver øjeblikkelig behandling. De mindre hastende linjer slettes ikke som sådan, men sendes blot tilbage til **Plukkladden**. Når du opretter pluklisten, er linjerne allerede sorteret efter forfaldsdato, og du kan vælge at tildele pluklisten til en bestemt medarbejder.  
+På siden **Plukkladder** kan du oprette pluklister, som hjælpe medarbejderen kan bruge til at samle varer på lagerstedet. Siden viser de antal, der kan bruges til direkte afsendelsesplaceringer, som er nyttige i forbindelse med planlægning af arbejdsopgaver i forbindelse med direkte afsendelse. [!INCLUDE[prod_short](includes/prod_short.md)] foreslår altid først pluk fra en direkte afsendelsesplacering. Linjerne i kladden kan hentes fra flere kildedokumenter. De kan f. eks. komme fra mere end én salgsordre. 
 
 > [!NOTE]  
-> Pluk til lagerleverance af varer, der monteres til salgsordren, der leveres, følger de samme trin som for normale lagerpluk til leverance, som det er beskrevet i dette emne. Antallet af pluklinjer pr. antal til levering kan være mange til en, da du plukker komponenterne og ikke montageelementet.  
+> Pluk af varer, der samles til salgsordren, der leveres, følger de samme trin som for normale lagerpluk til leverance, som det er beskrevet for forsendelsen. Antallet af pluklinjer pr. antal til levering kan være mange til en, da du plukker komponenterne og ikke montageelementet.  
 >
-> Lagerpluklinjerne oprettes for værdien i feltet **Restantal** på linjerne for den montageordre, der er knyttes til salgsordren, der leveres. Dette sikrer, at alle komponenter plukkes i én handling.  
->
-> Du kan finde flere oplysninger i afsnittet "Håndtere montageordrevarer i lagerleverancer" i Lagerleverance.  
+> Lagerpluklinjerne oprettes for værdien i feltet **Restantal** på linjerne for den montageordre, der er knyttes til salgsordren, der leveres. Dette sikrer, at alle komponenter plukkes i én handling. Du kan finde flere oplysninger i [Sælge lagervarer i montage til ordre-flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 >
 > Se [Plukke til montage eller produktion i avancerede lageropsætninger](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md) for at få oplysninger om pluk af komponenter til montageordrer generelt, herunder situationer, hvor montageelementet ikke er forfaldent på en salgsleverance.  
+
+## <a name="sorting-lines-on-a-pick-worksheet"></a>Sortere linjer i en plukkladde
+Du kan sortere linjer efter vare, placeringsnummer, kildedokument, forfaldsdato eller destination. Her følger et par eksempler på hvordan sortering kan være nyttig.
+
+* Hvis du sorterer efter forfaldsdato, kan du vælge at slette alle linjer undtagen dem, der kræver øjeblikkelig behandling. De mindre hastende linjer slettes ikke som sådan, men sendes blot tilbage til **Plukkladden**. Når du opretter pluklisten, er linjerne allerede sorteret efter forfaldsdato, og du kan vælge at tildele pluklisten til en medarbejder.
+* Hvis placeringerne er nummererede, så de svarer til lagerstedets fysiske layout, kan sorterings linjer efter placeringsnummer gøre det nemmere at plukke til flere leverancer på samme tid. 
+* Hvis du bruger placeringsniveau, kan du spare tid ved at sortere efter placering. 
+* Du kan sortere efter destination, hvilket giver dig mulighed for at samle og afsende ordrer pr. kunde.
 
 ## <a name="to-plan-picks-in-the-worksheet"></a>Sådan planlægges pluk i plukkladden
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Plukkladde**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Hent lagerdokumenter**.  
-3. Vælg de leverancer, som du vil forberede en plukliste til. Du kan nu sortere linjerne til en vis grad, men den sortering, du foretager her, videreføres ikke til plukinstruktionerne. Du kan også slette nogle af linjerne og derved oprette en mere effektiv plukliste. Hvis der f.eks. er en række linjer med varer i direkte afsendelsesplaceringer, kan du vælge at oprette pluklister til alle de linjer, der er relateret til disse linjer. Varerne i de direkte afsendelsesplaceringer forsendes sammen med de andre varer i forsendelsen, og de direkte afsendelsesplaceringer har plads til flere indkommende varer.  
+3. Vælg de leverancer, som du vil forberede en plukliste til. Du kan sortere linjerne, men sorteringen anvendes ikke til plukinstruktionen. Du kan også slette nogle af linjerne og derved oprette en mere effektiv plukliste. Hvis der f.eks. er flere linjer med varer i direkte afsendelsesplaceringer, kan du vælge at oprette pluklister til alle linjerne. Varerne i de direkte afsendelsesplaceringer forsendes sammen med de andre varer i forsendelsen, og de direkte afsendelsesplaceringer har plads til flere indkommende varer.  
 4. Vælg handlingen **Opret pluk**, og udfyld anmodningssiden **Opret pluk**. Den sortering, du anmoder om her, sorterer de pluklinjer, du opretter. Du kan f.eks. oprette en linje for hver zone og sortere linjerne efter placeringsorden inden for hvert pluk.  
 5. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk (logistik)**, og vælg derefter det relaterede link. Siden **Pluk (logistik)** åbnes.  
 6. Du kan nu se de pluktildelinger, du har oprettet, ved at vælge det pluk, der har det højeste nummer.  
-7. Hvis det er nødvendigt, kan du stadig ændre det tildelte bruger-id i plukket og den måde, som linjerne sorteres på..  
+7. Hvis det er nødvendigt, kan du tildele en anden bruger eller sortere linjerne forskelligt.  
 8. Hvis du vil udskrive plukvejledningen, skal du vælge handlingen **Udskriv**.  
 9. Når du har plukket varerne, skal du vælge handlingen **Registrer**.  
-
-Hvis placeringerne er nummereret på en måde, der afspejler det fysiske lager, lader de linjer, der er sorteret efter placering, brugeren plukke et antal leverancer i én runde på lagerstedet. Medarbejderen tager det nødvendige antal varer for hver leverancelinje og anbringer dem sammen med de andre varer i leverancen. Der kan spares meget tid ved at plukke varer til flere leverancer på samme tid.  
-
-En anden sorteringsmulighed er placeringsniveau, hvis det fysiske lager er indrettet efter niveau i stedet for efter kode.  
-
-I plukkladden kan du også sortere efter leveringsadresse og derved samle og levere ordrer til kunder, der har adresse langt fra lageret, først.  
 
 ## <a name="see-also"></a>Se også
 

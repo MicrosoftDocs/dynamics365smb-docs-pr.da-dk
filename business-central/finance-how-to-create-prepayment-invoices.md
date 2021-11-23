@@ -1,5 +1,5 @@
 ---
-title: Sådan oprettes forudbetalingsfakturarer
+title: Oprette forudbetalingsfakturaer
 description: Få at vide, hvordan du håndterer situationer, hvor du eller din leverandør kræver forudbetaling. Du kan bruge standardprocenterne til hver enkelt salgs- eller købslinje, eller du kan regulere beløbet efter behov.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 94822d323c5b50cae66196b314316eb7a5c93a1d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2d5f6a7b39ccc5c77ee68d7a62e33bd166551095
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442181"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7701561"
 ---
 # <a name="create-prepayment-invoices"></a>Oprette forudbetalingsfakturaer
 
 Hvis du kræver, at kunderne skal indsende en betaling, før du leverer en ordre til dem, kan du bruge forudbetalingsfunktionen. Det samme gælder, hvis din leverandør kræver, at du indsender betalingen, før de leverer en ordre til dig.  
 
-Når du har oprettet en salgs- eller købsordre, kan du starte forudbetalingsprocessen. Hvis du har en standardforudbetalingsprocent for denne debitor eller kreditor, vil den automatisk blive medtaget i den oprettede forudbetalingsfaktura. Du kan også angive en forudbetalingsprocent for hele dokumentet.
+Når du har oprettet en salgs- eller købsordre, kan du starte forudbetalingsprocessen. Hvis du har en standardforudbetalingsprocent for en given vare på ordren eller for debitor eller kreditor, vil den automatisk blive medtaget i den oprettede forudbetalingsfaktura. Du kan også angive en forudbetalingsprocent for hele dokumentet.
 
 Når du har oprettet en salgs- eller købsordre, kan du oprette en forudbetalingsfaktura. Du kan bruge standardprocenterne til hver enkelt salgs- eller købslinje, eller du kan regulere beløbet efter behov. Du kan f.eks. angive et samlet beløb til hele ordren.  
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 10/01/2021
+ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 5788671162dc6480c8404338f6325dfae9233f44
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 06d3e22d0cdb68daa2b87e3569660dfd4e5724fd
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589336"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724608"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Få Business Central-tilføjelsesprogram til Excel
 
@@ -25,7 +25,7 @@ ms.locfileid: "7589336"
 
 ### <a name="about-the-add-in"></a>Om tilføjelsesprogrammet
 
-Tilføjelsesprogrammet kaldes **Microsoft Dynamics Office-tilføjelsesprogram**, og det kan installeres fra [Office Store (AppSource)](https://appsource.microsoft.com/). Når tilføjelsesprogrammet er installeret, er handlingen **Rediger i Excel** tilgængelig på de fleste liste- og listedelsider fra ikonet **Del** ![Del en side i en anden app](media/share-icon.png). Du kan finde flere oplysninger om brug af tilføjelsesprogram i [Vise og redigere i Excel fra Business Central](across-work-with-excel.md)
+Tilføjelsesprogrammet kaldes **Microsoft Dynamics Office-tilføjelsesprogram**, og det kan installeres fra [Office Store (AppSource)](https://appsource.microsoft.com/). Når tilføjelsesprogrammet er installeret, er handlingen **Rediger i Excel** tilgængelig på de fleste liste- og listedelsider fra ikonet **Del** ![Del en side i en anden app](media/share-icon.png). Du kan finde flere oplysninger om brug af tilføjelsesprogram i [Vise og redigere i Excel fra Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > Tilføjelsesprogrammet fungerer kun i Windows, ikke i macOS.
@@ -118,7 +118,7 @@ Tilføjelsesprogrammet er nu forbundet til [!INCLUDE [prod_short](includes/prod_
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Forberede enheder og netværk til Excel-tilføjelsesprogrammet
 
-Netværkstjenester som proxyer eller firewalls skal tillade routing mellem hver klientenhed, hvor tilføjelsesprogrammet er installeret, og mange serviceslutpunkter. Du kan finde en liste over slutpunkter under [Forberede netværket til Tilføjelsesprogrammet i Excel](/dev-itpro/administration/configuring-network-for-addins).
+Netværkstjenester som proxyer eller firewalls skal tillade routing mellem hver klientenhed, hvor tilføjelsesprogrammet er installeret, og mange serviceslutpunkter. Du kan finde en liste over slutpunkter under [Forberede netværket til Tilføjelsesprogrammet i Excel](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
 ## <a name="troubleshooting"></a>Fejlfinding
 

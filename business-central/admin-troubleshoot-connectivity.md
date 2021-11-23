@@ -11,12 +11,12 @@ ms.search.keywords: connectivity, troubleshooting, connection problems
 ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
-ms.openlocfilehash: db7b9e602817d7dddcf6bce1b35ede078bd70aa0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e08d6148001e324bc7217771434ff6862fe984a6
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443177"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7748957"
 ---
 # <a name="troubleshoot-connectivity-for-business-central"></a>Fejlfinding i forbindelse med Business central
 
@@ -31,13 +31,22 @@ ms.locfileid: "6443177"
 
 ## <a name="start-the-connectivity-check"></a>Start forbindelseskontrol 
 
-1. Vælg [dette link](https://businesscentral.dynamics.com/connectivity), eller Åbn Internet-browseren, og indtast følgende URL-adresse i adressen:
+1. Åbn en Internet-browser.
+2. I adressen skal du angive den URL-adresse, du bruger til at åbne Business central og tilføje `/connectivity` i slutningen. 
+
+    Hvis du f. eks. bruger `https://businesscentral.dynamics.com`, skal du skrive:
 
     ```http
     https://businesscentral.dynamics.com/connectivity
     ```
 
-2. Vælg **Start check** på siden **fejlfinding af forbindelser**.
+    Hvis URL-adressen indeholder lejer-id'et `https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB`, skal du f. eks. angive:
+
+    ```http
+    https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB/connectivity
+    ```
+ 
+3. Vælg **Start check** på siden **fejlfinding af forbindelser**.
 
     Der udføres en række kontroller, og resultatet af hver kontrol vises:
 
@@ -45,7 +54,7 @@ ms.locfileid: "6443177"
     - ![Kontrol af forbindelsen mislykkedes.](media/connectivity-failed.png) Angiver, at kontrollen mislykkedes. Gennemgå meddelelsen under kontrollen, hvis du ønsker flere oplysninger.
     - ![Forbindelseskontrol blev ikke kørt.](media/connectivity-blocked.png) Angiver, at kontrollen ikke blev udført, typisk pga. en tidligere kontrol. Gennemgå meddelelsen under kontrollen, hvis du ønsker flere oplysninger.
 
-3. Vælg genstart check for at udføre **Genstarte kontrollen**.
+4. Vælg genstart check for at udføre **Genstarte kontrollen**.
 
 I følgende afsnit forklares de kontroller, der er udført, og du kan angive nogle tip til, hvordan du løser eventuelle problemer.
 

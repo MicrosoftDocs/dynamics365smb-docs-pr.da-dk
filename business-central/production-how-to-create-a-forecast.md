@@ -1,6 +1,6 @@
 ---
 title: Sådan oprettes en behovsprognose
-description: Få mere at vide om funktionen forecast i Business central, og hvordan du kan oprette salgs-og produktionsforecasts.
+description: Få mere at vide om behovsprognosefunktioner, og hvordan du kan oprette salgs-og produktionsprognoser.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9c3097e102de7b0f4be6da114245ac1bbb4f4fe0
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438683"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643963"
 ---
 # <a name="create-a-demand-forecast"></a>Oprette en behovsprognose
 Du kan oprette salgs- og produktionsforecasts vha. siden **Behovsprognose**.  
@@ -41,18 +41,17 @@ Du skal angive, om et forecast omhandler en *Salgsvare*, *Komponent* eller *Begg
 ## <a name="component-forecast"></a>Komponentforecast  
 Et komponentforecast kan betragtes som et forecast for en model eller variant i forhold til en overordnet eller samlet vare. Det kan f.eks. være en fordel, at planlæggeren kan give et bud på komponentbehovet.  
 
-Eftersom formålet med et komponentforecast er at angive flere muligheder for en overordnet vare, kan komponentforecastet være lig med eller mindre end antallet i salgsforecastet. Hvis komponentforecastet er større end salgsforecastet, behandler systemet forskellen mellem de to forecasttyper som et uafhængigt behov.  
+Eftersom formålet med et komponentforecast er at angive flere muligheder for en overordnet vare, kan komponentforecastet mindre end eller lig med antallet i salgsforecastet. Hvis komponentforecastet er større end salgsforecastet, behandler systemet forskellen mellem de to prognosetyper som et uafhængigt behov.  
 
 ## <a name="forecasting-periods"></a>Forecastperioder  
- Forecastperioden træder i kraft på den angivne startdato og er gældende, indtil det næste forecast træder i kraft. I tidsintervalsiden har du flere muligheder for at indsætte behovet på en bestemt dato i en periode. Derfor anbefales det, at du undlader at ændre forecastperioden, medmindre du vil flytte alle forecastoplysninger til periodens startdato.  
+Forecastperioden træder i kraft på den angivne startdato og er gældende, indtil det næste forecast træder i kraft. I tidsintervalsiden har du flere muligheder for at indsætte behovet på en bestemt dato i en periode. Derfor anbefales det, at du undlader at ændre forecastperioden, medmindre du vil flytte alle forecastoplysninger til periodens startdato.  
 
 ## <a name="forecast-by-locations"></a>Forecast opdelt efter lokationer  
-
-Det kan angives på siden **Produktionsopsætning**, hvordan du vil håndtere lokationer, der er defineret på estimater, når du beregner en plan. 
+På siden **Produktionsopsætning** kan du angiv, hvordan du vil håndtere lokationer, der er defineret på estimater, når du beregner planer. 
 
 ### <a name="use-forecast-by-locations"></a>Brug forecast på lokationer
 
-Hvis du vælger feltet **Brug forecast pr. lokation**, skal [!INCLUDE[prod_short](includes/prod_short.md)] respektere de lokationskoder, der er angivet for hver efterspørgselsprognosepost, og beregne restbudgettet for hver lokation.  
+Hvis du slår til/fra-feltet **Brug forecast pr. lokation** til, skal [!INCLUDE[prod_short](includes/prod_short.md)] respektere de lokationskoder, der er angivet for hver efterspørgselsprognosepost, og beregne restbudgettet for hver lokation.  
 
 Overvej dette eksempel: Virksomheden køber og sælger varer på to lokationer: EAST og WEST. For begge lokationer har du konfigureret en metode til at genbestille lot-til-Lot. Du opretter forecast for de to lokationer:
 
@@ -68,7 +67,7 @@ Derefter skal du oprette en salgsordre med et antal på 12 på lokationen WEST. 
 >  Hvis du får vist lokationsbaserede forecasts enkeltvis, skal du være opmærksom på, at det ikke er sikkert, at den overordnede forecast i så fald giver et korrekt billede.
 
 ### <a name="do-not-use-forecast-by-locations"></a>Brug ikke forecast på lokationer
-Hvis du deaktiverer **Brug forecast pr. lokation**, vil [!INCLUDE[prod_short](includes/prod_short.md)] ignorere de lokationskoder, der er angivet for hver efterspørgselsprognosepost, og beregne forecasts for tomme lokationer.  
+Hvis du slå til/fra-feltet **Brug forecast pr. lokation** fra, vil [!INCLUDE[prod_short](includes/prod_short.md)] ignorere de lokationskoder, der er angivet for hver efterspørgselsprognosepost, og beregne prognoser for tomme lokationer.  
 
 Overvej dette eksempel: Virksomheden køber og sælger varer på to lokationer: EAST og WEST. For begge lokationer har du konfigureret en metode til at genbestille lot-til-Lot. Du opretter forecast for de to lokationer:
 

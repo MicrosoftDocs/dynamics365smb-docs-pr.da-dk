@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keyword: prepayment
-ms.date: 06/29/2021
+ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: a8b647e52457fc4bc2c7377ad6d4fb4f40d6dc58
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 517d815e323f2b1d0e3c120808a5543bff462ff3
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446311"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7701511"
 ---
 # <a name="set-up-prepayments"></a>Oprette forudbetalinger
 Hvis det er et krav, at dine kunder skal betale, før du leverer en ordre til dem, eller hvis din leverandør kræver, at du skal betale, før de sender en ordre til dig, kan du bruge forudbetalinger. Forudbetalingsfunktionen sætter dig i stand til at fakturere og opkræve depositum fra debitorer eller at sende depositummerne til kreditorer og til at sikre, at alle delvise betalinger bogføres i forhold til en faktura. Du kan finde flere oplysninger i [Oprette forudbetalingsfakturaer](finance-how-to-create-prepayment-invoices.md).
@@ -60,16 +60,17 @@ Hvis du ikke allerede har angivet finanskonti til forudbetalinger, kan du åbne 
 > [!NOTE]  
 > Du kan bruge samme nummerserie til forudbetalingsfakturaer som til almindelige fakturaer, eller du kan bruge forskellige serier. Hvis du bruger forskellige serier, må der ikke være ens numre i serierne; dvs. numre, der optræder i begge serier.  
 
-## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Sådan opretter forudbetalingsprocenter til varer, debitorer og kreditorer  
-Hvis du opretter en standardforudbetalingsprocent til en vare, kan den bruges til alle kunder, en bestemt kunde eller en debitorprisgruppe.  
+## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Sådan opretter forudbetalingsprocenter til varer, debitorer og kreditorer
+
+Hvis du opretter en standardforudbetalingsprocent til en vare, kan den bruges til alle kunder, en bestemt kunde eller en debitorprisgruppe. Hvis du ikke vil anvende den samme forudbetalingsprocent på alle debitorer, skal du angive, hvilke debitorer, eller hvilke debitorprisgrupper forudbetalingsprocenten gælder for.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Markér en vare, og vælg derefter handlingen **Forudbetalingsprocenter**.  
 3. På siden **Forudbetalingsprocenter - salg** skal du udfylde felter efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Til en kunde eller leverandør kan du oprette én standardforudbetalingsprocent, der gælder for alle varer og alle former for salgslinjer. Du angiver dette på debitor- eller kreditorkortet.
+Til en kunde eller leverandør kan du oprette én standardforudbetalingsprocent, der gælder for alle varer og alle former for salgslinjer. Du angiver dette på debitor- eller kreditorkortet. Følgende procedure viser, hvordan du angiver en forudbetalingsprocent for en debitor, men lignende trin gælder for kreditorer.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
 2. Åbn kortet for en debitor.
 3. Udfyld feltet **Forudbetaling i %**.
 4. Gentag trinene for andre debitorer eller for kreditorer.  
