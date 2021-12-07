@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 11/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 87b7bc409c313203e6d24172e60b3f92d1af9bd2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5c87d107cde4d0327d1147ffce78aadc88b241ca
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444791"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865333"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Føje felter til et Word-rapportlayout
 Et datasæt i rapporten kan bestå af felter, der viser navne, data og billeder. I dette emne beskrives fremgangsmåden for tilføjelse af felter fra et rapportedatasæt i et eksisterende Word-rapportlayout for en rapport. Du kan tilføje felter ved hjælp af den Word-tilpassede XML-del for rapporten og tilføje indholdskontrolelementer, der er knyttet til felterne i rapportens datasæt. Tilføjelse af felter kræver, at du har kendskab til rapportens datasæt, så du kan identificere de felter, du vil føje til layoutet.  
@@ -35,7 +35,7 @@ Et datasæt i rapporten kan bestå af felter, der viser navne, data og billeder.
   
 3.  Vælg **XML-tilknytningsrude** under **Udvikler**.  
   
-4.  I ruden **XML-tilknytning** på rullelisten **Brugerdefineret XML-del** skal du vælge den brugerdefinerede XML-del for at tilføje ADD INCLUDE<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> rapport, som typisk findes sidst på listen. Navnet på den brugerdefinerede XML-del har følgende format:  
+4.  I ruden **XML-tilknytning** skal du på rullelisten **Brugerdefineret XML-del** vælge den brugerdefinerede XML-del til [!INCLUDE[prod_short](includes/prod_short.md)]-rapporten, som typisk er sidst på listen. Navnet på den brugerdefinerede XML-del har følgende format:  
   
      urn:microsoft-dynamics-nav/reports/*report_name*/*ID*  
   
@@ -78,7 +78,7 @@ Et datasæt i rapporten kan bestå af felter, der viser navne, data og billeder.
  Billeder justeres i øverste venstre hjørne af Indholdsstyringen og får automatisk tilpasset størrelsen i forhold til rammen af indholdskontrolelementet.  
   
 > [!IMPORTANT]  
->  Du kan kun tilføje billeder, der har et format, som understøttes af Word, f.eks. .bmp-, .jpg- og .png-filtyper. Hvis du tilføjer et billede, der har et format, der ikke understøttes af Word, får du en fejl, når du kører rapporten fra ADD INCLUDE<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> klienten.  
+>  Du kan kun tilføje billeder, der har et format, som understøttes af Word, f.eks. .bmp-, .jpg- og .png-filtyper. Hvis du tilføjer et billede, der har et format, der ikke understøttes af Word, får du en fejl, når du kører rapporten fra [!INCLUDE[prod_short](includes/prod_short.md)]-klienten.  
   
 #### <a name="to-add-an-image"></a>Sådan tilføjer du et billede  
   
@@ -107,7 +107,7 @@ Følgende tabel indeholder en forenklet oversigt over XML for en brugerdefineret
 ### <a name="custom-xml-part-in-word"></a>Brugerdefineret XML-del i Word  
  I Word kan du åbne den brugerdefinerede XML-del i ruden **XML-tilknytning** og derefter bruge ruden til at knytte elementer til indholdskontrolelementer i Word-dokumentet. Ruden **XML-tilknytning** er tilgængelig fra fanen **Udvikler** (du kan finde flere oplysninger i [Vise fanen Udvikler på båndet](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
- Elementerne i ruden **XML-tilknytning** vises i en struktur, der svarer til XML-kilden. Navnefelter grupperes under et fælles **navneelement**, og dataelementer og -kolonner er arrangeret i en hierarkisk struktur, der svarer til XML-kilden, med kolonner i alfabetisk rækkefølge. Elementer identificeres ved deres navn, som er defineret af egenskaben Navn i rapportdatasætgeneratoren i ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
+ Elementerne i ruden **XML-tilknytning** vises i en struktur, der svarer til XML-kilden. Navnefelter grupperes under et fælles **navneelement**, og dataelementer og -kolonner er arrangeret i en hierarkisk struktur, der svarer til XML-kilden, med kolonner i alfabetisk rækkefølge. Elementer identificeres ved deres kolonnenavn, som er defineret af rapportens datasæt i AL-kode. Du kan få flere oplysninger [Definere et rapportdatasæt](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).  
   
  Følgende figur illustrerer den simple brugerdefinerede XML-del fra det foregående afsnit i ruden **XML-tilknytning** i et Word-dokument.  
   

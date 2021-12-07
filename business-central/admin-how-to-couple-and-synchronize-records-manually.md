@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8e2b36b4b90e1cc348ef381a6d0f6145a87ed043
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: c21d06eaaa9200bb11839d1b2db1666c816638b3
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588722"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865386"
 ---
 # <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Kobling og synkronisering af poster mellem Dataverse og Business Central
 
@@ -25,6 +25,7 @@ Dette emne handler om, hvordan du sammenkæder en eller flere poster i [!INCLUDE
 > Sammenkædning og synkronisering af data er kun mulig, hvis din systemadministrator har oprettet en forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Dataverse or [!INCLUDE[crm_md](includes/crm_md.md)]. Dette kan hurtigt kontrolleres ved at åbne **debitor**-kortet og søge efter handlingen **Konfigurer sammenkædning**. Hvis handlingen er tilgængelig, er programmerne forbundet.   
 
 ## <a name="video-example"></a>Videoeksempel
+Denne video viser kobling og synkronisering af data i forbindelse med integration med [!INCLUDE[crm_md](includes/crm_md.md)].
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098376]
 

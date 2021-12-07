@@ -24,27 +24,13 @@
 
 ### Designoplysninger
 #### [Oversigt over oplysninger om programdesign](design-details-application-design.md)
-#### Designoplysninger: Forsyningsplanlægning
-##### [Oversigt over forsyningsplanlægning](design-details-supply-planning.md)
-##### [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)  
-##### [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)  
-##### [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)  
-##### [Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)  
-##### [Designoplysninger: Tabellen Planlægningsopgave](design-details-planning-assignment-table.md)  
-##### [Designoplysninger: Behov på lokationen TOM](design-details-demand-at-blank-location.md)  
-##### [Designoplysninger: Overførsler i planlægning](design-details-transfers-in-planning.md)
 #### Designoplysninger: Lagerkostmetode
-##### [Oversigt over omkostninger](design-details-inventory-costing.md)
+##### [Designoplysninger til lagerkostmetode](design-details-inventory-costing.md)
 ##### [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
 ##### [Designdetaljer: ændre kostmetoden for varer](design-details-changing-costing-methods.md)
 ##### [Designoplysninger: Vareudligning](design-details-item-application.md)  
 ##### [Designoplysninger: Kendt problem med vareudligning](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md)  
-##### Designoplysninger: Bogføringsdato på post med reguleringsværdi
-###### [Designoplysninger: Bogføringsdato på post med reguleringsværdi](design-details-inventory-adjustment-value-entry-posting-date.md)  
-###### [Fejlmeddelelse "Bogføringsdatoen er ikke inden for intervallet af tilladte bogføringsdatoer"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-###### [Bogføringsdatoen for regulerings værdiposten sammenlignet med kildeposten](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Designoplysninger: Bogføring af forventet kostpris](design-details-expected-cost-posting.md)  
 ##### [Designoplysninger: Gennemsnitlig kostpris](design-details-average-cost.md)  
 ##### [Designoplysninger: Afvigelse](design-details-variance.md)  
@@ -58,8 +44,26 @@
 ##### [Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md)
 ##### [Designoplysninger: Lagerværdi](design-details-inventory-valuation.md)  
 ##### [Designoplysninger: Regulering](design-details-revaluation.md)
+#### Designoplysninger: Bogføringsdato på post med reguleringsværdi
+##### [Oversigt over bogføringsdato på post med reguleringsværdi](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Fejlmeddelelse "Bogføringsdatoen er ikke inden for intervallet af tilladte bogføringsdatoer"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+##### [Bogføringsdatoen for regulerings værdiposten sammenlignet med kildeposten](design-details-inventory-adjustment-value-entry-source-entry.md)
+#### Designoplysninger: Dimensionsgruppeposter
+##### [Designoplysninger: Oversigt over dimensionsgruppeposter](design-details-dimension-set-entries-overview.md)
+##### [Designoplysninger: Søgning efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)
+##### [Designoplysninger: Tabelstruktur](design-details-table-structure.md)
+#### Designoplysninger: Forsyningsplanlægning
+##### [Designoplysninger til forsyningsplanlægning](design-details-supply-planning.md)
+##### [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)  
+##### [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md)  
+##### [Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)  
+##### [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)  
+##### [Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)  
+##### [Designoplysninger: Tabellen Planlægningsopgave](design-details-planning-assignment-table.md)  
+##### [Designoplysninger: Behov på lokationen TOM](design-details-demand-at-blank-location.md)  
+##### [Designoplysninger: Overførsler i planlægning](design-details-transfers-in-planning.md)
 #### Designoplysninger: Warehouse Management
-##### [Oversigt over logistik](design-details-warehouse-management.md)
+##### [Designoplysninger til Warehouse Management](design-details-warehouse-management.md)
 ##### [Designoplysninger: Oversigt over logistik](design-details-warehouse-overview.md)  
 ##### [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md)  
 ##### [Designoplysninger: Indgående lagerflow](design-details-inbound-warehouse-flow.md)  
@@ -68,7 +72,7 @@
 ##### [Designoplysninger: Udgående lagerflow](design-details-outbound-warehouse-flow.md)  
 ##### [Designoplysninger: Integration med lager](design-details-integration-with-inventory.md)
 #### Designoplysninger: Varesporing
-##### [Oversigt over varesporing](design-details-item-tracking.md)
+##### [Designoplysninger til varesporing](design-details-item-tracking.md)
 ##### [Designoplysninger: Design af varesporing](design-details-item-tracking-design.md)  
 ##### [Designdetaljer: Bogføringsstruktur for varesporing](design-details-item-tracking-posting-structure.md)  
 ##### [Designoplysninger: Aktive kontra historiske varesporingsposter](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -78,14 +82,10 @@
 ##### [Designoplysninger: Varesporing og reservationer](design-details-item-tracking-and-reservations.md)  
 ##### [Designoplysninger: Varesporing i lageret](design-details-item-tracking-in-the-warehouse.md)
 #### Designoplysninger: Bogføringslinje i finanskladde
-##### [Finanskladdelinjenr.](design-details-general-journal-post-line.md)
+##### [Designoplysninger til bogføringslinje i finanskladde](design-details-general-journal-post-line.md)
 ##### [Oversigt over bogføringslinje i finanskladde](design-details-general-journal-post-line-overview.md)  
 ##### [Designoplysninger: Bogføring af grænsefladestruktur](design-details-posting-interface-structure.md)  
 ##### [Designoplysninger: Bogføringsprogramstruktur](design-details-posting-engine-structure.md)  
-#### Designoplysninger: Dimensionsgruppeposter
-##### [Designoplysninger: Oversigt over dimensionsgruppeposter](design-details-dimension-set-entries-overview.md)  
-##### [Designoplysninger: Søgning efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)  
-##### [Designoplysninger: Tabelstruktur](design-details-table-structure.md)  
 
 ## Prøv
 ### [Prøveversioner og abonnementer](across-preview.md)
@@ -703,6 +703,7 @@
 ### [Afskrive på eller amortisere anlægsaktiver](fa-how-depreciate-amortize.md)
 ### [Afhænde eller lade anlægsaktiver udgå](fa-how-dispose-retire.md)
 ### [Administrere budgetter for anlægsaktiver](fa-how-manage-budgets.md)
+### [Fejlfinding i anlægsfejlposter](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Relationsstyring
 ### [Oversigt over relationsstyring](marketing-relationship-management.md)
@@ -1264,13 +1265,14 @@
 ##### [Moms-id-typer for Mexico](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Genberegning af moms](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Elektronisk fakturering
-##### [Elektronisk fakturering](LocalFunctionality/Mexico/electronic-invoicing.md)
-##### [Konfigurere elektronisk fakturering](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
-##### [Generere elektroniske fakturaer](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Elektronisk fakturering (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
+##### [Konfigurere PAC-webtjeneste](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
+##### [Konfigurere elektronisk fakturering (MX)](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
+##### [Generere elektroniske fakturaer (MX)](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Carta de porte følgesedler og overflytningsordrer (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
+#### Generelt
 ##### [Regler for elektronisk regnskab i Mexico](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ##### [Foretage elektroniske betalinger](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### Generelt
-##### [Konfigurere PAC-webtjeneste](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Udskrive fejlfindingsrapporter](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
 ##### [Oprette indbetalinger](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 

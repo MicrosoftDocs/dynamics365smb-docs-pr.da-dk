@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: a2acba6a6140be088d38d7473557fc4b7cd40fae
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588247"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865438"
 ---
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
 
@@ -37,7 +37,7 @@ Tastaturgenveje giver større tilgængelighed, hvilket kan gøre det lettere og 
 De fleste genveje er de samme, uanset om operativsystemet er Windows eller macOS. Nogle genveje adskiller sig dog fra genvejene i macOS. Disse genveje er angivet i parentes i de følgende afsnit.
 
 > [!NOTE]
-> Ud over de globale tastaturgenveje, der er beskrevet i dette emne, er der en række tilgængelige forretningsspecifikke genveje. I f.eks. den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)] bogfører F9 et dokument, og Ctrl+F7 viser de finansielle posteringer for en post, når du åbner posten i et kort. (Disse kan være anderledes i din løsning). Tastaturgenvejene vises i værktøjstippet for den pågældende handling.
+> Ud over de globale tastaturgenveje, der er beskrevet i denne artikel, er der en række tilgængelige forretningsspecifikke genveje. I f.eks. den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)] bogfører F9 et dokument, og Ctrl+F7 viser de finansielle posteringer for en post, når du åbner posten i et kort. Denne artikel indeholder nogle af de mere almindelige forretningsspecifikke genveje, som vises med kursiv. Vær opmærksom på, at de aktuelle genveje kan være anderledes i din løsning. I brugergrænsefladen vises tastaturgenvejene i værktøjstippet for den pågældende handling.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Generelle tastaturgenveje
 
@@ -49,7 +49,7 @@ I følgende tabel beskrives tastaturgenveje, der kan bruges til navigation og ad
 |Alt+Pil op|Vise værktøjstip for et felt eller en kolonneoverskrift i en tabel. Hvis feltet indeholder valideringsfejl, skal du trykke på Alt + pil op for at få vist valideringsfejlen. Tryk på Esc eller Alt+pil op for at lukke værktøjstippet.|
 |F2|Du kan skifte mellem at markere hele feltværdien eller placere markøren i slutningen af feltets værdi.|
 |Alt+F2|Vise eller skjule faktaboksruden.|
-|Alt+Skift+F2|Skifte mellem **Detaljer** og **Vedhæftede filer** i faktaboksruden.|
+|Alt+Shift+F2|Skifte mellem **Detaljer** og **Vedhæftede filer** i faktaboksruden.|
 |Alt+O|Du kan tilføje en ny note i den valgte post, også selvom faktaboksruden ikke er åben.|
 |ALT + Q<br />(Ctrl+option+Q)|Åbne vinduet **Fortæl mig**. Du kan finde flere oplysninger i [Søge efter sider og oplysninger med Fortæl mig](ui-search.md).|
 |Alt+N |Åbne en side for at oprette en ny post. (Svarer til at vælge **Ny** og **+**-handlinger).|
@@ -83,7 +83,15 @@ I følgende tabel beskrives de tastaturgenveje, som du kan bruge på en listesid
 |--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Sortere den markerede kolonne i stigende eller faldende rækkefølge.|Ikke tilgængelig.|
 |Alt+N|Indsætte en ny linje i en redigerbar liste, f.eks. siden **Finansbudgetter**.|Samme.|
+|Skift+F9|Bogføre og udskrive et dokument.|Samme.|
 |Skift+F10 |Åbne en menu med indstillinger, der er tilgængelige for den valgte række.|Samme.|
+|Alt + D|Åbn dimensionsgruppeposter.|Samme.|
+|Ctrl+F7|Åbne poster, logføre poster, omkostningsposter osv.|
+|Ctrl+F9|Frigiv dokument.|Samme.|
+|*F7*|Åbn statistik.|Samme.|
+|*F9*|Bogføre, udstede, registrere eller tilbageføre dokumenter.|Samme.|
+|*Shift+Ctrl+F*|Send foreslåede linjer på siden med pengestrømskladde.|Ikke tilgængelig.|
+|*Shift+Ctrl+I*|Få vist serie- og lotnumre, der er tildelt linjeelementet i dokumentet eller kladden.|Ikke tilgængelig.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigere mellem rækker og kolonner
 
@@ -103,7 +111,7 @@ Der findes gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prod_sh
 | Pil op | Flytte i den samme kolonne til feltet i rækken ovenover. | Flytte i den samme kolonne til feltet i rækken ovenover. |
 | Højrepil | På en skrivebeskyttet liste skal du i den samme række flytte til det næste felt til højre.<br /><br />På en redigerbar liste skal du flytte til højre i det aktuelle felt. | Flytte i den samme række til det næste felt til højre. |
 | Venstre pil | På en skrivebeskyttet liste skal du i den samme række flytte til det forrige felt til venstre. <br /><br />På en redigerbar liste skal du flytte til venstre i det aktuelle felt. | Flyt i den samme række til det forrige felt til venstre. |
-| Tab | På en redigerbar liste skal du i den samme række flytte til det næste felt til højre. | Ikke tilgængelig. |  |
+| Tab | På en redigerbar liste skal du i den samme række flytte til det næste felt til højre. | Ikke tilgængelig. | 
 | Skift+Tab | På en redigerbar liste skal du i den samme række flytte til det forrige felt til venstre. | Ikke tilgængelig. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Markere, kopiere og indsætte
@@ -142,7 +150,9 @@ Følgende genvejstaster er tilgængelige på kortsider, f.eks. **Debitorkort**, 
 
 |Tryk på disse taster<br />(i macOS)|For at gøre følgende|
 |--------------------------------|----------|
+|Alt + D|Åbn dimensionsgruppeposter.|
 |Alt+F6|Slå skjul/udvid til og fra i det aktuelle oversigtspanel eller den aktuelle del (delside).|
+|Alt+F9|Opret et nyt bilag, og bogfør det.|
 |Alt + G|Åbn siden **Find poster** for at finde poster, der er relateret til det bogførte dokument. Fungerer også på lister.|
 |Alt+N |Åbne en side og oprette en ny post – på samme måde som ved valg af handlingen **Ny**. |
 |Alt+Skift+N |Lukke en side og åbne en ny side for at oprette en ny post – på samme måde som ved valg af handlingen **OK og ny**. |
@@ -152,9 +162,15 @@ Følgende genvejstaster er tilgængelige på kortsider, f.eks. **Debitorkort**, 
 |Ctrl+Pil op |Åbne den forrige post for en enhed.|
 |Ctrl+Insert |Indsætte en ny linje i dokumenter.|
 |Ctrl+Delete |Slette linjen i dokumenter, kladder og regneark.|
+|Ctrl+F7|Åbne poster, logføre poster, omkostningsposter osv.|
+|Ctrl+F9|Frigiv dokument.|
 |Ctrl+Skift+F12 |Maksimere delen med linjevarer på en dokumentside. Tryk igen på tasterne for at vende tilbage til normal visning. Du kan finde flere oplysninger i [Fokusere på linjevarer](ui-enter-data.md#Focus).|
 |F6|Flytte til det næste oversigtspanel eller den næste del (delside).|
+|*F7*|Åbn statistik.|
+|*F9*|Bogføre, udstede, registrere eller tilbageføre dokumenter.|
+|*Shift+Ctrl+F9*|Bogføre, udskrive og lægge lagermodtagelse på lager.|
 |Skift+F6|Flytte til forrige oversigtspanel eller del (delside).|
+|*Shift+F9*|Bogføre og udskrive et dokument.|
 
 ## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Genvej for felter
 
