@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/09/2021
-ms.openlocfilehash: 3dc07c19093ff2068a2d749fdf2b260ea82c4672
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.date: 10/26/2021
+ms.openlocfilehash: bc04ebdbd8092fc480fdaa00043b4e4c49fa823e
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588047"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920924"
 ---
 # <a name="resources-for-help-and-support"></a>Hjælp og support
 
@@ -22,7 +22,7 @@ Menupunktet Hjælp i [!INCLUDE[prod_long](includes/prod_long.md)], (spørgsmåls
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
-2021 udgivelsesbølge 2 indeholder en ny hjælp-rude med fanen Søg. Brug feltet Søg til at søge efter vejledning i, hvordan du bruger produktet, indbyggede funktioner og tilgængelige uddannelses moduler. Afhængigt af dine søgeord har ruden 5 eller flere links med en kort beskrivelse. Vælg et hyperlink, eller Afgræns søgeordene. Når du vælger et hyperlink, åbnes destinations artiklen under en ny webbrowser fane. Du kan vælge at fjerne fanen browser, så du kan få vist de relevante oplysninger ved siden af hinanden med [!INCLUDE [prod_short](includes/prod_short.md)]. Ruden forbliver åben, mens du navigerer gennem [!INCLUDE [prod_short](includes/prod_short.md)], så det indhold, du har søgt efter, forbliver synligt.  
+2021 udgivelsesbølge 2 indeholder en ny hjælp-rude med fanen Søg. Brug feltet Søg til at søge efter vejledning i, hvordan du bruger produktet, indbyggede funktioner og tilgængelige uddannelses moduler. Afhængigt af dine søgeord har ruden fem eller flere links med en kort beskrivelse. Vælg et hyperlink, eller Afgræns søgeordene. Når du vælger et hyperlink, åbnes destinations artiklen under en ny webbrowser fane. Du kan vælge at fjerne fanen browser, så du kan få vist de relevante oplysninger ved siden af hinanden med [!INCLUDE [prod_short](includes/prod_short.md)]. Ruden forbliver åben, mens du navigerer gennem [!INCLUDE [prod_short](includes/prod_short.md)], så det indhold, du har søgt efter, forbliver synligt.  
 
 > [!NOTE]
 > I den aktuelle version af [!INCLUDE [prod_short](includes/prod_short.md)] er feltet Søg i ruden hjælp kun relevant for indhold, der udgives på docs.microsoft.coms websted.
@@ -85,7 +85,7 @@ Se [!INCLUDE[prod_short](includes/prod_short.md)] [roadmap page](https://dynamic
 Denne sektion giver dig genveje til Microsoft AppSource, hvor du kan finde løsninger og tjenester fra [!INCLUDE[prod_short](includes/prod_short.md)]-partnere. Benyt links til at udforske de alle funktioner af [!INCLUDE[prod_short](includes/prod_short.md)], før du beslutter, om du vil købe et abonnement. Du kan også finde et link til at kontakt til salgsteamet
 
 > [!NOTE]
-> Denne sektion er kun tilgængelig i prøveversioner. Hvis du allerede har købt [!INCLUDE[prod_short](includes/prod_short.md)], vises sektionen ikke længere.
+> Denne sektion er kun tilgængelig i prøveversioner af [!INCLUDE[prod_short](includes/prod_short.md)] online. Hvis du allerede har købt [!INCLUDE[prod_short](includes/prod_short.md)], vises sektionen ikke længere.
 
 ### <a name="give-feedback"></a>Send feedback
 
@@ -95,11 +95,11 @@ Sørg for at søge listen over indsendte forslag igennem. Chancen for, at nogen 
 
 ### <a name="troubleshooting"></a>Fejlfinding
 
-Sektionen **Fejlfinding** viser teknisk information, som din administrator eller [!INCLUDE[prod_short](includes/prod_short.md)]-partner kan benytte for at give brugere adgang. Dette omfatter information om den seneste fejlbesked, den nuværende version af dit [!INCLUDE[prod_short](includes/prod_short.md)], og et link til siden **Sideinspektion**. Se [Inspektion af sider i Business Central](across-inspect-page.md) for yderligere information.  
+Sektionen **Fejlfinding** viser teknisk information, som din administrator eller [!INCLUDE[prod_short](includes/prod_short.md)]-partner kan benytte for at give brugere adgang. Denne sektion omfatter information om den seneste fejlbesked, den nuværende version af dit [!INCLUDE[prod_short](includes/prod_short.md)] og et link til siden **Sideinspektion**. Se [Inspektion af sider i Business Central](across-inspect-page.md) for yderligere information.  
 
-Hvis du vil hjælpe dig eller din supportpartner til at foretage fejlfinding, kan du slå yderligere logføring i sektionen **Rapporter et problem**. Du kan derefter analysere den yderligere telemetri i Administrationscenter eller f.eks. Application Insights.  
+Hvis du vil hjælpe dig eller din supportpartner til at foretage fejlfinding, kan du slå yderligere logføring i sektionen **Rapporter et problem**. Du kan derefter analysere den yderligere telemetri i Administration eller f.eks. Application Insights.  
 
-Som den interne administrator har du adgang til administrationen, hvor du kan fortsætte fejlfindingen. Du kan få vist telemetri, styre miljøer og administrere brugersessioner. Du kan finde flere oplysninger i følgende artikler i følgende artikler:
+Som intern administrator har du adgang til administrationen, hvor du kan fortsætte fejlfindingen. Du kan få vist telemetri, styre miljøer og administrere brugersessioner. Du kan finde flere oplysninger i følgende artikler i følgende artikler:
 
 - [Finde tekniske oplysninger](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information)  
 - [Styre miljøer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
@@ -113,13 +113,18 @@ Din [!INCLUDE[prod_short](includes/prod_short.md)]-detailpartner kan hjælpe dig
 Du kan finde flere oplysninger i [Eskalere supportproblemer til Microsoft](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) i administrationsindholdet.  
 
 > [!NOTE]
-> Denne sektion er kun tilgængelig, hvis du har betalt for et [!INCLUDE[prod_short](includes/prod_short.md)]-abonnement. Hvis du har tilmeldt dig en prøveversion og endnu ikke har købt [!INCLUDE[prod_short](includes/prod_short.md)], har du ikke en forhandlerpartner, og du ikke kan kontakte Microsofts supportteam. Du kan finde en [!INCLUDE[prod_short](includes/prod_short.md)]-partner på siden [Jeg søger efter en løsningsudbyder](https://go.microsoft.com/fwlink/?linkid=2038145). Du kan finde flere oplysninger i [Hvordan finder jeg en videresalgspartner?](/dynamics365/business-central/across-faq#findpartner).  
+> Med [!INCLUDE[prod_short](includes/prod_short.md)] online er sektionen **Rapportér et problem** er kun tilgængelig, hvis du har betalt for et [!INCLUDE[prod_short](includes/prod_short.md)]-abonnement. Hvis du har tilmeldt dig en prøveversion og endnu ikke har købt [!INCLUDE[prod_short](includes/prod_short.md)], har du ikke en forhandlerpartner, og du kan ikke kontakte Microsofts supportteam. Du kan finde en [!INCLUDE[prod_short](includes/prod_short.md)]-partner på siden [Jeg søger efter en løsningsudbyder](https://go.microsoft.com/fwlink/?linkid=2038145). Du kan finde flere oplysninger i [Hvordan finder jeg en videresalgspartner?](/dynamics365/business-central/across-faq#findpartner).  
+>
+> Med [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø er dette afsnit kun tilgængeligt i 2020 udgivelsesbølge 2 (version 18) og nyere.
 
 ### <a name="support-contacts"></a>Supportkontrakter
 
 I afsnittet **Rapportér et problem** vises en mailadresse eller et hyperlink, som du kan bruge til at få kontakt med personen eller teamet hos kundesupport. Hvis du er [!INCLUDE[prod_short](includes/prod_short.md)]-detailforhandleren for en lejer, kan du angive dine foretrukne supportkontaktoplysninger i Administration. Du kan finde flere oplysninger i [Konfiguration af supportoplevelsen](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) i administrationsindholdet.  
 
 Hvis du vil advare din partner mod et problem, skal du vælge hyperlinket for enten at sende en e-mail eller åbne sit supportwebsted under en ny fane i browseren. Derefter kan du tilføje de tekniske oplysninger om din Azure Active Directory-lejer fra afsnittet **Fejlfinding** og andre oplysninger, som du finder relevante.  
+
+> [!NOTE]
+> Oplysningerne om supportkontakter er ikke tilgængelige med [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø.
 
 ## <a name="use-the-docsmicrosoftcom-site-to-learn-more"></a>Bruge webstedet docs.microsoft.com for at få mere at vide
 
@@ -135,7 +140,7 @@ I dette afsnit kan du få mere at vide om, hvordan du kan navigere i forretnings
 
 ### <a name="content-on-the-site"></a>Indhold på webstedet
 
-[Denne sektion](index.md) på webstedet docs.microsoft.com rummer indhold fra Microsoft, som udgør det faste element *Få mere at vide* i modellen for brugerassistance. I første del skal indholdet for *Få mere at vide* besvare de spørgsmål, som brugergrænsefladen ikke kan besvare, f.eks. følgende:
+[Denne sektion](index.md) på webstedet docs.microsoft.com rummer indhold fra Microsoft, som udgør det faste element *Få mere at vide* i modellen for brugerassistance. Indholdet af *Få mere at vide* besvarer til dels de spørgsmål, som brugergrænsefladen ikke kan besvare, f.eks. følgende:
 
 - Hvor passer denne side ind i den overordnede arbejdsgang?  
 - Hvad er næste trin?  
@@ -181,7 +186,7 @@ I marts 2021 blev der vist en ny sektion i de fleste artikler på webstedet docs
 
 ### <a name="tell-us-what-you-think"></a>Fortæl os, hvad du synes
 
-På docs.microsoft.com har hver artikel to knapper forneden. Knappen *Dette produkt* fører dig til webstedet Ideer, og med knappen *Denne side* kan du indsende feedback om indholdet via GitHub. I begge tilfælde skal du oprette en konto, hvis du ikke allerede har en. For *produktfeedback* skal du logge på med din arbejds- eller organisationsbaserede mailkonto. For *adgang til GitHub* kan du bruge en hvilken som helst mailadresse , når du opretter en konto.  
+På docs.microsoft.com har hver artikel to knapper forneden. Knappen *Dette produkt* fører dig til webstedet Ideer, og med knappen **Denne side** kan du indsende feedback om indholdet via GitHub. I begge tilfælde skal du oprette en konto, hvis du ikke allerede har en. For *produktfeedback* skal du logge på med din arbejds- eller organisationsbaserede mailkonto. For *adgang til GitHub* kan du bruge en hvilken som helst mailadresse , når du opretter en konto.  
 
 Vi værdsætter dine bidrag, både som pull-anmodninger med forslag eller rettelser til indholdet, og som GitHub-problemer med fejl eller spørgsmål. Men vær opmærksom på, at feedback og bidrag til rapporten *dynamics365smb-docs* vedrører indholdet, ikke produktet.  
 
@@ -194,7 +199,7 @@ På docs.microsoft.com findes også indhold til andre produkter og andre typer i
 
 ## <a name="apps-and-other-solutions"></a>Apps og andre løsninger
 
-Hvis [!INCLUDE [prod_short](includes/prod_short.md)] indeholder en funktionalitet, der ikke findes i Microsoft, leverer udbyderen af den pågældende funktionalitet også indholdet til *Få mere at vide* på deres eget websted. Du kan få adgang til indholdet på samme måde som i standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)], f.eks. ved hjælp af tastaturgenvejen *Ctrl + F1*.  
+Hvis [!INCLUDE [prod_short](includes/prod_short.md)] indeholder en funktionalitet, der ikke er leveret af Microsoft, leverer udbyderen af den pågældende funktionalitet også indholdet til *Få mere at vide* på deres eget websted. Du kan få adgang til indholdet på samme måde som i standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)], f.eks. ved hjælp af tastaturgenvejen *Ctrl + F1*.  
 
 Det samme gælder, hvis du bruger [!INCLUDE [prod_short](includes/prod_short.md)] i det lokale miljø.  
 

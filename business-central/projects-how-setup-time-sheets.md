@@ -1,6 +1,6 @@
 ---
 title: Konfigurere timesedler og deres godkendelse
-description: Du kan konfigurere timesedler for at registrere den tid, der bruges på sager og på anvendelse af ressourcer, der hjælper dig med projektstyring, personale og kapacitet
+description: Du kan konfigurere timesedler for at registrere den tid, der bruges på opgaver og projekter, så du får hjælp til projektstyring, personale og kapacitet
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,25 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
-ms.date: 10/01/2021
+ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 72618aaeddae0a72a0c699f19a04a388ced0b9c1
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 46e5cf2c7728e7c154841b6d407423344020d818
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589203"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920976"
 ---
 # <a name="set-up-time-sheets"></a>Konfigurere timesedler
 
-Timesedler i [!INCLUDE[prod_short](includes/prod_short.md)] håndterer tidsregistrering i ugentlige intervaller på syv dage. Du kan bruge til at registrere den tid, der er brugt på sager, og du kan bruge dem til at registrere simpel ressourcetidsregistrering. Før du kan bruge timesedler, skal du angive, hvordan du vil have dem oprettet og konfigureret.
+Timesedler i [!INCLUDE[prod_short](includes/prod_short.md)] håndterer tidsregistrering i ugentlige intervaller på syv dage. Du kan bruge dem til at registrere den tid, der er brugt på projekter, og du kan bruge dem til at registrere simpel ressourcetidsregistrering. Før du kan bruge timesedler, skal du angive, hvilke brugere der skal sende timesedler, og hvordan du vil konfigurere timesedler.  
 
-Når du har konfigureret, hvordan organisationen skal bruge timesedler, kan du angive, om og hvordan timesedler godkendes. Afhængigt af organisationens behov kan du angive:
+> [!TIP]
+> I [!INCLUDE [prod_short](includes/prod_short.md)] er brugerne af timesedler lig med *ressourcer*. På den måde kan du f. eks. bruge timesedler til at spore ikke medarbejderes arbejde. Hvis du vil spore arbejdet for dine medarbejdere eller bruge timesedler til at spore medarbejderfravær, skal du knytte *ressourcer* til *medarbejdere* i installationsvejledningen.  
+
+Du kan også angive, om og hvordan timesedler skal godkendes. Afhængigt af organisationens behov kan du angive:
 
 * En eller flere brugere som timeseddeladministrator og godkendere for alle timesedler.
 * En timeseddelgodkender for hver ressource.
 
-Når du har oprettet timesedler, kan du oprette timesedler for ressourcer, tildele dem til planlægningslinjer og bogføre timeseddellinjer. Du kan finde flere oplysninger i [Bruge timesedler](projects-how-use-time-sheets.md).  
+Når du har oprettet timesedler, kan du oprette timesedler for ressourcer, og ressourcerne kan bogføre timeseddellinjer. Du kan også knytte timesedler til sagsplanlægningslinjer. Du kan finde flere oplysninger i [Bruge timesedler](projects-how-use-time-sheets.md).  
 
 ## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Oprette timesedler med assisterende opsætningsvejledning
 
@@ -42,6 +45,8 @@ Fra 2021 udgivelsesbølge 2 kan du bruge en assisteret installationsvejledning s
 Den assisterede opsætningsvejledning fører dig gennem følgende trin:
 
 1. Konfigurer deltagerne i timeseddelprocessen
+
+    Den første side i guiden viser antallet af brugere i din [!INCLUDE [prod_short](includes/prod_short.md)]. Den indeholder også andre obligatoriske og valgfrie oplysninger.  
 2. Angive den første dag i en arbejdsuge i denne organisation
 
     Den første dag i arbejdsugen vil være standard første dag for alle timesedler.
@@ -50,10 +55,7 @@ Den assisterede opsætningsvejledning fører dig gennem følgende trin:
     Denne person kan redigere og slette alle timesedler. Du kan også tilføje den samme rolle som andre på siden **Brugeropsætning**.
 4. Oprette ressourcer, der skal bruge timesedler, og de personer, der skal godkende timesedler
 
-    > [!NOTE]
-    > I forbindelse med projekter og sager er brugerne af timesedler *ressourcer*, ikke medarbejdere. Hvis du vil kunne spore arbejdet for medarbejderne, skal du knytte ressourcer til medarbejdere i installationsvejledningen.
-
-I slutningen af installationsvejledningen kan du vælge at lade [!INCLUDE [prod_short](includes/prod_short.md)] oprette timesedler baseret på din konfiguration. Du kan også køre installationsvejledningen igen eller fuldføre opsætningen manuelt.  
+I slutningen af installationsvejledningen kan du vælge at lade [!INCLUDE [prod_short](includes/prod_short.md)] oprette timesedler baseret på din konfiguration. Se de nye timesedler på siden **Timesedler**, som du kan åbne [her](https://businesscentral.dynamics.com/?page=951). Du kan også køre installationsvejledningen igen eller fuldføre opsætningen manuelt.  
 
 ## <a name="set-up-time-sheets-manually"></a>Konfigurere timesedler manuelt
 
@@ -92,9 +94,9 @@ I følgende afsnit beskrives det, hvordan du konfigurerer timesedler, hvis du ik
 
 ## <a name="see-also"></a>Se også
 
-[Bruge timesedler for sager](projects-how-use-time-sheets.md)  
+[Bruge timesedler for projekter](projects-how-use-time-sheets.md)  
 [Sådan opretter du timesedler](projects-how-use-time-sheets.md#to-create-time-sheets)  
-[Registrere forbrug eller forbrug til sager](projects-how-record-job-usage.md)  
+[Registrere forbrug eller anvendelse af projekter](projects-how-record-job-usage.md)  
 [Konfigurere projektstyring](projects-setup-projects.md)  
 [Projektstyring](projects-manage-projects.md)  
 [Finans](finance.md)  

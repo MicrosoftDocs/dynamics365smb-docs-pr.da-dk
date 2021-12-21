@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.search.keyword: prepayment
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 517d815e323f2b1d0e3c120808a5543bff462ff3
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: a09f0cd35c62b65bf690fd785c0fc9a4b4b178d7
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701511"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889816"
 ---
 # <a name="set-up-prepayments"></a>Oprette forudbetalinger
+
 Hvis det er et krav, at dine kunder skal betale, før du leverer en ordre til dem, eller hvis din leverandør kræver, at du skal betale, før de sender en ordre til dig, kan du bruge forudbetalinger. Forudbetalingsfunktionen sætter dig i stand til at fakturere og opkræve depositum fra debitorer eller at sende depositummerne til kreditorer og til at sikre, at alle delvise betalinger bogføres i forhold til en faktura. Du kan finde flere oplysninger i [Oprette forudbetalingsfakturaer](finance-how-to-create-prepayment-invoices.md).
 
 Inden du kan bogføre forudbetalingsfakturaer, skal du oprette bogføringskonti i finansposterne, og du skal oprette nummerserier for forudbetalingsdokumenterne. Du skal angive en konto til forudbetalinger, der vedrører salg, og en konto til forudbetalinger, der vedrører køb. Du kan angive de samme bogføringskonti, der skal bruges til alle forudbetalinger, der vedrører alle virksomhedsbogføringsgrupper eller generelle produktbogføringsgrupper, eller du kan angive bestemte konti til bestemte bogføringsgrupper til henholdsvis salg og køb. Dette afhænger af virksomhedens krav til sporing af forudbetalinger.  
@@ -23,6 +24,7 @@ Du kan definere den procentdel af linjebeløbet, der skal faktureres for forudbe
 
 > [!NOTE]
 > Det anbefales, at du ikke bruger en forudbetalingsprocent på 100 % i følgende tilfælde:
+>
 > * Hvis du befinder dig i Nordamerika. Grundet beregningsmåden for moms kan en forudbetalingsprocent på 100 % medføre problemer med forudbetalingsfakturaer.
 > * I alle områder hvis du manuelt fratrækker en kontantrabat fra fakturaen. Vil en forudbetalingsprocent på 100 % ikke automatisk efterlade et beløb, hvorfra rabatten skal fratrækkes. 
 
@@ -33,10 +35,10 @@ Eftersom det forudbetalte beløb tilhører køberen, indtil han har modtaget var
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Sådan føjes forudbetalingskonti til bogføringsopsætning  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogføringsopsætning**, og vælg derefter det relaterede link.
-2. På siden **Bogføringsopsætning** skal du udfylde følgende felter:  
+2. På siden **Bogføringsopsætning** skal du udfylde følgende felter for de relevante linjer:  
 
-    - **Forudbetalingskonto for salg**  
-    - **Forudbetalingskonto for køb**  
+    * **Forudbetalingskonto for salg**  
+    * **Forudbetalingskonto for køb**  
 
 > [!TIP]
 > Hvis du ikke kan se felterne på siden **Bogføringsopsætning**, skal du bruge det vandrette rullepanel nederst på siden til at rulle til højre.  
@@ -46,16 +48,16 @@ Hvis du ikke allerede har angivet finanskonti til forudbetalinger, kan du åbne 
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Sådan oprettes nummerserier til forudbetalingsdokumenter  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Salgsopsætning**, og vælg derefter det relaterede link.
-2. På siden **Salgsopsætning** skal du udfylde følgende felter:  
+2. Udfyld følgende felter i oversigtspanelet **Nummerserie** på siden **Salgsopsætning**.  
 
-   - **Bogførte forudbetalingsfakturanr.**
-   - **Bogførte forudbetalingskreditnotanr.**
+   * **Bogførte forudbetalingsfakturanr.**
+   * **Bogførte forudbetalingskreditnotanr.**
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Købsopsætning** og derefter vælge det relaterede link.
-2. På siden **Købsopsætning** skal du udfylde følgende felter:
+3. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Købsopsætning** og derefter vælge det relaterede link.
+4. Udfyld følgende felter i oversigtspanelet **Nummerserie** på siden **Købsopsætning**.
 
-    - **Bogførte forudbetalingsfakturanr.**
-    - **Bogførte forudbetalingskreditnotanr.**
+    * **Bogførte forudbetalingsfakturanr.**
+    * **Bogførte forudbetalingskreditnotanr.**
 
 > [!NOTE]  
 > Du kan bruge samme nummerserie til forudbetalingsfakturaer som til almindelige fakturaer, eller du kan bruge forskellige serier. Hvis du bruger forskellige serier, må der ikke være ens numre i serierne; dvs. numre, der optræder i begge serier.  
@@ -74,6 +76,9 @@ Til en kunde eller leverandør kan du oprette én standardforudbetalingsprocent,
 2. Åbn kortet for en debitor.
 3. Udfyld feltet **Forudbetaling i %**.
 4. Gentag trinene for andre debitorer eller for kreditorer.  
+
+> [!TIP]
+> Du kan også få adgang til siden **Forudbetalingsprocenter - salg** fra debitor-eller kreditorkortet.
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Sådan afgøres det, hvilken forudbetalingsprocent der har højeste prioritet  
 

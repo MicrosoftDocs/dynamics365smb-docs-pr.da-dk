@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
+ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: 2d5f6a7b39ccc5c77ee68d7a62e33bd166551095
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: f1000be46bebe766e8f3dd060f44b98a775c1356
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701561"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889832"
 ---
 # <a name="create-prepayment-invoices"></a>Oprette forudbetalingsfakturaer
 
@@ -47,6 +47,9 @@ Følgende procedure beskriver, hvordan du fakturerer en forudbetaling for en sal
 
     Hvis du har angivet en standardforudbetalingsprocent enten for debitoren eller i oversigtspanelet **Forudbetaling** i dette dokument, kopieres denne værdi til hver linje. Du kan ændre indholdet i feltet **Forudbetaling i %** på linjen.  
 
+    > [!TIP]
+    > Hvis du ikke kan se feltet **Forudbetaling i %**, kan du tilføje det via personlig tilpasning.  Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
+
 4. Du kan se det samlede forudbetalingsbeløb ved at vælge handlingen **Statistik**.
 
     Hvis du vil regulere det samlede forudbetalingsbeløb for ordren, kan du ændre indholdet i feltet **Forudbetalingsbeløb** på siden **Salgsordrestatistik**.  
@@ -72,7 +75,8 @@ Du kan udstede flere forudbetalingsfakturaer til ordren. I så fald skal du øge
 [Fakturere forudbetalinger](finance-invoice-prepayments.md)  
 [Gennemgang: Opsætning og fakturering af salgsforudbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Tilpasse dit arbejdsområde](ui-personalization-user.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
