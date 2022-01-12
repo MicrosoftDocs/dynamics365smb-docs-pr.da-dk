@@ -1,5 +1,5 @@
 ---
-title: Oprette indkøbere og tildele dem til leverandører | Microsoft Docs
+title: Oprette indkøbere og tildele dem til leverandører (indeholder video) | Microsoft Docs
 description: Hvis der er mange indkøbere eller indkøbsagenter ansat i virksomheden, kan du organisere dem til statistisk analyse.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchasing agent
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 452a5fab73d60bea127d19a42c1730fcbd24b06c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cdfb1198234a0bfcbbc74e7816568f2f06b21b10
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435131"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940172"
 ---
 # <a name="set-up-purchasers"></a>Oprette indkøbere
 Hvis der er mange indkøbere ansat i virksomheden, kan du oprette dem på en side og tildele dem en kode. Du kan så bruge koderne til at lave statistikker og analysere oplysninger i rapporter.<br><br>  

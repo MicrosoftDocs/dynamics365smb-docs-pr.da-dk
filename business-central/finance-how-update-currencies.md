@@ -1,5 +1,5 @@
 ---
-title: Opdatere valutakurser
+title: Opdatere valutakurser (indeholder video)
 description: Spore beløb i forskellige valutaer ved hjælp af valutakoder, og lad Business Central hjælpe dig med at regulere valutakurser for bogførte poster med en ekstern service.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 44dd13f986098283d29e58d3e8c4ce0218b4a083
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: 24dbc235c45fab4f59f816f22c16b699a3fd61f9
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921054"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7939922"
 ---
 # <a name="update-currency-exchange-rates"></a>Opdatere valutakurser
 
@@ -197,7 +197,7 @@ Du kan bruge en ekstern tjeneste til at holde dine valutakurser opdateret, f.eks
 
 Værdien i feltet **Valutakurs** på siden **Valutaer** opdateres med den seneste valutakurs.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md)  

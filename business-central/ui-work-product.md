@@ -1,5 +1,5 @@
 ---
-title: Arbejde med de overordnede funktioner i Business Central | Microsoft Docs
+title: Arbejde med de overordnede funktioner i Business Central (indeholder video) | Microsoft Docs
 description: Beskriver de overordnede funktioner, du bruger til at arbejde med data i Business Central, som f.eks. at angive værdier, sortere data og ændre visninger.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 9781e2d064d48b7ce72b3c7f279c33cbfd42be7a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7ef07e8f7f4a51b63ca2d001a541499bf2fed892
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445247"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940672"
 ---
 # <a name="working-with-prod_short"></a>Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -84,7 +84,7 @@ Når du søger efter en åben listeside, f. eks **Salgsordrer**, vises den i Vis
 
 Men når du åbner den samme listeside fra startsiden, er handlingen **Administrer** ikke tilgængelig. I stedet for at åbne en individuel salgsordre skal du blot vælge feltet **Nummer**. I denne visning kan du ikke fastgøre handlingslinjen.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

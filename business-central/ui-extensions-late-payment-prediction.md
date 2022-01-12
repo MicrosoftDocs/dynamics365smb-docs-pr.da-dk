@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 06/23/2021
+ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: be2916e266e404ae1975eb4b721a8b83f1d02791
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dd943c5ad9464b9ebd1629c5dbc8a3f5545e9d9c
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434904"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940822"
 ---
-# <a name="the-late-payment-prediction-extension"></a>Udvidelsen Forudsigelse af forsinket betaling  
+# <a name="the-late-payment-prediction-extension"></a>Udvidelsen Forudsigelse af forsinket betaling
+
 Det er vigtigt med effektiv styring af skyldige beløb for virksomhedens samlede finansielle tilstand. Udvidelsen Forudsigelse af forsinket betaling kan hjælpe dig med at reducere udestående tilgodehavender og finjustere din indsamlingsstrategier ved at forudsige, om salgsfakturaer bliver betalt til tiden. Hvis der f.eks. forudsiges en forsinkelse af en betaling, kan du vælge at justere betingelserne for betalingen eller betalingsmetoden for kunden.
 
 ## <a name="getting-started"></a>Introduktion
@@ -52,7 +53,7 @@ On the **Late Payment Prediction Setup** page you can schedule updates to paymen
 Microsoft udarbejder og anvender antallet af prognosewebtjenester i alle områder, hvor [!INCLUDE[prod_short](includes/prod_short.md)] er tilgængelig. Adgang til disse webtjenester er inkluderet i dit [!INCLUDE[prod_short](includes/prod_short.md)]-abonnement. Du kan få flere oplysninger i Licensvejledning til Microsoft Dynamics 365 Business Central. Denne vejledning kan hentes på webstedet for [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/).
 
 Webtjenester fungerer i tre forskellige tilstande:
-- Oplæring af model. Webtjenesten oplærer modellen med udgangspunkt i det angivne datasæt.
+- Træning i model. Webtjenesten oplærer modellen med udgangspunkt i det angivne datasæt.
 - Evaluering af model. Webtjenesten kontrollerer, om modellen returnerer pålidelige data for det angivne datasæt.
 - Prognose. Webtjenesten anvender modellen på det angivne datasæt for at udføre en prognose.
 
@@ -88,7 +89,7 @@ Hvis det viser sig, at processerne ikke svarer til standardmodellen, kan du stad
 > [!Note]
 > Vi bruger lidt af din beregningstid hver uge, når vi vurderer og genoplærer modellen. 
 
-[!INCLUDE[prod_short](includes/prod_short.md)] udfører oplæring og evaluering automatisk,, når der er nok indbetalte og forsinkede fakturaer til rådighed, men du kan udføre det manuelt, når du vil.
+[!INCLUDE[prod_short](includes/prod_short.md)] udfører træning og evaluering automatisk,, når der er nok indbetalte og forsinkede fakturaer til rådighed, men du kan udføre det manuelt, når du vil.
 
 #### <a name="to-train-and-use-your-model"></a>Sådan oplærer og bruger du din model
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af forudsigelse af forsinket betaling**, og vælg derefter det relaterede link.  
@@ -107,10 +108,13 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 7. Marker afkrydsningsfeltet **Brug mit Azure-abonnement**.
 8. I oversigtspanelet **Legitimationsoplysninger for min model** skal angive API URL-adressen og API-nøgle til din model.  .  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
+
+## <a name="see-also"></a>Se også
+
 [Dokumentation til Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Tilpasse Business Central ved brug af udvidelser](ui-extensions.md)  
 [Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
-
+[Kunstig intelligens i Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

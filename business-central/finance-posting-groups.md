@@ -1,8 +1,6 @@
 ---
 title: Opsætning af bogføringsgrupper | Microsoft Docs
 description: Oversigt over de bogføringsgrupper, du kan bruge til at spare tid og undgå fejl, når du bogfører transaktioner.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 04/01/2021
+ms.date: 12/17/2021
 ms.author: bholtorf
-ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: ed369b94948846ca380a3480e79660a6aafe292a
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588803"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940747"
 ---
 # <a name="setting-up-posting-groups"></a>Konfigurere bogføringsgrupper
 Bogføringsgrupper knytter enheder som debitorer, kreditorer, varer, ressourcer og salgs- og købsdokumenter til finanskonti. De sparer tid, og du undgå nemmere fejl, når du bogfører transaktioner. Transaktionsværdier går til de konti, der er angivet i bogføringsgruppen for den pågældende enhed. Det eneste krav er, at du har en kontoplan. Du kan finde flere oplysninger i [Konfigurere kontoplanen](finance-setup-chart-accounts.md).  
@@ -74,6 +72,17 @@ Din opsætning bestemmer, hvornår bogføringen foretages. For eksempel afhænge
 
 ## <a name="copying-posting-setup-lines"></a>Kopiere bogføringsopsætningslinjer
 Jo flere produkt- og virksomhedsbogføringsgrupper, du har, jo flere linjer ser du på siden Bogføringsopsætning. Dette kan betyde en masse dataangivelse for at konfigurere bogføringsopsætningen for virksomheden. Selvom der muligvis er mange forskellige kombinationer af virksomheds- og produktbogføringsgrupper, kan forskellige kombinationer stadig bogføre til de samme finanskonti. Hvis du vil begrænse mængden af manuel dataangivelse, skal du kopiere finanskontiene fra en eksisterende linje på siden **Bogføringsopsætning**.
+
+## <a name="set-up-posting-groups-on-the-go"></a>Konfigurere bogføringsgrupper på farten
+
+Brugere kan komme hurtigere i gang med [!INCLUDE[prod_short](includes/prod_short.md)], der giver mulighed for at hjælpe via meddelelser om manglende finanskonti i de forskellige opsætninger af bogføringsgrupper i dokumenter. Hvis du vil have vist disse notifikationer, skal du kontrollere, at **Finanskontoen mangler i bogføringsgruppe eller installationsmeddelelse** er valgt på siden **Mine notifikationer**, som du kan få adgang til fra feltet **Rediger, når jeg modtager notifikationer** på siden **Mine indstillinger**.  
+
+På den måde får du besked, når du arbejder på et dokument, der bruger en bogføringsgruppe eller en opsætning, der mangler en nødvendig finanskonto. Vælg linket i notifikationen Åbn en side, hvor du kan foretage de relevante ændringer, hvis du har tilladelse til det.  
+
+> [!NOTE]
+> Hvis du vil føre dig direkte til den bogføringsgruppe eller opsætning, der mangler en finanskonto, opretter [!INCLUDE[prod_short](includes/prod_short.md)] en pladsholder til bogføringsgruppe eller opsætning. Bogføringsgrupper og opsætninger er en måde, som bogholderen kan bruge til at styre, hvordan poster bogføres i finansregnskabet, så det er muligt, at du ikke kan oprette just-in-time-bogføringsgrupper og -opsætninger i din organisation.  
+> 
+> Hvis det er tilfældet, skal du deaktivere notifikationen **Finanskonto mangler i bogføringsgruppe eller opsætning**, og du skal derefter samarbejde med bogholderen for at foretage de relevante ændringer af bogføringsgruppen, opsætningen eller dokumentet. Dette er et vigtigt trin, fordi når dokumenterne er bogført, kan alle ukorrekte bogføringsgrupper eller opsætninger ikke slettes, da der er oprettet finansposter til dem. 
 
 ## <a name="troubleshooting-posting-group-errors"></a>Fejlfinding i forbindelse med bogføringsgruppefejl
 Bogføringsgrupper er et af de mere avancerede begreber, der skal konfigureres i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis de ikke er konfigureret korrekt, kan der opstå fejl ved bogføring af dokumenter eller kladdelinjer. Disse fejl skyldes f.eks. typisk en fejl i, hvordan finanskonti tildeles, eller hvordan bogføringsgrupper kombineres.

@@ -1,5 +1,5 @@
 ---
-title: Hent Business Central til din mobilenhed
+title: Hent Business Central til din mobilenhed (indeholder video)
 description: I dette emne beskrives de forskellige måder, du kan få vist og redigere Business Central-data, sende til Excel og meget mere på din telefon eller tablet.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: desktop, Windows, app
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 1097689e7fc06e7d1f2f3dede95c978a3316e975
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 31f9a34d2fc14ddca146ff00d8b4b678e0b97d99
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588272"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940072"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Få Business Central på din mobilenhed
 
@@ -59,7 +59,7 @@ Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan du ogs
 > [!NOTE]
 > Hvis du har problemer med at få appen til at fungere korrekt, skal du tale med administratoren. Det kan være en manglende forudsætning eller en ufuldstændig konfiguration. Du kan finde flere oplysninger i [Klargøring af miljø til mobilappen](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) eller [Fejlfinding af Business Central mobile-app'en](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

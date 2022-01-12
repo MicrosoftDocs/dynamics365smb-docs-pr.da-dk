@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
-ms.date: 06/08/2021
+ms.date: 12/20/2021
 ms.author: edupont
 ms.reviewer: edupont
-ms.openlocfilehash: 1c506e8d2471e7112b523b05d80e47d6f1700a64
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: c7b75e75d86d18f686b89576ee9560b9246b3eee
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724808"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940197"
 ---
 # <a name="cash-flow-overview"></a>Oversigt over likviditet
 
@@ -26,7 +26,7 @@ Forståelse af indgående og udgående pengestrømme er nøglen til at drive en 
 
 Betegnelsen *likviditet* bruges til at angive indbetalinger minus kontantbetalinger over en valgt periode. Det er et skøn over det beløb, du forventer, vil flyde ind og ud af din virksomhed, og det omfatter alle de forventede indtægter og udgifter.
 
-## <a name="cash-flow-overview"></a>Oversigt over likviditet
+## <a name="work-with-cash-flow"></a>Arbejde med pengestrøm
 
 Følgende illustration viser en oversigt over, hvordan du kan arbejde med likviditet.
 
@@ -74,7 +74,10 @@ Nettolikviditet eller kontanter i hånden beregnes som samlede indtægter minus 
 Budgettet kan derefter bruges som et internt beslutningsværktøj til ledelsen, som hjælper dig med at planlægge og foretage vigtige strategiske beslutninger om driften af virksomheden.
 
 ## <a name="see-also"></a>Se også
+
 [Opsætning af pengestrømsanalyse](finance-setup-cash-flow-analyses.md)  
-[Analysér pengestrøm](finance-analyze-cash-flow.md)
+[Analysér pengestrøm](finance-analyze-cash-flow.md)  
+[Pengestrømsprognose i Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Konfigurere pengestrømsprognoser vha. Azure AI i Dynamics 365 Business Central(Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Opsætning af arbejdsgange
+title: Konfigurere arbejdsgange (indeholder video)
 description: Konfigurere arbejdsgange, brugere af arbejdsgangen og godkendelses brugere til at forbinde forretningsproces systemopgaver, der udføres af disse brugere.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 7defebe91fb19148eb860f1d2c45a9f778a9d5aa
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 5be16c0d7cbd035d28a15967270cf982870acd78
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325035"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940797"
 ---
 # <a name="set-up-workflows"></a>Opsætning af arbejdsgange
 

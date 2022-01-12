@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: bank account balance, bank statement
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: faf13d81c24c2b7ea566f90411b302579c4003ee
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 54e989182a8d6612e6bb2c95eda327fd21cae0d8
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587805"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949017"
 ---
 # <a name="reconcile-bank-accounts"></a>Afstemme bankkonti
 
@@ -36,7 +36,7 @@ Afstemning af banktransaktioner med interne bankposter kaldes *afstemning.* Du k
 > [!NOTE]  
 > Hvis bankkontoudtogslinjerne vedrører checkposter, kan du ikke bruge afstemningsfunktionerne. I stedet skal du vælge handlingen **Udlign poster** og derefter vælge den relevante checkpost, som bankkontoudtogslinjen skal afstemmes med.
 
-Når værdien i feltet **Total balance** i ruden **Bankkontoudtogslinjer** svarer til værdien i feltet **Saldo til afstemning** i feltet **Bankkontoposter**, kan du vælge handlingen **Bogfør**. Alle ikke-afstemte bankkontoposter forbliver på siden, hvilket indikerer en uoverensstemmelse, som du skal løse for at afstemme bankkontoen.
+Når værdien i feltet **Saldo i alt** i ruden **Bankkontoudtogslinjer** svarer til den samlede værdi i feltet **Saldo til afstemning** plus feltet **Sidste kontoudtog-saldo** i ruden **Bankkontoposter**, kan du vælge handlingen **Bogfør** for at afstemme de udlignede bankkontoposter. Ikke-afstemte bankkontoposter forbliver på siden, hvilket indikerer uoverensstemmelser, som du skal løse for at afstemme bankkontoen.
 
 Alle linjer, der ikke kan afstemmes og er angivet med en værdi i feltet **Difference**, forbliver på siden **Bankkontoafstemning** efter bogføring. De repræsenterer en slags uoverensstemmelse, som du skal løse, før du kan fuldføre afstemningen af bankkontoen. Typiske forretningssituationer, der kan forårsage forskelle:
 
@@ -166,7 +166,7 @@ Hvis den næste bankafstemning er for august, skal du overveje at ændre værdie
 >
 >Sidste kontoudtog-saldo gemmes på bankkontoen for at minimere fejl i bankafstemningerne, men den kan også redigeres, så du kan foretage bankafstemninger i den ønskede rækkefølge. Det betyder også, at hvis du fortryder et bankkontoudtog, vil den nye slutsaldo muligvis ikke være saldo sidste kontoudtog på det næste bankkontoudtog. Der er ingen funktion til at flytte en saldo frem til alle efterfølgende bankkontoudtog, så vær opmærksom på dette, når du bruger Fortryd. 
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1465ce4baadec43d28731dab50870af3c10bd77e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e111c08dc9251898ccecff4e65f768984b123c15
+ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442721"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7929576"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Kombinere leverancer på én enkelt faktura
 Hvis du vil fakturere mere end én leverance samtidig, kan du bruge samlefunktionen.  
@@ -34,6 +34,9 @@ Før du kan oprette en samleleverance, skal der bogføres mere end én salgsleve
 
     Hvis du kommer til at vælge en forkert leveringslinje eller vil begynde forfra, skal du bare slette linjerne på fakturaen og bruge funktionen **Hent salgsleverancelinjer** igen.  
 7. Vælg handlingen **Bogfør** for at fakturere kladden.  
+
+> [!TIP]  
+> Hvis du har leveret ordrer, hvor feltet **Kundenr.** er forskellig fra feltet **Faktureres til kundenr.**, vises disse linjer ikke i rapporten **Hent salgsleverancelinjer**. Bruge personlige indstillinger til at føje feltet **kundenavn** på siden og fjerne filteret. Du kan nu føje leverancelinjer til fakturaen, uanset værdien i feltet **Kundenr.**, hvis feltet **Faktureres til kundenr.** på leverancelinjerne svarer til værdien på salgsfakturaen.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Sådan kombinerer du automatisk leverancer på én enkelt faktura  
 [!INCLUDE[prod_short](includes/prod_short.md)] vælger kun salgsordrer, hvor **Tillad samlefaktura** er valgt. 

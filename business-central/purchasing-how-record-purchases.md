@@ -1,5 +1,5 @@
 ---
-title: Registrere køb med købsfakturaer
+title: Registrere køb med købsfakturaer (indeholder video)
 description: Beskriver, hvordan du køber lagervarer, varer, der ikke er på lager, eller ressourcer ved at oprette og bogføre købsfakturaer eller ordrer.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: procurement
 ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: 18aef7bfc5324d17d2af9f4aa4ff0ba2602c70e0
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 132486fc1e628678cd9ed5d68599a830f2b23b8d
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482393"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940697"
 ---
 # <a name="record-purchases-with-purchase-invoices"></a>Registrere køb med købsfakturaer
 
@@ -101,7 +101,7 @@ Du kan nemt rette eller annullere en bogført købsfaktura, før du betaler kred
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

@@ -1,5 +1,5 @@
 ---
-title: Kobling og synkronisering
+title: Kobling og synkronisering (indeholder video)
 description: Synkronisering af en integreret tabeltilknytning muliggør synkronisering af data i alle records i en tabel i Business Central og Dynamics 365 Sales-tabellen, der er sammenkædet.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c21d06eaaa9200bb11839d1b2db1666c816638b3
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: 88f83f8e4cc1c99f5696daf0486a30652c890c97
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865386"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940347"
 ---
 # <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Kobling og synkronisering af poster mellem Dataverse og Business Central
 

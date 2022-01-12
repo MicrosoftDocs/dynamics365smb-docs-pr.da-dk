@@ -1,5 +1,5 @@
 ---
-title: Opsætning af pengestrømsanalyse
+title: Opsætning af pengestrømsanalyse (indeholder video)
 description: Opret diagrammerne i rollecenteret Konti for at analysere pengestrømmen i virksomheden, herunder udgifter og indtægter, likviditet og indbetalinger minus kontantbetalinger.
 services: project-madeira
 documentationcenter: ''
@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 919c5cc5781f0f93fbfb79b9e306e42180eb6968
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 718aed64e13b28972210918c8171956f79485006
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446286"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940397"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Opsætning af pengestrømsanalyse
 Hvis du vil have hjælp til at beslutte, hvad du skal gøre med dine likvide midler, kan du få et overblik vha. diagrammerne i rollecenteret Regnskabsmedarbejder:  
@@ -126,7 +126,7 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 6. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pengestrømsopsætning**, og vælg derefter det relaterede link.  
 7. Udvid oversigtspanelet **Azure AI**, og udfyld derefter felterne.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)  
