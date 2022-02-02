@@ -1,25 +1,25 @@
 ---
 title: Administrere anlægsaktiver (indeholder video)
 description: Få mere at vide om funktionerne for anlægsaktiver, og få et overblik over, hvordan du arbejder med og administrerer anlægsaktiver.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
+ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5634, 5649, 5622, 5650
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 0022ae0c13009108064d758fdd0d6f4894b12bad
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: e7b40c1d4809193a22367157fd69cacbd9b27105
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940572"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029374"
 ---
 # <a name="managing-fixed-assets"></a>Administrere anlægsaktiver
+
 I Anlæg i [!INCLUDE[prod_short](includes/prod_short.md)] får du et overblik over anlægsaktiverne, og her sikres korrekt periodisk afskrivning. Funktionen hjælper dig ligeledes med at holde styr på reparationsomkostningerne, administrere forsikringspolicer, bogføre anlægstransaktioner og generere forskellige rapporter og statistikker.
 
 For hvert anlægsaktiv skal du definere et kort med oplysninger om aktivet. Du kan angive bygninger eller produktionsudstyr som et hovedanlæg med en komponentliste, og du kan gruppere dem på forskellige måder, f.eks efter art, afdeling eller lokation. Derefter kan du begynde at anskaffe, vedligeholde og sælge anlægsaktiverne. Du kan også konfigurere budgetterede aktiver. Dermed kan du inkludere eventuelle forventede anskaffelser og salg i rapporterne.

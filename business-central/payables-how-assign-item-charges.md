@@ -1,8 +1,6 @@
 ---
 title: Tildele varegebyrer til salg og køb (indeholder video)
 description: Tildele varegebyrer, hvis du vil have, at dine lagervarer skal pålægges de ekstra omkostninger, f.eks. fragt, fysisk håndtering, forsikring og transport, som du har ved køb eller salg af varer, kan du bruge funktionen Varegebyrer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
+ms.search.form: 5709, 5800, 5805, 5814
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: f44b2133aca930f0009f7cb6efa25b89a89764ec
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: c49b529bcb93544aef8393a5440b142e722efd1c
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940372"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953230"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Bruge varegebyrer til at angive ekstra handelsomkostninger
 For at sikre korrekt værdiansættelse, skal dine lagervarer pålægges evt. ekstra omkostninger, f.eks. fragt, fysisk håndtering, forsikring og transport, som du har ved køb eller salg af varer. Ved køb består hjemtagelsesprisen for en indkøbt vare af købsprisen til leverandøren og alle ekstra, direkte varegebyrer, som det er muligt at tildele til individuelle leverancer eller returvareleverancer. Ved salg kan det være lige så vigtigt at kende omkostningerne ved forsendelse af solgte varer som at kende omkostningen ved levering af købte varer.

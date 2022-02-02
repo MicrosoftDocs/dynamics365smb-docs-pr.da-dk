@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: deaefbebf1520bc936c078ff7f74b18c34de4d89
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 4f47d2e60ae1adeab814ab630f8f90877881b4ae
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326334"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011174"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Om montage til ordre og montage til lager
 Montageelementer kan leveres med følgende to fremgangsmåder:  
@@ -70,20 +70,29 @@ Når du indtaster en montage til ordre-vare på en salgslinje, oprettes der auto
 
  Som eksempel på, hvorfor det er klogt at ændre mængden, der skal monteres, er, at du vil bogføre leverancen af lagerbeholdninger delvist, inden montageoutput kan leveres.  
 
- Følgende tabel forklarer de regler, der definerer de minimale og maksimale værdier, du kan angive i feltet **Antal til montage**, for at afvige fra standardværdi i et kombinationsscenarie. Tabellen viser et kombinationsscenarie, hvor feltet **Lever (antal)** på den tilknyttede salgsordrelinje er ændret fra 7 til 4, og **Antal til montage** er derfor sat til standardværdien 4.  
+ Følgende tabeller forklarer de regler, der definerer de minimale og maksimale værdier, du kan angive i feltet **Antal til montage**, for at afvige fra standardværdi i et kombinationsscenarie. Tabellen viser et kombinationsscenarie, hvor feltet **Lever (antal)** på den tilknyttede salgsordrelinje er ændret fra 7 til 4, og **Antal til montage** er derfor sat til standardværdien 4.  
 
-|-|Salgsordrelinje|Montageordrehoved|||||||  
-|-|----------------------|---------------------------|-|-|-|-|-|-|  
-||**Antal**|**Lever (antal)**|**Mgd. til montage til ordre**|**Leveret (antal)**|**Antal**|**Antal til montage**|**Monteret antal**|**Restantal**|  
-|Oprettet|10|7|7|0|7|7|0|7|  
-|Ændring||4||||4 (indsat som standard)|||  
+- Salgsordrelinje
 
- Baseret på ovennævnte situation kan du kun ændre feltet **Antal til montage** som følger:  
+    |                | **Antal** | **Lever (antal)** | **Mgd. til montage til ordre** | **Leveret (antal)** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Oprindelig værdi**| 10          | 7                | 7                             | 0                    |
+    |**Ændring**      |              | 4                |                               |                      |
 
--   Det mindste antal du kan angive er 1. Dette skyldes, at du mindst skal montere én enhed for at kunne sælge fire enheder, idet de resterende tre antages at være tilgængelig på lageret.  
--   Det maksimale antal du kan angive er 4. Dette er for at sikre, at du ikke samler flere af denne montage til ordre-vare, end der er behov for i salget.  
+- Montageordrehoved
 
-## <a name="see-also"></a>Se også  
+    |                | **Antal** | **Lever (antal)** | **Mgd. til montage til ordre** | **Leveret (antal)** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Oprindelig værdi**| 7           | 7                | 0                             | 7                    |
+    |**Ændring**      |              | 4 (indsat som standard)|                         |                      |
+
+Baseret på dette eksempel kan du kun ændre feltet **Antal til montage** som følger:  
+
+- Det mindste antal du kan angive er 1. Dette skyldes, at du mindst skal montere én enhed for at kunne sælge fire enheder, idet de resterende tre antages at være tilgængelig på lageret.  
+- Det maksimale antal du kan angive er 4. Dette er for at sikre, at du ikke samler flere af denne montage til ordre-vare, end der er behov for i salget.  
+
+## <a name="see-also"></a>Se også
+
 [Montagestyring](assembly-assemble-items.md)  
 [Arbejde med styklister](inventory-how-work-BOMs.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  

@@ -1,5 +1,5 @@
 ---
-title: Administration af formål med adgang til databaser i Business Central | Microsoft Docs
+title: Administration af formål med adgang til databaser i Business Central
 description: Ændring af formålet til adgang til databaser for rapporter, API-sider og forespørgsler.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -7,17 +7,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9880
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 3a85a8acda1789997639c78c5d6028a14dbb75af
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f1f77c4c1506db6d4f90d5d13f7c22ca54f44eac
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443939"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011200"
 ---
-# <a name="managing-database-access-intent"></a>Administration af formål med adgang til database 
+# <a name="managing-database-access-intent"></a>Administration af formål med adgang til database
 
 Som superbruger eller administrator kan du ændre formålet med adgang til databaser for rapporter, sider af typen API og forespørgsler for at forbedre tjenestens ydeevne.
 

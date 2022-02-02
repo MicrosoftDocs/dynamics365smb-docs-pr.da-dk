@@ -1,5 +1,5 @@
 ---
-title: Indsende momsrapporter til skattemyndigheder | Microsoft Docs
+title: Sende momsrapporter til skattemyndighederne
 description: Få at vide, hvordan du udarbejder rapporter over moms fra salg i en periode eller fra salg og indkøb og sender rapporten til en skattemyndighed.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, tax, report, EC sales list, statement
+ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0342f6009f91140cea9695caca1517a920ac6613
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4a7452043a2626228fa066e5043c435e920f194c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444483"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970644"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportere moms til skattemyndighederne
+
 Dette emne beskriver rapporterne i [!INCLUDE[prod_short](includes/prod_short.md)], som du kan bruge til at indsende oplysninger om momsbeløb for salg og indkøb til skattemyndigheder i dit område. 
 
 Du kan bruge følgende rapporter:

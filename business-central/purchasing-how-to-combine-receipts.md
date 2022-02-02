@@ -1,5 +1,5 @@
 ---
-title: Sådan samles leverancer | Microsoft Docs
+title: Kombinere modtagelser på én enkelt faktura
 description: Hvis du vil fakturere mere end én købsleverance ad gangen, kan du bruge funktionen Saml leverancer.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 136, 145, 146
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 83b2e9c488a429603158d800e9c7e7b96be3bd8b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f9a9307ed6774064262f5d0e0fcf57027be3794d
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435105"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953255"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Kombinere modtagelser på én enkelt faktura
 

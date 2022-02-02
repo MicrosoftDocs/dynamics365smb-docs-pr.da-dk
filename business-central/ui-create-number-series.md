@@ -1,32 +1,33 @@
 ---
-title: Oprette nummerserier | Microsoft Docs
+title: Oprette nummerserie
 description: Lær, hvordan du konfigurerer nummerserier, der tildeler entydige ID-koder til konti og dokumenter i Business Central.
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
+ms.search.form: 456
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3e2404a0ab9de8a761d5721da669004e393cf55c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3379405e2d8c6c3b381caa9f4aa66191bb7a6579
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445993"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029636"
 ---
 # <a name="create-number-series"></a>Oprette nummerserie
+
 For hver af de virksomheder, som du opretter, skal du knytte entydige id-koder til ting som finanskonti, debitor- og kreditorkonti, fakturaer og andre dokumenter. Nummereringen er ikke kun vigtig til identifikation. Et veludviklet nummereringssystem gør det også nemmere at administrere og foretage analyse i virksomheden og kan reducere antallet af dataindtastningsfejl.
 
 > [!Important]
 > Der er som standard ikke tilladt huller i nummerserier, fordi den nøjagtige historik over økonomiske transaktioner i henhold til lovgivningen skal være tilgængelig for revision og derfor skal følge en ubrudt rækkefølge uden slettede numre.<br /><br />
-Hvis du vil tillade huller i visse nummerserier, skal du først rådføre dig med din revisor eller regnskabschef for at sikre, at du overholder de juridiske krav i dit land/område. Du kan finde flere oplysninger i [Huller i nummerserier](ui-create-number-series.md#gaps-in-number-series).
+> Hvis du vil tillade huller i visse nummerserier, skal du først rådføre dig med din revisor eller regnskabschef for at sikre, at du overholder de juridiske krav i dit land/område. Du kan finde flere oplysninger i [Huller i nummerserier](#gaps-in-number-series).
 
 > [!NOTE]  
->   Det anbefales, at du bruger samme nummerseriekoder, som du kan se vist på siden **Nummerserieoversigt** i demoregnskabet CRONUS. Koder som *K-FAK+* giver muligvis ikke mening for dig, men [!INCLUDE[prod_short](includes/prod_short.md)] har en række standardindstillinger, som afhænger af disse nummerseriekoder.
+> Det anbefales, at du bruger samme nummerseriekoder, som du kan se vist på siden **Nummerserieoversigt** i demoregnskabet CRONUS. Koder som *K-FAK+* giver muligvis ikke mening for dig, men [!INCLUDE[prod_short](includes/prod_short.md)] har en række standardindstillinger, som afhænger af disse nummerseriekoder.
 
 Du kan oprette et nummereringssystem ved at oprette en eller flere koder for hver type stamdata eller dokument. Du kan f.eks. oprette en kode til nummerering af debitorer, en anden kode til nummerering af salgsfakturaer og en anden kode til nummerering af dokumenter i finanskladder. Når du har oprettet en kode, skal du konfigurere mindst én nummerserielinje. Nummerserielinjen indeholder oplysninger som f.eks. det første og sidste nummer i serien og startdatoen. Du kan oprette mere end en nummerserielinje pr. nummerseriekode med en anden startdato for hver linje. Serierne bruges efter hinanden, hvor hver serie starter på den pågældende startdato.
 

@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 30, 42, 43
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: b3bfdbc2fb163d48edb6bf22eb79efa01b63090f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 78c69d4849dc7e7687f6bb0cdeb0229baeec1b0c
+ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442431"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7974988"
 ---
 # <a name="design-details-costing-methods"></a>Designoplysninger: Kostmetoder
 
@@ -34,11 +34,11 @@ Følgende metoder understøttes i [!INCLUDE[prod_short](includes/prod_short.md)]
 | Bestemt | En vares kostpris er den præcise kostpris, som den aktuelle enhed er modtaget til. | I produktion eller handel med varer, der nemt kan identificeres, med forholdsvis høje kostpriser.<br /><br /> For varer, der er omfattet af regulering.<br /><br /> For varer med serienumre. |
 | Standard | En vares kostpris forudindstilles baseret på forventninger.<br /><br /> Når det faktiske kostbeløb realiseres senere, skal standardkostprisen reguleres til de faktiske omkostninger gennem variansværdier. | Hvor omkostningsstyring er afgørende.<br /><br /> I serieproduktion til at evaluere kostpriserne for direkte materialeomkostninger, arbejdsomkostninger og produktionsomkostninger.<br /><br /> Hvor der er disciplin og personale til at vedligeholde standarderne. |
 
- Følgende billede viser, hvordan omkostningerne passerer gennem lageret for hver kostmetode.  
+Følgende billede viser, hvordan omkostningerne passerer gennem lageret for hver kostmetode.  
 
  ![Omkostningsmetoder.](media/design_details_inventory_costing_7_costing_methods.png "Omkostningsmetoder")  
 
- Kostmetoder varierer i den måde, hvorpå de værdiansætter lagerreduceringer, og om de bruger faktiske omkostninger eller standardomkostninger som værdigrundlag. Den følgende tabel beskriver de forskellige karakteristika. (LIFO-metoden er udelukket, da den minder meget om FIFO-metoden).  
+Kostmetoder varierer i den måde, hvorpå de værdiansætter lagerreduceringer, og om de bruger faktiske omkostninger eller standardomkostninger som værdigrundlag. Den følgende tabel beskriver de forskellige karakteristika. (LIFO-metoden er udelukket, da den minder meget om FIFO-metoden).  
 
 |Kategori|FIFO|Gennemsnit|Standard|Bestemt|  
 |-|----------|-------------|--------------|--------------|  
@@ -47,10 +47,11 @@ Følgende metoder understøttes i [!INCLUDE[prod_short](includes/prod_short.md)]
 |Regulering|Værdiregulerer kun fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|Værdiregulerer kun fakturerede antal.<br /><br /> Kan kun foretages pr. vare.<br /><br /> Kan foretages bagudrettet.|Værdiregulerer fakturerede og ikke-fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|Værdiregulerer kun fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|  
 |Diverse|Hvis du baguddaterer en lagerreducering, bliver eksisterende poster IKKE genanvendt for at sikre et korrekt FIFO-omkostningsforløb.|Hvis du baguddaterer en lagerforøgelse eller -reducering, genberegnes den gennemsnitlige kostpris, og alle berørte poster justeres.<br /><br /> Hvis du ændrer perioden eller beregningstypen, skal alle berørte poster reguleres.|Brug siden **Standardkladde** til regelmæssigt at opdatere og akkumulere standardomkostninger.<br /><br /> Understøttes ikke pr. lagervare.<br /><br /> Der findes ingen historiske poster for standardomkostninger.|Du kan bruge specifik varesporing uden at bruge den specifikke kostmetode. Derefter følger prisen IKKE lotnummeret, men omkostningsforventningen for den valgte kostmetode.|  
 
-## <a name="example"></a>Eksempel  
- Dette afsnit indeholder eksempler på, hvordan forskellige kostmetoder påvirker lagerværdien.  
+## <a name="example"></a>Eksempel
 
- Følgende tabel viser lagerforøgelser og -reduceringer, som eksemplerne er baseret på.  
+Dette afsnit indeholder eksempler på, hvordan forskellige kostmetoder påvirker lagerværdien.  
+
+Følgende tabel viser lagerforøgelser og -reduceringer, som eksemplerne er baseret på.  
 
 |Bogføringsdato|Antal|Løbenr.|  
 |------------------|--------------|---------------|  
@@ -62,108 +63,111 @@ Følgende metoder understøttes i [!INCLUDE[prod_short](includes/prod_short.md)]
 |04-01-20|-1|6|  
 
 > [!NOTE]  
->  Det resulterende antal i lageret er nul. Derfor skal lagerværdien også være nul, uanset hvilken kostmetode der anvendes.  
+> Det resulterende antal i lageret er nul. Derfor skal lagerværdien også være nul, uanset hvilken kostmetode der anvendes.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Kostmetoders indflydelse på værdiansættelse af lagerforøgelser  
- **FIFO**/**LIFO**/**Gennemsnit**/**Specifik**  
+### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Kostmetoders indflydelse på værdiansættelse af lagerforøgelser
 
- For varer med kostmetoder, der bruger de faktiske omkostninger som grundlag for værdiansættelsen (**FIFO**, **LIFO**, **Gennemsnit**, eller **Specifik**), værdiansættes lagerforøgelser til varens anskaffelsesomkostninger.  
+- **FIFO**/**LIFO**/**Gennemsnit**/**Specifik**  
 
- Følgende tabel viser, hvordan lagerforøgelser værdisættes i alle kostmetoder, undtagen **Standard**.  
+    For varer med kostmetoder, der bruger de faktiske omkostninger som grundlag for værdiansættelsen (**FIFO**, **LIFO**, **Gennemsnit**, eller **Specifik**), værdiansættes lagerforøgelser til varens anskaffelsesomkostninger.  
 
-|Bogføringsdato|Antal|Kostbeløb (faktisk)|Løbenr.|  
-|------------------|--------------|----------------------------|---------------|  
-|01-01-20|1|10,00|1|  
-|01-01-20|1|20,00|2|  
-|01-01-20|1|30,00|3|  
+    Følgende tabel viser, hvordan lagerforøgelser værdisættes i alle kostmetoder, undtagen **Standard**.  
 
- **Standard**  
+    |Bogføringsdato|Antal|Kostbeløb (faktisk)|Løbenr.|  
+    |------------------|--------------|----------------------------|---------------|  
+    |01-01-20|1|10,00|1|  
+    |01-01-20|1|20,00|2|  
+    |01-01-20|1|30,00|3|  
 
- For varer, der bruger kostmetoden **Standard**, værdiansættes lagerforøgelser til varens aktuelle standardkostpris.  
+- **Standard**  
 
- Følgende tabel viser, hvordan lagerforøgelser værdisættes i **Standard**-kostmetoden.  
+    For varer, der bruger kostmetoden **Standard**, værdiansættes lagerforøgelser til varens aktuelle standardkostpris.  
 
-|Bogføringsdato|Antal|Kostbeløb (faktisk)|Løbenr.|  
-|------------------|--------------|----------------------------|---------------|  
-|01-01-20|1|15.00|1|  
-|01-01-20|1|15.00|2|  
-|01-01-20|1|15.00|3|  
+    Følgende tabel viser, hvordan lagerforøgelser værdisættes i **Standard**-kostmetoden.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Kostmetoders indflydelse på værdiansættelse af lagerreduktioner  
- **FIFO**  
+    |Bogføringsdato|Antal|Kostbeløb (faktisk)|Løbenr.|  
+    |------------------|--------------|----------------------------|---------------|  
+    |01-01-20|1|15.00|1|  
+    |01-01-20|1|15.00|2|  
+    |01-01-20|1|15.00|3|  
 
- For varer, der benytter kostmetoden **FIFO**, sælges varer, der er købt først, altid først (løbenumre 3, 2 og 1 i dette eksempel). Ligeledes værdiansættes lagerreducering ved at tage værdien af den første lagerforøgelse.  
+### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Kostmetoders indflydelse på værdiansættelse af lagerreduktioner
 
- VAREFORBRUG beregnes ud fra værdien af de første lageranskaffelser.  
+- **FIFO**  
 
- Følgende tabel viser, hvordan lagerreduktioner værdisættes til **FIFO**-kostmetoden.  
+    For varer, der benytter kostmetoden **FIFO**, sælges varer, der er købt først, altid først (løbenumre 3, 2 og 1 i dette eksempel). Ligeledes værdiansættes lagerreducering ved at tage værdien af den første lagerforøgelse.  
 
-|Bogføringsdato|Antal|Kostbeløb (faktisk)|Løbenr.|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-10,00|4|  
-|03-01-20|-1|-20,00|5|  
-|04-01-20|-1|-30,00|6|  
+    VAREFORBRUG beregnes ud fra værdien af de første lageranskaffelser.  
 
- **LIFO**  
+    Følgende tabel viser, hvordan lagerreduktioner værdisættes til **FIFO**-kostmetoden.  
 
- For varer, der benytter kostmetoden **LIFO**, sælges varer, der er købt senest, altid først (løbenumre 3, 2 og 1 i dette eksempel). Ligeledes værdiansættes lagerreduceringer ved at tage værdien af den seneste lagerforøgelse.  
+    |Bogføringsdato|Antal|Kostbeløb (faktisk)|Løbenr.|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-10,00|4|  
+    |03-01-20|-1|-20,00|5|  
+    |04-01-20|-1|-30,00|6|  
 
- VAREFORBRUG beregnes ud fra værdien af de seneste lageranskaffelser.  
+- **LIFO**  
 
- Følgende tabel viser, hvordan lagerreduktioner værdisættes til **LIFO**-kostmetoden.  
+    For varer, der benytter kostmetoden **LIFO**, sælges varer, der er købt senest, altid først (løbenumre 3, 2 og 1 i dette eksempel). Ligeledes værdiansættes lagerreduceringer ved at tage værdien af den seneste lagerforøgelse.  
 
-|Bogføringsdato|Antal|Kostbeløb (faktisk)|Løbenr.|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-30,00|4|  
-|03-01-20|-1|-20,00|5|  
-|04-01-20|-1|-10,00|6|  
+    VAREFORBRUG beregnes ud fra værdien af de seneste lageranskaffelser.  
 
- **Gennemsnit**  
+    Følgende tabel viser, hvordan lagerreduktioner værdisættes til **LIFO**-kostmetoden.  
 
- For varer, der bruger kostmetoden **Gennemsnit**, værdiansættes lagerreduktioner ved at beregne et vægtet gennemsnit af det resterende lager på den sidste dag i den gennemsnitlige omkostningsperiode, hvor lagerreduktionen blev bogført. Du kan finde flere oplysninger i [Designoplysninger: Gennemsnitlig kostpris](design-details-average-cost.md).  
+    |Bogføringsdato|Antal|Kostbeløb (faktisk)|Løbenr.|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-30,00|4|  
+    |03-01-20|-1|-20,00|5|  
+    |04-01-20|-1|-10,00|6|  
 
- Følgende tabel viser, hvordan lagerreduktioner værdisættes i **Gennemsnit**-kostmetoden.  
+- **Gennemsnit**  
 
-|Bogføringsdato|Antal|Kostbeløb (faktisk)|Løbenr.|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-20,00|4|  
-|03-01-20|-1|-20,00|5|  
-|04-01-20|-1|-20,00|6|  
+    For varer, der bruger kostmetoden **Gennemsnit**, værdiansættes lagerreduktioner ved at beregne et vægtet gennemsnit af det resterende lager på den sidste dag i den gennemsnitlige omkostningsperiode, hvor lagerreduktionen blev bogført. Du kan finde flere oplysninger i [Designoplysninger: Gennemsnitlig kostpris](design-details-average-cost.md).  
 
- **Standard**  
+    Følgende tabel viser, hvordan lagerreduktioner værdisættes i **Gennemsnit**-kostmetoden.  
 
- For varer, der benytter kostmetoden **Standard**, værdiansættes lagerreduceringer svarende til kostmetoden **FIFO**, bortset fra at værdiansættelse er baseret på standardomkostninger, ikke på de faktiske omkostninger.  
+    |Bogføringsdato|Antal|Kostbeløb (faktisk)|Løbenr.|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-20,00|4|  
+    |03-01-20|-1|-20,00|5|  
+    |04-01-20|-1|-20,00|6|  
 
- Følgende tabel viser, hvordan lagerreduktioner værdisættes i **Standard**-kostmetoden.  
+- **Standard**  
 
-|Bogføringsdato|Antal|Kostbeløb (faktisk)|Løbenr.|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-15,00|4|  
-|03-01-20|-1|-15,00|5|  
-|04-01-20|-1|-15,00|6|  
+    For varer, der benytter kostmetoden **Standard**, værdiansættes lagerreduceringer svarende til kostmetoden **FIFO**, bortset fra at værdiansættelse er baseret på standardomkostninger, ikke på de faktiske omkostninger.  
 
- **Bestemt**  
+    Følgende tabel viser, hvordan lagerreduktioner værdisættes i **Standard**-kostmetoden.  
 
- I kostmetoder arbejdes der ud fra en antagelse om, hvordan kostprisen flyder fra en lagerforøgelse til en lagerreduktion. Hvis der findes mere nøjagtige oplysninger om kostprisforløbet, kan du dog tilsidesætte denne antagelse ved at oprette en fast udligning mellem poster. En fast udligning opretter et link mellem en lagerreducering og en bestemt lagerforøgelse og angiver kostprisforløbet i overensstemmelse hermed.  
+    |Bogføringsdato|Antal|Kostbeløb (faktisk)|Løbenr.|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-15,00|4|  
+    |03-01-20|-1|-15,00|5|  
+    |04-01-20|-1|-15,00|6|  
 
- For varer, der benytter kostmetoden **Specifik**, værdiansættes lagerreduceringer i henhold til den lagerforøgelse, der er tilknyttet med den faste udligning.  
+- **Bestemt**  
 
- Følgende tabel viser, hvordan lagerreduktioner værdisættes i **Specifik**-kostmetoden.  
+    I kostmetoder arbejdes der ud fra en antagelse om, hvordan kostprisen flyder fra en lagerforøgelse til en lagerreduktion. Hvis der findes mere nøjagtige oplysninger om kostprisforløbet, kan du dog tilsidesætte denne antagelse ved at oprette en fast udligning mellem poster. En fast udligning opretter et link mellem en lagerreducering og en bestemt lagerforøgelse og angiver kostprisforløbet i overensstemmelse hermed.  
 
-|Bogføringsdato|Antal|Kostbeløb (faktisk)|Udlign.postløbenr.|Løbenr.|  
-|------------------|--------------|----------------------------|-----------------------|---------------|  
-|02-01-20|-1|-20,00|**2**|4|  
-|03-01-20|-1|-10,00|**1**|5|  
-|04-01-20|-1|-30,00|**3**|6|  
+    For varer, der benytter kostmetoden **Specifik**, værdiansættes lagerreduceringer i henhold til den lagerforøgelse, der er tilknyttet med den faste udligning.  
 
-## <a name="see-also"></a>Se også  
- [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
- [Designoplysninger: Afvigelse](design-details-variance.md)   
- [Designoplysninger: Gennemsnitlig kostpris](design-details-average-cost.md)   
- [Designoplysninger: Vareudligning](design-details-item-application.md)  
- [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
- [Finans](finance.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+    Følgende tabel viser, hvordan lagerreduktioner værdisættes i **Specifik**-kostmetoden.  
+
+    |Bogføringsdato|Antal|Kostbeløb (faktisk)|Udlign.postløbenr.|Løbenr.|
+    |------------|--------|--------------------|----------------|---------|  
+    |02-01-20|-1|-20,00|**2**|4|  
+    |03-01-20|-1|-10,00|**1**|5|  
+    |04-01-20|-1|-30,00|**3**|6|  
+
+## <a name="see-also"></a>Se også
+
+[Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
+[Designoplysninger: Afvigelse](design-details-variance.md)   
+[Designoplysninger: Gennemsnitlig kostpris](design-details-average-cost.md)   
+[Designoplysninger: Vareudligning](design-details-item-application.md)  
+[Administrere lageromkostninger](finance-manage-inventory-costs.md)  
+[Finans](finance.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

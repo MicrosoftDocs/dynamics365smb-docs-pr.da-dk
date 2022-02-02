@@ -1,5 +1,5 @@
 ---
-title: Afslutte et regnskabsår og regnskabsperioder | Microsoft Docs
+title: Afslutte regnskabsår og regnskabsperioder
 description: Beskrives de opgaver, du skal udføre for at lukke et regnskabsår eller en regnskabsperiode, f.eks. ved at sørge for, at dokumenter og kladder er bogført, og kontrollere banksaldi.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 3dba46a74fb5f0f6f13c4a6f0fa2c93f5d2ba372
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3faa427363d2d30ce387bbfe911f320064d3276a
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773307"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971780"
 ---
 # <a name="closing-years-and-periods"></a>Afslutning af år og perioder
 

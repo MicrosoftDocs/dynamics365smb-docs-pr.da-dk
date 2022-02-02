@@ -1,8 +1,6 @@
 ---
-title: Justere mængden af detaljer, der vises på lister | Microsoft Docs
+title: Justere mængden af detaljer, der vises på lister
 description: Du kan få vist lister som detaljerede rækker med de fleste oplysninger eller som felter, der er lette at løbe igennem, og som kan indeholde miniaturebilleder.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
+ms.search.form: 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ca0f7213bbe6edcbebab4959bc16483af2260f86
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fcd046027cb8646da72182aba1320b165c00c020
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776214"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012126"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Få vist lister på forskellige måder
 I højre hjørne af en vilkårlig liste i [!INCLUDE[prod_short](includes/prod_short.md)] findes ikoner, som du kan bruge til at vælge, hvordan listen med poster skal vises. En liste kan vises som detaljerede rækker, hvilket er ideelt, når du skal arbejde med mange felter eller redigere felter på listen. Men du kan også vælge at få vist poster som felter, hvilket er mere kompakt og viser færre felter i den pågældende post. Dette er nyttigt, når du vil have et overblik over flere poster, og er især nyttig på mindre enheder, fordi visningen er kompakt, og det er nemmere at trykke på posterne.

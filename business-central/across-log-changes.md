@@ -1,5 +1,5 @@
 ---
-title: Overvågning af ændringer | Microsoft Docs
+title: Overvåge ændringer
 description: Du kan aktivere en brugerlog for at få en oversigt over ændringer af data i registrerede tabeller. Du kan også spore aktiviteter med bestemte typer aktivitetslogge.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -8,20 +8,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
+ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4d15eb7ee412b4b7447c179c04b4c434ec5fc8b7
-ms.sourcegitcommit: 99c705d160451c05b226350ff94b52fb0c3ae7a0
+ms.openlocfilehash: 2101a37c62b232e72cf5e773aeb0b2e6d6709927
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606435"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011066"
 ---
 # <a name="auditing-changes-in-business-central"></a>Ændringer af revision i Business Central
+
 En almindelig udfordring i mange forretningsstyringsprogrammer vil undgå uønskede ændringer i data. Det kan være alt fra et forkert kundetelefonnummer til en forkert postering i regnskabet. I dette emne beskrives mulighederne for at finde ud af, hvad der er ændret, hvem der ændrede det, og hvornår ændringen blev foretaget.
 
-## <a name="about-the-change-log"></a>Om ændringslog 
-Du kan bruge funktionaliteten i ændringsloggen til at spore alle direkte modifikationer, som en bruger foretager af data i databasen. Du skal for hver tabel og hvert felt angive, hvad der skal registreres i loggen. Derefter skal du aktivere ændringsloggen.  
+## <a name="about-the-change-log"></a>Om ændringslog
+
+Du kan bruge funktionaliteten i ændringsloggen til at spore alle direkte modifikationer, som en bruger foretager af data i databasen. Du skal for hver tabel og hvert felt angive, hvad der skal registreres i loggen. Derefter skal du aktivere ændringsloggen. Ændringsloggen er baseret på ændringer, der er foretaget i de tabeller, som du sporer. På siden **Ændringslogposter** registreres posterne i kronologisk rækkefølge og viser de ændringer, der er foretaget i værdierne i felterne på de angivne tabeller. 
 
 Registrering af ændringer kan påvirke ydeevnen, som kan koste dig tid, og forøge størrelsen på databasen, der kan koste penge. Hvis du vil reducere disse omkostninger, skal du overveje følgende:
 
@@ -29,7 +32,7 @@ Registrering af ændringer kan påvirke ydeevnen, som kan koste dig tid, og for�
 - Du skal ikke tilføje finansposter og bogførte bilag. Du skal i stedet prioritere systemfelter som f.eks. oprettet af og oprettelsesdato.
 - Undlad at bruge sporingstypen Alle felter. I stedet skal du vælge Nogle felter og kun spore de vigtigste felter.
 
-Ændringsloggen er baseret på ændringer, der er foretaget i de tabeller, som du sporer. På siden **Ændringslogposter** registreres posterne i kronologisk rækkefølge og viser de ændringer, der er foretaget i værdierne i felterne på de angivne tabeller.
+Af hensyn til ydeevnen er ændringsloggen deaktiveret under opgradering af [!INCLUDE [prod_short](includes/prod_short.md)] til næste version. Ud over at gøre opgraderingsprocessen hurtigere kan du også reducere rodet i loggen. Så snart opgraderingen er fuldført, begynder logfilen at registrere ændringer igen.
 
 > [!Important]
 > Ændringer i poster i **ændringslogposter** efter brugerens session genstartes først, hvilket sker på følgende måde:
@@ -39,6 +42,7 @@ Registrering af ændringer kan påvirke ydeevnen, som kan koste dig tid, og for�
 > * Bruger har logget af og på igen.
 
 ### <a name="working-with-the-change-log"></a>Arbejde med ændringsloggen
+
 Du aktiverer og deaktiverer ændringsloggen på siden **Opsætning af ændringslog**. Når en bruger aktiverer eller deaktiverer ændringsloggen, logføres denne aktivitet, så du altid kan se, hvilken bruger der har deaktiveret eller aktiveret ændringsloggen.
 
 Hvis du på siden **Opsætning af ændringslog** vælger handlingen **Tabeller**, kan du angive, hvilke tabeller du vil spore ændringer for, og hvilke ændringer du vil spore. [!INCLUDE[prod_short](includes/prod_short.md)] sporer også flere systemtabeller.
@@ -49,18 +53,22 @@ Hvis du på siden **Opsætning af ændringslog** vælger handlingen **Tabeller**
 Når du har konfigureret ændringsloggen, aktiveret den og ændret data, kan du få vist og filtrere ændringerne på siden **Ændringslogposter**. Hvis du vil slette poster, kan du gøre det på siden **Slet ændringslogposter**, hvor du kan angive filtre baseret på datoer og tidspunkter.  
 
 ## <a name="about-activity-logs"></a>Om aktivitetslogfiler
+
 Fra nogle sider i [!INCLUDE [prod_short](includes/prod_short.md)] kan du få vist en aktivitetslog, der viser status og eventuelle fejl i filer, som du eksporterer fra eller importerer til [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ### <a name="working-with-activity-logs"></a>Arbejde med aktivitetslogge
+
 Oplysningerne vises på siden **Aktivitetslog** i overensstemmelse med den kontekst, de åbnes fra. Du kan f.eks. åbne siden fra siderne **Opsætning af dokumentudvekslingstjeneste**, **Indgående bilag**, **Bogført salgsfaktura** og **Bogført salgskreditnota**. Du kan tømme listen med logposter eller blot rydde oversigten over poster, der er ældre end syv dage.  
 
 ## <a name="monitoring-sensitive-fields"></a>Overvåge følsomme felter
+
 Det er vigtigt for de fleste virksomheder at holde følsomme data sikre og private. Hvis du vil tilføje et sikkerhedslag, kan du overvåge vigtige felter og få besked pr. e-mail, når nogen ændrer en værdi. Du kan f.eks. få besked, hvis nogen ændrer virksomhedens IBAN-nummer.
 
 > [!NOTE]
 > Hvis du sender meddelelser via e-mail, kræver det, at du konfigurerer e-mail-funktionen i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Konfigurer mail](admin-how-setup-email.md).
 
 ### <a name="setting-up-field-monitoring"></a>Klargøring af Feltovervågning
+
 Du kan bruge installationsprogrammet **Overvågning af klargøring af feltovervågning** til at angive de felter, der skal overvåges, på basis af filterkriterier, f.eks. klassificeringen af data følsomhed for felterne. Du kan finde flere oplysninger i [Klassificere datafølsomhed](admin-classifying-data-sensitivity.md). Du kan også bruge vejledningen til at angive den person, der skal modtage en e-mail-notifikation, når der sker ændringer, og den e-mail-konto, der sender besked-e-mailen. Angiv både brugermeddelelsen og den konto, som du vil sende notifikationen fra. Når du er færdig med guiden, kan du administrere indstillingerne for feltovervågning på siden **Opsætning af feltovervågning**. 
 
 > [!NOTE]
@@ -97,6 +105,7 @@ Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til at sende f
 Du kan oprette opbevaringspolitikker for at slette unødvendige data i loggen efter en bestemt periode, du har angivet. Du kan f.eks. overskride antallet af poster i en log. Ved at rydde op i gamle poster kan du gøre det nemmere at fokusere på mere end nylig og dermed mere relevante poster. Du kan finde flere oplysninger i [Definere opbevaringspolitikker](admin-data-retention-policies.md).
 
 ## <a name="see-also"></a>Se også
+
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Sortering, søgning og filtrering](ui-enter-criteria-filters.md)  
 [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)  

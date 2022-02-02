@@ -1,8 +1,6 @@
 ---
 title: Fortryde en postering ved at bogføre en tilbageføringspost
 description: Hvis du har oprettet en forkert bogføring i finanskladden, kan du bruge funktionen Tilbagefør transaktion til at fortryde bogføringen med et korrekt revisionsspor.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
+ms.search.form: 20, 25, 29, 38, 202, 5912,
 ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: c23dcaed561997b5c0f38b4cd5ad5631b8519706
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 10a1532ea7772aa8f2c35df118388e57dc4dc52d
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660152"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972534"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Tilbageføre kladdeposteringer og annullere modtagelser/leverancer
+
 Tilbageførsel af kladdeposteringer bruges ikke kun til at rette fejl, men de kan f.eks. også bruges til at fjerne en gammel periodiseringspost, før der angives en ny. Du skal vælge posten og oprette en modpost (poster, der er identiske med den originale post, men med modsat fortegn i beløbsfeltet) med samme bilagsnummer og bogføringsdato som den oprindelige post. Når du har tilbageført en post, skal du oprette den korrekte post.
 
 Du kan kun tilbageføre poster, der er bogført fra en finanskladdelinje. En post kan kun tilbageføres én gang.
@@ -80,6 +80,7 @@ Følgende beskriver, hvordan du kan fortryde en bogført returvareleverance af v
 8.  Ret antallet i feltet **Antal**, og bogfør købsreturvareordren igen.  
 
 ## <a name="see-also"></a>Se også
+
 [Fortryde bogføring af montage](assembly-how-to-undo-assembly-posting.md)  
 [Bogføre transaktioner direkte i finansposterne](finance-how-post-transactions-directly.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  

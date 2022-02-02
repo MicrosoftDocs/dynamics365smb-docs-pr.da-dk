@@ -7,35 +7,36 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 689fbf78a5337076e7f10a8825d01cd77018c670
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 6a72c3ae54138d2d67f4fdd2025d385c35b92af2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321387"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972404"
 ---
 # <a name="about-production-orders"></a>Om produktionsordrer
+
 Produktionsordrer gør det muligt at styre produktionsprocessen, dvs. den proces, hvorved de indkøbte materialer forarbejdes til færdige varer. Produktionsordrer dirigerer arbejdet via ruter gennem forskellige arbejdscentre eller produktionsressourcer på produktionsstedet.  
 
 Før du fortsætter med produktion udfører de fleste virksomheder forsyningsplanlægning, typisk én gang om ugen, for at beregne, hvor mange produktionsordrer og købsordrer, der skal udføres for at opfylde et salgsbehovet for den pågældende uge. Købsordrer leverer de komponenter, der kræves i henhold til produktionsstyklisten for at producere færdigvarerne.
 
 Produktionsordrer udgør den centrale komponent i produktionsfunktionaliteten. De indeholder følgende oplysninger:  
 
--   Produkter, som skal produceres ifølge planen  
--   Materialer, der skal bruges til de planlagte produktionsordrer  
--   Produkter, der netop er produceret  
--   Materialer, der allerede er valgt  
--   Produkter, der blev produceret på et tidligere tidspunkt  
--   Materialer, der indgik i tidligere produktionsprocesser  
+- Produkter, som skal produceres ifølge planen  
+- Materialer, der skal bruges til de planlagte produktionsordrer  
+- Produkter, der netop er produceret  
+- Materialer, der allerede er valgt  
+- Produkter, der blev produceret på et tidligere tidspunkt  
+- Materialer, der indgik i tidligere produktionsprocesser  
 
 Produktionsordrer er udgangspunktet for:  
 
--   Planlægning af fremtidig produktion  
--   Overvågning af den igangværende produktion  
--   Sporing af afsluttet produktion  
+- Planlægning af fremtidig produktion  
+- Overvågning af den igangværende produktion  
+- Sporing af afsluttet produktion  
 
 ## <a name="production-order-creation"></a>Oprette produktionsordrer  
 Produktionsordrer kan oprettes manuelt på ordre til ordre-basis fra siden **Produktionsordre**, eller genereres fra siderne **Salgsordreplanlægning** eller **Ordreplanlægning**. Der oprettes flere ordrer fra siden **Planlægningskladde**.  
@@ -51,10 +52,10 @@ Produktionsordrer oprettes med udgangspunkt i oplysninger fra:
 ## <a name="limitations-on-production-order-creation"></a>Begrænsninger ved oprettelse af produktionsordrer  
 Produktionsordrer reserveres automatisk og spores til kilden, når:  
 
--   Oprettet fra **[Planlægningskladde](production-how-to-run-mps-and-mrp.md)**.  
--   Oprettet på siden **[Salgsordreplanlægning](production-how-to-create-production-orders-from-sales-orders.md)**  
--   De oprettes på siden **[Ordreplanlægning](production-how-to-plan-for-new-demand.md)**  
--   Funktionen **[Omplanlæg](production-how-to-replan-refresh-production-orders.md)** bruges på produktionsordrer  
+- Oprettet fra **[Planlægningskladde](production-how-to-run-mps-and-mrp.md)**.  
+- Oprettet på siden **[Salgsordreplanlægning](production-how-to-create-production-orders-from-sales-orders.md)**  
+- De oprettes på siden **[Ordreplanlægning](production-how-to-plan-for-new-demand.md)**  
+- Funktionen **[Omplanlæg](production-how-to-replan-refresh-production-orders.md)** bruges på produktionsordrer  
 
 Du kan finde flere oplysninger i [Spore relationer mellem behov og forsyning](production-how-track-demand-supply.md).
 
@@ -117,9 +118,9 @@ Programmet omfatter en række indstillinger, som gør det muligt at angive, hvor
 
 Forbruget af materialer kan behandles vha. [forbrugskladden](production-how-to-post-consumption.md), men kan også registreres automatisk i programmet, hvilket kaldes automatisk rapportering (udtræk). Der er følgende rapporteringsmetoder:  
 
--   Manuelt  
--   Forlæns  
--   Baglæns  
+- Manuelt  
+- Forlæns  
+- Baglæns  
 
 Manuel forbrugsrapportering anvender forbrugskladden til at angive materialeplukning.  
 
@@ -181,9 +182,9 @@ Men produktionskladden adskiller sig dog fra forbrugs- og afgangskladderne på f
 I produktionskladden bogføres forbrugsantal som negative vareposter, mens afgangsantal bogføres som positive vareposter, og tidsforbruget bogføres som kapacitetsposter.  
 
 ## <a name="see-also"></a>Se også
-[Produktion](production-manage-manufacturing.md)    
+[Produktion](production-manage-manufacturing.md)
 [Konfigurere produktion](production-configure-production-processes.md)  
-[Planlægning](production-planning.md)      
+[Skabelon](production-planning.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

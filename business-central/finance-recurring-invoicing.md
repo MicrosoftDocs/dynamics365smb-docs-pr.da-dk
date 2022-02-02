@@ -1,5 +1,5 @@
 ---
-title: Arbejde med tilbagevendende indtægt | Microsoft-dokumenter
+title: Arbejde med tilbagevendende indtægt
 description: Få mere at vide om de tilgængelige muligheder for at automatisere afsendelse af abonnementsfakturaer til kunder og registrering af tilbagevendende indtægter.
 author: AndreiPanko
 ms.service: dynamics365-business-central
@@ -8,15 +8,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
+ms.search.form: 283
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: e61f4406e754a2cf02aafcda21eec86b55eff053
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 696ab59530c81cd19709f4e1bde3324bcaebbf5a
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780778"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970985"
 ---
 # <a name="work-with-recurring-revenue-in-prod_short"></a>Arbejde med tilbagevendende indtægt i [!INCLUDE[prod_short](includes/prod_short.md)]
 

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment application, payment processing, match payments
+ms.search.form: 62, 233, 522, 623
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 017f88741ee0ccc2977f2173fbd984e5ebf6b36f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2be99ab30035a96d7c7d631caa84276d50a42b3e
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437237"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953272"
 ---
 # <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Afstemme kreditorbetalinger med udbetalingskladden eller fra kreditorposter
 Når du sender en betaling eller modtager en fra en kreditor, skal du beslutte, om betalingen skal udlignes eller refunderes på en eller flere åbne poster. Du kan f.eks. angive det nøjagtige beløb, som du vil udligne med betalingen, og dermed kun delvist udligne kreditorposter. Det er vigtigt, at du på et vist tidspunkt lukker (udligner) alle kreditorposter for at få korrekte kreditorstatistikker og rapporter over kontoudtog og finansændringer.

@@ -1,8 +1,6 @@
 ---
-title: Konfigurere og administrere et budget for en sag | Microsoft Docs
+title: Konfigurere og administrere et budget for en sag
 description: Beskriver, hvordan du planlægger ressourcer og estimerer og styrer omkostningerne for et projekt ved at oprette et budget for hver sag.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project budget, forecast
+ms.search.form: 1002, 1007
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ceb57fb6425b988920957c3066aa19659d08ae89
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 901a925e1ce8019cd2f347ac5b3e4c59735b444f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443453"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972274"
 ---
 # <a name="manage-job-budgets"></a>Administrere sagsbudgetter
 Du kan oprette et budget for hver sag. Budgettet bruges til at planlægge de ressourcer, som du kan allokere til en sag. Budgettet kan enten være generelt med få poster, eller det kan indeholde flere poster, der er inddelt i aktivitetsniveauer. Du kan derefter sammenligne de budgetterede beløb med det faktiske forbrug som registreret i sagskladden. Ved at overvåge forskellene mellem det faktiske forbrug og det budgetterede forbrug kan du kontrollere et igangværende projekt og forbedre kvaliteten af fremtidige sager ved at reducere risikoen for at undervurdere omkostningerne.

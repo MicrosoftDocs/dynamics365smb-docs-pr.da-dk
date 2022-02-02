@@ -1,5 +1,5 @@
 ---
-title: Konfigurere produktionsprocesser | Microsoft Docs
+title: Konfigurere produktionsprocesser
 description: Hvis du vil konvertere materialer til fremstillede færdigvarer, skal produktionsressourcer, f.eks. styklister, ruter, maskinoperatører og maskiner, konfigureres i systemet.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000768, 99000779, 99000780, 99000866
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 05e9585db60478bdf872f5e3132ceff1c34220b5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d15f1dd84a151224189a52ae73f5276ac14afbc9
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779403"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972352"
 ---
 # <a name="setting-up-manufacturing"></a>Konfigurere produktion
+
 Hvis du vil konvertere materialer til fremstillede færdigvarer, skal produktionsressourcer, f.eks. styklister, ruter, maskinoperatører og maskiner, konfigureres i systemet.
 
 Operatører og maskiner repræsenteres i systemet af produktionsressourcer, der kan være organiseret i arbejdscentre og arbejdscentergrupper. Når disse ressourcer er etableret, kan der indlæses operationer i henhold til varens definerede materialestykliste og processtruktur (rute) og i henhold til produktionsressourcens eller arbejdscentrets kapacitet. Du kan også angive produktionskapaciteten for hver ressource. Kapaciteten defineres af den tilgængelige arbejdstid i produktionsressourcerne og arbejdscentrene, som styres af kalendere for hvert niveau. En arbejdscenterkalender angiver arbejdsdage eller -timer, skiftehold, fridage og fravær, som bestemmer arbejdscentrets disponible bruttokapacitet, som typisk måles i minutter. Alt dette bestemmes af de effektivitets- og kapacitetsværdier, der er defineret.  
@@ -42,8 +43,8 @@ Når du har defineret en produktion, kan du planlægge og udføre produktionsord
 |Forbered arbejdscentre og ruter til at repræsentere underleverandørens produktionsoperationer.|[Produktion hos underleverandør](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>Se også
-[Produktion](production-manage-manufacturing.md)    
-[Planlægning](production-planning.md)   
+[Produktions-](production-manage-manufacturing.md)
+[planlægning](production-planning.md)   
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

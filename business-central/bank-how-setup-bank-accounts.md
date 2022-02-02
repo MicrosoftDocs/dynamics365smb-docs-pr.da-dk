@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/22/2021
+ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: f7984f5bf96208582be5a25a817cabb77589fe99
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 816b46e859fb4125c93346243f57f88b5f941a70
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940597"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029270"
 ---
 # <a name="set-up-bank-accounts"></a>Sådan oprettes bankkonti
 
@@ -90,6 +91,8 @@ De bedre tilknytningsoplysninger, du foretager i betalings afstemningskladden, b
 2. På siden **Bankkonti** skal du vælge handlingen **Ny**.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+    F.eks. forbindes feltet **Bankbogføringsgruppe** med bankkontoen til den underliggende finanskonto i balancen. Du kan finde flere oplysninger i [Opsætning af bogføringsgrupper](finance-posting-groups.md).
+
 > [!TIP]
 > Nogle felter er skjult, indtil du vælger handlingen **Vis flere**, typisk fordi de bruges sjældent. Andre skal tilføjes via brugertilpasning. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
@@ -152,7 +155,12 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
 > [!NOTE]
-> For at udfylde feltet **Saldo** med en startsaldo, skal du bogføre en bankkontopost med det pågældende beløb. Du kan gøre dette ved at udføre en afstemning af bankkontoen. Du kan finde flere oplysninger i [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md). Du kan også implementere primosaldoen som en del af oprettelse af generelle oplysninger i nye virksomheder ved hjælp af den assisterede opsætningsvejledning **Overflyt virksomhedsdata** . Du kan finde flere oplysninger i [Blive køreklar](ui-get-ready-business.md). Du kan lære mere om, hvordan du opretter primosaldi i [!INCLUDE[prod_short](includes/prod_short.md)], i [Sådan oprettes primosaldi til kladde](admin-how-to-create-journal-opening-balances.md).
+> For at udfylde feltet **Saldo** med en startsaldo, skal du bogføre en bankkontopost med det pågældende beløb. Du kan gøre dette ved at udføre en afstemning af bankkontoen. Du kan finde flere oplysninger i [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md).  
+>
+> Du kan også implementere primosaldoen som en del af oprettelse af generelle oplysninger i nye virksomheder ved hjælp af den assisterede opsætningsvejledning **Overflyt virksomhedsdata** . Du kan finde flere oplysninger i [Blive køreklar](ui-get-ready-business.md).  
+
+> [!IMPORTANT]
+> Det er vigtigt, at du ikke bogfører primosaldoen direkte i finansregnskabet. Hvis der er poster i finanskontoen, som bogføres direkte på finanskontoen, betyder det som regel, at du ikke kan afstemme bankkontoen, eller, hvis der er tale om bankkonti i udenlandsk valuta, samles differencer, når du bogfører flere bankkontoafstemninger. Du bogfører ofte primosaldoen direkte på bankkontoen, og beløbet ophører derefter med finanskontoen. Alternativt kan du tilbageføre den senere til en angivet finanskonto, som du har brugt til at afstemme primosaldoen med finansbalancen. I begge tilfælde skal du udligne en direkte bogføring til finanskontoen, før du starter din første bankafstemning, og især hvis bankkontoen er i udenlandsk valuta.  
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Sådan oprettes bankkontoen for import eller eksport af bankfiler
 

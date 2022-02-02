@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
+ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c2c92e72f20c26fe1505834e70d58981093c24b8
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 9d4c7884ead0b7821556c1db410f0fe06ea5aeff
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940222"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029452"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Revisoroplevelser i [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -49,9 +50,9 @@ Vi har gjort det nemt for dig at invitere din eksterne revisor. Du skal blot åb
 > [!IMPORTANT]  
 > Revisorens mailadresse skal være en arbejdsadresse, der er baseret på Azure Active Directory. Hvis revisoren bruger en anden type mail, så kan invitationen ikke sendes.
 >
-> Denne opgave kræver adgang til at administrere brugere og licenser i Azure Active Directory. Den bruger, der sender denne invitation, skal tildeles rollen **Globale administrator** eller **Brugeradministrator** i Microsoft 365 Administration. Du kan få flere oplysninger i [Om administratorroller](/microsoft-365/admin/add-users/about-admin-roles) i Microsoft 365-administratorindholdet.  
+> Denne opgave kræver adgang til at administrere brugere og licenser i Azure Active Directory. Den bruger, der sender denne invitation, skal tildeles rollen **Globale administrator** eller **Brugeradministrator** i Microsoft 365 Administration. Du kan flere oplysninger i [Om administratorroller](/microsoft-365/admin/add-users/about-admin-roles) i Microsoft 365 Administrator-indholdet.  
 
-### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Tilføjelse af din revisor til Microsoft 365 i Azure-portal
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Tilføjelse af din revisor til Microsoft 365 i Azure-portalen
 
 Hvis din administrator eller videresalgspartner ikke vil bruge guiden **Inviter ekstern revisor**, kan vedkommende tilføje en ekstern bruger på Azure-portalen og tildele denne bruger licensen til den *Eksterne revisor*. Du finder flere oplysninger under [Hurtig start: Tilføj gæstebrugere til dit katalog i Azure-portalen](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 

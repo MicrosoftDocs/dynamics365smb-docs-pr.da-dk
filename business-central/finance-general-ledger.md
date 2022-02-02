@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
+ms.search.form: 18, 20, 37, 65, 99, 312, 313, 395, 552, 569, 570, 634, 790, 791, 1158
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 2af34c84c7b359d2cae64d19a9aec151e0d9a3bb
-ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
+ms.openlocfilehash: 98aca02ceba638b65849ff8218bafe07be2190db
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928805"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973063"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Forstå Finans og Kontoplan
 
@@ -75,6 +76,7 @@ F.eks. har standardsaldoopgørelsen en underkategori for *Kassebeholdning* under
 Næste gang du genererer kontoskemaer viser din kontoopgørelse den samlede saldo for kontant og to linjer med saldi for kontantbeholdning og checkkontoen.  
 
 ## <a name="getting-a-quick-overview"></a>Få et hurtigt overblik
+
 Kontoplan siden viser kontiene på en hierarkisk liste, der giver hurtig adgang til nøgleoplysninger for hver konto. Listen er imidlertid statisk, og hvis du har mange konti, skal du muligvis foretage en smule rulning for at få vist oplysninger om forskellige konti. Hvis du blot vil have et hurtigt overblik over det grundlæggende, f. eks. bevægelser og saldi, er siden **Oversigt over kontoplaner** et nyttigt alternativ. Kolonnelayoutet på siden er nu det samme som på siden kontoplan (der er bare færre af dem), så du ikke behøver at vende tilbage til dig selv, og du kan udvide eller skjule de hierarkiske niveauer for at gøre visningen mere aktuel. Hvis du vil gøre det nemt at skifte mellem siderne, er siden **Oversigt over kontoplan** tilgængelig på siden kontoplan.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Adgang til at oprette og redigere konti og kontokategorier

@@ -3,19 +3,20 @@ title: Oversigt over opgaver til administration af indkøb
 description: Beskriver opgaver, du kan bruge til at administrere dine indkøb eller indkøbsprocesser, herunder hvordan købsfakturaer og købsordrer fungerer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
+ms.search.form: 460
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 929e1d62a091c4a01aa6f5e03dd5fcbdaa5bf7c0
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 60887ebf12795464049fb403e832e4eae7118b18
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115786"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012099"
 ---
 # <a name="purchasing"></a>Indkøb
 Du kan oprette en købsfaktura eller købsordre for at registrere omkostningerne ved køb og spore gæld. Hvis du vil styre en lagerbeholdning, benyttes købsfakturaer også til dynamisk at opdatere lagerniveauer, så du kan minimere lageromkostningerne og yde bedre kundeservice. Købsomkostningerne, herunder serviceudgifter og lagerværdier, der stammer fra bogføring af købsfakturaer, bidrager til avancebeløb og andre finansielle nøgletal i dit Rollecenter.

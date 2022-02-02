@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
+ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 46e5cf2c7728e7c154841b6d407423344020d818
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: 21993ad4ee675384f7ffebfc77e0999d5dec05a6
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920976"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972222"
 ---
 # <a name="set-up-time-sheets"></a>Konfigurere timesedler
 
@@ -42,6 +43,8 @@ Fra 2021 udgivelsesbølge 2 kan du bruge en assisteret installationsvejledning s
 >
 > Den samme funktion gør det også nemmere at administrere timesedler på en mobil enhed.
 
+Åbn **Konfigurere timesedler**-assisteret konfigurationsvejledning fra siden [Assisteret opsætning](https://businesscentral.dynamics.com/?page=1801).
+
 Den assisterede opsætningsvejledning fører dig gennem følgende trin:
 
 1. Konfigurer deltagerne i timeseddelprocessen
@@ -59,7 +62,7 @@ I slutningen af installationsvejledningen kan du vælge at lade [!INCLUDE [prod_
 
 ## <a name="set-up-time-sheets-manually"></a>Konfigurere timesedler manuelt
 
-I følgende afsnit beskrives det, hvordan du konfigurerer timesedler, hvis du ikke bruger vejledningen **opsætningsvejledning til oprettelse af timesedler**.  
+I følgende afsnit beskrives det, hvordan du konfigurerer timesedler, hvis du ikke bruger vejledningen til assisteret opsætning **Konfigurere timesedler**.  
 
 ### <a name="to-set-up-general-information-for-time-sheets-manually"></a>Sådan angives generelle oplysninger for timesedler manuelt
 

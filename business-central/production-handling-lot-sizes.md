@@ -1,5 +1,5 @@
 ---
-title: Håndtering af lotstørrelser | Microsoft Dokumenter
+title: Håndtering af lotstørrelse
 description: I dette emne beskrives forskellige måder at håndtere lotstørrelser på.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ef3863a372db074d4be3a7e9b72cfda5f47279d1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 05e592d1f4ecd281b71ab4f182c5c535faa611a1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779378"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973910"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Håndtering af lotstørrelser i produktionen
 Med hensyn til antal korrelerer antallet af varer, du producerer i en produktionsoperation, muligvis ikke til, hvordan de sælges. Du producerer måske hundredvis af varer i et enkelt parti, men sælger hver vare individuelt. Når du konfigurerer dine produktionsruter og styklister, er der få nuancer, du bør overveje med hensyn til lotstørrelser. I dette emne beskrives, hvordan lotstørrelser påvirker omkostningsberegninger og ressourceplanlægning.

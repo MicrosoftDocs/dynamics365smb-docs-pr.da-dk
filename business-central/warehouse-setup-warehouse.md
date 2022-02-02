@@ -7,20 +7,21 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b4578a02405b2aa972dac81a1d8d8e30ad713f3c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 7864b7dcb09d0528f6f0674ae7af3740ab7e5951
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324710"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973228"
 ---
 # <a name="setting-up-warehouse-management"></a>Sådan konfigureres Warehouse Management
+
 En virksomheds distributionsstrategi afspejles i konfigurationen af virksomhedens lagerprocesser. Dette omfatter bl.a. angivelse af, hvordan forskellige varer håndteres på forskellige lagerlokationer, f.eks. graden af placeringsstyring, og hvilket omfang af arbejdsgange der kræves mellem lageraktiviteterne.  
 
- Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
@@ -42,11 +43,12 @@ En virksomheds distributionsstrategi afspejles i konfigurationen af virksomheden
 |Integrere stregkodebrugere i din lagerstyringsløsning. Kun til lokal installation.|[Brug ADCS (Automated Data Capture Systems)](warehouse-use-automated-data-capture-systems-adcs.md)|
 |Angiv standardrapporter, der skal bruges til forskellige dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
+[Montagestyring](assembly-assemble-items.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

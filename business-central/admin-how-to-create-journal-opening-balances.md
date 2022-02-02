@@ -1,5 +1,5 @@
 ---
-title: Sådan oprettes kladden Primosaldi
+title: Oprette kladden Primosaldi
 description: Batchjobs, der kan hjælpe dig med at overføre ældre kontosaldi til en nylig konfigureret virksomhed. Du kan nemt overføre disse data med posteringer.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: ac7fea479237d985204820d54953689566f5c2ac
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ad338aaccb9bc912ff2861423e4ad3b170aa566d
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319534"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029084"
 ---
 # <a name="create-journal-opening-balances"></a>Oprette kladden Primosaldi
 
@@ -45,6 +45,9 @@ Før du starter, skal du kontrollere, at du du bruger rollecentersiden Administr
 
 > [!TIP]
 > Du kan bruge de samme kørsler til at tilføje primosaldi, hver gang du registrerer en ny debitor eller kreditor, som du har handlet med, men som ikke er registreret i [!INCLUDE [prod_short](includes/prod_short.md)]. Du skal blot søge efter den relevante opgave og derefter vælge det relevante link.
+
+> [!IMPORTANT]
+> Specielt til start af saldi for bankkonti skal du ikke udføre trinnene i denne artikel for at bogføre direkte på de finanskonti, der er knyttet til de relevante bankkonti. Du kan finde flere oplysninger i [Oprette bankkonti](bank-how-setup-bank-accounts.md).  
 
 ## <a name="see-also"></a>Se også
 

@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: fdacd0fcfd681d641f7c81249632662e90707951
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 46759304a312e0376e8b309b29d5e0491b34a69f
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588878"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012231"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Du kan bruge opgavekøer til at planlægge opgaver
 
@@ -71,6 +71,7 @@ Hvis det aktuelle regnskab f. eks. er i et miljø, som er en kopi af et andet mi
 > Interne administratorer og brugere kan planlægge kørsel af opgaver. Uddelegerede administratorer kan ikke.
 
 ## <a name="the-my-job-queue-part"></a>Delen Min opgavekø
+
 Delen **Min opgavekø** i dit rollecenter viser de poster i opgavekøen, som du har startet, men som ikke er færdige endnu. Som standard er delen ikke synlig, så du skal føje den til dit rollecenter. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).  
 
 I denne del kan du se, hvilke dokumenter med dit id i feltet **Tildelt bruger-id**, der behandles, eller som er i kø, herunder dem, der er relateret til baggrundsbogføring. Denne del kan give dig et overblik over, om der er opstået en fejl i bogføringen af et dokument, eller om der er fejl i en opgavekøpost. Delen giver dig også mulighed for at annullere bogføringen af et dokument, hvis det ikke kører.

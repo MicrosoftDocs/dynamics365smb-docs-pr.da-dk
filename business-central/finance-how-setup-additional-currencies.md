@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: multiple currencies, foreign exchange rates
+ms.search.form: 5, 16,118, 483, 495
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: e1a6c902bdf4ce8270def3c830138511adf6eba3
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 601ed7ceb9817b8bf24c12a260fd346087eed86f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660202"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972040"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Oprette en ekstra rapporteringsvaluta
 
@@ -41,15 +42,17 @@ Brug af en ekstra rapporteringsvaluta kan være en hjælp i rapporteringsprocess
 Flere finansrapporter er baseret på finansposter. Hvis rapportdata skal vises i rapporten i den ekstra rapporteringsvaluta, skal du blot markere feltet **Vis beløb i ekstra rapporteringsvaluta** på oversigtspanelet **Indstillinger** for den relevante finansrapport.
 
 ## <a name="adjusting-exchange-rates"></a>Regulering af valutakurser
+
 Fordi valutakurser svinger hele tiden, skal ekstra valutaer i systemet reguleres med jævne mellemrum. Hvis der ikke foretages reguleringer, kan de beløb, der er konverterede fra udenlandske (eller ekstra) valutaer, og som er bogførte i regnskabet i RV være vildledende. Derudover skal daglige poster, der er bogført før, en daglig valutakurs angives i programmet, opdateres, efter at de daglige oplysninger om valutakurser angives. Kørslen **Juster valutakurser** bruges til at regulere valutakursen for bogførte kunde-, leverandør- og bankkontoposter. Det kan også opdatere ekstra rapporteringsvalutabeløb i finansposter. Du kan finde flere oplysninger i [Opdatere valutakurser](finance-how-update-currencies.md).
 
 ## <a name="setting-up-an-additional-reporting-currency"></a>Oprette en ekstra rapporteringsvaluta.
+
 For at konfigurere en ekstra rapporteringsvaluta, skal du følge disse trin:
 
--   Angiv finanskonti til bogføring af valutakursreguleringer  
--   Angiv metoden til regulering af valutakurser for alle finanskonti.  
--   Angiv metoder til regulering af valutakurser for momsposter.  
--   Aktivér den ekstra rapporteringsvaluta.  
+- Angiv finanskonti til bogføring af valutakursreguleringer  
+- Angiv metoden til regulering af valutakurser for alle finanskonti.  
+- Angiv metoder til regulering af valutakurser for momsposter.  
+- Aktivér den ekstra rapporteringsvaluta.  
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Angiv finanskonti til bogføring af valutakursreguleringer  
 
@@ -68,7 +71,8 @@ For at konfigurere en ekstra rapporteringsvaluta, skal du følge disse trin:
 
 For hver enkelt finanskonto skal du angive, hvordan bogførte beløb for kontoen skal reguleres, så der tages hensyn til udsving i valutakurserne mellem RV og den ekstra rapporteringsvaluta.  
 
-### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Sådan angives metoden til regulering af valutakurser for alle finanskonti  
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Sådan angives metoden til regulering af valutakurser for alle finanskonti
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoplan**, og derefter vælge det relaterede link.  
 2. På siden **Kontoplan** skal du vælge den relevante konto og derefter vælge handlingen **Rediger**.  
 3. På siden **Finanskort** skal du vælge den relevante metode i feltet **Valutakursregulering**.  
@@ -85,7 +89,8 @@ For hver enkelt finanskonto skal du angive, hvordan bogførte beløb for kontoen
 
 4.  Luk siden **Finanskort**.  
 
-### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Sådan angives metoder til regulering af valutakurser for momsposter  
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Sådan angives metoder til regulering af valutakurser for momsposter
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Finans**, og vælg derefter det relaterede link.  
 2. På siden **Opsætning af Finans** skal du vælge den relevante metode i feltet **Valutakursregulering (moms)**.  
 3. Hvis du bogfører i en ekstra rapporteringsvaluta, kan du i feltet **Valutakursregulering (moms)** angive, hvordan kontiene til momsbogføring på siden **Momsbogføringsopsætning** skal justeres for kursudsving mellem RV og den ekstra rapporteringsvaluta.  
@@ -124,11 +129,12 @@ Når du har udført kørslen, vil beløb i de følgende eksisterende poster vær
 Derudover vil beløbene i alle fremtidige poster af samme type være registreret i både RV og den ekstra rapporteringsvaluta.  
 
 > [!NOTE]  
->  Feltet **Ekstra rapporteringsvaluta** vil kun være aktiveret, efter at du har valgt knappen **OK** i kørslen **Reguler eks. rapport.valuta**.  
+> Feltet **Ekstra rapporteringsvaluta** vil kun være aktiveret, efter at du har valgt knappen **OK** i kørslen **Reguler eks. rapport.valuta**.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
+
 [Opdatere valutakurser](finance-how-update-currencies.md)  
 [Afslutning af år og perioder](year-close-years-periods.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

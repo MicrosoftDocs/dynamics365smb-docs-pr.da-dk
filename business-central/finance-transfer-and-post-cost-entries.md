@@ -7,43 +7,44 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 1100, 1103, 1104, 1113
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ea072af165ba95ce8a166bd174b4f826d7933d8c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 92a7b0f4878f7cd23f4fc672e9723050ca7bde7e
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435818"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970800"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Overførsel og bogføring af omkostningsposter
+
 Inden du definerer omkostningsfordelinger, skal du forstå, hvordan omkostningsposter kommer fra følgende kilder:  
 
--   Automatisk overførsel af finansposter.  
--   Manuel kostprisbogføring for rene omkostningsposter, interne afgifter og manuelle allokeringer.  
--   Automatisk tildeling af bogføringer for faktiske omkostninger.  
--   Overførsel af budgetposter til faktiske.
+- Automatisk overførsel af finansposter.  
+- Manuel kostprisbogføring for rene omkostningsposter, interne afgifter og manuelle allokeringer.  
+- Automatisk tildeling af bogføringer for faktiske omkostninger.  
+- Overførsel af budgetposter til faktiske.
 
 ## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Kriterier for overførsel af finansposter til omkostningsposter
 Det er vigtigt at forstå kriterierne for overførsel af finansposter til prisposter. Under overførslen bruger kørslen **Overfør finansposter til CA** følgende kriterier til at fastslå, om og hvordan finansposterne overføres.  
 
 Finansposter overføres i følgende tilfælde:  
 
--   Posterne har dimensionsværdier, der svarer til enten et omkostningssted eller et omkostningsobjekt.  
--   Posterne har dimensionsværdier, der svarer til et omkostningssted og et omkostningsobjekt. For disse poster har omkostningsstedet forrang. Dette hjælper med at undgå en situation, hvor en omkostningstype vises i både et omkostningsobjekt og et omkostningssted og derfor tælles to gange i statistikken.  
--   Dokumentnummeret i posterne er tomt, så det vises med dokumentnummeret 0000 i omkostningsposterne.  
--   Posterne overføres til en omkostningstype, der giver mulighed for samlede poster, og disse poster overføres som en samlet post enten hver måned eller hver dag.  
+- Posterne har dimensionsværdier, der svarer til enten et omkostningssted eller et omkostningsobjekt.  
+- Posterne har dimensionsværdier, der svarer til et omkostningssted og et omkostningsobjekt. For disse poster har omkostningsstedet forrang. Dette hjælper med at undgå en situation, hvor en omkostningstype vises i både et omkostningsobjekt og et omkostningssted og derfor tælles to gange i statistikken.  
+- Dokumentnummeret i posterne er tomt, så det vises med dokumentnummeret 0000 i omkostningsposterne.  
+- Posterne overføres til en omkostningstype, der giver mulighed for samlede poster, og disse poster overføres som en samlet post enten hver måned eller hver dag.  
 
 Finansposter overføres ikke i følgende tilfælde:  
 
--   Posterne har dimensionsværdier, der ikke svarer til et omkostningssted eller et omkostningsobjekt.  
--   Posterne har værdien nul.  
--   Posterne har en finanskonto, der er blevet slettet.  
--   Posterne har en finanskonto, der ikke er af typen **Resultatopgørelse**.  
--   Posterne har en finanskonto, der ikke er tildelt en omkostningstype.  
--   Posterne har en bogføringsdato før **Startdato for finansoverførsel**.  
--   Posterne er blevet bogført med en ultimodato. De er typisk poster, der fører resultatopgørelsens saldo tilbage i slutningen af året.
+- Posterne har dimensionsværdier, der ikke svarer til et omkostningssted eller et omkostningsobjekt.  
+- Posterne har værdien nul.  
+- Posterne har en finanskonto, der er blevet slettet.  
+- Posterne har en finanskonto, der ikke er af typen **Resultatopgørelse**.  
+- Posterne har en finanskonto, der ikke er tildelt en omkostningstype.  
+- Posterne har en bogføringsdato før **Startdato for finansoverførsel**.  
+- Posterne er blevet bogført med en ultimodato. De er typisk poster, der fører resultatopgørelsens saldo tilbage i slutningen af året.
 
 ## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Overførsel af finansposter til omkostningsposter
 Du kan overføre finansposter til omkostningsposter.  
@@ -64,7 +65,7 @@ Inden du kører processen til overførsel af finansposter til omkostningsposter,
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Overfør finansposter til omkostningsregnskab** , og vælg derefter det relaterede link.  
 2.  Vælg knappen **Ja** for at starte overførslen. Processen overfører alle finansposter, der ikke allerede er overført.  
 
-    Under overførslen opretter processen forbindelser i posterne i tabellen **Omkostningspost** og tabellen **Omkostningsregister**. Dette gør det muligt at spore kilden til omkostningsposter.
+Under overførslen opretter processen forbindelser i posterne i tabellen **Omkostningspost** og tabellen **Omkostningsregister**. Dette gør det muligt at spore kilden til omkostningsposter.
 
 ## <a name="automatic-transfer-and-combined-entries"></a>Automatisk overførsel og kombinerede poster
 I omkostningsregnskab kan du overføre finansposter til en pristype ved hjælp af kombineret bogføring. Du kan angive, om en pristype modtager samlede poster i feltet **Saml poster** i pristypedefinitionen. Den følgende tabel beskriver de forskellige indstillinger.  

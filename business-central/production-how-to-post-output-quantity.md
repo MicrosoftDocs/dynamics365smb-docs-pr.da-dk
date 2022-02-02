@@ -7,23 +7,24 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000773, 99000778, 99000823, 99000827
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4bce7a2e07f9d559df74f4862e9aa841f4cfe6f0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d5adb9f1f4eb1edefdeb15b6f716458247b4ebf9
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441593"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970422"
 ---
 # <a name="batch-post-output-and-run-times"></a>Massebogføre afgang og operationstider
 Afgangsantallet repræsenterer arbejdsforløbet i form af den færdige mængde og den anvendte kapacitet for arbejdscentret eller produktionsressourcen.
 
 Du kan bruge afgangskladden til at:
-*  Justere lagerbeholdningen i forbindelse med afgang af færdige varer fra produktion.
-*  Registrere antal og spild for hver operation i produktionsruten.
-*  Registrere opsætning og operationstid for arbejdscentre og produktionsressourcer.
+
+* Justere lagerbeholdningen i forbindelse med afgang af færdige varer fra produktion.
+* Registrere antal og spild for hver operation i produktionsruten.
+* Registrere opsætning og operationstid for arbejdscentre og produktionsressourcer.
 
 > [!NOTE]
 > Hvis produktionsrute anvendes, opdateres lagerbeholdningen kun, når du bogfører afgangsantal for den sidste operation.
@@ -31,22 +32,26 @@ Du kan bruge afgangskladden til at:
 Med vinduet **Produktionskladde** kan du udføre de samme opgaver som i vinduet **Afgangskladde** og samtidigt udføre relaterede forbrugsbogføringsopgaver. Du kan finde flere oplysninger i [Registrere forbrug og afgang for én frigivet produktionsordrelinje](production-how-to-register-consumption-and-output.md).
 
 ## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Sådan bogfører du afgangsantal og/eller registrerer du operationstider for en eller flere produktionsordrelinjer
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Afgangskladde**, og vælg derefter det relaterede link.  
 2. Udfyld felterne med produktionsordredata, afgangsdata og/eller operationstid. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
   
     Du kan bruge funktionen **Udfold rute** til at generere kladdelinjer fra produktionsordrer.
   
-4. Hvis operationen er afsluttet, skal du markere feltet **Afsluttet**.  
-5. Vælg handlingen **Bogfør** for at bogføre operationer. 
- 
-Kapacitetsposterne opdateres for de anvendte arbejdscentre eller produktionsressourcer med oplysninger om tid, antal og spild. Hvis du har bogført den sidste operation, føjes varen til lageret. 
+3. Hvis operationen er afsluttet, skal du markere feltet **Afsluttet**.  
+4. Vælg handlingen **Bogfør** for at bogføre operationer. 
 
-## <a name="see-also"></a>Se også  
+Kapacitetsposterne opdateres for de anvendte arbejdscentre eller produktionsressourcer med oplysninger om tid, antal og spild.  
+
+Hvis du har bogført den sidste operation, føjes varen til lageret.  
+
+## <a name="see-also"></a>Se også
+
 [Bogføre spild manuelt](production-how-to-post-scrap.md)
 [Tilbageføre bogføring af afgang](production-how-to-reverse-output-posting.md)
-[Produktion](production-manage-manufacturing.md)    
+[Produktion](production-manage-manufacturing.md)
 [Konfigurere produktion](production-configure-production-processes.md)  
-[Planlægning](production-planning.md)      
+[Skabelon](production-planning.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

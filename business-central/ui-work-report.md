@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.date: 06/21/2021
 ms.author: jswymer
-ms.openlocfilehash: 9deb7e30e05da74e6ea263a0262680d2e99b8b4b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d62c16ef8c511464fde86a1766499e37f8a07b1f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439946"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972196"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbejde med rapporter, kørsler og XMLporte
 
@@ -139,6 +139,12 @@ Du kan finde flere oplysninger om rapportdesign i [rapportoversigt](/dynamics365
 
 > [!NOTE]
 > Nogle rapporter eksporterer tal som tekst, hvilket forhindrer dig i at foretage beregninger eller bruge Power Pivot på celler i Excel-regnearket. Når det er eksporteret, er det en god ide at kontrollere tallene i kladden. Hvis du vil analysere og planlægger tallene, skal du ændre formatet af de relevante celler fra **tekst** til **tal**. Du kan finde flere oplysninger om formatering af tal i celler i denne video [formateringsnumre i celler i Microsoft Excel](https://www.youtube.com/watch?v=2suE4YmZu_Q).
+
+### <a name="microsoft-word-document"></a>Microsoft Word Dokument
+Brug indstillingen **Microsoft Word Dokument** til at oprette en rapport som et Word-dokument.  
+
+> [!NOTE]
+> Du kan angive det layout, der skal bruges til hver rapport på siden **Rapportvalg**, i det **valgte layout**-felt. Standardindstillingen for rapporter er **RDLC (indbygget)**, som producerer rapporter i samme eller tilsvarende layout som **Microsoft Word Dokument**-layoutet. Men nøgleforskellen er, om du vil oprette et eller flere rapportdokumenter. Du kan bruge indstillingen RDLC (indbygget) til enkelte dokumenter. Hvis det er flere dokumenter, skal du angive **Microsoft Word Dokument** som standardlayout for rapporten. Du kan finde flere oplysninger i [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md).
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Planlægge kørsel af en rapport
 

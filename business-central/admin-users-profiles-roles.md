@@ -5,14 +5,15 @@ author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
+ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 74f8b0a7bdd4c95bee12b14c8354de68cafc1649
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f585ca4e97aa002e4d9d52cd74e01e18ab511eac
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443125"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012484"
 ---
 # <a name="manage-user-profiles"></a>Administrere brugerprofiler
 
@@ -29,11 +30,15 @@ Når du vil administrere brugerprofiler, skal de pågældende brugere først væ
 Du kan tilpasse sidelayout for en profil, så alle brugere, som profilen er tildelt til, kan se de tilpassede sider. Som administrator kan du tilpasse sider ved at bruge de samme funktioner som brugerne, når de foretager tilpasning. Du kan finde flere oplysninger i [Tilpasse sider til profiler](ui-personalization-manage.md).
 
 ## <a name="to-create-a-profile"></a>Sådan oprettes en profil
+
 Hvis du ikke kan kopiere en eksisterende profil, kan du oprette en ny profil manuelt.
 
 1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, skriv **Profiler (roller)**, og vælg derefter det relaterede link.  
 2. På siden **Profiler (roller)** skal du vælge handlingen **Ny**.  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!TIP]
+> Hvis du vil have, at en bestemt profil kun skal være tilgængelig for meget specifikke brugere, kan du angive feltet **Beskrivelse** til `Navigation menu only.`. På den måde er profilen ikke omfattet af listen over tilgængelige roller i **mine indstillinger**.
 
 ## <a name="to-copy-a-profile"></a>Sådan kopieres en profil
 Du kan spare tid, når du vil oprette en ny profil, ved at kopiere en eksisterende profil. Kopiér en profil med indstillinger, der svarer nogenlunde til den profil, du vil oprette.

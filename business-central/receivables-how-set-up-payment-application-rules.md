@@ -10,20 +10,16 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5205f5ed9e8f668a6705d2edfe0e07d328869b16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6eb37cbe2c4891c35b24a3ae7517add73669a2ac
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434989"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971271"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Konfigurere regler for automatisk udligning af betalinger
 
-På siden **Regler for betalingsudligning** skal du konfigurere regler, der styrer, hvordan betalingstekst (på en banktransaktion) automatisk matches med tekst på åbne poster i følgende to processer:
-
-- Udlign automatisk betalinger til deres relaterede åbne (ubetalte) fakturaer, kreditnotaer eller andre poster, når du bruger funktionen **Udlign automatisk** på siden **Betalingsudligningskladde**. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
-
-- Afstem automatisk banktransaktioner med deres relaterede interne bankkontoposter, når du vælger handlingen **Afstem automatisk** på siden **Bankkontoafstemning.** Du kan finde flere oplysninger i [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md).
+Gå til siden **Regler for betalingsudligning**, og konfigurer regler til at styre, hvordan betalinger/banktransaktioner skal udlignes automatisk til deres relaterede åbne (ubetalte) fakturaer, kreditnotaer eller andre poster, når du bruger funktionen **Udlign automatisk** på siden **Betalingsudligningskladde**. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 
 Du kan oprette nye regler for betalingsudligning ved at vælge, hvilke typer data på en betalingsafstemningskladde, der skal matche data på en eller flere åbne poster, før den tilhørende betaling udlignes automatisk på de åbne poster. Kvaliteten af hver automatisk udligning vises som en værdi af **Lav** til **Høj** i feltet **Matchtillid** på siden **Betalingsudligningskladde** ifølge den betalingsudligningsregel, der blev anvendt.
 

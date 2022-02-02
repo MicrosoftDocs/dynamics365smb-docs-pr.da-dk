@@ -11,12 +11,12 @@ ms.search.keywords: bill, sale, invoice, order
 ms.search.form: 42, 43, 48, 9301, 9305
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 125d28f1621e23f14cda9ce57a935a7da71e43cb
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: c3cc7613023c684469b0558e160d9400b5ca48db
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752464"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011383"
 ---
 # <a name="invoice-sales"></a>Fakturere salg
 
@@ -28,7 +28,7 @@ I nogle situationer skal du bruge en salgsordre i stedet for en salgsfaktura:
 * Hvis du leverer produkter, efter at du har bogført de tilsvarende salgsfakturaer.
 * Hvis du sælger varer, som leverandøren leverer direkte til kunden. Det kaldes direkte levering. Du kan finde flere oplysninger i [Foretage direkte leveringer](sales-how-drop-shipment.md).  
 
-I alle andre henseender fungerer salgsordrer og salgsfakturaer på samme måde. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).
+I alle andre henseender fungerer salgsordrer og salgsfakturaer på samme måde. Du kan finde flere oplysninger i brug af salgsordrer i [Sælge produkter](sales-how-sell-products.md).
 
 Du kan forhandle med debitoren ved først at oprette et salgstilbud, som du kan konvertere til en salgsfaktura, når I har aftalt salget. Der er flere oplysninger i [Give salgstilbud](sales-how-make-offers.md).
 

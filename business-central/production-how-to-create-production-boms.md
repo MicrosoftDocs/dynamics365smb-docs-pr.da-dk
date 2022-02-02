@@ -1,21 +1,18 @@
 ---
-title: Sådan oprettes produktionsstyklister
+title: Oprette produktionsstyklister
 description: Få mere at vide om, hvordan du opretter en produktionsstykliste, nye versioner af en produktionsstykliste, og hvordan mængde beregningsformlen bruges.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ffd57ed4f69870e04e8081d0ef6189788dc01ce6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 090b8d6bf2f9d784b14c0e6efe0f5547872109d9
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438674"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973884"
 ---
 # <a name="create-production-boms"></a>Oprette produktionsstyklister
 
@@ -28,7 +25,8 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
 - Der er oprettet varekort for overordnede varer, der indgår i produktionen. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 - Produktionsressourcer er oprettet. Du kan finde flere oplysninger i [Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md).
 
-## <a name="to-create-a-production-bom"></a>Sådan oprettes en produktionsstykliste  
+## <a name="to-create-a-production-bom"></a>Sådan oprettes en produktionsstykliste
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Produktionsstykliste**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -36,29 +34,30 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
 
     Udfyld linjerne i produktionsstyklisten.
 5. Vælg, om varen på denne produktionsstyklistelinje er en almindelig vare eller en produktionsstykliste, i feltet **Type**. Hvis varen på linjen er en produktionsstykliste, skal den findes i forvejen som en godkendt produktionsstykliste.  
-6.  I feltet **Nummer** skal du søge efter og vælge den pågældende vare eller produktionsstykliste, eller du skal skrive den i feltet.  
-7.  Angiv, hvor mange enheder af varen, der indgår i den overordnede vare, f.eks. fire hjul til en bil, i feltet **Antal pr**.  
-8.  Angiv en fast procentdel af komponenterne, der går til spilde under produktionen, i feltet **Spildpct**. Når komponenterne er klar til forbrug i en frigivet produktionsordre, lægges denne procentdel til det forventede antal i feltet **Forbrugsantal** i en produktionskladde. Du kan finde flere oplysninger i [Registrere forbrug og afgang](production-how-to-register-consumption-and-output.md).  
+6. I feltet **Nummer** skal du søge efter og vælge den pågældende vare eller produktionsstykliste, eller du skal skrive den i feltet.  
+7. Angiv, hvor mange enheder af varen, der indgår i den overordnede vare, f.eks. fire hjul til en bil, i feltet **Antal pr**.  
+8. Angiv en fast procentdel af komponenterne, der går til spilde under produktionen, i feltet **Spildpct**. Når komponenterne er klar til forbrug i en frigivet produktionsordre, lægges denne procentdel til det forventede antal i feltet **Forbrugsantal** i en produktionskladde. Du kan finde flere oplysninger i [Registrere forbrug og afgang](production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
     >  Denne spildprocent repræsenterer komponenter, der går til spilde under produktionen, når de tages fra lageret, mens spildprocenten på rutelinjer repræsenterer spild i output, før det lægges på lager.  
 
-9.  I feltet **Rutebindingskode** skal du skrive en kode for at knytte komponenten til en bestemt operation. Du kan finde flere oplysninger i [Sådan oprettes rutebindinger](production-how-to-create-routings.md#to-create-routing-links).
+9. I feltet **Rutebindingskode** skal du skrive en kode for at knytte komponenten til en bestemt operation. Du kan finde flere oplysninger i [Sådan oprettes rutebindinger](production-how-to-create-routings.md#to-create-routing-links).
 10. Du kan kopiere linjer fra en eksisterende produktionsstykliste ved at vælge handlingen **Kopier stykliste** for at vælge eksisterende linjer.  
-11.  Godkend produktionsstyklisten.  
-12.  Du kan nu knytte den nye produktionsstykliste til kortet for den pågældende overordnede vare. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).  
+11. Godkend produktionsstyklisten.  
+12. Du kan nu knytte den nye produktionsstykliste til kortet for den pågældende overordnede vare. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Hvis du vil genberegne varens standardkostpris fra varekortet, skal du vælge handlingen **Produktion** og derefter vælge handlingen **Beregn standardkostpris**.  
 
 ## <a name="to-create-a-new-versions-of-a-production-bom"></a>Sådan oprettes en ny version af en produktionsstykliste
+
 Nye versioner af produktionsstyklister anvendes, når f.eks. en vare erstattes af en anden vare, eller når en kunde bestiller en speciel version af et produkt. Versionsprincippet gør det muligt at administrere flere versioner af en produktionsstykliste. Ruteversionens struktur svarer til rutens struktur. Forskellen ligger i versionernes tidsmæssige gyldighed. Gyldigheden bestemmes af startdatoen.  
 
 Startdatoen angiver starten på en periode, hvor versionen er gyldig. I alle andre sammenhænge er startdatoen et filterkriterium for beregninger og vurderinger. Styklisteversionen er gyldig, til næste version bliver gyldig efter sin startdato.  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Produktionsstykliste**, og vælg derefter det relaterede link.  
-2.  Vælg produktionsstyklisten, der skal kopieres, og vælg derefter handlingen **Versioner**.  
-3.  Vælg handlingen **Ny**.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Produktionsstykliste**, og vælg derefter det relaterede link.  
+2. Vælg produktionsstyklisten, der skal kopieres, og vælg derefter handlingen **Versioner**.  
+3. Vælg handlingen **Ny**.  
 4. Udfyld felterne efter behov.
 5. I feltet **Versionskode** skal du angive en entydig identifikation af versionen. Alle kombinationer af tal og bogstaver er tilladt.  
 
@@ -68,29 +67,32 @@ Startdatoen angiver starten på en periode, hvor versionen er gyldig. I alle and
 Gyldigheden i tid for versionen angives i feltet **Startdato**.  
 
 > [!NOTE]  
->  Hvis du vil bruge en vare fra varemasterdata i produktionsstyklisten skal du vælge indstillingen **Vare** i feltet **Type**. Hvis varen også har en produktionsstykliste, hvorved **Produktionsstyklistenr.** er udfyldt på kortet, tages denne produktionsstykliste også i betragtning.  
->   
->  Vælg indstillingen **Produktionsstykliste**, hvis du vil bruge en fantomproduktionsstykliste på linjen.  
->   
->  Fantomstyklister anvendes til at strukturere produkter. Denne produktionsstyklistetype fører aldrig til et færdigt produkt, men anvendes udelukkende til at bestemme afhængige behov. Fantomstyklister har ikke deres egne stamdata for varer.
+> Hvis du vil bruge en vare fra varemasterdata i produktionsstyklisten skal du vælge indstillingen **Vare** i feltet **Type**. Hvis varen også har en produktionsstykliste, hvorved **Produktionsstyklistenr.** er udfyldt på kortet, tages denne produktionsstykliste også i betragtning.  
+>
+> Vælg indstillingen **Produktionsstykliste**, hvis du vil bruge en fantomproduktionsstykliste på linjen.  
+>
+> Fantomstyklister anvendes til at strukturere produkter. Denne produktionsstyklistetype fører aldrig til et færdigt produkt, men anvendes udelukkende til at bestemme afhængige behov. Fantomstyklister har ikke deres egne stamdata for varer.
 
-## <a name="quantity-calculation-formula-on-production-boms"></a>Beregningsformel for mængde på produktionsstyklister  
+## <a name="quantity-calculation-formula-on-production-boms"></a>Beregningsformel for mængde på produktionsstyklister
+
 Mængden beregnes under hensyntagen til forskellige dimensioner, der også er angivet på produktionsstyklistens linjer. Dimensionerne henviser til en ordreenhed for den pågældende vare. Længde, bredde, dybde og vægt kan angives som dimensioner.  
 
 Kolonnerne Beregningsformel, Længde, Bredde, Dybde og Vægt vises ikke, fordi de kun anvendes af nogle brugere. Hvis du vil anvende beregninger af mængden, skal du først have vist disse kolonner.  
 
 De enkelte komponenters relation defineres af beregningsformlen. Du kan vælge mellem følgende beregningsformler:  
 
--  **Tom** - Der anvendes ikke dimensioner. (Antal = Antal pr.)  
--  **Længde.** - Antal = Antal pr. * længde  
--  **Længde x bredde** - Antal = Antal pr. * længde x bredde  
--  **Længde x bredde x dybde** - Antal = Antal pr. x længde x bredde x dybde  
--  **Vægt** - Antal = Antal pr. x vægt  
+- **Tom** - Der anvendes ikke dimensioner. (Antal = Antal pr.)  
+- **Længde.** - Antal = Antal pr. * længde  
+- **Længde x bredde** - Antal = Antal pr. * længde x bredde  
+- **Længde x bredde x dybde** - Antal = Antal pr. x længde x bredde x dybde  
+- **Vægt** - Antal = Antal pr. x vægt  
 
-### <a name="example"></a>Eksempel  
+### <a name="example"></a>Eksempel
+
 I en produktionsstykliste skal der anvendes 70 metaldele med dimensionerne længde = 0,20 m og bredde = 0,15 m. Værdierne angives sådan: Beregningsformel = Længde x bredde, længde = 20, bredde = 15, Antal pr. = 70. Antallet er givet af antal pr. x længde * bredde, det vil sige, antal = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Oprette ruter](production-how-to-create-routings.md)   
 [Konfigurere produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    

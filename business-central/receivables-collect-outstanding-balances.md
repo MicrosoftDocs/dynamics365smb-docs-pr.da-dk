@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f2c12e89ced755a220cabf2d4b5712741deab7aa
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2c3e4bc2b75133b0a46d3d5746841d6caf76589c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439406"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971648"
 ---
 # <a name="collect-outstanding-balances"></a>Indhente udestående beløb
 
@@ -186,7 +186,7 @@ Når du udsteder en rykker, oprettes der en rykkerpost på siden **Rykker-/rente
 
 ## <a name="multiple-interest-rates"></a>Flere rentesatser
 
-Når du konfigurerer rentebetingelser og rykkerbetingelser for forsinket betaling, kan du angive flere rentesatser, så strafgebyret beregnes ud fra forskellige rentesatser i forskellige perioder. Hvis flere rentesatser ikke er konfigureret, så bruges den rente og periode, der er defineret på siderne **Rentebetingelser** og **Rykkerbetingelser**, for hele beregningsperioden. Du kan finde flere oplysninger i [Angiv flere rentesatser](finance-how-to-set-up-multiple-interest-rates.md).  
+[!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Du kan finde flere oplysninger i [Angiv flere rentesatser](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 

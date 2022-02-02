@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: eac371e873cc5b1d4a1927bccb8cee8d7e2f6e9f
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: fa9e4abb37788b7aa8261ab0a5a705edef27e3c4
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724733"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972482"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbejde med betalingstolerancer og kontantrabattolerancer
 Du kan angive en betalingstolerance for at afslutte en faktura, når betalingen ikke fuldt ud dækker beløbet på fakturaen. Betalingstolerancer er for eksempel typisk for små beløb, der ellers ville være dyrere at rette end bare at acceptere. Du kan angive en kontantrabattolerance til at give kontantrabat, efter at kontantrabatdatoen er overskredet.  

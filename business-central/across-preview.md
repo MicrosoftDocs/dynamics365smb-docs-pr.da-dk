@@ -6,14 +6,15 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
+ms.search.form: 1803, 1801
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 97df95921b7b1b503580b207ac1ebd858b57b135
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 01bdfbd52db384176defb5383470346b086fe293
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589303"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011542"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversioner og abonnementer
 
@@ -74,7 +75,7 @@ Hvis du har tilføjet data i din gratis [!INCLUDE[prod_short](includes/prod_shor
 
 Hver gang du logger på i prøveperioden, viser en meddelelse på en blå linje øverst den resterende tid. Hvis du beslutter dig for at abonnere, skal du kontakte en [!INCLUDE[prod_short](includes/prod_short.md)]-partner. Du kan finde flere oplysninger i [Hvordan finder jeg en videresalgspartner?](/dynamics365/business-central/across-faq#findpartner). Videresalgspartneren kan hjælpe dig med opsætningen af [!INCLUDE[prod_short](includes/prod_short.md)], således at den passer til din virksomhed, herunder med at importere dataene fra dit forrige system. Du kan også tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved at tilføje apps fra [Microsoft Commercial Marketplace](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] onlinebruger Microsoft 365. Hvis din virksomhed bruger en anden type e-mail-opsætning, kan videresalgspartneren hjælpe dig med at beslutte, hvordan du vil overføre dataene, eller hvorvidt du bør anvende [!INCLUDE[prod_short](includes/prod_short.md)] lokalt.  
+[!INCLUDE[prod_short](includes/prod_short.md)] online bruger Microsoft 365. Hvis din virksomhed bruger en anden type e-mail-opsætning, kan videresalgspartneren hjælpe dig med at beslutte, hvordan du vil overføre dataene, eller hvorvidt du bør anvende [!INCLUDE[prod_short](includes/prod_short.md)] lokalt.  
 
 Du kan også kontakte [[!INCLUDE[prod_short](includes/prod_short.md)]-salgsteamet](https://go.microsoft.com/fwlink/?linkid=828707).  
 

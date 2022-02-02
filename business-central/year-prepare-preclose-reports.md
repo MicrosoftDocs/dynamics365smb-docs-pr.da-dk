@@ -1,24 +1,24 @@
 ---
-title: Oversigt over rapporter før afslutning til bekræftelse af nøjagtigheden af konti | Microsoft Docs
+title: Oversigt over rapporter før afslutning til bekræftelse af nøjagtigheden af konti
 description: Giver en oversigt over de rapporter, du kan bruge til at bekræfte nøjagtigheden af konti, inden du afslutter regnskaberne i slutningen af et år eller en periode.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 1393, 1394
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 96fe7c7c1f955d3c489429bf3ee64f9f3f925de7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 877f2ed9ba278ccafb26266d85165b8cfc5589d3
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439230"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012653"
 ---
 # <a name="using-pre-closing-reports"></a>Bruge rapporter før afslutning
+
 Der findes mange standardrapporter, som du kan bruge til at bekræfte nøjagtigheden af kontiene, inden du afslutter regnskaberne i slutningen af et år eller en periode. Du kan f.eks. bruge rapporten **Debitor - balance** til at bekræfte, at balancen for en debitorbogføringsgruppe er lig med balancen for den tilsvarende finanskonto på en bestemt dato.
 
 Følgende tabel indeholder et antal rapporter, som kan være nyttige i denne proces.
@@ -38,6 +38,7 @@ Følgende tabel indeholder et antal rapporter, som kan være nyttige i denne pro
 Få vist en rapport ved at vælge ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv navnet, som det vises i tabellen, og vælg derefter det relaterede link.
 
 ## <a name="see-also"></a>Se også
+
 [Afslutning af år og perioder](year-close-years-periods.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

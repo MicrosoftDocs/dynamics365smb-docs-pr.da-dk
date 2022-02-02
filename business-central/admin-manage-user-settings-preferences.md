@@ -9,14 +9,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
+ms.search.form: 9204
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: fff79b56d6846547230788b6caa831e7bf3a11d7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3b4c857f006970fa3973a1203a7ddd8cffc2298
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438948"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011753"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Administrere brugerindstillinger og præferencer
 
@@ -43,7 +44,7 @@ Siden **Brugerindstillingskort** svarer til ruden **Mine indstillinger**, som hv
 
 - **Sprog**  
 
-  Definerer det programsprog, som [!INCLUDE[prod_short](includes/prod_short.md)] viser tekst, billedtekster og fejlmeddelelser på. Hvis [!INCLUDE[prod_short](includes/prod_short.md)]-brugerne synkroniseres fra Microsoft 365, bruges de sprogindstillinger fra Microsoft 365, hvis brugeren vil have de samme indstillinger i Office-produkter og [!INCLUDE[prod_short](includes/prod_short.md)]. Administratoren kan ændre standardindstillingen, og hver bruger kan vælge mellem de tilgængelige sprog på siden Mine indstillinger. Men indstillinger bliver nulstillet til værdien fra Microsoft 365, når den næste synkronisering udføres.
+  Definerer det programsprog, som [!INCLUDE[prod_short](includes/prod_short.md)] viser tekst, billedtekster og fejlmeddelelser på. Hvis [!INCLUDE[prod_short](includes/prod_short.md)]-brugerne synkroniseres fra Microsoft 365, bruges sprogindstillinger fra Microsoft 365, hvis brugeren vil have de samme indstillinger i Office-produkter og [!INCLUDE[prod_short](includes/prod_short.md)]. Administratoren kan ændre standardindstillingen, og hver bruger kan vælge mellem de tilgængelige sprog på siden Mine indstillinger. Men indstillinger bliver nulstillet til værdien fra Microsoft 365, når den næste synkronisering udføres.
 
   Hvis sprogindstillingen fra Microsoft 365 passer til et sprog, der understøttes i [!INCLUDE[prod_short](includes/prod_short.md)], vil dette sprog blive valgt for brugeren.  
 
@@ -52,7 +53,7 @@ Siden **Brugerindstillingskort** svarer til ruden **Mine indstillinger**, som hv
   
 - **Område**  
 
-  Definerer, hvordan datoer og tal præsenteres i [!INCLUDE[prod_short](includes/prod_short.md)]-klienten, f.eks. om der skal bruges europæiske eller amerikanske datoformater, eller hvordan decimaltegnet og tusindtalsseparatorer vises i beløb. Hvis [!INCLUDE[prod_short](includes/prod_short.md)]-brugerne synkroniseres fra Microsoft 365, bruges de regionale indstillinger fra Microsoft 365, hvis brugeren vil have de samme indstillinger i Office-produkter og [!INCLUDE[prod_short](includes/prod_short.md)]. En administrator eller bruger kan ændre disse indstillinger manuelt i [!INCLUDE[prod_short](includes/prod_short.md)], men de vil blive nulstillet til værdien fra Microsoft 365, så snart næste synkronisering udføres.
+  Definerer, hvordan datoer og tal præsenteres i [!INCLUDE[prod_short](includes/prod_short.md)]-klienten, f.eks. om der skal bruges europæiske eller amerikanske datoformater, eller hvordan decimaltegnet og tusindtalsseparatorer vises i beløb. Hvis [!INCLUDE[prod_short](includes/prod_short.md)]-brugerne synkroniseres fra Microsoft 365, bruges de internationale indstillinger fra Microsoft 365, hvis brugeren vil have de samme indstillinger i Office-produkter og [!INCLUDE[prod_short](includes/prod_short.md)]. En administrator eller bruger kan ændre disse indstillinger manuelt i [!INCLUDE[prod_short](includes/prod_short.md)], men de vil blive nulstillet til værdien fra Microsoft 365, så snart næste synkronisering udføres.
 
 - **Tidszone**  
 

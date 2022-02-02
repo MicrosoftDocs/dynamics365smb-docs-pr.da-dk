@@ -1,5 +1,5 @@
 ---
-title: Sådan kan du opsætte basiskalendere
+title: Konfigurere basiskalendere
 description: Du kan tildele en basiskalender til din virksomhed og dens forretningspartnere for at beregne leverings-og modtagelsesdatoer i henhold til de angivne arbejdsdage.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,20 +7,22 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 7600, 7601, 7602, 5703
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 5c82ce068f22e9cf458fdedf84504c880838c648
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 41f81b287ee3966ca01de9c80fdd7a167170c42d
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446486"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011832"
 ---
 # <a name="set-up-base-calendars"></a>Konfigurere basiskalendere
+
 Du kan tildele en basiskalender til din virksomhed eller til virksomhedens samarbejdspartnere, f.eks. kunder, leverandører eller lokationer. Leverings- og modtagelsesdatoer på fremtidige salgsordrer, købsordrer, overflytningsordrer og produktionsordrelinjer beregnes i overensstemmelse med de arbejdsdage, der er angivet i kalenderen. Den vigtigste opgave i forbindelse med oprettelse af en ny basiskalender, er at angive og definere de fridage, som du vil anvende.  
 
-## <a name="to-set-up-a-base-calendar"></a>Sådan oprettes en basiskalender  
+## <a name="to-set-up-a-base-calendar"></a>Sådan oprettes en basiskalender
+
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Basiskalender**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  Udfyld feltet **Kode**.  
@@ -42,6 +44,7 @@ Når du indtaster en linje, vil feltet **Fridag** være markeret. Du kan vælge 
 Angiver en datoformel for det tidsrum, det tager at genbestille varen. Den bruges til at beregne feltet **Planlagt modtagelsesdato**, hvis du beregner fremad, og feltet **Ordredato**, hvis du beregner bagud. Se [Leveringstid](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Leveringstid
+
 Enhver basiskalender, der er defineret for kreditoren eller lokationen, påvirker, hvordan datoerne beregnes og afrundet til arbejdsdage. I henhold hertil beregnes de to vigtige datofelter på købsordrelinjer på følgende måde under forskellige betingelser.
 
 |Beregningsretning|Kreditorkalender defineret|Kreditorkalender ikke defineret|

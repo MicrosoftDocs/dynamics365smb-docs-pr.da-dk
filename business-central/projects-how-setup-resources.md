@@ -1,8 +1,6 @@
 ---
-title: Angive ressourcekostpriser, priser og kapacitet | Microsoft Docs
+title: Konfigurere projektressourcekostpriser, priser og kapacitet
 description: For at bruge ressourcer og lette projektstyring skal du angive omkostninger og priser for individuelle ressourcer eller ressourcegrupper og angive ressourcekapacitet.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff
+ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eb0d6f0ebe08abfb4b6f769f1bdbff1f02bc677f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a91bf2cbd82f2b4c8374a1773a6603f52c47c581
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439791"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972248"
 ---
-# <a name="set-up-resources"></a>Konfigurere ressourcer
+# <a name="set-up-resources-for-projects"></a>Konfigurere ressourcer for projekter
+
 For at kunne administrere ressourceaktiviteterne korrekt skal du oprette ressourcerne og de tilhørende omkostninger og priser. De sagsrelaterede pris-, rabat- og kostfaktorregler oprettes på jobkortet. Du kan angive omkostninger og priser for individuelle ressourcer, ressourcegrupper eller alle tilgængelige ressourcer i virksomheden.
 
 Når der bruges eller sælges ressourcer i en sag, hentes de tilhørende priser og omkostninger fra de oplysninger, du har oprettet.

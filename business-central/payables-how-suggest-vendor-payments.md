@@ -1,8 +1,6 @@
 ---
-title: Bruge kørslen Lav kreditorbetalingsforslag | Microsoft Docs
+title: Foreslå kørsel af kreditorbetalinger
 description: Du kan angive kreditorbetalingsindstillinger for at få vist forslag eller forslag til betalinger, der forfalder snart, eller hvor en rabat er tilgængelig.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
+ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6781674947cbbf12741216244499403989f14255
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 962a1fde49db09b3d739ac33eba43fa7316cc25d
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438798"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953154"
 ---
 # <a name="suggest-vendor-payments"></a>Lav forslag
+
 På siden **Udbetalingskladde** kan du bruge kørslen **Lav kreditorbetalingsforslag** til at foreslå betalingslinjer. Linjer til betalinger, som snart forfalder, eller betalinger, hvor en kontantrabat er tilgængelig, foreslås baseret på dine indstillinger.
 
 For at få det fulde udbytte af betalingsforslag skal du først prioritere dine kreditorer. Du kan finde flere oplysninger i [Tildele kreditorer prioritet](purchasing-how-prioritize-vendors.md).  

@@ -1,5 +1,5 @@
 ---
-title: Definere en metode for igangværende arbejde og overvåge sagsstatus | Microsoft Docs
+title: Overvåge jobstatus og -udførelse
 description: Beskriver, hvordan du kan oprette en metode for igangværende arbejde og beregne igangværende arbejde for at estimere den økonomiske værdi af sager, der er igangværende.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, KPI, work in process, work in progress
+ms.search.form: 89, 92, 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 052a0ecbe3b5435a2d73f377bb4ac0f4c4373f58
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7c816ea6d4fa8f1653000f94e15b74f9b78db8c6
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443814"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971806"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Overvåge jobstatus og -udførelse
 Efterhånden som status for en sag ændrer sig, forbruges der materialer, ressourcer og andre udgifter, og disse skal bogføres i sagen. Igangværende arbejde er en funktion, som giver dig mulighed for at estimere den økonomiske værdi af sager i finansregnskabet under udførelsen af sagen. Du kan i mange tilfælde bogføre udgifterne for en sag, før sagen faktureres. Hvis der kun er bogført udgifter, vil din regnskabsopgørelse ikke være helt korrekt. Du kan finde flere oplysninger i [Forstå metoder for igangværende arbejde](projects-understanding-wip.md).

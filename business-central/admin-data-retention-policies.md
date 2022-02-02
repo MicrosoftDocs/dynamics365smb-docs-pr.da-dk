@@ -1,5 +1,5 @@
 ---
-title: Rydde op i data med opbevaringspolitikker | Microsoft Docs
+title: Rydde op i data med opbevaringspolitikker
 description: Du kan angive, hvor ofte du vil slette bestemte datatyper.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
+ms.search.form: 3903, 3901
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3ee0149461730e20e996f31dc7175ff3325bceca
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ab16aacb7689287eac259658a8ef6bb355f04842
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443914"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012389"
 ---
 # <a name="define-retention-policies"></a>Definere opbevaringspolitikker
 Administratorer kan definere opbevaringspolitikker for at angive, hvor ofte [!INCLUDE[prod_short](includes/prod_short.md)] skal slette forældede data i tabeller, der indeholder logposter og poster, der er arkiveret. Hvis du f.eks. rydder poster i logfilen, bliver det nemmere at arbejde med de data, der rent faktisk er relevante. Politikker kan omfatte alle data i de tabeller, der ligger ud over udløbsdatoen, eller du kan tilføje filterkriterier, som kun skal indeholde bestemte udløbne data i politikken. 

@@ -1,29 +1,29 @@
 ---
 title: Konfigurere bedste praksis - kostmetode
 description: Kostmetode på varekortet definerer, hvordan varens kostprisforløb registreres, og om en faktisk eller budgetteret værdi føres som aktiv og bruges i beregningen af kostprisen.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 30, 42, 43
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 87c3616a4d680f94a0997d503aa1569fd871bc9f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d6b2c19ae98c50854c35a0bff412689d8e2bc38f
+ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778068"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7974917"
 ---
 # <a name="setup-best-practices-costing-method"></a>Konfigurere bedste fremgangsmåder: kostmetode
 
 **Kostmetode** på varekortet definerer, hvordan varens kostprisforløb registreres, og om en faktisk eller budgetteret værdi føres som aktiv og bruges i beregningen af kostprisen.  
 
- Det er vigtigt at indstille den korrekte kostmetode i overensstemmelse med varetype og forretningsmiljø for at sikre økonomiske lagerbeholdninger.  
+Det er vigtigt at indstille den korrekte kostmetode i overensstemmelse med varetype og forretningsmiljø for at sikre økonomiske lagerbeholdninger.  
 
- Den følgende tabel viser de bedste fremgangsmåder til konfiguration af feltet **Kostprisberegningsmetode**. Du kan finde flere oplysninger i [Designoplysninger: Kostmetoder](design-details-costing-methods.md).  
+Den følgende tabel viser de bedste fremgangsmåder til konfiguration af feltet **Kostprisberegningsmetode**. Du kan finde flere oplysninger i [Designoplysninger: Kostmetoder](design-details-costing-methods.md).  
 
 |Opsætningsindstilling|Bedste fremgangsmåde|Bemærkning|  
 |------------------|-------------------|-------------|  
@@ -33,11 +33,12 @@ ms.locfileid: "5778068"
 |Bestemt|Bruges i produktionen eller handel med varer, der nemt kan identificeres, med forholdsvis høje kostpriser.<br /><br /> Bruges til varer, der er omfattet af regulering.<br /><br /> Bruges for varer med serienumre.|En vares kostpris er den præcise kostpris, som den aktuelle enhed er modtaget til.|
 |Standard|Bruges, hvor omkostningsstyring er afgørende.<br /><br /> Bruges i serieproduktion til at evaluere kostpriserne for direkte materialeomkostninger, arbejdsomkostninger og produktionsomkostninger.<br /><br /> Bruges, hvor der er disciplin og personale til at vedligeholde standarderne.|En vares kostpris forudindstilles baseret på forventninger.<br /><br /> Når det faktiske kostbeløb realiseres senere, skal standardkostprisen reguleres til de faktiske omkostninger gennem variansværdier.|  
 
-## <a name="see-also"></a>Se også  
- [Designoplysninger: Kostmetoder](design-details-costing-methods.md)   
- [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
- [Opret komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## <a name="see-also"></a>Se også
+
+[Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
+[Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)  
+[Opret komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
+ms.search.form: 5610, 5611, 5659, 5660, 5663, 5619, 5666
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 3d1372425b15ee8b7b63efd64513c131cb1f1f9b
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 54470439a7376f2bb3d22b357d9b5397588190a5
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588297"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029348"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Afskrive på eller amortisere anlægsaktiver
 Afskrivning bruges til at allokere prisen for et anlægsaktiv, f.eks. maskiner og udstyr, over anlæggets afskrivningslevetid. For hvert anlæg skal du definere, hvordan det skal afskrives.  

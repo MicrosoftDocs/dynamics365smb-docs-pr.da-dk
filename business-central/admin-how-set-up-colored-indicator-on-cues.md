@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9701, 9702
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7390fd047080fe5282cc949ec81e58ccb5f2e9cf
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8dfd2a4c731ebc9663f3916694903ad8ac010ca5
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443864"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012441"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Oprette en farvet indikator på køindikatorer for firmaet eller individuelle brugere
+
 Som administrator kan du oprette køindikatorer, der vises i rollecentre for brugere, for at medtage en indikator, der skifter farve ud fra dataværdierne i køerne.  
 
 Indikatoren vises som en farvet streg langs den øverste kant af feltet Køindikator. Det indeholder et visuelt signal af status for køindikatorens aktivitet, som kan indikere favorable eller ikke-favorable betingelser for at bede brugeren om at handle. Hvis en køindikator f.eks. viser løbende salgsfakturaer, kan du oprette indikatoren som grøn (favorabel), når det samlede antal løbende salgsfakturaer er under 10, og rød (ikke-favorabel), når det samlede antal er større end 20.  

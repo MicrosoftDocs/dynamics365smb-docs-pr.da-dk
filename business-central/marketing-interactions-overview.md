@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: e1876b5f94aa99d032f12c25f81d371af5f44a7c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: de3362b82bdba2248e8d3e288822ec12db0fcc05
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321858"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011148"
 ---
 # <a name="managing-interactions-with-your-contacts"></a>Administrere interaktioner med dine kontakter
 I [!INCLUDE[prod_short](includes/prod_short.md)] er interaktioner alle typer kommunikation mellem din virksomhed og dine kontakter. F.eks. kan kommunikation foregå via brev, mail, telefon, møder osv.

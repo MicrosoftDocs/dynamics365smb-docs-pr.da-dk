@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
+ms.search.form: 1831, 1832
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: bbc68f5ed274328a9ea1fe7229a79bfba5a8bdf5
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 7d248158b7efa5960bbaeaf4b99f3ef8655b627c
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587936"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012363"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Få Business Central-tilføjelsesprogram til Outlook
 
@@ -23,7 +24,7 @@ Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du administrere forretnin
 
 Der er to måder at få installeret et Business Central-tilføjelsesprogram til Outlook på, afhængigt af din rolle i organisationen:
 
-- Som Microsoft 365-administrator kan du bruge *centraliseret installation* til at installere tilføjelsesprogrammet automatisk for hele organisationen, grupper eller specifikke brugere.
+- Som Microsoft 365-administrator kan du bruge *Centraliseret installation* til at installere tilføjelsesprogrammet automatisk for hele organisationen, grupper eller specifikke brugere.
 
 - Som enhver bruger kan du installere tilføjelsesprogrammet til eget brug, hvis din administrator ikke allerede har implementeret det for dig.
 
@@ -54,7 +55,7 @@ Centraliseret installation er en funktion i Microsoft 365 Administration, som du
 
 - Et Microsoft 365-abonnement  
 - Brugere får tildelt en Microsoft 365-licens  
-- Din Microsoft 365-konto har rollen som *global administrator* eller *Exchange-administrator*
+- Din Microsoft 365-konto har rollen som *Global administrator* eller *Exchange-administrator*
 
 ### <a name="deploy-the-add-in"></a>Anvende tilføjelsesprogrammet
 
@@ -68,7 +69,7 @@ Centraliseret installation er en funktion i Microsoft 365 Administration, som du
 5. På dette tidspunkt er du færdig med det arbejde, du skal udføre i Business central, så du kan vælge **udført**.
 
    >[!TIP]
-   > Før du vælger **næste**, skal du vælge **gå til Microsoft 365 (åbnes i et nyt vindue)** for at åbne og logge på Microsoft 365 Administrationscenter i et nyt browservindue. Du skal alligevel gå til Microsoft 365 Administration Center senere.
+   > Før du vælger **næste**, skal du vælge **Gå til Microsoft 365 (åbnes i et nyt vindue)** for at åbne og logge på Microsoft 365 Administrationscenter i et nyt browservindue. Du skal alligevel gå til Microsoft 365 Administration Center senere.
 
 6. Gå til den mappe, hvor filen OutlookAddins. zip blev hentet, og Pak filerne **Contact Insights.xml** og **Document View. XML** fra. zip-filen ud til en mappe, du vælger.
 

@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
+ms.search.form: 1805
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ce8856f250e4098256e9ac2b9959ec6900aaaadc
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: de40994a555fbc657eacc18e8b2e8b33ce430fcb
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940422"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011122"
 ---
 # <a name="set-up-email"></a>Konfigurer mail
 Personer i virksomheder sender oplysninger og dokumenter, f.eks. salgs-og købsordrer og fakturaer, pr. e-mail hver dag. Administratorer kan gøre det nemmere at gøre ved at oprette forbindelse mellem en eller flere e-mail-konti [!INCLUDE[prod_short](includes/prod_short.md)], så du kan sende dokumenter uden at skulle åbne en e-mail-app. Du kan skrive hver enkelt meddelelse individuelt med grundlæggende formateringsværktøjer, f.eks. skrifttyper, typografier, farver osv., og føje vedhæftede filer til op til 100 MB. Administratorer kan også konfigurere rapportlayout, der kun indeholder nøgleoplysninger fra dokumenter. Du kan finde flere oplysninger i [Sende dokumenter via mail](ui-how-send-documents-email.md).
@@ -37,14 +38,14 @@ Når du har tilføjet en e-mailkonto, kan du angive foruddefinerede forretningss
 
 I følgende tabel beskrives de e-mail-udvidelser, der som standard er tilgængelige.
 
-|Udvidelse  |Beskrivelse  |Eksempler på, hvornår du skal bruge  |
+|Udvidelse  |Beskrivlse  |Eksempler på, hvornår du skal bruge  |
 |---------|---------|---------|
-|**Microsoft 365**|Alle sender mails fra en delt postkasse i Exchange Online.|Når alle meddelelser kommer fra samme afdeling, sender salgsorganisationen f.eks. meddelelser fra en sales@cronus.com konto. Dette kræver, at du opretter en delt postkasse i Microsoft 365 Administration. Du kan finde flere oplysninger i [Delte postkasser](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
+|**Microsoft 365**|Alle sender mails fra en delt postkasse i Exchange Online.|Når alle meddelelser kommer fra samme afdeling, sender salgsorganisationen f.eks. meddelelser fra en sales@cronus.com konto. Dette kræver, at du opretter en delt postkasse i Microsoft 365-administrationscenter. Du kan finde flere oplysninger i [Delte postkasser](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Aktuel bruger**|Alle sender mail fra den konto, som de bruges til at logge på [!INCLUDE[prod_short](includes/prod_short.md)].|Tillad kommunikation fra individuelle konti.|
 |**Andet (SMTP)**|Brug SMTP-protokollen til at sende mails.|Tillad kommunikation via din SMTP-mailserver. |
 
 > [!NOTE]
-> Udvidelserne **Microsoft 365** og **Aktuelle bruger** bruger de konti, du har oprettet til brugere i Microsoft 365 Administration til dit Microsoft 365-abonnement. Hvis du vil sende e-mail ved hjælp af udvidelser, skal brugere have en gyldig licens til Exchange Online. 
+> **Microsoft 365** og de **Aktuel bruger**-udvidelser bruger de konti, du har oprettet til brugere i Microsoft 365 Administration Center til dit Microsoft 365-abonnement. Hvis du vil sende e-mail ved hjælp af udvidelser, skal brugere have en gyldig licens til Exchange Online. 
 >
 > Eksterne brugere, f. eks. uddelegerede administratorer og eksterne bogholdere, kan heller ikke bruge disse udvidelser til at sende e-mail-meddelelser fra [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -118,7 +119,7 @@ Følgende er eksempler på, hvordan Send som og Send på vegne af bruges i [!INC
 > Du kan kun bruge én konto til at erstatte afsenderadresser. Det vil sige, at du ikke kan have én erstatningsadresse til indkøbsprocesser og en anden til salgsprocesser.
 
 ### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>Sådan opsættes erstatningsafsenderadressen for alle udgående mailmeddelelser
-1. Find den postkasse, der skal bruges som erstatningsadresse, i **Exchange Administrationscenter** til din Microsoft 365-konto, og kopiér eller notér adressen. Hvis du har brug for en ny adresse, skal du gå til Microsoft 365 administration for at oprette en ny bruger og oprette postkassen.
+1. Find den postkasse, der skal bruges som erstatningsadresse, i **Exchange Administrationscenter** til din Microsoft 365-konto, og kopiér eller notér adressen. Hvis du har brug for en ny adresse, skal du gå til Microsoft 365-administration for at oprette en ny bruger og oprette postkassen.
 2. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du vælge ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Konfiguration af SMTP-mail** og vælg derefter det relaterede link.
 3. Angiv erstatningsadressen i feltet **Send som**.
 4. Kopiér eller notér adressen i feltet **bruger-id**.

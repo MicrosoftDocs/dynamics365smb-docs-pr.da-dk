@@ -1,5 +1,5 @@
 ---
-title: 'Fremgangsmåde: Bogføre kapaciteter'
+title: Bogføre kapaciteter
 description: Bogfør forbrugt kapacitet, der ikke er knyttet til produktionsordren i kapacitetskladden, og få vist bogførte kapaciteter på siden kapacitetsposter.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 5832, 99000802, 99000820
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 024985cb4a2615f374465e5a387901976509a5db
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 92e4a3cb7243a8e6e11e9744a2b308b7b1bcd4a0
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444201"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972300"
 ---
 # <a name="post-capacities"></a>Bogføre kapaciteter
 I kapacitetskladden kan du bogføre forbrugt kapacitet, der ikke er knyttet til produktionsordren. Vedligeholdelsesarbejde skal f.eks. knyttes til kapaciteten, men ikke til en produktionsordre.  

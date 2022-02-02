@@ -1,8 +1,6 @@
 ---
-title: Eksportere Positive Pay-filer | Microsoft Docs
+title: Eksportere Positive Pay-filer
 description: Du kan sikre dig, at din bank kun afregner validerede checks og beløb, ved at eksportere en Positive Pay-fil, der indeholder kreditor- og betalingsoplysninger.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, clearing
+ms.search.form: 1231, 1232, 1233, 1234
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a6cc157a12e4fd44174f585559befade10f8ed02
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ce185da68d8f7bb1ab82138e83015035a19cb056
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444558"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973488"
 ---
 # <a name="export-a-positive-pay-file"></a>Eksportere en Positive Pay-fil
 Du kan sikre dig, at din bank kun afregner validerede checks og beløb, ved at eksportere en Positive Pay-fil, der indeholder relevante betalingsoplysninger, checknummer og betalingsbeløb, som du sender til banken som reference, når du behandler betalinger.

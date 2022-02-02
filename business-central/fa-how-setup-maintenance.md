@@ -1,23 +1,22 @@
 ---
-title: Definere anlægsvedligeholdelse | Microsoft Docs
+title: Konfigurere anlægsvedligeholdelse
 description: For at kunne administrere reparation og service af anlæg skal du angive generelle vedligeholdelsesoplysninger, koder for typen af arbejde og en bogføringskonto for omkostninger.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
+ms.search.form: 5600, 5642
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 515774bca47a7e9877f2ac10a3a4536f29b59834
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1aefc5d0e1453b2f43b9e72f587c0d9f90d07b4e
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440620"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029478"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Definere anlægsreparation
 For at administrere vedligeholdelse af anlæg, skal du først angive nogle generelle reparationsoplysninger, en bogføringskonto for reparationsomkostninger og reparationskoder for forskellige typer arbejde, f.eks rutineeftersyn eller reparation.

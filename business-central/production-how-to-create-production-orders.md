@@ -1,5 +1,5 @@
 ---
-title: Sådan oprettes produktionsordrehoveder | Microsoft Docs
+title: Oprette produktionsordrehoveder
 description: Du kan oprette en produktionsordre manuelt, og det første trin i denne procedure er at oprette et produktionsordrehoved.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,39 +7,42 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9325, 99000815, 99000829, 9900083
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6b13be85c47cc2a280b2cf2e7cf3bf4866633343
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8964bd76b34d4d7599971fbff32a481968442f9c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438598"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973332"
 ---
 # <a name="create-production-order-headers"></a>Oprette produktionsordrehoveder
+
 Du kan oprette en produktionsordre manuelt, og det første trin i denne procedure er at oprette et produktionsordrehoved.
 
-Produktionsordrer oprettes typisk automatisk af en planlægningsfunktion til opfyldning af et kendt behov. Du kan finde flere oplysninger i [Planlægning](production-planning.md).   
+Produktionsordrer oprettes typisk automatisk af en planlægningsfunktion til opfyldning af et kendt behov. Du kan finde flere oplysninger i [Planlægning](production-planning.md).  
 
 I proceduren nedenfor oprettes en fastlagt produktionsordre. Du kan også oprette produktionsordrer med en anden status.  
 
-## <a name="to-create-a-production-order-header"></a>Sådan oprettes et produktionsordrehovede  
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Fastlagt produktionsordrer**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Ny**.  
-3.  I feltet **Nummer** skal du indsætte næste nummer i serien.  
-4.  Marker kilden til produktionsordren i feltet **Kildetype**.
+## <a name="to-create-a-production-order-header"></a>Sådan oprettes et produktionsordrehovede
 
-    Her kan du vælge at oprette til en familie af varer. Du kan finde flere oplysninger i [Arbejde med produktionsfamilier](production-how-work-family.md).
-5.  Marker varenummer, familie eller salgshoved, som produktionsordren genereres for, i feltet **Kildenr.**.  
-6.  Udfyld felterne **Antal** og **Forfaldsdato** i overensstemmelse med dine specifikationer.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Fastlagt produktionsordrer**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Ny**.  
+3. I feltet **Nummer** skal du indsætte næste nummer i serien.  
+4. Marker kilden til produktionsordren i feltet **Kildetype**.
 
-Når du ændrer produktionskravene, f.eks. komponenter og operationer, kan du hurtigt omplanlægge produktionsordren. Du kan finde flere oplysninger i [Omplanlægge eller forny produktionsordrer direkte](production-how-to-replan-refresh-production-orders.md). 
+Her kan du vælge at oprette til en familie af varer. Du kan finde flere oplysninger i [Arbejde med produktionsfamilier](production-how-work-family.md).
+5. Marker varenummer, familie eller salgshoved, som produktionsordren genereres for, i feltet **Kildenr.**.  
+6. Udfyld felterne **Antal** og **Forfaldsdato** i overensstemmelse med dine specifikationer.  
 
-## <a name="see-also"></a>Se også  
-[Produktion](production-manage-manufacturing.md)    
+Når du ændrer produktionskravene, f.eks. komponenter og operationer, kan du hurtigt omplanlægge produktionsordren. Du kan finde flere oplysninger i [Omplanlægge eller forny produktionsordrer direkte](production-how-to-replan-refresh-production-orders.md).  
+
+## <a name="see-also"></a>Se også
+
+[Produktion](production-manage-manufacturing.md)
 [Konfigurere produktion](production-configure-production-processes.md)  
-[Planlægning](production-planning.md)      
+[Skabelon](production-planning.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

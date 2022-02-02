@@ -7,15 +7,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: VAT, sales, purchases,
+ms.search.keywords: VAT, sales, purchases
+ms.search.form: 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5c4efb0be09769770fdaf8ec0e503018119ce081
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: effeb489bbffbc3647f30b371bc0c0a8f7f2e3c4
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439431"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970959"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbejde moms af salg og køb
 Hvis dit land eller område kræver, at du beregner moms af salgs- og købstransaktioner, så du kan indberette beløbene til skattemyndighederne, kan du konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til automatisk at beregne moms på salgs- og købsdokumenter. Du kan finde flere oplysninger i [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md).
@@ -87,8 +88,8 @@ Du skal udføre følgende trin, før du manuelt indtaster moms i en salgs- eller
 2. Gentag trin 1 for siden **Salgsopsætning**.
 3. Når du har fuldført konfigurationen som beskrevet ovenfor, kan du justere værdien i feltet **Momsbeløb** på finanskladdelinjen eller værdien i feltet **Modkontos momsbeløb** på salgs- eller købskladdelinjen. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer, at differencen ikke er større end det angivne maksimum.  
 
-    > [!NOTE]  
-    > Hvis differencen er større, bliver der vist en advarsel med den maksimalt tilladte difference. Hvis du vil fortsætte, skal du justere beløbet. Vælg **OK**, og angiv derefter et beløb, som ligger inden for det tilladte. Hvis momsforskellen er lig med eller lavere end det maksimalt tilladte, viser [!INCLUDE[prod_short](includes/prod_short.md)] differencen i feltet **Momsdifference**.  
+> [!NOTE]  
+> Hvis differencen er større, bliver der vist en advarsel med den maksimalt tilladte difference. Hvis du vil fortsætte, skal du justere beløbet. Vælg **OK**, og angiv derefter et beløb, som ligger inden for det tilladte. Hvis momsforskellen er lig med eller lavere end det maksimalt tilladte, viser [!INCLUDE[prod_short](includes/prod_short.md)] differencen i feltet **Momsdifference**.  
 
 ## <a name="posting-import-vat-with-purchase-invoices"></a>Sådan bogføres importmoms på købsfakturaer
 I stedet for at bruge kladder, når du bogfører en faktura med importmoms, kan du bruge en købsfaktura.  
@@ -120,34 +121,34 @@ Når du sælger varer til en kunde i et andet EU-land/-område, skal du tilsende
 3. Vælg **Leveringscertifikatdetaljer**.  
 4. Som standard, hvis afkrydsningsfeltet **Leveringscertifikat påkrævet** er markeret for opsætningen af momsbogføringsgruppen for kunden, er feltet **Status** indstillet til **Påkrævet**. Du kan opdatere feltet for at angive, om kunden har returneret certifikatet.  
 
-    > [!Note]  
-    >  Hvis opsætningen af momsbogføringsgruppe ikke har afkrydsningsfeltet **Leveringscertifikat påkrævet** markeret, oprettes der en post, og feltet **Status** indstilles til **Ikke tilgængelig**. Du kan opdatere feltet for at afspejle de korrekte statusoplysninger. Du kan manuelt ændre status fra **Ikke tilgængelig** til **Påkrævet** og fra **Påkrævet** til **Ikke tilgængelig** efter behov.  
+> [!Note]  
+>  Hvis opsætningen af momsbogføringsgruppe ikke har afkrydsningsfeltet **Leveringscertifikat påkrævet** markeret, oprettes der en post, og feltet **Status** indstilles til **Ikke tilgængelig**. Du kan opdatere feltet for at afspejle de korrekte statusoplysninger. Du kan manuelt ændre status fra **Ikke tilgængelig** til **Påkrævet** og fra **Påkrævet** til **Ikke tilgængelig** efter behov.  
 
    Når du opdaterer feltet **Status** til **Påkrævet**, **Modtaget** eller **Ikke modtaget**, oprettes der et certifikat.  
 
-    > [!TIP]  
-    >  Du kan bruge siden **Leveringscertifikater** til at få et overblik over status for alle bogførte leverancer, der er blevet oprettet et leveringscertifikat for.  
+> [!TIP]  
+>  Du kan bruge siden **Leveringscertifikater** til at få et overblik over status for alle bogførte leverancer, der er blevet oprettet et leveringscertifikat for.  
 
 5. Vælg **Udskriv leveringscertifikat**.  
 
-    > [!Note]  
-    >  Du kan se eller udskrive dokumentet. Når du vælger **Udskriv leveringscertifikat** og udskriver dokumentet, bliver afkrydsningsfeltet **Udskrevet** automatisk markeret. Desuden, hvis det ikke allerede er angivet, opdateres status for certifikatet til **Påkrævet**. Du kan evt. også medtage det udskrevne certifikat i leverancen.  
+> [!Note]  
+>  Du kan se eller udskrive dokumentet. Når du vælger **Udskriv leveringscertifikat** og udskriver dokumentet, bliver afkrydsningsfeltet **Udskrevet** automatisk markeret. Desuden, hvis det ikke allerede er angivet, opdateres status for certifikatet til **Påkrævet**. Du kan evt. også medtage det udskrevne certifikat i leverancen.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Sådan udskriver du et leveringscertifikat  
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte salgskvitteringer**, og vælg derefter det relaterede link.  
 2. Vælg den relevante salgsleverance til en kunde i et andet EU-land/-område.  
 3. Vælg handlingen **Udskriv leveringscertifikat**.  
 
-    > [!NOTE]  
-    >  Alternativt kan du udskrive et certifikat fra siden **Leveringscertifikat**.  
+> [!NOTE]  
+>  Alternativt kan du udskrive et certifikat fra siden **Leveringscertifikat**.  
 
 4. Markér afkrydsningsfeltet **Udskriv linjedetaljer** for at medtage oplysninger fra linjerne på leverancedokumentet i certifikatet.  
 5. Markér afkrydsningsfeltet **Opret leveringscertifikater, hvis de ikke allerede er oprettet** for at få [!INCLUDE[prod_short](includes/prod_short.md)] til at oprette certifikater til bogførte leverancer, der ikke har ét på tidspunktet for udførelsen. Når du markerer afkrydsningsfeltet, oprettes nye certifikater for alle bogførte leverancer, der ikke har certifikater i det valgte område.  
 6. Som standard er filterindstillingerne for det leverancedokument, du har valgt. Udfyld filtreringsoplysningerne for at vælge et bestemt certifikat for levering, som du vil udskrive.  
 7. På siden **Leveringscertifikat** skal du vælge knappen **Udskriv** for at udskrive rapporten eller vælge handlingen **Vis udskrift** for at se den på skærmen.  
 
-    > [!Note]  
-    > Feltet **Status for leveringscertifikat** og feltet **Udskrevet** opdateres med leveringen på siden **Leveringscertifikater**.  
+> [!Note]  
+> Feltet **Status for leveringscertifikat** og feltet **Udskrevet** opdateres med leveringen på siden **Leveringscertifikater**.  
 
 8. Send det trykte leveringscertifikat til underskrift hos kunden.  
 
@@ -174,11 +175,11 @@ Hvis du vil se en gruppe af certifikater, skal du starte fra siden **Leveringsce
 
    Du kan ændre datoen for at afspejle den dato, hvor du modtog det signerede leveringscertifikat. Du kan også føje et link til det signerede certifikat ved hjælp af almindelig [!INCLUDE[prod_short](includes/prod_short.md)]-dokumentsammenkædning.  
 
-    > [!NOTE]  
-    >  Du kan ikke oprette et nyt leveringscertifikat på siden **Leveringscertifikat**, når du navigerer til det ved hjælp af denne procedure. Hvis du vil oprette et certifikat til en forsendelse, der ikke var sat op til at kræve ét, skal du åbne den bogførte salgsleverance og bruge den ene af de to fremgangsmåder, der er beskrevet ovenfor:  
-    >
-    > * Sådan opretter du manuelt et leveringscertifikat  
-    > * Sådan udskriver du et leveringscertifikat.
+> [!NOTE]
+> Du kan ikke oprette et nyt leveringscertifikat på siden **Leveringscertifikat**, når du navigerer til det ved hjælp af denne procedure. Hvis du vil oprette et certifikat til en forsendelse, der ikke var sat op til at kræve ét, skal du åbne den bogførte salgsleverance og bruge den ene af de to fremgangsmåder, der er beskrevet ovenfor:  
+>
+> * Sådan opretter du manuelt et leveringscertifikat  
+> * Sådan udskriver du et leveringscertifikat.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

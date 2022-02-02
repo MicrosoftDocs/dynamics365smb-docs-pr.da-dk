@@ -8,19 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 5f668104fe6b0bbd9dbbf9295034547e298df916
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 44f7b577855f1df9967fd59bee5148d9ec06d087
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435994"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973728"
 ---
 # <a name="close-accounting-periods"></a>Afslutte regnskabsperioder
+
 Når regnskabsåret er slut, skal du afslutte de perioder, det indeholder.
 
 ## <a name="to-close-accounting-periods"></a>Sådan afsluttes regnskabsperioder
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Regnskabsperioder**, og vælg derefter det relaterede link.
 2. På siden **Regnskabsperioder** skal du vælge handlingen **Afslut år**.
 
@@ -30,7 +33,7 @@ Når regnskabsåret er slut, skal du afslutte de perioder, det indeholder.
 Regnskabsåret er afsluttet, og felterne **Afsluttet** og **Dato låst** markeres for alle perioder i året. Regnskabsåret kan ikke længere åbnes, og du kan ikke fjerne markeringen fra felterne **Afsluttet** og **Dato låst**.
 
 > [!NOTE]  
->   Det er ikke muligt at afslutte et regnskabsår, før et nyt regnskabsår er oprettet. Bemærk, at når et regnskabsår er afsluttet, er det ikke muligt at ændre startdatoen for det efterfølgende regnskabsår.
+> Det er ikke muligt at afslutte et regnskabsår, før et nyt regnskabsår er oprettet. Bemærk, at når et regnskabsår er afsluttet, er det ikke muligt at ændre startdatoen for det efterfølgende regnskabsår.
 
 Selvom et regnskabsår er afsluttet, kan du stadig bogføre finansposter i det. Hvis du gør det, bliver posterne i forbindelse med bogføringen markeret som bogførte i et afsluttet regnskabsår, og afkrydsningsfeltet **Efterpost** markeres.
 

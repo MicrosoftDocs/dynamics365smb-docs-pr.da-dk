@@ -1,7 +1,6 @@
 ---
-title: Import af mange varebilleder fra en zip-fil | Microsoft Docs
+title: Importere mange varebilleder fra en zip-fil
 description: Du kan importere flere varebilleder svarende til dine varenumre ved at komprimere dem til en zip-fil, og benyt siden Importer varebilleder for at styre, hvilke varebilleder, der skal importeres.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
+ms.search.form: 30, 461
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ac8d68d067c03039433d78be475d74efb3fec1fd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 81e628a80fe170789bb174cd393842bdf2db9af5
+ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440520"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7975014"
 ---
 # <a name="import-multiple-item-pictures"></a>Importer flere varebilleder
  Du kan importere flere varebilleder på en gang. Navngiv blot dine billedfiler svarende til dine varenumre, komprimer dem til en zip-fil, og benyt siden Importer varebilleder for at styre, hvilke varebilleder, der skal importeres.

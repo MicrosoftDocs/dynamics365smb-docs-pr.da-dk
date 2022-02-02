@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
+ms.search.form: 1002, 1007,
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 4c4bfd0293ddfa626dda75518219e597b6c4e721
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 444ecd4ea765983d2cd4c7c80962f8d2e66a737e
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439172"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973780"
 ---
 # <a name="invoice-jobs"></a>Fakturere sager
 I løbet af projektet kan der akkumuleres sagsomkostninger fra ressourceforbrug, materialer og sagsrelaterede indkøb. Efterhånden som status for sagen ændrer sig, bogføres disse transaktioner i sagskladden. Det er vigtigt, at alle omkostninger er registreret i sagskladden, før du fakturerer kunden.

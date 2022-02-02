@@ -1,5 +1,5 @@
 ---
-title: Ændre eller annullere ubetalte købsfakturaer (indeholder video) | Microsoft Docs
+title: Ændre eller annullere ubetalte købsfakturaer (indeholder video)
 description: Forklarer, hvordan du retter, annuller eller fortryder en bogført købsfaktura og automatisk opretter en købskreditnota.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
+ms.search.form: 138, 140, 146
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5d82bb88d47d6fd6d85b62e7692a07350b43518a
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 3f4e936b0cdc65efde28fb0833458f4286a7b7eb
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940522"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953470"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Rette eller annullere ubetalte købsfakturaer
 

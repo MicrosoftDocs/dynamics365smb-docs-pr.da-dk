@@ -3,7 +3,7 @@ title: Oversigt over Power BI-integrationskomponent og -arkitektur for Business 
 description: Flere oplysninger om forskellige aspekter ved Power BI-integration med Business central.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: get-started-article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b1328b618761a33d3dc0856c7623bd986008d283
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9ce0b5232a0629bb6248eaaaade69b7c7ebceb02
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437437"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012337"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Oversigt over Power BI-integrationskomponent og -arkitektur for [!INCLUDE[prod_short](includes/prod_short.md)]
 

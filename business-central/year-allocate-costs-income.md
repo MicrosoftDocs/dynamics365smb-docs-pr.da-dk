@@ -1,24 +1,24 @@
 ---
-title: Oversigt over opgaver til allokering af omkostninger og indtægter | Microsoft Docs
+title: Oversigt over opgaver til fordeling af omkostninger og indtægter
 description: Beskriver de opgaver, du skal udføre for at allokere en post i en finanskladde til flere forskellige konti, når du bogfører kladden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 283
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3f7b6089a3cdcba323d13a745ae2cb8e06f3bb8a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a2b421d7cb6819656988e86296bd8fede95f1454
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439766"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012705"
 ---
 # <a name="allocate-costs-and-income"></a>Fordele omkostninger og indtægter
+
 Du kan allokere en post i en finanskladde til flere forskellige konti, når du bogfører kladden. Allokeringen kan foretages på tre forskellige måder:
 
 * Antal
@@ -31,7 +31,9 @@ Allokeringsfunktionen kan bruges sammen med finansgentagelseskladder og i anlæg
 I følgende procedurer beskrives, hvordan du forbereder at allokere omkostninger i en finansgentagelseskladde ved at definere fordelingsnøgler. Når der er defineret fordelingsnøgler, skal du udfylde og bogføre kladden ligesom alle andre finansgentagelseskladder. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).
 
 ## <a name="to-set-up-allocation-keys"></a>Sådan konfigureres fordelingsnøgler
-Du kan allokere en post i en finansgentagelseskladde til flere forskellige konti, når du bogfører kladden. Allokeringen kan foretages efter antal, procent eller beløb.
+
+Du kan allokere en post i en finansgentagelseskladde til flere forskellige konti, når du bogfører kladden. Allokeringen kan foretages efter antal, procent eller beløb.  
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
 2. Vælg feltet **Kladdenavn** for at åbne siden **Finanskladdenavne**.
 3. Du kan ændre fordelinger for et eksisterende navn på listen eller oprette et nyt navn med fordelinger.

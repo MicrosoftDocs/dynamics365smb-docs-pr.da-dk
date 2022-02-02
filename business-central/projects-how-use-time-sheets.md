@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.search.form: 973
+ms.search.form: 950, 951, 973
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: a5fdd86d63fa19a0a7f473d58abf34242e4e5cd5
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: bd163b5e8c4d96a28a1dd557d53b04dafe6829fd
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920899"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973121"
 ---
 # <a name="use-time-sheets"></a>Bruge timesedler
 
@@ -36,7 +36,7 @@ Før du kan bruge timesedler, skal du angive generelle oplysninger og angive en 
 Du kan bruge kørslen **Opret timesedler** til at oprette timesedler for et angivet antal tidsperioder eller uger. Derefter kan timesedlens ejer åbne den og registrere tid, der har været brugt på en opgave.  
 
 > [!IMPORTANT]
-> Du skal have tilladelser for at kunne oprette timesedler.
+> Du skal have tilladelser for at kunne oprette timesedler. Der er flere oplysninger i [Konfigurere timesedler](projects-how-setup-time-sheets.md).
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Timesedler**, og vælg derefter det relaterede link.
 2. På siden **Timesedler** skal du vælge handlingen **Opret timesedler**.

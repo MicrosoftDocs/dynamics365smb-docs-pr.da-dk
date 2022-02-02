@@ -1,8 +1,6 @@
 ---
-title: Metoder for igangværende arbejde til beregning og registrering af sagsstatus | Microsoft Docs
+title: Metoder for igangværende arbejde til beregning og registrering af sagsstatus
 description: Beskriver de forskellige metoder for igangværende arbejde, du kan bruge til at bogføre, overvåge og beregne finansielle oplysninger for igangværende arbejdssager.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
+ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f27d0629c475d52cb8f99bb13dd4021d96f3df68
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d7fbe8faa3fc4d75f068ad585faddeb1b5186e70
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780278"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970881"
 ---
-# <a name="understanding-wip-methods"></a>Forstå VIA -metoder
+# <a name="understanding-wip-methods-in-project-management"></a>Forstå via-metoder i projektstyring
+
 Efterhånden som status for en sag ændrer sig, forbruges der materialer, ressourcer og andre udgifter, og disse skal bogføres i sagen. Igangværende arbejde er en funktion, som giver dig mulighed for at estimere den økonomiske værdi af sager i finansregnskabet under udførelsen af sagen. Du kan i mange tilfælde bogføre udgifterne for en sag, før sagen faktureres. Hvis der kun er bogført udgifter, vil din regnskabsopgørelse ikke være helt korrekt.
 
 Du kan beregne VIA og bogføre værdien i finansregnskabet for at spore værdien i finansregnskabet. Du kan finde flere oplysninger i [Overvåge jobstatus og -udførelse](projects-how-monitor-progress-performance.md).
@@ -35,10 +35,11 @@ Du kan beregne VIA og bogføre værdien i finansregnskabet for at spore værdien
 | Afsluttet kontrakt |VIA-beløb = VIA-kostbeløb = Forbrug (kostbeløb)<br /><br /> Igangværende arbejde - salgsbeløb = Fakturerbar (faktureret salg) |Afsluttet kontrakt realiserer ikke indtægter og omkostninger, før sagen er afsluttet. Du kan vælge denne metode, hvis der er stor tvivl omkring de anslåede kostbeløb og sagens omsætning.<br /><br /> Alt forbrug bogføres til kontoen til VIA-omkostninger (aktiv), og alt faktureret salg bogføres til kontoen til faktureret VIA-salg (kreditorkonto), indtil sagen er afsluttet. |
 
 ## <a name="see-also"></a>Se også
+
 [Projektstyring](projects-manage-projects.md)  
 [Finans](finance.md)  
-[Køb](purchasing-manage-purchasing.md)         
-[Salg](sales-manage-sales.md)      
+[Køb](purchasing-manage-purchasing.md)  
+[Salg](sales-manage-sales.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

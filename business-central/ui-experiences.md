@@ -1,7 +1,6 @@
 ---
-title: Vælge brugeroplevelsen for at vise eller skjule avancerede funktioner | Microsoft Docs
+title: Ændre, hvilke funktioner der vises
 description: Få mere at vide, hvad niveauerne Essential og Premium i brugeroplevelserne hver især betyder for brugergrænsefladen, funktionalitetsområderne og dit firma.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: essential, basic, user interface, application area, experience
+ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d56c8d6be69e12ced2dc83b884650360e95c0ab2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b7b27d39997e0adccc6b27ec91386741620d27b8
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443614"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029110"
 ---
 # <a name="change-which-features-are-displayed"></a>Ændre, hvilke funktioner der vises
 [!INCLUDE[prod_short](includes/prod_short.md)] er designet til at hjælpe dig med at køre din virksomhed uanset størrelse og kompleksitet. I kernen af produktet finder du væsentlige funktioner som f.eks. finansiel rapportering, salg, køb og lagerstyring. I takt med at kompleksiteten øges, kan du f.eks. aktivere funktionen til produktions- og servicestyring.
@@ -40,7 +40,7 @@ Før du angiver en indstilling for en virksomheds oplevelse, skal du angive brug
 Indstillingen **Oplevelse** gælder for alle brugere i en virksomhed, men de enkelte brugere kan tilpasse deres egne oplevelser yderligere ved at ændre sidelayout og indhold. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
 ## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Aktivere Premium-funktioner, når du har opgraderet en plan
-Brugere tildeles planer i Microsoft 365 Administration i forbindelse med generelt arbejde for at oprette Business Central-brugere. Du kan finde flere oplysninger i [Tilføje brugere og tildele licenser på samme tid](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
+Brugere tildeles til planer i Microsoft 365 Administration i forbindelse med generelt arbejde for at oprette Business Central-brugere. Du kan finde flere oplysninger i [Tilføje brugere og tildele licenser på samme tid](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
 ### <a name="to-update-plan-changes-in-users-groups"></a>Sådan opdateres planændringer i brugergrupper
 Når du har ændret brugerplaner i Microsoft 365 Administration, f.eks. tildelt flere brugere til Premium-planen, skal du afspejle ændringen i [!INCLUDE[prod_short](includes/prod_short.md)].
