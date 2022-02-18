@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 09990c620dbd6bd3e1cd00af594426851a4c1546
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: a44777bce30cf4ab4cb07b5b1a05f36d8cbb87f7
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865359"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049792"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synkronisering af data i Business Central med Microsoft Dataverse
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Når du integrerer [!INCLUDE[prod_short](includes/cds_long_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)], bliver du bedt om at synkronisere dataene i bestemte felter i [!INCLUDE[prod_short](includes/prod_short.md)]-records (f.eks. kunder, kontakter og sælgere) med tilsvarende rækker i [!INCLUDE[prod_short](includes/cds_long_md.md)] (f.eks. konti, kontakter og brugere). Afhængigt af række-typen kan du synkronisere data fra [!INCLUDE[prod_short](includes/cds_long_md.md)] til [!INCLUDE[prod_short](includes/prod_short.md)], eller omvendt. Du kan finde flere oplysninger i [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 

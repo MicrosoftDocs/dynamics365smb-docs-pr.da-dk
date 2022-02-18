@@ -8,12 +8,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 0e9fd6f09e428b067b240efd150166c32577ca92
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 9d9decead1e6207915fd3a162cadae0354f0f257
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970383"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100895"
 ---
 # <a name="set-up-prepayments"></a>Oprette forudbetalinger
 
@@ -27,7 +27,9 @@ Du kan definere den procentdel af linjebeløbet, der skal faktureres for forudbe
 > Det anbefales, at du ikke bruger en forudbetalingsprocent på 100 % i følgende tilfælde:
 >
 > * Hvis du befinder dig i Nordamerika. Grundet beregningsmåden for moms kan en forudbetalingsprocent på 100 % medføre problemer med forudbetalingsfakturaer.
-> * I alle områder hvis du manuelt fratrækker en kontantrabat fra fakturaen. Vil en forudbetalingsprocent på 100 % ikke automatisk efterlade et beløb, hvorfra rabatten skal fratrækkes. 
+> * I alle områder hvis du manuelt fratrækker en kontantrabat fra fakturaen. Vil en forudbetalingsprocent på 100 % ikke automatisk efterlade et beløb, hvorfra rabatten skal fratrækkes.
+>
+> Når du bruger en forudbetaling på 100 %, er [!INCLUDE[prod_short](includes/prod_short.md)] det måske nødvendigt at oprette afrundingsposter. Når det sker, skal du vælge en finanskonto i feltet **Fakturaafrundingskonto** på siden **Debitorbogføringsgrupper**. Dette gælder også, hvis du ikke har aktiveret til/fra-feltet **Fakturaafrunding** på siden **Salgsopsætning**. Hvis du ikke angiver en konto, kan du ikke bogføre forudbetalingsfakturaer. 
 
 Eftersom det forudbetalte beløb tilhører køberen, indtil han har modtaget varerne eller tjenesteydelsen, er du nødt til at oprette finanskonti, som forudbetalte beløb kan indsættes på, indtil den endelige faktura bogføres. Salgsforudbetalinger skal registreres på en passivkonto, indtil varerne leveres. Købsforudbetalinger skal registreres på en aktivkonto, indtil varerne modtages. Du skal også oprette en separat finanskonto til hvert moms-id.  
 

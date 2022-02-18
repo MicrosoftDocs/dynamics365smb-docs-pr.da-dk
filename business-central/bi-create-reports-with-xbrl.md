@@ -12,14 +12,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f204c769a7a1fc8ddf3c6fd97fe485be8940dc43
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 29dd05db3d38d04fab38eaccea796bdffaca6dcc
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437122"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101317"
 ---
 # <a name="create-reports-with-xbrl"></a>Oprette rapporter med XBRL
+
+> [!NOTE]
+> Du er i gang med at fjerne funktionerne til XBRL-rapportering fra [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Ændringer i 2022 udgivelsesbølge 1](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
+
 XBRL, som står for eXtensible Business Reporting Language, er et XML-baseret sprog til kodning af finansielle data, der gør det muligt for firmaer at behandle og dele deres data effektivt og præcist. Talrige ERP-softwarevirksomheder og internationale revisionsfirmaer kan bruge XBRL-initiativerne til global finansiel rapportering. Det globale initiativ er at levere en standard for ensartet rapportering af finansielle oplysninger til banker, investorer og statslige myndigheder. Sådan virksomhedsrapportering kan omfatte:  
 
  • Regnskabsopgørelser  

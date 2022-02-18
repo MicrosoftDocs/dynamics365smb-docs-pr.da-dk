@@ -1,5 +1,5 @@
 ---
-title: Holde et rapportlayout opdateret
+title: Opdater brugerdefinerede rapportlayouts
 description: Få mere at vide om, hvordan du opdaterer et brugerdefineret rapportlayout, der er brugt i en rapport, når der f. eks. er ændringer i rapportens datasæt.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,17 +7,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 99b0f191bf9890683bb6cbb68f7baef0342f9737
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3d3aabe01a9969e8665f24479d8b11b26b54d5b
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445272"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101473"
 ---
 # <a name="update-custom-report-layouts"></a>Opdater brugerdefinerede rapportlayouts
+
 Nogle gange skal du opdatere et brugerdefineret rapportlayout, der bruges i en rapport. Dette er påkrævet, når der er sket en designændring af rapportens datasæt, eksempelvis et felt, der bruges i layoutet, er blevet fjernet fra datasættet i rapporten. Hvis et rapportlayout kræver opdatering, får du en fejlmeddelelse, når du forsøger at se, udskrive eller gemme rapporten.  
 
 Du kan automatisk opdatere et rapportlayout fra den fejlmeddelelse, der vises, når du kører rapporten, ved at vælge knappen **Ja** på fejlmeddelelsen. Eller før du kører rapporter, kan du opdatere specifikke rapportlayout eller alle tilpassede rapportlayout, der kunne blive påvirket af datasætændringer.  

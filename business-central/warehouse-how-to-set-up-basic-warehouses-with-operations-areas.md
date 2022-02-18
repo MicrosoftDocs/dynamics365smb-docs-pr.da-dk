@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 35482dca465da05be01c4eed86e93d30a75e6dcf
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6dbf91bcf720a3b57f7e6e9446b0a46d1e053987
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441393"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115194"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Oprette grundlæggende lagersteder med handlingsområder
 Hvis der findes interne operationsområder, såsom produktion eller montage i grundlæggende lageropsætninger, hvor lokationer bruger opsætningsfeltet **Tvungen placering** og muligvis opsætningsfelterne **Kræv pluk** og **Kræv læg-på-lager**, kan du derefter bruge følgende grundlæggende lagerdokumenter til at registrere dine lageraktiviteter for interne operationsområder:  
@@ -46,14 +47,15 @@ Følgende procedurer er baseret på oprettelse af grundlæggende lageraktivitete
 3.  Markér afkrydsningsfeltet **Kræv læg-på-lager** i oversigtspanelet **Lagersted** for at angive, at når der frigives et indgående eller internt kildedokument med en placeringskode, så kan der oprettes et læg-på-lager-dokument eller et flytning (lager)-dokument.  
 4.  Markér afkrydsningsfeltet **Kræv pluk** for at angive, at når der oprettes et udgående eller internt kildedokument med en placeringskode, så skal der oprettes et lagerplukdokument eller et flytning (lager)-dokument.  
 
-## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Definere en standardplaceringsstruktur i produktionsområdet  
+## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Definere en standardplaceringsstruktur i produktionsområdet
+
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.
 2. Åbn det lokationskort, du vil konfigurere.  
 3.  Indtast i feltet **Åben prod.placeringskode** i oversigtspanelet **Placeringer** koden for placeringen i produktionsområdet med masser af komponenter, som maskinoperatøren kan forbruge fra uden at anmode om en lageraktivitet for at bringe dem til placeringen. Varer, der er placeret på denne placering, er normalt angivet til automatisk bogføring eller træk. Dette betyder, at feltet **Trækmetode** indeholder **Forlæns** eller **Baglæns**.  
 4. I feltet **Til-produktionsplaceringskode** skal du indtaste koden for den placering i produktionsområdet, hvor de komponenter, der kan plukkes til produktion på lokationen placeres som standard, før de kan forbruges. Varer, der er placeret på denne placering, er normalt angivet til manuel forbrugsbogføring. Dette betyder, at feltet **Trækmetode** indeholder **Manuelt** eller **Pluk + Forlæns** eller **Pluk + Baglæns** for lagerpluk og flytninger (lager).  
 
     > [!NOTE]  
-    >  Når du bruger pluk fra lager definerer feltet **Placeringskode** på en produktionsordrekomponentlinje den *hente*-placering, som komponenter tages fra, når forbruget posteres. Når du bruger lagerbevægelser, definerer feltet **Placeringskode** på produktionsordrekomponentlinjerne den *område*-placering i handlingsområdet, hvor lagermedarbejderen skal placere komponenterne.  
+    > Når du bruger pluk fra lager definerer feltet **Placeringskode** på en produktionsordrekomponentlinje den *hente*-placering, som komponenter tages fra, når forbruget posteres. Når du bruger lagerbevægelser, definerer feltet **Placeringskode** på produktionsordrekomponentlinjerne den *område*-placering i handlingsområdet, hvor lagermedarbejderen skal placere komponenterne.  
 
 5. Indtast i feltet **Kode for placering til færdigproducerede varer** i oversigtspanelet **Placeringer** koden på den placering i produktionsområde, hvor færdigproducerede tages fra som standard, når processen involverer en lageraktivitet. I grundlæggende lageropsætninger registreres aktiviteten som en læg-på-lager-aktivitet eller en flytning (lager).  
 
@@ -61,7 +63,7 @@ Nu kræver produktionsordrekomponentlinjerne med standardplaceringskoden, at kom
 
 Dette flow-diagram viser, hvordan feltet **Placeringskode** i produktionsordrekomponenter udfyldes i henhold til din konfiguration.  
 
-![Placeringsrutediagram.](media/binflow.png "BinFlow")    
+![Placeringsrutediagram.](media/binflow.png "BinFlow")
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Definere en standardplaceringsstruktur i montageområdet
 Komponenter til montageordrer kan ikke plukkes eller bogføres med pluk. Brug i stedet siden **Flytning (lager)**. Du kan finde flere oplysninger i [Flytte komponenter til et handlingsområde i basislogistik](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
@@ -136,8 +138,8 @@ Hvis du gør en placering dedikeret, giver den samme funktion som brug af placer
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
-[Montagestyring](assembly-assemble-items.md)    
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
+[Montagestyring](assembly-assemble-items.md)  
 [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

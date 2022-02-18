@@ -1,5 +1,5 @@
 ---
-title: Importere og eksportere et rapport- og dokumentlayout | Microsoft Docs
+title: Importere og eksportere et rapport- og dokumentlayout
 description: Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som en fil til og fra en placering på din computer og netværket.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 69bf376d2e7e165f80d75f706a4684cdf047935c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cb929e1e18d6e0711fd23ae12255220fdae1080d
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441064"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101343"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importere og eksportere brugerdefinerede rapportlayouts
 Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som en fil til og fra en placering på din computer og netværket. For eksempel kan du eksportere et rapportlayout og derefter sende filen til en anden person for redigering. Denne person kan derefter foretage ændringer af layoutet og returnere filen til dig, så du kan importere det tilbage.  
@@ -51,10 +51,11 @@ Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også  
- [Oprette og ændre et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md)   
- [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  
- [Arbejde med rapporter, kørsler og XMLporte](ui-work-report.md)    
+## <a name="see-also"></a>Se også
+
+[Oprette og ændre et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md)   
+[Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  
+[Arbejde med rapporter, kørsler og XMLporte](ui-work-report.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

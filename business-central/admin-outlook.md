@@ -11,12 +11,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: 7d248158b7efa5960bbaeaf4b99f3ef8655b627c
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 7fa8eabcffeb19b77c98ed9f9b7036dff6cbbf35
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012363"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049585"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Få Business Central-tilføjelsesprogram til Outlook
 
@@ -78,7 +78,7 @@ Centraliseret installation er en funktion i Microsoft 365 Administration, som du
 
 8. Vælg **Overfør brugerdefinerede apps**.
 9. På siden **Overfør apps til installation** vælge **Overfør manifest-fil (.xml) fra enhed** > **Vælg fil**.
-10. Vælg en af de tilføjelsesfiler, du har trukket tidligere, f. eks **Content Insights.xml**.
+10. Vælg en af de tilføjelsesfiler, du har trukket tidligere, f. eks **Contact Insights.xml**.
 11. Følg instruktionerne for at tildele brugere og installere tilføjelsesprogrammet.
 12. Gentag trin 9 til 11 for den anden tilføjelsesprogramfil, hvis du vil.
 

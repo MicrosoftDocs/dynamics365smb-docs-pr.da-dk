@@ -1,7 +1,6 @@
 ---
 title: Oprette nye værdiposter for varer i lagerbeholdningen | Microsoft Docs
 description: Beskriver, hvordan værdiposterne for en eller flere varer på lageret kan op- eller nedskrives ved at bogføre deres aktuelle, beregnede værdi.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing, inventory cost, value entries
+ms.search.forms: 5803,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 01710b23c56634b91b86f3f1c6e6c87415a787c6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b07aba72be831dd68eea3475f3ee591a7c319051
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435593"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059592"
 ---
 # <a name="revalue-inventory"></a>Regulere lagerbeholdning
 Hvis du vil op- eller nedskrive en vare eller en bestemt varepost, skal du bruge reguleringskladden.

@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 44729a82d50a925d9ad904f8035dd49daee24262
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: c7225981e11a8968c8fd698cda2373be133cea9e
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588697"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049714"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Tilknytning af tabeller og felter til synkronisering
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Grundlaget for synkronisering af data er tilknytning af tabeller og felter i [!INCLUDE[prod_short](includes/prod_short.md)] med data og kolonner i [!INCLUDE[prod_short](includes/cds_long_md.md)], så de kan udveksle data. Tilknytningen sker via integrationstabeller. 
 

@@ -1,5 +1,5 @@
 ---
-title: Sådan oprettes lagervarer | Microsoft Docs
+title: Sådan konfigureres lagervarer
 description: Du kan bruge lagervarer til at registrere oplysninger om dine varer på en bestemt lokation eller med en bestemt variantkode.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,19 +8,20 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 5704, 5700, 5702, 5701
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6a59bf05139f4b073470092aa136018d9f3d988e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1a7314d228eef2ff45c7aaf4e3784290f9b17113
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445647"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059408"
 ---
 # <a name="set-up-stockkeeping-units"></a>Opsætte lagervarer
-Du kan bruge lagervarer til at registrere oplysninger om dine varer på en bestemt lokation eller med en bestemt variantkode.  
+Du kan bruge lagervarer til at registrere oplysninger om varer på en bestemt lokation eller med en variantkode.  
 
- Lagervarer er et supplement til varekortene. De erstatter dem ikke, selvom de er relateret til dem. Med lagervarer kan du udskille oplysningerne om den samme vare, så de kun vedrører en bestemt lokation, f.eks. et lager eller distributionscenter, eller en bestemt variant, f.eks. forskellige hyldenumre og forskellige genbestillingsdata.  
+Lagervarer er et supplement til varekortene. De erstatter dem ikke, selvom de er relateret til dem. Med lagervarer kan du udskille oplysningerne om den samme vare, så de kun vedrører en bestemt lokation, f.eks. et lager eller distributionscenter, eller en bestemt variant, f.eks. forskellige hyldenumre og forskellige genbestillingsdata.  
 
 ## <a name="to-set-up-a-stockkeeping-unit"></a>Sådan opsættes en lagervare  
 

@@ -4,22 +4,21 @@ description: Oprette forbindelse mellem Business Central og Dataverse. Virksomhe
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 7200, 7201
 ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: b3ee8bb3bee08c131447233de7b691d2bb2e46bd
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: bbe27c46562fa7550619283cb85cd1d7dcc76a3c
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940472"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059540"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Opret forbindelse til Microsoft Dataverse
 
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Dette emne beskriver, hvordan du konfigurerer en forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Virksomheder opretter typisk forbindelsen for at integrere og synkronisere data med en anden Dynamics 365-forretningsapp såsom [!INCLUDE[crm_md](includes/crm_md.md)].  
 
@@ -41,7 +40,7 @@ Der er et par oplysninger, som du skal have klar, før du opretter forbindelsen:
 
 ## <a name="set-up-a-connection-to-cds_long_md"></a>Oprette forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-For alle andre godkendelsestyper end Microsoft 365-godkendelse kan du konfigurere din forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på siden **Dataverse-forbindelsesopsætning**. For Microsoft 365-godkendelse anbefaler vi, at du bruger den assisterede opsætningsvejledning **Dataverse-forbindelsesopsætning**. Denne vejledning gør det nemmere at oprette forbindelsen og angive avancerede funktioner, f.eks. ejerskabsmodel og indledende synkronisering.  
+For alle andre godkendelsestyper end Microsoft 365-godkendelse kan du konfigurere forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på siden **Konfiguration af Dataverse-forbindelse**. For Microsoft 365-godkendelse anbefaler vi, at du bruger vejledningen **Opsætning af Dataverse-forbindelse** med assisteret opsætning. Denne vejledning gør det nemmere at oprette forbindelsen og angive avancerede funktioner, f.eks. ejerskabsmodel og indledende synkronisering.  
 
 > [!IMPORTANT]
 > Under konfigurationen af forbindelsen til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] bliver administratoren bedt om at give følgende tilladelser til det registrerede Azure-program, der hedder [!INCLUDE[prod_short](includes/prod_short.md)]-integration med [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:

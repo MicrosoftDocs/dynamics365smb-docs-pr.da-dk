@@ -1,8 +1,6 @@
 ---
-title: Afstemme bankkonti og udligne betalinger | Microsoft Docs
+title: Afstemme bankkonti og udligne betalinger
 description: Beskriver opgaver, du kan bruge til at afstemme bankkonti, tilgodehavender og skyldige beløb, bogføre indbetalinger eller udgifter og udligne betalinger automatisk.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
+ms.search.form: 1290, 1291, 1293, 1294
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6b1009c028bab2204c359e09a69472ecd3ecbf42
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 12da473253ff3c494ec2c63e4fbfc32aedd5d1f9
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5781809"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101213"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Udligne betalinger automatisk og afstemme bankkonti
 Rutinemæssigt skal du afstemme dine bank-, debet- og kreditkonti ved at udligne betalinger, der er registreret på din bankkonto, til deres relaterede åbne (ubetalte) fakturaer og kreditnotaer eller andre åbne poster i [!INCLUDE[prod_short](includes/prod_short.md)].  

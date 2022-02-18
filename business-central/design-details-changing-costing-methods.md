@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
+ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
-ms.openlocfilehash: f8bb3bc0966e25e99213217501a5337f9440abfc
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 732bbc50f46573484682104e3beb71fbce1f5894
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215424"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115472"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Designdetaljer: ændre kostmetoden for varer
 
@@ -78,18 +79,18 @@ Hvis du vil gøre de nye elementer fuldt anvendelige, skal du manuelt kopiere no
 
 |Område  |Hvad der skal kopieres  |Sådan kopieres det  |
 |---------|---------|---------|
-|Lager     |Lagervarer         |Kontrollér, om der er angivet en lagervare for den oprindelige vare. Hvis der er angivet planlægningsparametre for hvert lagervarekort, skal du manuelt oprette lagervaren for den nye vare. Hvis der ikke er angivet parametre, kan du bruge kørslen **Opret lagervare** fra siden **Varekort** til at oprette dataene.        |
-|     |Erstatningsvarer         |Kontrollér, om der er defineret erstatningsvarer for den oprindelige vare. Hvis der er det, skal du overføre dataene til den nye vare. Hvis du vil se erstatningsvarer, skal du bruge handlingen **Erstatninger** på siden **Varekort**.         |
-|     |Analyserapporter         |Gennemgå vareanalyse-, salgsanalyse- og købsanalyserapporterne. For dem, der refererer til de oprindelige varer, kan du enten oprette en ny analyserapport med en reference til den nye vare (så den oprindelige analyserapport bruges som historik) eller justere rapporterne, så de henviser til den nye vare.         |
-|     |Standardkladder         |Kontrollér, om standardkladder refererer til den oprindelige vare, og overfør dataene til den nye vare, når det er nødvendigt. Disse oplysninger findes i standardkladderne, som er tilgængelige i varekladden.          |
-|Salg     |Forudbetalingsprocenter - salg         | Kontrollér, om der er defineret forudbetalingsprocenter for salg af den oprindelige vare, og overfør dataene til den nye vare. Hvis du vil have vist forudbetalingsprocenter, skal du vælge **Salg** på siden **Varekort** og derefter **Forudbetalingsprocenter**.        |
-|Køb     |Forudbetalingsprocenter - køb         |Kontrollér, om der er defineret forudbetalingsprocenter for køb af den oprindelige vare, og overfør dataene til den nye vare. Hvis du vil have vist forudbetalingsprocenter, skal du vælge **Køb** på siden **Varekort** og derefter **Forudbetalingsprocenter**.                 |
-|Lageragersted     |Placeringsindhold         |Gennemgå det placeringsindhold, der er defineret for den oprindelige vare. Hvis der er kolonner som Min. Antal, Maks. Antal, Standard og Dedikeret, der er blevet angivet individuelt, skal du manuelt oprette placeringsindhold til den nye vare. Hvis ikke, kræves der ingen handling. [!INCLUDE[prod_short](includes/prod_short.md)] vedligeholder posterne, når du registrerer lagerdokumenter og kladder.|
-|Sag     |Sagspriser         |Kontrollér, om der er defineret sagspriser for den oprindelige vare, og overfør dataene til den nye vare. Disse oplysninger er tilgængelige på siden **Jobkort** i delen **Sagsdetaljer - antal priser** i **faktaboksruden**.         |
-|Tjeneste     |Ressourcekvalifikation for service         |Kontrollér, om der er defineret ressourcekvalifikationer for service for den oprindelige vare, og overfør dataene til den nye vare. Hvis du vil have vist ressourcekvalifikationer, skal du bruge handlingen **Ressourcekvalifikationer** på siden **Varekort**.          |
-|     |Serviceartikelkomponenter         |Kontrollér, om der er defineret komponenter for den oprindelige service, og overfør dataene til den nye vare. Hvis du vil have vist serviceartikelkomponenter, skal du bruge **Serviceartikel**-handlingen på siden **Varekort** til at åbne listen over relaterede serviceartikler og derefter vælge handlingen **Komponenter**.          |
-|Produktion     |Produktionsstyklister         |Kontrollér, om produktionsstyklister indeholder den oprindelige vare, og erstat den med den nye vare. Hvis du vil erstatte den oprindelige vare, skal du vælge handlingen **Erstat prod.styklistevare** på siden **Produktionsstyklister**.         |
-|Montage     |Montagestyklister         |Kontrollér, om montagestyklister indeholder den oprindelige vare, og erstat den manuelt med den nye vare.         |
+|Lager |Lagervarer |Kontrollér, om der er angivet en lagervare for den oprindelige vare. Hvis der er angivet planlægningsparametre for hvert lagervarekort, skal du manuelt oprette lagervaren for den nye vare. Hvis der ikke er angivet parametre, kan du bruge kørslen **Opret lagervare** fra siden **Varekort** til at oprette dataene.|
+| |Erstatningsvarer |Kontrollér, om der er defineret erstatningsvarer for den oprindelige vare. Hvis der er det, skal du overføre dataene til den nye vare. Hvis du vil se erstatningsvarer, skal du bruge handlingen **Erstatninger** på siden **Varekort**. |
+| |Analyserapporter |Gennemgå vareanalyse-, salgsanalyse- og købsanalyserapporterne. For dem, der refererer til de oprindelige varer, kan du enten oprette en ny analyserapport med en reference til den nye vare (så den oprindelige analyserapport bruges som historik) eller justere rapporterne, så de henviser til den nye vare. |
+| |Standardkladder |Kontrollér, om standardkladder refererer til den oprindelige vare, og overfør dataene til den nye vare, når det er nødvendigt. Disse oplysninger findes i standardkladderne, som er tilgængelige i varekladden.  |
+|Salg |Forudbetalingsprocenter - salg | Kontrollér, om der er defineret forudbetalingsprocenter for salg af den oprindelige vare, og overfør dataene til den nye vare. Hvis du vil have vist forudbetalingsprocenter, skal du vælge **Salg** på siden **Varekort** og derefter **Forudbetalingsprocenter**.|
+|Køb |Forudbetalingsprocenter - køb |Kontrollér, om der er defineret forudbetalingsprocenter for køb af den oprindelige vare, og overfør dataene til den nye vare. Hvis du vil have vist forudbetalingsprocenter, skal du vælge **Køb** på siden **Varekort** og derefter **Forudbetalingsprocenter**. |
+|Lageragersted |Placeringsindhold |Gennemgå det placeringsindhold, der er defineret for den oprindelige vare. Hvis der er kolonner som Min. Antal, Maks. Antal, Standard og Dedikeret, der er blevet angivet individuelt, skal du manuelt oprette placeringsindhold til den nye vare. Hvis ikke, kræves der ingen handling. [!INCLUDE[prod_short](includes/prod_short.md)] vedligeholder posterne, når du registrerer lagerdokumenter og kladder.|
+|Sag |Sagspriser |Kontrollér, om der er defineret sagspriser for den oprindelige vare, og overfør dataene til den nye vare. Disse oplysninger er tilgængelige på siden **Jobkort** i delen **Sagsdetaljer - antal priser** i **faktaboksruden**. |
+|Tjeneste |Ressourcekvalifikation for service |Kontrollér, om der er defineret ressourcekvalifikationer for service for den oprindelige vare, og overfør dataene til den nye vare. Hvis du vil have vist ressourcekvalifikationer, skal du bruge handlingen **Ressourcekvalifikationer** på siden **Varekort**.  |
+| |Serviceartikelkomponenter |Kontrollér, om der er defineret komponenter for den oprindelige service, og overfør dataene til den nye vare. Hvis du vil have vist serviceartikelkomponenter, skal du bruge **Serviceartikel**-handlingen på siden **Varekort** til at åbne listen over relaterede serviceartikler og derefter vælge handlingen **Komponenter**.  |
+|Produktion |Produktionsstyklister |Kontrollér, om produktionsstyklister indeholder den oprindelige vare, og erstat den med den nye vare. Hvis du vil erstatte den oprindelige vare, skal du vælge handlingen **Erstat prod.styklistevare** på siden **Produktionsstyklister**. |
+|Montage |Montagestyklister |Kontrollér, om montagestyklister indeholder den oprindelige vare, og erstat den manuelt med den nye vare. |
 
 > [!IMPORTANT]
 > Hvis den nye kostmetode er Standard, skal du angive en værdi i feltet **Standardkostpris** på siden **Varekort**. Du kan bruge siden **Standardkostpriskladde** til at angive kostprisfordelingen i overensstemmelse hermed. Du kan finde flere oplysninger i [Opdatere standardkostpriser](finance-how-to-update-standard-costs.md).
@@ -116,23 +117,23 @@ Når du opretter montageordrer, skal du bruge oplysningerne fra Lageropgørelses
 
 |Felt  |Værdi, der skal indsættes  |
 |---------|---------|
-|Varenr.     |Nummeret på den nye vare.         |
-|Antal     |Antallet i lageropgørelseskladden.<br> **Bemærk:** De antal, der er beregnet af lageropgørelseskladderne, inkluderer ikke de antal, der er angivet i ordrer, der endnu ikke er leveret.          |
-|Variantkode     |Det samme som i lageropgørelseskladden.          |
-|Lokationskode     |Det samme som i lageropgørelseskladden.         |
-|Enhedskode     |Det samme som i lageropgørelseskladden.         |
-|Placeringskode     |Det samme som i lageropgørelseskladden.         |
+|Varenr. |Nummeret på den nye vare. |
+|Antal |Antallet i lageropgørelseskladden.<br> **Bemærk:** De antal, der er beregnet af lageropgørelseskladderne, inkluderer ikke de antal, der er angivet i ordrer, der endnu ikke er leveret.  |
+|Variantkode |Det samme som i lageropgørelseskladden.  |
+|Lokationskode |Det samme som i lageropgørelseskladden. |
+|Enhedskode |Det samme som i lageropgørelseskladden. |
+|Placeringskode |Det samme som i lageropgørelseskladden. |
 
 #### <a name="lines"></a>Linjer
 
 |Felt  |Værdi, der skal indsættes  |
 |---------|---------|
-|Type     |Vare         |
-|Nummer     |Nummeret på den oprindelige vare.         |
-|Antal pr.     |1         |
-|Variantkode     |Det samme som i lageropgørelseskladden.         |
-|Lokationskode     |Det samme som i lageropgørelseskladden.         |
-|Enhedskode     |Det samme som i lageropgørelseskladden.         |
+|Type |Vare |
+|Nummer |Nummeret på den oprindelige vare. |
+|Antal pr. |1 |
+|Variantkode |Det samme som i lageropgørelseskladden. |
+|Lokationskode |Det samme som i lageropgørelseskladden. |
+|Enhedskode |Det samme som i lageropgørelseskladden. |
 
 > [!NOTE]
 > En montageordre kan kun håndtere én lagervare ad gangen. Du skal oprette en montageordre for hver kombination af lagervare, der har et antal på lager.
@@ -153,15 +154,15 @@ I følgende tabel vises funktionelle områder, hvor der kan være udestående an
 
 |Område  |Her kan du se, om der er udestående antal  |
 |---------|---------|
-|Salg     |Salgsdokumenter, herunder ordrer, returordrer, fakturaer, tilbud, rammeordrer og kreditnotaer         |
-|Lager     |Varekladder, reservationer, varesporing og standardkostpriskladde         |
-|Køb     |Købsdokumenter, herunder ordrer, returordrer, fakturaer, tilbud, rammeordrer og kreditnotaer         |
-|Planlægning     |Indkøbskladde, planlægningskladde og ordreplanlægning         |
-|Lageragersted     |Overflytningsordrer, lagerleverancer, lagerkladder og pluk (logistik), læg-på-lager-aktiviteter og bevægelser, interne pluk og læg-på-lager-aktiviteter og placeringsoprettelseskladder         |
-|Montage     |Montagedokumenter, herunder ordrer, returvareordrer og rammeordrer         |
-|Sager     |Sagsplanlægningslinjer og sagskladdelinjer         |
-|Tjeneste     |Servicedokumenter og servicekontrakter         |
-|Produktion     |Produktionsordrer (planlagte, fastlagte og frigivne)         |
+|Salg |Salgsdokumenter, herunder ordrer, returordrer, fakturaer, tilbud, rammeordrer og kreditnotaer |
+|Lager |Varekladder, reservationer, varesporing og standardkostpriskladde |
+|Køb |Købsdokumenter, herunder ordrer, returordrer, fakturaer, tilbud, rammeordrer og kreditnotaer |
+|Planlægning |Indkøbskladde, planlægningskladde og ordreplanlægning |
+|Lageragersted |Overflytningsordrer, lagerleverancer, lagerkladder og pluk (logistik), læg-på-lager-aktiviteter og bevægelser, interne pluk og læg-på-lager-aktiviteter og placeringsoprettelseskladder |
+|Montage |Montagedokumenter, herunder ordrer, returvareordrer og rammeordrer |
+|Sager |Sagsplanlægningslinjer og sagskladdelinjer |
+|Tjeneste |Servicedokumenter og servicekontrakter |
+|Produktion |Produktionsordrer (planlagte, fastlagte og frigivne) |
 
 ### <a name="block-the-original-item-from-further-use"></a>Spærre den oprindelige vare mod yderligere brug
 

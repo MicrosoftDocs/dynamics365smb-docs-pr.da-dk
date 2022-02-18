@@ -1,8 +1,6 @@
 ---
-title: Brugerdefinerede og indbyggede layout til rapporter og bilag | Microsoft Docs
+title: Brugerdefinerede og indbyggede layout til rapporter og bilag
 description: Du kan bruge rapportlayout til at tilpasse dokumenter, f.eks. for at tilpasse skrifttype, logo eller sideindstillinger for PDF-filer, som du sender til kunderne.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
+ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2b3dcc5c40346f6bd63d431b3024d64bc5a0d434
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 11467596a489c3d3ec550caa35353c72e548e675
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445943"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100843"
 ---
 # <a name="managing-report-and-document-layouts"></a>Administrere rapport- og dokumentlayout
 Et rapportlayout styrer indholdet og formatet af rapporten, herunder hvilke datafelter i et datasæt der vises i rapporten, og hvordan de er organiseret, teksttypografi, billeder og meget mere. Fra [!INCLUDE[prod_short](includes/prod_short.md)]-klienter kan du ændre, hvilket layout der skal bruges i en rapport, oprette et nyt layout eller ændre det aktuelle layout.
@@ -37,7 +36,7 @@ En rapport kan konfigureres med flere rapportlayout, som du kan skifte mellem ef
 Der findes to typer rapportlayout, der kan bruges i rapporter: Word og RDLC.
 
 ## <a name="word-report-layout-overview"></a>Oversigt over Word-rapportlayout
-Et rapportlayout til Word er baseret på Word-dokument (.docx-filtype). Med Word-rapportlayout kan du udforme rapportlayout ved hjælp af Microsoft Word 2013 eller senere. Et Word-rapportlayout bestemmer rapportens indhold og styrer, hvordan indholdselementerne skal placeres, og hvordan de ser ud. Et Word-dokument med rapportlayout vil normalt bruge tabeller til at arrangere indhold, hvor cellerne kan indeholde datafelter, tekst eller billeder.
+Et rapportlayout til Word er baseret på Word-dokument (.docx-filtype). Med Word-rapportlayout kan du udforme rapportlayout ved hjælp af Microsoft Word. Et Word-rapportlayout bestemmer rapportens indhold og styrer, hvordan indholdselementerne skal placeres, og hvordan de ser ud. Et Word-dokument med rapportlayout vil normalt bruge tabeller til at arrangere indhold, hvor cellerne kan indeholde datafelter, tekst eller billeder.
 
  ![Eksempel på et dokument med Word-rapportlayout til NAV.](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
 

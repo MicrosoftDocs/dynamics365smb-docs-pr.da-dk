@@ -8,17 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
+ms.search.form: 6250
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5db6ec05e8497dd3c3bac9b17ccb5dc673f11add
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: a9f4f2442e9cb3f8efc46cc7c9fd1f92c002d0dd
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940647"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115308"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Se status på synkroniseringsjob
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Du kan bruge siden **Fejl ved sammenkædet datasynkronisering** til at se status for de synkroniseringsjob, der er blevet udført for sammenkædede poster i en Dataverse- eller [!INCLUDE[crm_md](includes/crm_md.md)]-integration. Dette omfatter job, der er kørt fra opgavekøen, og manuelle synkroniseringsjob, der er kørt på poster fra [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan f.eks. se, hvordan deres status er nyttig, når du foretager fejlfinding, fordi det giver dig adgang til detaljer om fejl, der vedrører sammenkædede poster. Denne type fejl forårsages typisk af brugerhandlinger, f.eks. når:  
 

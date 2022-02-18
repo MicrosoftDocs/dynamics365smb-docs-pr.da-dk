@@ -1,7 +1,6 @@
 ---
-title: Administrere interaktioner med dine kontakter | Microsoft Docs
+title: Administrere interaktioner med dine kontakter
 description: Du kan administrere alle typer kommunikation eller interaktioner mellem din virksomhed og dine kontakter, f.eks. kommunikation via brev, telefon, møder osv.
-services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
+ms.search.forms: 5082,
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d72025a95f6d12ab64ba6ec29de754bb9c318ab0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6a923884e7ea28def6335f063d04e5fab9365d81
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435793"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059438"
 ---
 # <a name="record-interactions-with-contacts"></a>Registrere interaktioner med kontakter
 Konfiguration af programmet til at registrere interaktioner består af disse opgaver:

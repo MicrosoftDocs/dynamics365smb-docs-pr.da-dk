@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2717196a170aede43bfb56d796b1da9307ff8d3f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e0bc05375930c506dc0ef9a7f1ea0263f47c1ad7
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777187"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049688"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Konfigurere brugerkonti til integration med Microsoft Dataverse
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Denne artikel indeholder en oversigt over opsætning af de brugerkonti, der kræves til at integrere [!INCLUDE[prod_short](includes/cds_long_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)].  
 

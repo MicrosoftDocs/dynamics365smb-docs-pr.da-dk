@@ -1,7 +1,6 @@
 ---
 title: Flere oplysninger om varetyper
 description: Du kan regulere lagerværdien for en vare ved hjælp af FIFO eller gennemsnitlige kostmetoder, f.eks., når varepriser ændres af andre årsager end transaktioner.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 9297, 5845, 30,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0fc31469d13c0c84a7357ae99929d6efb30bbb47
-ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
+ms.openlocfilehash: acb6ab4436f32760d905701348a242a4374b6b2d
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/04/2022
-ms.locfileid: "7949026"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059618"
 ---
 # <a name="about-item-types"></a>Om varetyper
 I feltet **Type** på siden **Varekort** kan du vælge, hvad varen bruges til i virksomheden, hvilket påvirker, hvordan du kan administrere varen i lageret. I følgende tabel vises og beskrives de tre typer varer, der er tilgængelige.

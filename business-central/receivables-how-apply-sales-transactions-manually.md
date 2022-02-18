@@ -1,5 +1,5 @@
 ---
-title: Udligne debitorposter for at afstemme debitorbetalinger | Microsoft Docs
+title: Afstemme betalinger fra debitorer med indbetalingskladden eller fra debitorposter
 description: Bruges til at udligne debitorindbetalinger eller refusioner til en eller flere åbne debitorposter og afstemme betalinger fra debitorer.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipt
+ms.search.form: 255
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ef50dd0119922e7a67bdb10d0a3d3765bc54395f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 05b4d5074f77101e7158738b78126a562aabcc1e
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436069"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100947"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Afstemme betalinger fra debitorer med indbetalingskladden eller fra debitorposter
+
 Når du modtager en kontaktrefusion fra en debitor, eller du foretager en kontantrefusion, skal du vælge, om betalingen skal udlignes eller refunderes for at lukke en eller flere åbne debet- eller kreditposter. Du kan angive det beløb, du vil udligne. Du kan f.eks. udligne delbetalinger til debitorposter. Når du lukker debitorposter, sikrer du, at oplysninger som debitorstatistik, kontoudtog og rentenotaer er korrekte.
 
 > [!TIP]  

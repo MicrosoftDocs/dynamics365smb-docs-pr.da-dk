@@ -8,18 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
+ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1d65213d81c2a615481e753adb380675ff2ee691
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 2482b25e6b8e29e5cff420db1700943ca4f1df51
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940722"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060086"
 ---
 # <a name="set-up-locations"></a>Opsætte lokationer
 
-Hvis du køber, gemme eller sælger varer i mere end ét område eller lagersted, skal du oprette hver lokation med et lokationskort og definere overflytningsruter. [!INCLUDE [prod_short](includes/prod_short.md)] bruger lokationer til at holde styr på lagerbeholdningen i begge enkle sager og de mere komplekse lagerprocesser.
+Lokationer er steder, f. eks. lagersteder, hvor du køber, sælger eller sælger varer. [!INCLUDE [prod_short](includes/prod_short.md)] bruger lokationer til at holde styr på lagerbeholdningen i både enkle og komplekse lagerprocesser.
 
 Du kan derefter oprette dokumentlinjer for en bestemt lokation vis tilgængeligehed pr. lokation og vare samt overføre lagerbeholdning mellem lokationer. Der er flere oplysninger i [Administrere lager](inventory-manage-inventory.md).
 <br><br>  
@@ -27,16 +28,15 @@ Du kan derefter oprette dokumentlinjer for en bestemt lokation vis tilgængelige
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## <a name="location-cards"></a>Lokationskort
-
-Lokationskortet angiver oplysninger om en lokation, f. eks. et lager eller distributionscenter. Du kan give hver lokation et navn og en kode, der repræsenterer lokationen. Du kan derefter angive lokationskoden i andre dele af programmet, når du vil registrere transaktioner for en given lokation.  
+Du skal angive oplysninger om en lokation, f. eks. et lager eller distributionscenter på siden **Lokationskort**. Du kan give hver lokation et navn og en kode, der repræsenterer lokationen. Du kan derefter angive lokationskoden i andre dele af programmet, når du vil registrere transaktioner for en given lokation.  
 
 Du kan angive oplysninger om placeringer og lagermetoder. På baggrund af de valgte lagermetoder kan du bruge indstillingerne i oversigtspanelet **Placeringer** til at definere de placeringer, der skal bruges som standardplaceringer, når du udfører transaktioner. Hvis du bruger styret læg-på-lager og pluk, kan du bruge de fleste af indstillingerne i oversigtspanelet **Plac.metode** til at definere, hvordan du vil bruge de forskellige avancerede lagerfunktioner.  
 
-Nogle indstillingsfelter er gråtonede og deaktiveret af andre indstillinger i vinduet **Lokationskort** for at forhindre ikke-understøttede opsætningskombinationer.  
+Nogle indstillingsfelter på indstillinger på siden **Lokationskort** for at forhindre ikke-understøttede opsætningskombinationer.  
 
 Luk handlingen **Zoner** eller **Placeringer** for at få vist oplysninger om zoner og placeringer, der kan være defineret for den pågældende lokation.
 
-### <a name="to-create-a-location-card"></a>Sådan oprettes et lokationskort
+### <a name="to-set-up-a-location"></a>Sådan oprettes en lokation
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
@@ -44,11 +44,11 @@ Luk handlingen **Zoner** eller **Placeringer** for at få vist oplysninger om zo
 4. Gentag trin 2 og 3 for hver lokation, hvor du vil foretage lageropgørelse.
 
 > [!NOTE]  
-> Mange af felterne på lokationskortet henviser til håndtering af varer i indgående og udgående lagerprocesser. Felterne er ikke relevante for virksomheder, der ikke har brug for mere komplekse lagerfunktioner. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).
+> Mange af felterne på lokationskortet henviser til håndtering af varer i indgående og udgående lagerprocesser. Disse felter er ikke relevante for virksomheder, der ikke har brug for mere komplekse lagerfunktioner. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).
 
 Du kan ændre konfigurationen for en lokation senere, men du kan ikke redigere opsætningen af lokationer, der har vareposter.  
 
-Hvis du har flere lokationer, kan du definere overflytningsruter mellem lokationer.  
+Hvis du har flere lokationer, kan du definere overflytningsruter mellem lokationer. Du kan finde flere oplysninger under [Sådan oprettes en overflytningsrute](inventory-how-setup-locations.md#to-create-a-transfer-route). 
 
 ### <a name="to-create-a-transfer-route"></a>Sådan oprettes en overflytningsrute
 
@@ -61,14 +61,12 @@ Du kan nu overflytte lagervarer mellem to lokationer. Du kan finde flere oplysni
 
 ## <a name="bins"></a>Placering
 
-Placeringer udgør den grundlæggende lagerstruktur og bruges til at fremsætte forslag om placeringen af varer. Når du har oprettet placeringerne, kan du meget præcist definere det indhold, du vil placere på hver placering, eller placeringen kan fungere som en løs placering uden angivet indhold. Placeringer anvendes primært i basis-og forudlager operationer. Hvis du administrerer lagerbeholdningen i en mere simpel opsætning, har du sandsynligvis ikke brug for placeringer.
+Placeringer udgør den grundlæggende lagerstruktur og bruges til at fremsætte forslag om placeringen af varer. Når du har oprettet placeringerne, kan du meget præcist definere deres indhold, eller de kan fungere som løs placering uden angivet indhold. Placeringer anvendes primært i basis-og forudlager operationer. Hvis du administrerer lagerbeholdningen i en mere simpel opsætning, har du sandsynligvis ikke brug for placeringer.
 
-Hvis du vil bruge placeringsfunktionen på en lokation, skal du først aktivere funktionen på **Lokationer**-kortet ved at vælge feltet **Tvungen placering** i oversigtspanelet **Lagersted**. Derefter kan du designe varestrømmen på placeringen ved at angive placeringskoder i konfigurationsfelter, der repræsenterer forskellige strømme.
+Hvis du vil bruge placeringsfunktionen på en lokation, skal du først aktivere funktionen på siden **Lokationskort** ved at vælge feltet **Tvungen placering** i oversigtspanelet **Lagersted**. Derefter kan du designe varestrømmen på placeringen ved at angive placeringskoder i konfigurationsfelter, der repræsenterer forskellige strømme.
 
 > [!NOTE]
-> Placeringskoderne skal være oprettet, før du kan angive placeringskoder på lokationskortet.
-
-Du kan finde flere oplysninger i [Oprette placeringer](warehouse-how-to-create-individual-bins.md) og [Oprette placeringstyper](warehouse-how-to-set-up-bin-types.md).  
+> Placeringskoderne skal være oprettet, før du kan angive placeringskoder på en lokation. Du kan finde flere oplysninger i [Oprette placeringer](warehouse-how-to-create-individual-bins.md) og [Oprette placeringstyper](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="zones"></a>Zoner
 

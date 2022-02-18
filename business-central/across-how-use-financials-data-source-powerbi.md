@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ef81b4fd16e66c4ec1453798ae77f947b12c975e
-ms.sourcegitcommit: eeaf9651c26e49974254e29b7e2d16200c818dad
+ms.openlocfilehash: db872c8049550a497e2ee56a4a62bb69fa6a1854
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6341329"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049844"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Oprette Power BI-rapporter, der viser [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
@@ -151,11 +151,44 @@ Du kan få rapporter ud til dine kolleger og andre på flere måder:
 
     Hvis du har en Power BI Pro-licens, kan du dele rapporten med andre direkte fra Power BI-servicen. Du kan finde flere oplysninger i [Power BI - Dele et dashboard eller en rapport](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="fixing-problems"></a>Løsning af problemer
+
+### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Kan ikke indsætte en post. Den aktuelle forbindelsesmåde er skrivebeskyttet." Fejl ved oprettelse af forbindelse til brugerdefineret API-side
+
+> **GÆLDER FOR:** Business Central online
+
+Fra og med februar 2022 vil nye rapporter, der bruger Business Central-data, som standard oprette en skrivebeskyttet replika af Business Central-database. I sjældne tilfælde får du vist en fejlmeddelelse, når du forsøger at oprette forbindelse til og hente data fra siden, afhængigt af side designet.
+
+1. Start Power BI Desktop.
+2. På båndet vælges **Hent data** > **Onlinetjenester**.
+3. I ruden **online tjenester** vælges **Dynamics 365 Business Central**, og klik derefter på **Opret forbindelse**.
+4. Vælg det API-slutpunkt, du vil indlæse data fra, i vinduet **Navigator**.
+5. I indholdsruden til højre vises følgende fejlmeddelelse:
+
+   *Dynamics365BusinessCentral: Anmodningen mislykkedes: Fjernserveren returnerede en fejl: (400) forkert anmodning. (Kan ikke indsætte en post. Den aktuelle forbindelsesmåde er skrivebeskyttet. Korrelations-id: [...])".*
+
+6. Vælg **transformeringsdata** i stedet for **Indlæs** som, som du ellers kan gøre.
+7. Vælg **Avanceret Editor** på båndet i **Power Query Editor**.
+8. Erstat følgende tekst på den linje, der starter med **source =**:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null)
+   ```
+
+   med:
+
+   ```
+   Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false])
+   ```
+
+9. Vælg **Udført**.
+10. Vælg **Luk og Anvend** på båndet for at gemme ændringerne og lukke Power Query-editoren.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 
-[Aktivere virksomhedens data til Power BI](admin-powerbi.md)  
+[Aktivering af dine virksomhedsdata for Power BI](admin-powerbi.md)  
 [Business Intelligence](bi.md)  
 [Blive køreklar](ui-get-ready-business.md)  
 [Importer virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  

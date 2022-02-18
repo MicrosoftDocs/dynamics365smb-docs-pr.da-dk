@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: d1feca5e6eddd6115d10d1395eecccde3b09039f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 2631307db3975eeb406662caac2edf2f9d83238c
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323714"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101448"
 ---
 # <a name="application-compliance"></a>Programoverholdelse
 
@@ -77,7 +77,6 @@ Lever integrerede oplysninger, justerede processer og let anvendelige værktøje
 - Spar tid,    når du opretter    standardrapporter, der anvender fælles forretningsparametre og -kriterier til at opfylde typiske rapporteringsbehov, lige fra ordreoversigter til aldersfordelte tilgodehavender.
 - Udfør komplekse gennemgange med grundlæggende eller    avancerede forretningsanalysefunktioner.
 - Opret brugerdefinerede rapporter og visninger i produktet og ved hjælp af integration med Microsoft PowerBI.
-- Sæt fart i    overførslen af    finansielle oplysninger til debitorer, aktionærer, offentlige myndigheder og offentligheden med XML-baserede XBRL-dokumenter, der understøtter udveksling af finansielle oplysninger på tværs af forskellig software og teknologier, herunder internettet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Hjælp til at sikre klare revisionsspor
 

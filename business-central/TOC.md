@@ -483,6 +483,7 @@
 #### [Afstemme betalinger fra debitorer med indbetalingskladden eller fra debitorposter](receivables-how-apply-sales-transactions-manually.md)
 #### [Indhente udestående beløb](receivables-collect-outstanding-balances.md)
 #### [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Send rykkere til udestående saldi](receivables-send-reminders.md)
 #### [Blokere debitorer](receivables-how-block-customers.md)
 #### [Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Udvidelsen Forudsigelse af forsinket betaling](ui-extensions-late-payment-prediction.md)
@@ -1605,6 +1606,120 @@
 ##### [Udskrive fejlfindingsrapporter](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Sende lovgivningsmæssige påmindelser](submit-regulatory-alerts.md)
 
+<!--Reporting landing page-->
+# Business Intelligence og rapportering 
+
+## [Oversigt](reports-bi-reporting.md)
+
+## Brug rapporter i dagligt arbejde
+### [Oversigt](reports-use-reports.md)
+### [Kører rapporter](ui-work-report.md)
+### [Bogmærke i en rapport](ui-bookmarks.md)
+### [Analyse af rapportdata med Excel](report-analyze-excel.md)
+<!--### [Using the report inbox] (missing.md)-->
+### [Udskrivning af rapporter](ui-specify-printer-selection-reports.md#default)
+### [Planlægning af rapporter](ui-work-report.md#ScheduleReport)
+### [Administrere gemte rapportindstillinger](reports-saving-reusing-settings.md)
+### [Ændre layout i standardrapport](ui-how-change-layout-currently-used-report.md)
+
+## Indbyggede rapporter
+### [Rapportoversigt](reports-available-reports.md)
+### Finans
+#### [Økonomisk analyse](bi.md)
+#### [Analysere regnskabsopgørelser med Excel](finance-analyze-excel.md)
+#### [Vigtige økonomirapporter](finance-reports.md)
+#### [Rapporter for tilgodehavender](receivables-reports.md)
+#### [Rapporter for kreditor](payables-reports.md)
+#### [Analyse af pengestrøm](finance-setup-cash-flow-analyses.md)
+#### [Konsolidering af finansielle data fra flere regnskaber](finance-consolidated-company-reporting.md)
+
+### Salg
+#### [Salgsrapporter](sales-reports.md)
+#### [Status for rammesalgsordre](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
+#### [Pakkesporing](sales-how-track-packages.md)
+#### [Vis ikke-bogførte og bogførte rammesalgsordrelinjer](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
+
+### Indkøb
+#### [Købsrapporter](purchase-reports.md)
+#### [Vis købsvareposter](ui-post-purchases.md#viewing-ledger-entries)
+
+### Lagerbeholdning og lagerrapporter
+#### [Lagerbeholdning og lagerrapporter](inventory-wms-reports.md)
+#### [Varedisponering](inventory-how-availability-overview.md)
+#### [Spore varer med serie-, lot- og pakkenumre](inventory-how-work-item-tracking.md)
+#### [Spore vare via varesporing](inventory-how-to-trace-item-tracked-items.md)
+#### [Revider afstemningen mellem lagerposterne og finansposterne](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
+#### [Vis varer til direkte afsendelse i leverancer og plukkladde](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+
+### Projekt
+#### [Projektrapporter](project-reports.md)
+#### [Vis sagsforbrug og estimater](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
+#### [Overvåge jobstatus og -udførelse](projects-how-monitor-progress-performance.md)
+
+### Anlægsaktiver
+#### [Rapporter af anlægsaktiver](fa-reports.md)
+#### [Overvåg reparationsomkostningerne](fa-how-maintain.md#to-monitor-maintenance-costs)
+#### [Overvåg forsikring](fa-how-insure.md#to-monitor-insurance-coverage)
+#### [Vis ændrede afskrivningsprofilværdier](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+#### [Vis salgsposter](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+#### [Vis forventede salgsværdier](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+
+### Montagestyring
+#### [Montagestyringsrapporter](assembly-reports.md)
+#### [Vis strukturen for styklistestrukturen](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+
+### Produktion
+#### [Produktionsrapporter](production-reports.md)
+#### [Vise belastningen på arbejdscentre og produktionsressourcer](production-how-to-view-the-load-on-work-centers.md)
+#### [Vise arbejdscenterposter](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
+
+### Servicestyring
+#### [Visning af servicestatistik](service-service-statistics.md)
+#### [Oversigt over serviceordrer](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Oversigt over servicekvoter](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Oversigt over bogførte servicedokumenter](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+## Ad hoc-dataanalyse
+### [Oversigt](reports-adhoc-analysis.md)
+### [Sortering, søgning og filtrering](ui-enter-criteria-filters.md)
+### [Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.yml)
+### [Analysere sidedata i Excel](across-work-with-excel.md)
+### [Analyse af rapportdata med Excel](ui-work-report.md#saving-a-report-to-a-file)
+### [Økonomisk analyse](bi.md)
+
+## Indbygget analyse 
+### [Oversigt](reports-built-in-analytics.md)
+### [Intelligent indsigt](about-intelligent-cloud.md)
+### [Arbejde med Power BI-rapporter](across-working-with-powerbi.md)
+### [Økonomisk analyse](bi.md)
+### [Analysere regnskabsopgørelser med Excel](finance-analyze-excel.md)
+### [Konsolidering af finansielle data fra flere regnskaber](finance-consolidated-company-reporting.md)
+### [Telemetri for rapportanvendelse](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
+
+## Analysere data i Business Intelligence-værktøjer
+### [Oversigt](reports-external-analysis.md)
+### [Bruge Power BI sammen med Business Central](admin-powerbi.md)
+### [Analysere regnskabsopgørelser med Excel](finance-analyze-excel.md)
+### [Udtrække data til datalagre eller Data Lake](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Læs Business Central-data ved hjælp af API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+## Udvikle rapporter
+### [Oversigt](reports-develop-reports.md)
+### Udvikle rapportlayout
+#### [Layouttyper (Word og RDLC)](ui-manage-report-layouts.md)
+#### [Oprette et nyt layout](ui-how-create-custom-report-layout.md)
+#### [Bruge skrifttyper i layout](ui-fonts.md)  
+#### [Arbejd med Word-layouts](ui-how-add-fields-word-report-layout.md)
+#### [Importér/eksportér et layout](ui-how-import-and-export-report-layout.md)
+#### [Opdater et layout](ui-update-report-layouts.md)
+#### [Ændre standardlayoutet](ui-how-change-layout-currently-used-report.md)
+### Udvikle rapportdatasæt
+#### [Rapportudviklingsguide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
+#### [Rapport om justering af ydeevne](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+
+<!--Security landing page-->
 # Sikkerhed, beskyttelse af personlige oplysninger, kompatibilitet
 ## Sikkerhed og beskyttelse
 ### [Oversigt over sikkerhed og beskyttelse (kun på engelsk)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

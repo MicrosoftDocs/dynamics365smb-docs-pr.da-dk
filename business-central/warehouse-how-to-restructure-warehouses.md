@@ -1,5 +1,5 @@
 ---
-title: 'Fremgangsmåde: Omstrukturere lagersteder'
+title: Omstrukturere lagre
 description: Få mere at vide om, hvordan du omstrukturerer lagerstedet med nye placeringskoder og nye placeringskarakteristika for at opnå eller opretholde en mere effektiv operation.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 9813, 9814
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4fb323253d9eb27216ae1d340ace6978a05afe65
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: fe027e43c91723c4e2a24d8afab373f2b96b07eb
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438053"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115226"
 ---
 # <a name="restructure-warehouses"></a>Omstrukturere lagre
 Det kan eventuelt blive nødvendigt at omstrukturere lagerstedet med nye placeringskoder og nye karakteristika for placeringer. Sådanne omstruktureringer foretages som regel sjældent, men der kan opstå situationer, hvor det er nødvendigt med en omklassificering for at opnå en mere effektiv forretningsgang. Eksempler:  

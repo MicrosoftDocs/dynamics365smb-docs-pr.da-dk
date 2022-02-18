@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 12/28/2021
+ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: af73c229ec8c9ebb9e530012360ce6baa7495fd8
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 7e15405a55256b0130b45f49bc610218248e6bff
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972823"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059982"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Konfigurere beregnings- og bogføringsmetoder for moms
 
@@ -42,7 +42,7 @@ Du anbefales at bruge den assisterede momsopsætningsvejledning, når du konfigu
 
 For at starte vejledningen skal du gøre følgende:
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") Ikon, skriv **Assisteret opsætning**.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") Ikon, skriv **Assisteret opsætning**.  
 2. Vælg **Konfigurer moms**, og fuldfør trinnene.
 3. Når du har fuldført den assisterede opsætning, skal du gå til siden **Momsbogf.opsætning** og kontrollere, om du er nødt til at udfylde flere felter i henhold til de landespecifikke krav for din version af [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Lokal funktionalitet i Business Central](about-localization.md)  
 
@@ -52,7 +52,7 @@ For at sikre, at brugere angiver gyldige momsregistreringsnumre, kan du definere
 
 For at oprette momsregistreringsnumre, skal du gøre følgende:
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lande/områder**.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 2.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lande/områder**.
 2. Vælg landet eller området, og vælg derefter handlingen **SE/CVR-nr.formater**.
 3. I feltet **Formater** skal du angive formatet ved at angive et eller flere af følgende tegn:  
 
@@ -71,7 +71,7 @@ Brug koder, der er lette at huske, og som beskriver virksomhedsbogføringsgruppe
 
 Når du vil oprette en momsvirksomhedsbogføringsgruppe, skal du gøre følgende:
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Momsvirksomhedsbogf.gruppe**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 3.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Momsvirksomhedsbogf.gruppe**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 
 Du kan oprette standardmomsvirksomhedsbogføringsgrupper ved at linke dem til virksomhedsbogføringsgrupper. [!INCLUDE[prod_short](includes/prod_short.md)] tildeler automatisk momsvirksomhedsbogføringsgruppen, når du tildeler virksomhedsbogføringsgruppen til en debitor, kreditor eller finanskonto.
@@ -83,7 +83,7 @@ Det anbefales at bruge koder, der er lette at huske, og som beskriver satsen, so
 
 Når du vil oprette en momsvirksomhedsbogføringsgruppe, skal du gøre følgende:
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Momsproduktbogf.grupper**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 4.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Momsproduktbogf.grupper**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 
 ## <a name="combine-vat-posting-groups-in-vat-posting-setups"></a>Kombinere momsbogføringsgrupper i momsbogføringsopsætninger
@@ -94,7 +94,7 @@ Du kan definere et ubegrænset antal kombinationer. Hvis du vil gruppere kombina
 
 Hvis du vil kombinere momsbogføringsopsætninger, skal du gøre følgende:
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Momsbogf.opsætning**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 5.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Momsbogf.opsætning**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov.
 
 ## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Tildele momsbogføringsgrupper til flere enheder som standard
@@ -112,20 +112,20 @@ I følgende afsnit beskrives, hvordan du tildeler momsbogføringsgrupper til ind
 
 ### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Sådan tildeles momsbogføringsgrupper til individuelle finanskonti
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoplan**, og derefter vælge det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 6.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoplan**, og derefter vælge det relaterede link.  
 2. Åbn **Finanskonto**-kortet for kontoen.  
 3. I oversigtspanelet **Bogføring** i feltet **Bogføringstype** skal du vælge enten **Salg** eller **Køb**.  
 4. Vælg de momsbogføringsgrupper, du vil bruge til salgs- eller købskontoen.  
 
 ### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Sådan tildeles momsvirksomhedsbogføringsgrupper til debitorer og kreditorer
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Debitor** eller **Kreditor**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 7.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Debitor** eller **Kreditor**, og vælg derefter det relaterede link.  
 2. Udvid oversigtspanelet **Fakturering** på **Debitor**- eller **Kreditor**-kortet.  
 3. Vælg momsvirksomhedsbogføringsgruppen.  
 
 ### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Sådan tildeles momsproduktbogføringsgrupper til individuelle varer og ressourcer
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Vare** eller **Ressource**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 8.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Vare** eller **Ressource**, og vælg derefter det relaterede link.  
 2. Gør ét af følgende:  
 
     * På kortet **Vare** skal du udvide oversigtspanelet **Pris og bogføring** og derefter vælge **Vis mere** for at se feltet **Momsproduktbogf.gruppe**.  
@@ -144,7 +144,7 @@ Du kan redigere eller slette en momsklausul, og dine ændringer afspejles i en g
 
 ### <a name="to-set-up-vat-clauses"></a>Sådan konfigureres momsklausuler
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Momsklausuler**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 9.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Momsklausuler**, og vælg derefter det relaterede link.  
 2. Oprette en ny linje på siden **Momsklausuler**.  
 3. Angiv et id for klausulen i feltet **Kode**. Du bruger koden til at tildele klausulen til momsbogføringsgrupper.  
 4. I feltet **Beskrivelse** skal du angive den momsfritagelse, du vil have vist i dokumenter, som kan inkludere moms. I feltet **Beskrivelse 2** skal du angive mere tekst, hvis det er nødvendigt. Teksten vises på nye dokumentlinjer.
@@ -155,12 +155,12 @@ Du kan redigere eller slette en momsklausul, og dine ændringer afspejles i en g
 
 ### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Sådan tildeles en momsklausul til en momsbogføringsopsætning
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Momsbogf.opsætning**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 10.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Momsbogf.opsætning**, og vælg derefter det relaterede link.  
 2. I kolonnen **Momsklausul** skal du vælge den klausul, der skal bruges til hver momsbogføringsopsætning, den gælder for.  
 
 ### <a name="to-specify-translations-for-vat-clauses"></a>Sådan angives oversættelser af momsklausuler
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Momsklausuler**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 11.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Momsklausuler**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Oversættelser**.  
 3. I feltet **Sprogkode** skal du vælge det sprog, du vil oversætte til.  
 4. I felterne **Beskrivelse** og **Beskrivelse 2** skal du angive oversættelserne af beskrivelserne. Teksten vises i de oversatte momsrapportdokumenter.  
@@ -171,9 +171,9 @@ Du kan bruge funktionen *Importmoms*, når du skal bogføre et dokument, hvor he
 
 Når du vil konfigurere koder for importmoms, skal du gøre følgende:  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Momsproduktbogf.grupper**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 12.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Momsproduktbogf.grupper**, og vælg derefter det relaterede link.  
 2. På siden Momsproduktbogf.grupper. skal du oprette en ny momsproduktbogføringsgruppe for importmoms.  
-3. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Momsbogf.opsætning**, og vælg derefter det relaterede link.  
+3. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 13.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Momsbogf.opsætning**, og vælg derefter det relaterede link.  
 4. På siden Opsætning af momsbogføring skal du oprette en ny linje eller bruge en eksisterende momsvirksomhedsbogføringsgruppe kombineret med den nye momsproduktbogføringsgruppe til importmoms.  
 5. I feltet **Momsberegningstype** skal du vælge **Momskorrektion**.  
 6. Angiv den finanskonto, der skal bruges til bogføring af importmoms, i feltet **Købsmomskonto**. Alle andre konti er valgfrie.  
@@ -201,7 +201,13 @@ Når du bogfører salg til en debitor i et andet EU-land/område, beregnes momsb
 
 ## <a name="vat-rounding-for-documents"></a>Momsafrunding for bilag
 
-Beløb i de bilag, som endnu ikke er blevet bogført, afrundes og vises, så de svarer til de endelige afrundingsbeløb, som bogføres. Moms beregnes for et helt dokument, hvilket betyder, at moms, der beregnes, er baseret på summen af alle linjer med samme moms-id i dokumentet.
+Beløb i de bilag, som endnu ikke er blevet bogført, afrundes og vises, så de svarer til de endelige afrundingsbeløb, som bogføres. Moms beregnes for et helt dokument, hvilket betyder, at moms, der beregnes, er baseret på summen af alle linjer med samme moms-id i dokumentet.  
+
+## <a name="set-up-vat-reporting"></a>Konfigurer momsrapportering
+
+Du skal angive oplysninger om, hvordan skattemyndighederne i dit land kræver, at du indsender momsrapporter. Følgende fremgangsmåde viser de mest almindeligt brugte oplysninger. Dit land eller område kan dog kræve yderligere trin. Du kan finde flere oplysninger i den relevante artikel i afsnittet *lokal funktionalitet* i panelet til venstre.
+
+[!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
 ## <a name="see-also"></a>Se også
 

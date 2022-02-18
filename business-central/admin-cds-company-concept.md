@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: CDS, Dataverse, integration, sync
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a99ddb6153c65ab16be53b7027833de14dc4884d
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 0042d6b1ee8cdf1f7425c15075a73664f0aa1001
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482191"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049766"
 ---
 # <a name="data-ownership-models"></a>Modeller for ejerskab af data
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] kræver, at du angiver en ejer af de data, du gemmer. Du kan få flere oplysninger i [Tabeltyper](/powerapps/maker/data-platform/types-of-entities) i Power Apps-dokumentationen. Når du konfigurerer integrationen mellem [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)], skal du vælge ejerskabet **Bruger eller team** for de poster, der skal synkroniseres. Handlinger, der kan udføres på disse poster, kan styres på et brugerniveau. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 

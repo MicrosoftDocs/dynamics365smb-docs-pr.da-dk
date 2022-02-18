@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5aa6849ebb591622828eed1cd40f5bd7be58262d
-ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
+ms.openlocfilehash: 0c044371622232177d97ea954bbd81e4671d70be
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/27/2021
-ms.locfileid: "7865717"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049592"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integration med Dynamics 365 Sales
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Rollen Sælger betragtes ofte som et af de mest udadvendte i en virksomhed. Det kan imidlertid være en fordel for sælgere at kunne se indad i virksomheden og se, hvad der foregår i back end. Ved at integrere [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] kan du give dine sælgere denne indsigt ved at gøre det muligt for dem at få vist oplysninger i [!INCLUDE[prod_short](includes/prod_short.md)], når de arbejder i [!INCLUDE[crm_md](includes/crm_md.md)]. Ved udarbejdelse af et salgstilbud kan det f.eks. være nyttigt at vide, om der er tilstrækkelig lagerbeholdning til at opfylde ordren. Du kan finde flere oplysninger i [Bruge Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md).
 

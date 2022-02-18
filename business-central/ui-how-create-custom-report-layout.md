@@ -1,5 +1,5 @@
 ---
-title: Oprette og ændre brugerdefinerede layout for rapporter og dokumenter | Microsoft Docs
+title: Oprette og ændre brugerdefinerede layout for rapporter og dokumenter
 description: Lær, hvordan du kan oprette brugerdefinerede layout for at tilpasse udseendet af en rapport, når den vises, udskrives eller gemmes.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
+ms.search.form: 9650, 9652
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 12eeb1a2eb3f7235524085c20f587ad9b2ec1f81
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a3e16ff82492c3331be901c5be5d30de6d302787
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444333"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101051"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Sådan opretter og ændrer du Brugerdefinerede rapportlayouts
 

@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
-ms.search.form: 1805
+ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: de40994a555fbc657eacc18e8b2e8b33ce430fcb
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 7e71694e59dcd17072bb7616324953ca02117a89
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011122"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115062"
 ---
 # <a name="set-up-email"></a>Konfigurer mail
 Personer i virksomheder sender oplysninger og dokumenter, f.eks. salgs-og købsordrer og fakturaer, pr. e-mail hver dag. Administratorer kan gøre det nemmere at gøre ved at oprette forbindelse mellem en eller flere e-mail-konti [!INCLUDE[prod_short](includes/prod_short.md)], så du kan sende dokumenter uden at skulle åbne en e-mail-app. Du kan skrive hver enkelt meddelelse individuelt med grundlæggende formateringsværktøjer, f.eks. skrifttyper, typografier, farver osv., og føje vedhæftede filer til op til 100 MB. Administratorer kan også konfigurere rapportlayout, der kun indeholder nøgleoplysninger fra dokumenter. Du kan finde flere oplysninger i [Sende dokumenter via mail](ui-how-send-documents-email.md).

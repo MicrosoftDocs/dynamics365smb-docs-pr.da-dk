@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 04/01/2021
+ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: c2f54f37791b93f41aa4cf03aaf7b6d6856cd15c
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: d51e1657d6c28581a49af9b65b7bee8a27baa57f
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971089"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049662"
 ---
 # <a name="set-up-and-report-intrastat"></a>Konfigurere og rapportere Intrastat
 
@@ -28,7 +28,11 @@ Før du kan bruge Intrastatkladden til at rapportere Intrastatoplysninger, er de
 * **Intrastat, Opsætning**: Siden Intrastat, Opsætning bruges til at aktivere Intrastat-rapportering og angive standarder for den. Du kan angive, om du vil rapportere Intrastat fra leverancer (udførsel), tilgange (modtagelser) eller begge afhængigt af de tærskelværdier, der er angivet af lokale regler. Du kan også angive standardtransaktionstyper for almindelige og returnerede dokumenter, der bruges til arten af transaktionsrapporteringen.
 * **Intrastatkladdetyper**: Du skal konfigurere de Intrastatkladdetyper og -kørsler, du skal bruge. Da Intrastat rapporteres månedsvis, skal du oprette 12 Intrastatkladdenavne af samme type.  
 * **Varekoder**: Told- og skattemyndigheder har defineret numeriske koder, der klassificerer varer og serviceydelser. Du kan angive disse koder for varer.
-* **Koder for transaktionsarter**: Lande og områder har forskellige koder for de typer Intrastattransaktioner, som almindeligt køb og salg, ombytning af returnerede varer og ombytning af ikke-returnerede varer. Oprette alle de koder, der gælder for dit land/område. Du kan bruge disse koder på salgs- og købsdokumenter, og når du behandler returneringer.  
+* **Koder for transaktionsarter**: Lande og områder har forskellige koder for de typer Intrastattransaktioner, som almindeligt køb og salg, ombytning af returnerede varer og ombytning af ikke-returnerede varer. Oprette alle de koder, der gælder for dit land/område. Du kan bruge disse koder på salgs- og købsdokumenter, og når du behandler returneringer. 
+
+    > [!NOTE]
+    > Fra og med januar 2022 kræver Intrastat forskellig kode for transaktionsarten for afsendelser til private personer eller ikke-momsregistrerede virksomheder og registrerede virksomheder. For at efterkomme dette krav anbefales det, at du gennemgår og/eller tilføjer nye posterings natur koder på **posteringstyper**-siden i henhold til kravene i dit land. Du kan gennemse og opdatere **partnertype** for *person* for privatperson eller ikke-momsregistreret erhvervskunder på den relevante **kunde**-side. Hvis du ikke er sikker på den korrekte partnertype eller transaktionstype, anbefales det, at du spørger en ekspert i dit land eller område. 
+ 
 * **Transportmåder**: Der er syv encifrede koder til Intrastattransportmåder. **1** for vand, **2** for jernbane, **3** for vej, **4** for fly, **5** for bogføring, **7** for faste installationer og **9** for egen fremdrift (f.eks. transport af en bil ved at køre den). [!INCLUDE[prod_short](includes/prod_short.md)] kræver ikke disse koder, men det anbefales, at beskrivelserne indeholder den samme betydning.  
 * **Transaktionsspecifikationer**: Du kan bruge disse som supplement til beskrivelsen fra transaktionsarten.  
 * **Oprindelsesland**: Brug ISO alpha-koderne på to bogstaver for det land, hvor godet er opnået eller produceret. Hvis det er produceret i mere end ét land, er oprindelseslandet det sidste land, hvor det blev væsentligt behandlet. 
@@ -110,7 +114,19 @@ Når du har udfyldt Intrastatkladden, kan du køre handlingen **Intrastat - kont
 Kørslen henter alle vareposter i statistikperioden og indsætter dem som linjer i Intrastatkladden. Du kan redigere linjerne efter behov.  
 
 > [!IMPORTANT]  
-> Kørslen henter kun de poster, der indeholder en lande-/regionskode, der er angivet en Intrastatkode for, på siden **Lande/regioner**. Derfor skal du angive Intrastatkoder for den landekode, som du udfører kørslen for.  
+> Kørslen henter kun de poster, der indeholder en lande-/regionskode, der er angivet en Intrastatkode for, på siden **Lande/regioner**. Derfor skal du angive Intrastatkoder for den landekode, som du udfører kørslen for. Kørslen angiver feltet **partnermoms-id** til *QV 999999999999* for private personer eller ikke-momsregistrerede virksomheder (f. eks. med feltet **partnertype** sat til *person*), og det bruger værdien i feltet **Transaktionstype** i den bogførte varepost eller sagspost. 
+
+### <a name="to-modify-intrastat-journals-lines"></a>Sådan ændres kladdelinjer i Intrastat-kladden
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Intrastatkladde**, og vælg derefter det relaterede link.  
+2. På siden **Intrastatkladde** skal du vælge den relevante kladde i feltet **Kladdenavn** og derefter vælge **OK**.  
+3. Brugerfilter til at filtrere Intrastat-kladdelinjer baseret på nogle kriterier. F. eks. et filter for felterne **Partnermoms-id** med værdien *QV 999999999999*.
+4. Vælg **Del**-ikon ![Del en side i en anden app.](media/share-icon.png) og vælg i **Rediger i Excel**
+5. Rediger de Intrastat-kladder, du har filtreret fra, i Excel. Du kan f. eks. redigere feltværdier for **transaktionstypen**.  
+6. Udgiv de ændringer, du har foretaget i Excel, tilbage til [!INCLUDE[prod_short](includes/prod_short.md)]
+
+> [!Note]
+> I [!INCLUDE[prod_short](includes/prod_short.md)]-versioner, der ikke understøtter [**Rediger i Excel**](across-work-with-excel.md#edit-in-excel) til kladder, kan du [oprette konfigurationspakker](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package) for at eksportere og importere Intrastat-kladdelinjer til Excel. 
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Rapportere Intrastat i en formular eller en fil
 

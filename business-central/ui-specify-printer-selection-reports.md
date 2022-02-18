@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
-ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
+ms.openlocfilehash: 79f9e9d03eb8ac58bcddfeb39669b0dc08763f1f
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547044"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102443"
 ---
 # <a name="set-up-printers"></a>Installation af printere
 
@@ -267,6 +267,9 @@ Du eller administratoren kan også bruge siden **Printervalg** til at angive and
 
 > [!NOTE]
 > Mere bestemte printervalg tilsidesætter mere generelle printervalg. Et printervalg, der har værdier i felterne **Bruger-id**, **Rapport-id** og **Printernavn**, har f.eks. højere prioritet end et printervalg, hvor der ikke er angivet værdier i felterne **Bruger-ID** eller **Rapport-ID**.
+
+### <a name="choosing-the-printer-when-running-a-report"></a>Vælge printeren, når en rapport køres
+I stedet for at bruge standardprinteren, når du kører en rapport, kan du tilsidesætte denne indstilling fra anmodningssiden. Du skal blot vælge den Wich printer, du vil bruge til denne aktivering af rapporten, i rullemenuen **Printer**.
 
 ### <a name="sizing-print-jobs"></a>Ændring størrelsen på udskriftsjob
 

@@ -1,5 +1,5 @@
 ---
-title: Designoplysninger – Lagerkostmetode | Microsoft Docs
+title: Designoplysninger - Lagerkostmetode
 description: Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges inden for lageromkostningsfunktionerne i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,21 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
+ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 8bfcf2b10d9b302c9a65b7cf27c7fb336be68617
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: b76d0ccdfce2ef69da4b49e4b4e143de5a61d23c
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215974"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115115"
 ---
 # <a name="design-details-inventory-costing"></a>Designoplysninger: Lagerkostmetode
+
 Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges inden for lageromkostningsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Lagerkostmetode, også kendt som "omkostningsstyring", vedrører registrering og rapportering af virksomhedens driftsomkostninger.  
 
-## <a name="in-this-section"></a>Dette afsnit indeholder  
+## <a name="in-this-section"></a>Dette afsnit indeholder
+
 [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
 [Designoplysninger: Vareudligning](design-details-item-application.md)  
 [Designoplysninger: Kendt problem med vareudligning](design-details-inventory-zero-level-open-item-ledger-entries.md)  

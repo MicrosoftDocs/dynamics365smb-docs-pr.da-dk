@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2f23357fde2dc86e0be0ee09099d57623056365c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d058b15ad55713a22ee70862f666301d36d53e0a
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444916"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060034"
 ---
 # <a name="work-with-bills-of-material"></a>Arbejde med styklister
 Du kan bruge styklister til at strukturere overordnede varer, der skal samles eller fremstilles af ressourcer eller produktionsressourcer fra komponenter. En montagestykliste kan også bruges til at sælge en overordnet vare som en pakke bestående af dens komponenter.
@@ -71,7 +72,7 @@ Fra siden **Montagestykliste** kan du åbne en separat side, der viser komponent
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Sådan erstattes montageelementet med dets komponenter på dokumentlinjer
 Du kan bruge en særlig funktion til at erstatte linjen for montageelementet med nye linjer til dets komponenter fra et salgs- og købsdokument, som indeholder et montageelement. Denne funktion er nyttig f.eks., hvis du vil sælge komponenterne som en pakke, der repræsenterer et montageelement.
 
-Funktionen Udfold stykliste er også tilgængelig på siden **Montagestykliste** og kan bruges til at se underordnede varer i alle halvfabrikata på en montagestykliste.
+Funktionen **Udfold stykliste** er også tilgængelig på siden **Montagestykliste** og kan bruges til at se underordnede varer i alle halvfabrikata på en montagestykliste.
 
 > [!CAUTION]  
 >  Når du har brugt funktionen **Udfold stykliste**, er det svært at annullere den igen. Du skal slette de salgsordrelinjer, der repræsenterer komponenterne og derefter indsætte en salgsordrelinje for montageelementet igen.

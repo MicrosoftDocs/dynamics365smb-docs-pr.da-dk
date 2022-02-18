@@ -1,7 +1,6 @@
 ---
 title: Administrere målgrupper og vælge kontakter
 description: I dette emne beskrives det, hvordan du kan oprette en målgruppe ved at vælge en gruppe kontakter i overensstemmelse med bestemte kriterier, der er nyere, så de kan knyttes til en kampagne.
-services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,14 +9,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
+ms.search.forms: 5150, 5142, 5140, 5141, 5144, 5091, 5143, 5093, 5092
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 6a058433fdd95e4fc78502dd54fbc948fa11a183
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 4a782c0e4fcb98243f7902d2564c79ca831b0955
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323589"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059774"
 ---
 # <a name="managing-segments"></a>Administrere målgrupper
 Du opretter målgrupper for at vælge en gruppe kontaktpersoner i overensstemmelse med bestemte kriterier. F.eks. kan en målgruppe være den branche, som kontaktpersonerne arbejder i, eller dine forretningsmæssige relationer med kontaktpersonerne. Du kan oprette en målgruppe for at vælge de kontaktpersoner, som er målet med en kampagne.

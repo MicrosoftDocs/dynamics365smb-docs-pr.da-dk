@@ -1,8 +1,6 @@
 ---
-title: Få vist poster, før du bogfører et dokument eller en kladde | Microsoft Docs
+title: Få vist poster, før du bogfører et dokument eller en kladde
 description: Du kan sikre dig, at poster for dokumenter og kladder er nøjagtige, før du bogfører dem i finansregnskabet.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -11,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: fc137cb8c45d935be28d5ededc435d2d4648f8bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3392698c48cd4d1febdf1e37d396ceed1ac37bf5
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441040"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101499"
 ---
 # <a name="preview-posting-results"></a>Vise bogføringsresultater
 På hvert dokument og kladde, som kan bogføres, kan du vælge knappen **Vis bogføring** for at se de forskellige typer poster, der oprettes, når du bogfører dokumentet eller kladden.

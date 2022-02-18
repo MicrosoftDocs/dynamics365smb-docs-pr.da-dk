@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.forms: 6520,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: a511cc2496d32f2feee7c684d073395db2ef8c5e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: cd9ca9b1b3aac2f1c531090342d5c43bfa64943e
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445622"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059878"
 ---
 # <a name="trace-item-tracked-items"></a>Spore vare via varesporing
 Du kan se, hvor en vare med varesporing er brugt, herunder hvordan og hvornår den blev modtaget eller fremstillet, overflyttet, solgt, forbrugt eller returneret. Du kan også finde alle aktuelle forekomster af et bestemt serienummer eller lotnummer i databasen. Du kan gøre dette ved hjælp af funktionerne Varesporing og [Find poster](ui-find-entries.md).  
@@ -32,25 +33,25 @@ Disse funktioner kan især være praktiske i kvalitetskontrol, når du vil finde
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varesporing**, og vælg derefter det relaterede link.  
 2.  Du kan angive bestemte varenumre i filterfelterne øverst på siden, eller du kan angive et filter for et interval af de varenumre, du vil spore.  
-3.  I feltet **Vis komponenter** kan du vælge, om du også vil se, hvor komponenterne til varerne stammer fra. Der er følgende indstillinger i feltet.  
+3.  I feltet **Vis komponenter** kan du vælge, om du vil se, hvor komponenterne til varerne stammer fra. Den følgende tabel beskriver indstillingerne.  
 
-    |Felt|Beskrivelse|  
+    |Felt|Beskrivlse|  
     |----------------------------------|---------------------------------------|  
-    |**Nej**|Vælg denne indstilling, hvis du ikke vil have vist nogen komponenter.|  
-    |**Kun varesporing**|Vælg denne indstilling, hvis du kun vil se de komponenter, der har lot- eller serienumre.|  
-    |**Alle**|Vælg denne indstilling, hvis du vil se alle komponenter.|  
+    |**Nej**|Vis ikke komponenter.|  
+    |**Kun varesporing**|Vis kun de komponenter, der har lot- eller serienumre.|  
+    |**Alle**|Vis alle komponenter.|  
 
-4.  Vælg den metode i feltet **Sporingsmetode**, du vil bruge til sporing af varen. Der findes følgende indstillinger  
+4.  Vælg den metode i feltet **Sporingsmetode**, du vil bruge til sporing af varen. Den følgende tabel beskriver indstillingerne.  
 
-    |Felt|Beskrivelse|  
+    |Felt|Beskrivlse|  
     |----------------------------------|---------------------------------------|  
-    |**Forbrug->Oprindelse**|Denne metode sporer varen ved at starte med, hvor den blev brugt til, hvor den kom fra. Hvis f.eks. en produceret vare blev solgt til en debitor, viser siden **Varesporing** dette med salgsleverancelinjen først, som du derefter kan udvide, så du kan se, hvilken produktionsordre den kom fra.|  
-    |**Oprindelse->Forbrug**|Denne metode sporer varen ved at starte med, hvor den ankommer til lageret, til hvor den blev brugt. Hvis f.eks. en produceret vare blev solgt til en debitor, viser siden **Varesporing** dette med den færdige produktionsordre først, som du derefter kan udvide, så du kan se, hvilken produktionsordre den kom fra.|  
+    |**Forbrug->Oprindelse**|Spor varen fra der, hvor den blev brugt til, hvor den kom fra. Hvis f.eks. en produceret vare blev solgt til en debitor, viser siden **Varesporing** dette med salgsleverancelinjen først, som du derefter kan udvide, så du kan se, hvilken produktionsordre den kom fra.|  
+    |**Oprindelse->Forbrug**|Spor varen fra der, hvor den kom til lagere til, hvor den kom blev anvendt. Hvis f.eks. en produceret vare blev solgt til en debitor, viser siden **Varesporing** dette med den færdige produktionsordre først, som du derefter kan udvide, så du kan se, hvilken produktionsordre den kom fra.|  
 
 5.  Vælg handlingen **Sporing** for at udføre sporingen.  
 
 > [!NOTE]  
->  Hvis du har modtaget det samme parti på flere transaktioner, viser siden **Varesporing** måske ikke alle transaktioner. Der vises kun de udlignede transaktioner.  
+>  Der vises kun de udlignede transaktioner. Hvis du har modtaget det samme parti på flere transaktioner, viser siden **Varesporing** måske ikke alle transaktioner.   
 
 > [!NOTE]  
 >  Hvis du allerede har sporet yderligere transaktionsoversigt under en varelinje fra en anden linje ovenfor, så vil afkrydsningsfeltet **Allerede sporet** være markeret. For at give en enklere visning, vises sådanne underliggende linjer ikke.  

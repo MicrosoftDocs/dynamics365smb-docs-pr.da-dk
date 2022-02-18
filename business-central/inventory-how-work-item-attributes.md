@@ -1,5 +1,5 @@
 ---
-title: Oprette vareattributter og tildele dem til varer | Microsoft Docs
+title: Konfigurere vareattributter og tildele dem til varer
 description: Bruges til at oprette vareattributværdier, der f.eks. kan bruges som søgeord, og knytte dem til varer og varekategorier.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: categories, search words, facets
+ms.search.forms: 7507, 7509, 7506, 7505, 7503, 7502, 7510, 7504, 7501, 7500, 9110, 5734, 7508
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4ec2ab337c56b9110162b198c1cb656e605ebc8c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d2c8eec702840e6046eab362a867317091a9c3aa
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444891"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059356"
 ---
 # <a name="work-with-item-attributes"></a>Arbejde med vareattributter
 Når kunder forespørger om en vare, enten via korrespondance eller en integreret en webshop, kan de spørge eller søge ud fra egenskaber som f.eks højde og modelår. For at yde denne kundeservice kan du tildele vareattributværdier af forskellige typer til dine varer, som kan bruges ved søgning efter varer.
