@@ -3,22 +3,22 @@ title: Designoplysninger – Forsyningsplanlægning | Microsoft Docs
 description: Dette emne indeholder en oversigt over de begreber og principper, der bruges inden for forsyningsplanlægningsfunktionerne i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, supply, planning, reordering, replenishment
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 78b5700646d95d9cdc38a7a67663473fafddaa2c
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 8b364aef69ab7b9e036caebe2f60387982cd9221
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214824"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184654"
 ---
 # <a name="design-details-supply-planning"></a>Designoplysninger: Forsyningsplanlægning
-Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges inden for forsyningsplanlægningsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)].  
+Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges inden for forsyningsplanlægningsfunktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Det forklarer, hvordan planlægningssystemet fungerer, og hvordan du justerer algoritmer for at opfylde planlægningsbehov i forskellige miljøer. Det introducerer først centrale løsningsbegreber og beskriver derefter logikken i den centrale mekanisme, forsyningsafstemning, før du fortsætter med at forklare, hvordan lagerplanlægningen udføres med brug af genbestillingsmetoder.  
 
@@ -31,6 +31,3 @@ Det forklarer, hvordan planlægningssystemet fungerer, og hvordan du justerer al
 [Designoplysninger: Tabellen Planlægningsopgave](design-details-planning-assignment-table.md)  
 [Designoplysninger: Behov på lokationen TOM](design-details-demand-at-blank-location.md)  
 [Designoplysninger: Overførsler i planlægning](design-details-transfers-in-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

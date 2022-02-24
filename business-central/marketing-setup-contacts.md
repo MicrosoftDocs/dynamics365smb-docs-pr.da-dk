@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: ed9a7b84798ac7b0bf103329c9e06ea0468aa03b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 69e5cbb897527a903594af893c0af44a48dbee27
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788073"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181240"
 ---
 # <a name="set-up-contacts"></a>Opsætning af kontakter
 Når du opretter kontakter, kan du angive specifikke oplysninger, f.eks. den branche som kontakten tilhører og dine forretningsmæssige forhold til kontakterne.
@@ -149,7 +149,7 @@ Ved kopieringen af felter overskrives de standardværdier, du har defineret. Hvi
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synkronisering af kontakter med debitorer, kreditorer og bankkonti
 Hvis du vil synkronisere kontaktkortet med et tilknyttet debitor-, kreditor- eller bankkontokort, skal du udfylde det relevante felt i sektionen **Forretningsrelationskode for** i oversigtspanelet **Interaktioner** på siden **Marketingopsætning**.  
 
-Du kan finde flere oplysninger i [Synkronisering af kontakter med debitorer, kreditorer og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
+Du kan finde flere oplysninger under [Synkronisering af kontakter med debitorer, kreditorer og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Søgning efter dublerede kontakter
 Du kan vælge at lade programmet søge automatisk efter dubletter, hver gang du opretter en kontakt, eller du kan vælge at søge manuelt, når du har oprettet kontakten. Du kan også vælge at lade programmet opdatere søgestrenge automatisk, hver gang du har ændret kontaktoplysninger eller oprettet en kontakt. Du kan angive hitprocenten til søgning, dvs. den procentdel identiske strenge som to kontakter skal have, før de betragtes som dubletter. Du opretter dette i oversigtspanelet **Dubletter** på siden **Marketingopsætning**.
@@ -160,7 +160,4 @@ Når du har fundet en dubleret kontakt, kan du bruge siden **Flet dublet** til a
 [Administrere kontakter](marketing-contacts.md)  
 [Oprette kontakter](marketing-create-contact-companies.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

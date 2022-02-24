@@ -1,21 +1,21 @@
 ---
-title: Designoplysninger - Tabellen Planlægningsopgave
-description: Dette emne giver indblik i, hvad der sker, når en ændring i behovs-eller forsyningsmønstret kræver, at du beregner, hvordan du planlægger en vare.
+title: Designoplysninger – Tabellen Planlægningsopgave | Microsoft Docs
+description: Dette emne indeholder indsigt i, hvad der sker, når du ændrer den måde, du planlægger på for en vare.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: cdd16d0f3143701ca53125ef74f91ae5bd143f1c
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 4002bc464f012cfd279db91047ed98ec1193cb36
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321591"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184912"
 ---
 # <a name="design-details-planning-assignment-table"></a>Designoplysninger: Tabellen Planlægningsopgave
 Der skal foretages planlægning for alle varer, men der er ingen grund til at beregne en plan for en vare, medmindre der er sket en ændring i mønstret for behov eller forsyning, siden sidst en plan blev beregnet.  
@@ -67,6 +67,3 @@ Ved beregning af en hovedplan eller en MRP gælder følgende begrænsninger:
 [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
 [Designoplysninger: Overførsler i planlægning](design-details-transfers-in-planning.md)   
 [Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

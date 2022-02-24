@@ -1,40 +1,36 @@
 ---
-title: Oversigt over overholdelse
-description: Oversigt over, hvordan Business Central-funktionalitet er baseret på en platform, der gør det nemt for kunderne at være i overensstemmelse med overholdelse og regulerende lovgivning.
+title: Overholdelse | Microsoft Docs
+description: Dette indhold indeholder oplysninger om overholdelse i relation til Business Central.
 author: sorenfriisalexandersen
 documentationcenter: ''
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: 3995d8c22dbcadbff5aa19e3d1574d75802f9db4
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: f11428a5375627b5ec5529e2d667b598494fb5a9
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011015"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185901"
 ---
-# <a name="compliance-overview"></a>Oversigt over overholdelse
+# <a name="compliance"></a>Overholdelse
+Dette indhold indeholder oplysninger om overholdelse i relation til [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
 
-Dette indhold indeholder oplysninger om overholdelse i relation til [!INCLUDE[prod_short](../includes/prod_short.md)].  
+Overholdelse er et emne med stigende interesse og i hele udviklingen i Business Central har vi sikret, at produktet giver kunder og partnere vide rammer og ikke pålægger blokeringer med hensyn til overholdelse. Tværtimod indeholder Business Central funktionalitet og er baseret på en platform, der gør det nemt for kunderne at være i overensstemmelse med overholdelse og regulerende lovgivning.
 
-Overholdelse er et emne med stigende interesse og gennem hele udviklingen af Business Central har vi sikret, at produktet giver kunder og partnere vide rammer og ikke forhindrer overholdelsen. Tværtimod indeholder Business Central funktionalitet og er baseret på en platform, der gør det nemt for kunderne at være i overensstemmelse med overholdelse og regulerende lovgivning.
+I dette afsnit kan du læse mere om vores tilgang til overholdelse fra et programmæssigt, servicemæssigt og landespecifikt perspektiv.
 
-I dette afsnit kan du læse mere om vores tilgang til overholdelse set ud fra applikation, service og landespecifikke krav.
-
-|**Hvis du vil**|**Se**|  
+|**For at**|**Skal du se**|  
 |------------|-------------|  
-|Få mere at vide om overholdelse set ud fra applikationen, herunder bl.a. GDPR og internationale bogføringsstandarder.|[Programoverholdelse](compliance-application-compliance.md)|  
+|Få mere at vide om overholdelse fra et programmæssigt synspunkt, f.eks. GDPR og internationale bogføringsstandarder og meget mere.|[Programoverholdelse](compliance-application-compliance.md)|  
 |Få mere at vide om overholdelse på serviceniveauet og de metoder, der er brugt på platformen til at sikre Business Central en serviceoverholdelse, der er den bedste inden for klassen.|[Tjenesteoverholdelse](compliance-service-compliance.md)|  
 |Få vist oplysninger om forskellige certificeringer i relation til Business Central. Her finder du oplysninger om generelle certificeringer og landespecifikke certificeringer.|[Certificeringer](compliance-certifications.md)|  
 |Lære om vilkårene for serviceniveauaftalen og andre vilkår for service|[Servicebetingelser](compliance-service-compliance.md#service-terms)|  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  

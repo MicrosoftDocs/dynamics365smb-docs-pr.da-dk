@@ -1,26 +1,26 @@
 ---
-title: Konfiguration af API-skabeloner
+title: Konfiguration af API-skabeloner | Microsoft Docs
 description: Beskriver de trin, du skal udføre for at konfigurere API-skabeloner til Dynamics 365 Business Central.
+services: project-madeira
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
-ms.search.form: 5469
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: solsen
-ms.openlocfilehash: f5f081e4d0042333549453a3ad6af5a05a0e6ca0
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 7e21da444f8dc8858ebe0e5f65335311dfb2a5e7
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011252"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187384"
 ---
 # <a name="configuring-api-templates"></a>Konfiguration af API-skabeloner
-
-API-biblioteket til [!INCLUDE[prod_short_md](includes/prod_short.md)] giver en forenklet fremstilling af de underliggende objekter. Det er ikke alle egenskaber i programmet, der vises ved hjælp af den tilknyttede API. På siden **API-opsætning** kan du definere skabeloner, der bruges til at angive tomme egenskaber for en enhed, når du opretter en BOGF-handling via API'et. 
+API-biblioteket til [!INCLUDE[d365fin_md](includes/d365fin_md.md)] giver en forenklet fremstilling af de underliggende objekter. Det er ikke alle egenskaber i programmet, der vises ved hjælp af den tilknyttede API. På siden **API-opsætning** kan du definere skabeloner, der bruges til at angive tomme egenskaber for en enhed, når du opretter en BOGF-handling via API'et. 
 
 Hvis en konfigurationsskabelon defineres for vareobjektet, når der oprettes en ny post ved hjælp af varer-API'et, bliver egenskaber for den nye vare, der ikke er defineret i API-kaldet, f.eks. udfyldt med oplysninger fra den valgte skabelon. Hvis der f.eks. ikke er angivet en værdi i feltet **Produktbogføringsgruppe** ved hjælp af API'et, men der er angivet en værdi i den valgte skabelon, bliver værdien for bogføringsgruppen i skabelonen anvendt på den nye vare. 
 
@@ -31,7 +31,7 @@ Hvis du vil bruge skabeloner med API-biblioteket, skal du først oprette og defi
 
 Hvis du vil tildele en skabelon til en API, skal du udføre følgende trin.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **API-konfiguration**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **API-opsætning**, og vælg derefter det relaterede link.
 2. Vælg **Ny**, og vælg derefter **Rækkefølge**-værdien for posten.  
 Hvis der er valgt mere end én skabelon for et API (side-id), anvendes skabelonerne i den rækkefølge, der er defineret i kolonnen **Rækkefølge**.   
 Når hver skabelon anvendes, anvendes feltværdier, der er defineret i skabelonen, kun til felter, der ikke allerede har en defineret værdi, enten direkte i API'et eller i en tidligere anvendt skabelon i rækkefølgen. 
@@ -44,10 +44,8 @@ Den definerede skabelon anvendes på en ny post, der oprettes via API'et, hvis o
 
 ## <a name="see-also"></a>Se også
 [API-dokumentation](/dynamics-nav/fin-graph)  
-[Udvikle Connect-apps til [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
+[Udvikle Connect-apps til [!INCLUDE[d365fin_md](includes/d365fin_md.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
 [Aktivere API'erne](/dynamics-nav/enabling-apis-for-dynamics-nav)  
 [Slutpunkter for API'erne](/dynamics-nav/endpoints-apis-for-dynamics)  
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Opsætning](admin-setup-and-administration.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

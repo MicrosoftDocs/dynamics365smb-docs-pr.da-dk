@@ -1,47 +1,41 @@
 ---
-title: Konfigurere kontantkunder
-description: I dette emne beskrives de trin, der er nødvendige for at oprette fakturaen med et debitornummer for debitorer, der betaler kontant.
+title: Sådan angives kontantkunder | Microsoft Docs
+description: Dette emne beskriver trinnene i opsætning af debitor, som betaler kontant.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 21, 22
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 7b021b957d2984d2b2ea239c1e8f737d90071215
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: ebef3cd903472a22a9e2676d0856107da3be9c0a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973436"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183304"
 ---
 # <a name="set-up-cash-customers"></a>Konfigurere kontantkunder
-
 Du kan ikke oprette en faktura uden et debitornummer. Det gælder også, hvis du sælger kontant og ikke har noget at registrere i en kundekonto.  
 
-## <a name="to-set-up-a-cash-customer"></a>Definere en kontantkunde
-
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Debitor**, og vælg derefter det relaterede link.  
-2. Opret et nyt kort for en **Kunde**. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).
-3. I feltet **Nummer** skal du f.eks. angive **Kontant**.  
-4. Angiv f.eks. **Kontantsalg** i feltet **Navn**.  
-5. I oversigtspanelet **Fakturering** skal du udfylde felterne **Debitorbogføringsgruppe** og feltet **Virksomhedsbogføringsgruppe**.  
+## <a name="to-set-up-a-cash-customer"></a>Definere en kontantkunde  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kunde**, og vælg derefter det relaterede link.  
+2.  Opret et nyt kort for en **Kunde**. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).
+3.  I feltet **Nummer** skal du f.eks. angive **Kontant**.  
+4.  Angiv f.eks. **Kontantsalg** i feltet **Navn**.  
+5.  I oversigtspanelet **Fakturering** skal du udfylde felterne **Debitorbogføringsgruppe** og feltet **Virksomhedsbogføringsgruppe**.  
 
  Du har nu angivet en debitor, der indeholder tilstrækkelige oplysninger til fakturering.  
 
 > [!NOTE]  
-> Du kan vælge en bogføringsgruppe, der også anvendes til indenlandsk kreditsalg. Hvis du vil have separate salgstal for kontantsalg, f.eks. på en særlig salgskonto, kan du angive en ekstra bogføringsgruppe til dette formål.  
->
-> Du skal angive et nummer til salgskonto for bogføringsgruppen, også selvom saldoen altid vil være 0, når du har bogført en faktura.  
+>  Du kan vælge en bogføringsgruppe, der også anvendes til indenlandsk kreditsalg. Hvis du vil have separate salgstal for kontantsalg, f.eks. på en særlig salgskonto, kan du angive en ekstra bogføringsgruppe til dette formål.  
+>   
+>  Du skal angive et nummer til salgskonto for bogføringsgruppen, også selvom saldoen altid vil være 0, når du har bogført en faktura.  
 
 ## <a name="see-also"></a>Se også
-
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
-[Registrere nye debitorer](sales-how-register-new-customers.md)
-[Finance](finance.md)  
+[Registrere nye debitorer](sales-how-register-new-customers.md)    
+[Finans](finance.md)  
 
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

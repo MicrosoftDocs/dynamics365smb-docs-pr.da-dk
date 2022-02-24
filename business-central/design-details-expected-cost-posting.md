@@ -1,21 +1,21 @@
 ---
-title: Designoplysninger – Bogføring af forventet kostpris
+title: Designoplysninger – Bogf. af forventet kostpris | Microsoft Docs
 description: Forventede kostpriser repræsenterer et overslag over f.eks. en købt vares omkostninger, som du registrerer, før du modtager fakturaen for varen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/20/2021
-ms.author: edupont
-ms.openlocfilehash: 1327eaf9a26ff2bbf8aa3dab8f2e7f64b8f00ab4
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 024d80039c2293924a53db31ea998a7b565c333b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649833"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185488"
 ---
 # <a name="design-details-expected-cost-posting"></a>Designoplysninger: Bogføring af forventet kostpris
 Forventede kostpriser repræsenterer et overslag over f.eks. en købt vares omkostninger, som du registrerer, før du modtager fakturaen for varen.  
@@ -29,22 +29,10 @@ Forventede kostpriser repræsenterer et overslag over f.eks. en købt vares omko
 
  Den fakturerede værdipost viser det forventede kostbeløb, der er bogført for at udligne mellemregningskontiene for at understøtte afstemnings- og sporingsarbejde.  
 
-## <a name="prerequisites-for-posting-expected-costs"></a>Forudsætninger for bogføring af forventet kostpris
-
-Hvis du vil bogføre forventede kostpriser, skal du gøre følgende:
-1. Markér afkrydsningsfeltet **Aut. lagerværdibogføring** og **Bogføring af forventet kostpris** på siden **Lageropsætning**.
-2. Konfigurer, hvilke mellemregnings der skal bruges i bogføringen af den forventede kostpris.  
-
-  På siden **Varebogføringsopsætning** skal du kontrollere felterne **Lagerkonto** og **Lagerkonto (mellemkonto)** for **Lokationskode og varebogføringsgruppekode** for den vare, der skal købes. Du kan få mere at vide om disse konti i [Designdetaljer - Konti i Finans](design-details-accounts-in-the-general-ledger.md).
-3. På siden **Bogføringsopsætning** skal du kontrollere feltet **Periodiseringskonto (foreløbig)** for den **Virksomhedsbogføringsgruppe** og **Produktbogføringsgruppe**, som du bruger.
-4. Når du opretter en købsordre, er det standard, at feltet **Kreditors fakturanr.** skal udfyldes. Du skal slå dette fra på siden **Opsætning af indkøb og gæld** ved at fjerne markeringen af feltet **Eksternt bilagsnr. obl.**.
-
 ## <a name="example"></a>Eksempel  
+ Nedenstående eksempel viser forventet kostpris, hvis afkrydsningsfelterne **Aut. lagerværdibogføring** og **Bogf. af forventet kostpris** er markeret på siden **Opsætning af lager**.  
 
-> [!NOTE]  
-> De kontonumre, der bruges i dette eksempel, er kun eksempler og vil være anderledes i dit system. Konfigurer dem som anvist i forudsætningerne ovenfor.
-
-Du kan bogføre en købsordre som modtaget. Den forventede kostpris er 95,00 RV.  
+ Du kan bogføre en købsordre som modtaget. Den forventede kostpris er 95,00 RV.  
 
  **Værdiposter**  
 
@@ -85,7 +73,7 @@ Du kan bogføre en købsordre som modtaget. Den forventede kostpris er 95,00 RV.
 
  **Finansposter**  
 
-|Bogføringsdato|Finanskonto|Kontonr. (kun eksempler!)|Beløb|Løbenr.|  
+|Bogføringsdato|Finanskonto|Kontonummer (En-US Demo)|Beløb|Løbenr.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
 |01-15-20|Lagerperiodekonto (mellemregningskonto)|5530|95,00|4|  
 |01-15-20|Lagerkonto (mellemregningskonto)|2131|-95,00|3|  
@@ -100,7 +88,4 @@ Du kan bogføre en købsordre som modtaget. Den forventede kostpris er 95,00 RV.
  [Designoplysninger: Afvigelse](design-details-variance.md)  
  [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

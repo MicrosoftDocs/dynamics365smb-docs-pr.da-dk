@@ -1,27 +1,27 @@
 ---
-title: Servicestyring
-description: Lære, hvordan du bruger funktioner i Business Central designet til at administrere og spore services til understøttelse af reparationsservice og servicehandlinger.
+title: Service | Microsoft Docs
+description: Lær at bruge funktioner, der er udviklet til at understøtte reparations- og teknisk service-handlinger.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 4e3f85ae3bc5f8672f148ad04388e5810cefb45f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6490ad13833c97c79c232b6433b4b2f51e51bc4f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320077"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192359"
 ---
-# <a name="service-management"></a>Servicestyring
+# <a name="service-management"></a>Service Management
 > [!NOTE]
 > Funktioner, der beskrives i dette emne og underordnede emner, er kun synlige i brugergrænsefladen, hvis du har oplevelsen **Premium**. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
 
-En vigtig del af enhver virksomhed er at yde løbende service til kunderne, og det kan være en kilde til såvel kundetilfredshed og -loyalitet i tillæg til indtjening. Administration og sporing af service er dog ikke altid let, men [!INCLUDE[prod_short](includes/prod_short.md)] indeholder et sæt værktøjer, der kan være en hjælp. Disse værktøjer er designet til at understøtte operationer for reparationsværksteder og feltservice og kan bruges i forretningsscenarier som f.eks. komplicerede servicedistributionssystemer, industrielle servicemiljøer med styklister og masseekspedition af serviceteknikere med behov for administration af reservedele.  
+En vigtig del af enhver virksomhed er at yde løbende service til kunderne, og det kan være en kilde til såvel kundetilfredshed og -loyalitet i tillæg til indtjening. Administration og sporing af service er dog ikke altid let, men [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder et sæt værktøjer, der kan være en hjælp. Disse værktøjer er designet til at understøtte operationer for reparationsværksteder og feltservice og kan bruges i forretningsscenarier som f.eks. komplicerede servicedistributionssystemer, industrielle servicemiljøer med styklister og masseekspedition af serviceteknikere med behov for administration af reservedele.  
 
  Med disse værktøjer kan du udføre følgende:  
 
@@ -46,9 +46,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 ## <a name="see-also"></a>Se også  
 [Administrere tilgodehavender](receivables-manage-receivables.md)   
 [Sager](projects-how-create-jobs.md)   
-[Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)
+[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](index.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

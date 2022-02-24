@@ -1,21 +1,21 @@
 ---
-title: Administrere lageromkostninger
-description: Omkostningsadministration handler om registrering og rapportering af virksomhedens driftsomkostninger, herunder rapportering af produktionsomkostninger og lageromkostninger.
+title: Administrere lageromkostninger | Microsoft Docs
+description: Omkostningsadministration, også kendt som "costing", vedrører registrering og rapportering af virksomhedens driftsomkostninger. Den omfatter rapportering af produktionsomkostninger og lageromkostninger, dvs. værdien af varer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 561401c985fc0e2f25c4f6e719252d19e76e7fe8
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 34912c7f87823bf6f51ca97ff579ce34c0900d69
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688327"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182992"
 ---
 # <a name="managing-inventory-costs"></a>Administrere lageromkostninger
 Omkostningsadministration, også kendt som "costing", vedrører registrering og rapportering af virksomhedens driftsomkostninger. Den omfatter rapportering af produktionsomkostninger og lageromkostninger, dvs. værdien af varer.   
@@ -26,8 +26,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Læs forskellige begrebsmæssige oplysninger for at forstå de principper og definitioner, der styrer funktionaliteten for lageromkostningsregnskab i [!INCLUDE[prod_short](includes/prod_short.md)].|[Om lagerkostmetode](finance-learn-about-costing.md)|  
-|Du kan sikre dig, at du kender omkostningerne for leverede varer ved at tildele ekstra vareomkostninger, f.eks. fragt, fysisk håndtering, forsikring og transport, som du har efter salg af varer.|[Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md)|
+|Læs forskellige begrebsmæssige oplysninger for at forstå de principper og definitioner, der styrer funktionaliteten for lageromkostningsregnskab i [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Om lagerkostmetode](finance-learn-about-costing.md)|  
 |Få mere at vide om alle mekanismerne i kostsystemet.|[Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)|
 |Læse, hvordan lagerperioder hjælper en virksomhed med at styre lagerværdi over tid, hvis der defineres kortere perioder, hvor der kan være lukket for bogføringer, efterhånden som regnskabsåret skrider frem.|[Arbejde med lagerperioder](finance-how-to-work-with-inventory-periods.md)|
 |Læse om årsagen til, at standardomkostninger ofte bruges af produktionsvirksomheder som værdigrundlag for komponenter og varer.|[Om beregning af standardomkostning](finance-about-calculating-standard-cost.md)|
@@ -37,15 +36,11 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Brug særlige prisberegningsfunktioner for daglige transaktioner til operationer for varen.|[Håndtere lager- og produktionsomkostninger](finance-handle-inventory-and-manufacturing-costs.md)|  
 |Opdater regelmæssigt standardkostprisen for komponenter i montage eller produktionsstyklister, og akkumuler de nye omkostninger til den overordnede vare.|[Opdatere standardkostpriser](finance-how-to-update-standard-costs.md)|
 |Se og rediger manuelt visse vareudligningsposter, der oprettes automatisk under lagerposteringer.|[Fjerne og genanvende vareposter](finance-how-to-remove-and-reapply-item-entries.md)|
-|Udfør periodeafslutningskontrol og rapporteringsopgaver som f.eks. beregning af lagerværdi og bogføring af omkostninger i finansregnskabet.|[Rapportere omkostninger og afstemme med regnskabet](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
-|Få mere at vide om, hvordan du kan bruge opgavekøen til at flytte opgaverne for at regulere lageromkostninger eller afstemme den med finansregnskabet i baggrunden.|[Regulere og afstemme lageromkostninger med finansregnskabet med opgavekø](finance-manage-inventory-costs.md)|
+|Udføre periodeafslutningskontrol og rapporteringsopgaver, f.eks. beregning af lagerværdi og bogføring af omkostninger i finansposterne.|[Rapportere omkostninger og afstemme med regnskabet](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
 
 ## <a name="see-also"></a>Se også  
  [Finans](finance.md)  
  [Lagerbeholdning](inventory-manage-inventory.md)   
  [Salg](sales-manage-sales.md)   
  [Køb](purchasing-manage-purchasing.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

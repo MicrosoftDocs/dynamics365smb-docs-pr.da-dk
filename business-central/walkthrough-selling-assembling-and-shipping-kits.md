@@ -1,25 +1,27 @@
 ---
-title: Sælge, montere og levere pakker
-description: For at støtte en for JIT-lagerstrategi kan montageordrer automatisk oprettes og tilknyttes, så snart salgsordrelinjen er oprettet.
+title: Gennemgang - Salg, montering og levering af pakker | Microsoft Docs
+description: For at støtte en for JIT-lagerstrategi og muligheden for at tilpasse produkter til debitorkrav, kan montageordrer automatisk oprettes og tilknyttes, så snart salgsordrelinjen er oprettet. Kæden mellem salgsbehov og montagelevering giver salgsordrebehandlere mulighed for at tilpasse montageelementet automatisk og love leveringsdatoer i henhold til komponentens tilgængelighed. Desuden bogføres montageforbrug og afgang automatisk med leverancen af den tilknyttede salgsordre.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: f14defdd15acd82df76d1446b56d86ecda6e3cb6
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: ebadd0eb4fce42b66ef6b766f4518ed38c879a18
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445197"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553962"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gennemgang: Salg, montering og levering af pakker
 
-<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
+**Bemærk**: Denne gennemgang skal udføres på et demoregnskab med indstillingen **Fuld evaluering - Komplette eksempeldata**, der findes i sandkassemiljøet. Du kan finde flere oplysninger i [Oprette et sandkassemiljø](across-how-create-sandbox-environment.md).
 
 For at støtte en for JIT-lagerstrategi og muligheden for at tilpasse produkter til debitorkrav, kan montageordrer automatisk oprettes og tilknyttes, så snart salgsordrelinjen er oprettet. Kæden mellem salgsbehov og montagelevering giver salgsordrebehandlere mulighed for at tilpasse montageelementet automatisk og love leveringsdatoer i henhold til komponentens tilgængelighed. Desuden bogføres montageforbrug og afgang automatisk med leverancen af den tilknyttede salgsordre.  
 
@@ -37,7 +39,7 @@ Montageelementer er kendetegnet ved deres genbestillingssystem og montagestyklis
 -   Oprette en montagestykliste, der viser montagekomponenter og den ressource, der indgår i montageelementet.  
 
 ### <a name="selling-customized-assembly-items"></a>Sælge tilpassede montageelementer  
-[!INCLUDE[prod_short](includes/prod_short.md)] giver fleksibilitet til både at indtaste et lagerantal og en montage til ordre-mængde på én salgsordrelinje. Dette afsnit dækker følgende opgaver:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] giver fleksibilitet til både at indtaste et lagerantal og en montage til ordre-mængde på én salgsordrelinje. Dette afsnit dækker følgende opgaver:  
 
 -   Oprette en ren ATO-salgsordrelinje, hvor den fulde mængde ikke er tilgængelig, og som skal samles før afsendelse.  
 -   Tilpasse ATO elementer.  
@@ -79,20 +81,17 @@ Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:
 ## <a name="prerequisites"></a>Forudsætninger  
 Før du kan udføre opgaverne i denne gennemgang, skal du gøre følgende:  
 
--   Installer [!INCLUDE[prod_short](includes/prod_short.md)]  
+-   Installer [!INCLUDE[d365fin](includes/d365fin_md.md)]  
 -   Opret dig selv som en lagermedarbejder på lokationen HVID ved at følge disse trin:  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
 2.  Vælg feltet **Bruger-id**, og vælg din egen brugerkonto på siden **Brugere**.  
 3.  Angiv HVID i feltet **Lokationskode**.  
 4.  Markér feltet **Standard**.  
 
-> [!NOTE]
-> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
-
 Forbered placeringen HVID til montagebehandling ved at følge disse trin:  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
 2.  Åbn lokationskortet for lokationen HVID.  
 3.  I oversigtspanelet **Placering** skal du angive **W-10-0001** i feltet **Placeringskode til til-montage**.  
 
@@ -104,10 +103,10 @@ Forbered placeringen HVID til montagebehandling ved at følge disse trin:
 
 Fjern standardleveringstiden for interne processer ved at følge disse trin:  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Produktionsopsætning**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Produktionsopsætning**, og vælg derefter det relaterede link.  
 2.  På siden **Produktionsopsætning** i oversigtspanelet **Planlægning** skal du fjerne værdien i feltet **Standardsikkerhedstid**.  
 
-<!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
+Opret lager for montagekomponenter ved at følge [Klargøre eksempeldata](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).  
 
 ## <a name="story"></a>Historie  
 Den 23. januar modtager Susanne, der er salgsordrebehandler en ordre fra Enhedsbutikken på tre enheder af pakke B, som er et ATO-element. Alle tre enheder er tilpasset og skal indeholde det stærke grafikkort og en ekstra RAM-blok. Diskdrevene er opgraderet til DVD, fordi cd-drev ikke er tilgængelige. Susanne ved, at enhederne kan samles med det samme, så hun bevarer den foreslåede afsendelsesdato, der er den 23. januar.  
@@ -138,7 +137,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 ## <a name="prepare-sample-data"></a>Klargøre eksempeldata  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagerkladder**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerkladder**, og vælg derefter det relaterede link.  
 2.  Vælg feltet **Kladdenavn**, og vælg derefter standardkladden.  
 3.  Opret positive lagerreguleringer på lokationen HVID på arbejdsdatoen, 23. januar, ved at indtaste følgende oplysninger.  
 
@@ -155,14 +154,14 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Synkroniser derefter de nye lagerposter med lageret.  
 
-5.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varekladder**, og vælg derefter det relaterede link. Siden **Varekladde** åbnes.  
+5.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varekladder**, og vælg derefter det relaterede link. Siden **Varekladde** åbnes.  
 6.  Vælg handlingen **Beregn regulering (logistik)**.  
 7.  På siden **Beregn lagerregulering** skal du vælge knappen **OK**.  
 8.  På siden **Varekladde** skal du vælge handlingen **Bogfør** og derefter vælge knappen **Ja**.  
 
 ### <a name="creating-the-assembly-items"></a>Oprette montageelementer  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  Opret det første montageelement baseret på følgende oplysninger.  
 
@@ -213,7 +212,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 ### <a name="selling-the-assembly-items"></a>Sælge montageelementerne  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  Opret to salgsordrelinjer for debitor 62000, Enhedsbutikken, på datoen for arbejde med følgende oplysninger.  
 
@@ -266,7 +265,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 ### <a name="planning-for-the-unavailable-ats-items"></a>Planlægge for utilgængelige ATS-elementer  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Planlægningskladde**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Planlægsningskladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn totalplan**.  
 3.  På siden **Beregn plan** skal du angive følgende filtre.  
 
@@ -284,7 +283,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 ### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Montere og levere den første ATO-mængde  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagerleverancestatus**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerleverance**, og vælg derefter det relaterede link.  
 
     > [!NOTE]  
     >  I dette afsnit er den person, der er ansvarlig for leveringen, ansvarlig for registrering af det fuldførte ATO-montagearbejde på lagerleverancelinjen. Denne arbejdsproces, der kan opstå i miljøer, hvor montagearbejdet udføres af den person, der er ansvarlig for levering, eller af montagearbejdstagere i afsendelsesområdet.  
@@ -303,7 +302,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Dernæst skal du udføre vælgerens opgave.  
 
-4.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk**, og vælg derefter det relaterede link.  
+4.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pluk**, og vælg derefter det relaterede link.  
 5.  Åbn det lagerplukdokument, du oprettede i trin 3 i dette afsnit.  
 
     Bemærk værdien i feltet **Kildedokument**, og at alle pluklinjerne er til montagekomponenter.  
@@ -344,7 +343,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 ### <a name="assembling-and-recording-the-second-ato-quantity"></a>Montere og registrere den anden ATO-mængde  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Montageordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Montageordrer**, og vælg derefter det relaterede link.  
 
     Bemærk, at ATO-ordren for leverede enheder af pakke B stadig er på listen, selvom **Restantal** er tom. Dette skyldes, at den tilknyttede salgsordre stadig ikke er fuldt faktureret.  
 
@@ -368,7 +367,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 ### <a name="assembling-the-ats-quantity"></a>Montere ATS-antallet  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Montageordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Montageordrer**, og vælg derefter det relaterede link.  
 2.  Åbn montageordren på ti enheder af pakke A.  
 
     Bemærk, at feltet **Antal til montage** udfyldes med forventet antal.  
@@ -380,7 +379,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Dernæst skal du udføre vælgerens opgave.  
 
-5.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk**, og vælg derefter det relaterede link.  
+5.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pluk**, og vælg derefter det relaterede link.  
 6.  Åbn det lagerplukdokument, du oprettede i trin 4 i dette afsnit.  
 
      Fortsæt med at registrere plukket uden at ændre standardoplysningerne.  
@@ -396,7 +395,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 ### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Levere de resterende elementer delvist fra lager og delvist monteret til ordren  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagerleverancestatus**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerleverance**, og vælg derefter det relaterede link.  
 2.  Åbn seneste lagerleverance, der er oprettet til lokationen HVID.  
 
     Bemærk på linjen for ti enheder af pakke A, at feltet **Lever antal** og **Plukket antal** er tomt.  
@@ -407,7 +406,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Dernæst skal du udføre vælgerens sidste opgave for denne lagerleverance.  
 
-4.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk**, og vælg derefter det relaterede link.  
+4.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pluk**, og vælg derefter det relaterede link.  
 5.  Åbn det lagerplukdokument, du oprettede i trin 3 i dette afsnit.  
 
     Bemærk, at dette plukdokument er for montageelement, ikke for montagekomponenter.  
@@ -427,7 +426,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Lagerleverancedokumentet fjernes, hvilket angiver, at de involverede lageraktiviteter er fuldført. Dernæst skal du bekræfte, at salgsordren er blevet behandlet.  
 
-10. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link  
+10. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link  
 11. Åbn salgsordren for Enhedsbutikken.  
 
     Bemærk, at feltet **Leveret (antal)** indeholder den fulde mængde på begge linjer.  
@@ -443,7 +442,4 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
  [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)   
  [Designoplysninger: Internt lagerflow](design-details-internal-warehouse-flows.md)   
  [Designoplysninger: Udgående lagerflow](design-details-outbound-warehouse-flow.md)   
-<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Gennemgang: Automatisk planlægning af forsyninger](walkthrough-planning-supplies-automatically.md)

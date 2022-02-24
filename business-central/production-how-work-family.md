@@ -1,55 +1,49 @@
 ---
-title: Arbejde med produktionsfamilier i produktion
+title: Sådan bruges varefamilier i produktionen | Microsoft Docs
 description: Den vigtigste opgave i forbindelse med tilpasning af en basiskalender for din virksomhed eller en samarbejdspartner, er at angive eventuelle ændringer i statussen for arbejdsdage eller fridage.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000790, 99000791, 99000792, 99000793
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 70b545912b717a7a6f8753e2a1bf8a6442daefc4
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 483d78fcbb21cdfac8811c2bed06f591936577a9
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972667"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313008"
 ---
 # <a name="work-with-production-families"></a>Arbejde med produktionsfamilier
-
 En produktfamilie er en gruppe individuelle varer, hvis slægtskab er baseret på lighedspunkter i fremstillingsprocesserne. Ved hjælp af produktionsfamilier kan visse varer forarbejdes to eller flere gange i samme proces, hvilket optimerer materialeforbruget.
 
 I feltet **Antal** på siden **Familie** skal du angive det antal, der er produceret, når hele familien er produceret én gang.
 
 ## <a name="example"></a>Eksempel
-
 Ved en udstansning kan fire stk. af samme vare produceres fra et emne og ti stk. af en anden vare samtidig. Stansemaskinen vil udstanse alle 14 stykker i en arbejdsgang.
 
 Ved at oprette produktionsfamilier reduceres spildantallet, fordi det, der normalt ville være tilovers som spild ved produktion af store stykker, i stedet kan benyttes til at producere små stykker.
 
 ## <a name="to-set-up-a-production-family"></a>Sådan oprettes en produktionsfamilie
-
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **familier**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Familier**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-produce-based-on-a-production-family"></a>Sådan produceres på basis af en produktionsfamilie
-
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Fastlagt produktionsordrer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Fastlagte prod.ordrer**, og vælg derefter det relaterede link.
 2. Opret et ny produktionsordre. Du kan finde flere oplysninger i [Oprette produktionsordrer](production-how-to-create-production-orders.md).
 3. Vælg **Familie** i feltet **Kildetype**.  
 4. Vælg den relevante produktionsfamilie i feltet **Kildenr.**.
 
 ## <a name="see-also"></a>Se også
-
 [Oprette produktionsstyklister](production-how-to-create-production-boms.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  
-[Produktions-](production-manage-manufacturing.md)
-[planlægning](production-planning.md)   
+[Produktion](production-manage-manufacturing.md)    
+[Planlægning](production-planning.md)   
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

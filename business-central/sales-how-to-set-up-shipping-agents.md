@@ -1,26 +1,26 @@
 ---
-title: Sådan oprettes speditører
-description: Få mere at vide om, hvordan du opretter en kode for hver speditør og angiver beskrivende oplysninger om hver af dem og de tjenester, de yder.
+title: Sådan oprettes speditører | Microsoft Docs
+description: Du kan angive en kode for hver speditør og angive oplysninger om dem.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 1e74be125909db7f7d1c4301a33da1b12648e70a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d6a4bac4d540a65cc164029b23b063c8c9dbc1fb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440224"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192647"
 ---
 # <a name="set-up-shipping-agents"></a>Oprette speditører
 Du kan angive en kode for hver speditør og angive oplysninger om dem.  
 
-Hvis du angiver en internetadresse for speditøren, og denne tilbyder pakkesporing over internettet, kan du anvende programmets automatiske pakkesporingsfunktion. Du kan finde flere oplysninger i [Spore pakker](sales-how-track-packages.md).
+Hvis du angiver en internetadresse for speditøren, og denne tilbyder pakkesporing over internettet, kan du anvende programmets automatiske pakkesporingsfunktion. Du kan finde flere oplysninger under [Spore pakker](sales-how-track-packages.md).
 
 Når du angiver speditører i salgsordrerne, kan du også angive den service, som den enkelte speditør tilbyder.  
 Du kan angive et ubegrænset antal serviceydelser for hver speditør, og du kan angive en transporttid for hver service.  
@@ -28,7 +28,7 @@ Du kan angive et ubegrænset antal serviceydelser for hver speditør, og du kan 
 Når du har tilknyttet en speditørservice til salgsordrelinjen, medtages transporttiden for den pågældende service i beregningen af ordrebekræftelsen for linjen. Du kan finde flere oplysninger i [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>Sådan oprettes en speditør  
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Speditører**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Speditører**, og vælg derefter det relaterede link.  
 2.  Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Vælg handlingen **Speditørservice**.
 4. I feltet **Speditørservice** skal du udfylde felterne efter behov.
@@ -41,10 +41,7 @@ Når du har tilknyttet en speditørservice til salgsordrelinjen, medtages transp
 [Spore pakker](sales-how-track-packages.md)    
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
+[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Designoplysninger: Logistik](design-details-warehouse-management.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

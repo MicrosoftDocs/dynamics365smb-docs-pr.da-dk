@@ -1,29 +1,32 @@
 ---
-title: Hvorfor kan jeg ikke tilpasse en side
+title: Hvorfor kan jeg ikke tilpasse en side | Microsoft Docs
 description: Forklarer, hvorfor du ikke kan tilpasse en side, og hvad du kan gøre for at låse den op, så du kan tilpasse den.
-author: SorenGP
+author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 74fbbefaaf9ef62c1241032b09cdf1f40b1b4bd1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2019
+ms.author: jswymer
+ms.openlocfilehash: 1a3edaca2e76388d82ea8991c3196410dd9c7288
+ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445893"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "1796753"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Hvorfor er en side låst mod tilpasning
 
-Der er to forhold, der forhindrer dig i at tilpasse en side. Enten er siden låst (som angivet med ikonet for ![Tilpasning låst.](media/personalization-lock-icon.png "Tilpasning låst")), eller også er den spærret (angivet med ikonet for ![Tilpasning spærret.](media/personalization-blocked-icon.png "Tilpasning blokeret") ikon).
+Der er to forhold, der forhindrer dig i at tilpasse en side. Enten er siden låst (som angivet af ![Tilpasning låst](media/personalization-lock-icon.png "Tilpasning låst")), eller den er spærret (som angivet af ![Tilpasning spærret](media/personalization-blocked-icon.png "Tilpasning spærret")).
 
 ## <a name="locked-from-personalizing"></a>Låst mod tilpasning
 
-Hvis der er en ![Tilpasning låst.](media/personalization-lock-icon.png "Tilpasning låst") ikon i bjælken **Tilpasning**, når du åbner en side (som vist), betyder det, at du i øjeblikket er forhindret i at foretage flere tilpasningsændringer af siden.
+Hvis der er et ikon ![Tilpasning låst](media/personalization-lock-icon.png "Tilpasning låst") i banneret **Tilpasning**, når du åbner en side (som vist), betyder det, at du i øjeblikket er forhindret i at foretage flere tilpasningsændringer af siden.
+
+![Tilpasning låst](media/personalization-locked.png "Tilpasning låst")
+
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -38,7 +41,7 @@ Der kan være to grunde til dette:
 
 ### <a name="unlocking-the-page"></a>Oplåsning af siden
 
-Hvis du vil låse en side op og fortsætte med at tilpasse den, skal du vælge ikonet ![Tilpasning låst](media/personalization-lock-icon.png "Tilpasning låst") og derefter vælge handlingen **Lås op**.  
+Hvis du vil låse en side op og fortsætte med at tilpasse den, skal du vælge ![Tilpasning låst](media/personalization-lock-icon.png "Tilpasning låst") og derefter **Lås op**.  
 
 Før du låser siden op, skal du være opmærksom på følgende:
 
@@ -48,17 +51,14 @@ Før du låser siden op, skal du være opmærksom på følgende:
 
 ## <a name="blocked-from-personalizing"></a>Spærret mod tilpasning
 
-Hvis du kan se ikonet ![Tilpasning spærret](media/personalization-blocked-icon.png "Tilpasning blokeret") i banneret **Tilpasning**, betyder det, at du ikke kan foretage nogen form for tilpasning af siden.
+Hvis der er et ikon ![Tilpasning spærret](media/personalization-blocked-icon.png "Tilpasning spærret") i banneret Tilpasning, betyder det, at du er spærret mod at foretage nogen form for tilpasning af siden.
 
-<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked.](media/personalization-blocked.png "Personalize lock") -->
+![Tilpasning spærret](media/personalization-blocked.png "Tilpasning låst")
 
-Det skyldes, at det rollecenter eller den rolle, der aktuelt er knyttet til brugerkontoen, ændrer denne side specifikt til din rolle. Kontakt din administrator for at få hjælp. Du kan også prøve at skifte til et rollecenter, der omfatter rolletilpasning for denne side. Du kan finde flere oplysninger i [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).
+Det skyldes, at det rollecenter eller den rolle, der aktuelt er knyttet til brugerkontoen, ændrer denne side specifikt til din rolle. Du kan kontakte systemadministratoren for at få hjælp, eller også kan du, hvis det giver mening, forsøge at skifte til et Rollecenter (fra [**Mine indstillinger**](https://businesscentral.dynamics.com?page=9176 "Gå direkte til siden med dine brugerindstillinger i Business Central")), der inkluderer specifik tilpasning til rollen for denne side.
 
 ## <a name="see-also"></a>Se også
-[Tilpasse dit arbejdsområde](ui-personalization-user.md)  
-[Tilpasse sider til profiler](ui-personalization-manage.md)  
-[Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
+[Tilpasse dit arbejdsområde](ui-personalization-manage.md)  
+[Administration af tilpasning](ui-personalization-manage.md)  
+[Ændring af grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

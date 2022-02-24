@@ -1,21 +1,21 @@
 ---
-title: 'Fremgangsmåde: Oprette brugere til arbejdsgange'
-description: Før du kan oprette arbejdsgange, skal du konfigurere de brugere, der indgår i arbejdsgangen på siden med brugergruppe.
+title: Sådan konfigurerer du brugere til arbejdsgange | Microsoft Docs
+description: Før du kan oprette arbejdsgange, skal du konfigurere de brugere, der indgår i arbejdsgangene. Dette er nødvendigt f.eks. for at angive, hvem der skal modtage en besked om at udføre trin i en arbejdsgang.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 06/11/2021
-ms.author: edupont
-ms.openlocfilehash: 2a6ee1b7fd7a65dba36bae95c8981657b6307bfb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 06/08/2020
+ms.author: sgroespe
+ms.openlocfilehash: ba6508c9679923836092ba4df9d3453a39f7fd9b
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439916"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454267"
 ---
 # <a name="set-up-workflow-users"></a>Oprette brugere til arbejdsgange
 
@@ -26,13 +26,13 @@ På siden **Brugergruppe for workflow** kan du konfigurere brugere under workflo
 Workflowbrugere, der fungerer som godkendelsesbrugere, både godkendelsesanmodere og godkendere, skal også først konfigureres som workflowbrugere på siden **Konfiguration af godkendelsesbruger**. Du kan finde flere oplysninger i [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  
 
 > [!NOTE]  
-> Hvis du vil angive, at en godkendelsesanmodning ikke er godkendt, før flere godkendere i en godkendelseskæde har godkendt den, skal du konfigurere godkendere i et hierarki. For godkendertypen **Godkender** skal du konfigurere godkendere på siden **Konfiguration af godkendelsesbruger**. For godkendertypen **Brugergruppe for workflow** skal du konfigurere godkendere på siden **Brugergrupper for workflow** og definere hierarkiet ved at tildele trinvise tal til hver enkelt godkender i feltet **Rækkefølgenr.**. . Du kan finde flere oplysninger i [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md) og i følgende afsnit.  
+> Hvis du vil angive, at en godkendelsesanmodning ikke er godkendt, før flere godkendere i en godkendelseskæde har godkendt den, skal du konfigurere godkendere i et hierarki. For godkendertypen **Godkender** skal du konfigurere godkendere på siden **Konfiguration af godkendelsesbruger**. For godkendertypen **Brugergruppe for workflow** skal du konfigurere godkendere på siden **Brugergrupper for workflow** og definere hierarkiet ved at tildele trinvise tal til hver enkelt godkender i feltet **Rækkefølgenr.**. . Du kan finde flere oplysninger under [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md) og i følgende afsnit.  
 >
 > Hvis du vil angive, at en godkendelsesanmodning ikke er godkendt, før flere lige godkendere har godkendt den, uanset et hierarki, skal du oprette en simpel brugergruppe til en arbejdsgang. For godkendertypen **Brugergruppe for workflow** skal du konfigurere godkendere på siden **Brugergrupper for workflow** og tildele det samme nummer til hver godkender feltet **Rækkefølgenr.**. . Du kan finde flere oplysninger i følgende afsnit.  
 
 ## <a name="to-set-up-a-workflow-user"></a>Sådan oprettes en arbejdsgangsbruger
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Arbejdsflow brugergrupper**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugergrupper for workflow**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. Siden **Brugergruppe for workflow** åbnes.  
 3. I feltet **Kode** skal du angive op til 20 tegn for at identificere workflowet.  
 4. I feltet **Beskrivelse** skal du beskrive workflowet.  
@@ -52,6 +52,3 @@ Workflowbrugere, der fungerer som godkendelsesbrugere, både godkendelsesanmoder
 [Anvende workflows](across-use-workflows.md)  
 [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Workflow](across-workflow.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

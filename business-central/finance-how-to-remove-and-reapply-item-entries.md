@@ -1,21 +1,21 @@
 ---
-title: Fjerne og genanvende vareposter
+title: Sådan fjerner og genanvender du vareposter | Microsoft Docs
 description: Du kan få vist og manuelt ændre visse vareudligningsposter, der oprettes automatisk under lagerposteringer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 506, 521, 9125
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 9ec35c8f618a916661018719b4da05f7e2b43566
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: cf3ed7552d3b9bfef3c787e03357279f4ad4fc93
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971012"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183328"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Fjerne og genanvende vareposter
 På siden **Udligningskladde** kan du få vist og manuelt ændre visse vareudligningsposter, der oprettes automatisk under lagertransaktioner.  
@@ -36,13 +36,12 @@ Hvis du ikke kan bruge et dokument til genudligning, f.eks når du skal rette en
 > Det er vigtigt at overveje følgende ting, når du arbejder med applikationskladden:
     - Du bør ikke lade udligningsposter være ikke-udlignede i længere perioder, da andre brugere ikke kan behandle elementerne, før du udligner udligningsposterne igen eller lukker siden **Applikationskladde**. Brugere, der forsøger at udføre handlinger, der omfatter en manuelt ikke-udlignet udligningspost modtager følgende fejlmeddelelse: "Du kan ikke udføre denne handling, fordi posterne for vare XXX ikke er udlignede i Applikationskladden af bruger XXX."
     - Du bør kun foretage genudligninger uden for normal arbejdstid, så der ikke opstår konflikter, hvis andre brugere bogfører transaktioner med de samme varer.
-    - Når du lukker udligningskladden, udfører [!INCLUDE[prod_short](includes/prod_short.md)] en kontrol for at sikre, at alle poster er udlignet. Hvis du f.eks. fjerner en antalsudligning, men ikke opretter en ny udligning, og du derefter lukker applikationskladden, oprettes en ny udligning. Dette er med til at bevare kostprisen. Hvis du fjerner en fast udligning, oprettes en ny fast udligning dog ikke automatisk, når du lukker kladden. Dette skal du gøre manuelt ved at oprette en ny udligning i kladden.
+    - Når du lukker udligningskladden, udfører [!INCLUDE[d365fin](includes/d365fin_md.md)] en kontrol for at sikre, at alle poster er udlignet. Hvis du f.eks. fjerner en antalsudligning, men ikke opretter en ny udligning, og du derefter lukker applikationskladden, oprettes en ny udligning. Dette er med til at bevare kostprisen. Hvis du fjerner en fast udligning, oprettes en ny fast udligning dog ikke automatisk, når du lukker kladden. Dette skal du gøre manuelt ved at oprette en ny udligning i kladden.
     - Det er muligt at fjerne udligninger fra mere end en post ad gangen i applikationskladden. Da udligning af poster har indflydelse på hele sættet af poster, der er disponible for udligningen, er det ikke muligt at oprette en udligning for mere end en post ad gangen.
     - Applikationskladden kan ikke foretage en udligning i følgende situationer: Hvis der ikke er nok varer på lageret til udligningen, kan applikationskladden ikke foretage udligningen, når du forsøger at udligne en lagerreduktionspost uden varesporingsoplysninger til en lagerforøgelsespost med varesporingsoplysninger.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Sådan fjernes en vareudligning ved brug af applikationskladden
-
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udligningskladde**, og vælg derefter det relaterede link.  
+## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Sådan fjernes en vareudligning ved brug af applikationskladden  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udligningskladde**, og vælg derefter det relaterede link.  
 2.  Siden **Udligningskladde** åbnes med eksisterende vareposter for alle varer.  
 3.  Angiv filtre i oversigtspanelet **Generelt** for at gøre det lettere at finde den varepost, du vil ændre udligningen for.  
 4.  Vælg vareposten, og vælg derefter handlingen **Udlignede poster**. Siden **Vis udlignede poster- Udlignede poster** åbner, så den varepost eller -poster, der p.t. er udlignet til den valgte post, bliver vist.  
@@ -55,11 +54,10 @@ Hvis du ikke kan bruge et dokument til genudligning, f.eks når du skal rette en
 > [!IMPORTANT]  
 >  Du bør ikke lade udligningsposter være ikke-udlignede i længere perioder, da andre brugere ikke kan behandle de berørte elementer, før du udligner udligningsposterne igen eller lukker siden **Udligningskladde**. Hvis du forsøger at udføre handlinger, der omfatter en manuelt ikke-udlignet udligningspost, vises følgende fejlmeddelelse:  
 >   
->  **Du kan ikke udføre denne handling, fordi poster for vare \<item\> er ikke-udlignede på Udligningskladden af bruger \<user\>.**  
+>  **Du kan ikke udføre denne handling, fordi poster for vare <item> er ikke-udlignede på Udligningskladden af bruger <user>.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Sådan udlignes en vareudligning igen ved brug af applikationskladden
-
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig 2.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udligningskladde**, og vælg derefter det relaterede link.  
+## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Sådan udlignes en vareudligning igen ved brug af applikationskladden  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udligningskladde**, og vælg derefter det relaterede link.  
 2.  Siden **Udligningskladde** åbnes med eksisterende vareposter for alle varer.  
 3.  For at udligne poster igen, som har været fjernet, siden kladden blev åbnet, skal du vælge den varepost, som du vil udligne igen og derefter vælge handlingen **Udlign igen**.  
 
@@ -74,13 +72,9 @@ Hvis du ikke kan bruge et dokument til genudligning, f.eks når du skal rette en
     >  Hvis du har valgt at lave en udligning, der opretter en uendelig løkke i kostreguleringen, oprettes den udligning, du foreslog, ikke. Dette kan ske, når de oprindelige poster har oprettet en negativ lagerbeholdning. Udligningen foretages ikke. Derfor skal du vælge en anden post til udligningen.  
 6.  Hvis feltet **Automatisk omkostningsregulering** er angivet til **Altid** i **Opsætning af lager**, vil programmet automatisk udføre kørslen til omkostningsregulering, når du har udlignet igen. Ellers skal du udføre kørslen **Juster kostpris – vareposter** for at sikre, at alle kostpriser er opdaterede.  
 
-## <a name="see-also"></a>Se også
-
+## <a name="see-also"></a>Se også  
 [Lukke åbne vareposter, der fremkommer ved fast udligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Behandle købsreturvarer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md)  
  [Administrere lageromkostninger](finance-manage-inventory-costs.md)   
  [Designoplysninger: Vareudligning](design-details-item-application.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

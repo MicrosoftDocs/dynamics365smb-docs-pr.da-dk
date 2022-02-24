@@ -1,25 +1,25 @@
 ---
-title: Lokal funktionalitet for Danmark
-description: I følgende emne kan du læse sammenkædede oplysninger om lokal funktionalitet i Danmark.
+title: Lokal funktionalitet for Danmark | Microsoft Docs
+description: I dette afsnit beskrives lokale funktioner i Danmark.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Denmark, local, DK, Danish
-ms.date: 06/18/2021
+ms.date: 06/09/2020
 ms.author: soalex
-ms.openlocfilehash: 4f179f48f800da4df3718d61d9cab3a6837ecd53
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 98d0efac9ad4a16e84617e9ed88c3d990c2b5f3a
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318806"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454321"
 ---
 # <a name="denmark-local-functionality"></a>Lokal funktionalitet for Danmark
 
-Følgende emne beskriver den lokale funktionalitet i den danske version af [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+Følgende emne beskriver den lokale funktionalitet i den danske version af [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 ## <a name="feature-availability"></a>Funktionen Tilgængelighed
 
@@ -43,10 +43,7 @@ Følgende emne beskriver den lokale funktionalitet i den danske version af [!INC
 
 ## <a name="see-also"></a>Se også
 
-[Arbejde med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Arbejde med [!INCLUDE[d365fin](../../includes/d365fin_md.md)]](../../ui-work-product.md)  
 [Tilgængelighed i land/område og understøttede sprog](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

@@ -1,23 +1,23 @@
 ---
-title: Behandle salgsmuligheder i salgsprocesser
-description: I dette emne beskrives de forskellige måder, du kan behandle salgsmuligheder på i salgsprocesser og flytte et lead gennem en salgsproces.
+title: Behandle salgsmuligheder i salgsprocesser | Microsoft Docs
+description: Du kan få vist, lukke eller slette leads, og du kan også oprette tilbud og salgsordrer for leads og flytte et lead gennem faserne i en salgsproces.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 06/22/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d67e1d1eda6cf3ae80ebad185a0db3fadd3eec1b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e4e56b2594820cc1af4861d0117b9e7d6af891ec
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437598"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181321"
 ---
 # <a name="process-sales-opportunities"></a>Behandle salgsleads
 Når du opretter et lead, er der flere funktioner til administration af et lead og til at flytte det til afslutning.
@@ -27,9 +27,9 @@ De eksisterende salgsmuligheder er tilgængelige på siden **Salgsmulighedsovers
 
 | For at få vist salgsleads for | Så |
 | --- | --- |
-| Alle sælgere og kontakter |Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leadoversigt**, og vælg derefter det relaterede link. |
-| En bestemt sælger |Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sælgere**, og vælg derefter det relaterede link. Vælg sælgeren, vælg handlingen **Leads**, og vælg derefter handlingen **Oversigt**. |
-| En bestemt kontakt |Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontakter**, og vælg derefter det relaterede link. Vælg kontakten på listen, og vælg derefter handlingen **Leads**. |
+| Alle sælgere og kontakter |Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Leadoversigt**, og vælg derefter det relaterede link. |
+| En bestemt sælger |Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sælgere**, og vælg derefter det relaterede link. Vælg sælgeren, vælg handlingen **Leads**, og vælg derefter handlingen **Oversigt**. |
+| En bestemt kontakt |Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontakter**, og vælg derefter det relaterede link. Vælg kontakten på listen, og vælg derefter handlingen **Leads**. |
 
 Hver af disse opgaver åbnes på siden **Salgsmulighedsoversigt**.
 
@@ -44,8 +44,7 @@ Når forhandlingerne er afsluttet, kan du lukke leads. Når du lukker et lead, k
    I feltet **Leadlukkekode** kan du vælge en af de eksisterende leadlukkekoder eller tilføje en ny kode. Du kan tilføje en ny kode ved at vælge **Vælg fra komplet liste** på listen og derefter vælge **ny**. På den nye tomme linje skal du udfylde felterne **Kode**, **Type** og **Beskrivelse** og derefter vælge knappen **OK**.
 
 ## <a name="to-create-quotes-for-opportunities"></a>Sådan oprettes tilbud til leads
-> [!NOTE]
-> Du kan kun oprette salgstilbud fra Leads, hvor kontakttypen er Virksomhed.
+Du kan oprette salgstilbud for kontakter, der ikke er registreret som debitorer.
 
 1. På siden **Salgsmulighedsoversigt** skal du vælge salgsmuligheden og derefter vælge handlingen **Tildel salgstilbud**. Siden **Salgstilbud** åbnes.
 2. Udfyld de relevante felter.
@@ -66,7 +65,7 @@ Når du vil slette lukkede salgsmuligheder fra siden **Salgsmulighedsoversigt**,
 
 Du sletter lukkede leads med kørslen **Slet lukkede leads** ved at følge disse trin:
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Slet leads**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Slet leads**, og vælg derefter det relaterede link.
 2. I afsnittet **Lead** skal angive filtre, der angiver de lukkede leads, der skal slettes.
 3. Vælg knappen **OK**.
 
@@ -87,7 +86,4 @@ Hvis et lead følger en salgsproces, kan du flytte det frem eller tilbage i de f
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Oprette og administrere kontakter](marketing-contacts.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,24 +1,24 @@
 ---
-title: Oversigt over opgaver til fordeling af omkostninger og indtægter
+title: Oversigt over opgaver til allokering af omkostninger og indtægter | Microsoft Docs
 description: Beskriver de opgaver, du skal udføre for at allokere en post i en finanskladde til flere forskellige konti, når du bogfører kladden.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 283
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: a2b421d7cb6819656988e86296bd8fede95f1454
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 60b73b5c29bca5dc85e123f5957c7f3c0917345f
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012705"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1248337"
 ---
 # <a name="allocate-costs-and-income"></a>Fordele omkostninger og indtægter
-
 Du kan allokere en post i en finanskladde til flere forskellige konti, når du bogfører kladden. Allokeringen kan foretages på tre forskellige måder:
 
 * Antal
@@ -28,13 +28,11 @@ Du kan allokere en post i en finanskladde til flere forskellige konti, når du b
 Allokeringsfunktionen kan bruges sammen med finansgentagelseskladder og i anlægskladder.
 <!--You can also distribute the cost or revenue of a line to an intercompany partner when you post a sales or purchase document. When you post the document, a line will be posted in your general journal, and a corresponding line will be created in the intercompany outbox.-->
 
-I følgende procedurer beskrives, hvordan du forbereder at allokere omkostninger i en finansgentagelseskladde ved at definere fordelingsnøgler. Når der er defineret fordelingsnøgler, skal du udfylde og bogføre kladden ligesom alle andre finansgentagelseskladder. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).
+I følgende procedurer beskrives, hvordan du forbereder at allokere omkostninger i en finansgentagelseskladde ved at definere fordelingsnøgler. Når der er defineret fordelingsnøgler, skal du udfylde og bogføre kladden ligesom alle andre finansgentagelseskladder. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).
 
 ## <a name="to-set-up-allocation-keys"></a>Sådan konfigureres fordelingsnøgler
-
-Du kan allokere en post i en finansgentagelseskladde til flere forskellige konti, når du bogfører kladden. Allokeringen kan foretages efter antal, procent eller beløb.  
-
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
+Du kan allokere en post i en finansgentagelseskladde til flere forskellige konti, når du bogfører kladden. Allokeringen kan foretages efter antal, procent eller beløb.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
 2. Vælg feltet **Kladdenavn** for at åbne siden **Finanskladdenavne**.
 3. Du kan ændre fordelinger for et eksisterende navn på listen eller oprette et nyt navn med fordelinger.
    * Du kan oprette en ny kladde ved at vælge handlingen **Ny** og gå til næste trin.
@@ -49,7 +47,7 @@ Du kan allokere en post i en finansgentagelseskladde til flere forskellige konti
 11. Bogfør journalen.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Sådan ændres en fordelingsnøgle, der allerede er oprettet
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
 2. Vælg kladden med allokeringen på siden **Finansgentagelseskladde**.
 3. Vælg linjen med fordelingen og vælg derefter handlingen **Fordelinger**.
 4. Rediger de relevante felter, og vælg derefter knappen **OK**.
@@ -58,7 +56,4 @@ Du kan allokere en post i en finansgentagelseskladde til flere forskellige konti
 [Afslutning af år og perioder](year-close-years-periods.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)    
 [Bogføring af dokumenter og kladder](ui-post-documents-journals.md)    
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

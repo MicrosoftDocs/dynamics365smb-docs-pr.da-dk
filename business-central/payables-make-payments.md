@@ -1,22 +1,21 @@
 ---
-title: Oversigt over opgaver til at administrere betalinger til kreditorer
+title: Oversigt over opgaver til administration af betalinger til kreditorer | Microsoft Docs
 description: Beskrives opgaver til administration af betalinger til leverandører eller kreditorer, herunder bogføring af betalingslinjer og visning af en oversigt over den forfaldne saldo.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.search.form: 254, 256, 1190, 1191, 1227, 1228, 1229
-ms.date: 04/01/2021
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 2abf1886541e51e23b5ebc9bbb5dec1d4a83bd06
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 99da82d54a2e769c2ebbaf7d4c103791119517d9
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101421"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076458"
 ---
 # <a name="making-payments"></a>Foretage betaling
 
@@ -28,7 +27,7 @@ Fra betalingskladden kan du udskrive computercheck eller registrere, når der sk
 
 Når betalingerne er bogført, kan du eksportere dem til en bankfil for at overføre dem til behandling i din bank.
 
-Efter at betalingerne er foretaget i din bank, skal du udligne dem til de relaterede åbne kreditor- eller medarbejderposter. Du kan gøre det manuelt eller ved at importere en bankkontoudtogsfil og udligne betalingerne automatisk. Du kan finde flere oplysninger i [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Efter at betalingerne er foretaget i din bank, skal du udligne dem til de relaterede åbne kreditor- eller medarbejderposter. Du kan gøre det manuelt eller ved at importere en bankkontoudtogsfil og udligne betalingerne automatisk. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
@@ -46,7 +45,4 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

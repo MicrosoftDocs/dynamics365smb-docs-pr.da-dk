@@ -1,34 +1,28 @@
 ---
-title: Fakturere forudbetaling
-description: Lær, hvordan du bruger forudbetalingsfunktionen til at fakturere og opkræve depositum, der kræves af debitorer eller at sende depositummerne til kreditorer i Business Central.
-author: edupont04
+title: Fakturere forudbetalinger | Microsoft Docs
+description: Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg eller køb inden den endelige bogføring. Du kræver måske et depositum, inden du producerer varerne efter ordre, eller du kræver måske betaling, før du leverer varer til en kunde. Forudbetalingsfunktionen sætter dig i stand til at fakturere og opkræve depositum fra debitorer eller at sende depositummerne til kreditorer. På den måde kan du sikre, at alle betalinger bogføres i forhold til en faktura.
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 42, 42, 48, 50, 52, 9305, 9307
-ms.date: 12/03/2021
-ms.author: edupont
-ms.openlocfilehash: 1a74a04f38669ab00e800b563ebd77796d08ef8f
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d19a45caabbd4eecf4a0d37cb1c7d964683f4698
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970410"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183094"
 ---
 # <a name="invoicing-prepayments"></a>Fakturere forudbetalinger
+Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg eller køb inden den endelige bogføring. Du kræver måske et depositum, inden du producerer varerne efter ordre, eller du kræver måske betaling, før du leverer varer til en kunde. Forudbetalingsfunktionen sætter dig i stand til at fakturere og opkræve depositum fra debitorer eller at sende depositummerne til kreditorer. På den måde kan du sikre, at alle betalinger bogføres i forhold til en faktura.  
 
-[!INCLUDE [prepayment_def](includes/prepayment_def.md)]
+ Der kan defineres forudbetalingskrav for en debitor eller kreditor for alle varer eller udvalgte varer. Når du har fuldført den påkrævede opsætning, kan du generere forudbetalingsfakturaer fra salgs- og købsordrer for det beregnede forudbetalingsbeløb. Du kan ændre beløbene på fakturaen efter behov. Du kan f.eks. angive et samlet beløb for hele ordren. Du kan også sende yderligere forudbetalingsfakturaer, hvis f.eks. der føjes ekstra varer til ordren. Du kan øge antal eller tilføje nye linjer til en ordre efter at have udstedt en forudbetaling, og derefter kan du bogføre en anden forudbetalingsfaktura. Hvis du vil slette en linje, der allerede er faktureret en forudbetaling for, skal du udstede en forudbetalingskreditnota, før du kan slette linjen.  
 
-[!INCLUDE [prepayment_req](includes/prepayment_req.md)]
-
-Du kan f. eks. angive et samlet beløb for hele ordren, eller du kan fordele forudbetalingen på tværs af hver linje i ordren. Du kan også sende yderligere forudbetalingsfakturaer, hvis f.eks. der føjes ekstra varer til ordren. Du kan øge antal eller tilføje nye linjer til en ordre efter at have udstedt en forudbetaling, og derefter kan du bogføre en anden forudbetalingsfaktura.  
-
-> [!NOTE]
-> Hvis du vil slette en linje, der allerede er faktureret en forudbetaling for, skal du udstede en forudbetalingskreditnota, før du kan slette linjen.
-
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
+ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
@@ -38,11 +32,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
-
+## <a name="see-also"></a>Se også  
 [Gennemgang: Opsætning og fakturering af salgsforudbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

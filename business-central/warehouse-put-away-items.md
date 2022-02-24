@@ -1,24 +1,25 @@
 ---
-title: Sætte varer på plads
-description: At lægge varer på lager, efter at de er modtaget eller udlagret, udføres på forskellige måder, afhængigt af hvordan logistikfunktionerne er konfigureret.
+title: Lægge varer på lager | Microsoft Docs
+description: Den lageraktivitet, der omfatter at lægge varer på lager, efter at de er modtaget eller udlagret, udføres på forskellige måder, afhængigt af hvordan logistikfunktionerne er konfigureret.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5770, 5783, 5784, 5786, 5795, 7334, 7352, 7354, 7356, 7375, 7379, 7390, 7394, 7396, 9312, 9315, 9343
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 90e1c5508dfa578a6231634e9a65257fae6777e1
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 603426c3da9a9a44cb0b0715ec6a66879e663357
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972118"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310056"
 ---
 # <a name="putting-items-away"></a>Lægge varer på lager
-
 Den lageraktivitet, der omfatter at lægge varer på lager, efter at de er modtaget eller udlagret, udføres på forskellige måder, afhængigt af hvordan logistikfunktionerne er konfigureret. Detaljeringsgraden kan variere fra ingen lagerfunktioner over grundlæggende lageropsætninger for ordre-for-ordre-håndtering i kun en eller flere aktiviteter til avancerede konfigurationer, hvor alle lageraktiviteter skal udføres i en styret arbejdsgang. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).
 
 Hvis du beslutter dig for at organisere og registrere læg-på-lager-oplysninger med lagerdokumenter, skal du markere feltet **Kræv læg-på-lager** på lokationskortet. Dette angiver, at når du har varer, der ankommer til lagerlokationen via et indgående kildedokument, skal læg-på-lager styres af systemet. Et indgående kildedokument kan være en købsordre, en salgsreturvareordre, en indgående overflytningsordre eller en produktionsordre, hvis afgang er klar til at blive lagt på lager.  
@@ -27,7 +28,7 @@ Hvis lokationen bruger læg-på-lager, men ikke modtagelse, kan du bruge siden *
 
 Hvis lokation kræver både modtagelse og læg-på-lager, dvs. hvis du har markeret både feltet **Kræv modtagelse** og feltet **Kræv læg-på-lager** på lokationskortet, er processen for at lægge varer på lager anderledes. I dette tilfælde skal du bruge siden **Læg-på-lager (logistik)** til at håndtere læg-på-lager-aktiviteten. Læg-på-lager i forbindelse med logistik fungerer på samme måde som læg-på-lager i forbindelse med lager, bortset fra at du registrerer læg-på-lager-aktiviteten i stedet for at bogføre oplysningerne. Bemærk, at registrering af læg-på-lager-aktiviteten ikke bogfører modtagelsen af varerne. Det opdaterer blot placeringsindholdet. Som lagerchef kan du bruge en læg-på-lager-kladde til at organisere læg-på-lager-oplysningerne, før du opretter de enkelte læg-på-lager-instruktioner (logistik).
 
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
@@ -38,16 +39,12 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Planlægge optimerede instruktioner for læg-på-lager for et antal bogførte lagertilgange i stedet for at lade lagermedarbejdere håndtere tilgangene direkte.|[Planlægge læg-på-lager-aktiviteter i kladder](warehouse-how-to-plan-put-aways-in-worksheets.md)|  
 |Lægge varer, der er plukket teknisk med et internt pluk, tilbage, f.eks. for en produktionsordre, der ikke forbrugte det forventede antal.|[Plukke og lægge på lager uden et kildedokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)|
 |Opdele en læg-på-lager-linje for at placere en del af læg-på-lager-antallet på tilgængelige placeringer, fordi den anviste placering er fyldt op.|[Opdele lageraktivitetslinjer](warehouse-how-to-split-warehouse-activity-lines.md)|
-|Få omgående adgang til læg-på-lager-varer, der er knyttet til dig som lagermedarbejder.|[Finde dine lageropgaver](warehouse-how-to-find-your-warehouse-assignments.md)|
+|Få omgående adgang til læg-på-lager-varer, der er knyttet til dig som lagermedarbejder.|[Finde dine lageropgaver](warehouse-how-to-find-your-warehouse-assignments.md)|    
 
-## <a name="see-also"></a>Se også
-
+## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Konfigurere Warehouse Management](warehouse-setup-warehouse.md) 
-[Montagestyring](assembly-assemble-items.md)
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
+[Montagestyring](assembly-assemble-items.md)    
+[Designoplysninger: Logistik](design-details-warehouse-management.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

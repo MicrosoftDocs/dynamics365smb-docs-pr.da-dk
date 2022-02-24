@@ -1,25 +1,24 @@
 ---
-title: Overflytte debitordata
-description: Du kan overføre eksisterende kundedata fra et eksisterende system til Business Central ved at bruge RapidStart Services - eller blot indtaste dem direkte i virksomheden.
+title: Overføre debitordata | Microsoft Docs
+description: Du kan overflytte eksisterende debitordata fra et eksisterende ERP-system til Business Central ved hjælp af RapidStart Services. Du kan bruge Excel .xlsx-filer som datamedie. Du kan også manuelt flytte data ved at indtaste dem direkte i virksomheden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 48ce8c293b5af411763a8730c9f7d16113062d9a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437462"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186841"
 ---
 # <a name="migrate-customer-data"></a>Overflytte debitordata
-
-Du kan overflytte eksisterende debitordata fra et eksisterende ERP-system til [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af dataoverflytningsværktøjerne i RapidStart Services. Du kan bruge Excel-filer som datamedie. Du kan også manuelt flytte data ved at indtaste dem direkte i virksomheden.
+Du kan overflytte eksisterende debitordata fra et eksisterende ERP-system til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af dataoverflytningsværktøjerne i RapidStart Services. Du kan bruge Excel-filer som datamedie. Du kan også manuelt flytte data ved at indtaste dem direkte i virksomheden.
 
 > [!NOTE]
 > Felter af typen Blob kan ikke eksporteres/importeres ved hjælp af Excel.
@@ -32,7 +31,7 @@ Når du opretter et nyt virksomhed, kan du importere virksomhedsindstillinger fo
 > [!NOTE]  
 >  Du kan ikke omdøbe en fil, der ikke allerede er en RapidStart Services-konfigurationspakke, til en .rapidstart-konfigurationspakkefil og derefter forsøge at importere den. Hvis du prøver at gøre det, modtager du en fejlmeddelelse.  
 
-Før du starter, skal du sikre dig, at du har tilladelse til at køre RapidStart Services-objekterne. Du kan f.eks. have rettighedssætterne SUPER eller D365 RAPIDSTART. Vi anbefaler også, at du er i et rollecenter med links til RapidStart Services, f.eks. rollecentret Administration. Du kan finde flere oplysninger i [Sådan ændres rollen](ui-change-basic-settings.md#to-change-the-role).  
+Før du starter, skal du sikre dig, at du har tilladelse til at køre RapidStart Services-objekterne. Du kan f.eks. have rettighedssætterne SUPER eller D365 RAPIDSTART. Vi anbefaler også, at du er i et rollecenter med links til RapidStart Services, f.eks. rollecentret Administration. Du kan finde flere oplysninger under [Sådan ændres rollen](ui-change-basic-settings.md#to-change-the-role).  
 
 > [!IMPORTANT]  
 > Ved eksport og import af konfigurationspakker mellem to virksomhedsdatabaser, skal databaserne har samme skema for at sikre, at alle data er blevet overført. Dette betyder, at databaserne skal have den samme tabel- og feltstruktur, hvor tabellerne har samme primære nøgler, og felter har samme id'er og datatyper.  
@@ -42,7 +41,7 @@ Før du starter, skal du sikre dig, at du har tilladelse til at køre RapidStart
 > Tabeller, der har forskellige primære nøgler, og felter, der har forskellige datatyper, vil heller ikke blive importeret korrekt. Hvis konfigurationspakken indeholder tabellen **50000 Customer**, hvor primærnøgle **Code20**, og databasen, som du importerer pakken til, indeholder tabellen **50000 debitorbankkonto**, der har primærnøglen **Code20 + kode 20**, importeres data ikke.  
 
 1. Åbn den nye virksomhed.  
-2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pakker til konfiguration**, og vælg derefter det relaterede link.  
+2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.  
 3. Vælg handlingen **Indlæs pakke**. Gå til den .rapidstart-pakkefil, du vil indlæse, og vælg derefter handlingen **Åbn**. Under indlæsning dekomprimeres pakkeindholdet, og pakkeposten oprettes.  
 
     Når indlæsningen er fuldført, kan du se antallet af konfigurationstabeller, der er indlæst, i feltet **Antal tabeller**.  
@@ -63,7 +62,7 @@ Du kan oprette nye dataoverflytningsfiler og tilpasse dem til din virksomheds be
 > [!TIP]
 > En fil kan kun bruges til at overflytte et felt, hvis dens egenskab **FieldClass** er indstillet til **Normal**.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pakke til konfiguration**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakke**, og vælg derefter det relaterede link.  
 2. Vælg og åbn den pakke, du vil bruge til at overføre data, og vælg derefter handlingen **Hent tabeller**. Siden **Hent pakketabel** åbnes.  
 3. I feltet **TableID** skal du indtaste et tal i tabellen eller vælge en tabel på listen, f.eks. tabel 18 **Debitor**. Feltet **Tabelnavn** udfyldes automatisk.  
 4. Vælg den nye overflytningstabel, og vælg derefter under fanen **Tabeller** handlingen **Felter**. Siden **Overflytningsfelter** åbnes.  
@@ -79,7 +78,7 @@ Der oprettes en ny overflytningstabel .
 ## <a name="to-export-data-migration-files"></a>Sådan udlæses overflytningsfiler
 Når du har fastlagt de tabeller, du vil overføre debitordata til, skal du eksportere filerne.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pakker til konfiguration**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.  
 2. Markér og åbn den pakke, som du vil bruge til eksport.
 3. Vælg den eller de tabeller, du vil eksportere, og vælg derefter handlingen **Udlæs til Excel**.
 4. Gem den eksporterede Excel-fil.  
@@ -88,19 +87,19 @@ Når du har fastlagt de tabeller, du vil overføre debitordata til, skal du eksp
 Hvis tallen er tom, indeholder den resulterende dataoverflytningsfil tomme celler for de felter, du markerede, da du valgte eller oprettede overflytningstabeller for din nye virksomhed. Hvis den markerede dataoverflytningstabel indeholder data, udlæses de.  
 
 ## <a name="to-map-values-to-be-used-during-import"></a>Sådan tilknytter du værdier, der skal bruges under import
-Når du anvender data, som du har importeret fra Excel eller fra en RapidStart-pakke, behandler og håndterer [!INCLUDE[prod_short](includes/prod_short.md)] tilknytningen på basis af tabelrelationer:  
+Når du anvender data, som du har importeret fra Excel eller fra en RapidStart-pakke, behandler og håndterer [!INCLUDE[d365fin](includes/d365fin_md.md)] tilknytningen på basis af tabelrelationer:  
 
-- Hvis du defineret en kobling direkte for et felt i en tabel, vil [!INCLUDE[prod_short](includes/prod_short.md)] bruge den.  
+- Hvis du defineret en kobling direkte for et felt i en tabel, vil [!INCLUDE[d365fin](includes/d365fin_md.md)] bruge den.  
 
-- Hvis feltet har en relation til en anden tabel, søger [!INCLUDE[prod_short](includes/prod_short.md)] efter den kobling, der er defineret for det primære nøglefelt i den relaterede tabel. Den relaterede tabel skal dog være en del af konfigurationspakken.  
+- Hvis feltet har en relation til en anden tabel, søger [!INCLUDE[d365fin](includes/d365fin_md.md)] efter den kobling, der er defineret for det primære nøglefelt i den relaterede tabel. Den relaterede tabel skal dog være en del af konfigurationspakken.  
 
-- Hvis koblingsoplysninger er defineret begge steder, for feltet direkte og for den primære nøgle i den relaterede tabel, så vil [!INCLUDE[prod_short](includes/prod_short.md)] søge efter koblingen begge steder.  
+- Hvis koblingsoplysninger er defineret begge steder, for feltet direkte og for den primære nøgle i den relaterede tabel, så vil [!INCLUDE[d365fin](includes/d365fin_md.md)] søge efter koblingen begge steder.  
 
 - Hvis de samme koblinger er defineret direkte for et felt og i den relaterede tabel, men de har forskellige nye værdier, tilsidesætter den kobling, der er defineret direkte for feltet, den kobling, der er defineret for den tabel, som feltet refererer til.  
 
-I nedenstående fremgangsmåder bør du gennemgå på forhånd, hvilke værdier du vil bevare under overflytningen. Hvis du vil udføre følgende procedurer, skal du bruge dataoverflytningsfiler (.xlsx), du har eksporteret fra [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Sådan udlæses overflytningstabeller](admin-migrate-customer-data.md#to-export-data-migration-files).
+I nedenstående fremgangsmåder bør du gennemgå på forhånd, hvilke værdier du vil bevare under overflytningen. Hvis du vil udføre følgende procedurer, skal du bruge dataoverflytningsfiler (.xlsx), du har eksporteret fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Sådan udlæses overflytningstabeller](admin-migrate-customer-data.md#to-export-data-migration-files).
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pakker til konfiguration**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.
 2. Åbn pakken for den pågældende virksomhed.  
 3. Vælg tabellen, hvor du vil tilknytte værdier, og vælg derefter under fanen **Tabeller** handlingen **Felter**.  
 4. For hvert felt du vil tilknytte, skal du vælge handlingen **Kobling**.  
@@ -111,16 +110,16 @@ I nedenstående fremgangsmåder bør du gennemgå på forhånd, hvilke værdier 
 9. Du kan anvende den tilknytning, som du har oprettet, ved at vælge handlingen **Anvend Data**.  
 
 ### <a name="mapping-example"></a>Eksempel på tilknytning  
-Følgende eksempel illustrerer, hvordan [!INCLUDE[prod_short](includes/prod_short.md)] implementerer koblingsdefinitionerne.  
+Følgende eksempel illustrerer, hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] implementerer koblingsdefinitionerne.  
 
 1. Oprette en konfigurationstabel med tabellen **Sælger/indkøber**. Definere en tilknytning for feltet **Kode**.  
 2. Tilføj flere tabeller til pakken, f.eks. **Debitor** og **Kreditor**. Disse tabeller refererer begge til tabellen **Sælger/indkøber** via henholdsvis **sælgerkoden** og **indkøberkoden**.  
 3. Når du anvender data, tages den tilknytning, du har angivet i feltet **Kode** i tabellen **Sælger/indkøber**, også i betragtning ved behandlingen af felterne **Sælgerkode** og **Indkøberkode**.
 
-## <a name="to-add-additional-values-to-prod_short"></a>Sådan føjer du flere værdier til [!INCLUDE[prod_short](includes/prod_short.md)]  
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pakker til konfiguration**, og vælg derefter det relaterede link.  
+## <a name="to-add-additional-values-to-d365fin"></a>Sådan føjer du flere værdier til [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.  
 2. Vælg tabellen, hvor du vil tilføje yderligere værdier, og vælg derefter under fanen **Tabeller** handlingen **Felter**.  
-3. For de felter, hvor [!INCLUDE[prod_short](includes/prod_short.md)] skal tillade flere værdier under overflytningen, skal du markere afkrydsningsfeltet **Opret manglende koder**.  
+3. For de felter, hvor [!INCLUDE[d365fin](includes/d365fin_md.md)] skal tillade flere værdier under overflytningen, skal du markere afkrydsningsfeltet **Opret manglende koder**.  
 4. Importér debitordataene. Du kan finde flere oplysninger i [Sådan importeres debitordata](admin-migrate-customer-data.md#to-import-customer-data).
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>Rydde op og behandle data, før du anvender data
@@ -143,7 +142,7 @@ For at få hjælp til XML kan du aktivere fanen **Udvikler** på Excel-båndet, 
 Følgende fremgangsmåde er baseret på et Excel-regneark, du har oprettet til overflytning. Du kan finde flere oplysninger i [Sådan udlæses overflytningstabeller](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 > [!IMPORTANT]  
-> Undlad at ændre kolonnerne i Excel-regnearkene. Hvis de flyttes, ændres eller slettes, kan regnearket ikke importeres i [!INCLUDE[prod_short](includes/prod_short.md)].
+> Undlad at ændre kolonnerne i Excel-regnearkene. Hvis de flyttes, ændres eller slettes, kan regnearket ikke importeres i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. I Excel skal du åbne den eksporterede datafil. Der er et regneark med navnet på tabellen.
 2. Omdøb Ark1 for at angive, at regnearket skal bruges til at omdanne dataene. Kopier overskriftsrækken uden tekstformatering fra den eksporterede tabel til det nye regneark.
@@ -152,10 +151,10 @@ Følgende fremgangsmåde er baseret på et Excel-regneark, du har oprettet til o
 5. Når du har tilknyttet alle data, skal du kopiere dataområdet ind i regnearket med tabellen.
 6. Gem filen, og sørg for ikke at ændre filtypen.
 
-Du er nu klar til at importere dataoverflytningsfilerne, der indeholder debitorens ældre data, i [!INCLUDE[prod_short](includes/prod_short.md)].
+Du er nu klar til at importere dataoverflytningsfilerne, der indeholder debitorens ældre data, i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="to-import-customer-data"></a>Sådan importeres debitordata
-Når debitordata er indsat i dataoverflytningsfilerne i Excel, kan du indlæse filerne i [!INCLUDE[prod_short](includes/prod_short.md)].
+Når debitordata er indsat i dataoverflytningsfilerne i Excel, kan du indlæse filerne i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Åbn siden **Konfig.pakkekort**.
 2. Vælg tabellen, hvor du vil importere data, og vælg derefter under fanen **Tabeller** handlingen **Indlæs fra Excel**.
@@ -168,7 +167,7 @@ Når debitordata er indsat i dataoverflytningsfilerne i Excel, kan du indlæse f
 Data fra filen importeres til konfigurationspakketabellerne. Du kan se antallet af databaseposter, der er blevet importeret, i feltet **Antal pakkerecords**. Desuden kan du se antallet af overflytningsfejl.
 
 ## <a name="to-validate-customer-data"></a>Sådan valideres debitordata
-Kundedata skal valideres, før du anvender poster til [!INCLUDE[prod_short](includes/prod_short.md)]-databasen.  
+Kundedata skal valideres, før du anvender poster til [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
 
 > [!NOTE]  
 >  I de fleste tilfælde oprettes ugyldige data ikke i databasen. Programmet kan dog lejlighedsvis blokeres, hvis en importeret overflytningstabel indeholder fejl.  
@@ -185,7 +184,7 @@ Når du har foretages en rettelse, fjernes posten fra listen over poster på sid
 Du er nu klar til at anvende debitorens data i databasen.  
 
 ## <a name="to-apply-customer-data"></a>Sådan overføres debitordata
-Når du har importeret alle de dataoverflytningsposter, der er gyldige, og som ikke indeholder fejl, kan du overføre posterne til [!INCLUDE[prod_short](includes/prod_short.md)]-databasen.  
+Når du har importeret alle de dataoverflytningsposter, der er gyldige, og som ikke indeholder fejl, kan du overføre posterne til [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
 
 1. Åbn siden **Konfigurationspakker**.  
 2. Vælg tabellen for den dataoverflytningsfil, du vil anvende, og vælg derefter handlingen **Anvend data**.
@@ -197,6 +196,3 @@ Virksomhedens kundedatabase er nu indstillet, og grundlæggende data er nu impor
 ## <a name="see-also"></a>Se også  
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Opsætning](admin-setup-and-administration.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

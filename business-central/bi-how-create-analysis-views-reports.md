@@ -3,19 +3,19 @@ title: Oprette analyserapporter | Microsoft Docs
 description: Beskriver, hvordan du opretter nye analyserapporter for salg, køb og lager og opretter analyseskabeloner.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: f8454b9427398dcd95df914ffb9596bf0318f9ba
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: eae3cec231fd7c1da537ebf64c1008c8e114c9eb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437047"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186088"
 ---
 #  <a name="create-analysis-reports"></a>Oprette analyserapporter
 Salgschefer har behov for løbende at kunne analysere omsætning, bruttoavance og andre nøgletal om salgsresultater. Indkøbere er mere interesseret i udviklingen inden for købsmængder, leverandørernes præstation og købspriser. Logistik- og lagerchefer har på den anden side brug for oplysninger om lageromsætning, analyser af lagerbevægelser og statistik om lagerværdi.  
@@ -26,7 +26,7 @@ Du kan oprette en tilpasset rapport, der fokuserer på dine nøglekonti med hens
 
 Analyserapporten består af de objekter, som du vil analysere, f.eks. kunder, kundegrupper, sælgere m.m., repræsenteret ved linjer, og analyseparametrene, dvs. den måde, som du vil analysere objekterne på, repræsenteret ved kolonner, f.eks. avanceberegning, periodisk sammenligning af salgsbeløb og -mængder eller af faktiske og budgetterede tal.
 
-Ud over analyserapporter, kan du oprette og få vist ensartede oplysninger i analysevisninger, som er baseret på dimensioner. Du kan finde flere oplysninger i [Analysere data efter dimensioner](bi-how-analyze-data-dimension.md).
+Ud over analyserapporter, kan du oprette og få vist ensartede oplysninger i analysevisninger, som er baseret på dimensioner. Du kan finde flere oplysninger under [Analysere data efter dimensioner](bi-how-analyze-data-dimension.md).
 
 ## <a name="example"></a>Eksempel  
 Du kan oprette linjer som følgende:  
@@ -41,11 +41,11 @@ Derefter kan du oprette kolonner som disse:
 - Salg i % af foregående måned  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Opsætte linje- og kolonneformater  
- På siden **Analyserapport** kan du få vist forskellige linje- og kolonneformater i henhold til de linjer eller linjeskabeloner, som du har oprettet på siden **Analyselinjeskabeloner**. Du kan definere navnet på rapporten og de objekter, der skal vises på linjerne i rapporten. Kolonnerne angiver du på siden **Analysekolonneskabeloner**. Du kan definere navnet på kolonneskabelonen og de analyseparametre, der skal vises i rapporten i form af kolonner. På siden **Analysekolonneskabeloner** repræsenterer hver linje en kolonne i rapporten. Bemærk, at analyselinjer og analysekolonner er uafhængige af hinanden.  
+ På siden **Analyserapport** kan du få vist forskellige linje- og kolonneformater alt efter din opsætning. Du opretter linjer eller linjeskabeloner på siden **Analyselinjeskabelon**. På denne side kan du definere navnet på rapporten og de objekter, der skal vises på linjerne i rapporten. Kolonnerne angiver du på siden **Analysekolonneskabeloner**. På denne side kan du definere navnet på kolonneskabelonen og de analyseparametre, der skal vises i rapporten i form af kolonner. På siden **Analysekolonneskabeloner** repræsenterer hver linje en kolonne i rapporten. Bemærk, at analyselinjer og analysekolonner er uafhængige af hinanden.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] samler resultaterne af rapporten i på siden **Analyserapport** på grundlag af de linjer og kolonner, du har angivet, som i følgende tabel.  
+Programmet samler resultaterne af rapporten i matrixsiden **Analyserapport** på grundlag af de linjer og kolonner, som du har angivet, som i dette eksempel:  
 
-|- |Salg indeværende måned|Salg foregående måned|Salg foregående måned i %|  
+| |Salg indeværende måned|Salg foregående måned|Salg foregående måned i %|  
 |-|-|-|-|  
 |Computere| | | |  
 |Skærme| | | |  
@@ -61,7 +61,7 @@ I en analyserapport vises analyseparametrene som kolonner. Du kan angive, hvilke
 
 En skabelon indeholder et sæt linjer, der hver repræsenterer de analysekolonner, som du ser i analyserapporten. Hvis du vil definere en kolonne, skal du tildele en analysetypekode til en linje. Denne analysetypekode bestemmer typen af kildedata i de vareposter, analyse baseres på. Kildedataene indeholder pris, salgsbeløb eller antal og deres tilknyttede værdiposter. Du kan oprette et ubegrænset antal kolonneskabeloner og derefter bruge dem til at oprette nye analyserapporter.    
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sales-kolonneskabeloner**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sales-kolonneskabeloner**, og vælg derefter det relaterede link.  
 2. Vælg den første tomme linje, og udfyld derefter felterne efter behov.
 3. Vælg handlingen **Kolonner**.  
 4. Udfyld felterne på siden **Analysekolonner** for at angive de kolonner, som du vil have med i analyserapporten.  
@@ -78,7 +78,7 @@ I en analyserapport vises analyseobjekterne på linjer. Du kan angive, hvilke li
 
 En skabelon indeholder et sæt linjer, der repræsenterer de analyselinjer, som du ser i analyserapporten. En linje kan angive en eller flere varer, kunder, leverandører eller grupper. Du kan også oprette en formular på en linje for at opsummere de andre linjer. Du kan oprette et ubegrænset antal linjeskabeloner og derefter bruge dem til at oprette nye analyserapporter.    
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sales-linjeskabeloner**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sales-linjeskabeloner**, og vælg derefter det relaterede link.  
 2. Vælg den første tomme linje, og udfyld derefter felterne efter behov.
 3. Vælg handlingen **Linjer**.  
 4. Brug siden **Analyselinjer** til at oprette linjer for de varer, kunder, leverandører eller sælgere, som du vil se oplysninger for i analyserapporten. Du skal udfylde felterne **Type**, **Interval** og **Beskrivelse**.  
@@ -91,7 +91,7 @@ Følgende procedure er baseret på analyserapporter for salg. Trinene er de samm
 
 Du kan anvende analyserapporter til at analysere dynamikken i dine salg i henhold til nøglesalgsindikatorer, som du vælger, f.eks. salgsomsætningen i både beløb og antal, dækningsbidrag, eller det aktuelle salgs forløb i forhold til budgettet. Du kan også anvende rapporten til at analysere dine gennemsnitlige salgspriser og evaluere din salgsstyrkes præstationer.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sales-analyserapporter**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sales-analyserapporter**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny** på siden **Analyserapport - salg**.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Vælg handlingen **Rediger analyserapport**.
@@ -105,7 +105,4 @@ Du kan anvende analyserapporter til at analysere dynamikken i dine salg i henhol
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Finans- og kontoplanen](finance-general-ledger.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

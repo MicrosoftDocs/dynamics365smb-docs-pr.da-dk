@@ -1,79 +1,90 @@
 ---
-title: Oprette sager, priser og sagsbogføringsgrupper
+title: Oprette sagspriser og sagsbogføringsgrupper | Microsoft Docs
 description: Bruges til at oprette oplysninger om almindelige opgaver og oprette priser for sagsvarer, ressourcer og finanskonti og sagsbogføringsgrupper.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.workload: na
 ms.search.keywords: project management
-ms.search.form: 211, 463, 1012
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5b5a071bbaff4b0c5a95725fdf77af3887b5e00a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 358c7ed4068ca90637082f61e24bcff25cef61a3
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973280"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527956"
 ---
-# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Oprette sager, priser og sagsbogføringsgrupper
+# <a name="set-up-jobs"></a>Opsætte sager
 
-Som projektleder kan du oprette sager, der definerer hvert af de projekter, som du administrerer i [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Sagsopsætning** skal du angive, hvordan du vil bruge bestemte sagsfunktioner.
+Som projektleder kan du oprette sager, der definerer hvert af de projekter, som du administrerer i [!INCLUDE[prodshort](includes/prodshort.md)]. På siden **Sagsopsætning** skal du angive, hvordan du vil bruge bestemte sagsfunktioner.
 
 For hver sag kan du derefter specificere de individuelle jobkort med oplysninger om priser for sagsvarer, sagsressourcer og sagsfinanskonti, og du skal oprette sagsbogføringsgrupper.
 
 ## <a name="to-set-general-information-for-jobs"></a>Sådan angives generelle oplysninger for sager
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagsopsætning**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sagsopsætning**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> Feltet **Anvend anvendelseslink som standard** angiver, om der som standard knyttes sagsposter til sagsplanlægningslinjer. Marker feltet, hvis du vil anvende indstillingen på alle nye sager, du opretter. Du kan aktivere eller deaktivere sporing af sagsforbrug for et bestemt job ved at ændre værdien i feltet **Anvend anvendelses link** på det enkelte jobkort. Konsekvenser beskrives i følgende afsnit.
+> Virkningen af feltet **Anvend anvendelseslink som standard** er temmelig komplekst og forklares derfor i følgende afsnit.
 
 ### <a name="to-set-up-job-usage-tracking"></a>Sådan definerer du sagsforbrugssporing
 
-Når du ekspederer en aktiv sag, kan du få flere oplysninger om forbruget i forhold til din plan. Det kan du nemt gøre ved at oprette en tilknytning mellem dine sagsplanlægningslinjer og det faktiske forbrug. På denne måde kan du holde styr på dine omkostninger og nemt se, hvor meget arbejde, der mangler at blive udført. Som standard er sagsplanlægningslinjetypen *Budget*, men brug af linjetypen **Både budget og fakturerbar** har samme virkning.
+Når du ekspederer en sag, kan du få flere oplysninger om forbruget i forhold til din plan. Det kan du nemt gøre ved at oprette en tilknytning mellem dine sagsplanlægningslinjer og det faktiske forbrug. På denne måde kan du holde styr på dine omkostninger og nemt se, hvor meget arbejde, der mangler at blive udført. Som standard er sagsplanlægningslinjetypen **Budget**, men brug af linjetypen **Både budget og fakturerbar** har samme virkning.
 
-Når du har konfigureret forbrugssporing ved at vælge feltet **Anvend forbrugslink**, kan du gennemse oplysninger på sagsplanlægningslinjen. Du kan angive antallet af ressourcen, varen eller finanskontoen, og derefter angive, hvilket antal du vil overføre til sagskladde. I feltet **Restantal** på sagsplanlægningslinjen kan du se, hvad der stadig mangler at blive overført og bogført på sagskladden.
+Hvis du markerer feltet **Anvend anvendelseslink som standard**, kan du gennemse oplysninger på sagsplanlægningslinjen. Du kan angive antallet af ressourcen, varen eller finanskontoen, og derefter angive, hvilket antal du vil overføre til sagskladde. I feltet **Restantal** på sagsplanlægningslinjen kan du se, hvad der stadig mangler at blive overført og bogført på sagskladden.
 
->[!NOTE]
-> Hvis afkrydsningsfeltet **Anvend anvendelseslink** som standard på sagskortet er markeret, og feltet **Linjetype** på sagskladdelinjen er tomt, oprettes nye *sagsplanlægningslinjer* for linjetypen *Budget*, når du bogfører sagskladdelinjerne eller købsdokument.  
-> Du kan finde flere oplysninger i [Registrere forbrug for sager](projects-how-record-job-usage.md) og [Administrere stillingsforsyninger](projects-how-manage-project-supplies.md).
+> [!TIP]  
+> Du kan aktivere eller deaktivere sagsforbrugssporing for en bestemt sag. Værdien i feltet **Anvend anvendelseslink som standard** på det enkelte sagskort tilsidesætter indstillingen på siden **Sagsopsætning**.  
+
+Når afkrydsningsfelt **Anvend anvendelseslink som standard** er markeret, og sagsplanlægningslinjetypen er **Fakturerbar**, oprettes en sagsplanlægningslinje af typen **Budget**, når du har bogført en sagskladdelinje.
 
 > [!IMPORTANT]
-> Hvis feltet **Linjetype** på sagskladdelinjen eller linjen er tomt, oprettes der ingen sagsplanlægningslinjer, når du bogfører sagskladden eller købsdokumentet.
+> Hvis sagsforbrugssporing er aktiveret på siden **Sagsopsætning** eller i den individuelle sag, og feltet **Linjetype** på sagskladdelinjen er tomt, oprettes nye sagsplanlægningslinjer for linjetypen **Budget**, når du bogfører sagskladdelinjer.  
+>  
+> Hvis sagsforbrugssporing *ikke* er aktiveret på siden **Sagsopsætning** eller i den individuelle sag, og feltet **Linjetype** på sagskladdelinjen er tomt, oprettes ingen sagsplanlægningslinjer, når du bogfører sagskladdelinjer. Du kan finde flere oplysninger under [Registrere forbrug for sager](projects-how-record-job-usage.md).
 
-<!--
->[!Important]
-If job usage tracking is enabled on the individual job and the **Line Type** field on the job journal or purchase line line is blank, then new job planning lines of line type *Budget* are created when you post job journal or purchase document.
-If job usage tracking is not enabled and the **Line Type** field on the job journal line or purchase line is blank, then no job planning lines are created when you post job journal or purchase document.
--->
+1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Sagsopsætning**, og vælg derefter det relaterede link.
+2. Markér afkrydsningsfeltet **Anvend anvendelseslink som standard**.
 
+## <a name="to-set-up-prices-for-job-resources"></a>Sådan oprettes priser for sagsressourcer
+Du kan oprette specifikke priser for ressourcer for en sag. Det gør du på siden **Ressourcepriser for sag**.
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Konfigurere priser for ressourcer, varer og finanskonti for jobs.
-> [!NOTE]
-> I 2020 udgivelsesbølge 2 har vi udgivet nye processer til opsætning og administration af priser og rabatter. Hvis du er ny kunde, bruger du den nye oplevelse. Hvis du allerede bruger den nye oplevelse, afhænger det af, om din administrator har aktiveret funktionsopdateringen **Ny vareprissætningsopdatering** i **Funktionsadministration**. Du kan finde flere oplysninger i [Aktivere Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
+2. Markér den relevante sag, og vælg derefter handlingen **Ressourcer**.
+3. På siden **Sagsressourcepriser** skal du udfylde felterne efter behov.
 
-Konfigurere priser for varer, ressourcer finanskonti i forhold til jobs. 
+De valgfrie oplysninger i felterne **Sagsopgavenr.**, **Arbejdstype**, **Valutakode**, **Linjerabatpct.** og **Kostprisfaktor** bruges i sagsplanlægningslinjerne og forbrugskladderne, når ressourcen angives og tilføjes til sagen.  
 
-#### <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience)
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
-2. Markér den relevante sag, og vælg **Ressource**, **Vare** eller **Finanskonto**.
-3. Udfyld felterne efter behov i **Salgsressourcepriser**, **Salgsvarepriser** eller **Sagsfinanskontopriser**.
+Værdien i feltet **Enhedspris** for ressourcen vil blive anvendt i sagsplanlægningslinjerne og sagskladderne, når denne ressource, en ressource, der er tildelt ressourcegruppen, eller en hvilken som helst ressource angives.  
 
-I følgende tabel vises, hvordan oplysningerne i de valgfrie felter bruges på Sagsplanlægningslinjer og kladder, når ressourcen, varen eller finanskontoen vælges for sagen.
+> [!NOTE]  
+>   Denne pris vil altid tilsidesætte eventuelle priser på den eksisterende **Ressourcesalgspris/Ressourcegruppe**-side.
 
-|Kolonne1  |Kolonne2  |
-|---------|---------|
-|**Sagsressourcer**|Felterne **Sagsopgavenr.**, **Arbejdstype**, **Valutakode**, **Linjerabat i %** og **Kostprisfaktor**. Værdien i feltet **Enhedspris** for ressourcen vil blive anvendt i sagsplanlægningslinjerne og sagskladderne, når denne ressource, en ressource, der er tildelt ressourcegruppen, eller en hvilken som helst ressource angives. Bemærk, at denne pris altid vil tilsidesætte eventuelle priser på den eksisterende **Ressourcesalgspris/Ressourcegruppe**-side.|
-|**Sagsvarepriser**|Felterne **Sagsopgavenr.**, **Valutakode** og **Linjerabat i %**. Værdien i feltet **Enhedspris** for varen bruges i sagsplanlægningslinjerne og sagskladderne, når varen angives. Bemærk, at denne pris altid vil tilsidesætte den normale debitorpris (“bedste pris”-mekanisme) for varer. Hvis du vil bruge den normale debitorpris, skal du ikke oprette sagsvarepriser.|
-|**Finanskonti**|Oplysninger i felterne **Sagsopgavenr.**, **Valutakode**, **Linjerabat i %**, **Kostprisfaktor** og **Kostpris** bruges i sagsplanlægningslinjerne og sagskladderne, når denne finanskonto angives og tilføjes til sagen. Værdien i feltet **Kostpris** for finanskontosagsudgiften bruges i sagsplanlægningslinjerne og sagskladderne, når denne finanskonto angives.|
+## <a name="to-set-up-prices-for-job-items"></a>Sådan oprettes priser for sagsvarer
+Du kan oprette specifikke priser for varer for en sag. Det gør du på siden **Sagsvarepriser**.
 
----
-#### <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience)
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
-2. Markér den relevante sag, og vælg derefter handlingen **Sagsplanlægningslinjer**.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
+2. Markér den relevante sag, og vælg derefter handlingen **Vare**.
+3. På siden **Sagsvarepriser** skal du udfylde felterne efter behov.
 
----
+De valgfrie oplysninger i felterne **Sagsopgavenr.**, **Valutakode** og **Linjerabat %** bruges i sagsplanlægningslinjerne og forbrugskladderne, når ressourcen angives og tilføjes til sagen.  
+
+Værdien i feltet **Enhedspris** for varen bruges i sagsplanlægningslinjerne og sagskladderne, når varen angives.  
+
+> [!NOTE]  
+>   Prisen vil altid tilsidesætte den normale debitorpris (“bedste pris”-mekanismen) for varer. Hvis du vil bruge den normale debitorpris, skal du ikke oprette sagsvarepriser.
+
+## <a name="to-set-up-prices-for-job-general-ledger-accounts"></a>Sådan oprettes priser for finanskonti for sag
+Du kan oprette specifikke priser for regnskabsmæssige udgifter for en sag. Det gør du på siden **Sagsfinanskontopriser**.
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
+2. Markér den relevante sag, og vælg derefter handlingen **Finanskonto**.  
+3. På siden **Sagsfinanskontopriser** skal du udfylde felterne efter behov.
+
+De valgfrie oplysninger i felterne **Sagsopgavenr.**, **Valutakode**, **Linjerabatpct.**, **Kostprisfaktor** og **Kostpris** bruges i sagsplanlægningslinjerne og sagskladderne, når denne finanskonto angives og tilføjes til sagen.  
+
+Værdien i feltet **Kostpris** for finanskontosagsudgiften bruges i sagsplanlægningslinjerne og sagskladderne, når denne finanskonto angives.
 
 ## <a name="to-set-up-job-posting-groups"></a>Sådan oprettes sagsbogføringsgrupper
 Et aspekt af planlægningssager er at beslutte, hvilke bogføringkonti, der skal bruges til sagsomkostninger. Hvis du vil bogføre sager, skal du oprette konti til bogføring for hver sagsbogføringsgruppe. En bogføringsgruppe repræsenterer en kæde mellem sagen, og hvordan den bør behandles i Finans. Når du opretter en sag, kan du angive en bogføringsgruppe, og som standard knyttes hver opgave, du opretter for sagen, til denne bogføringsgruppe. Når du opretter opgaver, kan du tilsidesætte standardindstillingen og vælge en bogføringsgruppe, der passer bedre.  
@@ -81,7 +92,7 @@ Et aspekt af planlægningssager er at beslutte, hvilke bogføringkonti, der skal
 > [!NOTE]  
 >   De nødvendige konti, der skal bogføres til i tabellen over konti skal oprettes, før du kan oprette bogføringsgrupper. Du kan finde flere oplysninger i [Konfigurere eller ændre kontoplanen](finance-setup-chart-accounts.md).  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagsbogføringsgrupper**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sagsbogføringsgrupper**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**, og udfyld derefter kontofelterne som beskrevet i følgende tabel.  
 
 | Feltet Konto | Beskrivelse |
@@ -110,7 +121,4 @@ Et aspekt af planlægningssager er at beslutte, hvilke bogføringkonti, der skal
 [Finans](finance.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

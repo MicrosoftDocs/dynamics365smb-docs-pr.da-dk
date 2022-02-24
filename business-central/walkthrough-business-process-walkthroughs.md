@@ -1,53 +1,48 @@
 ---
-title: Gennemgang af forretningsprocesser
-description: Dette udvalg af gennemgange giver trinvise komplette forretningsprocesser, som du kan udføre ved hjælp af demovirksomheden CRONUS.
+title: Gennemgange af forretningsprocesser | Microsoft Docs
+description: Dette udvalg af gennemgange giver trinvise komplette forretningsprocesser, som du kan udføre ved hjælp af demovirksomheden CRONUS Danmark A/S. Gennemgangene består af flere procedurer, hvoraf nogle normalt udføres af én bruger, mens andre indføjer flere forskellige brugerroller. Med henblik på at simulere arbejdsmiljøet, indeholder nogle af gennemgangene installationstrin, der er nødvendige for at gennemføre øvelserne som beskrevet. Disse trin kan give indblik i, hvilken type oplysninger brugerne skal dele med deres virksomheds it-teknikere.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 0ca067f8b9ca7a8d6838b6099ae330ab8ddbf66b
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.date: 06/25/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6ad45590d0581ea8888918a8306e2dfcfe82439c
+ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724658"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527804"
 ---
 # <a name="business-process-walkthroughs"></a>Gennemgang af forretningsprocesser
 
-Dette udvalg af gennemgange giver trinvise komplette forretningsprocesser, som du kan udføre ved hjælp af demovirksomheden CRONUS. Gennemgangene består af flere procedurer, hvoraf nogle normalt udføres af én bruger, mens andre indføjer flere forskellige brugerroller. Med henblik på at simulere arbejdsmiljøet, indeholder nogle af gennemgangene installationstrin, der er nødvendige for at gennemføre øvelserne som beskrevet. Disse trin kan give indblik i, hvilken type oplysninger brugerne skal dele med deres virksomheds it-teknikere.  
+Dette udvalg af gennemgange giver trinvise komplette forretningsprocesser, som du kan udføre ved hjælp af demovirksomheden CRONUS Danmark A/S. Gennemgangene består af flere procedurer, hvoraf nogle normalt udføres af én bruger, mens andre indføjer flere forskellige brugerroller. Med henblik på at simulere arbejdsmiljøet, indeholder nogle af gennemgangene installationstrin, der er nødvendige for at gennemføre øvelserne som beskrevet. Disse trin kan give indblik i, hvilken type oplysninger brugerne skal dele med deres virksomheds it-teknikere.  
 
- Gennemgangene er komplette scenarier og bør udføres fra start til slut for at give optimalt udbytte. Mange af dem er baseret på [!INCLUDE[prod_short](includes/prod_short.md)]-demonstrationer og giver dig mulighed for at prøve disse procedurer selv, i dit eget tempo.  
+ Gennemgangene er komplette scenarier og bør udføres fra start til slut for at give optimalt udbytte. Mange af dem er baseret på [!INCLUDE[d365fin](includes/d365fin_md.md)]-demonstrationer og giver dig mulighed for at prøve disse procedurer selv, i dit eget tempo.  
 
 > [!NOTE]
-> Nogle gennemgange kræver eksempeldata, der ikke er tilgængelige i standarddemonstrationsvirksomheden i [!INCLUDE[prod_short](includes/prod_short.md)]. <!--For more information, see [Sandbox Environments](admin-sandbox-environments.md). -->
+> Nogle gennemgange kræver eksempeldata, der ikke er tilgængelige i standarddemonstrationsvirksomheden i [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan finde flere oplysninger i [Sådan opretter du en virksomhed med komplette eksempeldata i en sandkasse](across-how-create-sandbox-environment.md#to-create-a-company-with-complete-sample-data-in-a-sandbox).
 
 |Hvis du vil|Skal du se|  
 |--------|---------|  
 |Oprette en marketingkampagne.|[Gennemgang: Gennemførsel af en salgskampagne](walkthrough-conducting-a-sales-campaign.md)|  
-|Bruge forudbetalinger til at administrere delvis betaling for salg og køb. <!-- **Requires complete sample data** --> |[Gennemgang: Opsætning og fakturering af salgsforudbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
+|Bruge forudbetalinger til at administrere delvis betaling for salg og køb. **Kræver komplette eksempeldata** |[Gennemgang: Opsætning og fakturering af salgsforudbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
 |Konfigurer godkendelsesbrugere, hvornår og hvordan brugere skal have besked om godkendelsesarbejdsgange, og rediger og aktiver derefter den relevante godkendelsesarbejdsgang.|[Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Planlægge et projekt fra start til slut. <!-- **Requires complete sample data** --> |[Gennemgang: Administration af projekter med sager](walkthrough-managing-projects-with-jobs.md)|  
-|En rapport over omkostningerne for et projekt. <!-- **Requires complete sample data** --> |[Gennemgang: Beregning af igangværende arbejder for en sag](walkthrough-calculating-work-in-process-for-a-job.md)|  
-|Vælg varer til levering i grundlæggende lageropsætninger. <!-- **Requires complete sample data** --> |[Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Eksportér forretningsdata til revisionsformål i Tyskland.|[Gennemgang: Eksportere data til en digital revision](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
-
-<!-- |Assemble and ship items that are customized on the sales order. **Requires complete sample data** |[Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)|   -->
-<!-- |Plan supply orders to fulfill demand automatically. **Requires complete sample data** |[Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)|   -->
-<!-- |Plan supply orders to fulfill demand manually. **Requires complete sample data** |[Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)|   -->
-<!-- |Put received items away in basic warehouse configurations. **Requires complete sample data** |[Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|   -->
-<!-- |Put received items away in advanced warehouse configurations. **Requires complete sample data**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|   -->
-<!-- |Perform defects management. **Requires complete sample data** |[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)| -->
+|Læg modtagne varer på lager i grundlæggende lageropsætninger. **Kræver komplette eksempeldata**|[Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|  
+|Læg modtagne varer på lager i avancerede lagerkonfigurationer. **Kræver komplette eksempeldata**|[Gennemgang: Modtagelse og placering på lager i avancerede lageropsætninger](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|  
+|Planlægge forsyningsordrer for at opfylde behovet manuelt. **Kræver komplette eksempeldata**|[Gennemgang: Manuel planlægning af forsyninger](walkthrough-planning-supplies-manually.md)|  
+|Planlægge forsyningsordrer for at opfylde behovet automatisk. **Kræver komplette eksempeldata**|[Gennemgang: Automatisk planlægning af forsyninger](walkthrough-planning-supplies-automatically.md)|  
+|Monter og afsend varer, der er tilpasset på salgsordren. **Kræver komplette eksempeldata**|[Gennemgang: Salg, montering og levering af pakker](walkthrough-selling-assembling-and-shipping-kits.md)|  
+|Planlægge et projekt fra start til slut. **Kræver komplette eksempeldata**|[Gennemgang: Administration af projekter med sager](walkthrough-managing-projects-with-jobs.md)|  
+|En rapport over omkostningerne for et projekt. **Kræver komplette eksempeldata**|[Gennemgang: Beregning af igangværende arbejder for en sag](walkthrough-calculating-work-in-process-for-a-job.md)|  
+|Vælg varer til levering i grundlæggende lageropsætninger. **Kræver komplette eksempeldata**|[Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
+|Udfør defektstyring. **Kræver komplette eksempeldata**|[Gennemgang: Sporing af serie-/lotnumre](walkthrough-tracing-serial-lot-numbers.md)|  
 
 ## <a name="see-also"></a>Se også
 
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

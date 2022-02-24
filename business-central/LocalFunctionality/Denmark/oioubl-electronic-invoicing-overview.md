@@ -1,28 +1,28 @@
 ---
 title: Oversigt over elektronisk OIOUBL-fakturering | Microsoft Docs
-description: Få mere at vide om, hvordan Business Central understøtter behovet for at sende salgsdokumenter til den danske offentlige sektor elektronisk i OIOUBL-format.
+description: Virksomheder skal sende salgsfakturaer, kreditnotaer, rentenotaer og rykkere til den danske offentlige sektor elektronisk i OIOUBL-format (Offentlig Information Online UBL). Hvis en virksomhed ikke sender disse dokumenter elektronisk, kan myndighederne nægte at betale.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 976d3ffdca67e7cbe42adf47df96200d29154ee0
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 20827a127acf89c056bf51867c447421434d0313
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011961"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180819"
 ---
 # <a name="oioubl-electronic-invoicing-overview"></a>Oversigt over elektronisk OIOUBL-fakturering
 Virksomheder skal sende salgsfakturaer, kreditnotaer, rentenotaer og rykkere til den danske offentlige sektor elektronisk i OIOUBL-format (Offentlig Information Online UBL). Hvis en virksomhed ikke sender disse dokumenter elektronisk, kan myndighederne nægte at betale.  
 
 Du kan finde flere oplysninger om elektronisk OIOUBL-fakturering i [oioubl.info](http://www.oioubl.info/classes/da/index.html).  
 
-## <a name="implementation-in-prod_short"></a>Implementering i [!INCLUDE[prod_short](../../includes/prod_short.md)]  
+## <a name="implementation-in-d365fin"></a>Implementering i [!INCLUDE[d365fin](../../includes/d365fin_md.md)]  
 De aktuelle krav til at sende elektroniske fakturaer er baseret på OIOUBL, som er baseret på UBL (Universal Business Language) version 2.0-standarden. Du kan finde flere oplysninger på [OASIS UBL](https://aka.ms/OasisUblSite)-webstedet. De genererede XML-dokumenter kan derefter sendes til debitoren.  
 
 For at sende dokumenter elektronisk skal du knytte europæiske EAN-lokationsnumre (European Article Numbering) og kontokoder til de relevante debitorer på siden **Debitorkort**. Du kan få flere oplysninger i [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md). Disse tal medtages, når du opretter dokumenter og bogfører eller udsteder dem. Når dokumenterne er bogførte eller udstedt, kan du oprette elektroniske versioner af dem, som kan sendes til debitoren. Du kan sende følgende typer dokumenter:  
@@ -48,6 +48,3 @@ Du kan finde flere oplysninger i emnet om OIOUBL-profiler i afsnittet Ofte still
  [Konfigurere OIOUBL](how-to-set-up-oioubl.md)  
  [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md)  
  [Oprette elektroniske dokumenter ved hjælp af OIOUBL](how-to-create-electronic-documents-by-using-oioubl.md)  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

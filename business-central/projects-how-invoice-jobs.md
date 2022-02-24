@@ -1,28 +1,27 @@
 ---
-title: Oprette en sagssalgsfaktura for at fakturere for en sag
-description: Beskriver, hvordan du fakturerer debitorer for diverse udgifter, efterhånden som et projekt skrider frem og omkostningerne stiger.
+title: Oprette en sagssalgsfaktura for at fakturere for en sag | Microsoft Docs
+description: Beskriver, hvordan du fakturerer debitorer for diverse udgifter, efterhånden som et projekt skrider frem.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.search.form: 1002, 1007,
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 444ecd4ea765983d2cd4c7c80962f8d2e66a737e
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 05/25/2020
+ms.author: sgroespe
+ms.openlocfilehash: 3cf465be4d168baf586dd44df1357482b9651e66
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973780"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402475"
 ---
 # <a name="invoice-jobs"></a>Fakturere sager
 I løbet af projektet kan der akkumuleres sagsomkostninger fra ressourceforbrug, materialer og sagsrelaterede indkøb. Efterhånden som status for sagen ændrer sig, bogføres disse transaktioner i sagskladden. Det er vigtigt, at alle omkostninger er registreret i sagskladden, før du fakturerer kunden.
 
 > [!NOTE]
-> Du kan også købe eksterne ressourcer uden relation til en sag, f.eks. for at fakturere en kreditor for udført arbejde. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).
+> Du kan også købe eksterne ressourcer uden relation til en sag, f. eks. for at fakturere en kreditor for udført arbejde. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
 
 Du kan fakturere hele sagen fra siden **Sagsopgavelinjer** eller kun fakturere de valgte fakturerbare linjer fra siden **Planlægningslinjer**. Faktureringen kan foretages, når sagen er afsluttet, eller med bestemte intervaller, efterhånden som status for sagen ændres, baseret på en faktureringsplan.
 
@@ -34,7 +33,7 @@ Du kan oprette en faktura for en sag eller for en eller flere sagsopgaver for en
 
 Følgende procedure viser, hvordan du kan bruge en kørsel til at fakturere flere sager.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opret salgsfaktura for sag**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opret salgsfaktura for sag**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Du kan angive filtre, hvis du vil begrænse de sager, som kørslen skal behandle.
 4. Vælg **OK** for at starte oprette fakturaen.  
@@ -47,7 +46,7 @@ Du kan gennemse og bogføre oprettede fakturaer i vinduet **Salgsfakturaer**.
 ## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Sådan opretter og bogfører du salgsfakturaer for sager fra sagsplanlægningslinjer
 Du kan oprette en faktura ud fra en sagsplanlægningslinje, og på det tidspunkt angive antallet af varen, ressourcen eller finanskontoen, som du vil fakturere.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.
 2. Åbn en relevant sag.
 3. Vælg en sagsopgave, hvor feltet **Sagsopgavetype** indeholder **Bogføring**, og vælg derefter handlingen **Sagsplanlægningslinjer**.  
 4. Angiv antallet af varen, ressourcen og finanskontotype, som du vil fakturere, i feltet **Antal til overførsel til faktura** i en sagsplanlægningslinje.  
@@ -62,13 +61,25 @@ Du kan oprette en faktura ud fra en sagsplanlægningslinje, og på det tidspunkt
 > [!NOTE]  
 >   Ovenstående fremgangsmåde er ens for at oprette, gennemse og bogføre en sagsrelateret salgskreditnota.
 
+## <a name="to-calculate-and-post-job-completion-entries"></a>Sådan beregnes og bogføres sagsafslutningsposter
+Når du har fuldført alle aktiviteter for en sag, inklusive bogføring og fakturering af forbrug, skal du opdatere sagen for at få **status** **Afsluttet**. Derefter skal du tilbageføre alt igangværende arbejde, som er blevet bogført i finansregnskabet.
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
+2. Vælg en åben sag, og vælg derefter handlingen **Rediger**.
+3. I feltet **Status** skal du vælge **Fuldført**.
+4. Følg hjælpetrinnene for at beregne og bogføre igangværende arbejde. Du kan også følge trin 5 og 6 for at gøre det manuelt.  
+5. Vælg handlingen **Beregn igangværende arbejde**.
+6. På siden **Beregn VIA for sag** skal du udfylde felterne efter behov.  
+
+     Posterne for igangværende arbejde for sagen, som blev oprettet ved at udføre kørslen, vil nu være markeret i feltet **Sagen er fuldført** for at vise, at de er færdiggørelsesposter.  
+7. Vælg handlingen **Bogfør VIA - finansafstemning**.
+8. På siden **Bogfør VIA - finansafstemning** skal du udfylde felterne efter behov.  
+
+     Sagens VIA-finansposter, som blev oprettet ved at udføre kørslen, vil nu være markeret i feltet **Sagen er fuldført** for at vise, at de er færdiggørelsesposter.
 
 ## <a name="see-also"></a>Se også
 [Administrere projekter](projects-manage-projects.md)  
 [Finans](finance.md)  
 [Køb](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)      
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

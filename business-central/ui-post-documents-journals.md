@@ -1,27 +1,27 @@
 ---
-title: Oversigt over bogføring af dokumenter og kladder
-description: I dette emne beskrives bogførings handlinger, og hvordan du kan bogføre dokumenter og kladder i de forskellige regnskaber.
+title: Oversigt over bogføring af dokumenter og kladder | Microsoft Docs
+description: Beskriver bogføring af handlinger og de måder, du kan bogføre dokumenter og kladder.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 52a9330273dc82f349144e2d4392824f7c2ee33e
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 21329a8c6232fe0aba2f0ef99cc58ce4ea699d68
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012731"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310687"
 ---
 # <a name="posting-documents-and-journals"></a>Bogføring af dokumenter og kladder
 Bogføringen repræsenterer regnskabshandlingen, som registrerer forretningstransaktioner i forskellige virksomhedsfinanskonti.
 
-Næsten alle dokumenter og kladder i [!INCLUDE[prod_short](includes/prod_short.md)] har en **Bogføring**-gruppe, hvor du kan vælge mellem forskellige bogføringshandlinger, f.eks **Bogfør**, **Vis bogføring**, **Bogfør og send**, **Bogfør og mail**.
+Næsten alle dokumenter og kladder i [!INCLUDE[d365fin](includes/d365fin_md.md)] har en **Bogføring**-gruppe, hvor du kan vælge mellem forskellige bogføringshandlinger, f.eks **Bogfør**, **Vis bogføring**, **Bogfør og send**, **Bogfør og mail**.
 
 Følgende tabel beskriver relaterede opgaver med links til de emner, der beskriver dem.
 
@@ -37,7 +37,4 @@ Følgende tabel beskriver relaterede opgaver med links til de emner, der beskriv
 ## <a name="see-also"></a>Se også
 [Redigere bogførte dokumenter](across-edit-posted-document.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

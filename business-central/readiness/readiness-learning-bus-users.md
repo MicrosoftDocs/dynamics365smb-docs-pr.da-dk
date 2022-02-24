@@ -2,15 +2,15 @@
 title: Undervisningskatalog for forretningsbrugere
 description: Find al tilgængelig undervisning i Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2021
-ms.topic: conceptual
-ms.author: margoc
-ms.openlocfilehash: fd0b839e402ff59ec5fb875d026eb5fe2202850e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 04/20/2020
+ms.topic: article
+ms.author: v-lshann
+ms.openlocfilehash: 2076c0b3cf17167bea654e136be98c6cb9522718
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772425"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3271938"
 ---
 # <a name="business-users-learning-catalog"></a>Undervisningskatalog for forretningsbrugere
 
@@ -48,6 +48,3 @@ Følgende katalog er organiseret fra kerneviden til bestemte domæner og fra det
 | [Returvarer i Microsoft Dynamics 365 Business Central](/learn/paths/return-items-dynamics-365-business-central/)                                                   | Har du brug for at returnere varer til kreditorer og acceptere returvarer fra debitorer? Denne sti vil hjælpe dig med at lære, hvordan du behandler returvarer.                                                                                                                                                                         | Gratis onlinelæringssti i dit eget tempo | 1 time og 25 minutter  |
 | [Genopfylde varer i Microsoft Dynamics 365 Business Central](/learn/paths/replenish-items-dynamics-365-business-central/)                                             | Har du brug for at genopfylde lagervarer i virksomheden? Denne læringssti viser dig de indstillinger, du kan bruge for effektivt at genopfylde varer i Business Central.                                                                                                                                     | Gratis onlinelæringssti i dit eget tempo | 1 time og 46 minutter  |
 | [Montere varer i Microsoft Dynamics 365 Business Central](/learn/paths/assemble-items-dynamics-365-business-central/)                                               | Sælger du monterede varer? Denne læringssti indeholder de oplysninger, du skal bruge til montagestyring og varer. Den indeholder også trin, du kan bruge til at producere montagevarer til lager eller ordre.                                                                                                                | Gratis onlinelæringssti i dit eget tempo | 2 timer og 26 minutter |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

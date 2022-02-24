@@ -1,21 +1,21 @@
 ---
-title: Forberede overflytning af debitordata med skabeloner
-description: Lær at bruge konfigurationsskabeloner til at strukturere eksisterende debitordata, inden du overfører stamdataene til den nye virksomhed i Business central.
+title: Forberede overførsel af debitordata med skabeloner | Microsoft Docs
+description: Lær at bruge konfigurationsskabeloner til at strukturere eksisterende debitordata, inden du overfører dataene til den nye virksomhed i Business central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: 49ea877d2a6a213a1559b7269bc4b70f660745d7
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.date: 07/06/2020
+ms.author: sgroespe
+ms.openlocfilehash: 273d7a0b15684f7cd97874d4dba818b9a289e2a7
+ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649883"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535918"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Forberede overflytning af debitordata med skabeloner
 
@@ -28,7 +28,7 @@ Du opretter typisk dataskabeloner til følgende masterdatatabeller:
 - **Vare**  
 - **Kreditor**  
 
-Men du kan oprette en skabelonstruktur til og anvende den på alle tabeller i [!INCLUDE[prod_short](includes/prod_short.md)].  
+Men du kan oprette en skabelonstruktur til og anvende den på alle tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 > [!TIP]  
 > Du kan også bruge dataskabeloner til daglige operationer til at oprette nye poster, der er baseret på skabeloner. Disse dataskabeloner fungerer kun til de understøttede masterdatatabeller. Du kan f.eks. finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).  
@@ -47,7 +47,7 @@ Når du vælger en eksisterende dataskabelon, skal du vurdere, om skabelonerne, 
 > [!TIP]  
 > Du kan også bruge dataskabeloner til hurtigt at oprette nye poster. Brug dem til hurtigere og mere nøjagtig dataoprettelse. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Konfigurationsskabeloner**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationsskabeloner**, og vælg derefter det relaterede link.  
 2. På siden **Konfigurationsskabeloner** skal du vælge en dataskabelon på listen og derefter vælge handlingen **Rediger**.  
 
 Hvis standardskabelonerne ikke opfylder dine behov, kan du oprette nye skabeloner, eller du kan føje felter til en eksisterende skabelon. Hvis standardskabelonerne er tilstrækkelige, kan du bruge dem til at oprette poster, der er baseret på masterdataskabeloner.
@@ -87,7 +87,7 @@ Tabel-ID, tabelnavn og linjerne i den eksisterende dataskabelon indsættes i den
 3. Angiv en passende værdi i feltet **Standardværdi**. I nogle tilfælde vil du måske bruge en værdi, der ikke er en værdi, der er tilgængelig i databasen. Hvis det er tilfældet, kan du markere afkrydsningsfeltet **Spring relationskontrol over** for at gøre det muligt at anvende data uden fejl.
 
     > [!TIP]  
-    > Da feltet **Standardværdi** ikke har opslag til de tilsvarende [!INCLUDE[prod_short](includes/prod_short.md)]-feltindstillinger, skal du kopiere den ønskede værdi fra den relaterede side og indsætte den i skabelonen.
+    > Da feltet **Standardværdi** ikke har opslag til de tilsvarende [!INCLUDE[d365fin](includes/d365fin_md.md)]-feltindstillinger, skal du kopiere den ønskede værdi fra den relaterede side og indsætte den i skabelonen.
 
 4. Marker afkrydsningsfeltet **Obligatorisk**, hvis brugerne skal udfylde det pågældende felt.
 
@@ -98,9 +98,9 @@ Tabel-ID, tabelnavn og linjerne i den eksisterende dataskabelon indsættes i den
 
 ## <a name="to-export-to-a-template-in-excel"></a>Sådan udlæses til en skabelon i Excel
 
-Du kan hurtigt oprette en Excel-projektmappe, der skal fungere som en skabelon, der er baseret på strukturen i en eksisterende databasetabel. Derefter kan du bruge skabelonen til at indsamle debitordata i et ensartet format til senere import i [!INCLUDE[prod_short](includes/prod_short.md)].
+Du kan hurtigt oprette en Excel-projektmappe, der skal fungere som en skabelon, der er baseret på strukturen i en eksisterende databasetabel. Derefter kan du bruge skabelonen til at indsamle debitordata i et ensartet format til senere import i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Arbejdsark til konfiguration**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.
 2. Tilføj en tabel på listen, eller vælg en eksisterende tabel. Du kan finde flere oplysninger i [Administrere virksomhedskonfigurationen i et regneark](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Klik på handlingen **Vis felter** for at definere felterne fra den tabel, som du vil medtage i skabelonen.
 4. Vælg handlingen **Udlæs til skabelon**.
@@ -122,8 +122,7 @@ Når du anvender data fra en skabelon i Excel til en tabel, der også har en kon
 Enhver post, hvis data anvendes på denne måde, er fuldført, da den består af data, der er angivet af brugeren i Excel, plus de standardværdier, der er angivet af konfigurationsskabelonen.
 
 > [!NOTE]
-> Hvis dataene i tabellerne i konfigurationspakken indeholder datoer, f.eks. bogføringsdatoer på fakturaer, medtages datoerne i den tidszone, der er angivet i [!INCLUDE[prod_short](includes/prod_short.md)]. 
-
+> Hvis dataene i tabellerne i konfigurationspakken indeholder datoer, f.eks. bogføringsdatoer på fakturaer, medtages datoerne i den tidszone, der er angivet i [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
 
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Sådan opretter du en post fra en konfigurationsskabelon
 
@@ -131,26 +130,17 @@ Du kan bruge strukturen i de data, der er indeholdt i dataskabelonerne til at ko
 
 Følgende trin illustrerer, hvordan du opretter et varekort fra en varedataskabelon. Du kan oprette en post fra alle dataskabeloner ved hjælp af samme fremgangsmåde.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Konfigurationsskabeloner**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationsskabeloner**, og vælg derefter det relaterede link.  
 2. Markér skabelonen **Vare**, og vælg derefter handlingen **Rediger**. Yderligere oplysninger finder du under [Sådan oprettes en dataskabelon](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Vælg handlingen **Opret forekomst**. Der oprettes et varekort.  
 4. Vælg knappen **OK**.  
-5. Hvis du vil se det nye varekort, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
+5. For at få vist det nye varekort skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 6. Åbn det nye varekort.  
 7. Udvid de forskellige oversigtspaneler, og kontrollér, at oplysningerne er oprettet korrekt på dem.  
 
-## <a name="to-use-conversion-templates"></a>Sådan anvendes konverteringsskabeloner
-
-Du kan konvertere kontakter til debitorer, kreditorer og medarbejdere. 
-
-### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>Sådan konverteres en kontakt til en debitor, kreditor eller medarbejder
-1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontakter**, og vælg derefter den rette kontakt. 
-2. Vælg **Handlinger**, **Funktioner** og derefter **Opret som debitor, kreditor, bank eller medarbejder** på kontaktkortet.
-
-
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Bruge en konfigurationsskabelon på en post
 
-Du kan anvende en dataskabelon på enhver post, der er i [!INCLUDE[prod_short](includes/prod_short.md)], og bruge denne teknik til at ændre eller redigere en post. Men når du gør dette, overskriver du eksisterende værdier i posten med dem fra skabelonen. Derfor skal du være omhyggelig, når du anvender en skabelon til en eksisterende poster.
+Du kan anvende en dataskabelon på enhver post, der er i [!INCLUDE[d365fin](includes/d365fin_md.md)], og bruge denne teknik til at ændre eller redigere en post. Men når du gør dette, overskriver du eksisterende værdier i posten med dem fra skabelonen. Derfor skal du være omhyggelig, når du anvender en skabelon til en eksisterende poster.
 
 > [!WARNING]  
 > Funktionen **Anvend skabelonen** overskriver eksisterende data i en post. Hvis denne funktion bruges ved overflytning af masterdata, overskrives de importerede data, når du opretter poster.
@@ -163,14 +153,8 @@ Følgende procedure er baseret på et nyt debitorkort.
 
 Standardværdierne fra den valgte debitorskabelon indsættes i debitorkortet.
 
-> [!NOTE]
-> Du kan ikke bruge Anvend skabelon til at tømme felter for debitorer, kreditorer og lignende. Du skal i stedet bruge funktionen **Rediger i Excel**. Du kan finde flere oplysninger i [Redigere i Excel](across-work-with-excel.md#edit-in-excel).
-
 ## <a name="see-also"></a>Se også
 
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Opsætning](admin-setup-and-administration.md)  
 [Registrere nye debitorer](sales-how-register-new-customers.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

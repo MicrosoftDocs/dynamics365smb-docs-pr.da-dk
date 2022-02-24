@@ -1,21 +1,21 @@
 ---
-title: Oprette bedste fremgangsmåder - Forsyningsplanlægning
-description: Når forsyningsplanlægningen oprettes og bruges korrekt, hjælper den en virksomhed med at undgå at løbe tør og reducerer både bestillings- og lageromkostningerne.
+title: Konfigurere bedste fremgangsmåder- Forsyningsplanlægning | Microsoft Docs
+description: Forsyningsplanlægning er et vigtigt område. Når forsyningsplanlægningen oprettes og bruges korrekt, hjælper den en virksomhed med at undgå at løbe tør og reducerer både bestillings- og lageromkostningerne.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 423d26aad7fe708cf51d614449cb7a3666c27dd6
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6e80ba7e148e8a415c8b9c71e42bdda13df7050f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320027"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192167"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Oprette bedste fremgangsmåder: Forsyningsplanlægning
 Forsyningsplanlægning er et vigtigt område. Når forsyningsplanlægningen oprettes og bruges korrekt, hjælper den en virksomhed med at undgå at løbe tør og reducerer både bestillings- og lageromkostningerne.  
@@ -34,7 +34,4 @@ Forsyningsplanlægning er et vigtigt område. Når forsyningsplanlægningen opre
  [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
  [Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)   
  [Opret komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

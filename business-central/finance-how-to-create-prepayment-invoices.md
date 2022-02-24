@@ -1,82 +1,66 @@
 ---
-title: Oprette forudbetalingsfakturaer
-description: Få at vide, hvordan du håndterer situationer, hvor du eller din leverandør kræver forudbetaling. Du kan bruge standardprocenterne til hver enkelt salgs- eller købslinje, eller du kan regulere beløbet efter behov.
-author: edupont04
+title: Sådan opretter du forudbetalingsfakturaer | Microsoft Docs
+description: Få at vide, hvordan du håndterer situationer, hvor du eller din leverandør kræver forudbetaling.
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 42, 50, 9305, 9307
-ms.date: 12/02/2021
-ms.author: edupont
-ms.openlocfilehash: ebce3f22b4977b9dfca506ce536abb8c7e5ad46b
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 43dd2b3a2a0fe6b7995db511bf9482b7102ed0ef
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972014"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183400"
 ---
 # <a name="create-prepayment-invoices"></a>Oprette forudbetalingsfakturaer
-
-Hvis du kræver, at kunderne skal indsende en betaling, før du leverer en ordre til dem, kan du bruge forudbetalingsfunktionen. Det samme gælder, hvis din leverandør kræver, at du indsender betalingen, før de leverer en ordre til dig.  
-
-Når du har oprettet en salgs- eller købsordre, kan du starte forudbetalingsprocessen. Hvis du har en standardforudbetalingsprocent for en given vare på ordren eller for debitor eller kreditor, vil den automatisk blive medtaget i den oprettede forudbetalingsfaktura. Du kan også angive en forudbetalingsprocent for hele dokumentet.
+Hvis det er et krav, at dine kunder skal betale, før du leverer en ordre til dem, eller hvis din leverandør kræver, at du skal betale, før de sender en ordre til dig, kan du bruge forudbetalinger.  
 
 Når du har oprettet en salgs- eller købsordre, kan du oprette en forudbetalingsfaktura. Du kan bruge standardprocenterne til hver enkelt salgs- eller købslinje, eller du kan regulere beløbet efter behov. Du kan f.eks. angive et samlet beløb til hele ordren.  
 
 Følgende procedure beskriver, hvordan du fakturerer en forudbetaling for en salgsordre. Fremgangsmåden er den samme for købsordrer.  
 
-## <a name="to-create-a-prepayment-invoice"></a>Sådan oprettes en forudbetalingsfaktura
+## <a name="to-create-a-prepayment-invoice"></a>Sådan oprettes en forudbetalingsfaktura  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
+2. Opret en ny salgsordre. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
-2. Opret en ny salgsordre for den ønskede kunde. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).  
+    I oversigtspanelet **Forudbetaling**, udfyldes feltet **Forudbetaling i %** automatisk, hvis der er angivet en standardforudbetalingsprocent på debitorkortet. Du kan ændre indholdet i feltet. Forudbetalingsprocenten kopieres kun fra hovedet til de linjer, hvor standardforudbetalingsprocenten ikke kopieres fra varen.  
 
-    I oversigtspanelet **Forudbetaling** angiver feltet **Forudbetaling i %** den procentsats, der skal bruges til at beregne forudbetalingsbeløbet. Feltet udfyldes automatisk, hvis der er angivet en standardforudbetalingsprocent på debitorkortet. Du kan ændre procentsatsen. <!--This percentage is applied to lines where the item on that line does not already specify a prepayment percentage. The prepayment percentage is only copied from the header to lines that do not copy the default prepayment percentage from the item.-->  
-
-    Vælg feltet **Komprimer forudbetaling**, hvis du vil oprette linjer på forudbetalingsfakturaen, der kombinerer linjer fra salgsordren, hvis:  
-
+    Hvis afkrydsningsfeltet **Komprimer forudbetaling** er markeret, samles linjerne på fakturaen, hvis:  
     - De har samme finanskonto til forudbetalinger, som angivet i bogføringsopsætning.  
     - De har samme dimensioner.  
 
-    Hvis du vil angive en forudbetalingsfaktura med én linje for hver salgsordre, der har en forudbetalingsprocent, skal du ikke vælge feltet **Komprimer forudbetaling**.  
-
-    Forfaldsdatoen for forudbetalingen beregnes automatisk på grundlag af værdien af **Forudb. - kode for betal.betingelser**.
+    Lad feltet være tomt, hvis du vil angive en forudbetalingsfaktura med én linje for hver salgsordre, der har en forudbetalingsprocent.  
 
 3. Udfyld salgslinjerne.  
 
-    Hvis du har angivet en standardforudbetalingsprocent enten for debitoren eller i oversigtspanelet **Forudbetaling** i dette dokument, kopieres denne værdi til hver linje. Du kan ændre indholdet i feltet **Forudbetaling i %** på linjen.  
-
-    > [!TIP]
-    > Hvis du ikke kan se feltet **Forudbetaling i %**, kan du tilføje det via personlig tilpasning.  Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
-
-4. Du kan se det samlede forudbetalingsbeløb ved at vælge handlingen **Statistik**.
+    Hvis der er oprettet standardforudbetalingsprocenter til dine varer, kopieres de automatisk til feltet **Forudbetaling i %** på linjen. Ellers kopieres forudbetalingsprocenten fra hovedet. Du kan ændre indholdet i feltet **Forudbetaling i %** på linjen.  
+4. Hvis du vil bruge én forudbetalingsprocent til hele ordren, skal du ændre feltet **Forudbetaling i %** i hovedet, efter at du har udfyldt linjerne.  
+5. Du kan se det samlede forudbetalingsbeløb ved at vælge handlingen **Statistik**.
 
     Hvis du vil regulere det samlede forudbetalingsbeløb for ordren, kan du ændre indholdet i feltet **Forudbetalingsbeløb** på siden **Salgsordrestatistik**.  
 
     Hvis feltet **Priser inkl. moms** er markeret, kan feltet **Forudbetalingsbeløb Inkl. moms** redigeres.  
 
     Hvis du ændrer indholdet i feltet **Forudbetalingsbeløb**, fordeles beløbet proportionalt mellem alle linjerne bortset fra dem, hvor der står **0** i feltet **Forudbetaling i %**.  
-
-5. For at udskrive en kontrolrapport, inden du bogfører forudbetalingsfakturaen, skal du vælge handlingen **Forudbetaling** og derefter vælge **Forudbetalingstestrapport**.  
-6. For at bogføre forudbetalingsfakturaen skal du vælge handlingen **Forudbetaling** og derefter vælge handlingen **Bogfør forudbetalingsfaktura**.  
+6. For at udskrive en kontrolrapport, inden du bogfører forudbetalingsfakturaen, skal du vælge handlingen **Forudbetaling** og derefter vælge **Forudbetalingstestrapport**.  
+7. For at bogføre forudbetalingsfakturaen skal du vælge handlingen **Forudbetaling** og derefter vælge handlingen **Bogfør forudbetalingsfaktura**.  
 
     Hvis du både vil bogføre og udskrive forudbetalingsfakturaen, skal du vælge handlingen **Bogfør og udskriv forudbetalingsfaktura**.  
 
 Du kan udstede flere forudbetalingsfakturaer til ordren. I så fald skal du øge forudbetalingsbeløbet på en eller flere linjer, justere dokumentdatoen, hvis det er nødvendigt, og bogføre forudbetalingsfakturaen. Der oprettes en ny faktura, som dækker differencen mellem de forudbetalte beløb, der er faktureret indtil videre, og det nye forudbetalingsbeløb.  
 
 > [!NOTE]  
-> Hvis du befinder dig i USA, kan du ikke ændre forudbetalingsprocenten, når forudbetalingsfakturaen er blevet bogført. Dette forhindres i den amerikanske version af [!INCLUDE[prod_short](includes/prod_short.md)], fordi beregningen af moms ellers ville være forkert.  
+>  Hvis du befinder dig i USA, kan du ikke ændre forudbetalingsprocenten, når forudbetalingsfakturaen er blevet bogført. Dette forhindres i den amerikanske version af [!INCLUDE[d365fin](includes/d365fin_md.md)], fordi beregningen af moms ellers ville være forkert.  
 
  Når du er klar til at bogføre resten af fakturaen, skal du benytte samme fremgangsmåde som med alle andre fakturaer, hvorefter det forudbetalte beløb automatisk trækkes fra det forfaldne beløb.  
 
-## <a name="see-also"></a>Se også
-
+## <a name="see-also"></a>Se også  
 [Fakturere forudbetalinger](finance-invoice-prepayments.md)  
 [Gennemgang: Opsætning og fakturering af salgsforudbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Tilpasse dit arbejdsområde](ui-personalization-user.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,26 +1,24 @@
 ---
-title: Projektstyring
-description: Beskriver, hvordan du bruger ressourcer, timesedler og sager til at administrere projekter og deres budgetter.
+title: Sagsopgaver, der bruger ressourcer og timesedler | Microsoft Docs
+description: Beskriver, hvordan du bruger ressourcer, timesedler og sager til at administrere projekter.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.workload: na
 ms.search.keywords: projects
-ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015
-ms.date: 06/22/2021
+ms.date: 10/01/2019
 ms.author: edupont
-ms.openlocfilehash: 2c53179960fc6b9ebd7a77193b13d271f22fe1b1
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: aa3158789f22cbb3a534bda2a83e2def209f9826
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101265"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312648"
 ---
 # <a name="project-management"></a>Projektstyring
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du udføre almindelige projektstyringsopgaver, som f.eks. konfiguration af en sag og planlægning af en ressource samt anskaffelsen af de oplysninger, der er nødvendige til administration af budgetter og overvågning af status. Du kan spore maskin- og medarbejdertimer på projektet ved hjælp af timeregistreringer. Som projektleder har du et godt overblik, ikke kun over individuelle sager, men også over allokeringen af medarbejdere, maskiner og andre ressourcer, der bruges i alle projekter.
 
-I [!INCLUDE[prod_short](includes/prod_short.md)] kan du udføre almindelige projektstyringsopgaver, som f.eks. konfiguration af en sag og planlægning af en ressource samt anskaffelsen af de oplysninger, der er nødvendige til administration af budgetter og overvågning af status. Du kan spore maskin- og medarbejdertimer på projektet ved hjælp af timeregistreringer. Som projektleder har du et godt overblik, ikke kun over individuelle sager, men også over allokeringen af medarbejdere, maskiner og andre ressourcer, der bruges i alle projekter.
-
-Før du kan bruge [!INCLUDE[prod_short](includes/prod_short.md)] til at administrere projekter, skal du definere ressourcer, timesedler og sager. Der er flere oplysninger under [Konfigurere projektstyring](projects-setup-projects.md).  
+Før du kan bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] til at administrere projekter, skal du definere ressourcer, timesedler og sager. Der er flere oplysninger under [Konfigurere projektstyring](projects-setup-projects.md).  
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
@@ -38,7 +36,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 ## <a name="get-started-with-projects"></a>Kom i gang med projekter
 
-Projektstyring er kompliceret nok i forvejen, og det kan være ekstra kompliceret at skulle lære at oprette sager og administrere igangværende arbejde i et nyt værktøj. For at hjælpe dig i gang med projektstyring i [!INCLUDE[prod_short](includes/prod_short.md)] kan du se [en video om oprettelse af sager](https://www.youtube.com/watch?v=VqaPWr7BWmw) på [!INCLUDE[prod_short](includes/prod_short.md)] YouTube-kanalen.  
+Projektstyring er kompliceret nok i forvejen, og det kan være ekstra kompliceret at skulle lære at oprette sager og administrere igangværende arbejde i et nyt værktøj. For at hjælpe dig i gang med projektstyring i [!INCLUDE [prodshort](includes/prodshort.md)] kan du se [en video om oprettelse af sager](https://www.youtube.com/watch?v=VqaPWr7BWmw) på [!INCLUDE [prodshort](includes/prodshort.md)] YouTube-kanalen.  
 
 ## <a name="see-also"></a>Se også
 
@@ -48,9 +46,6 @@ Projektstyring er kompliceret nok i forvejen, og det kan være ekstra komplicere
 [Køb](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

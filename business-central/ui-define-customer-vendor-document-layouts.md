@@ -1,23 +1,23 @@
 ---
-title: Tildele dokumentlayout til debitorer eller kreditorer
-description: Når der er defineret brugerdefinerede rapportlayout, kan du vælge dem fra debitor- og leverandørkortene for at angive, at det valgte layout skal bruges til pågældende debitor eller leverandør.
+title: Tildel det specielle dokumentlayout til debitorer eller leverandører | Microsoft Docs
+description: Når der er defineret brugerdefinerede rapportlayout, kan du vælge dem fra debitor- og leverandørkortene for at angive, at det valgte layout skal bruges til de dokumenter, som du har oprettet for den pågældende debitor eller leverandør.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 29b349824e2aff727cd255e612fa054f1d71610c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 11/15/2019
+ms.author: sgroespe
+ms.openlocfilehash: 23c4573c3121a660b8263c3bc9bb2c6ac8b1d331
+ms.sourcegitcommit: 893e13fa75b2d04dedd4a29abda216e3e54b24ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443739"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2809395"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Angiv dokumentlayout for debitorer og leverandører
 Når der er defineret brugerdefinerede rapportlayout, kan du vælge dem fra debitor- og leverandørkortene for at angive, hvilke layout der skal bruges til de forskellige typer dokumenter, som du har oprettet for den pågældende debitor eller leverandør. Værdien i feltet **Forbrug** angiver, hvilken proces, dokumentlayoutet skal bruges til, f.eks. **Rykker**, **Forsendelse** og **Bekræftelse**.
@@ -31,7 +31,7 @@ Før du kan definere, hvilket dokumentlayout, der skal bruges til hvilke process
 I det følgende beskrives det, hvordan du definerer layouts for salgsdokumenter fra et debitorkort. Fremgangsmåden er den samme for layouts for købsdokumenter fra et leverandørkort.
 
 ## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>Sådan aktiveres alle tilgængelige salgsdokumenter for en debitor
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.
 2. Åbn kortet for den debitor, som du vil definere dokumentlayout for pr. forretningsproces.
 3. På siden **Debitorkort** skal du vælge siden **Dokumentlayouts**.
 4. På siden **Dokumentlayouts** skal du vælge handlingen **Kopier fra rapportvalg**.
@@ -62,6 +62,3 @@ Kontaktpersonens e-mail-adresse indsættes nu på dokumentlayoutlinjen, så det 
 [Administration af rapportlayout](ui-manage-report-layouts.md)  
 [Arbejde med rapporter, kørsler og XMLporte](ui-work-report.md)  
 [Arbejde med rapporter, kørsler og XMLporte](ui-work-report.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,28 +1,30 @@
 ---
-title: Nulstille resultatopgørelseskonti
+title: Nulstille resultatopgørelseskonti | Microsoft Docs
 description: Ved årsregnskabets afslutning skal du udføre kørslen Nulstil resultatopgørelse for at afslutte de regnskabsperioder, der udgør regnskabsåret.
+services: project-madeira
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 06/25/2021
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 44e2d34ee4af32bcb901a66ae7e45b45ac274bd5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: fd811a1a472efe53fe1c16bd5c301925d424f274
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435743"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313924"
 ---
-# <a name="closing-income-statement-accounts"></a>Nulstille resultatopgørelseskonti
+# <a name="close-income-statement-accounts"></a>Nulstille resultatopgørelseskonti
 Når regnskabsåret er slut, skal du afslutte de perioder, det indeholder. Brug kørslen **Nulstil resultatopgørelse** for at gøre dette. Denne kørsel overfører årets resultat til en konto i balancen og nulstiller resultatopgørelseskonti. Det gør du ved at oprette linjer i en kladde, som du derefter kan bogføre.
 
 ## <a name="to-run-the-close-income-statement-batch-job"></a>Sådan udføres kørslen Nulstil resultatopgørelse
 1. Afslut regnskabsåret. Regnskabsåret skal være afsluttet, før kørslen kan sættes i gang. Du kan finde flere oplysninger i [Afslutte regnskabsperioder](year-close-account-periods.md).
-2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Nulstil resultatopgørelse**, og vælg derefter det relaterede link.
+2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Nulstil resultatopgørelse**, og vælg derefter det relaterede link.
 3. Vælg **OK** for at eksekvere kørslen.
 
 ## <a name="about-the-close-income-statement-batch-job"></a>Om kørslen Nulstil resultatopgørelse
@@ -35,11 +37,7 @@ Datoen på de linjer, som kørslen indsætter i kladden, vil altid være en ulti
 Kørslen **Nulstil resultatopgørelse** kan bruges flere gange. Du kan bogføre i et tidligere regnskabsår, også efter resultatopgørelseskontiene er nulstillet, hvis du udfører kørslen igen.
 
 ## <a name="see-also"></a>Se også
-
 [Afslutningregnskab](year-close-books.md)  
 [Bogføre årsafslutningsposten](year-how-post-year-end-close-entry.md)  
-[Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Åbne et nyt regnskabsår](finance-how-open-new-fiscal-year.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,29 +1,31 @@
 ---
 title: Sådan kombineres leverancer på én enkelt faktura | Microsoft Docs
 description: Hvis du vil fakturere mere end én leverance samtidig, kan du bruge samlefunktionen.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 12/16/2021
-ms.author: edupont
-ms.openlocfilehash: e111c08dc9251898ccecff4e65f768984b123c15
-ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 6a9f4d6ee49b8958b3dcc33697db5ce0d77ae2c8
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7929576"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312024"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Kombinere leverancer på én enkelt faktura
 Hvis du vil fakturere mere end én leverance samtidig, kan du bruge samlefunktionen.  
 
-Før du kan oprette en samleleverance, skal der bogføres mere end én salgsleverance i samme valuta til den samme kunde. Du skal med andre ord oprette to eller flere salgsordrer og bogføre dem som leveret, men ikke faktureret. 
+ Før du kan oprette en samleleverance, skal der bogføres mere end én salgsleverance i samme valuta til den samme kunde. Du skal med andre ord have udfyldt to eller flere salgsordrer og bogført dem som leveret, men ikke faktureret. For at kombinere leverancer skal afkrydsningsfeltet **Tillad samlefaktura** være markeret i oversigtspanelet **Levering** på **debitor**-kortet.  
 
 ## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Sådan kombinerer du manuelt leverancer på én enkelt faktura  
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsfakturaer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsfakturaer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. Du kan finde flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md).
 3. I feltet **Kundenr** skal du angive den kunde, der skal modtage fakturaen for de leverede varer.  
 4. I oversigtspanelet **Linjer** skal du vælge handlingen **Hent salgsleverancelinjer**.  
@@ -35,16 +37,11 @@ Før du kan oprette en samleleverance, skal der bogføres mere end én salgsleve
     Hvis du kommer til at vælge en forkert leveringslinje eller vil begynde forfra, skal du bare slette linjerne på fakturaen og bruge funktionen **Hent salgsleverancelinjer** igen.  
 7. Vælg handlingen **Bogfør** for at fakturere kladden.  
 
-> [!TIP]  
-> Hvis du har leveret ordrer, hvor feltet **Kundenr.** er forskellig fra feltet **Faktureres til kundenr.**, vises disse linjer ikke i rapporten **Hent salgsleverancelinjer**. Bruge personlige indstillinger til at føje feltet **kundenavn** på siden og fjerne filteret. Du kan nu føje leverancelinjer til fakturaen, uanset værdien i feltet **Kundenr.**, hvis feltet **Faktureres til kundenr.** på leverancelinjerne svarer til værdien på salgsfakturaen.  
-
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Sådan kombinerer du automatisk leverancer på én enkelt faktura  
-[!INCLUDE[prod_short](includes/prod_short.md)] vælger kun salgsordrer, hvor **Tillad samlefaktura** er valgt. 
-
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kombinere leverancer**, og vælg derefter det relaterede link. Kørselssiden åbnes.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Samlet lev. til salgsfaktura**, og vælg derefter det relaterede link. Kørselssiden åbnes.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Vælg afkrydsningsfeltet **Bogfør fakturaer**.  
-4. Vælg knappen **OK**.  
+3. Markér afkrydsningsfeltet **Bogfør fakturaer**.  
+4.  Vælg knappen **OK**.  
 
 > [!NOTE]  
 >  Du er nødt til at bogføre fakturaerne manuelt, hvis afkrydsningsfeltet **Bogfør fakturaer** ikke var markeret til kørslen.  
@@ -54,7 +51,7 @@ Når leverancer samles på en faktura og bogføres, oprettes der en bogført sal
 
 Når du fakturerer leverancer på denne måde, findes de ordrer, som leverancerne er bogført fra, stadig, selvom de er leveret og faktureret i fuldt omfang.   
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Slet fakturerede salgsordrer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Slet fakturerede salgsordrer**, og vælg det relaterede link.  
 2. I feltet **Nummer** skal du angive, hvilke ordrer der skal slettes.  
 3. Vælg knappen **OK**.  
 
@@ -64,7 +61,4 @@ Gentag trin 1 til 3 for eventuelle andre berørte dokumenter, f.eks. rammesalgso
 
 ## <a name="see-also"></a>Se også  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

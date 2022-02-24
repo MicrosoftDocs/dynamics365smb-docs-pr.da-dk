@@ -1,28 +1,26 @@
 ---
-title: Konfigurere ressourcer, timesedler og sager
-description: Beskriver, hvordan du konfigurerer ressourcer, timesedler og sager til at administrere projekter og deres budgetter.
+title: Konfigurere ressourcer, timesedler og sager | Microsoft Docs
+description: Beskriver, hvordan du konfigurerer ressourcer, timesedler og sager til at administrere projekter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 0780cf84b5c13934ccc9dcaf2d3576731cbf07a3
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f2c02cdcad7c0b33ad172df0b8a4d821f7fcd2df
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973754"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2312624"
 ---
 # <a name="setting-up-project-management"></a>Konfigurere projektstyring
+Før du kan bruge [!INCLUDE[d365fin](includes/d365fin_md.md)] til at administrere projekter, skal du definere ressourcer, timesedler og sager.
 
-Før du kan bruge [!INCLUDE[prod_short](includes/prod_short.md)] til at administrere projekter, skal du definere ressourcer, timesedler og sager.
-
-Derefter kan du oprette sager og planlægge ressourcer for projekter samt administrere budgetter og spore maskin- og medarbejdertimer ved hjælp af timesedler. Du kan finde flere oplysninger i [Administrere projekter](projects-manage-projects.md).  
+Derefter kan du oprette sager og planlægge ressourcer for projekter samt administrere budgetter og spore maskin- og medarbejdertimer ved hjælp af timesedler. Du kan finde flere oplysninger under [Administrere projekter](projects-manage-projects.md).  
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
@@ -40,7 +38,4 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Finans](finance.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

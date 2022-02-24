@@ -1,31 +1,28 @@
 ---
-title: Designoplysninger - Lagerkostmetode
+title: Designoplysninger – Lagerkostmetode | Microsoft Docs
 description: Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges inden for lageromkostningsfunktionerne i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.search.form: 8645
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: b76d0ccdfce2ef69da4b49e4b4e143de5a61d23c
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 8dc7f7ac1e9f1d6b9919ecf7401d5cadf69a56c0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115115"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185296"
 ---
 # <a name="design-details-inventory-costing"></a>Designoplysninger: Lagerkostmetode
-
-Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges inden for lageromkostningsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)].  
+Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges inden for lageromkostningsfunktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Lagerkostmetode, også kendt som "omkostningsstyring", vedrører registrering og rapportering af virksomhedens driftsomkostninger.  
 
-## <a name="in-this-section"></a>Dette afsnit indeholder
-
+## <a name="in-this-section"></a>Dette afsnit indeholder  
 [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
 [Designoplysninger: Vareudligning](design-details-item-application.md)  
 [Designoplysninger: Kendt problem med vareudligning](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -44,6 +41,3 @@ Lagerkostmetode, også kendt som "omkostningsstyring", vedrører registrering og
 [Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md)  
 [Designoplysninger: Lagerværdi](design-details-inventory-valuation.md)  
 [Designoplysninger: Regulering](design-details-revaluation.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,22 +1,22 @@
 ---
-title: Vise indsigt, der kan handles på, i rollecentre
-description: Flere oplysninger om, hvordan Vigtig forretningsindsigt roterer en række forretningsmæssige indsigter i rollecentre.
+title: Vise indsigt, der kan handles på, i rollecentre | Microsoft Docs
+description: Udvidelsen Vigtig forretningsindsigt roterer en række forretningsmæssig indsigt i rollecentre.
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 06/23/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 458e7826979b75c370cb0a90d90c2d64c9ab599e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 08a955f9fb2698b95e8cc92648be0e7c0bfe6e6c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322665"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311256"
 ---
 # <a name="the-essential-business-insights-extension"></a>Udvidelsen Vigtig forretningsindsigt
 Udvidelsen Vigtig forretningsindsigt finder interessante forretningsmæssige oplysninger i dine virksomhedsdata og vises som avislignende overskrifter i rollecentre. Afhængigt af hvad udvidelsen finder i dataene, er indsigt fra sidste uge, måned eller tre måneder fra dags dato. Indsigten opdateres hvert 10. minut.  
@@ -37,7 +37,4 @@ I følgende tabel beskrives den indsigt, som udvidelsen sender til hvert rollece
 |Administrator| Viser en hilsen og et link til produktoplysninger.|
 
 ## <a name="see-also"></a>Se også
-[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)

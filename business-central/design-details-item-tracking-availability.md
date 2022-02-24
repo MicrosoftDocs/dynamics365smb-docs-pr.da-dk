@@ -1,21 +1,21 @@
 ---
-title: Designoplysninger - Tilgængelighed af varesporing
-description: Siderne Varesporingslinjer og Varesporingsoversigt indeholder dynamiske disponeringsoplysninger for serie- eller lotnumre, hvilket øger gennemsigtigheden for brugere.
+title: Designoplysninger – Tilgængelighed af varesporing | Microsoft Docs
+description: Siderne Varesporingslinjer og Varesporingsoversigt indeholder dynamiske disponeringsoplysninger for serie- eller lotnumre. Formålet med dette er at øge gennemsigtigheden for brugere på udgående dokumenter, f.eks. salgsordrer, ved at vise dem, hvilke serienumre eller hvor mange enheder af et lotnummer, der aktuelt er tildelt på andre åbne dokumenter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 707adc254b955ce80bbdb9efc2b22a0fb116d9d5
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 628d72c030d26b8de1f7341ea0ebbb0289b02ae5
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320859"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185080"
 ---
 # <a name="design-details-item-tracking-availability"></a>Designoplysninger: Tilgængelighed af varesporing
 Siderne **Varesporingslinjer** og **Varesporingsoversigt** indeholder dynamiske disponeringsoplysninger for serie- eller lotnumre. Formålet med dette er at øge gennemsigtigheden for brugere på udgående dokumenter, f.eks. salgsordrer, ved at vise dem, hvilke serienumre eller hvor mange enheder af et lotnummer, der aktuelt er tildelt på andre åbne dokumenter. Dette mindsker usikkerhed, der er forårsaget af dobbelt allokering, og giver ordrebehandlere tillid til, at varesporingsnumre og datoer, som de lover på ikke-bogførte salgsordre, kan opfyldes. Du kan finde flere oplysninger i [Designoplysninger: Siden Varesporingslinjer](design-details-item-tracking-lines-window.md).  
@@ -44,6 +44,3 @@ Siderne **Varesporingslinjer** og **Varesporingsoversigt** indeholder dynamiske 
 
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Varesporing](design-details-item-tracking.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

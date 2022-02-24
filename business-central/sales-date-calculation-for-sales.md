@@ -1,24 +1,24 @@
 ---
-title: Beregning af forfaldsdato for salg
-description: Programmet beregner automatisk den dato, hvor du skal bestille en vare for at have den på lager på en bestemt dato og tilgængelige til pluk.
+title: Datoberegning for salg | Microsoft Docs
+description: Programmet beregner automatisk den dato, hvor du skal bestille en vare for at have den på lager på en bestemt dato. Dette er den dato, du kan forvente, at varer, der er bestilt på en bestemt dato, er disponible til pluk.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 221580cebab85be781cd56d461e9d75bb321c15b
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 7cbaeda98b06b742175563646f513ca78f874b70
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320202"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191855"
 ---
 # <a name="date-calculation-for-sales"></a>Beregning af forfaldsdato for salg
-[!INCLUDE[prod_short](includes/prod_short.md)] beregner automatisk den tidligst mulige dato, som en vare eller en salgsordrelinje kan sendes på.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] beregner automatisk den tidligst mulige dato, som en vare eller en salgsordrelinje kan sendes på.
 
 Hvis debitoren har anmodet om en bestemt leveringsdato, beregnes den dato, hvor varen skal være disponibel til pluk automatisk for at leveringen kan gennemføres rettidigt.
 
@@ -45,7 +45,4 @@ Hvis du ikke angiver en ønsket leveringsdato på en salgsordrelinje, eller hvis
 ## <a name="see-also"></a>Se også  
  [Beregning af forfaldsdato for køb](purchasing-date-calculation-for-purchases.md)   
  [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

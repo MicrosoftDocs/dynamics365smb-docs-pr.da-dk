@@ -3,19 +3,19 @@ title: Konfigurere bedste fremgangsmåder - Genbestillingsmetoder | Microsoft Do
 description: Feltet Genbestillingsmetode på varekortene tilbyder fire forskellige planlægningsmetoder, der bestemmer, hvordan individuelle planlægningsparametre skal arbejde sammen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: e788fc7af4335eab99ddce35bf2822e52332a9b9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 7a6a7193d02d8d42987da7f7eeb9f5ed1ec3e2fd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441443"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192191"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Oprette bedste fremgangsmåder: Genbestillingspolitikker
 Feltet **Genbestillingsmetode** på varekortene tilbyder fire forskellige planlægningsmetoder, der bestemmer, hvordan individuelle planlægningsparametre skal arbejde sammen.  
@@ -28,9 +28,9 @@ Feltet **Genbestillingsmetode** på varekortene tilbyder fire forskellige planl�
 |B|20|20|
 |L|60-70|10-30|
 
-ABC-klassificeringen angiver, at der kan spares besvær og penge ved at anvende løsere kontrol på varer med lav værdivolumen i forhold til varer med høj værdivolumen. Følgende illustration viser, hvilken genbestillingsmetode i [!INCLUDE[prod_short](includes/prod_short.md)], der er bedst egnet til henholdsvis A-, B- og C-elementer.
+ABC-klassificeringen angiver, at der kan spares besvær og penge ved at anvende løsere kontrol på varer med lav værdivolumen i forhold til varer med høj værdivolumen. Følgende illustration viser, hvilken genbestillingsmetode i [!INCLUDE[d365fin](includes/d365fin_md.md)], der er bedst egnet til henholdsvis A-, B- og C-elementer.
 
-![ABC-klassificering.](media/abc_classification.png "ABC-klassificering")
+![ABC-klassificering](media/abc_classification.png "ABC-klassificering")
 
 Følgende tabel indeholder de bedste fremgangsmåder til at vælge mellem de fire politikker.  
 
@@ -45,7 +45,4 @@ Følgende tabel indeholder de bedste fremgangsmåder til at vælge mellem de fir
  [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)   
  [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
  [Opret komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

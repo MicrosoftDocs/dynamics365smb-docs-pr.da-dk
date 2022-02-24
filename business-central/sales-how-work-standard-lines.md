@@ -1,21 +1,21 @@
 ---
-title: Standard tilbagevendende salgs- og købslinjer
-description: Du kan oprette ofte brugte salgslinjer og købslinjer og indsætte dem i salgs- og købsdokumenter, som du hurtigt kan udfylde linjerne med standardoplysninger.
+title: Oprette standardlinjer til tilbagevendende salg og køb | Microsoft Docs
+description: Du kan oprette salgslinjer og købslinjer, som du ofte bruger, og derefter indsætte dem i salgs- og købsdokumenter, som du kan hurtigt udfylde linjerne med standardoplysninger.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 9704d088a92ef2a7799eaccebee0fff3fc35bcfd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 05/25/2020
+ms.author: sgroespe
+ms.openlocfilehash: 4da1195333f6b36866f55ee02123f75df4778de0
+ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440174"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3402549"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Oprette gentagne salgs- og købslinjer
 Hvis du ofte har brug at oprette salgs- og købslinjer med næsten ens oplysninger, kan du oprette standardlinjer, som du derefter kan indsætte i tilbagevendende salgs- og købsdokumenter, f.eks. for tilbagevendende genbestillingsordrer.  
@@ -24,7 +24,7 @@ Følgende procedure viser, hvordan du arbejder med standardsalgslinjer på en sa
 
 ## <a name="to-set-up-recurring-sales-lines"></a>Sådan opretter du gentagne salgslinjer
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Tilbagevendende salgslinjer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Gentagne salgslinjer**, og vælg derefter det relaterede link.  
 2. På siden **Gentagne salgslinjer** skal du vælge **Ny**.  
 3. Udfyld felterne efter behov i oversigtspanelet **Generelt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. I oversigtspanelet **Linjer** skal du angive oplysninger i felterne for at forberede salgslinjer, der afspejler de standardlinjer, du forventer at bruge som tilbagevendende linjerne på salgsdokumenter.  
@@ -32,13 +32,11 @@ Følgende procedure viser, hvordan du arbejder med standardsalgslinjer på en sa
 > [!NOTE]
 > Du kan ikke definere priser på gentagne salgslinjer, fordi priser, rabatter osv. beregnes ud fra de faktiske salgsdokumenter, når du har indsat de gentagne salgslinjer.
 
-[!INCLUDE [line-no-info](includes/line-no-info.md)]
-
 ## <a name="to-assign-recurring-sales-lines-to-a-customer"></a>Sådan tildeles en gentagne salgslinjer til en debitor
 
 Tildele en eller flere gentagne salgslinjer til en debitor, så de kan indsættes i salgsdokumenter for den pågældende debitor.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.
 2. Åbn jobkortet for den relevante debitor.
 3. Vælg handlingen **Tilbagevendende salgslinjer**.
 4. På siden **Tilbagevendende salgslinjer** skal du vælge koder for de gentagne salgslinjer, som du vil kunne indsætte i salgsdokumenter for kunden.
@@ -60,7 +58,7 @@ Tildele en eller flere gentagne salgslinjer til en debitor, så de kan indsætte
 
 Hvis der findes gentagne salgslinjerne for debitoren, kan du indsætte dem eller få dem indsat i alle typer salgsdokumenter, f.eks. en salgsfaktura. Hvis du har aktiveret indstillingen **Spørg altid** , får du besked, hvis der findes gentagne salgslinjer.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Fakturaer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Fakturaer**, og vælg derefter det relaterede link.
 2. Åbn den salgsfaktura, som du vil indsætte en eller flere standardsalgslinjer i.
 3. Vælg handlingen **Hent tilbagevendende salgslinjer**.
 4. På siden **Tilbagevendende salgslinjer** skal du vælge på opslagsknappen i feltet **Kode** og derefter vælge en række standardsalgslinjer.
@@ -69,7 +67,7 @@ Hvis der findes gentagne salgslinjerne for debitoren, kan du indsætte dem eller
 ## <a name="to-create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Sådan opretter du flere salgsfakturaer baseret på tilbagevendende salgslinjer
 Du kan bruge kørslen **Opret tilbagevendende salgsfakturaer** til at oprette salgsfakturaer i overensstemmelse med standardsalgslinjer, som er knyttet til kunderne og med bogføringsdatoer inden for de gyldige fra- og til-datoer, som du angiver i standardsalgslinjerne.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opret tilbagevendende salgsfakturaer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opret tilbagevendende salgsfakturaer**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov på siden **Opret tilbagevendende salgsfakturaer**.
 3. I filterfeltet **Kode** skal du angive den kode for standardsalgslinjer, der er knyttet til en debitor, som du vil oprette salgsfakturaer for.
 4. Vælg knappen **OK**.
@@ -79,7 +77,4 @@ Salgsfakturaer oprettes for kunder med den angivne standarddebitorsalgskode og e
 ## <a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

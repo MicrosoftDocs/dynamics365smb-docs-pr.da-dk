@@ -1,26 +1,25 @@
 ---
-title: Om Finans og kontoplanen
-description: Beskriver finans, kontoplanen og kontokategorier. Brug siden Opsætning af Finans til at angive, hvordan du vil behandle bestemte regnskabsopgaver i virksomheden.
+title: Få mere at vide om Finans og kontoplan | Microsoft Docs
+description: Beskriver finans, kontoplanen og kontokategorier.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.search.form: 18, 20, 37, 65, 99, 312, 313, 395, 552, 569, 570, 634, 790, 791, 1158
-ms.date: 12/03/2021
+ms.date: 05/12/2020
 ms.author: edupont
-ms.openlocfilehash: 98aca02ceba638b65849ff8218bafe07be2190db
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 098317d09a5ad8c3792de48e5332b4c247eff0e0
+ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973063"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372539"
 ---
-# <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Forstå Finans og Kontoplan
+# <a name="understanding-the-general-ledger-and-the-coa"></a>Om Finans og kontoplanen
 
-Finansregnskabet gemmer de finansielle data, og kontoplanen viser de konti, som alle finansposter bogføres til. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en standardkontoplan, der er klar til at understøtte din virksomhed.
+Finansregnskabet gemmer de finansielle data, og kontoplanen viser de konti, som alle finansposter bogføres til. [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder en standardkontoplan, der er klar til at understøtte din virksomhed.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Finansopsætning og bogføringsopsætning
 
@@ -32,13 +31,10 @@ På siden **Opsætning af Finans** angiver du, hvordan du vil behandle bestemte 
 * Adresseformater  
 * Økonomirapportering  
 
+Desuden kan du på siden **Bogføringsopsætning** angive, hvordan du vil oprette kombinationer af virksomheds- og produktbogføringsgrupper. Bogføringsgrupper knytter enheder som debitorer, kreditorer, varer, ressourcer og salgs- og købsdokumenter til finanskonti. Udfyld en linje for hver kombination af virksomheds- og produktbogføringsgrupper. Du kan finde flere oplysninger i [Opsætning af bogføringsgrupper](finance-posting-groups.md).  
+
 > [!TIP]
 > Siden **Regnskabsopsætning** indeholder generiske felter og felter, der er specifikke for dit land eller område. Hvis du ikke er sikker på, hvad et felt betyder, anbefaler vi, at du spørger din bogholder, om det er relevant for din virksomhed.  
-
-Desuden kan du på siden **Bogføringsopsætning** angive, hvordan du vil oprette kombinationer af virksomheds- og produktbogføringsgrupper. Bogføringsgrupper knytter enheder som debitorer, kreditorer, varer, ressourcer og salgs- og købsdokumenter til finanskonti. Udfyld en linje for hver kombination af virksomheds- og produktbogføringsgrupper. Men du kan også åbne hver linje på sit eget bogføringsopsætningskort. Du kan finde flere oplysninger i [Opsætning af bogføringsgrupper](finance-posting-groups.md).  
-
-> [!TIP]
-> Hvis du ikke kan se de ønskede felter på siden **Bogføringsopsætning**, skal du bruge det vandrette rullepanel nederst på siden til at rulle til højre.  
 
 ## <a name="the-chart-of-accounts"></a>Kontoplan
 
@@ -62,33 +58,16 @@ Du kan oprette en kategorigruppe ved at indrykke andre underkategorier under en 
 
 Du kan angive, om kontiene i hver underkategori skal medtages i bestemte typer rapporter. Kontokategorier hjælper med at definere layoutet af regnskabet.  
 
-### <a name="example"></a>Eksempel
+F.eks. har standardsaldoopgørelsen en underkategori for Kassebeholdning under Omsætningsaktiver. Hvis du vil have, at kontantbeholdning og checks skal indgå i saldoopgørelsen, kan du:  
 
-F.eks. har standardsaldoopgørelsen en underkategori for *Kassebeholdning* under *Omsætningsaktiver*. Hvis du vil have, at kontantbeholdning og checks skal indgå i saldoopgørelsen, kan du gør følgende:  
-
-1. Tilføje to nye underkategorier:
-
-    * En til kontantbeholdning  
-    * En til din checkkonto  
+1. Tilføje to nye underkategorier. Én for kontantbeholdning og én for din checkkonto.  
 2. Angive den ekstra rapportdefinition **Saldo for kassekonti** for disse underkategorier.  
 3. Indrykke dem under underkategorien **Kassebeholdning**.  
 
 Næste gang du genererer kontoskemaer viser din kontoopgørelse den samlede saldo for kontant og to linjer med saldi for kontantbeholdning og checkkontoen.  
-
-## <a name="getting-a-quick-overview"></a>Få et hurtigt overblik
-
-Kontoplan siden viser kontiene på en hierarkisk liste, der giver hurtig adgang til nøgleoplysninger for hver konto. Listen er imidlertid statisk, og hvis du har mange konti, skal du muligvis foretage en smule rulning for at få vist oplysninger om forskellige konti. Hvis du blot vil have et hurtigt overblik over det grundlæggende, f. eks. bevægelser og saldi, er siden **Oversigt over kontoplaner** et nyttigt alternativ. Kolonnelayoutet på siden er nu det samme som på siden kontoplan (der er bare færre af dem), så du ikke behøver at vende tilbage til dig selv, og du kan udvide eller skjule de hierarkiske niveauer for at gøre visningen mere aktuel. Hvis du vil gøre det nemt at skifte mellem siderne, er siden **Oversigt over kontoplan** tilgængelig på siden kontoplan.
-
-## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Adgang til at oprette og redigere konti og kontokategorier
-
-I en mindre organisation, f. eks. CRONUS-demonstrationsregnskabet, kan de fleste brugere redigere kontoplanen, undtagen brugere med en licens til teammedlemmer. I større organisationer er adgangen til at redigere kontoplanen imidlertid begrænset af roller og tilladelser. Hvis du er administrator, eller du har rollen *forretningschef* eller *bogholder*, kan du kontrollere tilladelserne for alle brugere for at sikre, at de rette personer har adgang til de relevante tabeller. Du kan finde flere oplysninger i [Sådan får du vist en oversigt over en brugers rettigheder](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
 ## <a name="see-also"></a>Se også
 
 [Finans](finance.md)  
 [Konfigurere eller ændre kontoplanen](finance-setup-chart-accounts.md)  
 [Business Intelligence](bi.md)  
-[Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

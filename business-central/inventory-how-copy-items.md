@@ -3,43 +3,33 @@ title: Sådan kopieres eksisterende varer for at oprette nye varer
 description: Når du tilføjer en ny vare, kan du spare tid ved at bruge funktionen Kopiér vare til at kopiere en eksisterende vare, der skal bruges som skabelon for en ny vare.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.forms: 729
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 6ad87fc0a6c137886b59e581f467119fc75b93fd
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 7ea742e03271c1394de93869a4ffb3f45b917a5c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060296"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182248"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Kopiere eksisterende varer for at oprette nye varer
-
 Når du tilføjer en ny vare, kan du spare tid ved at bruge funktionen **Kopiér vare** til at kopiere en eksisterende vare, der skal bruges som skabelon for en ny vare.  
 
-## <a name="to-copy-an-existing-item-to-a-new-item"></a>Sådan kopieres en eksisterende vare til en ny vare
-
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
+## <a name="to-copy-an-existing-item-to-a-new-item"></a>Sådan kopieres en eksisterende vare til en ny vare  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 2. Vælg den vare, du vil kopiere, og vælg derefter handlingen **Kopiér vare**.  
-
-    Hvis du ikke kan finde handlingen **Kopiér vare**, skal du vælge at få vist flere indstillinger og derefter finde den under **Handlinger**, **Funktioner**.  
-
 3. På siden **Kopiér vare** skal du udfylde felterne. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Du kan angive et bestemt varenummer i feltet **Målvarenr.**, som den nye vare skal hente. Du kan også vælge en eksisterende nummerserie i feltet **Målnummerserie**. Den nye vare tildeles derefter det næste ledige nummer i nummerserien.  
 
-4. Klik på knappen **OK** for at kopiere dine valg til den nye vare.  
+5. Klik på knappen **OK** for at kopiere dine valg til den nye vare.  
 
-## <a name="see-also"></a>Se også
-
+## <a name="see-also"></a>Se også  
 [Registrere nye varer](inventory-how-register-new-items.md)  
-[Opsætning af lagerbeholdning](inventory-setup-inventory.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Opsætning af lagerbeholdning](inventory-setup-inventory.md)

@@ -1,21 +1,23 @@
 ---
-title: 'Fremgangsmåde: Oprette lokationer til brug af placeringer'
-description: Placeringer udgør den grundlæggende lagerstruktur og bruges til at fremsætte forslag om placeringen og lokationen af varer.
+title: Sådan konfigureres lokationer til at bruge placeringer | Microsoft Docs
+description: Placeringer udgør den grundlæggende lagerstruktur og bruges til at fremsætte forslag om placeringen af varer. Når du har oprettet placeringerne, kan du meget præcist definere det indhold, du vil placere på hver placering, eller placeringen kan fungere som en løs placering uden angivet indhold.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 29ee70ffa50b018073b8f44a66588df3d822b5cc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f2d7ecc163737c103c91b2a28a6a8072fad89279
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442950"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310176"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Oprette lokationer til brug af placeringer
 Placeringer udgør den grundlæggende lagerstruktur og bruges til at fremsætte forslag om placeringen af varer. Når du har oprettet placeringerne, kan du meget præcist definere det indhold, du vil placere på hver placering, eller placeringen kan fungere som en løs placering uden angivet indhold.  
@@ -23,10 +25,10 @@ Placeringer udgør den grundlæggende lagerstruktur og bruges til at fremsætte 
 Hvis du vil benytte placeringer på en lokation, skal du først aktivere funktionaliteten på kortet **Lokation**. Derefter kan du designe varestrømmen på placeringen ved at angive placeringskoder i konfigurationsfelter, der repræsenterer forskellige strømme.  
 
 > [!NOTE]  
->  Placeringskoderne skal være oprettet, før du kan angive placeringskoder på lokationskortet. Du kan finde flere oplysninger i [Oprette placeringer](warehouse-how-to-create-individual-bins.md).  
+>  Placeringskoderne skal være oprettet, før du kan angive placeringskoder på lokationskortet. Du kan finde flere oplysninger under [Oprette placeringer](warehouse-how-to-create-individual-bins.md).  
 
 ## <a name="to-set-up-a-location-to-use-bins"></a>Sådan konfigureres en lokation til at bruge placeringer  
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
 2.  Vælg den lokation, hvor du vil bruge placeringer.  
 3.  Vælg handlingen **Rediger**.  
 4.  Markér afkrydsningsfeltet **Tvungen placering** i oversigtspanelet **Lagersted**.  
@@ -41,15 +43,12 @@ Hvis du vil benytte placeringer på en lokation, skal du først aktivere funktio
 ## <a name="filling-the-consumption-bin"></a>Udfylde forbrugsplaceringen
 Dette flow-diagram viser, hvordan feltet **Placeringskode** i produktionsordrekomponenter udfyldes i henhold til din lokationsopsætning.
 
-![Placeringsrutediagram.](media/binflow.png "BinFlow")  
+![Placeringsrutediagram](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>Se også
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
+[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Designoplysninger: Logistik](design-details-warehouse-management.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

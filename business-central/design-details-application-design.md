@@ -1,44 +1,42 @@
 ---
-title: Oplysninger om programdesign
+title: Designoplysninger | Microsoft Docs
 description: Dette indhold indeholder detaljerede tekniske oplysninger om komplekse programfunktioner i Business Central.
 author: SorenGP
+documentationcenter: ''
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/26/2021
-ms.author: edupont
-ms.openlocfilehash: 06fa9254f59e283abb673f66190c61e464d510af
-ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: b68d9de15af8b0f8943acb3a8a06cf4d3872291e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/27/2021
-ms.locfileid: "7865668"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185824"
 ---
-# <a name="application-design-details"></a>Oplysninger om programdesign
+# <a name="design-details"></a>Designoplysninger
+Dette indhold indeholder detaljerede tekniske oplysninger om komplekse programfunktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Artiklen i dette afsnit indeholder detaljerede tekniske oplysninger om komplekse programfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)].  
-
-Indholdet af designoplysningerne er rettet mod iværksættere, udviklere og superbrugere, der har brug for en dybere indsigt i at implementere, tilpasse eller opsætte de pågældende funktioner.  
+ Indholdet af designoplysningerne er rettet mod iværksættere, udviklere og superbrugere, der har brug for en dybere indsigt i at implementere, tilpasse eller opsætte de pågældende funktioner.  
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Forstå mekanismerne i prisberegningsprogrammet, f.eks. kostmetode og kostregulering, samt hvilke regnskabsprincipper, de er designet til.|[Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)|  
-|Få mere at vide, hvordan kørslen Juster kostpris - vareposter identificerer og tildeler en posteringsdato til de værdiposter, der er ved at blive oprettet.|[Designoplysninger: Bogføringsdato på post med reguleringsværdi](design-details-inventory-adjustment-value-entry-posting-date.md)|
-|Få mere at vide om designet til lagrings- og bogføringsdimensioner, herunder kodeeksempler på at overflytte og opgradere dimensionskode.|[Designoplysninger: Dimensionsgruppeposter](design-details-dimension-set-entries-overview.md)|
 |Lær, hvordan planlægningssystemet fungerer, og hvordan du justerer algoritmer for at opfylde planlægningsbehov i forskellige miljøer.|[Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)|  
+|Forstå mekanismerne i prisberegningsprogrammet, f.eks. kostmetode og kostregulering, samt hvilke regnskabsprincipper, de er designet til.|[Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)|  
 |Lær om de centrale principper bag avancerede og grundlæggende lagerfunktioner, og hvordan de integreres med andre forsyningskædefunktioner.|[Designoplysninger: Logistik](design-details-warehouse-management.md)|  
 |Få mere at vide om historisk og aktuelt design af varesporingsfunktionalitet, og hvordan den integreres med reservationssystemet for at medtage serienumre/lotnumre i disponeringsberegninger.|[Designoplysninger: Varesporing](design-details-item-tracking.md)|  
-|Få mere at vide om funktionen bogføringslinje for finanskladder.|[Designoplysninger: Bogføringslinje i finanskladde](design-details-general-journal-post-line.md)|
+|Få mere at vide om funktionen for bogføringslinjer til finanskladder, herunder de seneste forenklinger til design af codeunit 12.|[Designoplysninger: Bogføringslinje i finanskladde](design-details-general-journal-post-line.md)|
+|Få mere at vide om designet til lagrings- og bogføringsdimensioner, herunder kodeeksempler på at overflytte og opgradere dimensionskode.|[Designoplysninger: Dimensionsgruppeposter](design-details-dimension-set-entries.md)| 
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også  
+ [Planlægning](production-planning.md)   
+ [Administrere lageromkostninger](finance-manage-inventory-costs.md)   
+ [Logistik](warehouse-manage-warehouse.md)   
+ [Konfigurere komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
+ [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-[Skabelon](production-planning.md)  
-[Administrere lageromkostninger](finance-manage-inventory-costs.md)  
-[Logistik](warehouse-manage-warehouse.md)  
-[Konfigurere komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+ ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

@@ -1,21 +1,22 @@
 ---
-title: Omvurdere anlægsaktiver
+title: Regulere anlægsaktiver | Microsoft Docs
 description: Lær at regulere værdien af anlægsaktiver, registrere nye beløb som nedskrivning eller opskrivning og bogføre ekstra anskaffelser.
-author: edupont04
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5628
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c79cbff9d6f16ad3c93b126f01f5c28794df4127
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: ec162eca522184807554fb9f46d71606ad9c8870
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029504"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184336"
 ---
 # <a name="revalue-fixed-assets"></a>Omvurdere anlægsaktiver
 Regulering af anlægsaktiver kan bestå af opskrivninger, nedskrivninger eller generelle værdireguleringer.
@@ -27,7 +28,7 @@ Når værdien af et anlægsaktiv er faldet, skal du bogføre en kladdelinje med 
 Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge generelle prisændringer. Kørslen **Indeksér anlæg** kan bruges til at ændre forskellige beløb, f.eks. nedskrivnings- og opskrivningsbeløb.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Sådan bogføres en opskrivning fra anlægskassekladden
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
 2. Opret en første kladdelinje, og udfyld felterne efter behov.
 3. I feltet **Anlægsbogføringstype** skal du vælge **Regulering**.
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af opskrivning.
@@ -37,7 +38,7 @@ Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge ge
 5. Vælg handlingen **Bogfør**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Sådan bogføres en nedskrivning fra anlægskassekladden
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
 2. Opret en første kladdelinje, og udfyld felterne efter behov.
 3. I feltet **Anlægsbogføringstype** skal du vælge **Nedskrivning**.
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af nedskrivning.
@@ -49,12 +50,12 @@ Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge ge
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Sådan udføres generel værdiregulering af anlægsaktiver
 Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge generelle prisændringer. Kørslen **Indeksér anlæg** kan bruges til at ændre forskellige beløb, f.eks. nedskrivnings- og opskrivningsbeløb. Afkrydsningsfeltet **Tillad indeksering** på siden **Afskrivningsprofil** skal være markeret.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Indeksér anlæg**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indeksér anlæg**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 3. Vælg knappen **OK**.
 
     Der oprettes værdireguleringslinjer ud fra dine indstillinger i trin 2. Linjerne er oprettet i anlægskladden eller anlægskassekladden, afhængigt af skabelonen og kørselsopsætningen på siden **Anlægskladdeopsætning**. Du kan finde flere oplysninger i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).
-4. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
+4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
 5. Vælg kladden med de anlægsaktiver, du vil regulere værdien for, og vælg derefter handlingen **Poster**.  
 6. Kontroller de oprettede poster, og vælg derefter handlingen **Bogfør** for at bogføre kladden.
 
@@ -117,10 +118,7 @@ Hvis du ikke har markeret afkrydsningsfeltet **Afskriv til bogføringsdato for a
 
 ## <a name="see-also"></a>Se også
 [Anlægsaktiver](fa-manage.md)  
-[Opsætning af anlægsaktiver](fa-setup.md)  
+[Opsætning af Anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  
-[Blive køreklar](ui-get-ready-business.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Introduktion](product-get-started.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

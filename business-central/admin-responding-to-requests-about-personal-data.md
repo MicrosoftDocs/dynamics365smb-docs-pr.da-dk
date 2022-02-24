@@ -1,22 +1,22 @@
 ---
 title: Svare på anmodninger om personlige oplysninger
-description: Dette emne viser, hvordan du kan svare på anmodninger om personoplysninger. Dette kaldes en dataemneanmodning.
+description: Du skal besvare anmodninger fra dataemner.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.reviewer: na
-ms.topic: conceptual
-ms.openlocfilehash: 77b1470ee7df736815451c03e4afbf684803aea4
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.topic: article
+ms.openlocfilehash: 16c7bb44326ebb754846171a0379cc9423754c45
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321958"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186760"
 ---
-# <a name="responding-to-requests-about-users-personal-data"></a>Svare på anmodninger om brugerens personlige oplysninger  
-Dataemner kan anmode om flere typer handlinger vedrørende deres personlige oplysninger. I henhold til den generelle forordning om databeskyttelse (GDPR) f.eks. har indbyggere i EU-lande ret til at anmode om eksport, sletning og ændring af deres personlige data. Dette kaldes en *Dataemneanmodning*. Hvis du har klassificeret følsomheden af dine data og er sikker på, at de er korrekte, kan en administrator reagere på anmodninger ved hjælp af indstillingerne under fanen **Beskyttelse af personlige oplysninger** i rollecenteret **It-chef**. Du kan finde flere oplysninger om at klassificere data og klassificere datafølsomheden i [!INCLUDE[prod_long](includes/prod_long.md)] under [Klassificering af data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Klassificere datafølsomhed](admin-classifying-data-sensitivity.md).  
+# <a name="responding-to-requests-about-personal-data"></a>Svare på anmodninger om personlige oplysninger  
+Dataemner kan anmode om flere typer handlinger vedrørende deres personlige oplysninger. I henhold til den generelle forordning om databeskyttelse (GDPR) f.eks. har indbyggere i EU-lande ret til at anmode om eksport, sletning og ændring af deres personlige data. Dette kaldes en *Dataemneanmodning*. Hvis du har klassificeret følsomheden af dine data og er sikker på, at de er korrekte, kan en administrator reagere på anmodninger ved hjælp af indstillingerne under fanen **Beskyttelse af personlige oplysninger** i rollecenteret **It-chef**. Du kan finde flere oplysninger om at klassificere data og klassificere datafølsomheden i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] under [Klassificering af data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Klassificere datafølsomhed](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Typer af anmodninger
 
@@ -29,19 +29,19 @@ Nedenstående tabel indeholder eksempler på typerne af anmodninger, som du kan 
 |-----|-----|
 |Anmodninger om overførsel|Et dataemne kan foretage en anmodning om dataoverførsel, hvilket vil sige, at du skal eksportere dataemnets personlige oplysninger fra dine systemer og levere dem i et struktureret, normalt anvendt format. Du kan besvare disse anmodninger ved at bruge **Værktøj til beskyttelse af personlige oplysninger** til at eksportere personlige data til en Excel-fil eller en RapidStart-konfigurationspakke. Ved hjælp af Excel kan du redigere personlige oplysninger og gemme den i et almindeligt anvendt, maskinlæsbart format, f.eks. .csv- eller .xml. Med RapidStart-konfigurationspakker kan du konfigurere masterdatatabeller og deres relaterede tabeller, der indeholder personlige oplysninger. <br><br> **Bemærk:** Når du eksporterer data, angiver du et mindste følsomhedsniveau. Eksporten omfatter minimum og alle niveauer af følsomhed derover. Hvis du f.eks. vil eksportere data, der er klassificeret som personlige, omfatter eksporten også data, der er klassificeret som følsomme. <br><br>Ved eksport af data, der vedrører et dataemne søger **Værktøj til beskyttelse af personlige oplysninger** efter direkte relationer mellem dataemnet og data, der er relateret til emnet. Indirekte relationer mellem data, der er relateret til dataemnet og andre data, eksporteres ikke automatisk af **Værktøj til beskyttelse af personlige oplysninger**. Tabellen Kontakt f.eks. har direkte relaterede data for Svar på kontaktprofil, og tabellen Svar på kontaktprofil er igen relateret til profilspørgsmålsdata. Hvis du også vil eksportere profilspørgsmål, skal du tilføje denne tabel manuelt som en række med de relevante filtre i den konfigurationspakke, som **Værktøj til beskyttelse af personlige oplysninger** opretter.|
 |Anmodninger om sletning|Et dataemne kan anmode om, at du sletter deres personlige oplysninger. Der er flere måder at slette personlige oplysninger på ved hjælp af tilpasningsmulighederne, men beslutningen og implementeringen er dit ansvar. I nogle tilfælde kan vælge du at redigere dataene direkte, f.eks. ved at slette en kontakt og derefter udføre kørslen Slet annulleret interaktion for at slette interaktioner for kontakten. <br><br> **Bemærk:** Hvis du har angivet en dato i feltet **Tillad sletning af dokument før** på siderne **Opsætning af salg og tilgodehavender** eller **Købsopsætning**, skal du måske ændre datoen, så kan du slette bogførte salgs- og købsdokumenter, der er udskrevet, og hvor bogføringsdatoen er på eller inden denne dato.|
-|Anmodninger om rettelse|Et dataemne kan anmode om, at du retter forkerte personlige oplysninger. Dette kan gøres på flere måder. I nogle tilfælde kan du eksportere lister til Excel til hurtig masseredigering af flere poster og derefter importere de opdaterede data. Du kan finde flere oplysninger i [Eksportere forretningsdata til Excel](about-export-data.md). Du kan også manuelt redigere felter, der indeholder personlige oplysninger, f.eks. redigere oplysninger om en debitor på debitorkortet. Men transaktionsposter, f.eks. finans-, debitor- og momsposter, er nødvendige for integriteten i ERP-systemet. Hvis du gemmer personlige data i forretningstransaktionsposter, kan du overveje at bruge funktionerne til tilpasning til at ændre disse personlige oplysninger.|
+|Anmodninger om rettelse|Et dataemne kan anmode om, at du retter forkerte personlige oplysninger. Dette kan gøres på flere måder. I nogle tilfælde kan du eksportere lister til Excel til hurtig masseredigering af flere poster og derefter importere de opdaterede data. Du kan finde flere oplysninger under [Eksportere forretningsdata til Excel](about-export-data.md). Du kan også manuelt redigere felter, der indeholder personlige oplysninger, f.eks. redigere oplysninger om en debitor på debitorkortet. Men transaktionsposter, f.eks. finans-, debitor- og momsposter, er nødvendige for integriteten i ERP-systemet. Hvis du gemmer personlige data i forretningstransaktionsposter, kan du overveje at bruge funktionerne til tilpasning til at ændre disse personlige oplysninger.|
 
 ## <a name="restrict-data-processing-for-a-data-subject"></a>Begrænse databehandling af et dataemne
 Et dataemne kan anmode om, at du midlertidigt stopper behandlingen af deres personlige oplysninger. Du kan imødekomme sådanne anmodninger ved at markere posten som spærret på grund af beskyttelse af personlige oplysninger, så behandlingen af deres data stoppes. Når en post er markeret som spærret, kan du ikke oprette nye posteringer, der bruger denne post. Du kan f.eks. ikke du oprette en ny faktura for en debitor, når enten kunden eller sælgeren er blokeret. Åbn kortet for et dataemne, f.eks. kortene Debitor, Leverandør eller Kontakt, hvis du vil markere et dataemne som spærret, og markér afkrydsningsfeltet **Beskyttelse af personlige oplysninger spærret**. Du skal måske vælge **Vis mere** for at få vist feltet.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Håndtering af dataemneanmodninger i prøveversion
-Bestemte typer personlige oplysninger er en del af din Microsoft 365-konto, og det kræver administratorrettigheder til at eksportere dem, hvis du modtager en dataemneanmodning fra en bruger om denne type personlige data i henhold til den generelle forordning om databeskyttelse (GDPR). Processen til håndtering af dataemneanmodninger er forskellige afhængigt af [!INCLUDE[prod_short](includes/prod_short.md)]-lejertypen.  
+Bestemte typer personlige oplysninger er en del af din Office 365-konto, og det kræver administratorrettigheder til at eksportere dem, hvis du modtager en dataemneanmodning fra en bruger om denne type personlige data i henhold til den generelle forordning om databeskyttelse (GDPR). Processen til håndtering af dataemneanmodninger er forskellige afhængigt af [!INCLUDE[d365fin](includes/d365fin_md.md)]-lejertypen.  
 
-Hvis du har et betalt abonnement på [!INCLUDE[prod_short](includes/prod_short.md)], skal du kontakte organisationens lejeradministrator for at sende en dataemneanmodning. Administratoren har administratorrettigheder og -værktøjer til at imødekomme anmodningen.  
+Hvis du har et betalt abonnement på [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du kontakte organisationens lejeradministrator for at sende en dataemneanmodning. Administratoren har administratorrettigheder og -værktøjer til at imødekomme anmodningen.  
 
-Hvis du er tilmeldt til [!INCLUDE[prod_short](includes/prod_short.md)] fra siden med [prøveversioner](https://trials.dynamics.com/), og din organisations administrator ikke har valgt at gå fra denne prøveoplevelse til et betalt abonnement, kan du udfylde din egen dataemneanmodning på [Siden om beskyttelse af personlige oplysninger for arbejde og skole på Azure-portalen](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Her kan du eksportere og hente dine personlige data.
+Hvis du er tilmeldt til [!INCLUDE[d365fin](includes/d365fin_md.md)] fra siden med [prøveversioner](https://trials.dynamics.com/), og din organisations administrator ikke har valgt at gå fra denne prøveoplevelse til et betalt abonnement, kan du udfylde din egen dataemneanmodning på [Siden om beskyttelse af personlige oplysninger for arbejde og skole på Azure-portalen](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Her kan du eksportere og hente dine personlige data.
 
-Du kan også lukke din konto på denne side. Vi anbefaler dog, at du kontrollerer, at du har eksporteret og slettet alle data først, for når du sletter din konto betyder det, at du mister adgangen til [!INCLUDE[prod_short](includes/prod_short.md)].  
+Du kan også lukke din konto på denne side. Vi anbefaler dog, at du kontrollerer, at du har eksporteret og slettet alle data først, for når du sletter din konto betyder det, at du mister adgangen til [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 Du kan stadig markere personer som spærret af hensyn til beskyttelse af personlige oplysninger og eksportere, redigere eller slette transaktioner, som beskrevet andetsteds i denne artikel.  
 
@@ -62,6 +62,3 @@ Hvis en kontakts alder er under myndighedsalderen i henhold til lovgivningen i d
 [Eksportere forretningsdata til Excel](about-export-data.md)  
 [Logføre ændringer](across-log-changes.md)  
 [Dataemneanmodninger for GDPR](/microsoft-365/compliance/gdpr-data-subject-requests)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

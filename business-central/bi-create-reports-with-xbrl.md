@@ -1,29 +1,25 @@
 ---
-title: 'Fremgangsmåde: Oprette rapporter med XBRL'
-description: XBRL er et XML-baseret sprog til kodning af finansielle data, der gør det muligt for firmaer at behandle og dele deres data effektivt og præcist.
+title: Sådan oprettes rapporter med XBRL | Microsoft Docs
+description: XBRL, som står for eXtensible Business Reporting Language, er et XML-baseret sprog til kodning af finansielle data, der gør det muligt for firmaer at behandle og dele deres data effektivt og præcist.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: 29dd05db3d38d04fab38eaccea796bdffaca6dcc
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 4fd911a708a929a9c73270c05b7729d17d84ec13
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101317"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186136"
 ---
 # <a name="create-reports-with-xbrl"></a>Oprette rapporter med XBRL
-
-> [!NOTE]
-> Du er i gang med at fjerne funktionerne til XBRL-rapportering fra [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Ændringer i 2022 udgivelsesbølge 1](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
-
 XBRL, som står for eXtensible Business Reporting Language, er et XML-baseret sprog til kodning af finansielle data, der gør det muligt for firmaer at behandle og dele deres data effektivt og præcist. Talrige ERP-softwarevirksomheder og internationale revisionsfirmaer kan bruge XBRL-initiativerne til global finansiel rapportering. Det globale initiativ er at levere en standard for ensartet rapportering af finansielle oplysninger til banker, investorer og statslige myndigheder. Sådan virksomhedsrapportering kan omfatte:  
 
  • Regnskabsopgørelser  
@@ -31,22 +27,17 @@ XBRL, som står for eXtensible Business Reporting Language, er et XML-baseret sp
  • Ikke-finansielle oplysninger  
  • Lovgivningsmæssige arkiveringer, f.eks. årsregnskaber og kvartalsmæssige regnskabsopgørelser  
 
-> [!NOTE]
-> Du kan indlæse finansrelaterede skemaer og oprette XBRL-instansdokumenter ved at knytte finansdata fra kontoplanen til de elementer i taksonomier, der er designet til finansrapporter, f.eks. balance, resultatopgørelse osv.
-> 
-> XBRL-funktionerne i Business central support-taksonomier til specifikation 2.1 kan imidlertid indeholde elementer, der ikke understøttes, f.eks. formel linkbaser, iXBRL eller andre strukturelle forskelle. Det anbefales, at du validerer XBRL-egenskaben, før du bruger den til rapportering.
-> 
-> Den fulde understøttelse af taksonomier kan kræve, at der kræves XBRL-mærkning og-værktøjer fra tredjepart. XBRL International Organization indeholder en liste over værktøjer og tjenester, som du kan bruge til XBRL-rapportering. Afhængigt af XBRL-rapporteringskravene for en given taksonomi, kan du få brug for at udforske disse ressourcer. Du kan finde flere oplysninger i [Introduktion til virksomheder](https://go.microsoft.com/fwlink/?linkid=2153466) og [værktøjer og tjenester](https://go.microsoft.com/fwlink/?linkid=2153356).
+ Med [!INCLUDE[d365fin](includes/d365fin_md.md)] kan virksomhederne implementere data i XBRL, og drage fordel af den fleksibilitet og automatisering, det indebærer, både ved indsamling og deling af data.  
 
 ## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
 XBRL (e **X** tensible **B** usiness **R** eporting **L** anguage) er et XML-baseret sprog til finansiel rapportering. XBRL indeholder en standard for ensartet rapportering for alle brugere af finansielle oplysninger, f.eks. offentlige og private virksomheder, revisorer, analytikere, investorer, interessenter fra kapitalmarkedet og långivere. Standarden benyttes også af andre involverede nøglepartnere, f.eks. udviklere af software og hardwareleverandører.  
 
 Taksonomier vedligeholdes af www.xbrl.org. Du kan downloade taksonomier og få flere detaljerede oplysninger på XBRL-webstedet.  
 
-En partner, der vil have finansielle oplysninger fra dig, leverer en taksonomi (et XML-dokument), der indeholder et eller flere skemaer, der hver har en eller flere linjer, der skal udfyldes. Linjerne skal indeholde de finansielle oplysninger, som afsenderen kræver. Du indlæser denne taksonomi og udfylder skemaerne ved at angive den eller de konti, der svarer til hver linje, og hvilken tidshorisont, der skal anvendes, f.eks. bevægelser og saldo til dato. I visse tilfælde kan du i stedet angive en konstant, f.eks. antal medarbejdere. Derefter kan du sende prøvedokumentet (et XML-dokument) til den, der har anmodet om oplysningerne. Arbejdsmåden er tilrettelagt med henblik på, at det er en tilbagevendende begivenhed, så uanset om der er ændret i taksonomien, kan du blot udlæse nye dokumenter for nye perioder på forlangende.  
+En partner, der vil have finansielle oplysninger fra dig, leverer en taksonomi (et XML-dokument), der indeholder et eller flere skemaer, der hver har en eller flere linjer, der skal udfyldes. Linjerne skal indeholde de finansielle oplysninger, som afsenderen kræver. Du indlæser denne taksonomi i programmet og udfylder skemaerne ved at angive den eller de konti, der svarer til hver linje, og hvilken tidshorisont, der skal anvendes, f.eks. bevægelser og saldo til dato. I visse tilfælde kan du i stedet angive en konstant, f.eks. antal medarbejdere. Derefter kan du sende prøvedokumentet (et XML-dokument) til den, der har anmodet om oplysningerne. Arbejdsmåden er tilrettelagt med henblik på, at det er en tilbagevendende begivenhed, så uanset om der er ændret i taksonomien, kan du blot udlæse nye dokumenter for nye perioder på forlangende.  
 
 ## <a name="xbrl-is-comprised-of-the-following-components"></a>XBRL består af følgende komponenter  
-XBRL- **specifikationen** forklarer, hvad XBRL er, og hvordan man bygger XBRL-dokumenter og XBRL-taksonomier. XBRL-specifikationen er en teknisk forklaring af XBRL og beregnet til professionelle.  
+XBRL- **specifikationen** forklarer, hvad XBRL er, hvordan man bygger XBRL-dokumenter og XBRL-taksonomier. XBRL-specifikationen er en teknisk forklaring af XBRL og beregnet til professionelle.  
 
 XBRL- **Skemaet** er den grundlæggende bestanddel i XBRL. Skemaet er den fysiske XSD-fil, der forklarer, hvordan eksempeldokumenter og taksonomier skal bygges.  
 
@@ -75,7 +66,7 @@ Når du har indlæst eller opdateret taksonomien, skal linjerne i skemaet forsyn
 
 Du kan oprette XBLR-linjer ved at knytte dataene i taksonomien til dataene i finansposterne.  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **XBRL-taksonomier**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **XBRL-taksonomier**, og vælg derefter det relaterede link.  
 2.  På siden **XBRL-taksonomier** skal du vælge en taksonomi fra listen.  
 3.  Vælg handlingen **Linjer**.  
 4.  Vælg en linje, og udfyld felterne.   
@@ -83,19 +74,16 @@ Du kan oprette XBLR-linjer ved at knytte dataene i taksonomien til dataene i fin
 6.  Hvis du vil knytte finanskontiene i kontoplanen til XBRL-linjerne, skal du vælge handlingen **Finanskoblingslinjer**.  
 7.  Hvis du vil tilføje noter i regnskabet, skal du vælge handlingen **Noter**.  
 
-   > [!TIP]
-   > Hvis du vil udelukke linjer fra eksporten, skal du vælge **IKKE TILGÆNGELIG** som kildetype.
+> [!NOTE]  
+>  Du kan kun udlæse data, der svarer til den kildetype, du har valgt i feltet **Kildetype**, der indeholder beskrivelse og noter.  
 
-   > [!NOTE]  
-   > Du kan kun udlæse data, der svarer til det, du har valgt i feltet **Kildetype**. Det omfatter beskrivelser og noter.  
-
-   > [!NOTE]  
-   > Taksonomier kan indeholde elementer, som [!INCLUDE[prod_short](includes/prod_short.md)] ikke understøtter. Hvis et element ikke understøttes, kan feltet **Kildetype** vises feltet **Ikke tilgængelig**, og feltet **Beskrivelse** viser en fejlmeddelelse, f. eks **Uventet type: "den specifikke type blev ikke genkendt"**. Hvis du vil eksportere elementet, skal du vælge en tilsvarende kildetype. Dette er typisk en konstant eller en beskrivelse. På den måde får du mulighed for at indtaste og eksportere data, men det kan også være valideringsregler, der ikke kan kontrolleres inden eksporten.
+> [!NOTE]  
+>  Linjer, der ikke er relevante, kan markeres som linjetypen **IKKE TILGÆNGELIG**, så linjerne ikke udlæses.
 
  ## <a name="to-import-an-xbrl-taxonomy"></a>Sådan indlæses en XBRL-taksonomi  
 Første trin i arbejdet med XBRL-funktionalitet er at indlæse taksonomien i din database. En taksonomi består af et eller flere skemaer og nogle linkbaser. Når du har indlæst både skemaer og linkbaserne og har knyttet linkbaserne til skemaet, kan du oprette linjer og knytte finanskontiene i kontoplanen til de tilsvarende taksonomilinjer.  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **XBRL-taksonomier**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **XBRL-taksonomier**, og vælg derefter det relaterede link.  
 2.  På siden **XBRL-taksonomier** skal du oprette en ny linje og indsætte navnet på og beskrivelsen af taksonomien.  
 3.  Vælg handlingen **Skemaer**, og indsæt derefter beskrivelsen af skemaet.  
 4.  For at importere skemaet skal du på siden **XBRL-skemaer** vælge handlingen **Indlæs** og derefter vælge en mappe og en XSD-fil. Vælg knappen **Åbn**.  
@@ -109,7 +97,7 @@ Første trin i arbejdet med XBRL-funktionalitet er at indlæse taksonomien i din
 ## <a name="to-update-an-xbrl-taxonomy"></a>Sådan opdateres en XBRL-taksonomi  
 Når en taksonomi ændres, skal du opdatere den aktuelle taksonomi i overensstemmelse hermed. Årsagen til opdateringen kan være et ændret skema, en ændret linkbase eller en ny linkbase. Når du har opdateret taksonomien, skal du konvertere linjerne for de ændrede eller nye linjer.  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **XBRL-taksonomier**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **XBRL-taksonomier**, og vælg derefter det relaterede link.  
 2.  På siden **XBRL-taksonomier** skal du vælge handlingen **Skemaer**.  
 3.  Opdater skemaet ved at vælge det, du vil opdatere, og derefter vælge handlingen **Indlæs**.  
 4.  Hvis du vil opdatere eller tilføje en ny linkbase, skal du vælge handlingen **Linkbaser**.  
@@ -122,7 +110,4 @@ Når en taksonomi ændres, skal du opdatere den aktuelle taksonomi i overensstem
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)    
 [Business Intelligence](bi.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

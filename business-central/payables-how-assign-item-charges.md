@@ -1,22 +1,23 @@
 ---
-title: Tildele varegebyrer til salg og køb (indeholder video)
-description: Tildele varegebyrer, hvis du vil have, at dine lagervarer skal pålægges de ekstra omkostninger, f.eks. fragt, fysisk håndtering, forsikring og transport, som du har ved køb eller salg af varer, kan du bruge funktionen Varegebyrer.
+title: Tildele varegebyrer til salg og køb | Microsoft Docs
+description: Hvis du vil have, at dine lagervarer skal pålægges de ekstra omkostninger, f.eks. fragt, fysisk håndtering, forsikring og transport, som du har ved køb eller salg af varer, kan du bruge funktionen Varegebyrer.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.search.form: 5709, 5800, 5805, 5814
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: c49b529bcb93544aef8393a5440b142e722efd1c
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: a113573ca1732472f5ec926f78273cdb4b94f989
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953230"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2878134"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Bruge varegebyrer til at angive ekstra handelsomkostninger
 For at sikre korrekt værdiansættelse, skal dine lagervarer pålægges evt. ekstra omkostninger, f.eks. fragt, fysisk håndtering, forsikring og transport, som du har ved køb eller salg af varer. Ved køb består hjemtagelsesprisen for en indkøbt vare af købsprisen til leverandøren og alle ekstra, direkte varegebyrer, som det er muligt at tildele til individuelle leverancer eller returvareleverancer. Ved salg kan det være lige så vigtigt at kende omkostningerne ved forsendelse af solgte varer som at kende omkostningen ved levering af købte varer.
@@ -25,7 +26,7 @@ Ud over at registrere ekstra omkostninger i lagerværdien kan du bruge funktione
 
 - Identificere en vares hjemtagelsespris for på den baggrund at kunne træffe mere nøjagtige beslutninger om, hvordan distributionsnetværket kan optimeres.
 - Opdele en vares kostpris eller salgspris til brug i analyser.
-- Indregn nedslag i prisen i kostprisen og salgsdekort i salgsprisen.
+- Indregne nedslag i prisen i kostprisen og salgsdekort i salgsprisen.
 
 Når du vil tildele varegebyrer, skal du først opsætte varegebyrnumre for forskellige typer varegebyrer, herunder hvilke finanskonti omkostninger vedrørende salg, køb og lagerreguleringer skal bogføres på. Et varegebyrnummer består af en kombination af produktbogføringsgruppe, skattegruppekode, momsproduktbogføringsgruppe og varegebyr. Når du angiver varegebyrnummeret i et købs- eller salgsdokument, hentes den relevante finanskonto på basis af opsætningen af varegebyrkoden og de oplysninger, der er i det enkelte dokument.
 
@@ -39,20 +40,20 @@ For både købs- og salgsdokumenter, kan du tildele et varegebyr på to måder:
 ## <a name="example"></a>Eksempel
 I denne video kan du se, hvordan du håndterer yderligere forsendelsesomkostning som en del af lagerkostprisberegning.
 <br><br>  
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB]
 
 ## <a name="to-set-up-item-charge-numbers"></a>Sådan oprettes varegebyrnumre
 Varegebyrnumre bruges til at skelne mellem de forskellige typer varegebyrer, som bruges i din virksomhed.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **varegebyrer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varegebyrer**, og vælg derefter det relaterede link.
 2. På siden **Varegebyrer** skal du vælge handlingen **Ny** for at oprette en ny linje.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Sådan tildeles et varegebyr direkte til købsfakturaen for varen
 Hvis du kender varegebyret på det tidspunkt, hvor du bogfører en købsfaktura for varen, skal du følge nedenstående procedure.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.
-2. Opret en ny købsfaktura. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.
+2. Opret en ny købsfaktura. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
 3. Kontroller, at købsfakturaen har en eller flere linjer af typen vare.
 4. På en ny linje skal du vælge **Gebyr (Vare)** i feltet **Type**.
 5. Angiv enheder af varegebyret, som du er blevet faktureret for, i feltet **Antal**.
@@ -84,7 +85,4 @@ Omkostningen ved varegebyret på den separate købsfaktura er nu tildelt til var
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Registrere køb](purchasing-how-record-purchases.md)  
 [Fakturere salg](sales-how-invoice-sales.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

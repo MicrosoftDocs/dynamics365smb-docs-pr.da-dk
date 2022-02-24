@@ -1,46 +1,40 @@
 ---
-title: Lægge produktionsafgange på lager
-description: Den måde, du lægger afgang på lager fra produktion, afhænger af, hvordan lagerstedet er sat op som en lokation. Læg-på-lager kan udføres på følgende måder.
+title: Sådan lægges produktionsafgange på lager | Microsoft Docs
+description: Den måde, du lægger afgang på lager fra produktion, afhænger af, hvordan lagerstedet er sat op som en lokation.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 87c0a1cb86d94b673c3c4ee21ce0d62d59eeb753
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: e0acb1a8c1710b0b096c461f14f817957e4ee3af
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438128"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192863"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Lægge produktions- eller montageafgange på lager
-
 Den måde, du lægger afgang på lager fra produktion, afhænger af, hvordan lagerstedet er sat op som en lokation. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).  
 
-I grundlæggende lageropsætninger, hvor lokationen kræver læg-på-lager, men ikke modtagelse, skal du bruge dokumentet **Læg-på-lager (lager)** til at bogføre produktionsoutput og registrere afgangens læg-på-lager.  
-
-> [!NOTE]  
-> Læg-på-lager understøttes ikke for montageprocesser. Du bogfører en montageordre for at registrere afgang. Hvis du bruger placeringer, kan du flytte varer mellem placeringer senere. Du kan finde flere oplysninger i [Flytte varer ad hoc i grundlæggende lageropsætninger](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).  
+I grundlæggende lageropsætninger, hvor lokationen kræver læg-på-lager, men ikke modtagelse, skal du bruge dokumentet **Læg-på-lager (lager)** til at organisere og registrere afgangens læg-på-lager.  
 
 I avancerede lageropsætninger, hvor lokationen kræver både læg-på-lager og modtagelse, kan du enten oprette et internt læg-på-lager-dokument eller et bevægelsesdokument for at lægge afgangen på lager.  
 
-## <a name="to-put-away-production-output-with-an-inventory-put-away"></a>Sådan lægges produktionsafgang på lager med en læg-på-lager-aktivitet
-
 Det første trin til at lægge afgange på lager er at oprette den indgående lageranmodning. Denne anmodning oplyser lagerstedet om, at produktions- eller montageordreafgangen er klar til at blive lagt på lager.
 
-### <a name="to-create-the-inbound-warehouse-request"></a>Sådan opretttes den indgående lageranmodning  
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Frigivet produktionsordre**, og vælg derefter det relaterede link.  
+## <a name="to-create-the-inbound-warehouse-request"></a>Sådan opretttes den indgående lageranmodning  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Frigivet produktionsordre**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Opret indgående lageranmodning** på den produktionsordre, der er klar til at blive lagt på lager.  
 
 > [!NOTE]  
-> Du kan også oprette en indgående lageranmodning ved at vælge feltet **Opret indgående anmodning**, når du opdaterer produktionsordren. Du kan finde flere oplysninger i [Forny eller omplanlægge produktionsordrer](production-how-to-replan-refresh-production-orders.md).  
+>  Du kan også oprette en indgående lageranmodning ved at markere afkrydsningsfeltet **Opret indgående anmodning**, når du opdaterer produktionsordren. Du kan finde flere oplysninger i [Forny eller omplanlægge produktionsordrer](production-how-to-replan-refresh-production-orders.md).  
 
-### <a name="to-put-output-away-with-an-inventory-put-away"></a>Sådan lægges afgang på lager med en læg-på-lager-aktivitet  
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Læg-på-lager (lager)**, og vælg derefter det relaterede link.  
+## <a name="to-put-output-away-with-an-inventory-put-away"></a>Sådan lægges afgang på lager med en læg-på-lager-aktivitet  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Læg-på-lager**, og vælg derefter det relaterede link.  
 2.  Opret en ny læg-på-lager-aktivitet. Du kan finde flere oplysninger i [Lægge varer på lager med Læg-på-lager](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Du kan få adgang til produktionsordreafgangen ved at vælge handlingen **Hent kildedokumenter** og derefter vælge den frigivne produktionsordre.  
 4.  Udfyld læg-på-lager-linjerne efter behov.
@@ -52,26 +46,35 @@ Når du bogfører læg-på-lager, antages det, at alle operationer er bogført i
 
 Hvis du kun har behov for at bogføre opstillings- og operationstid på den sidste operation, skal du angive afgangsantallet for den sidste operation til 0. Alternativt kan du vælge overhovedet ikke at bogføre den sidste linje ved simpelthen at slette den.  
 
-## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>Plukke til montage eller produktion til lager i avancerede lageropsætninger
-Når du bogfører afgangen for produktion eller montageordre på det lagersted, der er sat op til at bruge styret læg-på-lager og pluk, placeres afgangen på den placering, der er defineret i produktions- eller montageordren. 
+## <a name="to-put-output-away-with-a-warehouse-internal-put-away"></a>Sådan lægges afgang på lager med en intern læg-på-lager-aktivitet
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Intern læg-på-lager-aktivitet**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Ny**.
+3. Udfyld hovedet for en ny intern læg-på-lager-aktivitet med **Lokationskoden**.  
+4. Udfyld en linje for hver vare, der skal flyttes til lagerstedet. Det er kun nødvendigt at udfylde felterne **Varenr.** og **Antal**.  
 
-I følgende tabel beskrives forskellige metoder til flytning af varer inden for lagerstedet med avancerede konfigurationer, hvor alle lageraktiviteter skal udføres i en styret arbejdsgang. 
+    > [!NOTE]  
+    >  Når du vælger feltet **Varenr.**, åbnes vinduet **Placeringsindholdsoversigt** i stedet for **Vareoversigt**. Det er fordi, du lægger en vare på plads, der skal opbevares på en særlig placering ifølge det fastsatte placeringsindhold, og du ved allerede, hvilken placering varen skal tags fra.  
 
-|**Hvis du vil**|**Se**|  
-|------------|-------------|  
-|Flytte varer med lagerbevægelseskladden.|[Flytte varer i avancerede lageropsætninger](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet)|  
-|Oprette en interne montagevarer eller producerede varer på lager i en avanceret lageropsætning.|[Oprette en intern læg-på-lager-aktivitet](warehouse-how-to-create-put-aways-from-internal-put-aways.md#to-create-an-internal-put-away)|
+4.  For at udfylde kladdelinjerne med hele placeringsindholdet eller det filtrerede placeringsindhold for placeringer på lokationen skal du vælge handlingen **Hent placeringsindh.**.  
+5.  Vælg handlingen **Opret læg-på-lager**. De varer, som du vil flytte fra produktionen, er nu angivet i læg-på-lager-instruktioner og venter på at blive lagt på plads på lagerstedet.  
 
 > [!NOTE]  
-> Du kan ikke angive kildedokumentnummeret, f.eks. prod.ordrenr., i dokumenterne intern læg-på-lager, læg-på-lager eller bevægelse i disse to procedurer.  
+>  Når lagerlokationen kræver styret læg-på-lager og pluk, er lagerstedet knyttet til produktionsfaciliteterne via standardproduktionsplaceringerne: de indgående og udgående produktionsplaceringer og den åbne produktion, som alle defineres i oversigtspanelet **Placeringer** på lokationskortet. Når du bogfører afgangen for en produktionsordre, anbringes afgangen på den **udgående produktionsplacering**. Du skal benytte samme fremgangsmåde som beskrevet ovenfor til at lægge produktionsafgangen på lager, bortset fra at i stedet for at bruge varens standardplacering skal du flytte eller lægge varerne på lager fra den **udgående produktionsplacering** til varens standardplacering.  
+
+## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>Hvis du manuelt vil angive en placering til at gemme varerne fra produktionsafgang  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bevægelseskladde**, og vælg derefter det relaterede link.  
+2.  Udfyld hovedet, og opret en linje for hver vare, der skal flyttes til lagerstedet.  
+3.  Udfyld begge felterne **Fra placeringskode** og **Til placeringskode**, og indtast antal i feltet **Antal**.  
+4.  For at udfylde kladdelinjerne med hele placeringsindholdet eller det filtrerede placeringsindhold for placeringer på lokationen skal du vælge handlingen **Hent placeringsindh.**.  
+5. Vælg handlingen **Opret bevægelse**. Lagerbevægelsesinstruktionen oprettes med Hent- og Placer-linjer til lagermedarbejderne.  
+
+> [!NOTE]  
+>  Du kan ikke angive kildedokumentnummeret, f.eks. prod.ordrenr., i dokumenterne intern læg-på-lager, læg-på-lager eller bevægelse i disse to procedurer.  
 
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
+[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Designoplysninger: Logistik](design-details-warehouse-management.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

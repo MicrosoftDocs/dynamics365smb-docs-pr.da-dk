@@ -1,24 +1,23 @@
 ---
-title: Designoplysninger - Varesporing og reservationer
-description: Dette emne omhandler varesporing og reservationer og beskriver begreberne bag disse to indstillinger.
+title: Designoplysninger – Varesporing og reservationer | Microsoft Docs
+description: Dette emne omhandler varesporing og reservationer og beskriver begreberne bag disse to.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: d2c5032983bd20fc1e8fa902bd6ed522506fc5b3
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: bfa2706b4d6d44a6f565685a66668c336b7a20e3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320884"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185104"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Designoplysninger: Varesporing og reservationer
-
 Samtidig brug af reservation og specifik varesporing er usædvanlig, da de begge skaber en kobling mellem udbud og efterspørgsel. Bortset fra situationer, hvor en kunde eller produktionsplanlægger anmoder om et bestemt lot, giver det sjældent mening at reservere lagervarer, der allerede har varesporingsnumre til bestemt udligning. Selvom det er muligt at reservere varer, der kræver bestemt varesporing, er specielle funktioner nødvendige for at undgå konflikter omkring tilgængelighed mellem ordrebehandlere, der anmoder om de samme varesporede varer.  
   
 Konceptet for sen binding sikrer, at en generel reservation af et serienummer eller lotnummer forbliver løst sammenkoblet indtil bogføringen. På bogføringstidspunktet kan reservationssystemet omrokere generelle reservationer for at sikre, at fast udligning er mulig mod det serie- eller lotnummer, der faktisk er plukket. I mellemtiden stilles serienummer eller lotnummer til rådighed for specifik reservation i andre dokumenter, der anmoder om det bestemte serie- eller lotnummer.  
@@ -26,7 +25,7 @@ Konceptet for sen binding sikrer, at en generel reservation af et serienummer el
 En generel reservation er en, hvor det er ligegyldigt for brugeren, hvilken specifik vare der plukkes, og en specifik reservation er en, hvor det ikke er ligegyldigt for brugeren.  
   
 > [!NOTE]  
-> Funktionen Sen binding vedrører kun varer, der er defineret med specifik varesporing, og den gælder kun for reservation på lager, ikke af indgående forsyningsordrer.  
+>  Funktionen Sen binding vedrører kun varer, der er defineret med specifik varesporing, og den gælder kun for reservation på lager, ikke af indgående forsyningsordrer.  
   
 Reservation af varesporingsnumre falder i to kategorier, som vist i følgende tabel.  
   
@@ -36,11 +35,12 @@ Reservation af varesporingsnumre falder i to kategorier, som vist i følgende ta
 |Ikke-specifik|Du vælger ikke et bestemt serienummer eller lotnummer, når du reserverer lagervaren fra et behov, f.eks. en salgsordre.<br /><br /> Dette er en tilstand, der er pålagt en reservationspost for serie- eller lotnumre, der ikke er specifikt valgt. **Bemærk!** Behovet har ikke serie- eller lotnumre. <br /><br /> Du ønsker f.eks. at reservere en dåse blå maling fra et hvilket som helst lot til din salgsordre. En dåse blå maling fra et vilkårlig serie- eller lotnummer er leveret til kunden.|  
   
 Den væsentligste forskel mellem specifik og generel reservation defineres af eksistensen af serie- eller lotnumre på behovssiden, som vist i følgende tabel.  
-
-| Type            | Forsyning                | Behov                   |
-|-----------------|-----------------------|--------------------------|
-| **Bestemt**    | Serie- eller lotnummer. | Serie- eller lotnummer.    |
-| **Ikke-specifik** | Serie- eller lotnummer. | Intet serie- eller lotnummer. |
+  
+||||  
+|-|-|-|  
+||**Forsyning**|**Behov**|  
+|**Bestemt**|Serie- eller lotnummer.|Serie- eller lotnummer.|  
+|**Ikke-specifik**|Serie- eller lotnummer.|Intet serie- eller lotnummer.|  
   
 Når du reserverer lagerbeholdningsantal fra en udgående dokumentlinje for en vare, der har varesporingsnumre tildelt og er defineret til specifik varesporing, fører siden **Reservation** dig gennem forskellige arbejdsgange, afhængigt af behovet for serie- eller lotnumre.  
   
@@ -92,5 +92,3 @@ Dette forretningsscenarie understøttes med funktionaliteten Sen Binding, der mu
   
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Varesporing](design-details-item-tracking.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

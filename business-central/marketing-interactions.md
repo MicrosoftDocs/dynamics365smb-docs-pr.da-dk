@@ -1,23 +1,23 @@
 ---
-title: Administrere interaktioner med dine kontakter
+title: Administrere interaktioner med dine kontakter | Microsoft Docs
 description: Du kan administrere alle typer kommunikation eller interaktioner mellem din virksomhed og dine kontakter, f.eks. kommunikation via brev, telefon, møder osv.
+services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5082,
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 6a923884e7ea28def6335f063d04e5fab9365d81
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 8e55baf7fcc375c492a4b50794d823ad13b432a4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059438"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181384"
 ---
 # <a name="record-interactions-with-contacts"></a>Registrere interaktioner med kontakter
 Konfiguration af programmet til at registrere interaktioner består af disse opgaver:
@@ -50,12 +50,9 @@ På denne side kan du:
 * Få vist status for interaktioner.
 * Markere interaktioner som annulleret.
 
-Du kan slette interaktionslogposter, der er blevet annulleret. Du kan slette interaktionslogposter ved at vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Slet annullerede interaktionslogposter**, og vælg derefter det relaterede link og udfyld oplysningerne.
+Du kan slette interaktionslogposter, der er blevet annulleret. For at slette interaktionslogposter skal du vælge ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angive **Slet annullerede interaktionslogposter** og derefter vælge det relaterede link og angive oplysningerne.
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Arbejde med Business Central](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

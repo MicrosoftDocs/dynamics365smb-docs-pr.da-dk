@@ -1,21 +1,21 @@
 ---
-title: Håndter lager- og produktionsomkostninger
-description: Lære, hvordan et antal felter, sider og rapporter henvender sig til brugere, som direkte eller indirekte administrerer omkostningerne til varer eller operationer.
+title: Håndtere lager- og produktionsomkostninger | Microsoft Docs
+description: Selvom meget af funktionaliteten i omkostningsberegningen er udtrykt i underliggende processer, der ikke kræver brugermedvirken, f.eks. efterudligning og automatisk kostregulering, er en række felter, sider og rapporter beregnet til brugere, som direkte eller indirekte styrer varepriser eller drift.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 82221de7c57e6130a3259ae7cf7be095e3c0571e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: e61174dd162111f6e7580026c5e91454b2ffa918
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323336"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183736"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Håndtere lager- og produktionsomkostninger
 Selvom meget af funktionaliteten i omkostningsberegningen er udtrykt i underliggende processer, der ikke kræver brugermedvirken, f.eks. efterudligning og automatisk kostregulering, er en række felter, sider og rapporter beregnet til brugere, som direkte eller indirekte styrer varepriser eller drift.  
@@ -38,6 +38,3 @@ Selvom meget af funktionaliteten i omkostningsberegningen er udtrykt i underligg
 ## <a name="see-also"></a>Se også  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

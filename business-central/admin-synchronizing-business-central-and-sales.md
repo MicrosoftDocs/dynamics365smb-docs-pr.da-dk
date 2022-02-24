@@ -1,26 +1,24 @@
 ---
 title: Synkronisering og dataintegration | Microsoft Docs
-description: Synkroniseringen kopierer data mellem Microsoft Dataverse-tabeller og Business Central-poster og holder data i begge systemer opdateret.
+description: Synkroniseringen kopierer data mellem Dynamics 365 Sales-poster og Business Central-poster og holder data i begge systemer opdateret.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
-ms.date: 06/14/2021
+ms.search.keywords: sales, crm, integration, sync, synchronize
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: a44777bce30cf4ab4cb07b5b1a05f36d8cbb87f7
-ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.openlocfilehash: bbc7da12176d2a5c8ab9a2ccc153ea4053d59656
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8049792"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2304226"
 ---
-# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synkronisering af data i Business Central med Microsoft Dataverse
-
-
-Når du integrerer [!INCLUDE[prod_short](includes/cds_long_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)], bliver du bedt om at synkronisere dataene i bestemte felter i [!INCLUDE[prod_short](includes/prod_short.md)]-records (f.eks. kunder, kontakter og sælgere) med tilsvarende rækker i [!INCLUDE[prod_short](includes/cds_long_md.md)] (f.eks. konti, kontakter og brugere). Afhængigt af række-typen kan du synkronisere data fra [!INCLUDE[prod_short](includes/cds_long_md.md)] til [!INCLUDE[prod_short](includes/prod_short.md)], eller omvendt. Du kan finde flere oplysninger i [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
+# <a name="synchronizing-data-in-business-central-and-dynamics-365-sales"></a>Synkronisering af data i Business Central og Dynamics 365 Sales
+Når du integrerer [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)], bliver du bedt om at synkronisere dataene i bestemte felter i [!INCLUDE[d365fin](includes/d365fin_md.md)]-records (f.eks. kunder, kontakter og sælgere) med tilsvarende records i [!INCLUDE[d365fin](includes/d365fin_md.md)] (f.eks. konti, kontakter og brugere). Afhængigt af record-typen kan du synkronisere data fra [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)], eller omvendt. Du kan finde flere oplysninger under [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
 Synkroniseringen bruger følgende elementer:
 
@@ -29,46 +27,74 @@ Synkroniseringen bruger følgende elementer:
 * Synkroniseringsregler
 * Sammenkædede records
 
-Når synkroniseringen er konfigureret, du kan sammenkæde [!INCLUDE[prod_short](includes/prod_short.md)]-records med [!INCLUDE[prod_short](includes/cds_long_md.md)]-rækker for at synkronisere deres data. Du kan starte en synkronisering manuelt eller ud fra en tidsplan. Følgende tabel indeholder et overblik over metoder til synkronisering.  
+Når synkroniseringen er konfigureret, du kan sammenkæde [!INCLUDE[d365fin](includes/d365fin_md.md)]-records med [!INCLUDE[crm_md](includes/crm_md.md)]-records for at synkronisere deres data. Du kan starte en synkronisering manuelt eller ud fra en tidsplan. Følgende tabel indeholder i overblik over de måder, hvorpå du kan synkronisere records.  
 
 |  Type  |  Metode  |  Skal du se  |  
 |--------|----------|-------|  
-|Manuel synkronisering|Synkronisering på grundlag af række efter række.<br /><br /> Du kan synkronisere individuelle poster i [!INCLUDE[prod_short](includes/prod_short.md)], f.eks. en debitor, med en tilsvarende [!INCLUDE[prod_short](includes/cds_long_md.md)]-række, f.eks. en konto. Dette er typisk, hvordan brugere vil arbejde med [!INCLUDE[prod_short](includes/cds_long_md.md)]-data i [!INCLUDE[prod_short](includes/prod_short.md)].|[Sammenkæde og synkronisere poster manuelt](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings)|  
-|  |Synkronisering på grundlag af tabeltilknytning.<br /><br /> Du kan synkronisere alle records i en [!INCLUDE[prod_short](includes/prod_short.md)]-tabel med en tabel [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabel.|[Synkroniser individuelle tabeltilknytninger](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings)|  
-||Synkroniser alle ændrede records for alle tabeltilknytninger.<br /><br /> Du kan synkronisere alle de records, der er ændret i [!INCLUDE[prod_short](includes/prod_short.md)]- tabeller siden sidste synkronisering.|[Synkroniser alle ændrede records](admin-manual-synchronization-of-table-mappings.md#synchronizing-all-modified-records)|
-||Fuld synkronisering af alle data for alle tabeltilknytninger.<br /><br /> Du kan synkronisere alle data i [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller og [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabeller, der er tilknyttet, og oprette nye records eller rækker i destinationsløsningen til ikke sammenkædede records i kildeløsningen.<br /><br /> Fuld synkronisering synkroniserer alle data og ignorerer sammenkædning. Typisk udfører du en fuld synkronisering, når du konfigurerer integrationen og kun én af løsningerne indeholder data. En fuld synkronisering kan også være nyttig i et demo-miljø.|[Kør en fuld synkronisering](admin-manual-synchronization-of-table-mappings.md#run-a-full-synchronization)|  
-|Planlagt synkronisering|Synkroniser alle ændringer til data for alle tabeltilknytninger.<br /><br /> Du kan synkronisere [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[prod_short](includes/cds_long_md.md)] med planlagte intervaller ved at konfigurere jobs i jobkøen.|[Planlæg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
+|Manuel synkronisering|Synkronisering på grundlag af record efter record.<br /><br /> Du kan synkronisere individuelle records i [!INCLUDE[d365fin](includes/d365fin_md.md)], f.eks. en debitor, med en tilsvarende [!INCLUDE[crm_md](includes/crm_md.md)]-record, f.eks. en konto. Dette er typisk, hvordan brugere vil arbejde med [!INCLUDE[crm_md](includes/crm_md.md)]-data i [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Sammenkæd og synkroniser records manuelt](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings)|  
+|  |Synkronisering på grundlag af tabeltilknytning.<br /><br /> Du kan synkronisere alle records i en [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabel med en enhed i [!INCLUDE[crm_md](includes/crm_md.md)]-enhed.|[Synkroniser individuelle tabeltilknytninger](admin-manual-synchronization-of-table-mappings.md#synchronize-individual-table-mappings)|  
+||Synkroniser alle ændrede records for alle tabeltilknytninger.<br /><br /> Du kan synkronisere alle de records, der er ændret i [!INCLUDE[d365fin](includes/d365fin_md.md)]- tabeller siden sidste synkronisering.|[Synkroniser alle ændrede records](admin-manual-synchronization-of-table-mappings.md#synchronizing-all-modified-records)|
+||Fuld synkronisering af alle data for alle tabeltilknytninger.<br /><br /> Du kan synkronisere alle data i [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller og [!INCLUDE[crm_md](includes/crm_md.md)]-enheder, der er tilknyttet, og oprette nye records i destinationsløsningen til ikke sammenkædede records i kildeløsningen.<br /><br /> Fuld synkronisering synkroniserer alle data og ignorerer sammenkædning. Typisk udfører du en fuld synkronisering, når du konfigurerer integrationen og kun én af løsningerne indeholder data. En fuld synkronisering kan også være nyttig i et demo-miljø.|[Kør en fuld synkronisering](admin-manual-synchronization-of-table-mappings.md#run-a-full-synchronization)|  
+|Planlagt synkronisering|Synkroniser alle ændringer til data for alle tabeltilknytninger.<br /><br /> Du kan synkronisere [!INCLUDE[d365fin](includes/d365fin_md.md)] med [!INCLUDE[crm_md](includes/crm_md.md)] med planlagte intervaller ved at konfigurere jobs i jobkøen.|[Planlæg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
 
-> [!NOTE]
-> Synkroniseringen mellem [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] er baseret på den planlagte kørsel af opgavekøposter og garanterer ikke data konsistens i realtid mellem to tjenester. I forbindelse med realtidsdata conistency du lære om [Virtuelle Business Central-tabeller](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) eller Business Central API'er.   
+## <a name="standard-sales-entity-mapping-for-synchronization"></a>Standardenhedstilknytning i Sales til synkronisering
+Enheder i [!INCLUDE[crm_md](includes/crm_md.md)], f.eks. konti, er integreret med enheder af samme type i [!INCLUDE[d365fin](includes/d365fin_md.md)], som f.eks. kunder. For at arbejde med [!INCLUDE[crm_md](includes/crm_md.md)]-data, opretter du links, kaldet sammenkædninger mellem enheder i [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
 
+Følgende tabel viser standardtilknytningen mellem enheder i [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)], som [!INCLUDE[d365fin](includes/d365fin_md.md)] leverer.
 
-## <a name="standard-table-mapping-for-synchronization"></a>Standard-tabeltilknytning til synkronisering
-Tabeller i [!INCLUDE[prod_short](includes/cds_long_md.md)], f.eks. konti, er integreret med tabeller af samme type i [!INCLUDE[prod_short](includes/prod_short.md)], som f.eks. kunder. For at arbejde med [!INCLUDE[prod_short](includes/cds_long_md.md)]-data, opretter du links, kaldet sammenkædninger mellem tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)].
+|[!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[crm_md](includes/crm_md.md)]|Synkroniseringsretning|Standardfilter|
+|-------------------------------------------|-----|-------------------------|--------------|
+|Sælger/indkøber|Bruger|[!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-kontaktfilter: **Status** er **Nej**, **Brugerlicenseret** er **Ja** og integrationsbrugertilstand er **Nej**|
+|Debitor|Konto|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-kontofilter: **Relationstype** er **Debitor**, og **Status** er **Aktiv**.|
+|Kontakt|Kontakt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)]-kontaktfilter: **Type** er **Person**, og kontakten er knyttet til en virksomhed. Sales-kontaktfilter: Kontakten er tildelt til en virksomhed, og den overordnede debitortype er **Konto**.|
+|Valuta|Transaktionsvaluta|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+|Enhe.|Enhedsgruppe|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+|Vare|Produkt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-kontaktfilter: **Produkttype** er **Salg lager**|
+|Ressource|Produkt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]|Sales-kontaktfilter: **Produkttype** er **Tjenester**|
+|Debitorprisgruppe|Prisliste|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+|Salgspris|Produktprisliste|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)]-kontaktfilter: **Salgskode** er ikke tom, **Salgstype** er **Debitorprisgruppe**|
+|Salgsmulighed|Salgsmulighed|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
+|Salgsfakturahoved|Faktura|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+|Salgsfakturalinje|Fakturaprodukt|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+|Salgsordrehovedet|Salgsordre|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]|[!INCLUDE[d365fin](includes/d365fin_md.md)] Filter for salgshoved: **Dokumenttype** er Ordre, **Status** er Frigivet|
+|Bemærkninger til salgsordre|Bemærkninger til salgsordre|[!INCLUDE[d365fin](includes/d365fin_md.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[d365fin](includes/d365fin_md.md)]| |
 
-Følgende tabel viser standardtilknytningen mellem tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)].
+### <a name="tip-for-admins-viewing-entity-mappings"></a>Tip til administratorer: visning af enhedstilknytninger
+Du kan få vist tilknytningen mellem enhederne i [!INCLUDE[crm_md](includes/crm_md.md)] og tabellerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] på siden **Integrationstabeltilknytninger**, hvor du kan også anvende filtre. Du definerer tilknytningen mellem felterne i [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller og felterne i [!INCLUDE[crm_md](includes/crm_md.md)]-enheder på siden **Integreret felttilknytning**, hvor du kan tilføje yderligere tilknytningslogik. Det kan f.eks. være nyttigt, hvis du har brug for fejlfinding i forbindelse med synkronisering.
 
-> [!TIP]
-> Du kan nulstille konfigurationsændringer, der er foretaget af integrations tabel-og felttilknytninger, til standardindstillingerne ved at vælge tilknytningerne og derefter vælge **Brug standardopsætning for synkronisering**.
+### <a name="tip-for-developers-mapping-fields-in-business-central-to-the-option-sets-in-sales"></a>Tip til udviklere: Tilknytning af felter i Business Central til Indstillingsgrupper i Salg
+Hvis du er udvikler, og du vil tilføje valgmuligheder til indstillingsgrupperne i [!INCLUDE[crm_md](includes/crm_md.md)], skal du vide dette. Tre tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)] er tilknyttet til **Konto**-enhedens indstillingsfelter i [!INCLUDE[crm_md](includes/crm_md.md)]. Records i de tabeller, der ikke er knyttet til indstillinger i [!INCLUDE[crm_md](includes/crm_md.md)], synkroniseres ikke. Dette betyder, at feltet **Indstilling** er tomt i [!INCLUDE[crm_md](includes/crm_md.md)].
 
-| [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)] | Synkroniseringsretning | Standardfilter |
-|---------------------------------------------|----------------------------------------------|---------------------------|----------------|
-| Sælger/indkøber | Bruger | [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)]-kontaktfilter: **Status** er **Nej**, **Brugerlicenseret** er **Ja** og integrationsbrugertilstand er **Nej** |
-| Debitor | Konto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)]-kontofilter: **Relationstype** er **Debitor**, og **Status** er **Aktiv**. [!INCLUDE[prod_short](includes/prod_short.md)]-filter: **Spærret** er tomt (debitor er ikke spærret). |
-| Kreditor | Konto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)]-kontofilter: **Relationstype** er **Kreditor**, og **Status** er **Aktiv**. [!INCLUDE[prod_short](includes/prod_short.md)]-filter: **Spærret** er tomt (kreditor er ikke spærret). |
-| Kontakt | Kontakt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/prod_short.md)]-kontaktfilter: **Type** er **Person**, og kontakten er knyttet til en virksomhed. [!INCLUDE[prod_short](includes/cds_long_md.md)]-kontaktfilter: Kontakten er tildelt en virksomhed, og den overordnede debitortype er **Kunde**. |
-| Valuta | Transaktionsvaluta | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] |  |
+Følgende tabel viser tilknytninger fra [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller til feltet **Indstilling** i enheden **Konto** i [!INCLUDE[crm_md](includes/crm_md.md)]
 
-> [!NOTE]
-> Disse **Dataverse**-handlinger vil ikke være tilgængelige på sider, f. eks. siden debitorkort, for poster, der ikke overholder tabel filteret i integrations tabel tilknytningen.
+|Sortbord|Indstillingsfelt i kontoenheden|
+|----------------------|-------------------------------------------|
+|Betalingsbetingelser|Betalingsbetingelser|
+|Leveringsform|Adresse 1: Fragtbetingelser|
+|Speditør|Adresse 1: Forsendelsesmetode|
 
-### <a name="tip-for-admins-viewing-table-mappings"></a>Tip til administratorer: Visning af tabeltilknytninger
-Du kan få vist tilknytningen mellem tabellerne i [!INCLUDE[prod_short](includes/cds_long_md.md)] og tabellerne i [!INCLUDE[prod_short](includes/prod_short.md)] på siden **Integrationstabeltilknytninger**, hvor du kan også anvende filtre. Du definerer tilknytningen mellem felterne i [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller og kolonnerne i [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabeller på siden **Integreret felttilknytning**, hvor du kan tilføje yderligere tilknytningslogik. Det kan f.eks. være nyttigt, hvis du har brug for fejlfinding i forbindelse med synkronisering.
+### <a name="synchronization-rules"></a>Synkroniseringsregler
+I følgende tabel beskrives de regler, der styrer synkroniseringen mellem programmerne,
+
+> [!NOTE]  
+> Ændringer af data i [!INCLUDE[crm_md](includes/crm_md.md)], der blev foretaget af [!INCLUDE[crm_md](includes/crm_md.md)]-forbindelsesbrugerkontoen synkroniseres ikke. Derfor anbefales det, at du ikke ændrer data, når du benytter denne konto. Du kan finde flere oplysninger i [Konfigurere brugerkonti til integration med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).
+
+|Sortbord|Regel|
+|-----|----|
+|Kunder (Debitorer)|Før du kan synkronisere en debitor med en konto, skal den sælger, der er tildelt debitoren, være sammenkædet med en bruger i [!INCLUDE[crm_md](includes/crm_md.md)]. Når du derfor kører KUNDER – Dynamics 365 Sales-synkroniseringsjobbet, og du konfigurerer det til at oprette nye poster, skal du sørge for at synkronisere sælgere med [!INCLUDE[crm_md](includes/crm_md.md)]-brugere, før du synkroniserer debitorer med konti i [!INCLUDE[crm_md](includes/crm_md.md)]. <br /> <br />KUNDER – Dynamics 365 Sales-synkroniseringsjobbet synkroniserer kun Sales-konti, der har relationstypen Debitor.|
+|Kontakter|Kun kontakter i [!INCLUDE[crm_md](includes/crm_md.md)], der er knyttet til en konto, oprettes i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Værdien Sælgerkode definerer ejeren af det sammenkædede enhed i [!INCLUDE[crm_md](includes/crm_md.md)].|
+|Valutaer|Valutaer sammenkædes med transaktionsvalutaer i [!INCLUDE[crm_md](includes/crm_md.md)], baseret på ISO-koder. Kun valutaer, der har en ISO-standardkoder, sammenkædes og synkroniseres med transaktionsvalutaer.|
+|Enheder|Måleenheder synkroniseres med enhedsgrupper i [!INCLUDE[crm_md](includes/crm_md.md)]. Der kan kun være én måleenhed defineret i enhedsgruppen.|
+|Varer|Når du synkroniserer varer med [!INCLUDE[crm_md](includes/crm_md.md)]-produkter, opretter [!INCLUDE[d365fin](includes/d365fin_md.md)] automatisk en prisliste i [!INCLUDE[crm_md](includes/crm_md.md)]. For at undgå synkroniseringsfejl bør du ikke ændre denne prisliste manuelt.|
+|Sælgere|Sælgere er sammenkædet med systembrugere i [!INCLUDE[crm_md](includes/crm_md.md)]. Brugeren skal være aktiveret og licenseret og må ikke være integrationsbrugeren. Bemærk, at dette er den første tabel, der skal synkroniseres, fordi den bruges i kunder, kontakter, salgsmuligheder og salgsfakturaer.|
+|Ressourcer|Ressourcer synkroniseres med [!INCLUDE[crm_md](includes/crm_md.md)]-produkter, har produkttypen Service.|
+|Debitorprisgrupper|Debitorprisgrupper synkroniseres med prislister i Sales.|
+|Salgspriser|Priser i Sales, der har salgstypen Debitorprisgruppe og har en salgskode defineret, synkroniseres med [!INCLUDE[crm_md](includes/crm_md.md)]-prislistelinjer|
+|Salgsmuligheder|Salgsmuligheder synkroniseres med [!INCLUDE[crm_md](includes/crm_md.md)]-salgsmuligheder. Værdien Sælgerkode definerer ejeren af det sammenkædede enhed i [!INCLUDE[crm_md](includes/crm_md.md)].|
+|Bogførte salgsfakturaer|Bogførte salgsfakturaer synkroniseres med salgsfakturaer. Før en faktura kan synkroniseres, er det bedre at synkronisere alle andre enheder, der kan indgå i fakturaen, fra sælgere til prislister. Værdien Sælgerkode i fakturahovedet definerer ejeren af det sammenkoblede objekt i Sales.|
+|Salgsordrer|Når salgsordreintegration er aktiveret, synkroniseres salgsordrer i [!INCLUDE[d365fin](includes/d365fin_md.md)], der er oprettet fra sendte salgsordrer i [!INCLUDE[crm_md](includes/crm_md.md)], med salgsordrer i INKLUDER SALG, når de frigives. Inden du synkroniserer ordrer, anbefales det, at du først synkroniserer alle de enheder, der indgår i ordren, f. eks. sælgere og prislister. Feltet Sælgerkode i ordrehovedet definerer ejeren af den sammenkædede enhed i [!INCLUDE[crm_md](includes/crm_md.md)].|  
 
 ## <a name="see-also"></a>Se også  
-[Sammenkæde og synkronisere poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md)   
+[Sammenkæd og synkroniser records manuelt](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Planlæg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

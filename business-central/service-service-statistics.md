@@ -1,21 +1,21 @@
 ---
-title: Servicestatistik
-description: Få et hurtigt overblik over indholdet af og statistikken for servicedokumenter, f.eks. ordrer, tilbud, fakturaer eller kreditnotaer, og detaljerne på de specifikke servicelinjer med mere.
+title: Servicestatistik | Microsoft Docs
+description: Få et hurtigt overblik over indholdet af servicedokumenter, f.eks. ordrer, tilbud, fakturaer eller kreditnotaer, og detaljerne på de specifikke servicelinjer og serviceartiklerne.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: eaec4f99ea07e84b1a328be3022005fac01de38d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0e1c6fe7b5a830e17d693bcd4d48921947b0509d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438253"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192383"
 ---
 # <a name="viewing-service-statistics"></a>Visning af servicestatistik
 Du kan bruge statistikker til at analysere servicedokumenter og fastslå, hvor godt du administrerer dine serviceprocesser. Du kan analysere servicekontrakter, -artikler, -tilbud, -ordrer, -fakturaer og -kreditnotaer ved at vælge handlingen **Statistik**. For serviceartikler og -kontrakter, kan du også bruge vinduet **Serviceartikel - Trendscape** eller **Kontrakt - Trendscape** til at få vist en oversigt over serviceposterne for en bestemt serviceartikel.   
@@ -84,7 +84,7 @@ Der bliver genereret en gevinst/tabspost for kontrakten, når et kontrattilbud k
 |**Kontraktgevinst/-tab (årsager)**|Sådan får du vist kontraktgevinst/-tab efter årsagskode.|  
 |**Kontraktgevinst/-tab (ansv.cent.)**|Sådan får du vist kontraktgevinst/-tab efter ansvarscenter.|  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv navnet på den side, der skal vises, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv navnet på den side, der skal vises, og vælg derefter det relaterede link.  
 2. Angiv de filterkriterier, du vil anvende. På siden **Kontraktgevinst/-tab (årsager)** skal du f.eks. vælge en værdi for **Årsagskodefilter**.  
 3. Vælg handlingen **Vis matrix**.
 
@@ -112,6 +112,3 @@ Du kan bruge siden **Statistik for servicekreditnotaer** til at få et statistis
 [Oprette serviceordrer](service-how-to-create-service-orders.md)   
 [Oprette serviceartikler](service-how-to-create-service-items.md)   
 [Planlægning af service](service-plan-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

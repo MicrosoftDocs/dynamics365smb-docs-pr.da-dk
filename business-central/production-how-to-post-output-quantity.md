@@ -1,59 +1,49 @@
 ---
-title: Massebogføre produktionsafgang og operationstider
-description: Afgangsantallet repræsenterer arbejdsforløbet i form af den færdige mængde og den anvendte kapacitet for arbejdscentret eller produktionsressourcen.
+title: Sådan massebogføres produktionsafgang og operationstid | Microsoft Docs
+description: Afgangsantallet angiver arbejdsforløbet i form af det færdige antal.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000773, 99000778, 99000823, 99000827
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: d5adb9f1f4eb1edefdeb15b6f716458247b4ebf9
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: a0eeb0a944a0feaee27fcb6d5891f83151499940
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970422"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877779"
 ---
 # <a name="batch-post-output-and-run-times"></a>Massebogføre afgang og operationstider
-Afgangsantallet repræsenterer arbejdsforløbet i form af den færdige mængde og den anvendte kapacitet for arbejdscentret eller produktionsressourcen.
-
-Du kan bruge afgangskladden til at:
-
-* Justere lagerbeholdningen i forbindelse med afgang af færdige varer fra produktion.
-* Registrere antal og spild for hver operation i produktionsruten.
-* Registrere opsætning og operationstid for arbejdscentre og produktionsressourcer.
+Afgangsantallet angiver arbejdsforløbet i form af det færdige antal.  
 
 > [!NOTE]
-> Hvis produktionsrute anvendes, opdateres lagerbeholdningen kun, når du bogfører afgangsantal for den sidste operation.
+> Lageret opdateres kun automatisk, når du bogfører afgangsantal i den sidste operation.  
 
-Med vinduet **Produktionskladde** kan du udføre de samme opgaver som i vinduet **Afgangskladde** og samtidigt udføre relaterede forbrugsbogføringsopgaver. Du kan finde flere oplysninger i [Registrere forbrug og afgang for én frigivet produktionsordrelinje](production-how-to-register-consumption-and-output.md).
-
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Sådan bogfører du afgangsantal og/eller registrerer du operationstider for en eller flere produktionsordrelinjer
-
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Afgangskladde**, og vælg derefter det relaterede link.  
-2. Udfyld felterne med produktionsordredata, afgangsdata og/eller operationstid. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-  
-    Du kan bruge funktionen **Udfold rute** til at generere kladdelinjer fra produktionsordrer.
-  
+## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>Sådan bogføres afgangsantal for en eller flere produktionsordrelinjer
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Afgangskladde**, og vælg derefter det relaterede link.  
+2. Udfyld felterne med produktionsordredataene og afgangsdataene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Hvis operationen er afsluttet, skal du markere feltet **Afsluttet**.  
-4. Vælg handlingen **Bogfør** for at bogføre operationer. 
 
-Kapacitetsposterne opdateres for de anvendte arbejdscentre eller produktionsressourcer med oplysninger om tid, antal og spild.  
+    Hvis den lagerlokation, hvor varerne skal lægges på lager, bruger placeringer, men ikke kræver læg-på-lager, skal du tildele en placeringskode til kladdelinjen for at angive, hvor varerne skal lægges på lageret. Du kan finde flere oplysninger i [Lægge produktions- eller montageafgange på lager](warehouse-how-to-put-away-production-output.md).  
 
-Hvis du har bogført den sidste operation, føjes varen til lageret.  
+4. Vælg handlingen **Bogfør** for at bogføre operationerne. Afgangsantallet bogføres. Varen er nu klar til afsendelse.  
 
-## <a name="see-also"></a>Se også
+## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a>Sådan bogføres operationstider for en eller flere produktionsordrelinjer
+Operationstiden angiver arbejdsforløbet i form af den nødvendige arbejdstid.    
 
-[Bogføre spild manuelt](production-how-to-post-scrap.md)
-[Tilbageføre bogføring af afgang](production-how-to-reverse-output-posting.md)
-[Produktion](production-manage-manufacturing.md)
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Afgangskladde**, og vælg derefter det relaterede link.  
+2. Udfyld felterne med produktionsordredataene og afgangsdataene.  
+3.  Hvis operationen er afsluttet, skal du vælge feltet **Afsluttet**.  
+4. Vælg handlingen **Bogfør** for at bogføre den tid, der bruges pr. operation. Kapacitetsposter opdateres for de anvendte arbejdscentre eller produktionsressourcer.
+
+## <a name="see-also"></a>Se også  
+[Produktion](production-manage-manufacturing.md)    
 [Konfigurere produktion](production-configure-production-processes.md)  
-[Skabelon](production-planning.md)  
+[Planlægning](production-planning.md)      
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Køb](purchasing-manage-purchasing.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

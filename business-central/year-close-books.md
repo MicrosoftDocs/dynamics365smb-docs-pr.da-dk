@@ -1,22 +1,23 @@
 ---
-title: Oversigt over de opgaver, der afslutter regnskaberne
+title: Oversigt over de opgaver, der afslutter regnskaberne | Microsoft Docs
 description: Få mere at vide om processen med at afslutte regnskaberne for et regnskabsår eller en -periode, og hvad der sker, når du lukker ved årets afslutning.
+services: project-madeira
+documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-m.search.form: 100
-ms.date: 04/01/2021
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 224d1886987184e6ebdb3cc1434c64454d383678
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: db4ec1033a830cb72b602691797d2b1ff637c2e7
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011331"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310104"
 ---
 # <a name="closing-the-books"></a>Afslutte regnskaberne
 Når du har kontrolleret, at alle dine konti er opdaterede, og når du har allokeret omkostninger og indtægter, så kan du afslutte regnskabet for et regnskabsår eller en regnskabsperiode.
@@ -53,9 +54,5 @@ Der oprettes derefter en ultimopost, men posten bogføres ikke automatisk. Du f�
 Du kan bogføre i et tidligere regnskabsår, selv efter at resultatopgørelseskontiene er blevet lukket, hvis du udfører kørslen Nulstil resultatopgørelse igen bagefter.
 
 ## <a name="see-also"></a>Se også
-
-[Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Åbne et nyt regnskabsår](finance-how-open-new-fiscal-year.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

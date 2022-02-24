@@ -1,25 +1,25 @@
 ---
-title: Ændre udseendet af en rapport ved at vælge et andet layout
+title: Ændre udseendet af en rapport ved at vælge et andet layout | Microsoft Docs
 description: Du kan bruge forskellige layout til en rapport og skifte mellem layout for at ændre udseendet af en rapport.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9652, 9650
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: a5115407dd7cfbb8760a5749432ca6fc37f9f933
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.date: 01/13/2020
+ms.author: sgroespe
+ms.openlocfilehash: b6c11e58694e68918ab5f4d5bd48bd7a43beb8f1
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101077"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953247"
 ---
 # <a name="change-the-current-report-layout"></a>Ændre det aktuelle rapportlayout
-
 En rapport kan konfigureres med flere rapportlayout, som du kan skifte mellem efter behov.
 
 Afhængig af de layout, der er tilgængelige for en rapport, kan du vælge at bruge et indbygget RDLC-rapportlayout, et indbygget Word-rapportlayout eller et brugerdefineret layout. Find flere oplysninger om RDLC- og Word-rapportlayout, indbyggede og brugerdefinerede layout og mere under [Administration af rapportlayout](ui-manage-report-layouts.md).
@@ -30,8 +30,7 @@ Når der er defineret brugerdefinerede rapportlayout, kan du vælge dem fra debi
 > Rapporter af typen dokument (ikke lister), der bruger et Word-rapportlayout, er typisk hurtigere end dem, der bruger et RDLC-rapportlayout. Så hvis du har mulighed for at vælge mellem et Word- eller et RDLC-rapportlayout for en rapport af typen dokument, skal du bruge Word-rapportlayoutet til at få den bedste ydeevne.
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Sådan ændres det rapportlayout, der skal bruges til en rapport eller et dokument
-
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
    Siden **Valg af rapportlayout** viser en liste over alle de rapporter, der er tilgængelige i den virksomhed, der er angivet i feltet **Virksomhed** øverst på siden. Feltet **Valgt layout** angiver det layout, der aktuelt bruges af rapporten.
 2. Angiv feltet **Virksomhed** øverst på siden til det firma, der indeholder rapporten.
 3. Hvis du vil ændre layoutet for en rapport, skal du på rækken for rapporten angive feltet **Valgt layout** til en af følgende indstillinger:
@@ -60,7 +59,4 @@ Du kan nu gå til debitor- og leverandørkortene for at angive, hvilke layouts d
 
 ## <a name="see-also"></a>Se også
 [Administration af rapportlayout](ui-manage-report-layouts.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

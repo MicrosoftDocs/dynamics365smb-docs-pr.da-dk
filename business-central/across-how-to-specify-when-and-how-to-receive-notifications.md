@@ -1,50 +1,41 @@
 ---
-title: Angive, hvornår og hvordan arbejdsgangsnotifikationer modtages
-description: Når du konfigurerer brugere i godkendelsesarbejdsgange, kan du angive, hvordan og hvornår hver godkendelsesbruger modtager beskeder.
+title: Sådan angiver du, hvornår og hvordan notifikationer modtages | Microsoft Docs
+description: Når du konfigurerer brugere i godkendelsesworkflows, skal du angive på siderne Konfiguration af notifikation og Notifikationsplan, hvordan og hvornår de enkelte brugere får besked om godkendelsestrin i workflowet. Individuelle brugere kan også ændre deres opsætning ved at klikke på knappen Rediger notifikationsindstillinger i en vilkårlig notifikation.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
-ms.author: edupont
-ms.openlocfilehash: 6812fa270066b03fa64a7d8c664ef4df8d28eff0
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d9cbffc0f783063362a394b5afe47c67fcc396ad
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102495"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188066"
 ---
-# <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Angive, hvornår og hvordan arbejdsgangsnotifikationer modtages
-Når du opretter godkendelses brugere i arbejdsprocesser, hvor du vil have, at en anden bruger skal kunne godkende ændringer, f. eks. når der oprettes nye poster, eller når en bruger anmoder om godkendelse, skal du angive, hvordan og hvornår godkendelsesbrugeren skal have besked. Du kan f. eks. angive, at en godkendelsesbruger straks skal modtage en e-mail, når nogen opretter en ny kunde. Du kan også vælge at planlægge, at notifikationer skal leveres, f. eks. en gang om måneden.
-
-Brugere kan også ændre deres opsætning ved at klikke på knappen **Rediger notifikationsindstillinger** i en vilkårlig notifikation.  
+# <a name="specify-when-and-how-to-receive-notifications"></a>Angive, hvornår og hvordan notifikationer modtages
+Når du konfigurerer brugere i godkendelsesworkflows, skal du angive på siderne **Konfiguration af notifikation** og **Notifikationsplan**, hvordan og hvornår de enkelte brugere får besked om godkendelsestrin i workflowet. Individuelle brugere kan også ændre deres opsætning ved at klikke på knappen **Rediger notifikationsindstillinger** i en vilkårlig notifikation.  
 
 > [!NOTE]
-> Notifikationer leveres i overensstemmelse med beskedindstillingerne for modtageren, ikke afsenderen. Dette er en vigtig forskel, fordi det betyder, at når en bruger anmoder om godkendelse som en del af en arbejdsproces, sendes deres anmodning ikke med det samme. Den leveres i stedet i henhold til den notifikationsplan, der er angivet i meddelelsesindstillingerne for godkenderen. 
+> Notifikationer leveres i overensstemmelse med beskedindstillingerne for modtageren, ikke afsenderen. Dette er en vigtig forskel, fordi det betyder, at når en bruger anmoder om godkendelse som en del af en arbejdsproces, sendes deres anmodning ikke med det samme. Den leveres i stedet i overensstemmelse med godkendernes meddelelsesindstillinger. 
 
-Før du kan konfigurere en godkendelsesbrugers notifikationsindstillinger, skal du konfigurere brugeren som godkendelsesbruger. Du kan finde flere oplysninger i [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  
+ Før du kan konfigurere en godkendelsesbrugers notifikationsindstillinger, skal du konfigurere brugeren som godkendelsesbruger. Du kan finde flere oplysninger i [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  
 
-Du kan definere layoutet af e-mailmeddelelserne ved at tilpasse rapporten 1320, Notifikationsmail. Du kan finde flere oplysninger i [Oprette og ændre et brugerdefineret rapportlayouts](ui-how-create-custom-report-layout.md).  
+ Du kan definere layoutet af e-mailmeddelelserne ved at tilpasse rapporten 1320, Notifikationsmail. Du kan finde flere oplysninger i [Oprette og ændre et brugerdefineret rapportlayouts](ui-how-create-custom-report-layout.md).  
 
-> [!NOTE]
-> Hvis du vil bruge e-mail som beskedmetode, skal du konfigurere e-mail til både afsender og modtager i [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Konfigurere e-mail](admin-how-setup-email.md).
-
-## <a name="steps-in-workflows"></a>Trin i Workflowtrin 
-Mange trin i en godkendelsesarbejdsgang vedrører notifikationer til brugere om, at der er forekommet en hændelse, som de skal reagere på. I ét arbejdsgangstrin kan hændelsen f.eks. være, at bruger 1 anmoder om godkendelse af en ny post. Det relaterede svar er, at der er sendt en notifikation til bruger 2, godkenderen. På det næste trin i arbejdsgangen kan hændelsen være, at bruger 2 godkender posten. Det relaterede svar er, at er sendt en notifikation til bruger 3 om at starte en proces med den godkendte post. For trin i arbejdsgangen, der vedrører godkendelse, er hver notifikation knytet til en godkendelsespost. Du kan finde flere oplysninger i [Workflow](across-workflow.md).  
+ Mange trin i en godkendelsesarbejdsgang vedrører notifikationer til brugere om, at der er forekommet en hændelse, som de skal reagere på. I ét arbejdsgangstrin kan hændelsen f.eks. være, at bruger 1 anmoder om godkendelse af en ny post. Det relaterede svar er, at der er sendt en notifikation til bruger 2, godkenderen. På det næste trin i arbejdsgangen kan hændelsen være, at bruger 2 godkender posten. Det relaterede svar er, at er sendt en notifikation til bruger 3 om at starte en proces med den godkendte post. For trin i arbejdsgangen, der vedrører godkendelse, er hver notifikation knytet til en godkendelsespost. Du kan finde flere oplysninger i [Workflow](across-workflow.md).  
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Angive, hvornår og hvordan brugere modtager notifikationer  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Godkendelse af brugerkonfiguration**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugeropsætning af godkendelser**, og vælg derefter det relaterede link.  
 2.  Vælg linjen med den bruger, du vil konfigurere notifikationsindstillinger for, og vælg derefter handlingen **Konfiguration af notifikation**.  
 3.  På siden **Konfiguration af notifikation** skal du udfylde felterne som beskrevet i følgende tabel.  
 
-    > [!NOTE]
-    > Hvis du åbner siden med **Konfiguration af notifikation** fra siden **Brugeropsætning af godkendelser**, er notifikationsopsætningen knyttet til godkendelsesbrugeren. Godkendelsesbrugeren vil altid modtage beskeder om arbejdsgangen ifølge denne Notifikationsopsætning. Hvis du bruger Fortæl mig til at åbne siden **Notifikationsopsætning**, vil notifikationsopsætningen gælde for alle brugere.  
-
-    |Felt|Beskrivlse|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Notifikationstype**|Angiv, hvilken type hændelse notifikationen drejer sig om.<br /><br /> Vælg en af følgende indstillinger:<br /><br /> -   **Ny post** angiver, at notifikationen drejer sig om en ny post, f.eks. et dokument, som brugeren skal reagere på.<br />-   **Godkendelse** angiver, at notifikationen drejer sig om en eller flere godkendelsesanmodninger.<br />-   **Forfalden** angiver, at notifikationen skal bruges til at minde brugerne om, at fristen for at reagere på en hændelse er overskredet.|  
     |**Notifikationsmetode**|Angiv, om notifikationen er en mail eller en intern note.|
@@ -75,6 +66,3 @@ Mange trin i en godkendelsesarbejdsgang vedrører notifikationer til brugere om,
  [Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)   
  [Opsætte workflows](across-set-up-workflows.md)   
  [Anvende workflows](across-use-workflows.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

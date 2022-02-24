@@ -1,88 +1,61 @@
 ---
-title: Visning og redigering i Excel fra Business Central (indeholder video)
+title: Visning og redigering i Excel fra Business Central | Microsoft Docs
 description: Få mere at vide om, hvordan du kan åbne siderne i Microsoft Excel fra Business Central for at få en bedre dataanalyse.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 7800eb9d9852e8cc13eed26ce3e42fa318f7e185
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 2c6600ac7fe9f6e0aa44554883209039faabbd99
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940247"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187504"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Visning og redigering i Excel fra Business Central
 
-Med sider, der viser en liste over poster i rækker og kolonner, f.eks. en liste over debitorer, salgsordrer eller fakturaer, kan du eksportere lisen til Microsoft Excel og vise den her. Afhængigt af siden har du to muligheder for at få vist i Excel. Begge muligheder er tilgængelige fra **Del**-ikonet ![Del en side i en anden app.](media/share-icon.png) øverst på siden. Du kan vælge enten handlingen **Åbn i Excel** eller handlingen **Rediger i Excel** på siden. I denne artikel forklares forskellene mellem de to handlinger.
+Med sider, der viser en liste over poster i rækker og kolonner, f.eks. en liste over debitorer, salgsordrer eller fakturaer, kan du også få vist posterne ved hjælp af Microsoft Excel. Du har to muligheder for at gøre dette. Du kan vælge enten handlingen **Åbn i Excel** eller handlingen **Rediger i Excel** på siden. Forskellen på de to handlinger er følgende:  
 
 ## <a name="open-in-excel"></a>Åbn i Excel
 
-Med handlingen **Åbn i Excel** kan du foretage ændringer af posterne i Excel, men du kan ikke udgive ændringerne igen [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan kun gemme ændringerne i Excel-filen, uden at det påvirker data i [!INCLUDE[prod_short](includes/prod_short.md)].
+- Med denne handling respekterer Excel eventuelle filtre på siden, som begrænser, hvilke poster der vises. Det betyder, at Excel-projektmappen indeholder de samme rækker og kolonner, der vises på siden i [!INCLUDE[prodshort](includes/prodshort.md)].
 
-- Med denne handling respekterer Excel eventuelle filtre på siden, som begrænser, hvilke poster der vises. Excel-projektmappen indeholder de samme rækker og kolonner, der vises på siden i [!INCLUDE[prod_short](includes/prod_short.md)].
+- Du kan foretage ændringer af posterne i Excel, men du kan ikke publicere ændringerne tilbage til [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan kun gemme ændringerne til en Excel-fil på computeren.
 
 - Denne handling fungerer både på Windows og macOS.
 
-- Fra og med opdatering 18,3 kan du også få vist lister, der vises i Sidedele, f. eks. linjerne i en salgsordre. 
-
 > [!NOTE]
-> For [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø er handlingen **Åbn i Excel** tilgængelig som standard. Men hvis du konfigurerer [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø til redigering af data i Excel, erstattes handlingen **Åbn i Excel** med handlingen **Rediger i Excel**.
-
-[!INCLUDE [send-report-excel](includes/send-report-excel.md)]  
+> For [!INCLUDE[prodshort](includes/prodshort.md)] i det lokale miljø er handlingen **Åbn i Excel** tilgængelig som standard. Men hvis du konfigurerer [!INCLUDE [prodshort](includes/prodshort.md)] i det lokale miljø til redigering af data i Excel, erstattes handlingen **Åbn i Excel** med handlingen **Rediger i Excel**.
 
 ## <a name="edit-in-excel"></a>Rediger i Excel
 
-Handlingen **Rediger i Excel** er tilgængelig på de fleste lister, men ikke for alle. Med handlingen **Rediger i Excel** kan du foretage ændringer af posterne i Excel, men du kan ikke udgive ændringerne igen [!INCLUDE[prod_short](includes/prod_short.md)]. Når Excel åbnes, vises ruden **Excel-Tilføjelsesprogrammet** til højre.
+- Med denne handling respekterer Excel de fleste filtre på siden, som begrænser, hvilke poster der vises. Det betyder, at Excel-projektmappen indeholder næsten de samme poster og kolonner.
 
-- Med denne handling respekterer Excel de fleste filtre på siden, der begrænser de viste poster, så Excel-projektmappen indeholder næsten de samme poster og kolonner.
+- Fordelen ved handlingen **Rediger i Excel** er, at du kan ændre poster i Excel og derefter publicere ændringerne tilbage til [!INCLUDE[prodshort](includes/prodshort.md)].
 
-- Hvis du vil hente de nyeste data fra [!INCLUDE[prod_short](includes/prod_short.md)], skal du vælge **Opdater** i ruden Excel-Tilføjelsesprogrammet.
+- Det fungerer kun i Windows, ikke i macOS.
 
-- Du kan skifte den virksomhed, du arbejder med. Hvis du vil skifte regnskab, skal du vælge **ikonet indstillinger for** ![Excel-Tilføjelsesprogrammet.](media/cogwheel.png "Valgmuligheder for Excel-tilføjelsesprogrammet") I Excel-tilføjelses ruden skal du vælge regnskabet fra feltet **virksomhed**.  
+- Du kan skifte den virksomhed, du arbejder med. Du kan gøre dette ved at vælge ikonet **Valgmuligheder** ![Valgmuligheder for Excel-tilføjelsesprogram](media/cogwheel.png "Valgmuligheder for Excel-tilføjelsesprogrammet") i ruden Excel-tilføjelsesprogram og derefter vælge virksomheden i feltet **Virksomhed**. 
 
     > [!IMPORTANT]
     > Når du skifter virksomhed, skal du sikre, at feltet **Miljø** ikke er tomt. Hvis det er, skal du angive det som en af de tilgængelige indstillinger. Ellers fungerer tilføjelsesprogrammet ikke korrekt.  
 
-Hvis du foretager ændringer af tilføjelsesprogrammet, skal du genindlæse det for at opdatere forbindelsen. Hvis du vil genindlæse, skal du bruge ![menuen Excel-tilføjelsesprogram](media/excel-addin-menu.png "Menuen Excel-tilføjelsesprogram") i øverste højre hjørne af tilføjelsesprogrammet. Hvis du ikke kan indlæse tilføjelsesprogrammet, skal du tale med administratoren. Hvis du er administrator, skal du se [Hent Excel-tilføjelsesprogrammet til redigering af Business Central](admin-deploy-excel-addin.md).
+Excel-Tilføjelsesprogrammet er udvidet i 2019-udgivelsesbølge 2. Du kan finde flere oplysninger [Forbedringer af Excel-integration](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)af Excel.
 
 > [!NOTE]
-> Tilføjelsesprogrammet fungerer sammen med Excel til Web (online) fra enhver enhed, så blot som brug af en understøttet webbrowser. Den fungerer også sammen med Excel-appen til Windows (PC) - men ikke til macOS.
->
-> For [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø er handlingen **Rediger i Excel** kun tilgængelig, hvis Excel-tilføjelsesprogrammet er konfigureret af administratoren, og kun tilgængelig til webklienten. Til administratorer, hvis du vil vide, hvordan du installerer Excel-tilføjelsesprogrammet, skal du se [Konfigurere Excel-tilføjelsesprogrammet til redigering af Business Central-data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
+> For [!INCLUDE[prodshort](includes/prodshort.md)] i det lokale miljø er handlingen **Rediger i Excel** kun tilgængelig, hvis Excel-tilføjelsesprogrammet er konfigureret af administratoren, og kun tilgængelig til webklienten. Til administratorer, hvis du vil vide, hvordan du installerer Excel-tilføjelsesprogrammet, skal du se [Konfigurere Excel-tilføjelsesprogrammet til redigering af Business Central-data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin). For [!INCLUDE[prodshort](includes/prodshort.md)] i det lokale miljø.
 
-
-<!-- Note for later: here we're immediately jumping to pretty advanced topics like changing company or reloading the addin. Fine to keep them for now. In the future, we will first need to explain in more detail the actual functionality of the addin, primarily these sub-sections:
-
-Refreshing record data in Excel
-Editing and publishing back to Business Central
-Creating new records from Excel
-Crafting your own editable Excel.
-Point (4) is where it gets interesting for changing/specifying company, environment and other connection settings-->
-
-### <a name="first-time-sign-in"></a>Log på første gang
-
-Handlingen **Rediger i Excel** kræver, at det Business Central-tilføjelsesprogram er installeret i Excel. Det kan ske, at din administrator har konfigureret, at tilføjelsesprogrammet automatisk bliver installeret. I dette tilfælde skal du blot logge på Business central i **Excel-Tilføjelsesprogram** med dit brugernavn og din adgangskode. Hvis du ikke gør det, åbnes **Nyt Office-tilføjelsesprogram**. Hvis du vil installere tilføjelsesprogrammet, skal du vælge **Hav tillid til tilføjelsesprogrammet**, som vil installere tilføjelsesprogrammet direkte fra Office store.
-
-Hvis tilføjelsesprogrammet af en eller anden grund ikke installeres, skal du kontakte administratoren eller prøve at installere det manuelt. Du kan finde flere oplysninger i [installere tilføjelsesprogrammet manuelt til eget brug](admin-deploy-excel-addin.md#install).
-
-## <a name="see-the-differences-between-the-options"></a>Se forskellene mellem indstillingerne
+### <a name="see-the-differences-between-the-options"></a>Se forskellene mellem indstillingerne
 <br><br>  
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
-
-[Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md)  
 [Arbejde med Business Central](ui-work-product.md)  
-[Forbedringer af Excel-integration i frigivelsesbølge 2 i 2019](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Designoplysninger - Afstemning mellem behov og forsyning
-description: Det er nødvendigt at forstå de prioriterede mål i planlægningssystemet for at forstå, hvordan systemet fungerer ved at afstemme forsyninger med behov.
+title: Designoplysninger – Afstemning af efterspørgsel og udbud | Microsoft Docs
+description: Det er nødvendigt at forstå de prioriterede mål i planlægningssystemet for at forstå, hvordan systemet fungerer, og de vigtigste af disse er at sikre, at enhver efterspørgsel opfyldes at et tilstrækkeligt udbud, og at ethvert udbud tjener et formål.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 8ff08e03196aac03a9e57519f47a37e284e8c9ff
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: a1e55d983abae5f85807039da6dd4d846c3e40b3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442506"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185704"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designoplysninger: Afstemning mellem behov og forsyning
 Det er nødvendigt at forstå de prioriterede mål i planlægningssystemet for at forstå, hvordan systemet fungerer, og de vigtigste er for at sikre, at:  
@@ -43,7 +43,7 @@ Det er nødvendigt at forstå de prioriterede mål i planlægningssystemet for a
 
    Formålet med planlægningsmekanismen er at opveje behovet og forsyningen af en vare for at sikre, at forsyning svarer til behov på en gennemførlig måde, som defineret af planlægningsparametre og -regler.  
 
-   ![Oversigt over overensstemmelse mellem udbud og efterspørgsel.](media/nav_app_supply_planning_2_balancing.png "Oversigt over overensstemmelse mellem udbud og efterspørgsel")
+   ![Oversigt over overensstemmelse mellem udbud og efterspørgsel](media/nav_app_supply_planning_2_balancing.png "Oversigt over overensstemmelse mellem udbud og efterspørgsel")
 
 ## <a name="dealing-with-orders-before-the-planning-starting-date"></a>Håndtering af ordrer før planlægningsstartdatoen
 For at undgå, at en forsyningsplan viser umulige og derfor ubrugelige forslag, anser planlægningssystemet perioden indtil den planlagte startdato for en frossen zone, hvor intet er planlagt. Følgende regel gælder for den frosne zone:  
@@ -291,6 +291,3 @@ Dette afslutter beskrivelserne af, hvordan behov og forsyning indlæses, priorit
  [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)   
  [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
  [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

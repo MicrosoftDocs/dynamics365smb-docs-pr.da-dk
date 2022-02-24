@@ -1,71 +1,45 @@
 ---
 title: Sådan konfigureres en dokumentudvekslingstjeneste | Microsoft Docs
 description: Du kan bruge en ekstern tjenesteudbyder til at udveksle elektroniske dokumenter med dine handelspartnere.
-author: bholtorf
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
-ms.author: edupont
-ms.openlocfilehash: eea1b946814803c1f05d5b4985d3c5330931fbc6
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 82ccc7bc9fc9aa09c9b403f9d5a31bfa25355e3e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588747"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188224"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Konfigurere en dokumentudvekslingstjeneste
-Som en del af data Exchange-programmet kan du udveksle salgs-og købsdokumenter med samhandelspartnere uden ekstra trin, f. eks. vedhæfte dokumenter til e-mailmeddelelser som PDF-filer. Når du er klar til at fakturere en kunde, kan du f. eks. bogføre fakturaen og sende den til betaling som en fil, som kunden kan modtage i virksomhedens forretnings styringsprogram. Du kan finde flere oplysninger i [Udveksle data elektronisk](across-data-exchange.md).
+Du kan bruge en ekstern tjenesteudbyder til at udveksle elektroniske dokumenter med dine handelspartnere. Du kan finde flere oplysninger under [Udveksle data elektronisk](across-data-exchange.md).  
 
-> [!NOTE]
-> Oprettelse af en dokumentudvekslingsservice for Business Central-lokalt kræver nogle yderligere trin til godkendelse. Du kan finde flere oplysninger i [Indstillinger til Business Central lokalt](#settings-for-business-central-on-premises).
-
-## <a name="connecting-with-trading-partners"></a>Oprette forbindelse til handelspartnere
-At udveksle elektroniske dokumenter kræver en forbindelse til samhandelspartnere. Hvis du vil gøre det nemmere at oprette en sikker forbindelse, er [!INCLUDE[prod_short](includes/prod_short.md)]-online konfigureret til at bruge appen Business central integration. Appen er tilgængelig på Tradeshift-app-lageret, og alle dig og dine forretningspartnere skal gøre sig for at oprette en Tradeshift-konto og derefter aktivere appen. Business central integration-appen leveres i produktions-og sandkasseversioner. Hvis du f. eks. bruger sandkasseversionen er god til at teste dokumentudvekslingen. Du kan skifte mellem produktions-og sandkasse versioner ved at slå **sandkasse** til/fra på siden **Opsætning af dok.udv.tjen.**. Når du gør det, opdateres oplysningerne i oversigtspanelet **Tjeneste** for dig.
-
-Hvis du vil bruge en anden tjeneste, skal du angive oplysninger for at oprette forbindelsen. Du kan finde flere oplysninger i [Tilslutte til en dokumentudvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md#to-connect-to-a-document-exchange-service).
-
-## <a name="to-connect-to-the-business-central-integration-app-on-tradeshift"></a>Sådan oprettes der forbindelse til appen Business central integration på Tradeshift
-Du kan hurtigt oprette en Tradeshift-konto og komme i gang med appen Business central integration fra siden **Opsætning af dok.udv.tjen.**. Vælg enten linket **Aktiver app** i meddelelses- eller **app-URL-adresse** for at gå til appen i Tradeshift-app-lageret. På siden logon til Tradeshift skal du enten logge på eller logge på.
-
-> [!NOTE]
-> Når du har logget på din Tradeshift konto, kommer webstedet muligvis ikke til den side, hvor du aktiverede app'en. Hvis du vil gøre det, skal du klikke på linket på siden **Opsætning af dok.udv.tjen.** i Business central igen for at gå direkte til appen.
-
-Hvis du ikke længere vil bruge appen Business central integration, skal du deaktivere den i Tradeshift app store. 
-
-## <a name="to-connect-to-a-document-exchange-service"></a>Tilslutte til en dokumentudvekslingstjeneste  
-Hvis du foretrækker at bruge en anden dokumentudvekslingstjeneste, skal du angive nogle oplysninger for at oprette forbindelse til tjenesten.
-
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Dokumentudvekslingstjeneste**, og vælg derefter det relaterede link.  
+## <a name="to-set-up-a-document-exchange-service"></a>Sådan konfigureres en dokumentudvekslingstjeneste  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af dok.udv.tjen.**, og vælg derefter det relaterede link.  
 2. Udfyld felterne som beskrevet i følgende tabel.  
 
-    |Felt|Beskrivlse|  
+    |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Brugeragent**|Skriv en tekst, der kan bruges til at identificere din virksomhed i dokumentudvekslingsprocesser.|  
-    |**Aktiveret**|Angiv, om forbindelsen til servicen er aktiveret.<br><br> **Bemærk:**  Når du har aktiveret tjenesten, oprettes der mindst to opgavekøposter til at sende og modtage elektroniske dokumenter. Når du deaktiverer tjenesten, slettes posterne i opgavekøen.|  
-    |**Sandkasse**|Angiv, om du opretter forbindelse til en sandkasse version af dokumentudvekslingstjeneste.|
+    |**Lejer-id for dok.udv.**|Angiv lejeren i dokumentudvekslingstjenesten, der repræsenterer din virksomhed. Den leveres af udbyderen af dokumentudvekslingstjenesten.|  
+    |**Aktiveret**|Angiv, om tjenesten er aktiveret. **Bemærk:** Når du har aktiveret tjenesten, oprettes der mindst to opgavekøposter til behandling af den elektroniske dokumenttrafik ind og ud af [!INCLUDE[d365fin](includes/d365fin_md.md)]. Når du deaktiverer tjenesten, slettes posterne i opgavekøen.|  
     |**URL-adresse til tilmelding**|Angiv den webside, hvor du tilmelder dig dokumentudvekslingstjenesten.|  
-    |**App-URL**|Vælg dette link for at åbne app store, og slå appen Business Central-integration til og fra.|
     |**URL-adresse for tjeneste**|Angiv adressen på den dokumentudvekslingstjeneste, som bliver kaldt, når du sender og modtager elektroniske dokumenter.|  
-    |**Log på URL**|Angiv URL for den webside, hvor du tilmelder dig dokumentudvekslingstjenesten. Det er denne side, hvor du angiver virksomhedens brugernavn og adgangskode.|  
-    
+    |**URL-adresse til logon**|Angiv logonsiden for dokumentudvekslingstjenesten, hvor du angiver virksomhedens brugernavn og adgangskode for at logge på tjenesten.|  
+    |**Forbrugernøgle**|Angiv trebenede OAuth-nøgle til forbrugernøglen. Den leveres af udbyderen af dokumentudvekslingstjenesten.|  
+    |**Forbrugerhemmelighed**|Angiv den hemmelighed, der beskytter forbrugernøglen. Den leveres af udbyderen af dokumentudvekslingstjenesten.|  
+    |**Token**|Angiv den trebenede OAuth-nøgle for tokenet. Den leveres af udbyderen af dokumentudvekslingstjenesten.|  
+    |**Tokenhemmelighed**|Angiv den hemmelighed, der beskytter tokenet. Den leveres af udbyderen af dokumentudvekslingstjenesten.|  
+
     > [!NOTE]  
-    > Logonoplysningerne krypteres automatisk. Du kan ikke deaktivere denne kryptering.
-
-    > [!NOTE]
-    > Hvis du ikke kan oprette forbindelse til dokument bytte tjenesten pga. et godkendelses problem, kan det skyldes, at [!INCLUDE[prod_short](includes/prod_short.md)] ikke automatisk kan forny adgangs-token. Dette kan f. eks. forekomme, hvis du ikke har brugt tjenesten i nogen tid. Du kan forny tokenet manuelt vha. handlingen **Forny token**.
-
-## <a name="settings-for-business-central-on-premises"></a>Indstillinger for Business Central lokalt
-Hvis du vil forbinde Business Central lokalt, skal du oprette en app på Tradeshift-app-lageret. Når du gør det, skal du bruge URL-adressen til omdirigering fra feltet **URL-adresse til omdirigering** på siden **Opsætning af Dokumentudvekslingstjeneste**. Når du har registreret din app, vil Tradeshift levere et klient-ID og en klienthemmelighed. I [!INCLUDE[prod_short](includes/prod_short.md)] skal du angive værdierne i oversigtspanelet **godkendelse** på siden **Opsætning af Dokumentudvekslingstjeneste**.
-
-Hvis du foretrækker at gemme app-id'et og hemmeligheden et andet sted, kan du lade felterne Klient-id og Klienthemmelighed være tomme og skrive en udvidelse for at hente id'et og hemmeligheden fra placeringen. Du kan levere hemmeligheden på kørselstidspunktet ved at abonnere på hændelserne OnGetClientId og OnGetClientSecret i codeunit 1410 "Doc. Exch. Service Mgt."
+    > Dine logondata krypteres automatisk.
 
 ## <a name="see-also"></a>Se også  
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  
 [Udveksle data elektronisk](across-data-exchange.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,25 +1,26 @@
 ---
-title: Justere mængden af detaljer, der vises på lister
+title: Justere mængden af detaljer, der vises på lister | Microsoft Docs
 description: Du kan få vist lister som detaljerede rækker med de fleste oplysninger eller som felter, der er lette at løbe igennem, og som kan indeholde miniaturebilleder.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalization
-ms.search.form: 31
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: fcd046027cb8646da72182aba1320b165c00c020
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 4d97afb002ddce4306ffa7238a4fb362f9e26158
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012126"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188760"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Få vist lister på forskellige måder
-I højre hjørne af en vilkårlig liste i [!INCLUDE[prod_short](includes/prod_short.md)] findes ikoner, som du kan bruge til at vælge, hvordan listen med poster skal vises. En liste kan vises som detaljerede rækker, hvilket er ideelt, når du skal arbejde med mange felter eller redigere felter på listen. Men du kan også vælge at få vist poster som felter, hvilket er mere kompakt og viser færre felter i den pågældende post. Dette er nyttigt, når du vil have et overblik over flere poster, og er især nyttig på mindre enheder, fordi visningen er kompakt, og det er nemmere at trykke på posterne.
+I højre hjørne af en vilkårlig liste i [!INCLUDE[d365fin](includes/d365fin_md.md)] findes ikoner, som du kan bruge til at vælge, hvordan listen med poster skal vises. En liste kan vises som detaljerede rækker, hvilket er ideelt, når du skal arbejde med mange felter eller redigere felter på listen. Men du kan også vælge at få vist poster som felter, hvilket er mere kompakt og viser færre felter i den pågældende post. Dette er nyttigt, når du vil have et overblik over flere poster, og er især nyttig på mindre enheder, fordi visningen er kompakt, og det er nemmere at trykke på posterne.
 
 ## <a name="item-list"></a>Vareoversigt
 På siden **Varer** er det en fordel af have billeder, så du kan få et hurtigt overblik over, hvad du sælger, og når du skifter til feltvisning, får du et varekatalog, som du kan gennemse. Når lister indeholder billeder, f.eks. siden **Varer**, har du en tredje mulighed, nemlig visning som store felter. Der vises store billeder for hver post, men kun få felter.
@@ -27,8 +28,5 @@ På siden **Varer** er det en fordel af have billeder, så du kan få et hurtigt
 Du kan importere billeder af varer enten med et for et eller af flere varer på én gang. Du kan finde flere oplysninger i [Importér flere varebilleder](inventory-how-import-item-pictures.md).  
 
 ## <a name="see-also"></a>Se også
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Registrere nye varer](inventory-how-register-new-items.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

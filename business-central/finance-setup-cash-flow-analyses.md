@@ -1,22 +1,23 @@
 ---
-title: Opsætning af pengestrømsanalyse (indeholder video)
+title: Opsætning af pengestrømsanalyse | Microsoft Docs
 description: Opret diagrammerne i rollecenteret Konti for at analysere pengestrømmen i virksomheden, herunder udgifter og indtægter, likviditet og indbetalinger minus kontantbetalinger.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.search.form: 846, 847, 849, 855, 862, 869, 1818
-ms.date: 06/16/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 9f73cca7a4b88d051567d2f9f86806dac32f4ffa
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 7ac0630857eb775a904e2bbf5d4a21a89efb73c8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973384"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182800"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Opsætning af pengestrømsanalyse
 Hvis du vil have hjælp til at beslutte, hvad du skal gøre med dine likvide midler, kan du få et overblik vha. diagrammerne i rollecenteret Regnskabsmedarbejder:  
@@ -60,7 +61,7 @@ Du konfigurerer dem ved at søge efter **pengestrømskonti**, vælge linket og d
 ## <a name="set-up-cash-flow-forecasts"></a>Konfigurere pengestrømsprognoser
 Diagrammet **Pengestrømsprognose** bruger pengestrømskonti, pengestrømsopsætninger og pengestrømsbudgetter. Nogle får du leveret, men du kan oprette dine egne ved hjælp af en assisteret opsætningsvejledning. Vejledningen hjælper dig med f.eks. at angive, hvor ofte prognosen skal opdateres, de konti, den skal baseres på, oplysninger om, hvornår du betaler skatter, og om du skal aktivere [Azure AI](https://azure.microsoft.com/overview/ai-platform/).  
 
-Pengestrømsprognoser kan bruge Azure AI til at forudsige fremtidige dokumenter. Resultatet er en mere omfattende prognose. Forbindelsen til Azure AI allerede konfigureret for dig. Du skal blot aktivere den. Når du logger på [!INCLUDE[prod_short](includes/prod_short.md)], vises en meddelelse i en blå linje med et link til standardpengestrømsopsætningen. Meddelelsen vises kun én gang. Hvis du lukker den, men beslutter at aktivere Azure AI, kan du bruge den assisterende opsætningsvejledning eller en manuel fremgangsmåde.  
+Pengestrømsprognoser kan bruge Azure AI til at forudsige fremtidige dokumenter. Resultatet er en mere omfattende prognose. Forbindelsen til Azure AI allerede konfigureret for dig. Du skal blot aktivere den. Når du logger på [!INCLUDE[d365fin](includes/d365fin_md.md)], vises en meddelelse i en blå linje med et link til standardpengestrømsopsætningen. Meddelelsen vises kun én gang. Hvis du lukker den, men beslutter at aktivere Azure AI, kan du bruge den assisterende opsætningsvejledning eller en manuel fremgangsmåde.  
 
 > [!NOTE]  
 >   Du kan også vælge at bruge din egen prognosewebtjeneste. Du kan finde flere oplysninger i [Oprette og bruge din egen prognosewebtjeneste til pengestrømsprognoser](#AnchorText).  
@@ -69,21 +70,21 @@ Sådan bruges den assisterede opsætningsvejledning:
 
 1. I rollecenteret Regnskabsmedarbejder under diagrammet **Pengestrømsprognose** skal du klikke på handlingen **Åbn assisteret opsætning**.  
 2. Udfyld felterne i hvert trin i vejledningen.  
-3. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pengestrømsprognoser**, og vælg derefter det relaterede link.
+3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pengestrømsprognose**, og vælg derefter det relaterede link.
 4. På siden **Pengestrømsprognose** skal du vælge handlingen **Genberegn prognose**.  
 
 Sådan bruges en manuel proces:  
 
 1. I rollecenteret Regnskabsmedarbejder skal du søge efter **Pengestrømskonfiguration** og derefter vælge det relaterede link.  
 2. Udvid oversigtspanelet **Azure AI**, og marker derefter afkrydsningsfeltet **Azure AI aktiveret**.  
-3. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pengestrømsprognoser**, og vælg derefter det relaterede link.
+3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Pengestrømsprognose**, og vælg derefter det relaterede link.
 4. På siden **Pengestrømsprognose** skal du vælge handlingen **Genberegn prognose**.  
 
 > [!TIP]  
 >   Overvej længden på de perioder, som tjenesten skal bruge i beregningerne. Jo flere data du angiver, desto mere nøjagtige forudsigelser får du. Hold også øje med store variationer mellem perioderne. De kan også påvirke forudsigelserne. Hvis Azure AI ikke finder nok data, eller dataene varierer meget, opretter tjenesten ikke en forudsigelse.  
 
 ## <a name="design-details"></a>Designoplysninger
-Abonnementer på [!INCLUDE[prod_short](includes/prod_short.md)] giver adgang til flere prognosewebtjenester i alle områder, hvor [!INCLUDE[prod_short](includes/prod_short.md)] er tilgængelig. Du kan få flere oplysninger i Licensvejledning til Microsoft Dynamics 365 Business Central. Denne vejledning kan hentes på webstedet for [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/). 
+Abonnementer på [!INCLUDE[d365fin](includes/d365fin_md.md)] giver adgang til flere prognosewebtjenester i alle områder, hvor [!INCLUDE[d365fin](includes/d365fin_md.md)] er tilgængelig. Du kan få flere oplysninger i Licensvejledning til Microsoft Dynamics 365 Business Central. Denne vejledning kan hentes på webstedet for [Business Central](https://dynamics.microsoft.com/en-us/business-central/overview/). 
 
 Disse webtjenester har ingen status, hvilket betyder, at de kun bruger data til at beregne forudsigelser efter behov. De gemmer ikke data.
 
@@ -98,21 +99,21 @@ Felterne **Forfaldsdato** og **Beløb (RV)** på siden **Debitorposter**, hvor:
 - Dokumenttypen er faktura eller kreditnota.
 - Forfaldsdatoen er mellem den dato, der beregnes på grundlag af værdierne i felterne **Historiske perioder** og **Periodetype** på siden **Pengestrømskonfiguration** og arbejdsdatoen.
 
-Før du bruger prognosewebtjenesten, komprimerer [!INCLUDE[prod_short](includes/prod_short.md)] transaktioner efter **Forfaldsdato** baseret på værdien i feltet **Periodetype** på siden **Pengestrømskonfiguration**.
+Før du bruger prognosewebtjenesten, komprimerer [!INCLUDE[d365fin](includes/d365fin_md.md)] transaktioner efter **Forfaldsdato** baseret på værdien i feltet **Periodetype** på siden **Pengestrømskonfiguration**.
 
 #### <a name="payables"></a>Skyldige beløb:
 Felterne **Forfaldsdato** og **Beløb (RV)** på siden **Kreditorposter**, hvor:
 - Dokumenttypen er "Faktura" eller "Kreditnota".
 - Forfaldsdatoen er mellem den dato, der beregnes på grundlag af værdierne i felterne **Historiske perioder** og **Periodetype** på siden **Pengestrømskonfiguration** og arbejdsdatoen.
 
-Før du bruger prognosewebtjenesten, komprimerer [!INCLUDE[prod_short](includes/prod_short.md)] transaktioner efter **Forfaldsdato** baseret på værdien i feltet **Periodetype** på siden **Pengestrømskonfiguration**.
+Før du bruger prognosewebtjenesten, komprimerer [!INCLUDE[d365fin](includes/d365fin_md.md)] transaktioner efter **Forfaldsdato** baseret på værdien i feltet **Periodetype** på siden **Pengestrømskonfiguration**.
 
 #### <a name="tax"></a>Skat:
 Felterne **Dokumentdato** og **Beløb** på siden **Momsvareposter (skat)**, hvor:
 - Dokumenttypen er "salg".
 - Dokumentdatoen er mellem den dato, der beregnes på grundlag af værdierne i felterne **Historiske perioder** og **Periodetype** på siden **Pengestrømskonfiguration** og arbejdsdatoen.
 
-Før du bruger prognosewebtjenesten, komprimerer [!INCLUDE[prod_short](includes/prod_short.md)] transaktioner efter **Dokumentdato** baseret på værdien i feltet **Periodetype** på siden **Pengestrømskonfiguration**.
+Før du bruger prognosewebtjenesten, komprimerer [!INCLUDE[d365fin](includes/d365fin_md.md)] transaktioner efter **Dokumentdato** baseret på værdien i feltet **Periodetype** på siden **Pengestrømskonfiguration**.
 
 ## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"> </a>Oprette og bruge din egen prognosewebtjeneste til pengestrømsprognoser.
 Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model med navnet **Prognosemodel til Microsoft Business Central**. Denne prognosemodel er tilgængelig online i Azure AI-galleriet. Sådan bruges modellen:  
@@ -122,16 +123,12 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 3. Brug din Microsoft-konto til at tilmelde dig et arbejdsområde og derefter kopiere modellen.  
 4. Kør modellen, og udgiv den som en webtjeneste.  
 5. Notér URL-adressen for API og API-nøglen. Du skal bruge disse legitimationsoplysninger til en pengestrømsopsætning.  
-6. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pengestrømsopsætning**, og vælg derefter det relaterede link.  
+6. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af pengestrøm**, og vælg derefter det relaterede link.  
 7. Udvid oversigtspanelet **Azure AI**, og udfyld derefter felterne.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
-
 [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

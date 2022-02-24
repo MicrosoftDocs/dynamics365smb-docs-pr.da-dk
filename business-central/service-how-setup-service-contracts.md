@@ -1,21 +1,21 @@
 ---
-title: Opsætte servicekontrakter
-description: Få mere at vide om, hvordan du kan definere servicekontrakter med nødvendige forudsætninger, herunder servicekontraktgrupper, kontraktskabeloner og kundeskabeloner.
+title: Konfigurere servicekontrakter | Microsoft Docs
+description: Få at vide, hvordan du definerer servicekontrakter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 65bee9492ebf24eb90ef8b22025a09e36d3602fa
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 96928809525ef07ee82725bad5dd7f6ac4b7a6e0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436572"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877347"
 ---
 # <a name="set-up-service-contracts"></a>Opsætte servicekontrakter
 Før du kan arbejde med kontrakter, skal du angive følgende: 
@@ -23,22 +23,22 @@ Før du kan arbejde med kontrakter, skal du angive følgende:
 * **Servicekontraktgrupper**, som samler servicekontrakter, der på en eller anden måde er indbyrdes relateret.
 * **Servicekontraktkontogrupper**, der bruges til at gruppere servicekontraktkonti for servicefakturaer, der er oprettet til servicekontrakter. Du tildeler disse grupper til servicekontrakter.  
 * **Kontraktskabeloner**, som definerer kontraktlayout for kontrakter, der indeholder de mest almindeligt anvendte detaljer i servicekontrakter. Når du opretter servicekontrakttilbud, kan du gøre det ved at bruge skabeloner. Når du opretter et kontrakttilbud, indeholder felterne automatisk indholdet af skabelonfelterne.
-* **Debitorskabeloner**, så du kan oprette tilbud til kontakter eller potentielle kunder, der ikke er registreret som debitorer i [!INCLUDE[prod_short](includes/prod_short.md)].  
+* **Debitorskabeloner**, så du kan oprette tilbud til kontakter eller potentielle kunder, der ikke er registreret som debitorer i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Sådan defineres servicekontraktgrupper  
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Servicekontraktgrupper**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicekontraktgrupper**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Marker afkrydsningsfeltet **Kun rabat på kontraktordrer**, hvis kontrakt- eller servicerabatter kun skal være gyldige for kontraktserviceordrer, f.eks. vedligeholdelse.  
 
 ## <a name="to-set-up-a-service-contract-account-group"></a>Sådan oprettes servicekontraktkontogrupper  
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Servicekontraktkontogrupper**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicekontraktkontogrupper**, og vælg derefter det relaterede link.  
 2. Opret en ny servicekontraktkontogruppe.   
 3. Udfyld felterne **Kode** og **Beskrivelse**. Disse felter beskriver servicekontogruppen.  
 4. Udfyld feltet **Ikkeforudbet. kontraktkonto**, og vælg finanskontonummeret for den ikke forudbetalte konto.  
 5. I feltet **Forudbet. kontraktkonto** skal du vælge finanskontonummeret for den forudbetalte konto.  
 
 ## <a name="to-set-up-a-contract-template"></a>Sådan oprettes kontraktskabeloner  
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Servicekontraktskabeloner**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Skabeloner til servicekontrakt**, og vælg derefter det relaterede link.  
 2. Opret en ny servicekontraktskabelon.  
 3. I feltet **Nummer** skal du skrive et nummer til kontraktskabelonen.  
   
@@ -48,7 +48,7 @@ Før du kan arbejde med kontrakter, skal du angive følgende:
 5. Vælg handlingen **Servicerabatter** for at tilføje kontraktrabatter.  
 
 ## <a name="to-set-up-a-customer-template"></a>Sådan oprettes debitorskabeloner  
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Debitorskabeloner**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorskabeloner**, og vælg derefter det relaterede link.  
 2. Opret et nyt debitorskabelonkort.  
 3. I oversigtspanelet **Generelt** skal du skrive en kode og en beskrivelse til debitorskabelonen i henholdsvis feltet **Kode** og **Beskrivelse**. 
 4. Du kan definere søgekriterier ved at udfylde de øvrige felter, f.eks. **Lande-/områdekode**, **Distriktskode** og **Sprogkode**.  
@@ -56,5 +56,3 @@ Før du kan arbejde med kontrakter, skal du angive følgende:
 
 ## <a name="see-also"></a>Se også
 [Konfigurere Service](service-setup-service.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

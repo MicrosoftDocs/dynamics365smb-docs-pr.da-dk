@@ -1,21 +1,21 @@
 ---
-title: Designdetaljer - Bogføringsstruktur for varesporing
-description: Få at vide, hvordan du bruger vareposter som den primære bærer af varesporingsnumre i bogføringsstruktur for varesporing.
+title: Designdetaljer – Bogføringsstruktur for varesporing | Microsoft Docs
+description: Få at vide, hvordan du bruger vareposter som den primære bærer af varesporingsnumre.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 186f4d88fe7fe2b772ec579727fd62d4985c0cf9
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 5fc178585579d4f4f8b253ecdb696964993e09c8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320335"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184984"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Designdetaljer: Bogføringsstruktur for varesporing
 Med henblik på at tilpasse lageromkostningsfunktionalitet og for at opnå en enklere og mere stabil løsning bruges vareposter som den primære bærer af varesporingsnumre.  
@@ -48,5 +48,3 @@ Kodeenhed 22 gentages via varesporingsnumrene og opdeler bogføringen i de respe
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Varesporing](design-details-item-tracking.md)   
 [Designoplysninger: Design af varesporing](design-details-item-tracking-design.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

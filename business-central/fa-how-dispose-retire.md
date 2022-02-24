@@ -1,22 +1,21 @@
 ---
-title: Afhænde eller lade anlæg udgå
-description: Når du sælger eller på anden måde afhænder et anlægsaktiv, skal salgsværdien bogføres for at beregne og registrere tab eller vinding.
+title: Afhænde eller lade anlæg udgå | Microsoft Docs
+description: Når du kasserer, sælger eller lader et anlægsaktiv udgå, skal du bogføre en salgsværdi.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.search.form: 5628, 5610, 5611
-ms.date: 06/15/2021
+ms.date: 06/04/2020
 ms.author: edupont
-ms.openlocfilehash: 1f3a593b96f311cf742fa4edf510d4b2e930b05d
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 29293e957617fea91c9a8e8b8c1f988b06104494
+ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029296"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435203"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Afhænde eller lade anlægsaktiver udgå
 
@@ -29,7 +28,7 @@ I følgende trin antages det, at du allerede har oprettet de relevante bogførin
 
 ## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a>Sådan bogføres et salg fra anlægskassekladden
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægskasseklader**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlægskasseklader**, og vælg derefter det relaterede link.  
 2. Opret en første kladdelinje, og udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. I feltet **Anlægsbogføringstype** skal du vælge **Salg**.  
 4. Vælg handlingen **Indsæt anlægsmodkonto**. Der oprettes en anden kladdelinje til den modkonto, der er oprettet til bogføring af salg.  
@@ -43,23 +42,19 @@ Hvis du sælger eller afhænder en del af et anlæg, skal du opdele anlægget, i
 ## <a name="to-view-disposal-ledger-entries"></a>Sådan får du vist salgsposter
 Når du sælger eller på anden måde afhænder et anlægsaktiv, skal salgsværdien bogføres i finansregnskabet, når du kan se resultatet.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsaktiver**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Anlæg**, og vælg derefter det relaterede link.  
 2. Vælg det anlægsaktiv, du vil have vist poster for, og vælg derefter handlingen **Afskrivningsprofiler**.  
 3. Vælg den afskrivningsprofil, du vil have vist poster for, og vælg derefter handlingen **Poster**.  
-4. Vælg en linje med **Salg** i feltet **Anlægsbogføringskategori**, og vælg derefter handlingen **Find poster**.  
-5. På siden **Find poster** skal du vælge finanspostlinjen og derefter vælge handlingen **Vis relaterede poster**.  
+4. Vælg en linje med **Salg** i feltet **Anlægsbogføringskategori**, og vælg derefter handlingen **Naviger**.  
+5. På siden **Naviger** skal du vælge finanspostlinjen og derefter vælge handlingen **Vis**.  
 
 Siden **Finansposter** åbnes, og du kan se de poster, som bogføringen af salget har resulteret i.  
 
 ## <a name="see-also"></a>Se også
 
 [Anlægsaktiver](fa-manage.md)  
-[Opsætning af anlægsaktiver](fa-setup.md)  
+[Opsætning af Anlægsaktiver](fa-setup.md)  
 [Sådan oprettes anlægsbogføringsgrupper](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 [Finans](finance.md)  
-[Blive køreklar](ui-get-ready-business.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Find poster](ui-find-entries.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Introduktion](product-get-started.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

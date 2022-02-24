@@ -1,30 +1,30 @@
 ---
-title: Regulere varepriser manuelt
-description: Du kan manuelt regulere lagerværdien for en vare ved hjælp af FIFO eller gennemsnitlige kostmetoder, f.eks., når varepriser ændres af andre årsager end transaktioner.
+title: Regulere varepriser manuelt | Microsoft Docs
+description: Du kan regulere lagerværdien for en vare ved hjælp af FIFO eller gennemsnitlige kostmetoder, f.eks., når varepriser ændres af andre årsager end transaktioner.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost adjustment, cost forwarding, costing method, inventory valuation, costing
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 7ed2e9ebad96d29c9fc2d73e426b6e37f577f9b9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 0650fcfddef87e9b96822e14c3cdc9b7b301b8f3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441214"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182344"
 ---
 # <a name="adjust-item-costs"></a>Regulere varepriser
 Kostprisen for en vare (lagerværdi), du køber og senere sælger, kan ændres i varens levetid, fordi f.eks. en fragtomkostning føjes til købsprisen, når du har solgt varen. Omkostningsregulering er især relevant i de situationer, hvor du sælger varer, inden du fakturerer købet af varerne. Hvis du altid vil kende den korrekte lagerværdi, skal varepriser regelmæssigt reguleres. Dette sikrer, at salgs- og indtjeningsstatistikkerne er opdateret, og at finansielle nøgletal er korrekte. Du kan finde flere oplysninger i [Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md).
 
 Som regel er værdien i feltet **Kostpris** på varekortet baseret på standardkostprisen for varer, der følger standardkostmetoden. For varer, der følger andre kostmetoder, baseres værdien på en beregning af lagerbeholdningen (fakturerede kostpriser og forventede kostpriser) divideret med varebeholdningen. Der er flere oplysninger i [Om kostværdi pr. enhed](inventory-how-adjust-item-costs.md#understanding-unit-cost-calculation).
 
-I [!INCLUDE[prod_short](includes/prod_short.md)] reguleres varepriser automatisk, hver gang der forekommer en lagertransaktion, f.eks. når du bogfører en købsfaktura for en vare.
+I [!INCLUDE[d365fin](includes/d365fin_md.md)] reguleres varepriser automatisk, hver gang der forekommer en lagertransaktion, f.eks. når du bogfører en købsfaktura for en vare.
 
 Du kan også bruge en funktion til at regulere omkostningerne for en eller flere varer manuelt. Dette er nyttigt, når du f.eks. ved, at varepriser er ændret af andre årsager end varetransaktioner.
 
@@ -37,7 +37,7 @@ Hvis du bruger kostmetoden Gennemsnit, beregnes en vares kostpris som den gennem
 Funktionen til regulering af kostpriser behandler kun de værdiposter, der endnu ikke er reguleret. Hvis der opstår en situation, hvor funktionen skal overføre ændrede indgående omkostninger til tilknyttede udgående poster, oprettes nye justeringsværdiposter, som er baseret på oplysningerne i de oprindelige værdiposter, men som indeholder justeringsbeløbet. Omkostningsreguleringsfunktionen bruger bogføringsdatoen for den oprindelige værdipost i justeringsposten, medmindre den dato er inden for en lukket lagerperiode. Hvis det er tilfældet, bruges startdatoen for den næste åbne lagerperiode. Hvis der ikke anvendes lagerperioder, er det datoen i feltet **Bogf. tilladt fra** på siden **Regnskabsopsætning**, der definerer, hvornår reguleringsposten bogføres.
 
 ## <a name="to-adjust-item-costs-manually"></a>Sådan reguleres varekostpriser manuelt
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **uster kostpris – Vareposter**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Juster kostpris - vareposter**, og vælg derefter det relaterede link.
 2. På siden **Reguler kostværdi - vareposter** skal du angive de varer, hvis omkostninger skal reguleres.
 3. Vælg knappen **OK**.
 
@@ -46,7 +46,7 @@ Hvis du skal rette købsprisen for en række varer, kan du bruge kørslen **Regu
 
  Kørslen bruges til at rette oplysningerne i feltet **Købspris** på varekortet. Felterne ændres på samme måde for alle varer eller for de valgte varer. Det sker, ved at værdien i feltet ganges med en reguleringsfaktor, som du angiver.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Reguler varepriser**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Reguler varepriser**, og vælg derefter det relaterede link.  
 2. Angiv, hvilket vare- eller lagervarekortfelt, du vil justere, i feltet **Reguler felt**.  
 3. Angiv den faktor, som værdien skal reguleres med i feltet **Ganges med**. Skriv for eksempel **1,5** for at forøge værdien med 50 %.  
 4. Angiv f.eks. filtre for at specificere, hvilke varer der skal behandles med kørslen i oversigtspanelet **Vare**.  
@@ -60,10 +60,10 @@ Som regel er værdien i feltet **Kostpris** på varekortet baseret på standardk
 ## <a name="unit-cost-calculation-for-purchases"></a>Beregne kostpris ved køb  
  Når du køber varer, overføres værdien i feltet **Sidste købspris** på varekortet altid til feltet **Købspris** på en købslinje eller til linjen Pris på en serviceartikelkladdelinje.  
 
- Det, du vælger i feltet **Kostmetode**, har indflydelse på, hvordan [!INCLUDE[prod_short](includes/prod_short.md)] beregner indholdet i felterne **Kostpris** på linjerne.  
+ Det, du vælger i feltet **Kostmetode**, har indflydelse på, hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner indholdet i felterne **Kostpris** på linjerne.  
 
 ### <a name="costing-method-fifo-lifo-specific-or-average"></a>Kostmetoden FIFO, LIFO, Serienummer eller Gennemsnit  
- [!INCLUDE[prod_short](includes/prod_short.md)] beregner indholdet af feltet **Kostpris RV** på købslinjen og indholdet af feltet **Kostpris** på serviceartikelkladdelinjen beregnes efter følgende formel:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner indholdet af feltet **Kostpris RV** på købslinjen og indholdet af feltet **Kostpris** på serviceartikelkladdelinjen beregnes efter følgende formel:  
 
  Kostpris (RV) = (Direkte kostpris - (Fakturarabatbeløb/Antal)) x (1 + Omkostningspct./100) + IPO-bidrag  
 
@@ -78,14 +78,11 @@ Som regel er værdien i feltet **Kostpris** på varekortet baseret på standardk
 ## <a name="unit-cost-calculation-for-sales"></a>Beregne kostpris ved salg  
  Når du sælger varer, overføres kostprisen altid fra feltet Kostpris på varekortet til salgslinjen eller serviceartikelkladdelinjen.  
 
- Når du bogfører overføres kostprisen til salgsfakturaposten, og den kan ses på varens postoversigt. [!INCLUDE[prod_short](includes/prod_short.md)] bruger kostprisen fra kildedokumentlinjen til beregne indholdet af feltet **Kostbeløb faktisk** eller, hvis det er relevant, feltet **Kostbeløb forventet** i den værdipost, der er forbundet med denne varepost.  
+ Når du bogfører overføres kostprisen til salgsfakturaposten, og den kan ses på varens postoversigt. [!INCLUDE[d365fin](includes/d365fin_md.md)] bruger kostprisen fra kildedokumentlinjen til beregne indholdet af feltet **Kostbeløb faktisk** eller, hvis det er relevant, feltet **Kostbeløb forventet** i den værdipost, der er forbundet med denne varepost.  
 
 ## <a name="see-also"></a>Se også
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Salg](sales-manage-sales.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

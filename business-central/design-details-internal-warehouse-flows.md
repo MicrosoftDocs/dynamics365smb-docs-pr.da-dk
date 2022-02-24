@@ -1,21 +1,21 @@
 ---
-title: Designoplysninger - Internt lagerflow
-description: Flow mellem placeringscentre i forbindelse med pluk af komponenter og placering af varer på lager for montage-eller produktionsordrer og ad hoc-bevægelser uden kildedokumenter.
+title: Designoplysninger – Internt lagerflow | Microsoft Docs
+description: Gennemstrømningen af varer mellem placeringer i virksomheden vedrører pluk af komponenter og at lægge færdigvarer på lager til produktions- eller montageordrer og ad hoc-bevægelser, f.eks. placeringsgenopfyldninger, uden relation til kildedokumenter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 6749921fc02776fc267f7f40cde7ccea4b8fe6cf
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 7fa2f139935e279af47548b5c8e8a28b84845521
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441743"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185320"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Designoplysninger: Internt lagerflow
 Gennemstrømningen af varer mellem placeringer i virksomheden vedrører pluk af komponenter og at lægge færdigvarer på lager til produktions- eller montageordrer og ad hoc-bevægelser, f.eks. placeringsgenopfyldninger, uden relation til kildedokumenter. Omfanget og arten af de involverede aktiviteter varierer mellem grundlæggende og avancerede logistikfunktioner.  
@@ -90,7 +90,7 @@ Gennemstrømningen af varer mellem placeringer i virksomheden vedrører pluk af 
 ## <a name="flushing-production-components-in-the-warehouse"></a>Træk af produktionskomponenter i lageret  
  Hvis det er angivet på varekortet, bliver komponenter, der plukkes med lagerpluk, bogført som forbrugt af produktionsordren, når lagerpluk er registreret. Ved hjælp af metoden **Pluk + Forlæns** og trækmetoden **Pluk + Baglæns**, udløser plukregistreringen den relaterede forbrugsbogføring henholdsvis, når den første handling starter, eller når den sidste handling afsluttes.  
 
- Forestil dig følgende scenarie, der er baseret på [!INCLUDE[prod_short](includes/prod_short.md)]-demodatabasen.  
+ Forestil dig følgende scenarie, der er baseret på [!INCLUDE[d365fin](includes/d365fin_md.md)]-demodatabasen, lokationen HVID.  
 
  Der findes en produktionsordre for 15 stk. af vare LS-100. Nogle af varerne på komponentlisten skal trækkes manuelt i en forbrugskladde, og andre varer på listen kan plukkes og trækkes automatisk ved hjælp af metoden **pluk + baglæns**.  
 
@@ -114,10 +114,7 @@ Gennemstrømningen af varer mellem placeringer i virksomheden vedrører pluk af 
 
  Følgende illustration viser, når feltet **Placeringskode** på komponentlisten udfyldes i overensstemmelse med konfiguration af din lokation eller maskine/arbejdscenter.  
 
- ![Oversigt over, hvornår/hvordan feltet Placeringskode skal udfyldes.](media/binflow.png "Oversigt over, hvornår/hvordan feltet Placeringskode skal udfyldes")  
+ ![Oversigt over, hvornår/hvordan feltet Placeringskode skal udfyldes](media/binflow.png "Oversigt over, hvornår/hvordan feltet Placeringskode skal udfyldes")  
 
 ## <a name="see-also"></a>Se også  
- [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Designoplysninger: Logistik](design-details-warehouse-management.md)

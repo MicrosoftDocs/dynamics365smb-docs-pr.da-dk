@@ -5,23 +5,20 @@ ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: conceptual
+ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
-ms.author: jswymer
-ms.date: 04/01/2021
-ms.openlocfilehash: 99dd133c3f3ab05806976c5fe840f81dcd8e1403
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.openlocfilehash: 7790548828595838e6c2f626194d59260ef4e8ab
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440895"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187768"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspektion af sider i Business Central
 
 Sideinspektionsfunktionen giver mulighed at få oplysninger om en side, giver dig indsigt i sideopsætningen, de forskellige elementer, der udgør siden, og kilden bag de data, der vises. Sideinspektion er specielt beregnet til administratorer, superbrugere, supportmedarbejdere og udviklere. Den er velegnet til læring af datamodellen bag en side og fejlfinding. Hvis der f.eks. opstår et problem med en side, kan du bruge sideinspektion til at hente oplysninger,der skal videregives til systemadministratoren eller supportmedarbejderne.
-
-[!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
 ## <a name="working-with-page-inspection"></a>Arbejde med sideinspektion
 
@@ -29,7 +26,7 @@ Du starter sideinspektion fra siden **Hjælp og Support**. Vælg spørgsmålsteg
 
 Ruden **Sideinspektion** åbnes på siden. Følgende figur illustrerer ruden **Sideinspektion** på siden **Salgsordre**.
 
-![Sideinspektion.](media/page-inspection-example.png)
+![Sideinspektion](media/page-inspection-example.png)
 
 Når ruden **Sideinspektion** åbnes første gang, indeholder den oplysninger, der vedrører hovedsidens objekt.
 
@@ -47,7 +44,4 @@ Brugere, der ikke tildeles rettigheder i **Systemobjekt 5330**, kan stadig få a
 
 ## <a name="see-also"></a>Se også
 
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
