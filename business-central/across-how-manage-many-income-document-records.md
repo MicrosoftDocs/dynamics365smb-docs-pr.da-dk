@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c245690690a02bb4d7fccb6c07737b71c96f14d5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 69c807a9c99b105782240c43d096a73ff01e2664
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188512"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775968"
 ---
 # <a name="manage-many-incoming-document-records"></a>Administrere mange indgående bilagsposter
 Efterhånden som du opretter eller behandler indgående bilagsposter, kan antal linjer på siden **Indgående bilag** vokse til et omfang, hvor du mister overblikket. Derfor kan du indstille indgående bilagsposter til Behandlet for at fjerne dem fra standardvisningen. Når du vælger handlingen **Vis alle**, kan du få vist både behandlede og ikke-behandlede poster.
@@ -56,4 +56,7 @@ Alle indgående bilagsposter vises, herunder dem, hvor feltet **Behandlet** ikke
 [Behandle indgående bilag](across-process-income-documents.md)  
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

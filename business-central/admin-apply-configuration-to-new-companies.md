@@ -1,21 +1,21 @@
 ---
-title: Anvende konfiguration på nye virksomheder | Microsoft Docs
-description: Når du har oprettet en konfigurationspakke, er næste trin at udrulle pakken til din kunder til implementering. Du kan bruge konfigurationen med en ny tom virksomhed.
+title: Anvende konfiguration på nye virksomheder
+description: Når du har oprettet en konfigurationspakke, skal du udrulle pakken til din kunde til implementering. Du kan bruge konfigurationen med en ny tom virksomhed.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 56190be2caf1c31cf7c78d1a452d03ba7deea58e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 8eaffa61361a9cbcc01af3585090dc0939eaa4d8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187480"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324096"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Anvende konfigurationer på nye virksomheder
 Når du har oprettet en konfigurationspakke, er næste trin at udrulle pakken til din kunder til implementering. Du arbejder med konfigurationspakken i en ny tom virksomhed.  
@@ -33,3 +33,6 @@ Når du har oprettet en konfigurationspakke, er næste trin at udrulle pakken ti
 ## <a name="see-also"></a>Se også  
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Opsætning](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

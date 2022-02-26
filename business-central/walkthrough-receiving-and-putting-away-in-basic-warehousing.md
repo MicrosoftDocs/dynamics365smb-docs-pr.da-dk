@@ -1,27 +1,27 @@
 ---
-title: Gennemgang - Modtagelse og placering på lager i grundlæggende lageropsætninger | Microsoft Docs
+title: Gennemgang - Modtagelse og placering på lager i grundlæggende lageropsætninger
 description: I Business Central kan de indgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 31ac21dbba331748c9eef7bce199a5709147016b
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: c5d3ce9b7bb02c12da8d62413c6c5722c59ee1d8
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554640"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439306"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger
 
-**Bemærk**: Denne gennemgang skal udføres på et demoregnskab med indstillingen **Fuld evaluering - Komplette eksempeldata**, der findes i sandkassemiljøet. Du kan finde flere oplysninger i [Oprette et sandkassemiljø](across-how-create-sandbox-environment.md).
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan de indgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret.  
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan de indgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret.  
 
 |Metode|Indgående proces|Placering|Modtagelser|Læg-på-lager-aktiviteter|Kompleksitetsniveau (Se [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -52,6 +52,9 @@ Denne gennemgang viser følgende opgaver.
 -   Kontrol af, at lagerplaceringerne er overført fra købsordren.  
 -   Registrering af lagerbevægelsen til lageret og på samme tid bogføring af købsmodtagelsen til kildekøbsordren.  
 
+> [!NOTE]
+> [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
 ## <a name="roles"></a>Roller  
 Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:  
 
@@ -65,7 +68,7 @@ For at gennemføre denne gennemgang skal du:
 -   CRONUS Danmark A/S være installeret.  
 -   Du kan oprette dig selv som lagermedarbejder på lokationen SØLV ved at følge disse trin:  
 
-    1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
+    1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
     2.  Vælg feltet **Bruger-id**, og vælg din egen brugerkonto på siden **Brugere**.  
     3.  Angiv SØLV i feltet **Lokationskode**.  
     4.  Markér feltet **Standard**.  
@@ -78,7 +81,7 @@ Ellen, som er indkøbschef hos CRONUS Danmark A/S, opretter en købsordre til 10
 
 ### <a name="to-set-up-the-location"></a>Sådan oprettes lokationen  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.  
 2.  Åbn lokationskortet SØLV.  
 3.  Markér afkrydsningsfeltet **Kræv læg-på-lager**.  
 
@@ -98,7 +101,7 @@ Købsordrer er den mest almindelige type indgående kildedokument.
 
 ### <a name="to-create-the-purchase-order"></a>Hvis du vil oprette købsordren  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **købsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  Opret en købsordre for kreditor 10000 på arbejdsdatoen (23. januar) med følgende købsordrelinjer.  
 
@@ -121,7 +124,7 @@ På siden **Læg-på-lager** kan du administrere alle indgående lageraktivitete
 
 ### <a name="to-receive-and-put-the-items-away"></a>Sådan modtager du varerne og lægger dem på lager  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Læg-på-lager-akt. (lager)**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Læg-på-lager-aktiviteter**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  Vælg feltet **Kildedokument**, og vælg derefter **Købsordre**.  
 4.  Vælg feltet **Kildenr.**, vælg linjen til købet fra kreditor 10000, og vælg knappen **OK**.  
@@ -144,4 +147,7 @@ På siden **Læg-på-lager** kan du administrere alle indgående lageraktivitete
  [Flytte varer ad hoc i grundlæggende lageropsætninger](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Designoplysninger: Indgående lagerflow](design-details-inbound-warehouse-flow.md)   
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

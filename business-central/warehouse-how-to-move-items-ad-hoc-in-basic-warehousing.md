@@ -1,21 +1,21 @@
 ---
-title: Sådan flyttes varer ad hoc i grundlæggende lageropsætninger | Microsoft Docs
-description: Du kan undertiden have brug for at flytte varer mellem interne placeringer ikke modtagelse eller leveranceplacering uden et bestemt krav fra et kildedokument. Du kan udføre disse ad hoc-bevægelser, for eksempel for at omstrukturere lageret, for at bringe elementer til et inspektionsområde eller for at flytte flere elementer til og fra et produktionsområde uden en systemrelation til produktionsordrens kildedokument.
+title: Flytte varer ad hoc i grundlæggende lageropsætninger
+description: Dette emne forklarer ad hoc-bevægelser, der udføres, når du skal flytte varer mellem interne placeringer uden et bestemt behov fra et kildedokument.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8944c01f032444b98efaf482c00d198127570c4e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 11377c1944f47723b97fad9b5ffc699fa8255a4f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193079"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444097"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Flytte varer ad hoc i grundlæggende lageropsætninger
 Du kan undertiden have brug for at flytte varer mellem interne placeringer ikke modtagelse eller leveranceplacering uden et bestemt krav fra et kildedokument. Du kan udføre disse ad hoc-bevægelser, for eksempel for at omstrukturere lageret, for at bringe elementer til et inspektionsområde eller for at flytte flere elementer til og fra et produktionsområde uden en systemrelation til produktionsordrens kildedokument.  
@@ -29,7 +29,7 @@ I grundlæggende lageropsætninger, dvs. lokationer, der bruger opsætningsfelte
 >  I avancerede lageropsætninger, dvs. lokationer, der bruger opsætningsfeltet **Styret læg-på-lager og pluk**, bruges siden **Bevægelseskladde** eller **Internt lagerpluk** eller **Internt læg-på-lager** til ad hoc-flytning af varer mellem placeringer.  
 
 ## <a name="to-move-items-as-an-internal-movement"></a>Sådan flyttes varer som en intern overførsel  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Intern flytning**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Intern flytning**, og vælg derefter det relaterede link.  
 2.  Udfyld feltet **Nummer** i oversigtspanelet **Generelt**. enten ved at lade værdien i feltet være eller ved at vælge knappen **AssistEdit** for at vælge fra nummerserien.  
 3.  I feltet **Lokationskode** skal du indtaste den lokation, hvor flytningen finder sted.  
 
@@ -58,7 +58,7 @@ I grundlæggende lageropsætninger, dvs. lokationer, der bruger opsætningsfelte
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Sådan flyttes varer i vareomposteringskladden
 I stedet for at bruge lagerbevægelsesdokument kan du registrere flytningen af varer ved at ompostere deres placeringskoder. Du kan finde flere oplysninger i [Tælle, justere og ompostere inventar ved hjælp af kladder](inventory-how-count-adjust-reclassify.md).   
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Vareomposteringskladde**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Vareomposteringskladder**, og vælg derefter det relaterede link.  
 2.  På hver kladdelinje skal du definere placeringer, og som du vil flytte elementer til og fra, ved at udfylde felterne **Placeringskode** og **Ny placeringskode**.  
 
     1.  Hvis du vil flytte hele indholdet i en placering til en anden placering, skal du klikke på handlingen og vælge handlingen **Hent placeringsindh.**.  
@@ -72,7 +72,10 @@ I stedet for at bruge lagerbevægelsesdokument kan du registrere flytningen af v
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

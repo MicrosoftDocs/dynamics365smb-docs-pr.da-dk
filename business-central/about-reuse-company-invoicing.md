@@ -3,37 +3,37 @@ title: Bruge fakturering og Business Central | Microsoft Docs
 description: Løsning, der giver adgang til Microsoft Invoicing, når du har fået Dynamics 365 Business Central.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Invoicing, Office 365
-ms.date: 04/30/2020
+ms.search.keywords: Invoicing, Microsoft 365
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7776cd01218f5959734173226574bb4a0d043153
-ms.sourcegitcommit: 866f0e6ed9df3397072b9df838e31c3a1f4b626d
+ms.openlocfilehash: ea59fa49889cd6bfc53f727123f259448242c79b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3333856"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439143"
 ---
-# <a name="using-the-same-office-365-account-in-d365fin-and-microsoft-invoicing"></a>Bruge den samme Office 365-konto i [!INCLUDE[d365fin](includes/d365fin_long_md.md)] og Microsoft Invoicing
-Når du tilmelder dig en prøveversion af [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du gå til en 30-dages evalueringsfase, påbegynde et abonnement eller afslutte din brug af [!INCLUDE[d365fin](includes/d365fin_md.md)]. I alle tilfælde har du måske på et tidspunkt set noget, der hedder **Microsoft Invoicing** og klikket på det. Dette var en app, som var en del af det, der nu hedder Microsoft 365 Business Standard. Dette hed tidligere et Office 365 Business Premium-abonnement. Derfor er det ikke alle, der har set feltet i Office 365.  
+# <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Bruge den samme MIcrosoft 365-konto i [!INCLUDE[prod_short](includes/prod_long.md)] og Microsoft Invoicing
+Når du tilmelder dig en prøveversion af [!INCLUDE[prod_short](includes/prod_short.md)], kan du gå til en 30-dages evalueringsfase, påbegynde et abonnement eller afslutte din brug af [!INCLUDE[prod_short](includes/prod_short.md)]. I alle tilfælde har du måske på et tidspunkt set noget, der hedder **Microsoft Invoicing** og klikket på det. Dette var en app, som var en del af det, der nu hedder Microsoft 365 Business Standard. Dette hed tidligere et Microsoft 365 Business Premium-abonnement. Derfor er det ikke alle, der har set feltet i Microsoft 365.  
 
-Microsoft Invoicing er ikke længere tilgængelig, men hvis du skal logge på Invoicing for at hente dine data, vil du muligvis se en besked om, at du ikke kan få adgang til Microsoft Invoicing, fordi din konto bruges i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Microsoft Invoicing er ikke længere tilgængelig, men hvis du skal logge på Invoicing for at hente dine data, vil du muligvis se en besked om, at du ikke kan få adgang til Microsoft Invoicing, fordi din konto bruges i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 En lignende meddelelse vises, hvis du installerer mobilappen til Invoicing.  
 
 ## <a name="workaround"></a>Løsning
-Invoicing og [!INCLUDE[d365fin](includes/d365fin_md.md)] har en fælles platform. Det betyder, at du genkendes som en eksisterende bruger af [!INCLUDE[d365fin](includes/d365fin_md.md)], når du klikker på Invoicing i Microsoft 365 Administration. Det skyldes, at Invoicing ikke kan bruge den samme virksomhed som [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Invoicing og [!INCLUDE[prod_short](includes/prod_short.md)] har en fælles platform. Det betyder, at du genkendes som en eksisterende bruger af [!INCLUDE[prod_short](includes/prod_short.md)], når du klikker på Invoicing i Microsoft 365 Administration. Det skyldes, at Invoicing ikke kan bruge den samme virksomhed som [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Så du skal logge på [!INCLUDE[d365fin](includes/d365fin_md.md)] og omdøbe din eksisterende virksomhed og derefter oprette en ny virksomhed, som du kan bruge i Invoicing. Ingen data flyttes eller overskrives under denne løsningsprocedure.
+Så du skal logge på [!INCLUDE[prod_short](includes/prod_short.md)] og omdøbe din eksisterende virksomhed og derefter oprette en ny virksomhed, som du kan bruge i Invoicing. Ingen data flyttes eller overskrives under denne løsningsprocedure.
 
 ### <a name="to-rename-your-company"></a>Sådan omdøber du din virksomhed
-1. Log på [!INCLUDE[d365fin](includes/d365fin_md.md)].
-2. I øverste højre hjørne skal du vælge ikonet **Indstillinger** ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") og vælge **Mine indstillinger**.
+1. Log på [!INCLUDE[prod_short](includes/prod_short.md)].
+2. I øverste højre hjørne skal du vælge ikonet **Indstillinger** ![Indstillinger.](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") og vælge **Mine indstillinger**.
 3. I feltet **Virksomhed**, skal du vælge en anden leverandør.
-4. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Virksomheder**, og vælg derefter det relaterede link.  
+4. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **firmaer**, og vælg derefter det relaterede link.  
 5. På siden **Virksomheder** skal du vælge **Rediger liste**.  
 6. Giv posten *Min virksomhed* et andet navn.  
 
@@ -44,10 +44,13 @@ Så du skal logge på [!INCLUDE[d365fin](includes/d365fin_md.md)] og omdøbe din
 Der går igen nogle minutter. Når processen er fuldført, kan du få adgang til Invoicing som en del af din Microsoft 365 Business Standard-oplevelse. men kun for at eksportere data, da Invoicing-programmet er udfaset.  
 
 ### <a name="what-about-my-data"></a>Hvad med mine data?
-Når du omdøber det oprindelige Min virksomhed, omdøbes de tabeller i databasen, der indeholder din eksisterende [!INCLUDE[d365fin](includes/d365fin_md.md)]-data, men selve dataene ændres ikke.  
+Når du omdøber det oprindelige Min virksomhed, omdøbes de tabeller i databasen, der indeholder din eksisterende [!INCLUDE[prod_short](includes/prod_short.md)]-data, men selve dataene ændres ikke.  
 
-Hvis du bruger både Invoicing og [!INCLUDE[d365fin](includes/d365fin_md.md)], gemmes dataene i to forskellige beholdere (de to virksomheder). Intet deles, så du skal administrere kunder og varer i begge virksomheder.  
+Hvis du bruger både Invoicing og [!INCLUDE[prod_short](includes/prod_short.md)], gemmes dataene i to forskellige beholdere (de to virksomheder). Intet deles, så du skal administrere kunder og varer i begge virksomheder.  
 
 ## <a name="see-also"></a>Se også
-[Ofte stillede spørgsmål](across-faq.md)  
+[Ofte stillede spørgsmål](across-faq.yml)  
 [Opsætning](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

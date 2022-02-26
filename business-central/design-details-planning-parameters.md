@@ -1,24 +1,24 @@
 ---
-title: Designoplysninger – Planlægningsparametre | Microsoft Docs
-description: I dette emne beskrives de forskellige planlægningsparametre, du kan bruge i Business Central.
+title: Designoplysninger - Planlægningsparametre
+description: I dette emne beskrives de forskellige planlægningsparametre, du kan bruge, og hvordan de påvirker planlægningssystemet.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 04/20/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8f988be119132765fb02287c3935495e98f29b31
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.date: 07/21/2021
+ms.author: edupont
+ms.openlocfilehash: 8d797d88930930d2cc1123a0068e44d0de3035df
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272034"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649808"
 ---
 # <a name="design-details-planning-parameters"></a>Designoplysninger: Planlægningsparametre
-I dette emne beskrives de forskellige planlægningsparametre, du kan bruge i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+I dette emne beskrives de forskellige planlægningsparametre, du kan bruge i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Den måde, som planlægningssystemet styrer vareforsyning på, bestemmes af forskellige indstillinger på varekortet eller lagervaren og indstillinger under produktionsopsætning. Følgende tabel viser, hvordan disse parametre bruges til planlægning.  
 
@@ -82,25 +82,25 @@ En planlægger vil, for at få en rationel forsyningsplan, finjustere planlægni
 
 Tidspunktet for ændringsperiode, bufferperiode og akkumuleringsperiode for lot er baseret på en forsyningsdato. Intervallet er baseret på planlægningens startdato, som vist i følgende illustration.  
 
-![Intervalelementer](media/supply_planning_5_time_bucket_elements.png "Intervalelementer")  
+![Intervalelementer.](media/supply_planning_5_time_bucket_elements.png "Intervalelementer")  
 
 I nedenstående eksempler repræsenterer sorte pile eksisterende forsyning (op) og behov (ned). Rød, grøn og orange pil er planlægningsforslag.  
 
 **Eksempel 1**: Den ændrede dato er uden for ændringsperioden, hvilket forårsager, at den eksisterende forsyning bliver annulleret. Der foreslås en ny forsyning til at dække behovet i akkumuleringsperioden for lot.  
 
-![Ændringsperiode og Akkumuleringsperiode for lot](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Ændringsperiode og Akkumuleringsperiode for lot")  
+![Ændringsperiode og Akkumuleringsperiode for lot.](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Ændringsperiode og Akkumuleringsperiode for lot")  
 
 **Eksempel 2**: Den ændrede dato er inden for ændringsperioden, hvilket forårsager, at den eksisterende forsyning skal omplanlægges. Der foreslås en ny forsyning til at dække behovet uden for akkumuleringsperioden for lot.  
 
-![Ændringsperiode, Akkumuleringsperiode for lot og ændring](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Ændringsperiode, Akkumuleringsperiode for lot og ændring")  
+![Ændringsperiode, Akkumuleringsperiode for lot og ændring.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Ændringsperiode, Akkumuleringsperiode for lot og ændring")  
 
 **Eksempel 3**: Der er et behov i bufferperioden, og forsyningsantallet i akkumuleringsperioden for lot svarer til forsyningsantallet. Næste behov er uafdækket, og der foreslås en ny forsyning.  
 
-![Bufferperiode og Akkumuleringsperiode for lot](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Bufferperiode og Akkumuleringsperiode for lot")  
+![Bufferperiode og Akkumuleringsperiode for lot.](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Bufferperiode og Akkumuleringsperiode for lot")  
 
 **Eksempel 4**: Der er et behov i bufferperioden, og forsyningen forbliver på samme dato. Den aktuelle forsyningsmængde er dog ikke nok til at dække efterspørgslen i akkumuleringsperioden for lot, så en handling, der skifter mængde af den eksisterende forsyningsordre, foreslås.  
 
-![Bufferperiode, Akkumuleringsperiode for lot og Rediger antal](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Bufferperiode, Akkumuleringsperiode for lot og Rediger antal")  
+![Bufferperiode, Akkumuleringsperiode for lot og Rediger antal.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Bufferperiode, Akkumuleringsperiode for lot og Rediger antal")  
 
 **Standardværdier:** Standardværdien for feltet **Interval** og de tre felter for genbestillingsperioden er tomme. For alle felter, undtagen feltet **Bufferperiode**, betyder det 0D (nul dage). Hvis feltet **Bufferperiode** er tomt, bruges den globale værdi i feltet **Standardbufferperiode** på siden **Produktionsopsætning**.  
 
@@ -114,9 +114,32 @@ Indstillingen **Produktionsmetode** definerer, hvilke yderligere ordrer MPS-bere
 
 Hvis indstillingen **Fremstil-til-lager** bruges, vedrører ordrerne kun varen.  
 
-Hvis indstillingen **Fremstil-til-ordre** bruges, vil planlægningssystemet analysere produktionsstyklisten for varen og oprette yderligere tilknyttede ordreforslag for disse elementer på lavere niveauer, der også er defineret som Fremstil-til-ordre. Dette fortsætter, så længe der er fremstil-til-ordre-varer i de faldende styklistestrukturer.  
+Hvis indstillingen **Fremstil-til-ordre** bruges, vil planlægningssystemet analysere produktionsstyklisten for varen og oprette yderligere tilknyttede ordreforslag for disse elementer på lavere niveauer, der også er defineret som Fremstil-til-ordre. Dette fortsætter, så længe der er fremstil-til-ordre-varer i de faldende styklistestrukturer.
+
+## <a name="use-low-level-codes-to-manage-derived-demand"></a>Brug laveste-niveau-koder til at administrere afledt behov
+
+Brug laveste-niveau-koder for at føre det afledte behov for komponenter frem til de lavere niveauer i styklisten. Hvis du vil have en mere detaljeret forklaring af dette, skal du se [Vareprioritet/laveste-niveau-kode](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
+
+Du kan tildele en laveste-niveau-kode til hver del i produktstrukturen eller til den niveaudelte stykliste. Det højeste niveau for montageelementer betegnes som niveau 0 – færdigvaren. Jo højere nummeret for laveste-niveau-kode er, desto lavere er varen i hierarkiet. Færdigvarer har f.eks. laveste-niveau-kode 0, og komponenter, som indgår i færdigvaren, har laveste-niveau-kode 1, 2, 3 osv. Resultatet er, at komponenter planlægges i henhold til behovet på alle højere niveauer. Når du beregner en plan, udfoldes styklisten i planlægningskladden, og bruttobehovet på niveau 0 overføres til de lavere planlægningsniveauer som bruttobehov for det næste niveau.
+
+Marker feltet **Dynamisk laveste-niveau-kode** for at angive, om der med det samme skal tildeles og beregnes laveste-niveau-koder for hver komponent i produktstrukturen. Hvis du har store mængder data, kan denne funktion have negativ indvirkning på programmets ydeevne, f.eks. under automatisk kostregulering. Bemærk, at det ikke er en funktion med tilbagevirkende kraft, så det er en god ide at overveje, om du vil bruge faciliteten, inden du går i gang.
+
+Som et alternativ til automatisk beregning, som udføres dynamisk, hvis feltet et markeret, kan du køre **Beregn laveste-niveau-kode** fra menuen **Produktion** ved at klikke på **Produktdesign**, **Beregn laveste-niveau-kode**.
+
+> [!IMPORTANT]
+> Hvis du ikke markerer feltet **Dynamisk laveste-niveau-kode**, skal du køre **Beregn laveste-niveau-kode**, før du beregner en forsyningsplan (kørslen **Beregn plan**).  
+
+> [!NOTE]
+> Selv hvis feltet **Dynamisk laveste-niveau-kode** er markeret, ændres laveste-niveau-koderne for komponentvarer ikke dynamisk, hvis en overordnet stykliste er slettet eller angivet til ikke-godkendt. Det kan medføre, at det er svært at tilføje nye varer i slutningen af produktstrukturen, da det kan overstige det maksimalt tilladte antal laveste-niveau-koder. Hvis du har omfattende produktstrukturer, der når grænsen for laveste-niveau-kode, anbefales det derfor, at du ofte kører **Beregn laveste-niveau-kode** for at vedligeholde strukturen.  
+
+### <a name="optimize-low-level-code-calculation"></a>Optimere beregning af laveste-niveau-kode
+
+Marker feltet **Optimer beregning af laveste-niveau-kode** for at angive, at du vil bruge den nye, hurtigere metode til at beregne laveste-niveau-kode. Bemærk, at den nye beregning foretages anderledes, og at brug kan bryde udvidelser, der er afhængige af den eksisterende metode. Den nye beregningsmetode erstatter den aktuelle metode i en fremtidig version.
 
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
 [Designoplysninger: Afstemning af behov og efterspørgsel](design-details-balancing-demand-and-supply.md)   
 [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

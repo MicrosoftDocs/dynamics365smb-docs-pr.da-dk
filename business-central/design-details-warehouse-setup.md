@@ -1,44 +1,46 @@
 ---
-title: Designoplysninger – Opsætning af lager | Microsoft Docs
-description: Lagerfunktioner i Business Central indeholder forskellige niveauer af kompleksitet, som defineret af licenstilladelser i de tilbudte moduler. Niveauet af kompleksitet i en løsning på lagerstedet defineres i høj grad af placeringsopsætningen på lokationskort, som til gengæld licensstyres, så adgang til placeringens opsætningsfelter er defineret af licensen.
+title: Designoplysninger - Opsætning af lager
+description: Lagerfunktionen indeholder forskellige kompleksitets niveauer, som i vidt omfang defineres af placerings opsætningen på lokationskort.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/04/2020
-ms.author: sgroespe
-ms.openlocfilehash: cd2a282e95e324e3adbf06cb72c53467f63c227b
-ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: c0559ef10dd8051b64d919b8a27d3af11cce2819
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435227"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325156"
 ---
 # <a name="design-details-warehouse-setup"></a>Designoplysninger: Opsætning af lager
 
-Lagerfunktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder forskellige niveauer af kompleksitet, som defineret af licenstilladelser i de tilbudte moduler. Niveauet af kompleksitet i en løsning på lagerstedet defineres i høj grad af placeringsopsætningen på lokationskort, som til gengæld licensstyres, så adgang til placeringens opsætningsfelter er defineret af licensen. Desuden styrer programobjekter i licensen, hvilket UI-dokument der skal bruges til de understøttede lageraktiviteter.  
+Lagerfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)] indeholder forskellige niveauer af kompleksitet, som defineret af licenstilladelser i de tilbudte moduler. Niveauet af kompleksitet i en løsning på lagerstedet defineres i høj grad af placeringsopsætningen på lokationskort, som til gengæld licensstyres, så adgang til placeringens opsætningsfelter er defineret af licensen. Desuden styrer programobjekter i licensen, hvilket UI-dokument der skal bruges til de understøttede lageraktiviteter.  
+<!--
+The following warehouse-related granules exist:  
 
-Der findes følgende lagerrelaterede moduler:  
-
-- Grundlæggende lagerbeholdning (4010)  
-- Placering (4170)  
-- Læg-på-lager (4180)  
-- Lagermodtagelse (4190)  
-- Pluk (4200)  
-- Lagerleverance (4210)  
-- Logistiksystemer (4620)  
-- Interne pluk og læg-på-lager (4630)  
+- Basic Inventory (4010)  
+- Bin (4170)  
+- Put Away (4180)  
+- Warehouse Receipt (4190)  
+- Pick (4200)  
+- Warehouse Shipment (4210)  
+- Warehouse Management Systems (4620)  
+- Internal Picks and Put-aways (4630)  
 - Automated Data Capture System (4640)
-- Opsætning af placering (4660)  
+- Bin Setup (4660)  
 
-Du kan finde flere oplysninger om hvert begreb i [[!INCLUDE[d365fin](includes/d365fin_md.md)]-prisark](https://go.microsoft.com/fwlink/?LinkId=238341) (kræver PartnerSource-konto).  
+For more information about each granule, see [[!INCLUDE[prod_short](includes/prod_short.md)] Price Sheets](https://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account). -->
 
-Følgende tabel viser, hvilke moduler der er nødvendige for at definere forskellige lagerkompleksitetsniveauer, hvilke dokumenter til brugergrænsefladen der understøtter hvert niveau, og hvilke lokationskoder der afspejler disse niveauer i [!INCLUDE[d365fin](includes/d365fin_md.md)]-demodatabasen.  
+Følgende tabel viser, hvilke moduler der er nødvendige for at definere forskellige lagerkompleksitetsniveauer, hvilke dokumenter til brugergrænsefladen der understøtter hvert niveau, og hvilke lokationskoder der afspejler disse niveauer i [!INCLUDE[prod_short](includes/prod_short.md)]-demodatabasen.  
 
-|Kompleksitetsniveau|Beskrivelse|Brugergrænsefladedokument|CRONUS-lokation|Mindste modulkrav|  
+[!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+
+|Kompleksitetsniveau|Beskrivelse|Brugergrænsefladedokument|Lokationseksempel|Mindste modulkrav|  
 |----------------|-----------|-----------|---------------|---------------------------|  
 |1|Ingen dedikeret lageraktivitet.<br /><br /> Modtag/levér-bogføring fra ordrer.|Ordre|BLÅ|Grundlæggende lagerbeholdning|  
 |2|Ingen dedikeret lageraktivitet.<br /><br /> Modtag/levér-bogføring fra ordrer.<br /><br /> Placeringskode er påkrævet.|Ordre, med placeringskode|SØLV|Grundlæggende lagerbeholdning/Placering|  
@@ -51,7 +53,7 @@ Se eksempler på, hvordan brugergrænsefladeelementer bruges afhængigt af kompl
 
 ## <a name="bin-and-bin-content"></a>Placering og placeringsindhold
 
-En placering er en lagerenhed, der er beregnet til at indeholde adskilte dele. Det er den mindste containerenhed i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Antal varer på placeringer kaldes placeringsindhold. Et opslag fra feltet **Vare** eller feltet **Placeringskode** i enhver lagerrelateret dokumentlinje viser den beregnede beholdning af varen på placeringen.  
+En placering er en lagerenhed, der er beregnet til at indeholde adskilte dele. Det er den mindste containerenhed i [!INCLUDE[prod_short](includes/prod_short.md)]. Antal varer på placeringer kaldes placeringsindhold. Et opslag fra feltet **Vare** eller feltet **Placeringskode** i enhver lagerrelateret dokumentlinje viser den beregnede beholdning af varen på placeringen.  
 
 Placeringsindhold kan gives egenskaben Fast, Dedikeret eller Standard for at definere, hvordan du kan bruge placeringsindholdet. Placeringer uden nogen af disse egenskaber kaldes løse placeringer.  
 
@@ -137,5 +139,8 @@ Læg-på-lager-skabelonen kan tildeles til en vare og en lokation. Læg-på-lage
 
 ## <a name="see-also"></a>Se også
 
-[Designoplysninger: Logistik](design-details-warehouse-management.md)   
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)   
 [Designoplysninger: Tilgængelighed i lageret](design-details-availability-in-the-warehouse.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

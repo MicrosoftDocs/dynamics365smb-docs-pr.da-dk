@@ -1,55 +1,62 @@
 ---
-title: 'Fremgangsmåde: Oprette placeringer | Microsoft Docs'
-description: Den mest effektive metode til at oprette lagerplaceringer er at generere grupper af tilsvarende placeringer i oprettelseskladden, men du kan også oprette placeringer enkeltvist.
+title: Oprette placeringer
+description: Opret grupper af lignende placeringer i placeringsoprettelseskladden, Opret placeringer individuelt på lokationskortet eller automatisk i placeringsoprettelseskladden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: fcb76f9f5cddba76983ff8d3dcbb92a2c08d09b5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: b76c6aee2e986580d1c131688d87716e08d338f8
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193199"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972589"
 ---
 # <a name="create-bins"></a>Oprette placeringer
+
 Den mest effektive metode til at oprette lagerplaceringer er at generere grupper af tilsvarende placeringer i oprettelseskladden, men du kan også oprette placeringer enkeltvist fra lokationskortet. Du kan også bruge en funktion på siden **Placeringsopr.kladde** til at oprette placeringer automatisk.  
 
-## <a name="to-create-a-bin-from-the-location-card"></a>Sådan oprettes en placering ud fra lokationskortet  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg derefter det relaterede link.  
+## <a name="to-create-a-bin-from-the-location-card"></a>Sådan oprettes en placering ud fra lokationskortet
+
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.  
 2.  Marker den lokation, du vil oprette en placering fra, og vælg derefter handlingen **Placeringer**.  
 3. Vælg handlingen **Ny**.
 4. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="the-dedicated-field"></a>Feltet Dedikeret
+
 Feltet **Dedikeret** på siden **Placeringer** angiver, at antallet på placeringen er beskyttet mod pluk til andre behov. Men mængderne i dedikerede placeringer kan stadig reserveres. På samme måde medtages mængderne i dedikerede placeringer i feltet **Beholdning i alt** på siden **Reservation**.
 
 Hvis du gør en placering dedikeret, resulterer det i den samme funktionalitet i grundlæggende lagerfunktioner som brugen af placeringstyper, der kun er tilgængeligt i avanceret logistik. Der er flere oplysninger i [Konfigurere placeringer](warehouse-how-to-set-up-bin-types.md).
 
-**Eksempel** Et arbejdscenter med en placeringskode i feltet **Til-produktionsplaceringskode**. Produktionsordrekomponentlinjerne med den placeringskode kræver, at der anbringes komponenter, der trækkes forlæns, der. Indtil der forbruges komponenter fra placeringen, kan andre komponentbehov plukke eller forbruge fra placeringen, da de stadig betragtes som tilgængelige placeringsindhold. For at sikre, at placeringsindholdet kun er tilgængeligt for komponentbehov, der bruger produktionsplacering, skal du vælge feltet **Dedikeret** på linjen for placeringskoden.
+### <a name="example"></a>Eksempel
+
+Et arbejdscenter med en placeringskode i feltet **Til-produktionsplaceringskode**. Produktionsordrekomponentlinjerne med den placeringskode kræver, at der anbringes komponenter, der trækkes forlæns, der. Indtil der forbruges komponenter fra placeringen, kan andre komponentbehov plukke eller forbruge fra placeringen, da de stadig betragtes som tilgængelige placeringsindhold. For at sikre, at placeringsindholdet kun er tilgængeligt for komponentbehov, der bruger produktionsplacering, skal du vælge feltet **Dedikeret** på linjen for placeringskoden.
 
 > [!Caution]
 > Varer på dedikerede placeringer er ikke beskyttet, når de plukkes og forbruges som produktions- eller montagekomponenter på siden **Pluk (lager)**. Du kan finde flere oplysninger i [Plukke til produktion eller montage i grundlæggende lageropsætninger](warehouse-how-to-pick-for-production.md)
 
-## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Sådan oprettes individuelle placeringer i placeringsoprettelseskladden  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opr.kladde til placering**, og vælg det relaterede link.  
+## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Sådan oprettes individuelle placeringer i placeringsoprettelseskladden
+
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Placeringsopr.kladde**, og vælg derefter det relaterede link.  
 2.  Udfyld de felter på hver linje, der er nødvendige for at navngive og karakterisere de placeringer, som du opretter.  
 3.  Vælg handlingen **Opret placeringer**.  
 
-## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Sådan oprettes placeringer automatisk i oprettelseskladden  
+## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Sådan oprettes placeringer automatisk i oprettelseskladden
+
 Du skal på forhånd have taget stilling til, hvilken slags placeringer der er brug for på lagerstedet, og den mest praktiske varestrøm gennem lagerstedets fysiske struktur, før du begynder at oprette placeringer automatisk.  
 
 > [!NOTE]  
->  Når du først har brugt en placering, kan du ikke slette den, medmindre den er tom. Hvis du på et tidspunkt vil indføre et andet navngivningssystem til placeringerne, kan du dog bruge omposteringskladden til faktisk at flytte varer til et nyt placeringssystem. Det er derfor bedst, hvis du får sat placeringerne op korrekt allerede fra begyndelsen.  
+> Når du først har brugt en placering, kan du ikke slette den, medmindre den er tom. Hvis du på et tidspunkt vil indføre et andet navngivningssystem til placeringerne, kan du dog bruge omposteringskladden til faktisk at flytte varer til et nyt placeringssystem. Det er derfor bedst, hvis du får sat placeringerne op korrekt allerede fra begyndelsen.  
 
 Hvis du vil arbejde med siden **Placeringsopr.kladde**, skal du være oprettet som lagermedarbejder på det sted, hvor placeringerne findes. Du kan finde flere oplysninger i [Definere lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md).    
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opr.kladde til placering**, og vælg dernæst det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Placeringsopr.kladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn placeringer**.
 3. På siden **Beregn placeringer** i feltet **Placeringsskabelonkode**, og vælg den placeringsskabelon, der skal bruges som model for de placeringer, som du opretter.
 4.  Indtast en beskrivelse af placeringerne.  
@@ -70,10 +77,14 @@ Hvis du vil arbejde med siden **Placeringsopr.kladde**, skal du være oprettet s
 
 Gentag processen, hvis det er nødvendigt med endnu et sæt placeringer, indtil du har oprettet alle placeringerne på lagerstedet.  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

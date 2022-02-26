@@ -3,19 +3,19 @@ title: Sådan konverteres eksisterende lokationer til lagerlokationer | Microsof
 description: Du kan aktivere en eksisterende lagerlokation til at anvende zoner og placeringer og til at fungere som en lagerlokation.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3b02c3d49485ecda07ee85a350b7f45541a94a06
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: d5b7d3bc1f83543fa5b7b3c06acae2ddbe9fa8b4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193247"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445843"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Konvertere eksisterende lokationer til lagerlokationer
 Du kan aktivere en eksisterende lagerlokation til at anvende zoner og placeringer og til at fungere som en lagerlokation.  
@@ -28,7 +28,7 @@ Du kan oprette zoner og placeringer enten før eller efter konverteringen. Den e
 >  Du kan rydde alt negativt lager og alle åbne lagerdokumenter, før du konverterer lokationen for lagerekspedition ved at køre en rapport for at identificere varer med negativt lager og åbne lagerdokumenter, der hører til lokationen. Du kan finde flere oplysninger i Kontroller for negativt lager.  
 
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Sådan aktiveres en eksisterende lokation til at fungere som en lagerlokation  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opret lagerlokation**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opret lagerlokation**, og vælg derefter det relaterede link.  
 2.  I feltet **Lokationskode** skal du angive den lokation, du vil aktivere til behandling af lageret.  
 3.  I feltet **Reguleringsplaceringskode** skal du angive placeringen på den lokation, hvor ikke-synkroniserede lagerposter gemmes. Du kan finde flere oplysninger i [Sådan synkroniseres de regulerede lagerposter med de relaterede vareposter](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).  
 
@@ -45,7 +45,10 @@ Du kan oprette zoner og placeringer enten før eller efter konverteringen. Den e
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

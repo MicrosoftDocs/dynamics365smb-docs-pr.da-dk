@@ -1,23 +1,24 @@
 ---
-title: Sådan omplanlægges eller fornys produktionsordrer direkte | Microsoft Docs
-description: Produktionsordrelinjer indeholder de varer, der skal produceres i produktionsordren.
+title: Omplanlægge eller forny produktionsordrer direkte
+description: I dette emne beskrives procedurerne for, hvordan du omplanlægger produktionsordrer og opdaterer produktionsordrer direkte.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: c8c1885abb3913f4bec3246234a08ebe75bd1718
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 3cb90e09c5e4d23259dcaba23907bdaac7308c08
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313176"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971323"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Omplanlægge eller forny produktionsordrer direkte
+
 Funktionen **Docs** på produktionsordrer bruges normalt, når du har tilføjet eller ændret komponenter, der opretter underliggende produktionsordrer. Funktionen beregner ændringer, der er foretaget i komponenter og rutelinjer, og omfatter varer på lavere produktionsstyklisteniveauer, som der muligvis oprettes nye produktionsordrer for.  
 
 Ud fra de ændringer, du foretager i komponenterne og rutelinjerne, udfører funktionen Omplanlæg beregninger og planlægning med henblik på alle nye behov for produktionsordren.  
@@ -34,22 +35,23 @@ Du kan indsætte produktionsordrelinjerne manuelt eller bruge funktionen, der ka
 > [!NOTE]
 > Hvis du bruger funktionen Opdater til at genberegne produktionsordrelinjer, sletter programmet de gamle produktionsordrelinjer og beregner nye produktionsordrelinjer.  
 
-## <a name="to-replan-a-production-order"></a>Sådan omplanlægges en produktionsordre  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Fastlagte prod.ordrer**, og vælg derefter det relaterede link.  
-2.  Åbn den produktionsordre, du vil omplanlægge.  
-3.  På oversigtspanelet **Linjer** skal du vælge handlingen **Linjer** og derefter handlingen **Komponenter**.  
-4.  Tilføj en komponent, som er en produktionsvare eller et halvfabrikata.  
-5.  Vælg handlingen **Omplanlæg** i produktionsordren.  
+## <a name="to-replan-a-production-order"></a>Sådan omplanlægges en produktionsordre
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Fastlagt produktionsordrer**, og vælg derefter det relaterede link.  
+2. Åbn den produktionsordre, du vil omplanlægge.  
+3. På oversigtspanelet **Linjer** skal du vælge handlingen **Linjer** og derefter handlingen **Komponenter**.  
+4. Tilføj en komponent, som er en produktionsvare eller et halvfabrikata.  
+5. Vælg handlingen **Omplanlæg** i produktionsordren.  
 
     Fortsæt med at definere, hvad der skal omplanlægges og hvordan, på siden **Omplanlæg produktionsordre**.  
-6.  Vælg én af følgende indstillinger i feltet **Systemindikator**.  
+6. Vælg én af følgende indstillinger i feltet **Systemindikator**.  
 
-    |Indstilling|Beskrivelse|  
-    |----------------------------------|---------------------------------------|  
-    |**Baglæns**|Beregner operationssekvensen baglæns fra den tidligst mulige slutdato, defineret ved forfaldsdatoen og/eller andre planlagte ordrer til den senest mulige startdato. **Bemærk!** Denne standardindstilling er relevant i de fleste situationer.|  
-    |**Forlæns**|Beregner operationssekvensen forlæns fra den senest mulige startdato, defineret ved forfaldsdatoen og/eller andre planlagte ordrer til den tidligst mulige slutdato. **Bemærk!** Denne indstilling er kun relevant for fremskyndede ordrer.|  
+    | Indstilling | Beskrivelse |
+    |--|--|
+    | **Baglæns** | Beregner operationssekvensen baglæns fra den tidligst mulige slutdato, defineret ved forfaldsdatoen og/eller andre planlagte ordrer til den senest mulige startdato. **Bemærk!** Denne standardindstilling er relevant i de fleste situationer. |
+    | **Forlæns** | Beregner operationssekvensen forlæns fra den senest mulige startdato, defineret ved forfaldsdatoen og/eller andre planlagte ordrer til den tidligst mulige slutdato. **Bemærk!** Denne indstilling er kun relevant for fremskyndede ordrer. |
 
-7.  Vælg, om produktionskravene skal beregnes for produktionsvarer på produktionsstyklisten, i feltet **Planlæg** på følgende måde.  
+7. Vælg, om produktionskravene skal beregnes for produktionsvarer på produktionsstyklisten, i feltet **Planlæg** på følgende måde.  
 
     |Indstilling|Beskrivelse|  
     |----------------------------------|---------------------------------------|  
@@ -57,20 +59,21 @@ Du kan indsætte produktionsordrelinjerne manuelt eller bruge funktionen, der ka
     |**Ét niveau**|Planlæg for produktionsbehov på 1. niveau. Der oprettes muligvis produktionsordrer på første niveau.|  
     |**Alle niveauer**|Planlæg for produktionsbehov på alle niveauer. Der oprettes muligvis produktionsordrer på alle niveauer.|  
 
-8.  Vælg **Et niveau**, og klik på **OK**, hvis du vil omplanlægge produktionsordren og beregne og oprette en ny underliggende produktionsordre for det nye halvfabrikata, hvis det ikke er fuldt tilgængeligt.  
+8. Vælg **Et niveau**, og klik på **OK**, hvis du vil omplanlægge produktionsordren og beregne og oprette en ny underliggende produktionsordre for det nye halvfabrikata, hvis det ikke er fuldt tilgængeligt.  
 
 > [!NOTE]  
->  Ændringer, der implementeres med funktionen **Omplanlægning** vil sandsynligvis ændre produktionsordrens kapacitetsbehov, hvorfor du muligvis skal ændre planlægning for operationerne bagefter.  
+> Ændringer, der implementeres med funktionen **Omplanlægning** vil sandsynligvis ændre produktionsordrens kapacitetsbehov, hvorfor du muligvis skal ændre planlægning for operationerne bagefter.  
 
-## <a name="to-refresh-a-production-order"></a>Sådan fornys en produktionsordre  
+## <a name="to-refresh-a-production-order"></a>Sådan fornys en produktionsordre
+
 Hvis du har ændret produktionsordrelinjer, komponenter eller rutelinjer, skal du også opdatere oplysningerne i produktionsordren. I det følgende beregnes komponenterne for en fastlagt produktionsordre. Trinnene er de samme for rutelinjer.
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Fastlagt produktionsordre**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Ny**. Du kan finde flere oplysninger i [Oprette produktionsordrer](production-how-to-create-production-orders.md).  
-3.  Vælg handlingen **Opdater**.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 2.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Fastlagt produktionsordre**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Ny**. Du kan finde flere oplysninger i [Oprette produktionsordrer](production-how-to-create-production-orders.md).  
+3. Vælg handlingen **Opdater**.
 4. Vælg en af følgende muligheder på siden **Opdater produktionsordre**:
 
-    |Indstilling|Beskrivelse|  
+    |Felt|Indstilling|Beskrivlse|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Planlægningsretning**|**Forlæns**|Planlægning begynder ved startdatoen og beregnes fremad til slutdatoen. Du skal angive startdatoen, hvis du vil bruge denne indstilling.|  
     ||**Baglæns**|Planlægning slutter ved startdatoen og beregnes bagud til startdatoen.|  
@@ -82,9 +85,10 @@ Hvis du har ændret produktionsordrelinjer, komponenter eller rutelinjer, skal d
 5. Vælg knappen **OK** for at bekræfte dit valg. Nu beregnes produktionsordrelinjerne.
 
 > [!NOTE]  
->  Når du beregner produktionsordrekomponenter, slettes tidligere ændringer i komponenterne.
+> Når du beregner produktionsordrekomponenter, slettes tidligere ændringer i komponenterne.
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Skabelon](production-planning.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    
@@ -92,4 +96,7 @@ Hvis du har ændret produktionsordrelinjer, komponenter eller rutelinjer, skal d
 [Køb](purchasing-manage-purchasing.md)  
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
 [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

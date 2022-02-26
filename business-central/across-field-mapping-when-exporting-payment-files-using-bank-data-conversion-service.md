@@ -3,27 +3,30 @@ title: Feltkobling til eksport af bankbetalingsfiler | Microsoft Docs
 description: Når du eksporterer betalingsfiler med AMC Banking 365 Fundamentals-udvidelsen, eksponeres de data, du eksporterer, for tjenesteudbyderen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0d85c4e4d882f84781ff119bdf397266c4f8ca1b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: f705334d42d27e22d9108a410ab91a213c725a4d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188656"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437748"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Felttilknytning ved eksport af betalingsfiler ved hjælp af AMC Banking 365 Fundamentals-udvidelsen
-Når du eksporterer betalingsfiler med AMC Banking 365 Fundamentals-udvidelsen, eksponeres de data, du eksporterer, for tjenesteudbyderen. Serviceudbyderen er ansvarlig for beskyttelsen af disse data. Du kan finde flere oplysninger om AMC Banking 365 Fundamentals i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md).  
+Når du eksporterer betalingsfiler med AMC Banking 365 Fundamentals-udvidelsen, eksponeres de data, du eksporterer, for tjenesteudbyderen. Serviceudbyderen er ansvarlig for beskyttelsen af disse data. Du kan finde flere oplysninger om AMC Banking 365 Fundamentals-udvidelsen under [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
->  Når du eksporterer betalingsfiler ved hjælp af AMC Banking 365 Fundamentals-udvidelsen vil nogle af virksomhedens data blive eksponeret for tjenesteudbyderen. Serviceudbyderen, AMC Consult A/S, er ansvarlig for beskyttelsen af disse data. Du kan finde flere oplysninger i [AMC's politik for beskyttelse af personlige oplysninger](https://go.microsoft.com/fwlink/?LinkId=510158).  
+>  Når du eksporterer betalingsfiler ved hjælp af AMC Banking 365 Fundamentals-udvidelsen, vil nogle af virksomhedens data blive eksponeret for tjenesteudbyderen. Serviceudbyderen, AMC Consult A/S, er ansvarlig for beskyttelsen af disse data. Du kan finde flere oplysninger i [AMC's politik for beskyttelse af personlige oplysninger](https://go.microsoft.com/fwlink/?LinkId=510158).  
 
-Følgende tabel viser de felter i [!INCLUDE[d365fin](includes/d365fin_md.md)], hvorfra du kan eksportere data.  
+> [!NOTE]
+> I den generelle version af [!INCLUDE[prod_short](includes/prod_short.md)] bliver en global udbyder af tjenester til konvertering af bankoplysninger til ethvert filformat, som kræves af din bank, konfigureret og tilsluttet. I den nordamerikanske version kan den samme service bruges til at sende betalingsfiler som elektronisk pengeoverførsel, f. eks. det almindeligt brugte ACH-netværk (Automated Clearing House), men med en lidt anden proces.
+
+Følgende tabel viser de felter i [!INCLUDE[prod_short](includes/prod_short.md)], hvorfra du kan eksportere data.  
 
 |Koblet felt|Felt i tabel|Sortbord|Beskrivelse|  
 |------------------|--------------------|-----------|---------------------------------------|  
@@ -72,3 +75,6 @@ Følgende tabel viser de felter i [!INCLUDE[d365fin](includes/d365fin_md.md)], h
 [Udveksle data elektronisk](across-data-exchange.md)
 [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)   
 [Foretage betalinger med AMC Banking 365 Fundamentals-udvidelsen eller SEPA-kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

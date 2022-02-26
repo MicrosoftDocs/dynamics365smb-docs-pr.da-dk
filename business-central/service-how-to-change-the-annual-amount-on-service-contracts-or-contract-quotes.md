@@ -1,28 +1,28 @@
 ---
-title: Sådan ændrer du det årlige beløb på servicekontrakter eller kontrakttilbud | Microsoft Docs
+title: Ændre det årlige beløb på servicekontrakter eller kontrakttilbud
 description: Du kan ændre det beløb, der vil blive faktureret pr. år på servicekontrakter eller servicekontrakttilbud.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ad5193621f0f581e5b2cdec305e08b20ca80ef4e
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: bb4fa7b9d75afa49846247b1fdce3fa25f19334a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402546"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436423"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ændre det årlige beløb på servicekontrakter eller kontrakttilbud
 Du kan ændre det årlige beløb på en servicekontrakt eller et kontrakttilbud til det korrekte beløb, der faktureres årligt.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Sådan ændres det årlige beløb på en servicekontrakt eller et kontrakttilbud  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicekontrakter** eller **Servicekontrakttilbud**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Servicekontrakter** eller **Servicekontrakttilbud**, og vælg derefter det relaterede link.  
 2. Vælg kontrakten eller kontrakttilbuddet.  
 3. Vælg handlingen **Åbn kontrakt** for at åbne kontrakten eller kontrakttilbuddet til redigering.  
 4. Marker afkrydsningsfeltet **Tillad beløb, der ikke stemmer**, hvis du vil ændre det årlige beløb og fordele differencen i det årlige beløb manuelt på kontraktlinjerne. Ellers skal du fjerne markeringen i afkrydsningsfeltet for automatisk at fordele differencen i det årlige beløb på kontraktlinjerne, når du har ændret det årlige beløb.  
@@ -99,7 +99,7 @@ Hvis du ændrer **Årligt beløb** til 60, beregnes avanceprocentandelen for hve
 * Vare 2 – 5,1/(5 + 5,1 + 12,7) = 0,2237  
 * Vare 3-12,7/(5 + 5,1 + 12,7) = 0,557  
 
-Feltværdien **Linjebeløb** opdateres på hver kontraktlinje ved brug af følgende formel: Linjebeløb = linjebeløb + differencen mellem de nye og de beregnede årlige beløb ganget med den procentvise andel. Derefter opdateres feltværdierne **Linjerabatbeløb**, **Linjerabatpct.** og **Avance** ved hjælp af formlerne, der er beskrevet i fremgangsmåden ovenfor.  
+Feltværdien **Linjebeløb** opdateres på hver kontraktlinje ved brug af følgende formel: Linjebeløb = linjebeløb + differencen mellem de nye og de beregnede årlige beløb * de procentvise andel. Derefter opdateres feltværdierne **Linjerabatbeløb**, **Linjerabatpct.** og **Avance** ved hjælp af formlerne, der er beskrevet i fremgangsmåden ovenfor.  
 
 Kontraktlinjerne indeholder derefter følgende data.  
 
@@ -137,7 +137,7 @@ Værdien i feltet **Årligt beløb** svarer til indholdet i feltet **Beregnet å
 * Vare 2 – 5,1/(5 + 5,1 + 12,7) = 0,2237  
 * Vare 3-12,7/(5 + 5,1 + 12,7) = 0,557  
 
-Feltværdien **Linjebeløb** opdateres på hver kontraktlinje ved brug af følgende formel: Linjebeløb = linjebeløb + differencen mellem de nye og de beregnede årlige beløb ganget med den procentvise andel. Derefter opdateres feltværdierne **Linjerabatbeløb**, **Linjerabatpct.** og **Avance** ved hjælp af formlerne i trin 3 i fremgangsmåden ovenfor.  
+Feltværdien **Linjebeløb** opdateres på hver kontraktlinje ved brug af følgende formel: Linjebeløb = linjebeløb + differencen mellem de nye og de beregnede årlige beløb * den procentvise andel. Derefter opdateres feltværdierne **Linjerabatbeløb**, **Linjerabatpct.** og **Avance** ved hjælp af formlerne i trin 3 i fremgangsmåden ovenfor.  
 
 Kontraktlinjerne indeholder derefter følgende data.  
 
@@ -150,3 +150,6 @@ Kontraktlinjerne indeholder derefter følgende data.
 ## <a name="see-also"></a>Se også  
 [Oprette servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Konfigurere Service](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,24 +1,24 @@
 ---
-title: Automatisk nedbrydning med styret læg-på-lager og pluk | Microsoft Docs
-description: På lokationer, hvor der bruges styret læg-på-lager og pluk, kan du nedbryde større enheder til mindre enheder, når der oprettes lagerinstruktioner, som opfylder behovet for kildedokumenter, produktionsordrer eller interne pluk og læg-på-lager.
+title: Nedbrydning med styret læg-på-lager og pluk
+description: Få mere at vide om, hvordan du aktiverer automatisk nedbrydning med styret læg-på-lager og pluk samt nedbrydning i pluk, putaways, bevægelser m.m.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 9d2e0c1b065cfb96c27bc7f76ab3168e927e3705
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: a3e992b86b2c53393ee385fd4abde05bd2b915f2
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193319"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324835"
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Aktivere automatisk nedbrydning med styret læg-på-lager og pluk
-På lokationer, hvor der bruges styret læg-på-lager og pluk, kan [!INCLUDE[d365fin](includes/d365fin_md.md)] i visse tilfælde foretage automatisk nedbrydning. Dermed nedbrydes større enheder til mindre enheder, når der oprettes lagerinstruktioner, som opfylder behovet for kildedokumenter, produktionsordrer eller interne pluk og læg-på-lager. Nedbrydning kan også betyde indsamling af mindre enheder, hvis det er nødvendigt for at efterkomme udgående anmodninger, ved at nedbryde den største enhed i kildedokumentet eller produktionsordren i mindre enheder, der er tilgængelig på lageret. -nedbrydninger som følger.   
+På lokationer, hvor der bruges styret læg-på-lager og pluk, kan [!INCLUDE[prod_short](includes/prod_short.md)] i visse tilfælde foretage automatisk nedbrydning. Dermed nedbrydes større enheder til mindre enheder, når der oprettes lagerinstruktioner, som opfylder behovet for kildedokumenter, produktionsordrer eller interne pluk og læg-på-lager. Nedbrydning kan også betyde indsamling af mindre enheder, hvis det er nødvendigt for at efterkomme udgående anmodninger, ved at nedbryde den største enhed i kildedokumentet eller produktionsordren i mindre enheder, der er tilgængelig på lageret. -nedbrydninger som følger.   
 
 ## <a name="breakbulking-in-picks"></a>Nedbrydning under pluk  
 Hvis du vil lagre varer i flere forskellige enheder og lader dem blive automatisk kombineret efter behov i plukprocessen, skal du markere feltet **Tillad nedbrydning** på lokationskortet.  
@@ -47,7 +47,10 @@ Du kan få vist resultaterne af konverteringsprocessen fra en enhed til en anden
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

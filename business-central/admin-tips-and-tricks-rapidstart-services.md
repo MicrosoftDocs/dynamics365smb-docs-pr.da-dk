@@ -3,40 +3,53 @@ title: Tip - RapidStart Services | Microsoft Docs
 description: Når du konfigurerer virksomheder ved hjælp af RapidStart Services, er der nogle tip og tricks, som du kan bruge til at hjælpe dig med, at implementeringen går problemfrit.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ef836fce45dc2347f716d298207708caa54689f0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: e301d788fdedacf0fc2ac3ce29946df965bed711
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186568"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777062"
 ---
 # <a name="tips-and-tricks-rapidstart-services"></a>Tip: RapidStart Services
+
 Når du konfigurerer virksomheder ved hjælp af RapidStart Services, er der nogle tip og tricks, som du kan bruge til at hjælpe dig med, at implementeringen går problemfrit.  
 
-## <a name="take-advantage-of-configuration-templates"></a>Udnytte fordelen ved konfigurationsskabeloner  
+## <a name="take-advantage-of-configuration-templates"></a>Udnytte fordelen ved konfigurationsskabeloner
+
 Konfigurationsskabeloner kan hjælpe dig med at strømline implementeringsprocessen. Ved hjælp af dem kan du inkludere lignende kunder i segmenter og derefter udarbejde en protokol til implementering, der behandler alle kunder i et segment på samme måde. På denne måde kan du anvende et niveau af forudkonfiguration til hvert segment og fortsætte med en hurtig implementering.  
 
-## <a name="configuration-questionnaires"></a>Konfigurationsspørgeskemaer  
+## <a name="configuration-questionnaires"></a>Konfigurationsspørgeskemaer
+
 Du skal overveje at definere standardsvar for at angive de bedste fremgangsmåder, som en støtte til processen med at udfylde et konfigurationsspørgeskema.  
 
-## <a name="batch-creation-of-journal-lines"></a>Batchoprettelse af kladdelinjer  
+## <a name="batch-creation-of-journal-lines"></a>Batchoprettelse af kladdelinjer
+
 Vi anbefaler, at du bruger de leverede værktøjer til dataoverflytning til at overflytte journalposter. Hvis du bruger et batchjob til at oprette kladdelinjer, har dette et begrænset omfang og opretter kun præ-standardfelter i en kladde. Resten af kladden skal derefter udfyldes manuelt.  
 
-## <a name="migrating-transactions"></a>Overflytning af transaktioner  
-Vi anbefaler, at du overflytter startsaldoer i følgende rækkefølge. <!--Be aware that you cannot insert ledger entries directly. Instead you must use journals to post the journal lines--> 
+## <a name="migrating-transactions"></a>Overflytning af transaktioner
 
-1.  Overflytte startsaldoer for regnskab uden brug af underregnskaber i finans. Brug af specifikke primosaldo modregningskonti, én opsat for hvert underregnskab. Konfigurer modregningskontiene til at aktivere direkte bogføring.  
-2.  Overflyt åbne debitorposter.  <!--work on these-->
-3.  Overflyt åbne vareposter.  
-4.  Overflyt åbne anlægsposter.  
+Vi anbefaler, at du overflytter startsaldoer i følgende rækkefølge. <!--Be aware that you cannot insert ledger entries directly. Instead you must use journals to post the journal lines-->
 
-## <a name="see-also"></a>Se også  
+1. Overflytte startsaldoer for regnskab uden brug af underregnskaber i finans. Brug af specifikke primosaldo modregningskonti, én opsat for hvert underregnskab. Konfigurer modregningskontiene til at aktivere direkte bogføring.  
+2. Overflyt åbne debitorposter.  <!--work on these-->
+3. Overflyt åbne vareposter.  
+4. Overflyt åbne anlægsposter.  
+
+## <a name="make-each-package-manageable"></a>Gøre hver pakke håndterbar
+
+Når du bruger konfigurationspakker til at overføre data, skal du opdele dataene i separate pakker, så de er nemmere at overføre. Hvis du f.eks. vil overføre 20 års finansposter, kan det tage mange timer og dage, før importen er udført. I stedet skal du opdele dataene, så de enkelte pakker bliver nemmere at håndtere. I øjeblikket er der ingen faste regler for, hvad der gør en pakke håndterbar, men hvis du har problemer med at importere eller eksportere en pakke, skal du gøre den mindre og se, om det hjælper.  
+
+## <a name="see-also"></a>Se også
+
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
-[Opsætning](admin-setup-and-administration.md)
+[Opsætning](admin-setup-and-administration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

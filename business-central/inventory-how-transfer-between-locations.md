@@ -1,21 +1,22 @@
 ---
-title: Overflytte varer mellem lagerlokationer | Microsoft Docs
+title: Overføre varer mellem lagerlokationer
 description: Beskriver, hvordan du flytter lager fra ét sted eller lagersted til et andet enten med omposteringskladden eller overflytningsordrer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: move, warehouse
-ms.date: 04/01/2020
-ms.author: SorenGP
-ms.openlocfilehash: c7d383fdaf75857013651944207616bdc7208e6d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.forms: 5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 166ac80202717ff3418b040ad01bccb1eb97ac66
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181960"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059382"
 ---
 # <a name="transfer-inventory-between-locations"></a>Overflytte lagerbeholdning mellem lokationer
 Du kan overføre lagervarer mellem lokationer ved at oprette overflytningsordrer. Du kan også bruge vareomposteringskladden.
@@ -30,8 +31,8 @@ Med omposteringskladden skal du blot udfylde felterne **Lokationskode** og **Ny 
 Hvis du vil overflytte varer, skal lokationer og overflytningsruter oprettes. Der er flere oplysninger i [Opsætte lokationer](inventory-how-setup-locations.md).
 
 ## <a name="to-transfer-items-with-a-transfer-order"></a>Såden overflyttes varer med en overflytningsordre
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Overflytningsordrer**, og vælg derefter det relaterede link.
-2. I sidehovedet på siden **Overflytningsordre** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **overflytningsordrer**, og vælg derefter det relaterede link.
+2. På siden **Overflytningsordre** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     >   Hvis du har udfyldt felterne **Transitkode**, **Speditørkode** og **Speditørservice** på siden **Overflytningsrutespec.**, udfyldes de tilsvarende felter på overflytningsordren automatisk, når du opretter overflytningsruten.
@@ -51,7 +52,7 @@ Hvis du vil overflytte varer, skal lokationer og overflytningsruter oprettes. De
 5. Vælg handlingen **Bogfør**, vælg indstillingen **Modtag**, og vælg derefter knappen **OK**.
 
 ## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Sådan overflyttes varer i vareomposteringskladden
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Vareomposteringskladder**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Vareomposteringskladder**, og vælg derefter det relaterede link.
 2. På siden **Vareomposteringskladder** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. I feltet **Lokationskode** skal du indtaste den lokation, hvor varerne opbevares i øjeblikket.
 
@@ -63,6 +64,9 @@ Hvis du vil overflytte varer, skal lokationer og overflytningsruter oprettes. De
 ## <a name="see-also"></a>Se også
 [Administrere lager](inventory-manage-inventory.md)  
 [Opsætte lokationer](inventory-how-setup-locations.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

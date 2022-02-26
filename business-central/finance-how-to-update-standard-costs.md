@@ -1,34 +1,34 @@
 ---
-title: Sådan opdateres standardkostpriser | Microsoft Docs
+title: Opdatere standardkostpriser
 description: Du skal regelmæssigt opdatere standardkostprisen for komponenter og akkumulere de nye omkostninger til den overordnede vare.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7fb47fe72d323182973e970867ad6648652bc62f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 5841
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 26fc683f1c11a8341437823ceef438eaa269deb1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183232"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972456"
 ---
 # <a name="update-standard-costs"></a>Opdatere standardkostpriser
 Du skal regelmæssigt opdatere standardkostprisen for komponenter og akkumulere de nye omkostninger til den overordnede vare. Processen består normalt af følgende fire trin:  
 
 1.  Opdatere omkostninger på komponent- og kapacitetsniveau. Du kan finde flere oplysninger i kørslen **Foreslå kostpris (standard)**.  
 2.  Konsolidering og akkumulering af komponent- og kapacitetsomkostninger til beregning af de samlede fremstillings- eller montageomkostninger for varerne.  
-3.  Implementere de standardkostpriser, der angives, når du kører de tidligere kørsler. Standardkostpriserne træder ikke i kraft, før de er implementeret. Du kan finde flere oplysninger i Implementer std.kostprisændringer.  
-4.  Implementere ændringer for at opdatere feltet **Kostpris** på varekortet og udføre regulering af lagerværdi. Du kan finde flere oplysninger under [Regulere lagerbeholdningen](inventory-how-revalue-inventory.md).  
+3.  Implementere de standardkostpriser, der angives, når du kører de tidligere kørsler. Standardkostpriserne træder ikke i kraft, før de er implementeret. Med **Implementer std.kostprisændringer**-kørslen, der opdaterer ændringerne i standardkostprisen for varer med ændringerne i tabellen Standardkostpriskladde.  
+4.  Implementere ændringer for at opdatere feltet **Kostpris** på varekortet og udføre regulering af lagerværdi. Du kan finde flere oplysninger i [Regulere lagerbeholdningen](inventory-how-revalue-inventory.md).  
 
-Du kan finde flere oplysninger i [Om beregning af standardkostpris](finance-about-calculating-standard-cost.md).  
-## <a name="to-update-standard-costs"></a>Sådan opdateres standardkostpriser  
+Du kan finde flere oplysninger i [Om beregning af standardkostpris](finance-about-calculating-standard-cost.md).
+  
+## <a name="to-update-standard-costs"></a>Sådan opdateres standardkostpriser
+
 1.  Udfør kørslen **Juster kostpris - vareposter**.  
 2.  Udfør kørslen **Bogfør lagerregulering**.  
 3.  Åbn **Standardkostpriskladde**, og brug en eller flere af følgende funktioner:  
@@ -42,8 +42,12 @@ Du kan finde flere oplysninger i [Om beregning af standardkostpris](finance-abou
     7.  Udfør kørslen **Implementer std.kostprisændringer**.  
 4.  Gennemse og bogfør siden **Værdireguleringskladde** , som er blevet udfyldt med posterne fra det forrige trin i processen.  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
  [Om beregning af standardomkostning](finance-about-calculating-standard-cost.md)   
  [Administrere lageromkostninger](finance-manage-inventory-costs.md)   
  [Designoplysninger: Kostmetoder](design-details-costing-methods.md) [Finans](finance.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

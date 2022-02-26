@@ -1,21 +1,21 @@
 ---
-title: Ofte stillede spørgsmål om Fortæl mig | Microsoft Docs
-description: Denne artikel indeholder svar på spørgsmål, som vores partnere og kunder ofte stiller om Fortæl mig.
+title: Ofte stillede spørgsmål om Fortæl mig
+description: Denne artikel indeholder svar på spørgsmål, som vores partnere og kunder ofte stiller om Fortæl mig-funktionen.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.date: 02/12/2020
+ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 67dd65491710206245a2ff83dce3d3eb94484770
-ms.sourcegitcommit: c78df3aefb3e2ed8c28e5ac8340d56ab787212e8
+ms.openlocfilehash: 20493ffc3dd20da07d5f27602f4c766a0ebfbd87
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071906"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325859"
 ---
 # <a name="tell-me-faq"></a>Ofte stillede spørgsmål om Fortæl mig
 I dette emne besvares spørgsmål, som erfarne brugere ofte stiller om funktionen Fortæl mig.
@@ -32,7 +32,7 @@ Handlinger, sider og rapporter, der stammer fra udvidelser, hentes af Fortæl mi
 ### <a name="what-makes-this-different-from-what-was-previously-known-as-page-search"></a>Hvordan adskiller denne funktion sig fra det, der tidligere blev kaldt sidesøgning?
 Sidesøgning er blevet udviklet til Fortæl mig for at hjælpe dig med at få arbejdet gjort hurtigt. Sidesøgning kan kun hjælpe dig med at navigere til sider eller rapporter. På et teknisk plan er Fortæl mig ikke længere baseret på det ældre MenuSuite-princip.
 
-### <a name="i-use-on-premises-d365fin-does-that-include-tell-me"></a>Jeg bruger [!INCLUDE[d365fin](includes/d365fin_md.md)] til det lokale miljø. Omfatter det Fortæl mig?
+### <a name="i-use-on-premises-prod_short-does-that-include-tell-me"></a>Jeg bruger [!INCLUDE[prod_short](includes/prod_short.md)] til det lokale miljø. Omfatter det Fortæl mig?
 Du kan bruge Fortæl mig i den lokale webklient til at finde handlinger, sider og rapporter, men ikke dokumentation eller apps og konsulenttjenester i AppSource.
 
 ### <a name="is-tell-me-available-for-all-form-factors"></a>Er Fortæl mig tilgængelig for alle formfaktorer?
@@ -50,3 +50,6 @@ Bogmærkeikonet vises ikke i vinduet Fortæl mig, når tilpasning er deaktiveret
 [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)  
 [Søge efter sider med Rollestifinder](ui-role-explorer.md)  
 [Bogmærke en side eller en rapport i rollecenteret](ui-bookmarks.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

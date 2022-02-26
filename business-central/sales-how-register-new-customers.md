@@ -1,55 +1,51 @@
 ---
-title: Oprette et debitorkort for at registrere nye kunder | Microsoft Docs
+title: Registrere nye debitorer ved at oprette debitorkort (indeholder video)
 description: Beskriver, hvordan du opretter et debitorkort for at registrere oplysninger om hver ny kunde, du sælger til.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: client
-ms.date: 04/27/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3b56b4009e08085bb232b050790aa03acf2aa4cf
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.search.keywords: client, customer, credit
+ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
+ms.date: 09/24/2021
+ms.author: edupont
+ms.openlocfilehash: 0e3745351039db7b4e24b8dfa1e31d920878aed0
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324266"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115254"
 ---
 # <a name="register-new-customers"></a>Registrere nye debitorer
+
 Debitorer er kilden til din indtægt. Du skal registrere hver debitor, du sælger til som et debitorkort. Debitorkort indeholder de oplysninger, som er en forudsætning for at sælge produkter til debitoren. Du kan finde flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md) og [Registrere nye varer](inventory-how-register-new-items.md).  
 
 Før du kan registrere nye debitorer, skal du oprette forskellige salgskoder, som du kan vælge mellem, når du udfylder debitorkort. Der er flere oplysninger i [Konfigurere salg](sales-setup-sales.md).
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-> [!NOTE]  
-> Hvis der er debitorskabeloner for forskellige debitortyper, vises der automatisk på side, når du opretter et nyt debitorkort, hvorfra du kan vælge en passende skabelon. Hvis der kun er én debitorskabelon, bruger nye debitorkort altid denne skabelon.  
+## <a name="adding-new-customers"></a>Tilføje nye debitorer
+Du kan tilføje nye debitorer manuelt ved at udfylde felterne på siden **Debitorkort**, eller du kan bruge skabeloner, der indeholder foruddefinerede oplysninger. Du kan f. eks. oprette skabeloner til forskellige typer debitorprofiler. Du kan spare tid ved at bruge skabeloner, når du tilføjer nye debitorer, så oplysningerne bliver korrekte hver gang. Hvis du opretter skabeloner til mere end én type debitor, kan du vælge den skabelon, du vil bruge, når du tilføjer en debitor. Hvis du kun opretter én skabelon, vil den blive brugt til alle nye debitorer. Når du har oprettet en skabelon, kan du bruge handlingen **Anvend skabelon** for at anvende den på en eller flere valgte debitorer. Hvis du vil oprette en skabelon, skal du angive de oplysninger, du vil genbruge, på siden Debitorkort og derefter gemme den som en skabelon. Du kan finde flere oplysninger i afsnittet [Sådan gemmes debitorkortet som en skabelon](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
-## <a name="to-create-a-new-customer-card"></a>Sådan oprettes et nyt debitorkort
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.  
-2. På siden **Debitorer** skal du vælge handlingen **Ny**.
+> [!TIP]
+> Det kan være nyttigt at tilpasse siden **Debitorskabeloner**, når du opretter en skabelon. Det kan f.eks. være en god ide at føje feltet **Kreditmaksimum** til en skabelon. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-    Hvis der kun er ét debitorbilag, åbnes der et nyt debitorkort, hvor nogle felter er udfyldt med oplysninger fra skabelonen.
+Du kan også oprette en debitor ud fra en kontakt. Du kan finde flere oplysninger i [Sådan oprettes en debitor-, kreditor-, medarbejder- eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
-    Hvis der er mere end én debitorskabelon, åbnes der automatisk på side, hvor du kan vælge en debitorskabelon. I dette tilfælde skal du følge de næste to trin.
-3. På siden **Vælg en skabelon til en ny debitor** skal du vælge den skabelon, som du vil bruge til det nye debitorkort.
-4. Vælg knappen **OK**. Et nyt debitorkort åbnes med nogle felter udfyldt med oplysninger fra skabelonen.  
-5. Fortsæt med at udfylde eller ændre felterne på debitorkortet efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+### <a name="to-create-a-new-customer-card"></a>Sådan oprettes et nyt debitorkort
 
-I oversigtspanelet **Salgspriser** kan du se specialpriser eller rabatter, som du tildeler til debitoren, hvis bestemte kriterier opfyldes, f.eks. vare, mindste ordrestørrelse eller slutdato. Hver række repræsenterer en specialpris- eller en linjerabat. Hver kolonne repræsenterer et kriterium, der skal anvendes for at garantere den specialpris, du angiver i feltet **Enhedspris** eller den linjerabat, som du angiver i feltet **Linjerabatpct.** Du kan finde flere oplysninger under [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).
+[!INCLUDE[create_new_customer](includes/create_new_customer.md)]
+
+**Priser og rabatter** indeholder indstillinger for styring af special priser eller rabatter for kunden, når en ordre opfylder bestemte kriterier. F. eks. kan kriterierne være, når de køber en bestemt vare, bestiller et minimum eller køber før en dato, f. eks. Når en kampagne afsluttes. Du kan finde flere oplysninger i [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Debitoren er nu registreret, og debitorkortet er klar til at blive brugt i salgsdokumenter.
 
-### <a name="deleting-customer-cards"></a>Slette debitorkort
-Hvis du har bogført en postering for en debitor, kan du ikke slette kortet, da posterne muligvis er nødvendige med henblik på revision. Hvis du vil slette debitorkort med poster, skal du kontakte Microsoft-partneren for at gøre dette via kode.
+Hvis du vil bruge dette debitorkort som skabelon, når du opretter nye debitorkort, kan du gemme det som en skabelon. Du kan finde flere oplysninger i følgende afsnit.  
 
-Hvis du vil bruge dette debitorkort som skabelon, når du opretter nye debitorkort, kan du gemme det som en skabelon. Du kan finde flere oplysninger i følgende afsnit.
+### <a name="to-save-the-customer-card-as-a-template"></a>Sådan gemmes debitorkortet som en skabelon
 
-## <a name="to-save-the-customer-card-as-a-template"></a>Sådan gemmes debitorkortet som en skabelon
 1. På siden **Debitorkort** skal du vælge handlingen **Gem som skabelon**. Siden **Debitorskabelon** åbnes med debitorkortet som skabelon.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Hvis du vil genbruge dimensioner i kladder, skal du vælge handlingen **Dimensioner**. Siden **Skabeloner til dimensioner** åbnes med alle dimensionsværdikoder, der er konfigureret for debitoren.
@@ -58,10 +54,40 @@ Hvis du vil bruge dette debitorkort som skabelon, når du opretter nye debitorko
 
 Debitorskabelonen føjes til listen over debitorskabeloner, så du kan bruge den til at oprette nye debitorkort.
 
+## <a name="deleting-customer-cards"></a>Slette debitorkort
+
+Hvis du har bogført en postering for en debitor, kan du ikke slette kortet, da posterne muligvis er nødvendige med henblik på revision. Hvis du vil slette debitorkort med poster, skal du kontakte din Microsoft-partner for at gøre dette via kode.  
+
+## <a name="managing-credit-limits"></a>Administrere kreditgrænser
+
+Kreditgrænser, saldobeløb og betalingsbetingelser gør det f.eks. muligt for [!INCLUDE [prod_short](includes/prod_short.md)] at udstede kredit og en forfaldsadvarsel, når du behandler en salgsordre.  Desuden kan du med rykker- og rentebetingelserne fakturere rente og/eller opkrævningsgebyrer.  
+
+Feltet **Kreditmaksimum** på debitorkortet angiver det maksimale beløb, som du tillader, at debitoren overskrider betalings saldoen, før der udstedes advarsler. Når du derefter indtaster oplysninger i kladder, tilbud, ordrer og fakturaer, [!INCLUDE [prod_short](includes/prod_short.md)] tester salgshovedet og de enkelte salgslinjer, om kreditmaksimum er overskredet.
+
+Du kan bogføre, selv om kreditgrænsen er overskredet. Hvis ikke feltet udfyldes, betyder det, at der ikke er nogen kreditgrænse for debitoren.  
+
+Du kan vælge ikke at få vist advarsler om, at debitorens kreditmaksimum er overskredet, og du kan angive, hvilke typer advarsel du vil se.
+
+### <a name="to-specify-credit-limit-warnings"></a>Sådan angiver du advarsler om kreditmaksimum
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Salgsopsætning**, og vælg derefter det relaterede link.
+
+2. I oversigtspanelet **Generelt** i feltet **Kreditmeddelelser** skal du vælge den relevante indstilling som beskrevet i følgende tabel:
+
+    |Indstilling| Description|
+    |------|------------|
+    |**Begge advarsler**| Både feltet **Kreditmaksimum** og feltet **Forf. beløb** på debitorkortet kontrolleres, og der vises en advarsel, hvis kunden har overskredet kreditmaksimum, eller hvis kunden har et forfaldent beløb.|
+    |**Kreditmaksimum**|Værdien i feltet **Kreditmaksimum** på debitorkortet sammenlignes med kundens saldo, og der vises en advarsel, hvis kundens saldo overskrider dette beløb.|
+    |**Forfaldne beløb**|Feltet **Forf. beløb** på debitorens kort kontrolleres, og en advarsel vises, hvis debitorens saldo er forfalden.|
+    |**Ingen advarsel**|Der vises ingen advarsler om debitorens status.|
+
 ## <a name="see-also"></a>Se også
+
 [Definere betalingsformer](finance-payment-methods.md)  
 [Flette dublerede poster](sales-how-merge-duplicate-records.md)  
 [Oprette nummerserie](ui-create-number-series.md)  
-[Salg](sales-manage-sales.md)    
-[Konfigurere salg](sales-setup-sales.md)    
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Salg](sales-manage-sales.md)  
+[Konfigurere salg](sales-setup-sales.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

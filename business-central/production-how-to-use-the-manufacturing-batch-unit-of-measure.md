@@ -1,21 +1,21 @@
 ---
-title: Sådan bruges produktionskladdeenheden | Microsoft Docs
-description: Hvis en vare lagerføres i én enhed, men produceres i en anden, skal produktionsordren bruge en produktionskladdeenhed til beregning af det rigtige antal komponenter. Produktionskladdeenheden kan f.eks. bruges til beregning, når den producerede vare lagerføres i enheder, men produceres i ton.
+title: 'Fremgangsmåde: Bruge produktionskladdeenhedskoden'
+description: Dette emne giver en oversigt over, hvordan du kan arbejde med måleenheder for produktion i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 550a7ff11dc63f35326f5daabfe0d25d928c86d7
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: d0fed17c296932afd5f976d5cceb7a4b83c79dae
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877731"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321237"
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Arbejde med produktionskladdeenheder
 Hvis en vare lagerføres i én enhed, men produceres i en anden, kan der oprettes en produktionsordre, hvor der bruges en produktionskladdeenhed til beregning af det rigtige antal komponenter under kørslen af **Opdater produktionsordre**. Produktionskladdeenheden kan f.eks. bruges til beregning, når den producerede vare lagerføres i enheder, men produceres i ton.  
@@ -51,4 +51,7 @@ På oversigtspanelet **Linjer** skal du vælge handlingen **Linje** og derefter 
 [Planlægning](production-planning.md)   
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

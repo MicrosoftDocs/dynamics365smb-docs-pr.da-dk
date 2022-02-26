@@ -1,25 +1,25 @@
 ---
-title: Import af mange varebilleder fra en zip-fil | Microsoft Docs
-description: Du kan importere flere varebilleder på en gang. Navngiv blot dine billedfiler svarende til dine varenumre, komprimer dem til en zip-fil, og benyt siden Importer varebilleder for at styre, hvilke varebilleder, der skal importeres.
-documentationcenter: ''
+title: Importere mange varebilleder fra en zip-fil
+description: Du kan importere flere varebilleder svarende til dine varenumre ved at komprimere dem til en zip-fil, og benyt siden Importer varebilleder for at styre, hvilke varebilleder, der skal importeres.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: product, image
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8478a6fc2a4860f2cd5a2b5a01d6680fbaea3130
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 30, 461
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 5a43d696eab27a72c9f9b3c224d08feb9e99ccf4
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182176"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059670"
 ---
 # <a name="import-multiple-item-pictures"></a>Importer flere varebilleder
-Du kan importere flere varebilleder på en gang. Navngiv blot dine billedfiler svarende til dine varenumre, komprimer dem til en zip-fil, og benyt siden **Importer varebilleder** for at styre, hvilke varebilleder, der skal importeres.
+Du kan importere flere varebilleder på en gang. Navngiv blot dine billedfiler svarende til dine varenumre, komprimer dem til en zip-fil, og benyt siden Importer varebilleder for at styre, hvilke varebilleder, der skal importeres.
 
 Alle standardfilformater er understøttet.
 
@@ -35,7 +35,7 @@ Alle standardfilformater er understøttet.
 2. Saml alle filerne i en zip-fil. F.eks.: I Windows Explorer vælger du filerne, og derefter vælger du **Send til**, **Komprimeret (zipped) mappe**.     
 
 ## <a name="to-import-item-pictures"></a>Importer varebilleder
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageropsætning**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Lager**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Importer billeder**.
 3. Find feltet **Vælg en zip-fil**, vælg den relevante zip-mappe, og vælg dernæst knappen **Åbn**.
 
@@ -54,4 +54,7 @@ Feltet **Importstatus** opdateres for at vise, om billedimporten blev annulleret
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

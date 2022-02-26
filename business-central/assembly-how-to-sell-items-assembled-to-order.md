@@ -1,21 +1,21 @@
 ---
-title: Sådan sælger du en vare, der er monteret til ordre | Microsoft Docs
-description: Hvis varen er konfigureret til montage til ordre, forventes varen derefter ikke at være på lager, og den skal samles specifikt til en salgsordre. Når du indtaster varen på en salgsordrelinje, bliver der automatisk oprettet en montageordre, hvorefter den knyttes til salgsordren.
+title: 'Fremgangsmåde: Sælge varer, der er monteret til ordre'
+description: Hvis varen er konfigureret til montage til ordre, forventes varen derefter ikke at være på lager, og den skal samles specifikt til en salgsordre.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: da4a854aa573599db2d2493219d4393366a995f9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.keywords: kit, kitting, substitute items
+ms.date: 07/29/2021
+ms.author: edupont
+ms.openlocfilehash: 05060eaf315ac85f50509aec3df46ec3e9319deb
+ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186328"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440612"
 ---
 # <a name="sell-items-assembled-to-order"></a>Sælge varer, der er monteret til ordre
 Hvis feltet **Montagepolitik** på varekortet til et montageelement er **Montage efter ordre**, kan varen ikke forventes at være på lager og skal samles specifikt til en salgsordre. Når du indtaster varen på en salgsordrelinje, bliver der automatisk oprettet en montageordre, hvorefter den knyttes til salgsordren.  
@@ -29,7 +29,7 @@ I denne procedure behandler du salg af et element, der skal samles i henhold til
 >  Følgende procedure omfatter ikke standardsalgsordretrin før det trin, hvor du indtaster montage efter ordre-elementer på en salgsordrelinje.  
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Sådan sælger du en vare, der er samlet til ordre  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  Oprette en salgsordre. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).  
 3.  I feltet **Nummer** skal du angive en vare, der er indstillet til at samles til ordre.  
 4.  I feltet **Lokationskode** skal du definere, hvilken lokation varen sælges fra. Montageprocessen vil forekomme på denne placering.  
@@ -57,9 +57,15 @@ I denne procedure behandler du salg af et element, der skal samles i henhold til
 10. På salgsordren skal du vælge handlingen **Frigiv** for at advisere montageafdelingen om, at montageprocessen kan startes.  
 11. I samleafdelingen, skal du udføre trinnene med samling af de elementer, der sælges i denne procedure. Du kan finde flere oplysninger i [Montere varer](assembly-how-to-assemble-items.md).  
 
+> [!NOTE]  
+> Vær opmærksom på, at erstatningsvarer ikke automatisk medfører, at en vare erstattes af en anden vare, f. eks. når der oprettes en salgsordre eller en stykliste. I stedet bliver du advaret om, at der er en erstatningsvare tilgængelig.
+
 ## <a name="see-also"></a>Se også  
 [Montagestyring](assembly-assemble-items.md)  
 [Arbejde med styklister](inventory-how-work-BOMs.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Registrere nye varer](inventory-how-register-new-items.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

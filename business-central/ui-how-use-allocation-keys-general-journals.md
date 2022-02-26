@@ -1,29 +1,28 @@
 ---
-title: Bruge fordelingsnøgler i finanskladder | Microsoft Docs
-description: Få at vide, hvordan du kan bruge fordelingsnøgler i kladder.
-services: project-madeira
-documentationcenter: ''
+title: Bruge fordelingsnøgler i finanskladder
+description: Du kan allokere en post i en finanskladde til flere forskellige konti, når du bogfører kladden.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost accounting
-ms.date: 10/01/2019
+ms.search.form: 283, 284
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 9c540b04b7dcda7cd3b656a86679228af08261c9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 347e4999be079d31aa06cc80a1b7c9858d19ff57
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310920"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101291"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Bruge fordelingsnøgler i finanskladder
 Du kan allokere en post i en finanskladde til flere forskellige konti, når du bogfører kladden. Allokeringen kan foretages efter antal, procent eller beløb.
 
 ## <a name="to-set-up-allocation-keys"></a>Sådan konfigureres fordelingsnøgler
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
 2. Vælg feltet **Kladdenavn** for at åbne siden **Finanskladdenavne**.
 3. Du kan ændre fordelinger for et eksisterende navn på listen eller oprette et nyt navn med fordelinger.
    * Du kan oprette en ny kladde ved at vælge handlingen **Ny** og gå til næste trin.
@@ -38,7 +37,7 @@ Du kan allokere en post i en finanskladde til flere forskellige konti, når du b
 11. Bogfør journalen.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Sådan ændres en fordelingsnøgle, der allerede er oprettet
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
 2. Vælg kladden med allokeringen på siden **Finansgentagelseskladde**.
 3. Vælg linjen med fordelingen og vælg derefter handlingen **Fordelinger**.
 4. Rediger de relevante felter, og vælg derefter knappen **OK**.
@@ -46,4 +45,7 @@ Du kan allokere en post i en finanskladde til flere forskellige konti, når du b
 ## <a name="see-also"></a>Se også
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Bogføring af dokumenter og kladder](ui-post-documents-journals.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

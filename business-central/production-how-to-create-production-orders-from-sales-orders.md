@@ -1,37 +1,48 @@
 ---
-title: Sådan oprettes produktionsordrer fra salgsordrer | Microsoft Docs
-description: Du kan oprette produktionsordrer fra salgsordrer i afdelingen Salg & marketing.
-services: project-madeira
-documentationcenter: ''
+title: Oprette produktionsordrer fra salgsordrer
+description: Flere oplysninger om at oprette produktionsordrer på forskellige måder til producerede varer direkte fra salgsordrer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: d1851131512f194f708f7873978a201d85a9e248
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 99000883, 99000884
+ms.date: 06/22/2021
+ms.author: edupont
+ms.openlocfilehash: 493d47e13d9ad1d7a2424dec4cd3691e92068d73
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314140"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973358"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Oprette produktionsordrer fra salgsordrer
 Du kan oprette produktionsordrer til producerede varer direkte fra salgsordrer.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Sådan oprettes en produktionsordre fra en salgsordre  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg den salgsordre, du vil oprette en produktionsordre for.  
 3.  Vælg handlingen **Planlægning**. På siden **Salgsordreplanlægning** kan du få vist disponeringen for en salgsordrevare.  
 4.  Vælg handlingen **Opret prod.ordre**.  
 5.  Vælg status og ordretype.  
-6.  Vælg knappen **Ja** for at oprette en produktionsordre.
+6.  Klik på knappen **Ja** for at oprette en eller flere produktionsordrer til de linjer, der har **produktionsordre** i feltet **Genbestillingssystem**.
 
-Du kan også vælge at oprette en projektproduktionsordre. Du kan finde flere oplysninger i [Planlægge projektordrer](production-how-to-plan-project-orders.md).   
+
+> [!NOTE]  
+> Linjer i den oprettede projektproduktionsordre, der har behov for **Prod.ordre** i feltet **Genbestillingssystem**, repræsenterer underliggende produktionsordrer. Når du har oprettet disse produktionsordrer, skal du huske at identificere eventuelle ekspederet komponentbehov for dem ved hjælp af siden **Ordreplanlægning** eller funktionen **Omplanlæg** fra oprettede ordrer. 
+
+## <a name="order-type"></a>Ordretype  
+Du kan vælge mellem to måder at oprette produktionsordrer på, som beskrevet i følgende tabel.
+
+|Indstilling|Beskrivelse|
+|------|-----------|
+|Vareordre|En produktionsordre oprettes for hver enkelt behov produktionsordre, der repræsenteres af a linje i vinduet **Salgsordreplanlægning**.|
+|Projektordre|En produktionsordre oprettes for hver enkelt produktionsordre, der repræsenteres af en linje i vinduet **Salgsordreplanlægning**. |
+
+Når du bruger projektordrer, indeholder feltet **Kildetype** i produktionsordren **Salgshoved**, og ordren indeholder flere linjer, en for hver salgslinjevare, der skal produceres.  
+
 
 ## <a name="see-also"></a>Se også  
 [Konfigurere produktion](production-configure-production-processes.md)  
@@ -40,4 +51,7 @@ Du kan også vælge at oprette en projektproduktionsordre. Du kan finde flere op
 [Køb](purchasing-manage-purchasing.md)  
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
 [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

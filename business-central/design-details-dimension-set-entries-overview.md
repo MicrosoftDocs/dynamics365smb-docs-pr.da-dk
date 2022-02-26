@@ -1,24 +1,24 @@
 ---
-title: Oversigt over dimensionsgruppeposter | Microsoft Docs
-description: Dette emne beskriver, hvordan dimensionsgruppeposter gemmes og bogføres i Dynamics 365.
+title: Oversigt over dimensionsgruppeposter
+description: Denne artikel giver dig et overblik over, hvordan poster i dimensionsopsætning gemmes som dimensions opsætnings poster, og hvordan de bogføres.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f35184a6a69ed0fa1ccd504525a19af6bd9c5955
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 8196cf08b5e4bf410d9682a30e714cb8c4522e17
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185512"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011675"
 ---
 # <a name="dimension-set-entries-overview"></a>Oversigt over dimensionsgruppeposter
-Dette emne beskriver, hvordan dimensionsgruppeposter gemmes og bogføres i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Dette emne beskriver, hvordan dimensionsgruppeposter gemmes og bogføres i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="dimension-sets"></a>Dimensionsopsætninger  
 En dimensionsgruppe er en entydig kombination af dimensionsværdier. Det er gemt som dimensionsgruppeposter i databasen. Hver dimensionsgruppepost repræsenterer en enkelt dimensionsværdi. Dimensionsgruppen er identificeret med en fælles dimensionsgruppe-id, der tildeles til hver dimensionsgruppepost, der hører til dimensionsgruppen.  
@@ -34,7 +34,7 @@ Følgende eksempel viser en dimensionsgruppe, der har tre poster for dimensionsg
 ## <a name="dimension-set-entries"></a>Dimensionsgruppeposter  
 Dimensionsgrupper er gemt i tabellen **Dimensionsgruppepost** som dimensionsgruppeposter med samme dimensionsgruppe-id.  
 
-![Flow af dimensionsgruppeposter](media/dimensionentrynav7.png "Flow af dimensionsgruppeposter")  
+![Flow af dimensionsgruppeposter.](media/dimensionentrynav7.png "Flow af dimensionsgruppeposter")  
 
 Når du opretter en ny kladdelinje, et nyt bilagshoved eller en ny bilagslinje, kan du angive en kombination af dimensionsværdier. I stedet for at eksplicit at gemme hver dimensionsværdi i databasen, tildeles kladdelinjen, bilagshovedet eller bilagslinjen en dimensionsgruppe-id, der angiver dimensionsgruppen.  
 
@@ -46,7 +46,10 @@ Codeunit 408 Dimensionsstyring er et funktionsbibliotek, der håndterer almindel
 ## <a name="performance-improvement"></a>Forbedring af ydeevne  
 Ved at gemme dimensionsgrupper én gang i databasen gemmes der plads i databasen, og den overordnede ydeevne forbedres.  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
 [Designoplysninger: Søgning efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)   
 [Designoplysninger: Tabelstruktur](design-details-table-structure.md)   
 [Designoplysninger: Dimensionsgruppeposter](design-details-dimension-set-entries.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

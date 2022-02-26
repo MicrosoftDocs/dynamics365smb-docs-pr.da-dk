@@ -3,24 +3,24 @@ title: Feltkobling, når du importerer SEPA CAMT-filer | Microsoft Docs
 description: Du kan indlæse bankkontoudtogsfiler i de regionale SEPA-standarder (Single Euro Payments Area) på europæiske markeder.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0ddc987b1dd27cf2379b128aa735a78bacb868da
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 567b77764aeacec84ef7577ed94f74dd6b6acc64
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188632"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776093"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Feltkobling, når du importerer SEPA-CAMT-filer
-[!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter de regionale SEPA-standarder for import af SEPA-kontoudtog fra banken (CAMT-format). Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] understøtter de regionale SEPA-standarder for import af SEPA-kontoudtog fra banken (CAMT-format). Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md).  
 
- SEPA CAM-standarden har selv lokale variationer. Derfor er du muligvis nødt til at ændre udvekslingsopsætningen for generiske data (repræsenteret af koden **SEPA CAMT** på siden **Bogføringsudvekslingsdefinitioner**) for at tilpasse den til en lokal variant af standarden. Følgende tabeller viser tilknytningen af element til felt for tabel 81, 273 og 274 i implementeringen af SEPA CAMT i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+ SEPA CAM-standarden har selv lokale variationer. Derfor er du muligvis nødt til at ændre udvekslingsopsætningen for generiske data (repræsenteret af koden **SEPA CAMT** på siden **Bogføringsudvekslingsdefinitioner**) for at tilpasse den til en lokal variant af standarden. Følgende tabeller viser tilknytningen af element til felt for tabel 81, 273 og 274 i implementeringen af SEPA CAMT i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Du kan finde oplysninger om oprettelse eller justering af en dataudvekslingsdefinition i [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -57,10 +57,17 @@ ms.locfileid: "3188632"
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Ustrukturerede|Tekst|Oplysninger, der gives for at aktivere matchning/afstemning af en post med de varer, som betalingen er beregnet til at udligne, f.eks fakturaer i et debitorsystem, på en ustruktureret måde||6|Beskrivelse|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Tekst|Yderligere oplysninger om posten||16|Oplysninger om transaktion|  
 
- Elementer i noden **Ntry**, der importeres i [!INCLUDE[d365fin](includes/d365fin_md.md)], men som ikke knyttes til nogen felter, gemmes i tabellen **Kolonnedef for bogf.udveksling**. Brugere kan få vist disse elementer på siderne **Betalingsudligningskladde**, **Betalingsudligning**, og **Bankkontoafstemning** ved at vælge handlingen **Oplysninger om bankkontoudtogslinje**. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).  
+ Elementer i noden **Ntry**, der importeres i [!INCLUDE[prod_short](includes/prod_short.md)], men som ikke knyttes til nogen felter, gemmes i tabellen **Kolonnedef for bogf.udveksling**. Brugere kan få vist disse elementer på siderne **Betalingsudligningskladde**, **Betalingsudligning**, og **Bankkontoafstemning** ved at vælge handlingen **Oplysninger om bankkontoudtogslinje**. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
+
+> [!IMPORTANT]
+> Når du importerer CAMT-bankkontoudtog, forventer [!INCLUDE[prod_short](includes/prod_short.md)], at hver transaktion er entydig, hvilket vil sige, at feltet **Transaktions-id**, som stammer fra *Stmt/Ntry/NtryDtls/TxDtls/REFS/EndToEndId* i CAMT-filen, skal være entydig inden for den åbne bankkontoafstemning. Hvis oplysningerne ikke er til stede, [!INCLUDE[prod_short](includes/prod_short.md)] ignoreres betalingen. Hvis en tidligere bankafstemning på den samme bankkonto er bogført med samme transaktions-ID som ved den aktuelle import, vil den aktuelle transaktion ikke automatisk blive afstemt, men kan stadig indlæses.
+
 ## <a name="see-also"></a>Se også  
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  
 [Udveksle data elektronisk](across-data-exchange.md)  
-[Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)   
+[Brug af AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)   
 [Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

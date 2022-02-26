@@ -1,21 +1,21 @@
 ---
-title: Om omkostningsregnskab | Microsoft Docs
-description: Omkostningsregnskab kan hjælpe dig med at forstå omkostningerne til drift af en virksomhed.
+title: Om omkostningsregnskab
+description: Omkostningsregnskab kan hjælpe dig med at forstå omkostningerne til drift af en virksomhed. Omkostningsregnskabsoplysninger er udviklet til at analysere forskellige situationer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6c61a23499735d694b2769730c5e3ce22ac835b1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 0d349f186757a38b9473b98fc74bfb490b81892e
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184144"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973670"
 ---
 # <a name="about-cost-accounting"></a>Om omkostningsregnskab
 Omkostningsregnskab kan hjælpe dig med at forstå omkostningerne til drift af en virksomhed. Omkostningsregnskabsoplysninger er udviklet til at analysere:  
@@ -37,7 +37,7 @@ Omkostningsregnskab har følgende hovedkomponenter:
 
 Følgende diagram viser arbejdsprocessen i omkostningsregnskab.  
 
-![Oversigt over omkostningsregnskab](media/costaccountingoverview.png "OversigtOverOmkostningsregnskab")  
+![Oversigt over omkostningsregnskab.](media/costaccountingoverview.png "OversigtOverOmkostningsregnskab")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Omkostningstyper, omkostningssteder og omkostningsobjekter  
 Du definerer omkostningstyper, omkostningssteder og omkostningsobjekter for at analysere, hvad omkostningerne er, hvor omkostningerne kommer fra, og hvem skal bære omkostningerne.  
@@ -72,4 +72,7 @@ De fleste rapporter og statistikker er baseret på bogførte omkostningsposter. 
  [Regnskab for omkostninger](finance-manage-cost-accounting.md)  
  [Finans](finance.md)   
  [Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

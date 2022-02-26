@@ -1,23 +1,24 @@
 ---
-title: Angive farvede symboler for at tilpasse visuelle signaler om en køindikators aktivitet til virksomheden eller individuelle brugere | Microsoft Docs
+title: Indstille tilpassede farvede indikatorer for en køindikators aktivitet
 description: Som administrator kan du oprette køindikatorer, der vises i rollecentre for brugere, for at medtage en indikator, der skifter farve ud fra dataværdierne i køerne.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.search.form: 9701, 9702
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 0411e080aa5304b47ec64a9248368fc8385d4ee5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8dfd2a4c731ebc9663f3916694903ad8ac010ca5
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187336"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012441"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Oprette en farvet indikator på køindikatorer for firmaet eller individuelle brugere
+
 Som administrator kan du oprette køindikatorer, der vises i rollecentre for brugere, for at medtage en indikator, der skifter farve ud fra dataværdierne i køerne.  
 
 Indikatoren vises som en farvet streg langs den øverste kant af feltet Køindikator. Det indeholder et visuelt signal af status for køindikatorens aktivitet, som kan indikere favorable eller ikke-favorable betingelser for at bede brugeren om at handle. Hvis en køindikator f.eks. viser løbende salgsfakturaer, kan du oprette indikatoren som grøn (favorabel), når det samlede antal løbende salgsfakturaer er under 10, og rød (ikke-favorabel), når det samlede antal er større end 20.  
@@ -27,7 +28,7 @@ Fra siden **Opsætning af køindikator** kan du konfigurere indikatorer for alle
 Hvis du vil konfigurere indikatoren, kan du angive op til to tærskelværdier, der definerer tre områder af dataværdier (lav, mellem og høj), hvor du kan anvende en anden farve (eller type).  
 
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Sådan opretter farveindikatorer på køindikatorer  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af køindikator**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Konfigurationskø**, og vælg derefter det relaterede link.  
 
      Siden **Opsætning af køindikator** vises. Siden viser de indikatorer, der aktuelt er konfigureret på køindikatorer. Indikatorer, der gælder for alle brugere i virksomheden, har et tomt **Brugernavn**-felt. Indikatorer, der gælder for en bestemt bruger, omfatter brugerens navn i feltet **Brugernavn**.  
 
@@ -64,3 +65,6 @@ Hvis du vil konfigurere indikatoren, kan du angive op til to tærskelværdier, d
     |**Underordnet**|Grå|  
 
 ## <a name="see-also"></a>Se også
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

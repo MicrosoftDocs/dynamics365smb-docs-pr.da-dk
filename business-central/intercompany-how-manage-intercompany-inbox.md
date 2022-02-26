@@ -1,23 +1,22 @@
 ---
-title: Behandle indgående og udgående IC-transaktioner | Microsoft Docs
+title: Administrere IC-indbakken og -udbakken
 description: IC-transaktioner, som du modtager fra koncerninterne partnere, vises i IC-indbakken, hvor du behandle dem manuelt eller automatisk.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 652ad700a4e2d979620560f1f5ba543d07f08832
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 2678d6b31a630d088a747464444fed76ee98a277
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182464"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029426"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Administrere IC-indbakken og -udbakken
 Alle IC-transaktioner, som du modtager elektronisk fra koncerninterne partnere, vises i den koncerninterne indbakke.  
@@ -51,14 +50,14 @@ Du kan bruge feltet **Vis transaktionskilde** til at filtrere siden **Koncernint
 
  > [!NOTE]  
  > Hvis de koncerninterne partnere findes i samme database, overføres transaktioner uden brug af fil eller e-mail. Få vist feltet **Overførselstype** på siden **Koncernintern partner**. <br /><br />
-I så fald kan du indstille systemet til at spring indbakke og udbakke over ved at markere henholdsvis afkrydsningsfeltet **Automatisk accept af transaktioner** på siden **Koncernintern partner** og afkrydsningsfeltet **Automatisk afsendelse af transaktioner** på siden **Koncernintern opsætning**.
+I så fald kan du indstille systemet til at spring indbakke og udbakke over ved at markere henholdsvis afkrydsningsfeltet **Automatisk accept af transaktioner** på siden **Koncernintern partner** og afkrydsningsfeltet **Automatisk afsendelse af transaktioner** på siden **Koncernintern opsætning**. Indgående interne transaktioner kan kun accepteres automatisk, hvis Opgavestyring er aktiveret. Du kan finde flere oplysninger i [Konfigurere Business Central Server - Indstillinger for Opgavestyring](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
 
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>Sådan indlæses IC-transaktioner fra en fil  
 Hvis du har en IC-partner, der ikke er med i den samme database som dit regnskab, kan du modtage IC-transaktioner fra partneren i en .xml-fil. Derefter kan du indlæse transaktionerne til din indbakke.  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Virksomhedsoplysninger**, og vælg derefter det relaterede link.
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, åbn **Virksomhedsoplysninger**, og vælg derefter det relaterede link.
 2. Gem filen på den placering, som du har angivet i feltet **Koncerninterne indbakkeoplysninger** på siden **Virksomhedsoplysninger**.  
-3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncerninterne indbakketransaktioner**, og vælg derefter det relaterede link.
+3. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncerninterne indbakketransaktioner**, og vælg derefter det relaterede link.
 4. På siden **Koncerninterne indbakketransaktioner** skal du vælge handlingen **Indlæs transaktionsfil**.  
 5. Marker den .xml-fil, der indeholder transaktionerne på den side, som vises, og vælg derefter knappen **Åbn**.  
 
@@ -67,7 +66,7 @@ Transaktioner indlæses nu til indbakken, hvor du kan arbejde med dem.
 ## <a name="to-process-incoming-intercompany-transactions"></a>Sådan behandles indgående IC-transaktioner  
 Når dine partnere sender dig IC-transaktioner, ender transaktionerne i IC-indbakken. Du skal tage stilling til hver transaktion i indbakken og følge op på den.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncerninterne indbakketransaktioner**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncerninterne indbakketransaktioner**, og vælg derefter det relaterede link.  
 2. På siden **Koncerninterne indbakketransaktioner** skal du vælge en linje og derefter vælge en handling, f.eks. **Accepter**, til behandling af linjen.
 3. På siden **Fuldfør IC-indbakkehandling** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Vælg knappen **OK**.  
@@ -81,7 +80,7 @@ For linjer, som du har behandlet med handlingen **Returneret af partner**, skal 
 ## <a name="to-process-outgoing-intercompany-transactions"></a>Sådan håndteres udgående IC-transaktioner  
 Når du bogfører en IC-kladde eller et IC-dokument eller sender en IC-ordrebekræftelse, sendes transaktionerne til din IC-udbakke. Du skal åbne udbakken og behandle transaktionerne, før de kan sendes til dine partnere.  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Koncerninterne udbakketransaktioner**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncerninterne udbakketransaktioner**, og vælg derefter det relaterede link.  
 2. På siden **Koncerninterne udbakketransaktioner** skal du vælge en linje og derefter vælge en handling, f.eks. **Returner til indbakke**, til behandling af linjen.
 
 Linjer, som du har behandlet med handlingen **Send til koncernintern partner**, sendes til den relevante partners indbakke.
@@ -95,7 +94,7 @@ Af og til vil du måske gendanne en transaktion i indbakken eller udbakken. Hvis
 
 Følgende procedure beskriver, hvordan du gendanner transaktioner i indbakken, men proceduren er den samme for udbakken.
 
-  1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Håndterede IC-indbakketransaktioner**, og vælg derefter det relaterede link.  
+  1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Håndterede IC-indbakketransaktioner**, og vælg derefter det relaterede link.  
 
   2.  På siden **Håndterede IC-indbakketransaktioner**, skal du markere linjen med den transaktion, som du vil gendanne i indbakken, og derefter vælge handlingen **Genopret indbakketransaktion**.  
 
@@ -104,4 +103,7 @@ Følgende procedure beskriver, hvordan du gendanner transaktioner i indbakken, m
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

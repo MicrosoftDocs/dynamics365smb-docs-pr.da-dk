@@ -1,23 +1,22 @@
 ---
-title: Konfigurere og administrere et budget for en sag | Microsoft Docs
+title: Konfigurere og administrere et budget for en sag
 description: Beskriver, hvordan du planlægger ressourcer og estimerer og styrer omkostningerne for et projekt ved at oprette et budget for hver sag.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project budget, forecast
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 639955ef4ac9e782207d4cfee7a89f38d5c99501
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 1002, 1007
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 901a925e1ce8019cd2f347ac5b3e4c59735b444f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312864"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972274"
 ---
 # <a name="manage-job-budgets"></a>Administrere sagsbudgetter
 Du kan oprette et budget for hver sag. Budgettet bruges til at planlægge de ressourcer, som du kan allokere til en sag. Budgettet kan enten være generelt med få poster, eller det kan indeholde flere poster, der er inddelt i aktivitetsniveauer. Du kan derefter sammenligne de budgetterede beløb med det faktiske forbrug som registreret i sagskladden. Ved at overvåge forskellene mellem det faktiske forbrug og det budgetterede forbrug kan du kontrollere et igangværende projekt og forbedre kvaliteten af fremtidige sager ved at reducere risikoen for at undervurdere omkostningerne.
@@ -27,7 +26,7 @@ Følgende fremgangsmåde beskriver, hvordan du vurderer budgetterede omkostninge
 ## <a name="to-estimate-the-budgeted-costs-for-a-job"></a><a name="JobBudgetCosts"></a> Sådan vurderes de budgetterede omkostninger for en sag
 Når en debitor vil have oplyst prisen for en sag, som faktureres på basis af forbrug, skal du bestemme det budgetterede kostbeløb for sagen. Det gør du på siden **Sagsopgavelinjer**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
 2. Åbn en relevant sag.
 3. Vælg en opgavelinje af typen Bogføring, og vælg derefter handlingen **Sagsplanlægningslinjer**.
 4. Udfyld felterne på en ny linje efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
@@ -55,4 +54,7 @@ Du kan finde oplysninger om registrering af budgetterede og faktiske sagspriser 
 [Finans](finance.md)  
 [Køb](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)      
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,27 +1,29 @@
 ---
-title: Sådan opsættes basiskalendere | Microsoft Docs
-description: Du kan tildele en basiskalender til din virksomhed eller til virksomhedens samarbejdspartnere, f.eks. kunder, leverandører eller lokationer. Leverings- og modtagelsesdatoer på fremtidige salgsordrer, købsordrer, overflytningsordrer og produktionsordrelinjer beregnes i overensstemmelse med de arbejdsdage, der er angivet i kalenderen.
+title: Konfigurere basiskalendere
+description: Du kan tildele en basiskalender til din virksomhed og dens forretningspartnere for at beregne leverings-og modtagelsesdatoer i henhold til de angivne arbejdsdage.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 52bbf5f1092ad449be003021642c30651f38e780
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 7600, 7601, 7602, 5703
+ms.date: 06/11/2021
+ms.author: edupont
+ms.openlocfilehash: 41f81b287ee3966ca01de9c80fdd7a167170c42d
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188416"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011832"
 ---
 # <a name="set-up-base-calendars"></a>Konfigurere basiskalendere
+
 Du kan tildele en basiskalender til din virksomhed eller til virksomhedens samarbejdspartnere, f.eks. kunder, leverandører eller lokationer. Leverings- og modtagelsesdatoer på fremtidige salgsordrer, købsordrer, overflytningsordrer og produktionsordrelinjer beregnes i overensstemmelse med de arbejdsdage, der er angivet i kalenderen. Den vigtigste opgave i forbindelse med oprettelse af en ny basiskalender, er at angive og definere de fridage, som du vil anvende.  
 
-## <a name="to-set-up-a-base-calendar"></a>Sådan oprettes en basiskalender  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Basiskalender**, og vælg derefter det relaterede link.  
+## <a name="to-set-up-a-base-calendar"></a>Sådan oprettes en basiskalender
+
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Basiskalender**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  Udfyld feltet **Kode**.  
 4. Vælg handlingen **Vedligehold basiskalender**.
@@ -42,6 +44,7 @@ Når du indtaster en linje, vil feltet **Fridag** være markeret. Du kan vælge 
 Angiver en datoformel for det tidsrum, det tager at genbestille varen. Den bruges til at beregne feltet **Planlagt modtagelsesdato**, hvis du beregner fremad, og feltet **Ordredato**, hvis du beregner bagud. Se [Leveringstid](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
 ## <a name="lead-time-calculation"></a>Leveringstid
+
 Enhver basiskalender, der er defineret for kreditoren eller lokationen, påvirker, hvordan datoerne beregnes og afrundet til arbejdsdage. I henhold hertil beregnes de to vigtige datofelter på købsordrelinjer på følgende måde under forskellige betingelser.
 
 |Beregningsretning|Kreditorkalender defineret|Kreditorkalender ikke defineret|
@@ -64,7 +67,7 @@ En basiskalender vil f.eks. typisk opgive alle lørdage som fridage. Den tilpass
 
 I følgende procedure bruges en lokation som eksempel. Bemærk, at du allerede nu skal have tildelt en basiskalender til lokationen.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lokationer**, og vælg dernæst det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.
 2. Åbn den lokation, du vil opdatere, og vælg derefter feltet **Tilpasset kalender**. Bemærk, at der skal vælges en kalender i feltet **Basiskalenderkode**.
 3. På siden **Tilpassede kalenderposter**, der åbnes, skal du vælge handlingen **Bevar tilpassede kalenderændringer**.
 4. I feltet **Tilpassede kalenderændringer** skal du tilføje linjer for tilpassede kalenderposter.
@@ -100,7 +103,7 @@ Basiskalendere er knyttet til din egen virksomhed, debitorer, kreditorer, placer
 -   Basiskalenderen er tildelt i oversigtpanelet **Lager** på kortet **Lokation**.  
 -   Basiskalenderen er tildelt på oversigtssiden **Speditørservice** på siden **Speditører**.  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kunder**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.  
 2.  Åbn det **Debitor**-kort, som du vil oprette en basiskalender til.  
 3.  Vælg den basiskalender, du vil tildele i feltet **Basiskalenderkode** i oversigtspanelet **Levering**.  
 
@@ -116,4 +119,7 @@ Basiskalendere er knyttet til din egen virksomhed, debitorer, kreditorer, placer
 [Køb](purchasing-manage-purchasing.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

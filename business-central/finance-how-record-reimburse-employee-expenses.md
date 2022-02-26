@@ -1,37 +1,44 @@
 ---
-title: Registrere og refundere medarbejdernes forretningsrelaterede udgifter | Microsoft Docs
+title: Registrere og refundere medarbejdernes udgifter
 description: Bogfør medarbejdernes udgifter med finanskladden til medarbejderens konto, og bogfør senere en betaling til medarbejderens bankkonto for at refundere for de forretningsrelaterede udgift.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 5f943006997e4735d4ec224957442f23e2af1324
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 63, 234, 625, 5224, 5237, 5238, 5239, 5240
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 02299f484f510b8d78ecdfda4447046a650af21c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184072"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972953"
 ---
 # <a name="record-and-reimburse-employees-expenses"></a>Registrere og refundere medarbejdernes udgifter
-[!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter transaktioner for medarbejderen på samme måde som for kreditorer. Derfor findes der medarbejderbogføringsgrupper for at sikre, at medarbejderposter bogføres på de relevante konti i regnskabet.
+
+[!INCLUDE[prod_short](includes/prod_short.md)] understøtter transaktioner for medarbejdere på samme måde som for kreditorer. Derfor findes der medarbejderbogføringsgrupper for at sikre, at medarbejderposter bogføres på de relevante konti i regnskabet.
 
 > [!NOTE]  
 > Medarbejdertransaktioner kan kun bogføres i den lokale valuta. Refusion af betalinger til medarbejdere understøtter ikke rabatter og betalingstolerancer.
 
-Hvis medarbejdere bruger deres egne penge under forretningsaktiviteter, kan du bogføre udgiften til medarbejderens konto. Du kan derefter refundere medarbejderen ved at foretage en betaling til medarbejderens bankkonto, på samme måde som når du betaler leverandører.
+Hvis medarbejdere bruger deres egne penge under forretningsaktiviteter, kan du bogføre udgiften til medarbejderens konto. Du kan derefter refundere medarbejderen ved at foretage en betaling til medarbejderens bankkonto, på samme måde som når du betaler leverandører.  
+
+> [!TIP]
+> I denne artikel forklares det, hvordan du registrerer udgiften i bøgerne og refunderer medarbejderen. Din organisation kan have en portal eller app, som medarbejderne kan sende deres udgiftsrapporter til.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] er fleksibel nok til at dække mange forskellige fremgangsmåder. De nøjagtige kontonumre, der skal bruges, afhænger af organisationens konfiguration og processer.  
 
 ## <a name="to-record-an-employees-expense"></a>Sådan registrerer du en medarbejders udgift
+
 Du bogfører medarbejdernes udgifter på siden **Finanskladde**.
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finanskladder**, og vælg derefter det relaterede link.
-2. Åbn det relevante finanskladdenavn. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).
-3. Udfyld felterne efter behov på en ny kladdelinje. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Finanskladder**, og vælg derefter det relaterede link.  
+2. Åbn det relevante finanskladdenavn. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).
+3. Udfyld felterne efter behov på en ny kladdelinje. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
     > [!NOTE]
     > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]
@@ -42,19 +49,26 @@ Du bogfører medarbejdernes udgifter på siden **Finanskladde**.
 5. Vælg handlingen **Bogfør** for at registrere udgifter på medarbejderens konto.
 
 ## <a name="to-reimburse-an-employee"></a>Sådan refunderer du en medarbejder
-Du refunderer medarbejdere ved at bogføre betalinger til deres bankkonto på siden **Udbetalingskladde**.
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.
-2. Åbn den relevante udbetalingskladdekørsel. Du kan finde flere oplysninger under [Arbejde med finanskladder](ui-work-general-journals.md).
-3. Udfyld felterne efter behov. Du kan finde flere oplysninger under [Foretage betalinger](payables-make-payments.md).
+
+Du refunderer medarbejdere ved at bogføre betalinger til deres bankkonto på siden **Udbetalingskladde**.  
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udbetalingskladder**, og vælg derefter det relaterede link.
+2. Åbn den relevante udbetalingskladdekørsel. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).
+3. Udfyld felterne efter behov. Du kan finde flere oplysninger i [Foretage betalinger](payables-make-payments.md).
 4. Du kan også vælge handlingen **Foreslå medarbejderbetaling** for automatisk at indsætte kladdelinjerne for ventende medarbejderrefusioner.
 5. Vælg handlingen **Bogfør** for at registrere refusionen.  
 
 ## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Sådan afstemmes refusioner med medarbejderposter
-Du udligner medarbejderbetalinger til deres relaterede åbne medarbejderposter på samme måde som for kreditorbetalinger, f.eks. på siden **Betalingsudligningskladde**, baseret på de relaterede bankkontoudtogsposter. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md). Du kan også udligne manuelt på siden **Medarbejderposter**. Du kan finde flere oplysninger i det relaterede emne [Afstemme kreditorbetalinger med udbetalingskladden eller fra kreditorposter](payables-how-apply-purchase-transactions-manually.md).  
+
+Du udligner medarbejderbetalinger til deres relaterede åbne medarbejderposter på samme måde som for kreditorbetalinger, f.eks. på siden **Betalingsudligningskladde**, baseret på de relaterede bankkontoudtogsposter. Du kan finde flere oplysninger i [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md). Du kan også udligne manuelt på siden **Medarbejderposter**. Du kan finde flere oplysninger i det relaterede emne [Afstemme kreditorbetalinger med udbetalingskladden eller fra kreditorposter](payables-how-apply-purchase-transactions-manually.md).  
 
 ## <a name="see-also"></a>Se også
+
 [Bogføre transaktioner direkte i finansposterne](finance-how-post-transactions-directly.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Om montage til ordre og montage til lager | Microsoft Docs
+title: Om montage til ordre og montage til lager
 description: Montageelementer kan leveres, enten ved at montere dem, når de er bestilt, eller ved at montere dem for opbevaring på lageret, indtil der er brug for dem på en salgsordre.
-author: SorenGP
+author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 1f34ee61fa532aa7600baa8883d182cbad545493
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: bholtorf
+ms.openlocfilehash: 4f47d2e60ae1adeab814ab630f8f90877881b4ae
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186808"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011174"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Om montage til ordre og montage til lager
 Montageelementer kan leveres med følgende to fremgangsmåder:  
@@ -36,7 +36,7 @@ Du bruger typisk *montage efter ordre* for varer, som du ikke ønsker på lager,
 
 I montage efter ordre-processen samles varen som svar på en salgsordre og med en én til én-sammenkædning mellem montageordren og salgsordren.  
 
-Når du indtaster en montage efter ordre-vare på en salgslinje, oprettes der automatisk en montageordre med en header, der er baseret på salgslinjen og med linjer, der er baseret på varens montagestykliste ganget med ordrestørrelsen. Du kan bruge siden **Montage efter ordre-linjer** for at se de sammenkædede montageordrelinjer, som kan understøtte din tilpasning af montageelementet og en leveringsdato, der er baseret på oplysninger om komponenttilgængelighed. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
+Når du indtaster en montage til ordre-vare på en salgslinje, oprettes der automatisk en montageordre med et hoved, der er baseret på salgslinjen og med linjer, der er baseret på varens montagestykliste ganget med ordrestørrelsen. Du kan bruge siden **Montage efter ordre-linjer** for at se de sammenkædede montageordrelinjer, som kan understøtte din tilpasning af montageelementet og en leveringsdato, der er baseret på oplysninger om komponenttilgængelighed. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
 >  Selvom det ikke er en del af standardprocessen, kan du sælge lagermængder med montage efter ordre-mængderne. Du kan finde flere oplysninger i [Sælge lagervarer i montage til ordre-flows](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
@@ -66,26 +66,38 @@ Når du indtaster en montage efter ordre-vare på en salgslinje, oprettes der au
 
  Men i kombinationsscenarier kopieres den fulde værdi i **Lever (antal)** ikke til feltet **Antal til montage** på montageordrehovedet. I stedet for indsættes standardværdien i feltet **Antal til montage**, som beregnes fra feltet **Lever antal** i henhold til en foruddefineret regel, der sikrer levering af montage til ordre-mængder først.  
 
- Hvis du vil afvige fra denne standard, for eksempel fordi du kun vil montere mere eller mindre af mængden i feltet **Lever (antal)**, kan du ændre feltet **Antal til montage**, men kun inden for foruddefinerede regler som illustreret nedenfor  
+ Hvis du vil afvige fra denne standard, for eksempel fordi du kun vil montere mere eller mindre af mængden i feltet **Lever (antal)**, kan du ændre feltet **Antal til montage**, men kun inden for foruddefinerede regler som illustreret nedenfor.  
 
  Som eksempel på, hvorfor det er klogt at ændre mængden, der skal monteres, er, at du vil bogføre leverancen af lagerbeholdninger delvist, inden montageoutput kan leveres.  
 
- Følgende forklarer de regler, der definerer de minimale og maksimale værdier, du kan angive manuelt i **Antal til montage**, for at afvige fra standardværdi i et kombinationsscenarie. Tabellen viser et kombinationsscenarie, hvor feltet **Lever (antal)** på den tilknyttede salgsordrelinje er ændret fra 7 til 4, og **Antal til montage** er derfor sat til standardværdien 4.  
+ Følgende tabeller forklarer de regler, der definerer de minimale og maksimale værdier, du kan angive i feltet **Antal til montage**, for at afvige fra standardværdi i et kombinationsscenarie. Tabellen viser et kombinationsscenarie, hvor feltet **Lever (antal)** på den tilknyttede salgsordrelinje er ændret fra 7 til 4, og **Antal til montage** er derfor sat til standardværdien 4.  
 
-||Salgsordrelinje|Montageordrehoved|  
-|-|----------------------|---------------------------|  
-||**Antal**|**Lever (antal)**|**Mgd. til montage til ordre**|**Leveret (antal)**|**Antal**|**Antal til montage**|**Monteret antal**|**Restantal**|  
-|Oprettet|10|7|7|0|7|7|0|7|  
-|Ændring||4||||4 (indsat som standard)|||  
+- Salgsordrelinje
 
- Baseret på ovennævnte situation kan du kun ændre feltet **Antal til montage** som følger:  
+    |                | **Antal** | **Lever (antal)** | **Mgd. til montage til ordre** | **Leveret (antal)** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Oprindelig værdi**| 10          | 7                | 7                             | 0                    |
+    |**Ændring**      |              | 4                |                               |                      |
 
--   Det mindste antal du kan angive er 1. Dette skyldes, at du mindst skal montere én enhed for at kunne sælge fire enheder, idet de resterende tre antages at være tilgængelig på lageret.  
--   Det maksimale antal du kan angive er 4. Dette er for at sikre, at du ikke samler flere af denne montage til ordre-vare, end der er behov for i salget.  
+- Montageordrehoved
 
-## <a name="see-also"></a>Se også  
+    |                | **Antal** | **Lever (antal)** | **Mgd. til montage til ordre** | **Leveret (antal)** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Oprindelig værdi**| 7           | 7                | 0                             | 7                    |
+    |**Ændring**      |              | 4 (indsat som standard)|                         |                      |
+
+Baseret på dette eksempel kan du kun ændre feltet **Antal til montage** som følger:  
+
+- Det mindste antal du kan angive er 1. Dette skyldes, at du mindst skal montere én enhed for at kunne sælge fire enheder, idet de resterende tre antages at være tilgængelig på lageret.  
+- Det maksimale antal du kan angive er 4. Dette er for at sikre, at du ikke samler flere af denne montage til ordre-vare, end der er behov for i salget.  
+
+## <a name="see-also"></a>Se også
+
 [Montagestyring](assembly-assemble-items.md)  
 [Arbejde med styklister](inventory-how-work-BOMs.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

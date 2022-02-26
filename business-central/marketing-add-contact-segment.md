@@ -5,25 +5,25 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7383fe5e716fbd63012e8ab5ffa236af9e7a979e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 4095cfd39ad37037f7fad2a5bded7c5c71241f6a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181696"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438873"
 ---
 # <a name="add-contacts-to-segments"></a>Tilføje kontakter til målgrupper
 Når du har oprettet en målgruppe og angivet grundlæggende oplysninger om den, vil du muligvis gerne tilføje kontakter til målgruppen. Du kan gøre dette ved at udfylde linjerne på siden **Målgruppe** manuelt, men det er lettere og hurtigere at bruge handlingen **Tilføj kontakter**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Sådan tilføjes en kontakt til en målgruppe
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Målgrupper**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Segmenter**, og vælg derefter det relaterede link.  
 2. Vælg målgruppen, og vælg derefter handlingen **Tilføj kontakter**. Kørselssiden **Tilføj kontakter** åbnes.
 3. I sektionen **Kontakt** skal du indstille filtre for at angive de oplysninger, du vil vælge kontakter efter.
 
@@ -57,4 +57,7 @@ Der er ingen begrænsninger på, hvor mange gange du kan fjerne kontakter fra en
 [Oprette en målgruppe](marketing-how-create-segment.md)   
 [Administrere målgrupper](marketing-segments.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

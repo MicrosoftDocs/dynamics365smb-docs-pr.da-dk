@@ -1,25 +1,25 @@
 ---
-title: Gennemgang - Beregning af igangværende arbejder for en sag | Microsoft Docs
-description: Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer og holde styr på de forskellige omkostninger, der er forbundet med brugen af ressourcerne på et bestemt projekt. Sager inkluderer forbruget af medarbejdertimer, maskintimer, lagervarer og andre brugstyper, der skal registreres, efterhånden som en sag skrider frem.
+title: Gennemgang - Beregning af igangværende arbejder for en sag
+description: Sager inkluderer forbruget af medarbejdertimer, maskintimer, lagervarer og andre brugstyper, der skal registreres, efterhånden som en sag skrider frem.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3d9a156a1196767b4ae07f63bbb4ca8e2ff5318f
-ms.sourcegitcommit: 3e9c89f90db5eaed599630299353300621fe4007
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 8f508ae0f867fe63ee557df6aba727c0165464d1
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527904"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588097"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Gennemgang: Beregning af igangværende arbejder for en sag
 
-[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]  
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer og holde styr på de forskellige omkostninger, der er forbundet med brugen af ressourcerne på et bestemt projekt. Sager inkluderer forbruget af medarbejdertimer, maskintimer, lagervarer og andre brugstyper, der skal registreres, efterhånden som en sag skrider frem. Hvis en sag kører over en længere periode, kan du have brug for at overføre disse omkostninger til en konto for igangværende arbejde (VIA) på balancen, mens sagen færdiggøres. Du kan derefter godkende omkostningerne og salget på resultatopgørelseskontiene, når det er relevant.  
 
@@ -38,7 +38,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
  I denne gennemgang bruges projektteammedlemmet (Tina) som person.  
 
 ## <a name="prerequisites"></a>Forudsætninger  
- Før du kan udføre opgaverne i denne gennemgang, skal du installere [!INCLUDE[d365fin](includes/d365fin_md.md)] på din computer.  
+ Før du kan udføre opgaverne i denne gennemgang, skal du installere [!INCLUDE[prod_short](includes/prod_short.md)] på din computer.  
 
 ## <a name="story"></a>Historie  
  I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulentvirksomhed, der designer og tilpasser nye infrastrukturer, f.eks. konferencerum og kontorer, med møbler, tilbehør og lagerenheder. Det meste af arbejdet hos CRONUS er projektorienteret, og Tina, som er med i projektteamet, bruger sager til at få en oversigt over hver igangværende sag, som CRONUS har startet samt de sager, der er afsluttet. Nogle af sagerne kan være meget langvarige og løbe over flere måneder. Tina kan bruge en VIA-konto til at registrere igangværende arbejde og spore omkostningerne hele vejen gennem sagen.  
@@ -52,7 +52,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
 |Felt|Beskrivelse|  
 |-------------------------------------|---------------------------------------|  
-|**<blank>**|Lad stå tomt, hvis sagsopgaven er del af en gruppe opgaver.|  
+|**\<blank\>**|Lad stå tomt, hvis sagsopgaven er del af en gruppe opgaver.|  
 |**Total**|Definerer det område eller den gruppe af opgaver, der er medtaget i beregningen af VIA og registrering. Inden for gruppen vil alle sagsopgaver med **Sagsopgavetype** indstillet til **Bogføring** blive inkluderet i VIA i alt, medmindre feltet **VIA i alt** er indstillet til **Ekskluderet**.|  
 |**Udelukket**|Gælder kun for opgaver med **Sagsopgavetype** indstillet til **Bogføring**. Opgaven medtages ikke ved beregningen af VIA og registrering.|  
 
@@ -60,7 +60,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
 ### <a name="to-calculate-wip"></a>Sådan beregnes VIA  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Sager**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
 2.  På listen **Sager** skal du vælge sagen **Kvalitetsmøbler** og derefter vælge handlingen **Rediger**. Dermed åbnes sagskortet i redigeringstilstand.  
 
      VIA kan beregnes ud fra Kostværdi, Salgsværdi, Salgsomkostning, Færdiggørelsesgrad og Afsluttet kontrakt. I dette eksempel bruger CRONUS kostværdimetoden.  
@@ -92,7 +92,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
 ### <a name="to-review-wip-warnings"></a>Gennemgå VIA -advarsler  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **IGVA-cockpit for job**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **IGVA-cockpit for job**, og vælg derefter det relaterede link.  
 2.  Markér sagen **Kvalitetsmøbler**, og vælg derefter handlingen **Vis advarsler**.  
 3.  Gennemse den advarsel, der er knyttet til sagen på siden **Advarsler om igangværende arbejde**.  
 
@@ -156,11 +156,14 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
     >  Antag, at Tina beregnede og bogførte igangværende arbejde for en sag med forkerte datoer. Ved at følge de tidligere beskrevne metode kan hun tilbageføre de forkerte bogføringer, rette datoerne og genposterer i regnskabet.  
 
 ## <a name="next-steps"></a>Efterfølgende trin  
- Denne gennemgang har taget dig gennem trinnene til beregning af igangværende arbejde i [!INCLUDE[d365fin](includes/d365fin_md.md)]. I større sager kan det være nyttigt regelmæssigt at overføre omkostningerne til en konto for igangværende arbejde, mens sagen fuldføres. Denne gennemgang har vist dig, hvordan du kan udelade opgavelinjerne i en beregning. Den viser også, hvornår du skal genberegne. Endelig viser denne gennemgang, hvordan du bogfører igangværende arbejde i regnskab. Der er også et eksempel på, hvordan du tilbagefører en bogføring for igangværende arbejde i regnskab .  
+ Denne gennemgang har taget dig gennem trinnene til beregning af igangværende arbejde i [!INCLUDE[prod_short](includes/prod_short.md)]. I større sager kan det være nyttigt regelmæssigt at overføre omkostningerne til en konto for igangværende arbejde, mens sagen fuldføres. Denne gennemgang har vist dig, hvordan du kan udelade opgavelinjerne i en beregning. Den viser også, hvornår du skal genberegne. Endelig viser denne gennemgang, hvordan du bogfører igangværende arbejde i regnskab. Der er også et eksempel på, hvordan du tilbagefører en bogføring for igangværende arbejde i regnskab .  
 
 ## <a name="see-also"></a>Se også  
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Gennemgang: Administration af projekter med sager](walkthrough-managing-projects-with-jobs.md)   
  [Forstå VIA -metoder](projects-understanding-wip.md)   
  [Overvåge status og udførelse](projects-how-monitor-progress-performance.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

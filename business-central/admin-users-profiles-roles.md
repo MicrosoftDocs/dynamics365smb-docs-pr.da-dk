@@ -1,21 +1,23 @@
 ---
-title: Administrere brugere og roller | Microsoft Docs
-description: Lære at administrere brugere og rollecentre i Business Central.
+title: Administrere brugere og roller
+description: Lære at administrere brugerprofiler og rollecentre i Business Central. Med profiler kan administratorer centralt definere og styre, hvad brugerne kan se og gøre.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: profiles, users
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 50a67bf5d64cbf932801738d60b4477a7e3d9fde
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 9171
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: f585ca4e97aa002e4d9d52cd74e01e18ab511eac
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186496"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012484"
 ---
-# <a name="manage-profiles"></a>Administrere profiler
-Alle brugere af [!INCLUDE[d365fin](includes/d365fin_md.md)] tildeles en profil, der afspejler deres forretningsrolle, den afdeling, de arbejder i, eller en anden kategorisering. Med profilerne kan administratorer definere og styre centralt, hvad forskellige brugertyper der kan se og foretage sig i brugergrænsefladen, så de kan udføre deres forretningsopgaver på en effektiv måde.
+# <a name="manage-user-profiles"></a>Administrere brugerprofiler
+
+Alle brugere af [!INCLUDE[prod_short](includes/prod_short.md)] tildeles en profil, der afspejler deres forretningsrolle, den afdeling, de arbejder i, eller en anden kategorisering. Med profilerne kan administratorer definere og styre centralt, hvad forskellige brugertyper der kan se og foretage sig i brugergrænsefladen, så de kan udføre deres forretningsopgaver på en effektiv måde.
 
 > [!NOTE]
 > Den typiske forretningsbrug af en profil er en rolle. En profil har derfor navnet *Profil (rolle)* i brugergrænsefladen.
@@ -25,14 +27,18 @@ Som administrator kan du oprette og administrere profiler på siden **Profiler (
 Når du vil administrere brugerprofiler, skal de pågældende brugere først være oprettet og tilføjet via Microsoft 365 Administration. Du kan derefter tildele rettigheder til hver bruger eller brugergruppe for at definere, hvilke funktioner de har tilladelse til at få vist og/eller redigere. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).
 
 ## <a name="page-customization"></a>Sidetilpasning
-Du kan tilpasse sidelayout for en profil, så alle brugere, som profilen er tildelt til, kan se de tilpassede sider. Som administrator kan du tilpasse sider ved at bruge de samme funktioner som brugerne, når de foretager tilpasning. Du kan finde flere oplysninger under [Tilpasse sider til profiler](ui-personalization-manage.md).
+Du kan tilpasse sidelayout for en profil, så alle brugere, som profilen er tildelt til, kan se de tilpassede sider. Som administrator kan du tilpasse sider ved at bruge de samme funktioner som brugerne, når de foretager tilpasning. Du kan finde flere oplysninger i [Tilpasse sider til profiler](ui-personalization-manage.md).
 
 ## <a name="to-create-a-profile"></a>Sådan oprettes en profil
+
 Hvis du ikke kan kopiere en eksisterende profil, kan du oprette en ny profil manuelt.
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Profiler (roller)**, og vælg derefter det relaterede link.  
+1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, skriv **Profiler (roller)**, og vælg derefter det relaterede link.  
 2. På siden **Profiler (roller)** skal du vælge handlingen **Ny**.  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!TIP]
+> Hvis du vil have, at en bestemt profil kun skal være tilgængelig for meget specifikke brugere, kan du angive feltet **Beskrivelse** til `Navigation menu only.`. På den måde er profilen ikke omfattet af listen over tilgængelige roller i **mine indstillinger**.
 
 ## <a name="to-copy-a-profile"></a>Sådan kopieres en profil
 Du kan spare tid, når du vil oprette en ny profil, ved at kopiere en eksisterende profil. Kopiér en profil med indstillinger, der svarer nogenlunde til den profil, du vil oprette.
@@ -61,12 +67,12 @@ Brugerne kan tildele sig selv en rolle (der repræsenterer en profil) ved at væ
 > Hvis du tildeler en anden profil til en bruger, bevares tilpasninger, der er foretaget af brugeren med den forrige profil.
 
 ## <a name="to-define-user-settings-for-a-profile"></a>Sådan defineres brugerindstillinger for en profil
-På siden **Mine indstillinger** kan brugere definere grundlæggende funktioner for deres konto, f.eks. rollecenter, sprog, og hvilke notifikationer de vil modtage. Du kan finde flere oplysninger under [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).
+På siden **Mine indstillinger** kan brugere definere grundlæggende funktioner for deres konto, f.eks. rollecenter, sprog, og hvilke notifikationer de vil modtage. Du kan finde flere oplysninger i [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).
 
 Som administrator kan du definere disse indstillinger for en profil og dermed anvende indstillingerne for alle brugere af den relaterede rolle.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Profiler (roller)**, og vælg derefter det relaterede link.
-2. Marker linjen for den profil, du vil ændre brugerindstillingerne for, vælg handlingen **Naviger**, og vælg derefter handlingen **Brugertilpasninger**.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Profiler (roller)**, og vælg derefter det relaterede link.
+2. Marker linjen for den profil, du vil ændre brugerindstillingerne for, vælg handlingen **Brugertilpasninger**.
 3. På siden **Brugertilpasninger** skal du åbne kortet for den bruger, hvis indstillinger du vil ændre.
 4. På siden **Brugertilpasningskort** kan du redigere felterne efter behov.
 
@@ -80,14 +86,14 @@ Når der oprettes en profil, kan du markere forskellige afkrydsningsfelter, der 
     - **Vis i Rollestifinder** for at angive, om handlinger til forretningsfunktioner, der er medtaget i profilen, skal vises i den udvidede visning af rolle Stifinder, en funktionsoversigt. Du kan finde flere oplysninger i [Søge efter sider med Rollestifinder](ui-role-explorer.md).
 
 ## <a name="to-export-profiles"></a>Sådan eksporterer du profiler
-Du kan eksportere profiler fra [!INCLUDE[d365fin](includes/d365fin_md.md)], hvis de for eksempel skal genbruges i en anden lejer. Profilerne eksporteres til en zip-fil, som indeholder .al-filer, der kan genbruges til udvikling af udvidelser. Du kan finde flere oplysninger i [Bruge klienten til at oprette profiler og sidetilpasninger](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+Du kan eksportere profiler fra [!INCLUDE[prod_short](includes/prod_short.md)], hvis de for eksempel skal genbruges i en anden lejer. Profilerne eksporteres til en zip-fil, som indeholder .al-filer, der kan genbruges til udvikling af udvidelser. Du kan finde flere oplysninger i [Bruge klienten til at oprette profiler og sidetilpasninger](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * På siden **Profiler (roller)** skal du vælge handlingen **Eksporter profiler**.
 
 En zip-fil med. al-filerne til alle profiler eksporteres.
 
 ## <a name="to-import-profiles"></a>Sådan importerer du profiler
-Du kan importere profiler, der er blevet eksporteret fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Trinnene er mere eller mindre de modsatte af trinene til eksport af profiler. Få flere oplysninger i [Sådan eksporter du profiler](admin-users-profiles-roles.md#to-export-profiles).
+Du kan importere profiler, der er blevet eksporteret fra [!INCLUDE[prod_short](includes/prod_short.md)]. Trinnene er mere eller mindre de modsatte af trinene til eksport af profiler. Få flere oplysninger i [Sådan eksporter du profiler](admin-users-profiles-roles.md#to-export-profiles).
 
 1. På siden **Profiler (roller)** skal du vælge handlingen **Importer profiler**.
 2. Følg trinene i vejledningen **Importer profiler**.
@@ -107,7 +113,7 @@ Du kan slette en profil ved at vælge handlingen **Slet** på siden **Profiler (
 ## <a name="to-delete-all-personalizations-made-by-a-user"></a>Sådan slettes alle tilpasninger, der er foretaget af en bruger
 Du kan slette alle de ændringer, som en bruger har foretaget på sider, der udgør deres arbejdsområde. Det kan f.eks. være nyttigt, hvis en medarbejder har skiftet rolle og ikke længere har brug for personlige indstillinger. Sletning af brugeres tilpasninger ændrer sidelayoutet tilbage til det, der er defineret af profilen.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Brugertilpasninger**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugertilpasninger**, og vælg derefter det relaterede link.
 
     Siden **Brugertilpasninger** viser alle brugere, der har foretaget tilpasninger.
 
@@ -121,20 +127,29 @@ Du kan også slette alle sidetilpasninger for en profil. Du kan finde flere oply
 ## <a name="to-delete-personalizations-for-specific-pages"></a>Sådan slettes tilpasninger for bestemte sider
 Du kan slette tilpasninger, som en eller flere brugere har foretaget på bestemte sider, som udgør deres arbejdsområde. Det kan f.eks. være nyttigt, hvis en ændret forretningsproces betyder, at en bruger ikke længere må bruge tilpasningen. Sletning af brugeres tilpasninger ændrer sidelayoutet tilbage til det, der er defineret af profilen.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Tilpasning af brugersider**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugersidetilpasninger**, og vælg derefter det relaterede link.
 
     Siden **Tilpasning af brugersider** viser alle de sider, der er blevet tilpasset, og den bruger, de tilhører.
 
     > [!Note]
-    > En markering i feltet **Ældre tilpasning** angiver, at tilpasningen blev udført i en ældre version af [!INCLUDE[d365fin](includes/d365fin_md.md)], som håndterede tilpasning anderledes. Brugere, som forsøger at tilpasse siderne, er blokeret fra at gøre det, medmindre de vælger at låse siden op. Du kan finde flere oplysninger i [Hvorfor er en side låst mod tilpasning](ui-personalization-locked.md).
+    > En markering i feltet **Ældre tilpasning** angiver, at tilpasningen blev udført i en ældre version af [!INCLUDE[prod_short](includes/prod_short.md)], som håndterede tilpasning anderledes. Brugere, som forsøger at tilpasse siderne, er blokeret fra at gøre det, medmindre de vælger at låse siden op. Du kan finde flere oplysninger i [Hvorfor er en side låst mod tilpasning](ui-personalization-locked.md).
 
 2. Marker linjen for den sidetilpasning, du vil slette, og vælg derefter handlingen **Slet**.
 
-Brugerne vil se ændringerne, næste gang de logger på.    
+Brugerne vil se ændringerne, næste gang de logger på.  
 
 Du kan også slette enkelte sidetilpasninger for en profil. Du kan finde flere oplysninger i [Sådan slettes tilpasning for bestemte sider for en profil](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
 
+## <a name="managing-user-sessions"></a>Administrere brugersessioner
+
+Som administrator af [!INCLUDE[prod_short](includes/prod_short.md)] online kan du administrere brugersessioner i administrationen. Du kan finde flere oplysninger i [Administrere sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions) i administrationsindholdet.  
+
+Til [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø kan du f.eks. administrere sessioner ved hjælp af SQL Server Management Studio. Du kan finde flere oplysninger i den [tekniske dokumentation til SQL Server](/sql/sql-server).  
+
 ## <a name="see-also"></a>Se også  
-[Tildele rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
+[Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
 [Tilpasse sider til profiler](ui-personalization-manage.md)  
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

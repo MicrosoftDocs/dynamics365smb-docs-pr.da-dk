@@ -1,31 +1,31 @@
 ---
-title: Definere prissætning og omkostninger for services | Microsoft Docs
-description: Få at vide, hvordan du konfigurere prissætning og ekstra omkostninger for services
+title: Konfigurere priser og omkostninger for tjenester
+description: Lær at bruge prisfastsætningsfunktionerne til at konfigurere og tilpasse programmet, så du kan anvende og regulerer priser på serviceartikler, reparationer og ordrer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 58c54fd68d291a5d07765a57002e0918df78a1f3
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 595f25f872cf669d4b79f1cc10542b46e2da22d2
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877372"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436547"
 ---
 # <a name="set-up-pricing-and-additional-costs-for-services"></a>Konfigurere prissætning og ekstra omkostninger for services
-Du kan bruge prisfastsætningsfunktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] til at konfigurere og tilpasse programmet, så du kan anvende og regulerer priser på serviceartikler, reparationer og ordrer. Disse prisbeslutninger kan derefter let overføres til fakturaprocessen.  
+Du kan bruge prisfastsætningsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)] til at konfigurere og tilpasse programmet, så du kan anvende og regulerer priser på serviceartikler, reparationer og ordrer. Disse prisbeslutninger kan derefter let overføres til fakturaprocessen.  
   
 I overensstemmelse med implementeringen kan du konfigurere prisgrupper og knytte dem til bestemte tidsperioder, debitorer eller en bestemt valuta. Du kan konfigurere faste priser, minimum- eller maksimumspriser, afhængigt af de servicekontrakter du har med kunderne. Når du regulerer priserne, kan du desuden få vist og godkende ændringer, før de bogføres i Finans.  
 
 ## <a name="to-set-up-a-service-price-group"></a>Sådan oprettes serviceprisgrupper
 Du kan konfigurere grupper, der indeholder serviceartikler, som du vil give samme særlige serviceprissætning. Du tildeler serviceprisgrupper til serviceartikler på serviceartikellinjer. Du kan også tildele serviceprisgrupper til serviceartikelgrupper.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceprisgrupper**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Serviceprisgrupper**, og vælg derefter det relaterede link.  
 2. Opret en ny serviceprisgruppe.  
 3. Udfyld felterne **Kode** og **Beskrivelse**.  
 4. Vælg handlingen **Konfigurer**.  
@@ -37,7 +37,7 @@ Du kan konfigurere grupper, der indeholder serviceartikler, som du vil give samm
 ## <a name="to-set-up-a-service-price-adjustment-group"></a>Sådan oprettes serviceprisreguleringsgrupper  
 Du kan konfigurere prisreguleringsgrupper, hvis du vil regulere serviceprissætning for serviceartikler. Du kan for eksempel konfigurere prisreguleringsgrupper, der regulerer prisen på fragt eller reservedele.  
   
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceprisreguleringsgrupper**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Serviceprisreguleringsgrupper**, og vælg derefter det relaterede link.  
 2. Opret en ny serviceprisreguleringsgruppe.  
 3. Udfyld felterne **Kode** og **Beskrivelse**.  
 4. Angiv typen på den post, du vil regulere, i feltet **Type**.  
@@ -55,13 +55,16 @@ Du kan konfigurere prisreguleringsgrupper, hvis du vil regulere serviceprissætn
 Når du arbejder med serviceartikler og serviceordrer, skal du evt. registrere andre omkostninger, f.eks. rejseomkostninger i bestemte servicezoner eller startgebyrer. Når du opretter en serviceordre, du kan indsætte disse omkostninger, så føjes der en linje med typen **Omkostninger** til ordren. Du kan også oprette en standardomkostning, hvis du vil anvende omkostningen på alle serviceordrer. F.eks. hvis du altid vil anvende et startgebyr.
   
 ### <a name="to-set-up-service-costs"></a>Sådan defineres serviceomkostninger
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceomkostninger**, og vælg derefter det relaterede link. 
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Serviceomkostninger**, og vælg derefter det relaterede link. 
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ### <a name="to-specify-a-default-cost-for-service-orders"></a>Sådan angives en standardomkostning for serviceordrer
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceopsætning**, og vælg derefter det relaterede link. 
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceopsætning** og vælg derefter det relaterede link. 
 2. I feltet **Startgebyr på serviceordrer** skal du vælge den relevante serviceomkostning.
 
 ## <a name="see-also"></a>Se også
 [Konfigurere Service](service-setup-service.md)  
 [Service Management](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

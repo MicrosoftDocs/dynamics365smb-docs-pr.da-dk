@@ -1,25 +1,25 @@
 ---
-title: Afslutte et regnskabsår og regnskabsperioder | Microsoft Docs
+title: Afslutte regnskabsår og regnskabsperioder
 description: Beskrives de opgaver, du skal udføre for at lukke et regnskabsår eller en regnskabsperiode, f.eks. ved at sørge for, at dokumenter og kladder er bogført, og kontrollere banksaldi.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 01/13/2020
+ms.search.form: 100
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ef2f3f5e11b9593dce1ba1eb2039c0c0edd32aba
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 3faa427363d2d30ce387bbfe911f320064d3276a
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953127"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971780"
 ---
 # <a name="closing-years-and-periods"></a>Afslutning af år og perioder
+
 Ved afslutningen af et regnskabsår er der en række administrative opgaver, du skal udføre, som f.eks. kontrol af, at alle dokumenter og kladder er bogført, og at valutadata er opdateret, at bøger er afsluttet og meget mere. De faktiske opgaver afhænger af din virksomhed.
 
 Følgende tabel indeholder en oversigt over opgaver, du typisk udfører for at lukke et år og periode.
@@ -39,7 +39,11 @@ Følgende tabel indeholder en oversigt over opgaver, du typisk udfører for at l
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/close-fiscal-year-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
-[Åbne et nyt regnskabsår](finance-how-open-new-fiscal-year.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+[Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

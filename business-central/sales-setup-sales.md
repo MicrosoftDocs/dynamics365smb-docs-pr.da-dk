@@ -1,30 +1,29 @@
 ---
-title: Oversigt over opgaver til konfiguration af salgsprocesser | Microsoft Docs
-description: Beskriver opgaver til oprettelse af regler og værdier, som du kan bruge til at definere virksomhedens salgspolitikker og -processer.
-services: project-madeira
-documentationcenter: ''
+title: Oversigt over opgaver til konfiguration af salgsprocesser
+description: Oversigt over de opgaver, der er nødvendige for at konfigurere regler og værdier, der definerer din salgs politik og-processer, herunder generel opsætning og opsætning af finansrelaterede salg.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 01/13/2020
-ms.author: sgroespe
-ms.openlocfilehash: d19d02cb770efb32441d4b1282789a92deea41a0
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 63d9357d29fbfdc3c230c69602fd370c5d73f21b
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953391"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115446"
 ---
 # <a name="setting-up-sales"></a>Konfigurere salg
 Før du kan administrere salgsprocesser, skal du konfigurere de regler og værdier, der definerer virksomhedens salgspolitikker.
 
-Du skal definere den generelle opsætning, f.eks. hvilke salgsdokumenter der kræves, og hvordan dokumenternes værdier bogføres. Denne generelle opsætning udføres typisk én gang i forbindelse med den indledende implementering.
+Du skal definere den generelle opsætning på **Salgsopsætning**, f.eks. hvilke salgsdokumenter der kræves, hvordan deres værdi angives og den type af linjer, der skal oprettes som standard. Denne generelle opsætning udføres typisk én gang i forbindelse med den indledende implementering.
 
-En særskilt sæt opgaver i forbindelse med registrering af nye debitorer er at registrere en særlig pris eller rabataftaler, du indgår med hver debitorer.
+En særskilt sæt opgaver i forbindelse med registrering af nye debitorer er at registrere en særlig pris eller rabataftaler, du indgår med hver debitorer. Du kan finde flere oplysninger i [Registrere specielle salgspriser og rabatter](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Den finansrelaterede salgsopsætning, som betalingsmetoder og valutaer, dækkes i afsnittet Konfigurere Finans. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md).
 
@@ -39,9 +38,13 @@ Den finansrelaterede salgsopsætning, som betalingsmetoder og valutaer, dækkes 
 |Bruge en EU-webtjeneste til at kontrollere en kundes SE/CVR-nummer.|[Kontrollere SE/CVR-numre](finance-setup-vat.md)|
 |Definere de forskellige incoterms, du tilbyder kunderne, eller som dine leverandører tilbyder dig.|[Oprette leveringsformer](sales-how-set-up-shipment-methods.md)|
 |Angive oplysninger om de forskellige transportleverandører, virksomheden bruger, herunder et link til deres pakkesporingsservice.|[Oprette speditører](sales-how-to-set-up-shipping-agents.md)|
+|Angiv standardrapporter, der skal bruges til forskellige dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

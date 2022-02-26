@@ -1,37 +1,38 @@
 ---
-title: Få en oversigt over disponering | Microsoft Docs
-description: Du kan få vist oplysninger om varedisponeringen eller -beholdningen på tværs af lokationer pr. salg eller købshændelser, efter en periode eller efter varens placering på en montage- eller produktionsstykliste.
+title: Hent en disponeringsoversigt
+description: Du kan få vist oplysninger om varedisponeringen eller -beholdningen på tværs af lokationer pr. salg eller købshændelser, efter en periode eller lignende.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 04/01/2020
-ms.author: SorenGP
-ms.openlocfilehash: f95544f2090185512d94e9a8ce10975304f0ec2f
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.search.form: 908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 01efc9191cad10414c344b4fe3a28ae2cef63ef9
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324242"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060112"
 ---
 # <a name="view-the-availability-of-items"></a>Vise varedisponering
 Fra konteksten for en virksomhedsopgave kan du få avancerede oplysninger om, hvornår og hvor en vare er tilgængelig, f.eks, når du taler med en kunde om en leveringsdato.
 
-Du kan få vist disponeringen for alle varer pr. lokation, og du kan få vist disponeringen for hver enkelt vare ud fra hændelse, periode eller lokation. En hændelse er enhver planlagt varetransaktion, f.eks en salgsleverance eller modtagelse af en indgående overflytning.
+Du kan få vist disponeringen for alle varer pr. lokation, og du kan få vist disponeringen for hver enkelt vare ud fra hændelse eller periode. En hændelse er enhver planlagt varetransaktion, f.eks en salgsleverance eller modtagelse af en indgående overflytning.
 
 > [!NOTE]  
 >   Visninger af tilgængelighed pr. lokation kræver, at du har lager på mere end én lokation. Der er flere oplysninger i [Opsætte lokationer](inventory-how-setup-locations.md).
 
 Hvis du bruger lageraktivitet, varierer tilgængeligheden afhængigt af allokeringer på placeringsniveauet, når lageraktiviteter som pluk og bevægelser forekommer, og når lagerreservationssystemet pålægger begrænsninger, der skal overholdes. En meget kompleks algoritme kontrollerer, at alle betingelser er opfyldt, før der tildeles antal til pluk for udgående forløb. Du kan finde flere oplysninger i [Designoplysninger: Tilgængelighed i lageret](design-details-availability-in-the-warehouse.md).
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] bliver tilgængelighedstal typisk vist i to forskellige felter, med hver sin definition:
+I [!INCLUDE[prod_short](includes/prod_short.md)] bliver tilgængelighedstal typisk vist i to forskellige felter, med hver sin definition:
 
 * Feltet **Lager**, som også kaldes **Lagerbeholdning**, viser den faktiske lagerbeholdning i dag ud fra de bogførte vareposter.
-* Feltet **Planlagt disponibel balance** beregnes og viser lagerbeholdningen plus fastlagte tilgange minus bruttobehovet. (I [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderer fastlagte tilgange antal på købsordrer og indgående overflytningsordrer. Bruttobehov omfatter antal på salgsordrer og udgående overflytningsordrer).
+* Feltet **Planlagt disponibel balance** beregnes og viser lagerbeholdningen plus fastlagte tilgange minus bruttobehovet. (I [!INCLUDE[prod_short](includes/prod_short.md)] inkluderer fastlagte tilgange antal på købsordrer og indgående overflytningsordrer. Bruttobehov omfatter antal på salgsordrer og udgående overflytningsordrer).
 
 > [!TIP]  
 >   Den planlagte disponible saldo er især relevant at få vist på siderne **Varedisponering pr. periode** og **Varedisponering pr. hændelse**, da de indeholder datodimensionen.  
@@ -42,7 +43,7 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] bliver tilgængelighedstal typisk 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Sådan får du vist tilgængeligheden for en vare, ud fra hvornår den er modtages eller leveres
 Du får vist tilgængeligheden for en vare i overensstemmelse med planlagte varetransaktioner på siden **Disponering pr. hændelse**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for en vare, som du vil have vist disponering for.
 3. Vælg handlingen **Varedisponering pr.**, og vælg derefter handlingen **Hændelse**.
 
@@ -52,7 +53,7 @@ Du får vist tilgængeligheden for en vare i overensstemmelse med planlagte vare
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Sådan får du vist disponeringen for en vare i forskellige perioder
 Du får vist disponeringen for en vare over tid for angivne perioder på siden **Varedisponering pr. periode**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for en vare, som du vil have vist disponering for.
 3. Vælg handlingen **Varedisponering pr.**, og vælg derefter handlingen **Periode**.
 
@@ -62,7 +63,7 @@ Du får vist disponeringen for en vare over tid for angivne perioder på siden *
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Sådan får du vist disponeringen for en vare på de lokationer, hvor den opbevares
 På siden **Varedisponering pr. lokation** får du vist disponeringen for en vare på de forskellige steder, hvor den opbevares.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for en vare, som du vil have vist disponering for.
 3. Vælg handlingen **Varedisponering pr.**, og vælg derefter handlingen **Lokation**.
 
@@ -73,7 +74,7 @@ På siden **Varedisponering pr. lokation** får du vist disponeringen for en var
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Sådan får du vist disponeringen for alle varer ud fra den lokation, hvor de opbevares
 Du får vist disponeringen for alle dine varer på tværs af alle dine lokationer på siden **Varer pr. lokation**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Varer pr. lokation**.
 
     Siden **Varer pr. lokation** viser for alle varer, hvor mange er tilgængelige på hver enkelt lokation.
@@ -103,7 +104,7 @@ Feltet **Flaskehals** angiver, hvilken vare i styklistestrukturen, der begrænse
 Siden **Disponering af vare efter enhed** viser disponeringen af en vare opdelt i de enheder, den opbevares i.
 
 > [!NOTE]  
-> Hvis du vil holde disse oplysninger ajourførte, skal du konvertere Vareenheder. Hvis du f.eks. køber en vare i en enhed, f. eks. kasser, og du sælger varer i en anden enhed, f. eks. styk, skal du bruge en varekladde til at konvertere enhederne eller "pakke varer ud". Du kan bruge en kladdelinje for en vare med nedregulering til at reducere lagerbeholdningen i købets måleenhed, f. eks. kasser, og en opregulering for at øge lagerbeholdningen i salgsenheder, f. eks. stykker. 
+> Hvis du vil holde disse oplysninger ajourførte, skal du konvertere Vareenheder. Hvis du f.eks. køber en vare i en enhed, f.eks. kasser, og du sælger varer i en anden enhed, f.eks. styk, skal du bruge en varekladde til at konvertere enhederne eller "pakke varer ud". Du kan bruge en kladdelinje for en vare med nedregulering til at reducere lagerbeholdningen i købets måleenhed, f.eks. kasser, og en opregulering for at øge lagerbeholdningen i salgsenheder, f.eks. stykker. 
 
 ## <a name="assembly-availability-page"></a>Siden Montagedisponering
 Siden **Montagedisponering** indeholder detaljerede disponeringsoplysninger for montageelementet. Vinduet åbnes:
@@ -129,3 +130,6 @@ Hvis en eller flere montagekomponenter ikke er tilgængelig, afspejles dette i f
 [Sælge produkter](sales-how-sell-products.md)      
 [Arbejde med Business Central](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

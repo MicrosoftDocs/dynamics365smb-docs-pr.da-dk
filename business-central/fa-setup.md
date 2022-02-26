@@ -1,22 +1,22 @@
 ---
-title: Konfigurere anlægsaktiver | Microsoft Docs
+title: Konfigurere anlægsaktiver
 description: Få mere at vide om den række af opgaver, du skal udføre for at oprette anlægsaktiver, f.eks. maskiner eller bygninger.
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: be5e86776d440763d069cecb9f45d0e6daeaeede
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 5607
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 874c1c18611f0aa165a8537642324334e8e0798a
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184168"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029532"
 ---
 # <a name="setting-up-fixed-assets"></a>Opsætning af anlægsaktiver
 Før du kan arbejde med anlægsaktiver, skal du angive et par ting:  
@@ -24,7 +24,7 @@ Før du kan arbejde med anlægsaktiver, skal du angive et par ting:
 * Hvordan du forsikrer, vedligeholder og afskriver anlægsaktiver.  
 * Hvordan du registrerer omkostninger og andre værdier i finansregnskabet.  
 
-Tabellen nedenfor indeholder links til flere oplysninger. Når du konfigureret disse ting, kan du begynde på forskellige aktiviteter. Du kan finde flere oplysninger under [Anlægsaktiver](fa-manage.md).  
+Tabellen nedenfor indeholder links til flere oplysninger. Når du konfigureret disse ting, kan du begynde på forskellige aktiviteter. Du kan finde flere oplysninger i [Anlægsaktiver](fa-manage.md).  
 
 > [!NOTE]  
 >   Du kan registrere anlægstransaktioner på siden **Anlægskassekladde** eller på siden **Anlægskladde**, afhængigt af, om transaktionerne, der er til finansiel rapportering eller intern administration. Hjælp for Anlæg beskriver kun, hvordan du bruger siden **Anlægskassekladde**.  
@@ -40,9 +40,14 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Aktivere forsikring af anlæg, angive generelle forsikringsoplysninger, oprette forsikringskort pr. police, og klargøre kladder til at bogføre forsikringsomkostninger. |[Definere anlægsforsikring](fa-how-setup-insurance.md) |
 | Udføre reparation af anlægsaktiver, angive generelle reparationsoplysninger, oprette bogføringskonti for reparation og definere typer af vedligeholdelsesarbejde. |[Definere anlægsreparation](fa-how-setup-maintenance.md) |
 | Få mere at vide om forskellige afskrivningsmetoder for anlægsaktiver. |[Afskrivningsmetoder](fa-depreciation-methods.md) |
+| Få mere at vide om, hvordan du anvender brugerdefinerede afskrivningsmetoder. |[Sådan konfigureres brugerdefinerede afskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
+
 
 ## <a name="see-also"></a>Se også
 [Anlægsaktiver](fa-manage.md)  
 [Finans](finance.md)  
-[Introduktion](product-get-started.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Blive køreklar](ui-get-ready-business.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Sådan flyttes komponenter til et handlingsområde i grundlæggende lageropsætninger | Microsoft Docs
+title: Flytte komponenter til et handlingsområde i grundlæggende lageropsætninger
 description: Hvis der forekommer varebehandlingsprocesser på lagerlokationen, skal du evt. flytte varer mellem interne placeringer som reaktion på interne kildedokumenter, f.eks. produktion, montage eller serviceordrer på lokationen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 117ae04d89d801eff79ecc7d2908eeb49d53f9e2
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: e8ccd03e24c80e1cd7ac2fe39d272599af7f72fe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193103"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444151"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytte komponenter til et handlingsområde i grundlæggende lageropsætninger
 Hvis der forekommer varebehandlingsprocesser på lagerlokationen, skal du evt. flytte varer mellem interne placeringer som reaktion på interne kildedokumenter, f.eks. produktion, montage eller serviceordrer på lokationen.  
@@ -47,7 +47,7 @@ En lagermedarbejder kan også oprette den ved at pege på den pågældende frigi
 Denne fremgangsmåde viser, hvordan du opretter en flytning (lager) fra siden **Flytning (lager)** ved at referere til en frigivet montageordre som et kildedokument. Fremgangsmåden er den samme, når du flytter komponenter til produktionsordrer og serviceordrer.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Sådan flyttes komponenter til et handlingsområde i grundlæggende lageropsætninger  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Flytning**, og vælg det relevante link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Flytning (lager)**, og vælg derefter det relaterede link.  
 2.  Udfyld feltet **Nummer** i oversigtspanelet **Generelt**. . Du kan trykke på Enter-tasten for at vælge fra nummerserien.  
 3.  I feltet **Lokationskode** skal du indtaste den lokation, hvor flytningen finder sted.  
 4.  Vælg handlingen **Hent kildedokumenter**. Du kan også udfylde feltet **Kildedokumentet** og derefter vælge knappen **AssistEdit** i feltet **Kildenr.**.  
@@ -73,7 +73,10 @@ Denne fremgangsmåde viser, hvordan du opretter en flytning (lager) fra siden **
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

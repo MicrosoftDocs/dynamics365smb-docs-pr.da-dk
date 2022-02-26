@@ -1,23 +1,22 @@
 ---
-title: Oversigt over opgaver til administration af køb | Microsoft Docs
+title: Oversigt over opgaver til administration af indkøb
 description: Beskriver opgaver, du kan bruge til at administrere dine indkøb eller indkøbsprocesser, herunder hvordan købsfakturaer og købsordrer fungerer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
-ms.date: 01/13/2020
-ms.author: sgroespe
-ms.openlocfilehash: aed5db94b7b028a972cf197cdc150a39e2df4ed6
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.search.form: 460
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 60887ebf12795464049fb403e832e4eae7118b18
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954183"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012099"
 ---
 # <a name="purchasing"></a>Indkøb
 Du kan oprette en købsfaktura eller købsordre for at registrere omkostningerne ved køb og spore gæld. Hvis du vil styre en lagerbeholdning, benyttes købsfakturaer også til dynamisk at opdatere lagerniveauer, så du kan minimere lageromkostningerne og yde bedre kundeservice. Købsomkostningerne, herunder serviceudgifter og lagerværdier, der stammer fra bogføring af købsfakturaer, bidrager til avancebeløb og andre finansielle nøgletal i dit Rollecenter.
@@ -28,7 +27,7 @@ Du kan få købsfakturaer oprettet automatisk ved hjælp af tjenesten OCR (Optic
 
 Produkterne kan være både lagervarer og services. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 
-Ved alle indkøbsprocesser kan du inkludere et godkendelsesworkflow, f.eks. for at kræve, at store køb godkendes af regnskabschefen. Du kan finde flere oplysninger under [Bruge godkendelsesworkflows](across-how-use-approval-workflows.md).
+Ved alle indkøbsprocesser kan du inkludere et godkendelsesworkflow, f.eks. for at kræve, at store køb godkendes af regnskabschefen. Du kan finde flere oplysninger i [Bruge godkendelsesworkflows](across-how-use-approval-workflows.md).
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
@@ -42,9 +41,13 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Opret en købskreditnota for at tilbageføre en bestemt bogført købsfaktura, så den afspejler, hvilke produkter du returnerer til kreditoren, og hvilke indbetalte beløb der skal opkræves. |[Behandle købsreturvarer eller annulleringer](purchasing-how-register-new-vendors.md) |
 |Forberede fakturering af flere leverancer fra den samme leverandør på én gang ved at kombinere leverancer på én faktura.|[Kombinere modtagelser på én enkelt faktura](purchasing-how-to-combine-receipts.md)|
 |Konvertere eksempelvis elektroniske fakturaer fra dine leverandører til købsfakturaer i Business Central.|[Modtage og konvertere elektroniske dokumenter](purchasing-how-to-receive-and-convert-electronic-documents.md)|
-| Lær, hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner, hvornår du skal bestille en vare for at modtage den på en bestemt dato.|[Beregning af forfaldsdato for køb](purchasing-date-calculation-for-purchases.md)|
+| Lær, hvordan [!INCLUDE[prod_short](includes/prod_short.md)] beregner, hvornår du skal bestille en vare for at modtage den på en bestemt dato.|[Beregning af forfaldsdato for køb](purchasing-date-calculation-for-purchases.md)|
 |Løse forvirring, når der findes to eller flere poster for samme kreditor.|[Flette dublerede poster](sales-how-merge-duplicate-records.md)|
 |Administrer dit tilsagn til en kreditor om at købe store mængder, der leveres i portioner over en periode.|[Arbejde med rammekøbsordrer](sales-how-to-create-blanket-sales-orders.md)|
+
+## <a name="external-document-numbers"></a>Eksterne bilagsnumre
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/purchase-items-services-dynamics-365-business-central/)
 
@@ -53,7 +56,10 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Administrere projekter](projects-manage-projects.md)    
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

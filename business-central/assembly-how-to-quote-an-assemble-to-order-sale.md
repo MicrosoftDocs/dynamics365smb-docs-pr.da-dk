@@ -3,19 +3,19 @@ title: Sådan oprettes tilbud på montage til ordre-salg | Microsoft Docs
 description: Du kan bruge montagestyring til at tilpasse et montageelement på anmodning af en debitor under salgsprocessen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4da72fadbdcc5d9c91a9f0a6769af240d6c9a73f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: cd85a880bada8cc9e3ee2ce924919f06f0c5109c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186376"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435433"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Oprette tilbud på montage til ordre-salg
 Du kan bruge montagestyring til at tilpasse et montageelement på anmodning af en debitor under salgsprocessen. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -26,7 +26,7 @@ Du kan også oprette et salgstilbud for en tilpasset montageelement, som når du
 >  Ligesom alle typer tilbud bruges mængderne med montagetilbud ikke i forbindelse med tilgængelighed, planlægning eller reservationer.  
 
 ## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Sådan oprettes et salgstilbud til et montage efter ordre-element  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgstilbud**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgstilbud**, og vælg derefter det relaterede link.  
 2.  Opret en ny salgstilbudslinje med en linje til et montageelement. Der er flere oplysninger i [Give salgstilbud](sales-how-make-offers.md).  
 3.  I feltet **Antal til montage efter ordre** skal du angive den samlede mængde.
 
@@ -42,5 +42,8 @@ Du kan også oprette et salgstilbud for en tilpasset montageelement, som når du
 [Montagestyring](assembly-assemble-items.md)  
 [Arbejde med styklister](inventory-how-work-BOMs.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

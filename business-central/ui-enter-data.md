@@ -1,21 +1,21 @@
 ---
-title: Sådan angives data i Business Central | Microsoft Docs
-description: Få mere at vide om generelle funktioner, der hjælper dig med at indtaste data i felter.
-author: SorenGP
+title: 'Fremgangsmåde: Indtaste data Business Central'
+description: Der er mange generelle funktioner, der hjælper dig med at indtaste data lettere, hurtigere og mere nøjagtigt. De grundlæggende principper og avancerede funktioner beskrives her.
+author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/03/2020
-ms.author: sgroespe
-ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.search.keywords: decimal separator, data entry, focus
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262138"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588953"
 ---
 # <a name="entering-data"></a>Angivelse af data
 
@@ -24,7 +24,7 @@ Der er mange generelle funktioner, der hjælper dig med at indtaste data lettere
 Eksemplerne i denne artikel bruger demodata.
 
 ## <a name="working-with-editable-fields"></a>Arbejde med redigerbare felter
-Felter i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan indeholde forskellige redigerbare data, f. eks. tekst eller valutabeløb. Redigerbare felter viser typisk et indtastningsfelt, hvor du kan indtaste eller vælge en værdi. Ikke-redigerbare felter vises typisk med grå baggrund.   
+Felter i [!INCLUDE[prod_short](includes/prod_short.md)] kan indeholde forskellige redigerbare data, f.eks. tekst eller valutabeløb. Redigerbare felter viser typisk et indtastningsfelt, hvor du kan indtaste eller vælge en værdi. Ikke-redigerbare felter vises typisk med grå baggrund.   
 
 Visse redigerbare felter indeholder en vælger, der kan hjælpe dig med at angive en værdi.  
 
@@ -34,8 +34,7 @@ Visse redigerbare felter indeholder en vælger, der kan hjælpe dig med at angiv
 |Datovælger       |Denne vælger viser en kalender, der er baseret på de aktuelle regionale indstillinger. Den gør det lettere at vælge en enkelt dato.|
 |Rullemenu          |Rullemenuer giver dig mulighed for at vælge faste værdier eller referenceposter fra en anden tabel|
 |Skifteknap eller afkrydsningsfelt|Nogle felter giver mulighed for at vælge mellem *Ja-* eller *Nej*-værdier. Parameteren bruges til at angive denne værdi og vises altid som et afkrydsningsfelt i lister|
-|Assisteret redigering       |Nogle felter indeholder brugerdefinerede vælgere, der er gode til at søge efter og vælge den bedste værdi til feltet, f. eks. et pop op-vindue|
-
+|Assisteret redigering       |Nogle felter indeholder brugerdefinerede vælgere, der er gode til at søge efter og vælge den bedste værdi til feltet, f.eks. et pop op-vindue|
 
 ### <a name="modifying-a-field-value"></a>Ændring af en feltværdi
 
@@ -44,7 +43,7 @@ Hvis du vil ændre værdien i et felt, skal du først fremhæve feltet. Du kan f
 - Tryk på **Tab**. Handlingen vælger hele værdien.
 - Venstreklik med musen eller den tilsvarende inputenhed. Denne handling markerer kun hele feltværdien, hvis feltet er på en liste.  
 
-Når du interagerer med felter i brugergrænsefladen, prioriterer [!INCLUDE[d365fin](includes/d365fin_md.md)] typisk markering af hele feltværdien for at gøre det lettere for dig at erstatte denne værdi.
+Når du interagerer med felter i brugergrænsefladen, prioriterer [!INCLUDE[prod_short](includes/prod_short.md)] typisk markering af hele feltværdien for at gøre det lettere for dig at erstatte denne værdi.
 
 Når hele feltværdien vælges:
 - Erstat værdien ved blot at skrive for at angive en ny værdi. Hvis feltet indeholder en vælger, kan du aktivere det med tastaturgenvejen **Alt+pil ned**.
@@ -57,8 +56,7 @@ Når markøren vises i slutningen af feltværdien:
 - Brug **Home**, **End**, **venstre pil** og **højrepil** til at flytte markøren inden for værdien. Hvis du redigerer et felt på en liste, fremhæves det forrige felt, når du trykker på **venstre pil** igen, når markøren er i begyndelsen af værdien. Hvis du trykker på **højre pil** igen, når markøren er i slutningen af værdien, fremhæves det næste felt.
 
 > [!NOTE]
-> Når du har angivet en værdi, vil Business Central kun kontrollere, at den er gyldig, når du har klikket uden for feltet eller fokuseret på et andet element, f. eks. det næste felt.  
-
+> Når du har angivet en værdi, vil Business Central kun kontrollere, at den er gyldig, når du har klikket uden for feltet eller fokuseret på et andet element, f.eks. det næste felt.  
 
 ## <a name="keyboard-shortcuts"></a>Tastaturgenveje
 
@@ -85,7 +83,7 @@ Følgende liste indeholder nyttige oplysninger om brugen af genveje.
 - Den findes i alle redigerbare felter.
 - Den kan også bruges på tværs af kolonner og rækker.
 - Den forhindrer ikke adgang til andre elementer på en side, f.eks. handlinger. Disse elementer er stadig tilgængelige ved hjælp af Tab og Shift+Tab.  
-- Det er ikke nødvendigt at udvide oversigtspanelet for at få genveje til at fungere. Hvis det næste genvejsfelt er placeret i et skjult oversigtspanel, udvides det pågældende oversigtspanel automatisk og fokuserer på det valgte felt. [!INCLUDE[d365fin](includes/d365fin_md.md)] husker, at oversigtspanelet skal udvides, næste gang du besøger siden.  
+- Det er ikke nødvendigt at udvide oversigtspanelet for at få genveje til at fungere. Hvis det næste genvejsfelt er placeret i et skjult oversigtspanel, udvides det pågældende oversigtspanel automatisk og fokuserer på det valgte felt. [!INCLUDE[prod_short](includes/prod_short.md)] husker, at oversigtspanelet skal udvides, næste gang du besøger siden.  
 - Genveje fungerer, uanset om felter skal udfyldes eller ej. Det er derfor en god ide at sikre, at obligatoriske felter er medtaget i genvej.
 - Som standard medtages de fleste felter automatisk i genvej. Så til at starte med skal du derfor sandsynligvis udelukke felter fra genvej.
 
@@ -93,7 +91,7 @@ Følgende liste indeholder nyttige oplysninger om brugen af genveje.
 
 Hvis du vil konfigurere genvejsmenuen for felter, skal du bruge tilpasning.
 
-1. Start tilpasning ved at vælge ikonet ![Indstillinger](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") og derefter handlingen **Tilpas**.
+1. Start personlige indstillinger ved at vælge ![Indstillinger.](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") Og derefter funktionen **Tilpas**.
 2. Markér et felt, der skal ændres. Markér den tilsvarende kolonneoverskrift på listerne. Vælg derefter enten **Medtag i genvej** eller **Udelad fra genvej**.
 
 Du kan finde flere oplysninger om tilpasning under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
@@ -116,11 +114,11 @@ Selv om feltet skal udfyldes, er du ikke tvunget til at udfylde feltet, før du 
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>Ofte stillede spørgsmål om kopiering og indsætning af felter og linjer
 
-Du kan kopiere en eller flere rækker fra en liste eller et enkelt felt på en side. Indsæt derefter det, du har kopieret, på den samme side, på en anden side eller i et eksternt dokument. Du kan f. eks. indsætte i Microsoft Excel eller en mail i Outlook. Kort sagt, når du vil kopiere, skal du trykke på CTRL + C (cmd + C i macOS) på tastaturet. Når du vil indsætte, skal du trykke på CTRL + V eller cmd + V i macOS.
+Du kan kopiere en eller flere rækker fra en liste eller et enkelt felt på en side. Indsæt derefter det, du har kopieret, på den samme side, på en anden side eller i et eksternt dokument. Du kan f.eks. indsætte i Microsoft Excel eller en mail i Outlook. Kort sagt, når du vil kopiere, skal du trykke på CTRL + C (cmd + C i macOS) på tastaturet. Når du vil indsætte, skal du trykke på CTRL + V eller cmd + V i macOS.
 
 Hvis du på en liste vil kopiere feltet i den samme kolonne i rækken ovenfor og indsætte det i den aktuelle række, skal du bare trykke på F8.
 
-Du kan finde flere oplysninger i [Ofte stillede spørgsmål om kopiering og indsætning](ui-copy-paste.md).
+Du kan finde flere oplysninger i [Ofte stillede spørgsmål om kopiering og indsætning](faq-copy-paste.yml).
 
 ## <a name="filtering-line-items"></a>Filtrere linjevarer
 
@@ -136,33 +134,33 @@ Dette er især nyttigt, når du arbejder med store linjeelementlister, og du ska
 
 ### <a name="switching-the-focus-on-and-off"></a>Slå fokus til og fra
 
-Når du vil fokusere på linjevarer, skal du markeret et vilkårligt sted i delen med linjevarer og derefter vælge ![Ikonet Fokustilstand](media/focus-mode.png "Ikonet Fokustilstand") i øverste højre hjørne eller trykke på Ctrl+Skift+F12.
+Hvis du vil fokusere på linjeelementer, skal du vælge et vilkårligt sted i linjeelement delen og derefter vælge ![ikonet Fokustilstand.](media/focus-mode.png "Ikonet Fokustilstand") i øverste højre hjørne, eller tryk på Ctrl + Skift + F12.
 
-For at vende tilbage til normal visning skal du vælge ![Ikonet Fokustilstand](media/focus-mode.png "Ikonet Fokustilstand") eller trykke på Ctrl+Skift+F12 igen.
+Hvis du vil skifte tilbage til normal visning, skal du vælge ![ikonet Fokustilstand.](media/focus-mode.png "Ikonet Fokustilstand") eller tryk på Ctrl + Skift + F12 igen.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitasking på tværs af flere sider
 
 Du kan åbne et kort eller en dokumentside i et nyt vindue. Når du åbner et nyt vindue, kan du:
 
 - Arbejde med flere opgaver samtidig
-- Håndtere afbrydelser af den aktuelle opgave, f. eks. et indgående opkald.
+- Håndtere afbrydelser af den aktuelle opgave, f.eks. et indgående opkald.
 - Holde et vindue åbent for en igangværende opgave, mens du starter eller udfører en anden opgave i vinduer.
 
-Hvis du vil åbne det aktuelle kort eller dokument i et nyt vindue, skal du vælge ![Åbn nyt vindue](media/open-new-window-icon.png "Ikonet Åbn i nyt vindue") i øverste højre hjørne eller trykke på Alt+Skift+W.
+Hvis du vil åbne det aktuelle kort eller dokument i et nyt vindue, skal du vælge ![Åbn nyt vindue.](media/open-new-window-icon.png "Ikonet Åbn i nyt vindue") i øverste højre hjørne, eller tryk på Alt + Skift + W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Hvis du vil åbne det aktuelle kort eller dokument i et nyt vindue, skal du vælge ![Åbn nyt vindue](media/open-new-window-icon.png "Ikonet Åbn i nyt vindue") i øverste højre hjørne eller trykke på Alt+Skift+W.
+Hvis du vil åbne det aktuelle kort eller dokument i et nyt vindue, skal du vælge ![Åbn nyt vindue.](media/open-new-window-icon.png "Ikonet Åbn i nyt vindue") i øverste højre hjørne, eller tryk på Alt + Skift + W.
 
 > [!NOTE]
-> Når du åbner andre sider fra et kort eller et dokument, der er åbnet i et nyt vindue, åbnes disse sider i et nyt vindue, selvom du ikke vælger ![Åbn nyt vindue](media/open-new-window-icon.png "Ikonet Åbn i nyt vindue").
+> Når du åbner andre sider fra et kort eller et dokument, der er åbnet i et nyt vindue, åbnes disse sider i et nyt vindue, selvom du ikke vælger ![Åbn nyt vindue.](media/open-new-window-icon.png "Ikonet Åbn i nyt vindue").
 
 > [!NOTE]
-> Hvis du arbejder i Safari-browseren, kan blokering af et pop op-vindue medføre, at det nye vindue ikke åbnes. Hvis det er tilfældet, skal du angive produktets URL-adresse som et tilladt websted. Du kan finde flere oplysninger under [Ændre indstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
-> Det samme kan forekomme i andre browsere, f.eks. Firefox. Du kan finde flere oplysninger under [Indstillinger for blokering af pop op-vinduer i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
+> Hvis du arbejder i Safari-browseren, kan blokering af et pop op-vindue medføre, at det nye vindue ikke åbnes. Hvis det er tilfældet, skal du angive produktets URL-adresse som et tilladt websted. Du kan finde flere oplysninger i [Ændre indstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
+> Det samme kan forekomme i andre browsere som f.eks. Firefox. Du kan finde flere oplysninger i [Indstillinger for blokering af pop op-vinduer i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-En anden måde at multitaske på er at åbne [!INCLUDE[d365fin](includes/d365fin_md.md)] på to eller flere browserfaner. Når du gør det på denne måde, skal du oprette en ny fane og derefter kopiere/indsætte URL-adressen til den oprindelige fane på den nye fane. Derved oprettes en ny session.   
+En anden måde at multitaske på er at åbne [!INCLUDE[prod_short](includes/prod_short.md)] på to eller flere browserfaner. Når du gør det på denne måde, skal du oprette en ny fane og derefter kopiere/indsætte URL-adressen til den oprindelige fane på den nye fane. Derved oprettes en ny session.   
 
 > [!NOTE]
 > Brug ikke funktionen **Dupliker** i browseren til at oprette den nye fane, da det kan medføre, at handlinger på en fane blokerer handlinger på andre faner, fordi de er en del af samme session.
@@ -199,7 +197,7 @@ Du kan angive negative tal på to måder. Tallet -20,5 kan angives som:
 Du kan angive datoer og klokkeslæt i alle de felter, der er angivet til datoer (datofelter). Du kan angive datoer med eller uden separatorer.
 
 > [!NOTE]  
-> Måden, du angiver datoer og klokkeslæt på, afhænger af dine indstillinger i **Område**. Du kan finde flere oplysninger under [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).  
+> Måden, du angiver datoer og klokkeslæt på, afhænger af dine indstillinger i **Område**. Du kan finde flere oplysninger i [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).  
 
 ### <a name="entering-dates"></a>Angive datoer
 
@@ -242,34 +240,9 @@ I den følgende tabel kan du se, hvordan du kan indtaste klokkeslæt, og hvordan
 
  Du skal skrive to tal for hver tidsenhed, hvis du ikke angiver en separator.  
 
-## <a name="entering-datetimes"></a>Angive dato/klokkeslæt
+## <a name="entering-combined-datetimes"></a>Indtaste kombineret dato/klokkeslæt
 
-Når du angiver dato/klokkeslæt skal du angive et mellemrum mellem datoen og klokkeslættet.  
-
-I den følgende tabel kan du se, hvordan du kan skrive dato og klokkeslæt, og hvordan de fortolkes.  
-
-|Post|Fortolkning|  
-|---------------|------------------------|  
-|`131202` 132455|13-12-02 13:24:55|  
-|1-12-02 10|01-12-02 10:00:00|  
-|1.12.02 5|01-12-02 05:00:00|  
-|1.12.02|01-12-02 00:00:00|  
-|11 12|11-løbende måned-løbende år 12:00:00|  
-|1112 12|11-12-aktuelt år 12:00:00|  
-|d eller dags dato|dags dato 00:00:00|  
-|d tid|dags dato aktuelt klokkeslæt|  
-|d 10:30|dags dato 10:30:00|  
-|d 3:3:3|dags dato 03:03:03|  
-|a eller arbejdsdato|arbejdsdato 00:00:00|  
-|m eller mandag|Mandag i den aktuelle uge 00:00:00|  
-|ti eller tirsdag|Tirsdag i den aktuelle uge 00:00:00|  
-|on eller onsdag|Onsdag i den aktuelle uge 00:00:00|  
-|to eller torsdag|Torsdag i den aktuelle uge 00:00:00|  
-|f eller fredag|Fredag i den aktuelle uge 00:00:00|  
-|l eller lørdag|Lørdag i den aktuelle uge 00:00:00|  
-|s eller søndag|Søndag i den aktuelle uge 00:00:00|  
-|ti 10:30|Tirsdag i den aktuelle uge 10:30:00|  
-|ti 3:3:3|Tirsdag i den aktuelle uge 03:03:03|  
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Angivelse af varighed
 
@@ -292,6 +265,16 @@ Her er nogle eksempler.
 
  Tallet 5 konverteres til 5 timer, hvis måleenheden er timer.  
 
-## <a name="see-also"></a>Se også  
- [Sortering af, søgning i og filtrering af lister](ui-enter-criteria-filters.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Angive den decimalseparator, der bruges af numeriske tastaturer
+
+Når du bruger decimalseparatortasten for numerisk tastatur til at indtaste data, bestemmes den faktiske decimalseparator, der er angivet i feltet, af områdeindstillingen for Business Central. Du angiver området i Business Central på siden **Mine indstillinger**.
+
+Antag f.eks., at du bruger et numerisk tastatur, der bruger et punkt (.) som decimalseparatortast. Men du indtaster data for et regionalt sprog, der bruger et komma (**,**) til decimalseparatoren, f.eks. dansk (Danmark) eller fransk (Frankrig). Decimaler som "1,23" skal derfor angives som "1,23". I dette tilfælde kan du gå til siden **Mine indstillinger** og indstille **regionen** til det nationale målsprog, f.eks. **Dansk (Danmark)** eller **Fransk (Frankrig)**. Du kan finde flere oplysninger i [Ændre grundlæggende indstillinger](ui-change-basic-settings.md#region).
+
+## <a name="see-also"></a>Se også
+
+[Sortering af, søgning i og filtrering af lister](ui-enter-criteria-filters.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

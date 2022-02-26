@@ -1,23 +1,25 @@
 ---
-title: Købe varer til salg ved at oprette købsfakturaer | Microsoft Docs
+title: Købe varer til et salg
 description: Du kan oprette en købsfaktura for en kreditor eller en leverandør fra en salgsfaktura for at købe produkter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 1b723eaa62ef51fb6cacd42c29a4e2709a3228e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 50, 51, 56, 9308
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 46057027e89a087105ca52969c8d5f40a2c0cd26
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312480"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953405"
 ---
-# <a name="purchase-items-for-a-sale"></a>Købe varer til et salg
+# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Købe varer til salg ved at oprette købsfakturaer
+
 Fra salgsordrer og salgsfakturaer kan du bruge funktioner til hurtig oprettelse af indkøbsdokumenter for manglende vareantal, der kræves til salget. Du kan bruge to forskellige funktioner afhængigt af dokumenttypen.
 
 > [!Note]
@@ -31,7 +33,7 @@ Fra salgsordrer og salgsfakturaer kan du bruge funktioner til hurtig oprettelse 
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Sådan oprettes en eller flere købsordrer fra en salgsordre
 Hvis du vil oprette en købsordre for hvert vareantal, der ikke er tilgængeligt på salgsordren, skal du bruge funktionen **Opret købsordrer**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.
 2. Åbn en salgsordre, som du vil købe varer til.
 3. Vælg handlingen **Opret købsordrer**.
 
@@ -45,7 +47,7 @@ Hvis du vil oprette en købsordre for hvert vareantal, der ikke er tilgængeligt
 5. Vælg knappen **OK**.
 
     Der oprettes en indkøbsordre for hver vareleverandør på salgsordren, herunder eventuelle ændringer af antal, du har foretaget på siden **Opret købsordrer**.
-7. Fortsæt med at behandle købsordrer eller ordrer, for eksempel ved at redigere eller tilføje købsordrelinjer. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
+7. Fortsæt med at behandle købsordrer eller ordrer, for eksempel ved at redigere eller tilføje købsordrelinjer. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).
 
 
 ## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a>Sådan oprettes en købsfaktura fra en salgsordre eller salgsfaktura
@@ -54,7 +56,7 @@ Når du vil oprette en enkelt købsfaktura for en eller flere linjer i et salgsd
 > [!NOTE]  
 >   Denne funktion opretter en købsfaktura for det nøjagtige vareantal i det valgte salgsdokument. Hvis du vil ændre købsantallet, skal du redigere købsfakturaen, når den er oprettet.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordrer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.
 2. Åbn en salgsfaktura, som du vil købe varer til.
 3. Marker en eller flere fakturalinjer, som du vil bruge på købsfakturaen. Hvis du vil bruge alle salgsfakturalinjer, skal du enten vælge dem alle eller ikke vælge nogen linjer.
 4. Vælg handlingen **Opret købsfaktura**.
@@ -62,11 +64,14 @@ Når du vil oprette en enkelt købsfaktura for en eller flere linjer i et salgsd
 6. På listen over kreditorer, der vises, skal du vælge den kreditor, du vil købe alle varerne fra, og derefter vælge knappen **OK**.
 
     Der oprettes en købsfaktura, der indeholder én, flere end én eller alle linjer på salgsfakturaen.
-7. Fortsæt med at behandle købsfakturaen, for eksempel ved at redigere eller tilføje købsfakturalinjer. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
+7. Fortsæt med at behandle købsfakturaen, for eksempel ved at redigere eller tilføje købsfakturalinjer. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).
 
 ## <a name="see-also"></a>Se også
 [Køb](purchasing-manage-purchasing.md)  
 [Registrere køb](purchasing-how-record-purchases.md)  
 [Fakturere salg](sales-how-invoice-sales.md)  
 [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

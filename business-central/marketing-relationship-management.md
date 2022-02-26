@@ -1,28 +1,28 @@
 ---
-title: Relationsstyring | Microsoft Docs
-description: Relationsstyringsfunktionerne i Business Central understøtter din salgsindsats, og du kan få adgang til oplysninger om kontakter og kundeemner, så du kan betjene kunderne effektivt.
-services: project-madeira
+title: Relationsstyring
+description: Relationsstyringsfunktionerne i understøtter din salgsindsats, og du kan få adgang til oplysninger om kontakter og kundeemner, så du kan betjene kunderne effektivt.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3e1dac4724209cc9020bf3d7f67a2d870f9b2b73
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.forms: 9076, 9026
+ms.date: 06/22/2021
+ms.author: edupont
+ms.openlocfilehash: 09b9ecdc1d8f0b2a36193a6f931b2ac3fc03f4d4
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181312"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059944"
 ---
 # <a name="managing-relationships"></a>Styre relationer
-Relationsstyringsfunktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)] hjælper dig med at styre og understøtte din salgsindsats. Med disse funktioner får du adgang til dækkende og præcise oplysninger, så du kan fokusere på interaktioner med dine foretrukne kunde-/kontaktmålgrupper.
+Relationsstyringsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)] hjælper dig med at styre og understøtte din salgsindsats. Med disse funktioner får du adgang til dækkende og præcise oplysninger, så du kan fokusere på interaktioner med dine foretrukne kunde-/kontaktmålgrupper.
 
-Gode fremgangsmåder ved salg og marketing drejer sig primært om, hvordan du træffer de bedste beslutninger på det rigtige tidspunkt. [!INCLUDE[d365fin](includes/d365fin_md.md)] stiller med rettidigt at stille en præcis oversigt til rådighed over dine kontaktoplysninger, så du kan betjene dine vordende kunder mere effektivt og øge kundetilfredsheden.
+Gode fremgangsmåder ved salg og marketing drejer sig primært om, hvordan du træffer de bedste beslutninger på det rigtige tidspunkt. [!INCLUDE[prod_short](includes/prod_short.md)] stiller med rettidigt at stille en præcis oversigt til rådighed over dine kontaktoplysninger, så du kan betjene dine vordende kunder mere effektivt og øge kundetilfredsheden.
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 
@@ -35,3 +35,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Behandle indgående leads ved at oprette salgsmuligheder og knytte dem til sælgere, så du kan holde styr på muligt salg.|[Administrere salgsleads](marketing-manage-sales-opportunities.md)|
 |Oprette marketingplaner for at identificere, tiltrække og holde på kunderne.|[Administration af marketingkampagner](marketing-campaigns.md)|
 |Bruge Dynamics 365 Sales for Customer Engagement og nyde godt af problemfri integration i lead-til-kontant-processen ved hjælp af Business Central for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og styring af økonomien.|[Integration med Dynamics 365 Sales](marketing-integrate-dynamicscrm.md)|
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

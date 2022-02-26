@@ -1,42 +1,42 @@
 ---
-title: Oprette poster for indgående bilag | Microsoft Docs
-description: Du kan oprette poster for indgående bilag, f.eks. e-fakturaer, og administrere OCR-opgaver eCommerce og dokumentudveksling.
+title: Oprette indgående bilagsposter
+description: Brug forskellige funktioner på siden indgående dokumenter til at gennemgå udgifts kvitteringer, administrere OCR-opgaver, konvertere indkommende dokumentfiler og vedhæfte eksterne filer.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: daca27c051c8bdefe9a0424bca4699446ee9c84f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/11/2021
+ms.author: edupont
+ms.openlocfilehash: 130a41d23a6e28979fad1e4999a1f620eaf7affe
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188586"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437698"
 ---
 # <a name="create-incoming-document-records"></a>Oprette indgående bilagsposter
 På siden **Indgående bilag** kan du bruge forskellige funktioner til at gennemgå udgiftsbilag, administrere OCR-opgaver og konvertere indgående bilagsfiler, manuelt eller automatisk, til de relevante købs- og salgsdokumenter eller kladdelinjer. Eksterne filer kan tilknyttes i enhver procesfase, herunder til bogførte dokumenter og til de derved oprettede kreditor-, debitor- og finansposter.
 
-Når du vil registrere et eksternt dokument i [!INCLUDE[d365fin](includes/d365fin_md.md)], skal du først oprette eller fuldføre en indgående bilagspost. Du kan gøre dette manuelt, eller du kan tage et billede af det eksterne bilag og derefter oprette den indgående bilagspost med billedfilen vedhæftet.
+Når du vil registrere et eksternt dokument i [!INCLUDE[prod_short](includes/prod_short.md)], skal du først oprette eller fuldføre en indgående bilagspost. Du kan gøre dette manuelt, eller du kan tage et billede af det eksterne bilag og derefter oprette den indgående bilagspost med billedfilen vedhæftet.
 
-Før du kan bruge funktionen Indgående bilag, skal du foretage den nødvendige opsætning. Du kan finde flere oplysninger under [Konfigurere indgående bilag](across-how-setup-income-documents.md).
+Før du kan bruge funktionen Indgående bilag, skal du foretage den nødvendige opsætning. Du kan finde flere oplysninger i [Konfigurere indgående bilag](across-how-setup-income-documents.md).
 
 ## <a name="to-approve-or-reject-an-incoming-document"></a>Sådan godkendes eller afvises et indgående bilag
 Hvis du vil tillade brugere at oprette fakturaer eller finanskladdelinjer fra indgående bilagsposter, medmindre de er godkendt, kan du angive godkendere, der skal godkende posterne, før de kan behandles.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indgående bilag**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Indgående bilag** og derefter vælge det relaterede link.
 2. Marker linjen i det dokument, du vil godkende eller afvise, og vælg derefter handlingen **Godkend** eller **Afvis**.
 
 Hvis du godkender den indgående bilagspost, markeres afkrydsningsfeltet **Frigivet** på den indgående bilagslinje. Brugeren, der har ansvaret for at godkende, f.eks, købsfakturaer, kan fortsætte med at behandle posten.
 
 ## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Sådan opretter du en indgående bilagspost ved at tage et billede
 > [!NOTE]  
->   Følgende procedure gælder kun for [!INCLUDE[d365fin](includes/d365fin_md.md)] tablet- og telefonklienter.
+>   Følgende procedure gælder kun for [!INCLUDE[prod_short](includes/prod_short.md)] tablet- og telefonklienter.
 
 1. På applinjen skal du vælge feltet **Opret indgående bilag fra kamera** og derefter gå til trin 4.
 2. Du kan også vælge alternativknappen på applinjen, vælge **Indgående bilag** og derefter vælge **Alle**.
@@ -47,7 +47,7 @@ Hvis du godkender den indgående bilagspost, markeres afkrydsningsfeltet **Frigi
 
 ## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Sådan vedhæfter du et billede til en indgående bilagspost ved at tage et billede
 > [!NOTE]  
->   Følgende procedure gælder kun for [!INCLUDE[d365fin](includes/d365fin_md.md)] tablet- og telefonklienter.
+>   Følgende procedure gælder kun for [!INCLUDE[prod_short](includes/prod_short.md)] tablet- og telefonklienter.
 
 1. På applinjen skal du vælge alternativknappen, vælg **Indgående bilag** og vælg derefter **Alle**.
 2. Åbn kortet for en eksisterende indgående bilagspost.
@@ -57,7 +57,7 @@ Hvis du godkender den indgående bilagspost, markeres afkrydsningsfeltet **Frigi
     Billedet vedhæftes til den indgående bilagspost.
 
 ## <a name="to-create-an-incoming-document-record-manually"></a>Sådan oprettes en indgående bilagspost manuelt
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indgående bilag**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Indgående bilag** og derefter vælge det relaterede link.
 2. Vælg handlingen **Opret fra fil**.  
 3. På siden **Indsæt fil** skal du vælge en fil og derefter klikke på **Åbn**. Filen vedhæftes automatisk.
 4. Du kan også vælge handlingen **Ny**.
@@ -69,4 +69,7 @@ Hvis du godkender den indgående bilagspost, markeres afkrydsningsfeltet **Frigi
 [Behandle indgående bilag](across-process-income-documents.md)  
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

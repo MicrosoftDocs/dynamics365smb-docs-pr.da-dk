@@ -1,26 +1,25 @@
 ---
-title: Afstemme bankkonti og udligne betalinger | Microsoft Docs
+title: Afstemme bankkonti og udligne betalinger
 description: Beskriver opgaver, du kan bruge til at afstemme bankkonti, tilgodehavender og skyldige beløb, bogføre indbetalinger eller udgifter og udligne betalinger automatisk.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 01/13/2020
-ms.author: sgroespe
-ms.openlocfilehash: 85f7feccd0eefa7c709ce077a8b01b049fc675c8
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.search.form: 1290, 1291, 1293, 1294
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 12da473253ff3c494ec2c63e4fbfc32aedd5d1f9
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954036"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101213"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Udligne betalinger automatisk og afstemme bankkonti
-Rutinemæssigt skal du afstemme dine bank-, debet- og kreditkonti ved at udligne betalinger, der er registreret på din bankkonto, til deres relaterede åbne (ubetalte) fakturaer og kreditnotaer eller andre åbne poster i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Rutinemæssigt skal du afstemme dine bank-, debet- og kreditkonti ved at udligne betalinger, der er registreret på din bankkonto, til deres relaterede åbne (ubetalte) fakturaer og kreditnotaer eller andre åbne poster i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Du kan udføre denne opgave på siden **Betalingsudligningskladde** ved f.eks. at importere en bankkontoudtogsfil eller et -feed for hurtigt at registrere betalinger. Betalinger udlignes til åbne debitor- eller kreditorposter baseret på sammenligninger i betalingstekst og oplysninger i poster. Du kan gennemse og ændre automatiske programmer, før du bogfører kladden. Du kan vælge at lukke alle åbne bankposter vedrørende de udlignede poster, når du bogfører kladden. Bankkontoen udlignes automatisk, når alle betalinger er udlignet.
 
@@ -30,7 +29,10 @@ Du kan også afstemme bankkonti uden at udligne betalinger samtidigt. Du kan udf
 
 For at gøre det muligt at importere bankkontoudtog som feeds, skal du først konfigurere og aktivere tjenesten Envestnet Yodlee Bank Feeds og derefter knytte dine bankkonti til de relaterede onlinebankkonti. Du kan finde flere oplysninger i [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).  
 
-Du kan også bruge AMC Banking 365 Fundamentals-udvidelsen til at konvertere en bankudtogsfil fra ethvert filformat til en datastrøm, som du kan importere i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md).  
+> [!TIP]
+> Du kan også importere bankkontoudtogsfiler i komma- eller semikolonsepareret format (.CSV). Du kan bruge den assisterende opsætning **Opsæt en bankkontoudtogs filformat** for at definere importformater for bankkontoudtog og knytte formatet til en bankkonto. Du kan bruge disse formater, når du indlæser bankkontoudtog for import på siden **Bankkontoafstemning**.
+
+Du kan også bruge AMC Banking 365 Fundamentals-udvidelsen til at konvertere en bankudtogsfil fra ethvert filformat til en datastrøm, som du kan importere i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md).  
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 
@@ -48,4 +50,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,22 @@
 ---
-title: Definere koder for revisionsspor | Microsoft Docs
+title: Konfigurere koder for revisionsspor
 description: Få mere at vide om de opgaver, der bruges til at oprette kilde- og årsagskoder, som du kan bruge til at spore revisionsspor.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/12/2020
+ms.search.form: 257, 259, 279
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eac9b5268cda8671a7189a429dedd9eb3cbfbc53
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: c6327be4cdcd1e51096a8e19601556305b772011
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372683"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971936"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Oprette kilde- og årsagskoder til revisionsspor
 
@@ -29,11 +30,11 @@ Det kan være nyttigt at se, hvordan en bestemt post blev oprettet, f.eks. om po
 
 Når kladder, ordrer, fakturaer eller kreditnotaer bogføres, og når forskellige kørsler udføres, oprettes der poster i regnskabet. Siden **Kildekodedefinition** indeholder adskillige oversigtspaneler med en for hvert modul. Hvert oversigtspanel indeholder kildekoder, der kan anvendes til det pågældende område.
 
-Når du bogfører eller udfører en kørsel, knyttes den korrekte kildekode automatisk til posten. Det vil sige, at når du f.eks. bogfører fra kassekladden, får posten koden *KASSEKLD*. Herefter kan du filtrere siden **Finansposter** for at se, hvilke poster der er bogført fra finanskladden eller fra salgsdokumenter, f. eks.
+Når du bogfører eller udfører en kørsel, knyttes den korrekte kildekode automatisk til posten. Det vil sige, at når du f.eks. bogfører fra kassekladden, får posten koden *KASSEKLD*. Herefter kan du filtrere siden **Finansposter** for at se, hvilke poster der er bogført fra finanskladden eller fra salgsdokumenter, f.eks.
 
 ### <a name="to-define-source-codes"></a>Sådan defineres kildekoder
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kildekodedefinition**, og vælg derefter det relaterede link.  
+1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, angiv **Kildekodedefinition** og derefter vælge det relaterede link.  
 
 2. Angiv den relevante kildekode for hver bogføringstype og kørsel i vinduet **Kildekodedefinition**.  
 
@@ -45,7 +46,7 @@ Det kan være en fordel at ændre en kildekode. Lad os sige, at du vil ændre ki
 
 ### <a name="to-change-source-codes"></a>Sådan ændres kildekoder
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kildekoder**, og vælg derefter det relaterede link.
+1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, skriv **Varespor**, og vælg derefter det relaterede link.
 
 2. Vælg den kode, der skal ændres, på den pågældende linje i feltet **Kode**.
 
@@ -59,7 +60,7 @@ Alle nye poster, der er bogført fra finanskladden, skal have en ny kildekode.
 
 ### <a name="to-set-up-reason-codes"></a>Sådan oprettes årsagskoder
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Årsagskoder**, og vælg derefter det relaterede link.
+1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport")  ikon, skriv **revisionsspor**, og vælg derefter det relaterede link.
 
 2. I vinduet **Årsagskoder** skal du indtaste den første kode i feltet **Kode**. Angiv en beskrivende tekst i feltet **Beskrivelse**.
 
@@ -69,7 +70,7 @@ Følgende fremgangsmåde beskriver, hvordan du føjer en årsagskode til en klad
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>Sådan knytter du årsagskoder til kladdetyper
 
-1. Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Finanskladdetyper**, og vælg derefter det relaterede link.
+1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport")  ikon, skriv **Finanskladdetyper**, og vælg derefter det relaterede link.
 
 2. Angiv den relevante kode i feltet **Årsagskode** på linjen med den valgte kladdetype.
 
@@ -94,6 +95,9 @@ Når fakturaen er bogført, kopieres årsagskoden til hver finans-, debitor- og 
 [Arbejde med dimensioner](finance-dimensions.md)  
 [Importer virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)  
-[Arbejde med [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

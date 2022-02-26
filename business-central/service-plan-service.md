@@ -1,28 +1,28 @@
 ---
-title: Planlægning af serviceprocesser | Microsoft Docs
+title: Planlægge serviceprocesser
 description: Beskriver opgaver til oprettelse af regler og værdier, som du kan bruge til at definere virksomhedens servicepolitikker og -processer.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 04/01/2020
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4e3e879a2f768e8260693d160c419b006159ed46
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 93dfc313521d392b3585eac4aacab3c152a43c78
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192479"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322998"
 ---
 # <a name="planning-services"></a>Planlægning af service
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du konfigurere de standardopgaver, du skal bruge for at kunne opfylde virksomhedens krav til kundeservice. For at gøre dette skal du bestemme, hvilke serviceartikler og servicetilbud jeres serviceorganisation skal understøtte, og til hvilken pris.   
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan du konfigurere de standardopgaver, du skal bruge for at kunne opfylde virksomhedens krav til kundeservice. For at gøre dette skal du bestemme, hvilke serviceartikler og servicetilbud jeres serviceorganisation skal understøtte, og til hvilken pris.   
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder også nogle statistikværktøjer, som du kan bruge til at bestemme, hvor godt det går, og til at identificere områder, der kan forbedres.
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder også nogle statistikværktøjer, som du kan bruge til at bestemme, hvor godt det går, og til at identificere områder, der kan forbedres.
   
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
   
@@ -41,3 +41,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Konfigurere serviceartikler og serviceartikelkomponenter](service-how-setup-service-items.md)  
 [Konfigurere statusser for serviceordrer og reparationer](service-order-repair-status.md)  
 [Konfigurere Service](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

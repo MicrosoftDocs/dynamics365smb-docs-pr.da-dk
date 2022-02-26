@@ -1,21 +1,21 @@
 ---
-title: Designoplysninger – Oversigt over logistik | Microsoft Docs
-description: Alle oplysninger skal spores for hver transaktion eller bevægelse på lageret for at understøtte den fysiske håndtering af varerne på zone- og placeringsniveauet. Dette administreres i tabellen **Lagerpost**. Hver transaktion gemmes i en lagerjournal.
+title: Designoplysninger - Oversigt over logistik
+description: Alle oplysninger skal spores for hver transaktion eller bevægelse på lageret for at understøtte den fysiske håndtering af varerne på zone- og placeringsniveauet.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 41f18acde6140ca67050391273e9ace61f48fbb5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 49c25082d8f43210011cc7f482c4f4af330c1a19
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184576"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011594"
 ---
 # <a name="design-details-warehouse-overview"></a>Designoplysninger: Oversigt over logistik
 Alle oplysninger skal spores for hver transaktion eller bevægelse på lageret for at understøtte den fysiske håndtering af varerne på zone- og placeringsniveauet. Dette administreres i tabellen **Lagerpost**. Hver transaktion gemmes i en lagerjournal.  
@@ -28,10 +28,10 @@ Når vareposteringer forekommer uden for lagermodulet, bruges der en standardreg
 
 Følgende illustration viser typiske lagerstrømme.  
 
-![Oversigt over lagerstedsprocesser](media/design_details_warehouse_management_overview.png "Oversigt over lagerstedsprocesser")  
+![Oversigt over lagerstedsprocesser.](media/design_details_warehouse_management_overview.png "Oversigt over lagerstedsprocesser")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Grundlæggende eller avanceret logistik  
-Lagerfunktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan implementeres i forskellige kompleksitetsniveauer, afhængig af virksomhedens processer og ordrevolumen. Den væsentligste forskel er, at aktiviteter udføres ordre for ordre i basislogistik, når de er fælles for flere ordrer i avanceret logistik.  
+Lagerfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)] kan implementeres i forskellige kompleksitetsniveauer, afhængig af virksomhedens processer og ordrevolumen. Den væsentligste forskel er, at aktiviteter udføres ordre for ordre i basislogistik, når de er fælles for flere ordrer i avanceret logistik.  
 
  Med henblik på at skelne mellem de forskellige kompleksitetsniveauer refererer denne dokumentation til to almindelige betegnelser, Grundlæggende og Avanceret logistik. Denne simple differentiering dækker flere forskellige kompleksitetsniveauer, som defineret af produktdetaljer og lokationsopsætning, hver understøttet af forskellige brugergrænsefladedokumenter. Du kan finde flere oplysninger i [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md)  
 
@@ -69,7 +69,7 @@ Lagerfunktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan implementeres 
 Hvis du ønsker yderligere oplysninger om de enkelte dokumenter, kan du se de respektive emner.  
 
 ### <a name="terminology"></a>Terminologi  
-For at opnå overensstemmelse med økonomiske begreber køb og salg, henviser [!INCLUDE[d365fin](includes/d365fin_md.md)]-lagerdokumentation til følgende vilkår for vareflowet på lageret.  
+For at opnå overensstemmelse med økonomiske begreber køb og salg, henviser [!INCLUDE[prod_short](includes/prod_short.md)]-lagerdokumentation til følgende vilkår for vareflowet på lageret.  
 
 |Begreb|Beskrivelse|  
 |----------|---------------------------------------|  
@@ -78,4 +78,7 @@ For at opnå overensstemmelse med økonomiske begreber køb og salg, henviser [!
 |Udgående strøm|Varer, der flyttes ud af lagerlokationen, som salg og udgående overflytninger.|  
 
 ## <a name="see-also"></a>Se også  
- [Designoplysninger: Logistik](design-details-warehouse-management.md)
+ [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,27 +1,27 @@
 ---
-title: Sådan finder du dine lageropgaver | Microsoft Docs
-description: Hvis du vil finde dine lageropgaver, skal du åbne kortsiden til en markeret vare. Hvis der er oprettet lagerinstruktioner, vises der Hent- og Placer-linjer, og du kan starte på en opgave. Der kan også være tildelt særlige instruktioner til hver lagermedarbejder af en overordnet leder.
+title: 'Fremgangsmåde: Finde dine lageropgaver'
+description: Dette emne beskriver, hvordan du finder de lager tildelinger, du har fået tildelt på varekortet, når du har oprettet instruktionerne.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: fa9fd11847a2da603288ce406722eb765cecc3a0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 6c861ed1f068d6381d99ef0761244befd08ba43a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193127"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6444126"
 ---
 # <a name="find-your-warehouse-assignments"></a>Finde dine lageropgaver
 Hvis du vil finde dine lageropgaver, skal du åbne kortsiden til en markeret vare. Hvis der er oprettet lagerinstruktioner, vises der Hent- og Placer-linjer, og du kan starte på en opgave. Der kan også være tildelt særlige instruktioner til hver lagermedarbejder af en overordnet leder. Du kan finde flere oplysninger i [Definere lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Sådan findes en tildelt instruktion  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Læg-på-lager (lager)**, **Pluk (logistik)** eller **Bevægelse (logistik)**, og vælg derefter det relaterede link.
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikonk, skriv **Læg-på-lager (logistik)**, **Pluk (logistik)** eller **Bevægelse (logistik)**, og vælg derefter det relaterede link.
 
     Alle tre sider viser tildelinger for alle lagerlokationer.  
 
@@ -33,7 +33,10 @@ Du kan bruge feltet **Tildelt bruger-id** på hovedet til at påtage dig opgaver
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md) 
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

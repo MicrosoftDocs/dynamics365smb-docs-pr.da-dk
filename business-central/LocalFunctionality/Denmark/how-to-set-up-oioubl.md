@@ -3,19 +3,19 @@ title: Konfigurere OIOUB-udvidelsen til elektronisk fakturering | Microsoft Docs
 description: Beskriver, hvad du skal udføre for at blive klar til at sende salgsdokumenter i et OIOUBL-format (Offentlig oplysninger Online - Universal Business Language).
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 896d54d8c54ddd4dfa96c7649048a3a802c8d159
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 3279ad7933d7fba24fd67f5264b8008ccd5f17ff
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3180821"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443325"
 ---
 # <a name="set-up-oioubl"></a>Konfigurere OIOUBL
 Du skal angive en placering til lagring af OIOUBL-filer (Offentlig Information Online UBL), når du opretter elektroniske dokumenter som f.eks. fakturaer eller kreditnotaer. Du skal også definere betalingsformer, betalingsbetingelser og varegebyrer, og du skal oprette relevante kunder til OIOUBL.  
@@ -31,15 +31,15 @@ Standardprofilen for alle debitorer er profilen Simpel fakturaproces, der er val
 ##<a name="to-set-up-payment-terms"></a>Sådan defineres betalingsbetingelser
 Hvis du angiver betalingsbetingelserne for debitorer, medtages de elektroniske dokumenter rabatter, som du giver for førtidige betalinger.
 
-1.  Vælg ikonet ![Søg efter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Betalingsbetingelser**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsbetingelser**, og vælg derefter det relaterede link.  
 2.  I feltet **OIOXML-kode** skal du vælge en kode for hver betalingsbetingelse, du vil bruge til elektroniske fakturaer.  
 
 ### <a name="to-set-up-customers-for-oioubl"></a>Sådan konfigureres kunder til OIOUBL  
 Du kan bruge debitorskabelonen **Offentlig kunde (OIOXML)** til at anvende standardindstillinger for OIOUBL til en ny debitor, eller funktionen **Anvend skabelon**, hvis du vil anvende indstillingerne i skabelonen til en eksisterende kunde. Nedenfor beskrives, hvordan du manuelt kan udfylde de obligatoriske felter til OIOUBL. <!--need to check whether this overwrites anything for existing customers-->
 
-1.  Vælg ikonet ![Søg efter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Kunder**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.  
 2.  Åbn den kunde, du vil konfigurere aktivere til OIOUBL.  
-3.  Angiv debitorens adresse. Sørg for, at du angiver en lande-/ områdekode og kontaktoplysninger for kundeattentionpersonen.  
+3.  Angiv debitorens adresse. Sørg for, at du angiver en lande/områdekode og kontaktoplysninger for kundeattentionpersonen.  
 4.  I feltet **Dokumentafsendelsesprofil**, skal du vælge profilen **OIOUBL**.
 5.  Udfyld felterne i oversigtspanelet **Fakturering** som beskrevet i følgende tabel.  
 
@@ -49,7 +49,7 @@ Du kan bruge debitorskabelonen **Offentlig kunde (OIOXML)** til at anvende stand
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|
     |**GLN**|Angiv GLN-lokationsnummeret for debitoren. |  
-    |**Kontokode**|Angiv kontokoden for kunden.<br /><br /> Kunder i den offentlige sektor angiver en kontokode, når de afgiver en bestilling eller rekvisition. Baseret på værdien i dette felt medtages kontokoden i OIOUBL-dokumenter, du opretter i [!INCLUDE[d365fin](../../includes/d365fin_md.md)]. Ifølge **Lov om Offentlige Betalinger** og relaterede love har kunden ret til at tilbageholde betaling, indtil der modtages en faktura med den relevante kontokode. |  
+    |**Kontokode**|Angiv kontokoden for kunden.<br /><br /> Kunder i den offentlige sektor angiver en kontokode, når de afgiver en bestilling eller rekvisition. Baseret på værdien i dette felt medtages kontokoden i OIOUBL-dokumenter, du opretter i [!INCLUDE[prod_short](../../includes/prod_short.md)]. Ifølge **Lov om Offentlige Betalinger** og relaterede love har kunden ret til at tilbageholde betaling, indtil der modtages en faktura med den relevante kontokode. |  
     |**Profilkode**|Angiver den profil, som denne kunde kræver for elektroniske dokumenter, hvis den er anderledes end den standardprofil, du har angivet på siden **Salgsopsætning**.|  
     |**Profilkode kræves**|Angiver, om debitoren kræver en profilkode til elektroniske bilag.<br /><br /> **Tip** <br /> Hvis feltet **Profilkode kræves** er markeret, kan du ikke bogføre et salgsdokument for debitoren, medmindre du har angivet en profil.|  
 
@@ -58,7 +58,7 @@ Du kan bruge debitorskabelonen **Offentlig kunde (OIOXML)** til at anvende stand
 Du kan finde flere oplysninger om, hvordan du opretter en debitor i [Registrere nye debitorer](../../sales-how-register-new-customers.md).
 
 ## <a name="to-set-up-item-charges"></a>Sådan konfigureres varegebyrer  
-1.  Vælg ikonet ![Søg efter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Varegebyrer**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **varegebyrer**, og vælg derefter det relaterede link.  
 2.  For hvert varegebyr, skal du vælge en kategori i feltet **Gebyrkategori**.  
 
 Endelig skal du angive EAN-numre og kontokoder for de relevante debitorer. Du kan få flere oplysninger i [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md).  
@@ -67,3 +67,6 @@ Endelig skal du angive EAN-numre og kontokoder for de relevante debitorer. Du ka
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
 [Oversigt over elektronisk OIOUBL-fakturering](oioubl-electronic-invoicing-overview.md)   
 [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md)   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

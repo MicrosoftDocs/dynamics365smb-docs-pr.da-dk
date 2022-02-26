@@ -1,26 +1,26 @@
 ---
-title: Montagestyring | Microsoft Docs
-description: Støt virksomheder, som leverer produkter til deres kunder, ved at kombinere komponenter i enkle processer uden brug af produktionsfunktioner, men med funktioner til montage af varer, der kan integreres med eksisterende funktioner som salg, planlægning, reservationer og opbevaring.
+title: Montagestyring
+description: Support firmaer, der leverer produkter til deres kunder ved at kombinere komponenter i enkle processer uden produktions funktionen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 015d11ed2ec58fff09b0c4870a7c5a1ee11e7896
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: d149ed0da02124a442668bb67a659c0dde36dad3
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186472"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326359"
 ---
 # <a name="assembly-management"></a>Montagestyring
-For at støtte virksomheder, som leverer produkter til deres kunder ved at kombinere komponenter i enkle processer uden brug af produktionsfunktioner, indeholder [!INCLUDE[d365fin](includes/d365fin_md.md)] funktioner til montage af varer, der kan integreres med eksisterende funktioner som salg, planlægning, reservationer og opbevaring.  
+For at støtte virksomheder, som leverer produkter til deres kunder ved at kombinere komponenter i enkle processer uden brug af produktionsfunktioner, indeholder [!INCLUDE[prod_short](includes/prod_short.md)] funktioner til montage af varer, der kan integreres med eksisterende funktioner som salg, planlægning, reservationer og opbevaring.  
 
- Et montageelement er defineret som et salgbart element, der indeholder en montagestykliste. Du kan finde flere oplysninger under [Arbejde med styklister](inventory-how-work-BOMs.md).
+ Et montageelement er defineret som et salgbart element, der indeholder en montagestykliste. Du kan finde flere oplysninger i [Arbejde med styklister](inventory-how-work-BOMs.md).
 
  Montageordrer er interne ordrer, ligesom produktionsordrer, der bruges til at administrere montageprocessen og til at forbinde salgskravene med de involverede lageraktiviteter. Montageordrer adskiller sig fra andre ordretyper, da de omfatter både afgang og forbrug, når de bogføres. Montageordrehovedet fungerer på samme måde en afgangskladdelinje, og montageordrelinjerne fungerer på samme måde som forbrugskladdelinjer.  
 
@@ -48,10 +48,17 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Arbejde med styklister](inventory-how-work-BOMs.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
+[Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)  
+<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
+<!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

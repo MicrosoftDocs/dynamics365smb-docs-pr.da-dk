@@ -1,21 +1,21 @@
 ---
-title: Sådan oprettes placeringstyper | Microsoft Docs
-description: Du kan dirigere varestrømmen til placeringer, som du har defineret til særlige lageraktiviteter. Du fastsætter disse aktiviteter ved at tildele placeringstyper, så du angiver, hvordan en placering skal brues.
+title: Oprette placeringstyper
+description: Tildel typer og grundlæggende flowaktiviteter til placeringer, og definer dermed, hvordan placeringerne skal bruges til bestemte lageraktiviteter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f5a5903e3485e4db67b1f169d8c9a0c969058fa1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 7367
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: b867079eb08790f2cfa091d0128a876499fb2045
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191783"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971572"
 ---
 # <a name="set-up-bin-types"></a>Oprette placeringstyper
 Du kan dirigere varestrømmen til placeringer, som du har defineret til særlige lageraktiviteter. Du fastsætter disse aktiviteter ved at tildele placeringstyper, så du angiver, hvordan en placering skal brues.  
@@ -23,7 +23,7 @@ Du kan dirigere varestrømmen til placeringer, som du har defineret til særlige
 Der er seks typer. Du kan bruge alle de seks mulige placeringstyper til lagerstedet, eller du kan vælge kun at operere med placeringstyperne MODTAG, LPLPLUK, LEVER og KK. Disse fire placeringstyper giver mulighed for forslag til aktiviteter og sætter dig i stand til at registrere afvigelser i lagerbeholdningen.  
 
 ## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Sådan angives de placeringstyper, der skal bruges  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Placeringstyper**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Placeringstyper**, og vælg derefter det relaterede link.  
 2.  Angiv en kode på ti tegn for placeringstypen på siden **Placeringstyper**.  
 3.  Marker de aktiviteter, der kan udføres for hver placeringstype.  
 
@@ -46,7 +46,10 @@ De placeringstyper, som du kan oprette, er angivet nedenfor.
 ## <a name="see-also"></a>Se også
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

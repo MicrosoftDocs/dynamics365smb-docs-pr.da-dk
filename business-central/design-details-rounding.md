@@ -1,21 +1,21 @@
 ---
-title: Designoplysninger – Afrunding | Microsoft Docs
-description: Afrunding af restværdier kan opstå, når du værdisætter omkostningerne til en lagerreducering, der måles i et andet antal end den tilsvarende lagerforøgelse. Afrunding af restværdier beregnes for alle kostmetoder, når du udfører kørslen **Juster kostpris – vareposter**.
+title: Designoplysninger - Afrunding
+description: Afrunding af restværdier kan opstå, når du værdisætter omkostningerne til en lagerreducering, der måles i et andet antal end den tilsvarende lagerforøgelse.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b5185b7cc70e6b57a4641cbcd3b45cbf9682285d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 518433903f06c255c80dbba6d7e2982974a325a1
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184744"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318430"
 ---
 # <a name="design-details-rounding"></a>Designoplysninger: Afrunding
 Afrunding af restværdier kan opstå, når du værdisætter omkostningerne til en lagerreducering, der måles i et andet antal end den tilsvarende lagerforøgelse. Afrunding af restværdier beregnes for alle kostmetoder, når du udfører kørslen **Juster kostpris – vareposter**.  
@@ -64,4 +64,7 @@ Afrunding af restværdier kan opstå, når du værdisætter omkostningerne til e
  [Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md)   
  [Designoplysninger – Kostmetoder](design-details-costing-methods.md) [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

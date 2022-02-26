@@ -1,21 +1,21 @@
 ---
-title: Sådan konverteres servicekontrakter | Microsoft Docs
-description: Da momssatsændringsværktøjet ikke kan konvertere servicekontrakter, skal disse kontrakter konverteres manuelt. Dette emne beskriver flere alternative metoder, der kan bruges til konvertering af servicekontrakter.
+title: 'Fremgangsmåde: Konvertere servicekontrakter'
+description: Dette emne beskriver flere alternative metoder, der kan bruges til konvertering af servicekontrakter, der omfatter momsbeløb.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: c0c68b43e562ece0dce695ed4366dcc5ad409e27
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 1b2bb49651a52f36ab8d98edc22ba2248794f598
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2554784"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436397"
 ---
 # <a name="convert-service-contracts-that-include-vat-amounts"></a>Konvertere servicekontrakter, som omfatter momsbeløb
 Da momssatsændringsværktøjet ikke kan konvertere servicekontrakter, skal disse kontrakter konverteres manuelt. Dette emne beskriver flere alternative metoder, der kan bruges til konvertering af servicekontrakter.  
@@ -29,7 +29,7 @@ Da momssatsændringsværktøjet ikke kan konvertere servicekontrakter, skal diss
 >  I dette eksempel skal du ændre din arbejdsdato til 01.01.2017.  
 
 ### <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Sådan rettes en faktura for en forudbetalt servicekontrakt  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontraktstyring**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontraktstyring**, og vælg derefter det relaterede link.  
 2. Under **Lister** skal du vælge **Servicekontrakter**.  
 3. Opret en ny forudbetalt servicekontrakt. Angiv en startdato til **01.01.2017** og et fakturaperiodeåret for debitor **20000**.  
 4. Hvis du vil underskrive kontrakten, skal du vælge handlingen **Underskriv kontrakt**.  
@@ -67,4 +67,7 @@ Følgende procedure beskriver, hvordan du opretter en ny kreditnota ved hjælp a
 [Arbejde med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Finans](finance.md)  
 [Rapportere moms til skattemyndighederne](finance-how-report-vat.md)  
-[Arbejde moms af salg og køb](finance-work-with-vat.md)  
+[Arbejde med moms af salg og køb](finance-work-with-vat.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

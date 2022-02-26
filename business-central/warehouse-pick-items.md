@@ -1,25 +1,24 @@
 ---
-title: Plukke varer | Microsoft Docs
-description: Lageraktiviteten plukning af varer, før de afsendes eller forbruges kan udføres på forskellige måder, afhængigt af hvordan lagerfunktionerne er konfigureret. [Opsætningens](../configure-warehouse-processes.md) detaljeringsgrad kan variere fra ingen lagerfunktioner over grundlæggende lageropsætninger for ordre-for-ordre-håndtering i kun en eller flere aktiviteter til avancerede konfigurationer, hvor alle lageraktiviteter skal udføres i en styret arbejdsgang.
-services: project-madeira
-documentationcenter: ''
+title: Plukke varer
+description: Lageraktiviteten plukning af varer, før de afsendes eller forbruges kan udføres på forskellige måder, afhængigt af hvordan lagerfunktionerne er konfigureret.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 23c01374b7b044c8f497126ef6409bf27b80dffe
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 5779, 5798, 7343, 7345, 7357, 7359, 7377, 7392, 7395, 7397, 9313, 9316, 9344
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 10b5c682fa5237aa49152306698c17dad247e664
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313828"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970748"
 ---
 # <a name="pick-items"></a>Plukke varer
+
 Lageraktiviteten plukning af varer, før de afsendes eller forbruges kan udføres på forskellige måder, afhængigt af hvordan lagerfunktionerne er konfigureret. Detaljeringsgraden kan variere fra ingen lagerfunktioner over grundlæggende lageropsætninger for ordre-for-ordre-håndtering i kun en eller flere aktiviteter til avancerede konfigurationer, hvor alle lageraktiviteter skal udføres i en styret arbejdsgang. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).
 
 Hvis du beslutter dig for at organisere og registrere plukaktiviteten med lagerdokumenter, skal du markere feltet **Kræv pluk** på lokationskortet. Dette angiver, at når du har varer, der skal plukkes i forbindelse med et udgående kildedokument, skal plukket af de pågældende varer styres af systemet. Et udgående kildedokument kan være en salgsordre, en købsreturvareordre, en udgående overflytning, en serviceordre eller en produktionsordre, hvor komponenterne er klar til at blive plukket.
@@ -49,7 +48,10 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
-[Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Konfigurere Warehouse Management](warehouse-setup-warehouse.md) 
+[Montagestyring](assembly-assemble-items.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

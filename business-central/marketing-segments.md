@@ -1,23 +1,23 @@
 ---
-title: Administrere målgrupper og vælge kontakter, der skal medtages | Microsoft Docs
-description: Beskriver de opgaver, du skal udføre for at oprette en målgruppe og vælge en gruppe kontaktpersoner ud fra bestemte kriterier, f.eks. kontaktpersoner i en bestemt branche, du vil målrette din henvendelse til.
-services: project-madeira
+title: Administrere målgrupper og vælge kontakter
+description: I dette emne beskrives det, hvordan du kan oprette en målgruppe ved at vælge en gruppe kontakter i overensstemmelse med bestemte kriterier, der er nyere, så de kan knyttes til en kampagne.
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.search.forms: 5150, 5142, 5140, 5141, 5144, 5091, 5143, 5093, 5092
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 2f4115e62b1350fe55019aca94cb1d8beb6d93ae
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 4a782c0e4fcb98243f7902d2564c79ca831b0955
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181288"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059774"
 ---
 # <a name="managing-segments"></a>Administrere målgrupper
 Du opretter målgrupper for at vælge en gruppe kontaktpersoner i overensstemmelse med bestemte kriterier. F.eks. kan en målgruppe være den branche, som kontaktpersonerne arbejder i, eller dine forretningsmæssige relationer med kontaktpersonerne. Du kan oprette en målgruppe for at vælge de kontaktpersoner, som er målet med en kampagne.
@@ -38,4 +38,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 ## <a name="see-also"></a>Se også
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Administrere kontakter](marketing-contacts.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

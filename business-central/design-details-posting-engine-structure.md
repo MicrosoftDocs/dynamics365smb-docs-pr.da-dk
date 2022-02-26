@@ -1,21 +1,21 @@
 ---
-title: Designdetaljer – Bogføringsprogramstruktur | Microsoft Docs
-description: Bogføringsgrænsefladen og visse andre funktioner i codeunit 12 bruger bogføringsfunktioner til at forberede og indsætte finansposter og momsposter. Bogføringsprogrammet er også ansvarlig for oprettelse af finansregister.
+title: Designoplysninger - Bogføringsprogramstruktur
+description: Bogføringsgrænsefladen anvender bogføringsfunktioner til at forberede og indsætte finansposter og momsposter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3e49d9c521ebfb73caeae6987472c5123ab54eba
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 68375a306983551a51a59ac448b4f0bfa7ad6917
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185464"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318404"
 ---
 # <a name="design-details-posting-engine-structure"></a>Designoplysninger: Bogføringsprogramstruktur
 Bogføringsgrænsefladen og visse andre funktioner i codeunit 12 bruger bogføringsfunktioner til at forberede og indsætte finansposter og momsposter. Bogføringsprogrammet er også ansvarlig for oprettelse af finansregister.  
@@ -39,3 +39,5 @@ Bogføringsgrænsefladen og visse andre funktioner i codeunit 12 bruger bogføri
   
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Bogføring af grænsefladestruktur](design-details-posting-interface-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

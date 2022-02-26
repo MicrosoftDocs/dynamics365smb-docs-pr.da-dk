@@ -1,27 +1,28 @@
 ---
-title: Udligne betalinger til relaterede dokumenter og bogføre dem | Microsoft Docs
-description: Beskriver, hvordan du registrerer betalinger, du foretager til leverandører, og refusioner, du foretager til kunder.
+title: Registrere indbetalinger og refusioner i udbetalingskladden
+description: Læs om, hvordan du kan registrere på siden Udbetalingskladde de betalinger, du foretager til debitorer, på udbetalingskladdesiden.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
-ms.date: 10/01/2019
+ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
+ms.search.form: 256, 251, 233, 624, 1228
+ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: a35dc8fb1bd6725d4c1f62d387408234f7419b74
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 455effc666b6acddb06eb3e8cb49a2c47fabfddf
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076969"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953205"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrere indbetalinger og refusioner i udbetalingskladden
 
 På siden **Udbetalingskladde** registrerer du betalinger, du foretager til leverandører, og refusioner, du foretager til kunder. Når du bogfører en udbetalingskladdelinje, registreres det betalte beløb i det angivne banksystem. Du skal derefter sørge for at udføre den faktiske pengeoverførsel fra den relaterede bankkonto.  
 
-Betalingskladden er en kassekladde, der er optimeret til betalinger. Du kan hurtigt tilføje linjerne manuelt, du kan lade [!INCLUDE[d365fin](includes/d365fin_md.md)] foreslå kreditorbetalinger, og du kan udligne betalingen på bogførte dokumenter. Selvom du foretager betalinger, skal du angive et positivt beløb i feltet **Dokumentbeløb**. Afhængigt af dokumenttypen for kladdelinjen konverteres beløbet derefter til et negativt beløb i de underliggende transaktioner. På denne måde kan du hurtigere tilføje linjerne manuelt. Hvis du vil angive negative beløb, kan du tilpasse udbetalingskladden for at få vist feltet **Beløb** i stedet.  
+Betalingskladden er en kassekladde, der er optimeret til betalinger. Du kan hurtigt tilføje linjerne manuelt, du kan lade [!INCLUDE[prod_short](includes/prod_short.md)] foreslå kreditorbetalinger, og du kan udligne betalingen på bogførte dokumenter. Selvom du foretager betalinger, skal du angive et positivt beløb i feltet **Dokumentbeløb**. Afhængigt af dokumenttypen for kladdelinjen konverteres beløbet derefter til et negativt beløb i de underliggende transaktioner. På denne måde kan du hurtigere tilføje linjerne manuelt. Hvis du vil angive negative beløb, kan du tilpasse udbetalingskladden for at få vist feltet **Beløb** i stedet.  
 
 - Udligne betalinger til fakturaer eller kreditnotaer
 
@@ -37,16 +38,31 @@ Betalingskladden er en kassekladde, der er optimeret til betalinger. Du kan hurt
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Foretage betalinger i udbetalingskladden
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udbetalingskladder**, og vælg derefter det relaterede link.
 2. Åbn det kladdenavn, der er dedikeret til betalinger.
-3. Hvis du ved, hvem der skal betales eller refunderes, skal du udfylde felterne manuelt. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Hvis du ved, hvem der skal betales, skal du udfylde felterne manuelt. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Du kan også udligne betalingen til den relaterede faktura eller kreditnota, vælge feltet **Udligningsbilagsnr.** på siden **Udlign kred.poster**, vælge den relevante faktura eller kreditnota og derefter vælge knappen **OK**.
 
     Mange felter som f.eks. feltet **Dokumentbeløb** og **Forfaldsdato** udfyldes nu med oplysninger fra det valgte dokument.
 5. Du kan også bruge funktionen **Lav kreditorbetalingsforslag**. Alle udligningsoplysninger og -beløb angives derefter også på kladdelinjerne. Du kan finde flere oplysninger i [Lave kreditorbetalingsforslag](payables-how-suggest-vendor-payments.md).
 
     Meddelelser hjælper dig til at udfylde de obligatoriske felter korrekt.
-6.  Når alle betalingskladdelinjer er fuldført, skal du vælge handlingen **Bogfør**.
+6. Når alle betalingskladdelinjer er fuldført, skal du vælge handlingen **Bogfør**.
+
+
+## <a name="to-issue-a-refund-check"></a>Sådan udstedes en refusionscheck
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.
+2. I feltet **Dokumenttype** skal du vælge **Refusion**.  
+3. I feltet **Eksternt bilagsnr.** bruges denne som reference til refusionschecken (f.eks. returordre nummer).  
+4. I feltet **Kontotype** skal du vælge **Debitor**.  
+5. Vælg det debitorkontonummer, som refusions kontrollen udstedes til, i feltet **Kontonr.**.  
+6. Angiv det beløb, der skal tilbagebetales, i feltet **Beløb**.  
+7. I feltet **Modkontotype** skal du vælge **Bankkonto**.  
+8. Vælg den bankkonto, som checken skal komme fra, i feltet **Modkonto**.  
+9. I feltet **Udligningsbilagsnr.** til at vælge de dokumenter, der kræver refusion.  
+10. Når alle linjer i betalingskladden er færdige, skal du vælge handlingen **Bogfør/Udskriv**, derefter vælge handlingen **Bogfør og Udskriv** og derefter vælge **Ja**.  
+  
 
 ## <a name="see-also"></a>Se også
 [Foretage betalinger med check](payables-how-work-checks.md)  
@@ -56,4 +72,7 @@ Betalingskladden er en kassekladde, der er optimeret til betalinger. Du kan hurt
 [Eksportere en Positive Pay-fil](finance-how-positive-pay.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

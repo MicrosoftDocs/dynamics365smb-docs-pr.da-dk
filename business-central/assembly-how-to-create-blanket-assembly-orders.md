@@ -3,19 +3,19 @@ title: Sådan oprettes rammemontageordrer | Microsoft Docs
 description: Opret rammesalgsordrer for tilpassede montageelementer, før du regelmæssigt opretter de faktiske salgsordrer i overensstemmelse med rammeordreaftalen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cdcc62b92e4fd8a080e3167c50efba1d1235c172
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: a62d2b1d84d1139a0e5472d8e95f1c87f13bfa6c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186386"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435465"
 ---
 # <a name="create-blanket-assembly-orders"></a>Oprette rammemontageordrer
 Du kan bruge montagestyring til at tilpasse et montageelement på anmodning af en debitor under salgsprocessen. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -26,7 +26,7 @@ Du kan bruge montagestyring til at tilpasse et montageelement på anmodning af e
 >  Ligesom alle rammeordrer forecastes mængder på montagerammeordrer kun og er ikke operationelle, før de konverteres til faktiske montageordrer. Ordrefunktionalitet, som f.eks. disponeringsberegning, reservation og varesporing , er derfor ikke aktiv på rammemontageordrer.  
 
 ## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Sådan oprettes en rammemontageordre til en montage\-til\-ordre-vare  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rammesalgsordrer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rammesalgsordrer**, og vælg derefter det relaterede link.  
 2. Opret en ny rammesalgsordre med en linje til et montageelement. Du kan finde flere oplysninger i [Oprette rammesalgsordrer](sales-how-to-create-blanket-sales-orders.md).  
 3. Indtast den samlede mængde i feltet **Antal til montage til ordre** på rammemontageordrelinjen.
 
@@ -45,5 +45,8 @@ Den sammenkædede montagerammeordre og eventuelle tilpasninger er knyttet til de
 [Montagestyring](assembly-assemble-items.md)  
 [Arbejde med styklister](inventory-how-work-BOMs.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

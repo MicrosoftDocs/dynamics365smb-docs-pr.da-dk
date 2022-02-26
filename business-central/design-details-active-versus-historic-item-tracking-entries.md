@@ -1,21 +1,21 @@
 ---
-title: Designoplysninger – Aktive kontra historiske varesporingsposter | Microsoft Docs
-description: Når dele af et dokumentlinjeantal er bogført, overføres kun det bestemte antal til vareposter og dets varesporingsnumre. Dog skal du kunne få adgang til alle relevante oplysninger om varesporing direkte fra den aktive bilagslinje. Det vil sige, at du ikke kun vil se de poster, der er relateret til det resterende antal, men du vil også have oplysninger om de enheder, der er bogført. Når du får vist eller redigerer siden **Varesporingslinjer**, vises det samlede indhold af tabellen **Sporingsspecifikation** (T336) og tabellen **Reservationspost** (T337) i en midlertidig version af T336. Dette sikrer, at historiske og aktive varesporingsdata kan åbnes som en.
+title: Designoplysninger - Aktive kontra historiske varesporingsposter
+description: Når dele af et dokumentlinjeantal er bogført, overføres kun det bestemte antal til vareposter og dets varesporingsnumre.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 35fafa5ed84c2435b2227b2c1e4c9ca683fe7a22
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 167a765774d365a7890fa39a20923ab0c78e53a4
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185848"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326134"
 ---
 # <a name="design-details-active-versus-historic-item-tracking-entries"></a>Designoplysninger: Aktive kontra historiske varesporingsposter
 Når dele af et dokumentlinjeantal er bogført, overføres kun det bestemte antal til vareposter og dets varesporingsnumre. Dog skal du kunne få adgang til alle relevante oplysninger om varesporing direkte fra den aktive bilagslinje. Det vil sige, at du ikke kun vil se de poster, der er relateret til det resterende antal, men du vil også have oplysninger om de enheder, der er bogført. Når du får vist eller redigerer siden **Varesporingslinjer**, vises det samlede indhold af tabellen **Sporingsspecifikation** (T336) og tabellen **Reservationspost** (T337) i en midlertidig version af T336. Dette sikrer, at historiske og aktive varesporingsdata kan åbnes som en.  
@@ -62,3 +62,6 @@ Når dele af et dokumentlinjeantal er bogført, overføres kun det bestemte anta
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Varesporing](design-details-item-tracking.md)   
  [Designoplysninger: Siden Varesporingslinjer](design-details-item-tracking-lines-window.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

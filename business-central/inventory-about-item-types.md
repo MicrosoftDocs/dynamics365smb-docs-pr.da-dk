@@ -1,38 +1,37 @@
 ---
-title: Om varetyper | Microsoft Docs
+title: Flere oplysninger om varetyper
 description: Du kan regulere lagerværdien for en vare ved hjælp af FIFO eller gennemsnitlige kostmetoder, f.eks., når varepriser ændres af andre årsager end transaktioner.
-services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 481e8bbdb13863055c4dc532cb2c214228b8a8ba
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.search.form: 9297, 5845, 30,
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: acb6ab4436f32760d905701348a242a4374b6b2d
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454292"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059618"
 ---
 # <a name="about-item-types"></a>Om varetyper
-I feltet **Type** på siden **Varekort** kan du vælge, hvad varen bruges til i virksomheden, og dermed hvordan den håndteres i systemet. Der er tre muligheder:
+I feltet **Type** på siden **Varekort** kan du vælge, hvad varen bruges til i virksomheden, hvilket påvirker, hvordan du kan administrere varen i lageret. I følgende tabel vises og beskrives de tre typer varer, der er tilgængelige.
 
 |Indstilling|Typisk formål|
 |------|-----------|
-|Lagerbeholdning|En fysisk enhed, f.eks. en cykel, til brug i hele virksomheden.|
-|Ikke-lager|En fysisk enhed, f.eks. en bolt, til begrænset brug i virksomheden, f.eks. fordi varen kun bruges internt og er en lav pris.|
+|Lager|Fysiske ting som f. eks. cykler, telefoner og skriveborde, hvor du vil kunne bruge alle lagerprocesserne. Det kan også omfatte ikke-fysiske varer, f. eks. softwarelicenser og-abonnementer, hvis varerne har identifikationsnumre, f. eks. serienumre. Du kan spore vareværdier og disponering på lageret.|
+|Ikke-lager|Som regel er varer, der ikke er på lager, fysiske ting, f. eks. bolte eller penne, som en virksomhed bruger, men som ikke kan spores fuldt ud på lageret. F. eks. fordi de er billige varer og kun bruges internt.|
 |Tjeneste|En arbejdstidsenhed, f.eks. en konsulenttime, til begrænset brug i virksomheden.|
 
-Typen **Lagerbeholdning** omfatter fuld sporing af lagerantal og -værdi. Derfor understøttes alle varetransaktionstyper, og varer af typen Lagerbeholdning kan bruges sammen med alle funktioner til håndtering af varer.
+> [!NOTE]
+> Typerne **Service** og **Ikke-lager** understøtter ikke sporing af lagerantal og -værdi. Derfor understøttes kun valgte transaktionstyper og -funktioner.
 
-Typerne **Service** og **Ikke-lager** involverer ikke sporing af lagerantal og -værdi. Derfor understøttes kun valgte transaktionstyper og -funktioner.
-
-De tre varetyper understøtter hver især følgende funktioner.
+Følgende tabel viser oversigt over de funktioner, de tre varetyper understøtter.
 
 |Elementtype|Salg|Indkøb|Sagsforbrug|Serviceforbrug|Montageforbrug|Produktion Forbrug|Montageafgang|Produktionsafgang|Lokationsoverflytning|Fysisk optælling|Regulering af lagerværdi|Lagerkostmetode|Varesporing|Reservation|Lagersted|Planlægning|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -48,7 +47,7 @@ For lagervarer registreres omkostningen i feltet **Kostbeløb (faktisk)** på si
 For ikke-lager og serviceartikler registreres omkostningen i feltet **Kostbeløb (ikke-lager)** på siden **Værdiposter**. For ikke-lager og serviceartikler er omkostningen angivet i salgs-, montage- og produktionsbilag og kladder. Standardkostprisen kan angives i feltet **Kostpris** på siderne **Varekort** og **Lagervare (pr. lok.)**. Kostpriser for disse typer af varer afstemmes ikke med Finans. 
 
 ## <a name="catalog-and-service-items"></a>Katalog og serviceartikler
-Varer, som du tilbyder til dine kunder, men som du ikke vil administrere i dit system, før du begynder at sælge dem, kan oprettes som katalogvarer. Katalogvarer må ikke forveksles med almindelige varer af typen Ikke-lager. Du kan finde flere oplysninger under [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md).
+Varer, som du tilbyder til dine kunder, men som du ikke vil administrere i dit system, før du begynder at sælge dem, kan oprettes som katalogvarer. Katalogvarer må ikke forveksles med almindelige varer af typen Ikke-lager. Du kan finde flere oplysninger i [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md).
 
 Kunders varer, du udfører reparation på, f.eks. en printer, kaldes serviceartikler. Serviceartikler har intet at gøre med almindelige varer eller katalogvarer. Servicekomponenterne kan dog være almindelige varer. Du kan finde flere oplysninger i [Konfigurere serviceartikler og serviceartikelkomponenter](service-how-setup-service-items.md).
 
@@ -57,4 +56,7 @@ Kunders varer, du udfører reparation på, f.eks. en printer, kaldes servicearti
 [Opsætning af lagerbeholdning](inventory-setup-inventory.md)  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

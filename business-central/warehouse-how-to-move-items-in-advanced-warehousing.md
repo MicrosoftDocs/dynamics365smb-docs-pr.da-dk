@@ -1,21 +1,21 @@
 ---
-title: Sådan flyttes varer ad hoc i avancerede lageropsætninger | Microsoft Docs
-description: I avancerede lageropsætninger, dvs. lokationer med styret læg-på-lager og pluk, udføres lagerbevægelser fra én placering til en anden af en overordnet medarbejder, der forbereder lagerbevægelserne i bevægelseskladden og derefter opretter lagerbevægelserne, så lagermedarbejderne kan udføre dem.
+title: Flytte varer i avanceret lageropsætning
+description: I dette emne forklares det, hvordan en erfaren medarbejder kan arrangere flytning af varer i avancerede logistik konfigurationer – kan anvendes på lokationer med styret læg-på-lager og pluk.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0aab4a7ffd693ca8edaa3765228715b5496f0b2f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: cba0ff7da725d4113ed17f9121caabd2e6b54ce5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193055"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439281"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Flytte varer i avancerede lageropsætninger
 I avancerede lageropsætninger, dvs. lokationer med styret læg-på-lager og pluk, udføres lagerbevægelser fra én placering til en anden af en overordnet medarbejder, der forbereder lagerbevægelserne i bevægelseskladden og derefter opretter lagerbevægelserne, så lagermedarbejderne kan udføre dem.  
@@ -23,12 +23,12 @@ I avancerede lageropsætninger, dvs. lokationer med styret læg-på-lager og plu
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Sådan flyttes varer med lagerbevægelseskladden
 Siden **Bevægelseskladde** indeholder to funktioner, som kan være en hjælp til automatisk udfyldning af linjerne. Den første er funktionen **Beregn genopfyldning**. Denne funktion bruger placeringsniveauerne til at foreslå genopfyldning til placeringer med et højt niveau fra placeringer med et lavt niveau. Den anden er funktionen **Hent placeringsindh.**, som udfylder kladdelinjerne med hele placeringsindholdet af den eller de placeringer, du angiver.
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bevægelseskladde**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bevægelseskladde**, og vælg derefter det relaterede link.  
 2.  Angiv lagerbevægelsesoplysninger på de relevante kladdelinjer.  
 3. Vælg handlingen **Opret bevægelse** for at oprette et lagerbevægelsesdokument, som kan registreres, når lagerbevægelsen er færdig.  
 
 ### <a name="to-register-the-warehouse-movement"></a>Sådan registreres lagerbevægelsen  
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Flytninger**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bevægelser**, og vælg derefter det relaterede link.  
 2.  Åbn den lagerbevægelse, du vil behandle.  
 3.  På linjer af handlingstypen **Placer** skal du angive, hvor, hvilken og hvornår den pågældende vare skal flyttes ved at redigere feltet **Zonekode**, **Placeringskode**, **Håndteringsantal** eller **Forfaldsdato**.  
 
@@ -43,14 +43,17 @@ Siden **Bevægelseskladde** indeholder to funktioner, som kan være en hjælp ti
 ## <a name="to-register-the-movement-of-an-item-that-has-already-occurred"></a>Sådan registreres flytning af en vare, der allerede er foregået  
 Hvis lokationen bruger styret læg-på-lager og pluk, og du skal flytte varer til andre placeringer, der ikke allerede benytter læg-på-lager, pluk eller bevægelse, kan du angive den korrekte anbringelse af varerne ved hjælp af **Lageromposteringskladde**.
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lageromposteringskladde**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lageromposteringskladde**, og vælg derefter det relaterede link.  
 2.  Udfyld felterne **Varenr.**, **Fra zonekode**, **Fra placeringskode**, **Til zonekode** og **Til placeringskode**.  
 3.  Vælg handlingen **Registrer**.  
 
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)     
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

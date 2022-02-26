@@ -1,23 +1,21 @@
 ---
-title: Flet dobbeltregistreringer på kunder og leverandører | Microsoft Docs
-description: Beskriver, hvordan du opretter et debitorkort for at registrere oplysninger om hver ny kunde, du sælger til.
-services: project-madeira
-documentationcenter: ''
+title: Flette dobbeltregistreringer på kunder og leverandører
+description: Beskriver, hvordan du kan konsolidere oplysninger om debitorer eller kreditorer, når du har dubletter af poster.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 1fb7f049e253e70e9170c257848b3738dec9d176
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 336c10e93a50e7fb880f9bf5856c85b44daef266
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312168"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436847"
 ---
 # <a name="merge-duplicate-records"></a>Flet dobbeltregistrerede records
 Efterhånden som brugere opretter ny kunde, leverandør eller kontaktkort igennem længere tid, eller der oprettes nye records automatisk under migration, kan en kunde, leverandør eller kontakt være repræsenteret i systemet med mere end en record. I dette tilfælde kan du benytte siden **Flet dobbeltregistrering** fra record-kortet, som du ønsker at beholde. Siden giver dig et overblik over dobbeltregistrerede værdier og leverer funktioner til at udvælge, hvilke værdier, der skal beholdes og slettes henholdsvis, når du fletter to records til en.
@@ -30,7 +28,7 @@ Efterhånden som brugere opretter ny kunde, leverandør eller kontaktkort igenne
 
 Den følgende procedure er baseret på et kundekort. Trinnene er de samme for leverandør- og kontaktkort.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
 2. Vælg den kunde, som du vil ved eller mistænker for at være dobbeltregistreret, og vælg derefter handlingen **Rediger**.
 3. Vælg handlingen **Flet med** på siden **Kundekort**.
 4. På siden **Flet dobbeltregistrering** i feltet **Flet med** vælger du den kunde, du har åbnet, som du tror er en dobbeltregistrering, der er indikeret i feltet **Aktuel**.
@@ -67,4 +65,7 @@ Den følgende procedure er baseret på et kundekort. Trinnene er de samme for le
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Opsætning af kontakter](marketing-setup-contacts.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

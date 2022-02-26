@@ -3,19 +3,19 @@ title: Designoplysninger – Varesporing og planlægning | Microsoft Docs
 description: Da de er gemt i reservationssystemet, er varesporingsnumre fuldt koordineret med ordresporingsposter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f43523794af06ed5709ec2738cda8bad68fd1b7d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: a01ddb4ac423df3f4ada16740550edf46949886a
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185128"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215899"
 ---
 # <a name="design-details-item-tracking-and-planning"></a>Designoplysninger: Varesporing og planlægning
 Da de er gemt i reservationssystemet, er varesporingsnumre fuldt koordineret med ordresporingsposter. Dette betyder, at varer, der har varesporingsposter, kan blive tildelt varesporingsnumre. Varer, der har varesporingsnumre, kan derimod blive ordresporingsposter. Du kan finde flere oplysninger i [Designoplysninger: Design af varesporing](design-details-item-tracking-design.md).
@@ -49,10 +49,13 @@ Hvis der er tildelt varesporingsnumre på behovssiden eller på forsyningssiden 
 
 Hvis der er tildelt varesporingsnumre på forsyningssiden uden at kræve specifik varesporing, er anses denne forsyning som fastsat af planlægningssystemet. Ingen ændring af størrelse eller omlægning foreslås for denne forsyning, men forsyningen tages i betragtning, når planlægningssystemet forsøger at opfylde bruttobehovet.
 
-Du kan finde flere oplysninger under [Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md).  
+Du kan finde flere oplysninger i [Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md).  
 
 ## <a name="see-also"></a>Se også  
 [Designoplysninger: Design af varesporing](design-details-item-tracking-design.md)  
 [Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)  
 [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md)   
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

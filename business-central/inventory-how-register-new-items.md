@@ -1,51 +1,47 @@
 ---
-title: Oprette kort for varer eller tjenesteydelser | Microsoft Docs
-description: Du kan oprette varekort for tjenester, du sælger som timer, og fysiske produkter, f.eks. montageelementer, færdigvarer, komponenter eller råvarer, som sælges fra lageret.
-documentationcenter: ''
+title: Oprette kort for varer eller tjenesteydelser (indeholder video)
+description: Du kan oprette varekort for tjenester, du sælger som timer, og fysiske produkter, f.eks. montageelementer, færdigvarer, som sælges fra lageret.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item
-ms.date: 04/27/2020
-ms.author: sgroespe
-ms.openlocfilehash: 506576c6ecbc707dd44ce23294ce7eb8b6e89329
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
+ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
+ms.date: 09/24/2021
+ms.author: edupont
+ms.openlocfilehash: 26fb6e98934968a9ed1e11309d3e7f2834e0e4b8
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324146"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059566"
 ---
 # <a name="register-new-items"></a>Registrere nye varer
+
 Varer er, blandt andre produkter, grundlaget for din virksomhed og de varer eller tjenester, som du handler med. Hver vare skal registreres som et varekort.
 
 Varekort indeholder de oplysninger, der kræves for at købe, opbevare, sælge, levere og føre regnskab med varer.
 
 Varekortet kan være af typen **Lager**, **Service** eller **Ikke-lager** for at angive, om varekortet repræsenterer en fysisk lagerenhed, en arbejdstidsenhed eller en fysisk enhed, der ikke spores på lageret. Du kan finde flere oplysninger i [Om varetyper](inventory-about-item-types.md).
 
-En vare kan struktureres som en overordnet vare med underliggende underordnede varer på en stykliste. I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan en stykliste enten være en montagestykliste eller en produktionsstykliste, afhængigt af dens anvendelse. Du kan finde flere oplysninger under [Arbejde med styklister](inventory-how-work-BOMs.md).
+En vare kan struktureres som en overordnet vare med underliggende underordnede varer på en stykliste. I [!INCLUDE[prod_short](includes/prod_short.md)] kan en stykliste enten være en montagestykliste eller en produktionsstykliste, afhængigt af dens anvendelse. Du kan finde flere oplysninger i [Arbejde med styklister](inventory-how-work-BOMs.md).
 
 Hvis du køber den samme vare fra flere forskellige leverandører, kan du forbinde disse leverandører på varekortet. Leverandørerne vises derefter på siden **Vare/leverandører**, så du nemt kan vælge en anden leverandør.
 
-Varer, som du tilbyder til dine kunder, men som du ikke vil administrere i dit system, før du begynder at sælge dem, kan oprettes som katalogvarer. Katalogvarer må ikke forveksles med almindelige varer af typen **Ikke-lager**. Du kan finde flere oplysninger under [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md).  
+Varer, som du tilbyder til dine kunder, men som du ikke vil administrere i dit system, før du begynder at sælge dem, kan oprettes som katalogvarer. Katalogvarer må ikke forveksles med almindelige varer af typen **Ikke-lager**. Du kan finde flere oplysninger i [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md).  
 
 > [!NOTE]  
 > Hvis der er en vareskabelon til forskellige varetyper, vises der en side, når du opretter et nyt varekort, hvorfra du kan vælge en passende skabelon. Hvis der kun er én vareskabelon, bruger nye varekort altid denne skabelon.
 
-Følgende fremgangsmåde beskriver, hvordan du opretter et varekort fra bunden. Du kan også oprette nye varekort ved at kopiere eksisterende kort. Du kan finde flere oplysninger i [Kopiere eksisterende elementer for at oprette nye varer](inventory-how-copy-items.md).<br><br>  
+Følgende fremgangsmåde beskriver, hvordan du opretter et varekort fra bunden. Du kan også oprette nye varekort ved at kopiere eksisterende kort. Du kan finde flere oplysninger i [Kopiere eksisterende elementer for at oprette nye varer](inventory-how-copy-items.md).  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## <a name="to-create-a-new-item-card"></a>Sådan oprettes et nyt varekort
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
-2. På siden **Varer** skal du vælge handlingen **Ny**.
 
-    Hvis der kun er én vareskabelon, åbnes nye varekort med nogle felter, der er udfyldt med oplysninger fra denne skabelon.
-3. På siden **Vælg en skabelon til en ny vare** skal du vælge den skabelon, som du vil bruge til det nye varekort.
-4. Vælg knappen **OK**. Et nyt varekort åbnes med nogle felter udfyldt med oplysninger fra skabelonen.
-5. Fortsæt med at udfylde eller ændre felterne på varekortet efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+[!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 > [!NOTE]
 > I feltet **Kostmetode** skal du angive, hvordan varens kostpris beregnes på baggrund af antagelser om gennemstrømningen af fysiske varer i virksomheden. Fem kostmetoder er tilgængelige, afhængigt af varetypen. Du kan finde flere oplysninger i [Designoplysninger: Kostmetoder](design-details-costing-methods.md).
@@ -56,12 +52,10 @@ Du kan se eller redigere specialpriser eller rabatter, som du tildeler til varen
 
 Varen er nu registreret, og varekortet er klar til at blive brugt i købs- og salgsdokumenter.
 
-Hvis du vil bruge dette varekort som skabelon, når du opretter nye varekort, kan du gemme det som en skabelon. Du kan finde flere oplysninger i følgende afsnit.
+Hvis du vil bruge dette varekort som skabelon, når du opretter nye varekort, kan du gemme det som en skabelon. Du kan finde flere oplysninger i følgende afsnit.  
 
-### <a name="deleting-item-cards"></a>Slette varekort
-Hvis du har bogført en postering for en vare, kan du ikke slette kortet, da posterne muligvis er nødvendige med henblik på værdiansættelse eller revision af lageret. Hvis du vil slette varekort med poster, skal du kontakte Microsoft-partneren for at gøre dette via kode.
+### <a name="to-save-the-item-card-as-a-template"></a>Sådan gemmes varekortet som en skabelon
 
-## <a name="to-save-the-item-card-as-a-template"></a>Sådan gemmes varekortet som en skabelon
 1. På siden **Varekort** skal du vælge handlingen **Gem som skabelon**. Siden **Vareskabelon** åbnes med varekortet som skabelon.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Hvis du vil genbruge dimensioner i kladder, skal du vælge handlingen **Dimensioner**. Siden **Skabeloner til dimensioner** åbnes med alle dimensionsværdikoder, der er konfigureret for varen.
@@ -70,22 +64,77 @@ Hvis du har bogført en postering for en vare, kan du ikke slette kortet, da pos
 
 Vareskabelonen føjes til listen over vareskabeloner, så du kan bruge den til at oprette nye varekort.
 
-## <a name="to-set-up-multiple-vendors-for-an-item"></a>Sådan oprettes flere leverandører af en vare  
+### <a name="items-used-in-production-orders"></a>Varer, der bruges i produktionsordrer
+
+Hvis du vil registrere varer, der derefter bruges i produktionsordrer, skal du angive genbestillingssystemet som *Prod.ordre* i oversigtspanelet **Genbestilling**. Du kan finde flere oplysninger i [Om produktionsordrer](production-about-production-orders.md).  
+
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>Sådan oprettes flere leverandører af en vare
+
 Hvis du køber den samme vare fra flere forskellige leverandører, skal du angive oplysninger om hver vareleverandør, f.eks. priser, leveringstid og rabatter.  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
-2.  Markér den relevante vare, og vælg derefter handlingen **Rediger**.  
-3.  Vælg handlingen **Leverandører**.  
-4.  Vælg feltet **Kreditornr.**, og vælg derefter den kreditor, du vil konfigurere for varen.  
-5.  Det er valgfrit, om du vil udfylde de resterende felterne.  
-6.  Gentag trin 2 til 5 for hver leverandør, du ønsker at købe varen fra.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
+2. Markér den relevante vare, og vælg derefter handlingen **Rediger**.  
+3. Vælg handlingen **Leverandører**.  
+4. Vælg feltet **Kreditornr.**, og vælg derefter den kreditor, du vil konfigurere for varen.  
+5. Det er valgfrit, om du vil udfylde de resterende felterne.  
+6. Gentag trin 2 til 5 for hver leverandør, du ønsker at købe varen fra.
 
 Leverandørerne vises nu på siden **Vare/leverandører**, som du åbner fra varekortet, så du nemt kan vælge en anden leverandør.
 
+## <a name="set-up-item-substitutions"></a>Konfigurere erstatningsvarer
+
+Du kan definere, at varer skal have erstatningsvarer, f. eks. andre varer, der kan bruges i stedet for den oprindelige vare.
+
+### <a name="to-make-an-item-substitution"></a>Sådan gør du en vare en erstatning
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
+2. Find den relevante vare, og klik derefter på **Varenr.** for at åbne varekortet.  
+3. Vælg den **relaterede** handling, vælg **vare**, og klik derefter på **erstatninger** for at åbne siden Erstatningsvarepost.  
+4. Vælg feltet **Erstatningsnr.** feltet , og vælg derefter erstatningsvaren på listen.
+5. Fortsæt med at udfylde eller ændre felterne på siden efter behov.
+
+Når antallet af efterspurgte varer på en salgslinje overstiger den mængde, der er tilgængelig på lageret, og der vises en meddelelse til at oplyse, at erstatningsvarer findes.
+
+> [!NOTE]  
+> Vær opmærksom på, at erstatningsvarer ikke automatisk medfører, at en vare erstattes af en anden vare, f. eks. når der oprettes en salgsordre eller en stykliste. I stedet bliver du advaret om, at der er en erstatningsvare tilgængelig.
+
+## <a name="categories-attributes-and-variants"></a>Kategorier, attributter og varianter
+
+[!INCLUDE[inventory_variant](includes/inventory_variant.md)]
+
+## <a name="deleting-item-cards"></a>Sletning af varekort
+
+Hvis du har bogført en postering for en vare, kan du ikke slette kortet, da posterne muligvis er nødvendige med henblik på værdiansættelse eller revision af lageret. Hvis du vil slette varekort med poster, skal du kontakte Microsoft-partneren for at gøre dette via kode.  
+
+## <a name="manage-inventory-in-warehouses"></a>Administration af lager på lagersteder
+
+Når du registrerer en ny vare, kan du se de felter, der er relateret til lagerstedsstyringen, især i oversigtspanelet **Lagersted**. Hvis organisationen ikke bruger warehouse management capabilities i [!INCLUDE [prod_short](includes/prod_short.md)], kan du ignorere disse felter.  
+
+Hvis organisationen på et senere tidspunkt opsætter logistik, skal du i de fleste tilfælde gå tilbage til hver eksisterende vare for at sikre, at det indeholder de relevante oplysninger i de forskellige felter, så lager processerne kan køre som forventet. Disse oplysninger kan omfatte felter som **Lagerklassekode** eller **Læg på lager-skabelonkode**. Du kan finde flere oplysninger i [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md)  
+
+## <a name="planning"></a>Planlægning
+
+Når din virksomhed bruger forsynings planlægnings processerne i [!INCLUDE [prod_short](includes/prod_short.md)], skal du udfylde de relevante felter i oversigtspanelet **Planlægning** . Du kan finde en introduktion til planlægnings området i [design oplysninger: centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md).  
+
+Du kan finde eksempler på, hvordan du kan bruge felterne i oversigtspanelet **Planlægning**, under [konfigurere bedste fremgangsmåder: planlægningsparametre](setup-best-practices-planning-parameters.md).  
+
 ## <a name="see-also"></a>Se også
+
 [Lagerbeholdning](inventory-manage-inventory.md)  
+[Oprette måleenheder](inventory-how-setup-units-of-measure.md)  
+[Varekoder](finance-how-setup-report-intrastat.md#tariff-numbers)  
 [Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Oprette nummerserie](ui-create-number-series.md)  
+[Konfigurere bogføringsgrupper](finance-posting-groups.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Om planlægningsfunktionen](production-about-planning-functionality.md)  
+[Oprette bedste fremgangsmåder: Planlægningsparametre](setup-best-practices-planning-parameters.md)  
+[Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
+[Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)  
+[Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)  
+[Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,61 +1,67 @@
 ---
-title: Sende elektroniske dokumenter | Microsoft Docs
-description: Lær, hvordan du sender fakturaer elektronisk.
+title: Sende elektroniske dokumenter
+description: Få mere at vide om, hvordan du bruger Business central til at sende elektroniske fakturaer og kreditnotaer i PEPPOL.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 110c81bdf6de02e16a1e1185028f6b803290f3d7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: abfc8b77ed4b6cc748898e8d4af8f68e036b468e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192651"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440274"
 ---
 # <a name="send-electronic-documents"></a>Sende elektroniske dokumenter
-Den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] understøtter afsendelse af elektroniske fakturaer og kreditnotaer i PEPPOL-formatet, som understøttes af de største udbydere af dokumentudvekslingstjenester. En udbyder af dokumentudvekslingstjenester sender elektroniske dokumenter mellem handelspartnere. For at understøtte andre elektroniske dokumentformater kan du bruge dataudvekslingsstrukturen.  
 
- I den generiske version af [!INCLUDE[d365fin](includes/d365fin_md.md)] er en dokumentudvekslingstjeneste forudkonfigureret og klar til at blive konfigureret til din virksomhed. Du kan finde flere oplysninger i [Konfigurere en dokumentudvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md).  
+Den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)] understøtter afsendelse af elektroniske fakturaer og kreditnotaer i PEPPOL-formatet, som understøttes af de største udbydere af dokumentudvekslingstjenester. En udbyder af dokumentudvekslingstjenester sender elektroniske dokumenter mellem handelspartnere. For at understøtte andre elektroniske dokumentformater kan du bruge dataudvekslingsstrukturen.  
 
- For at sende en salgsfaktura som et elektronisk PEPPOL-dokument skal du vælge indstillingen **Elektronisk dokument** i dialogboksen **Bogfør og send**, hvor du også kan konfigurere kundens standardprofil til afsendelse af dokumenter. Først skal du konfigurere forskellige stamdata, såsom firmaoplysninger, debitorer, varer og enheder. Disse bruges til at identificere forretningspartnere og varer ved konvertering af data i felterne i [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
+ I den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)] er en dokumentudvekslingstjeneste forudkonfigureret og klar til at blive konfigureret til din virksomhed. Du kan finde flere oplysninger i [Konfigurere en dokumentudvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md). Du skal imidlertid installere en app i nogle tilfælde. Du kan finde flere oplysninger i [Ofte stillede spørgsmål til Oversigt over elektronisk fakturering](faq-electronic-invoicing.yml).  
 
-### <a name="to-send-an-electronic-sales-invoice"></a>Sådan sendes en elektronisk salgsfaktura  
+ Når du vil sende en salgsfaktura som et elektronisk PEPPOL dokument, skal du vælge indstillingen **Elektronisk dokument** i dialogboksen **Bogfør og send**. Herfra kan du også angive debitorens standardprofil for afsendelse af dokumenter. Først skal du konfigurere forskellige stamdata, såsom firmaoplysninger, debitorer, varer og enheder. Disse bruges til at identificere forretningspartnere og varer ved konvertering af data i felterne i [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
 
-1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsfakturaer**, og vælg derefter det relaterede link.  
+### <a name="to-send-an-electronic-sales-invoice"></a>Sådan sendes en elektronisk salgsfaktura
 
-2.  Opret en ny salgsfaktura.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsfakturaer**, og vælg derefter det relaterede link.  
 
-3.  Når salgsfakturaerne er klar til at blive faktureret, skal du vælge handlingen **Bogfør og send**.  
+2. Opret en ny salgsfaktura.  
 
-     Hvis kundens standardafsendelsesprofil er **Elektronisk dokument**, bliver den vist i dialogboksen **Bekræftelse af bogfør og send**, og du skal bare klikke på knappen **Ja** for at bogføre og sende fakturaen elektronisk i det valgte format.  
+3. Når salgsfakturaerne er klar til at blive faktureret, skal du vælge handlingen **Bogfør og send**.  
 
-4.  I dialogboksen **Bekræftelse af bogfør og send** skal du vælge knappen AssistEdit til højre for feltet **Send bilag til**.  
+     Hvis debitorens standardprofil til afsendelse er **Elektronisk dokument**, vises det i dialogboksen **Bekræftelse af bogfør og send**. På den måde behøver du kun at vælge knappen **Ja** for at bogføre og sende fakturaen elektronisk i det valgte format.  
 
-5.  I **Send dokument til** dialogboksen og i feltet **Elektronisk dokument** skal du vælge **Via dokumentudvekslingstjeneste**.  
+4. I dialogboksen **Bekræftelse af bogfør og send** skal du vælge knappen AssistEdit til højre for feltet **Send bilag til**.  
 
-6.  I feltet **Format** skal du vælge **PEPPOL**.  
+5. I **Send dokument til** dialogboksen og i feltet **Elektronisk dokument** skal du vælge **Via dokumentudvekslingstjeneste**.  
 
-7.  Vælg knappen **OK**. Dialogboksen **Bekræftelse af bogfør og send** vises. **Elektronisk dokument (PEPPOL)** føjes til feltet **Send dokument til**.  
+6. I feltet **Format** skal du vælge **PEPPOL**.  
 
-8.  Vælg knappen **Ja**.  
+7. Vælg knappen **OK**. Dialogboksen **Bekræftelse af bogfør og send** vises. **Elektronisk dokument (PEPPOL)** føjes til feltet **Send dokument til**.  
+
+8. Vælg knappen **Ja**.  
 
      Salgsfakturaen bogføres og sendes til kunden som et elektronisk dokument i PEPPOL-format.  
 
     > [!NOTE]  
-    >  Du kan også sende en bogført salgsfaktura som et elektronisk dokument. Fremgangsmåden er den samme som beskrevet i dette emne for ikke-bogførte salgsdokumenter. På siden **Bogført salgsfaktura** skal du vælge handlingen **Aktivitetslog** for at få vist statussen for det elektroniske dokument. Du kan finde flere oplysninger **Aktivitetslog**.  
+    >  Du kan også sende en bogført salgsfaktura som et elektronisk dokument. Fremgangsmåden er den samme som beskrevet i dette emne for ikke-bogførte salgsdokumenter. På siden **Bogført salgsfaktura** skal du vælge handlingen **Aktivitetslog** for at få vist statussen for det elektroniske dokument.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Fakturere salg](sales-how-invoice-sales.md)  
 [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md)  
 [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Konfigurere en dokumentudvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md)  
 [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)  
 [Udveksle data elektronisk](across-data-exchange.md)  
+[Ofte stillede spørgsmål om elektronisk fakturering](faq-electronic-invoicing.yml)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

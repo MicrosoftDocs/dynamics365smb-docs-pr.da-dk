@@ -1,21 +1,22 @@
 ---
-title: Sådan forhindres køb fra/til kreditorer
-description: Du kan forhindre kreditorer i at blive medtaget i nogen transaktioner eller blot blokere for, at der kan foretages nye betalinger til dem.
+title: Spær kreditorer
+description: Læs om, hvordan du kan forhindre kreditorer i at blive medtaget i nogen transaktioner eller blot blokere for, at der kan foretages nye betalinger til dem.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/14/2020
+ms.search.form: 27
+ms.date: 06/22/2021
 ms.author: bholtorf
-ms.openlocfilehash: f28d1c11889d496072d57cfdb70f3c743037bff3
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.openlocfilehash: 2088f6ccc64c3827250878c8f7b1027600f7f558
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954278"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953131"
 ---
 # <a name="block-vendors"></a>Spær kreditorer
 Du kan spærre en kreditor, for eksempel på grund af insolvens, så kreditoren ikke kan føjes til købsdokumenter, eller ingen betalinger kan bogføres for kreditoren.
@@ -29,7 +30,7 @@ Den følgende tabel beskriver indstillingerne for spærring af kreditorer.
 |**Alle**|Ingen transaktioner er tilladt for denne kreditor.|  
 
 ## <a name="to-block-a-vendor"></a>Sådan blokeres en kreditor  
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Leverandører (Kreditorer)**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.
 2. Markér den kreditor, du vil spærre.
 3. Gå til feltet **Spærret**, og vælg en indstillingerne for spærring.
 
@@ -37,3 +38,6 @@ Den følgende tabel beskriver indstillingerne for spærring af kreditorer.
 [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)  
 [Foretage betaling](payables-make-payments.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

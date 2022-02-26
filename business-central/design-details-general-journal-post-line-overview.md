@@ -1,26 +1,27 @@
 ---
-title: Oversigt over bogføringslinje i finanskladde | Microsoft Docs
-description: Dette emne introducerer ændringer af Codeunit 12, **Finanskladde-Bogføringslinje**, der er det vigtigste udligningsobjekt til finansbogføring, og er det eneste sted at indsætte finans-, moms- og debitor- og kreditorposter.
+title: Oversigt over bogføringslinje i finanskladde
+description: I dette emne introduceres ændringer af Codeunit 12, Gen. Kladdelinje, og her kan du kun indsætte finans-, moms-og debitor-og kreditorposter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ffe7e29d26b386f0a69cc3a7377bf9ff58f93abf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 849bf54380aa7ee3abe09986a168aa946a1b3426
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185440"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011029"
 ---
 # <a name="general-journal-post-line-overview"></a>Oversigt over bogføringslinje i finanskladde
+
 Codeunit 12 **Finanskladde-Bogføringslinje** er det vigtigste udligningsobjekt til finansbogføring og er det eneste sted at indsætte finans-, moms- og debitor-og kreditorposter. Denne codeunit bruges også til alle handlinger med Udlign, Annuller udligning og Tilbagefør.  
   
-Mens codeunit er blevet forbedret i hver udgave i de sidste ti år, er dens arkitektur i det væsentlige uændret. Codeunit blev meget stor med ca. 7.600 kodelinjer. Med denne version af [!INCLUDE[d365fin](includes/d365fin_md.md)] er arkitekturen ændret, og codeunit er gjort enklere og nemmere at vedligeholde. Denne dokumentation indeholder ændringerne og oplysninger, du skal bruge til opgradering.  
+I Microsoft Dynamics NAV 2013 R2 blev codeunit omdesignet, fordi den er blevet meget stor med ca. 7.600-kodelinjer. Med denne version af er arkitekturen ændret, og codeunit er gjort enklere og nemmere at vedligeholde. Denne dokumentation beskriver ændringerne og oplysninger, du skal bruge til opgradering.  
   
 ## <a name="old-architecture"></a>Gammel arkitektur  
 Den gamle arkitektur havde følgende funktioner:  
@@ -34,7 +35,7 @@ Den gamle arkitektur havde følgende funktioner:
 * Bogføring, Udlign, Annuller udligning, Tilbagefør, Kontantrabat og Tolerance samt Valutakursregulering blev samlet i codeunit 12 ved hjælp af en lang liste af globale variabler.  
   
 ### <a name="new-architecture"></a>Ny arkitektur  
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] har codeunit 12 følgende forbedringer:  
+I [!INCLUDE[prod_short](includes/prod_short.md)] har codeunit 12 følgende forbedringer:  
   
 * Codeunit 12 er blevet inddelt i mindre procedurer (alle under 100 kodelinjer).  
 * Standardiserede mønstre for søgning på finanskonti er implementeret ved hjælp af hjælpefunktioner fra bogføringsgruppetabeller.  
@@ -43,6 +44,11 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] har codeunit 12 følgende forbedri
 * Mange hjælpefunktioner, der er overført til tilsvarende debitor- og kreditorposttabeller.  
 * Brug af globale variabler er blevet minimeret, så hver enkelt procedure bruger parametre og indkapsler sin egen programlogik.  
   
-## <a name="see-also"></a>Se også  
-[Designoplysninger: Bogføring af grænsefladestruktur](design-details-posting-interface-structure.md)   
-[Designoplysninger: Bogføringsprogramstruktur](design-details-posting-engine-structure.md)
+## <a name="see-also"></a>Se også
+
+[Designoplysninger: Bogføring af grænsefladestruktur](design-details-posting-interface-structure.md)  
+[Designoplysninger: Bogføringsprogramstruktur](design-details-posting-engine-structure.md)  
+[Designoplysninger: Bogføringslinje i finanskladde (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
