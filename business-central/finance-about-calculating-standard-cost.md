@@ -2,19 +2,18 @@
 title: Om beregning af standardomkostning
 description: Et system til standardkostpriser bestemmer lagerkostprisen på basis af rimelige historiske eller forventede omkostninger.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: 6b0b531c1a41d2f19941578f8f381d56e554cb96
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: cdb1ff4581e8e2b79f9e2dd015426ee9719e38e6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973696"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149149"
 ---
 # <a name="about-calculating-standard-cost"></a>Om beregning af standardomkostning
 Mange produktionsvirksomheder vælger en værdiansættelse for standardkostpriser. Dette gælder også for virksomheder, der udfører let produktion som montage og kitting. Et system til standardkostpriser bestemmer lagerkostprisen på basis af nogle rimelige historiske eller forventede omkostninger. Undersøgelser af tidligere og fremtidige omkostningsdata kan derefter danne grundlag for standardkostpriser. Standardkostpriserne er fastfrosne, indtil der træffes en beslutning om, at de skal ændres. De faktiske omkostninger til at fremstille et produkt kan afvige fra de forventede standardomkostninger. Af hensyn til styringen sammenlignes den faktiske kostpris med standardkostprisen for en bestemt vare, og forskellene, eller *afvigelser*, identificeres og analyseres.  

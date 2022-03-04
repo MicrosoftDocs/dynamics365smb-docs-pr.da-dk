@@ -2,7 +2,6 @@
 title: Plukke til produktion eller montage i grundlæggende lageropsætninger
 description: Når lagerlokationen kræver pluk, men ikke leverance, skal du bruge siden Pluk (lager) til at organisere og registrere pluk af komponenter.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: c3827bb8ab272b38972c17d79933ce0aa187e32d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b824cec7e6169f20d3da6bf853828a103b3c2928
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445793"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144355"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Plukke til produktion eller montage i grundlæggende lageropsætninger
 Hvordan du skal lægge komponenter på lager til produktions- eller montageordrer afhænger af den måde, som lagerstedet er sat op på som en lokation. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).

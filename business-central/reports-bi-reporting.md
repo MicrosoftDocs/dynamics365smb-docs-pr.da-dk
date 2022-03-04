@@ -2,7 +2,6 @@
 title: Oversigt over Business Intelligence og rapportering
 description: Indeholder en oversigt over alle de funktioner til Business Intelligence og rapportering, som understøttes i Business Central-produktet.
 author: KennieNP
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: feature overview
 ms.reviewer: edupont
 ms.date: 02/03/2022
 ms.author: kepontop
-ms.openlocfilehash: d73b9b2d24ab7390b9a80e70ecdc6ccd471aee20
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: a51175dc5dd124b58ef92e87ab6874f04e4bea41
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8104063"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144875"
 ---
 # <a name="business-intelligence-and-reporting-overview"></a>Oversigt over Business Intelligence og rapportering
 

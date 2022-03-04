@@ -2,7 +2,6 @@
 title: Oversigt over Power BI-integrationskomponent og -arkitektur for Business central| Microsoft Docs
 description: Flere oplysninger om forskellige aspekter ved Power BI-integration med Business central.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6260edff16c0d9123d389f59f0d035b2e87766b4
-ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
+ms.openlocfilehash: b4f48182e6d4356e9621dc5a041945700f5d7599
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8049507"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143921"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Oversigt over Power BI-integrationskomponent og -arkitektur for [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -48,7 +47,7 @@ Følgende tabel beskriver de tilgængelige funktioner.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integreres med Power BI via en connector, der bruger OData. Datakilden til Power BI-rapporter vises som API-sider og OData-webtjenester.
 
-:::image type="content" source="./media/power-bi-architecture.png" alt-text="Image alt text." lightbox="./media/power-bi-architecture.png":::
+:::image type="content" source="./media/power-bi-architecture.png" alt-text="Alternativ billedtekst." lightbox="./media/power-bi-architecture.png":::
 
 Fra og med februar 2022 er Power BI-rapporter om [!INCLUDE[prod_short](includes/prod_short.md)] Online baseret på en sekundær, skrivebeskyttet databasereplika. Database-replika er en del af [read scale-out](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview)-funktionen i [!INCLUDE[prod_short](includes/prod_short.md)] online. Denne konfiguration frigør hoveddatabasen til transaktioner, hvilket forbedrer systemets ydeevne. Når du opretter forbindelse til den skrivebeskyttede databasereplika, er det en integreret del af Business Central online-connector og kræver ingen ekstra opsætning. Alle nye rapporter opretter som standardforbindelse til den skrivebeskyttede databasereplika. Gamle rapporter bruger stadig hoveddatabasen. Du kan finde flere oplysninger i [Business Central 2021 Release Wave 2-plan ](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 

@@ -4,7 +4,6 @@ description: Hvis du vil spare tid, når du opretter nye arbejdsprocesser, kan d
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 4c3c8011802d9deb1b7a3804758333f08fc2403b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d429b5acce6520b86a1272620379265fb01b1462
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438428"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147264"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Oprette workflows ud fra workflowskabeloner
 For at spare tid ved oprettelse af nye workflows kan du oprette workflows ud fra workflowskabeloner.  

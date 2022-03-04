@@ -2,7 +2,6 @@
 title: Oprette placeringstyper
 description: Tildel typer og grundlæggende flowaktiviteter til placeringer, og definer dermed, hvordan placeringerne skal bruges til bestemte lageraktiviteter.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,15 +9,15 @@ ms.workload: na
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b867079eb08790f2cfa091d0128a876499fb2045
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: f45908cf5a1d4352039cf83ab1db2719caca8a53
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971572"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334586"
 ---
 # <a name="set-up-bin-types"></a>Oprette placeringstyper
-Du kan dirigere varestrømmen til placeringer, som du har defineret til særlige lageraktiviteter. Du fastsætter disse aktiviteter ved at tildele placeringstyper, så du angiver, hvordan en placering skal brues.  
+Du kan dirigere varestrømmen til placeringer, som du har defineret til særlige lageraktiviteter. Du fastsætter disse aktiviteter ved at tildele placeringstyper, så du angiver, hvordan en placering skal bruges.  
 
 Der er seks typer. Du kan bruge alle de seks mulige placeringstyper til lagerstedet, eller du kan vælge kun at operere med placeringstyperne MODTAG, LPLPLUK, LEVER og KK. Disse fire placeringstyper giver mulighed for forslag til aktiviteter og sætter dig i stand til at registrere afvigelser i lagerbeholdningen.  
 

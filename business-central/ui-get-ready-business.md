@@ -2,7 +2,6 @@
 title: Bliv klar til at handle
 description: Beskriver de assisterede opsætningsvejledninger, videoer, Hjælp-emner og sider, der hjælper dig i gang med at bruge Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: ba9039d637dcdee7f42302d1f1260b1224414677
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: b75381cd5153294ec65878c3e6726b9a3e4821de
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589128"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335008"
 ---
 # <a name="getting-ready-for-doing-business"></a>Bliv klar til at handle
 
@@ -70,7 +69,7 @@ Under **Virksomhedsindstillinger** kan du se og redigere opsætningsoplysninger 
 
 ## <a name="adding-users-and-permissions"></a>Tilføjelse af brugere og tilladelser
 
-Hvis du vil tilføje flere brugere, kan dette gøres fra Microsoft Office 365 Administration. Du kan finde flere oplysninger i [Oprette brugere i henhold til licenser](ui-how-users-permissions.md).
+Hvis du vil tilføje flere brugere, kan dette gøres fra Microsoft 365 Administration. Du kan finde flere oplysninger i [Oprette brugere i henhold til licenser](ui-how-users-permissions.md).
 
 Når brugere er oprettet i Microsoft 365, kan de importeres på siden **Brugere** ved hjælp af handlingen **Hent opdateringer fra Office 365**. Du kan derefter fortsætte med at give tilladelser til brugere og organisere dem i brugergrupper. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).  
 
@@ -94,6 +93,7 @@ Baseret på de overflyttede data, kan du nu fortsætte med at oprette nye salgs-
 [Søg i ruden hjælp](product-help-and-support.md#search-in-the-help-pane)  
 [Ressourcer til hjælp og support](product-help-and-support.md)  
 [Webstedet for Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Overfør data](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

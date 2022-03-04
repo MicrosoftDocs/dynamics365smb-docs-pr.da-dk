@@ -2,7 +2,6 @@
 title: Oprette grundlæggende lagersteder med handlingsområder
 description: Definere lageroperationsområder og bruge lagerbevægelser, pluk og læg-på-lager-aktiviteter til at flytte varer mellem dem.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6dbf91bcf720a3b57f7e6e9446b0a46d1e053987
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: 7d64cb9cdba21d3a023c86fbb39e802a78945c2b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115194"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144199"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Oprette grundlæggende lagersteder med handlingsområder
 Hvis der findes interne operationsområder, såsom produktion eller montage i grundlæggende lageropsætninger, hvor lokationer bruger opsætningsfeltet **Tvungen placering** og muligvis opsætningsfelterne **Kræv pluk** og **Kræv læg-på-lager**, kan du derefter bruge følgende grundlæggende lagerdokumenter til at registrere dine lageraktiviteter for interne operationsområder:  

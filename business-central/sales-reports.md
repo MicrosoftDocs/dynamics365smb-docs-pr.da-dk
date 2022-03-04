@@ -2,17 +2,16 @@
 title: Salgsrapporter og analyser
 description: Se, hvilke salgsrapporter og analyser der er tilgængelige i standardversionen af Business Central, så du kan holde styr på virksomheden.
 author: AndreiPanko
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: bb41c0e03da4163735663fbc3c402905e702dffd
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: f25d7af82ff9542e5d3607c81127f8afaf4a6d28
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102417"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144693"
 ---
 # <a name="sales-reports-and-analytics-in-business-central"></a>Salgsrapporter og analyser i Business Central
 

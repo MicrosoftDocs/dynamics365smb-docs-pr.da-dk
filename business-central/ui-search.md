@@ -1,21 +1,21 @@
 ---
-title: Finde funktioner og oplysninger (indeholder video) | Microsoft Docs
+title: Finde funktioner og oplysninger (indeholder video)
 description: I dette emne beskrives det, hvordan du kan bruge handlinger, sider, rapporter, dokumentation og data samt andre programmer og konsulenttjenester.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1e44edeee82214c1d19489da351b3001bfa4fc3e
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: c11b0b82d0c6634fc69b09b8995046bf194a3838
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940122"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323192"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Søge efter sider og oplysninger med Fortæl mig  
 I dette emne beskrives det, hvordan Fortæl mig kan hjælpe dig med hurtigt se komme til f.eks. handlinger, sider eller rapporter, finde oplysninger om, hvordan du udfører en bestemt opgave og finder flere apps og konsulenttjenester til [!INCLUDE[prod_short](includes/prod_short.md)].  

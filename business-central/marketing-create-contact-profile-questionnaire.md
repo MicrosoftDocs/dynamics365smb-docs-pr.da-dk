@@ -2,7 +2,6 @@
 title: Bruge profiler til at klassificere kontakter
 description: Flere oplysninger om, hvordan du definerer profilspørgeskemaer for at hjælpe med at klassificere forretningskontaktpersonernes profiler.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
 ms.date: 06/22/2021
-ms.openlocfilehash: 6ce13672651a5b6b65712928b764ad11b3db514d
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 42ef7c92d138d717f10eb98a7fa9208eaf73ef54
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588522"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140836"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Bruge profilspørgeskemaer til at klassificere forretningskontakter
 Du kan definere profilspørgeskemaer, du vil bruge til indtastning af oplysninger om kontaktprofiler. Du kan i det enkelte spørgeskema definere forskellige spørgsmål, du vil stille dine kontaktpersoner.  

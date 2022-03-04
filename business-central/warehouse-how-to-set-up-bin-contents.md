@@ -2,7 +2,6 @@
 title: Oprette placeringsindhold
 description: Når du har oprettet placeringerne, kan du angive de varer, du vil gemme i dem, og definere regler, der styrer, hvor ofte placeringer skal reserveres.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f0ce279f17022ad62f3eb00c1713c794d3b5e1d1
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: b1332240d6c6b0e43bada158fe11e82d42e0119f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970852"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144225"
 ---
 # <a name="create-bin-contents"></a>Oprette placeringsindhold
 

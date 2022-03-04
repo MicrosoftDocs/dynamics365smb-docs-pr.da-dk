@@ -2,7 +2,6 @@
 title: Forsikring af anlægsaktiver
 description: Du kan knytte et eller flere anlægsaktiver til en forsikringspolice ved at bogføre forsikringsposterne fra siden **Forsikringskladde**.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: policy, coverage
 ms.search.form: 5647, 5644, 5653, 5651, 5655, 5652, 5645, 5656, 5646, 5648, 9275
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: d1a9a299101cece91162f9f913b318cd9a3596ae
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 3385d0a8d7158237a1f86e8d78785c7045490886
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029610"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146536"
 ---
 # <a name="insure-fixed-assets"></a>Forsikring af anlægsaktiver
 En forsikringspolice for et anlægsaktiv repræsenteres af et forsikringskort. Du kan knytte et anlægsaktiv til en forsikringspolice eller flere anlægsaktiver til en forsikringspolice.

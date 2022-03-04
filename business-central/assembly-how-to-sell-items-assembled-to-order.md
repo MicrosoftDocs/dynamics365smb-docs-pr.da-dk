@@ -2,7 +2,6 @@
 title: 'Fremgangsmåde: Sælge varer, der er monteret til ordre'
 description: Hvis varen er konfigureret til montage til ordre, forventes varen derefter ikke at være på lager, og den skal samles specifikt til en salgsordre.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting, substitute items
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 05060eaf315ac85f50509aec3df46ec3e9319deb
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: e32af0659ec78ae178dd0b49b18582beb66ba100
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440612"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146900"
 ---
 # <a name="sell-items-assembled-to-order"></a>Sælge varer, der er monteret til ordre
 Hvis feltet **Montagepolitik** på varekortet til et montageelement er **Montage efter ordre**, kan varen ikke forventes at være på lager og skal samles specifikt til en salgsordre. Når du indtaster varen på en salgsordrelinje, bliver der automatisk oprettet en montageordre, hvorefter den knyttes til salgsordren.  

@@ -2,7 +2,6 @@
 title: Administrere medarbejderfravær
 description: Beskriver, hvordan medarbejdernes fraværs-og analyse fravær registreres vha. siderne fraværsregistrering og fravær.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5212, 5211, 5200
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 4b1ba11875ebd9a8ea9e2733f3f2dd6c0e876d86
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 77ae09aebd78c870cc92d01700fc9a9188f340ee
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101395"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146432"
 ---
 # <a name="manage-employee-absence"></a>Administrere medarbejderfravær
 Hvis du vil administrere en medarbejders fravær, skal du registrere fraværet på siden **Fraværsregistrering**. Det kan derefter vises på forskellige måder i forbindelse med analyse og rapportering.

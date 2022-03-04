@@ -2,7 +2,6 @@
 title: Fejlfinding af forbindelser
 description: Beskriver, hvordan du kan bruge siden fejlfinding af forbindelser til at identificere og løse problemer med at oprette forbindelse til Business central online.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: connectivity, troubleshooting, connection problems
 ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
-ms.openlocfilehash: e08d6148001e324bc7217771434ff6862fe984a6
-ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
+ms.openlocfilehash: 3e7714b14d0fa3875a2d5331f4c9b697eb4deca5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "7748957"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143838"
 ---
 # <a name="troubleshoot-connectivity-for-business-central"></a>Fejlfinding i forbindelse med Business central
 

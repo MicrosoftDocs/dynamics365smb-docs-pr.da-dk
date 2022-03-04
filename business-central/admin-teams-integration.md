@@ -2,7 +2,6 @@
 title: Administration af Microsoft Teams-integration med Business Central| Microsoft Docs
 description: Administration af Microsoft Teams-integration med Business Central.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 7fef0f2ffe23155e840fa89a62b1822fee1efd35
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 4d6e329dbf6c8d5badfcb317261db18d8432d303
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589078"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147030"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Styring af Microsoft Teams-integration med [!INCLUDE [prod_short](includes/prod_short.md)]
 

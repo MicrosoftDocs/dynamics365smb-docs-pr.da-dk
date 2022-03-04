@@ -2,24 +2,23 @@
 title: Overflytte debitordata
 description: Du kan overføre eksisterende kundedata fra et eksisterende system til Business Central ved at bruge RapidStart Services - eller blot indtaste dem direkte i virksomheden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.form: 1799, 1807, 8632, 1800, 1340
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437462"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335366"
 ---
 # <a name="migrate-customer-data"></a>Overflytte debitordata
 
-Du kan overflytte eksisterende debitordata fra et eksisterende ERP-system til [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af dataoverflytningsværktøjerne i RapidStart Services. Du kan bruge Excel-filer som datamedie. Du kan også manuelt flytte data ved at indtaste dem direkte i virksomheden.
+Du kan overflytte eksisterende debitordata fra et eksisterende ERP-system til [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af dataoverflytningsværktøjerne i RapidStart Services. Du kan bruge Excel-filer som datamedie. Du kan også manuelt flytte data ved at indtaste dem direkte i virksomheden. Du kan også bruge guiden **Overflyt fra sky** til at flytte data. Du kan flere oplysninger i [Overføre data](/dynamics365/business-central/dev-itpro/administration/migrate-data) i Administrator-indholdet.
 
 > [!NOTE]
 > Felter af typen Blob kan ikke eksporteres/importeres ved hjælp af Excel.

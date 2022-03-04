@@ -2,7 +2,6 @@
 title: Oprette kort for varer eller tjenesteydelser (indeholder video)
 description: Du kan oprette varekort for tjenester, du sælger som timer, og fysiske produkter, f.eks. montageelementer, færdigvarer, som sælges fra lageret.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: item, finished good, component, raw material, assembly item,
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: 26fb6e98934968a9ed1e11309d3e7f2834e0e4b8
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: a2d64fe3a04109246540a463597dbf49684b8913
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059566"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148586"
 ---
 # <a name="register-new-items"></a>Registrere nye varer
 

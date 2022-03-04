@@ -2,7 +2,6 @@
 title: Konfigurere virksomhedskonfiguration
 description: Som partner skal du konfigurere Business Central korrekt for din debitor med standardkonfigurationer eller kundespecifikke konfigurationer, som du bundter i konfigurationspakker.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5baef81f22e260fa6f582b536dcf356d3ae25d25
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: 841d57ec0e5897ee0395e498ed24dc19b4fcbaea
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649708"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143917"
 ---
 # <a name="set-up-company-configuration"></a>Konfigurere virksomhedskonfiguration
 Implementeringsprocessen, der begynder med Microsoft-partneren. Som partner er du ansvarlig for at gennemtænke konfigurationsdetaljerne og oprette en pakke, som en debitor let kan anvende. Før du opretter en ny virksomhed i [!INCLUDE [prod_short](includes/prod_short.md)] online eller i det lokale miljø, skal du planlægge, hvordan den skal konfigureres. Du skal overveje grundlæggende konfigurationsdata og de datatyper, som din [!INCLUDE[prod_short](includes/prod_short.md)]-løsning kræver. Du kan samle alle disse oplysninger i konfigurationspakker.

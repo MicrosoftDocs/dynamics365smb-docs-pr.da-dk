@@ -2,20 +2,20 @@
 title: Flere sprog og oversættelse
 description: Få mere at vide om, hvordan sprog og geografisk område påvirker din oplevelse i Business Central. Skift sproget i brugergrænsefladen ved at gå til siden Indstillinger.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 39927cc6adb02768a4358b2b7480a22cf68bc73a
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 5187d4f98360d7cf43300f86eda9e99dcbda4063
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588397"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323132"
 ---
 # <a name="changing-language-and-region"></a>Ændre sprog og geografisk område
 
@@ -36,7 +36,7 @@ Du kan ændre sproget i brugergrænsefladen ved at gå til siden **Indstillinger
 ## <a name="changing-your-region-setting"></a>Ændre områdeopsætning
 Det geografiske område adskiller sig fra både sprog og lovgivningsmæssige krav på lokale markeder. Området bestemmer, hvordan dataene vises med hensyn til kommaseparator, venstre- eller højrejustering og visse andre indstillinger. Området bestemmer også nogle af systemelementerne i browseren, f.eks. handlingen til at oprette en ny vare på en liste.  
 
-Du kan ændre området under den browserfane, du bruger til at arbejde i [!INCLUDE[prod_short](includes/prod_short.md)]. Ændringen gælder kun for dig og ikke for andre brugere i virksomheden.  Valget af område nulstilles til indstillingen for din Microsoft 365-profil, hvis administratoren synkroniserer brugere fra Microsoft 365 til [!INCLUDE[prod_short](includes/prod_short.md)].
+Du kan ændre området under den browserfane, du bruger til at arbejde i [!INCLUDE[prod_short](includes/prod_short.md)]. Ændringen gælder kun for dig og ikke for andre brugere i virksomheden.  Valget af område nulstilles til indstillingen på din Microsoft 365-profil, hvis administratoren synkroniserer brugere fra Microsoft 365 til [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]  
 > Når du ændrer området, vises der en lang række sprog og områder. Sproget påvirkes dog ikke af det område, du vælger.  

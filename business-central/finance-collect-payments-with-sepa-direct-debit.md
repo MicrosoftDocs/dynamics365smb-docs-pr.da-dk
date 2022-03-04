@@ -2,7 +2,6 @@
 title: SEPA-direkte debitering i Business Central
 description: Du kan opkræve betalinger direkte fra kundens bankkonto i overensstemmelse med SEPA-formatet med kundens samtykke.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 371, 423, 424, 427, 1208, 1207, 1230
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 681775b78a6d3461a9cd5d6fa1cade1519579903
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: a1de8defa88e9a2d744f5b8d25ebebda33c22649
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970774"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147800"
 ---
 # <a name="collect-payments-with-sepa-direct-debit"></a>Indhente betalinger med SEPA Direct Debit
 

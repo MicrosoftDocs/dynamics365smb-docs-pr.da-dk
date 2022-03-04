@@ -2,7 +2,6 @@
 title: Sådan konfigureres afsendelse og modtagelse af elektroniske dokumenter | Microsoft Docs
 description: Som et alternativ til at sende vedhæftede filer i en mail, kan du sende og modtage forretningsdokumenter elektronisk.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 80555f6362b1a071b26d4119c821075e8fcc4944
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: bcc706a221c40019792167b4b75cb8826216457d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774657"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147212"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Konfigurere afsendelse og modtagelse af elektroniske dokumenter
 

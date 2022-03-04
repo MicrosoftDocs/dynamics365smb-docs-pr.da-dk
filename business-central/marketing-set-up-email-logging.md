@@ -2,7 +2,6 @@
 title: Konfigurer maillogføring | Microsoft Docs
 description: Få at vide, hvordan du ændrer mailinteraktioner mellem sælgere og kunder til reelle salgs-leads.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c1e47dba1c10b994cb43c21afbfdd548f85c774b
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 2abc0406fa8e86646d2382a4c7bbb1e228439728
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482341"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148404"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spore udveksling af mails mellem sælgere og kontakter
 
@@ -31,7 +30,7 @@ Derefter opretter du forbindelse mellem [!INCLUDE[prod_short](includes/prod_shor
 
 Introduktion til maillogføring i to lette trin:
 
-1. Opret forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange Online til dit Microsoft 365-abonnement. Exchange Online håndterer dine mails. Vi har gjort dette trin lettilgængeligt med en vejledning til assisteret opsætning. Du skal blot bruge dine administratorrettigheder til din administratorkonto i Microsoft 365. Start vejledningen ved at gå til **Assisteret opsætning**, og vælg derefter vejledningen **Konfigurer maillogføring**.  
+1. Opret forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange Online for dit Microsoft 365-abonnement. Exchange Online håndterer dine mails. Vi har gjort dette trin lettilgængeligt med en vejledning til assisteret opsætning. Du skal blot bruge dine administratorrettigheder til din administratorkonto i Microsoft 365. Start vejledningen ved at gå til **Assisteret opsætning**, og vælg derefter vejledningen **Konfigurer maillogføring**.  
 
 2. Kontrollér, at der er angivet gyldige mailadresser i [!INCLUDE[prod_short](includes/prod_short.md)] for dine sælgere og kontakter, afhængigt af om de er potentielle eller eksisterende kunder. Hvis du vil gøre det, skal du for hver debitor eller sælger åbne kortet **Kontakt** eller **Sælger/indkøber** og se feltet **Mailadresse**.
 

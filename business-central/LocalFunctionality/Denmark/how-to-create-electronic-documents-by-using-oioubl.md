@@ -2,7 +2,6 @@
 title: Oprette elektroniske dokumenter i et OIOUBL-format
 description: Når du sælger varer eller tjenesteydelser til en kunde i den offentlige sektor i Danmark, skal du sende dokumenter elektronisk.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: bholtorf
-ms.openlocfilehash: f285671ee62b558e7ffa27c3e546602a2224a437
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 97f4ea5151d0c57648fa68b3547384766f517d1c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444094"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149296"
 ---
 # <a name="create-electronic-documents-by-using-oioubl"></a>Oprette elektroniske dokumenter ved hjælp af OIOUBL
 Når du sælger varer eller tjenesteydelser til en kunde i den offentlige sektor, skal du sende dokumenter elektronisk. I [!INCLUDE[prod_short](../../includes/prod_short.md)], kan du oprette elektroniske dokumenter til fakturaer, kreditnotaer, rykkere og rentenotaer. Før du kan oprette elektroniske dokumenter, skal du have angivet filplaceringer og oplysninger om kunderne. Du kan få flere oplysninger i [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md).  
@@ -42,7 +41,7 @@ Når du har bogført et dokument, kan du oprette en elektronisk faktura i OIOUBL
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.  
 2.  Åbn den relevante bogførte salgsfaktura.  
 3.  Vælg handlingen **Opret elektronisk <*dokumenttype*>**.  
-4.  På siden **Opret elektronisk<*dokumenttype*>** kan du angive yderligere filtre og derefter vælge knappen **OK**.  
+4.  På siden **Opret elektronisk <*dokumenttype*>** kan du angive yderligere filtre og derefter vælge knappen **OK**.  
 
 Derved oprettes en XML-fil, der gemmes på standardplaceringen for hentning på din enhed.
 

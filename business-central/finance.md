@@ -2,7 +2,6 @@
 title: Økonomistyring (indeholder video)
 description: Få mere at vide om, hvordan Business Central understøtter dine behov for økonomistyring, regnskab, revision eller bogholderi.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2582e96b8113abe91fe10a087833d4fbeb5b7da5
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 44c7475921c679cc03ee25e8c05ffa78d04592f3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970907"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135954"
 ---
 # <a name="financial-management"></a>Økonomistyring
 

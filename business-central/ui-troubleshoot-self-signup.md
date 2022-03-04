@@ -2,19 +2,18 @@
 title: Fejlfinding af problemer med selvbetjeningstilmelding | Microsoft Docs
 description: Få mere at vide om de almindeligste årsager til, hvorfor du muligvis ikke kan fuldføre tilmeldingen til Business Central, og hvordan du løser problemet.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2c049e340cc5c573a9822e1976e3b5e2a1cb9142
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: aaf3a30be1c04d1f5f30c157b20a1f10c51170a3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783105"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145260"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Fejlfinding af selvbetjeningstilmelding
 Tilmelding til [!INCLUDE[prod_short](includes/prod_short.md)] er nemt og kan udføres hurtigt. Du kan oprette en gratis konto, selvom du en eksisterende virksomhed. Denne artikel løser problemer, der måtte opstå under tilmeldingen.
@@ -33,12 +32,12 @@ I mange tilfælde kan registrering til [!INCLUDE[prod_short](includes/prod_short
 | Private mailadresser, f.eks nancy@gmail.com, understøttes ikke. Du modtager en meddelelse som den følgende under tilmeldingen:<br /><br />**Du har indtastet en privat mailadresse: Du skal angive din arbejdsmailadresse, så vi kan opbevare virksomhedens data sikkert.**<br> eller <br> **Det ligner en privat mailadresse. Angiv din arbejdsmailadresse, så vi kan oprette forbindelse mellem dig og andre i virksomheden. Og du behøver ikke at bekymre dig. Vi dele ikke din adresse med nogen.** |[!INCLUDE[prod_short](includes/prod_short.md)] understøtter ikke mailadresser, som leveres af forbrugermailtjenester eller telekommunikationsudbydere. Prøv igen at bruge en mailadresse, der er tildelt af dit arbejde eller din skole, for at fuldføre tilmeldingen. Hvis du stadig ikke kan tilmelde dig og mener, at du kan udføre en mere avanceret opsætning, kan du registrere dig til et nyt Microsoft 365-prøveabonnement og bruge denne mailadresse til at tilmelde dig. |
 | .gov- eller .mil-mailadresser Du modtager en meddelelse som den følgende under tilmeldingen:<br /><br />**[!INCLUDE[prod_short](includes/prod_short.md)] er ikke tilgængelig: [!INCLUDE[prod_short](includes/prod_short.md)] er ikke tilgængelig for brugere med .gov eller .mil-mailadresser på nuværende tidspunkt. Brug en anden arbejdsmailadresse, eller besøg os igen senere.** <br>eller <br>**Vi kan ikke afslutte din tilmelding. Det ser ud til, at [!INCLUDE[prod_short](includes/prod_short.md)] ikke aktuelt er tilgængelig for din skole eller dit arbejde.** |[!INCLUDE[prod_short](includes/prod_short.md)] understøtter ikke .gov- eller .mil-adresser på nuværende tidspunkt. |
 | Selvbetjeningstilmelding er ikke aktiveret. Du modtager en meddelelse som den følgende under tilmeldingen:<br /><br />**Vi kan ikke afslutte din tilmelding. Din it-afdeling har deaktiveret tilmelding for projekt [!INCLUDE[prod_short](includes/prod_short.md)]. Kontakt dem for at fuldføre tilmeldingen.** <br>eller <br> **Det ligner en privat mailadresse. Angiv din arbejdsmailadresse, så vi kan oprette forbindelse mellem dig og andre i virksomheden. Og du behøver ikke at bekymre dig. Vi dele ikke din adresse med nogen.** |Virksomhedens it-administrator har deaktiveret selvbetjeningstilmelding for [!INCLUDE[prod_short](includes/prod_short.md)]. For at fuldføre tilmeldingen skal du bede it-administratoren om at følge instruktionerne på [denne side](/dynamics365/business-central/dev-itpro/developer/devenv-business-central-manage-selfservice-signups) for at tillade eksisterende brugere at tilmelde sig [!INCLUDE[prod_short](includes/prod_short.md)] og nye brugere at slutte sig til din eksisterende lejer. Problemet kan også forekomme, hvis du har tilmeldt dig Microsoft 365 via en partner. |
-| Mailadressen er ikke et Microsoft 365-id. Du modtager en meddelelse som den følgende under tilmeldingen:<br /><br />**Vi finder ikke du i contoso.com. Bruger du et andet id på arbejde eller i skolen? Prøv at logge på med det, og hvis det ikke virker, skal du kontakte it-afdelingen.** |Din organisation bruger id'er til at logge på Microsoft 365 og andre Microsoft-tjenester, der er forskellige fra din mailadresse. F.eks. kan din mailadresse være Nancy.Smith@contoso.com, men dit id er nancys@contoso.com. Brug det id, som virksomheden har tilknyttet, til at logge på Microsoft 365 eller andre Microsoft-tjenester. Hvis du ikke kender det, skal du kontakte it-administratoren. Hvis du stadig ikke kan tilmelde dig og mener, at du kan udføre en mere avanceret opsætning, kan du registrere dig til et nyt Microsoft 365-prøveabonnement og bruge denne mailadresse til at tilmelde dig. |
-| Hvis din Microsoft 365-konto er registreret i et understøttet land, og du tilmelder dig til [!INCLUDE[prod_short](includes/prod_short.md)], mens du er i et andet land, modtager du en meddelelse som følgende under tilmeldingen:<br /><br />**Det virkede ikke, vi understøtter ikke dit land eller område endnu.**| Virksomhedens Microsoft 365-abonnement er registreret til et bestemt land i Microsoft 365-administrationsportalen. Tilmeldingsoplevelsen for [!INCLUDE[prod_short](includes/prod_short.md)] bruger det sprog og den landekode, som din aktuelle webbrowser bruger, og derfor du kan få en fejlmeddelelse, selvom du befinder dig i et understøttet land. Bed administratoren om at kontrollere det land, der er angivet i organisationsprofilen i den [Microsoft 365-administrationsportalen](https://portal.office.com/adminportal/home#/companyprofile).. Du skal muligvis bruge en anden konto til [!INCLUDE[prod_short](includes/prod_short.md)].|
+| Mailadressen er ikke et Microsoft 365-id. Du modtager en meddelelse som den følgende under tilmeldingen:<br /><br />**Vi finder ikke du i contoso.com. Bruger du et andet id på arbejde eller i skolen? Prøv at logge på med det, og hvis det ikke virker, skal du kontakte it-afdelingen.** |Din organisation bruger id'er til at logge på Microsoft 365 og andre Microsoft-tjenester, der er forskellige fra din mailadresse. F.eks. kan din mailadresse være Nancy.Smith@contoso.com, men dit id er nancys@contoso.com. Brug det id, som virksomheden har tilknyttet, til at logge på Microsoft 365 eller andre Microsoft-tjenester. Hvis du ikke kender det, skal du kontakte it-administratoren. Hvis du stadig ikke kan tilmelde dig og kan udføre en mere avanceret opsætning, kan du registrere dig til et nyt Microsoft 365-prøveabonnement og bruge denne mailadresse til at tilmelde dig. |
+| Hvis din Microsoft 365-konto er registreret i et understøttet land, og du tilmelder dig til [!INCLUDE[prod_short](includes/prod_short.md)], mens du er i et andet land, modtager du en meddelelse som følgende under tilmeldingen:<br /><br />**Det virkede ikke, vi understøtter ikke dit land eller område endnu.**| Virksomhedens Microsoft 365-abonnement er registreret til et bestemt land i Microsoft 365-administrationsportalen. Tilmeldingsoplevelsen for [!INCLUDE[prod_short](includes/prod_short.md)] bruger det sprog og den landekode, som din aktuelle webbrowser bruger, og derfor du kan få en fejlmeddelelse, selvom du befinder dig i et understøttet land. Bed administratoren om at kontrollere det land, der er angivet i organisationsprofilen i den [Microsoft 365-administrationsportalen](https://portal.office.com/adminportal/home#/companyprofile). Du skal muligvis bruge en anden konto til [!INCLUDE[prod_short](includes/prod_short.md)].|
 
 ## <a name="regional-availability"></a>Tilgængelighed i område
 
-[!INCLUDE[prod_short](includes/prod_short.md)] fås i en række lande eller områder med lokalisering fra Microsoft eller en godkendt lokaliseringspartner. Du kan finde en komplet liste over de aktuelt understøttede lande og regioner under [Tilgængelighed i land/region og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
+[!INCLUDE[prod_short](includes/prod_short.md)] fås i en række lande eller områder med lokalisering fra Microsoft eller en godkendt lokaliseringspartner. Du kan finde en komplet liste over de aktuelt understøttede lande og områder under [Tilgængelighed i land/område og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
 Du kan finde en oversigt over aktuelt understøttede markeder for hele Dynamics 365 under [International tilgængelighed af Microsoft Dynamics 365](/dynamics365/get-started/availability). Du kan finde en oversigt over lokal funktionalitet i [!INCLUDE[prod_short](includes/prod_short.md)] på startsiden [Lokal funktionalitet](about-localization.md).  
 
@@ -47,7 +46,7 @@ Du kan finde en oversigt over aktuelt understøttede markeder for hele Dynamics 
 [Velkommen til [!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Lokal funktionalitet](about-localization.md)  
-[Tilgængelighed i land/region og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
+[Tilgængelighed i land/område og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [International tilgængelighed af Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 
 

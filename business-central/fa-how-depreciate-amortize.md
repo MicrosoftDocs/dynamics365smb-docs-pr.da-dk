@@ -2,7 +2,6 @@
 title: Afskrive eller amortisere anlægsaktiver
 description: Du skal definere, hvordan du vil nedskrive, afskrive eller amortisere hvert af dine anlæg, f. eks. maskiner og udstyr, over deres afskrivningslevetid.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: write down
 ms.search.form: 5610, 5611, 5659, 5660, 5663, 5619, 5666
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 54470439a7376f2bb3d22b357d9b5397588190a5
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 5381a1a70e5d1e86576378c8f18ebf90724241f9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029348"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145780"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Afskrive på eller amortisere anlægsaktiver
 Afskrivning bruges til at allokere prisen for et anlægsaktiv, f.eks. maskiner og udstyr, over anlæggets afskrivningslevetid. For hvert anlæg skal du definere, hvordan det skal afskrives.  

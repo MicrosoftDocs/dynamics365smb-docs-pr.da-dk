@@ -2,7 +2,6 @@
 title: Bruge Business Central uden Outlook
 description: Hvis du ikke har Outlook, kan du ikke bruge Business Central som din virksomhedsindbakke i Outlook, men du kan arbejde i en browser eller på mobilenheden.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,15 +9,15 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4597b59c846ef7016bff26b1c14901ac17a2fb5d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 79a02ba516c1359863ac552e66fce03287519a65
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5777462"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144072"
 ---
 # <a name="using-business-central-without-outlook"></a>Bruge Business Central uden Outlook
-[!INCLUDE[prod_short](includes/prod_short.md)] er tæt integreret med Microsoft 365, og du kan bruge [!INCLUDE[prod_short](includes/prod_short.md)] som din virksomheds indbakke i Outlook. Men hvis du ikke har Outlook, kan du arbejde med [!INCLUDE[prod_short](includes/prod_short.md)] i webbrowseren eller på mobilenheden.  
+[!INCLUDE[prod_short](includes/prod_short.md)] er tæt integreret med Microsoft 365, og du kan bruge [!INCLUDE[prod_short](includes/prod_short.md)] som din virksomhedsindbakke i Outlook. Men hvis du ikke har Outlook, kan du arbejde med [!INCLUDE[prod_short](includes/prod_short.md)] i webbrowseren eller på mobilenheden.  
 
 ## <a name="sending-email"></a>Sende mail
 Du kan sende dokumenter som f.eks. fakturaer som mail ved hjælp af din virksomheds mailadresse. Du kan åbne en assisteret opsætningsvejledning, som hjælper dig med at konfigurere mail fra dit rollecenter. Hvis du ikke bruger en Microsoft 365-mailkonto, skal du angive tekniske oplysninger om din mailserver. Hvis du ikke har disse oplysninger, skal du kontakte en it-supportmedarbejder.  

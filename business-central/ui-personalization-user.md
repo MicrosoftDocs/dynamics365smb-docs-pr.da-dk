@@ -2,20 +2,20 @@
 title: Personlige sider (indeholder video)
 description: Få at vide, hvordan du kan tilpasse brugergrænsefladen og tilpasser dit arbejdsområde, så det passer til din måde at arbejde på i Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: cd25d18787f8f28b01974e59580f7e83425e54bf
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 95ed69baac51d4c343c639e8ddcea2db29520340
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940272"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334654"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse dit arbejdsområde
 Du kan tilpasse dit arbejdsområde, så det passer til dit arbejde og dine præferencer ved at ændre sidernes layout, så de kun viser de oplysninger, du har brug for, hvor du har brug for det. De tilpasningsændringer, du foretager, påvirker kun det, du ser, ikke hvad andre brugere ser.

@@ -2,7 +2,6 @@
 title: 'Fremgangsmåde: Finde dine lageropgaver'
 description: Dette emne beskriver, hvordan du finder de lager tildelinger, du har fået tildelt på varekortet, når du har oprettet instruktionerne.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6c861ed1f068d6381d99ef0761244befd08ba43a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5fe603b5cb2499c4b74e29725ee1747219d37e27
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444126"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141973"
 ---
 # <a name="find-your-warehouse-assignments"></a>Finde dine lageropgaver
 Hvis du vil finde dine lageropgaver, skal du åbne kortsiden til en markeret vare. Hvis der er oprettet lagerinstruktioner, vises der Hent- og Placer-linjer, og du kan starte på en opgave. Der kan også være tildelt særlige instruktioner til hver lagermedarbejder af en overordnet leder. Du kan finde flere oplysninger i [Definere lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md).

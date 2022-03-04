@@ -2,7 +2,6 @@
 title: Oversigt over de opgaver, der afslutter regnskaberne
 description: Få mere at vide om processen med at afslutte regnskaberne for et regnskabsår eller en -periode, og hvad der sker, når du lukker ved årets afslutning.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 224d1886987184e6ebdb3cc1434c64454d383678
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 242868f88883c6e62a9b43ca949289deb0cdf2fe
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011331"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142746"
 ---
 # <a name="closing-the-books"></a>Afslutte regnskaberne
 Når du har kontrolleret, at alle dine konti er opdaterede, og når du har allokeret omkostninger og indtægter, så kan du afslutte regnskabet for et regnskabsår eller en regnskabsperiode.

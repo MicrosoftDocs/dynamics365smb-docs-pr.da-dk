@@ -2,7 +2,6 @@
 title: Overføre bankbeløb
 description: Du kan overføre beløb fra én bankkonto til en anden, herunder forskellige valutaer, ved at bogføre transaktionen i finanskladden.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: bank account transfer, multiple currencies
 ms.search.form: 39
 ms.date: 04/29/2021
 ms.author: edupont
-ms.openlocfilehash: 1bc84acfd13011a343c2c745d154c83912eade08
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 8716aeaa83ac9304e142af1603efef47c8044918
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971401"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148706"
 ---
 # <a name="transfer-bank-funds"></a>Overføre bankbeløb
 

@@ -2,7 +2,6 @@
 title: Foretage betalinger med AMC Banking (USA) eller SEPA Credit Transfer (EU)
 description: Du kan behandle betalinger til dine kreditorer ved at eksportere en fil (EFT) sammen med betalingsoplysningerne fra kladdelinjerne.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
 ms.date: 07/06/2021
 ms.author: bholtorf
-ms.openlocfilehash: f26e06487925891e01544d107ee80a6c36426ce7
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: 62599711c6a714223457e7fa1545259a3082b0ea
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953080"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147670"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Foretage betalinger med AMC Banking 365 Fundamentals-udvidelsen eller SEPA-kreditoverførsel
 

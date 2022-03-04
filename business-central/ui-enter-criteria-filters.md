@@ -1,21 +1,21 @@
 ---
-title: Sortering af, søgning i og filtrering af lister | Microsoft Docs
+title: Sortering af, søgning i og filtrering af lister
 description: Arbejd effektivt på lister ved at søge på tværs af dine data, sorterer kolonner og præcisere resultater ved at bruge effektive filtersymboler og tastaturgenveje.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 682b7dd383d2bd90a0364fbef831ee2768c3c85f
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: 9f5eda0056c4c449a46f9f04064c3f2764087007
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440587"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335003"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortering, søgning og filtrering
 

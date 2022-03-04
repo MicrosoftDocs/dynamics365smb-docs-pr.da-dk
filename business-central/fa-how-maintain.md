@@ -2,7 +2,6 @@
 title: Vedligeholde anlægsaktiver
 description: Du fører en vedligeholdelsespost for reparation og service på et anlægsaktiv for at bevare anlægsaktivets værdi.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: repair, service
 ms.search.form: 5642, 5625
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: d0c2a5a4ed0241a16c0cb0fc91ad5c9ca2592d2a
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: bc98fa2bc07320a4989ceca36a09a4cad3cd82ce
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029558"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147916"
 ---
 # <a name="maintain-fixed-assets"></a>Vedligeholde anlægsaktiver
 Reparationsudgifter er periodisk forekommende rutineomkostninger, der afholdes for at bevare anlægsaktivernes værdi. I modsætning til kapitalforbedringer forøges deres værdi ikke.

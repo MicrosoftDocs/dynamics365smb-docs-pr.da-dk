@@ -2,18 +2,17 @@
 title: Svare på anmodninger om personlige oplysninger
 description: Dette emne viser, hvordan du kan svare på anmodninger om personoplysninger. Dette kaldes en dataemneanmodning.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
 ms.date: 06/14/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: 77b1470ee7df736815451c03e4afbf684803aea4
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0d1ead6fc36df5b06f9ab995bbc30ce04d24c622
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321958"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148846"
 ---
 # <a name="responding-to-requests-about-users-personal-data"></a>Svare på anmodninger om brugerens personlige oplysninger  
 Dataemner kan anmode om flere typer handlinger vedrørende deres personlige oplysninger. I henhold til den generelle forordning om databeskyttelse (GDPR) f.eks. har indbyggere i EU-lande ret til at anmode om eksport, sletning og ændring af deres personlige data. Dette kaldes en *Dataemneanmodning*. Hvis du har klassificeret følsomheden af dine data og er sikker på, at de er korrekte, kan en administrator reagere på anmodninger ved hjælp af indstillingerne under fanen **Beskyttelse af personlige oplysninger** i rollecenteret **It-chef**. Du kan finde flere oplysninger om at klassificere data og klassificere datafølsomheden i [!INCLUDE[prod_long](includes/prod_long.md)] under [Klassificering af data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Klassificere datafølsomhed](admin-classifying-data-sensitivity.md).  
@@ -35,7 +34,7 @@ Nedenstående tabel indeholder eksempler på typerne af anmodninger, som du kan 
 Et dataemne kan anmode om, at du midlertidigt stopper behandlingen af deres personlige oplysninger. Du kan imødekomme sådanne anmodninger ved at markere posten som spærret på grund af beskyttelse af personlige oplysninger, så behandlingen af deres data stoppes. Når en post er markeret som spærret, kan du ikke oprette nye posteringer, der bruger denne post. Du kan f.eks. ikke du oprette en ny faktura for en debitor, når enten kunden eller sælgeren er blokeret. Åbn kortet for et dataemne, f.eks. kortene Debitor, Leverandør eller Kontakt, hvis du vil markere et dataemne som spærret, og markér afkrydsningsfeltet **Beskyttelse af personlige oplysninger spærret**. Du skal måske vælge **Vis mere** for at få vist feltet.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Håndtering af dataemneanmodninger i prøveversion
-Bestemte typer personlige oplysninger er en del af din Microsoft 365-konto, og det kræver administratorrettigheder til at eksportere dem, hvis du modtager en dataemneanmodning fra en bruger om denne type personlige data i henhold til den generelle forordning om databeskyttelse (GDPR). Processen til håndtering af dataemneanmodninger er forskellige afhængigt af [!INCLUDE[prod_short](includes/prod_short.md)]-lejertypen.  
+Bestemte typer personlige oplysninger er en del af din Microsoft 365-konto, og det kræver administratorrettigheder til at eksportere dem, hvis du modtager en dataemneanmodning fra en bruger om denne type personlige data i henhold til generel forordning om databeskyttelse (GDPR). Processen til håndtering af dataemneanmodninger er forskellige afhængigt af [!INCLUDE[prod_short](includes/prod_short.md)]-lejertypen.  
 
 Hvis du har et betalt abonnement på [!INCLUDE[prod_short](includes/prod_short.md)], skal du kontakte organisationens lejeradministrator for at sende en dataemneanmodning. Administratoren har administratorrettigheder og -værktøjer til at imødekomme anmodningen.  
 
