@@ -1,20 +1,19 @@
 ---
 author: edupont04
-ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 09/02/2021
+ms.date: 02/15/2022
 ms.author: edupont
-ms.openlocfilehash: 5bb0e2d4ec0dfe20ecb6668a6d01ba4e8a174b8e
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: c947d843a17c46323febee83a01c80a574982bbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482293"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142493"
 ---
 > [!NOTE]
 > I følgende afsnit antages det, at du har administratoradgang til Exchange Online.
 
-Før du kan konfigurere maillogføring, skal du forberede Office 365 [offentlige mapper](/exchange/collaboration-exo/public-folders/public-folders?preserve-view=true). Det kan du gøre i [Exchange-administrationen](/exchange/exchange-admin-center?preserve-view=true), eller du kan bruge [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true).
+Før du kan konfigurere maillogføring, skal du forberede Office 365 [offentlige mapper](/exchange/collaboration-exo/public-folders/public-folders). Det kan du gøre i [Exchange-administrationen](/exchange/exchange-admin-center?preserve-view=true), eller du kan bruge [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true).
 
 > [!TIP]
 > Hvis du vil bruge [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true), kan du finde inspiration til, hvordan du opretter et script i et eksempelscript, som vi har publiceret i [BCTech repo](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).
@@ -31,7 +30,7 @@ Opret en administratorrollegruppe til offentlige mapper på grundlag af oplysnin
 |Valgte roller  |Offentlige mapper            |
 |Markerede brugere  |Mailen til den brugerkonto, som Business Central bruger til at køre maillogføringsopgaven|
 
-Du kan finde flere oplysninger i [Administrere rollegrupper i Exchange Online](/exchange/permissions-exo/role-groups?preserve-view=true).
+Du kan finde flere oplysninger i [Administrere rollegrupper i Exchange Online](/exchange/permissions-exo/role-groups).
 
 ### <a name="create-a-new-public-folder-mailbox"></a>Opret en ny postkasse til offentlige mapper
 
@@ -41,7 +40,7 @@ Opret en ny offentlig mappe som postkasse på grundlag af oplysningerne i følge
 |----------------|--------------------------|
 |Navn            |Offentlig postkasse            |
 
-Du kan finde flere oplysninger i [Oprette en postkasse til offentlig mapper](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox?preserve-view=true).
+Du kan finde flere oplysninger i [Oprette en postkasse til offentlig mapper](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
 ### <a name="create-new-public-folders"></a>Oprette nye offentlige mapper
 
@@ -51,7 +50,7 @@ Du kan finde flere oplysninger i [Oprette en postkasse til offentlig mapper](/ex
     - `\Email Logging\Queue\`
     - `\Email Logging\Storage\`
 
-Du kan finde flere oplysninger i [Oprette en offentlig mappe](/exchange/collaboration-exo/public-folders/create-public-folder?preserve-view=true).
+Du kan finde flere oplysninger i [Oprette en offentlig mappe](/exchange/collaboration-exo/public-folders/create-public-folder).
 
 ### <a name="set-public-folder-ownership"></a>Angiv ejerskabet af mappen Delte
 
@@ -61,7 +60,7 @@ Du kan finde flere oplysninger i [Tildele den offentlige mappe tilladelser](/exc
 
 ### <a name="mail-enable-the-queue-public-folder"></a>Aktiver den offentlige mappe *Kø* til mail
 
-  Du kan finde flere oplysninger i [Aktivere eller deaktivere en offentlig mappe til mail](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder?preserve-view=true).
+  Du kan finde flere oplysninger i [Aktivere eller deaktivere en offentlig mappe til mail](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
 ### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>E-mail-Aktivér afsendelse af e-mails til den offentlige mappe *Kø*
 

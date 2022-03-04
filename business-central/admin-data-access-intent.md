@@ -2,7 +2,6 @@
 title: Administration af formål med adgang til databaser i Business Central
 description: Ændring af formålet til adgang til databaser for rapporter, API-sider og forespørgsler.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 9880
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: f1f77c4c1506db6d4f90d5d13f7c22ca54f44eac
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 66473480ac2db86bc35adc7e60d7fcd2cafc7212
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011200"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142519"
 ---
 # <a name="managing-database-access-intent"></a>Administration af formål med adgang til database
 

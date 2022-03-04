@@ -2,17 +2,16 @@
 title: Afregne købsfakturaer omgående
 description: Hvis det er nødvendigt at betale kreditoren kontant eller med check, kan du få ordnet bogføringen, når du bogfører fakturaen.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.form: 51, 9308
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: af1dea2cf7ac387f2e0dfa9c2965156768facc3a
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: f44aa85b0a9990038df3cf49b1ba0f24e24df354
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973410"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141197"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Afregne købsfakturaer omgående
 
