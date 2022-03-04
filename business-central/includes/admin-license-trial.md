@@ -1,14 +1,13 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 09/07/2021
 ms.author: edupont
-ms.openlocfilehash: 584a6136e80783d88aa864d75a3bde31cc1acb7f
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: 78f93e9c38eeb11b75841eb4129779816e71aade
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482499"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130926"
 ---
 Hvis du vil begynde at bruge [!INCLUDE [prod_short](../includes/prod_short.md)] for at køre din virksomhed, skal du købe en licens. Administratoren kan derefter tildele licensen til brugerne. Hvis du vil konvertere et 30-dages prøvefirma til din faktiske produktionsvirksomhed, opfordrer vi imidlertid alle anvendelser til at logge af [!INCLUDE [prod_short](../includes/prod_short.md)]. Når først en administrator har tildelt licensen til din konto, skal den første bruger, der logger på [!INCLUDE [prod_short](../includes/prod_short.md)], være en bruger med denne licens tildelt. På den måde forsvinder den 30-dages prøveperiode og eventuelle prøve relaterede beskeder, så brugerne kan bruge [!INCLUDE [prod_short](../includes/prod_short.md)] til at udføre arbejde.

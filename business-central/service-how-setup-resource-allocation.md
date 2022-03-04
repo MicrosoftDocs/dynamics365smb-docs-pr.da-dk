@@ -2,7 +2,6 @@
 title: Konfigurere ressourceallokering | Microsoft Docs
 description: Få at vide, hvordan systemet kan hjælpe med at sikre, at den person, du tildeler en serviceydelse, har de nødvendige kvalifikationer til at udføre ydelsen.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 048372c75affe83f50d8fd84359d481fb64835fa
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a1455e315cf575d7ac7549113770d5cafa5012c8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436622"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139309"
 ---
 # <a name="set-up-resource-allocation"></a>Opsætte ressourceallokering
 Det er vigtigt at finde en ressource, der er kvalificeret til at udføre arbejdet, for at sikre, at en serviceopgave udføres korrekt. Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)], så det er nemt at allokere en person, der har de korrekte kvalifikationer til sagen. I [!INCLUDE[prod_short](includes/prod_short.md)] kalder vi det _ressourceallokering_. Du kan allokere ressourcer, alt efter deres færdigheder og tilgængelighed, eller om de er i samme servicezone som kunden. 

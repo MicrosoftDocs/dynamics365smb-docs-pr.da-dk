@@ -2,7 +2,6 @@
 title: Oversigt over dimensionsgruppeposter
 description: Denne artikel giver dig et overblik over, hvordan poster i dimensionsopsætning gemmes som dimensions opsætnings poster, og hvordan de bogføres.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: dimension
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 8196cf08b5e4bf410d9682a30e714cb8c4522e17
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 0585c4d266bed92ffb113701650bef5069109fc8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011675"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132025"
 ---
 # <a name="dimension-set-entries-overview"></a>Oversigt over dimensionsgruppeposter
 Dette emne beskriver, hvordan dimensionsgruppeposter gemmes og bogføres i [!INCLUDE[prod_short](includes/prod_short.md)].  

@@ -4,7 +4,6 @@ description: Beskriver opgaver, der indgår i opfyldelse af servicekontrakter me
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: contract, agreement, configure
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 56fe45da5979f6f06fc17d68b676350a70288261
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 0290246fa9fa648a9d0ff4ede4c71464b3208017
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011694"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140601"
 ---
 # <a name="fulfilling-service-contracts"></a>Opfylde servicekontrakter 
 En måde at konfigurere en servicestyringsforretning på er at lade aftalerne mellem virksomheden og kunderne være baseret på standardkontrakter, hvor niveauet for og forventningerne til servicen beskrives. Du kan oprette kontraktskabeloner, der indeholder de nødvendige oplysninger, f.eks. kunde, kontraktens startdato og faktureringsperiode.  

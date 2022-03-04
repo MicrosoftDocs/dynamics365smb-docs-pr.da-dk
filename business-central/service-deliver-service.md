@@ -4,7 +4,6 @@ description: Beskriver opgaver, hvor du kan sikre, at du leverer kvalitetsservic
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8a0e8225d69d04ce82d0e0243f3e98207c892175
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: ae2dd8a55c030d06e839a97f482adf1c548d6dbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011967"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128474"
 ---
 # <a name="delivering-service"></a>Levering af service
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder funktioner, der kan hjælpe dig med at levere service i henhold til de kontrakter, der er oprettet, og de serviceordrer, virksomheden har forpligtet sig til at opfylde. Virksomhedens serviceteknikere eller serviceekspedient vil se, at udestående serviceordrer er lette at finde, når de bruger **Ordreoversigt**. **Ordreoversigten** giver et samlet overblik over, hvilke ordrer der er igangsat, og hvilke ordrer der er fuldført.  

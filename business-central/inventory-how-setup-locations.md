@@ -2,7 +2,6 @@
 title: Oprette et lokationskort og definere overflytningsruter (indeholder video)
 description: Hvis du køber, gemme eller sælger varer i mere end ét område eller lagersted, skal du oprette hver lokation med et lokationskort og definere overflytningsruter.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2482b25e6b8e29e5cff420db1700943ca4f1df51
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 0a2d5234a78daf6243591cc478ab7b19957a196a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060086"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130318"
 ---
 # <a name="set-up-locations"></a>Opsætte lokationer
 

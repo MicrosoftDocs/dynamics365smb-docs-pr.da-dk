@@ -2,7 +2,6 @@
 title: Momsindberetning [DK]
 description: Du kan oprette de nødvendige momsopgørelser for vare-eller tjeneste filer ved hjælp af kørslen Moms-listeangivelse disk.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: bb0f874e12fc6a5100167a5185ab5ff39c999f16
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b2545e202d292d9661ddc1161476220d833a1d9c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325125"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129366"
 ---
 # <a name="vat-vies-reporting-in-the-danish-version"></a>Momslisterapportering i den danske version
 Danske virksomheder skal angive moms af handel med varer eller tjenesteydelser med andre EU-lande/områder. Du kan oprette den ønskede fil ved hjælp af kørslen **Moms - listeangivelse disk**.  

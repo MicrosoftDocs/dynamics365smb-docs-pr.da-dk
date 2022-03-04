@@ -2,7 +2,6 @@
 title: Overvåge ændringer
 description: Du kan aktivere en brugerlog for at få en oversigt over ændringer af data i registrerede tabeller. Du kan også spore aktiviteter med bestemte typer aktivitetslogge.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: user log, user activity, tracking
 ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2101a37c62b232e72cf5e773aeb0b2e6d6709927
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: c04be33b2c84cd89872765a3781ad2c553ced442
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011066"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138774"
 ---
 # <a name="auditing-changes-in-business-central"></a>Ændringer af revision i Business Central
 

@@ -2,7 +2,6 @@
 title: Sådan oprettes tilbud på montage til ordre-salg | Microsoft Docs
 description: Du kan bruge montagestyring til at tilpasse et montageelement på anmodning af en debitor under salgsprocessen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cd85a880bada8cc9e3ee2ce924919f06f0c5109c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 86cc9dcb66377deabdae9cc3d44c0c090fccc9f9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435433"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133066"
 ---
 # <a name="quote-an-assemble-to-order-sale"></a>Oprette tilbud på montage til ordre-salg
 Du kan bruge montagestyring til at tilpasse et montageelement på anmodning af en debitor under salgsprocessen. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md).  

@@ -2,7 +2,6 @@
 title: Anvend varereferencer
 description: Oprette referencer mellem beskrivelser, måleenheder og varianter, som du og din leverandør eller kunde bruger for en vare.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: item reference, cross reference, inventory
 ms.search.forms: 5737, 5735, 5736
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: c649b444b0ebec908aa115261569a693f1ef0ce4
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: a53ce228f1edc337b8f3fb004984f80f6db5dec8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060244"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135311"
 ---
 # <a name="use-item-references"></a>Anvend varereferencer
 

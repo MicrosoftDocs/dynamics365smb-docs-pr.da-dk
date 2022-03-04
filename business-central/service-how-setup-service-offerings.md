@@ -2,7 +2,6 @@
 title: Opsætte servicetilbud
 description: Når du konfigurerer service, skal du beslutte, hvilke serviceydelser du vil tilbyde kunderne, og fastlægge en plan for disse serviceydelser.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: components, service item, service
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: a3a61ba65136aa15836039ac54057eefff37f29d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 8d031b444233085a67279c6f2cc39d4f459bac96
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323881"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136900"
 ---
 # <a name="set-up-service-offerings"></a>Opsætte servicetilbud
 Når du konfigurerer service, skal du beslutte, hvilke serviceydelser du vil tilbyde kunderne, og fastlægge en plan for disse serviceydelser. En service er en type arbejde, der udføres af en eller flere ressourcer og ydes til en kunde. En service kan f.eks. være en type computerreparation. En serviceartikel er det udstyr eller den artikel, der kræver service, f.eks. den computer, der skal repareres, og som er installeret hos en bestemt kunde. Du kan konfigurere serviceydelser som en del af en gruppe af relaterede reparations- eller vedligeholdelsesydelser.  

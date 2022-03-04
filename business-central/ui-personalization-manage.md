@@ -2,18 +2,17 @@
 title: Tilpasse sider til roller
 description: Få mere at vide om, hvordan du tilpasser brugergrænsefladen for en profil (rolle), så alle brugere, der har fået tildelt denne rolle, kan se et tilpasset arbejdsområde.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
 ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 370429bfbcc1d93c7cce8d40cf844eb021109e39
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 47bc68e6d4354d2dd30b01571b2448f80dab3bec
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101025"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129782"
 ---
 # <a name="customize-pages-for-profiles"></a>Tilpasse sider til profiler
 Brugerne kan tilpasse de sider, som udgør deres arbejdsområde, så de passer til deres egne præferencer. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).

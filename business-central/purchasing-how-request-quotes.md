@@ -2,7 +2,6 @@
 title: Oprette en købsrekvisition for at få et tilbud
 description: Beskriver, hvordan du opretter et salgstilbuds- eller tilbudsanmodningsdokument for at registrere dit tilbud til en kunde om at sælge produkter i henhold til bestemte betingelser.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: rfq
 ms.search.form: 49, 97, 9306, 9346
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 4608b9e3cace8445a1a4a364106c830fdfda301f
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: b3a44d2760760d3456c21da8ae693f4736f06e78
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953330"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137285"
 ---
 # <a name="request-quotes"></a>Anmode om tilbud
 

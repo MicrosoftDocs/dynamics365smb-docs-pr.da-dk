@@ -2,7 +2,6 @@
 title: Salg, hurtig start (indeholder video)
 description: Få mere at vide om, hvordan du udfylder de første kritiske felter om produkter og debitorer i Business central, så du kan begynde at salgsprocessen.
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 9641d87dadc3b33683d1bab0bdc70d0b36b4d1ae
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: b607da4fbf5ab99eb8a3af1e939fe915151e00b0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940847"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135602"
 ---
 # <a name="sales-quick-start"></a>Salg, Hurtig start
 

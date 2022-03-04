@@ -2,7 +2,6 @@
 title: Slet omkostningsbudgetposter
 description: Du kan bruge kørslen Slet omkostningsbudgetposter til at annullere omkostningsbudgetposter fra omkostningsbudgetregistret.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 09d9d378d02ca11d09739f49e12499acf484bcb8
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 1d6d920e4259752a25dd73c4b10a84e09334f78e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971025"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138013"
 ---
 # <a name="delete-cost-budget-entries"></a>Slet omkostningsbudgetposter
 

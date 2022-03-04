@@ -2,7 +2,6 @@
 title: 'Sådan gør du: Oprette udlånsvarer | Microsoft Docs'
 description: Du kan definere udlånsvarer, som du kan låne ud til kunderne som erstatning for de serviceartikler, der er til reparation.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c1fd69db741a932bd4088362e58f2963b9cbf134
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 252696484a8c7d90bac90628cf74896240889ba9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440099"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132624"
 ---
 # <a name="set-up-a-loaner-program"></a>Oprette et udlånsprogram
 Nogle gange er det nødvendigt at tilbyde kunden en lånevare, som kunden kan bruge, mens kundeserviceteamet udfører reparationen. I [!INCLUDE[prod_short](includes/prod_short.md)] Kan du konfigurere et udlånsprogram, udlåne varer til dine kunder og spore modtagelser, når kunderne returnerer varerne. Desuden kan du tilføje bemærkninger om udlånsvarer på én af to måder:  

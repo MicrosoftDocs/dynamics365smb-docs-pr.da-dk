@@ -2,7 +2,6 @@
 title: Opsætte fejlrapportering i Service Management
 description: Med Fejlrapportering kan du angive standarder for registrering af oplysninger om fejl på serviceartikler med fejlkoder osv.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b3563d840976b6a3c586e5a75a2f76379e8c5526
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0a9ed0fc94b2f4e6c509abcf1143b6eab5921de6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440124"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139361"
 ---
 # <a name="set-up-fault-reporting"></a>Konfigurere fejlrapportering
 Med Fejlrapportering kan du angive standarder for registrering af oplysninger om fejl på serviceartikler. F.eks. kan du angive, hvad problemet er, de symptomer, du ser, årsagen til problemet, og hvordan det løses.  

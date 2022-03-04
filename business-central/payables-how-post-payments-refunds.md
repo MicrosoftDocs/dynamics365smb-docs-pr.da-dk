@@ -2,7 +2,6 @@
 title: Registrere indbetalinger og refusioner i udbetalingskladden
 description: Læs om, hvordan du kan registrere på siden Udbetalingskladde de betalinger, du foretager til debitorer, på udbetalingskladdesiden.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: payment journal, print check, vendor payment, customer refun
 ms.search.form: 256, 251, 233, 624, 1228
 ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: 455effc666b6acddb06eb3e8cb49a2c47fabfddf
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: b45d9b58276c52204b6ae83b3a0d78af7e48fc30
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953205"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135129"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrere indbetalinger og refusioner i udbetalingskladden
 

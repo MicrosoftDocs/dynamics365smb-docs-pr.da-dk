@@ -2,7 +2,6 @@
 title: Arbejde med rammesalgsordrer eller købsordrer
 description: Rammeordrer bruges typisk, når en kunde har indvilliget i at købe et stort antal varer, der skal leveres i flere mindre portioner i løbet af en bestemt periode. Det samme gælder indkøb.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4299924a1845245eb8b73192bb14232bad25d80b
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: 29f4c7286547dcde0332fa587245da47aa2f503c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752576"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128604"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbejde med rammesalgsordrer eller rammekøbsordrer
 

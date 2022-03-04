@@ -2,19 +2,18 @@
 title: Velkommen Microsoft Dynamics 365 Business Central
 description: Få mere at vide om egenskaber og arbejdsscenarier i Business Central, som kan hjælpe virksomheder med at styre deres virksomhed, herunder finansiering, produktion, salg, levering, projektstyring, Services og meget mere.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 91faf4a1adeb6b53ffd8dbca81d8ef72df90b97e
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: 95f54be520c439984343fbe9413570dc18097db9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724833"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138488"
 ---
 # <a name="welcome-to-prod_long"></a>Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]
 

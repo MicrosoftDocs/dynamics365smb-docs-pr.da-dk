@@ -4,7 +4,6 @@ description: Beskriver, hvordan du kan oprette leads fra en sælger eller kontak
 services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 68074c38203f987ed4ff48d9c14ad4a25891e8ba
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 174840f390145724181c37c60f040dce75232e91
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437262"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135850"
 ---
 # <a name="create-sales-opportunities"></a>Oprette salgsleads
 Du kan oprette leads for de salgslaeds du har for dine kontakter. Alle leads skal knyttes til en sælger eller indkøber og skal have en kontakt.

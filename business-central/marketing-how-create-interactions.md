@@ -3,7 +3,6 @@ title: Oprette interaktioner for kontakter og målgrupper
 description: Beskriver, hvordan du kan oprette interaktioner for kommunikation, som du har med kontakter og målgrupper i Business Central, f.eks. direct mail.
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5077, 5078, 5074, 5076, 5186, 5075, 5079
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 73e8b515b62ac1334b6c156ff4330fc46b7a7414
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 273df19ec77f54e923b552b75986237635c40600
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059800"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131428"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Oprette interaktioner for kontakter og målgrupper
 Du kan oprette interaktioner for at registrere al interaktion og kommunikation, som du har med kontakter og målgrupper, f.eks. direct mail.

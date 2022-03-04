@@ -2,7 +2,6 @@
 title: Oprette bedste fremgangsmåder - Planlægningsparametre
 description: I dette emne beskrives de bedste fremgangsmåder for, hvordan du konfigurerer udvalgte felter med planlægningsparametre med oversigtspanelet Planlægning på varekortet.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 72d6f07ca98fad0bed123c648025665add723c23
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b491a986e3936389fa228fdb1bfc000627368b82
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320052"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129984"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Oprette bedste fremgangsmåder: Planlægningsparametre
 Oversigtspanelet **Planlægning** på varekortet er midtpunktet i en virksomheds forsyningskæde. Det er meget vigtigt at angive de korrekte planlægningsparametre til omkostningseffektiv lagerstyring og høj kundeservice.  

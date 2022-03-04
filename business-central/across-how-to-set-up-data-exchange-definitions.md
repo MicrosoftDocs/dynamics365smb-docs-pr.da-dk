@@ -2,7 +2,6 @@
 title: Definere, hvordan data udveksles elektronisk | Microsoft Docs
 description: Du kan bruge en ekstern udbyder af OCR-tjenester til at omdanne PDF- eller billedfiler til elektroniske dokumenter.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 58e98a2fa3e7a0d61ad6dc49ac2291a21105ddcb
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ba59e1164dbbe4cdd95cca31687b63db2af8018c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774682"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129229"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Konfigurere dataudvekslingsdefinitioner
 Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til at udveksle data i bestemte tabeller med data i eksterne filer, f.eks. at sende og modtage elektroniske dokumenter, importere og eksportere bankoplysninger eller andre data, f.eks. løn, valutakurser og varekataloger. Du kan finde flere oplysninger i [Udveksle data elektronisk](across-data-exchange.md).  

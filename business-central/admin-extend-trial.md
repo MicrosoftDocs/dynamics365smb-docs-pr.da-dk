@@ -2,7 +2,6 @@
 title: Udvid din prøveversion af Business Central
 description: Hvis du har brug for mere tid til at afgøre, om du vil oprette et abonnement på Dynamics 365 Business Central, kan du udvide din prøveperiode en gang. Få mere at vide om dine muligheder.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0843dee0e0ac392f138bfa7632635dff8d6411ce
-ms.sourcegitcommit: 1aab52477956bf1aa7376fc7fb984644bc398c61
+ms.openlocfilehash: 571b71ed67a14151d668fa6e1b37a837a989a693
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6184270"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129103"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Har du brug for mere tid til at beslutte, om du vil oprette et abonnement?
 
@@ -29,7 +28,7 @@ Hvis du udvider prøveperioden selv, er det en éngangsforteelse. Du kan ikke ud
 
     Log på med den mailkonto, som du brugte, da du tilmeldte dig prøveversionen.  
 
-    Hvis du har tilmeldt dig med en e-mailkonto fra en [30-dages prøveversion af Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial), skal du først forlænge din Microsoft 365-prøveperiode eller købe et Microsoft 365-abonnement. Du kan få flere oplysninger i [Forlæng din prøveperiode til Microsoft 365 for business](/microsoft-365/commerce/extend-your-trial).
+    Hvis du har tilmeldt dig med en e-mailkonto fra en [30-dages prøveversion af Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial), skal du først forlænge din Microsoft 365-prøveperiode eller købe et Microsoft 365-abonnement. Du kan få flere oplysninger [i Forlæng din prøveperiode til Microsoft 365 for business](/microsoft-365/commerce/extend-your-trial).
 2. Vælg **Udvid prøveversion** i meddelelsen øverst i arbejdsområdet.
 
     Hvis du har afvist notifikationen, skal du logge ud og derefter logge ind igen.

@@ -2,7 +2,6 @@
 title: Angive, hvornår og hvordan arbejdsgangsnotifikationer modtages
 description: Når du konfigurerer brugere i godkendelsesarbejdsgange, kan du angive, hvordan og hvornår hver godkendelsesbruger modtager beskeder.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 6812fa270066b03fa64a7d8c664ef4df8d28eff0
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: 3f663ca22cdcfde38b42ac0285eaf403a9e0982d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102495"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129100"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Angive, hvornår og hvordan arbejdsgangsnotifikationer modtages
 Når du opretter godkendelses brugere i arbejdsprocesser, hvor du vil have, at en anden bruger skal kunne godkende ændringer, f. eks. når der oprettes nye poster, eller når en bruger anmoder om godkendelse, skal du angive, hvordan og hvornår godkendelsesbrugeren skal have besked. Du kan f. eks. angive, at en godkendelsesbruger straks skal modtage en e-mail, når nogen opretter en ny kunde. Du kan også vælge at planlægge, at notifikationer skal leveres, f. eks. en gang om måneden.

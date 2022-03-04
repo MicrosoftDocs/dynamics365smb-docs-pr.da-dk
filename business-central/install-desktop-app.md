@@ -2,7 +2,6 @@
 title: Hent Business Central til din computer
 description: Denne artikel beskriver, hvordan du får fat i Business central-appen på en Windows-eller MACiOS stationær pc.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: 6372d08aef8dfaca6044101a17eea40d89d82722
-ms.sourcegitcommit: 9244ec802d68a7d90b13678ec3dfab5abb79c734
+ms.openlocfilehash: fe612bb6366647ca031b38122de30fc96cc66853
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8050901"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130458"
 ---
 # <a name="get-business-central-desktop-app"></a>Hent Business Central Desktop-app
 

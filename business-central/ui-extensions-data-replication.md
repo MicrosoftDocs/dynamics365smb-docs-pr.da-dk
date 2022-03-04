@@ -2,7 +2,6 @@
 title: Udvidelser af skymigrering
 description: Brug skymigreringsudvidelserne til at flytte lokale data til Business Central online. Disse udvidelser flytter dataene til den lokale computer til skyen.
 author: jenolson
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.reviewer: edupont
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: f76241497eea8a53dfc054c895bf4a788e2226a4
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 5c18605da5ba115f39d46c317eaf51278c8948cf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322293"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129964"
 ---
 # <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Udvidelser af skymigrering for migrering til Business Central Online
 

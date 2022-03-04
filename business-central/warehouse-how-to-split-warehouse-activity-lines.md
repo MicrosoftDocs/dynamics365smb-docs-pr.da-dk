@@ -2,7 +2,6 @@
 title: 'Fremgangsmåde: Opdele lageraktivitetslinjer'
 description: Læs, hvordan du opdeler lageraktivitetslinjer, hvis den disponible kapacitet på en foreslået placering ikke er tilstrækkelig.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 46ac47dbf3b1df3f89b83c56215831100edb3827
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b7a035fd6ac2b2af6e7ceb4db63edfa66531848d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325239"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134587"
 ---
 # <a name="split-warehouse-activity-lines"></a>Opdele lageraktivitetslinjer
 I læg-på-lager-aktiviteter, bevægelser eller pluk (logistik) og i læg-på-lager-aktiviteter og pluk (lager) foreslås der automatisk placeringer for varer, der plukkes eller lægges på lager. Den faktiske mængde på den foreslåede placering er muligvis ikke tilstrækkelig, eller at der ikke er nok plads på den foreslåede placering til at lægge den ønskede bestilte mængde på lager. I begge tilfælde skal du opdele linjen, så varerne for én linje enten hentes fra eller anbringes på mere end én placering.  

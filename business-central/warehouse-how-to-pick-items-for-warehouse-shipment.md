@@ -2,7 +2,6 @@
 title: Plukke varer til lagerleverance
 description: Få mere at vide om, hvordan du bruger lagerplukdokumenterne til at oprette og behandle plukoplysninger, inden lagerleverancen bogføres.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b5b92c04fea101959c32775c768bbbaab22a7c3e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 7335c388efc48f3c9a04238e7727817f28a7757f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441856"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128482"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Plukke varer til lagerleverance
 Når lokationen kræver lagerpluk og lagerleverance, skal du bruge lagerplukdokumenterne til at oprette og behandle plukoplysningerne, inden du bogfører den pågældende lagerleverance.  

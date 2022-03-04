@@ -2,7 +2,6 @@
 title: 'Fremgangsmåde: Lægge varer på lager med Læg-på-lager'
 description: Læs om, hvordan du kan bruge dokumentet Læg-på-lager til at registrere og bogføre læg-på-lager-og modtagelsesoplysninger for kildedokumenterne.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e28e565858f4dc6fc1e01c614914b0b1620c9659
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 02d3f8dca5381ecebac7cb2d980841a2e5897846
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438103"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138150"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Lægge varer på lager med Læg-på-lager (lager)
 Hvis lokationen er sat op til at kræve læg-på-lager, men ikke modtagelse, bruger du dokumentet **Læg-på-lager (lager)** til at registrere og bogføre læg-på-lager- og modtagelsesoplysninger for kildedokumenterne. Det indgående kildedokument kan være en købsordre, en salgsreturvareordre, en indgående overflytningsordre eller en montage- eller produktionsordre, hvis afgang er klar til at blive lagt på lager.  

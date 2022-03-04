@@ -2,7 +2,6 @@
 title: Flytte varer i avanceret lageropsætning
 description: I dette emne forklares det, hvordan en erfaren medarbejder kan arrangere flytning af varer i avancerede logistik konfigurationer – kan anvendes på lokationer med styret læg-på-lager og pluk.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: cba0ff7da725d4113ed17f9121caabd2e6b54ce5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b0550524262425502d8510d99137b4f2a7a6785b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439281"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139166"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Flytte varer i avancerede lageropsætninger
 I avancerede lageropsætninger, dvs. lokationer med styret læg-på-lager og pluk, udføres lagerbevægelser fra én placering til en anden af en overordnet medarbejder, der forbereder lagerbevægelserne i bevægelseskladden og derefter opretter lagerbevægelserne, så lagermedarbejderne kan udføre dem.  
