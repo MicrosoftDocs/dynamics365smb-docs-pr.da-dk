@@ -1,25 +1,26 @@
 ---
-title: Konfigurere virksomhedskonfiguration
-description: Som partner skal du konfigurere Business Central korrekt for din debitor med standardkonfigurationer eller kundespecifikke konfigurationer, som du bundter i konfigurationspakker.
+title: Konfigurere virksomhedskonfiguration | Microsoft dokumenter
+description: Implementeringsprocessen, der begynder med Business Central-løsningen, kræver. Du kan samle alle disse oplysninger i konfigurationspakker.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 841d57ec0e5897ee0395e498ed24dc19b4fcbaea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 402595c34d69db0a14fce6eac8f3bb9e0896d06b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143917"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385270"
 ---
 # <a name="set-up-company-configuration"></a>Konfigurere virksomhedskonfiguration
-Implementeringsprocessen, der begynder med Microsoft-partneren. Som partner er du ansvarlig for at gennemtænke konfigurationsdetaljerne og oprette en pakke, som en debitor let kan anvende. Før du opretter en ny virksomhed i [!INCLUDE [prod_short](includes/prod_short.md)] online eller i det lokale miljø, skal du planlægge, hvordan den skal konfigureres. Du skal overveje grundlæggende konfigurationsdata og de datatyper, som din [!INCLUDE[prod_short](includes/prod_short.md)]-løsning kræver. Du kan samle alle disse oplysninger i konfigurationspakker.
+Implementeringsprocessen, der begynder med Microsoft-partneren. Partneren er ansvarlig for at gennemtænke konfigurationsdetaljerne og oprettelse af en pakke, der let kan anvendes af en kunde. Før du opretter en ny virksomhed, skal du planlægge, hvordan den konfigureres. Du skal overveje grundlæggende konfigurationsdata og de datatyper, som din [!INCLUDE[prod_short](includes/prod_short.md)]-løsning kræver. Du kan samle alle disse oplysninger i konfigurationspakker.
 
-RapidStart Services tilbyder også de værktøjer, du skal bruge til at overflytte ældre data, f.eks. debitorer og kreditorer.  
+RapidStart Services giver dig også de værktøjer, du skal bruge til at overflytte ældre data, f.eks. debitorer og kreditorer.  
 
 Vi anbefaler, at du opretter konfigurationspakker med de fleste af de konfigurationstabeller, som allerede udfyldt, så kunder behøver kun at ændre nogle få indstillinger, når pakken er installeret. Når du f.eks. opretter en ny virksomhed, udfyldes tabellerne **Nummerserie** og **Nummerserielinje**, med et sæt nummerserie og starttal. De tilsvarende **Nummerserie**-felter i opsætningstabellerne udfyldes også automatisk. Du behøver ikke at indtaste nummerserier og andre grundlæggende opsætningsdata. Du kan også manuelt ændre alle standarddata, der bruges til RapidStart Services, ved at bruge konfigurationsregnearket.  
 
@@ -32,14 +33,11 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |**For at**|**Skal du se**|  
 |------------|-------------|  
 |Planlægge en virksomhedskonfiguration ved at udfylde konfigurationsarket.|[Administrere virksomhedskonfigurationen i et regneark](admin-how-to-manage-company-configuration-in-a-worksheet.md)|  
-|Oprette en konfigurationspakke, tilpasse en pakke, tildele tabeller til en pakke, gennemse eller redigere eksisterende debitordata, oprette den nye virksomhed og derefter flytte testdata til produktionsmiljøet.|[Forberede en konfigurationspakke](admin-how-to-prepare-a-configuration-package.md)|
+|Oprette en konfigurationspakke, tilpasse en pakke, tildele tabeller til en pakke, gennemse eller redigere eksisterende debitordata, oprette den nye virksomhed og derefter flytte testdata til produktionsmiljøet.|[Forberede en konfigurationspakke](admin-how-to-prepare-a-configuration-package.md)| 
 
-Du kan også oprette konfigurationspakker med standardkonfigurationer, som du kan bruge igen og igen. Du kan finde flere oplysninger i [Oprette standardkonfigurationspakker for virksomheder](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) i indholdet til udviklere og administration.  
-
-## <a name="see-also"></a>Se også
-
+## <a name="see-also"></a>Se også  
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
-[Opsætning](admin-setup-and-administration.md)  
+[Opsætning](admin-setup-and-administration.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

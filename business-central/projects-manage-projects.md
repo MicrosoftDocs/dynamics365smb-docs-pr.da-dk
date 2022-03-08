@@ -1,22 +1,21 @@
 ---
-title: Projektstyring
-description: Beskriver, hvordan du bruger ressourcer, timesedler og sager til at administrere projekter og deres budgetter.
+title: Sagsopgaver, der bruger ressourcer og timesedler | Microsoft Docs
+description: Beskriver, hvordan du bruger ressourcer, timesedler og sager til at administrere projekter.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015
-ms.date: 06/22/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: af4801956ce27bc282356400513fc22a03860784
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2dbe4a82f6cc2e9f28fbd06a3f235d9630a75cca
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146250"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780328"
 ---
 # <a name="project-management"></a>Projektstyring
-
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du udføre almindelige projektstyringsopgaver, som f.eks. konfiguration af en sag og planlægning af en ressource samt anskaffelsen af de oplysninger, der er nødvendige til administration af budgetter og overvågning af status. Du kan spore maskin- og medarbejdertimer på projektet ved hjælp af timeregistreringer. Som projektleder har du et godt overblik, ikke kun over individuelle sager, men også over allokeringen af medarbejdere, maskiner og andre ressourcer, der bruges i alle projekter.
 
 Før du kan bruge [!INCLUDE[prod_short](includes/prod_short.md)] til at administrere projekter, skal du definere ressourcer, timesedler og sager. Der er flere oplysninger under [Konfigurere projektstyring](projects-setup-projects.md).  

@@ -1,41 +1,43 @@
 ---
-title: Om produktionsordrer
-description: Flere oplysninger om produktionsordrer gør det muligt at styre produktionsprocessen, dvs. den proces, hvorved de indkøbte materialer forarbejdes til færdige varer.
+title: Om produktionsordrer | Microsoft Docs
+description: Produktionsordrer gør det muligt at styre produktionsprocessen, dvs. den proces, hvorved de indkøbte materialer forarbejdes til færdige varer. Produktionsordrer (sags- eller arbejdssedler) dirigerer arbejdet via ruter gennem forskellige faciliteter (arbejdscentre eller produktionsressourcer) på produktionsstedet, f.eks. en fabrik.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 568b8f119cf741a16b7d20560e541d7995b7834f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 6a99066c784a6526bf06c816431b912b1db73f06
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135051"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2313422"
 ---
 # <a name="about-production-orders"></a>Om produktionsordrer
-
 Produktionsordrer gør det muligt at styre produktionsprocessen, dvs. den proces, hvorved de indkøbte materialer forarbejdes til færdige varer. Produktionsordrer dirigerer arbejdet via ruter gennem forskellige arbejdscentre eller produktionsressourcer på produktionsstedet.  
 
 Før du fortsætter med produktion udfører de fleste virksomheder forsyningsplanlægning, typisk én gang om ugen, for at beregne, hvor mange produktionsordrer og købsordrer, der skal udføres for at opfylde et salgsbehovet for den pågældende uge. Købsordrer leverer de komponenter, der kræves i henhold til produktionsstyklisten for at producere færdigvarerne.
 
 Produktionsordrer udgør den centrale komponent i produktionsfunktionaliteten. De indeholder følgende oplysninger:  
 
-- Produkter, som skal produceres ifølge planen  
-- Materialer, der skal bruges til de planlagte produktionsordrer  
-- Produkter, der netop er produceret  
-- Materialer, der allerede er valgt  
-- Produkter, der blev produceret på et tidligere tidspunkt  
-- Materialer, der indgik i tidligere produktionsprocesser  
+-   Produkter, som skal produceres ifølge planen  
+-   Materialer, der skal bruges til de planlagte produktionsordrer  
+-   Produkter, der netop er produceret  
+-   Materialer, der allerede er valgt  
+-   Produkter, der blev produceret på et tidligere tidspunkt  
+-   Materialer, der indgik i tidligere produktionsprocesser  
 
 Produktionsordrer er udgangspunktet for:  
 
-- Planlægning af fremtidig produktion  
-- Overvågning af den igangværende produktion  
-- Sporing af afsluttet produktion  
+-   Planlægning af fremtidig produktion  
+-   Overvågning af den igangværende produktion  
+-   Sporing af afsluttet produktion  
 
 ## <a name="production-order-creation"></a>Oprette produktionsordrer  
 Produktionsordrer kan oprettes manuelt på ordre til ordre-basis fra siden **Produktionsordre**, eller genereres fra siderne **Salgsordreplanlægning** eller **Ordreplanlægning**. Der oprettes flere ordrer fra siden **Planlægningskladde**.  
@@ -51,17 +53,17 @@ Produktionsordrer oprettes med udgangspunkt i oplysninger fra:
 ## <a name="limitations-on-production-order-creation"></a>Begrænsninger ved oprettelse af produktionsordrer  
 Produktionsordrer reserveres automatisk og spores til kilden, når:  
 
-- Oprettet fra **[Planlægningskladde](production-how-to-run-mps-and-mrp.md)**.  
-- Oprettet på siden **[Salgsordreplanlægning](production-how-to-create-production-orders-from-sales-orders.md)**  
-- De oprettes på siden **[Ordreplanlægning](production-how-to-plan-for-new-demand.md)**  
-- Funktionen **[Omplanlæg](production-how-to-replan-refresh-production-orders.md)** bruges på produktionsordrer  
+-   De oprettes i **Planlægningskladde**  
+-   De oprettes med ordrefunktionen på sien **Salgsordreplanlægning**  
+-   De oprettes på siden **Ordreplanlægning**  
+-   Funktionen **Omplanlæg** bruges på produktionsordrer  
 
 Du kan finde flere oplysninger i [Spore relationer mellem behov og forsyning](production-how-track-demand-supply.md).
 
 Produktionsordrer, der oprettes på anden måde, reserveres og spores ikke automatisk.   
 
 ## <a name="production-order-status"></a>Produktionsordrestatus  
-Produktionsordrestatus kontrollerer produktionsordrens vej gennem programmet. Produktionens form og indhold dikteres af ordrens status. Produktionsordrer vises i forskellige sider i henhold til deres status. Du kan ikke ændre en produktionsordres status manuelt. Du skal bruge funktionen **Skift status** i den enkelte produktionsordre eller i vinduet **Skift prod. ordrestatus**.  
+Produktionsordrestatus kontrollerer produktionsordrens vej gennem programmet. Produktionens form og indhold dikteres af ordrens status. Produktionsordrer vises i forskellige sider i henhold til deres status. Du kan ikke ændre en produktionsordres status manuelt, men kun bruge funktionen **Skift status**.  
 
 ### <a name="simulated-production-order"></a>Simuleret produktionsordre  
 En simuleret produktionsordre kendetegnes ved følgende:  
@@ -110,16 +112,16 @@ Når en produktionsordre er oprettet og planlagt, skal den frigives til produkti
 - Hvor meget tid, der er brugt på det arbejde, der er angivet i ordren  
 - Hvor mange enheder, der er fremstillet af den samlede eller overordnede vare  
 
-Disse oplysninger kan registreres manuelt eller via automatisk rapportering, i overensstemmelse med varer i feltet Trækmetode for vare eller arbejdscenter.  
+Disse oplysninger kan registreres manuelt eller via automatisk rapportering, i overensstemmelse med varer i feltet Trækmetode.  
 
 ### <a name="material-consumption"></a>Materialeforbrug  
 Programmet omfatter en række indstillinger, som gør det muligt at angive, hvordan materialeforbrug skal registreres i en produktionsvirksomhed. Materialeforbruget kan f.eks. registreres manuelt, hvilket kan være nyttigt, hvis flere forskellige komponenter bruges på skift, eller hvis flere dele end forventet går til spilde.  
 
-Forbruget af materialer kan behandles vha. [forbrugskladden](production-how-to-post-consumption.md), men kan også registreres automatisk i programmet, hvilket kaldes automatisk rapportering (udtræk). Der er følgende rapporteringsmetoder:  
+Forbruget af materialer kan behandles vha. forbrugskladden, men kan også registreres automatisk i programmet, hvilket kaldes automatisk rapportering. Der er følgende rapporteringsmetoder:  
 
-- Manuelt  
-- Forlæns  
-- Baglæns  
+-   Manuelt  
+-   Fremad  
+-   Baglæns  
 
 Manuel forbrugsrapportering anvender forbrugskladden til at angive materialeplukning.  
 
@@ -130,14 +132,62 @@ Forlæns forbrugsrapportering antager, at det forventede antal af alle materiale
 
 Baglæns forbrugsrapportering registrerer det faktiske antal materialer, der enten er plukket eller forbrugt, når en produktionsordres status ændres til *Færdig*, medmindre der bruges rutebindingskoder. Hvis der bruges rutebindingskoder, forbruges materialet, efter at et antal af den samlede eller overordnede vare registreres for operationstrinnet i afgangskladden.  
 
-Når produktionsordren fornys, kopieres trækmetoden fra varekortet. Eftersom trækmetoden for hver enkelt komponent på produktionsordren bestemmer, hvordan og hvor forbruget registreres, er det vigtigt at være opmærksom på, at du kan ændre trækmetoden for enkelte varer direkte i produktionsordren. 
+Når produktionsordren fornys, kopieres trækmetoden fra varekortet. Eftersom trækmetoden for hver enkelt komponent på produktionsordren bestemmer, hvordan og hvor forbruget registreres, er det vigtigt at være opmærksom på, at du kan ændre trækmetoden for enkelte varer direkte i produktionsordren.  
 
-Du kan finde flere oplysninger i [Udtrække komponenter i henhold til operationsafgang](production-how-to-flush-components-according-to-operation-output.md)
+#### <a name="automatic-consumption-posting-flushing"></a>Automatisk bogføring af forbrug (træk)  
+Fordelen ved automatisk træk er, at det i vidt omfang reducerer behovet for dataregistrering. Når det er muligt at trække en operation automatisk, kan hele processen til registrering af forbrug og afgang automatiseres. Ulempen ved at bruge automatisk træk er, at du muligvis ikke kan registrere spild, eller måske ikke engang er opmærksom på spild. Der findes følgende metoder til automatisk rapportering:  
+
+- Forlæns træk af hele ordren  
+- Forlæns træk for én operation ad gangen  
+- Baglæns træk for én operation ad gangen  
+- Baglæns træk af hele ordren  
+
+#### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Automatisk rapportering – forlæns træk af hele ordren  
+Hvis du bruger forlæns træk til produktionsordren ved sagens start, opfører programmet sig stort set på samme måde som ved manuelt forbrug. Den væsentligste forskel er, at forbruget sker automatisk.  
+
+- Alt indhold på produktionsstyklisten forbruges og trækkes fra lagerbeholdningen på det tidspunkt, hvor den frigivne produktionsordre fornys.  
+- Forbrugsantallet er det antal pr. samling, der er angivet på produktionsstyklisten, ganget med det antal samlede eller overordnede varer, der skal produceres.  
+- Det er ikke nødvendigt at registrere oplysninger i forbrugskladden, hvis alle varerne skal trækkes.  
+- Når der forbruges varer fra lagerbeholdningen, spiller det ingen rolle, hvornår oplysningerne registreres i afgangskladden, fordi afgangskladden ikke har nogen indflydelse på denne form for forbrugsbogføring.  
+- Der kan ikke angives rutebindingskoder.  
+
+Forlæns træk af en hel ordre er velegnet i produktionsmiljøer med:  
+
+-   Få defekter  
+-   Få operationer  
+-   Højt komponentforbrug i tidligere operationer  
+
+#### <a name="automatic-reporting---forward-flushing-by-operation"></a>Automatisk rapportering – forlæns træk for én operation ad gangen  
+Hvis du vælger træk for én operation ad gangen, kan du fratrække lagervarer, mens en bestemt operation udføres på den samlede vares rute. Materialet er knyttet til ruten vha. rutebindingskoder, som svarer til de rutebindingskoder, der bruges til komponenter i produktionsstyklisten.  
+
+Trækket finder sted, når den operation, der har den samme rutebindingskode, starter. At den starter betyder, at der registreres en aktivitet i afgangskladden for den pågældende operation. Aktiviteten behøver ikke være andet end, at der angives en opstillingstid.  
+
+Trækmængden er det antal pr. samling, der er angivet i produktionsstyklisten ganget med det antal samlede varer, der skal produceres (forventet antal).  
+
+Denne teknik egner sig bedst til forhold, hvor der er mange operationer, og hvor visse komponenter først skal bruges sent i samlingsforløbet. I en produktionsmiljø med JIT-produktion (Just-in-Time) er det ikke engang sikkert, at varerne er på lager, når den frigivne produktionsordre sættes i gang.  
+
+Materialet kan forbruges under operationerne vha. rutebindingskoder. Nogle komponenter skal måske først bruges på de sidste produktionsstadier og skal derfor ikke trækkes fra lageret før det tidspunkt, hvor de skal bruges i operationerne.  
+
+#### <a name="automatic-reporting---back-flushing-by-operation"></a>Automatisk rapportering – baglæns træk for én operation ad gangen  
+Hvis du bruger baglæns træk for én operation ad gangen, registreres forbruget, efter at operationen er bogført i afgangskladden.  
+
+Fordelen ved denne metode er, at antallet af færdige samlede varer i denne operation er kendt.  
+
+Materialet i produktionsstyklisten knyttes sammen med ruteposterne vha. rutebindingskoder. Det baglæns træk sker, når en operation med en bestemt rutebindingskode bogføres med et færdigt antal.  
+
+Trækmængden er det antal pr. samling, der er angivet i produktionsstyklisten, ganget med det antal samlede varer, der er bogført som afgangsantal på den pågældende operation. Det kan være anderledes end det forventede antal.  
+
+#### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Automatisk rapportering – baglæns træk af hele ordren  
+I denne rapporteringsmetode tages der ikke højde for rutebindingskoder.  
+
+Der plukkes ingen komponenter, før den frigivne ordres status ændres til *Færdig*. Trækmængden er det antal pr. samling, der er angivet på produktionsstyklisten, ganget med det antal samlede varer, der er færdige og overført til lageret.  
+
+Baglæns træk af hele produktionsordren forudsætter samme opsætning som til fremadtræk: Rapporteringsmetoden skal være angivet til baglæns på hvert enkelt varekort for alle varer inden for den overordnede stykliste, der skal rapporteres. Desuden skal alle rutebindingskoder fjernes fra produktionsstyklisten.  
 
 ### <a name="production-output"></a>Produktionsafgang  
 Programmet giver dig mulighed for at spore, hvor meget tid der er medgået til arbejdet på en produktionsordre, ud over registreringen af det producerede antal. Disse oplysninger gør det lettere at bestemme produktionsomkostningerne mere nøjagtigt. Produktionsvirksomheder, der bruger et standardsystem til kostprisberegning, vil måske også gerne registrere faktiske oplysninger, som kan gøre det nemmere at forbedre standarderne.  
 
-Afgang kan behandles via [afgangskladden](production-how-to-post-output-quantity.md), men kan også registreres automatisk af programmet. Programmet kopierer trækmetoden fra produktionsressourcens eller arbejdscentrets kort til produktionsordreruten, når det opdaterer. Som med materialeforbrug er der tre måder at rapportere afgang på:  
+Afgang kan behandles via afgangskladden, men kan også registreres automatisk af programmet. Programmet kopierer trækmetoden fra produktionsressourcens eller arbejdscentrets kort til produktionsordreruten, når det opdaterer. Som med materialeforbrug er der tre måder at rapportere afgang på:  
 
 - Manuelt  
 - Forlæns  
@@ -155,7 +205,7 @@ Du kan bruge en hvilken som helst kombination af automatisk træk og manuelt reg
 Hvis du registrerer forbrug og afgang manuelt, er du nødt til at vælge en rækkefølge at registrere disse oplysninger i. Du kan registrere forbrug først og bruge en genvejsmetode, når du skal registrere de oplysninger, der er baseret på forventet afgangsantal. Eller du kan angive afgang først ved at bruge funktionen **Udfold rute**. Derefter kan du registrere forbruget på basis af det faktiske afgangsantal.  
 
 ### <a name="production-journal"></a>Produktionskladde  
-[Produktionskladden](production-how-to-register-consumption-and-output.md) er en kombination af funktionerne i forbrugskladden og afgangskladden. Du kan åbne produktionskladden direkte fra den frigivne produktionsordre.  
+Produktionskladden er en kombination af funktionerne i forbrugskladden og afgangskladden. Du kan åbne produktionskladden direkte fra den frigivne produktionsordre.  
 
 Formålet med produktionskladden er at give dig mulighed for at registrere forbrug og afgang fra en produktionsordre ét sted.  
 
@@ -181,12 +231,9 @@ Men produktionskladden adskiller sig dog fra forbrugs- og afgangskladderne på f
 I produktionskladden bogføres forbrugsantal som negative vareposter, mens afgangsantal bogføres som positive vareposter, og tidsforbruget bogføres som kapacitetsposter.  
 
 ## <a name="see-also"></a>Se også
-[Produktion](production-manage-manufacturing.md)
+[Produktion](production-manage-manufacturing.md)    
 [Konfigurere produktion](production-configure-production-processes.md)  
-[Skabelon](production-planning.md)  
+[Planlægning](production-planning.md)      
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

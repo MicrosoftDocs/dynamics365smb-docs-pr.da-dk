@@ -2,19 +2,20 @@
 title: Virksomhedsoplysninger Hurtig start
 description: Få mere at vide om, hvordan du udfylder de første kritiske felter om din virksomhed i Business central ved at læse denne Hurtig start.
 author: jill-kotel-andersson
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
-ms.author: edupont
-ms.openlocfilehash: beaca5bec31c0ba4877245cade5363dad21fe05a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.author: a-jillk
+ms.openlocfilehash: 1b9a3c48af6ed56cd32b3fa153d259219172c64b
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133650"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7589339"
 ---
 # <a name="company-information-quick-start"></a>Virksomhedsoplysninger Hurtig start
 

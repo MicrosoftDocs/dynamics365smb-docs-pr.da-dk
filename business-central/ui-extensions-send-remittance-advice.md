@@ -1,23 +1,23 @@
 ---
 title: Udvidelsen Send remitteringsadvis | Microsoft Docs
 description: Beskriver udvidelsen Send remitteringsadvis, der giver mulighed for at emaile og sende remitteringsadvis igen fra betalingskladden og kreditorposterne.
-author: edupont04
-ms.topic: conceptual
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 07/06/2021
-ms.author: edupont
-ms.openlocfilehash: 256744599bcf30a6386ed5ef74b815e959b3b2bb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
+ms.date: 06/06/2019
+ms.author: sgroespe
+ms.openlocfilehash: 9caa026f9edec42e56a035cf8d99228ca18c3c36
+ms.sourcegitcommit: 04581558f6c5488c705a7ac392cf297be10b5f4f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132494"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "1621248"
 ---
 # <a name="send-remittance-advice"></a>Send remitteringsadvis
-
 Når der anvendes remitteringsadvis til at underrette kreditorerne om betalinger, kan du nu sende mails med flere remitteringsadviser fra udbetalingskladden og sende igen, når der er foretaget betalinger fra kreditorposter, ved hjælp af dokumentafsendelsesprofiler.
 
 > [!NOTE]
@@ -25,22 +25,10 @@ Når der anvendes remitteringsadvis til at underrette kreditorerne om betalinger
 
 Du kan sende remitteringsadvis på to forskellige måder:
 
-* På siden **Udbetalingskladde** skal du vælge **Relaterede**, **Betalinger**, **Send remitteringsadvis** for at maile remitteringsadvis til en eller flere udbetalingskladdelinjer
-* På siden **Kreditorposter** skal du vælge **Handlinger**, **Funktioner** og **Send remitteringsadvis** for at sende mails med remitteringsadvis efter bogføring af kreditorbetalinger for én eller flere kreditorposter
+* På siden **Udbetalingskladde** skal du vælge **Naviger**, **Betalinger**, **Send remitteringsadvis** for at maile remitteringsadvis til en eller flere udbetalingskladdelinjer
+* På siden **Kreditorposter** skal du vælge handling, funktioner, Send remitteringsadvis for at sende mails med remitteringsadvis efter bogføring af kreditorbetalinger for én af flere kreditorposter.
 
 ## <a name="see-also"></a>Se også
-
 [Lav forslag](payables-how-suggest-vendor-payments.md)  
-[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Sende dokumenter som mail](ui-how-send-documents-email.md)  
-[Elektronisk pengeoverførsel (EFT) i den australske version](localfunctionality/australia/electronic-funds-transfer-eft-.md)  
-[Foretage elektroniske betalinger (CA)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
-[Elektronisk pengeoverførsel (EFT) i New Zealand-versionen](localfunctionality/newzealand/electronic-funds-transfer-eft-.md)  
-[Lokal funktionalitet for New Zealand](localfunctionality/newzealand/new-zealand-local-functionality.md)  
-[Lokal funktionalitet for Storbritannien i den britiske version](localfunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
-[Udskriv remitteringsadvisering i den britiske version](localfunctionality/unitedkingdom/how-to-print-remittance-advice.md)  
-[Foretage elektroniske betalinger (US)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
-  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)    
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

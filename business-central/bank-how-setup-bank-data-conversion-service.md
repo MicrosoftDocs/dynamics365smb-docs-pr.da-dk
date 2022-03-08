@@ -1,28 +1,28 @@
 ---
-title: Konfigurere konvertering af bankdata
+title: Konfigurere konvertering af bankdata | Microsoft Docs
 description: Du kan oprette bankkonti for at holde styr på transaktioner og importere eller eksportere bankfeeds, f.eks. Yodlee.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, bank file export, re-export, bank transfer, AMC, AMC Banking 365 Fundamentals extension, funds transfer
-ms.search.form: 304, 20106, 20105, 20100, 20101, 20107, 20109
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4e601eb57aebd831e85c20449d32b0e52acb387a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ffd2837365ec6cfb93528aa422603a68bc5d6788
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148755"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3779782"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Konfigurere AMC Banking 365 Fundamentals-udvidelsen
-En global udbyder af tjenester til konvertering af betalingsoplysninger til ethvert dataformat, som din bank kræver, er forbundet og klar til at blive aktiveret i [!INCLUDE[prod_short](includes/prod_short.md)]. Dette omtales i [!INCLUDE[prod_short](includes/prod_short.md)] som AMC Banking 365 Fundamentals-udvidelsen.
+En global udbyder af tjenester til konvertering af betalingsoplysninger til ethvert dataformat, som din bank kræver, er forbundet og klar til at blive aktiveret i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette omtales i [!INCLUDE[d365fin](includes/d365fin_md.md)] som AMC Banking 365 Fundamentals-udvidelsen.
 
 Du kan eksportere betalingslinjer fra siden **Udbetalingskladde** til en fil eller en datastrøm, som du derefter overfører til din bank til automatisk behandling, så du ikke behøver at foretage elektroniske betalinger individuelt. Du kan finde flere oplysninger i [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-Du kan indlæse bankkontoudtogsfiler på siden **Betalingsudligningskladde** ved hjælp af AMC Banking 365 Fundamentals-udvidelsen for at konvertere en fil, du modtager fra banken, til en datastrøm, som [!INCLUDE[prod_short](includes/prod_short.md)] kan importere. Du kan finde flere oplysninger i [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Du kan indlæse bankkontoudtogsfiler på siden **Betalingsudligningskladde** ved hjælp af AMC Banking 365 Fundamentals-udvidelsen for at konvertere en fil, du modtager fra banken, til en datastrøm, som [!INCLUDE[d365fin](includes/d365fin_md.md)] kan importere. Du kan finde flere oplysninger under [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
 Du kan også bruge Envestnet Yodlee Bank Feeds-tjenesten i stedet for at indlæse bankkontoudtog med AMC Banking 365 Fundamentals-udvidelsen. Du kan finde flere oplysninger i [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
@@ -32,7 +32,7 @@ Når du vil importere eller eksportere bankfiler, skal du konfigurere din egen b
 > AMC Banking 365 Fundamentals-udvidelsen kan angive en grænse for antallet af linjer, der kan eksporteres i en fil. Du modtager en fejlmeddelelse, hvis grænsen er overskredet. Det anbefales, at bankkontofiler ikke overstiger 1000 linjer, da behandlingstiden i AMC Banking 365 Fundamentals-udvidelsen ellers bliver væsentligt forøget.
 
 ## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>Sådan tilmelder din virksomhed sig AMC Banking 365 Fundamentals-udvidelsen
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Opsætning af tjeneste til konvertering af bankdata**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af tjeneste til konvertering af bankdata**, og vælg derefter det relaterede link.  
 2. Siden **Opsætning af tjeneste til konvertering af bankdata** åbnes med tre felter udfyldt med relevante URL-adresser på udbyderen af AMC Banking 365 Fundamentals-udvidelsen.
 
     > [!NOTE]  
@@ -40,7 +40,7 @@ Når du vil importere eller eksportere bankfiler, skal du konfigurere din egen b
 3. I feltet **URL-adresse til tilmelding** skal du vælge browserknappen for at åbne serviceudbyderens tilmeldingsside.  
 4. Angiv brugernavnet og adgangskoden til din virksomheds abonnement på tjenesten på tilmeldingssiden af bankens dataserviceudbyder, og fuldfør derefter tilmeldingsprocessen som angivet af serviceudbyderen.
 
-    Din virksomhed er nu tilmeldt AMC Banking 365 Fundamentals-udvidelsen. Fortsæt med at angive det brugernavn og adgangskode, du har angivet for tjenesten i de relaterede konfigurationsfelter i [!INCLUDE[prod_short](includes/prod_short.md)].
+    Din virksomhed er nu tilmeldt AMC Banking 365 Fundamentals-udvidelsen. Fortsæt med at angive det brugernavn og adgangskode, du har angivet for tjenesten i de relaterede konfigurationsfelter i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 5. På siden **Opsætning af tjeneste til konvertering af bankdata** skal du i feltet **Brugernavn** angive den samme værdi, som du har angivet som logonnavnet på serviceudbyderens side i trin 4.
 6. I feltet **Adgangskode** skal du angive den samme værdi, som du har angivet i feltet **Adgangskode** på serviceudbyderens side i trin 4.
@@ -49,7 +49,7 @@ Når du vil importere eller eksportere bankfiler, skal du konfigurere din egen b
 > Dine logondata krypteres automatisk.
 
 ## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Sådan ser eller opdaterer du listen over aktuelt understøttede bankdataformater
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Opsætning af tjeneste til konvertering af bankdata**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af tjeneste til konvertering af bankdata**, og vælg derefter det relaterede link.
 2. På siden **Opsætning af tjeneste til konvertering af bankdata** skal du vælge handlingen **Banknavn - datakonverteringsoversigt** for at åbne listen over banknavne, der repræsenterer bankdataformater, der understøttes af konverteringstjenesten.
 3. På siden **Banknavn - datakonverteringsoversigt** skal du vælge handlingen **Opdater liste over banknavne**.
 
@@ -63,7 +63,4 @@ Du har nu tilmeldt dig AMC Banking 365 Fundamentals-udvidelsen. Fortsæt med at 
 ## <a name="see-also"></a>Se også
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -2,6 +2,7 @@
 title: 'Fremgangsmåde: Oprette serviceordrer'
 description: Få mere at vide om de forskellige opgaver, der er involveret i oprettelse af serviceordrer i Business central, f. eks. oprettelse af en ny serviceordre eller ordre på basis af en servicekontrakt.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d74aa4a4898010f4aeb3adfee37f4628dbea1f30
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: adac8451aadd5aa5d6c772b16baefe60dea317b1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140627"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441931"
 ---
 # <a name="create-service-orders"></a>Oprette serviceordrer
 Du kan bruge siden **Serviceordre** til at oprette dokumenter, hvor du indtaster oplysninger om en serviceydelse, f.eks. reparation og vedligeholdelse, for serviceartikler efter kundeforespørgsel.  

@@ -1,21 +1,21 @@
 ---
-title: Oversigt over opgaver til administration af kreditorer
+title: Oversigt over opgaver til administration af kreditorer | Microsoft Docs
 description: Beskriver opgaver til administration af kreditorer, f.eks. betaling af kreditorer eller udligning af udgående betalinger til finansposter, for at lukke fakturaer eller kreditnotaer.
 author: edupont04
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.search.form: 161, 254, 256, 347, 574, 599, 9002
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ef7b8fafd5949d9a3595a003c4840994e2319d54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d51c409f03634258898e290bc22588d8f6386e68
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137727"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5387195"
 ---
 # <a name="managing-payables"></a>Administrere skyldige beløb
 

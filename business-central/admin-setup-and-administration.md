@@ -2,6 +2,7 @@
 title: Administrative opgaver i Business Central
 description: Nogle af opgaverne i Business Central kræver central administration og installation. Se, hvilke opgaver det er, og få at vide, hvad du skal gøre.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 26e675073dde5cae0b14f0f3ee3526ba44e4200f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 959a56e4bb7fcaac57b05d30dca4939ed2f8576d
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143864"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660127"
 ---
 # <a name="administration"></a>Opsætning
 
@@ -33,7 +34,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|
-|Definere, hvem der kan logge på [!INCLUDE[prod_short](includes/prod_short.md)], ved at oprette brugere i Microsoft 365 Administration i henhold til produktlicenserne.|[Oprette brugere i henhold til licenser](ui-how-users-permissions.md)|
+|Angiv, hvem der kan logge på [!INCLUDE[prod_short](includes/prod_short.md)], ved at oprette brugere i Microsoft 365 Administration i henhold til produktlicenserne.|[Oprette brugere i henhold til licenser](ui-how-users-permissions.md)|
 |Tildele tilladelser til brugere, ændre tilladelsessæt og gruppere brugere for at opnå nem styring af tilladelser.|[Tildele tilladelser til brugere og grupper](ui-how-users-permissions.md)|
 |Tilføj brugere, administrer tilladelser og få adgang til data og tildel roller.|[Administrere profiler](admin-users-profiles-roles.md)|
 |Administrere brugerindstillinger, f.eks. virksomhed, rolle, sprog, område og tidszone.|[Brugerindstillinger](admin-manage-user-settings-preferences.md)|

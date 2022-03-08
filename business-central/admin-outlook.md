@@ -1,129 +1,80 @@
 ---
-title: Få Business Central-tilføjelsesprogram til Outlook
-description: Få mere at vide om, hvordan du installerer Business Central-tilføjelsesprogrammet til Outlook til virksomheden eller eget brug.
-author: jswymer
+title: Bruge Business Central sammen med Outlook | Microsoft Docs
+description: Denne tjeneste er tæt integreret med Microsoft 365, så du kan administrere alle dine forretningsaktiviteter og sende og modtage mail til og fra kunder og leverandører direkte i Outlook.
+author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
-ms.date: 08/13/2021
-ms.author: jswymer
-ms.openlocfilehash: 007d23bcb1d257402e33689ebe3ac57db10b84c2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.search.keywords: SMTP, mail, Microsoft 365
+ms.date: 10/01/2020
+ms.author: edupont
+ms.openlocfilehash: 6d2e396b21f2d5de2bb341e864df031070df1ca4
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323186"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377944"
 ---
-# <a name="get-the-business-central-add-in-for-outlook"></a>Få Business Central-tilføjelsesprogram til Outlook
+# <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Bruge Business Central som din virksomheds Indbakke i Outlook
 
-Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du administrere forretningsinteraktioner med dine kunder og leverandører direkte i Microsoft Outlook. Med [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-tilføjelsesprogrammet kan du se økonomiske oplysninger om debitorer og kreditorer. Du kan også oprette og sende regnskabsdokumenter, f. eks. tilbud og fakturaer.  
+[!INCLUDE[prod_short](includes/prod_short.md)] introducerer muligheden for at administrere forretningsinteraktioner med kunder og leverandører direkte i Microsoft Outlook. Med Outlook-tilføjelsesprogrammerne i [!INCLUDE[prod_short](includes/prod_short.md)] kan du se finansielle data, der er relateret til debitorer og kreditorer samt oprette og sende finansielle dokumenter, f.eks tilbud og fakturaer.  
 
-Der er to måder at få installeret et Business Central-tilføjelsesprogram til Outlook på, afhængigt af din rolle i organisationen:
+## <a name="getting-the-add-in"></a>Få tilføjelsesprogrammet
+Det er nemt at komme i gang med [!INCLUDE[prod_short](includes/prod_short.md)]-tilføjelsesprogrammet til Outlook. I den assisterende opsætningsvejledning **Konfigurer din virksomhedsindbakke i Outlook** kan du oprette forbindelsen til dig selv eller til din virksomhed, hvis virksomheden bruger Microsoft 365. Du skal blot angive dit Microsoft 365-brugernavn og din adgangskode, hvis du bliver bedt om det, og fortælle os, om du vil modtage et eksempel på en mailmeddelelse. [!INCLUDE[prod_short](includes/prod_short.md)]-tilføjelsesprogrammerne føjes derefter automatisk til Outlook. Du kan finde flere oplysninger i [Minimumkrav til Outlook](product-requirements.md#outlook).  
 
-- Som Microsoft 365-administrator kan du bruge *Centraliseret installation* til at installere tilføjelsesprogrammet automatisk for hele organisationen, grupper eller specifikke brugere.
+Når du derpå åbner Outlook, vises en mailmeddelelse fra *Dynamics 365 Business Central Administration*. De nye tilføjelsesprogrammer føjes til Outlook-båndet, og i browseren kan du se [!INCLUDE[prod_short](includes/prod_short.md)]-tilføjelsesprogrammerne lige over eller under brødteksten i mailen. Tilføjelsesprogrammerne opdateres med jævne mellemrum, og du får besked, når en ny version er klar i Outlook.  
 
-- Som enhver bruger kan du installere tilføjelsesprogrammet til eget brug, hvis din administrator ikke allerede har implementeret det for dig.
+> [!TIP]
+> Hvis du bruger den nye Outlook online, kan [!INCLUDE[prod_short](includes/prod_short.md)]-tilføjelsesprogrammerne være skjult under **Flere handlinger**. Hvis du ofte bruger tilføjelsesprogrammet, kan du fastgøre det, så det altid er synligt med det samme. Du kan finde flere oplysninger under [Sådan bruger du tilføjelsesprogrammer i Outlook online](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-## <a name="about-the-business-central-add-in-for-outlook"></a>Om Business Central-tilføjelsesprogram til Outlook
+Hvis du arbejder med mere end ét [!INCLUDE[prod_short](includes/prod_short.md)]-regnskab, kan du nemt skifte mellem firmaer i Outlook. På tilføjelsesprogrammets handlingslinje skal du vælge **Flere handlinger**, hvorefter du kan se indstillingen for at skifte mellem virksomheder.  
 
-Tilføjelsesprogrammet Business Central til Outlook består af to mindre tilføjelsesprogrammer:
-
-- Kontaktoplysninger
-
-    Dette tilføjelsesprogram giver brugerne [!INCLUDE[prod_short](includes/prod_short.md)]-oplysninger om kunde eller leverandør i Outlook-mails og-aftaler. Du kan også oprette og sende [!INCLUDE[prod_short](includes/prod_short.md)]-forretningsdokumenter, f. eks. salgstilbud og fakturaer til en kontakt. <!--To support these task, the add-in adds actions to the Outlook ribbon, in the **Business Central** group. --> 
-
-- Dokumentvisning
-
-    Når en e-mail henviser til et forretningsdokumentnummer i e-mailens brødtekst, indeholder dette tilføjelsesprogrammet et direkte, integreret link fra e-mail-brødteksten til det aktuelle forretningsdokument i [!INCLUDE[prod_short](includes/prod_short.md)].
-
-Du kan finde flere oplysninger om, hvad du gør med tilføjelsesprogrammerne, i [Bruge Business Central som indbakke i Outlook](work-outlook-addin.md).
-
-Hvert tilføjelsesprogrammet findes som en XML-fil, der kaldes et *manifest*, som skal installeres i Outlook af alle, som vil have denne funktionalitet. Disse filer beskriver, hvordan du aktiverer tilføjelsesprogrammer og opretter forbindelse til Business central, når de bruges i Outlook. En administrator kan typisk arbejde med disse filer. Som normalt behøver du ikke at håndtere filerne direkte i de fleste tilfælde. Administratoren indstiller enten tilføjelsesprogrammet til at blive installeret automatisk, eller du skal bruge den indbyggede assisterede opsætning til at håndtere installationen.
-
-## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Installere tilføjelsesprogrammet ved hjælp af centraliseret installation som administrator
-
-Centraliseret installation er en funktion i Microsoft 365 Administration, som du bruger til automatisk at installere tilføjelsesprogrammer i brugernes Office-apps, f.eks. Outlook. Det er den anbefalede måde, hvorpå administratorer kan installere til Office-tilføjelsesprogrammer til brugere og grupper i organisationen.
-
+<!--TEMP-->
 > [!NOTE]
-> Du kan finde flere oplysninger om Business Central-lokalt i [Konfigurere tilføjelsesprogrammet til Outlook-integration med Business Central-lokalt](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) i administrationsindholdet (kun på engelsk).
+> Skift mellem virksomheder kræver frigivelsesbølge 2 i 2019 [!INCLUDE[prod_short](includes/prod_short.md)] eller nyere, som annonceret i [frigivelsesplanen](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
 
-### <a name="prerequisites"></a>Forudsætninger
+Nogle virksomheder, der bruger Microsoft 365, begrænser brugernes adgang til at implementere tilføjelser. Derfor skal du kontrollere, at du har et Microsoft 365-abonnement, der omfatter e-mail, hvor du kan implementere tilføjelser. Hvis du vil prøve tilføjelsesprogrammet alligevel, kan du [prøve Microsoft 365 gratis](https://www.microsoft.com/microsoft-365/try).  
 
-- Et Microsoft 365-abonnement  
-- Brugere får tildelt en Microsoft 365-licens  
-- Din Microsoft 365-konto har rollen som *Global administrator* eller *Exchange-administrator*
+## <a name="using-the-contact-insights-add-in"></a>Bruge tilføjelsesprogrammet Kontaktoplysninger
+Antag, at du får en e-mail fra en kunde, som ønsker et tilbud på nogle varer. I Outlook kan du åbne [!INCLUDE[prod_short](includes/prod_short.md)]-tilføjelsesprogrammet direkte. Programmet genkender afsenderen som debitor og åbner debitorkortet for virksomheden. Fra dette dashboard kan du få vist oversigtsoplysninger om kunden samt gå i dybden for at få yderligere oplysninger om bestemte dokumenter. Du kan også se nærmere på salgsoversigten for debitoren. Hvis det er en ny kontakt, kan du oprette vedkommende som en ny kunde i [!INCLUDE[prod_short](includes/prod_short.md)] uden at forlade Outlook.  
 
-### <a name="deploy-the-add-in"></a>Anvende tilføjelsesprogrammet
+I tilføjelsesprogrammet kan du oprette et salgstilbud og sende det tilbage til kunden uden at forlade Outlook. Alle oplysninger, du behøver for at sende salgstilbuddet, er tilgængelige i din virksomheds Indbakke i Outlook.  
+Når du har indtastet dataene, kan du bogføre tilbuddet. Du kan derefter sende det via mail. [!INCLUDE[prod_short](includes/prod_short.md)] genererer en .PDF-fil med salgstilbuddet og vedhæfter den i den mailmeddelelse, du laver udkast til i tilføjelsesprogrammet.  
 
-1. I Business Central kan du vælge den ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Assisteret opsætning** og vælg derefter det relaterede link.
-2. Vælg **Centraliseret installation af Outlook-tilføjelsesprogrammet** for at starte vejledningen til installation af support.
-3. Gennemse den første side, og vælg **Næste** for at åbne siden til hentning af tilføjelsesprogrammerne.
-4. Marker afkrydsningsfeltet for de tilføjelsesprogrammer, du vil installere, i kolonnen **Installer**, og vælg derefter **Hent og Fortsæt**.
+På samme måde, hvis du modtager en e-mail fra en leverandør, kan du bruge tilføjelsesprogrammet til at arbejde med kreditorer og købsfakturaer.  
 
-    En fil med navnet *OutlookAddins.zip* overføres til enheden.
+I nogle tilfælde kan det være praktisk at kunne se flere felter, end du kan i tilføjelsesprogrammet, f.eks når du skal udfylde linjerne i en faktura. For at få lidt mere plads til at arbejde på kan du åbne tilføjelsesprogrammet på en separat side. Det er stadig en del af Outlook, men du har mere plads. Når du angiver data for dokumentet gemmes ændringerne automatisk i det vindue, du har åbnet. Når du er færdig med at indtaste data til dokumentet, kan du vælge knappen **OK**. Når du vælger tilføjelsesprogramruden i Outlook, opdateres dokumentet automatisk med de ændringer, du foretog i det udvidede vindue.  
 
-5. På dette tidspunkt er du færdig med det arbejde, du skal udføre i Business central, så du kan vælge **udført**.
+## <a name="creating-invoices-from-your-meeting-appointments"></a>Oprettelse af fakturaer fra dine mødeaftaler
+Nogle virksomheder registrerer alle fakturerbare aftaler i Outlook-kalenderen. Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du oprette fakturaen til kunden direkte fra emnet i kalenderen: Åbn aftalen, og derefter kan du åbne [!INCLUDE[prod_short](includes/prod_short.md)]-tilføjelsesprogrammet, søge efter eksisterende oplysninger eller oprette en faktura eller et andet salgsdokument dér.  
 
-   >[!TIP]
-   > Før du vælger **næste**, skal du vælge **Gå til Microsoft 365 (åbnes i et nyt vindue)** for at åbne og logge på Microsoft 365 Administrationscenter i et nyt browservindue. Du skal alligevel gå til Microsoft 365 Administration Center senere.
+## <a name="doing-quick-document-lookup"></a>Foretage hurtigt dokumentopslag
+[!INCLUDE[prod_short](includes/prod_short.md)]-tilføjelsesprogrammet Dokumentlinks giver dig hurtig adgang til dokumenter, der nævnes i mails. Tilføjelsesprogrammet kan bruges i en mail, hvis der findes et gyldigt bilagsnummer i selve meddelelsen. Når tilføjelsesprogrammet åbnes, giver det hurtig adgang til dokumentet.  
 
-6. Gå til den mappe, hvor filen OutlookAddins. zip blev hentet, og Pak filerne **Contact Insights.xml** og **Document View. XML** fra. zip-filen ud til en mappe, du vælger.
+F.eks. hvis du modtager en mail, hvor der i teksten står *S-QUO100*, identificerer [!INCLUDE[prod_short](includes/prod_short.md)] det som et salgstilbud, og så kan du åbne dette dokument i Outlook. I Outlook skal du vælge knappen **Dokumentlinks** umiddelbart oven over brødteksten i mailen. I Outlook-webappen skal du vælge teksten *S-QUO1001* i brødteksten i mailen.  
 
-    Du kan få flere oplysninger i [Pakke og pakke filer og mapper ud](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-7. Log på Microsoft 365 Administration, og gå til [Integrerede apps](https://go.microsoft.com/fwlink/?linkid=2163967).
+I tilføjelsesprogrammet Dokumentlinks kan du redigere og foretage handlinger i dokumentet, ligesom du kan i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-8. Vælg **Overfør brugerdefinerede apps**.
-9. På siden **Overfør apps til installation** vælge **Overfør manifest-fil (.xml) fra enhed** > **Vælg fil**.
-10. Vælg en af de tilføjelsesfiler, du har trukket tidligere, f. eks **Contact Insights.xml**.
-11. Følg instruktionerne for at tildele brugere og installere tilføjelsesprogrammet.
-12. Gentag trin 9 til 11 for den anden tilføjelsesprogramfil, hvis du vil.
+## <a name="adding-the-add-ins-manually"></a>Manuel tilføjelse af tilføjelsesprogrammerne
+I nogle tilfælde bliver tilføjelsesprogrammerne ikke føjet automatisk til Outlook. Selvom du eller en kollega har kørt den assisterede opsætningsvejledning på vegne af virksomheden, bliver [!INCLUDE[prod_short](includes/prod_short.md)] muligvis ikke vist i Outlook. Hvis du oplever dette problem, kan du tilføje [!INCLUDE[prod_short](includes/prod_short.md)]-tilføjelsesprogrammer manuelt.  
 
-> [!IMPORTANT]
-> Der vises en grøn markering, når tilføjelsesprogrammet er installeret i Administrationscenter. Det kan tage op til 24 timer, før brugerne af tilføjelsesprogrammet installeres automatisk i Outlook af brugere. Det kan også være nødvendigt at genstarte Outlook.
+Først skal du kontrollere, at du har adgang til tilføjelsesprogrammerne på din Microsoft 365-konto. Åbn ganske enkelt Outlook i en browser, åbn en meddelelse, vælg **Flere handlinger** (...) øverst i meddelelsen, og vælg derefter **Hent tilføjelsesprogrammer** nederst på listen. Derved åbnes siden **Tilføjelsesprogrammer til Outlook**, hvor du kan aktivere [!INCLUDE[prod_short](includes/prod_short.md)] for Outlook. Derefter, når du går tilbage til Outlook, skulle [!INCLUDE[prod_short](includes/prod_short.md)] være tilgængeligt.  
 
-Når du er færdig, kan du altid ændre installationen i Microsoft 365 Administration, f.eks. ved at tildele flere brugere. Du kan finde flere oplysninger om installation af tilføjelsesprogrammer i Administration under [Installere tilføjelsesprogrammer i Administration](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+På samme måde kan du i Outlook-skrivebordsklienten kontrollere, at [!INCLUDE[prod_short](includes/prod_short.md)] er angivet på siden **Hent tilføjelsesprogrammer**.  
 
-## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installere tilføjelsesprogrammet til eget brug
+I begge tilfælde, hvis [!INCLUDE[prod_short](includes/prod_short.md)] stadig ikke er tilgængelig, skal du hente manifest for tilføjelsesprogram-filerne. Du kan få flere oplysninger ved at kontakt Microsoft 365-administratoren.
 
-Hvis organisationen tillader det, kan du selv installere det Business Central-tilføjelsesprogram til virksomheden. Kontakt din administrator, hvis du ikke er sikker.
+## <a name="using-other-email-accounts"></a>Bruge andre mailkonti
 
-1. I Business Central skal du gå til ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikonet, skal du skrive **Hent Outlook-tilføjelsesprogrammet** og derefter vælge det relaterede link.
-2. Læs siden, og vælg **Næste**, når du er klar.
-3. Hvis du vil modtage en velkomstmeddelelse fra Business central med oversigt over brugen af tilføjelsesprogrammet, skal du aktivere **Send eksempel på e-mail**.
-4. Vælg **Afslut** for at fuldføre installationen.
-
-Business Central opretter forbindelse til e-mail-serveren og installerer tilføjelsesprogrammet i din Outlook. Det tager ikke lang tid. Du er nu klar til at begynde at bruge tilføjelsesprogrammet i Outlook.
-
-### <a name="for-business-central-on-premises"></a><a name="onprem"></a>Til Business Central i det lokale miljø
-
-Hvis du bruger Business Central lokalt, kan det være en smule anderledes at installere tilføjelsesprogrammet.
-
-1. I Business Central skal du gå til ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikonet, skal du skrive **Hent Outlook-tilføjelsesprogrammet** og derefter vælge det relaterede link.
-2. Læs siden, og vælg **Næste**, når du er klar.
-3. Benyt en af følgende fremgangsmåder, afhængigt af den side der vises:
-
-    - Hvis du får vist knappen **Installer på min Outlook**, skal du vælge den, og du er færdig.
-    - Hvis knappen **Næste** vises, skal du vælge den. På næste side skal du, hvis du vil modtage en velkomstmeddelelse fra Business central med oversigt over brugen af tilføjelsesprogrammet, aktivere **Send eksempel på e-mail**. Derefter skal du vælge **Udfør**, og du er færdig.
-    - Hvis du får vist knappen **Hent tilføjelsesprogram**, skal du vælge det og derefter gå til næste trin.
-4. Når du vælger **download-tilføjelsesprogram**, overføres en fil med navnet *OutlookAddins. zip* til din enhed. Filen vises øverst i browseren.
-
-   Gå til den mappe, hvor filen OutlookAddins.zip blev hentet, og Pak filen **Contact Insights.xml** og **Document View.XML** fra zip-filen ud til en mappe, du vælger. Du kan finde flere oplysninger om, hvordan du pakker filer ud, i [pakke og pakke filer og mapper ud](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-
-5. Åbn Outlook, og vælg **Hent tilføjelsesprogrammer** på båndet. Hvis du bruger Outlook på internettet, skal du vælge rullemenuen i en ny eller eksisterende e-mailmeddelelse og derefter vælge **Hent tilføjelsesprogrammer**.
-6. Vælg **Mine tilføjelsesprogrammer** > **Tilføj et brugerdefineret tilføjelsesprogram** > **Tilføj fra en fil**.
-7. Vælg en af de .xml-filer, som du har pakket ud, f.eks. **Contact Insights.xml**, og vælg derefter **Åbn** > **installation**.
-8. Gentag trin 6 og 7 for den anden .xml-fil, hvis du har hentet den.
-
-Du er nu klar til at begynde at bruge tilføjelsesprogrammet i Outlook.
+Tilføjelsesprogrammerne er designet til at blive brugt sammen med Microsoft 365. Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, vil administratoren vide, om du kan bruge [!INCLUDE[prod_short](includes/prod_short.md)]-tilføjelsesprogrammerne i Outlook. Du kan finde flere oplysninger i [Hvilken mailadresse kan jeg bruge med [!INCLUDE[prod_short](includes/prod_short.md)]?](across-faq.md#email), og de artiklen [Funktioner, der kræver særlige omstændigheder](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances?toc=/dynamics365/business-central/toc.json) og [Hvorfor virker Outlook-tilføjelsesprogrammet ikke for mine brugere?](/dynamics365/business-central/dev-itpro/faq#why-doesnt-the-outlook-add-in-work-for-my-users?toc=/dynamics365/business-central/toc.json) i afsnittet med generelle ofte stillede spørgsmål i administrationsindholdet.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 
-[Blive køreklar](ui-get-ready-business.md)  
+[Introduktion](product-get-started.md)  
 [Få Business Central på min mobilenhed](install-mobile-app.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
 [Finans](finance.md)  

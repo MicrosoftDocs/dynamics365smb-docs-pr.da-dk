@@ -2,6 +2,7 @@
 title: Føje oplysninger til poster til dig selv | Microsoft Docs
 description: Tilknytte en note til enhver post i programmet. Hvis du f.eks. har ekstra oplysninger om en salgsordre, der ikke passer i nogen af felterne på salgsordren, skal du skrive en note.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a641c8e411b14df7097299b696d74fc56f68bd92
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4199cfc818aed1baacd5d1c70b74d27883000829
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129548"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772150"
 ---
 # <a name="add-and-view-notes-on-records"></a>Tilføje og se noter i poster
  Du <!--OnPrem and your colleagues -->kan føje noter til poster i programmet. Mange sider, især dem, der viser en liste over poster, f.eks. siden **Salgsordrer**, omfatter handlingen **Noter** eller faktaboksen **Noter**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->

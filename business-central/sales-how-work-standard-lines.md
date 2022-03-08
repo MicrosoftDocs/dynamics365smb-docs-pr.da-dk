@@ -2,6 +2,7 @@
 title: Standard tilbagevendende salgs- og købslinjer
 description: Du kan oprette ofte brugte salgslinjer og købslinjer og indsætte dem i salgs- og købsdokumenter, som du hurtigt kan udfylde linjerne med standardoplysninger.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6039739825964ce059a4f76d1e92f32b581c60a7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9704d088a92ef2a7799eaccebee0fff3fc35bcfd
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144745"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440174"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Oprette gentagne salgs- og købslinjer
 Hvis du ofte har brug at oprette salgs- og købslinjer med næsten ens oplysninger, kan du oprette standardlinjer, som du derefter kan indsætte i tilbagevendende salgs- og købsdokumenter, f.eks. for tilbagevendende genbestillingsordrer.  

@@ -1,7 +1,8 @@
 ---
 title: Serviceordrestatus og reparationsstatus
-description: Serviceordrens status afspejler reparationsstatus for alle serviceartikler i serviceordren.
+description: Der er en særlig relation mellem feltet Status på siden Serviceordre og den serviceartikelreparationsstatus, der er repræsenteret af feltet Reparationsstatuskode på siden Serviceordre i Service. Serviceordrens status afspejler reparationsstatus for alle serviceartikler i serviceordren.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 09de6fa5eeb88e03935224d232bdffa1e1c8bce6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 08fba6795f288e21c0de457a70ff7fa32e7c2822
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139205"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770659"
 ---
 # <a name="service-order-status-and-repair-status"></a>Serviceordrestatus og reparationsstatus
 

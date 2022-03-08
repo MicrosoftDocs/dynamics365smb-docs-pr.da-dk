@@ -2,19 +2,19 @@
 title: Bogføre årsafslutningsposten
 description: Beskriver, hvordan du åbner den kladde, du angav i kørslen Nulstil resultatopgørelse, og derefter gennemser og bogfører årsafslutningsposten.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.search.form: 100
-ms.date: 06/25/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d426dc74506a244746d8696dc12f80a0ada3a58e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5c822685ae5723bc6b13f9fedad45dbddefdb956
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142694"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5776588"
 ---
-# <a name="posting-the-year-end-closing-entry"></a>Bogføring af årsafslutningsposten
+# <a name="post-the-year-end-closing-entry"></a>Bogføre årsafslutningsposten
 
 Når du har udført kørslen **Nulstil resultatopgørelse** for at oprette årsafslutningens lukkepost eller -poster, skal du åbne den kladde, du angav i kørslen, og derefter gennemse og bogføre posterne.  
 
@@ -23,7 +23,7 @@ Når du har udført kørslen **Nulstil resultatopgørelse** for at oprette årsa
 
 ## <a name="to-post-the-year-end-closing-entry"></a>Sådan bogføre årsafslutningsposten
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Finanskladde**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Finanskladde**, og vælg derefter det relaterede link.
 2. På siden **Kassekladde** skal du i feltet **Kladdenavn** vælge den kørsel, der indeholder lukkeposterne.
 3. Gennemse posterne.
 4. Vælg handlingen **Bogfør** for at bogføre kladden.

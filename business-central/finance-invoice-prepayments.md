@@ -1,33 +1,29 @@
 ---
-title: Fakturere forudbetaling
-description: Lær, hvordan du bruger forudbetalingsfunktionen til at fakturere og opkræve depositum, der kræves af debitorer eller at sende depositummerne til kreditorer i Business Central.
-author: edupont04
+title: Fakturere forudbetalinger | Microsoft Docs
+description: Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg eller køb inden den endelige bogføring. Du kræver måske et depositum, inden du producerer varerne efter ordre, eller du kræver måske betaling, før du leverer varer til en kunde. Forudbetalingsfunktionen sætter dig i stand til at fakturere og opkræve depositum fra debitorer eller at sende depositummerne til kreditorer. På den måde kan du sikre, at alle betalinger bogføres i forhold til en faktura.
+author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 42, 42, 48, 50, 52, 9305, 9307
-ms.date: 12/03/2021
+ms.search.keywords: ''
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 74f277ab22675cd490b136845a48062527469c05
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 511b506d75ad735d5b3b713cd24c802c7cb6d274
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147696"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5770337"
 ---
 # <a name="invoicing-prepayments"></a>Fakturere forudbetalinger
 
-[!INCLUDE [prepayment_def](includes/prepayment_def.md)]
+Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg eller køb inden den endelige bogføring. Du kræver måske et depositum, inden du producerer varerne efter ordre, eller du kræver måske betaling, før du leverer varer til en kunde. Forudbetalingsfunktionen sætter dig i stand til at fakturere og opkræve depositum fra debitorer eller at sende depositummerne til kreditorer. På den måde kan du sikre, at alle betalinger bogføres i forhold til en faktura.  
 
-[!INCLUDE [prepayment_req](includes/prepayment_req.md)]
+ Der kan defineres forudbetalingskrav for en debitor eller kreditor for alle varer eller udvalgte varer. Når du har fuldført den påkrævede opsætning, kan du generere forudbetalingsfakturaer fra salgs- og købsordrer for det beregnede forudbetalingsbeløb. Du kan ændre beløbene på fakturaen efter behov. Du kan f.eks. angive et samlet beløb for hele ordren. Du kan også sende yderligere forudbetalingsfakturaer, hvis f.eks. der føjes ekstra varer til ordren. Du kan øge antal eller tilføje nye linjer til en ordre efter at have udstedt en forudbetaling, og derefter kan du bogføre en anden forudbetalingsfaktura. Hvis du vil slette en linje, der allerede er faktureret en forudbetaling for, skal du udstede en forudbetalingskreditnota, før du kan slette linjen.  
 
-Du kan f. eks. angive et samlet beløb for hele ordren, eller du kan fordele forudbetalingen på tværs af hver linje i ordren. Du kan også sende yderligere forudbetalingsfakturaer, hvis f.eks. der føjes ekstra varer til ordren. Du kan øge antal eller tilføje nye linjer til en ordre efter at have udstedt en forudbetaling, og derefter kan du bogføre en anden forudbetalingsfaktura.  
-
-> [!NOTE]
-> Hvis du vil slette en linje, der allerede er faktureret en forudbetaling for, skal du udstede en forudbetalingskreditnota, før du kan slette linjen.
-
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
+ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  

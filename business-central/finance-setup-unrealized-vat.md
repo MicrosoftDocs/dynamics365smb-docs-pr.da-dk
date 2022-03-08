@@ -1,35 +1,32 @@
 ---
-title: Konfigurere ikke-realiseret moms
+title: Opsætning af urealiseret moms | Microsoft Docs
 description: Hvis du bruger bogføring, der er baseret på kontanter, kan du angive, hvordan urealiseret moms for salg og køb skal håndteres.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.search.form: 118, 472, 473
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 2f57799d0c0bf8f238745107cccd6c9694c7ea16
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 36404306909fb7c2e9d2de97e43fa181dc65a069
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137961"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746519"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Konfigurere urealiseret moms i forbindelse med bogføring baseret på kontanter
-
 Hvis du bruger bogføringsmetoder, der er baseret på kontanter, kan du konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til at håndtere urealiseret moms.
 
 ## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Sådan bruges finanskonti for urealiseret moms
-
 Du kan vælge, at momsbeløb beregnes og bogføres til en midlertidig finanskonto, når en faktura bogføres. Når den faktiske betaling af fakturaen bogføres, kan momsbeløbet så bogføres til den korrekte finanskonto og medtages i momsangivelsen. Du skal først færdiggøre momsbogføringsopsætning.
 
 Når du vil bruge konti for urealiseret moms, skal du gøre følgende:
-
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, og skriv **Opsætning af Finans**.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), og angiv **Opsætning af Finans**.
 2. I oversigtspanelet **Opsætning af Finans** skal du markere afkrydsningsfeltet **Urealiseret moms**.
-3. Vælg ikonet **Søg efter side eller rapport** ![Elpære, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), og angiv **Opsætning af momsbogføring**.
+3. Vælg ikonet **Søg efter side eller rapport** ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), og angiv **Opsætning af momsbogføring**.
 4. På siden **Opsætning af momsbogføring** skal du vælge momsbogføringsgruppen og derefter vælge handlingen **Rediger**.
 5. I feltet **Urealiseret moms - type** skal du vælge en indstilling for at angive, hvordan betalinger skal tildeles til fakturabeløbet (uden moms) og selve momsbeløbet, og hvordan momsbeløb skal overføres fra den urealiserede momskonto til den realiserede momskonto. Følgende tabel beskriver indstillingerne.
 
@@ -52,6 +49,4 @@ Når du vil bruge konti for urealiseret moms, skal du gøre følgende:
 > Momsbeløbet bogføres på denne konto og bliver stående der, indtil debitors indbetaling er bogført. Derefter overføres beløbet til finanskontoen for købsmoms.
 
 ## <a name="see-also"></a>Se også
-[Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Opsætning af moms](finance-setup-vat.md)

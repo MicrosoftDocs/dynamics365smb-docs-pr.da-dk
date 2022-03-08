@@ -1,20 +1,21 @@
 ---
-title: Betalingstolerance og kontantrabattolerance
+title: Betalingstolerance og kontantrabattolerance | Microsoft Docs
 description: Du kan angive betalingstolerance for at afslutte en faktura, når betalingen ikke fuldt ud dækker beløbet på fakturaen.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 118, 314, 395
-ms.date: 10/29/2021
+ms.search.keywords: ''
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ec67d201d89b01b38b86edbeb6dcd3ea0148153
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b13426a431eb45183c5c12454ff70ef0cc066229
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147644"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788123"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbejde med betalingstolerancer og kontantrabattolerancer
 Du kan angive en betalingstolerance for at afslutte en faktura, når betalingen ikke fuldt ud dækker beløbet på fakturaen. Betalingstolerancer er for eksempel typisk for små beløb, der ellers ville være dyrere at rette end bare at acceptere. Du kan angive en kontantrabattolerance til at give kontantrabat, efter at kontantrabatdatoen er overskredet.  
@@ -44,15 +45,15 @@ Du kan finde flere oplysninger i [Sådan aktiveres eller deaktiveres betalingsto
 Tolerancer på dato eller beløb giver dig mulighed for at afslutte en faktura, også selvom den ikke dækker fakturabeløbet fuldt ud, uanset om det skyldes, at forfaldsdatoen for betalingsrabatten er overskredet, om der er fratrukket varer, eller om der er tale om en mindre fejl. Det samme gælder for refusioner og kreditnotaer.  
 
 Hvis du skal opsætte tolerancer, skal du oprette forskellige tolerancekonti. Du skal både angive en metode til bogføring af kontantrabattolerance og en metode til bogføring af betalingstolerance og derefter afvikle kørslen **Skift betalingstolerance**.  
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogføringsopsætning**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogføringsopsætning**, og vælg derefter det relaterede link.  
 2. På siden **Bogføringsopsætning** skal du oprette en debet- og en kreditsalgstolerancekonto og en debet- og kreditkøbstolerancekonto.  
-3. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Debitorbogføringsgrupper**, og vælg derefter det relaterede link.    
+3. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorbogføringsgrupper**, og vælg derefter det relaterede link.    
 4. På siden **Debitorbogføringsgrupper** skal du oprette en debet- og en kreditbetalingstolerancekonto. Du kan finde flere oplysninger i [Konfigurere bogføringsgrupper](finance-posting-groups.md).  
-5. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kreditorbogføringsopsætning**, og vælg derefter det relaterede link.  
+5. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kreditorbogføringsopsætning**, og vælg derefter det relaterede link.  
 6. På siden **Kreditorbogføringsgrupper** skal du oprette en debet- og en kreditbetalingstolerancekonto.  
-7. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Finans**, og vælg derefter det relaterede link.  
+7. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Finans**, og vælg derefter det relaterede link.  
 8. Åbn siden **Regnskabsopsætning**.  
-9. På oversigtspanelet **Udligning** skal du udfylde felterne **Bogføring af kont.rabattolerance**, **Kontantrabat - respitperiode** og **Bogføring af betalingstolerance**.   
+9. På oversigtspanelet **Udligning** skal du udfylde felterne **Bogf. af kont.rabattolerance**, **Kontantrabat - respitperiode** and **Bogf. af betalingstolerance**.   
 10. Vælg handlingen **Skift betalingstolerance**.
 11. På siden **Skift betalingstolerance** skal du udfylde felterne **Betalingstolerancepct.** og **Maks. betalingstolerancebeløb** og derefter vælge knappen **OK**.
 
@@ -68,16 +69,16 @@ Hvis du skal opsætte tolerancer, skal du oprette forskellige tolerancekonti. Du
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Sådan aktiveres eller deaktiveres betalingstoleranceadvarsler
 Advarslen om betalingstolerance vises, når du bogfører en udligning, der har en saldo i den tilladte tolerance. Du kan derefter vælge, hvordan du vil bogføre og dokumentere saldoen.    
-1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Finans**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af Finans**, og vælg derefter det relaterede link.  
 2. På siden **Opsætning af Finans** i oversigtspanelet **Udligning** skal du aktivere skifteknappen **Betalingstolerance - advarsel** for at aktivere advarslen. Hvis du vil deaktivere advarslen, skal du deaktivere skydeknappen.  
 
 > [!NOTE]  
->  Standardindstillingen for siden **Betalingstolerance - advarsel** er **Lad saldoen stå som restbeløb**. Standardindstillingen for siden **Kontantrabattolerance - advarsel** er **Afvis den forsinkede kontantrabat**.
+>  Standardindstillingen for siden **Betalingstolerance - advarsel** er **Lad saldoen stå som restbeløb**. Standardindstillingen for siden **Kont.rabattolerance - advarsel** er **Afvis den forsinkede kontantrabat**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Sådan spærres betalingstolerancer for debitorer  
 Standardindstillingen for betalingstolerancer er tilladt. Hvis du vil afvise betalingstolerancer for en bestemt debitor eller kreditor, skal du spærre tolerancer på henholdsvis debitor- eller kreditorkortet. Følgende beskriver, hvordan du skal gøre det for en debitor. Trinene er de samme for en kreditor.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Debitor** eller **Kreditor**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitor** eller **Kreditor**, og vælg derefter det relaterede link.  
 2. På oversigtspanelet **Betalinger** skal du vælge afkrydsningsfeltet **Spær betalingstolerance**.  
 
 > [!NOTE]  
@@ -95,23 +96,23 @@ Scenarier med alternativ A eller B repræsenterer følgende:
 - **A** – I dette tilfælde er advarslen om kontantrabattolerance slået fra, ELLER brugeren har slået advarslen til og valgt at tillade den forsinkede kontantrabat (Bogfør saldoen som betalingstolerance).  
 - **B** – I dette tilfælde har brugeren slået advarslen til og valgt ikke at tillade den forsinkede kontantrabat (Lad saldoen stå som restbeløb).  
 
-|–|Faktura|Kontantrabat|Maks. betalingstolerance|Kontantrabatdato|Advarsel om kontaktrabattolerancedato|Betal.dato|Betaling|Tol.type|Alle poster lukket|Kontantrabattolerance finans/debitor|Maks. betalingstolerance, finans/debitor|  
+|–|Faktura|Kont.rabat|Maks. betal.tol.|Kont.rabatdato|Kont.rabattol. Dato|Betal.dato|Kont.|Tol.type|Alle poster lukket|Kont.rabattol. finans/debitor|Bet.Tol. finans|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
-|1|1.000|20|5|01/15/03|01/20/03|<=15-01-03|985|Betalingstolerance|Ja|0|-5|  
+|1|1.000|20|5|01/15/03|01/20/03|<=15-01-03|985|Pmt.Tol.|Ja|0|-5|  
 |2|**1,000**|**20**|**5**|**01/15/03**|**01/20/03**|**<=01/15/03**|**980**|**Ingen**|**Ja**|**0**|**0**|  
-|3|1.000|20|5|01/15/03|u|<=15-01-03|975|Betalingstolerance|Ja|0|5|  
-|4A|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|1005|Advarsel om kontaktrabattolerance|Nr. 25 på betalingen|20/-20|0|  
-|5A|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|1000|Advarsel om kontaktrabattolerance|Nr. 20 på betalingen|20/-20|0|  
-|6A|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|995|Advarsel om kontaktrabattolerance|Nr. 15 på betalingen|20/-20|0|  
-|4B|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|1005|Betalingstolerance|Ja|0|-5|  
+|3|1.000|20|5|01/15/03|c|<=15-01-03|975|Pmt.Tol.|Ja|0|5|  
+|4A|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|1005|Kont.rab.tolerance|Nr, 25 kont.|20/-20|0|  
+|5A|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|1000|Kont.rab.tolerance|Nr, 20 kont.|20/-20|0|  
+|6A|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|995|Kont.rab.tolerance|Nr., 15 kont.|20/-20|0|  
+|4B|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|1005|Pmt.Tol.|Ja|0|-5|  
 |**5B**|**1,000**|**20**|**5**|**01/15/03**|**01/20/03**|**16.01.03 - 20-01-03**|**1000**|**Ingen**|**Ja**|**0**|**0**|  
-|6B|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|995|Betalingstolerance|Ja|0|5|  
-|7|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|985|Betalingsrabattolerance og betalingstolerance|Ja|20/-20|-5|  
-|8|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|980|Advarsel om kontaktrabattolerance|Ja|20/-20|0|  
-|9|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|975|Betalingsrabattolerance og betalingstolerance|Ja|20/-20|5|  
-|10|1.000|20|5|01/15/03|01/20/03|>01/20/03|1005|Betalingstolerance|Ja|0|-5|  
+|6B|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|995|Pmt.Tol.|Ja|0|5|  
+|7|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|985|Kont.rab.tolerance & Bet.Tol.|Ja|20/-20|-5|  
+|8|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|980|Kont.rab.tolerance|Ja|20/-20|0|  
+|9|1.000|20|5|01/15/03|01/20/03|16.01.03 - 20-01-03|975|Kont.rab.tolerance & Bet.Tol.|Ja|20/-20|5|  
+|10|1.000|20|5|01/15/03|01/20/03|>01/20/03|1005|Pmt.Tol.|Ja|0|-5|  
 |**11**|**1,000**|**20**|**5**|**01/15/03**|**01/20/03**|**>01/20/03**|**1000**|**Ingen**|**Ja**|**0**|**0**|  
-|12|1.000|20|5|01/15/03|01/20/03|>01/20/03|995|Betalingstolerance|Ja|0|5|  
+|12|1.000|20|5|01/15/03|01/20/03|>01/20/03|995|Pmt.Tol.|Ja|0|5|  
 |13|1.000|20|5|01/15/03|01/20/03|>01/20/03|985|Ingen|Nr., 15 på fakturaen|0|0|  
 |14|1.000|20|5|01/15/03|01/20/03|>01/20/03|980|Ingen|Nr., 20 på fakturaen|0|0|  
 |15|1.000|20|5|01/15/03|01/20/03|>01/20/03|975|Ingen|Nr., 25 på fakturaen|0|0|  
@@ -124,7 +125,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Betingelser for en enkelt betalingstolerance 1.](media/singlePmtTolRules_Pre1503.gif "Betingelser for en enkelt betalingstolerance 1")  
+![Betingelser for en enkelt betalingstolerance 1](media/singlePmtTolRules(Pre1503).gif "Betingelser for en enkelt betalingstolerance 1")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -135,7 +136,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Betingelser for en enkelt betalingstolerance 2.](media/singlePmtTolRules_GracePeriod.gif "Betingelser for en enkelt betalingstolerance 2")  
+![Betingelser for en enkelt betalingstolerance 2](media/singlePmtTolRules(GracePeriod).gif "Betingelser for en enkelt betalingstolerance 2")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -146,7 +147,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-![Betingelser for en enkelt betalingstolerance 3.](media/singlePmtTolRules_Post0120.gif "Betingelser for en enkelt betalingstolerance 3")  
+![Betingelser for en enkelt betalingstolerance 3](media/singlePmtTolRules(Post0120).gif "Betingelser for en enkelt betalingstolerance 3")  
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -166,38 +167,38 @@ Scenarier med alternativ A, B, C eller D repræsenterer følgende:
 - **C** – I dette tilfælde har brugeren slået advarslen til og valgt at tillade den forsinkede kontantrabat for den første faktura, men ikke den anden faktura.  
 - **D** – I dette tilfælde har brugeren slået advarslen til og valgt ikke at tillade den forsinkede kontantrabat for den første faktura, men at tillade den for den anden faktura.  
 
-|–|Faktura|Kontantrabat|Maks. betalingstolerance|Kontantrabatdato|Advarsel om kontaktrabattolerancedato|Betal.dato|Betaling|Tol.type|Alle poster lukket|Kontantrabattolerance finans/debitor|Maks. betalingstolerance, finans/debitor|  
+|–|Faktura|Kont.rabat|Maks. betal.tol.|Kont.rabatdato|Kont.rabattol. Dato|Betal.dato|Kont.|Tol.type|Alle poster lukket|Kont.rabattol. finans/debitor|Bet.Tol. finans|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
-|1|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|<=15-01-03|1920|Betalingstolerance|Ja|0<br /><br /> 0|-5 <br />-5|  
+|1|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|<=15-01-03|1920|Bet.tol.|Ja|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**01/15/03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**<=01/15/03**|**1910**|**Ingen**|**Ja**|**0**<br /><br /> **0**|0 <br />0|  
-|3|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|<=15-01-03|1900|Betalingstolerance|Ja|0<br /><br /> 0|5 <br />5|  
-|4B|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|16-01-03 - 17-01-03|1980|Betalingstolerance|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
+|3|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|<=15-01-03|1900|Pmt.Tol.|Ja|0<br /><br /> 0|5 <br />5|  
+|4B|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|16-01-03 - 17-01-03|1980|Bet.tol.|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
 |**5B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**01/15/03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**16-01-03 - 17-01-03**|**1970**|**Ingen**|**Ja**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|6B|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|16-01-03 - 17-01-03|1960|Betalingstolerance|Ja|0<br /><br /> 0|5<br /><br /> 5|  
-|7A|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|16-01-03 - 17-01-03|1920|Betalingsrabattolerance og betalingstolerance|Ja|60/60<br /><br /> 0/0|-5 <br />-5|  
-|8A|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|16-01-03 - 17-01-03|1910|Advarsel om kontaktrabattolerance|Ja|60/60<br /><br /> 0/0|0 <br />0|  
-|9A|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|16-01-03 - 17-01-03|1900|Betalingsrabattolerance og betalingstolerance|Ja|60/60|5 <br />5|  
-|10B|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|2010|Betalingstolerance|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
+|6B|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|16-01-03 - 17-01-03|1960|Bet.tol.|Ja|0<br /><br /> 0|5<br /><br /> 5|  
+|7A|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|16-01-03 - 17-01-03|1920|Kont.rab.tolerance & Bet.Tol.|Ja|60/60<br /><br /> 0/0|-5 <br />-5|  
+|8A|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|16-01-03 - 17-01-03|1910|Kont.rab.tolerance|Ja|60/60<br /><br /> 0/0|0 <br />0|  
+|9A|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|16-01-03 - 17-01-03|1900|Kont.rab.tolerance & Bet.Tol.|Ja|60/60|5 <br />5|  
+|10B|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|2010|Bet.tol.|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
 |**11B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**01/15/03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**18-01-03 - 20-01-03**|**2000**|**Ingen**|**Ja**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|12B|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1990|Betalingstolerance|Ja|0<br /><br /> 0|5<br /><br /> 5|  
-|13D|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1980|Betalingsrabattolerance og betalingstolerance|Ja|0/0<br /><br /> 30/-30|-5 <br />-5|  
-|14D|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1970|Advarsel om kontaktrabattolerance|Ja|0/0<br /><br /> 30/-30|0 <br />0|  
-|15D|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1960|Betalingsrabattolerance og betalingstolerance|Ja|0/0<br /><br /> 30/-30|5 <br />5|  
-|16D|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1950|Betalingsrabattolerance og betalingstolerance|Ja|60/-60<br /><br /> 0/0|-5 <br />-5|  
-|17D|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1940|Advarsel om kontaktrabattolerance|Ja|60/-60<br /><br /> 0/0|0 <br />0|  
-|18D|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1930|Betalingsrabattolerance og betalingstolerance|Ja|60/-60<br /><br /> 0/0|5 <br />5|  
-|19A|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1920|Betalingsrabattolerance og betalingstolerance|Ja|60/-60<br /><br /> 30/-30|-5 <br />-5|  
-|20A|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1910|Advarsel om kontaktrabattolerance|Ja|60/-60<br /><br /> 30/-30|0 <br />0|  
-|21A|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1900|Betalingsrabattolerance og betalingstolerance|Ja|60/-60<br /><br /> 30/-30|5 <br />5|  
-|22B|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|21-01-03 - 22-01-03|2010|Betalingstolerance|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
+|12B|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1990|Bet.tol.|Ja|0<br /><br /> 0|5<br /><br /> 5|  
+|13D|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1980|Kont.rab.tolerance & Bet.Tol.|Ja|0/0<br /><br /> 30/-30|-5 <br />-5|  
+|14D|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1970|Kont.rab.tolerance|Ja|0/0<br /><br /> 30/-30|0 <br />0|  
+|15D|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1960|Kont.rab.tolerance & Bet.Tol.|Ja|0/0<br /><br /> 30/-30|5 <br />5|  
+|16D|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1950|Kont.rab.tolerance & Bet.Tol.|Ja|60/-60<br /><br /> 0/0|-5 <br />-5|  
+|17D|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1940|Kont.rab.tolerance|Ja|60/-60<br /><br /> 0/0|0 <br />0|  
+|18D|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1930|Kont.rab.tolerance & Bet.Tol.|Ja|60/-60<br /><br /> 0/0|5 <br />5|  
+|19A|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1920|Kont.rab.tolerance & Bet.Tol.|Ja|60/-60<br /><br /> 30/-30|-5 <br />-5|  
+|20A|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1910|Kont.rab.tolerance|Ja|60/-60<br /><br /> 30/-30|0 <br />0|  
+|21A|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|18-01-03 - 20-01-03|1900|Kont.rab.tolerance & Bet.Tol.|Ja|60/-60<br /><br /> 30/-30|5 <br />5|  
+|22B|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|21-01-03 - 22-01-03|2010|Bet.tol.|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
 |**23B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**01/15/03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**21-01-03 - 22-01-03**|**2000**|**Ingen**|**Ja**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|24B|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|21-01-03 - 22-01-03|1990|Betalingstolerance|Ja|0<br /><br /> 0|5<br /><br /> 5|  
-|25A|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|21-01-03 - 22-01-03|1980|Betalingsrabattolerance og betalingstolerance|Ja|0/0<br /><br /> 30/30|-5 <br />-5|  
-|26A|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|21-01-03 - 22-01-03|1970|Advarsel om kontaktrabattolerance|Ja|0/0<br /><br /> 30/30|0 <br />0|  
-|27A|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|21-01-03 - 22-01-03|1960|Betalingsrabattolerance og betalingstolerance|Ja|0/0<br /><br /> 30/30|5 <br />5|  
-|28|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|>22-01-03|2010|Betalingstolerance|Ja|0|-5|  
+|24B|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|21-01-03 - 22-01-03|1990|Bet.tol.|Ja|0<br /><br /> 0|5<br /><br /> 5|  
+|25A|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|21-01-03 - 22-01-03|1980|Kont.rab.tolerance & Bet.Tol.|Ja|0/0<br /><br /> 30/30|-5 <br />-5|  
+|26A|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|21-01-03 - 22-01-03|1970|Kont.rab.tolerance|Ja|0/0<br /><br /> 30/30|0 <br />0|  
+|27A|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|21-01-03 - 22-01-03|1960|Kont.rab.tolerance & Bet.Tol.|Ja|0/0<br /><br /> 30/30|5 <br />5|  
+|28|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|>22-01-03|2010|Bet.tol.|Ja|0|-5|  
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**01/15/03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**>22-01-03**|**2000**|**Ingen**|**Ja**|**0**|**0**|  
-|30|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|>22-01-03|1990|Betalingstolerance|Ja|0|5|  
+|30|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|>22-01-03|1990|Pmt.Tol.|Ja|0|5|  
 
 ### <a name="payment-range-diagrams"></a>Betalingsområdediagrammer  
 I forbindelse med ovenstående scenarie er diagrammerne over betalingsintervaller som følger:  
@@ -207,7 +208,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-:::image type="content" source="media/multiplePmtTolRules_Pre1503.gif" alt-text="Flere betalingstolerancebetingelser 1a":::
+:::image type="content" source="media/multiplePmtTolRules(Pre1503).gif" alt-text="Flere betalingstolerancebetingelser 1a":::
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -218,7 +219,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv1-2.gif" alt-text="Flere betalingstolerancebetingelser 2":::
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1-2).gif" alt-text="Flere betalingstolerancebetingelser 2":::
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -229,7 +230,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv1.gif" alt-text="Flere betalingstolerancebetingelser 3":::
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv1).gif" alt-text="Flere betalingstolerancebetingelser 3":::
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -240,7 +241,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv2.gif" alt-text="Flere betalingstolerancebetingelser 4":::
+:::image type="content" source="media/multiplePmtTolRules(GracePeriodInv2).gif" alt-text="Flere betalingstolerancebetingelser 4":::
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 
@@ -251,7 +252,7 @@ Restbeløb pr.
 
 Normale udligningsregler  
 
-:::image type="content" source="media/multiplePmtTolRules_Post0122.gif" alt-text="Flere betalingstolerancebetingelser 5":::
+:::image type="content" source="media/multiplePmtTolRules(Post0122).gif" alt-text="Flere betalingstolerancebetingelser 5":::
 
 (1) Hvis betaling falder i disse intervaller, kan alle udligningsposter lukkes med eller uden tolerance.  
 

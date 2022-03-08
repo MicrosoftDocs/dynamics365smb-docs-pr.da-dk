@@ -1,20 +1,21 @@
 ---
-title: Designoplysninger - Opsætning af lager
-description: Lagerfunktionen indeholder forskellige kompleksitets niveauer, som i vidt omfang defineres af placerings opsætningen på lokationskort.
+title: Designoplysninger – Opsætning af lager | Microsoft Docs
+description: Lagerfunktioner i Business Central indeholder forskellige niveauer af kompleksitet, som defineret af licenstilladelser i de tilbudte moduler. Niveauet af kompleksitet i en løsning på lagerstedet defineres i høj grad af placeringsopsætningen på lokationskort, som til gengæld licensstyres, så adgang til placeringens opsætningsfelter er defineret af licensen.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 9014836d228ee5bd01a74129fa0ba2aa0dd8dcea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4346b3a2570710f09d5deaded2788274155f1a5a
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142337"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6214774"
 ---
 # <a name="design-details-warehouse-setup"></a>Designoplysninger: Opsætning af lager
 
@@ -138,7 +139,7 @@ Læg-på-lager-skabelonen kan tildeles til en vare og en lokation. Læg-på-lage
 
 ## <a name="see-also"></a>Se også
 
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)   
+[Designoplysninger: Logistik](design-details-warehouse-management.md)   
 [Designoplysninger: Tilgængelighed i lageret](design-details-availability-in-the-warehouse.md)
 
 

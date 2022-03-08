@@ -1,20 +1,21 @@
 ---
-title: Designoplysninger - Integration med lager
-description: Warehouse Management og Logistik-funktionalistikområdet interagerer med hinanden på det fysiske lager og i lager eller logistikregulering.
+title: Designoplysninger – Integration med lager | Microsoft Docs
+description: Modulet Logistik og modulet Lager interagerer med hinanden på det fysiske lager og i lager eller logistikregulering.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 58cb2222f2533e2ba952727243a5fdb830b34e75
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: f38422326487a3fd7367b977e6124eab572fffd9
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145884"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880372"
 ---
 # <a name="design-details-integration-with-inventory"></a>Designoplysninger: Integration med lager
 Modulet Logistik og modulet Lager interagerer med hinanden på det fysiske lager og i lager eller logistikregulering.  
@@ -45,7 +46,5 @@ Modulet Logistik og modulet Lager interagerer med hinanden på det fysiske lager
  Hvis du angiver et positivt antal og bogfører linjen, øges det lager, der opbevares på placeringen, og antallet på reguleringsplaceringens standard reduceres tilsvarende.  
   
 ## <a name="see-also"></a>Se også  
- [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)   
+ [Designoplysninger: Logistik](design-details-warehouse-management.md)   
  [Designoplysninger: Tilgængelighed i lageret](design-details-availability-in-the-warehouse.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,22 +1,23 @@
 ---
-title: Oversigt over opgaver til opfyldelse af servicekontrakter
-description: Beskriver opgaver, der indgår i opfyldelse af servicekontrakter med kunder, f. eks. oprette kontraktlige aftaler med brugerdefinerbare skabeloner og meget mere.
+title: Oversigt over opgaver til opfyldelse af kontrakter | Microsoft Docs
+description: Beskriver opgaver, der skal udføres for at styre servicekontrakter med kunder.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 06/23/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 0290246fa9fa648a9d0ff4ede4c71464b3208017
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 16226b3c8cc7661ee44bcac0e6934d175ea460b5
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140601"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377419"
 ---
 # <a name="fulfilling-service-contracts"></a>Opfylde servicekontrakter 
 En måde at konfigurere en servicestyringsforretning på er at lade aftalerne mellem virksomheden og kunderne være baseret på standardkontrakter, hvor niveauet for og forventningerne til servicen beskrives. Du kan oprette kontraktskabeloner, der indeholder de nødvendige oplysninger, f.eks. kunde, kontraktens startdato og faktureringsperiode.  

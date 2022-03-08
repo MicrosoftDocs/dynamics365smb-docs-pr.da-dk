@@ -1,22 +1,23 @@
 ---
 title: Se databaselåse
-description: Få mere at vide om, hvordan du kan få vist oplysninger om kundedatabaselåse direkte fra klientgrænsefladen i Business Central.
 author: jswymer
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9511
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 0a2561eea331ffbaeb058dee2ee13caf0a82d18c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: abee0f31d66f648f4b0be567d8599b31c536a193
+ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143682"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3324098"
 ---
 # <a name="viewing-database-locks"></a>Sådan ser du databaselåse
+
+## <a name="about-locks"></a>Om låse
 
 Låsning af databaser styrer adgangen for flere brugere til de samme data på samme tid. Hvis du vil beskytte en transaktion mod andre transaktioner, der ændrer de samme data, medfører den første transaktion en låsning af dataene. Låsen forbliver aktiv, indtil transaktionen er udført.
 
@@ -24,7 +25,7 @@ Brugere kan forhindres i at fuldføre transaktioner på de låste data. De vil t
 
 ## <a name="to-view-database-locks"></a>Sådan ser du databaselåse
 
-Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, skriv **Databaselåse**, og vælg derefter det relaterede link.
+Vælg ikonet ![Søg efter side eller rapport](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport"), angiv **Databaselåse**, og vælg derefter det relaterede link.
 
 Siden **Databaselåse** viser et øjebliksbillede af alle aktuelle databaselåse.
 
@@ -33,6 +34,3 @@ Få flere oplysninger om låsning af databaser i [Overvågning af databaselåsni
 ## <a name="see-also"></a>Se også
 
 [Overvåg låsninger af databaser](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

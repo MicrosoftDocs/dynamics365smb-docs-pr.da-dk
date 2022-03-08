@@ -1,27 +1,27 @@
 ---
-title: Arbejde med tilbagevendende indtægt
+title: Arbejde med tilbagevendende indtægt | Microsoft-dokumenter
 description: Få mere at vide om de tilgængelige muligheder for at automatisere afsendelse af abonnementsfakturaer til kunder og registrering af tilbagevendende indtægter.
 author: AndreiPanko
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: recurring, invoicing, subscription, billing
-ms.search.form: 283
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 05/27/2020
 ms.author: andreipa
-ms.openlocfilehash: cf990ec5de639054a79e98275be76cb0aed989d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a0439557ce69b3c53406bd43b3b76cdf9ae73a10
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128787"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410783"
 ---
-# <a name="work-with-recurring-revenue-in-prod_short"></a>Arbejde med tilbagevendende indtægt i [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-recurring-revenue-in-d365fin"></a>Arbejde med tilbagevendende indtægt i [!INCLUDE[d365fin](includes/d365fin_md.md)]
 
 Mange virksomheder skifter fra en forretningsindtægtsmodel, hvor indtægten kommer fra en kundes engangskøb, til en abonnementsmodel, hvor indtægten sker på en tilbagevendende basis, så der er uafbrudt adgang til levering af en vare eller en service.
-[!INCLUDE[prod_short](includes/prod_short.md)] giver følgende muligheder for at automatisere, hvordan du afsender abonnementsfakturaer til kunder og registrerer tilbagevendende indtægter. 
+[!INCLUDE[d365fin](includes/d365fin_md.md)] giver følgende muligheder for at automatisere, hvordan du afsender abonnementsfakturaer til kunder og registrerer tilbagevendende indtægter. 
 
 ## <a name="register-revenue-with-a-recurring-general-journal"></a>Registrere indtægt via en finansgentagelseskladde
 
@@ -31,9 +31,9 @@ En gentagelseskladde er en finanskladde med specifikke felter til styring af tra
 
 Med denne mulighed kan du angive fleksible faktureringsperioder med [datoformler](ui-enter-date-ranges.md#using-date-formulas).
 
-Men hvis du vælger denne mulighed, kan du ikke udskrive og sende fakturaer i standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)].  
+Men hvis du vælger denne mulighed, kan du ikke udskrive og sende fakturaer i standardversionen af [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Du kan finde flere oplysninger i [Arbejde med gentagelseskladder](ui-work-general-journals.md#working-with-recurring-journals).  
+Du kan finde flere oplysninger under [Arbejde med gentagelseskladder](ui-work-general-journals.md#working-with-recurring-journals).  
 
 ## <a name="create-multiple-invoices-based-on-a-recurring-job-journal"></a>Oprette flere fakturaer på basis af en sagsgentagelseskladde
 
@@ -47,7 +47,7 @@ Hvis du vælger denne mulighed, følger du standardproceduren for fakturering me
 
 Du skal imidlertid oprette en ny sag og føje linjer til gentagelseskladden. 
 
-Du kan finde flere oplysninger i [Oprette sagskladdelinjer](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) og [Oprette flere salgsfakturaer for sager](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices).
+Du kan finde flere oplysninger under [Oprette sagskladdelinjer](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) og [Oprette flere salgsfakturaer for sager](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices).
 
 ## <a name="create-multiple-invoices-based-on-recurring-sales-lines"></a>Oprette flere fakturaer baseret på tilbagevendende salgslinjer
 
@@ -57,7 +57,7 @@ Hvis du ofte har brug at oprette salgs- og købslinjer med næsten ens oplysning
 
 Med denne indstilling kan du tildele samme gentagelseslinjer til flere kunder. Du kan definere gyldighedsperioden for tilbagevendende salgslinjer for en specifik kunde. Du kan tildele flere gentagelseslinjer for den samme kunde, og alle disse vil blive medtaget i fakturaen.
 
-Det er imidlertid ikke muligt at angive faste priser for varer, da [!INCLUDE[prod_short](includes/prod_short.md)] bruger faktiske priser og rabatter, der er gældende på bilagsdatoen, og forsøger derefter at finde den bedste kombination, der giver den laveste pris.  
+Det er imidlertid ikke muligt at angive faste priser for varer, da [!INCLUDE[d365fin](includes/d365fin_md.md)] bruger faktiske priser og rabatter, der er gældende på bilagsdatoen, og forsøger derefter at finde den bedste kombination, der giver den laveste pris.  
 
 Du kan finde flere oplysninger i [Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md).
 
@@ -74,10 +74,10 @@ Med denne mulighed kan du bruge en del af den avancerede servicestyringsfunktion
 
 Denne indstilling kræver imidlertid en Premium-licens. Konfiguration af servicestyring og vedligeholdelse af den vil muligvis ikke give enorme fordele ved enklere abonnementsscenarier.  
 
-Du kan finde flere oplysninger i [Arbejde med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md) og [Fakturere flere servicekontrakter](service-how-create-invoices.md#to-invoice-several-service-contracts).
+Du kan finde flere oplysninger under [Arbejde med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md) og [Fakturere flere servicekontrakter](service-how-create-invoices.md#to-invoice-several-service-contracts).
 
 ## <a name="related-features"></a>Relaterede funktioner
-Der er flere relaterede funktioner i [!INCLUDE[prod_short](includes/prod_short.md)].
+Der er flere relaterede funktioner i [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ### <a name="blanket-sales-orders"></a>Rammesalgsordrer
 
@@ -86,11 +86,11 @@ Der indgås ofte en rammeaftale, hvor en kunde har forpligtet sig til at købe e
 
 #### <a name="why-use-this-option"></a>Hvorfor bruge denne mulighed
 
-Med denne mulighed kan du bruge den forventede efterspørgsel, så oplysningerne tages i betragtning i de normale planlægningsrutiner. Du kan finde flere oplysninger i [Behovsprognoser og rammeordrer](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders).  
+Med denne mulighed kan du bruge den forventede efterspørgsel, så oplysningerne tages i betragtning i de normale planlægningsrutiner. Du kan finde flere oplysninger under [Behovsprognoser og rammeordrer](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders).  
 
 Standardversionen giver dog ikke mulighed for som standard at behandle flere rammeordrer ad gangen.
 
-Du kan finde flere oplysninger i [Arbejde med rammesalgsordrer](sales-how-to-create-blanket-sales-orders.md).
+Du kan finde flere oplysninger under [Arbejde med rammesalgsordrer](sales-how-to-create-blanket-sales-orders.md).
 
 ### <a name="recurring-orders-norway"></a>Tilbagevendende ordrer (Norge)
 
@@ -103,11 +103,11 @@ Med denne mulighed kan du vælge mellem faste og "bedste" priser.
 
 Dette er dog kun tilgængeligt i Norge. Gyldighedsperioden kan defineres på tilbagevendende grupperingsniveau.
 
-Du kan finde flere oplysninger i [Gentagelse af ordrer](LocalFunctionality/Norway/recurring-orders.md).
+Du kan finde flere oplysninger under [Tilbagevendende ordrer (Norge)](/localfunctionality/norway/recurring-orders.md).
 
 ### <a name="recurring-revenue-and-subscription-billing-by-other-providers"></a>Tilbagevendende indtægt og abonnementsfakturering fra andre udbydere
 
-På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du få udvidelser til Business Central. Nogle udvidelser er fra Microsoft, mens andre udvidelser leveres af andre virksomheder. Oversigten over udvidelserne fra andre firmaer vokser hver måned. Så hold øje med [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646), og få apps, der kan hjælpe dig med at arbejde i Business Central.  
+På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du få udvidelser til Business Central. Nogle udvidelser er fra Microsoft, mens andre udvidelser leveres af andre virksomheder. Oversigten over udvidelserne fra andre firmaer vokser hver måned. Så hold øje med [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1), og få apps, der kan hjælpe dig med at arbejde i Business Central.  
 
 ## <a name="see-also"></a>Se også
 
@@ -120,7 +120,4 @@ På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du få udvid
 [Fakturere flere servicekontrakter](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Behovsprognoser og rammeordrer](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Arbejde med rammesalgsordrer](sales-how-to-create-blanket-sales-orders.md)  
-[Tilbagevendende ordrer (Norge)](LocalFunctionality/Norway/recurring-orders.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Tilbagevendende ordrer (Norge)](/localfunctionality/norway/recurring-orders.md)  

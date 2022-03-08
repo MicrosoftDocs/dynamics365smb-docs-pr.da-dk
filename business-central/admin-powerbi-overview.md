@@ -1,21 +1,22 @@
 ---
 title: Oversigt over Power BI-integrationskomponent og -arkitektur for Business central| Microsoft Docs
-description: Flere oplysninger om forskellige aspekter ved Power BI-integration med Business central.
+description: Du kan nemt få indsigt, business intelligence og nøgletal i dine Business Central-data med Business Central-apps for Power BI.
 author: jswymer
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: b4f48182e6d4356e9621dc5a041945700f5d7599
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d6c01d95dfaebe6682c4c5e20bc85bdebb0c9b54
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143921"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377919"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Oversigt over Power BI-integrationskomponent og -arkitektur for [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -41,21 +42,19 @@ Følgende tabel beskriver de tilgængelige funktioner.
 |Integreret oplevelse ved visning af en bestemt rapport i en faktaboks i [!INCLUDE[prod_short](includes/prod_short.md)]|Begge dele. Kræver konfiguration for at vise rapporter lokalt.|
 |Power BI-rapportstyring fra [!INCLUDE[prod_short](includes/prod_short.md)]|Online|
 |Standardrapporter fra Power BI i rollecentre, der er udrullet til Power BI|Online|
-|Power BI-apps på Microsoft AppSource|Online|
+|Power BI-apps på Microsoft AppSource|Online.|
 
 ## <a name="architecture"></a>Arkitektur
 
-[!INCLUDE[prod_short](includes/prod_short.md)] integreres med Power BI via en connector, der bruger OData. Datakilden til Power BI-rapporter vises som API-sider og OData-webtjenester.
+[!INCLUDE[prod_short](includes/prod_short.md)] integreres med Power BI via en connector, der bruger OData. Datakilden til Power BI-rapporter vises som OData-webtjenester.
 
-:::image type="content" source="./media/power-bi-architecture.png" alt-text="Alternativ billedtekst." lightbox="./media/power-bi-architecture.png":::
-
-Fra og med februar 2022 er Power BI-rapporter om [!INCLUDE[prod_short](includes/prod_short.md)] Online baseret på en sekundær, skrivebeskyttet databasereplika. Database-replika er en del af [read scale-out](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview)-funktionen i [!INCLUDE[prod_short](includes/prod_short.md)] online. Denne konfiguration frigør hoveddatabasen til transaktioner, hvilket forbedrer systemets ydeevne. Når du opretter forbindelse til den skrivebeskyttede databasereplika, er det en integreret del af Business Central online-connector og kræver ingen ekstra opsætning. Alle nye rapporter opretter som standardforbindelse til den skrivebeskyttede databasereplika. Gamle rapporter bruger stadig hoveddatabasen. Du kan finde flere oplysninger i [Business Central 2021 Release Wave 2-plan ](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
+![Power BI-arkitektur til integration med Business Central](./media/power-bi-architecture.png)
 
 ## <a name="general-flow"></a>Generelt flow
 
 I følgende diagram illustreres den grundlæggende arbejdsgang for brugere, når der oprettes forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI.
 
-![Power BI-arbejdsgang til integration med Business Central.](./media/power-bi-flow.png)
+![Power BI-arbejdsgang til integration med Business Central](./media/power-bi-flow.png)
 
 1. Bruger tilmelder sig en Power BI-konto.
 2. Bruger opretter forbindelse til Power BI fra [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -75,12 +74,14 @@ I følgende diagram illustreres den grundlæggende arbejdsgang for brugere, når
 [Hurtig start: Opret forbindelse til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI-dokumentation](/power-bi/)  
 [Business Intelligence](bi.md)  
-[Blive køreklar](ui-get-ready-business.md)  
-[Import af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
+[Introduktion](product-get-started.md)  
+[Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
 [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
 [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
+
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

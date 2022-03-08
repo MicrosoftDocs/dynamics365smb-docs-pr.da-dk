@@ -1,20 +1,21 @@
 ---
-title: Designoplysninger - Regulering
-description: Du kan regulere lagerbeholdningen baseret på det værdigrundlag, der mest præcist afspejler værdien af lageret.
+title: Designoplysninger – Værdiregulering | Microsoft Docs
+description: Du kan regulere lagerbeholdningen baseret på det værdigrundlag, der mest præcist afspejler værdien af lageret. Du kan også tilbagedatere en værdiregulering, så omkostningerne for vareforbruget opdateres korrekt for varer, der allerede er solgt. Varer, der benytter kostmetoden Standard, der ikke er blevet fuldt faktureret, kan også revalueres.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a9da38bf023ff378a20daa373bdd1963380e9928
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5ece03828aad360b03a4c2cc4e0b47a6f603e8dc
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131818"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751201"
 ---
 # <a name="design-details-revaluation"></a>Designoplysninger: Regulering
 Du kan regulere lagerbeholdningen baseret på det værdigrundlag, der mest præcist afspejler værdien af lageret. Du kan også tilbagedatere en værdiregulering, så omkostningerne for vareforbruget opdateres korrekt for varer, der allerede er solgt. Varer, der benytter kostmetoden Standard, der ikke er blevet fuldt faktureret, kan også revalueres.  
@@ -38,7 +39,7 @@ Da regulering kan foretages på en hvilken som helst dato, skal der være konven
 ### <a name="example"></a>Eksempel  
 I følgende eksempel illustreres, når en vareoverflytning for igangværende arbejde bliver en del af lageret. Eksemplet er baseret på produktion af en kæde med 150 links.  
 
-![Lageret og værdiregulering for igangværende arbejde.](media/design_details_inventory_costing_10_revaluation_wip.png "Lageret og værdiregulering for igangværende arbejde")  
+![Lageret og værdiregulering for igangværende arbejde](media/design_details_inventory_costing_10_revaluation_wip.png "Lageret og værdiregulering for igangværende arbejde")  
 
 **1K**: Brugeren bogfører de købte led som modtaget. Følgende tabel viser de resulterende vareposter.  
 
@@ -87,7 +88,7 @@ Værdiansættelsesdatoen angives til datoen for forbrugsbogføring (01-02-20) so
 Antallet, der skal reguleres, beregnes som det samlede antal af fuldt fakturerede vareposter med en bogføringsdato, der er lig med eller tidligere end reguleringsdatoen. Det betyder, at når nogle varer er modtaget/leveret, men ikke faktureret, så kan deres lagerværdi ikke beregnes. Varer, der benytter kostmetoden Standard, er ikke begrænset i denne henseende.  
 
 > [!NOTE]  
->  En anden type af forventede omkostninger, der kan reguleres, er lagerbeholdningen for det igangværende arbejde, inden for visse regler. Du kan finde flere oplysninger i [WIP-lagerregulering](design-details-revaluation.md#wip-inventory-revaluation).  
+>  En anden type af forventede omkostninger, der kan reguleres, er lagerbeholdningen for det igangværende arbejde, inden for visse regler. Du kan finde flere oplysninger under [WIP-lagerregulering](design-details-revaluation.md#wip-inventory-revaluation).  
 
 Ved beregning af det re-revaluerede antal for varer ved brug af kostmetoden Standard medtages vareposter, der endnu ikke er fuldt faktureret i beregningen. Disse poster reguleres så, når du bogfører reguleringen. Når du fakturerer den regulerede post, oprettes der følgende værdiposter:  
 
@@ -181,6 +182,3 @@ VIA-lageret kan reguleres, så længe reguleringsdatoen ikke ligger senere end b
  [Designoplysninger: Lagerværdi](design-details-inventory-valuation.md) [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
  [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

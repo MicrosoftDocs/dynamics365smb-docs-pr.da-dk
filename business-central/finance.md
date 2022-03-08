@@ -1,23 +1,23 @@
 ---
-title: Økonomistyring (indeholder video)
+title: Økonomistyring
 description: Få mere at vide om, hvordan Business Central understøtter dine behov for økonomistyring, regnskab, revision eller bogholderi.
 author: edupont04
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.search.form: 1151, 1166, 9027, 9004
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 44c7475921c679cc03ee25e8c05ffa78d04592f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 27ced3ad13d0469fd06825aa981a7f5969e04fbd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135954"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4750276"
 ---
-# <a name="financial-management"></a>Økonomistyring
+# <a name="finance"></a>Finans
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en standardkonfigurationen af de fleste finansielle processer, men du kan ændre konfigurationen, så den passer til din virksomhed. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md).
 
@@ -44,7 +44,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Tildel ekstra omkostninger såsom fragt og håndtering, som du har under handel, til de varer, der er involveret, så omkostningerne afspejles i lagerværdien. |[Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md) |
 |Bogfør medarbejderes personlige udgifter for virksomhedsrelaterede aktiviteter, og refunder medarbejdere ved at foretage betaling til deres bankkonto.|[Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md)|
 | Realisere indtægter og udgifter i andre perioder end dem, hvor transaktionerne blev bogført. |[Periodisere indtægter og udgifter](finance-how-defer-revenue-expenses.md)|
-| Få mere at vide om de tilgængelige muligheder for at automatisere afsendelse af abonnementsfakturaer til kunder og registrering af tilbagevendende indtægter. |[Arbejde med tilbagevendende indtægt](finance-recurring-invoicing.md)|
+| Få mere at vide om de tilgængelige muligheder for at automatisere afsendelse af abonnementsfakturaer til kunder og registrering af tilbagevendende indtægter. |[Tilbagevendende indtægter (abonnement)](finance-recurring-invoicing.md)|
 |Få mere at vide om, hvordan du bruger flere valutaer og opdaterer valutakurser automatisk. |[Opdatere valutakurser](finance-how-update-currencies.md)|
 | Importere løntransaktioner fra din lønningslisteudbyder i finansbogholderiet. |[Importér løntransaktioner](finance-how-import-payroll-transactions.md)|
 |Brug funktioner til at beregne moms på salgs- og købstransaktioner, så du kan rapportere beløbene til skattemyndighederne.|[Arbejde moms af salg og køb](finance-work-with-vat.md)|
@@ -73,6 +73,3 @@ I følgende video introduceres nogle af de vigtigste funktioner i forbindelse me
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

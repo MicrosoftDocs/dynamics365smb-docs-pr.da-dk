@@ -2,23 +2,24 @@
 title: Arbejde med Business Central-data i Power BI| Microsoft Docs
 description: Få indsigt, business intelligence og KPI'er fra Business Central-data ved hjælp af Power BI.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: d8cd59f77230fe7d7593510f0abfc24bf9c29a2a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6c53fa5aeb615db809887ae96d51101789c312e3
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142571"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384145"
 ---
 # <a name="working-with-prod_short-data-in-power-bi"></a>Arbejde med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI
 
-I denne artikel lærer du nogle af de grundlæggende oplysninger om arbejde med rapporter og dashboards i Power BI, der bruger [!INCLUDE [prod_short](includes/prod_short.md)] som datakilde. I artiklen diskuteres nogle aspekter, som kan hjælpe dig med at komme i gang som [!INCLUDE[prod_short](includes/prod_short.md)]-bruger. Du kan finde generelle retningslinjer og instruktioner i brugen af Power BI i [Power BI-dokumentationen til forbrugerne](/power-bi/consumer).
+I denne artikel lærer du nogle af de grundlæggende oplysninger om arbejde med rapporter og dashboards i Power BI, der bruger [!INCLUDE [prod_short](includes/prod_short.md)] som datakilde. I artiklen diskuteres nogle aspekter, som kan hjælpe dig med at komme i gang som [!INCLUDE[prod_short](includes/prod_short.md)]-bruger. Du kan finde generelle retningslinjer og instruktioner i brugen af Power BI i [Power BI-dokumentationen til forbrugerne](https://review.docs.microsoft.com/en-us/power-bi/consumer).
 
 ## <a name="get-ready"></a>Gør dig klar
 
@@ -58,7 +59,7 @@ Power BI-rapporter kan distribueres blandt brugere som .pbix-filer. Hvis du har 
 
 3. Vælg **Lokal fil**, gå til det sted, hvor du har gemt filen, og vælg **Åbn**.
 
-Du kan finde flere oplysninger i [Overføre rapporten til tjenesten](/power-bi/paginated-reports/paginated-reports-quickstart-aw#upload-the-report-to-the-service).
+Du kan finde flere oplysninger under [Overføre rapporten til tjenesten](/power-bi/paginated-reports/paginated-reports-quickstart-aw#upload-the-report-to-the-service).
 
 > [!NOTE]
 > Hvis du overfører en rapport, kræver det, at du har et arbejdsområde med [Premium-kapacitet](/power-bi/service-premium-what-is). Du kan finde flere oplysninger i [Administrere Premium-kapaciteter](/power-bi/admin/service-premium-capacity-manage). 
@@ -70,7 +71,7 @@ Du kan finde flere oplysninger i [Overføre rapporten til tjenesten](/power-bi/p
 
 Når en rapport findes i dit arbejdsområde, kan du dele den med andre i din organisation.
 
-Hvis du vil dele en rapport i en listerapport eller i en åben rapport, skal du vælge **Del**. I ruden **Del rapport** skal du indtaste de fulde mailadresser for de enkeltpersoner eller distributionsgrupper, du vil dele med. Følg instruktionerne på skærmen for at fuldføre delingen. Du kan finde flere oplysninger i [Dele et dashboard eller en rapport](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
+Hvis du vil dele en rapport i en listerapport eller i en åben rapport, skal du vælge **Del**. I ruden **Del rapport** skal du indtaste de fulde mailadresser for de enkeltpersoner eller distributionsgrupper, du vil dele med. Følg instruktionerne på skærmen for at fuldføre delingen. Du kan finde flere oplysninger under [Dele et dashboard eller en rapport](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
 > [!NOTE]
 > Du skal have [Power BI Pro-licens](/power-bi/service-features-license-type), og det samme gælder de personer, som du deler med. Indholdet skal være i et arbejdsområde med en [Premium-kapacitet](/power-bi/service-premium-what-is). Du kan få flere oplysninger i [Sådan deler du dit arbejde i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
@@ -88,14 +89,14 @@ Hvis du vil dele en rapport i en listerapport eller i en åben rapport, skal du 
 [Hurtig start: Opret forbindelse til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI-dokumentation](/power-bi/)  
 [Business Intelligence](bi.md)  
-[Blive køreklar](ui-get-ready-business.md)  
-[Import af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
+[Introduktion](product-get-started.md)  
+[Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
 [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
 [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
-
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

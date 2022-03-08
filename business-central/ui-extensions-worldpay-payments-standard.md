@@ -1,32 +1,30 @@
 ---
-title: WorldPay Payments Standard
-description: Med udvidelsen WorldPay Payments Standard kan du tilbyde kunder et praktisk alternativ til betalinger via bankoverførsler eller kreditkort.
+title: WorldPay Payments Standard| Microsoft Docs
+description: Indeholder oplysninger om WorldPay Payments Standard-udvidelsen
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/23/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: dfb523d70938cd4110cca9f963de05bdf8033623
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6506398391871621e994c74ba5499ebc6715f7b0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132390"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3189599"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>Udvidelsen WorldPay Payments Standard
 Med udvidelsen WorldPay Payments Standard kan du tilbyde kunder et praktisk alternativ til betalinger via bankoverførsler eller kreditkort. Ikke nok med det, betalinger foretaget via betalingstjenester står typisk hurtigere på bankkontoen.
 Hvis du aktiverer udvidelsen og sender en salgsfaktura eller salgsordre via mail, indeholder dokumentet et link til betalingstjenesten i brødteksten i mailen og i det vedhæftede PDF-dokument. En kunde kan vælge linket og derefter bruge betalingstjenesten til at foretage betalingen.
 
-Aktivering af betalingstjenesteudvidelser er gratis i [!INCLUDE[prod_short](includes/prod_short.md)], men du skal kontakte betalingstjenesten for at få en konto. Du kan finde flere oplysninger i [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md).
+Aktivering af betalingstjenesteudvidelser er gratis i [!INCLUDE[d365fin](includes/d365fin_md.md)], men du skal kontakte betalingstjenesten for at få en konto. Du kan finde flere oplysninger i [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Se også
-[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
+[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Konfigurere salg](sales-setup-sales.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

@@ -1,29 +1,28 @@
 ---
-title: Forretningsfunktioner, der understøttes af Business Central
+title: Forretningsfunktioner, der understøttes af Business Central | Microsoft Docs
 description: Indeholder en funktionsoversigt over alle forretningsfunktioner og afdelinger, der understøttes af funktionalitetsområder som Finans, Lager og Projektstyring.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: f25e6f2afbcb6f249bf3e04f35172d6678cbd113
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 5bdc19028a6859d1bee795de766416ada535b474
+ms.sourcegitcommit: 1ab077a024fa71d97ac70e4b36cc218b7ca66509
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323106"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3499512"
 ---
 # <a name="business-functionality"></a>Forretningsfunktioner
+[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder funktioner til almindelige forretningsprocesser i små og mellemstore virksomheder inden for engroshandel og professionelle services. Mere komplekse processer, f.eks. montage, produktion, service og styret logistik, understøttes imidlertid også.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] indeholder funktioner til almindelige forretningsprocesser i små og mellemstore virksomheder inden for engroshandel og professionelle services. Mere komplekse processer, f.eks. montage, produktion, service og styret logistik, understøttes imidlertid også.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til din virksomheds behov. Fra dit rollecenter kan du åbne assisterede opsætningsvejledninger, som hjælper dig med at konfigurere bestemte scenarier, og tilføje funktioner til [!INCLUDE[d365fin](includes/d365fin_md.md)]. Forskellige områder af forretningsfunktioner skal konfigureres manuelt. Du kan finde flere oplysninger i [Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md).
 
-[!INCLUDE[prod_short](includes/prod_short.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til din virksomheds behov. Fra dit rollecenter kan du åbne assisterede opsætningsvejledninger, som hjælper dig med at konfigurere bestemte scenarier, og tilføje funktioner til [!INCLUDE[prod_short](includes/prod_short.md)]. Forskellige områder af forretningsfunktioner skal konfigureres manuelt. De [Business Central-artikler i hurtig start](quick-start-business-central.md) kan hjælpe dig med at tage de første skridt til at gøre [!INCLUDE [prod_short](includes/prod_short.md)] til din egen. Du kan finde flere oplysninger i [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
-
-| Hvis du vil | Skal du se |
+| Hvis du vil | Se |
 | --- | --- |
 |Gennemføre og modtage betalinger, administrere pengestrømme, periodisere indtægter og omkostninger, opstille årsafslutning og administrere anlægsaktiver.|[Finans](finance.md)|
 |Få indsigt til udførelsen af dine forretningsaktiviteter via budgetter, kontoskemaer og analyser.|[Business Intelligence](bi.md)|
@@ -41,15 +40,12 @@ ms.locfileid: "8323106"
 |Planlæg serviceopkald og opret serviceordrer, og spor reservedele og forsyninger.|[Service Management](service-service.md)|
 |Konfigurer og brug arbejdsgange, der forbinder opgaver udført af forskellige brugere eller af systemet, f.eks. automatisk bogføring. Anmodning om og tildeling af tilladelse til at oprette eller bogføre dokumenter er typisk arbejdsgangstrin.|[Workflow](across-workflow.md)|
 |Lad brugerne udveksle data med eksterne kilder i daglige opgaver, f.eks. afsendelse eller modtagelse af elektroniske dokumenter, import og eksport af bankfiler og opdatering af valutakurser.|[Udveksle data elektronisk](across-data-exchange.md)|
-|Registrer eksterne dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)], herunder deres vedhæftede filer, og opret derefter relaterede dokumenter manuelt, eller konverter automatisk filerne til elektroniske dokumenter.|[Indgående bilag](across-income-documents.md)|
+|Registrer eksterne dokumenter i [!INCLUDE[d365fin](includes/d365fin_md.md)], herunder deres vedhæftede filer, og opret derefter relaterede dokumenter manuelt, eller konverter automatisk filerne til elektroniske dokumenter.|[Indgående bilag](across-income-documents.md)|
 
 ## <a name="see-also"></a>Se også
 
 [Udforske Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Opsætning](admin-setup-and-administration.md)  
-[Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Blive køreklar](ui-get-ready-business.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Opsætning af [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
+[Introduktion](product-get-started.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

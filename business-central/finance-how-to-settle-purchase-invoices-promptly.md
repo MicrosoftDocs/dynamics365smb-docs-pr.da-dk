@@ -1,41 +1,37 @@
 ---
-title: Afregne købsfakturaer omgående
+title: Sådan afregnes købsfakturaer omgående | Microsoft Docs
 description: Hvis det er nødvendigt at betale kreditoren kontant eller med check, kan du få ordnet bogføringen, når du bogfører fakturaen.
 author: bholtorf
-ms.topic: conceptual
-ms.search.form: 51, 9308
-ms.date: 04/01/2021
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: ''
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: f44aa85b0a9990038df3cf49b1ba0f24e24df354
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d187398fe615574785a17b4a7eb122b7a18c557e
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141197"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879676"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Afregne købsfakturaer omgående
-
 Hvis det er nødvendigt at betale kreditoren kontant eller med check, kan du bogføre betalingen, når du bogfører fakturaen.  
 
-> [!NOTE]  
-> Hvis du ofte afregner købsfakturaer kontant, med check eller bankoverførsel, kan det muligvis svare sig at oprette en specifik betalingsform med en tilknyttet modkonto og angive betalingsformen i feltet **Betalingsform** på kreditorkortet. Modkontonummeret indsættes automatisk på fakturahovedet, hver gang du opretter en ny faktura. Du kan finde flere oplysninger i [Definere betalingsmetoder](finance-payment-methods.md).  
-
-## <a name="to-settle-purchase-invoices-promptly"></a>Sådan afregnes købsfakturaer omgående
-
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.  
+### <a name="to-settle-purchase-invoices-promptly"></a>Sådan afregnes købsfakturaer omgående  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Købsfakturaer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
-3. Du kan afregne kontant eller via bankoverførsel ved at angive nummeret på finanskontoen eller bankkontoen i feltet **Modkonto**.  
+3.  Du kan afregne kontant eller via bankoverførsel ved at angive nummeret på finanskontoen eller bankkontoen i feltet **Modkonto**.  
 
 > [!IMPORTANT]  
-> Felterne **Modkontotype** og **Modkonto** er ikke med i standardopsætningen for et fakturahoved. Hvis du vil bogføre betalingen af en faktura, skal du kontakte en Microsoft-partner, som kan føje felterne via kode.  
->
-> Denne tilpasning er kun nødvendig, hvis du ikke angiver modkonti ved betalingsmetoderne som beskrevet ovenfor.
+>  Felterne **Modkontotype** og **Modkonto** er ikke med i standardopsætningen for et fakturahoved. Disse felter skal derfor først indsættes med designfunktionerne, for at du kan bogføre betalingen af en faktura.  
 
-## <a name="see-also"></a>Se også
+> [!NOTE]  
+>  Hvis du ofte afregner købsfakturaer kontant, kan det muligvis svare sig at oprette en specifik betalingsform med en tilknyttet modkonto og angive betalingsformen i feltet **Betalingsform** på kreditorkortet. Modkontonummeret indsættes automatisk på fakturahovedet, hver gang du opretter en ny faktura.  
 
+## <a name="see-also"></a>Se også  
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

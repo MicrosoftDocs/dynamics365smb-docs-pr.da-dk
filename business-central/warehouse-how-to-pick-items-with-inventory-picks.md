@@ -1,20 +1,21 @@
 ---
-title: 'Fremgangsmåde: Plukke varer med Pluk fra lager'
-description: Når en lokation er sat op til at kræve pluk men ikke leverance, bruges plukdokumenterne til at registrere og bogføre pluk- og leveranceoplysninger for kildedokumenterne.
+title: Sådan plukkes varer med Pluk fra lager | Microsoft Docs
+description: Når en lokation, du vil plukke fra, er sat op til at kræve pluk men ikke leverance, bruges plukdokumenterne til at registrere og bogføre pluk- og leveranceoplysninger for kildedokumenterne.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: b0f0bf09670620a36ee696fdc9d1483a2c33f77b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7b3dafdf2341567d2bf294065cf7508295e60aa3
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144329"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4759763"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Plukke varer med Pluk fra lager
 
@@ -35,7 +36,7 @@ Du kan oprette et pluk på tre måder:
 
 I forbindelse med salgsordrer, købsreturvareordrer og udgående overflytningsordrer opretter du lageranmodningen ved at frigive ordren. Nedenfor kan du se, hvordan du gør det fra en salgsordre.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.
 2. Vælg den salgsordre, du vil frigive, og vælg derefter handlingen **Frigiv**.
 
 I forbindelse med produktionsordrer opretter du automatisk lageranmodningen til pluk af komponenter, kaldet *træk* når status på produktionsordren ændres til **Frigivet**, eller når den frigivne produktionsordre oprettes. Du kan finde flere oplysninger i [Plukke til produktion eller montage](warehouse-how-to-pick-for-production.md).
@@ -46,7 +47,7 @@ Når lageranmodningen er oprettet, kan en lagermedarbejder, der er tildelt til p
 
 Nu, hvor anmodningen er oprettet, kan lagermedarbejderen oprette et ny lagerpluk baseret på det frigivne kildedokument.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk fra lager**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerpluk**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
     Sørg for, at feltet **Nr.** er udfyldt i oversigtspanelet **Generelt**.
 3. I feltet **Kildedokumentet** skal du vælge den kildedokumenttype, du plukker fra.  
@@ -62,7 +63,7 @@ Nu, hvor anmodningen er oprettet, kan lagermedarbejderen oprette et ny lagerpluk
 
 ## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Sådan oprettes flere pluk fra lager med en kørsel
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opret læg-på-lager/pluk (lager)**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opret læg-på-lager/pluk (lager)**, og vælg derefter det relaterede link.  
 2. Brug felterne **Kildedokument** og **Kildenr.** i oversigtspanelet **Lageranmodning** til at filtrere på bestemte typer dokumenter eller rækker af dokumentnumre. Du kan for eksempel oprette pluk til kun salgsordrer.  
 3. I oversigtspanelet **Indstillinger** skal du markere afkrydsningsfeltet **Opret pluk (lager)**.
 4. Vælg knappen **OK**. De angivne lagerpluk oprettes.
@@ -74,7 +75,7 @@ Nu, hvor anmodningen er oprettet, kan lagermedarbejderen oprette et ny lagerpluk
 
 ## <a name="to-record-the-inventory-picks"></a>Sådan registreres lagerpluk
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Plukliste (lager)**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Lagerpluk**, og vælg derefter det relaterede link.  
 2. I feltet **Placeringskode** på pluklinjerne, foreslås den placering, som varerne skal plukkes fra, pr. varens standardplacering. Du kan eventuelt ændre placeringen på denne side.  
 3. Udfør plukaktiviteten, og angiv oplysningerne for den faktiske mængde, der er lagt på lager, i feltet **Håndteringsantal**.
 
@@ -116,11 +117,8 @@ I kombinationsscenarier, hvor en del af mængden først skal samles, og en anden
 
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
+[Sådan konfigureres logistikfunktioner](warehouse-setup-warehouse.md)  
 [Montagestyring](assembly-assemble-items.md)  
 [Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger](walkthrough-picking-and-shipping-in-basic-warehousing.md)  
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
+[Designoplysninger: Logistik](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

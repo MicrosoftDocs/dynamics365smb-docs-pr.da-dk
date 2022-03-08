@@ -1,21 +1,23 @@
 ---
-title: Anskaffede anlægsaktiver
+title: Anskaffe anlægsaktiver | Microsoft Docs
 description: Du kan oprette et anlægsaktiv, tildele en afskrivningsprofil og registrere anlægsaktivets anskaffelsespris.
-author: edupont04
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.search.form: 5605, 5551, 5600, 5628, 5629
-ms.date: 12/03/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e0a60cbb82c99e3497a6f8d1907c261b6199e7ec
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 47eb44e7915407c1091791153ed62eb7b473a3a0
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141206"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643926"
 ---
 # <a name="acquire-fixed-assets"></a>Anskaffede anlægsaktiver
 For hvert anlægsaktiv skal du definere et kort med oplysninger om aktivet. Du kan angive bygninger eller produktionsudstyr som et hovedanlæg med en komponentliste, og du kan gruppere dem på forskellige måder, f.eks efter art, afdeling eller lokation. Der skal oprettes en afskrivningsprofil, og den skal tildeles til hvert enkelt anlægsaktiv, før du kan hente det.
@@ -76,14 +78,14 @@ Hvis du laver en fejl under bogføring af en anskaffelsespris, kan du fjerne pos
 Hvis du f.eks, bogfører en anskaffelse med den forkerte dato, skal du rette den snarest muligt, fordi bogføringsdatoen for anlægsaktivet bruges i mange vigtige beregninger.
 
 > [!IMPORTANT]  
-> Du kan ikke bruge funktionen **Tilbagefør transaktioner** for anlægsposter.
+>   Du kan ikke bruge funktionen **Tilbagefør transaktioner** for anlægsposter.
 
-1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Anlægsfinansposter**, og vælg derefter det relaterede link.  
-2. Vælg den eller de poster, du vil annullere, på siden **Anlægsfinansposter**.  
-3. Vælg menuen **Handlinger**, og vælg derefter handlingen **Annuller poster**.
-4. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-5. Vælg **OK** for at eksekvere kørslen.
-6. Når den eller de forkerte poster annulleres, kan du fortsætte med at bogføre den korrekte anskaffelsespris.
+1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Annuller anlægsposter** i feltet Søg, og vælg derefter det relaterede link.
+2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Vælg **OK** for at eksekvere kørslen.
+4. Når den eller de forkerte poster annulleres, kan du fortsætte med at bogføre den korrekte anskaffelsespris.
+
+Hvis du vil annullere poster for flere anlæg samtidigt, kan du bruge kørslen **Annuller anlægsposter**.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Sådan bogføres skrapværdien sammen med anskaffelsesprisen
 Du kan bogføre skrapværdien sammen med anskaffelsesprisen fra en anlægskladde.

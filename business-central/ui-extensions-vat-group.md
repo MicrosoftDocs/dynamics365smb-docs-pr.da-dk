@@ -1,21 +1,22 @@
 ---
-title: Udvidelsen til momsgruppestyring
+title: Udvidelsen til momsgruppestyring | Microsoft Docs
 description: Du kan handle med andre virksomheder for at danne en momsgruppe og enten være medlem eller en repræsentant for gruppen, når du indberetter moms.
 author: bholtorf
 manager: annbe
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: VAT, value added tax, report
-ms.date: 04/01/2021
+ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: 470b8af1322fa0f3b295f566244af44c3183c2fe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f3fb73580eebc9468b0c66408adf758257b3a658
+ms.sourcegitcommit: 026484766988b8727649c02fc8990b0646999bf1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132442"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5498583"
 ---
 # <a name="the-vat-group-management-extension"></a>Udvidelsen til momsgruppestyring
 
@@ -31,7 +32,7 @@ Kommunikation sker fra gruppemedlemmer til repræsentanten. Grupperepræsentante
 Følgende liste viser den anbefalede rækkefølge for trinene til oprettelse af en momsgruppe:
 
 1. Opret den nye momsopsætning i Azure Active Directory. Du kan finde flere oplysninger i [Krav til godkendelse](ui-extensions-vat-group.md#requirements-for-authentication).
-2. Dele de tekniske oplysninger, som momsgruppe medlemmerne og repræsentanten skal bruge for at tilslutte deres [!INCLUDE[prod_short](includes/prod_short.md)]-leje. Momsgrupperepræsentanten har som regel disse oplysninger, f.eks. navnet på den momsgruppe, som medlemmerne af MOMS-gruppen skal indsende moms til.
+2. Dele de tekniske oplysninger, som momsgruppe medlemmerne og repræsentanten skal bruge for at tilslutte deres [!INCLUDE[prod_short](includes/prod_short.md)]-leje. Momsgrupperepræsentanten har som regel disse oplysninger, f. eks. navnet på den momsgruppe, som medlemmerne af MOMS-gruppen skal indsende moms til.
 3. Oprette brugere i momsgruppens repræsentanters [!INCLUDE[prod_short](includes/prod_short.md)], at momsgruppemedlemmerne kan bruge til at godkende og oprette forbindelse.
 4. Kør guiden **Konfigurer momsgruppestyring** for at forbinde medlemmerne af momsgruppen.
 
@@ -90,7 +91,7 @@ Konfigurer momsgruppemedlem ved at starte med Kør guiden **Konfigurer momsgrupp
 11. Når du har angivet de forskellige felter, skal du vælge **Næste** og derefter angive de brugerlegitimationsoplysninger, som repræsentanten for momsgruppen har stillet til rådighed.
 12. Vælg den momsrapport konfiguration, som du kan bruge til at rapportere moms til myndigheder i dit land.
 
-  I Storbritannien vil konfigurationen af momsrapporten f.eks. blive indstillet til at rapportere moms til HMRC. Momsgruppe styrings udvidelsen kopierer denne opsætning, men erstatter codeunit for indsendelse med en, der understøtter afsendelse til momsgruppens repræsentant snarere end skattemyndighederne. Codeunit leveres af Microsoft. Vælg **Næste**, når du er færdig.
+  I Storbritannien vil konfigurationen af momsrapporten f. eks. blive indstillet til at rapportere moms til HMRC. Momsgruppe styrings udvidelsen kopierer denne opsætning, men erstatter codeunit for indsendelse med en, der understøtter afsendelse til momsgruppens repræsentant snarere end skattemyndighederne. Codeunit leveres af Microsoft. Vælg **Næste**, når du er færdig.
 
 ## <a name="using-the-vat-group-management-features"></a>Bruge funktionerne til momsgruppestyring
 
@@ -112,15 +113,11 @@ Når moms gruppens momsgruppe er blevet sendt til myndighederne på vegne af hel
 > Medlemmer af momsgruppen kan rette i afsendte momsmeldinger, så længe gruppens repræsentant ikke har frigivet momsreturværdien for gruppen. Hvis du vil foretage en rettelse, skal momsgruppemedlemmet oprette en ny momsreturnering for momsafleveringsperioden og sende den til den ansvarlige for momsgruppen. Momsgruppens repræsentant vil medtage den seneste momsleverance på siden **Momsreturneringer**. 
 
 > [!IMPORTANT]
-> Momsgruppefunktionen understøttes kun på de markeder, hvor [!INCLUDE[prod_short](includes/prod_short.md)], der bruger en momsramme, som består af momsopgørelser og momsreturperioder. Du kan ikke bruge momsgrupper på andre markeder, der har andre implementeringer af lokal momsrapportering, f.eks. Østrig, Tyskland, Italien, Spanien og Schweiz. 
+> Momsgruppefunktionen understøttes kun på de markeder, hvor [!INCLUDE[prod_short](includes/prod_short.md)], der bruger en momsramme, som består af momsopgørelser og momsreturperioder. Du kan ikke bruge momsgrupper på andre markeder, der har andre implementeringer af lokal momsrapportering, f. eks. Østrig, Tyskland, Italien, Spanien og Schweiz. 
 
 ## <a name="see-also"></a>Se også
-
 [Arbejde med moms af salg og køb](finance-work-with-vat.md)  
-[Konfigurere moms](finance-setup-vat.md)  
-[Arbejde med moms af salg og køb](finance-work-with-vat.md)  
-[Overførsel af moms digitalt i Storbritannien](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  
-[Norsk momsindberetning i den norske version](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
+[Konfigurere moms](finance-setup-vat.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

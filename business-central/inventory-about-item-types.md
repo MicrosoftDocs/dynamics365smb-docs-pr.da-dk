@@ -1,36 +1,38 @@
 ---
-title: Flere oplysninger om varetyper
+title: Om varetyper | Microsoft Docs
 description: Du kan regulere lagerværdien for en vare ved hjælp af FIFO eller gennemsnitlige kostmetoder, f.eks., når varepriser ændres af andre årsager end transaktioner.
+services: project-madeira
 documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 9297, 5845, 30,
-ms.date: 06/16/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e902068398a636b5e205fa7d808066861059b901
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bbe603de91c78cf64b2e181136ea6214aa43c5c8
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131687"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5786119"
 ---
 # <a name="about-item-types"></a>Om varetyper
-I feltet **Type** på siden **Varekort** kan du vælge, hvad varen bruges til i virksomheden, hvilket påvirker, hvordan du kan administrere varen i lageret. I følgende tabel vises og beskrives de tre typer varer, der er tilgængelige.
+I feltet **Type** på siden **Varekort** kan du vælge, hvad varen bruges til i virksomheden, og dermed hvordan den håndteres i systemet. Der er tre muligheder:
 
 |Indstilling|Typisk formål|
 |------|-----------|
-|Lager|Fysiske ting som f. eks. cykler, telefoner og skriveborde, hvor du vil kunne bruge alle lagerprocesserne. Det kan også omfatte ikke-fysiske varer, f. eks. softwarelicenser og-abonnementer, hvis varerne har identifikationsnumre, f. eks. serienumre. Du kan spore vareværdier og disponering på lageret.|
-|Ikke-lager|Som regel er varer, der ikke er på lager, fysiske ting, f. eks. bolte eller penne, som en virksomhed bruger, men som ikke kan spores fuldt ud på lageret. F. eks. fordi de er billige varer og kun bruges internt.|
+|Lagerbeholdning|En fysisk enhed, f.eks. en cykel, til brug i hele virksomheden.|
+|Ikke-lager|En fysisk enhed, f.eks. en bolt, til begrænset brug i virksomheden, f.eks. fordi varen kun bruges internt og er en lav pris.|
 |Tjeneste|En arbejdstidsenhed, f.eks. en konsulenttime, til begrænset brug i virksomheden.|
 
-> [!NOTE]
-> Typerne **Service** og **Ikke-lager** understøtter ikke sporing af lagerantal og -værdi. Derfor understøttes kun valgte transaktionstyper og -funktioner.
+Typen **Lagerbeholdning** omfatter fuld sporing af lagerantal og -værdi. Derfor understøttes alle varetransaktionstyper, og varer af typen Lagerbeholdning kan bruges sammen med alle funktioner til håndtering af varer.
 
-Følgende tabel viser oversigt over de funktioner, de tre varetyper understøtter.
+Typerne **Service** og **Ikke-lager** involverer ikke sporing af lagerantal og -værdi. Derfor understøttes kun valgte transaktionstyper og -funktioner.
+
+De tre varetyper understøtter hver især følgende funktioner.
 
 |Elementtype|Salg|Indkøb|Sagsforbrug|Serviceforbrug|Montageforbrug|Produktion Forbrug|Montageafgang|Produktionsafgang|Lokationsoverflytning|Fysisk optælling|Regulering af lagerværdi|Lagerkostmetode|Varesporing|Reservation|Lagersted|Planlægning|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|

@@ -1,21 +1,23 @@
 ---
-title: Analyse af pengestrømme
+title: Analyse af pengestrømme | Microsoft Docs
 description: Beskriver, hvordan du bruger diagrammerne Kassebeholdningsproces, Indtægter og udgifter, Pengestrøm og Pengestrømsprognose til at analysere tidligere og fremtidige pengestrømme til og fra din virksomhed.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.search.form: 762, 840, 841, 847, 848, 849, 850, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818
-ms.date: 12/20/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 41dc7aba46960197a6b77ad13f98b4194fd589d2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 26df3104e99d9e6f647331c48b5a03f8f87c81a3
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145702"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3913492"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Analysere pengestrømme i din virksomhed
 Diagrammer i rollecenteret Regnskabsmedarbejder giver indsigt, som kan hjælpe dig med at træffe beslutninger vedrørende dine pengestrømme.  
@@ -43,19 +45,13 @@ Hvis du vil undersøge prognosen ud over prognoseposter, kan du også se pengest
 * Springer dubletter af salgsordrer og købsordrer over.  
 
 ## <a name="to-view-a-cash-flow-worksheet"></a>Sådan vises en pengestrømskladde
-
 1. Søg efter **Pengestrømsprognoser**, og vælg derefter det relaterede link.  
 2. Vælg en pengestrømsprognose, og vælg derefter handlingen **Pengestrømskladde**.  
 3. På siden **Pengestrømskladde** skal du vælge handlingen **Foreslå kladdelinjer**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
-
 [Konfigurere Finans](finance-setup-finance.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
 [Opsætning af pengestrømsanalyse](finance-setup-cash-flow-analyses.md)  
-[Pengestrømsprognose i Dynamics 365 Business Central (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
-[Konfigurere pengestrømsprognoser vha. Azure AI i Dynamics 365 Business Central(Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

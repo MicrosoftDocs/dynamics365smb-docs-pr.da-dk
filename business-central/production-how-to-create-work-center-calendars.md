@@ -1,23 +1,23 @@
 ---
-title: Konfigurere produktionskalendere
-description: Oprettelse og aktivering af en arbejdscenterkalender omfatter flere opgaver, herunder opsætning af produktionskalendere og oprettelse af arbejdsskift.
+title: Sådan opsættes produktionskalendere | Microsoft Docs
+description: En arbejdscenterkalender angiver de arbejdsdage og -timer, arbejdsskift, fridage og fravær, der bestemmer arbejdscentrets tilgængelige bruttokapacitet i henhold til centrets definerede værdier for effektivitet og kapacitet. Du skal udføre nogle forberedende opgaver, før du kan oprette og aktivere en arbejdscenterkalender.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
-ms.date: 06/22/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: a39df1fc7ccff9d3f4fcfbf76e7d6a57a7801bce
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0abbf4d2f6fd93a4555809a025f39f8ec7347ee1
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131323"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5389770"
 ---
 # <a name="set-up-shop-calendars"></a>Konfigurere produktionskalendere
-
 En arbejdscenter- eller produktionsressourcekalender angiver de arbejdsdage og -timer, arbejdsskift, fridage og det fravær, der bestemmer arbejdscentrets tilgængelige bruttokapacitet, målt i tid, i henhold til centrets definerede værdier for effektivitet og kapacitet.
 
 Som grundlag for at beregne en bestemt arbejdscenter- eller produktionsressourcekalender skal du først opstille en eller flere generelle produktionskalendere. En produktionskalender definerer en standardarbejdsuge i form af start- og sluttidspunkter for hver arbejdsdag og de tilhørende arbejdsskift. Produktionskalenderen definerer desuden de faste fridage i året.  
@@ -25,7 +25,7 @@ Som grundlag for at beregne en bestemt arbejdscenter- eller produktionsressource
 Nedenstående beskrives, hvordan du opretter arbejdscenterkalendere. Trinene er de samme som ved oprettelse af produktionsressourcekalendere.  
 
 ## <a name="to-create-work-shifts"></a>Sådan oprettes arbejdsskift  
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Arbejdsskift**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Arbejdsskift**, og vælg derefter det relaterede link.  
 2.  Angiv på en tom linje et tal i feltet **Kode** for at identificere arbejdsskiftet, f.eks. **1**.  
 3.  Beskriv arbejdsskiftet i feltet **Beskrivelse**, f.eks. **Første skift**.  
 4.  Udfyld eventuelt linjer for et andet eller tredje arbejdsskift.  
@@ -33,7 +33,7 @@ Nedenstående beskrives, hvordan du opretter arbejdscenterkalendere. Trinene er 
 Selvom arbejdscentrene ikke arbejder i forskellige arbejdsskift, skal du angive mindst én arbejdsskiftkode.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Sådan oprettes en produktionskalender  
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **produktionskalendere**, og vælg derefter det relaterede link.  
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Produktionskalendere**, og vælg derefter det relaterede link.  
 2.  Angiv på en tom linje et tal i feltet **Kode** for at identificere produktionskalenderen.  
 3.  Beskriv produktionskalenderen i feltet **Beskrivelse**.  
 4.  Vælg handlingen **Arbejdsdage**.
@@ -68,7 +68,7 @@ Produktionskalenderen kan nu knyttes til et arbejdscenter for at beregne den arb
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Sådan beregnes en arbejdscenterkalender  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **arbejdscentre**, og vælg derefter det relaterede link.
+1.  Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Arbejdscentre**, og vælg derefter det relaterede link.
 2. Åbn det arbejdscenter, du vil opdatere.  
 3. Vælg hvilken produktionskalender, der skal bruges som grundlag for en arbejdscenterkalender i feltet **Produktionskalenderkode**.  
 4. Vælg handlingen **Kalender**.  

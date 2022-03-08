@@ -1,34 +1,24 @@
 ---
-title: Microsoft Pay Standard
-description: Microsoft Pay-udvidelsen føjer et Microsoft Pay-link til dine salgsdokumenter, så kunderne nemt kan betale ved hjælp af Microsoft Pay.
+title: Microsoft Pay Standard| Microsoft Docs
+description: Indeholder oplysninger om Microsoft Pay-udvidelsen
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: d5668db9d0a7fa9b461a19949643ca7a2cc01a31
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 61022b690cb2a442eaf6cd27c305ebd874a9474f
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132520"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249924"
 ---
 # <a name="the-microsoft-pay-extension"></a>Udvidelsen Microsoft Pay
-
-> [!IMPORTANT]
-> Med ikrafttræden den 8. februar 2020 vil ændringer i Microsoft Pay-tjenesten påvirke Microsoft Pay-udvidelsen i Microsoft [!INCLUDE[prod_short](includes/prod_long.md)]. På grund af de ændringer vil **Betal nu**-betalingslinks, som  Microsoft Pay-udvidelsen genererer for fakturaer i [!INCLUDE[prod_short](includes/prod_short.md)], ikke åbne Microsoft Pay efter den 8. februar. Kunder, der bruger udvidelsen, skal ændre deres konfiguration af betalingstjenester for at begynde at bruge PayPal-udvidelsen i stedet.<br /></br>
->
-> Fra den 8. januar viser vi en meddelelse i [!INCLUDE[prod_short](includes/prod_short.md)]. Meddelelsen vil indeholde et link til de indstillinger, du skal ændre, og til flere oplysninger. Efter den 8. februar vil Microsoft Pay-udvidelsen ikke længere være tilgængelig i [!INCLUDE[prod_short](includes/prod_short.md)].<br /></br>
->
-> Ændringerne påvirker følgende versioner af Business Central:
-> - Microsoft Dynamics 365 Business Central, oktober 2018
-> - Microsoft Dynamics 365 Business Central, april 2019
-> - Microsoft Dynamics 365 Business Central, frigivelsesbølge 2 i 2019
-
 Kunder kræver hele tiden bedre kundeservice, både med hensyn til produkternes kvalitet, men også med hensyn til leverings- og betalingstjenester. Tjenesten Microsoft Pay hjælper dig med at øge din kundeservice.
 
 Microsoft Pay-udvidelsen føjer et Microsoft Pay-link til dine salgsdokumenter, så kunderne nemt kan betale ved hjælp af Microsoft Pay. Derefter kan du sende dokumenterne via e-mail for at yde højere kundeservice og reducere den tid, det tager for kundernes betalinger at gå ind på din bankkonto.
@@ -41,12 +31,9 @@ Microsoft Pay-udvidelsen giver følgende fordele:
 - Linket til Microsoft Pay kan integreres automatisk på alle fakturadokumenter eller af brugeren.
 - Da denne funktion er udviklet som en udvidelse, kan du altid aktivere den, når og hvis dine forretningsprocesser kræver det.
 
-Aktivering af betalingstjenesteudvidelser er gratis i [!INCLUDE[prod_short](includes/prod_short.md)], men du skal kontakte betalingstjenesten for at få en konto. Du kan finde flere oplysninger i [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md).
+Aktivering af betalingstjenesteudvidelser er gratis i [!INCLUDE[d365fin](includes/d365fin_md.md)], men du skal kontakte betalingstjenesten for at få en konto. Du kan finde flere oplysninger i [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Se også
-[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
+[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Konfigurere salg](sales-setup-sales.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

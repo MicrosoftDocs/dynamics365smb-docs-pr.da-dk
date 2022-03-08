@@ -1,25 +1,26 @@
 ---
-title: Elektroniske dokumenter i Business Central
-description: En oversigt over, hvordan du kan bruge dataudvekslingsstrukturen til at håndtere udveksling af forretningsdokumenter, bankfiler, valutakurser og andre datafiler med dine samarbejdspartnere.
+title: Elektroniske dokumenter i Business Central | Microsoft Docs
+description: Introduktion til afsendelse og modtagelse af elektroniske dokumenter i Business Central.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
-ms.date: 06/10/2021
-ms.author: edupont
-ms.openlocfilehash: 83a210cc41c720a1a92aa907697626c0d3dd0cd8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.search.keywords: ''
+ms.date: 01/30/2020
+ms.author: sgroespe
+ms.openlocfilehash: ac4060caf413245720c01d55e7ebf809d973a647
+ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141719"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "2999827"
 ---
 # <a name="exchanging-data-electronically"></a>Udveksle data elektronisk
 Du kan bruge dataudvekslingsstrukturen til at håndtere udveksling af forretningsdokumenter, bankfiler, valutakurser og andre datafiler med dine samarbejdspartnere.
 
-I standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] er dataudvekslingsstrukturen brugt i processer som f.eks. udveksling af elektroniske dokumenter, import/eksport af bankfiler og opdateringer af valutakurser. Du kan finde flere oplysninger i [Om dataudvekslingsstrukturen](across-about-the-data-exchange-framework.md).
+I standardversionen af [!INCLUDE[d365fin](includes/d365fin_md.md)] er dataudvekslingsstrukturen brugt i funktioner som f. eks. elektroniske dokumenter, import/eksport af bankfiler og opdateringer af valutakurser. Du kan finde flere oplysninger under [Om dataudvekslingsstrukturen](across-about-the-data-exchange-framework.md).
 
 Som administrator eller Microsoft-partner kan du bruge strukturen i nye integrationsfunktioner ved at definere, hvilke data der skal udveksles og hvordan. Du kan finde flere oplysninger i [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
 
@@ -38,6 +39,3 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Udveksle data](across-exchange-data.md)  
 [Indgående bilag](across-income-documents.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

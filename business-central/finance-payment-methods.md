@@ -1,21 +1,21 @@
 ---
-title: Konfigurere betalingsformer (indeholder video)
+title: Konfigurere betalingsmetoder
 description: Du bruger betalingsformer, for eksempel check, bankoverførsel, kontant eller PayPal, til at definere, hvordan salgs- og købsfakturaer skal betales.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.search.form: 427
-ms.date: 04/01/2021
+ms.date: 01/21/2021
 ms.author: bholtorf
-ms.openlocfilehash: d911a3a0afc01a55d24ae570383f7dfa035d736f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 78e754998c7adc871b57347ff0bed714db8cc83f
+ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135337"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "5035352"
 ---
 # <a name="set-up-payment-methods"></a>Konfigurere betalingsmetoder
 
@@ -33,14 +33,14 @@ Kreditnotaer for returneringer er dog undtagelser, fordi pengene flyder den mods
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder et par betalingsmetoder, som virksomheder ofte bruger. Du kan dog tilføje lige så mange, du vil.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsformer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Betalingsformer**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Du kan også tilføje betalingsbetingelser til betalingsmetoden. Du kan finde flere oplysninger i [Oprette betalingsbetingelser](finance-payment-terms.md).  
 
 ## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Sådan tildeles en betalingsmetode til en debitor eller kreditor
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Debitor** eller **Kreditor**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitor** eller **Kreditor**, og vælg derefter det relaterede link.
 2. I feltet **Betalingsformkode** skal du vælge metoden, der skal bruges som standard for debitoren eller kreditoren.
 
 ## <a name="see-also"></a>Se også
@@ -49,6 +49,3 @@ Du kan også tilføje betalingsbetingelser til betalingsmetoden. Du kan finde fl
 [Definere betalingsbetingelser](finance-payment-terms.md)  
 [Finans](finance.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

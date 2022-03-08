@@ -1,26 +1,40 @@
 ---
-title: Finansrapporter og analyser
-description: Se, hvilke finansrapporter og analyser der er tilgængelige i standardversionen af Business Central, så du kan holde styr på virksomheden. Brug rapport 38 til gevinst/tab (P/L)-rapportering.
+title: Finansrapporter i Business Central
+description: Se, hvilke finansrapporter der er tilgængelige i standardversionen af Business Central, så du kan holde styr på virksomheden.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.date: 04/12/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c31914e1c251f4cf04cd3b990c2570b51e1717f5
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: dd4ae64c008c45fb6876387d98dac27440f17141
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311202"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935282"
 ---
-# <a name="financial-reports-and-analytics-in-business-central"></a>Finansrapporter og analyser i Business Central
+# <a name="financial-reports-in-business-central"></a>Finansrapporter i Business Central
 
 Financial Reporting i [!INCLUDE [prod_short](includes/prod_short.md)] tillader økonomimedarbejdere og erhvervsfolk oprette, vedligeholde, implementere og få vist regnskaber. Den flyttes udover traditionelle rapporterings begrænsninger for at gøre det nemmere at designe forskellige typer rapporter. [!INCLUDE [prod_short](includes/prod_short.md)] indeholder flere rapporter, sporingsfunktioner og værktøjer, som kan hjælpe revisorer eller controllere, som er ansvarlige for at rapportere til finansafdelingen. Financial Reporting omfatter understøttelse af dimensioner, så kontosegmenter eller dimensioner er straks tilgængelige. Der er ikke brug for yderligere værktøjer eller konfigurationstrin.  
 
-[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
-
 ## <a name="reports"></a>Rapporter
-[!INCLUDE [finance_reports](includes/finance-reports-include.md)]
+
+I følgende tabel beskrives nogle af nøglerapporterne i Financial Reporting.
+
+|Report |Description  |
+|---------|---------|
+|**Balance**| Viser kontoplanen med saldi og bevægelser. Du kan vælge at få vist en balance for udvalgte dimensioner. Du kan anvende rapporten ved afslutningen af en regnskabsperiode eller ved årsafslutningen. |
+|**Råbalance efter periode**  | Viser primosaldoen efter finanskonto, bevægelserne i den valgte periode for måned, kvartal eller år og den resulterende ultimosaldo.         |
+|**Balance/budget** | Viser en balance, der sammenlignes med et budget. Du kan vælge at få vist en balance for udvalgte dimensioner. Du kan anvende rapporten ved afslutningen af en regnskabsperiode eller ved årsafslutningen.        |
+|**Detaljeret råbalance** |Viser detaljeret råbalance for udvalgte finanskonti. Du kan anvende rapporten ved afslutningen af en regnskabsperiode eller ved årsafslutningen. Du kan angive, hvilke konti der skal med i rapporten, ved at sætte forskellige filtre.         |
+|**Balance/sidste år**|Viser en balance, der sammenlignes med tallene fra sidste år. Du kan vælge at få vist en balance for udvalgte dimensioner. Du kan anvende rapporten ved afslutningen af en regnskabsperiode eller ved årsafslutningen. Bemærk, at *sidste år* betyder samme periode i sidste kalenderår.|
+|**Kontoskema**|Kontoskemaer, der kan bruges til at vise finanskontiene på en anden måde end i kontoplanen. F.eks. kan kontoskemaer bruges til at vise nøgletalrapporter.|
+<!--|**Balance** (kontoskema eller Excel) eller **Råbalance** |         |
+|**Opgørelse af pengestrøm** (kontoskema) |         |
+|**Balanceoversigt - detaljeret** |         |
+|**Resultatopgørelse** (kontoskema eller Excel)||
+|**Budget** ||-->
 
 ## <a name="tasks"></a>Opgaver
 
@@ -43,9 +57,6 @@ I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med a
 [Forberedelse af ultimoopgørelser](year-prepare-close-statement.md)  
 [Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md)  
 [Arbejde med dimensioner](finance-dimensions.md)  
-[Rapporter og analyser for debitor](receivables-reports.md)  
-[Rapporter og analyser for kreditor](payables-reports.md)  
-[Rapporter og analyser af anlægsaktiver](fa-reports.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Finans](finance.md)  
 [Lokal funktionalitetsoversigt](about-localization.md)  

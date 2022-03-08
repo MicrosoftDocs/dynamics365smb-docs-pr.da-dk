@@ -1,27 +1,26 @@
 ---
 title: Håndtering af manglende indstillingsværdier
-description: Få mere at vide om, hvordan du forhindrer, at fuld synkronisering mislykkes, fordi indstillingerne er forskellige i tilknyttede felter. Disse processer, der beskrives, kræver hjælp af en udvikler.
+description: Få mere at vide om, hvordan du forhindrer, at fuld synkronisering mislykkes, fordi indstillingerne er forskellige i tilknyttede felter.
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
-ms.topic: conceptual
-ms.date: 06/14/2021
-ms.openlocfilehash: 34d1583ac7e844a7d7acad82f202c37be0b99c47
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.date: 10/01/2020
+ms.openlocfilehash: 65911039894d1f0eb81aeb1160a6b2aafc2fae0c
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133962"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752871"
 ---
 # <a name="handling-missing-option-values"></a>Håndtering af manglende indstillingsværdier
+[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
+[!INCLUDE[prod_short](includes/cds_long_md.md)]indeholder kun tre felter med grupperede indstillinger, der indeholder indstillingsværdier, som du kan knytte til [!INCLUDE[prod_short](includes/prod_short.md)]-felter af typen Indstilling<!-- Option type, not enum? @Onat can you vertify this? --> til automatisk synkronisering. Under synkroniseringen ignoreres ikke-tilknyttede indstillinger, og de manglende indstillinger vedhæftes til den relaterede [!INCLUDE[prod_short](includes/prod_short.md)]-tabel og føjes til systemtabellen **CDS-indstillingstilknytning**, så de kan håndteres manuelt senere. For eksempel ved at tilføje de manglende indstillinger i hvert produkt og derefter opdatere tilknytningen. Dette afsnit handler om, hvordan det fungerer.
 
-Dette emne henvender sig til et teknisk publikum. De processer, der beskrives, kræver hjælp af en udvikler.
-
-[!INCLUDE[prod_short](includes/cds_long_md.md)] indeholder tre felter til at vælge indstillinger, som indeholder værdier, du kan knytte til [!INCLUDE[prod_short](includes/prod_short.md)] -felter af typen Indstilling for automatisk synkronisering. Under synkroniseringen ignoreres ikke-tilknyttede indstillinger, og de manglende indstillinger vedhæftes til den relaterede [!INCLUDE[prod_short](includes/prod_short.md)]-tabel og føjes til **Dataverse-indstillingstilknytning**-systemtabellen, så de kan håndteres manuelt senere. For eksempel ved at tilføje de manglende indstillinger i hvert produkt og derefter opdatere tilknytningen.
-
-Siden **Integrationstabeltilknytning** indeholder tre felter, der indeholder en eller flere tilknyttede indstillingsværdier. Efter en fuld synkronisering indeholder siden **Dataverse-indstillingstilknytning** de ikke-tilknyttede indstillinger i de tre respektive felter.
+Siden **Integrationstabeltilknytning** indeholder tre kort til felter, der indeholder en eller flere tilknyttede indstillingsværdier. Efter en fuld synkronisering indeholder siden **CDS-indstillingstilknytning** de ikke-tilknyttede indstillinger i de tre respektive felter.
 
 |         Post             | Indstillingsværdi | Billedtekst til indstillingsværdi |
 |----------------------------|--------------|----------------------|
@@ -39,7 +38,7 @@ Siden **Integrationstabeltilknytning** indeholder tre felter, der indeholder en 
 | Speditør: FULLLOAD   | 6            | Fuld belastning            |
 | Speditør: WILLCALL   | 7            | Vil ringe            |
 
-Indholdet på siden **Dataverse-indstillingstilknytning** er baseret på fasttekstværdier i tabellen **CRM-konto**. I [!INCLUDE[prod_short](includes/cds_long_md.md)] er følgende felter på kontotabellen knyttet til felter i kunde- og leverandørposterne:
+Indholdet på siden **CDS-indstillingstilknytning** er baseret på fasttekstværdier i tabellen **CDS-konto**. I [!INCLUDE[prod_short](includes/cds_long_md.md)] er følgende felter på kontotabellen knyttet til felter i kunde- og leverandørposterne:
 
 - **Adresse 1: Fragtbetingelser** for datatypen Fasttekst, hvor værdierne defineres som følger:
 
@@ -56,6 +55,7 @@ enum 5335 "CDS Shipment Method Code"
 - **Adresse 1: Fragtmetode** for datatypen Fasttekst, hvor værdierne defineres som følger:
 
 ```
+enum 5336 "CDS Shipping Agent Code"
 enum 5336 "CDS Shipping Agent Code"
 {
     Extensible = true;
@@ -111,7 +111,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ### <a name="update-prod_short-option-mapping"></a>Opdater [!INCLUDE[prod_short](includes/cds_long_md.md)]-indstillingstilknytning
 Nu kan du gendanne tilknytningen mellem [!INCLUDE[prod_short](includes/cds_long_md.md)]-indstillingerne og [!INCLUDE[prod_short](includes/prod_short.md)]-posterne.
 
-På siden **Integrationstabeltilknytning** skal du vælge linjen for tilknytningen **Betalingsbetingelser** og vælge handlingen **Synkroniser ændrede records**. Siden **Dataverse-indstillingstilknytning** opdateres med de yderligere poster nedenfor.
+På siden **Integrationstabeltilknytning** skal du vælge linjen for tilknytningen **Betalingsbetingelser** og vælge handlingen **Synkroniser ændrede records**. Siden **CDS-indstillingstilknytning** opdateres med de yderligere poster nedenfor.
 
 |         Post                 | Indstillingsværdi   | Billedtekst til indstillingsværdi |
 |--------------------------------|----------------|----------------------|
@@ -122,7 +122,7 @@ På siden **Integrationstabeltilknytning** skal du vælge linjen for tilknytning
 | **Betalingsbetingelser: CASH PAYME**  | **779800001**  | **Kontantbetaling**     |
 | **Betalingsbetingelser: TRANSFER**    | **779800002**  | **Overførsel**         |
 
-Tabellen **Betalingsbetingelser** i [!INCLUDE[prod_short](includes/prod_short.md)] vil herefter have nye poster for [!INCLUDE[prod_short](includes/cds_long_md.md)]-indstillingerne. I følgende tabel er de nye indstillinger angivet med fed skrift. Rækker med kursiv er alle indstillinger, der nu kan synkroniseres. De resterende rækker angiver indstillinger, der ikke anvendes, og de ignoreres under synkroniseringen. Du kan fjerne dem eller udvide Dataverse-indstillinger med de samme navne.
+Tabellen **Betalingsbetingelser** i [!INCLUDE[prod_short](includes/prod_short.md)] vil herefter have nye poster for [!INCLUDE[prod_short](includes/cds_long_md.md)]-indstillingerne. I følgende tabel er de nye indstillinger angivet med fed skrift. Rækker med kursiv er alle indstillinger, der nu kan synkroniseres. De resterende rækker angiver indstillinger, der ikke anvendes, og de ignoreres under synkroniseringen. Du kan fjerne dem eller udvide CDS-indstillinger med de samme navne.)
 
 | Kode       | Forfaldsdatoberegning | Kont.rabat datoform | Rabat % | Beregn kont.rabat på kred.notaer | Beskrivelse       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
@@ -136,15 +136,13 @@ Tabellen **Betalingsbetingelser** i [!INCLUDE[prod_short](includes/prod_short.md
 | 30 DAGE    | 30D                  |                           | 0.         | FALSK                         | Netto 30 dage       |
 | 60 DAGE    | 60D                  |                           | 0.         | FALSK                         | Netto 60 dage       |
 | 7 DAGE     | 7D                   |                           | 0.         | FALSK                         | Netto 7 dage        |
-| ***KONTANT BETAL*** |                      |                           | 0.         | FALSK                         |                   |
+| ***KONTANT BETAL** _ |                      |                           | 0.         | FALSK                         |                   |
 | LM         | LM                   |                           | 0.         | FALSK                         | Aktuel måned     |
 | COD        | 0D                   |                           | 0.         | FALSK                         | Kontant ved levering  |
-| *NET30*      |                      |                           | 0.         | FALSK                         |                   |
+| _NET30*      |                      |                           | 0.         | FALSK                         |                   |
 | *NET45*      |                      |                           | 0.         | FALSK                         |                   |
 | *NET60*      |                      |                           | 0.         | FALSK                         |                   |
 | ***OVERFØRSEL*** |                      |                           | 0.         | FALSK                         |                   |
 
 ## <a name="see-also"></a>Se også
 [Tilknytning af tabeller og felter til synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

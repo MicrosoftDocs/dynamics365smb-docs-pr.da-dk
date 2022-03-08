@@ -1,27 +1,28 @@
 ---
-title: Oprette fakturaer eller -kreditnotaer for tjenester
-description: Få mere at vide om, hvordan du bruger Business central til problemfrit at oprette kredit fakturaer og kreditnotaer til dine tjenester.
+title: Opret fakturaer eller kreditnotaer for serviceydelser | Microsoft Docs
+description: Få at vide, hvordan du opretter fakturaer, så du kan få betaling for dine ydelser.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 47ff02006af6182752ed110464b4c8aa493060c5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 399f020f1b7a792a4c2db453aa94cb144a8f64dc
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143084"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5385970"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Oprette servicefakturaer eller -kreditnotaer
 En nøgleegenskab i [!INCLUDE[prod_short](includes/prod_short.md)] er at gøre fakturering af serviceordrerne så let som mulig. Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)], så en feltservicetekniker kan oprette en faktura for en service, der ikke er tilknyttet en kontrakt eller en ordre. Du kan også vælge at konfigurere [!INCLUDE[prod_short](includes/prod_short.md)], så du fakturerer servicekontrakter med jævne mellemrum. Fakturaperioden for den enkelte kontrakt definerer, hvor ofte kontrakten faktureres.
 
 ## <a name="to-invoice-several-service-contracts"></a>Sådan fakturerer du flere servicekontrakter
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opret servicekontraktfakturaer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opret servicekontraktfakturaer**, og vælg derefter det relaterede link.  
 2. Angiv de filtre, som du vil bruge.  
 3. Angiv den dato, du vil bruge som bogføringsdato på de oprettede servicefakturaer, i feltet **Bogføringsdato**.  
 4. I feltet **Fakturer til dato** skal du angive den dato, indtil hvilken du vil fakturere kontrakter. Kørslen vil omfatte kontrakter med de næste faktureringsdatoer op til den angivne dato.  
@@ -31,7 +32,7 @@ En nøgleegenskab i [!INCLUDE[prod_short](includes/prod_short.md)] er at gøre f
 Du kan også fakturere en servicekontrakt direkte fra siden **Servicekontrakt**, hvis den næste faktureringsdato på kontrakten ligger tidligere end arbejdsdatoen.
 
 ## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Sådan faktureres en servicekontrakt fra siden Servicekontrakt   
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Servicekontrakter**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicekontakter**, og vælg derefter det relaterede link.  
 2. Vælg den servicekontrakt, der skal faktureres, og åbn kontraktkortet.  
 3. Vælg handlingen **Opret servicefaktura**. 
 4. Vælg **Ja** for at oprette servicefakturaerne.  
@@ -42,7 +43,7 @@ Du kan også fakturere en servicekontrakt direkte fra siden **Servicekontrakt**,
 ## <a name="to-post-an-invoice-from-a-service-order"></a>Sådan bogføres fakturaer fra serviceordrer  
 I fremgangsmåden nedenfor er det beskrevet, hvordan du kan definere den del af en service, som kunden skal opkræves for.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceordre** og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceordrer**, og vælg derefter det relaterede link.  
 2. Vælg den serviceordre, der skal faktureres, og åbn ordrekortet.  
 3. Vælg handlingen **Servicelinjer**.  
 4. Find de nødvendige poster, og angiv de antal, som du vil opkræve kunden for, i feltet **Fakturer (antal)**.  
@@ -61,7 +62,7 @@ I fremgangsmåden nedenfor er det beskrevet, hvordan du kan definere den del af 
 ## <a name="to-create-a-service-invoice-manually"></a>Sådan oprettes en servicefaktura manuelt  
 Når du har bogført en serviceordre vha. indstillingen **Fakturer** eller **Lever og fakturer**, oprettes der automatisk en servicefaktura. Du kan dog alligevel få brug for at skulle udstede en faktura, der ikke er knyttet til hverken en servicekontrakt eller en serviceordre. I denne procedure redegøres for, hvordan du udsteder en faktura på samme tid, som kunden modtager servicen.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Servicefakturaer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicefakturaer**, og vælg derefter det relaterede link.  
 2. Opret en ny servicefaktura.  
 3. Udfyld feltet **Nummer**. .  
   
@@ -79,7 +80,7 @@ Når du har bogført en serviceordre vha. indstillingen **Fakturer** eller **Lev
 ## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>Sådan opretter du en faktura, der kombinerer bogførte leverancelinjer fra en eller flere serviceordrer 
 Der kan være brug for at oprette en servicefaktura for den service, der allerede er leveret fra en eller flere serviceordrer, men som endnu ikke er faktureret eller forbrugt. Du kan udfylde fakturalinjerne automatisk med de valgte bogførte leverancelinjer for en bestemt kunde.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Servicefakturaer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicefakturaer**, og vælg derefter det relaterede link.  
 2. Udfyld felterne på linjen efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 3. Opret fakturalinjer for services, der er leveret, men endnu ikke faktureret. Du kan også bruge handlingen **Hent salgsleverancelinjer** til at føje bogførte salgsleverancelinjer til fakturaen.  
 4. Bogfør servicefakturaen.  
@@ -89,7 +90,7 @@ Der kan være brug for at oprette en servicefaktura for den service, der allered
 ## <a name="to-create-a-service-credit-memo"></a>Sådan oprettes servicekreditnotaer  
 Et servicekreditnotadokument bruges normalt, når en kunde returnerer en vare, men det kan også bruges til at yde kunden en vis kompensation eller til at korrigere en fejlbehæftet faktura.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Servicekreditnotaer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Servicekreditnotaer**, og vælg derefter det relaterede link.  
 2. Udfyld felterne på linjen efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Felterne **Bogføringsdato** og **Bilagsdato** viser arbejdsdagen. Om nødvendigt kan du ændre den.    
 4. På kreditnotalinjerne skal du angive oplysninger om de varer, der er blevet returneret eller fjernet, eller den kompensation, som kunden vil få.  

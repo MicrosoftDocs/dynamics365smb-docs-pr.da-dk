@@ -2,6 +2,7 @@
 title: Business central til internationale organisationer med flere lokationer | Microsoft Docs
 description: Business Central giver mulighed for at understøtte en hub-and-spoke-forretningsmodel.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: a135499b12ed04ecf179f1cb5691c97ecc0f1aaf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c6821a8e542b27338ee6f9ce0c14875896019449
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141095"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437362"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central til internationale organisationer med flere lokationer
 Organisationer med flere lokationer bruger ofte en hub-and-spoke-forretningsmodel, hvor virksomheden eller hovedkontoret administrerer virksomhedens overordnede aktiviteter, mens hvert websted fungerer som en enkelt, selvstændig enhed. Websteder distribueres ofte geografisk og har forskellige behov for at dele oplysninger med hovedkvarteret. Desuden har websteder typisk ikke brug for det samme kompleksitetsniveau, og de mangler ofte ressourcerne til at opretholde et stort system.

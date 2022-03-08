@@ -2,20 +2,20 @@
 title: Sådan kopieres eksisterende varer for at oprette nye varer
 description: Når du tilføjer en ny vare, kan du spare tid ved at bruge funktionen Kopiér vare til at kopiere en eksisterende vare, der skal bruges som skabelon for en ny vare.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.forms: 729
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 3e31f64136f09c1623236f976f70fea088a4106c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 06/18/2020
+ms.author: sgroespe
+ms.openlocfilehash: 1f24aaa74238ab9db836751adc78984248f19579
+ms.sourcegitcommit: 0c6f4382fad994fb6aea9dcde3b2dc25382c5968
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130292"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "3484132"
 ---
 # <a name="copy-existing-items-to-create-new-items"></a>Kopiere eksisterende varer for at oprette nye varer
 
@@ -23,7 +23,7 @@ Når du tilføjer en ny vare, kan du spare tid ved at bruge funktionen **Kopiér
 
 ## <a name="to-copy-an-existing-item-to-a-new-item"></a>Sådan kopieres en eksisterende vare til en ny vare
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Varer**, og vælg derefter det relaterede link.  
 2. Vælg den vare, du vil kopiere, og vælg derefter handlingen **Kopiér vare**.  
 
     Hvis du ikke kan finde handlingen **Kopiér vare**, skal du vælge at få vist flere indstillinger og derefter finde den under **Handlinger**, **Funktioner**.  
@@ -39,6 +39,3 @@ Når du tilføjer en ny vare, kan du spare tid ved at bruge funktionen **Kopiér
 
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Opsætning af lagerbeholdning](inventory-setup-inventory.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

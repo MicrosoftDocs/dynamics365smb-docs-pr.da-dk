@@ -2,16 +2,17 @@
 title: Samle rapporter og analyser i Business Central
 description: Se, hvilke samling rapporter og analyser der er tilgængelige i standardversionen af Business Central, så du kan holde styr på virksomheden.
 author: AndreiPanko
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: df8dbbc35f3eeaac62702f9156e74dc1a5b17dbc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 95225e3d7bf16a13040ff1d3960107035c2e5d59
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133015"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102391"
 ---
 # <a name="assembly-reports-and-analytics-in-business-central"></a>Samle rapporter og analyser i Business Central
 

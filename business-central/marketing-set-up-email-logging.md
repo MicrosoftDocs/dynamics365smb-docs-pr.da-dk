@@ -2,6 +2,7 @@
 title: Konfigurer maillogføring | Microsoft Docs
 description: Få at vide, hvordan du ændrer mailinteraktioner mellem sælgere og kunder til reelle salgs-leads.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2abc0406fa8e86646d2382a4c7bbb1e228439728
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6e2a72b1917fdf419b0f103db39b5cdf84f8b425
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148404"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437573"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spore udveksling af mails mellem sælgere og kontakter
 
@@ -30,36 +31,31 @@ Derefter opretter du forbindelse mellem [!INCLUDE[prod_short](includes/prod_shor
 
 Introduktion til maillogføring i to lette trin:
 
-1. Opret forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange Online for dit Microsoft 365-abonnement. Exchange Online håndterer dine mails. Vi har gjort dette trin lettilgængeligt med en vejledning til assisteret opsætning. Du skal blot bruge dine administratorrettigheder til din administratorkonto i Microsoft 365. Start vejledningen ved at gå til **Assisteret opsætning**, og vælg derefter vejledningen **Konfigurer maillogføring**.  
+1. Opret forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange Online til dit Microsoft 365-abonnement. Exchange Online håndterer dine mails. Vi har gjort dette trin lettilgængeligt med en vejledning til assisteret opsætning. Du skal blot bruge dine administratorrettigheder til din administratorkonto i Microsoft 365. Start vejledningen ved at gå til **Assisteret opsætning**, og vælg derefter **Konfigurer maillogføring**.  
 
 2. Kontrollér, at der er angivet gyldige mailadresser i [!INCLUDE[prod_short](includes/prod_short.md)] for dine sælgere og kontakter, afhængigt af om de er potentielle eller eksisterende kunder. Hvis du vil gøre det, skal du for hver debitor eller sælger åbne kortet **Kontakt** eller **Sælger/indkøber** og se feltet **Mailadresse**.
 
 > [!Tip]
-> Når du har udført trinnene i programguiden, kan du kontrollere, om forbindelsen er oprettet. Søg efter **Marketingopsætning**, vælg **Aktivere**, derefter **Funktioner** og derefter **Valider opsætning af maillogføring**.
+> Når du har udført trinnene i programguiden, kan du kontrollere, om forbindelsen er oprettet. Søg efter **Marketingopsætning**, vælg **Proces**, derefter **Funktioner** og derefter **Valider opsætning af maillogføring**.
 
 ## <a name="viewing-email-message-exchanges-in-the-interaction-log"></a>Få vist udveksling af mails i interaktionslogposten
+[!INCLUDE[prod_short](includes/prod_short.md)] opretter en post på siden **Interaktionslog**, hver gang en sælger og en kontakt udveksler en mail. Du kan få vist interaktionsloggen ved at åbne kortet **Kontakt** eller **Sælger/indkøber** for personen, og derefter vælge **Oversigt** og **Interaktionslogposter**. Der er nogle få ting, der kan udføres for hver indtastning i logfilen, f.eks.:
 
-[!INCLUDE[prod_short](includes/prod_short.md)] opretter en post på siden **Interaktionslog**, hver gang en sælger og en kontakt udveksler en mail. Du kan få vist interaktionsloggen ved at åbne kortet **Kontakt** for personen, vælge **Relaterede**, og derefter vælge **Historik** og **Interaktionslogposter**. Der er nogle få ting, der kan udføres for hver indtastning i logfilen, f.eks.:
-
-- Få vist indholdet af den mail, der blev udvekslet, ved at vælge **Behandle** og derefter **Vis vedhæftede filer**.
-- Omdanne en mailudveksling til et salgs-lead – hvis en post ser lovende ud, kan du gøre den til en lead og derefter styre forløbet hen imod et salg. Det gør du ved at vælge posten og derefter vælge **Behandle** og derefter **Oprette lead**. Du kan finde flere oplysninger i [Administrere salgsleads](marketing-manage-sales-opportunities.md).
+- Få vist indholdet af den mail, der blev udvekslet, ved at klikke på handlingen **Vis vedhæftede filer**.
+- Omdanne en mailudveksling til et salgs-lead – hvis en post ser lovende ud, kan du gøre den til en lead og derefter styre forløbet hen imod et salg. Det gør du ved at vælge posten og derefter vælge handlingen **Opret lead**. Du kan finde flere oplysninger i [Administrere salgsleads](marketing-manage-sales-opportunities.md).
 
 ## <a name="connecting-on-premises-versions-to-microsoft-exchange"></a>Tilslutning af lokale versioner til Microsoft Exchange
-
-Du kan oprette forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange on-premises eller Exchange Online til e-maillogføring. For begge versioner af Exchange er indstillingerne for forbindelsen tilgængelige på siden **Marketingopsætning**. I Exchange Online kan du også bruge en assisteret installationsvejledning.
+Du kan oprette forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange on-premises eller Exchange Online til e-maillogføring. For begge versioner af Exchange er indstillingerne for forbindelsen tilgængelige på siden **Marketingopsætning**. I Exchange Online kan du også bruge en assisteret installationsvejledning. 
 
 ### <a name="connecting-to-exchange-on-premises"></a>Oprettelse af forbindelse til On-premises
-
-Hvis du vil tilslutte [!INCLUDE[prod_short](includes/prod_short.md)] on-premises til Exchange on-premises på siden **Marketingopsætning** kan du bruge **Basis** som **Godkendelsestype** og derefter angive legitimationsoplysninger til brugerkontoen for Exchange on-premises. Aktiver derefter **Aktiveret** til/fra for at starte logføring af e-mails.
+Hvis du vil tilslutte [!INCLUDE[prod_short](includes/prod_short.md)] on-premises til Exchange on-premises på siden **Marketingopsætning** kan du bruge **Basis** som **Godkendelsestype** og derefter angive legitimationsoplysninger til brugerkontoen for Exchange on-premises. Aktiver derefter **Aktiveret** til/fra for at starte logføring af e-mails. 
 
 ### <a name="connecting-to-exchange-online"></a>Forbindelse til Exchange Online
-
-Hvis du vil oprette forbindelse til Exchange Online, skal du bruge **OAuth2** som **godkendelsestype**. Du kan også registrere et program i Azure Active Directory og angive program-id, key vault-hemmeligheden og omdirigere den URL-adresse, der skal bruges. URL-adressen til omdirigering er forudindstillet og bør fungere for de fleste installationer. Du kan finde flere oplysninger i Sådan registreres et program i Azure AD for at oprette forbindelse fra Business Central til Exchange Online herunder.
+Hvis du vil oprette forbindelse til Exchange Online, skal du bruge **OAuth2** som **godkendelsestype**. Du kan også registrere et program i Azure Active Directory og angive program-id, key vault-hemmeligheden og omdirigere den URL-adresse, der skal bruges. URL-adressen til omdirigering er forudindstillet og bør fungere for de fleste installationer. Du kan finde flere oplysninger i [Sådan registreres et program i Azure AD for at oprette forbindelse fra Business Central til Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
 
 Du skal konfigurere installationen til at bruge HTTPS. Du kan finde flere oplysninger i [Konfigurere SSL for at sikre forbindelsen til Business Central-webklienten](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Hvis du konfigurerer serveren, så den har en anden startside, kan du altid ændre URL-adressen. Klientens hemmelighed gemmes som en krypteret streng i din database.
 
 ### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a>Sådan registrerer du et program i Azure AD for at oprette forbindelse fra Business Central til Exchange Online
-
 I følgende trin antages det, at du bruger Azure Active Directory til at administrere identiteter og adgangsrettigheder. Du kan finde flere oplysninger om registrering af et program i [Hurtig start: Registrere et program på Microsoft-identitetsplatformen](/azure/active-directory/develop/quickstart-register-app). Hvis du ikke bruger Azure Active Directory, kan du se [Bruge en anden tjeneste til identitets- og adgangsstyring](marketing-set-up-email-logging.md#using-another-identity-and-access-management-service). 
 
 1. Vælg **Godkend** under **Administrer** i på Azure-portalen.

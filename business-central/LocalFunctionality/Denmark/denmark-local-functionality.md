@@ -1,20 +1,21 @@
 ---
-title: Lokal funktionalitet for Danmark
-description: I følgende emne kan du læse sammenkædede oplysninger om lokal funktionalitet i Danmark.
+title: Lokal funktionalitet for Danmark | Microsoft Docs
+description: I dette afsnit beskrives lokale funktioner i Danmark.
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Denmark, local, DK, Danish
-ms.date: 06/18/2021
+ms.date: 10/01/2020
 ms.author: soalex
-ms.openlocfilehash: b7066b6c7971b554cf8c0b0839138bc8cedf47a5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e0aac63dd10cb70acee908f3b97fdbc66275b583
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140045"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749676"
 ---
 # <a name="denmark-local-functionality"></a>Lokal funktionalitet for Danmark
 
@@ -33,8 +34,7 @@ Følgende emne beskriver den lokale funktionalitet i den danske version af [!INC
 * Elektronisk fakturering
     * [Oversigt over elektronisk OIOUBL-fakturering](oioubl-electronic-invoicing-overview.md) **Tilgængelig nu**
     * [Konfigurere elektronisk fakturering i OIOUBL](how-to-set-up-oioubl.md) **Tilgængelig nu**
-    * [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md) **Tilgængelig nu***
-    * [Udvidelsen OIOUBL til elektronisk fakturering](ui-extensions-oioubl.md) **Tilgængelig nu**
+    * [Konfigurere kunder til OIOUBL](how-to-set-up-customers-for-oioubl.md) **Tilgængelig nu** _ _ [OIOUBL-udvidelsen til elektronisk fakturering](ui-extensions-oioubl.md) **Tilgængelig nu**
     * [Oprette elektroniske dokumenter i et OIOUBL-format](how-to-create-electronic-documents-by-using-oioubl.md) **Tilgængelig nu**
 
 * Løn
@@ -46,6 +46,3 @@ Følgende emne beskriver den lokale funktionalitet i den danske version af [!INC
 [Tilgængelighed i land/område og understøttede sprog](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

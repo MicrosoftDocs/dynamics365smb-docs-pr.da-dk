@@ -1,20 +1,20 @@
 ---
-title: Tilføje udvidet tekst
+title: Tilføje ekstra linjer for at definere udvidede beskrivelser
 description: Du kan tilføje ekstra linjer for at udvide standardteksten, der beskriver en vare, en finanskonto og andre data.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 391, 30
-ms.date: 06/24/2021
+ms.date: 07/08/2020
 ms.author: edupont
-ms.openlocfilehash: 25c0701151e3250adb62f781f83e8483178f73e5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cf0418f4182e9d66da88af9262dd807a34dd3572
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138280"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3782314"
 ---
 # <a name="add-extended-text"></a>Tilføje udvidet tekst
 
@@ -43,7 +43,4 @@ Du kan nu føje denne udvidede tekst til dokumenter. Følgende fremgangsmåde be
 ## <a name="see-also"></a>Se også
 
 [Opsætning af lagerbeholdning](inventory-setup-inventory.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

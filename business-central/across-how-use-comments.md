@@ -1,24 +1,23 @@
 ---
-title: Føje bemærkninger til kort og dokumenter
+title: Føje bemærkninger til kort og dokumenter | Microsoft Docs
 description: Føje ekstra oplysninger til konti, debitorkort eller salgsordrer for at kommunikere aftaler, f.eks. en særlig pris eller leveringsmetode, til andre brugere.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.search.form: 124, 30
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 63b65f697e12090f5e4bfbc2ca11e30a6e167bab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2be53efdd942128d27ff42358fa60bfe501c8ede
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129123"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440970"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Føje bemærkninger til kort og dokumenter
-
 Du kan føje ekstra oplysninger til finanskonti, debitorkort eller salgsordrer for at kommunikere forventninger eller særaftaler til andre brugere.
 Næsten alle kort og dokumenter har en **Bemærkninger**-handling, som åbner siden **Bemærkning**, hvor du kan skrive og læse kommentarer. Du kan også tilføje bemærkninger til de enkelte linjer i dokumenter.
 
@@ -32,14 +31,12 @@ Desuden kan du angive, om bemærkninger skal overføres fra én type dokument ti
 Nedenfor beskrives, hvordan du føjer en bemærkning til et varekort. Trinene er de samme for alle andre kort og dokumenter, undtagen på dokumentlinjer, hvor **Bemærkninger**-handlingen er placeret i en menu for linjehandlinger.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Sådan føjes en bemærkning til et varekort
-
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Åbn det relevante varekort.
 3. Vælg handlingen **Bemærkninger**.
 4. Skriv din tekst på siden **Bemærkning**, og vælg derefter knappen **OK**.
 
 ## <a name="see-also"></a>Se også
-
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 

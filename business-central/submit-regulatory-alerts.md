@@ -1,18 +1,19 @@
 ---
-title: Sende lovgivningsmæssige påmindelser
+title: Sende lovgivningsmæssige påmindelser | Microsoft Docs
 description: Hvis du kender til ny lovgivning, som du mener kræver understøttelse af funktioner i Business Central, kan du følge denne vejledning for at sende en lovgivningsmæssig påmindelse til produktgruppen.
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 06/25/2021
+ms.date: 10/01/2019
 ms.author: soalex
-ms.openlocfilehash: 7601f1bef58ed914385957ef70ad8b924c4499a0
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 482c0e9f7fe0fa787ab9d3e45f22abd07d009b3e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335106"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2315704"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Sende påmindelser om lande-/områdespecifikke lovgivningsmæssige funktioner
 
@@ -20,7 +21,7 @@ Du inviteres til at bruge Microsoft Dynamics Lifecycle Services (LCS) til at sen
 
 ## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Sådan sendes en lovgivningsmæssig påmindelse i LCS
 
-1. Gå til [https://lcs.dynamics.com](https://lcs.dynamics.com), og log på  
+1. Gå til https://lcs.dynamics.com, og log på  
 
     Du får vist de projekter, du har adgang til.
 
@@ -51,7 +52,7 @@ Du inviteres til at bruge Microsoft Dynamics Lifecycle Services (LCS) til at sen
         |Beskrivelse  | Angiv en kort oversigt over lovgivningen. Beskrivelsen skal fokusere på problemer, der er relevante for ERP (enterprise resource planning), så brugere kan forstå kravene på højt niveau uden at skulle læse lovgivning først.|
         |Land/område  | Angiv det land eller område, som lovgivningen vedrører.|
         |Branche| Angiv branchen, hvis kravet gælder kun for bestemte brancher. F.eks. vælg **Offentlig sektor**, **Detail** eller **Produktion**.|
-        |Funktionsreference  | Dette er ikke relevant for Dynamics 365 Business Central, men du kan angive en reference til funktionen, hvis du kender til den. Listen over funktioner for bestemte lande findes på [Lokaliseringsportal](/dynamics/s-e/) på CustomerSource-webstedet. |
+        |Funktionsreference  | Dette er ikke relevant for Dynamics 365 Business Central, men du kan angive en reference til funktionen, hvis du kender til den. Oversigten over funktioner for bestemte lande findes på [Lokaliseringsportal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) på CustomerSource-webstedet. |
         |Dato for retshåndhævelse  | Angiv den dato, hvor de berørte kunder skal begynde at overholde lovgivningen.|
         |Myndighedernes offentliggørelsesdato  | Angiv den dato, hvor myndighederne offentliggjorde ændringen.|
         |Seneste arkiveringsdato  | Vælg datoen for den første indsendelse af den nye eller ændrede rapport.|
@@ -73,12 +74,9 @@ Du inviteres til at bruge Microsoft Dynamics Lifecycle Services (LCS) til at sen
 
 ## <a name="see-also"></a>Se også
 
-[Lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
+[Lokal funktionalitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](about-localization.md)  
 [Ændre sprog og landestandard](about-locale-language.md)  
-[Blive køreklar](ui-get-ready-business.md)  
+[Introduktion](product-get-started.md)  
 [Velkommen til Business Central](index.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

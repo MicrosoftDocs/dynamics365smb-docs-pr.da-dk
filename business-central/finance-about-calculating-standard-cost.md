@@ -2,18 +2,20 @@
 title: Om beregning af standardomkostning
 description: Et system til standardkostpriser bestemmer lagerkostprisen på basis af rimelige historiske eller forventede omkostninger.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5841
+ms.search.keywords: ''
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: cdb1ff4581e8e2b79f9e2dd015426ee9719e38e6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ef1aac08230477afefafee6afcaf05ac9c9cfff
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149149"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323198"
 ---
 # <a name="about-calculating-standard-cost"></a>Om beregning af standardomkostning
 Mange produktionsvirksomheder vælger en værdiansættelse for standardkostpriser. Dette gælder også for virksomheder, der udfører let produktion som montage og kitting. Et system til standardkostpriser bestemmer lagerkostprisen på basis af nogle rimelige historiske eller forventede omkostninger. Undersøgelser af tidligere og fremtidige omkostningsdata kan derefter danne grundlag for standardkostpriser. Standardkostpriserne er fastfrosne, indtil der træffes en beslutning om, at de skal ændres. De faktiske omkostninger til at fremstille et produkt kan afvige fra de forventede standardomkostninger. Af hensyn til styringen sammenlignes den faktiske kostpris med standardkostprisen for en bestemt vare, og forskellene, eller *afvigelser*, identificeres og analyseres.  
@@ -31,23 +33,22 @@ Da standardkostprisen for en fremstillet vare eller en montagevare kan bestå af
 
 Opgaven for en fremstillingsvirksomhed, der bruger standardkostpriser, består af:  
 
-- At anslå en standardkostpris for den færdig vare og at oprette den på varekortet.  
-- At registrere og allokere de faktiske omkostninger til de vigtigste omkostningselementer og tage højde for afvigelser.  
+-   At anslå en standardkostpris for den færdig vare og at oprette den på varekortet.  
+-   At registrere og allokere de faktiske omkostninger til de vigtigste omkostningselementer og tage højde for afvigelser.  
 
 Alle komponentomkostninger skal lægges sammen for at bestemme den direkte kostpris for en færdig vare. En samlet eller produceret vare kan omfatte underordnede samlinger, som også består af flere komponenter.  
 
 Følgende vigtigste omkostningselementer udgør den samlede direkte omkostning for en færdig produktionsvare:  
 
-- Materialekostpriser.  
-- Kapacitetskostpris.  
-- Underleverandøromkostninger for kun producerede varer.  
+-   Materialekostpriser.  
+-   Kapacitetskostpris.  
+-   Underleverandøromkostninger for kun producerede varer.  
 
-### <a name="material-costs"></a>Materialeomkostninger
+### <a name="material-costs"></a>Materialeomkostninger  
+ Materialekostpriser, der er forbundet med underordnede samlinger og indkøbte råvarer. Materialekostprisen kan bestå af direkte og indirekte kostelementer.  
 
-Materialekostpriser, der er forbundet med underordnede samlinger og indkøbte råvarer. Materialekostprisen kan bestå af direkte og indirekte kostelementer.  
-
-- Direkte materialeomkostninger repræsenterer et faktureret beløb for købte råmaterialer eller omkostningen til fremstilling af en underordnet samling.  
-- Indirekte materialeomkostninger, eller *faste omkostninger* kan være elementer som f.eks. lageromkostninger for den færdige vare, efter at den er fremstillet.  
+-   Direkte materialeomkostninger repræsenterer et faktureret beløb for købte råmaterialer eller omkostningen til fremstilling af en underordnet samling.  
+-   Indirekte materialeomkostninger, eller *faste omkostninger* kan være elementer som f.eks. lageromkostninger for den færdige vare, efter at den er fremstillet.  
 
 Opsætningen af materialeomkostninger for købte varer, der påvirker direkte og indirekte omkostninger, afhænger af den kostmetode, der er valgt for den pågældende vare. Du kan oprette omkostningsoplysninger for hver kostmetode på varekortet. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 
@@ -65,13 +66,13 @@ Kapacitetsomkostninger er omkostninger, der er knyttet til intern arbejdskraft o
 
 Oprettelsen af kapacitetsomkostningerne for montagevarer består af følgende elementer:  
 
-- Direkte og indirekte kostpris for ressourcen.  
-- Type af fast eller direkte ressourceforbrug.  
+-   Direkte og indirekte kostpris for ressourcen.  
+-   Type af fast eller direkte ressourceforbrug.  
 
 Oprettelsen af kapacitetsomkostningerne for fremstillede varer består af følgende elementer:  
 
-- Direkte og indirekte kostpris for produktions- eller arbejdscentret.  
-- Oprettelse af tid og lotstørrelsen.  
+-   Direkte og indirekte kostpris for produktions- eller arbejdscentret.  
+-   Oprettelse af tid og lotstørrelsen.  
 
 Hvis du vil beregne standardkapacitetsomkostningerne, skal du etablere de standardtimesatser, der kræves for at foretage opgaver i maskin- og arbejdscentre. Den samlede tid til at færdiggøre en operation består som regel af tid til opstilling og kørsel samt vente- og flyttetid.  
 
@@ -96,7 +97,7 @@ Processen med at opdatere eller beregne standardkostpriser består typisk af fø
 
 1.  Opdatering af omkostninger på komponent- og kapacitetsniveau. Du kan finde flere oplysninger i kørslerne **Foreslå kostpris (standard)** og **Foreslå kapacitetskostpris (standard)**.  
 2.  Konsolidering og akkumulering af komponent- og kapacitetsomkostninger til beregning af den samlede montage eller de samlede fremstillingsomkostninger for varerne. Du kan finde flere oplysninger i [Sådan beregnes kostprisen for et montageelement](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
-3.  Implementering af de standardkostpriser, der angives, når du kører de tidligere kørsler. Standardkostpriserne træder ikke i kraft, før de er implementeret. Med **Implementer std.kostprisændringer**-kørslen, der opdaterer ændringerne i standardkostprisen for varer med ændringerne i tabellen Standardkostpriskladde.  
+3.  Implementering af de standardkostpriser, der angives, når du kører de tidligere kørsler. Standardkostpriserne træder ikke i kraft, før de er implementeret. Du kan finde flere oplysninger i kørslen **Implementer std.kostprisændringer**.  
 4.  Implementering af ændringer for at opdatere feltet **Kostpris** på varekortet og udførsel af lagerværdiregulering. Du kan finde flere oplysninger i [Regulere lagerbeholdningen](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Se også  

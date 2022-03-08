@@ -1,48 +1,39 @@
 ---
-title: Udvidelser af skymigrering
-description: Brug skymigreringsudvidelserne til at flytte lokale data til Business Central online. Disse udvidelser flytter dataene til den lokale computer til skyen.
-author: jenolson
-ms.topic: conceptual
+title: Intelligent sky-udvidelser i Business Central | Microsoft Docs
+description: Du kan bruge denne datareplikeringsudvidelse til at oprette en kopi til skyen af dine data, så du har forbindelse til den intelligente sky.
+author: edupont04
+manager: edupont
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
-ms.reviewer: edupont
-ms.date: 06/23/2021
+ms.date: 06/13/2019
 ms.author: edupont
-ms.openlocfilehash: 5c18605da5ba115f39d46c317eaf51278c8948cf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bcb0eecc546efefdd73f5586f211064cabb0af3c
+ms.sourcegitcommit: f2e3b571eab6e01d9f5aa8ef47056b6bd313dcbd
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129964"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1629776"
 ---
-# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Udvidelser af skymigrering for migrering til Business Central Online
+# <a name="intelligent-cloud-extensions"></a>Intelligent sky-udvidelser
 
-Afhængigt af løsningen i det lokale miljø, skal du bruge forskellige filtypenavne til at oprette forbindelse til dine data med [!INCLUDE[prod_short](includes/prod_short.md)] online for at kunne overflytte løsningen til skyen.  
+Denne udvidelse opretter forbindelse mellem dine data i [!INCLUDE [prodshort](includes/prodshort.md)] til det lokale miljø og [!INCLUDE [prodshort](includes/prodshort.md)] online for intelligent indsigt.  
 
-Hvis du bruger et af de understøttede lokale produkter, kan du konfigurere dit skymiljø baseret på en produktspecifik udvidelse. Når dit skymiljø er konfigureret, kan du flytte data fra din lokale løsning til [!INCLUDE[prod_short](includes/prod_short.md)]. Dette gør det muligt for dig at få fuldt udbytte af, hvad skyen kan tilbyde din virksomhed f.eks. udvidet indsigt i din virksomhed, kunstig intelligens, adgang til flere enheder og adgang overalt og til enhver tid.  
-
-Du kan finde flere oplysninger i [Overførsel af lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsindholdet for [!INCLUDE[prod_short](includes/prod_short.md)].  
+Hvis du bruger et af de understøttede lokale produkter, kan du konfigurere dit intelligente skymiljø baseret på en produktspecifik udvidelse.Når dit intelligente skymiljø er konfigureret, kan du replikere data fra din lokale løsning til din [!INCLUDE[prodshort](includes/prodshort.md)]-skylejer. Dette gør det muligt for dig at få fuldt udbytte af, hvad skyen kan tilbyde din virksomhed f.eks. udvidet indsigt i din virksomhed, kunstig intelligens, adgang til flere enheder og adgang overalt og til enhver tid.  
 
 ## <a name="business-central-on-premises"></a>Business Central til det lokale miljø
-
-Hvis du bruger en lokal installation af [!INCLUDE[prod_short](includes/prod_short.md)], skal du hente **Intelligent sky basis**-udvidelsen og **Intelligent sky i Business Central**-udvidelsen og derefter køre den assisterede opsætningsvejledning **Konfiguration af skymigrering**.  
+Hvis du bruger en lokal installation af [!INCLUDE[prodshort](includes/prodshort.md)], skal du hente **Intelligent sky basis**-udvidelsen og **Intelligent sky i Business Central**-udvidelsen og derefter køre den assisterede opsætningsvejledning **Konfiguration af intelligent sky**.  
 
 ## <a name="dynamics-gp"></a>Dynamics GP
+Hvis du bruger Dynamics GP, skal du hente **Intelligent sky basis**-udvidelsen, **Dynamics GP-dataoverførsel**-udvidelsen og **Dynamics GP Intelligent sky**-udvidelsen og derefter køre den assisterede opsætningsvejledning **Konfiguration af Intelligent sky**.  
 
-Hvis du bruger Dynamics GP, skal du hente **Intelligent sky basisudvidelsen** og  **Dynamics GP Intelligent sky**-udvidelsen og derefter køre den assisterede opsætningsvejledning **Konfiguration af skymigrering**.  
-
-> [!IMPORTANT]
-> Overførsel fra Dynamics GP ved hjælp af vejledningen **Konfigurer skymigrering** som assisteret opsætning understøttes i øjeblikket kun på følgende markeder: USA, Canada, Storbritannien.
-
-## <a name="dynamics-sl"></a>Dynamics SL
-
-Hvis du bruger Dynamics SL, skal du hente udvidelsen **Intelligent cloudbase**, udvidelsen **Intelligent sky i Microsoft Dynamics SL** og udvidelsen **SmartLists for Microsoft Dynamics SL-historik** og derefter køre den assisterede opsætningsvejledning **Konfiguration af cloudmigrering**.  
+## <a name="dynamics-nav"></a>Dynamics NAV
+Hvis du bruger Dynamics NAV, skal du hente **Intelligent sky basis**-udvidelsen og **Dynamics NAV Intelligent sky**-udvidelsen og derefter køre den assisterede opsætningsvejledning **Konfiguration af Intelligent sky**.  
 
 ## <a name="see-also"></a>Se også
 
-[Udvidelser af skymigreringsbase](ui-extensions-intelligent-cloud.md)  
-[Overførsel af lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Intelligent indsigt](about-intelligent-cloud.md)  
+[Intelligent sky basisudvidelsen](ui-extensions-intelligent-cloud.md)  

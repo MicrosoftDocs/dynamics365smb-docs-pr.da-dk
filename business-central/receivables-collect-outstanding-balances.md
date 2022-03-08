@@ -1,20 +1,21 @@
 ---
 title: Indhente udestående beløb
-description: Få mere at vide om, hvordan du kan huske dine kunder med udestående betalinger. Sende et kundekontoudtog, udstede en rykker eller sende en rentenota.
+description: Få mere at vide om, hvordan du sender en påmindelse til kunden om en betaling, der er forfalden, og lægger gebyrer til betalingen på grund af forsinkelsen.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.date: 02/09/2022
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fe9dc2ed31244bbca601d90397dc813085817eb1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c59ce4576f4c7916ef6b587d4bc6b21cb1047acb
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144953"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781759"
 ---
 # <a name="collect-outstanding-balances"></a>Indhente udestående beløb
 
@@ -28,7 +29,7 @@ Fra debitorkortet kan du oprette en kontoudtog med den pågældende debitors tra
 
 ### <a name="to-send-the-customer-statement-report"></a>Sådan sendes rapporten Kontoudtog
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 10.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoudtog**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kontoudtog**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Under **Rapportindstillinger** skal du vælge, hvordan rapporten skal sendes til kunden.
 
@@ -37,7 +38,82 @@ Fra debitorkortet kan du oprette en kontoudtog med den pågældende debitors tra
 
 ## <a name="reminders"></a>Rykkere
 
-[!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
+Inden du kan oprette rykkere, skal du oprette betingelser og knytte dem til debitorerne. Du kan finde flere oplysninger i [Konfiguration af rykkerbetingelser og -niveauer](finance-setup-reminders.md). [!INCLUDE [reminder-terms](includes/reminder-terms.md)] Indholdet af siden **Rentebetingelser** er bestemmende for, om der beregnes rente på rykkeren.  
+
+Du kan med mellemrum udføre kørslen **Opret rykkere** for at oprette rykkere til alle debitorer med forfaldne beløb, eller du kan oprette en rykker manuelt til en bestemt debitor og få linjerne beregnet og udfyldt automatisk.  
+
+Du kan ændre rykkerne, når først du har oprettet dem. Den tekst, der vises i begyndelsen og slutningen af rykkeren, afhænger af betingelserne for rykkerniveauet og kan ses i kolonnen **Beskrivelse**. Hvis et beregnet beløb er blevet indsat automatisk i start- eller slutteksten, reguleres teksten ikke, hvis du sletter linjerne. Derefter skal du bruge funktionen **Opdater rykkertekst**.  
+
+En debitorpost, hvor feltet **Afvent** er markeret, vil ikke udløse oprettelse af en rykker. Men hvis en rykker oprettes på basis af en anden post, vil en forfalden post, der er markeret som afventende, også blive inkluderet i rykkeren. Der beregnes ikke rente på linjer med disse poster.
+
+Når du har oprettet rykkere og foretaget eventuelle nødvendige ændringer, kan du enten udskrive testrapporter eller udstede rykkere, typisk som mail.
+
+### <a name="to-create-a-reminder-automatically"></a>Sådan oprettes en rykker automatisk
+
+En rykker svarer til en faktura. Når du opretter en rykker, skal et rykkerhoved og en eller flere rykkerlinjer udfyldes. Du kan bruge en funktion til at oprette rykkere for alle kunder automatisk.
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rykkere**, og vælg derefter det relaterede link.
+2. Vælg handlingen **Opret rykkere** på siden **Rykkermeddelelse**.
+3. På siden **Opret rykkere** skal du udfylde felterne for at angive, hvordan og hvem rykkerne oprettes til.
+4. Vælg knappen **OK**.
+
+### <a name="to-create-a-reminder-manually"></a>Sådan oprettes rykkere manuelt
+
+På siden **Rykker** skal du udfylde oversigtspanelet **Generelt** manuelt og lade linjerne blive udfyldt automatisk.
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rykkere**, og vælg derefter det relaterede link.
+2. Vælg handlingen **Ny**.
+3. Udfyld felterne efter behov i oversigtspanelet **Generelt**.
+4. Vælg handlingen **Foreslå rykkerlinjer**.
+5. I kørslen **Foreslå rykkerlinjer** skal du udfylde felterne for at angive, hvordan og hvem rykkerne oprettes til.
+6. Marker afkrydsningsfeltet **Medtag afventende poster**, hvis rykkere skal indeholde forfaldne åbne poster, som er i venteposition.
+7. Marker afkrydsningsfeltet **Kun poster med forfaldne beløb**, hvis rykkere kun skal indeholde forfaldne åbne poster. Kun fakturaer og betalinger vises, da de er poster, hvor kundernes betalinger kan være forfaldne.
+
+    > [!Important]
+    > Afventende åbne poster indsættes, uanset hvilken indstilling der er markeret i afkrydsningsfeltet **Kun poster med forfaldne beløb**.
+
+8. Vælg knappen **OK**.
+
+### <a name="to-replace-reminder-texts"></a>Sådan erstattes rykkertekst
+
+Du kan angive den tekst, der angives i rykkere, på flere måder. I nogle tilfælde kan du have brug for at erstatte start- og slutteksten, der er angivet for det aktuelle niveau, med tekst fra et andet niveau.
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rykkere**, og vælg derefter det relaterede link.
+2. Åbn den relevante rykker, og vælg derefter handlingen **Opdater rykkertekst**.
+3. Angiv det ønskede niveau i feltet **Rykkerniveau** på siden **Opdater rykkertekst**.
+4. Klik på **OK** for at opdatere start- og slutteksten.
+
+### <a name="to-issue-a-reminder"></a>Sådan udstedes en rykker
+
+Når du har oprettet rykkere og foretaget eventuelle nødvendige ændringer, kan du enten udskrive testrapporter eller udstede rykkere.
+
+Når du udsteder en rykker, overføres dataene til en separat side med udstedte rykkere. Samtidigt bogføres rykkerposter. Hvis der er beregnet rente eller ekstragebyr, bogføres posterne på debitorposten og finansposten.
+
+Når man udsteder en rykker, bogføres posterne automatisk svarende til de betingelser, der er angivet på siden **Rykkerbetingelser**. Denne specifikation angiver, om renter og/eller gebyrer skal bogføres på debitorens konto og på finanskonti. Opsætningen på siden **Debitorbogføringsgrupper** angiver, hvilke konti der bogføres på.
+
+Der er oprettet en post på siden **Rykker-/rentenotaposter** for hver debitorpost på rentenotaen.
+
+Hvis afkrydsningsfelterne **Bogfør rente** eller **Bogfør opkrævningsgebyr** er markeret på siden **Rykkerbetingelser**, oprettes følgende poster også:
+
+- Én post på siden **Debitorposter**
+- Én betalingspost på den relevante finanskonto
+- Én rente- og/eller en gebyrpost i den relevante finanskonto
+
+Desuden kan udstedelse af en rykker medføre momsposteringer.
+
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Rykkere**, og vælg derefter det relaterede link.
+2. Markér den relevante rykker, og vælg derefter handlingen **Udsted**.
+3. På siden **Udsted rykkere** skal du udfylde felterne efter behov.
+4. Vælg knappen **OK**.
+
+Rykkeren udskrives enten eller sendes til en mail, der er angivet som en vedhæftet PDF-fil.
+
+### <a name="to-cancel-an-issued-reminder"></a>Sådan annulleres en udstedt rykker
+
+Hvis rykkere er blevet udstedt ved en fejl, kan du annullere dem, før de sendes. Det kan du gøre enten en for en eller som en kørsel.
+
+1. På siden **Udstedte rykkere** skal du vælge en eller flere linjer for udstedte rykkere, som du vil annullere, og derefter vælge handlingen **Annuller**.
+2. På siden **Annuller udstedte rykkere** skal du udfylde felterne efter behov, og derefter vælge knappen **OK**.
 
 ## <a name="finance-charges"></a>Finansieringsomkostninger
 
@@ -58,7 +134,7 @@ Når du har oprettet rentenotaer og foretaget eventuelle nødvendige ændringer,
 
 En rentenota svarer til en faktura. Du kan udfylde et hoved manuelt og lade programmet udfylde linjerne, eller du kan oprette rentenotaer for alle kunder automatisk.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 2.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udsted rentenotaer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udsted rentenotaer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**, og udfyld derefter felterne efter behov.  
 3. Vælg handlingen **Foreslå rentenotalinjer**.
 4. På siden **Foreslå rentenotalinjer** skal du angive et filter på oversigtspanelet **Debitorpost**, hvis du kun vil oprette rentenotaer for specifikke poster.
@@ -70,7 +146,7 @@ En rentenota svarer til en faktura. Du kan udfylde et hoved manuelt og lade prog
 ### <a name="to-update-finance-charge-memo-texts"></a>Sådan opdateres tekster til rentenotaer  
 I nogle tilfælde kan det være nødvendigt at ændre den start- og sluttekst, der er angivet for rentebetingelser. Hvis du gør det på et tidspunkt, hvor du har oprettet, men ikke udstedt rentenotaer, kan du opdatere notaen med den ændrede tekst.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 3.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rentenota**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udsted rentenota**, og vælg derefter det relaterede link.  
 2. Åbn den rentenota, som du vil ændre tekst for, og vælg derefter handlingen **Opdater rentenotatekst**.
 3. På siden **Opdater rentenotatekst** kan angive et filter, hvis du vil opdatere flere notaer.
 4. Klik på **OK** for at opdatere start- og slutteksten.  
@@ -90,7 +166,7 @@ Hvis afkrydsningsfelterne **Bogfør rente** eller **Bogfør opkrævningsgebyr** 
 
 Desuden kan udstedelse af en rentenota medføre momsposteringer.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 4.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udsted rentenotaer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udsted rentenotaer**, og vælg derefter det relaterede link.
 2. Markér den relevante nota, og vælg derefter handlingen **Udsted**.
 3. På siden **Udsted rentenotaer** skal du udfylde felterne efter behov.
 4. Vælg knappen **OK**.
@@ -104,13 +180,13 @@ Hvis rentenotaer er blevet udstedt ved en fejl, kan du annullere dem, før de se
 
 ### <a name="to-view-reminder-and-finance-charge-entries"></a>Sådan får du vist rykker- og rentenotaposter  
 Når du udsteder en rykker, oprettes der en rykkerpost på siden **Rykker-/rentenotaposter** for hver rykkerlinje, der indeholder en debitorpost. Derefter kan du få vist en oversigt over de oprettede rykkerposter for en bestemt debitor.    
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 5.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Debitorer**, og vælg derefter det relaterede link.  
 2. Åbn det relevante debitorkort, og vælg derefter handlingen **Poster**.
 3. På siden **Debitorposter** skal du vælge linjen med den post, du vil have vist rykkerposter for, og derefter vælge handlingen **Rykker-/rentenotaposter**.
 
 ## <a name="multiple-interest-rates"></a>Flere rentesatser
 
-[!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Du kan finde flere oplysninger i [Angiv flere rentesatser](finance-how-to-set-up-multiple-interest-rates.md).  
+Når du konfigurerer rentebetingelser og rykkerbetingelser for forsinket betaling, kan du angive flere rentesatser, så strafgebyret beregnes ud fra forskellige rentesatser i forskellige perioder. Hvis flere rentesatser ikke er konfigureret, så bruges den rente og periode, der er defineret på siderne **Rentebetingelser** og **Rykkerbetingelser**, for hele beregningsperioden. Du kan finde flere oplysninger i [Angiv flere rentesatser](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 

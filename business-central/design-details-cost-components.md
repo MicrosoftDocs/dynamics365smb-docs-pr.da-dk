@@ -2,19 +2,20 @@
 title: Designoplysninger – Omkostningskomponenter | Microsoft Docs
 description: Omkostningskomponenter er forskellige typer af omkostninger, der udgør værdien af en lagerforøgelse eller -reducering.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ef7f0d170c76dc79627123ce76e036729b4d0bd0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d8e2d00e82f2ed5342e3c06dfaf54d8d6a88e941
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143656"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4751742"
 ---
 # <a name="design-details-cost-components"></a>Designoplysninger: Kostkomponenter
 Omkostningskomponenter er forskellige typer af omkostninger, der udgør værdien af en lagerforøgelse eller -reducering.  
@@ -44,6 +45,3 @@ Omkostningskomponenter er forskellige typer af omkostninger, der udgør værdien
  [Designoplysninger: Afvigelse](design-details-variance.md) [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
  [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

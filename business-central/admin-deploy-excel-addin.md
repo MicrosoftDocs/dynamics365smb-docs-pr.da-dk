@@ -2,6 +2,7 @@
 title: Sådan får du Business Central-tilføjelsesprogram til Excel
 description: Få mere at vide om, hvordan du får brugerne til tilføjelsesprogrammet Business Central til Excel.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,16 +10,16 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 29cfec8ea605209aed7e7005dfcfa1c10d54b7b6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 06d3e22d0cdb68daa2b87e3569660dfd4e5724fd
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141407"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724608"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Få Business Central-tilføjelsesprogram til Excel
 
-[!INCLUDE[prod_short](includes/prod_short.md)] indeholder et tilføjelsesprogram til Excel, der giver brugerne mulighed for at vælge handlingen **Rediger i Excel** på bestemte sider for at åbne dataene i et Excel-regneark. Denne handling er en anden end handlingen **Åbn i Excel**, fordi den giver brugerne mulighed for at foretage ændringer i Excel og derefter udgive ændringerne tilbage til [!INCLUDE[prod_short](includes/prod_short.md)]
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder et tilføjelsesprogram til Excel, der giver brugerne mulighed for at vælge handlingen **Rediger i Excel** på bestemte sider for at åbne dataene i et Excel-regneark. Denne handling er en anden end handlingen **Åbn i Excel**, fordi den giver brugerne mulighed for at foretage ændringer i Excel og derefter udgive ændringerne tilbage til [!INCLUDE[prod_short](includes/prod_short.md)]\
 
 ## <a name="overview"></a>Oversigt
 
@@ -37,9 +38,9 @@ For slutbrugeren er installationsoplevelsen forskellig for de to installationssc
 
 - Første gang brugerne vælger handlingen **Rediger i Excel**, åbnes ruden **Nyt Office-tilføjelsesprogram** i Excel, første gang brugerne vælger handlingen Rediger i Excel. Hvis du vil installere tilføjelsesprogrammet, skal brugeren vælge **Hav tillid til tilføjelsesprogrammet**, som vil installere tilføjelsesprogrammet direkte fra Office store. Brugerne logger derefter på [!INCLUDE[prod_short](includes/prod_short.md)] med deres brugernavn og adgangskode.
 
-- Med centraliseret installation, første gang brugerne vælger handlingen **Rediger i Excel**, installeres tilføjelsesprogrammet automatisk i Excel fra centraliseret installation og ikke Office Store. Det eneste, brugerne skal gøre, er at logge ind på [!INCLUDE[prod_short](includes/prod_short.md)]
+- Med centraliseret installation, første gang brugerne vælger handlingen **Rediger i Excel**, installeres tilføjelsesprogrammet automatisk i Excel fra centraliseret installation og ikke Office Store. Det eneste, brugerne skal gøre, er at logge ind på [!INCLUDE[prod_short](includes/prod_short.md)]\
 
-Med begge disse installationsindstillinger konfigureres tilføjelsesprogrammet automatisk til at oprette forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)]. En tredje installationsindstilling er en manuel installation af tilføjelsesprogrammet direkte fra Excel. Med denne indstilling skal brugerne konfigurere tilføjelsesprogrammet for at oprette forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)]
+Med begge disse installationsindstillinger konfigureres tilføjelsesprogrammet automatisk til at oprette forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)]\.En tredje installationsindstilling er en manuel installation af tilføjelsesprogrammet direkte fra Excel. Med denne indstilling skal brugerne konfigurere tilføjelsesprogrammet for at oprette forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)]\
 
 ### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around"></a><a name="switch"></a>Skift fra individuel anskaffelse til centraliseret installation eller omvendt
 
@@ -62,13 +63,13 @@ Centraliseret installation er en funktion i Microsoft 365 Administration, som du
 - Hvis du skifter fra individuel anskaffelse, skal du se [Skifte fra individuel anskaffelse til centraliseret installation](#switch)
 
 > [!NOTE]
-> Aktivering af centraliseret installation påvirker funktioner, der bruger Excel-tilføjelsesprogrammet, f.eks. handlingen **Rediger i Excel**. Det har ingen indflydelse på andre Excel-relaterede funktioner og eller tilladelser, der er tildelt brugere i [!INCLUDE[prod_short](includes/prod_short.md)]
+> Aktivering af centraliseret installation påvirker funktioner, der bruger Excel-tilføjelsesprogrammet, f.eks. handlingen **Rediger i Excel**. Det har ingen indflydelse på andre Excel-relaterede funktioner og eller tilladelser, der er tildelt brugere i [!INCLUDE[prod_short](includes/prod_short.md)]\
 
 ### <a name="set-up-centralized-deployment-of-the-add-in"></a>Konfigurere centraliseret udrulning af Excel-tilføjelsesprogram
 
 Du skal arbejde i både [!INCLUDE[prod_short](includes/prod_short.md)] og Microsoft 365 Administration.
 
-1. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du vælge ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikonet, skal du skrive **Centraliseret installation af Excel-tilføjelsesprogrammet** og derefter vælge det relaterede link.
+1. I [!INCLUDE[prod_short](includes/prod_short.md)]\, kan du vælge ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikonet, skal du skrive **Centraliseret installation af Excel-tilføjelsesprogrammet** og derefter vælge det relaterede link.
 2. Læs oplysningerne på **installationssiden til tilføjelsesprogrammet Business Central Excel**, og vælg **Næste**.
 3. Log på [Microsoft 365 Administration](https://go.microsoft.com/fwlink/?linkid=2163967), og gå til **Integrerede apps**<!--**Add-ins**-->.
 
@@ -80,7 +81,7 @@ Du skal arbejde i både [!INCLUDE[prod_short](includes/prod_short.md)] og Micros
     5. Vent på, at det grønne afkrydsningsfelt ud for **Installeret** vises for tilføjelsesprogrammet, og vælg derefter **Udført**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
        Tilføjelsesprogrammet vises på siden **Tilføjelsesprogrammer**. Du kan finde flere oplysninger om installation af tilføjelsesprogrammer i Microsoft 365 Administration under [Installere tilføjelsesprogrammer i Administration](/microsoft-365/admin/manage/manage-deployment-of-add-in).
-4. Gå tilbage til den **centraliserede installation af installationsprogrammet til Excel**-assisterede opsætning i [!INCLUDE[prod_short](includes/prod_short.md)], og vælg **Næste**.
+4. Gå tilbage til den **centraliserede installation af installationsprogrammet til Excel** assisteret opsætning i [!INCLUDE[prod_short](includes/prod_short.md)]\,, og vælg **Næste**.
 5. Vælg **Brug centraliseret installation**, og vælg **Udfør**.
 
     Hvis du ikke slår denne parameter til, får du [!INCLUDE[prod_short](includes/prod_short.md)]-tilføjelsesprogrammet direkte fra Office Store.
@@ -113,7 +114,7 @@ Hvis en bruger ikke kan oprette forbindelse automatisk, kan du fjerne blokeringe
 4. Log på Business central med gyldigt brugernavn og adgangskode, når du bliver bedt om det.
 5. Vælg alternativt det miljø og regnskab, der indeholder de data, du vil oprette forbindelse til.
 
-Tilføjelsesprogrammet er nu forbundet til [!INCLUDE [prod_short](includes/prod_short.md)], og du kan redigere data og udgive ændringerne i [!INCLUDE [prod_short](includes/prod_short.md)].  
+Tilføjelsesprogrammet er nu forbundet til [!INCLUDE [prod_short](includes/prod_short.md)]\,, og du kan redigere data og udgive ændringerne i [!INCLUDE [prod_short](includes/prod_short.md)]\. 
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Forberede enheder og netværk til Excel-tilføjelsesprogrammet
 
@@ -126,9 +127,9 @@ Nogle gange løber brugerne ind i problemer med Excel-tilføjelsesprogrammet. De
 |Udsted  |Løsning eller løsning  |Bemærkninger  |
 |---------|---------|---------|
 |Tilføjelsesprogrammet starter ikke|Kontroller, om tilføjelsesprogrammet er installeret centralt. Du kan også kontrollere, om brugeren er blokeret fra at installere den lokalt. | Administratoren kan konfigurere Office, så brugerne ikke kan hente tilføjelsesprogrammer. I disse tilfælde skal administratoren installere tilføjelsesprogrammet centralt. Yderligere oplysninger finder du under [Installere tilføjelsesprogrammer i Administration](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
-|Data indlæses ikke i Excel|Test forbindelsen ved at åbne en anden liste i Excel fra [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan også åbne projektmappen i Excel i en browser.|Hvis brugeren har angivet et firmanavn, der indeholder specialtegn, kan tilføjelsesprogrammet ikke oprette forbindelse. |
-|Data kan ikke udgives tilbage til [!INCLUDE [prod_short](includes/prod_short.md)].|Test forbindelsen ved at åbne projektmappen i Excel i en browser. |Nogle gange kan en udvidelse blokere udgivelsesjobbet. Hvis siden er udvidet eller tilpasset, skal du fjerne udvidelserne og derefter prøve igen.|
-|Datoerne er forkerte  |Excel kan vise klokkeslæt og datoer i et andet format end [!INCLUDE [prod_short](includes/prod_short.md)]. Denne betingelse gør dem ikke forkerte, og dataene i [!INCLUDE [prod_short](includes/prod_short.md)] bliver ikke blandet.|         |
+|Data indlæses ikke i Excel|Test forbindelsen ved at åbne en anden liste i Excel fra [!INCLUDE [prod_short](includes/prod_short.md)]\. Du kan også åbne projektmappen i Excel i en browser.|Hvis brugeren har angivet et firmanavn, der indeholder specialtegn, kan tilføjelsesprogrammet ikke oprette forbindelse. |
+|Data kan ikke udgives tilbage til [!INCLUDE [prod_short](includes/prod_short.md)]\.|Test forbindelsen ved at åbne projektmappen i Excel i en browser. |Nogle gange kan en udvidelse blokere udgivelsesjobbet. Hvis siden er udvidet eller tilpasset, skal du fjerne udvidelserne og derefter prøve igen.|
+|Datoerne er forkerte  |Excel kan vise klokkeslæt og datoer i et andet format end [!INCLUDE [prod_short](includes/prod_short.md)]\. Denne betingelse gør dem ikke forkerte, og dataene i [!INCLUDE [prod_short](includes/prod_short.md)]\ bliver ikke blandet.|         |
 |For nogle listesider forårsager redigering af flere linjer i Excel konsekvent fejl. Denne betingelse kan opstå, hvis OData-kald omfatter FlowFields og felter uden for repeaterkontrolelementet.|Marker afkrydsningsfelterne **Udelad ikke-redigerbare FlowFields** og **Udelad felter uden for repeater** for den udgivne side på siden **Webtjenester**. Hvis du markerer disse afkrydsningsfelter, udelades ikke-redigerbare FlowFields og -felter fra eTag-beregningen. |Disse afkrydsningsfelter er som standard skjult. Hvis du vil have dem vist på siden **Webtjenester**, skal du bruge [tilpasning](/dynamics365/business-central/ui-personalization-user). |
 
 
@@ -161,7 +162,7 @@ For [!INCLUDE [prod_short](includes/prod_short.md)] online, the administrator ca
 When the add-in is installed, it shows up as a panel in Excel. Next, you must configure the connection.
 
 > [!TIP]
-> If the workbook is not automatically saved to the user's OneDrive, then recommend them to save all workbooks that they export from [!INCLUDE [prod_short](includes/prod_short.md)].When they open the workbook again, the connection is still available, so they do not have to configure the connection again.
+> If the workbook is not automatically saved to the user's OneDrive, then recommend them to save all workbooks that they export from [!INCLUDE [prod_short](includes/prod_short.md)]\.When they open the workbook again, the connection is still available, so they do not have to configure the connection again.
 
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
