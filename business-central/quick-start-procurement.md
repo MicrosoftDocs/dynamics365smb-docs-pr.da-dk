@@ -1,21 +1,21 @@
 ---
-title: Indkøb, Hurtig start
+title: Indkøb, hurtig start (indeholder video)
 description: Få mere at vide om, hvordan du udfylder de første kritiske felter om kreditorer i Business central, så du kan begynde at købe produkter og tjenester.
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
+ms.search.form: 26, 27, 50, 56
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 5beb614e466cc4155ec81db49585cd023a483c0f
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: d5ec92099a7439bfb9a059105b0f1ce377534117
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724541"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128735"
 ---
 # <a name="procurement-quick-start"></a>Indkøb, Hurtig start
 

@@ -1,21 +1,20 @@
 ---
-title: Om omkostningsregnskab | Microsoft Docs
-description: Omkostningsregnskab kan hjælpe dig med at forstå omkostningerne til drift af en virksomhed.
+title: Om omkostningsregnskab
+description: Omkostningsregnskab kan hjælpe dig med at forstå omkostningerne til drift af en virksomhed. Omkostningsregnskabsoplysninger er udviklet til at analysere forskellige situationer.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: eb86ebbb8b60f2b9744f619b27bff86ab0b69c30
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 52138687b0959c80711495e4c1a8b608184ba211
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379659"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145734"
 ---
 # <a name="about-cost-accounting"></a>Om omkostningsregnskab
 Omkostningsregnskab kan hjælpe dig med at forstå omkostningerne til drift af en virksomhed. Omkostningsregnskabsoplysninger er udviklet til at analysere:  
@@ -37,7 +36,7 @@ Omkostningsregnskab har følgende hovedkomponenter:
 
 Følgende diagram viser arbejdsprocessen i omkostningsregnskab.  
 
-![Oversigt over omkostningsregnskab](media/costaccountingoverview.png "OversigtOverOmkostningsregnskab")  
+![Oversigt over omkostningsregnskab.](media/costaccountingoverview.png "OversigtOverOmkostningsregnskab")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Omkostningstyper, omkostningssteder og omkostningsobjekter  
 Du definerer omkostningstyper, omkostningssteder og omkostningsobjekter for at analysere, hvad omkostningerne er, hvor omkostningerne kommer fra, og hvem skal bære omkostningerne.  

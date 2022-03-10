@@ -1,21 +1,20 @@
 ---
-title: Knyt en salgsordre til en købsordre til direkte levering | Microsoft Docs
+title: Knyt en salgsordre til en købsordre til direkte levering (indeholder video) | Microsoft Docs
 description: Beskriver, hvordan du opretter en salgsordre, der er knyttet til en købsordre for at muliggøre levering direkte fra leverandøren til kunden.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct shipment
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c6b84d3622b4261c1f88880ba1257bf00f83e346
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 19bfb28494a6ee5a4650f32fd2794c0254eff561
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748439"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144823"
 ---
 # <a name="make-drop-shipments"></a>Foretage direkte leveringer
 
@@ -31,13 +30,13 @@ Når en salgsordre er markeret til direkte levering, og du opretter en købsordr
 Hvis du vil forberede en direkte levering, skal du oprette en salgsordre for en vare og angive på salgslinjen, at salget kræver direkte levering.
 
 1. Opret en salgsordre for en vare. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).
-2. Markér afkrydsningsfeltet **Direkte levering** på salgsordrelinjen for den direkte levering. Brug funktionen **Vis kolonner**, hvis feltet ikke vises. Du kan finde flere oplysninger under [Tilpasse dit arbejdsområde](ui-personalization-user.md).
+2. Markér afkrydsningsfeltet **Direkte levering** på salgsordrelinjen for den direkte levering. Brug funktionen **Vis kolonner**, hvis feltet ikke vises. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Sådan oprettes købsordren til direkte levering
 
 Hvis du vil forberede en direkte levering, skal du angive på købsordren, at den skal sendes til kunden og ikke til dig selv.
 
-1. Opret en indkøbsordre. Du skal ikke udfylde nogen felter på linjerne. Du kan finde flere oplysninger under [Registrere køb](purchasing-how-record-purchases.md).
+1. Opret en indkøbsordre. Du skal ikke udfylde nogen felter på linjerne. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).
 2. Vælg **Debitoradresse** i feltet **Leveres til**.
 3. Vælg den kunde, du sælger til, i feltet **Debitor**.
 4. Vælg handlingen **Direkte leveringer**, og vælg derefter handlingen **Hent salgsordre**.
@@ -52,7 +51,7 @@ Nu kan du bede leverandøren levere varerne til kunden, f.eks. ved at sende køb
 
 Du kan også bruge indkøbskladden til at oprette købsordren til kreditoren. Fordelen ved at bruge indkøbskladden er, at den kan oprette købsordrer til alle udestående direkte leveringer, så du ikke behøver at oprette dem en ad gangen.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), åbn **Indkøbskladder**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Indkøbskladder**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Direkte leveringer**, og vælg derefter handlingen **Hent salgsordre**.
 3. Vælg knappen **OK**.
 4. Gennemgå købsordrelinjerne, og vælg den leverandør, der leverer de krævede varer, i feltet **Leverandørnr.**. 
@@ -66,7 +65,7 @@ Du kan også bruge indkøbskladden til at oprette købsordren til kreditoren. Fo
 
 Når kreditoren har leveret varerne, kan du bogføre salgsordren som leveret. Du kan også bogføre købsordren, men kun med indstillingen **Modtag**, indtil salgsordren er faktureret.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsordre**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.
 2. Åbn den salgsordre, du oprettede i [Sådan oprettes en salgsordre til direkte levering](#to-create-a-sales-order-for-drop-shipment)(sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
 3. I feltet **Levér (antal)** skal du angive, hvor mange varer af ordreantallet der skal leveres, hele eller en del af ordreantallet.
 4. Vælg handlingen **Bogfør** eller **Bogfør og send**.
@@ -81,3 +80,6 @@ Når kreditoren har leveret varerne, kan du bogføre salgsordren som leveret. Du
 [Salg](sales-manage-sales.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,26 +1,25 @@
 ---
-title: Montagestyring | Microsoft Docs
-description: Støt virksomheder, som leverer produkter til deres kunder, ved at kombinere komponenter i enkle processer uden brug af produktionsfunktioner, men med funktioner til montage af varer, der kan integreres med eksisterende funktioner som salg, planlægning, reservationer og opbevaring.
+title: Montagestyring
+description: Support firmaer, der leverer produkter til deres kunder ved at kombinere komponenter i enkle processer uden produktions funktionen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 6088b23d48c1ea9e0ec07d245eaefafff11da025
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d1b879eeabfb42298bb1bf8a10d3b53870da3aa7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5376858"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130640"
 ---
 # <a name="assembly-management"></a>Montagestyring
 For at støtte virksomheder, som leverer produkter til deres kunder ved at kombinere komponenter i enkle processer uden brug af produktionsfunktioner, indeholder [!INCLUDE[prod_short](includes/prod_short.md)] funktioner til montage af varer, der kan integreres med eksisterende funktioner som salg, planlægning, reservationer og opbevaring.  
 
- Et montageelement er defineret som et salgbart element, der indeholder en montagestykliste. Du kan finde flere oplysninger under [Arbejde med styklister](inventory-how-work-BOMs.md).
+ Et montageelement er defineret som et salgbart element, der indeholder en montagestykliste. Du kan finde flere oplysninger i [Arbejde med styklister](inventory-how-work-BOMs.md).
 
  Montageordrer er interne ordrer, ligesom produktionsordrer, der bruges til at administrere montageprocessen og til at forbinde salgskravene med de involverede lageraktiviteter. Montageordrer adskiller sig fra andre ordretyper, da de omfatter både afgang og forbrug, når de bogføres. Montageordrehovedet fungerer på samme måde en afgangskladdelinje, og montageordrelinjerne fungerer på samme måde som forbrugskladdelinjer.  
 
@@ -52,10 +51,10 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 [Arbejde med styklister](inventory-how-work-BOMs.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)  
-[Gennemgang: Manuel planlægning af forsyninger](walkthrough-planning-supplies-manually.md)  
-[Gennemgang: Salg, montering og levering af pakker](walkthrough-selling-assembling-and-shipping-kits.md)  
+<!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
+<!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -1,22 +1,22 @@
 ---
-title: Administrere kunder ved hjælp af Dynamics 365 Sales | Microsoft Docs
-description: Du kan bruge Dynamics 365 Sales fra Business Central til at tilknytte data og få gnidningsløs integration og synkronisering i lead-til-kontant-processen.
+title: Administrere kunder ved hjælp af Dynamics 365 Sales (indeholder video) | Microsoft Docs
+description: Du kan bruge Dynamics 365 Sales fra Business Central med problemfri integration og synkronisering i lead-til-kontant-processen.
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
+ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f7e4e4c98a334fcd38d488f721eb99e6edcd77c1
-ms.sourcegitcommit: 08ca5798cf3f04fc3ea38fff40c1860196a70adf
+ms.openlocfilehash: 7a77ae97b8198e2a50c911e1be27ea76c20b9570
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "5985358"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140838"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Bruge Dynamics 365 Sales fra Business Central
 Hvis du bruger Dynamics 365 Sales for Customer Engagement, kan du nyde godt af problemfri lead-til-kontant-processen ved hjælp af [!INCLUDE[prod_short](includes/prod_short.md)] for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og håndtering af økonomien.
@@ -115,7 +115,7 @@ I den aktuelle prissætning synkroniseres [!INCLUDE[prod_short](includes/prod_sh
     1. Par de varer, hvor priserne er angivet for debitorprisgruppen.
     2. På siden **Debitorprisgrupper** skal du oprette debitorprisgruppen ved at vælge **Relaterede**, derefter **Dynamics 365 Sales**, **Kobling** og derefter **Konfigurer kobling**. Koblingen opretter en aktiv prisliste i [!INCLUDE[prod_short](includes/prod_short.md)] med det samme navn som debitorprisgruppen i [!INCLUDE[crm_md](includes/crm_md.md)] og synkroniserer automatisk alle varer, som debitorprisgruppen definerer prisen for.
 
-:::image type="content" source="media/customer-price-group.png" alt-text="Debitorprisgruppeside":::
+:::image type="content" source="media/customer-price-group.png" alt-text="Debitorprisgruppeside.":::
 
 #### <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience/)  
 
@@ -131,7 +131,7 @@ Den nye prissætningsoplevelse synkroniserer prislister, der opfylder følgende 
 
 Hvis du vil synkronisere prislister, skal du på siden **Salgsprisliste** vælge **Relaterede**, **Dynamics 365 Sales**, **Kobling** og derefter **Konfigurer kobling**. 
 
-:::image type="content" source="media/sales-price-list.png" alt-text="Salgsprislisteside":::
+:::image type="content" source="media/sales-price-list.png" alt-text="Salgsprislisteside.":::
 
 ---
 

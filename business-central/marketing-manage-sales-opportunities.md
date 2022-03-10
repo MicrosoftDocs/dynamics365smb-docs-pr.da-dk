@@ -1,23 +1,22 @@
 ---
-title: Administrere salgsmuligheder og leads | Microsoft Docs
+title: Administrere salgsmuligheder og kundeemner
 description: Beskriver administration af eventuelle indgående leads eller salgsmuligheder i Business Central og tilknytning af et lead til en sælger for at holde styr på muligt salg.
-services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 10/01/2020
+ms.search.forms: 5132, 5101, 5103, 5102, 5146, 5199, 5197, 5198, 5137, 5086, 5089, 5087, 5088, 5090, 5128, 5133, 5114, 5151, 5145, 5126, 5189, 5191, 5097, 5135, 5188, 5187, 5154, 5147, 5131, 9257, 5124, 782, 5130, 5123, 5127, 5174, 5125, 5115, 5112, 5111, 5110, 5109, 5149, 5169, 5190, 783, 505, 5118, 5072, 781, 5152, 5153, 5155, 5098, 5196, 5096, 5099, 9255, 5129, 5136
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: aeb0c872a9f89874abbd6c5049b0b4d3594e4399
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: cf696f5e30c308e04f90983eece35017045e985d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390420"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135077"
 ---
 # <a name="managing-sales-opportunities"></a>Administrere salgsleads
 Alle indgående leads kan anses for at være et salgslead. Du kan oprette leads og knytte dem til en sælger, så du kan holde styr på muligt salg.

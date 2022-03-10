@@ -2,16 +2,15 @@
 title: Advarsler og fejlmeddelelser
 description: Få mere at vide om, hvordan du kan foretage fejlfinding og finde løsninger på fejlmeddelelser, når du arbejder i Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fa01f29859b8076ffd9b7786a619ef932903b8d9
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9b881ee5a4a98e30af3da572600747702a3ebca5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5779478"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137623"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Advarsler og fejlmeddelelser i Dynamics 365 Business Central
 
@@ -36,9 +35,9 @@ Hvis du er administrator eller superbruger, kan du hjælpe andre ved at søge ef
 ## <a name="see-also"></a>Se også
 
 [Ressourcer til hjælp og support](product-help-and-support.md)  
-[Ofte stillede spørgsmål](across-faq.md)  
+[Ofte stillede spørgsmål](across-faq.yml)  
 [Ofte stillede spørgsmål om Fortæl mig](ui-search-faq.md)  
-[Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.md)  
+[Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.yml)  
 [Ofte stillede spørgsmål om kopiering og indsætning](faq-copy-paste.yml)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Blive køreklar](ui-get-ready-business.md)  

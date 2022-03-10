@@ -2,18 +2,17 @@
 title: Opdatere valutakurser (indeholder video)
 description: Spore beløb i forskellige valutaer ved hjælp af valutakoder, og lad Business Central hjælpe dig med at regulere valutakurser for bogførte poster med en ekstern service.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 07/23/2021
+ms.date: 02/17/2022
 ms.author: edupont
-ms.openlocfilehash: 93a5059be3810af4d0351c6508c5d6119eaa4015
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 04f96b269b842045c1a804f976ffddfd5348befc
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972875"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323262"
 ---
 # <a name="update-currency-exchange-rates"></a>Opdatere valutakurser
 
@@ -28,6 +27,9 @@ Finansprogrammet er konfigureret til at bruge den lokale valuta (RV), men du kan
 
 > [!IMPORTANT]
 > Hvis du vil bruge en ekstra rapporteringsvaluta til finansiel rapportering, skal du have kendskab til begrænsningerne. Du kan finde flere oplysninger i [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md).
+
+> [!NOTE]  
+> Når du bogfører på finanskonto ved hjælp af en valutakode, f. eks. Hvis du vil bogføre en udgift i en finanskladde ved hjælp af en valutakode, omregnes transaktionen til RV ved hjælp af valutakursen for bogføringsdatoen. Finansposten vil ikke indeholde oplysninger om den valuta, der er brugt, kun værdien i RV. Hvis du vil holde styr på den oprindelige valuta, f. eks. til en faktura, skal du bruge både salgs-og købsdokumenter og bankkonti, der gemmer valutakode oplysninger for posterne.
 
 ## <a name="currencies"></a>Valutaer
 

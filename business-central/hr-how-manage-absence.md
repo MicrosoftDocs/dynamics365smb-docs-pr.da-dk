@@ -1,22 +1,20 @@
 ---
-title: Administrere medarbejders fravær | Microsoft Docs
-description: Beskriver, hvordan du registrerer medarbejderes fravær og analyserer statistik over fravær.
-services: project-madeira
-documentationcenter: ''
+title: Administrere medarbejderfravær
+description: Beskriver, hvordan medarbejdernes fraværs-og analyse fravær registreres vha. siderne fraværsregistrering og fravær.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.search.form: 5212, 5211, 5200
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1385545ffa32bbf321c90acf1f27b948a41c4644
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 77ae09aebd78c870cc92d01700fc9a9188f340ee
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777662"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146432"
 ---
 # <a name="manage-employee-absence"></a>Administrere medarbejderfravær
 Hvis du vil administrere en medarbejders fravær, skal du registrere fraværet på siden **Fraværsregistrering**. Det kan derefter vises på forskellige måder i forbindelse med analyse og rapportering.
@@ -71,5 +69,8 @@ Du kan registrere medarbejderfravær dagligt eller med andre intervaller, der op
 ## <a name="see-also"></a>Se også
 [Administrere personale](hr-manage-human-resources.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

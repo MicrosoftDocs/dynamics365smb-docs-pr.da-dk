@@ -2,31 +2,35 @@
 title: Undervisningskatalog for Business Central
 description: Undervisningskatalog for Business Central
 author: loreleishannonmsft
-ms.date: 02/19/2020
-ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: 44132a02a899202a95ad1510c9b837cb48e2150f
-ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
+ms.date: 04/01/2021
+ms.topic: conceptual
+ms.author: margoc
+ms.openlocfilehash: f7b0434be1ec49259b400403c0f8dcd7fddfcc47
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097595"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772450"
 ---
 # <a name="business-central-learning-catalog"></a>Undervisningskatalog for Business Central
+
 Find den rigtige onlineundervisning, skræddersyede workshops og hændelser for din rolle som en Business Central-bruger eller -partner.
 
 :::row:::
+
     :::column:::
 
     ### <a name="business-decision-maker"></a>Virksomhedens beslutningstager
 
     Beslutter du, om der skal investeres i nye teknologier? 
 
-    [Undervisningskatalog for forretningsbeslutningstagere](readiness-learning-bus-decision-makers.md)
+    [Få mere at vide om værdien af Business Central (Gratis onlinelæringssti i dit eget tempo)](/learn/modules/dynamics-365-business-central/)
 
-    [Forretningsværdi](readiness-learning-bus-decision-makers.md#busvalue)
+    [Kom i gang (Gratis onlinelæringssti i dit eget tempo)](/learn/paths/get-started-dynamics-365-business-central/)
 
-    [Kom i gang](readiness-learning-bus-decision-makers.md#get-started)
+    [Udforske Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/)
+
+    [Business Central-videoer på YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 
     :::column-end:::
 
@@ -36,36 +40,27 @@ Find den rigtige onlineundervisning, skræddersyede workshops og hændelser for 
 
     Har du lige fået et nyt program, du skal bruge? 
 
-    [Undervisningskatalog for forretningsbrugere](readiness-learning-bus-users.md)
+    [Kom i gang (Gratis onlinelæringssti i dit eget tempo)](/learn/paths/get-started-dynamics-365-business-central/)
 
-    [Kom i gang](readiness-learning-bus-users.md#get-started)
+    [Business Central-læringsstier (Gratis onlinelæringsstier i dit eget tempo)](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 
-    [Financials](readiness-learning-bus-users.md#financials)
-
-    [Handel](readiness-learning-bus-users.md#trade)
+    [Business Central-videoer på YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 
     :::column-end:::
 
 :::row-end:::
 
 :::row:::
+
     :::column:::
 
     ### <a name="developer"></a>Udvikler
 
     Har du brug for at skrive kode, der kan integreres med andre datakilder, udvide kernesystemet eller opbygge et komplekst program?
 
-    [Undervisningskatalog for udviklere](readiness-learning-developers.md)
+    [Business Central-læringsstier (Gratis onlinelæringsstier i dit eget tempo)](/learn/browse/?products=dynamics-business-central&roles=developer&resource_type=learning%20path)
 
-    [Introduktion](readiness-learning-developers.md#get-started)
-
-    [Nyheder](readiness-learning-developers.md#whatsnew)
-
-    [Grundlæggende udvikling](readiness-learning-developers.md#core-development)
-
-    [Administration af programlivsstil](readiness-learning-developers.md#applife)
-
-    [Connect apps](readiness-learning-developers.md#connect-apps)
+    [Dokumentation for udviklere](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 
     :::column-end:::
 
@@ -75,58 +70,13 @@ Find den rigtige onlineundervisning, skræddersyede workshops og hændelser for 
     
     Er du implementeringsekspert for et virksomhedsdomæne? 
 
-    [Undervisningskatalog for funktionelle konsulenter](readiness-learning-functional-consultants.md)
+    [Business Central-læringsstier (Gratis onlinelæringsstier i dit eget tempo)](/learn/browse/?products=dynamics-business-central&roles=functional-consultant&resource_type=learning%20path)
 
-    [Kom i gang](readiness-learning-functional-consultants.md#get-started)
-
-    [Installer](readiness-learning-functional-consultants.md#deploy)
-
-    [Financials](readiness-learning-functional-consultants.md#financials)
-
-    [Handel](readiness-learning-functional-consultants.md#trade)
-
-    [Cloud](readiness-learning-functional-consultants.md#cloud)
+    [Business Central-videoer på YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 
     :::column-end:::
 
 :::row-end:::
 
-:::row:::
 
-    :::column:::
-
-    ### <a name="partner-pre-sales"></a>Før salgs-partner
-
-    Er du ansvarlig for at demonstrere nøglefunktioner for kunder? 
-
-    [Undervisningskatalog for førsalgspartnere](readiness-learning-presales.md)
-
-    [Kom i gang](readiness-learning-presales.md#get-started)
-
-    [Udvid din virksomhed](readiness-learning-presales.md#grow)
-
-    [Forretningsværdi](readiness-learning-presales.md#busvalue)
-
-    [Nyheder](readiness-learning-presales.md#whatsnew)
-
-    [Demo](readiness-learning-presales.md#demo)
-
-    :::column-end:::
-
-    :::column:::
-
-    ### <a name="partner-sales"></a>Partnersalg
-
-    Er du ansvarlig for at hjælpe kunder med at købe den rigtige løsning? 
-
-    [Undervisningskatalog for sælgere](readiness-learning-sales.md)
-
-    [Kom i gang](readiness-learning-sales.md#get-started)
-
-    [Udvid din virksomhed](readiness-learning-sales.md#grow)
-
-    [Forretningsværdi](readiness-learning-sales.md#busvalue)
-
-    :::column-end:::
-
-:::row-end:::
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

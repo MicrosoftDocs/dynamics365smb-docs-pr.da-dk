@@ -1,31 +1,28 @@
 ---
-title: Konfigurere fejlrapportering i Service | Microsoft Docs
-description: Få at vide, hvordan du konfigurerer fejlrapporteringsprocesser.
-services: project-madeira
-documentationcenter: ''
+title: Opsætte fejlrapportering i Service Management
+description: Med Fejlrapportering kan du angive standarder for registrering af oplysninger om fejl på serviceartikler med fejlkoder osv.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 48361c529b682fc3989ceaa2baebcb1f4cb529a4
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 0a9ed0fc94b2f4e6c509abcf1143b6eab5921de6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250844"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139361"
 ---
 # <a name="set-up-fault-reporting"></a>Konfigurere fejlrapportering
 Med Fejlrapportering kan du angive standarder for registrering af oplysninger om fejl på serviceartikler. F.eks. kan du angive, hvad problemet er, de symptomer, du ser, årsagen til problemet, og hvordan det løses.  
 
 Fejlkoder angiver de typiske serviceartikelfejl eller de handlinger, der udføres på serviceartikler. Det afhænger af niveauet for fejlrapporteringen i din virksomhed, om du evt. blive nødt til at definere fejlområdekoder og symptomkoder, inden du definerer fejlkoder. Fejlområder beskriver områder med serviceartikelfejl. Fejlårsagskoder beskriver årsagen til serviceartikelfejl og om nødvendigt, om garanti- og kontraktrabatter skal udelukkes. Hvis kunden f.eks. er ansvarlig for fejlen på serviceartiklen, vil der evt. være behov for at udelukke garanti- og kontraktrabatter. Du tildeler fejlårsagskoder til serviceordrer. Du kan finde flere oplysninger i [Arbejde med serviceopgaver](service-how-to-work-on-service-tasks.md).  
 
-## <a name="to-specify-the-overall-level-of-fault-reporting-to-use"></a>Sådan angives det generelle fejlrapporteringsniveau, der skal bruges
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Serviceopsætning**, og vælg derefter det relaterede link.
+## <a name="to-specify-the-overall-level-of-fault-reporting"></a>Sådan angives det generelle fejlrapporteringsniveau
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceopsætning** og vælg derefter det relaterede link.
 2. I feltet **Fejlrapporteringsniveau** skal du vælge en af de indstillinger, der er beskrevet i følgende tabel.  
 
     |**Fejlniveau**|**Beskrivelse**|  
@@ -39,9 +36,9 @@ Når du skal færdiggøre opsætningen af fejlrapportering, kan du også angive,
 
 ## <a name="to-create-fault-and-resolution-code-relationships"></a>Sådan indsættes fejl- og løsningskoderelationer
 <!--this needs to go in a working with topic-->
- Du skal samle oplysninger sammen vedr. fejl/løsningskoderelationer, så du kan se de mest almindelige reparationsmetoder for bestemte varefejl, når du reparerer varerne. Brug kørslen **Indsæt fejl/løsningsrelationer** til at finde alle kombinationerne af fejl- og løsningskoder i bogførte serviceordrer, og registrer dem på siden **Fejl/løsn.koderelationer**.
+Du skal samle oplysninger sammen vedr. fejl/løsningskoderelationer, så du kan se de mest almindelige reparationsmetoder for bestemte varefejl, når du reparerer varerne. Brug kørslen **Indsæt fejl/løsningsrelationer** til at finde alle kombinationerne af fejl- og løsningskoder i bogførte serviceordrer, og registrer dem på siden **Fejl/løsn.koderelationer**.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Indsæt fejl/løsningsrelationer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Indsæt fejl/løsningsrelationer**, og vælg derefter det relaterede link.  
 2. Angiv datoer for at definere den periode, du vil have med i kørslen.  
 3. Marker afkrydsningsfeltet **Relation baseret på serviceartikelgrp.**, hvis du vil gruppere relationerne efter serviceartikelgruppe.  
 4. Markér afkrydsningsfeltet **Bevar manuelt indsat post**, hvis du vil bevare de poster, du allerede har indsat manuelt på siden **Fejl/løsn.koderelationer**.  
@@ -49,3 +46,6 @@ Når du skal færdiggøre opsætningen af fejlrapportering, kan du også angive,
 ## <a name="see-also"></a>Se også
 [Konfigurere Service](service-setup-service.md)  
 [Service Management](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

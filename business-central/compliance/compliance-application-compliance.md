@@ -1,26 +1,25 @@
 ---
-title: Programoverholdelse | Microsoft Docs
-description: Dette indhold indeholder oplysninger om programoverholdelse i relation til Business Central.
+title: Programoverholdelse
+description: Dette indhold indeholder oplysninger om programoverholdelse i relation til Business Central som f.eks. internationale standarder for financial reporting, lokal funktionalitet og GDPR.
 author: sorenfriisalexandersen
 documentationcenter: ''
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: c9511a0737e5324f311bb5489cce0d194c7e68ee
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7d264ae88d1f9743d7e30994ee0e39f19a5febbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5788454"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139855"
 ---
 # <a name="application-compliance"></a>Programoverholdelse
 
-Dette indhold indeholder oplysninger om programoverholdelse i relation til [!INCLUDE[prod_short](../includes/prod_short.md)], f.eks. internationale standarder for regnskabsaflæggelse, lokal funktionalitet, GDPR og meget mere. Tillid til en løsning til virksomhedsadministration er nøglen til at køre en effektiv virksomhed. Med Business Central har virksomheder muligheder for at strømline forretningsprocesser, samtidig med at de ensartet og omkostningseffektivt følger de stigende krav til regulering og rapportering.
+Dette indhold indeholder oplysninger om programoverholdelse i relation til [!INCLUDE[prod_short](../includes/prod_short.md)], f.eks. internationale standarder for financial reporting, lokal funktionalitet, GDPR og meget mere. Tillid til en løsning til virksomhedsadministration er nøglen til at køre en effektiv virksomhed. Med Business Central har virksomheder muligheder for at strømline forretningsprocesser, samtidig med at de ensartet og omkostningseffektivt følger de stigende krav til regulering og rapportering.
 
 ## <a name="data-privacy"></a>Beskyttelse af personlige oplysninger
 
@@ -61,7 +60,7 @@ Lever integrerede oplysninger, justerede processer og let anvendelige værktøje
 - Definer strukturen i virksomhedens kontoplan baseret på forretningsbehov og gældende lovbestemte standarder
 - Opret konti og håndter komplekse processer, der er relateret til en række forretningsmæssige aktiviteter, herunder lagerværdi, udenlandske valutaer, segmentrapportering og afvigelser fra lokale GAAP'er.
 - Styr detaljeringsniveauet for hver registreret transaktion,    og vælg detaljeret registrering for bestemte transaktionstyper som f.eks. anlægsaktiver og kreditorer.
-- Skræddersy beregninger, der vises i forbindelse med regnskabsaflæggelse, eller eksportér oplysningerne til Microsoft Excel til videre analyse.
+- Skræddersy beregninger, der vises i forbindelse med financial reporting, eller eksportér oplysningerne til Microsoft Excel til videre analyse.
 
 ### <a name="improve-information-validity"></a>Forbedre oplysningers gyldighed
 
@@ -77,7 +76,6 @@ Lever integrerede oplysninger, justerede processer og let anvendelige værktøje
 - Spar tid,    når du opretter    standardrapporter, der anvender fælles forretningsparametre og -kriterier til at opfylde typiske rapporteringsbehov, lige fra ordreoversigter til aldersfordelte tilgodehavender.
 - Udfør komplekse gennemgange med grundlæggende eller    avancerede forretningsanalysefunktioner.
 - Opret brugerdefinerede rapporter og visninger i produktet og ved hjælp af integration med Microsoft PowerBI.
-- Sæt fart i    overførslen af    finansielle oplysninger til debitorer, aktionærer, offentlige myndigheder og offentligheden med XML-baserede XBRL-dokumenter, der understøtter udveksling af finansielle oplysninger på tværs af forskellig software og teknologier, herunder internettet.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Hjælp til at sikre klare revisionsspor
 
@@ -92,7 +90,7 @@ Microsoft bygger lokaliserede versioner af Business Central med et begrænset an
 
 > [!NOTE]  
 > **Sarbanes-Oxley: Validering af data og processer**  
-> Sarbanes-Oxley Act fastlægger standarder for bestyrelse, ledelse og revisionsfirmaer i alle amerikanske offentlige virksomheder, herunder evaluering og videregivelse    af    vurderingen    af    virksomhedens    interne kontrol med regnskabsaflæggelse. Dokumentation og test af kritiske manuelle og automatiserede kontrolfunktioner kræver et stort forbrug af tid og ressourcer af virksomhederne. Business Central er især egnet til datterselskaber af større virksomheder og kan hjælpe med til at understøtte små og mellemstore virksomheder i overholdelsen af Sarbanes-Oxley.
+> Sarbanes-Oxley Act fastlægger standarder for bestyrelse, ledelse og revisionsfirmaer i alle amerikanske offentlige virksomheder, herunder evaluering og videregivelse    af    vurderingen    af    virksomhedens    interne kontrol med financial reporting. Dokumentation og test af kritiske manuelle og automatiserede kontrolfunktioner kræver et stort forbrug af tid og ressourcer af virksomhederne. Business Central er især egnet til datterselskaber af større virksomheder og kan hjælpe med til at understøtte små og mellemstore virksomheder i overholdelsen af Sarbanes-Oxley.
 
 > [!NOTE]  
 > **IAS/IFRS: Registrering og målingsstandarder**  

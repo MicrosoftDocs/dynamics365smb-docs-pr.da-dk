@@ -1,23 +1,22 @@
 ---
-title: Relationsstyring | Microsoft Docs
-description: Relationsstyringsfunktionerne i Business Central understøtter din salgsindsats, og du kan få adgang til oplysninger om kontakter og kundeemner, så du kan betjene kunderne effektivt.
-services: project-madeira
+title: Relationsstyring
+description: Relationsstyringsfunktionerne i understøtter din salgsindsats, og du kan få adgang til oplysninger om kontakter og kundeemner, så du kan betjene kunderne effektivt.
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contact, prospect, client
-ms.date: 04/01/2021
+ms.search.forms: 9076, 9026
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3f3a6e729adcb5057b52aebd996778e74c83e01d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3dec95b484bce34c2eff2cbc49510e54f871f4ef
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780603"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137857"
 ---
 # <a name="managing-relationships"></a>Styre relationer
 Relationsstyringsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)] hjælper dig med at styre og understøtte din salgsindsats. Med disse funktioner får du adgang til dækkende og præcise oplysninger, så du kan fokusere på interaktioner med dine foretrukne kunde-/kontaktmålgrupper.

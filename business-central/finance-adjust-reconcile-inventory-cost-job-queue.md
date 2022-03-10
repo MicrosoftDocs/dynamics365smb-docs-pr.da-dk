@@ -2,7 +2,6 @@
 title: Planlæg sager til regulering og afstemning af lageromkostninger
 description: Få mere at vide om, hvordan du kan bruge opgavekøen til at flytte opgaverne for at regulere lageromkostninger eller afstemme den med finansregnskabet i baggrunden. Hvis din virksomhed f.eks. kører mange opgaver eller behandler mange transaktioner.
 author: AndreiPanko
-ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.reviewer: edupont
 ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: andreipa
-ms.openlocfilehash: 85fec80ca9b7f2184e67da58f9d05a86534e90ac
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 40642b524e44234cda8ef0bd468ff8eb47decb69
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973540"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142259"
 ---
 # <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Planlæg sager til regulering og afstemning af lageromkostninger med finansmodulet
 

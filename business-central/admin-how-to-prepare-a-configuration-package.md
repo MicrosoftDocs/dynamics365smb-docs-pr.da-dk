@@ -1,21 +1,20 @@
 ---
-title: Sådan forberedes en konfigurationspakke | Microsoft Docs
-description: Lær nu, hvordan du konfigurerer en RapidStart-konfigurationspakke, som kan hjælpe med at oprette nye virksomheder på basis af eksisterende data.
+title: Forberede en konfigurationspakke
+description: Lær nu, hvordan du forbereder en RapidStart-konfigurationspakke, som kan hjælpe med at oprette nye virksomheder på basis af eksisterende data.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/06/2020
+ms.date: 07/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 026a76fac8ce50c5eab68c40c9f7b4300f1493b8
-ms.sourcegitcommit: 6078bc9b2b571248d779722ce4125f250e7a3922
+ms.openlocfilehash: 6bb0c48f1b6be3857ada32e4847d28be19c61580
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "3666993"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147082"
 ---
 # <a name="prepare-a-configuration-package"></a>Forberede en konfigurationspakke
 
@@ -56,14 +55,14 @@ Du kan indlæse konfigurationspakker, der er eksporteret fra en database med et 
 
 ## <a name="to-create-a-configuration-package"></a>Oprette en konfigurationspakke
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pakker til konfiguration**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. På oversigtspanelet **Generelt** skal du udfylde resten af felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Hvis du vil udelukke konfigurationsspørgeskemaer, konfigurationsskabeloner og konfigurationsregnearkstabeller fra pakken, skal du markere afkrydsningsfeltet **Udeluk konfigurationstabeller**. Ellers føjes disse tabeller automatisk til listen over pakketabeller, når du eksporterer pakken.  
 5. Vælg handlingen **Hent tabeller**. Kørselssiden **Hent pakketabeller** åbnes.  
 6. Vælg feltet **Vælg tabeller**. Siden **Konfigurationsvalg** åbnes.  
 7. Vælg handlingen **Markér alt** for at føje alle tabellerne til pakken, eller markere afkrydsningsfeltet **Markeret** for hver tabel på den liste, du vil tilføje.
-8. Vælg knappen **OK**. Antallet af tabeller, du har valgt, er angivet i feltet **Vælg tabeller**. Angiv yderligere indstillinger, og vælg derefter knappen **OK**. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller føjes til linjerne på siden **Konfig.pakke**.  
+8. Vælg knappen **OK**. Antallet af tabeller, du har valgt, er angivet i feltet **Vælg tabeller**. Angiv yderligere indstillinger, og vælg derefter knappen **OK**. [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller føjes til linjerne på siden **Konfig.pakke**.  
 
     > [!NOTE]  
     >  Du kan også gøre dette i konfigurationsarket. Markér de tabeller, du ønsker at medtage i pakken, og vælg derefter handlingen **Tildel pakke**.
@@ -74,8 +73,20 @@ Angiv, hvilke felter der er inkluderet i pakken. Alle felter er inkluderet som s
     - For kun at vælge de felter du vil medtage, skal du vælge handlingen **Ryd inkluderede**. Hvis du vil tilføje alle felter, skal du vælge handlingen **Angiv inkluderede**.  
     - Hvis du vil angive, at feltdata ikke skal valideres, skal du fjerne markeringen af afkrydsningsfeltet **Valider felt** for feltet.  
 
-10. Kontrollér, om du har indført potentielle fejl ved at vælge handlingen **Valider pakke**. Dette kan ske, når du ikke medtager tabeller, der er afhængige af din konfiguration.  
-11. Vælg knappen **OK**.  
+10. Hvis du vil anvende behandlingsfiltre til tabeldata, eller hvis du vil tilføje en kodeenhed med en kode, som du vil medtage i pakken, skal du vælge linjen for den relevante tabel og derefter vælge handlingen **Behandlingsregler**.
+
+    1. Udfyld felterne på siden **Behandlingsregler for konfigurationstabel**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+        - Hvis du vil anvende filtre til data, skal du angive den relevante handling i feltet **Handling**, vælge handlingen **Behandlingsfiltre** og derefter udfylde felterne.  
+
+            Microsofts konfigurationspakker til evalueringsvirksomhederne indstiller f.eks. behandlingsfiltre i tabellerne **Salgshoved** og **Købshoved**.
+        - Hvis du vil tilføje en behandlingskodeenhed, skal du angive den i feltet **Brugerdefineret kodeenheds-id**.
+
+          > [!NOTE]
+          > Denne kodeenhed skal bruge *Konfigurationspakkepost* for tabel 8614 som parameter for metoden `OnRun`.
+    2. Luk siden.
+11. Kontrollér, om du har indført potentielle fejl ved at vælge handlingen **Valider pakke**. Dette kan ske, når du ikke medtager tabeller, der er afhængige af din konfiguration.  
+12. Vælg knappen **OK**.  
 
 Når du har finjusteret listen over felter, der skal medtages i en tabel, kan du kontrollere dine resultater i Excel.  
 
@@ -107,7 +118,7 @@ Du kan gemme filen med et navn, der er beskrivende for dig, men du kan ikke ænd
 
 Når du har oprettet en pakke, der opfylder de fleste af dine behov, kan du bruge den som grundlag for oprettelse af tilsvarende pakker. Dette kan gøre gennemførselstiden hurtigere og forbedre gentagelsesaspektet af RapidStart Services.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationspakker**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pakker til konfiguration**, og vælg derefter det relaterede link.  
 2. Vælg en pakke på listen, og vælg derefter handlingen **Kopiér pakke**.  
 3. Angiv en kode for den nye pakke i feltet **Ny pakkekode**.  
 4. Markér afkrydsningsfeltet **Kopiér data**, hvis du også vil kopiere databasedata fra den eksisterende pakke.  
@@ -117,7 +128,7 @@ Når du har oprettet en pakke, der opfylder de fleste af dine behov, kan du brug
 
 Brug konfigurationsregnearket til at indsamle og kategorisere de oplysninger, du vil bruge til at konfigurere en ny virksomhed og arrangere tabeller på en logisk måde. Formateringen i regnearket er baseret på et enkelt hierarki: Områder indeholder grupper, som til gengæld indeholder tabeller. Områder og grupper er valgfri, men er nødvendige, hvis du vil have en oversigt over konfigurationsprocessen i rollecenteret RapidStart Services.
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Arbejdsark til konfiguration**, og vælg derefter det relaterede link.  
 2. I feltet **Linjetype** skal du vælge **Område**. I feltet **Navn** skal du angive et beskrivende navn.  
 3. I feltet **Linjetype** skal du vælge **Gruppe**. I feltet **Navn** skal du angive et beskrivende navn.  
 4. I feltet **Linjetype** skal du vælge **Tabel**. I feltet **Tabel-id** skal du vælge den tabel, du vil medtage i regnearket.  
@@ -136,7 +147,7 @@ Når du har defineret de tabeller, der skal behandles som en del af konfiguratio
 > [!NOTE]  
 > Du kan også oprette en pakke direkte og føje tabeller til den. Du kan finde flere oplysninger i [Sådan oprettes en konfigurationspakke](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Arbejdsark til konfiguration**, og vælg derefter det relaterede link.
 2. I konfigurationsregnearket skal du vælge en linje eller gruppe af linjer, du vil tildele til en konfigurationspakke, og derefter vælge handlingen **Tildel pakke**.  
 3. Vælg en pakke på listen, eller vælg handlingen **Ny** for at oprette en ny pakke, og vælg derefter knappen **OK**.  
 
@@ -147,11 +158,11 @@ Når du har defineret de tabeller, der skal behandles som en del af konfiguratio
 
 Efterhånden som du opretter en konfigurationspakke for en løsning, kan du få vist og tilpasse tilgængelige databasedata, så de passer til debitorens behov. Databasetabellen skal have en tilknyttet side.  
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Arbejdsark til konfiguration**, og vælg derefter det relaterede link.
 2. I konfigurationsregnearket skal du identificere de tabeller, hvis data du ønsker at se eller tilpasse.  
 
     > [!NOTE]  
-    >  Sørg for, at hver enkelt tabel har fået tildelt et side-id. For standardtabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)] angives værdien automatisk. For brugerdefinerede tabeller skal du angive id'et.
+    >  Sørg for, at hver enkelt tabel har fået tildelt et side-id. For standardtabeller i [!INCLUDE[prod_short](includes/prod_short.md)] angives værdien automatisk. For brugerdefinerede tabeller skal du angive id'et.
 
 3. Vælg handlingen **Databasedata**. Siden for den relaterede side åbnes.
 4. Gennemse de tilgængelige oplysninger. Rediger dem efter behov ved at slette poster, der ikke er relevante, eller ved tilføje nye.  
@@ -161,7 +172,7 @@ Efterhånden som du opretter en konfigurationspakke for en løsning, kan du få 
 Når du har undersøgt og afprøvet alle konfigurationsoplysninger, kan du fortsætte med at kopiere data til produktionsmiljøet. Du kan oprette en ny virksomhed i samme database.
 
 1. Åbn og initialiser den nye virksomhed.  
-2. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Konfigurationskladde**, og vælg derefter det relaterede link.  
+2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Arbejdsark til konfiguration**, og vælg derefter det relaterede link.  
 3. Vælg handlingen **Kopiér data fra virksomhed**.  
 4. På siden **Kopiér virksomhedsdata** skal du vælge feltet **Kopiér fra**. Siden **Virksomheder** åbnes.  
 5. Marker den virksomhed, du vil kopiere data fra, og vælg derefter knappen **OK**. En liste over tabeller, der er valgt under konfigurationsregnearket, åbnes. Det er kun tabeller, der indeholder poster, der medtages på denne liste.
@@ -174,3 +185,7 @@ Når du har undersøgt og afprøvet alle konfigurationsoplysninger, kan du forts
 [Opsætning af Virksomhedskonfiguration](admin-set-up-company-configuration.md)  
 [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Opsætning](admin-setup-and-administration.md)  
+[Analyse af konfigurationspakkens sporingstelemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-configuration-package-trace)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

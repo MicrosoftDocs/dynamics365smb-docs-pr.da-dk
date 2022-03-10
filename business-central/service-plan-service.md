@@ -4,7 +4,6 @@ description: Beskriver opgaver til oprettelse af regler og værdier, som du kan 
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 93dfc313521d392b3585eac4aacab3c152a43c78
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 98cd4b41a8e47f045c89ebc31813a07e9f3a46bf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322998"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134791"
 ---
 # <a name="planning-services"></a>Planlægning af service
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du konfigurere de standardopgaver, du skal bruge for at kunne opfylde virksomhedens krav til kundeservice. For at gøre dette skal du bestemme, hvilke serviceartikler og servicetilbud jeres serviceorganisation skal understøtte, og til hvilken pris.   

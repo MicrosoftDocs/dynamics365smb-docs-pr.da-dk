@@ -1,23 +1,20 @@
 ---
 title: Designoplysninger – Bogføring af produktionsordre | Microsoft Docs
 description: I lighed med montageordrebogføring bliver de forbrugte komponenter og den anvendte computertid konverteret og udlæst som den producerede vare, når produktionsordren er afsluttet.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: e6379530eed2c0e3881dd951fbd09602360e5fad
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 21dfc90e25c33c26bc739ff32274d0a5088a6e2f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2306888"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146562"
 ---
 # <a name="design-details-production-order-posting"></a>Designoplysninger: Bogføring af produktionsordre
 I lighed med montageordrebogføring bliver de forbrugte komponenter og den anvendte computertid konverteret og udlæst som den producerede vare, når produktionsordren er afsluttet. Du kan finde flere oplysninger i [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md). Men montageordrers kost-flow er mindre kompliceret, især fordi montageomkostninger kun bogføres én gang og derfor ikke opretter lageret for igangværende arbejde.
@@ -46,10 +43,10 @@ Afhængigt af typen af lager repræsenteres forøgelser og reduceringer af forsk
 
 ||Forøgelse|Reducering|  
 |-|---------------|---------------|  
-|**Lager af råmaterialer**|-   Nettokøb af materiale<br />-   Afgang af halvfabrikata<br />-   Negativt forbrug|Materialeforbrug|  
-|**VIA-lagerbeholdning**|-   Materialeforbrug<br />-   Kapacitetsforbrug<br />-   Indirekte prod.kostpris|Afgang af færdigvarer (omkostninger af fremstillede varer)|  
-|**Færdigvarelager**|Afgang af færdigvarer (omkostninger af fremstillede varer)|-   Salg (vareforbrug)<br />-   Negativ afgang|  
-|**Lager af råmaterialer**|-   Nettokøb af materiale<br />-   Afgang af halvfabrikata<br />-   Negativt forbrug|Materialeforbrug|  
+|**Lager af råmaterialer**|-   Nettokøb af materiale<br />-   Output af halvfabrikata<br />-   Negativt forbrug|Materialeforbrug|  
+|**VIA-lagerbeholdning**|-   Materialeforbrug<br />-   Forbrugskapacitet<br />-   Indirekte prod.kostpris|Afgang af færdigvarer (omkostninger af fremstillede varer)|  
+|**Færdigvarelager**|Afgang af færdigvarer (omkostninger af fremstillede varer)|-   Salg (vareforbrug)<br />-   Negativt output|  
+|**Lager af råmaterialer**|-   Nettokøb af materiale<br />-   Output af halvfabrikata<br />-   Negativt forbrug|Materialeforbrug|  
 
 Værdierne for forøgelser og reduceringer registreres i de forskellige typer af produceret lager på samme måde som for købt lager. Hver gang en lagerforøgelses- eller lagerreduceringstransaktion finder sted, oprettes der en varepost og en tilsvarende finanspost for beløbet. Du kan finde flere oplysninger i [Designoplysninger: Varekladde](design-details-inventory-posting.md).  
 
@@ -60,11 +57,11 @@ Bogføring af produktionsordrer til igangværende arbejdslager omfatter afgang, 
 
 Følgende diagram viser de involverede bogføringsrutiner i kodeenhed 22.  
 
-![Posteringsrutiner for produktionsordrer](media/design_details_inventory_costing_14_production_posting_1.png "Posteringsrutiner for produktionsordrer")  
+![Posteringsrutiner for produktionsordrer.](media/design_details_inventory_costing_14_production_posting_1.png "Posteringsrutiner for produktionsordrer")  
 
 I følgende diagram vises tilknytninger mellem de oprettede poster og omkostningsemnerne.  
 
-![Produktionspostflow](media/design_details_inventory_costing_14_production_posting_2.png "Produktionspostflow")  
+![Produktionspostflow.](media/design_details_inventory_costing_14_production_posting_2.png "Produktionspostflow")  
 
 Kapacitetsposten beskriver kapacitetsforbrug i tidsenheder, hvorimod den tilknyttede værdipost beskriver værdien af det specifikke kapacitetsforbrug.  
 
@@ -112,3 +109,6 @@ I miljøer med standardkostpriser er omkostninger for en produktionsordre basere
  [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)  
  [Administrere lageromkostninger](finance-manage-inventory-costs.md) [Finans](finance.md)  
  [Arbejde med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

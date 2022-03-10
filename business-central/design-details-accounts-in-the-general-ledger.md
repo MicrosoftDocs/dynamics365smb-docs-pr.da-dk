@@ -2,20 +2,19 @@
 title: 'Designoplysninger: Konti i Finans | Microsoft Docs'
 description: For at afstemme lager og kapacitetsposterne med finansmodulet, bogføres de relaterede værdiposter til forskellige konti i finans.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 1e20b9240f4e6a3b533dd38b4c8089b2520a6ad3
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: b1b3620234901c3b2a1eba5f5af7eb0e79449dc4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880684"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146796"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Designoplysninger: Konti i Finans
 For at afstemme lager og kapacitetsposterne med finansmodulet, bogføres de relaterede værdiposter til forskellige konti i finans. Du kan finde flere oplysninger i [Designoplysninger: Afstemning med Finans](design-details-reconciliation-with-the-general-ledger.md).  
@@ -26,7 +25,7 @@ Følgende tabel viser forholdet mellem forskellige typer værdiposter for lager 
 |**Vareposttype**|**Værdiposttype**|**Afvigelsestype**|**Forventet kostpris**|**Konto**|**Modkonto**|  
 |--------------------------------|--------------------------|-----------------------|-----------------------|-----------------|---------------------------|  
 |Køb|Købspris||Ja|Lager (mellemregningskonto)|Lagerperiod.konto (mellemkto.)|  
-|Køb|Købspris||Nej|Lagerbeholdning|Tillagte direkte omkostninger|  
+|Køb|Købspris||Nr.|Lagerbeholdning|Tillagte direkte omkostninger|  
 |Køb|Indir. omkostninger||Nej|Lagerbeholdning|Tillagte indir. prod.omkostn.|  
 |Køb|Varians|Køb|Nej|Lagerbeholdning|Købsafvigelse|  
 |Køb|Værdiregulering||Nej|Lagerbeholdning|Lagerregulering|  
@@ -99,4 +98,7 @@ Følgende tabel viser, hvordan beløbene, der skal bogføres i finansregnskabet,
  [Designoplysninger: Bogføring af forventet kostpris](design-details-expected-cost-posting.md)  
  [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

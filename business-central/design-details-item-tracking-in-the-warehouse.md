@@ -1,23 +1,20 @@
 ---
-title: Designoplysninger – Varesporing i lageret | Microsoft Docs
-description: Serienummer og lotnummer håndteres primært som lageropgave, så alle indgående og udgående lagerdokumenter har derfor standardfunktioner til at tildele og markere varesporingsnumre. Da reservationssystemet er baseret på vareposter, understøttes lageraktivitetsdokumenter, der kun registrerer lagerposter, dog ikke fuldt ud.
-services: project-madeira
-documentationcenter: ''
+title: Designoplysninger - Varesporing i lageret
+description: Ind-og udgående lagerdokumenter har standardfunktionalitet til tildeling og valg af varesporingsnumre.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: a482e0fed80d5e9380b6c6e0ec03557abbc02953
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 0b101215e06e33bbbafdf0c38e18ac3ddaa6774a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1242096"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141303"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Designoplysninger: Varesporing i lageret
 Serienummer og lotnummer håndteres primært som lageropgave, så alle indgående og udgående lagerdokumenter har derfor standardfunktioner til at tildele og markere varesporingsnumre.  
@@ -33,3 +30,6 @@ Dog tager reservationssystemet lageraktiviteter i betragtning ved beregning af t
 [Designoplysninger: Integration med lager](design-details-integration-with-inventory.md)  
 [Designoplysninger - Lagertilgængelighed](design-details-availability-in-the-warehouse.md)  
 [Designoplysninger: Design af varesporing](design-details-item-tracking-design.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

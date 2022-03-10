@@ -1,1 +1,1 @@
-Hent [uddannelse!](/learn/browse/?products=dynamics-business-central)
+Hent [uddannelse!](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)

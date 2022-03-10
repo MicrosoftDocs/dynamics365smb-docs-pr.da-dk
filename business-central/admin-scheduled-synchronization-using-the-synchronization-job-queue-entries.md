@@ -1,24 +1,23 @@
 ---
-title: Synkronisering af Business Central og Dataverse | Microsoft Docs
+title: Synkronisere Business Central og Dataverse
 description: Få mere at vide om synkronisering af data mellem Business Central og Dataverse.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2d1d04b5273329186c362866493303f5f4ad7450
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 937601cffe10fe7862aad48ec7f7bded37ad8e61
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385320"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130614"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Planlægning af synkronisering mellem Business Central og Dataverse
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Du kan synkronisere [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[cds_long_md](includes/cds_long_md.md)] med planlagte intervaller ved at konfigurere jobs i jobkøen. Synkroniseringsjobbene synkroniserer data i [!INCLUDE[prod_short](includes/prod_short.md)]-records og [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -records, der tidligere har været sammenkædet. Synkroniseringsopgaver kan også oprette og sammenkæde nye records i destinationssystemet for records, der ikke allerede er sammenkædet, afhængigt af synkroniseringsretning og -regler. 
 
@@ -55,7 +54,7 @@ For at kunne synkronisere data skal [!INCLUDE[cds_long_md](includes/cds_long_md.
     **Eksempel**: Hvis du rydder afkrydsningsfeltet **Synkroniser kun sammenkoblede poster** når du synkroniserer kunder i [!INCLUDE[prod_short](includes/prod_short.md)] med konti i [!INCLUDE[cds_long_md](includes/cds_long_md.md)], oprettes der en ny konto til hver kunde i [!INCLUDE[prod_short](includes/prod_short.md)] og disse sammenkobles automatisk. Som følge af, at synkroniseringen går begge veje i dette tilfælde, vil der blive oprettet og sammenkoblet en ny kunde sammen for hver [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-konto, der ikke allerede er sammenkoblet.  
 
     > [!NOTE]  
-    > Der er regler og filtre, der bestemmer, hvilke data der synkroniseres. Du kan finde flere oplysninger under [Synkroniseringsregler](admin-synchronizing-business-central-and-sales.md).
+    > Der er regler og filtre, der bestemmer, hvilke data der synkroniseres. Du kan finde flere oplysninger i [Synkroniseringsregler](admin-synchronizing-business-central-and-sales.md).
 
 - Når der oprettes nye records i [!INCLUDE[prod_short](includes/prod_short.md)], benytter de enten skabelonen, der er defineret til integrationstabeltilknytning eller standardskabelonen, der er tilgængelig for rækketypen. Felter udfyldes automatisk med data fra [!INCLUDE[prod_short](includes/prod_short.md)] eller [!INCLUDE[cds_long_md](includes/cds_long_md.md)] afhængigt af synkroniseringsretning. Du kan finde flere oplysninger i [Rediger tabeltilknytninger til synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md).  
 
@@ -72,7 +71,7 @@ Nogle opgavekøposter, såsom dem, der planlægger synkronisering mellem [!INCLU
 
 Når værdien i feltet ikke er nul, og opgavekøen ikke fandt nogen ændringer i løbet af den seneste kørsel, sætter [!INCLUDE[prod_short](includes/prod_short.md)] opgavekøposten på pause. Når dette sker, viser feltet **Status for opgavekø** **Sat på pause pga. inaktivitet** og [!INCLUDE[prod_short](includes/prod_short.md)] venter på den tidsangivelse, der er angivet i feltet **Timeout for inaktivitet**, inden opgavekøposten køres igen.  
 
-F.eks. vil den valutaopgavekø, der synkroniserer valutaer i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] med valutakurser i [!INCLUDE[prod_short](includes/prod_short.md)], søge efter ændringer i valutakurserne hvert 30. minut. Hvis der ikke findes nogen ændringer, pauser [!INCLUDE[prod_short](includes/prod_short.md)] valutaopgavekøposten i 720 minutter (seks timer). Hvis en valutakurs ændres i [!INCLUDE[prod_short](includes/prod_short.md)], mens opgavekøposten er sat på pause, aktiveres opgavekøposten automatisk på ny af [!INCLUDE[prod_short](includes/prod_short.md)], og opgavekøen genstartes. 
+F.eks. vil den valutaopgavekø, der synkroniserer valutaer i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] med valutakurser i [!INCLUDE[prod_short](includes/prod_short.md)], søge efter ændringer i valutakurserne hvert 30. minut. Hvis der ingen ændringer er, sætter [!INCLUDE[prod_short](includes/prod_short.md)] opgavekøposten VALUTA på pause i 720 minutter (12 timer). Hvis en valutakurs ændres i [!INCLUDE[prod_short](includes/prod_short.md)], mens opgavekøposten er sat på pause, aktiveres opgavekøposten automatisk på ny af [!INCLUDE[prod_short](includes/prod_short.md)], og opgavekøen genstartes. 
 
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] aktiverer automatisk opgavekøposter, der er sat på pause, når der sker ændringer i [!INCLUDE[prod_short](includes/prod_short.md)]. Ændringer i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] vil ikke aktivere opgavekøposter.

@@ -1,31 +1,29 @@
 ---
-title: Bruge generelle funktioner på tværs af forretningsområder | Microsoft Docs
+title: Bruge generelle funktioner på tværs af forretningsområder
 description: Få mere at vide om de funktioner, der bruges på tværs af forretningsområder i Business Central.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.date: 07/24/2019
-ms.author: sgroespe
-ms.openlocfilehash: a4c6a7c1c25fab4c8321f59a9b2bbac5c5225eee
-ms.sourcegitcommit: f46793abdb3efd8384c10eb7992e076383251f2c
+ms.search.form: 9020, 9022, 9027, 9018
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 36edd01c369e83e2020f43ff914b4cc693cba4e3
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1921403"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322846"
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunktioner
-[!INCLUDE[d365fin](includes/d365fin_md.md)] indeholder dedikerede funktioner til almindelige virksomhedsområder som f.eks. finans og salg. Du kan finde flere oplysninger i [Forretningsfunktioner](across-business-functionality.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder dedikerede funktioner til almindelige virksomhedsområder som f.eks. finans og salg. Du kan finde flere oplysninger i [Forretningsfunktioner](across-business-functionality.md).
 
 For at understøtte dine daglige opgaver kan du bruge en række generelle forretningsfunktioner, f.eks. definition af udvidet tekst til dokumentlinjer og organisering af forbundne opgaver i arbejdsgange.
 
 > [!NOTE]
-> Ud over brugergrænsefladens forretningsrelaterede funktioner, der er beskrevet i dette afsnit, kan du dagligt bruge generelle funktioner, når du arbejder i systemet. Du kan finde flere oplysninger under [Arbejde med Business Central](ui-work-product.md).
+> Ud over brugergrænsefladens forretningsrelaterede funktioner, der er beskrevet i dette afsnit, kan du dagligt bruge generelle funktioner, når du arbejder i systemet. Du kan finde flere oplysninger i [Arbejde med Business Central](ui-work-product.md).
 
 I følgende tabel vises disse generelle forretningsområder med links til emner, hvor de er beskrevet.
 
@@ -37,11 +35,11 @@ I følgende tabel vises disse generelle forretningsområder med links til emner,
 |Arkivér salgs- og købsdokumenter, ordrer, tilbud, returvareordrer og rammeordrer, og brug det arkiverede dokument til at genskabe det dokument, som det blev arkiveret fra.|[Arkivere dokumenter](across-how-to-archive-documents.md)|
 | Oprette tekster, så du kan udvide standardteksten ved at tilføje ekstra linjer og oprette betingelser for brugen af de ekstra linjer. |[Tilføje udvidet varetekst](ui-how-define-ext-text.md) |
 |Oprette opgaver for at minde dig om arbejde, der skal udføres. Du kan oprette opgaver til dig selv, men du kan også tildele opgaver til andre eller få tildelt en opgave af en anden i organisationen.|[Definere brugeropgaver](across-user-tasks.md)|
-|Vedhæfte billeder, dokumenter og andre typer filer til alle kort, f.eks. vare- og jobkortet og vedhæfte filer til alle typer salgs- og købsdokumenter.|[Vedhæfte filer til kort og dokumenter](across-attach-document-master-data.md)|
 |Arbejde med dine Business Central-data i Excel.|[Eksportere forretningsdata til Excel](about-export-data.md)|
 |Forstå, hvad der sker, når du vælger handlingen **Bogfør**.|[Bogføring af dokumenter og kladder](ui-post-documents-journals.md)|
+|Bogføre flere salgs- eller købsdokumenter sammen med det samme eller som planlagt.|[Bogføre flere dokumenter på én gang](ui-batch-posting.md)|  
 |Gennemgå resultatet af bogføring, før du bogfører.|[Vise bogføringsresultater](ui-how-preview-post-results.md)|
-|Redigere udvalgte felter i bogførte salgs- eller købsdokumenter.|[Redigere bogførte dokumenter](across-edit-posted-document.md)| 
+|Redigere udvalgte felter i bogførte salgs- eller købsdokumenter.|[Redigere bogførte dokumenter](across-edit-posted-document.md)|
 |Få at vide, hvordan du arbejder med finanskladder, som bruges til at bogføre til finanskonti og andre konti, f.eks. bank-, debitor-, kreditor- og anlægskonti. |[Arbejde med finanskladder](ui-work-general-journals.md) |
 | Planlæg en rapport til at køre på en bestemt dato og et bestemt klokkeslæt. |[Planlægge kørsel af en rapport](ui-work-report.md#ScheduleReport) |
 |Lad systemet hjælpe dig med at udføre opgaver hurtigere og mere korrekt ved at forhåndsudfylde felter eller hele linjer med data, som du normalt selv skal beregne og angive.|[Lade Business Central foreslå værdier](ui-let-system-suggest-values.md)|
@@ -50,7 +48,10 @@ I følgende tabel vises disse generelle forretningsområder med links til emner,
 | Konfigurer dataudvekslingsdefinitioner, så du kan sende og modtage elektroniske dokumenter. |[Udveksle data elektronisk](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Se også
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Opsætning](admin-setup-and-administration.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

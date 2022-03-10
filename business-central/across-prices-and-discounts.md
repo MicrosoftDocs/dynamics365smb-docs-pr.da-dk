@@ -2,20 +2,20 @@
 title: Konfigurere priser og rabatter
 description: Beskriver, hvordan du definerer standard- specialpris- og rabataftaler for salg og køb.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchase, invoice
+ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7988d7f1b40fed65078032d05c8b12d8e174bc90
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 24768e03181599b2329d4ed532453a60516bd9f3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440820"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134118"
 ---
 # <a name="set-up-prices-and-discounts"></a>Konfigurere priser og rabatter
 > [!NOTE]

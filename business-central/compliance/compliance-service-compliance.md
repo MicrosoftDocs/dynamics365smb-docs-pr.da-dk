@@ -1,26 +1,25 @@
 ---
-title: Tjenesteoverholdelse | Microsoft Docs
-description: Dette indhold indeholder oplysninger om tjenesteoverholdelse i relation til Business Central.
+title: Tjenesteoverholdelse og SLA
+description: Fra et serviceperspektiv overholder Business Central de strenge krav og overholdelse af SLA i flere ISO-og branchespecifikke certificeringer.
 author: sorenfriisalexandersen
-documentationcenter: ''
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 03987cf45cae8d8115ed2a782a60a5a19fc1032f
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 272fbb7b10b3852cbf8ca013ca06d8011bd53836
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920968"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128866"
 ---
 # <a name="service-compliance"></a>Tjenesteoverholdelse
-Dette indhold indeholder oplysninger om tjenesteoverholdelse i relation til [!INCLUDE[d365fin](../includes/d365fin_md.md)].  
+
+Dette indhold indeholder oplysninger om tjenesteoverholdelse i relation til [!INCLUDE[prod_short](../includes/prod_short.md)] online.  
 
 Business Central er en skybaseret tjeneste med global dækning og stor skala, der kører på en af verdens største store infrastrukturer Microsoft Azure med datacentre i områder over hele verden. Kørsel af en cloudbaseret tjeneste medfører også behovet for at overholde bestemte standarder med hensyn til sikkerhed og overensstemmelse, så fra et tjenestespecifikt synspunkt lever Business Central op til de strenge krav i flere ISO- og branchespecifikke certificeringer.
 
@@ -30,9 +29,7 @@ Hvis du er interesseret i den komplette liste over tilbud med overholdelse fra M
 
 ## <a name="service-terms"></a>Servicebetingelser
 
-[!INCLUDE[prodshort](../includes/prodshort.md)] online styres af [politikken for moderne livscyklus](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Betingelserne i serviceniveauaftalen er beskrevet i det dokument, du kan hente fra afsnittet **Serviceniveauaftaler for Microsoft Online Services** på siden [Licensbetingelser](https://www.microsoft.com/licensing/product-licensing/products).  
-
-Derudover kan du overvåge lejeres tilstand og angive opgraderingsvinduer i [Lejeradministrationscenter](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+[!INCLUDE [service-terms](../includes/service-terms.md)]
 
 ## <a name="see-also"></a>Se også
 
@@ -40,4 +37,7 @@ Derudover kan du overvåge lejeres tilstand og angive opgraderingsvinduer i [Lej
 [Programoverholdelse](compliance-application-compliance.md)  
 [Certificeringer](compliance-certifications.md)  
 
-## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,21 +1,20 @@
 ---
 title: Svare på anmodninger om personlige oplysninger
-description: Du skal besvare anmodninger fra dataemner.
+description: Dette emne viser, hvordan du kan svare på anmodninger om personoplysninger. Dette kaldes en dataemneanmodning.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: cdab3e07d2f522be01a6bd1096ae724d824b52bf
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 0d1ead6fc36df5b06f9ab995bbc30ce04d24c622
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385345"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148846"
 ---
-# <a name="responding-to-requests-about-personal-data"></a>Svare på anmodninger om personlige oplysninger  
+# <a name="responding-to-requests-about-users-personal-data"></a>Svare på anmodninger om brugerens personlige oplysninger  
 Dataemner kan anmode om flere typer handlinger vedrørende deres personlige oplysninger. I henhold til den generelle forordning om databeskyttelse (GDPR) f.eks. har indbyggere i EU-lande ret til at anmode om eksport, sletning og ændring af deres personlige data. Dette kaldes en *Dataemneanmodning*. Hvis du har klassificeret følsomheden af dine data og er sikker på, at de er korrekte, kan en administrator reagere på anmodninger ved hjælp af indstillingerne under fanen **Beskyttelse af personlige oplysninger** i rollecenteret **It-chef**. Du kan finde flere oplysninger om at klassificere data og klassificere datafølsomheden i [!INCLUDE[prod_long](includes/prod_long.md)] under [Klassificering af data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Klassificere datafølsomhed](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Typer af anmodninger
@@ -29,13 +28,13 @@ Nedenstående tabel indeholder eksempler på typerne af anmodninger, som du kan 
 |-----|-----|
 |Anmodninger om overførsel|Et dataemne kan foretage en anmodning om dataoverførsel, hvilket vil sige, at du skal eksportere dataemnets personlige oplysninger fra dine systemer og levere dem i et struktureret, normalt anvendt format. Du kan besvare disse anmodninger ved at bruge **Værktøj til beskyttelse af personlige oplysninger** til at eksportere personlige data til en Excel-fil eller en RapidStart-konfigurationspakke. Ved hjælp af Excel kan du redigere personlige oplysninger og gemme den i et almindeligt anvendt, maskinlæsbart format, f.eks. .csv- eller .xml. Med RapidStart-konfigurationspakker kan du konfigurere masterdatatabeller og deres relaterede tabeller, der indeholder personlige oplysninger. <br><br> **Bemærk:** Når du eksporterer data, angiver du et mindste følsomhedsniveau. Eksporten omfatter minimum og alle niveauer af følsomhed derover. Hvis du f.eks. vil eksportere data, der er klassificeret som personlige, omfatter eksporten også data, der er klassificeret som følsomme. <br><br>Ved eksport af data, der vedrører et dataemne søger **Værktøj til beskyttelse af personlige oplysninger** efter direkte relationer mellem dataemnet og data, der er relateret til emnet. Indirekte relationer mellem data, der er relateret til dataemnet og andre data, eksporteres ikke automatisk af **Værktøj til beskyttelse af personlige oplysninger**. Tabellen Kontakt f.eks. har direkte relaterede data for Svar på kontaktprofil, og tabellen Svar på kontaktprofil er igen relateret til profilspørgsmålsdata. Hvis du også vil eksportere profilspørgsmål, skal du tilføje denne tabel manuelt som en række med de relevante filtre i den konfigurationspakke, som **Værktøj til beskyttelse af personlige oplysninger** opretter.|
 |Anmodninger om sletning|Et dataemne kan anmode om, at du sletter deres personlige oplysninger. Der er flere måder at slette personlige oplysninger på ved hjælp af tilpasningsmulighederne, men beslutningen og implementeringen er dit ansvar. I nogle tilfælde kan vælge du at redigere dataene direkte, f.eks. ved at slette en kontakt og derefter udføre kørslen Slet annulleret interaktion for at slette interaktioner for kontakten. <br><br> **Bemærk:** Hvis du har angivet en dato i feltet **Tillad sletning af dokument før** på siderne **Opsætning af salg og tilgodehavender** eller **Købsopsætning**, skal du måske ændre datoen, så kan du slette bogførte salgs- og købsdokumenter, der er udskrevet, og hvor bogføringsdatoen er på eller inden denne dato.|
-|Anmodninger om rettelse|Et dataemne kan anmode om, at du retter forkerte personlige oplysninger. Dette kan gøres på flere måder. I nogle tilfælde kan du eksportere lister til Excel til hurtig masseredigering af flere poster og derefter importere de opdaterede data. Du kan finde flere oplysninger under [Eksportere forretningsdata til Excel](about-export-data.md). Du kan også manuelt redigere felter, der indeholder personlige oplysninger, f.eks. redigere oplysninger om en debitor på debitorkortet. Men transaktionsposter, f.eks. finans-, debitor- og momsposter, er nødvendige for integriteten i ERP-systemet. Hvis du gemmer personlige data i forretningstransaktionsposter, kan du overveje at bruge funktionerne til tilpasning til at ændre disse personlige oplysninger.|
+|Anmodninger om rettelse|Et dataemne kan anmode om, at du retter forkerte personlige oplysninger. Dette kan gøres på flere måder. I nogle tilfælde kan du eksportere lister til Excel til hurtig masseredigering af flere poster og derefter importere de opdaterede data. Du kan finde flere oplysninger i [Eksportere forretningsdata til Excel](about-export-data.md). Du kan også manuelt redigere felter, der indeholder personlige oplysninger, f.eks. redigere oplysninger om en debitor på debitorkortet. Men transaktionsposter, f.eks. finans-, debitor- og momsposter, er nødvendige for integriteten i ERP-systemet. Hvis du gemmer personlige data i forretningstransaktionsposter, kan du overveje at bruge funktionerne til tilpasning til at ændre disse personlige oplysninger.|
 
 ## <a name="restrict-data-processing-for-a-data-subject"></a>Begrænse databehandling af et dataemne
 Et dataemne kan anmode om, at du midlertidigt stopper behandlingen af deres personlige oplysninger. Du kan imødekomme sådanne anmodninger ved at markere posten som spærret på grund af beskyttelse af personlige oplysninger, så behandlingen af deres data stoppes. Når en post er markeret som spærret, kan du ikke oprette nye posteringer, der bruger denne post. Du kan f.eks. ikke du oprette en ny faktura for en debitor, når enten kunden eller sælgeren er blokeret. Åbn kortet for et dataemne, f.eks. kortene Debitor, Leverandør eller Kontakt, hvis du vil markere et dataemne som spærret, og markér afkrydsningsfeltet **Beskyttelse af personlige oplysninger spærret**. Du skal måske vælge **Vis mere** for at få vist feltet.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Håndtering af dataemneanmodninger i prøveversion
-Bestemte typer personlige oplysninger er en del af din Microsoft 365-konto, og det kræver administratorrettigheder til at eksportere dem, hvis du modtager en dataemneanmodning fra en bruger om denne type personlige data i henhold til den generelle forordning om databeskyttelse (GDPR). Processen til håndtering af dataemneanmodninger er forskellige afhængigt af [!INCLUDE[prod_short](includes/prod_short.md)]-lejertypen.  
+Bestemte typer personlige oplysninger er en del af din Microsoft 365-konto, og det kræver administratorrettigheder til at eksportere dem, hvis du modtager en dataemneanmodning fra en bruger om denne type personlige data i henhold til generel forordning om databeskyttelse (GDPR). Processen til håndtering af dataemneanmodninger er forskellige afhængigt af [!INCLUDE[prod_short](includes/prod_short.md)]-lejertypen.  
 
 Hvis du har et betalt abonnement på [!INCLUDE[prod_short](includes/prod_short.md)], skal du kontakte organisationens lejeradministrator for at sende en dataemneanmodning. Administratoren har administratorrettigheder og -værktøjer til at imødekomme anmodningen.  
 

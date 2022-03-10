@@ -2,20 +2,19 @@
 title: Rette eller annullere en bogført salgsfaktura
 description: Beskriver, hvordan du kan rette, fortryde eller annullere en bogført salgsfaktura og anvende en salgskreditnota.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: undo, credit memo, return
-ms.date: 01/11/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 7b52b3bd2acadc965b4b7ee25bc66f3f8f511bd5
-ms.sourcegitcommit: 5d5451ee618f122c926e3189290f3765052f7077
+ms.openlocfilehash: d36ca3a4f20e509a18f19f9fec6a3444040de9df
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 01/11/2021
-ms.locfileid: "4846311"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137129"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Rette eller annullere ubetalte salgsfakturaer
 
@@ -38,7 +37,7 @@ Når du retter eller annullerer en bogført salgsfaktura, anvendes den rettede s
 
 ## <a name="to-cancel-a-posted-sales-invoice"></a>Hvis du vil annullere en bogført salgsfaktura
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.  
 2. Vælg den bogførte salgsfaktura, som du vil annullere.
 
     > [!NOTE]  
@@ -54,7 +53,7 @@ Hvis annulleringen vedrører en delvis fakturabogføring, opdateres den oprindel
 
 ## <a name="to-correct-a-posted-sales-invoice"></a>Hvis du vil rette en bogført salgsfaktura
 
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.  
 2. Vælg den bogførte salgsfaktura, som du vil rette.
 
     > [!NOTE]  
@@ -62,7 +61,7 @@ Hvis annulleringen vedrører en delvis fakturabogføring, opdateres den oprindel
 3. På siden **Bogført salgsfaktura** skal du vælge handlingen **Ret**.  
 
     > [!NOTE]
-    > Hvis salgsfakturaen er bogført fra en salgsordre, anbefales det, at du *annullerer* denne salgsfaktura og derefter behandler korrektionen fra den oprindelige salgsordre. Hvis den oprindelige salgsordre er slettet, f. eks. Hvis den er leveret fuldt ud, kan du oprette en ny salgsordre ved hjælp af handlingen **Kopier dokument**. Du kan finde flere oplysninger i [Sådan oprettes en salgskreditnota ved at kopiere en bogført salgsfaktura](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice).
+    > Hvis salgsfakturaen er bogført fra en salgsordre, anbefales det, at du *annullerer* denne salgsfaktura og derefter behandler korrektionen fra den oprindelige salgsordre. Hvis den oprindelige salgsordre er slettet, f.eks. Hvis den er leveret fuldt ud, kan du oprette en ny salgsordre ved hjælp af handlingen **Kopier dokument**. Du kan finde flere oplysninger i [Sådan oprettes en salgskreditnota ved at kopiere en bogført salgsfaktura](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice).
 4. En ny salgsfaktura med de samme oplysninger oprettes, hvor du kan foretage en rettelse. Feltet **Annulleret** på den første bogførte salgsfaktura ændres til **Ja**.
 
     En salgskreditnota oprettes og bogføres automatisk for at annullere den oprindelige bogførte salgsfaktura.
@@ -74,3 +73,6 @@ Hvis annulleringen vedrører en delvis fakturabogføring, opdateres den oprindel
 [Konfigurere salg](sales-setup-sales.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

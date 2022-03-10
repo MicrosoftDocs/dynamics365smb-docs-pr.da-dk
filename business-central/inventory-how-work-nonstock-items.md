@@ -1,22 +1,21 @@
 ---
-title: Oprette og administrere katalogvarer | Microsoft Docs
+title: Oprette og håndtere katalogvarer
 description: Beskriver, hvordan du handler med varer, der er på listen over leverandørvarer, men ikke på din egen liste over varer.
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
+ms.search.forms: 5725, 5726, 5732
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 328417821e8e5cc14bc8267e64687ce2a14f15af
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 8f8d97f10904664dc68bec6ccb85823a765a58aa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588547"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137883"
 ---
 # <a name="work-with-catalog-items"></a>Arbejde med katalogvarer
 Du kan tilbyde bestemte varer til dine kunder, som du ikke vil administrere i dit system, før du begynder at sælge dem. Når du vil begynde at administrere sådanne varer i systemet, kan du konvertere dem til normale varekort på to måder.

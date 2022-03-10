@@ -1,24 +1,24 @@
 ---
-title: Rydde op i data med opbevaringspolitikker | Microsoft Docs
+title: Rydde op i data med opbevaringspolitikker
 description: Du kan angive, hvor ofte du vil slette bestemte datatyper.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
-ms.date: 10/01/2020
+ms.search.form: 3903, 3901
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4393053f9f158b04323453b7508cc19c10b04102
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 955b85020d4cb13f108bc1923de66eb13ade0061
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754038"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132181"
 ---
 # <a name="define-retention-policies"></a>Definere opbevaringspolitikker
-Administratorer kan definere opbevaringspolitikker for at angive, hvor ofte [!INCLUDE[prod_short](includes/prod_short.md)] skal slette forældede data i tabeller, der indeholder logposter og poster, der er arkiveret. Hvis du f. eks. rydder poster i logfilen, bliver det nemmere at arbejde med de data, der rent faktisk er relevante. Politikker kan omfatte alle data i de tabeller, der ligger ud over udløbsdatoen, eller du kan tilføje filterkriterier, som kun skal indeholde bestemte udløbne data i politikken. 
+Administratorer kan definere opbevaringspolitikker for at angive, hvor ofte [!INCLUDE[prod_short](includes/prod_short.md)] skal slette forældede data i tabeller, der indeholder logposter og poster, der er arkiveret. Hvis du f.eks. rydder poster i logfilen, bliver det nemmere at arbejde med de data, der rent faktisk er relevante. Politikker kan omfatte alle data i de tabeller, der ligger ud over udløbsdatoen, eller du kan tilføje filterkriterier, som kun skal indeholde bestemte udløbne data i politikken. 
 
 ## <a name="required-setups-and-permissions"></a>Krævede opsætninger og tilladelser
 Før du kan oprette med opbevaringspolitikker, skal du angive følgende.
@@ -40,7 +40,7 @@ Opbevaringsperioderne kan være så lange eller korte, som du har lyst til. Hvis
 > Af hensyn til kompatibiliteten har vi defineret en mindste opbevaringsperiode for nogle tabeller. Hvis du angiver en opbevaringsperiode, der er kortere end minimumkravet, viser en meddelelse den obligatoriske periode.
 
 ### <a name="set-up-a-retention-policy"></a>Opsæt opbevaringspolitik
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opbevaringspolitikker**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Opbevaringspolitikker**, og vælg derefter det relaterede link.
 2. I feltet **Tabel-id** skal du vælge den tabel, du vil medtage i politikken.
 3. I feltet **Opbevaringsperiode** skal du angive, hvor længe dataene i tabellen skal være.
 4. Valgfrit: Hvis du vil anvende politikken på specifikke data i en tabel, skal du slå funktionen Anvend på alle poster fra. Oversigtspanelet til opbevaring af oplysninger vises, hvor du kan angive filtre for at oprette datasæt for hver linje. Du kan finde flere oplysninger i [Filtrering](ui-enter-criteria-filters.md#filtering).
@@ -56,18 +56,18 @@ Hvis du vil anvende en opbevaringspolitik automatisk, skal du blot oprette og ak
 Du kan anvende en politik manuelt vha handlingen **Anvend manuelt** på siden **Opbevaringspolitikker**. Hvis du altid vil anvende en politik manuelt, skal du aktivere den **Manuelt**. Opgavekøposten ignorerer politikken, når den kører.
 
 ## <a name="viewing-retention-policy-log-entries"></a>Se logførte poster for opbevaringspolitikker
-Se aktivitet, der er relateret til opbevaringspolitikker, på siden **Opbevaringspolitiklog**. Der oprettes f. eks. poster, når der anvendes en politik, eller hvis der opstod fejl, når det skete. 
+Se aktivitet, der er relateret til opbevaringspolitikker, på siden **Opbevaringspolitiklog**. Der oprettes f.eks. poster, når der anvendes en politik, eller hvis der opstod fejl, når det skete. 
 
 ## <a name="including-your-extension-in-a-retention-policy-requires-help-from-a-developer"></a>Medtage din udvidelse i en opbevaringspolitik (kræver hjælp fra en udvikler)
-Opbevaringspolitikker dækker som standard kun tabeller, der er medtaget på den liste over [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller, som vi yder. Du kan fjerne standardtabeller fra listen, og du kan tilføje tabeller, som du ejer. Det vil sige, at du ikke kan tilføje en tabel, som du ikke selv har oprettet. Du kan f. eks. ikke tilføje andre tabeller fra [!INCLUDE[prod_short](includes/prod_short.md)] eller fra en udvidelse, du har købt.
+Opbevaringspolitikker dækker som standard kun tabeller, der er medtaget på den liste over [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller, som vi yder. Du kan fjerne standardtabeller fra listen, og du kan tilføje tabeller, som du ejer. Det vil sige, at du ikke kan tilføje en tabel, som du ikke selv har oprettet. Du kan f.eks. ikke tilføje andre tabeller fra [!INCLUDE[prod_short](includes/prod_short.md)] eller fra en udvidelse, du har købt.
 
-Hvis du vil føje tabeller til listen over tilladte tabeller, skal en udvikler tilføje en kode, f. eks. codeunit til installationsprogrammet til udvidelsen (en codeunit med undertypen *Installation*). 
+Hvis du vil føje tabeller til listen over tilladte tabeller, skal en udvikler tilføje en kode, f.eks. codeunit til installationsprogrammet til udvidelsen (en codeunit med undertypen *Installation*). 
 
 Når en udvikler tilføjer en tabel, kan de angive obligatoriske og standardfiltre. Obligatoriske filtre kan ikke fjernes eller ændres senere, når du tilføjer tabeller for at definere en opbevaringspolitik. Standardfiltre er blot brugervenlige forslag.
 
 I det følgende finder du eksempler på, hvordan du kan føje en tabel til listen over tilladte tabeller med og uden obligatorisk eller standardfiltre. Hvis du vil have et mere komplekst eksempel, skal du se codeunit 3999 "Reten. Pol. Installation - BaseApp". 
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         RetenPolAllowedTables: Codeunit "Reten. Pol. Allowed Tables";
@@ -78,7 +78,7 @@ I det følgende finder du eksempler på, hvordan du kan føje en tabel til liste
 
 Følgende eksempel indeholder et obligatorisk filter.
 
-```
+```al
  trigger OnInstallAppPerCompany()
     var
         ChangeLogEntry: Record "Change Log Entry";
@@ -98,10 +98,15 @@ Følgende eksempel indeholder et obligatorisk filter.
         RetenPolAllowedTables.AddAllowedTable(Database::"Change Log Entry", ChangeLogEntry.FieldNo(SystemCreatedAt), TableFilters);
     end;
 ```
+
 Når en udvikler har føjet tabeller til listen, kan en administrator medtage dem i en opbevaringspolitik. 
 
 ## <a name="see-also"></a>Se også
+
+[Analyse af Retention Policy Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Ændringer af revision i Business Central](across-log-changes.md)  
 [Filtrering](ui-enter-criteria-filters.md#filtering)  
 [Du kan bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

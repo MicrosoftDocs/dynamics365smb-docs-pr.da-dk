@@ -1,72 +1,101 @@
 ---
-title: Planlægge en rapport til kørsel på en bestemt dato og et bestemt klokkeslæt | Microsoft Docs
+title: Arbejde med rapporter, kørsler og XMLporte
 description: Få mere at vide om, hvordan du angiver en rapport i en opgavekø og planlægger, at den skal afvikles på en bestemt dato og tidspunkt.
-author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+author: jswymer
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: task, process, report
-ms.date: 06/10/2020
-ms.author: edupont
-ms.openlocfilehash: f209088459f29ba5618b065c3a340b0e3bd250e5
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 02/09/2022
+ms.author: jswymer
+ms.openlocfilehash: 9a5866db05b4ef78e751996f59ea56d9f4b75d27
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788392"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322951"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbejde med rapporter, kørsler og XMLporte
 
-En rapport indsamler oplysninger, der er baseret på et bestemt sæt kriterier, og organiserer og præsenterer oplysningerne i et format, der er let at læse, og som du kan udskrive eller gemme som en fil. Der er mange rapporter, du kan få adgang til, i hele programmet. Rapporterne indeholder typisk oplysninger i forhold til konteksten for den viste side. For eksempel indeholder siden **Debitor** rapporter om de 10 bedste kunder, salgsstatistik og mere.
+En rapport indsamler oplysninger baseret på et nærmere angivet sæt kriterier. Den organiserer og præsenterer oplysninger i det læsevenlige format, som du kan udskrive eller gemme som en fil. Der er mange rapporter, du kan få adgang til, i hele programmet. Rapporterne indeholder typisk oplysninger i forhold til konteksten for den viste side. For eksempel indeholder siden **Debitor** rapporter om de 10 bedste kunder, salgsstatistik og mere.
 
-Kørsler og XMLporte udfører mere eller mindre det samme som rapporter, men med henblik på at udføre en proces eller eksportere data. F.eks. opretter kørslen **Opret rykkere** rykkerdokumenter til debitorer med forfaldne betalinger.  
+Kørsler og XMLporte udfører mere eller mindre det samme som rapporter, men som bruges med henblik på at udføre en proces eller eksportere data. F.eks. opretter kørslen **Opret rykkere** rykkerdokumenter til debitorer med forfaldne betalinger.  
 
 > [!NOTE]
 > I dette emne omtales hovedsageligt "rapport", men lignende oplysninger gælder for kørsler og XMLporte.
 
-Du kan finde rapporter under fanen **Rapporter** på markerede sider, eller du kan bruge søgefunktionen ![ Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") til at finde rapporter efter navn.
+## <a name="getting-started"></a>Introduktion
+
+Du kan finde rapporter under fanen **Rapporter** på markerede sider, eller du kan bruge søgefunktionen ![Elpære, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") for at finde rapporter efter navn.
+
+Når du åbner en rapport, en kørsel eller XMLport, får du typisk vist en anmodningsside, hvor du kan angive forskellige indstillinger og filtre, som bestemmer, hvad der skal med i rapporten. I følgende afsnit forklares det, hvordan du kan bruge anmodningssiden til at oprette, få vist og udskrive en rapport.
+
+## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Bruge standardværdier - foruddefinerede indstillinger
+
+De fleste sider med anmodninger indeholder feltet **Brug standardværdier fra**. I dette felt kan du vælge foruddefinerede indstillinger for rapporten, som automatisk angiver indstillinger og filtre for rapporten. Vælg en post på rullelisten, og du kan se indstillingerne og filtrene på anmodningssiden i overensstemmelse med ændringerne.
+
+Posten, som kaldes **Sidst anvendte indstillinger og filtre**, er altid tilgængelig. Denne post konfigurerer rapporten til at bruge indstillinger og filtre, der blev brugt sidste gang, du kørte rapporten.
+
+feltet **Brug standardværdier fra** giver en hurtig og pålidelig metode til at oprette rapporter på, som indeholder de korrekte data. Når du har valgt en post, kan du ændre alle indstillinger og filtre, før du viser eller udskriver rapporten. De ændringer, du udfører, bliver ikke gemt i den post med foruddefinerede indstillinger, du har valgt, men de gemmes i posten **Seneste anvendte indstillinger og filtre**.
+
+>[!NOTE]
+> De foruddefinerede indstillinger konfigureres typisk og administreres af en administrator. Der er flere oplysninger i [Administrere gemte indstillinger for rapporter og kørsler](reports-saving-reusing-settings.md).
 
 ## <a name="specifying-the-data-to-include-in-reports"></a>Angive dataene, der skal medtages i rapporter
-Når du åbner en rapport, en kørsel eller XMLport, får du typisk vist en anmodningsside, hvor du kan angive forskellige indstillinger og filtre, som bestemmer, hvad der skal med i rapporten.
 
-Du kan angive filtre i en rapport mere eller mindre på samme måde, som du angiver filtre på lister. Du kan finde flere oplysninger i [Filtrering](ui-enter-criteria-filters.md#filtering).
+Brug felterne under **Indstillinger** og **Filtre** til at ændre grænsen for de oplysninger, du vil have i rapporten. Du kan angive filtre i en rapport mere eller mindre på samme måde, som du angiver filtre på lister. Du kan finde flere oplysninger i [Filtrering](ui-enter-criteria-filters.md#filtering).
 
 > [!CAUTION]
 > Sektionen **Filtrer listen efter** på en anmodningsside indeholder en generel filtreringsfunktion for rapporter. Disse filtre er valgfrie.
 >
-> Nogle rapporter ignorerer disse filtre, hvilket vil sige, at uanset hvilket filter der er angivet i sektionen **Filtrer listen efter**, er resultatet af rapporten det samme. Det er ikke muligt at vise en oversigt over, hvilke felter ignoreres i rapporterne, så du må prøve dig frem med filtrene, når du bruger dem.
+> Nogle rapporter ignorerer disse filtre, hvilket vil sige, at uanset hvilket filter der er angivet i sektionen **Filtrer listen efter**, er resultatet af rapporten det samme. Det er ikke muligt at vise en oversigt over, hvilke felter der ignoreres i rapporterne, så du må prøve dig frem med filtrene.
 >
 > **Eksempel**: Når du bruger kørslen **Opret rykkere**, bliver et filter for feltet **Debitorposter** i **Niv. for sidst udstedte rykker** ignoreret, fordi filtrene er fastsat for kørslen.
 
-## <a name="using-saved-settings"></a><a name="SavedSettings"></a>Bruge gemte indstillinger
-Anmodningssiden kan indeholde sektionen **Gemte indstillinger**, der indeholder en eller flere poster i feltet **Brug standardværdi fra**. En gemt indstilling er grundlæggende en foruddefineret gruppe af indstillinger og filtre, som du kan anvende i rapporten, før du ser et rapporteksempel eller sender rapporten til en fil. Posten for gemte indstillinger, som kaldes **Sidst anvendte indstillinger og filtre**, er altid tilgængelig. Denne post konfigurerer rapporten til at bruge indstillinger og filtre, der blev brugt sidste gang, du brugte rapporten.
-
-Med gemte indstillinger kan du hurtigt og pålideligt generere ensartede rapporter, der indeholder de korrekte data. Når du har indstillet feltet **Brug standardværdier fra** til en post med gemte indstillinger, kan du ændre indstillingerne og filtrene, før du ser rapporten eksemplificeret eller gemmer den. De ændringer, du udfører, bliver ikke gemt i den post med gemte indstillinger, du har valgt, men de gemmes i posten **Seneste anvendte indstillinger og filtre**.
-
->[!NOTE]
->Hvis du er administrator, kan du oprette og administrere de gemte indstillinger for rapporter for alle brugere. Du kan finde flere oplysninger i [Administrere gemte indstillinger for rapporter og kørsler](reports-saving-reusing-settings.md).
-
 ## <a name="previewing-a-report"></a>Visning af en rapport
 
-Vælg knappen **Eksempel** for at få vist rapporten på siden for rapportanmodninger. Brug menulinjen i rapporteksemplet til at:
+Når du får vist et eksempel på en rapport, kan du se, hvordan rapporten vil se ud, før du udskriver den. Eksemplet er ikke baseret på, at der vælges en printer i feltet **Printer** på anmodningssiden. Det styres af browseren. Når du har vist eksemplet, kan du gå tilbage til anmodningssiden og foretage ændringer af indstillinger og filtre efter behov.
+
+Hvis du vil se et eksempel på en rapport, skal du vælge knappen **Eksempelvisning** eller **Vis udskrift og luk** på rapportanmodningssiden. Den knap, der vises, afhænger af rapporten, så nogle rapporter indeholder knappen **Eksempelvisning**, mens andre har knappen **Vis udskrift og luk**. Begge knapper åbner et eksempel på rapporten. Forskellen er, at i **Eksempelvisning** forbliver siden åben, så du kan gå tilbage til den, foretage ændringer, vise den igen eller udskrive. Med **Vis udskrift og luk**-anmodningssiden lukkes siden, så du skal åbne rapporten igen for at foretage ændringer eller udskrive.
+
+> [!NOTE]
+> Hvis du bruger Business Central 2020 udgivelsesbølge 1 eller ældre, vises kun knappen **Vis udskrift**, som lukker anmodningssiden ved eksempelvisning, som beskrevet for **Vis udskrift og luk**.
+
+### <a name="working-with-the-preview"></a>Arbejde med forhåndsversion
+
+Brug menulinjen i rapporteksemplet til at:
 
 - Bladre gennem sider
 - Zoome ind og ud
 - Tilpasse til siden
 - Vælg tekst
 
-    Du kan kopiere tekst fra en rapport og derefter indsætte den et andet sted, f.eks. som en side i [!INCLUDE[d365fin](includes/d365fin_md.md)] eller Microsoft Word.  Ved hjælp af musen f.eks., skal du trykke og holde nede på det sted, hvor du vil starte, og derefter bevæge musen for at markere et eller flere ord, sætninger eller afsnit. Du kan derefter trykke på højre museknap og vælge **Kopiér**. Du kan derefter indsætte den markerede tekst, hvor du ønsker.
+    Du kan kopiere tekst fra en rapport og derefter indsætte den et andet sted, f.eks. som en side i [!INCLUDE[prod_short](includes/prod_short.md)] eller Microsoft Word.  Hvis du bruger en mus, skal du f. eks. trykke på knappen og holde den nede, hvor du vil starte. Flyt derefter musen for at markere et eller flere ord, sætninger eller afsnit. Tryk på højre museknap, og vælg **Kopiér**. Indsæt den markerede tekst, hvor du ønsker.
 - Panorer over dokumentet
 
-    Du kan flytte det synlige område af rapporten i en vilkårlig retning, så du kan se andre områder eller rapporten. Dette er nyttigt, når du har zoomet ind for at få vist detaljer.  Ved hjælp af musen f.eks. skal du trykke på og holde museknappen nede et vilkårligt sted i rapporteksemplet og derefter bevæge musen.
+    Du kan flytte det synlige område af rapporten i en vilkårlig retning, så du kan se andre områder eller rapporten. Panorering er nyttigt, når du har zoomet ind for at få vist detaljer.  Ved hjælp af musen f.eks. skal du trykke på og holde museknappen nede et vilkårligt sted i rapporteksemplet og derefter bevæge musen.
 
 - Hent til en PDF-fil på din computer eller netværket.
 - Udskriv
 
-## <a name="saving-a-report"></a>Gemme en rapport
-Du kan gemme en rapport som et PDF-dokument, Microsoft Word-dokument eller Microsoft Excel-dokument ved at vælge knappen **Send til**, og derefter vælge den ønskede indstilling.
+## <a name="saving-a-report-to-a-file"></a>Gemme en rapport i en fil
+
+Du kan gemme en rapport som et PDF-dokument, Microsoft Word-dokument eller Microsoft Excel-arbejdsark ved at vælge knappen **Send til**, og derefter vælge den ønskede indstilling.
+
+### <a name="about-sending-to-excel"></a>Om at sende til Excel
+
+Du kan arbejde med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Excel, så du kan foretage yderligere analyser. Du kan finde flere oplysninger i [Analyse af rapportdata med Excel](report-analyze-excel.md).  
+<!--
+### About sending to Word
+
+Use the **Microsoft Word Document** option to generate a report as a Word document.  
+
+> [!NOTE]
+> You can specify the layout to use for each report on the **Report Selection** page in the **Selected Layout** field. The default setting for reports is **RDLC (built-in)**, which produces reports in the same, or similar, layout as the **Microsoft Word Document** layout. However, the key difference is whether you want to generate a single or multiple report documents. For single documents, you can use the RDLC (built-in) option. For multiple documents, set the **Microsoft Word Document** as the default layout for the report. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
+
+-->
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Planlægge kørsel af en rapport
 
@@ -74,46 +103,51 @@ Du kan planlægge kørsel af en rapport på en bestemt dato og et bestemt klokke
 
 Når du planlægger en rapport til kørsel, kan du angive, at den skal køre hver torsdag, ved at angive feltet **Datoformel for næste kørsel** til f.eks. *D4*. Du kan finde flere oplysninger i [Bruge datoformler](ui-enter-date-ranges.md#using-date-formulas).  
 
-Du kan vælge at gemme den behandlede rapport i en fil, f.eks. Excel, Word eller PDF, udskrive den til den ønskede printer eller kun behandle rapporten. Hvis du vælger at gemme rapporten i en fil, bliver den behandlede rapport sendt til området **Rapportindbakke** i dit rollecenter, hvor du kan se den.  
+Du kan vælge at gemme den behandlede rapport i en fil (f.eks. Excel, Word eller PDF), udskrive den til den ønskede printer eller kun generere rapporten. Hvis du vælger at gemme rapporten i en fil, bliver den behandlede rapport sendt til området **Rapportindbakke** i dit rollecenter, hvor du kan se den.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Udskrive en rapport
 
 Du kan udskrive en rapport ved at vælge knappen **Udskriv** på rapportanmodningssiden eller på menulinjen på siden **Eksempel**.
 
-### <a name="printer-selection"></a>Printervalg
+### <a name="printer"></a><a name="Printer"></a>Printer
 
-Rapporten udskrives til den printer, der vises i feltet **Valgt printer** på rapportanmodningssiden. Du kan ikke ændre printeren fra denne side.
-
-Den valgte printer er enten angivet på siden **Printervalg** eller er den standardprinter, der er konfigureret på siden **Printerstyring**. Hvis du vil bruge en anden printer, skal du se [Installation af printere](ui-specify-printer-selection-reports.md).
-
-Hvis der ikke er angivet en printer på siden **Printervalg** eller ingen standardprinter er angivet på siden **Printerstyring**, bruges udskrivningsfunktionen i browseren. I så fald vises **Browser** i feltet **Valgt printer** på rapportanmodningssiden. 
-
-### <a name="browser-printing"></a>Browserudskrivning
-
-Da [!INCLUDE[prodshort](includes/prodshort.md)] er en cloud-tjeneste, kan den ikke nå lokale printere med forbindelse til din computer. Men den kan oprette forbindelse til cloud-kompatible printere. I den generelle version af [!INCLUDE[prodshort](includes/prodshort.md)] er der installeret en cloud-printer med navnet **Mailprinter** som en udvidelse, og den er klar til brug efter den første installation.
-
-Hvis der ikke er installeret og konfigureret en cloud-printer, eller hvis der opstår fejl på en installeret printer, vil udskrivningen som standard benytte browserens udskriftsindstillinger.
+Feltet **Printer** på rapportanmodningssiden viser navnet på den printer, rapporten sendes til. Hvis du vil ændre en printer, skal du blot vælge printeren på listen.
 
 > [!NOTE]
-> Indstillingerne for browserudskrivning fungerer uafhængigt af [!INCLUDE[prodshort](includes/prodshort.md)]. Så alle printerindstillinger, der er oprettet fra printere i [!INCLUDE[prodshort](includes/prodshort.md)], overføres ikke til browserens udskriftsindstillinger.
+> **(Håndteres af browseren)** angiver, at der ikke er tildelt en printer til rapporten. I dette tilfælde vil browseren håndtere udskriften og vise en standard oplevelse, hvor du kan vælge en lokal printer, der er tilsluttet enheden. **(Håndteres af browseren)** er ikke tilgængelig i mobilappen [!INCLUDE[prod_short](includes/prod_short.md)] eller appen til Microsoft Teams.
 
-<!-- 
-On the **Printer Management** page, you can see the printers that are set up. For more information, see [Set Up Printers](ui-specify-printer-selection-reports.md).
+> [!TIP]
+> Den printer, der er valgt som standard, er konfigureret på siden **Printervalg**. Du kan finde flere oplysninger om ændring af standardprinteren i [Sådan vælger du, hvilke printere der skal udskrive hvilke rapporter](ui-specify-printer-selection-reports.md#default).
 
-> [!NOTE]
-> You can't change the **Printer** field on the report request page. To use another printer, you must select it from the **Printer Management** page.
--->
 ### <a name="printing-reports-in-thai"></a>Udskrive rapporter på thailandsk
-Knappen **Udskriv** er specifik for Thai-versionen af [!INCLUDE[prodshort](includes/prodshort.md)], men kan ikke udskrive rapporter korrekt pga. begrænsninger i den tjeneste, der genererer PDF-filen, som kan udskrives. Du kan i stedet åbne rapporten i Word og derefter gemme rapporten som en PDF-fil, der kan udskrives.  
 
-Du kan også bede administratoren om at oprette et Word-rapportlayout til de mest anvendte rapporter. Du kan finde flere oplysninger under [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md).  
+Knappen **Udskriv** er specifik for Thai-versionen af [!INCLUDE[prod_short](includes/prod_short.md)], men kan ikke udskrive rapporter korrekt pga. begrænsninger i den tjeneste, der genererer PDF-filen, som kan udskrives. Du kan i stedet åbne rapporten i Word og derefter gemme rapporten som en PDF-fil, der kan udskrives.  
+
+Du kan også bede administratoren om at oprette et Word-rapportlayout til de mest anvendte rapporter. Du kan finde flere oplysninger i [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md).  
 
 ## <a name="changing-report-layouts"></a>Ændre rapportlayout
-Et rapportlayout bestemmer, hvad der skal vises i en rapport, hvor den arrangeres, og hvilken typografi der anvendes. Hvis du vil skifte til et andet layout, kan du se [Ændre det aktuelle rapportlayout](ui-how-change-layout-currently-used-report.md). Eller du kan tilpasse din egen rapportlayout, skal du se [Oprette et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md).
+
+Et rapportlayout bestemmer, hvad der skal vises i en rapport, hvordan det arrangeres, og hvilken typografi der anvendes. Hvis du vil skifte til et andet layout, kan du se [Ændre det aktuelle rapportlayout](ui-how-change-layout-currently-used-report.md). Eller du kan tilpasse din egen rapportlayout, skal du se [Oprette et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md).
+
+## <a name="advanced-options"></a>Avancerede indstillinger
+
+Felterne under **Avanceret** angiver begrænsninger for den genererede rapport til styring af printerressourcer. Du behøver normalt ikke at ændre disse indstillinger, medmindre du har en stor rapport. Hvis en rapport overskrider disse begrænsninger, når du prøver at få vist eller udskrive, vises der en meddelelse om, hvilken begrænsning der er overskredet. Du kan derefter ændre indstillingerne, så de passer til din rapport. Hvert felt har imidlertid en maksimumværdi, som du skal være opmærksom på:
+
+|Felt|Maksimumværdi|
+|-----|-------------|
+|Maksimal gengivelsestid:|12:00:00|
+|Maks. antal rækker|1000000|
+|Maksimalt antal dokumenter|500|
+
+> [!NOTE]
+> De maksimale værdier kan være forskellige for [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, og en administrator kan ændre dem. Du kan finde flere oplysninger i [Konfiguration af Business Central Server - Rapporter](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Du kan få vist en oversigt over rapporters begrænsninger [!INCLUDE[prod_short](includes/prod_short.md)] online i [Driftsgrænser](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
 ## <a name="see-also"></a>Se også
 
 [Installation af printere](ui-specify-printer-selection-reports.md)  
 [Arbejde med kalenderdatoer og klokkeslæt](ui-enter-date-ranges.md)  
 [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  
-[Arbejde med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,20 @@
 ---
-title: Håndtere lager- og produktionsomkostninger | Microsoft Docs
-description: Selvom meget af funktionaliteten i omkostningsberegningen er udtrykt i underliggende processer, der ikke kræver brugermedvirken, f.eks. efterudligning og automatisk kostregulering, er en række felter, sider og rapporter beregnet til brugere, som direkte eller indirekte styrer varepriser eller drift.
-services: project-madeira
-documentationcenter: ''
+title: Håndter lager- og produktionsomkostninger
+description: Lære, hvordan et antal felter, sider og rapporter henvender sig til brugere, som direkte eller indirekte administrerer omkostningerne til varer eller operationer.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 53f1c002236877f536a85586d0af912d5e9a85c2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 9203aa99271bc5fba840b3d568adc098686ef961
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1238252"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136085"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Håndtere lager- og produktionsomkostninger
 Selvom meget af funktionaliteten i omkostningsberegningen er udtrykt i underliggende processer, der ikke kræver brugermedvirken, f.eks. efterudligning og automatisk kostregulering, er en række felter, sider og rapporter beregnet til brugere, som direkte eller indirekte styrer varepriser eller drift.  
@@ -40,3 +37,6 @@ Selvom meget af funktionaliteten i omkostningsberegningen er udtrykt i underligg
 ## <a name="see-also"></a>Se også  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

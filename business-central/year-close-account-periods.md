@@ -1,27 +1,29 @@
 ---
-title: Afslutte regnskabsperioder for et regnskabsår | Microsoft Docs
-description: Beskriver, hvordan du afslutter regnskabsperioder, der indgår i regnskabsåret.
+title: Afslutte regnskabsperioder for et regnskabsår
+description: Beskriver, hvordan du afslutter regnskabsperioder, der indgår i regnskabsåret ved årsafslutningen.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
-ms.date: 04/01/2021
+ms.search.form: 100
+ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: a26baaf947fdac133e3bfcd50489d680231d9971
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: e0ba7bc6b2979dec4b006f43ff8188010fa1885b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786678"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141843"
 ---
 # <a name="close-accounting-periods"></a>Afslutte regnskabsperioder
+
 Når regnskabsåret er slut, skal du afslutte de perioder, det indeholder.
 
 ## <a name="to-close-accounting-periods"></a>Sådan afsluttes regnskabsperioder
-1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Regnskabsperioder**, og vælg derefter det relaterede link.
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Regnskabsperioder**, og vælg derefter det relaterede link.
 2. På siden **Regnskabsperioder** skal du vælge handlingen **Afslut år**.
 
     Hvis mere end et regnskabsår er åbent, vælges det tidligste år, der skal afsluttes, automatisk. Du får vist en meddelelse om, hvilket år der afsluttes, og om konsekvenserne af at afslutte året.
@@ -30,7 +32,7 @@ Når regnskabsåret er slut, skal du afslutte de perioder, det indeholder.
 Regnskabsåret er afsluttet, og felterne **Afsluttet** og **Dato låst** markeres for alle perioder i året. Regnskabsåret kan ikke længere åbnes, og du kan ikke fjerne markeringen fra felterne **Afsluttet** og **Dato låst**.
 
 > [!NOTE]  
->   Det er ikke muligt at afslutte et regnskabsår, før et nyt regnskabsår er oprettet. Bemærk, at når et regnskabsår er afsluttet, er det ikke muligt at ændre startdatoen for det efterfølgende regnskabsår.
+> Det er ikke muligt at afslutte et regnskabsår, før et nyt regnskabsår er oprettet. Bemærk, at når et regnskabsår er afsluttet, er det ikke muligt at ændre startdatoen for det efterfølgende regnskabsår.
 
 Selvom et regnskabsår er afsluttet, kan du stadig bogføre finansposter i det. Hvis du gør det, bliver posterne i forbindelse med bogføringen markeret som bogførte i et afsluttet regnskabsår, og afkrydsningsfeltet **Efterpost** markeres.
 

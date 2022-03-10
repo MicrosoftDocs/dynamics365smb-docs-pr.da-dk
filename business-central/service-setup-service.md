@@ -1,26 +1,23 @@
 ---
 title: Opsætning af Service | Microsoft Docs
 description: Oversigt over opgaver til konfiguration af Service, så det passer til den måde, organisationen administrerer sine tjenester på.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 1820a94ee5a7d0c89f9e9cbae78fb473e2c9cb2d
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 062e74b422f2190feb15d54cea47af90db468d3b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311496"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140549"
 ---
 # <a name="setting-up-service-management"></a>Konfigurere Service
-Før du kan begynde at bruge Service-funktionerne i [!INCLUDE[d365fin](includes/d365fin_md.md)], der er et par ting, du skal konfigurere. Du kan f.eks. oprette koder for standardservice, symptom- og fejlkoder, og de serviceartikler og serviceartikeltyper efter de behov, som virksomhedens debitorservice kræver.  
+Før du kan begynde at bruge Service-funktionerne i [!INCLUDE[prod_short](includes/prod_short.md)], der er et par ting, du skal konfigurere. Du kan f.eks. oprette koder for standardservice, symptom- og fejlkoder, og de serviceartikler og serviceartikeltyper efter de behov, som virksomhedens debitorservice kræver.  
 
 Når du konfigurerer service, skal du beslutte, hvilke serviceydelser du vil tilbyde kunderne, og fastlægge en plan for disse serviceydelser. En service er en type arbejde, der udføres af en eller flere ressourcer og ydes til en kunde. En service kan f.eks. være en type computerreparation. En serviceartikel er det udstyr eller den artikel, der har brug for service, f.eks. den computer, der skal repareres, og som er installeret hos en bestemt kunde. Du kan konfigurere serviceydelser som en del af en gruppe af relaterede reparations- eller vedligeholdelsesydelser.  
   
@@ -45,4 +42,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 ## <a name="see-also"></a>Se også
 [Service Management](service-service.md)  
-[Introduktion](product-get-started.md)  
+[Blive køreklar](ui-get-ready-business.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
