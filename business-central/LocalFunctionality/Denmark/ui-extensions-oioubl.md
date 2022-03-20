@@ -1,7 +1,7 @@
 ---
 title: Udvidelsen OIOUBL til elektronisk fakturering
 description: Denne udvidelse gør det nemt at sende salgsdokumenter elektronisk til kunder i den danske offentlige sektor i OIOUBL-formatet.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d16e1ba4ff0e7121f5ea78bf70bafddf3cfee6e3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3b9a5ca76b6282907214785b9e2c384d07a544d6
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138144"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381795"
 ---
 # <a name="the-oioubl-extension-for-electronic-invoicing-in-denmark"></a>Udvidelsen OIOUBL til elektronisk fakturering i Danmark
 Når du sælger varer eller tjenesteydelser til debitorer i den danske offentlige sektor, skal du sende dokumenter til kunden elektronisk i en XML-fil, der er struktureret til at opfylde kravene i en eller flere OIOUBL-profiler (Offentlig oplysninger Online - Universal Business Language).  

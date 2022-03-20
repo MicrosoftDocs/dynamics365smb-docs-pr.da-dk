@@ -1,7 +1,7 @@
 ---
 title: Bruge Microsoft Word-skabeloner til massekommunikation | Microsoft Docs
 description: Word-skabeloner kan gøre det nemmere at masseoprette dokumenter, der er tilpasset bestemte objekter.
-author: bholtorf
+author: brentholtorf
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9e87e86ea4f267bea0e636f16fab55ae485ee8cf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fe9717f871fdc1db782ceeda4cbad267abddca90
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145312"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383423"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Bruge Word-skabeloner til massekommunikation
 Microsoft Word-skabeloner kan gøre det nemmere at massekommunikere på skrift eller i e-mails med objekter som f.eks. kontakter, debitorer og kreditorer. Du kan f.eks. oprette brochurer, som giver debitorer besked om en salgskampagne, breve til kreditorer om en ny indkøbspolitik eller invitationer, der skal tiltrække kontakter til et kommende arrangement.

@@ -88,14 +88,16 @@
 ##### [Designoplysninger: Bogføringsprogramstruktur](design-details-posting-engine-structure.md)  
 
 ## Prøv
+### [Tilmeld dig for at få en gratis Dynamics 365 Business Central-prøveversion](trial-signup.md)
+### [Dynamics 365 Business Central-prøveversion, ofte stillede spørgsmål](trial-faq.md)
 ### [Prøveversioner og abonnementer](across-preview.md)
-### [Blive køreklar](ui-get-ready-business.md)
+### [Bliv klar til at agere](ui-get-ready-business.md)
 ### [Fejlfinding af selvbetjeningstilmelding](ui-troubleshoot-self-signup.md)
 ### [Udvidelse af din prøveversion](admin-extend-trial.md)
 ### [Opsig eller fjern Business Central](admin-cancel.md)
 ## Køb
-### [Introduktion til et abonnement](across-preview.md#getting-started-with-a-subscription)
-### [Blive køreklar](ui-get-ready-business.md)
+### [Introduktion til et abonnement](across-preview.md#get-started-with-a-subscription)
+### [Bliv klar til at agere](ui-get-ready-business.md)
 
 ## Hurtig startvejledninger
 ### [Hurtig start af Business Central](quick-start-business-central.md)
@@ -557,7 +559,7 @@
 #### [Fjerne og genanvende vareposter](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Lukke åbne vareposter, der fremkommer ved fast udligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Rapportere omkostninger og afstemme med regnskabet
-##### [Rapportering af omkostninger](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Rapportering af omkostninger](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)
 ##### [Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Overvåge jobstatus og -udførelse](projects-how-monitor-progress-performance.md)
 #### [Regulere og afstemme lageromkostninger med finansregnskabet med opgavekø](finance-adjust-reconcile-inventory-cost-job-queue.md)

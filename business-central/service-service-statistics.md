@@ -1,7 +1,7 @@
 ---
 title: Servicestatistik
 description: Få et hurtigt overblik over indholdet af og statistikken for servicedokumenter, f.eks. ordrer, tilbud, fakturaer eller kreditnotaer, og detaljerne på de specifikke servicelinjer med mere.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2d6d9cfd03971a7adec509babff9ad8cd90af4cb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c88081d9489e66979e4cfc757a9f5ed317a85b8e
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142928"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382659"
 ---
 # <a name="viewing-service-statistics"></a>Visning af servicestatistik
 Du kan bruge statistikker til at analysere servicedokumenter og fastslå, hvor godt du administrerer dine serviceprocesser. Du kan analysere servicekontrakter, -artikler, -tilbud, -ordrer, -fakturaer og -kreditnotaer ved at vælge handlingen **Statistik**. For serviceartikler og -kontrakter, kan du også bruge vinduet **Serviceartikel - Trendscape** eller **Kontrakt - Trendscape** til at få vist en oversigt over serviceposterne for en bestemt serviceartikel.   

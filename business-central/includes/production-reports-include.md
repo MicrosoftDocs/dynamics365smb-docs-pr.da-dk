@@ -1,14 +1,14 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 0bfe45574f3f209ac5ee310546cd2ef0998ab417
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5a3e15669bfc590d663b7774fba84017ae842521
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334535"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372017"
 ---
 I følgende tabel beskrives nogle af nøglerapporterne i produktionsrapportering.
 
@@ -22,6 +22,7 @@ I følgende tabel beskrives nogle af nøglerapporterne i produktionsrapportering
 | [Styklistesammenligningsoversigt](https://businesscentral.dynamics.com?report=99000758)|Denne rapport giver dig mulighed for at sammenligne produkter, som er færdige med hensyn til omkostningerne. Du kan få vist en oversigt med alle komponenter og deres omkostninger samt de nødvendige antal. Beregningsdatoen er normalt angivet til arbejdsdatoen. |99000758|
 | [Prod.ordrestatistik](https://businesscentral.dynamics.com?report=99000791)|Angiver de forskellige kostpriser, der er akkumuleret i den valgte produktionsordre.<br>Indholdet af rapporten er meget lig siden **Prod.ordrestatistik**.<br>For en produktionsordre, der bruger *Fremstil til ordre*-produktionsmetoden, viser vinduet kun materiale og kapacitetskostpris for varer på det højeste niveau i styklisten.|99000791|
 | [Kapacitet - operationsliste](https://businesscentral.dynamics.com?report=99000780)|Viser de produktionsordrer, der venter på at blive behandlet i arbejdscentre og produktionsressourcer. Der udskrives oversigter vedrørende kapaciteten i arbejdscentret eller produktionsressourcen. Rapporten indeholder bl.a. oplysninger om start-/slutdato og forfaldsdato samt tilgangsantal.|99000780|
-| [Arbejdscenterbelastning](https://businesscentral.dynamics.com?report=99000783)|Begge rapporter viser en oversigt over belastningen af arbejds-/maskincenter. Belastningen i et arbejds-/maskincenter er summen af det nødvendige antal gange, alle planlagte og aktuelle ordrer køres i arbejdscentret i en angivet periode.|99000783|
-| [Produktionsressourcebelastning](https://businesscentral.dynamics.com?report=99000784)|Begge rapporter viser en oversigt over belastningen af arbejds-/maskincenter. Belastningen i et arbejds-/maskincenter er summen af det nødvendige antal gange, alle planlagte og aktuelle ordrer køres i arbejdscentret i en angivet periode.|99000784|
+| [Arbejdscenterbelastning](https://businesscentral.dynamics.com?report=99000783)|Viser en oversigt over belastningen på et arbejdscenter. Belastningen i et arbejdscenter er summen af det nødvendige antal gange, alle planlagte og aktuelle ordrer køres i arbejdscentret i en angivet periode.|99000783|
+| [Produktionsressourcebelastning](https://businesscentral.dynamics.com?report=99000784)|Viser en oversigt over belastningen af produktionsressourcen. Belastningen i en produktionsressource er summen af det nødvendige antal gange, alle planlagte og aktuelle ordrer køres i produktionsressourcen i en angivet periode.|99000784|
 | [Prod.ordre mankoliste](https://businesscentral.dynamics.com?report=99000788)|Denne rapport kan bruges til at få vist alle komponenter, der ikke er tilgængelige pga. manglende lagerbeholdning. Derfor kan denne oversigt bruges til at få vist tidslinjen for en planlagt eller frigivet produktionsordre, hvis det planlagte tidspunkt kan bevares.|99000788|
+|[Prod.ordre - beregning](https://businesscentral.dynamics.com?report=99000767)|Viser en liste over produktionsordrer og deres kostpriser. Omfatter forventede operationsomkostninger, forventede komponentomkostninger og samlede omkostninger.|99000767|

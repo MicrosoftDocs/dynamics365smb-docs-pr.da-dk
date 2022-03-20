@@ -1,7 +1,7 @@
 ---
 title: Konfigurere ikke-realiseret moms
 description: Hvis du bruger bogføring, der er baseret på kontanter, kan du angive, hvordan urealiseret moms for salg og køb skal håndteres.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: cash, VAT, unrealized, cash-based
 ms.search.form: 118, 472, 473
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2f57799d0c0bf8f238745107cccd6c9694c7ea16
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 168d73da4c2cb9d457071aa9f1116fc397aad648
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137961"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381235"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Konfigurere urealiseret moms i forbindelse med bogføring baseret på kontanter
 

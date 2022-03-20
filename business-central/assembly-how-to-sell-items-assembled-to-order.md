@@ -1,5 +1,5 @@
 ---
-title: 'Fremgangsmåde: Sælge varer, der er monteret til ordre'
+title: Sælge varer, der er monteret til ordre
 description: Hvis varen er konfigureret til montage til ordre, forventes varen derefter ikke at være på lager, og den skal samles specifikt til en salgsordre.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting, substitute items
+ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: e32af0659ec78ae178dd0b49b18582beb66ba100
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ab94626b300a1f022b95770fe8e83fd8d80c9885
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146900"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381508"
 ---
 # <a name="sell-items-assembled-to-order"></a>Sælge varer, der er monteret til ordre
 Hvis feltet **Montagepolitik** på varekortet til et montageelement er **Montage efter ordre**, kan varen ikke forventes at være på lager og skal samles specifikt til en salgsordre. Når du indtaster varen på en salgsordrelinje, bliver der automatisk oprettet en montageordre, hvorefter den knyttes til salgsordren.  

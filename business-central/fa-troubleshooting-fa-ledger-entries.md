@@ -2,7 +2,7 @@
 title: Fejlfinding af udvidelsen til Anlægsposter
 description: Det er nemmere at arbejde med hele tal. Du kan bruge denne udvidelse til at afrunde beløb for anlæg i Anlægsposter.
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bad9c995f87a3a4dfc598989e68b8e2b047a7d5d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8ce484583ef5eddc8e6aee675715487c3bd4e974
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142311"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382467"
 ---
 # <a name="the-troubleshooting-fa-ledger-entries-extension"></a>Fejlfinding af udvidelsen til Anlægsposter
 Brug fejlfinding af udvidelse til Anlægsposter til at afrunde afskrivning og anskaffelsesbeløb i anlægsposterne til hele tal. Hvis du f. eks. vil afrunde et beløb på 30.000,44 til 30.000. Typiske årsager til afrundingsproblemer er dataoverflytning, pludselig start med at bogføre beløb i finans eller de tilpasninger, du har lavet i [!INCLUDE[prod_short](includes/prod_short.md)].

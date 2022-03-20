@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: dimension
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 0585c4d266bed92ffb113701650bef5069109fc8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 06baf4789fb4630ee9ee7db74d5dab7aafa07e9b
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132025"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366694"
 ---
 # <a name="dimension-set-entries-overview"></a>Oversigt over dimensionsgruppeposter
 Dette emne beskriver, hvordan dimensionsgruppeposter gemmes og bogføres i [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -48,7 +48,7 @@ Ved at gemme dimensionsgrupper én gang i databasen gemmes der plads i databasen
 ## <a name="see-also"></a>Se også
 [Designoplysninger: Søgning efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)   
 [Designoplysninger: Tabelstruktur](design-details-table-structure.md)   
-[Designoplysninger: Dimensionsgruppeposter](design-details-dimension-set-entries.md)   
+[Designoplysninger: Dimensionsgruppeposter](/dynamics365/business-central/design-details-dimension-set-entries-overview)   
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Udligne betalinger til ubetalte salgsdokumenter | Microsoft Docs
+title: Udligne betalinger til ubetalte salgsdokumenter
 description: Du kan udligne beløb, der er betalt af debitorer, til relaterede salgsdokumenter og bogføre betalingen for at opdatere debitor-, finans- og bankposter.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
+ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dab5042a6a72426453f92c67e2763d370ce8dff1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d611a245797fd20382f79deb35d8d598a8fe3565
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139479"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382947"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Afstemme debitorbetalinger på en liste over ubetalte salgsdokumenter
 Når debitorerne har foretaget betalinger til din elektroniske bankkonto, skal du udligne hvert indbetalte beløb med det relaterede salgsbilag og derefter bogføre betalingen for at opdatere posterne for debitor, finans og bankkonto. Afhængigt af dine forretningsmæssige behov kan du modtage betaling og registrere den på forskellige måder: manuelt, automatisk og ved hjælp af betalingstjenester.  

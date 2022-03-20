@@ -1,5 +1,5 @@
 ---
-title: Sådan beregnes genopfyldning | Microsoft Docs
+title: Beregn genopfyldning
 description: Når lokationen er konfigureret til at bruge styret læg-på-lager og pluk, tages prioriteterne i læg-på-lager-skabelonen for lokationen i betragtning, når leverancer lægges på lager.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 7315, 7351
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e76b8906eb0ad494794b2bf474e0c635e9d95c80
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8954eaacd2a78d8c1ef0c8a65f63c571e045d950
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134584"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381006"
 ---
 # <a name="calculate-bin-replenishment"></a>Beregn genopfyldning
 Når lokationen er konfigureret til at bruge styret læg-på-lager og pluk, tages prioriteterne i læg-på-lager-skabelonen for lokationen i betragtning, når leverancer lægges på lager. Prioriteter omfatter de minimale og maksimale mængder af placeringsindhold, der er fastsat for en bestemt placering og placeringsniveauerne. Hvis varerne ankommer i en stadig strøm, fyldes de oftest benyttede plukplaceringer derfor op, efterhånden som de tømmes.  
@@ -48,9 +49,9 @@ Næste gang du beregner genopfyldning, vil de forslag, som du har slettet, blive
 [Logistik](warehouse-manage-warehouse.md)  
 [Plukke efter FEFO](warehouse-picking-by-fefo.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
-[Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
+[Konfigurere Warehouse Management](warehouse-setup-warehouse.md) 
+[Montagestyring](assembly-assemble-items.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

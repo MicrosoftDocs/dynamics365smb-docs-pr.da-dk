@@ -1,7 +1,7 @@
 ---
 title: Sende momsrapporter til skattemyndighederne
 description: Få at vide, hvordan du udarbejder rapporter over moms fra salg i en periode eller fra salg og indkøb og sender rapporten til en skattemyndighed.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,21 +10,25 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 11d9b165c598cbb17f870044763e8b0bdca1723b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b927faed205e64088ce399a9a973d7fcea0d1eda
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141173"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383801"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportere moms til skattemyndighederne
 
-Dette emne beskriver rapporterne i [!INCLUDE[prod_short](includes/prod_short.md)], som du kan bruge til at indsende oplysninger om momsbeløb for salg og indkøb til skattemyndigheder i dit område. 
+Dette emne beskriver rapporterne i [!INCLUDE[prod_short](includes/prod_short.md)], som du kan bruge til at indsende oplysninger om momsbeløb for salg og indkøb til skattemyndigheder i dit område. Afhængigt af det specifikke land kan rapporterne omfatte specifikke oplysninger, eller der kan være flere rapporter, som du skal sende. Se artiklen for dit land under den [lokale funktion](about-localization.md).  
 
-Du kan bruge følgende rapporter:
+Du kan bruge følgende standardrapporter:
 
-* Rapportlisterne **Oversigt over EU-salg** fra det Europæiske Fællesskab (EU) viser de momsbeløb, du har indsamlet for salg til momsregistrerede debitorer i EU-lande.  
-* Rapporten **Momsangivelse** inkluderer moms for salg og køb til kunder og fra leverandører i alle lande, der bruger moms.  
+* **Oversigt over EU-salg**-rapporten  
+
+    Rapportlisterne Oversigt over EU-salg fra det Europæiske Fællesskab (EU) viser de momsbeløb, du har indsamlet for salg til momsregistrerede debitorer i EU-lande.  
+* Rapporten **Momsopgørelse**  
+
+    Rapporten Momsangivelse inkluderer moms for salg og køb til kunder og fra leverandører i alle lande, der bruger moms.  
 
 I begge tilfælde beregnes moms på basis af momsbogføringsopsætningen og de momsbogføringsgrupper, du har oprettet.
 
@@ -33,7 +37,7 @@ Du kan få vist en komplet oversigt over momsposter ved hver bogføring, der ind
 > [!NOTE]
 > Hvert [!INCLUDE[prod_short](includes/prod_short.md)]-miljø skal behandle lovpligtig rapportering i ét enkelt land. Den hollandske version af [!INCLUDE[prod_short](includes/prod_short.md)] håndterer momsrapportering i Holland, men ikke i andre lande. På samme måde håndterer den amerikanske version af [!INCLUDE[prod_short](includes/prod_short.md)] 1099 rapportering i USA og understøtter ikke krav om momsindberetning i andre lande, medmindre de er indført via en udvidelse, der leveres af vores partnerøkosystem eller en kundespecifik kodeændring.
 
-## <a name="about-the-ec-sales-list-report"></a>Om rapporten Oversigt over EU-salg
+## <a name="about-the-ec-sales-list-report"></a><a name="ecsaleslist"></a>Om rapporten Oversigt over EU-salg
 
 I EU og i Storbritannien skal alle virksomheder, der sælger varer og tjenester til momsregistrerede kunder, herunder kunder i andre EU-lande, sende en elektronisk udgave af rapporten Oversigt over EU-salg til Told og Skat. Rapporten **Oversigt over EU-salg** kan kun bruges til EU-lande.
 
@@ -47,7 +51,11 @@ Rapporten indeholder én linje for hver type transaktion med kunden og viser det
 
 Når skattemyndighederne gennemser rapporten, sender de en e-mail til kontaktpersonen for virksomheden. I [!INCLUDE[prod_short](includes/prod_short.md)] angives kontaktpersonen på siden **Virksomhedsoplysninger**. Før du sender rapporten, skal du kontrollere, at der er valgt en kontaktperson.  
 
-## <a name="about-the-vat-return-report"></a>Om rapporten Momsopgørelse
+### <a name="submit-an-ec-sales-list-report"></a>Indsend en Liste over EU-salg-rapport
+
+[!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
+
+## <a name="about-the-vat-return-report"></a><a name="vatreturn"></a>Om rapporten Momsopgørelse
 
 Du kan bruge denne rapport til at sende moms for salgs- og købsdokumenter, f.eks. købs- og salgsordrer, fakturaer og kreditnotaer. Oplysningerne i rapporten er opstillet på samme måde som i listeangivelsen fra SKAT.  
 

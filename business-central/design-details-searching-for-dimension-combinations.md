@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 67aa9c5a7b56b00e49573b5232045f032db178c3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7ad41e67eb84149f2c17ea5d00fce0b6cd306f74
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145806"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366144"
 ---
 # <a name="design-details-searching-for-dimension-combinations"></a>Designoplysninger: Søgning efter dimensionskombinationer
 Når du lukker en side, efter du har redigeret et sæt dimensioner, evaluerer [!INCLUDE[prod_short](includes/prod_short.md)], om det redigerede sæt dimensioner findes. Hvis det ikke findes, oprettes der et nyt sæt, og dimensionens kombinations-ID returneres.  
@@ -73,7 +73,7 @@ EXIT(DimSet.ID);
 
 ## <a name="see-also"></a>Se også
     
- [Designoplysninger: Dimensionsgruppeposter](design-details-dimension-set-entries.md)   
+ [Designoplysninger: Dimensionsgruppeposter](/dynamics365/business-central/design-details-dimension-set-entries-overview)   
  [Oversigt over dimensionsgruppeposter](design-details-dimension-set-entries-overview.md)   
  [Designoplysninger: Tabelstruktur](design-details-table-structure.md)   
  

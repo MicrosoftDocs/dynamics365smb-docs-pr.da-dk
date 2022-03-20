@@ -1,7 +1,7 @@
 ---
 title: Oprette fakturaer eller -kreditnotaer for tjenester
 description: Få mere at vide om, hvordan du bruger Business central til problemfrit at oprette kredit fakturaer og kreditnotaer til dine tjenester.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 47ff02006af6182752ed110464b4c8aa493060c5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6802f145d0312339080cff0d58e9e784dca51088
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143084"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381800"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Oprette servicefakturaer eller -kreditnotaer
 En nøgleegenskab i [!INCLUDE[prod_short](includes/prod_short.md)] er at gøre fakturering af serviceordrerne så let som mulig. Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)], så en feltservicetekniker kan oprette en faktura for en service, der ikke er tilknyttet en kontrakt eller en ordre. Du kan også vælge at konfigurere [!INCLUDE[prod_short](includes/prod_short.md)], så du fakturerer servicekontrakter med jævne mellemrum. Fakturaperioden for den enkelte kontrakt definerer, hvor ofte kontrakten faktureres.

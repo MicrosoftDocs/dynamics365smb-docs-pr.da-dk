@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 471847e62911ba1dc274a0d02ffbd66968d0b7ca
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 51fb5e0f818974ed421b7f2bf282ad1c35c2eb0a
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141563"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366339"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Oprette Power BI-rapporter, der viser [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
@@ -40,7 +40,7 @@ Denne artikel beskriver, hvordan du kan komme i gang med at bruge Power BI Deskt
 
   - URL-adressen til OData for [!INCLUDE[prod_short](includes/prod_short.md)].
   
-    Denne URL-adresse har typisk formatet `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, f.eks. `https://localhost:7048/BC160/ODataV4`. Hvis du har en installation med flere lejere, skal du medtage lejeren i URL-adressen, f.eks. `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
+    Denne URL-adresse har typisk formatet `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, f.eks. `https://localhost:7048/BC190/ODataV4`. Hvis du har en installation med flere lejere, skal du medtage lejeren i URL-adressen, f.eks. `https://localhost:7048/BC190/ODataV4?tenant=tenant1`.
   - Et brugernavn og en adgangskode til webtjenesten for en [!INCLUDE[prod_short](includes/prod_short.md)]-konto.
 
     For at få data fra [!INCLUDE[prod_short](includes/prod_short.md)] bruger Power BI basisgodkendelse. Derfor skal du bruge et brugernavn og en adgangsnøgle til webtjenesten for at oprette forbindelse. Kontoen kan være din egen brugerkonto, eller din organisation kan have en specifik konto til dette formål.

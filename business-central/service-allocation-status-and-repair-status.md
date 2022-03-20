@@ -1,7 +1,7 @@
 ---
 title: Allokeringsstatus og reparationsstatus | Microsoft Docs
 description: Få mere at vide om relationerne mellem serviceartiklernes reparationsstatus og allokeringsposternes allokeringsstatus for dem.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b8cc2b6dafb5217d652f398b1fc03db6870a7e8f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad74f4cd5049943fc3006ea66ab377b519012892
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148274"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382579"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Allokeringsstatus og reparationsstatus for serviceartikler
 Der er en særlig relation mellem serviceartiklernes reparationsstatus og allokeringsposternes allokeringsstatus for serviceartiklerne i Service. Allokeringsstatus ændres, når du ændrer reparationsstatus for serviceartiklen til **Udført** eller **Delvist repareret**, og når du konverterer et servicetilbud til en serviceordre. Reparationsstatus for serviceartiklen ændres, når du annullerer serviceartikelallokeringen eller genallokerer serviceartiklen til en anden ressource. Du kan få vist reparationsstatus for serviceartiklerne på siden **Serviceopgaver**, og du kan opdatere reparationsstatussen i feltet **Reparationsstatuskode** på siden **Serviceartikelkladde**. Du kan få vist allokeringsstatus i feltet **Status** på siden **Ressourceallokeringer**.  

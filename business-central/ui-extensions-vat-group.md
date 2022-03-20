@@ -1,8 +1,7 @@
 ---
 title: Udvidelsen til momsgruppestyring
 description: Du kan handle med andre virksomheder for at danne en momsgruppe og enten være medlem eller en repræsentant for gruppen, når du indberetter moms.
-author: bholtorf
-manager: annbe
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 470b8af1322fa0f3b295f566244af44c3183c2fe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f385cd6dc2186a2e492eb7c045639ec34185237c
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132442"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382553"
 ---
 # <a name="the-vat-group-management-extension"></a>Udvidelsen til momsgruppestyring
 
@@ -84,9 +83,9 @@ Konfigurer momsgruppemedlem ved at starte med Kør guiden **Konfigurer momsgrupp
 5. Vælg **Godkendelsestype**, vælg **OAuth2** og vælg derefter **Næste**.
 6. Angiv det id, som repræsentanten for momsgruppen har opgivet, i feltet **Klient-id**.
 7. Indtast den hemmelighed, som repræsentanten for momsgruppen har stillet til rådighed, i feltet **repræsentant for momsgruppe**.
-8. I **feltet OAuth 2,0 Authority Endpoint**-feltet skal du angive *https://login.microsoftonline.com/common/oauth2*.
-9. I feltet **OAuth 2,0 Resource URL** skal du angive *https://api.businesscentral.dynamics.com/*.
-10. I feltet **OAuth 2,0 Redirect URL** skal du angive *https://businesscentral.dynamics.com/OAuthLanding.htm*. 
+8. I feltet **OAuth 2.0 Myndighedsslutpunkt**-feltet skal du angive `https://login.microsoftonline.com/common/oauth2`.
+9. I feltet **OAuth 2.0 URL-adresse til ressource** skal du angive `https://api.businesscentral.dynamics.com/`.
+10. I feltet **OAuth 2.0 URL-adresse til omdirigering** skal du angive `https://businesscentral.dynamics.com/OAuthLanding.htm`. 
 11. Når du har angivet de forskellige felter, skal du vælge **Næste** og derefter angive de brugerlegitimationsoplysninger, som repræsentanten for momsgruppen har stillet til rådighed.
 12. Vælg den momsrapport konfiguration, som du kan bruge til at rapportere moms til myndigheder i dit land.
 
@@ -94,7 +93,7 @@ Konfigurer momsgruppemedlem ved at starte med Kør guiden **Konfigurer momsgrupp
 
 ## <a name="using-the-vat-group-management-features"></a>Bruge funktionerne til momsgruppestyring
 
-Medlemmer af momsgruppen bruger standardprocesserne til at oprette momsreturneringer. Den eneste forskel er at vælge rapportversionen **MOMSGRUPPE**, som sender momsen tilbage til momsgruppens repræsentant i stedet for myndighederne. Du kan finde flere oplysninger i [Om rapporten Momsopgørelse](finance-how-report-vat.md#about-the-vat-return-report).
+Medlemmer af momsgruppen bruger standardprocesserne til at oprette momsreturneringer. Den eneste forskel er at vælge rapportversionen **MOMSGRUPPE**, som sender momsen tilbage til momsgruppens repræsentant i stedet for myndighederne. Du kan finde flere oplysninger i [Om rapporten Momsopgørelse](finance-how-report-vat.md#vatreturn).
 
 I følgende afsnit beskrives de opgaver, som momsgrupperepræsentanter skal udføre.
 

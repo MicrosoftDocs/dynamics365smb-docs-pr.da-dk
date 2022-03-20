@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
-ms.date: 12/13/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 6cb8789b75350b3879fb0179759498394b6e22d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f19e37752385d276683d4ce924883629cb7d086c
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134973"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372128"
 ---
 # <a name="use-time-sheets"></a>Bruge timesedler
 
@@ -32,7 +32,7 @@ Før du kan bruge timesedler, skal du angive generelle oplysninger og angive en 
 
 ## <a name="to-create-time-sheets"></a>Sådan opretter du timesedler
 
-Du kan bruge kørslen **Opret timesedler** til at oprette timesedler for et angivet antal tidsperioder eller uger. Derefter kan timesedlens ejer åbne den og registrere tid, der har været brugt på en opgave.  
+Du kan bruge kørslen **Opret timesedler** til at oprette timesedler for et angivet antal tidsperioder eller uger. Derefter kan timesedlens ejer åbne den og registrere tid, der har været brugt på en opgave. Du kan også [planlægge batchjobbet til at køre automatisk](ui-work-report.md#ScheduleReport).  
 
 > [!IMPORTANT]
 > Du skal have tilladelser for at kunne oprette timesedler. Der er flere oplysninger i [Konfigurere timesedler](projects-how-setup-time-sheets.md).
@@ -43,6 +43,8 @@ Du kan bruge kørslen **Opret timesedler** til at oprette timesedler for et angi
 
     > [!NOTE]  
     > Felterne **Brug timeseddel** og **Bruger-id for timeseddelejer** skal udfyldes på kortet for ressourcen for timesedlen.
+
+    Du kan også vælge at vælge handlingen **Tidsplan** for at angive, hvor ofte opgaven skal udføres automatisk. Hvis du f. eks. vil konfigurere en opgave, så den kører en gang om ugen i fire uger, skal du indstille på siden **Planlæg en rapport - Opret tidsark** feltet **Datoformel for næste kørsel** til *4U*. Du kan få flere oplysninger [Planlægge en rapport til kørsel](ui-work-report.md#ScheduleReport).  
 4. Vælg knappen **OK**.  
 
 Du kan se de timesedler, du har oprettet, på siden **Timesedler**. Hver timeseddel består af en eller flere linjer, der definerer den tid, du vil sende til godkendelse. I følgende tabel beskrives de typer af linjer, du kan føje til en timeseddel.

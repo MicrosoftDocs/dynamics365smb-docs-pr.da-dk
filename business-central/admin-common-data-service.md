@@ -1,18 +1,18 @@
 ---
 title: Brug af Microsoft Dataverse
 description: Introduktion til integration og brug af Microsoft Dataverse og komponenter til at oprette forbindelse til andre Dynamics 365-programmer.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.date: 06/14/2021
-ms.openlocfilehash: 95b1146f2f664ad73966162e24c3e0ad0c34e310
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f7c39cc06a84da212b6d3045eeb9c3cb8087046a
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141433"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382893"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Integration med Microsoft Dataverse
 

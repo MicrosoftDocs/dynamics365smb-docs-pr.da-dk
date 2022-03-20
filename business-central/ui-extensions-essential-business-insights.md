@@ -2,7 +2,7 @@
 title: Vise indsigt, der kan handles på, i rollecentre
 description: Flere oplysninger om, hvordan Vigtig forretningsindsigt roterer en række forretningsmæssige indsigter i rollecentre.
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 75081547af3c98233870d0cbe68860ab52d8c38d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3980b900a1fe261ae45c2eb1dc6e5395a01cb02d
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134765"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384016"
 ---
 # <a name="the-essential-business-insights-extension"></a>Udvidelsen Vigtig forretningsindsigt
 Udvidelsen Vigtig forretningsindsigt finder interessante forretningsmæssige oplysninger i dine virksomhedsdata og vises som avislignende overskrifter i rollecentre. Afhængigt af hvad udvidelsen finder i dataene, er indsigt fra sidste uge, måned eller tre måneder fra dags dato. Indsigten opdateres hvert 10. minut.  

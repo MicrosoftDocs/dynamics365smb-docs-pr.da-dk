@@ -1,21 +1,21 @@
 ---
 title: Afstemme bankkonti
 description: Dette emne beskriver, hvordan du kan afstemme transaktionerne på de interne bankkonti med transaktionerne i kontoudtog fra banken.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.search.form: 379, 388, 1290, 10124
+ms.search.form: 379, 388, 389, 1290, 10124
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 89fc1b881ce738d50ae40088be265d3944491f21
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1ebc2680aea583410a0f1bab8f4ff1d35989eb36
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128995"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381084"
 ---
 # <a name="reconcile-bank-accounts"></a>Afstemme bankkonti
 
@@ -88,7 +88,7 @@ Ruden **Bankkontoudtogslinjer** udfyldes i henhold til fakturaer i [!INCLUDE[pro
 
 Siden **Bankkontoafstemning** indeholder automatisk matchningsfunktionalitet, der er baseret på en sammenligning af tekst i en bankkontoudtogslinje (venstre rude) med tekst i en eller flere bankkontoposter (højre rude). Bemærk, at du kan overskrive den foreslåede automatiske afstemning, og du kan vælge slet ikke at bruge automatisk afstemning. Du kan finde flere oplysninger i [Sådan afstemmes bankkontoudtoglinjer manuelt med bankposter](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
-Auto match af poster, der er baseret på et sæt betalings udlignings regler. Du kan finde flere oplysninger i [Konfigurere regler for automatisk udligning af betalinger](receivables-how-set-up-payment-application-rules.md). Du kan undersøge udgangspunktet for matches ved at bruge handlingen **match detaljer**. Detaljerne vil f. eks. omfatte navnene på de felter, der indeholdt identiske værdier.  
+Du kan undersøge udgangspunktet for matches ved at bruge handlingen **match detaljer**. Detaljerne vil f. eks. omfatte navnene på de felter, der indeholdt identiske værdier.  
 
 1. På siden **Bankkontoafstemning** skal du vælge **Match automatisk**. Siden **Afstem bankposter** åbnes.
 2. I feltet **Transaktionsdatotolerance (dage)** skal du angive antallet af dage før og efter bankpostens bogføringsdato, hvorimellem funktionen skal søge efter tilsvarende transaktionsdatoer i kontoudtoget.

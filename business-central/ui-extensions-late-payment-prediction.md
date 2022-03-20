@@ -1,7 +1,7 @@
 ---
 title: Forudsig forsinkede betalinger for salgsdokumenter
 description: Flere oplysninger, hvordan du bruger vores forudsigelsesmodel til at forudsige, om en faktura vil blive betalt til tiden.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: c1c9f6a0aec94161b2043b5bf5cb5737bce3f8d2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 528267086ddb8ceefe0b8d09e6704bf79273c928
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136765"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383237"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Udvidelsen Forudsigelse af forsinket betaling
 

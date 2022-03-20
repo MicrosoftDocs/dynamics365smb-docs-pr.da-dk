@@ -1,30 +1,37 @@
 ---
 title: Momsindberetning [DK]
-description: Du kan oprette de nødvendige momsopgørelser for vare-eller tjeneste filer ved hjælp af kørslen Moms-listeangivelse disk.
-author: SorenGP
+description: Du kan oprette de nødvendige momsopgørelser for vare- eller tjenestefiler i en dansk version ved hjælp af rapporten Oversigt over EU-salg.
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/18/2021
+ms.search.form: ''
+ms.date: 03/02/2022
 ms.author: edupont
-ms.openlocfilehash: b2545e202d292d9661ddc1161476220d833a1d9c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6c94b71a774d0dc27827203732b7aa88c16af487
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129366"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372098"
 ---
 # <a name="vat-vies-reporting-in-the-danish-version"></a>Momslisterapportering i den danske version
-Danske virksomheder skal angive moms af handel med varer eller tjenesteydelser med andre EU-lande/områder. Du kan oprette den ønskede fil ved hjælp af kørslen **Moms - listeangivelse disk**.  
 
-## <a name="reporting-eu-sales"></a>Rapportering af salg til EU  
- Hvis du vil registrere moms af handel med varer eller tjenesteydelser mellem EU-lande/områder, skal du indberette oplysninger om denne handel til det danske listesystem. Kørslen **Moms - listeangivelse disk** opretter en kommasepareret fil, som du derefter kan overføre til SKAT på [www.skat.dk](https://go.microsoft.com/fwlink/?LinkId=212340)-websiden. Inden du opretter filen, kan du kontrollere dine kunders CVR-nummer online. SKAT anbefaler også, at du ikke sender store filer til onlineportalen. Hvis din indberetning består af mere end 1.000 linjer, anbefales det, at du sender flere mindre filer i stedet. Du kan finde flere oplysninger på SKATs [websted](https://www.skat.dk).  
+Danske virksomheder skal angive moms af handel med varer eller tjenesteydelser med andre EU-lande/områder. Du kan oprette den ønskede fil ved hjælp af kørslen rapporten **Oversigt over EU-salg**.  
 
-## <a name="see-also"></a>Se også  
+## <a name="reporting-eu-sales"></a>Rapportering af salg til EU
+
+Hvis du vil registrere moms af handel med varer eller tjenesteydelser mellem EU-lande/områder, skal du indberette oplysninger om denne handel til det danske listesystem. Rapporten **Oversigt over EU-salg** opretter en fil, som du derefter kan overføre til Told og skat på [www.skat.dk](https://go.microsoft.com/fwlink/?LinkId=212340)-websiden. Inden du opretter filen, kan du kontrollere dine kunders CVR-nummer online. SKAT anbefaler også, at du ikke sender store filer til onlineportalen. Hvis din indberetning består af mere end 1.000 linjer, anbefales det, at du sender flere mindre filer i stedet. Du kan finde flere oplysninger på SKATs [websted](https://www.skat.dk).  
+
+[!INCLUDE [finance-ecsaleslist](../../includes/finance-ecsaleslist.md)]
+
+## <a name="see-also"></a>Se også
+
+[Om rapporten Oversigt over EU-salg](../../finance-how-report-vat.md#ecsaleslist)  
+[Rapportere moms til skattemyndighederne](../../finance-how-report-vat.md)  
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
- [Udskrive rapporter til afstemning af moms](how-to-print-vat-reconciliation-reports.md)    
+[Udskrive rapporter til afstemning af moms](how-to-print-vat-reconciliation-reports.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, charts, tiles
 ms.date: 04/29/2021
 ms.author: jswymer
-ms.openlocfilehash: 43a3c648693ca0f3cc009aeecb7fc053f8be2838
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b186ef113a356b7f3444755ef73712bdcfd7095a
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138436"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366538"
 ---
 # <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Håndbevægelser til touch og pen til tablet og telefoner 
 
@@ -39,6 +39,6 @@ Business Central built-in charts display useful information about business data 
 
 [Hurtig reference til genveje - på pc'er](keyboard-shortcuts-cheatsheet.md)  
 [Hjælpefunktioner](ui-accessibility.md)  
-[Introduktion](product-get-started.md)  
+[Introduktion](/dynamics365/business-central/ui-get-ready-business)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

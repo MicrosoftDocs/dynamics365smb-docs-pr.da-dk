@@ -1,19 +1,19 @@
 ---
 title: Tilslut til Microsoft Dataverse (indeholder video)
 description: Oprette forbindelse mellem Business Central og Dataverse. Virksomheder opretter typisk forbindelsen for at integrere og synkronisere data med en anden Dynamics 365-forretningsapp.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.search.forms: 7200, 7201
 ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8b5a393356f4028de8278bad3177592c8d26fe40
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f83764061bb341b0b9d6619a0c5d14cac6b664a9
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130744"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383827"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Opret forbindelse til Microsoft Dataverse
 

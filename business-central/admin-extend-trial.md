@@ -1,7 +1,7 @@
 ---
 title: Udvid din prøveversion af Business Central
 description: Hvis du har brug for mere tid til at afgøre, om du vil oprette et abonnement på Dynamics 365 Business Central, kan du udvide din prøveperiode en gang. Få mere at vide om dine muligheder.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 571b71ed67a14151d668fa6e1b37a837a989a693
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 756d40cb590a4944d0abbbd3c02991b5135eabb9
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129103"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381216"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Har du brug for mere tid til at beslutte, om du vil oprette et abonnement?
 

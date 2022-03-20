@@ -8,16 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 95f54be520c439984343fbe9413570dc18097db9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 398f9a221dbdbdf2889d847b2d26db7faec23ff0
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138488"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367198"
 ---
 # <a name="welcome-to-prod_long"></a>Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er en forretningsledelsesløsning, som hjælper små og mellemstore virksomheder med at automatisere og strømline forretningsprocesserne og hjælper dig med at administrere din virksomhed. Med dets mange funktioner og rige tilpasningsmuligheder giver [!INCLUDE[prod_short](includes/prod_short.md)] virksomheden mulighed for at styre forretningsaspekter, herunder bl.a. finans, produktion, salg, levering, projektstyring og service. Virksomheden kan nemt tilføje funktioner, der er relevante for driftsområdet, også funktioner, der er tilpasset højt specialiserede brancher.  
+
+[Få mere at vide om, hvordan du får en gratis prøveversion her](trial-signup.md).  
 
 Hvis du allerede har [!INCLUDE[prod_short](includes/prod_short.md)], skal du logge på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Hvis det ikke er tilfældet, kan du [hente oversigten](https://dynamics.microsoft.com/business-central/overview/), [gå til den rundvisning](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) og derefter [starte en gratis prøveperiode](https://go.microsoft.com/fwlink/?linkid=847861). Se [artiklerne om hurtig start](quick-start-business-central.md) for at hjælpe dig med at lære dig at kende [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger om onboarding til [!INCLUDE[prod_short](includes/prod_short.md)] i [Blive køreklar](ui-get-ready-business.md).  
 

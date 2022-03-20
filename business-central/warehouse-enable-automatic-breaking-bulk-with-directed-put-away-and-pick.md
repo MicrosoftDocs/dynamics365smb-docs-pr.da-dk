@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 5703, 7352
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 82b0625cf36b0c304a28c1196aa76289d5711c15
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f16fb21773a519edc77fca615d679e106b397af8
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144459"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382763"
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Aktivere automatisk nedbrydning med styret læg-på-lager og pluk
 På lokationer, hvor der bruges styret læg-på-lager og pluk, kan [!INCLUDE[prod_short](includes/prod_short.md)] i visse tilfælde foretage automatisk nedbrydning. Dermed nedbrydes større enheder til mindre enheder, når der oprettes lagerinstruktioner, som opfylder behovet for kildedokumenter, produktionsordrer eller interne pluk og læg-på-lager. Nedbrydning kan også betyde indsamling af mindre enheder, hvis det er nødvendigt for at efterkomme udgående anmodninger, ved at nedbryde den største enhed i kildedokumentet eller produktionsordren i mindre enheder, der er tilgængelig på lageret. -nedbrydninger som følger.   
@@ -46,9 +47,9 @@ Du kan få vist resultaterne af konverteringsprocessen fra en enhed til en anden
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
-[Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
+[Konfigurere Warehouse Management](warehouse-setup-warehouse.md) 
+[Montagestyring](assembly-assemble-items.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -1,7 +1,7 @@
 ---
 title: Konfigurere priser og rabatter
 description: Beskriver, hvordan du definerer standard- specialpris- og rabataftaler for salg og køb.
-author: bholtorf
+author: brentholtorf
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 24768e03181599b2329d4ed532453a60516bd9f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3a6d6b680ebfb89c376872d2dcd5cb6fb535d4a3
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134118"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383291"
 ---
 # <a name="set-up-prices-and-discounts"></a>Konfigurere priser og rabatter
 > [!NOTE]

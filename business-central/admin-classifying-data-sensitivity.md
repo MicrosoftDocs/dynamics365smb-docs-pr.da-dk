@@ -1,19 +1,19 @@
 ---
 title: Klassificere datafølsomhed
 description: Du skal angive, hvilken type data du gemmer om personer, så du kan besvare anmodninger fra dataemnet.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: 1752
 ms.date: 06/14/2021
-ms.openlocfilehash: 4ec4e6cd24c620829b35b7e3e25a27d4f127e045
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ba629a40bee4f73c3d2a68395b138893265d7b0f
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136422"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382359"
 ---
 # <a name="classifying-data-sensitivity-fields"></a>Klassificere datafølsomhedsfelter
 For at klassificere de felter, der indeholder følsomme eller personlige data, kan en Microsoft-partner angive egenskaben ```DataClassification``` på felter. Dette kræver adgang til databasetabellerne, enten via udviklingsmiljøet eller ved at køre et Windows PowerShell-script. Du kan finde flere oplysninger i [Klassificere data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  

@@ -1,7 +1,7 @@
 ---
 title: Håndtering af lotstørrelse
 description: I dette emne beskrives forskellige måder at håndtere lotstørrelser på.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6d6316fbe214512f5d42622c47502a4361ce604e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f5af806ee6f8345932e13139de5f5d70700aed1e
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135746"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381851"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Håndtering af lotstørrelser i produktionen
 Med hensyn til antal korrelerer antallet af varer, du producerer i en produktionsoperation, muligvis ikke til, hvordan de sælges. Du producerer måske hundredvis af varer i et enkelt parti, men sælger hver vare individuelt. Når du konfigurerer dine produktionsruter og styklister, er der få nuancer, du bør overveje med hensyn til lotstørrelser. I dette emne beskrives, hvordan lotstørrelser påvirker omkostningsberegninger og ressourceplanlægning.

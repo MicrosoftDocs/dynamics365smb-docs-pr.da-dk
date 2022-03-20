@@ -1,5 +1,5 @@
 ---
-title: Sådan sælges lagervarer i montage efter ordre-flows
+title: Sælge lagervarer i montage til ordre-forløb
 description: Hvis en vare er sat op til montage efter ordre, skal varen monteres til salgsordrer, og der oprettes automatisk en tilknyttet montageordre.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
+ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 2d68bb10c6ff7d153417dbdc491dd8abd75b7adc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: acf9afd490158ccca25e2fd13ecb30bb07c64bfe
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146949"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384068"
 ---
 # <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Sådan sælges lagervarer i montage efter ordre-forløb
 Hvis feltet **Montagepolitik** på varekortet til et montageelement indeholder **Montage efter ordre**, vil standardsalgsordreprocessen forudsætte, at elementet ikke er på lageret, og at det skal monteres til denne specifikke salgsordre. Derfor oprettes en sammenkædet montageordre automatisk, når du føjer elementet til en salgsordrelinje. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md). Men hvis en del af salgsordremængden allerede er tilgængelig på lageret, kan du sænke montageordremængden ved at ændre feltet **Antal til montage efter ordre** på salgsordrelinjen.  

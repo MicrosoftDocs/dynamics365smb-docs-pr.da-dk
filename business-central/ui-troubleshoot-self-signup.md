@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: aaf3a30be1c04d1f5f30c157b20a1f10c51170a3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cb917d1d54d66e02315e82ef6596a8fef65fb077
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145260"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366186"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Fejlfinding af selvbetjeningstilmelding
 Tilmelding til [!INCLUDE[prod_short](includes/prod_short.md)] er nemt og kan udføres hurtigt. Du kan oprette en gratis konto, selvom du en eksisterende virksomhed. Denne artikel løser problemer, der måtte opstå under tilmeldingen.
@@ -43,6 +43,8 @@ Du kan finde en oversigt over aktuelt understøttede markeder for hele Dynamics 
 
 ## <a name="see-also"></a>Se også
 
+[Tilmeld dig for at få en gratis Dynamics 365 Business Central-prøveversion](trial-signup.md)  
+[Dynamics 365 Business Central-prøveversion, ofte stillede spørgsmål](trial-faq.md)  
 [Velkommen til [!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Lokal funktionalitet](about-localization.md)  

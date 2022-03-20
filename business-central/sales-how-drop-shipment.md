@@ -1,5 +1,5 @@
 ---
-title: Knyt en salgsordre til en købsordre til direkte levering (indeholder video) | Microsoft Docs
+title: Opret direkte levering (indeholder video)
 description: Beskriver, hvordan du opretter en salgsordre, der er knyttet til en købsordre for at muliggøre levering direkte fra leverandøren til kunden.
 author: SorenGP
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19bfb28494a6ee5a4650f32fd2794c0254eff561
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fe45eb6403798a7e64b9604321440a2fff38c3f
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144823"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372039"
 ---
 # <a name="make-drop-shipments"></a>Foretage direkte leveringer
 
@@ -40,12 +40,12 @@ Hvis du vil forberede en direkte levering, skal du angive på købsordren, at de
 2. Vælg **Debitoradresse** i feltet **Leveres til**.
 3. Vælg den kunde, du sælger til, i feltet **Debitor**.
 4. Vælg handlingen **Direkte leveringer**, og vælg derefter handlingen **Hent salgsordre**.
-5. På siden **Salgsoversigt** skal du vælge den salgsordre, du forberedt i [Sådan oprettes en salgsordre til direkte levering](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
+5. På siden **Salgsoversigt** skal du vælge den salgsordre, du forberedt i [Sådan oprettes en salgsordre til direkte levering](#to-create-a-sales-order-for-drop-shipment).
 6. Vælg knappen **OK**.
 
 Linjeoplysningerne på salgsordren indsættes på købsordrelinjen(erne).
 
-Nu kan du bede leverandøren levere varerne til kunden, f.eks. ved at sende købsordren som en PDF.     
+Nu kan du bede leverandøren levere varerne til kunden, f.eks. ved at sende købsordren som en PDF. Hvis kreditoren angiver et sporingsnummer eller lignende oplysninger, kan du vælge at registrere disse oplysninger på en købsordrelinje af typen *bemærkning*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Sådan oprettes flere købsordrer til direkte leveringer
 

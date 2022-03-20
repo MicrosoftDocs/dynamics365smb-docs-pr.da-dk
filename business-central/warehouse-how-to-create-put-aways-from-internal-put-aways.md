@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 7354, 7356, 7357, 7358, 7359, 7361
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 609564faa1e0d5b1e7c364360315ca71b9ba3d06
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9e0eae31f29e726c15add24ef9d4b48b81b3d299
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140081"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383639"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Plukke og lægge på lager uden et kildedokument
 Når varer er blevet lagt på plads, og indtil de plukkes til en produktionsordre eller leverance, opbevares de på lagerstedet og indgår i den disponible lagerbeholdning.  
@@ -53,8 +54,8 @@ Ved hjælp af **Interne pluk**-aktiviteter kan du udføre læg-på-lager-aktivit
 ## <a name="see-also"></a>Se også  
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
-[Montagestyring](assembly-assemble-items.md)    
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
+[Montagestyring](assembly-assemble-items.md)  
 [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

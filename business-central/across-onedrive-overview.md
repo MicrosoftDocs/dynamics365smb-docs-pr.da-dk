@@ -1,18 +1,18 @@
 ---
 title: Business Central og OneDrive for Business Integration
 description: Du kan bruge OneDrive til Business til at gemme, administrere og dele filer, f.eks. rapporter eller vedhæftede filer.
-author: bholtorf
+author: brentholtorf
 ms.topic: overview
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: f2c8efa4a32ef18ee4db25919c7e4405649d54bb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 522bf01d08e77e52b4fbcf32f2652c53208cf8ec
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141459"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381825"
 ---
 # <a name="business-central-and-onedrive-for-business-integration"></a>Business Central og OneDrive for Business Integration
 OneDrive for Business er en skylagringstjeneste, der er inkluderet i Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] gør det nemt at gemme, administrere og dele filer med andre personer via OneDrive. Når der er en fil i din OneDrive, kan du nyde de omfattende samarbejdsoplevelser fra onlineversionerne af Microsoft-produkter, f.eks. Word, Excel og PowerPoint. Du kan f.eks. dele et Word-dokument, og så kan du og dine kolleger redigere det sammen i realtid. OneDrive giver dig også mulighed for at åbne andre filtyper, f.eks. PDF'er. 

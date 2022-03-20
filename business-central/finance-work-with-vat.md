@@ -1,7 +1,7 @@
 ---
 title: 'Fremgangsmåde: Arbejde moms af salg og køb'
 description: I dette emne beskrives de forskellige metoder til at arbejde med moms både manuelt og med automatisk opsætning, så du kan overholde landespecifikke regler.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: ed3cbe00aac1faf920df6954ee1694bdabce9835
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7543c60455794d9f004ea11b2baccf81264b9886
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133780"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382095"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbejde moms af salg og køb
 Hvis dit land eller område kræver, at du beregner moms af salgs- og købstransaktioner, så du kan indberette beløbene til skattemyndighederne, kan du konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til automatisk at beregne moms på salgs- og købsdokumenter. Du kan finde flere oplysninger i [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md).

@@ -1,7 +1,7 @@
 ---
 title: Konfigurere OIOUB-udvidelsen til elektronisk fakturering | Microsoft Docs
 description: Beskriver, hvad du skal udføre for at blive klar til at sende salgsdokumenter i et OIOUBL-format (Offentlig oplysninger Online - Universal Business Language).
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 58d5d12c9bc25a1c435d7720bec13aaf82e0277f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6e78fe9b26da529b846f9ecc7b3f9afe2a5ebd33
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140041"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382145"
 ---
 # <a name="set-up-oioubl"></a>Konfigurere OIOUBL
 Du skal angive en placering til lagring af OIOUBL-filer (Offentlig Information Online UBL), når du opretter elektroniske dokumenter som f.eks. fakturaer eller kreditnotaer. Du skal også definere betalingsformer, betalingsbetingelser og varegebyrer, og du skal oprette relevante kunder til OIOUBL.  

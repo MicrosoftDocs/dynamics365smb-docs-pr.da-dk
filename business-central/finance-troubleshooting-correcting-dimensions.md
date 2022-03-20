@@ -1,7 +1,7 @@
 ---
 title: Fejlfinding og korrigering af dimensioner
 description: Få mere at vide om, hvordan du foretager fejlfinding af typiske dimensions fejl, og hvordan du retter dimensioner, efter at de er brugt i bogførte transaktioner.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 91dce6ef4fee44800ab5892a986783139eeed892
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1a5647045e3b7aff1b709096b8b856485ce762e9
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146458"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381719"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Fejlfinding og korrigering af dimensioner
 

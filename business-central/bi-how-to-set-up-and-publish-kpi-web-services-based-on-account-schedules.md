@@ -1,7 +1,7 @@
 ---
 title: Konfigurere og udgive KPI-webtjenester til kontoskemaer
 description: Dette emne beskriver, hvordan du får vist kontoskemaets KPI-data ud fra bestemte kontoskemaer.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 29816a5812ce5d5cfe19b8c27b475ddd2090710f
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: b02b8fe9aeee685f65cf82ad66c9492d241c6711
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335418"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381269"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Konfigurere og udgive KPI-webtjenester, der er baseret på kontoskemaer
 På siden **Konfiguration af webtjenesten Kontoskema, KPI** skal du angive, hvordan kontoskema-KPI-dataene skal vises, og hvilke specifikke kontoskemaer KPI'erne skal baseres på. Når du vælger knappen **Publicer webtjeneste**, føjes de angivne kontoskema-KPI-data til listen over publicerede webtjenester på siden **Webtjenester**.  

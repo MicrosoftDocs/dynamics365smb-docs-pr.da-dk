@@ -1,5 +1,5 @@
 ---
-title: 'Fremgangsmåde: Fortryde bogføring af montage'
+title: Fortryde bogføring af montage
 description: Det kan være nødvendigt at annullere en bogført montageordre, for eksempel fordi ordren er bogført med fejl, der skal rettes.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
+ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 245eaede4bce79fa3626d5a8a8d102b9c190ccaf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b73cad316dacb5170b8f63ce84dd134f505e5c1c
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143760"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383263"
 ---
 # <a name="undo-assembly-posting"></a>Fortryde bogføring af montage
 Nogle gange kan du fortryde en bogført montageordre, for eksempel, når ordren er bogført med fejl, der skal rettes, eller ikke skulle være bogført i første omgang, og den skal annulleres.

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 79498fe0e29a633f7d17a7940148728f544cb2d0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1b3e724a3dd0f6f8dadd0e6c233fd41795bcbfd9
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138514"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366284"
 ---
 # <a name="managing-inventory-costs"></a>Administrere lageromkostninger
 Omkostningsadministration, også kendt som "costing", vedrører registrering og rapportering af virksomhedens driftsomkostninger. Den omfatter rapportering af produktionsomkostninger og lageromkostninger, dvs. værdien af varer.   
@@ -36,7 +36,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Brug særlige prisberegningsfunktioner for daglige transaktioner til operationer for varen.|[Håndtere lager- og produktionsomkostninger](finance-handle-inventory-and-manufacturing-costs.md)|  
 |Opdater regelmæssigt standardkostprisen for komponenter i montage eller produktionsstyklister, og akkumuler de nye omkostninger til den overordnede vare.|[Opdatere standardkostpriser](finance-how-to-update-standard-costs.md)|
 |Se og rediger manuelt visse vareudligningsposter, der oprettes automatisk under lagerposteringer.|[Fjerne og genanvende vareposter](finance-how-to-remove-and-reapply-item-entries.md)|
-|Udfør periodeafslutningskontrol og rapporteringsopgaver som f.eks. beregning af lagerværdi og bogføring af omkostninger i finansregnskabet.|[Rapportere omkostninger og afstemme med regnskabet](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
+|Udfør periodeafslutningskontrol og rapporteringsopgaver som f.eks. beregning af lagerværdi og bogføring af omkostninger i finansregnskabet.|[Rapportere omkostninger og afstemme med regnskabet](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Få mere at vide om, hvordan du kan bruge opgavekøen til at flytte opgaverne for at regulere lageromkostninger eller afstemme den med finansregnskabet i baggrunden.|[Regulere og afstemme lageromkostninger med finansregnskabet med opgavekø](finance-manage-inventory-costs.md)|
 
 ## <a name="see-also"></a>Se også  
