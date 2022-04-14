@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f855080c2e26e7d7ddf4a012164ec91477387e2f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: cd715ac63f9ce7068d5b02fce21e294b7a2231cf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381136"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511489"
 ---
 # <a name="the-quickbooks-payroll-file-import-extension"></a>Udvidelsen Import af QuickBooks-lønfiler
 Brug udvidelsen Import af QuickBooks-lønfiler til at importere lønningstransaktioner fra QuickBooks til finanskonti i [!INCLUDE[prod_short](includes/prod_short.md)]. Dette er f.eks. nyttigt, når du går over fra QuickBooks til [!INCLUDE[prod_short](includes/prod_short.md)], eller hvis du outsourcer din løn, men også ønsker at holde styr på den i [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -29,7 +29,7 @@ Du kan finde flere oplysninger i [Importere løntransaktioner](finance-how-impor
 ## <a name="see-also"></a>Se også
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)    
 [Finans](finance.md)    
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

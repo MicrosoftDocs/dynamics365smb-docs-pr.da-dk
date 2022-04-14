@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d8ca98d4e13d50bcf58f4a66956c33b1d0996f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147108"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528445"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Dele Business Central-poster og Sidelinks i Microsoft Teams
 
@@ -45,7 +45,7 @@ I de følgende afsnit beskrives det, hvordan du bruger de forskellige metoder.
 
 Med Business central-appen til Teams kan du kopiere et link fra en hvilken som helst Business Central-post, som f. eks. en kunde eller salgsordre, og indsætte linket i en Teams-samtale. Appen forbinder Microsoft Teams til dine forretningsdata i [!INCLUDE [prod_short](includes/prod_short.md)]\. Derefter udvides linket til et kompakt, interaktivt kort, der viser oplysninger om posten. Når du er i samtalen, kan du og dine kolleger få vist flere oplysninger om posten, redigere data og handle - uden at forlade&mdash;Teams.
 
-[![Teams-integration med Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams-integration med Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
 ### <a name="prerequisites"></a>Forudsætninger
 
@@ -60,38 +60,36 @@ Med Business central-appen til Teams kan du kopiere et link fra en hvilken som h
 1. Log ind [!INCLUDE [prod_short](includes/prod_short.md)] for at bruge browseren.
 2. Åbn den post, du vil dele.
 
-    Appen er designet til at vise sider med korttyper fra [!INCLUDE [prod_short](includes/prod_short.md)]\. Åbne en side, hvor der vises en enkelt post, f.eks. en vare, kunde eller salgsordre. Du kan ikke bruge den til rollecentre eller sider, hvor der vises flere poster på en liste.
+    Appen er designet til at vise sider med korttyper fra næsten alle typer [!INCLUDE [prod_short](includes/prod_short.md)]-sider. Men det giver den bedste oplevelse, når du bruges til sider, hvor der vises en enkelt post, f. eks. en vare, en kunde eller en salgsordre.
+3. Kopier linket til siden.
 
-3. Kopiere hele URL-adressen fra browserens adresselinje.
+    Der er to måder at kopiere linket på. Den nemmeste og foretrukne måde er at vælge ikonet **Del** ![Del-ikon i Business Central](media/share-icon.png) > **Kopier link**. Du kan også kopiere URL-adressen direkte fra browserens adressefelt.
 
-   ![Kopiere Business Central URL-adresse fra browser.](media/teams-url-v2.png)
+    [![Kopiere Business Central URL-adresse fra browser.](media/teams-copy-link.png)](media/teams-copy-link.png#lightbox)
 4. Gå til Teams, og start en samtale, som kan chatte med en person, en gruppe personer eller en team-kanal.
+5. Indsætte linkets URL-adresse i den meddelelsesboks, hvor du samler en meddelelse.
 
-    <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
-5. Indsætte URL-adressen i den meddelelsesboks, hvor du samler en meddelelse.
+    ![Indsætte Business Central URL-adresse i Teams.](media/teams-paste-url-v2.png)
 
-   ![Indsætte Business Central URL-adresse i Teams.](media/teams-paste-url-v2.png)
+    > [!TIP]
+    > Hvis der vises en meddelelse som f. eks *Business Central vil vise en forhåndsversion af dette link.*, det betyder, at du ikke har installeret Business central-appen til teams. Hvis du vil installere denne app, skal du vælge **Vis forhåndsversion** og følge instruktionerne.
 6. Første gang du indsætter et hyperlink til en samtale, bliver du bedt om at logge på [!INCLUDE [prod_short](includes/prod_short.md)] og give appen tilladelse til at hente data. Du skal blot følge vejledningen på skærmen.
 
     > [!NOTE]
     > Du behøver kun at udføre dette trin én gang.
-
 7. Vent et øjeblik, mens der genereres et kort i meddelelsesboksen.
-
 8. Når kortet vises, skal kortets indhold gennemgås omhyggeligt for alle følsomme oplysninger, før du sender meddelelsen. Dette trin er vigtigt, fordi alle i samtalen kan se kortet, når du har sendt meddelelsen.
-
 9. Hvis kortet ser flot ud, skal vælge **Send** for at sende det til samtalen.
 
     > [!TIP]
     > Når kortet vises, og før du vælger **Send**, kan du slette den indsatte URL-adresse, hvis du vil.
-
 10. Hvis du vil have vist flere detaljer eller foretage ændringer i posten, skal du vælge **Detaljer**. Der er flere oplysninger i næste sektion.
 
 ### <a name="view-card-details"></a>Vis kortdetaljer
 
 Når et kort er sendt til en samtale, kan alle deltagere med de [rette tilladelser](admin-teams-integration.md#permissions) vælge **Detaljer** for at åbne et vindue, der indeholder flere oplysninger om posten&mdash;og muligvis foretage ændringer af posten. Det betyder ikke noget, hvis du er det, der afsender kortet, eller den, der modtagerkortet. Funktionen **Detaljer** er især nyttig for modtagere, da den hurtigt leverer præcise, målrettede oplysninger om posten i modsætning til at skulle scanne hele posten.
 
-Vinduet Detaljer svarer til det, du kan se i posten [!INCLUDE [prod_short](includes/prod_short.md)]. Men det er en smule beskåret for grupper. Når du er færdig med at gennemse og foretage ændringer, skal du lukke vinduet for at vende tilbage til samtalerne med team.
+Vinduet detaljer svarer til det, du kan se i [!INCLUDE [prod_short](includes/prod_short.md)], men det er fokuseret på siden eller posten, som kortet vedrører. Når du er færdig med at gennemse og foretage ændringer, skal du lukke vinduet for at vende tilbage til samtalerne med team.
 
 Her er et par ting, du skal være opmærksom på, når du arbejder med kort detaljer:
 

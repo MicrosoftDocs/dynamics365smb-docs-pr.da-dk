@@ -1,22 +1,23 @@
 ---
 title: Administration af OneDrive-integration med Business Central
 description: Få mere at vide om, hvad du kan gøre for at administrere en integration mellem Business Central og OneDrive for Business.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OneDrive, share, browser
-ms.date: 05/12/2021
-ms.author: bholtorf
-ms.openlocfilehash: 5debd01f9d26e5e1dc1abc1a0123073d0f7ee234
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.date: 02/28/2022
+ms.author: jswymer
+ms.openlocfilehash: 7f630f8c13f692889f1d8526698d42633c42a4ee
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382867"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514591"
 ---
-# <a name="managing-onedrive-integration-with-business-central"></a>Administration af OneDrive-integration med Business Central 
+# <a name="managing-onedrive-integration-with-business-central"></a>Administration af OneDrive-integration med Business Central
+
 Denne artikel giver en oversigt over, hvad en administrator kan gøre for at kontrollere OneDrive for Business-integration med [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[prod_short](includes/prod_short.md)]-onlinekunder drager fordel af automatisk integration, uden at der kræves yderligere opsætning for at bruge disse funktioner. 
 
 ## <a name="minimum-requirements"></a>Minimumkrav
@@ -25,6 +26,7 @@ Denne artikel giver en oversigt over, hvad en administrator kan gøre for at kon
 * OneDrive skal konfigureres for hver bruger.
 
 ## <a name="governance"></a>Styreformer
+
 SharePoint Administrationen giver omfattende kontrol over politikker, der styrer brugen af OneDrive i hele organisationen. Globale administratorer eller brugere, der har SharePoint-rollen Administrator, kan konfigurere politikker, der bestemmer, hvem der kan få adgang til OneDrive, hvor data er placeret, indholdslivscyklussen og meget mere. Følgende links indeholder oplysninger om ofte anvendte funktioner og indstillinger, der kan forbedre integrationen med [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 * [Administrere delingsindstillinger](/sharepoint/turn-external-sharing-on-or-off)
@@ -39,9 +41,11 @@ SharePoint Administrationen giver omfattende kontrol over politikker, der styrer
 > Nogle funktioner er muligvis kun tilgængelige for bestemte planer.
 
 ## <a name="managing-privacy"></a>Administration af beskyttelse af personlige oplysninger
+
 Administratorer og slutbrugere styrer det indhold, der er gemt i OneDrive, og disse data ejes udelukkende af organisationen. Du kan finde flere oplysninger under [Sådan beskytter SharePoint og OneDrive dine data i skyen](/sharepoint/safeguarding-your-data). Du kan også besøge vores [Microsoft Erklæring om beskyttelse af personlige oplysninger fra](https://privacy.microsoft.com/en-us/privacystatement), som forklarer de data, som Microsoft behandler, hvordan Microsoft behandler dem, og til hvilke formål.
 
 ## <a name="restoring-onedrive-and-prod_short"></a>Gendannelse af OneDrive og [!INCLUDE[prod_short](includes/prod_short.md)]
+
 Som en del af en øvelse i genoprettelse efter nedbrud skal administratorer muligvis gendanne et [!INCLUDE[prod_short](includes/prod_short.md)]-miljø til en sikkerhedskopi fra et tidspunkt tidligere og synkronisere OneDrive-lageret til det samme tidspunkt. OneDrive indeholder forskellige værktøjer til dette, f. eks. gendannelse af en brugers OneDrive til en tidligere tidsperiode, gendannelse af en tidligere version af en enkelt fil eller gendannelse af slettede filer. Du kan finde flere oplysninger i følgende artikler:
 
 * For [!INCLUDE[prod_short](includes/prod_short.md)], se [Gendanne et miljø i Administration](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
@@ -70,6 +74,11 @@ En administrator skal oprette forbindelsen mellem [!INCLUDE[prod_short](includes
 Tilføj et registreret program til Business Central i din Azure AD-lejer med din Microsoft 365-plan. Ligesom andre Azure-tjenester, der fungerer sammen med Business Central, OneDrive, kræves en appregistrering i Azure Active Directory (Azure AD). Appregistreringen leverer godkendelses- og autorisationstjenester mellem Business Central og SharePoint, der anvendes af OneDrive.
 
 Konfigurer det registrerede program med følgende uddelegerede tilladelser til SharePoint-API:
+
+- AllSites.FullControl
+- User.ReadWrite.All 
+
+For Business central 2021 udgivelsesbølge 2 (version 19) skal du angive disse tilladelser i stedet for:
 
 - AllSites.Write
 - MyFiles.Write

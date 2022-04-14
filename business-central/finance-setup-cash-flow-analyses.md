@@ -10,12 +10,12 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.search.form: 846, 847, 849, 851, 855, 862, 869, 1818
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 21a9fb4f38b6960389ec216e638cf06694eca07a
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a79299d835b7a5af06edf16119f037cdaf610311
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381402"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515611"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Opsætning af pengestrømsanalyse
 Hvis du vil have hjælp til at beslutte, hvad du skal gøre med dine likvide midler, kan du få et overblik vha. diagrammerne i rollecenteret Regnskabsmedarbejder:  
@@ -130,7 +130,7 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 
 [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

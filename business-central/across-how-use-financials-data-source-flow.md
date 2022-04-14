@@ -9,14 +9,14 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, work
 ms.date: 07/27/2021
 ms.author: edupont
 author: jswymer
-ms.openlocfilehash: 7335092e74c0f681ba14a81a7045f2688fbb1df4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 62718df1c80cb419501b72bcbdb6d7a6f9f18402
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133352"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518463"
 ---
-# <a name="using-prod_short-in-an-automated-workflow"></a>Bruge [!INCLUDE[prod_short](includes/prod_short.md)] i et automatisk workflow
+# <a name="use-prod_short-in-an-automated-workflow"></a>Bruge [!INCLUDE[prod_short](includes/prod_short.md)] i et automatisk workflow
 
 Du kan bruge dine [!INCLUDE[prod_short](includes/prod_short.md)]-data som en del af en arbejdsproces i Microsoft Power Automate.
 

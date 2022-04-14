@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/20/2021
 ms.author: edupont
-ms.openlocfilehash: edf08dfd87596da0a2c052651e323963ff13ce6a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c2c3e7cd0e9f5ae88e63bd305927a20341e7559b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128876"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513092"
 ---
 # <a name="design-details-expected-cost-posting"></a>Designoplysninger: Bogføring af forventet kostpris
 Forventede kostpriser repræsenterer et overslag over f.eks. en købt vares omkostninger, som du registrerer, før du modtager fakturaen for varen.  
@@ -99,7 +99,7 @@ Du kan bogføre en købsordre som modtaget. Den forventede kostpris er 95,00 RV.
  [Designoplysninger: Afvigelse](design-details-variance.md)  
  [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

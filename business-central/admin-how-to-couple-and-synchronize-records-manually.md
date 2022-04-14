@@ -10,12 +10,12 @@ ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.search.form: 6250
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4caf32bb0c7b4471809d8af3b899329c571d144f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2bc46e165018d29684b116f7aac3745c9d533c42
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381586"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517598"
 ---
 # <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Kobling og synkronisering af poster mellem Dataverse og Business Central
 
@@ -66,7 +66,7 @@ Du kan angive de data, der skal synkroniseres for et objekt, f.eks. kunde eller 
 Du kan fjerne frakoble en eller flere poster fra listesider eller siden **Koblede datasynkroniseringsfejl** ved at vælge en eller flere linjer og vælge **Slet kobling**. Du kan også fjerne alle koblinger for en eller flere tabeltilknytninger på siden **Tilknytninger til integrationstabel**.
 
 ## <a name="see-also"></a>Se også  
-[Bruge Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md)
+[Brug Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

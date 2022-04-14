@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: fb191de84dac161a6b3db95396e7f0b2b5f2ce40
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e3f1e3f63c8e27d081a89f6d8626b8b392a6e02b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142850"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519540"
 ---
 # <a name="manage-attachments-links-and-notes-on-cards-and-documents"></a>Administrere vedhæftede filer, links og noter på kort og dokumenter
 
@@ -96,7 +96,7 @@ Følgende procedure er baseret på en salgsordre. Trinene er de samme for alle a
 Noten knyttes nu til salgsordren.
 
 ## <a name="see-also"></a>Se også  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Indgående bilag](across-income-documents.md)  
 [Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)  
 

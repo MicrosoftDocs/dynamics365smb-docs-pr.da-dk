@@ -1,6 +1,6 @@
 ---
 title: Afstemme betalinger fra debitorer med indbetalingskladden eller fra debitorposter
-description: Bruges til at udligne debitorindbetalinger eller refusioner til en eller flere åbne debitorposter og afstemme betalinger fra debitorer.
+description: Bruges til at udligne debitorindbetalinger eller refusioner til en eller flere åbne debitorposter. Dette er en del af afstemning af debitorbetalinger.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -10,16 +10,16 @@ ms.search.keywords: payment process, cash receipt
 ms.search.form: 25, 255
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3225ec2a441bde12abb5dd008c58f5a82fc96770
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: b41c8558c29bcc14edfe1d84cfadc2fdcc95865d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367068"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513753"
 ---
 # <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Afstemme betalinger fra debitorer med indbetalingskladden eller fra debitorposter
 
-Når du modtager en kontaktrefusion fra en debitor, eller du foretager en kontantrefusion, skal du vælge, om betalingen skal udlignes eller refunderes for at lukke en eller flere åbne debet- eller kreditposter. Du kan angive det beløb, du vil udligne. Du kan f.eks. udligne delbetalinger til debitorposter. Når du lukker debitorposter, sikrer du, at oplysninger som debitorstatistik, kontoudtog og rentenotaer er korrekte.
+Når du modtager en kontantbetaling fra en debitor, eller du foretager en kontantrefusion, skal du vælge, om betalingen skal lukke en eller flere åbne debet- eller kreditposter. Du kan angive det beløb, du vil udligne. Du kan f.eks. udligne delbetalinger til debitorposter. Når du lukker debitorposter, sikrer du, at oplysninger som debitorstatistik, kontoudtog og rentenotaer er opdaterede.
 
 > [!TIP]  
 >   På siden **Debitorposter** betyder rød skrift, at den tilhørende betaling har overskredet forfaldsdatoen. Hvis forfaldne beløb bliver et problem, kan vi hjælpe dig med at reducere hyppigheden af dem. Du kan aktivere udvidelsen **Forudsigelser af forsinkede betalinger**, som bruger en forudsigelsesmodel, der blev udviklet i Azure Machine Learning til at forudsige tidspunktet for betalinger. Disse forudsigelser hjælper dig med at reducere udestående tilgodehavender og finjustere din indsamlingsstrategi. Hvis der f.eks. forudsiges en forsinkelse af en betaling, kan du vælge at justere betingelserne for betalingen eller betalingsmetoden for kunden. Du kan finde flere oplysninger i [Forudsigelser af forsinkede betalinger](ui-extensions-late-payment-prediction.md).  
@@ -29,15 +29,16 @@ Du kan udligne debitorposter på forskellige måder:
 * Når du angiver oplysninger på dedikerede sider:
     * Siden **Betalingsudligningskladde**. Du kan finde flere oplysninger i [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
     * Siden **Betalingsregistrering**. Du kan finde flere oplysninger i [Afstemme debitorbetalinger på en liste over ubetalte salgsdokumenter](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md).
-    * **Indbetalingskladde**. Dette beskrives nedenfor.
-* Ved at udfylde feltet **Udligningsbilagsnr.** på salgskreditnotadokumenter. Dette beskrives nedenfor.
-* Ved hjælp af handlingen **Sæt udlignings-id** på en debitorpost. Dette beskrives nedenfor.
+    * **Indbetalingskladde**. Denne indstilling beskrives nedenfor.
+* Ved at udfylde feltet **Udligningsbilagsnr.** på salgskreditnotadokumenter. Denne indstilling beskrives nedenfor.
+* Ved hjælp af handlingen **Sæt udlignings-id** på en debitorpost. Denne indstilling beskrives nedenfor.
+* Ved at bruge handlingen **Udlign poster** på siden **Bankindbetalinger** og derefter angive fakturanummeret i feltet **Udlignings-id**. Du kan finde flere oplysninger i [Oprette bankindskud](bank-create-bank-deposits.md).
 
 > [!NOTE]  
 >   Hvis feltet **Udligningsmetode** på debitorkortet indeholder **Saldo**, bliver betalinger automatisk udlignet til den ældste åbne kreditpost, medmindre du foretager en manuel angivelse. Hvis udligningsmetoden er **Manuel**, skal du altid udligne posterne manuelt.
 
 ## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Sådan udfyldes og bogføres en indbetalingskladde
-Indbetalingskladden er en form for finanskladde, og derfor kan den bruges, når der bogføres transaktioner til finans-, bank-, debitor-, kreditor- og anlægskonti. Du kan anvende betalingen på en eller flere debetposteringer, når du bogfører betalingen, eller du kan anvende fra de bogførte posteringer senere.
+Indbetalingskladden er en type finanskladde. Du kan bruge det til at bogføre på finanskonti, bankkonti, debitor- og kreditorkonti og anlægskonti. Du kan anvende betalingen på en eller flere debetposteringer, når du bogfører betalingen. Du kan også udligne fra de bogførte posteringer senere.
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Indbetalingskladde**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Rediger kladde**.
 3. Vælg den ønskede kladde i feltet **Kladdenavn**.
@@ -65,7 +66,7 @@ Indbetalingskladden er en form for finanskladde, og derfor kan den bruges, når 
 9. I feltet **Beløb, der skal udlignes** skal du indtaste det beløb, som du vil udligne med posten. Hvis du ikke indtaster et beløb, udlignes der med det maksimale beløb.
 
     Nederst på siden **Udlign debitorposter** kan du se det specifikke beløb i feltet **Udligningsbeløb**, og også om udligningen balancerer.  
-10. Vælg knappen **OK**. Siden **Indbetalingskladde** viser nu posten, som du valgte, i felterne **Udligningsbilagstype** og **Udligningsbilagsnr.**.
+10. Vælg knappen **OK**. Siden **Indbetalingskladde** viser nu posten i felterne **Udligningsbilagstype** og **Udligningsbilagsnr.**.
 11. Bogfør indbetalingskladden.
 
 ## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Sådan udlignes en betaling med flere debitorposter:
@@ -128,7 +129,7 @@ På oversigten over poster kan du se, at afkrydsningsfeltet **Åben** ikke er ma
 ## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a>Sådan udlignes debitorposter i andre valutaer med hinanden
 Hvis du sælger til en debitor i en valuta og modtager betaling i en anden, kan du stadig knytte fakturaen til betalingen.  
 
-Hvis du udligner en post (post 1) i en valuta med en post (post 2) i en anden valuta, anvendes bogføringsdatoen i post 1 til at finde relevante valutakurser til at konvertere beløb i post 2. Den relevante valutakurs findes på siden **Valutakurser**.  
+Her er et eksempel. Du udligner post 1 i én valuta til post 2 i en anden valuta. Bogføringsdatoen i post 1 bruges til at finde den valutakurs, der skal bruges til omregning af beløb i post 2. Den relevante valutakurs findes på siden **Valutakurser**.  
 
 Udligning af debitorposter i andre valutaer skal være aktiveret. Du kan finde flere oplysninger i [Aktivere anvendelsen af finansposter i forskellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md).  
 
@@ -143,7 +144,7 @@ Udligning af debitorposter i andre valutaer skal være aktiveret. Du kan finde f
 >   Når du udligner poster i forskellige valutaer, konverteres posterne til RV. Selvom valutakursen for de to valutaer er fast, f.eks. mellem USD og EUR, kan der være et lille restbeløb, når de konverteres til RV. Disse små restbeløb bogføres som gevinst og tab på den konto, der er angivet i feltet **Realiseret gevinstkonto** eller feltet **Realiseret tabskonto** på siden **Valutaer**. Feltet **Beløb (RV)** tilpasses også på kreditorposter.  
 
 ## <a name="to-correct-an-application-of-customer-entries"></a>Sådan rettes en udligning af debitorposter
-Hvis du retter en udligning, oprettes og bogføres der automatisk korrigerende poster, der er identiske med den oprindelige post, men med modsat fortegn i beløbsfeltet for alle poster, inklusive alle finansbogføringsposter, der blev afledt af udligningen, f.eks. kontantrabat og kursgevinst/tab. Alle poster, der blev lukket af programmet, genåbnes.  
+Når du retter en udligning, oprettes der korrigerende poster, som bogføres for alle poster. De korrigerende poster er de samme som originalerne, men har en modsat log i feltet **Beløb**. De korrigerende poster omfatter alle finansposter, der er afledt af udligningen. F.eks. kontantrabatten og tab/gevinst. Alle poster, der blev lukket af programmet, genåbnes.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
 2. Åbn det relevante debitorkort.
@@ -159,7 +160,7 @@ Hvis du retter en udligning, oprettes og bogføres der automatisk korrigerende p
 ## <a name="see-also"></a>Se også
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

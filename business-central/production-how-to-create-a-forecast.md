@@ -7,22 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 9245, 99000919, 99000921, 99000922
-ms.date: 06/22/2021
+ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 2992aaf0d28f6d46bdd942465659760f0622ac0b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5f734667385dcc1e26a4ace4903a88414ff12348
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140939"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512910"
 ---
 # <a name="create-a-demand-forecast"></a>Oprette en behovsprognose
 
-Du kan oprette salgs- og produktionsforecasts vha. siden **Behovsprognose**.  
+Du kan oprette salgs- og produktionsforecasts vha. siden **Behovsprognoser**. Derefter skal du for hvert forecast angive forskellige indstillinger for budgettet på siden **Oversigt over behovsprognose**.  
 
-Prognosefunktionaliteten anvendes til oprettelse af forventet behov; faktisk behov oprettes fra salgs- og produktionsordrer. I forbindelse med oprettelsen af hovedplanen modregnes et forecast i salgs- og produktionsordrerne. Indstillingen *Komponent* i forecastet afgør, hvilken behovstype der skal tages højde for i forbindelse med modregningen. Hvis forecastet omhandler en salgsvare, er det kun salgsordrer, der sammenholdes med forecastantallet. Hvis det er for komponenter, sammenfattes forecastet kun fra afhængigt behov fra produktionsordrekomponenter.  
+Prognosefunktionaliteten anvendes til oprettelse af forventet behov; faktisk behov oprettes fra salgs- og produktionsordrer. I forbindelse med oprettelsen af hovedplanen modregnes et forecast i salgs- og produktionsordrerne. Feltet **Prognosetype** i forecastet afgør, hvilken behovstype der skal tages højde for i forbindelse med modregningen. Hvis forecastet omhandler en *salgsvare*, er det kun salgsordrer, der sammenholdes med forecastantallet. Hvis det er for *komponenter*, sammenfattes forecastet kun fra afhængigt behov fra produktionsordrekomponenter.  
 
 Ved at udnytte forecastfunktionaliteten kan en virksomhed oprette "hvad nu hvis"-scenarier og dermed både effektivt og uden ressourcespild planlægge, tage højde for og imødekomme behov. Et nøjagtigt forecast kan være netop det, der afgør, om virksomheden kan overholde den aftalte leveringstid, levere de bestilte varer til tiden og gøre kunden tilfreds.  
+
+Med 2022 udgivelsesbølge 1 kan du også angive det rigtige detaljeringsniveau i felterne **Forecast efter lokation** og **Forecast efter variant** på siden **Oversigt over behovsprognose**. Filtre og andre indstillinger gemmes i tabellen **Behovsprognosenavn**. Så du nemt kan stoppe og fortsætte arbejdet senere. Hvis organisationen er blevet opdateret til 2022 udgivelsesbølge 1, skal du skifte til den nye oplevelse på siden [Funktionsadministration](admin-feature-management.md).  
 
 ## <a name="sales-forecasts-and-production-forecasts"></a>Salgsforecast og produktionsforecast
 
@@ -33,7 +35,10 @@ Du kan oprette kombinerede eller uafhængige salgs- eller produktionsforecasts m
 
 I de fleste tilfælde vil den person, der har ansvaret for produktionsplanlægningen, derfor redigere et salgsforecast, så det passer til de betingelser, der gælder for produktionen, men uden at det betyder, at salgsforecastet ikke længere er nøjagtigt.  
 
-Du kan oprette forecasts manuelt på siden **Behovsprognose**. Der kan være flere forecasts i systemet, som identificeres vha. deres navn og type. Et forecast kan kopieres og redigeres efter behov. Bemærk, at der på et givet tidspunkt kun er ét forecast, der kan bruges til planlægningsformål.  
+Du kan oprette forecasts manuelt på siden **Behovsprognose**. Der kan være flere forecasts i systemet, som identificeres vha. deres navn og type. Et forecast kan kopieres og redigeres efter behov. 
+
+> [!NOTE]
+> På et givet tidspunkt kun er ét forecast, der kan bruges til planlægningsformål.
 
 Et forecast består af en række oplysninger som varenummer, forecastdato og forecastantal. Et forecast for en vare dækker en periode, der afgrænses af den angivne forecastdato og forecastdatoen for den næste (eller forrige) forecastpost. Set fra et planlægningssynspunkt bør forecastantallet være til rådighed fra starten på behovsperioden.  
 
@@ -113,7 +118,7 @@ Derefter skal du oprette en salgsordre med et antal på 12 på lokationen WEST. 
 [Køb](purchasing-manage-purchasing.md)  
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
 [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

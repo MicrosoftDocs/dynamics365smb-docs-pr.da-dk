@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
 ms.date: 07/06/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7ca67e062f2ea6720d0aa7cbf196fd2c6e612159
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: be2f6e3efdfd34d59c55a3addeefb5646454b3bb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382613"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516261"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Foretage betalinger med AMC Banking 365 Fundamentals-udvidelsen eller SEPA-kreditoverførsel
 
@@ -31,7 +31,7 @@ På sien **Udbetalingskladde** kan du behandle betalinger til dine kreditorer ve
 
 ## <a name="setting-up-the-amc-banking-365-fundamentals-extension"></a>Konfigurere AMC Banking 365 Fundamentals-udvidelsen
 
-Aktivér AMC Banking 365 Fundamentals-udvidelsen for at konvertere en fil med bankkontoudtog til et format, som du kan importere, eller for at få dine eksporterede betalingsfiler konverteret tilbage til det format, som din bank kræver. Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md).
+Aktivér AMC Banking 365 Fundamentals-udvidelsen for at konvertere en fil med bankkontoudtog til et format, som du kan importere, eller for at få dine eksporterede betalingsfiler konverteret tilbage til det format, som din bank kræver. Du kan finde flere oplysninger i [Brug AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md).
 
 ## <a name="setting-up-sepa-credit-transfer"></a>Konfigurere SEPA-kreditoverførsel
 
@@ -156,7 +156,7 @@ Når elektronisk betaling er behandlet af banken, kan du bogføre betalingerne. 
 
 ## <a name="see-also"></a>Se også
 
-[Brug af AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)  
+[Brug AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)  

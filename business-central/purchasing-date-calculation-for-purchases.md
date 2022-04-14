@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 5c9a0c61b2f02e3f3750c3d8c23153df2634299d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35151e830c44cb3edd28988887f86b8abf7a3b51
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132702"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514877"
 ---
 # <a name="date-calculation-for-purchases"></a>Beregning af forfaldsdato for køb
 
@@ -58,7 +58,7 @@ Men værdien af leveringstiden på kreditorkortet bruges kun, hvis der ikke er a
 
 [Beregning af forfaldsdato for salg](sales-date-calculation-for-sales.md)   
 [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

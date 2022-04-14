@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b4ec7a008c58256a8b7a351d8ee6890ad43fb00a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 012fe136161d891cb4adde6ace120040f7da909a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136973"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513675"
 ---
 # <a name="set-up-shipping-agents"></a>Oprette speditører
 Du kan angive en kode for hver speditør og angive oplysninger om dem.  
@@ -43,7 +43,7 @@ Når du har tilknyttet en speditørservice til salgsordrelinjen, medtages transp
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
 [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

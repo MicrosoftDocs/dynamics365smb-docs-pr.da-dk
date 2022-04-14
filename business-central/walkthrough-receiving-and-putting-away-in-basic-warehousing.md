@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cca66a1e693e63b1d83b6d37d3f8c2957b3edf46
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 17de3630859cec7a8ce14eb079cae3d60e5e66e6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144511"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520096"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger
 
@@ -146,7 +146,7 @@ På siden **Læg-på-lager** kan du administrere alle indgående lageraktivitete
  [Flytte varer ad hoc i grundlæggende lageropsætninger](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)   
  [Designoplysninger: Indgående lagerflow](design-details-inbound-warehouse-flow.md)   
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

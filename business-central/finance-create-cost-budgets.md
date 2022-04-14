@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d64704caee7c808cd2197adf2994a7b1abb4ea7f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 56757c07ae0bbc41ae2ac9fad6bc3318a1d0ab93
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145676"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520408"
 ---
 # <a name="creating-cost-budgets"></a>Oprette omkostningsbudgetter
 
@@ -38,7 +38,7 @@ Brug følgende sider til at oprette og analysere omkostningsbudgetter. Vælg ![L
 [Oprette finansbudgetter](finance-how-create-budgets.md)  
 [Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)   
 [Definere og allokere omkostninger](finance-define-and-allocate-costs.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

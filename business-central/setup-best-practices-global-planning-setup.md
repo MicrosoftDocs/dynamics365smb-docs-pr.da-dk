@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0220502f0c338ead004f5ed7ce704508a780a9f5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a611abd26fd643e75d01aeaefb22a4d0083d5003
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146146"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510631"
 ---
 # <a name="setup-best-practices-global-planning-setup"></a>Konfigurere bedste fremgangsmåder: Global planlægningsopsætning
 Oversigtpanelet **Planlægning** på siden **Produktionsopsætning** indeholder flere felter, der definerer globale regler for forsyningsplanlægning.  
@@ -33,7 +33,7 @@ Oversigtpanelet **Planlægning** på siden **Produktionsopsætning** indeholder 
  [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)   
  [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
  [Opret komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

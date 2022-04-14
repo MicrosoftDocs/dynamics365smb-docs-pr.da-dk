@@ -1,22 +1,21 @@
 ---
-title: Angive kontakterne i en målgruppe | Microsoft Docs
+title: Tilføje kontakter til målgrupper
 description: Når du har oprettet en målgruppe, kan du føje kontakter til målgruppen, f.eks. som en del af en marketingkampagne, der er henvendt til bestemte kunder.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
+ms.search.form: 5091, 5093
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 975a6e769bbba3a32451fc1e9fda54da9cad401b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d285e384ceef9e78fca764fdffaabb3ff439ea02
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135207"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519065"
 ---
 # <a name="add-contacts-to-segments"></a>Tilføje kontakter til målgrupper
 Når du har oprettet en målgruppe og angivet grundlæggende oplysninger om den, vil du muligvis gerne tilføje kontakter til målgruppen. Du kan gøre dette ved at udfylde linjerne på siden **Målgruppe** manuelt, men det er lettere og hurtigere at bruge handlingen **Tilføj kontakter**.
@@ -56,7 +55,7 @@ Der er ingen begrænsninger på, hvor mange gange du kan fjerne kontakter fra en
 [Oprette en målgruppe](marketing-how-create-segment.md)   
 [Administrere målgrupper](marketing-segments.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

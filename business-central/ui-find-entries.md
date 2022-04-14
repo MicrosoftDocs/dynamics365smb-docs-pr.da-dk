@@ -10,12 +10,12 @@ ms.search.keywords: find
 ms.search.form: 344, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b77a8508d921f885276d3e0b7956d7785b7f29cb
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 6e6e6f6f622d1938fb2195bc2dde2c2ba689a59f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322976"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517683"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Finde relaterede poster for bogførte bilag 
 
@@ -29,7 +29,7 @@ Funktionen er især nyttig til at finde finansposter, der er oprettet som result
 
 ## <a name="get-started"></a>Kom i gang
 
-Du kan få adgang til funktionen Find poster på de fleste sider, hvor der vises bogførte dokumenter eller bogførte bilag, for både lister og kort. Det første trin er at åbne en af disse sider. Derefter skal du enten vælge handlingen **Find poster** eller trykke på alt+G-tasterne.
+Du kan få adgang til funktionen Find poster på de fleste sider, hvor der vises bogførte dokumenter eller bogførte bilag, for både lister og kort. Det første trin er at åbne en af disse sider. Derefter skal du enten vælge handlingen **Find poster** eller trykke på Ctrl+alt+G-tasterne.
 
 Siden **Find poster** indeholder alle relaterede dokumenter og poster, der er baseret på bilagsnr. og bogføringsdato. Siden er inddelt i tre sektioner:
 
@@ -69,7 +69,7 @@ Når du har foretaget en markering, skal du indtaste de relevante søgeoplysning
 > [!TIP]
 > Du kan se et par eksempler på brug af **Søg poster** under [Sporing af varesporede elementer](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

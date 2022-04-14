@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: dfae531d49166d3a95c841cfc27e7f73e181072d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383133"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515741"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Tilknytning af tabeller og felter til synkronisering
 
@@ -85,7 +85,7 @@ SÆLGERE – Dynamics 365 Sales-synkroniseringsjob bruger f.eks. tabeltilknytnin
 
 2.  Fjern markeringen i feltet **Synkroniser kun sammenkædede records** i tabeltilknytningsposten på listen.  
 
-## <a name="using-configuration-templates-on-table-mappings"></a>Brug af konfigurationsskabeloner på tabeltilknytninger
+## <a name="use-configuration-templates-on-table-mappings"></a>Brug konfigurationsskabeloner på tabeltilknytninger
 Du kan tildele konfigurationsskabeloner til tabeltilknytninger og bruge dem til nye rækker, der oprettes i [!INCLUDE[prod_short](includes/prod_short.md)] eller [!INCLUDE[prod_short](includes/cds_long_md.md)]. For hver tabeltilknytning kan du angive en konfigurationsskabelon, som skal bruges til nye [!INCLUDE[prod_short](includes/prod_short.md)]-rækker, og en anden skabelon, du vil bruge til nye [!INCLUDE[prod_short](includes/cds_long_md.md)]-rækker.  
 
 Hvis du installerer standardsynkroniseringsopsætningen, oprettes og bruges der for det meste to skabeloner automatisk i tabeltilknytningen for [!INCLUDE[prod_short](includes/prod_short.md)]-kunder og [!INCLUDE[crm_md](includes/crm_md.md)]-konti: **CDSCUST** og **CDSACCOUNT**.  

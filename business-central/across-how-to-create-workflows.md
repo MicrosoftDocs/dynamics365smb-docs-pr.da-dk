@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: d7dc36d95a458e6edfa303540c97c2f4fb57da78
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: eb733e1d157e509ce7bbe4ee2fa4db682dae3980
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131004"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521276"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Oprette arbejdsprocesser for at forbinde virksomhedsbehandlingsopgaver
 
@@ -104,7 +104,7 @@ Hændelserne er systemdefinerede for begge typer hændelser. Nye hændelser skal
     >  Du kan kun ændre indrykningen af et trin, der ikke har et efterfølgende trin.  
 
 12. Gentag trin 7 til 11 for at tilføje flere arbejdsgang trin, før eller efter det trin, du lige har oprettet.  
-13. Markér afkrydsningsfeltet **Aktiveret** for at angive, at workflowet starter, så snart hændelsen på det første trin af typen **Startpunkt** nås. Der er flere oplysninger i [Anvende workflows](across-use-workflows.md).  
+13. Markér afkrydsningsfeltet **Aktiveret** for at angive, at workflowet starter, så snart hændelsen på det første trin af typen **Startpunkt** nås. Der er flere oplysninger i [Brug arbejdsgange](across-use-workflows.md).  
 
 > [!NOTE]  
 > Undlad at aktivere en arbejdsgang, før du er sikker på, at arbejdsgangen er fuldført, og at arbejdsgangstrin involveret kan begynde.  
@@ -188,7 +188,7 @@ Derefter skal du afprøve arbejdsgangen ved at åbne en eksisterende kreditor og
 [Slette arbejdsgange](across-how-to-delete-workflows.md)  
 [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Opsætte workflows](across-set-up-workflows.md)  
-[Anvende workflows](across-use-workflows.md)  
+[Bruge arbejdsgange](across-use-workflows.md)  
 [Workflow](across-workflow.md)  
 
 

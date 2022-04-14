@@ -10,12 +10,12 @@ ms.search.keywords: trade, sell
 ms.search.form: 253
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: de181f3f2cd074eeeef96306c61735b2e3ad96c9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8601153fc7bd813b3baa1c0ff7ebe0768d467dc0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128519"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518883"
 ---
 # <a name="sales"></a>Salg
 Du opretter en salgsfaktura eller salgsordre for at registrere din aftale med en debitor om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser.
@@ -28,13 +28,13 @@ Du kan nemt rette eller annullere en bogført salgsfaktura, før den er betalt. 
 
 Gode fremgangsmåder ved salg og marketing drejer sig primært om, hvordan du træffer de bedste beslutninger på det rigtige tidspunkt. Microsoft-funktioner i [!INCLUDE[prod_short](includes/prod_short.md)] giver dig en præcis oversigt over dine kontaktoplysninger, så du kan betjene dine potentielle kunder mere effektivt og øge kundetilfredsheden. Du kan finde flere oplysninger i [Relationsstyring](marketing-relationship-management.md).
 
-Hvis du bruger Dynamics 365 Sales for Customer Engagement, kan du nyde godt af problemfri integration i lead-til-kontant-processen ved hjælp af Business Central for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og styring af økonomien. Du kan finde flere oplysninger i [Bruge Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md).
+Hvis du bruger Dynamics 365 Sales for Customer Engagement, kan du nyde godt af problemfri integration i lead-til-kontant-processen ved hjælp af Business Central for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og styring af økonomien. Du kan finde flere oplysninger i [Brug Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md).
 
 I de situationer, hvor debitoren skal betale, før produkterne leveres, f.eks i detailbranchen, skal du vente på betalingsmodtagelse, før du leverer produkterne. I de fleste tilfælde kan du behandle indgående betalinger nogle uger efter levering ved at udligne betalingerne på de relaterede bogførte ubetalte salgsfakturaer. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 
 Salgsdokumenter kan sendes som PDF-filer, der er vedhæftet i en mail. Brødteksten i mailen indeholder et uddrag af salgsdokumentet, f.eks produkter, samlet beløb og et link til webstedet PayPal. Du kan finde flere oplysninger i [Sende dokumenter via mail](ui-how-send-documents-email.md).
 
-Ved alle salgsprocesser kan du inkludere et godkendelsesworkflow, f.eks. for at kræve, at store salg til bestemte kunder godkendes af regnskabschefen. Der er flere oplysninger i [Anvende workflows](across-use-workflows.md).
+Ved alle salgsprocesser kan du inkludere et godkendelsesworkflow, f.eks. for at kræve, at store salg til bestemte kunder godkendes af regnskabschefen. Der er flere oplysninger i [Brug arbejdsgange](across-use-workflows.md).
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
@@ -65,7 +65,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Projektstyring](projects-manage-projects.md)    
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

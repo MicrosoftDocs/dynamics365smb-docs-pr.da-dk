@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Denmark, local, DK, Danish
 ms.date: 06/18/2021
 ms.author: soalex
-ms.openlocfilehash: b7066b6c7971b554cf8c0b0839138bc8cedf47a5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 91c6e95cb08f9abd94ecde6b1274784d69437187
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140045"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522504"
 ---
 # <a name="denmark-local-functionality"></a>Lokal funktionalitet for Danmark
 
@@ -42,7 +42,7 @@ Følgende emne beskriver den lokale funktionalitet i den danske version af [!INC
 
 ## <a name="see-also"></a>Se også
 
-[Arbejde med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Tilgængelighed i land/område og understøttede sprog](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  

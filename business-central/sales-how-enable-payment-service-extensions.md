@@ -10,12 +10,12 @@ ms.search.keywords: online payment
 ms.search.forms: 1060, 1061, 1062
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 33f15301e65bdb187bfb4a4b0e6389e827aee2e3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 872b261e482a1d54839443f02a25fac8f191855c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139413"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520704"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Aktivere debitorbetalinger via betalingstjenester
 Som et alternativ til opkrævning af betalinger via bankoverførsel eller kreditkort kan dine kunder betale dig via deres konto hos betalingstjenester som PayPal eller WorldPay.  
@@ -44,7 +44,7 @@ PayPal Payments Standard- og WorldPay Payments Standard-udvidelserne installeres
 [Konfigurere salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

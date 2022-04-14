@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8c4cca41beb49c05568d6e0c1c21946bb493e30b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6046562a16bd1f9736bd10bea5c4bda397d99df1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145390"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512175"
 ---
 # <a name="set-up-salespeople"></a>Konfigurere sælgere
 I mange virksomheder er der behov for at kunne følge de enkelte medarbejderes (sælgeres) præstationer som grundlag for beregning af salgsprovision eller bonus. Se f.eks. rapporten **Salgsprovision**. Virksomheden kan også have behov for at knytte en sælger til hver kontakt.
@@ -32,7 +32,7 @@ Du kan bruge sælgere i forskelligt relationsstyrings- og marketingarbejde. F.ek
 ## <a name="see-also"></a>Se også
 [Konfigurere salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

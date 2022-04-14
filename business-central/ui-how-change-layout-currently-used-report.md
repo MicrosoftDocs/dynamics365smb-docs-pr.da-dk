@@ -1,23 +1,25 @@
 ---
 title: Ændre udseendet af en rapport ved at vælge et andet layout
 description: Du kan bruge forskellige layout til en rapport og skifte mellem layout for at ændre udseendet af en rapport.
-author: SorenGP
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c02f1e2083ef47d5aeee5831b042128c065c411f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 03/07/2022
+ms.author: jswymer
+ms.openlocfilehash: af90fd2361a42c06f8af360119bb391efb184de5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144641"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515299"
 ---
-# <a name="change-the-current-report-layout"></a>Ændre det aktuelle rapportlayout
+# <a name="legacy-set-the-layout-used-by-a-report"></a>(Ældre) Angive det layout, der bruges af en rapport
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 En rapport kan konfigureres med flere rapportlayout, som du kan skifte mellem efter behov.
 
@@ -30,9 +32,13 @@ Når der er defineret brugerdefinerede rapportlayout, kan du vælge dem fra debi
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Sådan ændres det rapportlayout, der skal bruges til en rapport eller et dokument
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
-   Siden **Valg af rapportlayout** viser en liste over alle de rapporter, der er tilgængelige i den virksomhed, der er angivet i feltet **Virksomhed** øverst på siden. Feltet **Valgt layout** angiver det layout, der aktuelt bruges af rapporten.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Valg af rapportlayout**, og vælg derefter det relaterede link.
+  
+   Siden **Valg af rapportlayout** viser en liste over alle de rapporter, der er tilgængelige i den virksomhed, der er angivet i feltet **Virksomhed** øverst på siden. **Layoutbeskrivelse** <!-- **Selected Layout** -->-feltet angiver det rapportlayout, der aktuelt bruges på rapporten.
 2. Angiv feltet **Virksomhed** øverst på siden til det firma, der indeholder rapporten.
+
+   I dette felt kan du oprette forskellige layout for samme rapport rapport i forskellige regnskaber.
+
 3. Hvis du vil ændre layoutet for en rapport, skal du på rækken for rapporten angive feltet **Valgt layout** til en af følgende indstillinger:
    * **RDLC (indbygget)**, bruger det indbyggede RDLC-rapportlayout i rapporten.
    * **Word (indbygget)**, bruger det indbyggede Word-rapportlayout i rapporten.
@@ -44,6 +50,7 @@ Når der er defineret brugerdefinerede rapportlayout, kan du vælge dem fra debi
 Hvis du har valgt et indbygget RDLC- eller Word-rapportlayout, kræves ingen yderligere handling, og layoutet bruges, næste gang rapporten køres.
 
 ## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Sådan ændres et brugerdefineret rapportlayout for et rapportlayout
+
 Du kan også ændre det aktuelt anvendte brugerdefinerede layout. Du kan finde flere oplysninger i [Oprette og ændre et brugerdefineret rapportlayouts](ui-how-create-custom-report-layout.md).
 
 Alle brugerdefinerede rapportlayout, der findes for rapportlayoutene i en virksomhed, vises på siden **Brugerdefinerede rapportlayouts**. På siden **Valg af rapportlayout** kan du se, hvilke brugerdefinerede layout der er tilgængelige for hver rapport i faktaboksen **Brugerdefinerede layouts**.
@@ -59,7 +66,7 @@ Du kan nu gå til debitor- og leverandørkortene for at angive, hvilke layouts d
 
 ## <a name="see-also"></a>Se også
 [Administration af rapportlayout](ui-manage-report-layouts.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

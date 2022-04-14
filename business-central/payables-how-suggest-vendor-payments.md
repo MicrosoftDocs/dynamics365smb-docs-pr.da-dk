@@ -10,12 +10,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 439db2ccacf165d27db44e4c786e71a4372171f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ab9844f52f74e79283daafbe02f8cc2139c3ac9d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137779"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522794"
 ---
 # <a name="suggest-vendor-payments"></a>Lav forslag
 
@@ -55,7 +55,7 @@ Du kan manuelt oprette betalingslinjer ved at bruge forfaldsdatoen til at beregn
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Foretage betaling](payables-make-payments.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

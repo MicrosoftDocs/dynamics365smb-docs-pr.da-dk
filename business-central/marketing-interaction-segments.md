@@ -1,22 +1,21 @@
 ---
 title: Holde styr på målgrupper og de tilhørende interaktioner
 description: Få mere at vide om at oprette målgrupper for at definere grupper af kontaktpersoner og angive interaktioner for målgrupper.
-documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5139,
+ms.search.forms: 5091, 5139,
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 792b2172a96287732e9ae81c8af5fd6ba5aeccf7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 51af368a1ec6e01e8df377cb8c8423edd57154d6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131401"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522849"
 ---
 # <a name="manage-interactions-for-segments"></a>Administrere interaktioner for målgrupper
 Siden **Målgruppe** er en slags kladde, hvor du kan:

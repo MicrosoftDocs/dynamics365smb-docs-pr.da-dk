@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 1d3e30185d4e5486c6e56941d08cc1586b2c554f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f921a6da2bb963d7cb53f062f32db7af6169020c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138176"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520070"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Gennemgang: Opsætning og brug af workflow for godkendelse af køb
 
@@ -92,7 +92,7 @@ Opret godkendelsesarbejdsgangen for købsordren ved at kopiere trinnene fra skab
     Siden **Workflow** åbnes for et nyt workflow, der indeholder alle oplysninger fra den valgte skabelon. Værdien i feltet **Code** er udvidet med *-01* for at angive, at dette er det første workflow, som oprettes ud fra skabelonen **Godkendelsesworkflow for købsordre**.  
 4. I hovedet af siden **Workflow** skal du markere afkrydsningsfeltet **Aktiveret**.  
 
-## <a name="using-the-approval-workflow"></a>Bruge arbejdsgangen for godkendelse
+## <a name="use-the-approval-workflow"></a>Bruge arbejdsgangen for godkendelse
 
 Brug det nye workflow Godkendelsesworkflow for købsordre ved først at logge på [!INCLUDE[prod_short](includes/prod_short.md)] som Anna for at anmode om godkendelse af en købsordre. Log derefter ind som dig selv, åbn noten i rollecenteret, følg linket til godkendelsesanmodningen, og godkend derefter anmodningen.  
 
@@ -119,7 +119,7 @@ Den generelle version af [!INCLUDE[prod_short](includes/prod_short.md)] indehold
 
 Du definerer arbejdsgangsvariationer ved at udfylde felter om arbejdsganglinjer fra faste lister over hændelses- og svarværdier, der repræsenterer scenarier, der understøttes af programkoden. Du kan finde flere oplysninger i [Oprette arbejdsgange](across-how-to-create-workflows.md).  
 
-Hvis et virksomhedsscenarie kræver en workflowhændelse eller et svar, der ikke understøttes, skal en Microsoft-partner implementere dem med en kode, eller der kan konfigureres et workflow ved hjælp af Power Automate. Du kan finde flere oplysninger i [Brug af [!INCLUDE[prod_short](includes/prod_short.md)] i en automatiseret arbejdsproces](across-how-use-financials-data-source-flow.md) eller [Hændelser i AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) i hjælpen til udviklere.
+Hvis et virksomhedsscenarie kræver en workflowhændelse eller et svar, der ikke understøttes, skal en Microsoft-partner implementere dem med en kode, eller der kan konfigureres et workflow ved hjælp af Power Automate. Du kan finde flere oplysninger i [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] i en automatiseret arbejdsproces](across-how-use-financials-data-source-flow.md) eller [Hændelser i AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) i hjælpen til udviklere.
 
 ## <a name="see-also"></a>Se også
 

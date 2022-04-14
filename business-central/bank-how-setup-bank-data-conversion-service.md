@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, bank file import, 
 ms.search.form: 304, 20106, 20105, 20100, 20101, 20107, 20109
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4e601eb57aebd831e85c20449d32b0e52acb387a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ea671a550dcada2573ae9b8e174a6e2e23051f9e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148755"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523162"
 ---
 # <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Konfigurere AMC Banking 365 Fundamentals-udvidelsen
 En global udbyder af tjenester til konvertering af betalingsoplysninger til ethvert dataformat, som din bank kræver, er forbundet og klar til at blive aktiveret i [!INCLUDE[prod_short](includes/prod_short.md)]. Dette omtales i [!INCLUDE[prod_short](includes/prod_short.md)] som AMC Banking 365 Fundamentals-udvidelsen.
@@ -63,7 +63,7 @@ Du har nu tilmeldt dig AMC Banking 365 Fundamentals-udvidelsen. Fortsæt med at 
 ## <a name="see-also"></a>Se også
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

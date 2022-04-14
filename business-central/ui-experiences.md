@@ -10,12 +10,12 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0c1950fb828dc6a45c35eb6503ff1702cfb3fd71
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b3e053bf59a9019b9f736e24936f0e9a68a5daab
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130011"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521672"
 ---
 # <a name="change-which-features-are-displayed"></a>Ændre, hvilke funktioner der vises
 [!INCLUDE[prod_short](includes/prod_short.md)] er designet til at hjælpe dig med at køre din virksomhed uanset størrelse og kompleksitet. I kernen af produktet finder du væsentlige funktioner som f.eks. finansiel rapportering, salg, køb og lagerstyring. I takt med at kompleksiteten øges, kan du f.eks. aktivere funktionen til produktions- og servicestyring.
@@ -61,10 +61,10 @@ Alle beskrivelser af funktioner i dokumentationen til [!INCLUDE[prod_short](incl
 ## <a name="see-also"></a>Se også
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)  
 [Tilpasse Business Central](ui-customizing-overview.md)  
-[Tildele rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
+[Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
 [Oprettelse af nye virksomheder](about-new-company.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]-licensvejledning](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

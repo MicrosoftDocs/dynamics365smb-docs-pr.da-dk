@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 9fb5df3e4b73b23b469185c46235170d6cebdde2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 8212dd5d85ee826bb0147a0d09d623c3af14071b
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323028"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528498"
 ---
 # <a name="entering-data"></a>Angivelse af data
 
@@ -23,7 +23,8 @@ Der er mange generelle funktioner, der hjælper dig med at indtaste data lettere
 
 Eksemplerne i denne artikel bruger demodata.
 
-## <a name="working-with-editable-fields"></a>Arbejde med redigerbare felter
+## <a name="work-with-editable-fields"></a>Arbejde med redigerbare felter
+
 Felter i [!INCLUDE[prod_short](includes/prod_short.md)] kan indeholde forskellige redigerbare data, f.eks. tekst eller valutabeløb. Redigerbare felter viser typisk et indtastningsfelt, hvor du kan indtaste eller vælge en værdi. Ikke-redigerbare felter vises typisk med grå baggrund.   
 
 Visse redigerbare felter indeholder en vælger, der kan hjælpe dig med at angive en værdi.  
@@ -57,6 +58,8 @@ Når markøren vises i slutningen af feltværdien:
 
 > [!NOTE]
 > Når du har angivet en værdi, vil Business Central kun kontrollere, at den er gyldig, når du har klikket uden for feltet eller fokuseret på et andet element, f.eks. det næste felt.  
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
 
 ## <a name="keyboard-shortcuts"></a>Tastaturgenveje
 
@@ -108,9 +111,9 @@ Selv om feltet skal udfyldes, er du ikke tvunget til at udfylde feltet, før du 
 
  Mange felter har en knap med en nedadgående pil, som du kan vælge. Når du vælger pilen, vises en liste med data, som du kan vælge at indtaste i feltet. Knappen har to funktioner afhængigt af felttypen:  
 
--   Valg – viser oplysninger fra en anden tabel, som du kan indtaste i feltet. Du kan vælge én enkelt dataangivelse ad gangen.  
+- Valg – viser oplysninger fra en anden tabel, som du kan indtaste i feltet. Du kan vælge én enkelt dataangivelse ad gangen.  
 
--   Rullemenu – viser det sæt indstillinger, der findes til feltet. Du kan kun vælge én af indstillingerne.  
+- Rullemenu – viser det sæt indstillinger, der findes til feltet. Du kan kun vælge én af indstillingerne.  
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>Ofte stillede spørgsmål om kopiering og indsætning af felter og linjer
 
@@ -171,26 +174,26 @@ Når du angiver tal i mængdefelter, f.eks. i feltet **Antal** på en varekladde
 
 ### <a name="examples"></a>Eksempler  
 
--   Hvis du skriver 19+19, beregnes feltet til 38.  
+- Hvis du skriver 19+19, beregnes feltet til 38.  
 
--   Hvis du skriver 41-9, beregnes feltet til 32.  
+- Hvis du skriver 41-9, beregnes feltet til 32.  
 
--   Hvis du skriver 12*4, beregnes feltet til 48.  
+- Hvis du skriver 12*4, beregnes feltet til 48.  
 
--   Hvis du skriver 12/4, beregnes feltet til 3.  
+- Hvis du skriver 12/4, beregnes feltet til 3.  
 
 ## <a name="entering-negative-numbers"></a>Angivelse af negative tal
 
 Du kan angive negative tal på to måder. Tallet -20,5 kan angives som:  
 
--   -20,5  
+- -20,5  
 
-    eller
--   20,5-  
+  eller
+- 20,5-  
 
- I begge tilfælde registreres beløbet som -20,5.  
+I begge tilfælde registreres beløbet som -20,5.  
 
- Hvis det sidste tegn i udtrykket er et **+** eller et **-**, registreres hele udtrykket med det tegn. Eksempel, **10-20+** medfører 10 og ikke -10.  
+Hvis det sidste tegn i udtrykket er et **+** eller et **-**, registreres hele udtrykket med det tegn. Eksempel, **10-20+** medfører 10 og ikke -10.  
 
 ## <a name="entering-dates-and-times"></a>Indtaste datoer og tidspunkter
 
@@ -205,11 +208,14 @@ Du kan enten bruge datovælgeren til at vælge en dato i en kalender, eller du k
 
 Hvis du vil indtaste datoen manuelt, kan du indtaste to, fire, seks eller otte cifre:  
 
--   To tal fortolkes som dagen. Det vil tilføje måneden og året for arbejdsdatoen.  
+- To tal fortolkes som dagen. Det vil tilføje måneden og året for arbejdsdatoen.  
 
--   Fire tal fortolkes som dagen og måneden. Dette vil tilføje året for arbejdsdatoen.  
+- Fire tal fortolkes som dagen og måneden. Dette vil tilføje året for arbejdsdatoen.  
 
--   Hvis den ønskede dato ligger i intervallet 01/01/1930 til 12/31/2029, skal du indtaste året med to cifre. Ellers skal du indtaste årstallet med fire cifre.  
+- Hvis den ønskede dato ligger i intervallet 01/01/1950 til 12/31/2049, skal du indtaste året med to cifre. Ellers skal du indtaste årstallet med fire cifre.
+
+  > [!NOTE]
+  > Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan det tocifrede årstal være forskelligt. Administratorer kan ændre området ved at ændre indstillingen **CalendarTwoDigitYearMax** for [!INCLUDE[prod_short](includes/prod_short.md)]-serveren. Du kan finde flere oplysninger under [Konfiguration af Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
 
 Du kan også angive en dato som en ugedag efterfulgt af et ugenummer. Du kan også angive et år. F.eks. betyder Man25 eller man25 mandag i uge 25.  
 
@@ -267,14 +273,17 @@ Her er nogle eksempler.
 
 ## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Angive den decimalseparator, der bruges af numeriske tastaturer
 
-Når du bruger decimalseparatortasten for numerisk tastatur til at indtaste data, bestemmes den faktiske decimalseparator, der er angivet i feltet, af områdeindstillingen for Business Central. Du angiver området i Business Central på siden **Mine indstillinger**.
+Når du bruger decimalseparatortasten for numerisk tastatur til at indtaste data, bestemmes den faktiske decimalseparator, der er angivet i feltet, af områdeindstillingen for Business Central. I de fleste områder bruges punktum (.) eller komma (,) som separator for decimalværdier, som du normalt ville se i valutabeløb. Decimal tasten på tastaturet tilpasses dit område. Det er ofte anderledes end i punktum- eller kommatasterne på resten af tastaturet. Du angiver området i Business Central på siden **Mine indstillinger**.
 
-Antag f.eks., at du bruger et numerisk tastatur, der bruger et punkt (.) som decimalseparatortast. Men du indtaster data for et regionalt sprog, der bruger et komma (**,**) til decimalseparatoren, f.eks. dansk (Danmark) eller fransk (Frankrig). Decimaler som "1,23" skal derfor angives som "1,23". I dette tilfælde kan du gå til siden **Mine indstillinger** og indstille **regionen** til det nationale målsprog, f.eks. **Dansk (Danmark)** eller **Fransk (Frankrig)**. Du kan finde flere oplysninger i [Ændre grundlæggende indstillinger](ui-change-basic-settings.md#region).
+Antag f.eks., at du bruger et numerisk tastatur, der bruger et punktum (.) som decimalseparatortast. Men du indtaster data for et regionalt sprog, der bruger et komma (**,**) til decimalseparatoren, f.eks. dansk (Danmark) eller fransk (Frankrig). Decimaler som "1,23" skal derfor angives som "1,23". I dette tilfælde kan du gå til siden **Mine indstillinger** og indstille **Region** til det nationale målsprog, f.eks. **Fransk (Frankrig)**. Du kan finde flere oplysninger i [Ændre grundlæggende indstillinger](ui-change-basic-settings.md#region).
+
+> [!TIP]
+> Der kan være tilfælde, hvor du vil bruge decimalseparatoren til at angive et punktum (.). Antag f. eks., at du har indtastet et datointerval i et filter, `01/01/2022..04/01/2022` eller alt det, der kræver en periode. Hvis du vil skifte til en periode, skal du trykke på tasterne alt + decimal separator ' på det numeriske tastatur. Denne tastekombination indskriver decimalseparatoren mellem en periode og decimalseparatoren, sådan som det er angivet i indstillingen **Region**.
 
 ## <a name="see-also"></a>Se også
 
 [Sortering af, søgning i og filtrering af lister](ui-enter-criteria-filters.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

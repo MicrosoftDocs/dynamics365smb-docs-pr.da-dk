@@ -10,12 +10,12 @@ ms.search.keywords: feature overview, functionality
 ms.search.form: 9020, 9022, 9027, 9018
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 36edd01c369e83e2020f43ff914b4cc693cba4e3
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 5f8cfbef682b2a039c5a52483a09380452fba4b9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322846"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513597"
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunktioner
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder dedikerede funktioner til almindelige virksomhedsområder som f.eks. finans og salg. Du kan finde flere oplysninger i [Forretningsfunktioner](across-business-functionality.md).
@@ -48,7 +48,7 @@ I følgende tabel vises disse generelle forretningsområder med links til emner,
 | Konfigurer dataudvekslingsdefinitioner, så du kan sende og modtage elektroniske dokumenter. |[Udveksle data elektronisk](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Se også
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Opsætning](admin-setup-and-administration.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

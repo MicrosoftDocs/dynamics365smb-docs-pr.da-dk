@@ -5,14 +5,14 @@ author: edupont04
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
-ms.date: 04/01/2021
+ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 16ad3480c10da544c7fdd3a6a299dc6d86cfce46
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35cd5f86eeee3eecd24f63d37f8d43191dbd9be8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134052"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512448"
 ---
 # <a name="report-selection-in-business-central"></a>Rapportvalg i Business Central
 
@@ -43,6 +43,7 @@ Standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] inkluderer 
 * **Rapporten Valg - lager**  
 * **Rapportvalg - bankkonto**  
 * **Rapportvalg - rykkere og rentenotaer**  
+* **Rapportvalg – sag**  
 
 ## <a name="example-report-selection-for-sales-documents"></a>Eksempel: Rapportvalg til salgsdokumenter
 
@@ -68,6 +69,15 @@ I **Rapportvalget-salg** og **Rapportvalg-køb**-sider kan du f.eks. oprette e-m
 [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  
 [Angiv dokumentlayout for debitorer og leverandører](ui-define-customer-vendor-document-layouts.md)  
 [Installation af printere](ui-specify-printer-selection-reports.md)  
-
+[Finansrapporter og analyser i Business Central](finance-reports.md)  
+[Rapporter og analyser for debitor i Business Central](receivables-reports.md) 
+[Rapporter og analyser for kreditor i Business Central](payables-reports.md)  
+[Anlægsrapporter og analyser i Business Central](fa-reports.md)  
+[Rapporter og analyser i Business Central](project-reports.md)  
+[Salgsrapporter og analyser i Business Central](sales-reports.md)  
+[Købsrapporter og analyser i Business Central](purchase-reports.md)  
+[Lager- og lagerstedrapporter og -analyse i Business Central](inventory-WMS-reports.md)  
+[Samle rapporter og analyser i Business Central](assembly-reports.md)  
+[Produktionsrapporter og analyser i Business Central](production-reports.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

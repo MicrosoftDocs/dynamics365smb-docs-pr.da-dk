@@ -11,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5150, 5142, 5140, 5141, 5144, 5091, 5143, 5093, 5092
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: c107a9ae74343663eea6a97fb0360852b49ecd05
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ff214627aa1486d818d02e632e6b0be293313f6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130280"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519644"
 ---
 # <a name="managing-segments"></a>Administrere målgrupper
 Du opretter målgrupper for at vælge en gruppe kontaktpersoner i overensstemmelse med bestemte kriterier. F.eks. kan en målgruppe være den branche, som kontaktpersonerne arbejder i, eller dine forretningsmæssige relationer med kontaktpersonerne. Du kan oprette en målgruppe for at vælge de kontaktpersoner, som er målet med en kampagne.
@@ -37,7 +37,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 ## <a name="see-also"></a>Se også
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Administrere kontakter](marketing-contacts.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

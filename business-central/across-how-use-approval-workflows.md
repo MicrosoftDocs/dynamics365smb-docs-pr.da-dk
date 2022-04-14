@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: bc60d2e8f7e79e717b8b79a9c18e7babf88d8fbb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b97b4fb9c09c646a69c78747079e7fde3fdae7dc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134196"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517650"
 ---
 # <a name="use-approval-workflows"></a>Bruge godkendelsesworkflows
 
@@ -20,7 +20,7 @@ Når en post, f.eks et købsdokument eller et debitorkort, skal godkendes af en 
 
 Du kan konfigurere godkendelsesworkflows på siden **Workflow**. Du skal også angive godkendelses brugere, herunder eventuelle relevante beløbsgrænser, på siden **Brugeropsætning af godkendelser**. Du kan finde flere oplysninger i [Opsætte workflows](across-set-up-workflows.md).  
 
-Ud over godkendelsesworkflows, der er beskrevet i dette emne, kan du udføre forskellige andre opgaver i workflowet. Der er flere oplysninger i [Anvende workflows](across-use-workflows.md).
+Ud over godkendelsesworkflows, der er beskrevet i dette emne, kan du udføre forskellige andre opgaver i workflowet. Der er flere oplysninger i [Bruge workflows](across-use-workflows.md).
 
 Grundlæggende godkendelsesworkflows for købsdokumenter, salgsdokumenter, udbetalingskladder, debitorkort og varekort er klar til brug som vejledninger. Du kan finde flere oplysninger i [Blive køreklar](ui-get-ready-business.md).
 
@@ -89,7 +89,7 @@ Funktionen **Send notifikationer om forfaldne godkendelser** tjekker for alle å
 [Salg](sales-manage-sales.md)  
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

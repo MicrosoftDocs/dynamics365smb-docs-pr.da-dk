@@ -1,22 +1,25 @@
 ---
-title: Sådan konfigureres en virksomhed med guiden RapidStart | Microsoft Docs
-description: Du kan hurtigt konfigurere en ny virksomhed, som du har oprettet ved hjælp af guiden RapidStart Services-konfiguration.
+title: Konfigurere en virksomhed med guiden RapidStart
+description: I Business Central til det lokale miljø kan du konfigurere en ny virksomhed, som du har oprettet ved hjælp af guiden RapidStart Services-konfiguration.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 03/28/2022
 ms.author: edupont
-ms.openlocfilehash: 1b29412d166bd5b2225d780a0b0cee476874dcd0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 189701aef31c5bbdc3323b753667937775d59a9d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130848"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515793"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Konfigurere en virksomhed med guiden RapidStart
+
+[!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
+
 Du kan hurtigt konfigurere en ny virksomhed, som du har oprettet ved hjælp af guiden RapidStart Services-konfiguration.
 
 I følgende procedure har du angivet debitoren med konfigurationspakken, der derefter installeres på en computer. Debitoren åbner den nye virksomhed, som ikke indeholder nogen debitordata. Du eller debitoren følger derefter trinnene i guiden RapidStart Services, der er beskrevet i denne fremgangsmåde, for at levere grundlæggende oplysninger om virksomheden. Guiden importerer konfigurationspakken og anvender derefter pakken til virksomheden.  

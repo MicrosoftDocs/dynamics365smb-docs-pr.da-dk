@@ -10,12 +10,12 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 5ecdd01a4018af64d4530464f73c5982c98fd2de
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 71a05e36075dfcfd7384b0e4c055e955dbfda3c4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366564"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510970"
 ---
 # <a name="managing-fixed-assets"></a>Administrere anlægsaktiver
 
@@ -57,7 +57,7 @@ Følgende video giver en grundlæggende beskrivelse af anlægsaktiver.
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
 [Finans](finance.md)  
 [Blive køreklar](ui-get-ready-business.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  

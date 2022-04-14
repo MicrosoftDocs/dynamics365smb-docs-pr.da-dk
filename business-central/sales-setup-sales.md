@@ -10,12 +10,12 @@ ms.search.keywords: trade, sell, configure
 ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 63aeff6e2b549807fd843260e4f273b7e4013ddd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0155698120705f637714242500aa77a5a20a80bf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140653"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510709"
 ---
 # <a name="setting-up-sales"></a>Konfigurere salg
 Før du kan administrere salgsprocesser, skal du konfigurere de regler og værdier, der definerer virksomhedens salgspolitikker.
@@ -43,7 +43,7 @@ Den finansrelaterede salgsopsætning, som betalingsmetoder og valutaer, dækkes 
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

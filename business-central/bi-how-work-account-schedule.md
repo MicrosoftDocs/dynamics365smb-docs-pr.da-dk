@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 91a97ab506f7536b9c468862709d1d39ed767d53
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 32ca89daf15485057cf9ef8b86ff9090bb12d037
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335470"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512356"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Forberede Financial Reporting med kontoskemaer og kontokategorier
 
@@ -54,7 +54,7 @@ Kontoskemaerne i standardversionen af [!INCLUDE[prod_short](includes/prod_short.
 
 Siden **Kontoskemaoversigt** er der, hvor du kan få vist den finansrapport, som kontoskemaet definerer. I det følgende er det vigtigt at forstå, at det, du definerer som kontoskemarækker og -kolonner, kun kan ses og godkendes på siden **Kontoskemaoversigt**, som du kan åbne fra et kontoskema ved at vælge handlingen **Oversigt**. Selve siden **Kontoskema** er kun et opsætningsområde.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoskemaer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoskemaer**, og vælg derefter det relaterede link.  
 2. På siden **Kontoskemaer** skal du vælge handlingen **Ny** for at oprette et nyt kontoskemanavn.
 3. Du kan også vælge handlingen **Kopiér kontoskema**, udfylde de to felter efter behov, og derefter vælge knappen **OK**.
 4. Udfyld felterne efter behov. I feltet **Standard kolonneformat** skal du vælge et eksisterende layout. Du kan redigere det senere, hvis der er behov for det.
@@ -71,7 +71,7 @@ Du har nu angivet grundlaget for kontoskemaet, rækkerne med finansielle data, d
 
 ### <a name="to-edit-a-column-layout"></a>Sådan redigeres et kolonneformat
 
-Du kan bruge kolonneformater til at angive, hvilke kolonner der skal med i den rapport, der oprettes. Du kan f.eks. udforme et format til sammenligning af bevægelse og saldo til dato for den samme periode dette år og sidste år.
+Du kan bruge kolonneformater til at angive, hvilke kolonner der skal med i den rapport, der oprettes. Du kan f.eks. udforme et format til sammenligning af bevægelse og saldo til dato for den samme periode dette år og sidste år. Du kan have op til 15 kolonner. Det er f. eks. nyttigt, hvis du vil have vist budgetter for 12 måneder og medtage en kolonne, der viser totalen.
 
 > [!NOTE]
 > En udskrevet/vist/gemt version af et kontoskema kan vise højst fem kolonner. Hvis kontoskemaet kun er beregnet til analyse på siden **Kontoskemaoversigt**, kan du oprette så mange kolonner, du vil.
@@ -88,7 +88,7 @@ Du kan bruge kolonneformater til at angive, hvilke kolonner der skal med i den r
 
 Du vil muligvis gerne medtage en kolonne i et kontoskema for at beregne procenter af et totalbeløb. Hvis du f.eks. har et antal rækker, som specificerer salg efter dimension, kan du have en kolonne, som angiver procenten af det samlede salg, som hver række repræsenterer.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoskemaer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 2.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoskemaer**, og vælg derefter det relaterede link.
 2. Vælg et kontoskema på siden **Kontoskemanavne**.  
 3. Vælg handlingen **Rediger kontoskema** for at konfigurere en kontoskemarække til beregning af den total, som procentdelene baseres på.  
 4. Indsæt en linje lige over den første række, som du vil vise en procent for.  
@@ -101,11 +101,11 @@ Du vil muligvis gerne medtage en kolonne i et kontoskema for at beregne procente
 
 Du kan bruge et kontoskema til at oprette en opgørelse, hvor tallene i finansposter sammenlignes med tallene i finansbudgettet.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoskemaer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 3.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoskemaer**, og vælg derefter det relaterede link.
 2. Vælg et kontoskema på siden **Kontoskemanavne**.  
 3. Vælg handlingen **Rediger kontoskema**  
 4. På siden **Kontoskema** skal du vælge standardkontoskemanavnet i feltet **Navn**.
-5. Vælg handlingen **Indsæt konti**.  
+5. Vælg handlingen **Indsæt finanskonti**.  
 6. Marker de konti, som du ønsker at medtage i opgørelsen, og vælg derefter knappen **OK**.
 
     Kontiene indsættes i kontoskemaet. Hvis du vil, kan du også ændre kolonneformatet.  
@@ -149,7 +149,17 @@ Hvis du vil foretage beregninger efter almindelige tidsperioder, skal du angive 
 
 Du kan finde flere oplysninger om datoformler i [Arbejde med kalenderdatoer og-klokkeslæt](ui-enter-date-ranges.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
+## <a name="import-or-export-account-schedules"></a>Importere eller eksportere kontoskemaer
+Du kan importere og eksportere kontoskemaer som RapidStart-konfigurationspakker. Dette er f. eks. nyttig, når du vil dele dem med andre firmaer. Pakken oprettes i en .rapidstart-fil, som leverer pakkens indhold i komprimeret format.
+
+### <a name="to-import-and-export-account-schedules"></a>Importere og eksportere kontoskemaer
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 4.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoskemaer**, og vælg derefter det relaterede link.
+2. Vælg kontoskemaet, og vælg derefter **Importer kontoskema** eller **Eksporter kontoskema**, afhængigt af hvad du vil gøre. 
+
+> [!NOTE]
+> Når du importerer kontoskemaer, slettes eksisterende poster, der har samme navn, som de er ved at blive importeret.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 
@@ -157,7 +167,7 @@ Du kan finde flere oplysninger om datoformler i [Arbejde med kalenderdatoer og-k
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Finans- og kontoplanen](finance-general-ledger.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

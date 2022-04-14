@@ -1,6 +1,6 @@
 ---
 title: Anvende konfiguration på nye virksomheder
-description: Når du har oprettet en konfigurationspakke, skal du udrulle pakken til din kunde til implementering. Du kan bruge konfigurationen med en ny tom virksomhed.
+description: Når du har oprettet en konfigurationspakke, skal du udrulle pakken til din kunde til implementering. Du kan bruge konfigurationen med en ny tom virksomhed, hvis du bruger RapidStart Services.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 439a717b37d5936c221992bcd7f85bb1d1db42eb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 14b97b1f635fab5671c478106680c2b723ca86c2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141485"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522270"
 ---
-# <a name="apply-configurations-to-new-companies"></a>Anvende konfigurationer på nye virksomheder
+# <a name="apply-configurations-to-new-companies-with-rapidstart-services"></a>Anvende konfigurationer på nye virksomheder med RapidStart Services
 Når du har oprettet en konfigurationspakke, er næste trin at udrulle pakken til din kunder til implementering. Du arbejder med konfigurationspakken i en ny tom virksomhed.  
 
  Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.

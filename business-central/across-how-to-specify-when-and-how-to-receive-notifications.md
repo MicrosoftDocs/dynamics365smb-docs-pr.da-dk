@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 3f663ca22cdcfde38b42ac0285eaf403a9e0982d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 261e2908f7f7ed3a47a337b2c3f49d7c633f1cce
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129100"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522348"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Angive, hvornår og hvordan arbejdsgangsnotifikationer modtages
 Når du opretter godkendelses brugere i arbejdsprocesser, hvor du vil have, at en anden bruger skal kunne godkende ændringer, f. eks. når der oprettes nye poster, eller når en bruger anmoder om godkendelse, skal du angive, hvordan og hvornår godkendelsesbrugeren skal have besked. Du kan f. eks. angive, at en godkendelsesbruger straks skal modtage en e-mail, når nogen opretter en ny kunde. Du kan også vælge at planlægge, at notifikationer skal leveres, f. eks. en gang om måneden.
@@ -73,7 +73,7 @@ Mange trin i en godkendelsesarbejdsgang vedrører notifikationer til brugere om,
  [Sådan opretter og ændrer du Brugerdefinerede rapportlayouts](ui-how-create-custom-report-layout.md)   
  [Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)   
  [Opsætte workflows](across-set-up-workflows.md)   
- [Anvende workflows](across-use-workflows.md)
+ [Bruge arbejdsgange](across-use-workflows.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

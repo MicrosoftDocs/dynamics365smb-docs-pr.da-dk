@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a650f2e756f8b2be6008c7f7abc7c62290023bb4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3026ab37ced1f1529d2a9fee2e22aeccce557c53
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134248"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522374"
 ---
 # <a name="set-up-workflow-users"></a>Oprette brugere til arbejdsgange
 
@@ -48,7 +48,7 @@ Workflowbrugere, der fungerer som godkendelsesbrugere, både godkendelsesanmoder
 
 [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  
 [Opsætte workflows](across-set-up-workflows.md)  
-[Anvende workflows](across-use-workflows.md)  
+[Bruge arbejdsgange](across-use-workflows.md)  
 [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Workflow](across-workflow.md)  
 

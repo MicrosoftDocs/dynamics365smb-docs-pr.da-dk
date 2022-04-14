@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
 ms.date: 07/06/2021
 ms.author: edupont
-ms.openlocfilehash: 256744599bcf30a6386ed5ef74b815e959b3b2bb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c0204c74ce2adb463c6a8fe0036e59b6fdd06727
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132494"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521594"
 ---
 # <a name="send-remittance-advice"></a>Send remitteringsadvis
 
@@ -32,7 +32,7 @@ Du kan sende remitteringsadvis på to forskellige måder:
 
 [Lav forslag](payables-how-suggest-vendor-payments.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
 [Elektronisk pengeoverførsel (EFT) i den australske version](localfunctionality/australia/electronic-funds-transfer-eft-.md)  
 [Foretage elektroniske betalinger (CA)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

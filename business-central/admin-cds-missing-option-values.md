@@ -1,21 +1,22 @@
 ---
 title: Håndtering af manglende indstillingsværdier
-description: Få mere at vide om, hvordan du forhindrer, at fuld synkronisering mislykkes, fordi indstillingerne er forskellige i tilknyttede felter. Disse processer, der beskrives, kræver hjælp af en udvikler.
+description: Få mere at vide om, hvordan du forhindrer, at fuld synkronisering mislykkes, fordi indstillingerne er forskellige i tilknyttede felter. Denne proces kræver hjælp af en udvikler.
 author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
-ms.date: 06/14/2021
-ms.openlocfilehash: 1735b1e3d04b9b35653047b19587f84234389735
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.date: 03/23/2022
+ms.openlocfilehash: a726d182babca26525e2931ea2b487171b470bcc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383369"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512486"
 ---
 # <a name="handling-missing-option-values"></a>Håndtering af manglende indstillingsværdier
-
+> [!NOTE]
+> I 2022 udgivelsesbølge 1 kan du oprette dine egne indstillingstilknytninger. Du kan finde flere oplysninger under [Tilpasse indstillingstilknytninger med Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). De nye funktioner kræver, at administratoren aktiverer **Funktionsopdatering: Tilknytning til grupperede indstillinger i Dataverse uden kode** på siden **Funktionshåndtering**. Du kan finde flere oplysninger i [Aktivere Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Dette emne henvender sig til et teknisk publikum. De processer, der beskrives, kræver hjælp af en udvikler.
 

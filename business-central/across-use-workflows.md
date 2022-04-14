@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 2cbf60577e7c0c4f95fcb623fb448f8cb5bd7960
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8fc4dc464e6562684db6b4ae67422f59cb641927
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138696"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511203"
 ---
-# <a name="using-workflows"></a>Anvende workflows
+# <a name="use-workflows"></a>Bruge arbejdsprocesser
 
 En arbejdsproces er en række opgaver, der udløses af en handling, en betingelse eller en regel. Arbejdsprocesser implementeres som regel med henblik på at integrere forretningslogikken i en virksomhed, f. eks. adskillelse af opgaver, samling af opgaver eller større tillid og ansvar.  
 
@@ -72,7 +72,7 @@ Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, de
 ## <a name="see-also"></a>Se også  
 [Opsætte workflows](across-set-up-workflows.md)   
 [Workflow](across-workflow.md)   
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

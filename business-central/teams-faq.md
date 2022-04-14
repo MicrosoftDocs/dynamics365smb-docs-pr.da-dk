@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 34c669f955bebf84149959182bb1ce8bdeb139a0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: addfaaf3e5991e5e0bce4d7e39c47f645cd6a2de
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147488"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528575"
 ---
 # <a name="teams-faq"></a>Teams, ofte stillede spørgsmål
 
@@ -70,10 +70,6 @@ Ja. Det er imidlertid kun nogle funktioner i appen, der fungerer med [Integrer a
 
 - Appen fungerer sammen med links, der er baseret på mønsteret for **\*.bc.dynamics.com**, som typisk bruges sammen med Integrer apps.
 - Kontaktsøgning er ikke tilgængelig for Integrer apps, som erstatter basisprogrammet fra Microsoft.
-
-### <a name="where-can-i-find-teams-integration-inside-the-prod_shortmd-web-client"></a>Hvor kan jeg finde Teams-integrationen i [!INCLUDE [prod_short.md](includes/prod_short.md)]-webklienten? 
-
-I øjeblikket er der ingen integrering af Teams-kontrolenheder eller tilstedeværelse af Teams-funktioner i [!INCLUDE [prod_short.md](includes/prod_short.md)]-webklienten eller andre klienter.
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>Arbejder [!INCLUDE [prod_short.md](includes/prod_short.md)] med Teams mobilapp?
 
@@ -304,7 +300,11 @@ Ja. Alle [!INCLUDE [prod_short.md](includes/prod_short.md)]-funktioner i vinduet
 
 ### <a name="can-i-access-my-location-from-the-details-window-in-teams"></a><a name="location"></a>Kan jeg få adgang til min lokation fra detaljevinduet i Teams?
 
-Hvis du bruger funktioner i [!INCLUDE [prod_short.md](includes/prod_short.md)], der får adgang til dine aktuelle placeringskoordinater, f.eks. med Maps, skal du bruge Teams i browseren eller Teams mobil-app. Placeringen er ikke tilgængelig, når appen Teams desktop bruges. 
+Hvis du bruger funktioner i [!INCLUDE [prod_short.md](includes/prod_short.md)], der får adgang til dine aktuelle placeringskoordinater, f.eks. med Maps, skal du bruge Teams i browseren eller Teams mobil-app. Placeringen er ikke tilgængelig, når appen Teams desktop bruges.
+
+### <a name="how-do-i-open-the-details-in-a-new-window"></a>Hvordan åbnes detaljerne i et nyt vindue?
+
+Det er nyttigt at bruge vinduet med detaljer som et separat vindue til multitasking eller til at arbejde med forretningsdata, samtidig med at Teams chat og andre Teams funktioner stadig kan bruges. Hvis du vil åbne detaljer i et separat vindue, skal du vælge **Åbne i browser** menuen ellipse (**...**) i øverste højre hjørne af vinduet.
 
 ## <a name="collaborate-with-guests"></a>[Samarbejde med gæster](#tab/collaborating)
 
@@ -346,7 +346,7 @@ Nummer Det eneste, du behøver, er en gyldig konto, der har adgang til Microsoft
 
 ### <a name="is-share-to-teams-available-in-all-business-central-clients"></a>Er Del på Teams tilgængelig i alle Business Central-klienter? 
 
-På nuværende tidspunkt er Del på Teams udelukkende tilgængeligt i desktop-webklienten og i detaljevinduet i Teams.  
+På nuværende tidspunkt er dele med Teams tilgængelig på desktop-webklienten, i vinduet med detaljer i Teams og ved åbning af en side i et nyt vindue fra Outlook-tilføjelsesprogrammet.
 
 ### <a name="where-do-i-find-share-to-teams-in-business-central"></a>Hvor kan jeg finde Del på Teams i Business central? 
 

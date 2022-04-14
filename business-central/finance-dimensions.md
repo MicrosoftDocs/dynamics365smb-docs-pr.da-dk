@@ -10,15 +10,14 @@ ms.search.keywords: analysis, history, track, business intelligence
 ms.search.form: 408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 494a79283ba7917666e708d9b07acf9523ef15b8
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: e5579df4d63a4f800118ca320d60a984f203022b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366720"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517572"
 ---
-# <a name="working-with-dimensions"></a>Arbejde med dimensioner
-
+# <a name="work-with-dimensions"></a>Arbejde med dimensioner
 Dimensioner er værdier, der kategoriserer poster, så du kan spore og analysere dem i dokumenter som f.eks. salgsordrer. Dimensioner kan f.eks. angive det projekt eller den afdeling, en post kommer fra.  
 
 I stedet for at oprette separate finanskonti for hver afdeling og hvert projekt kan du bruge dimensioner som grundlag for analyse og undgå at skulle oprette en kompliceret kontoplan. Du kan finde flere oplysninger i [Business Intelligence](bi.md).
@@ -202,8 +201,7 @@ Siden **Standarddimensioner-flere** indeholder følgende felter:
 |**Dimensionsværdikode**|Viser enten en enkelt dimensionsværdi eller ordet (Konflikt). Hvis feltet indeholder en dimensionsværdi, har alle markerede konti den samme standarddimensionsværdi for en dimension. Hvis der står (Konflikt) i feltet, så er det ikke alle de markerede konti, der har den samme standarddimensionsværdi for en dimension. Hvis du klikker på feltet, får du vist en oversigt over alle de dimensionsværdier, der kan benyttes i forbindelse med en dimension. Hvis du markerer en dimensionsværdi og klikker på OK, bliver den markerede dimensionsværdi defineret som standarddimensionsværdi for alle de markerede konti.|
 |**Værdibogføring**|Viser enten en enkelt værdibogføringsregel eller ordet (Konflikt). Hvis der vises en værdibogføringsregel i feltet, så har alle markerede konti den samme værdibogføringsregel for en dimensionsværdi. Hvis der står (Konflikt) i feltet, så er det ikke alle de markerede konti, der har den samme værdibogføringsregel for en dimensionsværdi. Hvis du klikker på feltet Værdibogføring, får du vist en liste med værdibogføringsregler. Hvis du markerer en værdibogføringsregel, bliver den anvendt på alle de markerede konti.|
 
-## <a name="using-dimensions"></a>Bruge dimensioner
-
+## <a name="use-dimensions"></a>Brug dimensioner
 I et dokument, f.eks en salgsordre, kan du tilføje dimensionsoplysninger for en individuel dokumentlinje og for selve dokumentet. På siden **Salgsordre** kan du f.eks. angive dimensionsværdier for de første to genvejsdimensioner på de enkelte salgslinjer, og du kan tilføje flere dimensionsoplysninger, hvis du vælger knappen **Dimensioner**.  
 
 Hvis du i stedet arbejder i en kladde, kan du tilføje dimensionsoplysninger til en post på samme måde, hvis du har oprettet genvejsdimensioner som felter direkte på kladdelinjer.  
@@ -231,7 +229,7 @@ Du kan se, om der er globale dimensioner for poster, når du åbner en side med 
 [Business Intelligence](bi.md)  
 [Finans](finance.md)  
 [Analysere data efter dimensioner](bi-how-analyze-data-dimension.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

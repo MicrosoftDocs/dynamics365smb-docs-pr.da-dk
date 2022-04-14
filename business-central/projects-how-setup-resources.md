@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08d73d46283908a811fd9690b6e4ea43e35d5118
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 65f656dac8ec1588872b8a9458da7a8ffdcaf857
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137415"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520886"
 ---
 # <a name="set-up-resources-for-projects"></a>Konfigurere ressourcer for projekter
 
@@ -28,6 +28,8 @@ Du kan angive standardbeløbet pr. time, når ressourcen oprettes. Hvis du f.eks
 > [!NOTE]
 > Du kan købe eksterne ressourcer, f.eks. for at fakturere en kreditor for udført arbejde. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).<br /><br />
 > I dette tilfælde anbefaler vi, at du navngiver eller grupperer disse eksterne ressourcer for at angive deres formål, så de ikke forveksles med de interne ressourcer.
+>  
+> Hvis du bogfører IC-transaktioner, men du kan få en ressource til en linje på en salgsordre, og du konverterer salgsordren til en købsordre på modtagelses siden, medtages ressourcen ikke. Hvis du vil bruge ressourcer i IC-transaktioner, skal du bruge feltet **Finanskt.nr. for IC-partnerkøb** på ressourcekortet til at angive den konto, som udgifterne skal bogføres til.
 
 ## <a name="to-set-up-a-resource"></a>Sådan defineres en ressource
 Opret et kort for hver ressource, du vil bruge i projekter.
@@ -79,7 +81,7 @@ Udover den pris, der er angivet på ressourcekortet, kan du oprette alternative 
 [Finans](finance.md)  
 [Køb](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)      
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

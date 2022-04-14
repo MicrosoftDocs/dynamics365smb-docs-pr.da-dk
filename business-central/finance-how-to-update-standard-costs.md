@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dd79e723ea86f3e5631a571a26a061c84adab518
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4bada4ee28df77cc9700d5957ef8fb8b1a64535b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141121"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517442"
 ---
 # <a name="update-standard-costs"></a>Opdatere standardkostpriser
 Du skal regelmæssigt opdatere standardkostprisen for komponenter og akkumulere de nye omkostninger til den overordnede vare. Processen består normalt af følgende fire trin:  
@@ -46,7 +46,7 @@ Du kan finde flere oplysninger i [Om beregning af standardkostpris](finance-abou
  [Om beregning af standardomkostning](finance-about-calculating-standard-cost.md)   
  [Administrere lageromkostninger](finance-manage-inventory-costs.md)   
  [Designoplysninger: Kostmetoder](design-details-costing-methods.md) [Finans](finance.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

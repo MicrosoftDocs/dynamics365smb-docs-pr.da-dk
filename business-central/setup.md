@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 38aaf6b77defd6afcc9cbe2bda7b56d71c139699
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 10b9483d46caa9fff156a80f5301521ae9c36d63
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128632"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510761"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Oversigt over opgaver til opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -45,8 +45,8 @@ Nogle funktioner, enten generelle eller for bestemte forretningsprocesser, kan k
 |Læs om bedste fremgangsmåder for at angive varer til lagerkostprisberegning og forsyningsplanlægning.|[Konfigurere komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)|
 |Få bedre implementeringskvalitet, og afkort installationstiden ved hjælp af værktøjer til oprettelse af en ny virksomhed med guider, skabeloner, regneark og spørgeskemaer til kunden.|[Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
 |Overfør oplysninger om debitorer, kreditorer, lagerbeholdning og bankkonti fra et andet system til [!INCLUDE[prod_short](includes/prod_short.md)]|[Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md).|
-|Brug Business Central Outlook-tilføjelsesprogrammer til at se finansielle data, der er relateret til debitorer og kreditorer, eller opret og send finansielle dokumenter, f.eks tilbud og fakturaer.|[Bruge Business Central som din virksomheds indbakke i Outlook](admin-outlook.md)|
-|Få indsigt i dine Business Central-data med Power BI og Business Central-indholdspakker.|[Aktivere virksomhedens data til Power BI](admin-powerbi.md)|
+|Brug Business Central Outlook-tilføjelsesprogrammer til at se finansielle data, der er relateret til debitorer og kreditorer, eller opret og send finansielle dokumenter, f.eks tilbud og fakturaer.|[Brug Business Central som din virksomheds Indbakke i Outlook](admin-outlook.md)|
+|Få indsigt i dine Business Central-data med Power BI og Business Central-indholdspakker.|[Aktivering af dine virksomhedsdata for Power BI](admin-powerbi.md)|
 |Brug dine Business Central-data som en del af en arbejdsproces i Power Automate.|[Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md)|
 |Gør dine Business Central-data tilgængelige som en datakilde i Power Apps.|[Oprette forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af Power Apps](across-how-use-financials-data-source-powerapps.md)|
 |Du kan bruge dedikerede Quickbooks-overførselsvejledninger.|[Skifte fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)|
@@ -63,6 +63,7 @@ For nogle områder kræves, at du skal være administrator i dit [!INCLUDE[prod_
 
 ## <a name="see-also"></a>Se også
 
+[Oversigt over virksomhedsoplysninger](admin-company-information.md)  
 [Opsætning](admin-setup-and-administration.md)  
 [Finans](finance.md)  
 [Salg](sales-manage-sales.md)  
@@ -73,7 +74,7 @@ For nogle områder kræves, at du skal være administrator i dit [!INCLUDE[prod_
 [Montagestyring](assembly-assemble-items.md)  
 [Produktion](production-manage-manufacturing.md)  
 [Logistik](warehouse-manage-warehouse.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Oprettelse af nye virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Blive køreklar](ui-get-ready-business.md)  
 [Hurtig start af Business Central](quick-start-business-central.md)  

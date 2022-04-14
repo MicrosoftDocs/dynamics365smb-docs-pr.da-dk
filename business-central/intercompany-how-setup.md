@@ -7,34 +7,45 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 605, 620, 602, 603, 601, 600, 652, 606, 607, 609, 608, 621
-ms.date: 04/01/2021
+ms.search.form: 605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621
+ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 7efbc6f80eb59b9f0be1640ea2bf6cb57afea4c6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 398f5bbbe30730057093f8550cef27a514cbc20a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131765"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515533"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Konfigurere bogføring af koncernintern transaktion
 
-Når du vil sende en transaktion (f.eks. en salgskladde) fra én virksomhed og få den tilsvarende transaktion (f.eks. en købskladdelinje) oprettet automatisk i partnervirksomheden, skal de involverede virksomheder enes om en fælles kontoplan og et sæt dimensioner, som skal anvendes i koncerninterne transaktioner. Intercompany-kontoplanen kan f.eks. være en forenklet udgave af moderselskabets kontoplan. Hver virksomhed knytter deres samlede kontoplan til den delte intercompany-kontoplan, og hver virksomhed knytter deres dimensioner til intercompany-dimensionerne.  
+Koncerninterne bogføringer gør det lettere for to eller flere virksomheder at foretage en nemmere opgave for en centraliseret finansafdeling og koncerninterne partnervirksomheder. Når du vil sende en transaktion (f.eks. en salgskladde) fra én virksomhed og få den tilsvarende transaktion (f.eks. en købskladdelinje) oprettet automatisk i partnervirksomheden, skal de involverede virksomheder enes om en fælles kontoplan og et sæt dimensioner, som skal anvendes i koncerninterne transaktioner. Intercompany-kontoplanen kan f.eks. være en forenklet udgave af moderselskabets kontoplan. Hver virksomhed knytter deres samlede kontoplan til den delte intercompany-kontoplan, og hver virksomhed knytter deres dimensioner til intercompany-dimensionerne.  
 
-Du skal også oprette en koncernintern partnerkode for hver partnervirksomhed, der er aftalt mellem alle virksomheder, og derefter tildele dem til henholdsvis debitor- og kreditorkort ved at udfylde feltet **Koncernintern partnerkode**.  
+Du skal også oprette en koncernintern partnerkode for hver [!INCLUDE [prod_short](includes/prod_short.md)] virksomhed, der er aftalt mellem alle virksomheder, og derefter tildele dem til henholdsvis debitor- og kreditorkort.  
 
 Hvis du vil oprette eller modtage koncerninterne linjer med varer, kan du enten bruge egne varenumre, eller du kan angive partnerens varenumre for hver relevant vare. Brug enten feltet **Leverandørs varenr.** eller **Fælles varenr.** på varekortet. Du kan også bruge funktionen **Varereference** til at knytte dine varenumrene til dine koncerninterne partneres varebeskrivelser, skal du åbne kortet for hver vare og derefter vælge handlingen **Varereferencer** for at oprette krydsreferencer mellem dine varebeskrivelser og din koncerninterne partners. Du kan finde flere oplysninger i [Bruge varereferencer](inventory-how-use-item-cross-refs.md). 
 
-Hvis du skal foretage IC-salgstransaktioner, der omfatter ressourcer, skal du udfylde feltet **Finanskt.nr. for IC-partnerkøb** på ressourcekortet til hver relevant ressource. Det er nummeret på den IC-finanskonto, som prisen på denne ressource bogføres på i din partners virksomhed. Der er flere oplysninger i [Konfigurere ressourcer](projects-how-setup-resources.md).
+Hvis du skal foretage IC-salgstransaktioner, der omfatter ressourcer, skal du udfylde feltet **Finanskt.nr. for IC-partnerkøb** på ressourcekortet til hver relevant ressource. Det er nummeret på den IC-finanskonto, som prisen på denne ressource bogføres på i din partners virksomhed. Der er flere oplysninger i [Konfigurere ressourcer](projects-how-setup-resources.md). 
 
-## <a name="to-set-up-companies-for-intercompany-transactions"></a>Sådan konfigureres virksomheder til koncerninterne transaktioner
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, åbn **Virksomhedsoplysninger**, og vælg derefter det relaterede link.  
-2. På siden **Virksomhedsoplysninger** skal du udfylde felterne **Koncernintern partnerkode**, **Koncernintern indbakketype**. og **Koncerninterne indbakkeoplysninger**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+> [!NOTE]
+> Koncerninterne købstransaktioner, der omfatter ressourcer, anlægsaktiver og varegebyrer, understøttes ikke fuldstændigt. I den koncerninterne partnervirksomhed er feltet **Linhjetype** tomt på købsdokumentlinjer, som indeholder disse enheder. Du skal opdatere feltet manuelt. 
 
-## <a name="to-set-intercompany-partners"></a>Sådan konfigureres koncerninterne partnere
+## <a name="to-set-up-a-company-for-intercompany-transactions"></a>Sådan konfigureres en virksomhed til koncerninterne transaktioner
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern konfiguration**, og vælg derefter det relaterede link.  
+2. På siden **Koncernintern konfiguration** skal du udfylde følgende felter. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+  > [!NOTE]
+  > 2022 udgivelsesbølge 1 introducerer en ny side til **Koncernintern konfiguration**, så du også kan angive, om der automatisk skal oprettes kladdelinjer på baggrund af koncerninterne partnernes indlæg fra **Koncernintern finanskladde**-siden. Hvis organisationen har brugt [!INCLUDE [prod_short](includes/prod_short.md)] før denne udgivelsesbølge, skal du skifte til den nye oplevelse på siden **Funktionsadministration**. Du kan finde flere oplysninger i [Automatisk accept af transaktioner til koncerninterne kladder](/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/intercompany-postings-have-auto-accept-transaction-enabled-intercompany-general-journals).
+
+I versioner ældre end 2022 udgivelsesbølge 1 skal du i stedet udfylde tre koncernintern-relaterede felter på siden med **Virksomhedsoplysninger**.  
+
+## <a name="to-set-up-intercompany-partners"></a>Opsæt koncerninterne partnere
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncerninterne partnere**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. På siden **Koncerninterne partnere** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Gentag trin 2 og 3 for alle andre virksomheder, der er en del af denne koncerninterne opsætning.
 
 > [!NOTE]
 > I [!INCLUDE[prod_short](includes/prod_short.md)] online kan du ikke bruge filplaceringer til at overføre transaktioner til partnerne, fordi [!INCLUDE[prod_short](includes/prod_short.md)] ikke har adgang til dit lokale netværk. Hvis du vælger **Filplacering** i feltet **Overførselstype**, er feltet **Mappesti** ikke tilgængeligt. I stedet bliver filen downloadet til mappen Overførsler på din computer. Derefter kan du sende filen til en person i partnervirksomheden, f.eks. via mail. Hvis du vil have en mere direkte proces, anbefales du at vælge **Mail** i stedet.
@@ -47,9 +58,9 @@ Hvis du skal foretage IC-salgstransaktioner, der omfatter ressourcer, skal du ud
 5. Gentag trin 1 til 4 for debitorer.
 
 ## <a name="to-set-up-intercompany-charts-of-accounts"></a>Sådan konfigureres koncerninterne kontoplaner
-Virksomhederne i en koncern skal på forhånd aftale, hvilken kontoplan der skal bruges som fælles reference, før de kan foretage IC-transaktioner. Du skal sammen med dine partnere aftale, hvilke kontonumre der skal anvendes, når I opretter IC-transaktioner. Moderselskabet i en koncern kan f.eks. oprette en forenklet version af deres egen kontoplan og udlæse denne IC-kontoplan fra databasen til en XML-fil, hvorefter den kan distribueres til hver virksomhed i koncernen.  
+Virksomhederne i en koncern skal på forhånd aftale, hvilken kontoplan der skal bruges som fælles reference, før de kan foretage IC-transaktioner. Du skal sammen med dine partnere aftale, hvilke kontonumre der skal anvendes, når I opretter koncerninterne transaktioner. Moderselskabet i en koncern kan f.eks. oprette en forenklet version af deres egne kontoplaner, der derefter eksporteres til en XML-fil, der kan distribueres til hver virksomhed i koncernen.  
 
-Hvis din virksomhed er moderselskabet og har den definerende koncerninterne kontoplan, som koncernen skal bruge som fælles reference, skal du følge proceduren: [Sådan konfigureres definition af den koncerninterne kontoplan](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts).  
+Hvis kontoplanen for din virksomhed definerer den koncerninterne kontoplan for partnervirksomheder, skal du følge proceduren, der er beskrevet i: [Sådan konfigureres definition af den koncerninterne kontoplan](intercompany-how-setup.md#to-set-up-the-defining-intercompany-chart-of-accounts).  
 
 Hvis din virksomhed er et datterselskab, og du modtager en XML-fil med den fælles koncerninterne kontoplan, skal du følge proceduren: [Sådan importeres den koncerninterne kontoplan](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
 
@@ -92,7 +103,7 @@ Når du derefter angiver en finanskonto i feltet **Modkontonr.** på en koncerni
 
 ## <a name="to-set-up-intercompany-dimensions"></a>Sådan konfigureres koncerninterne dimensioner
 
-Før du og dine koncerninterne partnere vil kunne udveksle transaktioner med tilknyttede dimensioner, skal I aftale, hvilke dimensioner I alle skal bruge. Moderselskabet i en koncern kan f.eks. oprette en forenklet version af deres eget sæt dimensioner og udlæse disse IC-dimensioner fra databasen til en XML-fil, hvorefter den kan distribueres til hver virksomhed i koncernen. Datterselskaberne i koncernen kan derefter indlæse XML-filen på siden **Koncerninterne dimensioner** i deres eget regnskab og knytte de koncerninterne dimensioner her til dimensionerne på siden **Dimensioner**.  
+Før du og dine koncerninterne partnere vil kunne udveksle transaktioner med tilknyttede dimensioner, skal I aftale, hvilke dimensioner I alle skal bruge. Moderselskabet i en koncern kan f.eks. oprette en forenklet version af deres egne dimensionssæt, eksportere dem til en XML-fil, der kan distribueres til hver virksomhed i gruppen. Datterselskaberne i koncernen kan derefter indlæse XML-filen på siden **Koncerninterne dimensioner** i deres eget regnskab og knytte de koncerninterne dimensioner her til dimensionerne på siden **Dimensioner**.  
 
 > [!NOTE]
 > Hvert regnskab i [!INCLUDE [prod_short](includes/prod_short.md)] skal knytte dimensioner til IC-dimensioner for udgående dokumenter og knytte IC-dimensioner til deres egne dimensioner for indgående dokumenter. Denne tilknytning er med til at sikre konsistens i alle virksomheder. Du kan finde flere oplysninger i afsnittet [Oversigt over tilknytning af intercompany-dimensioner til regnskabets dimensioner](#to-map-intercompany-dimensions-to-your-companys-dimensions).
@@ -145,7 +156,7 @@ I følgende trin skal du først knytte IC-dimensionerne til dimensioner for indg
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

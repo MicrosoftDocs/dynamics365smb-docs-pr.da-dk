@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.search.forms: 5172, 5173, 5170, 5094, 429
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8f43e37b540c9e3b3a89299f8609af7aea8398e9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a91592818e5e486f58857da07d5d9dc0390d5fba
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130322"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517917"
 ---
 # <a name="setting-up-relationship-management"></a>Opsætning af Relationsstyring
 
@@ -32,7 +32,7 @@ Hvis du ændrer et af disse felter på virksomhedskortet, ændres det tilsvarend
 
 Du kan finde flere oplysninger i [Oprette kontakter](marketing-create-contact-companies.md).
 
-## <a name="using-predefined-defaults-on-new-contacts"></a>Bruge foruddefinerede standarder på de nye kontakter
+## <a name="use-predefined-defaults-on-new-contacts"></a>Bruge foruddefinerede standarder på de nye kontakter
 Du kan vælge, at der automatisk skal tildeles bestemte standardværdier for sprogkode, distriktskode, sælgerkode og lande-/områdekode til hver ny kontakt, du opretter. Du kan også angive en standardværdi for salgsproceskode, som automatisk tildeles hvert nyt lead.
 
 Ved kopieringen af felter overskrives de standardværdier, du har defineret. Hvis du f.eks. har angivet dansk som standardsprog, men kontaktvirksomhedens sprog er tysk, bliver sprogkoden for de kontaktpersoner, som er registreret for virksomheden, også tysk.
@@ -59,7 +59,7 @@ Du kan vælge at lade programmet søge automatisk efter dubletter, hver gang du 
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

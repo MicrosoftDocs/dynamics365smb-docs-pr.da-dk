@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 39870723c78bc341ecd32b031503980740151c48
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c2bfe2f10440921c95a7d20f3c601389030813e1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128465"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516209"
 ---
 # <a name="set-up-prepayments"></a>Oprette forudbetalinger
 
@@ -101,7 +101,7 @@ Med andre ord bruges forudbetalingsprocenten på kundekortet kun, hvis der ikke 
 [Beregne moms af varer og ydelser på forudbetalinger i New Zealand](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
 [Om Finans og kontoplanen](finance-general-ledger.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

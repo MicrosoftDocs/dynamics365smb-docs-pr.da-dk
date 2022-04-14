@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: c88081d9489e66979e4cfc757a9f5ed317a85b8e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 37bd1ae61aae45a988ab38f1e25be3f870814f77
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382659"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512884"
 ---
 # <a name="viewing-service-statistics"></a>Visning af servicestatistik
 Du kan bruge statistikker til at analysere servicedokumenter og fastslå, hvor godt du administrerer dine serviceprocesser. Du kan analysere servicekontrakter, -artikler, -tilbud, -ordrer, -fakturaer og -kreditnotaer ved at vælge handlingen **Statistik**. For serviceartikler og -kontrakter, kan du også bruge vinduet **Serviceartikel - Trendscape** eller **Kontrakt - Trendscape** til at få vist en oversigt over serviceposterne for en bestemt serviceartikel.   
@@ -62,7 +62,7 @@ For hver posttype kan du se det fakturerede beløb, forbrug (beløb), kostbeløb
 
 * (Faktureret beløb - Forbrug (varekostpris)) x 100 / Faktureret beløb  
 
-## <a name="using-trendscapes"></a>Ved hjælp af Trendscapes
+## <a name="use-trendscapes"></a>Bruge Trendscapes
 For serviceartikler og servicekontrakter giver siderne **Serviceartikel - Trendscape** eller **Servicekontrakt - Trendscape** en oversigt, du kan rulle op og ned i, over serviceposter i en periode for en bestemt serviceartikel eller -kontrakt. Hvis du vil have vist udviklingen, skal du åbne serviceartiklen eller servicekontrakten, vælge handlingen **statistik** og derefter klikke på **Trendscape**.
 
 Når du ruller op og ned på listen, bliver tallene beregnet i den lokale valuta i overensstemmelse med til de angivne tidsintervaller. Alle beløb beregnes på grundlag af serviceposter, dvs. poster, der oprettes, når du bogfører serviceordrer eller servicefakturaer.

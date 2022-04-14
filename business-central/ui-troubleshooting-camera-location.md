@@ -9,12 +9,12 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: conceptual
-ms.openlocfilehash: c484be64a252ae8f565bf04215b9a2191e572875
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5c5693b05d8590e569e0fb1b80993e35550c5ed5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138202"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518805"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Fejlfinding: Adgang til kamera og placering
 
@@ -46,7 +46,7 @@ Kamera- og placeringsfunktionerne er kun tilgængelige, når du får adgang til 
 Den eneste undtagelse er at oprette forbindelse til `http://localhost`, der bruges til udviklings- og testformål.
 
 
-## <a name="working-with-virtualization-technologies"></a>Arbejde med virtualiseringsteknologier
+## <a name="work-with-virtualization-technologies"></a>Arbejde med virtualiseringsteknologier
 
 Når der oprettes forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)] med fjernskrivebordet eller en anden virtualisering, er der muligvis ikke adgang til kameraet eller placeringen. Hvis det er tilfældet, skal du bruge det fysiske system i stedet for.
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1604bd9cdfd51bcfa35c0417df0d2b300038a5ec
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 40dc8fec4ab6fe7c5756eff539c35c18cdc765ba
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138332"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521620"
 ---
 # <a name="the-ceridian-payroll-extension"></a>Udvidelsen Ceridian-lønudvidelse
 
@@ -28,7 +28,7 @@ Udvidelsen Ceridian løn giver dig mulighed at importere løntransaktioner fra t
 
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

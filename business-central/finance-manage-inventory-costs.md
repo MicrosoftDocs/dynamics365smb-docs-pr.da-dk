@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1b3e724a3dd0f6f8dadd0e6c233fd41795bcbfd9
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 49cc2e9c461974dcdb6fa0612aa9abc11629bd9b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366284"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523419"
 ---
 # <a name="managing-inventory-costs"></a>Administrere lageromkostninger
 Omkostningsadministration, også kendt som "costing", vedrører registrering og rapportering af virksomhedens driftsomkostninger. Den omfatter rapportering af produktionsomkostninger og lageromkostninger, dvs. værdien af varer.   
@@ -44,7 +44,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
  [Lagerbeholdning](inventory-manage-inventory.md)   
  [Salg](sales-manage-sales.md)   
  [Køb](purchasing-manage-purchasing.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e39bd85451406bc835624183a5e65a45935a62ab
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: fdf34ffe09f5a57c45772a58fe6e8e4e9735be11
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334622"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515247"
 ---
 # <a name="send-documents-and-emails"></a>Sende dokumenter og e-mails
 
@@ -76,7 +76,7 @@ Nogle dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)] har et felt, d
 [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  
 [Konfigurere mail](admin-how-setup-email.md)  
 [Fakturere salg](sales-how-invoice-sales.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

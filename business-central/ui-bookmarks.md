@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 5cc5f6039a25161267127f40f4f3077725c5d0bc
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5da6070b00d635cba1aa2cbd7bb282d226d96023
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334924"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521698"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Bogmærke en side eller en rapport i rollecenteret
 Med bogmærkeikonet kan du tilføje en handling, der åbner en side eller en rapport fra navigationsmenuen i dit rollecenter. Med bogmærker kan du hurtigt få adgang til dit foretrukne indhold eller dine forretningsopgaver. Du kan tilføje bogmærket fra målsiden eller rapporten, dvs. det skærmbillede, du vil have linket i rollecenteret til at åbne.
@@ -83,7 +83,7 @@ Når du tilføjer en ny handling, bogmærkes oversat tekst, der var tilgængelig
 
 ## <a name="see-also"></a>Se også
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
 

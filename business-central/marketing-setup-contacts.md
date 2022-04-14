@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 33bb659621fe31d096020c52906915c9697e6a60
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad7cb81559b27ffe1bb715cac30a4286d77f47da
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137831"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516105"
 ---
 # <a name="set-up-contacts"></a>Opsætning af kontakter
 Når du opretter kontakter, kan du angive specifikke oplysninger, f.eks. den branche som kontakten tilhører og dine forretningsmæssige forhold til kontakterne.
@@ -140,7 +140,7 @@ Hvis du ændrer et af disse felter på virksomhedens kontaktkort, opdateres de s
 
 Du kan finde flere oplysninger i [Oprette kontakter](marketing-create-contact-companies.md).
 
-## <a name="using-predefined-defaults-on-new-contacts"></a>Bruge foruddefinerede standarder på de nye kontakter
+## <a name="use-predefined-defaults-on-new-contacts"></a>Bruge foruddefinerede standarder på de nye kontakter
 Du kan vælge, at der automatisk skal tildeles bestemte standardværdier for sprogkode, distriktskode, sælgerkode og lande-/områdekode til hver ny kontakt, du opretter. Du kan også angive en standardværdi for salgsproceskode, som automatisk tildeles hvert nyt lead. Du opretter dette i oversigtspanelet **Standarder** på siden **Marketingopsætning**
 
 Ved kopieringen af felter overskrives de standardværdier, du har defineret. Hvis du f.eks. har angivet dansk som standardsprog, men kontaktvirksomhedens sprog er tysk, bliver sprogkoden for de kontaktpersoner, som er registreret for virksomheden, også tysk.
@@ -159,7 +159,7 @@ Når du har fundet en dubleret kontakt, kan du bruge siden **Flet dublet** til a
 [Administrere kontakter](marketing-contacts.md)  
 [Oprette kontakter](marketing-create-contact-companies.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

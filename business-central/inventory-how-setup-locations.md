@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0a2d5234a78daf6243591cc478ab7b19957a196a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130318"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515507"
 ---
 # <a name="set-up-locations"></a>Opsætte lokationer
 
@@ -75,6 +75,9 @@ Hvis du vil strukturere placeringerne under zoner, kan du gøre det på siden **
 
 Du kan også vælge kun at oprette en enkelt zone og udelukkende organisere lagerstedet efter placeringer. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).  
 
+## <a name="default-dimensions-for-locations"></a>Standarddimensioner for lokationer
+Du kan angive standarddimensioner for en lokation på siden **lokationskort** ved at klikke på **lokation** og derefter på **dimensioner**. Lokationens standarddimensioner kopieres til kladder og bilag, når du angiver lokationen på en linje, men du kan om nødvendigt slette eller ændre dimensionen på linjen. Du kan kræve, at personer angiver dimensioner for bestemte lokationer, før de kan bogføre en post. Du kan også medtage dimensionsværdier for lokationer i **prioriteringer for standarddimensioner** og **dimensionskombinationer** for kombinationer af prioritet og dimensionsregler.
+
 ## <a name="see-also"></a>Se også
 
 [Administrere lager](inventory-manage-inventory.md)  
@@ -82,7 +85,7 @@ Du kan også vælge kun at oprette en enkelt zone og udelukkende organisere lage
 [Oprette placeringer](warehouse-how-to-create-individual-bins.md)  
 [Oprette placeringstyper](warehouse-how-to-set-up-bin-types.md)  
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 

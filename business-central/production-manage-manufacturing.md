@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5406, 5407, 5728, 8903, 9011, 9012, 9013, 9041, 9044, 9047, 9323, 9324, 9325, 9326, 9327, 99000784, 99000785
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5fe4dc0bdfe18172cc2f6709cb55d02e963ffd09
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cdee651c95a1c9e22ded28be1f2af48c5fbaacbf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140783"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521880"
 ---
 # <a name="manufacturing"></a>Produktion
 
@@ -51,7 +51,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Skabelon](production-planning.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 30, 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8eafa5661bd61bc72df55171a2a2a79da045f0e8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 95194e3afed89d8a5636e53e1da76c20d81296ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140498"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522534"
 ---
 # <a name="setup-best-practices-costing-method"></a>Konfigurere bedste fremgangsmåder: kostmetode
 
@@ -37,7 +37,7 @@ Den følgende tabel viser de bedste fremgangsmåder til konfiguration af feltet 
 [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)  
 [Opret komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

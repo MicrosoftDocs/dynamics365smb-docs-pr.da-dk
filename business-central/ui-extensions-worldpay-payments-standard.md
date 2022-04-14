@@ -10,12 +10,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: cdaa582e11d3d0deaabb7282da54f65c447013e1
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 55dd366b65ee831989e09ea08f80b5d656993609
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381376"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521568"
 ---
 # <a name="the-worldpay-payments-standard-extension"></a>Udvidelsen WorldPay Payments Standard
 Med udvidelsen WorldPay Payments Standard kan du tilbyde kunder et praktisk alternativ til betalinger via bankoverførsler eller kreditkort. Ikke nok med det, betalinger foretaget via betalingstjenester står typisk hurtigere på bankkontoen.
@@ -26,7 +26,7 @@ Aktivering af betalingstjenesteudvidelser er gratis i [!INCLUDE[prod_short](incl
 ## <a name="see-also"></a>Se også
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Konfigurere salg](sales-setup-sales.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

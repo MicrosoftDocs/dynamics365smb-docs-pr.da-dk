@@ -1,22 +1,24 @@
 ---
-title: Sådan administreres virksomhedskonfigurationen i et regneark
-description: Konfigurationsregnearket er en central placering, hvor du kan planlægge, spore og udføre virksomhedens konfigurationsarbejde.
+title: Administrere virksomhedskonfigurationen i et regneark
+description: Hvis du bruger RapidStart Services, er konfigurationsregnearket en central placering, hvor du kan planlægge, spore og udføre virksomhedens konfigurationsarbejde.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8632
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 23a999ab500512a4aaed2aaab7e205629b5954b7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c678d48b202043110627a2c8b29ae12be045d38d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141355"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514196"
 ---
-# <a name="manage-company-configuration-in-a-worksheet"></a>Administrere virksomhedskonfigurationen i et regneark
+# <a name="manage-company-configuration-in-a-worksheet-with-rapidstart-services"></a>Administrere virksomhedskonfigurationen i et regneark med RapidStart Services
+
 Konfigurationsregnearket er en central placering, hvor du kan planlægge, spore og udføre konfigurationsarbejdet. Du kan oprette et regneark for hver virksomhed, du arbejder med, eller oprette et standardkonfigurationsregneark, der kan bruges til at konfigurere flere identiske virksomheder.  
 
 Det første trin i at udarbejde en konfigurationspakke er at vælge en virksomhed, du allerede har oprettet og ændret, så den passer til de fleste af dine løsningsbehov. Denne virksomhed tjener som udgangspunkt for konfiguration af arbejde på nye selskaber. I regnearket skal du angive de tabeller, du ønsker, at din konfiguration skal styre og håndtere. Da de fleste tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] har relationer og afhængigheder af andre tabeller, skal du også medtage disse relaterede tabeller efter behov. Sammen fungerer disse tabeller som den struktur, du opbygger en ny virksomhed omkring. Efterfølgende trin kan hjælpe dig med at pakke og derefter installere din konfiguration.  
@@ -25,8 +27,9 @@ Som en hjælp til at registrere og gennemse dit arbejde skal du bruge faktabokse
 
 Følgende procedurer viser, hvordan du tilføjer og tilpasser tabeloplysninger for din konfiguration.  
 
-## <a name="to-open-the-configuration-worksheet"></a>Åbne konfigurationsregnearket  
-1.  I [!INCLUDE[prod_short](includes/prod_short.md)] skal du åbne den virksomhed, der er udgangspunkt for konfigurationen og derefter åbne dens rollecenter for RapidStart Services-implementering.  
+## <a name="to-open-the-configuration-worksheet"></a>Åbne konfigurationsregnearket
+
+1.  Åbn den virksomhed, som er baseret på konfigurationspakken i [!INCLUDE[prod_short](includes/prod_short.md)].  
 2.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Arbejdsark til konfiguration**, og vælg derefter det relaterede link.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Føje en tabel til regnearket  
@@ -40,9 +43,9 @@ Følgende procedurer viser, hvordan du tilføjer og tilpasser tabeloplysninger f
     > [!NOTE]  
     > Relaterede tabeller bliver ikke tilføjet med handlingen **Hent relaterede tabeller**, hvis en af følgende er sandt:
     > - Relationen er betinget.  
-    > Eksempel: Hvis du henter relaterede tabeller for tabellen **Debitor**, så vil tabellen **Lokation** ikke blive tilføjet, da den kun er betinget relateret til tabellen **Debitor**, nemlig hvis feltet **Lokationskode** i tabellen **Debitor** er udfyldt.  
+    >     Eksempel: Hvis du henter relaterede tabeller for tabellen **Debitor**, så vil tabellen **Lokation** ikke blive tilføjet, da den kun er betinget relateret til tabellen **Debitor**, nemlig hvis feltet **Lokationskode** i tabellen **Debitor** er udfyldt.  
     > - Den relaterede tabel er filtreret.  
-    > Eksempel: Et felt i den relaterede tabel indeholder en WHERE-sætning. Årsagen til dette er, at de involverede relaterede oplysninger er gemt i systemtabellen **Felt**, der ikke er fuldt tilgængelig for anvendelsen.  
+    >     Eksempel: Et felt i den relaterede tabel indeholder en WHERE-sætning. Årsagen til dette er, at de involverede relaterede oplysninger er gemt i systemtabellen **Felt**, der ikke er fuldt tilgængelig for anvendelsen.  
     > Du skal tilføje sådanne typer af tabeller manuelt ved at følge trin 4 i denne procedure.  
 
 8.  Hvis du vil redigere den resulterende liste over tabeller, skal du markere en tabel, du vil fjerne, og derefter vælge handlingen **Slet**.  

@@ -1,23 +1,23 @@
 ---
-title: Installere og fjerne udvidelser i Business Central | Microsoft Docs
+title: Installere og fjerne udvidelser
 description: Få mere at vide om at installere og fjerne udvidelser i Business Central.
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 06/03/2021
+ms.search.form: 2500
+ms.date: 03/25/2022
 ms.author: solsen
-ms.openlocfilehash: 7868e0dc10c3ec0f81f39b714b8d517fcf3c5f06
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140393"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514747"
 ---
-# <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installere og fjerne udvidelser i Business Central
+# <a name="install-and-uninstall-extensions-in-business-central"></a>Installere og fjerne udvidelser i Business Central
 
 Du kan ændre [!INCLUDE[prod_short](includes/prod_short.md)] ved at installere udvidelser, der f.eks. tilføjer funktioner, ændrer funktionsmåder eller giver dig adgang til nye onlinetjenester. Du kan finde flere oplysninger i [Tilpasse Business Central ved hjælp af udvidelser](ui-extensions.md).
 
@@ -29,7 +29,7 @@ Du kan ændre [!INCLUDE[prod_short](includes/prod_short.md)] ved at installere u
 > [!NOTE]  
 > Funktionen **EXTEND. MGT. - ADMIN**-tilladelsessættet blev introduceret i Business Central 2021 Release Wave 1 som en erstatning for **D365 EXTENSION MGT**-tilladelsessættet i tidligere versioner.
 
-## <a name="installing-an-extension"></a>Installation af en udvidelse
+## <a name="install-an-extension"></a><a name="install"></a>Installér en udvidelse
 
 Du kan administrere udvidelser på siden **Udvidelsesstyring**. Du kan åbne siden fra Start. Alternativt kan du vælge ikonet **Søg efter side eller rapport** ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") Skriv **Udvidelse** i øverste højre hjørne , og vælg derefter det relaterede link.  
 
@@ -75,14 +75,13 @@ Microsoft tilbyder følgende udvidelser:
 * [Udvidelsen Britiske GetAddress.io-postnumre](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Send remitteringsadvis](ui-extensions-send-remittance-advice.md)
 
-
-## <a name="uploading-a-per-tenant-extension-pte"></a>Overfører en udvidelse pr. lejer (PTE)
+## <a name="upload-a-per-tenant-extension-pte"></a>Overfører en udvidelse pr. lejer (PTE)
 
 Du kan overføre en PTE ved hjælp af siden **styring af udvidelser**. Gå til **Administrer** på siden **udvidelsesstyring**, og vælg derefter **Overfør udvidelse**. Angiv den. programfil, der skal overføres, på siden **Overfør og installér udvidelse**. Hvis du vil fortsætte, skal du vælge knappen **Acceptér** og derefter knappen **Implementér** for at implementere PTE.
 
-Hvis PTE indeholder ændringer af skemaændringer, er det muligt at *gennemtvinge* overførslen. Hvis du vil gøre det, skal du vælge indstillingen **Gennemtving** i tilstanden **Skemasynkronisering**. Du får vist en bekræftelsesdialogboks, før du fortsætter. 
+Hvis PTE indeholder ændringer af skemaændringer, er det muligt at *gennemtvinge* overførslen. Hvis du vil gøre det, skal du vælge indstillingen **Gennemtving** i tilstanden **Skemasynkronisering**. Du får vist en bekræftelsesdialogboks, før du fortsætter.  
 
-## <a name="uninstalling-an-extension"></a>Fjerne en udvidelse
+## <a name="uninstall-an-extension"></a>afinstallere en udvidelse
 
 Du fjerner en udvidelse via siden **Udvidelsesstyring**. Hvis du fjerner en udvidelse, og du senere skifter mening, kan du installere udvidelsen igen. Når du fjerner en udvidelse, som du har brugt, bevares dataene som standard, hvis du installerer udvidelsen igen. Du kan i stedet vælge at slette dataene med udvidelsen. Dette styres af afkrydsningsfeltet **Slet udvidelsesdata**. Dette afkrydsningsfelt er som standard *ikke aktiveret*.
 

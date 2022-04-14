@@ -10,12 +10,12 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.search.form: 9901, 9018, 9020, 9022, 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3161c51160790b2fcc4e702866025e501167b644
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 912309636020923e522ea3060abf814c179dcbb1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335600"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521380"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Eksportere forretningsdata til Excel
 Hvis du vil arbejde med dine data fra [!INCLUDE[prod_short](includes/prod_short.md)] i Excel, kan du åbne alle lister i Excel og arbejde med dem der. På samme måde, hvis du vil annullere dit abonnement på [!INCLUDE[prod_short](includes/prod_short.md)], kan du eksportere dataene til Excel, så du kan tage dem med dig.
@@ -81,7 +81,7 @@ Du kan finde flere oplysninger i [Sådan får du vist en oversigt over en bruger
 [Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md)  
 [Finans](finance.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

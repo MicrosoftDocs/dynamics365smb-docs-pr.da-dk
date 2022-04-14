@@ -8,12 +8,12 @@ ms.search.keywords: project management
 ms.search.form: 211, 463, 1012
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d4880f91c53e8618db9be5e0bcdbfa396cbf21fd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e150dfec7471ad755ce6e0f69a224a36f24fc6f3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137441"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514904"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Oprette sager, priser og sagsbogføringsgrupper
 
@@ -67,7 +67,6 @@ I følgende tabel vises, hvordan oplysningerne i de valgfrie felter bruges på S
 |**Sagsvarepriser**|Felterne **Sagsopgavenr.**, **Valutakode** og **Linjerabat i %**. Værdien i feltet **Enhedspris** for varen bruges i sagsplanlægningslinjerne og sagskladderne, når varen angives. Bemærk, at denne pris altid vil tilsidesætte den normale debitorpris (“bedste pris”-mekanisme) for varer. Hvis du vil bruge den normale debitorpris, skal du ikke oprette sagsvarepriser.|
 |**Finanskonti**|Oplysninger i felterne **Sagsopgavenr.**, **Valutakode**, **Linjerabat i %**, **Kostprisfaktor** og **Kostpris** bruges i sagsplanlægningslinjerne og sagskladderne, når denne finanskonto angives og tilføjes til sagen. Værdien i feltet **Kostpris** for finanskontosagsudgiften bruges i sagsplanlægningslinjerne og sagskladderne, når denne finanskonto angives.|
 
----
 #### <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience)
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
 2. Markér den relevante sag, og vælg derefter handlingen **Sagsplanlægningslinjer**.
@@ -109,7 +108,7 @@ Et aspekt af planlægningssager er at beslutte, hvilke bogføringkonti, der skal
 [Finans](finance.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

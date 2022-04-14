@@ -10,12 +10,12 @@ ms.search.keywords: project invoice
 ms.search.form: 1002, 1007,
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: d2d2437028c5d7e7f8ad4bc613e4f6bf1dc06de3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 792b5a3640693b7d1be76b319dfc4e713085106f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146302"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516610"
 ---
 # <a name="invoice-jobs"></a>Fakturere sager
 I løbet af projektet kan der akkumuleres sagsomkostninger fra ressourceforbrug, materialer og sagsrelaterede indkøb. Efterhånden som status for sagen ændrer sig, bogføres disse transaktioner i sagskladden. Det er vigtigt, at alle omkostninger er registreret i sagskladden, før du fakturerer kunden.
@@ -27,6 +27,8 @@ Du kan fakturere hele sagen fra siden **Sagsopgavelinjer** eller kun fakturere d
 
 > [!NOTE]  
 > Hvis du vælger **Fakturerbar** i feltet **Linjetype for sag** på købsdokumenter for sagsrelaterede indkøb, oprettes der sagsplanlægningslinjer, som er klar til blive faktureret til kunden. Du kan finde flere oplysninger i [Administrere projektforsyninger](projects-how-manage-project-supplies.md).
+
+Du kan også fakturere en virksomhed, der ikke er slut debitor. Nogle gange adskiller den part, der er til projektet, sig fra den part, der betaler fakturaen. På siden **sager** kan du angive den kunde, der skal have fordel af projektet i felterne **kunde**, og den part, der skal faktureres, i felterne **faktureres**. 
 
 ## <a name="to-create-multiple-job-sales-invoices"></a>Sådan opretter du flere salgsfakturaer for sager
 Du kan oprette en faktura for en sag eller for en eller flere sagsopgaver for en debitor, når det arbejde, der skal faktureres, er udført, eller når den fakturadato, som er angivet i et fakturaskema, nås.
@@ -67,7 +69,7 @@ Du kan oprette en faktura ud fra en sagsplanlægningslinje, og på det tidspunkt
 [Finans](finance.md)  
 [Køb](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)      
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

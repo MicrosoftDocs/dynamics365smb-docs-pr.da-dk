@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 99000867
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: dd9010e055e5e24cafb87846b8eed98f54d83474
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 375b6a4a57ae75a2f471db96cee5611736b39f34
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147826"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520434"
 ---
 # <a name="about-finished-production-order-costs"></a>Om de færdige produktionsomkostninger
 
@@ -25,7 +25,7 @@ Hvis du forbruger materiale for at producere en vare i et standardkostprismiljø
 
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Produktion](production-manage-manufacturing.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

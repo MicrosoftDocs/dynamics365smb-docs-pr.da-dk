@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a4abd45046beb70376490dbd4209f33debf6b573
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a9118614872559a9b2c321e7869f1b013266d92b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382055"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522140"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Allokere omkostninger til IC-partnere
 Når du bruger Intercompany-bogføringer til at overføre dokumenter mellem partner firmaer, har momsrelaterede indstillinger (primært den momsvirksomhedsbogføringsgruppe), der er tildelt debitor-eller kreditorkontiene (associeret med IC-partneren), at bestemme, om og hvordan moms skal beregnes og registreres. Du kan også foretage omkostningsfordelinger direkte fra en købsordre til partnervirksomheder. Hvis du f.eks. registrerer en købsfaktura fra en ekstern leverandør, og du vil distribuere nogle eller alle omkostninger til en eller flere IC-partnere.
@@ -91,6 +91,6 @@ Når du bruger et dokument til at fordele omkostninger til IC-partnere, er der t
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

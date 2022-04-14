@@ -10,12 +10,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 161, 254, 256, 347, 574, 599, 9002
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ef7b8fafd5949d9a3595a003c4840994e2319d54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7365ca162baf7aacb0cac16d5eee3fdec0e7c098
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137727"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523341"
 ---
 # <a name="managing-payables"></a>Administrere skyldige beløb
 
@@ -42,7 +42,7 @@ Den følgende tabel indeholder en opgavesekvens i kreditorer med links til de em
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

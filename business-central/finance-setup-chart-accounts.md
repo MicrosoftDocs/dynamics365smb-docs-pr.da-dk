@@ -8,16 +8,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
 ms.search.form: 16, 17, 18, 118, 386, 391
-ms.date: 06/22/2021
+ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 3ddb1a5612eb4a2c060357b32e8209accdda7349
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f2ef4432d91d9f647a4bea58febbdfd5513a4350
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147618"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520278"
 ---
-# <a name="setting-up-or-changing-the-chart-of-accounts"></a>Konfigurere eller ændre kontoplanen
+# <a name="set-up-or-change-the-chart-of-accounts"></a>Konfigurere eller ændre kontoplanen
 
 Kontoplanen viser de finanskonti, hvor dine finansielle data er gemt. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en standardkontoplan, der er klar til at understøtte din virksomhed.
 Men du kan ændre standardkontiene, og du kan tilføje nye konti.
@@ -25,7 +25,7 @@ Men du kan ændre standardkontiene, og du kan tilføje nye konti.
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="adding-or-changing-accounts"></a>Tilføjelse eller ændring af konti
+## <a name="add-or-change-accounts"></a>Tilføje eller ændre konti
 
 Fra kontoplanen kan du åbne hver finanskonto og tilføje eller ændre indstillinger for hver konto. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
@@ -36,7 +36,7 @@ For kontoer af typen **I alt** skal du udfylde feltet **Sammentælling**. For ko
 > [!IMPORTANT]
 > Hvis du har angivet definitioner i felterne **I alt** for konti med **Til-sum**, før du anvender indrykningsfunktionen, skal du angive dem igen bagefter, fordi funktionen overskriver værdierne i alle felter med **Til-sum**.
 
-## <a name="deleting-accounts"></a>Sletning af konti
+## <a name="delete-accounts"></a>Slet konti
 
 Du kan slette en finanskonto. Men før du sletter den, skal følgende være opfyldt:  
 
@@ -45,6 +45,18 @@ Du kan slette en finanskonto. Men før du sletter den, skal følgende være opfy
 * Hvis feltet **Kontroller brug af finanskonto** på siden **Opsætning af Finans** er markeret, må kontoen ikke bruges i nogen bogføringsgrupper eller bogføringsopsætning.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] forhindrer, at du kan slette en finanskonto, der indeholder data, der skal bruges i kontoplanen.  
+
+## <a name="block-deletion-of-gl-accounts"></a>Bloker sletning af finanskonti
+
+[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+
+2022 udgivelsesbølge 2 introducerer en ekstra beskyttelse mod utilsigtet sletning af finanskonti i de situationer, hvor kriterierne er opfyldt.  
+
+Et nyt felt, **bloker sletning af finanskonti**, føjes til **Finansopsætning**-siden. Feltet fungerer som en ekstra validering, når en bruger forsøger at slette en konto, hvor der er poster efter den dato, der er angivet i feltet **Kontroller finanskontosletning efter**.
+
+Når feltet **Bloker sletning af finanskonti** er angivet til *Ja*, kan du ikke slette finanskonti, der er sagsposter efter den dato i feltet **Kontrollér sletning af finanskonto efter**. Hvis du vil slette en sådan konto, skal en bruger med adgang til siden **Finansopsætning** først angive feltet til *Nej*. Kontoen kan derefter slettes.  
+
+Det anbefales, at du angiver feltet **Bloker sletning af finanskonti** til *Ja*. Det anbefales også, at du altid har en dato i feltet **Kontrollér sletning af finanskonto efter**, f. eks. det tidspunkt, hvor du skal gemme dine økonomi data.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
 
@@ -55,7 +67,7 @@ Du kan slette en finanskonto. Men før du sletter den, skal følgende være opfy
 [Arbejde med dimensioner](finance-dimensions.md)  
 [Importere data fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Arbejde med kontoskemaer](bi-how-work-account-schedule.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Nulstil konti til resultatopgørelse i den franske version](LocalFunctionality/France/how-to-close-income-statement-accounts.md)  
 [Udskriv resultatopgørelser i den australske version](LocalFunctionality/Australia/how-to-print-income-statements.md)  
 [Udskriv resultatopgørelser i den new zealandske version](LocalFunctionality/NewZealand/how-to-print-income-statements.md)  

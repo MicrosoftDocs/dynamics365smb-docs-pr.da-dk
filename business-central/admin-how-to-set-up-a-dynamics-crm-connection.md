@@ -8,12 +8,12 @@ ms.search.keywords: ''
 ms.search.forms: 7200, 7201
 ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: f83764061bb341b0b9d6619a0c5d14cac6b664a9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 57f8091d81870f9e58af80462259006d4cb822ae
+ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383827"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8485028"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Opret forbindelse til Microsoft Dataverse
 
@@ -25,10 +25,10 @@ Dette emne beskriver, hvordan du konfigurerer en forbindelse mellem [!INCLUDE[pr
 
 Der er et par oplysninger, som du skal have klar, før du opretter forbindelsen:  
 
-* URL-adressen til det [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-miljø, som du vil oprette forbindelse til. Hvis du bruger vejledningen **Dataverse-forbindelsesopsætning** til at oprette forbindelsen, registrerer vi dine miljøer, men du kan også angive URL-adressen til et andet miljø i din lejer.  
+* URL-adressen til det [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-miljø, som du vil oprette forbindelse til. Hvis du bruger den **Konfiguration af Dataverse-forbindelse**-assisterende installationsvejledning til at oprette forbindelsen, vil vi finde dine miljøer. Du kan også angive URL-adressen på et andet miljø i din lejer.  
 * Brugernavn og adgangskode til en konto, der har administratorrettigheder i [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 * Hvis du har en lokal [!INCLUDE[prod_short](includes/prod_short.md)] 2020 Release Wave 1, version 16,5, skal du læse [Kendte problemer](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services)-artikler. Du skal fuldføre den beskrevne løsning, før du kan oprette forbindelsen til [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
-* Den lokale valuta for firmaet i [!INCLUDE[prod_short](includes/prod_short.md)] skal være den samme som basistransaktionsvalutaen i [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Når der er angivet en basistransaktion i [!INCLUDE[cds_long_md](includes/cds_long_md.md)], kan den ikke ændres. Du kan finde flere oplysninger i [Transaktionsvaluta (valuta)-enheden](/powerapps/developer/data-platform/transaction-currency-currency-entity). Det betyder, at alle [!INCLUDE[prod_short](includes/prod_short.md)] firmaer, som du opretter forbindelse til en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-organisation, skal bruge samme valuta.
+* Den lokale valuta for firmaet i [!INCLUDE[prod_short](includes/prod_short.md)] skal være den samme som basistransaktionsvalutaen i [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Når du har foretaget en transaktion i grundvalutaen i [!INCLUDE[cds_long_md](includes/cds_long_md.md)], kan du ikke ændre den. Du kan finde flere oplysninger i [Transaktionsvaluta (valuta)-enheden](/powerapps/developer/data-platform/transaction-currency-currency-entity). Alle [!INCLUDE[prod_short](includes/prod_short.md)] firmaer, som du opretter forbindelse til en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-organisation, skal bruge samme valuta.
 
 > [!IMPORTANT]
 > Det [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-miljø må ikke være i administrationstilstand. Administrationstilstand forårsager, at forbindelsen mislykkes, fordi integrationsbruger kontoen for forbindelsen ikke har administratorrettigheder. Der er flere oplysninger i [Administrationstilstand](/power-platform/admin/admin-mode).
@@ -71,12 +71,12 @@ Dataverse-forbindelsesopsætningsvejledning kan gøre det nemmere at oprette for
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Sådan oprettes eller vedligeholdes forbindelsen manuelt
 
-Følgende procedure beskriver, hvordan du kan opsætte forbindelsen manuelt på siden **Dataverse-forbindelsesopsætning**. Det er også den side, hvor du administrerer indstillingerne til integration.
+Følgende procedure beskriver, hvordan du kan opsætte forbindelsen manuelt på siden **Dataverse-forbindelsesopsætning**. Siden **Konfiguration af Dataverse-forbindelse** er den side, hvor du administrerer indstillingerne.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Dataverse-forbindelseskonfiguration**, og vælg derefter det relaterede link.
 2. Indtast følgende oplysninger vedrørende forbindelsen fra [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-    |Felt|Beskrivelse|
+    |Felt|Beskrivlse|
     |-----|-----|
     |**URL-adresse til miljø**|Hvis du ejer miljøer i [!INCLUDE[cds_long_md](includes/cds_long_md.md)], finder vi dem for dig, når du kører installationsvejledningen. Hvis du vil oprette forbindelse til et andet miljø i en anden lejer, kan du angive administrator-legitimationsoplysninger til miljøet, og dem vil vi registrere. |
     |**Aktiveret**|Begynd at bruge integrationen. Hvis du ikke kan aktivere forbindelse nu, gemmes forbindelsesindstillingerne, men brugerne vil ikke kunne få adgang til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] data fra [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan vende tilbage til denne side og aktivere forbindelsen senere.  |
@@ -88,7 +88,7 @@ Følgende procedure beskriver, hvordan du kan opsætte forbindelsen manuelt på 
 
     <!-- |Field|Description|
     |-----|-----|
-    |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
+    |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you're using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who don't have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account won't have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
     |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field|-->
 4. Du kan teste forbindelsesindstillingerne ved at vælge **Forbindelse** og derefter **Test forbindelse**.  
 
@@ -107,35 +107,33 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 ## <a name="customize-the-match-based-coupling"></a>Tilpas den matchbaserede sammenkædning
 
-Fra 2021 Release Wave 2 kan du koble poster i [!INCLUDE [prod_short](includes/prod_short.md)] og [!INCLUDE [cds_long_md](includes/cds_long_md.md)] ud fra matchende kriterier, der er defineret af administratoren.  
-
-Algoritmen til identiske poster kan startes fra følgende placeringer i [!INCLUDE [prod_short](includes/prod_short.md)]:
+Fra 2021 udgivelsesbølge 2 kan en administrator angive kriterier for at sammenkæde poster baseret på matches. Du kan starte algoritmen til identiske poster kan startes fra følgende placeringer i [!INCLUDE [prod_short](includes/prod_short.md)]:
 
 * Vis sider, der viser poster, som er synkroniseret med [!INCLUDE [cds_long_md](includes/cds_long_md.md)], f. eks. siderne kunder og varer.  
 
     Vælg flere poster, vælg derefter den **relaterede** handling, Vælg **Dataverse**, vælg **sammenkædning**, og vælg derefter **matchbaseret sammenkædning**.
 
-    Når den match baserede sammenkædningsproces startes fra en Master dataliste, planlægges et sammenkædningsjob, umiddelbart efter at du har valgt sammenkædningskriterierne.  
+    Når du starter den match baserede sammenkædningsproces startes fra en Master dataliste, planlægges et sammenkædningsjob, umiddelbart efter at du har valgt sammenkædningskriterierne.  
 * Siden **Dataverse Fuld synkroniseringsgennemgang**.  
 
     Når hele synkroniseringsprocessen registrerer, at du har ikke-sammenkædede poster både i [!INCLUDE [prod_short](includes/prod_short.md)] og i [!INCLUDE [cds_long_md](includes/cds_long_md.md)], vises der et **Vælg sammenkædningskriterie**-link for den relevante integrationstabel.  
 
-    Du kan starte processen til **fuld synkronisering** fra **Konfiguration af Dataverse-forbindelse**-opsætningssiden og **Konfiguration af Dynamics 365-forbindelse**, og den kan startes som et trin i indstillingen **Konfigurere en forbindelse til Dataverse** assisteret opsætning, når du vælger at afslutte installationen og køre fuld synkronisering sidst.  
+    Du kan starte processen **Kør fuld synkronisering** fra siderne **Konfiguration af Dataverse-forbindelse** og **Opsætning af Dynamics 365-forbindelse**. Du kan også starte den i **Konfigurer en forbindelse til Dataverse**-assisteret installationsprogram, når du har fuldført installationen.  
 
-    Når den matchbaserede sammenkædningsproces startes fra siden **Dataverse Fuld synkroniseringsgennemgang**, planlægges et sammenkædningsjob, umiddelbart efter at du har fuldført opsætningen.  
+    Når du starter den matchbaserede sammenkædningsproces startes fra siden **Dataverse Fuld synkroniseringsgennemgang**, planlægges et sammenkædningsjob, umiddelbart efter at du har fuldført opsætningen.  
 * Listen **Integrationstabelstilknytning**.  
 
     Vælg en tilknytning, Vælg handlingen **Sammenkædning**, og vælg derefter **Match-baseret sammenkædning**.
 
-    Når den matchbaserede sammenkædningsproces startes fra en integrationstabeltilknytning, køres der et sammenkædningsjob for alle ikke-tilknyttede poster i tilknytningen. Hvis den blev kørt for et sæt af valgte poster på listen, køres den kun for de valgte ikke-sammenkædede poster.
+    Når du starter den matchbaserede sammenkædningsproces startes fra en integrationstabeltilknytning, køres der et sammenkædningsjob for alle ikke-tilknyttede poster i tilknytningen. Du kan også vælge ikke-koblede poster på listen for at køre kun opgaven for de pågældende poster.
 
 I alle tre tilfælde åbnes siden **Vælg sammenkædningskriterier**, så du kan definere de relevante sammenkædningskriterier. På denne side kan du tilpasse sammenkædningen med følgende opgaver:
 
-* Du kan vælge, hvilke felter der skal matche [!INCLUDE [prod_short](includes/prod_short.md)]-poster og [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-enheder efter, og du skal også vælge, om feltet tilsvarende skal skelne mellem store og små bogstaver.  
+* Vælg de felter, der skal bruges til at matche [!INCLUDE [prod_short](includes/prod_short.md)]-poster med [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-enheder. Du kan angive, om der er forskel på store og små bogstaver.  
 
-* Angive, om der skal køres en synkronisering efter koblings poster, og du kan også vælge, om konflikter skal vises på siden **Løs opdateringskonflikter, hvis der anvendes tovejs tilknytning**.  
+* Angiv, om du vil synkronisere, når du har koblet posterne. Hvis der bruges tovejs tilknytning af poster, kan du også angive, hvad der sker, hvis konflikter er angivet på siden **Løs Opdateringskonflikter**.  
 
-* Prioritere den rækkefølge, som poster gennemsøges i, ved at angive en *matchprioritet* for de relevante tilknytningsfelter. De match prioriteter gør algoritme søgningen efter et match i et antal gentagelser, sådan som det er defineret af værdierne i **matchprioriteterne** i stigende rækkefølge. En tom værdi i feltet **Match prioritet** fortolkes som prioritet 0, så felter med denne værdi fyld medtages først.  
+* Prioritere den rækkefølge, som poster gennemsøges i, ved at angive en *matchprioritet* for de relevante tilknytningsfelter. [!INCLUDE [prod_short](includes/prod_short.md)] søger efter et match i stigende rækkefølge på grundlag af værdien i feltet **Match prioritet**. En tom værdi i feltet **Match prioritet** er lig med prioriteten 0, som er den højeste prioritet. Felter med prioriteten 0 behandles først.  
 
 * Angiv, om der skal oprettes en ny enhedsforekomst i [!INCLUDE [cds_long_md](includes/cds_long_md.md)], hvis der ikke er en entydig, ikke-sammenkoblet match, ved hjælp af søgekriterierne. Hvis du vil aktivere denne funktion, skal du markere afkrydsningsfeltet **Opret ny, hvis der ikke findes en match**-handling.  
 
@@ -143,48 +141,44 @@ I alle tre tilfælde åbnes siden **Vælg sammenkædningskriterier**, så du kan
 
 Hvis du vil have vist resultaterne af sammenkædningssagen, skal du åbne siden **integrationstabeltilknytninger**, vælge den relevante tilknytning, vælge **sammenkædningshandlingen** og derefter vælge handlingen foretag tilknytning af **integrationssammenkædningsjob**.  
 
-Hvis der er poster, der ikke er blevet kombineret, kan du foretage detaljeopløftning af værdien i kolonnen mislykkede kolonner, som åbner en liste over fejl, der angiver, hvorfor posterne ikke er blevet sammenkædet.  
+Hvis der ikke er flere poster, kan du vælge værdien i kolonnen **Mislykkede** for at åbne en liste over fejl, der beskriver, hvorfor det skete.  
 
-Mislykket kobling sker ofte i følgende tilfælde:
+Koblingen mislykkes typisk af følgende årsager:
 
 * Der blev ikke defineret overensstemmende kriterier
 
-    Hvis det er tilfældet, skal du køre den match-baserede sammenkædning igen, men husk at definere sammenkædningskriterierne.
+    Kør den match-baserede sammenkædning igen, men husk at definere sammenkædningskriterierne.
 
-* Der blev ikke fundet et match, der er baseret på de valgte matchende felter
+* Der blev ikke fundet noget resultat for de felter, der er angivet i matchkriterier
 
-    Hvis det er tilfældet, skal du gentage sammenkædningen med andre tilsvarende felter.
+    Gentag tilkoblingen med forskellige felter.
 
-* Der er fundet flere matches for poster, baseret på de valgte matchende felter  
+* Der er fundet flere matches for flere poster, baseret på de felter, der er angivet i matchende kriterier  
 
-    Hvis det er tilfældet, skal du gentage sammenkædningen med andre tilsvarende felter.
+    Gentag tilkoblingen med forskellige felter.
 
-* Der blev fundet et enkelt match, men den tilhørende post er allerede kombineret med en anden post i [!INCLUDE [prod_short](includes/prod_short.md)]  
+* Der blev fundet et match, men posten er allerede kombineret med en post i [!INCLUDE [prod_short](includes/prod_short.md)]  
 
-    Hvis det er tilfældet, skal du gentage sammenkædningen med et andet matchende felt eller undersøge, hvorfor enheden [!INCLUDE [cds_long_md](includes/cds_long_md.md)] er sammenkædet til den pågældende anden post i [!INCLUDE [prod_short](includes/prod_short.md)].
+    Gentag sammenkædningen med andre felter eller undersøg, hvorfor enheden [!INCLUDE [cds_long_md](includes/cds_long_md.md)] er sammenkædet til den pågældende post i [!INCLUDE [prod_short](includes/prod_short.md)].
 
 > [!TIP]
-> For at hjælpe dig med at få et overblik over fremdriften i koblingen viser feltet **sammenkoblet til Dataverse**, om en bestemt post er koblet til en [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-enhed. Du kan filtrere listen over poster, der synkroniseres med [!INCLUDE [cds_long_md](includes/cds_long_md.md)] i dette felt.
+> For at hjælpe dig med at få et overblik over fremdriften i koblingen viser feltet **sammenkoblet til Dataverse**, om en bestemt post er koblet til en [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-enhed. Du kan bruge feltet **Sammenkoblet med Dataverse** til at filtrere listen over poster, som du synkroniserer.
 
 ## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Opgradere forbindelser fra Business Central Online til brug certifikatbaseret godkendelse
 > [!NOTE]
 > Dette afsnit er kun relevant for [!INCLUDE[prod_short](includes/prod_short.md)] online-lejere, der er hosted af Microsoft. Online-arkitekturer, der er hosted af ISV'er og lokale installationer, påvirkes ikke.
 
-I april 2022 frarådes [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Office365-godkendelsestypen (username/password). Du kan finde flere oplysninger i [Frarådelse af Office365-godkendelsestype](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Derudover i marts 2021 fraråder [!INCLUDE[prod_short](includes/prod_short.md)] brugen af klienthemmelig-baseret service-to-service-godkendelse til online lejer, og det kræver, at der bruges certifikatbaseret service til service-godkendelse for forbindelser til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online-lejere, der er hosted af ISV'er og lokale installationer, kan fortsætte med at bruge klientens hemmelige godkendelse til at oprette forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+I april 2022 udfases [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Office365-godkendelsestypen (username/password). Du kan finde flere oplysninger i [Frarådelse af Office365-godkendelsestype](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). I marts 2022 [!INCLUDE[prod_short](includes/prod_short.md)] udfases desuden brug af klient hemmelig baseret service-to-service-godkendelse til online lejeres. Du skal bruge certifikatbaseret service-til-tjeneste-godkendelse til forbindelser med [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)] online-lejere, der er hosted af ISV'er og lokale installationer, kan fortsætte med at bruge klientens hemmeligheder til godkendelse.
 
 Hvis du vil undgå at afbryde integration, _skal du opgradere_ forbindelsen til at bruge certifikatbaseret godkendelse. Selvom der er planlagt ændringer for marts 2022, anbefaler vi på det kraftigste, at du opgraderer så hurtigt som muligt. Følgende fremgangsmåde beskriver, hvordan du opgraderer til certifikatbaseret godkendelse. 
 
 ### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Opgradere forbindelser fra Business Central Online til brug certifikatbaseret godkendelse
 
-> [!NOTE]
-> Certifikatbaseret godkendelse er tilgængelig i Business central 2021 Release Wave 1 og nyere versioner. Hvis du bruger en tidligere version, skal du planlægge en opdatering til Business central 2021 Release Wave 1 før marts, 2022. Yderligere oplysninger finder du i [Planlagte opdateringer](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Hvis der opstår problemer, skal du kontakte din partner eller support.
-
-1. Kontroller i [Business Central-administrationscenter](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), at du bruger Business Central 2021 Udgivelsesbølge 1 eller nyere (version 18 eller nyere).
-2. Afhængigt af om du integrerer med Dynamics 365 Sales, skal du benytte en af følgende fremgangsmåder:
+1. Afhængigt af om du integrerer med Dynamics 365 Sales, skal du benytte en af følgende fremgangsmåder:
    * Hvis du gør det, skal du åbne siden **Microsoft Dynamics 365-forbindelseskonfiguration**.
    * Hvis du ikke gør det, skal du åbne siden **Dataverse-forbindelseskonfiguration**.
-3. Vælg **Forbind**, og derefter **Brug certifikatgodkendelse** til at opgradere forbindelsen til at bruge certifikatbaseret godkendelse.
-4. Log ind med administratorrettigheder til Dataverse. Log på skal være mindre end et minut.
+2. Vælg **Forbind**, og derefter **Brug certifikatgodkendelse** til at opgradere forbindelsen til at bruge certifikatbaseret godkendelse.
+3. Log ind med administratorrettigheder til Dataverse. Det bør tage mindre end et minut at logge på.
 
 > [!NOTE]
 > Du skal gentage disse trin i hvert [!INCLUDE[prod_short](includes/prod_short.md)]-miljø, herunder både produktions-og sandkasse miljøer, og i hvert regnskab, du har forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
@@ -193,7 +187,7 @@ Hvis du vil undgå at afbryde integration, _skal du opgradere_ forbindelsen til 
 
 Hvis du vil forbinde [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø med [!INCLUDE[cds_long_md](includes/cds_long_md.md)], skal du angive nogle oplysninger på siden **Konfiguration af Dataverse-forbindelse**.
 
-Hvis du vil oprette forbindelse ved hjælp af en Azure Active Directory-konto (Azure AD), skal du registrere et program i Azure AD og angive program-id'et, Key Vault-hemmeligheden og den omdirigerings-URL-adresse, der skal bruges. URL-adressen til omdirigering er forudindstillet og bør fungere for de fleste installationer. Du skal konfigurere installationen til at bruge HTTPS. Du kan finde flere oplysninger i [Konfigurere SSL for at sikre forbindelsen til Business Central-webklienten](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Hvis du opsætter serveren, så den har en anden startside, kan du altid ændre URL-adressen. Klientens hemmelighed gemmes som en krypteret streng i din database. 
+Hvis du vil oprette forbindelse ved hjælp af en Azure Active Directory (Azure AD)-konto, skal du registrere et program i Azure AD. Du kan også angive program-id, key vault-hemmeligheden og omdirigere den URL-adresse, der skal bruges. URL-adressen til omdirigering er forudindstillet og bør fungere for de fleste installationer. Du skal konfigurere installationen til at bruge HTTPS. Du kan finde flere oplysninger i [Konfigurere SSL for at sikre forbindelsen til Business Central-webklienten](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Hvis du konfigurerer serveren, så den har en anden startside, kan du altid ændre URL-adressen. Klientens hemmelighed gemmes som en krypteret streng i din database. 
 
 ### <a name="prerequisites"></a>Forudsætninger
 
@@ -221,7 +215,7 @@ I følgende trin antages det, at du bruger Azure AD til at administrere identite
     > Navnet på Dynamics CRM-API'en ændres muligvis.
 
 5. Vælg **Certifikater og hemmeligheder** under **Administrer**, og opret derefter en ny hemmelighed til din app. Du skal enten bruge hemmeligheden i [!INCLUDE[prod_short](includes/prod_short.md)], i feltet **Klienthemmelighed** på siden til **Konfiguration af Dataverse-forbindelse** eller gemme den i et sikkert lager og angive den i en hændelsesabonnent som beskrevet tidligere i dette emne.
-6. Vælg **Oversigt**, og find derefter **Program-id (klient)**-værdien . Dette er programmets klient-id. Du skal enten angive det på siden **Konfiguration af Dataverse-forbindelse** i feltet **Klient-id** eller gemme det i et sikkert lager og angive det i en hændelsesabonnent.
+6. Vælg **Oversigt**, og find derefter **Program-id (klient)**-værdien . Dette id er klient-id til programmet. Du skal enten angive det på siden **Konfiguration af Dataverse-forbindelse** i feltet **Klient-id** eller gemme det i et sikkert lager og angive det i en hændelsesabonnent.
 7. I [!INCLUDE[prod_short](includes/prod_short.md)] skal du på siden **Konfiguration af Dataverse-forbindelse** i feltet **URL-adresse for miljø** angive URL-adressen til dit [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-miljø.
 8. Du skal aktivere forbindelsen til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] ved at slå **Aktiveret** til.
 9. Log på med din administratorkonto til Azure Active Directory (kontoen skal have en gyldig licens til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] og være administrator i dit [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-miljø). Når du er logget på, bliver du bedt om at tillade, at dit registrerede program logger på [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på vegne af organisationen. Du skal give samtykke for at fuldføre installationen.

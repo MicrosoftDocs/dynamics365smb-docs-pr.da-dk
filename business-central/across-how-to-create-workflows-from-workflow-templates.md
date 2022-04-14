@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d429b5acce6520b86a1272620379265fb01b1462
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 038494ebd8442c20239bc2426754389117ed95c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147264"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521328"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Oprette workflows ud fra workflowskabeloner
 For at spare tid ved oprettelse af nye workflows kan du oprette workflows ud fra workflowskabeloner.  
@@ -42,7 +42,7 @@ På siden **Workflow** opretter du et workflow ved at angive de involverede trin
  [Slette arbejdsgange](across-how-to-delete-workflows.md)   
  [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Opsætte workflows](across-set-up-workflows.md)   
- [Anvende workflows](across-use-workflows.md)   
+ [Bruge Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
 
 

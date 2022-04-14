@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4fca74c179e6da283a2486efd2dad1c22019d013
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3554fc674732c68e47bfd28c033534d1686e1421
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132858"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515377"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Omplanlægge eller forny produktionsordrer direkte
 
@@ -95,7 +95,7 @@ Hvis du har ændret produktionsordrelinjer, komponenter eller rutelinjer, skal d
 [Køb](purchasing-manage-purchasing.md)  
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
 [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

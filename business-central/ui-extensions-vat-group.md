@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f385cd6dc2186a2e492eb7c045639ec34185237c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7d040289fbcf85b67c32147e56f13797e3bd5447
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382553"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519566"
 ---
 # <a name="the-vat-group-management-extension"></a>Udvidelsen til momsgruppestyring
 
@@ -91,7 +91,7 @@ Konfigurer momsgruppemedlem ved at starte med Kør guiden **Konfigurer momsgrupp
 
   I Storbritannien vil konfigurationen af momsrapporten f.eks. blive indstillet til at rapportere moms til HMRC. Momsgruppe styrings udvidelsen kopierer denne opsætning, men erstatter codeunit for indsendelse med en, der understøtter afsendelse til momsgruppens repræsentant snarere end skattemyndighederne. Codeunit leveres af Microsoft. Vælg **Næste**, når du er færdig.
 
-## <a name="using-the-vat-group-management-features"></a>Bruge funktionerne til momsgruppestyring
+## <a name="use-the-vat-group-management-features"></a>Bruge funktionerne til momsgruppestyring
 
 Medlemmer af momsgruppen bruger standardprocesserne til at oprette momsreturneringer. Den eneste forskel er at vælge rapportversionen **MOMSGRUPPE**, som sender momsen tilbage til momsgruppens repræsentant i stedet for myndighederne. Du kan finde flere oplysninger i [Om rapporten Momsopgørelse](finance-how-report-vat.md#vatreturn).
 

@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2021
+ms.date: 01/27/2022
 ms.author: bholtorf
-ms.openlocfilehash: 39700bcb00aadf4a567da0487db58c17aefe58af
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 3d8b49c34bee069c10fdd2713de9ed0cd3c3fb72
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381745"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517969"
 ---
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
 
@@ -240,12 +240,20 @@ Rollestifinder giver dig et overblik og en hurtig adgang til alle de forretnings
 |Skift F3 eller Ctrl + pil op|Flytte fokus til den forrige funktion i rollestifinder.|
 |Ctrl+Skift|Du kan udvide eller minimere alle undernoder ud over noder på øverste niveau, når du vælger handlingen **Vis** eller **Skjul**.|
 
+##  <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a> Numeriske tastaturgenveje
+
+Følgende tabel beskriver tastaturgenvejene på numerisk tastatur.
+
+|Tryk på disse taster<br />(i macOS)|For at gøre følgende|
+|--------------------------------|----------|
+|Alt+Decimalseparator|Skift output for tasten decimalseparator til et punktum (.) eller det tegn, der er fastlagt af indstillingen **region** på siden **mine indstillinger**. Du kan finde flere oplysninger i [Angive den decimalseparator, der bruges af numeriske tastaturer](ui-enter-data.md#decimal).|
+
 ## <a name="see-also"></a>Se også
 
 [Hurtig reference til genveje - på pc'er](keyboard-shortcuts-cheatsheet.md)  
 [Hjælpefunktioner](ui-accessibility.md)  
 [Blive køreklar](ui-get-ready-business.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ofte stillede spørgsmål](across-faq.yml)  
 [Find poster](ui-find-entries.md)  
 

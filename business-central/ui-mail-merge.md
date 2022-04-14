@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fe9717f871fdc1db782ceeda4cbad267abddca90
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: afc3391712ca33ae01d916dc4f9ed2421a0451f0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383423"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519514"
 ---
-# <a name="using-word-templates-for-bulk-communication"></a>Bruge Word-skabeloner til massekommunikation
+# <a name="use-word-templates-for-bulk-communication"></a>Bruge Word-skabeloner til massekommunikation
 Microsoft Word-skabeloner kan gøre det nemmere at massekommunikere på skrift eller i e-mails med objekter som f.eks. kontakter, debitorer og kreditorer. Du kan f.eks. oprette brochurer, som giver debitorer besked om en salgskampagne, breve til kreditorer om en ny indkøbspolitik eller invitationer, der skal tiltrække kontakter til et kommende arrangement.
 
 > [!NOTE]
@@ -55,7 +55,7 @@ Når du har klargjort din Word-skabelon, kan du vælge **Anvend** for at oprette
 
 Du kan anvende skabeloner til en eller flere af de samme typer enheder, f. eks. en kontaktperson, direkte i denne sides kontekst, eller fra siden med Word-skabeloner for at anvende skabelonen på alle de enheder, der har denne type.
 
-## <a name="using-word-templates-with-email"></a>Bruge Word-skabeloner med E-mail
+## <a name="use-word-templates-with-email"></a>Bruge Word-skabeloner med E-mail
 Du kan bruge Word-skabeloner til at føje indhold til e-mail-meddelelser. Når du opretter en e-mail, kan du vælge at bruge handlingen **brug Word-skabelon** til at anvende indholdet af en skabelon på e-mailen. Dette kræver, at du har oprettet en eller flere skabeloner for enheden. Du kan bruge én skabelon ad gangen, og når du skifter mellem skabeloner, ændres den, så den afspejler indholdet af den valgte skabelon.
 
 Derudover kan du bruge handlingen **Tilføj fil fra Word-skabelon** til at vedhæfte indholdet af skabelonen til mailen som en fil. Filen vil blive brugt det format, du angav til skabelon outputtet.

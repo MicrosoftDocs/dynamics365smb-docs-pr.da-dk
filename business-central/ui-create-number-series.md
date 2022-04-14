@@ -8,21 +8,22 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
-ms.date: 04/01/2021
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: e95b60af569511a8a95154a53f80bcc235f883f5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad82c9aa86210c5f89e24fcced0af70751788ef8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140471"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510573"
 ---
 # <a name="create-number-series"></a>Oprette nummerserie
 
 For hver af de virksomheder, som du opretter, skal du knytte entydige id-koder til ting som finanskonti, debitor- og kreditorkonti, fakturaer og andre dokumenter. Nummereringen er ikke kun vigtig til identifikation. Et veludviklet nummereringssystem gør det også nemmere at administrere og foretage analyse i virksomheden og kan reducere antallet af dataindtastningsfejl.
 
 > [!Important]
-> Der er som standard ikke tilladt huller i nummerserier, fordi den nøjagtige historik over økonomiske transaktioner i henhold til lovgivningen skal være tilgængelig for revision og derfor skal følge en ubrudt rækkefølge uden slettede numre.<br /><br />
+> Der er som standard ikke tilladt huller i nummerserier, fordi den nøjagtige historik over økonomiske transaktioner i henhold til lovgivningen skal være tilgængelig for revision og derfor skal følge en ubrudt rækkefølge uden slettede numre.
+> 
 > Hvis du vil tillade huller i visse nummerserier, skal du først rådføre dig med din revisor eller regnskabschef for at sikre, at du overholder de juridiske krav i dit land/område. Du kan finde flere oplysninger i [Huller i nummerserier](#gaps-in-number-series).
 
 > [!NOTE]  
@@ -41,11 +42,14 @@ Hvis du vil bruge mere end én nummerseriekode til en type stamdata - hvis du f.
 Ikke alle de poster, du opretter i [!INCLUDE[prod_short](includes/prod_short.md)], er økonomiske transaktioner, der skal bruge fortløbende nummerering. Debitorkort, salgstilbud og lageraktiviteter er eksempler på poster, der tildeles et nummer fra en nummerserie, men som ikke er underlagt økonomisk revision og/eller kan slettes. For disse nummerserier kan du markere afkrydsningsfeltet **Tillad huller i numre** på siden **Nummerserielinjer**. Denne indstilling kan også ændres, når nummerserien er oprettet. Du kan finde flere oplysninger i [Sådan opretter du en ny nummerserie](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Egenskaberne for feltet felt på dokumenter og kort
-På salgs-, købs- og overførselsdokumenter og på alle kort kan **Nummer** udfyldes automatisk eller manuelt fra en nummerserie og kan konfigureres til at være usynligt.
+
+På salgs-, købs- og overførselsdokumenter og på alle kort kan **Nummer** felter kan udfyldes automatisk eller fra en foruddefineret nummerserie, eller du kan tilføje dem manuelt. Men i visse tilfælde er feltet **nr.** feltet er usynligt for at forhindre dig i at redigere det.  
 
 Feltet **Nummer** kan udfyldes på tre måder:
 
-1. Hvis der kun findes én nummerserie for typen af dokument eller kort, hvor afkrydsningsfeltet **Standardnumre** er markeret, og afkrydsningsfeltet **Manuel nummerering** ikke er markeret, udfyldes feltet automatisk med det næste nummer i serien, og feltet **Nummer** kan ikke ses.
+1. Hvis der kun findes én nummerserie for typen af dokument eller kort, hvor afkrydsningsfeltet **Standardnumre** er markeret, og afkrydsningsfeltet **Manuel nummerering** ikke er markeret, udfyldes feltet automatisk med det næste nummer i serien, og feltet Nummer. Feltet **Nummer** kan ikke ses på kortet eller dokumentet.  
+
+    Selvom du definerer skabeloner med forskellige nummerserier til debitorer, er den nummerserie, der er defineret på siden **Salgsopsætning** konfigureret på denne måde, og feltet **Nr.** er usynligt på debitorkortet, uanset hvilken type du bruger. Det samme gælder for andre kort og dokumenter.  
 
     > [!NOTE]  
     > Hvis nummerserien ikke fungerer, f.eks. fordi der ikke er flere tal, er feltet **Nummer** synligt, og du kan manuelt angive et nummer eller løse problemerne på siden **Nummerserie**.
@@ -71,7 +75,7 @@ Når du åbner et nyt dokument eller kort, der findes en nummerserie for, åbnes
 > [!TIP]
 > Hvis du vil tillade, at brugere angiver numre manuelt, når de registrerer en ny kunde eller leverandør, skal du f. eks. vælge feltet **Manuel nummerering** på selve nummerserien. Fjern feltet, hvis du ikke vil tillade Manuel nummerering.
 
-Du kan tildele nummerserier til de skabeloner, som du opretter til de forskellige typer debitorer og kreditorer, som dine salgs folk og indkøbere oftest føjer til din [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis det er tilfældet, skal du oprette de relevante nummerserier, knytte dem gennem forhold og derefter tilføje den første nummerserie i den relevante relation til den relevante opsætningsside.  
+Du kan tildele nummerserier til de skabeloner, som du opretter til de forskellige typer debitorer og kreditorer, som dine salgs folk og indkøbere oftest føjer til din [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis det er tilfældet, skal du oprette de relevante nummerserier, knytte dem gennem forhold og derefter tilføje den første nummerserie i den relevante relation til den relevante opsætningsside. Når en bruger opretter en kunde, vælger han derefter den relevante skabelon, og den nye debitor får et nummer, der er tildelt fra den nummerserie, der er defineret for den pågældende skabelon.  
 
 ## <a name="to-create-relationships-between-number-series"></a>Sådan oprettes relationer mellem nummerserier
 
@@ -100,7 +104,7 @@ Det valgte nummer bliver nu brugt til at udfylde feltet **Nummer** på det relev
 
 ## <a name="see-also"></a>Se også
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

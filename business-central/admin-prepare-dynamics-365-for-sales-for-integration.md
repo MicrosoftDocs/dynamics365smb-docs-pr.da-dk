@@ -9,17 +9,17 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: addc48ca52ea27ee7c63b8f8c1b44af8a2f1eb63
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b4fb329c076cab03b6ea5ccc78813ad57ae29db3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383101"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517026"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integration med Dynamics 365 Sales
 
 
-Rollen Sælger betragtes ofte som et af de mest udadvendte i en virksomhed. Det kan imidlertid være en fordel for sælgere at kunne se indad i virksomheden og se, hvad der foregår i back end. Ved at integrere [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] kan du give dine sælgere denne indsigt ved at gøre det muligt for dem at få vist oplysninger i [!INCLUDE[prod_short](includes/prod_short.md)], når de arbejder i [!INCLUDE[crm_md](includes/crm_md.md)]. Ved udarbejdelse af et salgstilbud kan det f.eks. være nyttigt at vide, om der er tilstrækkelig lagerbeholdning til at opfylde ordren. Du kan finde flere oplysninger i [Bruge Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md).
+Rollen Sælger betragtes ofte som et af de mest udadvendte i en virksomhed. Det kan imidlertid være en fordel for sælgere at kunne se indad i virksomheden og se, hvad der foregår i back end. Ved at integrere [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] kan du give dine sælgere denne indsigt ved at gøre det muligt for dem at få vist oplysninger i [!INCLUDE[prod_short](includes/prod_short.md)], når de arbejder i [!INCLUDE[crm_md](includes/crm_md.md)]. Ved udarbejdelse af et salgstilbud kan det f.eks. være nyttigt at vide, om der er tilstrækkelig lagerbeholdning til at opfylde ordren. Du kan finde flere oplysninger i [Brug Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md).
 
 > [!NOTE]
 > Dette emne beskriver processen med at integrere onlineversionerne af [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Du kan finde oplysninger om konfiguration af det lokale miljø under [Forberede Dynamics 365 Sales til integration i det lokale miljø](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
@@ -80,6 +80,7 @@ Udover indstillingerne ovenfor skal du angive følgende indstillinger for [!INCL
 | **Salgsordreintegration er aktiveret** | Brugerne skal kunne afsende salgsordrer og aktiverede tilbud i [!INCLUDE[crm_md](includes/crm_md.md)] og derefter få vist og behandle dem i [!INCLUDE[prod_short](includes/prod_short.md)]. Dette integrerer processen i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Aktivere integration af salgsordrebehandling](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Opret salgsordrer automatisk** | Opret en salgsordre i [!INCLUDE[prod_short](includes/prod_short.md)], når en bruger opretter og sender en i [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Behandl salgstilbud automatisk** | Behandl et salgstilbud i [!INCLUDE[prod_short](includes/prod_short.md)], når en bruger opretter og aktiverer et i [!INCLUDE[crm_md](includes/crm_md.md)]. Der er flere oplysninger i [Håndtere data i salgstilbud](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
+|**Tovejs synkronisering af salgsordrer**|Synkronisere salgsordrer i begge retninger. Hvis en kunde f. eks. ændrer deres mening om produktet eller det antal, der er bestilt i [!INCLUDE[crm_md](includes/crm_md.md)], kan du behandle ændringen [!INCLUDE[prod_short](includes/prod_short.md)] ved at arkivere salgsdokumentet og oprette et nyt. Det samme gælder for ændringer i [!INCLUDE[prod_short](includes/prod_short.md)]. F. eks. Når priser, skattebeløb eller forventede leveringsdatoer ændrer sig, synkroniseres ændringerne automatisk til [!INCLUDE[crm_md](includes/crm_md.md)]. På den måde er det nemmere at holde dine sælgere opdaterede med de seneste ændringer og status for tilbud og ordrer.|
 
 <!--
 ### User Account Settings
@@ -104,7 +105,7 @@ Følgende tabel viser standardtilknytningen mellem tabeller i [!INCLUDE[prod_sho
 | Salgsmulighed | Salgsmulighed | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 | Salgsfakturahoved | Faktura | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Salgsfakturalinje | Fakturaprodukt | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
-| Salgsordrehovedet | Salgsordre | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Filter for salgshoved: **Dokumenttype** er Ordre, **Status** er Frigivet |
+| Salgsordrehovedet | Salgsordre | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] <br><br> Hvis du vil synkronisere i begge retninger, skal du slå den **tovejs synkronisering af salgsordrer** til og fra på siden **Opsætning af Dynamics 365-forbindelse**.| [!INCLUDE[prod_short](includes/prod_short.md)] Filter for salgshoved: **Dokumenttype** er Ordre, **Status** er Frigivet |
 | Bemærkninger til salgsordre | Bemærkninger til salgsordre | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 
 > [!NOTE]

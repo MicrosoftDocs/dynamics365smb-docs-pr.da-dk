@@ -1,27 +1,27 @@
 ---
 title: Konfigurere finansielle processer
 description: Få mere at vide om opgaver til konfiguration af finans i din virksomhed, der dækker alle dine regnskabs-, revisions- og bogholderibehov.
-author: SorenGP
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/16/2021
+ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 7c6f7574a227d2901c8989db50d6f4c75528429f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f0112cfb60321a44d833ad6a51db209a71494bf1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147592"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513935"
 ---
 # <a name="setting-up-finance"></a>Konfigurere Finans
 Før du kan begynde at køre din virksomhed, skal du angive regler og standarder for, hvordan du vil administrere finansprocesser for den pågældende virksomhed. Du starter med at definere kernen i regnskabets poster- kontoplanen. Derefter definerer du bogføringsgrupper, som gør det mere effektivt, når du skal tildele standardkonti til finanspostering til kunder, leverandører og varer.
 
-Noget opsætning af finans kan udføres automatisk med assisterede opsætningsvejledninger, mens andet skal udføres manuelt. Du kan finde flere oplysninger i [Blive klar til at handle](ui-get-ready-business.md).
+Noget opsætning af finans kan udføres automatisk med assisterede opsætningsvejledninger, mens andet skal udføres manuelt. Du kan finde flere oplysninger i [Blive køreklar](ui-get-ready-business.md). På siden **Opsætning af Finans** angiver du, hvordan du vil behandle bestemte regnskabsopgaver i virksomheden, f.eks.: Du kan f.eks. bruge denne side til at angive detaljer om fakturaafrunding, valutakode for den lokale valuta, adresseformater, og om du vil bruge en ekstra rapporteringsvaluta. Du kan finde flere oplysninger i [Om finans- og kontoplanen](finance-general-ledger.md).  
 
-Du kan bruge dimensioner til at føje forskellige typer oplysninger til hver transaktion. Du kan konfigurere de grundlæggende dimensioner i regnskabet, f.eks. Projekter og Afdelinger. Senere kan du tilføje flere dimensioner, når du får brug for dem, og du kan definere midlertidige dimensioner til brug i en begrænset periode, f.eks. i forbindelse med en salgskampagne. Du kan finde flere oplysninger i [Arbejde med dimensioner](finance-dimensions.md).
+Du kan bruge dimensioner til at føje forskellige typer oplysninger til hver transaktion. Du kan konfigurere de grundlæggende dimensioner i regnskabet, f.eks. *Projekter* og *Afdelinger*. Senere kan du tilføje flere dimensioner, når du får brug for dem, og du kan definere midlertidige dimensioner til brug i en begrænset periode, f.eks. i forbindelse med en salgskampagne. Du kan finde flere oplysninger i [Arbejde med dimensioner](finance-dimensions.md).
 
 Mange af opsætningsopgaverne skal være fuldført, før du kan begynde at registrere finansielle transaktioner, men de fleste indstillinger kan ændres på et senere tidspunkt. Nogle af opsætningsopgaverne er valgfri, f.eks. kan du kun definere Intercompany-bogføring og konsolidering, hvis du arbejder med flere regnskaber. Nogle opsætningsopgaver, f.eks. angivelse af den periode, hvor bogføring er tilladt, skal måske gentages periodisk.  
 
@@ -29,6 +29,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 | Hvis du vil | Skal du se |
 | --- | --- |
+|Vis eller rediger de finanskonti, hvor alle finansposter bogføres|[Konfigurere eller ændre kontoplanen](finance-setup-chart-accounts.md)|
 | Angiv, hvordan du vil betale for kunder, og hvordan du vil betale kreditorerne. |[Konfigurere betalingsmetoder](finance-payment-methods.md) |
 | Angiv betalingsbetingelser til styring af forfaldsdatoer og til beregning af kontantrabatter.|[Definere betalingsbetingelser](finance-payment-terms.md) |
 | Angiv de bogføringsgrupper, der knytter enheder som debitorer, kreditorer, varer, ressourcer og salgs- og købsdokumenter til finanskonti. |[Konfigurere bogføringsgrupper](finance-posting-groups.md)|
@@ -38,6 +39,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Opret rykkerbetingelser, der kan hjælpe dig med at samle for forfaldne betalinger.|[Konfiguration af rykkerbetingelser og -niveauer](finance-setup-reminders.md)|
 | Definere, hvordan du rapporterer momsbeløb, som du har indsamlet for salg, til skattemyndighederne. |[Konfigurere moms](finance-setup-vat.md)|
 |Forbered håndtering af urealiseret moms i forbindelse med bogføringsmetoder, der er baseret på kontanter.|[Konfigurere urealiseret moms i forbindelse med bogføring baseret på kontanter](finance-setup-unrealized-vat.md)|
+|Definere udenlandske valutaer, som du handler med, eller rapportere transaktioner i.|[Definere valutaer](finance-set-up-currencies.md)|
 | Angive salgs- og købsfunktioner til at håndtere betalinger i fremmed valuta.|[Aktivere anvendelsen af finansposter i forskellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md)
 |Definere en eller flere ekstra valutaer, så beløbene automatisk rapporteres i både RV og den ekstra rapporteringsvaluta i hver finanspost og i andre poster.|[Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md)|
 |Reguler de ekstra valutaer med jævne mellemrum for at afhjælpe varierende valutakurser.|[Opdatere valutakurser](finance-how-update-currencies.md)|
@@ -61,9 +63,9 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Finans](finance.md)  
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  
 [Arbejde med dimensioner](finance-dimensions.md)  
-[Importer virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
+[Import af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

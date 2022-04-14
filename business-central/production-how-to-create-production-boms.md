@@ -1,17 +1,17 @@
 ---
 title: Oprette produktionsstyklister
 description: Få mere at vide om, hvordan du opretter en produktionsstykliste, nye versioner af en produktionsstykliste, og hvordan mængde beregningsformlen bruges.
-author: SorenGP
+author: bholtorf
 ms.topic: conceptual
 ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ff4e2068d8ba588b6d92839538df6bfd2ecade24
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 07563e285e6806a1a2010446d4da65fd52c9ed16
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130250"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516896"
 ---
 # <a name="create-production-boms"></a>Oprette produktionsstyklister
 
@@ -85,6 +85,10 @@ De enkelte komponenters relation defineres af beregningsformlen. Du kan vælge m
 - **Længde x bredde** - Antal = Antal pr. * længde x bredde  
 - **Længde x bredde x dybde** - Antal = Antal pr. x længde x bredde x dybde  
 - **Vægt** - Antal = Antal pr. x vægt  
+- **Fast antal** - antal = antal pr.
+
+> [!NOTE]
+> Formlen til beregning af **fast mængde** sikrer, at en komponents forbrug er den samme, uanset spild-eller afgangsantal. For produktionsordrekomponenter er værdien af feltet **Forventet antal** altid lig med feltet **Antal pr.**, når feltet **Beregningsformel** er indstillet til **Fast antal**. Den spildprocent, der er defineret på samme linje, ignoreres. Fast antal respekteres af rapporten **Disponering pr. stykliste**. Rapporten viser varen som flaskehals, hvis det disponible antal er mindre end antallet i feltet **Antal pr. overordnet**. Felterne **Muligheder for at gøre overordnet** og **kunne gøre de øverste vare** er altid tomme uanset det disponible antal. Fast antal indgår også i beregninger af standardkostpriser. Lotstørrelsen for den producerede vare påvirker den omkostning, der er tildelt én vare.
 
 ### <a name="example"></a>Eksempel
 
@@ -98,7 +102,7 @@ I en produktionsstykliste skal der anvendes 70 metaldele med dimensionerne læng
 [Planlægning](production-planning.md)   
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

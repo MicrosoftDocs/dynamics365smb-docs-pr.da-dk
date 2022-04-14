@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1855391f5bf2c0807ac4ffcd8d42e0ea8122fd87
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b4018d5ad18317cf5b62a99346c360d744b26939
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141853"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520018"
 ---
 # <a name="enable-picking-items-by-fefo"></a>Aktivere pluk af varer efter FEFO
 Første-udløbet-først ud (FEFO) er en sorteringsmetode, der sikrer, at de ældste elementer med den tidligste udløbsdato plukkes først.  
@@ -43,9 +43,9 @@ Hvis feltet **Nøje bogføring af udløbsdato** er markeret på **Varesporingsko
 [Plukke varer](warehouse-pick-items.md)   
 [Plukke varer til lagerleverance](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md)   
-[Designoplysninger: Logistik](design-details-warehouse-management.md)  
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

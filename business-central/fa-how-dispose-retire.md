@@ -10,12 +10,12 @@ ms.search.keywords: scrap
 ms.search.form: 5628, 5610, 5611, 5629, 5633
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a24e9ae44f2e342301600ebd5b66d28f66b4d50a
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 210cfc51b9a9ffc68166636a2ff2d0e33edcbb62
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367010"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523575"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Afhænde eller lade anlægsaktiver udgå
 
@@ -57,7 +57,7 @@ Siden **Finansposter** åbnes, og du kan se de poster, som bogføringen af salge
 [Sådan oprettes anlægsbogføringsgrupper](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 [Finans](finance.md)  
 [Blive køreklar](ui-get-ready-business.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Find poster](ui-find-entries.md)  
 
 

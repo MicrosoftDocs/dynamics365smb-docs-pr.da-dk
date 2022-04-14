@@ -10,12 +10,12 @@ ms.search.keywords: payment journal, print check, vendor payment, customer refun
 ms.search.form: 256, 233, 624, 1228
 ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: fa43027481ba7b9eb970182eb62b5e2aa728fb06
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 8b64ed6fc1342ec5f274b28f5a670bc329555e44
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367251"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520938"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrere indbetalinger og refusioner i udbetalingskladden
 
@@ -71,7 +71,7 @@ Betalingskladden er en kassekladde, der er optimeret til betalinger. Du kan hurt
 [Eksportere en Positive Pay-fil](finance-how-positive-pay.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 7354, 7356, 7357, 7358, 7359, 7361
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9e0eae31f29e726c15add24ef9d4b48b81b3d299
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: f812b988c0cb48cd49890c20ab59a8095327c52f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383639"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512572"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Plukke og lægge på lager uden et kildedokument
 Når varer er blevet lagt på plads, og indtil de plukkes til en produktionsordre eller leverance, opbevares de på lagerstedet og indgår i den disponible lagerbeholdning.  
@@ -57,7 +57,7 @@ Ved hjælp af **Interne pluk**-aktiviteter kan du udføre læg-på-lager-aktivit
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
 [Montagestyring](assembly-assemble-items.md)  
 [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

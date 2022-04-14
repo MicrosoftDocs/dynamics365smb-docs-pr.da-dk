@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e6c76729d5b8ecf2a42b0b749a951ee05cef96f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c67e185ba8994bd20712ca4606df0b5dd7c7682b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142875"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516558"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Oprette bedste fremgangsmåder: Genbestillingspolitikker
 Feltet **Genbestillingsmetode** på varekortene tilbyder fire forskellige planlægningsmetoder, der bestemmer, hvordan individuelle planlægningsparametre skal arbejde sammen.  
@@ -44,7 +44,7 @@ Følgende tabel indeholder de bedste fremgangsmåder til at vælge mellem de fir
  [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)   
  [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
  [Opret komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

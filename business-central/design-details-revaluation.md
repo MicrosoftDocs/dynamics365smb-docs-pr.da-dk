@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a9da38bf023ff378a20daa373bdd1963380e9928
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 219c99e10e274bf2eeb99607b4499a4f94102237
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131818"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517624"
 ---
 # <a name="design-details-revaluation"></a>Designoplysninger: Regulering
 Du kan regulere lagerbeholdningen baseret på det værdigrundlag, der mest præcist afspejler værdien af lageret. Du kan også tilbagedatere en værdiregulering, så omkostningerne for vareforbruget opdateres korrekt for varer, der allerede er solgt. Varer, der benytter kostmetoden Standard, der ikke er blevet fuldt faktureret, kan også revalueres.  
@@ -180,7 +180,7 @@ VIA-lageret kan reguleres, så længe reguleringsdatoen ikke ligger senere end b
  [Designoplysninger: Kostmetoder](design-details-costing-methods.md)   
  [Designoplysninger: Lagerværdi](design-details-inventory-valuation.md) [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

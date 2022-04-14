@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 26e675073dde5cae0b14f0f3ee3526ba44e4200f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b7a20d6f116a383332b5daab6aa059839f608276
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143864"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521172"
 ---
 # <a name="administration"></a>Opsætning
 
@@ -42,7 +42,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 |Svare på anmodninger fra dataemner vedrørende deres personlige oplysninger.|[Svare på anmodninger om personlige oplysninger](admin-responding-to-requests-about-personal-data.md)|
 |Oprette en ny koncernvirksomhed ved hjælp af skabeloner|[Oprettelse af nye virksomheder](about-new-company.md)|
 |Spore alle de direkte modifikationer, som brugere foretager af data i databasen for at identificere oprindelsen til fejl og dataændringer.|[Logføre ændringer](across-log-changes.md)|  
-|Angive engangsanmodninger eller gentagne anmodninger om at køre rapporter eller kodeenheder.|[Brug af opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)|  
+|Angive engangsanmodninger eller gentagne anmodninger om at køre rapporter eller kodeenheder.|[Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)|  
 |Administrere, slette eller komprimere dokumenter|[Slette dokumenter](admin-manage-documents.md)|  
 |Vis sider, kodeenheder og forespørgsler som webtjenester.|[Udgive en webtjeneste](across-how-publish-web-service.md)|
 |Som en del af oprettelsen af Connect Apps mellem [!INCLUDE[prod_short](includes/prod_short.md)] og tredjepartsløsninger via REST API'erne skal du definere skabeloner, der bruges til at udfylde tomme egenskaber for en enhed, når du opretter en BOGF-handling via et API.|[Konfiguration af API-skabeloner](admin-configuring-api-template.md)|
@@ -67,7 +67,7 @@ Interne og uddelegerede administratorer har adgang til [!INCLUDE [prod_short](in
 
 [Forretningsfunktioner](across-business-functionality.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Blive køreklar](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -10,12 +10,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 ms.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: f5edc0985c9397aa15bd01ec590d6e35324f5ace
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 019dce4811470ef4c0d75ee3f69732e7f9af27f1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129392"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519384"
 ---
 # <a name="closing-years-and-periods"></a>Afslutning af år og perioder
 
@@ -25,7 +25,7 @@ Følgende tabel indeholder en oversigt over opgaver, du typisk udfører for at l
 
 | Hvis du vil | Se |
 | --- | --- |
-| Definer regnskabsåret, og opdel det i de perioder, du vil rapportere finansielle resultater for. | [Arbejde med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)|
+| Definer regnskabsåret, og opdel det i de perioder, du vil rapportere finansielle resultater for. | [Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)|
 | Angive datointervaller for bogføring, som enten er brugerspecifikke, eller som gælder på tværs af hele systemet. Afhængigt af dine forretningsmæssige behov kan det være en god idé at begrænse datointervaller for bogføring af brugere i begyndelsen af periodeafslutningsprocessen eller efter den. |[Angive bogføringsperioder](finance-how-specify-posting-periods.md) |
 | Få et overblik over aktiviteter, der almindeligvis udføres i slutningen af perioden, f.eks at alle dokumenter og kladder er bogført eller kørsel af kontoskemaer. |[Ultimoperioder](year-how-complete-period-end-processes.md) |
 | Opdatere valutakurser og regulere kurserne for bogførte debitor-, kreditor- og bankposter. |[Opdatere valutakurser](finance-how-update-currencies.md) |
@@ -40,7 +40,7 @@ Følgende tabel indeholder en oversigt over opgaver, du typisk udfører for at l
 ## <a name="see-also"></a>Se også
 
 [Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

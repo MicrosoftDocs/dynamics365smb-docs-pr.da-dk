@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cb917d1d54d66e02315e82ef6596a8fef65fb077
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 9cc04e74a680edae64db5edbe13cc9185af043e9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366186"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521464"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Fejlfinding af selvbetjeningstilmelding
 Tilmelding til [!INCLUDE[prod_short](includes/prod_short.md)] er nemt og kan udføres hurtigt. Du kan oprette en gratis konto, selvom du en eksisterende virksomhed. Denne artikel løser problemer, der måtte opstå under tilmeldingen.
@@ -46,7 +46,7 @@ Du kan finde en oversigt over aktuelt understøttede markeder for hele Dynamics 
 [Tilmeld dig for at få en gratis Dynamics 365 Business Central-prøveversion](trial-signup.md)  
 [Dynamics 365 Business Central-prøveversion, ofte stillede spørgsmål](trial-faq.md)  
 [Velkommen til [!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Lokal funktionalitet](about-localization.md)  
 [Tilgængelighed i land/område og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [International tilgængelighed af Microsoft Dynamics 365](/dynamics365/get-started/availability)  

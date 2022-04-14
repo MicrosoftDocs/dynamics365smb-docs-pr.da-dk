@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 9736a1ea6c0da0381a14c8e77eabaaf752ea9f34
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7847387049dd799044ed3dca4b62a657b726b069
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133274"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517130"
 ---
 # <a name="setting-up-data-exchange"></a>Konfigurere dataudveksling
 Før du kan sende og modtage elektroniske dokumenter eller importere og eksportere bankfiler, skal du konfigurere dataudvekslingsstrukturen for at behandle involverede filer. Derudover skal du definere relaterede områder, f.eks. debitorer, som du sender elektroniske fakturaer til, eller AMC Banking 365 Fundamentals-udvidelsen, hvis du bruger den eksterne tjenesteudbyder til at konvertere dine bankfiler. Du kan finde flere oplysninger i [Udveksle data elektronisk](across-data-exchange.md).  
@@ -31,7 +31,7 @@ Før du kan sende og modtage elektroniske dokumenter eller importere og eksporte
 |Konfigurer forskellige stamdata, såsom firmaoplysninger, debitorer, kreditorer, varer og enheder, der er relateret til tilknytning af data i [!INCLUDE[prod_short](includes/prod_short.md)]|[Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)|  
 |Oprette en bankkonto, en kreditor og en betalingskladde til SEPA-kreditoverførslen.|[Opsætte SEPA-kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#setting-up-sepa-credit-transfer)|  
 |Udarbejd bankkontoformater, betalingsformer og kundeaftaler til SEPA Direct Debit.|[Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)|  
-|Konfigurer brugergodkendelse og URL-adressen på den AMC Banking 365 Fundamentals-udvidelsesudbyder, der skal have bankfiler, der er konverteret til din banks format.|[Brug af AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)|  
+|Konfigurer brugergodkendelse og URL-adressen på den AMC Banking 365 Fundamentals-udvidelsesudbyder, der skal have bankfiler, der er konverteret til din banks format.|[Brug AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)|  
 |Konfigurer en ekstern tjeneste, hvor du kan indlæse bankkontoudtog som bankfeeds.|[Konfigurere tjenesten til bankkontoudtog](bank-how-setup-bank-statement-service.md)|  
 |Når tjenesten Bankkontoudtog er aktiveret, kan du tilknytte bankkonti i [!INCLUDE[prod_short](includes/prod_short.md)]|[Konfigurere bankkonti](bank-how-setup-bank-accounts.md)|  
 |Forbered konfigurationen af en ny dataudvekslingsdefinition for en datafil eller strøm ved hjælp af filens XML-skema for at forhåndsudfylde oversigtspanelet **Kolonnedefinitioner** på siden **Bogføringsudvekslingsdefinition**.|[Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  

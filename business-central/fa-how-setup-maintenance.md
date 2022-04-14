@@ -10,12 +10,12 @@ ms.search.keywords: repair, service
 ms.search.form: 5600, 5642
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e55b85397ca50995870ab86ed40421bbb0b4cb6d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 05a9348d08a3255b3e2b438a540fc7a84de26b0d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147852"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518177"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Definere anlægsreparation
 For at administrere vedligeholdelse af anlæg, skal du først angive nogle generelle reparationsoplysninger, en bogføringskonto for reparationsomkostninger og reparationskoder for forskellige typer arbejde, f.eks rutineeftersyn eller reparation.
@@ -47,7 +47,7 @@ Hvis du vil bogføre reparationsudgifter, skal du først angive et kontonummer p
 [Anlægsaktiver](fa-manage.md)  
 [Finans](finance.md)  
 [Blive køreklar](ui-get-ready-business.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

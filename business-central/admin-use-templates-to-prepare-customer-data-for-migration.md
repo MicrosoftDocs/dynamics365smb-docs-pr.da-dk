@@ -1,20 +1,21 @@
 ---
 title: Forberede overflytning af debitordata med skabeloner
-description: Lær at bruge konfigurationsskabeloner til at strukturere eksisterende debitordata, inden du overfører stamdataene til den nye virksomhed i Business central.
+description: Hvis du bruger RapidStart Services, kan du bruge konfigurationsskabeloner til at strukturere eksisterende debitordata, inden du overfører stamdataene til den nye virksomhed i Business central.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8620
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f0d8430be917981f84eb2841c0840a5b36a8d678
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d9a90c0680d079a87436cea227becfa46435efd5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143786"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522244"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Forberede overflytning af debitordata med skabeloner
 

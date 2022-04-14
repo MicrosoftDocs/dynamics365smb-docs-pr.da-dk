@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
-ms.date: 04/01/2021
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: c04be33b2c84cd89872765a3781ad2c553ced442
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0fda7235af0868a87ac4d76afa3f1030cdf83600
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138774"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523237"
 ---
 # <a name="auditing-changes-in-business-central"></a>Ændringer af revision i Business Central
 
@@ -40,8 +40,7 @@ Af hensyn til ydeevnen er ændringsloggen deaktiveret under opgradering af [!INC
 > * Brugeren har valgt et andet regnskab eller Rollecenter.
 > * Bruger har logget af og på igen.
 
-### <a name="working-with-the-change-log"></a>Arbejde med ændringsloggen
-
+### <a name="work-with-the-change-log"></a>Arbejde med ændringsloggen
 Du aktiverer og deaktiverer ændringsloggen på siden **Opsætning af ændringslog**. Når en bruger aktiverer eller deaktiverer ændringsloggen, logføres denne aktivitet, så du altid kan se, hvilken bruger der har deaktiveret eller aktiveret ændringsloggen.
 
 Hvis du på siden **Opsætning af ændringslog** vælger handlingen **Tabeller**, kan du angive, hvilke tabeller du vil spore ændringer for, og hvilke ændringer du vil spore. [!INCLUDE[prod_short](includes/prod_short.md)] sporer også flere systemtabeller.
@@ -55,8 +54,7 @@ Når du har konfigureret ændringsloggen, aktiveret den og ændret data, kan du 
 
 Fra nogle sider i [!INCLUDE [prod_short](includes/prod_short.md)] kan du få vist en aktivitetslog, der viser status og eventuelle fejl i filer, som du eksporterer fra eller importerer til [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-### <a name="working-with-activity-logs"></a>Arbejde med aktivitetslogge
-
+### <a name="work-with-activity-logs"></a>Arbejde med aktivitetslogge
 Oplysningerne vises på siden **Aktivitetslog** i overensstemmelse med den kontekst, de åbnes fra. Du kan f.eks. åbne siden fra siderne **Opsætning af dokumentudvekslingstjeneste**, **Indgående bilag**, **Bogført salgsfaktura** og **Bogført salgskreditnota**. Du kan tømme listen med logposter eller blot rydde oversigten over poster, der er ældre end syv dage.  
 
 ## <a name="monitoring-sensitive-fields"></a>Overvåge følsomme felter
@@ -82,7 +80,7 @@ Du kan administrere indstillingerne for felt overvågning, f.eks. om der skal se
 > [!NOTE]
 > Når du har tilføjet et eller flere felter og startet overvågning, skal du logge af [!INCLUDE[prod_short](includes/prod_short.md)] og logge på igen for at anvende dine indstillinger.
 
-### <a name="working-with-field-monitoring"></a>Arbejde med feltovervågning
+### <a name="work-with-field-monitoring"></a>Arbejde med feltovervågning
 
 Alle ændrede værdier for overvågede felter er tilgængelige på siden over **Overvågning af feltlogposter**. Indtast følgende oplysninger til dette eksempel:
 
@@ -109,7 +107,7 @@ Du kan oprette opbevaringspolitikker for at slette unødvendige data i loggen ef
 [Sortering, søgning og filtrering](ui-enter-criteria-filters.md)  
 [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)  
 [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md)    
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Definere opbevaringspolitikker](admin-data-retention-policies.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

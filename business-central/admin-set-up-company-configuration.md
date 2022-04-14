@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 841d57ec0e5897ee0395e498ed24dc19b4fcbaea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e142f8aef14ea82d67de0c51a996e4f6a6b43dbf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143917"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513170"
 ---
-# <a name="set-up-company-configuration"></a>Konfigurere virksomhedskonfiguration
+# <a name="set-up-company-configuration-with-rapidstart-services"></a>Konfigurere virksomhedskonfiguration med RapidStart Services
+
 Implementeringsprocessen, der begynder med Microsoft-partneren. Som partner er du ansvarlig for at gennemtænke konfigurationsdetaljerne og oprette en pakke, som en debitor let kan anvende. Før du opretter en ny virksomhed i [!INCLUDE [prod_short](includes/prod_short.md)] online eller i det lokale miljø, skal du planlægge, hvordan den skal konfigureres. Du skal overveje grundlæggende konfigurationsdata og de datatyper, som din [!INCLUDE[prod_short](includes/prod_short.md)]-løsning kræver. Du kan samle alle disse oplysninger i konfigurationspakker.
 
 RapidStart Services tilbyder også de værktøjer, du skal bruge til at overflytte ældre data, f.eks. debitorer og kreditorer.  

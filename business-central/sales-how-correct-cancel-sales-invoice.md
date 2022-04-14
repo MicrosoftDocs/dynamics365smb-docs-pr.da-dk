@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d36ca3a4f20e509a18f19f9fec6a3444040de9df
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 59fd78c106f6a5b7d44aa3b2c84232c6441d0d31
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137129"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517260"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Rette eller annullere ubetalte salgsfakturaer
 
@@ -72,7 +72,7 @@ Hvis annulleringen vedrører en delvis fakturabogføring, opdateres den oprindel
 [Salg](sales-manage-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

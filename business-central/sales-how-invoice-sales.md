@@ -10,12 +10,12 @@ ms.search.keywords: bill, sale, invoice, order
 ms.search.form: 42, 43, 48, 9301, 9305
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0667c06af3fdd90da5b1b68dba2ae0e5ab21d1ab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4fd937237c97934b44e9d7beecc8ec1beae596f3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133610"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521750"
 ---
 # <a name="invoice-sales"></a>Fakturere salg
 
@@ -137,7 +137,7 @@ Du kan også oprette direkte betalte fakturaer for ikke-registrerede kunder ved 
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
 [Indhente udestående beløb](receivables-collect-outstanding-balances.md)  
 [Massefakturering fra Microsoft Bookings i Business Central](finance-bookings.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

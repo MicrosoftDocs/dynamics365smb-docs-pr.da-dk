@@ -10,12 +10,12 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9f5eda0056c4c449a46f9f04064c3f2764087007
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: b59e6fc824f9c386c12030163f51ef09622f74a0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335003"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519592"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortering, søgning og filtrering
 
@@ -171,7 +171,10 @@ Når du angiver kriterier, kan du bruge alle de tal og bogstaver, som du plejer 
 |`P8..`|Oplysninger for regnskabsperiode 8 og frem|  
 |`..23`|Fra begyndelsesdatoen til 23-aktuel måned-aktuelt år 23.59.59|  
 |`23..`|Fra 23-aktuel måned-aktuelt år 0.00.00 til sluttidspunktet|  
-|`22..23`|Fra den 23-aktuel måned-aktuelt år 0.00.00 til 22-aktuel måned-aktuelt år 22.59.59|  
+|`22..23`|Fra den 23-aktuel måned-aktuelt år 0.00.00 til 22-aktuel måned-aktuelt år 22.59.59| 
+
+> [!TIP]
+> Hvis du bruger et numerisk tastatur, kan decimalseparatoren indeholde et andet tegn end et punktum (.). Hvis du vil skifte til en periode, skal du trykke på tasterne alt + decimal separator ' på det numeriske tastatur. Hvis du vil skifte tilbage, skal du trykke på "alt + decimal separator" igen. Du kan finde flere oplysninger i [Angive den decimalseparator, der bruges af numeriske tastaturer](ui-enter-data.md#decimal).
 
 #### <a name="124-eitheror"></a>(&#124;) Enten/eller
 
@@ -307,7 +310,7 @@ Brug `%myvendors` i kreditorfeltet **Nej** til at vise alle poster for kreditore
 
 [Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.yml)  
 [Gemme og tilpasse listevisninger](ui-views.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

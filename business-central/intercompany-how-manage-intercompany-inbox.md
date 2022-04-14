@@ -8,17 +8,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
 ms.search.form: 600, 605, 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
-ms.date: 04/01/2021
+ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: d0f52d1debe40eb57ac0deb914d0e6bc32f0a5a1
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 868f07b2b56ccaefb4c56e26be72c27b941d950c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366371"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522114"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Administrere IC-indbakken og -udbakken
 Alle IC-transaktioner, som du modtager elektronisk fra koncerninterne partnere, vises i den koncerninterne indbakke.  
+
+Men afhængigt af, hvor intercompany er oprettet for virksomheden, replikeres nogle af transaktionerne automatisk til de relevante IC-partnere. Med start i 2022 udgivelsesbølge 1 kan du også angive, at regnskabet automatisk skal oprette IC-transaktioner, der er modtaget fra IC-partnere, og som bogføres via IC-finanskladden. Du kan finde flere oplysninger i [Udfylde og bogføre IC-kladde](intercompany-how-work-documents-journals.md#to-fill-in-and-post-an-intercompany-journal).  
 
 ## <a name="organizing-the-inbox"></a>Organisere indbakken  
  Du kan bruge filterfelterne øverst i indbakken til at bestemme, hvilke transaktioner der skal vises på siden. Hvis du f.eks. kun vil have vist transaktioner oprettet af en bestemt partner, kan du angive det i filtrene **Transaktionskilde** og **Koncernintern partnerkode**.  
@@ -51,14 +53,16 @@ Du kan bruge feltet **Vis transaktionskilde** til at filtrere siden **Koncernint
  > Hvis de koncerninterne partnere findes i samme database, overføres transaktioner uden brug af fil eller e-mail. Få vist feltet **Overførselstype** på siden **Koncernintern partner**. <br /><br />
 I så fald kan du indstille systemet til at spring indbakke og udbakke over ved at markere henholdsvis afkrydsningsfeltet **Automatisk accept af transaktioner** på siden **Koncernintern partner** og afkrydsningsfeltet **Automatisk afsendelse af transaktioner** på siden **Koncernintern opsætning**. Indgående interne transaktioner kan kun accepteres automatisk, hvis Opgavestyring er aktiveret. Du kan finde flere oplysninger i [Konfigurere Business Central Server - Indstillinger for Opgavestyring](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
 
-## <a name="to-import-intercompany-transactions-from-a-file"></a>Sådan indlæses IC-transaktioner fra en fil  
+## <a name="to-import-intercompany-transactions-from-a-file"></a>Sådan indlæses IC-transaktioner fra en fil
+
+[!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
+
 Hvis du har en IC-partner, der ikke er med i den samme database som dit regnskab, kan du modtage IC-transaktioner fra partneren i en .xml-fil. Derefter kan du indlæse transaktionerne til din indbakke.  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, åbn **Virksomhedsoplysninger**, og vælg derefter det relaterede link.
-2. Gem filen på den placering, som du har angivet i feltet **Koncerninterne indbakkeoplysninger** på siden **Virksomhedsoplysninger**.  
-3. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncerninterne indbakketransaktioner**, og vælg derefter det relaterede link.
-4. På siden **Koncerninterne indbakketransaktioner** skal du vælge handlingen **Indlæs transaktionsfil**.  
-5. Marker den .xml-fil, der indeholder transaktionerne på den side, som vises, og vælg derefter knappen **Åbn**.  
+1. Gem filen på den placering, som du har angivet i feltet **Koncerninterne indbakkeoplysninger**, når du konfigurerer virksomhedsoplysninger.  
+2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncerninterne indbakketransaktioner**, og vælg derefter det relaterede link.
+3. På siden **Koncerninterne indbakketransaktioner** skal du vælge handlingen **Indlæs transaktionsfil**.  
+4. Marker den .xml-fil, der indeholder transaktionerne på den side, som vises, og vælg derefter knappen **Åbn**.  
 
 Transaktioner indlæses nu til indbakken, hvor du kan arbejde med dem.
 
@@ -102,7 +106,7 @@ Følgende procedure beskriver, hvordan du gendanner transaktioner i indbakken, m
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

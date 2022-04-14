@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6f4966a1132c4e389cb3b37f31d9dcc883d27b5
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7496c21745e2a27271db8ccb37c9607040e5259b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384198"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511593"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Hurtig reference til genveje - på pc'er
 
@@ -79,11 +79,18 @@ ms.locfileid: "8384198"
 |-|-|
 |Ctrl+Skift+Enter|Gå til næste genvejsfelt uden for en liste|
 |Enter/Skift+Enter|Gå til næste/forrige genvejsfelt|
+
 ##### <a name="report-preview"></a>Rapporteksempel
 
 |Tryk på disse taster|For at gøre følgende|
 |-|-|
 |Ctrl+Home/End|Gå til første/sidste side|
+
+#### <a name="numeric-keypad"></a>Numeriske tastatur
+
+|Tryk på disse taster|For at gøre følgende|  
+|-|-|
+|Alt+Decimalseparator|Slå decimalseparator output til/fra på numerisk tastatur|
 
 > [!TIP]
 > Hvis du vil have en grafisk printervenlig version, skal du vælge følgende billede og hente PDF-filen.

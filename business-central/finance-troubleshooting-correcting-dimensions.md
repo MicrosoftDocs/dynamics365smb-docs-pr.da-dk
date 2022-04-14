@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1a5647045e3b7aff1b709096b8b856485ce762e9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 497daecd0834b2651e52131df809d12d45b18d48
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381719"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519117"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Fejlfinding og korrigering af dimensioner
 
@@ -103,7 +103,7 @@ Hvis handlingen Fortryd ikke er tilgængelig, f.eks. fordi du har udført mange 
 
 Vær forsigtig, når du retter store sæt poster, f.eks. et sæt, der indeholder mere end 10.000 poster. Hvis du kan, anbefales det, at du bruger filtrene til at udføre rettelserne på mindre sæt af data. Det er også en god ide at udføre rettelser uden for normal åbningstid. 
 
-### <a name="using-analysis-views-with-dimension-corrections"></a>Brug af analysevisninger med dimensionsrettelser
+### <a name="use-analysis-views-with-dimension-corrections"></a>Brug af analysevisninger med dimensionsrettelser
 
 Hvis **Opdatering af bogføring** er aktiveret for en analysevisning, kan [!INCLUDE[prod_short](includes/prod_short.md)] vise, hvornår dokumenter og kladder er bogført. Du kan også opdatere visninger med resultater af dimensionsrettelser, når denne indstilling er aktiveret. Hvis du vil gøre det, skal du slå til/fra-knappen for **Opdater analysevisninger** til. Hvis du opdaterer analysevisninger, kan det påvirke ydeevnen, især for store datasæt. Derfor anbefales det, at du kun opdaterer analysevisninger for små datasæt.  
 
@@ -118,11 +118,11 @@ Hvis en rettelse ikke fuldføres, vises der en advarsel på rettelseskortet. Hvi
 > [!NOTE]
 > Nulstilling af en ufuldstændig rettelse påvirker ikke opdateringer af analysevisninger, fordi de sker i slutningen af rettelsesprocessen.
 
-### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Brug af omkostningsregnskab med rettede finansposter
+### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Brug af omkostningsregnskab med rettede finansposter
 
 Når du har rettet dimensionerne vil dine data til omkostningsregnskabet ikke være synkroniserede. Omkostningsregnskabet bruger dimensioner til at samle beløb for omkostningssteder og omkostningsemner og udføre omkostningsfordelinger. Ændring af dimensioner for finansposter vil det sandsynligvis betyde, at du skal køre dine omkostningsregnskabsmodeller igen. Uanset om du bare har brug for at slette nogle få omkostningsregistre og udføre fordelinger igen, eller du vil slette alle dine modeller, afhænger af de data, der er blevet opdateret, og hvordan funktionerne til omkostningsregnskabet er konfigureret. Du skal manuelt identificere hvor dimensionsrettelser vil påvirke omkostningsregnskabet, og hvor opdateringer er nødvendige. I øjeblikket kan [!INCLUDE[prod_short](includes/prod_short.md)] ikke udføre denne proces automatisk.
 
 ## <a name="see-also"></a>Se også
 
 [Arbejde med dimensioner](finance-dimensions.md)
-[analysere data efter dimensioner](bi-how-analyze-data-dimension.md)  
+[Analysere data efter dimensioner](bi-how-analyze-data-dimension.md)  

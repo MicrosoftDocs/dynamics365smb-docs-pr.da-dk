@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 04/12/2021
+ms.date: 03/04/2022
 ms.author: jswymer
-ms.openlocfilehash: 1cbb122c313f60b79678d5e8ed3b186b52f25782
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4ee154f242eebb65f9ef61453c8ff51c770f2713
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138722"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511229"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams-integration
 
@@ -44,7 +44,7 @@ Du kan få flere oplysninger i [Søgning efter kontakter fra Microsoft Teams](ac
 
 Kopiere et hyperlink til en hvilken som helst Business Central-post og sætte den ind i en Teams-samtale, som du kan dele med dine kolleger. Appen udvider derefter linket til et kompakt, interaktivt kort, der viser oplysninger om posten.
 
-[![Teams-integration med Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams-integration med Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
 Når du er i samtalen, kan du og dine kolleger få vist flere oplysninger om posten, redigere data og handle - uden at forlade Teams.
 
@@ -65,7 +65,7 @@ Du kan finde flere oplysninger i [Dele poster og sidelinks i Microsoft Teams](ac
     Hvis du ikke er sikker på, om du har en konto, eller hvis du ikke kender dine legitimationsoplysninger til logon, kan du kontakte din virksomheds administrator for at få hjælp til at komme i gang.
 
     > [!TIP]
-    > Hvis organisationen ikke har et [!INCLUDE [prod_short](includes/prod_short.md)]-abonnement, kan du oprette dig som bruger for at få en gratis prøveversion. Du kan finde flere oplysninger i [Introduktion med en prøveversion](across-preview.md#getting-started-with-a-trial).
+    > Hvis organisationen ikke har et [!INCLUDE [prod_short](includes/prod_short.md)]-abonnement, kan du oprette dig som bruger for at få en gratis prøveversion. Du kan finde flere oplysninger i [Introduktion med en prøveversion](across-preview.md#get-started-with-a-trial).
 
 2. Som administrator kan du se [Administration af Microsoft Teams-integration med Business Central](admin-teams-integration.md) for at få oplysninger om opsætning af brugere, så de kan arbejde med [!INCLUDE [prod_short](includes/prod_short.md)] og Teams.
 3. Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams. Se [Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen til Microsoft Teams](across-install-app-for-teams.md).

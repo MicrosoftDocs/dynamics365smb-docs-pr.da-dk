@@ -10,12 +10,12 @@ ms.search.keywords: accessibility, shortcuts, charts, tooltips, screen reader
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: jswymer
-ms.openlocfilehash: 6389387e2b2e9dcaa2d709e7e376f38a3dd8e1a9
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 9361f3b5c425374b40f3ca3f8a8401822c277048
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334560"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513623"
 ---
 # <a name="accessibility-and-keyboard-shortcuts"></a>Tilgængelighedsfunktioner og tastaturgenveje
 
@@ -84,7 +84,7 @@ Du kan finde flere oplysninger om tilgængelighedsfunktioner i Microsoft-produkt
 ## <a name="see-also"></a>Se også
 
 [Blive køreklar](ui-get-ready-business.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ofte stillede spørgsmål](across-faq.yml)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

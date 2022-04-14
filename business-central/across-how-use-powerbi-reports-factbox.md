@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 06/11/2021
 ms.author: jswymer
-ms.openlocfilehash: 3db84a185c47976f5d7f3aa5f166c81e4a035a89
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ccdcf519d33c9b4ee23526e773ec8eccc9e0ebdd
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133326"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517156"
 ---
 # <a name="creating-power-bi-reports-for-displaying-list-data-in-prod_short"></a>Oprettelse af Power BI-rapporter til visning af listedata i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -31,7 +31,7 @@ ms.locfileid: "8133326"
 - Power BI Desktop.
 
 <!-- 
-For more information about getting started, see [Using [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
+For more information about getting started, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
 ## <a name="create-a-report-for-a-list-page"></a>Oprette en rapport til en listeside
 
@@ -92,7 +92,7 @@ Du kan ændre bredden og højden for rapporten ved at vælge **Brugerdefineret**
 Hvis baggrunden for rapporten skal passe ind i baggrundsfarven for kontrolelementet for Power BI-faktaboksen, skal du angive rapportens baggrundsfarve til *#FFFFFF* (hvid). 
 
 > [!TIP]
-> Brug [!INCLUDE [prod_short](includes/prod_short.md)]-temafilen til at oprette rapporter med samme farveskema som [!INCLUDE [prod_short](includes/prod_short.md)]-apps. Du kan finde flere oplysninger i [Brug af [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet](across-how-use-financials-data-source-powerbi.md#theme).
+> Brug [!INCLUDE [prod_short](includes/prod_short.md)]-temafilen til at oprette rapporter med samme farveskema som [!INCLUDE [prod_short](includes/prod_short.md)]-apps. Du kan finde flere oplysninger i [Brug [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttema](across-how-use-financials-data-source-powerbi.md#theme).
 
 ## <a name="reports-with-multiple-pages"></a>Rapporter med flere sider
 
@@ -122,7 +122,7 @@ Kontrollér, at den side, du vil have vist, er den første side i rapporten.
 
 Kontroller, at rapportstørrelse er indstillet til 325 x 310 pixel. Gem rapporten, og opdater derefter oversigtssiden.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

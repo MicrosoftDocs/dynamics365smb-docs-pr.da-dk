@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ec650016000d8f6007a3abfa839cea7f1422de7b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 88877f719ec969fbca6dfd5928faf185b447bb42
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382041"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520356"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central til internationale organisationer med flere lokationer
 Organisationer med flere lokationer bruger ofte en hub-and-spoke-forretningsmodel, hvor virksomheden eller hovedkontoret administrerer virksomhedens overordnede aktiviteter, mens hvert websted fungerer som en enkelt, selvstændig enhed. Websteder distribueres ofte geografisk og har forskellige behov for at dele oplysninger med hovedkvarteret. Desuden har websteder typisk ikke brug for det samme kompleksitetsniveau, og de mangler ofte ressourcerne til at opretholde et stort system.
@@ -109,7 +109,7 @@ Hovedkvarteret skal kunne reagere hurtigt på forretningsændringer i hver afdel
 
 ## <a name="see-also"></a>Se også
 [Administrationsopgaver i Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

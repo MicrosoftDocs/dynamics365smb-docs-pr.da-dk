@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d8cd59f77230fe7d7593510f0abfc24bf9c29a2a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 67e564271e54c7c6c7f1b141172a537cd2bd6286
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142571"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510938"
 ---
-# <a name="working-with-prod_short-data-in-power-bi"></a>Arbejde med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI
+# <a name="work-with-prod_short-data-in-power-bi"></a>Arbejde med [!INCLUDE [prod_short](includes/prod_short.md)] data i Power BI
 
 I denne artikel lærer du nogle af de grundlæggende oplysninger om arbejde med rapporter og dashboards i Power BI, der bruger [!INCLUDE [prod_short](includes/prod_short.md)] som datakilde. I artiklen diskuteres nogle aspekter, som kan hjælpe dig med at komme i gang som [!INCLUDE[prod_short](includes/prod_short.md)]-bruger. Du kan finde generelle retningslinjer og instruktioner i brugen af Power BI i [Power BI-dokumentationen til forbrugerne](/power-bi/consumer).
 
@@ -91,9 +91,9 @@ Hvis du vil dele en rapport i en listerapport eller i en åben rapport, skal du 
 [Blive køreklar](ui-get-ready-business.md)  
 [Import af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
-[Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
-[Bruge [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
+[Brug af [!INCLUDE[prod_short](includes/prod_short.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
+[Brug af [!INCLUDE[prod_short](includes/prod_short.md)] som Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
+[Brug [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
 
 

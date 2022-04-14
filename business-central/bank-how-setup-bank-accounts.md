@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: 4c305d4ba1f4208eb7a3c5845d4b32bb40f930e6
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: fc0c01281b4a4fb1bccee4196917b4357413e4cf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382307"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514117"
 ---
 # <a name="set-up-bank-accounts"></a>Sådan oprettes bankkonti
 
@@ -29,6 +29,8 @@ Bank konti fungerer forskelligt, afhængigt af om der er angivet en valutakode:
 - Angiver en valutakode.
 
   Alle de transaktioner, der foretages på kontoen, skal være i samme valuta som angivet på kontoen. Alle de checks, der udstedes fra denne konto, skal også have denne valuta.  
+
+Du kan spare tid på dataindtastning ved at gøre en bankkonto til den valuta, der er angivet for kontoen. Hvis du gør det, tildeles kontoen til salgs-og servicedokumenter, der bruger valutaen. Hvis kontoen skal være standard for salgs-og servicedokumenter, skal du aktivere funktionen **Brug som standard for valuta** på siden **bankkontokort**. Hvis det er nødvendigt, kan du vælge en anden konto, når du arbejder med et dokument.
 
 En bankkonto er en integreret del af [!INCLUDE[prod_short](includes/prod_short.md)] og spiller en rolle i mange andre muligheder. Følgende illustration viser de vigtigste relationer:
 
@@ -153,24 +155,24 @@ The following table explains key fields.
 |Bank Statement Import Format|Specifies the format of the bank statement file that can be imported into this bank account. The format is being used in both the payment reconciliation journals and the bank account reconciliations.|
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
-> [!NOTE]
-> For at udfylde feltet **Saldo** med en startsaldo, skal du bogføre en bankkontopost med det pågældende beløb. Du kan gøre dette ved at udføre en afstemning af bankkontoen. Du kan finde flere oplysninger i [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md).  
+
+## <a name="entering-an-opening-balance"></a>Angive en primosaldo
+For at udfylde feltet **Saldo** med en startsaldo, skal du bogføre en bankkontopost med det pågældende beløb. Du kan gøre dette ved at udføre en afstemning af bankkontoen. Du kan finde flere oplysninger i [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > Du kan også implementere primosaldoen som en del af oprettelse af generelle oplysninger i nye virksomheder ved hjælp af den assisterede opsætningsvejledning **Overflyt virksomhedsdata** . Du kan finde flere oplysninger i [Blive køreklar](ui-get-ready-business.md).  
 
 > [!IMPORTANT]
-> Det er vigtigt, at du ikke bogfører primosaldoen direkte i finansregnskabet. Hvis der er poster i finanskontoen, som bogføres direkte på finanskontoen, betyder det som regel, at du ikke kan afstemme bankkontoen, eller, hvis der er tale om bankkonti i udenlandsk valuta, samles differencer, når du bogfører flere bankkontoafstemninger. Du bogfører ofte primosaldoen direkte på bankkontoen, og beløbet ophører derefter med finanskontoen. Alternativt kan du tilbageføre den senere til en angivet finanskonto, som du har brugt til at afstemme primosaldoen med finansbalancen. I begge tilfælde skal du udligne en direkte bogføring til finanskontoen, før du starter din første bankafstemning, og især hvis bankkontoen er i udenlandsk valuta.  
+> Det er vigtigt, at du ikke bogfører primosaldoen direkte i finansregnskabet. Hvis der er poster i finanskontoen, som bogføres direkte på finanskontoen, betyder det som regel, at du ikke kan afstemme bankkontoen, eller, hvis der er tale om bankkonti for udenlandsk valuta, samles differencer, når du bogfører flere bankkontoafstemninger. Du bogfører ofte primosaldoen direkte på bankkontoen, og beløbet ophører derefter med finanskontoen. Alternativt kan du tilbageføre den senere til en angivet finanskonto, som du har brugt til at afstemme primosaldoen med finansbalancen. I begge tilfælde skal du udligne en direkte bogføring til finanskontoen, før du starter din første bankafstemning, og især hvis bankkontoen er i udenlandsk valuta.
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Sådan oprettes bankkontoen for import eller eksport af bankfiler
-
-Felter i oversigtspanelet **Overførsel** på siden **Bankkontokort** er relateret til indlæsning og udlæsning af bankfeeds og -filer. Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md) og [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
+Felterne er relateret til indlæsning og udlæsning af bankfeeds og -filer i oversigtspanelet **Overførsel** på siden **Bankkontokort**. Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md) og [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.
 2. Åbn kortet for en bankkonto, du vil eksportere eller importere bankfiler for.
 3. Udfyld felterne efter behov i oversigtspanelet **Overførsel**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
-> Andre fileksporttjenester og deres formater kræver andre konfigurationsværdier på siden **Bankkontokort**. Du får information om forkerte eller manglende konfigurationsværdier, når du prøver at eksportere filen. Så læs omhyggeligt korte beskrivelser af felterne, eller se de relaterede emner med fremgangsmåder. Eksport af en betalingsfil med f.eks. nordamerikansk elektronisk pengeoverførsel (EFT) kræver, at både **Sidste remitteringsadvisnr.** og **Transitnr.** er udfyldt. Du kan finde flere oplysninger i [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
+> Andre fileksporttjenester og deres formater kræver andre konfigurationsværdier på siden **Bankkontokort**. Du får information om forkerte eller manglende konfigurationsværdier, når du prøver at eksportere filen. Læs omhyggeligt korte beskrivelser af felterne, eller se de relaterede emner med fremgangsmåder. Eksport af en betalingsfil med f.eks. nordamerikansk elektronisk pengeoverførsel (EFT) kræver, at både **Sidste remitteringsadvisnr.** og **Transitnr.** er udfyldt. Du kan finde flere oplysninger i [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 Felterne i oversigtspanelet **Transit** på bankkontoen tjener forskellige formål, afhængigt af om betalingen er indadgående eller udadgående.
 
@@ -216,7 +218,7 @@ Illustrationen viser ruten af udgående betalinger:
 
 ## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Sådan konfigureres kreditorbankkonti til eksport af bankfiler
 
-Felter i oversigtspanelet **Overførsel** på siden **Kreditors bankkontokort** er relateret til udlæsning af bankfeeds og -filer. Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md) og [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
+Felter i oversigtspanelet **Overførsel** på siden **Kreditors bankkontokort** er relateret til udlæsning af bankfeeds og -filer. Du kan finde flere oplysninger i [Brug AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md) og [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.
 2. Åbn kortet for en kreditor, hvis bankkonto du vil eksportere betalingsbankfiler til.
@@ -250,7 +252,7 @@ Hvis du vil have en mere kompakt oversigt over dine kontantkonti i financial rep
 [Foretage betalinger med AMC Banking 365 Fundamentals -udvidelsen eller SEPA-kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Betalingsafstemning](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Om Finans og kontoplanen](finance-general-ledger.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

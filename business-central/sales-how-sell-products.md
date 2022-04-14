@@ -10,12 +10,12 @@ ms.search.keywords: trade, partial deliveries, customer sales order
 ms.search.form: 42, 48, 9305
 ms.date: 01/19/2022
 ms.author: edupont
-ms.openlocfilehash: 8aafbe502c59924703d04711458ec9fa77a604f1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 52060d74d7ef855a89dd3cffabd4ada435d6b117
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148326"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523263"
 ---
 # <a name="sell-products-with-a-customer-sales-order"></a>S√¶lge produkter med en kundesalgsordre  
 
@@ -101,7 +101,7 @@ De relaterede vare- og debitorposter oprettes nu i systemet, og salgsordren udl√
 [Udskrive pluklisten](sales-how-print-picking-list.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

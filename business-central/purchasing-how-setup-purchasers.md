@@ -10,12 +10,12 @@ ms.search.keywords: purchasing agent
 ms.search.form: 14, 5116
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 17f307f76f4f34e431b8ee2239886d91bc2c26e3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 366feb242578d79ece0553bc8fba570403d8cde1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140705"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520834"
 ---
 # <a name="set-up-purchasers"></a>Oprette indkøbere
 Hvis der er mange indkøbere ansat i virksomheden, kan du oprette dem på en side og tildele dem en kode. Du kan så bruge koderne til at lave statistikker og analysere oplysninger i rapporter.<br><br>  
@@ -35,7 +35,7 @@ Hvis der er mange indkøbere ansat i virksomheden, kan du oprette dem på en sid
 ## <a name="see-also"></a>Se også
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

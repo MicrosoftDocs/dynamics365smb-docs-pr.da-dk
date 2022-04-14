@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.date: 09/29/2021
+ms.search.form: 1,
+ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: beaca5bec31c0ba4877245cade5363dad21fe05a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bf7435f7d11e05cbe517208ffacd173a73ba1fd6
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133650"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417609"
 ---
 # <a name="company-information-quick-start"></a>Virksomhedsoplysninger Hurtig start
 
@@ -25,19 +26,14 @@ Du kan angive alle relevante oplysninger på siden **Firmaoplysninger**, når du
 ## <a name="to-set-up-company-information"></a>Konfigurere virksomhedsoplysninger  
 
 1. Vælg ![ikonet Tandhjul for at åbne menuen Indstillinger.](media/ui-experience/settings_icon_small.png) menuen, og vælg derefter **Virksomhedsoplysninger**.
-2. Angiv oplysninger på oversigtspanelerne, som beskrevet i følgende tabel.
+2. Angiv oplysninger på oversigtspanelerne, som beskrevet i følgende tabel. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-    |Felt|Beskrivlse|  
-    |-------------|---------------------------------------|  
-    |**Generelt**|Angiv de generelle oplysninger om virksomheden, herunder et logo, siden det vil blive vist på dokumenter, der vender fra kunder, f. eks. fakturaer, som du sender. |  
-    |**Kommunikation**|Angiv de grundlæggende kontaktoplysninger som f. eks. telefonnummer og e-mail-adresse.|  
-    |**Udbetaling**| Udfyld de relevante bankoplysninger for at sikre, at kunderne kan betale dig.|  
-    |**Levering**|Udfyld de relevante leveringsoplysninger, så du kan sende og modtage varer fra og til din virksomhed.|  
-    |**Skat**|Afhængigt af, hvilket land du bor på i hurtig fane til skat, kan du få adgang til dem. Udfyld det, hvis det er tilgængeligt.|  
+    [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 
 Når du har udfyldt oplysningerne, kan du lukke siden.  
 
 ## <a name="see-also"></a>Se også  
 
+[Oversigt over virksomhedsoplysninger](admin-company-information.md)  
+[Konfigurere virksomhedsoplysninger i Italien](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Hurtig start af Business Central](quick-start-business-central.md)  
-[Konfigurere virksomhedsoplysninger](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

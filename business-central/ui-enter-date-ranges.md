@@ -10,14 +10,14 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 934fcefa552f01a05f95221d57d9a708b9acc26f
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 010d130801dd68023eca4c3b65d716fa3ddcc8e8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323002"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518857"
 ---
-# <a name="working-with-calendar-dates-and-times"></a>Arbejde med kalenderdatoer og klokkeslæt
+# <a name="work-with-calendar-dates-and-times"></a>Arbejde med kalenderdatoer og klokkeslæt
 
 I [!INCLUDE[prod_short](includes/prod_long.md)] er der flere måder til at angive datoer og klokkeslæt, herunder effektive funktioner, der fremskynder indtastning af data og hjælper dig med at skrive komplekse kalenderudtryk. Der er forskellige steder i programmet, hvor du kan angive datoer og klokkeslæt i felterne. På en salgsordre kan du f.eks. angive afsendelsesdatoen. Når du filtrerer lister eller rapportdata, kan du angive datoer og klokkeslæt for kun at finde de data, du er interesseret i.
 
@@ -63,12 +63,15 @@ Ugenummereringen er altid ISO 8601, hvor er uge 1 uge er den uge, som 4. januar 
 
 I et datofelt kan du indtaste to, fire, seks eller otte cifre:
 
--   Hvis du kun indtaster to tal, fortolkes dette som dagen og måneden og året indsættes ud fra arbejdsdatoen.
+- Hvis du kun indtaster to tal, fortolkes dette som dagen og måneden og året indsættes ud fra arbejdsdatoen.
 
--   Hvis du indtaster fire tal, fortolkes dette som dagen og måneden, og året indsættes ud fra arbejdsdatoen. Rækkefølgen af dagen og måneden bestemmes af dine områdeindstillinger. Selvom områdeindstillingerne har året før dagen og måneden, fortolkes fire tal som dagen og måneden.
+- Hvis du indtaster fire tal, fortolkes dette som dagen og måneden, og året indsættes ud fra arbejdsdatoen. Rækkefølgen af dagen og måneden bestemmes af dine områdeindstillinger. Selvom områdeindstillingerne har året før dagen og måneden, fortolkes fire tal som dagen og måneden.
 
--   Hvis datoen falder inden for 01-01-1930 og 31-12-2029, kan du nøjes med to tal for året, ellers skal året angives med fire cifre.
+- Hvis datoen falder inden for 01-01-1950 og 31-12-2049, kan du nøjes med to tal for året, ellers skal året angives med fire cifre.
 
+  > [!NOTE]
+  > Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan det tocifrede årstal være forskelligt. Administratorer kan ændre området ved at ændre indstillingen **CalendarTwoDigitYearMax** for [!INCLUDE[prod_short](includes/prod_short.md)]-serveren. Du kan finde flere oplysninger under [Konfiguration af Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
+ 
 ### <a name="today"></a>I dag
 
 Indtast ordet for _i dag_, på det sprog, der er angivet på siden **Mine indstillinger**, for at angive datoen på en post til dags dato. I stedet for at skrive hele ordet kan du skrive en del af ordet fra begyndelsen. Du kan f. eks. skrive _t_ eller _tod_, så længe det ikke også er starten på et andet ord.
@@ -130,7 +133,7 @@ På lister, i totaler og rapporter kan angive filtre for datoer, klokkeslæt og 
 
 Du kan bruge de gyldige formater i datointervalfiltre. F.eks. resulterer man14 03..d 16, der anvendes på et dato og klokkeslætsfelt, i et filter fra kl. 3 mandag i uge 14 for den igangværende arbejdsdatos år, begge inklusive, indtil i dag kl. 16 inklusive.
 
-## <a name="using-date-formulas"></a>Bruge datoformler
+## <a name="use-date-formulas"></a>Bruge dataformularer
 En datoformel er en kort, forkortet kombination af bogstaver og tal, der angiver, hvordan datoer skal beregnes. Du kan angive datoformler i forskellige datoberegningsfelter eller filtre.
 
 > [!NOTE]
@@ -216,7 +219,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## Using Date Formulas
+## Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -336,7 +339,7 @@ Du kan se, hvilken måleenhed, der anvendes i feltet Varighed, ved at skrive et 
 Hvis måleenheden f.eks. er timer, konverteres tallet 5 til 5 timer.
 
 ## <a name="see-also"></a>Se også
-[Arbejde med [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Beregning af forfaldsdato for køb](purchasing-date-calculation-for-purchases.md)  
 [Indtaste kriterier i filtre](ui-enter-criteria-filters.md)  
 

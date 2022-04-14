@@ -10,12 +10,12 @@ ms.search.keywords: category, search, attribute, facet
 ms.search.form: 5730, 5733, 5401
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a8db351f2f99a98f91dedb9d9cc6e0634be5e42a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 108f88cf9f068f28598d3b8ff8013b8879ca630a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130432"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514955"
 ---
 # <a name="categorize-items"></a>Kategorisere varer
 
@@ -55,7 +55,7 @@ Hvis du ændrer mening om en varekategori, kan du slette den. Hvis den allerede 
 [Arbejde med vareattributter](inventory-how-work-item-attributes.md)  
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

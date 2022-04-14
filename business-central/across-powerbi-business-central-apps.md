@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e61e4561c4227eba4c518e6e5ec0582c5ebe7d70
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd29453c816eabd8e9475ac7e818c120bd589f3b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134144"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519181"
 ---
-# <a name="using-the-prod_short-apps-in-power-bi"></a>Bruge [!INCLUDE [prod_short](includes/prod_short.md)]-apps i Power BI
+# <a name="use-the-prod_short-apps-in-power-bi"></a>Bruge [!INCLUDE [prod_short](includes/prod_short.md)]-apps i Power BI
 
 > **GÆLDER FOR:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
@@ -156,7 +156,7 @@ Power BI-appen viser kun data fra den [!INCLUDE[prod_short](includes/prod_short.
 
 [Business Central og Power BI](admin-powerbi.md)  
 [Oversigt over Power BI-integrationskomponent og -arkitektur for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
-[Arbejde med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md)  
+[Arbejde med [!INCLUDE [prod_short](includes/prod_short.md)] data i Power BI](across-working-with-business-central-in-powerbi.md)  
 [Oprette Power BI-rapporter, der viser [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md)  
 [Power BI for forbrugere](/power-bi/consumer/end-user-consumer)  
 [Power BI-tjenestens nye udseende](/power-bi/service-new-look)  
@@ -166,9 +166,9 @@ Power BI-appen viser kun data fra den [!INCLUDE[prod_short](includes/prod_short.
 [Blive køreklar](ui-get-ready-business.md)  
 [Import af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
-[Bruge [!INCLUDE[prod_short](includes/prod_short.md)] som Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
-[Bruge [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
+[Brug af [!INCLUDE[prod_short](includes/prod_short.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
+[Brug af [!INCLUDE[prod_short](includes/prod_short.md)] som Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
+[Brug [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
 
 

@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 5714, 5715
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7ff1a7e75131a5a444acff796da339ec526c48c9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e551b7810bba9e75320ca11a2126b15f3b91d812
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142025"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521984"
 ---
 # <a name="work-with-responsibility-centers"></a>Arbejde med ansvarscentre
 
@@ -62,7 +62,7 @@ Du kan angive dette ved at knytte ansvarscentre til brugere i tre funktionsmodul
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Logistik](warehouse-manage-warehouse.md)  
 [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

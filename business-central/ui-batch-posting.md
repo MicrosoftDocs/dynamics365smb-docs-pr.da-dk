@@ -10,12 +10,12 @@ ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007
 ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 024588a5fcb565935a47f63a73b7287879c0db8c
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 357a4a8d1eba62c3619439558cf81a5fc19f0963
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334952"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515975"
 ---
 # <a name="post-multiple-documents-at-the-same-time"></a>Bogføre flere dokumenter på én gang
 
@@ -130,7 +130,7 @@ Som administrator kan du bruge [Application Insights](/azure/azure-monitor/app/a
 [Redigere bogførte dokumenter](across-edit-posted-document.md)  
 [Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

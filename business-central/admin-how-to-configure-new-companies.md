@@ -1,6 +1,6 @@
 ---
-title: Sådan konfigureres nye virksomheder | Microsoft Docs
-description: Du kan konfigurere og tilpasse en ny virksomhed, som du har oprettet. Hvis du vil finjustere din implementering, skal du fortsætte i tre faser for at fuldføre konfigurationen.
+title: Konfigurere nye virksomheder
+description: Du kan konfigurere og tilpasse en ny virksomhed, som du har oprettet med RapidStart Services. Hvis du vil finjustere din implementering, skal du fortsætte i tre faser for at fuldføre konfigurationen.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f0964028b7d6e711e48e1361950d1ec6b4e14425
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8b3bdea227d5314d4b4f218fed59906db1995180
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130796"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515767"
 ---
-# <a name="configure-new-companies"></a>Konfigurere nye virksomheder
+# <a name="configure-new-companies-with-rapidstart-services"></a>Konfigurere nye virksomheder med RapidStart Services
 Hvis du vil konfigurere en ny virksomhed i løsningsimplementeringen, følger du typisk tre faser. I den første fase indlæser du konfigurationspakken, der er en .rapidstart-fil med konfigurationsoplysningerne. I anden fase skal du ændre konfigurationsoplysningerne og derefter anvende dem på din nye virksomhed. I den endelige fase skal du finde og rette eventuelle fejl.  
 
 Følgende procedurer forudsætter, at du har oprettet og gemt en konfigurationspakke. Du kan finde flere oplysninger i [Forberede en konfigurationspakke](admin-how-to-prepare-a-configuration-package.md).  

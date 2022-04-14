@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 51fb5e0f818974ed421b7f2bf282ad1c35c2eb0a
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 926c614dcb28c7bde4ee8c0a611ac45aa7145fb8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366339"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523211"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Oprette Power BI-rapporter, der viser [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
@@ -47,7 +47,7 @@ Denne artikel beskriver, hvordan du kan komme i gang med at bruge Power BI Deskt
 
 - Download [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet (valgfrit).
 
-  Du kan finde flere oplysninger i [Bruge [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet](#theme) i denne artikel.
+  Du kan finde flere oplysninger i [Brug [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet](#theme) i denne artikel.
 
 ## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Tilføje [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop
 
@@ -82,7 +82,7 @@ Den første opgave i oprettelsen af rapporter er at tilføje [!INCLUDE[prod_shor
       - **Navn på virksomhed**
         - **Avancerede API'er**
 
-          Denne mappe indeholder avancerede API-sider, der er udgivet af Microsoft, ligesom [Business Central-automatiserings API'er](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) og [brugerdefinerede API-sider til Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Brugerdefinerede API-sider grupperes yderligere i mapper efter [APIPublisher](/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/business-central/dev-itpro/developer/properties/devenv-apigroup-property)-egenskaber for API-sidens kildekode.
+          Denne mappe indeholder avancerede API-sider, der er udgivet af Microsoft, ligesom [Business Central-automatiserings API'er](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) og [brugerdefinerede API-sider til Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Brugerdefinerede API-sider grupperes yderligere i mapper efter [APIPublisher](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apigroup-property)-egenskaber for API-sidens kildekode.
 
         - **Standard-API'er v 2.0**
 

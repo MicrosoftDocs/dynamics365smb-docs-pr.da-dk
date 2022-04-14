@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: eeb886becb78fdccd4a075db88fc393c30adb221
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: deb54eae1b6b6494043ae1ed0d3fc5cbdf2bab22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366258"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516235"
 ---
 # <a name="manage-employee-absence"></a>Administrere medarbejderfravær
 Hvis du vil administrere en medarbejders fravær, skal du registrere fraværet på siden **Fraværsregistrering**. Det kan derefter vises på forskellige måder i forbindelse med analyse og rapportering.
@@ -69,7 +69,7 @@ Du kan registrere medarbejderfravær dagligt eller med andre intervaller, der op
 ## <a name="see-also"></a>Se også
 [Administrere personale](hr-manage-human-resources.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)
 
 

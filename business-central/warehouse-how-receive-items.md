@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 2c5a0ebaad14e33ec15df9f6483a397715a167a4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ebb230a7bd0e2008d16b33c0fb00bdbeac3177d6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144433"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519488"
 ---
 # <a name="receive-items"></a>Modtage varer
 
@@ -133,7 +133,7 @@ Når du håndterer en overmodtagelse, kan du enten øge værdien i feltet **Modt
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
 [Montagestyring](assembly-assemble-items.md)  
 [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

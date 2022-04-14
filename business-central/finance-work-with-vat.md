@@ -7,18 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases
-ms.search.form: 118, 130, 142, 459, 460, 525
+ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7543c60455794d9f004ea11b2baccf81264b9886
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ea32a78ec191d335fb772a7040ed81db6753b196
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382095"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417515"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbejde moms af salg og køb
-Hvis dit land eller område kræver, at du beregner moms af salgs- og købstransaktioner, så du kan indberette beløbene til skattemyndighederne, kan du konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til automatisk at beregne moms på salgs- og købsdokumenter. Du kan finde flere oplysninger i [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md).
+Hvis dit land eller område kræver, at du beregner moms på salgs-og købstransaktioner, kan du konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til at beregne moms. Du kan finde flere oplysninger i [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md).
 
 Der er dog nogle opgaver i forbindelse med moms, der kan udføres manuelt. Du kan f.eks. rette et bogførte beløb, hvis du opdager, at en leverandør anvender en anden afrundingsmetode.  
 
@@ -26,31 +26,44 @@ Der er dog nogle opgaver i forbindelse med moms, der kan udføres manuelt. Du ka
 > Du kan lade [!INCLUDE[prod_short](includes/prod_short.md)] kontrollere momsregistreringsnummeret og andre virksomhedsoplysninger, når du opretter eller opdaterer dokumenter. Du kan finde flere oplysninger i [Validate CVR-numre](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Beregne og vise momsbeløb i salg- og købsdokumenter  
-Du kan beregne og vise momsbeløb i salgs- og købsdokumenter forskelligt, afhængigt af den type debitor eller kreditor, du handler med. Du kan også tilsidesætte det beregnede momsbeløb for at have det samme momsbeløb som det, der er beregnet af kreditoren i en given transaktion.  
+Når du vælger et varenummer i feltet **Nummer** felt på salgs-eller købsdokumenter, [!INCLUDE[prod_short](includes/prod_short.md)] udfylder felterne **Enhedspris** og **Linjebeløb**. Salgsprisen stammer fra enten **Vare**-kortet eller fra de varesalgspriser, der er tilladt for varen og debitoren. [!INCLUDE[prod_short](includes/prod_short.md)] beregner kun linjebeløb, når du angiver et antal for linjen.  
 
-### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Salgspris og linjebeløb inkl./ekskl. moms i salgsdokumenter  
-Når du vælger et varenummer i feltet **Nummer** i et salgsdokument, udfylder [!INCLUDE[prod_short](includes/prod_short.md)] også feltet **Salgspris**. Salgsprisen stammer fra enten **Vare**-kortet eller fra de varesalgspriser, der er tilladt for varen og debitoren. [!INCLUDE[prod_short](includes/prod_short.md)] beregner kun **Linjebeløb**, når du angiver et antal for linjen.  
+Hvis salgsprisen og linjebeløbene skal være inklusive moms, f. eks. Hvis du sælger til detailkunder, skal du markere afkrydsningsfeltet **priser inkl. moms** i dokumentet. Du kan finde flere oplysninger i [nkl./ekskl. moms i salgsdokumenter](#including-or-excluding-vat-in-prices-and-line-amounts). 
 
-Hvis du sælger til detailhandelsvirksomheder, skal priserne på salgsdokumenterne evt. være inkl. moms. For at gøre dette skal du markere afkrydsningsfeltet **Priser inkl. moms** på dokumentet.  
+Du kan beregne og vise momsbeløb i salgs- og købsdokumenter forskelligt, afhængigt af den type debitor eller kreditor, du handler med. Du kan også ændre det beregnede momsbeløb manuelt for at have det samme momsbeløb som det, der er beregnet af kreditoren i en given transaktion.
 
-### <a name="including-or-excluding-vat-on-prices"></a>Priser med eller uden moms
-Hvis afkrydsningsfeltet **Priser inkl. moms** er markeret på et salgsdokument, vil felterne **Salgspris** og **Linjebeløb** være inkl. moms. Feltnavnene vil også afspejle dette. Som standard er moms ikke inkluderet i disse felter.  
+### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>Salgspris og linjebeløb inkl./ekskl. moms
+Hvis afkrydsningsfeltet **Priser inkl. moms** er markeret på et salgsdokument, vil felterne **Salgspris** og **Linjebeløb** være inkl. moms. Feltnavnene vil også afspejle dette. Som standard er moms ikke inkluderet i disse felter. Navnene på felterne afspejler, om priserne er inkl. moms.  
 
-Hvis afkrydsningsfeltet ikke er markeret, vil felterne **Salgspris** og **Linjebeløb** udfyldes ekskl. moms, og feltnavnene vil afspejle dette.  
-
-Du kan oprette standardindstillinger for **Priser inkl. moms** for alle salgsdokumenterne for en kunde i feltet **Priser inkl. moms** på kortet **Debitor**. Du kan også oprette varesalgspriser, så de er inkl. eller ekskl. moms. Sædvanligvis vil varesalgsprisen på varekortet være prisen ekskl. moms. Det er oplysningerne i feltet **Salgspris inkl. moms** på **Vare**-kortet, der bruges til at bestemme salgsprisbeløbet for salgsdokumenter.  
+Du kan oprette standardindstillinger for **Priser inkl. moms** for alle salgsdokumenterne for en kunde i feltet **Priser inkl. moms** på kortet **Debitor**. Du kan også oprette varesalgspriser, så de er inkl. eller ekskl. moms. Salgsprisen på varekortet udelukker typisk moms. 
 
 Følgende tabel indeholder en oversigt over, hvordan salgsprisbeløbene for et salgsdokument beregnes, når du har oprettet priser på siden **Salgspriser**:  
 
-|**Feltet Salgspris inkl. moms på varekortet**|**Feltet Priser inkl. moms i salgshovedet**|**Handling**|  
+|**Feltet Salgspris inkl. moms på varekortet**|**Priser inkl. moms-felt**|**Handling**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
-|Ingen markering|Ingen markering|**Salgsprisen** på varekortet kopieres til feltet **med salgsprisen ekskl. moms** i salgslinjerne.|  
-|Ingen markering|Markering|Momsbeløbet pr. salgsenhed beregnes og lægges til **salgsprisen** på varekortet. Den samlede salgspris indsættes derefter i feltet **med salgsprisen inkl. moms** på salgslinjerne.|  
-|Markering|Ingen markering|Programmer beregner momsbeløbet, der er medtaget i **Salgsprisen** på varekortet ved hjælp af momsprocenten relateret til kombinationen af Momsvirks.bogf.gruppe (pris) og Momsproduktbogf.gruppe. **Salgsprisen** på varekortet, reduceret med momsbeløbet, angives derefter i feltet **Enhed pris ekskl. MOMS** i salgslinjerne.|  
-|Markering|Markering|**Salgsprisen** på varekortet kopieres til feltet **med salgsprisen inkl. moms** i salgslinjerne.|
+|Ikke aktiveret|Ikke aktiveret|**Salgsprisen** på varekortet kopieres til feltet **med salgsprisen ekskl. moms** i salgslinjerne.|  
+|Ikke aktiveret|Aktiveret|Momsbeløbet pr. salgsenhed beregnes og lægges til **salgsprisen** på varekortet. Den samlede salgspris indsættes derefter i feltet **salgsprisen inkl. moms** på salgslinjerne.|  
+|Aktiveret|Ikke aktiveret|Programmer beregner momsbeløbet, der er medtaget i **Salgsprisen** på **varekortet** ved hjælp af momsprocenten relateret til kombinationen af Momsvirks.bogf.gruppe (pris) og Momsproduktbogf.gruppe. **Salgsprisen** på varekortet, reduceret med momsbeløbet, angives derefter i feltet **Enhed pris ekskl. MOMS** i salgslinjerne. Du kan finde flere oplysninger i [Bruge momsvirksomhedsbogføringsgrupper og debitorprisgrupper](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups).|  
+|Aktiveret|Aktiveret|**Salgsprisen** på varekortet kopieres til feltet **med salgsprisen inkl. moms** i salgslinjerne.|
+
+#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a>Bruge momsvirksomhedsbogføringsgrupper og debitorprisgrupper 
+Hvis du vil have priser til at omfatte moms, kan du bruge momsvirksomhedsbogføringsgrupper til at beregne beløbet på grundlag af momsbogføringsopsætningen for gruppen. Du kan finde flere oplysninger i [Konfigurere momsvirksomhedsbogføringsgrupper](finance-setup-vat.md#set-up-vat-business-posting-groups).
+
+Afhængigt af hvad du vil gøre, kan du knytte en momsvirksomhedsbogføringsgruppe til debitorer eller salgsdokumenter på følgende måder:
+
+* Hvis du vil bruge samme momssats for alle debitorer, kan du vælge en gruppe i feltet **momsvirksomhedsbogføringsgruppe (salgsbeløb)** på siden **Salgsopsætning**.
+* Hvis du vil bruge en momssats for en bestemt debitor, kan du vælge en gruppe i feltet **momsvirksomhedsbogføringsgruppe (salgsbeløb)** på siden **Debitorkort**. 
+* Hvis du vil bruge en momssats for bestemte debitorer, kan du vælge en gruppe i feltet **momsvirksomhedsbogføringsgruppe (salgsbeløb)** på siden **Debitorprisgruppe**. Dette er f. eks. nyttigt, når du vil have en pris, der gælder for alle debitorer i bestemte geografiske områder eller for en bestemt branche.
+* På alle salgsdokumenter i feltet **momsvirksomhedsbogføringsgruppe**. Det momsbeløb, der er angivet for gruppen, bruges kun for det dokument, du arbejder på i øjeblikket.
+
+> [!NOTE]
+> Hvis du ikke angiver en gruppe i feltet **momsvirksomhedsbogføringsgruppe (pris)**, medtages de ikke i priserne.
+
+#### <a name="examples"></a>Eksempler
+Faktorer som det land eller område, du sælger i, eller den type brancher, du sælger til, kan påvirke det momsbeløb, du skal redegøre for. F. eks. kan en restaurant opkræve 6 % moms af måltider, der er Eaten internt og 17 % for takeaway. For at opnå dette skal du oprette en momsvirksomhedsbogføringsgruppe (salgspris) for internt og en til takeaway.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Manuel korrektion af momsbeløb i salgs- og købsdokumenter  
-Du kan korrigere bogførte momsposter. Det giver mulighed for at ændre de samlede salgs- eller købsmomsbeløb uden at ændre momsgrundlaget. Det kan være nødvendigt, hvis du f.eks. modtager en faktura fra en leverandør, der har beregnet momsen forkert.  
+Du kan foretage rettelser i bogførte momsposter, så du kan ændre beløbene for den samlede salgs- eller købsmoms uden at ændre momsbasen. Hvis du f. eks. modtager en faktura fra en kreditor med et forkert momsbeløb.  
 
 Selvom du måske har oprettet en eller flere kombinationer til håndtering af importmoms, skal du angive mindst én momsproduktbogføringsgruppe. For eksempel kan du navngive den **RETTELSER** med henblik på korrektion, medmindre du kan bruge den samme finanskonto i feltet **Købsmomskonto** på momsbogføringslinjen. Du kan finde flere oplysninger i [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md).
 

@@ -10,12 +10,12 @@ ms.search.keywords: delete, data, retention, policy, policies
 ms.search.form: 3903, 3901
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1abd02f7c70e8fe624e7d8b18ec7b7cb8b7c2c9e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a6fee7aedd8fca20e032bc3ac67e5f9e26d1fb22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383935"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517078"
 ---
 # <a name="define-retention-policies"></a>Definere opbevaringspolitikker
 Administratorer kan definere opbevaringspolitikker for at angive, hvor ofte [!INCLUDE[prod_short](includes/prod_short.md)] skal slette forældede data i tabeller, der indeholder logposter og poster, der er arkiveret. Hvis du f.eks. rydder poster i logfilen, bliver det nemmere at arbejde med de data, der rent faktisk er relevante. Politikker kan omfatte alle data i de tabeller, der ligger ud over udløbsdatoen, eller du kan tilføje filterkriterier, som kun skal indeholde bestemte udløbne data i politikken. 
@@ -106,7 +106,7 @@ Når en udvikler har føjet tabeller til listen, kan en administrator medtage de
 [Analyse af Retention Policy Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Ændringer af revision i Business Central](across-log-changes.md)  
 [Filtrering](ui-enter-criteria-filters.md#filtering)  
-[Du kan bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

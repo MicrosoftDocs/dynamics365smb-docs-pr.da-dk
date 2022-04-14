@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 5783647c4e70debce32bbb0ca3976efea78ec065
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5dcadd2cb9712fb2cfa69dfed921c205698d524b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143708"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511151"
 ---
 # <a name="design-details-cost-adjustment"></a>Designoplysninger: Omkostningsregulering
 
@@ -187,7 +187,7 @@ Hvis du har oprettet den automatiske kostregulering for posteringer, der forekom
 [Designoplysninger: Bogføring af produktionsordre](design-details-production-order-posting.md)  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

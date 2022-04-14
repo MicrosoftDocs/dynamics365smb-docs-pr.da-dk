@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e9eb5243541cdd365aa6a92b1278f38da531ed54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d10ae12501feba348794c3deaa3ca66e221553b9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141817"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521412"
 ---
 # <a name="preparing-closing-statements"></a>Forberedelse af ultimoopgørelser
 Der findes en række standardrapporter, som du kan bruge til at samle de oplysninger, der er nødvendige ved forberedelsen af regnskabets ultimoopgørelser.
@@ -35,7 +35,7 @@ Få vist en rapport ved at vælge ![lightbulb, der åbner funktionen Fortæl mig
 
 ## <a name="see-also"></a>Se også
 [Afslutning af år og perioder](year-close-years-periods.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Business Intelligence](bi.md)
 
 

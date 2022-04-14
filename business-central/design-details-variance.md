@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: a2984aa0d33f95dc98db168b6c18299769583c9f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: db015f330a89a164b7636b4f44a265f528e9cc3f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149201"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513040"
 ---
 # <a name="design-details-variance"></a>Designoplysninger: Afvigelse
 Afvigelsen er defineret som forskellen mellem den faktiske kostpris og standardkostprisen, som beskrevet i følgende formel.  
@@ -60,9 +60,9 @@ Afvigelsen er defineret som forskellen mellem den faktiske kostpris og standardk
 
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
- [Designoplysninger – Kostmetoder](design-details-costing-methods.md) [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
+ [Designoplysninger – Omkostningsmetoder](design-details-costing-methods.md) [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

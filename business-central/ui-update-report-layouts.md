@@ -1,7 +1,7 @@
 ---
 title: Opdater brugerdefinerede rapportlayouts
 description: Få mere at vide om, hvordan du opdaterer et brugerdefineret rapportlayout, der er brugt i en rapport, når der f. eks. er ændringer i rapportens datasæt.
-author: SorenGP
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,14 +9,16 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d04b6b37573c81c3eef43fd2077b42bd7f5e1884
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 76e4b2351e3df740871b5f79e6086c1a70079023
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144615"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517208"
 ---
-# <a name="update-custom-report-layouts"></a>Opdater brugerdefinerede rapportlayouts
+# <a name="legacy-update-custom-report-layouts"></a>(Ældre) Opdater brugerdefinerede rapportlayouts
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 Nogle gange skal du opdatere et brugerdefineret rapportlayout, der bruges i en rapport. Dette er påkrævet, når der er sket en designændring af rapportens datasæt, eksempelvis et felt, der bruges i layoutet, er blevet fjernet fra datasættet i rapporten. Hvis et rapportlayout kræver opdatering, får du en fejlmeddelelse, når du forsøger at se, udskrive eller gemme rapporten.  
 
@@ -28,9 +30,9 @@ Ikke alle ændringer af rapportdatasæt kan opdateres automatisk i rapportlayout
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Sådan opdaterer du ét eller flere brugerdefinerede rapportlayout  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Rapportlayout**, og vælg derefter det relaterede link.  
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
 
-2.  Hvis du vil opdatere en bestemt rapport, skal du på siden **Rapportlayout** vælge layoutet på listen og derefter vælge handlingen **Opdater layout**. Eller hvis du vil opdatere alle brugerdefinerede rapportlayout for virksomheden, skal du vælge handlingen **Opdater alle layout**.  
+2.  Hvis du vil opdatere en bestemt rapport, skal du på siden **Rapportlayoutvalg** vælge layoutet på listen og derefter vælge handlingen **Opdater layout**. Eller hvis du vil opdatere alle brugerdefinerede rapportlayout for virksomheden, skal du vælge handlingen **Opdater alle layout**.  
 
 Hvis der ikke opstår fejl, anvendes opdateringerne på rapportlayout. Hvis der opstår fejl, vises en meddelelse, der indeholder de fejl, der er. Derefter skal du manuelt redigere brugerdefinerede rapportlayout for at rette fejlen. Du kan finde flere oplysninger i [Rettelse af fejl](ui-update-report-layouts.md#FixErrors).  
 

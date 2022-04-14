@@ -10,12 +10,12 @@ ms.search.keywords: rfq
 ms.search.form: 41, 9300
 ms.date: 07/12/2021
 ms.author: edupont
-ms.openlocfilehash: a493c2de0747e7674bd9e9771b63f8d3ddd1f534
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0264e689947745122d3de8879dc7e050aef3103f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130172"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521724"
 ---
 # <a name="make-sales-quotes"></a>Oprette salgstilbud
 
@@ -104,6 +104,6 @@ Konverteringen fjerner salgstilbuddet fra databasen. En salgsfaktura eller salgs
 [Konfigurere salg](sales-setup-sales.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
 [Arkivere dokumenter](across-how-to-archive-documents.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

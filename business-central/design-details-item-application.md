@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 581ffdce943844d466adc6320fe32aaaa29138b6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4b6ce2978ecd5c8687c75a3afd563ed6083a9a04
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143552"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515123"
 ---
 # <a name="design-details-item-application"></a>Designoplysninger: Vareudligning
 
@@ -249,7 +249,7 @@ På grund af den måde, som kostprisen på en vare beregnes, kan en forkert vare
 [Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md)  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: write down
 ms.search.form: 5629, 5633
 ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: eca5788889b8f68b95c418689ad4ed22e8eafe40
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 337900111388e086e27a2d388843d4e1ab052eb6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366199"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518229"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Metoder til afskrivning af anlægsaktiver
 
@@ -306,7 +306,7 @@ Når du indtaster en post i B1 i anlægskassekladden og markerer afkrydsningsfel
 [Opsætning af Anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  
 [Blive køreklar](ui-get-ready-business.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

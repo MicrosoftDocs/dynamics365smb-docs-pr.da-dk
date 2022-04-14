@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 1c0a19a9739ab537b6a5df562484d2d9d6f8e3a6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b19471cc3833c642ee65dc262fd5ca6cc1a57492
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137649"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520174"
 ---
 # <a name="power-bi--faq"></a>Power BI Ofte stillede spørgsmål
 

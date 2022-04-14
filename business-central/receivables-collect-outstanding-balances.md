@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.search.form: 6, 25, 440, 448, 452
+ms.search.form: 6, 25, 440, 443, 448, 452
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 0974cce66734c5a25d87e87052fa82ad1e2a1c53
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 271b9f032df685b5eac1c3bddca037326ea4c1d6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366932"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520730"
 ---
 # <a name="collect-outstanding-balances"></a>Indhente udestående beløb
 
@@ -121,7 +121,7 @@ Når du udsteder en rykker, oprettes der en rykkerpost på siden **Rykker-/rente
 [Konfiguration af Rentebetingelser](finance-setup-finance-charges.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: a55d0d32873783adf049b44d90cc12b6e66080a4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0301e17b0082c2ac7be37670757065e4ff6fcaf7
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144771"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513727"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Kombinere leverancer på én enkelt faktura
 Hvis du vil fakturere mere end én leverance samtidig, kan du bruge samlefunktionen.  
@@ -63,7 +63,7 @@ Gentag trin 1 til 3 for eventuelle andre berørte dokumenter, f.eks. rammesalgso
 
 ## <a name="see-also"></a>Se også  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

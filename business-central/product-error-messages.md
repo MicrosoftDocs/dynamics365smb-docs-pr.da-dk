@@ -5,12 +5,12 @@ author: edupont04
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9b881ee5a4a98e30af3da572600747702a3ebca5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 75ba3591c676089fd971886fa32284b5aec5715e
+ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137623"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8419308"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Advarsler og fejlmeddelelser i Dynamics 365 Business Central
 
@@ -20,7 +20,7 @@ Mens du arbejder, kan du få vist meddelelser i [!INCLUDE [prod_short](includes/
 
 Standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] indeholder beskrivelser af de fleste felter, kolonner og handlinger, som du kan få vist ved at vælge navnet. I kombination med undervisningstip for vigtige sider, beskrivende billedtekster og instruktioner er disse værktøjstip eller billedforklaringer vores nuværende implementering af *integreret brugerhjælp*, som er et vigtigt princip inden for moderne softwaredesign.  
 
-Hvis du har et spørgsmål om et felt eller et andet element på brugergrænsefladen, skal du vælge navnet for at få vist en kort beskrivelse. Vælg *Få mere at vide*, hvis det ikke er tilstrækkeligt.  
+Hvis du har et spørgsmål om et felt eller et andet element på brugergrænsefladen, skal du vælge navnet for at få vist en kort beskrivelse. Vælg *Få mere at vide*, hvis det ikke er tilstrækkeligt. Du kan også bruge ruden i produkthjælp til at finde svar på dine spørgsmål.  
 
 Du kan finde flere oplysninger i [Dynamics 365 Business Central-modelle til brugerhjælp](/dynamics365/business-central/dev-itpro/user-assistance) i administrationen for [!INCLUDE [prod_short](includes/prod_short.md)].  
 

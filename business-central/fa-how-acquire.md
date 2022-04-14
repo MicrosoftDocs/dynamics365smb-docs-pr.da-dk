@@ -10,12 +10,12 @@ ms.search.keywords: purchase fixed asset
 ms.search.form: 5605, 5551, 5600, 5628, 5629, 5633
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 9ddd5c303415ea08eea19f0e869efd2b6022c24c
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 46d8b491727f566c9a96640e3dfb40cc0d417f40
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366510"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519247"
 ---
 # <a name="acquire-fixed-assets"></a>Anskaffede anlægsaktiver
 For hvert anlægsaktiv skal du definere et kort med oplysninger om aktivet. Du kan angive bygninger eller produktionsudstyr som et hovedanlæg med en komponentliste, og du kan gruppere dem på forskellige måder, f.eks efter art, afdeling eller lokation. Der skal oprettes en afskrivningsprofil, og den skal tildeles til hvert enkelt anlægsaktiv, før du kan hente det.
@@ -101,10 +101,10 @@ Du kan bogføre skrapværdien sammen med anskaffelsesprisen fra en anlægskladde
 
 ## <a name="see-also"></a>Se også
 [Anlægsaktiver](fa-manage.md)  
-[Opsætning af anlægsaktiver](fa-setup.md)  
+[Opsætning af Anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  
 [Blive køreklar](ui-get-ready-business.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

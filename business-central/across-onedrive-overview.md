@@ -1,39 +1,48 @@
 ---
 title: Business Central og OneDrive for Business Integration
 description: Du kan bruge OneDrive til Business til at gemme, administrere og dele filer, f.eks. rapporter eller vedhæftede filer.
-author: brentholtorf
+author: jswymer
 ms.topic: overview
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
-ms.author: bholtorf
-ms.openlocfilehash: 522bf01d08e77e52b4fbcf32f2652c53208cf8ec
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.date: 02/28/2022
+ms.author: jswymer
+ms.openlocfilehash: 371c090e321992ec2fdc0ee7cb218feaa6b16d9a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381825"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521224"
 ---
 # <a name="business-central-and-onedrive-for-business-integration"></a>Business Central og OneDrive for Business Integration
+
 OneDrive for Business er en skylagringstjeneste, der er inkluderet i Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] gør det nemt at gemme, administrere og dele filer med andre personer via OneDrive. Når der er en fil i din OneDrive, kan du nyde de omfattende samarbejdsoplevelser fra onlineversionerne af Microsoft-produkter, f.eks. Word, Excel og PowerPoint. Du kan f.eks. dele et Word-dokument, og så kan du og dine kolleger redigere det sammen i realtid. OneDrive giver dig også mulighed for at åbne andre filtyper, f.eks. PDF'er. 
 
 ## <a name="getting-started"></a>Introduktion
+
 Vi har skabt forbindelsen mellem [!INCLUDE[prod_short](includes/prod_short.md)] online og OneDrive, så det er nemt at komme i gang. Det eneste krav er, at brugerne har åbnet OneDrive mindst én gang. 
 
-På de fleste sider, hvor filer er tilgængelige, som f.eks. Rapportindbakke eller filer, der er vedhæftet til poster, finder du en **Åbn i OneDrive**-handling.
+På de fleste sider, hvor filer er tilgængelige, som f.eks. Rapportindbakke eller filer, der er vedhæftet til poster, finder du en **Åbn i OneDrive**- og **Dele**-handling.
 
-:::image type="content" source="media/Open in OneDrive.PNG" alt-text="Åbn i OneDrive-handlingen":::
+:::image type="content" source="media/onedrive-overview-report-inbox-w-outline.png" alt-text="Handlingerne Åbn OneDrive, og del handlinger med rapporter":::
 
- 
-:::image type="content" source="media/OneDrive attachment.PNG" alt-text="Dele vedhæftede filer i OneDrive":::
 
-Når du bruger handlingen **Åbn i OneDrive** første gang, gør [!INCLUDE[prod_short](includes/prod_short.md)] følgende i OneDrive:
+:::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="Handlingerne Åbn OneDrive, og del handlinger til vedhæftede filer":::
 
-1. Opretter en mappe med navnet [!INCLUDE[prod_short](includes/prod_short.md)]. 
-2. I [!INCLUDE[prod_short](includes/prod_short.md)]-mappen oprettes en anden mappe med samme navn som det firma, du arbejder i. Hvis du arbejder i mere end ét regnskab, oprettes der en mappe til det firma, du arbejder i, når du bruger handlingen **Åbn i OneDrive**. 
-3. Placerer en kopi af den fil, du har valgt i mappen, og åbner derefter filen. Næste gang du bruger handlingen, kopieres og åbnes filen. 
+|Vælg...|Til...|Se flere oplysninger...|
+|---------|-----|----------------|
+|Åbne i OneDrive|Kopier filen til en Business Central-mappe i OneDrive, og åbn filen.|[Åbn i OneDrive](across-share-onedrive.md#open-in-onedrive) |
+|Fordeling|Kopier filen til din OneDrive, og del den med andre.|[Del i OneDrive](across-share-onedrive.md#share) |
 
-Mappen og dens indhold er private, indtil du beslutter dig for at dele dem med andre. Du kan f.eks. beslutte at dele indhold med en eller flere af dine kolleger eller endda personer uden for organisationen. Du kan få flere oplysninger i [Dele OneDrive-filer og -mapper](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+<!--
+When you use the **Open in OneDrive** action for the first time, [!INCLUDE[prod_short](includes/prod_short.md)] does the following in your OneDrive:
+
+1. Creates a folder named [!INCLUDE[prod_short](includes/prod_short.md)]. 
+2. In the [!INCLUDE[prod_short](includes/prod_short.md)] folder, it creates another folder with the same name as the company you're working in. If you work in more than one company, it will create a folder for the company you're working in when you use the **Open in OneDrive** action. 
+3. Puts a copy of the file you selected in the folder, and then opens the file. The next time you use the action, it only copies and opens the file. 
+
+The folder and its content are private until you decide to share them with others. For example, you might decide to share content with one or more of your coworkers, or even people outside of your organization. For more information, see [Share OneDrive files and folders](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+-->
 
 > [!NOTE]
 > Du kan også tilslutte det [!INCLUDE[prod_short](includes/prod_short.md)]-lokale miljø til OneDrive. Der er dog et par ting at gøre for at få det til at fungere. Du kan finde flere oplysninger i [Tilpasning af Business Central i det lokale miljø](admin-onedrive-integration.md#configuring-business-central-on-premises).

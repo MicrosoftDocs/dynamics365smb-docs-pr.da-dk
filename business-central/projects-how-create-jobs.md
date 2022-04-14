@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ebfbdf04b577f60e20da899e0ba3512571ed5189
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 70bfd81f6fd331018fe6cafd6793ae1f1501f159
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140757"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519618"
 ---
 # <a name="create-jobs"></a>Oprette sager
 Når du starter et nyt projekt, skal du oprette et sagskort med integrerede sagsopgaver og sagsplanlægningslinjer, opdelt i to niveauer.  
@@ -26,6 +26,8 @@ Den lagdelte struktur giver dig mulighed for at opdele sagen i mindre opgaver og
 
 > [!TIP]
 > Vælg handlingen **Ny sag** i rollecenteret **Projektleder** for at starte en assisteret opsætningsvejledning, som fører dig gennem trinnene til oprettelse af en sag med integrerede opgaver og planlægningslinjer. Følgende fremgangsmåde beskriver, hvordan trinnene udføres manuelt. Du kan se et eksempel på, hvordan du opretter en sag manuelt i [Video: Sådan oprettes en sag i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
+
+Nogle gange adskiller den part, der modtager en service, sig fra den part, der betaler fakturaen. På siden **sager** kan du angive den kunde, der skal have fordel af projektet i felterne **kunde**, og den part, der skal faktureres, i felterne **faktureres**. Du kan også angive, hvor arbejdet skal udføres, ved at vælge fra en liste over leveringsadresser for debitoren, tilføje oplysninger om eksterne referencer for at forenkle kommunikationen om projektet og overskrive projektets standardbetingelser.
 
 ## <a name="to-create-a-job-card"></a>Sådan oprettes et sagskort
 Du kan oprette et sagskort og derefter oprette sagsopgavelinjer og sagsplanlægningslinjer for det.
@@ -73,7 +75,7 @@ En sagsplanlægningslinje han være en af følgende typer.
 [Finans](finance.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d5668db9d0a7fa9b461a19949643ca7a2cc01a31
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 91f23a3b0a04a4e0d35d3574d4af84e187df14e8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132520"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521646"
 ---
 # <a name="the-microsoft-pay-extension"></a>Udvidelsen Microsoft Pay
 
@@ -46,7 +46,7 @@ Aktivering af betalingstjenesteudvidelser er gratis i [!INCLUDE[prod_short](incl
 ## <a name="see-also"></a>Se også
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Konfigurere salg](sales-setup-sales.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

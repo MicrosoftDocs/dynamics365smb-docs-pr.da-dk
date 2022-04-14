@@ -9,22 +9,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d9cf7f41f399d2747b554f3784c40b51fb9d71da
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c07a3cfc9807ddcb78a97dc342013ff6e498fee7
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133248"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518437"
 ---
 # <a name="set-up-workflows"></a>Opsætning af arbejdsgange
 
-Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin. Der er flere oplysninger i [Anvende workflows](across-use-workflows.md).  
+Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin. Der er flere oplysninger i [Brug arbejdsgange](across-use-workflows.md).  
 
  Inden du kan bruge arbejdsprocesser, skal du oprette arbejdsgangbrugere og godkendelsesbrugere, angive, hvordan brugere modtager notifikationer om trin i arbejdsgange, og derefter oprette arbejdsgange, eventuelt efter tilpasning af koder.  
 
  På siden **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder. Du definerer workflowtrin ved at udfylde felter om workflowlinjer fra faste lister over hændelses- og responsværdier, der repræsenterer scenarier, der understøttes af programkoden.  
 
- Hvis et virksomhedsscenarie kræver en workflowhændelse eller et svar, der ikke understøttes, skal en Microsoft-partner implementere dem med en kode, eller der kan konfigureres et workflow ved hjælp af Power Automate. Du kan finde flere oplysninger i [Brug af [!INCLUDE[prod_short](includes/prod_short.md)] i en automatiseret arbejdsproces](across-how-use-financials-data-source-flow.md) eller [Hændelser i AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) i hjælpen til udviklere.
+ Hvis et virksomhedsscenarie kræver en workflowhændelse eller et svar, der ikke understøttes, skal en Microsoft-partner implementere dem med en kode, eller der kan konfigureres et workflow ved hjælp af Power Automate. Du kan finde flere oplysninger i [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] i en automatiseret arbejdsproces](across-how-use-financials-data-source-flow.md) eller [Hændelser i AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) i hjælpen til udviklere.
 
  Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
 
@@ -48,7 +48,7 @@ Denne video viser, hvordan du konfigurerer et workflow, der kræver, at en perso
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
 ## <a name="see-also"></a>Se også  
- [Anvende workflows](across-use-workflows.md)   
+ [Bruge Workflows](across-use-workflows.md)   
  [Workflow](across-workflow.md)   
  [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
  [Arbejde med Business Central](ui-work-product.md)

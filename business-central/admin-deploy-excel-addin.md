@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 29cfec8ea605209aed7e7005dfcfa1c10d54b7b6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141407"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518411"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Få Business Central-tilføjelsesprogram til Excel
 
@@ -79,13 +79,13 @@ Du skal arbejde i både [!INCLUDE[prod_short](includes/prod_short.md)] og Micros
     4. Gennemse **anmodninger om accepter tilladelser**, og vælg derefter **Næste** > **afslutning af installation**.
     5. Vent på, at det grønne afkrydsningsfelt ud for **Installeret** vises for tilføjelsesprogrammet, og vælg derefter **Udført**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
-       Tilføjelsesprogrammet vises på siden **Tilføjelsesprogrammer**. Du kan finde flere oplysninger om installation af tilføjelsesprogrammer i Microsoft 365 Administration under [Installere tilføjelsesprogrammer i Administration](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+       Tilføjelsesprogrammet vises på siden **Tilføjelsesprogrammer**. Du kan finde flere oplysninger om installation af tilføjelsesprogrammer i Microsoft 365 Administration under [Installere tilføjelsesprogrammer i Administration](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 4. Gå tilbage til den **centraliserede installation af installationsprogrammet til Excel**-assisterede opsætning i [!INCLUDE[prod_short](includes/prod_short.md)], og vælg **Næste**.
 5. Vælg **Brug centraliseret installation**, og vælg **Udfør**.
 
     Hvis du ikke slår denne parameter til, får du [!INCLUDE[prod_short](includes/prod_short.md)]-tilføjelsesprogrammet direkte fra Office Store.
 
-Når du er færdig, kan du altid ændre installationen i Microsoft 365 Administration, f.eks. ved at tildele flere brugere. Du kan finde flere oplysninger om installation af tilføjelsesprogrammer i Administration under [Installere tilføjelsesprogrammer i Administration](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Når du er færdig, kan du altid ændre installationen i Microsoft 365 Administration, f.eks. ved at tildele flere brugere. Du kan finde flere oplysninger om installation af tilføjelsesprogrammer i Administration under [Installere tilføjelsesprogrammer i Administration](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 
 > [!IMPORTANT]
 > Hvis du har mere end ét miljø, skal du køre **Excel-tilføjelsesprogrammet Centraliseret installation** assisteret opsætning i hvert miljø, hvor du vil bruge Centraliseret installation. Du behøver dog ikke at konfigurere den centraliserede installation i Microsoft 365 igen. Det eneste, du skal gøre, er at aktivere **Brug centraliseret installation** i den assisterede opsætning. 

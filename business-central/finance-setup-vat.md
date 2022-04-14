@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.author: bholtorf
-ms.openlocfilehash: 80264ff085ab9d88a2d6a32d8f0f1189b3622832
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383667"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519221"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Konfigurere beregnings- og bogføringsmetoder for moms
 
@@ -31,7 +31,7 @@ Du kan konfigurere momsberegninger manuelt, men der kan være svært og tidskræ
 > [!NOTE]  
 > Du kan kun bruge vejledningen, hvis du har oprettet Min virksomhed og ikke har bogført transaktioner, der omfatter moms. Ellers kan du nemt komme til at bruge forskellige momssatser utilsigtet og gøre rapporter vedrørende moms unøjagtige.  
 
-Hvis du selv vil konfigurere momsberegninger eller bare vil vide mere om de enkelte trin, indeholder i dette emne beskrivelser af de enkelte trin.  
+Hvis du selv vil konfigurere momsberegninger eller bare vil vide mere om de enkelte trin, indeholder i denne artikel beskrivelser af de enkelte trin.  
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
@@ -44,6 +44,14 @@ For at starte vejledningen skal du gøre følgende:
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") Ikon, skriv **Assisteret opsætning**.  
 2. Vælg **Konfigurer moms**, og fuldfør trinnene.
 3. Når du har fuldført den assisterede opsætning, skal du gå til siden **Momsbogf.opsætning** og kontrollere, om du er nødt til at udfylde flere felter i henhold til de landespecifikke krav for din version af [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Lokal funktionalitet i Business Central](about-localization.md)  
+
+### <a name="check-the-vat-posting-setup"></a>Kontrollere momsbogføringsopsætningen
+
+For at understøtte dig i hurtig introduktion vil du få besked viser [!INCLUDE [prod_short](includes/prod_short.md)] notifikationer, hvis du mangler finanskonti i bogføringsgrupper eller bogføringsopsætninger, f. eks siden **Momsbogføringsopsætning**. Du kan skifte denne type notifikation til eller fra ved hjælp af *finanskonti, der mangler i bogføringsgruppe eller installationsmeddelelse* på siden **Mine notifikationer**. Gå til siden **Mine indstillinger**, og vælg *Ændr, når jeg modtager notifikationer.* link.  
+
+Hvis du vælger en sådan notifikation, opretter [!INCLUDE [prod_short](includes/prod_short.md)] automatisk disse bogføringsopsætninger på basis af bogføringsgrupperne i det dokument eller den kladde, du arbejder på.  
+
+På dette tidspunkt kan du nøjes med at udfylde de manglende finanskonti. Når du senere indsnævrer installationen yderligere, kan du muligvis se, at denne installation er forkert. [!INCLUDE [prod_short](includes/prod_short.md)] tillader ikke sletning af Momsbogføringsopsætning og Bogføringsopsætning, når der er oprettet poster, der er oprettet på baggrund af sådanne varianter. Fra 2022 udgivelsesbølge 1 kan du bruge feltet **Spærret** på **Bogføringsopsætnings**-siden til at forhindre, at brugere kommer til at følge med en opsætning, der ikke længere er relevant for nye posteringer.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Konfigurere momsregistreringsnumre for dit land eller område
 
@@ -94,7 +102,7 @@ Du kan definere et ubegrænset antal kombinationer. Hvis du vil gruppere kombina
 Hvis du vil kombinere momsbogføringsopsætninger, skal du gøre følgende:
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 5.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Momsbogf.opsætning**, og vælg derefter det relaterede link.
-2. Udfyld felterne efter behov.
+2. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Tildele momsbogføringsgrupper til flere enheder som standard
 

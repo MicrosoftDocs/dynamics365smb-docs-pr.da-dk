@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: e19db53137980b986dabc933ae56d33a5a768350
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd127d1b313a0c060ef676c74f0df83e01896b53
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141511"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516443"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Installér [!INCLUDE [prod_short](includes/prod_short.md)]-appen til Microsoft Teams
 
@@ -59,8 +59,8 @@ Denne indstilling er den hurtigste måde at installere appen på.
 4. Vælg appen, når du finder den.
 5. Vælg **Tilføj**.
 
-> [!NOTE]
-> Med begge indstillinger bliver du bedt om at logge på [!INCLUDE [prod_short](includes/prod_short.md)]. Vælg linket **log på**, og følg instruktionerne for at angive logonnavn og adgangskode til [!INCLUDE [prod_short](includes/prod_short.md)].
+> [!TIP]
+> Hvis du indsætter et hyperlink til en Business Central-side af en virksomhed i en gruppesamtale, og du ikke har installeret appen, får du vist en meddelelse som f. eks **Business Central vil have vist et eksempel på dette hyperlink.** Hvis du vil installere denne app, skal du vælge **Vis forhåndsversion** og følge instruktionerne.
 
 **Indstilling 3: From Business Central**
 
@@ -68,6 +68,9 @@ Denne indstilling er den hurtigste måde at installere appen på.
 2. Vælg ![Forstørrelsesglas, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") Ikonet **Hent Business Central-app'en til Teams**, og vælg derefter det relaterede link.  
 3. Vælg **Hent app fra butik**.
 4. Vent på, at Teams åbnes, og at Business Central-appen vises, og vælg derefter **Tilføj**.
+
+> [!NOTE]
+> Med begge indstillinger bliver du bedt om at logge på [!INCLUDE [prod_short](includes/prod_short.md)]. Vælg linket **log på**, og følg instruktionerne for at angive logonnavn og adgangskode til [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="next-step"></a>Næste trin
 

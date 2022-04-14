@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: bee576ce77411e15710e9f09ccbc6ef457f80728
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e195e6658bc495b5d06764114d971c9fc4b7b484
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145442"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522612"
 ---
 # <a name="date-calculation-for-sales"></a>Beregning af forfaldsdato for salg
 [!INCLUDE[prod_short](includes/prod_short.md)] beregner automatisk den tidligst mulige dato, som en vare eller en salgsordrelinje kan sendes på.
@@ -44,7 +44,7 @@ Hvis du ikke angiver en ønsket leveringsdato på en salgsordrelinje, eller hvis
 ## <a name="see-also"></a>Se også  
  [Beregning af forfaldsdato for køb](purchasing-date-calculation-for-purchases.md)   
  [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

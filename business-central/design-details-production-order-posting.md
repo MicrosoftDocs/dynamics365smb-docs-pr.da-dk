@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 21dfc90e25c33c26bc739ff32274d0a5088a6e2f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 51d04edb267ba2d75b4ed57d1587b40994f009cc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146562"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511697"
 ---
 # <a name="design-details-production-order-posting"></a>Designoplysninger: Bogføring af produktionsordre
 I lighed med montageordrebogføring bliver de forbrugte komponenter og den anvendte computertid konverteret og udlæst som den producerede vare, når produktionsordren er afsluttet. Du kan finde flere oplysninger i [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md). Men montageordrers kost-flow er mindre kompliceret, især fordi montageomkostninger kun bogføres én gang og derfor ikke opretter lageret for igangværende arbejde.

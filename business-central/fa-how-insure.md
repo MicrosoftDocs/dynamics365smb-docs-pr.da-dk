@@ -10,12 +10,12 @@ ms.search.keywords: policy, coverage
 ms.search.form: 5647, 5644, 5653, 5651, 5655, 5652, 5645, 5656, 5646, 5648, 9275
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 3385d0a8d7158237a1f86e8d78785c7045490886
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9b4cbceb0dec26b242a4904ea40de7b8147dc8f4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146536"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515085"
 ---
 # <a name="insure-fixed-assets"></a>Forsikring af anlægsaktiver
 En forsikringspolice for et anlægsaktiv repræsenteres af et forsikringskort. Du kan knytte et anlægsaktiv til en forsikringspolice eller flere anlægsaktiver til en forsikringspolice.
@@ -116,7 +116,7 @@ Anlægsaktivet vil blive skilt fra den forkerte forsikringspolice på den anden 
 [Anlægsaktiver](fa-manage.md)  
 [Opsætning af Anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

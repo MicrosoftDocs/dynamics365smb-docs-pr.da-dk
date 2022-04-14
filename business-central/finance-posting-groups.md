@@ -8,24 +8,30 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
-ms.date: 01/24/2022
+ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: e44181c8206662b8dee7899a23b49b7f0cb9df57
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 4391b73a6e7f26262349abaeff751dd8f0f6c4e1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381771"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515663"
 ---
 # <a name="set-up-posting-groups"></a>Konfigurere bogføringsgrupper
 
-Bogføringsgrupper knytter enheder som debitorer, kreditorer, varer, ressourcer og salgs- og købsdokumenter til finanskonti. De sparer tid, og du undgå nemmere fejl, når du bogfører transaktioner. Transaktionsværdier går til de konti, der er angivet i bogføringsgruppen for den pågældende enhed. Det eneste krav er, at du har en kontoplan. Du kan finde flere oplysninger i [Konfigurere kontoplanen](finance-setup-chart-accounts.md).  
+Tilknytte enheder til bogføringsgrupper til finanskonti. F. eks. er debitorer, kreditorer, varer, ressourcer og salgs-og købsdokumenter. Bogføringsgrupper sparer tid, og du undgå nemmere fejl, når du bogfører transaktioner. Transaktionsværdier går til de konti, der er angivet i bogføringsgruppen for den pågældende enhed. Det eneste krav er, at du har en kontoplan. Du kan finde flere oplysninger i [Konfigurere kontoplanen](finance-setup-chart-accounts.md).  
 
 Bogføringsgrupper inddeles i tre hovedgrupper:  
 
-* Generel - Angiv, hvem du sælger til og køber fra, og hvad du sælger og køber. Du kan også kombinere grupper for at angive ting som de resultatopgørelseskonti, der skal bogføres på, eller du kan bruge grupper til at filtrere rapporter.  
-* Specifik - Brug f.eks. salgsdokumenter i stedet for at bogføre direkte til finansposterne. Når du opretter debitorposter, oprettes de tilsvarende poster i finansposterne.  
-* Skat – Definer de momsprocenter og beregningstyper, der gælder for dem, du sælger til og køber fra, og hvad du sælger og køber.
+* Generelt
+
+  Angiv, hvem du sælger til og køber fra, og hvad du sælger og køber. Du kan også kombinere grupper for at angive ting som de resultatopgørelseskonti, der skal bogføres på, eller du kan bruge grupper til at filtrere rapporter.  
+* Bestemt
+
+  Brug f.eks. salgsdokumenter i stedet for at bogføre direkte til finansposterne. Når du opretter debitorposter, oprettes de tilsvarende poster i finansposterne.  
+* Skat
+
+  Definer de momsprocenter og beregningstyper, der gælder for dem, du sælger til og køber fra, og hvad du sælger og køber.
 
 I følgende sektioner beskrives bogføringsgrupperne under de respektive hovedgrupper.  
 
@@ -35,9 +41,9 @@ I følgende tabel beskrives de generelle bogføringsgrupper.
 
 | Type | Beskrivlse |
 | --- | --- |
-| Virksomhedsbogføringsgrupper |Tildel denne gruppe til debitorer og kreditorer for at angive, hvem du sælger til, og hvem du køber fra. Konfigurer dem på siden **Virksomhedsbogføringsgrupper**. Når du gør det, skal du tænke på, hvor mange grupper du skal bruge for at opdele køb og salg. Du kan f.eks. gruppere debitorer og kreditorer efter geografisk område eller efter type virksomhed. |
-| Produktbogføringsgrupper |Tildel denne gruppe til varer og ressourcer for at angive, hvad du sælger, og hvad du køber. Konfigurer dem på siden **Produktbogføringsgrupper**. Når du gør det, skal du overveje, hvor mange grupper du skal bruge for at opdele salg efter produkt (varer og ressourcer) og køb efter vare. Opdel f.eks. disse grupper efter råvarer, detail, ressourcer, kapacitet osv. |
-| Bogføringsopsætninger |Kombiner virksomheds- og produktbogføringsgrupper, og vælg de konti, der skal bogføres på. Du kan for hver kombination af virksomheds- og produktbogføringsgrupper tildele et sæt finanskonti. Det betyder, at du f.eks. kan bogføre salget af samme vare på forskellige salgskonti i finansposterne, fordi debitorer tilknyttes til forskellige virksomhedsbogføringsgrupper. Du kan konfigurere dem på siden **Bogføringsopsætning**. |
+| Virksomhedsbogføringsgrupper |Tildel denne gruppe til debitorer og kreditorer for at angive, hvem du sælger til, og hvem du køber fra. Konfigurer disse bogføringsgrupper på siden **Virksomhedsbogføringsgrupper**. Når du gør det, skal du tænke på, hvor mange grupper du skal bruge for at opdele køb og salg. Du kan f.eks. gruppere debitorer og kreditorer efter geografisk område eller efter type virksomhed. |
+| Produktbogføringsgrupper |Tildel denne gruppe til varer og ressourcer for at angive, hvad du sælger, og hvad du køber. Konfigurer disse bogføringsgrupper på siden **Produktbogføringsgrupper**. Når du gør det, skal du overveje, hvor mange grupper du skal bruge for at opdele salg efter produkt (varer og ressourcer) og køb efter vare. Opdel f.eks. disse grupper efter råvarer, detail, ressourcer, kapacitet osv. |
+| Bogføringsopsætninger |Kombiner virksomheds- og produktbogføringsgrupper, og vælg de konti, der skal bogføres på. Du kan for hver kombination af virksomheds- og produktbogføringsgrupper tildele et sæt finanskonti. Det betyder, at du f.eks. kan bogføre salget af samme vare på forskellige finanskonti, fordi debitorer tilknyttes til forskellige virksomhedsbogføringsgrupper. Konfigurer disse konfigurationer på siden **Bogføringsopsætning**. |
 
 ## <a name="specific-posting-groups"></a>Specifikke bogføringsgrupper
 
@@ -45,11 +51,22 @@ I følgende tabel beskrives de bogføringsgrupper, der gælder for typer af data
 
 |Type | Beskrivlse |
 | --- | --- |
-| Debitorbogføringsgrupper |Definer de konti, der skal bruges, når du bogfører transaktioner for tilgodehavender. Hvis du bruger lagerbeholdning med tilgodehavender, vil den virksomhedsbogføringsgruppe, der er tildelt debitorerne, og den produktbogføringsgruppe, der er tildelt lagervaren, bestemme, hvilke konti salgsordrelinjeposterne skal bogføres på. Se *Generelle virksomhedsbogføringsgrupper* og *Generelle produktbogføringsgrupper* i afsnittet [Generelle bogføringsgrupper](#general-posting-groups) section. Konfigurer grupperne på siden **Debitorbogføringsgrupper**. |
-| Kreditorbogføringsgrupper |Angiv, hvor der skal bogføres transaktioner for samlekonti, gebyrkonti og kontantrabatkonti. Dette minder om debitorbogføringsgrupper. Konfigurer grupperne på siden **Kreditorbogføringsgrupper**. |
-| Varebogføringsgrupper |Definer varebogføringsgrupper, som du derefter skal tildele til de relevante varekonti på siden **Varebogføringsopsætning**. Det betyder, at når du bogfører poster, der vedrører en vare, bliver de automatisk bogført til den finanskonto, der er defineret for den kombination af varebogføringsgruppe og lokation, som er sammenkædet med varen. Varebogføringsgrupper er også en god måde at organisere lageret på, så du kan adskille varer efter deres bogføringsgrupper, når du opretter rapporter. Konfigurer grupperne på siden **Varebogføringsgrupper**. |
-| Bankkontobogføringsgrupper |Definere de finanskonti, hvor bankkontoposteringer bogføres. Dette kan f.eks. forenkle processer til sporing af transaktioner og afstemning af bankkonti. Konfigurer dem på siden **Bankkontobogføringsgrupper**. Det anbefales, at feltet **Direkte bogføring** er angivet til feltet bogførings *Nummerserie* på finanskontiene. |
-| Anlægsbogføringsgrupper |Angiv konti for forskellige typer udgifter og omkostninger, f.eks. anskaffelser, akkumulerede afskrivningsbeløb, anskaffelse ved afgang, afskrivning ved afgang, gevinst ved afgang, tab ved afgang, reparationer og afskrivning ved drift. Konfigurer grupperne på siden **Anlægsbogføringsgrupper**. |
+| Debitorbogføringsgrupper |Definer de konti, der skal bruges, når du bogfører transaktioner for tilgodehavender. Hvis du bruger lagerbeholdning med tilgodehavender, vil den virksomhedsbogføringsgruppe, der er tildelt debitorerne, og den produktbogføringsgruppe, der er tildelt lagervaren, bestemme, hvilke konti salgsordrelinjeposterne skal bogføres på. Se *Generelle virksomhedsbogføringsgrupper* og *Generelle produktbogføringsgrupper* i afsnittet [Generelle bogføringsgrupper](#general-posting-groups) section. Konfigurer disse bogføringsgrupper på siden **Debitorbogføringsgrupper**. |
+| Kreditorbogføringsgrupper |Angiv, hvor der skal bogføres transaktioner for samlekonti, gebyrkonti og kontantrabatkonti. Dette minder om debitorbogføringsgrupper. Konfigurer disse bogføringsgrupper på siden **Kreditorbogføringsgrupper**. |
+| Varebogføringsgrupper |Definer varebogføringsgrupper, som du derefter skal tildele til de relevante varekonti på siden **Varebogføringsopsætning**. Det betyder, at når du bogfører poster, der vedrører en vare, bliver de automatisk bogført til den finanskonto, der er defineret for den kombination af varebogføringsgruppe og lokation, som er sammenkædet med varen. Varebogføringsgrupper er også en god måde at organisere lageret på, så du kan adskille varer efter deres bogføringsgrupper, når du opretter rapporter. Konfigurer disse bogføringsgrupper på siden **Lagerbogføringsgrupper**. |
+| Bankkontobogføringsgrupper |Definere de finanskonti, hvor bankkontoposteringer bogføres. Dette kan f.eks. forenkle processer til sporing af transaktioner og afstemning af bankkonti. Konfigurer disse bogføringsgrupper på siden **Bankkontobogføringsgrupper**. Det anbefales, at feltet **Direkte bogføring** er angivet til feltet bogførings *Nummerserie* på finanskontiene. |
+| Anlægsbogføringsgrupper |Angiv konti for forskellige typer udgifter og omkostninger, f.eks. anskaffelser, akkumulerede afskrivningsbeløb, anskaffelse ved afgang, afskrivning ved afgang, gevinst ved afgang, tab ved afgang, reparationer og afskrivning ved drift. Konfigurer disse bogføringsgrupper på siden **Anlægsbogføringsgrupper**. |
+
+### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Tillade erstatnings debitor- eller kreditorbogføringsgrupper på dokumenter
+Du kan lade andre vælge en anden debitor- og Kreditorbogføringsgruppe end standard, når de arbejder med salgs- eller købsdokumenter og kladder.
+
+Hvis du vil tillade ændringer af debitorbogføringsgrupper, skal du vælge **Tillad ændring af bogføringsgruppen** på siderne **Opsætning af salg** og **Serviceopsætning** og siden **Opsætning af indkøb og gæld** for ændringer i kreditorbogføringsgruppen.
+
+På siderne **Debitorbogføringsgrupper** eller **Kreditorbogføringsgrupper** kan du angive bogføringsgrupperne som erstatninger ved at vælge **Erstatninger**. Erstatningsbogføringsgrupper kan erstatte de standard debitor-eller kreditorbogføringsgrupper, der er angivet for en debitor eller kreditor.
+
+Når du har oprettet denne indstilling, kan du vælge mellem de tilladte erstatnings bogføringsgrupper og ændre debitor-eller kreditorbogføringsgruppen, når du bogfører salgs-eller købsdokumenter og kladder. Erstatningsdebitor- eller kreditorbogføringsgrupperne kopieres til bogførte bilag og kladder, og kreditorposter bogføres på de finanskonti, der er angivet for erstatningerne.
+
+Når der f. eks. anvendes en faktura og betaling, der er bogført med forskellige debitor-eller kreditorbogføringsgrupper (forskellige finanskonti), overfører [!INCLUDE[prod_short](includes/prod_short.md)] beløbene mellem finanskontiene, så de stemmer.
 
 ## <a name="tax-posting-groups"></a>Momsbogføringsgrupper
 
@@ -57,9 +74,11 @@ I følgende tabel beskrives de momsrelaterede bogføringsgrupper.
 
 | Type | Beskrivlse |
 | --- | --- |
-| Momsvirksomhedsbogføringsgrupper |Bestem, hvordan salgsmoms skal beregnes og bogføres for debitorer og kreditorer. Konfigurer dem på siden **Momsvirksomhedsbogf.grupper**. Når du gør det, skal du overveje, hvor mange grupper du har brug for. Det kan f.eks. afhænge faktorer som lokal lovgivning, og om du handler både nationalt og internationalt. |
+| Momsvirksomhedsbogføringsgrupper |Bestem, hvordan salgsmoms skal beregnes og bogføres for debitorer og kreditorer. Konfigurer disse bogføringsgrupper på siden **MomsVirksomhedsbogføringsgrupper**. Når du gør det, skal du overveje, hvor mange grupper du har brug for. Det kan f.eks. afhænge faktorer som lokal lovgivning, og om du handler både nationalt og internationalt. |
 | Momsproduktbogføringsgrupper |Angiv momsberegninger, der er nødvendige for de typer varer eller ressourcer, du køber eller sælger. |
 | Momsbogføringsopsætning |Kombiner momsvirksomhedsbogføringsgrupper og momsproduktbogføringsgrupper. Når du udfylder en finanskladdelinje, købslinje eller salgslinje, ser vi på kombination for at identificere, hvilke konti der skal bruges. |
+
+Hvis der bruges moms i dit land, kan du se [Definere beregninger og bogføringsmetoder for merværdiafgifts skat](finance-setup-vat.md).  
 
 ## <a name="example-of-linking-posting-groups"></a>Eksempel på sammenkædning af bogføringsgrupper
 
@@ -86,18 +105,20 @@ Din opsætning bestemmer, hvornår bogføringen foretages. For eksempel afhænge
 
 ## <a name="copying-posting-setup-lines"></a>Kopiere bogføringsopsætningslinjer
 
-Jo flere produkt- og virksomhedsbogføringsgrupper, du har, jo flere linjer ser du på siden Bogføringsopsætning. Dette kan betyde en masse dataangivelse for at konfigurere bogføringsopsætningen for virksomheden. Selvom der muligvis er mange forskellige kombinationer af virksomheds- og produktbogføringsgrupper, kan forskellige kombinationer stadig bogføre til de samme finanskonti. Hvis du vil begrænse mængden af manuel dataangivelse, skal du kopiere finanskontiene fra en eksisterende linje på siden **Bogføringsopsætning**.
+Jo flere produkt- og virksomhedsbogføringsgrupper, du har, jo flere linjer ser du på siden **Bogføringsopsætning**. Dette kan betyde en masse dataangivelse for at konfigurere bogføringsopsætningen for virksomheden. Selvom der muligvis er mange forskellige kombinationer af virksomheds- og produktbogføringsgrupper, kan forskellige kombinationer stadig bogføre til de samme finanskonti. Hvis du vil begrænse mængden af manuel dataangivelse, skal du kopiere finanskontiene fra en eksisterende linje på siden **Bogføringsopsætning**.
 
 ## <a name="set-up-posting-groups-on-the-go"></a>Konfigurere bogføringsgrupper på farten
 
-Brugere kan komme hurtigere i gang med [!INCLUDE[prod_short](includes/prod_short.md)], der giver mulighed for at hjælpe via meddelelser om manglende finanskonti i de forskellige opsætninger af bogføringsgrupper i dokumenter. Hvis du vil have vist disse notifikationer, skal du kontrollere, at **Finanskontoen mangler i bogføringsgruppe eller installationsmeddelelse** er valgt på siden **Mine notifikationer**, som du kan få adgang til fra feltet **Rediger, når jeg modtager notifikationer** på siden **Mine indstillinger**.  
+Brugere kan komme hurtigere i gang med [!INCLUDE[prod_short](includes/prod_short.md)], der viser meddelelser om manglende finanskonti i de forskellige opsætninger af bogføringsgrupper i dokumenter. Hvis du vil have vist disse notifikationer, skal du kontrollere, at **Finanskontoen mangler i bogføringsgruppe eller installationsmeddelelse** er valgt på siden **Mine notifikationer**, som du kan få adgang til fra feltet **Rediger, når jeg modtager notifikationer** på siden **Mine indstillinger**.  
 
-På den måde får du besked, når du arbejder på et dokument, der bruger en bogføringsgruppe eller en opsætning, der mangler en nødvendig finanskonto. Vælg linket i notifikationen Åbn en side, hvor du kan foretage de relevante ændringer, hvis du har tilladelse til det.  
+På den måde får du besked, når du arbejder på et dokument, der bruger en bogføringsgruppe eller en opsætning, der mangler en nødvendig finanskonto. Vælg linket i notifikationen til at åbne en side, hvor du kan foretage de relevante ændringer, hvis du har tilladelse til det.  
 
 > [!NOTE]
 > Hvis du vil føre dig direkte til den bogføringsgruppe eller opsætning, der mangler en finanskonto, opretter [!INCLUDE[prod_short](includes/prod_short.md)] en pladsholder til bogføringsgruppe eller opsætning. Bogføringsgrupper og opsætninger er en måde, som bogholderen kan bruge til at styre, hvordan poster bogføres i finansregnskabet, så det er muligt, at du ikke kan oprette just-in-time-bogføringsgrupper og -opsætninger i din organisation.  
-> 
-> Hvis det er tilfældet, skal du deaktivere notifikationen **Finanskonto mangler i bogføringsgruppe eller opsætning**, og du skal derefter samarbejde med bogholderen for at foretage de relevante ændringer af bogføringsgruppen, opsætningen eller dokumentet. Dette er et vigtigt trin, fordi når dokumenterne er bogført, kan alle ukorrekte bogføringsgrupper eller opsætninger ikke slettes, da der er oprettet finansposter til dem. 
+>
+> Hvis det er tilfældet, skal du deaktivere notifikationen *Finanskonto mangler i bogføringsgruppe eller opsætning*, og du skal derefter samarbejde med bogholderen for at foretage de relevante ændringer af bogføringsgruppen, opsætningen eller dokumentet. Dette er et vigtigt trin, fordi når dokumenterne er bogført, kan alle ukorrekte bogføringsgrupper eller opsætninger ikke slettes, da der er oprettet finansposter til dem.
+
+Fra 2022 udgivelsesbølge 1 kan du bruge feltet **Spærret** på **Bogføringsopsætnings**-siden til at forhindre, at brugere kommer til at følge med en opsætning, der ikke længere er relevant for nye posteringer.  
 
 ## <a name="troubleshooting-posting-group-errors"></a>Fejlfinding i forbindelse med bogføringsgruppefejl
 
@@ -111,7 +132,7 @@ Når der er noget galt, viser [!INCLUDE[prod_short](includes/prod_short.md)] sid
 ## <a name="see-also"></a>Se også
 [Finans- og kontoplanen](finance-general-ledger.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

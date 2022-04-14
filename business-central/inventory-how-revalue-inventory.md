@@ -11,12 +11,12 @@ ms.search.keywords: costing, inventory cost, value entries
 ms.search.forms: 5803,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4abfe521684fd6e0e4d8d519248919b0628dc1fb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: edad8dcc23a204f4dcfabfa43a9c83918f63f416
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135928"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511542"
 ---
 # <a name="revalue-inventory"></a>Regulere lagerbeholdning
 Hvis du vil op- eller nedskrive en vare eller en bestemt varepost, skal du bruge reguleringskladden.
@@ -38,7 +38,7 @@ Nye værdiposter oprettes nu for at afspejle de værdireguleringer, du har bogf�
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Salg](sales-manage-sales.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

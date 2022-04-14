@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1d6d920e4259752a25dd73c4b10a84e09334f78e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a97185820c9b28e297c8e30ad0c3f921860b8267
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138013"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517468"
 ---
 # <a name="delete-cost-budget-entries"></a>Slet omkostningsbudgetposter
 
@@ -38,7 +38,7 @@ Du kan ikke slette en enkelt post eller flere poster i midten af listen over jou
 
 [Regnskab for omkostninger](finance-manage-cost-accounting.md)
 [Oprette omkostningsbudgetter](finance-create-cost-budgets.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

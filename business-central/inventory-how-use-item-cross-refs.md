@@ -10,12 +10,12 @@ ms.search.keywords: item reference, cross reference, inventory
 ms.search.forms: 5737, 5735, 5736
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 8d85acefe89d22f7ab6c86aca3af91a6f8a4d67c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: d99b304cec6fd9d834cc16a080040a721beede17
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384094"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514461"
 ---
 # <a name="use-item-references"></a>Anvend varereferencer
 
@@ -60,7 +60,7 @@ Feltet **Beskrivelse** på linjen overskrives med kreditorens varebeskrivelse, s
 
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 8900, 9018, 9022
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 317e90976aed760f55fc7122483377e8df11c906
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: b52d90dfadfac794ff1a62088def7c26a903a57d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335140"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512650"
 ---
 # <a name="set-up-printers"></a>Installation af printere
 
@@ -278,7 +278,7 @@ Cloud-udskrivning er udviklet til dokumenter med en rimelig størrelse. De flest
 ## <a name="see-also"></a>Se også
 
 [Udskrive en rapport](ui-work-report.md#PrintReport)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Afvikle kørsler](ui-how-run-batch-jobs.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 02f03c3b3423de2b78aea7f4e61c65c968290341
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9cfdcc9bbf8e24675c6894b8ca2efbf10129d990
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130875"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511177"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflows i Dynamics 365 Business Central
 
@@ -33,14 +33,14 @@ Alle workflowskabeloner, som du opretter med, Power Automate, føjes til listen 
 |**For at**|**Skal du se**|  
 |------------|-------------|  
 |Oprette arbejdsgangbrugere, angive, hvordan brugere modtager notifikationer, og oprette nye arbejdsgange. Implementer de krævede arbejdsgangelementer ved at tilpasse programkoden for nye arbejdsgange for ikke-understøttede scenarier.|[Opsætte workflows](across-set-up-workflows.md)|  
-|Aktiver arbejdsgange, behandl meddelelser i arbejdsgangen, herunder godkendelser og godkendelsesanmodninger om at udføre trin i en arbejdsgang. Arkiver og slet arbejdsgange.|[Anvende workflows](across-use-workflows.md)|  
+|Aktiver arbejdsgange, behandl meddelelser i arbejdsgangen, herunder godkendelser og godkendelsesanmodninger om at udføre trin i en arbejdsgang. Arkiver og slet arbejdsgange.|[Bruge arbejdsgange](across-use-workflows.md)|  
 
 ## <a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Administrere projekter](projects-manage-projects.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

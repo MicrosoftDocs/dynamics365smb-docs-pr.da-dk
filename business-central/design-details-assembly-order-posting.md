@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2ec7e242bd174f3a825a29923b33642d035ec4ca
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 33d8c3a36340c997a12f879f8770e17045a88aa2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132104"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521042"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designoplysninger: Bogføring af montageordre
 Montageordrebogføring er baseret på de samme principper, som når der bogføres lignende aktiviteter af salgsordrer og produktionsforbrug/afgang. Dog kombineres principperne, fordi montageordrer har egen brugergrænseflade til bogføring, ligesom den for salgsordrer, mens faktisk postbogføring sker i baggrunden som direkte vare- og ressourcekladdeposteringer, ligesom for produktionsforbrug, afgang og kapacitet.  
@@ -114,7 +114,7 @@ Bogføring af salgsordrelinjer, hvor en del er lagerbeholdningen, og en anden de
  [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
  [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

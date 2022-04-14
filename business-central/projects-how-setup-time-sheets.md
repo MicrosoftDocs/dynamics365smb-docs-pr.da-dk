@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 3eca8e42a6b57e4a78ffd3f2dace885ba66c3ddf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b9453285ce1bf18f3eeef3c3148f6dd00921c03f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147540"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510813"
 ---
 # <a name="set-up-time-sheets"></a>Konfigurere timesedler
 
@@ -104,7 +104,7 @@ I følgende afsnit beskrives det, hvordan du konfigurerer timesedler, hvis du ik
 [Finans](finance.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

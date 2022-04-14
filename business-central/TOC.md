@@ -1,8 +1,8 @@
 # [Velkommen til Business Central](index.md)
 # [Nyt og planlagt](product-news.md)
-# Introduktion
+# Kom i gang
 ## [Oversigt over forretningsfunktioner](across-business-functionality.md)
-<!--### [Getting Ready for Doing Business](ui-get-ready-business.md)-->
+<!--### [Get Ready for Doing Business](ui-get-ready-business.md)-->
 ## Få mere at vide om
 ### [Undervisningskatalog for Business Central](readiness/readiness-learning-catalog.md)
 ### [Business Central på Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
@@ -21,6 +21,17 @@
 #### [Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Gennemgang: Udarbejd likviditetsforecast ved hjælp af kontoskemaer](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+<!-- Contoso-->
+### Demonstrationsdata for Contoso Coffee til produktion
+#### [Introduktion til demonstrationsdata for Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
+#### [Opret en ny produktionsstykliste og styklisteversion](contoso-coffee/create-new-production-bom-version.md)
+#### [Opret en ny rute](contoso-coffee/create-new-routing.md)
+#### [Opret en ny fastlagt produktionsordre og ændre den](contoso-coffee/create-firm-planned-production-order-change.md)
+#### [Kombinere automatisk og manuel træk](contoso-coffee/combine-automatic-manual-flushing.md)
+#### [Bruge Ordreplanlægning til at oprette og reservere levering](contoso-coffee/order-planning-create-reserve-supply.md)
+#### [Konfigurere og behandle en underleverandør operation](contoso-coffee/set-up-process-subcontracting-operation.md)
+#### [Opret ny kapacitet](contoso-coffee/set-up-new-capacity.md)
+#### [Varianter](contoso-coffee/variants.md)
 
 ### Designoplysninger
 #### [Oversigt over oplysninger om programdesign](design-details-application-design.md)
@@ -93,7 +104,7 @@
 ### [Prøveversioner og abonnementer](across-preview.md)
 ### [Bliv klar til at agere](ui-get-ready-business.md)
 ### [Fejlfinding af selvbetjeningstilmelding](ui-troubleshoot-self-signup.md)
-### [Udvidelse af din prøveversion](admin-extend-trial.md)
+### [Udvide din prøveversion](admin-extend-trial.md)
 ### [Opsig eller fjern Business Central](admin-cancel.md)
 ## Køb
 ### [Introduktion til et abonnement](across-preview.md#get-started-with-a-subscription)
@@ -105,212 +116,72 @@
 ### [Sælge produkter og tjenester](quick-start-sell-products-and-services.md)
 ### [Købe produkter og tjenester](quick-start-procurement.md)
 
-<!--setup-->
-## Konfigurere Business Central
-### [Oversigt over opgaver](setup.md)
-### Konfigurere Finans
-#### [Konfigurere Finans](finance-setup-finance.md)
-#### [Konfigurere betalingsmetoder](finance-payment-methods.md)
-#### [Definere betalingsbetingelser](finance-payment-terms.md)
-#### [Konfigurere bogføringsgrupper](finance-posting-groups.md)
-#### [Forberede Financial Reporting med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)
-#### [Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)
-#### [Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)
-#### [Konfiguration af rykkerbetingelser og -niveauer](finance-setup-reminders.md)
-#### [Konfiguration af Rentebetingelser](finance-setup-finance-charges.md)
-#### [Konfigurere moms](finance-setup-vat.md)
-#### [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)
-#### [Konfigurere urealiseret moms i forbindelse med bogføring baseret på kontanter](finance-setup-unrealized-vat.md)
-#### [Valider et SE/CVR-nr.](finance-how-validate-vat-registration-number.md)
-#### [Oprette kilde- og årsagskoder til revisionsspor](finance-setup-trail-codes.md)
-#### [Aktivere anvendelsen af finansposter i forskellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md)
-#### [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md)
-#### [Opdatere valutakurser](finance-how-update-currencies.md)
-#### [Angive flere rentesatser](finance-how-to-set-up-multiple-interest-rates.md)
-#### [Opsætning af fakturaafrunding](finance-set-up-invoice-rounding.md)
-#### [Konfigurere kontoplanen](finance-setup-chart-accounts.md)
-#### [Opsætning af pengestrømsanalyse](finance-setup-cash-flow-analyses.md)
-#### [Konfigurere kontantkunder](finance-how-to-set-up-cash-customers.md)
-#### [Konfigurere og rapportere Intrastat](finance-how-setup-report-intrastat.md)
-#### [Bruge fordelingsnøgler i finanskladder](ui-how-use-allocation-keys-general-journals.md)
-### Konfigurere banktransaktioner
-#### [Konfigurere banktransaktioner](bank-setup-banking.md)
-#### [Konfigurere bankkonti](bank-how-setup-bank-accounts.md)
-#### [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
-#### [Brug af AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)
-#### [Vælge et checklayout](finance-how-define-check-layouts.md)
-### Konfigurere salg
-#### [Konfigurere salg](sales-setup-sales.md)
-#### [Registrere nye debitorer](sales-how-register-new-customers.md)
-#### [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md)
-#### [Registrere specialsalgspriser og -rabatter](sales-how-record-sales-price-discount-payment-agreements.md)
-#### [Oprette debitorprisgrupper](sales-how-to-set-up-customer-price-groups.md)
-#### [Konfigurere sælgere](sales-how-setup-salespeople.md)
-#### [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md)
-#### [Sende dokumenter som mail](ui-how-send-documents-email.md)
-#### [Oprette leveringsformer](sales-how-set-up-shipment-methods.md)
-#### [Oprette speditører](sales-how-to-set-up-shipping-agents.md)
-### Opsætning af indkøb
-#### [Opsætning af indkøb](purchasing-setup-purchasing.md)
-#### [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)
-#### [Registrere særlige købspriser og rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md)
-#### [Tildele kreditorer prioritet](purchasing-how-prioritize-vendors.md)
-#### [Oprette indkøbere](purchasing-how-setup-purchasers.md)
-### Opsætning af lagerbeholdning
-#### [Opsætning af lagerbeholdning](inventory-setup-inventory.md)
-#### [Konfigurere generelle lageroplysninger](inventory-how-setup-general.md)
-#### [Arbejde med ansvarscentre](inventory-responsibility-centers.md)
-#### [Opsætte lokationer](inventory-how-setup-locations.md)
-#### [Registrere nye varer](inventory-how-register-new-items.md)
-#### [Kopiere eksisterende varer for at oprette nye varer](inventory-how-copy-items.md)
-#### [Om varetyper](inventory-about-item-types.md)
-#### [Oprette måleenheder](inventory-how-setup-units-of-measure.md)
-#### [Opsætte lagervarer](inventory-how-to-set-up-stockkeeping-units.md)
-#### [Kategorisere varer](inventory-how-categorize-items.md)
-#### [Importere flere varebilleder](inventory-how-import-item-pictures.md)
-### Konfigurere projektstyring
-#### [Opsætning af projekter](projects-setup-projects.md)
-#### [Konfigurere ressourcer](projects-how-setup-resources.md)
-#### [Konfigurere timesedler](projects-how-setup-time-sheets.md)
-#### [Opsætte sager](projects-how-setup-jobs.md)
-### Opsætning af anlægsaktiver
-#### [Opsætning af Anlægsaktiver](fa-setup.md)
-#### [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md)
-#### [Opsætte afskrivning af anlægsaktiv](fa-how-setup-depreciation.md)
-#### [Definere afskrivningsmetoder](fa-depreciation-methods.md)
-#### [Sådan konfigureres brugerdefinerede afskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md)
-#### [Definere anlægsforsikring](fa-how-setup-insurance.md)
-#### [Definere anlægsreparation](fa-how-setup-maintenance.md)
-### Sådan konfigureres Warehouse Management
-#### [Opsætning af lagersteder](warehouse-setup-warehouse.md)
-#### [Designoplysninger: Oversigt over logistik](design-details-warehouse-overview.md)
-#### [Oprette placeringstyper](warehouse-how-to-set-up-bin-types.md)
-#### [Oprette placeringer](warehouse-how-to-create-individual-bins.md)
-#### [Oprette placeringsindhold](warehouse-how-to-set-up-bin-contents.md)
-#### [Tildele standardplaceringer til varer](warehouse-how-to-assign-default-bins-to-items.md)
-#### [Oprette læg-på-lager-skabeloner](warehouse-how-to-set-up-put-away-templates.md)
-#### [Definere lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md)
-#### [Oprette lokationer til brug af placeringer](warehouse-how-to-set-up-locations-to-use-bins.md)
-#### [Konvertere eksisterende lokationer til lagerlokationer](warehouse-how-to-convert-existing-locations-to-warehouse-locations.md)
-#### [Oprette grundlæggende lagersteder med handlingsområder](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)
-#### [Konfigurere varer og lokationer til styret læg-på-lager og pluk](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
-#### [Aktivere automatisk nedbrydning med styret læg-på-lager og pluk](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
-#### [Aktivere pluk af varer efter FEFO](warehouse-picking-by-fefo.md)
-#### [Aktivere ADCS (Automated Data Capture Systems)](warehouse-use-automated-data-capture-systems-adcs.md)
-#### [Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)
-### Konfigurere produktion
-#### [Konfigurere produktion](production-configure-production-processes.md)
-#### [Oprette arbejdscenterkalendere](production-how-to-create-work-center-calendars.md)
-#### [Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md)
-#### [Oprette ruter](production-how-to-create-routings.md)
-#### [Oprette produktionsstyklister](production-how-to-create-production-boms.md)
-#### [Aktivere træk af komponenter i henhold til operationsafgang](production-how-to-flush-components-according-to-operation-output.md)
-#### [Arbejde med produktionskladdeenheder](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
-#### [Håndtering af lotstørrelser i produktionen](production-handling-lot-sizes.md)
-#### [Arbejde med produktionsfamilier](production-how-work-family.md)
-#### [Konfigurere standardrutelinjer](production-how-set-up-standard-routing-lines.md)
-#### [Produktion hos underleverandør](production-how-to-subcontract-manufacturing.md)
-### Konfigurere Servicestyring
-#### [Konfigurere Service](service-setup-service.md)
-#### [Oprette serviceartikler](service-how-to-create-service-items.md)
-#### [Konfigurere standardservicekoder](service-how-setup-service-coding.md)
-#### [Konfigurere serviceprocesser](service-setup-service-processes.md)
-#### [Konfigurere fejlrapportering](service-how-setup-fault-reporting.md)
-#### [Opsætte servicetilbud](service-how-setup-service-offerings.md)
-#### [Konfigurere fejlfinding](service-how-setup-troubleshooting.md)
-#### [Opsætte ressourceallokering](service-how-setup-resource-allocation.md)
-#### [Konfigurere prissætning og ekstra omkostninger for services](service-how-setup-service-costs-pricing.md)
-#### [Konfigurere serviceartikler og serviceartikelkomponenter](service-how-setup-service-items.md)
-#### [Konfigurere arbejdstimer og serviceåbningstider](service-how-setup-work-service-hours.md)
-#### [Konfigurere statusser for serviceordrer og reparationer](service-order-repair-status.md)
-#### [Oprette et udlånsprogram](service-how-setup-loaner-program.md)
-#### [Opsætte servicekontrakter](service-how-setup-service-contracts.md)
-### Konfigurere komplekse moduler ved hjælp af bedste praksis
-#### [Opsætning af bedste praksis](set-up-complex-application-areas-using-best-practices.md)
-#### Oprette bedste fremgangsmåder: Forsyningsplanlægning
-##### [Opsætning af forsyningsplanlægning](setup-best-practices-supply-planning.md)
-##### [Oprette bedste fremgangsmåder: Planlægningsparametre](setup-best-practices-planning-parameters.md)
-##### [Oprette bedste fremgangsmåder: Global planlægningsopsætning](setup-best-practices-global-planning-setup.md)
-##### [Oprette bedste fremgangsmåder: Genbestillingspolitikker](setup-best-practices-reordering-policies.md)
-#### [Konfigurere bedste fremgangsmåde: kostmetode](setup-best-practices-costing-method.md)
-### Oprette en virksomhed med RapidStart Services
-#### [RapidStart Oversigt](admin-set-up-a-company-with-rapidstart.md)
-#### Konfigurere virksomhedskonfiguration
-##### [Oversigt over virksomhedskonfiguration](admin-set-up-company-configuration.md)
-##### [Administrere virksomhedskonfigurationen i et regneark](admin-how-to-manage-company-configuration-in-a-worksheet.md)
-##### [Forberede en konfigurationspakke](admin-how-to-prepare-a-configuration-package.md)
-#### Anvende konfigurationer på nye virksomheder
-##### [Anvende konfigurationer på nye virksomheder](admin-apply-configuration-to-new-companies.md)
-##### [Oprette en ny virksomhed](admin-how-to-create-a-new-company.md)
-##### [Konfigurere nye virksomheder](admin-how-to-configure-new-companies.md)
-##### [Konfigurere en virksomhed med guiden RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)
-##### [Kopiere data til nye virksomheder](admin-how-to-copy-data-to-new-companies.md)
-##### [Oprette kladden Primosaldi](admin-how-to-create-journal-opening-balances.md)
-#### [Indsamle debitoropsætningsdata](admin-gather-customer-setup-values.md)
-#### [Forberede overflytning af debitordata med skabeloner](admin-use-templates-to-prepare-customer-data-for-migration.md)
-#### [Overflytte debitordata](admin-migrate-customer-data.md)
-#### [Tip: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
-### Opsætning af mail
-#### [Konfigurer mail](admin-how-setup-email.md)
-#### Konfigurer din virksomheds indbakke i Microsoft Outlook
-##### [Få Business Central-tilføjelsesprogram til Outlook](admin-outlook.md)
-##### [Bruge Business Central som din virksomheds indbakke i Outlook](work-outlook-addin.md)
-##### [Synkronisere med kontakter i Outlook](admin-synchronize-outlook-contacts.md)
-##### [Optimere Outlook](admin-outlook-optimize.md)
-##### [Brug af Business Central uden Outlook](admin-no-outlook.md)
-### Opsætning af rapporter
-#### [Rapportvalg](across-report-selections.md)
-### Opsætning af forbindelser
-#### [Få Business Central-tilføjelsesprogram til Excel](admin-deploy-excel-addin.md)
-#### Bruge Business Central som din virksomheds indbakke i Outlook 
-##### [Oversigt](admin-outlook.md)
-##### [Synkronisere med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)
-##### [Brug af Business Central uden Outlook](admin-no-outlook.md)
-#### Bruge Microsoft Teams sammen med Business Central
-##### [Oversigt](across-teams-overview.md)
-##### [Administration af Teams-integration](admin-teams-integration.md)
-##### [Installation af Business central-app i Teams](across-install-app-for-teams.md)
-##### [Søgning efter debitorer, kreditorer og kontakter](across-search-contacts-teams.md)
-##### [Dele Business Central-poster og Sidelinks i Teams](across-working-with-teams.md)
-##### [Ændring af virksomhed og andre indstillinger](across-teams-settings.md)
-##### [Teams, ofte stillede spørgsmål](teams-faq.md)
-##### [Fejlfinding](admin-teams-troubleshooting.md)
-#### Bruge OneDrive til virksomheder med Business central
-##### [Oversigt](across-onedrive-overview.md)
-##### [Administrere OneDrive til virksomhedsintegration](admin-onedrive-integration.md)
-##### [Åbner Business Central-filer i OneDrive](across-share-onedrive.md)
-##### [OneDrive Ofte stillede spørgsmål](admin-onedrive-faq.md)
-#### Bruge Power BI sammen med Business Central
-##### [Introduktion](admin-powerbi.md)
-##### Administrator
-###### [Oversigt over integration](admin-powerbi-overview.md)
-###### [Aktivering af Power BI-integration](admin-powerbi-setup.md)
-##### Rapportopretter
-###### [Introduktion til oprettelse af rapporter](across-how-use-financials-data-source-powerbi.md)
-###### [Oprette rapporter til visning af listedata](across-how-use-powerbi-reports-factbox.md)
-##### Forretningsbruger
-###### [Arbejde med Power BI-rapporter i Business Central](across-working-with-powerbi.md)
-###### [Arbejde med Business Central-data i Power BI](across-working-with-business-central-in-powerbi.md)
-###### [Bruge Business Central-apps i Power BI](across-powerbi-business-central-apps.md)
-##### [Ofte stillede spørgsmål](power-bi-faq.md)
-#### Bruge Power Automate sammen med Business Central
-##### [Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md)
-#### Bruge Power Apps sammen med Business Central
-##### [Oprette forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af Power Apps](across-how-use-financials-data-source-powerapps.md)
-#### [Skifte fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)
-#### [Massefakturering for Microsoft Bookings](finance-bookings.md)
-#### [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)
-### [Oprette nummerserie](ui-create-number-series.md)
-### [Konfigurere basiskalendere](across-how-to-assign-base-calendars.md)
-### [Installation af printere](ui-specify-printer-selection-reports.md)
-### [Hent Business Central til din mobilenhed](install-mobile-app.md)
-### [Hent Business Central til din computer](install-desktop-app.md)
-
-
+<!--use-->
+## Bliv produktiv i Business Central
+### [Generel funktionalitetsoversigt](ui-work-product.md)
+### [Udskriftsvenligt oversigtsark](ui-work-product.md#cheatsheet)
+### [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)
+### [Søge efter sider med Rollestifinder](ui-role-explorer.md)
+### [Ofte stillede spørgsmål om Fortæl mig](ui-search-faq.md)
+### [Søge, filtrere og sortere](ui-enter-criteria-filters.md)
+### [Søge og filtrere Ofte stillede spørgsmål](ui-search-filter-faq.yml)
+### [Indtaste data](ui-enter-data.md)
+### [Ofte stillede spørgsmål om kopiering og indsætning](faq-copy-paste.yml)
+### [Arbejde med kalenderdatoer og klokkeslæt](ui-enter-date-ranges.md)
+### [Registrere obligatoriske felter](ui-mandatory-fields.md)
+### [Ændre sprog og geografisk område](about-locale-language.md)
+### [Vise og redigere i Excel](across-work-with-excel.md)
+### [Gemme og dele filer i OneDrive](across-share-onedrive.md)
+### [Administrere vedhæftede filer, links og noter på kort og dokumenter](ui-how-add-link-to-record.md)
+### [Bruge Word-skabeloner til massekommunikation](ui-mail-merge.md)
+### [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)
+### [Skifte til et andet firma eller miljø](ui-organization-switch.md)
+### [Administrere notifikationer](ui-smart-notifications.md)
+### [Tip til ydeevne for erhvervsbrugere](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
+### [Advarsler og fejlmeddelelser](product-error-messages.md)
+### Tilpasse Business Central
+#### [Tilpasse dit arbejdsområde](ui-personalization-user.md)
+#### [Hvorfor er en side låst mod tilpasning](ui-personalization-locked.md)
+#### [Gemme og tilpasse listevisninger](ui-views.md)
+#### [Bogmærke en side eller en rapport i rollecenteret](ui-bookmarks.md)
+#### [Få vist lister på forskellige måder](across-display-lists-different-views.md)
+### Køre og udskrive rapporter
+#### [Køre og udskrive rapporter](ui-work-report.md)
+#### [Installation af printere](ui-specify-printer-selection-reports.md)
+#### [Planlægge en rapport til kørsel](ui-work-report.md#ScheduleReport)
+#### [Administrere gemte indstillinger](reports-saving-reusing-settings.md)
+#### [Vise testrapporter inden bogføring](ui-how-view-test-reports-posting.md)
+#### [Udføre kørsler og XMLporte](ui-how-run-batch-jobs.md)
+### Ændre udseendet af eksterne dokumenter
+#### [Om rapport- og dokumentlayout](ui-manage-report-layouts.md)
+#### [Introduktion til oprettelse af layout](ui-get-started-layouts.md)
+#### [Arbejd med Word-layouts](ui-how-add-fields-word-report-layout.md)
+#### [Arbejd med Excel-layouts](ui-excel-report-layouts.md)
+#### [Arbejd med RDLC-layouts](ui-rdlc-report-layouts.md)
+#### [Angive det layout, der bruges af en rapport](ui-set-report-layout.md)
+#### [Angiv dokumentlayout for debitorer og leverandører](ui-define-customer-vendor-document-layouts.md)
+#### [Tilgængelige skrifttyper](ui-fonts.md)
+#### Bruge ældre funktioner
+##### [Sådan opretter og ændrer du Brugerdefinerede rapportlayouts](ui-how-create-custom-report-layout.md)
+##### [Importere og eksportere brugerdefinerede rapportlayouts](ui-how-import-and-export-report-layout.md)
+##### [Opdater brugerdefinerede rapportlayouts](ui-update-report-layouts.md)
+##### [Angive det layout, der bruges af en rapport](ui-how-change-layout-currently-used-report.md)
+### Dele virksomhedsdata
+#### [Oversigt](across-share-data-features.md)
+#### [Dele Business Central-poster og Sidelinks i Teams](across-working-with-teams.md)
+#### [Dele filer i OneDrive](across-share-onedrive.md)
+#### [Få vist og redigere i Excel](across-work-with-excel.md)
+### Tilgængelighed, tastaturgenveje og berøringsbevægelser
+#### [Tilgængelighed](ui-accessibility.md)
+#### [Tastaturgenveje](keyboard-shortcuts.md)
+#### [Hurtig reference til genveje - på pc'er](keyboard-shortcuts-cheatsheet.md)
+#### [Håndbevægelser til touch og pen](touch-gestures.md)
+### [Fejlfinding: Adgang til kamera og placering](ui-troubleshooting-camera-location.md)
+### [Intelligent indsigt (kun online)](about-intelligent-cloud.md)
 ## Ofte stillede spørgsmål
 ### [Ofte stillede spørgsmål](across-faq.yml)
 ### [Ofte stillede spørgsmål om Fortæl mig](ui-search-faq.md)
-### [Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.yml)
+### [Søge og filtrere Ofte stillede spørgsmål](ui-search-filter-faq.yml)
 ### [Ofte stillede spørgsmål om listevisninger](ui-views-faq.yml)
 ### [Ofte stillede spørgsmål om kopiering og indsætning](faq-copy-paste.yml)
 ### [Ofte stillede spørgsmål til mobilapp](ui-mobile-faq.yml)
@@ -321,72 +192,20 @@
 ## Hjælp og support
 ### [Ressourcer til hjælp og support](product-help-and-support.md)
 ### [Besøge vores videobibliotek](across-videos.md)
-### [Teknisk support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
+### [Få teknisk support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
 <!--## Learn
 ### [Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
 ### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Getting Ready for Doing Business](ui-get-ready-business.md)
+#### [Get Ready for Doing Business](ui-get-ready-business.md)
 ### Resources for a Business User
 #### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Getting Ready for Doing Business](ui-get-ready-business.md)
+#### [Get Ready for Doing Business](ui-get-ready-business.md)
 ### Resources for a Developer
 #### [Learning catalog](readiness/readiness-learning-developers.md)
 #### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
-<!--using-->
-# Arbejde med Business Central
-## [Generel funktionalitetsoversigt](ui-work-product.md)
-## [Udskriftsvenligt oversigtsark](ui-work-product.md#cheatsheet)
-## [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)
-## [Søge efter sider med Rollestifinder](ui-role-explorer.md)
-## [Ofte stillede spørgsmål om Fortæl mig](ui-search-faq.md)
-## [Sortering, søgning og filtrering](ui-enter-criteria-filters.md)
-## [Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.yml)
-## [Angivelse af data](ui-enter-data.md)
-## [Ofte stillede spørgsmål om kopiering og indsætning](faq-copy-paste.yml)
-## [Arbejde med kalenderdatoer og klokkeslæt](ui-enter-date-ranges.md)
-## [Registrere obligatoriske felter](ui-mandatory-fields.md)
-## [Ændre sprog og geografisk område](about-locale-language.md)
-## [Få vist og redigere i Excel](across-work-with-excel.md)
-## [Gemme og dele filer i OneDrive](across-share-onedrive.md)
-## [Administrere vedhæftede filer, links og noter på kort og dokumenter](ui-how-add-link-to-record.md)
-## [Bruge Word-skabeloner til massekommunikation](ui-mail-merge.md)
-## [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)
-## [Skifte til et andet firma eller miljø](ui-organization-switch.md)
-## [Administrere notifikationer](ui-smart-notifications.md)
-## [Tip til ydeevne for erhvervsbrugere](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
-## [Advarsler og fejlmeddelelser](product-error-messages.md)
-## Tilpasse Business Central
-### [Tilpasse dit arbejdsområde](ui-personalization-user.md)
-### [Hvorfor er en side låst mod tilpasning](ui-personalization-locked.md)
-### [Gemme og tilpasse listevisninger](ui-views.md)
-### [Bogmærke en side eller en rapport i rollecenteret](ui-bookmarks.md)
-### [Få vist lister på forskellige måder](across-display-lists-different-views.md)
-## Udskrive rapporter og afvikle kørsler og XMLporte
-### [Arbejde med rapporter, kørsler og XMLporte](ui-work-report.md)
-### [Installation af printere](ui-specify-printer-selection-reports.md)
-### [Planlægge en rapport til kørsel](ui-work-report.md#ScheduleReport)
-### [Administrere gemte indstillinger for rapporter og kørsler](reports-saving-reusing-settings.md)
-### [Vise testrapporter inden bogføring](ui-how-view-test-reports-posting.md)
-### [Udføre kørsler og XMLporte](ui-how-run-batch-jobs.md)
-## Ændre udseendet af eksterne dokumenter
-### [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)
-### [Ændre det aktuelle rapportlayout](ui-how-change-layout-currently-used-report.md)
-### [Sådan opretter og ændrer du Brugerdefinerede rapportlayouts](ui-how-create-custom-report-layout.md)
-### [Importere og eksportere brugerdefinerede rapportlayouts](ui-how-import-and-export-report-layout.md)
-### [Opdater brugerdefinerede rapportlayouts](ui-update-report-layouts.md)
-### [Angiv dokumentlayout for debitorer og leverandører](ui-define-customer-vendor-document-layouts.md)
-### [Føje felter til et Word-rapportlayout](ui-how-add-fields-word-report-layout.md)
-### [Tilgængelige skrifttyper](ui-fonts.md)
-## Tilgængelighed, tastaturgenveje og berøringsbevægelser
-### [Tilgængelighed](ui-accessibility.md)
-### [Tastaturgenveje](keyboard-shortcuts.md)
-### [Hurtig reference til genveje - på pc'er](keyboard-shortcuts-cheatsheet.md)
-### [Håndbevægelser til touch og pen](touch-gestures.md)
-## [Fejlfinding: Adgang til kamera og placering](ui-troubleshooting-camera-location.md)
-## [Intelligent indsigt (kun online)](about-intelligent-cloud.md)
 # Forretningsfunktioner
 ## [Oversigt over forretningsfunktioner](across-business-functionality.md)
 <!--general-->
@@ -399,17 +218,17 @@
 ### [Tilføje udvidet varetekst](ui-how-define-ext-text.md)
 ### [Definere brugeropgaver](across-user-tasks.md)
 ### [Eksportere forretningsdata til Excel](about-export-data.md)
-### [Bogføring af dokumenter og kladder](ui-post-documents-journals.md)
+### [Bogføre dokumenter og kladder](ui-post-documents-journals.md)
 ### [Bogføre flere dokumenter på én gang](ui-batch-posting.md)
 ### [Vise bogføringsresultater](ui-how-preview-post-results.md)
 ### [Redigere bogførte dokumenter](across-edit-posted-document.md)
 ### [Arbejde med finanskladder](ui-work-general-journals.md)
-### [Du kan bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)
-### [Lade Business Central foreslå værdier](ui-let-system-suggest-values.md)
+### [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)
+### [Lad Business Central foreslå værdier](ui-let-system-suggest-values.md)
 
 ### Indgående bilag
 #### [Oversigt over indgående bilag](across-income-documents.md)
-#### [Konfigurere indgående bilag](across-how-setup-income-documents.md)
+#### [Opsætning af indgående bilag](across-how-setup-income-documents.md)
 #### Behandle indgående bilag
 ##### [Behandle indgående bilag](across-process-income-documents.md)
 ##### [Oprette indgående bilagsposter](across-how-create-income-document-records.md)
@@ -420,19 +239,20 @@
 
 ### Workflow
 #### [Workflowoversigt](across-workflow.md)
-#### Opsætte workflows
+#### Opsætning af arbejdsgange
 ##### [Opsætning af arbejdsgange](across-set-up-workflows.md)
 ##### [Oprette brugere til arbejdsgange](across-how-to-set-up-workflow-users.md)
 ##### [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)
 ##### [Arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)
 ##### [Angive, hvornår og hvordan notifikationer modtages](across-how-to-specify-when-and-how-to-receive-notifications.md)
-##### [Sådan opretter og ændrer du Brugerdefinerede rapportlayouts](ui-how-create-custom-report-layout.md)
+##### [Sådan opretter og tilpasser du layouts](ui-get-started-layouts.md)
+<!--##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)-->
 ##### [Konfigurere mail](admin-how-setup-email.md)
 ##### [Oprette arbejdsgange](across-how-to-create-workflows.md)
 ##### [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md)
 ##### [Eksportere og importere workflows](across-how-to-export-and-import-workflows.md)
 ##### [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
-#### Anvende workflows
+#### Bruge arbejdsprocesser
 ##### [Bruge arbejdsgange](across-use-workflows.md)
 ##### [Aktivere arbejdsgange](across-how-to-enable-workflows.md)
 ##### [Bruge godkendelsesworkflows](across-how-use-approval-workflows.md)
@@ -443,14 +263,14 @@
 ### Udveksle data elektronisk
 #### [OData-udvekslingsoversigt](across-data-exchange.md)
 #### [Om Data Exchange Framework](across-about-the-data-exchange-framework.md)
-#### Konfigurere dataudveksling
+#### Opsætning af dataudveksling
 ##### [Opsætning af dataudveksling](across-set-up-data-exchange.md)
 ##### [Konfigurere en dokumentudvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md)
 ##### [Opsætning af indgående bilag](across-how-setup-income-documents.md)
 ##### [Opdatere valutakurser](finance-how-update-currencies.md)
 ##### [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)
 #### [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
-##### [Brug af AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)
+##### [Brug AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)
 ##### [Konfigurere tjenesten til bankkontoudtog](bank-how-setup-bank-statement-service.md)
 ##### [Konfigurere bankkonti](bank-how-setup-bank-accounts.md)
 ##### [Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
@@ -468,6 +288,7 @@
 ##### [Opdatere valutakurser](finance-how-update-currencies.md)
 ##### [Feltkobling, når du importerer SEPA-CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md)
 ##### [Felttilknytning for AMC Banking 365 Fundamentals-udvidelsen](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
+
 ## Finans
 ### [Oversigt for Finance](finance.md)
 ### [Finansrapporter](finance-reports.md)
@@ -493,8 +314,8 @@
 ### Administrere skyldige beløb
 #### [Kreditoroversigt](payables-manage-payables.md)
 #### [Rapporter og analyser for kreditor](payables-reports.md)
-#### Foretage betaling
-##### [Foretage betaling](payables-make-payments.md)
+#### Foretage indbetalinger
+##### [Foretage indbetalinger](payables-make-payments.md)
 ##### [Arbejde med finanskladder](ui-work-general-journals.md)
 ##### [Registrere betalinger og refusioner](payables-how-post-payments-refunds.md)
 ##### [Lav forslag](payables-how-suggest-vendor-payments.md)
@@ -522,12 +343,12 @@
 #### [Oprette forudbetalingsfakturaer](finance-how-to-create-prepayment-invoices.md)
 #### [Rette forudbetalinger](finance-how-to-correct-prepayments.md)
 
-### Bankkontoafstemning
+### Afstemme bankkonti
 #### [Oversigt over bankafstemning](bank-manage-bank-accounts.md)
 #### [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md)
 #### [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
-### Administrere Intercompany-transaktioner (IC)
+### Administrere koncerninterne transaktioner
 #### [Intercompany-oversigt](intercompany-manage.md)
 #### [Konfigurere mellemregning](intercompany-how-setup.md)
 #### [Arbejde med koncerninterne dokumenter og kladder](intercompany-how-work-documents-journals.md)
@@ -538,28 +359,28 @@
 #### [Oversigt over omkostningsregnskab](finance-manage-cost-accounting.md)
 #### [Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)
 #### [Om omkostningsregnskab](finance-about-cost-accounting.md)
-#### [Konfigurere omkostningsregnskab](finance-set-up-cost-accounting.md)
+#### [Konfigurer omkostningsregnskab](finance-set-up-cost-accounting.md)
 #### [Overførsel og bogføring af omkostningsposter](finance-transfer-and-post-cost-entries.md)
 #### [Definere og allokere omkostninger](finance-define-and-allocate-costs.md)
 #### [Oprette omkostningsbudgetter](finance-create-cost-budgets.md)
 #### [Sletning af omkostningsbudgetposter](finance-how-to-delete-cost-budget-entries.md)
 
-### Administrere lageromkostninger
+### Administrer lageromkostninger
 #### [Oversigt over lagerkostmetode](finance-manage-inventory-costs.md)
 #### [Om lagerkostmetode](finance-learn-about-costing.md)
 #### [Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md)
 #### [Om beregning af standardomkostning](finance-about-calculating-standard-cost.md)
 #### [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)
 #### [Arbejde med lagerperioder](finance-how-to-work-with-inventory-periods.md)
-#### [Opsætte lagerværdi og kostprisberegning](finance-set-up-inventory-valuation-and-costing.md)
+#### [Opsætning af lagerværdi og lageromkostningsadministration](finance-set-up-inventory-valuation-and-costing.md)
 #### [Regulere lagerbeholdning](inventory-how-revalue-inventory.md)
 #### [Regulere varepriser](inventory-how-adjust-item-costs.md)
 #### [Håndter lager- og produktionsomkostninger](finance-handle-inventory-and-manufacturing-costs.md)
 #### [Opdatere standardkostpriser](finance-how-to-update-standard-costs.md)
 #### [Fjerne og genanvende vareposter](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Lukke åbne vareposter, der fremkommer ved fast udligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### Rapportere omkostninger og afstemme med regnskabet
-##### [Rapportering af omkostninger](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)
+#### Rapporter omkostninger og afstem med regnskabet
+##### [Rapporter omkostninger](finance-report-costs-and-reconcile-with-the-general-ledger.md)
 ##### [Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Overvåge jobstatus og -udførelse](projects-how-monitor-progress-performance.md)
 #### [Regulere og afstemme lageromkostninger med finansregnskabet med opgavekø](finance-adjust-reconcile-inventory-cost-job-queue.md)
@@ -570,24 +391,27 @@
 
 ### Afslutning af år og perioder
 #### [Oversigt over årsafslutning](year-close-years-periods.md)
-#### [Arbejde med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)
+#### [Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)
 #### [Angive bogføringsperioder](finance-how-specify-posting-periods.md)
 #### [Ultimoperioder](year-how-complete-period-end-processes.md)
 #### [Opdatere valutakurser](finance-how-update-currencies.md)
 #### [Fordele omkostninger og indtægter](year-allocate-costs-income.md)
 #### [Rapportere moms til skattemyndighederne](finance-how-report-vat.md)
 #### [Forberede rapporter før afslutning](year-prepare-preclose-reports.md)
-#### [Afslutningregnskab](year-close-books.md)
-#### [Forberedelse af ultimoopgørelser](year-prepare-close-statement.md)
+#### [Afslut regnskaber](year-close-books.md)
+#### [Forbered ultimoopgørelser](year-prepare-close-statement.md)
 #### [Afslutte regnskabsperioder](year-close-account-periods.md)
 #### [Nulstille resultatopgørelseskonti](year-close-income-statement.md)
 #### [Bogføre årsafslutningsposten](year-how-post-year-end-close-entry.md)
-### Konsolidering af finansielle oplysninger fra flere regnskaber
+
+### Konsolidering af finansielle data fra flere regnskaber
 #### [Virksomhedskonsolidering](finance-consolidated-company-reporting.md)
 #### [Konfigurere virksomhedskonsolidering](finance-consolidated-company-reporting-setup.md)
+### [Konsolidere saldi for en virksomhed, som er debitor og kreditor](finance-consolidate-customer-vendor-balances.md)
 ### [Om Finans og kontoplanen](finance-general-ledger.md)
 ### [Arbejde med dimensioner](finance-dimensions.md)
 ### [Fejlfinding og korrigering af dimensioner](finance-troubleshooting-correcting-dimensions.md)
+### [Valutaer i Business Central](finance-currencies.md)
 ### [Oprette finansbudgetter](finance-how-create-budgets.md)
 ### [Bogføre transaktioner direkte i finansposterne](finance-how-post-transactions-directly.md)
 ### [Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md)
@@ -603,6 +427,7 @@
 ### [Gennemgang: Udarbejd likviditetsforecast ved hjælp af kontoskemaer](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Analysere regnskabsopgørelser i Excel](finance-analyze-excel.md)
 ### [Overføre bankbeløb](bank-how-transfer-bank-funds.md)
+### [Opret bankindskud](bank-create-bank-deposits.md)
 ### [Revisoroplevelser i Business Central](finance-accounting.md)
 ### [Multi site-og internationale organisationer](finance-multi-site-organizations.md)
 
@@ -627,7 +452,7 @@
 ### [Fakturere salg](sales-how-invoice-sales.md)
 ### [Sælge produkter](sales-how-sell-products.md)
 ### [Udskrive pluklisten](sales-how-print-picking-list.md)
-### [Bogføring af salg](ui-post-sales.md)
+### [Bogfør salg](ui-post-sales.md)
 ### [Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md)
 ### [Foretage direkte leveringer](sales-how-drop-shipment.md)
 ### [Oprette specialordrer](sales-how-to-create-special-orders.md)
@@ -650,7 +475,7 @@
 ### [Registrere køb](purchasing-how-record-purchases.md)
 ### [Anmode om tilbud](purchasing-how-request-quotes.md)
 ### [Købe varer til et salg](purchasing-how-purchase-products-sale.md)
-### [Bogføring af køb](ui-post-purchases.md)
+### [Bogfør køb](ui-post-purchases.md)
 ### [Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)
 ### [Kombinere modtagelser på én enkelt faktura](purchasing-how-to-combine-receipts.md)
 ### [Behandle købsreturvarer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md)
@@ -710,8 +535,8 @@
 
 ## Relationsstyring
 ### [Oversigt over relationsstyring](marketing-relationship-management.md)
-### [Opsætning af Relationsstyring](marketing-setup-marketing.md)
-### Administrere kontakter
+### [Opsætte relationsstyring](marketing-setup-marketing.md)
+### Administrere kontaktpersoner
 #### [Kontakter](marketing-contacts.md)
 #### [Opsætning af kontakter](marketing-setup-contacts.md)
 #### [Oprette kontakter](marketing-create-contact-companies.md)
@@ -793,7 +618,7 @@
 ### [Lagerbeholdning og lagerrapporter](inventory-WMS-reports.md)
 ### [Modtage varer](warehouse-how-receive-items.md)
 ### [Afsende varer direkte](warehouse-how-to-cross-dock-items.md)
-### Lægge varer på lager
+### Sætte varer på plads
 #### [Sætte varer på plads](warehouse-put-away-items.md)
 #### [Lægge varer på lager med Læg-på-lager (lager)](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
 #### [Lægge varer på lager med Læg-på-lager (logistik)](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)
@@ -815,7 +640,7 @@
 #### [Plukke til produktion eller montage i avancerede lageropsætninger](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 #### [Planlægge pluk i kladder](warehouse-how-to-plan-picks-in-worksheets.md)
 #### [Plukke og lægge på lager uden et kildedokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
-#### [Plukke efter FEFO](warehouse-picking-by-fefo.md)
+#### [Pluk efter FEFO](warehouse-picking-by-fefo.md)
 #### [Opdele lageraktivitetslinjer](warehouse-how-to-split-warehouse-activity-lines.md)
 #### [Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 ### [Afsende varer](warehouse-how-ship-items.md)
@@ -831,13 +656,13 @@
 #### [Serviceprisstyring](service-service-price-management.md)
 #### [Serviceordrestatus og reparationsstatus](service-service-order-status-and-repair-status.md)
 #### [Allokeringsstatus og reparationsstatus for serviceartikler](service-allocation-status-and-repair-status.md)
-#### [Visning af servicestatistik](service-service-statistics.md)
+#### [Vise servicestatistik:](service-service-statistics.md)
 ### Opfylde servicekontrakter
 #### [Opfyld servicekontrakter](service-fulfill-service-contracts.md)
 #### [Flere kontrakter](service-multiple-contracts.md)
 #### [Arbejde med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)
 #### [Ændre det årlige beløb på servicekontrakter eller kontrakttilbud](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)
-### Levering af service
+### Levere service
 #### [Levere service](service-deliver-service.md)
 #### [Oprette servicetilbud](service-how-to-create-service-quotes.md)
 #### [Oprette serviceordrer](service-how-to-create-service-orders.md)
@@ -851,7 +676,7 @@
 ## Virksomhedshub
 ### [Administrere arbejde på tværs af flere virksomheder i virksomhedshub](company-hub.md)
 ### [Tilføj virksomheder til virksomhedens hub](company-hub-add-company.md)
-### [Fejlfinding i virksomhedens hub](company-hub-troubleshooting.md)
+### [Fejlfinde virksomhedens hub](company-hub-troubleshooting.md)
 <!--LF-->
 ## Lokal funktionalitet
 ### [Lokal funktionalitetsoversigt](about-localization.md)
@@ -882,7 +707,7 @@
 ##### [Oprette forretningsenheder for Business Activity Statements](LocalFunctionality/Australia/how-to-set-up-business-units-for-business-activity-statements.md)
 ##### [Udskrive balancerapporter](LocalFunctionality/Australia/how-to-print-balance-sheet-reports.md)
 ##### [Udskrive resultatopgørelser](LocalFunctionality/Australia/how-to-print-income-statements.md)
-##### [Beregning af fordelingsbeløb](LocalFunctionality/Australia/calculating-distribution-amounts.md)
+##### [Beregne fordelingsbeløb](LocalFunctionality/Australia/calculating-distribution-amounts.md)
 #### Generelt
 ##### [Adresser](LocalFunctionality/Australia/addresses.md)
 ##### [Bestemme salgspris efter kostpris plus procent](LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md)
@@ -949,8 +774,8 @@
 ### Canada
 #### [Lokal funktionalitet i den canadiske version](LocalFunctionality/Canada/canada-local-functionality.md)
 #### Skat
-##### [Rapportering af salgsmoms på varer eller ydelser i Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)
-##### [Rapportering af salgsmoms i Canada](LocalFunctionality/Canada/ca-sales-tax.md)
+##### [Rapportere salgsmoms på varer eller ydelser i Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)
+##### [Rapportere salgsmoms i Canada](LocalFunctionality/Canada/ca-sales-tax.md)
 ##### [Oprette urealiseret moms og kontantrabatter på salg](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
 ##### [Oprette forbrugsafgift og købsmoms](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
 #### Banktransaktioiner og betalinger
@@ -1264,7 +1089,6 @@
 #### [Lokal funktionalitet i den mexikanske version](LocalFunctionality/Mexico/mexico-local-functionality.md)
 #### Skat
 ##### [Oprette og generere DIOT-rapporter](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
-##### [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)  
 ##### [Moms-id-typer for Mexico](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Genberegning af moms](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Elektronisk fakturering
@@ -1464,6 +1288,7 @@
 ##### [Lagerhandlinger for tilgodehavender og skyldige beløb INV-17](LocalFunctionality/Russia/Inventory-Act-of-Receivables-And-Payables-INV-17.md)
 ##### [Vareomsætning, Finans](LocalFunctionality/Russia/Item-General-Ledger-Turnover.md)
 ##### [Oprette varerapporten TORG-29](LocalFunctionality/Russia/How-to-Create-the-TORG-29-Goods-Report.md)
+##### [Fragtseddel](LocalFunctionality/Russia/bill-of-lading.md)
 #### Personale
 ##### [HR i den russiske version](LocalFunctionality/Russia/Human-Resources.md)
 ##### [Løn](LocalFunctionality/Russia/Payroll.md)
@@ -1539,17 +1364,17 @@
 ##### [Momssatser for Schweiz](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
 #### Banktransaktioiner og betalinger
 ##### [Styring af QR-regninger](LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
+##### [Schweizisk elektroniske betalinger](LocalFunctionality/Switzerland/swiss-electronic-payments.md)
+##### [Schweiziske elektroniske betalinger vha. ESR](LocalFunctionality/Switzerland/swiss-electronic-payments-using-esr.md)
+##### [Schweiziske elektroniske betalinger vha. LSV](LocalFunctionality/Switzerland/swiss-electronic-payments-using-lsv-.md)
+##### [Behandle en LSV-opkrævning](LocalFunctionality/Switzerland/how-to-process-an-lsv-collection.md)
+##### [Bogføre LSV-betalinger](LocalFunctionality/Switzerland/how-to-post-lsv-payments.md)
 ##### [Lukke en LSV-opkrævning](LocalFunctionality/Switzerland/how-to-close-an-lsv-collection.md)
 ##### [Eksportere betalinger vha. LSV](LocalFunctionality/Switzerland/how-to-export-payments-using-lsv.md)
 ##### [Importere ESR-betalinger](LocalFunctionality/Switzerland/how-to-import-esr-payments.md)
 ##### [Udskrive ESR-fakturaer](LocalFunctionality/Switzerland/how-to-print-esr-invoices.md)
 ##### [Indlæse schweiziske bankclearingsnumre](LocalFunctionality/Switzerland/how-to-import-swiss-bank-clearing-numbers.md)
-##### [Bogføre LSV-betalinger](LocalFunctionality/Switzerland/how-to-post-lsv-payments.md)
 ##### [Udskrive listerapporter for kreditorbetalinger](LocalFunctionality/Switzerland/how-to-print-vendor-payments-list-reports.md)
-##### [Behandle en LSV-opkrævning](LocalFunctionality/Switzerland/how-to-process-an-lsv-collection.md)
-##### [Schweizisk elektroniske betalinger](LocalFunctionality/Switzerland/swiss-electronic-payments.md)
-##### [Schweiziske elektroniske betalinger vha. ESR](LocalFunctionality/Switzerland/swiss-electronic-payments-using-esr.md)
-##### [Schweiziske elektroniske betalinger vha. LSV](LocalFunctionality/Switzerland/swiss-electronic-payments-using-lsv-.md)
 #### Grundlæggende Finans
 ##### [Schweiziske finanskonti](LocalFunctionality/Switzerland/swiss-general-ledger-accounts.md)
 ##### [Saldo](LocalFunctionality/Switzerland/balance.md)
@@ -1608,6 +1433,189 @@
 ##### [Udskrive fejlfindingsrapporter](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Sende lovgivningsmæssige påmindelser](submit-regulatory-alerts.md)
 
+<!--setup-->
+## Konfigurere Business Central
+### [Oversigt over opgaver](setup.md)
+### Konfigurere Finans
+#### [Konfigurere Finans](finance-setup-finance.md)
+#### [Konfigurere betalingsmetoder](finance-payment-methods.md)
+#### [Definere betalingsbetingelser](finance-payment-terms.md)
+#### [Konfigurere bogføringsgrupper](finance-posting-groups.md)
+#### [Forberede Financial Reporting med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)
+#### [Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)
+#### [Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)
+#### [Konfiguration af rykkerbetingelser og -niveauer](finance-setup-reminders.md)
+#### [Konfiguration af Rentebetingelser](finance-setup-finance-charges.md)
+#### [Konfigurere moms](finance-setup-vat.md)
+#### [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)
+#### [Konfigurere urealiseret moms i forbindelse med bogføring baseret på kontanter](finance-setup-unrealized-vat.md)
+#### [Valider et SE/CVR-nr.](finance-how-validate-vat-registration-number.md)
+#### [Oprette kilde- og årsagskoder til revisionsspor](finance-setup-trail-codes.md)
+#### [Aktivere anvendelsen af finansposter i forskellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md)
+#### [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md)
+#### [Opdatere valutakurser](finance-how-update-currencies.md)
+#### [Angive flere rentesatser](finance-how-to-set-up-multiple-interest-rates.md)
+#### [Opsætning af fakturaafrunding](finance-set-up-invoice-rounding.md)
+#### [Konfigurere kontoplanen](finance-setup-chart-accounts.md)
+#### [Opsætte pengestrømsanalyse](finance-setup-cash-flow-analyses.md)
+#### [Konfigurere kontantkunder](finance-how-to-set-up-cash-customers.md)
+#### [Konfigurere og rapportere Intrastat](finance-how-setup-report-intrastat.md)
+#### [Bruge fordelingsnøgler i finanskladder](ui-how-use-allocation-keys-general-journals.md)
+### Oprette banktransaktioner
+#### [Oprette banktransaktioner](bank-setup-banking.md)
+#### [Konfigurere bankkonti](bank-how-setup-bank-accounts.md)
+#### [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)
+#### [Brug AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)
+#### [Vælge et checklayout](finance-how-define-check-layouts.md)
+### Konfigurere salg
+#### [Konfigurere salg](sales-setup-sales.md)
+#### [Registrere nye debitorer](sales-how-register-new-customers.md)
+#### [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md)
+#### [Registrere specialsalgspriser og -rabatter](sales-how-record-sales-price-discount-payment-agreements.md)
+#### [Oprette debitorprisgrupper](sales-how-to-set-up-customer-price-groups.md)
+#### [Konfigurere sælgere](sales-how-setup-salespeople.md)
+#### [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md)
+#### [Sende dokumenter som mail](ui-how-send-documents-email.md)
+#### [Oprette leveringsformer](sales-how-set-up-shipment-methods.md)
+#### [Oprette speditører](sales-how-to-set-up-shipping-agents.md)
+### Konfigurere indkøb
+#### [Konfigurere indkøb](purchasing-setup-purchasing.md)
+#### [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)
+#### [Registrere særlige købspriser og rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Tildele kreditorer prioritet](purchasing-how-prioritize-vendors.md)
+#### [Oprette indkøbere](purchasing-how-setup-purchasers.md)
+### Konfigurere lager
+#### [Konfigurere lager](inventory-setup-inventory.md)
+#### [Konfigurere generelle lageroplysninger](inventory-how-setup-general.md)
+#### [Arbejde med ansvarscentre](inventory-responsibility-centers.md)
+#### [Opsætte lokationer](inventory-how-setup-locations.md)
+#### [Registrere nye varer](inventory-how-register-new-items.md)
+#### [Kopiere eksisterende varer for at oprette nye varer](inventory-how-copy-items.md)
+#### [Om varetyper](inventory-about-item-types.md)
+#### [Oprette måleenheder](inventory-how-setup-units-of-measure.md)
+#### [Opsætte lagervarer](inventory-how-to-set-up-stockkeeping-units.md)
+#### [Kategorisere varer](inventory-how-categorize-items.md)
+#### [Importere flere varebilleder](inventory-how-import-item-pictures.md)
+### Konfigurere projektstyring
+#### [Opsætte projekter](projects-setup-projects.md)
+#### [Konfigurere ressourcer](projects-how-setup-resources.md)
+#### [Konfigurere timesedler](projects-how-setup-time-sheets.md)
+#### [Opsætte sager](projects-how-setup-jobs.md)
+### Konfigurere anlægsaktiver
+#### [Konfigurere anlægsaktiver](fa-setup.md)
+#### [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md)
+#### [Opsætte afskrivning af anlægsaktiv](fa-how-setup-depreciation.md)
+#### [Definere afskrivningsmetoder](fa-depreciation-methods.md)
+#### [Sådan konfigureres brugerdefinerede afskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md)
+#### [Definere anlægsforsikring](fa-how-setup-insurance.md)
+#### [Definere anlægsreparation](fa-how-setup-maintenance.md)
+### Konfigurere Warehouse Management
+#### [Opsætte lagersteder](warehouse-setup-warehouse.md)
+#### [Designoplysninger: Oversigt over logistik](design-details-warehouse-overview.md)
+#### [Oprette placeringstyper](warehouse-how-to-set-up-bin-types.md)
+#### [Oprette placeringer](warehouse-how-to-create-individual-bins.md)
+#### [Oprette placeringsindhold](warehouse-how-to-set-up-bin-contents.md)
+#### [Tildele standardplaceringer til varer](warehouse-how-to-assign-default-bins-to-items.md)
+#### [Oprette læg-på-lager-skabeloner](warehouse-how-to-set-up-put-away-templates.md)
+#### [Definere lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md)
+#### [Oprette lokationer til brug af placeringer](warehouse-how-to-set-up-locations-to-use-bins.md)
+#### [Konvertere eksisterende lokationer til lagerlokationer](warehouse-how-to-convert-existing-locations-to-warehouse-locations.md)
+#### [Oprette grundlæggende lagersteder med handlingsområder](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)
+#### [Konfigurere varer og lokationer til styret læg-på-lager og pluk](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md)
+#### [Aktivere automatisk nedbrydning med styret læg-på-lager og pluk](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)
+#### [Aktivere pluk af varer efter FEFO](warehouse-picking-by-fefo.md)
+#### [Aktivere ADCS (Automated Data Capture Systems)](warehouse-use-automated-data-capture-systems-adcs.md)
+#### [Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)
+### Konfigurere produktion
+#### [Konfigurere produktion](production-configure-production-processes.md)
+#### [Oprette arbejdscenterkalendere](production-how-to-create-work-center-calendars.md)
+#### [Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md)
+#### [Oprette ruter](production-how-to-create-routings.md)
+#### [Oprette produktionsstyklister](production-how-to-create-production-boms.md)
+#### [Aktivere træk af komponenter i henhold til operationsafgang](production-how-to-flush-components-according-to-operation-output.md)
+#### [Arbejde med produktionskladdeenheder](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
+#### [Håndtering af lotstørrelser i produktionen](production-handling-lot-sizes.md)
+#### [Arbejde med produktionsfamilier](production-how-work-family.md)
+#### [Konfigurere standardrutelinjer](production-how-set-up-standard-routing-lines.md)
+#### [Produktion hos underleverandør](production-how-to-subcontract-manufacturing.md)
+### Konfigurere Service Management
+#### [Konfigurere Service Management](service-setup-service.md)
+#### [Oprette serviceartikler](service-how-to-create-service-items.md)
+#### [Konfigurere standardservicekoder](service-how-setup-service-coding.md)
+#### [Konfigurere serviceprocesser](service-setup-service-processes.md)
+#### [Konfigurere fejlrapportering](service-how-setup-fault-reporting.md)
+#### [Opsætte servicetilbud](service-how-setup-service-offerings.md)
+#### [Konfigurere fejlfinding](service-how-setup-troubleshooting.md)
+#### [Opsætte ressourceallokering](service-how-setup-resource-allocation.md)
+#### [Konfigurere prissætning og ekstra omkostninger for services](service-how-setup-service-costs-pricing.md)
+#### [Konfigurere serviceartikler og serviceartikelkomponenter](service-how-setup-service-items.md)
+#### [Konfigurere arbejdstimer og serviceåbningstider](service-how-setup-work-service-hours.md)
+#### [Konfigurere statusser for serviceordrer og reparationer](service-order-repair-status.md)
+#### [Oprette et udlånsprogram](service-how-setup-loaner-program.md)
+#### [Opsætte servicekontrakter](service-how-setup-service-contracts.md)
+### Opret komplekse moduler ved hjælp af bedste praksis
+#### [Opsætning af bedste praksis](set-up-complex-application-areas-using-best-practices.md)
+#### Oprette bedste fremgangsmåder: Forsyningsplanlægning
+##### [Opsætning af forsyningsplanlægning](setup-best-practices-supply-planning.md)
+##### [Oprette bedste fremgangsmåder: Planlægningsparametre](setup-best-practices-planning-parameters.md)
+##### [Oprette bedste fremgangsmåder: Global planlægningsopsætning](setup-best-practices-global-planning-setup.md)
+##### [Oprette bedste fremgangsmåder: Genbestillingspolitikker](setup-best-practices-reordering-policies.md)
+#### [Konfigurere bedste fremgangsmåde: kostmetode](setup-best-practices-costing-method.md)
+### Konfigurer mail
+#### [Konfigurer mail](admin-how-setup-email.md)
+#### Konfigurer din virksomheds indbakke i Microsoft Outlook
+##### [Få Business Central-tilføjelsesprogram til Outlook](admin-outlook.md)
+##### [Bruge Business Central som din virksomheds Indbakke i Outlook](work-outlook-addin.md)
+##### [Synkronisere med kontakter i Outlook](admin-synchronize-outlook-contacts.md)
+##### [Optimere Outlook](admin-outlook-optimize.md)
+##### [Bruge Business Central uden Outlook](admin-no-outlook.md)
+### Konfigurere momsrapporter
+#### [Rapportvalg](across-report-selections.md)
+### Konfigurere forbindelser
+#### [Få Business Central-tilføjelsesprogram til Excel](admin-deploy-excel-addin.md)
+#### Bruge Business Central som din virksomheds Indbakke i Outlook 
+##### [Oversigt](admin-outlook.md)
+##### [Synkronisere med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+##### [Bruge Business Central uden Outlook](admin-no-outlook.md)
+#### Bruge Microsoft Teams sammen med Business Central
+##### [Oversigt](across-teams-overview.md)
+##### [Administrere Teams-integration](admin-teams-integration.md)
+##### [Installere Business central-app i Teams.](across-install-app-for-teams.md)
+##### [Søge efter debitorer, kreditorer og kontakter](across-search-contacts-teams.md)
+##### [Dele Business Central-poster og Sidelinks i Teams](across-working-with-teams.md)
+##### [Ændre virksomhed og andre indstillinger](across-teams-settings.md)
+##### [Teams, ofte stillede spørgsmål](teams-faq.md)
+##### [Foretage fejlfinding af integration af Teams](admin-teams-troubleshooting.md)
+#### Bruge OneDrive til virksomheder med Business central
+##### [Oversigt](across-onedrive-overview.md)
+##### [Administrere OneDrive til virksomhedsintegration](admin-onedrive-integration.md)
+##### [Åbne Business Central-filer i OneDrive](across-share-onedrive.md)
+##### [OneDrive Ofte stillede spørgsmål](admin-onedrive-faq.md)
+#### Bruge Power BI sammen med Business Central
+##### [Introduktion](admin-powerbi.md)
+##### Administrator
+###### [Oversigt over integration](admin-powerbi-overview.md)
+###### [Aktivere Power BI-Integration](admin-powerbi-setup.md)
+##### Rapportopretter
+###### [Introduktion til oprettelse af rapporter](across-how-use-financials-data-source-powerbi.md)
+###### [Oprette rapporter til visning af listedata](across-how-use-powerbi-reports-factbox.md)
+##### Forretningsbruger
+###### [Arbejde med Power BI-rapporter i Business Central](across-working-with-powerbi.md)
+###### [Arbejde med Business Central-data i Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Bruge Business Central-apps i Power BI](across-powerbi-business-central-apps.md)
+##### [Ofte stillede spørgsmål](power-bi-faq.md)
+#### Bruge Power Automate sammen med Business Central
+##### [Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md)
+#### Bruge Power Apps sammen med Business Central
+##### [Oprette forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af Power Apps](across-how-use-financials-data-source-powerapps.md)
+#### [Skifte fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)
+#### [Massefakturering for Microsoft Bookings](finance-bookings.md)
+#### [Importere virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)
+### [Oprette nummerserie](ui-create-number-series.md)
+### [Konfigurere basiskalendere](across-how-to-assign-base-calendars.md)
+### [Installation af printere](ui-specify-printer-selection-reports.md)
+### [Hent Business Central til din mobilenhed](install-mobile-app.md)
+### [Hent Business Central til din computer](install-desktop-app.md)
 <!--Reporting landing page-->
 # Business Intelligence og rapportering 
 
@@ -1615,14 +1623,15 @@
 
 ## Brug rapporter i dagligt arbejde
 ### [Oversigt](reports-use-reports.md)
-### [Kører rapporter](ui-work-report.md)
-### [Bogmærke i en rapport](ui-bookmarks.md)
-### [Analyse af rapportdata med Excel](report-analyze-excel.md)
+### [Køre rapporter](ui-work-report.md)
+### [Bogmærke en rapport](ui-bookmarks.md)
+### [Analysere rapportdata med Excel](report-analyze-excel.md)
 <!--### [Using the report inbox] (missing.md)-->
-### [Udskrivning af rapporter](ui-specify-printer-selection-reports.md#default)
-### [Planlægning af rapporter](ui-work-report.md#ScheduleReport)
+### [Udskrive momsrapporter](ui-specify-printer-selection-reports.md#default)
+### [Planlægge rapporter](ui-work-report.md#ScheduleReport)
 ### [Administrere gemte rapportindstillinger](reports-saving-reusing-settings.md)
-### [Ændre layout i standardrapport](ui-how-change-layout-currently-used-report.md)
+### [Angive det layout, der bruges af en rapport](ui-set-report-layout.md)
+### [(Ældre) Angive det layout, der bruges af en rapport](ui-how-change-layout-currently-used-report.md)
 
 ## Indbyggede rapporter
 ### [Rapportoversigt](reports-available-reports.md)
@@ -1673,7 +1682,7 @@
 ### Produktion
 #### [Produktionsrapporter](production-reports.md)
 #### [Vise belastningen på arbejdscentre og produktionsressourcer](production-how-to-view-the-load-on-work-centers.md)
-#### [Vise arbejdscenterposter](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
+#### [Vise ældre arbejdscenterposter](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
 
 ### Servicestyring
 #### [Visning af servicestatistik](service-service-statistics.md)
@@ -1686,7 +1695,7 @@
 ### [Sortering, søgning og filtrering](ui-enter-criteria-filters.md)
 ### [Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.yml)
 ### [Analysere sidedata i Excel](across-work-with-excel.md)
-### [Analyse af rapportdata med Excel](ui-work-report.md#saving-a-report-to-a-file)
+### [Analyse af rapportdata med Excel](report-analyze-excel.md)
 ### [Økonomisk analyse](bi.md)
 
 ## Indbygget analyse 
@@ -1709,19 +1718,22 @@
 ## Udvikle rapporter
 ### [Oversigt](reports-develop-reports.md)
 ### Udvikle rapportlayout
-#### [Layouttyper (Word og RDLC)](ui-manage-report-layouts.md)
-#### [Oprette et nyt layout](ui-how-create-custom-report-layout.md)
-#### [Bruge skrifttyper i layout](ui-fonts.md)  
+#### [Layouttyper (Word, Excel og RDLC)](ui-manage-report-layouts.md)
+#### [Sådan opretter og tilpasser du layouts](ui-get-started-layouts.md)
+<!--#### [Create a New Layout](ui-how-create-custom-report-layout.md)-->
 #### [Arbejd med Word-layouts](ui-how-add-fields-word-report-layout.md)
-#### [Importér/eksportér et layout](ui-how-import-and-export-report-layout.md)
-#### [Opdater et layout](ui-update-report-layouts.md)
-#### [Ændre standardlayoutet](ui-how-change-layout-currently-used-report.md)
+#### [Arbejd med Excel-layouts](ui-excel-report-layouts.md)
+#### [Arbejd med RDLC-layouts](ui-rdlc-report-layouts.md)
+#### [Bruge skrifttyper i layout](ui-fonts.md)  
+<!--#### [Import/Export a Layout](ui-how-import-and-export-report-layout.md)
+#### [Update a Layout](ui-update-report-layouts.md)-->
+#### [Ændre standardlayoutet](ui-set-report-layout.md)
+<!--#### [Set the Layout (legacy)](ui-how-change-layout-currently-used-report.md)-->
 ### Udvikle rapportdatasæt
 #### [Rapportudviklingsguide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Rapport om justering af ydeevne](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
 
-<!--Security landing page-->
 # Sikkerhed, beskyttelse af personlige oplysninger, kompatibilitet
 ## Sikkerhed og beskyttelse
 ### [Oversigt over sikkerhed og beskyttelse (kun på engelsk)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
@@ -1745,20 +1757,37 @@
 ### [Installation af printere](ui-specify-printer-selection-reports.md)
 ### [Klassificere datafølsomhed](admin-classifying-data-sensitivity.md)
 ### [Svare på anmodninger om personlige oplysninger](admin-responding-to-requests-about-personal-data.md)
-### [Oprettelse af nye virksomheder](about-new-company.md)
-### [Logføre ændringer](across-log-changes.md)
-### [Brug af opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)
+### [Opret nye virksomheder](about-new-company.md)
+### Konfigurere en virksomhed med RapidStart Services
+#### [RapidStart Oversigt](admin-set-up-a-company-with-rapidstart.md)
+#### Konfigurere virksomhedskonfiguration
+##### [Oversigt over virksomhedskonfiguration](admin-set-up-company-configuration.md)
+##### [Administrere virksomhedskonfigurationen i et regneark](admin-how-to-manage-company-configuration-in-a-worksheet.md)
+##### [Forberede en konfigurationspakke](admin-how-to-prepare-a-configuration-package.md)
+#### Anvende konfigurationer på nye virksomheder
+##### [Anvende konfigurationer på nye virksomheder](admin-apply-configuration-to-new-companies.md)
+##### [Oprette en ny virksomhed](admin-how-to-create-a-new-company.md)
+##### [Konfigurere nye virksomheder](admin-how-to-configure-new-companies.md)
+##### [Konfigurere en virksomhed med guiden RapidStart](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)
+##### [Kopiere data til nye virksomheder](admin-how-to-copy-data-to-new-companies.md)
+##### [Oprette kladden Primosaldi](admin-how-to-create-journal-opening-balances.md)
+#### [Indsamle debitoropsætningsdata](admin-gather-customer-setup-values.md)
+#### [Forberede overflytning af debitordata med skabeloner](admin-use-templates-to-prepare-customer-data-for-migration.md)
+#### [Overflytte debitordata](admin-migrate-customer-data.md)
+#### [Tip: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
+### [Ændringslog](across-log-changes.md)
+### [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)
 ### [Administrere lager ved at komprimere data eller slette dokumenter](admin-manage-documents.md)
 ### [Arkivere data](admin-archive-data.md)
 ### [Definere dataopbevaringspolitikker](admin-data-retention-policies.md)
 ### [Udgive en webtjeneste](across-how-publish-web-service.md)
-### [Konfiguration af API-skabeloner](admin-configuring-api-template.md)
-### [Administration af datakryptering](admin-manage-data-encryption.md)
+### [Konfigurere API-skabeloner](admin-configuring-api-template.md)
+### [Administrere datakryptering](admin-manage-data-encryption.md)
 ### [Udvide din prøveversion](admin-extend-trial.md)
 ### [Inspicere sider](across-inspect-page.md)
-### [Sådan ser du databaselåse](admin-view-database-locks.md)
-### [Sådan ser du tabeloplysninger](admin-view-table-information.md)
-### [Aktivering af nye funktioner på forhånd](admin-feature-management.md)
+### [Vise databaselåse](admin-view-database-locks.md)
+### [Vise tabeloplysninger](admin-view-table-information.md)
+### [Aktivere nye funktioner Ahead of Time](admin-feature-management.md)
 ### [Onboarding af brugere med kontrollister](admin-checklist.md)
 ### [Sandkassemiljøer](admin-sandbox-environments.md)
 ## Tilpasse Business Central
@@ -1768,10 +1797,10 @@
 ### [Oprette en farveindikator på køindikatorer](admin-how-set-up-colored-indicator-on-cues.md)
 ### Tilpasse ved hjælp af udvidelser
 #### [Oversigt over udvidelser](ui-extensions.md)
+#### [Installere og fjerne udvidelser](ui-extensions-install-uninstall.md)
 #### [AMC Banking 365 Fundamentals-udvidelse](ui-extensions-amc-banking.md)
 #### [Ceridian løn](ui-extensions-ceridian-payroll.md)
 #### [Virksomhedshub](ui-extensions-company-hub.md)
-#### [Dynamics GP Dataoverførsel](ui-extensions-dynamicsgp-data-migration.md)
 #### [Envestnet Yodlee Bank Feeds](ui-extensions-yodlee-bank-feeds.md)
 #### [Vigtig forretningsindsigt](ui-extensions-essential-business-insights.md)
 #### [Billedanalyse](ui-extensions-image-analyzer.md)
@@ -1792,23 +1821,87 @@
 #### [UK – GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 #### [US/CA/UK/AU/NZ/ZA - Send remitteringsadvis](ui-extensions-send-remittance-advice.md)
 #### [Business Central-udvidelser fra andre leverandører](ui-extensions-other.md)
-## Integration med Dynamics 365 Sales
+## Integrere med Dynamics 365 Sales
 ### [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
-## Integration med Microsoft Dataverse
+## Integrere med Microsoft Dataverse
 ### [Integration med Microsoft Dataverse](admin-common-data-service.md)
 ### [Modeller for ejerskab af data](admin-cds-company-concept.md)
 ### [Konfigurere brugerkonti til integration med Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)
 ### [Opret forbindelse til Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synkronisere Business Central og Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
-### [Tilknytning af tabeller og felter til synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md)
+### [Tilknytte tabeller og felter til synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Synkronisere tabeltilknytninger manuelt](admin-manual-synchronization-of-table-mappings.md)
 ### [Planlæg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
-### [Fejlfinding i forbindelse med synkroniseringsfejl](admin-troubleshoot-sales-synchronization.md)
+### [Fejlfinde i forbindelse med synkroniseringsfejl](admin-troubleshoot-sales-synchronization.md)
+## Designoplysninger
+### [Oversigt over oplysninger om programdesign](design-details-application-design.md)
+### Designoplysninger: Forsyningsplanlægning
+#### [Oversigt over forsyningsplanlægning](design-details-supply-planning.md)
+#### [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)  
+#### [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md)  
+#### [Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)  
+#### [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)  
+#### [Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)  
+#### [Designoplysninger: Tabellen Planlægningsopgave](design-details-planning-assignment-table.md)  
+#### [Designoplysninger: Behov på lokationen TOM](design-details-demand-at-blank-location.md)  
+#### [Designoplysninger: Overførsler i planlægning](design-details-transfers-in-planning.md)
+### Designoplysninger: Lagerkostmetode
+#### [Oversigt over omkostninger](design-details-inventory-costing.md)
+#### [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
+#### [Designdetaljer: ændre kostmetoden for varer](design-details-changing-costing-methods.md)
+#### [Designoplysninger: Vareudligning](design-details-item-application.md)  
+#### [Designoplysninger: Kendt problem med vareudligning](design-details-inventory-zero-level-open-item-ledger-entries.md)  
+#### [Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md)  
+#### Designoplysninger: Bogføringsdato på post med reguleringsværdi
+#### [Designoplysninger: Bogføringsdato på post med reguleringsværdi](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Fejlmeddelelse "Bogføringsdatoen er ikke inden for intervallet af tilladte bogføringsdatoer"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+##### [Bogføringsdatoen for regulerings værdiposten sammenlignet med kildeposten](design-details-inventory-adjustment-value-entry-source-entry.md)  
+#### [Designoplysninger: Bogføring af forventet kostpris](design-details-expected-cost-posting.md)  
+#### [Designoplysninger: Gennemsnitlig kostpris](design-details-average-cost.md)  
+#### [Designoplysninger: Afvigelse](design-details-variance.md)  
+#### [Designoplysninger: Afrunding](design-details-rounding.md)  
+#### [Designoplysninger: Omkosntingskomponenter](design-details-cost-components.md)  
+#### [Designoplysninger: Lagerperioder](design-details-inventory-periods.md)  
+#### [Designoplysninger: Varekladde](design-details-inventory-posting.md)  
+#### [Designoplysninger: Bogføring af produktionsordre](design-details-production-order-posting.md)  
+#### [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)  
+#### [Designoplysninger: Afstemning med Finans](design-details-reconciliation-with-the-general-ledger.md)  
+#### [Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md)
+#### [Designoplysninger: Lagerværdi](design-details-inventory-valuation.md)  
+#### [Designoplysninger: Regulering](design-details-revaluation.md)
+### Designoplysninger: Warehouse Management
+#### [Oversigt over logistik](design-details-warehouse-management.md)
+#### [Designoplysninger: Oversigt over logistik](design-details-warehouse-overview.md)  
+#### [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md)  
+#### [Designoplysninger: Indgående lagerflow](design-details-inbound-warehouse-flow.md)  
+#### [Designoplysninger: Internt lagerflow](design-details-internal-warehouse-flows.md)  
+#### [Designoplysninger: Tilgængelighed i lageret](design-details-availability-in-the-warehouse.md)  
+#### [Designoplysninger: Udgående lagerflow](design-details-outbound-warehouse-flow.md)  
+#### [Designoplysninger: Integration med lager](design-details-integration-with-inventory.md)
+### Designoplysninger: Varesporing
+#### [Oversigt over varesporing](design-details-item-tracking.md)
+#### [Designoplysninger: Design af varesporing](design-details-item-tracking-design.md)  
+#### [Designdetaljer: Bogføringsstruktur for varesporing](design-details-item-tracking-posting-structure.md)  
+#### [Designoplysninger: Aktive kontra historiske varesporingsposter](design-details-active-versus-historic-item-tracking-entries.md)  
+#### [Designoplysninger: Siden Varesporingslinjer](design-details-item-tracking-lines-window.md)  
+#### [Designoplysninger: Tilgængelighed af varesporing](design-details-item-tracking-availability.md)  
+#### [Designoplysninger: Varesporing og planlægning](design-details-item-tracking-and-planning.md)  
+#### [Designoplysninger: Varesporing og reservationer](design-details-item-tracking-and-reservations.md)  
+#### [Designoplysninger: Varesporing i lageret](design-details-item-tracking-in-the-warehouse.md)
+### Designoplysninger: Bogføringslinje i finanskladde
+#### [Finanskladdelinjenr.](design-details-general-journal-post-line.md)
+#### [Oversigt over bogføringslinje i finanskladde](design-details-general-journal-post-line-overview.md)  
+#### [Designoplysninger: Bogføring af grænsefladestruktur](design-details-posting-interface-structure.md)  
+#### [Designoplysninger: Bogføringsprogramstruktur](design-details-posting-engine-structure.md)  
+### Designoplysninger: Dimensionsgruppeposter
+#### [Designoplysninger: Oversigt over dimensionsgruppeposter](design-details-dimension-set-entries-overview.md)  
+#### [Designoplysninger: Søgning efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)  
+#### [Designoplysninger: Tabelstruktur](design-details-table-structure.md)
 <!--migrate to BC online-->
 ## Overflytning til Business Central Online
 ### [Overflytning af lokale data](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
 ### [Køre skyoverflytningsværktøj](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)
-### [Administration af overflytningen til skyen](/dynamics365/business-central/dev-itpro/administration/migration-management?toc=/dynamics365/business-central/toc.json)
+### [Administrere overflytningen til skyen](/dynamics365/business-central/dev-itpro/administration/migration-management?toc=/dynamics365/business-central/toc.json)
 ### [Overflytning fra Business Central lokalt](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
 ### [Overflytning fra Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
 ### [Overflytning fra Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)

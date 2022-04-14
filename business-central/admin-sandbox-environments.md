@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: 1a80e5ba3fb54d618334f65de452984dc3c1c356
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 20637dcced16fe695d64c2b4d858483882c64f7a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142467"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518281"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Sandkassemiljøer i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -66,13 +66,13 @@ When the assisted setup guide completes, you can start exploring the new company
 
 I et sandkassemiljø er **Designer** aktiveret. Du kan aktivere designer ved at vælge designikon ![Designer.](./media/across-sandbox/sandbox-inclient-design-icon.png) På en side eller ved at vælge menupunktet **Design** i ![Indstillinger](media/ui-experience/settings_icon_small.png) i menuen Indstillinger.  
 
-Du kan finde flere oplysninger i [bruge designer ](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer)i Developer and admin Content (kun på engelsk).  
+Du kan finde flere oplysninger i [Brug designer](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) i Developer and admin Content (kun på engelsk).  
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
 ## <a name="see-also"></a>Se også
 
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversioner og abonnementer](across-preview.md)  
 [Sådan styrer du Miljøer i Business Central Administration](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Produktions-og sandkassemiljøer](/dynamics365/business-central/dev-itpro/administration/environment-types)  

@@ -10,12 +10,12 @@ ms.search.keywords: print check, customize
 ms.search.form: 374, 404
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7be12b5fe3c6bac93a6ea51454a193ba76320a8e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ed0cf9383ed635e3f7b940ef4f28943ffb6bc1a0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149045"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518099"
 ---
 # <a name="select-a-check-layout"></a>Vælge et checklayout
 
@@ -40,8 +40,7 @@ Når du har oprettet checklayout, kan du udskrive check på siden **Udbetalingsk
 
 Hvis du vil ændre et af disse standardchecklayout, skal du bruge enten Word eller RDLC-integration til at gøre det. Du kan finde flere oplysninger i [Oprette og ændre et brugerdefineret rapportlayouts](ui-how-create-custom-report-layout.md).
 
-## <a name="using-micr-and-security-fonts"></a>Bruge MICR og sikkerhedsskrifttyper
-
+## <a name="use-micr-and-security-fonts"></a>Bruge MICR og sikkerhedsskrifttyper
 Onlineversionen af [!INCLUDE[prod_short](includes/prod_short.md)] indeholder forudinstallerede skrifttyper på de servere, der kan bruges, når checklayout defineres. Følgende dispositioner viser, hvilke skrifttyper der er tilgængelige og indeholder hyperlinks til detaljerede oplysninger fra tredjepartsleverandører af skrifttyperne.
 
 > [!Important]
@@ -100,7 +99,7 @@ Skrifttyper til andre formål er også tilgængelige i [!INCLUDE[prod_short](inc
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Bankkontoafstemning](bank-manage-bank-accounts.md)   
 [Fuldførelse af periodeafslutningsprocesser](year-how-complete-period-end-processes.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 
 

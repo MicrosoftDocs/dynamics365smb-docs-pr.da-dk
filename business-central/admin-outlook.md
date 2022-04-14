@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: 007d23bcb1d257402e33689ebe3ac57db10b84c2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323186"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518333"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Få Business Central-tilføjelsesprogram til Outlook
 
@@ -39,7 +39,7 @@ Tilføjelsesprogrammet Business Central til Outlook består af to mindre tilføj
 
     Når en e-mail henviser til et forretningsdokumentnummer i e-mailens brødtekst, indeholder dette tilføjelsesprogrammet et direkte, integreret link fra e-mail-brødteksten til det aktuelle forretningsdokument i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Du kan finde flere oplysninger om, hvad du gør med tilføjelsesprogrammerne, i [Bruge Business Central som indbakke i Outlook](work-outlook-addin.md).
+Du kan finde flere oplysninger om, hvad du gør med tilføjelsesprogrammerne, i [Brug Business Central som indbakke i Outlook](work-outlook-addin.md).
 
 Hvert tilføjelsesprogrammet findes som en XML-fil, der kaldes et *manifest*, som skal installeres i Outlook af alle, som vil have denne funktionalitet. Disse filer beskriver, hvordan du aktiverer tilføjelsesprogrammer og opretter forbindelse til Business central, når de bruges i Outlook. En administrator kan typisk arbejde med disse filer. Som normalt behøver du ikke at håndtere filerne direkte i de fleste tilfælde. Administratoren indstiller enten tilføjelsesprogrammet til at blive installeret automatisk, eller du skal bruge den indbyggede assisterede opsætning til at håndtere installationen.
 
@@ -84,7 +84,7 @@ Centraliseret installation er en funktion i Microsoft 365 Administration, som du
 > [!IMPORTANT]
 > Der vises en grøn markering, når tilføjelsesprogrammet er installeret i Administrationscenter. Det kan tage op til 24 timer, før brugerne af tilføjelsesprogrammet installeres automatisk i Outlook af brugere. Det kan også være nødvendigt at genstarte Outlook.
 
-Når du er færdig, kan du altid ændre installationen i Microsoft 365 Administration, f.eks. ved at tildele flere brugere. Du kan finde flere oplysninger om installation af tilføjelsesprogrammer i Administration under [Installere tilføjelsesprogrammer i Administration](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Når du er færdig, kan du altid ændre installationen i Microsoft 365 Administration, f.eks. ved at tildele flere brugere. Du kan finde flere oplysninger om installation af tilføjelsesprogrammer i Administration under [Installer tilføjelsesprogrammer i Administration](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
 ## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installere tilføjelsesprogrammet til eget brug
 
@@ -130,7 +130,7 @@ Du er nu klar til at begynde at bruge tilføjelsesprogrammet i Outlook.
 [Salg](sales-manage-sales.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Minimumkrav til Outlook](product-requirements.md#outlook)  
-[Bruge tilføjelsesprogrammer i Outlook på internettet](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Brug tilføjelsesprogrammer i Outlook på internettet](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

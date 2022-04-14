@@ -4,29 +4,54 @@ description: Få hjælp til produkter, vejledning, tip til fejlfinding og assist
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
+ms.search.form: HelpAndSupport
 ms.author: edupont
-ms.date: 10/26/2021
-ms.openlocfilehash: aa472df02891c6de1a786a9a4c3321c461a45395
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 03/21/2022
+ms.openlocfilehash: d97911cd7c3556e8ee447102e22b3764548b6f13
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145546"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516922"
 ---
 # <a name="resources-for-help-and-support"></a>Hjælp og support
 
-Menupunktet Hjælp i [!INCLUDE[prod_long](includes/prod_long.md)], (spørgsmålstegnet i øverste højre hjørne) giver dig adgang til siden Hjælp, hvor du kan finde svar på dine spørgsmål.  
+Tips og vejledning til, hvordan du kan bruge [!INCLUDE[prod_long](includes/prod_long.md)], hvordan du får fjernet blokering, hvor du kan lære mere, og hvordan du finder tekniske oplysninger i [!INCLUDE [prod_short](includes/prod_short.md)]. Denne artikel beskriver, hvordan du finder hvad.  
+
+## <a name="in-product-tips"></a>Hjælp til produktet
+
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Disse links kan også få adgang til indhold, der er udgivet på andre websteder, f. eks. websteder hos udbydere af apps, der er installeret i [!INCLUDE [prod_short](includes/prod_short.md)].  
+
+## <a name="help-pane"></a>Ruden hjælp
+
+[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+
+Menupunktet Hjælp i [!INCLUDE [prod_short](includes/prod_short.md)], (spørgsmålstegnet i øverste højre hjørne) giver dig adgang til siden Hjælp, hvor du kan finde svar på dine spørgsmål. Ruden hjælp har et andet indhold, afhængigt af hvordan du åbner den. Følgende liste beskriver de kort, der altid eller næsten altid er til stede:  
+
+[!INCLUDE [ua-help-pane-links-default](includes/ua-help-pane-links-default.md)]
+
+Følgende liste beskriver, hvordan du kan få adgang til ruden hjælp, og om der er tilføjet kort til den:
+
+- Vælg linket *Flere oplysninger* om et værktøjstip for et felt
+
+  Følgende kort indsættes i ruden hjælp:
+
+  - Feltets værktøjstip
+- Vælg linket *Flere oplysninger* om et værktøjstip for en handling
+- Vælge menupunktet Hjælp (spørgsmålstegnet i øverste højre hjørne)
+- Brug tastaturgenvejen Ctrl + F1
+
+> [!TIP]
+> Når du vælger et hyperlink, åbnes destinations artiklen under en ny webbrowser fane. Du kan vælge at fjerne fanen browser, så du kan få vist de relevante oplysninger ved siden af hinanden med [!INCLUDE [prod_short](includes/prod_short.md)]. Ruden forbliver åben, mens du navigerer gennem [!INCLUDE [prod_short](includes/prod_short.md)], så det indhold, du har søgt efter, forbliver synligt.  
 
 ## <a name="search-in-the-help-pane"></a>Søg i ruden hjælp
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
-2021 udgivelsesbølge 2 indeholder en ny hjælp-rude med fanen Søg. Brug feltet Søg til at søge efter vejledning i, hvordan du bruger produktet, indbyggede funktioner og tilgængelige uddannelses moduler. Afhængigt af dine søgeord har ruden fem eller flere links med en kort beskrivelse. Vælg et hyperlink, eller Afgræns søgeordene. Når du vælger et hyperlink, åbnes destinations artiklen under en ny webbrowser fane. Du kan vælge at fjerne fanen browser, så du kan få vist de relevante oplysninger ved siden af hinanden med [!INCLUDE [prod_short](includes/prod_short.md)]. Ruden forbliver åben, mens du navigerer gennem [!INCLUDE [prod_short](includes/prod_short.md)], så det indhold, du har søgt efter, forbliver synligt.  
+Brug feltet Søg øverst i ruden Hjælp til at søge efter vejledning i, hvordan du bruger produktet, indbyggede funktioner og tilgængelige uddannelses moduler. Afhængigt af dine søgeord har ruden fem eller flere links med en kort beskrivelse. Vælg et hyperlink, eller Afgræns søgeordene. Når du vælger et hyperlink, åbnes destinations artiklen under en ny webbrowser fane. Du kan vælge at fjerne fanen browser, så du kan få vist de relevante oplysninger ved siden af hinanden med [!INCLUDE [prod_short](includes/prod_short.md)]. Ruden forbliver åben, mens du navigerer gennem [!INCLUDE [prod_short](includes/prod_short.md)], så det indhold, du har søgt efter, forbliver synligt.  
 
 > [!NOTE]
-> I den aktuelle version af [!INCLUDE [prod_short](includes/prod_short.md)] er feltet Søg i ruden hjælp kun relevant for indhold, der udgives på docs.microsoft.coms websted.
-
-[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Disse links kan også få adgang til indhold, der er udgivet på andre websteder, f. eks. websteder hos udbydere af apps, der Mare installeret i [!INCLUDE [prod_short](includes/prod_short.md)].  
+> I den aktuelle version af [!INCLUDE [prod_short](includes/prod_short.md)] er feltet Søg i ruden Hjælp kun relevant for indhold, der udgives på [Docs.microsoft.com](/dynamics365/business-central)-websted.
 
 ## <a name="help--support-page"></a>Siden Hjælp og support
 
@@ -35,7 +60,7 @@ Fra Hjælp-ruden kan du få adgang til siden **Hjælp & support** i [!INCLUDE [p
 Denne sektion beskriver den tilgængelige dokumentation i de forskellige sektioner på **Hjælp og support**-siden, som beskrevet i følgende liste:
 
 - [Finde svar](#find-answers)  
-- [Produkthjælp](#product-help)  
+- [Hjælp](#product-help)  
 - [Forum](#community)  
 - [Blog](#blog)  
 - [Funktioner, der lanceres snart](#capabilities-coming-soon)  
@@ -59,6 +84,7 @@ Sektionen **Find det** indeholder to links til produkthjælp:
 - Hjælp om siden, du netop fik vist i [!INCLUDE[prod_short](includes/prod_short.md)]  
 
   Dette link genereres automatisk. Hvis [!INCLUDE[prod_short](includes/prod_short.md)] ikke kan finde det relevante link, vises landingssiden på [Docs.microsoft.com](index.md) for standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis siden f.eks. var en del af en app, som ikke har føjet kontekstafhængig hjælp til [!INCLUDE[prod_short](includes/prod_short.md)], viser *Få mere at vide-linket* som standard landingssiden.  
+  
 - Hjælpelandingsside for [!INCLUDE[prod_short](includes/prod_short.md)]  
 
   Funktionalitet i standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] er beskrevet på webstedet. [Docs.microsoft.com](/dynamics365/business-central). Du kan finde flere oplysninger i afsnittet [Brug af webstedet docs.microsoft.com for at få mere at vide](#use-the-docsmicrosoftcom-site-to-learn-more). Du kan også udvide og tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] med apps fra AppSource. Alle apps har links til den relevante produkthjælp, så du altid kan finde vejledning til forskellig workflows i din version af [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -105,7 +131,7 @@ Som intern administrator har du adgang til administrationen, hvor du kan fortsæ
 - [Overvåge og analysere feltovervågningstelemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
 - [Aktivér afsendelse af telemetri til Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
-### <a name="report-a-problem"></a>Rapporter et problem
+### <a name="report-a-problem"></a>Rapportér et problem
 
 Din [!INCLUDE[prod_short](includes/prod_short.md)]-detailpartner kan hjælpe dig med teknisk support. Denne sektion gør det nemt for dig at kontakte din distributør, hvis de har angivet deres supportkontaktoplysninger. Hvis din [!INCLUDE[prod_short](includes/prod_short.md)]-partner ikke kan løse problemet, anmoder de Microsoft om hjælp.  
 

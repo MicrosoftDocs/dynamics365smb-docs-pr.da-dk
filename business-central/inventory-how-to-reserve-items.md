@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6dcd912dfae36e31bd2642b5f1427483f3095c19
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 385003db0d0fe8b121e6512257f0ed448596225e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148560"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519696"
 ---
 # <a name="reserve-items"></a>Reservere varer
 Du kan reservere varer til salgsordrer, købsordrer, serviceordrer, montageordrer og produktionsordrer. Du kan reservere lagervarer eller indgående varer på åbne dokumentlinjer eller kladdelinjer. Du kan udføre arbejdet på siden **Reservation**.
@@ -98,7 +98,7 @@ Følgende procedure er baseret på en salgsordre.
 [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Designoplysninger - Varesporing og reservationer](design-details-item-tracking-and-reservations.md)  
 [Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

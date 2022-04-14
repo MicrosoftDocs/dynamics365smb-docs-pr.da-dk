@@ -10,12 +10,12 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.search.form: 1826, 1827
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c1873d8b5b4da7958fdab052bc587d004b06c7c6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5e6e633155131c7a397a4214d9d22d9464b0847d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136088"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518151"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidering af finansielle oplysninger fra flere regnskaber
 
@@ -118,7 +118,7 @@ De udlæste poster indeholder følgende felter: **Kontonr.**, **Bogføringsdato*
 
 [Konfigurere virksomhedskonsolidering](finance-consolidated-company-reporting-setup.md)  
 [Administrere Intercompany-transaktioner (IC)](intercompany-manage.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Eksportere forretningsdata til Excel](about-export-data.md)
 
 
