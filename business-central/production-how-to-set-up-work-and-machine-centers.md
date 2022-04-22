@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 52f84c4c4b30aa09094806e238fe4f72232f5e62
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 639a0a8cc8c7c3efa9e7331a1db45dc031f4515b
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517891"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557219"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbejdscentre og produktionsressourcer
 
@@ -39,18 +39,19 @@ Nedenstående beskrives primært, hvordan du opretter et arbejdscenter. Trinnene
 2. Vælg handlingen **Ny**.  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Markér den højniveau ressourcegruppe, som arbejdscenteret er organiseret under, i feltet **Ressourcegruppe**, hvis det er relevant. Vælg handlingen **Ny** på rullemenuen.  
-5. Vælg feltet **Spærret**, hvis du vil forhindre, at arbejdscentret bruges i enhver behandling. Det betyder, at der ikke kan bogføres afgang for en vare, der produceres på arbejdscentret. Du kan finde flere oplysninger i [Bogføre produktionsafgang](production-how-to-post-output-quantity.md).
-6. Skriv omkostningen ved at producere en enhed på dette arbejdscenter, inklusive alle andre kostelementer, i feltet **Købspris**. Denne omkostning kaldes ofte *direkte arbejdsomkostning”*.  
-7. I feltet **Indir. omkost.pct** skal du angive de generelle driftsomkostninger ved at bruge arbejdscentret som en procentdel af købsprisen. Dette procenttal lægges til købsprisen ved beregningen af kostprisen.  
-8. I feltet **IPO-bidrag** skal du angive alle ikke-driftsmæssige omkostninger for arbejdscentret, f.eks. reparationsudgifter, som et direkte beløb.  
+5. Vælg det arbejdscenter, der skal bruges, hvis arbejdscentret ikke er disponibelt, eller hvor behovet overstiger kapaciteten, i feltet **Alternativt arbejdscenter**. Det alternative arbejdscenter er kun til oplysning og medtages ikke automatisk i planlægningsprocesserne.
+6. Vælg feltet **Spærret**, hvis du vil forhindre, at arbejdscentret bruges i enhver behandling. Det betyder, at der ikke kan bogføres afgang for en vare, der produceres på arbejdscentret. Du kan finde flere oplysninger i [Bogføre produktionsafgang](production-how-to-post-output-quantity.md).
+7. Skriv omkostningen ved at producere en enhed på dette arbejdscenter, inklusive alle andre kostelementer, i feltet **Købspris**. Denne omkostning kaldes ofte *direkte arbejdsomkostning”*.  
+8. I feltet **Indir. omkost.pct** skal du angive de generelle driftsomkostninger ved at bruge arbejdscentret som en procentdel af købsprisen. Dette procenttal lægges til købsprisen ved beregningen af kostprisen.  
+9. I feltet **IPO-bidrag** skal du angive alle ikke-driftsmæssige omkostninger for arbejdscentret, f.eks. reparationsudgifter, som et direkte beløb.  
 
     Feltet **Kostpris** indeholder den beregnede kostpris ved produktion af en enhed på arbejdscentret, inklusive alle kostelementer, som følger:  
 
     Kostpris = Købspris + (Købspris x Indir. omkost.pct) + IPO-bidrag.  
 
-9. Angiv i feltet **Kostprisberegning**, om ovenstående beregning skal baseres på den forbrugte tid: **Tid** eller på antallet af producerede enheder: **Enheder**.  
-10. Vælg feltet **Specifik kostpris**, hvis du vil definere arbejdscentrets kostpris på den rutelinje, hvor det benyttes. Dette kan være relevant for operationer, hvor kapacitetsomkostningerne er væsentligt anderledes end for andre produktioner på arbejdscentret.  
-11. Vælg i feltet **Trækmetode**, om outputbogføring på dette arbejdscenter skal beregnes og bogføres manuelt eller automatisk med en af følgende metoder.
+10. Angiv i feltet **Kostprisberegning**, om ovenstående beregning skal baseres på den forbrugte tid: **Tid** eller på antallet af producerede enheder: **Enheder**.  
+11. Vælg feltet **Specifik kostpris**, hvis du vil definere arbejdscentrets kostpris på den rutelinje, hvor det benyttes. Dette kan være relevant for operationer, hvor kapacitetsomkostningerne er væsentligt anderledes end for andre produktioner på arbejdscentret.  
+12. Vælg i feltet **Trækmetode**, om outputbogføring på dette arbejdscenter skal beregnes og bogføres manuelt eller automatisk med en af følgende metoder.
 
     |Indstilling|Beskrivlse|
     |------|-----------|
@@ -61,17 +62,17 @@ Nedenstående beskrives primært, hvordan du opretter et arbejdscenter. Trinnene
     > [!NOTE]
     > Den trækmetode, der vælges her, kan tilsidesættes for enkelte operationer, hvis det er nødvendigt, ved at ændre indstillingen på rutelinjerne.
 
-12. Brug feltet **Enhedskode** til at angive den tidsenhed, som arbejdscentrets kostprisberegning og kapacitetsplanlægning udføres i.
+13. Brug feltet **Enhedskode** til at angive den tidsenhed, som arbejdscentrets kostprisberegning og kapacitetsplanlægning udføres i.
     For konstant at kunne overvåge forbrug skal du først oprette en enhedsmetode. De enheder, du angiver, er basisenheder. F.eks. beregnes procestiderne i timer og minutter.
 
     > [!NOTE]  
     > Hvis du vælger at bruge Dage, skal du huske, at 1 dag = 24 timer - og ikke 8 (arbejdstimer).
 
-13. I feltet **Kapacitet** skal du angive, om arbejdscentret har mere end én maskine eller person, der arbejder samtidigt. Hvis din [!INCLUDE[prod_short](includes/prod_short.md)]-installation ikke omfatter funktionaliteten Produktionsressource, skal værdien i dette felt være **1**.  
-14. Angiv den procentdel af den forventede standardafgang, som arbejdscentret normalt producerer, i feltet **Effektivitet**. Hvis du angiver **100**, betyder det, at arbejdscentret har en faktisk afgang, der er den samme som standardafgangen.  
-15. Markér afkrydsningsfeltet **Fælles kalender**, hvis du også bruger produktionsressourcer. Dette sikrer, at kalenderposter er akkumuleres fra produktionsressourcekalendere.  
-16. Vælg en produktionskalender i feltet **Produktionskalenderkode**. Du kan finde flere oplysninger i [Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md).  
-17. I feltet **Køtid** skal du angive et fast tidsrum, der skal forløbe, før det tildelte arbejde kan begynde på arbejdscentret. 
+14. I feltet **Kapacitet** skal du angive, om arbejdscentret har mere end én maskine eller person, der arbejder samtidigt. Hvis din [!INCLUDE[prod_short](includes/prod_short.md)]-installation ikke omfatter funktionaliteten Produktionsressource, skal værdien i dette felt være **1**.  
+15. Angiv den procentdel af den forventede standardafgang, som arbejdscentret normalt producerer, i feltet **Effektivitet**. Hvis du angiver **100**, betyder det, at arbejdscentret har en faktisk afgang, der er den samme som standardafgangen.  
+16. Markér afkrydsningsfeltet **Fælles kalender**, hvis du også bruger produktionsressourcer. Dette sikrer, at kalenderposter er akkumuleres fra produktionsressourcekalendere.  
+17. Vælg en produktionskalender i feltet **Produktionskalenderkode**. Du kan finde flere oplysninger i [Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md).  
+18. I feltet **Køtid** skal du angive et fast tidsrum, der skal forløbe, før det tildelte arbejde kan begynde på arbejdscentret. 
 
 > [!NOTE]
 > Brug køtid til at angive en buffer mellem den tid, en komponent ankommer til en produktionsressource eller et arbejdscenter, og hvornår driften faktisk starter. F. eks. leveres en del til en produktionsressource kl. 10:00, men det tager en time at montere det på maskinen, så driften kan ikke starte før kl. 11:00. For at kunne redegøre for den pågældende time skal køtiden være én time. Værdien i feltet **Køtid** på det specifikke produktionsressource- eller arbejdscenterkort plus summen af værdien i felterne **Opstillingstid**, **Driftstid**, **Ventetid** og **Transporttid** på varerutelinjen lægges sammen for at vise varens produktionstid. Dermed får du den nøjagtige overordnede produktionstid.  

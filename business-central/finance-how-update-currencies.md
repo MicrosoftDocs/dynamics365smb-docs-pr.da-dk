@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 45926cc094234a6b75f3e8a1ca997fc89506ef28
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 54aed7a30225d074ab6651df63771924c7c1cd97
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523471"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557349"
 ---
 # <a name="update-currency-exchange-rates"></a>Opdatere valutakurser
 
@@ -68,6 +68,12 @@ Kørslen **Juster valutakurser** bruges til at regulere valutakursen manuelt for
 
 > [!TIP]
 > Du kan bruge en service til automatisk at opdatere valutakurser i systemet. Du kan finde flere oplysninger i [Sådan konfigureres en valutakurstjeneste](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Dette regulerer imidlertid ikke valutakurser for allerede bogførte transaktioner. Hvis du vil opdatere valutakurser for bogførte poster, skal du bruge kørslen **Kursreguler valutabeholdninger**.
+
+Du kan få vist den effekt, som en regulering har ved bogføring, inden du bogfører ved at vælge **Forhåndsversion** på siden **Kursreguler valutabeholdninger**. Du kan også vælge, om finansposteringen skal være detaljeret (pr. post) eller opsummeret (pr. valuta) ved at vælge **Opsummerede poster**. Du kan også angive, hvordan dimensioner for urealiserede gevinst-og tabs posteringer skal håndteres, ved at vælge en af følgende indstillinger i feltet **Overfør dimensionsværdier**:  
+
+- **Kildepost**: Finansposter for urealiserede gevinster og tab får dimensionsværdier overført fra den justerede post.
+- **Pr. finanskonto**: Finansposter for urealiserede gevinster og tab får dimensionsværdier overført fra den urealiserede gevinst-og tabs finanskontos kildepost.
+- **Ingen overførsel**: Finansposter for urealiserede gevinster og tab har ikke dimensionsværdier.
 
 ### <a name="effect-on-customers-and-vendors"></a>Indflydelse på debitorer/kreditorer
 

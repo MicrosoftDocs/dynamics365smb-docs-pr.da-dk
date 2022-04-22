@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e6e7d42af64db3c1725e9f4b54ba7ca4e4b16320
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515741"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557401"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Tilknytning af tabeller og felter til synkronisering
 
@@ -28,6 +28,9 @@ Når du opretter forbindelsen mellem appsene, opretter [!INCLUDE[prod_short](inc
 
 > [!Note]
 > Hvis du bruger en lokal version af [!INCLUDE[prod_short](includes/prod_short.md)], gemmes integrationstabellens tilknytninger i tabellen 5335 Integrationstabeltilknytninger, hvor du kan se og redigere tilknytninger. Komplekse tilknytninger og synkroniseringsregler defineres i codeunit 5341. 
+
+### <a name="additional-mappings"></a>Yderligere tilknytninger 
+Betalingsbetingelser, leveringsformer og speditører kan ændres, og det kan være vigtigt at kunne justere dem. Hvis du aktiverer **Funktionsopdatering: Knyt til indstillinger i Dataverse uden kode**-funktionen på siden [funktionsstyring](https://businesscentral.dynamics.com/?page=2610), kan du manuelt tilføje tilknytninger til integrationstabeller for betalingsbetingelser (BETALINGSBETINGELSER), leveringsmetoder (LEVERINGSMETODE) og speditører (SPEDITØR). Denne tilknytning kan være med til at sikre, at dine politikker er de samme for disse opsætninger i [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 ### <a name="synchronization-rules"></a>Synkroniseringsregler
 En integrationstabeltilknytning indeholder også regler, der styrer, hvordan integrationssynkroniseringsjob synkroniserer poster i en [!INCLUDE[prod_short](includes/prod_short.md)]-tabel og en tabel i [!INCLUDE[prod_short](includes/cds_long_md.md)]. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->

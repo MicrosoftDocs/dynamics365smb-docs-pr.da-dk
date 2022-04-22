@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 70bfd81f6fd331018fe6cafd6793ae1f1501f159
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6996c82ee184db980879ea98a6f2cbdca1b10852
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519618"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557178"
 ---
 # <a name="create-jobs"></a>Oprette sager
 Når du starter et nyt projekt, skal du oprette et sagskort med integrerede sagsopgaver og sagsplanlægningslinjer, opdelt i to niveauer.  
@@ -27,7 +27,11 @@ Den lagdelte struktur giver dig mulighed for at opdele sagen i mindre opgaver og
 > [!TIP]
 > Vælg handlingen **Ny sag** i rollecenteret **Projektleder** for at starte en assisteret opsætningsvejledning, som fører dig gennem trinnene til oprettelse af en sag med integrerede opgaver og planlægningslinjer. Følgende fremgangsmåde beskriver, hvordan trinnene udføres manuelt. Du kan se et eksempel på, hvordan du opretter en sag manuelt i [Video: Sådan oprettes en sag i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
 
-Nogle gange adskiller den part, der modtager en service, sig fra den part, der betaler fakturaen. På siden **sager** kan du angive den kunde, der skal have fordel af projektet i felterne **kunde**, og den part, der skal faktureres, i felterne **faktureres**. Du kan også angive, hvor arbejdet skal udføres, ved at vælge fra en liste over leveringsadresser for debitoren, tilføje oplysninger om eksterne referencer for at forenkle kommunikationen om projektet og overskrive projektets standardbetingelser.
+Nogle gange adskiller den part, der modtager en service, sig fra den part, der betaler fakturaen. På siden **sager** kan du angive den kunde, der skal have fordel af projektet i felterne **kunde**, og den part, der skal faktureres, i felterne **faktureres**. Du kan også angive følgende oplysninger. 
+
+* Hvor arbejdet skal foretages ved at vælge fra en liste over leveringsadresser for debitoren.
+* Tilføj oplysninger om eksterne referencer for at forenkle kommunikationen om projektet.
+* Overskriv projektets standardbetingelser.
 
 ## <a name="to-create-a-job-card"></a>Sådan oprettes et sagskort
 Du kan oprette et sagskort og derefter oprette sagsopgavelinjer og sagsplanlægningslinjer for det.
@@ -40,7 +44,7 @@ Du kan oprette et sagskort og derefter oprette sagsopgavelinjer og sagsplanlægn
 >   Hvis du bruger timesedler i din sag, skal du også tildele en ansvarlig person. Denne person kan godkende timesedler for medarbejderopgaver, der er knyttet til sagen. Der er flere oplysninger i [Konfigurere timesedler](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Sådan oprettes opgaver for en sag
-Når du opretter en sag, skal du også angive de forskellige opgaver, som sagen indeholder. Det gør du ved at tilføje nye linjer i oversigtspanelet **Opgaver** på siden **Jobkort**, en opgave pr. linje. Hver sag skal have mindst én opgave.
+Når du opretter en sag, skal du også angive de forskellige opgaver, som sagen indeholder. Du angiver opgaver ved at oprette en linje per opgave i oversigtspanelet **Opgaver** på siden **Jobkort**. Hver sag skal have mindst én opgave.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.
 2. Åbn sagskortet for den relevante sag.
@@ -50,7 +54,7 @@ Når du opretter en sag, skal du også angive de forskellige opgaver, som sagen 
 6. For at angive sagsopgaverne med oplysninger om andre sagsopgaver skal du vælge handlingen **Kopier sagsopgaver fra**, udfylde felterne efter behov, og derefter vælge knappen **OK**.
 
 ## <a name="to-create-planning-lines-for-a-job"></a>Sådan oprettes planlægningslinjer for en sag
-Du kan begrænse dine nye sagsopgaver på sagsplanlægningslinjer. En planlægningslinje kan bruges til at hente alle oplysninger, du vil spore for en sag. Du kan bruge planlægningslinjer til at tilføje oplysninger, f.eks. hvilke ressourcer der kræves, eller til at hente de varer, der er brug for til at udføre sagen. Hvis du f.eks. har til opgave at få kundens godkendelse af en sag, kan du knytte den pågældende opgave til planlægningslinjer for varer, f.eks. et møde med kunden og tildelelse af en ressource.  
+Du kan begrænse dine nye sagsopgaver på sagsplanlægningslinjer. En planlægningslinje kan registrere de oplysninger, du vil spore for en sag. Du kan f. eks. spore, hvilke ressourcer opgaven kræver, eller om de varer, der er nødvendige. Du kan f. eks. udføre en opgave for at få en kunde til at godkende et job. Du kan knytte den pågældende opgave til planlægningslinjer for varer, f.eks. et møde med kunden og tildele en ressource.  
 
 En sagsplanlægningslinje han være en af følgende typer.  
 
@@ -60,13 +64,31 @@ En sagsplanlægningslinje han være en af følgende typer.
 | **Fakturerbar** |Viser forventet fakturering til kunden, typisk i et fast pris-projekt. |
 | **Både budget og fakturerbar** |Viser budgetteret forbrug, der er lig med, hvad du vil fakturere. |
 
-**Bemærk**! Når du angiver oplysninger på sagsplanlægningslinjer, udfyldes omkostningsoplysninger automatisk. Omkostning, pris og rabat for ressourcer og varer er f.eks. først baseret på de oplysninger, der er defineret på ressource- og varekort.
+> [!NOTE]
+> Mens du angiver oplysninger på sagsplanlægningslinjer, udfyldes omkostningsoplysninger automatisk. Omkostning, pris og rabat for ressourcer og varer er f.eks. først baseret på de oplysninger, der er defineret på ressource- og varekort. 
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.
 2. Åbn et relevant sagskort.
 3. Vælg en sagsopgave, hvor feltet **Sagsopgavetype** indeholder **Bogføring**, og vælg derefter handlingen **Sagsplanlægningslinjer**.  
 4. På siden **Sagsplanlægningslinjer** skal du udfylde felterne på en ny linje efter behov.
 5. Gentag trin 3 og 4 for alle planlægninglinjer, du skal bruge for sagsopgaven.
+
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Opret lagerbeholdnings- lagersteds-plukdokumenter for et job
+Hvis du vil oprette lagerplukdokumenter for sager, skal din administrator aktivere **Funktionsopdatering: Aktivér lagerbeholdning og lagerpluk fra job** på siden **Funktionsstyring**.
+
+Funktionen tilføjer handlingerne **Opret pluk (lager)** og **Opret lager (logistik)** på **Jobkort**. Hvis du vil oprette eller registrere et plukdokument, skal du bruge **Læg-på-lager/pluk-linjer/bevægelseslinjer** eller **registrerede pluklinjer**.
+
+Du kan bruge handlingerne under følgende betingelser:
+* Sagens **status** er **åben**.
+* **Linjetypen** for sagsplanlægningslinjen er **budget** eller **Både budget og fakturerbart**.
+* **Typen** på sagsplanlægningslinje er **vare**.
+* **Kræv pluk** er aktiveret for den relaterede lokation.
+* **Styret læg-på-lager og pluk** er deaktiveret.
+
+> [!NOTE] 
+> Selvom indstillingen kaldes **kræver pluk**, kan du stadig bogføre forbrug direkte fra sagskladdelinjen for lokationen. Hvis lokationen er sat op til at kræve pluk, men ikke leverance, skal du bruge dokumentet **Pluk (lager)** til at organisere og udskrive plukaktiviteten. Du kan også bruge siden til at angive og bogføre resultatet af plukket, som igen bogfører forbruget af varer. 
+> 
+> Hvis lokationen er indstillet til at kræve både pluk og leverance, dvs. at du har markeret både feltet **Kræv pluk** og feltet **Kræv leverance** på **lokationskortet**, kan du bruge siden **Pluk (logistik)** til at håndtere plukningen. Lagerpluk svarer til pluk (lager). Forskellen er, at i stedet for at bogføre plukoplysninger, registrerer du plukket. Denne registrering bogfører ikke forbrug, den gør blot varerne disponible til bogføring. Som lagerchef kan du bruge en plukkladde til at organisere plukoplysningerne, før du opretter de enkelte plukinstruktioner (logistik)
 
 ## <a name="see-also"></a>Se også
 

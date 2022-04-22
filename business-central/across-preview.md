@@ -1,19 +1,19 @@
 ---
 title: Prøveversioner og abonnementer
-description: Få mere at vide om, hvordan du får en prøveversion af Business Central, hvordan du arbejder med sandkassemiljøer, og hvordan du kan tilmelde dig et abonnement.
+description: Få mere at vide om, hvordan du starter, hvordan du arbejder med sandkassemiljøer, og hvordan du kan tilmelde dig et abonnement til Business Central online.
 author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 02/22/2022
+ms.date: 04/05/2022
 ms.author: edupont
-ms.openlocfilehash: ce516bc49fce32c969097fbf17bb2a927f3db491
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fc77c63351a97e130c00910a2e66c9497a24d104
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511281"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557323"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversioner og abonnementer
 
@@ -23,21 +23,15 @@ Hvis du ikke allerede arbejder med en partner, skal du se [Hvordan finder jeg en
 
 ## <a name="get-started-with-a-trial"></a>Introduktion til en prøveversion
 
-Du kan tilmelde dig en gratis prøveversion [her](https://go.microsoft.com/fwlink/?linkid=847861). Vi anbefaler, at du arbejder med [en videresalgspartner](/dynamics365/business-central/across-faq#findpartner) for at hjælpe din organisation med at komme i gang med [!INCLUDE[prod_short](includes/prod_short.md)]. Se også artiklen [Tilmeld dig en gratis Dynamics 365 Business Central-prøveversion](trial-signup.md) for at komme i gang.  
+[!INCLUDE [trial-get](includes/trial-get.md)]
+
+Vi anbefaler, at du arbejder med [en videresalgspartner](/dynamics365/business-central/across-faq#findpartner) for at hjælpe din organisation med at komme i gang med [!INCLUDE[prod_short](includes/prod_short.md)]. Se også artiklen [Tilmeld dig en gratis Dynamics 365 Business Central-prøveversion](trial-signup.md) for at komme i gang.  
 
 Afhængigt af dit land/område omfatter prøveversionen de sprog og den funktionalitet, som dit land eller område kræver. Du kan finde flere oplysninger i [Ændring af sprog og landestandard](about-locale-language.md).  
 
-I [!INCLUDE[prod_short](includes/prod_short.md)] er nogle ting genkendelige for dig, mens andet måske er nyt. Første gang du logger på demoregnskabet, får du adgang til siden Kom i gang med links til assisterede opsætningsvejledninger, som gør det nemmere at komme i gang. Du kan finde flere oplysninger i [Bliv klar til at komme i gang](ui-get-ready-business.md) og [hurtig start](quick-start-business-central.md)-artiklerne.  
-
-Hvis du oplever på problemer, kan siden [Ofte stillede spørgsmål](across-faq.yml) hjælpe dig med at besvare nogle af dine spørgsmål. Hvis du ikke kan tilmelde dig prøveversionen, kan du få hjælp på siden [Fejlfinding af selvbetjeningstilmelding](ui-troubleshoot-self-signup.md). Du kan også kontakte en [partner](/dynamics365/business-central/across-faq#findpartner) og bede vedkommende om at oprette en gratis prøveversion eller en anden type eksempelvisning af [!INCLUDE[prod_short](includes/prod_short.md)] til dig.  
-
-Hvis du ikke vil bruge [!INCLUDE [prod_short](includes/prod_short.md)], kan du lade prøveversionen udløbe.  
-
-[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
-
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Tilføje dine egne data til en tom prøvevirksomhed
 
-Hvis du vil afprøve [!INCLUDE[prod_short](includes/prod_short.md)] med dine egne data, kan du skifte til en gratis 30-dages prøveversion uden prøvedata. Den assisterede opsætningsvejledning **Konfigurer min virksomhed** kan hjælpe dig med at angive grundlæggende oplysninger om din virksomhed. Du kan også importere data fra din eksisterende løsning til virksomhedsadministration, så du kan [!INCLUDE[prod_short](includes/prod_short.md)] evaluere med dine egne data. Vi anbefaler dog, at du ikke bruger en gratis prøveversion som hjælp til at køre din virksomhed. Kontakt [en videresalgspartner](/dynamics365/business-central/across-faq#findpartner) for at få mere at vide om, hvordan du kommer i gang med [!INCLUDE[prod_short](includes/prod_short.md)]. Partneren kan også hjælpe med at overføre dine data til [!INCLUDE [prod_short](includes/prod_short.md)] online.  
+Hvis du vil afprøve [!INCLUDE[prod_short](includes/prod_short.md)] med dine egne data, kan du skifte til en gratis 30-dages prøveversion uden prøvedata. Den assisterede opsætningsvejledning **Konfigurer min virksomhed** kan hjælpe dig med at angive grundlæggende oplysninger om din virksomhed. Du kan også importere data fra din eksisterende løsning til virksomhedsadministration, så du kan [!INCLUDE[prod_short](includes/prod_short.md)] evaluere med dine egne data. Vi anbefaler stærkt, at du ikke bruger en gratis prøveversion som hjælp til at køre din virksomhed. Kontakt [en videresalgspartner](/dynamics365/business-central/across-faq#findpartner) for at få mere at vide om, hvordan du kommer i gang med [!INCLUDE[prod_short](includes/prod_short.md)]. Partneren kan også hjælpe med at overføre dine data til [!INCLUDE [prod_short](includes/prod_short.md)] online.  
 
 Hvis 30 dage ikke er nok til, at du kan træffe en beslutning, kan du forlænge prøveversionen. Du kan finde flere oplysninger i [Har du brug for mere tid til at beslutte, om du vil oprette et abonnement?](admin-extend-trial.md).  
 
@@ -65,7 +59,7 @@ Siden **Assisteret opsætning** kan indeholde andre poster. Når du gennemgår e
 
 ### <a name="resetting-your-prod_short-trial-experience"></a>Nulstilling af din oplevelse med [!INCLUDE[prod_short](includes/prod_short.md)]-prøveversionen
 
-Hvis du har tilføjet data i din gratis [!INCLUDE[prod_short](includes/prod_short.md)]-prøveversion, og du vil begynde forfra med en ny oplevelse, kan du oprette en ny evalueringsvirksomhed og slette den første virksomhed. Åbn siden **Virksomheder**, og vælg **Ny** for at starte vejledningen **Opret ny virksomhed** med assisteret opsætning. Du kan bruge vejledningen til at oprette en ny evalueringsvirksomhed med eksempeldata. Du kan også oprette en kopi af den aktuelle virksomhed, logge af og derefter logge på din nye virksomhed.  
+Hvis du har tilføjet data i din [!INCLUDE[prod_short](includes/prod_short.md)] gratis prøveversion, kan du stadig starte forfra med en ny oplevelse. Du skal blot oprette en ny evalueringsvirksomhed og derefter slette den oprindelige virksomhed. Åbn siden **Virksomheder**, og vælg handlingen **Ny** for at starte vejledningen **Opret ny virksomhed** med assisteret opsætning. Du kan bruge vejledningen til at oprette en ny evalueringsvirksomhed med eksempeldata. Du kan også oprette en kopi af den aktuelle virksomhed, logge af og derefter logge på din nye virksomhed.  
 
 > [!IMPORTANT]
 > Når du deler [!INCLUDE[prod_short](includes/prod_short.md)] med andre fra din organisation, skal du sikre dig, at der ikke er andre logget på, når du sletter en virksomhed.  
@@ -92,7 +86,7 @@ Hvis du er udvikler, giver en sandkasse dig mulighed for sikkert at opbygge og t
 Lige nu kan alle kunder bruge en sandkasse, herunder organisationer, der har tilmeldt sig en prøveversion. Du kan finde flere oplysninger om, hvordan du kommer i gang med en sandkasse, i [Sandkassemiljøer](admin-sandbox-environments.md).  
 
 > [!NOTE]
-> Sandkasser oprettet på denne måde indeholder demonstrationsdata for den fiktive virksomhed, CRONUS. Der kopieres ikke eller på anden måde overføres data fra produktionsmiljøet.   
+> Sandkasser oprettet på denne måde indeholder demonstrationsdata for den fiktive virksomhed, CRONUS. Der kopieres ikke eller på anden måde overføres data fra produktionsmiljøet.  
 
 Administratoren af din [!INCLUDE[prod_short](includes/prod_short.md)] og din videresalgspartner kan oprette flere miljøer i Administrationscenter. Du kan finde flere oplysninger i [Business Central Administration](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 
