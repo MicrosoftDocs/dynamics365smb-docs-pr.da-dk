@@ -7,19 +7,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e494307c5301549f2adaa15737e1f944d284bbf6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e413f75356af244dafe7e887207db370b942db7b
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514222"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654887"
 ---
 # <a name="business-functionality"></a>Forretningsfunktioner
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder funktioner til almindelige forretningsprocesser i små og mellemstore virksomheder inden for engroshandel og professionelle services. Mere komplekse processer, f.eks. montage, produktion, service og styret logistik, understøttes imidlertid også. [Få mere at vide om, hvordan du får en gratis prøveversion her](trial-signup.md).  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til din virksomheds behov. Fra dit rollecenter kan du åbne assisterede opsætningsvejledninger, som hjælper dig med at konfigurere bestemte scenarier, og tilføje funktioner til [!INCLUDE[prod_short](includes/prod_short.md)]. Forskellige områder af forretningsfunktioner skal konfigureres manuelt. De [Business Central-artikler i hurtig start](quick-start-business-central.md) kan hjælpe dig med at tage de første skridt til at gøre [!INCLUDE [prod_short](includes/prod_short.md)] til din egen. Du kan finde flere oplysninger i [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 

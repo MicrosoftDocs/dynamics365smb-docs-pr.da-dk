@@ -7,19 +7,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b59e6fc824f9c386c12030163f51ef09622f74a0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 052ef7a0e6579398ba651783675674d059eb6785
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519592"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654860"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortering, søgning og filtrering
 
 Der er et par ting, du kan gøre som en hjælp til at scanne, finde og begrænse poster på en liste eller i en rapport eller XMLport. Disse omfatter sortering, søgning og filtrering. Du kan anvende nogle eller alle af disse samtidigt til hurtigt at finde eller analysere dataene.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 I forbindelse med rapporter og XMLporte kan du angive filtre for at afgrænse, hvilke data der skal medtages i rapporten eller XMLport, men du kan ikke sortere og søge.
 

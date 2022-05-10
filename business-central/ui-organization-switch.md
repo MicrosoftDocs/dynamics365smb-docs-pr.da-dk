@@ -4,15 +4,15 @@ description: Hvis du arbejder for flere organisationer, kan du hurtigt skifte me
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1190a09a1e4cb67cb5a7f75732a18980f0aff4aa
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7a874890fe88b32668b309edb43563f8d11e7555
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514357"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655380"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Skifte til et andet firma eller miljø
 
@@ -24,6 +24,8 @@ ms.locfileid: "8514357"
 > Hvis du ofte skifter mellem firmaer eller arbejder med [!INCLUDE[prod_short](includes/prod_short.md)] fra en anden app Microsoft Teams, kan det være nemt at miste numre på det sted, hvor du er. For at hjælpe dig med at holde styr på det kan du tilføje et kort, der viser navnet på virksomheden, så du hurtigt kan se, at du er på det rigtige sted. Du kan finde flere oplysninger i [Sådan får du vist en virksomheds kort, så du hurtigt kan få adgang til virksomhedsoplysninger](ui-change-basic-settings.md#badge).
 
 Afhængigt af browseren kan du også fastgøre de forskellige regnskaber til din yndlingslinje.  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="switch-to-another-environment"></a>Skift til et andet miljø
 

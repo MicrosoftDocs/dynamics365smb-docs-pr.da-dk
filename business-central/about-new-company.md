@@ -7,21 +7,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bef90a9dab30391f310458cb0dde58cc4fac5268
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519351"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654964"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Opret nye virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] bliver beholderen til forretningsdata, der hører til en afdeling eller en juridisk enhed, kaldet en *virksomhed*. Når du logger på [!INCLUDE[prod_short](includes/prod_short.md)], får du angivet et demoregnskab og en tom virksomhed, *Min virksomhed*. Det er nemt at skifte mellem virksomhederne: Du skal bare gå til **Mine indstillinger** og flytte til den anden virksomhed. Men du kan også oprette nye virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)], afhængigt af dine forretningsmæssige behov.  
 
 Når du opretter en ny virksomhed, hjælper en assisterede opsætningsvejledning dig med at få styr på det grundlæggende. Du kan derefter indlæse relevante data fra dit gamle system eller en anden virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="choose-the-right-template"></a>Vælge den rigtige skabelon
 
@@ -32,11 +34,11 @@ Installationsguiden har to skabeloner og en tom indstilling:
 - **Evaluering - eksempeldata**  
     Den opretter en virksomhed, der ligner demoregnskabet med eksempeldata og opsætningsdata. Denne type virksomhed er tilgængelig uden at skifte til [en 30-dages prøveperiode](across-preview.md#add-your-own-data-to-an-empty-trial-company), som de andre typer gør.  
 - **Produktion - kun opsætningsdata**  
-    Den opretter en virksomhed, der ligner **Min virksomhed** med opsætningsdata, men uden eksempeldata. Du vil kunne bruge denne virksomhed i [en prøveperiode på 30 dage](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Den opretter en virksomhed, der ligner **Min virksomhed** med opsætningsdata, men uden eksempeldata. Du kan bruge denne virksomhed i en [prøveperiode på 30 dage](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
 - **Opret ny - Ingen data**  
-    Der oprettes en tom virksomhed uden opsætningsdata. Du vil kunne bruge denne virksomhed i [en prøveperiode på 30 dage](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Der oprettes en tom virksomhed uden opsætningsdata. Du kan bruge denne virksomhed i en [prøveperiode på 30 dage](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
 
-Hvis du vil komme hurtigt i gang med en ny virksomhed, kan du vælge **Produktion - Kun konfigurationsdata** og derefter importere dine egne forretningsdata, som f.eks. debitorer, varer og kreditorer. Vælg skabelonen **Nyt**, hvis du vil oprette alt fra bunden. I så fald kan du bruge den assisterende opsætningsvejledning **Virksomhedsopsætning** til at hjælpe dig i gang med de vigtige opsætningsdata.  
+Hvis du vil komme hurtigt i gang med en ny virksomhed, kan du vælge **Produktion - Kun konfigurationsdata** og derefter importere dine egne forretningsdata, som f.eks. debitorer, varer og kreditorer. Vælg skabelonen **Ny**, hvis du vil oprette alt fra bunden. I så fald kan du bruge den assisterende opsætningsvejledning **Virksomhedsopsætning** til at hjælpe dig i gang med de vigtige opsætningsdata.  
 
 > [!NOTE]  
 > Når du opretter en ny virksomhed, tager det nogle minutter, før du kan få adgang til den i [!INCLUDE[prod_short](includes/prod_short.md)]. Opsætningsstatussen på siden **Virksomheder** vises som standard, når den nye virksomhed er klar til dig. Derefter kan du skifte til den nye virksomhed ved hjælp af **Mine indstillinger**.  
@@ -54,9 +56,9 @@ På siden **Virksomheder** kan du bruge handlingen **Kopiér** til at oprette en
 
 Når du logger på en ny virksomhed, kører guiden **Virksomhedsopsætning** automatisk og hjælper dig i gang. Du bliver bedt om at angive oplysninger om virksomheden, f.eks. adresse, bankoplysninger og lagerets kostmetode. Vi beder dig om disse oplysninger, fordi de bruges som udgangspunkt for mange områder i [!INCLUDE[prod_short](includes/prod_short.md)], som du så derefter ikke behøver at oprette manuelt senere.  
 
-Din virksomhedsadresse medtages f.eks. i fakturaer og andre dokumenter, bankoplysningerne bruges i betalinger, og kostmetoden bruges til at beregne priser samt lagerværdi.  
+F.eks. omfatter [!INCLUDE [prod_short](includes/prod_short.md)] din firmaadresse i fakturaer og andre dokumenter og bankoplysninger i betalinger. Kostmetoden bruges til at beregne priser og lagerværdi.  
 
-Når du har styr på det grundlæggende, kan du oprette de resterende centrale områder. Du er klar til at tilføje forretningsdata, f.eks. debitorer og kreditorer. Du kan finde flere oplysninger i [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
+Når du har styr på det grundlæggende, kan du oprette de resterende centrale områder. Du er klar til at tilføje forretningsdata, f.eks. debitorer og kreditorer. Du kan finde flere oplysninger i [Konfiguration [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
 ## <a name="companies-and-environments"></a>Virksomheder og miljøer
 

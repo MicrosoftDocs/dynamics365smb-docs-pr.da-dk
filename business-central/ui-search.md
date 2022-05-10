@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c8f75b9f2d5be0a7916996362518bb5d49762484
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e1cbfea9a95d45fe78f0ef83ca2545b9a86a7645
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512045"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655744"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Søge efter sider og oplysninger med Fortæl mig  
 I dette emne beskrives det, hvordan Fortæl mig kan hjælpe dig med hurtigt se komme til f.eks. handlinger, sider eller rapporter, finde oplysninger om, hvordan du udfører en bestemt opgave og finder flere apps og konsulenttjenester til [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -33,6 +33,8 @@ Nederst i vinduet **Fortæl mig** findes handlingen **udforskning**, som åbner 
 
 > [!NOTE]  
 >   Hvis du vil bruge tastaturet, kan du bruge tabulatortasten og piletasterne til at vælge et element i resultaterne. Hvis du trykker på Enter-tasten på tastaturet uden at vælge et resultat, åbner [!INCLUDE[prod_short](includes/prod_short.md)] det resultat, der står først på listen.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ### <a name="finding-an-action-on-the-current-page"></a>Finde en handling på den aktuelle side
 I sektionen **På den aktuelle side** kan du finde og udføre handlinger på den side, der er åben. Hvis f.eks. siden **Salgstilbud** er åben, og du skriver "debitor", indeholder sektionen en handling, der åbner debitorkortet for den debitor, der er valgt i salgstilbuddet.

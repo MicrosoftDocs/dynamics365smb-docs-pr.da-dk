@@ -6,21 +6,23 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 0f5910932e0a6bccaf31629fc182e5c451ec9f43
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2eaec73818a437e0ebc729612de063b19a074561
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516506"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655053"
 ---
 # <a name="work-with-prod_short"></a>Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Når du udfører de opgaver, interagerer du med data på forskellige måder, f.eks. når du opretter poster og indtaster data, sorterer og filtrerer data, skriver noter og skriver data til andre programmer.
 
 Du kan f.eks. justere størrelsen og placeringen af en side, udvide bredden af kolonner og øge højden på kolonneoverskrifter og ændre sorteringen af data i kolonner. Og hvis du vil bruge et vandret rullepanel til at få vist alle kolonner på en listeside eller på dokumentlinjer, er der en lodret låst rude, der sikrer, at visse kolonner ikke kan rulles.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Tip
 

@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9018
+ms.search.form: 9020, 9022, 9027, 9024
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f8cfbef682b2a039c5a52483a09380452fba4b9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 47cd78dc6f706407a0be9814e170054b95e4403d
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513597"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655043"
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunktioner
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder dedikerede funktioner til almindelige virksomhedsområder som f.eks. finans og salg. Du kan finde flere oplysninger i [Forretningsfunktioner](across-business-functionality.md).
@@ -24,6 +24,8 @@ For at understøtte dine daglige opgaver kan du bruge en række generelle forret
 
 > [!NOTE]
 > Ud over brugergrænsefladens forretningsrelaterede funktioner, der er beskrevet i dette afsnit, kan du dagligt bruge generelle funktioner, når du arbejder i systemet. Du kan finde flere oplysninger i [Arbejde med Business Central](ui-work-product.md).
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 I følgende tabel vises disse generelle forretningsområder med links til emner, hvor de er beskrevet.
 

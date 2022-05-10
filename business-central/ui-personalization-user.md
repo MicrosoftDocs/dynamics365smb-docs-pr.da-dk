@@ -7,22 +7,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a862cb514145d50d1a86816bbd3758055b41a872
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8ab57ff6e28abf3a40b9507375d33ffb4f1f33a3
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512728"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655484"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse dit arbejdsområde
-Du kan tilpasse dit arbejdsområde, så det passer til dit arbejde og dine præferencer ved at ændre sidernes layout, så de kun viser de oplysninger, du har brug for, hvor du har brug for det. De tilpasningsændringer, du foretager, påvirker kun det, du ser, ikke hvad andre brugere ser.
 
-Du kan tilpasse alle typer sider, herunder siden Rollecenter. Du kan finde flere oplysninger om rollecentre i [Rollecenter](ui-change-basic-settings.md#role-center).
+Du kan tilpasse dit arbejdsområde, så det passer til dit arbejde og dine præferencer. Ændr sider, så der kun vises de oplysninger, du skal bruge, hvis du har brug for det. De tilpasningsændringer, du foretager, påvirker kun det, *du* ser, ikke hvad andre brugere kan se.
 
-Afhængigt af sidens type og det siden indeholder, kan du udføre forskellige ændringer som at flytte eller skjule felter, kolonner, handlinger, hele dele og tilføje nye felter. De fleste tilpasninger skal foretages ved først at aktivere banneret **Tilpas**, men meget enkle justeringer, f.eks. af kolonnebredden, kan udføres med det samme på enhver liste.
+Du kan tilpasse alle typer sider, herunder siden Rollecenter. Du kan finde flere oplysninger om rollecentre i [Rollecenter](ui-change-basic-settings.md#role-center).  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+
+Du kan udføre forskellige ændringer som at flytte eller skjule felter, kolonner, handlinger, hele dele og tilføje nye felter. De fleste tilpasninger skal foretages ved først at aktivere det **personlige** banner. Du kan foretage simple justeringer, f. eks. kolonnebredden, med det samme på en vilkårlig liste.
 
 > [!NOTE]
 > Administratorer kan udføre samme layoutændringer, efterhånden som brugerne kan tilpasse arbejdsområdet til en profil, som tildeles til flere brugere. Du kan finde flere oplysninger i [Tilpasse sider til roller](ui-personalization-manage.md).<br /><br />
@@ -34,13 +37,16 @@ I følgende video vises nogle metoder til at tilpasse dit rollecenter.
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
 ## <a name="to-change-the-width-of-a-column"></a>Sådan ændres kolonnebredden
-Du kan nemt ændre kolonnestørrelsen i en liste ved at trække i kanten mellem to kolonner mod venstre eller højre.
+
+Du kan nemt ændre kolonnestørrelsen på en vilkårlig liste. Træk blot i kanten mellem to kolonner mod venstre eller højre.  
+
 1. Markér og træk i kanten mellem to kolonner i oversigtshovedet.
-2. Du kan også dobbeltklikke på kanten mellem to kolonner for automatisk at tilpasse kolonnebredden. Dette indstiller bredden til den optimale læsestørrelse.
+2. Du kan også dobbeltklikke på kanten mellem to kolonner for automatisk at tilpasse kolonnebredden. Bredden justeres til den optimale læsestørrelse.
 
 Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden, på din konto og vises, uanset hvilken enhed du logger på.
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Du kan begynde at tilpasse en side via banneret **Tilpasning**
+
 1. Åbn en side, du vil tilpasse.
 2. I øverste højre hjørne vælges ![Indstillinger.](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") ikon, og derefter handlingen **Tilpas**.
 
@@ -49,7 +55,7 @@ Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden,
     > [!NOTE]
     > Hvis du vil navigere under tilpasningen, skal du bruge Ctrl + klikke på en handling, hvis den er fremhævet af pilespidsen.
 
-    Hvis du får vist ![Tilpasning låst](media/personalization-lock-icon.png "Tilpasning låst") eller ![Tilpasning spærret](media/personalization-blocked-icon.png "Tilpasning blokeret") på banneret, kan du ikke tilpasse siden. Du kan finde flere detaljer i [Hvorfor er en side låst mod tilpasning](ui-personalization-locked.md).
+    Hvis du får vist ![Tilpasning låst](media/personalization-lock-icon.png "Tilpasning låst") eller ![Tilpasning spærret](media/personalization-blocked-icon.png "Tilpasning blokeret") på banneret, kan du ikke tilpasse siden. Du kan finde flere oplysninger i [Hvorfor er en side låst mod tilpasning](ui-personalization-locked.md).
 
 3. Hvis du vil tilføje et felt, skal du vælge handlingen **+ Felt**.
 4. Træk og slip et felt på den ønskede placering på siden i sideruden **Føj felt til side**.
@@ -71,7 +77,7 @@ Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden,
 |Spring et felt over, når du trykker på Enter.|Vælg pilespidsen ved siden af feltet eller kolonneoverskriften på en liste, og vælg **Udeluk fra genvej**. <br /><br /> Hvis du ikke kan se denne indstilling, er det allerede angivet, at feltet skal springes over. I det tilfælde skal du stoppe med at springe feltet over og vælge **Medtag i genvej**. |Se [Fremskynde dataindtastning ved hjælp af genveje](ui-enter-data.md#QuickEntry)|
 |Omarrangere og fjerne visninger, der repræsenterer filtrerede lister.|Vælg pilespidsen ud for en visning, og vælg derefter **Flyt**, **Fjern** eller **Skjul**.|Se [Gemme og tilpasse listevisninger](ui-views.md)|  
 |Føje en ny handling til en side eller en rapport i dit rollecenter.|Vælg bogmærkeikonet på rapportanmodningssiden eller i vinduet Fortæl mig på målsiden.|Se [Bogmærke en side eller en rapport i rollecenteret](ui-bookmarks.md)|
-|Starte altid en liste som udvidet eller skjult|Vælg knappen Udvid alle eller Skjul alle øverst til venstre på listen, eller vælg funktionen Udvid alle eller Skjul alle i menuen til den første kolonne. |Gælder for hierarkilister, der kan skjules|
+|Starte altid en liste som udvidet eller skjult|Vælg **Udvid alle** eller **Skjul alle** i øverste venstre hjørne. Du kan også vælge funktionen **Udvid alle** eller **Skjul alle** i menuen til den første kolonne. |Gælder for hierarkilister, der kan skjules|
 
 ## <a name="personalizing-actions"></a><a name="Actions"></a>Tilpasning af handlinger
 
@@ -79,7 +85,7 @@ Tilpasning gør det muligt at bestemme, hvilke handlinger der skal vises på nav
 
 Der er et par ord, du skal kende for at få en bedre forståelse af handlingstilpasning: *handlingsgruppe* og *fremhævet kategori*.  
 
-En *handlingsgruppe* er et element, som kan vise andre handlinger eller grupper, når det udvides. For eksempel på siden **Salgsordrer** er den **Funktioner**-handling, der vises, når du vælger handlingen **Handlinger** en handlingsgruppe.
+En *handlingsgruppe* er et element, som kan vise andre handlinger eller grupper, når det udvides. For eksempel på siden **Salgsordrer** vises handlingsgruppen **Funktioner**-handlingen, når du vælger **Handlinger**.
 
 En *fremhævet kategori* er en handlingsgruppe, der vises foran den lodrette linje `|` på handlingslinjen. Kategorierne omfatter typisk de mest almindeligt anvendte handlinger, så du hurtigt kan finde dem. For eksempel er handlingerne **Ordre**, **Frigivelse** og **Bogføring** på siden **Salgsordrer** fremhævede kategorier.
 
@@ -87,7 +93,9 @@ En *fremhævet kategori* er en handlingsgruppe, der vises foran den lodrette lin
 > Du kan ikke tilpasse handlingslinjen, der vises i dele på siden (f.eks. salgslinjedelen på siden **Salgsordre**).
 
 ### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>Sådan fjernes, skjules og vises handlinger og handlingsgrupper
-Når du vil vise eller skjule en handling, definerer indstillingerne under pilespidsen, hvad du kan gøre, afhængigt af handlingstilstanden.
+
+Når du vil vise eller skjule en handling, definerer indstillingerne under pilespidsen, hvad du kan gøre, afhængigt af handlingstilstanden. 
+
 1. Vælge pilespidsen for en handling eller en handlingsgruppe.
 2. Vælg en af følgende indstillinger:
 
@@ -98,6 +106,7 @@ Når du vil vise eller skjule en handling, definerer indstillingerne under piles
 |**Vis**|Denne indstilling vises, hvis handlingen eller handlingsgruppen tidligere har været skjult (nedtonet). Vælges denne indstilling, vises handlingen eller handlingsgruppen på navigations- eller handlingslinjen.|
 
 ### <a name="to-move-actions-and-action-groups"></a>Sådan flyttes handlinger og handlingsgrupper
+
 Hvor du kan slippe handlinger eller handlingsgrupper, er angivet af en vandret linje mellem to handlinger eller en kant omkring en handlingsgruppe. Der findes følgende begrænsninger:
 
 - Du kan flytte enkelte handlinger til de fremhævede kategorier, men du kan ikke ændre rækkefølgen af handlinger i kategorien.
@@ -106,10 +115,9 @@ Hvor du kan slippe handlinger eller handlingsgrupper, er angivet af en vandret l
 1. Hvis du vil flytte en handling eller handlingsgruppe, skal du trække og slippe den på den ønskede placering på samme måde som med feltet og kolonner.
 2. Hvis du vil flytte en handling eller handlingsgruppe til en anden handlingsgruppe, der er tom, skal du trække handlingen eller handlingsgruppen og slippe den i feltet **Slip en handling her**.
 
-
 ## <a name="personalizing-parts"></a><a name="Parts"></a>Tilpasning af dele
 
-Dele er områder på en side, der typisk består af flere felter, diagrammer eller andet indhold, og som kan identificeres med en farvet ramme, når der sættes fokus på delen. Et rollecenters startskærm har f.eks. flere dele. På grund af den veldefinerede grænse kan du tilpasse hele delen og dens indhold.
+Dele er områder på en side, der typisk består af flere felter, diagrammer eller andet indhold. En del vises med en farvet ramme, når du fokuserer på delen. Et rollecenters startskærm har f.eks. flere dele. På grund af den veldefinerede grænse kan du tilpasse hele delen og dens indhold.
 
 - Træk og slip en del til den ønskede placering for at flytte den. En farvet linje angiver gyldige placeringer på skærmen. Faktabokse kan f.eks. kun flyttes til siden af andre faktabokse i faktaboksruden.
 - Du kan skjule en del ved at vælge indstillingen **Skjul** under pilespidsen.
@@ -117,21 +125,24 @@ Dele er områder på en side, der typisk består af flere felter, diagrammer ell
 
 Du kan fjerne alle de tilpasningsændringer, du har foretaget i en enkelt del, ved at vælge indstillingen **Fjern tilpasning** under delens pilespids. Hvis du fjerner markering af en del, påvirker det kun, om en del er ændret, ikke placeringen eller synligheden af delen på siden.  
 
-
 ## <a name="to-clear-personalization"></a>Sådan fjernes tilpasning
 På et tidspunkt ønsker du måske at fjerne nogle eller alle de tilpasningsændringer, du har foretaget på en side i tidens løb.
 
 1. Vælg handlingen **Fjern tilpasning** på banneret **Tilpas**.
-2. Vælg en af følgende indstillinger. Vær opmærksom på, at fjernelse af tilpasning ikke kan fortrydes.
+2. Vælg en af følgende indstillinger.  
+
+> [!CAUTION]
+> Fjernelse af tilpasning ikke kan fortrydes.
 
 |Indstilling|Det gør den|
 |------|------------
-|**Kun menuen Navigation**|Fjerner alle tilpasningsændringer, du har foretaget i navigationsmenuen, som er delt på tværs af rollecenteret og andre sider. Dette omfatter alle nye handlinger, der er tilføjet som bogmærker, og eventuelle ændringer af links og grupper i menuen.|  
+|**Kun menuen Navigation**|Fjerner alle tilpasningsændringer, du har foretaget i navigationsmenuen, som er delt på tværs af rollecenteret og andre sider. Sådanne ændringer omfatter alle nye handlinger, der er tilføjet som bogmærker, og eventuelle ændringer af links og grupper i menuen.|  
 |**Kun handlinger**|Fjerner alle de tilpasningsændringer, du nogensinde har foretaget på navigations- eller handlingslinjerne på siden.|
-|**Kun felter, kolonner og dele**|Fjerner alle de tilpasningsændringer, du nogensinde har foretaget for siden undtagen dem på navigations- eller handlingslinjen. Dette omfatter ændringer af felter, kolonner, dele og fliser. |
-|**Alle**|Fjerner alle de tilpasningsændringer, du har foretaget på siden, så siden får sit oprindelige udseende. Dette omfatter ændringer af navigations- og handlingslinjer, felter, kolonner, dele og fliser.|
+|**Kun felter, kolonner og dele**|Fjerner alle de tilpasningsændringer, du nogensinde har foretaget for siden undtagen ændringer på navigations- eller handlingslinjen. Sådanne ændringer omfatter ændringer af felter, kolonner, dele og fliser. |
+|**Alle**|Fjerner alle de tilpasningsændringer, du har foretaget på siden, så siden får sit oprindelige udseende. Sådanne ændringer omfatter ændringer af navigations- og handlingslinjer, felter, kolonner, dele og fliser.|
 
-## <a name="additional-points-of-interest"></a>Flere punkter af særlig interesse
+## <a name="other-points-of-interest"></a>Andre punkter af særlig interesse
+
 Her er nogle forslag, der kan hjælpe dig med at opnå en bedre forståelse.
 
 - Når du ændrer en kortside, som du åbner fra en liste, træder ændringerne træde i kraft på alle poster, der åbnes fra denne liste. Lad os antage, at du åbner en bestemt kunde fra listen Debitorer og derefter tilpasser siden ved at tilføje et felt. Når du åbner andre debitorer på listen, vises det felt, du har tilføjet, også.

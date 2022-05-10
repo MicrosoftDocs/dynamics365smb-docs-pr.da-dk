@@ -7,31 +7,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.search.form: 9901, 9018, 9020, 9022, 9027
+ms.search.form: 9901
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 912309636020923e522ea3060abf814c179dcbb1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 02493bee3940bf1416c2485b0b45016edbca9baa
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521380"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655172"
 ---
-# <a name="exporting-your-business-data-to-excel"></a>Eksportere forretningsdata til Excel
-Hvis du vil arbejde med dine data fra [!INCLUDE[prod_short](includes/prod_short.md)] i Excel, kan du åbne alle lister i Excel og arbejde med dem der. På samme måde, hvis du vil annullere dit abonnement på [!INCLUDE[prod_short](includes/prod_short.md)], kan du eksportere dataene til Excel, så du kan tage dem med dig.
+# <a name="export-your-business-data-to-excel"></a>Eksportere Business-data til Excel
+
+Excel er et effektivt værktøj til at arbejde med data. Du kan åbne alle lister i Excel fra [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan endda ændre data i Excel og derefter sende dem tilbage til [!INCLUDE [prod_short](includes/prod_short.md)]. Med denne funktion kan du let tage data med dig, hvis du beslutter dig for at opsige dit abonnement.
 
 ## <a name="opening-lists-in-excel"></a>Åbne lister i Excel
+
 Du kan åbne data i Excel fra enhver kladde, liste eller regneark. Du skal bare åbne den ønskede side og derefter vælge **Åbn i Excel**. Du kan f.eks. åbne listen over debitorer (søg efter **Debitorer**) og derefter klikke på **Åbn i Excel**. Din du bliver bedt om at åbne eller gemme den oprettede Excel-projektmappe.  
 
 > [!NOTE]
 > Brug denne indstilling, når du ikke vil foretage ændringer og publicere dem tilbage til [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Hver liste indeholder et antal kolonner, og eksporten til Excel medtager alle de kolonner, der er i den aktuelle visning. Hvis du vil tilføje eller fjerne kolonner, før du åbner listen i Excel, kan du åbne genvejsmenuen for en kolonne og derefter angive, hvilke kolonner der skal vises. Listen over kolonner er forskellig for de fleste lister, og den afspejler strukturen i den database, hvor dine data er gemt. Hvis du ikke er sikker på, hvilken type data en bestemt kolonne indeholder, kan du føje den til visningen og derefter beslutte, om du vil fjerne den igen.  
+Hver liste indeholder nogle kolonner. Eksporter til Excel indeholder alle kolonner, som findes i den aktuelle visning. Du kan ændre kolonnerne ved at åbne genvejsmenuen for en vilkårlig kolonne og derefter angive, hvilke kolonner du vil have vist. Listen over kolonner adskiller sig fra de fleste lister. Kolonnerne afspejler strukturen i den database, der indeholder dine data. Hvis du ikke er sikker på, hvilken type data en bestemt kolonne indeholder, kan du tilføje den i visningen. Du kan altid fjerne den igen.  
 
 ### <a name="edit-data-in-excel"></a>Redigere data i Excel
+
 Din [!INCLUDE[prod_short](includes/prod_short.md)]-oplevelse omfatter et tilføjelsesprogram til Excel, så du kan redigere data i Excel. Du kan finde flere oplysninger i [Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="exporting-data-to-other-finance-systems"></a>Eksportere data til andre økonomisystemer
+
 Hvis du beslutter at annullere dit abonnement på [!INCLUDE[prod_short](includes/prod_short.md)], kan du eksportere dine data til Excel og tage dem med dig til dit næste økonomisystem.  
 
 Du kan eksportere alle sider, men det kan være mere, end du reelt har brug for. Derfor bør du overveje at eksportere følgende vigtige sider og huske at tilføje alle kolonner som tidligere beskrevet:  
@@ -68,8 +72,9 @@ Det anbefales, at du også overvejer at eksportere data fra følgende sider:
 
 > [!NOTE]
 > Du skal have mindst én af følgende tilladelser for at kunne åbne eller redigere data i Excel:
->    - Tilladelsessæt *D365 Excel-eksporthandling*  
->    - Systemtilladelse 6110 *Tillad handlingen Eksporter til Excel*.  
+>
+> * Tilladelsessæt *D365 Excel-eksporthandling*  
+> * Systemtilladelse 6110 *Tillad handlingen Eksporter til Excel*.  
 
 Du kan finde flere oplysninger i [Sådan får du vist en oversigt over en brugers rettigheder](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 

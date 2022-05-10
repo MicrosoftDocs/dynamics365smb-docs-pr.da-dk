@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
-ms.date: 08/13/2021
+ms.search.form: 1831, 1832
+ms.date: 04/27/2022
 ms.author: jswymer
-ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a2c0754aed38d80fc4a088ab7dccec81cb0141e0
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518333"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654910"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Få Business Central-tilføjelsesprogram til Outlook
 
@@ -42,6 +42,9 @@ Tilføjelsesprogrammet Business Central til Outlook består af to mindre tilføj
 Du kan finde flere oplysninger om, hvad du gør med tilføjelsesprogrammerne, i [Brug Business Central som indbakke i Outlook](work-outlook-addin.md).
 
 Hvert tilføjelsesprogrammet findes som en XML-fil, der kaldes et *manifest*, som skal installeres i Outlook af alle, som vil have denne funktionalitet. Disse filer beskriver, hvordan du aktiverer tilføjelsesprogrammer og opretter forbindelse til Business central, når de bruges i Outlook. En administrator kan typisk arbejde med disse filer. Som normalt behøver du ikke at håndtere filerne direkte i de fleste tilfælde. Administratoren indstiller enten tilføjelsesprogrammet til at blive installeret automatisk, eller du skal bruge den indbyggede assisterede opsætning til at håndtere installationen.
+
+> [!IMPORTANT]
+> Arbejde med forskellige miljøer? Tilføjelsesprogrammet Business Central til Outlook er beregnet til at fungere sammen med et enkelt Business Central-miljø. Når tilføjelsesprogrammet er installeret, er navnet på miljøet medtaget i tilføjelsesprogrammets manifest. Denne konfiguration betyder, at tilføjelsesprogrammet kun vil oprette forbindelse til det miljø, hvor det blev installeret. Hvis du vil bruge tilføjelsesprogrammet sammen med et andet miljø, skal du åbne miljøet og installere tilføjelsesprogrammet igen.
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Installere tilføjelsesprogrammet ved hjælp af centraliseret installation som administrator
 
