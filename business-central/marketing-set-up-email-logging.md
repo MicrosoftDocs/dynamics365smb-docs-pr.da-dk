@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 03/22/2022
 ms.search.form: 1680, 1811, 5076
 ms.author: bholtorf
-ms.openlocfilehash: fc755362a5b29cca9eb8e8e403374e173cff3630
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e14e3b353cd06d348de36c23caa4bcfb1981a6e5
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516131"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729933"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spore udveksling af mails mellem sælgere og kontakter
 Få mere ud af kommunikationen mellem sælgerne og kunder ved at omdanne udveksling af mails til handlingsrettede salgsmuligheder. [!INCLUDE[prod_short](includes/prod_short.md)] kan bruges sammen med Exchange Online til at føre en log over indgående og udgående meddelelser. Du kan få vist og analysere indholdet af hver meddelelse på siden **Interaktionslogposter**.
@@ -67,7 +67,7 @@ Regler for e-mailflow undersøger, om der er specifikke betingelser for meddelel
 
 ---
 
-## <a name="setting-up-prod_short-to-log-email-messages"></a>Oprette [!INCLUDE[prod_short](includes/prod_short.md)] til logføring af mails
+## <a name="set-up-prod_short-to-log-email-messages"></a>Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til logføring af mails
 Disse trin er de samme for både aktuelle og nye erfaringer.
 
 Introduktion til maillogføring i to lette trin:
@@ -89,14 +89,27 @@ Introduktion til maillogføring i to lette trin:
 - Få vist indholdet af den mail, der blev udvekslet, ved at vælge **Behandle** og derefter **Vis vedhæftede filer**.
 - Omdanne en e-mailudveksling til en salgsmulighed. Hvis en post ser lovende ud, kan du gøre den til en lead og derefter styre forløbet hen imod et salg. Hvis du vil aktivere en e-mail-udveksling til en salgsmulighed, skal du vælge posten, derefter **Behandle** og derefter **Opret en salgsmulighed**. Du kan finde flere oplysninger i [Administrere salgsleads](marketing-manage-sales-opportunities.md).
 
-## <a name="connecting-on-premises-versions-to-microsoft-exchange"></a>Tilslutning af lokale versioner til Microsoft Exchange
+## <a name="mailbox-and-folder-limits-in-exchange-online"></a>Postkasse og mappegrænser i Exchange Online
+Der findes postkasse- og mappe grænser i Exchange Online, f. eks. grænser for mappestørrelser og antallet af meddelelser. Du kan finde flere oplysninger i [Exchange Online-grænser](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits) og [Grænser for offentlige mapper i Exchange Server](/Exchange/collaboration/public-folders/limits?view=exchserver-2019).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] gemmer registrerede e-mails i en mappe i Exchange Online. [!INCLUDE[prod_short](includes/prod_short.md)] gemmer også et hyperlink til hver enkelt registreret meddelelse. Hyperlinks åbner de registrerede meddelelser i Exchange Online fra interaktionslogposter, kontaktkort og sælgerkort i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis en registreret meddelelse flyttes til en anden mappe, vil kæden være brudt. Du kan f. eks. flytte en meddelelse manuelt eller Exchange Online starter evt. automatisk opsplitning, når du har nået en lagergrænse.
+
+Følgende trin kan være en hjælp til at undgå, at du bryder om meddelelser i Exchange Online.
+
+1. Flyt ikke eksisterende meddelelser til en anden mappe, når du har ændret indstillingerne for opsætningen af e-mail-logføringen. Hvis du beholder eksisterende meddelelser, bliver hyperlinkene bevaret. Links til meddelelser i den nye mappe vil være gyldige.
+2. Undgå at få adgang til postkasse-og mappe grænserne. Hvis du er ved at nå en grænse, skal du gøre følgende:
+    1. Oprette en ny delt postkasse (ny oplevelse) eller en ny delt mappe (Aktuel oplevelse) i Exchange Online.
+    2. Opdater dine e-mail-flow regler i Exchange Online.
+    3. Opdater din opsætning af e-mail-logføring i Business Central
+
+## <a name="connect-on-premises-versions-to-microsoft-exchange"></a>Tilslutn lokale versioner til Microsoft Exchange
 
 Du kan oprette forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange on-premises eller Exchange Online til e-maillogføring. For begge versioner af Exchange er indstillingerne for forbindelsen tilgængelige på siden **Marketingopsætning**. I Exchange Online kan du også bruge en assisteret installationsvejledning.
 
 > [!IMPORTANT]
 > Den nye oplevelse understøtter ikke en forbindelse til Exchange on-premises. Hvis du skal bruge Exchange på stedet, skal du ikke aktivere funktions opdateringen til den nye oplevelse.
 
-## <a name="connecting-to-exchange-on-premises"></a>Oprettelse af forbindelse til On-premises
+## <a name="connect-to-exchange-on-premises"></a>Opret forbindelse til On-premises
 ## <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience)
 Hvis du vil tilslutte [!INCLUDE[prod_short](includes/prod_short.md)] on-premises til Exchange on-premises på siden **Marketingopsætning** kan du bruge **Basis** som **Godkendelsestype** og derefter angive legitimationsoplysninger til brugerkontoen for Exchange on-premises. Aktiver derefter **Aktiveret** til/fra for at starte logføring af e-mails.
 
@@ -105,7 +118,7 @@ Den nye oplevelse understøtter ikke forbindelser til Exchange on-premises.
 
 ---
 
-## <a name="connecting-to-exchange-online"></a>Forbindelse til Exchange Online
+## <a name="connect-to-exchange-online"></a>Opret forbindelse til Exchange Online
 Hvis du vil oprette forbindelse til Exchange Online, skal du registrere et program i Azure Active Directory. Angiv program-id, key vault-hemmeligheden og omdirigere den URL-adresse, der skal bruges til registrering. URL-adressen til omdirigering er forudindstillet og bør fungere for de fleste installationer. Du kan finde flere oplysninger i [Sådan registreres et program i Azure AD for at oprette forbindelse fra Business Central til Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
 
 Du skal også bruge **OAuth2** som **Godkendelsestype**. Du skal også registrere et program i Azure Active Directory. Angiv program-id, key vault-hemmeligheden og omdirigere den URL-adresse, der skal bruges til registrering. URL-adressen til omdirigering er forudindstillet og bør fungere for de fleste installationer. Du kan finde flere oplysninger i Sådan registreres et program i Azure AD for at oprette forbindelse fra Business Central til Exchange Online herunder.
@@ -214,6 +227,8 @@ Deaktiver den aktuelle opsætning, Skift brugeren på siden **E-mail-logføring*
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **E-mail-logføring**, og vælg derefter det relaterede link. 
 2. Vælg **Handlinger**, og derefter **Forny token**.
 3. Log på med Exchange Online-kontoen, som det planlagte job kan anvende kontoen til at oprette forbindelse til den delte postkasse og behandle mails.
+
+
 
 ## <a name="see-also"></a>Se også
 [Styre relationer](marketing-relationship-management.md)

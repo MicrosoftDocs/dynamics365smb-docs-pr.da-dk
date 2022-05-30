@@ -7,18 +7,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: ''
-ms.date: 03/02/2022
+ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: 6c94b71a774d0dc27827203732b7aa88c16af487
-ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
+ms.openlocfilehash: 81876ddb68b2625fda37a4f6ef925f7fb6bb151f
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372098"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729875"
 ---
 # <a name="vat-vies-reporting-in-the-danish-version"></a>Momslisterapportering i den danske version
 
 Danske virksomheder skal angive moms af handel med varer eller tjenesteydelser med andre EU-lande/områder. Du kan oprette den ønskede fil ved hjælp af kørslen rapporten **Oversigt over EU-salg**.  
+
+## <a name="set-up-vat-registration-numbers"></a>Konfigurere Momsregistreringsnumre
+
+Hvis du vil rapportere momsangivelser korrekt, skal du angive et almindeligt momsregistreringsnummer i feltet **Momsregistreringsnummer** på kortene **Debitor** og **Kreditor**. Det betyder, at du ikke kan tilføje landekoder eller andre genveje, da momsregistreringsrapporten kræver almindeligt momsnummer for klienter. Den er forskelligt for Intrastat, så du kan konfigurere præcis, hvordan momsregistreringsnumre skal oprettes til Intrastat på siden **Intrastat, Opsætning**. Du kan finde flere oplysninger i [Konfigurere momsregistreringsnummer for Intrastat](vat-registration-no-intrastat.md).  
 
 ## <a name="reporting-eu-sales"></a>Rapportering af salg til EU
 

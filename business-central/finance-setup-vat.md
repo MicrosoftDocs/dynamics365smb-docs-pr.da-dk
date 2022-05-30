@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 03/04/2022
+ms.date: 04/12/2022
 ms.author: bholtorf
-ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519221"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740307"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Konfigurere beregnings- og bogføringsmetoder for moms
 
@@ -219,12 +219,21 @@ Du skal angive oplysninger om, hvordan skattemyndighederne i dit land kræver, a
 ## <a name="see-also"></a>Se også
 
 [Konfigurere momsangivelsestyper og momsangivelsesnavne](finance-how-setup-vat-statement.md)  
-[Opsætning af ikke-realiseret moms](finance-setup-unrealized-vat.md)  
+[Konfigurere ikke-realiseret moms](finance-setup-unrealized-vat.md)  
 [Rapportere moms til skattemyndighederne](finance-how-report-vat.md)  
 [Arbejde med moms af salg og køb](finance-work-with-vat.md)  
 [Arbejde med Momssatsændringsværktøj](finance-how-use-vat-rate-change-tool.md)  
 [Kontrollere SE/CVR-numre](finance-how-validate-vat-registration-number.md)  
 [Lokal funktionalitet i Business Central](about-localization.md)  
+[Momslisterapportering i den tyske version](LocalFunctionality/Germany/vat-reporting.md)  
+[Belgisk moms](LocalFunctionality/Belgium/belgian-vat.md)  
+[Italiensk moms](LocalFunctionality/Italy/italian-vat.md)  
+[Oprette elektroniske moms-og ICP-opgørelser i den hollandske version](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)  
+[Momslisterapportering i den spanske version](LocalFunctionality/Spain/vat-reports.md)  
+[Konfigurere momsbogføring af varer og ydelser i den australske version](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)  
+[Moms i den tjekkiske version](LocalFunctionality/Czech/finance-vat.md)  
+[Momsindberetning i den norske version](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
+[Rapportering af vare- og tjenestemoms og harmoniseret salgsmoms i Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

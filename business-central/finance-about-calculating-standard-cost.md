@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: cdb1ff4581e8e2b79f9e2dd015426ee9719e38e6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c7be7f69c2b5d2c71b54ac3046900474e0c86f5f
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149149"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729907"
 ---
 # <a name="about-calculating-standard-cost"></a>Om beregning af standardomkostning
 Mange produktionsvirksomheder vælger en værdiansættelse for standardkostpriser. Dette gælder også for virksomheder, der udfører let produktion som montage og kitting. Et system til standardkostpriser bestemmer lagerkostprisen på basis af nogle rimelige historiske eller forventede omkostninger. Undersøgelser af tidligere og fremtidige omkostningsdata kan derefter danne grundlag for standardkostpriser. Standardkostpriserne er fastfrosne, indtil der træffes en beslutning om, at de skal ændres. De faktiske omkostninger til at fremstille et produkt kan afvige fra de forventede standardomkostninger. Af hensyn til styringen sammenlignes den faktiske kostpris med standardkostprisen for en bestemt vare, og forskellene, eller *afvigelser*, identificeres og analyseres.  
@@ -78,7 +78,7 @@ Hvis du vil beregne standardkapacitetsomkostningerne, skal du etablere de standa
 Du opretter satserne for hver tidstype for hver maskine eller hvert arbejdscenter på en individuel rute.  
 
 > [!NOTE]  
->  Mens timesatserne for kørsel gælder pr. fremstillet vare, gælder timesatserne for opstilling pr. lot. Derfor skal rutens opstillingstid for hver operation fordeles over lotstørrelsen. Du skal angive lotstørrelsen i det tilsvarende felt i oversigtspanelet **Bestilling** på varekortet.  
+>  Mens timesatserne for kørsel gælder pr. fremstillet vare, gælder timesatserne for opstilling pr. lot. Derfor skal rutens opstillingstid for hver operation fordeles over lotstørrelsen. Du skal angive lotstørrelsen i det tilsvarende felt i oversigtspanelet **Genbestilling** på siden **Varekort**.  
 
 Hvis du vil angive opstillingstiden på ruten af hensyn til planlægningen, men ikke vil medtage denne omkostning i standardkostprisberegningen, skal du fjerne markeringen i feltet **Kostpris inkl. opstilling** på siden **Produktionsopsætning**.  
 

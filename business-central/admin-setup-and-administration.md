@@ -9,23 +9,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: b7a20d6f116a383332b5daab6aa059839f608276
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4995a1776beacd444912124da5e9e6315f6a22f8
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521172"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740201"
 ---
-# <a name="administration"></a>Opsætning
+# <a name="administration-tasks"></a>Administrationsopgaver
 
 Centrale administrationsopgaver udføres som regel af én rolle i firmaet. Omfanget af disse opgaver kan afhænge af firmaets størrelse og administratorens jobansvar. Disse opgaver kan omfatte styring af databasesynkronisering af job og e-mail-køer, oprettelse af brugere og tilpasning af brugergrænsefladen.  
 
 Det er vigtigt, at der indtastes korrekte opsætningsværdier fra starten, for at ny forretningssoftware kan fungere effektivt. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en række opsætningsvejledninger, som hjælper dig med opsætningen af basisoplysninger. Du kan finde flere oplysninger i [Konfigurere Business Central](setup.md).
 
 > [!NOTE]
-> Du kan oprette en ny virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)] med RapidStart Services, som er et værktøj, der er udviklet til at afkorte installationstiden, forbedre implementeringens kvalitet, introducere en tilgang til implementeringer, der kan gentages, og forbedre produktiviteten ved at automatisere og forenkle tilbagevendende opgaver. Du kan finde flere oplysninger i [Oprette en virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> Du kan bruge dataoverførselsværktøjerne til at overflytte eksisterende data til [!INCLUDE [prod_short](includes/prod_short.md)] online. Du kan oprette en ny virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)] med konfigurationspakker, der afkorter installationstiden, forbedrer implementeringens kvalitet, introducerer en tilgang til implementeringer, der kan gentages, og forbedrer produktiviteten ved at automatisere og forenkle tilbagevendende opgaver. Du kan finde flere oplysninger i [Overførsel af lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data).
 
-Uanset om du bruger RapidStart Services til at implementere opsætningsværdier, eller du angiver dem manuelt i den nye virksomhed, kan du basere dine opsætningsbeslutninger på generelle anbefalinger for udvalgte opsætningsfelter, der erfaringsmæssigt kan gøre løsningen ineffektiv, hvis de defineres forkert.  
+Du kan understøtte dine opsætningsbeslutninger med anbefalinger for udvalgte konfigurationsfelter, der er kendt for potentielt at gøre løsning ineffektiv, hvis de opsættes forkert.  
 
 Superbruger eller administrator kan konfigurere Data Exchange Framework så brugere kan eksportere og importere data i bank og løn filer, f.eks. til forskellige likviditetsstyringsprocesser. Du kan finde flere oplysninger i [Udveksle data elektronisk](across-data-exchange.md).
 
@@ -40,15 +40,15 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 |Opsættelse af printere og angivelse af, hvilke rapporter der skal udskrives på hvilke printere.|[Installation af printere](ui-specify-printer-selection-reports.md)|
 |Klassificere datafølsomheder for felter så du kan svare på anmodninger fra dataemner vedrørende deres personlige oplysninger.|[Klassificere datafølsomhed](admin-classifying-data-sensitivity.md)|
 |Svare på anmodninger fra dataemner vedrørende deres personlige oplysninger.|[Svare på anmodninger om personlige oplysninger](admin-responding-to-requests-about-personal-data.md)|
-|Oprette en ny koncernvirksomhed ved hjælp af skabeloner|[Oprettelse af nye virksomheder](about-new-company.md)|
+|Oprette en ny koncernvirksomhed ved hjælp af skabeloner|[Opret nye virksomheder](about-new-company.md)|
 |Spore alle de direkte modifikationer, som brugere foretager af data i databasen for at identificere oprindelsen til fejl og dataændringer.|[Logføre ændringer](across-log-changes.md)|  
 |Angive engangsanmodninger eller gentagne anmodninger om at køre rapporter eller kodeenheder.|[Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)|  
-|Administrere, slette eller komprimere dokumenter|[Slette dokumenter](admin-manage-documents.md)|  
+|Administrere, slette eller komprimere dokumenter|[Slet dokumenter](admin-manage-documents.md)|  
 |Vis sider, kodeenheder og forespørgsler som webtjenester.|[Udgive en webtjeneste](across-how-publish-web-service.md)|
-|Som en del af oprettelsen af Connect Apps mellem [!INCLUDE[prod_short](includes/prod_short.md)] og tredjepartsløsninger via REST API'erne skal du definere skabeloner, der bruges til at udfylde tomme egenskaber for en enhed, når du opretter en BOGF-handling via et API.|[Konfiguration af API-skabeloner](admin-configuring-api-template.md)|
-|Krypter data på [!INCLUDE[prod_short](includes/prod_short.md)] Server ved at oprette nye eller importere eksisterende krypteringsnøgler, som du aktiverer på serveren.|[Administration af datakryptering](admin-manage-data-encryption.md)|
+|Som en del af oprettelsen af Connect Apps mellem [!INCLUDE[prod_short](includes/prod_short.md)] og tredjepartsløsninger via REST API'erne skal du definere skabeloner, der bruges til at udfylde tomme egenskaber for en enhed, når du opretter en BOGF-handling via et API.|[Konfigurere API-skabeloner](admin-configuring-api-template.md)|
+|Krypter data på [!INCLUDE[prod_short](includes/prod_short.md)] Server ved at oprette nye eller importere eksisterende krypteringsnøgler, som du aktiverer på serveren.|[Administrere datakryptering](admin-manage-data-encryption.md)|
 |Opret forbindelse fra Dynamics 365 Sales til [!INCLUDE[prod_short](includes/prod_short.md)] for at opnå problemfri integration mellem debitorrelationer og ordrebehandling i lead-til-kontant-processen.|[Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
-|Ændre, hvilke felter og handlinger der vises i brugergrænsefladen, så det passer til virksomhedens forretningsprocesser, og så løsningen kan udvides med apps.|[Tilpasning [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
+|Ændre, hvilke felter og handlinger der vises i brugergrænsefladen, så det passer til virksomhedens forretningsprocesser, og så løsningen kan udvides med apps.|[Tilpas [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
 
 ## <a name="administration-in-the-admin-center"></a>Administration i administrationscenteret
 
@@ -58,7 +58,7 @@ Interne og uddelegerede administratorer har adgang til [!INCLUDE [prod_short](in
 |------------|-------------|
 |Få mere at vide om de værktøjer, du kan bruge til fejlfinding.|[Teknisk support](/dynamics365/business-central/dev-itpro/technical-support)|
 |Overvåge brug og foretage fejlfinding af sessioner|[Miljøtelemetri i Business Central Administration](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
-|Administrere brugersessioner, herunder annullering af en session, hvis brugeren er spærret.|[Administration af sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|
+|Administrere brugersessioner, herunder annullering af en session, hvis brugeren er spærret.|[Administrere sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|
 |Konfigurere lejeren til at sende telemetridata til Azure Application Insights for at opnå bedre analyse og fejlfinding.|[Aktivere afsendelse af telemetri til Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)

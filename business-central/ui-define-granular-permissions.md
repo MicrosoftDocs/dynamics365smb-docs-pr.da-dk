@@ -1,36 +1,40 @@
 ---
 title: Definere granulerede tilladelser
-description: Dette emne beskriver, hvordan du definerer granulerede tilladelser, så bestemte brugere får adgang til objekter og tildeler dem tilladelsessæt.
+description: Denne artikel beskriver, hvordan du definerer granularitet-tilladelser og tildeler hver enkelt bruger de tilladelsessæt, som de skal bruge for at udføre deres arbejde.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 1, 119, 8930, 9807, 9808, 9830, 9831
-ms.date: 03/24/2022
+ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831
+ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: ca0373fc55fb14d43dae9ce5bc51c0063c88a2af
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 26dbf7e47c0159429aebd34e9167d9c3e7490ec6
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522508"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729823"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tildele rettigheder til brugere og grupper
 
-Administratorer bruger [!INCLUDE[prod_short](includes/prod_short.md)]-sikkerhedssystemet til at styre, hvilke objekter en bruger kan få adgang til inden for hver database eller hvert miljø, sammen med de licenser, der er tildelt. Du kan angive for hver bruger, om de kan læse, ændre eller indtaste data i de valgte databaseobjekter. Du kan finde flere oplysninger ved at se [Datasikkerhed](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i indholdet til udviklere og it-eksperter for [!INCLUDE[prod_short](includes/prod_short.md)]
+[!INCLUDE[prod_short](includes/prod_short.md)]-sikkerhedssystemet kontrollerer, hvilke objekter en bruger kan få adgang til inden for hver database eller hvert miljø, sammen med brugerens licens. Du kan angive for hver bruger, om de kan læse, ændre eller indtaste data i de valgte databaseobjekter. Du kan finde flere oplysninger ved at se [Datasikkerhed](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i indholdet til udviklere og it-eksperter for [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Før du tildeler rettigheder til brugere og brugergrupper, skal du definere, hvem der kan logge på, ved at oprette brugere ifølge licensen, som det er defineret i Microsoft 365 Administration. Du kan finde flere oplysninger i [Oprette brugere i henhold til licenser](ui-how-users-permissions.md).
+Før du tildeler rettigheder til brugere og brugergrupper, skal du definere, hvem der kan logge på, ved at oprette brugere ifølge deres licens. Du kan finde flere oplysninger i [Oprette brugere i henhold til licenser](ui-how-users-permissions.md).
 
 I [!INCLUDE[prod_short](includes/prod_short.md)]er der to niveauer af rettigheder til databaseobjekter:
 
 - Overordnede rettigheder ifølge licensen, også kaldet berettigelser.
 
   Licenserne omfatter standardtilladelsessæt. Fra og med 2022 udgivelsesbølge 1 kan administratorer tilpasse disse standardtilladelser til de relevante licenstyper. Du kan finde flere oplysninger i [konfigurere tilladelser på baggrund af licenser](ui-how-users-permissions.md#licensespermissions).  
+
 - Mere detaljerede rettigheder, der er tildelt i [!INCLUDE[prod_short](includes/prod_short.md)].
 
   Denne artikel beskriver, hvordan du kan definere, bruge og anvende tilladelser i [!INCLUDE [prod_short](includes/prod_short.md)] til at ændre standardkonfigurationen.  
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]  
+Du kan finde flere oplysninger i [Delegeret administratoradgang til Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] online indeholder standardbrugergrupper, der automatisk tildeles til brugere baseret på deres licens. Du kan ændre standardkonfigurationen ved at ændre eller tilføje brugergrupper, tilladelsessæt og tilladelser. I følgende tabel beskrives nøgle scenarier, der bruges til at ændre standardtilladelserne.  
 
@@ -54,7 +58,7 @@ Brugergrupper hjælper dig med at administrere tilladelsessæt på tværs af vir
 
 Du starter med at oprette en brugergruppe. Derefter kan du tildele et rettighedssæt til gruppen for at definere, hvilket objekt brugere af gruppen har adgang til. Når du føjer en bruger til gruppen, gælder de rettighedssæt, der er defineret for gruppen, for brugeren.
 
-Rettighedssæt, der er tildelt til en bruger via en brugergruppe, forbliver synkroniserede, så en ændring af brugergruppens rettigheder overføres automatisk til brugeren. Hvis du fjerner en bruger fra en brugergruppe, tilbagekaldes de involverede rettigheder automatisk.
+Tilladelsessæt, der er tildelt en bruger via en brugergruppe, forbliver synkroniseret. En ændring af brugergruppens rettigheder overføres automatisk til brugerne. Hvis du fjerner en bruger fra en brugergruppe, tilbagekaldes de involverede rettigheder automatisk.
 
 ### <a name="to-add-users-to-a-user-group"></a>Sådan føjes brugere til en brugergruppe
 
@@ -94,16 +98,16 @@ Følgende procedure beskriver, hvordan du tildeler rettighedssæt til en brugerg
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugere**, og vælg derefter det relaterede link.
 2. På siden **Brugere** skal du vælge den relevante bruger og derefter vælge handlingen **Rettighedssæt efter brugergruppe**.
-3. På siden **Rettighedssæt efter brugergruppe** skal du markere afkrydsningsfeltet **[brugergruppenavn]** på en linje for det relevante rettighedssæt for at tildele sættet til brugergruppen.
+3. På siden **Rettighedssæt efter brugergruppe** skal du markere feltet **[brugergruppenavn]** på en linje for det relevante rettighedssæt for at tildele sættet til brugergruppen.
 4. Marker afkrydsningsfeltet **Alle brugergrupper** for at tildele rettighedssættet til alle brugergrupper.
 
 Du kan også tildele rettighedssæt direkte til brugere.
 
 ## <a name="to-assign-permission-sets-to-users"></a>Sådan tildeles rettighedssæt til brugere
 
-Et rettighedssæt er en samling rettigheder til bestemte databaseobjekter. Alle brugere skal være tildelt et eller flere rettighedssæt, før de kan få adgang til [!INCLUDE[prod_short](includes/prod_short.md)]. 
+Et rettighedssæt er en samling rettigheder til bestemte databaseobjekter. Alle brugere skal være tildelt et eller flere rettighedssæt, før de kan få adgang til [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-En [!INCLUDE[prod_short](includes/prod_short.md)]-løsning indeholder typisk et antal foruddefinerede rettighedssæt, der er tilføjet af Microsoft eller din løsningsudbyder. Du kan også tilføje nye rettighedssæt, der er skræddersyet til at opfylde din organisations behov. Du kan finde flere oplysninger i afsnittet [Sådan oprettes eller redigeres et rettighedssæt](#to-create-or-modify-a-permission-set).
+En [!INCLUDE[prod_short](includes/prod_short.md)]-løsning indeholder et antal foruddefinerede rettighedssæt, der er tilføjet af Microsoft eller din løsningsudbyder. Du kan også tilføje nye rettighedssæt, der er skræddersyet til at opfylde din organisations behov. Du kan finde flere oplysninger i afsnittet [Sådan oprettes eller redigeres et rettighedssæt](#to-create-or-modify-a-permission-set).
 
 > [!NOTE]
 > Hvis du ikke vil begrænse en brugers adgang mere, end det allerede er defineret af licensen, kan du tildele et særligt rettighedssæt, der kaldes SUPER, til brugeren. Dette rettighedssæt sikrer, at brugeren kan få adgang til alle de objekter, der er angivet i licensen.
@@ -186,19 +190,22 @@ Du kan også bruge en kopieringsfunktion til hurtigt at overføre alle rettighed
 
 1. På siden **Rettighedssæt** skal du vælge linjen for et bestemt rettighedssæt, som du vil kopiere, og vælg derefter handlingen **Kopiér rettighedssæt**.
 2. På siden **Kopiér rettighedssæt** skal du angive navnet på det nye rettighedssæt og derefter vælge knappen **OK**.
-3. Marker afkrydsningsfeltet **Informer i tilfælde af ændret rettighedssæt**, hvis du vil bevare en forbindelse mellem de oprindelige og de kopierede rettighedssæt. Forbindelsen bruges derefter til at give dig besked, hvis navnet eller indholdet af det oprindelige rettighedssæt ændres i en fremtidig version, som løsningen opgraderes til senere.
+3. Marker afkrydsningsfeltet **Informer i tilfælde af ændret rettighedssæt**, hvis du vil bevare en forbindelse mellem de oprindelige og de kopierede rettighedssæt. På den måde får du besked, hvis navnet eller indholdet af det oprindelige tilladelsessæt ændres i en fremtidig version.
 
-Det nye rettighedssæt, der indeholder alle rettigheder for det kopierede rettighedssæt, tilføjes som en ny linje på siden **Rettighedssæt**. Du kan nu ændre rettigheden i det nye rettighedssæt. Bemærk, at linjerne sorteres alfabetisk inden for hver type.
+Det nye rettighedssæt, der indeholder alle rettigheder for det kopierede rettighedssæt, tilføjes som en ny linje på siden **Rettighedssæt**. Du kan nu ændre rettigheden i det nye rettighedssæt. 
+
+> [!TIP]
+> Linjerne sorteres alfabetisk inden for hver type.
 
 ### <a name="to-export-and-import-a-permission-set"></a>Sådan eksporteres og importeres et tilladelsessæt
 
 Hvis du hurtigt vil oprette tilladelser, kan du importere tilladelsessæt, som du har eksporteret fra en anden [!INCLUDE[prod_short](includes/prod_short.md)]-lejer.
 
-I miljøer med flere lejere indlæses et tilladelsessæt i en bestemt lejer, dvs. omfanget af importen er "lejer".
+I miljøer med flere lejere importeres et tilladelsessæt i en bestemt lejer. Det vil sige, at importomfanget er *Leje*.
 
 1. I lejer 1 på siden **Rettighedssæt** skal du vælge linjen eller de linjer til rettighedssættene, der skal eksporteres, og derefter vælge handlingen **Eksportér rettighedssæt**.
 
-    En XML-fil oprettes i mappen Overførsler på din computer. Som standard hedder filen "Export Permission Sets.xml"
+    En XML-fil oprettes i mappen Overførsler på din computer. Som standard hedder filen *Export Permission Sets.xml*.
 
 2. I lejer 2 på siden **Rettighedssæt** skal du vælge handlingen **Importer rettighedssæt**.
 3. På dialogsiden **Importer rettighedssæt** skal du overveje, om du vil flette eksisterende rettighedssæt med nye rettighedssæt i XML-filen.
@@ -207,7 +214,7 @@ I miljøer med flere lejere indlæses et tilladelsessæt i en bestemt lejer, dvs
 
     Hvis du ikke markerer afkrydsningsfeltet **Opdater eksisterende tilladelser**, springes rettighedssæt med samme navn som dem i XML-filen over, når der importeres. Hvis det er tilfældet, vil du få besked om, hvilke rettighedssæt der springes over.
 
-4. På dialogsiden **Import** skal du finde og vælge den .xml-fil, der skal importeres, og derefter vælge handlingen **Åbn**.
+4. På dialogsiden **Import** skal du finde og vælge den XML-fil, der skal importeres, og derefter vælge handlingen **Åbn**.
 
 Rettighedssættene importeres.
 
@@ -227,7 +234,7 @@ I hvert af felterne for de fem adgangstyper **Læserettighed**, **Indsætteretti
 |------|-----------|-------|
 |**Ja**|Brugeren kan udføre handlingen på det pågældende objekt.|Højeste|
 |**Indirekte**|Brugeren kan udføre handlingen på det pågældende objekt, men kun via et relateret objekt, som brugeren har fuld adgang til. Du kan finde flere oplysninger om indirekte rettigheder [Rettighedsegenskab](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) i hjælpen til udviklere og it-eksperter|Næsthøjeste|
-|**Tomt**|Brugeren kan ikke udføre handlingen på det pågældende objekt.|Laveste|
+|**Tomt**|Brugeren kan udføre handlingen på det pågældende objekt.|Laveste|
 
 > [!IMPORTANT]
 > Vær forsigtig, når du tilknytter **Indsæt tilladelse** eller **Ret tilladelse** til tabellen **9001-brugergruppemedlem** eller **9003-brugergruppetilladelsessæt**. Alle brugere, der har fået tildelt et tilladelsessæt, kan tildele sig selv til andre brugergrupper, som igen kan give dem uønskede rettigheder.
@@ -235,7 +242,7 @@ I hvert af felterne for de fem adgangstyper **Læserettighed**, **Indsætteretti
 ### <a name="example---indirect-permission"></a>Eksempel - indirekte rettighed
 
 Du kan tildele en indirekte rettighed for kun at bruge et objekt gennem et andet objekt.
-En bruger kan f.eks. have tilladelse til at køre codeunit 80, salg-post Codeunit Salgs-post udfører mange opgaver, herunder ændring af tabel 37, Salgslinje. Når brugeren bogfører et salgsdokument, codeunit Salgs-post, kontrollerer [!INCLUDE[prod_short](includes/prod_short.md)], om brugeren har rettighed til at ændre tabellen Salgslinje. Hvis ikke, kan codeunit'en ikke udføre sine opgaver, og brugeren får en fejlmeddelelse. I så fald kører codeunit'en korrekt.
+En bruger kan f.eks. have tilladelse til at køre codeunit 80, salg-post Codeunit Salgs-post udfører mange opgaver, herunder ændring af tabel 37, Salgslinje. Når brugeren bogfører et salgsdokument, codeunit Salgs-post, kontrollerer [!INCLUDE[prod_short](includes/prod_short.md)], om brugeren har rettighed til at ændre tabellen Salgslinje. Hvis ikke, kan codeunit ikke udføre sine opgaver, og brugeren får en fejlmeddelelse. I så fald kører codeunit'en korrekt.
 
 Men brugeren behøver ikke at have fuld adgang til tabellen Salgslinje for at køre codeunit'en. Hvis brugeren har indirekte rettighed til tabellen Salgslinje, kører codeunit'en Salgs-post korrekt. Når en bruger har indirekte rettighed, kan brugeren kun redigere tabellen Salgslinje ved at køre codeunit'en salgs-post eller et andet objekt, der har rettighed til at ændre tabellen Salgslinje. Brugeren kan kun redigere tabellen Salgslinje, når det sker fra understøttede funktionalitetsområder. Brugeren kan ikke køre funktionen ved et uheld eller skadeligt ved andre metoder.
 
@@ -261,19 +268,23 @@ Men brugeren behøver ikke at have fuld adgang til tabellen Salgslinje for at k�
 
 ## <a name="to-set-up-user-time-constraints"></a>Sådan opsættes tidsbegrænsninger for brugere
 
-Administratorer kan definere perioder, hvor angivne brugere kan bogføre, og de kan også angive, om systemet skal registrere, hvor lang tid brugerne er logget på. Administratorer kan også knytte ansvarscentre til brugere. Du kan finde flere oplysninger i [Arbejde med ansvarscentre](inventory-responsibility-centers.md).
+Administratorer kan angive perioder, hvor angivne brugere kan bogføre. Administratorer kan også angive, om systemet skal logge af, hvor lang tid brugere er logget på. Administratorer kan også knytte ansvarscentre til brugere. Du kan finde flere oplysninger i [Arbejde med ansvarscentre](inventory-responsibility-centers.md).
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugeropsætning**, og vælg derefter det relaterede link.
 2. Når siden **Brugeropsætning** åbnes, skal du vælge handlingen **Ny**.
 3. I feltet **Bruger-ID** skal du angive ID'et for en bruger, eller vælge feltet for at få vist alle aktuelle Windows-brugere i systemet.
 4. Udfyld felterne efter behov.
 
-## <a name="viewing-permission-changes-telemetry"></a>Få vist ændringer af telemetri 
+## <a name="viewing-permission-changes-telemetry"></a>Få vist ændringer af telemetri
 
-Du kan oprette [!INCLUDE[prod_short](includes/prod_short.md)] for at sende ændringer, der er udført for at få tilladelse til en Application Insights-ressource i Microsoft Azure. Derefter kan du bruge Azure Monitor til at oprette rapporter og konfigurere påmindelser i de indsamlede data. Du kan finde flere oplysninger i følgende artikler i [!INCLUDE[prod_short](includes/prod_short.md)] hjælp til udviklere og it-eksperter:
+Du kan oprette [!INCLUDE[prod_short](includes/prod_short.md)] for at sende ændringer, der er udført for at få tilladelse til en Application Insights-ressource i Microsoft Azure. Derefter kan du bruge Azure Monitor til at oprette rapporter og konfigurere påmindelser i de indsamlede data. Du kan finde flere oplysninger i følgende artikler i [!INCLUDE[prod_short](includes/prod_short.md)]-hjælp til udviklere og it-eksperter:
 
 - [Overvåge og analysere telemetri - aktivere Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Analysere feltovervågningstelemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
+
+## <a name="delegated-admin-users"></a>Opsætning af administratorbrugere
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
 
 ## <a name="see-also"></a>Se også
 

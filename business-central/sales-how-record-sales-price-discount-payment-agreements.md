@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 67536b129986343d67c2bc52cc3db8450e177d67
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5ff042e1dec609b568c36967f56a8cd3673b9558
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520149"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729837"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrere specialsalgspriser og -rabatter
 > [!NOTE]
@@ -95,7 +95,14 @@ Når du aktiverer funktionsopdateringen **Ny salgsprisoplevelse** på siden **Fu
 > [!NOTE]
 > Hvis der kun er angivet priser på vare-eller ressourcekort, vil standard prislisterne ikke blive udfyldt med disse priser under dataopdateringen. Du kan dog åbne en af standard prislisterne eller siden pris kladde og bruge handlingen **Foreslå linjer** til at tilføje de priser, der er angivet på vare-eller ressourcekortene. 
 
-* Hvis du vil bruge salgspris lister, skal du slå den fra. Eksisterende priser vil blive konverteret til en ny prisliste for hver kombination af debitor, debitorgruppe eller kampagne samt start- og slutdatoer og valutaer. Hvis du har mange kombinationer, har du mange prislister.
+* Hvis du vil bruge salgspris lister, skal du slå den fra. Eksisterende priser konverteres til en ny prisliste for hver af følgende kombinationer af følgende: 
+
+* Kunde (Debitor)
+* Debitorgruppe eller kampagne
+* Start-og slutdatoer
+* Valutaer 
+
+Hvis du har mange kombinationer, har du mange prislister.
 
 Hvis du allerede har aktiveret den nye prissætningsoplevelse, kan du oprette prislister manuelt eller angive en eksisterende prisliste som standard. Hvis du vil angive en eksisterende prisliste som standard, skal du aktivere funktionen **Tillad opdatering af standarder** på prislisten. Standardprislisterne angives på siderne **Konfiguration af salgsopsætning**, **Konfiguration af købsopsætning** eller **Sagsopsætning**.
 
@@ -129,13 +136,14 @@ Hvis du vil kopiere en salgspris, f.eks. en individuel kundes salgspriser til br
    > Kørslen betyder kun, at der udformes forslag, ikke, at ændringerne bliver gennemført. Hvis du er tilfreds med forslagene, og du vil implementere dem, dvs. indsætte dem på siden **Salgspriser**, skal du vælge handlingen **Implementer prisændringer** på siden **Salgspriskladde**.
 
 #### <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience/)  
+Du kan angive, om den nye prisliste skal bruge indstillingerne fra hovedet på den liste, du kopierer, eller indstillingerne fra den nye liste, du vil kopiere til. Hvis du vil bruge indstillingerne fra den prisliste, du kopierer priser til, skal du aktivere funktionen **Brug standarder fra destination** til/fra.
 
 1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsprislister**, og vælg derefter det relaterede link. 
 2. Vælg den prisliste, du vil kopiere, og vælg derefter **Kopier linjer**.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
    > [!NOTE]
-   > Du kan ikke have to linjer, der har samme indstillinger, men forskellige priser. Hvis det sker, vises en meddelelse, når du aktiverer en prisliste. Du kan vælge den pris, der skal bruges, ved at åbne listen og slette den forkerte pris.  
+   > Du kan ikke have to linjer, der har samme indstillinger, men forskellige priser. Hvis det sker, vises en meddelelse, når du aktiverer prislisten. Du kan vælge den pris, der skal bruges, ved at åbne listen og slette den forkerte pris.  
   
 ---
 
@@ -146,8 +154,8 @@ Disse trin varierer, afhængigt af, om din administrator har slået funktionsopd
 
 Hvis du vil masseopdatere varepriser, f.eks. forøge alle varepriser med en procentsats, skal du udfylde Salgspriskladde ved at bruge følgende batchjobs:
 
-* **Foreslå salgspris på kladde** Foreslå ændringer ved at anvende en justeringsfaktor på eksisterende salgspriser eller ved at kopiere eksisterende salgsprisaftaler til andre debitorer, debitorprisgrupper eller salgskampagner.
-* **Foreslå varepris på kladde** Foreslå ændringer ved at anvende en justeringsfaktor på eksisterende salgspriser på varekortet eller ved at foreslå priser på nye kombinationer af valuta, enheder osv. Salgsprisen på varer ændres ikke af denne kørsel.  
+* **Foreslå salgspris på kladde** foreslår ændringer på en af to måder. Enten ved at anvende en justeringsfaktor på eksisterende salgspriser eller ved at kopiere eksisterende salgsprisaftaler til andre debitorer, debitorprisgrupper eller salgskampagner.
+* **Foreslå varepris på kladde** foreslår ændringer på en af to måder. Eller ved at anvende en justeringsfaktor på eksisterende salgspriser på varekortet eller ved at foreslå priser på nye kombinationer af valuta, enheder osv. Salgsprisen på varer ændres ikke af denne kørsel.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgspriskladde**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Foreslå varepris på kladde** .  
@@ -168,7 +176,7 @@ Hvis du vil opdatere priser for flere varer, skal du oprette en ny prisliste og 
 ---
 
 ## <a name="best-price-calculation"></a>Beregning af bedste pris
-Når du har registreret specialpriser og linjerabatter for salg og køb, sikrer [!INCLUDE[d365fin](includes/d365fin_md.md)], at dine overskud altid er optimale. Den bedste pris på salgs-og varekladdelinjer beregnes.
+Når du har oprettet special postpriser og linjerabatter for salg og køb, beregner [!INCLUDE[d365fin](includes/d365fin_md.md)] den bedste pris på salgs-og købsdokumenter og på sags-og varekladdelinjer.
 
 Den bedste pris er den lavest tilladte pris med den størst tilladte linjerabat på en givet dato. [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner bedste priser, når enhedsprisen og linjerabatprocenten for varer indsættes på nye dokument- og kladdelinjer.
 
@@ -199,7 +207,7 @@ Du skal angive nogle oplysninger, før du kan bruge fakturarabatter i forbindels
 
 Hvis dine fakturarabatter skal beregnes automatisk, kan du angive dette på siden **Salgsopsætning**, aktivere til/fra-funktionen **Beregn fakturarabat**.  
 
-For hver debitor kan du angive, om du vil tilbyde fakturarabatter, når en faktura opfylder visse kriterier. F. eks. hvis fakturabeløbet er stort nok. Fakturarabatter kan være i lokal valuta for indenlandske debitorer eller i udenlandsk valuta for udenlandske debitorer.  
+Du kan angive, om du vil tilbyde fakturarabatter, når en faktura opfylder visse kriterier for hver debitor. F. eks. hvis fakturabeløbet er stort nok. Fakturarabatter kan være i lokal valuta for indenlandske debitorer eller i udenlandsk valuta for udenlandske debitorer.  
 
 Du kan knytte rabatter til bestemte fakturabeløb på siderne **Deb./fakt.-rabatter**. Du kan angive et vilkårligt antal procenter. Hver debitor kan have sin egen side, eller du kan sammenkæde flere debitorer på den samme side.  
 
@@ -224,7 +232,7 @@ Disse trin varierer, afhængigt af, om din administrator har slået funktionsopd
 3. Udfyld felterne på linjen efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Udfyld en linje for hver kombination, som yder en salgslinjerabat til kunden.
 
 > [!Note]
-> Når du åbner siderne **Salgspriser** og **Salgslinjerabatter** fra en bestemt kunde, er felterne **Salgstypefilter** og **Salgskodefilter** angivet for debitoren og kan ikke ændres eller fjernes.
+> Når du åbner siderne **Salgspriser** og **Salgslinjerabatter** fra en bestemt kunde, er felterne **Salgstypefilter** og **Salgskodefilter** er angivet for debitoren og kan ikke ændres eller fjernes.
 >
 > Hvis du vil oprette priser eller linjerabatter for alle debitorer, en debitorprisgruppe eller en kampagne, skal du åbne siderne fra et varekort. Du kan alternativt bruge siden **Salgspriskladde** til salgspriser. Du kan finde flere oplysninger [Sådan masseopdateres varepriser](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 

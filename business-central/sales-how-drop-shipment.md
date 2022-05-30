@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ca22eaadb8ba4054ce22782881b487cab6bd5c4
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bc6530a17e98d36a3f26e68e6231306aebfdda1d
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521776"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729771"
 ---
 # <a name="make-drop-shipments"></a>Foretage direkte leveringer
 
@@ -30,13 +30,16 @@ Når en salgsordre er markeret til direkte levering, og du opretter en købsordr
 Hvis du vil forberede en direkte levering, skal du oprette en salgsordre for en vare og angive på salgslinjen, at salget kræver direkte levering.
 
 1. Opret en salgsordre for en vare. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).
-2. Markér afkrydsningsfeltet **Direkte levering** på salgsordrelinjen for den direkte levering. Brug funktionen **Vis kolonner**, hvis feltet ikke vises. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
+2. Markér afkrydsningsfeltet **Direkte levering** på salgsordrelinjen for den direkte levering. 
+
+> [!TIP]
+> Som standard er afkrydsningsfeltet direkte levering ikke tilgængeligt på linjerne. Hvis det ikke er tilfældet, kan du tilføje den ved at tilpasse den side sektion, der indeholder linjerne. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Sådan oprettes købsordren til direkte levering
 
 Hvis du vil forberede en direkte levering, skal du angive på købsordren, at den skal sendes til kunden og ikke til dig selv.
 
-1. Opret en indkøbsordre. Du skal ikke udfylde nogen felter på linjerne. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).
+1. Opret en indkøbsordre. Udfyld ikke felter på linjerne. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).
 2. Vælg **Debitoradresse** i feltet **Leveres til**.
 3. Vælg den kunde, du sælger til, i feltet **Debitor**.
 4. Vælg handlingen **Direkte leveringer**, og vælg derefter handlingen **Hent salgsordre**.
@@ -45,11 +48,15 @@ Hvis du vil forberede en direkte levering, skal du angive på købsordren, at de
 
 Linjeoplysningerne på salgsordren indsættes på købsordrelinjen(erne).
 
-Nu kan du bede leverandøren levere varerne til kunden, f.eks. ved at sende købsordren som en PDF. Hvis kreditoren angiver et sporingsnummer eller lignende oplysninger, kan du vælge at registrere disse oplysninger på en købsordrelinje af typen *bemærkning*.  
+Du kan nu fortælle din leverandør, at varerne leveres direkte til kunden. Du kan f. eks. sende dem som e-mail. 
+
+Hvis kreditoren angiver et sporingsnummer eller lignende oplysninger, kan du tilføje disse oplysninger på en købsordrelinje af typen *bemærkning*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Sådan oprettes flere købsordrer til direkte leveringer
 
-Du kan også bruge indkøbskladden til at oprette købsordren til kreditoren. Fordelen ved at bruge indkøbskladden er, at den kan oprette købsordrer til alle udestående direkte leveringer, så du ikke behøver at oprette dem en ad gangen.
+Du kan også bruge indkøbskladden til at oprette købsordren til kreditoren. 
+
+Fordelen ved at bruge indkøbskladden er, at den kan oprette købsordrer til alle udestående direkte leveringer, så du ikke behøver at oprette dem en ad gangen. Det betyder, at du ikke behøver at oprette dem hver for sig.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Indkøbskladder**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Direkte leveringer**, og vælg derefter handlingen **Hent salgsordre**.

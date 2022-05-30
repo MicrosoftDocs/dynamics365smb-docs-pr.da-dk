@@ -1,0 +1,65 @@
+---
+title: Fejlfinding af Shopify og Business Central-synkronisering
+description: Få mere at vide om, hvad du skal gøre, hvis noget er galt under synkronisering af data mellem Shopify Business Central
+ms.date: 05/16/2022
+ms.topic: article
+ms.service: dynamics365-business-central
+author: edupont04
+ms.author: andreipa
+ms.reviewer: solsen
+ms.openlocfilehash: 01ff5ab1c5e6f132098f914f6bfe97e097cc88b0
+ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.translationtype: HT
+ms.contentlocale: da-DK
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8768117"
+---
+# <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Fejlfinding af Shopify og Business Central-synkronisering
+
+Det er muligt at køre i situationer, hvor du skal foretage fejlfinding af problemer. Denne side definerer trin til fejlfinding i forbindelse med almindelige scenarier, der kan opstå.
+
+## <a name="logs"></a>Logfiler
+
+Hvis en synkroniseringsopgave mislykkes, kan du aktivere logføring ved at aktivere til/fra-feltet **Log aktiveret** i **Shopify-butikskortet**. Udløs synkroniseringsopgave, og gennemgå logfiler manuelt.
+
+1. Gå til søgning ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-logposter**, og vælg det relaterede link.
+2. Vælg den relaterede logpost, og åbn vinduet **Shopify-logpost**.
+3. Gennemsynsanmodning, statuskode og beskrivelse og svar.
+
+Husk at slå logføring fra for at undgå negativ påvirkning af ydeevnen og øge databasens størrelse.
+
+Fra vinduet **Shopify-logposter** kan du udløse sletning af alle logposter eller filer, der er ældre end syv dage.
+
+## <a name="data-capture"></a>Dataregistrering
+
+Uanset hvilken indstilling der er aktiveret for **Log aktiveret** vil nogle svar fra Shopify altid være logført, som du kan kontrollere eller hente i vinduet **Liste over registrerede data**.
+
+Vælg handlingen **Hentet Shopify-data** på en af følgende sider:
+
+- **Shopify-ordre**
+- **Shopify-ordreopfyldning**
+- **Shopify-ordreforsendelsesomkostninger**
+- **Shopify-ordretransaktioner**
+- **Shopify-udbetalinger**
+- **Shopify-betalingstransaktioner**
+- **Shopify-transaktioner**
+
+## <a name="reset-sync"></a>Nulstil synkronisering
+
+For at opnå optimal ydeevne importerer connectoren kun kunder, produkter og ordrer, der er oprettet eller ændret siden sidste synkronisering. På **Shopify-butikskortet** er der funktioner, der kan ændres seneste synkroniseringsdato/-tidspunkt eller helt nulstille. Denne funktion sikrer, at alle data synkroniseres og ikke kun ændringerne siden den seneste synkronisering, når synkroniseringen køres.
+
+Denne funktion gælder kun for synkroniseringer fra Shopify til [!INCLUDE[prod_short](../includes/prod_short.md)] og kan være nyttig, hvis du har brug for at gendanne slettede data, f. eks. produkter, kunder eller slettede ordrer.
+
+## <a name="update-the-access-token"></a>Opdatere adgangstoken
+
+Hvis [!INCLUDE[prod_short](../includes/prod_short.md)] ikke kan oprette forbindelse til din Shopify-konto, kan du prøve at nulstille dette adgangstoken.
+
+1. Gå til søgning søg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Butik**, og vælg det relevante link.
+2. Marker den butik, for hvilken du vil have adgangstoken til at åbne siden **Shopify-butikskort**.
+3. Angiv den første kode i feltet **Kode**.  
+4. Vælg handlingen **Anmod om adgang**.
+5. Hvis du bliver bedt om at logge på din Shopify-konto.
+
+## <a name="see-also"></a>Se også
+
+[Kom i gang med Connectoren til Shopify](get-started.md)  
