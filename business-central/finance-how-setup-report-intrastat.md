@@ -8,20 +8,26 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 01/28/2022
+ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: d5b1358166f8d26a62da79059a73948bcd7b9784
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 2ea3d93e1dac041848dc650fc8137e824e0fd4c2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740333"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799741"
 ---
 # <a name="set-up-and-report-intrastat"></a>Konfigurere og rapportere Intrastat
 
 Alle virksomheder i EU skal rapportere deres handel med andre EU-lande/områder. Du skal rapportere bevægelsen af varer til statistikmyndighederne i Danmark hver måned, og rapporten skal indleveres til skattemyndighederne. Dette omtales Intrastatrapportering. Du skal bruge siden **Intrastatkladde** til at udfærdige periodiske Intrastatrapporter.  
 
 ## <a name="required-and-optional-setups"></a>Krævede og valgfrie opsætninger
+
+> [!IMPORTANT]  
+> Debitorkort og kreditorkort indeholder et felt, **Intrastat-partnertype**, der har de samme indstillingsværdier som feltet **partnertype**-felt: *"" (tom)*, *firma* og *person*. Feltet **Intrastat-partnertype** har erstattet feltet **Partnertype** i Intrastat-rapportering. **Partnertype** bruges i SEPA til at definere TheSEPA Direct debet-skema (Core eller B2B). **Intrastat-partnertypen** bruges kun til Intrastat-rapportering. På den måde kan du give forskellige værdier til de to felter, hvis det er nødvendigt.
+> 
+> Bemærk dog, at hvis feltet **Intrastat-Partnertype** ikke er tomt, bruges værdien fra feltet **partnertype** til Intrastat-rapportering.
+
 Før du kan bruge Intrastatkladden til at rapportere Intrastatoplysninger, er der flere ting, du skal konfigurere:  
 
 * **Intrastat, Opsætning**: Siden Intrastat, Opsætning bruges til at aktivere Intrastat-rapportering og angive standarder for den. Du kan angive, om du vil rapportere Intrastat fra leverancer (udførsel), tilgange (modtagelser) eller begge afhængigt af de tærskelværdier, der er angivet af lokale regler. Du kan også angive standardtransaktionstyper for almindelige og returnerede dokumenter, der bruges til arten af transaktionsrapporteringen.
@@ -30,7 +36,7 @@ Før du kan bruge Intrastatkladden til at rapportere Intrastatoplysninger, er de
 * **Koder for transaktionsarter**: Lande og områder har forskellige koder for de typer Intrastattransaktioner, som almindeligt køb og salg, ombytning af returnerede varer og ombytning af ikke-returnerede varer. Oprette alle de koder, der gælder for dit land/område. Du kan bruge disse koder på oversigtspanelet **Udnerigshandel** på salgs- og købsdokumenter, og når du behandler returneringer. 
 
     > [!NOTE]
-    > Fra og med januar 2022 kræver Intrastat forskellig kode for transaktionsarten for afsendelser til private personer eller ikke-momsregistrerede virksomheder og registrerede virksomheder. For at efterkomme dette krav anbefales det, at du gennemgår og/eller tilføjer nye posterings natur koder på **posteringstyper**-siden i henhold til kravene i dit land. Du kan gennemse og opdatere **partnertype** for *person* for privatperson eller ikke-momsregistreret erhvervskunder på den relevante **kunde**-side. Hvis du ikke er sikker på den korrekte partnertype eller transaktionstype, anbefales det, at du spørger en ekspert i dit land eller område. 
+    > Fra og med januar 2022 kræver Intrastat forskellig kode for transaktionsarten for afsendelser til private personer eller ikke-momsregistrerede virksomheder og registrerede virksomheder. For at efterkomme dette krav anbefales det, at du gennemgår og/eller tilføjer nye posterings natur koder på **posteringstyper**-siden i henhold til kravene i dit land. Du kan også gennemse og opdatere **Intrastat partnertype** for *person* for privatperson eller ikke-momsregistreret erhvervskunder på den relevante **kunde**-side. Hvis du ikke er sikker på den korrekte intrastat-partnertype eller transaktionstype, anbefales det, at du spørger en ekspert i dit land eller område. 
  
 * **Transportmåder**: Der er syv encifrede koder til Intrastattransportmåder. **1** for vand, **2** for jernbane, **3** for vej, **4** for fly, **5** for bogføring, **7** for faste installationer og **9** for egen fremdrift (f.eks. transport af en bil ved at køre den). [!INCLUDE[prod_short](includes/prod_short.md)] kræver ikke disse koder, men det anbefales, at beskrivelserne indeholder den samme betydning.  
 * **Transaktionsspecifikationer**: Du kan bruge disse som supplement til beskrivelsen fra transaktionsarten.  
@@ -113,7 +119,7 @@ Når du har udfyldt Intrastatkladden, kan du køre handlingen **Intrastat - kont
 Kørslen henter alle vareposter i statistikperioden og indsætter dem som linjer i Intrastatkladden. Du kan redigere linjerne efter behov.  
 
 > [!IMPORTANT]  
-> Kørslen henter kun de poster, der indeholder en lande-/regionskode, der er angivet en Intrastatkode for, på siden **Lande/regioner**. Derfor skal du angive Intrastatkoder for den landekode, som du udfører kørslen for. Kørslen angiver feltet **partnermoms-id** til *QV 999999999999* for private personer eller ikke-momsregistrerede virksomheder (f. eks. med feltet **partnertype** sat til *person*), og det bruger værdien i feltet **Transaktionstype** i den bogførte varepost eller sagspost. 
+> Kørslen henter kun de poster, der indeholder en lande-/regionskode, der er angivet en Intrastatkode for, på siden **Lande/regioner**. Derfor skal du angive Intrastatkoder for den landekode, som du udfører kørslen for. Kørslen angiver feltet **partnermoms-id** til *QV 999999999999* for private personer eller ikke-momsregistrerede virksomheder (f. eks. med feltet **Intrastat-partnertype** sat til *person*), og det bruger værdien i feltet **Transaktionstype** i den bogførte varepost eller sagspost. 
 
 ### <a name="to-modify-intrastat-journals-lines"></a>Sådan ændres kladdelinjer i Intrastat-kladden
 
@@ -149,6 +155,9 @@ Du kan sende Intrastatrapporten som en fil. Før du opretter filen, kan du udskr
 5. Vælg knappen **OK** på kørselssiden.  
 6. Vælg **Gem**.  
 7. Gå til det sted, hvor du vil gemme filen, og angiv derefter filnavnet, og vælg **Gem**.
+
+> [!NOTE]
+> Når en linje i Intrastat-rapporten har en supplerende enhed, vises varens vægt ikke, da denne værdi ikke er nødvendig.
 
 ## <a name="reorganize-intrastat-journals"></a>Reorganisere Intrastatkladder
 

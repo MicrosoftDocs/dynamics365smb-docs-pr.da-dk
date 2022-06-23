@@ -1,20 +1,20 @@
 ---
 title: Hurtig reference til pc-tastaturgenveje
 description: Et udskriftsvenligt referenceark, der indeholder de mest populære tastaturgenveje for pc-brugere.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2021
-ms.author: bholtorf
-ms.openlocfilehash: 7496c21745e2a27271db8ccb37c9607040e5259b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 399dd54ea89937dc29def09831688642a9889742
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511593"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799529"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Hurtig reference til genveje - på pc'er
 
@@ -27,6 +27,7 @@ ms.locfileid: "8511593"
 |Alt+Skift+N|Lukke en nyoprettet post og åbne en ny|
 |Alt+O|Føje en ny note til den valgte post|
 |ALT + Q|Åbn **Fortæl mig**|
+|Ctrl+Alt+Q|Åbn **Find poster**|
 |Alt+Op|Åbn værktøjstip eller valideringsfejl|
 |Alt+Pil ned|Åbn en rullemenu eller et opslag|
 |Alt+T|Åbn siden **Mine indstillinger**|
@@ -34,9 +35,9 @@ ms.locfileid: "8511593"
 |Ctrl+Insert|Indsætte en ny linje i et dokument|
 |Ctrl-Delete|Slette linjen i et dokument, en kladde eller et regneark|
 |Ctrl+Skift+F12|Maksimere delen med linjevarer på en dokumentside|
-|Ctrl+F1|Åbn Hjælp til siden<br />Navigere under tilpasning|
+|Ctrl+F1|Åbner ruden hjælp eller en artikel i hjælp|
 |Ctrl+klik|Navigere under tilpasning|
-|Skift+F12|Åbn Rollestifinder, en funktionsoversigt|
+|Shift+F12|Åbn Rollestifinder, en funktionsoversigt|
 |F5/Ctrl+F5|Opdater/genindlæs side|
 |Tab/Skift+Tab|Flytte fokus til næste/forrige element|
 |F6/Shift+F6|Flyt til næste oversigtspanel/del|

@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 03/31/2022
+ms.date: 06/08/2022
 ms.author: jswymer
-ms.openlocfilehash: 8a2c342f31dc4c17bb34af22ffc912dcc51c5cf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 05ff8b9acb0c69f42c8ad36ab8a588c9b597424a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514409"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950432"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumkrav til brug af Business Central
 
@@ -22,17 +22,20 @@ Før du åbner [!INCLUDE[prod_short](includes/prod_short.md)] online, anbefales 
 
 ## <a name="browsers"></a>Webbrowsere
 
-**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] er udviklet til brug sammen med den aktuelle version af det nye Microsoft Edge.
+**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] er udviklet til brug med den aktuelle version af Microsoft Edge.
   
-**Chrome til Windows og Firefox til Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] er udviklet til brug med den aktuelle version af disse skrivebordsbrowsere. Business Central Desktop-app kan ikke anvendes med Firefox.
+**Chrome til Windows og Firefox til Windows:** [!INCLUDE[prod_short](includes/prod_short.md)] er udviklet til brug med den aktuelle version af disse skrivebordsbrowsere.
  
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] er udviklet til brug sammen med den aktuelle version af Safari til macOS.  
 
+> [!TIP]
+> Installer [!INCLUDE[prod_short](includes/prod_short.md)] [appen i menuen Start](install-desktop-app.md#install-the-app-for-business-central-online) ved hjælp af Microsoft Edge- eller Chrome-browsere.
+
 ## <a name="mobile-devices"></a>Mobilenheder
 
-**Android (tablet og telefon):** En af de seneste tre overordnede versioner og deres opdateringer.
+**Android (tablet og telefon):** En af de seneste tre overordnede operativsystemversioner og deres opdateringer.
 
-**iOS (iPad og iPhone):** En af de seneste tre overordnede versioner og deres opdateringer.
+**iOS (iPad og iPhone):** En af de seneste tre overordnede operativsystemversioner og deres opdateringer.
 
 ## <a name="outlook"></a>Outlook
 
@@ -53,6 +56,8 @@ Før du åbner [!INCLUDE[prod_short](includes/prod_short.md)] online, anbefales 
 
 **Platforme:** Når du bruger [!INCLUDE[prod_short](includes/prod_short.md)]-appen i Teams til iOS eller Android, kræver appen, at mobilenheden kører en af de anførte understøttede mobilplatforme, der er angivet tidligere i denne artikel.
 
+**Understøttet abonnement:** [!INCLUDE[prod_short](includes/prod_short.md)]-appen for Teams understøtter Microsoft 365-forretnings- og virksomhedsabonnementer, men ikke selvstændige Teams-abonnementer, f. eks Microsoft Teams (gratis) eller Microsoft Teams Essentials.
+
 ## <a name="excel"></a>Excel
 
 **Rediger i Excel:** Når du vil bruge Excel-tilføjelsesprogrammet til at foretage ændringer i Excel og overføre ændringer til [!INCLUDE[prod_short](includes/prod_short.md)], skal du bruge Excel 2019 eller nyere. Du kan finde flere oplysninger i [Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md).  
@@ -64,18 +69,22 @@ Før du åbner [!INCLUDE[prod_short](includes/prod_short.md)] online, anbefales 
 
 Administrationscenteret er designet til at fungere sammen med den aktuelle version af følgende browsere:
 
-- Det nye Microsoft Edge
+- Microsoft Edge
 - Chrome til Windows
 - Firefox til Windows
 - Safari til macOS
 
 ## <a name="use-business-central-on-premises"></a>Bruge Business Central lokalt
 
-Hvis du vil installere Business Central i det lokale miljø, skal du kontrollere systemkravene. Du kan finde flere oplysninger i [Systemkrav til Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18) og [Installationsoversigt](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+Hvis du vil installere Business Central i det lokale miljø, skal du kontrollere systemkravene. Du kan finde flere oplysninger i [Systemkrav til Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20) og [Installationsoversigt](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## <a name="see-also"></a>Se også
 
 [Blive køreklar](ui-get-ready-business.md)  
-[Systemkrav til Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18)  
+[Systemkrav til Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20)  
+[Hent Business Central Desktop App](install-desktop-app.md)  
+[Få Business Central på din mobilenhed](install-mobile-app.md)  
+[Administrere Business Interactions til Microsoft Outlook](admin-outlook.md)  
+[Business Central og Microsoft Teams-integration](across-teams-overview.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

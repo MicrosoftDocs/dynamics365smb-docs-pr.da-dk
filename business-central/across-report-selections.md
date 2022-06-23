@@ -7,18 +7,18 @@ ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
 ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 35cd5f86eeee3eecd24f63d37f8d43191dbd9be8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9106b1ac3f6b179e26c8dfb01212b88e92b694fe
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512448"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950195"
 ---
 # <a name="report-selection-in-business-central"></a>Rapportvalg i Business Central
 
-Du kan angive standardrapporter, der kan anvendes til at udskrive de forskellige dokumenter til salg og køb, f.eks. ordrer, tilbud, fakturaer og kreditnotaer. Hvis du f.eks. har et bestemt layout til salgsfakturaer, kan du angive den rapport i **Rapportvalg - salg**-siden, så de bruges til at sende eller udskrive salgsfakturaer.  
+Du kan oprette standardrapporter, der skal bruges til at udskrive dokumenter til salg og køb, f. eks. ordrer, tilbud og fakturaer. Hvis du f.eks. har et bestemt layout til salgsfakturaer, kan du angive den rapport i **Rapportvalg - salg**-siden, så de bruges til at sende eller udskrive salgsfakturaer.  
 
-På **Rapportvalg**-siderne kan du angive, hvilken rapport der skal udskrives i forskellige situationer. [!INCLUDE [prod_short](includes/prod_short.md)] indeholder standardkonfigurationer, men du kan selvfølgelig ændre disse standarder. Du kan også tilføje rapporter til **Rapportvalg**-siderne, hvis du f.eks. vil udskrive mere end en rapport pr.dokumenttype.  
+På **Rapportvalg**-siderne kan du angive, hvilken rapport der skal udskrives i forskellige situationer. [!INCLUDE [prod_short](includes/prod_short.md)] indeholder standardkonfigurationer, men du kan ændre dem efter behov. Du kan også tilføje rapporter til **Rapportvalg**-siderne, hvis du f.eks. vil udskrive mere end en rapport pr.dokumenttype.  
 
 ## <a name="available-report-selections"></a>Tilgængelige rapportvalg
 
@@ -27,7 +27,7 @@ På **Rapportvalg**-siderne kan du angive, hvilken rapport der skal udskrives i 
 |Område eller en opgave  |Lær mere|
 |--------------|----------|
 |Eksempel på, hvordan Rapportvalg fungerer (salg)|[Rapportvalg til salgsdokumenter](#example-report-selection-for-sales-documents)|
-|Standardlayout for e-mails med salgs-og købsdokumenter  |[Angiv genanvendelig e-mailtekst og layout til salgs-og købsdokumenter](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents) |
+|Standardlayout for e-mails med salgs-og købsdokumenter  |[Angiv genanvendelig e-mailtekst og layout til salgs-og købsdokumenter](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts) |
 |Definere checklayout     |[Vælge et checklayout](finance-how-define-check-layouts.md) |
 |Definere rapporter for momsrapportering (Tyskland)|[Konfigurere rapporter til moms og Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
@@ -51,19 +51,19 @@ Standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] inkluderer 
 
 [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-Visse dokumenttyper kan sendes som vedhæftede filer i e-mails, og andre kan ikke. Hver **Rapportvalg**-side viser yderligere felter, hvis typen understøtter e-mail fra kassen.  
+Visse dokumenttyper kan sendes som vedhæftede filer i e-mails, og andre kan ikke. Hvis en dokumenttype kan sendes via e-mail, indeholder siden **Rapportvalg** ekstra felter.  
 
 I **Rapportvalget-salg** og **Rapportvalg-køb**-sider kan du f.eks. oprette e-mail med følgende felter:
 
-|Feltnavn |Description  |
+|Feltnavn |Beskrivelse  |
 |-----------|-------------|
-|**Brug til brødtekst i mail**| Angiver, at opsummerede oplysninger, f.eks. fakturanummer, forfaldsdato og tilknytning til betalingstjeneste, indsættes i meddelelsesteksten på den mail, som du sender.        |
-|**Brug til vedhæftet fil i mail**| Angiver, at det relaterede bilag vedhæftes mailen.|
-|**Layoutbeskrivelse for brødtekst i mail**|Angiver det e-mail-tekstformat, der bruges, typisk et brugerdefineret rapportlayout. |
+|**Brug til brødtekst i mail**| Indsæt opsummerede oplysninger, f. eks. fakturanummer, forfaldsdato og betalingstjeneste link, i en e-mail.        |
+|**Brug til vedhæftet fil i mail**| Knyt det relaterede dokument til e-mailen.|
+|**Layoutbeskrivelse for brødtekst i mail**|Angiv det e-mailformat, der skal bruges. Layoutet er typisk et brugerdefineret rapportlayout. |
 
 ## <a name="see-also"></a>Se også
 
-[Angiv genanvendelig e-mailtekst og layout til salgs-og købsdokumenter](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents)  
+[Konfigurere genanvendelige e-mailtekster og -layout](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Vælge et checklayout](finance-how-define-check-layouts.md)  
 [Konfigurere rapporter til moms og Intrastat (Tyskland)](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
 [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  

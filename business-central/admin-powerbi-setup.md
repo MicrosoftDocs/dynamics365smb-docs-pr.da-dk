@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b3eb777c7a495c5b4b73ace26151e53403f81f00
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c893513098d5078995e6cab09abcf0d2e0bb2769
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521198"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950352"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Aktivering af Power BI-integration med [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -84,7 +84,7 @@ I dette afsnit forklares kravene til en installation af [!INCLUDE[prod_short](in
 
 4. Oprette en programregistrering for [!INCLUDE[prod_short](includes/prod_short.md)] i Microsoft Azure.
 
-    Hvis du vil have vist Power BI-rapporter integreret i [!INCLUDE[prod_short](includes/prod_short.md)]-sider, skal et program registrere til [!INCLUDE[prod_short](includes/prod_short.md)] i Microsoft Azure, og det registrerede program skal have tilladelse til Power BI-tjenester. Du kan finde flere oplysninger i [Registrering af [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø i Azure AD til integration med andre tjenester](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
+    Hvis du vil have vist Power BI-rapporter integreret på [!INCLUDE[prod_short](includes/prod_short.md)]-sider, skal et program registreres for [!INCLUDE[prod_short](includes/prod_short.md)] i Microsoft Azure. Det registrerede program skal have tilladelse til Power BI-tjenester. Som minimum kræver app'en **User.ReadWrite.All**-tilladelser. For at brugerne kan få vist rapporter fra delte Power BI-arbejdsområder, kræver appen **Workspace.Read.All**-tilladelse. Du kan finde flere oplysninger i [Registrering af [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø i Azure AD til integration med andre tjenester](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
     > [!NOTE]
     > Hvis din installation benytter NavUserPassword-godkendelse, opretter [!INCLUDE[prod_short](includes/prod_short.md)] forbindelse til den samme Power BI-tjeneste for alle brugere. Du skal angive denne tjenestekonto som en del af registreringen af programmet. Med Azure AD-godkendelse opretter [!INCLUDE[prod_short](includes/prod_short.md)] forbindelse til den Power BI-tjeneste, der er knyttet til de enkelte brugerkonti.

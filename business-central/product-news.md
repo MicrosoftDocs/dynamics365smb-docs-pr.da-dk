@@ -6,12 +6,12 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ef648fcd29b15494e78c4b6482edf0996c22b670
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7077e434ba564b62cfb03155a60b16460cea9ee3
+ms.sourcegitcommit: 7a6efcbae293c024ca4f6622c82886decf86c176
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135824"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "8841945"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Nyt og planlagt for Dynamics 365 Business Central
 
@@ -21,9 +21,9 @@ Du kan altid se udgivelsesplanen for at få en oversigt over nye og kommende fun
 
 Følgende liste indeholder oplysninger om de nyeste versioner af [!INCLUDE [prod_short](includes/prod_short.md)].  
 
+* [2022 udgivelsesbølge 1](/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features)  
 * [2021 udgivelsesbølge 2](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/planned-features)  
 * [2021 udgivelsesbølge 1](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/planned-features)  
-* [2020 Release wave 2](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/planned-features)  
 
 Du kan også udforske [Dynamics 365 Business Central Funktioner](https://dynamics.microsoft.com/business-central/capabilities/)-webstedet og [Dynamics 365 Business Central Oversivgt](https://dynamics.microsoft.com/roadmap/business-central/)-webstedet.  
 

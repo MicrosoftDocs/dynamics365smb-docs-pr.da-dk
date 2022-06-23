@@ -1,6 +1,6 @@
 ---
 title: Lokal funktionalitet for Danmark
-description: I følgende emne kan du læse sammenkædede oplysninger om lokal funktionalitet i Danmark.
+description: I følgende artikel kan du læse sammenkædede oplysninger om lokal funktionalitet i Danmark.
 author: sorenfriisalexandersen
 ms.topic: conceptual
 ms.devlang: na
@@ -9,18 +9,21 @@ ms.workload: na
 ms.search.keywords: Denmark, local, DK, Danish
 ms.date: 06/18/2021
 ms.author: soalex
-ms.openlocfilehash: 23bc060116c4295f6762ad26666e06be5b3ce5bc
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 6d25256156aebefc8bc517d18398696a5a881d73
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729767"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950139"
 ---
 # <a name="denmark-local-functionality"></a>Lokal funktionalitet for Danmark
 
 Følgende emne beskriver den lokale funktionalitet i den danske version af [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="feature-availability"></a>Funktionen Tilgængelighed
+
+* Regnskab
+    * Digitale bilag (ændringer af den danske bogholderi) **2022 - Release-bølge 2**
 
 * Moms
     * [Udskrive rapporter til afstemning af moms](how-to-print-vat-reconciliation-reports.md) **Tilgængelig nu**

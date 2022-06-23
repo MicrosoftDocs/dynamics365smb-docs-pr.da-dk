@@ -1,18 +1,18 @@
 ---
 title: Synkronisere debitorer
 description: Importere debitorer fra eller eksportere til Shopify
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 92ac46e9f7e69204b4c7edee4aa430a8786b6c0b
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 75c4de7736572ff923c74464dc33b218d0665e3f
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768109"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808853"
 ---
 # <a name="synchronize-customers"></a>Synkronisere debitorer
 
@@ -25,8 +25,8 @@ Når en ordre indlæses fra Shopify, er oplysningerne om debitor nødvendig for 
 
 Funktionen *Importer ordre fra Shopify* forsøger at vælge debitor i følgende rækkefølge:
 
-1. Hvis **Standarddebitornr.** er defineret i **Shopify Debitorskabelonen** for det tilsvarende land, så anvendes **Standarddebitornr.** uanset indstillingerne i **Debitorimport fra Shopify** og **Debitortilknytningstype**.
-2. Hvis **Debitorimporter fra Shopify** og **Standarddebitornr.** er defineret, anvendes **Standarddebitornr.** .
+1. Hvis **Standarddebitornr.** feltet er defineret i **Shopify Debitorskabelonen** for det tilsvarende land, så anvendes **Standarddebitornr.** uanset indstillingerne i **Debitorimport fra Shopify** og **Debitortilknytningstype**. Du kan finde flere oplysninger i afsnittet [Debitorskabelon pr. land](synchronize-customers.md#customer-template-per-country).
+2. Hvis **Debitorimport fra Shopify** er indstillet til *Ingen* og **Standarddebitornr.** er defineret i **Shopify Butikskort** skal **Standarddebitornr.** .
 
 Næste trin afhænger af **Debitortilknytningstype**.
 
@@ -100,6 +100,8 @@ I forbindelse med adresser, hvor lande/provins anvendes, skal du vælge *Kode* e
 3. Vælg handlingen **Synkroniser debitorer**.
 
 Du kan også bruge handlingen **Start debitorsynkronisering** i vinduet **Shopify Debitorer** eller Søg efter **Synkroniseringsdebitorer**.
+
+Du kan planlægge, at følgende tilbagevendende aktiviteter skal udføres automatisk. Du kan finde flere oplysninger i [Planlægge gentagne opgaver](background.md#to-schedule-recurring-tasks).
 
 ## <a name="see-also"></a>Se også
 

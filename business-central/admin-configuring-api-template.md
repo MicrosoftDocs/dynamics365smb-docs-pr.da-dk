@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
 ms.search.form: 5469
-ms.date: 04/01/2021
+ms.date: 06/07/2022
 ms.author: solsen
-ms.openlocfilehash: f5c91eb303d26f88af56613790ce0d5aa5d7854a
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: e38c8143cfad1fc4b0c7bbc4bd2995e0e48d264f
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740253"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950404"
 ---
 # <a name="configure-api-templates"></a>Konfigurere API-skabeloner
 
@@ -30,6 +30,9 @@ Hvis du vil bruge skabeloner med API-biblioteket, skal du først oprette og defi
 ## <a name="assign-the-template-to-an-api"></a>Tildele skabelonen til et API
 
 Hvis du vil tildele en skabelon til en API, skal du udføre følgende trin.
+
+> [!NOTE]  
+> API-skabeloner kan kun konfigureres med følgende API-sider: kontakter, countriesRegions, valutaer, debitorer, medarbejdere, itemCategories, paymentMethods, paymentTerms, shipmentMethods, unitsOfMeasure og leverandører.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **API-konfiguration**, og vælg derefter det relaterede link.
 2. Vælg **Ny**, og vælg derefter **Rækkefølge**-værdien for posten.  

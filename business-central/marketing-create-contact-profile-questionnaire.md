@@ -7,39 +7,71 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
+ms.search.form: 5109, 5110
 ms.author: edupont
-ms.date: 06/22/2021
-ms.openlocfilehash: 42ef7c92d138d717f10eb98a7fa9208eaf73ef54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 05/20/2022
+ms.openlocfilehash: 135ca390dbf00e46deefbe6e195acfbcf11b959c
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140836"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799660"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Bruge profilspørgeskemaer til at klassificere forretningskontakter
-Du kan definere profilspørgeskemaer, du vil bruge til indtastning af oplysninger om kontaktprofiler. Du kan i det enkelte spørgeskema definere forskellige spørgsmål, du vil stille dine kontaktpersoner.  
+
+Du kan vurdere et emne, så du kan identificere de ideelle emner, som din salgskampagne skal fokusere på. Du kan definere profilspørgeskemaer, du vil bruge til indtastning af oplysninger om kontaktprofiler. Du kan i det enkelte spørgeskema definere forskellige spørgsmål, du vil stille dine kontaktpersoner. På den måde kan du gruppere kontaktpersoner, så kampagnerne er mere sandsynlige for de rigtige personer på grundlag af de kriterier, du definerer med spørgeskemaerne.  
+
+Med de rette spørgeskemaer kan du vurdere dine emner og gruppere dem i kategorier. Eksisterende spørgsmål og svar kan kombineres med nye spørgsmål og svar, som danner grundlag for din bedømmelse. Hvert svar i vurderingen får en pointværdi og afhængigt af det interval, du har defineret for kategorierne (*Fra værdi* og *Til værdi*), grupperer vurderingssystemet dine kontaktpersoner i de kategorier, du har defineret. F.eks. *ABC*-kunder, leverandører med *høj/lav loyalitet* eller *platin//guld/sølv*-kundeemner.  
 
 Du kan også køre spørgeskemaet for at besvare nogle af spørgsmålene automatisk ud fra kontakt-, debitor- eller kreditordata.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>Sådan tilføjes et profilspørgeskema
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **opsætning af spørgeskema**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Ny**.  
-3.  Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **opsætning af spørgeskema**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Ny**.  
+3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-add-questions-to-a-profile-questionnaire"></a>Sådan føjes spørgsmål til et profilspørgeskema
-1.  Vælg det relevante profilspørgeskema, og vælg handlingen **Rediger opsætning af spørgeskema**.  
-2.  I den første tomme linje skal du i feltet **Type** vælge **Spørgsmål** og skrive dit spørgsmål i feltet **Beskrivelse**. Udfyld de andre felter på linjen.  
-3.  Vælg **Svar** i den næste tomme linje i feltet **Type**, og skriv svaret i feltet **Beskrivelse**.  
-4.  Vælg prioriteten i feltet **Prioritet**. I felterne **Fra-værdi** og **Til-værdi** defineres et interval. Kontakter, der modtager point inden for det angivne interval, får svaret.  
+
+1. Vælg det relevante profilspørgeskema, og vælg handlingen **Rediger opsætning af spørgeskema**.  
+2. I den første tomme linje skal du i feltet **Type** vælge **Spørgsmål** og skrive dit spørgsmål i feltet **Beskrivelse**. Udfyld de andre felter på linjen.  
+
+    Du kan også vælge at føje oplysninger til spørgsmålet.
+
+    1. Vælg linjen med spørgsmålet, Vælg derefter menuen **linje**, og vælg derefter **oplysninger om spørgsmål**.  
+
+    2. Marker feltet **Automatisk kontaktklassificering** i oversigtspanelet **Klassificering** på siden **Oplysninger om profilspørgsmål**.  
+
+    3. I feltet **Kontaktklassefelt** vælges indstillingen **Vurdering**.  
+
+    4. Udfyld feltet **Min. besvarelsespct.**. Standardværdien er **0**.  
+
+        Dette angiver procentdelen af de spørgsmål, der skal besvares, for at denne vurdering kan beregnes i systemet.
+
+    5. Under fanen **Handlinger** i gruppen **Side** vælges **Svarpoint**. Angiv det antal point, du vil give hvert svar på siden **Svarpoint**.
+
+        Hvis du vil have vist en oversigt over de point, du har givet hvert svar, skal du vælge handlingen **Svarpoint**.
+
+    6. Hvis du vil køre en opdatering, skal du vende tilbage til siden **opsætning af profilspørgeskema**. På fanen **Handlinger** i gruppen **Funktioner** vælges **Opdater klassifikation**.
+
+    På siden **Opsætn. af profilspørgeskema** vises det antal kontaktpersoner, der opfylder dette kriterium, i feltet **Antal kontakter** samt på **kontaktkortet** for hver kontaktperson.
+
+3. Vælg **Svar** i den næste tomme linje i feltet **Type**, og skriv svaret i feltet **Beskrivelse**.  
+4. Vælg prioriteten i feltet **Prioritet**. I felterne **Fra-værdi** og **Til-værdi** defineres et interval. Kontakter, der modtager point inden for det angivne interval, får svaret.  
 
 Gentag disse trin for at indtaste alle spørgsmål og svar i profilspørgeskemaet.
 
-Når du har oprettet et spørgeskema, skal du oprette kontaktpersonvurderinger til at klassificere dine kontaktpersoner. Du kan også oprette spørgsmål, der klassificeres automatisk baseret på oplysningerne på kontaktkortet.  
+Når du har oprettet et spørgeskema, kan du bruge det til at vurdere og klassificere dine kontaktpersoner. Du kan også oprette spørgsmål, der klassificeres automatisk baseret på oplysningerne på kontaktkortet.  
 
 > [!NOTE]
-> Hvis du angiver et spørgsmål, som skal besvares automatisk, skal du vælge <STRONG>Linje</STRONG> og derefter vælge <STRONG>Oplysn. om spørgsmål</STRONG> for at angive de kriterier, som skal anvendes ved den automatiske besvarelse.
+> Hvis du angiver et spørgsmål, som skal besvares automatisk, skal du vælge **Linje** og derefter vælge **Oplysn. om spørgsmål** for at angive de kriterier, som skal anvendes ved den automatiske besvarelse.
+
+## <a name="apply-questionnaires-to-contacts"></a>Anvende spørgeskemaer på kontakter
+
+Du kan anvende dine spørgeskemaer til kontakter manuelt. Åbn blot det relevante kontaktkort, og vælg handlingen **Profil**. Derefter kan du begynde at bruge kategorierne i kampagnerne, når du har anvendt de spørgeskemaer, du vil udligne.  
 
 ## <a name="the-automatic-classification-of-contacts"></a>Den automatiske klassificering af kontaktpersoner
+
 Du kan automatisk klassificere kontakter efter debitor-, kreditor- og kontaktoplysninger ved at definere automatisk besvarede profilspørgsmål på siden **Opsætn. af profilspørgeskema**.  
 
 > [!NOTE]

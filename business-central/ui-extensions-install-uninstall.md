@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.search.form: 2500
-ms.date: 03/25/2022
+ms.date: 05/24/2022
 ms.author: solsen
-ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a70ea442ffb9d6e5f131e4d720da57f033474e16
+ms.sourcegitcommit: 6eeac924d8e211080316ce5068e3d4fb5a2d5ed9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514747"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8804652"
 ---
 # <a name="install-and-uninstall-extensions-in-business-central"></a>Installere og fjerne udvidelser i Business Central
 
@@ -83,11 +83,15 @@ Hvis PTE indeholder ændringer af skemaændringer, er det muligt at *gennemtving
 
 ## <a name="uninstall-an-extension"></a>afinstallere en udvidelse
 
-Du fjerner en udvidelse via siden **Udvidelsesstyring**. Hvis du fjerner en udvidelse, og du senere skifter mening, kan du installere udvidelsen igen. Når du fjerner en udvidelse, som du har brugt, bevares dataene som standard, hvis du installerer udvidelsen igen. Du kan i stedet vælge at slette dataene med udvidelsen. Dette styres af afkrydsningsfeltet **Slet udvidelsesdata**. Dette afkrydsningsfelt er som standard *ikke aktiveret*.
+Du fjerner en udvidelse via siden **Udvidelsesstyring**. Hvis du vil fjerne et filtypenavn, skal du markere det på siden og derefter vælge handlingen til **afinstallation**. Hvis du fjerner en udvidelse, og du senere skifter mening, kan du installere udvidelsen igen.
+
+Når du fjerner en udvidelse, som du har brugt, bevares dataene som standard, hvis du installerer udvidelsen igen. Du kan i stedet vælge at slette dataene med udvidelsen. Dette styres af afkrydsningsfeltet **Slet udvidelsesdata**. Som standard er den **deaktiveret**. Når du forsøger at aktivere parameteren **Slet udvidelsesdata** for udvidelsen, får du vist en bekræftelsesdialogboks, og du skal vælge **Ja** for at slå den til. Når afkrydsningsfeltet **Slet udvidelsesdata** er aktiveret, kan du nu fjerne udvidelsen, og du bliver på ny bedt om at bekræfte, at du vil fjerne udvidelsen og slette dataene.
 
 > [!IMPORTANT]  
-> Hvis du aktiverer afkrydsningsfeltet **Slet udvidelsesdata**, skal du vælge **OK** i den viste bekræftelsesdialogboks. Når afkrydsningsfeltet **Slet udvidelsesdata** er aktiveret, kan du nu fjerne udvidelsen, og du bliver på ny bedt om at bekræfte, at du vil fjerne udvidelsen og slette dataene. Handlingen kan ikke fortrydes.
-Visse udvidelser er påkrævet. Du kan ikke fjerne disse fra siden **Udvidelsesstyring**. Hvis du prøver, vises der en fejlmeddelelse.  
+> - Der kan være andre udvidelser, der kræver eller afhænger af den udvidelse, du vil fjerne for at kunne fungere. Disse andre udvidelser kaldes for *børn*. Du kan ikke fjerne en udvidelse, medmindre dens afhængigheder også er fjernet.
+> - Når du vælger at fjerne et filtypenavn, der har en eller flere afhængige, får du vist en bekræftelsesdialogboks med en liste over de afhængige, og du bliver spurgt, om du vil fjerne filtypenavnet og alle dens afhængige. Du skal vælge **Ja** for at fortsætte.
+> - Hvis du aktiverer parameteren **slet udvidelsesdata**, slettes alle data for udvidelsen **plus** data til alle afhængige filtyper, når du fjerner udvidelsen. Handlingen kan ikke fortrydes.
+> - Visse udvidelser er påkrævet. Du kan ikke fjerne disse fra siden **Udvidelsesstyring**. Hvis du prøver, vises der en fejlmeddelelse.  
 
 ## <a name="see-also"></a>Se også
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 03/04/2022
 ms.author: jswymer
-ms.openlocfilehash: 4ee154f242eebb65f9ef61453c8ff51c770f2713
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5252d3e595b3ae0246646fe7eafe910cdf4da2f0
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511229"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805044"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams-integration
 
@@ -65,7 +65,7 @@ Du kan finde flere oplysninger i [Dele poster og sidelinks i Microsoft Teams](ac
     Hvis du ikke er sikker på, om du har en konto, eller hvis du ikke kender dine legitimationsoplysninger til logon, kan du kontakte din virksomheds administrator for at få hjælp til at komme i gang.
 
     > [!TIP]
-    > Hvis organisationen ikke har et [!INCLUDE [prod_short](includes/prod_short.md)]-abonnement, kan du oprette dig som bruger for at få en gratis prøveversion. Du kan finde flere oplysninger i [Introduktion med en prøveversion](across-preview.md#get-started-with-a-trial).
+    > Hvis organisationen ikke har et [!INCLUDE [prod_short](includes/prod_short.md)]-abonnement, kan du oprette dig som bruger for at få en gratis prøveversion. Du kan finde flere oplysninger i [Tilmeld dig en gratis Dynamics 365 Business Central-prøveversion](trial-signup.md).
 
 2. Som administrator kan du se [Administration af Microsoft Teams-integration med Business Central](admin-teams-integration.md) for at få oplysninger om opsætning af brugere, så de kan arbejde med [!INCLUDE [prod_short](includes/prod_short.md)] og Teams.
 3. Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams. Se [Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen til Microsoft Teams](across-install-app-for-teams.md).

@@ -1,20 +1,20 @@
 ---
 title: Tastaturgenveje
 description: Den komplette liste over tastaturgenvejskombinationer, som gør det muligt for dig at arbejde effektivt med dine data.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 01/27/2022
-ms.author: bholtorf
-ms.openlocfilehash: 3d8b49c34bee069c10fdd2713de9ed0cd3c3fb72
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 0e5ad41e6109d53a998f1c3ad8280b92a602a50e
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517969"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799686"
 ---
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
 
@@ -51,14 +51,15 @@ I følgende tabel beskrives tastaturgenveje, der kan bruges til navigation og ad
 |Alt+Shift+F2|Skifte mellem **Detaljer** og **Vedhæftede filer** i faktaboksruden.|
 |Alt+O|Du kan tilføje en ny note i den valgte post, også selvom faktaboksruden ikke er åben.|
 |ALT + Q<br />(Ctrl+option+Q)|Åbne vinduet **Fortæl mig**. Du kan finde flere oplysninger i [Søge efter sider og oplysninger med Fortæl mig](ui-search.md).|
+|Ctrl+Alt+Q<br />(Ctrl+option+Cmd+Q)|Åbn siden **Find poster** for at finde dokumenter og poster, der er knyttet til hinanden, baseret på almindelige oplysninger, f. eks. bilagsnummer eller bogføringsdato. Du kan finde flere oplysninger i [Finde relaterede indgange i forbindelse med bogførte dokumenter ](ui-find-entries.md)|
 |Alt+N |Åbne en side for at oprette en ny post. (Svarer til at vælge **Ny** og **+**-handlinger).|
 |Alt+Skift+N |Lukke en nyoprettet side og åbne en ny for at oprette en ny post. På samme måde bogfører Alt+F9 et dokument og opretter et nyt.|
 |Alt+T|Åbne siden **Mine indstillinger**.|
-|Alt+Højrepil|Finde yderligere oplysninger eller underliggende værdier for et felt, der indeholder knappen ![AssistEdit.](media/assist-edit-icon.png "AssistEdit-knap"). knap. Dette bruges, når den sædvanlige rullemenuknap (Alt + pil ned) i det samme felt bruges til andre formål.|
+|Alt+Højrepil|Finde yderligere oplysninger eller underliggende værdier for et felt, der indeholder knappen ![AssistEdit.](media/assist-edit-icon.png "AssistEdit-knap"). knap. Bruges, når den sædvanlige rullemenuknap (Alt + pil ned) i det samme felt bruges til andre formål.|
 |Ctrl+Alt+Skift+C|Få vist oplysninger på virksomhedskortet.|
 |Ctrl+Alt+F1|Åbne og lukke sideinspektionsruden. Sideinspektionsruden viser oplysninger om siden, f.eks. dens kildetabel, felter, udvidelser og meget mere.<br /><br />Du kan finde flere oplysninger i [Inspektion af sider](across-inspect-page.md).|
 |Ctrl+C |Kopiere værdien i feltet. Hvis feltet er i fokus, og du ikke har markeret tekst i feltet, kopieres hele værdien. Hvis du har markeret tekst i feltet, så kopieres kun den markerede tekst.|
-|Ctrl+F1|Åbne hjælpen til Business Central for siden.|
+|Ctrl+F1|Åbn [Hjælp-ruden](product-help-and-support.md#help-pane) eller en Business Central hjælp-artikel i [Microsoft Docs](/dynamics365/business-central/), afhængigt af virksomhedens centrale version.|
 |Ctrl+F12|Skifte mellem visning med bredt og smalt layout.|
 |Ctrl+klik|Navigere under tilpasning, når handlingen er fremhævet med en pilespids. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).|  
 |Ctrl+F5|Genindlæse [!INCLUDE[prod_short](includes/prod_short.md)]-programmet. (Svarer til at vælge opdater/genindlæs i browseren).|

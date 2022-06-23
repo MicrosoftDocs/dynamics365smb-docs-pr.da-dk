@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: c2bfe2f10440921c95a7d20f3c601389030813e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1b771425c2a70f62dcfebeb4619c0f2f5445de3
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516209"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799608"
 ---
 # <a name="set-up-prepayments"></a>Oprette forudbetalinger
 
@@ -92,6 +92,19 @@ I en ordre kan der være én forudbetalingsprocent i salgshovedet og en anden pr
 4. Forudbetalingsprocenten i salgs- eller købshovedet.  
 
 Med andre ord bruges forudbetalingsprocenten på kundekortet kun, hvis der ikke er oprettet andre forudbetalingsprocenter for varen. Hvis du ændrer indholdet i feltet **Forudbetaling i %** i salgs- eller købshovedet, efter linjerne er oprettet, opdateres forudbetalingsprocenten dog på alle linjer. Det gør det nemt at oprette en ordre med en fast forudbetalingsprocent, uanset hvilken procent der er oprettet for varerne.
+
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Sådan frigives salgsordrer automatisk, når forudbetalinger anvendes
+
+Du kan spare tid ved at oprette en Opgavekøpost, som automatisk frigiver salgsordrer, der kræver forudbetaling, efter at der er anvendt betalinger. Når du automatiserer processen, bliver du ved med at frigive salgsordren.
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Salgsopsætning**, og vælg derefter det relaterede link.
+2. I feltet **Frekvens for automatisk opdatering af forudbetaling** skal du angive, hvor ofte opgavekøposten skal køre.
+
+> [!TIP]
+> Når du er her, skal du overveje at tilføje en sikkerhedsforanstaltning mod levering eller fakturering af salgsordrer, der har ubetalte premayment beløb. Hvis du aktiverer funktionen **Kontroller forudbetaling ved bogføring**, kan [!INCLUDE[prod_short](includes/prod_short.md)] forhindre, at personer bogfører ordrer med udestående forudbetalingsbeløb.
+
+3. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Poster for jobkøer**, og vælg derefter det relaterede link.
+4. Konfigurer **Opdateret Afventer forudbetaling af Salg**-opgavekø, f. eks. ved at bruge indstillingerne i oversigtspanelet **Gentagelse** til at planlægge, hvor ofte den skal køres. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
 
 ## <a name="see-also"></a>Se også  
 

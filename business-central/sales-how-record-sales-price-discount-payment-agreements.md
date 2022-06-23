@@ -1,5 +1,5 @@
 ---
-title: Konfigurere salgspriser og rabatter for kunder | Microsoft Docs
+title: Registrere specialsalgspriser og -rabatter
 description: Beskriver, hvordan du definerer pris-og rabataftaler for salgsdokumenter.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,25 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2021
+ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 5ff042e1dec609b568c36967f56a8cd3673b9558
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 5f3d851356954ddf71411190f5f486633936c05a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729837"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950143"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrere specialsalgspriser og -rabatter
+
 > [!NOTE]
-> I 2020 udgivelsesbølge 2 har vi udgivet strømlinede processer til opsætning og administration af priser og rabatter. Hvis du er ny kunde, der bruger den version, bruger du den nye oplevelse. Hvis du allerede bruger den nye oplevelse, afhænger det af, om din administrator har aktiveret funktionsopdateringen **Ny vareprissætningsopdatering** i **Funktionsadministration**. Du kan finde flere oplysninger i [Aktivere Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> I 2020 udgivelsesbølge 2 har vi introduceret nye, strømlinede processer til opsætning og administration af priser og rabatter. Hvis du er ny kunde, der bruger den nyeste version, bruger du den nye oplevelse. Hvis du allerede bruger den nye oplevelse, afhænger det af, om din administrator har aktiveret funktionsopdateringen **Ny vareprissætningsopdatering** i **Funktionsadministration**. Du kan finde flere oplysninger i [Aktivere Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] understøtter forskellige pris strategier, f. eks.:
+
 * Én-pris-til-alle modeller, hvor en vare altid sælges til samme pris.
 * Specielle prisaftaler med specifikke kunder eller grupper af kunder.
 * Kampagner når et salg lever op til kriterier for et særtilbud. F. eks. kan kriterier være, når en ordre overholder et minimumantal, ligger før en bestemt dato eller omfatter en bestemt type vare.  
 
-Hvis du vil bruge en grundlæggende prissætningsmodel, skal du kun angive en salgspris for en vare eller ressource. Prisen vil altid blive brugt i salgsdokumenter. Hvis du f. eks. kører en salgskampagne og vil tilbyde specielle priser for en salgskampagne, kan du for eksempelvis angive kriterier for det på siden **salgspriser**. Du kan tilbyde specielle priser baseret på en kombination af følgende oplysninger: 
+Hvis du vil bruge en grundlæggende prissætningsmodel, skal du kun angive en salgspris for en vare eller ressource. Prisen vil altid blive brugt i salgsdokumenter. Hvis du f. eks. kører en salgskampagne og vil tilbyde specielle priser for en salgskampagne, kan du for eksempelvis angive kriterier for det på siden **salgspriser**. Du kan tilbyde specielle priser baseret på en kombination af følgende oplysninger:  
 
 * Debitor
 * Vare
@@ -176,34 +178,36 @@ Hvis du vil opdatere priser for flere varer, skal du oprette en ny prisliste og 
 ---
 
 ## <a name="best-price-calculation"></a>Beregning af bedste pris
-Når du har oprettet special postpriser og linjerabatter for salg og køb, beregner [!INCLUDE[d365fin](includes/d365fin_md.md)] den bedste pris på salgs-og købsdokumenter og på sags-og varekladdelinjer.
 
-Den bedste pris er den lavest tilladte pris med den størst tilladte linjerabat på en givet dato. [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner bedste priser, når enhedsprisen og linjerabatprocenten for varer indsættes på nye dokument- og kladdelinjer.
+Når du har oprettet special postpriser og linjerabatter for salg og køb, beregner [!INCLUDE[prod_short](includes/prod_short.md)] den bedste pris på salgs-og købsdokumenter og på sags-og varekladdelinjer.
+
+Den bedste pris er den lavest tilladte pris med den størst tilladte linjerabat på en givet dato. [!INCLUDE[prod_short](includes/prod_short.md)] beregner bedste priser, når enhedsprisen og linjerabatprocenten for varer indsættes på nye dokument- og kladdelinjer.
 
 > [!NOTE]  
-> I det følgende beskrives, hvordan den bedste pris beregnes for salg. Beregningen er den samme for køb.
+> I det følgende beskrives, hvordan den bedste pris beregnes for salg. For køb er beregningen tilsvarende, men er baseret på de tilgængelige parametre. Varerabatgrupper understøttes f. eks. ikke ved indkøb.
 
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)] kontrollerer kombinationen af faktureringsdebitoren og varen automatisk og beregner derefter den relevante enhedspris og linjerabatprocent ud fra følgende kriterier:
+1. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer kombinationen af faktureringsdebitoren og varen automatisk og beregner derefter den relevante enhedspris og linjerabatprocent ud fra følgende kriterier:
 
-    - Har denne kunde en pris-/rabataftale, eller tilhører kunden en gruppe, der har en sådan aftale?
-    - Er varen eller varerabatgruppen på linjen medtaget i nogen af disse pris/rabataftaler?
-    - Ligger ordredatoen (bogføringsdatoen for faktura- eller kreditnotaen) inden for start- og slutdatoen for pris-/rabataftalen?
-    - Er enhedskoden angivet? Hvis den gør det, kontrollerer [!INCLUDE[d365fin](includes/d365fin_md.md)], om der er priser/rabatter med samme enhedskode, og om der er priser/rabatter, uden at der er tilknyttet en enhedskode.
+    * Har denne kunde en pris-/rabataftale, eller tilhører kunden en gruppe, der har en sådan aftale?
+    * Er varen eller varerabatgruppen på linjen medtaget i nogen af disse pris/rabataftaler?
+    * Ligger ordredatoen (bogføringsdatoen for faktura- eller kreditnotaen) inden for start- og slutdatoen for pris-/rabataftalen?
+    * Er enhedskoden angivet? Hvis den gør det, kontrollerer [!INCLUDE[prod_short](includes/prod_short.md)], om der er priser/rabatter med samme enhedskode, og om der er priser/rabatter, uden at der er tilknyttet en enhedskode.
 
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)] undersøger, om der gælder pris/rabataftaler for oplysninger om dokumentet eller kladdelinjen. Derefter indsættes den gældende salgspris og linjerabatprocent med følgende kriterier:
+2. [!INCLUDE[prod_short](includes/prod_short.md)] undersøger, om der gælder pris/rabataftaler for oplysninger om dokumentet eller kladdelinjen. Derefter indsættes den gældende salgspris og linjerabatprocent med følgende kriterier:
 
-    - Er der et krav om et mindste antal i pris-/ rabataftalen, som er opfyldt?
-    - Er der et krav om valuta i pris-/ rabataftalen, som er opfyldt? Hvis der er det, indsættes den laveste pris og den højeste linjerabat for valutaen, selvom den lokale valuta giver en bedre pris. Hvis der ikke er nogen pris-/rabataftale for den angivne valutakode, indsætter [!INCLUDE[d365fin](includes/d365fin_md.md)] den laveste pris og den højeste linjerabat i din lokale valuta.
+    * Er der et krav om et mindste antal i pris-/ rabataftalen, som er opfyldt?
+    * Er der et krav om valuta i pris-/ rabataftalen, som er opfyldt? Hvis der er det, indsættes den laveste pris og den højeste linjerabat for valutaen, selvom den lokale valuta giver en bedre pris. Hvis der ikke er nogen pris-/rabataftale for den angivne valutakode, indsætter [!INCLUDE[prod_short](includes/prod_short.md)] den laveste pris og den højeste linjerabat i din lokale valuta.
 
 Hvis der ikke kan beregnes en særpris for varen på linjen, indsættes seneste indirekte omkostning eller enhedsprisen fra varekortet.
 
 ## <a name="sales-invoice-discounts-and-service-charges"></a>Salgsfakturarabatter og servicegebyrer
+
 Når du bruger fakturarabatter, bestemmer det samlede fakturabeløb størrelsen af rabatten. På siden **Deb./fakt.rabatter** kan du også føje et servicegebyr til fakturaer over en vis størrelse.  
 
 Du skal angive nogle oplysninger, før du kan bruge fakturarabatter i forbindelse med salg. Du skal beslutte følgende:  
 
-- Hvilke debitorer der skal tildeles denne type rabat?  
-- Hvilken rabatprocent du vil bruge?  
+* Hvilke debitorer der skal tildeles denne type rabat?  
+* Hvilken rabatprocent du vil bruge?  
 
 Hvis dine fakturarabatter skal beregnes automatisk, kan du angive dette på siden **Salgsopsætning**, aktivere til/fra-funktionen **Beregn fakturarabat**.  
 
@@ -231,7 +235,7 @@ Disse trin varierer, afhængigt af, om din administrator har slået funktionsopd
 2. Åbn det relevante debitorkort, og vælg derefter handlingen **Linjerabatter**.
 3. Udfyld felterne på linjen efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Udfyld en linje for hver kombination, som yder en salgslinjerabat til kunden.
 
-> [!Note]
+> [!NOTE]
 > Når du åbner siderne **Salgspriser** og **Salgslinjerabatter** fra en bestemt kunde, er felterne **Salgstypefilter** og **Salgskodefilter** er angivet for debitoren og kan ikke ændres eller fjernes.
 >
 > Hvis du vil oprette priser eller linjerabatter for alle debitorer, en debitorprisgruppe eller en kampagne, skal du åbne siderne fra et varekort. Du kan alternativt bruge siden **Salgspriskladde** til salgspriser. Du kan finde flere oplysninger [Sådan masseopdateres varepriser](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
@@ -277,6 +281,8 @@ Fortsæt med at angive nye fakturarabatbetingelser for salg.
 
 [Konfigurere salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  
+[Konfigurere debitorprisgrupper](sales-how-to-set-up-customer-price-groups.md)  
+[Konfigurere debitorrabatgrupper](sales-how-to-set-up-customer-discount-groups.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

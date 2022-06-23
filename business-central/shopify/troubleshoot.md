@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 01ff5ab1c5e6f132098f914f6bfe97e097cc88b0
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: ff2e4aca52f479e461dab0d9d0f0ce4958d19353
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768117"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808855"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Fejlfinding af Shopify og Business Central-synkronisering
 
@@ -56,9 +56,8 @@ Hvis [!INCLUDE[prod_short](../includes/prod_short.md)] ikke kan oprette forbinde
 
 1. Gå til søgning søg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Butik**, og vælg det relevante link.
 2. Marker den butik, for hvilken du vil have adgangstoken til at åbne siden **Shopify-butikskort**.
-3. Angiv den første kode i feltet **Kode**.  
-4. Vælg handlingen **Anmod om adgang**.
-5. Hvis du bliver bedt om at logge på din Shopify-konto.
+3. Vælg handlingen **Anmod om adgang**.
+4. Hvis du bliver bedt om det, skal du logge på din Shopify-konto.
 
 ## <a name="see-also"></a>Se også
 

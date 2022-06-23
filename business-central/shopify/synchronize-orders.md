@@ -1,18 +1,18 @@
 ---
 title: Synkronisere og opfylde salgsordrer
 description: Konfigurere og køre import og behandling af salgsordre fra Shopify.
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: e7c54cc620011d238942c093a05918e2f4e57c7d
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 4e8d640f6de61d642037a55fdfeb09e32f197a96
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768105"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809009"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Synkronisere og opfylde salgsordrer
 
@@ -27,7 +27,7 @@ En almindelig Shopify-ordre kan have ekstra mængder øverst, f. eks. forsendels
 - **Tips til konto**  
 
 Aktiver **Automatisk oprettelse af ordrer**  for at oprette salgsdokumenter automatisk i [!INCLUDE[prod_short](../includes/prod_short.md)], når Shopify-ordren er importeret.
-Salgsdokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)] indeholder et link til Shopify-ordren. Hvis du aktiverer **Shopify Ordrenr. på dokumentlinjen**, bliver disse oplysninger gentaget på salgslinjen af typen *Bemærkning*.
+Salgsdokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)] indeholder et link til Shopify-ordren. Hvis du aktiverer feltet **Shopify-ordrenr. på dokumentlinjen**, bliver disse oplysninger gentaget på salgslinjen af typen *Bemærkning*.
 
 I feltet **Momsområdekilde** kan du definere prioritering af, hvordan skatteområdekode eller momsvirksomhedsbogføringsgruppe på grundlag af adresse. Dette trin er relevant for lande med moms, men kan bruges til moms lande. Du kan finde flere oplysninger i [Momskommentarer](synchronize-orders.md#tax-remarks).
 
@@ -71,16 +71,20 @@ Nedenstående procedure beskriver, hvordan du imjporterer og opdaterer salgsordr
 
 Du kan også søge efter **synkroniseringsordrer fra Shopify** batchjobbet.
 
-Når importen er fuldført, kan du udforske Shopify-ordren og finde alle relaterede oplysninger, f. eks. betalingstransaktioner, forsendelsesomkostninger, følgerne, risikoniveauet. Du kan også se den ordrebekræftelse, der er sendt til debitoren, ved at vælge handlingen **Shopify statusside**.
+Du kan planlægge, at følgende tilbagevendende aktiviteter skal udføres automatisk. Du kan finde flere oplysninger i [Planlægge gentagne opgaver](background.md#to-schedule-recurring-tasks).
+
+## <a name="review-imported-orders"></a>Gennemgå importerede ordrer
+
+Når importen er fuldført, kan du udforske Shopify-ordren og finde alle relaterede oplysninger. F.eks. kan du finde betalingstransaktioner, leveringsomkostninger, risiko niveauer eller providere, hvis ordren allerede er blevet opfyldt i Shopify. Du kan også se enhver ordrebekræftelse, der er sendt til debitoren, ved at vælge handlingen **Shopify statusside**.
 
 > [!NOTE]  
 > Du kan navigere til vinduet **Shopify Ordrer** direkte, og du kan se ordrer med status *Åben* fra alle butikker. Hvis du vil have vist de færdige ordrer, skal du åbne siden **Shopify Ordrer** fra vinduet specifikt **Shopify Butikskort**-vindue.
 
-## <a name="create-sales-document-in-business-central"></a>Opret salgsdokument i Business Central
+## <a name="create-sales-documents-in-business-central"></a>Opret salgsdokument i Business Central
 
-Hvis til/fra-feltet **Automatisk oprettelse af ordrer** er aktiveret på **Shopify Butikskortet**, forsøger [!INCLUDE[prod_short](../includes/prod_short.md)] at oprette et salgsdokument, når ordren er blevet importeret. I tilfælde af, at der opstår problemer, f.eks. hvis en kunde eller et produkt mangler, skal du løse problemet og forsøge at oprette salgsordren igen.
+Hvis til/fra-feltet **Automatisk oprettelse af ordrer** er aktiveret på **Shopify Butikskortet**, forsøger [!INCLUDE[prod_short](../includes/prod_short.md)] at oprette et salgsdokument, når ordren er blevet importeret. Hvis processen løber ind i problemer, f. eks. Hvis en kunde eller et produkt mangler, skal du løse problemet. Derefter kan du forsøge at oprette salgsordren igen.
 
-### <a name="to-create-sales-document"></a>Oprette salgsdokument
+### <a name="to-create-sales-documents"></a>Oprette salgsdokumenter
 
 1. Gå til søgning ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Butik**, og vælg det relevante link.
 2. Marker den butik, som du vil synkronisere ordrer til for at åbne **Shopify Butikskort**-siden.
@@ -88,7 +92,7 @@ Hvis til/fra-feltet **Automatisk oprettelse af ordrer** er aktiveret på **Shopi
 4. Vælg den ordre, du vil oprette et salgsdokument for, og vælg handlingen **Opret salgsdokumenter**.
 5. Vælg **Ja**.
 
-Hvis Shopify-ordren kræver opfyldelse, oprettes der en **Salgsordre** for de gennemførte Shopify-ordrer. Hvis der f. eks. kun indeholder gavekort, oprettes **salgsfakturaen**.
+Hvis Shopify-ordren kræver opfyldelse, oprettes der en **Salgsordre**. For helt gennemførte Shopify-ordrer, f.eks. ordrer, der kun indeholder et gavekort, eller som allerede er håndteret i Shopify, oprettes **salgsfakturaen**.
 
 Der er nu oprettet et salgsdokument, som kan administreres vha. standard [!INCLUDE[prod_short](../includes/prod_short.md)]-funktionerne.
 
@@ -102,7 +106,7 @@ Hvis dine indstillinger forhindrer, at der oprettes en kunde automatisk, og der 
 
 ### <a name="tax-remarks"></a>Momskommentarer
 
-Mens den importerede Shopify-ordre viser oplysninger om moms, bliver momsen genberegnet, når du opretter et salgsdokument. Det er derfor vigtigt, at moms-og skatte indstillingerne er korrekte i [!INCLUDE[prod_short](../includes/prod_short.md)].
+Mens den importerede Shopify-ordre viser oplysninger om moms, bliver momsen genberegnet, når du opretter et salgsdokument. Det er derfor vigtigt, at moms- og skatteindstillingerne er korrekte i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 - Flere momssatser/momssatser. Nogle produktkategorier er f. eks. ansvarlige for reducerede skatte satser. Disse varer skal findes i [!INCLUDE[prod_short](../includes/prod_short.md)] og knyttes til Shopify-produkterne. Hvis du ikke gør det, bruges momsproduktbogføringsgruppen automatisk med automatisk oprettelse af manglende varer.
 

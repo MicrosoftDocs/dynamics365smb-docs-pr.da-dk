@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d6e329dbf6c8d5badfcb317261db18d8432d303
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 03e283bc2664b1f73a56c48fefdde9cba78918d2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147030"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799767"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Styring af Microsoft Teams-integration med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -30,16 +30,18 @@ I dette afsnit beskrives minimumkrav til [!INCLUDE [prod_short](includes/prod_sh
 
 - Krævede licenser
 
-    Denne tabel giver dig et overblik over de licenser, der er nødvendige for at [!INCLUDE [prod_short](includes/prod_short.md)]-appfunktionerne kan bruges i Teams.
+    [!INCLUDE[prod_short](includes/prod_short.md)]-appen kræver en Teams-licens via et firma eller et Microsoft 365-virksomhedsabonnement. Enkeltstående team abonnementer, f. eks Microsoft Teams (gratis) eller Microsoft Teams Essentials understøttes ikke.
 
-    |Hvad|Teams-licens|[!INCLUDE [prod_short](includes/prod_short.md)]-licens|
-    |----|---|---|
-    |Søg efter kontakter i [!INCLUDE [prod_short](includes/prod_short.md)].|![markering.](media/check.png "check")|![markering](media/check.png "check")|
-    |Indsæt et link til en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale, og send den som et kort.|![markering](media/check.png "check")|![markering](media/check.png "check")|
-    |Dele et hyperlink fra en side i [!INCLUDE [prod_short](includes/prod_short.md)] til en Teams-samtale.|![markering](media/check.png "check")|![markering](media/check.png "check")|
-    |Se et kort over en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale.|![markering](media/check.png "check")||
-    |Se flere oplysninger om et kort for en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale.|![markering](media/check.png "check")|![markering](media/check.png "check")|
-    |Åbn et sidelink i [!INCLUDE [prod_short](includes/prod_short.md)] fra en samtale.|![markering](media/check.png "check")|![markering](media/check.png "check")|
+    De fleste af [!INCLUDE[prod_short](includes/prod_short.md)]-appens funktioner til Teams kræver også en [!INCLUDE [prod_short](includes/prod_short.md)]-licens, som vist i følgende tabel.
+
+    |Hvad|[!INCLUDE [prod_short](includes/prod_short.md)]-licens|
+    |----|---|
+    |Søg efter kontakter i [!INCLUDE [prod_short](includes/prod_short.md)].|![markering](media/check.png "check")|
+    |Indsæt et link til en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale, og send den som et kort.|![markering](media/check.png "check")|
+    |Dele et hyperlink fra en side i [!INCLUDE [prod_short](includes/prod_short.md)] til en Teams-samtale.|![markering](media/check.png "check")|
+    |Se et kort over en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale.||
+    |Se flere oplysninger om et kort for en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale.|![markering](media/check.png "check")|
+    |Åbn et sidelink i [!INCLUDE [prod_short](includes/prod_short.md)] fra en samtale.|![markering](media/check.png "check")|
 
 - Tillad URL-prøveversion
 
@@ -85,7 +87,7 @@ I Microsoft Teams Administration kan du konfigurere Teams App-installation for o
 > [!NOTE]
 > Hvis du vil konfigurere centraliseret installation, skal Teams have rollen **Teams service administrator** eller **Global administrator**.
 
-1. I Business Central kan du vælge den ![Forstørrelsesglas, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikonet, skal du skrive **Teams App Centraliseret installation** og derefter vælge det relaterede link. Du kan desuden vælge [her](https://businesscentral.dynamics.com/?page=1833) for at åbne siden direkte.
+1. I Business Central kan du vælge det ![Forstørrelsesglas, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikonet, skal du skrive **Teams App Centraliseret installation** og derefter vælge det relaterede link. Du kan desuden vælge [her](https://businesscentral.dynamics.com/?page=1833) for at åbne siden direkte.
 2. Læs oplysningerne om **Konfigurere Business central-appen til Teams**, og vælg derefter **Næste**.
 3. Åbn [Teams Administration](https://go.microsoft.com/fwlink/?linkid=2163970), og gennemfør følgende trin.
     1. Gå til **Teams-apps** > **Opsætningspolitikker**.

@@ -10,16 +10,19 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 95d8aaf6749a2f02b1f586a2f235d3a5eaa7c21f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9dafc8e193ccf3c47947be6508a0917a45393c91
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525016"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950035"
 ---
 # <a name="get-started-creating-report-layouts"></a>Introduktion til oprettelse af rapportlayout
 
 Business central leveres med mange indbyggede layouts, som du kan bruge i rapporter. Andre layouts kan være tilføjet som en del af andre udvidelser. Men du kan også oprette dine egne rapporter fra bunden eller ud fra et eksisterende layout.
+
+> [!IMPORTANT]
+> Du kan også bruge rapportlayouts til at føje indhold til e-mailmeddelelser. F.eks. rapportlayout kan spare tid og være med til at sikre konsistensen ved at genbruge det samme indhold, når du kommunikerer med kunderne. Hvis du vil bruge brugerdefinerede rapportlayout med e-mail, skal det være et Word-filtypeformat. Du kan ikke bruge RDLC-filtypen. Du kan finde flere oplysninger i [angive genanvendelige e-mail-tekst og layout](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## <a name="overview"></a>Oversigt
 

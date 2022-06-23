@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e8229b1d911b51e065b3d5a94fff1a0253bd5e26
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518411"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950087"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Få Business Central-tilføjelsesprogram til Excel
 
@@ -123,15 +123,14 @@ Netværkstjenester som proxyer eller firewalls skal tillade routing mellem hver 
 
 Nogle gange løber brugerne ind i problemer med Excel-tilføjelsesprogrammet. Dette afsnit indeholder nogle tip til, hvordan du fjerner blokeringen af brugere under visse omstændigheder.
 
-|Udsted  |Løsning eller løsning  |Bemærkninger  |
+|Problem  |Løsning eller løsning  |Bemærkninger  |
 |---------|---------|---------|
 |Tilføjelsesprogrammet starter ikke|Kontroller, om tilføjelsesprogrammet er installeret centralt. Du kan også kontrollere, om brugeren er blokeret fra at installere den lokalt. | Administratoren kan konfigurere Office, så brugerne ikke kan hente tilføjelsesprogrammer. I disse tilfælde skal administratoren installere tilføjelsesprogrammet centralt. Yderligere oplysninger finder du under [Installere tilføjelsesprogrammer i Administration](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
 |Data indlæses ikke i Excel|Test forbindelsen ved at åbne en anden liste i Excel fra [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan også åbne projektmappen i Excel i en browser.|Hvis brugeren har angivet et firmanavn, der indeholder specialtegn, kan tilføjelsesprogrammet ikke oprette forbindelse. |
 |Data kan ikke udgives tilbage til [!INCLUDE [prod_short](includes/prod_short.md)].|Test forbindelsen ved at åbne projektmappen i Excel i en browser. |Nogle gange kan en udvidelse blokere udgivelsesjobbet. Hvis siden er udvidet eller tilpasset, skal du fjerne udvidelserne og derefter prøve igen.|
 |Datoerne er forkerte  |Excel kan vise klokkeslæt og datoer i et andet format end [!INCLUDE [prod_short](includes/prod_short.md)]. Denne betingelse gør dem ikke forkerte, og dataene i [!INCLUDE [prod_short](includes/prod_short.md)] bliver ikke blandet.|         |
 |For nogle listesider forårsager redigering af flere linjer i Excel konsekvent fejl. Denne betingelse kan opstå, hvis OData-kald omfatter FlowFields og felter uden for repeaterkontrolelementet.|Marker afkrydsningsfelterne **Udelad ikke-redigerbare FlowFields** og **Udelad felter uden for repeater** for den udgivne side på siden **Webtjenester**. Hvis du markerer disse afkrydsningsfelter, udelades ikke-redigerbare FlowFields og -felter fra eTag-beregningen. |Disse afkrydsningsfelter er som standard skjult. Hvis du vil have dem vist på siden **Webtjenester**, skal du bruge [tilpasning](/dynamics365/business-central/ui-personalization-user). |
-
-
+|Brugere kan ikke længere logge på tilføjelsesprogrammet. Når de forsøger at logge på, stopper processen uden at være færdig.| Dette problem kan skyldes en opdatering, som vi har lavet i tilføjelsesprogrammet. det kan i juli 2022. Du kan finde flere oplysninger om og en rettelse i afsnittet [ændre konfigurationen af Excel-Tilføjelsesprogrammet for at understøtte juli 2022 Update](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Gælder for [!INCLUDE [prod_short](includes/prod_short.md)] kun lokalt|
 
 <!--
 ## Deploy the Excel add-in for Business Central online

@@ -1,18 +1,18 @@
 ---
 title: Synkronisere varer og lager
 description: Oprette og køre synkroniseringer af varer mellem Shopify og Business Central
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: fac1a3df12070a2030d6d2d8dfd5e740d8cca4f9
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: ad69d58a84926041df1125809f748b9129cc64e2
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768106"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808955"
 ---
 # <a name="synchronize-items-and-inventory"></a>Synkronisere varer og lager
 
@@ -23,7 +23,7 @@ ms.locfileid: "8768106"
 
 Disse to scenarier er altid aktiverede.
 
-Et andet scenarie er, når data administreres i Shopify, og du vil importere elementerne samlet til [!INCLUDE[prod_short](../includes/prod_short.md)]. Dette scenario kan være nyttigt i forbindelse med dataoverførsels hændelser, når et eksisterende online shop skal tilsluttes en ny [!INCLUDE[prod_short](../includes/prod_short.md)].
+Et tredje scenario er at administrere data i Shopify, men indlæse disse elementer samlet i [!INCLUDE[prod_short](../includes/prod_short.md)]i. Dette scenario kan være nyttigt i forbindelse med dataoverførselshændelser, når du vil forbinde en eksisterende online shop med en ny [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## <a name="to-define-item-synchronizations"></a>Sådan defineres synkronisering af elementer
 
@@ -32,9 +32,9 @@ Et andet scenarie er, når data administreres i Shopify, og du vil importere ele
 
 |Indstilling|Beskrivelse|
 |------|-----------|
-|**Tomt**| Produkter importeres sammen med import af ordrer. Produkter eksporteres til Shopify, hvis brugeren kører handlingen **Tilføj vare** fra vinduet **Shopify Produkter**. Dette er standardfunktionsmåden. |
-|**Hvis du vil Shopify**| Vælg denne indstilling, hvis du vil opdatere produkterne manuelt ved hjælp af handlingen **Synkroniser produkt** eller vis jobkø for tilbagevendende opdateringer, når den første synkronisering blev udløst med handlingen **Tilføj vare**. Husk at aktivere feltet **Kan opdatere Shopify produkt**. Hvis det ikke er aktiveret, er indstillingen lig med **Tom**. |
-|**Fra Shopify**| Vælg denne indstilling, hvis du planlægger at masseimportere produkter fra Shopify enten manuelt ved hjælp af handlingen **Synkroniseringsprodukt** eller via jobkø for tilbagevendende opdateringer. Hvis der ikke er valgt nogen indstilling, er indstillingen lig med **tom** indstilling.|
+|**Tomt**| Produkter importeres sammen med import af ordrer. Produkter eksporteres til Shopify, hvis brugeren kører handlingen **Tilføj vare** fra siden **Shopify Produkter**. Processen er standardfunktionsmåden. |
+|**Hvis du vil Shopify**| Vælg denne indstilling, hvis du vil opdatere produkterne manuelt ved hjælp af handlingen **Synkroniser produkt** eller vis jobkø for tilbagevendende opdateringer, når den første synkronisering blev udløst med handlingen **Tilføj vare**. Husk at aktivere feltet **Kan opdatere Shopify produkt**. Hvis det ikke er aktiveret, er indstillingen lig med **Tom**. Få flere oplysninger i [Sådan eksporter du varer til Shopify](synchronize-items.md#export-items-to-shopify)|
+|**Fra Shopify**| Vælg denne indstilling, hvis du planlægger at masseimportere produkter fra Shopify enten manuelt ved hjælp af handlingen **Synkroniseringsprodukt** eller via jobkø for tilbagevendende opdateringer. Hvis der ikke er valgt nogen indstilling, er indstillingen lig med **tom** indstilling. Yderligere oplysninger om import af varer finder du i afsnittet [Import af varer fra Shopify](synchronize-items.md#import-items-from-shopify)|
 
 ## <a name="import-items-from-shopify"></a>Indlæs varer fra Shopify
 
@@ -42,9 +42,9 @@ Du kan enten masseimportere varer fra Shopify eller sammen med import af ordrer,
 
 |Felt|Beskrivelse|
 |------|-----------|
-|**Opret automatisk ukendte elementer**|Når Shopify-produkter og -varianter importeres til [!INCLUDE[prod_short](../includes/prod_short.md)], forsøger [!INCLUDE[prod_short](../includes/prod_short.md)]-funktionen altid at finde den tilsvarende post på varelisten først. **SKU-tilknytning** påvirker, hvordan match ingen udføres, og opretter en ny vare og/eller varevariant. Du kan finde flere oplysninger i [Produktilknytning](synchronize-items.md#). Aktiver denne indstilling, hvis du vil oprette en ny vare, eller hvis der ikke findes en matchende post. Den nye vare oprettes med den importerede data- og **vareskabelonkode**. Hvis denne indstilling ikke er aktiveret, skal du oprette en vare manuelt og bruge handlingen **Tilknyt produkt** fra siden **Shopify Produkter**.|
+|**Opret automatisk ukendte elementer**|Når Shopify-produkter og -varianter importeres til [!INCLUDE[prod_short](../includes/prod_short.md)], forsøger [!INCLUDE[prod_short](../includes/prod_short.md)]-funktionen altid at finde den tilsvarende post på varelisten først. **SKU-tilknytning** påvirker, hvordan match ingen udføres, og opretter en ny vare og/eller varevariant. Aktiver denne indstilling, hvis du vil oprette en ny vare, eller hvis der ikke findes en matchende post. Den nye vare oprettes med den importerede data- og **vareskabelonkode**. Hvis denne indstilling ikke er aktiveret, skal du oprette en vare manuelt og bruge handlingen **Tilknyt produkt** fra siden **Shopify Produkter**.|
 |**Vareskabelonkode**|Bruges sammen med **Automatisk oprettelse af ukendte varer**. <br> Vælg den standardskabelon, der skal bruges til automatisk oprettede varer.|
-|**SKU-tilknytning**|Vælg, hvordan du vil bruge **SKU**-værdien importeret fra Shopify under vare/variant-tilknytning og -oprettelse. Du kan finde flere oplysninger i [Sådan defineres SKU og Stregkode defineret i Shopify produkt, der påvirker tilknytning og oprettelse af varer og varianter](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
+|**SKU-tilknytning**|Vælg, hvordan du vil bruge **SKU**-værdien importeret fra Shopify under vare/variant-tilknytning og -oprettelse. Du kan finde flere oplysninger i [Sådan påvirker SKU og Stregkode, defineret i Shopify-produkt, tilknytning og oprettelse af varer og varianter](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
 |**SKU-feltseparator**|Bruges sammen med **SKU-tilknytning** angivet til **varenr. + variantkode**-indstlilingen.<br> Definer en separator, der skal bruges til at opdele SKU. <br>Hvis du f.eks. i Shopify opretter varianten med SKU '1000/001', skal du skrive '/' i feltet **SKU-feltseparator** for at få varenummeret i [!INCLUDE[prod_short](../includes/prod_short.md)] som '1000' og varevariantkoden som '001'.
 |**Variantpræfiks**|Bruges sammen med **SKU-tilknytning** angivet til **variantkode** eller **varenr. + variantkode**-indstillinger som fallback-strategi, når SKU, der kommer fra Shopify, er tom.<br>Hvis du vil oprette varevarianten i [!INCLUDE[prod_short](../includes/prod_short.md)] automatisk, skal du angive en værdi i **koden**. Den værdi, der er angivet i feltet SKU, som er indlæst fra Shopify, bruges som standard. Men hvis LAGERVAREN er tom, genereres kode, der starter med et defineret præfiks, og "001".|
 |**Shopify Kan opdatere vare**| Vælg denne mulighed, hvis du vil opdatere varer og/eller varianter automatisk.|
@@ -100,10 +100,10 @@ Du kan bruge følgende indstillinger til at administrere processen med at ekspor
 |SEO-sidetitel|Ret værdi: tom, se [Ad-Hoc-opdateringer af Shopify-produkter](synchronize-items.md#ad-hock-updates-of-shopify-products). |Bruges ikke.|
 |SEO-metabeskrivelse|Ret værdi: tom, se [Ad-Hoc-opdateringer af Shopify-produkter](synchronize-items.md#ad-hock-updates-of-shopify-products). |Bruges ikke.|
 |Medier|**Billede**, se [synkronisere element billeder](synchronize-items.md#sync-item-images), hvor der er flere oplysningner|**Billede**|
-|Pris|Slut kundepris beregnes med hensyn til vareprisgruppe, varerabatgruppe, valutakode og debitorskabelonkode. |Bruges ikke.|
-|Sammenlign med pris|Pris uden rabat beregnes med hensyn til vare prisgruppe, varerabatgruppe, valutakode og debitorskabelonkode. |Bruges ikke.|
+|Pris|Beregningen af slutkundepris beregnes med hensyn til vareprisgruppe, varerabatgruppe, valutakode og debitorskabelonkode. |Bruges ikke.|
+|Sammenlign med pris|Beregningen af pris uden rabat omfatter vareprisgruppe, varerabatgruppe, valutakode og debitorskabelonkode. |Bruges ikke.|
 |Sager pr. vare|**Kostpris**|**Kostpris**|
-|Varenummer|Se **Lagervaretilknytning** i [Eksport varer for at Shopify](synchronize-items.md#export-items-to-shopify)| Se [Sådan defineres Lagervarer og Stregkode i Shopify produkt, der påvirker tilknytning og oprettelse af varer og varianter](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-impact-mapping-and-creation-of-items-and-variants-in-business-central)|
+|Varenummer|Se **Lagervaretilknytning** i [Eksport varer for at Shopify](synchronize-items.md#export-items-to-shopify)| Se [Sådan defineres SKU og Stregkode, der er defineret i Shopify-produkt, der påvirker tilknytning og oprettelse af varer og varianter](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
 |Stregkode|**Varereferencer** til stregkodetype|**Varereferencer** til stregkodetype|
 |Spor antal|I henhold til **Lager sporet** i **Shopify produktionskortet**. Der er flere oplysninger i [Lager](synchronize-items.md#sync-inventory-to-shopify).|Bruges ikke.|
 |Fortsætte med at sælge, når der ikke er mere lager|I henhold til **Lager sporet** i **Shopify produktionskortet**. Ikke importeret.|Bruges ikke.|
@@ -115,7 +115,7 @@ Du kan bruge følgende indstillinger til at administrere processen med at ekspor
 
 ### <a name="tags"></a>Koder
 
-Importerede koder kan gennemses i faktaboksen **Koder** i **Shopify produktet**. Rediger tags ved at vælge handlingen **Tags** på siden **Shopify Produkt**.
+Gennemse importerede koder i faktaboksen **Koder** på siden **Shopify-produkt**. Rediger tags ved at vælge handlingen **Tags** på siden **Shopify Produkt**.
 Hvis indstillingen **Til Shopify** er valgt i feltet **Synkroniser vare**, eksporteres tilknyttede tags til Shopify næste synkronisering.
 
 ## <a name="run-item-synchronization"></a>Kør varesynkronisering
@@ -139,6 +139,8 @@ De oprettede varer oprettes automatisk i Shopify med priser, men der medtages ik
 3. Vælg handlingen **Synkroniser produkter**.
 
 Du kan også bruge handlingen **Synkroniser produkter** i vinduet **Shopify Produkter** eller søg efter **Synkroniseringsprodukter**.
+
+Du kan planlægge, at følgende tilbagevendende aktiviteter skal udføres automatisk. Du kan finde flere oplysninger i [Planlægge gentagne opgaver](background.md#to-schedule-recurring-tasks).
 
 ### <a name="ad-hock-updates-of-shopify-products"></a>Ad-Hoc-opdateringer for Shopify-produkter
 
@@ -195,8 +197,8 @@ Der kan udlæses priser for synkroniserede varer på den måde, der er beskrevet
 
 ### <a name="price-calculation-remarks"></a>Bemærkninger til prisberegning
 
-* Ved prisberegning er det vigtigt, at der er en værdi i feltet **Standarddebitorskabelon**.
-* Husk at angive en **Valutakode**, hvis din online-butik bruger en anden valuta end den relevante regnskabsvaluta.
+* Ved prisberegning er det vigtigt, at der er en værdi i feltet **Standarddebitorskabelon**. [!INCLUDE[prod_short](../includes/prod_short.md)] bruger værdien i feltet **momsvirksomhedsgruppe** til at beregne prisen inkl. moms. Du kan oprette en debitorprisgruppe, hvor du vælger feltet **Salgspris inkl. moms** og angiver den relevante værdi i feltet **moms-finanspost gr. (salgspris)**.
+* Angiv en **Valutakode**, hvis din online-butik bruger en anden valuta end den relevante regnskabsvaluta. Der skal være konfigureret valutakurser for den angivne valuta. Hvis dit onlineindkøb bruger samme valuta som [!INCLUDE[prod_short](../includes/prod_short.md)], skal du lade feltet stå tomt.
 * Når du fastlægger en pris, [!INCLUDE[prod_short](../includes/prod_short.md)] bruges logikken "laveste kurs". Det betyder, at hvis den enhedspris, der er defineret på varekortet, er lavere end det, der er defineret i prisgruppen, bruges salgsprisen fra varekortet.
 
 ## <a name="sync-inventory-to-shopify"></a>Synkroniser lager med Shopify
@@ -231,7 +233,7 @@ Du kan initialisere lagersynkronisering på to måder.
 ### <a name="inventory-remarks"></a>Lagerokmmentarer
 
 * Connectoren beregner det **planlagte disponible resultat** og eksporterer den til Shopify.
-* Du kan kontrollere de modtagne lageroplysninger fra Shopify på siden **Shopify Lager-faktaboks**. I denne faktaboks får du en oversigt over Shopify lagerbeholdningen og den sidst beregnede lagerbeholdning i [!INCLUDE[prod_short](../includes/prod_short.md)]. Der er en post pr. lokation.
+* Du kan kontrollere de modtagne lageroplysninger fra Shopify på siden **Shopify Lager-faktaboks**. I denne faktaboks får du en oversigt over Shopify-lagerbeholdningen og den sidst beregnede lagerbeholdning i [!INCLUDE[prod_short](../includes/prod_short.md)]. Der er en post pr. lokation.
 * Hvis lageroplysningerne i Shopify er forskellige fra **Planlagt disponibel resultat** i [!INCLUDE[prod_short](../includes/prod_short.md)], opdateres lageret i Shopify.
 
 ## <a name="see-also"></a>Se også

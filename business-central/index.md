@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 0a901fca9da818459e8c94735c041dfbafff9471
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 07dfa98c8499a2a9c7de9d5005d941f8d65aa7fb
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518125"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805070"
 ---
 # <a name="welcome-to-prod_long"></a>Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -71,6 +71,7 @@ Følgende afsnit peger på nøgleartikler, som du kan bruge til at få kendskab 
 ## <a name="development-and-administration-content"></a>Udvikling og administration, indhold
 
 - [Udvikling og administration](/dynamics365/business-central/dev-itpro/index)
+- [Prøveversioner og abonnementer](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 - [Udvikling i AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 - [AL-udviklingsmiljø](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Regler og retningslinjer for AL-kode](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)

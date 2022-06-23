@@ -101,13 +101,13 @@
 ## Prøv
 ### [Tilmeld dig for at få en gratis Dynamics 365 Business Central-prøveversion](trial-signup.md)
 ### [Dynamics 365 Business Central-prøveversion, ofte stillede spørgsmål](trial-faq.md)
-### [Prøveversioner og abonnementer](across-preview.md)
+### [Prøveversioner og abonnementer (kun på engelsk)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)
 ### [Bliv klar til at agere](ui-get-ready-business.md)
 ### [Fejlfinding af selvbetjeningstilmelding](ui-troubleshoot-self-signup.md)
 ### [Udvide din prøveversion](admin-extend-trial.md)
 ### [Opsig eller fjern Business Central](admin-cancel.md)
 ## Køb
-### [Introduktion til et abonnement](across-preview.md#get-started-with-a-subscription)
+### [Introduktion til et abonnement](trial-signup.md#get-started-with-a-subscription)
 ### [Bliv klar til at agere](ui-get-ready-business.md)
 
 ## Hurtig startvejledninger
@@ -358,6 +358,7 @@
 #### [Om lagerkostmetode](finance-learn-about-costing.md)
 #### [Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md)
 #### [Om beregning af standardomkostning](finance-about-calculating-standard-cost.md)
+#### [Om Kostprisberegning](finance-about-calculating-unit-cost.md)
 #### [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)
 #### [Arbejde med lagerperioder](finance-how-to-work-with-inventory-periods.md)
 #### [Opsætning af lagerværdi og lageromkostningsadministration](finance-set-up-inventory-valuation-and-costing.md)
@@ -1424,6 +1425,7 @@
 ##### [Salgsmoms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Rapportering af salgsmoms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Rapportering af transaktioner som 1099-pligtige i USA](LocalFunctionality/UnitedStates/tax-1099.md)  
+##### [Opsætte og bruge formen IRS 1099](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Oprette forbrugsafgift og købsmoms](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Oprette urealiseret moms og kontantrabatter på salg](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Banktransaktioiner og betalinger
@@ -1474,6 +1476,7 @@
 #### [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md)
 #### [Registrere specialsalgspriser og -rabatter](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Oprette debitorprisgrupper](sales-how-to-set-up-customer-price-groups.md)
+#### [Oprette debitorrabatgrupper](sales-how-to-set-up-customer-discount-groups.md)
 #### [Konfigurere sælgere](sales-how-setup-salespeople.md)
 #### [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md)
 #### [Sende dokumenter som mail](ui-how-send-documents-email.md)
@@ -1811,12 +1814,12 @@
 #### [QuickBooks Online Dataoverførsel](ui-extensions-quickbooks-online-data-migration.md)
 #### [Import af Quickbooks-lønfiler](ui-extensions-quickbooks-payroll.md)
 #### [Salgs- og lagerprognose](ui-extensions-sales-forecast.md)
-#### [Administration af momsgruppe](ui-extensions-vat-group.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [DK – C5-dataoverførsel](ui-extensions-c5-data-migration.md)
 #### [DK - Betalinger og afstemninger](ui-extensions-payments-reconciliation-formats-dk.md)
 #### [DK – Tax File Formats](ui-extensions-tax-file-formats-dk.md)
 #### [UK – GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
+#### [UK - Administration af momsgruppe](ui-extensions-vat-group.md)
 #### [US/CA/UK/AU/NZ/ZA - Send remitteringsadvis](ui-extensions-send-remittance-advice.md)
 #### [Business Central-udvidelser fra andre leverandører](ui-extensions-other.md)
 ## Integrere med Dynamics 365 Sales

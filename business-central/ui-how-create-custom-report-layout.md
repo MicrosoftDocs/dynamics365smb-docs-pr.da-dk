@@ -8,37 +8,39 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 04/01/2021
+ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 74a59567c7eb24673df62fe76b974c9b7bb58bf0
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 5e25685241e85a1a90ac23c7eb47f9808f3239b9
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557168"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950378"
 ---
 # <a name="legacy-create-and-modify-custom-report-layouts"></a>(Ældre) Sådan opretter og ændrer du Brugerdefinerede rapportlayouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
-Som standard har en rapport et indbygget rapportlayout, som enten kan være et RDLC-rapportlayout eller Word-rapportlayout eller begge typer. Du kan ikke redigere indbyggede layout, men du kan oprette brugerdefinerede layout. En rapport kan have flere brugerdefinerede rapportlayout, hvor du kan skifte det layout, der bruges, efter behov.
+Som standard har rapporter et indbygget rapportlayout. Layoutet kan være enten et RDLC-rapportlayout, et Word-rapportlayout eller begge dele. Du kan ikke redigere indbyggede layout, men du kan oprette brugerdefinerede layout. En rapport kan have flere brugerdefinerede rapportlayout.
 
 > [!NOTE]  
 > I [!INCLUDE[prod_short](includes/prod_short.md)] omfatter "rapporter" også eksternt orienterede dokumenter, f.eks. salgsfakturaer og ordrebekræftelser, som du sender til kunder som PDF-filer.
 
-Hvis du vil oprette et brugerdefineret layout, kan du enten oprette en kopi af et eksisterende brugerdefineret layout eller tilføje et nyt brugerdefineret layout, som i de fleste tilfælde er baseret på et indbygget layout. Når du tilføjer et nyt brugerdefineret layout, kan du tilføje en RDLC- eller Word-rapportlayouttype - eller begge dele. Det nye brugerdefinerede layout vil automatisk blive baseret på det indbyggede layout for rapporten, hvis det findes. Hvis der ikke er noget indbygget layout til teksten, oprettes et nyt tomt layout. Du skal ændre og designe dette tomme layout fra bunden. Find flere oplysninger om RDLC- og Word-rapportlayout, indbyggede og brugerdefinerede layout og mere under [Administration af rapportlayout](ui-manage-report-layouts.md).  
+Hvis du vil oprette et brugerdefineret layout, skal du enten kopiere et eksisterende brugerdefineret layout eller tilføje et nyt brugerdefineret layout. Brugerdefinerede layouts er ofte baseret på indbyggede layout. Når du tilføjer et nyt brugerdefineret layout, kan du tilføje en RDLC- eller Word-rapportlayouttype - eller begge dele. Det nye brugerdefinerede layout vil automatisk blive baseret på det indbyggede layout for rapporten, hvis det findes. Hvis der ikke er noget indbygget layout til teksten, oprettes et nyt tomt layout. Du skal ændre og designe dette tomme layout fra bunden. Find flere oplysninger om RDLC- og Word-rapportlayout, indbyggede og brugerdefinerede layout og mere under [Administration af rapportlayout](ui-manage-report-layouts.md).  
 
 > [!TIP]
 > Du kan bruge kontoskemaer til at få indsigt i de finansielle oplysninger, der er gemt i din kontoplan. Se [Forberede Financial Reporting med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md) for at få flere oplysninger.
 
-Når der er defineret brugerdefinerede rapportlayout, kan du vælge dem fra debitor- og leverandørkortene for at angive, at det valgte layout skal bruges til de dokumenter, som du har oprettet for den pågældende debitor eller leverandør. Du kan finde flere oplysninger i [Definition af Dokumentlayouts til debitorer og leverandører](ui-define-customer-vendor-document-layouts.md).
+Når du har defineret tilpassede rapportlayout, kan du vælge dem på debitor- og kreditor-kortsider. Disse layout bruges, når du opretter dokumenter til debitoren eller kreditoren. Du kan finde flere oplysninger i [Definition af Dokumentlayouts til debitorer og leverandører](ui-define-customer-vendor-document-layouts.md).
+
+Du kan også bruge brugerdefinerede rapportlayouts til at føje indhold til e-mailmeddelelser. Rapportlayout kan spare tid og være med til at sikre konsistensen ved at genbruge det samme indhold, når du kommunikerer med kunderne. Hvis du vil bruge brugerdefinerede rapportlayout med e-mail, skal det være et Word-filtypeformat. Du kan ikke bruge RDLC-filtypen. Du kan finde flere oplysninger i [angive genanvendelige e-mail-tekst og layout](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## <a name="to-create-a-custom-layout"></a>Sådan opretter du et brugerdefineret layout
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Valg af rapportlayout**, og vælg derefter det relaterede link.
 
     Siden **Valg af rapportlayout** viser en liste over alle de rapporter, der er tilgængelige i den virksomhed, der er angivet i feltet **Virksomhedsnavn** øverst på siden.
-2. Indstil feltet **Virksomhed** til den virksomhed, hvor du vil oprette rapportlayoutet.
+2. Indstil feltet **Virksomhedsnavn** skal du vælge det firma, som du vil oprette rapportlayout for.
 3. Vælg rækken med den rapport, du vil oprette layoutet for, og vælg derefter handlingen **Brugerdefinerede layout**.  
 
    Siden **Brugerdefinerede layout** vises med alle brugerdefinerede layout, der er tilgængelige for den valgte rapport.
@@ -47,8 +49,8 @@ Når der er defineret brugerdefinerede rapportlayout, kan du vælge dem fra debi
    Kopien af det brugerdefinerede layout vises på siden **Brugerdefinerede layout** og indeholder ordene *Kopi af* i feltet **Beskrivelse**.
 5. Hvis du vil tilføje et nyt brugerdefineret layout, der er baseret på et indbygget layout, skal du gøre følgende:  
    1. Vælg handlingen **Ny**. Siden **Indsæt indbygget layout til en rapport** åbnes. Felterne **Id** og **Navn** udfyldes automatisk.
-   2. Hvis du vil tilføje en brugerdefineret Word-rapportlayouttype, skal du markere afkrydsningsfeltet **Indsæt Word-layout**.
-   3. Hvis du vil tilføje en brugerdefineret RDLC-rapportlayouttype, skal du markere afkrydsningsfeltet **Indsæt RDLC-layout**.
+   2. Hvis du vil tilføje en brugerdefineret Word-rapportlayouttype, skal du aktivere afkrydsningsfeltet **Indsæt Word-layout**.
+   3. Hvis du vil tilføje en brugerdefineret RDLC-rapportlayouttype, skal du aktivere afkrydsningsfeltet **Indsæt RDLC-layout**.
    4. Vælg knappen **OK**.  
 
     Det nye brugerdefinerede layout vises nu på siden **Tilpassede rapportlayouts**. Hvis et nyt layout er baseret på et indbygget layout, så har den ordene **Kopi af et indbygget layout** i feltet **Beskrivelse**. Hvis der ikke var noget indbygget layout for rapporten, har det nye layout ordene **Nyt layout** i feltet **Beskrivelse**, fordi det brugerdefinerede layout er tomt.

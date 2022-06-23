@@ -10,12 +10,12 @@ ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 843de26d836e8cf16f1f4f79d4ec697c481eebc0
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654964"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805224"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Opret nye virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -32,11 +32,11 @@ Hvis du vil indsætte en virksomhed i [!INCLUDE[prod_short](includes/prod_short.
 Installationsguiden har to skabeloner og en tom indstilling:
 
 - **Evaluering - eksempeldata**  
-    Den opretter en virksomhed, der ligner demoregnskabet med eksempeldata og opsætningsdata. Denne type virksomhed er tilgængelig uden at skifte til [en 30-dages prøveperiode](across-preview.md#add-your-own-data-to-an-empty-trial-company), som de andre typer gør.  
+    Den opretter en virksomhed, der ligner demoregnskabet med eksempeldata og opsætningsdata. Denne type virksomhed er tilgængelig uden at skifte til en 30-dages prøveperiode, som de andre typer gør.  
 - **Produktion - kun opsætningsdata**  
-    Den opretter en virksomhed, der ligner **Min virksomhed** med opsætningsdata, men uden eksempeldata. Du kan bruge denne virksomhed i en [prøveperiode på 30 dage](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Den opretter en virksomhed, der ligner **Min virksomhed** med opsætningsdata, men uden eksempeldata. Du kan bruge denne virksomhed i en prøveperiode på 30 dage.  
 - **Opret ny - Ingen data**  
-    Der oprettes en tom virksomhed uden opsætningsdata. Du kan bruge denne virksomhed i en [prøveperiode på 30 dage](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Der oprettes en tom virksomhed uden opsætningsdata. Du kan bruge denne virksomhed i en prøveperiode på 30 dage.  
 
 Hvis du vil komme hurtigt i gang med en ny virksomhed, kan du vælge **Produktion - Kun konfigurationsdata** og derefter importere dine egne forretningsdata, som f.eks. debitorer, varer og kreditorer. Vælg skabelonen **Ny**, hvis du vil oprette alt fra bunden. I så fald kan du bruge den assisterende opsætningsvejledning **Virksomhedsopsætning** til at hjælpe dig i gang med de vigtige opsætningsdata.  
 
@@ -44,6 +44,8 @@ Hvis du vil komme hurtigt i gang med en ny virksomhed, kan du vælge **Produktio
 > Når du opretter en ny virksomhed, tager det nogle minutter, før du kan få adgang til den i [!INCLUDE[prod_short](includes/prod_short.md)]. Opsætningsstatussen på siden **Virksomheder** vises som standard, når den nye virksomhed er klar til dig. Derefter kan du skifte til den nye virksomhed ved hjælp af **Mine indstillinger**.  
 
 Under din 30-dages prøveperiode kan du oprette et ubegrænset antal nye virksomheder, men de er kun tilgængelige under prøveperioden. Kontakt din [!INCLUDE[prod_short](includes/prod_short.md)]-partner for at få yderligere oplysninger. Se også artiklen om [Dynamics 365 Business Central-prøveversionen, ofte stillede spørgsmål](trial-faq.md).  
+
+Administratoren kan få mere at vide om forsøg og abonnement [her](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
 ## <a name="copy-a-company"></a>Kopiér virksomhed
 
@@ -84,7 +86,6 @@ Contoso Coffee-app indeholder demonstrationsdata, som du kan bruge til at unders
 [Import af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Blive køreklar](ui-get-ready-business.md)  
-[Prøveversioner og abonnementer](across-preview.md)  
 [Forståelse af infrastrukturen i Business central online (kun engelsk)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

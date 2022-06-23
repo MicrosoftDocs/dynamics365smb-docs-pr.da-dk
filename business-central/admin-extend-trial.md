@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 756d40cb590a4944d0abbbd3c02991b5135eabb9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2da669b7bc7675c1af7143e0a4702ab6655a7bca
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381216"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805096"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Har du brug for mere tid til at beslutte, om du vil oprette et abonnement?
 
@@ -52,8 +52,8 @@ Når den forlængede prøveperiode er udløbet, kan du [abonnere](https://go.mic
 
 ## <a name="see-also"></a>Se også
 
+[Prøveversioner og abonnementer (kun på engelsk)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Oprettelse af nye virksomheder](about-new-company.md)  
-[Prøveversioner og abonnementer](across-preview.md)  
 [Hvordan finder jeg en videresalgspartner?](/dynamics365/business-central/across-faq#findpartner)  
 [Forlængelse af prøveperioder (som administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Sådan kommer du i gang som forhandler af Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  

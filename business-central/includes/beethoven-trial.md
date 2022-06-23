@@ -1,20 +1,20 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 02/23/2022
+ms.date: 06/08/2022
 ms.author: edupont
-ms.openlocfilehash: 8f46c780d88df95264137814f0f49d72dd17bc75
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: fd1448c9fd32b359bf40a02b90a3ee6a66a5d685
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367286"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950251"
 ---
 ## <a name="sign-up"></a>Tilmelding
 
 ### <a name="which-email-address-i-should-use-to-sign-up"></a>Hvilken mailadresse skal jeg bruge til at tilmelde mig?
 
-Brug din arbejds-eller skolemailadresse. Vi opretter en prøveversion af din organisationskonto. Du kan ikke bruge e-mail-adresser fra forbruger-e-mail-udbydere eller telekommunikationsudbydere, f. eks. outlook.com, hotmail.com, gmail.com, og andre.  
+Brug din arbejds-eller skolemailadresse. Vi opretter en prøveversion af din organisationskonto. Du kan ikke bruge e-mail-adresser fra forbruger-e-mail-udbydere eller telekommunikationsudbydere, f. eks. *outlook.com*, *hotmail.com*, *gmail.com* og andre.  
 
 ### <a name="what-are-the-system-requirements-for-the-trial"></a>Hvilke systemkrav gælder for prøveversionen?
 
@@ -39,7 +39,7 @@ Når du tilmelder dig en prøveversion, modtager du en mail med oplysningerne om
 
 ### <a name="how-do-i-add-more-users-to-a-trial"></a>Hvordan føjer jeg flere brugere til en test?
 
-Hvis du vil tilføje brugere, skal du bede administratoren om at gå til [Microsoft 365 Administration](https://admin.microsoft.com), hvor de kan følge [administrationsvejledningen](/microsoft-365/admin/add-users/add-users) for at føje brugere op til prøvelicensgrænsen. Hvis den bruger, du tilføjer, allerede har en Microsoft 365-konto, skal du tildele dem den relevante licens. Du kan finde flere oplysninger i [Tilføje brugere](/microsoft-365/admin/manage/assign-licenses-to-users) i Microsoft 365-indholdet.
+Administratoren skal gå til [Microsoft 365 Administration](https://admin.microsoft.com) for at kunne tilføje brugere. Følg [retningslinjerne for administration](/microsoft-365/admin/add-users/add-users) for at tilføje brugere op til prøveversionens licensgrænse. Hvis den bruger, du tilføjer, allerede har en Microsoft 365-konto, skal du tildele dem den relevante licens. Du kan finde flere oplysninger i [Tilføje brugere](/microsoft-365/admin/manage/assign-licenses-to-users) i Microsoft 365-indholdet.
 
 ### <a name="how-many-users-can-i-add-to-my-trial-environment"></a>Hvor mange brugere kan jeg føje til mit prøvemiljø?
 
@@ -47,11 +47,9 @@ Du kan føje et ubegrænset antal brugere til prøvemiljøet.
 
 ### <a name="how-do-i-reset-the-trial-environment"></a>Hvordan nulstiller jeg prøvemiljøet?
 
-Du kan ikke nulstille prøvemiljøet. Men din administrator kan oprette nye sandkassemiljøer, hvor du kan spille om de forskellige muligheder. Du kan finde flere oplysninger i [Produktions- og sandkassemiljøer](/dynamics365/business-central/dev-itpro/administration/environment-types) i administrationsindholdet.  
+Du kan ikke nulstille prøvemiljøet. Men bed din administrator om at oprette nyt sandkassemiljø, hvor du kan spille om de forskellige muligheder. Du kan finde flere oplysninger i [Produktions- og sandkassemiljøer](/dynamics365/business-central/dev-itpro/administration/environment-types) i administrationsindholdet.  
 
 Hvis du vil annullere [!INCLUDE [prod_short](prod_short.md)] i løbet af en prøveperiode, skal du bede din Microsoft 365-administrator om at fjerne prøveabonnementet fra din virksomhedskonto i [Microsoft 365 Administration](https://admin.microsoft.com/). Se også [Opsig eller slet [!INCLUDE[prod_short](prod_short.md)]](../admin-cancel.md).  
-
-Hvis du har tilmeldt dig Dynamics 365 Business Central ved hjælp af en ikke-Microsoft 365-virksomhedskonto, har du ikke en Microsoft 365 Administrator. Du kan opsige abonnementet ved at kontakte [!INCLUDE[prod_short](prod_short.md)]-annulleringsteamet og sende en mail til [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). Du skal tilføje navnet på din [!INCLUDE[prod_short](prod_short.md)]-lejer i meddelelsen, så vi kan identificere dig. Du kan finde disse oplysninger på siden **Hjælp og support**, som du åbner fra **?** menu. Du kan finde flere oplysninger i [Ressourcer til Hjælp og support](../product-help-and-support.md).  
 
 ## <a name="trial-expiration-and-extension"></a>Udløb og forlængelse af prøveperiode
 

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: invoicing, bookings
 ms.search.form: 1638, 6702, 6704
-ms.date: 06/16/2021
+ms.date: 05/20/2022
 ms.author: edupont
-ms.openlocfilehash: c0abb4d4389dd3896f1aceedb42d51aca0e61000
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4423b51e7cac952bb2abcf41f9e9364d7bc098c0
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139569"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799712"
 ---
 # <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Massefakturering for Microsoft Bookings i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -28,7 +28,7 @@ For at forbinde din [!INCLUDE[prod_short](includes/prod_short.md)] med Bookings 
 Hvis du vil synkronisere kunder mellem Bookings og [!INCLUDE[prod_short](includes/prod_short.md)], skal du angive den standardskabelon, der skal bruges, for at tilføje nye debitorer i [!INCLUDE[prod_short](includes/prod_short.md)] baseret på debitorerne i din Bookings-virksomhed.  
 
 > [!NOTE]
-> Appen Bookings er udviklet til bogførte aftaler for individuelle debitorer i stedet for virksomheder. Synkroniseringen med [!INCLUDE[prod_short](includes/prod_short.md)] vil derfor kun synkronisere debitorkontakter med typen "Person". Der kræves også en mailadresse for kontakten til synkronisering.  
+> Appen Bookings er udviklet til bogførte aftaler for individuelle debitorer i stedet for virksomheder. Synkroniseringen med [!INCLUDE[prod_short](includes/prod_short.md)] vil derfor kun synkronisere debitorkontakter med typen *Person*. Der kræves også en mailadresse for kontakten til synkronisering.  
 
 Hvis du på samme måde vil synkronisere serviceartikler mellem Bookings og [!INCLUDE[prod_short](includes/prod_short.md)], skal du angive den standardskabelon, der skal bruges, for at tilføje nye serviceartikler i [!INCLUDE[prod_short](includes/prod_short.md)] baseret på tjenesterne i din Bookings-virksomhed.  
 
@@ -40,6 +40,9 @@ Hvis du på samme måde vil synkronisere serviceartikler mellem Bookings og [!IN
 Når du skal sende fakturaer for de færdige reservationer, skal du gå til siden **Ikke-fakturerede Bookings**. Afhængigt af hvor ofte oplysningerne synkroniseres er listen lang eller kort. Du kan oprette fakturaer for alle reservationer på listen eller én reservation ad gangen. Du kan vælge en eller flere poster på listen og fakturere dem som de eneste.  
 
 Understøttelse af faktureringsaftaler fra Bookings er lettere end den fulde arbejdsproces, hvor du arbejder med tilbud, salgsordrer og salgsfakturaer. Du kan finde flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md). Du kan vælge at sælge dine tjenesteydelser ved hjælp af [!INCLUDE[prod_short](includes/prod_short.md)] eller vælge at bruge Bookings, afhængigt af dine forretningsbehov.  
+
+> [!NOTE]
+> I maj 2022 har vi fundet en fejl i integrationen med Books. Synkronisere fra Books til [!INCLUDE [prod_short](includes/prod_short.md)] kræver aktuelt, at du manuelt skal knytte fakturaerne til debitorer [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="see-also"></a>Se også
 
