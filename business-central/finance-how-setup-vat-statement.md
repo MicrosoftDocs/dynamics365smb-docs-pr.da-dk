@@ -10,12 +10,12 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 356eb4fd32eff269b166767ae3b6cb3df6b67f1b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: bda2bc95c78f5cc2119a6725b7dd57491938d67b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383693"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075521"
 ---
 # <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Konfigurere momsangivelsestyper og momsangivelsesnavne
 
@@ -45,10 +45,12 @@ Når du har defineret en momsangivelse, kan du få vist et eksempel på den for 
 4. På de linjer, hvor der står **Momspostsammentælling** i feltet **Type**, kan du få vist en oversigt over momsposter ved at vælge beløbet i feltet **Kolonnebeløb**.
 5. Du kan bruge tilpasning til at få vist flere felter på linjerne. F.eks. det urealiserede basisbeløb og det urealiserede momsbeløb, hvis du bruger urealiseret moms.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
 
 [Konfigurere moms](finance-setup-vat.md)  
-[Opsætning af ikke-realiseret moms](finance-setup-unrealized-vat.md)      
+[Opsætning af ikke-realiseret moms](finance-setup-unrealized-vat.md)  
 [Rapportere moms til skattemyndighederne](finance-how-report-vat.md)  
 [Arbejde med moms af salg og køb](finance-work-with-vat.md)  
 [Lokal funktionalitet i Business Central](about-localization.md)

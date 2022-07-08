@@ -10,29 +10,35 @@ ms.search.keywords: purchasing agent
 ms.search.form: 14, 5116
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 366feb242578d79ece0553bc8fba570403d8cde1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c9389ca6a888e81c67aa9e6421e20e5b43d35d38
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520834"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078592"
 ---
 # <a name="set-up-purchasers"></a>Oprette indkøbere
+
 Hvis der er mange indkøbere ansat i virksomheden, kan du oprette dem på en side og tildele dem en kode. Du kan så bruge koderne til at lave statistikker og analysere oplysninger i rapporter.<br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q7hU?rel=0]
 
 ## <a name="to-set-up-purchasers"></a>Sådan oprettes indkøbere
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sælgere/indkøbere**, og vælg derefter det relaterede link.
 2. På siden **Sælgere/indkøbere** skal du vælge handlingen **Ny**.
 3. På siden **Sælger-/indkøberkort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-purchasers-to-vendors"></a>Sådan tildeles indkøbere til leverandører
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.
 2. Åbn det relevante kreditorkort for den leverandør, du vil tildele en indkøber.
 3. Vælg den relevante indkøberkode i feltet **Indkøberkode**, og luk derefter siden.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
+
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

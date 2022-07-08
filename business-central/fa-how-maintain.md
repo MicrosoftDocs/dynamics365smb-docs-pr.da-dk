@@ -10,14 +10,15 @@ ms.search.keywords: repair, service
 ms.search.form: 5642, 5625
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 8427a75127775e1f10576067e4ea122e7f9ad8b3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 18be12c81ddfebd07c1311e6a0f338712f842f21
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523549"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078200"
 ---
 # <a name="maintain-fixed-assets"></a>Vedligeholde anlægsaktiver
+
 Reparationsudgifter er periodisk forekommende rutineomkostninger, der afholdes for at bevare anlægsaktivernes værdi. I modsætning til kapitalforbedringer forøges deres værdi ikke.
 
 Du kan registrere og vedligeholde en opdateret fil om anlægsreparation og -service, så du har en nemt tilgængelig og fuldstændig fortegnelse over reparation af et anlæg. Hver gang et anlægsaktiv bliver sendt til service, registrerer du alle relevante oplysninger som f.eks. dato, kreditornummer og reparatørens telefonnummer. Der bliver foretaget reparationsregistrering for hvert enkelt anlægsaktiv fra anlægskortet.
@@ -25,6 +26,7 @@ Du kan registrere og vedligeholde en opdateret fil om anlægsreparation og -serv
 Indeksering anvendes til at justere for ændringer af det generelle prisniveau. Kørslen **Indeksér anlæg** kan bruges til at genberegne reparationsomkostningerne.
 
 ## <a name="to-record-maintenance-work-on-a-fixed-asset"></a>Sådan registreres reparationsarbejde på et anlægsaktiv
+
 Hver gang der er udført reparationsopgaver, f.eks. et servicebesøg, kan du registrere det for det pågældende anlægsaktiv på siden **Reparationsregistreringer**.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsaktiver**, og vælg derefter det relaterede link.  
@@ -32,6 +34,7 @@ Hver gang der er udført reparationsopgaver, f.eks. et servicebesøg, kan du reg
 3. På siden **Reparationsregistrering** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>Sådan bogføres reparationsomkostninger fra en anlægskassekladde
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Afskrivningsprofiloversigt**, og vælg derefter det relaterede link.  
 2. Vælg den afskrivningsprofil, der er tildelt anlægsaktivet, og vælg derefter handlingen **Rediger**.
 3. På siden **Afskrivningsprofilkort** skal du kontrollere, at afkrydsningsfeltet **Vedligeholdese** ikke er markeret. Dette sikrer, at vedlligeholdelsesomkostninger ikke bogføres i finansregnskabet.
@@ -45,6 +48,7 @@ Hver gang der er udført reparationsopgaver, f.eks. et servicebesøg, kan du reg
 8. Vælg handlingen **Bogfør**.
 
 ## <a name="to-follow-up-on-fixed-assets-service-visits"></a>Sådan følger du op på servicebesøg på anlæg
+
 Du kan udskrive rapporten **Reparation - næste service** for at se, hvilke anlæg der er planlagt servicebesøg for. Du kan også bruge denne rapport, når du opdaterer feltet **Næste servicedato** på anlægskort.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Reparation - næste service**, og vælg derefter det relaterede link.  
@@ -52,6 +56,7 @@ Du kan udskrive rapporten **Reparation - næste service** for at se, hvilke anl�
 3. Vælg knappen **Udskriv** eller **Vis udskrift**.
 
 ## <a name="to-monitor-maintenance-costs"></a>Sådan overvåges reparationsomkostningerne
+
 Du kan se reparationsomkostningerne i statistikken for et anlægsaktiv.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsaktiver**, og vælg derefter det relaterede link.
@@ -62,6 +67,7 @@ Du kan se reparationsomkostningerne i statistikken for et anlægsaktiv.
 Siden **Reparationsposter** åbnes med de poster, som indgår i beløbet i feltet **Reparation**.
 
 ## <a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets"></a>Sådan får du vist eller udskriver reparationsomkostninger for flere anlægsaktiver
+
 I rapporten **Reparation - analyse** kan du vælge, om du vil have vist vedligeholdelse ud fra en, to eller tre reparationskoder på en bestemt dato eller i en bestemt periode. Du kan se totalen for alle valgte aktiver eller totalen for hvert enkelt aktiv.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Reparationsanalyse**, og vælg derefter det relaterede link.
@@ -69,6 +75,7 @@ I rapporten **Reparation - analyse** kan du vælge, om du vil have vist vedligeh
 3. Vælg knappen **Udskriv** eller **Vis udskrift**.
 
 ## <a name="to-view-maintenance-ledger-entries"></a>Sådan får du vist reparationsposter
+
 Du kan også undersøge reparationsomkostningerne ved at se på reparationsposterne.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsaktiver**, og vælg derefter det relaterede link.
@@ -76,13 +83,17 @@ Du kan også undersøge reparationsomkostningerne ved at se på reparationsposte
 3. På siden **Anlægsafskrivningsprofiler** skal du vælge den relevante anlægsafskrivningsprofil og derefter vælge handlingen **Reparationsposter**.
 
 ## <a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a>Sådan får du vist eller udskriver reparationsposter for flere anlægsaktiver
+
 I feltet **Reparationsposter** kan du få vist eller udskrive reparationsposter for et eller flere anlægsaktiver.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Reparationsdetaljer**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov.
 3. Vælg knappen **Udskriv** eller **Vis udskrift**.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/manage-fixed-assets-maintenance-insurances/)
+
 ## <a name="see-also"></a>Se også
+
 [Anlægsaktiver](fa-manage.md)  
 [Opsætning af Anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  

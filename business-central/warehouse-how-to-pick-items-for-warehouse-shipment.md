@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5d46916a96a55cf71c6b018fc66b4165c742b632
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 730308e265f7a3fef3ad4a8069ea3f5c6bf0a7d2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518571"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078384"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Plukke varer til lagerleverance
+
 Når lokationen kræver lagerpluk og lagerleverance, skal du bruge lagerplukdokumenterne til at oprette og behandle plukoplysningerne, inden du bogfører den pågældende lagerleverance.  
 
 Du kan ikke oprette et lagerplukdokument fra bunden, fordi en plukaktivitet altid er en del af en arbejdsproces, enten i et pull- eller push-scenario.  
@@ -36,7 +37,8 @@ Du kan også oprette lagerplukdokumenter på en push-måde fra siden **Lagerleve
 >   
 >  Se [Plukke til produktion eller montage](warehouse-how-to-pick-for-production.md) for at få oplysninger om pluk af komponenter til montageordrer generelt, herunder situationer, hvor montageelementet ikke er forfaldent på en salgsleverance.  
 
-## <a name="to-pick-items-for-warehouse-shipment"></a>Sådan plukkes varer til lagerleverance  
+## <a name="to-pick-items-for-warehouse-shipment"></a>Sådan plukkes varer til lagerleverance
+
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk**, og vælg derefter det relaterede link.  
 
     Hvis du skal arbejde med et bestemt pluk, skal du vælge plukket på listen eller filtrere oversigten for at finde de pluk, der er blevet tildelt specielt til dig. Åbn plukkortet.  
@@ -54,6 +56,7 @@ Den person, der er ansvarlig for leveringen, kan nu bringe varerne til forsendel
 Foruden pluk for kildedokumenter, som beskrevet i dette emne, kan du hente og placere varer mellem placeringer uden at bruge kildedokumenter. Du kan finde flere oplysninger i [Plukke og lægge på lager uden kildedokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
 ## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Håndtering af montageordrevarer i lagerleverancer
+
 I montageordrescenarier bruges feltet **Lever (antal)** på lagerleverancelinjerne til at registrere, hvor mange enheder der monteres. Den angivne mængde bogføres derefter som montageoutput, når er bogført lagerleverance.
 
 For andre lagerleverancelinjer er værdien i feltet **Lever (antal)** nul fra start.
@@ -72,7 +75,10 @@ Når lagerleverance bogføres, opdateres forskellige felter på salgsordrelinjen
 
 > I dette tilfælde håndteres montage efter ordre-antal som beskrevet i dette emne, og beholdningsantal håndteres som enhver anden lagerleverancelinje. Du kan finde flere oplysninger om kombinationsscenarier i [Om Montage til ordre og Montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+
+## <a name="see-also"></a>Se også
+
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     

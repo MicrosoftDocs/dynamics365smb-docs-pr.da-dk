@@ -10,12 +10,12 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.search.form: 256, 404,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1b4d3f152f74e1bba9f30e7da45e1b910301b4df
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f9b819205fe3292e7a3de5e8de232616a511ca24
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520226"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077186"
 ---
 # <a name="make-check-payments"></a>Foretage betalinger med check
 
@@ -37,6 +37,7 @@ Du kan betale med to checktyper. Ved begge typer skal feltet **Modkontotype** el
 Du kan udskrive op til 10 fakturaer på en side til en checktalon. Hvis en check skal gælde for mere end 10 fakturaer, annullere vi checken på første side, når du udskriver talonen, og skriver ordet ANNULLERET på checken. Vi udskriver derefter resten af fakturaerne og det samlede checkbeløb på den anden side.
 
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Sådan betales en kreditorfaktura med en computercheck
+
 I følgende fremgangsmåde vises, hvordan du betaler en kreditor med check. Fremgangsmåden er den samme, hvis du vil refundere en debitor med check.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udbetalingskladder**, og vælg derefter det relaterede link.
@@ -56,6 +57,7 @@ Der oprettes helt udlignede kreditorposter og bankposter.
 > Hvis du vil udskrive og betale checks i mere end én valuta fra forskellige bankkonti, skal du udføre kørslen **Udskriv check** separat for hver valuta og angive den korrekte bankkonto.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Sådan annulleres udskrevne checks, der ikke er blevet bogført
+
 Du kan annullere ikke-bogførte checks, når de er blevet udskrevet, ved hjælp af handlingen **Annuller check** på siden **Udbetalingskladde**.
 
 1. På siden **Udbetalingskladde** skal du vælge **Annuller Check**, og vælg derefter hvilke checks der skal annulleres.
@@ -74,11 +76,15 @@ Når checkbetalingen er blevet bogført, kan du kun annullere checks fra de resu
 5. Vælg knappen **OK**.
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Sådan får du vist en oversigt over bogførte checks
+
 Hvis du vil gennemse bogførte checks, for eksempel for at kontrollere flere checks, der er betalt til én kreditor, kan du bruge rapporten **Bankkonto - checkoplysninger**.
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonto - checkoplysninger**, og vælg derefter det relaterede link.
 2. Angiv filtre som relevante, og vælg derefter knappen **Eksempel**.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/use-checks-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
+
 [Foretage betaling](payables-make-payments.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Konfigurere banktransaktioner](bank-setup-banking.md)  

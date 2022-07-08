@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: f4fedcf64f560cef7e4b2f96d5baf884161fd75e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: be30d89ca6ad6c80b27b0cc8f5e619b6ad5c7782
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511554"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078018"
 ---
 # <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Konfigurere varesporing med serie-, lot- og pakkenumre
 
@@ -85,10 +85,12 @@ Hvis du vil aktivere varesporing, skal du først tildele varesporingskoderne til
 3. I oversigtspanelet **varesporing** skal du tildele de relevante varesporingskoder og vælge **Varesporingskode**, **serienumre** og **lotnumre**.
     1. Du kan også vælge at oprette en ny varesporingskode ved at vælge den **nye** handling.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/prepare-item-tracking/)
+
 ## <a name="see-also"></a>Se også
 
-[Arbejde med serienumre og lotnumre ](inventory-how-work-item-tracking.md)
-[sporing af elementer med sporet](inventory-how-to-trace-item-tracked-items.md)  
+[Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)  
+[Spore vare via varesporing](inventory-how-to-trace-item-tracked-items.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Designoplysninger: Varesporing](design-details-item-tracking.md)  
 [Designoplysninger - Varesporing og reservationer](design-details-item-tracking-and-reservations.md)  

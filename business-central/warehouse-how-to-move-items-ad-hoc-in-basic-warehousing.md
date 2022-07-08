@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.form: 393, 7382
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: aa3c8b246d83ac222b4ceeb43124c835ca955850
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 08e8d8a0f8507f1b67d5209d8e76a5f1268d2548
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520600"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078436"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Flytte varer ad hoc i grundlæggende lageropsætninger
+
 Du kan undertiden have brug for at flytte varer mellem interne placeringer ikke modtagelse eller leveranceplacering uden et bestemt krav fra et kildedokument. Du kan udføre disse ad hoc-bevægelser, for eksempel for at omstrukturere lageret, for at bringe elementer til et inspektionsområde eller for at flytte flere elementer til og fra et produktionsområde uden en systemrelation til produktionsordrens kildedokument.  
 
 I grundlæggende lageropsætninger, dvs. lokationer, der bruger opsætningsfeltet **Tvungen placering** og eventuelt opsætningsfelterne **Kræv pluk** og **Kræv læg-på-lager**, kan du registrere ad hoc-bevægelser uden kildedokumenter på følgende måder:  
@@ -28,7 +29,8 @@ I grundlæggende lageropsætninger, dvs. lokationer, der bruger opsætningsfelte
 > [!NOTE]  
 >  I avancerede lageropsætninger, dvs. lokationer, der bruger opsætningsfeltet **Styret læg-på-lager og pluk**, bruges siden **Bevægelseskladde** eller **Internt lagerpluk** eller **Internt læg-på-lager** til ad hoc-flytning af varer mellem placeringer.  
 
-## <a name="to-move-items-as-an-internal-movement"></a>Sådan flyttes varer som en intern overførsel  
+## <a name="to-move-items-as-an-internal-movement"></a>Sådan flyttes varer som en intern overførsel
+
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Intern flytning**, og vælg derefter det relaterede link.  
 2.  Udfyld feltet **Nummer** i oversigtspanelet **Generelt**. enten ved at lade værdien i feltet være eller ved at vælge knappen **AssistEdit** for at vælge fra nummerserien.  
 3.  I feltet **Lokationskode** skal du indtaste den lokation, hvor flytningen finder sted.  
@@ -36,7 +38,7 @@ I grundlæggende lageropsætninger, dvs. lokationer, der bruger opsætningsfelte
     Hvis lokationen er angivet som din standardlokation som lagermedarbejder, indsættes lokationskoden automatisk.  
 4.  I feltet **Til placeringskode** skal du indtaste en kode for den placering, du vil flytte elementet til. Til produktionsformål kunne dette f.eks. være koden for den åbne produktionsplacering som defineret på lokationskort eller i arbejdscenteret.  
 5.  I feltet **Forfaldsdato** skal du indtaste den dato, som bevægelsen skal være udført inden.  
-6.  På oversigtspanelet **Linjer** skal du vælge feltet **Varenr.** for at åbne siden **Placeringsindh.oversigt** og vælge den vare, der skal flyttes baseret på dens tilgængelighed på placeringerne. Alternativt kan du vælge handlingen **Hent placeringsindh.** for at udfylde de interne overflytningslinjer på grundlag af dine filtre. Du kan finde flere oplysninger i værktøjstip til handlingen **Hent placeringsindh**.   
+6.  På oversigtspanelet **Linjer** skal du vælge feltet **Varenr.** for at åbne siden **Placeringsindh.oversigt** og vælge den vare, der skal flyttes baseret på dens tilgængelighed på placeringerne. Alternativt kan du vælge handlingen **Hent placeringsindh.** for at udfylde de interne overflytningslinjer på grundlag af dine filtre. Du kan finde flere oplysninger i værktøjstip til handlingen **Hent placeringsindh**.  
 
     Når du har markeret elementet, udfyldes feltet **Fra placeringskode** automatisk i henhold til det valgte placeringsindhold, men du kan ændre det til en anden placering, hvor varen er tilgængelig.  
 
@@ -57,7 +59,9 @@ I grundlæggende lageropsætninger, dvs. lokationer, der bruger opsætningsfelte
     Du udfører resten af ad hoc-bevægelsen på siden **Flytning (lager)** på samme måde som i en bevægelse, der er baseret på kildedokumenter. Du kan finde flere oplysninger i f.eks. [Flytte komponenter til et handlingsområde i grundlæggende lageropsætninger](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Sådan flyttes varer i vareomposteringskladden
-I stedet for at bruge lagerbevægelsesdokument kan du registrere flytningen af varer ved at ompostere deres placeringskoder. Du kan finde flere oplysninger i [Tælle, justere og ompostere inventar ved hjælp af kladder](inventory-how-count-adjust-reclassify.md).   
+
+I stedet for at bruge lagerbevægelsesdokument kan du registrere flytningen af varer ved at ompostere deres placeringskoder. Du kan finde flere oplysninger i [Tælle, justere og ompostere inventar ved hjælp af kladder](inventory-how-count-adjust-reclassify.md).
+
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Vareomposteringskladder**, og vælg derefter det relaterede link.  
 2.  På hver kladdelinje skal du definere placeringer, og som du vil flytte elementer til og fra, ved at udfylde felterne **Placeringskode** og **Ny placeringskode**.  
 
@@ -69,11 +73,14 @@ I stedet for at bruge lagerbevægelsesdokument kan du registrere flytningen af v
     > [!NOTE]  
     >  I modsætning til transportdokumenter opretter en bevægelse, der er bogført i omposteringskladden, ikke en lageranmodning for at udføre den fysiske opgave.  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+
+## <a name="see-also"></a>Se også
+
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
-[Montagestyring](assembly-assemble-items.md)    
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
+[Montagestyring](assembly-assemble-items.md)  
 [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

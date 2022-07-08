@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 611a182a7f2b2202dd03e709da22183f762fe351
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b7e2ae55e231cdadf02a0a8e91f6d3ad066a0cb5
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382815"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075220"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Gennemgang: Sporing af serie-/lotnumre
 
@@ -189,7 +189,8 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
     Dernæst skal sælge racercykler. Først skal du sælge racercykler med SN1 til Ravel Møbler A/S.  
 
-### <a name="to-sell-the-end-items"></a>Sælge færdigvarer  
+### <a name="to-sell-the-end-items"></a>Sælge færdigvarer
+
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**, og opret derefter en salgsordre ved at udfylde følgende felter.  
 
@@ -228,10 +229,12 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
     Dermed er klargøringen af data til demonstrationen af varesporings- og Find poster-funktionerne færdig.  
 
-## <a name="tracing-from-usage-to-origin"></a>Sporing fra brug til oprindelse  
+## <a name="tracing-from-usage-to-origin"></a>Sporing fra brug til oprindelse
+
  Salgsafdelingen har fortalt den ansvarlige for kvalitetssikring, at den returnerede racercykel, vare 1002, har serienummeret SN1. Ved at anvende denne grundlæggende oplysning kan han finde ud af, hvor racercyklen sidst blev brugt, i dette tilfælde som salgsleverance til Ravel Møbler. Den ansvarlige for kvalitetssikringen skal derefter foretage en sporing tilbage til den tidligste oprindelse for at finde ud af, hvilket lotnummer det fejlbehæftede racerstel kom fra, og hvilken leverandør der leverede det.  
 
-### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Sådan finder du ud af, hvilket lot det fejlbehæftede stel kommer fra, og hvem der leverede det  
+### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Sådan finder du ud af, hvilket lot det fejlbehæftede stel kommer fra, og hvem der leverede det
+
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varesporing**, og vælg derefter det relaterede link.  
 2.  På siden **Varesporing** skal du indtaste **SN1** i feltet **Serienr.filter** og derefter indtaste **1002** i feltet **Varefilter**.  
 3.  Behold standardindstillingen **Kun varesporing** i feltet **Vis komponenter**, og behold standardsporingsmetoden **Brug - Oprindelse** i **Sporingsmetode**.  
@@ -257,7 +260,8 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
      Dermed er den første opgave med administration af fejlbehæftede varer ved hjælp af siden **Varesporing** udført. Den ansvarlige for kvalitetssikring skal nu finde ud af, om der er andre bogførte bilag, hvor der indgår racerstel fra LOT1.  
 
-## <a name="tracing-from-origin-to-usage"></a>Sporing fra oprindelse til brug  
+## <a name="tracing-from-origin-to-usage"></a>Sporing fra oprindelse til brug
+
  Den ansvarlige for kvalitetssikring har fastlagt, at de fejlbehæftede racerstel kom fra LOT1. Han skal nu finde eventuelt andre racercykler, der bruger racerstel fra det fejlbehæftede lot, således at disse cykler kan stoppes eller tilbagekaldes.  
 
  En måde, du kan forberede denne sporingsopgave på siden **Varesporing** på, er manuelt at indtaste LOT1 i feltet **Lotnr.filter** og 2000 i feltet **Varefilter**. I denne gennemgang vil vi dog bruge funktionen **Spor modsat - fra linje**.  
@@ -280,7 +284,8 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
     Dermed er den anden opgave med administration af fejlbehæftede varer ved hjælp af siden **Varesporing** udført. Da siden **Varesporing** kun er baseret på de bogførte poster, skal den ansvarlige for kvalitetssikringen fortsætte til siden **Find poster** for at sikre, at LOT1 ikke er brugt i ikke-bogførte bilag.  
 
-## <a name="finding-all-records-of-a-seriallot-number"></a>Find alle poster for et serie-/lotnummer  
+## <a name="finding-all-records-of-a-seriallot-number"></a>Find alle poster for et serie-/lotnummer
+
  Den ansvarlige for kvalitetssikringen brugte siden **Varesporing** til at finde ud af, at LOT1 indeholdt fejlbehæftede racerstel, hvem leverandøren var, og i hvilken bogførte transaktion de er brugt. Han skal nu finde ud af, om LOT1 findes i eventuelle andre åbne bilag, ved integrering af sporingsresultatet til siden **Find poster**, hvor han kan foretage en søgning i alle databaseposter.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Sådan findes alle forekomster af LOT1 i ikke-bogførte poster, som f.eks. åbne ordrer  
@@ -298,12 +303,14 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
  Dermed er denne gennemgang i, hvordan siden **Find poster** bruges til administration af fejlbehæftede varer sammen med siden **Varesporing**, færdig.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/use-serial-lot-numbers/)
+
 ## <a name="see-also"></a>Se også
+
 [Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)  
 [Spore vare via varesporing](inventory-how-to-trace-item-tracked-items.md)  
 [Find poster](ui-find-entries.md)  
 [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
-
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

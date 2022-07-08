@@ -9,19 +9,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0301e17b0082c2ac7be37670757065e4ff6fcaf7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9308412e7b1bfc19cb11187e22ae1b2d2f6c339b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513727"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077576"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Kombinere leverancer på én enkelt faktura
+
 Hvis du vil fakturere mere end én leverance samtidig, kan du bruge samlefunktionen.  
 
 Før du kan oprette en samleleverance, skal der bogføres mere end én salgsleverance i samme valuta til den samme kunde. Du skal med andre ord oprette to eller flere salgsordrer og bogføre dem som leveret, men ikke faktureret. 
 
-## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Sådan kombinerer du manuelt leverancer på én enkelt faktura  
+## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Sådan kombinerer du manuelt leverancer på én enkelt faktura
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsfakturaer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. Du kan finde flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md).
 3. I feltet **Kundenr** skal du angive den kunde, der skal modtage fakturaen for de leverede varer.  
@@ -37,7 +39,8 @@ Før du kan oprette en samleleverance, skal der bogføres mere end én salgsleve
 > [!TIP]  
 > Hvis du har leveret ordrer, hvor feltet **Kundenr.** er forskellig fra feltet **Faktureres til kundenr.**, vises disse linjer ikke i rapporten **Hent salgsleverancelinjer**. Bruge personlige indstillinger til at føje feltet **kundenavn** på siden og fjerne filteret. Du kan nu føje leverancelinjer til fakturaen, uanset værdien i feltet **Kundenr.**, hvis feltet **Faktureres til kundenr.** på leverancelinjerne svarer til værdien på salgsfakturaen.  
 
-## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Sådan kombinerer du automatisk leverancer på én enkelt faktura  
+## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Sådan kombinerer du automatisk leverancer på én enkelt faktura
+
 [!INCLUDE[prod_short](includes/prod_short.md)] vælger kun salgsordrer, hvor **Tillad samlefaktura** er valgt. 
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kombinere leverancer**, og vælg derefter det relaterede link. Kørselssiden åbnes.  
@@ -48,7 +51,8 @@ Før du kan oprette en samleleverance, skal der bogføres mere end én salgsleve
 > [!NOTE]  
 >  Du er nødt til at bogføre fakturaerne manuelt, hvis afkrydsningsfeltet **Bogfør fakturaer** ikke var markeret til kørslen.  
 
-## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Sådan fjernes åbne salgsordrer efter bogføring af kombineret leverance 
+## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Sådan fjernes åbne salgsordrer efter bogføring af kombineret leverance
+
 Når leverancer samles på en faktura og bogføres, oprettes der en bogført salgsfaktura for de fakturerede linjer. Feltet **Faktureret (antal)** på den oprindelige rammesalgsordre eller salgsordre opdateres på basis af det fakturerede antal.  
 
 Når du fakturerer leverancer på denne måde, findes de ordrer, som leverancerne er bogført fra, stadig, selvom de er leveret og faktureret i fuldt omfang.   
@@ -61,7 +65,10 @@ Du kan også slette individuelle salgsordrer manuelt.
 
 Gentag trin 1 til 3 for eventuelle andre berørte dokumenter, f.eks. rammesalgsordrer.
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se også
+
 [Salg](sales-manage-sales.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

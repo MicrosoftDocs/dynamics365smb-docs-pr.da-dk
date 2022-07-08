@@ -9,23 +9,26 @@ ms.workload: na
 ms.search.form: 5623, 5615, 5661, 5662, 5627, 5616, 5620, 5629, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9532dad89e3d88acf60e5c56af6c75ff9fc24fd1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8053112fb80c2d90725103bccc6cd335ad825dc0
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523497"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074948"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Angive generelle oplysninger om anlægsaktiver
+
 Før du kan administrere anlægsaktiver, skal du oprette standardfinanskonti, allokeringsnøgler, kladdetyper og -navne for bogføring og ompostering af anlægsaktiver, og du kan klassificere anlægsaktiver i arter, f.eks materielle og immaterielle.
 
 ## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Sådan defineres generelle standardværdier for anlæg
+
 Du definere den generelle funktionsmåde eller anlægsaktivets funktion og oprette dokumentnummerserier på siden **Anlægsopsætning**.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsopsætning**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-fixed-asset-posting-groups"></a>Sådan oprettes anlægsbogføringsgrupper
+
 Bogføringsgrupper bruges til at definere grupper af anlægsaktiver. Disse bogføringsgruppers poster bogføres på samme finanskonti.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsbogføringsgrupper**, og vælg derefter det relaterede link.  
@@ -39,6 +42,7 @@ Bogføringsgrupper bruges til at definere grupper af anlægsaktiver. Disse bogf�
 Yderligere oplysninger om brug af handlingen **Indsæt anlægsmodkonto** til anlægskassekladdelinjer finder du f.eks. under [Regulere anlægsaktiver](fa-how-revalue.md).
 
 ## <a name="to-set-up-fixed-asset-allocation-keys"></a>Sådan defineres allokeringsnøgler for anlægsaktiver
+
 Transaktioner kan allokeres på forskellige afdelinger eller projekter ud fra brugerdefinerede allokeringsnøgler. Du kan f.eks. definere en allokeringsnøgle til at allokere afskrivningerne på biler med 35 procent til administrationsafdelingen og 65 procent til salgsafdelingen. Du kan finde flere oplysninger i [Fordele omkostninger og indtægter](year-allocate-costs-income.md).
 
 Allokeringsnøgler gælder for anlægsarter og ikke for de enkelte anlægsaktiver.
@@ -49,6 +53,7 @@ Allokeringsnøgler gælder for anlægsarter og ikke for de enkelte anlægsaktive
 4. Gentag trin 2 og 3 for hver bogføringstype, du vil definere allokeringsnøgler for.
 
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Sådan defineres anlægskladdetyper
+
 En type er et foruddefineret format for en kladde. Typen indeholder oplysninger om sporingskoder, rapporter og nummerserier. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] opretter automatisk en anlægskladdetype, første gang du åbner siden **Anlægskladde**, men du kan definere flere kladdetyper.  
@@ -57,6 +62,7 @@ En type er et foruddefineret format for en kladde. Typen indeholder oplysninger 
 2. Udfyld felterne efter behov.
 
 ## <a name="to-set-up-fixed-asset-journal-batches"></a>Sådan defineres anlægskladdenavne
+
 Du kan angive flere kladdenavne, som er individuelle kladder for hver kladdetype. En medarbejder kan f.eks. have sin egen kladde, hvor medarbejderens initialer anvendes som kladdenavn. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægskladdetyper**, og vælg derefter det relaterede link.  
@@ -64,12 +70,14 @@ Du kan angive flere kladdenavne, som er individuelle kladder for hver kladdetype
 3. På siden **Anlægskladdenavne** skal du udfylde felterne efter behov.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Sådan defineres anlægsomposteringskladdetyper
+
 Du kan bruge dedikerede omposteringskladder, når du skal overføre, opdele eller kombinere anlægsaktiver. [!INCLUDE[prod_short](includes/prod_short.md)] opretter automatisk en anlægsomposteringskladdetype, første gang du åbner siden **Anlægsompost.kladde**, men du kan definere flere omposteringskladdetyper. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsompost.kladdetype**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-batches"></a>Sådan defineres anlægsomposteringskladdenavne
+
 Du kan angive flere kladdenavne, som er individuelle kladder for hver omposteringskladdetype. En medarbejder kan f.eks. have sin egen omposteringskladde, hvor medarbejderens initialer anvendes som omposteringskladdenavn. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsompost.kladdetype**, og vælg derefter det relaterede link.  
@@ -77,24 +85,28 @@ Du kan angive flere kladdenavne, som er individuelle kladder for hver omposterin
 3. På siden **Anlægsompost.kld.navne** skal du udfylde felterne efter behov.
 
 ## <a name="to-set-up-fixed-asset-class-codes"></a>Sådan angives anlægsartskoder
+
 Anlægsartskoder kan bruges til at gruppere anlægsaktiver, f.eks. materielle og immaterielle aktiver.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsarter**, og vælg derefter det relaterede link.
 2. Angiv koder og navne for de arter, du vil oprette.
 
 ## <a name="to-set-up-fixed-asset-subclass-codes"></a>Sådan angives anlægsgruppekoder
+
 Du kan bruge anlægsgruppekoder til at gruppere anlægsaktiver i kategorier, f.eks. bygninger, køretøjer, møbler eller maskiner.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsgrupper**, og vælg derefter det relaterede link.
 2. Angiv koder og navne for de arter, du vil oprette.
 
 ## <a name="to-set-up-fixed-asset-location-codes"></a>Sådan angives anlægslokationskoder
+
 Du kan bruge anlægslokationskoder til at registrere anlæggets lokation, f.eks. salgsafdelingen, receptionen, administrationen, produktionen eller lagerstedet. Disse oplysninger er nyttige i forbindelse med forsikring og lagerstedet.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægslokationer**, og vælg derefter det relaterede link.
 2. Angiv koder og navne for de anlægslokationer, du vil oprette.
 
 ## <a name="to-register-opening-entries"></a>Sådan registreres åbningsposter
+
 Hvis det er første gang, du bruger modulet Anlæg i [!INCLUDE[prod_short](includes/prod_short.md)], skal du konfigurere finansmodulet, før du konfigurerer anlægsaktiver. Hvordan du gør dette afhænger af, om anlægsaktiverne er integreret med regnskabet.  
 
  Følgende fremgangsmåde bruges, hvis anlægstransaktioner skal bogføres til finansposterne.  
@@ -117,8 +129,11 @@ Hvis det er første gang, du bruger modulet Anlæg i [!INCLUDE[prod_short](inclu
 
 Hvis anlægsaktiverne ikke er integreret med finansposterne, skal du springe trin 6 og 8 over.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
+
 ## <a name="see-also"></a>Se også
-[Opsætning af anlægsaktiver](fa-setup.md)  
+
+[Opsætning af Anlægsaktiver](fa-setup.md)  
 [Anlægsaktiver](fa-manage.md)  
 [Finans](finance.md)  
 [Blive køreklar](ui-get-ready-business.md)  

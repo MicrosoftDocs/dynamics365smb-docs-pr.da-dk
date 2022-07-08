@@ -10,14 +10,15 @@ ms.search.keywords: write down
 ms.search.form: 5610, 5611, 5629, 5633, 5659, 5660, 5663, 5619, 5666
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 3202fb5906328da08eed10ad722b914eb5b5afcb
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8defe24ef55db891a630d1bce647382286901eaa
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511073"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074974"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Afskrive på eller amortisere anlægsaktiver
+
 Afskrivning bruges til at allokere prisen for et anlægsaktiv, f.eks. maskiner og udstyr, over anlæggets afskrivningslevetid. For hvert anlæg skal du definere, hvordan det skal afskrives.  
 
  Der er to måder at bogføre afskrivning på:  
@@ -34,6 +35,7 @@ Du kan annullere fejlbehæftede afskrivningsposter ved at udføre kørslen **Ann
 Indeksering anvendes til at justere for ændringer af det generelle prisniveau. Du kan bruge kørslen **Indekser anlæg** til at genberegne afskrivningsbeløbene.  
 
 ## <a name="to-calculate-depreciation-automatically"></a>Sådan beregnes afskrivning automatisk
+
 Du kan når som helst, f.eks. en gang om måneden, udføre kørslen **Beregn afskrivning**. Kørslen ignorerer anlæg, der er blevet solgt, er spærret eller er inaktive, eller som bruger den manuelle afskrivningsmetode.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Beregn afskrivning**, og vælg derefter det relaterede link.  
@@ -54,6 +56,7 @@ Du kan når som helst, f.eks. en gang om måneden, udføre kørslen **Beregn afs
 
 
 ## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Sådan bogføres afskrivning manuelt fra anlægskassekladden
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægskassekladde**, og vælg derefter det relaterede link.  
 2. Opret en første kladdelinje, og udfyld felterne efter behov.  
 3. I feltet **Anlægsbogføringstype** skal du vælge **Afskrivning**.  
@@ -65,6 +68,7 @@ Feltet **Bogfør værdi** på siden **Anlægskort** opdateres tilsvarende.
 Hvis du har defineret anlægsallokeringsnøgler for at kunne allokere beløb til forskellige afdelinger eller projekter, allokeres beløbene under bogføringen. Du kan finde flere oplysninger i [Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md).  
 
 ## <a name="to-manage-the-ending-book-value"></a>Sådan administreres den slutbogførte værdi
+
 I feltet **Slutbogført værdi** på siden **Anlægsafskrivningsprofiler** kan du angive den bogførte værdi, som anlægsaktivet skal have på den aktuelle afskrivningsprofil, når det er blevet afskrevet fuldt ud. Du kan gøre dette manuelt, eller du kan udfylde feltet **Standard slutbogført værdi** på den relaterede side **Afskrivningsprofil**, som derefter bruges til automatisk at udfylde feltet.
 
 > [!NOTE]
@@ -72,6 +76,7 @@ I feltet **Slutbogført værdi** på siden **Anlægsafskrivningsprofiler** kan d
 > Hvis værdien i feltet **Bogført værdi** er større end nul efter den seneste afskrivning, eksempelvis på grund af et afrundingsproblem eller fordi der findes en skrapværdi, ignoreres værdien i feltet **Slutbogført værdi** på siden **Anlægsafskrivningsprofiler**. Du kan finde flere oplysninger i [Sådan bogføres skrapværdien sammen med anskaffelsesprisen](fa-how-acquire.md#to-post-the-salvage-value-together-with-the-acquisition-cost).
 
 ## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Sådan beregnes allokeringer i anlægskassekladden
+
 Hvis et anlæg bruges af flere afdelinger, kan periodisk afskrivning allokeres automatisk på disse afdelinger ud fra en brugerdefineret allokeringstabel.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægskassekladde**, og vælg derefter det relaterede link.  
@@ -81,6 +86,7 @@ Hvis et anlæg bruges af flere afdelinger, kan periodisk afskrivning allokeres a
 5. Vælg handlingen **Bogfør** for at bogføre kladden.  
 
 ## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Bruge kopilister til at forberede bogføring af flere afskrivningsprofiler
+
 Når du udfylder kladdelinjer, der skal bogføres til en afskrivningsprofil, kan du kopiere linjerne til en særskilt kladde, så du kan bogføre i en anden afskrivningsprofil. Du kan finde flere oplysninger i [Sådan bogføres poster til forskellige afskrivningsprofiler](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Afskrivningsprofiloversigt**, og vælg derefter det relaterede link.  
@@ -90,6 +96,7 @@ Når du udfylder kladdelinjer, der skal bogføres til en afskrivningsprofil, kan
 >   Hvis du har markeret afkrydsningsfeltet **Brug kopiliste**, skal du ikke bruge nummerserier i kladden. Det skyldes, at nummerserien til anlægskassekladden ikke bruger nummerserien til anlægskladden.  
 
 ## <a name="to-post-entries-to-different-depreciation-books"></a>Sådan bogføres poster til forskellige afskrivningsprofiler
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægskassekladde**, og vælg derefter det relaterede link.  
 2. I den kladde, som du vil bogføre afskrivning med, skal du markere afkrydsningsfeltet **Brug kopiliste**.  
 3. Udfyld de resterende felter efter behov.  
@@ -106,6 +113,7 @@ Når du udfylder kladdelinjer, der skal bogføres til en afskrivningsprofil, kan
 Du kan kopiere poster fra én afskrivningsprofil til en anden vha. kørslen **Kopier afskrivningsprofil**. Kørslen opretter kladdenumre i de kladder, du har angivet navnene på på siden **Anlægskladdeopsætning** for den afskrivningsprofil, du vil kopiere til. Du kan finde flere oplysninger i følgende procedure.  
 
 ## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Sådan kopieres anlægsposter mellem afskrivningsprofiler
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Afskrivningsprofiloversigt**, og vælg derefter det relaterede link.  
 2. Åbn det relevante afskrivningsprofilkort, og vælg handlingen **Kopiér afskrivningsprofil**.  
 3. På siden **Kopiér afskrivningsprofil** skal du udfylde felterne efter behov.  
@@ -113,7 +121,10 @@ Du kan kopiere poster fra én afskrivningsprofil til en anden vha. kørslen **Ko
 
 De kopierede linjer oprettes enten i anlægskassekladden eller anlægskladden, afhængigt af, om finansintegration er aktiveret for den afskrivningsprofil, du er ved at kopiere.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/calculate-post-depreciations/)
+
 ## <a name="see-also"></a>Se også
+
 [Anlægsaktiver](fa-manage.md)  
 [Opsætning af Anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  

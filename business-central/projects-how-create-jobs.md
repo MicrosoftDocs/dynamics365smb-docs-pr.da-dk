@@ -8,14 +8,15 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f75b1b7e4f08af7ff02c43ec30ec39c234f7704
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 667cc445ed48bc7cf7d9af67567138a35a730934
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626391"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074688"
 ---
 # <a name="create-jobs"></a>Oprette sager
+
 Når du starter et nyt projekt, skal du oprette et sagskort med integrerede sagsopgaver og sagsplanlægningslinjer, opdelt i to niveauer.  
 
 Det første niveau består af sagsopgaver. Da al bogføring henviser til en sagsopgave, skal du oprette mindst én sagsopgave pr. sag. Når sagen indeholder mindst én sagsopgave, kan du oprette sagsplanlægningslinjer og bogføre forbruget i sagen.
@@ -34,6 +35,7 @@ Nogle gange adskiller den part, der modtager en service, sig fra den part, der b
 * Overskriv projektets standardbetingelser.
 
 ## <a name="to-create-a-job-card"></a>Sådan oprettes et sagskort
+
 Du kan oprette et sagskort og derefter oprette sagsopgavelinjer og sagsplanlægningslinjer for det.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
@@ -44,6 +46,7 @@ Du kan oprette et sagskort og derefter oprette sagsopgavelinjer og sagsplanlægn
 >   Hvis du bruger timesedler i din sag, skal du også tildele en ansvarlig person. Denne person kan godkende timesedler for medarbejderopgaver, der er knyttet til sagen. Der er flere oplysninger i [Konfigurere timesedler](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Sådan oprettes opgaver for en sag
+
 Når du opretter en sag, skal du også angive de forskellige opgaver, som sagen indeholder. Du angiver opgaver ved at oprette en linje per opgave i oversigtspanelet **Opgaver** på siden **Jobkort**. Hver sag skal have mindst én opgave.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.
@@ -54,6 +57,7 @@ Når du opretter en sag, skal du også angive de forskellige opgaver, som sagen 
 6. For at angive sagsopgaverne med oplysninger om andre sagsopgaver skal du vælge handlingen **Kopier sagsopgaver fra**, udfylde felterne efter behov, og derefter vælge knappen **OK**.
 
 ## <a name="to-create-planning-lines-for-a-job"></a>Sådan oprettes planlægningslinjer for en sag
+
 Du kan begrænse dine nye sagsopgaver på sagsplanlægningslinjer. En planlægningslinje kan registrere de oplysninger, du vil spore for en sag. Du kan f. eks. spore, hvilke ressourcer opgaven kræver, eller om de varer, der er nødvendige. Du kan f. eks. udføre en opgave for at få en kunde til at godkende et job. Du kan knytte den pågældende opgave til planlægningslinjer for varer, f.eks. et møde med kunden og tildele en ressource.  
 
 En sagsplanlægningslinje han være en af følgende typer.  
@@ -72,6 +76,8 @@ En sagsplanlægningslinje han være en af følgende typer.
 3. Vælg en sagsopgave, hvor feltet **Sagsopgavetype** indeholder **Bogføring**, og vælg derefter handlingen **Sagsplanlægningslinjer**.  
 4. På siden **Sagsplanlægningslinjer** skal du udfylde felterne på en ny linje efter behov.
 5. Gentag trin 3 og 4 for alle planlægninglinjer, du skal bruge for sagsopgaven.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/create-new-job/)
 
 ## <a name="see-also"></a>Se også
 

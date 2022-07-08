@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.forms: 5704, 5700, 5702, 5701
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 320a5315f569deeec8c86ce8246497f171fbb853
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5271203a9936f268e23df9b8e38a2373d875e5f9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517390"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076483"
 ---
 # <a name="set-up-stockkeeping-units"></a>Opsætte lagervarer
+
 Du kan bruge lagervarer til at registrere oplysninger om varer på en bestemt lokation eller med en variantkode.  
 
 Lagervarer er et supplement til varekortene. De erstatter dem ikke, selvom de er relateret til dem. Med lagervarer kan du udskille oplysningerne om den samme vare, så de kun vedrører en bestemt lokation, f.eks. et lager eller distributionscenter, eller en bestemt variant, f.eks. forskellige hyldenumre og forskellige genbestillingsdata.  
@@ -39,7 +40,10 @@ Brug kørslen **Opret lagervare**, hvis du vil oprette flere lagerførte varer.
 > Hvis lagervaren angives via produktion, bruges feltet **Kostpris (standard)** ikke ved fakturering og justering af den faktiske kostpris for den producerede vare. I stedet anvendes feltet **Kostpris (standard)** på det underliggende varekort, og eventuelle afvigelser beregnes mod kostprisfordelingen for den vare.<br /><br />
 > Fordi produktionsstyklister og rute ikke kan tildeles lagervarer, så er kostprisakkumulering og den relaterede beregning af kostprisfordelingen heller ikke tilgængelig på lagervarer. Du kan finde flere oplysninger i [Om beregning af standardkostpris](finance-about-calculating-standard-cost.md)
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/control-inventory-multiple-locations/)
+
+## <a name="see-also"></a>Se også
+
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
 [Logistik](warehouse-manage-warehouse.md)  

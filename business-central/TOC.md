@@ -229,13 +229,11 @@
 ### Indgående bilag
 #### [Oversigt over indgående bilag](across-income-documents.md)
 #### [Opsætning af indgående bilag](across-how-setup-income-documents.md)
-#### Behandle indgående bilag
-##### [Behandle indgående bilag](across-process-income-documents.md)
-##### [Oprette indgående bilagsposter](across-how-create-income-document-records.md)
-##### [Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md)
-##### [Oprette indgående bilagsposter direkte fra dokumenter og poster](across-how-connect-disconnect-income-document-records.md)
-##### [Finde bogførte dokumenter uden indgående bilagsposter](across-how-find-posted-documents-without-income-document-records.md)
-##### [Administrere mange indgående bilagsposter](across-how-manage-many-income-document-records.md)
+#### [Oprette indgående bilagsposter](across-how-create-income-document-records.md)
+#### [Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md)
+#### [Oprette indgående bilagsposter direkte fra dokumenter og poster](across-how-connect-disconnect-income-document-records.md)
+#### [Finde bogførte dokumenter uden indgående bilagsposter](across-how-find-posted-documents-without-income-document-records.md)
+#### [Administrere mange indgående bilagsposter](across-how-manage-many-income-document-records.md)
 
 ### Workflows
 #### [Workflowoversigt](across-workflow.md)
@@ -1424,8 +1422,8 @@
 #### Skat
 ##### [Salgsmoms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Rapportering af salgsmoms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)  
-##### [Rapportering af transaktioner som 1099-pligtige i USA](LocalFunctionality/UnitedStates/tax-1099.md)  
 ##### [Opsætte og bruge formen IRS 1099](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
+##### [Lovgivningsmæssige 1099 formatændringer og detaljer](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Oprette forbrugsafgift og købsmoms](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Oprette urealiseret moms og kontantrabatter på salg](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Banktransaktioiner og betalinger

@@ -1,58 +1,64 @@
 ---
-title: Angive, hvilke indgående bilag der skal vises | Microsoft Docs
+title: Angive, hvilke indgående dokumenter der skal vises
 description: Tilpas standardvisningen af indgående bilag, f.eks. e-fakturaer, for at forbedre din oversigt over behandlede og ikke-behandlede poster.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2021
+ms.date: 06/14/2022
 ms.author: edupont
-ms.openlocfilehash: d9460bb8a972f3cd9ab812b14ef7f5a9e89f8ef4
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6d8e7ca27450d22ea3ae065cd0dcdf72effd82d1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523161"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079632"
 ---
 # <a name="manage-many-incoming-document-records"></a>Administrere mange indgående bilagsposter
-Efterhånden som du opretter eller behandler indgående bilagsposter, kan antal linjer på siden **Indgående bilag** vokse til et omfang, hvor du mister overblikket. Derfor kan du indstille indgående bilagsposter til Behandlet for at fjerne dem fra standardvisningen. Når du vælger handlingen **Vis alle**, kan du få vist både behandlede og ikke-behandlede poster.
+
+Efterhånden som du opretter eller behandler indgående bilagsposter, kan antal linjer på siden **Indgående bilag** vokse til et omfang, hvor du mister overblikket. Derfor kan du indstille indgående bilagsposter til *Behandlet* for at fjerne dem fra standardvisningen. Når du vælger handlingen **Vis alle**, kan du få vist både behandlede og ikke-behandlede poster.
 
 > [!NOTE]  
->   Du kan ikke redigere oplysningerne, vedhæfte filer eller udføre andre processer på indgående bilagsposter, der er indstillet til Behandlet. Du skal først indstille dem til Ikke-behandlet.
+> Du kan ikke redigere oplysningerne, vedhæfte filer eller udføre andre processer på indgående bilagsposter, der er indstillet til *Behandlet*. Du skal først indstille dem til *Ikke-behandlet*.
 
 Afkrydsningsfeltet **Behandlet** markeres automatisk på indgående bilagsposter, der er blevet behandlet, men du kan også markere eller fjerne markeringen i feltet manuelt. Afhængigt af din forretningsproces kan en indgående bilagspost blive behandlet, når der er oprettet et relateret bilag til den, eller der er vedhæftet en fil.
 
 > [!NOTE]  
->   Når du åbner siden **Indgående bilag** med handlingen **Indgående bilag** i Rollecenter, vises kun ikke-behandlede indgående bilagsposter som standard. I dette emne omtales det som "standardvisningen".
+> Når du åbner siden **Indgående bilag** med handlingen **Indgående bilag** i Rollecenter, vises kun ikke-behandlede indgående bilagsposter som standard. I dette emne omtales det som "standardvisningen".
 
 ## <a name="to-remove-incoming-document-records-from-the-default-view"></a>Sådan fjernes indgående bilagsposter fra standardvisningen
+
 1. På siden **Indgående bilag** skal du vælge en eller flere linjer for indgående bilagsposter, du vil fjerne fra standardvinduet.
 2. Vælg handlingen **Indstil til behandlet**.
 
     Indgående bilagsposter fjernes fra standardvisningen og afkrydsningsfeltet **Behandlet** markeres på linjerne.
 
 > [!NOTE]  
->   Du kan også udføre handlingen for den individuelle post på siden **Indgående bilagskort**.
+> Du kan også udføre handlingen for den individuelle post på siden **Indgående bilagskort**.
 
 ## <a name="to-view-all-incoming-document-records"></a>Sådan vises alle indgående bilagsposter
+
 1. På siden **Indgående bilag** skal du vælge handlingen **Vis alle**.
 
-Alle indgående bilagsposter vises, herunder dem, hvor feltet **Behandlet** ikke er markeret.
+Alle indgående bilagsposter vises, herunder poster, hvor feltet **Behandlet** ikke er markeret.
 
 ## <a name="to-add-incoming-document-records-to-the-default-view"></a>Sådan føjes indgående bilagsposter til standardvisningen
+
 1. På siden **Indgående bilag** skal du vælge handlingen **Vis alle**.
 2. Vælg en eller flere linjer for indgående bilagsposter, der skal vises i standardvisningen.
 3. Vælg handlingen **Indstil til ikke-behandlet**.  
 
 > [!NOTE]  
->   Du kan også udføre handlingen for den individuelle post på siden **Indgående bilagskort**.
+> Du kan også udføre handlingen for den individuelle post på siden **Indgående bilagskort**.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
-[Behandle indgående bilag](across-process-income-documents.md)  
+  
+[Oprette indgående bilagsposter](across-how-create-income-document-records.md)
+[Oprette indgående bilagsposter direkte fra dokumenter og poster](across-how-connect-disconnect-income-document-records.md)
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 8900
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e9c7cc2166581c318ff8febcf112765b4f78923c
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 86f808aca7223115a3124d24dfc517ed6f96ae33
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655273"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075651"
 ---
 # <a name="set-up-printers"></a>Installation af printere
 
@@ -269,11 +269,14 @@ Du eller administratoren kan også bruge siden **Printervalg** til at angive and
 > Mere bestemte printervalg tilsidesætter mere generelle printervalg. Et printervalg, der har værdier i felterne **Bruger-id**, **Rapport-id** og **Printernavn**, har f.eks. højere prioritet end et printervalg, hvor der ikke er angivet værdier i felterne **Bruger-ID** eller **Rapport-ID**.
 
 ### <a name="choosing-the-printer-when-running-a-report"></a>Vælge printeren, når en rapport køres
+
 I stedet for at bruge standardprinteren, når du kører en rapport, kan du tilsidesætte denne indstilling fra anmodningssiden. Du skal blot vælge den Wich printer, du vil bruge til denne aktivering af rapporten, i rullemenuen **Printer**.
 
 ### <a name="sizing-print-jobs"></a>Ændring størrelsen på udskriftsjob
 
 Cloud-udskrivning er udviklet til dokumenter med en rimelig størrelse. De fleste cloud-tjenester, herunder PrintNode og HP ePrint, har en begrænsning på 10 MB pr. job. Hvis du skal udskrive større rapporter, skal du muligvis opdele dem i flere udskrifter.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

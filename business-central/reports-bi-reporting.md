@@ -10,12 +10,12 @@ ms.search.keywords: feature overview
 ms.reviewer: edupont
 ms.date: 02/03/2022
 ms.author: kepontop
-ms.openlocfilehash: a51175dc5dd124b58ef92e87ab6874f04e4bea41
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4b7a806b3e12298fe493b943cf57446c824a5c34
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144875"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076951"
 ---
 # <a name="business-intelligence-and-reporting-overview"></a>Oversigt over Business Intelligence og rapportering
 
@@ -30,14 +30,16 @@ Små og mellemstore virksomheder besvarer den indbyggede analyse og rapporterer,
 | Få mere at vide om, hvordan du integrerer eksterne business intelligence-værktøjer med [!INCLUDE[prod_short](includes/prod_short.md)].| [Eksterne business intelligence-værktøjer](reports-external-analysis.md) |
 |Få mere at vide om, hvordan du ændrer rapportlayout eller endda udvikler dine egne rapporter fra bunden. |[Udvikle rapporter](reports-develop-reports.md)|
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
 
-[Bruge rapporter i daglige opgaver](reports-use-reports.md)
-[Rapportoversigt](reports-available-reports.md)
-[Ad hoc-analyse](reports-adhoc-analysis.md)
-[Indbygget analyse](reports-built-in-analytics.md)
-[Eksterne business intelligence-værktøjer](reports-external-analysis.md)
-[Udvikle rapporter](reports-develop-reports.md)
+[Brug rapporter i dagligt arbejde](reports-use-reports.md)  
+[Rapportoversigt](reports-available-reports.md)  
+[Ad hoc-dataanalyse](reports-adhoc-analysis.md)  
+[Indbygget analyse](reports-built-in-analytics.md)  
+[Eksterne business intelligence-værktøjer](reports-external-analysis.md)  
+[Udvikle rapporter](reports-develop-reports.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

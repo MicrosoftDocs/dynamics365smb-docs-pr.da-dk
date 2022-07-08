@@ -10,20 +10,22 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 317c8d5da772dbead39330f068df59e1603d525b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6228c53173995680bcef50f3135ba406a24e1d23
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517000"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075963"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Om montage til ordre og montage til lager
+
 Montageelementer kan leveres med følgende to fremgangsmåder:  
 
 -   Montage efter ordre.  
 -   Montage til lager.  
 
-## <a name="assemble-to-order"></a>Montage efter ordre  
+## <a name="assemble-to-order"></a>Montage efter ordre
+
 Du bruger typisk *montage efter ordre* for varer, som du ikke ønsker på lager, fordi du forventer at tilpasse dem til debitoranmodninger, eller fordi du vil minimere de generelle lageromkostninger. Understøttelsesfunktionerne omfatter:  
 
 -   Muligheden for at tilpasse montageelementer, når du tager imod en salgsordre.  
@@ -43,7 +45,8 @@ Når du indtaster en montage til ordre-vare på en salgslinje, oprettes der auto
 
  For at aktivere denne proces skal feltet **Assembly politik** på varekortet være **Montage efter ordre**.  
 
-## <a name="assemble-to-stock"></a>Montage til lager  
+## <a name="assemble-to-stock"></a>Montage til lager
+
  Du bruger typisk *montage til lager* for de varer, du vil samle forud for salg, f.eks for at forberede en pakkekampagne og holde på lager, indtil de er bestilt. Disse varer er som regel standardvarer som emballerede pakker, du ikke tilbyder at tilpasse efter kundens behov.  
 
  Varen samles uden et øjeblikkelig salgsbehov i montage til lager-processen og lagerføres som en lagervare til senere salg eller forbrug som halvfabrikata. Du kan finde flere oplysninger i [Montere varer](assembly-how-to-assemble-items.md). Fra dette punkt plukkes og behandles varen som en enkelt vare og behandles som en færdig produktionsvare.  
@@ -55,7 +58,8 @@ Når du indtaster en montage til ordre-vare på en salgslinje, oprettes der auto
 
  For at aktivere denne proces skal feltet **Assembly politik** på varekortet være **Montage-til-lager**.  
 
-## <a name="combination-scenarios"></a>Kombinationsscenarier  
+## <a name="combination-scenarios"></a>Kombinationsscenarier
+
  Et generelt princip i montagestyring er, når de kombineres på en salgsordrelinje, skal montage efter ordre-mængder leveres før lagerbeholdning.  
 
  Hvis en montageordre er knyttet til en salgsordrelinje, kopieres værdien i feltet **Mgd. til montage til ordre** på salgsordrelinjen til feltet **Antal til montage** via feltet **Antal** på montageordrehovedet. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
@@ -90,6 +94,8 @@ Baseret på dette eksempel kan du kun ændre feltet **Antal til montage** som f�
 
 - Det mindste antal du kan angive er 1. Dette skyldes, at du mindst skal montere én enhed for at kunne sælge fire enheder, idet de resterende tre antages at være tilgængelig på lageret.  
 - Det maksimale antal du kan angive er 4. Dette er for at sikre, at du ikke samler flere af denne montage til ordre-vare, end der er behov for i salget.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

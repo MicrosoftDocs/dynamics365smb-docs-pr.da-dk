@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 65f656dac8ec1588872b8a9458da7a8ffdcaf857
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 1447627f14d08e1e432d613298f4b29592864d4d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520886"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078930"
 ---
 # <a name="set-up-resources-for-projects"></a>Konfigurere ressourcer for projekter
 
@@ -32,6 +32,7 @@ Du kan angive standardbeløbet pr. time, når ressourcen oprettes. Hvis du f.eks
 > Hvis du bogfører IC-transaktioner, men du kan få en ressource til en linje på en salgsordre, og du konverterer salgsordren til en købsordre på modtagelses siden, medtages ressourcen ikke. Hvis du vil bruge ressourcer i IC-transaktioner, skal du bruge feltet **Finanskt.nr. for IC-partnerkøb** på ressourcekortet til at angive den konto, som udgifterne skal bogføres til.
 
 ## <a name="to-set-up-a-resource"></a>Sådan defineres en ressource
+
 Opret et kort for hver ressource, du vil bruge i projekter.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourcer**, og vælg derefter det relaterede link.
@@ -39,6 +40,7 @@ Opret et kort for hver ressource, du vil bruge i projekter.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-a-resource-group"></a>Sådan oprettes en ressourcegruppe
+
 Du kan samle flere forskellige ressourcer i en ressourcegruppe. Ressourcegruppens kapaciteter og budgetter bliver akkumuleret fra de enkelte ressourcer i gruppen. Du kan også indtaste kapaciteter for ressourcegrupper, enten uafhængigt af de akkumulerede værdier eller som supplement til dem.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourcegrupper**, og vælg derefter det relaterede link.
@@ -46,6 +48,7 @@ Du kan samle flere forskellige ressourcer i en ressourcegruppe. Ressourcegruppen
 3. Udfyld felterne efter behov.
 
 ## <a name="to-set-capacity-for-a-resource"></a>Sådan angives kapaciteten for en ressource
+
 For at beregne, hvor lang tid en ressource kan bruge på sager, skal der først ressourcenes kapacitet først angives som disponible tid pr. periode i arbejdskalenderen. Denne opsætning anvendes, når du udfylder sagsplanlægningslinjer, som indeholder ressourcen. Du kan finde flere oplysninger i [Oprette sager](projects-how-create-jobs.md).
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourcer**, og vælg derefter det relaterede link.
@@ -58,6 +61,7 @@ For at beregne, hvor lang tid en ressource kan bruge på sager, skal der først 
 8. Luk siden.
 
 ## <a name="to-set-up-alternate-resource-costs"></a>Sådan angives ressourcekostpriser
+
 Udover de omkostninger, der er angivet på ressourcekortet, kan du oprette alternative omkostninger for hver ressource. Hvis en medarbejder f.eks. har en højere timesats for overarbejde, kan du i denne tabel oprette en ressourcekostpris for overtidsbetalingen. Den alternative kostpris, du angiver for ressourcen, tilsidesætter kostprisen på ressourcekortet, når du bruger ressourcen i ressourcekladden.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourcer**, og vælg derefter det relaterede link.  
@@ -68,6 +72,7 @@ Udover de omkostninger, der er angivet på ressourcekortet, kan du oprette alter
 **Bemærk**! Åbn siden **Ressourcekostpriser** og udfyld felterne for at angive ressourcekostpriser, der kan anvendes til alle ressourcer og ressourcegrupper.
 
 ## <a name="to-set-up-alternate-resource-prices"></a>Sådan angives ressourcepriser
+
 Udover den pris, der er angivet på ressourcekortet, kan du oprette alternative priser for hver ressource. Alternative priser kan være betingede. De kan være betinget af, om ressourcen anvendes med et bestemt job eller en bestemt arbejdstype.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourcer**, og vælg derefter det relaterede link.
@@ -75,12 +80,15 @@ Udover den pris, der er angivet på ressourcekortet, kan du oprette alternative 
 3. På siden **Ressourcesalgspriser** skal du udfylde felterne på en linje efter behov.
 4. Gentag trin 3 for hver alternativ ressourcepris, du vil oprette.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+
 ## <a name="see-also"></a>Se også
+
 [Konfigurere projektstyring](projects-setup-projects.md)  
 [Projektstyring](projects-manage-projects.md)  
 [Finans](finance.md)  
-[Køb](purchasing-manage-purchasing.md)         
-[Salg](sales-manage-sales.md)      
+[Køb](purchasing-manage-purchasing.md)  
+[Salg](sales-manage-sales.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

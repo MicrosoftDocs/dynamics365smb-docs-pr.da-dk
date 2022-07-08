@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 1
 ms.date: 04/20/2022
 ms.author: edupont
-ms.openlocfilehash: 1adf94a191b2e0514f7a7435ac1807ca19498b14
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 5de13d4f6e625db0d0871a3f7a94f62d726abc8f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626235"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077706"
 ---
 # <a name="company-information-overview"></a>Oversigt over virksomhedsoplysninger
 
@@ -35,6 +35,8 @@ Hvis [!INCLUDE [prod_short](includes/prod_short.md)] indeholder flere regnskaber
 
 Standardbrugerens oplevelse af en [!INCLUDE [prod_short](includes/prod_short.md)]-prøveversion viser ikke alle egenskaber. Du kan skifte til den fulde oplevelse på siden **Firmaoplysninger**. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/create-new-companies-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
 
 [Oversigt over opgaver til opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
@@ -42,3 +44,6 @@ Standardbrugerens oplevelse af en [!INCLUDE [prod_short](includes/prod_short.md)
 [Konfigurere virksomhedsoplysninger i Italien](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

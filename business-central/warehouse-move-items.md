@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7a44f0b716b219d7c65481c69abb3795129e8147
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 19e6d291cf2547ac0a9ad45dce264e1e326dfad6
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511914"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078228"
 ---
 # <a name="moving-items"></a>Flytte varer
 
@@ -39,13 +39,15 @@ Lagerrelaterede opgaver med optælling, regulering og ompostering af varer kan o
 |Opdatere, hvor ofte placeringer, som f.eks. plukplaceringer, skal genopfyldes på grund af behovsændringer.|[Beregn genopfyldning](warehouse-how-to-calculate-bin-replenishment.md)|
 |Omstrukturere lagerstedet med nye placeringskoder og nye karakteristika for placeringer og evt. flytte rundt på dem.|[Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)|  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+
 ## <a name="see-also"></a>Se også
 
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Konfigurere Warehouse Management](warehouse-setup-warehouse.md) 
-[Montagestyring](assembly-assemble-items.md)
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
+[Montagestyring](assembly-assemble-items.md)  
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

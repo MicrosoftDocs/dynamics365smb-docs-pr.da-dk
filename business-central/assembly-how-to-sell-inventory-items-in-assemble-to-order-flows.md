@@ -10,14 +10,16 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f25dab624644b028cffce5e21080910fc87dfaf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9ce2494e929613d69c22d125adffb6465d1717cd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514513"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075026"
 ---
 # <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Sådan sælges lagervarer i montage efter ordre-forløb
+
+
 Hvis feltet **Montagepolitik** på varekortet til et montageelement indeholder **Montage efter ordre**, vil standardsalgsordreprocessen forudsætte, at elementet ikke er på lageret, og at det skal monteres til denne specifikke salgsordre. Derfor oprettes en sammenkædet montageordre automatisk, når du føjer elementet til en salgsordrelinje. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md). Men hvis en del af salgsordremængden allerede er tilgængelig på lageret, kan du sænke montageordremængden ved at ændre feltet **Antal til montage efter ordre** på salgsordrelinjen.  
 
 Dette scenario er sjældent, da montage efter ordre-varer forventes altid tilpasses, og chancen for, at de er på lager i den konfiguration, der anmodes om fra en anden kunde, er lav. Men hvis en virksomhed har montage efter ordre-mængder på lager på grund af returnerer eller for aflysninger, skal disse mængder plukkes og sælges, inden nye samles.  
@@ -32,7 +34,8 @@ Lignende funktionalitet er tilgængelig, når du sælger montageelementer fra la
 
 I denne procedure skal du erstatte montage efter ordre-mængder med lagerantal på en salgsordrelinje. Fremgangsmåden omfatter registrering af, at tilgængelighed findes med fradrag af mængden fra tilknyttet montageordre og derefter reservere lagerantal for at sikre, at det er plukkes og leveres til ordren.  
 
-## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Sådan sælges lagervarer i montage efter ordre-forløb  
+## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Sådan sælges lagervarer i montage efter ordre-forløb
+
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  Oprette en salgsordre. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).  
 3.  På en salgsordrelinje til et montage efter ordre-element i feltet **Antal** skal du angive det ønskede antal.  
@@ -48,7 +51,10 @@ I denne procedure skal du erstatte montage efter ordre-mængder med lagerantal p
 > [!CAUTION]  
 >  Feltet **Placeringskode** på salgsordren kan være udfyldt på forhånd i henhold til feltet **Pla.kode til ordremontagelev.** eller feltet **Placeringskode til fra-montage** på lokationskortet. I så fald kan feltet **Placeringskode** på salgsordrelinjen være forkert i denne kombination af mængder til montage efter ordre og montage til lager. Det er en god idé at undersøge feltet **Placeringskode** og kontrollere, at placeringen fungerer for alle mængder. Du kan også angive de to forskellige mængder på separate salgsordrelinjer.  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se også
+
 [Montagestyring](assembly-assemble-items.md)  
 [Reservere varer](inventory-how-to-reserve-items.md)  
 [Arbejde med styklister](inventory-how-work-BOMs.md)  

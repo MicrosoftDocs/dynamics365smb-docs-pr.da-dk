@@ -10,12 +10,12 @@ ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: eaa10e4ed7890dd1e6cc8fb2fe76be7770689b75
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2c6b1b37398d0121c5c79bb0c9d9786abe14120f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521854"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074610"
 ---
 # <a name="register-new-vendors"></a>Registrere nye kreditorer
 
@@ -32,6 +32,7 @@ Kreditorkortene indeholde de oplysninger, som er en forudsætning for at købe p
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Tilføjelse af nye kreditorer
+
 Du kan tilføje nye kreditorer manuelt ved at udfylde felterne på siden **Kreditorkort**, eller du kan bruge skabeloner, der indeholder foruddefinerede oplysninger. Du kan f. eks. oprette skabeloner til forskellige typer kreditorprofiler. Du kan spare tid ved at bruge skabeloner, når du tilføjer nye kreditorer, så oplysningerne bliver korrekte hver gang. Hvis du opretter skabeloner til mere end én type kreditor, kan du vælge den skabelon, du vil bruge, når du tilføjer en kreditor. Hvis du kun opretter én skabelon, vil den blive brugt til alle nye kreditorer. Når du har oprettet en skabelon, kan du bruge handlingen **Anvend skabelon** for at anvende den på en eller flere valgte kreditorer. Hvis du vil oprette en skabelon, skal du angive de oplysninger, du vil genbruge, på siden Kreditorkort og derefter gemme den som en skabelon. Du kan finde flere oplysninger i afsnittet [Sådan gemmes kreditorkortet som en skabelon](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
 > [!TIP]
@@ -57,7 +58,6 @@ Du kan til enhver tid oplysninger om kreditorkort. Hvis du har bogført en poste
 > [!TIP]
 > Du kan ændre IBAN på en kreditors bankkonto, uden at ændringerne påvirker de historiske kreditoverførselsposter. Overførsel af remburs Journal lagrer det IBAN-nummer, Recepient Bankkontonr., der blev angivet i felterne kreditorbankkonto og modtagernavn fra siden med kreditorkortet, da posterne blev oprettet.
 
-
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Sådan gemmes kreditorkortet som en skabelon
 
 1. På siden **Kreditorkort** skal du vælge handlingen **Gem som skabelon**. Siden **Kreditorskabelon** åbnes og viser kreditorkortet som skabelon.
@@ -67,6 +67,8 @@ Du kan til enhver tid oplysninger om kreditorkort. Hvis du har bogført en poste
 5. Når du har fuldført skabelonen for den nye kreditor, skal du vælge knappen **OK**.  
    Kreditorskabelonen føjes til listen over kreditorskabeloner, så du kan bruge den til at oprette nye kreditorkort.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
 
 [Flette dublerede poster](sales-how-merge-duplicate-records.md)  
@@ -74,5 +76,6 @@ Du kan til enhver tid oplysninger om kreditorkort. Hvis du har bogført en poste
 [Køb](purchasing-manage-purchasing.md)  
 [Registrere køb](purchasing-how-record-purchases.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

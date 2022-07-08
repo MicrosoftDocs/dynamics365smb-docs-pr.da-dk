@@ -10,12 +10,12 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: 4391b73a6e7f26262349abaeff751dd8f0f6c4e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a3ce9d938994f6300e0a1f2c26511b3c0702c124
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515663"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076561"
 ---
 # <a name="set-up-posting-groups"></a>Konfigurere bogføringsgrupper
 
@@ -58,6 +58,7 @@ I følgende tabel beskrives de bogføringsgrupper, der gælder for typer af data
 | Anlægsbogføringsgrupper |Angiv konti for forskellige typer udgifter og omkostninger, f.eks. anskaffelser, akkumulerede afskrivningsbeløb, anskaffelse ved afgang, afskrivning ved afgang, gevinst ved afgang, tab ved afgang, reparationer og afskrivning ved drift. Konfigurer disse bogføringsgrupper på siden **Anlægsbogføringsgrupper**. |
 
 ### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Tillade erstatnings debitor- eller kreditorbogføringsgrupper på dokumenter
+
 Du kan lade andre vælge en anden debitor- og Kreditorbogføringsgruppe end standard, når de arbejder med salgs- eller købsdokumenter og kladder.
 
 Hvis du vil tillade ændringer af debitorbogføringsgrupper, skal du vælge **Tillad ændring af bogføringsgruppen** på siderne **Opsætning af salg** og **Serviceopsætning** og siden **Opsætning af indkøb og gæld** for ændringer i kreditorbogføringsgruppen.
@@ -129,10 +130,13 @@ Når der er noget galt, viser [!INCLUDE[prod_short](includes/prod_short.md)] sid
 > [!NOTE]
 > Den fejlhåndtering, der er beskrevet ovenfor, er ikke tilgængelig i vare-, ressource-, medarbejder- og anlægsaktivkladder eller for finanskonti, der er tilføjet i lokale versioner af bogføringsgrupper.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/posting-groups-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
+
 [Finans- og kontoplanen](finance-general-ledger.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

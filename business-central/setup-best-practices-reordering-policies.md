@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c67e185ba8994bd20712ca4606df0b5dd7c7682b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b71ea56c67df7689a268e633880d16fac616027b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516558"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077524"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Oprette bedste fremgangsmåder: Genbestillingspolitikker
+
 Feltet **Genbestillingsmetode** på varekortene tilbyder fire forskellige planlægningsmetoder, der bestemmer, hvordan individuelle planlægningsparametre skal arbejde sammen.  
 
 Ét grundlag for bedste fremgangsmåde til valg af en genbestillingsmetode er varens ABC-klassificering. Når du bruger ABC-klassificering til lagerstyring og forsyningsplanlægning, administreres varer i henhold til tre forskellige klasser, alt efter deres værdi og volumen i forhold til den samlede beholdning. I følgende tabel vises værdimængdefordelingen af de tre klasser.
@@ -40,9 +41,12 @@ Følgende tabel indeholder de bedste fremgangsmåder til at vælge mellem de fir
 |**Fast genbestil.antal**|Brug af C-varer.<br /><br /> Kombinere med parametre for genbestillingspunkt.<br /><br /> Bruges i produktion til komponenter på laveste niveau.<br /><br /> Brug ikke, hvis varen ofte er reserveret.|C-varer, f.eks. tekopper, er varer af lav værdi med høj og regelmæssig ordre velocity. Den bedste genbestillingsmetode for C-varer er derfor en, der garanterer konstant tilgængelighed ved altid at være over et genbestillingspunkt.<br /><br /> Hvis brugeren reserverer en mængde til nogle fremtidige behov, forstyrres grundlaget for planlægningen. Selvom det planlagte beholdningsniveau er acceptabelt med hensyn til genbestillingspunkt, er mængderne muligvis ikke tilgængelige på grund af reservationen.|  
 |**Maks. antal**|Bruges til C-varer med høje lagerbindingsomkostninger eller lagringsbegrænsninger.<br /><br /> Kombineres med en eller flere ordrefaktorer (Minimum/maksimum antal eller oprundingsfaktor).|C-varer, f.eks. tekopper, er varer af lav værdi med høj og regelmæssig ordre velocity. Den bedste genbestillingsmetode for C-varer er derfor en, der garanterer konstant tilgængelighed ved altid at være over et genbestillingspunkt, men under et maksimalt lagerantal.<br /><br /> Hvis du vil ændre den foreslåede ordre, vil du måske formindske ordrestørrelsen til en angiven maksimal ordrestørrelse, øge til en angiven minimumordrestørrelse eller runde op for at opfylde en angiven oprundingsfaktor. **Bemærk:** Hvis den anvendes med et genbestillingspunkt, forbliver lageret mellem genbestillingspunktet og det maksimale antal.|  
 
-## <a name="see-also"></a>Se også  
- [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)   
- [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/replenish-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se også
+
+ [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
+ [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)  
  [Opret komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
  [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

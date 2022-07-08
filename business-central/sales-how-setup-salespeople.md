@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6046562a16bd1f9736bd10bea5c4bda397d99df1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 99f23e497c969e9a9461928d1e550605f6db1eae
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512175"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076353"
 ---
 # <a name="set-up-salespeople"></a>Konfigurere sælgere
+
 I mange virksomheder er der behov for at kunne følge de enkelte medarbejderes (sælgeres) præstationer som grundlag for beregning af salgsprovision eller bonus. Se f.eks. rapporten **Salgsprovision**. Virksomheden kan også have behov for at knytte en sælger til hver kontakt.
 
 Når du har oprettet en sælger på siden **Sælgere**, kan du vælge sælgeren i feltet **Sælgerkode** i alle relevante poster, f.eks. finanskonto, debitor, kreditor, kontakter og kampagnekort. Når du bogfører eller opretter fakturaer, kreditnotaer, kladdelinjer, rentenotaer osv., overføres sælgerkoden til de resulterende finansposter.
@@ -24,12 +25,16 @@ Når du har oprettet en sælger på siden **Sælgere**, kan du vælge sælgeren 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
 ## <a name="to-set-up-a-salesperson-code"></a>Sådan defineres en sælgerkoder
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sælgere**, og vælg derefter det relaterede link.
 2. På siden **Sælgere** skal du vælge handlingen **Ny**.
 
 Du kan bruge sælgere i forskelligt relationsstyrings- og marketingarbejde. F.eks. kan du tildele opgaver til sælgere, så opgaverne indgår i de salgsmuligheder, der er knyttet til sælgeren. Du kan finde flere oplysninger i [Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
+
 [Konfigurere salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

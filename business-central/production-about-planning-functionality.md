@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5430
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: 693e7a3a5970e681840332f7b6899f1867e36bd1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 51f1e2ff31e819c8aa571335b25dc51ec61d6d30
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512252"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077204"
 ---
 # <a name="about-planning-functionality"></a>Om planlægningsfunktionen
 
@@ -150,7 +150,7 @@ Siden **Indkøbskladde** viser de varer, du vil bestille. Du kan indsætte varer
 
 - Indsæt varerne manuelt i kladden, og udfyld de relevante felter.
 
-- Brug kørslen **Beregn plan**. Herved opstilles en genbestillingsplan for varer og enheder, der er oprettet med et genbestillingssystem, der er sat til **Køb** eller **Overførsel**. Når du udfører denne kørsel, udfyldes feltet **Aktionsmeddelelse** automatisk med en foreslået handling, som du kan udføre for at genbestille varen. Det kan f.eks. være at øge vareantallet på en eksisterende ordre eller oprette en ny ordre.
+- Brug kørslen **Beregn plan**. Herved opstilles en genbestillingsplan for varer og enheder, der er oprettet med et genbestillingssystem, der er sat til **Køb** eller **Overførsel**. Når du udfører denne kørsel, udfyldes feltet **Aktionsmeddelelse** automatisk med en foreslået handling, som du kan udføre for at genbestille varen. Det kan f.eks. være at forøge vareantallet på en eksisterende ordre eller oprette en ny ordre.
 
 - Hvis du har brugt kørslen **Beregn plan** fra siden **Planlægningskladde** til at opstille en genbestillingsplan, kan du bruge kørslen **Udfør aktionsmeddelelse** til at kopiere forslag til købs- og overflytningsordrer fra planlægningskladden til indkøbskladden. Dette er praktisk, hvis forskellige brugere er ansvarlige for at håndtere produktionsordrer og købs- eller overflytningsordrer.
 
@@ -161,6 +161,8 @@ Siden **Indkøbskladde** viser de varer, du vil bestille. Du kan indsætte varer
 Linjerne i indkøbskladden indeholder detaljerede oplysninger om de varer, der skal genbestilles. Du kan redigere og slette linjerne for at regulere genbestillingsplanen, og du kan viderebehandle linjerne ved hjælp af kørslen **Udfør aktionsmeddelelse**.
 
 Du kan finde flere oplysninger om planlægning med lokationer og overflytninger under [Planlægning med eller uden lokationer](production-planning-with-without-locations.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/plan-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

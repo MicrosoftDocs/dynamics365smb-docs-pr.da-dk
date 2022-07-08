@@ -1,8 +1,6 @@
 ---
 title: Oprette salgsleads
 description: Beskriver, hvordan du kan oprette leads fra en sælger eller kontakt i Business Central.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 719bd9ca6e536b11ec7c8584e1956d91c7fe8017
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d3e427a4fbff866edfa7b03b23f22ee797ef037b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520964"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074767"
 ---
 # <a name="create-sales-opportunities"></a>Oprette salgsleads
 Du kan oprette leads for de salgslaeds du har for dine kontakter. Alle leads skal knyttes til en sælger eller indkøber og skal have en kontakt.

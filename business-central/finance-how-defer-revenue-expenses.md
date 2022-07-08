@@ -10,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 2feba527e33c2ded3275392420b3075cdab4228f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 3e8240b2bd74d71e46937ae63ab6053b0f39528e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512988"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078722"
 ---
 # <a name="defer-revenues-and-expenses"></a>Periodisere indtægter og udgifter
 
@@ -95,6 +95,8 @@ Finansposter, der skal bogføres på den angivne periodiseringskonto, f.eks. Ikk
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Oversigt over salgsperiodisering**, og vælg derefter det relaterede link.
 2. På siden **Oversigt over salgsperiodisering** i feltet **Balance pr.** skal du angive den dato, indtil hvilken du vil have vist udskudte indtægter.
 3. Vælg knappen **Vis eksempel**.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/processing-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

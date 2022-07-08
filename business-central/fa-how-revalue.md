@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.form: 5628, 5629, 5633
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7934e272652f175360d58ea3643fa28c5551c082
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0b9598c8249e209583ffff73868013ad7e26f1b3
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512288"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078152"
 ---
 # <a name="revalue-fixed-assets"></a>Omvurdere anlægsaktiver
+
 Regulering af anlægsaktiver kan bestå af opskrivninger, nedskrivninger eller generelle værdireguleringer.
 
 Når værdien af et anlægsaktiv er steget, skal du bogføre en kladdelinje med et højere beløb, dvs. en opskrivning, for afskrivningsprofilen. Det nye beløb registreres som en opskrivning ifølge anlægsbogføringsgruppens opsætning.
@@ -26,6 +27,7 @@ Når værdien af et anlægsaktiv er faldet, skal du bogføre en kladdelinje med 
 Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge generelle prisændringer. Kørslen **Indeksér anlæg** kan bruges til at ændre forskellige beløb, f.eks. nedskrivnings- og opskrivningsbeløb.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Sådan bogføres en opskrivning fra anlægskassekladden
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
 2. Opret en første kladdelinje, og udfyld felterne efter behov.
 3. I feltet **Anlægsbogføringstype** skal du vælge **Regulering**.
@@ -36,6 +38,7 @@ Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge ge
 5. Vælg handlingen **Bogfør**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Sådan bogføres en nedskrivning fra anlægskassekladden
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsfinanskladder**, og vælg derefter det relaterede link.  
 2. Opret en første kladdelinje, og udfyld felterne efter behov.
 3. I feltet **Anlægsbogføringstype** skal du vælge **Nedskrivning**.
@@ -46,6 +49,7 @@ Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge ge
 5. Vælg handlingen **Bogfør**.
 
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Sådan udføres generel værdiregulering af anlægsaktiver
+
 Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge generelle prisændringer. Kørslen **Indeksér anlæg** kan bruges til at ændre forskellige beløb, f.eks. nedskrivnings- og opskrivningsbeløb. Afkrydsningsfeltet **Tillad indeksering** på siden **Afskrivningsprofil** skal være markeret.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Indeksér anlæg**, og vælg derefter det relaterede link.  
@@ -61,6 +65,7 @@ Indeksering anvendes til at justere værdien for flere anlæg, f.eks. ifølge ge
     >   Hvis indekstallene kun skal bruges til simulering, kan du oprette en særlig afskrivningsprofil, hvor de kan opbevares. Derefter kan disse poster ikke indvirke på de øvrige afskrivningsprofiler.
 
 ## <a name="to-post-additional-acquisition-costs"></a>Sådan bogføres ekstra anskaffelser
+
 Du bogfører prisen for ekstraanskaffelse af et anlægsaktiv på samme måde, som du bogfører den oprindelige anskaffelsespris, dvs. fra en købsfaktura eller fra en anlægskladde. Du kan finde flere oplysninger i [Anskaffe anlægsaktiver](fa-how-acquire.md).  
 
 Hvis der allerede er beregnet afskrivning for anlægsaktivet, skal du markere afkrydsningsfeltet **Afskriv anskaffelse**, for at den ekstra anskaffelsespris minus skrapværdien afskrives i forhold til det beløb, hvormed det tidligere anskaffede anlægsaktiv i forvejen er blevet afskrevet. Dette sikrer, at afskrivningsperioden ikke ændres.  
@@ -74,6 +79,7 @@ Afskrivningsprocenten beregnes som:
 Husk at markere afkrydsningsfeltet **Afskriv til bogføringsdato for anlæg** på fakturaen, anlægskassekladden eller anlægskladdelinjerne for at sikre, at afskrivningen beregnes fra den sidste bogføringsdato for anlæg til bogføringsdatoen for den ekstra anskaffelsespris.
 
 ### <a name="example---posting-additional-acquisition-costs"></a>Eksempe - bogføring af ekstra anskaffelser
+
 En maskine købes 1. august 2000. Anskaffelsesprisen er 4.800. Afskrivningsmetoden er lineær over fire år.
 
 Den 31. august 2000 udføres kørslen **Beregn afskrivninger**. Afskrivningen beregnes som:
@@ -114,7 +120,10 @@ Hvis du ikke har markeret afkrydsningsfeltet **Afskriv til bogføringsdato for a
 
 *Samlet afskrivning = 100 + 15 + 55,54 = 170,54*
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/manage-advanced-fixed-assets-transactions/)
+
 ## <a name="see-also"></a>Se også
+
 [Anlægsaktiver](fa-manage.md)  
 [Opsætning af Anlægsaktiver](fa-setup.md)  
 [Finans](finance.md)  

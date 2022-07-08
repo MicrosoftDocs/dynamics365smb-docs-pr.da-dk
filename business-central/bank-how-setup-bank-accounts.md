@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: fc0c01281b4a4fb1bccee4196917b4357413e4cf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: af48197d84407fc16e103991852f98fa0338bf9e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514117"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078774"
 ---
 # <a name="set-up-bank-accounts"></a>Sådan oprettes bankkonti
 
@@ -157,6 +157,7 @@ The following table explains key fields.
 -->
 
 ## <a name="entering-an-opening-balance"></a>Angive en primosaldo
+
 For at udfylde feltet **Saldo** med en startsaldo, skal du bogføre en bankkontopost med det pågældende beløb. Du kan gøre dette ved at udføre en afstemning af bankkontoen. Du kan finde flere oplysninger i [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > Du kan også implementere primosaldoen som en del af oprettelse af generelle oplysninger i nye virksomheder ved hjælp af den assisterede opsætningsvejledning **Overflyt virksomhedsdata** . Du kan finde flere oplysninger i [Blive køreklar](ui-get-ready-business.md).  
@@ -165,6 +166,7 @@ For at udfylde feltet **Saldo** med en startsaldo, skal du bogføre en bankkonto
 > Det er vigtigt, at du ikke bogfører primosaldoen direkte i finansregnskabet. Hvis der er poster i finanskontoen, som bogføres direkte på finanskontoen, betyder det som regel, at du ikke kan afstemme bankkontoen, eller, hvis der er tale om bankkonti for udenlandsk valuta, samles differencer, når du bogfører flere bankkontoafstemninger. Du bogfører ofte primosaldoen direkte på bankkontoen, og beløbet ophører derefter med finanskontoen. Alternativt kan du tilbageføre den senere til en angivet finanskonto, som du har brugt til at afstemme primosaldoen med finansbalancen. I begge tilfælde skal du udligne en direkte bogføring til finanskontoen, før du starter din første bankafstemning, og især hvis bankkontoen er i udenlandsk valuta.
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Sådan oprettes bankkontoen for import eller eksport af bankfiler
+
 Felterne er relateret til indlæsning og udlæsning af bankfeeds og -filer i oversigtspanelet **Overførsel** på siden **Bankkontokort**. Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md) og [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.
@@ -239,6 +241,8 @@ Når du har oprettet den nye bankkonto, skal du også oprette en ny Bankbogføri
 > Bemærk, at bankkontooplysningerne på åbne salgsfakturaer stadig viser den oprindelige bankkonto. Derfor bogføres betalinger stadig på denne konto. Det anbefales, at du holder begge konti aktive i en periode efter ændringen.
 
 Hvis du vil have en mere kompakt oversigt over dine kontantkonti i financial reporting, skal du bruge kontien **fra-sum** og **til-sum** i din kontoplan, **sammentælling af rækker** i kontoskemaer eller finanskontoarter. Du kan finde flere oplysninger i afsnittet om [Business Intelligence og financial reporting](bi.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

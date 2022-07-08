@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: undo, credit memo, return
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 59fd78c106f6a5b7d44aa3b2c84232c6441d0d31
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 00be9cdf2e76df93f144662e70bb8558e9b12a2e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517260"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076925"
 ---
 # <a name="correct-or-cancel-unpaid-sales-invoices"></a>Rette eller annullere ubetalte salgsfakturaer
 
@@ -66,6 +66,8 @@ Hvis annulleringen vedrører en delvis fakturabogføring, opdateres den oprindel
 
     En salgskreditnota oprettes og bogføres automatisk for at annullere den oprindelige bogførte salgsfaktura.
 5. Vælg handlingen **Vis rettelseskreditnota** for at få vist den bogførte salgskreditnota, som gør den oprindelige bogførte salgsfaktura ugyldig.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

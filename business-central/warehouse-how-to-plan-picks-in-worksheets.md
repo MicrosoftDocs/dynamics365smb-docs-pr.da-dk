@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: 09b9f0d4d707da3872ae4b085f1405a99f69a9bc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 24e19eb56bf28b7871ec18f254dc5dbbaa0b290a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515195"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078332"
 ---
 # <a name="plan-picks-in-worksheets"></a>Planlægge pluk i kladder
 
@@ -33,6 +33,7 @@ På siden **Plukkladder** kan du oprette pluklister, som hjælpe medarbejderen k
 > Se [Plukke til montage eller produktion i avancerede lageropsætninger](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md) for at få oplysninger om pluk af komponenter til montageordrer generelt, herunder situationer, hvor montageelementet ikke er forfaldent på en salgsleverance.  
 
 ## <a name="sorting-lines-on-a-pick-worksheet"></a>Sortere linjer i en plukkladde
+
 Du kan sortere linjer efter vare, placeringsnummer, kildedokument, forfaldsdato eller destination. Her følger et par eksempler på hvordan sortering kan være nyttig.
 
 * Hvis du sorterer efter forfaldsdato, kan du vælge at slette alle linjer undtagen dem, der kræver øjeblikkelig behandling. De mindre hastende linjer slettes ikke som sådan, men sendes blot tilbage til **Plukkladden**. Når du opretter pluklisten, er linjerne allerede sorteret efter forfaldsdato, og du kan vælge at tildele pluklisten til en medarbejder.
@@ -51,6 +52,8 @@ Du kan sortere linjer efter vare, placeringsnummer, kildedokument, forfaldsdato 
 7. Hvis det er nødvendigt, kan du tildele en anden bruger eller sortere linjerne forskelligt.  
 8. Hvis du vil udskrive plukvejledningen, skal du vælge handlingen **Udskriv**.  
 9. Når du har plukket varerne, skal du vælge handlingen **Registrer**.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
 
 ## <a name="see-also"></a>Se også
 

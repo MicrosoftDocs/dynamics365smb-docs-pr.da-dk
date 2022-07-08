@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 33d8c3a36340c997a12f879f8770e17045a88aa2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 01c8b40b5217faccabc93e931472ad3aad64b7a1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521042"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075599"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designoplysninger: Bogføring af montageordre
 Montageordrebogføring er baseret på de samme principper, som når der bogføres lignende aktiviteter af salgsordrer og produktionsforbrug/afgang. Dog kombineres principperne, fordi montageordrer har egen brugergrænseflade til bogføring, ligesom den for salgsordrer, mens faktisk postbogføring sker i baggrunden som direkte vare- og ressourcekladdeposteringer, ligesom for produktionsforbrug, afgang og kapacitet.  
@@ -107,6 +107,13 @@ Den varepost, der er resultatet af bogføring af et ordremontagesalg, bliver fas
 Vareposter af typen Salg, der stammer fra bogføring af montage til ordre-mængder, der er markeret med **Ja** i feltet **Montage til ordre**.  
 
 Bogføring af salgsordrelinjer, hvor en del er lagerbeholdningen, og en anden del er montage til ordre-antallet, resulterer i separate vareposter, én for lagerbeholdningen og én for montage til ordre-antallet.  
+
+### <a name="posting-dates"></a>Bogføringsdatoer
+
+Generelt kopieres bogføringsdatoer fra en salgsordre til den tilknyttede montageordre. Bogføringsdatoen i montageordren opdateres automatisk, når du ændrer bogføringsdatoen i salgsordren direkte eller indirekte, f. eks. Hvis du ændrer bogføringsdatoen i wareshouse shippment, lagerplukket eller som en del af en massebogføring.
+
+Du kan ændre bogføringsdatoen i montageordren manuelt. Det kan imidlertid ikke senere være bogføringsdatoen i den sammenkædede salgsordre. Denne dato bevares, medmindre du opdaterer bogføringsdatoen i salgsordren.
+
 
 ## <a name="see-also"></a>Se også  
  [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   

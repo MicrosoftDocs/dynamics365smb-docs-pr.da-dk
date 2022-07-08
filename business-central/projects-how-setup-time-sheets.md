@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: b9453285ce1bf18f3eeef3c3148f6dd00921c03f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1c5314d8aba0b31d02491da1e588f7a23c83a38
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510813"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078956"
 ---
 # <a name="set-up-time-sheets"></a>Konfigurere timesedler
 
@@ -94,10 +94,12 @@ I følgende afsnit beskrives det, hvordan du konfigurerer timesedler, hvis du ik
 > [!NOTE]  
 > Du kan ikke ændre id'et på godkenderen af timesedler, hvis der er timesedler, der endnu ikke er behandlet, og som har statussen **Sendt** eller **Åben**.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+
 ## <a name="see-also"></a>Se også
 
 [Bruge timesedler for projekter](projects-how-use-time-sheets.md)  
-[Sådan opretter du timesedler](projects-how-use-time-sheets.md#to-create-time-sheets)  
+[Sådan oprettes timesedler](projects-how-use-time-sheets.md#to-create-time-sheets)  
 [Registrere forbrug eller anvendelse af projekter](projects-how-record-job-usage.md)  
 [Konfigurere projektstyring](projects-setup-projects.md)  
 [Projektstyring](projects-manage-projects.md)  

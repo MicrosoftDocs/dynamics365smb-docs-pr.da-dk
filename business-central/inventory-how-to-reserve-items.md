@@ -10,19 +10,21 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 385003db0d0fe8b121e6512257f0ed448596225e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 92ebe1881a143986ef4775e269211f0fb7279f3f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519696"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079580"
 ---
 # <a name="reserve-items"></a>Reservere varer
+
 Du kan reservere varer til salgsordrer, købsordrer, serviceordrer, montageordrer og produktionsordrer. Du kan reservere lagervarer eller indgående varer på åbne dokumentlinjer eller kladdelinjer. Du kan udføre arbejdet på siden **Reservation**.
 
 Hver linje på siden **Reservation**, som du åbner for at reservere varer, indeholder oplysninger om én type linje (salg, køb, kladde) eller lagerpost. Linjerne beskriver, hvor mange varer, der er tilgængelige for reservation fra hver linje eller post.
 
 ## <a name="to-reserve-items-for-sales"></a>Sådan reserveres varer til salg
+
 Nedenfor kan du se, hvordan du reserverer varer fra en salgsordre. Trinene er de samme for købs-, service- og montageordrer.  
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  I oversigtspanelet **Linjer** på en salgsordre skal du vælge handlingen **Reserver**. Siden **Reservation** åbnes.  
@@ -38,7 +40,8 @@ Nedenfor kan du se, hvordan du reserverer varer fra en salgsordre. Trinene er de
 > [!NOTE]  
 >  Hvis der findes varesporingslinjer til salgsordren, skal du følge de specielle trin i reservationssystemet. Du kan finde flere oplysninger i [Sådan reserveres et bestemt serienummer eller lotnummer](inventory-how-to-reserve-items.md#to-reserve-a-specific-serial-or-lot-number).  
 
-## <a name="to-reserve-an-item-for-a-production-order-line"></a>Sådan reserverer du en vare til en produktionsordrelinje  
+## <a name="to-reserve-an-item-for-a-production-order-line"></a>Sådan reserverer du en vare til en produktionsordrelinje
+
 Du kan reservere varer til en produktionsordre. Du skal skelne mellem produktionsordrelinjer, dvs. den overordnede vare, og produktionsordrekomponenter.
 
 I proceduren nedenfor anvendes en fastlagt produktionsordre.   
@@ -50,7 +53,8 @@ I proceduren nedenfor anvendes en fastlagt produktionsordre.
 
 Programmet har nu reserveret den mængde, du har angivet på den firmaplanlagte produktionsordrelinje.
 
-## <a name="to-reserve-items-for-production-order-components"></a>Sådan reserverer du varer til produktionsordrekomponenter  
+## <a name="to-reserve-items-for-production-order-components"></a>Sådan reserverer du varer til produktionsordrekomponenter
+
 Du kan reservere varer til en produktionsordre. Du skal skelne mellem produktionsordrelinjer, dvs. den overordnede vare, og produktionsordrekomponenter.
 
 I proceduren nedenfor anvendes en fastlagt produktionsordre.    
@@ -64,21 +68,24 @@ I proceduren nedenfor anvendes en fastlagt produktionsordre.
 
 Programmet har nu reserveret den mængde, du har angivet på den firmaplanlagte produktionskomponentlinje.
 
-## <a name="to-change-a-reservation"></a>Sådan ændres en reservation  
+## <a name="to-change-a-reservation"></a>Sådan ændres en reservation
+
 Du kan have brug for at ændre eller annullere en varereservation.   
 1. Fra den bilagslinje, du har reserveret fra, skal du i oversigtspanelet **Linjer** vælge handlingen **Reserver**.  
 2. På siden **Reservation** skal du vælge handlingen **Reservationsposter**.
 3. På siden **Reservationsposter** skal du opdatere feltet **Antal** på den linje, du vil ændre.
 4. Bekræft den efterfølgende meddelelse ved at vælge knappen **OK**.
 
-## <a name="to-cancel-a-reservation"></a>Sådan annulleres en reservation  
+## <a name="to-cancel-a-reservation"></a>Sådan annulleres en reservation
+
 Du kan have brug for at ændre eller annullere en varereservation.   
 1. Fra den bilagslinje, du vil annullere en reservation fra, skal du i oversigtspanelet **Linjer** vælge handlingen **Reserver**.  
 2. På siden **Reservation** skal du vælge handlingen **Reservationsposter**.  
 3.  På siden **Reservationsposter** skal du vælge handlingen **Annuller reservation**.  
 4.  Bekræft den efterfølgende meddelelse ved at vælge knappen **OK**.  
 
-## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Sådan reserveres et bestemt serienummer eller lotnummer  
+## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Sådan reserveres et bestemt serienummer eller lotnummer
+
 Fra udgående dokumenter for varer med varesporing, f.eks. salgsordrer eller produktionskomponentlister, kan du reservere bestemte serie- eller lotnumre. Dette kan være relevant, hvis du f.eks. skal bruge produktionskomponenter fra en bestemt lot for at sikre sammenhæng med tidligere produktionskørsler, eller fordi en debitor har anmodet om et bestemt serienummer. Du kan finde flere oplysninger i [Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
 
 Dette kaldes en bestemt reservation, fordi du reserverer fra antallet af varen X, som tilhører partiet X. Hvis du blot reserverer fra mængder af varen X, er det en normal, ikke-specifik reservation. Hvis du ønsker yderligere oplysninger, kan du se [Designoplysninger - Varesporing og reservationer](design-details-item-tracking-and-reservations.md).
@@ -93,7 +100,10 @@ Følgende procedure er baseret på en salgsordre.
 7. Klik på **OK** for at åbne siden **Reservation**, hvor der kun vises forsyning med det angivne varesporingsnummer. Hvis der findes ikke-specifikke reservationer på nogle af de varesporingsnumre, du har angivet for linjen, vises der en meddelelse om det antal, der allerede er reserveret.  
 8. Vælg enten handlingen **Reserver automatisk** eller handlingen **Reserver fra aktuel linje** for at oprette reservationen på de specifikke varesporingsnumre.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/manage-outbound-serial-lot-numbers/)
+
 ## <a name="see-also"></a>Se også
+
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Designoplysninger - Varesporing og reservationer](design-details-item-tracking-and-reservations.md)  

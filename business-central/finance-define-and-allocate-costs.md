@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1102, 1105, 1106, 1107, 1109, 1114
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 11d979329860d72476a6c2ae2ad6fcf57bd2485e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 78dd79ab8a0f2b966b60dd9d75e95a521b83f4a2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149123"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075547"
 ---
 # <a name="defining-and-allocating-costs"></a>Definere og allokere omkostninger
 
@@ -143,12 +143,14 @@ I dette emne vises et eksempel på, hvordan du definerer allokeringer ved hjælp
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] bruger salgstal fra de foregående år til at beregne andelen af 1596,50 RV med 100 procent for IT-UDSTYR-pakkerne. Det betyder, at alle varer, der er solgt sidste år, tildeles omkostningsobjektet IT-UDSTYR.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/allocate-costs-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
 
- [Konfigurere omkostningsregnskab](finance-set-up-cost-accounting.md)   
- [Overførsel og bogføring af omkostningsposter](finance-transfer-and-post-cost-entries.md)   
- [Regnskab for omkostninger](finance-manage-cost-accounting.md)   
- [Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)   
+ [Konfigurere omkostningsregnskab](finance-set-up-cost-accounting.md)  
+ [Overførsel og bogføring af omkostningsposter](finance-transfer-and-post-cost-entries.md)  
+ [Regnskab for omkostninger](finance-manage-cost-accounting.md)  
+ [Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)  
  [Om omkostningsregnskab](finance-about-cost-accounting.md)
 
 

@@ -10,14 +10,15 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.search.form: 89, 92, 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f53a98d0574bfd324249b85b0b75de5f5e4997e9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ee69503fa830d21ed433e88c3d8f55a42a4ec1bb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514929"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074662"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Overvåge jobstatus og -udførelse
+
 Efterhånden som status for en sag ændrer sig, forbruges der materialer, ressourcer og andre udgifter, og disse skal bogføres i sagen. Igangværende arbejde er en funktion, som giver dig mulighed for at estimere den økonomiske værdi af sager i finansregnskabet under udførelsen af sagen. Du kan i mange tilfælde bogføre udgifterne for en sag, før sagen faktureres. Hvis der kun er bogført udgifter, vil din regnskabsopgørelse ikke være helt korrekt. Du kan finde flere oplysninger i [Forstå metoder for igangværende arbejde](projects-understanding-wip.md).
 
 Du kan beregne VIA og bogføre værdien i finansregnskabet for at spore værdien i finansregnskabet.
@@ -33,6 +34,7 @@ Du kan beregne VIA baseret på følgende:
 Hvis du vil have vist resultatet ved hjælp af en anden metode, kan du skifte metode og beregne VIA igen. Der er ingen grænser for antallet af gange, du kan beregne VIA. VIA beregnes kun, det bogføres ikke i finansregnskabet. Når du har beregnet VIA, kan du foretage en bogføring i finansregnskabet.
 
 ## <a name="to-create-a-job-wip-method"></a>Sådan oprettes en sagsmetode for igangværende arbejde
+
 Du kan oprette en sagsmetode for igangværende arbejde, der afspejler behovet i organisationen. Når du har oprettet den, kan du angive den som standardsagsberegningsmetoden for igangværende arbejde, der skal bruges i organisationen.  
 
 > [!NOTE]
@@ -45,6 +47,7 @@ Du kan oprette en sagsmetode for igangværende arbejde, der afspejler behovet i 
 5. I feltet **Standard-VIA-metode** skal du vælge metoden fra listen.
 
 ## <a name="to-define-a-wip-method-for-a-job"></a>Sådan definere en metode for igangværende arbejde for en sag
+
 Når du opretter en ny sag, skal du angive, hvilken metode for igangværende arbejde der gælder. I nogle tilfælde er den sagsmetode for igangværende arbejde, der er oprettet for dig, oprettet som standard.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.
@@ -52,6 +55,7 @@ Når du opretter en ny sag, skal du angive, hvilken metode for igangværende arb
 3. På siden **Sagskort** i feltet **Metode for igangværende arbejde** skal du vælge en metode for igangværende arbejde. Hvis der er defineret en standardmetode, kan du vælge en anden indstilling, hvis det er nødvendigt.  
 
 ## <a name="to-calculate-wip"></a>Sådan beregnes VIA
+
 Du kan fastlægge det beløb for igangværende arbejde, der skal bogføres til balancekonti ved periodeafslutningsrapporteringen. Det gør du ved at udføre kørslen **Beregn VIA for sag**.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Beregn VIA for sag**, og vælg derefter det relaterede link.  
@@ -63,6 +67,7 @@ Du kan fastlægge det beløb for igangværende arbejde, der skal bogføres til b
 >   Kørslen beregner kun igangværende arbejde. Det bogføres ikke i finansmodulet. Hvis du vil bogføre, skal du udføre kørslen **Bogfør igangværende arbejde - finansafstemning**, når du har beregnet igangværende arbejde. Du kan finde flere oplysninger i følgende procedure.
 
 ## <a name="to-post-wip"></a>Sådan bogføres igangværende arbejde
+
 Når du har beregnet igangværende arbejde, kan du bogføre det til balancekontiene for periodeafslutningsrapporteringen. Det gør du ved at udføre kørslen **Bogfør VIA for sag**.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogfør VIA for sag**, og vælg derefter det relaterede link.  
@@ -70,6 +75,7 @@ Når du har beregnet igangværende arbejde, kan du bogføre det til balancekonti
 3. Vælg knappen **OK**.
 
 ## <a name="to-calculate-and-post-job-completion-entries"></a>Sådan beregnes og bogføres sagsafslutningsposter
+
 Når du har fuldført alle aktiviteter for en sag, inklusive bogføring og fakturering af forbrug, skal du opdatere sagen for at få **status** **Afsluttet**. Derefter skal du tilbageføre alt igangværende arbejde, som er blevet bogført i finansregnskabet.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
@@ -86,6 +92,7 @@ Når du har fuldført alle aktiviteter for en sag, inklusive bogføring og faktu
      Sagens VIA-finansposter, som blev oprettet ved at udføre kørslen, vil nu være markeret i feltet **Sagen er fuldført** for at vise, at de er færdiggørelsesposter.
 
 ## <a name="to-view-job-ledger-entries"></a>Sådan får du vist sagsposter
+
 Alle sagsrelaterede poster er registreret i sagsjournaler med fortløbende nummerering, hvor der startes med 1. Fra sagsjournalen kan du få et overblik over alle sagsposter.    
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagsjournaler**, og vælg derefter det relaterede link.
@@ -93,12 +100,15 @@ Alle sagsrelaterede poster er registreret i sagsjournaler med fortløbende numme
 
 På siden **Sagsposter** kan du gennemse de poster, der er tilknyttet en sag.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
+
 ## <a name="see-also"></a>Se også
-[Administrere projekter](projects-manage-projects.md)
-[Administrere lageromkostninger](finance-manage-inventory-costs.md)   
+
+[Administrere projekter](projects-manage-projects.md)  
+[Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
-[Køb](purchasing-manage-purchasing.md)         
-[Salg](sales-manage-sales.md)      
+[Køb](purchasing-manage-purchasing.md)  
+[Salg](sales-manage-sales.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

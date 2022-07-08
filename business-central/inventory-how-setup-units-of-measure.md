@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6457750589393b2f8cc9d76e732ab0c3e6064a9d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8b03ca934a87573feded023311f01349066f886c
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518021"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074844"
 ---
 # <a name="set-up-units-of-measure"></a>Oprette måleenheder
 
@@ -79,6 +79,8 @@ Hvis du normalt køber eller sælger i andre enheder end basisenheden, kan du an
 3. For salg skal du i oversigtspanelet **Fakturering** i feltet **Salgsenhed** åbne siden **Vareenheder**.
 4. For køb skal du i oversigtspanelet **Genbestilling** i feltet **Købsenhed** åbne siden **Vareenheder**.
 5. Vælg den kode, du vil angive som standardenhed for henholdsvis salg eller køb, og vælg derefter knappen **OK**.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

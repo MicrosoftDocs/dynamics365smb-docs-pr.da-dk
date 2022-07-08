@@ -10,14 +10,15 @@ ms.search.keywords: categories, search words, facets
 ms.search.forms: 7507, 7509, 7506, 7505, 7503, 7502, 7510, 7504, 7501, 7500, 9110, 5734, 7508
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cb907b4574126c23292e4b164505606a5ac404dd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7268ac8ff38025dcd0b439e4ea6ae7d051ebc9d6
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516183"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077992"
 ---
 # <a name="work-with-item-attributes"></a>Arbejde med vareattributter
+
 Når kunder forespørger om en vare, enten via korrespondance eller en integreret en webshop, kan de spørge eller søge ud fra egenskaber som f.eks højde og modelår. For at yde denne kundeservice kan du tildele vareattributværdier af forskellige typer til dine varer, som kan bruges ved søgning efter varer.
 
 Du kan også tildele vareattributter til varekategorier, som derefter gælder for de varer, der bruger varekategorier. Yderligere oplysninger findes under [Kategorisere vare](inventory-how-categorize-items.md).
@@ -26,6 +27,7 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 > Hvis du vil knytte billeder til varer, kan billedanalyseudvidelsen registrere attributter i billedet, og foreslå attributterne, så bliver du spurgt, om du vil tildele dem. Udvidelsen er klar til brug. Du skal blot aktivere den. Du kan finde flere oplysninger i [Billedanalyseudvidelsen](ui-extensions-image-analyzer.md).
 
 ## <a name="to-create-item-attributes"></a>Sådan oprettes vareattributter
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Vareattributter**, og vælg derefter det relaterede link.
 2. På siden **Vareattributter** skal du vælge handlingen **Ny**.
 3. På siden **Vareattribut** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -34,11 +36,13 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 >   Hvis du vælger **Indstilling** i feltet **Type**, kan du vælge handlingen **Vareattributværdier** for at oprette værdier for vareattributten. Du kan finde flere oplysninger i [Sådan oprettes værdier for vareattributter af typen Indstilling](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
 
 ## <a name="to-create-values-for-item-attributes-of-type-option"></a>Sådan oprettes værdier for vareattributter af typen Indstilling
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Vareattributter**, og vælg derefter det relaterede link.
 2. På siden **Vareattributter** skal du vælge en vareattribut af typen **Indstilling**, som du vil oprette værdier for, og derefter vælge handlingen **Vareattributværdier**.
 3. På siden **Vareattributværdier** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-item-attributes-to-items"></a>Sådan tildeles vareattributter til varer
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. På siden **Varer** skal du vælge den vareattribut, du vil tildele vareattributter til, og derefter vælge handlingen **Attributter**.
 3. På siden **Vareattributværdier** skal du vælge handlingen **Ny**.
@@ -48,6 +52,7 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 7. Gentag trin 4-6 for alle vareattributter, du vil tildele til varen.
 
 ## <a name="to-assign-item-attributes-to-item-categories"></a>Sådan tildeles vareattributter til varekategorier
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varekategorier**, og vælg derefter det relaterede link.
 2. På siden **Varekategorier** skal du vælge den varekategori, som du vil tildele vareattributter til, og derefter vælge handlingen **Rediger**.
 3. På siden **Varekategorikort** i oversigtspanelet **Attributter** skal du vælge handlingen **Ny**.
@@ -59,6 +64,7 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 >   Vareattributter for overordnede varekategorier bliver overført til underordnede varekategorier. Dette er angivet med feltet **Overført fra** på oversigtspanelet **Attributter**. Yderligere oplysninger findes under [Kategorisere varer](inventory-how-categorize-items.md).
 
 ## <a name="to-filter-by-item-attributes"></a>Sådan filtreres varer efter vareattributter
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. På siden **Varer** skal du vælge handlingen **Filtrer efter attributter**.
 3. På siden **Filtrer efter attributter** skal du vælge opslagsknappen i feltet **Attribut** og vælge en vareattribut.
@@ -71,12 +77,15 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 7. I feltet **Værdi** skal du angive en attributværdi, som varer skal filtreres efter.
 
     **Eksempel**: Hvis du vil filtrere varer, hvor materialebeskrivelsen begynder med "blå", skal du udfylde felterne på følgende måde: feltet **Attribut**: Materialebeskrivelse, feltet **Betingelse**: Begynder med, feltet **Værdi**: blå.
-8. Vælg knappen **OK**.   
+8. Vælg knappen **OK**.
 
 Varerne på siden **Varer** filtreres efter de angivne vareattributværdier.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
-[Kategorisere varer](inventory-how-categorize-items.md)    
+
+[Kategorisere varer](inventory-how-categorize-items.md)  
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

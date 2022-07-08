@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d421392a4428bc227cdbf6c5532d87e7360fe189
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7bc0d1455960b1550c6a8d9fc54c20112b3e9f63
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518987"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074525"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbejde med rammesalgsordrer eller rammekøbsordrer
 
@@ -56,7 +56,8 @@ Følgende gælder for salgsordrer, når de er oprettet ud fra rammesalgsordrer:
 - Den fakturerede rammesalgsordre bliver liggende i systemet, indtil den slettes, enten ved sletning af bestemte rammesalgsordrer eller ved at køre kørslen **Slet fakturerede rammesalgsordrer**.  
 - Hvis en kunde også er registreret som kontakt i modulet Marketing, og du har angivet en interaktionsskabelonkode for rammesalgsordrer på siden **Marketingopsætning**, registreres der en interaktion i tabellen Interaktionslogpost, når du vælger **Udskriv** for at udskrive rammesalgsordrerne.
 
-## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Sådan vises en rammesalgsordres status  
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Sådan vises en rammesalgsordres status
+
 Du kan se den aktuelle status for en rammesalgsordre på siden **Statistik over rammesalgsordrer**. Dette kan være relevant, når du begynder at fakturere den ordre, der er oprettet fra rammesalgsordren.  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rammesalgsordrer**, og vælg derefter det relaterede link.  
@@ -68,7 +69,8 @@ Du kan se den aktuelle status for en rammesalgsordre på siden **Statistik over 
 - I oversigtspanelet **Forudbetaling** kan du se en oversigt med oplysninger om alle forudbetalte beløb.  
 - Oversigtspanelet **Kreditor** indeholder forskellige stamoplysninger om kreditoren.
 
-## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Sådan vises ikke-bogførte og bogførte rammesalgsordrelinjer   
+## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Sådan vises ikke-bogførte og bogførte rammesalgsordrelinjer
+
 Sammenkædningen mellem rammesalgsordre og den oprindelige salgsordre og ethvert andet salgsbilag bevares efter bogføring som en liste over bogførte og ikke-bogførte salgsordrefakturalinjer.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rammesalgsordrer**, og vælg derefter det relaterede link.
@@ -92,6 +94,8 @@ Sammenkædningen mellem rammesalgsordre og den oprindelige salgsordre og ethvert
 |**Kreditnotaer**|Bogførte kreditnotaer med tilknytning til den valgte linje.|
 
 5. På siden **Salgslinjer** skal du vælge handlingen **Vis dokument** for at få vist posten.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

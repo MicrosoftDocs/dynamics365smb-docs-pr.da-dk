@@ -1,8 +1,6 @@
 ---
 title: Allokere omkostninger til IC-partnere | Microsoft-dokumenter
 description: Få mere at vide om, hvordan momsindstillinger for debitorer og kreditorer styrer om, og hvordan moms beregnes.
-services: project-madeira
-documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a9118614872559a9b2c321e7869f1b013266d92b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f6f8634ae4431038a6ac3ea66bc5b1ead0a21d30
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522140"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077289"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Allokere omkostninger til IC-partnere
 Når du bruger Intercompany-bogføringer til at overføre dokumenter mellem partner firmaer, har momsrelaterede indstillinger (primært den momsvirksomhedsbogføringsgruppe), der er tildelt debitor-eller kreditorkontiene (associeret med IC-partneren), at bestemme, om og hvordan moms skal beregnes og registreres. Du kan også foretage omkostningsfordelinger direkte fra en købsordre til partnervirksomheder. Hvis du f.eks. registrerer en købsfaktura fra en ekstern leverandør, og du vil distribuere nogle eller alle omkostninger til en eller flere IC-partnere.

@@ -9,18 +9,20 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9cfdcf37464a032b6d999d525e67eecadb961ca4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ba87c96e23a3905e555a3c5fbf361758f2f76664
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129938"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075703"
 ---
 # <a name="business-central-extensions-by-other-providers"></a>Business Central-udvidelser fra andre leverandører
 
 På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du få udvidelser til [!INCLUDE[prod_short](includes/prod_short.md)]. Nogle udvidelser er fra Microsoft, mens andre udvidelser leveres af andre virksomheder. Vi henviser til disse virksomheders websteder, som indeholder yderligere oplysninger om de udvidelser, som ikke er udgivet af Microsoft. Du kan finde disse oplysninger på [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 Oversigten over udvidelserne fra andre firmaer vokser hver måned. Så hold øje med [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) og få apps, der kan hjælpe dig med at arbejde i [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

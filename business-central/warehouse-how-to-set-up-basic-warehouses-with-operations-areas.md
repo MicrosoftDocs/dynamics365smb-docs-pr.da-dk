@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 502ac0d10379166426014ea3bda0eedb1f6d601c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 548654c36264a0b2bc401c4c1db39fa3d053f776
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511992"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074428"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Oprette grundlæggende lagersteder med handlingsområder
+
 Hvis der findes interne operationsområder, såsom produktion eller montage i grundlæggende lageropsætninger, hvor lokationer bruger opsætningsfeltet **Tvungen placering** og muligvis opsætningsfelterne **Kræv pluk** og **Kræv læg-på-lager**, kan du derefter bruge følgende grundlæggende lagerdokumenter til at registrere dine lageraktiviteter for interne operationsområder:  
 
 - Siden **Liste flytning (lager)**.  
@@ -40,7 +41,8 @@ Følgende procedurer er baseret på oprettelse af grundlæggende lageraktivitete
 > [!NOTE]  
 >  I følgende procedure er feltet **Tvungen placering** på lokationskort markeret som en forudsætning, fordi dette betragtes som grundlaget for ethvert logistikniveau.  
 
-## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Aktivere lagerdokumenter til interne operationsaktiviteter  
+## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Aktivere lagerdokumenter til interne operationsaktiviteter
+
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.
 2. Åbn det lokationskort, du vil konfigurere.  
 3.  Markér afkrydsningsfeltet **Kræv læg-på-lager** i oversigtspanelet **Lagersted** for at angive, at når der frigives et indgående eller internt kildedokument med en placeringskode, så kan der oprettes et læg-på-lager-dokument eller et flytning (lager)-dokument.  
@@ -65,6 +67,7 @@ Dette flow-diagram viser, hvordan feltet **Placeringskode** i produktionsordreko
 ![Placeringsrutediagram.](media/binflow.png "BinFlow")
 
 ## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Definere en standardplaceringsstruktur i montageområdet
+
 Komponenter til montageordrer kan ikke plukkes eller bogføres med pluk. Brug i stedet siden **Flytning (lager)**. Du kan finde flere oplysninger i [Flytte komponenter til et handlingsområde i basislogistik](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 Når du plukker og leverer salgslinjemængder, der er monteret til ordren, skal du følge visse regler, når du opretter lagerpluklinjerne. Du kan finde flere oplysninger i afsnittet "Håndtere montage til ordre-varer i Pluk (lager)" i [Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md).
@@ -72,10 +75,12 @@ Når du plukker og leverer salgslinjemængder, der er monteret til ordren, skal 
 Du kan finde flere oplysninger i [Montagestyring](assembly-assemble-items.md).
 
 ### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Sådan angiver du, at en flytning (lager) automatisk skal oprettes, når lagerpluk for montageelementet oprettes
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Montagekonfiguration**, og vælg derefter det relaterede link.
 2. Markér afkrydsningsfeltet **Opret bevægelser automatisk**.
 
 ### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Sådan angiver du placeringen i montageområdet, hvor komponenter placeres som standard, før de kan forbruges i montagen
+
 Værdien i dette felt indsættes automatisk i feltet **Placeringskode** på montageordrelinjer, når denne lokation indsættes i feltet **Lokationskode** på montageordrelinjen.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.
@@ -83,6 +88,7 @@ Værdien i dette felt indsættes automatisk i feltet **Placeringskode** på mont
 3. Udfyld feltet **Placeringskode til til-montage**.
 
 ### <a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a>Sådan angiver du den placering i montageområdet, som færdige montageelementer bogføres på, når de monteres til lager
+
 Værdien i dette felt indsættes automatisk i feltet **Placeringskode** på montageordrehoveder, når denne lokationskode indsættes i feltet **Lokationskode** på montageordrehovedet.
 
 De placeringskoder, der er angivet på lokationskort, definerer en standardlagerstrøm for specifikke lageraktiviteter, såsom forbrug af komponenter på et montageområde. Der findes yderligere funktioner for at sikre, at varer, der placeres i en standardplacering, ikke kan flyttes eller plukkes til andre aktiviteter.
@@ -95,6 +101,7 @@ De placeringskoder, der er angivet på lokationskort, definerer en standardlager
 3. Udfyld feltet **Placeringskode til fra-montage**.
 
 ### <a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a>Sådan angives den placering, som færdige montageelementer bogføres på, når de monteres til en tilknyttet salgsordre
+
 Fra denne placering leveres montageelementer med det samme via et lagerpluk for at opfylde salgsordre.
 
 > [!NOTE]
@@ -116,6 +123,7 @@ Den samme placeringskode kopieres igen fra feltet **Placeringskode** på lagerpl
 3. Udfyld feltet **Pla.kode til ordremontagelev.**.
 
 ## <a name="to-create-dedicated-component-bins"></a>Sådan oprettes dedikerede komponentplaceringer
+
 Du kan angive, at antallet i en placering skal beskyttes mod pluk til andre formål end det aktuelle.
 
 Mængderne i dedikerede placeringer kan stadig reserveres. På samme måde medtages mængderne i dedikerede placeringer i feltet **Beholdning i alt** på siden **Reservation**.
@@ -134,7 +142,10 @@ Hvis du gør en placering dedikeret, giver den samme funktion som brug af placer
 > [!NOTE]  
 >  Placeringen skal være tom, før du kan markere eller fjerne markeringen i feltet **Dedikeret**.
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/get-started-warehouse-management/)
+
+## <a name="see-also"></a>Se også
+
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  

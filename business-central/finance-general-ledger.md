@@ -10,12 +10,12 @@ ms.search.keywords: analysis, history, track
 ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
 ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 1834cfe7bbbc933a1aebddbc94ea6dfe09523605
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bb94f725c57f538f9d8704ba66e3d66e120d41d2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510844"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079138"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Forstå Finans og Kontoplan
 
@@ -88,6 +88,8 @@ Næste gang du genererer kontoskemaer viser din kontoopgørelse den samlede sald
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Adgang til at oprette og redigere konti og kontokategorier
 
 I en mindre organisation, f. eks. CRONUS-demonstrationsregnskabet, kan de fleste brugere redigere kontoplanen, undtagen brugere med en licens til teammedlemmer. I større organisationer er adgangen til at redigere kontoplanen imidlertid begrænset af roller og tilladelser. Hvis du er administrator, eller du har rollen *forretningschef* eller *bogholder*, kan du kontrollere tilladelserne for alle brugere for at sikre, at de rette personer har adgang til de relevante tabeller. Du kan finde flere oplysninger i [Sådan får du vist en oversigt over en brugers rettigheder](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/business-central-configure-general-ledger-setup/)
 
 ## <a name="see-also"></a>Se også
 

@@ -7,14 +7,15 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eb00a19bd5d61e8ed465e3765ef38561ce058554
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bbb912f0e9e6718ba625fba4dc05fae19f4f2ebb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521516"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076197"
 ---
 # <a name="customize-pages-for-profiles"></a>Tilpasse sider til profiler
+
 Brugerne kan tilpasse de sider, som udgør deres arbejdsområde, så de passer til deres egne præferencer. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
 Administratorer kan tilpasse sider til en profil i henhold til den tilknyttede forretningsrolle eller -afdeling, f.eks. så alle de brugere, der er tildelt profilen, kan se det tilpassede sidelayout. Administratoren tilpasser sider ved at bruge de samme funktioner som brugerne, når de tilpasser sider.
@@ -25,6 +26,7 @@ Administratorer kan tilpasse sider til en profil i henhold til den tilknyttede f
 Sidetilpasningen begynder på siden **Profiler (roller)**, som er administratorens udgangspunkt for styring af brugerprofiler for individuelle profilkort. Ud over at tilpasse sidelayoutet kan du styre forskellige andre indstillinger for profiler på siden **Profil (rolle)** for hver profil. Du kan finde flere oplysninger i [Administrere profiler](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>Sådan tilpasses sider for en profil
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Profiler (roller)**, og vælg derefter det relaterede link.
 2. Marker linjen for den profil, du vil tilpasse sider for, og vælg derefter handlingen **Rediger**.
 3. Vælg handlingen **Tilpas sider**.
@@ -50,6 +52,7 @@ Du kan få vist en oversigt over, hvilke sider der er tilpasset for en profil, f
 Du kan slette tilpasninger på siden **Brugerdefinerede sider**, og du kan foretage fejlfinding ved at søge efter mulige problemer.  
 
 ## <a name="to-delete-all-customizations-for-a-profile"></a>Sådan slettes alle tilpasninger for en profil
+
 Du kan annullere alle tilpasninger, du har foretaget for en profil. Tilpasninger, som er introduceret med en udvidelse, og tilpasninger, der er udført af en bruger, slettes ikke. Du kan slette alle tilpasninger med en anden handling. Du kan finde flere oplysninger i [Sådan slettes alle tilpasninger, der er foretaget af en bruger](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
 - På siden **Profil (rolle)** for en tilpasset profil skal du vælge handlingen **Fjern brugerdefinerede sider**.
@@ -57,12 +60,15 @@ Du kan annullere alle tilpasninger, du har foretaget for en profil. Tilpasninger
 Layoutet på siderne i profilen nulstilles til standardlayoutet.  
 
 ## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Sådan slettes tilpasning af bestemte sider for en profil
+
 Du kan slette enkelte sidetilpasninger, du har foretaget for en profil. Tilpasninger, som er introduceret med en udvidelse, og tilpasninger, der er udført af en bruger, slettes ikke. Du kan slette bestemte sidetilpasninger med en anden handling. Du kan finde flere oplysninger i [Sådan slettes tilpasninger for bestemte sider](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
 1. Vælg handlingen **Administrer tilpassede sider** på siden **Profil (rolle)**.
 2. På siden **Brugerdefinerede sider** skal du vælge en eller flere linjer for sidetilpasninger, som du vil slette, og derefter vælge handlingen **Slet**.
 
 Layoutet på de valgte sider justeres til de ændringer, du har foretaget.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also"></a>Se også
 

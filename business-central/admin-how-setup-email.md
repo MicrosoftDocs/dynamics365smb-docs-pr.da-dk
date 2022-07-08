@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: 8357659f42976c7e3bc9b64a3c0aa10fe5b32364
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: df98aeba310bdc1e111834277b28c4c8edc9085b
+ms.sourcegitcommit: 0513051fd4a3b804188e7404569e802ec327cf84
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950458"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9041422"
 ---
 # <a name="set-up-email"></a>Konfigurer mail
 Personer i virksomheder sender oplysninger og dokumenter, f.eks. salgs-og købsordrer og fakturaer, pr. e-mail hver dag. Administratorer kan nemmere oprette forbindelse mellem en eller flere e-mail-konti [!INCLUDE[prod_short](includes/prod_short.md)], så du kan sende dokumenter uden at skulle åbne en e-mail-app. Du kan skrive hver enkelt meddelelse individuelt med grundlæggende formateringsværktøjer, f.eks. skrifttyper, typografier, farver osv., og føje vedhæftede filer til op til 100 MB. Administratorer kan desuden rapportlayout lade administratorer omfatte nøgleoplysninger fra dokumenter. Du kan finde flere oplysninger i [Sende dokumenter via mail](ui-how-send-documents-email.md).
@@ -44,7 +44,7 @@ I følgende tabel beskrives de e-mail-udvidelser, der som standard er tilgængel
 |**SMTP Connector**|Brug SMTP-protokollen til at sende mails.|Tillad kommunikation via din SMTP-mailserver. |
 
 > [!NOTE]
-> Udvidelserne **Microsoft 365-connector** og **Aktuel bruger-connector** bruger de konti, du konfigurere til brugere i Microsoft 365 Administration til dit Microsoft 365-abonnement. Hvis du vil sende e-mail ved hjælp af udvidelser, skal brugere have en gyldig licens til Exchange Online. Derudover kræver disse udvidelser, at indstillingen **Tillad HttpClient-anmodninger** er aktiveret. Hvis du vil kontrollere, om det er aktiveret for disse udvidelser, skal du gå til siden **Udvidelsesstyring**, vælge udvidelsen og derefter vælge indstillingen **Konfigurer**.
+> Udvidelserne **Microsoft 365-connector** og **Aktuel bruger-connector** bruger de konti, du konfigurere til brugere i Microsoft 365 Administration til dit Microsoft 365-abonnement. Hvis du vil sende e-mail ved hjælp af udvidelser, skal brugere have en gyldig licens til Exchange Online. Derudover kræver disse udvidelser i sandkassemiljøer, at indstillingen **Tillad HttpClient-anmodninger** er aktiveret. Hvis du vil kontrollere, om det er aktiveret for disse udvidelser, skal du gå til siden **Udvidelsesstyring**, vælge udvidelsen og derefter vælge indstillingen **Konfigurer**.
 
 > Eksterne brugere, f. eks. uddelegerede administratorer og eksterne bogholdere, kan heller ikke bruge disse udvidelser til at sende e-mail-meddelelser fra [!INCLUDE[prod_short](includes/prod_short.md)].
 

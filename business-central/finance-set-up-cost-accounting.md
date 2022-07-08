@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9cfb46221098869f41b67c5365f14265b34017c0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ceba015b16e990bc71e0217ed2f8ee85ca6ae1ec
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520330"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074870"
 ---
 # <a name="setting-up-cost-accounting"></a>Konfigurere omkostningsregnskab
 
@@ -141,7 +141,8 @@ Omkostningsobjekter er en virksomheds projekter, produkter eller tjenester. Diag
 * Overfør dimensionsværdier i regnskabet til diagrammet over omkostningsobjekter. Du kan foretage de nødvendige justeringer efter overførslen.  
 * Opret et nyt diagram over omkostningsobjekter, der er uafhængigt af regnskabet, eller tilføje et nyt omkostningsobjekt til et eksisterende diagram over omkostningsobjekter. Du skal oprette hvert omkostningsobjekt individuelt.  
 
-### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Sådan overføres dimensionsværdier fra regnskabet til diagrammet over omkostningsobjekter.  
+### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Sådan overføres dimensionsværdier fra regnskabet til diagrammet over omkostningsobjekter.
+
 1.  Angiv en dimension, der skal være omkostningsobjektdimensionen på siden **Opdater CA-dimensioner**. Kun værdierne fra denne dimension overføres.  
 2.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig 3.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Diagram over omkostningsemner**, og vælg derefter det relaterede link.  
 3.  Vælg handlingen **Hent omkostningsemner fra dimensionen** for at overføre dimensionsværdier til diagrammet over omkostningsemner. Funktionen overfører de dimensionsværdier, som du definerede i trin 1.  
@@ -151,7 +152,8 @@ Omkostningsobjekter er en virksomheds projekter, produkter eller tjenester. Diag
 
 Diagrammet over omkostningsobjekter indeholder alle de angivne dimensionsværdier fra regnskabet og indeholder titler og subtotaler.  
 
-### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Sådan oprettes nye omkostningsemner på siden Diagram over omkostningsemner  
+### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Sådan oprettes nye omkostningsemner på siden Diagram over omkostningsemner
+
 Du kan oprette og vedligeholde omkostningsemner enten på **Omkostningsemnekortet** eller på siden **Diagram over omkostningsemner**. I denne procedure opretter du omkostningsobjekter på siden **Diagram over omkostningsemner**.  
 
 1.  Åbn siden **Diagram over omkostningsemner** i redigeringstilstand.  
@@ -169,9 +171,11 @@ Du kan oprette og vedligeholde omkostningsemner enten på **Omkostningsemnekorte
 >  Hvis du har angivet definitioner i felterne **I alt fra/til** for **Til-sum**-omkostningsemner, før du kører indrykningsfunktionen, skal du angive dem igen. Funktionen overskriver værdierne i alle **Til-sum**-felter.
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Definition af omkostningssteder og omkostningsobjekter for kontoplanen
+
 Du kan automatisk overføre posterne udgifter og indtægter fra regnskabet til omkostningsregnskab, enten for hver bogføring til regnskab eller med et batchjob. Når du foretager overførslen, overfører [!INCLUDE[prod_short](includes/prod_short.md)] kun de poster, der allerede er knyttet til et omkostningssted eller et omkostningsobjekt. For at oprette en relevant overførsel skal du sikre omkostningssteder og omkostningsobjekter er korrekt defineret.  
 
-### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Definere standarddimensionsværdier for finanskonti  
+### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Definere standarddimensionsværdier for finanskonti
+
 For hver enkelt finanskonto kan du definere standarddimensionsværdier i tabellen **Standarddimension**. Følgende eksempel viser, hvordan du definerer, at der altid skal være et omkostningssted DEPARTMENT, men aldrig et omkostningsobjekt PROJECT, når du bogfører til en finanskonto.  
 
 |**Dimensionskode**|**Værdibogføring**|  
@@ -179,7 +183,8 @@ For hver enkelt finanskonto kan du definere standarddimensionsværdier i tabelle
 |Afdeling|Tvungen kode|  
 |Projekt|Ingen kode|  
 
-### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Definition af dimensionsværdier for faste og direkte omkostninger  
+### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Definition af dimensionsværdier for faste og direkte omkostninger
+
  Du kan overføre faste omkostninger til et omkostningssted og direkte omkostninger til et omkostningsobjekt. Følgende tabel viser den optimale kombination af dimensionsopsætningsværdierne.  
 
 |Kopiér til|Omkostningsstedbogføring|Omkostningsobjektbogføring|  
@@ -190,9 +195,12 @@ For hver enkelt finanskonto kan du definere standarddimensionsværdier i tabelle
 > [!NOTE]  
 >  For at sikre, at det foruddefinerede omkostningssted og omkostningsemne, du har oprettet i regnskabet, automatisk overføres til omkostningsregnskab, skal du markere afkrydsningsfeltet **Kontroller finansbogføringer** på siden Konfiguration af omkostningsregnskab.
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/cost-accounting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se også
+
 [Regnskab for omkostninger](finance-manage-cost-accounting.md)  
-[Overførsel og bogføring af omkostningsposter](finance-transfer-and-post-cost-entries.md)   
+[Overførsel og bogføring af omkostningsposter](finance-transfer-and-post-cost-entries.md)  
 [Definere og allokere omkostninger](finance-define-and-allocate-costs.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

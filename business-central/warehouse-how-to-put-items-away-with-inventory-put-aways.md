@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 190a3925cfc692331e21e3cd2a2b41c68cc02d6f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4d90980030453dd2b152d2b85901a9db12cadf2f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511411"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078306"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Lægge varer på lager med Læg-på-lager (lager)
+
 Hvis lokationen er sat op til at kræve læg-på-lager, men ikke modtagelse, bruger du dokumentet **Læg-på-lager (lager)** til at registrere og bogføre læg-på-lager- og modtagelsesoplysninger for kildedokumenterne. Det indgående kildedokument kan være en købsordre, en salgsreturvareordre, en indgående overflytningsordre eller en montage- eller produktionsordre, hvis afgang er klar til at blive lagt på lager.  
 
 Du kan oprette et læg-på-lager på tre måder:  
@@ -26,6 +27,7 @@ Du kan oprette et læg-på-lager på tre måder:
 - Opret læg-på-lager-aktiviteter for mange kildedokumenter samtidig ved hjælp af en kørsel.  
 
 ## <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Sådan anmoder du om en læg-på-lager-aktivitet ved at frigive kildedokumentet
+
 I forbindelse med købsordrer, salgsreturvareordrer, indgående overflytningsordrer og montageordrer opretter du lageranmodningen ved at frigive ordren. Nedenfor kan du se, hvordan du gør det fra en købsordre.  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **købsordrer**, og vælg derefter det relaterede link.
@@ -41,7 +43,9 @@ I forbindelse med købsordrer, salgsreturvareordrer, indgående overflytningsord
 Når lageranmodningen er oprettet, kan en lagermedarbejder, der er tildelt til læg-på-lager-opgaver, se, at kildedokumentet er klar til at blive lagt på lager, og oprette et nyt læg-på-lager-dokument på basis af lageranmodningen.  
 
 ## <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Sådan oprettes en læg-på-lager-aktivitet ud fra kildedokumentet
-Nu, hvor anmodningen er oprettet, kan lagermedarbejderen oprette en ny læg-på-lager-aktivitet baseret på det frigivne kildedokument.   
+
+Nu, hvor anmodningen er oprettet, kan lagermedarbejderen oprette en ny læg-på-lager-aktivitet baseret på det frigivne kildedokument.
+
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Læg-på-lager (lager)**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. I feltet **Kildedokumentet** skal du vælge den kildedokumenttype, du lægger på lager for.  
@@ -49,18 +53,21 @@ Nu, hvor anmodningen er oprettet, kan lagermedarbejderen oprette en ny læg-på-
 5. Du kan også vælge handlingen **Hent kildedokument** for at vælge kildedokumentet på en liste over indgående kildedokumenter, der er klar til læg-på-lager på lokationen.  
 6. Vælg knappen **OK** for at udfylde læg-på-lager-linjerne i overensstemmelse med det valgte kildedokument.  
 
-## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>Sådan oprettes en læg-på-lager-aktivitet fra kildedokumentet  
+## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>Sådan oprettes en læg-på-lager-aktivitet fra kildedokumentet
+
 1.  I kildedokumentet, som kan være en købsordre, salgsreturvareordre, indgående overflytningsordre eller produktionsordre, skal du vælge handlingen **Opret læg-på-lager/pluk (lager)**.  
 2. Markér afkrydsningsfeltet **Opret læg-på-lager/pluk (lager)**.
 3. Vælg knappen **OK**. Der oprettes en ny læg-på-lager-aktivitet.
 
-## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Sådan oprettes flere læg-på-lager-aktiviteter med en kørsel  
+## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Sådan oprettes flere læg-på-lager-aktiviteter med en kørsel
+
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opret læg-på-lager/pluk (lager)**, og vælg derefter det relaterede link.  
 2.  Brug felterne **Kildedokument** og **Kildenr.** i oversigtspanelet **Lageranmodning** på anmodningssiden til at filtrere på bestemte typer dokumenter eller rækker af dokumentnumre.  
 3.  I oversigtspanelet **Indstillinger** skal du markere afkrydsningsfeltet **Opret læg-på-lager (lager)**.
 4.  Vælg knappen **OK**. De angivne læg-på-lager-aktiviteter oprettes.
 
-## <a name="to-record-the-inventory-put-away"></a>Sådan registreres læg-på-lager-aktiviteten  
+## <a name="to-record-the-inventory-put-away"></a>Sådan registreres læg-på-lager-aktiviteten
+
 1. Åbn et tidligere oprettet læg-på-lager-dokument ved at vælge et på siden **Læg-på-lager akt. (lager)**.  
 2. I feltet **Placeringskode** på læg-på-lager-linjerne, foreslås den placering, hvor varerne skal lægges på lager, pr. varens standardplacering. Du kan eventuelt ændre placeringen på denne side.  
 3. Udfør læg-på-lager-aktiviteten, og angiv oplysningerne for den faktiske mængde, der er lagt på lager, i feltet **Håndteringsantal**.
@@ -70,11 +77,14 @@ Nu, hvor anmodningen er oprettet, kan lagermedarbejderen oprette en ny læg-på-
 
 Når du bogfører, bogføres modtagelsen, eller afgangen i forbindelse med produktionsordrer, af de kildedokumentlinjer, der er lagt på lager, og hvis der anvendes placeringer på lokationen, oprettes der også lagerposter til bogføring af ændringerne af placeringsantal.
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/receive-put-away-items/)
+
+## <a name="see-also"></a>Se også
+
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
-[Montagestyring](assembly-assemble-items.md)    
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
+[Montagestyring](assembly-assemble-items.md)  
 [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

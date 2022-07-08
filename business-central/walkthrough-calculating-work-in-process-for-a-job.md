@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c3e8fea25e921288db80b993ff2911dc7b473fb1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 16adda82dbc45bcff61934d57de7a4e46f8477cf
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523289"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075287"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Gennemgang: Beregning af igangværende arbejder for en sag
 
@@ -22,7 +22,8 @@ ms.locfileid: "8523289"
 
 Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer og holde styr på de forskellige omkostninger, der er forbundet med brugen af ressourcerne på et bestemt projekt. Sager inkluderer forbruget af medarbejdertimer, maskintimer, lagervarer og andre brugstyper, der skal registreres, efterhånden som en sag skrider frem. Hvis en sag kører over en længere periode, kan du have brug for at overføre disse omkostninger til en konto for igangværende arbejde (VIA) på balancen, mens sagen færdiggøres. Du kan derefter godkende omkostningerne og salget på resultatopgørelseskontiene, når det er relevant.  
 
-## <a name="about-this-walkthrough"></a>Om denne gennemgang  
+## <a name="about-this-walkthrough"></a>Om denne gennemgang
+
  Denne gennemgang illustrerer følgende opgaver:  
 
 -   Beregning af VIA.  
@@ -33,16 +34,20 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
  Hvert trin i processen beregner værdien og flytter sagstransaktionerne til regnskabet. Beregnings- og bogføringstrinnene er adskilte, så du bedre kan gennemse dataene og foretage ændringer før bogføringen i regnskabet. Du skal derfor kontrollere, at alle oplysninger er korrekte, når du har udført beregningen, og før du udfører kørslerne med bogføringen.  
 
-## <a name="roles"></a>Roller  
+## <a name="roles"></a>Roller
+
  I denne gennemgang bruges projektteammedlemmet (Tina) som person.  
 
-## <a name="prerequisites"></a>Forudsætninger  
+## <a name="prerequisites"></a>Forudsætninger
+
  Før du kan udføre opgaverne i denne gennemgang, skal du installere [!INCLUDE[prod_short](includes/prod_short.md)] på din computer.  
 
-## <a name="story"></a>Historie  
+## <a name="story"></a>Historie
+
  I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulentvirksomhed, der designer og tilpasser nye infrastrukturer, f.eks. konferencerum og kontorer, med møbler, tilbehør og lagerenheder. Det meste af arbejdet hos CRONUS er projektorienteret, og Tina, som er med i projektteamet, bruger sager til at få en oversigt over hver igangværende sag, som CRONUS har startet samt de sager, der er afsluttet. Nogle af sagerne kan være meget langvarige og løbe over flere måneder. Tina kan bruge en VIA-konto til at registrere igangværende arbejde og spore omkostningerne hele vejen gennem sagen.  
 
-## <a name="calculating-wip"></a>Beregne VIA  
+## <a name="calculating-wip"></a>Beregne VIA
+
  CRONUS har påtaget sig et længerevarende projekt, der nu har løbet over flere rapporteringsperioder. Tina, der er projektgruppemedlem, beregner Igangværende arbejde (VIA) for at sikre, at virksomhedens regnskabsopgørelse er nøjagtig.  
 
  Som del af denne procedure vælger Tina en bestemt gruppe opgaver, der skal inkluderes i VIA-beregningen. På siden **Sagsopgavelinjer** kan hun angive disse linjer i kolonnen **VIA i alt**.  
@@ -109,7 +114,8 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 > [!NOTE]  
 >  Det er kun igangværende arbejde og registrering, der bregnes Det bogføres ikke i finansmodulet. For at gøre dette skal du udføre kørslen **Bogfør VIA**, når du har beregnet VIA og registrering.
 
-## <a name="posting-wip-to-general-ledger"></a>Bogføre VIA i regnskab  
+## <a name="posting-wip-to-general-ledger"></a>Bogføre VIA i regnskab
+
  Nu, hvor Tina har beregnet VIA for denne sag, kan hun bogføre det i regnskabet.  
 
 ### <a name="to-post-wip-to-general-ledger"></a>Sådan bogføres VIA til finanspost  
@@ -132,7 +138,8 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 10. Bemærk, at feltet **Realiseret bogført kostbeløb** i kolonnen **Bogført** i oversigtspanelet **VIA og registrering** nu er udfyldt, hvilket angiver, at igangværende arbejde blev korrekt bogført i regnskab.  
 11. Vælg knappen **OK** for at lukke kortet.  
 
-## <a name="reversing-a-wip-posting"></a>Tilbageføre en VIA-bogføring  
+## <a name="reversing-a-wip-posting"></a>Tilbageføre en VIA-bogføring
+
  Tina bestemmer, at de arbejdsopgaver, der blev udeladt fra beregningen af igangværende arbejde, skulle have været beregnet i igangværende arbejde. Hun kan tilbageføre forkerte bogføringer uden at skulle bogføre nye VIA-bogføringer.  
 
 ### <a name="to-reverse-a-wip-posting"></a>Sådan tilbageføres en VIA-bogføring.  
@@ -154,13 +161,17 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
     > [!NOTE]  
     >  Antag, at Tina beregnede og bogførte igangværende arbejde for en sag med forkerte datoer. Ved at følge de tidligere beskrevne metode kan hun tilbageføre de forkerte bogføringer, rette datoerne og genposterer i regnskabet.  
 
-## <a name="next-steps"></a>Efterfølgende trin  
+## <a name="next-steps"></a>Efterfølgende trin
+
  Denne gennemgang har taget dig gennem trinnene til beregning af igangværende arbejde i [!INCLUDE[prod_short](includes/prod_short.md)]. I større sager kan det være nyttigt regelmæssigt at overføre omkostningerne til en konto for igangværende arbejde, mens sagen fuldføres. Denne gennemgang har vist dig, hvordan du kan udelade opgavelinjerne i en beregning. Den viser også, hvornår du skal genberegne. Endelig viser denne gennemgang, hvordan du bogfører igangværende arbejde i regnskab. Der er også et eksempel på, hvordan du tilbagefører en bogføring for igangværende arbejde i regnskab .  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
+
+## <a name="see-also"></a>Se også
+
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
- [Gennemgang: Administration af projekter med sager](walkthrough-managing-projects-with-jobs.md)   
- [Forstå VIA -metoder](projects-understanding-wip.md)   
+ [Gennemgang: Administration af projekter med sager](walkthrough-managing-projects-with-jobs.md)  
+ [Forstå VIA-metoder](projects-understanding-wip.md)  
  [Overvåge status og udførelse](projects-how-monitor-progress-performance.md)  
  [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

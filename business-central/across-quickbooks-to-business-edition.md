@@ -10,14 +10,15 @@ ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.search.form: 1808
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8ba1ef2d6625cb49c1b4d12dc5626c3669ecb320
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 871181121d409c336526bbc2a569d163d2b671f5
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384146"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078826"
 ---
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Skifte fra en QuickBooks-app til Dynamics 365 Business Central
+
 Flere og flere voksende virksomheder skifter fra finansapps som QuickBooks Desktop og QuickBooks Online, som er beregnet til nystartede og andre mindre virksomheder, til [!INCLUDE[prod_short](includes/prod_short.md)], som også understøtter større og mere komplekse organisationer. 
 
 Når de skifter, ønsker virksomhederne typisk at tage deres forretningsdata med sig, så de ikke starter helt forfra. Som en hjælp til at overføre data tilbyder [!INCLUDE[prod_short](includes/prod_short.md)] indbyggede udvidelser, der overfører data som debitorer, kreditorer, lagervarer og finanskonti. Nedenstående udvidelser er installeret og klar til brug som en integreret del af den assisterende opsætningsvejledning **Dataoverførsel**.
@@ -31,10 +32,14 @@ Du kan få flere oplysninger ved at læse om den udvidelse, der passer til din Q
 * [Udvidelsen QuickBooks Online-dataoverførsel](ui-extensions-quickbooks-online-data-migration.md)
 
 ## <a name="ready-now"></a>Klar nu?
+
 Hvis du er klar til at komme i gang nu, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Assisteret opsætning** og vælg derefter det relaterede link. Vælg **Overflyt forretningsdata**, og følg derefter trinnene i vejledningen.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/migrate-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
-[Importer virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
+
+[Import af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Tilpasse Business Central ved brug af udvidelser](ui-extensions.md)   
 
 

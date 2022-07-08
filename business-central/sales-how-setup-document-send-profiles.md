@@ -1,8 +1,6 @@
 ---
 title: Oprette foretrukne metoder til at sende salgsdokumenter (indeholder video) | Microsoft Docs
 description: Bruges til at oprette hver debitors foretrukne metode til at sende salgsdokumenter, f.eks. e-mail, PDF-fil, elektronisk dokument osv.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: email, PDF, electronic document
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 38072f85f88e5c5ae64f6ceb30e9585a8abe7841
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d858c39b26ae75446bd73fc09f8df3845c1fb73d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519039"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076379"
 ---
 # <a name="set-up-document-sending-profiles"></a>Konfigurere dokumentafsendelsesprofiler
 Du kan oprette hver debitor med en foretrukken metode til afsendelse af salgsdokumenter, så du ikke behøver at vælge en afsendelsesindstilling, hver gang du vælger handlingen **Bogfør og send**.

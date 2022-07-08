@@ -10,12 +10,12 @@ ms.search.keywords: client, customer, credit
 ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: e0bd4ae513428cb951e4b8cc23fe46b91dd1f683
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 80544cf5d3e2f9e55fcf22037c7d44df98f22635
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520122"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076873"
 ---
 # <a name="register-new-customers"></a>Registrere nye debitorer
 
@@ -26,6 +26,7 @@ Før du kan registrere nye debitorer, skal du oprette forskellige salgskoder, so
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Tilføje nye debitorer
+
 Du kan tilføje nye debitorer manuelt ved at udfylde felterne på siden **Debitorkort**, eller du kan bruge skabeloner, der indeholder foruddefinerede oplysninger. Du kan f. eks. oprette skabeloner til forskellige typer debitorprofiler. Du kan spare tid ved at bruge skabeloner, når du tilføjer nye debitorer, så oplysningerne bliver korrekte hver gang. Hvis du opretter skabeloner til mere end én type debitor, kan du vælge den skabelon, du vil bruge, når du tilføjer en debitor. Hvis du kun opretter én skabelon, vil den blive brugt til alle nye debitorer. Når du har oprettet en skabelon, kan du bruge handlingen **Anvend skabelon** for at anvende den på en eller flere valgte debitorer. Hvis du vil oprette en skabelon, skal du angive de oplysninger, du vil genbruge, på siden Debitorkort og derefter gemme den som en skabelon. Du kan finde flere oplysninger i afsnittet [Sådan gemmes debitorkortet som en skabelon](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
 > [!TIP]
@@ -79,6 +80,8 @@ Du kan vælge ikke at få vist advarsler om, at debitorens kreditmaksimum er ove
     |**Kreditmaksimum**|Værdien i feltet **Kreditmaksimum** på debitorkortet sammenlignes med kundens saldo, og der vises en advarsel, hvis kundens saldo overskrider dette beløb.|
     |**Forfaldne beløb**|Feltet **Forf. beløb** på debitorens kort kontrolleres, og en advarsel vises, hvis debitorens saldo er forfalden.|
     |**Ingen advarsel**|Der vises ingen advarsler om debitorens status.|
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

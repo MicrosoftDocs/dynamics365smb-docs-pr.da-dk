@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.form: 7315, 7351
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7495ddfae4a6a59caba08c0d40d97f5b9c5f0c85
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f59670f427eb530eabaa69aa7596d610cb117078
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518649"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076119"
 ---
 # <a name="calculate-bin-replenishment"></a>Beregn genopfyldning
+
 Når lokationen er konfigureret til at bruge styret læg-på-lager og pluk, tages prioriteterne i læg-på-lager-skabelonen for lokationen i betragtning, når leverancer lægges på lager. Prioriteter omfatter de minimale og maksimale mængder af placeringsindhold, der er fastsat for en bestemt placering og placeringsniveauerne. Hvis varerne ankommer i en stadig strøm, fyldes de oftest benyttede plukplaceringer derfor op, efterhånden som de tømmes.  
 
 Men lagervarer ankommer ikke altid i en stadig strøm. Nogle gange købes varer i store mængder, så virksomheden kan få en rabat, eller en produktionsenhed kan give mange af ét element for at opnå en lav kostpris. Derefter vil varer ikke blive modtaget på lageret igen i et stykke tid, og lageret skal med jævne mellemrum flytte varer til plukplaceringer fra massevarelageret.  
@@ -26,7 +27,8 @@ Det kan også være, at lagerstedet vil foregribe modtagelsen af nye varer ved a
 
 Hvis du udelukkende har fastsat placeringstypen for massevareplaceringer til **Læg-på-lager**, dvs. at handlingen **Pluk** ikke er markeret for placeringstypen, skal du altid sørge for, at plukplaceringerne genopfyldes, da typen Læg-på-lager ikke er foreslået for et pluk fra placeringer.  
 
-## <a name="to-replenish-pick-bins"></a>Sådan genopfyldes plukplaceringer  
+## <a name="to-replenish-pick-bins"></a>Sådan genopfyldes plukplaceringer
+
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bevægelseskladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn genopfyldning** for at åbne rapportanmodningssiden.  
 3.  Udfyld de relevante felter på siden for at begrænse omfanget af genopfyldningsforslag, der skal beregnes. Det kan f.eks. være, at du kun vil have forslag, der berører bestemte varer, zoner eller placeringer.  
@@ -45,13 +47,16 @@ Næste gang du beregner genopfyldning, vil de forslag, som du har slettet, blive
 >   
 >  Hvis alle disse betingelser er opfyldt, vil felterne **Fra zonekode** og **Fra placeringskode** være tomme, fordi den algoritme, der beregner, hvorfra varerne skal bevæges, kun udløses, når du aktiverer funktionen **Opret bevægelse**.  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/move-items/)
+
+## <a name="see-also"></a>Se også
+
 [Logistik](warehouse-manage-warehouse.md)  
 [Plukke efter FEFO](warehouse-picking-by-fefo.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Konfigurere Warehouse Management](warehouse-setup-warehouse.md) 
-[Montagestyring](assembly-assemble-items.md)
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
+[Montagestyring](assembly-assemble-items.md)  
+[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

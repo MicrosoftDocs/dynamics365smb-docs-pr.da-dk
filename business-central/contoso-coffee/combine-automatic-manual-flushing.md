@@ -6,12 +6,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 6b128f79cb8e629147bdd5ae77f2545ad0f7025c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c5552d81dc612070b5dd5512222806527e18ce7e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525017"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078748"
 ---
 # <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Gennemgang: Kombinere automatisk og manuel træk
 
@@ -23,7 +23,9 @@ Du er produktionsplanlægger hos Contoso Coffee. Du skal oprette en ny produktio
 
 ## <a name="steps"></a>Trin
 
-1. Opret en fast planlagt produktionsordre på fem enheder af vare **SP-SCM1004, AutoDrip**. Du kan finde en vejledning under [Gennemgang: Oprette en fastlagt produktionsordre og ændre den](create-firm-planned-production-order-change.md).  
+> [Bemærk!] Husk at regulere lagerbeholdningen ved at bogføre varekladder med primosaldi.
+
+1. Opret en fast planlagt produktionsordre på fem enheder af vare **SP-SCM1004, AutoDrip** på lokationen *NORD*. Du kan finde en vejledning under [Gennemgang: Oprette en fastlagt produktionsordre og ændre den](create-firm-planned-production-order-change.md).  
 
 2. Frigive produktionsordre.
 

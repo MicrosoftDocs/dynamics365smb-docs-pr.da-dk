@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 84d4a87a0edab18be342b9ed5732de0350a31645
-ms.sourcegitcommit: bc645e7ecb1940a85b2c433aa894d3494c9b10df
+ms.openlocfilehash: 7ea61d359bbdaf0ac788a0fada151fe3e0ad5960
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743667"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075078"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflows i Dynamics 365 Business Central
 
@@ -47,6 +47,8 @@ Hvis du vil oprette og bruge arbejdsprocesser, der ikke er defineret i Power Aut
 |Oprette arbejdsgangbrugere, angive, hvordan brugere modtager notifikationer, og oprette nye arbejdsgange. Implementer de krævede arbejdsgangelementer ved at tilpasse programkoden for nye arbejdsgange for ikke-understøttede scenarier.|[Opsætning af arbejdsgange](across-set-up-workflows.md)|  
 |Aktiver arbejdsgange, behandl meddelelser i arbejdsgangen, herunder godkendelser og godkendelsesanmodninger om at udføre trin i en arbejdsgang. Arkiver og slet arbejdsgange.|[Bruge arbejdsgange](across-use-workflows.md)|  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/create-workflows/)
+
 ## <a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
@@ -55,5 +57,6 @@ Hvis du vil oprette og bruge arbejdsprocesser, der ikke er defineret i Power Aut
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Brug [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate Flows](across-how-use-financials-data-source-flow.md)  
 [Fejlfinde dine [!INCLUDE[prod_short](includes/prod_short.md)] Automatiserede workflows](across-flow-troubleshoot.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

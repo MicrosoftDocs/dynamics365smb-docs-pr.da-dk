@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8fd48bd5134fcd42ccee67cbc54eb32b3d8c5a63
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3c0ce6cc58d5876f99d82a0c177cb760bfdd9468
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148040"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075261"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gennemgang: Salg, montering og levering af pakker
 
@@ -26,16 +26,19 @@ Der findes specielle funktioner til at dække levering af montage til ordre-mæn
 
 I grundlæggende lagerkonfigurationer bogfører den ansvarlige lagermedarbejder et lagerpluk for salgsordrelinjerne, når en montage til ordre-mængde er klar til at blive leveret. Derefter oprettes en flytning (lager) for komponenterne, og montageoutputtet og salgsordreleverancen bogføres. Du kan finde flere oplysninger i [Håndtere montageordrevarer i Pluk (lager)](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
-## <a name="about-this-walkthrough"></a>Om denne gennemgang  
+## <a name="about-this-walkthrough"></a>Om denne gennemgang
+
 Denne gennemgang viser følgende opgaver:  
 
-### <a name="setting-up-assembly-items"></a>Konfigurere montageelementer  
+### <a name="setting-up-assembly-items"></a>Konfigurere montageelementer
+
 Montageelementer er kendetegnet ved deres genbestillingssystem og montagestyklisten. Varens montagepolitik kan enten være montage til ordre (ATO) eller montage til lager (ATS). Dette afsnit dækker følgende opgaver:  
 
 -   Angive det relevante genbestillingssystem og den relevante montagepolitik på et nyt montagevarekort.  
 -   Oprette en montagestykliste, der viser montagekomponenter og den ressource, der indgår i montageelementet.  
 
-### <a name="selling-customized-assembly-items"></a>Sælge tilpassede montageelementer  
+### <a name="selling-customized-assembly-items"></a>Sælge tilpassede montageelementer
+
 [!INCLUDE[prod_short](includes/prod_short.md)] giver fleksibilitet til både at indtaste et lagerantal og en montage til ordre-mængde på én salgsordrelinje. Dette afsnit dækker følgende opgaver:  
 
 -   Oprette en ren ATO-salgsordrelinje, hvor den fulde mængde ikke er tilgængelig, og som skal samles før afsendelse.  
@@ -44,20 +47,23 @@ Montageelementer er kendetegnet ved deres genbestillingssystem og montagestyklis
 -   Oprette en blandet salgsordrelinje, hvor dele af salgsmængden leveres fra lager, og den resterende del skal samles før afsendelse.  
 -   Forstå ATO-tilgængelighedsadvarsler.  
 
-### <a name="planning-for-assembly-items"></a>Planlægge for montageelementer  
+### <a name="planning-for-assembly-items"></a>Planlægge for montageelementer
+
 Montageefterspørgsel og forsyning håndteres af planlægningssystemet, præcis som for køb, overførsel og produktion. Dette afsnit dækker følgende opgaver:  
 
 -   Køre en totalplan for varer med salgsbehov for monteret levering.  
 -   Oprette en montageordre for at opfylde et salgslinjeantal for den efterspurgte afsendelsesdato.  
 
-### <a name="assembling-items"></a>Montageelementer  
+### <a name="assembling-items"></a>Montageelementer
+
 Montageordrer fungerer på samme måde som produktionsordrer, bortset fra at forbruget og afgangen registreres og bogføres direkte fra ordren. Når varerne skal samles til lager, har montagearbejderen fuld adgang til alle sidehoved- og linjefelter. Når varerne skal samles til en ordre, hvor mængden og datoen er bekræftet for debitoren, kan visse felter på montageordren ikke redigeres. I så fald udføres montagebogføringen fra lagerleverance for den tilknyttede salgsordre. Dette afsnit dækker følgende opgaver.  
 
 -   Registrere og bogføre montageforbrug og afgang til lager.  
 -   Adgang til en lagerleverancelinje fra en ATO-montageordre for at registrere montagearbejde.  
 -   Adgang til en ATO-montageordre fra en lagerleverancelinje for automatisk at gennemse de indtastede data.  
 
-### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Levere montageelementer fra lager og monteret til ordre  
+### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Levere montageelementer fra lager og monteret til ordre
+
 Der findes specialfunktioner til styring af leveringen af montage efter ordre-mængder. Dette afsnit dækker følgende opgaver:  
 
 -   Oprette et lagerpluk for lagermontageelementer og montagekomponenter, der skal samles før afsendelse.  
@@ -66,7 +72,8 @@ Der findes specialfunktioner til styring af leveringen af montage efter ordre-m�
 -   Levere montage til ordre-mængder.  
 -   Levere lagermontageelementer.  
 
-## <a name="roles"></a>Roller  
+## <a name="roles"></a>Roller
+
 Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:  
 
 -   Salgsordrebehandler  
@@ -75,7 +82,8 @@ Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:
 -   Vælger  
 -   Leveranceansvarlig  
 
-## <a name="prerequisites"></a>Forudsætninger  
+## <a name="prerequisites"></a>Forudsætninger
+
 Før du kan udføre opgaverne i denne gennemgang, skal du gøre følgende:  
 
 -   Installer [!INCLUDE[prod_short](includes/prod_short.md)]  
@@ -108,7 +116,8 @@ Fjern standardleveringstiden for interne processer ved at følge disse trin:
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
-## <a name="story"></a>Historie  
+## <a name="story"></a>Historie
+
 Den 23. januar modtager Susanne, der er salgsordrebehandler en ordre fra Enhedsbutikken på tre enheder af pakke B, som er et ATO-element. Alle tre enheder er tilpasset og skal indeholde det stærke grafikkort og en ekstra RAM-blok. Diskdrevene er opgraderet til DVD, fordi cd-drev ikke er tilgængelige. Susanne ved, at enhederne kan samles med det samme, så hun bevarer den foreslåede afsendelsesdato, der er den 23. januar.  
 
 På samme tid tilbyder debitoren femten enheder af pakke A med en særlig anmodning om, at fem enheder tilpasses, så de indeholder det stærke grafikkort. Selvom pakke A typisk er en montage til lager-vare, kombinerer ordrebehandleren salgslinjemængder for at sælge ti enheder fra lageret og samle fem tilpassede enheder til ordren. Ti enheder af pakke A er tilgængelige og skal først leveres til lageret ved en montageordre i henhold til varens montagepolitik. Susanne får at vide af montageafdelingen, at pakke A-enheder ikke kan færdiggøres i den aktuelle uge. Hun angiver afsendelsesdatoen for den anden salgsordrelinje for blandet ATO og lagermængden til den 27. januar og oplyser debitoren om, at 15 enheder af pakke A afsendes fire dage senere end de tre enheder af pakke B. For at signalere til afsendelseafdelingen, at denne salgsordre kræver montagebehandling, opretter Susanne lagerleverancedokumentet fra salgsordren.  
@@ -135,7 +144,7 @@ Sammy pakker de ti ATS-enheder med de fem ATO-enheder, som Linda samlede tidlige
 
 Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og den tilknyttede montageordre.  
 
-## <a name="prepare-sample-data"></a>Klargøre eksempeldata  
+## <a name="prepare-sample-data"></a>Klargøre eksempeldata
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagerkladder**, og vælg derefter det relaterede link.  
 2.  Vælg feltet **Kladdenavn**, og vælg derefter standardkladden.  
@@ -433,7 +442,10 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Når Enhedsbutikken betaler for deres modtagelse af 18 pc'er fra CRONUS, fjernes salgsordren og dens tilknyttede montageordrer.  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se også
+
  [Om montage til ordre og montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md)   
  [Montere elementer](assembly-how-to-assemble-items.md)   
  [Plukke varer til lagerleverance](warehouse-how-to-pick-items-for-warehouse-shipment.md)   

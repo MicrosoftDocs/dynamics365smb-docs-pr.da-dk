@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515507"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077263"
 ---
 # <a name="set-up-locations"></a>Opsætte lokationer
 
@@ -27,6 +27,7 @@ Du kan derefter oprette dokumentlinjer for en bestemt lokation vis tilgængelige
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## <a name="location-cards"></a>Lokationskort
+
 Du skal angive oplysninger om en lokation, f. eks. et lager eller distributionscenter på siden **Lokationskort**. Du kan give hver lokation et navn og en kode, der repræsenterer lokationen. Du kan derefter angive lokationskoden i andre dele af programmet, når du vil registrere transaktioner for en given lokation.  
 
 Du kan angive oplysninger om placeringer og lagermetoder. På baggrund af de valgte lagermetoder kan du bruge indstillingerne i oversigtspanelet **Placeringer** til at definere de placeringer, der skal bruges som standardplaceringer, når du udfører transaktioner. Hvis du bruger styret læg-på-lager og pluk, kan du bruge de fleste af indstillingerne i oversigtspanelet **Plac.metode** til at definere, hvordan du vil bruge de forskellige avancerede lagerfunktioner.  
@@ -76,7 +77,10 @@ Hvis du vil strukturere placeringerne under zoner, kan du gøre det på siden **
 Du kan også vælge kun at oprette en enkelt zone og udelukkende organisere lagerstedet efter placeringer. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Standarddimensioner for lokationer
+
 Du kan angive standarddimensioner for en lokation på siden **lokationskort** ved at klikke på **lokation** og derefter på **dimensioner**. Lokationens standarddimensioner kopieres til kladder og bilag, når du angiver lokationen på en linje, men du kan om nødvendigt slette eller ændre dimensionen på linjen. Du kan kræve, at personer angiver dimensioner for bestemte lokationer, før de kan bogføre en post. Du kan også medtage dimensionsværdier for lokationer i **prioriteringer for standarddimensioner** og **dimensionskombinationer** for kombinationer af prioritet og dimensionsregler.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

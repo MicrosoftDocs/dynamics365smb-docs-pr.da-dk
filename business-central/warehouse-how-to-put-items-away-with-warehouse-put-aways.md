@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7cdd6e49f4d7cb4d63f70312a89266d020025b4f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 3e638e00fc648a720d09520fb62aa3ad25324673
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518517"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078268"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Lægge varer på lager med Læg-på-lager (logistik)
+
 Hvis lokationen kræver læg-på-lager (logistik) og lagermodtagelse, skal du bruge funktionen læg-på-lager-dokumenterne til at styre, hvordan varer lægges på lager.  
 
 Når du bogfører en lagermodtagelse, opdateres kildedokumenterne, f.eks. købsordre, indgående overflytningsordre eller salgsreturvareordre, det modtagne antal bogføres på varekladden og linjerne vedrørende de modtagende varer sendes til lagerstedets læg-på-lager-funktion. Hvis du har interne læg-på-lager og pluk, kan den interne læg-på-lager også oprette linjer for læg-på-lager.  
@@ -25,7 +26,8 @@ Afhængigt af logistikopsætningen bliver linjerne enten tilgængelige for læg-
 
 Foruden de almindelige måder at oprette lagerets læg-på-lager, der er beskrevet i dette emne, kan du oprette læg-på-lager fra den relaterede bogførte lagermodtagelse. Dette er nyttigt, hvis du har slettet læg-på-lager-linjer, eller hvis du bruger styret læg-på-lager og pluk og har besluttet dig til ikke at bruge læg-på-lager-kladden, fordi du kan oprette eller genoprette læg-på-lager-vejledninger fra de bogførte købsleverancelinjer.  
 
-## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Sådan lægges varer på lager uden styret læg-på-lager og pluk  
+## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Sådan lægges varer på lager uden styret læg-på-lager og pluk
+
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **læg-på-lager**, og vælg derefter det relaterede link.  
 2.  Åbn den læg-på-lager-aktivitet, der er klar til håndtering.  
 
@@ -33,7 +35,8 @@ Foruden de almindelige måder at oprette lagerets læg-på-lager, der er beskrev
 3.  Indtast det antal varer, der skal lægges på lager, i feltet **Håndteringsantal** på hver linje.  
 4.  Vælg handlingen **Registrer læg-på-lager**, når du har lagt varerne på plads, for at registrere, at aktiviteten er udført, og for at gøre varerne disponible til pluk.  
 
-## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Sådan lægges varer på lager med styret læg-på-lager og pluk  
+## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Sådan lægges varer på lager med styret læg-på-lager og pluk
+
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **læg-på-lager**, og vælg derefter det relaterede link.
     Hvis der er oprettet læg-på-lager-instruktioner, vises læg-på-lager-aktiviteten.  
 2.  Åbn den læg-på-lager-aktivitet, du vil arbejde på.  
@@ -59,7 +62,8 @@ På lokationer, der er konfigureret til at bruge styret læg-på-lager og pluk, 
 
 Der tages hensyn til placeringsniveau, når mere end én placering opfylder kriterierne for læg-på-lager-skabelonen. Hvis kriterierne i læg-på-lager-skabelonen og placeringsniveauet er ens for mere end én placering, vælges placeringen med det højeste nummer.
 
-## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Sådan oprettes en læg-på-lager-aktivitet fra en bogført modtagelse  
+## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Sådan oprettes en læg-på-lager-aktivitet fra en bogført modtagelse
+
  Hvis din lokation bruger både læg-på-lager-behandling og modtagelsesbehandling, og du har slettet læg-på-lager-linjer, eller hvis du bruger styret læg-på-lager og pluk og har besluttet dig til ikke at bruge læg-på-lager-kladden, kan du oprette eller genoprette læg-på-lager-vejledninger til de bogførte købsleverancelinjer.
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte lagermodtagelser**, og derefter vælge det relaterede link.  
@@ -69,13 +73,16 @@ Der tages hensyn til placeringsniveau, når mere end én placering opfylder krit
     Hvis feltet **Bilagsstatus** er tomt, er modtagelsen ikke lagt på lager overhovedet. Ellers står der i feltet, at modtagelsen er delvist lagt på lager eller fuldt lagt på lager.  
 
 4.  Vælg handlingen **Opret læg-på-lager**, hvis modtagelsen er lagt delvist på lager eller slet ikke er lagt på lager.  
-5.  Udfyld felterne på kørselssiden for at oprette læg-på-lager-aktiviteten, og klik på knappen **OK**.   
+5.  Udfyld felterne på kørselssiden for at oprette læg-på-lager-aktiviteten, og klik på knappen **OK**.  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/receive-put-away-items/)
+
+## <a name="see-also"></a>Se også
+
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
-[Montagestyring](assembly-assemble-items.md)    
+[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
+[Montagestyring](assembly-assemble-items.md)  
 [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

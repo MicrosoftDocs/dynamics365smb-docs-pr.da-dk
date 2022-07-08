@@ -7,22 +7,22 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: ff2e4aca52f479e461dab0d9d0f0ce4958d19353
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: 83678c6c81b29a524405699425be877459b6568d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808855"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075313"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Fejlfinding af Shopify og Business Central-synkronisering
 
-Det er muligt at køre i situationer, hvor du skal foretage fejlfinding af problemer. Denne side definerer trin til fejlfinding i forbindelse med almindelige scenarier, der kan opstå.
+Det er muligt at køre i situationer, hvor du skal foretage fejlfinding af problemer ved synkronisering af data mellem Shopify og [!INCLUDE[prod_short](../includes/prod_short.md)]. Denne side definerer trin til fejlfinding i forbindelse med almindelige scenarier, der kan opstå.
 
 ## <a name="logs"></a>Logfiler
 
 Hvis en synkroniseringsopgave mislykkes, kan du aktivere logføring ved at aktivere til/fra-feltet **Log aktiveret** i **Shopify-butikskortet**. Udløs synkroniseringsopgave, og gennemgå logfiler manuelt.
 
-1. Gå til søgning ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-logposter**, og vælg det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-logposter**, og vælg derefter det relaterede link.
 2. Vælg den relaterede logpost, og åbn vinduet **Shopify-logpost**.
 3. Gennemsynsanmodning, statuskode og beskrivelse og svar.
 
@@ -50,14 +50,42 @@ For at opnå optimal ydeevne importerer connectoren kun kunder, produkter og ord
 
 Denne funktion gælder kun for synkroniseringer fra Shopify til [!INCLUDE[prod_short](../includes/prod_short.md)] og kan være nyttig, hvis du har brug for at gendanne slettede data, f. eks. produkter, kunder eller slettede ordrer.
 
-## <a name="update-the-access-token"></a>Opdatere adgangstoken
+## <a name="request-the-access-token"></a>Anmode om adgangstoken
 
-Hvis [!INCLUDE[prod_short](../includes/prod_short.md)] ikke kan oprette forbindelse til din Shopify-konto, kan du prøve at nulstille dette adgangstoken.
+Hvis [!INCLUDE[prod_short](../includes/prod_short.md)] ikke kan oprette forbindelse til din Shopify-konto, kan du prøve at nulstille dette adgangstoken fra Shopify. Denne anmodning kan være nødvendig, hvis der er en rotation af sikkerhedsnøgler eller ændringer af nødvendige tilladelser (områder).
 
-1. Gå til søgning søg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Butik**, og vælg det relevante link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Shops**, og vælg derefter det relaterede link.
 2. Marker den butik, for hvilken du vil have adgangstoken til at åbne siden **Shopify-butikskort**.
 3. Vælg handlingen **Anmod om adgang**.
 4. Hvis du bliver bedt om det, skal du logge på din Shopify-konto.
+
+Funktionen **Vis Accesskey** vil blive aktiveret.
+
+### <a name="verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment"></a>Kontrollere og aktivere tilladelser til at foretage http-anmodninger, når der køres i et ikke-produktionsmiljø
+
+Hvis Shopify-connector-udvidelsen skal fungere korrekt, kræver det, at du har tilladelse til at foretage Http-anmodninger. Når der testes i sandkasse, er Http-anmodninger forbudt for alle udvidelser.
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udvidelsesstyring**, og vælg derefter det relaterede link.
+2. Vælg udvidelsens *Shopify Connector*.
+3. Vælg handlingen **Konfigurer** for at åbne siden **Udvidelsesindstilling**.
+4. Kontroller, at funktionen **Tillad HTTPClient-anmodninger** er aktiveret.
+
+## <a name="rotate-the-shopify-access-key"></a>Rotere Shopify-adgangstasten
+
+Følgende procedurer beskriver, hvordan du kan rotere det adgangstoken, der bruges af Shopify Connector, til at få adgang til dit Shopify online Center.
+
+### <a name="in-shopify"></a>I Shopify
+
+1. Fra din **Shopify Administrator** skal du gå til [Apps](https://www.shopify.com/admin/apps).
+2. I rækken med **Dynamics 365 Business Central**-appen skal du vælge **Slet**.
+3. I meddelelsen, der vises, skal du vælge **Slet**.
+
+### <a name="in-prod_short"></a>I [!INCLUDE[prod_short](../includes/prod_short.md)]
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Shops**, og vælg derefter det relaterede link.
+2. Marker den butik, for hvilken du vil have adgangstoken til at åbne siden **Shopify-butikskort**.
+3. Vælg handlingen **Anmod om adgang**.
+4. Hvis du bliver bedt om det, skal du logge ind på din Shopify-konto, gennemse personlige oplysninger og tilladelser og derefter vælge knappen **Installer app**.
 
 ## <a name="see-also"></a>Se også
 

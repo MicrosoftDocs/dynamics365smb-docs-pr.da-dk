@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a4be92935903c1572e43af0f035e101fe0567772
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6f46b07a33e49830944b1bdea9b13f241a7b2332
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513415"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076743"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Gennemgang: Administration af projekter med sager
 
@@ -24,54 +24,63 @@ Denne gennemgang giver dig en introduktion til projektstyringsfunktioner i sager
 
  Denne gennemgang beskriver opsætningen af et nyt job samt nogle af de almindelige opgaver, som f.eks. fastprishåndtering, betaling af afdrag, bogføring af fakturaer fra sager og kopiering af sager.  
 
-## <a name="about-this-walkthrough"></a>Om denne gennemgang  
+## <a name="about-this-walkthrough"></a>Om denne gennemgang
+
  Denne gennemgang viser følgende opgaver:  
 
-### <a name="setting-up-a-job"></a>Oprettelse af en sag  
+### <a name="setting-up-a-job"></a>Oprettelse af en sag
+
  Med den budgetstruktur, der oprettet for sager, er oprettelse af en sag ligetil. Denne gennemgang omfatter følgende procedurer:  
 
 - Hvordan du opretter sagsopgavelinjer og planlægningslinjer.  
 - Hvordan du opretter sags-specifikke priser på varer, ressourcer og finanskonti.  
 - Fakturering fra en sag.  
 
-### <a name="handling-fixed-prices"></a>Håndtere faste priser  
+### <a name="handling-fixed-prices"></a>Håndtere faste priser
+
  I Sager kan du håndtere faste priser og priser på tjenester eller varer, der er aftalt med kunder i forvejen. I denne gennemgang kan du gøre følgende:  
 
 - Se, hvordan leverandør- og fakturaværdier bestemmes.  
 - Gøre plads til ekstraarbejde i planen, der ikke er faktureret.  
 
-### <a name="copying-a-job"></a>Kopiering af en sag  
+### <a name="copying-a-job"></a>Kopiering af en sag
+
  Denne gennemgang fokuserer på, hvordan du kan kopiere en del af eller en komplet sag for at reducere behovet for manuel indtastning af data og forbedre nøjagtigheden. Dette omfatter følgende:  
 
 - Kopiering af en del af en sag til en ny sag.  
 - Kopiering af sags-specifikke priser.  
 - Kopiering af planlægningslinjer.  
 
-### <a name="making-payment-by-installment"></a>Betaling af afdrag  
+### <a name="making-payment-by-installment"></a>Betaling af afdrag
+
  Når et stort, dyrt projekt varer længere tid, laver kunden ofte en aftale med virksomheden om at betale afdrag. Dette scenarie viser, hvordan du opretter betaling af afdrag håndteres og dækker følgende:  
 
 - Hvordan betaling af afdrag for en sag oprettes.  
 - Fakturering af betalinger til debitorer.  
 - Kontering af forbrug i en sag opsat til betaling af afdrag.  
 
-## <a name="roles"></a>Roller  
+## <a name="roles"></a>Roller
+
  Denne gennemgang indeholder opgaver for følgende roller:  
 
 - Projektleder  
 - Projektteammedlem  
 
-## <a name="prerequisites"></a>Forudsætninger  
+## <a name="prerequisites"></a>Forudsætninger
+
  Før du kan udføre opgaverne i denne gennemgang, skal du gøre følgende:  
 
 - Installer CRONUS-demonstrationsdatabasen.
 - Opret eksempeldata ved at bruge trinnene i følgende afsnit.  
 
-## <a name="story"></a>Historie  
+## <a name="story"></a>Historie
+
 Denne gennemgang fokuserer på CRONUS, et design- og konsulentfirma, der designer og tilpasser nye infrastrukturer, f.eks. konferencerum og kontorer, med møbler, tilbehør og lagerenheder. Det meste af firmaets arbejde er projektorienteret. Per er projektleder hos CRONUS. Han bruger sager til at give ham et overblik over igangværende sager, som CRONUS har startet, samt de sager, der er afsluttet. Det er som regel ham, der indgår aftaler med kunderne og indtaster sagens hovedkomponenter, hvilket er opgave- og planlægningslinjer i [!INCLUDE[prod_short](includes/prod_short.md)]. Han konstaterer, at oprettelse, vedligeholdelse og gennemgang af oplysninger er ligetil. Per kan også lide, den måde [!INCLUDE[prod_short](includes/prod_short.md)] aktiverer kopiering af sager og betaling af afdrag.
 
  Tina, der er medlem af projekttemaet og rapporterer til Per, er ansvarlig for overvågning af sagen dag for dag. Hun indtaster sit eget arbejde i tillæg til det arbejde, der udføres af teknikere på hver opgave. Hun registrerer de varer, som de har brugt, og de omkostninger, som de har afholdt.  
 
-## <a name="preparing-sample-data"></a>Klargøre eksempeldata  
+## <a name="preparing-sample-data"></a>Klargøre eksempeldata
+
  Forbered denne gennemgang ved at tilføje Tina som en ny ressource.  
 
 ### <a name="to-prepare-the-sample-data"></a>Sådan klargøres eksempeldataene  
@@ -109,7 +118,8 @@ I den næste procedure opretter du en sagskladde for Tina for at bogføre hendes
 
 4.  Vælg knappen **OK** for at gemme ændringerne.
 
-## <a name="setting-up-a-job"></a>Oprettelse af en sag  
+## <a name="setting-up-a-job"></a>Oprettelse af en sag
+
  I dette scenarie, har CRONUS vundet en kontrakt med en kunde, Progressive Home Furnishings, om at designe en konference- og spisesal. Kunden har base i USA, og projektet kræver specialsoftware. Projektlederen når frem til en aftale med kunden og opretter en sag, der dækker aftalen.  
 
 ### <a name="to-set-up-a-job"></a>Sådan oprettes en sag  
@@ -202,7 +212,8 @@ I den næste procedure opretter du en sagskladde for Tina for at bogføre hendes
 
 4. Luk siden. Totaler opdateres på siden **Sagsopgavelinjer**.  
 
-## <a name="calculating-remaining-usage"></a>Beregne resterede forbrug  
+## <a name="calculating-remaining-usage"></a>Beregne resterede forbrug
+
  Tina, der er medlem af projektteamet, har arbejdet på sagen i et stykke tid og ønsker at registrere sine timer og forbrug på sagen. Hun har ikke arbejdet mere end aftalt med kunden i forvejen. Hun bruger kørslen **Beregn resterede forbrug** til at beregne det resterende forbrug for sagen i sagskladden. For hver opgave beregner kørslen forskellen mellem planlagt forbrug af varer, ressourcer og finansudgifter og det faktiske forbrug, der er bogført i finansposterne. Det resterende forbrug vises derefter i sagskladden, hvor hun kan bogføre det.  
 
 ### <a name="to-calculate-remaining-usage"></a>Sådan beregnes resterede forbrug  
@@ -219,7 +230,8 @@ I den næste procedure opretter du en sagskladde for Tina for at bogføre hendes
 
 Linjerne er nu bogført.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Oprette og bogføre en sagssalgsfaktura  
+## <a name="creating-and-posting-a-job-sales-invoice"></a>Oprette og bogføre en sagssalgsfaktura
+
  Derefter kan Tina oprette en ny faktura for hele sagen eller for en del af en sag. Hun kan også tilknytte fakturaen til en anden faktura til samme kunde for samme sag. I dette tilfælde fakturerer hun hele sagen, da projektet nu er færdigt.  
 
 ### <a name="to-create-a-job-sales-invoice"></a>Sådan oprettes en sagssalgsfaktura  
@@ -252,7 +264,8 @@ Linjerne er nu bogført.
 2.  Vælg handlingen **Statistik**. Du kan gennemgå detaljerede oplysninger om sagspriser, omkostninger og avancer i både lokale og udenlandske valutaer.  
 3.  Vælg knappen **Luk** for at lukke siden **Sagsstatistik**.  
 
-## <a name="handling-fixed-prices"></a>Håndtere faste priser  
+## <a name="handling-fixed-prices"></a>Håndtere faste priser
+
  CRONUS er blevet bestilt til at oprette konferencerum. Som projektleder ønsker Per at have et godt overblik over de opgaver, der er påkrævet for sagen med de tilhørende budgetterede og realiserede omkostninger for hver sag. Derudover vil han gerne kende den samlede kontraktpris for sagen og det beløb, der er faktureret indtil nu. Han er nået frem til en aftale med kunden om faste priser for denne sag.  
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Sådan håndteres faste priser i sager  
@@ -443,15 +456,18 @@ Følgende procedurer viser, hvordan du opretter et nyt job, angiver priser og de
 2.  Angiv dags dato som bogføringsdatoen på siden **Opret salgsfaktura**, angiv **Pr. opgave**, og vælg knappen **OK** for at oprette en faktura med standardoplysningerne. Vælg knappen **OK** for at gemme og lukke bekræftelsessiden.  
 3.  Vælg handlingen **Opret salgsfaktura/kreditnota**. På salgsfakturaen kan du se, at det kun er udbetalingen, der er inkluderet på fakturaen. Du kan nu sende den til kunden som aftalt.  
 
-## <a name="next-steps"></a>Efterfølgende trin  
+## <a name="next-steps"></a>Efterfølgende trin
+
  Denne gennemgang har taget dig gennem nogle af de grundlæggende trin til at arbejde med sager i [!INCLUDE[prod_short](includes/prod_short.md)]. Du har lært, hvordan du opretter en ny sag, kopierer en sag og hvordan du håndterer betalinger. Du har også fået vist en demonstration af, hvordan du kan registrere timer og oprette fakturaer.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/create-jobs/)
 
 ## <a name="see-also"></a>Se også
 
- [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)   
- [Konfigurere projektstyring](projects-setup-projects.md)   
- [Bruge ressourcer](projects-how-use-resources.md)   
- [Overvåge status og udførelse](projects-how-monitor-progress-performance.md)   
+ [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
+ [Konfigurere projektstyring](projects-setup-projects.md)  
+ [Bruge ressourcer](projects-how-use-resources.md)  
+ [Overvåge status og udførelse](projects-how-monitor-progress-performance.md)  
  [Fakturere sager](projects-how-invoice-jobs.md)  
  [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
