@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: 46c81fa887af70e7a2f516df38ec003392b1dabd
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: a4dcb5c9f12190a662c4f45bbadcfdddee70fa7f
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079346"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129817"
 ---
 # <a name="use-approval-workflows"></a>Bruge godkendelsesworkflows
 
@@ -20,7 +20,7 @@ Når en post, f.eks et købsdokument eller et debitorkort, skal godkendes af en 
 
 Du kan konfigurere godkendelsesworkflows på siden **Workflow**. Du skal også angive godkendelses brugere, herunder eventuelle relevante beløbsgrænser, på siden **Brugeropsætning af godkendelser**. Du kan finde flere oplysninger i [Opsætte workflows](across-set-up-workflows.md).  
 
-Ud over godkendelsesworkflows, der er beskrevet i dette emne, kan du udføre forskellige andre opgaver i workflowet. Der er flere oplysninger i [Bruge workflows](across-use-workflows.md).
+Ud over godkendelsesworkflows, der er beskrevet i denne artikel, kan du udføre forskellige andre opgaver i workflowet. Der er flere oplysninger i [Brug arbejdsgange](across-use-workflows.md).
 
 Grundlæggende godkendelsesworkflows for købsdokumenter, salgsdokumenter, udbetalingskladder, debitorkort og varekort er klar til brug som vejledninger. Du kan finde flere oplysninger i [Blive køreklar](ui-get-ready-business.md).
 
@@ -33,7 +33,7 @@ Følgende opgave udføres af en godkendelsesbruger.
 
 Godkendelsespostens status opdateres fra **Oprettet** til **Åben**. Postens status, f.eks. en købsfaktura, opdateres fra **Åben** til **Afventer godkendelse** og forbliver låst mod behandling, indtil alle godkendere har godkendt posten.
 
-Når godkenderen har godkendt posten, ændres status til **Frigivet**. Du kan derefter fortsætte dine opgaver med posten.
+Når alle de ønskede godkendere har godkendt posten, ændres status til **Frigivet**. Du kan derefter fortsætte dine opgaver med posten.
 
 ## <a name="to-cancel-requests-for-approval"></a>Sådan annulleres godkendelsesanmodninger
 
@@ -76,9 +76,9 @@ En notifikation til at godkende anmodningen sendes til en anden foruddefineret s
 
 Følgende opgave udføres af en godkendelsesbruger med godkendelsesrettigheder.
 
-Med jævne mellemrum skal du minde brugerne i en godkendelsesarbejdsgang om forfaldne godkendelsesanmodninger, de skal reagere på. Du bruger funktionen **Send notifikationer om forfaldne godkendelser** til dette.
+Med jævne mellemrum skal du minde brugerne i en godkendelsesarbejdsgang om forfaldne godkendelsesanmodninger, de skal reagere på. Du bruger funktionen **Send notifikationer om forfaldne godkendelser** for at påminde brugere.
 
-Funktionen **Send notifikationer om forfaldne godkendelser** tjekker for alle åbne anmodninger, der aktuelt er forfaldne. Hver godkender, der har mindst én forfalden godkendelsespost, modtager en notifikation med listen over deres forfaldne godkendelsesanmodninger. Notifikationen sendes også til deres godkender og alle anmodere om de forfaldne godkendelser. Det kan være en hjælp, hvis den forfaldne godkendelsespost skal uddelegeres til en anden godkender.
+Funktionen **Send notifikationer om forfaldne godkendelser** tjekker for alle åbne anmodninger, der aktuelt er forfaldne. Hver godkender, der har mindst én forfalden godkendelsespost, modtager en notifikation med listen over deres forfaldne godkendelsesanmodninger. Notifikationen sendes også til deres godkender og alle anmodere om de forfaldne godkendelser. Det sidste trin kan være en hjælp, hvis den forfaldne godkendelsespost skal uddelegeres til en anden godkender.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Overskredne anmodninger om godkendelsesfrist**, og vælg derefter det relaterede link.
 2. På siden **Forfaldne godkendelsesanmodninger** skal du vælge handlingen **Send notifikationer om forfaldne godkendelser**.

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 7ea61d359bbdaf0ac788a0fada151fe3e0ad5960
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ab7d131e965b0698c6e33a0b1a43c8f408a7b1b2
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075078"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129898"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflows i Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ Standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] understøtt
 
 * Automatiserede godkendelsesarbejdsprocesser baseret på indbyggede arbejdsprocesskabeloner  
 
-  På siden **workflow-skabeloner** kan du se alle tilgængelige arbejdsprocesser. Prøveversionen af [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en række forudkonfigurerede workflows, som repræsenteres af workflowskabeloner, som du kan kopiere for at oprette workflows. Når du åbner en arbejdsprocesskabelon fra siden **workflow-skabeloner**, og navnet på arbejdsprocessen starter med *MS-*, er arbejdsprocesskabelonen tilføjet af Microsoft.  
+  På siden **workflow-skabeloner** kan du se alle tilgængelige arbejdsprocesser. Prøveversionen af [!INCLUDE[prod_short](includes/prod_short.md)] indeholder mange forudkonfigurerede workflows, som repræsenteres af workflowskabeloner, som du kan kopiere for at oprette workflows. Når du åbner en arbejdsprocesskabelon fra siden **workflow-skabeloner**, og navnet på arbejdsprocessen starter med *MS-*, er arbejdsprocesskabelonen tilføjet af Microsoft.  
 * Automatiske flows, som du selv opretter  
 
   Alle workflowskabeloner, som du opretter med, Power Automate, føjes til listen over workflowskabeloner i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Bruge Business Central i Power Automate Flows](across-how-use-financials-data-source-flow.md).  
@@ -32,15 +32,15 @@ Standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] understøtt
 
 ## <a name="power-automate-flows"></a>Power Automate-flows
 
-Du kan tilmelde dig [!INCLUDE [prod_short](includes/prod_short.md)] online Power Automate og derefter bygge effektive, automatiserede flow, som du kan køre fra [!INCLUDE [prod_short](includes/prod_short.md)]. Der er flere oplysninger i [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate flows](across-how-use-financials-data-source-flow.md).  
+Når du bruger [!INCLUDE [prod_short](includes/prod_short.md)] online, kan du tilmelde dig Power Automate og derefter bygge effektive, automatiserede flows, som du kan køre fra [!INCLUDE [prod_short](includes/prod_short.md)]. Der er flere oplysninger i [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate flows](across-how-use-financials-data-source-flow.md).  
 
 ## <a name="automated-approval-workflows"></a>Automatiserede godkendte workflows
 
-Du opretter et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder. Du definerer workflowtrin ved at udfylde felter om workflowlinjer fra faste lister over hændelses- og responsværdier, der repræsenterer scenarier, der understøttes af programkoden.  
+Du opretter et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder. Du definerer arbejdsgangstrin ved at udfylde felter om arbejdsganglinjer fra faste lister over hændelses- og svarværdier, der repræsenterer scenarier, der understøttes af programkoden.  
 
-Hvis et virksomhedsscenarie kræver en arbejdsgangs hændelse eller-svar, som ikke understøttes i standardversionen, skal du tilmelde dig Power Automate. Der er flere oplysninger i [Bruge [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate flows](across-how-use-financials-data-source-flow.md). Du kan også få en app eller arbejde med en Microsoft-partner for at tilpasse programkoden.  
+[!INCLUDE[workflow](includes/workflow.md)]
 
-Hvis du vil oprette og bruge arbejdsprocesser, der ikke er defineret i Power Automate, skal du kontrollere følgende artikler:  
+Hvis du vil oprette og bruge workflows, der ikke er defineret i Power Automate, skal du kontrollere følgende artikler:  
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  

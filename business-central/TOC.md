@@ -440,7 +440,7 @@
 ### [Sælge produkter](sales-how-sell-products.md)
 ### [Udskrive pluklisten](sales-how-print-picking-list.md)
 ### [Bogfør salg](ui-post-sales.md)
-### [Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md)
+### [Opret tilbagevendende salgslinjer](sales-how-work-standard-lines.md)
 ### [Foretage direkte leveringer](sales-how-drop-shipment.md)
 ### [Oprette specialordrer](sales-how-to-create-special-orders.md)
 ### [Behandle salgsreturvarer eller annulleringer](sales-how-process-sales-returns-cancellations.md)
@@ -472,9 +472,9 @@
 ### [Arbejde med rammekøbsordrer](sales-how-to-create-blanket-sales-orders.md)
 ### [Eksterne bilagsnumre på købsdokumenter](purchasing-ext-doc-no.md)
 ### [Angive eksterne bilagsnumre](across-enter-external-document-numbers.md)
+### [Opret tilbagevendende købslinjer](purchasing-how-work-recurring-purchase-lines.md)
 
-
-## Lager
+## Lagerbeholdning
 ### [Oversigt over lager](inventory-manage-inventory.md)
 ### [Lagerbeholdning og lagerrapporter](inventory-WMS-reports.md)
 ### [Registrere nye varer](inventory-how-register-new-items.md)
@@ -1472,6 +1472,7 @@
 #### [Konfigurere salg](sales-setup-sales.md)
 #### [Registrere nye debitorer](sales-how-register-new-customers.md)
 #### [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md)
+#### [Konfigurere priser og rabatter](across-prices-and-discounts.md)
 #### [Registrere specialsalgspriser og -rabatter](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Oprette debitorprisgrupper](sales-how-to-set-up-customer-price-groups.md)
 #### [Oprette debitorrabatgrupper](sales-how-to-set-up-customer-discount-groups.md)
@@ -1483,9 +1484,11 @@
 ### Konfigurere indkøb
 #### [Konfigurere indkøb](purchasing-setup-purchasing.md)
 #### [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)
-#### [Registrere særlige købspriser og rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Konfigurere kreditorbankkonti](purchasing-how-set-up-vendors-bank-accounts.md)
 #### [Tildele kreditorer prioritet](purchasing-how-prioritize-vendors.md)
 #### [Oprette indkøbere](purchasing-how-setup-purchasers.md)
+#### [Konfigurere priser og rabatter](across-prices-and-discounts.md)
+#### [Registrere særlige købspriser og rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 ### Konfigurere lager
 #### [Konfigurere lager](inventory-setup-inventory.md)
 #### [Konfigurere generelle lageroplysninger](inventory-how-setup-general.md)
@@ -1772,6 +1775,7 @@
 ### [Administrere brugerindstillinger og præferencer](admin-manage-user-settings-preferences.md)
 ### [Installation af printere](ui-specify-printer-selection-reports.md)
 ### [Klassificere datafølsomhed](admin-classifying-data-sensitivity.md)
+### [Status for meddelelser om beskyttelse af personlige oplysninger](privacy-notices-status.md)
 ### [Svare på anmodninger om personlige data](admin-responding-to-requests-about-personal-data.md)
 ### [Opret nye virksomheder](about-new-company.md)
 ### [Ændringslog](across-log-changes.md)

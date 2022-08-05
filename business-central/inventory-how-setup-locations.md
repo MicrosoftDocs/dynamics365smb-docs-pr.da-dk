@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 9ed3bc15f8f8b94e842d8c01415b04018e4fc6ec
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077263"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129662"
 ---
 # <a name="set-up-locations"></a>Opsætte lokationer
 
@@ -77,8 +77,7 @@ Hvis du vil strukturere placeringerne under zoner, kan du gøre det på siden **
 Du kan også vælge kun at oprette en enkelt zone og udelukkende organisere lagerstedet efter placeringer. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Standarddimensioner for lokationer
-
-Du kan angive standarddimensioner for en lokation på siden **lokationskort** ved at klikke på **lokation** og derefter på **dimensioner**. Lokationens standarddimensioner kopieres til kladder og bilag, når du angiver lokationen på en linje, men du kan om nødvendigt slette eller ændre dimensionen på linjen. Du kan kræve, at personer angiver dimensioner for bestemte lokationer, før de kan bogføre en post. Du kan også medtage dimensionsværdier for lokationer i **prioriteringer for standarddimensioner** og **dimensionskombinationer** for kombinationer af prioritet og dimensionsregler.
+Du kan angive standarddimensioner for en lokation på siden **Lokationskort** ved at klikke på lokation og derefter på **Dimensioner**. Derefter tildeles standarddimensionerne for lokationen til dokumenter, når du vælger lokationen på en linje. Efter behov kan du slette eller ændre dimensionerne på linjen. I feltet **Værdibogføring** kan du kræve, at personer angiver dimensioner for bestemte lokationer, før de kan bogføre en post. Hvis du vil give brugerne mulighed for at vælge bestemte dimensionsværdier, kan du angive dem i feltet **Filter for tilladte værdier**. Du kan også medtage dimensionsværdier for lokationer på siden **Prioriteringer for standarddimensioner** og kombinationer af prioritet og dimensionsregler på siden **Dimensionskombinationer**.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 

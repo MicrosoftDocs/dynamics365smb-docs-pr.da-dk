@@ -8,31 +8,38 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
-ms.date: 04/01/2021
+ms.date: 07/04/2022
 ms.author: edupont
-ms.openlocfilehash: f00062efdb2e2489c911e531d7a9c8236034a110
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a289d51127360fa5fe155072ff3f7f6695b95b59
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520782"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144191"
 ---
 # <a name="setting-up-purchasing"></a>Opsætning af indkøb
+
 Før du kan administrere købsprocesser, skal du konfigurere de regler og værdier, der definerer virksomhedens købspolitikker.
 
 Du skal angive den generelle opsætning, f.eks. hvilke indkøbsdokumenter der kræves, og hvordan deres værdi bogføres. Denne generelle opsætning udføres typisk én gang i forbindelse med den indledende implementering.
 
 En særskilt sæt opgaver i forbindelse med registrering af nye kreditorer er at registrere en særlig pris eller rabataftaler, du indgår med hver kreditorer.
 
-Den finansrelaterede købsopsætning, som betalingsmetoder og valutaer, dækkes i afsnittet Konfigurere Finans. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md).
+Den finansrelaterede købsopsætning, som betalingsmetoder og valutaer, dækkes i afsnittet Konfigurere Finans. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md). På samme måde kan du finde lagerrelaterede købs opsætninger, f. eks. enheder og varesporingskoder, i afsnittet [Lageropsætning](inventory-setup-inventory.md).
 
-| Hvis du vil | Se |
+| Til | Se |
 | --- | --- |
-| Opret et kreditorkort for hver kreditor, du køber fra|[Registrere nye kreditorer](purchasing-how-register-new-vendors.md) |
-| Angiv de forskellige rabatter og specialpriser, som kreditorer yder dig, afhængigt af vare, antal og/eller dato. |[Registrer købspris, rabat og betalingsaftaler](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
+| Opret et kreditorkort for hver kreditor, du køber fra. |[Registrere nye kreditorer](purchasing-how-register-new-vendors.md) |
 | Tildele kreditorer prioritet |[Tildele kreditorer prioritet](purchasing-how-prioritize-vendors.md) |
-| Oprette indkøbere |[Oprette indkøbere](purchasing-how-setup-purchasers.md) |
-|Angiv standardrapporter, der skal bruges til forskellige dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
+| Indtaste bankkontooplysninger, herunder IBAN-og SWIFT-koder, på kreditorkortet. | [Konfigurere kreditorbankkonti](purchasing-how-set-up-vendors-bank-accounts.md) |
+| Oprette indkøbere, tildele dem kreditorer og koder til sporingsstatistik. |[Oprette indkøbere](purchasing-how-setup-purchasers.md) |
+| Angiv de forskellige rabatter og specialpriser, som kreditorer yder dig, afhængigt af vare, antal og/eller dato. |[Registrer købspris, rabat og betalingsaftaler](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
+| Definere, hvad du betaler for varer og tjenester, som købes af din virksomhed.  | [Konfigurere priser og rabatter](across-prices-and-discounts.md) |
+| Opret standardlinjer, der skal indsættes i gentagende købsdokumenter. | [Konfigurer gentagne købslinjer](purchasing-how-work-recurring-purchase-lines.md) |
+| Opret sekvens af opgaver for at forbinde processer, der udføres af forskellige brugere, f. eks. anmodning om og godkendelse af købsordrer. | [Konfigurer købsgodkendelsesworkflows](across-set-up-workflows.md) |
+| Administrere forretningsaktiviteter med dine leverandører, importere modtagne fakturadokumenter og registrere nye leverandører ved hjælp af Outlook-e-mailklienten. | [Konfigurer Business Central-tilføjelsesprogram til Outlook](admin-outlook.md) |
+| Gennemgå udgifts kvitteringer, konverter papir og elektroniske dokumenter til kladdelinjer, og digitalize papir fakturaer fra kreditorer. | [Opsætning af indgående bilag](across-how-setup-income-documents.md) |
+| Angiv standardrapporter, der skal bruges til forskellige dokumenttyper. |[Rapportvalg i Business Central](across-report-selections.md)|
 
 > [!TIP]
 > Nogle sider kan indeholde felter, der ikke er beskrevet i de artikler, der er angivet her, fordi de gælder for lokal funktionalitet eller tilpasninger, afhængigt af din geografiske placering. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -41,12 +48,12 @@ Den finansrelaterede købsopsætning, som betalingsmetoder og valutaer, dækkes 
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 
 [Køb](purchasing-manage-purchasing.md)  
+[Konfigurer oversigt](setup.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

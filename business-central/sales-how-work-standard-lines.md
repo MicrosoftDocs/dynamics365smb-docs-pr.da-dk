@@ -1,28 +1,27 @@
 ---
-title: Standard tilbagevendende salgs- og købslinjer
-description: Du kan oprette ofte brugte salgslinjer og købslinjer og indsætte dem i salgs- og købsdokumenter, som du hurtigt kan udfylde linjerne med standardoplysninger.
+title: Tilbagevendende standardsalgslinjer
+description: Du kan oprette ofte brugte salgslinjer og indsætte dem i salgsdokumenter, som du hurtigt kan udfylde linjerne med standardoplysninger.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, replenishment
-ms.date: 06/24/2021
+ms.search.form: 172
+ms.date: 07/06/2022
 ms.author: edupont
-ms.openlocfilehash: 91a7b43265dbf4027c88f6fac7b79d4340f22ce1
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7b5e0b32306fad7a4379aca6e3dbc23eb609c99e
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078488"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144108"
 ---
-# <a name="create-recurring-sales-and-purchase-lines"></a>Oprette gentagne salgs- og købslinjer
+# <a name="create-recurring-sales"></a>Opret tilbagevendende salg
 
-Hvis du ofte har brug at oprette salgs- og købslinjer med næsten ens oplysninger, kan du oprette standardlinjer, som du derefter kan indsætte i tilbagevendende salgs- og købsdokumenter, f.eks. for tilbagevendende genbestillingsordrer.  
+Hvis du ofte har brug at oprette salgslinjer med næsten ens oplysninger, kan du oprette standardlinjer, som du derefter kan indsætte i tilbagevendende salgsdokumenter, f.eks. for tilbagevendende genbestillingsordrer.  
 
-Følgende procedure viser, hvordan du arbejder med standardsalgslinjer på en salgsfaktura. Det fungerer på samme måde for alle andre salgsdokumenter og for alle købsdokumenter.  
-
-## <a name="to-set-up-recurring-sales-lines"></a>Sådan opretter du gentagne salgslinjer
+## <a name="set-up-recurring-sales-lines"></a>Konfigurer gentagne salgslinjer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Tilbagevendende salgslinjer**, og vælg derefter det relaterede link.  
 2. På siden **Gentagne salgslinjer** skal du vælge **Ny**.  
@@ -34,7 +33,7 @@ Følgende procedure viser, hvordan du arbejder med standardsalgslinjer på en sa
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="to-assign-recurring-sales-lines-to-a-customer"></a>Sådan tildeles en gentagne salgslinjer til en debitor
+## <a name="assign-recurring-sales-lines-to-a-customer"></a>Tildel gentagne salgslinjer til en debitor
 
 Tildele en eller flere gentagne salgslinjer til en debitor, så de kan indsættes i salgsdokumenter for den pågældende debitor.
 
@@ -42,9 +41,9 @@ Tildele en eller flere gentagne salgslinjer til en debitor, så de kan indsætte
 2. Åbn jobkortet for den relevante debitor.
 3. Vælg handlingen **Tilbagevendende salgslinjer**.
 4. På siden **Tilbagevendende salgslinjer** skal du vælge koder for de gentagne salgslinjer, som du vil kunne indsætte i salgsdokumenter for kunden.
-5. Udfyld de ekstra felter for at definere, hvornår, hvordan og hvor de gentagne salgslinjer skal bruges.  
+5. Udfyld de andre felter for at definere, hvornår, hvordan og hvor de gentagne salgslinjer skal bruges.  
 
-    Hvis du vil bruge de tilbagevendende salgslinjer, der er indstillet, sammen med kørslen **Opret tilbagevendende salgsfakturaer**, skal du også udfylde felterne **Datoen Gyldig fra** og **Datoen Gyldig til** for at begrænse, hvornår tilbagevendende salgslinjer bruges til oprettelse af fakturaer. Du kan finde flere oplysninger i [Sådan opretter du flere salgsfakturaer baseret på standardsalgslinjer](sales-how-work-standard-lines.md#to-create-multiple-sales-invoices-based-on-recurring-sales-lines).
+    Hvis du vil bruge de tilbagevendende salgslinjer, der er indstillet, sammen med kørslen **Opret tilbagevendende salgsfakturaer**, skal du også udfylde felterne **Datoen Gyldig fra** og **Datoen Gyldig til** for at begrænse, hvornår tilbagevendende salgslinjer bruges til oprettelse af fakturaer. Du kan finde flere oplysninger i [Opret flere salgsfakturaer baseret på standardsalgslinjer](sales-how-work-standard-lines.md#create-multiple-sales-invoices-based-on-recurring-sales-lines).
 
     Du kan også angive en Direct Debit-betalingsform og Direct Debit-betalingsaftale. Salgsfakturaer, der er oprettet med kørslen **Opret tilbagevendende salgsfakturaer**, vil derefter indeholde oplysninger, der skal bruges til at opkræve betaling for salgsfakturaer med SEPA-Direct Debit. Du kan finde flere oplysninger i [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md).
 
@@ -53,20 +52,20 @@ Tildele en eller flere gentagne salgslinjer til en debitor, så de kan indsætte
 |Indstilling|Beskrivelse|
 |------|-----------|
 |**Manuelt**|Du skal manuelt søge efter og indsætte en gentaget salgslinje, som findes for debitoren.|
-|**Automatisk**|Hvis der findes flere gentagne salgslinjer for debitoren, får du en notifikation om, hvorfra du kan vælge den, der skal indsættes. Hvis der kun findes én gentagen salgslinje, indsættes den automatisk.<br /><br />Bemærk, at dette kun fungerer, hvis det nye dokument blev oprettet fra en bilagsliste, f.eks. ved at vælge handlingen **Ny** på siden **Salgsordrer**. Det fungerer ikke, hvis dokumentet blev oprettet på f.eks. et debitorkort.|
+|**Automatisk**|Hvis der findes flere gentagne salgslinjer for debitoren, får du en notifikation om, hvorfra du kan vælge den, der skal indsættes. Hvis der kun findes én gentagen salgslinje, indsættes den automatisk.<br /><br />Dette kun fungerer, hvis det nye dokument blev oprettet fra en bilagsliste, f.eks. ved at vælge handlingen **Ny** på siden **Salgsordrer**. Det fungerer ikke, hvis dokumentet blev oprettet på f.eks. et debitorkort.|
 |**Spørg altid**|Der vises en meddelelse, og alle eksisterende tilbagevendende salgslinjer vises, så du kan vælge én af dem.
 
-## <a name="to-insert-recurring-sales-lines-on-a-sales-invoice"></a>Sådan indsættes tilbagevendende salgslinjer i en salgsfaktura
+## <a name="insert-recurring-sales-lines-on-a-sales-invoice"></a>Indsæt tilbagevendende salgslinjer i en salgsfaktura
 
-Hvis der findes gentagne salgslinjerne for debitoren, kan du indsætte dem eller få dem indsat i alle typer salgsdokumenter, f.eks. en salgsfaktura. Hvis du har aktiveret indstillingen **Spørg altid** , får du besked, hvis der findes gentagne salgslinjer.
+Hvis der findes gentagne salgslinjerne for debitoren, kan du indsætte dem eller få dem indsat i alle typer salgsdokumenter, f.eks. en salgsfaktura. Hvis du har aktiveret indstillingen **Spørg altid**, når du tildeler gentagne salgslinjer til debitorer, får du besked, hvis der findes gentagne salgslinjer.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Fakturaer**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsfakturaer**, og vælg derefter det relaterede link.
 2. Åbn den salgsfaktura, som du vil indsætte en eller flere standardsalgslinjer i.
 3. Vælg handlingen **Hent tilbagevendende salgslinjer**.
 4. På siden **Tilbagevendende salgslinjer** skal du vælge på opslagsknappen i feltet **Kode** og derefter vælge en række standardsalgslinjer.
 5. Vælg knappen **OK** for at indsætte standardsalgslinjerne på fakturaen, hvor du kan genbruge dem eller redigere oplysningerne.
 
-## <a name="to-create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Sådan opretter du flere salgsfakturaer baseret på tilbagevendende salgslinjer
+## <a name="create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Opret flere salgsfakturaer baseret på tilbagevendende salgslinjer
 
 Du kan bruge kørslen **Opret tilbagevendende salgsfakturaer** til at oprette salgsfakturaer i overensstemmelse med standardsalgslinjer, som er knyttet til kunderne og med bogføringsdatoer inden for de gyldige fra- og til-datoer, som du angiver i standardsalgslinjerne.
 
@@ -82,7 +81,8 @@ Salgsfakturaer oprettes for kunder med den angivne standarddebitorsalgskode og e
 ## <a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
+[Konfigurere salg](sales-setup-sales.md)  
+[Opret tilbagevendende købslinjer](purchasing-how-work-recurring-purchase-lines.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

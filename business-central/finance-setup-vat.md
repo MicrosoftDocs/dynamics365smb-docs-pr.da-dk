@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 04/12/2022
+ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 60943e508e382bbbaa46d92a102a96ad70fed432
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740307"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130114"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Konfigurere beregnings- og bogføringsmetoder for moms
 
@@ -171,6 +171,21 @@ Du kan redigere eller slette en momsklausul, og dine ændringer afspejles i en g
 2. Vælg handlingen **Oversættelser**.  
 3. I feltet **Sprogkode** skal du vælge det sprog, du vil oversætte til.  
 4. I felterne **Beskrivelse** og **Beskrivelse 2** skal du angive oversættelserne af beskrivelserne. Teksten vises i de oversatte momsrapportdokumenter.  
+
+### <a name="to-specify-extended-text-for-vat-clauses"></a>Sådan angives udvidet tekst til momsklausuler
+
+> [!NOTE]  
+> Hvis dit land eller område kræver længere tekst til momsklausuler end standardversionen, kan du angive en længere tekst for moms delsætningen som *udvidet tekst*, så den udskrives på salgs-og købsrapporterne.  
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 11.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Momsklausuler**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Udvidede tekster**.  
+3. Udfyld felterne **Kode** og **Beskrivelse**.  
+3. Vælg handlingen **Ny**.  
+4. Alternativt kan du vælge feltet **Alle sprogkoder** eller angive det relevante sprog i feltet **Sprogkode**, hvis du bruger sprogkoder.  
+5. Udfyld felterne **Startdato** og **Slutdato**, hvis du vil begrænse den tid, hvor den udvidede tekst bruges.  
+6. Skriv den udvidede tekst til moms klausulerne på **Tekst**-linjerne.  
+7. Markér de relevante felter for de dokumenttyper, hvor den udvidede tekst skal udskrives.  
+8. Luk siden.  
 
 ## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Oprette en momsbogføringsopsætning for at håndtere importmoms
 

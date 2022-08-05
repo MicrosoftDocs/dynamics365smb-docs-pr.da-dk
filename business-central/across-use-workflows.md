@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: b7e6574567e07b42187d3e33cfbf7f99e13096f8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 4f66b334df678ff27e094858dd0cec44c1bb8e75
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077367"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130222"
 ---
 # <a name="use-workflows"></a>Bruge arbejdsprocesser
 
@@ -52,22 +52,22 @@ Arbejdsprocessen er dog ikke godkendt, før alle anmodninger er godkendt af godk
 > [!NOTE]  
 > Det er ikke muligt at oprette en arbejdsproces med flere godkendere og forventer, at hele arbejdsprocessen godkendes, efter at den første anmodning er godkendt. Alle anmodninger skal være godkendt, før arbejdsprocessen kan godkendes.
 
-Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Du kan også oprette den samme arbejdsgang mere end én gang. Hver arbejdsproces udløses af en hændelse med forskellige filtre. Dette er nyttigt, hvis en godkendelsesanmodning i én afdeling skal godkendes af en godkender, hvor en anden godkender anmoder om godkendelsesanmodninger i andre afdelinger. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin.  
+Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Du kan også oprette den samme arbejdsgang mere end én gang. Hver arbejdsproces kan udløses af en hændelse med forskellige filtre. Dette er nyttigt, hvis en godkendelsesanmodning i én afdeling skal godkendes af en godkender, mens en anden godkender anmoder om godkendelsesanmodninger i andre afdelinger. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin.  
 
- Inden du kan bruge arbejdsprocesser, skal du oprette arbejdsgangbrugere, oprette arbejdsgangene, som kan være med tilpasning af kode, og angive, hvordan brugere får vist meddelelser. Du kan finde flere oplysninger i [Opsætte workflows](across-set-up-workflows.md).  
+Inden du kan bruge arbejdsprocesser, skal du oprette arbejdsgangbrugere, oprette arbejdsgangene, som kan være med tilpasning af kode, og angive, hvordan brugere får vist meddelelser. Du kan finde flere oplysninger i [Opsætte workflows](across-set-up-workflows.md).  
 
 > [!NOTE]  
 > Typiske arbejdsgangstrin er om brugere, der anmoder om godkendelse af opgaver, og godkendere, der accepterer eller afviser godkendelsesanmodninger. Derfor henviser mange emner om brug af workflows til godkendelser.  
 
- Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.  
+ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der rummer beskrivelserne af opgaverne.  
 
-|**For at**|**Skal du se**|  
+|**Hvis du vil**|**Se**|  
 |------------|-------------|  
 |Angiv, at en arbejdsgang skal startes, når den første startpunkthændelse finder sted.|[Aktivere arbejdsgange](across-how-to-enable-workflows.md)|  
 |Anmode om godkendelse af en opgave, som godkender, godkende, afvise eller uddelegere godkendelser og sende eller få vist godkendelsesnotifikationer.|[Bruge godkendelsesworkflows](across-how-use-approval-workflows.md)|  
 |Opret arbejdsgangstrin, der sikrer, at en bestemt posttype ikke bruges, før en bestemt hændelse opstår, for eksempel at posten godkendes.|[Begrænse og tillade brugen af en record](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|Vis arbejdsgangstrinsforekomster med statussen Afsluttet.|[Vise arkiverede forekomster af arbejdsgangstrin](across-how-to-view-archived-workflow-step-instances.md)|  
-|Slet en arbejdsgang, som du er sikker på ikke længere bruges.|[Slette arbejdsgange](across-how-to-delete-workflows.md)|  
+|Vis forekomsten af workflowtrin med statussen **Afsluttet**.|[Vise arkiverede forekomster af workflowtrin](across-how-to-view-archived-workflow-step-instances.md)|  
+|Slet et workflow, som du er sikker på ikke længere bruges.|[Slette arbejdsgange](across-how-to-delete-workflows.md)|  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/create-workflows/)
 

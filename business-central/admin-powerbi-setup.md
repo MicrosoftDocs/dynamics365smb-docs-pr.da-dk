@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2021
+ms.date: 07/13/2022
 ms.author: jswymer
-ms.openlocfilehash: c893513098d5078995e6cab09abcf0d2e0bb2769
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: 5be0366c2d26e809e966844fc6851cfc5d9e29b7
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950352"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144297"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Aktivering af Power BI-integration med [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -31,24 +31,24 @@ Med [!INCLUDE[prod_short](includes/prod_short.md)] får brugerne en gratis Power
 
 Du kan finde flere oplysninger i [Licenser til Power BI-tjenesten for brugere i organisationen](/power-bi/admin/service-admin-licensing-organization) eller [Tilmelde dig Power BI-tjenesten som en person](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
-## <a name="expose-data-through-api-pages-or-odata-web-services"></a><a name="exposedata"></a>Vise data ved hjælp af API-sider eller OData-webtjenester
+## <a name="expose-data-through-api-or-odata-web-services"></a><a name="exposedata"></a>Vise data ved hjælp af API- eller OData-webtjenester
 
-Business Central giver mulighed for at vise data, der kan forbruges af Power BI-rapporter: API-sider og åbne dataprotokol (OData) webtjenester.
+Business Central giver mulighed for at vise data, der kan forbruges af Power BI-rapporter: API-sider eller forespørgsler og åbne dataprotokol (OData) webtjenester.
 
-### <a name="api-pages"></a>API-sider
+### <a name="api-pages-and-queries"></a>API-sider og-forespørgsler
 
-> **GÆLDER FOR:** Kun Business Central online 
+> **GÆLDER FOR:** Kun Business Central online
 
-En API-side er en bestemt sidetype, der er oprettet med AL kode, som giver adgang til databasetabeller via en webhook-understøttet OData v4-enabled, REST-tjeneste. Denne type side kan ikke vises i brugergrænsefladen, men er beregnet til opbygning af pålidelige integrationstjenester.
+Udviklere kan definere sideobjekter og forespørgselsobjekter, der er af typen *API*. På den måde kan de vise data fra databasetabeller via en webhook-understøttet, OData v4-enabled, REST-tjeneste. Denne type data kan ikke vises i brugergrænsefladen, men er beregnet til opbygning af pålidelige integrationstjenester.
 
 Business Central Online leveres med et sæt indbyggede API'er, som du kan bruge til at hente data til de mest almindelige forretningsenheder, f. eks. kunder, varer, salgsordrer og meget andet. Der kræves ikke ekstra arbejde eller installation for at bruge disse API'er som datakilde til Power BI-rapporter. Du kan finde flere oplysninger om disse API'er i [Business Central API v 2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
 
-Business central online understøtter også brugerdefinerede API'er. Programudviklere af Business Central-løsninger kan oprette deres egne API-sider og pakke dem ind i udvidelser. Du kan derefter installere udvidelserne på din lejer. Når du har installeret, kan du bruge API-siderne til dine Power BI-rapporter som du gjorde med indbyggede API'er (v 2.0). Du kan finde flere oplysninger om, hvordan du opretter API-sider, under [udvikling af en brugerdefineret API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+Business central online understøtter også brugerdefinerede API'er. Programudviklere af Business Central-løsninger kan oprette deres egne API-sider og forespørgsler og pakke dem ind i apps. Du kan derefter installere apps på din lejer. Når du har installeret, kan du bruge API-siderne til dine Power BI-rapporter som du gjorde med indbyggede API'er (v 2.0). Du kan finde flere oplysninger om, hvordan du opretter en API med sider eller forespørgsler under [Udvikling af en brugerdefineret API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
 
 > [!IMPORTANT]
-> Fra og med februar 2022 er Power BI-rapporter om [!INCLUDE[prod_short](includes/prod_short.md)] Online baseret på en sekundær, skrivebeskyttet databasereplika af hensyn til ydeevne. AL-udviklere bør derfor undgå at designe API-sider, som foretager databaseændringer, mens siderne åbner eller indlæser poster. Overvej især koden på AL triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord og OnAfterGetCurrRecord. Disse databaseændringer kan i visse tilfælde medføre problemer med ydeevnen og forhindrer, at rapporten opdaterer data. Du kan finde flere oplysninger i [ydeevneartikler for udviklere](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services) i Business central Development hjælp.
+> Fra og med februar 2022 er Power BI-rapporter om [!INCLUDE[prod_short](includes/prod_short.md)] Online baseret på en sekundær, skrivebeskyttet databasereplika af hensyn til ydeevne. AL-udviklere bør derfor undgå at designe API-sider, som foretager databaseændringer, mens siderne åbner eller indlæser poster. Overvej især koden på AL triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord og OnAfterGetCurrRecord. Disse databaseændringer kan i visse tilfælde medføre problemer med ydeevnen og forhindrer, at rapporten opdaterer data. Du kan finde flere oplysninger i [ydeevneartikler for udviklere](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services) i Business Central-udviklingsindhold.
 >
-> I sjældne tilfælde vil problemet medføre en fejl, når en bruger prøver at hente data fra API-siden til en rapport i Power BI Desktop. Hvis det er nødvendigt at foretage ændringer af databasen på den brugerdefinerede API-side, kan Power BI Desktop-brugere imidlertid gennemtvinge funktionaliteten. Du kan finde flere oplysninger i [Oprettelse af Power BI-rapporter for at få vist Business Central-data](across-how-use-financials-data-source-powerbi.md#fixing-problems).
+> I sjældne tilfælde vil problemet medføre en fejl, når en bruger prøver at hente data fra API'en til en rapport i Power BI Desktop. Hvis det er nødvendigt at foretage ændringer af databasen på den brugerdefinerede API, kan Power BI Desktop-brugere imidlertid gennemtvinge funktionaliteten. Du kan finde flere oplysninger i [Oprettelse af Power BI-rapporter for at få vist Business Central-data](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
 ### <a name="odata-web-services"></a>OData-webtjenester
 
@@ -94,7 +94,7 @@ I dette afsnit forklares kravene til en installation af [!INCLUDE[prod_short](in
 
     Før slutbrugere kan bruge Power BI i [!INCLUDE[prod_short](includes/prod_short.md)], skal en Azure-programadministrator give samtykke til Power BI-tjenesten.
 
-    Hvis du vil oprette den første forbindelse, skal du åbne [!INCLUDE[prod_short](includes/prod_short.md)] og køre **Introduktion til Power BI** fra Rollecenter. Handlingen vil føre dig gennem samtykkeprocessen og kontrollere Power BI-licensen. Når du bliver bedt om at logge på med en Azure admin-konto. Du kan få flere oplysninger i [Tilknyt til Power BI - én gang](across-working-with-powerbi.md#connect)..
+    Hvis du vil oprette den første forbindelse, skal du åbne [!INCLUDE[prod_short](includes/prod_short.md)] og køre **Introduktion til Power BI** fra startsiden. Handlingen vil føre dig gennem samtykkeprocessen og kontrollere Power BI-licensen. Når du bliver bedt om at logge på med en Azure admin-konto. Du kan få flere oplysninger i [Tilknyt til Power BI - én gang](across-working-with-powerbi.md#connect)..
 
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)

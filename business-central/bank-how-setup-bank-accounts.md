@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: af48197d84407fc16e103991852f98fa0338bf9e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0feba901ac569c0cbd714f8ea3d3c271c82425bd
+ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078774"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9144135"
 ---
 # <a name="set-up-bank-accounts"></a>Sådan oprettes bankkonti
 
@@ -88,7 +88,7 @@ De bedre tilknytningsoplysninger, du foretager i betalings afstemningskladden, b
 
 ## <a name="to-set-up-bank-accounts"></a>Sådan oprettes bankkonti
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.
 2. På siden **Bankkonti** skal du vælge handlingen **Ny**.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -169,7 +169,7 @@ For at udfylde feltet **Saldo** med en startsaldo, skal du bogføre en bankkonto
 
 Felterne er relateret til indlæsning og udlæsning af bankfeeds og -filer i oversigtspanelet **Overførsel** på siden **Bankkontokort**. Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md) og [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 2.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.
 2. Åbn kortet for en bankkonto, du vil eksportere eller importere bankfiler for.
 3. Udfyld felterne efter behov i oversigtspanelet **Overførsel**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -222,14 +222,7 @@ Illustrationen viser ruten af udgående betalinger:
 
 Felter i oversigtspanelet **Overførsel** på siden **Kreditors bankkontokort** er relateret til udlæsning af bankfeeds og -filer. Du kan finde flere oplysninger i [Brug AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md) og [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.
-2. Åbn kortet for en kreditor, hvis bankkonto du vil eksportere betalingsbankfiler til.
-3. Vælg handlingen **Bankkonti**.
-4. Vælg den relevante bankkonto på listen **Kreditorbankkonti**, eller tilføj en ny bankkonto.  
-5. Udfyld felterne efter behov på siden **Kreditors bankkontokort** i oversigtspanelet **Overførsel**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!WARNING]
-> Nogle felter på leverandørkontoen kan indeholde følsomme data, f. eks. **Bankforgreningsnr.**, **bankkontonummer**, **SWIFT-kode** og **IBAN-kode**. Du kan finde flere oplysninger i [Overvågning af følsomme felter](across-log-changes.md#monitoring-sensitive-fields).
+[!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 ## <a name="changing-your-bank-account"></a>Ændre din bankkonto
 
@@ -257,6 +250,5 @@ Hvis du vil have en mere kompakt oversigt over dine kontantkonti i financial rep
 [Betalingsafstemning](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Om Finans og kontoplanen](finance-general-ledger.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

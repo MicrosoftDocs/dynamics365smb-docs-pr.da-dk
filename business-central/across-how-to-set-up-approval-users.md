@@ -1,6 +1,6 @@
 ---
 title: Konfigurere godkendelsesbrugere
-description: Før du kan oprette workflows, der omfatter godkendelsestrin, skal du angive workflowbrugere, der er involveret i godkendelsesprocessen med opsætning af godkendelser.
+description: Før du kan oprette workflows, der omfatter godkendelsestrin, skal du angive workflowbrugere, der er involveret i godkendelsesprocessen til siden med opsætning af godkendelser.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 7602481a357a9b9e362a7b6fc0d605de04f44537
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e4bb6345a55eedabdf433dbb84a7bf0c7f64d215
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129203"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129790"
 ---
 # <a name="set-up-approval-users"></a>Konfigurere godkendelsesbrugere
 
@@ -46,7 +46,7 @@ Før du kan oprette workflows, der omfatter godkendelsestrin, skal du angive wor
     |**Ubegrænset anmodningsgodkendelse**|Angiv, at brugeren i feltet **Bruger-id** kan godkende alle købsrekvisitioner uanset deres beløb.<br /><br /> Hvis du markerer dette afkrydsningsfelt, kan du ikke udfylde feltet **Godkendelsesgrænse for anmodet beløb**.|  
     |**Stedfortræder**|Vælg bruger-id'et for den bruger, der skal godkende anmodninger fra brugeren, i feltet **Bruger-id**, hvis brugeren i **Godkender-id** ikke er tilgængelig. <br /><br />**Bemærk:** Stedfortræderen kan enten være brugeren i feltet **Stedfortræder**, den direkte godkender eller godkendelsesadministratoren, i nævnte rækkefølge. Du kan finde flere oplysninger i [Bruge godkendelsesworkflows](across-how-use-approval-workflows.md).|  
     |**Mailadresse**|Angiv mailadressen for brugeren i feltet **Bruger-id**.|  
-    |**Godkendelsesadministrator**|Angiv den bruger, der har tilladelse til at genåbne godkendelsesarbejdsgange, f.eks. ved at uddelegere godkendelsesanmodninger til nye stedfortrædende godkendere og slette forfaldne godkendelsesanmodninger.|
+    |**Godkendelsesadministrator**|Angiv den bruger, der har tilladelse til at fjerne blokeringen af godkendelsesworkflow. F.eks. ved at uddelegere godkendelsesanmodninger til nye stedfortrædende godkendere og slette forfaldne godkendelsesanmodninger.|
 
     > [!Note]
     > Kun én person kan være godkendelsesadministrator.
@@ -54,14 +54,16 @@ Før du kan oprette workflows, der omfatter godkendelsestrin, skal du angive wor
 3. Hvis du vil teste brugeropsætningen af godkendelsen, skal du vælge handlingen **Brugeropsætning af godkendelser - kontrol**.  
 4. Gentag trin 2 og 3 for hver bruger, du vil angive som en godkendelsesbruger.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/create-workflows/)
+
 ## <a name="see-also"></a>Se også
 
-[Oprette brugere til arbejdsgange](across-how-to-set-up-workflow-users.md)   
-[Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)   
-[Oprette arbejdsgange](across-how-to-create-workflows.md)   
-[Opsætte workflows](across-set-up-workflows.md)   
-[Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
-[Workflow](across-workflow.md)   
+[Oprette brugere til workflow](across-how-to-set-up-workflow-users.md)  
+[Konfiguration af workflownotifikationer](across-setting-up-workflow-notifications.md)  
+[Oprette arbejdsgange](across-how-to-create-workflows.md)  
+[Opsætte workflows](across-set-up-workflows.md)  
+[Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Workflow](across-workflow.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

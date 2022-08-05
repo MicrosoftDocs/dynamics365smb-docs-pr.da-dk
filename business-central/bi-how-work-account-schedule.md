@@ -10,28 +10,28 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 32ca89daf15485057cf9ef8b86ff9090bb12d037
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8984d007f2082c6a21a3d2226a20f2ad585b131a
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512356"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129728"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Forberede Financial Reporting med kontoskemaer og kontokategorier
 
-Du kan bruge kontoskemaer til at få indsigt i de finansielle oplysninger, der er gemt i din kontoplan. Kontoskemaer analyserer tal i finanskonti og sammenligner finansposter med finansbudgetposter. Resultaterne vises i diagrammer på rollecenteret, f.eks. tabellen Likviditet, og i rapporter, f.eks. resultatopgørelsen og balancerapporterne.
+Du kan bruge kontoskemaer til at få indsigt i de finansielle oplysninger, der er gemt i din kontoplan. Kontoskemaer analyserer tal i finanskonti og sammenligner finansposter med finansbudgetposter. Resultaterne vises i diagrammer og rapporter på rollecenteret, f.eks. tabellen Likviditet og resultatopgørelsen og balancerapporterne.
 
 Du kan få adgang til disse to rapporter, f.eks. med handlingen **Regnskabsopgørelser** i rollecentrene Virksomhedsleder og Bogholder.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] indeholder et par eksempelkontoskemaer, som du kan bruge det samme, eller du kan konfigurere dine egen rækker og kolonner for at angive de tal, du vil sammenligne. Du kan f.eks. oprette kontoskemaer for at beregne avancer på dimensioner som afdelinger eller debitorgrupper. Du kan oprette så mange tilpassede kontoudtog, som du har behov for.  
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder eksempler på kontoskemaer, som du kan bruge med det samme. Du kan også oprette dine egne rækker og kolonner for at angive de tal, der skal sammenlignes. Brugere kan f.eks. oprette kontoskemaer for at beregne avancer på dimensioner som afdelinger eller debitorgrupper. Du kan oprette det antal tilpassede kontoudtog, som du har behov for.  
 
-Oprettelse af kontoskemaer kræver en forståelse af de finansielle data i kontoplanen. Du kan f.eks. få vist finansposter som procenter af budgetposterne. Dette kræver, at der er oprettet budgetter. Du kan finde flere oplysninger i [Oprette finansbudgetter](finance-how-create-budgets.md).
+Oprettelse af kontoskemaer kræver en forståelse af de finansielle data i kontoplanen. Du kan f.eks. få vist finansposter som procenter af budgetposter, men det kræver, at du har oprettet budgetter. Du kan finde flere oplysninger i [Oprette finansbudgetter](finance-how-create-budgets.md).
 
 ## <a name="account-schedules"></a>Kontoskemaer
 
-Kontoskemaer bruges til at arrangere konti, der er angivet i kontoplanen, på en måde, der egner sig til præsentation af oplysninger om de pågældende konti. Du kan oprette forskellige layout for at definere de oplysninger, du vil uddrage af kontoplanen. En af de vigtigste funktioner ved kontoskemaer er at give plads til beregninger, der ikke kan foretages direkte i kontoplanen, f.eks. oprettelse af subtotaler for grupper af konti, som igen kan medtages i nye totaler og derefter kan bruges i andre totaler. Brugere kan f.eks. oprette kontoskemaer for at beregne avancer på dimensioner som afdelinger eller debitorgrupper. Desuden kan finansposter og finansbudgetposter filtreres, f.eks. efter bevægelse eller debitbeløb.
+Kontoskemaer arrangerer konti fra din kontoplan på en måde, der gør det nemt at præsentere data. Du kan oprette forskellige layout for at definere de oplysninger, du vil uddrage af kontoplanen. Kontoskemaer udfører beregninger, der ikke kan foretages direkte i diagrammet for kassekonti. Du kan f. eks. oprette subtotaler for grupper af konti og derefter medtage denne total i andre totaler. Et andet eksempel er at beregne avancer på dimensioner som afdelinger eller debitorgrupper. Desuden kan finansposter og finansbudgetposter filtreres, f.eks. efter bevægelse eller debitbeløb.
 
-Du kan også sammenligne to eller flere kontoskemaer og kolonnelayout ved hjælp af formler. Med denne type sammenligning kan du:
+Du kan også sammenligne to eller flere kontoskemaer og kolonnelayout ved hjælp af formler, som giver mulighed for følgende handlinger:
 
 * Oprette tilpassede finansrapporter.
 * Oprette så mange skemaer, der er brug for, hvert med et entydigt navn.
@@ -50,19 +50,24 @@ Du kan bruge finanskontokategorier til at ændre layoutet af regnskabet. Når du
 
 Du bruger kontoskemaer til at analysere tal i finanskonti eller til at sammenligne finansposter med finansbudgetposter. Du kan f.eks. få vist finansposter som procenter af budgetposter.
 
-Kontoskemaerne i standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] er grundlaget for de økonomiske standardrapporter, som muligvis ikke er egnet til din virksomheds behov. Du kan starte ved at kopiere et eksisterende kontoskema for hurtigt at oprette din egne regnskabsrapporter. Se trin 3 herunder.
+Kontoskemaerne i standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] er grundlaget for de økonomiske standardrapporter, som muligvis ikke er egnet til din virksomheds behov. Du kan starte ved at kopiere et eksisterende kontoskema for hurtigt at oprette din egne regnskabsrapporter som beskrevet i trin 3.
 
-Siden **Kontoskemaoversigt** er der, hvor du kan få vist den finansrapport, som kontoskemaet definerer. I det følgende er det vigtigt at forstå, at det, du definerer som kontoskemarækker og -kolonner, kun kan ses og godkendes på siden **Kontoskemaoversigt**, som du kan åbne fra et kontoskema ved at vælge handlingen **Oversigt**. Selve siden **Kontoskema** er kun et opsætningsområde.  
+> [!TIP]
+> Når du har oprettet et kontoskema, kan du bruge siden **Kontoskemaoversigt** til at få vist og validere den finansrapport, kontoskemaet definerer. Vælg handlingen **Oversigt** for at åbne siden.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoskemaer**, og vælg derefter det relaterede link.  
 2. På siden **Kontoskemaer** skal du vælge handlingen **Ny** for at oprette et nyt kontoskemanavn.
-3. Du kan også vælge handlingen **Kopiér kontoskema**, udfylde de to felter efter behov, og derefter vælge knappen **OK**.
+3. Hvis du vil genbruge indstillinger fra et eksisterende Kontoskema, kan du også vælge handlingen **Kopier kontoskema**.
 4. Udfyld felterne efter behov. I feltet **Standard kolonneformat** skal du vælge et eksisterende layout. Du kan redigere det senere, hvis der er behov for det.
 
-    Du kan bruge kolonneformater til at definere kolonner for forskellige parametre, som de finansielle data i rækkerne vises efter. Du kan f.eks. udforme et kolonneformat til sammenligning af bevægelse og saldo til dato for den samme periode dette år og sidste år med fire kolonner. Du kan finde flere oplysninger i [Sådan oprettes et kolonneformat](bi-how-work-account-schedule.md#to-edit-a-column-layout).
+    Kolonneformater definerer kolonner for forskellige parametre, som de finansielle data i rækkerne vises efter. Du kan f.eks. udforme et kolonneformat med fire kolonner, hvor du kan sammenligne bevægelse og saldo for den samme periode dette år og sidste år. Du kan finde flere oplysninger i [Sådan oprettes et kolonneformat](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
 5. Vælg handlingen **Rediger kontoskema**.
-6. Opret en række for hvert finansielle element, der skal vises i rapporten, f.eks. en række til aktuelle aktiver og en anden række til anlægsaktiver. Du kan finde inspiration i eksisterende kontoskemaer i CRONUS-demoregnskabet.
+6. Afhængigt af hvad du vil analysere, skal du vælge **Indsæt finanskonti**, **Indsæt CF-konti** og **Indsæt omkostningstype**-handlinger for at oprette en række for hvert økonomisk element. Du kan f. eks. have én række til det aktuelle anlægsaktiv og en anden række til anlægsaktiver. Du kan finde inspiration i eksisterende kontoskemaer i CRONUS-demoregnskabet.
+
+    > [!NOTE]
+    > **Rækkenummer** feltet indeholder de første 10 tegn i et id, f. eks. et kontonummer. Hvis du tilføjer elementer med id'er, der starter med de samme 10 tegn, vil du have dubletter i feltet **Rækkenr.** . Hvis det er nødvendigt, kan du redigere identfiers manuelt, efter at du har indsat elementerne. De fulde id'er vises i feltet **Sammentælling**.
+
 7. Vælg handlingen **Oversigt** for at få vist den oprettede finansrapport.
 8. På siden **Kontoskemaoversigt** i feltet **Kolonneformatnavn** skal du vælge et andet kolonneformat for at kunne se regnskaber efter andre parametre.
 9. Vælg knappen **OK**.
@@ -71,7 +76,7 @@ Du har nu angivet grundlaget for kontoskemaet, rækkerne med finansielle data, d
 
 ### <a name="to-edit-a-column-layout"></a>Sådan redigeres et kolonneformat
 
-Du kan bruge kolonneformater til at angive, hvilke kolonner der skal med i den rapport, der oprettes. Du kan f.eks. udforme et format til sammenligning af bevægelse og saldo til dato for den samme periode dette år og sidste år. Du kan have op til 15 kolonner. Det er f. eks. nyttigt, hvis du vil have vist budgetter for 12 måneder og medtage en kolonne, der viser totalen.
+Du kan bruge kolonneformater til at angive, hvilke kolonner der skal med i den rapport, der oprettes. Du kan f.eks. udforme et format til sammenligning af bevægelse og saldo til dato for den samme periode dette år og sidste år. Du kan bruge op til 15 kolonner, som f. eks. kan være nyttige til visning af budgetter på 12 måneder med en kolonne, der viser totalen.
 
 > [!NOTE]
 > En udskrevet/vist/gemt version af et kontoskema kan vise højst fem kolonner. Hvis kontoskemaet kun er beregnet til analyse på siden **Kontoskemaoversigt**, kan du oprette så mange kolonner, du vil.
@@ -86,7 +91,7 @@ Du kan bruge kolonneformater til at angive, hvilke kolonner der skal med i den r
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Sådan oprettes en kolonne, hvor procenten beregnes
 
-Du vil muligvis gerne medtage en kolonne i et kontoskema for at beregne procenter af et totalbeløb. Hvis du f.eks. har et antal rækker, som specificerer salg efter dimension, kan du have en kolonne, som angiver procenten af det samlede salg, som hver række repræsenterer.
+Du vil muligvis gerne medtage en kolonne i et kontoskema for at beregne procenter af et totalbeløb. Hvis du f.eks. har et antal rækker, som specificerer salg efter dimension, kan du have en kolonne, som angiver procenten af det samlede salg i hver række.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 2.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoskemaer**, og vælg derefter det relaterede link.
 2. Vælg et kontoskema på siden **Kontoskemanavne**.  
@@ -119,7 +124,7 @@ Du kan nu kopiere og indsætte budgetoversigten i et regneark..
 
 Kontoskemaet kan sammenligne resultaterne af forskellige regnskabsperioder, f.eks. denne måned sammenlignet med samme måned sidste år. Hvis du vil gøre det, skal du åbne siden **Kolonnelayout** og tilpasse den ved at tilføje feltet **Sammenligningsperiodeformel** som en kolonne. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md). Du kan derefter angive det pågældende felt til en periodeformel.  
 
-En regnskabsperiode skal ikke følge kalenderåret, men hvert regnskabsår skal have det samme antal regnskabsperioder, selvom hver periode kan variere i længde.  
+En regnskabsperiode behøver ikke at stemme overens med kalenderen. En regnskabsperiode skal ikke følge kalenderåret, men hvert regnskabsår skal have det samme antal regnskabsperioder, selvom hver periode kan variere i længde.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bruger periodeformlen til at beregne beløbet fra sammenligningsperioden i relation til den periode, som er defineret af datofiltret i rapportanmodningen. Sammenligningsperioden er baseret på perioden fra startdatoen i datofilteret. Periodeangivelserne forkortes på følgende måde:
 
@@ -150,7 +155,7 @@ Hvis du vil foretage beregninger efter almindelige tidsperioder, skal du angive 
 Du kan finde flere oplysninger om datoformler i [Arbejde med kalenderdatoer og-klokkeslæt](ui-enter-date-ranges.md).  
 
 ## <a name="import-or-export-account-schedules"></a>Importere eller eksportere kontoskemaer
-Du kan importere og eksportere kontoskemaer som RapidStart-konfigurationspakker. Dette er f. eks. nyttig, når du vil dele dem med andre firmaer. Pakken oprettes i en .rapidstart-fil, som leverer pakkens indhold i komprimeret format.
+Du kan importere og eksportere kontoskemaer som RapidStart-konfigurationspakker. Konfigurationspakker er f. eks. nyttige, når du vil dele dem med andre firmaer. Pakken oprettes i en .rapidstart-fil, som leverer pakkens indhold i komprimeret format.
 
 ### <a name="to-import-and-export-account-schedules"></a>Importere og eksportere kontoskemaer
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 4.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoskemaer**, og vælg derefter det relaterede link.

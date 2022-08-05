@@ -1,55 +1,59 @@
 ---
 title: Konfiguration af arbejdsgangsnotifikationer
-description: Dette emne beskriver, hvordan du opretter arbejdsgangs notifikationer for at advare en bruger om, at en hændelse skal reagere på - der kræves et svar fra arbejdsprocessen.
+description: Denne artikel beskriver, hvordan du opretter arbejdsgangs notifikationer for at advare en bruger om, at en hændelse skal reagere på - der kræves et svar fra arbejdsprocessen.
 author: SorenGP
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a41dcc291fb46173533f6552b6c64de35d28bc01
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 99c08769429eef51a1d52e142d455ccd227781c7
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134014"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130006"
 ---
 # <a name="workflow-notifications"></a>Arbejdsgangsnotifikationer
 
-Konfigurere arbejdsgange, så brugerne automatisk får besked, når de skal være opmærksomme på et trin i den arbejdsgang. Mange arbejdsgangssvar vedrører notifikationer til en bruger om, at der er forekommet en hændelse, som brugeren skal reagere på. F.eks. på kan hændelsen på ét arbejdsgangstrin være, at bruger 1 anmoder om godkendelse af en ny post, og svaret er, at der er sendt en notifikation til bruger 2, godkenderen. På næste arbejdsgangstrin kan hændelsen være, at bruger 2 godkender posten, og svaret er, at der er sendt en notifikation til bruger 3 om at påbegynde en relateret behandling af den godkendte post. For trin i arbejdsgangen, der vedrører godkendelse, er hver notifikation knyttet til en godkendelsespost. Du kan finde flere oplysninger i [Workflow](across-workflow.md).  
+Konfigurere arbejdsgange, så brugerne automatisk får besked, når de skal være opmærksomme på et trin i den arbejdsgang. Mange arbejdsgangssvar vedrører notifikationer til en bruger om, at der er forekommet en hændelse, som brugeren skal reagere på.
+
+Du kan f. eks. angive, at brugeren 2, godkender brugeren, modtager en besked, hver gang bruger 1 anmoder om godkendelse af en ny post. I det næste trin i arbejdsprocessen får bruger 3 besked, efter at bruger 2 har godkendt posten for at starte en relateret behandling af posten. Med trin i workflowgodkendelse er hver notifikation knyttet til en godkendelsespost. Du kan finde flere oplysninger i [Workflow](across-workflow.md).  
 
 > [!NOTE]  
-> Den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)] understøtter notifikationer som mail og som interne noter.  
+> Standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] understøtter notifikationer som mail og som interne noter.  
 
 > [!IMPORTANT]  
 > Alle arbejdsgangsnotifikationer sendes via en opgavekø. Kontrollér, at opgavekøen i installationen er konfigureret til at håndtere arbejdsgangsnotifikationer, og at afkrydsningsfeltet **Start automatisk fra server** er markeret. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
 
 ## <a name="set-up-notifications"></a>Opsætning af notifikationer.
 
-Du konfigurerer forskellige aspekter af arbejdsgangsnotifikationer følgende steder:  
+Du kan konfigurere forskellige aspekter af arbejdsgangsnotifikationer følgende steder:  
 
 * Godkender notifikation
 
     For godkendelsesarbejdsgange konfigurerer du modtagerne af arbejdsgangsnotifikationer ved at udfylde en linje på siden **Konfiguration af godkendelsesbruger** for hver bruger, der indgår i arbejdsprocessen.  
 
-    Hvis f.eks. bruger 2 angives i feltet **Godkender-id** på linjen for bruger 1, sendes notifikationen for godkendelsesanmodningen til bruger 1. Du kan finde flere oplysninger i [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  
+    Hvis f.eks. bruger 2 angives i feltet **Godkender-id** på linjen for bruger 1, sendes notifikationen for godkendelsesanmodningen til bruger 2. Du kan finde flere oplysninger i [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  
 * Notifikationsplaner
 
     Du kan konfigurere, hvornår og hvordan brugere får arbejdsgangsnotifikationer, ved at udfylde siden **Notifikationsplan** for hver bruger i arbejdsgangen. Du kan finde flere oplysninger i [Angive, hvornår og hvordan notifikationer modtages](across-how-to-specify-when-and-how-to-receive-notifications.md).  
 * Tilpas e-mailnotifikationer
 
-    Hvis du vil, kan du tilpasse indholdet af e-mailmeddelelserne ved at tilpasse rapport 1320, Notifikationsmail. Du kan finde flere oplysninger i [Oprette og ændre et brugerdefineret rapportlayouts](ui-how-create-custom-report-layout.md).  
+    Hvis du vil, kan du tilpasse indholdet af e-mailmeddelelserne ved at tilpasse Rapport 1320, Notifikationsmail. Du kan finde flere oplysninger i [Oprette og ændre et brugerdefineret rapportlayouts](ui-how-create-custom-report-layout.md).  
 
     > [!NOTE]
     > Hvis du vil bruge e-mail som beskedmetode, skal du konfigurere e-mail til både afsender og modtager i [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Konfigurere e-mail](admin-how-setup-email.md).
 
 * Svarmuligheder
 
-    Du konfigurerer det specifikke indhold og de specifikke regler for en arbejdsgangsnotifikation, når du opretter den pågældende arbejdsgang. Det gør du ved at vælge indstillinger på siden **Indstillinger for workflowrespons** for det arbejdsgangssvar, der repræsenterer notifikationen. Du kan finde flere oplysninger i trin 9 i [Oprette arbejdsgange](across-how-to-create-workflows.md).  
+    Du konfigurerer det specifikke indhold og de specifikke regler for en arbejdsgangsnotifikation, når du opretter den pågældende arbejdsgang. Vælg tilpasningsindstillinger på siden **Workflowsvar** for det workflowsvar, der repræsenterer notifikationen. Du kan finde flere oplysninger i trin 9 i [Oprette workflows](across-how-to-create-workflows.md#to-create-a-workflow).  
 
 * Giv afsender besked
 
-    I forbindelse med godkendelsesarbejdsprocesser skal du tilføje et trin i arbejdsgangs svaret for at give afsenderen besked, når anmodningen er godkendt eller afvist. Du kan finde flere oplysninger i trin 9 i [Oprette arbejdsgange](across-how-to-create-workflows.md).  
+    I forbindelse med godkendelsesarbejdsprocesser skal du tilføje et trin i arbejdsgangs svaret for at give afsenderen besked, når anmodningen er godkendt eller afvist. Du kan finde flere oplysninger i trin 9 i [Oprette workflows](across-how-to-create-workflows.md#to-create-a-workflow).  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/create-workflows/)
 
 ## <a name="see-also"></a>Se også
 
