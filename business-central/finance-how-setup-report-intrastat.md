@@ -26,7 +26,7 @@ Alle virksomheder i EU skal rapportere deres handel med andre EU-lande/områder.
 > [!IMPORTANT]  
 > Debitorkort og kreditorkort indeholder et felt, **Intrastat-partnertype**, der har de samme indstillingsværdier som feltet **partnertype**-felt: *"" (tom)*, *firma* og *person*. Feltet **Intrastat-partnertype** har erstattet feltet **Partnertype** i Intrastat-rapportering. **Partnertype** bruges i SEPA til at definere TheSEPA Direct debet-skema (Core eller B2B). **Intrastat-partnertypen** bruges kun til Intrastat-rapportering. På den måde kan du give forskellige værdier til de to felter, hvis det er nødvendigt.
 > 
-> Bemærk dog, at hvis feltet **Intrastat-Partnertype** ikke er tomt, bruges værdien fra feltet **partnertype** til Intrastat-rapportering.
+> Bemærk dog, at hvis feltet **Intrastat-Partnertype** er tomt, bruges værdien fra feltet **partnertype** til Intrastat-rapportering.
 
 Før du kan bruge Intrastatkladden til at rapportere Intrastatoplysninger, er der flere ting, du skal konfigurere:  
 
