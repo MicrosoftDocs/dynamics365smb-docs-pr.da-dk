@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831
-ms.date: 05/09/2022
+ms.date: 07/27/2022
 ms.author: edupont
-ms.openlocfilehash: 26dbf7e47c0159429aebd34e9167d9c3e7490ec6
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 2b5bba12afb2fbb05dbfd3240088c2726f5d8337
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729823"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227495"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tildele rettigheder til brugere og grupper
 
@@ -82,6 +82,10 @@ Hvis du hurtigt vil definere en ny brugergruppe, kan du kopiere alle rettighedss
 3. I feltet **Ny brugergruppekode** skal du angive et navn til gruppen og derefter vælge knappen **OK**.
 
 Den nye gruppe tilføjes på siden **Brugergrupper**. Fortsæt for at tilføje brugere. Yderligere oplysninger finder du i afsnittet [Sådan tilføjes brugere til en brugergrupper](#to-add-users-to-a-user-group).  
+
+> [!IMPORTANT]
+> Du får en valideringsfejl, hvis du forsøger at tildele en brugergruppe til brugeren, som henviser til et tilladelsessæt, som er defineret i en ikke-installeret udvidelse. Det skyldes, at app-id'et for filtypenavnet er valideret, hver gang der refereres til den. Hvis du vil tildele den pågældende brugergruppe til en bruger, kan du enten geninstallere udvidelsen, fjerne referencen til den ikke-installerede udvidelse fra tilladelsessættet eller fjerne tilladelsen fra brugergruppen.
+
 
 ### <a name="to-assign-permission-sets-to-user-groups"></a>Sådan tildeles rettighedssæt til brugergrupper
 

@@ -906,7 +906,7 @@
 ##### [Konfigurere eksport af data til digital revision](LocalFunctionality/Germany/how-to-set-up-data-exports-for-digital-audits.md)
 ##### [Eksportere data til en digital revision](LocalFunctionality/Germany/how-to-export-data-for-a-digital-audit.md)
 ##### [GDPDU-filtereksempler](LocalFunctionality/Germany/gdpdu-filter-examples.md)
-##### [Opgradere en. DTD-definitionsfil](LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file.md)
+##### [Opgradere en .DTD-definitionsfil](LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file.md)
 ##### [Gennemgang: Eksportere data til en digital revision](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)
 #### Indkøb
 ##### [Konfigurere leveringsrykkere](LocalFunctionality/Germany/how-to-set-up-delivery-reminders.md)
@@ -1308,6 +1308,7 @@
 ##### [Rapport 349](LocalFunctionality/Spain/report-349.md)  
 ##### [Oprette rapport 349](LocalFunctionality/Spain/how-to-create-report-349.md)  
 ##### [Oprette 340-rapporter til mindre virksomheder](LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses.md)
+##### [Konfigurere SII til momsregistrering](LocalFunctionality/Spain/sii-setup.md)
 ##### [Oprette skabeloner til telematiske momsangivelser i tekstfilformat](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)
 ##### [Oprette skabeloner til telematiske momsangivelser i XML-filformat](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)
 ##### [Eksportere momsangivelser i XML-format](LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format.md)  
@@ -1328,7 +1329,6 @@
 ##### [Debitor - Cartera-modul](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Betalinger - Cartera-modul](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - faktura og kreditnotatyper i salgs- og købsdokumenter](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
-##### [Konfigurere SII til momsregistrering](LocalFunctionality/Spain/sii-setup.md)
 #### Grundlæggende Finans
 ##### [Oprette og lukke resultatopgørelsessaldi](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Indrykke og validere kontoplaner](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)

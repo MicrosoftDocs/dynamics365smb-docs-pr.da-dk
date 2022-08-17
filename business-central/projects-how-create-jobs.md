@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
-ms.date: 04/01/2021
+ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 667cc445ed48bc7cf7d9af67567138a35a730934
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 8d70c11aa3d467ada4f7aae3a1cf3efa1603bbe4
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074688"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227468"
 ---
 # <a name="create-jobs"></a>Oprette sager
 
@@ -43,7 +43,15 @@ Du kan oprette et sagskort og derefter oprette sagsopgavelinjer og sagsplanlægn
 3. For at angive sagen med oplysninger om andre sager skal du vælge handlingen **Kopier sag**, udfylde felterne efter behov, og derefter vælge knappen **OK**.
 
 > [!NOTE]  
->   Hvis du bruger timesedler i din sag, skal du også tildele en ansvarlig person. Denne person kan godkende timesedler for medarbejderopgaver, der er knyttet til sagen. Der er flere oplysninger i [Konfigurere timesedler](projects-how-setup-time-sheets.md).
+> Hvis du bruger timesedler i din sag, skal du også tildele en ansvarlig person. Denne person kan godkende timesedler for medarbejderopgaver, der er knyttet til sagen. Der er flere oplysninger i [Konfigurere timesedler](projects-how-setup-time-sheets.md).
+
+Du kan også vælge at markere handlinger på projekt som blokeret vha. feltet **spærret**. følgende tabel beskrives effekten af indstillingerne for dette felt.
+
+|Indstilling  |Beskrivelse  |
+|---------|---------|
+|Tom |Alle handlingerne er tilladt.|
+|Bogfører    |Du kan arbejde med planlægningslinjer, men sagen kan ikke bogføres. Hvis du vælger denne indstilling, kan du ikke bogføre forbrug eller salg for sagen.|
+|Alle  |Alle handlingerne er blokeret.|
 
 ## <a name="to-create-tasks-for-a-job"></a>Sådan oprettes opgaver for en sag
 
