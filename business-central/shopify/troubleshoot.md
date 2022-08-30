@@ -1,18 +1,18 @@
 ---
 title: Fejlfinding af Shopify og Business Central-synkronisering
 description: Få mere at vide om, hvad du skal gøre, hvis noget er galt under synkronisering af data mellem Shopify Business Central
-ms.date: 05/16/2022
+ms.date: 08/19/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: bebdf73fd1b01a3c750a3d91496a8f5bb87f8db4
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 4ccbe8ac97eba568ff82d965f24b86ab58c95f81
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129636"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317241"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Fejlfinding af Shopify og Business Central-synkronisering
 
@@ -86,6 +86,16 @@ Følgende procedurer beskriver, hvordan du kan rotere det adgangstoken, der brug
 2. Marker den butik, for hvilken du vil have adgangstoken til at åbne siden **Shopify-butikskort**.
 3. Vælg handlingen **Anmod om adgang**.
 4. Hvis du bliver bedt om det, skal du logge ind på din Shopify-konto, gennemse personlige oplysninger og tilladelser og derefter vælge knappen **Installer app**.
+
+## <a name="known-issues"></a>Kendte problemer
+
+### <a name="gen-bus-posting-group-must-have-a-value-in-customer-it-cannot-be-zero-or-empty"></a>Finans- Virksomhed. Bogføringsgruppen skal have en værdi i Debitor. Den må ikke være nul eller tom.
+
+Udfyld feltet **Debitorskabelonkode** i vinduet **Shopify-butikskort** med den skabelon, som har udfyldt **Virksomhedsbogføringsgruppe**. Debitorskabelon bruges ikke kun til oprettelse af debitorer, men også til beregning af salgspris og ved oprettelse af salgsdokumenter.
+
+### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>Import af data til din Shopify-butik er ikke aktiveret. Gå til butikskortet for at aktivere det.
+
+I vinduet **Shopify-butikskort** skal du slå **Tillad datasynkronisering med Shopify** til.  Denne til/fra-funktion er beregnet til at beskytte onlinebutikken mod at hente demonstrationsdata fra [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## <a name="see-also"></a>Se også
 

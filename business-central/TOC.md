@@ -665,6 +665,7 @@
 ### [Synkroniser elementer med Shopify](shopify/synchronize-items.md)
 ### [Synkronisere debitorer med Shopify](shopify/synchronize-customers.md)
 ### [Synkronisere og opfylde salgsordrer med Shopify](shopify/synchronize-orders.md)
+### [Konfigurere moms for Shopify-forbindelsen](shopify/setup-taxes.md)
 ### [Kør opgaver i baggrunden](shopify/background.md)
 ### [Fejlfinde Shopify connector](shopify/troubleshoot.md)
 ### [Ofte stilede spørgsmål til Shopify connector](shopify/shopify-faq.md)

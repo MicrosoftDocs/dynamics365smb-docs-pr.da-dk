@@ -3,18 +3,19 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2022
 ms.author: edupont
-ms.openlocfilehash: 646bc51e0b7b6aa6dbce22dcbcdcd9d8688f433d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 74cf1897792ab15c9c74ff76e3674ca31fe599f1
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514331"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317368"
 ---
-[!INCLUDE[prod_short](prod_short.md)]-brugere understøtter undertiden mere end én afdeling eller underorganisation i en koncernvirksomhed. F.eks. kan en virksomhed have salgskontorer i flere og lande, så den har oprettet en separat afdeling for hvert kontor. De kontorer, der befinder sig i samme land, oprettes som separate *virksomheder* i et delt *miljø*. Andre kontorer oprettes som virksomheder i separate miljøer, fordi de er geografisk baseret i andre lande.  
+[!INCLUDE[prod_short](prod_short.md)]-brugere understøtter undertiden mere end én afdeling eller underorganisation i en koncernvirksomhed. F.eks. kan en virksomhed have salgskontorer i flere og lande, så den har oprettet en separat afdeling for hvert kontor. De kontorer, der befinder sig i samme land, oprettes som separate *virksomheder* i et delt *miljø*. Andre kontorer oprettes som virksomheder i separate miljøer, fordi de er geografisk baseret i andre lande.
 
-* Hvad er en virksomhed?  
+- Hvad er en virksomhed?
 
-  En *virksomhed* skal opfattes som en beholder, der indeholder oplysninger om en juridisk enhed. Hvis du bruger eksemplet ovenfor, har firmaet et salgskontor i Seattle og et andet i New York, så det opretter en virksomhed i [!INCLUDE[prod_short](prod_short.md)] for hvert kontor, så det kan håndtere operationer for hvert kontor separat.  
-* Hvad er et miljø?  
+  En *virksomhed* skal opfattes som en beholder, der indeholder oplysninger om en juridisk enhed. Hvis du bruger eksemplet ovenfor, har firmaet et salgskontor i Seattle og et andet i New York, så det opretter en virksomhed i [!INCLUDE[prod_short](prod_short.md)] for hvert kontor, så det kan håndtere operationer for hvert kontor separat.
 
-  Virksomheder i [!INCLUDE[prod_short](prod_short.md)] online findes i det, der kaldes *miljøer*. Der findes to typer miljøer, **Produktion** og **Sandkasse**. Kort sagt indeholder produktionsmiljøer live forretningsdata, og sandkassemiljøer bruges som et sikkert sted til at afprøve ting som nye forretningsprocesser eller -funktioner. Du kan finde flere oplysninger i [Typer af miljøer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments) (kun på engelsk). Hvis du har adgang til en virksomhed, har du adgang til det miljø, hvor den er installeret. Hvis du har adgang til mere end én virksomhed, og disse virksomheder er i forskellige miljøer, skal du angive det miljø, du vil arbejde i, når du logger på [!INCLUDE[prod_short](prod_short.md)]. Miljøer er specifikke for et bestemt land, så hvis din organisation arbejder i flere lande, skal du bruge separate miljøer for hvert land. Du kan finde flere oplysninger i [Miljøer og virksomheder](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology#environments-and-companies) (kun på engelsk).  
+- Hvad er et miljø?
+
+  Virksomheder i [!INCLUDE[prod_short](prod_short.md)] online findes i det, der kaldes *miljøer*. Der findes to typer miljøer, **Produktion** og **Sandkasse**. Kort sagt indeholder produktionsmiljøer live forretningsdata, og sandkassemiljøer bruges som et sikkert sted til at afprøve ting som nye forretningsprocesser eller -funktioner. Du kan finde flere oplysninger i [Typer af miljøer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#types-of-environments) (kun på engelsk). Hvis du har adgang til en virksomhed, har du adgang til det miljø, hvor den er installeret. Hvis du har adgang til mere end én virksomhed, og disse virksomheder er i forskellige miljøer, skal du angive det miljø, du vil arbejde i, når du logger på [!INCLUDE[prod_short](prod_short.md)]. Miljøer er specifikke for et bestemt land, så hvis din organisation arbejder i flere lande, skal du bruge separate miljøer for hvert land. Du kan finde flere oplysninger i [Miljøer og virksomheder](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology#environments-and-companies) (kun på engelsk).

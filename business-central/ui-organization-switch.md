@@ -7,23 +7,25 @@ ms.search.keywords: environments, companies, tenants, organization
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7a874890fe88b32668b309edb43563f8d11e7555
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 0f8c8bf1f9f9c56f1790bf8fd6727eab6977ad3c
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655380"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317350"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Skifte til et andet firma eller miljø
 
 [!INCLUDE [prod_short](includes/prod_short.md)] er tilgængelig i mange forskellige lande og understøtter mange forskellige organisationstyper. Din organisation kan være sat op [!INCLUDE [prod_short](includes/prod_short.md)], så du er nødt til at forstå vilkår for *virksomhed* og *miljø*.  
 
-[!INCLUDE [company_environment](includes/company_environment.md)] Du kan finde flere oplysninger om under [Oprettelse af nye virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
+[!INCLUDE [company_environment](includes/company_environment.md)]
+
+Du kan finde flere oplysninger om oprettelse af pluk under [Oprettelse af nye virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
 > Hvis du ofte skifter mellem firmaer eller arbejder med [!INCLUDE[prod_short](includes/prod_short.md)] fra en anden app Microsoft Teams, kan det være nemt at miste numre på det sted, hvor du er. For at hjælpe dig med at holde styr på det kan du tilføje et kort, der viser navnet på virksomheden, så du hurtigt kan se, at du er på det rigtige sted. Du kan finde flere oplysninger i [Sådan får du vist en virksomheds kort, så du hurtigt kan få adgang til virksomhedsoplysninger](ui-change-basic-settings.md#badge).
 
-Afhængigt af browseren kan du også fastgøre de forskellige regnskaber til din yndlingslinje.  
+Afhængigt af browseren kan du også fastgøre de forskellige regnskaber til din Foretrukne-linje.  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -32,8 +34,11 @@ Afhængigt af browseren kan du også fastgøre de forskellige regnskaber til din
 Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], er de miljøer, du har adgang til, tilgængelige på Office.com.  
 
 1. Vælg ikonet **App-starter** til ![App-starter.](media/app-launcher-icon.png "Appstarteren giver adgang til flere funktioner").
-2. Hvis du ikke kan se en app til [!INCLUDE[prod_short](includes/prod_short.md)] i den rude, der åbnes, skal du vælge **Office 365**. Skriv derefter **Business central** i feltet **Søg**, eller Vælg **Alle apps** > **Forretnings-apps**.  
-3. Der vil være én [!INCLUDE[prod_short](includes/prod_short.md)]-app angivet for hver miljø type, f. eks. produktion og sandkassetilstand. Hvis du vil skifte til et andet miljø, skal du vælge [!INCLUDE[prod_short](includes/prod_short.md)]-appen for den type miljø, den er. Hvis du har mere end ét miljø af en bestemt type, kan du vælge, hvilket miljø du vil have adgang til, når du vælger feltet.
+2. I den rude, der vises, skal du søge efter og vælge [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du ikke kan se [!INCLUDE[prod_short](includes/prod_short.md)], skal du vælge **Alle apps** og derefter angive **Business Central** i feltet **Søg**.
+
+   :::image type="content" source="media/app-launcher-bc-tile.png" alt-text="Microsoft 365-appstarteren viser feltet Business Central.":::  
+
+3. Hvis der er mere end ét miljø, bliver du bedt om at vælge, hvilket miljø du vil have adgang til.
 
 <!--
 The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.

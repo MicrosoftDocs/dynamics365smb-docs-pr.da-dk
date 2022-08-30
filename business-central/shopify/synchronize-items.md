@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: ad69d58a84926041df1125809f748b9129cc64e2
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: c7aea0d0b3d9a8902e704a2d390d6a244e8cbbef
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808955"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317295"
 ---
 # <a name="synchronize-items-and-inventory"></a>Synkronisere varer og lager
 
@@ -89,6 +89,8 @@ Du kan bruge følgende indstillinger til at administrere processen med at ekspor
 |**Lager sporet**|Vælg, hvordan systemet skal udfylde feltet **Spor lager** for de produkter, der eksporteres til Shopify. Du kan opdatere toilgængelighedsoplysninger fra [!INCLUDE[prod_short](../includes/prod_short.md)] for produkter i Shopify, hvor spor lager er aktiveret. Der er flere oplysninger i [Lager](synchronize-items.md#sync-inventory-to-shopify).|
 |**Standardlagerpolitik**|Vælg *Afvis* for at forhindre negativ beholdning af Shopify-siden. |
 |**Kan opdatere Shopify Produkter**|Definer, om [!INCLUDE[prod_short](../includes/prod_short.md)] kun kan oprette varer, eller om der også kan opdateres varer. Vælg denne indstilling, hvis du vil opdatere produkterne manuelt ved hjælp af handlingen **Synkroniser produkt** eller vis jobkø for tilbagevendende opdateringer, når den første synkronisering blev udløst med handlingen **Tilføj vare**. Husk at vælge **Til Shopify** i feltet **Varesynkronisering**.|
+|**Debitorskabelonkode**|Vælg den standardskabelon, der skal bruges ved prisberegningen. Der er flere oplysninger i [Konfigurere moms](setup-taxes.md).|
+
 
 ### <a name="fields-mapping-overview"></a>Oversigt over felttilknytning
 
@@ -100,7 +102,7 @@ Du kan bruge følgende indstillinger til at administrere processen med at ekspor
 |SEO-sidetitel|Ret værdi: tom, se [Ad-Hoc-opdateringer af Shopify-produkter](synchronize-items.md#ad-hock-updates-of-shopify-products). |Bruges ikke.|
 |SEO-metabeskrivelse|Ret værdi: tom, se [Ad-Hoc-opdateringer af Shopify-produkter](synchronize-items.md#ad-hock-updates-of-shopify-products). |Bruges ikke.|
 |Medier|**Billede**, se [synkronisere element billeder](synchronize-items.md#sync-item-images), hvor der er flere oplysningner|**Billede**|
-|Pris|Beregningen af slutkundepris beregnes med hensyn til vareprisgruppe, varerabatgruppe, valutakode og debitorskabelonkode. |Bruges ikke.|
+|Pris|Beregningen af slutkundepris beregnes med hensyn til vareprisgruppe, varerabatgruppe, valutakode og debitorskabelonkode. |**Enhedspris**|
 |Sammenlign med pris|Beregningen af pris uden rabat omfatter vareprisgruppe, varerabatgruppe, valutakode og debitorskabelonkode. |Bruges ikke.|
 |Sager pr. vare|**Kostpris**|**Kostpris**|
 |Varenummer|Se **Lagervaretilknytning** i [Eksport varer for at Shopify](synchronize-items.md#export-items-to-shopify)| Se [Sådan defineres SKU og Stregkode, der er defineret i Shopify-produkt, der påvirker tilknytning og oprettelse af varer og varianter](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
@@ -111,7 +113,7 @@ Du kan bruge følgende indstillinger til at administrere processen med at ekspor
 |Leverandør (Kreditor)|**Navn** på kreditor fra **Leverandørnr.** |**Leverandørnr.** Tilknytning efter navn.|
 |Vægt|**Bruttovægt**.|Bruges ikke.|
 |Skattepligtig|Fast værdi: Aktiveret.|Bruges ikke.|
-|Momskoder|**Momsgruppekode**. Kun relevant i forbindelse med moms. Der er flere oplysninger i [moms](synchronize-orders.md#tax-remarks). |Bruges ikke.|
+|Momskoder|**Momsgruppekode**. Kun relevant i forbindelse med moms. Der er flere oplysninger i [Konfigurere moms](setup-taxes.md). |Bruges ikke.|
 
 ### <a name="tags"></a>Koder
 
@@ -197,7 +199,7 @@ Der kan udlæses priser for synkroniserede varer på den måde, der er beskrevet
 
 ### <a name="price-calculation-remarks"></a>Bemærkninger til prisberegning
 
-* Ved prisberegning er det vigtigt, at der er en værdi i feltet **Standarddebitorskabelon**. [!INCLUDE[prod_short](../includes/prod_short.md)] bruger værdien i feltet **momsvirksomhedsgruppe** til at beregne prisen inkl. moms. Du kan oprette en debitorprisgruppe, hvor du vælger feltet **Salgspris inkl. moms** og angiver den relevante værdi i feltet **moms-finanspost gr. (salgspris)**.
+* Ved prisberegning er det vigtigt, at der er en værdi i feltet **Standarddebitorskabelon**. Der er flere oplysninger i [Konfigurere moms](setup-taxes.md).
 * Angiv en **Valutakode**, hvis din online-butik bruger en anden valuta end den relevante regnskabsvaluta. Der skal være konfigureret valutakurser for den angivne valuta. Hvis dit onlineindkøb bruger samme valuta som [!INCLUDE[prod_short](../includes/prod_short.md)], skal du lade feltet stå tomt.
 * Når du fastlægger en pris, [!INCLUDE[prod_short](../includes/prod_short.md)] bruges logikken "laveste kurs". Det betyder, at hvis den enhedspris, der er defineret på varekortet, er lavere end det, der er defineret i prisgruppen, bruges salgsprisen fra varekortet.
 

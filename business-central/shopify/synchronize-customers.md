@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: c5a77e5258f4d70a35a1751ff01dc210210b3a6e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0c1402c4f41f108b504ad31829ede5a1095b6ce4
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077784"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317322"
 ---
 # <a name="synchronize-customers"></a>Synkronisere debitorer
 
@@ -47,7 +47,7 @@ Du kan enten masseimportere debitorer fra Shopify eller sammen med importen af o
 |**Type af debitortilknytning**|Definer, hvordan connectoren tilknytningen skal udføre tilknytningen.<br>- **Via mail/telefon**, hvis du ønsker, at forbindelsen skal knyttes fra den importerede Shopify Debitor til en eksisterende kunde i [!INCLUDE[prod_short](../includes/prod_short.md)] via e-mail og Phone.</br>- **Ved Bill-To oplysninger**, hvis du vil knytte den importerede Shopify Kunde til en eksisterende debitor i [!INCLUDE[prod_short](../includes/prod_short.md)] ved hjælp af adresseoplysninger for den part, som modtager fakturaen.</br>Vælg **Brug altid standard debitor**, hvis systemet skal bruge en debitor fra feltet **Debitornr.** . |
 |**Shopify kan opdatere debitorer**| Marker dette felt, hvis du vil have connectoren til at opdatere kunder, der er fundet, når indstillingerne **pr. e-mail/telefon** eller **pr. faktureringsoplysninger** er valgt i feltet **Debitortilknytningstype**.|
 |**Opret automatisk ukendte debitorer**| Marker dette felt, hvis du vil have connectoren til at oprette manglende kunder, når indstillingerne **pr. e-mail/telefon** eller **pr. faktureringsoplysninger** er valgt i feltet **Debitortilknytningstype**. Der oprettes en ny kunde ved hjælp af de importerede data og **kundeskabelonkoden**, der er defineret på siden med **Shopify butikskort** eller **Shopify debitorskabeloner**. Bemærk, at Shopify-debitor skal have mindst én adresse. Hvis denne indstilling ikke er aktiveret, skal du oprette debitoren manuelt og knytte den til Shopify-kunden. Du kan altid oprette en kunde manuelt fra siden **Shopify Ordrer**.|
-|**Debitorskabelonkode**|Bruges sammen med **automatisk oprettelse af ukendte kunder**.<br> Vælg den standardskabelon, der skal bruges til automatisk oprettede debitorer. Kontroller, at den valgte skabelon indeholder de obligatoriske felter, f. eks. **Virksomhedsbogføringsgruppe**, **Debitorbogføringsgruppe**, moms eller skatterelaterede felter.<br> Du kan definere skabeloner pr. land/område på siden **Shopify debitorskabeloner**, som er nyttige i forbindelse med beregning af den relevante afgift. Du kan finde flere oplysninger i [Momskommentarer](synchronize-orders.md#tax-remarks).|
+|**Debitorskabelonkode**|Bruges sammen med **automatisk oprettelse af ukendte kunder**.<br> Vælg den standardskabelon, der skal bruges til automatisk oprettede debitorer. Kontroller, at den valgte skabelon indeholder de obligatoriske felter, f. eks. **Virksomhedsbogføringsgruppe**, **Debitorbogføringsgruppe**, moms eller skatterelaterede felter.<br> Du kan definere skabeloner pr. land/område på siden **Shopify debitorskabeloner**, som er nyttige i forbindelse med beregning af den relevante afgift. <br>Du kan finde flere oplysninger i [Skatteopsætning](setup-taxes.md).|
 
 ### <a name="customer-template-per-country"></a>Debitorskabelon pr. land
 
@@ -57,7 +57,8 @@ Med **Shopify kundeskabelonen** kan du gøre følgende for hvert land:
 
 1. Angiv **Standardkundenr.**, som har højere prioritet end det, du har valgt i felterne **Debitorimport fra Shopify** og **Debitortilknytningstype**. Den bruges i den importerede salgsordre.
 2. Definer den **debitorskabelonkode**, der bruges til at oprette manglende kunder, hvis **Automatisk oprettelse af ukendte debitorer** er aktiveret. Hvis **debitorskabelonkode** er tom, bruger funktionen den **debitorskabelonkode**, der er defineret på **Shopify butikskortet**.
-3. I nogle tilfælde er **Kundeskabelonkode** defineret for land ikke nok til at sikre, at skat beregnes direkte. F. eks. for lande med moms. I dette tilfælde kan **skatteområderne** være nyttige.
+3. Angiv, om priser er inkl. moms for importerede ordrer.
+4. I nogle tilfælde er **Kundeskabelonkode** defineret for land ikke nok til at sikre, at skat beregnes direkte. F. eks. for lande med moms. I dette tilfælde kan **skatteområderne** være nyttige.
 
 > [!NOTE]  
 > Landekoderne er ISO 3166-1 Alfa-2-landekoder. Du kan finde flere oplysninger på [Landekode](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -68,7 +69,7 @@ Eksisterende kunder kan masseeksporteres til Shopify. Det betyder, at der oprett
 
 |Felt|Beskrivelse|
 |------|-----------|
-|**Eksportér debitorer til Shopify**|Vælg, hvis du planlægger at masseeksportere alle debitorer med en gyldig e-mailadresse fra [!INCLUDE[prod_short](../includes/prod_short.md)] til Shopify ved hjælp af **Synkroniser debitorer** eller via en jobkø til tilbagevendende opdateringer.|
+|**Eksportér debitorer til Shopify**|Vælg, hvis du planlægger at masseeksportere alle debitorer med en gyldig e-mailadresse fra [!INCLUDE[prod_short](../includes/prod_short.md)] til Shopify ved hjælp af **Synkroniser debitorer** eller via en jobkø til tilbagevendende opdateringer.<br> Når du eksporterer kunder med provinser/stater, skal du sørge for, at **ISO-kode** er angivet for lande/områder.|
 |**Kan opdatere Shopify debitorer**|Bruges sammen med indstillingen **Eksporter debitorer til Shopify**. Aktiver den, hvis du vil oprette opdateringer senere fra [!INCLUDE[prod_short](../includes/prod_short.md)] til debitorer, der allerede findes i Shopify.|
 
 > [!NOTE]  
