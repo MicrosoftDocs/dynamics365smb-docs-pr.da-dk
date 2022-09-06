@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
+ms.search.form: 1439,
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3980b900a1fe261ae45c2eb1dc6e5395a01cb02d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: f703448f15c7284f51a2876ccd2b83b9a2351b9d
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384016"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361740"
 ---
 # <a name="the-essential-business-insights-extension"></a>Udvidelsen Vigtig forretningsindsigt
+
 Udvidelsen Vigtig forretningsindsigt finder interessante forretningsmæssige oplysninger i dine virksomhedsdata og vises som avislignende overskrifter i rollecentre. Afhængigt af hvad udvidelsen finder i dataene, er indsigt fra sidste uge, måned eller tre måneder fra dags dato. Indsigten opdateres hvert 10. minut.  
 
 Hvis du vil se nærmere på en indsigt, kan du vælge den for at gå til kilden. Hvis du f.eks. vil have oplysninger om den største salgsfaktura, der blev bogført sidste uge, kan du vælge at indsigten skal vise fakturaen.
@@ -36,7 +38,7 @@ I følgende tabel beskrives den indsigt, som udvidelsen sender til hvert rollece
 |Administrator| Viser en hilsen og et link til produktoplysninger.|
 
 ## <a name="see-also"></a>Se også
-[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)
 
+[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

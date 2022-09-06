@@ -1,6 +1,6 @@
 ---
 title: Sådan reserveres varer
-description: Du kan reservere varer til salgsordrer, købsordrer og produktionsordrer. Du kan reservere lagervarer eller indgående varer på åbne dokumentlinjer.
+description: Du kan reservere varer til salgsordrer, købsordrer og produktionsordrer. Du kan reservere varer i lagerbeholdning eller indgående varer på åbne dokumentlinjer.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -8,28 +8,30 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.search.forms: 498, 497
-ms.date: 04/01/2021
+ms.date: 08/11/2022
 ms.author: edupont
-ms.openlocfilehash: 92ebe1881a143986ef4775e269211f0fb7279f3f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: d727242c772d1eba2959747c2fcd151a7a330009
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079580"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361659"
 ---
 # <a name="reserve-items"></a>Reservere varer
 
-Du kan reservere varer til salgsordrer, købsordrer, serviceordrer, montageordrer og produktionsordrer. Du kan reservere lagervarer eller indgående varer på åbne dokumentlinjer eller kladdelinjer. Du kan udføre arbejdet på siden **Reservation**.
+Du kan reservere varer til salgsordrer, købsordrer, serviceordrer, montageordrer, overførselsordrer og produktionsordrer. Du kan også reservere varer i lagerbeholdning eller indgående varer på åbne dokumentlinjer eller kladdelinjer. Det kan du gøre på siden **Reservation**.
 
 Hver linje på siden **Reservation**, som du åbner for at reservere varer, indeholder oplysninger om én type linje (salg, køb, kladde) eller lagerpost. Linjerne beskriver, hvor mange varer, der er tilgængelige for reservation fra hver linje eller post.
 
-## <a name="to-reserve-items-for-sales"></a>Sådan reserveres varer til salg
+## <a name="reserve-items-for-sales"></a>Reservere varer til salg
 
-Nedenfor kan du se, hvordan du reserverer varer fra en salgsordre. Trinene er de samme for købs-, service- og montageordrer.  
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
-2.  I oversigtspanelet **Linjer** på en salgsordre skal du vælge handlingen **Reserver**. Siden **Reservation** åbnes.  
-3. Vælg den linje, du vil reservere varerne fra.  
-4. Vælg en af følgende handlinger.  
+Nedenfor kan du se, hvordan du reserverer varer fra en salgsordre. Trinene er de samme for købs-, service-, overførsels- og montageordrer.
+  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
+2. Vælg salgsordren.
+3. I oversigtspanelet **Linjer** skal du vælge handlingen **Reserver**. Siden **Reservation** åbnes.  
+4. Vælg den linje, du vil reservere varerne fra.  
+5. Vælg en af følgende handlinger.  
 
     |**Funktion**|**Beskrivelse**|
     |------------------|---------------------|  
@@ -38,59 +40,64 @@ Nedenfor kan du se, hvordan du reserverer varer fra en salgsordre. Trinene er de
     |**Annuller reservation fra aktuel linje**|Hvis du vil annullere reservationen af varerne fra dokumentet på den linje, som du har markeret.|
 
 > [!NOTE]  
->  Hvis der findes varesporingslinjer til salgsordren, skal du følge de specielle trin i reservationssystemet. Du kan finde flere oplysninger i [Sådan reserveres et bestemt serienummer eller lotnummer](inventory-how-to-reserve-items.md#to-reserve-a-specific-serial-or-lot-number).  
+> Hvis der findes varesporingslinjer til salgsordren, skal du følge de specielle trin i reservationssystemet. Du kan finde flere oplysninger i [Sådan reserveres et bestemt serienummer eller lotnummer](inventory-how-to-reserve-items.md#reserve-a-specific-serial-or-lot-number).  
 
-## <a name="to-reserve-an-item-for-a-production-order-line"></a>Sådan reserverer du en vare til en produktionsordrelinje
+## <a name="reserve-an-item-for-a-production-order-line"></a>Reservere en vare til en produktionsordrelinje
 
 Du kan reservere varer til en produktionsordre. Du skal skelne mellem produktionsordrelinjer, dvs. den overordnede vare, og produktionsordrekomponenter.
 
-I proceduren nedenfor anvendes en fastlagt produktionsordre.   
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Fastlagt produktionsordre**, og vælg derefter det relaterede link.  
+I proceduren nedenfor anvendes en fastlagt produktionsordre.
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Fastlagt produktionsordre**, vælg derefter det relaterede link.  
 2. Åbn den fastlagte produktionsordre, du vil reservere overordnede varer for.  
 3. Marker den relevante produktionsordrelinje.  
 4. I oversigtspanelet **Linjer** skal du vælge handlingen **Reserver**.
-5. Vælg linjen **Salgslinje, ordre** på siden **Reservation**, og vælg derefter handlingen **Reserver fra aktuel linje**.  
+5. Vælg linjen **Salgslinje, ordre** på siden **Reservation**, vælg derefter handlingen **Reserver fra aktuel linje**.  
 
 Programmet har nu reserveret den mængde, du har angivet på den firmaplanlagte produktionsordrelinje.
 
-## <a name="to-reserve-items-for-production-order-components"></a>Sådan reserverer du varer til produktionsordrekomponenter
+## <a name="reserve-items-for-production-order-components"></a>Reservere varer til produktionsordrekomponenter
 
 Du kan reservere varer til en produktionsordre. Du skal skelne mellem produktionsordrelinjer, dvs. den overordnede vare, og produktionsordrekomponenter.
 
-I proceduren nedenfor anvendes en fastlagt produktionsordre.    
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Fastlagt produktionsordre**, og vælg derefter det relaterede link.  
+I proceduren nedenfor anvendes en fastlagt produktionsordre.
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Fastlagt produktionsordre**, vælg derefter det relaterede link.  
 2. Åbn den fastlagte produktionsordre, du vil reservere komponentvarer for.  
 3. Marker den relevante produktionsordrelinje.  
-4. I oversigtspanelet **Linjer** skal du vælge **Linje** og derefter vælge **Komponenter**.  
+4. I oversigtspanelet **Linjer** skal du vælge **Linje**, derefter vælge **Komponenter**.  
 5. Marker den relevante komponentlinje.  
 6. I oversigtspanelet **Linjer** skal du vælge handlingen **Reserver**.  
-7. Vælg en linje på siden **Reservation**, og vælg derefter handlingen **Reserver fra aktuel linje**.  
+7. Vælg en linje på siden **Reservation**, vælg derefter handlingen **Reserver fra aktuel linje**.  
 
 Programmet har nu reserveret den mængde, du har angivet på den firmaplanlagte produktionskomponentlinje.
 
-## <a name="to-change-a-reservation"></a>Sådan ændres en reservation
+## <a name="change-a-reservation"></a>Ændre en reservation
 
-Du kan have brug for at ændre eller annullere en varereservation.   
+Du kan have brug for at ændre eller annullere en varereservation.
+
 1. Fra den bilagslinje, du har reserveret fra, skal du i oversigtspanelet **Linjer** vælge handlingen **Reserver**.  
 2. På siden **Reservation** skal du vælge handlingen **Reservationsposter**.
 3. På siden **Reservationsposter** skal du opdatere feltet **Antal** på den linje, du vil ændre.
 4. Bekræft den efterfølgende meddelelse ved at vælge knappen **OK**.
 
-## <a name="to-cancel-a-reservation"></a>Sådan annulleres en reservation
+## <a name="cancel-a-reservation"></a>Annullere en reservation
 
-Du kan have brug for at ændre eller annullere en varereservation.   
+Du kan have brug for at ændre eller annullere en varereservation.
+
 1. Fra den bilagslinje, du vil annullere en reservation fra, skal du i oversigtspanelet **Linjer** vælge handlingen **Reserver**.  
 2. På siden **Reservation** skal du vælge handlingen **Reservationsposter**.  
-3.  På siden **Reservationsposter** skal du vælge handlingen **Annuller reservation**.  
-4.  Bekræft den efterfølgende meddelelse ved at vælge knappen **OK**.  
+3. På siden **Reservationsposter** skal du vælge handlingen **Annuller reservation**.  
+4. Bekræft den efterfølgende meddelelse ved at vælge knappen **Ja**.  
 
-## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Sådan reserveres et bestemt serienummer eller lotnummer
+## <a name="reserve-a-specific-serial-or-lot-number"></a>Reservere et bestemt serienummer eller lotnummer
 
 Fra udgående dokumenter for varer med varesporing, f.eks. salgsordrer eller produktionskomponentlister, kan du reservere bestemte serie- eller lotnumre. Dette kan være relevant, hvis du f.eks. skal bruge produktionskomponenter fra en bestemt lot for at sikre sammenhæng med tidligere produktionskørsler, eller fordi en debitor har anmodet om et bestemt serienummer. Du kan finde flere oplysninger i [Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
 
-Dette kaldes en bestemt reservation, fordi du reserverer fra antallet af varen X, som tilhører partiet X. Hvis du blot reserverer fra mængder af varen X, er det en normal, ikke-specifik reservation. Hvis du ønsker yderligere oplysninger, kan du se [Designoplysninger - Varesporing og reservationer](design-details-item-tracking-and-reservations.md).
+Dette kaldes en bestemt reservation, fordi du reserverer fra antallet af varen X, som tilhører partiet X. Hvis du blot reserverer fra mængder af varen X, er det en normal, ikke-specifik reservation. Flere oplysninger i [Designoplysninger – Varesporing og reservationer](design-details-item-tracking-and-reservations.md).
 
-Følgende procedure er baseret på en salgsordre.    
+Følgende procedure er baseret på en salgsordre.
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2. Opret en salgsordrelinje til en vare med varesporing.  
 3. Tildel serie- og lotnumre til salgsordrelinjen. Du kan finde flere oplysninger i [Arbejde med serie- og lotnumre](inventory-how-work-item-tracking.md).
@@ -106,9 +113,8 @@ Følgende procedure er baseret på en salgsordre.
 
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md)  
-[Designoplysninger - Varesporing og reservationer](design-details-item-tracking-and-reservations.md)  
+[Designoplysninger: Varesporing og reservationer](design-details-item-tracking-and-reservations.md)  
 [Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

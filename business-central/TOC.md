@@ -296,6 +296,7 @@
 #### [Blokere debitorer](receivables-how-block-customers.md)
 #### [Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Udvidelsen Forudsigelse af forsinket betaling](ui-extensions-late-payment-prediction.md)
+#### [Salgsmoms i standardversionen af Business central](sales-tax-concept.md)
 
 ### Administrere skyldige beløb
 #### [Kreditoroversigt](payables-manage-payables.md)

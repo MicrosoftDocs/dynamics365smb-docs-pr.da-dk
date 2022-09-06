@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: 6619789b38cc8dc33e7985f35d77075df4914ad2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 3d7162b3035188539fba92a677659dd7803c340f
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074922"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362017"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbejde med betalingstolerancer og kontantrabattolerancer
 
@@ -30,7 +30,7 @@ Et enkelt dokument har den samme betalingstolerance, hvad enten det bruges indiv
 
 *kontantrabatdato < betalingsdato på den valgte post <= betalingstolerancedato*  
 
-Denne regel gælder også, når det skal afgøres, om der skal vises advarsler, når du anvender betalingstolerance på flere dokumenter. Kontantrabattoleranceadvarslen vises for hver post, der opfylder datokriterierne. Yderligere oplysninger finder du i [Eksempel 2 - Toleranceberegninger for flere bilag](finance-payment-tolerance-and-payment-discount-tolerance.md#example-2---tolerance-calculations-for-multiple-documents).
+Denne regel bestemmer også, om der skal vises advarsler, når du anvender betalingstolerance på flere dokumenter. Kontantrabattoleranceadvarslen vises for hver post, der opfylder datokriterierne. Yderligere oplysninger finder du i [Eksempel 2 - Toleranceberegninger for flere bilag](finance-payment-tolerance-and-payment-discount-tolerance.md#example-2---tolerance-calculations-for-multiple-documents).
 
 Du kan vælge at vise en advarsel, der er baseret på tolerance i forskellige situationer.  
 
@@ -44,7 +44,7 @@ Du kan finde flere oplysninger i [Sådan aktiveres eller deaktiveres betalingsto
 
 ## <a name="to-set-up-tolerances"></a>Sådan opsættes tolerancer
 
-Tolerancer på dato eller beløb giver dig mulighed for at afslutte en faktura, også selvom den ikke dækker fakturabeløbet fuldt ud, uanset om det skyldes, at forfaldsdatoen for betalingsrabatten er overskredet, om der er fratrukket varer, eller om der er tale om en mindre fejl. Det samme gælder for refusioner og kreditnotaer.  
+Tolerancer på dato eller beløb giver dig mulighed for at afslutte en faktura, også selvom den ikke dækker fakturabeløbet fuldt ud. F. eks. fordi forfaldsdatoen for kontantrabatten er overskredet, er varerne fratrukket eller pga. en mindre fejl. Det samme gælder for refusioner og kreditnotaer.  
 
 Hvis du skal opsætte tolerancer, skal du oprette forskellige tolerancekonti. Du skal både angive en metode til bogføring af kontantrabattolerance og en metode til bogføring af betalingstolerance og derefter afvikle kørslen **Skift betalingstolerance**.  
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogføringsopsætning**, og vælg derefter det relaterede link.  
@@ -57,17 +57,21 @@ Hvis du skal opsætte tolerancer, skal du oprette forskellige tolerancekonti. Du
 8. Åbn siden **Regnskabsopsætning**.  
 9. På oversigtspanelet **Udligning** skal du udfylde felterne **Bogføring af kont.rabattolerance**, **Kontantrabat - respitperiode** og **Bogføring af betalingstolerance**.   
 10. Vælg handlingen **Skift betalingstolerance**.
+
+    > [!NOTE]
+    > Hvis du vælger **saldo** i feltet **Udligningsmetode** på en **debitorkort**-side, bogføres [!INCLUDE[prod_short](includes/prod_short.md)] der ikke automatisk betalingstolerancer, selvom de er inden for de tærskler, der er angivet på siden **Regnskabsopsætning**. [!INCLUDE[prod_short](includes/prod_short.md)] forudsætter, at indstillingen Udlign med ældste angiver, at debitoren (eller som debitor hos din kreditor) har en konto hos dig, hvor de jævnligt betaler saldoen. Derfor må restbeløb ikke fjernes ved bogføring af en betalingstolerance post.
+
 11. På siden **Skift betalingstolerance** skal du udfylde felterne **Betalingstolerancepct.** og **Maks. betalingstolerancebeløb** og derefter vælge knappen **OK**.
 
 > [!IMPORTANT]  
->  Du har nu kun opsat tolerancer for lokal valuta. Hvis [!INCLUDE[prod_short](includes/prod_short.md)] skal håndtere betalingstolerancer, kreditnotaer og refusioner i fremmed valuta, skal du udføre kørslen **Skift betalingstolerance** med en værdi i feltet **Valutakode**.  
+> Du har nu kun opsat tolerancer for lokal valuta. Hvis [!INCLUDE[prod_short](includes/prod_short.md)] skal håndtere betalingstolerancer, kreditnotaer og refusioner i fremmed valuta, skal du udføre kørslen **Skift betalingstolerance** med en værdi i feltet **Valutakode**.  
 
 > [!NOTE]  
->  Hvis du vil have vist en advarsel om betalingstolerance, hver gang du bogfører en udligning inden for tolerancen, skal du aktivere betalingstoleranceadvarslen. Du kan finde flere oplysninger i afsnittet [Sådan aktiveres eller deaktiveres betalingstoleranceadvarsel](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
+> Du kan få vist en advarsel om betalingstolerance, hver gang du bogfører en udligning inden for tolerancen, skal du aktivere betalingstoleranceadvarslen. Du kan finde flere oplysninger i afsnittet [Sådan aktiveres eller deaktiveres betalingstoleranceadvarsel](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
->  For at deaktivere tolerancer for en debitor eller kreditor skal du spærre tolerancer på de relevante debitor- eller kreditorkort. Du kan finde flere oplysninger i [Sådan spærres betalingstolerancer for debitorer](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
+> For at deaktivere tolerancer for en debitor eller kreditor skal du spærre tolerancer på de relevante debitor- eller kreditorkort. Du kan finde flere oplysninger i [Sådan spærres betalingstolerancer for debitorer](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  Når du opsætter tolerancer, kontrolleres det via [!INCLUDE[prod_short](includes/prod_short.md)], om der er åbne poster, og tolerancen beregnes også for disse poster.
+> Når du opsætter tolerancer, kontrolleres det via [!INCLUDE[prod_short](includes/prod_short.md)], om der er åbne poster, og tolerancen beregnes også for disse poster.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Sådan aktiveres eller deaktiveres betalingstoleranceadvarsler
 
@@ -76,7 +80,7 @@ Advarslen om betalingstolerance vises, når du bogfører en udligning, der har e
 2. På siden **Opsætning af Finans** i oversigtspanelet **Udligning** skal du aktivere skifteknappen **Betalingstolerance - advarsel** for at aktivere advarslen. Hvis du vil deaktivere advarslen, skal du deaktivere skydeknappen.  
 
 > [!NOTE]  
->  Standardindstillingen for siden **Betalingstolerance - advarsel** er **Lad saldoen stå som restbeløb**. Standardindstillingen for siden **Kontantrabattolerance - advarsel** er **Afvis den forsinkede kontantrabat**.
+> Standardindstillingen for siden **Betalingstolerance - advarsel** er **Lad saldoen stå som restbeløb**. Standardindstillingen for siden **Kontantrabattolerance - advarsel** er **Afvis den forsinkede kontantrabat**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Sådan spærres betalingstolerancer for debitorer
 
@@ -86,7 +90,7 @@ Standardindstillingen for betalingstolerancer er tilladt. Hvis du vil afvise bet
 2. På oversigtspanelet **Betalinger** skal du vælge afkrydsningsfeltet **Spær betalingstolerance**.  
 
 > [!NOTE]  
->  Hvis debitoren eller kreditoren har åbne poster, skal du først fjerne betalingstolerancer fra poster, der aktuelt er åbne.
+> Hvis debitoren eller kreditoren har åbne poster, skal du først fjerne betalingstolerancer fra poster, der aktuelt er åbne.
 
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Eksempel 1 – Toleranceberegninger for et enkelt bilag
 

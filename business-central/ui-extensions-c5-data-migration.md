@@ -6,27 +6,29 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: extension, migrate, data, C5, import
+ms.search.keywords: extension, migrate, data, C5, import
+ms.search.form: 1860, 1861, 1862, 1863, 1864, 1867, 1868, 1869, 1874, 1882, 1883, 1884, 1885, 1886, 1888, 1890, 1891, 1892, 1893, 1894, 1898, 1899, 1900, 1901, 1902, 1903, 1904, 1905, 1906
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6f8c90eeb5b99f5591db7847e9d48124c910e328
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 0def51f435cf836d681a56a75f3ac5fece4d87ea
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381110"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361686"
 ---
 # <a name="the-c5-data-migration-extension"></a>Udvidelsen C5-dataoverførsel
 
 Denne udvidelse gør det let at overføre debitorer, kreditorer, varer og finanskonti fra Microsoft Dynamics C5 2012 til [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan også overføre gamle poster for finanskonti.
 
-> [!Note]
+> [!NOTE]
 > Virksomheden i [!INCLUDE[prod_short](includes/prod_short.md)] må ikke indeholde data. Når du starter en overførsel, må du desuden ikke oprette debitorer, kreditorer, varer eller konti, før overflytningen er afsluttet.
 
 ## <a name="what-data-is-migrated"></a>Hvilke data overføres?
+
 Følgende data overføres for hver enhed:
 
-### <a name="customers"></a>Kunder (Debitorer)
+### <a name="customers"></a>Kunder
 
 * Kontakter  
 * Sted
@@ -86,7 +88,7 @@ Hvis du overfører konti, overføres følgende data også:
 * Varekladdenavn
 * Åbne transaktioner (vareposter)
 
-> [!Note]
+> [!NOTE]
 > Hvis der er åbne transaktioner, der bruger udenlandske valutaer, overføres valutakursen også for disse valutaer. Andre valutakurser overflyttes ikke.
 
 ### <a name="chart-of-accounts"></a>Kontoplan
@@ -94,7 +96,7 @@ Hvis du overfører konti, overføres følgende data også:
 * Standarddimensioner: afdeling, omkostningssted og formål  
 * Historiske finanstransaktioner  
 
-> [!Note]
+> [!NOTE]
 > Historisk finanstransaktioner behandles lidt anderledes. Når du overfører data, angiver du en **Nuværende periode**-parameter. Denne parameter angiver, hvordan du skal behandle finanstransaktioner. Transaktioner efter denne dato overføres enkeltvis. Transaktioner inden denne dato lægges sammen pr. konto og overføres som et enkelt beløb. Lad os antage, at der er transaktioner i 2015, 2016, 2017, 2018, og du angiver den 1. januar 2017 i feltet Nuværende periode. For hver konto samles beløb for alle transaktioner på eller før den 31. december 2106 på en enkelt finanskladdelinje for hver finanskonto. Alle transaktioner efter denne dato overføres enkeltvist.
 
 ## <a name="file-size-requirements"></a>Krav til størrelsen af filer
@@ -107,13 +109,13 @@ Der er nogle få trin til at eksportere data fra C5 og indlæse dem i [!INCLUDE[
 
 1. I C5 skal du bruge funktionen **Eksportér databasen** til at eksportere dataene. Send derefter eksportmappen til en komprimeret (zippet) mappe.  
 2. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du vælge ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Dataoverførsel**, og vælg derefter **Dataoverførsel**.  
-3. Udfør trinnene i guiden til assisteret opsætning. Sørg for at vælge **Indlæs fra Microsoft Dynamcis C5 2012** som datakilde.  
+3. Udfør trinnene i guiden til assisteret opsætning. Sørg for at vælge **Indlæs fra Microsoft Dynamics C5 2012** som datakilde.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Få vist status for overførslen
 
 Brug siden **Dataoverførselsoversigt** til at overvåge status for overførslen. Siden viser oplysninger, f.eks. antallet af enheder overførslen skal medtage, status for overførslen, og antallet af elementer, der er blevet overført, og om de var vellykket. Den viser også antallet af fejl, giver dig mulighed for at finde ud af, hvad der gik galt, og gør det, hvis det er muligt, nemt at gå til enheden for at løse problemerne. Du kan finde flere oplysninger i næste afsnit i dette emne.  
 
-> [!Note]
+> [!NOTE]
 > Mens du venter på resultaterne af overførslen, skal du opdatere siden for at få vist resultaterne.
 
 ## <a name="how-to-avoid-double-posting"></a>Sådan undgås dobbeltbogføring
@@ -135,10 +137,10 @@ På siden **Dataoverførselsfejl** kan du for at rette en fejl vælge en fejlmed
 
 Når du retter en eller flere fejl, kan du vælge **Overfør** for kun at overføre de enheder, du rettede, uden at genstarte hele overførslen.  
 
-> [!Tip]
+> [!TIP]
 > Hvis du har rettet mere end én fejl, kan du bruge funktionen **Markér flere** til at markere flere linjer, der skal overføres. Hvis der omvendt er fejl, det ikke er vigtigt at løse, kan du vælge dem og derefter vælge **Spring valg over**.
 
-> [!Note]
+> [!NOTE]
 > Hvis du har varer, der indgår i en stykliste, kan du være nødt til at overføre mere end én gang, hvis den oprindelige vare ikke er oprettet før de varianter, der refererer til den. Hvis en varevariant oprettes først, kan det medføre, at referencen til den oprindelige vare giver en fejlmeddelelse.  
 
 ## <a name="verifying-data-after-migrating"></a>Kontrol af data efter overførsel
@@ -160,6 +162,5 @@ Du kan stoppe overførslen af data ved at vælge **Stop alle overførsler**. Hvi
 
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Blive køreklar](ui-get-ready-business.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

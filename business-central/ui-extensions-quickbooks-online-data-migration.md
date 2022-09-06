@@ -6,15 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: extension, migrate, data, QuickBooks, import
+ms.search.keywords: extension, migrate, data, QuickBooks, import
+ms.search.form: 1830,
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 390d05ad49ef441fa532efb293647271cc2bbd0e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: f2e7c3243a2633534dc36dd37aef5d096a7d1f28
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077420"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361362"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Udvidelsen QuickBooks Online-dataoverførsel
 
@@ -72,6 +73,5 @@ Der er især et par ting, du skal gøre:
 
 [Import af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

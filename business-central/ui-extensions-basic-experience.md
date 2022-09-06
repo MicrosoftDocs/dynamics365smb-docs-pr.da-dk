@@ -7,16 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: C5, financials, extension
+ms.search.form: 20600,
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ddb4468bda648b0368551ecb8cdbc6167cf4778
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 4304a42f865086de3337deb3a49b1f1512e0e201
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381668"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362217"
 ---
 # <a name="the-basic-experience-extension"></a>Basic Experience Extension
+
 Hvis du har brugt Microsoft Dynamics C5, kan Microsoft-partnere hjælpe dig med at skifte til en mere moderne løsning, der er baseret på [!INCLUDE[prod_short](includes/prod_short.md)], så du fortsat kan nyde den samme strømlinede funktionalitet som Dynamics C5.
 
 Denne udvidelse henvender sig til mindre virksomheder og kan understøtte op til tre brugere. Hvis du har brug for flere brugere, skal du opgradere til en [!INCLUDE[prod_short](includes/prod_short.md)]-licens og fjerne udvidelsen.
@@ -25,6 +27,7 @@ Denne udvidelse henvender sig til mindre virksomheder og kan understøtte op til
 > Denne udvidelse er kun tilgængelig for debitorer i Danmark og Island. 
 
 ## <a name="whats-available"></a>Tilgængelige oplysninger
+
 I følgende tabel beskrives de funktioner, der er tilgængelige, hvis du installerer Basic Experience-udvidelsen.
 
 |Område  |Funktion  |
@@ -36,6 +39,7 @@ I følgende tabel beskrives de funktioner, der er tilgængelige, hvis du install
 |**Lagerbeholdning** |Basis lager, erstatningsvare, varereferencer |
 
 ## <a name="getting-started"></a>Introduktion
+
 Dette filtypenavn er lidt anderledes end de fleste, og du har brug for hjælp fra en Microsoft-partner for at kunne installere og konfigurere den. Det betyder, at du ved, hvad du kan forvente, men her er en overordnet oversigt over, hvad Microsoft-partneren skal gøre.
 
 1. Oprette en ny [!INCLUDE[prod_short](includes/prod_short.md)]-lejer. Dette kan enten være en prøveversion eller en version af CSP.
@@ -46,9 +50,11 @@ Dette filtypenavn er lidt anderledes end de fleste, og du har brug for hjælp fr
 6. Hente og installere Basic Experience-udvidelsen fra AppSource.
 
 ## <a name="migrating-data"></a>Dataoverførsel
+
 Bring dine Dynamics C5-data sammen. Når din Microsoft-partner har installeret den grundlæggende oplevelse, har du en tom virksomhed. En nem måde at flytte dine data fra Dynamics C5 il Basic Experience på er at bruge det C5-data overflytnings udvidelse, som findes i [!INCLUDE[prod_short](includes/prod_short.md)]. Udvidelsen overflytter debitorer, kreditorer, varer og finanskonti og deres poster.
 
 ## <a name="see-also"></a>Se også
-[Udvidelsen C5-dataoverførsel](ui-extensions-c5-data-migration.md)
+
+[Udvidelsen C5-dataoverførsel](ui-extensions-c5-data-migration.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

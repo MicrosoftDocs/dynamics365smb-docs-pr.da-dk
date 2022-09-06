@@ -6,17 +6,19 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize
+ms.search.keywords: app, add-in, manifest, customize
+ms.search.form: 1070, 1071, 1073, 1074
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: dd29eca71dc0484238d75162039c12235082a081
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 19e44bf675e02df3494338fb729f9d28081ca6bd
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077446"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361835"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>Udvidelsen PayPal Payments Standard
+
 Kunder kræver hele tiden bedre kundeservice, både med hensyn til produkternes kvalitet, men også med hensyn til leverings- og betalingsindstillinger. Tjenesten PayPal Payments Standard hjælper dig med at øge din kundeservice.
 
 Som et alternativ til opkrævning af betalinger via bankoverførsel eller kreditkort kan du tilbyde dine kunder at betale via deres PayPal-konto. Når du sender en salgsfaktura med mail, er der et PayPal-link i brødteksten i mailen og i det vedhæftede PDF-dokument. Når kunden vælger linket, vises servicesiden for deres PayPal-konto med betalingsoplysningerne for salget. Kunden kan derefter betale fakturaen som andre PayPal-betalinger.
@@ -34,9 +36,9 @@ Tjenesten PayPal Payments Standard giver følgende fordele:
 Du kan finde flere oplysninger i [Aktivere debitorbetaling via PayPal](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Se også
+
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Konfigurere salg](sales-setup-sales.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,14 +5,15 @@ ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
+ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135,
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 64fae9efdda832f14593564b9a19101d120c9712
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: e59dd0dcf757fbcf76d4068756adfe7bc9475f54
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808929"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361551"
 ---
 # <a name="get-started-with-the-shopify-connector"></a>Kom i gang med Shopify Connector
 
@@ -26,26 +27,26 @@ Shopify-connectoren indeholder følgende egenskaber:
 - Tovejs synkronisering af varer eller produkter  
 
   - Connectoren synkroniserer billeder, varevarianter, stregkoder, leverandørs varenumre, udvidede tekster og koder.  
-  - Eksporte vareattributter til Shopify.  
-  - Brug de valgte debitorprisgrupper og rabatter til at definere de priser, der skal udlæses til Shopify.  
-  - Beslut, om du kan oprette varer automatisk eller kun tillade opdateringer af eksisterende produkter.  
+  -    Eksporte vareattributter til Shopify.  
+  -    Brug de valgte debitorprisgrupper og rabatter til at definere de priser, der skal udlæses til Shopify.  
+  -    Beslut, om du kan oprette varer automatisk eller kun tillade opdateringer af eksisterende produkter.  
 - Lagerniveausynkronisering  
 
-  - Vælge nogle eller alle tilgængelige placeringer i [!INCLUDE [prod_short](../includes/prod_short.md)].  
-  - Opdater lagerniveauer på flere lokationer i Shopify.  
+  -    Vælge nogle eller alle tilgængelige placeringer i [!INCLUDE [prod_short](../includes/prod_short.md)].  
+  -    Opdater lagerniveauer på flere lokationer i Shopify.  
 - Tovejs synkronisering af kunder  
 
-  - Med chipkort-kunder pr. telefon og pr. e-mail.  
-  - Brug landespecifikke skabeloner, når du opretter debitorer, som er med til at sikre, at skatte indstillingerne er korrekte.  
+  -    Med chipkort-kunder pr. telefon og pr. e-mail.  
+  -    Brug landespecifikke skabeloner, når du opretter debitorer, som er med til at sikre, at skatte indstillingerne er korrekte.  
 - Importer ordrer fra Shopify  
 
-  - Under indlæsningen kan du automatisk oprette debitorer i [!INCLUDE [prod_short](../includes/prod_short.md)] eller bestemme, om debitorerne Shopify skal administreres.  
-  - Medtage ordrer, der er oprettet i andre kanaler, f. eks Shopify POS eller Amazon.  
-  - Forsendelsesomkostninger, gavekort, tip, leverings-og betalingsmetoder, transaktioner og risiko for svig.  
+  -    Under indlæsningen kan du automatisk oprette debitorer i [!INCLUDE [prod_short](../includes/prod_short.md)] eller bestemme, om debitorerne Shopify skal administreres.  
+  -    Medtage ordrer, der er oprettet i andre kanaler, f. eks Shopify POS eller Amazon.  
+  -    Forsendelsesomkostninger, gavekort, tip, leverings-og betalingsmetoder, transaktioner og risiko for svig.  
   - Modtage betalingsoplysninger fra Shopify Payments.  
 - Nem sporing af indfrielsesoplysninger  
 
-  - Du kan vælge at skrive oplysninger om varesporing fra [!INCLUDE [prod_short](../includes/prod_short.md)] til Shopify.  
+  -    Du kan vælge at skrive oplysninger om varesporing fra [!INCLUDE [prod_short](../includes/prod_short.md)] til Shopify.  
 
 Hvis du vil bruge Shopify med [!INCLUDE [prod_short](../includes/prod_short.md)], skal du gøre følgende først. Denne artikel fungerer som en vejledning for at fuldføre integrationen af din Shopify-butik med [!INCLUDE [prod_short](../includes/prod_short.md)].
 
