@@ -1,4 +1,4 @@
-# [Velkommen til Business Central](index.md)
+# [Velkommen til Business Central](index.md)  
 # [Nyt og planlagt](product-news.md)
 # Kom i gang
 ## [Oversigt over forretningsfunktioner](across-business-functionality.md)
@@ -225,6 +225,7 @@
 ### [Arbejde med finanskladder](ui-work-general-journals.md)
 ### [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)
 ### [Lad Business Central foreslå værdier](ui-let-system-suggest-values.md)
+### [Bruge online kort til at finde steder og vejledninger](across-online-maps.md)
 
 ### Indgående bilag
 #### [Oversigt over indgående bilag](across-income-documents.md)
@@ -442,6 +443,7 @@
 ### [Udskrive pluklisten](sales-how-print-picking-list.md)
 ### [Bogfør salg](ui-post-sales.md)
 ### [Opret tilbagevendende salgslinjer](sales-how-work-standard-lines.md)
+### [Behandle delleverancer med Afsendelsesadvis](sales-how-send-partial-shipments.md)
 ### [Foretage direkte leveringer](sales-how-drop-shipment.md)
 ### [Oprette specialordrer](sales-how-to-create-special-orders.md)
 ### [Behandle salgsreturvarer eller annulleringer](sales-how-process-sales-returns-cancellations.md)
@@ -1635,6 +1637,7 @@
 ### [Oprette nummerserie](ui-create-number-series.md)
 ### [Konfigurere basiskalendere](across-how-to-assign-base-calendars.md)
 ### [Installation af printere](ui-specify-printer-selection-reports.md)
+### [Opsætning af onlinekort](across-online-maps-setup.md)
 ### [Hent Business Central til din mobilenhed](install-mobile-app.md)
 ### [Hent Business Central til din computer](install-desktop-app.md)
 <!--Reporting landing page-->
@@ -1838,6 +1841,7 @@
 ### [Synkronisere tabeltilknytninger manuelt](admin-manual-synchronization-of-table-mappings.md)
 ### [Planlæg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Fejlfinde i forbindelse med synkroniseringsfejl](admin-troubleshoot-sales-synchronization.md)
+### [Brug et Power Automate-flow til beskeder til Dataverse om ændringer af enheden](admin-power-automate-flow-dataverse.md)
 ## Designoplysninger
 ### [Oversigt over oplysninger om programdesign](design-details-application-design.md)
 ### Designoplysninger: Forsyningsplanlægning

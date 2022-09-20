@@ -1,20 +1,20 @@
 ---
 title: Afsende varer
-description: Dette emne beskriver, hvordan du leverer varer fra lagerstedet afhængigt af lager konfigurationen af leverancen.
+description: Denne artikel beskriver, hvordan du leverer varer fra lagerstedet afhængigt af lager konfigurationen af leverancen.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
-ms.date: 06/24/2021
+ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: 7ad15181a1dc25f8b3ee923a62f5b4c553f965b2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: e31dc7a25ea4bb81019163b057b2f1e4e4a1c1d9
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078904"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461152"
 ---
 # <a name="ship-items"></a>Afsende varer
 
@@ -23,36 +23,36 @@ Når du leverer varer fra et lagersted, der ikke er konfigureret til lagerlevera
 Når du leverer varer fra et lagersted, der er konfigureret til lagerleverance, kan du kun levere varer på baggrund af kildedokumenter, som andre virksomheder har frigivet til lagerstedet.
 
 > [!NOTE]
-> Hvis der benyttes direkte afsendelse og placeringer på lageret, kan du for hver linje få vist, hvor mange varer der er blevet placeret på de direkte afsendelsesplaceringer. Disse varemængder beregnes automatisk, hver gang felterne på leverancen opdateres. Hvis de pågældende varer også er dem, som er relevante for den leverance, som du er i gang med, kan du oprette et pluk til alle linjerne og derefter færdiggøre leverancen. Du kan finde flere oplysninger i [Afsende varer](warehouse-how-to-cross-dock-items.md).
+> Hvis der benyttes direkte afsendelse og placeringer på lageret, kan du for hver linje få vist, hvor mange varer der er blevet placeret på de direkte afsendelsesplaceringer. Disse varemængder beregnes automatisk, hver gang felterne på leverancen opdateres. Hvis de pågældende varer også er dem, som er relevante for den leverance, som du er i gang med, kan du oprette et pluk til alle linjerne og derefter færdiggøre leverancen. Flere oplysninger i [Afsende varer direkte](warehouse-how-to-cross-dock-items.md).
 
-## <a name="to-ship-items-with-a-sales-order"></a>Sådan leveres varer med en salgsordre
+## <a name="ship-items-with-a-sales-order"></a>Levere varer med en salgsordre
 
-Nedenfor kan du se, hvordan du leverer varer fra en salgsordre. Der er tilsvarende fremgangsmåde for købsreturvareordrer, serviceordrer og udgående overflytningsordrer.  
+Følgende vejledning beskriver, hvordan du leverer varer fra en salgsordre. Der er tilsvarende fremgangsmåde for købsreturvareordrer, serviceordrer og udgående overflytningsordrer.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.
-2. Åbn en eksisterende salgsordre eller opret en ny. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).
+2. Åbn en eksisterende salgsordre eller opret en ny. Flere oplysninger i [Salg-produkter](sales-how-sell-products.md).
 3. Angiv det leverede antal i feltet **Lever (antal)**.
 
-    Værdien i feltet **Leveret antal** opdateres. Hvis det er en delvis leverance, er værdien lavere end værdien i feltet **Antal**.
+    Værdien i feltet **Leveret antal** opdateres. Hvis det er en delvis leverance, er værdien lavere end værdien i feltet **Antal**. Flere oplysninger i [Behandle delleverancer](sales-how-send-partial-shipments.md).
 4. Vælg handlingen **Bogfør**.
 
 > [!NOTE]
 > Hvis din organisation ikke bruger salgsordrer, antager [!INCLUDE [prod_short](includes/prod_short.md)], at du har leveret det fulde antal, når du bogfører salgsfakturaen. Hvis dette strider mod den måde, din organisation arbejder på, anbefales du at bruge salgsordrer og bogføre leverancer som forklaret i denne artikel.
 
-## <a name="to-ship-items-with-a-warehouse-shipment"></a>Sådan leveres varer med en lagerleverance
+## <a name="ship-items-with-a-warehouse-shipment"></a>Levere varer med en lagerleverance
 
 Først skal du oprette et leverancedokument fra et virksomhedskildedokument. Derefter skal du vælge de angivne varer til leverancen.
 
-### <a name="to-create-a-warehouse-shipment"></a>Sådan oprettes en lagerleverance
+### <a name="create-a-warehouse-shipment"></a>Oprette en lagerleverance
 
-Den medarbejder, der er ansvarlig for leverancen, opretter typisk en lagerleverance. Følgende fremgangsmåde beskriver, hvordan du opretter leverancen manuelt i standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)], men din organisation kan have automatiseret dele af processen, f.eks. ved brug af håndholdte eller tilsluttede scannere, der understøttes af eksterne udbydere.  
+Medarbejderen, der er ansvarlig for leverancen, opretter typisk en lagerleverance. Følgende fremgangsmåde beskriver, hvordan du opretter forsendelsen manuelt i standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)]. Organisationen kan imidlertid have en automatiseret del af processen, f. eks. via brug af håndholdte eller tilsluttede scannere, der understøttes af eksterne providere.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagerleverancer**, og vælg derefter det relaterede link.  
-2. Vælg handlingen **Ny**.  
+2. Vælg **Ny**.  
 
     Udfyld felterne i oversigtspanelet **Generelt**. Når du henter kildedokumentlinjer, kopieres nogle af oplysningerne fra hovedet til hver linje.  
 
-    I forbindelse med lageropsætning med styret læg-på-lager og pluk: Hvis der på lokationen er en standardzone og -placering til leverancer, udfyldes felterne **Zonekode** og **Placeringskode** automatisk, men du kan ændre dem efter behov.  
+    I forbindelse med lager konfigureret med styret læg-på-lager og pluk: Hvis der på lokationen er en standardzone og -placering til leverancer, udfyldes felterne **Zonekode** og **Placeringskode** automatisk, men du kan ændre dem efter behov.  
 
     > [!NOTE]  
     > Hvis du vil levere varer med en anden lagerklassekode end placeringens klassekode i feltet **Placeringskode** i dokumenthovedet, skal du slette indholdet i feltet **Placeringskode** i hovedet, inden du henter kildedokumentlinjerne for varerne.  
@@ -69,16 +69,16 @@ Den medarbejder, der er ansvarlig for leverancen, opretter typisk en lagerlevera
 
     De filterkombinationer, du definerer, gemmes på siden **Filtre til at hente kildedok.**, indtil næste gang du skal bruge dem. Du kan oprette et ubegrænset antal filterkombinationer. Du kan til enhver tid ændre kriterierne ved at vælge handlingen **Ret**.
 
-4. Vælg de kildedokumenter, som du vil levere varer til, og vælg derefter knappen **OK**.  
+4. Vælg de kildedokumenter, som du vil levere varer fra, og vælg derefter knappen **OK**.  
 
 Linjerne fra kildedokumentet vises på siden **Lagerleverance**. Feltet **Lever (antal)** er på forhånd udfyldt med det udestående antal varer for hver linje, men du kan ændre antallet efter behov. Hvis du slettede indholdet i feltet **Placeringskode** i oversigtspanelet **Generelt**, inden du hentede linjerne, skal du udfylde alle modtagelseslinjer med den rette leverancekode.  
 
 > [!NOTE]  
-> Du kan ikke levere flere varer end antallet i feltet **Antal udestående** på kildedokumentlinjen. Hvis du vil levere flere varer, skal du hente et andet kildedokument, der indeholder en linje for varen. Du kan bruge filterfunktionen til at hente kildedokumenter på varen.  
+> Du kan ikke levere flere varer end antallet i feltet **Antal udestående** på kildedokumentlinjen. Hvis du vil levere flere varer, skal du hente et andet kildedokument, der indeholder en linje for varen ved hjælp af filterfunktionen.  
 
 Når du har de linjer, som du vil levere, kan du starte den proces, som fører til, at linjerne sendes til de lagermedarbejdere, der skal plukkes.
 
-### <a name="to-pick-and-ship"></a>Sådan foretages pluk og levering
+### <a name="pick-and-ship"></a>Pluk og levering
 
 Typisk opretter en lagermedarbejder, der er ansvarlig for pluk, et plukdokument og åbner et allerede oprettet plukdokument.  
 
@@ -86,7 +86,7 @@ Typisk opretter en lagermedarbejder, der er ansvarlig for pluk, et plukdokument 
 2. Vælg den lagerleverance, som du vil plukke til, og vælg derefter handlingen **Opret pluk**.
 3. Udfyld felterne på anmodningssiden, og vælg derefter den knappen **OK**. Det angivne lagerplukdokument oprettes.
 
-    Du kan også åbne et eksisterende lagerpluk.
+    Du kan også åbne et eksisterende lagerpluk-dokument.
 4. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk**, og vælg derefter det relaterede link. Vælg det lagerpluk, du vil arbejde på.
 
     Hvis lagerstedet kræver brug af placeringer, er pluklinjerne ændret til Hent og Placer-handlingslinjer.
@@ -99,14 +99,14 @@ Typisk opretter en lagermedarbejder, der er ansvarlig for pluk, et plukdokument 
     Felterne **Lever (antal)** og **Bilagsstatus** på leverancedokumentets hoved er opdateret. De varer, som du har plukket, er ikke længere disponible til pluk til andre leverancer eller til interne operationer.
 7. Udskriv leverancedokumenterne, foretag indpakningen, og bogfør derefter leverancen.
 
-Du kan finde flere oplysninger om plukning til lagerleverancer i [Plukke varer til lagerleverance](warehouse-how-to-pick-items-for-warehouse-shipment.md).
+Flere oplysninger om plukning til lagerleverancer i [Plukke varer til lagerleverance](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-Du kan også bruge plukkladden til at samle flere forskellige plukinstruktioner i en enkelt instruktion (til flere leverancer) og på den måde foretage plukkene på lagerstedet mere effektivt. Du kan finde flere oplysninger i [Planlægge pluk i kladder](warehouse-how-to-plan-picks-in-worksheets.md).
+Du kan også bruge plukkladden til at samle flere forskellige plukinstruktioner i en enkelt instruktion (til flere leverancer) og på den måde foretage plukkene på lagerstedet mere effektivt. Flere oplysninger i [Planlægning af pluk i kladder](warehouse-how-to-plan-picks-in-worksheets.md).
 
 > [!NOTE]
-> Hvis du venter på, at bestemte varer skal ankomme på lagerstedet, og du bruger direkte afsendelsesfunktioner, vil [!INCLUDE[prod_short](includes/prod_short.md)] beregne i hver leverance- eller kladdelinje det antal af varen, der findes på den direkte afsendelsesplacering. Feltet opdateres, hver gang du lukker eller åbner leverancedokumentet eller kladden. Du kan finde flere oplysninger i [Afsende varer](warehouse-how-to-cross-dock-items.md).
+> Hvis du venter på, at bestemte varer skal ankomme på lagerstedet, og du bruger direkte afsendelsesfunktioner, beregner [!INCLUDE[prod_short](includes/prod_short.md)] mængden af varer i den direkte afsendelsesplacering på hver leverance eller kladdelinje det antal af varen. Feltet opdateres, hver gang du lukker eller åbner leverancedokumentet eller kladden. Flere oplysninger i [Afsende varer direkte](warehouse-how-to-cross-dock-items.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se også
 
@@ -116,6 +116,5 @@ Du kan også bruge plukkladden til at samle flere forskellige plukinstruktioner 
 [Montagestyring](assembly-assemble-items.md)  
 [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

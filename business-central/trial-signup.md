@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
 ms.date: 05/25/2022
-ms.openlocfilehash: 71f1e81982b649a12604f4d5fa77db3ddec5d9bf
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7c57b608800bdd67d633698d984b34c3143418b3
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077498"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461017"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Tilmeld dig for at få en gratis Dynamics 365 Business Central-prøveversion
 
@@ -32,7 +32,7 @@ Dit prøveversionsmiljø indeholder de samme funktioner som den betalte version.
 
 ## <a name="get-started-with-a-subscription"></a>Introduktion til et abonnement
 
-Hver gang du logger på i prøveperioden, viser en meddelelse på en blå linje øverst den resterende tid. Hvis du beslutter dig for at abonnere, skal du kontakte en [!INCLUDE[prod_short](includes/prod_short.md)]-partner. Du kan finde flere oplysninger i [Hvordan finder jeg en videresalgspartner?](/dynamics365/business-central/across-faq#findpartner). Videresalgspartneren kan hjælpe dig med opsætningen af [!INCLUDE[prod_short](includes/prod_short.md)], således at den passer til din virksomhed, herunder med at importere dataene fra dit forrige system. Du kan også tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved at tilføje apps fra [Microsoft Commercial Marketplace](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Hver gang du logger på i prøveperioden, viser en meddelelse på en blå linje øverst den resterende tid. Hvis du beslutter dig for at abonnere, skal du kontakte en [!INCLUDE[prod_short](includes/prod_short.md)]-partner. Flere oplysninger i [Hvordan finder jeg en videresalgspartner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner). Videresalgspartneren kan hjælpe dig med opsætningen af [!INCLUDE[prod_short](includes/prod_short.md)], således at den passer til din virksomhed, herunder med at importere dataene fra dit forrige system. Du kan også tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved at tilføje apps fra [Microsoft Commercial Marketplace](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] online bruger Microsoft 365. Hvis din virksomhed bruger en anden type e-mail-opsætning, kan videresalgspartneren hjælpe dig med at beslutte, hvordan du vil overføre dataene, eller hvorvidt du bør anvende [!INCLUDE[prod_short](includes/prod_short.md)] lokalt.  
 

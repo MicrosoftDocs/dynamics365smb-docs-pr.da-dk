@@ -10,37 +10,37 @@ ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 07/04/2022
 ms.author: edupont
-ms.openlocfilehash: 00ce5d3014d0154f877b9d58fc4e0fd0585f13ac
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: 88b6c57fb93b5ef3e2a4cf02ce7a802e4d8aef22
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144324"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460727"
 ---
 # <a name="register-new-vendors"></a>Registrere nye kreditorer
 
-Kreditorer leverer de produkter, du sælger. Hver kreditor, som du køber fra, skal registreres som et kreditorkort.
+Kreditorer leverer de produkter, du sælger. Hver kreditor, som du køber fra, skal registreres med et kreditorkort.
 
-Før du kan registrere nye kreditorer, skal du oprette forskellige købskoder, som du kan vælge mellem, når du udfylder kreditorkort. Når alle de obligatoriske stamoplysninger er oprettet, skan du udføre yderligere konfiguration af kreditoren, f.eks. prioritere kreditoren i forbindelse med betaling og få vist de varer, som kreditoren og andre kreditorer kan levere. En anden gruppe opsætningsopgaver for kreditorer er at registrere aftaler vedrørende rabatter, priser og betalingsmetoder. Du kan finde flere oplysninger i [Opsætning af indkøb](purchasing-setup-purchasing.md).
+Før du kan registrere nye kreditorer, skal du oprette forskellige købskoder, som du kan vælge mellem, når du udfylder kreditorkort. Når alle de obligatoriske stamoplysninger er oprettet, kan du tilføje entydige karakteristika for en kreditor, f.eks. prioritere kreditoren i forbindelse med betaling eller få vist de varer, som kreditoren og andre kreditorer kan levere. En anden gruppe opsætningsopgaver for kreditorer er at registrere aftaler vedrørende rabatter, priser og betalingsmetoder. Flere oplysninger i [Opsætning af indkøb](purchasing-setup-purchasing.md).
 
-Kreditorkortene indeholde de oplysninger, som er en forudsætning for at købe produkter fra kreditoren. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md) og [Registrere nye varer](inventory-how-register-new-items.md).
+Kreditorkortene indeholde de oplysninger, som er en forudsætning for at købe produkter fra hver kreditor. Flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md) og [Registrere nye varer](inventory-how-register-new-items.md).
 <br /><br />  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Tilføjelse af nye kreditorer
 
-Du kan tilføje nye kreditorer manuelt ved at udfylde felterne på siden **Kreditorkort**, eller du kan bruge skabeloner, der indeholder foruddefinerede oplysninger. Du kan f. eks. oprette en skabelon til forskellige typer kreditorprofiler. Du kan spare tid ved at bruge skabeloner, når du tilføjer nye kreditorer, så oplysningerne bliver korrekte hver gang.
+Du kan tilføje nye kreditorer manuelt ved at udfylde siden **Kreditorkort**, eller du kan bruge skabeloner, der indeholder foruddefinerede oplysninger. Du kan f. eks. oprette skabeloner til forskellige typer kreditorprofiler. Du kan spare tid ved at bruge skabeloner, når du tilføjer nye kreditorer, så oplysningerne bliver korrekte hver gang.
 
 > [!NOTE]  
-> Hvis der er kreditorskabeloner til forskellige kreditortyper, vises der automatisk en side, når du opretter et nyt kreditorkort, hvorfra du kan vælge en passende skabelon. Hvis der kun er én kreditorskabelon, bruger nye kreditorkort altid denne skabelon.
+> Hvis der er kreditorskabeloner til forskellige kreditortyper, når du opretter et nyt kreditorkort, vises en side, hvor du kan vælge en passende skabelon. Hvis der kun er én kreditorskabelon, bruger nye kreditorkort altid denne skabelon.
 
-Når du har oprettet en skabelon, kan du bruge handlingen **Anvend skabelon** for at anvende den på en eller flere valgte kreditorer. Hvis du vil oprette en skabelon, skal du angive de oplysninger, du vil genbruge, på siden Kreditorkort og derefter gemme den som en skabelon. Du kan finde flere oplysninger i afsnittet [Sådan gemmes kreditorkortet som en skabelon](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
+Når du har oprettet en skabelon, kan du bruge handlingen **Anvend skabelon** for at anvende den på en eller flere valgte kreditorer. Hvis du vil oprette en skabelon, skal du angive de oplysninger, du vil genbruge, på siden **Kreditorkort** og derefter gemme den som en skabelon. Flere oplysninger i afsnittet [Sådan gemmes kreditorkortsiden som en skabelon](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
 > [!TIP]
-> Det kan være nyttigt at tilpasse siden **Kreditorskabeloner**, når du opretter en skabelon. Du kan f. eks. tilføje et felt, der ikke allerede vises på siden. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+> Det kan være nyttigt at tilpasse siden **Kreditorskabeloner**, når du opretter en skabelon. Du kan f. eks. tilføje et felt, der ikke allerede vises på siden. Flere oplysninger i [Tilpasse dit arbejdsområde](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-Du kan også oprette en kreditor ud fra en kontakt. Du kan finde flere oplysninger i [Oprette en debitor-, kreditor-, medarbejder- eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
+Du kan også oprette en kreditor ud fra en kontakt. Flere oplysninger i [Oprette en debitor, kreditor, medarbejder eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 
 ### <a name="to-create-a-new-vendor"></a>Sådan oprettes en ny kreditor
 
@@ -51,14 +51,14 @@ Du kan også oprette en kreditor ud fra en kontakt. Du kan finde flere oplysning
 
 Kreditoren er nu registreret, og kreditorkortet er klar til at blive brugt i købsdokumenter.
 
-Hvis du vil bruge dette kreditorkort som skabelon, når du opretter nye kreditorkort, kan du gemme det som en kreditorskabelon. Du kan finde flere oplysninger i afsnittet [Sådan gemmes kreditorkortet som en skabelon](#to-save-the-vendor-card-as-a-template).
+Hvis du vil bruge dette kreditorkort som skabelon, når du opretter nye kreditorkort, kan du gemme det som en kreditorskabelon. Flere oplysninger i afsnittet [Sådan gemmes kreditorkortsiden som en skabelon](#to-save-the-vendor-card-as-a-template).
 
 ### <a name="deleting-and-editing-vendor-information"></a>Slette og redigere kreditoroplysninger
 
 Du kan til enhver tid oplysninger om kreditorkort. Hvis du har bogført en postering for en kreditor, kan du ikke slette kortet, da posterne muligvis er nødvendige med henblik på revision. Hvis du vil slette kreditorkort med poster, skal du kontakte din Microsoft-partner for at gøre dette via kode.
 
 > [!TIP]
-> Du kan ændre IBAN på en kreditors bankkonto, uden at ændringerne påvirker de historiske kreditoverførselsposter. Overførsel af remburs Journal lagrer det IBAN-nummer, modtagers bankkontonr., der blev angivet i felterne kreditorbankkonto og modtagernavn fra siden med kreditorkortet, da posterne blev oprettet.
+> Du kan ændre IBAN (International Bank Account Number) på en kreditors bankkonto, uden at ændringerne påvirker de historiske kreditoverførselsposter. Overførsel af remburs Journal lagrer *Modtager IBAN* og *Modtagers bankkontonr.*, der blev angivet i felterne **Kreditorbankkonto** og **Modtagernavn** fra siden **Kreditorkort**, da posterne blev oprettet.
 
 > [!TIP]
 > Du kan tilføje alternative adresser på kreditorkortet ved at vælge handlingen **Bestillingsadresser**.
@@ -72,7 +72,7 @@ Du kan til enhver tid oplysninger om kreditorkort. Hvis du har bogført en poste
 5. Når du har fuldført skabelonen for den nye kreditor, skal du vælge knappen **OK**.  
    Kreditorskabelonen føjes til listen over kreditorskabeloner, så du kan bruge den til at oprette nye kreditorkort.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se også
 
@@ -82,6 +82,7 @@ Du kan til enhver tid oplysninger om kreditorkort. Hvis du har bogført en poste
 [Oprette indkøbere](purchasing-how-setup-purchasers.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Registrere køb](purchasing-how-record-purchases.md)  
+[Bruge online kort til at finde steder og vejledninger](across-online-maps.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Oversigt over opgaver til administration af salg
-description: Læs alt om, hvordan du bruger Business Central's services til at styre salgsaktiviteter med kunder med salgsfakturaer, ordrer, tilbud og meget mere.
+description: Læs alt om, hvordan du bruger Business Central's services til at styre kundernes salgsaktiviteter med salgsfakturaer, ordrer, tilbud og meget mere.
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
@@ -8,44 +8,46 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
 ms.search.form: 253
-ms.date: 06/25/2021
+ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: 8601153fc7bd813b3baa1c0ff7ebe0768d467dc0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 501f719c185177f8c9554d8f10c3f026df36169a
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518883"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460909"
 ---
 # <a name="sales"></a>Salg
+
 Du opretter en salgsfaktura eller salgsordre for at registrere din aftale med en debitor om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser.
 
-Du skal bruge salgsordrer, hvis din salgsproces kræver, at du kan levere dele af et ordreantal, f.eks. fordi hele antallet ikke er tilgængeligt på én gang. Hvis du sælger varer ved at levere direkte fra leverandøren til kunden som en direkte levering, skal du også bruge salgsordrer. I alle andre henseender fungerer salgsordrer på samme måde som salgsfakturaer. Ved salgsordrer kan du også bruge funktionen til beregning af leveringstid til at kommunikere bestemte leveringsdatoer til kunderne.  
+Du skal bruge salgsordrer, hvis din salgsproces kræver, at du kan levere dele af et ordreantal, f.eks. fordi hele antallet ikke er tilgængeligt med det samme. Hvis du sælger varer ved at levere direkte fra leverandøren til kunden som en direkte levering, skal du også bruge salgsordrer. I alle andre henseender fungerer salgsordrer på samme måde som salgsfakturaer. Ved salgsordrer kan du også bruge funktionen til beregning af leveringstid til at kommunikere bestemte leveringsdatoer til kunderne.  
 
 Du kan forhandle med debitoren ved først at oprette et salgstilbud, som du kan konvertere til en salgsfaktura eller salgsordre, når I har aftalt salget. Når debitoren har bekræftet aftalen, kan du sende en ordrebekræftelse for at registrere din forpligtelse til at levere produkterne som aftalt.
 
 Du kan nemt rette eller annullere en bogført salgsfaktura, før den er betalt. Dette er nyttigt, hvis du vil rette en skrivefejl, eller hvis debitoren anmoder om en ændring i ordreprocessen. Hvis den bogførte faktura betales, skal du oprette en salgskreditnota eller en salgsreturvareordre for at tilbageføre salget.
 
-Gode fremgangsmåder ved salg og marketing drejer sig primært om, hvordan du træffer de bedste beslutninger på det rigtige tidspunkt. Microsoft-funktioner i [!INCLUDE[prod_short](includes/prod_short.md)] giver dig en præcis oversigt over dine kontaktoplysninger, så du kan betjene dine potentielle kunder mere effektivt og øge kundetilfredsheden. Du kan finde flere oplysninger i [Relationsstyring](marketing-relationship-management.md).
+Gode fremgangsmåder ved salg og marketing drejer sig primært om, hvordan du træffer de bedste beslutninger på det rigtige tidspunkt. Microsoft-funktioner i [!INCLUDE[prod_short](includes/prod_short.md)] giver dig en præcis oversigt over dine kontaktoplysninger, så du kan betjene dine potentielle kunder mere effektivt og øge kundetilfredsheden. Flere oplysninger i [Relationsstyring](marketing-relationship-management.md).
 
-Hvis du bruger Dynamics 365 Sales for Customer Engagement, kan du nyde godt af problemfri integration i lead-til-kontant-processen ved hjælp af Business Central for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og styring af økonomien. Du kan finde flere oplysninger i [Brug Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md).
+Hvis du bruger Microsoft Dynamics 365 Sales for Customer Engagement, kan du nyde godt af problemfri integration i lead-til-kontant-processen ved hjælp af Business Central for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og styring af økonomien. Flere oplysninger i [Brug Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md).
 
-I de situationer, hvor debitoren skal betale, før produkterne leveres, f.eks i detailbranchen, skal du vente på betalingsmodtagelse, før du leverer produkterne. I de fleste tilfælde kan du behandle indgående betalinger nogle uger efter levering ved at udligne betalingerne på de relaterede bogførte ubetalte salgsfakturaer. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
+I de situationer, hvor debitoren skal betale, før produkterne leveres, f.eks i detailbranchen, skal du vente på betalingsmodtagelse, før du leverer produkterne. I de fleste tilfælde kan du behandle indgående betalinger nogle uger efter levering ved at udligne betalingerne på de relaterede bogførte ubetalte salgsfakturaer. Flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 
-Salgsdokumenter kan sendes som PDF-filer, der er vedhæftet i en mail. Brødteksten i mailen indeholder et uddrag af salgsdokumentet, f.eks produkter, samlet beløb og et link til webstedet PayPal. Du kan finde flere oplysninger i [Sende dokumenter via mail](ui-how-send-documents-email.md).
+Salgsdokumenter kan sendes som PDF-filer, der er vedhæftet i en mail. Brødteksten i mailen indeholder et uddrag af salgsdokumentet, f.eks produkter, samlet beløb og et link til webstedet PayPal. Flere oplysninger i [Afsende dokumenter med e-mail](ui-how-send-documents-email.md).
 
-Ved alle salgsprocesser kan du inkludere et godkendelsesworkflow, f.eks. for at kræve, at store salg til bestemte kunder godkendes af regnskabschefen. Der er flere oplysninger i [Brug arbejdsgange](across-use-workflows.md).
+Ved alle salgsprocesser kan du inkludere et godkendelsesworkflow, f.eks. for at kræve, at store salg til bestemte kunder godkendes af regnskabschefen. Flere oplysninger i [Bruge workflows](across-use-workflows.md).
 
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
+Den følgende tabel indeholder en opgavesekvens med links til de artikler, der dækker opgaverne.
 
-| Hvis du vil | Skal du se |
+| Til | Se |
 | --- | --- |
 |Opret et debitorkort for hver debitor, du sælger til.|[Registrere nye debitorer](sales-how-register-new-customers.md)|
-| Opret et salgstilbud, hvor du f.eks. tilbyder produkter på betingelser, der kan forhandles, før du konverterer tilbuddet til en salgsfaktura. |[Oprette salgstilbud](sales-how-make-offers.md) |
-| Opret en salgsfaktura for at registrere din aftale med en debitor om at sælge produkter på bestemte leverings- og betalingsbetingelser. |[Fakturere salg](sales-how-invoice-sales.md) |
+| Opret et salgstilbud med produkter på betingelser, der kan forhandles, før du konverterer tilbuddet til en salgsfaktura. |[Oprette salgstilbud](sales-how-make-offers.md) |
+| Opret en salgsfaktura for at registrere din aftale med en debitor om at sælge visse produkter på bestemte leverings- og betalingsbetingelser. |[Fakturere salg](sales-how-invoice-sales.md) |
 | Behandl en salgsordre, der involverer delvis levering eller direkte levering. |[Sælge produkter](sales-how-sell-products.md) |
 |Forstå, hvad der sker, når du bogfører salgsdokumenter.|[Bogføring af salg](ui-post-sales.md)|
 |Forberedelse af plukning af varer til leverance.|[Udskrive pluklisten](sales-how-print-picking-list.md)|
+| Opfylde en salgsordre med flere delleverancer. | [Behandle delleverancer](sales-how-send-partial-shipments.md) |
 |Du kan oprette standardsalgs- eller købslinjer, som du hurtigt kan indsætte i dokumenter, f.eks. for tilbagevendende genbestillingsordrer.|[Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md)|  
 | Knyt en salgsordre til en købsordre for at sælge en vare med direkte levering, som skal leveres direkte fra leverandøren til kunden. |[Foretage direkte leveringer](sales-how-drop-shipment.md) |
 |Få en katalogvare sendt fra en leverandør til dit lagersted, så du kan levere varen til kunden.|[Oprette specialordrer](sales-how-to-create-special-orders.md)|
@@ -57,18 +59,18 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Informer debitorerne om ordreleveringsdatoer ved at beregne enten den første mulige afsendelsesdato eller disponibel til leverings-dato.|[Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)|
 |Løse forvirring, når der findes to eller flere poster for samme debitor.|[Flette dublerede poster](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se også
+
 [Konfigurere salg](sales-setup-sales.md)  
 [Registrere nye debitorer](sales-how-register-new-customers.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
-[Projektstyring](projects-manage-projects.md)    
+[Projektstyring](projects-manage-projects.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
