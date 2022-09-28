@@ -10,12 +10,12 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.search.form: 2026, 2027, 2029,
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8852056c5981c8db65f9048af850abbfe086c658
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 814224ed0ba9453c0e787a673dd03e2817ed666f
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361877"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524623"
 ---
 # <a name="the-image-analyzer-extension"></a>Billedanalyseudvidelsen
 
@@ -39,7 +39,7 @@ Der er nogle krav til billederne:
 * Maksimal filstørrelse: mindre end 4 MB  
 * Billeddimensioner: større end 50 x 50 pixel  
 
-## <a name="to-enable-image-analyzer"></a>Sådan aktiveres billedanalysefunktionen
+## <a name="switch-on-the-image-analyzer-extension"></a>Aktiver billedanalyseudvidelsen
 
 Billedanalyseudvidelsen er indbygget i [!INCLUDE[prod_short](includes/prod_short.md)]. Du skal blot aktivere den.
 
@@ -48,79 +48,74 @@ Billedanalyseudvidelsen er indbygget i [!INCLUDE[prod_short](includes/prod_short
 
 Gør ét af følgende for at aktivere billedanalyseudvidelsen:
 
-* Åbn et vare- eller kontaktkort. Vælg **Analysér billeder** på meddelelseslinjen, og følg derefter trinnene i den assisterende opsætningsvejledning.  
+* Åbn et vare- eller kontaktkort. Vælg **Analysér billede** på meddelelseslinjen, og følg derefter trinnene i den assisterende opsætningsvejledning.  
 * Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Serviceforbindelser**, og vælg derefter **Opsætning af billedanalyse**. Marker afkrydsningsfeltet **Aktivér billedanalyse**, og fuldfør derefter trinnene i den assisterende opsætningsvejledning.  
 
     > [!TIP]  
     > På siden **Opsætning af billedanalyse** kan du også ændre graden af tillid for attributforslag. Hvis du f.eks. ønsker en større grad af tillid, kan du angive en højere procentsats.
 
-## <a name="to-analyze-an-image-of-an-item"></a>Sådan analyseres et billede af en vare
+## <a name="analyze-an-item-image"></a>Analysere et billede af en vare
 
 Nedenfor beskrives det, hvordan du kan analysere et billede, der er blevet indlæst, før du har aktiveret billedanalyseudvidelsen.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
 2. Vælg vare, og vælg derefter handlingen **Analysér billede**.  
-3. På siden **Billedanalyseattributter** vises de registrerede attributter, tillidsniveauet og andre oplysninger om attributten. Brug **Handlingen til at udføre**-indstillinger for at angive, hvad der skal ske med attributten, eller Vælg **Tilføj til varebeskrivelse** for at føje navnet på attributten til varebeskrivelsen. Det er f.eks. velegnet til hurtigt at tilføje detaljer. 
+3. På siden **Billedanalyseattributter** vises de registrerede attributter, tillidsniveauet og andre oplysninger om attributten. Brug **Handlingen til at udføre**-indstillinger for at angive, hvad der skal ske med attributten, eller Vælg **Tilføj til varebeskrivelse** for at føje navnet på attributten til varebeskrivelsen. Denne handling er f.eks. velegnet til hurtigt at tilføje detaljer.
 
-Handlingen **Handling, der skal udføres** har følgende muligheder:
+Feltet **Handling, der skal udføres** har følgende muligheder:
 
-  * *Ignorer*
+| Handling | Beskrivelse |
+| ------ | ----------- |
+| *Ignorer* | Der udføres ingen handlinger. |
+| *Brug som attribut* | Værdien føjes til vareattributterne. Flere oplysninger i [Arbejde med vareattributter](inventory-how-work-item-attributes.md). |
+| *Bruge som kategori* | Den markerede værdi tilføjes som en kategori. Flere oplysninger i [Kategorisere varer](inventory-how-categorize-items.md). |
+| *Føj til blokliste* | Hvis analysen foreslår en attribut, som du ikke vil have vist, kan du blokere den. Men gå forsigtigt frem. Blokerede attributter foreslås heller ikke for andre varer. Hvis du fortryder blokeringen af en attribut, kan du vælge **Vis blokerede attributter** og derefter slette attributten fra listen. |
 
-    Der udføres ingen handlinger
-  * *Brug som attribut*
+> [!NOTE]  
+> Som standard viser **Vareattributter** attributter, hvor **Tillidsscore** er større end **Tærsklen for tillidsscore %** defineret i **Opsætning af billedanalyse**. Hvis du vil se alle fundne attributter, skal du vælge handlingen **Vis alle attributter**.
 
-    Værdien føjes til vareattributterne. Du kan finde flere oplysninger i [Arbejde med vareattributter](inventory-how-work-item-attributes.md)
-  * *Bruge som kategori*
-
-    Den markerede værdi tilføjes som en kategori. Yderligere oplysninger findes under [Kategorisere varer](inventory-how-categorize-items.md)
-  * *Føj til blokliste*
-
-    Hvis analysen foreslår en attribut, som du ikke vil have vist, kan du blokere den. Men gå forsigtigt frem. Blokerede attributter foreslås heller ikke for andre varer. Hvis du fortryder blokeringen af en attribut, kan du vælge **Vis blokerede attributter** og derefter slette attributten fra listen.
-  
-    > [!NOTE]  
-    > Som standard **vareattributter** vises attributter, hvor **konfidensniveauet for score** er større end **tærsklen for konfidensinterval %** defineret i opsætningen af **Image Analyzer**. Hvis du vil se alle fundne attributter, skal du vælge handlingen **Vis alle attributter**.
-
-## <a name="to-analyze-a-picture-of-a-contact-person"></a>Sådan analyseres et billede af en kontaktperson
+## <a name="analyze-a-contact-person-picture"></a>Analyse af billede af en kontaktperson
 
 Nedenfor beskrives det, hvordan du kan analysere et billede, der er blevet indlæst, før du har aktiveret billedanalyseudvidelsen.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontakter**, og vælg derefter det relaterede link.  
 2. Vælg kontaktpersonen, og vælg derefter handlingen **Analysér billede**.  
-3. I oversigtspanelet **Profilspørgeskema** skal du gennemgå forslagene og foretage rettelser, hvis det er nødvendigt. Du kan finde flere oplysninger i [Bruge profilspørgeskema til at klassificere forretningskontakter](marketing-create-contact-profile-questionnaire.md).  
+3. I oversigtspanelet **Profilspørgeskema** skal du gennemgå forslagene og foretage rettelser, hvis det er nødvendigt. Flere oplysninger [Bruge profilspørgeskemaer til at klassificere forretningskontakter](marketing-create-contact-profile-questionnaire.md).  
 
     > [!NOTE]  
-    > 
+    >
     > Computer vision API returnerer følgende attributter:
+    >
     > * *alder*
     >
     >     En anslået "visuel alder" i år. Det er den måde, gamle en person ser ud i modsætning til den faktiske biologiske alder.
     > * *køn*
     >
     >    Mand eller kvinde.
-    > 
-    > Computerens API returnerer ikke konfidensniveauet for alder og køn.
+    >
+    > Computerens API returnerer ikke et tillidsniveau for alder og køn.
   
-## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Sådan bruger du din egen konto til Computer Vision API'en
+## <a name="use-your-own-computer-vision-api-account"></a>Brug af din egen konto til Computer Vision API
 
-Du kan også bruge din egen konto til Computer Vision API'en, f.eks. hvis du vil analysere flere billeder, end vi tillader.  
+Du kan også bruge din egen konto til Computer Vision API'en, f.eks. hvis du vil analysere flere billeder, end standardintegrationen tillader.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af billedanalysatoren**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af billedanalyse**, og vælg derefter det relaterede link.
 2. Angiv **URI for API** og **API-nøgle**, du har modtaget Computer Vision API.  
 
     > [!NOTE]  
-    > Du skal tilføje **/analysere** i slutningen af API-URI'en, hvis det ikke allerede står der. Eksempel: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
+    > Du skal tilføje **/analysere** i slutningen af API-URI'en, hvis det ikke allerede står der. Eksempel: ```https://cronus.api.cognitive.microsoft.com/vision/v2.0/analyze```.
 
-## <a name="to-see-how-many-analyses-you-have-left-in-the-current-period"></a>Sådan ser du, hvor mange analyser du har udfyldt i den aktuelle periode
+## <a name="see-how-many-analyses-you-have-left-in-the-current-period"></a>Se, hvor mange analyser du har udfyldt i den aktuelle periode
 
 Du kan få vist antallet af analyser, du har udført, og hvor mange du stadig kan udføre, i den aktuelle periode.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af billedanalysatoren**, og vælg derefter det relaterede link.  
-2. **Grænsetype**, **Grænseværdi** og **Udførte analyser** oplyser om forbruget.  
+1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af billedanalyse**, og vælg derefter det relaterede link.
+2. Felterne **Grænsetype**, **Grænseværdi** og **Udførte analyser** oplyser om forbruget.  
 
-## <a name="to-stop-using-the-image-analyzer-extension"></a>Sådan afslutter du brugen af billedanalyseudvidelsen
+## <a name="stop-using-the-image-analyzer-extension"></a>Afslut brug af billedanalyseudvidelsen
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Serviceforbindelser**, og vælg derefter **Opsætning af billedanalysatoren**.  
-2. Fjern markeringen i afkrydsningsfeltet **Aktiver billedanalyse**.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Serviceforbindelser**, og vælg derefter **Opsætning af billedanalyse**.  
+2. Fjern markeringen i feltet **Aktiver billedanalyse**.  
 
 Du kan også fjerne udvidelsen fuldstændigt. Du kan altid hente den igen fra AppSource. Du kan finde flere oplysninger i [Installation og fjernelse af udvidelser i Business Central](ui-extensions-install-uninstall.md#uninstall-an-extension).  
 

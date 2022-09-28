@@ -10,12 +10,12 @@ ms.reviewer: edupont
 ms.search.form: ''
 ms.date: 08/08/2022
 ms.author: edupont
-ms.openlocfilehash: 2f306fee236fda2bae4863e0e793239c2168f125
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 1bae22c83f1e7138fbfe16bb39aea3ad9d65d788
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461098"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530995"
 ---
 # <a name="posting-purchases"></a>Bogføring af køb
 
@@ -58,7 +58,7 @@ I de fleste tilfælde kan du åbne finansposter fra det berørte kort eller doku
 
 Du kan redigere bestemte felter i bogførte købsdokumenter, f. eks feltet **Betalingsreference**. Flere oplysninger i [Rediger bogførte dokumenter](across-edit-posted-document.md). Er det mere kritiske felter, der påvirker overvågningssporet, skal du tilbageføre eller annullere bogføring. Flere oplysninger i [Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/receive-invoice-dynamics-d365-business-central/index).
 
 ## <a name="see-also"></a>Se også
 

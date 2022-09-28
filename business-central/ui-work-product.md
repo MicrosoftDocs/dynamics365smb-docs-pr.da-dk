@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 2eaec73818a437e0ebc729612de063b19a074561
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 761bd759e66ca557dfd7537bb2b4fefb049da3da
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655053"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528540"
 ---
 # <a name="work-with-prod_short"></a>Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -86,7 +86,7 @@ Når du søger efter en åben listeside, f. eks **Salgsordrer**, vises den i Vis
 
 Men når du åbner den samme listeside fra startsiden, er handlingen **Administrer** ikke tilgængelig. I stedet for at åbne en individuel salgsordre skal du blot vælge feltet **Nummer**. I denne visning kan du ikke fastgøre handlingslinjen.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 
