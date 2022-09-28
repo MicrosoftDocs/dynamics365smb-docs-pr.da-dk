@@ -10,12 +10,12 @@ ms.search.keywords: purchasing agent
 ms.search.form: 14, 5116
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 15eaf7e799f12e1e2c1c4dca5328b354c8113af7
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: e8e73553fe4c66fef08c78c0411f76fe481b34fc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144270"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534800"
 ---
 # <a name="set-up-purchasers"></a>Oprette indkøbere
 
@@ -35,7 +35,7 @@ Hvis der er mange indkøbere ansat i virksomheden, kan du oprette dem på en sid
 2. Åbn det relevante kreditorkort for den leverandør, du vil tildele en indkøber.
 3. Vælg den relevante indkøberkode i feltet **Indkøberkode**, og luk derefter siden.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

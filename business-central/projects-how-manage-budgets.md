@@ -10,12 +10,12 @@ ms.search.keywords: project budget, forecast
 ms.search.form: 1002, 1007
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bc3d630e232e560987daefaabbe7ea8b5ddc681c
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 47a3e85a806db2f7c4b0c0656016594d5f7818dc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075365"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529969"
 ---
 # <a name="manage-job-budgets"></a>Administrere sagsbudgetter
 
@@ -49,7 +49,7 @@ På siden **Jobkort** , kan du nu se en oversigt over de samlede budgetterede om
 
 Du kan finde oplysninger om registrering af budgetterede og faktiske sagspriser og -omkostninger i [Registrere forbrug for sager](projects-how-record-job-usage.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/set-up-job-planning-lines/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/set-up-job-planning-lines/)
 
 ## <a name="see-also"></a>Se også
 

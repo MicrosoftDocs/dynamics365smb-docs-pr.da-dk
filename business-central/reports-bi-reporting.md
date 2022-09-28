@@ -10,12 +10,12 @@ ms.search.keywords: feature overview
 ms.reviewer: edupont
 ms.date: 02/03/2022
 ms.author: kepontop
-ms.openlocfilehash: 4b7a806b3e12298fe493b943cf57446c824a5c34
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7da9d24f805c273c67cf856e6a1a835e18686b83
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076951"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528675"
 ---
 # <a name="business-intelligence-and-reporting-overview"></a>Oversigt over Business Intelligence og rapportering
 
@@ -30,7 +30,7 @@ Små og mellemstore virksomheder besvarer den indbyggede analyse og rapporterer,
 | Få mere at vide om, hvordan du integrerer eksterne business intelligence-værktøjer med [!INCLUDE[prod_short](includes/prod_short.md)].| [Eksterne business intelligence-værktøjer](reports-external-analysis.md) |
 |Få mere at vide om, hvordan du ændrer rapportlayout eller endda udvikler dine egne rapporter fra bunden. |[Udvikle rapporter](reports-develop-reports.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/setup-reporting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/setup-reporting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

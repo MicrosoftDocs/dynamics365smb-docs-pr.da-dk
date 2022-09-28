@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: a1c5314d8aba0b31d02491da1e588f7a23c83a38
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7d019f9003ccd3ca0b2da7157d2d30f98d118e63
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078956"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532021"
 ---
 # <a name="set-up-time-sheets"></a>Konfigurere timesedler
 
@@ -94,7 +94,7 @@ I følgende afsnit beskrives det, hvordan du konfigurerer timesedler, hvis du ik
 > [!NOTE]  
 > Du kan ikke ændre id'et på godkenderen af timesedler, hvis der er timesedler, der endnu ikke er behandlet, og som har statussen **Sendt** eller **Åben**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also"></a>Se også
 

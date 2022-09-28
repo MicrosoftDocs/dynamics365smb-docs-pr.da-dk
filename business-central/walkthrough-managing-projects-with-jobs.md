@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6f46b07a33e49830944b1bdea9b13f241a7b2332
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ead206330c3acb11322396cd6bec5e00af646da4
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076743"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530347"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Gennemgang: Administration af projekter med sager
 
@@ -460,7 +460,7 @@ Følgende procedurer viser, hvordan du opretter et nyt job, angiver priser og de
 
  Denne gennemgang har taget dig gennem nogle af de grundlæggende trin til at arbejde med sager i [!INCLUDE[prod_short](includes/prod_short.md)]. Du har lært, hvordan du opretter en ny sag, kopierer en sag og hvordan du håndterer betalinger. Du har også fået vist en demonstration af, hvordan du kan registrere timer og oprette fakturaer.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/create-jobs/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/create-jobs/)
 
 ## <a name="see-also"></a>Se også
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4454fd40daffbaa5d551635c406f10c70009d3bf
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 1ec80435211b139868bf62ddf0ce269a802d2abc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076067"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534044"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Planlægge lagerbevægelser i kladder
 
@@ -67,7 +67,7 @@ Du kan også bruge bevægelseskladden til at planlægge andre former for varebev
 6.  Slet de ikke-udfyldte linjer, du har brugt til oplysninger.  
 7.  Når bevægelseskladdelinjerne nøjagtigt beskriver, hvordan bevægelsen skal udføres af lagermedarbejderen, skal du vælge handlingen **Opret bevægelse** for at oprette instruktionerne til medarbejderen.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/move-items/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/move-items/)
 
 ## <a name="see-also"></a>Se også
 

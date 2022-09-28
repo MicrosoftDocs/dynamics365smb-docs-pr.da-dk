@@ -7,12 +7,12 @@ ms.search.keywords: app, add-in, manifest, customize
 ms.search.form: 2500, 2502
 ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: 88f445116f1b9897cabc2cc3756f6c6f414288c3
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 8ff68bbeb2d7603b1c4d1b612413279cca5eec86
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079008"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530454"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Tilpasse Business Central Online ved brug af udvidelser
 
@@ -83,7 +83,7 @@ Microsoft-partnere og -forhandlere kan oprette en udvidelse, som de kan bruge ti
 > [!NOTE]
 > Hvis du er Microsoft-partner eller -forhandler, og du er interesseret i at levere en liste over anbefalede apps, skal du se [Anbefal apps fra AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

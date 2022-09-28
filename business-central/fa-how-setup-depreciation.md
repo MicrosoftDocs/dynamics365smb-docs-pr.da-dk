@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: 887a8f94db8f289769c2fba7a1938d7b7960e400
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c1912cf6c6e755949e8aa32b749145efc8b70783
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079190"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534665"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Opsætte afskrivning af anlægsaktiv
 
@@ -95,7 +95,7 @@ Når der beregnes afskrivninger i kørslen Beregn afskrivninger, bruges der norm
 
 Hvis du markerer dette felt, anvendes der i stedet et kalenderår på 365 dage i kørslen Beregn afskrivninger, hvor hver måned beregnes med samme antal dage som i kalenderen. Den eneste undtagelse er februar i skudår, som i kørslen behandles, som om der er 28 dage og ikke 29. Pga. det anses alle år, også skudår, for at bestå af 365 dage.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/configure-depreciation-books/)
 
 ## <a name="see-also"></a>Se også
 

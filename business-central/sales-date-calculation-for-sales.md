@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 401deb016122100f86142cb2314c18e3b481bccd
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 538392cd86dfc348877e8ef349d42a8961934262
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077862"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532561"
 ---
 # <a name="date-calculation-for-sales"></a>Beregning af forfaldsdato for salg
 
@@ -43,7 +43,7 @@ Hvis du ikke angiver en ønsket leveringsdato på en salgsordrelinje, eller hvis
 - afsendelsesdato + udgående lagerekspeditionstid = planlagt afsendelses dato
 - planlagt afsendelsesdato + transporttid = planlagt leveringsdato
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/promising-sales-order-delivery-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

@@ -10,12 +10,12 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 257, 259, 279
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08545d1bb23b8a70d10c6114f4840ce186aa94cc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ab140d214c25735bf8158a2255f8f35ba246442c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515559"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535151"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Oprette kilde- og årsagskoder til revisionsspor
 
@@ -83,9 +83,9 @@ Den valgte årsagskode kopieres til nye kladdenavne, der er oprettet under denne
 
 2. Angiv koden i feltet **Årsagskode** i salgs- eller købshovedet.
 
-Når fakturaen er bogført, kopieres årsagskoden til hver finans-, debitor- og kreditorpost. Du kan ikke knytte forskellige årsagskoder til individuelle købs- og salgslinjer, fordi alle linjer er bogført som en post.
+Når fakturaen er bogført, kopieres årsagskoden til hver finans-, debitor- og kreditorpost. Du kan ikke tilknytte forskellige årsagskoder til individuelle købs- og salgslinjer, fordi alle linjer er bogført som en post.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

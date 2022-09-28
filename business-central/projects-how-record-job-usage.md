@@ -10,12 +10,12 @@ ms.search.keywords: project management, consumption
 ms.search.form: 89, 92, 201, 1007, 1014
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1cfb8fcb086b258ece6de68850b627c19f3bfbcd
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c948845c535474ccd5fb8c3d6e031e5467c9de2f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075833"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532075"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Registrere forbrug eller forbrug til sager
 
@@ -99,7 +99,7 @@ Når du har bogført sagskladdelinjer, kan du se de planlægningslinjer, der er 
 2. Vælg en relevant sagskladde, og vælg derefter handlingen **Poster**.  
 3. På siden **Sagsposter** skal du vælge handlingen **Vis tilknyttede sagsplanlægningslinjer**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also"></a>Se også
 

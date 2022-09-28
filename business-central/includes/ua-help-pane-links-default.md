@@ -4,22 +4,22 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: 7d5c66cd9213953558b4066a83818bbcd0debabc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f574fbb444752b1c8b0761df80dbfdc98e8123e6
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525021"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531670"
 ---
 - Et hyperlink om den aktuelle side
 
   Øverst i ruden viser et kort en kort beskrivelse af den aktuelle side, hvis der findes en. Hvis der ikke er en sidebeskrivelse, viser kortet et enkelt hyperlink til en artikel om siden.  
 
-  Hvis [!INCLUDE[prod_short](prod_short.md)] ikke kan finde det relevante link, vises landingssiden på [Docs.microsoft.com](/dynamics365/business-central). Hvis siden f.eks. var en del af en app, som ikke har føjet kontekstafhængig hjælp til [!INCLUDE[prod_short](prod_short.md)], viser *Få mere at vide-linket* som standard landingssiden.  
+  Hvis [!INCLUDE[prod_short](prod_short.md)] ikke kan finde det relevante link, vises landingssiden i [Microsoft Docs](/dynamics365/business-central) . Hvis siden f. eks. var en del af en app, som ikke har føjet kontekstafhængig hjælpe til [!INCLUDE[prod_short](prod_short.md)], bruges standardlinket *Flere oplysninger* til landingssiden.  
 
-- Links til relaterede artikler fra Microsoft-dokumenter  
+- Links til relaterede artikler
 
-  Disse links er relateret til den aktuelle side og ændres, hvis du flytter til en anden side. Disse links er begrænset til docs.microsoft.com websted. Hvis der er mere end tre links, skal du vælge linket *Vis flere* for at udvide kortet. Vælg et vilkårligt hyperlink, så åbner den relaterede artikel under en ny webbrowser fane.  
+  Disse links er relateret til den aktuelle side og ændres, hvis du flytter til en anden side. Disse links er begrænset til learn.microsoft.com websted. Hvis der er mere end tre links, skal du vælge linket *Vis flere* for at udvide kortet. Vælg et vilkårligt hyperlink, så åbner den relaterede artikel under en ny webbrowser fane.  
 - Links til indhold for apps på den aktuelle side  
 
   Disse links er baseret på enhver app, som udvider siden eller definerer siden.  

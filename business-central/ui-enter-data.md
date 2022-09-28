@@ -10,12 +10,12 @@ ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 398c32043297e6900754da535f01a3fb5059c204
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ecf23184faea42895973d11115904606d715d31a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076821"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528609"
 ---
 # <a name="entering-data"></a>Angivelse af data
 
@@ -282,7 +282,7 @@ Antag f.eks., at du bruger et numerisk tastatur, der bruger et punktum (.) som d
 > [!TIP]
 > Der kan være tilfælde, hvor du vil bruge decimalseparatoren til at angive et punktum (.). Antag f. eks., at du har indtastet et datointerval i et filter, `01/01/2022..04/01/2022` eller alt det, der kræver en periode. Hvis du vil skifte til en periode, skal du trykke på tasterne alt + decimal separator ' på det numeriske tastatur. Denne tastekombination indskriver decimalseparatoren mellem en periode og decimalseparatoren, sådan som det er angivet i indstillingen **Region**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

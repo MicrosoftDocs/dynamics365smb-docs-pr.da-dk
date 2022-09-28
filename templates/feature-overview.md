@@ -6,18 +6,18 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/05/2021
 ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
-ms.openlocfilehash: 5ff9d51f0f1b05436aff60b870915a5410baaef3
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: ccb4d451841c6f9dc41e7837ea768f0d77f7895f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311283"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533451"
 ---
 # <a name="achieve-some-task-or-get-the-overview-in-max-100-characters"></a>Opnå en opgave eller hente oversigten i maks. 100 tegn
 
 Smart introduktionen til kapaciteten med masser af buzzwords. Brug [!INCLUDE [prod_short](includes/prod_short.md)] til produktnavnet, og skriv i aktive sætninger, f. eks. "Hent job hurtigere" og "med denne funktion kan du blah".  
 
-Du finder tips om MarkDown og stil i [Authoring Guide for Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/help/writing-guide).  
+Du finder tips om MarkDown og typografi i [Authoring Guide for Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide).  
 
 Husk at tilføje Se også links og føje den nye artikel til den TOC.md fil.  
 

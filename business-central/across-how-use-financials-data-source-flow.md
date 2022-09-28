@@ -9,12 +9,12 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, work
 ms.date: 05/12/2022
 ms.author: edupont
 author: jswymer
-ms.openlocfilehash: f1128a9fb4e9643286e4305695e1d40719d86301
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 056fe537df2fba23e02cb4e70675937cde724fbf
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079320"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533020"
 ---
 # <a name="use-prod_short-in-power-automate-flows"></a>Brug [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate flows
 
@@ -51,7 +51,7 @@ Du kan oprette flows på [powerautomate.microsoft.com](https://powerautomate.mic
 
 Du kan få vist en oversigt over alle de workflows, du har adgang til, ved at vælge handlingen **Administrer workflows** i menuen **Power Automate**. Listen åbnes i en ny webbrowser-fane, og du bliver automatisk logget på Power Automate. Der kan du se, hvornår hvert flow har kørt for nylig.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/use-power-automate/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/use-power-automate/)
 
 ## <a name="see-also"></a>Se også
 

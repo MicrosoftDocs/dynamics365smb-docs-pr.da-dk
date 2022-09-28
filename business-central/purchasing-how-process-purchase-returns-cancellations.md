@@ -10,12 +10,12 @@ ms.search.keywords: cancel, undo, correct
 ms.search.form: 6640, 6643, 9307, 9309, 9308, 6652, 145, 147
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 643a0206bb5c84cb1530e24403094474d98f28f9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ee86f0211c4694a355c4ec55b8c66e202035ae8e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517312"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530563"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Behandle købsreturvarer eller annulleringer
 
@@ -187,7 +187,7 @@ Når returleverancer er samlet på en faktura og bogført, oprettes der en bogf�
 2. Udfyld felterne efter behov, og vælg derefter knappen **OK**.  
 3. Du kan også slette de individuelle købsreturvareordrer manuelt.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Køb](purchasing-manage-purchasing.md)  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b71ea56c67df7689a268e633880d16fac616027b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: f12a5156cbad785ccede27bbe176b7e3ccd74d9c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077524"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531049"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Oprette bedste fremgangsmåder: Genbestillingspolitikker
 
@@ -41,7 +41,7 @@ Følgende tabel indeholder de bedste fremgangsmåder til at vælge mellem de fir
 |**Fast genbestil.antal**|Brug af C-varer.<br /><br /> Kombinere med parametre for genbestillingspunkt.<br /><br /> Bruges i produktion til komponenter på laveste niveau.<br /><br /> Brug ikke, hvis varen ofte er reserveret.|C-varer, f.eks. tekopper, er varer af lav værdi med høj og regelmæssig ordre velocity. Den bedste genbestillingsmetode for C-varer er derfor en, der garanterer konstant tilgængelighed ved altid at være over et genbestillingspunkt.<br /><br /> Hvis brugeren reserverer en mængde til nogle fremtidige behov, forstyrres grundlaget for planlægningen. Selvom det planlagte beholdningsniveau er acceptabelt med hensyn til genbestillingspunkt, er mængderne muligvis ikke tilgængelige på grund af reservationen.|  
 |**Maks. antal**|Bruges til C-varer med høje lagerbindingsomkostninger eller lagringsbegrænsninger.<br /><br /> Kombineres med en eller flere ordrefaktorer (Minimum/maksimum antal eller oprundingsfaktor).|C-varer, f.eks. tekopper, er varer af lav værdi med høj og regelmæssig ordre velocity. Den bedste genbestillingsmetode for C-varer er derfor en, der garanterer konstant tilgængelighed ved altid at være over et genbestillingspunkt, men under et maksimalt lagerantal.<br /><br /> Hvis du vil ændre den foreslåede ordre, vil du måske formindske ordrestørrelsen til en angiven maksimal ordrestørrelse, øge til en angiven minimumordrestørrelse eller runde op for at opfylde en angiven oprundingsfaktor. **Bemærk:** Hvis den anvendes med et genbestillingspunkt, forbliver lageret mellem genbestillingspunktet og det maksimale antal.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/replenish-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/replenish-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

@@ -3,9 +3,9 @@
 # Kom i gang
 ## [Oversigt over forretningsfunktioner](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)-->
-## Få mere at vide om
+## Lær
 ### [Undervisningskatalog for Business Central](readiness/readiness-learning-catalog.md)
-### [Business Central på Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### [Business Central-træning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Gennemgang af forretningsprocesser
 #### [Tilgængelige forretningsprocesser](walkthrough-business-process-walkthroughs.md)
 #### [Gennemgang: Gennemførsel af en salgskampagne](walkthrough-conducting-a-sales-campaign.md)

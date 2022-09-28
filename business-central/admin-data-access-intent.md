@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9880
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 3ca69d95ae40965c83df56e1454ca9984a448cbb
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 15300f780cbe92a1f5e288979a1c84f34f63cb1a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510975"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532426"
 ---
 # <a name="managing-database-access-intent"></a>Administration af formål med adgang til database
 
@@ -49,7 +49,7 @@ I databaseterminologi kaldes denne funktion ofte for *read scale-out*. Du kan f�
     > [!NOTE]
     > Hvis et objekt, der kan redigeres (f.eks. Kundekort) er **Skrivebeskyttet**, vil den primære database stadig blive brugt, uanset adgangsformålet, så brugerne kan foretage ændringer som normalt.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Forretningsfunktioner](across-business-functionality.md)  

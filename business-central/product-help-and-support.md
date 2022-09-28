@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: 33cd44d4aab7f22dd8ea2cbad7fd21a4955142a0
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: d006df90aa6eba3b1970db971cdb14700a3bbd6b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460614"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531697"
 ---
 # <a name="resources-for-help-and-support"></a>Hjælp og support
 
@@ -87,7 +87,7 @@ Sektionen **Find det** indeholder to links til produkthjælp:
   
 - Hjælpelandingsside for [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Funktionalitet i standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] er beskrevet på webstedet. [Docs.microsoft.com](/dynamics365/business-central). Du kan finde flere oplysninger i afsnittet [Brug af webstedet docs.microsoft.com for at få mere at vide](#use-the-docsmicrosoftcom-site-to-learn-more). Du kan også udvide og tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] med apps fra AppSource. Alle apps har links til den relevante produkthjælp, så du altid kan finde vejledning til forskellig workflows i din version af [!INCLUDE[prod_short](includes/prod_short.md)].  
+  Funktionerne i standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] er beskrevet i [Dynamics 365 Business Central-dokumentationen](/dynamics365/business-central) Du kan finde flere oplysninger i afsnittet [Flere oplysninger om brug af produktdokumentationen](#learn-more-using-the-product-documentation). Du kan også udvide og tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] med apps fra AppSource. Alle apps har links til den relevante produkthjælp, så du altid kan finde vejledning til forskellig workflows i din version af [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="community"></a>Forum
 
@@ -151,13 +151,13 @@ Hvis du vil advare din partner mod et problem, skal du vælge hyperlinket for en
 > [!NOTE]
 > Oplysningerne om supportkontakter er ikke tilgængelige med [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø.
 
-## <a name="use-the-docsmicrosoftcom-site-to-learn-more"></a>Bruge webstedet docs.microsoft.com for at få mere at vide
+## <a name="learn-more-using-the-product-documentation"></a>Flere oplysninger om brug af produktdokumentationen
 
-Basisversionen af [!INCLUDE [prod_short](includes/prod_short.md)] er udvidet og tilpasset af en stor gruppe af partnere. Hver partner og mange debitorer installerer deres egen Hjælp til deres eget websted. Men du kan altid gå til webstedet [docs.microsoft.com](index.md) for at få mere at vide. Webstedet er vært for forskellige typer indhold, f.eks. følgende:
+Basisversionen af [!INCLUDE [prod_short](includes/prod_short.md)] er udvidet og tilpasset af en stor gruppe af partnere. Hver partner og mange debitorer installerer deres egen Hjælp til deres eget websted. Men du kan altid gå til [Dynamics 365 Business Central-dokumentation](index.md) for at få mere at vide. Webstedet er vært for forskellige typer indhold, f.eks. følgende:
 
 - [Begrebsindhold om virksomhedsfunktioner](index.md)  
 - [Dokumentation til udviklere](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
-- [Gratis læringsstier og e-learning-moduler på tværs af flere brugerprofiler](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+- [Gratis læringsstier og e-learning-moduler på tværs af flere brugerprofiler](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
 I dette afsnit kan du få mere at vide om, hvordan du kan navigere i forretningsfunktionalitetens indhold.  
 
@@ -165,7 +165,7 @@ I dette afsnit kan du få mere at vide om, hvordan du kan navigere i forretnings
 
 ### <a name="content-on-the-site"></a>Indhold på webstedet
 
-[Denne sektion](index.md) på webstedet docs.microsoft.com rummer indhold fra Microsoft, som udgør det faste element *Få mere at vide* i modellen for brugerassistance. Indholdet af *Få mere at vide* besvarer til dels de spørgsmål, som brugergrænsefladen ikke kan besvare, f.eks. følgende:
+[Denne sektion](index.md) i Microsoft Learn rummer indhold fra Microsoft, som udgør det faste element *Flere oplysninger* i brugerassistancemodellen. Indholdet af *Få mere at vide* besvarer til dels de spørgsmål, som brugergrænsefladen ikke kan besvare, f.eks. følgende:
 
 - Hvor passer denne side ind i den overordnede arbejdsgang?  
 - Hvad er næste trin?  
@@ -180,11 +180,11 @@ Indholdsfortegnelsen omfatter en gruppe af indhold, der beskriver [lokal funktio
 Det lokale indhold af funktionaliteten beskriver mulighederne i [!INCLUDE [prod_short](includes/prod_short.md)], der kan hjælpe med at være kompatible på de understøttede markeder, f.eks. selvangivelser og andre rapporter. I nogle tilfælde er forskellen mellem standardversionen og den landespecifikke version usynlig for brugerne. I andre tilfælde skal brugerne oprette rapportering eller elektronisk fakturering på en bestemt måde. Hvis du ikke kan finde en beskrivelse af en bestemt knap eller handling i den generelle sektion, kan du forhåbentlig finde den i sektionen *Lokal funktionalitet*.  
 
 > [!TIP]
-> På docs.microsoft.com og i feltet Søg i produkter og i ruden Hjælp vises der en rækkekontekst for destinations artiklen. Konteksten omfatter det link, der kan vise navnet på et land, eller en kort beskrivelse, der kalder en bestemt egenskab eller et land f. eks.
+> På learn.microsoft.com og i feltet Søg i produkter samt i ruden Hjælp viser søgeresultatet kontekst til destinationsartiklen. Konteksten omfatter det link, der kan vise navnet på et land, eller en kort beskrivelse, der kalder en bestemt egenskab eller et land f. eks.
 
 ### <a name="finding-other-content"></a>Søge efter andet indhold
 
-Hvis du lander på en artikel, der ikke besvarer dit spørgsmål, kan du finde andet indhold på to måder på webstedet docs.microsoft.com:
+Hvis du lander på en artikel, der ikke besvarer dit spørgsmål, kan du finde andet indhold på to måder i Microsoft Learn:
 
 - Brug feltet **Filtrer efter titel** i indholdsfortegnelsen i venstre side af webstedet
 
@@ -197,21 +197,21 @@ Hvis du lander på en artikel, der ikke besvarer dit spørgsmål, kan du finde a
 
 ### <a name="languages"></a>Sprog
 
-Indhold om forretningsfunktionalitet publiceres på mange sprog. Når du lander på docs.microsoft.com fra produktet, kan du se indholdet på samme sprog som det, du har angivet i [!INCLUDE [prod_short](includes/prod_short.md)], medmindre dette sprog ikke er tilgængeligt på webstedet docs.microsoft.co.  
+Indhold om forretningsfunktionalitet publiceres på mange sprog. Når du lander på Microsoft Learn fra produktet, kan du se indholdet på samme sprog som det, du har angivet i [!INCLUDE [prod_short](includes/prod_short.md)], medmindre dette sprog ikke er tilgængeligt på Microsoft Learn.  
 
 Du kan ændre sproget ved at ændre URL-adressen, eller du kan bruge til/fra-funktionen for sproget nederst til venstre på webstedet.  
 
 Indholdet oprettes på engelsk og publiceres til URL-adresser med *en-us* som sprogkode. Når nye oplysninger udgives på engelsk, sendes de til oversættelse på de understøttede sprog. I nogle tilfælde kan du ikke læse dette nye indhold på dit eget sprog i op til fire uger, men det vil i de fleste tilfælde kun tage en uge eller to. Du kan altid få vist de seneste oplysninger ved at skifte sproget til *en-us*.  
 
-For hvert sprog oversættes indholdsfortegnelsen, men indholdet i sektionen *Lokal funktionalitet* er på engelsk med undtagelse af det land, der svarer til det aktuelle sprog. I den danske version af webstedet docs.microsoft.com (`https://docs.microsoft.com/da-dk/dynamics365/business-central/`) kan du se titlen på den lokale australske funktionalitet på dansk i indholdsfortegnelsen, men artiklerne er på engelsk. Det er kun artiklerne for den lokale danske funktionalitet, der oversættes til dansk.  
+For hvert sprog oversættes indholdsfortegnelsen, men indholdet i sektionen *Lokal funktionalitet* er på engelsk med undtagelse af det land, der svarer til det aktuelle sprog. I den danske version af Microsoft Learn (`https://learn.microsoft.com/da-dk/dynamics365/business-central/`) kan du se posterne for den lokale australske funktionalitet på dansk i indholdsfortegnelsen, men artiklerne er på engelsk. Det er kun artiklerne for den lokale danske funktionalitet, der oversættes til dansk.  
 
 ### <a name="recommended-content"></a>Anbefalet indhold
 
-I marts 2021 blev der vist en ny sektion i de fleste artikler på webstedet docs.microsoft.com. Sektionen **Anbefalet indhold** genereres automatisk, afhængigt af hvordan hver artikel bruges sammen med resten af webstedet docs.microsoft.com. Linkene er ikke statiske og ændres med tiden.
+I marts 2021 blev der introduceret en ny sektion i de fleste artikler på Microsoft Learn. Sektionen **Anbefalet indhold** genereres automatisk, afhængigt af hvordan hver artikel bruges sammen med resten af webstedet. Linkene er ikke statiske og ændres med tiden.
 
 ### <a name="tell-us-what-you-think"></a>Fortæl os, hvad du synes
 
-På docs.microsoft.com har hver artikel to knapper forneden. Knappen *Dette produkt* fører dig til webstedet Ideer, og med knappen **Denne side** kan du indsende feedback om indholdet via GitHub. I begge tilfælde skal du oprette en konto, hvis du ikke allerede har en. For *produktfeedback* skal du logge på med din arbejds- eller organisationsbaserede mailkonto. For *adgang til GitHub* kan du bruge en hvilken som helst mailadresse , når du opretter en konto.  
+På Microsoft Learn har hver artikel to knapper nederst i artiklen. Knappen *Dette produkt* fører dig til webstedet Ideer, og med knappen **Denne side** kan du indsende feedback om indholdet via GitHub. I begge tilfælde skal du oprette en konto, hvis du ikke allerede har en. For *produktfeedback* skal du logge på med din arbejds- eller organisationsbaserede mailkonto. For *adgang til GitHub* kan du bruge en hvilken som helst mailadresse , når du opretter en konto.  
 
 Vi værdsætter dine bidrag, både som pull-anmodninger med forslag eller rettelser til indholdet, og som GitHub-problemer med fejl eller spørgsmål. Men vær opmærksom på, at feedback og bidrag til rapporten *dynamics365smb-docs* vedrører indholdet, ikke produktet.  
 
@@ -220,7 +220,7 @@ Vi værdsætter dine bidrag, både som pull-anmodninger med forslag eller rettel
 
 ### <a name="navigating-to-other-parts-of-the-site"></a>Navigere til andre dele af webstedet
 
-På docs.microsoft.com findes også indhold til andre produkter og andre typer indhold. Brug linkene øverst på webstedet til f.eks. at navigere til [Microsoft Learn-webstedet](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) eller til [Dynamics 365-frigivelsesplaner](/dynamics365/release-plans/). Du kan f.eks. også finde et link til webstedet [Dynamics 365-community](https://community.dynamics.com/).  
+Microsoft Learn rummer indhold til andre produkter og andre typer indhold. Brug linkene øverst på webstedet til at navigere til eksempelvis [Microsoft-træning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)-webstedet eller til [Dynamics 365-udgivelsesplaner](/dynamics365/release-plans/). Du kan f.eks. også finde et link til webstedet [Dynamics 365-community](https://community.dynamics.com/).  
 
 ## <a name="apps-and-other-solutions"></a>Apps og andre løsninger
 
@@ -238,6 +238,6 @@ Det samme gælder, hvis du bruger [!INCLUDE [prod_short](includes/prod_short.md)
 [Business Central-udvikler- og administrationsdokumenter](/dynamics365/business-central/dev-itpro/)  
 [Hjælp og support for partnere](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Teknisk support](/dynamics365/business-central/dev-itpro/technical-support)  
-[Webstedet for Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Microsoft Learn-websted](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

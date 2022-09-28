@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832
 ms.date: 04/27/2022
 ms.author: jswymer
-ms.openlocfilehash: a2c0754aed38d80fc4a088ab7dccec81cb0141e0
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 302de4dbae96280f7127091a367184af25c8c29a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654910"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532804"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Få Business Central-tilføjelsesprogram til Outlook
 
@@ -122,7 +122,7 @@ Hvis du bruger Business Central lokalt, kan det være en smule anderledes at ins
 
 Du er nu klar til at begynde at bruge tilføjelsesprogrammet i Outlook.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

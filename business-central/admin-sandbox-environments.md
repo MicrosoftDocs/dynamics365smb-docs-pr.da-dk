@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: c1e576d24e9a9ca3b81e58e534449729776c6fa1
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: f921660e82bb288b64a0ab559290c7645f1e9007
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130168"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529688"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Sandkassemiljøer i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -28,7 +28,7 @@ Administratoren administrerer sandkassemiljøer i [Administration](/dynamics365/
 
 Hvis du f.eks. vil oprette en sandkasse til benchmarking, kan administratoren oprette et dedikeret miljø i administrationscenteret. Du kan finde flere oplysninger i [Produktions- og sandkassemiljøer](/dynamics365/business-central/dev-itpro/administration/environment-types) i indholdet til udviklere og og administration.  
 
-Du kan også trygt bruge sandkasser til træning, f.eks. ved at følge en læringssti fra [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), da det er et sikkert miljø at eksperimentere i. Hvis noget går galt, skal du bare slette sandkassen og starte forfra.  
+Du kan også trygt bruge sandkasser til træning, f.eks. ved at følge en læringssti fra [Microsoft-træning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), da det er et sikkert miljø at eksperimentere i. Hvis noget går galt, skal du bare slette sandkassen og starte forfra.  
 
 Når du er færdig, kan du fjerne sandkassen via Administrationscenter.  
 
@@ -70,7 +70,7 @@ Du kan finde flere oplysninger i [Brug designer](/dynamics365/business-central/d
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

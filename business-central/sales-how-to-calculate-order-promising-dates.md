@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 8a310ba099c6eb5c90d116304240db3291bac67c
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ebe70f9fdd98f68616b15eaf37154c6072c601a8
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079502"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533558"
 ---
 # <a name="calculate-order-promising-dates"></a>Beregne ordrebekræftelsesdatoer
 
@@ -134,7 +134,7 @@ Før en vare kan indgå i beregningen af ordrebekræftelsen, skal den markeres s
     - Marker **Første m. afs.dato**, hvis du ved, at varen er udgået af lageret og du vil beregne den tidligste dato, varen kan være disponibel ved at afsende en genbestillingsordre.  
 5.  Vælg knappen **Accepter** for at godkende den tidligst tilgængelige afsendelsesdato.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/promising-sales-order-delivery-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

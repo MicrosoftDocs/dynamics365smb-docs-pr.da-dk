@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 03/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 9cc827630c5acfeba2efc860d8baf67cd31bb404
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e59a57e6cac21f4909088defc42da795e5550562
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525015"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535849"
 ---
 # <a name="setting-the-layout-used-by-a-report"></a>Angive det layout, der bruges af en rapport
 
@@ -62,7 +62,7 @@ Der er to måder at angive det layout, som en rapport bruges på. En metode er f
 
 Rapporter er som standard udformet til at bruge et layout. Du kan skifte tilbage til det oprindelige standardlayout fra siden til **valg af rapportlayout**. Vælg rapporten, og vælg derefter **Gendan standardmarkeringshandlingen** øverst på siden.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

@@ -10,12 +10,12 @@ ms.search.keywords: COA, cha of acc
 ms.search.form: 16, 17, 18, 118, 386, 391
 ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: f2ef4432d91d9f647a4bea58febbdfd5513a4350
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 57dadabe2e96654a919127f17fcc6391786eb90f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520278"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533612"
 ---
 # <a name="set-up-or-change-the-chart-of-accounts"></a>Konfigurere eller ændre kontoplanen
 
@@ -58,7 +58,7 @@ Når feltet **Bloker sletning af finanskonti** er angivet til *Ja*, kan du ikke 
 
 Det anbefales, at du angiver feltet **Bloker sletning af finanskonti** til *Ja*. Det anbefales også, at du altid har en dato i feltet **Kontrollér sletning af finanskonto efter**, f. eks. det tidspunkt, hvor du skal gemme dine økonomi data.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

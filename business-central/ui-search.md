@@ -10,12 +10,12 @@ ms.search.keywords: find
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: df2500afba5eb695680347a41169dafc78b0facd
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 0e1f394be1503c76bbf071ca188612b06231e107
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799426"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532291"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Søge efter sider og oplysninger med Fortæl mig  
 I dette emne beskrives det, hvordan Fortæl mig kan hjælpe dig med hurtigt se komme til f.eks. handlinger, sider eller rapporter, finde oplysninger om, hvordan du udfører en bestemt opgave og finder flere apps og konsulenttjenester til [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -67,7 +67,7 @@ Funktionen **Fortæl mig, hvad du vil foretage dig** søger ikke efter data, f.e
 ## <a name="questions"></a>Spørgsmål?
 Vi har vist Fortæl mig til en række interessenter, noteret de spørgsmål, de havde fælles, og lavet vores noter om til en oversigt over ofte stillede spørgsmål. Hvis du er interesseret, kan du se [Fortæl mig – ofte stillede spørgsmål](ui-search-faq.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Arbejde med Business Central](ui-work-product.md)  

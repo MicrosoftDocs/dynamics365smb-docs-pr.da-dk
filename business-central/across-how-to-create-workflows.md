@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: 301856bcf246f7546992de588472459e1bbec378
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 7f3db5df7c4ea03969eff2efe1a8d019f006ad40
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130087"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531805"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Oprette arbejdsprocesser for at forbinde virksomhedsbehandlingsopgaver
 
@@ -182,7 +182,7 @@ Følgende illustration giver en oversigt over resultatet af denne procedure.
 
 Derefter skal du afprøve arbejdsgangen ved at åbne en eksisterende kreditorkort og ændre navnet. Kontrollere, at der er sendt en godkendelsesanmodning om ændring af kreditorens navn.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Se også
 

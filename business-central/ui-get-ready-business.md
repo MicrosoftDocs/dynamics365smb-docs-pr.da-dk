@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 05/25/2022
 ms.author: edupont
-ms.openlocfilehash: 26c988bcfce774dfa05b77c52347cfcf83106309
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 167ad75bceeec8e0e5bb998f8075f547a51b2157
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805122"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535795"
 ---
 # <a name="get-ready-for-doing-business"></a>Bliv klar til at agere
 
@@ -114,9 +114,9 @@ Baseret på de overflyttede data, kan du nu fortsætte med at oprette nye salgs-
 [Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
 [Søg i ruden hjælp](product-help-and-support.md#search-in-the-help-pane)  
 [Ressourcer til hjælp og support](product-help-and-support.md)  
-[Webstedet for Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Microsoft-træning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Overfør data](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
-[Prøveversioner og abonnementer](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions.md)  
+[Prøveversioner og abonnementer](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

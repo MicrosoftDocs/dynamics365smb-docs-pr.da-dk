@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2021
+ms.date: 09/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 67e564271e54c7c6c7f1b141172a537cd2bd6286
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0512e0f77f563b92c0ffcf4c2430a3a3ee329bbb
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510938"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532777"
 ---
 # <a name="work-with-prod_short-data-in-power-bi"></a>Arbejde med [!INCLUDE [prod_short](includes/prod_short.md)] data i Power BI
 
@@ -31,6 +31,8 @@ Når du har en Power BI-konto, kan du logge på [https://powerbi.microsoft.com/]
 Power BI-tjenesten er vært for alle de rapporter, der er tilgængelige. Hvis du vil have vist rapporten, skal du vælge **Mit arbejdsområde** > **Rapporter**. Derefter skal du blot vælge den rapport, du vil have vist.
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] online får du automatisk et sæt standardrapporter i arbejdsområdet. Hvis du vil oprette dine egne rapporter, kan du bruge Power BI Desktop til at oprette rapporter og derefter udgive dem i arbejdsområdet. Du kan finde flere oplysninger i [Introduktion til oprettelse af rapporter i Power BI Desktop for at få vist [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md).
+
+[!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
 Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, skal du starte fra bunden ved hjælp af Power BI Desktop. Power BI-rapporter kan også distribueres som filer, som du kan overføre.
 
@@ -75,7 +77,7 @@ Hvis du vil dele en rapport i en listerapport eller i en åben rapport, skal du 
 > [!NOTE]
 > Du skal have [Power BI Pro-licens](/power-bi/service-features-license-type), og det samme gælder de personer, som du deler med. Indholdet skal være i et arbejdsområde med en [Premium-kapacitet](/power-bi/service-premium-what-is). Du kan få flere oplysninger i [Sådan deler du dit arbejde i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

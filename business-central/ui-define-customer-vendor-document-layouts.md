@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 21, 9650
 ms.date: 04/07/2022
 ms.author: edupont
-ms.openlocfilehash: 722d457705b80787aa60c49ff02e4ba36ff6f250
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 809e29160e45bed28a5d79a7af32c3e98b19a490
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076847"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531589"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Angiv dokumentlayout for debitorer og leverandører
 
@@ -51,7 +51,7 @@ Hvis du vil spare tid, når du sender dokumenter til kunde-og leverandør kontak
 1. På siden **Dokumentlayouts** skal du på linjen for et rapportlayout, som du vil sende til en bestemt kontaktperson, vælge handlingen **Vælg e-mail fra kontaktpersoner**.
 2. Vælg en eller flere kontakter på siden **kontaktpersoner**, og vælg derefter **OK**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

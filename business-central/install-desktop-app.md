@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: 3e04e348c55fa487f8a7776c0f197210c3cacb49
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b188268feeb483a62ee82990ba3cf92b5afa1606
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519748"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528970"
 ---
 # <a name="get-business-central-desktop-app"></a>Hent Business Central Desktop-app
 
@@ -72,7 +72,7 @@ Forskellen er, når du har flere arkitekturer. I modsætning til [!INCLUDE[prod_
 > [!IMPORTANT]
 > Hvis du bruger Business Central 2021 udgivelsesbølge 1 (version 18) eller tidligere versioner, kan du ikke installere appen som beskrevet i denne artikel. Du skal i stedet installere app'en fra [Microsoft store ](https://go.microsoft.com/fwlink/?LinkId=734848). Du kan finde flere oplysninger og hjælp til installation af denne ældre app under [forberedelse af og installation af Business Central-app](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

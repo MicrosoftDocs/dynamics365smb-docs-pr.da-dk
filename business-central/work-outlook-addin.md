@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/21/2022
 ms.author: jswymer
-ms.openlocfilehash: ac75505d2f9987037cf04bbe96a0a1eb398c737c
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 94ff94bab70582f4f9b4dcd73a5923931317d6f1
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655841"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530320"
 ---
 # <a name="use-business-central-as-your-business-inbox-in-outlook"></a>Brug Business Central som din virksomheds Indbakke i Outlook
 
@@ -128,7 +128,7 @@ Hvis du bruger Outlook-appen, skal du blot vælge **Dokumentlink** øverst i e-m
 > Starter i 2022 udgivelsesbølge 1 ved at åbne et nyt browservindue i et nyt browservindue med alle de egenskaber, du kender fra [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan navigere fra et dokument til en liste og tilbage igen, åbne lister i Excel, sende dokumenter til udskrivning og køre eller få vist relaterede rapporter. Du har også alle de velkendte tastaturgenveje, når du åbner dokumenter fra Outlook.  
 
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

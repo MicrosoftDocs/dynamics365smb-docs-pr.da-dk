@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 1290, 1294, 1287
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4d910826249f7a5e799a02c229bbb7875020df51
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e942adc661b31dbb181624ff66ebd33a2d50b255
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514799"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531076"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Konfigurere regler for automatisk udligning af betalinger
 
@@ -77,10 +77,10 @@ I følgende tabel beskrives standard betalings reglerne i [!INCLUDE[prod_short](
 | Lav              | 1        | Fuldt ud                 | Nej                             | Ingen afstemninger                     |
 | Lav              | 2        | Delvist             | Nej                             | Flere afstemninger               |
 | Lav              | 3        | Delvist             | Nej                             | Ingen afstemninger                     |
-| Lav              | 4        | Nej                    | Nej                             | En afstemning                      |
-| Lav              | 5        | Nej                    | Nej                             | Flere afstemninger               |
+| Lav              | 4        | Nr.                    | Nr.                             | En afstemning                      |
+| Lav              | 5        | Nr.                    | Nr.                             | Flere afstemninger               |
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/reconciliation-journals-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md)  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bcc706a221c40019792167b4b75cb8826216457d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 49280683e865e1c86f50532999dfa182e15015a2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147212"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530293"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Konfigurere afsendelse og modtagelse af elektroniske dokumenter
 
@@ -142,7 +142,7 @@ Emnet indeholder følgende procedurer:
     |---------------------------------|---------------------------------------|  
     |**Finanskonto til ikke-varelinjer**|Angiver den finanskonto, der indsættes automatisk på indkøbslinjer, der er oprettet fra elektroniske dokumenter, når den indgående bilagslinje ikke indeholder en vare, der kan identificeres. En indgående bilagslinje, der ikke har en GTIN eller kreditors varenummer, konverteres til en købslinje af typen **Finanskonto**, og feltet **Nr.** på købslinjen vil indeholde den konto, som du vælger i feltet **Finanskonto til ikke-varelinjer**.<br /><br /> Hvis du lader feltet **Finanskonto til ikke-varelinjer** stå tomt, og det indgående bilag indeholder linjer uden identificerbare varer, bliver indkøbsdokumentet ikke oprettet. En fejlmeddelelse beder dig om at udfylde feltet **Finanskonto til ikke-varelinjer**, inden du kan udføre opgaven.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også  
 [Udveksle data elektronisk](across-data-exchange.md)   

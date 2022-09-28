@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: ceba015b16e990bc71e0217ed2f8ee85ca6ae1ec
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 96d2542c719c7a93f4190294c7b4f42e0a11c68e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074870"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535043"
 ---
 # <a name="setting-up-cost-accounting"></a>Konfigurere omkostningsregnskab
 
@@ -195,7 +195,7 @@ For hver enkelt finanskonto kan du definere standarddimensionsværdier i tabelle
 > [!NOTE]  
 >  For at sikre, at det foruddefinerede omkostningssted og omkostningsemne, du har oprettet i regnskabet, automatisk overføres til omkostningsregnskab, skal du markere afkrydsningsfeltet **Kontroller finansbogføringer** på siden Konfiguration af omkostningsregnskab.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

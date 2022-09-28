@@ -10,12 +10,12 @@ ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.search.form: 1950, 1951,
 ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5c62b50867383ffb4aa9b3bff375d9c36a1e194c
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: a2b6cc372846ec525c9f035aa98c5daafbf31913
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361497"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533759"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Udvidelsen Forudsigelse af forsinket betaling
 
@@ -118,13 +118,13 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 7. Marker afkrydsningsfeltet **Brug mit Azure-abonnement**.
 8. I oversigtspanelet **Legitimationsoplysninger for min model** skal angive API URL-adressen og API-nøgle til din model.  .  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/predict-late-payments-sales-documents/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/predict-late-payments-sales-documents/)
 
 ## <a name="see-also"></a>Se også
 
 [Dokumentation til Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Tilpasse Business Central ved brug af udvidelser](ui-extensions.md)  
 [Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
-[Kunstig intelligens i Microsoft Dynamics 365 Business Central (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
+[Bruge Kunstig intelligens i Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

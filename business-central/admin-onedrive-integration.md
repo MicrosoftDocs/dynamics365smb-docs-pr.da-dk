@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 02/28/2022
 ms.author: jswymer
-ms.openlocfilehash: 7f630f8c13f692889f1d8526698d42633c42a4ee
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c55abae59196d896b48a7b656e7fb7c4c7734fa8
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514591"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524489"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>Administration af OneDrive-integration med Business Central
 
-Denne artikel giver en oversigt over, hvad en administrator kan gøre for at kontrollere OneDrive for Business-integration med [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[prod_short](includes/prod_short.md)]-onlinekunder drager fordel af automatisk integration, uden at der kræves yderligere opsætning for at bruge disse funktioner. 
+Denne artikel giver en oversigt over, hvad en administrator kan gøre for at kontrollere OneDrive for Business-integration med [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[prod_short](includes/prod_short.md)]-onlinekunder drager fordel af automatisk integration, uden at der kræves ekstra opsætning for at bruge disse funktioner. 
 
 ## <a name="minimum-requirements"></a>Minimumkrav
 
@@ -53,7 +53,7 @@ Som en del af en øvelse i genoprettelse efter nedbrud skal administratorer muli
 
 ## <a name="configuring-business-central-on-premises"></a>Konfigurere Business Central lokalt
 
-En administrator skal oprette forbindelsen mellem [!INCLUDE[prod_short](includes/prod_short.md)] lokalt og OneDrive. Til forskel fra [!INCLUDE[prod_short](includes/prod_short.md)]-online er forbindelsen ikke automatisk. Hvis forbindelsen ikke er konfigureret, kan brugere ikke bruge funktionerne til OneDrive. 
+En administrator skal oprette forbindelsen mellem [!INCLUDE[prod_short](includes/prod_short.md)] lokalt og OneDrive. Til forskel fra [!INCLUDE[prod_short](includes/prod_short.md)]-online er forbindelsen ikke automatisk. Hvis forbindelsen ikke er konfigureret, kan brugere ikke bruge funktionerne til OneDrive.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] On-Premises kan kun være tilsluttet OneDrive, der er hostet af Microsoft i skyen. Tilslutning af [!INCLUDE[prod_short](includes/prod_short.md)] på stedet til lageret for mit websted for SharePoint-serveren understøttes ikke.
 
@@ -64,7 +64,7 @@ En administrator skal oprette forbindelsen mellem [!INCLUDE[prod_short](includes
 >* Når du eksporterer en rapport til en fil, vil filen automatisk blive kopieret til OneDrive og derefter åbne den i Excel online, Word online eller OneDrive. 
 >* Andre funktioner kan også blive åbnet automatisk i OneDrive.
 
-### <a name="to-prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>Sådan forberedes [!INCLUDE[prod_short](includes/prod_short.md)] lokalt til oprettelse af forbindelse til OneDrive
+### <a name="prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>Forbered [!INCLUDE[prod_short](includes/prod_short.md)] lokalt til oprettelse af forbindelse til OneDrive
 
 <!-- 
 1. For the best experience Configure Azure Active Directory (AD) authentication.
@@ -86,12 +86,12 @@ For Business central 2021 udgivelsesbølge 2 (version 19) skal du angive disse t
 
 Du kan gøre dette i Azure-portalen. Sørg for at kopiere den applikation (klient-ID) og klienthemmelighed, der bruges af det registrerede program. Du skal bruge disse oplysninger i næste opgave.
 
-Du kan finde flere oplysninger om registrering af et program og konfiguration af tilladelser i [Registrere et program i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory)-hjælp til udviklere og it-fagfolk.
+Du kan finde flere oplysninger om kontoforudsætninger, registrering af et program og konfiguration af tilladelser i [Registrere et program i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory)-hjælp til udviklere og it-fagfolk.
 
 > [!TIP]
 > Hvis du allerede har registreret et program som en del af integrationen med et andet Microsoft-produkt, f. eks. Power BI, kan du genbruge denne app-registrering. I så fald skal du blot angive SharePoint-tilladelserne.
 
-### <a name="to-set-up-the-connection-in-prod_short-on-premises"></a>Sådan konfigureres forbindelsen i [!INCLUDE[prod_short](includes/prod_short.md)] lokalt
+### <a name="set-up-the-connection-in-prod_short-on-premises"></a>Konfigurer forbindelsen i [!INCLUDE[prod_short](includes/prod_short.md)] lokalt
 
 <!--
 > [!NOTE]
@@ -118,7 +118,9 @@ Du kan finde flere oplysninger om registrering af et program og konfiguration af
 > Siden SharePoint Connection setup bruges til at konfigurere flere ældre funktioner. I sektionen **Generelt** konfigureres forbindelsen til OneDrive, og afsnittet **Delte dokumenter** omdirigerer filerne til SharePoint i stedet for. Funktionen ældre SharePoint er forældet i den nærmeste fremtid. Det anbefales, at du ikke konfigurerer afsnittet **Delte dokumenter**.
 
 ## <a name="see-also"></a>Se også
+
 [Business Central og OneDrive for Business Integration](across-onedrive-overview.md)  
 [Åbner Business Central-filer i OneDrive](across-share-onedrive.md)  
-[OneDrive Ofte stillede spørgsmål](admin-onedrive-faq.md)
+[OneDrive Ofte stillede spørgsmål](admin-onedrive-faq.md)  
 
+[!INCLUDE[footer-include](includes/footer-banner.md)]

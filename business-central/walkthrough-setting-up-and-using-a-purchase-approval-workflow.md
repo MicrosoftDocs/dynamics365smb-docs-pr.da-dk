@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 276e80b622bc0dceb5280e7a4a95e7583ac89a8e
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 65959b62d89bcbca8c80071c55579339ffc8448a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129628"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533773"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Gennemgang: Opsætning og brug af workflow for godkendelse af køb
 
@@ -123,12 +123,12 @@ Du definerer arbejdsgangsvariationer ved at udfylde felter om arbejdsganglinjer 
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also"></a>Se også
 
 [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  
-[Konfiguration af arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)  
+[Konfiguration af workflownotifikationer](across-setting-up-workflow-notifications.md)  
 [Oprette arbejdsgange](across-how-to-create-workflows.md)  
 [Bruge godkendelsesworkflows](across-how-use-approval-workflows.md)  
 [Workflow](across-workflow.md)  

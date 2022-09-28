@@ -11,12 +11,12 @@ ms.search.form: 6316, 6317
 ms.reviewer: edupont
 ms.date: 08/30/2022
 ms.author: jswymer
-ms.openlocfilehash: 0742320b4cb334b3c01c86ec0e10ec82114bd215
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 43c0b32a25d8ebb55aae14937a6d8c2269395963
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460695"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533909"
 ---
 # <a name="introduction-to-prod_short-and-power-bi"></a>Introduktion til [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI
 
@@ -76,7 +76,7 @@ Der er nogle få opgaver, der skal udføres, før du kan bruge Power BI sammen m
 
 -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

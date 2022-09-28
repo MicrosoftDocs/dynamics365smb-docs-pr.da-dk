@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 42, 48, 50, 52, 9305, 9307
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: e1bc919488a1932338b71938cc4c6e2928cfc177
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c39d5e0462c9fb4563e9f481256c916f0b9c397e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514013"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535205"
 ---
 # <a name="invoicing-prepayments"></a>Fakturere forudbetalinger
 
@@ -35,7 +35,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Oprette en ordre, regulere forudbetalingsbeløb, og udstede en faktura for forudbetalingsbeløb.|[Oprette forudbetalingsfakturaer](finance-how-to-create-prepayment-invoices.md)|  
 |Udstede en supplerende forudbetalingsfaktura, enten for ekstra varer eller for et ekstra depositum til den oprindelige ordre, eller udstede en forudbetalingskreditnota.|[Rette forudbetalinger](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret oplæring på [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

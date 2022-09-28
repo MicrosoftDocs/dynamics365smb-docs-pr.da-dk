@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7368, 7369, 7370, 7371, 7372, 7373
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8b64a0314f4880ed9bc5a6c10a37c8747e4aa561
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 217b5c66e61e88917fcfb7bf960633faa38b381e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077758"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533720"
 ---
 # <a name="create-bins"></a>Oprette placeringer
 
@@ -76,7 +76,7 @@ Hvis du vil arbejde med siden **Placeringsopr.kladde**, skal du være oprettet s
 
 Gentag processen, hvis det er nødvendigt med endnu et sæt placeringer, indtil du har oprettet alle placeringerne på lagerstedet.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/create-new-bins/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/create-new-bins/)
 
 ## <a name="see-also"></a>Se også
 

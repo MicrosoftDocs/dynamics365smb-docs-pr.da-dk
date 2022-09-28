@@ -10,12 +10,12 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 08/26/2022
 ms.author: bholtorf
-ms.openlocfilehash: e3cb6fd841dc4d6e0f9b00d2966ca00bab577b15
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 96505ae8097131b6c02aba65c9ab751b3e331224
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460774"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535178"
 ---
 # <a name="set-up-posting-groups"></a>Konfigurere bogføringsgrupper
 
@@ -132,7 +132,7 @@ Når der er noget galt, viser [!INCLUDE[prod_short](includes/prod_short.md)] sid
 > [!NOTE]
 > Den fejlhåndtering, der er beskrevet ovenfor, er ikke tilgængelig i vare-, ressource-, medarbejder- og anlægsaktivkladder eller for finanskonti, der er tilføjet i lokale versioner af bogføringsgrupper.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/posting-groups-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/posting-groups-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

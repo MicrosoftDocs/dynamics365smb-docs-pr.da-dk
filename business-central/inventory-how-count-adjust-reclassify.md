@@ -10,12 +10,12 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.search.forms: 1327, 393, 392, 390, 7381, 7380, 7319, 7324, 7326, 7365
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 4267e7de6f34c3aa419d3d3fc78739c372b48a64
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 40e11554ab073c62b33b0623fc2bbd5a8038f686
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078044"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533290"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Tælle, justere og ompostere inventar ved hjælp af kladder
 
@@ -233,7 +233,7 @@ Følgende eksempel er baseret på en lokationskode. Trinene er de samme for andr
 
 Du kan finde oplysninger om overførsel af varer med fuld kontrol over de antal, der er leveret og modtaget, i [Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/adjust-inventory/)
 
 ## <a name="see-also"></a>Se også
 

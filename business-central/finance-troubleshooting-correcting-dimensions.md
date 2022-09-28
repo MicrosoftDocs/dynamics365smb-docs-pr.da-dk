@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 82f71f3fafb0b977dde28033443f4585aeaced52
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 2f9662df035851c1700a3b5ca01b71a418832dbf
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075417"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532831"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Fejlfinding og korrigering af dimensioner
 
@@ -122,7 +122,7 @@ Hvis en rettelse ikke fuldføres, vises der en advarsel på rettelseskortet. Hvi
 
 Når du har rettet dimensionerne vil dine data til omkostningsregnskabet ikke være synkroniserede. Omkostningsregnskabet bruger dimensioner til at samle beløb for omkostningssteder og omkostningsemner og udføre omkostningsfordelinger. Ændring af dimensioner for finansposter vil det sandsynligvis betyde, at du skal køre dine omkostningsregnskabsmodeller igen. Uanset om du bare har brug for at slette nogle få omkostningsregistre og udføre fordelinger igen, eller du vil slette alle dine modeller, afhænger af de data, der er blevet opdateret, og hvordan funktionerne til omkostningsregnskabet er konfigureret. Du skal manuelt identificere hvor dimensionsrettelser vil påvirke omkostningsregnskabet, og hvor opdateringer er nødvendige. I øjeblikket kan [!INCLUDE[prod_short](includes/prod_short.md)] ikke udføre denne proces automatisk.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/dimensions-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/dimensions-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

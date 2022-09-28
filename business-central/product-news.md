@@ -6,12 +6,12 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 7077e434ba564b62cfb03155a60b16460cea9ee3
-ms.sourcegitcommit: 7a6efcbae293c024ca4f6622c82886decf86c176
+ms.openlocfilehash: 3c26215511829512241a2aac1d20880beca251cb
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "8841945"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532129"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Nyt og planlagt for Dynamics 365 Business Central
 
@@ -35,7 +35,7 @@ Du kan også udforske [Dynamics 365 Business Central Funktioner](https://dynamic
 
 [Besøge vores videobibliotek](across-videos.md)  
 [Ressourcer til hjælp og support](product-help-and-support.md)  
-[Dynamics 365 Business Central på Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Dynamics 365 Business Central-træning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Hurtig start af Business Central](quick-start-business-central.md)  
 [Dynamics 365 Business Central Funktioner](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Dynamics 365 Business Central Oversigt](https://dynamics.microsoft.com/roadmap/business-central/)  

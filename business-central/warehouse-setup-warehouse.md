@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: db5db1518e4064a158e83ccfef1409d919a4e35d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: d2d7e2f3f71cd0791df27eb378bfa4bf66338afa
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075625"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532318"
 ---
 # <a name="setting-up-warehouse-management"></a>Sådan konfigureres Warehouse Management
 
@@ -42,7 +42,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Integrere stregkodebrugere i din lagerstyringsløsning. Kun til lokal installation.|[Brug ADCS (Automated Data Capture Systems)](warehouse-use-automated-data-capture-systems-adcs.md)|
 |Angiv standardrapporter, der skal bruges til forskellige dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/set-up-warehouse-management/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/set-up-warehouse-management/)
 
 ## <a name="see-also"></a>Se også
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7351
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: eafddef05562e5b63c291f8ea9ca130b878dcd68
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 1c1f86cae4ad411efe21453d58761b436bb7470d
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075183"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532507"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Flytte varer i avancerede lageropsætninger
 
@@ -50,7 +50,7 @@ Hvis lokationen bruger styret læg-på-lager og pluk, og du skal flytte varer ti
 2.  Udfyld felterne **Varenr.**, **Fra zonekode**, **Fra placeringskode**, **Til zonekode** og **Til placeringskode**.  
 3.  Vælg handlingen **Registrer**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also"></a>Se også
 

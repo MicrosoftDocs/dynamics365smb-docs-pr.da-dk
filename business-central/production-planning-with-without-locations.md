@@ -7,37 +7,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/16/2021
+ms.date: 09/15/2022
 ms.author: edupont
-ms.openlocfilehash: 97ba3a62954ae2d38106f0dc7aa4f1080e483ef5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4bb3f626e02259171a9a1bf41c580f34aaa19758
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517839"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524527"
 ---
 # <a name="planning-with-or-without-locations"></a>Planlægge med eller uden lokationer
-Med hensyn til planlægning med eller uden lokationskoder på behovslinjer fungerer planlægningssystemet på samme ukomplicerede måde, når:  
 
--   behovslinjer altid har lokationskoder, og systemet bruger lagervarer i fuld udstrækning, herunder den relevante lokationsopsætning.  
--   behovslinjer aldrig har lokationskoder, og systemet ikke bruger lagervarer eller nogen form for lokationsopsætning (se sidste eksempel nedenfor).  
+Før du begynder at bruge planlægningsprogrammet, anbefaler vi, at du beslutter, om du vil bruge lokationer. Der er to enkle, enkle muligheder:
 
-Hvis behovslinjerne derimod sommetider har lokationskoder og sommetider ikke, vil planlægningssystemet følge visse regler afhængigt af opsætningen.  
-
-> [!TIP]
-> Hvis du tit har brug for at planlægge behov på forskellige lokationer, anbefales det at bruge funktionen Lagervarer.
+* behovslinjer altid har lokationskoder, og systemet bruger lagervarer i fuld udstrækning, herunder den relevante lokationsopsætning. Flere oplysninger [Behov på lokation](#demand-at-location).  
+* behovslinjer har aldrig lokationskoder, og systemet bruger varekortet. Se [Behov på en "tom lokation"](#demand-at-blank-location) nedenfor.
 
 ## <a name="demand-at-location"></a>Behov på lokation  
 
-Når planlægningssystemet registrerer behov på en lokation (en linje med en lokationskode), fungerer det forskelligt afhængigt af 3 vigtige opsætningsværdier.  
+Når planlægningssystemet registrerer behov på en lokation (en linje med en lokationskode), fungerer det forskelligt afhængigt af 2 vigtige opsætningsværdier.  
 
-Under et planlægningsforløb kontrollerer systemet de 3 opsætningsværdier en efter en og planlægger i overensstemmelse med dem:  
+Under et planlægningsforløb kontrollerer systemet de 2 opsætningsværdier en efter en og planlægger i overensstemmelse med dem:  
 
-1. Er afkrydsningsfeltet **Tvungen lokationskode** på siden **Lageropsætning** markeret?  
-
-    Hvis ja, så:  
-
-2. Er varen registreret som lagervare?  
+1. Findes der en SKU for varen på den efterspurgte lokation?  
 
     Hvis ja, så:  
 
@@ -45,7 +37,7 @@ Under et planlægningsforløb kontrollerer systemet de 3 opsætningsværdier en 
 
     Hvis nej, så:  
 
-3. Indeholder feltet **Komponenter på lokation** på siden **Produktionsopsætning** den krævede lokationskode?  
+2. Indeholder feltet **Komponenter på lokation** på siden **Produktionsopsætning** den krævede lokationskode?  
 
     Hvis ja, så:  
 
@@ -53,99 +45,107 @@ Under et planlægningsforløb kontrollerer systemet de 3 opsætningsværdier en 
 
     Hvis nej, så:  
 
-    Varen planlægges i overensstemmelse med: Genbestillingsmetode =  *Lot-for-Lot*, Medtag lager =  *Ja*, alle andre planlægningsparametre = tomme. (Varer, der benytter genbestillingsmetoden  *Ordre*, fortsætter med at bruge  *Ordre* såvel som de andre indstillinger.)  
-
-> [!NOTE]  
-> Dette minimale alternativ dækker kun det nøjagtige behov. Eventuelle definerede planlægningsparametre ignoreres.  
-
-Se forskellene i eksemplerne nedenfor.  
+    Varen planlægges i overensstemmelse med det "minimale alternativ", der dækker det nøjagtige behov. Varen planlægges i overensstemmelse med: Genbestillingsmetode = *Lot-for-Lot*, Medtag lager = *Ja*, alle andre planlægningsparametre = tomme. (Varer, der benytter genbestillingsmetoden *Ordre*, fortsætter med at bruge *Ordre* såvel som de andre indstillinger.)
 
 > [!TIP]
-> Feltet **Tvungen lokationskode** på siden **Lageropsætning** og feltet **Komponenter på lokation** på siden Produktionsopsætning er meget vigtige for, styringen af, hvordan planlægningssystemets håndterer behovslinjer med/uden lokationskoder.
+> Hvis du tit har brug for at planlægge behov på forskellige lokationer, anbefales det at bruge funktionen Lagervarer pr. lokation og undgår behov på tomme lokationer. Flere oplysninger i [Konfigurere Lagervarer pr. lokation](inventory-how-to-set-up-stockkeeping-units.md)
+
+Se forskellene i [scenarierne nedenfor](#scenarios).
+
+> [!NOTE]
+> Feltet **Komponenter på Lokation** på siden **Produktionsopsætning** er meget vigtigt, når du skal styre planlægningssystemets håndtering af produktionsbehovslinjer.
 >
-> I forbindelse med produktionsbehov, der er købt (når planlægningsmotoren bruges udelukkende til købsplanlægning og ikke til produktionsplanlægning), bruger [!INCLUDE [prod_short](includes/prod_short.md)] den samme lokation for komponenter som den, der er angivet på produktionsordren. Hvis du udfylder dette felt, kan du dog omdirigere komponenterne til en anden lokation.
+> I forbindelse med produktionsbehov bruger [!INCLUDE [prod_short](includes/prod_short.md)] den samme lokation til halvfabrikata og komponenter som den, der er angivet på produktionsordren. Hvis du udfylder dette felt, kan du dog omdirigere halvfabrikata og komponenter til en anden lokation.
 >
 > Du kan også definere dette for en specifik lagervare ved at vælge en anden lokationskode i feltet **Komponenter på lokation** på lagervarekortet. Bemærk, at dette sjældent giver mening, da planlægningslogikken kan blive forvrænget ved planlægning for lagervarekomponenten.
 
-Et andet vigtigt felt er feltet **Maks. ordrestørrelse** på kortet **Vare**. Det angiver det største tilladte vareantal i et ordreforslag og bruges, hvis varen leveres i en fast transportenhed, f.eks. en container, som du vil udnytte fuldt ud. Når behovet for genopfyldning er registreret, og lotstørrelsen er reguleret i forhold til den angivne genbestillingsmetode, reduceres antallet, hvis det er nødvendigt, for at overholde den højeste tilladte ordrestørrelse, du har defineret for varen. Hvis der er flere krav, beregnes der nye ordrer for at overholde dem. Dette felt er beregnet til at blive brugt sammen med produktionsmetoden Fremstil-til-lager.  
+## <a name="demand-at-blank-location"></a>Behov på "tom lokation"
 
-## <a name="demand-at-blank-location"></a>Behov på "tom lokation"  
-Selv hvis afkrydsningsfeltet **Tvungen lokationskode** er markeret, tillader systemet, at behovslinjer oprettes uden lokationskode – hedder også *TOM* lokation. Dette er en afvigelse for systemet, da det har forskellige opsætningsværdier, der er indstillet til at håndtere lokationer (se ovenfor), og som et resultat opretter planlægningsprogrammet ikke en planlægningslinje for en behovslinje. Hvis feltet **Tvungen lokationskode** ikke er markeret, men alle lokationsopsætningsværdierne findes, skal dette også betragtes en afvigelse, og planlægningssystemet reagerer ved at udføre det "minimale alternativ":   
-Varen planlægges i overensstemmelse med Genbestillingsmetode =  *Lot-for-Lot* ( *Ordre* forbliver *Ordre)*, Medtag lager =  *Ja*, alle andre planlægningsparametre = tomme.  
+Når planlægningssystemet finder behov på en tom lokation (en linje uden en lokationskode), planlægges varen generelt i overensstemmelse med planlægningsparametrene på varekortet.
 
-Se forskellene i opsætningseksemplerne nedenfor.  
+Feltet **Tvungen lokationskode** på siden **Lageropsætning**, feltet **Komponenter på lokation** på siden **Produktionsopsætning** eller lagervareenheder styrer, hvordan planlægningssystemets håndterer behovslinjer med/uden lokationskoder. Hvis et af følgende udsagn er sandt, anses efterspørgsel på tom lokation også for en afvigelse, og planlægningssystemet reagerer ved at bruge det udskrive det "minimale alternativ": Varen planlægges i henhold til: Genbestillingsmetode = *Lot-for-Lot* (*Ordre* forbliver *Ordre*), Medtag lager = *Ja*, alle andre planlægningsparametre = Tomme.
 
-### <a name="setup-1"></a>Opsætning 1:  
+* På siden **Produktionsopsætning** er feltet **Komponenter på lokation** har en værdi.
+* Der findes en lagervare for den planlagte vare.
+* Feltet **obligatorisk lokation** er markeret.
 
--   Tvungen lokationskode = *Ja*  
--   Lagervare er konfigureret for  *RØD*  
--   Komponenter på lokation =  *BLÅ*  
+## <a name="scenarios"></a>Eksempler
 
-#### <a name="case-11-demand-is-at--red-location"></a>Situation 1.1: Behovet findes på lokationen *RØD*  
+Se forskellene i opsætningseksemplerne nedenfor.
 
-Varen planlægges i overensstemmelse med planlægningsparametrene på lagerkortet (herunder mulig overflytning).  
+### <a name="setup-1"></a>Opsætning 1
 
-#### <a name="case-12-demand-is-at--blue-location"></a>Situation 1.2: Behovet findes på lokationen *BLÅ*  
+* Tvungen lokationskode = *Ja*  
+* SKU er konfigureret for *VEST*  
+* Komponenter på lokation = *ØST*  
 
-Varen planlægges i overensstemmelse med planlægningsparametrene på varekortet.  
+#### <a name="case-11-demand-is-at-west-location"></a>Situation 1.1: Behov findes på lokationen *VEST*
 
-#### <a name="case-13-demand-is-at--green-location"></a>Situation 1.3: Behovet findes på lokationen  *GRØN*  
+Varen planlægges i overensstemmelse med planlægningsparametrene på lagerkortet (herunder mulig overflytning).
 
-Varen planlægges i overensstemmelse med: Genbestillingsmetode =  *Lot-for-Lot* ( *Ordre* forbliver  *Ordre*), Medtag lager =  *Ja*, alle andre planlægningsparametre = tomme.  
+#### <a name="case-12-demand-is-at-east-location"></a>Situation 1.2: Behov findes på lokationen *ØST*
 
-#### <a name="case-14-demand-is-at--blank-location"></a>Situation 1.4: Behovet findes på lokationen *TOM*  
+Varen planlægges i overensstemmelse med planlægningsparametrene på varekortet.
 
-Varen planlægges ikke, fordi der ikke er defineret en lokation på behovslinjen.  
+#### <a name="case-13-demand-is-at-north-location"></a>Situation 1.3: Behovet findes på lokationen *NORD*
 
-### <a name="setup-2"></a>Opsætning 2:  
+Varen planlægges i overensstemmelse med: Genbestillingsmetode = *Lot-for-Lot* (*Ordre* forbliver *Ordre*), Medtag lager = *Ja*, alle andre planlægningsparametre = tomme.
 
--   Tvungen lokationskode = *Ja*  
--   Ingen lagervare defineret  
--   Komponenter på lokation =  *BLÅ*  
+#### <a name="case-14-demand-is-at-blank-location"></a>Situation 1.4: Behovet findes på lokationen *TOM*
 
-#### <a name="case-21-demand-is-at--red-location"></a>Situation 2.1: Behovet findes på lokationen  *RØD*  
+Varen planlægges i overensstemmelse med: Genbestillingsmetode = *Lot-for-Lot* (*Ordre* forbliver *Ordre*), Medtag lager = *Ja*, alle andre planlægningsparametre = tomme.
 
-Varen planlægges i overensstemmelse med: Genbestillingsmetode =  *Lot-for-Lot* ( *Ordre* forbliver  *Ordre*), Medtag lager =  *Ja*, alle andre planlægningsparametre = tomme.  
+### <a name="setup-2"></a>Opsætning 2
 
-#### <a name="case-22-demand-is-at--blue-location"></a>Situation 2.2: Behovet findes på lokationen *BLÅ*  
+* Tvungen lokationskode = *Ja*  
+* Ingen lagervare defineret  
+* Komponenter på lokation = *ØST*  
 
-Varen planlægges i overensstemmelse med planlægningsparametrene på varekortet.  
+#### <a name="case-21-demand-is-at-west-location"></a>Situation 2.1: Behov findes på lokationen *VEST*
 
-### <a name="setup-3"></a>Opsætning 3:  
+Varen planlægges i overensstemmelse med: Genbestillingsmetode = *Lot-for-Lot* (*Ordre* forbliver *Ordre*), Medtag lager = *Ja*, alle andre planlægningsparametre = tomme.
 
--   Tvungen lokationskode = *Nej*  
--   Ingen lagervare defineret  
--   Komponenter på lokation =  *BLÅ*  
-
-#### <a name="case-31-demand-is-at--red-location"></a>Situation 3.1: Behovet findes på lokationen  *RØD*  
-
-Varen planlægges i overensstemmelse med: Genbestillingsmetode =  *Lot-for-Lot* ( *Ordre* forbliver  *Ordre*), Medtag lager =  *Ja*, alle andre planlægningsparametre = tomme.  
-
-#### <a name="case-32-demand-is-at--blue-location"></a>Situation 3.2: Behovet findes på lokationen *BLÅ*  
+#### <a name="case-22-demand-is-at-east-location"></a>Situation 2.2: Behov findes på lokationen *ØST*
 
 Varen planlægges i overensstemmelse med planlægningsparametrene på varekortet.  
 
-#### <a name="case-33-demand-is-at--blank-location"></a>Situation 3.3: Behovet findes på lokationen  *TOM*  
+### <a name="setup-3"></a>Opsætning 3
 
-Varen planlægges i overensstemmelse med: Genbestillingsmetode =  *Lot-for-Lot* ( *Ordre* forbliver  *Ordre*), Medtag lager =  *Ja*, alle andre planlægningsparametre = tomme.  
+* Tvungen lokationskode = *Nej*  
+* Ingen lagervare defineret  
+* Komponenter på lokation = *ØST*  
 
-### <a name="setup-4"></a>Opsætning 4:  
+#### <a name="case-31-demand-is-at-west-location"></a>Situation 3.1: Behov findes på lokationen *VEST*
 
--   Tvungen lokationskode = *Nej*  
--   Ingen lagervare defineret  
--   Komponenter på lokation =  *TOM*  
+Varen planlægges i overensstemmelse med: Genbestillingsmetode = *Lot-for-Lot* (*Ordre* forbliver *Ordre*), Medtag lager = *Ja*, alle andre planlægningsparametre = tomme.
 
-#### <a name="case-41-demand-is-at--blue-location"></a>Situation 4.1: Behovet findes på lokationen  *BLÅ*  
-
-Varen planlægges i overensstemmelse med: Genbestillingsmetode =  *Lot-for-Lot* ( *Ordre* forbliver  *Ordre*), Medtag lager =  *Ja*, alle andre planlægningsparametre = tomme.  
-
-#### <a name="case-42-demand-is-at--blank-location"></a>Situation 4.2: Behovet findes på lokationen  *TOM*  
+#### <a name="case-32-demand-is-at-east-location"></a>Situation 3.2: Behov findes på lokationen *ØST*
 
 Varen planlægges i overensstemmelse med planlægningsparametrene på varekortet.  
+
+#### <a name="case-33-demand-is-at-blank-location"></a>Situation 3.3: Behovet findes på lokationen *TOM*
+
+Varen planlægges i overensstemmelse med: Genbestillingsmetode = *Lot-for-Lot* (*Ordre* forbliver *Ordre*), Medtag lager = *Ja*, alle andre planlægningsparametre = tomme.
+
+### <a name="setup-4"></a>Opsætning 4
+
+* Tvungen lokationskode = *Nej*  
+* Ingen lagervare defineret  
+* Komponenter på lokation = *TOM*  
+
+#### <a name="case-41-demand-is-at-east-location"></a>Situation 4.1: Behov findes på lokationen *ØST*
+
+Varen planlægges i overensstemmelse med: Genbestillingsmetode = *Lot-for-Lot* (*Ordre* forbliver *Ordre*), Medtag lager = *Ja*, alle andre planlægningsparametre = tomme.
+
+#### <a name="case-42-demand-is-at-blank-location"></a>Situation 4.2: Behovet findes på lokationen *TOM*
+
+Varen planlægges i overensstemmelse med planlægningsparametrene på varekortet.
 
 Som det fremgår af det sidste eksempel, kan man kun få det rigtige resultat for en behovslinje uden en lokationskode ved at deaktivere alle opsætningsværdier, der er knyttet til lokationer. Ligeledes kan man kun få stabile planlægningsresultater for behov på lokationer ved at bruge lagervarer.  
 
-Hvis du ofte har brug for at planlægge behov på forskellige lokationer, anbefales det derfor at bruge funktionen Lagervarer.  
+Hvis du ofte har brug for at planlægge behov på forskellige lokationer, anbefales det derfor at bruge funktionen Lagervarer.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se også
 
@@ -158,6 +158,5 @@ Hvis du ofte har brug for at planlægge behov på forskellige lokationer, anbefa
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)  
 [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

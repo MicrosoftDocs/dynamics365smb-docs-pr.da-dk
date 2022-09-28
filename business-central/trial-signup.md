@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
 ms.date: 05/25/2022
-ms.openlocfilehash: 7c57b608800bdd67d633698d984b34c3143418b3
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 9a91c2a2b93eccc465501c2f6f9213e80d00df87
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461017"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530482"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Tilmeld dig for at få en gratis Dynamics 365 Business Central-prøveversion
 
@@ -43,7 +43,7 @@ Du kan også kontakte [[!INCLUDE[prod_short](includes/prod_short.md)]-salgsteame
 
 Du kan finde flere oplysninger om, hvad du kan gøre med [!INCLUDE [prod_short](includes/prod_short.md)], i afsnittet [Blive klar til at gøre forretninger](ui-get-ready-business.md) og [Forretningsfunktioner](across-business-functionality.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="additional-resources"></a>Flere ressourcer
 

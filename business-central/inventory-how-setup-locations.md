@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9ed3bc15f8f8b94e842d8c01415b04018e4fc6ec
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 0888a0a47f3a5ae58dcf7712218f801cde1711c5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129662"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528299"
 ---
 # <a name="set-up-locations"></a>Opsætte lokationer
 
@@ -48,7 +48,7 @@ Luk handlingen **Zoner** eller **Placeringer** for at få vist oplysninger om zo
 
 Du kan ændre konfigurationen for en lokation senere, men du kan ikke redigere opsætningen af lokationer, der har vareposter.  
 
-Hvis du har flere lokationer, kan du definere overflytningsruter mellem lokationer. Du kan finde flere oplysninger under [Sådan oprettes en overflytningsrute](inventory-how-setup-locations.md#to-create-a-transfer-route). 
+Hvis du har flere lokationer, kan du definere overflytningsruter mellem lokationer. Du kan finde flere oplysninger under [Sådan oprettes en overflytningsrute](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
 ### <a name="to-create-a-transfer-route"></a>Sådan oprettes en overflytningsrute
 
@@ -79,7 +79,7 @@ Du kan også vælge kun at oprette en enkelt zone og udelukkende organisere lage
 ## <a name="default-dimensions-for-locations"></a>Standarddimensioner for lokationer
 Du kan angive standarddimensioner for en lokation på siden **Lokationskort** ved at klikke på lokation og derefter på **Dimensioner**. Derefter tildeles standarddimensionerne for lokationen til dokumenter, når du vælger lokationen på en linje. Efter behov kan du slette eller ændre dimensionerne på linjen. I feltet **Værdibogføring** kan du kræve, at personer angiver dimensioner for bestemte lokationer, før de kan bogføre en post. Hvis du vil give brugerne mulighed for at vælge bestemte dimensionsværdier, kan du angive dem i feltet **Filter for tilladte værdier**. Du kan også medtage dimensionsværdier for lokationer på siden **Prioriteringer for standarddimensioner** og kombinationer af prioritet og dimensionsregler på siden **Dimensionskombinationer**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 
@@ -91,6 +91,5 @@ Du kan angive standarddimensioner for en lokation på siden **Lokationskort** ve
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
