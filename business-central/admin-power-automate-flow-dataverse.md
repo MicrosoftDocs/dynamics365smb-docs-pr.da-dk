@@ -11,12 +11,12 @@ ms.search.form: ''
 ms.date: 09/05/2022
 ms.author: bholtorf
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dc1601caac73dc7c58862938ddc612a9536e84e9
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: 542514d1f8fc8f0bfa6a0bd3c8cacbaf25cab651
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524501"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585887"
 ---
 # <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Brug et Power Automate-flow til beskeder til Dataverse om ændringer af enheden
 
@@ -54,11 +54,14 @@ Administratorer kan oprette et automatiseret flow i Power Automate, som giver di
 Data synkroniseres mellem [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE [cds_long_md](includes/cds_long_md.md)] via en integrationsbrugerkonto. Hvis du vil ignorere de ændringer, der er foretaget af synkroniseringen, skal du oprette et betingelsestrin i flowet, som udelukker ændringer, der er foretaget af integrationsbruger kontoen.  
 
 1. Tilføj et **Hent en række efter id fra Dataverse**-trin efter flowudløseren med følgende indstillinger. Du kan finde flere oplysninger i [Hent en række efter id fra Dataverse](/power-automate/dataverse/get-row-id).
+
     1. I feltet **Tabelnavn** skal du vælge **Brugere**
     2. I feltet **Række-id** skal du vælge **Ændret af (værdi)** fra flowudløseren.  
+
 2. Tilføj et betingelsestrin med følgende **eller**-Indstillinger for at identificere brugerkontoen til integration.
     1. Brugerens **primære e-mail-adresse** indeholder **contoso.com**
     2. Brugerens **fulde navn** indeholder **[!INCLUDE[prod_short](includes/prod_short.md)]**.
+
 3. Tilføj en afslutningskontrol for at stoppe flowet, hvis objektet blev ændret af integrationsbrugerkontoen.
 
 Følgende billede viser, hvordan flowudløseren og flowbetingelsen defineres.
@@ -73,6 +76,7 @@ Hvis flowet ikke stoppes af betingelsen, skal du give besked [!INCLUDE[prod_shor
 2. Vælg handlingen **Opret post (V3)**.
 
 :::image type="content" source="media/power-automate-flow-dataverse-connector.png" alt-text="Indstillinger for [!INCLUDE[prod_short](includes/prod_short.md)]-connector":::
+
 3. Brug knappen **Assisteret redigering (...)** i øverste højre hjørne til at tilføje forbindelsen til [!INCLUDE[prod_short](includes/prod_short.md)].
 4. Udfyld felter **miljønavn** og **firmanavn**, når du har oprettet forbindelse.
 5. I feltet **API-kategori** skal du angive **Microsoft/dataverse/v 1.0**.
@@ -87,7 +91,8 @@ Følgende billede viser, hvordan dit flow bør se ud.
 Når du tilføjer, sletter eller ændrer en konto i dit [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-miljø, foretager dette flow følgende handlinger:
 
 1. Ring til det [!INCLUDE[prod_short](includes/prod_short.md)]-miljø, du har angivet i [!INCLUDE[prod_short](includes/prod_short.md)]-connectoren.
-2. Brug [!INCLUDE[prod_short](includes/prod_short.md)]-API til at indsætte en post med navnet **Enhedsnavn** angivet for **kontoen** i tabellen **Dataverse-postændring**. 3. [!INCLUDE[prod_short](includes/prod_short.md)] starter opgavekøposten, der synkroniserer debitorer med firmaer.
+2. Brug [!INCLUDE[prod_short](includes/prod_short.md)]-API til at indsætte en post med navnet **Enhedsnavn** angivet for **kontoen** i tabellen **Dataverse-postændring**. Denne parameter er det præcise navn på det Dataverse-objekt, du opretter flowet for.
+3. [!INCLUDE[prod_short](includes/prod_short.md)] starter opgavekøposten, der synkroniserer debitorer med firmaer.
 
 ## <a name="see-also"></a>Se også
 

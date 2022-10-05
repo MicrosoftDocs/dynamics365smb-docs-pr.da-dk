@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
-ms.date: 04/01/2021
+ms.date: 09/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: a25fdcf9760d5677885c3927cb07d20cfa7e8387
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 46055056fc17b4997b5e49ccefe8cd104bef0a6d
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520990"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585860"
 ---
 # <a name="use-dynamics-365-sales-from-business-central"></a>Brug Dynamics 365 Sales fra Business Central
 Hvis du bruger Dynamics 365 Sales for Customer Engagement, kan du nyde godt af problemfri lead-til-kontant-processen ved hjælp af [!INCLUDE[prod_short](includes/prod_short.md)] for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og håndtering af økonomien.
@@ -76,7 +76,7 @@ Dette kan også fungere, hvis den oprindelige salgsordre indeholder rekvirerede 
 
 Hvis beskrivelsen af varen på den oprindelige salgsordre er meget lang, oprettes der en ekstra salgsordrelinje af typen **Bemærkning** for at holde hele teksten i salgsordren i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Opdateringer til felter i salgsordresidehovedet, som f.eks. Sidste afsendelsesdato eller Ønsket leveringsdato, der er tilknyttet i **SALGSORDRE-ORDRE**-integrationstabelkoblinger synkroniseres regelmæssigt til [!INCLUDE[crm_md](includes/crm_md.md)]. Processer som frigivelse af en salgsordre og levering eller fakturering af en salgsordre bogføres på salgsordrens tidslinje i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Introduktion til aktivitetsopdateringer](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
+Opdateringer til felter i salgsordresidehovedet, som f.eks. Sidste afsendelsesdato eller Ønsket leveringsdato, der er tilknyttet i **SALGSORDRE-ORDRE**-integrationstabelkoblinger synkroniseres regelmæssigt til [!INCLUDE[crm_md](includes/crm_md.md)]. Processer som frigivelse af en salgsordre og levering eller fakturering af en salgsordre bogføres på salgsordrens tidslinje i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Introduktion til aktivitetsopdateringer](/dynamics365/sales-enterprise/manage-activities). Hvis du vil aktivere bogføring og aktiviteter for ordrer i [!INCLUDE[crm_md](includes/crm_md.md)], henvises til [Konfigurere notekontrolelementet til at få adgang til oplysninger om indlæg for en brugerdefineret enhed](/dynamics365/customerengagement/on-premises/customize/notes-control-legacy) i dokumentationen til Customer Engagement. Artiklen henviser til den lokale Customer Engagement, men fremgangsmåden er den samme for onlineversionen. <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
 > Periodisk synkronisering, der er baseret på **SALESORDER-ORDE**-integrationstabeltilknytning, fungerer kun, når salgsordreintegration er aktiveret. Du kan få oplysninger i [Forbindelsesindstillinger på siden Opsætning af salgsforbindelse](admin-prepare-dynamics-365-for-sales-for-integration.md). Kun salgsordrer, der er oprettet fra sendte salgsordrer i [!INCLUDE[crm_md](includes/crm_md.md)], synkroniseres. Du kan finde flere oplysninger i [Aktivere integration af salgsordrebehandling](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).

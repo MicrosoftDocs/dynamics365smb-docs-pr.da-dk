@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 65959b62d89bcbca8c80071c55579339ffc8448a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: bf58b9f1c0702275df1dc6e2884444369d084b80
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533773"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585405"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Gennemgang: Opsætning og brug af workflow for godkendelse af køb
 
@@ -23,29 +23,29 @@ Du kan automatisere processen med at godkende nye eller ændrede poster, f.eks d
 Før du opretter godkendelsesarbejdsgange, skal du oprette en godkender og erstatte godkenderen for hver godkendelsesbruger. Du kan også angive beløbsgrænser for godkendere for at definere, hvilke salgs- og købsposter, som de er kvalificerede til at godkende. Godkendelsesanmodninger og andre meddelelser kan sendes som mail eller intern note. For hver godkendelsesbrugeropsætning kan du også angive, hvornår der skal modtages notifikationer.
 
 > [!NOTE]
-> Ud over Workflow-funktionaliteten i [!INCLUDE[prod_short](includes/prod_short.md)] kan du bruge Power Automate til at definere workflows for hændelser i [!INCLUDE[prod_short](includes/prod_short.md)]. Vær opmærksom på, selvom det er to separate workflowsystemer, tilføjes en flow-skabelon, du opretter med Power Automate, på listen over workflowskabeloner i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md).  
+> Ud over Workflow-funktionaliteten i [!INCLUDE[prod_short](includes/prod_short.md)] kan du bruge Power Automate til at definere workflows for hændelser i [!INCLUDE[prod_short](includes/prod_short.md)]. Vær opmærksom på, selvom det er to separate workflowsystemer, tilføjes en flow-skabelon, du opretter med Power Automate, på listen over workflowskabeloner i [!INCLUDE[prod_short](includes/prod_short.md)]. Flere oplysninger i [Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md).  
 
-Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin. Du kan finde flere oplysninger i [Workflow](across-workflow.md).  
+Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin. Flere oplysninger i [Workflow](across-workflow.md).  
 
 ## <a name="about-this-walkthrough"></a>Om denne gennemgang
 
-Denne gennemgang illustrerer følgende opgaver:  
+Denne gennemgang er et scenarie, der illustrerer følgende opgaver:  
 
 - Angive indstillinger for godkendelsesbrugere  
 - Oprette notifikationer til godkendelsesbrugere  
 - Ændre og aktivere en godkendelsesarbejdsgang  
-- Anmoder om godkendelse af en købsordre, som Alicia  
-- Modtager en besked og godkender derefter anmodningen, som Sean  
+- Anmoder om godkendelse af en købsordre (som Alicia)  
+- Modtager en besked og godkender derefter anmodningen (som Sean)  
 
 ## <a name="story"></a>Historie
 
-Søren er superbruger hos CRONUS. Han opretter to godkendelsesbrugere. Den ene er Anna, der repræsenterer en indkøber. Den anden er ham selv, som repræsenterer Annas godkender. Søren giver derefter sig selv ubegrænsede indkøbsgodkendelsesrettigheder og angiver, at han skal modtage notifikationer via intern note, så snart en relevant hændelse finder sted. Til sidst opretter Søren den krævede godkendelsesarbejdsgang som en kopi af den eksisterende arbejdsgangskabelon Workflow for *godkendelse af købsordre*, lader alle eksisterende hændelsesbetingelser og svarmuligheder være uændrede og aktiverer arbejdsprocessen.  
+Søren er superbruger hos CRONUS. Han opretter to godkendelsesbrugere. Den ene er Anna, der repræsenterer en indkøber. Den anden er ham selv, som repræsenterer Annas godkender. Søren giver derefter sig selv ubegrænsede indkøbsgodkendelsesrettigheder og angiver, at han skal modtage notifikationer via intern note, så snart en relevant hændelse finder sted. Til sidst opretter Sean den krævede godkendelsesarbejdsgang som en kopi af den eksisterende arbejdsgangskabelon *Workflow for godkendelse af købsordre*, lader alle eksisterende hændelsesbetingelser og svarmuligheder være uændrede og aktiverer arbejdsprocessen.  
 
-For at kontrollere godkendelsesworkflowet logger Søren først på [!INCLUDE[prod_short](includes/prod_short.md)] som Anna og anmoder derefter om godkendelse af en købsordre. Derefter logger Søren på som sig selv, ser noten i sit Rollecenter, følger linket til godkendelsesanmodningen for købsordren og godkender derefter anmodningen.  
+For at kontrollere godkendelsesworkflowet logger Sean først på [!INCLUDE[prod_short](includes/prod_short.md)] som Alicia og anmoder derefter om godkendelse af en købsordre. Derefter logger Sean på som sig selv, ser noten i sit Rollecenter, følger linket til godkendelsesanmodningen for købsordren og godkender derefter anmodningen.  
 
 ## <a name="users"></a>Brugere
 
-Før du kan konfigurere godkendelsesbrugere og deres notifikationsmetode, skal du kontrollere, at der findes to brugere i [!INCLUDE[prod_short](includes/prod_short.md)]: en bruger, der repræsenterer Anna. Den anden bruger, dig selv, repræsenterer Søren. Du kan finde flere oplysninger i [Oprette brugere i henhold til licenser](ui-how-users-permissions.md).
+Før du kan konfigurere godkendelsesbrugere og deres notifikationsmetode, skal du kontrollere, at disse brugere findes i [!INCLUDE[prod_short](includes/prod_short.md)]: en bruger, der repræsenterer Alicia. Den anden bruger, dig selv, repræsenterer Søren. Flere oplysninger i [Oprette brugere ifølge licenser](ui-how-users-permissions.md).
 
 ### <a name="setting-up-approval-users"></a>Angive indstillinger for godkendelsesbrugere
 
@@ -57,18 +57,18 @@ Når du er logget på som dig selv, skal du indstille Alicia som godkendelsesbru
 2. På siden **Brugeropsætning af godkendelser** skal du vælge handlingen **Ny**.  
 
     > [!NOTE]  
-    >  Du skal oprette en godkender, før du kan konfigurere brugere, der kræver denne godkenders godkendelse. Derfor skal du oprette dig selv, før du opretter Anna.  
+    >  Du skal oprette en godkender, før du kan konfigurere brugere, der kræver denne godkenders godkendelse. Det betyder, at du skal oprette dig selv, før du opretter Alicia.  
 
 3. Oprette de to godkendelsesbrugere ved at udfylde felterne som beskrevet i følgende tabel.  
 
     |Bruger-id|Godkender-id|Ubegrænset godkendelse af køb|  
-    |-------------|-----------------|---------------------------------|  
-    |DIG||Valgt|  
-    |ANNA|DIG||  
+    |-------|-----------|---------------------------|  
+    |DIG||Valgt|
+    |ANNA|DIG||
 
 ### <a name="setting-up-notifications"></a>Opsætning af meddelelser
 
-I denne gennemgang får brugeren en besked i form af en intern note om anmodninger, der skal godkendes. Godkendelsesnotifikationer kan også sendes via mail, og du kan tilføje et trin i arbejdsgangs svaret, som giver afsenderen besked, når en anmodning godkendes eller afvises. Du kan finde flere oplysninger i [Angive, hvornår og hvordan notifikationer modtages](across-how-to-specify-when-and-how-to-receive-notifications.md).
+I denne gennemgang får brugeren en besked i form af en intern note om anmodninger, der skal godkendes. Godkendelsesnotifikationer kan også sendes via mail, og du kan tilføje et trin i arbejdsgangs svaret, som giver afsenderen besked, når en anmodning godkendes eller afvises. Flere oplysninger [Angive, hvornår og hvordan notifikationer modtages](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
 #### <a name="to-set-up-how-and-when-you-are-notified"></a>Sådan angiver du, hvordan og hvornår du skal have besked
 
@@ -83,11 +83,11 @@ I denne gennemgang får brugeren en besked i form af en intern note om anmodning
 Opret godkendelsesarbejdsgangen for købsordren ved at kopiere trinnene fra skabelonen **Godkendelsesworkflow for købsordre**. Lad de eksisterende trin i arbejdsgangen være uændrede, og aktiver derefter arbejdsgangen.  
 
 > [!TIP]
-> Alternativ kan du tilføje et trin i arbejdsgangs svaret for at give afsenderen besked, når anmodningen er godkendt eller afvist. Du kan finde flere oplysninger i [Angive, hvornår og hvordan notifikationer modtages](across-how-to-specify-when-and-how-to-receive-notifications.md).
+> Alternativ kan du tilføje et trin i arbejdsgangs svaret for at give afsenderen besked, når anmodningen er godkendt eller afvist. Flere oplysninger [Angive, hvornår og hvordan notifikationer modtages](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Sådan oprettes og aktiveres en godkendelsesarbejdsgang for en købsordre
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Arbejdsflow**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Workflows**, og vælg derefter det relaterede link.  
 2. Vælg **Handlinger** på siden **arbejdsprocesser**, vælg **Ny**, og vælg derefter den **nye arbejdsgang fra skabelon**-handling.  
 3. På siden **Workflowskabeloner** skal du vælge workflowskabelonen **Workflow for godkendelse af købsordre**.  
 
@@ -96,12 +96,12 @@ Opret godkendelsesarbejdsgangen for købsordren ved at kopiere trinnene fra skab
 
 ## <a name="use-the-approval-workflow"></a>Bruge godkendelsesworkflow
 
-Brug det nye workflow Godkendelsesworkflow for købsordre ved først at logge på [!INCLUDE[prod_short](includes/prod_short.md)] som Alicia for at anmode om godkendelse af en købsordre. Log derefter ind som dig selv, åbn noten i rollecenteret, følg linket til godkendelsesanmodningen, og godkend derefter anmodningen.  
+Brug det nye workflow Godkendelsesworkflow for købsordre ved først at logge på [!INCLUDE[prod_short](includes/prod_short.md)] som Alicia for at anmode om godkendelse af en købsordre. Log derefter ind som dig selv, åbn noten i rollecenteret, følg linket til godkendelsesanmodningen, godkend derefter anmodningen.  
 
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Sådan anmoder du om godkendelse af en købsordre, som Anna
 
 1. Log ind som Anna.
-2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **købsordrer**, og vælg derefter det relaterede link.  
+2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsordrer**, og vælg derefter det relaterede link.  
 3. Marker linjen for at åbne *indkøbsordre 106001*.  
 4. Vælg **Handlinger** på siden **Indkøbsordre**, derefter **Anmod om godkendelse**, og vælg derefter handlingen **Send godkendelsesanmodning**.  
 
@@ -111,15 +111,15 @@ Bemærk, at værdien i feltet **Status** er ændret til **Afventer godkendelse**
 
 1. Log ind som Søren.
 2. Vælg feltet **Anmodninger til godkendelse** i rollecenteret i området **Selvbetjening**.
-3. På siden **Anmodninger til godkendelse** skal du markere linjen om købsordren fra Anna og derefter vælge handlingen **Godkend**.  
+3. På siden **Anmodninger til godkendelse** skal du markere linjen om købsordren fra Alicia og derefter vælge handlingen **Godkend**.  
 
 Værdien i feltet **Status** i Annas købsordre ændres til **Frigivet**.  
 
-Du har nu oprettet og testet en simpel godkendelsesarbejdsgang baseret på de to første trin i **Godkendelsesworkflow for godkendelse af købsordre**. Du kan nemt udvide denne arbejdsgang for at bogføre Annas købsordre automatisk, når Søren har godkendt den. For at gøre dette skal du aktivere arbejdsgangen **Købsfakturaworkflow**, hvor svaret på en frigivet købsfaktura er at bogføre den. Først skal du ændre hændelsesbetingelsen i det første trin i arbejdsgangen fra (køb) **Faktura** til **Ordre**.  
+Du har nu oprettet og testet en simpel godkendelsesarbejdsgang baseret på de to første trin i **Godkendelsesworkflow for godkendelse af købsordre**. Du kan nemt udvide denne arbejdsgang for at bogføre Annas købsordre automatisk, når Søren har godkendt den. For at gøre dette skal du aktivere arbejdsgangen **Købsfakturaworkflow**, så svaret på en frigivet købsfaktura er at bogføre den. Først skal du ændre hændelsesbetingelsen i det første trin i arbejdsgangen fra (køb) **Faktura** til **Ordre**.  
 
 Den generelle version af [!INCLUDE[prod_short](includes/prod_short.md)] indeholder mange workflowskabeloner til scenarier, der understøttes af programkoden. De fleste af disse skabeloner er til godkendelsesworkflows.  
 
-Du definerer arbejdsgangsvariationer ved at udfylde felter om arbejdsganglinjer fra faste lister over hændelses- og svarværdier, der repræsenterer scenarier, der understøttes af programkoden. Du kan finde flere oplysninger i [Oprette arbejdsgange](across-how-to-create-workflows.md).  
+Du definerer arbejdsgangsvariationer ved at udfylde felter om arbejdsganglinjer fra faste lister over hændelses- og svarværdier, der repræsenterer scenarier, der understøttes af programkoden. Flere oplysninger i [Oprette workflows](across-how-to-create-workflows.md).  
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
@@ -129,7 +129,7 @@ Du definerer arbejdsgangsvariationer ved at udfylde felter om arbejdsganglinjer 
 
 [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  
 [Konfiguration af workflownotifikationer](across-setting-up-workflow-notifications.md)  
-[Oprette arbejdsgange](across-how-to-create-workflows.md)  
+[Opret godkendelsesworkflows](across-how-to-create-workflows.md)  
 [Bruge godkendelsesworkflows](across-how-use-approval-workflows.md)  
 [Workflow](across-workflow.md)  
 [Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md)  

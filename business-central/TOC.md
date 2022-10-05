@@ -113,8 +113,11 @@
 ## Hurtig startvejledninger
 ### [Hurtig start af Business Central](quick-start-business-central.md)
 ### [Konfigurere virksomhedsoplysninger](quick-start-company-information.md)
+### [Angiv finansielle oplysninger](quick-start-financial-information.md)
 ### [Sælge produkter og tjenester](quick-start-sell-products-and-services.md)
 ### [Købe produkter og tjenester](quick-start-procurement.md)
+### [Tilpas og udskriv rapporter og dokumenter](quick-start-reports-and-documents.md)
+### [Få indsigt i Business Intelligence](quick-start-business-intelligence.md)
 
 <!--use-->
 ## Bliv produktiv i Business Central
@@ -239,13 +242,13 @@
 ### Workflows
 #### [Workflowoversigt](across-workflow.md)
 #### [Bruge Business Central i Power Automate Flows](across-how-use-financials-data-source-flow.md)
-#### Bruge arbejdsprocesser
-##### [Bruge arbejdsgange](across-use-workflows.md)
-##### [Aktivere arbejdsgange](across-how-to-enable-workflows.md)
-##### [Bruge godkendelsesworkflows](across-how-use-approval-workflows.md)
+#### Bruge godkendelsesworkflows
+##### [Bruge godkendelsesworkflows](across-use-workflows.md)
+##### [Aktivere godkendelsesworkflows](across-how-to-enable-workflows.md)
+##### [Sådan bruger du godkendelsesworkflows](across-how-use-approval-workflows.md)
 ##### [Begrænse og tillade brugen af en record](across-how-to-restrict-and-allow-usage-of-a-record.md)
-##### [Vise arkiverede forekomster af arbejdsgangstrin](across-how-to-view-archived-workflow-step-instances.md)
-##### [Slette arbejdsgange](across-how-to-delete-workflows.md)
+##### [Vise arkiverede forekomster af workflowtrin](across-how-to-view-archived-workflow-step-instances.md)
+##### [Slette godkendelsesworkflows](across-how-to-delete-workflows.md)
 <!--data exchange-->
 ### Udveksle data elektronisk
 #### [OData-udvekslingsoversigt](across-data-exchange.md)
@@ -1583,13 +1586,13 @@
 #### [Rapportvalg](across-report-selections.md)
 ### Konfigurere godkendelsesworkflows baseret på skabeloner
 #### [Konfigurer godkendelsesworkflow](across-set-up-workflows.md)
-#### [Oprette brugere til arbejdsgange](across-how-to-set-up-workflow-users.md)
+#### [Oprette brugere til workflow](across-how-to-set-up-workflow-users.md)
 #### [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)
-#### [Arbejdsgangsnotifikationer](across-setting-up-workflow-notifications.md)
+#### [Godkende workflow-notifikationer](across-setting-up-workflow-notifications.md)
 #### [Angive, hvornår og hvordan workflownotifikationer modtages](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Oprette arbejdsgange](across-how-to-create-workflows.md)
+#### [Opret godkendelsesworkflows](across-how-to-create-workflows.md)
 #### [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md)
-#### [Eksportere og importere workflows](across-how-to-export-and-import-workflows.md)
+#### [Eksportere og importere godkendelsesworkflows](across-how-to-export-and-import-workflows.md)
 #### [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
 ### Konfigurere forbindelser
@@ -1626,7 +1629,7 @@
 ###### [Bruge Business Central-apps i Power BI](across-powerbi-business-central-apps.md)
 ##### [Ofte stillede spørgsmål](power-bi-faq.md)
 #### Bruge Power Automate sammen med Business Central
-##### [Bruge Business Central i Power Automate Flows](across-how-use-financials-data-source-flow.md)
+##### [Brug Power Automate-flows i Business Central](across-how-use-financials-data-source-flow.md)
 ##### [Fejlfinding i forbindelse med dine automatiserede workflows](across-flow-troubleshoot.md)  
 #### Bruge Power Apps sammen med Business Central
 ##### [Oprette forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af Power Apps](across-how-use-financials-data-source-powerapps.md)

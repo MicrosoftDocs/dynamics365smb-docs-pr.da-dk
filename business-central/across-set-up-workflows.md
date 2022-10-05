@@ -1,5 +1,5 @@
 ---
-title: Konfigurere arbejdsgange (indeholder video)
+title: Konfigurere godkendelsesworkflows (indeholder video)
 description: Konfigurere arbejdsgange, brugere af arbejdsgangen og godkendelses brugere til at forbinde forretningsproces systemopgaver, der udføres af disse brugere.
 author: SorenGP
 ms.topic: conceptual
@@ -7,26 +7,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 7676e05255c31bd2b9906951d98d1a87622a0fcf
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 04067d8cb0ee786b3738fb0cc7055d0b84c001d0
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530266"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585752"
 ---
-# <a name="set-up-workflows"></a>Opsætning af arbejdsgange
+# <a name="set-up-approval-workflows"></a>Konfigurer godkendelsesworkflow
 
-Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin. Der er flere oplysninger i [Brug arbejdsgange](across-use-workflows.md).  
+Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin. Flere oplysninger i [Bruge godkendelsesworkflows](across-use-workflows.md).
 
-Inden du kan bruge arbejdsprocesser, skal du oprette arbejdsgangbrugere og godkendelsesbrugere, angive, hvordan brugere modtager notifikationer om trin i workflows.  
+Inden du kan bruge godkendelsesworkflows, skal du oprette workflowbrugere og godkendelsesbrugere, angive, hvordan brugere modtager notifikationer om trin i workflows.
 
-På siden **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder. Du definerer arbejdsgangstrin ved at udfylde felter om arbejdsganglinjer fra faste lister over hændelses- og svarværdier, der repræsenterer scenarier, der understøttes af programkoden.  
+På siden **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder. Du definerer workflowtrin ved at udfylde felter om workflowlinjer fra faste lister over hændelses- og svarværdier, der repræsenterer scenarier, der understøttes af programkoden.
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-Den følgende tabel indeholder en opgavesekvens med links til de artikler, der rummer beskrivelserne af opgaverne.  
+Den følgende tabel indeholder en opgavesekvens med links til de artikler, der rummer beskrivelserne af opgaverne.
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
@@ -36,9 +36,9 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 |Angiv, om brugerne får besked via e-mail, og noter, hvor ofte notifikationer sendes.|[Angive, hvornår og hvordan notifikationer modtages](across-how-to-specify-when-and-how-to-receive-notifications.md)|  
 |Tilpas indholdet af e-mailmeddelelserne ved at tilpasse Rapport 1320, Notifikationsmail.|[Sådan opretter og ændrer du Brugerdefinerede rapportlayouts](ui-how-create-custom-report-layout.md)|  
 |Konfigurer en SMTP-server til at aktivere mailkommunikation til og fra [!INCLUDE[prod_short](includes/prod_short.md)]|[Konfigurere mail](admin-how-setup-email.md)|
-|Angiv de forskellige trin i en arbejdsgang ved at forbinde arbejdsgangshændelser med arbejdsgangsvar.|[Oprette arbejdsgange](across-how-to-create-workflows.md)|  
-|Brug workflowskabeloner til at oprette nye workflows.|[Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md)|  
-|Del workflows med andre [!INCLUDE[prod_short](includes/prod_short.md)]-databaser.|[Eksportere og importere workflows](across-how-to-export-and-import-workflows.md)|  
+|Angiv de forskellige trin i en arbejdsgang ved at forbinde arbejdsgangshændelser med arbejdsgangsvar.|[Opret godkendelsesworkflows](across-how-to-create-workflows.md)|  
+|Brug workflowskabeloner til at oprette nye workflows.|[Oprette godkendelsesworkflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md)|  
+|Del workflows med andre [!INCLUDE[prod_short](includes/prod_short.md)]-databaser.|[Eksportere og importere godkendelsesworkflows](across-how-to-export-and-import-workflows.md)|  
 |Lær, hvordan du konfigurerer en arbejdsgang til godkendelse af salgsdokumenter ved at følge en hel procedure.|[Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
 ## <a name="example-of-an-approval-workflow"></a>Eksempel på et godkendelsesworkflow
@@ -52,10 +52,9 @@ Denne video viser, hvordan du konfigurerer et workflow, der kræver, at en bruge
 
 ## <a name="see-also"></a>Se også
 
-[Bruge arbejdsgange](across-use-workflows.md)  
+[Bruge godkendelsesworkflows](across-use-workflows.md)  
 [Workflow](across-workflow.md)  
 [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Arbejde med Business Central](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
