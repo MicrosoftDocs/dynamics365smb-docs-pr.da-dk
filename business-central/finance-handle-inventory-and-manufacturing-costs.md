@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9203aa99271bc5fba840b3d568adc098686ef961
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b911692aa899eac88b74322e21454c87659a75a8
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136085"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605565"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Håndtere lager- og produktionsomkostninger
+
 Selvom meget af funktionaliteten i omkostningsberegningen er udtrykt i underliggende processer, der ikke kræver brugermedvirken, f.eks. efterudligning og automatisk kostregulering, er en række felter, sider og rapporter beregnet til brugere, som direkte eller indirekte styrer varepriser eller drift.  
 
  Tildeling af varegebyrer til købsdokumenter er et eksempel på en opgave til indirekte omkostningsberegning. Opdatering af kostprisen for montage eller produktionsstyklistevare er et eksempel på en opgave til en mere direkte omkostningsberegning.  
@@ -28,13 +29,14 @@ Selvom meget af funktionaliteten i omkostningsberegningen er udtrykt i underligg
 |Opdatere købsprisen for en eller flere varer - periodisk eller automatisk - for at videresende eventuelle kostprisændringer fra indgående poster, f.eks. posterne for køb eller produktionsoutput, til de relaterede udgående poster, f.eks. forbrug eller overførsler.|[Regulere varepriser](inventory-how-adjust-item-costs.md)|  
 |Få indsigt i dynamikken i forbindelse med gennemsnitsomkostninger, når der træffes prissætningsbeslutninger eller spores udsving i omkostningerne, som skyldes fejl i dataposterne.|[Registrere nye varer](inventory-how-register-new-items.md)|  
 |Oprette en produktionsvares standardkostpris ved at angive de tre omkostningselementer: materialer, kapacitet og underleverandør.|[Om beregning af standardomkostning](finance-about-calculating-standard-cost.md)|  
-|Beregne kostprisen for en styklistevare baseret på købsprisen for de underliggende komponenter.|[Arbejde med styklister](inventory-how-work-BOMs.md)|  
+|Beregne kostprisen for en styklistevare baseret på købsprisen for de underliggende komponenter.|[Arbejde med styklister](inventory-how-work-BOMs.md) |  
 |Fuldføre prisberegningens livscyklus for en produceret vare ved at regulere omkostningerne og afstemme værdiposterne med finansposterne.|[Om de færdige produktionsomkostninger](finance-about-finished-production-order-costs.md)|  
 |Ændre værdien for en vare på lageret eller værdien af én varepost, f.eks. en købstransaktion.|[Regulere lagerbeholdning](inventory-how-revalue-inventory.md)|
 |Fortryde en vareudligning manuelt eller udligne automatisk oprettede vareposter igen.|[Fjerne og genanvende vareposter](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Brug feltet **Udlign fra-post** i varekladden til manuelt at oprette en fast udligning mellem en indgående transaktion og den oprindelige udgående transaktion.|[Lukke åbne vareposter, der fremkommer ved fast udligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)
 

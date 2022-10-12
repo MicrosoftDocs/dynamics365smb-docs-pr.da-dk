@@ -9,25 +9,26 @@ ms.workload: na
 ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 081f900836f97d6630608aade4251272ee1a1ff1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
+ms.openlocfilehash: cfbfffdf52e072133451e968e872c7f66a733069
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317430"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607095"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Du kan bruge opgavekøer til at planlægge opgaver
 
-Jobkøer giver brugerne mulighed for at planlægge og køre specifikke rapporter og kodeenheder. Du kan angive opgaver, der skal køres én gang eller gentagne gange. Du kan f.eks. køre rapporten **Sælger - salgsstatistik** hver uge for at spore salget pr. sælger, eller du kan køre codeunit **Uddeleger godkendelsesanmodninger** dagligt for at forhindre, at dokumenter hober sig op.
+Siden Opgavekøposter giver brugerne mulighed for at planlægge og køre specifikke rapporter og kodeenheder. Du kan angive opgaver, der skal køres én gang eller gentagne gange. Du kan f.eks. køre rapporten **Sælger * salgsstatistik** hver uge for at spore salget pr. sælger, eller du kan køre codeunit **Uddeleger godkendelsesanmodninger** dagligt for at forhindre, at dokumenter hober sig op.
 
 Siden **Opgavekøposter** viser alle eksisterende sager. Hvis du tilføjer en ny opgavekøpost, som du vil planlægge, skal du angive nogle oplysninger. Eksempler:
+
 * Den type objekt, du vil køre, f. eks. en rapport eller codeunit. Du skal have tilladelse til at køre den bestemte rapport eller codeunit.
 * Navn og objekt-id for objektet. 
 * Parametre for at angive funktionsmåden for opgavekøposten. Du kan f.eks. tilføje en parameter til kun at sende bogførte salgsordrer. 
 * Når og hvor ofte, vil opgavekøposten køre.
 
 > [!IMPORTANT]  
-> Hvis du bruger tilladelsessættet SUPER, der følger med [!INCLUDE[prod_short](includes/prod_short.md)], har du og dine brugere tilladelse til at køre alle objekter inden for licensen. Dette er stadig ikke tilstrækkeligt til delegeret administrator eller brugere med enhedslicens, som ikke kan oprette en opgavekø.
+> Hvis du er tildelt tilladelsessættet SUPER, der følger med [!INCLUDE[prod_short](includes/prod_short.md)], har du tilladelse til at køre alle objekter inden for licensen. Hvis du har rollen Stedfortræderadministrator, kan du oprette og planlægge opgavekøposter, men kun administratorer og licenserede brugere kan køre dem. Brugere med enhedslicensen kan ikke oprette eller køre opgavekøposter.
 
 Når opgavekøer er konfigureret og kører, kan status ændres på følgende måde i hver gentagede periode:
 
@@ -73,7 +74,7 @@ Siden **Planlagte opgaver** i [!INCLUDE [prod_short](includes/prod_short.md)] vi
 F.eks. stoppes alle planlagte opgaver, hvis virksomheden er i et miljø, som er en kopi af et andet miljø. Brug siden **Planlagte opgaver** til at indstille, hvilke opgaver der er klar til kørsel i opgavekøen.  
 
 > [!NOTE]
-> Interne administratorer og brugere kan planlægge kørsel af opgaver. Uddelegerede administratorer kan ikke.
+> Interne administratorer og brugere med licens kan planlægge kørsel af opgaver. Stedfortræderadministratorer kan oprette og planlægge opgaver til kørsel, men kun licenserede brugere kan køre dem.
 
 ## <a name="the-my-job-queue-part"></a>Delen Min opgavekø
 

@@ -7,18 +7,20 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 410e3166674354499e76b9bc5483d66c037c4969
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fdc84068220e16ac82d97ec005d69ec3496d902
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132051"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606166"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Administrere arbejde på tværs af flere regnskaber i virksomhedshub
 
-Nogle personer arbejder i flere firmaer i [!INCLUDE [prod_short](includes/prod_short.md)], og nogle arbejder også i mere end én organisation, f.eks. eksterne bogholdere eller medarbejdere og ledere af virksomheder med flere datterselskaber. For disse brugere og mange andre er virksomhedens hub den samme som en landingsside til styring af arbejde på tværs af de forskellige miljøer, som de arbejder i, på tværs af firmaer, miljøer og områder.  
+Nogle personer arbejder i flere firmaer i [!INCLUDE [prod_short](includes/prod_short.md)], og nogle arbejder også i mere end én organisation, f.eks. eksterne bogholdere eller medarbejdere og ledere af virksomheder med flere datterselskaber. For disse brugere og mange andre kan virksomhedshubben bruges som en landingsside, der giver en økonomisk oversigt over virksomheder og miljøer. Den giver brugerne et værktøj til styring af arbejde på tværs af de forskellige miljøer, som de arbejder i, på tværs af firmaer, miljøer og områder.  
 
 Du kan få adgang til firma hubben ved at skifte til rollen **Virksomhedshub** i Mine indstillinger eller ved at åbne siden **Virksomhedshub** direkte. Du kan udføre samme arbejde begge steder, men handlinger placeres lidt anderledes i menuer.  
+
+[![Viser siden med virksomhedshub, der viser alle virksomheder.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
 > [!NOTE]
 > Du kan tilslutte virksomhedens hub til så mange virksomheder, du har brug for. Du kan dog kun tilslutte virksomhedens hub til virksomheder, der er værtsbaseret på [!INCLUDE [prod_short](includes/prod_short.md)]-internettet.
@@ -63,9 +65,9 @@ Listen **Mine brugeropgaver** hjælper dig med at prioritere din dag ved at vise
 
 Du kan f.eks. sortere efter forfaldsdato eller andre typer data, der hjælper dig med at prioritere din dag. Listen viser som standard alle opgaver, der er tildelt til dig, men du kan oprette filtre, så der f.eks. kun vises opgaver, der er markeret som høj prioritet.  
 
-For at hente en opgave skal du blot vælge den på listen over ventende brugeropgaver. På båndet åbner linket **Gå til opgaveelementet** den side, hvor du kan udføre arbejdet.  
+For at hente en opgave skal du vælge den på listen over ventende brugeropgaver. På båndet åbner linket **Gå til opgaveelementet** den side, hvor du kan udføre arbejdet.  
 
-Når du har udført en opgave, skal du blot markeres som fuldført.  
+Når du har fuldført en opgave, skal du markere den som fuldført.  
 
 Du kan finde flere oplysninger om virksomheder og miljøer i [Miljølinks](company-hub-add-company.md#environment-links).  
 

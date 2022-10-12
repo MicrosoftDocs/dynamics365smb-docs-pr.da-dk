@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: bce2c42900b67c24801098d2bacae3a0f0aee14a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a9218bf8d8fa2c7f84b08380742df17bd7be7afe
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148664"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605160"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designoplysninger: Centrale begreber i planlægningssystemet
 
@@ -113,7 +113,7 @@ Virksomheder, der gør forretning på mere end én lokation, kan være nødt til
 
 Dette understøttes ved hjælp af lagervarer, hvor individuelle planlægningsparametre kan angives på lagervareniveau. En lagervare kan betragtes som en vare på en bestemt placering. Hvis brugeren ikke har angivet en lagervare for den pågældende lokation, bruges de standardparametre, der er angivet på varekortet. Programmet beregner kun en plan for aktive lokationer, som er der, hvor der er eksisterende behov eller forsyning for den pågældende vare.  
 
-Et element kan håndteres på enhver lokation i princippet, men programmets tilgang til begrebet lokation er meget streng. En salgsordre på ét sted kan f.eks. ikke opfyldes af et antal på lager på en anden lokation. Antal på lager skal først overflyttes til den lokation, der er angivet på salgsordren.  
+En vare kan håndteres på enhver lokation i princippet, men programmets tilgang til begrebet lokation er meget streng. En salgsordre på ét sted kan f.eks. ikke opfyldes af et antal på lager på en anden lokation. Antal på lager skal først overflyttes til den lokation, der er angivet på salgsordren.  
 
 ![Planlægning af lagervarer pr. lokation.](media/NAV_APP_supply_planning_1_SKU_planning.png "Planlægning af lagervarer pr. lokation")  
 
@@ -127,7 +127,7 @@ Du kan finde flere oplysninger i [Prioritering af ordrer](design-details-balanci
 
 ## <a name="demand-forecasts-and-blanket-orders"></a>Behovsprognoser og rammeordrer
 
-Forecasts og rammesalgsordrer repræsenterer begge forventet behov. Den rammeordre, som dækker en debitors tiltænkte køb over en bestemt tidsperiode, skal mindske usikkerheden af det samlede forecast. Rammeordren er en debitorspecifik prognose i tillæg til den uspecificerede prognose, som vist nedenfor.  
+Forecasts og rammesalgsordrer repræsenterer begge forventet behov. Den rammeordre, som dækker en kundes tiltænkte køb over en bestemt tidsperiode, skal mindske usikkerheden af den samlede prognose. Rammeordren er en debitorspecifik prognose i tillæg til den uspecificerede prognose, som vist nedenfor.  
 
 ![Planlægning ved hjælp af prognoser.](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planlægning ved hjælp af prognoser")  
 
@@ -256,7 +256,7 @@ Evt. dokumentlinjer med forfaldsdatoer før den planlagte startdato konsolideres
 
 ### <a name="exception"></a>Undtagelse
 
-Advarslen om undtagelsen vises, hvis det forventede disponible lager kommer under sikkerhedslageret. Planlægningssystemet foreslår en forsyningsordre, der skal opfylde behovet på forfaldsdatoen. Advarslen angiver varens sikkerhedslager og den dato, hvor det overtrædes.  
+Advarslen om undtagelsen vises, hvis det forventede disponible lager kommer under sikkerhedslageret. Planlægningssystemet foreslår en forsyningsordre, der skal opfylde behovet på forfaldsdatoen. Advarslen angiver varemængden på sikkerhedslageret og den dato, hvor den overtrædes.  
 
 Overskridelse af niveauet for sikkerhedslageret anses for at være en undtagelse, fordi det ikke bør forekomme, hvis genbestillingspunktet er angivet korrekt. Du kan finde flere oplysninger i [Genbestillingspunktets rolle](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
@@ -299,7 +299,7 @@ Basisforsyningens planlægningsværktøj, der er repræsenteret af siden **Ordre
 > [!NOTE]  
 >  Det anbefales ikke at bruge Ordreplanlægning, hvis firmaet anvender allerede planlægning eller indkøbskladder. Forsyningsordrer, der er oprettet via siden **Ordreplanlægning**, kan ændres eller slettes under de automatiske planlægningskørsler. Dette skyldes, at den automatiske planlægningskørsel bruger planlægningsparametre, og disse parametre kan muligvis ikke tages i betragtning af den bruger, der oprettede den manuelle plan af siden Ordreplanlægning.  
 
-##  <a name="finite-loading"></a>Belastningsbegrænsning
+## <a name="finite-loading"></a>Begrænset belastning
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er et standard ERP-system, ikke et ekspeditions- eller shop floor control-system. Det planlægger en mulig udnyttelse af ressourcer ved at tilbyde en grov plan, men det opretter og vedligeholder ikke automatisk detaljerede planer, der er baseret på prioriteter eller optimeringsregler.  
 
@@ -308,7 +308,7 @@ Den tilsigtede brug af funktionen kapacitetsbegrænsede ressourcer er 1): for at
 Ved planlægning med kapacitetsbegrænsede ressourcer sikrer systemet, at der ikke indlæses nogen ressource over dens definerede kapacitet (kritisk belastning). Dette gøres ved at tildele hver operation til det nærmeste tilgængelige tidsrum. Hvis tidsrummet ikke er stort nok til at fuldføre hele handlingen, bliver handlingen opdelt i to eller flere dele, der er placeret i de nærmeste ledige tidsrum.  
 
 > [!NOTE]  
->  I tilfælde af opdeling af operationen er opstillingstiden kun tildelt én gang, da det antages, at nogen manuel regulering er udført for at optimere planen.  
+> I tilfælde af opdeling af operationen er opstillingstiden kun tildelt én gang, da det antages, at nogen manuel regulering er udført for at optimere planen.  
 
 Aktionsgrænse for tid kan føjes til ressourcer for at minimere opdeling af funktionen. Dette gør det muligt for systemet at planlægge belastning på den sidst mulige dag ved at overskride den kritiske belastningsprocent en smule, hvis dette kan reducere antallet af operationer, der er opdelt.  
 
@@ -316,11 +316,10 @@ Dette afslutter beskrivelsen af de centrale begreber vedrørende forsyningsplanl
 
 ## <a name="see-also"></a>Se også
 
-[Designoplysninger: Overførsler i planlægning](design-details-transfers-in-planning.md)   
-[Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)   
-[Designoplysninger: Tabellen Planlægningsopgave](design-details-planning-assignment-table.md)   
-[Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
-[Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)
-
+[Designoplysninger: Overførsler i planlægning](design-details-transfers-in-planning.md)  
+[Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)  
+[Designoplysninger: Tabellen Planlægningsopgave](design-details-planning-assignment-table.md)  
+[Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)  
+[Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

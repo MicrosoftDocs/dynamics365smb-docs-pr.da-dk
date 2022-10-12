@@ -1,40 +1,40 @@
 ---
 title: Rapportvalg i Business Central
 description: Få mere at vide om, hvordan du opretter de rapporter, som bruges til at udskrive forskellige typer dokumenter i Business Central.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
-ms.date: 03/11/2022
-ms.author: edupont
-ms.openlocfilehash: 9106b1ac3f6b179e26c8dfb01212b88e92b694fe
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.date: 06/09/2022
+ms.author: bholtorf
+ms.openlocfilehash: fc5bfe8b22d06455379dabd20723fb0ccfe4032b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950195"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607495"
 ---
-# <a name="report-selection-in-business-central"></a>Rapportvalg i Business Central
+# <a name="report-selection-for-documents-in-business-central"></a>Rapportvalg til dokumenter i Business Central
 
-Du kan oprette standardrapporter, der skal bruges til at udskrive dokumenter til salg og køb, f. eks. ordrer, tilbud og fakturaer. Hvis du f.eks. har et bestemt layout til salgsfakturaer, kan du angive den rapport i **Rapportvalg - salg**-siden, så de bruges til at sende eller udskrive salgsfakturaer.  
-
-På **Rapportvalg**-siderne kan du angive, hvilken rapport der skal udskrives i forskellige situationer. [!INCLUDE [prod_short](includes/prod_short.md)] indeholder standardkonfigurationer, men du kan ændre dem efter behov. Du kan også tilføje rapporter til **Rapportvalg**-siderne, hvis du f.eks. vil udskrive mere end en rapport pr.dokumenttype.  
+Du kan oprette standardrapporter, der skal bruges til at udskrive dokumenter til salg, køb og service, f.eks. ordrer, tilbud og fakturaer. Hvis du f.eks. har et bestemt layout til salgsfakturaer, kan du angive den rapport i **Rapportvalg - salg**-siden, så de bruges til at sende eller udskrive salgsfakturaer.  
 
 ## <a name="available-report-selections"></a>Tilgængelige rapportvalg
 
-[!INCLUDE [prod_short](includes/prod_short.md)] indeholder forskellige **rapportvalg**-sider til forskellige områder. I følgende tabel beskrives det, hvor du kan finde oplysninger om de forskellige sider.  
+På **Rapportvalg**-siderne kan du angive, hvilken rapport der skal udskrives i forskellige situationer. [!INCLUDE [prod_short](includes/prod_short.md)] indeholder standardkonfigurationer, men du kan ændre dem efter behov. Du kan også tilføje rapporter til **Rapportvalg**-siderne, hvis du f.eks. vil udskrive mere end en rapport pr.dokumenttype. 
+
+I følgende tabel beskrives det, hvor du kan finde oplysninger om de forskellige sider.  
 
 |Område eller en opgave  |Lær mere|
 |--------------|----------|
-|Eksempel på, hvordan Rapportvalg fungerer (salg)|[Rapportvalg til salgsdokumenter](#example-report-selection-for-sales-documents)|
+|Eksempel på, hvordan rapportvalg fungerer (salg)|[Rapportvalg til salgsdokumenter](#example-report-selection-for-sales-documents) findes nedenfor|
 |Standardlayout for e-mails med salgs-og købsdokumenter  |[Angiv genanvendelig e-mailtekst og layout til salgs-og købsdokumenter](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts) |
 |Definere checklayout     |[Vælge et checklayout](finance-how-define-check-layouts.md) |
-|Definere rapporter for momsrapportering (Tyskland)|[Konfigurere rapporter til moms og Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
+|Definere rapporter til momsrapportering (Tyskland)|[Konfigurere rapporter til moms og Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
 > [!TIP]
-> Din [!INCLUDE [prod_short](includes/prod_short.md)] kan f.eks. omfatte yderligere **Rapportvalg**-sider, afhængigt af f.eks. og branche. Du kan altid kontrollere din opsætning ved at vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") Ikon, skriv **Rapportvalg** og vælg derefter det relevante link.
+> Din [!INCLUDE [prod_short](includes/prod_short.md)] kan f.eks. omfatte yderligere **Rapportvalg**-sider, afhængigt af f.eks. og branche. Du kan kontrollere din opsætning ved at vælge den ![lyspære, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") Angiv **Rapportvalg**, og vælg derefter det relevante link.
 
-Standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] inkluderer følgende **Rapportsektion**-sider:
+Standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] inkluderer følgende **Rapportvalg**-sider:
 
 * **Rapportvalg - salg**  
 * **Rapportvalg - køb**  
@@ -42,24 +42,24 @@ Standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] inkluderer 
 * **Rapportvalg - pengestrøm**  
 * **Rapporten Valg - lager**  
 * **Rapportvalg - bankkonto**  
-* **Rapportvalg - rykkere og rentenotaer**  
 * **Rapportvalg – sag**  
+* **Rapportvalg - service**
 
 ## <a name="example-report-selection-for-sales-documents"></a>Eksempel: Rapportvalg til salgsdokumenter
 
-**Rapportvalget - salg**-side definerer de standardrapporter, der skal bruges i forskellige scenarier for hver relateret dokumenttype. Vælge et dokumenttype i feltet **Forbrug** og tilføj eller gennemse rapportvalget. Du kan oprette mere end én rapport og den rækkefølge, som rapporter skal sendes eller udskrives i.  
+**Rapportvalget - salg**-siden definerer de standardrapporter, der skal bruges i forskellige scenarier for hver relateret dokumenttype. Vælg en dokumenttype i feltet **Forbrug**, og tilføj eller gennemse rapportvalget. Du kan oprette mere end én rapport og angive den rækkefølge, som rapporter skal sendes eller udskrives i.  
 
 [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-Visse dokumenttyper kan sendes som vedhæftede filer i e-mails, og andre kan ikke. Hvis en dokumenttype kan sendes via e-mail, indeholder siden **Rapportvalg** ekstra felter.  
+Du kan sende alle typer dokumenter som vedhæftede filer i mail. Til dem indeholder siden **Rapportvalg** ekstra felter.  
 
-I **Rapportvalget-salg** og **Rapportvalg-køb**-sider kan du f.eks. oprette e-mail med følgende felter:
+På siderne **Rapportvalg - salg** og **Rapportvalg - køb** kan du f.eks. oprette mail med følgende felter:
 
 |Feltnavn |Beskrivelse  |
 |-----------|-------------|
-|**Brug til brødtekst i mail**| Indsæt opsummerede oplysninger, f. eks. fakturanummer, forfaldsdato og betalingstjeneste link, i en e-mail.        |
+|**Brug til brødtekst i mail**| Indsæt opsummerede oplysninger, f.eks. fakturanummer, forfaldsdato eller et link til en betalingstjeneste, i en mail.        |
 |**Brug til vedhæftet fil i mail**| Knyt det relaterede dokument til e-mailen.|
-|**Layoutbeskrivelse for brødtekst i mail**|Angiv det e-mailformat, der skal bruges. Layoutet er typisk et brugerdefineret rapportlayout. |
+|**Layoutbeskrivelse for brødtekst i mail**|Angiv det e-mailformat, der skal bruges. Det er typisk et brugerdefineret rapportlayout. |
 
 ## <a name="see-also"></a>Se også
 
@@ -70,8 +70,8 @@ I **Rapportvalget-salg** og **Rapportvalg-køb**-sider kan du f.eks. oprette e-m
 [Angiv dokumentlayout for debitorer og leverandører](ui-define-customer-vendor-document-layouts.md)  
 [Installation af printere](ui-specify-printer-selection-reports.md)  
 [Finansrapporter og analyser i Business Central](finance-reports.md)  
-[Rapporter og analyser for debitor i Business Central](receivables-reports.md) 
-[Rapporter og analyser for kreditor i Business Central](payables-reports.md)  
+[Rapporter og analyser for debitor i Business Central](receivables-reports.md)  
+[Kreditorrapporter og -analyser i Business Central](payables-reports.md)  
 [Anlægsrapporter og analyser i Business Central](fa-reports.md)  
 [Rapporter og analyser i Business Central](project-reports.md)  
 [Salgsrapporter og analyser i Business Central](sales-reports.md)  

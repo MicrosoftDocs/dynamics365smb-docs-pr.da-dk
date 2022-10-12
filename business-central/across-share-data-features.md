@@ -5,14 +5,14 @@ author: jswymer
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2022
+ms.date: 09/21/2022
 ms.author: jswymer
-ms.openlocfilehash: 8fd3d76ed8affd506ad4cd1838a182e595ecb0bf
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: e54cabd331253a40b160a6cc89b4ab170bd1db89
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528501"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607468"
 ---
 # <a name="sharing-business-data-from-business-central"></a>Dele forretnings data fra Business central
 
@@ -42,7 +42,7 @@ Du kan finde flere oplysninger i [Sortering, søgning og filtrering](ui-enter-cr
 
 ![Understøttet](media/check.png) Business Central Online ![Ikke understøttet](media/x-icon.png) Business Central i det lokale miljø
 
-Direkte fra de fleste samlingssider og detaljesider kan du sende et link til siden til personer, gruppechats eller kanaler. Du kan f. eks. dele et hyperlink til en filtreret visning af dine poster. Modtagerne kan derefter vælge hyperlinket for at åbne siden i Business Central.
+Direkte fra de fleste samlingssider og detaljesider kan du sende et link til siden til personer, gruppechats eller kanaler. Du kan f. eks. dele et hyperlink til en filtreret visning af dine poster. Hvis du har installeret [!INCLUDE[prod_short](includes/prod_short.md)]-appen for Teams, udvides linket automatisk til et kompakt kort, så du kan medtage det i din meddelelse. Modtagerne kan derefter vælge linket eller kortet for at åbne siden i Business Central.
 
 Du kan finde flere oplysninger i [Dele poster og sidelinks i Teams](across-working-with-teams.md).
 

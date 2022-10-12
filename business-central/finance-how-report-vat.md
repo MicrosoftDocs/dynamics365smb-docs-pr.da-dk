@@ -10,12 +10,12 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2d09a05f29f4eaa5f977580509f425073d189262
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: bf0ea7f023eed4dced53477d72ff844d4da04e37
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532723"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617844"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportere moms til skattemyndighederne
 
@@ -30,7 +30,7 @@ Du kan bruge følgende standardrapporter:
 
     Rapporten Momsangivelse inkluderer moms for salg og køb til kunder og fra leverandører i alle lande, der bruger moms.  
 
-I begge tilfælde beregnes moms på basis af momsbogføringsopsætningen og de momsbogføringsgrupper, du har oprettet.
+I begge tilfælde beregnes moms på basis af momsbogføringsopsætningen og de momsbogføringsgrupper, du har oprettet. [!INCLUDE[prod_short](includes/prod_short.md)] viser momsposter baseret på deres **Momsdato**.
 
 Du kan få vist en komplet oversigt over momsposter ved hver bogføring, der indebærer moms, hvor der oprettes en post på siden **Momsposter**. Disse poster bruges til at beregne momsafregningsbeløb, f.eks. betaling og refusion, for en bestemt periode. Du kan få vist VAT-poster ved at vælge den ![lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **VAT-poster**, og vælg derefter det relaterede link.
 

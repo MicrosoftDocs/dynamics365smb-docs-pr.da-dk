@@ -7,22 +7,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123
-ms.date: 06/16/2021
+ms.date: 08/23/2022
 ms.author: edupont
-ms.openlocfilehash: 213e7abb6dbfeacb5d095399932be5b6849b3c6b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: d820ebaa77f05c3c98dd625426fe2e4a07ce18cd
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528380"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606744"
 ---
 # <a name="about-cost-accounting"></a>Om omkostningsregnskab
 
 Omkostningsregnskab kan hjælpe dig med at forstå omkostningerne til drift af en virksomhed. Omkostningsregnskabsoplysninger er udviklet til at analysere:  
 
--   Hvilke typer omkostninger, der påløber, når du driver en virksomhed?  
--   Hvor opstår omkostningerne?  
--   Hvem bærer omkostningerne?  
+- Hvilke omkostningstyper du pålægger en virksomheds drift  
+- Hvor omkostningerne opstår
+- Hvem der bærer omkostningerne  
 
 Du kan allokere faktiske og budgetterede udgifter til operationer, afdelinger, produkter og projekter for at analysere dit virksomhed rentabilitet i omkostningsregnskab.  
 
@@ -30,11 +30,11 @@ Du kan allokere faktiske og budgetterede udgifter til operationer, afdelinger, p
 
 Omkostningsregnskab har følgende hovedkomponenter:  
 
--   Omkostningstyper, omkostningssteder og omkostningsobjekter  
--   Omkostningsposter og omkostningskladder  
--   Omkostningsfordelinger  
--   Omkostningsbudgetter
--   Rapportering af omkostninger  
+- Omkostningstyper, omkostningssteder og omkostningsobjekter  
+- Omkostningsposter og omkostningskladder  
+- Omkostningsfordelinger  
+- Omkostningsbudgetter
+- Rapportering af omkostninger  
 
 Følgende diagram viser arbejdsprocessen i omkostningsregnskab.  
 
@@ -44,13 +44,13 @@ Følgende diagram viser arbejdsprocessen i omkostningsregnskab.
 
 Du definerer omkostningstyper, omkostningssteder og omkostningsobjekter for at analysere, hvad omkostningerne er, hvor omkostningerne kommer fra, og hvem skal bære omkostningerne.  
 
-Du definerer et diagram over omkostningstyper med en struktur og funktionalitet, der ligner finanskontoplan. Du kan overføre finansresultatopgørelseskonti eller oprette dit eget diagram over omkostningstyper.  
+Du definerer først et diagram over omkostningstyper med en struktur og funktionalitet, der ligner finanskontoplan. Du kan oprette dit eget diagram over omkostningstyper eller overføre finansresultatopgørelseskonti.  
 
-Omkostningssteder er afdelinger og profitcentre, der er ansvarlige for omkostninger og indtægter. Der findes ofte flere omkostningssteder i omkostningsregnskab end i andre dimensioner, der er oprettet i regnskabet. I regnskabet er der normalt kun første niveau af omkostningssteder for direkte omkostninger, og de oprindelige omkostninger anvendes. I omkostningsregnskab oprettes ekstra omkostningssteder for yderligere allokeringsniveauer.  
+Omkostningssteder er afdelinger og profitcentre med ansvar for omkostninger og indtægter. Der findes ofte flere omkostningssteder i omkostningsregnskab end i andre dimensioner, der er oprettet i regnskabet. I regnskabet er der normalt kun første niveau af omkostningssteder for direkte omkostninger, og de oprindelige omkostninger anvendes. I omkostningsregnskab oprettes ekstra omkostningssteder for yderligere allokeringsniveauer.  
 
-Omkostningsobjekter er en virksomheds produkter, produktgrupper eller tjenester. Disse er en virksomheds færdige varer, der bærer omkostningerne.  
+Omkostningsobjekter er en virksomheds produkter, produktgrupper eller tjenester. Disse er en virksomheds "færdigvarer", der bærer omkostningerne.  
 
-Du kan sammenkæde omkostningssteder med afdelinger og omkostningsobjekter med projekter i din virksomhed. Du kan dog knytte omkostningssteder og omkostningsobjekter til alle dimensioner i regnskabet og supplere dem med subtotaler og titler.  
+Du kan sammenkæde omkostningssteder med afdelinger og omkostningsobjekter med projekter i din virksomhed. Vis Finans kan du knytte omkostningssteder og omkostningsobjekter til enhver dimension og supplere dem med subtotaler og titler.  
 
 ## <a name="cost-entries-and-cost-journals"></a>Omkostningsposter og omkostningskladder
 
@@ -60,28 +60,27 @@ I omkostningskladder kan du bogføre omkostninger og aktiviteter, der ikke komme
 
 ## <a name="cost-allocations"></a>Omkostningsfordelinger
 
-Allokeringer flytter omkostninger og indtægter mellem omkostningstyper, omkostningssteder og omkostningsobjekter. Faste omkostninger bogføres først til omkostningssteder og senere til omkostningsobjekter. Dette kan for eksempel gøres i en salgsafdeling, der sælger flere produkter på samme tid. Direkte omkostninger kan direkte allokeres til et omkostningsobjekt, f.eks. materiale, der køber til et bestemt produkt.  
+Allokeringer flytter omkostninger og indtægter mellem omkostningstyper, omkostningssteder og omkostningsobjekter. Faste omkostninger bogføres først til omkostningssteder og senere til omkostningsobjekter. Dette kan for eksempel gøres i en salgsafdeling, der sælger flere produkter på samme tid. Afdelingens faste omkostninger, f.eks. løn, forsyninger og rejseudgifter, er først tildelt salgsomkostningsstedet, som derefter fordeles mellem de forskellige produkter (omkostningsobjekter), der sælges, sammen med de indkøbte materialer (direkte omkostninger) til brug i dem.
 
 Den fordelingsbasis, der bruges, og nøjagtigheden af fordelingsdefinitionen har indflydelse på resultaterne af omkostningsfordelinger. Fordelingsdefinitionen bruges til at allokere omkostninger først fra såkaldte pre-omkostningssteder til primære omkostningssteder og derefter fra omkostningssteder til omkostningsobjekter.  
 
-Hver allokering, der består af en fordelingskilde og mål for en eller flere fordelinger. Du kan allokere faktiske værdier eller budgetterede værdier ved hjælp af den statiske fordelingsmetode, der er baseret på en endelig værdi, som f.eks. kvadratmeter eller en etableret fordelingsforhold på 5: 2: 4. Du kan også tildele faktiske værdier eller budgetterede værdier ved hjælp af den dynamiske fordelingsmetode med ni foruddefinerede allokeringsbaser og 12 dynamiske datointervaller.  
+Hver allokering består af en fordelingskilde og en eller flere fordelingsmål. Du kan allokere faktiske værdier eller budgetterede værdier ved hjælp af den statiske fordelingsmetode, der er baseret på en endelig værdi, som f.eks. kvadratmeter eller en etableret fordelingsforhold på 5:2:4. Du kan også tildele faktiske værdier eller budgetterede værdier ved hjælp af den dynamiske fordelingsmetode med ni foruddefinerede allokeringsbaser og 12 dynamiske datointervaller.  
 
 ## <a name="cost-budgets"></a>Omkostningsbudgetter
 
-Du kan oprette lige så mange omkostningsbudgetter, du vil. Du kan kopiere omkostningsbudgettet til finansbudget og omvendt. Du kan overføre budgetterede omkostninger som faktiske omkostninger.  
+På samme måde som ved budgettering i finansmodulet kan du oprette budgetter for at planlægge omkostninger i en bestemt periode (f.eks. et regnskabsår), der kan anvendes på et omkostningssted (firmaafdeling) eller et omkostningsobjekt (produkt eller service). Du kan oprette lige så mange omkostningsbudgetter, du har brug for. Du kan kopiere omkostningsbudgettet til finansbudget og omvendt. Og du kan overføre budgetterede omkostninger som faktiske omkostninger.
 
 ## <a name="cost-reporting"></a>Rapportering af omkostninger
 
-De fleste rapporter og statistikker er baseret på bogførte omkostningsposter. Du kan angive sorteringen af resultaterne og bruge filtre til at definere, hvilke data, der skal vises. Du kan oprette rapporter for omkostningsfordelingsanalyse. Du kan desuden bruge standardkontoskemaerne til at definere, hvordan dine rapporter for diagrammet over omkostningstyper vises.  
+De fleste rapporter og statistikker er baseret på bogførte omkostningsposter. Du kan angive sorteringen af resultaterne og bruge filtre til at definere, hvilke data, der skal vises. Du kan oprette rapporter for omkostningsfordelingsanalyse. Du kan desuden bruge standardfinansrapporter til at definere, hvordan dine rapporter for diagrammet over omkostningstyper vises.  
 
 ## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 
- [Regnskab for omkostninger](finance-manage-cost-accounting.md)  
- [Finans](finance.md)  
- [Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)  
- [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Regnskab for omkostninger](finance-manage-cost-accounting.md)  
+[Finans](finance.md)  
+[Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

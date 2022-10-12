@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: jswymer
 ms.author: jswymer
 ms.date: 04/01/2021
-ms.openlocfilehash: 28ac84b76f40771cf29c4d504035f01458cb1631
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 85c83a08907f9f5b441b3f09c1a09131684707a8
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517170"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606490"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Inspektion af sider i Business Central
 
@@ -26,11 +26,7 @@ Sideinspektionsfunktionen giver mulighed at få oplysninger om en side, giver di
 
 Du starter sideinspektion fra siden **Hjælp og Support**. Vælg spørgsmålstegnet i øverste højre hjørne, vælg **Hjælp og support**, og vælg derefter **Undersøg sider og data**. Du kan også bare bruge tastaturgenvejen **Ctrl+Alt+F1**.
 
-Ruden **Sideinspektion** åbnes på siden. Følgende figur illustrerer ruden **Sideinspektion** på siden **Salgsordre**.
-
-![Sideinspektion.](media/page-inspection-example.png)
-
-Når ruden **Sideinspektion** åbnes første gang, indeholder den oplysninger, der vedrører hovedsidens objekt.
+Ruden **Sideinspektion** åbnes på siden. Når ruden åbnes første gang, indeholder den oplysninger, der vedrører hovedsidens objekt.
 
 Bruge tastaturgenvejen eller pegeredskabet til at flytte fokus til forskellige elementer på siden. Når du vælger en faktaboks eller et element på hovedsiden, er det omgivende område fremhævet med en kant, og ruden **Sideinspektion** viser oplysninger om det valgte element. Den foregående figur viser f.eks. oplysninger om oversigtsdelen på siden **Salgsordre**. Når du navigerer til andre sider i programmet, opdateres ruden **Sideinspektion** automatisk med sideoplysningerne, mens du bevæger dig videre.
 
@@ -47,6 +43,5 @@ Brugere, der ikke tildeles rettigheder i **Systemobjekt 5330**, kan stadig få a
 ## <a name="see-also"></a>Se også
 
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

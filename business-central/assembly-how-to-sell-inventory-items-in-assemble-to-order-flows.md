@@ -10,15 +10,14 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 3b9955ece6a5f76269915b18ecfe22c722d2e59d
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: e43a8bbfb663a7207afd01360ba3600cd60d5076
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532966"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607014"
 ---
 # <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Sådan sælges lagervarer i montage efter ordre-forløb
-
 
 Hvis feltet **Montagepolitik** på varekortet til et montageelement indeholder **Montage efter ordre**, vil standardsalgsordreprocessen forudsætte, at elementet ikke er på lageret, og at det skal monteres til denne specifikke salgsordre. Derfor oprettes en sammenkædet montageordre automatisk, når du føjer elementet til en salgsordrelinje. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md). Men hvis en del af salgsordremængden allerede er tilgængelig på lageret, kan du sænke montageordremængden ved at ændre feltet **Antal til montage efter ordre** på salgsordrelinjen.  
 
@@ -57,7 +56,7 @@ I denne procedure skal du erstatte montage efter ordre-mængder med lagerantal p
 
 [Montagestyring](assembly-assemble-items.md)  
 [Reservere varer](inventory-how-to-reserve-items.md)  
-[Arbejde med styklister](inventory-how-work-BOMs.md)  
+[Arbejde med montagestyklister](assembly-how-work-assembly-boms.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

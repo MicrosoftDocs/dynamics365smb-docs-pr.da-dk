@@ -10,23 +10,23 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 07cccf188ed476a3dba4fa71ec7de20620cbd6f1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: e9d53a6369e2955e0e097471e70cb83438540539
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534692"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607041"
 ---
 # <a name="assemble-items"></a>Montere elementer
 
 Hvis feltet **Genbestillingssystem** på varekortet indeholder **Montage**, er standardmetoden til at levere varen at montere den fra definerede komponenter og potentielt af en ressource, der er defineret.  
 
-Komponenter og ressourcer, der indgår i denne form for montageelement, skal være defineret i en montage stykliste. Du kan finde flere oplysninger i [Arbejde med styklister](inventory-how-work-BOMs.md).  
+Komponenter og ressourcer, der indgår i denne form for montageelement, skal være defineret i en montage stykliste. Du kan finde flere oplysninger i [Arbejde med montagestyklister](assembly-how-work-assembly-boms.md).
 
 Montageelementer kan angives for to forskellige montageprocesser:  
 
--   Montage til lager.  
--   Montage efter ordre.  
+- Montage til lager.  
+- Montage efter ordre.  
 
 Du bruger typisk **Montage til lager** for de varer, du vil montere forud for salg, f.eks for at forberede en pakkekampagne og beholde på lager, indtil de bestilles. Disse varer er som regel standardvarer som emballerede pakker, du ikke tilbyder at tilpasse efter kundens behov.  
 
@@ -74,10 +74,9 @@ Når bogføringen er udført, bogføres montageelementet som afgang til den loka
 ## <a name="see-also"></a>Se også
 
 [Montagestyring](assembly-assemble-items.md)  
-[Arbejde med styklister](inventory-how-work-BOMs.md)  
+[Arbejde med montagestyklister](assembly-how-work-assembly-boms.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

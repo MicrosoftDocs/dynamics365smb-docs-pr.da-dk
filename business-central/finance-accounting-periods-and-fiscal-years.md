@@ -7,50 +7,50 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 100
-ms.date: 04/01/2021
+ms.date: 08/25/2022
 ms.author: bholtorf
-ms.openlocfilehash: 44c9cdadc47a40f8915f3134018c062d90fe06c5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 93dcf334d65bda2859f8fcd91c976c3d85e6b18f
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511671"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605646"
 ---
 # <a name="work-with-accounting-periods-and-fiscal-years"></a>Arbejd med regnskabsperioder og regnskabsår
 
 Regnskabsperioder, der kaldes også rapporteringsperioder, er tidsperioder, hvor en virksomhed eller organisation rapporterer finansielle resultater, f.eks. ved at generere deres resultatopgørelse eller balance. Typisk henviser regnskabsperioder til virksomhedens regnskabsår, der kan indeholde flere regnskabsperioder, f.eks. måneder eller kvartaler.
 
-For mange virksomheder falder regnskabsåret ikke sammen med kalenderåret. For eksempel kan regnskabsåret slutte den 30 juni i stedet for 31. december. For nyoprettede virksomheder kan regnskabsåret i realiteten være længere end 12 måneder.  
+For mange virksomheder er regnskabsåret ikke lig med kalenderåret, når regnskabsåret f.eks. slutter 30. juni i stedet for 31. december. For nyoprettede virksomheder kan regnskabsåret i realiteten være længere end 12 måneder.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] kræver kun regnskabsperioder, hvis du vil lukke en resultatopgørelse eller udføre opgaver til komprimering af data. 
+[!INCLUDE[prod_short](includes/prod_short.md)] kræver kun regnskabsperioder, hvis du vil lukke en resultatopgørelse eller udføre opgaver til komprimering af data.
 
-Du kan bruge regnskabsperioder i forbindelse med rapportering. F.eks. når du gennemgår bogførte poster på siden **Saldo/Budget**, hvor du kan angive rapporteringsintervallet. En af de indstillinger kan du angive for at rapportere regnskabsperiode. Du kan også oprette et kontoskema, der sammenligner resultaterne for forskellige perioder.
+Du kan f.eks. bruge regnskabsperioder i forbindelse med rapportering, når du gennemgår bogførte poster på siden **Saldo/Budget**, hvor du kan angive rapporteringsintervallet. En af dine muligheder er at rapportere efter regnskabsperiode. Du kan også oprette en finansiel rapport, der sammenligner resultaterne for forskellige perioder.
 
 ## <a name="creating-a-new-fiscal-year"></a>Oprette et nyt regnskabsår
 
-Du kan oprette flere regnskabsperioder ad gangen ved hjælp af **Opret regnskabsår**-kørslen eller manuelt.
+Du kan oprette flere regnskabsperioder ad gangen ved hjælp af **Opret regnskabsår** som batchjob eller manuelt.
 
 ### <a name="how-to-create-accounting-periods-in-bulk"></a>Sådan oprettes flere regnskabsperioder ad gangen
 
 Brug **Opret regnskabsår**-kørslen til at opdele et regnskabsår i perioder af samme varighed.  
 
-1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, skriv **Regnskabsperioder**, og vælg derefter det relaterede link.  
-2. Vælg handlingen **Opret år**.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
+1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, angiv **Regnskabsperioder**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Opret år**.
 3. I feltet **Startdato** kan du angive den dato, hvor regnskabsåret begynder.  
 4. I feltet **Antal perioder** kan du angive det antal perioder, du vil opdele regnskabsåret i. Der kan være op til 365 perioder pr. år.  
-5. I feltet **Periodelængde** skal du angive en varighed for hver periode. F.eks. 1M for én måned, 1K for et kvartal og 1Å for et år.  
+5. I feltet **Periodelængde** skal du angive en varighed for hver periode. Varighed er f.eks. 1M for en måned, 1K for et kvartal og 1Å for et år.  
 6. Vælg **OK**.  
 
 ### <a name="how-to-create-accounting-periods-manually"></a>Sådan oprettes regnskabsperioder manuelt
 
-Hvis regnskabsperioderne i regnskabsåret, der har forskellig varigheder som 4-4-5-kalender, der anvendes i detail, du kan oprette det manuelt.  
+Hvis regnskabsperioderne i regnskabsåret, der har forskellige varigheder som f.eks. 4-4-5-kalender, der anvendes i detail, kan du oprette det manuelt.  
   
-1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, skriv **Regnskabsperioder**, og vælg derefter det relaterede link.  
+1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, angiv **Regnskabsperioder**, og vælg derefter det relaterede link.  
 2. I feltet **Startdato** kan du angive den dato, hvor regnskabsåret begynder. Feltet **Navn** viser navnet på måneden.  
 3. Marker afkrydsningsfeltet **Nyt regnskabsår** for at angive, at dette er den første periode i året. [!INCLUDE[prod_short](includes/prod_short.md)] bruger denne periode til at bestemme, hvilke perioder der skal lukkes ved udgangen af året.
 4. Gentag trin 2 og 3 for hver resterende periode.  
 
-## <a name="closing-a-fiscal-year"></a>Afslutning af regnskabsår
+## <a name="closing-a-fiscal-year"></a>Afslutning af et regnskabsår
 
 Lukning af regnskabsåret er en af opgaverne, når regnskaberne skal afsluttes. Når regnskabsåret er afsluttet, er felterne **Afsluttet** og **Dato låst** markeret for alle perioder i året. Du kan ikke genåbne et år eller fjerne markeringen i felterne.
 
@@ -68,7 +68,6 @@ Selvom et regnskabsår er afsluttet, kan du stadig bogføre finansposter i det. 
 
 [Afslutte regnskaberne](year-close-books.md)  
 [Afslutning af år og perioder](year-close-years-periods.md)  
-[Sådan arbejder du med kontoskemaer](bi-how-work-account-schedule.md)  
-
+[Arbejde med finansielle rapporter](bi-how-work-account-schedule.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate,
 ms.search.form: 1500,
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 369ee2b4aded272a8a3a21fe810b4b6c62dd1de0
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.openlocfilehash: 5fe089c0330a8d2b7a71f4907212665722d27d38
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585425"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606517"
 ---
 # <a name="use-power-automate-flows-in-prod_short"></a>Brug Power Automate-flows i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -43,9 +43,7 @@ Med Power Automate kan du oprette forretningsflows direkte internt og stole på 
 
 ## <a name="instant-flows"></a>Øjeblikkelige flows
 
-Med start i 2022, udgivelsesbølge 1 (maj 2022) [!INCLUDE [prod_short](includes/prod_short.md)] kan online administratorer [aktivere en funktion](admin-feature-management.md) til at gøre det muligt at køre et Power Automate-flow fra de fleste lister, kort og dokumentsider. Du kan finde flere oplysninger i artiklen [Konfigurere automatiserede workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) i administrationsindholdet.
-
-Når administratoren har oprettet forbindelse mellem [!INCLUDE [prod_short](includes/prod_short.md)] og Power Automate, kan du se de flow, som organisationen har tilføjet, når du vælger handlingen **Automatisering** på de relevante sider. Øjeblikkelige flows kører uden at forlade [!INCLUDE [prod_short](includes/prod_short.md)].
+[!INCLUDE [prod_short](includes/prod_short.md)] kan køre et Power Automate-flow fra de fleste liste-, kort-og dokumentsider. Når administratoren har oprettet forbindelse mellem [!INCLUDE [prod_short](includes/prod_short.md)] og Power Automate, kan du se de flow, som organisationen har tilføjet, når du vælger handlingen **Automatisering** på de relevante sider. Øjeblikkelige flows kører uden at forlade [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i artiklen [Konfigurere automatiserede workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) i administrationsindholdet.
 
 Disse øjeblikkelige workflows åbnes på en side i [!INCLUDE [prod_short](includes/prod_short.md)] onlinetilstand, så du kan forblive inden for rammerne af den forretningsproces, du var midt i. På nogle sider kan funktionen **Automatisk** skjules under **Flere indstillinger**, men find den, vælg **Power Automate**-menupunktet og derefter vælge det relevante link, der udløser arbejdsprocessen. Forbindelsen til Power Automate er allerede konfigureret for dig.
 
@@ -62,7 +60,7 @@ Du kan finde eksempelskabeloner, der kan tilpasses din virksomhed, og alle tilg�
 
 ## <a name="manage-automated-workflows"></a>Administrere automatiserede workflows
 
-Du kan oprette nye flows eller administrere eksisterende Power Automate-flows i [!INCLUDE [prod_short](includes/prod_short.md)] på siden **Administrer Power Automate-flows**. Du kan finde flere oplysninger i artiklen [Administrere Power Automate-flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows.md) i administrationsindholdet.
+Du kan oprette nye flows eller administrere eksisterende Power Automate-flows i [!INCLUDE [prod_short](includes/prod_short.md)] på siden **Administrer Power Automate-flows**. Du kan finde flere oplysninger i artiklen [Administrere Power Automate-flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows) i administrationsindholdet.
 
 Du kan også administrere tilgængelige Power Automate-workflows på siden **Workflows** i [!INCLUDE[prod_short](includes/prod_short.md)]. På siden vises både indbyggede godkendelses- og Power Automate-workflows med indstillinger for den sidste for at aktivere/deaktivere, slette og få vist workflow på Power Automate-webstedet.
 

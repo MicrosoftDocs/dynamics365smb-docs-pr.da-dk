@@ -1,6 +1,6 @@
 ---
 title: Forretningsfunktioner, der understøttes af Business Central
-description: Indeholder en funktionsoversigt over alle forretningsfunktioner og afdelinger, der understøttes af funktionalitetsområder som Finans, Lager og Projektstyring.
+description: Indeholder en funktionsoversigt over alle forretningsfunktioner og afdelinger, der understøttes af funktionalitetsområder som finans, lager og projektstyring.
 author: SorenGP
 ms.topic: get-started-article
 ms.devlang: na
@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: e413f75356af244dafe7e887207db370b942db7b
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 3e174ae2218dfe4b5b83a8a567deaba91987d2ea
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654887"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606798"
 ---
 # <a name="business-functionality"></a>Forretningsfunktioner
 
@@ -23,35 +23,34 @@ ms.locfileid: "8654887"
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til din virksomheds behov. Fra dit rollecenter kan du åbne assisterede opsætningsvejledninger, som hjælper dig med at konfigurere bestemte scenarier, og tilføje funktioner til [!INCLUDE[prod_short](includes/prod_short.md)]. Forskellige områder af forretningsfunktioner skal konfigureres manuelt. De [Business Central-artikler i hurtig start](quick-start-business-central.md) kan hjælpe dig med at tage de første skridt til at gøre [!INCLUDE [prod_short](includes/prod_short.md)] til din egen. Du kan finde flere oplysninger i [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til din virksomheds behov. Fra dit rollecenter kan du åbne assisterede opsætningsvejledninger, som hjælper dig med at konfigurere bestemte scenarier, og tilføje funktioner til [!INCLUDE[prod_short](includes/prod_short.md)]. Forskellige områder af forretningsfunktioner skal konfigureres manuelt. De [Business Central-artikler i hurtig start](quick-start-business-central.md) kan hjælpe dig med at tage de første skridt til at gøre [!INCLUDE [prod_short](includes/prod_short.md)] til din egen. Flere oplysninger i [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
-| Hvis du vil | Skal du se |
+| Til | Se |
 | --- | --- |
 |Gennemføre og modtage betalinger, administrere pengestrømme, periodisere indtægter og omkostninger, opstille årsafslutning og administrere anlægsaktiver.|[Finans](finance.md)|
-|Få indsigt til udførelsen af dine forretningsaktiviteter via budgetter, kontoskemaer og analyser.|[Business Intelligence](bi.md)|
+|Få indsigt til udførelsen af dine forretningsaktiviteter via budgetter, kontoskemaer og analyser.|[Financial Business Intelligence](bi.md)|
 |Administrere salgsprocesser og oplysninger, f.eks. tilbud, ordrer, returvareordrer og debitorkonti, og foretage direkte levering.|[Salg](sales-manage-sales.md)|
 |Administrere indkøbsprocesser og oplysninger, f.eks. fakturaer, ordrer, returvareordrer og kreditorkonti og købe varer fra salgsdokumenter. |[Køb](purchasing-manage-purchasing.md)|
 |Registrere ny lagerbeholdning eller varer af tjenestetypen, kategorisere varer med henblik på nem søgning, regulere lagerniveauer og udføre almindelige lageromkostningsopgaver.|[Lagerbeholdning](inventory-manage-inventory.md)|
-|Oprette sager og planlægge ressourcer for projekter, administrere sagsbudgetter, overvåge status og spore maskin- og medarbejdertimer.|[Projektstyring](projects-manage-projects.md)|
+|Oprette job og planlægge ressourcer for projekter, administrere sagsbudgetter, overvåge status og spore maskin- og medarbejdertimer.|[Projektstyring](projects-manage-projects.md)|
 |Organisere anlægsaktiverne, sikre korrekt periodisk afskrivning og holde styr på reparationsomkostninger.|[Anlægsaktiver](fa-manage.md)|
 |Styre og understøtte din salgsindsats og fokusere dine interaktioner på foretrukne kunder og kontakter.|[Relationsstyring](marketing-relationship-management.md)|
 |Føre detaljerede registre over medarbejderne og registrere fravær til analyseformål. |[Personale](hr-manage-human-resources.md)|
-|Planlægge produktionsoperationer, der kræves for at omdanne tilgange til færdigvarer.|[Skabelon](production-planning.md)|
-|Sammensætte salgbare elementer i enkle trin for at oprette en ny vare, f.eks en pakke.|[Montagestyring](assembly-assemble-items.md)|
+|Planlægge den produktionsdrift, der kræves for at omdanne input til færdig.|[Skabelon](production-planning.md)|
+|Sammensætte salgbare varer i enkle trin for at oprette en ny vare, f.eks en pakke.|[Montagestyring](assembly-assemble-items.md)|
 |Definere produktionsressourcer og deres kapacitet, planlægge operationer, fjerne produktionskomponenter og gennemføre produktionsoperationer.|[Produktion](production-manage-manufacturing.md)|
 |Sørg for et effektivt flow af varer, der er modtaget og leveret.|[Logistik](warehouse-manage-warehouse.md)|
 |Planlæg serviceopkald og opret serviceordrer, og spor reservedele og forsyninger.|[Service Management](service-service.md)|
 |Konfigurer og brug arbejdsgange, der forbinder opgaver udført af forskellige brugere eller af systemet, f.eks. automatisk bogføring. Anmodning om og tildeling af tilladelse til at oprette eller bogføre dokumenter er typisk arbejdsgangstrin.|[Workflow](across-workflow.md)|
 |Lad brugerne udveksle data med eksterne kilder i daglige opgaver, f.eks. afsendelse eller modtagelse af elektroniske dokumenter, import og eksport af bankfiler og opdatering af valutakurser.|[Udveksle data elektronisk](across-data-exchange.md)|
-|Registrer eksterne dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)], herunder deres vedhæftede filer, og opret derefter relaterede dokumenter manuelt, eller konverter automatisk filerne til elektroniske dokumenter.|[Indgående bilag](across-income-documents.md)|
+|Registrer eksterne dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)], herunder deres vedhæftede filer, opret derefter relaterede dokumenter manuelt, eller konverter automatisk filerne til elektroniske dokumenter.|[Indgående bilag](across-income-documents.md)|
 
 ## <a name="see-also"></a>Se også
 
+[Administration](admin-setup-and-administration.md)    
 [Udforske Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/)  
-[Opsætning](admin-setup-and-administration.md)  
-[Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Blive køreklar](ui-get-ready-business.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)   
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

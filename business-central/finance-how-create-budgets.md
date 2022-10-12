@@ -8,24 +8,24 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
 ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
-ms.date: 04/01/2021
+ms.date: 08/24/2022
 ms.author: edupont
-ms.openlocfilehash: 22f0ecdf185d3b2e31d23dd2492223179328d103
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 229d7b06bc1ec366906531c34a6dfc0deee40c26
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533128"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605538"
 ---
 # <a name="create-gl-budgets"></a>Oprette finansbudgetter
 
 Du kan have flere budgetter for identiske tidsperioder ved at oprette budgetter med separate navne. Ført opretter du budgetnavnene og angiver budgettal. Derefter medtages budgetnavnene på alle de budgetposter, du opretter.  
 
-Når du opretter et budget, kan du definere fire dimensioner for hvert budget. Disse budgetspecifikke dimensioner kaldes budgetdimensioner. Du kan vælge budgetdimensioner fra hvert budget blandt de dimensioner, du allerede har oprettet. Budgetdimensioner kan bruges til at angive filtre for et budget og til at tilføje dimensionsoplysninger til budgetposter. Du kan finde flere oplysninger i [Arbejd med dimensioner](finance-dimensions.md).
+Når du opretter et budget, kan du definere fire budgetspecifikke dimensioner, kaldet budgetdimensioner, for hvert budget. Du kan vælge budgetdimensioner til hvert budget blandt dem, du allerede har oprettet. Budgetdimensioner kan bruges til at angive filtre for et budget og til at tilføje dimensionsoplysninger til budgetposter. Flere oplysninger i [Arbejde med dimensioner](finance-dimensions.md).
 
-Budgetter spiller en vigtig rolle i business intelligence, f.eks. i finansregnskab, der er baseret på kontoplaner, der indeholder budgetposter, eller når du analyserer budgetterede vs. faktiske beløb i kontoplanen. Du kan finde flere oplysninger i [Business Intelligence](bi.md).
+Budgetter spiller en vigtig rolle i Business Intelligence. F.eks. i finansregnskab, der er baseret på finansrapporter, der indeholder budgetposter, eller når du analyserer budgetterede vs. faktiske beløb i kontoplanen. Få mere at vide om [Business Intelligence](bi.md).
 
-I Omkostningsberegning arbejder du med omkostningsbudgetter på samme måde. Du kan finde flere oplysninger i [Oprette omkostningsbudgetter](finance-create-cost-budgets.md).  
+I Omkostningsberegning arbejder du med omkostningsbudgetter på samme måde. Flere oplysninger i [Oprette omkostningsbudgetter](finance-create-cost-budgets.md).  
 
 ## <a name="to-create-a-new-gl-budget"></a>Sådan oprettes et nyt finansbudget
 
@@ -34,7 +34,7 @@ I Omkostningsberegning arbejder du med omkostningsbudgetter på samme måde. Du 
 3. Vælg handlingen **Rediger budget**.
 4. Øverst på siden **Budget** skal du udfylde felterne efter behov for at definere, hvad der vises.  
 
-    Kun de poster, der indeholder det budgetnavn, du har angivet i feltet **Budgetnavn** vises. Fordi budgetnavnet lige er oprettet, er der ikke nogen poster, der passer til filtret. Siden er derfor tom.  
+    Kun de poster, der indeholder det budgetnavn, du har angivet i feltet **Budgetnavn**, vises. Fordi budgetnavnet lige er oprettet, er der ikke nogen poster, der passer til filtret. Siden er derfor tom.  
 5. Angiv et beløb ved at vælge den relevante celle i matrixen. Siden **Finansbudgetposter** åbnes.  
 6. Opret en ny linje, og udfyld feltet **Beløb**. Luk siden **Finansbudgetposter**.  
 7. Gentag trin 5 og 6, indtil du har indtastet alle budgetbeløbene.  
@@ -44,10 +44,20 @@ I Omkostningsberegning arbejder du med omkostningsbudgetter på samme måde. Du 
 
 ## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Eksportere og importere finansbudgetter med Excel
 
-Som for praktisk talt alle andre sider kan du eksportere data på budgetsider til Excel til yderligere behandling eller analyse. Du kan finde flere oplysninger i [Eksportere forretningsdata til Excel](about-export-data.md).
+Som for praktisk talt alle andre sider kan du eksportere data på budgetsider til Microsoft Excel til yderligere behandling eller analyse. Flere oplysninger i [Eksportere dine forretningsdata til Excel](about-export-data.md).
 
 > [!NOTE]
-> Den kontoplanen, som finansbudgetter er baseret på, har linjer kontotypen Overskrift, der indeholder summen af linjerne nedenunder. Når du eksporterer et finansbudget, eksporteres data på alle linjer uanset kontotypen. Det er dog kun data på linjer med kontotypen Bogføring, der kan importeres tilbage. Tilsvarende: <br /><br /> **Når du importerer et finansbudget, slettes alle de værdier, der findes på overskriftslinjer.** <br /><br /> Dette sker for at undgå forkerte totaler efter import af data, der er oprettet eller redigeret i Excel.<br /><br /> **Scenarie**: Du ved, at de nye budgetterede lønomkostninger vil være RV 1.200.000. Du vil tillade lønafdelingens budget for de tre specifikke linjer (af kontotypen Bogføring) for fuldtidsmedarbejdere, deltidsmedarbejdere og midlertidig hjælp. De tre linjer er grupperet under overskriftslinjen Løn.<br /><br />Du indtaster 1.200.000 i overskriftslinjen, eksporterer budgettet til Excel og sender det derefter til lønafdelingen og beder dem om at fordele RV 1.200.000.<br /><br /> Lønafdelingen fordeler beløbet på de tre bogføringskonti. Når du importerer tilbage i finansbudgettet, udfyldes de tre konti med de nye Excel-data, der tilsammen giver RV 1.200.000, og overskriftslinjen er tom.
+> Den kontoplanen, som finansbudgetter er baseret på, har linjer af kontotypen Overskrift, der indeholder summen af linjerne nedenunder. Når du eksporterer et finansbudget, eksporteres data på alle linjer uanset kontotypen. Det er dog kun data på linjer med kontotypen Bogføring, der kan importeres tilbage. 
+
+Når du importerer et finansbudget, slettes eventuelle værdier derfor på overskriftslinjer. Dette sker for at undgå forkerte totaler efter import af data, der er oprettet eller redigeret i Excel.
+
+### <a name="scenario"></a>Scenarie
+
+Du ved, at de nye budgetterede lønomkostninger vil være 1.200.000 i den lokale valuta. Du vil tillade lønafdelingens budget for de tre specifikke linjer (af kontotypen Bogføring) for fuldtidsmedarbejdere, deltidsmedarbejdere og midlertidig hjælp. De tre linjer er grupperet under overskriftslinjen Løn.
+
+Du indtaster 1.200.000 i overskriftslinjen, eksporterer budgettet til Excel og sender det derefter til lønafdelingen og beder dem om at fordele 1.200.000.
+
+Lønafdelingen fordeler beløbet på de tre bogføringskonti. Når du importerer tilbage i finansbudgettet, udfyldes de tre konti med de nye Excel-data, der tilsammen giver RV 1.200.000, og overskriftslinjen er tom.
 
 ## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
@@ -59,6 +69,5 @@ Som for praktisk talt alle andre sider kan du eksportere data på budgetsider ti
 [Konfigurere Finans](finance-setup-finance.md)  
 [Finans- og kontoplanen](finance-general-ledger.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

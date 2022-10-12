@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 02/06/2022
+ms.date: 08/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: 22bd7fcf0eff9b3f7c41975a32127d9d482c42cc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 44a590997d7c0ddaa342861068b818bf905f9c5b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534287"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606382"
 ---
 # <a name="set-up-email"></a>Konfigurer mail
 Personer i virksomheder sender oplysninger og dokumenter, f.eks. salgs-og købsordrer og fakturaer, pr. e-mail hver dag. Administratorer kan nemmere oprette forbindelse mellem en eller flere e-mail-konti [!INCLUDE[prod_short](includes/prod_short.md)], så du kan sende dokumenter uden at skulle åbne en e-mail-app. Du kan skrive hver enkelt meddelelse individuelt med grundlæggende formateringsværktøjer, f.eks. skrifttyper, typografier, farver osv., og føje vedhæftede filer til op til 100 MB. Administratorer kan desuden rapportlayout lade administratorer omfatte nøgleoplysninger fra dokumenter. Du kan finde flere oplysninger i [Sende dokumenter via mail](ui-how-send-documents-email.md).
@@ -73,7 +73,9 @@ Hvis du vil bruge SMTP-protokollen til at sende e-mails fra [!INCLUDE[prod_short
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Tildel e-mailscenarier til e-mailkonti
 E-mail-scenarier er processer, der involverer afsendelse af et dokument. En salgs-eller købsordre eller en notifikation, f. eks. en invitation til en ekstern bogholder. Bestemte e-mail-konti kan anvendes til bestemte scenarier. Du kan f.eks. angive, at alle brugere altid skal sende salgsdokumenter fra én konto, købsdokumenter fra en anden konto, et lagersted eller et produktions dokument fra en tredje konto. Du kan tildele, gentildele og fjerne scenarier efter behov. Et scenarie kan kun tildeles én e-mail-konto ad gangen. Standard-mailkontoen bruges til alle scenarier, der ikke er tildelt til en konto.
- 
+
+På siden **Tildeling af mailscenarie** kan du vælge handlingen **Angiv vedhæftede standardfiler** for at føje vedhæftede filer til mailscenarier. De vedhæftede filer vil altid være tilgængelige, når du opretter en mail til et dokument, der er relateret til scenariet. Hvert mailscenarie kan have en eller flere vedhæftede standardfiler. Vedhæftede standardfiler føjes automatisk til mails for mailscenariet. Hvis du f.eks. sender en salgsordre via mail, tilføjes den vedhæftede standardfil, der er angivet for salgsordrescenariet. Vedhæftede standardfiler vises i afsnittet **Vedhæftede filer** nederst på siden **Opret en mail**. Du kan føje vedhæftede filer, der ikke er standard, til mailen manuelt.
+
 <!--
 ## To set up email
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
@@ -101,12 +103,12 @@ Vælg en bruger på listen over **Politikker for visning af brugermail**, og væ
 >  Hvis du lader feltet **bruger-ID** være tomt og derefter vælger handlingen e-mail-visnings politik, gælder den politik, du angiver for alle brugere.
 
 ## <a name="set-up-reusable-email-texts-and-layouts"></a>Konfigurere genanvendelige e-mailtekster og -layout
-Du kan bruge rapporter til at medtage nøgleoplysninger fra salgs-og købsdokumenter i tekst til e-mails. Denne procedure beskriver, hvordan du opretter rapporten **Salg-faktura** for bogførte salgsfakturaer, men processen svarer til andre rapporter.
+Du kan bruge rapporter til at medtage nøgleoplysninger fra salgs-, købs- og servicedokumenter i tekst til mails. Denne procedure beskriver, hvordan du opretter rapporten **Salg-faktura** for bogførte salgsfakturaer, men processen svarer til andre rapporter.
 
 > [!NOTE]
 > Hvis du vil bruge layoutet til at oprette indhold til e-mailmeddelelser, skal du bruge Word-filtypen til dit layout.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsrapportvalg**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Rapportvalg - Salg**, og vælg derefter det relaterede link.
 2. På siden **Rapportvalg - salg** skal du vælge **faktura** i feltet **Forbrug**.
 3. På en ny linje i feltet **Rapport-ID** skal du vælge f.eks. standardrapport 1306.
 4. Markér afkrydsningsfeltet **Brug til brødtekst i mail**.
@@ -128,7 +130,7 @@ Alternativt kan du vælge **den aktuelle bruger**, så andre kan sende meddelels
 
 Følgende er eksempler på, hvordan Send som og Send på vegne af bruges i [!INCLUDE[prod_short](includes/prod_short.md)]:
 
- * Du ønsker evt. de købs- eller salgsordrer, du sender til kreditorer og debitorer, kan det være en god ide at få dem vist til at komme fra en _noreply@yourcompanyname.com_-adresse.
+ * Du ønsker måske, at de købs- eller salgsordrer, du sender til kreditorer og debitorer, vises som værende fra en _noreply@yourcompanyname.com_-adresse.
  * Når arbejdsprocessen sender en anmodning om godkendelse pr. mail med anmoderens mailadresse.
 
 > [!Note]

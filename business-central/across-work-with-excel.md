@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 82d08e1c072f74434ad50943a97baf77712cb171
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 1348066d757abc9768fe97fd6b5f7a337f96c5f6
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529402"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607122"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Visning og redigering i Excel fra Business Central
 
-Med sider, der viser en liste over poster i rækker og kolonner, f.eks. en liste over debitorer, salgsordrer eller fakturaer, kan du eksportere lisen til Microsoft Excel og vise den her. Afhængigt af siden har du to muligheder for at få vist i Excel. Begge muligheder er tilgængelige fra **Del**-ikonet ![Del en side i en anden app.](media/share-icon.png) øverst på siden. Du kan vælge enten handlingen **Åbn i Excel** eller handlingen **Rediger i Excel** på siden. I denne artikel forklares forskellene mellem de to handlinger.
+Med sider, der viser en liste over poster i rækker og kolonner, f.eks. en liste over debitorer, salgsordrer eller fakturaer, kan du eksportere lisen til Microsoft Excel og vise den her. Afhængigt af siden har du to muligheder for at få vist i Excel. Begge muligheder er tilgængelige fra **Del**-ikonet ![Del en side i en anden app.](media/share-icon.png) øverst på siden. Du kan vælge enten handlingen **Åbn i Excel** eller handlingen **Rediger i Excel** på siden. I denne artikel forklares de to handlinger.
 
 ## <a name="open-in-excel"></a>Åbn i Excel
 
@@ -27,8 +27,7 @@ Med handlingen **Åbn i Excel** kan du foretage ændringer af posterne i Excel, 
 - Med denne handling respekterer Excel eventuelle filtre på siden, som begrænser, hvilke poster der vises. Excel-projektmappen indeholder de samme rækker og kolonner, der vises på siden i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - Denne handling fungerer både på Windows og macOS.
-
-- Fra og med opdatering 18,3 kan du også få vist lister, der vises i Sidedele, f. eks. linjerne i en salgsordre. 
+- [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
 > [!NOTE]
 > For [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø er handlingen **Åbn i Excel** tilgængelig som standard. Men hvis du konfigurerer [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø til redigering af data i Excel, erstattes handlingen **Åbn i Excel** med handlingen **Rediger i Excel**.
@@ -41,12 +40,21 @@ Handlingen **Rediger i Excel** er tilgængelig på de fleste lister, men ikke fo
 
 - Med denne handling respekterer Excel de fleste filtre på siden, der begrænser de viste poster, så Excel-projektmappen indeholder næsten de samme poster og kolonner.
 
-- Hvis du vil hente de nyeste data fra [!INCLUDE[prod_short](includes/prod_short.md)], skal du vælge **Opdater** i ruden Excel-Tilføjelsesprogrammet.
+- Hvis du vil hente de nyeste data fra [!INCLUDE[prod_short](includes/prod_short.md)], skal du vælge **Opdater** i ruden Excel-tilføjelsesprogram.
+- [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
-- Du kan skifte den virksomhed, du arbejder med. Hvis du vil skifte regnskab, skal du vælge **ikonet indstillinger for** ![Excel-Tilføjelsesprogrammet.](media/cogwheel.png "Valgmuligheder for Excel-tilføjelsesprogrammet") I Excel-tilføjelses ruden skal du vælge regnskabet fra feltet **virksomhed**.  
+### <a name="first-time-sign-in"></a>Log på første gang
 
-    > [!IMPORTANT]
-    > Når du skifter virksomhed, skal du sikre, at feltet **Miljø** ikke er tomt. Hvis det er, skal du angive det som en af de tilgængelige indstillinger. Ellers fungerer tilføjelsesprogrammet ikke korrekt.  
+Handlingen **Rediger i Excel** kræver, at det Business Central-tilføjelsesprogram er installeret i Excel. Det kan ske, at din administrator har konfigureret, at tilføjelsesprogrammet automatisk bliver installeret. I dette tilfælde skal du blot logge på Business central i **Excel-Tilføjelsesprogram** med dit brugernavn og din adgangskode. Hvis du ikke gør det, åbnes **Nyt Office-tilføjelsesprogram**. Hvis du vil installere tilføjelsesprogrammet, skal du vælge **Hav tillid til tilføjelsesprogrammet**, som vil installere tilføjelsesprogrammet direkte fra Office store.
+
+Hvis tilføjelsesprogrammet ikke installeres, skal du enten kontakte administratoren eller prøve at installere det manuelt. Du kan finde flere oplysninger i [installere tilføjelsesprogrammet manuelt til eget brug](admin-deploy-excel-addin.md#install).
+
+### <a name="work-across-environments-and-companies"></a>Arbejde på tværs af miljøer og virksomheder
+
+Du kan skifte den virksomhed, du arbejder med. Hvis du vil skifte regnskab, skal du vælge **ikonet indstillinger for** ![Excel-Tilføjelsesprogrammet.](media/cogwheel.png "Valgmuligheder for Excel-tilføjelsesprogrammet") I Excel-tilføjelses ruden skal du vælge regnskabet fra feltet **virksomhed**.  
+
+> [!IMPORTANT]
+> Når du skifter virksomhed, skal du sikre, at feltet **Miljø** ikke er tomt. Hvis det er, skal du angive det som en af de tilgængelige indstillinger. Ellers fungerer tilføjelsesprogrammet ikke korrekt.  
 
 Hvis du foretager ændringer af tilføjelsesprogrammet, skal du genindlæse det for at opdatere forbindelsen. Hvis du vil genindlæse, skal du bruge ![menuen Excel-tilføjelsesprogram](media/excel-addin-menu.png "Menuen Excel-tilføjelsesprogram") i øverste højre hjørne af tilføjelsesprogrammet. Hvis du ikke kan indlæse tilføjelsesprogrammet, skal du tale med administratoren. Hvis du er administrator, skal du se [Hent Excel-tilføjelsesprogrammet til redigering af Business Central](admin-deploy-excel-addin.md).
 
@@ -55,20 +63,9 @@ Hvis du foretager ændringer af tilføjelsesprogrammet, skal du genindlæse det 
 >
 > For [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø er handlingen **Rediger i Excel** kun tilgængelig, hvis Excel-tilføjelsesprogrammet er konfigureret af administratoren, og kun tilgængelig til webklienten. Til administratorer, hvis du vil vide, hvordan du installerer Excel-tilføjelsesprogrammet, skal du se [Konfigurere Excel-tilføjelsesprogrammet til redigering af Business Central-data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
+### <a name="limits-when-using-excel-for-the-web"></a>Grænser for brug af Excel på internettet 
 
-<!-- Note for later: here we're immediately jumping to pretty advanced topics like changing company or reloading the addin. Fine to keep them for now. In the future, we will first need to explain in more detail the actual functionality of the addin, primarily these sub-sections:
-
-Refreshing record data in Excel
-Editing and publishing back to Business Central
-Creating new records from Excel
-Crafting your own editable Excel.
-Point (4) is where it gets interesting for changing/specifying company, environment and other connection settings-->
-
-### <a name="first-time-sign-in"></a>Log på første gang
-
-Handlingen **Rediger i Excel** kræver, at det Business Central-tilføjelsesprogram er installeret i Excel. Det kan ske, at din administrator har konfigureret, at tilføjelsesprogrammet automatisk bliver installeret. I dette tilfælde skal du blot logge på Business central i **Excel-Tilføjelsesprogram** med dit brugernavn og din adgangskode. Hvis du ikke gør det, åbnes **Nyt Office-tilføjelsesprogram**. Hvis du vil installere tilføjelsesprogrammet, skal du vælge **Hav tillid til tilføjelsesprogrammet**, som vil installere tilføjelsesprogrammet direkte fra Office store.
-
-Hvis tilføjelsesprogrammet af en eller anden grund ikke installeres, skal du kontakte administratoren eller prøve at installere det manuelt. Du kan finde flere oplysninger i [installere tilføjelsesprogrammet manuelt til eget brug](admin-deploy-excel-addin.md#install).
+Når **Rediger i Excel** bruges på listesider til tabeller med mange kolonner, kan den resulterende projektmappe indeholde for mange kolonner, så filen ikke kan ses i Excel på internettet. [!INCLUDE[prod_short](includes/prod_short.md)] begrænser automatisk den eksporterede projektmappe til 100 kolonner, når OneDrive er konfigureret til systemfunktioner. 
 
 ## <a name="see-the-differences-between-the-options"></a>Se forskellene mellem indstillingerne
 <br><br>  

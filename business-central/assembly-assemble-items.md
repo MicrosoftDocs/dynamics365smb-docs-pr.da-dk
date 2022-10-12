@@ -10,17 +10,18 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: dfe8f1aa36f19372363c5e23994328d15f8a5b77
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: c026f7b8374dd78b4c3f06d76d43e3ffac0198b2
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534260"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607068"
 ---
 # <a name="assembly-management"></a>Montagestyring
+
 For at støtte virksomheder, som leverer produkter til deres kunder ved at kombinere komponenter i enkle processer uden brug af produktionsfunktioner, indeholder [!INCLUDE[prod_short](includes/prod_short.md)] funktioner til montage af varer, der kan integreres med eksisterende funktioner som salg, planlægning, reservationer og opbevaring.  
 
- Et montageelement er defineret som et salgbart element, der indeholder en montagestykliste. Du kan finde flere oplysninger i [Arbejde med styklister](inventory-how-work-BOMs.md).
+ Et montageelement er defineret som et salgbart element, der indeholder en montagestykliste. Du kan finde flere oplysninger i [Arbejde med montagestyklister](assembly-how-work-assembly-boms.md).
 
  Montageordrer er interne ordrer, ligesom produktionsordrer, der bruges til at administrere montageprocessen og til at forbinde salgskravene med de involverede lageraktiviteter. Montageordrer adskiller sig fra andre ordretyper, da de omfatter både afgang og forbrug, når de bogføres. Montageordrehovedet fungerer på samme måde en afgangskladdelinje, og montageordrelinjerne fungerer på samme måde som forbrugskladdelinjer.  
 
@@ -43,7 +44,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Når du sælger montageelementer fra lageret, og alle elementer ikke er tilgængelige, kan du starte en montageordre til automatisk at levere en del af eller hele salgsordremængden.|[Sælge montage til ordre-varer og lagervarer sammen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)|
 |Oprette tilpassede montageelementer til rammesalgsordrer, før du regelmæssigt opretter faktiske salgsordrer i overensstemmelse med rammeordreaftale.|[Oprette rammemontageordrer](assembly-how-to-create-blanket-assembly-orders.md)|
 |Annuller en bogført montageordre, for eksempel fordi ordren er bogført med fejl, der skal rettes.|[Fortryde bogføring af montage](assembly-how-to-undo-assembly-posting.md)|
-|Få mere at vide om forskellen mellem montagestyklister og produktionsstyklister og de involverede behandlingsforskelle.|[Arbejde med styklister](inventory-how-work-BOMs.md)|
+|Få mere at vide om, hvordan du arbejder med montagestyklister, og hovedforskellene i forhold til produktionsstyklister.|[Arbejde med montagestyklister](assembly-how-work-assembly-boms.md)|
 |Lær, hvordan montageforbrug og afgang håndteres, når du bogfører montageordrer, og hvordan de afledte omkostninger for varen og ressourcen behandles og fordeles i regnskabet.|[Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)|  
 
 ## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/assemble-items-dynamics-365-business-central/)
@@ -56,9 +57,8 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)  
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

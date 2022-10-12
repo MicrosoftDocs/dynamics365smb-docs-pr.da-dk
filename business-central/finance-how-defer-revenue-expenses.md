@@ -10,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d7eac169dc75f81f1d696a4a1e7344b5235a83a3
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9d6acc41574870d691a14913ed0222df36dbeb74
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529089"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605511"
 ---
 # <a name="defer-revenues-and-expenses"></a>Periodisere indtægter og udgifter
 
@@ -95,6 +95,18 @@ Finansposter, der skal bogføres på den angivne periodiseringskonto, f.eks. Ikk
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Oversigt over salgsperiodisering**, og vælg derefter det relaterede link.
 2. På siden **Oversigt over salgsperiodisering** i feltet **Balance pr.** skal du angive den dato, indtil hvilken du vil have vist udskudte indtægter.
 3. Vælg knappen **Vis eksempel**.
+
+## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>Sådan angives en periode, hvor der kan tillades periodiseringsbogføring
+
+Du kan angive en periode, hvor der kan bogføres transaktioner ved at angive datoer i felterne **Tillad bogføring fra** og **Tillad bogføring til** på følgende måde:
+
+* På siden **Finansopsætning** for alle brugere
+* Til bestemte brugere på siden **Brugeropsætning**
+
+Hvis du har gjort det, skal du angive en undtagelse for periodiseringer, så de kan bogføres uden for perioden. Hvis du vil definere perioden, skal du gøre følgende.
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Opsætning af Finans** eller **Brugeropsætning**, og vælg derefter det relaterede link.
+2. Angiv en start-og slutdato for perioden i feltet **Tillad udsættelsens bogføring fra** og **Tillad udsættelsens bogføring til**.
 
 ## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/processing-invoices-dynamics-365-business-central/)
 

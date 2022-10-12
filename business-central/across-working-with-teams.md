@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
-ms.date: 05/19/2021
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 17be576dad0eaf31918951e4e11a73acdd0ae70e
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528445"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617789"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Dele Business Central-poster og Sidelinks i Microsoft Teams
 
@@ -102,18 +102,24 @@ Du kan få mere at vide om, hvordan du arbejder med kort og kort detaljer, i [Te
 
 Direkte fra de fleste samlinger-sider, f. eks. siden **Varer** og detaljesider, som f. eks **Vare**-kort kan du sende et link til siden til bestemte modtagere i en Teams-samtale. Du kan f. eks. dele et hyperlink til en filtreret visning af dine poster. Modtagerne kan derefter vælge hyperlinket for at åbne siden i [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
- ![Menuen Del vises på et kort.](media/teams-share-link.png "Menuen Del vises på et kort.")
+[![!Menuen Del vist på et kort.](media/teams-share-link-v2.png "Menuen Del vises på et kort.")](media/teams-share-link-v2.png#lightbox)
 
 ### <a name="prerequisites"></a>Forudsætninger
-Du har adgang til Microsoft Teams.
+
+- Du har adgang til Microsoft Teams.
+- (Valgfrit) Du har installeret [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams. 
+
+  Når appen er installeret, vil de meddelelser, du sender med linket, også indeholde et kompakt kort for siden. Du kan finde flere oplysninger om, hvordan du installerer appen, i [Installation af [!INCLUDE [prod_short](includes/prod_short.md)]-app til Microsoft Teams](across-install-app-for-teams.md).
 
 ### <a name="share-a-link"></a>Del et link
 
 1. I [!INCLUDE [prod_short](includes/prod_short.md)]\, åbnes den side, du vil dele.
 2. Vælg på toppen af siden ![Del med andre app-handlinger på sider.](media/share-icon.png) ikonet og derefter **Del med Teams**.
 3. Hvis du bliver bedt om det, skal du logge på Teams med dit brugernavn og din adgangskode.
-4. På siden **Del med Teams** skal du skrive navnet på en person, gruppe eller kanal, som du vil sende meddelelsen til. 
-5. Meddelelsesboksen indeholder et link til siden. Du kan tilføje flere oplysninger, hvis du vil, og derefter vælge **Del**.
+4. På siden **Del med Teams** skal du skrive navnet på en person, gruppe eller kanal, som du vil sende meddelelsen til.
+5. Meddelelsesboksen indeholder et link til siden. Hvis [!INCLUDE [prod_short](includes/prod_short.md)]-appen til Teams er installeret, vises der også et kort for den sammenkædede post eller side i meddelelsesboksen.
+
+   Du kan tilføje flere oplysninger, hvis du vil, og derefter vælge **Del**.
 6. Linket er nu blevet delt. Hvis du vil gå til samtalen, skal du vælge **Gå til Teams**.
 
 ## <a name="see-also"></a>Se også
@@ -127,6 +133,5 @@ Du har adgang til Microsoft Teams.
 [Udvikling af Teams-integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

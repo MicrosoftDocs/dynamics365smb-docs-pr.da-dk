@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b594ebf1cebd1fbec7302777b5233ffd3eec198b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 70bcc50bd419a73e242390d5a21e41360ae8d8cf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535313"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606436"
 ---
 # <a name="work-with-power-bi-reports-in-prod_short"></a>Arbejde med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -52,7 +52,7 @@ Når du logger på [!INCLUDE [prod_short](includes/prod_short.md)] første gang,
     - Hvis du ikke har registreret dig som bruger af Power BI endnu, skal du vælge [Gå til Power BI-startside](https://powerbi.microsoft.com). Registrer dig som bruger af konto, gå tilbage til [!INCLUDE[prod_short](includes/prod_short.md)], og fuldfør opsætningen.
 
     - Hvis du allerede har en licens, skal du vælge **Næste**.
-4. På næste side overfører [!INCLUDE[prod_short](includes/prod_short.md)] nu en demo-rapport til Power BI. Dette kan tage nogle få minutter, så det gøres i baggrunden. Vælg **Næste** og derefter **Udfør** for at fuldføre opsætningen.
+4. På næste side overfører [!INCLUDE[prod_short](includes/prod_short.md)] nu en demo-rapport til Power BI. Dette trin kan tage nogle få minutter, så det gøres i baggrunden. Vælg **Næste** og derefter **Udfør** for at fuldføre opsætningen.
 
 Forbindelsesprocessen starter. Under processen kommunikerer [!INCLUDE [prod_short](includes/prod_short.md)] med Power BI-tjenesten for at afgøre, om du har en gyldig Power BI-konto og -licens. Når licensen er kontrolleret, vises Power BI-standardrapporten på siden. Hvis der ikke vises en rapport, kan du vælge en rapport fra delen.
 
@@ -69,9 +69,14 @@ Når forbindelsen er oprettet, kan du vælge en rapport fra Power BI-delen på s
 
 ### <a name="show-reports-on-list-pages"></a>Vise rapporter på listesider
 
-[!INCLUDE[prod_long](includes/prod_long.md)] indeholder en Power BI-faktaboks på flere nøglelistesider. Denne faktaboks giver yderligere indblik i dataene på listen. Når du flytter mellem rækkerne på listen, opdateres rapporten og filtreres for den valgte post. Hvis du ikke kan se denne del, skal du på handlingslinjen vælge **Handlinger** > **Vis** > **Vis/skjul Power BI-rapporter**.
+[!INCLUDE[prod_long](includes/prod_long.md)] indeholder en Power BI-faktaboks på flere nøglelistesider. Denne faktaboks giver ekstra indblik i dataene på listen. Når du flytter mellem rækkerne på listen, opdateres rapporten og filtreres for den valgte post.
 
 Hvis du vil lære, hvordan du opretter rapporter for listesider, skal du se [Oprettelse af Power BI-rapporter til visning af listedata i [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+
+> [!TIP]
+> Hvis du ikke kan se Power BI-faktaboksen, kan den være skjult i arbejdsområdet med personlig tilpasning. Vælg ![Indstillinger.](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") Vælg derefter handlingen **Tilpas**. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
+>
+> Hvis du har en ældre version af Business central, skal du gå til handlingslinjen, vælge **Handlinger** > **Vis** > **Vis/Skjul Power BI-rapporter**.
 
 ### <a name="switch-reports"></a>Skifte rapporter
 
@@ -143,7 +148,6 @@ Det skyldes sandsynligvis, at rapportens navn ikke indeholder navnet på listesi
 [Blive køreklar](ui-get-ready-business.md)  
 [Import af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Brug af [!INCLUDE[prod_short](includes/prod_short.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
 [Brug af [!INCLUDE[prod_short](includes/prod_short.md)] som Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
 [Brug [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 

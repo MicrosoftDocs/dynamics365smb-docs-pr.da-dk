@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting, substitute items
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: ca22a5dc82e950b81829c356f5054ab7c8da1973
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 96186c821c7524b427ba8729e1d4f10c9db60c2b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534962"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606987"
 ---
 # <a name="sell-items-assembled-to-order"></a>Sælge varer, der er monteret til ordre
 
@@ -67,10 +67,10 @@ I denne procedure behandler du salg af et element, der skal samles i henhold til
 ## <a name="see-also"></a>Se også
 
 [Montagestyring](assembly-assemble-items.md)  
-[Arbejde med styklister](inventory-how-work-BOMs.md)  
+[Arbejde med montagestyklister](assembly-how-work-assembly-boms.md)  
+[Registrere nye varer](inventory-how-register-new-items.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Registrere nye varer](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
