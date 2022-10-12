@@ -10,12 +10,12 @@ ms.search.keywords: C5, financials, extension
 ms.search.form: 20600,
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4304a42f865086de3337deb3a49b1f1512e0e201
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: b0443ef53a564e103810543225cc0c4a0c6bced7
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362217"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606031"
 ---
 # <a name="the-basic-experience-extension"></a>Basic Experience Extension
 
@@ -24,7 +24,7 @@ Hvis du har brugt Microsoft Dynamics C5, kan Microsoft-partnere hjælpe dig med 
 Denne udvidelse henvender sig til mindre virksomheder og kan understøtte op til tre brugere. Hvis du har brug for flere brugere, skal du opgradere til en [!INCLUDE[prod_short](includes/prod_short.md)]-licens og fjerne udvidelsen.
 
 > [!NOTE]
-> Denne udvidelse er kun tilgængelig for debitorer i Danmark og Island. 
+> Denne udvidelse er kun tilgængelig for debitorer i Danmark og Island.
 
 ## <a name="whats-available"></a>Tilgængelige oplysninger
 
@@ -32,8 +32,8 @@ I følgende tabel beskrives de funktioner, der er tilgængelige, hvis du install
 
 |Område  |Funktion  |
 |---------|---------|
-|**Finansposter** |Grundlæggende finans, kontoskemaer, anlægsaktiver, bankstyring, bankafstemning, betalinger, direkte debitering, dimensioner, flere valutaer, budgetter, arbejdsgang, dokumentstyring/OCR, konsolidering, ubegrænsede firmaer|
-|**Kontonr. for tilgodehavender/salg** |Grundlæggende tilgodehavender, salgsfakturering, salgsrabatter, pris, moms, Kontaktstyring |
+|**Finansposter** |Grundlæggende finans, finansrapporter, anlægsaktiver, bankstyring, bankafstemning, betalinger, direkte debitering, dimensioner, flere valutaer, budgetter, arbejdsgang, dokumentstyring/OCR, konsolidering, ubegrænsede firmaer|
+|**Aldersfordelte tilgodehavender** |Grundlæggende tilgodehavender, salgsfakturering, salgsrabatter, pris, moms, Kontaktstyring |
 |**Kreditorer/indkøb** |Grundlæggende skyldige beløb, købsfakturering |
 |**Projektstyring** |Sager, sagsomkostninger, time sedler, tildeling, opgaver, ressourcer |
 |**Lagerbeholdning** |Basis lager, erstatningsvare, varereferencer |
@@ -46,7 +46,7 @@ Dette filtypenavn er lidt anderledes end de fleste, og du har brug for hjælp fr
 2. Tilføje mindst én bruger, der er tildelt en grundlæggende Experience licens, i din Azure Active Directory-konto.
 3. Fjerne alle regnskaber, herunder eksemplet med CRONUS-regnskabet.
 4. Oprette en ny virksomhed, der ikke indeholder eksempeldata eller opsætninger.
-5. Tilføje **Demo RapidStart**-pakken. <!--what does the pockage contain?-->
+5. Tilføje **Demo RapidStart**-pakken. <!--what does the package contain?-->
 6. Hente og installere Basic Experience-udvidelsen fra AppSource.
 
 ## <a name="migrating-data"></a>Dataoverførsel

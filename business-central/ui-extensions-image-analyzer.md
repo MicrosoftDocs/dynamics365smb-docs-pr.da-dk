@@ -10,12 +10,12 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.search.form: 2026, 2027, 2029,
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 814224ed0ba9453c0e787a673dd03e2817ed666f
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: bd729acaab521cb32b152f297950c7616c78aad7
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524623"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606004"
 ---
 # <a name="the-image-analyzer-extension"></a>Billedanalyseudvidelsen
 
@@ -117,7 +117,7 @@ Du kan få vist antallet af analyser, du har udført, og hvor mange du stadig ka
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Serviceforbindelser**, og vælg derefter **Opsætning af billedanalyse**.  
 2. Fjern markeringen i feltet **Aktiver billedanalyse**.  
 
-Du kan også fjerne udvidelsen fuldstændigt. Du kan altid hente den igen fra AppSource. Du kan finde flere oplysninger i [Installation og fjernelse af udvidelser i Business Central](ui-extensions-install-uninstall.md#uninstall-an-extension).  
+Du kan også fjerne udvidelsen fuldstændigt. Du kan altid hente den igen fra AppSource. Du kan finde flere oplysninger i [Installation og fjernelse af udvidelser i Business Central](ui-extensions-install-uninstall.md#uninstall-an-app).  
 
 ## <a name="see-also"></a>Se også
 

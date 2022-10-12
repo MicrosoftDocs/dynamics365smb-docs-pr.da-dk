@@ -2,7 +2,7 @@
 # [Nyt og planlagt](product-news.md)
 # Kom i gang
 ## [Oversigt over forretningsfunktioner](across-business-functionality.md)
-<!--### [Get Ready for Doing Business](ui-get-ready-business.md)-->
+<!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Lær
 ### [Undervisningskatalog for Business Central](readiness/readiness-learning-catalog.md)
 ### [Business Central-træning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
@@ -20,7 +20,7 @@
 #### [Gennemgang: Beregning af igangværende arbejder for en sag](walkthrough-calculating-work-in-process-for-a-job.md)
 #### [Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
-#### [Gennemgang: Udarbejd likviditetsforecast ved hjælp af kontoskemaer](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Gennemgang: Udarbejd likviditetsforecast ved hjælp af finansrapporter](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 <!-- Contoso-->
 ### Demonstrationsdata for Contoso Coffee til produktion
 #### [Introduktion til demonstrationsdata for Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
@@ -124,6 +124,7 @@
 ### [Generel funktionalitetsoversigt](ui-work-product.md)
 ### [Udskriftsvenligt oversigtsark](ui-work-product.md#cheatsheet)
 ### [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)
+### [Søge efter bestemte data](ui-search-data.md)
 ### [Søge efter sider med Rollestifinder](ui-role-explorer.md)
 ### [Ofte stillede spørgsmål om Fortæl mig](ui-search-faq.md)
 ### [Søge, filtrere og sortere](ui-enter-criteria-filters.md)
@@ -196,10 +197,11 @@
 ### [Ressourcer til hjælp og support](product-help-and-support.md)
 ### [Besøge vores videobibliotek](across-videos.md)
 ### [Få teknisk support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
-<!--## Learn
-### [Dynamics 365 Business Central on Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+
+<!--## Microsoft Learn training
+### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
+### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 ### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
 #### [Get Ready for Doing Business](ui-get-ready-business.md)
@@ -225,6 +227,7 @@
 ### [Bogføre flere dokumenter på én gang](ui-batch-posting.md)
 ### [Vise bogføringsresultater](ui-how-preview-post-results.md)
 ### [Redigere bogførte dokumenter](across-edit-posted-document.md)
+### [Statusfelt i dokumenter](ui-document-status.md)
 ### [Arbejde med finanskladder](ui-work-general-journals.md)
 ### [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)
 ### [Lad Business Central foreslå værdier](ui-let-system-suggest-values.md)
@@ -257,7 +260,6 @@
 ##### [Opsætning af dataudveksling](across-set-up-data-exchange.md)
 ##### [Konfigurere en dokumentudvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md)
 ##### [Opsætning af indgående bilag](across-how-setup-income-documents.md)
-##### [Opdatere valutakurser](finance-how-update-currencies.md)
 ##### [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)
 #### [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 ##### [Brug AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)
@@ -275,7 +277,6 @@
 ##### [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ##### [Foretage betalinger med AMC Banking 365 Fundamentals-udvidelsen eller SEPA-kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 ##### [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
-##### [Opdatere valutakurser](finance-how-update-currencies.md)
 ##### [Feltkobling, når du importerer SEPA-CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md)
 ##### [Felttilknytning for AMC Banking 365 Fundamentals-udvidelsen](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
@@ -301,6 +302,7 @@
 #### [Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Udvidelsen Forudsigelse af forsinket betaling](ui-extensions-late-payment-prediction.md)
 #### [Salgsmoms i standardversionen af Business central](sales-tax-concept.md)
+#### [Arbejde med Intrastat-rapportering](finance-how-report-intrastat.md)
 
 ### Administrere skyldige beløb
 #### [Kreditoroversigt](payables-manage-payables.md)
@@ -416,19 +418,19 @@
 ### [Rapportere moms til skattemyndighederne](finance-how-report-vat.md)
 ### [Konvertere servicekontrakter, som omfatter momsbeløb](service-how-to-convert-service-contracts.md)
 ### [Styre ændringer af momssats](finance-how-use-vat-rate-change-tool.md)
-### [Gennemgang: Udarbejd likviditetsforecast ved hjælp af kontoskemaer](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+### [Gennemgang: Udarbejd likviditetsforecast ved hjælp af finansrapporter](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 ### [Analysere regnskabsopgørelser i Excel](finance-analyze-excel.md)
 ### [Overføre bankbeløb](bank-how-transfer-bank-funds.md)
 ### [Opret bankindskud](bank-create-bank-deposits.md)
 ### [Revisoroplevelser i Business Central](finance-accounting.md)
 ### [Multi site-og internationale organisationer](finance-multi-site-organizations.md)
 
-## Business Intelligence og Financial Reporting
+## Finansiel Business Intelligence og Reporting
 ### [Oversigt over Business Intelligence og Financial Reporting](bi.md)
 ### [Finansrapporter](finance-reports.md)
 ### [Analysere faktiske beløb sammenlignet med budgetterede beløb](bi-how-analyze-actual-versus-budget.md)
-### [Forberede Financial Reporting med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)
-### [Konfigurere og udgive KPI-webtjenester, der er baseret på kontoskemaer](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+### [Forberede Financial Reporting med finansdata og kontokategorier](bi-how-work-account-schedule.md)
+### [Konfigurere og udgive KPI-webtjenester, der er baseret på finansielle rapporter](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Analysere data efter dimensioner](bi-how-analyze-data-dimension.md)
 ### [Oprette analyserapporter](bi-how-create-analysis-views-reports.md)
 ### [Oprette rapporter med XBRL](bi-create-reports-with-xbrl.md)
@@ -456,7 +458,7 @@
 ### [Kombinere leverancer på én enkelt faktura](sales-how-to-combine-shipments-on-a-single-invoice.md)
 ### [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)
 ### [Spore pakker](sales-how-track-packages.md)
-### [Beregning af forfaldsdato for salg](sales-date-calculation-for-sales.md)
+### [Beregning af leveringsdato for salg](sales-date-calculation-for-sales.md)
 ### [Flette dublerede poster](sales-how-merge-duplicate-records.md)
 ### [Arbejde med tilbagevendende indtægt](finance-recurring-invoicing.md)
 ### [Angive eksterne bilagsnumre](across-enter-external-document-numbers.md)
@@ -486,6 +488,7 @@
 ### [Registrere nye varer](inventory-how-register-new-items.md)
 ### [Arbejde med styklister](inventory-how-work-BOMs.md)
 ### [Kategorisere varer](inventory-how-categorize-items.md)
+### [Administrere produktvarianter](inventory-item-variants.md)  
 ### [Arbejde med vareattributter](inventory-how-work-item-attributes.md)
 ### [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md)
 ### [Tælle og justere lageropgørelse ved hjælp af dokumenter](inventory-how-count-inventory-with-documents.md)
@@ -588,7 +591,7 @@
 ### [Sælge montage til ordre-varer og lagervarer sammen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)
 ### [Oprette rammemontageordrer](assembly-how-to-create-blanket-assembly-orders.md)
 ### [Fortryde bogføring af montage](assembly-how-to-undo-assembly-posting.md)
-### [Arbejde med styklister](inventory-how-work-BOMs.md)
+### [Arbejde med montagestyklister](assembly-how-work-assembly-boms.md)
 ### [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)
 
 ## Produktion
@@ -629,8 +632,8 @@
 #### [Plukke varer](warehouse-pick-items.md)
 #### [Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md)
 #### [Plukke varer til lagerleverance](warehouse-how-to-pick-items-for-warehouse-shipment.md)
-#### [Plukke til produktion eller montage i grundlæggende lageropsætninger](warehouse-how-to-pick-for-production.md)
-#### [Plukke til produktion eller montage i avancerede lageropsætninger](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
+#### [Plukke til produktion, montage eller jobs i grundlæggende lageropsætninger](warehouse-how-to-pick-for-production.md)
+#### [Plukke til produktion, montage eller jobs i avancerede lageropsætninger](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 #### [Planlægge pluk i kladder](warehouse-how-to-plan-picks-in-worksheets.md)
 #### [Plukke og lægge på lager uden et kildedokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md)
 #### [Pluk efter FEFO](warehouse-picking-by-fefo.md)
@@ -667,14 +670,13 @@
 #### [Udlåne og modtage udlånsvarer](service-how-to-lend-receive-loaners.md)
 <!--Shopify-->
 ## Online butik med Shopify
-### [Kom i gang med Shopify connectoren](shopify/get-started.md)
+### [Kom i gang med Shopify-connectoren](shopify/get-started.md)
 ### [Synkroniser elementer med Shopify](shopify/synchronize-items.md)
 ### [Synkronisere debitorer med Shopify](shopify/synchronize-customers.md)
 ### [Synkronisere og opfylde salgsordrer med Shopify](shopify/synchronize-orders.md)
-### [Konfigurere moms for Shopify-forbindelsen](shopify/setup-taxes.md)
 ### [Kør opgaver i baggrunden](shopify/background.md)
-### [Fejlfinde Shopify connector](shopify/troubleshoot.md)
-### [Ofte stilede spørgsmål til Shopify connector](shopify/shopify-faq.md)
+### [Fejlfinde Shopify-connector](shopify/troubleshoot.md)
+### [Ofte stilede spørgsmål til Shopify-connector](shopify/shopify-faq.md)
 
 <!--Company Hub-->
 ## Virksomhedshub
@@ -1228,11 +1230,11 @@
 ### Rusland
 #### [Lokal funktionalitet i den russiske version](LocalFunctionality/Russia/russia-local-functionality.md)
 #### Grundlæggende Finans
-##### [Oversigt over kontoskemaer](LocalFunctionality/Russia/account-schedules-overview.md)
-##### [Importere og eksportere kontoskemaer](LocalFunctionality/Russia/How-to-Import-and-Export-Account-Schedules.md)
-##### [Definere en kontoskemaudvidelse](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Extension.md)
-##### [Definere en kontoskemakonstant](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Constant.md)
-##### [Arbejde med kontoskemaer](LocalFunctionality/Russia/How-to-Work-with-Account-Schedules.md)
+##### [Oversigt over finansielle rapporter](LocalFunctionality/Russia/account-schedules-overview.md)
+##### [Importere og eksportere finansielle rapporter](LocalFunctionality/Russia/How-to-Import-and-Export-Account-Schedules.md)
+##### [Definere en udvidelse til en finansiel rapport](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Extension.md)
+##### [Definere en konstant til en finansiel rapport](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Constant.md)
+##### [Arbejde med finansielle rapporter](LocalFunctionality/Russia/How-to-Work-with-Account-Schedules.md)
 ##### [Finansrelateret korrespondance](LocalFunctionality/Russia/general-ledger-correspondence.md)
 ##### [Valuta](LocalFunctionality/Russia/Currency-information-Import-currency-rates.md)
 ##### [Konfigurere ansvarlige medarbejdere og forskudsopgørelser](LocalFunctionality/Russia/How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)
@@ -1340,7 +1342,7 @@
 ##### [Oprette og lukke resultatopgørelsessaldi](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Indrykke og validere kontoplaner](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
 ##### [Ignorere rabatter i finanskonti](LocalFunctionality/Spain/how-to-ignore-discounts-in-general-ledger-accounts.md)
-##### [Eksportere kontoskemaer til ASC-format](LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format.md)
+##### [Eksportér regnskabsrapporter til ASC-format](LocalFunctionality/Spain/how-to-export-account-schedules-to-asc-format.md)
 ##### [Udskrive rapporter for kontoopgørelser](LocalFunctionality/Spain/how-to-print-account-book-reports.md)
 ##### [Udskrive salgs- og købsfakturabøger](LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books.md)  
 ##### [Transaktionsnumre](LocalFunctionality/Spain/transaction-numbers.md)
@@ -1427,7 +1429,7 @@
 ### USA
 #### [Lokal funktionalitet i den amerikanske version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Skat
-##### [Salgsmoms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Grundlæggende opsætning af moms](LocalFunctionality/UnitedStates/us-tax-setup.md)  
 ##### [Rapportering af salgsmoms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Opsætte og bruge formen IRS 1099](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Lovgivningsmæssige 1099 formatændringer og detaljer](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
@@ -1449,7 +1451,7 @@
 #### [Konfigurere betalingsmetoder](finance-payment-methods.md)
 #### [Definere betalingsbetingelser](finance-payment-terms.md)
 #### [Konfigurere bogføringsgrupper](finance-posting-groups.md)
-#### [Forberede Financial Reporting med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)
+#### [Forberede Financial Reporting med finansdata og kontokategorier](bi-how-work-account-schedule.md)
 #### [Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)
 #### [Konfiguration af rykkerbetingelser og -niveauer](finance-setup-reminders.md)
@@ -1467,7 +1469,7 @@
 #### [Konfigurere kontoplanen](finance-setup-chart-accounts.md)
 #### [Opsætte pengestrømsanalyse](finance-setup-cash-flow-analyses.md)
 #### [Konfigurere kontantkunder](finance-how-to-set-up-cash-customers.md)
-#### [Konfigurere og rapportere Intrastat](finance-how-setup-report-intrastat.md)
+#### [Oprette Intrastat-rapportering](finance-how-setup-report-intrastat.md)
 #### [Bruge fordelingsnøgler i finanskladder](ui-how-use-allocation-keys-general-journals.md)
 ### Oprette banktransaktioner
 #### [Oprette banktransaktioner](bank-setup-banking.md)
@@ -1583,7 +1585,7 @@
 ##### [Bruge Business Central uden Outlook](admin-no-outlook.md)
 ##### [Ofte stillede spørgsmål](ui-outlook-addin-faq.yml)
 ### Konfigurere momsrapporter
-#### [Rapportvalg](across-report-selections.md)
+#### [Rapportvalg til dokumenter](across-report-selections.md)
 ### Konfigurere godkendelsesworkflows baseret på skabeloner
 #### [Konfigurer godkendelsesworkflow](across-set-up-workflows.md)
 #### [Oprette brugere til workflow](across-how-to-set-up-workflow-users.md)
@@ -1613,7 +1615,8 @@
 #### Bruge OneDrive til virksomheder med Business central
 ##### [Oversigt](across-onedrive-overview.md)
 ##### [Administrere OneDrive til virksomhedsintegration](admin-onedrive-integration.md)
-##### [Åbne Business Central-filer i OneDrive](across-share-onedrive.md)
+###### [Konfigurer OneDrive-integration med Business Central lokalt](admin-onedrive-integration-onpremises.md)
+##### [Åbne og dele filer i OneDrive](across-share-onedrive.md)
 ##### [OneDrive Ofte stillede spørgsmål](admin-onedrive-faq.md)
 #### Bruge Power BI sammen med Business Central
 ##### [Introduktion](admin-powerbi.md)
@@ -1653,9 +1656,9 @@
 ### [Køre rapporter](ui-work-report.md)
 ### [Bogmærke en rapport](ui-bookmarks.md)
 ### [Analysere rapportdata med Excel](report-analyze-excel.md)
-<!--### [Using the report inbox] (missing.md)-->
 ### [Udskrive momsrapporter](ui-specify-printer-selection-reports.md#default)
 ### [Planlægge rapporter](ui-work-report.md#ScheduleReport)
+### [Dele og eksportere rapporter med rapportindbakken](ui-work-report-inbox.md)
 ### [Administrere gemte rapportindstillinger](reports-saving-reusing-settings.md)
 ### [Angive det layout, der bruges af en rapport](ui-set-report-layout.md)
 ### [(Ældre) Angive det layout, der bruges af en rapport](ui-how-change-layout-currently-used-report.md)
@@ -1663,7 +1666,7 @@
 ## Indbyggede rapporter
 ### [Rapportoversigt](reports-available-reports.md)
 ### Finans
-#### [Økonomisk analyse](bi.md)
+#### [Økonomisk Business Intelligence](bi.md)
 #### [Analysere regnskabsopgørelser med Excel](finance-analyze-excel.md)
 #### [Vigtige økonomirapporter](finance-reports.md)
 #### [Rapporter for tilgodehavender](receivables-reports.md)
@@ -1704,7 +1707,7 @@
 
 ### Montagestyring
 #### [Montagestyringsrapporter](assembly-reports.md)
-#### [Vis strukturen for styklistestrukturen](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+#### [Vis strukturen for stykliste](assembly-how-work-assembly-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
 
 ### Produktion
 #### [Produktionsrapporter](production-reports.md)
@@ -1723,13 +1726,13 @@
 ### [Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.yml)
 ### [Analysere sidedata i Excel](across-work-with-excel.md)
 ### [Analyse af rapportdata med Excel](report-analyze-excel.md)
-### [Økonomisk analyse](bi.md)
+### [Økonomisk Business Intelligence](bi.md)
 
 ## Indbygget analyse 
 ### [Oversigt](reports-built-in-analytics.md)
 ### [Intelligent indsigt](about-intelligent-cloud.md)
 ### [Arbejde med Power BI-rapporter](across-working-with-powerbi.md)
-### [Økonomisk analyse](bi.md)
+### [Økonomisk Business Intelligence](bi.md)
 ### [Analysere regnskabsopgørelser med Excel](finance-analyze-excel.md)
 ### [Konsolidering af finansielle data fra flere regnskaber](finance-consolidated-company-reporting.md)
 ### [Telemetri for rapportanvendelse](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)

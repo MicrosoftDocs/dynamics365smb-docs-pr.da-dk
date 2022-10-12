@@ -1,0 +1,1 @@
+Hvis organisationen har konfigureret OneDrive til systemfunktioner, åbnes Excel-projektmappen i browseren ved hjælp af Excel til World Wide Web. Hvis du ikke bruger OneDrive for systemfunktioner, overføres projektmappen til enheden. Derfra kan du åbne den enten med Excel desktop app eller Microsoft Excel til World Wide Web, alt efter hvad du har.

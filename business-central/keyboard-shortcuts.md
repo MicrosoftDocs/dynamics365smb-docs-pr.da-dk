@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 05/23/2022
+ms.date: 08/16/2022
 ms.author: jswymer
-ms.openlocfilehash: 3fe47ef19e9a8dbc66c13461aa1255bc21490421
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 38dec472417e49fe974ed72f6eac2fdf4dffde3c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531130"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606663"
 ---
 # <a name="keyboard-shortcuts"></a>Tastaturgenveje
 
@@ -56,15 +56,16 @@ I følgende tabel beskrives tastaturgenveje, der kan bruges til navigation og ad
 |Alt+Skift+N |Lukke en nyoprettet side og åbne en ny for at oprette en ny post. På samme måde bogfører Alt+F9 et dokument og opretter et nyt.|
 |Alt+T|Åbne siden **Mine indstillinger**.|
 |Alt+Højrepil|Finde yderligere oplysninger eller underliggende værdier for et felt, der indeholder knappen ![AssistEdit.](media/assist-edit-icon.png "AssistEdit-knap"). knap. Bruges, når den sædvanlige rullemenuknap (Alt + pil ned) i det samme felt bruges til andre formål.|
-|Ctrl+Alt+Skift+C|Få vist oplysninger på virksomhedskortet.|
+|Ctrl+Alt+Skift+C|Få vist oplysninger på virksomhedskortet. Denne genvej blev afbrudt i Business central 2022 Udgivelsesbølge 2 (version 21) og erstattet af Ctrl + O. |
 |Ctrl+Alt+F1|Åbne og lukke sideinspektionsruden. Sideinspektionsruden viser oplysninger om siden, f.eks. dens kildetabel, felter, udvidelser og meget mere.<br /><br />Du kan finde flere oplysninger i [Inspektion af sider](across-inspect-page.md).|
 |Ctrl+C |Kopiere værdien i feltet. Hvis feltet er i fokus, og du ikke har markeret tekst i feltet, kopieres hele værdien. Hvis du har markeret tekst i feltet, så kopieres kun den markerede tekst.|
-|Ctrl+F1|Åbn [Hjælp-ruden](product-help-and-support.md#help-pane) eller en Business Central hjælp-artikel i [Microsoft Docs](/dynamics365/business-central/), afhængigt af virksomhedens centrale version.|
+|Ctrl+F1|Åbn [Hjælp-ruden](product-help-and-support.md#help-pane) eller en Business Central hjælp-artikel i [Microsoft Learn](/dynamics365/business-central/), afhængigt af virksomhedens centrale version.|
 |Ctrl+F12|Skifte mellem visning med bredt og smalt layout.|
 |Ctrl+klik|Navigere under tilpasning, når handlingen er fremhævet med en pilespids. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).|  
 |Ctrl+F5|Genindlæse [!INCLUDE[prod_short](includes/prod_short.md)]-programmet. (Svarer til at vælge opdater/genindlæs i browseren).|
 |F5|Opdatere oplysningerne på den aktuelle side.<br /><br />Du kan bruge denne tast til at sikre, at dataene på siden er opdateret med de ændringer, der er foretaget af andre, mens du arbejder.|
-|Indsæt|Aktivere eller få adgang til det element eller kontrolelement, der er i fokus.|
+|Ctrl+O|Åbn ruden **Tilgængelige regnskaber**, som du kan skifte til et andet regnskab eller et andet miljø. Du kan finde flere oplysninger i [Skifte til en anden virksomhed eller et andet miljø](ui-organization-switch.md).|
+|Enter|Aktivere eller få adgang til det element eller kontrolelement, der er i fokus.|
 |Esc|Lukke den aktuelle side eller rullelisten.|
 |Tab|Flytte fokus til det næste kontrolelement eller objekt på en side, f.eks. handlinger, knapper, felter eller listeoverskrifter.|
 |Skift+Tab|Flytte fokus til det forrige kontrolelement eller objekt på en side, f.eks. handlinger, knapper, felter eller listeoverskrifter.|

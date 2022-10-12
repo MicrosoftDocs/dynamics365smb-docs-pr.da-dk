@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.search.form: 100
-ms.date: 04/01/2021
+ms.date: 08/18/2022
 ms.author: jswymer
-ms.openlocfilehash: 832e0d2d606549f51c9f16884dd8d760c0f81a79
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: a6b21fd03cbfebdefb102074e97121bf2187bf49
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535446"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605923"
 ---
 # <a name="closing-years-and-periods"></a>Afslutning af år og perioder
 
@@ -23,11 +23,11 @@ Ved afslutningen af et regnskabsår er der en række administrative opgaver, du 
 
 Følgende tabel indeholder en oversigt over opgaver, du typisk udfører for at lukke et år og periode.
 
-| Hvis du vil | Se |
+| Til | Se |
 | --- | --- |
 | Definer regnskabsåret, og opdel det i de perioder, du vil rapportere finansielle resultater for. | [Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)|
 | Angive datointervaller for bogføring, som enten er brugerspecifikke, eller som gælder på tværs af hele systemet. Afhængigt af dine forretningsmæssige behov kan det være en god idé at begrænse datointervaller for bogføring af brugere i begyndelsen af periodeafslutningsprocessen eller efter den. |[Angive bogføringsperioder](finance-how-specify-posting-periods.md) |
-| Få et overblik over aktiviteter, der almindeligvis udføres i slutningen af perioden, f.eks at alle dokumenter og kladder er bogført eller kørsel af kontoskemaer. |[Ultimoperioder](year-how-complete-period-end-processes.md) |
+| Få et overblik over aktiviteter, der almindeligvis udføres i slutningen af perioden, f.eks at alle dokumenter og kladder er bogført eller kørsel af finansrapporter. |[Ultimoperioder](year-how-complete-period-end-processes.md) |
 | Opdatere valutakurser og regulere kurserne for bogførte debitor-, kreditor- og bankposter. |[Opdatere valutakurser](finance-how-update-currencies.md) |
 | Allokere omkostninger og indtægter mellem konti og dimensioner. |[Allokere omkostninger og indtægter](year-allocate-costs-income.md) |
 | Forbered, hvordan du rapporterer momsbeløb, som du har indsamlet for salg, i skattemyndighedernes webtjeneste. |[Rapportere moms til skattemyndighederne](finance-how-report-vat.md)|
@@ -43,6 +43,5 @@ Følgende tabel indeholder en oversigt over opgaver, du typisk udfører for at l
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

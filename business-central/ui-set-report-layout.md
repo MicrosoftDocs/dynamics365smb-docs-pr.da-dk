@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 03/07/2022
+ms.date: 08/12/2022
 ms.author: jswymer
-ms.openlocfilehash: e59a57e6cac21f4909088defc42da795e5550562
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: d63bfb699932261e0e9b74ef3aebcbd52bc53604
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535849"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606879"
 ---
 # <a name="setting-the-layout-used-by-a-report"></a>Angive det layout, der bruges af en rapport
 
@@ -27,15 +27,17 @@ Hvis der findes flere firmaer i programmet, angives layouterne for hvert enkelt 
 
 ## <a name="get-started"></a>Kom i gang
 
-Der er to måder at angive det layout, som en rapport bruges på. En metode er fra siden **Valg af rapportlayout**. Den anden metode er på siden **Rapportlayout**. Hver side har fordele, f. eks.: 
+Der er et par måder at angive det layout, som en rapport bruges på. Der er fordele ved hver måde, afhængigt af hvad du leder efter: 
 
-- På siden til **valg af rapportlayout** vises en oversigt over alle rapporter.
+- Fra rapportanmodningssiden
 
-  Denne side angiver, hvad rapportens aktuelle layout er. Derudover kan du angive layout i forskellige firmaer, uden at du behøver at skifte det regnskab, du arbejder med.
+  Når du konfigurerer en rapport til kørsel, indeholder rapportanmodningssiden **rapportlayout**, som viser det aktuelle standardlayout, som bruges af rapporten. Du kan bruge dette felt til midlertidigt at skifte til et andet tilgængeligt layout, som er den rapport, du kører. Når du har kørt rapporten, gendannes standardlayoutet igen. Du kan få flere oplysninger [Køre og udskrive en rapport](ui-work-report.md#switching-the-report-layout).
 
-- På siden **rapportlayout** vises alle tilgængelige layout for hver rapport i det aktuelle regnskab.
+- Fra siden **Valg af rapportlayout**
 
-  Det er nemt at finde et bestemt layout ved at sortere eller filtrere listen. Når du har fundet layoutet, kan du angive det for en rapport med en enkelt markering.
+  På siden til **valg af rapportlayout** vises en oversigt over alle rapporter. Denne side angiver, hvad rapportens standardlayout er. Den lader dig angive layout i forskellige firmaer, uden at du behøver at skifte det regnskab, du arbejder med.
+
+- Fra siden **rapportlayout** vises **Rapportlayouts** for hver rapport i det aktuelle regnskab. Den bruges også til at angive standardlayoutet for rapporter. Det er nemt at finde et bestemt layout ved at sortere eller filtrere listen. Når du har fundet layoutet, kan du angive det for en rapport med en enkelt markering.
 
   > [!NOTE]
   > Du kan ikke bruge siden **Rapportlayout** til Word-og RDLC-layout, der er oprettet med den ældre **brugerdefinerede layout**-funktion. Du kan faktisk ikke se disse brugerdefinerede layout på siden **rapportlayout**. Du kan kun indstille disse layout ved hjælp af siden **Valg af rapportlayout**.

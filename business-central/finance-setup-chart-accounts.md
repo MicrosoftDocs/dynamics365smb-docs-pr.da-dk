@@ -1,5 +1,5 @@
 ---
-title: Konfigurere kontoplan (indeholder video)
+title: Konfigurere eller ændre kontoplan (indeholder video)
 description: Kontoplanen viser de finanskonti, hvor dine finansielle data er gemt. Du kan ændre standardkontiene i COA, og du kan tilføje nye konti.
 author: edupont04
 ms.topic: conceptual
@@ -10,26 +10,25 @@ ms.search.keywords: COA, cha of acc
 ms.search.form: 16, 17, 18, 118, 386, 391
 ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 57dadabe2e96654a919127f17fcc6391786eb90f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 15eca1f6bc4a75ca6758e5be351d4a459226ac5b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533612"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606690"
 ---
 # <a name="set-up-or-change-the-chart-of-accounts"></a>Konfigurere eller ændre kontoplanen
 
-Kontoplanen viser de finanskonti, hvor dine finansielle data er gemt. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en standardkontoplan, der er klar til at understøtte din virksomhed.
-Men du kan ændre standardkontiene, og du kan tilføje nye konti.
+Kontoplanen viser de finanskonti, hvor dine finansielle data er gemt. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en standardkontoplan, der er klar til at understøtte din virksomhed. Men du kan ændre standardkontiene, og du kan tilføje nye konti.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
 ## <a name="add-or-change-accounts"></a>Tilføje eller ændre konti
 
-Fra kontoplanen kan du åbne hver finanskonto og tilføje eller ændre indstillinger for hver konto. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+Fra kontoplanen kan du åbne hver finanskonto og tilføje eller ændre indstillinger for hver konto. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
-Hvis det er nødvendigt, kan du bruge mere end én linje til et navn på en finanskonto. På **finanskontokortet** i **Konto**-gruppen skal du vælge **udvidede tekster** og derefter udfylde en eller flere linjer med den tekst, der skal kopieres, og kontonavnet.  
+Hvis det er nødvendigt, kan du bruge mere end én linje til et navn på en finanskonto. På **finanskontokortet** i **Konto**-gruppen skal du vælge **udvidede tekster** og derefter udfylde en eller flere linjer med kontonavnet og den kopierede tekst.  
 
 For kontoer af typen **I alt** skal du udfylde feltet **Sammentælling**. For kontoer af typen **Til-sum** udfyldes feltet automatisk af funktionen Indryk. Når du har oprettet kontiene, skal du vælge **proces**-handlinger og derefter vælge **Indryk kontoplan**.  
 
@@ -52,11 +51,9 @@ Du kan slette en finanskonto. Men før du sletter den, skal følgende være opfy
 
 2022 udgivelsesbølge 2 introducerer en ekstra beskyttelse mod utilsigtet sletning af finanskonti i de situationer, hvor kriterierne er opfyldt.  
 
-Et nyt felt, **bloker sletning af finanskonti**, føjes til **Finansopsætning**-siden. Feltet fungerer som en ekstra validering, når en bruger forsøger at slette en konto, hvor der er poster efter den dato, der er angivet i feltet **Kontroller finanskontosletning efter**.
+Et nyt felt, **bloker sletning af finanskonti** er blevet føjet til **Finansopsætning**-siden. Når feltet er indstillet til *Ja*, fungerer feltet som en ekstra vurdering, der betyder, at du ikke kan slette finanskonti med poster efter den dato i feltet **Kontrollér sletning af finanskonto efter**. Hvis du vil slette en sådan konto, skal en bruger med adgang til siden **Finansopsætning** først angive feltet til *Nej*.  
 
-Når feltet **Bloker sletning af finanskonti** er angivet til *Ja*, kan du ikke slette finanskonti, der er sagsposter efter den dato i feltet **Kontrollér sletning af finanskonto efter**. Hvis du vil slette en sådan konto, skal en bruger med adgang til siden **Finansopsætning** først angive feltet til *Nej*. Kontoen kan derefter slettes.  
-
-Det anbefales, at du angiver feltet **Bloker sletning af finanskonti** til *Ja*. Det anbefales også, at du altid har en dato i feltet **Kontrollér sletning af finanskonto efter**, f. eks. det tidspunkt, hvor du skal gemme dine økonomi data.  
+Hvis du angiver en **Blokér sletning af feltet finanskonto** til *Ja*, kan det anses for at være en bedste fremgangsmåde, da datoen i feltet **Kontroller, om finanskonto slettes efter**-feltet f.eks. er den dato, hvor du skal gemme dine finansdata.  
 
 ## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
@@ -66,7 +63,7 @@ Det anbefales, at du angiver feltet **Bloker sletning af finanskonti** til *Ja*.
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  
 [Arbejde med dimensioner](finance-dimensions.md)  
 [Importere data fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[Arbejde med kontoskemaer](bi-how-work-account-schedule.md)  
+[Arbejde med finansielle rapporter](bi-how-work-account-schedule.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Nulstil konti til resultatopgørelse i den franske version](LocalFunctionality/France/how-to-close-income-statement-accounts.md)  
 [Udskriv resultatopgørelser i den australske version](LocalFunctionality/Australia/how-to-print-income-statements.md)  
@@ -75,6 +72,5 @@ Det anbefales, at du angiver feltet **Bloker sletning af finanskonti** til *Ja*.
 [Indrykke kontoplanen og validere den i den spanske version](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

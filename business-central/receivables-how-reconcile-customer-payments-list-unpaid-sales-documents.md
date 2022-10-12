@@ -10,30 +10,37 @@ ms.search.keywords: payment process, cash receipts, customer payment
 ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6fa22b84284d05d77bd04919403435d99050cded
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f11eeacd21d39a9b816fa763ae333fc4cb4efd54
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517787"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606582"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Afstemme debitorbetalinger på en liste over ubetalte salgsdokumenter
-Når debitorerne har foretaget betalinger til din elektroniske bankkonto, skal du udligne hvert indbetalte beløb med det relaterede salgsbilag og derefter bogføre betalingen for at opdatere posterne for debitor, finans og bankkonto. Afhængigt af dine forretningsmæssige behov kan du modtage betaling og registrere den på forskellige måder: manuelt, automatisk og ved hjælp af betalingstjenester.  
+
+Når kunderne foretager elektroniske betalinger til din bankkonto, skal du gøre følgende:
+
+* Anvend hver betaling på det relevante bogførte salgsdokument
+* Bogfør betalingen for at opdatere kunden, finanskonto og bankposter. 
+
+Afhængigt af dine forretningsmæssige behov kan du modtage betaling og registrere den på forskellige måder: manuelt, automatisk og ved hjælp af betalingstjenester.  
 
 > [!NOTE]  
->   Du kan udføre de samme opgaver, herunder kreditorbetalinger, på siden **Betalingsudligningskladde** ved hjælp af funktioner til import af bankkontoudtog, automatisk udligning og bankkontoudligning. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
+> Du kan udføre de samme opgaver, herunder kreditorbetalinger, på siden **Betalingsudligningskladde** ved hjælp af funktioner til import af bankkontoudtog, automatisk udligning og bankkontoudligning. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 
-Siden **Registrer debitorbetalinger** er beregnet til at understøtte dig i opgaver, der involverer afstemning af interne konti ved at bruge faktiske tal til at sikre, at betalinger opkræves effektivt fra debitorer. Dette værktøj til betalingsbehandling gør det muligt hurtigt at kontrollere og bogføre individuelle betalinger eller engangsbetalinger, behandle fratrukne betalinger og finde ubetalte bilag, hvortil der udføres betaling.
+Brug siden **Registrer debitorbetalinger** til at balancere interne konti med faktiske kontant tal for at sikre, at betalingerne opsamles. Du kan hurtigt kontrollere og bogføre individuelle betalinger, forbehandle indbetalinger og finde dokumenter, der ikke er betalt.
 
-Betalinger til forskellige debitorer, som har forskellige betalingsdatoer, skal bogføres som individuelle betalinger. Betalinger til den samme debitor, som har den samme betalingsdato, kan bogføres som en engangsbetaling. Dette er nyttigt, når en debitor f.eks. har foretaget en enkelt betaling, der dækker flere salgsfakturaer.
+Betalinger til forskellige debitorer, som har forskellige betalingsdatoer, skal bogføres som individuelle betalinger. Betalinger til den samme debitor, som har den samme betalingsdato, kan bogføres som en engangsbetaling. Engangsbetalinger er nyttige, når en debitor f.eks. har foretaget en enkelt betaling, der dækker flere salgsfakturaer.
 
 ## <a name="to-set-up-the-payment-registration-journal"></a>Sådan konfigurerer du betalingsregistreringskladden
 Fordi du kan bogføre forskellige typer betaling til forskellige modkonti, skal du vælge en modkonto på siden **Opsætning af betalingsregistrering**, før du starte behandlingen af debitorbetalinger. Hvis du altid bogfører på den samme modkonto, kan du angive den pågældende konto som standard og undgå dette trin, hver gang du åbner siden **Registrer debitorbetalinger**.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af betalingsregistrering**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af betalingsregistrering**, og vælg derefter det relaterede link. Du kan også vælge handlingen **Opsætning** på siden **Registrer debitorbetalinger**.
+2. Udfyld felterne på siden **Opsætning af betalingsregistrering**. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)] Vælg et felt for at læse en kort beskrivelse af det eller et link til relaterede oplysninger.  
 
-    Du kan også vælge handlingen **Godkendere** på siden **Registrer debitorbetalinger**.    
-2. Udfyld felterne på siden **Opsætning af betalingsregistrering**. Vælg et felt for at læse en kort beskrivelse af det eller et link til relaterede oplysninger.  
+> [!TIP]
+> Hvis du vil gøre det nemmere senere at identificere poster, der blev bogført via kladden, kan du tildele en bestemt nummerserie til kladden. Dette er nyttigt, hvis du bruger betalings afstemnings kladder til at registrere og anvende betalinger.
 
 ## <a name="to-register-customer-payments-individually"></a>Sådan registrerer du debitorbetalinger individuelt
 
@@ -46,7 +53,7 @@ Fordi du kan bogføre forskellige typer betaling til forskellige modkonti, skal 
 3. I feltet **Dato for modtaget** kan du indtaste den dato, hvor betalingen blev foretaget. Denne dato kan adskille sig fra arbejdsdatoen.  
 4. I feltet **Beløb modtaget** skal du indtaste det beløb, der er betalt.
 
-    Ved fuld betaling er dette det samme som beløbet i feltet **Restbeløb** på linjen. Ved delvise betalinger er dette lavere end beløbet i feltet **Restbeløb** på linjen.    
+    Ved fuld betaling er dette beløb det samme som beløbet i feltet **Restbeløb** på linjen. Ved delvise betalinger er dette beløb lavere end beløbet i feltet **Restbeløb** på linjen.
 5. Gentag trin 2-4 for andre linjer, der repræsenterer bogførte bilag, hvortil der er foretaget betalinger.  
 6. Vælg handlingen **Bogfør betalinger**.  
 
@@ -75,7 +82,7 @@ Betalingsposter bogføres til finans, bank og debitorkonti. Hver betaling anvend
 
 Betalingsposter bogføres til finans, bank og debitorkonti. Hver betaling anvendes på det relevante bogførte salgsdokument.  
 
-Hvis en betaling i banken ikke repræsenteres af nogen bilag på siden **Betalingsregistrering**, kan det skyldes, at det relaterede bilag endnu ikke er bogført. I dette tilfælde kan du bruge en søgefunktion til hurtigt at finde bilaget og bogføre det for at behandle betalingen. Du kan finde flere oplysninger i [Sådan finder du et bestemt salgsdokument, der ikke er fuldt faktureret](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-find-a-specific-sales-document-that-is-not-fully-invoiced).  
+Hvis en betaling i banken ikke repræsenteres af nogen bilag på siden **Betalingsregistrering**, kan det skyldes, at det relaterede bilag endnu ikke er bogført. I dette tilfælde kan du bruge en søgefunktion til hurtigt at finde bilaget og bogføre det for at behandle betalingen. Du kan finde flere oplysninger i [Sådan finder du et bestemt salgsdokument, der ikke er fuldt faktureret](#to-find-a-specific-sales-document-that-isnt-fully-invoiced).  
 
 Hvis en betaling i banken ikke repræsenteres af nogen bilag i [!INCLUDE[prod_short](includes/prod_short.md)], kan du åbne en finanskladdelinje, som er udfyldt på forhånd, på siden **Betalingsregistrering** for at bogføre betalingen direkte på modkontoen uden at knytte betalingen til et bilag. Du kan også registrere betalingen i kladden, indtil den betalingens oprindelse er løst. Du kan finde flere oplysninger i [Sådan registrerer eller bogfører du en betaling uden et relateret dokument](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
@@ -138,7 +145,7 @@ Det relaterede bilag forbliver åbent.
 
 Det relaterede bilag er lukket, og debitoren krediteres det overskydende betalingsbeløb.  
 
-## <a name="to-find-a-specific-sales-document-that-is-not-fully-invoiced"></a>Sådan finder du et bestemt salgsdokument, der ikke er fuldt faktureret
+## <a name="to-find-a-specific-sales-document-that-isnt-fully-invoiced"></a>Sådan finder du et bestemt salgsdokument, der ikke er fuldt faktureret
 Siden **Betalingsregistrering** understøtter dig i opgaver, der er nødvendige for at afstemme interne konti med aktuelle tal for at sikre effektiv opkrævning fra debitorer. Den viser udestående indgående betalinger som linjer, der repræsenterer salgsdokumenter, hvor et beløb er forfaldent til betaling.  
 
 Typisk når en betaling er foretaget, registreret i bankbogføringsgrupperne eller lignende, repræsenteres det relaterede, salgs- eller købsdokument som en linje på siden **Betalingsregistrering**, fordi det pågældende dokument afventer, at betalingen bogføres i forhold til det udestående beløb. Ind imellem er der dog en udført betaling, som ikke repræsenteres af en linje på siden **Betalingsregistrering**, typisk fordi det pågældende bilag ikke er helt fakturabogført.
@@ -159,25 +166,23 @@ Den følgende procedure beskriver, hvordan du finder et bestemt dokument ved at 
 4. I feltet **Beløb** skal du indtaste det specifikke beløb på det bilag, du ønsker at finde.  
 5. I feltet **Tolerancebeløb %** skal du angive en procentværdi for at angive det beløbsinterval, som du vil søge i, for at finde det åbne bilag.  
 
-    Hvis du angiver 10, vil funktionen søge efter beløb i et interval mellem ti procent lavere og ti procent højere end værdien i feltet **Beløb**.    
+    Hvis du angiver 10, vil funktionen søge efter beløb i et interval mellem 10 procent lavere og 10 procent højere end værdien i feltet **Beløb**.    
 6. Vælg handlingen **Søg**.  
 
 Søgefunktionen søger mellem bilag, der ikke er faktureret fuldstændigt, baseret på angivne kriterier.  
 
-Hvis et eller flere bilag matcher kriterierne, åbnes siden **Resultat af dokumentsøgning** for at vise linjer, der repræsenterer disse bilag. Hver linje indeholder et bilagsnummer, en beskrivelse og et beløb, så du nemt kan finde et bestemt bilag, f.eks. baseret på oplysninger om dine bankkontoudtog.  
+Hvis et eller flere bilag matcher kriterierne, åbnes siden **Resultat af dokumentsøgning** for at vise linjer, der repræsenterer disse bilag. Hver linje indeholder et bilagsnummer, en beskrivelse og et beløb. Disse oplysninger gør det nemmere at finde et bestemt dokument.
 
 Hvis en betaling i banken ikke repræsenteres af nogen bilag i [!INCLUDE[prod_short](includes/prod_short.md)], kan du åbne en finanskladdelinje, som er udfyldt på forhånd, på siden **Betalingsregistrering** for at bogføre betalingen direkte på modkontoen uden at knytte betalingen til et bilag. Du kan også registrere betalingen i kladden, indtil den betalingens oprindelse er løst.  
 
 ## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Sådan registrerer eller bogfører du en betaling uden et relateret dokument
 Hvis en betaling i banken ikke repræsenteres af nogen bilag i [!INCLUDE[prod_short](includes/prod_short.md)], kan du åbne en finanskladdelinje, som er udfyldt på forhånd, på siden **Betalingsregistrering** for at bogføre betalingen direkte på modkontoen uden at knytte betalingen til et bilag. Du kan også registrere betalingen i kladden, indtil den betalingens oprindelse er afklaret.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsregistrering**, og vælg derefter det relaterede link.  
-
-    Fortsæt ved at registrere en udokumenteret betaling.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsregistrering**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Finanskladde**.  
 
     Siden **Finanskladde** åbnes med en linje med, der er udfyldt på forhånd med modkontoen for den kladde, der er konfigureret på siden **Opsætning af betalingsregistrering**.  
-3. Udfyld resten af felterne på finanskladdelinjen, f.eks. beløbet og debitornummeret eller andre oplysninger fra bankens kontoudtog. Du kan finde flere oplysninger i [Bogføre transaktioner direkte i finansregnskabet](finance-how-post-transactions-directly.md).  
+3. Udfyld resten af felterne på finanskladdelinjen. Du kan f. eks. angive beløb, kundenummer eller oplysninger fra bankens kontoudtog. Du kan finde flere oplysninger i [Bogføre transaktioner direkte i finansregnskabet](finance-how-post-transactions-directly.md).  
 
 Du kan bogføre kladdelinjen for at opdatere det samlede beløb på modkontoen. Du kan også lade kladdelinjen ikke-bogført og måske knytte den til en note, om at betalingen skal bruge flere analyser.  
 

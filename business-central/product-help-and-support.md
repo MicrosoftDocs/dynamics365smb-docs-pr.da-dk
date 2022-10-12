@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: d006df90aa6eba3b1970db971cdb14700a3bbd6b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531697"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607705"
 ---
 # <a name="resources-for-help-and-support"></a>Hjælp og support
 
@@ -51,7 +51,7 @@ Følgende liste beskriver, hvordan du kan få adgang til ruden hjælp, og om der
 Brug feltet Søg øverst i ruden Hjælp til at søge efter vejledning i, hvordan du bruger produktet, indbyggede funktioner og tilgængelige uddannelses moduler. Afhængigt af dine søgeord har ruden fem eller flere links med en kort beskrivelse. Vælg et hyperlink, eller Afgræns søgeordene. Når du vælger et hyperlink, åbnes destinations artiklen under en ny webbrowser fane. Du kan vælge at fjerne fanen browser, så du kan få vist de relevante oplysninger ved siden af hinanden med [!INCLUDE [prod_short](includes/prod_short.md)]. Ruden forbliver åben, mens du navigerer gennem [!INCLUDE [prod_short](includes/prod_short.md)], så det indhold, du har søgt efter, forbliver synligt.  
 
 > [!NOTE]
-> I den aktuelle version af [!INCLUDE [prod_short](includes/prod_short.md)] er feltet Søg i ruden Hjælp kun relevant for indhold, der udgives på [Docs.microsoft.com](/dynamics365/business-central)-websted.
+> I den aktuelle version af [!INCLUDE [prod_short](includes/prod_short.md)] er feltet Søg i ruden Hjælp kun relevant for indhold, der udgives på [Dynamics 365 Business Central-dokumentation](/dynamics365/business-central) på Microsoft Learn.
 
 ## <a name="help--support-page"></a>Siden Hjælp og support
 
@@ -83,7 +83,7 @@ Sektionen **Find det** indeholder to links til produkthjælp:
 
 - Hjælp om siden, du netop fik vist i [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Dette link genereres automatisk. Hvis [!INCLUDE[prod_short](includes/prod_short.md)] ikke kan finde det relevante link, vises landingssiden på [Docs.microsoft.com](index.md) for standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis siden f.eks. var en del af en app, som ikke har føjet kontekstafhængig hjælp til [!INCLUDE[prod_short](includes/prod_short.md)], viser *Få mere at vide-linket* som standard landingssiden.  
+  Dette link genereres automatisk. Hvis [!INCLUDE[prod_short](includes/prod_short.md)] ikke kan finde det relevante link, vises [landingssiden på Microsoft Learn](index.md) for standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis siden f.eks. var en del af en app, som ikke har føjet kontekstafhængig hjælp til [!INCLUDE[prod_short](includes/prod_short.md)], viser *Få mere at vide-linket* som standard landingssiden.  
   
 - Hjælpelandingsside for [!INCLUDE[prod_short](includes/prod_short.md)]  
 

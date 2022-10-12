@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: adfb0f44e35f0efea1f4081be3277f83e10dfd00
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 5757cbd314d6e8af5a049b8d0dbe626b3eb83057
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532345"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607198"
 ---
 # <a name="send-documents-and-emails"></a>Sende dokumenter og e-mails
 
@@ -51,10 +51,13 @@ Denne fremgangsmåde beskriver, hvordan du vedhæfter en bogført-salgsfaktura t
 > Hvis du ikke vil angive mailindstillinger, hver gang du sender en mail med et dokument, kan du vælge indstillingen **Ja (Brug standardindstillinger)** i feltet **Mail** på siden **Send bilag til**. I så fald åbnes siden **Send mail** ikke. Se trin 4. Du kan finde flere oplysninger i [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Sådan skrives og sendes en e-mail
+
 Du kan hurtigt oprette e-mails til kontakter, debitorer, kreditorer, sælgere/indkøbere og bankkonti direkte fra siderne til de pågældende enheder. Vælg **proces**, og send derefter **e-mails** for at åbne e-mail-editoren. I forbindelse med bankkonti er handlingen **Send E-mail** under **Handlinger**.
 
 > [!TIP]
 > Hvis du ofte sender e-mailmeddelelser, der ligner hinanden, eller du vil sende en masse kommunikation, f. eks. for at annoncere en salgskampagne, kan du bruge Word-skabeloner med e-mail til at gøre processen hurtigere. Du kan oprette en skabelon for en eller flere enheder, f. eks. kunder, leverandører og kontakter, som vil generere indholdet af en e-mail for dig, og endda tilpasse indholdet for modtageren baseret på data i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Bruge Word-skabeloner til masse kommunikation](ui-mail-merge.md).  
+
+Hvis du er tildelt et e-mailscenarie med relation til det objekt, du sender e-mailen til, eller hvis det dokument, du sender, bliver du muligvis automatisk føjet til din meddelelse. Det skyldes, at der er tildelt en standard vedhæftning til e-mail-scenariet. Du kan slette den vedhæftede fil, hvis du ikke vil sende den med din meddelelse. Du kan finde flere oplysninger i [Tildele e-mailscenarier til e-mailkonti](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Dokumenter, der er markeret som udskrevne, når de sendes
 

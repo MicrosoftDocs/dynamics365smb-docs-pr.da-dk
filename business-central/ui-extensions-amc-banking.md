@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank, format, data
 ms.search.form: 20100, 20101, 20102, 20105, 20106, 20107, 20109,
-ms.date: 06/23/2021
+ms.date: 09/20/2022
 ms.author: bholtorf
-ms.openlocfilehash: 64c0128329a0499d9e5e33e53b7d09c8d28e29d4
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 0502d92d5c18a04bcc273a60a4070054a0466055
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361794"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606906"
 ---
 # <a name="use-the-amc-banking-365-fundamentals-extension"></a>Bruge AMC Banking 365 Fundamentals-udvidelsen
 
@@ -51,7 +51,7 @@ Før brugerne kan bruge denne udvidelse, skal administratoren kopiere følgende 
 
 Du kan finde flere oplysninger i [Sådan kopieres et rettighedssæt](ui-define-granular-permissions.md#to-copy-a-permission-set).
 
-For hvert nyt rettighedssæt skal du kun give **læserettighed** til **AMC Banking-opsætningstabellen (20101).** Du kan finde flere oplysninger i [Sådan oprettes eller redigeres rettigheder manuelt](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
+For hvert nyt rettighedssæt skal du kun give **læserettighed** til **AMC Banking-opsætningstabellen (20101).** Du kan finde flere oplysninger i [Sådan oprettes eller redigeres rettigheder manuelt](ui-define-granular-permissions.md#to-create-a-permission-set).
 
 ### <a name="to-connect-the-extension-to-amc-banking"></a>Hvis du vil knytte udvidelsen til AMC Banking
 

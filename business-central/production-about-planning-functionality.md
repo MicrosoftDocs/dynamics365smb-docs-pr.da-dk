@@ -1,26 +1,26 @@
 ---
 title: Om planlægningsfunktionen
-description: Planlægningssystemet i Dynamics 365 Business Central tager højde for alle oplysninger om efterspørgsel og udbud, tæller resultaterne sammen og opretter forslag til afstemning af udbuddet efter efterspørgslen.
-author: SorenGP
+description: Planlæg tager højde for alle oplysninger om efterspørgsel og udbud, tæller resultaterne sammen og opretter forslag til, hvordan udbuddet kan afstemmes, så det passer til efterspørgslen.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5430
-ms.date: 07/16/2021
-ms.author: edupont
-ms.openlocfilehash: 029666cdfd0ad75d62eb21f6e719295c67d88ed1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 08/30/2022
+ms.author: bholtorf
+ms.openlocfilehash: df67568094e76dccbc62b9dbf6d78dc9c0e58caf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535419"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606960"
 ---
 # <a name="about-planning-functionality"></a>Om planlægningsfunktionen
 
 Planlægningssystemet tager højde for alle oplysninger om efterspørgsel og udbud, tæller resultaterne sammen og opretter forslag til, hvordan udbuddet kan afstemmes, så det passer til efterspørgslen.  
 
-Du kan finde detaljerede oplysninger i [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)  
+Du kan finde flere oplysninger i [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)  
 
 > [!NOTE]  
 > Læs værktøjstippet for alle felter, der er nævnt i dette emne, for at forstå deres funktion. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ Du kan finde detaljerede oplysninger i [Designoplysninger: Forsyningsplanlægnin
 I planlægningen indgår to elementer, udbud og efterspørgsel, som her kaldes behov og forsyning. Der skal opretholdes en balance mellem disse to elementer, så det kan sikres, at behovet imødekommes rettidigt og på en økonomisk fornuftig måde.  
 
 - Behov er fællesbetegnelsen for enhver form for bruttobehov, såsom en salgsordre, serviceordre, komponentbehov fra montage eller produktionsordrer, udgående overflytning, rammeordre eller forecast. Herudover kan programmet håndtere andre tekniske behovstyper - som en negativ produktions- eller købsordre, negativ lagerbeholdning og købsreturvarer.  
-- Forsyning er fællesbetegnelsen for enhver form for genanskaffelse som lagerbeholdning, en købsordre, montage eller produktionsordre eller indgående overflytning. Tilsvarende kan der være en negativ salgs- eller serviceordre, et negativt komponentbehov eller salgsreturvarer – som alle på en eller anden måde repræsenterer forsyning.  
+- Forsyning henviser til enhver form for genanskaffelse som lagerbeholdning, en købsordre, montage eller produktionsordre eller indgående overflytning. Tilsvarende kan der være en negativ salgs- eller serviceordre, et negativt komponentbehov eller salgsreturvarer , der også repræsenterer forsyning.  
 
 Et andet formål med planlægningssystemet er at sikre, at lagerbeholdningen ikke vokser unødvendigt. Hvis behovet falder, kan planlægningssystemet foreslå, at du udskyder eksisterende genbestillingsordrer, angiver mindre antal til dem eller helt annullerer dem.  
 
@@ -158,9 +158,12 @@ Siden **Indkøbskladde** viser de varer, du vil bestille. Du kan indsætte varer
 
 - Du kan bruge handlingen **Specialordre** til at udfylde linjerne i indkøbskladden. Denne handling bruger kørslen **Hent salgsordrer** til at finde de salgsordrelinjer, som du vil ekspedere i en specialordre.
 
-Linjerne i indkøbskladden indeholder detaljerede oplysninger om de varer, der skal genbestilles. Du kan redigere og slette linjerne for at regulere genbestillingsplanen, og du kan viderebehandle linjerne ved hjælp af kørslen **Udfør aktionsmeddelelse**.
+Linjerne i indkøbskladden indeholder detaljerede oplysninger om de varer, der skal genbestilles. Du kan redigere og slette linjerne for at regulere genbestillingsplanen, og du kan viderebehandle linjerne ved hjælp af kørslen **Udfør aktionsmeddelelse**. 
 
 Du kan finde flere oplysninger om planlægning med lokationer og overflytninger under [Planlægning med eller uden lokationer](production-planning-with-without-locations.md).
+
+> [!TIP]
+> Når du arbejder på siderne **indkøbskladde** eller **Planlægningskladde**, kan du organisere linjerne ved at sortere efter et kolonnenavn. Dette er især nyttigt på siden planlægningskladde, fordi de kan bruges til produktionsordrer med flere niveauer. Som standard sorteres linjer efter feltet **Varenr.**. Hvis du vil gruppere linjer for en række med flere niveauer, skal du sortere efter **Ref. ordrenr.** . Felterne **MPS-ordre** og **planlægningsniveau** kan også være en hjælp til at vise linjernes hierarki.
 
 ## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/plan-items-dynamics-365-business-central/)
 

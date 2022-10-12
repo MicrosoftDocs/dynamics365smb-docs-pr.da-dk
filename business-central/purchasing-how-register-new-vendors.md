@@ -1,21 +1,21 @@
 ---
 title: Oprette et kreditorkort for at registrere en ny leverandør (indeholder video)
 description: Lær, hvordan du opretter et kreditorkort for at registrere en ny kreditor eller leverandør og gemme kreditorkort som en skabelon.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
-ms.date: 07/04/2022
-ms.author: edupont
-ms.openlocfilehash: e5fac9d278d289f6526d544324adcc8f5ce3185a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 09/05/2022
+ms.author: bholtorf
+ms.openlocfilehash: ca4cca577b8105ddbf2625715a1585df2bb7b20d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532035"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606636"
 ---
 # <a name="register-new-vendors"></a>Registrere nye kreditorer
 
@@ -41,6 +41,10 @@ Når du har oprettet en skabelon, kan du bruge handlingen **Anvend skabelon** fo
 > Det kan være nyttigt at tilpasse siden **Kreditorskabeloner**, når du opretter en skabelon. Du kan f. eks. tilføje et felt, der ikke allerede vises på siden. Flere oplysninger i [Tilpasse dit arbejdsområde](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
 Du kan også oprette en kreditor ud fra en kontakt. Flere oplysninger i [Oprette en debitor, kreditor, medarbejder eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
+
+Remitter til-adresser bruges, når du udskriver checks til at betale kreditorer, og leverandører kan have flere Remitter til-betalinger. F.eks. kan en kreditor levere en vare fra et datterselskab, men ønsker at modtage betaling hos virksomheden. [!INCLUDE [prod_short](includes/prod_short.md)] bruges til at oprette flere postadresser for hver kreditor, og du kan vælge den korrekte lokation, hvor der skal sendes betalinger til fakturaberegning.
+
+Du angiver Remitter til-adresser på kreditorkort sider og i oversigtspanelet forsendelse & betalinger på købsordrer og fakturaer. Når du opretter Udbetalingskladde linjer ved hjælp af rapporten løn-kreditor eller Opret betaling på listesiden kreditor eller på siden med kreditorkortet eller handlingen Udlign på en betalingskladde, tildeles Remitter til-koden på kreditorposten. Du kan overskrive denne værdi.
 
 ### <a name="to-create-a-new-vendor"></a>Sådan oprettes en ny kreditor
 

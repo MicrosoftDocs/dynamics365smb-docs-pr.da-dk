@@ -7,14 +7,16 @@ ms.topic: conceptual
 ms.search.form: 328
 ms.date: 05/09/2022
 ms.author: altotovi
-ms.openlocfilehash: 100c005a9628451c099e5bfbde641fb6d4bb0014
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 4c8da6106aa4d87185e961432f0293d07865e58b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732982"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605673"
 ---
 # <a name="vat-registration-number-setup-for-intrastat-in-the-danish-version"></a>Opsætning af Se/CVR-numre for Intrastat i den danske version
+
+[!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
 I Danmark betyder moms liste kravene, at du angiver et entydigt momsnummer i feltet **Se/CVR-nr.** på debitor-eller kreditorkortene. Men rapportering til Intrastat kræver et Se/CVR-nummer i de indsendte filer, der består af landekoden og se/CVR-nummeret.
 
@@ -35,5 +37,6 @@ Afhængigt af dine valg bliver de relevante numre sammenkædet med værdierne i 
 ## <a name="see-also"></a>Se også
 
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
+[Oprette Intrastat-rapportering](../../finance-how-setup-report-intrastat.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

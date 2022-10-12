@@ -8,28 +8,29 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
 ms.search.form: 9020, 9022, 9027, 9024
-ms.date: 04/01/2021
+ms.date: 09/19/2022
 ms.author: edupont
-ms.openlocfilehash: 47cd78dc6f706407a0be9814e170054b95e4403d
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: ce1550e658b881aa81a98c6c7e19c0d5b7011d19
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655043"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605896"
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunktioner
+
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder dedikerede funktioner til almindelige virksomhedsområder som f.eks. finans og salg. Du kan finde flere oplysninger i [Forretningsfunktioner](across-business-functionality.md).
 
-For at understøtte dine daglige opgaver kan du bruge en række generelle forretningsfunktioner, f.eks. definition af udvidet tekst til dokumentlinjer og organisering af forbundne opgaver i arbejdsgange.
+For at understøtte dine daglige opgaver kan du bruge forskellige forretningsfunktioner, f.eks. definition af udvidet tekst til dokumentlinjer og organisering af forbundne opgaver i arbejdsgange.
 
 > [!NOTE]
 > Ud over brugergrænsefladens forretningsrelaterede funktioner, der er beskrevet i dette afsnit, kan du dagligt bruge generelle funktioner, når du arbejder i systemet. Du kan finde flere oplysninger i [Arbejde med Business Central](ui-work-product.md).
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-I følgende tabel vises disse generelle forretningsområder med links til emner, hvor de er beskrevet.
+I følgende tabel vises disse generelle forretningsområder med links til artikler, hvor de er beskrevet.
 
-| Hvis du vil | Skal du se |
+| Til | Se |
 | --- | --- |
 |Føje ekstra oplysninger til konti, debitorkort eller salgsordrer for at kommunikere aftaler, f.eks. en særlig pris eller leveringsmetode, til andre brugere.|[Føje bemærkninger til kort og dokumenter](across-how-use-comments.md)|
 |Vis igangværende, bogførte eller arkiverede dokumenter, der er relateret til salgs- og købsordrelinjer.|[Spor dokumentlinjer](across-how-to-track-document-lines.md)|
@@ -42,18 +43,20 @@ I følgende tabel vises disse generelle forretningsområder med links til emner,
 |Bogføre flere salgs- eller købsdokumenter sammen med det samme eller som planlagt.|[Bogføre flere dokumenter på én gang](ui-batch-posting.md)|  
 |Gennemgå resultatet af bogføring, før du bogfører.|[Vise bogføringsresultater](ui-how-preview-post-results.md)|
 |Redigere udvalgte felter i bogførte salgs- eller købsdokumenter.|[Redigere bogførte dokumenter](across-edit-posted-document.md)|
+| Forstå den tilgængelige status for tilbud, ordrer og kreditnotaer dokumenter, f. eks. **åbne** og **frigivne** | [Statusfelt i dokumenter](ui-document-status.md) |
 |Få at vide, hvordan du arbejder med finanskladder, som bruges til at bogføre til finanskonti og andre konti, f.eks. bank-, debitor-, kreditor- og anlægskonti. |[Arbejde med finanskladder](ui-work-general-journals.md) |
 | Planlæg en rapport til at køre på en bestemt dato og et bestemt klokkeslæt. |[Planlægge kørsel af en rapport](ui-work-report.md#ScheduleReport) |
 |Lad systemet hjælpe dig med at udføre opgaver hurtigere og mere korrekt ved at forhåndsudfylde felter eller hele linjer med data, som du normalt selv skal beregne og angive.|[Lade Business Central foreslå værdier](ui-let-system-suggest-values.md)|
 |Registrere eksterne dokumenter, herunder deres vedhæftede filer, og derefter oprette relaterede dokumenter manuelt, eller konvertere filerne automatisk til elektroniske dokumenter.|[Indgående bilag](across-income-documents.md)|
 |Konfigurer og brug arbejdsgange, der forbinder opgaver udført af forskellige brugere eller af systemet, f.eks. automatisk bogføring. Anmodning om og tildeling af tilladelse til at oprette eller bogføre dokumenter er typisk arbejdsgangstrin.|[Workflow](across-workflow.md)|
 | Konfigurer dataudvekslingsdefinitioner, så du kan sende og modtage elektroniske dokumenter. |[Udveksle data elektronisk](across-data-exchange.md) |
+| Brug onlinekort til at finde steder og instruktioner til kunder, leverandører og adresser generelt. | [Bruge online kort til at finde steder og vejledninger](across-online-maps.md) |
 
 ## <a name="see-also"></a>Se også
+
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Opsætning](admin-setup-and-administration.md)
+[Opsætning](admin-setup-and-administration.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ad055bef260d732c9f7732c094f660704f6acdf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e6b242bc3da6a2845c457cfbfcfaf80e6c71d31d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135980"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605106"
 ---
 # <a name="set-up-payment-terms"></a>Konfiguration af betalingsbetingelser
 
@@ -35,7 +35,7 @@ Efter du har angivet betalingsbetingelserne, kan du tildele dem til debitorer og
 > [!TIP]
 > I basisversionen af [!INCLUDE [prod_short](includes/prod_short.md)] skal betalingsbetingelser med delbetalinger ikke understøttes. Du skal i stedet bruge funktionen til forudbetalinger. Du kan finde flere oplysninger i [Oprette forudbetalinger](finance-set-up-prepayments.md).
 >
-> I nogle lande kan du *angive* betalingsbetingelser med delbetalinger. Hvis du vil vide, om denne funktion understøttes i dit land, skal du se afsnittet **Lokal funktionalitet** i navigationsruden i venstre side på [Docs.microsoft.com](about-localization.md)-webstedet.
+> I nogle lande kan du *angive* betalingsbetingelser med delbetalinger. Hvis du vil vide, om denne funktion understøttes i dit land, skal du se afsnittet **Lokal funktionalitet** i navigationsruden i venstre side af [Microsoft Learn](about-localization.md)-artiklen.
 
 ## <a name="see-also"></a>Se også
 

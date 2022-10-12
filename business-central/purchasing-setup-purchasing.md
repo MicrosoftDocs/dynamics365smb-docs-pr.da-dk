@@ -8,29 +8,63 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
-ms.date: 07/04/2022
+ms.date: 08/30/2022
 ms.author: edupont
-ms.openlocfilehash: 008c0d35c8bfefdf002e08b967ddc1a9336b04a5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 82083beeb1779455fbd4b8a6083663b5559129eb
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530374"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606609"
 ---
 # <a name="setting-up-purchasing"></a>Opsætning af indkøb
 
 Før du kan administrere købsprocesser, skal du konfigurere de regler og værdier, der definerer virksomhedens købspolitikker.
 
-Du skal angive den generelle opsætning, f.eks. hvilke indkøbsdokumenter der kræves, og hvordan deres værdi bogføres. Denne generelle opsætning udføres typisk én gang i forbindelse med den indledende implementering.
+Du skal angive den generelle opsætning på siden **køb & Købsopsætning**, som typisk gøres én gang ved den første implementering. Få mere at vide i følgende afsnit, [Opsætning af køb og skyldige beløn](#purchases-and-payables-setup).
 
 En særskilt sæt opgaver i forbindelse med registrering af nye kreditorer er at registrere en særlig pris eller rabataftaler, du indgår med hver kreditorer.
 
-Den finansrelaterede købsopsætning, som betalingsmetoder og valutaer, dækkes i afsnittet Konfigurere Finans. Der er flere oplysninger i [Konfigurere Finans](finance-setup-finance.md). På samme måde kan du finde lagerrelaterede købs opsætninger, f. eks. enheder og varesporingskoder, i afsnittet [Lageropsætning](inventory-setup-inventory.md).
+Den finansrelaterede købsopsætning, som betalingsmetoder og valutaer, dækkes i afsnittet Konfigurere finans. Flere oplysninger i [Konfigurere finans](finance-setup-finance.md). På samme måde kan du finde lagerrelaterede købsopsætninger, f. eks. enheder og varesporingskoder, i afsnittet [Lageropsætning](inventory-setup-inventory.md).
+
+## <a name="purchases-and-payables-setup"></a>Opsætning af køb og skyldige beløb
+
+Før du arbejder med køb, skal du på siden **Køb og skyldige beløb** angive, hvordan købsværdier bogføres og nummerserierne, der bruges til kreditorer og købsdokumenter.
+
+### <a name="general-settings"></a>Generelle indstillinger
+
+I oversigtspanelet **Generelt** angiver du indstillinger for, hvordan der skal beregnes og bogføres rabatter, og om fakturaer skal afrundes. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+
+Nogle felter kræver særlig opmærksomhed, f.eks. feltet **Beregn fakturarabat pr. moms-id**, som angiver, om fakturarabatten beregnes i henhold til moms-id'et eller fakturatotalen. Flere oplysninger [Sådan kombineres momsbogføringsgrupper i momsbogføringsopsætninger](finance-setup-vat.md#combine-vat-posting-groups-in-vat-posting-setups).
+
+På samme måde kan der opstå mindre afrundingsdifferencer i feltet **Udlign. mellem valutaer**, når poster i forskellige valutaer udlignes med hinanden. Flere oplysninger [Aktivere anvendelsen af finansposter i forskellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md).
+
+Nogle felter ændrer også deres funktionsmåde eller afhænger af, hvordan andre felter er angivet. Funktionen **Kontroller forudbetaling ved bogføring** påvirkes f.eks. af, hvordan feltet **Frekvens for automatisk opdatering af forudbetaling** er indstillet til at kontrollere, om der er ventende forudbetalinger.
+
+Læse oplysninger om feltet [**Eksternt bilagsnr. obl.**](#external-document-number) og præcise beløb til feltet [**Obl. præcis kostprisudligning**](#exact-cost-reversing) herunder.
+
+### <a name="number-series-settings"></a>Indstillinger for nummerserier
+
+I oversigtspanelet **Nummerserier** angiver du den de entydige identifikationskoder, som skal bruges til kreditorer, fakturaer og andre købsdokumenter. Nummereringen er ikke kun vigtig ved interne processer, men det kan også være nødvendigt at følge lokale forskrifter. Det kan være værd at overveje at oprette serier på siden **Nummerserie** i stedet for at oprette nye fra **Købsopsætning**. Flere oplysninger i [Oprette nummerserie](ui-create-number-series.md).
+
+## <a name="external-document-number"></a>Eksterne bilagsnumre
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
+
+## <a name="exact-cost-reversing"></a>Præcis kostprisudligning
+
+Den **præcise funktion til tilbageførsel af kostpris** hjælper med at sikre, at returvarer værdiansættes til den samme omkostning, som da de oprindeligt blev trukket fra lageret ved hjælp af en fast udligning i stedet for en kostmetode for FIFO eller første, første og anden. Få mere at vide i sektionen [Designdetaljer: fast udligning](design-details-item-application.md#fixed-application). Hvis der senere føjes en supplerende pris til det oprindelige køb, opdateres værdien af købsreturvaren tilsvarende automatisk.
+
+Med funktionen aktiveret kan returtransaktionen kun bogføres med angivelse af varepostnummeret i feltet **Udl.varepostløbenr.** på ordrelinjen for købsreturvaren. Feltet vises ikke som standard på oversigtspanelet **Linjer**. Få mere at vide om, hvordan du føjer felter til sider i sektionen [Tilpasning af arbejdsområde](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+
+[!INCLUDE[local-functionality](includes/local-functionality.md)]
+
+## <a name="more-purchasing-setups"></a>Flere indkøbsopsætninger
 
 | Til | Se |
 | --- | --- |
 | Opret et kreditorkort for hver kreditor, du køber fra. |[Registrere nye kreditorer](purchasing-how-register-new-vendors.md) |
-| Tildele kreditorer prioritet |[Tildele kreditorer prioritet](purchasing-how-prioritize-vendors.md) |
+| Prioritere kreditorer. |[Tildele kreditorer prioritet](purchasing-how-prioritize-vendors.md) |
 | Indtaste bankkontooplysninger, herunder IBAN-og SWIFT-koder, på kreditorkortet. | [Konfigurere kreditorbankkonti](purchasing-how-set-up-vendors-bank-accounts.md) |
 | Oprette indkøbere, tildele dem kreditorer og koder til sporingsstatistik. |[Oprette indkøbere](purchasing-how-setup-purchasers.md) |
 | Angiv de forskellige rabatter og specialpriser, som kreditorer yder dig, afhængigt af vare, antal og/eller dato. |[Registrer købspris, rabat og betalingsaftaler](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
@@ -41,14 +75,7 @@ Den finansrelaterede købsopsætning, som betalingsmetoder og valutaer, dækkes 
 | Gennemgå udgifts kvitteringer, konverter papir og elektroniske dokumenter til kladdelinjer, og digitalize papir fakturaer fra kreditorer. | [Opsætning af indgående bilag](across-how-setup-income-documents.md) |
 | Angiv standardrapporter, der skal bruges til forskellige dokumenttyper. |[Rapportvalg i Business Central](across-report-selections.md)|
 
-> [!TIP]
-> Nogle sider kan indeholde felter, der ikke er beskrevet i de artikler, der er angivet her, fordi de gælder for lokal funktionalitet eller tilpasninger, afhængigt af din geografiske placering. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
-## <a name="external-document-number"></a>Eksterne bilagsnumre
-
-[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
-
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se også
 

@@ -2,15 +2,15 @@
 title: Undervisningskatalog for forretningsbrugere
 description: Find al tilgængelig undervisning i Business Central.
 author: loreleishannonmsft
-ms.date: 04/01/2021
+ms.date: 08/29/2022
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 21c87640e09966a705b59905da9d126b5c8b604e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 5b977ba37c4bd827fd44e6cd897010eaadd64ec1
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528756"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607792"
 ---
 # <a name="business-users-learning-catalog"></a>Undervisningskatalog for forretningsbrugere
 
@@ -18,7 +18,7 @@ Har du lige fået et nyt program, du skal bruge?
 
 Følgende katalog er organiseret fra kerneviden til bestemte domæner og fra det mest grundlæggende til det mest avancerede. Hvis indholdet findes i flere formater, giver vi dig besked om det, så du kan vælge det format, der bedst imødekommer dine behov.  
 
-## <a name="getting-started"></a>Introduktion<a name="get-started"></a>
+## <a name="getting-started"></a>Introduktion
 
 | Indhold                                                                                                                               | Beskrivelse                                                                                                                                                                                                                                                                                      | Format                                | Længde             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -26,7 +26,7 @@ Følgende katalog er organiseret fra kerneviden til bestemte domæner og fra det
 | [Arbejde med Microsoft Dynamics 365 Business Central-brugergrænsefladen](/training/paths/work-with-user-interface-dynamics-365-business-central/) | Vil du lære om brugergrænsefladen i Business Central? Denne læringssti viser dig brugergrænsefladen, og hvordan du kan tilpasse den. Den beskriver også alternative grænseflader, f.eks. en smartphone.                                                                               | Gratis onlinelæringssti i dit eget tempo | 2 timer og 27 minutter |
 | [Arbejde som en professionel med data i Business Central](/training/paths/work-pro-data-dynamics-365-business-central)                                    | Er du blot kommet i gang med Business Central? Denne læringssti hjælper dig med at forberede dig til de forskellige typer data i Business Central, og hvordan du finder de oplysninger, du skal bruge, i programmet.                                                                                                  | Gratis onlinelæringssti i dit eget tempo | 2 timer og 27 minutter |
 
-## <a name="financials"></a>Financials<a name="financials"></a>
+## <a name="financials"></a>Finansielle oplysninger
 | Indhold                                                                                                                                                         | Beskrivelse                                                                                                                                                                                                                                                                                            | Format                                | Længde             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
 | [Opsætte økonomistyring i Microsoft Dynamics 365 Business Central](/training/paths/set-up-financial-management-dynamics-365-business-central/)                     | Vil du bruge Business Central til økonomistyring? Så er denne læringssti for dig. Den beskriver opsætningen af nummerserier, revisionssporkoder, bogføringsgrupper, dimensioner og kontoplanen.                                                                                   | Gratis onlinelæringssti i dit eget tempo | 3 timer og 13 minutter |

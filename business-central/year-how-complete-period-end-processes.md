@@ -7,35 +7,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 04/01/2021
+ms.date: 08/29/2022
 ms.author: jswymer
-ms.openlocfilehash: bb39763e80acc25604f3a1528f5c6db286a5c1dc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: ace24899aa3c872cd5ac0609dfc3ecbf63608330
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535485"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607657"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Oversigt over opgaver til afslutning af regnskabsperioder
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tvinger dig ikke at lukke perioder, men der er mange periodeafslutnings- (månedsafslutning) aktiviteter, du kan udføre. Dette emne indeholder en oversigt over valgfrie processer og aktiviteter til afslutning af perioder.  
 
-## <a name="general-ledger"></a>Finansposter
+## <a name="general-ledger"></a>Finans
 
 * Angiv bogføringsperioder, som enten er brugerspecifikke, eller som gælder på tværs af hele systemet.  
 
-    Dette angiver de datoer, du tillader bogføring mellem. Afhængigt af dine forretningsmæssige behov kan det være en god idé at tillade bogføring i begyndelsen af perioden eller mod afslutningen af den. Du kan finde flere oplysninger i [Angive bogføringsperioder](finance-how-specify-posting-periods.md).  
+    Dette angiver de datoer, du tillader bogføring mellem. Afhængigt af dine forretningsmæssige behov kan det være en god idé at tillade bogføring i begyndelsen af perioden eller mod afslutningen af den. Få mere at vide på [angive bogføringsperioder](finance-how-specify-posting-periods.md).  
 * Foretag alle nødvendige Finanspostreguleringer.  
 * Opdater og bogfør gentagelseskladder.  
   <!--* Process Consolidations-->
-* Kør kontoskemaer på følgende måde:  
-  * Åbn siden **Kontoskema**, og vælg derefter handlingen **Udskriv**.  
+* Kør regnskabsrapporter på følgende måde:  
+  * Åbn siden **Finansrapporter**, og vælg derefter handlingen **Udskriv**.  
 
-## <a name="sales-and-receivables"></a>Salg
+## <a name="sales-and-receivables"></a>Salg og tilgodehavender
 
 * Bogfør alle salgsordrer, fakturaer, kreditnotaer og returvareordrer.  
 * Bogfør alle indbetalingskladder.  
-* Opdater og bogfør de gentagelseskladder, som vedrører salg.  
+* Opdater og bogfør de gentagelseskladder, som vedrører Salg og tilgodehavender.  
 * Afstem aldersfordelte tilgodehavender, med finansposterne.  
 * Udfør kørslen **Slet fakturerede salgsordrer**.  
 
@@ -43,11 +43,11 @@ ms.locfileid: "9535485"
 
 * Bogfør alle købsordrer, fakturaer, kreditnotaer og returvareordrer.  
 * Bogfør alle udbetalingskladder.  
-* Opdater og bogfør de gentagelseskladder, som vedrører Køb.  
+* Opdater og bogfør de gentagelseskladder, som vedrører Køb og gæld.  
 * Udfør rapporten **Aldersfordelt gæld**, og afstem gæld med finansposterne.  
 * Udfør kørslen **Slet fakturerede købsordrer**.  
 
-## <a name="fixed-assets"></a>Anlægsaktiver
+## <a name="fixed-assets"></a>Anlæg
 
 * Bogfør alle vedligeholdelsesomkostninger via anlægskladderne eller fakturaerne
 * Bogfør reguleringer.
@@ -55,9 +55,9 @@ ms.locfileid: "9535485"
 * Bogfør nedskrivning.
 * Opdater og bogfør anlægsgentagelseskladden.
 
-## <a name="intercompany"></a>Koncernintern
+## <a name="intercompany"></a>Intercompany-handel
 
-* Behandle koncerninterne transaktioner
+* Behandle koncerninterne transaktioner.
 
 ## <a name="calculate-and-process-sales-tax"></a>Beregn og behandl moms
 
@@ -70,6 +70,5 @@ ms.locfileid: "9535485"
 [Afslutning af år og perioder](year-close-years-periods.md)  
 [Afslutningregnskab](year-close-books.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

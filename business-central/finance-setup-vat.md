@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 10, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
+ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
 ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 148d6657d3fffeaa7b5415338517f1688264ae98
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: cfb7cf9448db3b88bc6f8c75f495ddb12cb23740
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532939"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617907"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Konfigurere beregnings- og bogføringsmetoder for moms
 
@@ -32,7 +32,7 @@ Hvis du selv vil konfigurere momsberegninger eller bare vil vide mere om de enke
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
-## <a name="set-up-vat-using-the-assisted-vat-setup-guide-recommended"></a>Konfigurer moms ved hjælp af den assisterede momsopsætningsvejledning (anbefales> 
+## <a name="set-up-vat-using-the-assisted-setup-guide-recommended"></a>Konfigurer moms ved hjælp af den assisterede momsopsætningsvejledning (anbefales)
 
 > [!NOTE]
 > Du kan kun bruge **momsopsætningsvejledningen**, hvis du har oprettet *Min virksomhed* og endnu ikke har bogført transaktioner, der omfatter moms.
@@ -50,6 +50,21 @@ For at understøtte dig i hurtig start viser [!INCLUDE [prod_short](includes/pro
 Hvis du vælger en sådan notifikation, opretter [!INCLUDE [prod_short](includes/prod_short.md)] automatisk disse bogføringsopsætninger på basis af bogføringsgrupperne i det dokument eller den kladde, du arbejder på.  
 
 På dette tidspunkt kan du nøjes med at udfylde de manglende finanskonti. Men når du senere indsnævrer installationen yderligere, kan du muligvis se, at denne første installation er forkert. Og [!INCLUDE [prod_short](includes/prod_short.md)] tillader ikke sletning af Momsbogføringsopsætning og Bogføringsopsætning, når der er oprettet poster, der er oprettet på baggrund af sådanne varianter. Så fra 2022 udgivelsesbølge 1 kan du bruge feltet **Spærret** på **Bogføringsopsætnings**-siden til at forhindre, at brugere kommer til at følge med en opsætning, der ikke længere er relevant for nye posteringer.
+
+## <a name="set-up-a-default-vat-date-for-documents-and-journals"></a>Oprette en standardmomsdato for dokumenter og kladder
+Momsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] er baseret på **momsdatoen** for at medtage momsposter i momsrapporter i en momsperiode. Momsdatoen kan ændres på alle dokumenter og kladder, men du skal angive en standardværdi for momsdatoen.
+
+> [!NOTE]
+> Efter bogføring af dokumentet eller kladden, vises som **momsdatoen** på **momsposter** og **finansposter** samt på det bogførte dokument, hvis det findes.
+
+Benyt følgende fremgangsmåde for at angive en standardværdi for en momsdato:
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, og skriv **Opsætning af Finans**, og vælg derefter det relaterede link.  
+2. I oversigtspanelet **Generelt** i feltet **Standardmomsdato** skal du vælge **Bogføringsdato** eller **Bilagsdato**.
+3. Luk siden.  
+
+> [!NOTE]
+> Som standard er **standardmomsdatoen** **bogføringsdatoen**.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Konfigurere momsregistreringsnumre for dit land eller område
 

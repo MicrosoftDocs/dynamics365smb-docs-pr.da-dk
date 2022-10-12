@@ -10,12 +10,12 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621
 ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 7add9cf10ff90ff978c67cf691b2f7e5c6b87bdd
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 32a0005f2ebbc6bfc87c21fed8469c86535e15de
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460855"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607279"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Konfigurere bogføring af koncernintern transaktion
 
@@ -56,6 +56,10 @@ Disse felter, der skal udfyldes, afhængigt af, om din administrator har slået 
 
 > [!NOTE]
 > I [!INCLUDE[prod_short](includes/prod_short.md)] online kan du ikke bruge filplaceringer til at overføre transaktioner til partnerne, fordi [!INCLUDE[prod_short](includes/prod_short.md)] ikke har adgang til dit lokale netværk. Hvis du vælger **Filplacering** i feltet **Overførselstype**, er feltet **Mappesti** ikke tilgængeligt. I stedet bliver filen downloadet til mappen Overførsler på din computer. Derefter kan du sende filen til en person i partnervirksomheden, f.eks. via mail. Hvis du vil have en mere direkte proces, anbefales du at vælge **Mail** i stedet.
+
+> [!NOTE]
+> Når du har aktiveret funktionen til **automatisk accept af transaktioner** på siden **Intercompany-bogføring**, vises der en [!INCLUDE[prod_short](includes/prod_short.md)]-meddelelse om købsfakturaer, der duplikerer den oprindelige købsordre. Det er derfor vigtigt at have en forretningsproces til håndtering af dubletter. F.eks. ved at slette disse købsordrer, når købsfakturaen modtages fra IC-partneren.
+
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Sådan konfigureres koncerninterne kreditorer og koncerninterne debitorer
 

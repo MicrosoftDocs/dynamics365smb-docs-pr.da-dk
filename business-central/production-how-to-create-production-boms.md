@@ -3,21 +3,25 @@ title: Oprette produktionsstyklister
 description: Få mere at vide om, hvordan du opretter en produktionsstykliste, nye versioner af en produktionsstykliste, og hvordan mængde beregningsformlen bruges.
 author: bholtorf
 ms.topic: conceptual
-ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
+ms.search.keywords: production bom, bills of material,
+ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 07563e285e6806a1a2010446d4da65fd52c9ed16
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ec8d20ac3f6e6e02471a9f86f35aee8c551df801
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516896"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607819"
 ---
 # <a name="create-production-boms"></a>Oprette produktionsstyklister
 
 En produktionsstykliste indeholder masterdata, som beskriver de komponenter og halvfabrikata, som anvendes til fremstilling af en overordnet vare. Så snart der oprettes en produktionsordre for den overordnede vare, bestemmer dens produktionsstykliste beregningen af materialebehov, som repræsenteret på siden **Prod.ordrekomponenter**.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] understøtter også montagestyklister. Du kan bruge montageordrer til at oprette slutvarer fra komponenter i en enkel proces, der kan udføres af en eller flere grundlæggende ressourcer, som ikke er produktions- eller arbejdscentre, eller uden nogen ressourcer. En montageproces kunne f.eks. være at plukke to vinflasker og én kaffesæk og pakke dem som en gave. Du kan finde flere oplysninger i [Montagestykliste eller produktionsstyklister](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
+
+> [!TIP]
+> Appen **Contoso Coffee-demodata** omfatter demonstrationsprodukter til en række forskellige produktionsstyklistescenarier, der kan bruges i et testmiljø, inklusive en prøveversion. Få mere at vide om, hvordan du konfigurerer kaffe data for contoso og finder gennemgange i forskellige scenarier på [Introduktion til Contoso Coffee-demodata](/contoso-coffee/contoso-coffee-intro.md).
 
 Før du kan oprette en rute, skal følgende betingelser være opfyldt:  
 
@@ -34,7 +38,7 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
     Udfyld linjerne i produktionsstyklisten.
 5. Vælg, om varen på denne produktionsstyklistelinje er en almindelig vare eller en produktionsstykliste, i feltet **Type**. Hvis varen på linjen er en produktionsstykliste, skal den findes i forvejen som en godkendt produktionsstykliste.  
 6. I feltet **Nummer** skal du søge efter og vælge den pågældende vare eller produktionsstykliste, eller du skal skrive den i feltet.  
-7. Angiv, hvor mange enheder af varen, der indgår i den overordnede vare, f.eks. fire hjul til en bil, i feltet **Antal pr**.  
+7. Angiv, hvor mange enheder af varen, der indgår i den overordnede vare, f.eks. 4 hjul til 1 bil, i feltet **Antal pr**.  
 8. Angiv en fast procentdel af komponenterne, der går til spilde under produktionen, i feltet **Spildpct**. Når komponenterne er klar til forbrug i en frigivet produktionsordre, lægges denne procentdel til det forventede antal i feltet **Forbrugsantal** i en produktionskladde. Du kan finde flere oplysninger i [Registrere forbrug og afgang](production-how-to-register-consumption-and-output.md).  
 
     > [!NOTE]  
@@ -48,7 +52,7 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Hvis du vil genberegne varens standardkostpris fra varekortet, skal du vælge handlingen **Produktion** og derefter vælge handlingen **Beregn standardkostpris**.  
 
-## <a name="to-create-a-new-versions-of-a-production-bom"></a>Sådan oprettes en ny version af en produktionsstykliste
+## <a name="to-create-a-new-version-of-a-production-bom"></a>Sådan oprettes en ny version af en produktionsstykliste
 
 Nye versioner af produktionsstyklister anvendes, når f.eks. en vare erstattes af en anden vare, eller når en kunde bestiller en speciel version af et produkt. Versionsprincippet gør det muligt at administrere flere versioner af en produktionsstykliste. Ruteversionens struktur svarer til rutens struktur. Forskellen ligger i versionernes tidsmæssige gyldighed. Gyldigheden bestemmes af startdatoen.  
 
@@ -96,13 +100,16 @@ I en produktionsstykliste skal der anvendes 70 metaldele med dimensionerne læng
 
 ## <a name="see-also"></a>Se også
 
-[Oprette ruter](production-how-to-create-routings.md)   
+[Oprette ruter](production-how-to-create-routings.md)  
+[Administrere produktvarianter](inventory-item-variants.md)  
+[Gennemgang: Varianter](/contoso-coffee/variants.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  
-[Produktion](production-manage-manufacturing.md)    
-[Planlægning](production-planning.md)   
+[Produktion](production-manage-manufacturing.md)  
+[Skabelon](production-planning.md)  
+[Arbejde med styklister](inventory-how-work-BOMs.md)  
+[Arbejde med montagestyklister](assembly-how-work-assembly-boms.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

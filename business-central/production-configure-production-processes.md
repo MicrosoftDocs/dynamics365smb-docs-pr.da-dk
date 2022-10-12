@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000768, 99000779, 99000780, 99000866
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 45fec99ad6082f8d0bb7258415477df833712b41
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0ae567c2ac44c1b8b272b7a7f2ed1e9ba4826b60
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523315"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605761"
 ---
 # <a name="setting-up-manufacturing"></a>Konfigurere produktion
 
@@ -24,9 +24,7 @@ Operatører og maskiner repræsenteres i systemet af produktionsressourcer, der 
 
 Når du har defineret en produktion, kan du planlægge og udføre produktionsordrer. Du kan finde flere oplysninger i [Planlægning](production-planning.md) og [Produktion](production-manage-manufacturing.md).  
 
-
-
- Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
@@ -42,11 +40,11 @@ Når du har defineret en produktion, kan du planlægge og udføre produktionsord
 |Forbered arbejdscentre og ruter til at repræsentere underleverandørens produktionsoperationer.|[Produktion hos underleverandør](production-how-to-subcontract-manufacturing.md)|  
 
 ## <a name="see-also"></a>Se også
-[Produktions-](production-manage-manufacturing.md)
-[planlægning](production-planning.md)   
+
+[Produktion](production-manage-manufacturing.md)  
+[Skabelon](production-planning.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Køb](purchasing-manage-purchasing.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

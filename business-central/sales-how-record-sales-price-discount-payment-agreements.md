@@ -11,17 +11,17 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 7705acac2b2c53bea96fee0431cb83702e46b0c6
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: ed59e73dce1847e2edb02def981abdf869a275d9
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529591"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606139"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrere specialsalgspriser og -rabatter
 
 > [!NOTE]
-> I 2020 udgivelsesbølge 2 har vi introduceret nye, strømlinede processer til opsætning og administration af priser og rabatter. Hvis du er ny kunde, der bruger den nyeste version, bruger du den nye oplevelse. Hvis du allerede bruger den nye oplevelse, afhænger det af, om din administrator har aktiveret funktionsopdateringen **Ny vareprissætningsopdatering** i **Funktionsadministration**. Du kan finde flere oplysninger i [Aktivere Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> I 2020 udgivelsesbølge 2 har vi introduceret nye, strømlinede processer til opsætning og administration af priser og rabatter. Hvis du er ny kunde, der bruger den nyeste version, bruger du den nye oplevelse. Hvis du allerede bruger den nye oplevelse, afhænger det af, om din administrator har aktiveret funktionsopdateringen **Ny vareprissætningsopdatering** i **Funktionsadministration**. Flere oplysninger i [Aktivering af Ahead og Time-funktioner](/dynamics365/business-central/dev-itpro/administration/feature-management) i administrationsindholdet.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] understøtter forskellige pris strategier, f. eks.:
 
@@ -37,7 +37,7 @@ Hvis du vil bruge en grundlæggende prissætningsmodel, skal du kun angive en sa
 * Min. antal
 * Datoer, der definerer den periode, som priserne gælder for.
 
-Når du har konfigurere specielle priser, kan [!INCLUDE[prod_short](includes/prod_short.md)] beregne den bedste pris på salgs-og købsdokumenter og på sags-og varekladdelinjer. Du kan finde flere oplysninger i [Beregne bedste pris](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Når du har konfigurere specielle priser, kan [!INCLUDE[prod_short](includes/prod_short.md)] beregne den bedste pris på salgs-og købsdokumenter og på sags-og varekladdelinjer. Flere oplysninger i [Bedste prisberegning](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Du kan konfigurere to typer til salgsrabat:
 
@@ -61,7 +61,7 @@ Disse trin varierer, afhængigt af, om din administrator har slået funktionsopd
 
 #### <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience/)  
 
-Som standard er status for nye prislister Kladde. Kladdeprislister medtages ikke i prisberegninger. Når du er færdig med at tilføje linjer, og du vil starte med at bruge priserne, kan du ændre status til aktiv.
+Som standard er status for nye prislister **Kladde**. Kladdeprislister medtages ikke i prisberegninger. Når du er færdig med at tilføje linjer, og du vil starte med at bruge priserne, kan du ændre status til **Aktiv**.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kunder**, og vælg derefter det relaterede link.
 2. Vælg debitor, og vælg derefter handlingen **Salgsprislister**. 
@@ -76,14 +76,16 @@ Som standard er status for nye prislister Kladde. Kladdeprislister medtages ikke
 ---
 
 ## <a name="using-sales-and-purchase-price-lists"></a>Bruge salgs-og købsprislister
+
 > [!NOTE]
-> Hvis du bruger prislister, kræver det, at administratoren har aktiveret funktionsopdatering **Ny salgspriserfaring** i **Funktionsstyring**. Du kan finde flere oplysninger i [Aktivere Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> Hvis du bruger prislister, kræver det, at administratoren har aktiveret funktionsopdatering **Ny salgspriserfaring** i **Funktionsstyring**. Flere oplysninger i [Aktivering af Ahead og Time-funktioner](/dynamics365/business-central/dev-itpro/administration/feature-management) i administrationsindholdet.
 
 De fleste nye salgspriserfaringer svarer til den aktuelle oplevelse, men der er nogle få forskelle. Disse forskelle beskrives i de følgende afsnit.
 
 Felterne **Gælder for type** og **Gælder for nr.** felterne, hvor du kan vælge, hvad en prisliste skal gælde for, f.eks. debitor eller debitorprisgruppe. Du kan bruge **Vis kolonner til** for at vise eller skjule kolonner, der er relevante for priser, rabatter eller priser og rabatter.
 
 ### <a name="converting-existing-prices-when-you-turn-on-the-pricing-feature-update"></a>Konvertering af eksisterende priser, når du aktiverer opdatering af prissætningsfunktionen
+
 Når du aktiverer funktionsopdateringen **Ny salgsprisoplevelse** på siden **Funktionsstyring**, åbnes vejledningen **Funktionsopdatering**. Brug **Brug standardpriser** til at skifte mellem følgende:
 
 * Hvis du vil arbejde med alle priser på en enkelt side, skal du aktivere den. Eksisterende priser konverteres til én standardprisliste for hver af følgende dokumenter:
@@ -96,7 +98,7 @@ Når du aktiverer funktionsopdateringen **Ny salgsprisoplevelse** på siden **Fu
     Du kan redigere alle priser for disse områder på siden **Priskladde**. Standardprislisterne angives i siderne **Konfiguration af salgsopsætning**, **Konfiguration af købsopsætning** og **Sagsopsætning**. 
 
 > [!NOTE]
-> Hvis der kun er angivet priser på vare-eller ressourcekort, vil standard prislisterne ikke blive udfyldt med disse priser under dataopdateringen. Du kan dog åbne en af standard prislisterne eller siden pris kladde og bruge handlingen **Foreslå linjer** til at tilføje de priser, der er angivet på vare-eller ressourcekortene. 
+> Hvis der kun er angivet priser på vare-eller ressourcekort, vil standard prislisterne ikke blive udfyldt med disse priser under dataopdateringen. Du kan dog åbne en af standardprislisterne eller siden **Priskladde** og bruge handlingen **Foreslå linjer** til at tilføje de priser, der er angivet på vare-eller ressourcekortene.
 
 * Hvis du vil bruge salgspris lister, skal du slå den fra. Eksisterende priser konverteres til en ny prisliste for hver af følgende kombinationer af følgende: 
 
@@ -110,18 +112,47 @@ Hvis du har mange kombinationer, har du mange prislister.
 Hvis du allerede har aktiveret den nye prissætningsoplevelse, kan du oprette prislister manuelt eller angive en eksisterende prisliste som standard. Hvis du vil angive en eksisterende prisliste som standard, skal du aktivere funktionen **Tillad opdatering af standarder** på prislisten. Standardprislisterne angives på siderne **Konfiguration af salgsopsætning**, **Konfiguration af købsopsætning** eller **Sagsopsætning**.
 
 ### <a name="editing-active-price-lists"></a>Redigere aktive prislister
-Hvis du vil give brugere tilladelse til at redigere priser på aktive prislister for varer, ressourcer, debitorer, kreditorer eller andre enheder, der bruger priser, skal du aktivere funktionen til/fra til **Tillad redigering af aktiv pris** på siderne **Salgsopsætning** og **Købsopsætning**.   
+
+Hvis du vil give brugere tilladelse til at redigere priser på aktive prislister for varer, ressourcer, debitorer, kreditorer eller andre enheder, der bruger priser, skal du aktivere funktionen til/fra til **Tillad redigering af aktiv pris** på siderne **Salgsopsætning** og **Købsopsætning**.
 
 Når funktionen **Tillad redigering af aktiv pris** er deaktiveret, skal du ændre prislistens status til **Kladde**, foretage ændringerne og derefter aktivere prislisten igen, hvis du vil opdatere priser på en prisliste.
 
-Siden **Prisoversigt** indeholder en oversigt over alle priser på prislister. Du kan angive filtre for at begrænse listen over de priser, du kan ændre eller tilføje i. Når du har ændret priserne, skal du bruge handlingen **Kontroller linjer** for at kontrollere priserne mod andre prislistelinjer. Ved at kontrollere priserne undgår du dubletter og flertydighed under prisberegningen. 
+Siden **Prisoversigt** indeholder en oversigt over alle priser på prislister. Du kan angive filtre for at begrænse listen over de priser, du kan ændre eller tilføje i. Når du har ændret priserne, skal du bruge handlingen **Kontroller linjer** for at kontrollere priserne mod andre prislistelinjer. Ved at kontrollere priserne undgår du dubletter og flertydighed under prisberegningen.
 
 > [!NOTE]
-> Når du redigerer en linje i en aktiv prisliste, bliver linjens status kladde, og linjen vil ikke blive medtaget i prisberegninger, før du bruger handlingen til **Bekræft linjer**. Når du har kontrolleret prisen, bliver linjens status aktiv, og den bruges i prisberegninger.
+> Når du redigerer en linje i en aktiv prisliste, bliver linjens status **Kladde**, og linjen vil ikke blive medtaget i prisberegninger, før du bruger handlingen til **Bekræft linjer**. Når du har kontrolleret prisen, bliver linjens status **Aktiv**, og den bruges i prisberegninger.
 
 Hvis du vil tilføje nye priser, skal du bruge handlingen **Tilføj nye linjer** på siden **Prisoversigt**. Siden **Priskladde** åbnes, og du kan tilføje pris linjer enten ved at foreslå dem på basis af kriterier, kopiere dem fra andre prislister eller manuelt angive dem. Derefter kan du bruge handlingen **Implementer prisændring** til at sammenligne de nye priser med andre prislister for at undgå dubletter og flertydighed under prisberegningen.
 
+#### <a name="create-sales-price-lines-based-on-the-unit-price"></a>Oprette salgsprislinjer ud fra salgspris
+
+1. På siden **Pengestrømskladde** skal du vælge handlingen **Foreslå kladdelinjer**.
+2. På siden **Prislinjer - Opret ny** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. I feltet **produktfilter** skal du angive filtre for den valgte **produkttype**.
+4. Vælg feltet **Standarder** for at angive indstillinger som f. eks.:
+   * Hvilke enheder prislisten tildeles til.
+   * Datoer, hvor prisen er gyldig.
+   * Valutakode.
+   * Det beløbstypefilter, der definerer de kolonner, som vises i prislistelinjerne.
+5. Vælg **OK**. Nye linjer føjes til **priskladde**-siden med de valgte indstillinger og salgspriserne fra varekortene.
+6. Rediger de oprettede linjer med de nye salgspriser eller rabatter. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+#### <a name="create-sales-price-lines-based-on-existing-price-lists"></a>Oprette salgsprislinjer ud fra eksisterende prislister
+
+1. På siden **Pengestrømskladde** skal du vælge handlingen **Kopier linjer**.
+2. På siden **Prislinjer - kopier eksisterende** skal du vælge en eksisterende prisliste i feltet **Fra prisliste**.
+3. Angiv filtre for produkterne på den valgte prisliste i feltet **Prislinjefilter**.
+4. Vælg feltet **Standarder** for at angive indstillinger som f. eks.:
+   * Hvilke enheder prislisten tildeles til.
+   * Datoer, hvor prisen er gyldig.
+   * Valutakode.
+   * Det beløbstypefilter, der definerer de kolonner, som vises i prislistelinjerne.
+5. Udfyld de resterende felter efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Vælg **OK**. Nye linjer føjes til **Priskladde**-siden med de valgte indstillinger.
+7. Rediger de oprettede linjer med de nye salgspriser eller rabatter. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
 ## <a name="to-copy-sales-prices"></a>Sådan kopieres salgspriser
+
 Disse trin varierer, afhængigt af, om din administrator har slået funktionsopdateringen **Ny vareprissætningsopdatering** til. Hvis funktionsopdateringen ikke er aktiveret, skal du følge fremgangsmåden under fanen Aktuel oplevelse.
 
 #### <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience/)  
@@ -139,6 +170,7 @@ Hvis du vil kopiere en salgspris, f.eks. en individuel kundes salgspriser til br
    > Kørslen betyder kun, at der udformes forslag, ikke, at ændringerne bliver gennemført. Hvis du er tilfreds med forslagene, og du vil implementere dem, dvs. indsætte dem på siden **Salgspriser**, skal du vælge handlingen **Implementer prisændringer** på siden **Salgspriskladde**.
 
 #### <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience/)  
+
 Du kan angive, om den nye prisliste skal bruge indstillingerne fra hovedet på den liste, du kopierer, eller indstillingerne fra den nye liste, du vil kopiere til. Hvis du vil bruge indstillingerne fra den prisliste, du kopierer priser til, skal du aktivere funktionen **Brug standarder fra destination** til/fra.
 
 1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsprislister**, og vælg derefter det relaterede link. 
@@ -151,6 +183,7 @@ Du kan angive, om den nye prisliste skal bruge indstillingerne fra hovedet på d
 ---
 
 ## <a name="to-bulk-update-item-prices"></a>Sådan masseopdateres varepriser
+
 Disse trin varierer, afhængigt af, om din administrator har slået funktionsopdateringen **Ny vareprissætningsopdatering** til. Hvis funktionsopdateringen ikke er aktiveret, skal du følge fremgangsmåden under fanen Aktuel oplevelse.
 
 #### <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience/)
@@ -228,6 +261,7 @@ Du finder flere øvelser i rabatter under [Konfiguration af rabatter til dine ku
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Sådan konfigureres salgslinjerabatter for en debitor
+
 Disse trin varierer, afhængigt af, om din administrator har slået funktionsopdateringen **Ny vareprissætningsopdatering** til. Hvis funktionsopdateringen ikke er aktiveret, skal du følge fremgangsmåden under fanen Aktuel oplevelse.
 
 #### <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience/)  
@@ -239,7 +273,7 @@ Disse trin varierer, afhængigt af, om din administrator har slået funktionsopd
 > [!NOTE]
 > Når du åbner siderne **Salgspriser** og **Salgslinjerabatter** fra en bestemt kunde, er felterne **Salgstypefilter** og **Salgskodefilter** er angivet for debitoren og kan ikke ændres eller fjernes.
 >
-> Hvis du vil oprette priser eller linjerabatter for alle debitorer, en debitorprisgruppe eller en kampagne, skal du åbne siderne fra et varekort. Du kan alternativt bruge siden **Salgspriskladde** til salgspriser. Du kan finde flere oplysninger [Sådan masseopdateres varepriser](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
+> Hvis du vil oprette priser eller linjerabatter for alle debitorer, en debitorprisgruppe eller en kampagne, skal du åbne siderne fra et varekort. Du kan alternativt bruge siden **Salgspriskladde** til salgspriser. Flere oplysninger i [Sådan masseopdateres varepriser](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
 #### <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience/)  
 
@@ -259,11 +293,12 @@ Disse trin varierer, afhængigt af, om din administrator har slået funktionsopd
 ---
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Sådan oprettes en fakturarabat for en debitor
+
 Når du har besluttet, hvilke kunder der skal have fakturarabatter, skal du angive fakturarabatkoden på debitorkortene og definere betingelserne for hver kode. Angiv derefter betingelserne for hver kode.
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Kunder**, og vælg derefter det relaterede link.
 2. Åbn debitorkortsiden for en debitor, der kan ydes fakturarabat til.
-3. Vælg en kode i feltet **Fakturarabatkode** for de fakturarabatbetingelser, som skal bruges til automatisk beregning af fakturarabat til debitoren. <!--Looks like I can only choose customers in this list-->
+3. Vælg en kode i feltet **Fakturarabatkode** for de fakturarabatbetingelser, som skal bruges til automatisk beregning af fakturarabat til debitoren.
 
 > [!NOTE]  
 > Fakturarabatkoder repræsenteres af eksisterende debitorkort. Det gør det muligt hurtigt at tildele betingelserne for fakturarabatten til debitorer ved at vælge navnet på en anden debitor, der skal have samme betingelser.
@@ -284,7 +319,6 @@ Fortsæt med at angive nye fakturarabatbetingelser for salg.
 [Salg](sales-manage-sales.md)  
 [Konfigurere debitorprisgrupper](sales-how-to-set-up-customer-price-groups.md)  
 [Konfigurere debitorrabatgrupper](sales-how-to-set-up-customer-discount-groups.md)  
-[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

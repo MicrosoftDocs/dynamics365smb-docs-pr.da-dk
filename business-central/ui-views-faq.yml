@@ -8,14 +8,14 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: list, filter, pane, views
-  ms.date: 06/24/2021
+  ms.date: 08/09/2022
   ms.author: mikebc
-  ms.openlocfilehash: 6140dd6e114a8967a4e20196feb88e25fbd06bb1
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: ff5b79e1aeb7954712dc624cef9a6bbaf486279f
+  ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
   ms.translationtype: HT
   ms.contentlocale: da-DK
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8144589"
+  ms.lasthandoff: 09/30/2022
+  ms.locfileid: "9607630"
 title: Ofte stillede spørgsmål om listevisninger
 summary: I dette emne besvares spørgsmål, som vores erfarne brugere ofte stiller om, hvordan de kan arbejde med listevisninger og gemme filtre.
 sections:
@@ -35,7 +35,7 @@ sections:
       Der er en par årsager til, at du ikke kan se menuen Gem ikon og indstillinger ved siden af visninger i filterruden.
 
 
-      En årsag kan være, at tilpasning ikke er aktiveret for din brugerrolle. I dette tilfælde har du stadig Access-systemvisninger, som er standarddele af siderne. Du kan ændre disse visninger, f.eks. ændre eller tilføje filtre. Du kan ikke gemme ændringerne. En anden årsag kan være, at den side, du ser på, er en side med en *projektmappe*-typeside&mdash;ikke en liste.
+      En årsag kan være, at tilpasning ikke er aktiveret for din brugerrolle. I dette tilfælde har du stadig adgang til systemvisninger, som er standarddele af siderne. Du kan ændre disse visninger, f.eks. ændre eller tilføje filtre. Du kan ikke gemme ændringerne. En anden årsag kan være, at den side, du ser på, er en side med en *projektmappe*-typeside&mdash;ikke en liste.
   - question: >
       På hvilke sidetyper kan jeg bruge listevisninger?
     answer: >
@@ -47,7 +47,7 @@ sections:
   - question: >
       Er visninger også tilgængelige på andre formfaktorer?
     answer: >
-      Ja. Alle de visninger, du gemmer i browseren eller skrivebordsappen, vil også være tilgængelige på din tablet eller smartphone. Du kan ikke ændre eller tilpasse visninger på mobilenheder.
+      Ja. Alle de visninger, du gemmer i browseren eller skrivebordsappen, vil også være tilgængelige på din tablet, smartphone eller hvis integreret i Microsoft Teams. Du kan ikke ændre eller tilpasse visninger på mobilenheder.
   - question: >
       Er mine personlige visninger altid tilgængelige?
     answer: >
@@ -63,7 +63,7 @@ sections:
   - question: >
       Hvordan kan jeg dele mine visninger med andre?
     answer: >
-      [!INCLUDE[prod_short](includes/prod_short.md)] gør det ikke muligt at dele den nøjagtige listevisning. Men du kan dele dine aktuelle filtre, så andre brugere kan se en tilsvarende liste over poster. Du skal blot kopiere URL-adressen og dele den med dine kolleger i desktop-browseren. Ved deling af filtre kan det ikke garanteres, at modtageren får et sæt filtre, der er identisk med dem, du kan se i browseren.
+      [!INCLUDE[prod_short](includes/prod_short.md)] gør det ikke muligt at dele den nøjagtige listevisning. Men du kan dele dine aktuelle filtre, så andre brugere kan se en tilsvarende liste over poster. Vælg en visning i Business central-webklienten for at bruge funktionen **Kopier link** til at kopiere URL-adressen til Udklipsholder. kopier blot URL-adressen og del den med dine kolleger i desktop-browseren. Ved deling af filtre kan det ikke garanteres, at modtageren får et sæt filtre, der er identisk med dem, du kan se i browseren.
   - question: >
       Kan jeg søge efter visninger i vinduet Fortæl mig?
     answer: >
@@ -88,17 +88,9 @@ sections:
       De visninger, du kan se på en liste, er en kombination af dine personlige visninger og systemvisninger. Systemvisninger kan stamme fra forretningsprogrammet, fra udvidelser eller kan være rollespecifikke, hvis listen er tilpasset til din rolle.
   - question: >
       Hvorfor har nogle visninger færre indstillinger?
-    answer: >
-      Nogle visninger giver kun mulighed for at gemme en kopi af visningen, mens det i andre tilfælde ikke er muligt at gemme ændringer af visningen. Den måde, visningen er oprettet på, bestemmer de indstillinger, der er tilgængelige for den pågældende visning. Visninger kan oprettes på flere måder:
-
-
-      - Personlige visninger, du har gemt
-
-      - Systemvisninger, som er en standarddel af forretningsprogrammet, eller som er tilføjet af udvidelser eller rollespecifikke visninger. I modsætning til personlige visninger kan du ikke gemme ændringer af filtre i den pågældende systemvisning.
-
-      - Ældre systemvisninger, som er en standarddel af forretningsprogrammet, men som er oprettet med ældre versioner af [!INCLUDE[prod_short](includes/prod_short.md)]. Disse visninger giver færre valgmuligheder. Du kan kun gemme dem som en ny visning og kan ikke skjule dem eller ændre rækkefølgen for dem. Ældre systemvisninger bliver udeladt i en fremtidig opdatering af [!INCLUDE[prod_short](includes/prod_short.md)].
+    answer: "Nogle visninger giver kun mulighed for at gemme en kopi af visningen, mens det i andre tilfælde ikke er muligt at gemme ændringer af visningen. Den måde, visningen er oprettet på, bestemmer de indstillinger, der er tilgængelige for den pågældende visning. Visninger kan oprettes på flere måder:\n\n- Personlige visninger, du har gemt\n- Systemvisninger, som er en standarddel af forretningsprogrammet, eller som er tilføjet af udvidelser eller rollespecifikke visninger. I modsætning til personlige visninger kan du ikke gemme ændringer af filtre i den pågældende systemvisning.\n- Ældre systemvisninger, som er en standarddel af forretningsprogrammet, men som er oprettet med ældre versioner af [!INCLUDE[prod_short](includes/prod_short.md)]. Disse visninger giver færre valgmuligheder. Du kan kun gemme dem som en ny visning og kan ikke skjule dem eller ændre rækkefølgen for dem. Ældre systemvisninger bliver udeladt i en fremtidig opdatering af [!INCLUDE[prod_short](includes/prod_short.md)].\n\n> [!NOTE]\n> Fra og med Business central 2023 udgivelsesbølge 2 understøttes ældre visninger ikke længere, og de vil ikke blive vist på listesiden. Lær tekniske detaljer om, hvordan udviklere kan overflytte til moderne listevisninger ved at [overflytte fra ældre visninger til moderne visninger](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). \n"
   - question: >
-      Hvordan kan jeg konvertere ældre systemvisninger?
+      Hvordan får jeg tidligere begrænsninger fra ældre systemvisninger?
     answer: >
       Ældre systemvisninger er listevisninger, der er oprettet af udviklere i ældre versioner af [!INCLUDE[prod_short](includes/prod_short.md)] ved at placere dem på rollecentersiden. Disse visninger vises nu direkte på listesiden, men giver en forringet oplevelse og færre muligheder. Du kan konvertere en ældre systemvisning til en personlig visning, som kan tilpasses, ved at gemme den gamle visning som en ny visning. På samme måde kan administratorer vælge at konvertere rollespecifikke ældre systemvisninger ved at tilpasse brugerrollen og gemme den ældre visning som en ny rollespecifik visning.
 

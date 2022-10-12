@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: b8c09f49b741f7979f79f5e3305ef11258ffaaea
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 0a8d8f32613af2c0aab6905f62682e3c93307993
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530914"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617816"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbejde moms af salg og køb
 Hvis dit land eller område kræver, at du beregner moms på salgs-og købstransaktioner, kan du konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til at beregne moms. Du kan finde flere oplysninger i [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md).
@@ -61,6 +61,18 @@ Afhængigt af hvad du vil gøre, kan du knytte en momsvirksomhedsbogføringsgrup
 
 #### <a name="examples"></a>Eksempler
 Faktorer som det land eller område, du sælger i, eller den type brancher, du sælger til, kan påvirke det momsbeløb, du skal redegøre for. F. eks. kan en restaurant opkræve 6 % moms af måltider, der er Eaten internt og 17 % for takeaway. For at opnå dette skal du oprette en momsvirksomhedsbogføringsgruppe (salgspris) for internt og en til takeaway.
+
+## <a name="working-with-vat-date"></a>Arbejde med momsdato
+### <a name="vat-date-in-documents"></a>Momsdato i dokumenter
+Når du opretter nye salgs-eller købsdokumenter, bliver **momsdatoen** baseret på indstillingen i feltet **standardmomsdato** på siden **Regnskabsopsætning**. Denne standardværdi kan være den samme som **Bogføringsdato** eller **Bilagsdato**. Hvis du har brug for en anden moms dato, kan du ændre værdien i feltet **momsdato** manuelt. Når du bogfører dokumentet, vises **momsdatoen** på bogførings dokumentet og på moms-og finansposterne.
+
+### <a name="correcting-vat-date-in-posted-entries"></a>Rette momsdato i bogførte poster
+I nogle tilfælde er det nødvendigt at ændre momsdatoen, selvom dokumentet er blevet bogført, og det er muligt at gøre i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ændre **momsdatoen** for bogførte bilag, skal du følge disse trin:
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **VAT-poster**, og vælg derefter det relaterede link.
+2. Find posten med en forkert momsdato.
+3. Klik på **Rediger liste**-handling, og indtast den korrekte dato i feltet **momsdato**.
+4. Luk siden.
+5. Den nye momsdato bliver ændret i relaterede **finansposter**, og i det bogførte dokument.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Manuel korrektion af momsbeløb i salgs- og købsdokumenter  
 Du kan foretage rettelser i bogførte momsposter, så du kan ændre beløbene for den samlede salgs- eller købsmoms uden at ændre momsbasen. Hvis du f. eks. modtager en faktura fra en kreditor med et forkert momsbeløb.  
@@ -128,7 +140,7 @@ I stedet for at bruge kladder, når du bogfører en faktura med importmoms, kan 
 Når du sælger varer til en kunde i et andet EU-land/-område, skal du tilsende kunden et leveringscertifikat, som kunden skal underskrive og returnere til dig. Der er følgende procedurer for behandling af leveringscertifikater for salgsleverancer, men de samme trin gælder for serviceleverancer af varer og returvareleverancer til kreditorer.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Sådan får du vist leveringscertifikatdetaljer  
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte salgskvitteringer**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte salgskvitteringer**, og vælg derefter det relaterede link.  
 2. Vælg den relevante salgsleverance til en kunde i et andet EU-land/-område.  
 3. Vælg **Leveringscertifikatdetaljer**.  
 4. Som standard, hvis afkrydsningsfeltet **Leveringscertifikat påkrævet** er markeret for opsætningen af momsbogføringsgruppen for kunden, er feltet **Status** indstillet til **Påkrævet**. Du kan opdatere feltet for at angive, om kunden har returneret certifikatet.  

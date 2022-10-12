@@ -1,6 +1,6 @@
 ---
 title: Konfiguration af printere
-description: Få mere at vide om at installere printere, som du kan bruge til rapporter og dokumenter, og de forskellige udskriftsfunktioner, der er tilgængelige i Business central.
+description: Få mere at vide om at installere printere, som du kan bruge til rapporter og dokumenter, og de forskellige udskriftsfunktioner i Business central.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -8,18 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900,
-ms.date: 06/24/2021
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: c1b55f213ad738deb03a5f13afccbc8f4bac10b2
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.openlocfilehash: 07cda9c796a08436dc48d623f64fcc1252305a14
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585698"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607738"
 ---
 # <a name="set-up-printers"></a>Installation af printere
 
-Udskrivning af dokumenter og rapporter fra [!INCLUDE[prod_short](includes/prod_short.md)] er en vigtig opgave for virksomhedsbrugere. Brugere vil typisk sende udskriftsjob direkte til en af organisationens printere&mdash;uanset hvilken [!INCLUDE[prod_short](includes/prod_short.md)]-klient eller -app de bruger. Da [!INCLUDE[prod_short](includes/prod_short.md)] Online er en skytjeneste, kan den ikke nå direkte ud til lokale printere, der er tilsluttet brugernes enheder, men den kan oprette forbindelse til skyaktiverede printere.
+Udskrivning af dokumenter og rapporter fra [!INCLUDE[prod_short](includes/prod_short.md)] er en vigtig opgave for virksomhedsbrugere. Du vil typisk sende udskriftsjob direkte til en af organisationens printere - uanset hvilken [!INCLUDE[prod_short](includes/prod_short.md)]-klient eller -app de bruger. Da [!INCLUDE[prod_short](includes/prod_short.md)] Online er en skytjeneste, kan den ikke nå direkte ud til lokale printere, der er tilsluttet brugernes enheder, men den kan oprette forbindelse til skyaktiverede printere.
 
 For at understøtte dine udskrivningsbehov tilbyder [!INCLUDE[prod_short](includes/prod_short.md)] følgende funktioner:
 
@@ -30,7 +30,7 @@ For at understøtte dine udskrivningsbehov tilbyder [!INCLUDE[prod_short](includ
 |Browserudskrivning|Udskriftsjob håndteres af udskrivningsfunktionen i brugerens browser. Hvis der ikke er installeret og konfigureret en cloudprinter, eller hvis der opstår fejl på en installeret printer, vil udskrivningen som standard benytte browserens udskriftsindstillinger. Feltet **Printer** på rapportanmodningssiden viser *(Håndteres af browseren)*.|![arbejder online](media/check.png)|||
 
 > [!NOTE]
-> [!INCLUDE[prod_short](includes/prod_short.md)] understøtter også brugerdefinerede printerudvidelser, der tilføjer endnu flere udskrivningsfunktioner. Så hvis der er installeret brugerdefinerede printerudvidelser, kan du muligvis medtage udskrivningsfunktioner, der ikke er beskrevet i denne artikel. 
+> [!INCLUDE[prod_short](includes/prod_short.md)] understøtter andre brugerdefinerede printerudvidelser, der tilføjer endnu flere udskrivningsfunktioner. Så hvis der er installeret brugerdefinerede printerudvidelser, kan du muligvis medtage udskrivningsfunktioner, der ikke er beskrevet i denne artikel. 
 
 ## <a name="set-up-universal-print"></a>Konfiguration af Universaludskrivning
 
@@ -50,15 +50,16 @@ Den komplette konfiguration kræver, at du arbejder i både Microsoft Azure ved 
 
 **For [!INCLUDE[prod_short](includes/prod_short.md)]**
 
-- [!INCLUDE[prod_short](includes/prod_short.md)] 2021 udgivelsesbølge 1 eller nyere
-- Udvidelsen **Integration af Universaludskrivning** er installeret
+- [!INCLUDE[prod_short](includes/prod_short.md)] 2021 udgivelsesbølge 1 eller nyere.
+- Udvidelsen **Integration af Universaludskrivning** er installeret.
 
-    Denne udvidelse udgives og installeres som standard som en del af [!INCLUDE[prod_short](includes/prod_short.md)] online og i det lokale miljø.  Du kan kontrollere, om den er installeret på siden **Udvidelsesstyring**. Du kan finde flere oplysninger i [Installation og fjernelse af udvidelser i Business Central](ui-extensions-install-uninstall.md).
+    Denne udvidelse udgives og installeres som standard som en del af [!INCLUDE[prod_short](includes/prod_short.md)] online og i det lokale miljø. Du kan kontrollere, om den er installeret på siden **Udvidelsesstyring**. Få mere at vide om at [installere og fjerne udvidelser i Business Central](ui-extensions-install-uninstall.md).
+
 - [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø:
-  - Godkendelse af typen Azure Active Directory (AD) eller NavUserPassword er konfigureret
-  - Registrering som bruger af Business Central foregår i din Azure AD-lejer og [!INCLUDE[prod_short](includes/prod_short.md)]
+  - Godkendelse af typen Azure Active Directory (AD) eller NavUserPassword er konfigureret.
+  - Registrering som bruger af Business Central foregår i din Azure AD-lejer og [!INCLUDE[prod_short](includes/prod_short.md)].
 
-      Ligesom andre Azure-tjenester, der fungerer sammen med [!INCLUDE[prod_short](includes/prod_short.md)], kræver Universaludskrivning en appregistrering for [!INCLUDE[prod_short](includes/prod_short.md)] i Azure Active Directory (Azure AD). Appregistreringen leverer godkendelses- og autorisationstjenester mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Universaludskrivning.
+      Ligesom andre Azure-tjenester, der fungerer sammen med [!INCLUDE[prod_short](includes/prod_short.md)], kræver Universaludskrivning en appregistrering for [!INCLUDE[prod_short](includes/prod_short.md)] i Azure AD. Appregistreringen leverer godkendelses- og autorisationstjenester mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Universaludskrivning.
 
       Din installation bruger muligvis allerede en appregistrering for andre Azure-tjenester, f.eks. Power BI. Hvis det er tilfældet, skal du bruge den eksisterende appregistrering for Universaludskrivning i stedet for at tilføje en ny. Det eneste, du skal gøre, er i dette tilfælde at ændre appregistreringen, så den indeholder de relevante udskrivningstilladelser til Microsoft Graph API.
 
@@ -68,7 +69,7 @@ Den komplette konfiguration kræver, at du arbejder i både Microsoft Azure ved 
 
 - Et abonnement/en licens til Universaludskrivning for din organisation.
 
-    Du kan finde flere oplysninger i [Få licens til Universaludskrivning](/universal-print/fundamentals/universal-print-license).
+    Få mere at vide om [Universaludskrivning](/universal-print/fundamentals/universal-print-license).
 
 - Du har rollerne **Printerstyring** og **Global administrator** i Azure.
 
@@ -86,15 +87,15 @@ Du kan finde detaljerede instruktioner i konfigurationen i [Introduktion: Konfig
 
     - Med [!INCLUDE[prod_short](includes/prod_short.md)] Online tildeler du licenser gennem Microsoft 365 Administration.
 
-      Du kan finde flere oplysninger i [Hjælp til Microsoft Administration - Tildele licenser til brugere](/microsoft-365/admin/manage/assign-licenses-to-users).
+      Flere oplysninger i [Hjælp til Microsoft Administration - Tildele licenser til brugere](/microsoft-365/admin/manage/assign-licenses-to-users).
 
     - Med [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø tildeler du licenser i din Azure-lejer via Azure-portalen.
 
-      Du kan finde flere oplysninger i [Azure Directory – Tildele eller fjerne licenser på Azure Active Directory-portalen](/azure/active-directory/fundamentals/license-users-groups).
+      Flere oplysninger i [Azure Directory – Tildele eller fjerne licenser på Azure Active Directory-portalen](/azure/active-directory/fundamentals/license-users-groups).
 
 2. Installer connectoren for Universaludskrivning med henblik på registrering af printere, der ikke kan kommunikere direkte med Universaludskrivning.
 
-    De fleste printere på markedet kan ikke kommunikere direkte med Universaludskrivning. Du skal installere connectoren for Universaludskrivning for disse printere. Du kan finde flere oplysninger i [Installation af connectoren for Universaludskrivning](/universal-print/fundamentals/universal-print-connector-installation).
+    Installer connectoren for Universaludskrivning med henblik på registrering af printere, der ikke kan kommunikere direkte med Universaludskrivning. Flere oplysninger i [Installation af connectoren for Universaludskrivning](/universal-print/fundamentals/universal-print-connector-installation).
 
 3. Registrer dine printere i Universaludskrivning.
 
@@ -104,34 +105,34 @@ Du kan finde detaljerede instruktioner i konfigurationen i [Introduktion: Konfig
 
     - For andre printere skal du registrere printerne ved hjælp af connectoren for Universaludskrivning. 
 
-      Du kan finde flere oplysninger i [Printerregistrering](/universal-print/fundamentals/universal-print-connector-printer-registration).
+      Få mere at vide om [printerregistrering](/universal-print/fundamentals/universal-print-connector-printer-registration).
 
 4. Ændre printeregenskaber (valgfrit)
 
     Når en printer er registreret, kan du få vist og ændre printeregenskaberne, f.eks. standardindstillinger.
 
-    Du kan finde flere oplysninger i [Administrere printerindstillinger med den universelle udskrivningsportal](/universal-print/portal/configure-printer-settings).
+    Flere oplysninger i [Administrere printerindstillinger med den universelle udskrivningsportal](/universal-print/portal/configure-printer-settings).
 
 5. Del printerne.
 
     Alle printere, du vil bruge i [!INCLUDE[prod_short](includes/prod_short.md)], skal deles i Universaludskrivning.
 
-    <!--For more information, see [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
+    <!--Learn more at [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
 
-    Du kan finde flere oplysninger i [Dele en printer](/universal-print/portal/share-printers).
+    Få mere at vide om [Dele en printer](/universal-print/portal/share-printers).
 
 6. Giv brugere tilladelse til delte printere.
 
-    <!--For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
+    <!--Learn more at [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
 
-    Du kan finde flere oplysninger i [Printertilladelser](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
+    Få mere at vide om [printertilladelser](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
 
 
 7. Aktiver dokumentkonvertering.
 
     Universaludskrivning gengiver indholdet til udskrivning i XPS-format. Nogle ældre printere på markedet understøtter ikke gengivelse af XPS-indhold&mdash;og i mange tilfælde kun PDF-format. Udskrivning til disse printere vil mislykkes, medmindre Universaludskrivning er konfigureret til at konvertere dokumenter til printerens understøttede format.
 
-    Du kan finde flere oplysninger i [Oversigt over dokumentkonvertering](/universal-print/portal/document-conversion).
+    Flere oplysninger i [Dokumentkonverteringsoversigt](/universal-print/portal/document-conversion).
 
 Nu er du klar til at føje printerne til [!INCLUDE[prod_short](includes/prod_short.md)], konfigurere standardprintere for rapporter og udskrive.  
 
@@ -143,7 +144,7 @@ Tilføjelse af printere hver for sig gør det muligt installere den samme printe
   
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Printerstyring**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Printerstyring**, vælg derefter det relaterede link.
 2. Vælg **Universaludskrivning**, og vælg derefter en af følgende muligheder:
 
     - **Tilføj alle printere til Universaludskrivning** for at tilføje alle printere, som ikke allerede er tilføjet. Du kan bruge denne indstilling, selvom der allerede er tilføjet printere. 
@@ -183,9 +184,9 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 ## You don't have access to the printer
 
-- You have not been assigned a Up license
+- You have not been assigned an UP license
 - You have not been given access to the printer in UP.
-- (On-prem) The app registration has been broken
+- (On-premises) The app registration has been broken.
 -->
 ## <a name="set-up-email-print"></a>Konfigurere mailudskrift
 
@@ -194,16 +195,16 @@ There is a technical problem withe the printer. Unsupported document-format: app
 - [!INCLUDE[prod_short](includes/prod_short.md)] 2020 udgivelsesbølge 1 eller nyere
 - Udvidelsen **Send til mailprinter** er installeret
 
-    Denne udvidelse er installeret som standard. Du kan finde flere oplysninger om installation af udvidelser i 
+    Denne udvidelse er installeret som standard. Flere oplysninger om installation af udvidelser i<!--see what?--> 
 - Mailfunktionaliteten er konfigureret.
 
-   Du kan finde flere oplysninger i [Konfigurer mail](admin-how-setup-email.md).
+   Flere oplysninger i [Konfigurer e-mail](admin-how-setup-email.md).
 
-### <a name="add-an-email-printer"></a>Tilføje en mailprinter
+### <a name="add-an-email-printer"></a>Tilføj en mailprinter.
 
 På siden **Printerstyring** vises de printere, der er konfigurerede i øjeblikket. Siden giver dig også adgang til siden **Indstillinger** for hver printer, hvor du kan redigere en eksisterende konfiguration eller installere en ny printer.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Printerstyring**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Printerstyring**, vælg derefter det relaterede link.
 2. Vælg **Mailudskrift**, og vælg derefter **Tilføj en mailprinter**.
 3. Udfyld felterne på siden **Indstillinger for mailprinter** efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -216,8 +217,7 @@ På siden **Printerstyring** vises de printere, der er konfigurerede i øjeblikk
 
 Hvis du bruger udvidelsen Mailprinter, sendes alle eller nogle udskriftsjob til den mailadresse, der er konfigureret for printeren. Det anbefales på det kraftigste, at et entydigt mail-id kun knyttes til en printerenhed ved hjælp af hardwareproducentens officielle tjenester, f.eks. HP ePrint, KonicaMinolta EveryonePrint eller Epson Email Print.
 
-Træf alle nødvendige forholdsregler for at beskytte personlige oplysninger, herunder sikre, at mailudskriftsløsningen har korrekt konfigurerede tilladelser, indstillinger for beskyttelse af personlige oplysninger og opbevaringspolitikker. Det er dit ansvar at angive en korrekt, bekræftet og aktiv mailadresse. Du kan finde flere oplysninger i [Microsofts erklæring om beskyttelse af personlige oplysninger](https://privacy.microsoft.com/privacystatement).
-
+Træf alle nødvendige forholdsregler for at beskytte personlige oplysninger, herunder sikre, at mailudskriftsløsningen har korrekt konfigurerede tilladelser, indstillinger for beskyttelse af personlige oplysninger og opbevaringspolitikker. Det er dit ansvar at angive en korrekt, bekræftet og aktiv mailadresse. Få mere at vide om [Microsoft erklæring om beskyttelse af personlige oplysninger](https://privacy.microsoft.com/privacystatement).
 
 ## <a name="set-up-default-printers"></a><a name="default"></a>Konfiguration af standardprintere
 
@@ -227,7 +227,7 @@ Du kan konfigurere, hvilke printere der skal bruges som standard til udskriftsjo
 
 På siden **Printerstyring** kan du konfigurere en printer som standardprinter for alle udskriftsjob. Du kan kun angive printeren som standardprinter for dig eller for alle brugere.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Printerstyring**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Printerstyring**, vælg derefter det relaterede link.
 
     > [!TIP]
     > Du kan også åbne siden **Printerstyring** på siden **Printervalg** ved at vælge **Printerstyring**.  
@@ -243,21 +243,21 @@ På siden **Printervalg** kan du angive den printer, som en rapport skal bruge s
 > [!IMPORTANT]
 > For [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø kan siden **Printervalg** kun bruges til cloudprintere, der er defineret af printerudvidelser som f.eks. printere for Mailudskrift og Universaludskrivning. Den kan ikke bruges til lokale printere.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Printervalg**, og vælg derefter det relaterede link. Du kan i stedet vælge en printer på siden **Printerstyring** og derefter vælge handlingen **Printervalg**.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Printervalg**, og vælg derefter det relaterede link. Du kan også vælge en printer på siden **Printerstyring** og derefter vælge handlingen **Printervalg**.
 2. Vælg handlingen **Ny** for at tilføje et printervalg til en bestemt rapport.
 3. Udfyld felterne efter behov.
 
 Den angivne rapport er nu indstillet til at blive udskrevet på den valgte printer som standard.
 
 > [!NOTE]
-> Når du udskriver den pågældende rapport, kan du vælge en anden ved at bruge feltet **Udskriv** på anmodningssiden.
+> Når du udskriver den pågældende rapport, kan du vælge en anden ved at bruge feltet **Udskriv** på rapportanmodningssiden.
 
 > [!NOTE]
 > Hvis du ikke angiver en rapport for en bestemt printer på siden **Printervalg**, udskrives den på virksomhedens standardprinter i henhold til definitionen på siden **Printerstyring**.
 
 Du eller administratoren kan også bruge siden **Printervalg** til at angive andre variationer af udskrivningen for brugere og rapporter. I følgende tabel beskrives den kombination af værdier, som skal bruges til at angive forskellige printeropsætninger for en rapport.
 
-|Hvis du vil                                                 |Angiv følgende værdier                                             |
+|Til                                                 |Angiv følgende værdier                                             |
 |---------------------------------------------------|---------------------------------------------------------------------|
 |Udskriv en rapport til en bestemt printer for alle brugere |Angiv værdier i felterne **Rapport-id** og **Printernavn**, og lad feltet **Bruger-id** stå tomt.|
 |Udskriv alle rapport til en bestemt printer for en bestemt bruger|Angiv værdier i felterne **Bruger-id** og **Printernavn**, og lad feltet **Rapport-id** stå tomt. Denne post fungerer på samme måde som handlingen **Angiv som min standardprinter** på siden **Udskriftsstyring**.|
@@ -270,13 +270,13 @@ Du eller administratoren kan også bruge siden **Printervalg** til at angive and
 
 ### <a name="choosing-the-printer-when-running-a-report"></a>Vælge printeren, når en rapport køres
 
-I stedet for at bruge standardprinteren, når du kører en rapport, kan du tilsidesætte denne indstilling fra anmodningssiden. Du skal blot vælge den Wich printer, du vil bruge til denne aktivering af rapporten, i rullemenuen **Printer**.
+I stedet for at bruge standardprinteren, når du kører en rapport, kan du tilsidesætte denne indstilling fra anmodningssiden. Du skal blot vælge den printer, du vil bruge til denne aktivering af rapporten, i rullemenuen **Printer**.
 
-### <a name="sizing-print-jobs"></a>Ændring størrelsen på udskriftsjob
+### <a name="sizing-print-jobs"></a>Ændring af udskriftsjob
 
 Cloud-udskrivning er udviklet til dokumenter med en rimelig størrelse. De fleste cloud-tjenester, herunder PrintNode og HP ePrint, har en begrænsning på 10 MB pr. job. Hvis du skal udskrive større rapporter, skal du muligvis opdele dem i flere udskrifter.
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se også
 
@@ -284,6 +284,5 @@ Cloud-udskrivning er udviklet til dokumenter med en rimelig størrelse. De flest
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Afvikle kørsler](ui-how-run-batch-jobs.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

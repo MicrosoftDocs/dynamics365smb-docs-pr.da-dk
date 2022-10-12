@@ -10,18 +10,18 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 1d9d61ad7a4e9b0b64fd11d8a2c1a29676a8ddb4
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 465954e6549ee7ffd0822438a0ad004686d5b424
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531967"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9604773"
 ---
 # <a name="legacy-create-and-modify-custom-report-layouts"></a>(Ældre) Sådan opretter og ændrer du Brugerdefinerede rapportlayouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
-Som standard har rapporter et indbygget rapportlayout. Layoutet kan være enten et RDLC-rapportlayout, et Word-rapportlayout eller begge dele. Du kan ikke redigere indbyggede layout, men du kan oprette brugerdefinerede layout. En rapport kan have flere brugerdefinerede rapportlayout.
+Som standard har rapporter et indbygget layout. Rapportlayoutet kan være en RDLC (Report Definition Language Client side)-rapportlayout, et Microsoft Word-rapportlayout eller begge dele. Du kan ikke redigere indbyggede layout, men du kan oprette brugerdefinerede layout. En rapport kan have flere brugerdefinerede rapportlayout.
 
 > [!NOTE]  
 > I [!INCLUDE[prod_short](includes/prod_short.md)] omfatter "rapporter" også eksternt orienterede dokumenter, f.eks. salgsfakturaer og ordrebekræftelser, som du sender til kunder som PDF-filer.
@@ -29,13 +29,13 @@ Som standard har rapporter et indbygget rapportlayout. Layoutet kan være enten 
 Hvis du vil oprette et brugerdefineret layout, skal du enten kopiere et eksisterende brugerdefineret layout eller tilføje et nyt brugerdefineret layout. Brugerdefinerede layouts er ofte baseret på indbyggede layout. Når du tilføjer et nyt brugerdefineret layout, kan du tilføje en RDLC- eller Word-rapportlayouttype - eller begge dele. Det nye brugerdefinerede layout vil automatisk blive baseret på det indbyggede layout for rapporten, hvis det findes. Hvis der ikke er noget indbygget layout til teksten, oprettes et nyt tomt layout. Du skal ændre og designe dette tomme layout fra bunden. Find flere oplysninger om RDLC- og Word-rapportlayout, indbyggede og brugerdefinerede layout og mere under [Administration af rapportlayout](ui-manage-report-layouts.md).  
 
 > [!TIP]
-> Du kan bruge kontoskemaer til at få indsigt i de finansielle oplysninger, der er gemt i din kontoplan. Se [Forberede Financial Reporting med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md) for at få flere oplysninger.
+> Du kan bruge finansrapporter til at få indsigt i de finansielle oplysninger, der er gemt i din kontoplan. Flere oplysninger [Forberede Financial Reporting med finansdata og kontokategorier](bi-how-work-account-schedule.md).
 
-Når du har defineret tilpassede rapportlayout, kan du vælge dem på debitor- og kreditor-kortsider. Disse layout bruges, når du opretter dokumenter til debitoren eller kreditoren. Du kan finde flere oplysninger i [Definition af Dokumentlayouts til debitorer og leverandører](ui-define-customer-vendor-document-layouts.md).
+Når du har defineret dine tilpassede rapportlayouts, kan du vælge dem på debitor- og kreditor-kortsider. Disse layout bruges, når du opretter dokumenter til debitoren eller kreditoren. Flere oplysninger [Angiv dokumentlayout for debitorer og leverandører](ui-define-customer-vendor-document-layouts.md)
 
-Du kan også bruge brugerdefinerede rapportlayouts til at føje indhold til e-mailmeddelelser. Rapportlayout kan spare tid og være med til at sikre konsistensen ved at genbruge det samme indhold, når du kommunikerer med kunderne. Hvis du vil bruge brugerdefinerede rapportlayout med e-mail, skal det være et Word-filtypeformat. Du kan ikke bruge RDLC-filtypen. Du kan finde flere oplysninger i [angive genanvendelige e-mail-tekst og layout](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
+Du kan også bruge brugerdefinerede rapportlayouts til at føje indhold til e-mailmeddelelser. Rapportlayout kan spare tid og være med til at sikre konsistensen ved at genbruge det samme indhold, når du kommunikerer med kunderne. Hvis du vil bruge brugerdefinerede rapportlayout med e-mail, skal det være et Word-filtypeformat: du kan ikke anvende RDLC-filtypen. Flere oplysninger [Konfigurere genanvendelige e-mailtekster og -layout](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
-## <a name="to-create-a-custom-layout"></a>Sådan opretter du et brugerdefineret layout
+## <a name="create-a-custom-layout"></a>Oprette et brugerdefineret layout
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Valg af rapportlayout**, og vælg derefter det relaterede link.
 
@@ -48,32 +48,31 @@ Du kan også bruge brugerdefinerede rapportlayouts til at føje indhold til e-ma
 
    Kopien af det brugerdefinerede layout vises på siden **Brugerdefinerede layout** og indeholder ordene *Kopi af* i feltet **Beskrivelse**.
 5. Hvis du vil tilføje et nyt brugerdefineret layout, der er baseret på et indbygget layout, skal du gøre følgende:  
-   1. Vælg handlingen **Ny**. Siden **Indsæt indbygget layout til en rapport** åbnes. Felterne **Id** og **Navn** udfyldes automatisk.
-   2. Hvis du vil tilføje en brugerdefineret Word-rapportlayouttype, skal du aktivere afkrydsningsfeltet **Indsæt Word-layout**.
-   3. Hvis du vil tilføje en brugerdefineret RDLC-rapportlayouttype, skal du aktivere afkrydsningsfeltet **Indsæt RDLC-layout**.
+   1. Vælg handlingen **Ny**. Siden **Indsæt indbygget layout for en rapport** vises med felter **id** og **navn** automatisk udfyldt.
+   2. Slå **Indsæt Word-layout** til/fra for at tilføje en brugerdefineret rapportlayout type for Word, eller slå **Indsæt RDLC-layout** til/fra for at tilføje en brugerdefineret rapportlayout type RDLC.
    4. Vælg knappen **OK**.  
 
     Det nye brugerdefinerede layout vises nu på siden **Tilpassede rapportlayouts**. Hvis et nyt layout er baseret på et indbygget layout, så har den ordene **Kopi af et indbygget layout** i feltet **Beskrivelse**. Hvis der ikke var noget indbygget layout for rapporten, har det nye layout ordene **Nyt layout** i feltet **Beskrivelse**, fordi det brugerdefinerede layout er tomt.
 6. Som standard er feltet **Virksomhedsnavn** tomt, hvilket betyder, at det brugerdefinerede layout bliver tilgængeligt for rapporten i alle firmaer. Hvis du kun vil gøre det brugerdefinerede layout tilgængeligt i en bestemt virksomhed, skal du vælge **Rediger** og derefter indstille feltet **Virksomhedsnavn** til den ønskede virksomhed.
 
-Det brugerdefinerede layout er oprettet. Du kan nu redigere det brugerdefinerede layout efter behov.
+Det brugerdefinerede layout er blevet oprettet, og du kan ændre det efter behov.
 
 > [!TIP]
-> Du kan godt eksportere rapportresultaterne til en Excel-fil, så du kan få vist hele datasættet, inklusive alle kolonner men uden layout. Excel-filen kan hjælpe dig med at kontrollere, at rapporten returnerer de forventede data eller diagnoseproblemer. Du kan finde flere oplysninger i [Analyse af rapportdata med Excel](report-analyze-excel.md).
+> Du kan godt eksportere rapportresultaterne til en Microsoft Excel-fil, så du kan få vist hele datasættet, inklusive alle kolonner men uden layout. Excel-filen kan hjælpe dig med at kontrollere, at rapporten returnerer de forventede data eller diagnoseproblemer. Flere oplysninger [Analyse af rapportdata med Excel](report-analyze-excel.md).
 
 ## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Redigere et brugerdefineret layout
 
-Hvis du vil ændre et rapportlayout, skal du først eksportere rapportlayoutet som en fil til en placering på din computer eller dit netværk. Åbn derefter det udlæste dokument, og foretag ændringerne. Når du er færdig med at foretage ændringerne, skal du importere rapportlayoutet.
+Hvis du vil ændre et tilpasset rapportlayout, skal du først eksportere rapportlayoutet som en fil til en placering på din computer eller dit netværk. Åbn derefter det udlæste dokument, og foretag ændringerne. Når du er færdig med at foretage ændringerne, skal du importere rapportlayoutet.
 
-### <a name="to-modify-a-custom-layout"></a>Sådan ændres et brugerdefineret layout
+### <a name="modify-a-custom-layout"></a>Tilpasse et brugerdefineret layout
 
-1. Du kan eksportere et brugerdefineret layout på siden **Brugerdefinerede rapportlayouts**. Hvis siden ikke allerede er åben, skal du søge efter og åbne siden **Valg af rapportlayout**, vælge den rapport, der har det layout, du vil ændre, og derefter vælge handlingen **Brugerdefinerede layout**.  
+1. Eksporter et brugerdefineret layout på siden **Brugerdefinerede rapportlayouts**. Hvis siden ikke allerede er åben, skal du søge efter og åbne siden **Valg af rapportlayout**, vælge den rapport, der har det layout, du vil ændre, og derefter vælge handlingen **Brugerdefinerede layout**.  
 2. På siden **Brugerdefinerede rapportlayouts** skal du vælge det layout, du vil ændre, vælge handlingen **Eksportér layout** og derefter klikke på **Gem** eller **Gem som** for at gemme rapportlayoutdokumentet på en placering på din computer eller dit netværk.  
 3. Åbn det rapportlayoutdokument, du har gemt, og foretag derefter ændringerne.
 
-   Hvis du ændrer et Word-layout, skal du åbne layoutdokumentet i Word. Du kan redigere detaljer i [arbejde med Word-layout](ui-how-add-fields-word-report-layout.md)<!--the next section [Making Changes to the Report Layout](ui-how-create-custom-report-layout.md#MakeChangesToLayout)-->.
+   Hvis du ændrer et Word-layout, skal du åbne layoutdokumentet i Word. Lære mere om redigering af Word-rapporter på [arbejde med Word-layout](ui-how-add-fields-word-report-layout.md)<!--the next section [Making Changes to the Report Layout](ui-how-create-custom-report-layout.md#MakeChangesToLayout)-->.
 
-   RDLC-rapportlayout er mere avanceret end Word-rapportlayout. Du kan finde flere oplysninger om ændring af RDLC-rapportlayout i [Designe RDLC-rapportlayout](/dynamics-nav/Designing-RDLC-Report-Layouts).
+   RDLC-rapportlayout er mere avanceret end Word-rapportlayout. Flere oplysninger om ændring af RDLC-rapportlayout i [Designe RDLC-rapportlayout](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
    Husk at gemme ændringerne, når du er færdig.
 
@@ -85,20 +84,20 @@ Hvis du vil ændre et rapportlayout, skal du først eksportere rapportlayoutet s
 > Husk at indlæse det rapportlayout dokument, du har ændret. Ellers vil det nye rapportlayout ikke være tilgængeligt.
 
 <!--
-##  <a name="MakeChangesToLayout"></a> Create and Modify Custom Report Layouts
+##  <a name="MakeChangesToLayout"></a> Create and modify custom report layouts
 
-To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word, like you do with any Word document.
+To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word like you do with any Word document.
 
 If you're designing a Word report layout from scratch or adding new data fields, then start by adding a table that includes rows and columns that will eventually hold the data fields.
 
 > [!TIP]  
 > Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you're done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.
 
-### Embedding Fonts in Word Layouts for Consistency
+### Embedding fonts in Word layouts for consistency
 
-To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. For more information about embedding fonts in Word, see [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
+To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. Learn more about embedding fonts in Word at [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-###  <a name="RemoveField"></a> Removing Label and Data Fields in Word Layouts
+###  <a name="RemoveField"></a> Removing label and data fields in Word layouts
 
  Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
 
@@ -108,7 +107,7 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 ### To remove a label or data field  
 
-1. Right-click the field that you want to delete, and then choose **Remove Content Control**.  
+1. Right-click the field you want to delete, then choose **Remove Content Control**.  
 
      The content control is removed, but the field name remains as text.  
 
@@ -116,7 +115,7 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 ### Adding data fields
 
-Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
+Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
 ## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
 
@@ -126,9 +125,8 @@ Adding data fields from a report dataset is a more advanced and requires some kn
 [Ændre det aktuelle rapportlayout](ui-how-change-layout-currently-used-report.md)  
 [Importere og eksportere et brugerdefineret rapport- eller dokumentlayout](ui-how-import-and-export-report-layout.md)  
 [Arbejde med rapporter, kørsler og XMLporte](ui-work-report.md)  
-[Forberede Financial Reporting med kontoskemaer og kontokategorier](bi-how-work-account-schedule.md)  
+[Forberede Financial Reporting med finansdata og kontokategorier](bi-how-work-account-schedule.md)  
 [Business Intelligence](bi.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
