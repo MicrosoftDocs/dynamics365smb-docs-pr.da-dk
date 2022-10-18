@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: ed59e73dce1847e2edb02def981abdf869a275d9
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 5560a9a1b5c5eb031136a7c1320019eac75239e0
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606139"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652187"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrere specialsalgspriser og -rabatter
 
@@ -93,7 +93,7 @@ Når du aktiverer funktionsopdateringen **Ny salgsprisoplevelse** på siden **Fu
     * Salg
     * Køb
     * Salg af sag
-    * Køb af sag 
+    * Køb af sag
 
     Du kan redigere alle priser for disse områder på siden **Priskladde**. Standardprislisterne angives i siderne **Konfiguration af salgsopsætning**, **Konfiguration af købsopsætning** og **Sagsopsætning**. 
 
@@ -252,7 +252,7 @@ Du kan knytte rabatter til bestemte fakturabeløb på siderne **Deb./fakt.-rabat
 Du kan også knytte et servicegebyr til et bestemt fakturabeløb i tillæg til eller i stedet for rabatprocenten.  
 
 > [!TIP]  
-> Det anbefales, at du forbereder en skitse over den rabatstruktur, der skal anvendes, før du begynder at indtaste disse oplysninger. Det gør det nemmere at se, hvilke debitorer der kan knyttes til samme fakturarabatside. Jo færre sider, du har sat op, jo hurtigere kan du indtaste stamoplysningerne.
+> Det anbefales, at du forbereder en skitse over den rabatstruktur, der skal anvendes, før du begynder at indtaste disse oplysninger. Strukturen gør det nemmere at se, hvilke debitorer der kan knyttes til samme fakturarabatside. Jo færre sider, du har sat op, jo hurtigere kan du indtaste stamoplysningerne.
 
 Du finder flere øvelser i rabatter under [Konfiguration af rabatter til dine kunder på](/training/modules/customer-discounts-dynamics-365-business-central/index).
 

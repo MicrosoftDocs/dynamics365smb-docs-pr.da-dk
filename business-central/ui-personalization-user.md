@@ -1,21 +1,21 @@
 ---
 title: Personlige sider (indeholder video)
 description: Få at vide, hvordan du kan tilpasse brugergrænsefladen og tilpasser dit arbejdsområde, så det passer til din måde at arbejde på i Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 7739ead50f07adc5a7a14c6c9e57cc623da275c9
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 10/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528808"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652160"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse dit arbejdsområde
 
@@ -79,9 +79,15 @@ Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden,
 |Føje en ny handling til en side eller en rapport i dit rollecenter.|Vælg bogmærkeikonet på rapportanmodningssiden eller i vinduet Fortæl mig på målsiden.|Se [Bogmærke en side eller en rapport i rollecenteret](ui-bookmarks.md)|
 |Starte altid en liste som udvidet eller skjult|Vælg **Udvid alle** eller **Skjul alle** i øverste venstre hjørne. Du kan også vælge funktionen **Udvid alle** eller **Skjul alle** i menuen til den første kolonne. |Gælder for hierarkilister, der kan skjules|
 
-## <a name="personalizing-actions"></a><a name="Actions"></a>Tilpasning af handlinger
+## <a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a>Tilpasse handlingslinje og menuer
 
-Tilpasning gør det muligt at bestemme, hvilke handlinger der skal vises på navigations- handlingslinjerne samt i rollecentre, og hvor de skal vises. Du kan vise, skjule eller flytte individuelle handlinger eller handlingsgrupper. Tilpasning af navigations- og handlingslinjerne foretages stort set på samme måde som med andre elementer i brugergrænsefladen. Men hvad du kan gøre med en handling eller en gruppe, afhænger af hvor handlingen eller gruppen er placeret. Den bedste måde at finde ud af det på, er ved at vælge tilpasningstilstand og derefter følge pilespidserne.
+Tilpasning gør det muligt at bestemme, hvilke handlinger der skal vises på navigations- handlingslinjerne samt i rollecentre, og hvor de skal vises. Du kan vise, skjule eller flytte individuelle handlinger eller handlingsgrupper.
+
+I 2022s udgivelsesbølge 2 gav vi dig flere muligheder for at gøre Business Central til din egen. Følgende video viser, hvordan du kan tilpasse handlinger på sider og rollecentre.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
+
+Tilpasning af navigations- og handlingslinjerne foretages stort set på samme måde som med andre elementer i brugergrænsefladen. Men hvad du kan gøre med en handling eller en gruppe, afhænger af hvor handlingen eller gruppen er placeret. Den bedste måde at finde ud af det på, er ved at vælge tilpasningstilstand og derefter følge pilespidserne.
 
 Der er et par ord, du skal kende for at få en bedre forståelse af handlingstilpasning: *handlingsgruppe* og *fremhævet kategori*.  
 
