@@ -10,12 +10,12 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
-ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
+ms.openlocfilehash: 436adf8dcfd9d5825530a1a51f5ed0efad7d9b7c
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9652160"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716541"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse dit arbejdsområde
 
@@ -155,6 +155,12 @@ Her er nogle forslag, der kan hjælpe dig med at opnå en bedre forståelse.
 - Ændringer, du foretager, træder i kraft på alle dine rollecentre. Hvis du f.eks. foretager en ændring på listen Debitorer, når rollecenteret er angivet til virksomhedsleder, vises også ændringen i også på siden **Debitorer**, når Rollecenter er indstillet til Salgsordrebehandler.
 - Ændringer af en side i en rude træder i kraft på siden, overalt hvor den vises.  
 - Du kan kun tilføje felter og kolonner fra en foruddefineret liste, der er baseret på siden. Du kan ikke oprette nye felter og kolonner.
+- **Power Automate** på handlingslinjen
+  - Du kan ikke skjule eller flytte elementet **Automatiser** eller underelementet **Power Automate** og dets handlinger **Opret et flow** og **Administrere flows**.
+  - Du kan flytte flows, der er medtaget under elementet **Automatiser**, men du kan ikke skjule dem ved hjælp af personlig tilpasning. Når flowet flyttes, kopieres strømmen til destinationen, men den fjernes ikke fra elementet **Automatiser**.
+
+   > [!TIP]
+   > Som administrator kan du skjule elementet **Automatisering** fra brugere. Flere oplysninger i [Konfigurere Power Automate-integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
 ## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/personalize-ui-dynamics-365-business-central/index)
 

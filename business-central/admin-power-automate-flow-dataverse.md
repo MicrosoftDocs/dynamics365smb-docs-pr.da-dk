@@ -10,18 +10,14 @@ ms.search.keywords: Power Automate, Flow, Dataverse
 ms.search.form: ''
 ms.date: 09/05/2022
 ms.author: bholtorf
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 542514d1f8fc8f0bfa6a0bd3c8cacbaf25cab651
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.openlocfilehash: d58a8ba6b1b2c451caa391ef5dd89e0d73d38b5a
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585887"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716498"
 ---
 # <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Brug et Power Automate-flow til beskeder til Dataverse om ændringer af enheden
-
-> [!IMPORTANT]
-> I denne artikel beskrives funktioner, der bliver tilgængelige i 2022 Udgivelsesbølge 2. Du kan ikke bruge et Power Automate-flow til at få besked, når en enhed i Dataverse ændres, før denne udgivelse er tilgængelig.
 
 Administratorer kan oprette et automatiseret flow i Power Automate, som giver din [!INCLUDE[prod_short](includes/prod_short.md)] besked om ændringer af poster i [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-organisationen.
 
