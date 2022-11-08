@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 0df97fbafd160e932700b5f66de455d50ff8f645
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607705"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728568"
 ---
 # <a name="resources-for-help-and-support"></a>Hjælp og support
 
@@ -114,9 +114,13 @@ Denne sektion giver dig genveje til Microsoft AppSource, hvor du kan finde løsn
 
 ### <a name="give-feedback"></a>Send feedback
 
-På [Dynamics 365 websted for forslag og ideer](https://aka.ms/bcideas), kan du komme med forslag til nye funktioner. Dit input sendes direkte til Business Centrals udviklings-backlog for at blive at blive nærmere undersøgt og prioriteringsvurderet.  
+Omtrent én gang i kvartales indsamler [!INCLUDE [prod_short](includes/prod_short.md)]-teamet en tilbagemelding fra vores brugere om, hvor tilfreds de er med produktet. Ud over klassifikationer kan du også angive en skriftlig kommentar. Ved at give os specifikke og handlingsløse bemærkninger kan du hjælpe vores teknikere til at prioritere de produktforbedringer, vi investerer i. Du kan også få samtykke til at blive kontaktet om din kommentar. Hvis du gør det, bliver du inviteret til et Teams-møde på et tidspunkt, hvor det passer dig. Du kan når som helst give produktforslag på vores websted med [Dynamics 365 Ideas](https://aka.ms/bcideas).  
 
-Sørg for at søge listen over indsendte forslag igennem. Chancen for, at nogen allerede har indsendt noget lignende, og indlægget kan allerede have modtaget stemmer. Stem på en ide, der allerede er indsendt, for at få den prioriteret.  
+### <a name="product-suggestions"></a>Produktforslag
+
+På [Dynamics 365 Ideas-websted](https://aka.ms/bcideas), kan du komme med forslag til nye funktioner og egenskaber. Dit input sendes direkte til Business Centrals udviklings-backlog for at blive at blive nærmere undersøgt og prioriteringsvurderet.  
+
+Sørg for at søge listen over indsendte forslag igennem. Deter muligt, at nogen allerede har indsendt noget lignende, og indlægget kan allerede have modtaget stemmer. Stem på en ide, der allerede er indsendt, for at få den prioriteret.  
 
 ### <a name="troubleshooting"></a>Fejlfinding
 

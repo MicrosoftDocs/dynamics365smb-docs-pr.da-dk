@@ -4,16 +4,16 @@ description: Konfigurere og køre import og behandling af salgsordre fra Shopify
 ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30124, 30125, 30128, 30129, 30130, 30131, 30132, 30133, 30134,
+ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 3a8f6b2188c2a315bbed1ef99e23b6bbfafae40f
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 2e79d19fd2fd03ec245c020cb9004809bccb5ec4
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361388"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728325"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Synkronisere og opfylde salgsordrer
 
@@ -23,21 +23,22 @@ I denne artikel beskrives de nødvendige indstillinger og trin, du skal fuldfør
 
 En almindelig Shopify-ordre kan indeholder omkostninger ud over subtotalen, f. eks. forsendelsesgebyrer eller, hvis det er aktiveret, tip. Beløbene bogføres direkte på den finanskonto, der skal bruges til bestemte posteringstyper:
 
-- **Konto til forsendelsesomkostninger**
-- **Solgt gavekortkonto** – du kan finde flere oplysninger i [Gavekort](synchronize-orders.md#gift-cards)
-- **Tips til konto**  
+* **Konto til forsendelsesomkostninger**
+* **Solgt gavekortkonto** – du kan finde flere oplysninger i [Gavekort](synchronize-orders.md#gift-cards)
+* **Tips til konto**  
 
 Aktiver **Automatisk oprettelse af ordrer** for at oprette salgsdokumenter automatisk i [!INCLUDE[prod_short](../includes/prod_short.md)], når Shopify-ordren er importeret.
+
 Salgsdokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)] indeholder et link til Shopify-ordren. Hvis du aktiverer feltet **Shopify-ordrenr. på dokumentlinjen**, bliver disse oplysninger gentaget på salgslinjen af typen *Bemærkning*.
 
-I feltet **Momsområdekilde** kan du definere prioritering af, hvordan skatteområdekode eller momsvirksomhedsbogføringsgruppe på grundlag af adresse. Dette trin er relevant for lande med moms og moms. Få mere at vide på [Momsbemærkninger](synchronize-orders.md#tax-remarks).
+I feltet **Momsområdekilde** kan du definere prioritering af, hvordan skatteområdekode eller momsvirksomhedsbogføringsgruppe på grundlag af adresse. Den importerede Shopify-ordre viser oplysninger om moms, men momsen bliver genberegnet, når du opretter salgsdokumentet, så det er vigtigt, at indstillingerne for moms/skat er korrekte i [!INCLUDE[prod_short](../includes/prod_short.md)]. Du kan finde flere oplysninger om moms i [Konfigurere moms for Shopify-forbindelsen](setup-taxes.md).
 
 ### <a name="shipment-method-mapping"></a>Tilknytning af forsendelsesmetode
 
 **Leveringskode** for salgsdokumenter, der er indlæst fra Shopify, kan udfyldes automatisk. Du skal konfigurere **tilknytning af leveringsmetode**.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Shops**, og vælg derefter det relaterede link.
-2. Marker den butik, som du vil definere tilknytning til for at åbne **Shopify Butikskort**-siden.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Shops**, vælg derefter det relaterede link.
+2. Marker den butik, som du vil definere en tilknytning til for at åbne **Shopify Butikskort**-siden.
 3. Vælg handlingen **Tilknytning af forsendelsesmetode**. Posterne for forsendelsesmetoder, der er defineret i [**Forsendelse**](https://www.shopify.com/admin/settings/payments)-indstillingerne i din **Shopify Administrator**, oprettes automatisk.
 4. I feltet **Navn** kan du se navnet på leveringsmåden fra Shopify.
 5. Indtast **Forsendelsesmetodekoden** med den tilsvarende forsendelsesmetoide i [!INCLUDE[prod_short](../includes/prod_short.md)].
@@ -45,32 +46,19 @@ I feltet **Momsområdekilde** kan du definere prioritering af, hvordan skatteomr
 > [!NOTE]  
 > Hvis der er knyttet flere forsendelsesgebyrer til en salgsordre. der er kun valgt én som forsendelsesmetode, der er knyttet til salgsdokumentet.
 
-### <a name="payment-method-mapping"></a>Tilknytning af betalingsmetode
-
-Hvis du vil udfylde **betalingsmetodekoden** automatisk for salgsdokumenter, der er importeret fra Shopify, skal du konfigurere **tilknytning af betalingsmetode**.
-
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Shops**, og vælg derefter det relaterede link.
-2. Marker den butik, som du vil definere tilknytning til for at åbne **Shopify Butikskort**-siden.
-3. Vælg handlingen **Tilknytning af betalingsmetode**.
-4. Indtast navnet på betalingsmetoden i felterne **Gateway** og **Kreditkortfirma** fra Shopify. Posterne oprettes automatisk, når du importerer Shopify-ordrer.
-5. Indtast **Betalingsmetodekoden** med den tilsvarende betalingsmetode i [!INCLUDE[prod_short](../includes/prod_short.md)].
-6. Angiv **prioritet** for sager, når debitor bruger flere betalingsmidler. Betalingsmetoden med den højeste prioritet bliver valgt i salgsdokumentet. Hvis begge betalingsmetoder har samme prioritet, bruges betalingsmetoden med det højeste beløb.
-
-> [!NOTE]  
-> Hvis den tilsvarende betalingsmetode i [!INCLUDE[prod_short](../includes/prod_short.md)] har **Modkonto type** og **Modkonto** udfyldt, vil fakturasystemet under bogføringen, oprette en modpost af *betaling*-typen og udligne den med *faktura*-typen i debitorposten.
-
 ### <a name="location-mapping"></a>Tilknytning af lokation
 
-Hvis du automatisk vil udfylde **Lokationskoden** for salgsdokumenter, der er importeret fra Shopify, skal du konfigurere **Shopify Butiksplaceringer**.
+Lokationstilknytningen kræves i tre henseender:
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Shops**, og vælg derefter det relaterede link.
+* Du kan finde flere oplysninger i [synkronisere lager til Shopify](synchronize-items.md#sync-inventory-to-shopify)
+* Sådan udfyldes **lokationskoden** for salgsdokumenter, der indlæses fra Shopify. Det er vigtigt, når til/fra-feltet **lokation, der er obligatorisk** er aktiveret på **lageropsætningskortet**. Ellers kan du ikke oprette salgsdokumenter.
+* Opdatere Shopify-ordren med oplysningerne om opfyldelsen på siden **Bogført salgsleverance**.
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Shops**, vælg derefter det relaterede link.
 2. Marker den butik, for hvilken du vil konfigurere tilknytning af placering for at åbne siden **Shopify-butikskort**.
 3. Vælg handlingen **Lokationer** for at åbne **Shopify Butikslokationer**.
 4. Vælg handlingen **Hent Shopify Lokationer** for at importere alle de placeringer, der er defineret i Shopify. Du kan finde dem under [**Lokations**](https://www.shopify.com/admin/settings/locations)-indstillinger i **Shopify Administrator**. Bemærk, at den lokation, der er markeret som *standard*, bruges ved import af ikke-opfyldte Shopify-ordrer.
 5. Angiv **standardplaceringskoden** med den tilsvarende lokation i [!INCLUDE[prod_short](../includes/prod_short.md)].
-
-> [!NOTE]  
-> Du skal konfigurere lokations tilknytningen, hvis til/fra-feltet **lokation, der er obligatorisk** er aktiveret på **lageropsætningskortet**. Ellers kan du ikke oprette salgsdokumenter.
 
 ## <a name="run-the-order-synchronization"></a>Kør ordresynkronisering
 
@@ -79,7 +67,7 @@ Nedenstående procedure beskriver, hvordan du imjporterer og opdaterer salgsordr
 > [!NOTE]  
 > Arkiverede ordrer i Shopify kan ikke importeres. Deaktiver **Automatisk arkivering af ordren** i sektionen **Ordrebehandling** under indstillingerne **Tjek ud** i **Shopify Administration** for at kontrollere, at alle ordrer er importeret til [!INCLUDE[prod_short](../includes/prod_short.md)]. Hvis du har brug for at importere arkiverede ordrer, skal du bruge handlingen **Ikke-arkiverede ordrer** på siden [Ordrer](https://www.shopify.com/admin/orders) til panelet **Shopify-Administration**.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Shops**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Shops**, vælg derefter det relaterede link.
 2. Marker den butik, som du vil importere ordrer til for at åbne **Shopify Butikskort**-siden.
 3. Vælg handlingen **Ordrer**.
 4. Vælg handlingen **Synkroniser ordrer fra Shopify**.
@@ -103,7 +91,7 @@ Hvis til/fra-feltet **Automatisk oprettelse af ordrer** er aktiveret på **Shopi
 
 ### <a name="to-create-sales-documents"></a>Oprette salgsdokumenter
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Shops**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Shops**, vælg derefter det relaterede link.
 2. Marker den butik, som du vil synkronisere ordrer til for at åbne **Shopify Butikskort**-siden.
 3. Vælg handlingen **Ordrer**.
 4. Vælg den ordre, du vil oprette et salgsdokument for, og vælg handlingen **Opret salgsdokumenter**.
@@ -117,19 +105,25 @@ Der er nu oprettet et salgsdokument, som kan administreres vha. standard [!INCLU
 
 Hvis dine indstillinger forhindrer, at der oprettes en kunde automatisk, og der ikke findes en korrekt eksisterende kunde, kan du manuelt tildele en kunde en Shopify-ordre. Dette kan gøres på et par måder:
 
-- Du kan knytte feltet **Sælg til kundenr.** direkte i siden **Shopify-ordrer** ved at vælge en kunde på listen over eksisterende kunder.
-- Du kan vælge en debitorskabelonkode, oprette og tildele debitoren via handlingen **Opret ny debitor** på siden **Shopify-ordrer**.
-- Du kan knytte en eksisterende debitor til den relaterede **Shopify-kunde** i vinduet **Shopify-kunder** og derefter vælge handlingen **Find tilknytning** på side **Shopify-ordrer**.
+* Du kan knytte feltet **Sælg til kundenr.** og **Faktureres til kundenr.** direkte i siden **Shopify-ordrer** ved at vælge en kunde på listen over eksisterende kunder.
+* Du kan vælge en debitorskabelonkode, oprette og tildele debitoren via handlingen **Opret ny debitor** på siden **Shopify-ordrer**.
+* Du kan knytte en eksisterende debitor til den relaterede **Shopify-kunde** i vinduet **Shopify-kunder** og derefter vælge handlingen **Find tilknytning** på siden **Shopify-ordrer**.
 
-### <a name="tax-remarks"></a>Momskommentarer
+### <a name="how-the-connector-chooses-which-customer-to-use"></a>Hvordan connectoren vælger, hvilken kunde der skal bruges
 
-Den importerede Shopify-ordre viser oplysninger om moms, men momsen bliver genberegnet, når du opretter salgsdokumentet, så det er vigtigt, at indstillingerne for moms/skat er korrekte i [!INCLUDE[prod_short](../includes/prod_short.md)].
+Funktionen *Importer ordre fra Shopify* forsøger at vælge debitorer i følgende rækkefølge:
 
-- Flere momssatser/momssatser. Nogle produktkategorier er f. eks. ansvarlige for reducerede skatte satser. Disse varer skal findes i [!INCLUDE[prod_short](../includes/prod_short.md)] og knyttes til Shopify-produkterne. Hvis du ikke gør det, bruges momsproduktbogføringsgruppen automatisk med automatisk oprettelse af manglende varer.
+1. Hvis **Standarddebitornr.** feltet er defineret i **Shopify Debitorskabelonen** for det tilsvarende land, så anvendes **Standarddebitornr.** uanset indstillingerne i felterne **Debitorimport fra Shopify** og **Debitortilknytningstype**. Flere oplysninger i [Debitorskabelon pr. land](synchronize-customers.md#customer-template-per-country).
+2. Hvis **Debitorimport fra Shopify** er indstillet til *Ingen* og **Standarddebitornr.** er defineret på siden **Shopify Butikskort** skal **Standarddebitornr.** .
 
-- Adresse-afhængige momssatser. Brug feltet **Skatteområdeprioritet** sammen med tabellen **Debitorskabeloner** til at overskrive standardlogik, som udfyldes i **Skatteområdekode** i salgsdokumentet. Feltet **skatteområde-prioritet** angiver den prioritet, hvor funktionen skal indeholde oplysninger om land/område og stat/provins. Derefter bliver den tilsvarende post i Shopify-debitorskabelonen fundet, og **Skatteområdekode**, **Skattepligtig moms** og **Momsvirksomheds bogføringsgruppe** bruges, når der oprettes et salgsdokument.
+Næste trin afhænger af **Debitortilknytningstype**.
 
-- Priser inkl. moms. Feltet **Priser inkl. moms**/**Priser ekskl. moms** i det oprettede salgsdokument afhænger ikke af debitoren, men af **kundeskabelonen** fra **Shopify-butikskort** eller debitorskabelonen pr. land.
+* Hvis det er **Hent altid standardkunden**, og connectoren bruger derefter kunden, som er defineret i feltet **Standarddebitornr.** feltet på siden **Shopify Køb kort**.
+* Hvis det er **Via mail/telefon** forsøger connectoren først at finde eksisterende kunder efter id, derefter pr. e-mail og derefter pr. telefon. Hvis debitoren ikke findes-connectoren opretter en ny kunde.
+* Hvis det er **Ved faktureringsoplysninger** forsøger connectoren først at finde den eksisterende debitor efter id og derefter efter faktureringsadresseoplysninger. Hvis debitoren ikke findes-connectoren opretter en ny kunde.
+
+> [!NOTE]  
+> Connectoren bruger oplysninger fra faktureringsadressen og opretter en faktureringskunden i [!INCLUDE[prod_short](../includes/prod_short.md)]. Kunden skal være den samme som den kunde, der faktureres.
 
 ### <a name="impact-of-order-editing"></a>Indflydelse på redigeringen af ordrer
 
@@ -154,14 +148,19 @@ I [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 Når en salgsordre, der er oprettet fra en Shopify-ordre, bliver leveret, kan du synkronisere leverancerne til Shopify.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Synkronisere forsendelser til Shopify**, og vælg derefter det relaterede link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Synkronisere forsendelser til Shopify**, vælg derefter det relaterede link.
 2. Definer eventuelt filtre for forsendelser. Du kan f. eks. opdatere forsendelse, der er bogført på en bestemt dato.
 3. Vælg knappen **OK**.
 
 Ordren i Shopify bliver markeret som opfyldt. Kunden modtager automatisk en e-mail med leveringsbemærkninger eller tekstmeddelelse (SMS). Hvis der er angivet en speditør og en sporingskode i leverancen, medtages sporingsoplysningerne i e-mailen.
 
-> [!NOTE]  
-> Husk at køre **Synkroniser ordre fra Shopify** for at opdatere opfyldelsesstatus for ordre i [!INCLUDE[prod_short](../includes/prod_short.md)]. Connector-funktionen arkiverer også fuldt indbetalte og befriede ordrer både i Shopify og [!INCLUDE[prod_short](../includes/prod_short.md)], hvis betingelserne er opfyldt.
+Du kan også bruge handlingen **Synkroniser leverancer** på siderne Shopify-salgsordrer eller Shopify-butik.
+
+Du kan planlægge, at følgende tilbagevendende aktiviteter skal udføres automatisk. Få mere at vide, når du [planlægger tilbagevendende opgaver](background.md#to-schedule-recurring-tasks).
+
+>[Vigtigt] Lokationen, herunder tom lokation, der er defineret på den bogførte leverancelinje, skal have en tilsvarende post på Shopify-lokationen. Ellers sendes denne linje ikke tilbage til Shopify. Flere oplysninger [Lokationstilknytning](synchronize-orders.md#location-mapping).
+
+Husk at køre **Synkroniser ordre fra Shopify** for at opdatere opfyldelsesstatus for ordre i [!INCLUDE[prod_short](../includes/prod_short.md)]. Connector-funktionen arkiverer også fuldt indbetalte og befriede ordrer både i Shopify og [!INCLUDE[prod_short](../includes/prod_short.md)], hvis betingelserne er opfyldt.
 
 ### <a name="shipping-agents-and-tracking-url"></a>Speditører og sporing af URL-adresse
 
@@ -169,9 +168,9 @@ Hvis det **bogførte salgsleverance**-dokument indeholder **Speditørkode** og/e
 
 Sporingsvirksomheden udfyldes på grundlag af speditørposten med følgende prioriteter (fra højeste til laveste):
 
-- **Shopify Sporingsvirksomhed**
-- **Navn**
-- **Kode**
+* **Shopify Sporingsvirksomhed**
+* **Navn**
+* **Kode**
 
 Hvis feltet **Pakkesporings-URL** er udfyldt for speditørposten, vil levering også indeholde en URL-adresse til sporing.
 
@@ -182,32 +181,6 @@ I Shopify-butikken kan du sælge gavekort, som kan bruges til at betale for reel
 Når du håndterer gavekort, er det vigtigt at angive en værdi i feltet **Konto for solgte gavekort** i vinduet **Shopify-butikskort**. Det solgte gavekort synkroniseres sammen med ordrer på linje. Et udlignet gavekort indlæses også sammen med ordren, men nu som en transaktion. Bemærk, at gavekortet ikke reducerer det beløb, der skal faktureres.
 
 Hvis du vil se det udstedte og anvendte gavekort, skal du vælge den ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Gavekort**, og vælg derefter det relaterede link.
-
-## <a name="transactions-and-payouts"></a>Transaktioner og udbetalinger
-
-Når en kunde har færdiggjort check ud i onlinebutikken, gemmes oplysningerne om betalinger som en **transaktion**. Der kan være knyttet flere transaktioner til ordren, f. eks. Når en kunde bruger et gavekort til at betale noget af omkostningerne og derefter bruger et kreditkort eller en PayPal til restbeløbet. 
-
-Hvis du bruger Shopify-betaling som betalingsudbyder og derefter ud over oplysninger om de penge, som Betalingsudbyderen har modtaget fra kunden, kan du også få vist udbetalinger fra Shopify til din bankkonto. 
-
-### <a name="transactions"></a>Transaktioner
-
-De betalingstransaktioner, der er foretaget ved, at Shopify synkroniseres sammen med ordrerne og kan ses fra siden *Shopify-ordrer*.
-
-Hvis du vil se alle transaktioner, skal du vælge ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Transaktioner**, og vælg derefter det relaterede link.
-
-Hvis du har konfigureret tilknytning af betalingsmetode, er der tildelt en betalingsmetode kode i det oprettede salgsdokument. Få mere at vide ved [betalingsmetodetilknytning](#payment-method-mapping).
-
-### <a name="payouts"></a>Udbetalinger
-
-Hvis din butik har Shopify Payments aktiveret, modtager du betalinger via *Shopify-udbetalinger*, når en kunde betaler vha Shopify Payments og accelererede checks.
-
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Shops**, og vælg derefter det relaterede link.
-2. Marker den butik, som du vil synkronisere udbetalinger til for at åbne siden **Shopify-butikskort**.
-3. Vælg handlingen **Synkroniser udbetalinger**.
-
-Hvis du vil se alle udbetalinger, skal du vælge ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udbetalinger**, og vælg derefter det relaterede link.
-
-**Udbetalinger** er kun til orientering og påvirker ikke finans-eller bank poster, men de kan være nyttige, når du skal behandle bankkontoudtoget.
 
 ## <a name="see-also"></a>Se også
 

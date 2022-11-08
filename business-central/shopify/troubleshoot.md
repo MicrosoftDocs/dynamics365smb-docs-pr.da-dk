@@ -8,14 +8,14 @@ ms.search.form: 30118, 30119, 30120,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 47b0d72283b4d017bb522c3e71f6c61501b59d5b
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 37fb8069f6149cc89c1c53f671eafe3788f54ccf
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361937"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728352"
 ---
-# <a name="troubleshooting-shopify-and-business-central-synchronization"></a>Fejlfinding af Shopify og Business Central-synkronisering
+# <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Fejlfinding af Shopify og Business Central-synkronisering
 
 Det er muligt at køre i situationer, hvor du skal foretage fejlfinding af problemer ved synkronisering af data mellem Shopify og [!INCLUDE[prod_short](../includes/prod_short.md)]. Denne side definerer trin til fejlfinding i forbindelse med almindelige scenarier, der kan opstå.
 
@@ -67,7 +67,7 @@ Funktionen **Vis Accesskey** vil blive aktiveret.
 Hvis Shopify-connector-udvidelsen skal fungere korrekt, kræver det, at du har tilladelse til at foretage http-anmodninger. Når der testes i sandkasse, er http-anmodninger forbudt for alle udvidelser.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **udvidelsesstyring**, og vælg derefter det relaterede link.
-2. Vælg udvidelsens *Shopify Connector*.
+2. Vælg udvidelsen **Shopify Connector**.
 3. Vælg handlingen **Konfigurer** for at åbne siden **Udvidelsesindstilling**.
 4. Kontroller, at funktionen **Tillad HTTPClient-anmodninger** er aktiveret.
 
@@ -90,13 +90,17 @@ Følgende procedurer beskriver, hvordan du kan rotere det adgangstoken, der brug
 
 ## <a name="known-issues"></a>Kendte problemer
 
-Feltet *Virksomhedsbogføringsgruppen* må ikke være nul eller tom. der skal være en værdi i feltet kunde. Sådan rettes:
+### <a name="the-gen-bus-posting-group-cannot-be-zero-or-empty-there-must-be-a-value-in-the-customer-field"></a>Feltet *Virksomhedsbogføringsgruppe* må ikke være nul eller tom. der skal være en værdi i feltet kunde
 
 Udfyld feltet **Debitorskabelonkode** på siden **Shopify Butikskort** med den skabelon, som har udfyldt **Virksomhedsbogføringsgruppe**. Debitorskabelon bruges ikke kun til oprettelse af debitorer, men også til beregning af salgspris og ved oprettelse af salgsdokumenter.
 
 ### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>Import af data til din Shopify-butik er ikke aktiveret. Gå til butikskortet for at aktivere det
 
-I vinduet **Shopify-butikskort** skal du slå **Tillad datasynkronisering med Shopify** til.  Denne til/fra-funktion er beregnet til at beskytte onlinebutikken mod at hente demonstrationsdata fra [!INCLUDE[prod_short](../includes/prod_short.md)].
+I vinduet **Shopify-butikskort** skal du slå **Tillad datasynkronisering med Shopify** til. Denne til/fra-funktion er beregnet til at beskytte onlinebutikken mod at hente demonstrationsdata fra [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+### <a name="oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key"></a>Oauth-fejl invalid_request: API-programmet blev ikke fundet Shopify med api_key
+
+Det ser ud til, at du bruger [Indlejret app](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), hvor klientens URL-adresse har formatet:`https://[application name].bc.dynamics.com`. Shopify-connectoren virker ikke for indlejrede apps. Flere oplysninger i [Hvilke Microsoft-produkter er Shopify-connectoren tilgængelige for](shopify-faq.md#what-microsoft-products-is-the-shopify-connector-available-for).
 
 ## <a name="see-also"></a>Se også
 

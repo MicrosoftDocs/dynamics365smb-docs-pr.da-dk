@@ -674,7 +674,9 @@
 ### [Synkroniser elementer med Shopify](shopify/synchronize-items.md)
 ### [Synkronisere debitorer med Shopify](shopify/synchronize-customers.md)
 ### [Synkronisere og opfylde salgsordrer med Shopify](shopify/synchronize-orders.md)
-### [Kør opgaver i baggrunden](shopify/background.md)
+### [Synkronisere transaktioner og udbetalinger](shopify/transactions-and-payouts.md)
+### [Konfigurere moms for Shopify-forbindelsen](shopify/setup-taxes.md)
+### [Køre opgaver i baggrunden](shopify/background.md)
 ### [Fejlfinde Shopify-connector](shopify/troubleshoot.md)
 ### [Ofte stilede spørgsmål til Shopify-connector](shopify/shopify-faq.md)
 
@@ -1775,7 +1777,7 @@
 ### [Tjenesteoverholdelse](compliance/compliance-service-compliance.md)
 ### [Certificeringer](compliance/compliance-certifications.md)
 ## [Tjenesteoversigt (kun på engelsk)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
-
+## [Prøvefunktioner, der opretter forbindelse til andre Microsoft-tjenester](privacy-connected-services.md)
 # Udvikling og administration
 ## [Introduktion til udviklings-og administrationsdokumentation](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
 ## Administrationsopgaver i Business Central

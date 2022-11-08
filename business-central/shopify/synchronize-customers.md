@@ -8,12 +8,12 @@ ms.search.form: 30105, 30106, 30107, 30108, 30109,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: d4ff86179fa5b82bcc398ee58cf92fc121c486d8
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 1a796d1094401cd2ebc0efd54f752211d22bfb12
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361417"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728649"
 ---
 # <a name="synchronize-customers"></a>Synkronisere debitorer
 
@@ -21,22 +21,6 @@ Når en ordre indlæses fra Shopify, er oplysningerne om debitor nødvendig for 
 
 * Brug speciel kunde til alle ordrer.
 * Importer oplysninger om den aktuelle kunde fra Shopify. Denne indstilling er også tilgængelig, når du eksporterer debitorer til Shopify fra [!INCLUDE[prod_short](../includes/prod_short.md)] først.
-
-## <a name="how-the-connector-chooses-which-customer-to-use"></a>Hvordan connectoren vælger, hvilken kunde der skal bruges
-
-Funktionen *Importer ordre fra Shopify* forsøger at vælge debitorer i følgende rækkefølge:
-
-1. Hvis **Standarddebitornr.** feltet er defineret i **Shopify Debitorskabelonen** for det tilsvarende land, så anvendes **Standarddebitornr.** uanset indstillingerne i felterne **Debitorimport fra Shopify** og **Debitortilknytningstype**. Flere oplysninger i [Debitorskabelon pr. land](synchronize-customers.md#customer-template-per-country).
-2. Hvis **Debitorimport fra Shopify** er indstillet til *Ingen* og **Standarddebitornr.** er defineret på siden **Shopify Butikskort** skal **Standarddebitornr.** .
-
-Næste trin afhænger af **Debitortilknytningstype**.
-
-* Hvis det er **Hent altid standardkunden**, og connectoren bruger derefter kunden, som er defineret i feltet **Standarddebitornr.** feltet på siden **Shopify Køb kort**.
-* Hvis det er **Via mail/telefon** forsøger connectoren først at finde eksisterende kunder efter id, derefter pr. e-mail og derefter pr. telefon. Hvis debitoren ikke findes-connectoren opretter en ny kunde.
-* Hvis det er **Ved faktureringsoplysninger** forsøger connectoren først at finde den eksisterende debitor efter id og derefter efter faktureringsadresseoplysninger. Hvis debitoren ikke findes-connectoren opretter en ny kunde.
-
-> [!NOTE]  
-> Connectoren bruger oplysninger fra faktureringsadressen og opretter en faktureringskunden i [!INCLUDE[prod_short](../includes/prod_short.md)]. Kunden skal være den samme som den kunde, der faktureres.
 
 ## <a name="important-settings-when-importing-customers-from-shopify"></a>Vigtige indstillinger, når du importerer debitorer fra Shopify
 
@@ -52,7 +36,7 @@ Uanset om du masseimporterer debitorer fra Shopify eller sammen med importen af 
 
 ### <a name="customer-template-per-country"></a>Debitorskabelon pr. land
 
-Nogle indstillinger kan defineres på land/regionalt niveau eller på niveauet stat/provins. Indstillingerne kan konfigureres i [Forsendelse og levering](https://www.shopify.com/admin/settings/shipping) på Shopify.
+Nogle indstillinger kan defineres på lande/regionalt niveau eller på niveauet stat/provins. Indstillingerne kan konfigureres i [Forsendelse og levering](https://www.shopify.com/admin/settings/shipping) på Shopify.
 
 Du kan gøre følgende for hver kunde ved hjælp af **Shopify -kundeskabelonen**:
 
@@ -70,25 +54,35 @@ Eksisterende kunder kan masseeksporteres til Shopify. I hvert tilfælde oprettes
 
 |Felt|Beskrivelse|
 |------|-----------|
-|**Eksportér debitorer til Shopify**|Vælg, om du vil masseeksportere alle debitorer med en gyldig mailadresse fra [!INCLUDE[prod_short](../includes/prod_short.md)] til Shopify. Du kan enten gøre det manuelt ved at bruge handlingen **Synkroniser debitorer** eller automatisk ved hjælp af en opgavekø til tilbagevendende opdateringer.<br> Når du eksporterer kunder med adresser, der omfatter provinser/stater, skal du sørge for, at **ISO-kode** er angivet for lande/områder.|
+|**Eksportér debitorer til Shopify**|Vælg, om du vil masseeksportere alle debitorer fra [!INCLUDE[prod_short](../includes/prod_short.md)] til Shopify. Du kan enten gøre det manuelt ved at bruge handlingen **Synkroniser debitorer** eller automatisk ved hjælp af en opgavekø til tilbagevendende opdateringer.<br> Når du eksporterer kunder med adresser, der omfatter provinser/stater, skal du sørge for, at **ISO-kode** er angivet for lande/områder.|
 |**Kan opdatere Shopify debitorer**|Bruges sammen med indstillingen **Eksporter debitorer til Shopify**. Aktiver den, hvis du vil oprette opdateringer senere fra [!INCLUDE[prod_short](../includes/prod_short.md)] til debitorer, der allerede findes i Shopify.|
 
-> [!NOTE]  
-> Når du har oprettet debitorerne i Shopify, kan du sende dem direkte til mødeindkaldelser for at give dem mulighed for at aktivere deres konti.
+Der er følgende krav til eksport af en debitor:
+
+* Kunden skal have en gyldig e-mailadresse.
+* Et land/område er valgt på debitorkortet, for lokale debitorer, med et tomt land/område det land/område, der er angivet på siden **firmaoplysninger**, skal have en defineret ISO-kode.
+* Hvis debitoren har et telefonnummer, skal nummeret være entydigt, da Shopify ikke accepterer en anden kunde med det samme telefonnummer.
+* Hvis kunden har et telefonnummer, skal det være i formatet E.164. Forskellige formater understøttes, hvis de repræsenterer et nummer, der kan ringes op fra et vilkårligt sted i verden. Følgende formater er mulige:
+  * xxxxxxxxxx
+  * +xxxxxxxxxxx
+  * (xxx)xxx-xxxx
+  * +x xxx-xxx-xxxx
+
+Når du har oprettet debitorerne i Shopify, kan du sende dem direkte til mødeindkaldelser for at give dem mulighed for at aktivere deres konti.
 
 ### <a name="populate-customer-information-in-shopify"></a>Udfyld kundeoplysninger i Shopify
 
 En kunde i Shopify har fornavn, efternavn, mail og/eller telefonnummer. Du kan udfylde fornavn og efternavn baseret på dataene fra debitorkortet i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-|Prioritet|Felt i debitorkort|Beskrivelse|
+|Prioritet|Felt i debitorkortet|Beskrivelse|
 |------|------|-----------|
 |1|**Kontaktnavn**|Højeste prioritet, hvis feltet **kontaktnavn** er udfyldt, og feltet **kontaktkilde** på **Shopify produktionskortet** indeholder *Fornavn og efternavn* eller *Efternavn og fornavn*, der definerer, hvordan værdierne skal opdeles.|
 |2|**Navn 2**|Hvis feltet **Navn 2** er udfyldt, og feltet **Navn 2-kilde** på **Shopify produktionskortet** indeholder *Fornavn og efternavn* eller *Efternavn og fornavn*, defineres hvordan værdierne skal opdeles.|
 |3|**Navn**|Laveste prioritet, hvis feltet **kontaktnavn** er udfyldt, og feltet **Navnekilde** på **Shopify produktionskortet** indeholder *Fornavn og efternavn* eller *Efternavn og fornavn*, der definerer, hvordan værdierne skal opdeles.|
 
-En kunde i Shopify har også en standardadresse, som ud over fornavn, efter navn, e-mail-adresse og/eller telefon kan indeholde firma og adresse. feltet **Firma** kan udfyldes på basis af data fra debitorkortet i [!INCLUDE[prod_short](../includes/prod_short.md)].
+En kunde i Shopify har også en standardadresse, som ud over fornavn, efter navn, e-mail-adresse og/eller telefon kan indeholde firma og adresse. Feltet **Firma** kan udfyldes på basis af data fra debitorkortet i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-|Prioritet|Felt i debitorkort|Beskrivelse|
+|Prioritet|Felt i debitorkortet|Beskrivelse|
 |------|------|-----------|
 |1|**Navn**|Højeste prioritet, hvis feltet **Navnekilde** på **Shopify Produktionskortet** indeholder *Firmanavn*.|
 |2|**Navn 2**|Laveste prioritet, hvis feltet **Navn 2-kilde** i **Shopify Produktionskortet** indeholder *Firmanavn*.|

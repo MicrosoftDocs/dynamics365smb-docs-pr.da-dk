@@ -1,19 +1,19 @@
 ---
 title: Statusfelt i dokumenter
 description: Få mere at vide om status "åben" og "frigivet" for tilbuds-, ordre-eller kreditnotadokumenter.
-author: rubenseishima
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: document, status, quote, order, credit memo, released, open, pending approval, pending prepayment,
 ms.search.form: ''
 ms.date: 09/19/2022
-ms.author: a-reishima
-ms.openlocfilehash: c96909b4ee37673ee7b0c752224478a144ad853e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.author: bholtorf
+ms.openlocfilehash: f48f499277155aaf60ae0992199d7895225f1ef5
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9608133"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728622"
 ---
 # <a name="status-field-on-documents"></a>Statusfelt i dokumenter
 
@@ -28,7 +28,7 @@ Når du har udfyldt dokumentet, kan du frigive det, hvorefter [!INCLUDE[prod_sho
 | Afventer godkendelse   | At dokumentet venter på at blive godkendt. |
 | Afventer forudbetaling | Der er bogført en forudbetalingsfaktura for dokumentet. |
 
-## <a name="releasing"></a>Frigive
+## <a name="release-process"></a>Frigivelsesproces
 
 Du kan bruge frigivelsesproceduren til at lette forskellige normale arbejdsprocesser, f.eks. til at følge virksomhedens godkendelsesprocedurer eller starte lageraktiviteter.
 
@@ -38,7 +38,7 @@ Virksomheden kan bruge frigivelsesproceduren til at angive, at en anden bruger h
 
 * Du kan kun frigive en købsordre, hvis leverandøren har erklæret sig indforstået med at eksekvere ordren.
 * Du skal oprette en ordre, og en anden bruger skal af sikkerhedsmæssige årsager godkende den, før du må frigive den.
-* Du har oprettet en kreditnota, der skal frigives af den leder, der er ansvarlig for at godkende alle tilbagebetalinger.
+* Den leder, der er ansvarlig for at godkende alle tilbagebetalinger, skal frigive en kreditnota, du har oprettet.
 
 Få mere at vide om godkendelsesarbejdsgange ved hjælp af [arbejdsprocesser](across-use-workflows.md).
 
@@ -46,16 +46,16 @@ Få mere at vide om godkendelsesarbejdsgange ved hjælp af [arbejdsprocesser](ac
 
 Hvis ordrestatus er **Åben**, vil lagerstedet hverken begynde at forberede leveringen eller forvente at modtage varerne på en købsordre. Når du frigiver ordren, angiver du, at ordren er færdiggjort, og at lagerstedet kan medtage den i sine aktiviteter.
 
-## <a name="reopening-a-released-order"></a>Genåbne en frigivet ordre
+## <a name="reopen-a-released-order"></a>Genåbne en frigivet ordre
 
 Du kan foretage ændringer i en frigivet ordre ved at åbne den igen. Du kan imidlertid kun øge antallet på de linjer, der allerede er behandlet af lagerstedet.
 
-Når du har foretaget ændringerne og igen frigiver ordren, genberegnes moms og rabatter på det fakturerede beløb.
+Når du har foretaget ændringerne og igen frigiver ordren, genberegner [!INCLUDE [prod_short](includes/prod_short.md)] moms og rabatter på det fakturerede beløb.
 
 Hvis du ændrer en frigivet ordre, skal du give lagerstedet besked om ændringerne.
 
 > [!NOTE]
-> Hvis du vil bogføre en enkelt åben ordre eller en kreditnota uden at frigive den først, bliver dokumentet automatisk frigivet, når du bogfører det. Hvis du bogfører ordrer eller kreditnotaer vha. funktionen **Massebogfør**, kan du vælge kun at bogføre de ordrer eller kreditnotaer, du har frigivet.
+> Hvis du vil bogføre en enkelt åben ordre eller en kreditnota uden at frigive den først, udgiver [!INCLUDE [prod_short](includes/prod_short.md)] automatisk dokumentet, når du bogfører det. Hvis du bogfører ordrer eller kreditnotaer vha. funktionen **Massebogfør**, kan du vælge kun at bogføre de ordrer eller kreditnotaer, du har frigivet.
 
 ## <a name="see-also"></a>Se også
 

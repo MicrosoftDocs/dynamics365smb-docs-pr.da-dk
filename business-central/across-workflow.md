@@ -8,12 +8,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
-ms.openlocfilehash: c8cd251a2e82cd1a721f070f14986dd78c6f1730
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
+ms.openlocfilehash: fd43becad8bd2272c4d1babf2ed2cfce40edfd2d
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716525"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728463"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Workflows i Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ Standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] understøtt
 * Power Automate-flows
 
   * Automatiserede flows, der udløses af hændelser (f.eks. oprettelse af post eller dokument, ændring eller sletning) i [!INCLUDE[prod_short](includes/prod_short.md)]. Inkluderede godkendelsesprocesser, der oprettes i Power Automate, udløses også, når der anmodes om godkendelse i [!INCLUDE[prod_short](includes/prod_short.md)].
-  * Øjeblikkelige flows, der udløses manuelt af handlingen **Automatiser** fra lister, kort og dokumentsider. 
+  * Øjeblikkelige flows, der udløses manuelt af handlingen **Automatiser** fra lister, kort og dokumentsider.
 
     Oprette og manuelt udløse et Power Automate-flow for en [!INCLUDE[prod_short](includes/prod_short.md)]-post, f. eks. en debitor, vare eller salgsordre, med mulighed for at manipulere både internt og eksternt og ved hjælp af integrerede værktøjer.
 
@@ -44,11 +44,12 @@ Med [!INCLUDE [prod_short](includes/prod_short.md)] online kan du tilmelde dig P
 
 ## <a name="approval-workflows"></a>Godkendelsesworkflows
 
-Du opretter et workflow ved at angive de involverede trin på linjerne. Hvert trin består af:
-- En workflow-hændelse, der er begrænset af hændelsesbetingelser
-- Et workflow-svar, der er begrænset af svarindstillingerne.
+Oprette en godkendelsesarbejdsgang ved at definere, hvad der starter arbejdsprocessen, og hvad der derefter sker, som følgende:
 
-Du definerer workflowtrin ved at udfylde felter om workflowlinjer med faste lister over hændelses- og svarværdier, der repræsenterer scenarier, der understøttes af programkoden.<!--What are the "values"? Can we give an example?-->
+* En workflow-hændelse, der er begrænset af hændelsesbetingelser.
+* Et workflow-svar, der er begrænset af svarindstillingerne.
+
+Du definerer workflowtrin ved at udfylde felter om workflowlinjer med hændelses- og svarværdier, der repræsenterer understøttede scenarier.
 
 Eksempler på hændelser med godkendelsesworkflows omfatter bl.a. oprettelse af salgs-eller købsordrer/tilbud/fakturaer, prisændringer og kreditor- eller debitorredigeringer med mere.
 
