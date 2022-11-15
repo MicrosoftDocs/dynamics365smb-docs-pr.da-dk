@@ -1,19 +1,19 @@
 ---
 title: Definere, hvordan data udveksles elektronisk
 description: Definer, hvordan Business Central-data udveksles med eksterne filer som elektroniske dokumenter, bankdata, varekataloger og meget mere.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.search.form: 1210, 1211, 1213, 1214, 1215, 1216, 1217
-ms.date: 09/15/2022
-ms.author: edupont
-ms.openlocfilehash: 53cb2bc92b4d56f767944593a5f5300510c2a944
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 11/03/2022
+ms.author: bholtorf
+ms.openlocfilehash: 324fa2e1576deb3f9cb4b082f065218d1576fd78
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607522"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744865"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Konfigurere dataudvekslingsdefinitioner
 
@@ -129,6 +129,7 @@ Fra og med 2022 udgivelsesbølge 2 kan du også gruppere efter et hvilket som he
     |**Tabel-id**|Angiv den tabel, der indeholder felterne, til eller fra hvilke data udveksles i henhold til tilknytningen.|  
     |**Brug som midlertidig tabel**|Angiv, om den tabel, du vælger i feltet **Tabel-id**, er en midlertidig tabel, hvor de importerede data gemmes, før de knyttes til måltabellen.<br /><br /> Du kan bruge en midlertidige tabel, når dataudvekslingsdefinitionen bruges til at importere og konvertere elektroniske dokumenter, f.eks kreditorfakturaer til købsfakturaer i [!INCLUDE[prod_short](includes/prod_short.md)]. Flere oplysninger i [Udveksle data elektronisk](across-data-exchange.md).|  
     |**Navn**|Angiv et navn for tilknytningsopsætningen.|  
+    |**Nøgleindeks**|Angiv det nøgleindeks, der sorterer kildeposterne inden eksport.|
     |**Codeunit til førtilknytning**|Angiv den kodeenhed, der klargør tilknytningen mellem felter i [!INCLUDE[prod_short](includes/prod_short.md)] og eksterne data.|  
     |**Koblings-codeunit**|Angiv den kodeenhed, der bruges til at knytte de angivne kolonner eller XML-dataelementer til felter i [!INCLUDE[prod_short](includes/prod_short.md)].|  
     |**Codeunit til eftertilknytning**|Angiv den kodeenhed, der fuldfører tilknytningen mellem felter i [!INCLUDE[prod_short](includes/prod_short.md)] og eksterne data. **Bemærk:** Når AMC Banking 365 Fundamentals-udvidelsen anvendes, konverterer codeunit eksporterede data fra [!INCLUDE[prod_short](includes/prod_short.md)] til et generisk format, der er klar til eksport. I forbindelse med import konverterer kodeenheden eksterne data til et format, der er klar til import i [!INCLUDE[prod_short](includes/prod_short.md)].|
@@ -161,6 +162,13 @@ Fra og med 2022 udgivelsesbølge 2 kan du også gruppere efter et hvilket som he
      |**Transformationsregel**|Angiv den regel, der omdanner importeret tekst til en understøttet værdi, før den kan knyttes til et angivet felt. Når du vælger en værdi i dette felt, angives den samme værdi i feltet **Transformationsregel** i feltet tilknytning af **Koblingsbuffer for feltet Dataudveksling**. og omvendt. Se næste afsnit for at få flere oplysninger om tilgængelige transformationsregler, der kan anvendes.|
      |**Prioritet**|Angiv den rækkefølge, som feltkoblingerne skal behandles i. Feltkoblingen med det højeste prioritetsnummer behandles først.|
 
+4. I oversigtspanelet **Feltgruppering** skal du angive de regler, du vil bruge til at gruppere felterne, når du opretter filen ved at udfylde felterne som beskrevet i følgende tabel.  
+
+     |Felt|Beskrivelse|  
+     |--------------------------------- |---------------------------------------|  
+     |**Felt-id**|Angiv nummeret på det felt i den eksterne fil, der bruges til gruppering, og feltet skal angives af brugeren.|
+     |**Felttitel**|Angiv titlen på feltet i den eksterne fil, der bruges til gruppering.|
+
 ## <a name="transformation-rules"></a>Transformationsregler
 
 Hvis værdierne i de felter, du tilknytter, er forskellige, skal du bruge transformationsregler til dataudvekslingsdefinitioner for at gøre dem ens. Du kan definere transformationsregler for dataudvekslingsdefinitioner ved at åbne en eksisterende definition eller oprette en ny definition og derefter i oversigtspanelet **Linjedefinitioner** vælge **Administrer** og derefter **Felttilknytning**. Der findes foruddefinerede regler, men du kan også oprette dine egne. I følgende tabel beskrives de typer af transformationer, du kan udføre.
@@ -180,6 +188,8 @@ Hvis værdierne i de felter, du tilknytter, er forskellige, skal du bruge transf
 |**Regulært udtryk – match**|Brug et regulært udtryk til at finde en eller flere værdier. Denne regel ligner indstillingerne **Understreng** og **Regulært udtryk – Erstat**.|
 |**Brugerdefineret**|Denne transformationsregel er en avanceret indstilling, der kræver assistance fra en udvikler. Den muliggør en integrationshændelse, som du kan abonnere på, hvis du vil bruge din egen transformationskode. Hvis du er udvikler og vil bruge denne indstilling, skal du se afsnittet nedenfor.|
 |**Formatering af dato/klokkeslæt**|Definer, hvordan dags dato og tidspunktet på dagen skal vises.|
+|**Feltopslag**|Brug felter fra forskellige tabeller. Hvis du vil bruge det, skal du følge nogle regler. Brug først **Tabel-id** til at angive id for den tabel, der indeholder posten til feltopslaget. Angiv derefter i feltet **ID for kildefelt** ID for feltet, der indeholder posten for feltopslaget. Angiv til sidst i feltet **ID for destinationsfelt** ID for feltet for at finde posten til feltopslaget. Du kan også bruge feltet **Feltopslagsregel** til at angive feltopslagets type. I forbindelse med feltet **Destination** bruges værdien fra **Destinationsfelt-id**, selvom feltet er tomt. Hvis **værdien i feltet er tom**, bruges den oprindelige værdi, hvis destinationen er tom.|
+|**Afrund**|Afrund værdien i feltet ved hjælp af nogle yderligere regler. Først skal du angive en afrundingspræcision i feltet **Præcision**. Angiv derefter afrundingsretningen i feltet **Retning**.|
 
 > [!NOTE]  
 > Få mere at vide om formatering af dato og klokkeslæt i [Standarddato- og tidsformatstrenge](/dotnet/standard/base-types/standard-date-and-time-format-strings).

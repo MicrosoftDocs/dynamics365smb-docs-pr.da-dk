@@ -1,50 +1,53 @@
 ---
 title: Nedbrydning med styret læg-på-lager og pluk
 description: Få mere at vide om, hvordan du aktiverer automatisk nedbrydning med styret læg-på-lager og pluk samt nedbrydning i pluk, putaways, bevægelser m.m.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.search.form: 5703, 7352
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 86ad8c18c58eaf24665310f3455ae801ebe611a2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 11/04/2022
+ms.author: bholtorf
+ms.openlocfilehash: d5e8ab6f0e60ab8874669c7e5127411acc58957b
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518675"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744673"
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Aktivere automatisk nedbrydning med styret læg-på-lager og pluk
-På lokationer, hvor der bruges styret læg-på-lager og pluk, kan [!INCLUDE[prod_short](includes/prod_short.md)] i visse tilfælde foretage automatisk nedbrydning. Dermed nedbrydes større enheder til mindre enheder, når der oprettes lagerinstruktioner, som opfylder behovet for kildedokumenter, produktionsordrer eller interne pluk og læg-på-lager. Nedbrydning kan også betyde indsamling af mindre enheder, hvis det er nødvendigt for at efterkomme udgående anmodninger, ved at nedbryde den største enhed i kildedokumentet eller produktionsordren i mindre enheder, der er tilgængelig på lageret. -nedbrydninger som følger.   
 
-## <a name="breakbulking-in-picks"></a>Nedbrydning under pluk  
-Hvis du vil lagre varer i flere forskellige enheder og lader dem blive automatisk kombineret efter behov i plukprocessen, skal du markere feltet **Tillad nedbrydning** på lokationskortet.  
+På lokationer, hvor der bruges styret læg-på-lager og pluk, kan [!INCLUDE[prod_short](includes/prod_short.md)] nedbryde større enheder til mindre enheder, når der oprettes lagerinstruktioner, som opfylder behovet for kildedokumenter, produktionsordrer eller interne pluk og læg-på-lager. Nedbrydning kan også betyde, at varer i mindre enheder bliver større, så de svarer til antallet af en større enhed i et kildedokument eller en produktionsordre.
 
-Når programmet skal fuldføre en opgave, leder det automatisk efter en vare fra samme enhed. Men hvis programmet ikke kan finde denne type vare, og du har markeret dette felt, foreslår programmet, at du nedbryder en stor enhed til den størrelse enhed, der er nødvendig.  
+## <a name="breakbulk-in-picks"></a>Nedbryde i pluk  
 
-Hvis systemet kun kan finde mindre enheder, foreslår det, at du samler varerne for at opfylde antallet på leverance- eller produktionsordren. I praksis nedbryder det større enheder på kildedokumentet til mindre enheder, der kan plukkes.  
+Hvis du vil lagre varer i flere forskellige enheder på en placering og lade dem blive automatisk kombineret efter behov i plukprocessen, skal du aktivere feltet **Tillad nedbrydning** på siden med lokationskortet. Når programmet skal fuldføre en opgave, leder [!INCLUDE [prod_short](includes/prod_short.md)] efter en vare fra samme enhed. Hvis der ikke findes en, foreslår [!INCLUDE [prod_short](includes/prod_short.md)], at du afbryder en større enhed i den måleenhed, der er nødvendig.  
 
-## <a name="breakbulking-in-put-aways"></a>Nedbrydning i læg-på-lager  
-I lagerstedets læg-på-lager foreslår programmet automatisk at placere handlingslinjer i læg-på-lager-enheder, for eksempel stykker, selvom varerne leveres i en anden form for enhed.  
+Hvis systemet kun kan finde mindre enheder, foreslår [!INCLUDE [prod_short](includes/prod_short.md)], at du samler varerne for at opfylde antallet på leverance- eller produktionsordren. I praksis nedbryder det større enheder på kildedokumentet til mindre enheder, der kan plukkes.  
 
-## <a name="breakbulking-in-movements"></a>Nedbrydning i bevægelse  
-Programmet foretager også automatisk nedbrydning i genopfyldningsbevægelser, hvis feltet **Tillad nedbrydning** er markeret i oversigtspanelet **Indstillinger** på siden **Beregn placeringsgenopfyldning**.  
+## <a name="breakbulk-in-put-aways"></a>Nedbryde i læg-på-lager  
+
+I læg-på-lager-aktiviteter kommer [!INCLUDE [prod_short](includes/prod_short.md)] med forslag til placeringslinjer i læg-på-lager-enheden. F.eks. kan det foreslå dele, selvom varerne ankommer til en anden enhed.  
+
+## <a name="breakbulk-in-movements"></a>Nedbryde i bevægelse  
+
+[!INCLUDE [prod_short](includes/prod_short.md)] kan også nedbryde i genopfyldningsbevægelser, hvis indstillingen **Tillad nedbrydning** på siden **Beregn genopfyldning** er aktiveret.  
 
 Du kan få vist resultaterne af konverteringsprocessen fra en enhed til en anden som midlertidige nedbrydningslinjer i læg-på-lager-, pluk- eller bevægelsesinstruktionerne.  
 
 > [!NOTE]  
->  Hvis du markerer feltet **Angiv nedbrydningsfilter** i lagerinstruktionshovedet, skjuler programmet nedbrydningslinjer, hver gang en større enhed vil blive brugt fuldstændig. Hvis en palle f.eks. består af 12 stykker, og du skal bruge alle 12, anmoder plukket dig om at tage en palle og placere 12 stykker der. Hvis du på den anden side kun plukker ni stykker, skjules nedbrydningslinjerne ikke, selvom du har markeret feltet **Nedbrydningsfilter**, da de resterende tre stykker stadig skal placeres et sted på lagerstedet.  
+> Hvis du markerer feltet **Angiv nedbrydningsfilter** i lagerinstruktionshovedet, skjuler programmet nedbrydningslinjer, hver gang en større enhed vil blive brugt fuldstændig. Hvis en palle f.eks. består af 12 stykker, og du skal bruge alle 12, anmoder plukket dig om at tage 1 palle og placere 12 stykker der. Men hvis du kun skal plukke 9 styk, skjules nedbrydningslinjerne ikke, selvom du har valgt **nedbrydnings filter**-feltet. Linjerne er ikke skjulte, fordi du skal anbringe de resterende tre stykker et sted på lagerstedet.  
 
 > [!NOTE]  
->  Hvis enhederne skal fungere optimalt på lagerstedet – også i forbindelse med nedbrydningsfunktionen – bør du altid tilstræbe at:  
->   
+> Hvis enhederne skal fungere optimalt på lagerstedet – også i forbindelse med nedbrydningsfunktionen – bør du altid tilstræbe at:  
+>
 > - indstille basisenheden for en vare til at være den mindste enhed, som du forventer at skulle håndtere under lagerprocessen.  
 > - Indstil alternative enheder for varen som flere forekomster af basisenheden.  
 
 ## <a name="see-also"></a>Se også  
+
 [Logistik](warehouse-manage-warehouse.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Konfigurere Warehouse Management](warehouse-setup-warehouse.md) 

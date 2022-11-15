@@ -3,12 +3,14 @@ metadata:
   title: Ofte stillede spørgsmål om elektronisk fakturering
   description: Få svar på dokumentudvekslingstjeneste og understøttede versioner af PEPPOL.
   ms.topic: faq
-  ms.openlocfilehash: 0351a756d8b07eee489ff5457c8463f8587dded4
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  author: edupont04
+  ms.author: edupont
+  ms.openlocfilehash: 42e9278371ac9736d9d6a0d4b8e288fbe295c863
+  ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
   ms.translationtype: HT
   ms.contentlocale: da-DK
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8136214"
+  ms.lasthandoff: 11/04/2022
+  ms.locfileid: "9744811"
 title: Ofte stillede spørgsmål om elektronisk fakturering
 summary: "Den indbyggede dokumentudvekslingstjeneste sender elektroniske fakturaer til TradeShift, som er en tjenesteudbyder, der relæer elektroniske fakturaer til PEPPOL eller NemHandel modtagere. Men tjenesten understøtter kun et begrænset antal versioner.   \n\nDisse ofte stillede spørgsmål besvarer nogle af nøgle spørgsmål vedrørende elektronisk fakturering.  \n"
 sections:
@@ -17,16 +19,16 @@ sections:
   - question: Hvad er problemet?
     answer: Den indbyggede understøttelse af PEPPOL bruger et API fra TradeShift. Men denne API understøtter ikke nyere versioner af PEPPOL.
   - question: Hvilken er den sidste version af PEPPOL, der understøttes af TradeShift API?
-    answer: Den seneste version af PEPPOL, der understøttes af TradeShift API, er **PEPPOL BIS 2.1**.
+    answer: Den seneste version af PEPPOL, der understøttes af TradeShift API, er **PEPPOL BIS 2.1**.
   - question: Hvilken er den sidste version af PEPPOL, der understøttes af Business Central?
-    answer: Den seneste version af PEPPOL, der understøttes af standardversionen af Business Central, er **PEPPOL BIS 3,0**. Vi holder den eksisterende dokumentudvekslingstjeneste på basis af TradeShift, aktiv, så længe TradeShift understøtter den aktuelle API. Derudover vil vi fortsat understøtte det elektroniske faktureringsformat, der understøttes i øjeblikket.
+    answer: Den seneste version af PEPPOL, der understøttes af standardversionen af Business Central, er **PEPPOL BIS 3,0**. Vi holder den eksisterende dokumentudvekslingstjeneste på basis af TradeShift, aktiv, så længe TradeShift understøtter den aktuelle API. Derudover vil vi fortsat understøtte det elektroniske faktureringsformat, der understøttes i øjeblikket.
 - name: -apps
   questions:
   - question: Er der apps, der kan hjælpe os med elektronisk fakturering?
     answer: >
       Ja! Følgende liste indeholder eksempler på eksisterende apps til Business Central, som understøtter elektronisk fakturering i de nyeste formater. Bemærk, at det ikke er en fuldstændig liste:
 
-      - [Pagero-E-faktura-app (Danmark, Tyskland, Finland, Frankrig, Norge, Spanien, Sverige, Storbritannien)](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6)
+      - [Pagero-E-faktura-app (Belgien, Danmark, Tyskland, Finland, Frankrig, Italien, Luxemburg, Norge, Saudi Arabien, Singapore, Spanien, Sverige, Storbritannien, USA)](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6)
 
       - [Oseberg-løsninger-E-faktura PEPPOL bis (Norge)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.oseberg_solutions%7CAID.oseberg_peppol%7CPAPPID.49206e10-c889-400d-8465-bde6555e00fc)
 
@@ -36,7 +38,7 @@ sections:
 
       - [NAVlab-fuldtidsansatte LITE Sky (Italien)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.navlab-1990684%7CAID.felight%7CPAPPID.a239eef8-4446-4379-a0af-e0f8f1e7f260?tab=Overview)
 
-      - [AppVision-elektronisk faktura for Ungarn](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.appvision-5226274%7CAID.hungarian_electronic_invoice%7CPAPPID.f5891011-91e3-416e-92c7-db21f1f3a939?tab=Overview) 
+      - [AppVision-elektronisk faktura for Ungarn](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.appvision-5226274%7CAID.hungarian_electronic_invoice%7CPAPPID.f5891011-91e3-416e-92c7-db21f1f3a939?tab=Overview)
 
       - [Estisk Dynamics-partnere-telema EDI (Estland)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.estonian_dynamics_partners%7CAID.telema-edi%7CPAPPID.0f6cfaa0-c4d6-49af-a644-4194e69420be)
 
@@ -50,5 +52,5 @@ sections:
 - name: B2G krav i Tyskland
   questions:
   - question: Hvad med B2G-behovet i Tyskland?
-    answer: For brugere af Business Central, der har kunder i den tyske regering, og som har brug for B2G-fakturering, skal pr. 27. november 2020 sende fakturaer i lokale formater, f.eks. *XRechnung* eller *ZUGFeRD*.  Dette understøttes af apps som [Belware XRechnung](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector_365_xrechnung%7CPAPPID.0e71f27e-d331-4045-a643-c2777a797cc4?tab=Overview) eller [Pagero E-fakturering](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6). 
+    answer: For brugere af Business Central, der har kunder i den tyske regering, og som har brug for B2G-fakturering, skal pr. 27. november 2020 sende fakturaer i lokale formater, f.eks. *XRechnung* eller *ZUGFeRD*.  Dette understøttes af apps som [Belware XRechnung](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector_365_xrechnung%7CPAPPID.0e71f27e-d331-4045-a643-c2777a797cc4?tab=Overview) eller [Pagero E-fakturering](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6).
 additionalContent: "## <a name=\"next-steps\"></a>Næste trin\nSøg efter relaterede oplysninger her: \n  - [Sende elektroniske dokumenter](sales-how-to-send-electronic-documents.md)"

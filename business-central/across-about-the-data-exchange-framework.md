@@ -10,16 +10,16 @@ ms.search.keywords: Data exchange framework, data files, data exchange, electron
 ms.search.form: 189,
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: c48d6a304e0938bbae70e61545b4a4e8d72fbdde
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d5c8a96066311eb7e2050507b6c4f27066a70f62
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134378"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744646"
 ---
 # <a name="about-the-data-exchange-framework"></a>Om Data Exchange Framework
 
-Du kan bruge dataudvekslingsstrukturen til at håndtere udveksling af forretningsdokumenter, bankfiler, valutakurser og andre datafiler med dine samarbejdspartnere.
+Du kan bruge dataudvekslingsstrukturen til at håndtere udveksling af forretningsdokumenter, bankfiler, valutakurser og andre datafiler med dine samarbejdspartnere eller myndighederne.
 
 Som administrator eller Microsoft-partner kan du bruge strukturen i nye integrationsfunktioner ved at definere, hvilke data der skal udveksles og hvordan. Filformatet til udveksling af data i bankfiler, elektroniske dokumenter, valutakurser og andet i ERP-systemer afhænger f.eks. af udbyderen af datafilen eller streamen og landet/området. [!INCLUDE[prod_short](includes/prod_short.md)] understøtter forskellige bankfilformater og datatjenestestandarder. For at understøtte andre elektroniske dokumentformater kan du bruge dataudvekslingsstrukturen.
 
@@ -59,10 +59,14 @@ Du kan konfigurere en ekstern tjeneste til at holde dine valutakurser opdaterede
 
 Ved al udveksling af data i XML-filer kan du forberede dataudvekslingsopsætningen ved at indlæse den relaterede XML-skemafil på siden **XML-skemafremviser**. Her kan du vælge de dataelementer, du vil udveksle med [!INCLUDE[prod_short](includes/prod_short.md)], og derefter enten initialisere en dataudvekslingsdefinition eller generere en XMLport.
 
+## <a name="intrastat"></a>Intrastat
+
+[!INCLUDE[prod_short](includes/prod_short.md)] bruger Data Exchange-strukturen til Intrastat-rapportering, hvor du nemt kan oprette tidsstemplede filer i forskellige formater til eksport. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder forberedte formater til lokaliserede lande og til standardversion. Men du kan ændre standardrapporten eller oprette din egen.
+
 ## <a name="see-also"></a>Se også
 
 [Udveksle data elektronisk](across-data-exchange.md)  
-[Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
+[Brug XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  
 [Indgående bilag](across-income-documents.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
