@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
 ms.search.forms: ''
-ms.date: 02/06/2022
+ms.date: 10/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: 515f95506bfae97ba0c66389d219751ea5b6896e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 54d3ce9c571973482fe1ba0fdb8cad76a87752c2
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530536"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744946"
 ---
 # <a name="calculate-dates-for-purchases"></a>Beregning af forfaldsdato for køb
 
@@ -44,9 +44,9 @@ Hvis du angiver en ønsket modtagelsesdato på en købsordrelinje, tildeles denn
 > [!NOTE]
 > Hvis processen er baseret på bagudrettet beregning, f.eks. hvis du bruger den ønskede modtagelsesdato til at hente ordredatoen, anbefales det, at du bruger datoformler med faste varigheder, f.eks. "5D" for fem dage eller "1U" for én uge. Datoformler uden faste varigheder, f.eks. "AU" for aktuelle uge eller AM for den aktuelle måned, kan resultere i forkerte datoberegninger. Du kan finde flere oplysninger om datoformler i [Arbejde med kalenderdatoer og-klokkeslæt](ui-enter-date-ranges.md).
 
-## <a name="calculating-without-a-requested-delivery-date"></a>Beregning uden en ønsket leveringsdato
+## <a name="calculating-without-a-requested-receipt-date"></a>Beregne uden en ønsket modtagelsesdato
 
-Hvis du angiver en købslinje uden en ønsket leveringsdato, udfyldes feltet **Ordredato** automatisk med datoen fra feltet **Ordredato** på købshovedet. Denne dato kan enten være en indtastet dato eller arbejdsdatoen. Med ordredatoen som udgangspunkt beregnes datoer derefter automatisk til købsordrelinjen, som følger:  
+Hvis du angiver en købslinje uden en ønsket modtagelsesdato, udfyldes feltet **Ordredato** automatisk med datoen fra feltet **Ordredato** på købshovedet. Denne dato kan enten være en indtastet dato eller arbejdsdatoen. Med ordredatoen som udgangspunkt beregnes datoer derefter automatisk til købsordrelinjen, som følger:  
 
 - Ordre dato + Leveringstidsberegning = Planlagt modtagelsesdato  
 - Planlagt modtagelsesdato + Indgående lagerekspeditionstid + Sikkerhedstid = Forventet modtagelsesdato  

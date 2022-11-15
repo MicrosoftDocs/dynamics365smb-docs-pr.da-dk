@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d2b4ac035f3c6336a5bc5646cbc0145bb671788a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 2cabd68e2ec22aaef4ad1f0b34305a95a2e93a5e
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529429"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744919"
 ---
 # <a name="setting-up-data-exchange"></a>Konfigurere dataudveksling
 
@@ -35,6 +35,7 @@ Før du kan sende og modtage elektroniske dokumenter eller importere og eksporte
 |Konfigurer brugergodkendelse og URL-adressen på den AMC Banking 365 Fundamentals-udvidelsesudbyder, der skal have bankfiler, der er konverteret til din banks format.|[Brug AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)|  
 |Konfigurer en ekstern tjeneste, hvor du kan indlæse bankkontoudtog som bankfeeds.|[Konfigurere tjenesten til bankkontoudtog](bank-how-setup-bank-statement-service.md)|  
 |Når tjenesten Bankkontoudtog er aktiveret, kan du tilknytte bankkonti i [!INCLUDE[prod_short](includes/prod_short.md)]|[Konfigurere bankkonti](bank-how-setup-bank-accounts.md)|  
+|Konfigurere dataeksport til Intrastat-rapportering i [!INCLUDE[prod_short](includes/prod_short.md)].|[Oprette Intrastat-rapportering](finance-how-setup-report-intrastat.md)|
 |Forbered konfigurationen af en ny dataudvekslingsdefinition for en datafil eller strøm ved hjælp af filens XML-skema for at forhåndsudfylde oversigtspanelet **Kolonnedefinitioner** på siden **Bogføringsudvekslingsdefinition**.|[Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Konfigurer Exchange Data Framework for at gøre det muligt for brugerne at modtage et nyt købsdokumentformat, sende et nyt salgsdokumentformat, importere en ny bankfil eller anden dataudveksling.|[Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)|  
 

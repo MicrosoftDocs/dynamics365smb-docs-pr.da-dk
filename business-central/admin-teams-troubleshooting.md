@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9d6d5ca853d11a08c2933dd6abcbc82d0ff4dbc4
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 064780473eb98f4fde4d170f0aa5c16a998799af
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528471"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744757"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Fejlfinding af Microsoft Teams-integration med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -159,6 +159,23 @@ Dette problem kan skyldes en række årsager. Den identitet, du bruger til at lo
 ## <a name="my-cards-no-longer-have-a-popout-button"></a>Mine kort har ikke længere en pop-op-knap
 
 Fra og med den 2022 vil hyperlinks, der vises som Compact kort i grupper, ikke længere indeholde knappen **Pop-op**. Hvis du vil åbne det pågældende kort i et separat vindue, skal du klikke på knappen **Detaljer** og derefter vælge **Åbn i webbrowser** i menuen ellipser (**...**) i øverste højre hjørne af vinduet.
+
+## <a name="cant-pin-a-card-to-tab"></a>Kan ikke fastgøre et kort til fanen
+
+Der er et par grunde til dette problem.
+
+- Hvis kortet er delt mod Søg ME, kan det ikke fastgøres til en fane. 
+
+- Kan ikke fastgøres, før du tilføjer din første Business Central-fane. Dette problem er kendt i Teams. 
+
+## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Nogen har tilføjet en fane, men fanen vises ikke for mig
+
+Dette problem skyldes, at du ikke har installeret BC app til Teams. Det er kun dem, der har installeret appen, som kan se Business Central-fanerne.
+
+## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Andre ser forskellige sorterings- eller kolonneformater, end hvad faneudvikleren ser
+
+Dette problem skyldes sandsynligvis, at du har delt en listevisning, som er en personlig visning. I dette tilfælde skal du samarbejde med administratoren om at oprette rollespecifikke listevisninger, der dækker de forskellige roller i kanalen/chatten, eller oprette visningen for hele organisationen, så alle kan få en ensartet visning.
+
 
 ## <a name="see-also"></a>Se også
 
