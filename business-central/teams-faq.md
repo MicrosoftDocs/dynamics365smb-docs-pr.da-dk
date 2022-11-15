@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 09/28/2022
 ms.author: jswymer
-ms.openlocfilehash: d9dfc380b1b8a76fc06363740b256f28b162a85a
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: aac91da92b51831951bd890248d7f80f8bc5104d
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606112"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744700"
 ---
 # <a name="teams-faq"></a>Teams, ofte stillede spørgsmål
 
@@ -77,7 +77,7 @@ Ja. Appen [!INCLUDE [prod_short.md](includes/prod_short.md)] kan installeres fra
 
 ### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>Er [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen til Teams den samme som [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen til iOS og Android?
 
-Nummer Appen til Teams er et tilføjelsesprogram til Microsoft Teams og er udelukkende beregnet til samarbejde i Teams. På den anden side giver [!INCLUDE [prod_short.md](includes/prod_short.md)]-mobilappen en omfattende oplevelse, så du kan arbejde med [!INCLUDE [prod_short.md](includes/prod_short.md)]-data på dine mobilenheder.
+Nej. Appen til Teams er et tilføjelsesprogram til Microsoft Teams og er udelukkende beregnet til samarbejde i Teams. På den anden side giver [!INCLUDE [prod_short.md](includes/prod_short.md)]-mobilappen en omfattende oplevelse, så du kan arbejde med [!INCLUDE [prod_short.md](includes/prod_short.md)]-data på dine mobilenheder.
 
 Mobilbrugere opfordres til at installere både mobilappen og appen til Teams for at få mest muligt ud af [!INCLUDE [prod_short.md](includes/prod_short.md)]. Når begge er installeret, kan du vælge **Pop op**-handlingen på et kort i Teams for at åbne kortdetaljerne i [!INCLUDE [prod_short.md](includes/prod_short.md)]-mobilappen. Flere oplysninger om installation af [!INCLUDE [prod_short.md](includes/prod_short.md)] og Teams mobilapps på:
 
@@ -145,6 +145,92 @@ Hvis du vil deltage i forbedringen af appen til Teams eller har en god ide til a
 
 Flere oplysninger om funktioner i den webklient, der er sammenkædet med grupper, kan du se i [Links til deling af poster og side i Microsoft Teams](across-working-with-teams.md#share-link).
 
+## <a name="business-central-tabs"></a>[Business Central-faner](#tab/tabs)
+
+### <a name="who-can-see-the-content-of-a-tab"></a><a name="who-can-view"></a>Hvem kan se indholdet af en fane?
+
+En person i chat eller kanal, som har:
+
+1. Business Central-appen til Teams installeret.
+2. Enten en Business Central-licens eller har fået adgangstilladelse til Business Central ved hjælp af Microsoft 365-licensen.
+3. Tilladelse til at få vist dataene på siden.
+
+### <a name="where-does-the-recommended-content-come-from"></a><a name=#recommended-content></a>Hvor kommer det anbefalede indhold fra?
+
+Det anbefalede indhold, som du kan vælge mellem under **fane-indhold** på en fane, er baseret på dit rollecenter. Anbefalet indhold omfatter kun listesider, f. eks. kunder, salgsordrer og leverandører - ikke individuelt kortside for en bestemt kunde eller leverandør.
+
+Særligt, anbefalet indhold omfatter:
+
+- Handlinger i den øverste navigationsmenu i Rollecenter
+- Alle listesider, du har givet et bogmærke.
+- Hvis en listeside indeholder forskellige visninger, herunder alle visninger, du har oprettet, kan du også vælge mellem disse visninger
+
+Du kan føje listesider til det anbefalede indhold ved at tilføje bogmærker. Du kan også fjerne anbefalet indhold ved at slette bogmærker. Du kan finde flere oplysninger om, hvordan du tilføjer eller sletter bogmærker, i [Bogmærke på en side eller i en rapport i dit rollecenter](ui-bookmarks.md).
+
+Hvis du skifter miljø eller regnskab under fanen fane, ændres det anbefalede indhold, der er baseret på rollecenteret og bogmærker for det miljø og den virksomhed, som du skifter til.
+
+
+
+### <a name="when-i-create-a-tab-does-it-grant-permissions-to-the-people-in-the-channel-or-chat"></a>Når jeg opretter en fane, giver den tilladelse til personerne i kanalen eller chatten?
+
+Nej Oprettelse af tabulatorer påvirker ikke tilladelser, og brugere skal allerede have tilladelse til disse data, når de åbner fanen.
+
+### <a name="can-i-chat-alongside-a-tab"></a>Kan jeg chatte ved siden af en fane?
+
+Ja. Start samtalen ved hjælp af ikonet chat. Derefter knyttes denne chattråd til fanen. 
+
+### <a name="if-i-remove-a-tab-from-a-chat-or-channel-is-any-business-central-data-deleted"></a>Er alle Business Central-data slettet, hvis jeg fjerner en fane fra en chat eller kanal?
+
+Nej
+
+### <a name="can-i-safely-rename-a-tab"></a>Kan jeg omdøbe en fane sikkert?
+
+Ja. Indholdet under fanen er ikke relateret til fanens faktiske navn. Omdøb ved vilje! 
+
+### <a name="i-need-to-work-across-tasks-in-different-windows-can-i-do-this"></a>Jeg har brug for at arbejde på tværs af opgaver i forskellige vinduer. Kan jeg gøre dette?
+
+Ja. Du kan få vist fanen med sit eget browservindue, så du kan se Business Central-webklient. 
+
+### <a name="can-i-add-or-pin-tab-in-team-meetings"></a>Kan jeg tilføje eller fastgøre faner i Teams-møder?
+
+Nej Business central-app'en for Teams understøtter ikke faner i møder.
+
+### <a name="cant-add-a-tab-if-using-isv-urls-like-bcdynamicscom-but-can-pin"></a>Der kan ikke tilføjes en fane, hvis der bruges ISV-URL-adresser som *. bc.dynamics.com (men de kan fastgøres)
+
+Ikke understøttet.
+
+### <a name="when-i-do-things-in-the-tab-like-navigate-resort-apply-a-filter-or-search-do-others-see-my-changes"></a>Når jeg gør noget under fanen, f.eks. navigere, sortere igen, anvende et filter eller søge, kan andre se mine ændringer?
+
+Nej Kun feltændringer eller kørselshandlinger påvirker, hvordan andre ser indholdet under fanen.
+
+### <a name="does-the-tab-content-refresh-automatically-if-not-how-do-i-refresh-it"></a>Opdateres faneindholdet automatisk? Hvis ikke, hvordan foretager jeg en opdatering?
+
+Indholdet opdateres ikke automatisk, og der er ingen automatiske opdateringsknapper. Den bedste måde at opdatere indholdet på for at sikre, at det er op til data, skal du forlade fanen og derefter vende tilbage. 
+
+### <a name="does-this-show-lists-and-records-from-my-customizations-and-add-ons"></a>Vises og registreres der poster fra mine tilpasninger og tilføjelsesprogrammer?
+
+Ja. 
+
+### <a name="when-i-add-a-tab-will-people-see-it-in-my-language"></a>Når jeg tilføjer en fane, kan de ses på mit sprog?
+
+Nej Hver bruger får en visning af faneindholdet i indstillingerne sprog, område og tidszone fra Business central. 
+
+### <a name="can-i-have-multiple-tabs-pointing-to-different-content"></a>Kan jeg have flere faner, der peger på andet indhold?
+
+Ja.
+
+### <a name="can-i-also-add-tabs-to-chat-with-a-single-person"></a>Kan jeg også tilføje faner til chat med en enkelt person?
+
+Ja, så længe chatten ikke er en kladde (dvs. en meddelelse er ikke blevet sendt til at starte denne chat), og den anden person har installeret Business Central-appen.
+
+### <a name="can-i-switch-companies-within-a-tab"></a>Kan jeg skifte virksomhed under en fane?
+
+Nej 
+
+### <a name="is-this-different-than-using-teams-generic-ability-to-create-a-tab-that-hosts-a-website"></a>Er dette anderledes end brugen af Teams generiske mulighed for at oprette en fane, der fungerer som vært for et websted?
+
+Ja. Det anbefales, at du ikke bruger visningen. I mange tilfælde fungerer det ikke for Business central.
+
 ## <a name="search-for-contacts"></a>[Søg efter kontakter](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>Hvilke tabeller søger appen i?
@@ -156,6 +242,7 @@ Når du søger efter kontakter fra appen [!INCLUDE [prod_short.md](includes/prod
 Når du skriver dine søgeord i søgefeltet, sammenlignes udtrykkene med de fleste felter i tabellen **Kontakter**. Disse felter omfatter f.eks. **Nummer**, **Navn**, **Adresse**, **Telefonnr.** eller felterne **Mobilnr.** og **Mail**. 
 
 Søgeord matches ikke med brugerdefinerede felter, der er føjet til tabellen **Kontaktpersoner** af apps og udvidelser.
+
 ### <a name="do-search-results-include-companies-and-persons"></a>Omfatter søgeresultater virksomheder og personer?
 
 Ja. I [!INCLUDE [prod_short.md](includes/prod_short.md)] kan kontakter være af typen **Virksomhed** eller **Person**, hvor en eller flere personer kan være knyttet til en virksomhed. I søgeresultaterne kan virksomheder og personer have forskellige ikoner.
@@ -203,7 +290,7 @@ Ja. Kontakter i [!INCLUDE [prod_short.md](includes/prod_short.md)] repræsentere
 
 ### <a name="does-prod_shortmd-synchronize-contacts-with-teams"></a>Synkroniserer [!INCLUDE [prod_short.md](includes/prod_short.md)] kontakter med Teams?
 
-Nummer Kontaktpersoner i [!INCLUDE [prod_short.md](includes/prod_short.md)] forbliver adskilte fra kontakter, der er gemt i Teams.
+Nej. Kontaktpersoner i [!INCLUDE [prod_short.md](includes/prod_short.md)] forbliver adskilte fra kontakter, der er gemt i Teams.
 Der er i øjeblikket ingen planer om at synkronisere de to lister.
 
 ### <a name="what-is-the-minimum-version-of-prod_shortmd-for-contact-search"></a>Hvad er minimumversionen af [!INCLUDE [prod_short.md](includes/prod_short.md)] med henblik på søgning efter kontakter?
@@ -261,7 +348,7 @@ Hvis du sletter en meddelelse, der indeholder et kort, slettes eller påvirkes d
 
 ### <a name="do-cards-always-show-up-to-date-information"></a>Viser kort altid opdaterede oplysninger?
 
-Nummer Feltværdierne på et kort i Teams, herunder alle billeder, er baseret på de data, der er tilgængelige, da kortet blev sendt til chatten. [!INCLUDE [prod_short.md](includes/prod_short.md)]-kort opdateres ikke automatisk i Teams. 
+Nej. Feltværdierne på et kort i Teams, herunder alle billeder, er baseret på de data, der er tilgængelige, da kortet blev sendt til chatten. [!INCLUDE [prod_short.md](includes/prod_short.md)]-kort opdateres ikke automatisk i Teams. 
 
 ### <a name="will-others-see-my-card-if-they-dont-have-the-prod_shortmd-app-for-teams"></a>Vil andre se mit kort, hvis de ikke har [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen til Teams? 
 
@@ -279,7 +366,7 @@ Hvis du arbejder på tværs af [!INCLUDE [prod_short.md](includes/prod_short.md)
 
 ### <a name="if-i-choose-to-view-details-for-a-card-will-other-users-see-my-details-window"></a>Hvis jeg vælger at få vist detaljer om et kort, får andre brugere vist vinduet mine oplysninger?
 
-Nummer Mens alle i chatten eller mødet kan se selve kortet, vises vinduet med oplysninger kun for dig på din enhed, når du vælger **Detaljer**. Andre brugere skal vælge **Detaljer**, hvis de vil have vist detaljevinduet på deres enhed.
+Nej. Mens alle i chatten eller mødet kan se selve kortet, vises vinduet med oplysninger kun for dig på din enhed, når du vælger **Detaljer**. Andre brugere skal vælge **Detaljer**, hvis de vil have vist detaljevinduet på deres enhed.
 
 ### <a name="can-i-start-a-teams-call-from-the-details-window-in-teams"></a>Kan jeg starte et Teams-opkald fra vinduet detaljer i Teams?
 
@@ -333,15 +420,15 @@ Når du bruger Del på Teams, sendes meddelelsen til en person, gruppe eller kan
 
 ### <a name="is-share-to-teams-available-in-business-central-on-premises"></a>Er Del på Teams tilgængelig i Business Central lokalt? 
 
-Nummer På samme måde som [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams kan denne funktion kun vælges til webklienten [!INCLUDE [prod_short.md](includes/prod_short.md)] online. Der er ingen planer om at understøtte [!INCLUDE [prod_short.md](includes/prod_short.md)]-installationstyper&mdash;f.eks. i det lokale miljø, hybrid-sky eller privat sky&mdash;som Microsoft hverken er vært for eller administrerer direkte.
+Nej. På samme måde som [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams kan denne funktion kun vælges til webklienten [!INCLUDE [prod_short.md](includes/prod_short.md)] online. Der er ingen planer om at understøtte [!INCLUDE [prod_short.md](includes/prod_short.md)]-installationstyper&mdash;f.eks. i det lokale miljø, hybrid-sky eller privat sky&mdash;som Microsoft hverken er vært for eller administrerer direkte.
 
 ### <a name="does-share-to-teams-grant-permissions-to-recipients"></a>Kan Del på Teams give tilladelser til modtagerne? 
 
-Nummer Når du deler med en person, en gruppe eller en kanal, påvirkes tilladelserne ikke. Brugere, der allerede har tilladelse til at få vist siden og de data, som er målrettet af hyperlinket, kan gøre det. Brugere, som ikke har tilladelse til at få vist denne side og disse data eller ikke har en [!INCLUDE [prod_short.md](includes/prod_short.md)]-licens, vises som en fejlmeddelelse. 
+Nej. Når du deler med en person, en gruppe eller en kanal, påvirkes tilladelserne ikke. Brugere, der allerede har tilladelse til at få vist siden og de data, som er målrettet af hyperlinket, kan gøre det. Brugere, som ikke har tilladelse til at få vist denne side og disse data eller ikke har en [!INCLUDE [prod_short.md](includes/prod_short.md)]-licens, vises som en fejlmeddelelse. 
  
 ### <a name="must-i-have-the-teams-desktop-app-installed-to-use-share-to-teams"></a>Skal jeg have Teams Desktop-app installeret for at kunne bruge Del på Teams? 
 
-Nummer Det eneste, du behøver, er en gyldig konto, der har adgang til Microsoft Teams. 
+Nej. Det eneste, du behøver, er en gyldig konto, der har adgang til Microsoft Teams. 
 
 ### <a name="is-share-to-teams-available-in-all-business-central-clients"></a>Er Del på Teams tilgængelig i alle Business Central-klienter? 
 
