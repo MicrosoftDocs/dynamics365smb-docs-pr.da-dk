@@ -1610,6 +1610,7 @@
 ##### [Administrere Teams-integration](admin-teams-integration.md)
 ##### [Installere Business central-app i Teams.](across-install-app-for-teams.md)
 ##### [Søge efter debitorer, kreditorer og kontakter](across-search-contacts-teams.md)
+##### [Tilføje fanen Business Central til kanal eller chat](across-teams-tab.md)
 ##### [Dele Business Central-poster og Sidelinks i Teams](across-working-with-teams.md)
 ##### [Ændre virksomhed og andre indstillinger](across-teams-settings.md)
 ##### [Teams, ofte stillede spørgsmål](teams-faq.md)
@@ -1784,6 +1785,12 @@
 ### [Administrationsopgaver](admin-setup-and-administration.md)
 ### [Oprette brugere i henhold til licenser](ui-how-users-permissions.md)
 ### [Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)
+### Adgang til Microsoft 365-licenser
+#### [Oversigt](admin-access-with-m365-license.md)
+#### [Konfigurere adgang til Microsoft 365-licenser](admin-access-with-m365-license-setup.md)
+#### [Brugerens adgangsflow](admin-access-with-m365-license-flow.md)
+<!--#### [FAQ](admin-access-with-m365-license-faq.md) file temporarily moved to archive folder-->
+#### [Fejlfinding](admin-access-with-m365-license-troubleshooting.md) 
 ### [Administrere profiler](admin-users-profiles-roles.md)
 ### [Administrere brugerindstillinger og præferencer](admin-manage-user-settings-preferences.md)
 ### [Installation af printere](ui-specify-printer-selection-reports.md)
