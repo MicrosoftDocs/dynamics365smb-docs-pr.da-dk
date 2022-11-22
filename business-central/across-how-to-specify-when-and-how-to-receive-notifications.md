@@ -1,24 +1,25 @@
 ---
 title: Angive, hvornår og hvordan arbejdsgangsnotifikationer modtages
 description: Når du konfigurerer brugere i godkendelsesarbejdsgange, kan du angive, hvordan og hvornår hver godkendelsesbruger modtager beskeder.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 663, 1500, 1512, 1513,
 ms.date: 09/09/2022
-ms.author: edupont
-ms.openlocfilehash: 7b70da08a4fb8ffdb7ff16544b511576f9af0f86
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.author: bholtorf
+ms.openlocfilehash: 74387ee5cb8581d8b8e1cce5c1d1c8850cd6c842
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585498"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9763249"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Angive, hvornår og hvordan arbejdsgangsnotifikationer modtages
 
-Når du opretter godkendelses brugere i arbejdsprocesser, hvor du vil have, at en anden bruger skal kunne godkende ændringer, f. eks. når der oprettes nye poster, eller når en bruger anmoder om godkendelse, skal du angive, hvordan og hvornår godkendelsesbrugeren får besked. Du kan f. eks. angive, at en godkendelsesbruger straks skal modtage en e-mail, når nogen opretter en ny kunde. Du kan også vælge at planlægge, at notifikationer skal holdes og leveres sammen, f. eks. en gang om ugen eller måneden.
+Når du opretter godkendelses brugere i arbejdsprocesser, hvor du vil have, at en anden bruger skal kunne godkende ændringer, f. eks. når der oprettes nye poster, eller når en bruger anmoder om godkendelse, skal du angive, hvordan og hvornår godkendelsesbrugeren skal have besked. Du kan f. eks. angive, at en godkendelsesbruger straks skal modtage en e-mail, når nogen opretter en ny kunde. Du kan også vælge at planlægge, at notifikationer skal holdes og leveres sammen, f. eks. en gang om ugen eller måneden.
 
 Brugere kan også ændre deres opsætning ved at klikke på knappen **Rediger notifikationsindstillinger** i en vilkårlig notifikation.  
 
@@ -38,10 +39,10 @@ Mange trin i et godkendelsesworkflow vedrører notifikationer til brugere om, at
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Godkendelse af brugerkonfiguration**, vælg det relaterede link.  
 2. Vælg linjen med den bruger, du vil konfigurere notifikationsindstillinger for, og vælg derefter handlingen **Konfiguration af notifikation**.  
-3. På siden **Konfiguration af notifikation** skal du udfylde felterne som beskrevet i følgende tabel.  
+3. På siden **Konfiguration af notifikation om arbejdsgang** skal du udfylde felterne som beskrevet i følgende tabel.  
 
    > [!NOTE]
-   > Hvis du åbner siden med **Konfiguration af notifikation** fra siden **Brugeropsætning af godkendelser**, er notifikationsopsætningen knyttet til godkendelsesbrugeren. Godkendelsesbrugeren vil altid modtage beskeder om arbejdsgangen ifølge denne Notifikationsopsætning. Hvis du bruger *Fortæl mig*-funktionen til at åbne siden **Notifikationsopsætning** med, vil notifikationsopsætningen gælde for alle brugere.
+   > Hvis du åbner siden med **Konfiguration af notifikation om arbejdsgang** fra siden **Brugeropsætning af godkendelser**, er notifikationsopsætningen knyttet til godkendelsesbrugeren. Godkendelsesbrugeren vil altid modtage beskeder om arbejdsgangen ifølge denne Notifikationsopsætning. Hvis du bruger *Fortæl mig*-funktionen til at åbne siden **Konfiguration af notifikation om arbejdsgang**, vil notifikationskonfigurationen gælde for alle brugere.
 
    |Felt|Beskrivelse|
    |-----|-----------|
@@ -66,7 +67,7 @@ Mange trin i et godkendelsesworkflow vedrører notifikationer til brugere om, at
 ## <a name="change-when-and-how-you-receive-notifications"></a>Rediger, hvornår og hvordan du modtager notifikationer
 
 1. På en af de notifikationer, du har modtaget, enten som mail eller note, skal du klikke på knappen **Rediger notifikationsindstillinger**.  
-2. På siden **Konfiguration af notifikation** skal du ændre dine indstillinger som beskrevet i trin 3-5 ovenfor.
+2. På siden **Konfiguration af notifikation om arbejdsgang** skal du ændre dine indstillinger som beskrevet i trin 3-5 ovenfor.
    1. Kontroller, at der er valgt den rette notifikation under feltet **Notifikationstype**.
    2. Vælg, om der skal modtages en mail-eller note under feltet **Notifikationsmetode**.
    3. Vælg en **Notifikationsplan** for at ændre den hyppighed og gentagelse, der sendes beskeder til.
