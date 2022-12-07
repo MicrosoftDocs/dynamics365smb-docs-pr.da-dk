@@ -8,18 +8,22 @@ ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 3
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 2e79d19fd2fd03ec245c020cb9004809bccb5ec4
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
+ms.openlocfilehash: 70c401e072e742e508b8f623ae3242d8e647ccb6
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728325"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802926"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Synkronisere og opfylde salgsordrer
 
 I denne artikel beskrives de nødvendige indstillinger og trin, du skal fuldføre for at synkronisere og opfylde salgsordrer fra Shopify i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Angive importen af ordrer på Shopify-butikskortet
+
+Husk at angive en **Valutakode**, hvis din online-butik bruger en anden valuta end den relevante regnskabsvaluta. Der skal være konfigureret valutakurser for den angivne valuta. Hvis dit onlineindkøb bruger samme valuta som [!INCLUDE[prod_short](../includes/prod_short.md)], skal du lade feltet stå tomt. 
+
+Du kan se lager valutaen i indstillingerne for [butiksdetaljer](https://www.shopify.com/admin/settings/general) i din Shopify-administrator. Shopify kan konfigureres til at acceptere forskellige valutaer, men importerede ordrer til [!INCLUDE[prod_short](../includes/prod_short.md)] butiksvaluta.
 
 En almindelig Shopify-ordre kan indeholder omkostninger ud over subtotalen, f. eks. forsendelsesgebyrer eller, hvis det er aktiveret, tip. Beløbene bogføres direkte på den finanskonto, der skal bruges til bestemte posteringstyper:
 
@@ -80,7 +84,7 @@ Du kan planlægge, at følgende tilbagevendende aktiviteter skal udføres automa
 
 ## <a name="review-imported-orders"></a>Gennemgå importerede ordrer
 
-Når importen er fuldført, kan du udforske Shopify-ordren og finde alle relaterede oplysninger, f. eks. betalingstransaktioner, forsendelsesomkostninger, følgerne, risikoniveauet eller opfølgningerne, hvis ordren allerede er opfyldt i Shopify. Du kan også se enhver ordrebekræftelse, der er sendt til debitoren, ved at vælge handlingen **Shopify statusside**.
+Når importen er fuldført, kan du udforske Shopify-ordren og finde alle relaterede oplysninger, f. eks. betalingstransaktioner, forsendelsesomkostninger, følgerne, risikoniveauet, ordreattributter og koder eller opfølgningerne, hvis ordren allerede er opfyldt i Shopify. Du kan også se enhver ordrebekræftelse, der er sendt til debitoren, ved at vælge handlingen **Shopify statusside**.
 
 > [!NOTE]  
 > Du kan navigere til vinduet **Shopify Ordrer** direkte, og du kan se ordrer med status *Åben* fra alle butikker. Hvis du vil have vist de færdige ordrer, skal du åbne siden **Shopify Ordrer** fra vinduet specifikt **Shopify Butikskort**-vindue.
@@ -132,6 +136,7 @@ I Shopify:
 |Rediger|Effekt|
 |------|-----------|
 |Ændre opfyldelsesplaceringen | Den oprindelige placering synkroniseres til [!INCLUDE[prod_short](../includes/prod_short.md)]. |
+|Ændre opfyldelsesplacering og registrere opfyldelse i Shopify| Hvis ordren allerede er blevet importeret, opdateres linjerne ikke. I det andet tilfælde, hvor ordren er importeret, bruges opfyldelsesplaceringen. |
 |Redigere en ordre og ændre antal| Ordrehoved og supplerende tabeller opdateres i [!INCLUDE[prod_short](../includes/prod_short.md)], men linjerne vil ikke. |
 |Redigere en ordre og tilføje nyt element | Ordrehovedet opdateres, men linjerne vil ikke blive udtaget. |
 

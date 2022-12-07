@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 23ae8513cf14aa99f8ae1a437b0544c66bf5360e
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 41dac60578399e09b9a67ac5747d48648a872f9c
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362089"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788216"
 ---
 # <a name="introduction-to-contoso-coffee-demo-data"></a>Introduktion til demonstrationsdata for Contoso Coffee
 
@@ -26,13 +26,13 @@ Appen indeholder fire produkter, der er optimeret til forskellige scenarier:
 
 - **SP-SCM1011 Airpot Duo**  
 
-  Produktet kræver varesporing og har en komponent, der også kræver varesporing. Omkostningsmetoden er *Speciel*.  
+  Produktet kræver varesporing og har en komponent, der også kræver varesporing. Omkostningsmetoden er *Specifik*.  
 
 - **SP-SCM1004 Autodrip**  
 
   Dette produkt er en stykliste med a halvfabrikata, **Rute**. Det anbefales at vise de forskellige trækmetoder til både komponenter og operationer. Omkostningsmetoden er *Standard*.
 
-- **SP-SCM1008 AutoDripLite**
+- **SP-SCM1006 AutoDripLite**
 
   Produktet har tre varianter og tre styklister, der kan tildeles til lagervarer. Produktet bruger funktionen fantomstykliste begreb. Omkostningsmetoden er *Standard*.
 

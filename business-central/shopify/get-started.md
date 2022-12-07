@@ -8,39 +8,16 @@ ms.reviewer: solsen
 ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135,
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: b79691660ca84309057c3abab3d3a3df47271f58
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
+ms.openlocfilehash: bc3c5769a100909faedbfacce58bb1a2b146f5ad
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728406"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802979"
 ---
 # <a name="get-started-with-the-shopify-connector"></a>Kom i gang med Shopify Connector
 
 Forbind din Shopify-butik (eller butikker) med [!INCLUDE [prod_short](../includes/prod_short.md)], og maksimer produktiviteten. Administrere og få vist indsigter fra din virksomhed og din Shopify-butik som én enhed.
-
-Shopify-connectoren indeholder følgende egenskaber:
-
-- Support til mere end én Shopify-butik
-  - Hvert køb har sin egen opsætning, herunder en samling produkter, lokationer, der bruges til at beregne lager, og prislister.  
-- Tovejs synkronisering af varer eller produkter.
-  - Connectoren synkroniserer billeder, varevarianter, stregkoder, leverandørs varenumre, udvidede tekster og koder.  
-  - Eksporte vareattributter til Shopify.  
-  - Brug de valgte debitorprisgrupper og rabatter til at definere de priser, der skal udlæses til Shopify.  
-  - Beslut, om du kan oprette varer automatisk eller kun tillade opdateringer af eksisterende produkter.  
-- Lagerniveausynkronisering.
-  - Vælge nogle eller alle tilgængelige placeringer i [!INCLUDE [prod_short](../includes/prod_short.md)].  
-  - Opdater lagerniveauer på flere lokationer i Shopify.  
-- Tovejs synkronisering af kunder.
-  - Med chipkort-kunder pr. telefon og pr. e-mail.  
-  - Brug landespecifikke skabeloner, når du opretter debitorer, som er med til at sikre, at skatte indstillingerne er korrekte.  
-- Importer ordrer fra Shopify.
-  - Under indlæsningen kan du automatisk oprette debitorer i [!INCLUDE [prod_short](../includes/prod_short.md)] eller bestemme, om debitorerne Shopify skal administreres.  
-  - Medtage ordrer, der er oprettet i andre kanaler, f. eks Shopify POS eller Amazon.  
-  - Forsendelsesomkostninger, gavekort, tip, leverings-og betalingsmetoder, transaktioner og risiko for svig.  
-  - Modtage betalingsoplysninger fra Shopify Payments.  
-- Spore indfrielsesoplysninger.
-  - Du kan vælge at overføre oplysninger om varesporing fra [!INCLUDE [prod_short](../includes/prod_short.md)] til Shopify.  
 
 Hvis du vil bruge Shopify med [!INCLUDE [prod_short](../includes/prod_short.md)], skal du gøre følgende først. Denne artikel fungerer som en vejledning for at integrere din Shopify-butik med [!INCLUDE [prod_short](../includes/prod_short.md)].
 
@@ -48,24 +25,19 @@ Hvis du vil bruge Shopify med [!INCLUDE [prod_short](../includes/prod_short.md)]
 
 Du skal have:
 
-- En Shopify-konto.
-- En Shopify-onlinebutik.
+- En Shopify-konto
+- En Shopify-onlinebutik
 
-Hvis du vil oprette en ny Shopify-konto eller tilmelde di en gratis 14-dages prøveversion, skal du gå til [Shopify.com](https://www.shopify.com/). Du kan finde flere oplysninger om, hvordan du opretter og tilpasser onlinebutikken, i [Shopify Hjælp-center](https://help.shopify.com/).
-  
-Andre salgskanaler understøttes f.eks. Shopify POS.
-
-### <a name="recommended-settings"></a>Anbefalede indstillinger
-
-- Deaktiver **Automatisk arkivering af ordren** i sektionen **Ordrebehandling** under indstillingerne [**Tjek ud**](https://www.shopify.com/admin/settings/checkout) i din **Shopify-administrator**.
-
-Flere oplysninger om Shopify-indstillinger for demo-og prøvescenarier på [Test-og uddannelsesscenarier](/dynamics365/business-central/dev-itpro/administration/admin-shopify-connector#preparation).
+Du kan finde flere oplysninger om, hvordan du opretter Shopify-forsøg og anbefalede indstillinger, ved at gå til [Oprette og konfigurere Shopify-konto](shopify-account.md).
 
 ## <a name="prerequisites-for-business-central"></a>Forudsætninger for Business Central
 
 - Kontroller først, at **[Shopify Connector](https://go.microsoft.com/fwlink/?linkid=2196238)**-appen er installeret.
 
-Appen er forudinstalleret for alle nye logon-vinduer og forsøg. Få mere at vide om at installere apps fra AppSource på [installere og af-installere udvidelser](../ui-extensions-install-uninstall.md#install). Følg de trin, der er angivet nedenfor, hvis du ikke har [!INCLUDE[prod_short](../includes/prod_short.md)].
+  Appen er forudinstalleret for alle nye logon-vinduer og forsøg. Få mere at vide om at installere apps fra AppSource på [installere og af-installere udvidelser](../ui-extensions-install-uninstall.md#install). Følg de trin, der er angivet nedenfor, hvis du ikke har [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+- Kontroller, at brugeren har tilstrækkelige tilladelser. Shopify Connector er dækket af *Shopify – admin (SHPFY – admin)*-rettighedssæt. Du kan finde flere oplysninger i [Oprette brugere i henhold til licenser](../ui-how-users-permissions.md) og [Tildele tilladelser til brugere og grupper](../ui-define-granular-permissions.md)
+
 
 ## <a name="install-the-dynamics-365-business-central-app-to-your-shopify-online-store"></a>Installere Dynamics 365 Business Central-app'en i din Shopify-onlinebutik
 
@@ -90,10 +62,14 @@ For eksisterende [!INCLUDE[prod_short](../includes/prod_short.md)] er dette trin
 
 Gentag trin 2-6 for alle onlinebutikker, du vil oprette forbindelse til.
 
-> [!NOTE]
-> Kontroller, at browseren ikke blokerer pop op-vinduer. Når du aktiverer skift til/fra-systemet **Aktiveret**, åbnes siden **Venter på svar-Luk ikke denne side**, som venter på et adgangstoken fra Shopify, hvis siden er lukket eller blokeret - du kan ikke oprette forbindelse til Shopify. Få mere at vide på [Anmod om adgangstoken](troubleshoot.md#request-the-access-token)
+### <a name="known-issues"></a>Kendte problemer
 
-### <a name="next-steps"></a>Næste trin
+- Pop op-vinduet blokeres i browseren. Når du aktiverer skift til/fra-systemet **Aktiveret**, åbnes siden **Venter på svar-Luk ikke denne side**, som venter på et adgangstoken fra Shopify, hvis siden er lukket eller blokeret - du kan ikke oprette forbindelse til Shopify. Få mere at vide på [Anmod om adgangstoken](troubleshoot.md#request-the-access-token)
+- [Oauth-fejl invalid_request: Kan ikke finde Shopify API-programmet med api_key](troubleshoot.md#oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
+- [Der kan ikke oprettes forbindelse fra sandkasse](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
+
+
+## <a name="next-steps"></a>Næste trin
 
 Nu er din online forretning tilsluttet [!INCLUDE[prod_short](../includes/prod_short.md)]. I de næste trin skal du definere, hvordan og hvad der skal synkroniseres.
 
@@ -103,4 +79,5 @@ Nu er din online forretning tilsluttet [!INCLUDE[prod_short](../includes/prod_sh
 
 ## <a name="see-also"></a>Se også
 
-[Test-og Trænings scenarier](/dynamics365/business-central/dev-itpro/administration/admin-shopify-connector).
+[Gennemgang: oprette og bruge Shopify Connector](walkthrough-setting-up-and-using-shopify.md)  
+

@@ -1,71 +1,69 @@
 ---
 title: Montere elementer
-description: Hvis feltet Genbestillingssystem på varekortet indeholder Montage, er standardmetoden til at levere varen at montere den fra definerede komponenter og potentielt af en ressource, der er defineret.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+description: Få mere at vide om montage efter ordre-processer og montage til lager-processer i Business central.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 11/23/2022
 ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: e9d53a6369e2955e0e097471e70cb83438540539
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.custom: bap-template
+ms.openlocfilehash: 35d75808f0d2a0212396151dd2a7a2438dfc7fe5
+ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607041"
+ms.lasthandoff: 11/24/2022
+ms.locfileid: "9804495"
 ---
 # <a name="assemble-items"></a>Montere elementer
 
-Hvis feltet **Genbestillingssystem** på varekortet indeholder **Montage**, er standardmetoden til at levere varen at montere den fra definerede komponenter og potentielt af en ressource, der er defineret.  
+Hvis feltet **Genbestillingssystem** på varekortet indeholder **Montage**, er standardmetoden til at levere varen at montere den fra definerede komponenter og potentielt af en ressource, der er defineret. Flere oplysninger i [Arbejde med Montagestyklister](assembly-how-work-assembly-boms.md). Du kan finde flere oplysninger om opsætning af et montageelement i [Om montage til ordre eller montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-Komponenter og ressourcer, der indgår i denne form for montageelement, skal være defineret i en montage stykliste. Du kan finde flere oplysninger i [Arbejde med montagestyklister](assembly-how-work-assembly-boms.md).
+Konfiguration af montageelementer for to forskellige montageprocesser.
 
-Montageelementer kan angives for to forskellige montageprocesser:  
-
-- Montage til lager.  
-- Montage efter ordre.  
-
-Du bruger typisk **Montage til lager** for de varer, du vil montere forud for salg, f.eks for at forberede en pakkekampagne og beholde på lager, indtil de bestilles. Disse varer er som regel standardvarer som emballerede pakker, du ikke tilbyder at tilpasse efter kundens behov.  
-
-Du bruger typisk **Montage efter ordre** for varer, som du ikke ønsker på lager, fordi du forventer at tilpasse dem til debitoranmodninger, eller fordi du vil minimere de generelle lageromkostninger ved at levere dem på det rigtige tidspunkt. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
-
-Du kan finde flere oplysninger om opsætning af et montageelement i [Om montage til ordre eller montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md).  
-
-Disse opsætningsindstillinger er standardindstillinger, der styrer, hvordan salgs- og montageordrelinjer behandles indledningsvis. Du kan fravige disse standarder og levere montageelementet på den mest optimale måde under behandlingen af et salg. Du kan finde flere oplysninger i [Sælge lagervarer i montage til ordre-flows](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) og [Sælge montage til ordre-varer og lagervarer sammen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
+|Behandl  |Beskrivelse  |
+|---------|---------|
+|Montage til lager     | Varer, som du samler og lagrer for fremtidige salg. F. eks. pakker til en kommende salgskampagne. Varerne er endnu ikke relateret til en salgsordre. Disse varer tilpasses typisk ikke til kundeanmodninger.        |
+|Montage til ordre     | Varer, som du ikke vil have på lager. Da de er tilpasset på baggrund af kundeordrer eller reducerer omkostningerne ved den disponible lagerbeholdning. |
+  
+Denne artikel beskriver standardindstillingerne for montage til lagerbeholdning. Der kan være andre metoder, som er mere velegnede til virksomheden. Du kan finde flere oplysninger i [Sælge lagervarer i montage til ordre-flows](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md) og [Sælge montage til ordre-varer og lagervarer sammen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).
 
 > [!NOTE]  
-> Montagekomponenter håndteres på en særlig måde i grundlæggende lageropsætninger. Du kan finde flere oplysninger i afsnittet "Håndtere montage til ordre-varer i Pluk (lager)" i [Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md).   
+> Montagekomponenter håndteres på en særlig måde i grundlæggende lageropsætninger. Flere oplysninger i [Håndtering af montage til ordre-varer med pluk](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-I denne procedure skal du oprette og behandle en montageordre for montage til lager-varer, hvilket betyder uden en sammenkædet salgsordre. Fremgangsmåden omfatter start af montageordren, håndtering af potentielle problemer med komponenttilgængeligheden og delvis bogføring af afgang for montageelement.
+## <a name="to-assemble-an-item-to-stock"></a>Sådan monteres et element til lager
 
-## <a name="to-assemble-an-item"></a>Sådan monteres et element
+Udfør trinnene i denne procedure for at samle en vare på lager. Du kan lære mere om montage efter ordre ved at gå til [Sælge varer, der er samlet til ordre](assembly-how-to-sell-items-assembled-to-order.md).
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Montageordrer**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Ny**. Siden **Ny montageordre** åbnes.  
-3.  Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4.  Vælg det montageelement, som skal behandles, i feltet **Varenr.**. Feltet er filtreret, så det kun viser elementer, der er konfigureret for montage, hvilket betyder, at de har tildelte montagestyklister.  
-5.  I feltet **Antal** skal du angive, hvor mange enheder af varen, der skal monteres.  
-
-    > [!NOTE]  
-    >  Hvis en eller flere komponenter ikke er tilgængelige for at opfylde det angivne montageelement på den definerede forfaldsdato, åbnes siden **Montagedisponering** automatisk med detaljerede oplysninger om, hvor mange montageelementer der kan monteres baseret på komponenttilgængeligheden. Du kan finde flere oplysninger i [Vise tilgængeligheden af varer](inventory-how-availability-overview.md). Når du lukker siden, oprettes montageordren med beskeder om tilgængelighed på de berørte komponentlinjer.  
-
-    Montageordrelinjerne udfyldes automatisk med indholdet af montagestyklisten og linjemængder i henhold til montageordrehovedet.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Montageordrer**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Ny**. Siden **Ny montageordre** åbnes.  
+3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Vælg det montageelement, som skal behandles, i feltet **Varenr.**. Du kan vælge varer, der er oprettet til montage og har en montagestykliste, eller varer uden en montagestykliste. Dette er nyttigt i forbindelse med ikke-planlagte samlinger eller scenarier, når du vil bruge vareomposteringer og sporingsomkostninger.  
+5. I feltet **Antal** skal du angive, hvor mange enheder af varen, der skal monteres.  
 
     > [!NOTE]  
-    >  Hvis siden **Montagedisponering** åbnes, når du har udfyldt montageordrehovedet, indeholder hver berørt montageordrelinje et **Ja** i feltet **Disponeringsadvarsel** med et link til yderligere disponeringsoplysninger. Du kan finde flere oplysninger i Check varebeholdning Du kan løse et problem med komponenttilgængelighed ved at udsætte startdatoen, erstatte komponenten med en anden vare eller vælge en tilgængelig erstatningsvare, hvis der er defineret en.  
+    >  Hvis en eller flere komponenter ikke er tilgængelige til at fuldføre mængden på forfaldsdato, åbnes siden **Montagedisponering**. Siden viser, hvor mange montageelementer, der kan monteres på basis af komponenttilgængeligheden. Flere oplysninger i [Vise varedisponering](inventory-how-availability-overview.md). Når du lukker siden, oprettes montageordren med beskeder om tilgængelighed på linjerne for de berørte komponenter.  
 
-6.  I feltet **Antal til montage** skal du angive, hvor mange enheder af montageelementet, du vil bogføre som afgang, næste gang du bogfører montageordren. Dette antal kan være lavere end værdien i feltet **Antal** som afspejling af en delvis afgangsbogføring.  
+    Linjerne indeholder indholdet af montagestyklisten og de angivne antal.  
+
+    > [!NOTE]  
+    >  Hvis siden **Montagedisponering** åbnes, når du har udfyldt montageordrehovedet, indeholder hver berørt montageordrelinje et **Ja** i feltet **Disponeringsadvarsel** med et link til yderligere disponeringsoplysninger. <!--check whether this field help is useful For more information, see Check Availability.--> Du kan løse et problem med tilgængeligheden af komponenter ved at:
+
+    > * Udskyde startdatoen.
+    > * Udskift komponenten med en anden vare.
+    > * Valg af tilgængelig erstatning, hvis der er defineret en.  
+
+6. I feltet **Antal til montage** skal du angive, hvor mange enheder af montageelementet, du vil bogføre som afgang, næste gang du bogfører montageordren. Dette antal kan være lavere end værdien i feltet **Antal** som afspejling af en delvis afgangsbogføring.  
 
     > [!NOTE]  
     >  For at sikre, at bogføringen af komponentforbruget svarer til bogføringen af montageelementafgangen, reguleres antalsfelterne i montageordrelinjerne automatisk til den værdi, du angiver i feltet **Antal til montage**.  
-7.  På montageordrelinjer af typen **Vare** eller **Ressource** skal du i feltet **Antal til forbrug** angive, hvor mange enheder du vil bogføre som forbrugte, næste gang du bogfører montageordren.
-8.  Når du er klar til at bogføre helt eller delvist, kan du vælge handlingen **Bogfør**.  
+7. På montageordrelinjer af typen **Vare** eller **Ressource** skal du i feltet **Antal til forbrug** angive, hvor mange enheder du vil bogføre som forbrugte, næste gang du bogfører montageordren.
+8. Når du er klar til at bogføre helt eller delvist, kan du vælge handlingen **Bogfør**.  
 
     > [!NOTE]  
-    >  Hvis der stadig findes advarsler i nogen af montageordrelinjerne, blokeres bogføringen. Der vises en meddelelse om, hvilke komponenter der ikke er på lager.  
+    >  Hvis der stadig findes advarsler i nogen af montageordrelinjerne, kan du ikke gennemføre bogføringen. Der vises en meddelelse om, hvilke komponenter der ikke er på lager.  
 
 Når bogføringen er udført, bogføres montageelementet som afgang til den lokationskode og potentielle placeringskode, der er defineret på montageordren. For manuelt oprettede montageordrer kopieres placeringen evt. fra opsætningsfeltet **Standardlokation for ordrer**. Ved montage efter ordre-forløb kopieres lokationskoden evt. fra salgsordrelinjen.  
 

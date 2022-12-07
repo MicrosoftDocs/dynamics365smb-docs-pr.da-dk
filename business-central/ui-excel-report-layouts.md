@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 03/14/2022
+ms.date: 11/10/2022
 ms.author: jswymer
-ms.openlocfilehash: 2a46c6eab31e89da0956a7d847a64792b18a2fcd
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 790b354577dbb14d7fd0aa75db6e5158f09a5c89
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606933"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788220"
 ---
 # <a name="working-with-microsoft-excel-layouts"></a>Arbejde med Microsoft Excel-layouts
 
@@ -133,8 +133,6 @@ I oversigtspanelet er det, hvad du bør gøre og ikke bør gøre i **Dataark**:
 - Du kan slette eller skjule kolonner.
 - Undlad at tilføje kolonner, medmindre de medtages i rapportens datasæt.
 - Du kan placere arkene i vilkårlig rækkefølge med **dataarket** først eller sidst.
-
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

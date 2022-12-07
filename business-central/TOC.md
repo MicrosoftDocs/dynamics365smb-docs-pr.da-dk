@@ -21,6 +21,7 @@
 #### [Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Gennemgang: Udarbejd likviditetsforecast ved hjælp af finansrapporter](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Gennemgang: Konfigurere og bruge Shopify Connector](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
 ### Demonstrationsdata for Contoso Coffee til produktion
 #### [Introduktion til demonstrationsdata for Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
@@ -671,6 +672,7 @@
 <!--Shopify-->
 ## Online butik med Shopify
 ### [Kom i gang med Shopify-connectoren](shopify/get-started.md)
+#### [Oprette og konfigurere Shopify-konto](shopify/shopify-account.md)
 ### [Synkroniser elementer med Shopify](shopify/synchronize-items.md)
 ### [Synkronisere debitorer med Shopify](shopify/synchronize-customers.md)
 ### [Synkronisere og opfylde salgsordrer med Shopify](shopify/synchronize-orders.md)
@@ -679,6 +681,7 @@
 ### [Køre opgaver i baggrunden](shopify/background.md)
 ### [Fejlfinde Shopify-connector](shopify/troubleshoot.md)
 ### [Ofte stilede spørgsmål til Shopify-connector](shopify/shopify-faq.md)
+### [Gennemgang: Konfigurere og bruge Shopify Connector](shopify/walkthrough-setting-up-and-using-shopify.md)
 
 <!--Company Hub-->
 ## Virksomhedshub
@@ -1789,7 +1792,7 @@
 #### [Oversigt](admin-access-with-m365-license.md)
 #### [Konfigurere adgang til Microsoft 365-licenser](admin-access-with-m365-license-setup.md)
 #### [Brugerens adgangsflow](admin-access-with-m365-license-flow.md)
-<!--#### [FAQ](admin-access-with-m365-license-faq.md) file temporarily moved to archive folder-->
+#### [Ofte stillede spørgsmål](admin-access-with-m365-license-faq.md)
 #### [Fejlfinding](admin-access-with-m365-license-troubleshooting.md) 
 ### [Administrere profiler](admin-users-profiles-roles.md)
 ### [Administrere brugerindstillinger og præferencer](admin-manage-user-settings-preferences.md)
