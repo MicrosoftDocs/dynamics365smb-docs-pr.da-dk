@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
-ms.date: 07/08/2022
+ms.date: 12/01/2022
 ms.author: bholtorf
-ms.openlocfilehash: cfb7cf9448db3b88bc6f8c75f495ddb12cb23740
-ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
+ms.openlocfilehash: d401e6d9a0b8fb4f05bcc379322b2f81bfc03c57
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 10/03/2022
-ms.locfileid: "9617907"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822410"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Konfigurere beregnings- og bogføringsmetoder for moms
 
@@ -234,6 +234,11 @@ For at beregne moms på salg til EU-lande/områder korrekt, skal du:
 * Tildele momsvirksomhedsbogføringsgrupperne i feltet **Momsvirksomhedsbogf.gruppe** på oversigtspanelet **Fakturering** på kreditorkort for hver EU-kreditor. Du skal også angive debitorens CVR-nummer i feltet **SE/CVR-nr.** på oversigtspanelet **Udenrigshandel**.  
 
 Når du bogfører salg til en debitor i et andet EU-land/område, beregnes momsbeløbet, og der oprettes en momspost med oplysningerne om modtagermomsen og momsgrundbeløbet, som er det beløb, der bruges til at beregne momsbeløbet. Der bogføres ingen poster på momskontoen i finansposterne.
+
+Hvis du vil bruge en kombination af momsvirksomheds- og momsproduktbogføringsgruppe til rapportering som tjenester i de periodiske momsrapporter, skal du markere feltet **EU-tjeneste**.
+
+> [!NOTE]  
+> Feltet **EU-tjeneste** gælder kun for momsrapporter. Feltet er ikke relateret til funktionerne **Servicedeklaration** eller **Intrastat for service** .
 
 ## <a name="vat-rounding-for-documents"></a>Momsafrunding for bilag
 

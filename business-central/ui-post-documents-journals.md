@@ -9,14 +9,15 @@ ms.workload: na
 ms.date: 06/24/2021
 ms.search.form: ''
 ms.author: edupont
-ms.openlocfilehash: 2f423724af5a65e6f82e93dffdd746496545ce28
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: e306cc27753e86e8e1a0a315406643bcf6f44d8a
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655310"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822513"
 ---
 # <a name="posting-documents-and-journals"></a>Bogføring af dokumenter og kladder
+
 Bogføringen repræsenterer regnskabshandlingen, som registrerer forretningstransaktioner i forskellige virksomhedsfinanskonti.
 
 Næsten alle dokumenter og kladder i [!INCLUDE[prod_short](includes/prod_short.md)] har en **Bogføring**-gruppe, hvor du kan vælge mellem forskellige bogføringshandlinger, f.eks **Bogfør**, **Vis bogføring**, **Bogfør og send**, **Bogfør og mail**.
@@ -33,9 +34,10 @@ Følgende tabel beskriver relaterede opgaver med links til de emner, der beskriv
 | Vis en rapport med de poster, der oprettes, når du bogfører. |[Vise testrapporter inden bogføring](ui-how-view-test-reports-posting.md) |
 
 ## <a name="see-also"></a>Se også
-[Redigere bogførte dokumenter](across-edit-posted-document.md)  
-[Generelle forretningsfunktioner](ui-across-business-areas.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
+[Redigere bogførte dokumenter](across-edit-posted-document.md)  
+[Find relaterede poster for dokumenter](ui-find-entries.md)  
+[Generelle forretningsfunktioner](ui-across-business-areas.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
