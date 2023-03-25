@@ -1,29 +1,24 @@
 ---
 title: Opret en ny produktionsstykliste og styklisteversion
-description: Gennemgang for at lære, hvordan du føjer endnu en kaffemaskine til contoso Coffes produktlinje i Business central.
+description: 'Gennemgang for at lære, hvordan du føjer endnu en kaffemaskine til contoso Coffes produktlinje i Business central.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 3c631e0285e0fdc6db5bf70cd0f5167741f602f9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525011"
 ---
-# <a name="walkthrough-create-a-new-production-bom-and-bom-version"></a>Gennemgang: Opret en ny produktionsstykliste og styklisteversion
+
+# Gennemgang: Opret en ny produktionsstykliste og styklisteversion
 
 I denne artikel kommer vi igennem de trin, du skal benytte, når du skal arbejde Contoso Coffee-demodata til at arbejde med produktionsstyklister i produktionsprocesser.  
 
-## <a name="scenario"></a>Scenarie
+## Scenarie
 
 Contoso Coffee har besluttet at føje en anden kaffemaskine til deres produktserie: **SP-SCM1008 Airpot Lite**. Kaffemaskine er identisk med den eksisterende vare **SP-SCM1009 Airpot**, bortset fra at den ikke inkluderer varme pladen, **SP-BOM1104**. I et separat trin, fjernes til/fra-lys **SP-BOM1106**, som er fjernet for en version af Airpot Lite-styklisten.
 
 Oscar, procesteknikeren hos Contoso Coffee skal oprette en ny produktionsstykliste for at definere de oprindelige komponentkrav til Airpot Lite. Han skal derefter oprette en ny styklisteversion med startdato for d. 01, for at kunne justere med yderligere planer om frigivelse af en anden udgave.
 
-## <a name="steps"></a>Trin
+## Trin
 
 1. Opret en ny produktionsstykliste til Airpot Lite.
 
@@ -78,6 +73,6 @@ Oscar, procesteknikeren hos Contoso Coffee skal oprette en ny produktionsstyklis
 
 Den nye kaffemaskine er nu sat op som en produktionsstykliste med én version.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Introduktion til demonstrationsdata for Contoso Coffee](contoso-coffee-intro.md)  

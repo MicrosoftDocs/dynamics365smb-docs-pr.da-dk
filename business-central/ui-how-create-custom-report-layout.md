@@ -1,23 +1,17 @@
 ---
 title: Oprette og ændre brugerdefinerede layout for rapporter og dokumenter
-description: Lær, hvordan du kan oprette brugerdefinerede layout for at tilpasse udseendet af en rapport, når den vises, udskrives eller gemmes.
+description: 'Lær, hvordan du kan oprette brugerdefinerede layout for at tilpasse udseendet af en rapport, når den vises, udskrives eller gemmes.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9650, 9652
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9650, 9652'
 ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 465954e6549ee7ffd0822438a0ad004686d5b424
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604773"
 ---
-# <a name="legacy-create-and-modify-custom-report-layouts"></a>(Ældre) Sådan opretter og ændrer du Brugerdefinerede rapportlayouts
+# (Ældre) Sådan opretter og ændrer du Brugerdefinerede rapportlayouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -35,7 +29,7 @@ Når du har defineret dine tilpassede rapportlayouts, kan du vælge dem på debi
 
 Du kan også bruge brugerdefinerede rapportlayouts til at føje indhold til e-mailmeddelelser. Rapportlayout kan spare tid og være med til at sikre konsistensen ved at genbruge det samme indhold, når du kommunikerer med kunderne. Hvis du vil bruge brugerdefinerede rapportlayout med e-mail, skal det være et Word-filtypeformat: du kan ikke anvende RDLC-filtypen. Flere oplysninger [Konfigurere genanvendelige e-mailtekster og -layout](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
-## <a name="create-a-custom-layout"></a>Oprette et brugerdefineret layout
+## Oprette et brugerdefineret layout
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Valg af rapportlayout**, og vælg derefter det relaterede link.
 
@@ -60,11 +54,11 @@ Det brugerdefinerede layout er blevet oprettet, og du kan ændre det efter behov
 > [!TIP]
 > Du kan godt eksportere rapportresultaterne til en Microsoft Excel-fil, så du kan få vist hele datasættet, inklusive alle kolonner men uden layout. Excel-filen kan hjælpe dig med at kontrollere, at rapporten returnerer de forventede data eller diagnoseproblemer. Flere oplysninger [Analyse af rapportdata med Excel](report-analyze-excel.md).
 
-## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Redigere et brugerdefineret layout
+## <a name="ModifyCustomLayout"></a>Redigere et brugerdefineret layout
 
 Hvis du vil ændre et tilpasset rapportlayout, skal du først eksportere rapportlayoutet som en fil til en placering på din computer eller dit netværk. Åbn derefter det udlæste dokument, og foretag ændringerne. Når du er færdig med at foretage ændringerne, skal du importere rapportlayoutet.
 
-### <a name="modify-a-custom-layout"></a>Tilpasse et brugerdefineret layout
+### Tilpasse et brugerdefineret layout
 
 1. Eksporter et brugerdefineret layout på siden **Brugerdefinerede rapportlayouts**. Hvis siden ikke allerede er åben, skal du søge efter og åbne siden **Valg af rapportlayout**, vælge den rapport, der har det layout, du vil ændre, og derefter vælge handlingen **Brugerdefinerede layout**.  
 2. På siden **Brugerdefinerede rapportlayouts** skal du vælge det layout, du vil ændre, vælge handlingen **Eksportér layout** og derefter klikke på **Gem** eller **Gem som** for at gemme rapportlayoutdokumentet på en placering på din computer eller dit netværk.  
@@ -117,9 +111,9 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
+## Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administration af rapportlayout](ui-manage-report-layouts.md)  
 [Ændre det aktuelle rapportlayout](ui-how-change-layout-currently-used-report.md)  

@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 02/15/2022
 ms.author: edupont
-ms.openlocfilehash: c947d843a17c46323febee83a01c80a574982bbd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142493"
 ---
+
 > [!NOTE]
 > I følgende afsnit antages det, at du har administratoradgang til Exchange Online.
 
@@ -20,7 +15,7 @@ Før du kan konfigurere maillogføring, skal du forberede Office 365 [offentlige
 
 Følg nedenstående trin for at oprette Exchange Online med links, hvor du kan få mere at vide.
 
-### <a name="create-an-admin-role-group"></a>Opret en administratorrollegruppe
+### Opret en administratorrollegruppe
 
 Opret en administratorrollegruppe til offentlige mapper på grundlag af oplysningerne i følgende tabel:
 
@@ -32,7 +27,7 @@ Opret en administratorrollegruppe til offentlige mapper på grundlag af oplysnin
 
 Du kan finde flere oplysninger i [Administrere rollegrupper i Exchange Online](/exchange/permissions-exo/role-groups).
 
-### <a name="create-a-new-public-folder-mailbox"></a>Opret en ny postkasse til offentlige mapper
+### Opret en ny postkasse til offentlige mapper
 
 Opret en ny offentlig mappe som postkasse på grundlag af oplysningerne i følgende tabel:
 
@@ -42,7 +37,7 @@ Opret en ny offentlig mappe som postkasse på grundlag af oplysningerne i følge
 
 Du kan finde flere oplysninger i [Oprette en postkasse til offentlig mapper](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
-### <a name="create-new-public-folders"></a>Oprette nye offentlige mapper
+### Oprette nye offentlige mapper
 
 1. Opret en ny offentlig mappe med navnet **Email Logging** i roden, så den fulde sti til mappen bliver `\Email Logging\`.
 2. Opret to undermapper, så resultatet er følgende fulde stier til mapperne:
@@ -52,23 +47,23 @@ Du kan finde flere oplysninger i [Oprette en postkasse til offentlig mapper](/ex
 
 Du kan finde flere oplysninger i [Oprette en offentlig mappe](/exchange/collaboration-exo/public-folders/create-public-folder).
 
-### <a name="set-public-folder-ownership"></a>Angiv ejerskabet af mappen Delte
+### Angiv ejerskabet af mappen Delte
 
 Indstil e-mail-logførings brugeren som ejer af både offentlige mapper, *kø* og *lager*.
 
 Du kan finde flere oplysninger i [Tildele den offentlige mappe tilladelser](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
 
-### <a name="mail-enable-the-queue-public-folder"></a>Aktiver den offentlige mappe *Kø* til mail
+### Aktiver den offentlige mappe *Kø* til mail
 
   Du kan finde flere oplysninger i [Aktivere eller deaktivere en offentlig mappe til mail](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
-### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>E-mail-Aktivér afsendelse af e-mails til den offentlige mappe *Kø*
+### E-mail-Aktivér afsendelse af e-mails til den offentlige mappe *Kø*
 
 Aktivere afsendelse af mails til den offentlige mappe *Kø* ved hjælp af Outlook eller Exchange Management Shell.
 
 Du kan finde flere oplysninger i [Tillade anonyme brugere at sende mail til en offentlig mappe, der er aktiveret til mail](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?preserve-view=true).
 
-### <a name="create-mail-flow-rules"></a>Oprette regler for mail flow
+### Oprette regler for mail flow
 
 Opret to regler for mailflow på grundlag af oplysningerne i følgende tabel:
 

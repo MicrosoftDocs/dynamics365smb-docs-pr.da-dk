@@ -1,22 +1,16 @@
 ---
 title: Omplanlægge eller forny produktionsordrer direkte
-description: I dette emne beskrives procedurerne for, hvordan du omplanlægger produktionsordrer og opdaterer produktionsordrer direkte.
+description: 'I dette emne beskrives procedurerne for, hvordan du omplanlægger produktionsordrer og opdaterer produktionsordrer direkte.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
+ms.search.form: '99000842, 99000843, 99000861, 99000862, 99000863'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3554fc674732c68e47bfd28c033534d1686e1421
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515377"
 ---
-# <a name="replan-or-refresh-production-orders-directly"></a>Omplanlægge eller forny produktionsordrer direkte
+# Omplanlægge eller forny produktionsordrer direkte
 
 Funktionen **Docs** på produktionsordrer bruges normalt, når du har tilføjet eller ændret komponenter, der opretter underliggende produktionsordrer. Funktionen beregner ændringer, der er foretaget i komponenter og rutelinjer, og omfatter varer på lavere produktionsstyklisteniveauer, som der muligvis oprettes nye produktionsordrer for.  
 
@@ -34,7 +28,7 @@ Du kan indsætte produktionsordrelinjerne manuelt eller bruge funktionen, der ka
 > [!NOTE]
 > Hvis du bruger funktionen Opdater til at genberegne produktionsordrelinjer, sletter programmet de gamle produktionsordrelinjer og beregner nye produktionsordrelinjer.  
 
-## <a name="to-replan-a-production-order"></a>Sådan omplanlægges en produktionsordre
+## Sådan omplanlægges en produktionsordre
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Fastlagt produktionsordrer**, og vælg derefter det relaterede link.  
 2. Åbn den produktionsordre, du vil omplanlægge.  
@@ -63,7 +57,7 @@ Du kan indsætte produktionsordrelinjerne manuelt eller bruge funktionen, der ka
 > [!NOTE]  
 > Ændringer, der implementeres med funktionen **Omplanlægning** vil sandsynligvis ændre produktionsordrens kapacitetsbehov, hvorfor du muligvis skal ændre planlægning for operationerne bagefter.  
 
-## <a name="to-refresh-a-production-order"></a>Sådan fornys en produktionsordre
+## Sådan fornys en produktionsordre
 
 Hvis du har ændret produktionsordrelinjer, komponenter eller rutelinjer, skal du også opdatere oplysningerne i produktionsordren. I det følgende beregnes komponenterne for en fastlagt produktionsordre. Trinnene er de samme for rutelinjer.
 
@@ -86,7 +80,7 @@ Hvis du har ændret produktionsordrelinjer, komponenter eller rutelinjer, skal d
 > [!NOTE]  
 > Når du beregner produktionsordrekomponenter, slettes tidligere ændringer i komponenterne.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Skabelon](production-planning.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  

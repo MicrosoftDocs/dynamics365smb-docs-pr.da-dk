@@ -1,30 +1,24 @@
 ---
 title: 'Fremgangsmåde: Oprette servicetilbud'
-description: Se, hvordan du kan bruge et servicetilbud som foreløbig kladde til en serviceordre og derefter konvertere tilbuddet til en serviceordre.
+description: 'Se, hvordan du kan bruge et servicetilbud som foreløbig kladde til en serviceordre og derefter konvertere tilbuddet til en serviceordre.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: eb96cbfee145b418334f49121acfaa5f867ee042
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143032"
 ---
-# <a name="create-service-quotes"></a>Oprette servicetilbud
+# Oprette servicetilbud
 Du kan betragte servicetilbud som grundlaget for serviceordrer. De er faktisk næsten identiske. Begge indeholder oplysninger, f.eks. hvem debitoren er, ordretypen, den vare, der har behov for service, fakturerings- og leveringsoplysninger og oplysninger om det aktuelle servicearbejde.
  
 Du kan bruge et servicetilbud som foreløbig kladde til en serviceordre og derefter konvertere tilbuddet til en serviceordre.  
   
-## <a name="to-create-a-service-quote"></a>Sådan oprettes servicetilbud  
+## Sådan oprettes servicetilbud  
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Servicetilbud** og vælg derefter det relaterede link.  
 2. Opret et nyt servicetilbud.  
-3. I feltet **Nummer** skal du indtaste et nummer på servicetilbuddet. Hvis du har defineret en nummerserie for servicetilbud på siden **Serviceopsætning**, kan du trykke på Enter for at vælge det næste tilgængelige servicetilbudsnummer.  
+3. I feltet **Nummer** skal du indtaste et nummer på servicetilbuddet. Hvis du har defineret en nummerserie for servicetilbud på siden **Serviceopsætning**, kan du trykke på <kbd>Enter</kbd> for at vælge det næste tilgængelige servicetilbudsnummer.  
 4. I feltet **Debitornr.**  skal du markere den relevante debitor på listen.  
 
   > [!Note]  
@@ -34,7 +28,7 @@ Du kan bruge et servicetilbud som foreløbig kladde til en serviceordre og deref
 6. Udfyld serviceartikellinjerne.  
 7. Registrer de anslåede kostpriser på servicelinjerne.  
   
-## <a name="see-also"></a>Se også  
+## Se også  
 [Oprette serviceordrer](service-how-to-create-service-orders.md)  
 [Arbejde med serviceopgaver](service-how-to-work-on-service-tasks.md)  
 

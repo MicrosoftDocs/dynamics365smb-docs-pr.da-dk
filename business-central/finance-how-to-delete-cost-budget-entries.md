@@ -9,20 +9,14 @@ ms.workload: na
 ms.search.form: 1115
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a97185820c9b28e297c8e30ad0c3f921860b8267
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517468"
 ---
-# <a name="delete-cost-budget-entries"></a>Slet omkostningsbudgetposter
+# Slet omkostningsbudgetposter
 
 Du kan bruge kørslen **Slet omkostningsbudgetposter** til at annullere omkostningsbudgetposter fra omkostningsbudgetregistret.  
 
 Du kan ikke slette en enkelt post eller flere poster i midten af listen over journalposter i, for at undgå eventuelle mellemrum i omkostningsbudgetposter og omkostningsregisterposter.  
 
-## <a name="to-delete-a-cost-budget-entry"></a>Sådan slettes en omkostningsbudgetpost  
+## Sådan slettes en omkostningsbudgetpost  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Slet omkostningsbudgetposter**, og vælg derefter det relaterede link.  
 
@@ -34,7 +28,7 @@ Du kan ikke slette en enkelt post eller flere poster i midten af listen over jou
 > [!NOTE]  
 > Du kan lukke registrerposter for at undgå en utilsigtet sletning af omkostningsbudgetposter ved at markere linjerne som **Lukket** i feltet **Lukket** på siden **Omkostningsbudgetregistre**.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Regnskab for omkostninger](finance-manage-cost-accounting.md)
 [Oprette omkostningsbudgetter](finance-create-cost-budgets.md)  

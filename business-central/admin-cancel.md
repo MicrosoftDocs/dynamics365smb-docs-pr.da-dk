@@ -1,22 +1,16 @@
 ---
 title: Opsig eller fjern Business Central
-description: Få mere at vide om, hvordan du kan fjerne eller slette Business Central-oplevelsen, hvis du har et prøveabonnement, eller hvis du har et betalt abonnement.
+description: 'Få mere at vide om, hvordan du kan fjerne eller slette Business Central-oplevelsen, hvis du har et prøveabonnement, eller hvis du har et betalt abonnement.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: remove, delete
+ms.search.keywords: 'remove, delete'
 ms.date: 06/08/2022
 ms.author: edupont
-ms.openlocfilehash: 929993c80c52857dd01e978552654c7f5a42e496
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950115"
 ---
-# <a name="unsubscribe-or-remove-prod_short"></a>Opsig eller slet [!INCLUDE[prod_short](includes/prod_short.md)]
+# Opsig eller slet [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Hvis du ikke længere vil bruge [!INCLUDE[prod_short](includes/prod_short.md)], kan du lukke din konto eller hente de licenser, der er fjernet fra din konto. Du skal bruge en anden fremgangsmåde, hvis du i øjeblikket bruger den gratis prøveversion, eller hvis du har et abonnement.  
 
@@ -29,11 +23,11 @@ Hvis du vil afslutte et abonnement, skal administratoren fjerne abonnementet i M
 
 Du kan læse om, hvordan du udlæser data til Excel i de [eksporterede data til andre økonomisystemer](about-export-data.md#exporting-data-to-other-finance-systems). Hvis du hellere vil eksportere alle data til en container til Azure-lager, kan Microsoft 365-administratoren gøre det i Administrationscenter. Yderligere oplysninger finder du under [Eksportere databaser i Administration](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export).  
 
-## <a name="removing-prod_short-from-your-app-launcher"></a>Fjerne [!INCLUDE[prod_short](includes/prod_short.md)] fra din appstarter
+## Fjerne [!INCLUDE[prod_short](includes/prod_short.md)] fra din appstarter
 
 Hvis du vil skjule [!INCLUDE[prod_short](includes/prod_short.md)] fra din appstarter, kan du frigøre den. Der mistes ingen data, og du annullerer ikke dit abonnement på trinnet.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Business Central Prøveversion, ofte stillede spørgsmål](trial-faq.md)  
 [Prøveversioner og abonnementer (for administratorer)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

@@ -1,28 +1,22 @@
 ---
-title: Oversigt over de opgaver, der afslutter regnskaberne
-description: Få mere at vide om processen med at afslutte regnskaberne for et regnskabsår eller en -periode, og hvad der sker, når du lukker ved årets afslutning.
+title: 'Oversigt over de opgaver, der afslutter regnskaberne'
+description: 'Få mere at vide om processen med at afslutte regnskaberne for et regnskabsår eller en -periode, og hvad der sker, når du lukker ved årets afslutning.'
 author: jswymer
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2c959f3c3c0aad3a44ea2ebfa60aed395720f562
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511888"
 ---
-# <a name="closing-the-books"></a>Afslutte regnskaberne
+# Afslutte regnskaberne
 Når du har kontrolleret, at alle dine konti er opdaterede, og når du har allokeret omkostninger og indtægter, så kan du afslutte regnskabet for et regnskabsår eller en regnskabsperiode.
 
 Du behøver ikke at lukke et år, men hvis du gør det, bliver det nemmere at arbejde i systemet, da du vil kunne udnytte de filtreringsfunktioner, der er. Du vil heller ikke skulle bekymre dig om at miste transaktionsoplysninger, når du lukker, fordi alle detaljerne bevares, selv efter at du lukker året.
 
-## <a name="closing-book-process"></a>Regnskabsafslutningsproces
+## Regnskabsafslutningsproces
 Processen til afslutning af regnskabet omfatter disse hovedopgaver:
 
 1. Afslutning af regnskabsperioden.
@@ -44,14 +38,14 @@ Processen til afslutning af regnskabet omfatter disse hovedopgaver:
 
     Du kan finde flere oplysninger i [Bogføre årsafslutningsposten](year-how-post-year-end-close-entry.md).
 
-## <a name="what-happens-when-you-close"></a>Hvad der sker, når du afslutter
+## Hvad der sker, når du afslutter
 Når du lukker i slutningen af året, flytter systemet indtjeningen fra den beregnede indtjening, eller kontoen med den aktuelle indtjening, til en bogført konto eller resultatkontoen. Regnskabsåret mærkes også som "lukket", og alle posterne for det lukkede år som "poster fra tidligere år".
 
 Der oprettes derefter en ultimopost, men posten bogføres ikke automatisk. Du får mulighed for at oprette en eller flere modregningsposter på egenkapitalkontoen, hvilket gør det muligt for dig at bestemme, hvordan ultimoposten skal allokeres. Hvis virksomheden f.eks. har flere afdelinger, kan du lade systemet oprette en enkelt ultimopost for alle afdelingerne, og du kan derefter oprette en modregningspost på hver afdelings egenkapitalkonto.
 
 Du kan bogføre i et tidligere regnskabsår, selv efter at resultatopgørelseskontiene er blevet lukket, hvis du udfører kørslen Nulstil resultatopgørelse igen bagefter.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

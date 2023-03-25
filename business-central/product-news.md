@@ -1,37 +1,30 @@
 ---
 title: Nyt og planlagt i standardversionen
-description: Få mere at vide om, hvordan du finder de seneste nyheder og opdateringer til nye og eksisterende funktioner i standardversionen af Business Central.
+description: 'Få mere at vide om, hvordan du finder de seneste nyheder og opdateringer til nye og eksisterende funktioner i standardversionen af Business Central.'
 author: edupont04
 ms.topic: get-started-article
-ms.search.keywords: news, release plan, roadmap, whats new
-ms.date: 06/22/2021
+ms.search.keywords: 'news, release plan, roadmap, whats new'
+ms.date: 12/07/2022
 ms.author: edupont
-ms.openlocfilehash: 3c26215511829512241a2aac1d20880beca251cb
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532129"
 ---
-# <a name="new-and-planned-for-dynamics-365-business-central"></a>Nyt og planlagt for Dynamics 365 Business Central
+# Nyt og planlagt for Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
-Du kan altid se udgivelsesplanen for at få en oversigt over nye og kommende funktioner. Her i dokumentationen kan du finde emner, der kan hjælpe dig med at lære om nye og eksisterende funktioner i standardversionen af [!INCLUDE[prod_long](includes/prod_long.md)].  
+Udgivelsesplanen for at få en oversigt over nye og kommende funktioner. Her i dokumentationen finder du artikler, der kan hjælpe dig med at lære om nye og eksisterende funktioner i standardversionen af [!INCLUDE[prod_long](includes/prod_long.md)].  
 
 Følgende liste indeholder oplysninger om de nyeste versioner af [!INCLUDE [prod_short](includes/prod_short.md)].  
 
+* [2022 udgivelsesbølge 2](/dynamics365-release-plan/2022wave2/smb/dynamics365-business-central/planned-features)  
 * [2022 udgivelsesbølge 1](/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features)  
-* [2021 udgivelsesbølge 2](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/planned-features)  
-* [2021 udgivelsesbølge 1](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/planned-features)  
 
 Du kan også udforske [Dynamics 365 Business Central Funktioner](https://dynamics.microsoft.com/business-central/capabilities/)-webstedet og [Dynamics 365 Business Central Oversivgt](https://dynamics.microsoft.com/roadmap/business-central/)-webstedet.  
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Få besked om ændringer via en RSS-fødning
+## Få besked om ændringer via en RSS-fødning
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Besøge vores videobibliotek](across-videos.md)  
 [Ressourcer til hjælp og support](product-help-and-support.md)  

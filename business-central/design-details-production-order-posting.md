@@ -1,22 +1,16 @@
 ---
 title: Designoplysninger – Bogføring af produktionsordre | Microsoft Docs
-description: I lighed med montageordrebogføring bliver de forbrugte komponenter og den anvendte computertid konverteret og udlæst som den producerede vare, når produktionsordren er afsluttet.
+description: 'I lighed med montageordrebogføring bliver de forbrugte komponenter og den anvendte computertid konverteret og udlæst som den producerede vare, når produktionsordren er afsluttet.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 51d04edb267ba2d75b4ed57d1587b40994f009cc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511697"
 ---
-# <a name="design-details-production-order-posting"></a>Designoplysninger: Bogføring af produktionsordre
+# Designoplysninger: Bogføring af produktionsordre
 I lighed med montageordrebogføring bliver de forbrugte komponenter og den anvendte computertid konverteret og udlæst som den producerede vare, når produktionsordren er afsluttet. Du kan finde flere oplysninger i [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md). Men montageordrers kost-flow er mindre kompliceret, især fordi montageomkostninger kun bogføres én gang og derfor ikke opretter lageret for igangværende arbejde.
 
 
@@ -52,7 +46,7 @@ Værdierne for forøgelser og reduceringer registreres i de forskellige typer af
 
 Selvom værdier af transaktioner, der vedrører købte varer, kun bogføres som vareposter med relaterede værdiposter, bogføres transaktioner, der er knyttet til producerede varer, som kapacitetsposter med relaterede værdiposter, udover vareposterne.  
 
-## <a name="posting-structure"></a>Bogføringsstruktur  
+## Bogføringsstruktur  
 Bogføring af produktionsordrer til igangværende arbejdslager omfatter afgang, forbrug og kapacitet.  
 
 Følgende diagram viser de involverede bogføringsrutiner i kodeenhed 22.  
@@ -75,12 +69,12 @@ En værdipost, der beskriver det igangværendes arbejdes værdi, kan være knytt
 
 Du kan finde flere oplysninger om, hvordan omkostninger fra produktion og montage bogføres i finansregnskabet, i [Designoplysninger: Varekladde](design-details-inventory-posting.md).  
 
-## <a name="capacity-posting"></a>Bogføring af kapacitet  
+## Bogføring af kapacitet  
 Bogføring af afgang fra den sidste produktionsordrerutelinje resulterer i en kapacitetsfinanspost for færdigvaren, i tillæg til dens lagerforøgelse.  
 
  Kapacitetsposten er en post over den tid, der er brugt til at producere varen. Den relaterede værdipost beskrives i VIA-lagerværdien, som er værdien af konverteringsomkostningerne. Du kan finde flere oplysninger i "Fra kapacitetsposten" i [Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md).  
 
-## <a name="production-order-costing"></a>Produktionsordrekostmetode  
+## Produktionsordrekostmetode  
  Med henblik på at kontrollere lager- og produktionsomkostninger skal en produktionsvirksomhed måle omkostningerne for produktionsordrer, da de standardomkostninger, der er fastsat på forhånd for hver produceret vare, kapitaliseres i balancen. Hvis du ønsker oplysninger om, hvorfor producerede varer bruger kostmetoden Standard, kan du se [Designoplysninger: Kostmetoder](design-details-costing-methods.md).  
 
 > [!NOTE]  
@@ -104,7 +98,7 @@ I miljøer med standardkostpriser er omkostninger for en produktionsordre basere
     >  Dette adskiller sig fra montageordrebogføring, hvor der altid bogføres faktiske omkostninger. Du kan finde flere oplysninger i [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md).  
 2.  Når produktionsordren er indstillet til **Færdig**, faktureres ordren ved at udføre kørslen **Juster kostpris - vareposter**. Som resultat beregnes de samlede omkostninger for ordren baseret på standardkostprisen for de anvendte materialer og kapacitet. Afvigelserne mellem de beregnede standardkostpriser og de faktiske produktionskostpriser beregnes og bogføres.  
 
-## <a name="see-also"></a>Se også  
+## Se også  
  [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
  [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)  
  [Administrere lageromkostninger](finance-manage-inventory-costs.md) [Finans](finance.md)  

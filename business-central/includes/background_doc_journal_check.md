@@ -3,14 +3,8 @@ author: bholtorf
 ms.topic: include
 ms.date: 02/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: 7441e5632c5d1541f76ecc4c64c334e1c1853068
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525035"
 ---
-## <a name="check-data-in-documents-and-journals-while-you-work"></a>Kontrollér data i dokumenter og kladder under arbejdet
+## Kontrollér data i dokumenter og kladder under arbejdet
 
 I 2022 udgivelsesbølge 1 har vi introduceret en funktion, som validerer de data, du angiver i dokumenter og kladder, mens du indtaster den. Når du aktiverer denne funktion, kan du f. eks. undgå fejl i dataindtastning eller undlade at bogføre noget pga. en fejl. 
 

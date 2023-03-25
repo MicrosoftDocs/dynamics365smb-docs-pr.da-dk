@@ -1,29 +1,23 @@
 ---
 title: Planlægge efter nyt behov ordre for ordre
-description: Denne planlægningsopgave kan udføres på siden Ordreplanlægning, hvor alle nye behov vises sammen med tilgængelighedsoplysninger og forsyningsforslag, herunder vareerstatning.
+description: 'Denne planlægningsopgave kan udføres på siden Ordreplanlægning, hvor alle nye behov vises sammen med tilgængelighedsoplysninger og forsyningsforslag, herunder vareerstatning.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5522, 5524, 5526
+ms.search.form: '5522, 5524, 5526'
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: e95bc34c56364ebb12c63c250339f1de868b8a32
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516766"
 ---
-# <a name="plan-for-new-demand-order-by-order"></a>Planlægge efter nyt behov ordre for ordre
+# Planlægge efter nyt behov ordre for ordre
 
 Denne planlægningsopgave kan udføres på siden **Ordreplanlægning**, hvor alle nye behov vises sammen med tilgængelighedsoplysninger og forsyningsforslag. Vinduet giver det fornødne overblik og de nødvendige værktøjer til at planlægge behovet effektivt ud fra salgslinjer og komponentlinjer og derefter direkte oprette forskellige typer af forsyningsordrer.  
 
 Du kan gå ind på siden **Ordreplanlægning** på to måder afhængigt af arbejdsopgaven: Fra en ordre, du vil planlægge specifikt, eller i batchtilstand, fordi du vil planlægge efter alle nye behov.  
 
 
-## <a name="to-plan-for-new-production-order-demand"></a>Planlægge en specifik produktionsordre
+## Planlægge en specifik produktionsordre
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Planlagte produktionsordrer**, og vælg derefter det relaterede link. (Du kan udføre disse trin for planlagte, fastlagte eller frigivne produktionsordrer).
 2. Åbn den produktionsordre, du vil planlægge, og vælg derefter handlingen **Planlægning**.  
@@ -31,7 +25,7 @@ Du kan gå ind på siden **Ordreplanlægning** på to måder afhængigt af arbej
 
 Der vises planlægningslinjer på siden i overensstemmelse med filteret **Produktionsbehov**, dvs. uopfyldte komponentlinjer for alle eksisterende produktionsordrer. Behovet for kun denne ene produktionsordre er ikke vist, fordi det er nødvendigt at planlægge til en produktionsordre med et overblik over behovet for eventuelle tidligere komponentlinjer. Planlægningslinjer for produktionsordren i kontekst udvides.  
 
-## <a name="to-plan-for-any-new-demand"></a>Sådan planlægges til alle nye behov
+## Sådan planlægges til alle nye behov
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ordreplanlægning**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Beregn plan** på siden **Ordreplanlægning**.
@@ -87,7 +81,7 @@ Der vises planlægningslinjer på siden i overensstemmelse med filteret **Produk
 > [!NOTE]  
 > Hvis du skriver en senere dato end behovsdatoen, modtager du en advarselsmeddelelse.  
 
-## <a name="to-make-supply-orders"></a>Sådan laves forsyningsordrer
+## Sådan laves forsyningsordrer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Planlagte produktionsordrer**, og vælg derefter det relaterede link. Du kan udføre disse trin for en planlagt, fastlagt eller frigivet produktionsordre.  
 2. Åbn den produktionsordre, du vil planlægge, og vælg derefter handlingen **Planlægning**.  
@@ -114,7 +108,7 @@ Når du er færdig med planlægningsarbejdet på siden **Ordreplanlægning**, og
 > [!NOTE]  
 > De forsyningsordrer, du opretter, kan medføre nye afhængige behov, f.eks. for underliggende produktionsordrer. Du bør derfor vælge **Beregn plan** igen for at finde og løse dem, før du går nedad på listen.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 [Skabelon](production-planning.md)  

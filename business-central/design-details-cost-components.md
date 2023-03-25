@@ -1,22 +1,16 @@
 ---
 title: Designoplysninger – Omkostningskomponenter | Microsoft Docs
-description: Omkostningskomponenter er forskellige typer af omkostninger, der udgør værdien af en lagerforøgelse eller -reducering.
+description: 'Omkostningskomponenter er forskellige typer af omkostninger, der udgør værdien af en lagerforøgelse eller -reducering.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: fa49d48d4af1efe40cda6579ff15f703ef5ad426
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523045"
 ---
-# <a name="design-details-cost-components"></a>Designoplysninger: Kostkomponenter
+# Designoplysninger: Kostkomponenter
 Omkostningskomponenter er forskellige typer af omkostninger, der udgør værdien af en lagerforøgelse eller -reducering.  
 
  Følgende tabel viser de forskellige omkostningskomponenter og eventuelle underordnede omkostningskomponenter, de består af.  
@@ -39,7 +33,7 @@ Omkostningskomponenter er forskellige typer af omkostninger, der udgør værdien
 > [!NOTE]  
 >  Fragt og forsikringsomkostninger er varegebyrer, der når som helst kan føjes til en vares kostpris. Når du udfører kørslen **Juster kostpris - vareposter**, opdateres værdien af enhver relateret lagerreduktion tilsvarende.  
 
-## <a name="see-also"></a>Se også  
+## Se også  
  [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
  [Designoplysninger: Afvigelse](design-details-variance.md) [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  

@@ -1,22 +1,16 @@
 ---
 title: Oversigt over opgaver til fordeling af omkostninger og indtægter
-description: Beskriver de opgaver, du skal udføre for at allokere en post i en finanskladde til flere forskellige konti, når du bogfører kladden.
+description: 'Beskriver de opgaver, du skal udføre for at allokere en post i en finanskladde til flere forskellige konti, når du bogfører kladden.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 283, 5629
+ms.search.form: '283, 5629'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 91741eea4d2ba780e7493e6aff256238bd542769
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511360"
 ---
-# <a name="allocate-costs-and-income"></a>Fordele omkostninger og indtægter
+# Fordele omkostninger og indtægter
 
 Du kan allokere en post i en finanskladde til flere forskellige konti, når du bogfører kladden. Allokeringen kan foretages på tre forskellige måder:
 
@@ -29,7 +23,7 @@ Allokeringsfunktionen kan bruges sammen med finansgentagelseskladder og i anlæg
 
 I følgende procedurer beskrives, hvordan du forbereder at allokere omkostninger i en finansgentagelseskladde ved at definere fordelingsnøgler. Når der er defineret fordelingsnøgler, skal du udfylde og bogføre kladden ligesom alle andre finansgentagelseskladder. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).
 
-## <a name="to-set-up-allocation-keys"></a>Sådan konfigureres fordelingsnøgler
+## Sådan konfigureres fordelingsnøgler
 
 Du kan allokere en post i en finansgentagelseskladde til flere forskellige konti, når du bogfører kladden. Allokeringen kan foretages efter antal, procent eller beløb.  
 
@@ -47,13 +41,13 @@ Du kan allokere en post i en finansgentagelseskladde til flere forskellige konti
 10. Når du har angivet linjerne med fordelinger, skal du vælge **OK** for at gå tilbage til siden **Finansgentagelseskladde**. Feltet **Fordelt beløb (RV)** udfyldes og svarer til feltet **Beløb**.
 11. Bogfør journalen.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Sådan ændres en fordelingsnøgle, der allerede er oprettet
+## Sådan ændres en fordelingsnøgle, der allerede er oprettet
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
 2. Vælg kladden med allokeringen på siden **Finansgentagelseskladde**.
 3. Vælg linjen med fordelingen og vælg derefter handlingen **Fordelinger**.
 4. Rediger de relevante felter, og vælg derefter knappen **OK**.
 
-## <a name="see-also"></a>Se også
+## Se også
 [Afslutning af år og perioder](year-close-years-periods.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)    
 [Bogføring af dokumenter og kladder](ui-post-documents-journals.md)    

@@ -1,27 +1,21 @@
 ---
 title: Oprette nye værdiposter for varer i lagerbeholdningen | Microsoft Docs
-description: Beskriver, hvordan værdiposterne for en eller flere varer på lageret kan op- eller nedskrives ved at bogføre deres aktuelle, beregnede værdi.
+description: 'Beskriver, hvordan værdiposterne for en eller flere varer på lageret kan op- eller nedskrives ved at bogføre deres aktuelle, beregnede værdi.'
 documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: costing, inventory cost, value entries
-ms.search.forms: 5803,
+ms.search.keywords: 'costing, inventory cost, value entries'
+ms.search.forms: '5803,'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: edad8dcc23a204f4dcfabfa43a9c83918f63f416
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511542"
 ---
-# <a name="revalue-inventory"></a>Regulere lagerbeholdning
+# Regulere lagerbeholdning
 Hvis du vil op- eller nedskrive en vare eller en bestemt varepost, skal du bruge reguleringskladden.
 
-## <a name="to-revalue-inventory"></a>Sådan reguleres lagerbeholdningen
+## Sådan reguleres lagerbeholdningen
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **værdireguleringskladde**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Beregn lagerværdi**.
 3. På siden **Beregn lagerværdi** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -33,7 +27,7 @@ Hvis du vil op- eller nedskrive en vare eller en bestemt varepost, skal du bruge
 
 Nye værdiposter oprettes nu for at afspejle de værdireguleringer, du har bogført. Du kan se de nye værdier på de respektive varekort.
 
-## <a name="see-also"></a>Se også
+## Se også
 [Designoplysninger: Regulering](design-details-revaluation.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Salg](sales-manage-sales.md)  

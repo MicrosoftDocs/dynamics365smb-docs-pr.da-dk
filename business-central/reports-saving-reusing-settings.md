@@ -1,22 +1,16 @@
 ---
 title: Administrere gemte indstillinger for rapporter og kørsler
-description: Beskriver, hvordan Administrator kan konfigurere foruddefinerede indstillinger og filtre for en rapport og dele disse indstillinger med en eller alle brugere.
+description: 'Beskriver, hvordan Administrator kan konfigurere foruddefinerede indstillinger og filtre for en rapport og dele disse indstillinger med en eller alle brugere.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customization, personalization
+ms.search.keywords: 'customization, personalization'
 ms.date: 12/21/2021
 ms.author: edupont
-ms.openlocfilehash: 901f3899ef164d3d24dbc5c4e2226b840c97c945
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522638"
 ---
-# <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Administrere gemte indstillinger for rapporter og kørsler
+# Administrere gemte indstillinger for rapporter og kørsler
 
 Når brugerne kører rapporter, får de normalt vist en side, hvor de kan vælge indstillinger og angive filtre for at ændre, hvilke data der skal medtages i den genererede rapport. Denne side kaldes *anmodningssiden*. En rapport kan medtage én eller flere *gemte indstillinger*, som brugerne kan anvende til rapporten fra anmodningssiden. *Gemte indstillinger* er grundlæggende foruddefinerede indstillinger og filtre. Med gemte indstillinger kan du hurtigt og pålideligt generere ensartede rapporter, der indeholder de korrekte data. Du kan finde flere oplysninger i [Bruge gemte indstillinger](ui-work-report.md#SavedSettings).
 
@@ -25,7 +19,7 @@ Når brugerne kører rapporter, får de normalt vist en side, hvor de kan vælge
 
 Hvis du har de nødvendige tilladelser, kan du få vist, oprette og redigere de gemte indstillinger for alle rapporter for alle brugere i en virksomhed. Du kan tildele gemte indstillinger for en rapport til enkelte brugere eller til alle brugere i virksomheden.
 
-## <a name="manage-saved-settings"></a>Administrere gemte indstillinger
+## Administrere gemte indstillinger
 
 Du administrerer gemte indstillinger på siden **Rapportindstillinger**. Du kan åbne siden på to måder:
 
@@ -41,7 +35,7 @@ Siden **Rapportindstillinger** viser alle eksisterende poster for gemte indstill
 >
 > I nogle tilfælde kan indstillingerne imidlertid ikke deles, og administrator kan heller ikke ændre dem. De fleste batchjob understøtter ikke delte indstillinger.  
 
-## <a name="create-or-modify-saved-settings-for-all-users"></a>Oprette eller redigere gemte indstillinger for alle brugere
+## Oprette eller redigere gemte indstillinger for alle brugere
 
 Fra siden **Rapportindstillinger** kan du:
 
@@ -55,7 +49,7 @@ Fra siden **Rapportindstillinger** kan du:
 > [!NOTE]
 > Muligheden for at gemme indstillinger er kun tilgængelig, når egenskaben [SaveValues](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) for rapportens anmodningsside er indstillet til **Ja**. Egenskaben **SaveValues** indstilles af udvikleren.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbejde med rapporter, kørsler og XMLporte](ui-work-report.md)  
 

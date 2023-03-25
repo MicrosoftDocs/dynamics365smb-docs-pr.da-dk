@@ -1,23 +1,17 @@
 ---
 title: Konfigurer maillogføring
-description: Få at vide, hvordan du ændrer mailinteraktioner mellem sælgere og kunder til reelle salgs-leads.
+description: 'Få at vide, hvordan du ændrer mailinteraktioner mellem sælgere og kunder til reelle salgs-leads.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect, opportunity, email
+ms.search.keywords: 'relationship, prospect, opportunity, email'
 ms.date: 03/22/2022
-ms.search.form: 1680, 1811, 5076
+ms.search.form: '1680, 1811, 5076'
 ms.author: bholtorf
-ms.openlocfilehash: e14e3b353cd06d348de36c23caa4bcfb1981a6e5
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729933"
 ---
-# <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Spore udveksling af mails mellem sælgere og kontakter
+# Spore udveksling af mails mellem sælgere og kontakter
 Få mere ud af kommunikationen mellem sælgerne og kunder ved at omdanne udveksling af mails til handlingsrettede salgsmuligheder. [!INCLUDE[prod_short](includes/prod_short.md)] kan bruges sammen med Exchange Online til at føre en log over indgående og udgående meddelelser. Du kan få vist og analysere indholdet af hver meddelelse på siden **Interaktionslogposter**.
 
 > [!NOTE]
@@ -26,19 +20,19 @@ Få mere ud af kommunikationen mellem sælgerne og kunder ved at omdanne udveksl
 > [!IMPORTANT]
 > For [!INCLUDE[prod_short](includes/prod_short.md)] at være online kræver den nye oplevelse, at [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange Online er på samme lejer.
 
-## <a name="to-set-up-email-logging"></a>Sådan konfigureres maillogføring
+## Sådan konfigureres maillogføring
 Disse trin varierer, afhængigt af, om din administrator har slået funktionsopdateringen **Maillogføring ved hjælp af Microsoft Graph API** til. Hvis funktionsopdateringen ikke er aktiveret, skal du følge fremgangsmåden under fanen **Aktuel oplevelse**.
 
-## <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience)
+## [Aktuel oplevelse](#tab/current-experience)
 
-### <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Konfigurere offentlige mapper og regler maillogføring i Exchange Online
+### Konfigurere offentlige mapper og regler maillogføring i Exchange Online
 
 [!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
 
 Derefter opretter du forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange Online.
 
-## <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience)
-### <a name="set-up-a-shared-mailbox-and-rules-for-email-logging-in-exchange-online"></a>Konfigurere en delt postkasse og regler for e-maillogføring i Exchange Online
+## [Ny oplevelse](#tab/new-experience)
+### Konfigurere en delt postkasse og regler for e-maillogføring i Exchange Online
 
 > [!NOTE]
 > Disse trin kræver administratoradgang til Exchange Online.
@@ -48,13 +42,13 @@ Oprette en delt postkasse i Exchange Administration. Du kan også bruge Exchange
 > [!NOTE]
 > Hvis du bruger Exchange Management PowerShell, bliver ændringerne synlige i Exchange Administration efter en forsinkelse. Forsinkelsen kan være flere timer.
 
-### <a name="add-a-user-account-for-members-of-the-shared-mailbox"></a>Tilføje en brugerkonto for medlemmer af den delte postkasse
+### Tilføje en brugerkonto for medlemmer af den delte postkasse
 Den konto, du skal bruge til e-maillogføring, er en Exchange Online-konto. Det planlagte job kan anvende kontoen til at oprette forbindelse til den delte postkasse og behandle mails. Denne konto må ikke knyttes til en bestemt person. Føj e-mailkontoen til medlemmerne af den delte postkasse. Du kan finde flere oplysninger i [Brug EAC til at redigere delt postkassedelegering](/exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation).
 
-### <a name="allow-other-users-to-see-logged-emails"></a>Tillad andre brugere at se logførte e-mails
+### Tillad andre brugere at se logførte e-mails
 Du kan tillade, at en anden bruger åbner en e-mailmeddelelse i Exchange, som er relateret til en Interaktions-logpost fra [!INCLUDE[prod_short](includes/prod_short.md)]. For at gøre dette skal du give brugeren ``Read``-tilladelse til **Arkiv**-mappen i den delte postkasse. Du kan også finde yderligere oplysninger under [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true).
 
-### <a name="create-mail-flow-rules"></a>Oprette regler for mail flow
+### Oprette regler for mail flow
 Regler for e-mailflow undersøger, om der er specifikke betingelser for meddelelser, og agerer efterfølgende. Opret to regler for mailflow på grundlag af oplysningerne i følgende tabel. Du kan finde flere oplysninger i [Administrere regler for mailflow i Exchange Online](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules?preserve-view=true) og [Handlinger for mailflowregel i Exchange Online](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions?preserve-view=true).
 
 |Formål  |Name  |Anvend denne regel, hvis...  |Benyt følgende fremgangsmåde...  |
@@ -67,7 +61,7 @@ Regler for e-mailflow undersøger, om der er specifikke betingelser for meddelel
 
 ---
 
-## <a name="set-up-prod_short-to-log-email-messages"></a>Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til logføring af mails
+## Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til logføring af mails
 Disse trin er de samme for både aktuelle og nye erfaringer.
 
 Introduktion til maillogføring i to lette trin:
@@ -82,14 +76,14 @@ Introduktion til maillogføring i to lette trin:
 > * **Aktuel oplevelse**: Søg efter **Marketingopsætning**, vælg **Adgang**, derefter **Funktioner** og til sidst **Valider opsætning af mail-logføring**.
 > * **Ny oplevelse**: Søg efter **E-mail-logføring**, vælg **Handlinger** og derefter **Valider opsætning**.
 
-## <a name="viewing-email-message-exchanges-in-the-interaction-log"></a>Få vist udveksling af mails i interaktionslogposten
+## Få vist udveksling af mails i interaktionslogposten
 
 [!INCLUDE[prod_short](includes/prod_short.md)] opretter en post på siden **Interaktionslog**, hver gang en sælger og en kontakt udveksler en mail. Du kan få vist interaktionsloggen ved at åbne kortet **Kontakt** for personen, vælge **Relaterede**, og derefter vælge **Historik** og **Interaktionslogposter**. Der er nogle få ting, der kan udføres for hver indtastning i logfilen, f.eks.:
 
 - Få vist indholdet af den mail, der blev udvekslet, ved at vælge **Behandle** og derefter **Vis vedhæftede filer**.
 - Omdanne en e-mailudveksling til en salgsmulighed. Hvis en post ser lovende ud, kan du gøre den til en lead og derefter styre forløbet hen imod et salg. Hvis du vil aktivere en e-mail-udveksling til en salgsmulighed, skal du vælge posten, derefter **Behandle** og derefter **Opret en salgsmulighed**. Du kan finde flere oplysninger i [Administrere salgsleads](marketing-manage-sales-opportunities.md).
 
-## <a name="mailbox-and-folder-limits-in-exchange-online"></a>Postkasse og mappegrænser i Exchange Online
+## Postkasse og mappegrænser i Exchange Online
 Der findes postkasse- og mappe grænser i Exchange Online, f. eks. grænser for mappestørrelser og antallet af meddelelser. Du kan finde flere oplysninger i [Exchange Online-grænser](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits) og [Grænser for offentlige mapper i Exchange Server](/Exchange/collaboration/public-folders/limits?view=exchserver-2019).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] gemmer registrerede e-mails i en mappe i Exchange Online. [!INCLUDE[prod_short](includes/prod_short.md)] gemmer også et hyperlink til hver enkelt registreret meddelelse. Hyperlinks åbner de registrerede meddelelser i Exchange Online fra interaktionslogposter, kontaktkort og sælgerkort i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis en registreret meddelelse flyttes til en anden mappe, vil kæden være brudt. Du kan f. eks. flytte en meddelelse manuelt eller Exchange Online starter evt. automatisk opsplitning, når du har nået en lagergrænse.
@@ -102,33 +96,33 @@ Følgende trin kan være en hjælp til at undgå, at du bryder om meddelelser i 
     2. Opdater dine e-mail-flow regler i Exchange Online.
     3. Opdater din opsætning af e-mail-logføring i Business Central
 
-## <a name="connect-on-premises-versions-to-microsoft-exchange"></a>Tilslutn lokale versioner til Microsoft Exchange
+## Tilslutn lokale versioner til Microsoft Exchange
 
 Du kan oprette forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange on-premises eller Exchange Online til e-maillogføring. For begge versioner af Exchange er indstillingerne for forbindelsen tilgængelige på siden **Marketingopsætning**. I Exchange Online kan du også bruge en assisteret installationsvejledning.
 
 > [!IMPORTANT]
 > Den nye oplevelse understøtter ikke en forbindelse til Exchange on-premises. Hvis du skal bruge Exchange på stedet, skal du ikke aktivere funktions opdateringen til den nye oplevelse.
 
-## <a name="connect-to-exchange-on-premises"></a>Opret forbindelse til On-premises
-## <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience)
+## Opret forbindelse til On-premises
+## [Aktuel oplevelse](#tab/current-experience)
 Hvis du vil tilslutte [!INCLUDE[prod_short](includes/prod_short.md)] on-premises til Exchange on-premises på siden **Marketingopsætning** kan du bruge **Basis** som **Godkendelsestype** og derefter angive legitimationsoplysninger til brugerkontoen for Exchange on-premises. Aktiver derefter **Aktiveret** til/fra for at starte logføring af e-mails.
 
-## <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience)
+## [Ny oplevelse](#tab/new-experience)
 Den nye oplevelse understøtter ikke forbindelser til Exchange on-premises.
 
 ---
 
-## <a name="connect-to-exchange-online"></a>Opret forbindelse til Exchange Online
+## Opret forbindelse til Exchange Online
 Hvis du vil oprette forbindelse til Exchange Online, skal du registrere et program i Azure Active Directory. Angiv program-id, key vault-hemmeligheden og omdirigere den URL-adresse, der skal bruges til registrering. URL-adressen til omdirigering er forudindstillet og bør fungere for de fleste installationer. Du kan finde flere oplysninger i [Sådan registreres et program i Azure AD for at oprette forbindelse fra Business Central til Exchange Online](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
 
 Du skal også bruge **OAuth2** som **Godkendelsestype**. Du skal også registrere et program i Azure Active Directory. Angiv program-id, key vault-hemmeligheden og omdirigere den URL-adresse, der skal bruges til registrering. URL-adressen til omdirigering er forudindstillet og bør fungere for de fleste installationer. Du kan finde flere oplysninger i Sådan registreres et program i Azure AD for at oprette forbindelse fra Business Central til Exchange Online herunder.
 
 Du skal konfigurere installationen til at bruge HTTPS. Du kan finde flere oplysninger i [Konfigurere SSL for at sikre forbindelsen til Business Central-webklienten](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Hvis du konfigurerer serveren, så den har en anden startside, kan du altid ændre URL-adressen. Klientens hemmelighed gemmes som en krypteret streng i din database.
 
-### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online"></a>Sådan registrerer du et program i Azure AD for at oprette forbindelse fra Business Central til Exchange Online
+### Sådan registrerer du et program i Azure AD for at oprette forbindelse fra Business Central til Exchange Online
 I følgende trin antages det, at du bruger Azure Active Directory til at administrere identiteter og adgangsrettigheder. Du kan finde flere oplysninger om registrering af et program i [Hurtig start: Registrere et program på Microsoft-identitetsplatformen](/azure/active-directory/develop/quickstart-register-app). 
 
-## <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience) 
+## [Aktuel oplevelse](#tab/current-experience) 
 I følgende trin antages det, at du bruger Azure Active Directory til at administrere identiteter og adgangsrettigheder. Du kan finde flere oplysninger om registrering af et program i [Hurtig start: Registrere et program på Microsoft-identitetsplatformen](/azure/active-directory/develop/quickstart-register-app). Hvis du ikke bruger Azure Active Directory, kan du se [Bruge en anden tjeneste til identitets- og adgangsstyring](marketing-set-up-email-logging.md#use-another-identity-and-access-management-service). 
 
 1. Vælg **Godkend** under **Administrer** i på Azure-portalen.
@@ -174,7 +168,7 @@ I følgende trin antages det, at du bruger Azure Active Directory til at adminis
    > [!NOTE]
    > Hvis du ikke bliver bedt om at logge på med din administratorkonto, skyldes det sandsynligvis, at pop op-vinduer er blokeret. Du kan logge på ved at tillade pop op-vinduer fra https://login.microsoftonline.com.
 
-## <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience)
+## [Ny oplevelse](#tab/new-experience)
 1. Vælg **Godkend** under **Administrer** i på Azure-portalen.
 2. Tilføj under **Omdirigerer URL-adresse**, og omdiriger den URL-adresse, der er angivet på siden **E-mail-logføring** i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis URL-adressen til omdirigering på siden E-mail-logføring er tom, skal du finde den foreslåede URL-adresse til omdirigering på siden **Assisteret opsætning**. Hvis du vil åbne siden, skal du på siden **E-mail-logføring** vælge **Handlinger** og derefter **Assisteret opsætning**.
 
@@ -187,50 +181,50 @@ I følgende trin antages det, at du bruger Azure Active Directory til at adminis
 6. Vælg **Oversigt**, og find derefter **Program-id (klient)**-værdien . Dette er programmets klient-id. Du skal angive enten i feltet **Klient-id** på siden **E-mail-logføring**.
 7. I [!INCLUDE[prod_short](includes/prod_short.md)] skal du oprette e-mail-logføring på siden **E-mail-logføring** eller bruge guiden **Assisteret opsætning** til at få hjælp.
 
-### <a name="use-another-identity-and-access-management-service"></a>Bruge en anden tjeneste til identitets- og adgangsstyring
+### Bruge en anden tjeneste til identitets- og adgangsstyring
 Hvis du ikke bruger Azure Active Directory til at administrere identiteter og adgangsrettigheder, skal du have hjælp fra en udvikler. Hvis du foretrækker at gemme app-id'et og hemmeligheden et andet sted, kan du lade felterne Klient-id og Klienthemmelighed være tomme og skrive en udvidelse for at hente id'et og hemmeligheden fra placeringen. Du kan levere hemmeligheden på kørselstidspunktet ved at abonnere på OnGetEmailLoggingClientId- og OnGetEmailLoggingClientSecret-hændelserne i codeunit 1641 "Opsætning af e-mail".
 
 ---
 
-## <a name="to-start-logging-email"></a>Sådan startes logføring af e-mails
+## Sådan startes logføring af e-mails
 1. Start logføring af e-mail ved at aktivere til/fra-feltet **Aktiveret** på siden **E-mail-logføring**.
 2. Log på med Exchange Online-kontoen, som det planlagte job kan anvende kontoen til at oprette forbindelse til den delte postkasse og behandle mails.
 
     > [!NOTE]
     > Hvis du ikke bliver bedt om at logge på Exchange Online-kontoen, skyldes det sandsynligvis, at din browser blokerer pop op-vinduer. Du kan logge på ved at tillade pop op-vinduer fra https://login.microsoftonline.com.
 
-## <a name="to-stop-logging-email"></a>Sådan stoppes logføring af e-mails
-## <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience)
+## Sådan stoppes logføring af e-mails
+## [Aktuel oplevelse](#tab/current-experience)
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Marketingopsætning**, og vælg derefter det relaterede link.
 1. Deaktiver **Aktiveret** til/fra.
 
-## <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience)
+## [Ny oplevelse](#tab/new-experience)
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **E-mail-logføring**, og vælg derefter det relaterede link.
 2. Deaktiver **Aktiveret** til/fra.
 
 ---
 
-## <a name="to-change-the-user-account-used-for-email-logging"></a>Sådan ændres den brugerkonto, der bruges til e-mail-logføring
+## Sådan ændres den brugerkonto, der bruges til e-mail-logføring
 Hvis du bruger den nye oplevelse, kan du ændre den brugerkonto, der bruges til e-mail-logføring. Den aktuelle oplevelse understøtter ikke denne.
 
-## <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience) 
+## [Aktuel oplevelse](#tab/current-experience) 
 Deaktiver den aktuelle opsætning, Skift brugeren på siden **E-mail-logføring**, og aktiver e-mail-logføring igen. Du kan også bruge en assisteret installationsvejledning igen.
 
-## <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience)
-### <a name="prod_short-online"></a>[!INCLUDE[prod_short](includes/prod_short.md)] Online
+## [Ny oplevelse](#tab/new-experience)
+### [!INCLUDE[prod_short](includes/prod_short.md)] Online
 1. Log på [!INCLUDE[prod_short](includes/prod_short.md)]-kontoen, med den konto, som det planlagte job kan anvende til at oprette forbindelse til den delte postkasse og behandle mails. Denne konto skal have adgang til både [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange Online.
 2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **E-mail-logføring**, og vælg derefter det relaterede link. 
 3. Vælg **Relateret**, og klik derefter på **Opgavekøpost**.
 4. Genstart **E-mail-logføring**-opgave.
 
-### <a name="prod_short-on-premises"></a>[!INCLUDE[prod_short](includes/prod_short.md)] lokalt
+### [!INCLUDE[prod_short](includes/prod_short.md)] lokalt
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **E-mail-logføring**, og vælg derefter det relaterede link. 
 2. Vælg **Handlinger**, og derefter **Forny token**.
 3. Log på med Exchange Online-kontoen, som det planlagte job kan anvende kontoen til at oprette forbindelse til den delte postkasse og behandle mails.
 
 
 
-## <a name="see-also"></a>Se også
+## Se også
 [Styre relationer](marketing-relationship-management.md)
 
 

@@ -1,23 +1,17 @@
 ---
 title: Fejlfinding af forbindelser
-description: Beskriver, hvordan du kan bruge siden fejlfinding af forbindelser til at identificere og løse problemer med at oprette forbindelse til Business central online.
+description: 'Beskriver, hvordan du kan bruge siden fejlfinding af forbindelser til at identificere og løse problemer med at oprette forbindelse til Business central online.'
 author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: connectivity, troubleshooting, connection problems
+ms.search.keywords: 'connectivity, troubleshooting, connection problems'
 ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
-ms.openlocfilehash: 6719a46bdb86be63bd4ffe1b3ff916911a645bc5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522218"
 ---
-# <a name="troubleshoot-connectivity-for-business-central"></a>Fejlfinding i forbindelse med Business central
+# Fejlfinding i forbindelse med Business central
 
 > **GÆLDER FOR:** [!INCLUDE[prod_short](includes/prod_short.md)] online
 >
@@ -28,7 +22,7 @@ ms.locfileid: "8522218"
 > [!NOTE]
 > Siden **Fejlfinding i forbindelser** tester ikke netværkets ydeevne eller pålidelighed, som f. eks. hastigheden på forbindelsen. Den kontrollerer kun forbindelsen til forskellige ressourcer.
 
-## <a name="start-the-connectivity-check"></a>Start forbindelseskontrol 
+## Start forbindelseskontrol 
 
 1. Åbn en Internet-browser.
 2. I adressen skal du angive den URL-adresse, du bruger til at åbne Business central og tilføje `/connectivity` i slutningen. 
@@ -57,7 +51,7 @@ ms.locfileid: "8522218"
 
 I følgende afsnit forklares de kontroller, der er udført, og du kan angive nogle tip til, hvordan du løser eventuelle problemer.
 
-## <a name="basic-internet-connectivity"></a>Grundlæggende internetforbindelse
+## Grundlæggende internetforbindelse
 
 Kontroller, at du har forbindelse til internettet, ved at kontrollere, at du kan få adgang til et kendt offentligt domæne, f.eks. www.bing.com.
 
@@ -66,7 +60,7 @@ Kontroller, at du har forbindelse til internettet, ved at kontrollere, at du kan
 |Browseren understøtter ikke denne kontrol|Åbn siden i en understøttet browser, og prøv igen. Du kan finde en liste over understøttede browsere under [Minimumskrav til brug af Business Central - Browsere](product-requirements.md#browsers)|
 |Serveren kunne ikke pinges på følgende URL-adresse: {url}|Kontrollér dine firewallindstillinger.|
 
-## <a name="cdn-content-delivery-network-resources-loading"></a>CDN (Content Delivery Network)-ressourcer indlæser
+## CDN (Content Delivery Network)-ressourcer indlæser
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bruger Azure-Content Delivery Network (CDN) til at levere ressourcer, der er nødvendige for at køre Business central-webklient. Denne kontrol kontrollerer, at de nødvendige ressourcer er tilgængelige og tilgængelige, når der sendes pingsignal til Business Central-forekomsten i CDN.
 
@@ -75,7 +69,7 @@ Kontroller, at du har forbindelse til internettet, ved at kontrollere, at du kan
 |Browseren understøtter ikke denne kontrol|Se **Grundlæggende internetforbindelse**-kontrol.|
 |Serveren kunne ikke pinges på følgende URL-adresse: {url}|Kontrollér dine firewallindstillinger.|
 
-## <a name="user-authentication"></a>Brugergodkendelse
+## Brugergodkendelse
 
 Kontrollerer, at den aktuelle bruger har logget på en gyldig Business Central-konto.
 
@@ -83,7 +77,7 @@ Kontrollerer, at den aktuelle bruger har logget på en gyldig Business Central-k
 |-------|-------------|
 |Ingen bruger er godkendt i øjeblikket|Log på Business central med gyldigt brugernavn og adgangskode.|
 
-## <a name="business-central-environments-discovery"></a>Business central-miljøer
+## Business central-miljøer
 
 Kontrol af Business Central-miljøer, som er tilgængelige for en godkendt bruger, og kontroller derefter, om brugeren kan godkendes i miljøet.
 <!-- example: Your user name or password is incorrect, or you do not have a valid account.. Request duration: 332 milliseconds)-->
@@ -94,7 +88,7 @@ Kontrol af Business Central-miljøer, som er tilgængelige for en godkendt bruge
 |De tilgængelige miljøer for din konto kunne ikke hentes.|Se oversigten over tilgængelige miljøer i Business Central Administration.|
 |Dit brugernavn eller din adgangskode er forkert, eller du har ikke en gyldig konto.| Kontroller, at du har logget på med det korrekte brugernavn og den korrekte adgangskode.|
 
-## <a name="application-service-connectivity"></a>Tilslutning af programtjeneste
+## Tilslutning af programtjeneste
 
 Kontrollerer, at den godkendte bruger kan oprette forbindelse til et fundet miljø, hvilket typisk starter med produktionsmiljøet.
 
@@ -105,7 +99,7 @@ Kontrollerer, at den godkendte bruger kan oprette forbindelse til et fundet milj
 |Ingen klyngeadresse til at udføre denne kontrol for|Se oversigten over tilgængelige miljøer i Business Central Administration.|
 |Versions slutpunktet findes ikke|Se oversigten over tilgængelige miljøer i Business Central Administration.|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Ressourcer til hjælp og support](product-help-and-support.md)  
 [Oversigt over opgaver til opsætning af Business Central](setup.md)  

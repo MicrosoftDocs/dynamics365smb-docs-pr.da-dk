@@ -1,22 +1,16 @@
 ---
 title: Designoplysninger - Bogføring af montageordre
-description: Montageordrebogføring er baseret på de samme principper, som når der bogføres lignende aktiviteter af salgsordrer og produktionsforbrug/afgang.
+description: 'Montageordrebogføring er baseret på de samme principper, som når der bogføres lignende aktiviteter af salgsordrer og produktionsforbrug/afgang.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 01c8b40b5217faccabc93e931472ad3aad64b7a1
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075599"
 ---
-# <a name="design-details-assembly-order-posting"></a>Designoplysninger: Bogføring af montageordre
+# Designoplysninger: Bogføring af montageordre
 Montageordrebogføring er baseret på de samme principper, som når der bogføres lignende aktiviteter af salgsordrer og produktionsforbrug/afgang. Dog kombineres principperne, fordi montageordrer har egen brugergrænseflade til bogføring, ligesom den for salgsordrer, mens faktisk postbogføring sker i baggrunden som direkte vare- og ressourcekladdeposteringer, ligesom for produktionsforbrug, afgang og kapacitet.  
 
 I lighed med produktionsordrebogføring bliver de forbrugte komponenter og de anvendte ressourcer konverteret og udlæst som montagevare, når montageordren er bogført. Du kan finde flere oplysninger i [Designoplysninger: Bogføring af produktionsordre](design-details-production-order-posting.md). Men montageordrers kost-flow er mindre kompliceret, især fordi montageomkostninger kun bogføres én gang og derfor ikke opretter lageret for igangværende arbejde.  
@@ -39,7 +33,7 @@ I følgende diagram vises, hvordan montagedata flyder ind i vareposter ved bogf�
 
 ![Montagerelateret posteringsflow under bogføring.](media/design_details_assembly_posting_2.png "Montagerelateret posteringsflow under bogføring")  
 
-## <a name="posting-sequence"></a>Bogføringssekvens  
+## Bogføringssekvens  
 Bogføringen af en montageordre forekommer i følgende rækkefølge:  
 
 1.  Montageordrelinjerne bogføres.  
@@ -55,12 +49,12 @@ Følgende tabel beskriver sekvensen af handlinger.
 > [!IMPORTANT]  
 >  I modsætning til produktionsafgang, der bogføres med forventede omkostninger, bogføres montageafgange med faktiske omkostninger.  
 
-## <a name="cost-adjustment"></a>Omkostningsregulering  
+## Omkostningsregulering  
  Når der bogføres en montageordre, hvilket betyder, at komponenter (materiale) og ressourcer samles i en ny vare, skal det være muligt at bestemme den faktiske kostpris af montageelementet og den faktiske lageromkostning for de involverede komponenter. Dette opnås ved overførsel af omkostninger fra de bogførte poster i kilden (komponenter og ressourcer) til de bogførte poster på destinationen (montageelementet). Videresendelse af omkostninger sker ved beregning og oprettelse af nye poster, der kaldes reguleringsposter, der bliver knyttet til destinationsposterne.  
 
  Montageomkostninger, der skal videresendes, registreres med registreringsmekanismen for ordreniveau. Du kan finde oplysninger om andre mekanismer til registrering af regulering i [Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md).  
 
-### <a name="detecting-the-adjustment"></a>Reguleringsregistrering  
+### Reguleringsregistrering  
 Funktionen til registrering af ordreniveau bruges i konverteringsscenarier, produktion og montage. Funktionen fungerer på følgende måde:  
 
 -   Omkostningsregulering registreres ved at markere ordren, når et materiale eller en ressource bogføres som forbrugt.  
@@ -70,7 +64,7 @@ I følgende illustration vises reguleringspoststrukturen, og hvordan montagekost
 
 ![Montagerelateret posteringsflow under omkostningstilpasning.](media/design_details_assembly_posting_3.png "Montagerelateret posteringsflow under bogføring")  
 
-### <a name="performing-the-adjustment"></a>Udførelse af regulering  
+### Udførelse af regulering  
 Spredningen af registrerede justeringer fra materiale- og ressourceomkostninger på montageafgangsposter er udført af kørslen **Reguler kostværdi – vareposter**. Den indeholder funktionen Foretag justering af flere niveauer, som består af følgende to elementer:  
 
 -   Foretag justering af montageordre – der videresender omkostninger fra materiale- og ressourceforbrug til montagens afgangspost. Linje 5 og 6 i nedenstående algoritme er ansvarlige for dette.  
@@ -83,7 +77,7 @@ Spredningen af registrerede justeringer fra materiale- og ressourceomkostninger 
 
 Du kan finde flere oplysninger om, hvordan omkostninger fra produktion og montage bogføres i finansregnskabet, i [Designoplysninger: Varekladde](design-details-inventory-posting.md).  
 
-## <a name="assembly-costs-are-always-actual"></a>Montageomkostninger er altid faktiske omkostninger  
+## Montageomkostninger er altid faktiske omkostninger  
  Begrebet igangværende arbejde (VIA) gælder ikke i montageordrebogføring. Montageomkostninger bogføres kun som faktiske omkostninger, aldrig som forventede omkostninger. Du kan finde flere oplysninger i [Designoplysninger: Bogføring af forventet kostpris](design-details-expected-cost-posting.md).  
 
 Dette aktiveres ved følgende datastruktur.  
@@ -101,21 +95,21 @@ Desuden bogføres gruppefelter på montageordrehovedet og montageordrelinjerne s
 
 Derfor er det kun faktiske omkostninger, der bogføres i Finans, og der udfyldes ingen mellemregningskonto fra montageordrebogføring. Du kan finde flere oplysninger i [Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md).  
 
-## <a name="assemble-to-order"></a>Montage til ordre  
+## Montage til ordre  
 Den varepost, der er resultatet af bogføring af et ordremontagesalg, bliver fast udlignet med den relaterede varepost for montageafgangen. På samme måde er kostprisen for et montage efter ordre-salg afledt fra den montageordre, den var knyttet til.  
 
 Vareposter af typen Salg, der stammer fra bogføring af montage til ordre-mængder, der er markeret med **Ja** i feltet **Montage til ordre**.  
 
 Bogføring af salgsordrelinjer, hvor en del er lagerbeholdningen, og en anden del er montage til ordre-antallet, resulterer i separate vareposter, én for lagerbeholdningen og én for montage til ordre-antallet.  
 
-### <a name="posting-dates"></a>Bogføringsdatoer
+### Bogføringsdatoer
 
 Generelt kopieres bogføringsdatoer fra en salgsordre til den tilknyttede montageordre. Bogføringsdatoen i montageordren opdateres automatisk, når du ændrer bogføringsdatoen i salgsordren direkte eller indirekte, f. eks. Hvis du ændrer bogføringsdatoen i wareshouse shippment, lagerplukket eller som en del af en massebogføring.
 
 Du kan ændre bogføringsdatoen i montageordren manuelt. Det kan imidlertid ikke senere være bogføringsdatoen i den sammenkædede salgsordre. Denne dato bevares, medmindre du opdaterer bogføringsdatoen i salgsordren.
 
 
-## <a name="see-also"></a>Se også  
+## Se også  
  [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
  [Designoplysninger: Bogføring af produktionsordre](design-details-production-order-posting.md)   
  [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  

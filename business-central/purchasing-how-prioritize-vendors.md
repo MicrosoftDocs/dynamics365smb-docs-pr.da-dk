@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: supplier, payment priority
-ms.search.form: 26, 27
+ms.search.keywords: 'supplier, payment priority'
+ms.search.form: '26, 27'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ed025f130fc2de9be77c373ab9b651844496b8a7
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144198"
 ---
-# <a name="prioritize-vendors"></a>Tildele kreditorer prioritet
+# Tildele kreditorer prioritet
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kan foreslå forskellige betalinger til kreditorer. Det kan f.eks. være betalinger, som snart forfalder, eller som omfatter rabat. Du kan finde flere oplysninger i [Lave kreditorbetalingsforslag](payables-how-suggest-vendor-payments.md).
 
@@ -25,7 +19,7 @@ Du skal først at prioritere dine kreditorer ved at tildele numre til dem.
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PRGa?rel=0]
 
-## <a name="to-prioritize-vendors"></a>Sådan tildeler du kreditorer prioritet
+## Sådan tildeler du kreditorer prioritet
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.
 2. Vælg den relevante kreditor, og vælg derefter **Rediger**.
@@ -35,7 +29,7 @@ Du skal først at prioritere dine kreditorer ved at tildele numre til dem.
 
 Hvis der er en kreditor, du ikke vil tildele prioritet, skal du lade feltet **Prioritet** stå tomt. Hvis du bruger betalingsforslag figurerer den pågældende kreditor i så fald efter alle andre kreditorer, som har et prioritetstal. Der er ingen begrænsninger på, hvor mange prioritetsniveauer du kan angive.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)  
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  

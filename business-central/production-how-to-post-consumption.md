@@ -1,31 +1,25 @@
 ---
 title: Massebogføre forbrug
-description: Hvis trækmetoden er Manuel, skal du bogføre komponenterne manuelt ved at bruge en forbrugskladde.
+description: 'Hvis trækmetoden er Manuel, skal du bogføre komponenterne manuelt ved at bruge en forbrugskladde.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000846, 99000850
+ms.search.form: '99000846, 99000850'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 09129dc65ad61e632d7b5f5e3d22b47ae32d95bd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516714"
 ---
-# <a name="batch-post-production-consumption"></a>Massebogføre produktionsforbrug
+# Massebogføre produktionsforbrug
 
 Hvis trækmetoden er **Manuel**, skal du bogføre komponenterne manuelt ved at bruge en forbrugskladde.  
 
 >[!NOTE]
-> Hvis du har markeret feltet **Kræv pluk** på lokationskortet for at angive, at lokationen kræver behandling af lagerpluk, behøver du ikke bruge denne kørsel. [!INCLUDE[prod_short](includes/prod_short.md)] håndterer forbruget, når du bogfører lagerpluk. Du kan finde flere oplysninger i [Plukke til produktion i grundlæggende lageropsætninger](warehouse-how-to-pick-for-production.md#pick-for-production-in-basic-warehouse-configurations)  
+> Hvis du har markeret feltet **Kræv pluk** på lokationskortet for at angive, at lokationen kræver behandling af lagerpluk, behøver du ikke bruge denne kørsel. [!INCLUDE[prod_short](includes/prod_short.md)] håndterer forbruget, når du bogfører lagerpluk. Du kan finde flere oplysninger i [Plukke til produktion i grundlæggende lageropsætninger](warehouse-how-to-pick-for-production.md)  
 
 Du kan også konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til automatisk at bogføre (*trække*) komponenterne, når du starter eller afslutter produktionsordrer. Du kan finde flere oplysninger i [Aktivere udtrækning af komponenter i henhold til operationsafgang](production-how-to-flush-components-according-to-operation-output.md).
 
-## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Sådan bogføres forbrug for en eller flere produktionsordrelinjer
+## Sådan bogføres forbrug for en eller flere produktionsordrelinjer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Forbrugskladde**, og vælg derefter det relaterede link.  
 2. Udfyld felterne med produktionsordredata og forbrugsdata. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -37,7 +31,7 @@ Du kan også konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til auto
 
 3. Vælg handlingen **Bogfør** for at bogføre forbruget. De relaterede lagerbeholdninger er reduceret.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Produktion](production-manage-manufacturing.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  

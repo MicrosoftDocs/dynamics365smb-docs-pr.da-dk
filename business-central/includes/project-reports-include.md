@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ffe86add3d3a5124befe782548ab57365ee6ea2a
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334768"
 ---
+
 I følgende tabel beskrives nogle af nøglerapporterne i jobsrapporter.
 
 | Report | Beskrivlse | Id | 

@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 15
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 56a9cc0181b73c5490c6cbc499071e1bfbb63da2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512598"
 ---
-# <a name="convert-existing-locations-to-warehouse-locations"></a>Konvertere eksisterende lokationer til lagerlokationer
+# Konvertere eksisterende lokationer til lagerlokationer
 Du kan aktivere en eksisterende lagerlokation til at anvende zoner og placeringer og til at fungere som en lagerlokation.  
 
 Kørslen, der aktiverer en lokation til lagerhåndteringen, opretter lagerposter til lagerreguleringsplaceringen for alle varer med et lager på lokationen. De første poster afstemmes, når lagerstedets fysiske lagerposter bogføres, efter at kørslen er udført.  
@@ -27,7 +21,7 @@ Du kan oprette zoner og placeringer enten før eller efter konverteringen. Den e
 > [!IMPORTANT]  
 >  Du kan rydde alt negativt lager og alle åbne lagerdokumenter, før du konverterer lokationen for lagerekspedition ved at køre en rapport for at identificere varer med negativt lager og åbne lagerdokumenter, der hører til lokationen. Du kan finde flere oplysninger i Kontroller for negativt lager.  
 
-## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Sådan aktiveres en eksisterende lokation til at fungere som en lagerlokation  
+## Sådan aktiveres en eksisterende lokation til at fungere som en lagerlokation  
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opret lagerlokation**, og vælg derefter det relaterede link.  
 2.  I feltet **Lokationskode** skal du angive den lokation, du vil aktivere til behandling af lageret.  
 3.  I feltet **Reguleringsplaceringskode** skal du angive placeringen på den lokation, hvor ikke-synkroniserede lagerposter gemmes. Du kan finde flere oplysninger i [Sådan synkroniseres de regulerede lagerposter med de relaterede vareposter](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).  
@@ -42,12 +36,11 @@ Du kan oprette zoner og placeringer enten før eller efter konverteringen. Den e
 
  For lokationer, der ikke anvendte lageradministrationsdokumenter inden konverteringen, skal du genåbne og frigive alle kildedokumenter, der blev delvist modtaget eller delvist leveret inden konverteringen.  
 
-## <a name="see-also"></a>Se også  
-[Logistik](warehouse-manage-warehouse.md)  
-[Lagerbeholdning](inventory-manage-inventory.md)  
+## Se også  
+[Warehouse Management-oversigt](design-details-warehouse-management.md)
+[Lager](inventory-manage-inventory.md)  
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -1,108 +1,186 @@
 ---
-title: Plukke til produktion, montage eller jobs i grundlæggende lageropsætninger
-description: Når lagerlokationen kræver pluk, men ikke leverance, skal du bruge siden Pluk (lager) til at organisere og registrere pluk af komponenter.
+title: 'Plukke eller flytte varer til produktion, montage eller jobs i grundlæggende lageropsætninger'
+description: 'Når lagerlokationen kræver pluk, men ikke leverance, skal du bruge siden Pluk (lager) til at organisere og registrere pluk af komponenter.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 08/02/2022
 ms.author: bholtorf
-ms.openlocfilehash: 859c70ebc51f2649000d41817d173292ed5b0870
-ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 10/03/2022
-ms.locfileid: "9617872"
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: conceptual
+ms.date: 12/16/2022
+ms.custom: bap-template
+ms.search.forms: '9330, 931, 990008, 89, 900, 902'
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-basic-warehouse-configurations"></a>Plukke til produktion, montage eller jobs i grundlæggende lageropsætninger
+# Plukke til produktion, montage eller jobs i grundlæggende lageropsætninger
 
-Hvordan du skal lægge komponenter på lager til produktions- eller montageordrer afhænger af den måde, som lagerstedet er sat op på som en lokation. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).
+Hvordan du skal lægge komponenter på lager til produktions-. sags eller montageordrer afhænger af den måde, som lagerstedet er sat op på som en lokation. Flere oplysninger i [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md).
 
-## <a name="pick-for-production-in-basic-warehouse-configurations"></a>Plukke til produktion i grundlæggende lageropsætninger
+I en avanceret lageropsætning for den udgående flow (pluk), skal du slå til/fra **Kræv pluk** og **Kræv leverance** på siden **Lokationskort** for lokationen.
 
-Hvis lokationen kræver pluk, men ikke leverancebehandling, kan du bruge siden **Lagerpluk**. Du kan bruge siden **pluk (lager)** til at organisere og registrere plukningen af varer, hvis Trækmetode er indstillet til **Manuel**. Når du registrerer et lagerpluk, bogføres forbruget af de plukkede komponenter. Du kan også bruge **Flytning (lager)** med henvisning til et kildedokument for at placere komponenter, hvor trækmetoden er indstillet til **Manuel**, **Pluk + Forlæns** eller **Pluk + Tilbage** for produktionsordrer.
+Brug følgende dokumenter for interne operationer:
 
-Når produktionsoperationer er integreret i lagerprocesser, enten efter placeringer eller styret læg-på-lager og pluk, er den placering, hvorfra komponenterne forbruges den placering, der er defineret på hver produktionsordres komponentlinje. Alle nødvendige komponenter skal være tilgængelige på den pågældende placering. Ellers stopper den manuelle eller udtrukne forbrugsbogføring for den pågældende komponent.
+* Pluk
+* Flytning (lager)
 
-> [!NOTE]  
-> Der er følgende vigtige forskelle mellem pluk fra lagerbeholdning, flytninger af lagerbeholdning og pluk fra lagersted:  
->
-> - Når du registrerer et pluk for en intern handling, såsom produktion, bogføres forbrug af de komponenter, der er plukket på samme tid. Når du registrerer en flytning af lagerbehold eller et pluk fra et lagersted for en intern handling, registrerer du kun den fysiske flytning af de krævede komponenter til en placering i operationsområdet uden at bogføre forbruget.  
-> - Når du bruger pluk fra lager definerer feltet **Placeringskode** på en produktionsordrekomponentlinje den *hente*-placering, som komponenter tages fra, når forbruget posteres. Når du bruger flytninger af lagerbeholdning eller pluk fra lagerstedet, definerer feltet **Placeringskode** på produktionsordrens komponentlinjer den *placering* i operationsområdet, hvor lagermedarbejderen skal placere komponenterne.  
+## Lagerpluk
 
-Hvis du skal plukke eller flytte komponenter til kildedokumenter er, at der findes en udgående lageranmodning til at give lagerområdet besked om komponentbehovet. Den udgående lageranmodning oprettes, når du gør følgende:
+* Når du registrerer et pluk for en intern handling, såsom produktion eller en sag, bogføres forbrug af de komponenter, der er plukket på samme tid.
+* Afkrydsningsfeltet **Tvungen placering** på **lokationskortet** er markeret.
+* Når du bruger pluk fra lager definerer feltet **Placeringskode** på en produktionsordrekomponentlinje den *hente*-placering, som komponenter tages fra, når forbruget posteres. Komponenterne formindskes i vinduet Hent, når du bogfører forbrug.
 
-- Ændre status på en produktionsordre til Frigivet.
-- Opret en frigivet produktionsordre.  
+## Flytninger (lager)
 
-Trækmetoder påvirker også flowet af komponenter i produktionen. Du kan finde flere oplysninger i [Udtrække komponenter i henhold til operationsafgang](production-how-to-flush-components-according-to-operation-output.md). **Flytning (lager)** med henvisning til kildedokumentet og **Pluk (logistik)** kan ikke bruges til at plukke komponenter med trækmetoderne *Fremad* og *Tilbage*. **Pluk (lager)** kan ikke bruges til at plukke komponenter med en anden trækmetode end *Manuel*. Hvis du vil håndtere resterende komponenter, skal du bruge **Flytning (lager)** uden henvisning til et kildedokument. Du kan finde flere oplysninger i [Flytte komponenter til et handlingsområde i grundlæggende lageropsætninger](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+* Hvis du vil bruge pluk fra lager til sager, skal du aktivere funktionen **Tvungen placering** på siden **Lokationskortet** for lokationen.
+* Lagerbevægelser fungerer kun med produktionsordrekomponentlinjer og montageordrelinjer.
+* Når du registrerer en flytning (lager) for en intern handling, registrerer du kun fysisk flytning af nødvendige komponenter til en placering i handlingsområdet. Du ikke bogfører forbrug.
+* Når du bruger pluk fra lager definerer feltet **Placeringskode** på en produktionsordrekomponentlinje den *hente*-placering, som komponenter tages fra, når forbruget posteres. Placeringen er stedet, hvor lagermedarbejdere skal placere komponenterne.
+* Registrere forbruget af de plukkede komponenter separat ved at bogføre en forbrugskladde eller montageordre.
 
-I avancerede lageropsætninger, hvor lokationer kræver både pluk og leverancer, skal du bruge siden **Pluk (logistik)** til at placere komponenter, hvor trækmetoden er indstillet til *Manuel*, *Pluk + Forlæns* eller *Pluk + Tilbage* for produktionsordrer. Du kan finde flere oplysninger i [Plukke til produktion eller montage i avancerede lageropsætninger](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
+>[!NOTE]
+> Selvom funktionen **Kræv pluk** er slået fra, kan du bruge et **lagerpluk**-dokument. Lagerpluk svarer til **pluk (lager)**-dokumenter. Dette er nyttigt, hvis du vil bruge pluk i operationer og levering i udgående lagerflows.
 
-## <a name="to-pick-components-for-production-and-jobs-in-basic-warehouse-configurations"></a>Plukke komponenter til produktion eller montage i en grundlæggende lageropsætning
+### Produktion
 
-I grundlæggende lageropsætninger, hvor placeringen er konfigureret til kun at bruge pluk, kan du plukke komponenter til produktionsaktiviteter og jobplanlægningslinjer på siden **Pluk (lager)**. Du kan finde flere oplysninger i [Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md).
+Brug **Lagerpluk**-dokumenter til at plukke produktionskomponenter i forløbet til produktion.
+
+For en lokation, der bruger placeringer, kan du udvide strømmen til produktion ved hjælp af **flytning (lager)**-dokumenter. Lagerbevægelser er især nyttige ved træk med komponenter. Hvis du ønsker yderligere oplysninger om, hvordan komponentforbrug tømmes fra produktionsplaceringen eller den åbne produktionsplacering, kan du se afsnittet [Træk af produktionskomponenter i lageret](#flushing-production-components-in-a-basic-warehouse-configuration).
+
+### Montage  
+
+Bruge **Flytning (lager)**-dokumenter af varer til at flytte montagekomponenter til montageområdet.
+
+> [!NOTE]
+> **Flytning (lager)**-dokumenter kræver placeringer.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] understøtter montage efter lager-og montage efter ordre-montage processer. Hvis du vil vide mere om montage efter ordre i den udgående lagergang, skal du gå til [Håndtering af ordremontagevarer i lagerleverancer](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
+
+### Projektstyring  
+
+Brug **Lagerpluk**-dokumenter til at plukke produktionskomponenter i forløbet til produktion.
+
+For en lokation, der bruger placeringer, kan du udvide strømmen til produktion ved hjælp af **flytning (lager)**-dokumenter.
 
 > [!NOTE]
 > Muligheden for at plukke komponenter til Sagsplanlægningslinjer blev tilføjet i [!INCLUDE[d365fin](includes/d365fin_md.md)] i 2022 udgivelsesbølge 2. Hvis du vil starte med at bruge funktionen, skal din administrator aktivere **Funktionsopdatering: Aktivér lagerbeholdning og lagerpluk fra job** på siden **Funktionsstyring**.
 >
->[!INCLUDE[prod_short](includes/prod_short.md)] bruger værdien i feltet **Restantal** på sagsplanlægningslinjen, når der oprettes pluk (lager). Hvis du vil bruge pluk fra lager til sager, skal du aktivere funktionen **Anvend anvendelseslink** på siden **opgavekortet** for sagen. På den måde kan du spore forbruget i forhold til din plan. Hvis du ikke aktiverer til/fra, forbliver restantallet ved **0**, og lagerplukket bliver ikke oprettet. Du kan finde flere oplysninger i [Sådan konfigureres sagsforbrugssporing](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
+> [!INCLUDE[prod_short](includes/prod_short.md)] bruger værdien i feltet **Restantal** på sagsplanlægningslinjen, når der oprettes pluk (lager). Hvis du vil bruge pluk fra lager til sager, skal du aktivere funktionen **Anvend anvendelseslink** på siden **opgavekortet** for sagen. På den måde kan du spore forbruget i forhold til din plan. Hvis du ikke aktiverer til/fra, forbliver restantallet ved **0**, og lagerplukket bliver ikke oprettet. Du kan finde flere oplysninger i [Sådan konfigureres sagsforbrugssporing](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk fra lager**, og vælg derefter det relaterede link.  
-2. Du kan få adgang til produktionsordrekomponenterne ved at vælge handlingen **Hent kildedokumenter** og derefter vælge den frigivne produktionsordre.  
-3. Foretag plukningen, og registrer derefter de faktiske plukoplysninger i feltet **Håndteringsantal**.  
-4. Når linjerne er klar til at blive bogført, skal du vælge handlingen **Bogfør**. Bogføringen opretter de nødvendige lagerposter og bogfører forbruget af varer.  
+## Plukke eller flytte til produktion, montage eller sager i grundlæggende lageropsætninger
 
-Du kan også oprette et **Pluk (lager)** direkte fra den frigivne produktionsordre. Vælg handlingen **Opret læg-på-lager/pluk/flytning**, marker afkrydsningsfeltet **Opret pluk (lager)**, og vælg derefter knappen **OK**.
+Du kan oprette et lagerpluk eller en lagerflytning på tre måder:  
 
-Som alternativ kan du bruge **Flytning (lager)** med henvisning til kildedokumentet for at flytte varer mellem placeringer. Du skal registrere forbruget særskilt. Du kan finde flere oplysninger i [Massebogføre produktionsforbrug](production-how-to-post-consumption.md).
+* Fra selve kildedokumentet.  
+* Du kan oprette pluk for mange kildedokumenter samtidig ved hjælp af kørslen.  
+* I to trin. Frigiv kildedokumentet for at gøre kildedokumentet klar til plukning. Oprette pluk eller bevægelse for lager ud fra **Lagerpluk** eller **lagerbevægelse**-dokumenter. Lagerpluk eller flytninger er baseret på kildedokument.  
 
-## <a name="pick-for-assembly-in-basic-warehouse-configurations"></a>Plukke til montage i grundlæggende lageropsætninger
+### Sådan oprettes et pluk på basis af kildedokumentet
 
-Brug følgende sider til at plukke til montageordrer:
+1. På kildedokumentet, som kan være en produktionsordre eller et job, skal du vælge handlingen **Opret læg-på-lager/pluk (lager)**.  
+2. Markér afkrydsningsfeltet **Opret pluk (lager)**.
+3. Vælg knappen **OK**.
 
-- Siden **Flytning (lager)**.
-- Hvis lokationen kræver pluk men ikke leveringer, skal du bruge siden **Pluk (lager)** til at plukke, samle og afsende salgsordrer, hvor varerne skal monteres, inden de kan leveres. Du kan finde flere oplysninger i [Håndtering af montage til ordre-varer med pluk (lager)](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
+### Sådan oprettes en lagerflytning fra kildedokumentet
 
-I avancerede lageropsætninger, hvor lokationer kræver både pluk og leverancer, skal du bruge siden **Pluk (logistik)** til at overføre komponenter til montageordrer. Du kan finde flere oplysninger i [Plukke til produktion eller montage i avancerede lageropsætninger](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
+1. På kildedokumentet, som kan være en produktionsordre eller et job, skal du vælge handlingen **Opret læg-på-lager/pluk (lager)**.  
+2. Markér afkrydsningsfeltet **Opret pluk (lager)**.
+3. Vælg knappen **OK**.
 
-## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Håndtering af montage til ordre-varer med pluk (lager)
+### Sådan oprettes flere pluk fra lager eller flytninger med en kørsel
 
-Siden **Pluk (lager)** bruges også til at plukke og afsende salg, hvor varerne skal monteres, inden de kan leveres. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md).
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opret læg-på-lager/pluk (lager)**, og vælg derefter det relaterede link.  
+2. Brug felterne **Kildedokument** og **Kildenr.** i oversigtspanelet **Lageranmodning** til at filtrere på bestemte typer dokumenter eller rækker af dokumentnumre. Du kan for eksempel oprette pluk til kun produktionsordrer.
+3. Gå til oversigtspanelet **Indstillinger**, og aktiver funktionen **Opret pluk (lager). Pluk** eller **Opret pluk (lager). Bevægelse** .
+4. Vælg knappen **OK**.
 
-Lagervarer i montage til ordre-forløb findes ikke fysisk i en placering, før de er monteret og bogført som afgang til en placering i montageområdet. Plukning af disse varer til levering følger derfor en særlig strøm. Lagermedarbejderne fra en placering fragter montageelementerne til afsendelsesområdet og bogfører derefter lagerpluk. Den bogførte lagerpluk bogfører derefter montageafgang, komponentforbrug og salgsleverance.
+### Sådan oprettes pluk (lager) eller bevægelser i to trin
 
-Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til automatisk at oprette en flytning (lager), når lagerpluk for varen montageelementet oprettes. Hvis du vil oprette automatiske bevægelser, skal du vælge feltet **Opret bevægelser automatisk** på siden **Montagekonfiguration**. Du kan finde flere oplysninger i [Flytte komponenter til et handlingsområde i basislogistik](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Hvis du vil plukke eller flytte komponenter til kildedokumenter på to måder, skal du frigive kildedokumentet for at gøre det klar til pluk. Frigiv kildedokumenter for interne operationer på følgende måder.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] opretter lagerpluklinjer for salgsvarer oprettes på forskellige måder afhængigt af, om ingen, nogle eller alle salgslinjemængderne samles til ordre.
+|Kildedokument|Frigivelsesmetode|  
+|---------------------|--------------------|  
+|Produktionsordre|På siden **Planlagt produktionsordre** skal du ændre status for en ordre til **frigivet** eller bruge siden **frigivet produktionsordre** til at oprette en frigivet produktionsordre.|  
+|Montageordre|Ændre status på en produktionsordre til **Frigivet**.|
+|Sager | Skift status til **åben** eller Opret job med status åben med.|  
 
-- I det salg, hvor du bruger pluk (lager) til at bogføre lagerleverance, opretter [!INCLUDE[prod_short](includes/prod_short.md)] en lagerpluklinje for hver salgsordrelinje. Hvis varen placeres på forskellige placeringer, oprettes der mere end én linje. Pluklinjer er baseret på mængden i feltet **Lever (antal)**.
-- I montage efter ordre-salg hvor hele mængden i salgsordrelinjen monteres efter ordre, oprettes der en lagerpluklinje for den mængde. Det betyder, at værdien i feltet Antal til montage svarer til værdien i feltet **Lever (antal)**. Feltet **Montage til ordre** vælges på linjen.
+En lagermedarbejder, der er knyttet til pluk varer, kan oprette et læg-på-lager-dokument for kildedokumentet.  
 
-Hvis montageoutputflow er konfigureret for lokationen, så indsættes værdien i feltet **Pla.kode til ordremontagelev.** eller værdien i feltet **Placeringskode til fra-montage**, i den rækkefølge, i feltet **Placeringskode** i lagerpluklinjen.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk fra lager** eller **Flytning (lager)**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Ny**.  
+3. I feltet **Kildedokumentet** skal du vælge den kildedokumenttype, du lægger på lager for.
 
-Hvis en placeringskode ikke er angivet på salgsordrelinjen, og montageafgangsstrøm ikke er konfigureret for lokationen, så er feltet **Placeringskode** i lagerpluklinjen tomt. Lagermedarbejderen skal åbne siden **Placeringsindhold** og vælge den placering, hvor montageelementerne monteres.
+    > [!NOTE]
+    > Du kan ikke bruge **Lagerpluk**-dokumenter til at plukke montagekomponenter.
+4. Vælg kildedokumentet i feltet **Kildenr.**.  
+5. Du kan også vælge handlingen **Hent kildedokument** for at vælge kildedokumentet på en liste over indgående kildedokumenter, der er klar til læg-på-lager på lokationen.  
+6. Vælg knappen **OK** for at udfylde pluklinjerne i overensstemmelse med det valgte kildedokument.  
 
-Når en del af mængden først skal samles, og en anden skal plukkes fra lageret, opretter [!INCLUDE[prod_short](includes/prod_short.md)] som minimum to lagerpluklinjer. En pluklinje er for ordremontageantal. De andre pluklinje afhænger af, hvilke placeringer der kan opfylde restantal fra lageret. Placeringskoder på de to linjer udfyldes på forskellige måder, som beskrevet for de to forskellige salgtyper. Du kan finde flere oplysninger i afsnittet "Kombinationsscenarier" i [Om Montage til ordre og Montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md).
+## Sådan registreres lagerpluk
 
-## <a name="filling-the-consumption-bin"></a>Udfylde forbrugsplaceringen
+1. Åbn det dokument, der skal registreres bevægelser for, på siden **Flytning (lager)**.  
+2. I feltet **Placeringskode** på pluklinjerne, foreslås den placering, som varerne skal plukkes fra, pr. varens standardplacering. Om nødvendigt kan du ændre placeringen.
+3. Pluk varerne, og indtast det antal varer, der er plukket, i feltet **Håndteringsantal**.
 
-Dette flow-diagram viser, hvordan feltet **Placeringskode** i produktionsordrekomponenter udfyldes i henhold til din lokationsopsætning.
+    Hvis det er nødvendigt at placere varerne for en enkelt linje på mere end én placering, f.eks. fordi den angivne placering er fuld, skal du bruge funktionen **Opdel linje** i oversigtspanelet **Linjer**. Handlingen opretter en linje for det resterende antal til ekspedition.  
+4. Vælg handlingen **Bogfør**.  
 
-![Placeringsrutediagram.](media/binflow.png "BinFlow")
+Der sker følgende under bogføringsprocessen:
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/pick-ship-items-business-central/)
+* Bogfør forbruget af de kildedokumentlinjer, der er blevet plukket.
+* Hvis lokationen anvender placeringer, oprettes der også lagerposter til bogføring af ændringer af placeringsantallet.
 
-## <a name="see-also"></a>Se også
+## Sådan registreres læg-på-lager-aktiviteten
 
-[Logistik](warehouse-manage-warehouse.md)  
+1. Åbn det dokument, der skal registreres bevægelser for, på siden **Flytning (lager)**.  
+2. I feltet **Placeringskode** på pluklinjerne, foreslås den placering, som varerne skal plukkes fra, pr. varens standardplacering. Om nødvendigt kan du ændre placeringen.  
+3. Pluk varerne, og indtast det antal varer, der er plukket, i feltet **Håndteringsantal**. Værdien i Hent- og Placer-linjerne skal være den samme. Ellers kan du ikke registrere bevægelsen.
+
+    Hvis det er nødvendigt at placere varerne for en enkelt linje på mere end én placering, f.eks. fordi den angivne placering er fuld, skal du bruge funktionen **Opdel linje** i oversigtspanelet **Linjer**. Handlingen opretter en linje for det resterende antal til ekspedition.  
+4. Vælg handlingen **Opret bevægelse**.  
+
+Der sker følgende under bogføringsprocessen:
+
+* Der oprettes lagerposter som tegn på, at komponenterne nu findes på de placeringer, der er angivet i montageordrelinjerne. F. eks. montageordre, produktions komponent eller sagsplanlægningslinje.
+
+>[!NOTE]
+> I modsætning til når du flytter komponenter med et lagerpluk, bogføres forbrug ikke, når du registrerer en flytning (lager). Du registrerer forbruget som et separat trin ved at bogføre kildedokumentet.
+
+## Trække komponenter til produktion i en grundlæggende lageropsætning
+
+Trækmetoder påvirker også flowet af komponenter i produktionen. Flere oplysninger i [Udtrække komponenter i henhold til operationsafgang](production-how-to-flush-components-according-to-operation-output.md). Afhængigt af den valgte Trækmetode kan du plukke komponenter til produktions objekterne på følgende måder:
+
+* Brug et **pluk (logistik)**-dokument til at registrere plukningen for varer, der bruger den **manuelle** Trækmetode. Når du registrerer et lagerpluk, bogføres forbruget af de plukkede komponenter. 
+* Bruge et **lagerbevægelse**-dokument med en reference til et kildedokument til at registrere pluk for komponenter, der bruger den **manuelle** trækmetode. Du har brug for at registrere forbruget separat. Flere oplysninger i [Massebogføre produktionsforbrug](production-how-to-post-consumption.md). 
+* Bruge et **lagerbevægelse**-dokument med en reference til et kildedokument til at registrere pluk for komponenter, der bruger **Pluk + Fremad**, **Pluk + Baglæns**-trækmetoden. Forbruget af komponenterne sker automatisk, når du ændrer status for produktionsordren eller ved at starte eller afslutte en operation. Alle nødvendige komponenter skal være tilgængelige. Ellers stopper den udtrukne forbrugsbogføring for den pågældende komponent.
+* Bruge et **lagerbevægelse**-dokument uden en reference til et kildedokument eller andre måder at registrere flytning af komponenter på, der bruger trækmetoden **forlæns** eller **baglæns**. Forbruget af komponenterne sker automatisk, når du ændrer status for produktionsordren eller ved at starte eller afslutte en operation. Alle nødvendige komponenter skal være tilgængelige. Ellers stopper den udtrukne forbrugsbogføring for den pågældende komponent. Du kan finde flere oplysninger i [Flytte varer ad hoc i grundlæggende lageropsætninger](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
+
+### Eksempel
+
+Der findes en produktionsordre for 15 stk. af vare SP-SCM1004. Nogle af varerne på komponentlisten skal trækkes manuelt i en forbrugskladde, og andre varer på listen kan plukkes og trækkes automatisk ved hjælp af metoden **pluk + baglæns**.  
+
+De følgende trin beskriver de handlinger, der er involveret for forskellige brugere, og de relaterede svar:  
+
+1. Den tilsynsførende frigiver produktionsordren. Elementer med **Fremad** som trækmetode og ingen rutebindingskode bliver fratrukket åben produktionsplacering.  
+2. Hoved tilsynet med Shop vælger **Opret læg-på-lager/pluk**-handling på produktionsordren og aktiverer funktionen **Opret pluk (lager). Pluk** og **Opret pluk (lager). Bevægelse**. Der oprettes et plukdokument (lager) for varer med **Manuel** Trækmetode, og der oprettes en flytning (lager) for varer med **Pluk + Bagud** og **Pluk + Forlæns** træk.
+3. Lagerchefen tildeler pluk og flytninger til en lagermedarbejder.
+4. Lagermedarbejderen plukker varerne fra relevante placeringer og placerer dem på produktionsplaceringen eller på placeringen, der er angivet på lagerbevægelsen. Placeringen kan muligvis være et arbejdscenter eller en produktionsressource.  
+5. Lagermedarbejderen registrerer plukket. Antallet trækkes fra placeringerne.
+6. Lagermedarbejderen registrerer flytningen. Antallet trækkes fra plukplaceringerne og føjes til forbrugsplaceringen. Feltet **Plukket antal** på komponentlisten for alle de plukkede varer opdateres.  
+7. Maskinoperatøren oplyser produktionschefen om, at færdigvarerne er klar.  
+8. I Shop Floor supervisor bruges afgangskladden eller produktionskladden til at bogføre afgangen. Den mængde komponentvarer, der bruger **Pluk + Fremad**- eller **Pluk + Baglæns**-trækmetode med rutebindinger, trækkes fra til produktions placeringen.
+9. Produktionschefen bogfører afgang for produktionsordren og ændrer status til **Udført**. Antallet af komponentvarer, der bruger **baglæns**-trækmetoden, trækkes fra den åbne produktionsplacering, og antallet af komponentvarer, der bruger **pluk + baglæns**-trækmetoden trækkes fra produktionsplaceringen.  
+
+ Følgende illustration viser, når feltet **Placeringskode** på komponentlisten udfyldes i overensstemmelse med konfiguration af din lokation eller maskine/arbejdscenter.  
+
+:::image type="content" source="media/binflow.png" alt-text="Oversigt over, hvornår/hvordan feltet Placeringskode skal udfyldes.":::
+
+## Se relateret [Microsoft-træning](/training/paths/pick-ship-items-business-central/)
+
+## Se også
+
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
 [Montagestyring](assembly-assemble-items.md)  
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Warehouse Management-oversigt](design-details-warehouse-management.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

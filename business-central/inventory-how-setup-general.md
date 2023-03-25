@@ -1,27 +1,21 @@
 ---
 title: Konfigurere generelle lageroplysninger
-description: Beskriver, hvordan du definerer den generelle Lageropsætning, så du kan administrere lagerstedet og lagerbeholdningen.
+description: 'Beskriver, hvordan du definerer den generelle Lageropsætning, så du kan administrere lagerstedet og lagerbeholdningen.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
-ms.search.form: 30, 456, 461
+ms.search.keywords: 'warehouse, stock'
+ms.search.form: '30, 456, 461'
 ms.date: 07/28/2021
 ms.author: edupont
-ms.openlocfilehash: 0cf56049c5c7d5b31cb75185bb26f9619317d9e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522010"
 ---
-# <a name="set-up-general-inventory-information"></a>Konfigurere generelle lageroplysninger
+# Konfigurere generelle lageroplysninger
 
 Du kan angive dine generelle lageropsætning på siden **Lageropsætning**.
 
-## <a name="to-set-up-general-inventory-information"></a>Sådan konfigurerer du generelle lageroplysninger
+## Sådan konfigurerer du generelle lageroplysninger
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Lager**, og vælg derefter det relaterede link.
 2. På siden **Lageropsætning** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -37,7 +31,7 @@ Hvis du automatisk vil inkludere lagerekspeditionstiden i beregningen af leverin
 >
 > Alternativt kan du ændre omkostningerne manuelt med kørslen Reguler kostværdi - vareposter. Du kan også slå automatisk omkostningbogføring fra eller angive feltet **Automatisk kostregulering** til *Aldrig*. I begge tilfælde vises en meddelelse, hvorfra du kan starte en assisteret opsætningsvejledning, der hjælper dig med at planlægge opgaver for opgavekøen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere lager](inventory-setup-inventory.md)  
 [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  

@@ -1,21 +1,15 @@
 ---
-title: Prøvefunktioner, der opretter forbindelse til andre Microsoft-tjenester
-description: Oversigt over Microsoft-tjenester, som Business Central opretter forbindelse til med prøveversionen.
+title: 'Prøvefunktioner, der opretter forbindelse til andre Microsoft-tjenester'
+description: 'Oversigt over Microsoft-tjenester, som Business Central opretter forbindelse til med prøveversionen.'
 author: jswymer
 ms.topic: overview
 ms.service: dynamics365-business-central
-ms.search.keywords: privacy, trial, Microsoft services
+ms.search.keywords: 'privacy, trial, Microsoft services'
 ms.date: 10/28/2022
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.openlocfilehash: baad6c682a744d87cd6e2d2c0536a06a7b349384
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728712"
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Prøvefunktioner, der opretter forbindelse til andre Microsoft-tjenester 
+# Prøvefunktioner, der opretter forbindelse til andre Microsoft-tjenester 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] er en omfattende løsning til virksomhedsstyring, som er dybt integreret med Microsoft 365-produktivitetsapps og Power Platform. Din gratis prøveversion af Business central kan oprette forbindelse til mange forskellige Microsoft-tjenester, som du skal først konfigurere og aktivere. Hvis du vil have størst udbytte af din gratis prøveversion, er nogle af disse funktioner automatisk blevet aktiveret. Selvom forbindelsen fra [!INCLUDE[prod_short](includes/prod_short.md)] er aktiveret, følger disse tjenester ikke med din prøveversion, og de skal købes separat, medmindre de allerede findes.
 

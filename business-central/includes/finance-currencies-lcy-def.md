@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: c391e7d6492a722de10801212ccd04a532f8a971
-ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419575"
 ---
 Da virksomheder handler i flere lande/områder, bliver det mere vigtigt, at de kan gennemgå eller rapportere finansielle oplysninger i mere end én valuta. Den lokale valuta (RV) er defineret på siden **Opsætning af Finans**, som beskrevet i artiklen [Om Finansmodulet og kontoplanen](../finance-general-ledger.md). Når den lokale valuta (RV) er blevet defineret, vises den som en tom valuta, så hvis feltet **Valuta** er tomt, betyder det, at valutaen er RV.  
 

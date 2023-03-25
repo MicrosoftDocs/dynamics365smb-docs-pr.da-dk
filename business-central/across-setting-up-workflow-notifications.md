@@ -1,20 +1,14 @@
 ---
 title: Konfigurere godkendelse af workflow-notifikationer
-description: Denne artikel beskriver, hvordan du opretter arbejdsgangs notifikationer for at advare en bruger om, at en hændelse skal reagere på - der kræves et svar fra arbejdsprocessen.
+description: 'Denne artikel beskriver, hvordan du opretter arbejdsgangs notifikationer for at advare en bruger om, at en hændelse skal reagere på - der kræves et svar fra arbejdsprocessen.'
 author: SorenGP
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 65dad3ffcb91415b13683f20a5e91274c3841c87
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585443"
 ---
-# <a name="approval-workflow-notifications"></a>Godkende workflow-notifikationer
+# Godkende workflow-notifikationer
 
 Konfigurere workflows, så brugerne automatisk får besked, når de skal være opmærksomme på et trin i et workflow. Mange workflowsvar vedrører notifikationer til en bruger om, at der er forekommet en hændelse, som brugeren skal reagere på.
 
@@ -26,7 +20,7 @@ Du kan f. eks. angive, at bruger 2, godkender brugeren, modtager en besked, hver
 > [!IMPORTANT]  
 > Alle arbejdsgangsnotifikationer sendes via en opgavekø. Kontrollér, at opgavekøen i installationen er konfigureret til at håndtere arbejdsgangsnotifikationer, og at afkrydsningsfeltet **Start automatisk fra server** er markeret. Flere oplysninger under [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
 
-## <a name="set-up-notifications"></a>Opsætning af notifikationer.
+## Opsætning af notifikationer.
 
 Du kan konfigurere forskellige aspekter af arbejdsgangsnotifikationer følgende steder:  
 
@@ -55,9 +49,9 @@ Du kan konfigurere forskellige aspekter af arbejdsgangsnotifikationer følgende 
 
   I forbindelse med godkendelsesarbejdsprocesser skal du tilføje et trin i arbejdsgangs svaret for at give afsenderen besked, når anmodningen er godkendt eller afvist. Få mere at vide fra trin 9 i afsnittet [Opret workflows](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/create-workflows/)
+## Se relateret [Microsoft-træning](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  
 [Oprette brugere til workflow](across-how-to-set-up-workflow-users.md)  

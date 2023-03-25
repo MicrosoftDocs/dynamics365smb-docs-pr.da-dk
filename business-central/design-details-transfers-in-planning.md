@@ -1,76 +1,79 @@
 ---
-title: Designoplysninger – Overførsler i planlægning | Microsoft Docs
-description: Dette emne beskriver, hvordan overflytningsordrer bruges som en forsyningskilde ved planlægning af lagerniveauer.
-author: SorenGP
+title: Designdetaljer - Overførsler i planlægning
+description: 'Lær, hvordan overflytningsordrer bruges som en forsyningskilde ved planlægning af lagerniveauer.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: design, transfer, sku, locations, warehouse
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: e937c6f261c3fe2249a066b9c3f8819424f3d2f0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141277"
+ms.date: 02/22/2023
+ms.custom: bap-template
+ms.search.keywords: 'design, transfer, sku, locations, warehouse'
 ---
-# <a name="design-details-transfers-in-planning"></a>Designoplysninger: Overførsler i planlægning
-Overflytningsordrer er også en forsyningskilde, når du arbejder på lagervareniveauet. Ved at bruge flere lokationer (lagre) kan lagervaregenbestillingssystemet indstilles til Overførsel, hvilket indebærer, at lokationen genopfyldes ved at overføre varer fra en anden lokation. I en situation med flere lagersteder kan virksomheder have en kæde af overførsler, hvor forsyningen til lokationen GRØN overføres fra GUL, og levering til GUL overføres fra RØD og så videre. I begyndelsen af kæden er der et genbestillingssystem for produktionsordre eller indkøb.  
+# Designoplysninger: Overførsler i planlægning
+
+Overflytningsordrer er også en forsyningskilde, når du arbejder på lagervareniveauet. Ved at bruge flere lokationer (lagre) kan lagervaregenbestillingssystemet indstilles til Overførsel, hvilket indebærer, at lokationen genopfyldes ved at overføre varer fra en anden lokation. I en situation med flere lagersteder kan du have en kæde af overflytninger. Lokationen til GRØNi lokation overføres fra GUL, leverance til GUL overføres fra RØD osv. I begyndelsen af kæden er der et genbestillingssystem for **produktionsordre** eller **Indkøb**.  
 
 ![Eksempel på overflytningsflow.](media/nav_app_supply_planning_7_transfers1.png "Eksempel på overflytningsflow")  
 
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-Ved sammenligning af en situation, hvor en forsyningsordre stilles direkte over for en behovsordre, med en situation, hvor salgsordren leveres gennem en kæde af lagervareoverflytninger, er det indlysende, at planlægningsopgaven i den sidstnævnte situation kan blive meget kompleks. Hvis behov ændres, kan det forårsage en effekt gennem kæden, fordi al overførsel af ordrer og indkøb/produktionsordre i den modsatte ende af kæden skal manipuleres for at genoprette balancen mellem behov og forsyning.  
+Hvis du sammenligner følgende situationer, er det klart, at planlægningsopgaven i sidstnævnte kan blive kompleks:
+
+* En forsyningsordre er direkte over for en efterspørgselsordre
+* En salgsordre leveres via en kæde med SKU-overflytninger
+
+Hvis efterspørgslen ændres, kan det medføre en ripple-effekt via kæden. Alle overflytningsordrer plus indkøbs- og produktionsordren i den modsatte ende af kæden skal opdateres for at kunne ændre efterspørgsel og forsyning.  
 
 ![Eksempel på overensstemmelse mellem udbud og efterspørgsel i overflytninger.](media/nav_app_supply_planning_7_transfers2.png "Eksempel på overensstemmelse mellem udbud og efterspørgsel i overflytninger")  
 
-## <a name="why-is-transfer-a-special-case"></a>Hvorfor er overførsel et særligt tilfælde?  
-En overflytningsordre ligner en hvilken som helst anden ordre i programmet. I virkeligheden er det dog meget anderledes.  
+## Hvorfor er overførsel et særligt tilfælde?  
 
-Et grundlæggende aspekt, der gør overførsler i planlægning forskellig fra købs-og produktionsordrer, er, at en flytteordrelinje repræsenterer behov og forsyning på samme tid. Den udgående del, som leveres fra den gamle lokation, er behov. Den indgående del, der skal modtages på den nye lokation, er forsyning på den pågældende lokation.  
+Overførselsordrer svarer til andre ordrer, f.eks. købs- og produktionsordrer. I virkeligheden er der dog meget forskelligt.  
+
+En forskel er, at en overflytningslinje repræsenterer både udbud og efterspørgsel. Den udgående del, der er afsendt, er efterspørgsel. Den indgående del, der skal modtages på den nye lokation, er udbud på den pågældende lokation.  
 
 ![Indhold af siden Overflytningsordre.](media/nav_app_supply_planning_7_transfers3.png "Indhold af siden Overflytningsordre")  
 
-Det betyder, at når systemet manipulerer på forsyningssiden af overflytningen, så skal der ske en lignende ændring på behovssiden.  
+Det betyder, at når [!INCLUDE [prod_short](includes/prod_short.md)] manipulerer på udbudssiden af overflytningen, så skal der ske en lignende ændring på efterspørgselssiden.  
 
-## <a name="transfers-are-dependent-demand"></a>Overflytninger er afhængige behov  
-Relateret behov og forsyning har nogen lighed med komponenter i en produktionsordrelinje, men forskellen er, at komponenterne er på det næste planlægningsniveau og med en anden vare, mens de to dele af overflytningen er på samme niveau for den samme vare.  
+## Overflytninger er afhængige af efterspørgsel  
 
-En vigtig lighed er, at ligesom komponenter er afhængige behov, så er overførselsbehovet det også. Behovet fra en flytteordrelinje afgøres på forsyningssiden i overførslen i den forstand, at hvis forsyningen er ændret, bliver behovet direkte berørt.  
+Udbuds-og efterspørgselsforholdet svarer til komponenter på produktionsordrelinjer. Forskellen er, at komponenter på produktionsordrelinjer er på det næste planlægningsniveau og har en anden vare. De to dele af overførslen er på samme niveau for den samme vare.  
 
-Medmindre der ingen planlægningsfleksibilitet er, bør en overflytningslinje aldrig blive behandlet som et uafhængigt behov i planlægningen.  
+En vigtig lighed er, at ligesom komponenter og overførsler er afhængige behov. Behov fra en overflytningslinje dikteres af leveringssiden for overførslen. Hvis leveringen ændres, påvirkes behovet direkte.
 
-I planlægningsproceduren bør behovet for overførslen kun tages i betragtning, når forsyningssiden er blevet behandlet af planlægningssystemet. Før dette, kendes det faktiske behov ikke. Rækkefølgen af de foretagne ændringer er derfor meget vigtigt, når det drejer sig om overflytningsordrer.  
+Medmindre der ingen planlægningsfleksibilitet er, bør en overflytningslinje ikke blive behandlet som et uafhængigt behov i planlægningen.  
 
-## <a name="planning-sequence"></a>Planlægningssekvens  
-Følgende illustration viser, hvordan en række overførsler kunne se ud.  
+I planlægningsproceduren bør behovet for overførslen kun tages i betragtning, når forsyningssiden er blevet behandlet af planlægningssystemet. Før behandlingen sker, er det faktiske behov ikke kendt. Rækkefølgen af ændringer er vigtig for overflytningsordrer.  
+
+## Planlægningssekvens  
+
+Følgende billede viser et eksempel på overførselsrækkefølge.  
 
 ![Eksempel på enkle overflytningsflow.](media/nav_app_supply_planning_7_transfers4.png "Eksempel på enkle overflytningsflow")  
 
 I dette eksempel bestiller en kunde varen på lokationen Grøn. Lokationen Grøn leveres via overførsel fra centrallageret Rød. Centrallageret Rød forsynes via overflytning fra produktion på lokationen Blå.  
 
-I dette eksempel starter planlægningssystemet ved kundebehov og arbejder baglæns gennem kæden. Behov og forsyninger bliver behandlet ét sted ad gangen.  
+I dette eksempel starter planlægningssystemet ved kundebehov og arbejder sig baglæns gennem kæden. Behov og forsyninger bliver behandlet ét sted ad gangen.  
 
 ![Forsyningsplanlægning med overflytninger.](media/nav_app_supply_planning_7_transfers5.png "Forsyningsplanlægning med overflytninger")  
 
-## <a name="transfer-level-code"></a>Overflytningsniveaukode  
+## Overflytningsniveaukode  
+
 Den rækkefølge, som lokationer behandles i i planlægningssystemet, bestemmes af overflytningsniveaukoden for lagervaren.  
 
-Overflytningsniveaukoden er et internt felt, som automatisk beregnes og lagres på lagervaren, når denne oprettes eller ændres. Beregningen kører på tværs af alle lagervarer for en given kombination af vare/variant og bruger lokationskoden og overflyt fra-koden til at fastlægge den rute, der skal bruges i planlægningen, når den gennemkører lagervarerne for at sikre, at alle behov behandles.  
+Overførselsniveaukoden er et internt felt. Feltet beregnes og gemmes på SKU, når du opretter eller ændrer SKU. Beregningen udføres på tværs af alle lagervarer for en given kombination af vare og varevariant. I beregningen bruges lokationskoden og Overflyt fra-koden til at bestemme, hvilken rute der skal bruges til lagervarerne. Beregningen sikrer, at alle behov behandles.  
 
-Overflytningsniveaukoden vil være 0 for lagervarer med genbestillingssystem for produktionsordre eller indkøbsordre og vil være -1 for det første overflytningsniveau -2 for det andet osv. I overførselskæden beskrevet ovenfor vil niveauerne derfor være -1 for rød og -2 for grøn, som vist i følgende illustration.  
+Overflytningsniveaukoden vil være 0 for lagervarer med genbestillingssystem for produktionsordre eller indkøbsordre og vil være -1 for det første overflytningsniveau -2 for det andet osv. I overførselskæden beskrevet ovenfor vil niveauerne derfor være -1 for RØD og -2 for GRØN, som vist i følgende illustration.  
 
 ![Indhold af siden Lagerkort.](media/nav_app_supply_planning_7_transfers6.gif "Indhold af siden Lagerkort")  
 
-Når du opdaterer en lagervare, kan planlægningssystemet registrere, om lagervarer med genbestillingssystemet Overførsel er konfigureret med cirkulære referencer.  
+Når du opdaterer en lagervare, kan planlægningssystemet registrere, om lagervarer med genbestillingssystemet for lagervarer er konfigureret med cirkulære referencer.  
 
-## <a name="planning-transfers-without-sku"></a>Planlægning af overførsler uden lagervare  
+## Planlægning af overførsler uden lagervare  
 
-Selvom lagervarefunktionen ikke bruges, er det muligt at bruge lokationer og foretage manuelle overførsler mellem lokationer. For virksomheder med mindre avanceret lageropsætning, understøtter planlægningssystemet scenarier, hvor eksisterende lager overføres manuelt til en anden lokation, for eksempel for at dække en salgsordre på den pågældende lokation. Samtidigt skal planlægningssystemet reagere på ændringer i behov.  
+Hvis du vil have mindre avancerede logistik opsætninger, kan du bruge lokationer og foretage manuelle overførsler mellem lokationer, også selvom du ikke bruger lagervarer. Overflytningen kan f. eks. omfatte en salgsordre på den pågældende lokation. Planlægningssystemet reagerer på ændringer i behov.  
 
 Med henblik på at understøtte manuelle overflytninger analyserer planlægningen eksisterende overflytningsordrer og planlægger derefter den rækkefølge, som lokationerne skal behandles. Planlægningssystemet fungerer internt med midlertidige lagervarer, der transporterer overførselsniveaukoder.  
 
@@ -78,25 +81,34 @@ Med henblik på at understøtte manuelle overflytninger analyserer planlægninge
 
 Hvis der findes flere overførsler til en given lokation, vil den første overflytningsordre definere planlægningens retning. Overførsler, der kører i den modsatte retning, annulleres.  
 
-## <a name="changing-quantity-with-reservations"></a>Ændring af antal med reservationer  
-Når du ændrer antallet i eksisterende forsyning, tager planlægningssystemet reservationer med i betragtning, forstået på den måde, at det reserverede antal repræsenterer den nedre grænse for, hvor meget forsyningen kan reduceres.  
+## Ændring af antal med reservationer  
 
-Når du ændrer antallet på en eksisterende overflytningsordrelinje, skal du huske på, at den nedre grænse defineres som det højeste reserverede antal på linjen for udgående og indgående overflytning.  
+Når du ændrer antallet i en forsyningsmængde, tager planlægningssystemet reservationer i betragtning. Det reserverede antal repræsenterer den nedre grænse for, hvor meget leveringen skal reduceres med.  
 
-Hvis f.eks. en overflytningsordrelinje af 117 stykker reserveres mod en salgslinje på 46 og en købslinje på 24, er det ikke muligt at reducere overflytningslinjen under 46 stykker, selvom det kan repræsentere overskydende forsyning på den indgående side.  
+Når du ændrer antallet på en overflytningsordrelinje, skal du være opmærksom på den nedre grænse. Den nedre grænse er det højeste reserverede antal på de udgående og indgående overflytningslinjer.
+
+Der reserveres f. eks. en flytteforslagslinje på 117 dele til følgende linjer:
+
+* En salgslinje på 46
+* En købslinje på 24
+
+Selvom den indgående side kan have overført levering, kan du ikke reducere overførselslinjen under 46.  
 
 ![Reservationer i overflytningsplanlægning.](media/nav_app_supply_planning_7_transfers8.png "Reservationer i overflytningsplanlægning")  
 
-## <a name="changing-quantity-in-a-transfer-chain"></a>Ændring af antal i en overførselskæde  
-I følgende eksempel er udgangspunktet en afbalanceret situation med en overførselskæde, der leverer en salgsordre på 27 på lokation Rød med en tilsvarende indkøbsordre på lokation Blå, overført via lokation Pink. Der er derfor, udover køb og salg, to overflytningsordrer: BLÅ-PINK og PINK-RØD.  
+## Ændring af antal i en overførselskæde  
+
+Her er et eksempel på, hvad der sker, når du ændrer et antal i en overflytningsændring.
+
+Udgangspunktet er en afbalanceret situation med en overførselskæde, der leverer en salgsordre på 27 på lokationen RØD. Der findes en tilsvarende købsordre på lokationen BLÅ. Begge overførsler gennemgås lokationen PINK. Der er to overflytningsordrer, BLÅ-PINK og PINK-RØD.  
 
 ![Ændre antallet i overflytningsplanlægning 1.](media/nav_app_supply_planning_7_transfers9.png "Ændre antallet i overflytningsplanlægning 1")  
 
-Nu vælger planlæggeren Pink lokation til at reservere købet.  
+Nu vælger planlæggeren PINK lokation til at reservere købet.  
 
 ![Ændre antallet i overflytningsplanlægning 2.](media/nav_app_supply_planning_7_transfers10.png "Ændre antallet i overflytningsplanlægning 2")  
 
-Det betyder normalt, at planlægningssystemet ignorerer købsordren og overførselsbehovet. Så længe de stemmer, er der ikke noget problem. Men hvad sker der, når kunden på lokationen RØD delvist fortryder bestillingen og ændrer den til 22?  
+Det betyder normalt, at planlægningssystemet ignorerer købsordren og overførselsbehovet. Så længe de stemmer, er der ikke noget problem. Men hvad sker der, når RØD lokation ændrer rækkefølgen fra 27 til 22?  
 
 ![Ændre antallet i overflytningsplanlægning 3.](media/nav_app_supply_planning_7_transfers11.png "Ændre antallet i overflytningsplanlægning 3")  
 
@@ -104,38 +116,42 @@ Når planlægningssystemet kører igen, skal det slippe af med overskydende fors
 
 ![Ændre antallet i overflytningsplanlægning 4.](media/nav_app_supply_planning_7_transfers12.png "Ændre antallet i overflytningsplanlægning 4")  
 
-PINK-RØD overflytning er blevet reduceret til 22. Den indgående del af BLÅ-PINK overflytning er ikke reserveret, men da den udgående del er reserveret, er det ikke muligt at reducere antallet under 27.  
+PINK-RØD overflytning er blevet reduceret til 22. Den indgående del af den BLÅ-PINK overførsel er ikke reserveret, men den udgående del er. Reservationen betyder, at du ikke kan reducere antallet under 27.  
 
-## <a name="lead-time-calculation"></a>Leveringstid  
+## Beregning af leveringstid  
+
 Ved beregning af forfaldsdatoen for en overflytningsordre skal der tages forskellige former for leveringstid med i betragtning.  
 
-De leveringstider, der er aktive, når du planlægger en overflytningsordre, er:  
+Følgende leveringstider er aktive, når du planlægger en overflytningsordre:  
 
-* Udgående lagerekspeditionstid  
+* Udgående lagerstedsekspeditionstid  
 * Transporttid  
-* Indgående lagerekspeditionstid  
-* Følgende felter bruges på planlægningslinjen til at give oplysninger om beregningen.  
+* Indgående lagerstedsekspeditionstid  
+
+Følgende felter bruges på planlægningslinjen til at give oplysninger om beregningen:  
+
 * Afsendelsesdato for overflytning  
 * Startdato  
-* Slutdato  
+* Afslutningsdato  
 * Forfaldsdato  
 
-Afsendelsesdatoen på overflytningslinjen vises i feltet Afsendelsesdato for overflytning, og modtagelsesdatoen på overflytningslinjen vises i feltet Forfaldsdato.  
+Afsendelsesdatoen på overflytningslinjen vises i feltet **Overflytningsleverancedato**. Afsendelsesdatoen på overflytningslinjen vises i feltet **Forfaldsdato**.  
 
-Start-og slutdatoer bruges til at beskrive den faktiske transportperiode.  
+Start-og slutdatoer beskriver den faktiske transportperiode.  
 
 Følgende illustration viser fortolkning af startdato og -tidspunkt og slutdato og -tidspunkt på planlægningslinjer, der er relateret til flytteordrer.  
 
 ![Centrale datoer og klokkeslæt i overflytningsplanlægning.](media/nav_app_supply_planning_7_transfers13.png "Centrale datoer og klokkeslæt i overflytningsplanlægning")  
 
-I dette eksempel betyder det, at:  
+Eksemplet viser følgende beregninger:  
 
 * Afsendelsesdato + Udgående håndtering = Startdato  
 * Startdato + Transporttid = Slutdato  
 * Slutdato + Indgående ekspedition = Modtagelsesdato  
 
-## <a name="safety-lead-time"></a>Sikkerhedstid  
-Feltet Standardsikkerhedstid på siden Produktionsopsætning og det relaterede felt Sikkerhedstid på varekortet skal ikke tages i betragtning ved beregningen af en overflytningsordre. Sikkerhedstiden kan imidlertid stadig påvirke den samlede plan, ligesom den påvirker genbestillingsordren (køb eller produktion) i begyndelsen af overførselskæden, når varerne lægges på den placering, hvorfra de kan overføres.  
+## Gennemløbstid for sikkerhed  
+
+Feltet **Standardsikkerhedstid** på siden **Produktionsopsætning** og det relaterede felt **Sikkerhedstid** på **varekortet** skal ikke tages i betragtning ved beregningen af en overflytningsordre. Sikkerhedstiden har dog indflydelse på den samlede plan. Sikkerhedstid påvirker genbestillingsordren (indkøb eller produktion) i begyndelsen af overflytningskæden. Det sted, hvor varerne blev placeret på den lokation, de skal overføres fra.  
 
 ![Elementer i forfaldsdatoen for overflytningen.](media/nav_app_supply_planning_7_transfers14.png "Elementer i forfaldsdatoen for overflytningen")  
 
@@ -143,30 +159,37 @@ På produktionsordrelinjen: Slutdato + Sikkerhedstid + Indgående lagerekspediti
 
 På købsordrelinjen: Planlagt modtagelsesdato + Sikkerhedstid + Indgående lagerekspeditionstid = Forventet modt.dato.  
 
-## <a name="reschedule"></a>Omplanlæg  
-Ved planlægning af en eksisterende overflytningslinje skal planlægningssystemet slå den udgående del op og ændre dato og klokkeslæt på denne. Det er vigtigt at bemærke, at hvis leveringstiden er defineret, vil der være et mellemrum mellem forsendelsen og modtagelsen. Som nævnt kan leveringstiden bestå af flere elementer, f.eks. transporttiden og lagerekspeditionstiden. På en tidslinje flyttes planlægningssystemet tilbage i tid, mens det afstemmer elementerne.  
+## Omplanlæg  
+
+Ved planlægning af en overflytningslinje skal planlægningssystemet slå den udgående del op og ændre dato og klokkeslæt på denne.
+
+> [!NOTE]
+> Det er vigtigt at bemærke, at hvis leveringstiden er defineret, vil der være et mellemrum mellem forsendelsen og modtagelsen. Som nævnt kan leveringstiden bestå af flere elementer, f.eks. transporttiden og lagerekspeditionstiden. På en tidslinje flyttes planlægningssystemet tilbage i tid, mens det afstemmer elementerne.  
 
 ![Ændring af forfaldsdatoen i overflytningsplanlægning.](media/nav_app_supply_planning_7_transfers15.png "Ændring af forfaldsdatoen i overflytningsplanlægning")  
 
 Når du ændrer forfaldsdatoen på en overflytningslinje, skal der derfor beregnes leveringstid for at opdatere den udgående side af overførslen.  
 
-## <a name="seriallot-numbers-in-transfer-chains"></a>Serienumre/lotnumre i overførselskæder  
+## Serienumre/lotnumre i overførselskæder  
+
 Hvis behovet er underlagt serienumre/lotnumre, og planlægningsprogrammet køres, giver det anledning til nogle direkte oprettede overflytningsordrer. Hvis du ønsker yderligere oplysninger om dette koncept, kan du se Vareattributter. Hvis serienumre/lotnumre derimod fjernes fra behovet, vil flytteordrerne, der er oprettet i kæden, stadig have serienumre/lotnumre og ignoreres derfor ved planlægning (ikke slettet).  
 
-## <a name="order-to-order-links"></a>Ordre-til-ordre-links  
-I dette eksempel er Blå lagervare sat op til ordrens genbestillingsmetode, mens Pink og Rød bruger Lot-for-Lot. Når der oprettes en salgsordre på 27 på lokationen RØD, vil det føre til en kæde af overflytninger med det sidste led på lokationen BLÅ, der er reserveret med binding. I dette eksempel er reservationerne ikke hårde reservationer, der er oprettet af planlæggeren ved Pink-lokation, men bindinger, der er oprettet af planlægningssystemet. Den vigtige forskel er, at planlægningssystemet kan ændre sidstnævnte.  
+## Ordre-til-ordre-links  
+
+I dette eksempel oprettes den BLÅ SKU med en **ordre**-genbestillingsmetode. De PINK og RØDE varenumre har genbestillingsmetoden **Lot-for-Lot**. Oprettelse af en salgsordre på 27 på lokationen RØD fører til kædeoverflytninger. Den seneste overførsel er på lokationen BLÅ, og den er reserveret med binding. I dette eksempel er reservationerne ikke hårde reservationer, der er oprettet af planlæggeren ved PINK-lokation. Planlægningssystemet opretter bindingerne. Den vigtige forskel er, at planlægningssystemet kan ændre sidstnævnte.  
 
 ![Ordre-til-ordre-links i overflytningsplanlægning.](media/nav_app_supply_planning_7_transfers16.png "Ordre-til-ordre-links i overflytningsplanlægning")  
 
-Hvis behovet er ændret fra 27 til 22, sænker systemet antallet ned gennem kæden, og den bindende reservation reduceres også.  
+Hvis behovet er ændret fra 27 til 22, sænker systemet antallet ned gennem kæden. Bindingen bliver reduceret.  
 
-## <a name="see-also"></a>Se også  
+## Se også  
+
 [Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)   
 [Designoplysninger: Tabellen Planlægningsopgave](design-details-planning-assignment-table.md)   
 [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
-[Designoplysninger: Behov på lokationen TOM](design-details-demand-at-blank-location.md)   
+[Designdetaljer: Planlægning med eller uden lokationer](production-planning-with-without-locations.md)   
 [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)   
-[Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)   
+[Designoplysninger: Afstemning af behov og efterspørgsel](design-details-balancing-demand-and-supply.md)   
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)
 
 

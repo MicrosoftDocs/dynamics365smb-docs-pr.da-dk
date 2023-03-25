@@ -1,5 +1,5 @@
 ---
-title: Kør opgaver i baggrunden, og løbende
+title: 'Kør opgaver i baggrunden, og løbende'
 description: Konfigurere synkronisering af data mellem Business central og Shopify i baggrunden.
 ms.date: 05/11/2022
 ms.topic: article
@@ -7,21 +7,16 @@ ms.service: dynamics365-business-central
 ms.reviewer: solsen
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 4a67f6fc58fb8b158563ce58baab55e7fda2ccb1
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728595"
 ---
-# <a name="run-tasks-in-the-background"></a>Kør opgaver i baggrunden
+
+# Kør opgaver i baggrunden
 
 Det er effektivt at køre nogle opgaver samtidig og på en automatiseret måde. Du kan udføre disse opgaver i baggrunden, og du kan også angive en tidsplan, når opgaverne skal afvikles automatisk. Der understøttes to tilstande for at udføre opgaver i baggrunden:
 
 - Manuelt udløste opgaver planlægges øjeblikkeligt via **Opgavekøposter**.
 - Tilbagevendende opgaver er planlagt i **Opgavekøposter**.
 
-## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Udføre opgaver i baggrunden for et bestemt trykkeri
+## Udføre opgaver i baggrunden for et bestemt trykkeri
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skal du skrive navnet på **Shopify Butik** og vælge butiksnavnet på listen.
 2. Marker den butik, som du vil synkronisere varer til for at åbne siden **Shopify-købskort**.
@@ -29,7 +24,7 @@ Det er effektivt at køre nogle opgaver samtidig og på en automatiseret måde. 
 
 Når synkroniseringshandlingen udløses i stedet for en opgave, der kører i forgrunden, bliver du nu bedt om at vente. Når den er fuldført, kan du fortsætte til næste handling. Opgaven oprettes som en **Opgavekøpost** og starter straks på en måde, der ikke blokerer for spærringen.
 
-## <a name="to-schedule-recurring-tasks"></a>Sådan planlægges tilbagevendende opgaver
+## Sådan planlægges tilbagevendende opgaver
 
 Du kan planlægge, at følgende tilbagevendende aktiviteter skal udføres automatisk. Flere oplysninger om at planlægge opgaver under [Opgavekø](../admin-job-queues-schedule-tasks.md).
 
@@ -47,6 +42,6 @@ Du kan planlægge, at følgende tilbagevendende aktiviteter skal udføres automa
 > [!NOTE]
 > Nogle elementer kan opdateres af flere forskellige opgaver, f.eks. når du importerer ordrer, afhængigt af indstillingen på **Shopify-butikskort**, kan systemet måske også importere og opdatere debitor-og/eller produktdata. Husk at bruge den samme jobkøkategori for at undgå konflikter.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Kom i gang med Connectoren til Shopify](get-started.md)  

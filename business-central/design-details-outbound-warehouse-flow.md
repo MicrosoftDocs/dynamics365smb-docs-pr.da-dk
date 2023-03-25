@@ -1,138 +1,115 @@
 ---
-title: Designoplysninger - Udgående lagerflow
-description: Dette emne taler om rækkefølgen af den udgående lager strøm fra frigivne kildedokumenter til klargjorte varer.
-author: SorenGP
+title: Oversigt over udgående lagerstedsprocesser
+description: Denne artikel beskriver den udgående lagerarbejdsgang.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 282c6533d7ac8b769c1ec74c42d4808ebc5da380
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139699"
+ms.date: 11/25/2022
+ms.custom: bap-template
 ---
-# <a name="design-details-outbound-warehouse-flow"></a>Designoplysninger: Udgående lagerflow
+# Udgående lagerprocesser
 
-Det udgående flow fra lageret begynder med en anmodning fra frigivne kildedokumenter om at bringe varerne ud af lagerlokationen, enten for at blive leveret til en ekstern part eller et andet sted i virksomheden. Fra lagerområdet udføres lageraktiviteterne på forskellige kompleksitetsniveauer for at bringe varerne ud til afsendelsesområderne.  
+Udgående processer i lagersteder starter, når du frigiver et kildedokument for at hente varer fra en lagerlokation. F.eks. for at sende varerne et sted eller til at flytte dem til en anden virksomhedsplacering. Processen med at afsende udgående ordrer består principielt af to aktiviteter:
 
- Hvert element identificeres og afstemmes med et tilsvarende indgående kildedokument. Der findes følgende udgående kildedokumenter:  
+* Plukke varer fra hylderne.
+* Afsendelse af varer fra lagerstedet.
 
-- Salgsordre  
-- Udgående overflytningsordre  
-- Købsreturvareordre  
-- Serviceordre  
+Kildedokumenterne for udgående lagerflows er:  
 
-Desuden findes følgende interne kildedokumenter, der fungerer ligesom udgående kilder:  
+* Salgsordre  
+* Udgående overflytningsordre  
+* Købsreturvareordre  
+* Serviceordre  
 
-- Produktionsordre med komponentbehov  
-- Montageordre med komponentbehov  
+> [!NOTE]
+> Produktions-og montageordrer med komponentbehov repræsenterer også udgående kildedokumenter. Produktions-og montageordrer er lidt forskellige, fordi de typisk er interne processer, der ikke involverer levering. I stedet bruges de til læg-på-lager-aktiviteter, eller du kan flytte de komponenter, der skal bruges til at samle en vare til et montageområde. Få mere at vide om disse processer i forbindelse med [Designdetaljer: interne lagerflows](design-details-internal-warehouse-flows.md).  
 
- De sidste to dokumenter udgør udgående strømme fra lageret til interne operationsområder. Du kan finde flere oplysninger om lagerekspedition for interne indgående og udgående processer i [Designoplysninger: Internt lagerflow](design-details-internal-warehouse-flows.md).  
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan du modtage varer og indsætte dem på en af fire måder som beskrevet i følgende tabel.
 
- Processer og brugergrænsefladedokumenter i udgående lagerstrømme er forskellige for grundlæggende og avancerede lageropsætninger. Den væsentligste forskel er, at aktiviteter udføres ordre for ordre i grundlæggende lageropsætninger, og de er fælles for flere ordrer i avancerede lageropsætninger. Du kan finde flere oplysninger om forskellige lagerkompleksitetsniveauer i [Designoplysninger: Oversigt over logistik](design-details-warehouse-setup.md)  
+|Metode|Udgående proces|Kræv pluk|Kræv leverance|Sværhedsgrad (få mere at vide på [Warehouse Management-oversigt](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Bogfør pluk og leverance fra ordrelinjen|||Ingen dedikeret lageraktivitet.|  
+|B|Bogfør pluk og leverance fra et lagerplukdokument|Aktiveret||Basis: Ordre for ordre.|  
+|U|Bogfør pluk og leverance fra et lagerstedsleverancedokument||Aktiveret|Basis: Konsolideret modtagelse/levering for flere ordrer.|  
+|D|Bogfør pluk fra et lagerstedsplukdokument, og bogfør leverance fra et lagerstedsleverancedokument|Aktiveret|Aktiveret|Avanceret|  
 
- I [!INCLUDE[prod_short](includes/prod_short.md)] kan de udgående processer for pluk og levering udføres på fire måder ved hjælp af forskellige funktioner, afhængigt af kompleksitetsniveauet på lageret.  
+Valg af metode afhænger af virksomhedens accepterede praksis og graden af organisationens kompleksitet. Nedenfor er vist nogle eksempler, som kan være en hjælp.
 
-|Metode|Udgående proces|Placering|Pluk|Leverancer|Kompleksitetsniveau (Se [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md))|  
-|------|----------------|----|-----|---------|-------------------------------------------------------------------------------------|  
-|T|Bogfør pluk og leverance fra ordrelinjen|X|||2|  
-|B|Bogfør pluk og leverance fra et lagerplukdokument||X||3|  
-|L|Bogfør pluk og leverance fra et lagerleverancedokument|||X|5-4-6|  
-|D|Bogfør pluk fra et lagerplukdokument, og bogfør leverance fra et lagerleverancedokument||X|X|5-4-6|  
+* I et ordre for ordre-miljø med enkle processer og simpel placeringsstruktur, metode A, er pluk og levering fra ordrelinjen passende.
+* Hvis varer for en ordrelinje stammer fra mere end én placering, eller hvis lagermedarbejdere ikke kan arbejde med ordredokumenter, er brug af separate plukdokumenter relevant, metode B.
+* Hvis pluk- og leveringsprocesserne omfatter flere ordrer og kræver bedre kontrol og oversigt, kan du vælge at bruge et lagerstedsleverancedokument og lagerstedsplukdokument til at adskille pluk-og leveringsopgaverne, metode C og D.  
 
- Valg af metode afhænger af virksomhedens accepterede praksis og graden af organisationens kompleksitet. I et ordre for ordre-miljø med enkle processer og simpel placeringsstruktur, metode A, er pluk og levering fra ordrelinjen passende. I andre ordre for ordre-virksomheder, hvor varerne for én ordrelinje kan komme fra mere end én placering, eller hvor lagermedarbejderne ikke kan arbejde med ordredokumenterne, er brugen af separate plukdokumenter relevant, metode B. Hvor en virksomheds pluk- og leveringsprocesser omfatter håndtering af flere ordrer og derfor kræver mere styring og overblik, kan virksomheden vælge at bruge et lagerleverancedokument og lagerplukdokument til at adskille pluk- og leveringsopgaver, metode C og D.  
+Handlinger af pluk og levering kombineres i metoderne A, B og C i ét trin, hvor det tilsvarende dokumentet bogføres som leveret. Plukket er registreret første gang i metode D, og derefter bogføres leverancen på et senere tidspunkt fra et andet dokument.
 
- Handlinger af pluk og levering kombineres i metoderne A, B og C i ét trin, hvor det tilsvarende dokumentet bogføres som leveret. Plukket er registreret første gang i metode D, og derefter bogføres leverancen på et senere tidspunkt fra et andet dokument.  
+> [!NOTE]
+> Mens lagerstedspluk og lagerpluk lyder ens, anvendes forskellige dokumenter og de bruges i forskellige processer.
+> * Den lagerpluk-aktivitet, der anvendes i metode B sammen med registreringen af oplysninger om plukaktiviteter, bogfører også afsendelse af kildedokumentet.
+> * Det lagerstedspluk, der bruges i metode D, kan ikke bogføres og registrerer kun plukket. Registreringen medfører, at elementer er tilgængelige for lagerstedsforsendelse, men bogfører ikke leveringen. I det udgående flow kræver lagerstedspluk en lagerstedsforsendelse.
 
-## <a name="basic-warehouse-configurations"></a>Grundlæggende lageropsætninger
+## Ingen dedikeret lageraktivitet
 
- I følgende diagram illustreres de udgående lagerstrømme af dokumenttype i grundlæggende lageropsætninger. Tallene i diagrammet svarer til trinnene i afsnittene efter diagrammet.  
+Følgende artikler indeholder oplysninger om, hvordan du behandler modtagelser af kildedokumenter, hvis du ikke har dedikerede lageraktiviteter.
 
- ![Udgående flow i grundlæggende lageropsætninger.](media/design_details_warehouse_management_outbound_basic_flow.png "Udgående flow i grundlæggende lageropsætninger")  
+* [Sælge produkter](sales-how-sell-products.md)
+* [Overflytningsordrer](inventory-how-transfer-between-locations.md)
+* [Behandle købsreturvarer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md)
+* [Oprette serviceordrer](service-how-to-create-service-orders.md)
 
-### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Frigiv kildedokument / Opret pluk (lager) eller flytning (lager)
+## Grundlæggende lageropsætninger
 
- Når en bruger, der er ansvarlig for kildedokumenter, f.eks. en salgsordrebehandler eller produktionsplanlægger, er klar til den udgående lageraktivitet, frigiver han eller hun kildedokumentet for at signalere til lagermedarbejdere, at solgte varer eller komponenter kan plukkes og placeres på de angivne placeringer. Alternativt opretter brugeren lagerpluk- eller bevægelsesdokumenter for de enkelte ordrelinjer på en push-måde, baseret på angivne placeringer og mængder, der skal håndteres.  
+I følgende diagram illustreres de udgående lagerstedsprocesser for forskellige dokumenttyper i grundlæggende lagerstedsopsætninger. Tallene i diagrammet svarer til trinnene i afsnittene efter diagrammet.  
 
-> [!NOTE]  
-> Flytninger (lager) bruges til at flytte varer til interne operationsområder i grundlæggende lageropsætninger baseret på kildedokumenter eller en ad hoc-basis.  
+:::image type="content" source="media/design-details-warehouse-management-outbound-basic-flow.png" alt-text="Viser trinene i en grundlæggende udgående flow på et lagersted.":::
 
-### <a name="2-create-outbound-request"></a>2: Opret udgående anmodning
+### 1: Frigiv et kildedokument
 
- Når det udgående kildedokument frigives, oprettes der automatisk en udgående lageranmodning. Den indeholder referencer til kildebilagstype og -nummer og er ikke synlig for brugeren.  
+Når du bruger handlingen **Frigiv** på et kildedokument, f. eks. en salgs-eller overflytningsordre, er varerne i dokumentet klar til at blive ekspederet på lagerstedet. Plukkes og lægges f. eks. på den placering, der er angivet i dokumentet. Alternativt kan du oprette lagerplukdokumenter for de enkelte ordrelinjer på ordrer, baseret på angivne placeringer og antal, der skal håndteres.  
 
-### <a name="3-create-inventory-pick-or-movement"></a>3: Opret pluk (lager) eller flytning (lager)
+### 2: Opret lagerpluk
 
- På siden **Pluk (lager)** eller **Flytning (lager)** modtager lagermedarbejderen på en pull-måde ventende kildedokumentlinjer, der er baseret på udgående lageranmodninger. Alternativt er pluklinjerne for lageret allerede oprettet på en push-måde af den bruger, der er ansvarlig for kildedokumentet.  
+På siden **lagerpluk** henter lagermedarbejderen på en pull-måde kildedokumentlinjerne. Alternativt er pluklinjerne for lageret allerede oprettet på en push-måde af den bruger, der er ansvarlig for kildedokumentet.  
 
-### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Bogfør pluk (lager), eller registrer flytning (lager)
+### 3: Bogfør lagerpluk
 
- På hver linje for varer, der er plukket eller flyttet helt eller delvist, udfylder lagermedarbejderen feltet **Antal** og bogfører derefter lagerplukningen eller registrerer flytning (lager). Kildedokumenter, der er knyttet til lagerplukningen, bogføres som leveret eller forbrugt. Kildedokumenter, der er relateret til lagerflytning, bogføres ikke.  
+På hver linje for varer, der er lagt på lager, helt eller delvist, udfylder feltet **Antal** og bogfører derefter lagerplukket. Kildedokumenter, der er knyttet til lagerplukningen, bogføres som leveret eller forbrugt.  
 
- Ved lagerpluk oprettes der negative vareposter, lagerposter oprettes, og plukanmodningen slettes, hvis fuldt håndteret. Feltet **Leveret (antal)** opdateres f.eks. på den udgående kildedokumentlinje. Der oprettes f.eks. et bogført leverancedokument, der afspejler salgsordren og de leverede varer.  
+Ved lagerpluk oprettes der negative vareposter, lagerposter oprettes, og plukanmodningen slettes, hvis fuldt håndteret. Feltet **Leveret (antal)** opdateres f.eks. på den udgående kildedokumentlinje. Der oprettes f.eks. et bogført leverancedokument, der afspejler salgsordren og de leverede varer.  
 
-## <a name="advanced-warehouse-configurations"></a>Avancerede lageropsætninger
+## Avancerede lageropsætninger
 
- I følgende diagram illustreres den udgående lagerstrøm af dokumenttype i avancerede lageropsætninger. Tallene i diagrammet svarer til trinnene i afsnittene efter diagrammet.  
+I følgende diagram illustreres de udgående lagerstedsprocesser for forskellige dokumenttyper i avancerede lagerstedsopsætninger. Tallene i diagrammet svarer til trinnene i afsnittene efter diagrammet.  
 
- ![Udgående flow i avancerede lageropsætninger.](media/design_details_warehouse_management_outbound_advanced_flow.png "Udgående flow i avancerede lageropsætninger")  
+:::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Viser trinene i et avanceret udgående lagerstedsflow.":::
 
-### <a name="1-release-source-document"></a>1: Frigiv kildedokument
+### 1: Frigiv et kildedokument
 
- Når en bruger, der er ansvarlig for kildedokumenter, f.eks. en salgsordrebehandler eller produktionsplanlægger, er klar til den udgående lageraktivitet, frigiver han eller hun kildedokumentet for at signalere til lagermedarbejdere, at solgte varer eller komponenter kan plukkes og placeres på de angivne placeringer.  
+Frigivelse af kildedokumenter i avancerede konfigurationer gør det samme som for grundlæggende konfigurationer. Varerne bliver disponible til håndtering på lagerstedet. F.eks. kan de medtages i en forsendelse.  
 
-### <a name="2-create-outbound-request-2"></a>2: Opret udgående anmodning (2)
+### 2: Opret en lagerleverance
 
- Når det udgående kildedokument frigives, oprettes der automatisk en udgående lageranmodning. Den indeholder referencer til kildebilagstype og -nummer og er ikke synlig for brugeren.  
+Linjerne fra kildedokumentet vises på siden **Lagerstedsleverance**. Flere kildedokumentlinjer kan kombineres i et lagerleverancedokument.  
 
-### <a name="3-create-warehouse-shipment"></a>3: Opret lagerleverance
+### 3: Opret lagerstedspluk
 
- På siden **Lagerleverance** modtager den ansvarlige speditionsmedarbejder ventende kildedokumentlinjer, der er baseret på den udgående lageranmodning. Flere kildedokumentlinjer kan kombineres i et lagerleverancedokument.  
+På siden **Lagerstedsleverance** kan du oprette lagerstedsplukaktiviteter for lagerstedsleverancer på to måder:
 
-### <a name="4-release-shipment--create-warehouse-pick"></a>4: Frigiv leverance / Opret pluk (logistik)
+- På en push-måde, hvor du kan bruge handlingen **Opret pluk**. Vælg de linjer, der skal plukkes, og forbered plukkene ved at angive, hvilke placeringer der skal tages fra, hvilke placeringer der skal placeres i, og hvor mange enheder der skal håndteres. Placeringerne kan være foruddefineret ved opsætning af lagerstedslokationen eller ressourcen.
+- På en push-måde, hvor du kan bruge handlingen **Frigiv**. På siden **Plukkladde** kan lagerstedsmedarbejderne bruge handlingen **Hent lagerstedsdokumenter** til at få tildelt de tildelte pluk. Når lagerstedspluk er fuldt tildelt, slettes linjerne i **Plukkladde**.
 
- Den speditionsmedarbejder, der er ansvarlig, frigiver lagerleverancen, så lagermedarbejderne kan oprette eller koordinere lagerpluk for den pågældende leverance.  
+### 4: Registrer et lagerstedspluk
 
- Alternativt kan brugeren oprette lagerplukdokumenter for de enkelte leverancelinjer på en push-måde, baseret på angivne placeringer og antal der skal håndteres.  
+På hver linje for varer, der er plukket eller flyttet helt eller delvist, udfylder lagermedarbejderen feltet **Antal** på siden **Lagerstedspluk** og registrerer derefter lagerplukningen.
 
-### <a name="5-release-internal-operation--create-warehouse-pick"></a>5: Frigiv intern handling / Opret pluk (logistik)
+Lagerstedsposter oprettes og lagerstedspluklinjerne slettes, hvis plukningen er fuldført. Lagerstedsplukdokumentet forbliver åbent, indtil det fulde antal af den relaterede lagerstedsleverance er registreret. Feltet **Plukket antal** på lagerleverancelinjerne opdateres i overensstemmelse hermed.  
 
- Den bruger, der er ansvarlig for interne operationer, frigiver et internt kildedokument, f.eks. en produktions- og montageordre, så lagermedarbejdere kan oprette eller koordinere lagerpluk for den pågældende interne operation.  
+### 5: Bogfør lagerstedsleverance
 
- Alternativt kan brugeren oprette lagerplukdokumenter for den enkelte produktion eller montageordre på en push-måde, baseret på angivne placeringer og antal der skal håndteres.  
+Når alle varer på lagerstedsleverancedokumentet er registreret som plukket, bogfører den lagermedarbejderen leverancen. Bogføring opdaterer vareposterne, så de afspejler reduktionen af lagerbeholdningen. Feltet **Leveret (antal)** opdateres f.eks. på den udgående kildedokumentlinje.  
 
-### <a name="6-create-pick-request"></a>6: Opret plukanmodning
+## Se også
 
- Når det udgående kildedokument frigives, oprettes der automatisk en lagerplukanmodning. Den indeholder referencer til kildebilagstype og -nummer og er ikke synlig for brugeren. Afhængigt af opsætningen, opretter forbrug fra en produktions- og montageordre også en plukanmodning om at plukke de nødvendige komponenter fra lageret.  
-
-### <a name="7-generate-pick-worksheet-lines"></a>7: Generér plukkladdelinjer
-
- Den bruger, der er ansvarlig for at koordinere pluk, henter pluklinjer i **Plukkladden** baseret på plukanmodninger fra lagerleverancer eller interne aktiviteter med komponentforbrug. Brugeren vælger de linjer, der skal plukkes, og forbereder plukkene ved at angive, hvilke placeringer der skal tages fra, hvilke placeringer der skal placeres i, og hvor mange enheder der skal håndteres. Placeringerne kan være foruddefineret ved opsætning af lagerlokationen eller operationsressourcen.  
-
- Brugeren angiver plukmetoder for optimeret lagerekspedition og bruger derefter en funktion til at oprette de tilsvarende pluk-dokumenter, der er tildelt til forskellige lagermedarbejdere, der udfører lagerpluk. Når lagerpluk er fuldt tildelt, slettes linjerne i **Plukkladde**.  
-
-### <a name="8-create-warehouse-pick-documents"></a>8: Opret lagerplukdokumenter
-
- Den lagermedarbejder, der udfører pluk, opretter et lagerplukdokument på en pull-måde baseret på det frigivne kildedokument. Alternativt er lagerplukdokumentet oprettet og tildelt lagermedarbejderen på en push-måde.  
-
-### <a name="9-register-warehouse-pick"></a>9: Registrer pluk (lager)
-
- På hver linje for varer, der er plukket eller flyttet helt eller delvist, udfylder lagermedarbejderen feltet **Antal** på siden **Pluk (logistik)** og registrerer derefter lagerplukningen.  
-
- Lagerposter oprettes og lagerpluklinjerne slettes, hvis de er fuldt håndteret. Lagerplukdokumentet forbliver åbent, indtil det fulde antal af den relaterede lagerleverance er registreret. Feltet **Plukket antal** på lagerleverancelinjerne opdateres i overensstemmelse hermed.  
-
-### <a name="10-post-warehouse-shipment"></a>10: Bogfør lagerleverance
-
- Når alle varer på lagerleverancedokumentet er registreret som plukket til de angivne leveranceplaceringer, bogfører den speditionsmedarbejder, der er ansvarlig, lagerleverancen. Negative vareposter oprettes. Feltet **Leveret (antal)** opdateres f.eks. på den udgående kildedokumentlinje.  
-
-## <a name="see-also"></a>Se også
-
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
-
+[Logistik](design-details-warehouse-management.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

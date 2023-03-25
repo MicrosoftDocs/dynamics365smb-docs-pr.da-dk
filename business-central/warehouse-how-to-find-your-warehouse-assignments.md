@@ -1,6 +1,6 @@
 ---
 title: Finde dine lageropgaver
-description: Dette emne beskriver, hvordan du finder de lager tildelinger, du har fået tildelt på varekortet, når du har oprettet instruktionerne.
+description: 'Dette emne beskriver, hvordan du finder de lager tildelinger, du har fået tildelt på varekortet, når du har oprettet instruktionerne.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 9000
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: fbf2f125f7be6e5baa215092d70f1e13ce9e6b7d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513285"
 ---
-# <a name="find-your-warehouse-assignments"></a>Finde dine lageropgaver
+# Finde dine lageropgaver
 
 Hvis du vil finde dine lageropgaver, skal du åbne kortsiden til en markeret vare. Hvis der er oprettet lagerinstruktioner, vises der Hent- og Placer-linjer, og du kan starte på en opgave. Der kan også være tildelt særlige instruktioner til hver lagermedarbejder af en overordnet leder. Du kan finde flere oplysninger i [Definere lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="to-find-an-instruction-assigned-to-you"></a>Sådan findes en tildelt instruktion
+## Sådan findes en tildelt instruktion
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikonk, skriv **Læg-på-lager (logistik)**, **Pluk (logistik)** eller **Bevægelse (logistik)**, og vælg derefter det relaterede link.
 
@@ -31,14 +25,13 @@ Hvis du vil finde dine lageropgaver, skal du åbne kortsiden til en markeret var
 
 Du kan bruge feltet **Tildelt bruger-id** på hovedet til at påtage dig opgaver, hvis lagerlederen ikke har tildelt bestemte instruktioner til hver individuel medarbejder. Indtast blot dit bruger-id på hovedet, før du begynder at arbejde på en instruktion. De andre medarbejdere kan så vælge at starte på andre instruktioner, og to medarbejdere kommer ikke til at spilde tid og kræfter på at udføre den samme opgave.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Logistik](warehouse-manage-warehouse.md)  
-[Lagerbeholdning](inventory-manage-inventory.md)  
+[Warehouse Management-oversigt](design-details-warehouse-management.md)
+[Lager](inventory-manage-inventory.md)  
 [Konfigurere Warehouse Management](warehouse-setup-warehouse.md) 
 [Montagestyring](assembly-assemble-items.md)
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

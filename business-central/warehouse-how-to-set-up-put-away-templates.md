@@ -6,23 +6,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7312, 7313, 7314, 7321, 7322, 7323, 7329
+ms.search.form: '7312, 7313, 7314, 7321, 7322, 7323, 7329'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 83d15ea1db01ef8161c81465a8c521128c7b8407
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529807"
 ---
-# <a name="set-up-put-away-templates"></a>Oprette læg-på-lager-skabeloner
+# Oprette læg-på-lager-skabeloner
 
 Hvis du benytter styret læg-på-lager og pluk, foreslås den til enhver tid mest velegnede placering til varer ifølge den læg-på-lager-skabelon, du har defineret til lagerstedet, de placeringsniveauer, du har tildelt placeringerne, og de minimum- og maksimumantal, du har angivet for faste placeringer.  
 
 Du kan oprette en række læg-på-lager-skabeloner og vælge en af som standardskabelon for læg-på-lager-aktiviteter. Du kan også vælge en bestemt skabelon til en vare eller lagervare, som der er specielle krav til i forbindelse med læg-på-lager-aktiviteter.  
 
-## <a name="to-set-up-put-away-templates"></a>Sådan oprettes læg-på-lager-skabeloner
+## Sådan oprettes læg-på-lager-skabeloner
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Læg-på-lager-skabeloner**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -37,15 +31,13 @@ Du kan oprette en række læg-på-lager-skabeloner og vælge en af som standards
 
 Du kan oprette en række læg-på-lager-skabeloner og bruge dem efter behov. Den læg-på-lager-skabelon, som du har valgt til varen eller lagervaren, hvis en sådan er oprettet, benyttes først. Hvis felterne her ikke er udfyldt, anvendes den læg-på-lager-skabelon, du har valgt til lagerstedet i oversigtspanelet **Placeringsmetode** på lokationskortet.  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/put-away-templates/)
+## Se relateret [Microsoft-træning](/training/modules/put-away-templates/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Logistik](warehouse-manage-warehouse.md)  
-[Lagerbeholdning](inventory-manage-inventory.md)  
+[Warehouse Management-oversigt](design-details-warehouse-management.md)
+[Lager](inventory-manage-inventory.md)  
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
-[Montagestyring](assembly-assemble-items.md)  
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

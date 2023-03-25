@@ -1,23 +1,17 @@
 ---
 title: Økonomistyring (indeholder video)
-description: Få mere at vide om, hvordan Business Central understøtter dine behov for økonomistyring, regnskab, revision eller bogholderi.
+description: 'Få mere at vide om, hvordan Business Central understøtter dine behov for økonomistyring, regnskab, revision eller bogholderi.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accounting, auditing, bookkeeping
-ms.search.form: 1151, 1166, 9027, 9004
+ms.search.keywords: 'accounting, auditing, bookkeeping'
+ms.search.form: '1151, 1166, 9027, 9004'
 ms.date: 08/19/2022
 ms.author: edupont
-ms.openlocfilehash: bd8bd7089be89c9d5a2f57b53b104a2b5ac2a565
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604998"
 ---
-# <a name="financial-management"></a>Økonomistyring
+# Økonomistyring
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en standardkonfigurationen for de fleste finansielle processer, men du kan ændre den, så den passer til dine behov. Flere oplysninger i [Konfigurere finans](finance-setup-finance.md).
 
@@ -55,13 +49,13 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Arbejde med regnskabsopgørelser og oversigter i Microsoft Excel. |[Analysere regnskabsopgørelser i Excel](finance-analyze-excel.md) |
 |Lær at bruge rollecenteret Revisor, engagere en ekstern revisor og brug virksomhedshubben til at administrere konti for flere klienter.|[Revisoroplevelser i Business Central](finance-accounting.md)|  
 
-## <a name="take-a-video-tour"></a>Tag en videopræsentation
+## Tag en videopræsentation
 
 Denne video introducerer nogle af de vigtigste funktioner i forbindelse med styring af økonomien. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere Finans](finance-setup-finance.md)  
 [Salg](sales-manage-sales.md)  

@@ -1,22 +1,16 @@
 ---
 title: Konfigurere Service-processer | Microsoft Docs
-description: Få at vide, hvordan du konfigurerer processer, der er med til at sikre, at dine kunder er tilfredse med din kundeservice.
+description: 'Få at vide, hvordan du konfigurerer processer, der er med til at sikre, at dine kunder er tilfredse med din kundeservice.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
+ms.search.keywords: 'service, number sequences, setup, warnings, fee, contracts, warranties'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2a65c34f8fa59cd72c2df9e78343da03c67d8721
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8380928"
 ---
-# <a name="configure-service-processes"></a>Konfigurere serviceprocesser
+# Konfigurere serviceprocesser
 Følgende er nogle eksempler på de indstillinger, du kan anvende på Service-processer:  
   
 * Generelle indstillinger for forskellige processer, f.eks. advarsler, næste service-beregninger for serviceartikler, startgebyr til vurdering, det fejlrapporteringsniveau, der skal bruges osv.  
@@ -25,11 +19,11 @@ Følgende er nogle eksempler på de indstillinger, du kan anvende på Service-pr
 * Indstillinger for kontrakter, f.eks. det maksimale antal dage, som du kan bruge til kontraktserviceordrer, om der skal bruges årsagskoder, når en kontrakt annulleres, standardtekster til kontraktbeskrivelser og kontraktværdier.  
 * De nummerserier, der skal bruges til servicerelaterede dokumenter og varer.  
 
-## <a name="to-enter-general-and-mandatory-settings"></a>Sådan angives generelle og obligatoriske indstillinger
+## Sådan angives generelle og obligatoriske indstillinger
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceopsætning**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="see-also"></a>Se også  
+## Se også  
 [Konfigurere fejlrapportering](service-how-setup-fault-reporting.md)  
 [Opsætte ressourceallokering](service-how-setup-resource-allocation.md)  
 [Definere koder for standardservices](service-how-setup-service-coding.md)  

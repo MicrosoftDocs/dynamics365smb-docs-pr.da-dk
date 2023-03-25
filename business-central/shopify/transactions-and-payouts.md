@@ -4,24 +4,19 @@ description: Konfigurere og køre import af transaktioner og udbetalinger fra Sh
 ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 30124, 30125, 30130, 30131, 30132, 30133, 30134,
+ms.search.form: '30124, 30125, 30130, 30131, 30132, 30133, 30134,'
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: f4833a3fa77cdff587947a9686e61e3255b66a7c
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728716"
 ---
-# <a name="transactions-and-payouts"></a>Transaktioner og udbetalinger
+
+# Transaktioner og udbetalinger
 
 Når en kunde har færdiggjort check ud i onlinebutikken, gemmes oplysningerne om betalinger som en **transaktion**. Der kan være knyttet flere transaktioner til ordren, f. eks. Når en kunde bruger et gavekort til at betale noget af omkostningerne og derefter bruger et kreditkort eller en PayPal til restbeløbet.
 
 Hvis du bruger Shopify-betaling som betalingsudbyder og derefter ud over oplysninger om de penge, som Betalingsudbyderen har modtaget fra kunden, kan du også få vist udbetalinger fra Shopify til din bankkonto.
 
-## <a name="transactions"></a>Transaktioner
+## Transaktioner
 
 De betalingstransaktioner, der er foretaget i Shopify synkroniseres sammen med ordrerne og kan ses på siden **Shopify-ordrer**.
 
@@ -29,7 +24,7 @@ Hvis du vil se alle transaktioner, skal du vælge ![Lightbulb, der åbner funkti
 
 Hvis du har konfigureret tilknytning af en betalingsmetode, er der tildelt en betalingsmetode kode i det oprettede salgsdokument. Få mere at vide ved [betalingsmetodetilknytning](#payment-method-mapping).
 
-## <a name="payouts"></a>Udbetalinger
+## Udbetalinger
 
 Hvis din butik har Shopify Payments aktiveret, modtager du betalinger via **Shopify-udbetalinger**, når en kunde betaler vha Shopify Payments og accelererede checks.
 
@@ -41,7 +36,7 @@ Hvis du vil se alle udbetalinger, skal du vælge ![Lightbulb, der åbner funktio
 
 **Udbetalinger** er kun til orientering og påvirker ikke finans-eller bank poster, men de kan være nyttige, når du skal behandle bankkontoudtoget.
 
-## <a name="payment-method-mapping"></a>Tilknytning af betalingsmetode
+## Tilknytning af betalingsmetode
 
 Hvis du vil udfylde **betalingsmetodekoden** automatisk for salgsdokumenter, der er importeret fra Shopify, skal du konfigurere **tilknytning af betalingsmetode**.
 
@@ -55,7 +50,7 @@ Hvis du vil udfylde **betalingsmetodekoden** automatisk for salgsdokumenter, der
 > [!NOTE]  
 > Hvis den tilsvarende betalingsmetode i [!INCLUDE[prod_short](../includes/prod_short.md)] har **Modkonto type** og **Modkonto** udfyldt, vil fakturasystemet under bogføringen, oprette en modpost af *betaling*-typen og udligne den med *faktura*-typen i debitorposten.
 
-## <a name="use-cases"></a>Bruge sager
+## Bruge sager
   
 Parter:
 
@@ -63,7 +58,7 @@ Parter:
 * Forhandler - din virksomhed.
 * Betalingsformidler - virksomhed, der håndterer betaling for dig. Kan være Shopify Payments eller en tredjepart.
 
-### <a name="how-money-flows"></a>Sådan er pengestrømmen
+### Sådan er pengestrømmen
 
 Køberen køber varer i onlinebutikker. Den sidste fase er at gennemføre betaling.
 
@@ -80,7 +75,7 @@ Afhængigt af banken kan forhandleren se den indgående transaktion på deres ba
 
 Der er flere indstillinger til håndtering af betalingstransaktioner i [!INCLUDE[prod_short](../includes/prod_short.md)]
   
-### <a name="option-1-reconcile-incoming-transfers-to-bank-account-against-original-invoices"></a>Mulighed 1: afstemme indgående overførsler til bankkonto mod oprindelige fakturaer
+### Mulighed 1: afstemme indgående overførsler til bankkonto mod oprindelige fakturaer
   
 Forhandlerens importerer salgsordre til [!INCLUDE[prod_short](../includes/prod_short.md)] og bogfører levering og faktura.
 
@@ -93,7 +88,7 @@ Fejl:
 1. Kan være vanskelig, hvis der er flere fakturaer (og kreditnotaer), men en udbetaling fra betalingsudbyderen med et engangsbeløb.
 2. Beløb stemmer som regel ikke overens med provisionen. Du kan bruge betalingstolerance eller/eller kontantrabat til at håndtere gebyrer.
 
-### <a name="option-2-reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider"></a>Mulighed 2: afstemme indgående overflytninger til bankkonto mod mellemkonto, der repræsenterer penge hos betalingsudbyderen
+### Mulighed 2: afstemme indgående overflytninger til bankkonto mod mellemkonto, der repræsenterer penge hos betalingsudbyderen
   
 Forhandlerens importerer salgsordre til [!INCLUDE[prod_short](../includes/prod_short.md)] og bogfører levering og faktura.
   
@@ -122,6 +117,6 @@ Fejl:
 
 1. Du kan oprette flere finanskontonumre eller bankkonti, hvis du har flere betalingsudbydere. Salgsordrer [!INCLUDE[prod_short](../includes/prod_short.md)] understøtter dog kun én betalingsmetodekode, hvilket gør det vanskeligt at håndtere sager, når en kunde bruger flere betalingsmetoder til en ordre.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Kom i gang med Connectoren til Shopify](get-started.md)  

@@ -1,22 +1,16 @@
 ---
-title: Sælge, montere og levere pakker
-description: For at støtte en for JIT-lagerstrategi kan montageordrer automatisk oprettes og tilknyttes, så snart salgsordrelinjen er oprettet.
+title: 'Sælge, montere og levere pakker'
+description: 'For at støtte en for JIT-lagerstrategi kan montageordrer automatisk oprettes og tilknyttes, så snart salgsordrelinjen er oprettet.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: c18697ae02da11014e405619118b291c6d1e5610
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535663"
 ---
-# <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gennemgang: Salg, montering og levering af pakker
+# Gennemgang: Salg, montering og levering af pakker
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -26,18 +20,18 @@ Der findes specielle funktioner til at dække levering af montage til ordre-mæn
 
 I grundlæggende lagerkonfigurationer bogfører den ansvarlige lagermedarbejder et lagerpluk for salgsordrelinjerne, når en montage til ordre-mængde er klar til at blive leveret. Derefter oprettes en flytning (lager) for komponenterne, og montageoutputtet og salgsordreleverancen bogføres. Du kan finde flere oplysninger i [Håndtere montageordrevarer i Pluk (lager)](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
-## <a name="about-this-walkthrough"></a>Om denne gennemgang
+## Om denne gennemgang
 
 Denne gennemgang viser følgende opgaver:  
 
-### <a name="setting-up-assembly-items"></a>Konfigurere montageelementer
+### Konfigurere montageelementer
 
 Montageelementer er kendetegnet ved deres genbestillingssystem og montagestyklisten. Varens montagepolitik kan enten være montage til ordre (ATO) eller montage til lager (ATS). Dette afsnit dækker følgende opgaver:  
 
 -   Angive det relevante genbestillingssystem og den relevante montagepolitik på et nyt montagevarekort.  
 -   Oprette en montagestykliste, der viser montagekomponenter og den ressource, der indgår i montageelementet.  
 
-### <a name="selling-customized-assembly-items"></a>Sælge tilpassede montageelementer
+### Sælge tilpassede montageelementer
 
 [!INCLUDE[prod_short](includes/prod_short.md)] giver fleksibilitet til både at indtaste et lagerantal og en montage til ordre-mængde på én salgsordrelinje. Dette afsnit dækker følgende opgaver:  
 
@@ -47,14 +41,14 @@ Montageelementer er kendetegnet ved deres genbestillingssystem og montagestyklis
 -   Oprette en blandet salgsordrelinje, hvor dele af salgsmængden leveres fra lager, og den resterende del skal samles før afsendelse.  
 -   Forstå ATO-tilgængelighedsadvarsler.  
 
-### <a name="planning-for-assembly-items"></a>Planlægge for montageelementer
+### Planlægge for montageelementer
 
 Montageefterspørgsel og forsyning håndteres af planlægningssystemet, præcis som for køb, overførsel og produktion. Dette afsnit dækker følgende opgaver:  
 
 -   Køre en totalplan for varer med salgsbehov for monteret levering.  
 -   Oprette en montageordre for at opfylde et salgslinjeantal for den efterspurgte afsendelsesdato.  
 
-### <a name="assembling-items"></a>Montageelementer
+### Montageelementer
 
 Montageordrer fungerer på samme måde som produktionsordrer, bortset fra at forbruget og afgangen registreres og bogføres direkte fra ordren. Når varerne skal samles til lager, har montagearbejderen fuld adgang til alle sidehoved- og linjefelter. Når varerne skal samles til en ordre, hvor mængden og datoen er bekræftet for debitoren, kan visse felter på montageordren ikke redigeres. I så fald udføres montagebogføringen fra lagerleverance for den tilknyttede salgsordre. Dette afsnit dækker følgende opgaver.  
 
@@ -62,7 +56,7 @@ Montageordrer fungerer på samme måde som produktionsordrer, bortset fra at for
 -   Adgang til en lagerleverancelinje fra en ATO-montageordre for at registrere montagearbejde.  
 -   Adgang til en ATO-montageordre fra en lagerleverancelinje for automatisk at gennemse de indtastede data.  
 
-### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Levere montageelementer fra lager og monteret til ordre
+### Levere montageelementer fra lager og monteret til ordre
 
 Der findes specialfunktioner til styring af leveringen af montage efter ordre-mængder. Dette afsnit dækker følgende opgaver:  
 
@@ -72,7 +66,7 @@ Der findes specialfunktioner til styring af leveringen af montage efter ordre-m�
 -   Levere montage til ordre-mængder.  
 -   Levere lagermontageelementer.  
 
-## <a name="roles"></a>Roller
+## Roller
 
 Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:  
 
@@ -82,7 +76,7 @@ Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:
 -   Vælger  
 -   Leveranceansvarlig  
 
-## <a name="prerequisites"></a>Forudsætninger
+## Forudsætninger
 
 Før du kan udføre opgaverne i denne gennemgang, skal du gøre følgende:  
 
@@ -116,7 +110,7 @@ Fjern standardleveringstiden for interne processer ved at følge disse trin:
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
-## <a name="story"></a>Historie
+## Historie
 
 Den 23. januar modtager Susanne, der er salgsordrebehandler en ordre fra Enhedsbutikken på tre enheder af pakke B, som er et ATO-element. Alle tre enheder er tilpasset og skal indeholde det stærke grafikkort og en ekstra RAM-blok. Diskdrevene er opgraderet til DVD, fordi cd-drev ikke er tilgængelige. Susanne ved, at enhederne kan samles med det samme, så hun bevarer den foreslåede afsendelsesdato, der er den 23. januar.  
 
@@ -144,7 +138,7 @@ Sammy pakker de ti ATS-enheder med de fem ATO-enheder, som Linda samlede tidlige
 
 Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og den tilknyttede montageordre.  
 
-## <a name="prepare-sample-data"></a>Klargøre eksempeldata
+## Klargøre eksempeldata
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagerkladder**, og vælg derefter det relaterede link.  
 2.  Vælg feltet **Kladdenavn**, og vælg derefter standardkladden.  
@@ -168,7 +162,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 7.  På siden **Beregn lagerregulering** skal du vælge knappen **OK**.  
 8.  På siden **Varekladde** skal du vælge handlingen **Bogfør** og derefter vælge knappen **Ja**.  
 
-### <a name="creating-the-assembly-items"></a>Oprette montageelementer  
+### Oprette montageelementer  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
@@ -219,7 +213,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
     |Vare|80210|1|  
     |Ressource|Lise|1|  
 
-### <a name="selling-the-assembly-items"></a>Sælge montageelementerne  
+### Sælge montageelementerne  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
@@ -272,7 +266,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 17. Vælg handlingen **Opret lagerleverance**.  
 18. Luk salgsordren.  
 
-### <a name="planning-for-the-unavailable-ats-items"></a>Planlægge for utilgængelige ATS-elementer  
+### Planlægge for utilgængelige ATS-elementer  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Planlægningskladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Beregn totalplan**.  
@@ -290,7 +284,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 6.  På siden **Udfør aktionsmeddelelse** skal du vælge feltet **Montageordre** og derefter vælge **Opret montageordrer**.  
 7.  Vælg knappen **OK**.  
 
-### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Montere og levere den første ATO-mængde  
+### Montere og levere den første ATO-mængde  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagerleverancestatus**, og vælg derefter det relaterede link.  
 
@@ -350,7 +344,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Lageraktiviteter for at opfylde den første salgsordrelinje den 23. januar er fuldført. Opfyld dernæst de salgsordrelinjer, der skal leveres den 27. januar  
 
-### <a name="assembling-and-recording-the-second-ato-quantity"></a>Montere og registrere den anden ATO-mængde  
+### Montere og registrere den anden ATO-mængde  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Montageordrer**, og vælg derefter det relaterede link.  
 
@@ -374,7 +368,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
 5.  Luk siden **Montageordre**.  
 
-### <a name="assembling-the-ats-quantity"></a>Montere ATS-antallet  
+### Montere ATS-antallet  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Montageordrer**, og vælg derefter det relaterede link.  
 2.  Åbn montageordren på ti enheder af pakke A.  
@@ -402,7 +396,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Bemærk, at montageordren fjernes fra listen over åbne ordrer.  
 
-### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Levere de resterende elementer delvist fra lager og delvist monteret til ordren  
+### Levere de resterende elementer delvist fra lager og delvist monteret til ordren  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagerleverancestatus**, og vælg derefter det relaterede link.  
 2.  Åbn seneste lagerleverance, der er oprettet til lokationen HVID.  
@@ -442,9 +436,9 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Når Enhedsbutikken betaler for deres modtagelse af 18 pc'er fra CRONUS, fjernes salgsordren og dens tilknyttede montageordrer.  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/assemble-items-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
  [Om montage til ordre og montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md)   
  [Montere elementer](assembly-how-to-assemble-items.md)   

@@ -1,22 +1,15 @@
 ---
 title: Administrative opgaver i Business Central
-description: Nogle af opgaverne i Business Central kræver central administration og installation. Se, hvilke opgaver det er, og få at vide, hvad du skal gøre.
-author: SorenGP
+description: 'Nogle af opgaverne i Business Central kræver central administration og installation. Se, hvilke opgaver det er, og få at vide, hvad du skal gøre.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 07/23/2021
-ms.author: edupont
-ms.openlocfilehash: 8d961c1d54dda71651eb81c6dfab05733d0207fc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533236"
+ms.date: 01/11/2023
+ms.custom: bap-template
 ---
-# <a name="administration-tasks"></a>Administrationsopgaver
+# Administrationsopgaver
 
 Centrale administrationsopgaver udføres som regel af én rolle i firmaet. Omfanget af disse opgaver kan afhænge af firmaets størrelse og administratorens jobansvar. Disse opgaver kan omfatte styring af databasesynkronisering af job og e-mail-køer, oprettelse af brugere og tilpasning af brugergrænsefladen.  
 
@@ -50,7 +43,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 |Opret forbindelse fra Dynamics 365 Sales til [!INCLUDE[prod_short](includes/prod_short.md)] for at opnå problemfri integration mellem debitorrelationer og ordrebehandling i lead-til-kontant-processen.|[Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Ændre, hvilke felter og handlinger der vises i brugergrænsefladen, så det passer til virksomhedens forretningsprocesser, og så løsningen kan udvides med apps.|[Tilpas [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
 
-## <a name="administration-in-the-admin-center"></a>Administration i administrationscenteret
+## Administration i administrationscenteret
 
 Interne og uddelegerede administratorer har adgang til [!INCLUDE [prod_short](includes/prod_short.md)] Administration, hvor de kan konfigurere, overvåge og foretage fejlfinding i [!INCLUDE [prod_short](includes/prod_short.md)]-miljøer. Den følgende tabel indeholder nogle af de vigtige opgaver med links til artikler med beskrivelser af dem.  
 
@@ -58,12 +51,12 @@ Interne og uddelegerede administratorer har adgang til [!INCLUDE [prod_short](in
 |------------|-------------|
 |Få mere at vide om de værktøjer, du kan bruge til fejlfinding.|[Teknisk support](/dynamics365/business-central/dev-itpro/technical-support)|
 |Overvåge brug og foretage fejlfinding af sessioner|[Miljøtelemetri i Business Central Administration](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
-|Administrere brugersessioner, herunder annullering af en session, hvis brugeren er spærret.|[Administrere sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|
+|Administrere brugersessioner, herunder annullering af en session, hvis brugeren er spærret.|[Administrere sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Konfigurere lejeren til at sende telemetridata til Azure Application Insights for at opnå bedre analyse og fejlfinding.|[Aktivere afsendelse af telemetri til Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/deploy-configure-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/paths/deploy-configure-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Forretningsfunktioner](across-business-functionality.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  

@@ -1,6 +1,6 @@
 ---
 title: Konfigurere adgang til Microsoft 365-licenser
-description: En vejledning til, hvordan administratorer kan konfigurere adgang til Business Central med Microsoft 365-licenser.
+description: 'En vejledning til, hvordan administratorer kan konfigurere adgang til Business Central med Microsoft 365-licenser.'
 author: mikebc
 ms.author: mikebc
 ms.reviewer: jswymer
@@ -8,20 +8,14 @@ ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/03/2022
 ms.custom: bap-template
-ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.search.forms: 9061
-ms.openlocfilehash: 3b3e7d42e077749bd4443506f7423dce03e9e82f
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804414"
+ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
+ms.search.form: 9061
 ---
-# <a name="set-up-business-central-access-in-teams-with-microsoft-365-licenses"></a>Konfigurere Business Central-adgang i Teams med Microsoft 365-licenser
+# Konfigurere Business Central-adgang i Teams med Microsoft 365-licenser
 
 Administratorer skal udføre flere aktiviteter, før brugere kan få adgang til Business central med deres Microsoft 365-licens. Nedenstående trin repræsenterer den opsætning, der som minimum kræves for at komme i gang. Hvis du vil vide mere om adgang med Microsoft 365-licenser, skal du gå til [Business Central-adgang med Microsoft 365-licenser](admin-access-with-m365-license.md).
 
-## <a name="deploy-the-business-central-app-for-teams"></a>Udrulle Business Central-appen til Teams
+## Udrulle Business Central-appen til Teams
 
 Hvis du vil have, at Business Central-indehavere skal dele data i Teams, og hvis Microsoft 365-licensindehavere skal have adgang til disse data, skal hver enkelt have installeret Business central-app til teams. Selvom brugerne kan installere appen alene, anbefales det, at administratorer bruger centraliseret udrulning. Centraliseret installation giver dig mulighed for at samle en app til et bredere publikum i hele organisationen og minimere den enkelte bruger indsats. 
 
@@ -33,7 +27,7 @@ Du kan få mere at vide om, hvordan du installerer Business central-appen til Te
 > [!TIP]
 > Er du på udkig efter en hurtigere måde at komme i gang på, når du prøver denne funktion? Testbrugere kan installere appen på [aka.ms/BCgetTeamsApp](https://aka.ms/BCgetTeamsApp).
 
-## <a name="configure-permissions"></a>Konfigurere tilladelser
+## Konfigurere tilladelser
 
 Business Central har et sikkert design og minimerer risikoen ved at give adgang til Microsoft 365-brugere som standard. Administratorer skal konfigurere objekttilladelser, der bestemmer, hvilke tabeller, sider og rapporter der er adgang til i Teams, der kun har en Microsoft 365-licens. Disse tilladelser er de starttilladelser, der tildeles, når en bruger logger på første gang med Microsoft 365-licensen. 
 
@@ -56,7 +50,7 @@ Når du arbejder med flere miljøer, skal der tilknyttet licenskonfiguration til
 
 Du kan finde flere oplysninger om rettigheder i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md) og [Sammensætte tilladelsessæt](/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing).
 
-## <a name="turn-on-access-with-microsoft-365-licenses"></a>Aktivere adgang med Microsoft 365-licenser
+## Aktivere adgang med Microsoft 365-licenser
 
 Adgang med Microsoft 365-licenser er som standard deaktiveret. Adgang skal være aktiveret uafhængigt for hvert miljø, hvilket giver administratorerne mulighed for at styre den midlertidigt inddelte fase i organisationen. Du kan aktivere adgang ved hjælp af Business Central administration: 
 
@@ -66,7 +60,7 @@ Adgang med Microsoft 365-licenser er som standard deaktiveret. Adgang skal være
 4. Aktiver i ruden **Microsoft 365-licenser**. 
 5. Vælg **Gem**, når du er færdig, og accepter bekræftelsen. Ændringen træder i kraft med det samme.
 
-## <a name="test-your-setup"></a>Test konfigurationen
+## Test konfigurationen
 
 Du kan kontrollere, at opsætningen er klar til produktion, ved at benytte følgende fremgangsmåde for at opbygge tilliden for, at alt fungerer, som det skal. 
 
@@ -90,7 +84,7 @@ Du kan kontrollere, at opsætningen er klar til produktion, ved at benytte følg
 > [!TIP]
 > Gik noget galt? Se [Fejlfinde adgang med Microsoft 365-licenser](admin-access-with-m365-license-troubleshooting.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversigt over Business Central-adgang med Microsoft 365-licenser](admin-access-with-m365-license.md#minimum-requirements)  
 [Fejlfinde adgang med Microsoft 365-licenser](admin-access-with-m365-license-troubleshooting.md)  

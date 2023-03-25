@@ -1,4 +1,8 @@
-> [!NOTE]
->Kan du fortælle os om dine sprogpræferencer for dokumentation? [Tag en kort undersøgelse.](https://aka.ms/BAG_Docs_Language_Survey) (bemærk, at denne undersøgelse er på engelsk)
->
->Undersøgelsen tager ca. syv minutter. Der indsamles ingen personlige data ([erklæring om beskyttelse af personlige oplysninger](https://go.microsoft.com/fwlink/?LinkId=521839)).
+---
+author: edupont04
+ms.topic: include
+ms.date: 11/01/2022
+ms.author: edupont
+---
+[Find gratis e-learning-moduler til Business Central her](/training/dynamics365/business-central)
+

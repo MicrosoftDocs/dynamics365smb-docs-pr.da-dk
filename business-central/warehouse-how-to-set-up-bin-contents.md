@@ -1,6 +1,6 @@
 ---
 title: Oprette placeringsindhold
-description: Når du har oprettet placeringerne, kan du angive de varer, du vil gemme i dem, og definere regler, der styrer, hvor ofte placeringer skal reserveres.
+description: 'Når du har oprettet placeringerne, kan du angive de varer, du vil gemme i dem, og definere regler, der styrer, hvor ofte placeringer skal reserveres.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 86d5d8410a884fa2a8357490c92658582fc9b9f5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530428"
 ---
-# <a name="create-bin-contents"></a>Oprette placeringsindhold
+# Oprette placeringsindhold
 
 Når du har oprettet placeringerne, kan du oprette placeringsindholdet. Du kan med andre ord sætte de varer op, som du vil opbevare på en bestemt placering, og angive regler, der styrer anbringelse af en bestemt vare på placeringen. Du kan gøre dette manuelt på siden **Placeringsindhold** eller automatisk med siden **Opret placeringsindholdskladde**.
 
-## <a name="to-create-bin-content-manually"></a>Sådan oprettes placeringsindhold manuelt
+## Sådan oprettes placeringsindhold manuelt
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.  
 2. Marker den lokation, hvor du vil konfigurere placeringsindhold, og vælg derefter handlingen **Placeringer**.  
@@ -37,7 +31,7 @@ Hvis du markerer feltet **Fast**, knytter du permanent varen til placeringen, hv
 > [!NOTE]  
 > Du kan oprette flere placeringsindhold ad gangen på siden **Opr.kladde til placeringsindh.**.  
 
-## <a name="to-create-bin-content-with-a-worksheet"></a>Sådan oprettes placeringsindhold med en kladde
+## Sådan oprettes placeringsindhold med en kladde
 
 Når du har oprettet placeringer, kan du angive, hvilke varer der skal opbevares på hver placering vha. en kladde.
 
@@ -55,17 +49,14 @@ Når du har oprettet placeringer, kan du angive, hvilke varer der skal opbevares
 
 I denne kladde kan du arbejde med placeringsindholdslinjer for flere placeringer ad gangen og på den måde få et godt overblik over, hvilke varer der lægges på de forskellige placeringer i en given zone, række eller hylde.  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/set-up-zones-bins/)
+## Se relateret [Microsoft-træning](/training/modules/set-up-zones-bins/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Beregn genopfyldning](warehouse-how-to-calculate-bin-replenishment.md)  
-[Logistik](warehouse-manage-warehouse.md)  
-[Lagerbeholdning](inventory-manage-inventory.md)  
+[Warehouse Management-oversigt](design-details-warehouse-management.md)
+[Lager](inventory-manage-inventory.md)  
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
 [Montagestyring](assembly-assemble-items.md)  
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
-[Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

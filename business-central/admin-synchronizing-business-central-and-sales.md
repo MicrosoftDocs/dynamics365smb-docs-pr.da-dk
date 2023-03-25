@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
+ms.search.keywords: 'Dataverse, integration, sync, synchronize, mapping'
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7c03e4491519a31aeaf11c4d52555ab222701c32
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383081"
 ---
-# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synkronisering af data i Business Central med Microsoft Dataverse
+
+# Synkronisering af data i Business Central med Microsoft Dataverse
 
 
 Når du integrerer [!INCLUDE[prod_short](includes/cds_long_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)], bliver du bedt om at synkronisere dataene i bestemte felter i [!INCLUDE[prod_short](includes/prod_short.md)]-records (f.eks. kunder, kontakter og sælgere) med tilsvarende rækker i [!INCLUDE[prod_short](includes/cds_long_md.md)] (f.eks. konti, kontakter og brugere). Afhængigt af række-typen kan du synkronisere data fra [!INCLUDE[prod_short](includes/cds_long_md.md)] til [!INCLUDE[prod_short](includes/prod_short.md)], eller omvendt. Du kan finde flere oplysninger i [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -42,7 +37,7 @@ Når synkroniseringen er konfigureret, du kan sammenkæde [!INCLUDE[prod_short](
 > Synkroniseringen mellem [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] er baseret på den planlagte kørsel af opgavekøposter og garanterer ikke data konsistens i realtid mellem to tjenester. I forbindelse med realtidsdata conistency du lære om [Virtuelle Business Central-tabeller](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) eller Business Central API'er.   
 
 
-## <a name="standard-table-mapping-for-synchronization"></a>Standard-tabeltilknytning til synkronisering
+## Standard-tabeltilknytning til synkronisering
 Tabeller i [!INCLUDE[prod_short](includes/cds_long_md.md)], f.eks. konti, er integreret med tabeller af samme type i [!INCLUDE[prod_short](includes/prod_short.md)], som f.eks. kunder. For at arbejde med [!INCLUDE[prod_short](includes/cds_long_md.md)]-data, opretter du links, kaldet sammenkædninger mellem tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
 Følgende tabel viser standardtilknytningen mellem tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)].
@@ -61,10 +56,10 @@ Følgende tabel viser standardtilknytningen mellem tabeller i [!INCLUDE[prod_sho
 > [!NOTE]
 > Disse **Dataverse**-handlinger vil ikke være tilgængelige på sider, f. eks. siden debitorkort, for poster, der ikke overholder tabel filteret i integrations tabel tilknytningen.
 
-### <a name="tip-for-admins-viewing-table-mappings"></a>Tip til administratorer: Visning af tabeltilknytninger
+### Tip til administratorer: Visning af tabeltilknytninger
 Du kan få vist tilknytningen mellem tabellerne i [!INCLUDE[prod_short](includes/cds_long_md.md)] og tabellerne i [!INCLUDE[prod_short](includes/prod_short.md)] på siden **Integrationstabeltilknytninger**, hvor du kan også anvende filtre. Du definerer tilknytningen mellem felterne i [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller og kolonnerne i [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabeller på siden **Integreret felttilknytning**, hvor du kan tilføje yderligere tilknytningslogik. Det kan f.eks. være nyttigt, hvis du har brug for fejlfinding i forbindelse med synkronisering.
 
-## <a name="see-also"></a>Se også  
+## Se også  
 [Sammenkæde og synkronisere poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Planlæg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)

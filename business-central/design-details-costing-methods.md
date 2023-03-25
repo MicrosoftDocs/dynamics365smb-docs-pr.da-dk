@@ -1,22 +1,16 @@
 ---
 title: Designoplysningers omkostningsmetoder
-description: Dette emne beskriver, hvordan kostmetoden afgør, om en faktisk og budgetteret værdi føres som aktiv og bruges i beregningen af kostprisen.
+description: 'Dette emne beskriver, hvordan kostmetoden afgør, om en faktisk og budgetteret værdi føres som aktiv og bruges i beregningen af kostprisen.'
 author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2bf45ab89aaeb9aa9560fd1e1d9ff94bf47cc453
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519800"
 ---
-# <a name="design-details-costing-methods"></a>Designoplysninger: Kostmetoder
+# Designoplysninger: Kostmetoder
 
 Kostmetoden afgør, om en faktisk eller en budgetteret værdi føres som aktiv og bruges i beregningen af kostprisen. Sammen med bogføringsdatoen og rækkefølgen har kostmetoden også indflydelse på, hvordan kostprisforløbet registreres.
 
@@ -46,7 +40,7 @@ Kostmetoder varierer i den måde, hvorpå de værdiansætter lagerreduceringer, 
 |Regulering|Værdiregulerer kun fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|Værdiregulerer kun fakturerede antal.<br /><br /> Kan kun foretages pr. vare.<br /><br /> Kan foretages bagudrettet.|Værdiregulerer fakturerede og ikke-fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|Værdiregulerer kun fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|  
 |Diverse|Hvis du baguddaterer en lagerreducering, bliver eksisterende poster IKKE genanvendt for at sikre et korrekt FIFO-omkostningsforløb.|Hvis du baguddaterer en lagerforøgelse eller -reducering, genberegnes den gennemsnitlige kostpris, og alle berørte poster justeres.<br /><br /> Hvis du ændrer perioden eller beregningstypen, skal alle berørte poster reguleres.|Brug siden **Standardkladde** til regelmæssigt at opdatere og akkumulere standardomkostninger.<br /><br /> Understøttes ikke pr. lagervare.<br /><br /> Der findes ingen historiske poster for standardomkostninger.|Du kan bruge specifik varesporing uden at bruge den specifikke kostmetode. Derefter følger prisen IKKE lotnummeret, men omkostningsforventningen for den valgte kostmetode.|  
 
-## <a name="example"></a>Eksempel
+## Eksempel
 
 Dette afsnit indeholder eksempler på, hvordan forskellige kostmetoder påvirker lagerværdien.  
 
@@ -64,7 +58,7 @@ Følgende tabel viser lagerforøgelser og -reduceringer, som eksemplerne er base
 > [!NOTE]  
 > Det resulterende antal i lageret er nul. Derfor skal lagerværdien også være nul, uanset hvilken kostmetode der anvendes.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Kostmetoders indflydelse på værdiansættelse af lagerforøgelser  
+### Kostmetoders indflydelse på værdiansættelse af lagerforøgelser  
 
 For varer med kostmetoder, der bruger de faktiske omkostninger som grundlag for værdiansættelsen (**FIFO**, **LIFO**, **Gennemsnit**, eller **Specifik**), værdiansættes lagerforøgelser til varens anskaffelsesomkostninger.  
 
@@ -72,11 +66,11 @@ For varer med kostmetoder, der bruger de faktiske omkostninger som grundlag for 
 
     For varer, der bruger kostmetoden **Standard**, værdiansættes lagerforøgelser til varens aktuelle standardkostpris.  
 
-#### <a name="standard"></a>Standard  
+#### Standard  
 
 For varer, der bruger kostmetoden **Standard**, værdiansættes lagerforøgelser til varens aktuelle standardkostpris.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Kostmetoders indflydelse på værdiansættelse af lagerreduktioner
+### Kostmetoders indflydelse på værdiansættelse af lagerreduktioner
 
 - **FIFO**  
 
@@ -144,7 +138,7 @@ For varer, der bruger kostmetoden **Standard**, værdiansættes lagerforøgelser
     |03-01-20|-1|-10,00|**1**|5|  
     |04-01-20|-1|-30,00|**3**|6|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
  [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
  [Designoplysninger: Afvigelse](design-details-variance.md)   

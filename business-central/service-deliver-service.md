@@ -1,22 +1,16 @@
 ---
 title: Oversigt over opgaver til levering af service | Microsoft Docs
-description: Beskriver opgaver, hvor du kan sikre, at du leverer kvalitetsservice og leverer op til aftaler med kunderne.
+description: 'Beskriver opgaver, hvor du kan sikre, at du leverer kvalitetsservice og leverer op til aftaler med kunderne.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, service items, respond, response
+ms.search.keywords: 'service, service items, respond, response'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e44033b067ab51e17925330618f954294252177b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077810"
 ---
-# <a name="delivering-service"></a>Levering af service
+# Levering af service
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder funktioner, der kan hjælpe dig med at levere service i henhold til de kontrakter, der er oprettet, og de serviceordrer, virksomheden har forpligtet sig til at opfylde. Virksomhedens serviceteknikere eller serviceekspedient vil se, at udestående serviceordrer er lette at finde, når de bruger **Ordreoversigt**. **Ordreoversigten** giver et samlet overblik over, hvilke ordrer der er igangsat, og hvilke ordrer der er fuldført.  
   
 De udestående serviceordrer kan også findes ved hjælp af siden **Serviceopgaver**. I denne oversigt over virksomhedens serviceforpligtelser kan du se, hvor i serviceprocessen en ordre befinder sig, og ændre statussen, så den afspejler interaktion med kunden.  
@@ -39,7 +33,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Oprette og bogføre fakturaer for serviceydelser, du har leveret.|[Oprette servicefakturaer eller -kreditnotaer](service-how-create-invoices.md)|  
 |Sørge for tilfredse kunder ved at låne dem en vare, mens du arbejder på deres.| [Udlåne og modtage udlånsvarer](service-how-to-lend-receive-loaners.md)|
   
-## <a name="see-also"></a>Se også  
+## Se også  
 [Planlægning af service](service-plan-service.md)  
 [Opfylde servicekontrakter](service-fulfill-service-contracts.md)  
 [Administrere projekter](projects-manage-projects.md)  

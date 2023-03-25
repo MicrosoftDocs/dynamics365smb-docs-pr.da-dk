@@ -7,17 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.search.forms: 1060, 1061, 1062
+ms.search.forms: '1060, 1061, 1062'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5b2ae63fea8f6ad477478eff6d876a0779d165ee
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530509"
 ---
-# <a name="enable-customer-payments-through-payment-services"></a>Aktivere debitorbetalinger via betalingstjenester
+# Aktivere debitorbetalinger via betalingstjenester
 
 Som et alternativ til opkrævning af betalinger via bankoverførsel eller kreditkort kan dine kunder betale dig via deres konto hos betalingstjenester som PayPal eller WorldPay.  
 
@@ -25,7 +19,7 @@ Når du har aktiveret en betalingstjeneste i [!INCLUDE[prod_short](includes/prod
 
 PayPal Payments Standard- og WorldPay Payments Standard-udvidelserne installeres i [!INCLUDE[prod_short](includes/prod_short.md)] og er klar til aktivering.  
 
-## <a name="to-enable-a-payment-service-in-prod_short"></a>Sådan aktiverer du en betalingstjeneste i [!INCLUDE[prod_short](includes/prod_short.md)]
+## Sådan aktiverer du en betalingstjeneste i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingstjenester**, og vælg derefter det relaterede link.  
 2. På siden **Betalingstjenester** skal du vælge handlingen **Ny**.  
@@ -34,7 +28,7 @@ PayPal Payments Standard- og WorldPay Payments Standard-udvidelserne installeres
 5. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 6. Luk siden.  
 
-## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Sådan vælger du en betalingstjeneste på en salgsfaktura
+## Sådan vælger du en betalingstjeneste på en salgsfaktura
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsfakturaer**, og vælg derefter det relaterede link.  
 2. Åbn den faktura, du vil betale med betalingstjenesten.  
@@ -43,9 +37,9 @@ PayPal Payments Standard- og WorldPay Payments Standard-udvidelserne installeres
     > [!NOTE]  
     > Feltet **Betalingstjeneste** er kun tilgængeligt, hvis du har aktiveret betalingstjenesten.  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/cash-management-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/modules/cash-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  

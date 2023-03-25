@@ -1,23 +1,17 @@
 ---
 title: Konfigurere anlægsaktiver
-description: Få mere at vide om den række af opgaver, du skal udføre for at oprette anlægsaktiver, f.eks. maskiner eller bygninger.
+description: 'Få mere at vide om den række af opgaver, du skal udføre for at oprette anlægsaktiver, f.eks. maskiner eller bygninger.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: machinery, buildings
+ms.search.keywords: 'machinery, buildings'
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d537d22d3273c2185016904779eab0ff030d201
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530239"
 ---
-# <a name="setting-up-fixed-assets"></a>Opsætning af anlægsaktiver
+# Opsætning af anlægsaktiver
 
 Før du kan arbejde med anlægsaktiver, skal du angive et par ting:  
 
@@ -42,9 +36,9 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Få mere at vide om forskellige afskrivningsmetoder for anlægsaktiver. |[Afskrivningsmetoder](fa-depreciation-methods.md) |
 | Få mere at vide om, hvordan du anvender brugerdefinerede afskrivningsmetoder. |[Sådan konfigureres brugerdefinerede afskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/set-up-fixed-assets-management/)
+## Se relateret [Microsoft-træning](/training/paths/set-up-fixed-assets-management/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Anlægsaktiver](fa-manage.md)  
 [Finans](finance.md)  

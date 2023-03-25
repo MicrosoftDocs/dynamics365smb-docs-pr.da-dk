@@ -1,22 +1,16 @@
 ---
 title: Designoplysninger – Design af varesporing
-description: I dette emne beskrives designet bag varesporing i Business Central, sådan som det har udviklet sig gennem produktversionerne.
+description: 'I dette emne beskrives designet bag varesporing i Business Central, sådan som det har udviklet sig gennem produktversionerne.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, item, tracking, tracing
+ms.search.keywords: 'design, item, tracking, tracing'
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 626d22b4a45035698862c727547b332c898508af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141329"
 ---
-# <a name="design-details-item-tracking-design"></a>Designoplysninger: Design af varesporing
+# Designoplysninger: Design af varesporing
 
 Varesporing i [!INCLUDE[prod_short](includes/prod_short.md)], der er startet med [!INCLUDE [navnow_md](includes/navnow_md.md)]. Varesporingsfunktionen findes i en separat objektstruktur med komplicerede links til bogførte dokumenter og vareposter, og den er integreret i reservationssystemet, som håndterer reservation, ordresporing og aktionsmeddelelser. Du kan få flere oplysninger i [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md) i designdetaljerne for Forsyningsplanlægning.  
 
@@ -39,7 +33,7 @@ Kodeenhed 22 **Varekladde – Bogfør linje** opdeler nu bogføringen i overenss
 
 Du kan finde flere oplysninger i [Designoplysninger: Bogføringsstruktur for varesporing](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Designoplysninger: Varesporing](design-details-item-tracking.md)
 

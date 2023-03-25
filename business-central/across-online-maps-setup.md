@@ -1,30 +1,24 @@
 ---
 title: Opsætning af onlinekort
-description: Flere oplysninger om, hvordan du konfigurerer Business Central til at tilbyde vejledning og oplysninger om steder med en onlinekort-tjeneste.
+description: 'Flere oplysninger om, hvordan du konfigurerer Business Central til at tilbyde vejledning og oplysninger om steder med en onlinekort-tjeneste.'
 author: rubenseishima
 ms.service: dynamics365-business-central
 ms.topic: article
-ms.search.form: 800, 804
+ms.search.form: '800, 804'
 ms.date: 07/15/2022
 ms.author: a-reishima
-ms.openlocfilehash: 1fe92e5ba9ba28e8999e5f8487048f9df9d6d14c
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461251"
 ---
-# <a name="set-up-online-maps"></a>Opsætning af onlinekort
+# Opsætning af onlinekort
 
 Hvis du planlægger at besøge en adresse, der er gemt på et kort, f.eks. en kunde, kan du hente et kort fra en onlinekorttjeneste med ruteangivelser på det sprog, du vælger. Hvis denne onlinekorttjeneste skal kunne finde det rigtige kort og vejlede dig korrekt, er du nødt til at vælge indstillinger til det i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="set-up-the-online-map-feature"></a>Konfigurer funktionen onlinekort
+## Konfigurer funktionen onlinekort
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af onlinekort**, og vælg derefter det relaterede link.
 2. På siden **Opsætning af onlinekort** skal du udfylde følgende felter. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 3. Aktivér **Aktiveret**-feltet til/fra.
 
-### <a name="customize-the-online-map-provider-features"></a>Tilpasning af funktioner til onlinekort-udbyder
+### Tilpasning af funktioner til onlinekort-udbyder
 
 Hvis du vil tilpasse funktionen Onlinekort ud over de indstillinger, der vises på siden **Opsætning af onlinekort**, eller du vil bruge en anden kortudbyder, skal du følge disse trin:
 
@@ -33,7 +27,7 @@ Hvis du vil tilpasse funktionen Onlinekort ud over de indstillinger, der vises p
 3. Udfyld felterne for at tilpasse, hvordan [!INCLUDE[prod_short](includes/prod_short.md)] genererer URL-adresserne til de tilgængelige tjenester. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
    * Se **Erstatningsparameter til onlinekort** i ruden **Faktaboks** for de data, der er tilgængelige for oprettelse af URL-adresser.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bruge online kort til at finde steder og vejledninger](across-online-maps.md)  
 [Blive køreklar](ui-get-ready-business.md)  

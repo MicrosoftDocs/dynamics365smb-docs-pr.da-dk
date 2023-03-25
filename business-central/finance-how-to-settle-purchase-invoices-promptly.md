@@ -1,26 +1,20 @@
 ---
 title: Afregne købsfakturaer omgående
-description: Hvis det er nødvendigt at betale kreditoren kontant eller med check, kan du få ordnet bogføringen, når du bogfører fakturaen.
+description: 'Hvis det er nødvendigt at betale kreditoren kontant eller med check, kan du få ordnet bogføringen, når du bogfører fakturaen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.search.form: 51, 9308
+ms.search.form: '51, 9308'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8386d5e52086f1a291529d828b66163c5d2851d3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516287"
 ---
-# <a name="settle-purchase-invoices-promptly"></a>Afregne købsfakturaer omgående
+# Afregne købsfakturaer omgående
 
 Hvis det er nødvendigt at betale kreditoren kontant eller med check, kan du bogføre betalingen, når du bogfører fakturaen.  
 
 > [!NOTE]  
 > Hvis du ofte afregner købsfakturaer kontant, med check eller bankoverførsel, kan det muligvis svare sig at oprette en specifik betalingsform med en tilknyttet modkonto og angive betalingsformen i feltet **Betalingsform** på kreditorkortet. Modkontonummeret indsættes automatisk på fakturahovedet, hver gang du opretter en ny faktura. Du kan finde flere oplysninger i [Definere betalingsmetoder](finance-payment-methods.md).  
 
-## <a name="to-settle-purchase-invoices-promptly"></a>Sådan afregnes købsfakturaer omgående
+## Sådan afregnes købsfakturaer omgående
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -31,7 +25,7 @@ Hvis det er nødvendigt at betale kreditoren kontant eller med check, kan du bog
 >
 > Denne tilpasning er kun nødvendig, hvis du ikke angiver modkonti ved betalingsmetoderne som beskrevet ovenfor.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Køb](purchasing-manage-purchasing.md)  

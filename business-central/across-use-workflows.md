@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 1500, 1501, 1503, 1504, 1505
+ms.search.keywords: null
+ms.search.form: '1500, 1501, 1503, 1504, 1505'
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 4b4a46071173c7371a306570227be5fffebd36d6
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585779"
 ---
-# <a name="use-approval-workflows"></a>Bruge godkendelsesworkflows
+# Bruge godkendelsesworkflows
 
 Et workflow er en række opgaver, der udløses af en handling, en betingelse eller en regel. Workflows implementeres som regel med henblik på at integrere forretningslogikken i en virksomhed, f. eks. adskillelse af opgaver, samling af opgaver eller anvendelse af bedste praksis.
 
@@ -70,9 +64,9 @@ Inden du kan bruge workflows, skal du oprette arbejdsgangbrugere, oprette workfl
 | Vis forekomsten af workflowtrin med statussen **Afsluttet**. | [Vise arkiverede forekomster af workflowtrin](across-how-to-view-archived-workflow-step-instances.md) |
 | Slet et godkendelsesworkflow, som du er sikker på ikke længere bruges. | [Slette godkendelsesworkflows](across-how-to-delete-workflows.md) |
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/create-workflows/)
+## Se relateret [Microsoft-træning](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere godkendelsesworkflows](across-set-up-workflows.md)  
 [Workflow](across-workflow.md)  

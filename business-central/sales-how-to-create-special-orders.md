@@ -1,22 +1,16 @@
 ---
 title: Sådan oprettes specialordrer
-description: Du kan oprette en specialordre på en bestemt katalogvare, der skal sendes til en bestemt kunde.
+description: 'Du kan oprette en specialordre på en bestemt katalogvare, der skal sendes til en bestemt kunde.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: ba0a00ecb2a0a4ed5f11cf9b898b0ae9aee6edf9
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528835"
 ---
-# <a name="create-special-orders"></a>Oprette specialordrer
+# Oprette specialordrer
 
 Du kan oprette en specialordre på en bestemt katalogvare, der skal sendes til en bestemt kunde. Din leverandør sender varen til dit lagersted, og derfra kan du levere varen til debitoren, enten alene eller sammen med andre varer fra en anden ordre.  
 
@@ -24,7 +18,7 @@ Specialordrer medfører, at købs- og salgsordrer sammenkædes for at sikre, at 
 
 Før du kan bruge denne funktion, skal du oprette den kunde, den leverandør, og det varekort, som skal bruges i ordren.  
 
-## <a name="to-create-a-special-order"></a>Sådan oprettes en specialordre
+## Sådan oprettes en specialordre
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordre**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. Opret og udfyld en  salgsordre for varen. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).
@@ -44,9 +38,9 @@ En indkøbsordre, der er oprettet som en specialordre for en salgsordre, respekt
 > [!NOTE]  
 >  Du kan ikke bruge funktionen til specialordre, hvis varen allerede er reserveret. For varer, der sælges på specialordrer, skal du derfor sørge for, at feltet **Reserver** på varekortet ikke er angivet til **Altid**.  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md)  
 [Salg](sales-manage-sales.md)  

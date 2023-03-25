@@ -1,22 +1,16 @@
 ---
 title: Håndter lager- og produktionsomkostninger
-description: Lære, hvordan et antal felter, sider og rapporter henvender sig til brugere, som direkte eller indirekte administrerer omkostningerne til varer eller operationer.
+description: 'Lære, hvordan et antal felter, sider og rapporter henvender sig til brugere, som direkte eller indirekte administrerer omkostningerne til varer eller operationer.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b911692aa899eac88b74322e21454c87659a75a8
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605565"
 ---
-# <a name="handling-inventory-and-manufacturing-costs"></a>Håndtere lager- og produktionsomkostninger
+# Håndtere lager- og produktionsomkostninger
 
 Selvom meget af funktionaliteten i omkostningsberegningen er udtrykt i underliggende processer, der ikke kræver brugermedvirken, f.eks. efterudligning og automatisk kostregulering, er en række felter, sider og rapporter beregnet til brugere, som direkte eller indirekte styrer varepriser eller drift.  
 
@@ -35,7 +29,7 @@ Selvom meget af funktionaliteten i omkostningsberegningen er udtrykt i underligg
 |Fortryde en vareudligning manuelt eller udligne automatisk oprettede vareposter igen.|[Fjerne og genanvende vareposter](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Brug feltet **Udlign fra-post** i varekladden til manuelt at oprette en fast udligning mellem en indgående transaktion og den oprindelige udgående transaktion.|[Lukke åbne vareposter, der fremkommer ved fast udligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)

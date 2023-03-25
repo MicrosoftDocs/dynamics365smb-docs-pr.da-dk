@@ -6,20 +6,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: resources, allocation, status, repairs
+ms.search.keywords: 'resources, allocation, status, repairs'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ad74f4cd5049943fc3006ea66ab377b519012892
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382579"
 ---
-# <a name="allocation-status-and-repair-status-of-service-items"></a>Allokeringsstatus og reparationsstatus for serviceartikler
+# Allokeringsstatus og reparationsstatus for serviceartikler
 Der er en særlig relation mellem serviceartiklernes reparationsstatus og allokeringsposternes allokeringsstatus for serviceartiklerne i Service. Allokeringsstatus ændres, når du ændrer reparationsstatus for serviceartiklen til **Udført** eller **Delvist repareret**, og når du konverterer et servicetilbud til en serviceordre. Reparationsstatus for serviceartiklen ændres, når du annullerer serviceartikelallokeringen eller genallokerer serviceartiklen til en anden ressource. Du kan få vist reparationsstatus for serviceartiklerne på siden **Serviceopgaver**, og du kan opdatere reparationsstatussen i feltet **Reparationsstatuskode** på siden **Serviceartikelkladde**. Du kan få vist allokeringsstatus i feltet **Status** på siden **Ressourceallokeringer**.  
   
-## <a name="changing-repair-status"></a>Ændre reparationsstatus  
+## Ændre reparationsstatus  
 Når du ændrer reparationsstatus for en serviceartikel på en serviceartikellinje, søges der automatisk efter en tilsvarende allokeringspost for serviceartiklen, som har status **Aktiv**. Hvis der bliver fundet en sådan allokeringspost, opdateres dens status på en af følgende måder:  
   
 * Hvis du ændrer reparationsstatus til **Udført**, ændres allokeringsstatus automatisk fra **Aktiv** til **Udført**.  
@@ -29,14 +23,14 @@ Når du ændrer reparationsstatus for en serviceartikel på en serviceartikellin
   
 Allokeringsstatus viser, hvornår reparationsprocessen er afsluttet, eller hvornår det er nødvendigt, at en anden ressource gør reparationen af serviceartiklen færdig.  
   
-## <a name="converting-service-quotes-to-service-orders"></a>Konvertere servicetilbud til serviceordrer  
+## Konvertere servicetilbud til serviceordrer  
 Når du konverterer et servicetilbud til en serviceordre, opdateres serviceordren og serviceartiklerne i ordren samt de tilhørende allokeringsposter på følgende måde:  
   
 * Serviceartiklernes reparationsstatus ændres til **Oprettet**  
 * Serviceordrens status ændres til **Igangsat**.  
 * Der søges automatisk efter allokeringsposter for alle de serviceartikler i serviceordren, der har status **Aktiv**. Hvis der bliver fundet sådanne allokeringsposter, ændres deres allokeringsstatus fra **Aktiv** til **Genallokering nødvendig**.  
   
-## <a name="canceling-allocations"></a>Annullere allokeringer  
+## Annullere allokeringer  
 Når du annullerer en allokering for en serviceartikel, opdaterer [!INCLUDE[prod_short](includes/prod_short.md)] allokeringsstatus for den tilsvarende allokeringspost fra **Aktiv** til **Genallokering nødvendig**.
 
 Serviceartiklens reparationsstatus i allokeringsposten opdateres på følgende måde:  
@@ -44,7 +38,7 @@ Serviceartiklens reparationsstatus i allokeringsposten opdateres på følgende m
 * Hvis reparationsstatus er **Oprettet**, ændres reparationsstatus automatisk til **Henvist** (der er ikke påbegyndt nogen reparation).  
 * Hvis reparationsstatus er **I arbejde**, ændres reparationsstatus til **Delvist repareret** (en del af reparationen er udført).  
   
-## <a name="reallocating-an-active-allocation-entry"></a>Genallokere en aktiv allokeringspost  
+## Genallokere en aktiv allokeringspost  
 Når du genallokerer en serviceartikel i en allokeringspost, som er **Aktiv**, opdateres allokeringsposten automatisk på følgende måder:  
   
 * Hvis reparationen blev startet, da allokeringen var **Aktiv** (dvs. hvis reparationsstatus for serviceartiklen i posten blev ændret til **I arbejde**), ændres allokeringsstatus automatisk fra **Aktiv** til **Udført**.  
@@ -57,7 +51,7 @@ Reparationsstatus for serviceartiklen i allokeringsposten bliver automatisk opda
   
 Der oprettes en ny allokeringspost, som indeholder den nye ressource og har statussen **Aktiv**.  
   
-## <a name="reallocating-a-service-item"></a>Genallokere en serviceartikel  
+## Genallokere en serviceartikel  
 Når du genallokerer en serviceartikel i en allokeringspost, der har statussen **Genallokering nødvendig**, opdateres allokeringsposten automatisk på følgende måder:  
   
 * Hvis reparationen blev startet, da allokeringen var **Aktiv** (dvs. hvis reparationsstatus for serviceartiklen i posten blev ændret til **I arbejde**), ændres allokeringsstatus automatisk fra **Genallokering nødvendig** til **Udført**.  
@@ -65,7 +59,7 @@ Når du genallokerer en serviceartikel i en allokeringspost, der har statussen *
   
 Der oprettes en ny allokeringspost, som indeholder den nye ressource og har statussen **Aktiv**.  
   
-## <a name="see-also"></a>Se også  
+## Se også  
 [Opsætte ressourceallokeringer](service-how-setup-resource-allocation.md)  
 [Allokere ressourcer](service-how-to-allocate-resources.md)  
 

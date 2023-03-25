@@ -1,6 +1,6 @@
 ---
 title: Velkommen Microsoft Dynamics 365 Business Central
-description: Få mere at vide om egenskaber og arbejdsscenarier i Business Central, som kan hjælpe virksomheder med at styre deres virksomhed, herunder finansiering, produktion, salg, levering, projektstyring, Services og meget mere.
+description: 'Få mere at vide om egenskaber og arbejdsscenarier i Business Central, som kan hjælpe virksomheder med at styre deres virksomhed, herunder finansiering, produktion, salg, levering, projektstyring, Services og meget mere.'
 author: edupont04
 ms.topic: landing-page
 ms.devlang: na
@@ -8,14 +8,8 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 139ecb336cbfa637ad723322dad2b205050864b4
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604971"
 ---
-# <a name="welcome-to-prod_long"></a>Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]
+# Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er en forretningsledelsesløsning, som hjælper små og mellemstore virksomheder med at automatisere og strømline forretningsprocesserne og hjælper dig med at administrere din virksomhed. Med dets mange funktioner og rige tilpasningsmuligheder giver [!INCLUDE[prod_short](includes/prod_short.md)] virksomheden mulighed for at styre forretningsaspekter, herunder bl.a. finans, produktion, salg, levering, projektstyring og service. Virksomheden kan nemt tilføje funktioner, der er relevante for driftsområdet, også funktioner, der er tilpasset højt specialiserede brancher. [!INCLUDE[prod_short](includes/prod_short.md)] er hurtig at implementere, nem at konfigurere, og enkelhed er kendetegnende for nyskabelser i produktdesign, udvikling, implementering og anvendelighed.  
 
@@ -28,7 +22,7 @@ Hvis du allerede har [!INCLUDE[prod_short](includes/prod_short.md)], skal du log
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## <a name="microsoft-learn"></a>Microsoft Learn
+## Microsoft Learn
 
 I navigationspanelet til venstre kan du finde oplysninger om brugen af [!INCLUDE[prod_short](includes/prod_short.md)] i din virksomhed. Du kan finde links til beskrivelser af de mest almindeligt brugte funktioner i sektionen [Forretningsprocesser](#business-processes). Se også [Flere oplysninger om brug af afsnittet Produktdokumentation](product-help-and-support.md#learn-more-using-the-product-documentation).
 
@@ -41,7 +35,7 @@ Du kan også [besøge vores videobibliotek](across-videos.md) eller starte med [
 
 Følgende afsnit peger på nøgleartikler, som du kan bruge til at få kendskab til [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="business-processes"></a>Forretningsprocesser
+## Forretningsprocesser
 
 - [Blive køreklar](ui-get-ready-business.md)
 - [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
@@ -63,12 +57,12 @@ Følgende afsnit peger på nøgleartikler, som du kan bruge til at få kendskab 
   - [Produktionsplanlægning](production-planning.md)
   - [Montagestyring](assembly-assemble-items.md)
   - [Produktion](production-manage-manufacturing.md)
-  - [Logistik](warehouse-manage-warehouse.md)
+  - [Oversigt over logistik](design-details-warehouse-management.md)  
   - [Service Management](service-service.md)
   - [Generelle forretningsfunktioner](ui-across-business-areas.md)
   - [Lokal funktionalitet](about-localization.md)
 
-## <a name="development-and-administration-content"></a>Udvikling og administration, indhold
+## Udvikling og administration, indhold
 
 - [Udvikling og administration](/dynamics365/business-central/dev-itpro/index)
 - [Prøveversioner og abonnementer](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
@@ -76,13 +70,13 @@ Følgende afsnit peger på nøgleartikler, som du kan bruge til at få kendskab 
 - [AL-udviklingsmiljø](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Regler og retningslinjer for AL-kode](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
-## <a name="microsoft-learn-training"></a>Microsoft Learn-træning
+## Microsoft Learn-træning
 
 Find gratis e-learning-indhold til [!INCLUDE[prod_short](includes/prod_short.md)] på [Microsoft Learn-træning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
 Du kan også se videoer af nye og ofte anvendte funktioner i vores videobibliotek. Du kan finde flere oplysninger i [Besøg vores videobibliotek](across-videos.md).  
 
-## <a name="community-resources"></a>Community-ressourcer
+## Community-ressourcer
 
 - [Microsoft Dynamics 365 Business Central Community](https://community.dynamics.com/business)
 - [Microsoft Dynamics 365 Business Central på Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)
@@ -90,13 +84,13 @@ Du kan også se videoer af nye og ofte anvendte funktioner i vores videobibliote
 - [Microsoft Dynamics 365 Business Central-oversigt](https://dynamics.microsoft.com/roadmap/business-central/)
 - [Microsoft Partnernetværk \(kræver medlemskabskonto til Microsoft Partnernetværk\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Få besked om ændringer via en RSS-fødning
+## Få besked om ændringer via en RSS-fødning
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## <a name="see-related-microsoft-learn-training"></a>Se relateret [Microsoft Learn-træning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+## Se relateret [Microsoft Learn-træning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Dynamics 365 Business Central-træning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Hurtig start af Business Central](quick-start-business-central.md)  

@@ -3,13 +3,8 @@ author: jill-kotel-andersson
 ms.topic: include
 ms.date: 09/27/2021
 ms.author: edupont
-ms.openlocfilehash: 0adf8b93cd5cfb6349e829ceb88f4f9428892051
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128492"
 ---
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 2.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.  
 2. På siden **Kreditorer** skal du vælge **Ny**.
 

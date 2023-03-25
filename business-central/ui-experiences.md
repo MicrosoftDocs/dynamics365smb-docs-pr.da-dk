@@ -1,23 +1,17 @@
 ---
-title: Ændre, hvilke funktioner der vises
-description: Få mere at vide, hvad niveauerne Essential og Premium i brugeroplevelserne hver især betyder for brugergrænsefladen, funktionalitetsområderne og dit firma.
+title: 'Ændre, hvilke funktioner der vises'
+description: 'Få mere at vide, hvad niveauerne Essential og Premium i brugeroplevelserne hver især betyder for brugergrænsefladen, funktionalitetsområderne og dit firma.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: essential, basic, user interface, application area, experience
+ms.search.keywords: 'essential, basic, user interface, application area, experience'
 ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b3e053bf59a9019b9f736e24936f0e9a68a5daab
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521672"
 ---
-# <a name="change-which-features-are-displayed"></a>Ændre, hvilke funktioner der vises
+# Ændre, hvilke funktioner der vises
 [!INCLUDE[prod_short](includes/prod_short.md)] er designet til at hjælpe dig med at køre din virksomhed uanset størrelse og kompleksitet. I kernen af produktet finder du væsentlige funktioner som f.eks. finansiel rapportering, salg, køb og lagerstyring. I takt med at kompleksiteten øges, kan du f.eks. aktivere funktionen til produktions- og servicestyring.
 
 Du kan definere niveauet for produktkompleksiteten, og dermed hvilke funktioner virksomhedens brugere får adgang til, ved at ændre indstillingen **Oplevelse** på siden **Virksomhedsoplysninger**. Bemærk, at indstillingen Oplevelse også kan ændres ved at tilføje visse udvidelser fra AppSource. Du kan finde flere oplysninger i [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md).
@@ -38,10 +32,10 @@ Før du angiver en indstilling for en virksomheds oplevelse, skal du angive brug
 
 Indstillingen **Oplevelse** gælder for alle brugere i en virksomhed, men de enkelte brugere kan tilpasse deres egne oplevelser yderligere ved at ændre sidelayout og indhold. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
-## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Aktivere Premium-funktioner, når du har opgraderet en plan
+## Aktivere Premium-funktioner, når du har opgraderet en plan
 Brugere tildeles til planer i Microsoft 365 Administration i forbindelse med generelt arbejde for at oprette Business Central-brugere. Du kan finde flere oplysninger i [Tilføje brugere og tildele licenser på samme tid](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
-### <a name="to-update-plan-changes-in-users-groups"></a>Sådan opdateres planændringer i brugergrupper
+### Sådan opdateres planændringer i brugergrupper
 Når du har ændret brugerplaner i Microsoft 365 Administration, f.eks. tildelt flere brugere til Premium-planen, skal du afspejle ændringen i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 1. Log på som administrator.
@@ -50,15 +44,15 @@ Når du har ændret brugerplaner i Microsoft 365 Administration, f.eks. tildelt 
 
 Alle nye oplysninger om planer for brugere og de tilknyttede brugergrupper opdateres nu i overensstemmelse med ændringerne i planen.
 
-### <a name="to-select-the-premium-experience"></a>Sådan vælges Premium-oplevelsen
+### Sådan vælges Premium-oplevelsen
 Du kan nu fortsætte med at vælge den nye oplevelse.
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, åbn **Virksomhedsoplysninger**, og vælg derefter det relaterede link.
 2. Vælg Premium i feltet **Oplevelse** i oversigtspanelet **Brugeroplevelse** på siden **Virksomhedsoplysninger**.
 
-## <a name="help-assumes-premium-experience"></a>Hjælpen forudsætter Premium-oplevelse
+## Hjælpen forudsætter Premium-oplevelse
 Alle beskrivelser af funktioner i dokumentationen til [!INCLUDE[prod_short](includes/prod_short.md)] antager **Premium**-oplevelsen, hvilket betyder, at beskrivelserne dækker det fulde omfang af elementerne i brugergrænsefladen.
 
-## <a name="see-also"></a>Se også
+## Se også
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)  
 [Tilpasse Business Central](ui-customizing-overview.md)  
 [Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  

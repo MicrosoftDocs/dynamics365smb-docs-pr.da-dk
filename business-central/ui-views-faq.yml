@@ -1,113 +1,119 @@
 ### YamlMime:FAQ
 metadata:
-  title: Ofte stillede spørgsmål om listevisninger
-  description: Denne artikel besvarer dine ofte stillede spørgsmål om listevisninger og indeholder detaljerede oplysninger om at gemme og arbejde med filtre som listevisninger.
+  title: Frequently Asked Questions about List Views
+  description: This article answers your FAQ about List Views and offers detailed information about saving and working with filters as List Views.
   author: mikebcMSFT
   ms.topic: faq
   ms.devlang: na
   ms.tgt_pltfrm: na
   ms.workload: na
-  ms.search.keywords: list, filter, pane, views
+  ms.search.keywords: 'list, filter, pane, views'
   ms.date: 08/09/2022
   ms.author: mikebc
-  ms.openlocfilehash: ff5b79e1aeb7954712dc624cef9a6bbaf486279f
-  ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-  ms.translationtype: HT
-  ms.contentlocale: da-DK
-  ms.lasthandoff: 09/30/2022
-  ms.locfileid: "9607630"
-title: Ofte stillede spørgsmål om listevisninger
-summary: I dette emne besvares spørgsmål, som vores erfarne brugere ofte stiller om, hvordan de kan arbejde med listevisninger og gemme filtre.
+title: List Views FAQ
+summary: This article answers questions that our advanced users often ask about working with list views and saving filters.
 sections:
-- name: Ignoreret
-  questions:
-  - question: >
-      Hvordan håndteres udtryk i visninger?
-    answer: >
-      Når du gemmer en visning, der omfatter filtre med udtryk, f.eks. datointervaller, operatorer, nøgleord eller filtertokens, gemmes udtrykket&mdash;og ikke de resulterende værdier. Hvis du f.eks. gemmer en visning, hvor der filtreres på feltet **Oprettelsesdato** med udtrykket `-1W..today`, vil der altid blive fundet poster i forhold til den aktuelle dato, også hvis visningen åbnes næste måned.
-  - question: >
-      Hvor gemmes listevisninger?
-    answer: >
-      På samme måde som når du skjuler et felt eller ændrer på rækkefølgen i din navigationsmenu, er listevisninger en del af brugertilpasningen og gemmes i databasen. Når du rydder alle tilpasninger på en liste, fjernes dine personlige visninger og yderligere tilpasninger, f.eks. ændret rækkefølge i visninger, også permanent. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
-  - question: >
-      Hvorfor har jeg ikke ikonet Gem?
-    answer: >
-      Der er en par årsager til, at du ikke kan se menuen Gem ikon og indstillinger ved siden af visninger i filterruden.
+  - name: Ignored
+    questions:
+      - question: |
+          How do views handle expressions?
+        answer: |
+          When you save a view that includes filters with expressions (like date ranges, operators, keywords, or filter tokens), only the expression gets saved<ph id="ph1">&amp;mdash;</ph>not the resulting values. For example, saving a view that filters on the <bpt id="p1">**</bpt>Created Date<ept id="p1">**</ept> field with the expression <ph id="ph1">`-1W..today`</ph> will always find records related to the current date, even when the view is accessed next month.
+      - question: |
+          Where are list views saved?
+        answer: |
+          Similarly to hiding a field or reordering your navigation menu, list views are a part of user personalization and are stored in the database. Clearing all personalization on a list will also permanently remove your personal views and clear other personalization such as reordering of views. For more information, see <bpt id="p1">[</bpt>Personalize your workspace<ept id="p1">](ui-personalization-user.md)</ept>.
+      - question: |
+          Why don't I have a Save icon?
+        answer: |
+          There's a couple reasons why you might not see the Save icon and options menu alongside views in the filter pane.
 
+          One reason could be that personalization isn't enabled for your user role. In this case, you still have access to system views that are a standard part of the pages. You can modify these views, like changing or adding filters. You just can't save the changes. Another reason could be that the page you're looking at is a <bpt id="p1">*</bpt>worksheet<ept id="p1">*</ept> type page<ph id="ph1">&amp;mdash;</ph>not a list.
+      - question: |
+          On which page types can I use list views?
+        answer: |
+          Views are only available on list pages.
+      - question: |
+          How do I know whether I'm on a list type page?
+        answer: |
+          Use page inspection. To open page inspection, select <bpt id="p1">&lt;kbd&gt;</bpt>Ctrl<ept id="p1">&lt;/kbd&gt;</ept><ph id="ph1">+</ph><bpt id="p2">&lt;kbd&gt;</bpt>Alt<ept id="p2">&lt;/kbd&gt;</ept><ph id="ph2">+</ph><bpt id="p3">&lt;kbd&gt;</bpt>F1<ept id="p3">&lt;/kbd&gt;</ept>. Then, in the <bpt id="p1">**</bpt>Page<ept id="p1">**</ept> field, look for the word <bpt id="p2">**</bpt>List<ept id="p2">**</ept> in the parenthesis at the end.
+      - question: |
+          Are views also available on other form factors?
+        answer: |
+          Yes. Any views you save on your desktop browser or desktop app will also be available on your tablet, smartphone, or when embedded in Microsoft Teams. You can't modify or personalize views on mobile devices.
+      - question: |
+          Are my personal views always accessible?
+        answer: |
+          Your views are available on a list page whether you access it from the navigation menu, using the <bpt id="p1">**</bpt>Tell Me<ept id="p1">**</ept> window, or through a URL link. Views aren't available in list parts, lookups or whenever a list page is displayed as a dialog.
+      - question: |
+          How do I return a view to its original filters after modifying them?
+        answer: |
+          At the bottom of the filter pane, choose the <bpt id="p1">**</bpt>Reset filters<ept id="p1">**</ept> action to clear filter changes you have made to the view and return to its original filtered fields and filter criteria.
+      - question: |
+          What is the difference between hiding and removing views?
+        answer: |
+          Removing a view will permanently delete that view. Hiding a view allows you to temporarily hide it from the filter pane, but you can unhide it again later by choosing the <bpt id="p1">**</bpt>Show<ept id="p1">**</ept> action.
+      - question: |
+          How can I share my views with others?
+        answer: |
+          <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> doesn't provide a way to share the precise list view. But you can share your current filters so that other users can see a similar list of records. In the Business Central Web client, choose a view then use the <bpt id="p1">**</bpt>Copy link<ept id="p1">**</ept> feature to copy the URL to your clipboard. just copy the URL and share it with your colleagues. Sharing filters isn't guaranteed to give the recipient an identical set of filters that you see in your browser.
+      - question: |
+          Can I search for views in the Tell Me window?
+        answer: |
+          No. The <bpt id="p1">**</bpt>Tell Me<ept id="p1">**</ept> window only displays search results for the page, but you're only a step away from getting to your favorite view once you navigate to the page.
+      - question: |
+          What is shared layout?
+        answer: |
+          All views on a list page share a common column layout. The layout includes which columns are displayed, their sequence, width, freeze pane, and quick entry settings. Personalizing any column layout will also affect other views sharing the same layout on the list page.
 
-      En årsag kan være, at tilpasning ikke er aktiveret for din brugerrolle. I dette tilfælde har du stadig adgang til systemvisninger, som er standarddele af siderne. Du kan ændre disse visninger, f.eks. ændre eller tilføje filtre. Du kan ikke gemme ændringerne. En anden årsag kan være, at den side, du ser på, er en side med en *projektmappe*-typeside&mdash;ikke en liste.
-  - question: >
-      På hvilke sidetyper kan jeg bruge listevisninger?
-    answer: >
-      Visninger er kun tilgængelige på liste- og regnearkssider.
-  - question: >
-      Hvordan ved jeg, om jeg er på listetypesiden?
-    answer: >
-      Brug sideinspektion Tryk på Ctrl + Alt + F1 for at åbne side inspektion. Derefter i feltet **Side** skal man se efter ordet **Liste** i parentesen til sidst.
-  - question: >
-      Er visninger også tilgængelige på andre formfaktorer?
-    answer: >
-      Ja. Alle de visninger, du gemmer i browseren eller skrivebordsappen, vil også være tilgængelige på din tablet, smartphone eller hvis integreret i Microsoft Teams. Du kan ikke ændre eller tilpasse visninger på mobilenheder.
-  - question: >
-      Er mine personlige visninger altid tilgængelige?
-    answer: >
-      De samme visninger er tilgængelige på en listeside, hvis du åbner den fra navigationsmenuen, via vinduet **Fortæl mig** eller via et link med URL-adressen på listesiden. Visninger er ikke tilgængelige i listedele, opslag, eller når en listeside vises som en dialogboks.
-  - question: >
-      Hvordan vender jeg tilbage til de oprindelige filtre efter at have redigeret dem?
-    answer: >
-      I bunden af filterruden skal du vælge handlingen **Nulstil filtre** for at fjerne filterændringer, du har foretaget i visningen, og vende tilbage til de oprindeligt filtrerede felter og filterkriterier.
-  - question: >
-      Hvad er forskellen på at skjule og fjerne visninger?
-    answer: >
-      Hvis du fjerner en visning, slettes den permanent. Når du skjuler en visning, kan du midlertidigt skjule den i filterruden, men du kan vise den igen ved at vælge handlingen **Vis**.
-  - question: >
-      Hvordan kan jeg dele mine visninger med andre?
-    answer: >
-      [!INCLUDE[prod_short](includes/prod_short.md)] gør det ikke muligt at dele den nøjagtige listevisning. Men du kan dele dine aktuelle filtre, så andre brugere kan se en tilsvarende liste over poster. Vælg en visning i Business central-webklienten for at bruge funktionen **Kopier link** til at kopiere URL-adressen til Udklipsholder. kopier blot URL-adressen og del den med dine kolleger i desktop-browseren. Ved deling af filtre kan det ikke garanteres, at modtageren får et sæt filtre, der er identisk med dem, du kan se i browseren.
-  - question: >
-      Kan jeg søge efter visninger i vinduet Fortæl mig?
-    answer: >
-      Nej. I vinduet **Fortæl mig** vises kun søgeresultater for siden, men du kan nemt se din foretrukne visning ved at gå til siden.
-  - question: >
-      Hvad er delt layout?
-    answer: >
-      Alle visninger på en listeside har samme kolonneformat. Layoutet viser, hvilke kolonner der vises, deres rækkefølge, bredde, Frys rude og indstillinger for hurtig post. Tilpasningen af kolonnelayoutet påvirker også andre visninger, som deler det samme layout på listesiden.
+          Some system views can have unique layouts of the columns in the list. For example, they could rearrange columns to display only the columns most relevant to that view. You can identify which views have unique layouts by choosing the <bpt id="p1">![</bpt>Show more options<ept id="p1">](media/show-more-options-icon.png "|::ref1::|")</ept> icon and observing that the <bpt id="p2">**</bpt>Shared layout<ept id="p2">**</ept> check box isn't selected. As a user, you can personalize the column layout for a view with unique layout without it affecting any of the other views on the list page. Only developers can define a unique column layout for a view that initially has a shared layout.
+      - question: |
+          What does the Show System Filters link do?
+        answer: |
+          On some list pages, the filter pane displays <bpt id="p1">**</bpt>Show system filters<ept id="p1">**</ept> at the bottom, specifically when the page includes filters specified by the system. These special filters are typically used to display records based on the current context. An example would be when an orders list has to be filtered for a specific customer.
 
+          System filters are set by application developers, which they set using filter group 0. For more information about system filters, see <bpt id="p1">[</bpt>FilterGroup Method<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method)</ept>.
+      - question: |
+          I see multiple views on my page, but I didn't create them. Where did they come from?
+        answer: |
+          The views you see on any list are a combination of your personal views together with system views. System views may originate from the business application, from extensions, or may be role-specific if the list was customized for your role.
+      - question: |
+          Why do some views provide fewer options?
+        answer: |
+          Some views only provide the option to save a copy of the view, while others don't allow saving changes to the view. How the view was created determines the options available to that view. Views can be created in multiple ways:
 
-      Nogle systemvisninger kan have entydige layout af kolonnerne på listen. De kan f.eks. omarrangere kolonnerne, så kun de kolonner, der er mest relevante for den pågældende visning, er synlige. Du kan finde ud af, hvilke visninger der har entydige layout, ved at vælge ikonet ![Vis flere indstillinger](media/show-more-options-icon.png "Vis flere indstillinger") og se efter, at afkrydsningsfeltet **Delt layout** ikke er markeret. Som bruger kan du tilpasse kolonnelayoutet for en visning med unikt layout, uden at det påvirker andre visninger på listesiden. Kun udviklere kan definere et entydigt kolonneformat for en visning, der til at begynde med har et delt layout.
-  - question: >
-      Hvad gør linket Vis systemfiltre?
-    answer: >
-      På nogle listesider viser filterruden **Vis systemfiltre** nederst i filterruden, når siden indeholder filtre, der er angivet af systemet. Disse Special filtre bruges typisk til at vise poster baseret på den aktuelle kontekst. Et eksempel kan være, når en Ordreoversigt skal filtreres for en bestemt kunde.
+          - Personal views that you saved
+          - System views that are a standard part of the business application, or added by extensions or role-specific views. Unlike personal views, you can't save changes to filters back to that system view.
+          - Legacy system views that are a standard part of the business application but were created using older versions of <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>. These views offer fewer options. You can only save them as a new view and can't hide or reorder them either. Legacy system views will be discontinued in a future update to <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>.
 
+          > [!NOTE]
+          > Starting with Business Central 2023 release wave 2, legacy views will no longer be supported, and won't be displayed in the list page. Learn technical details about how developers can migrate to modern list views at <bpt id="p1">[</bpt>Migrating from Legacy Views to Modern Views<ept id="p1">](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy)</ept>. 
+      - question: |
+          How do I get past limitations of legacy system views?
+        answer: |
+          Legacy system views are list views that were created by developers in older versions of <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> by placing them on the Role Center page. These views are now displayed directly on the list page but offer a degraded experience and fewer options. You can convert a legacy system view to a personal view that is fully customizable, simply by saving that legacy view as a new view. Similarly, administrators can choose to convert role-specific legacy system views by customizing the user role and saving the legacy view as a new role-specific view.
 
-      Systemfiltre indstilles af udviklere ved hjælp af filtergruppe 0. Tekniske oplysninger om systemfiltre finder du i [Filtergruppetyper](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-filtergroup-method).
-  - question: >
-      Der er flere visninger på min side, men jeg har ikke oprettet dem. Hvor kommer de fra?
-    answer: >
-      De visninger, du kan se på en liste, er en kombination af dine personlige visninger og systemvisninger. Systemvisninger kan stamme fra forretningsprogrammet, fra udvidelser eller kan være rollespecifikke, hvis listen er tilpasset til din rolle.
-  - question: >
-      Hvorfor har nogle visninger færre indstillinger?
-    answer: "Nogle visninger giver kun mulighed for at gemme en kopi af visningen, mens det i andre tilfælde ikke er muligt at gemme ændringer af visningen. Den måde, visningen er oprettet på, bestemmer de indstillinger, der er tilgængelige for den pågældende visning. Visninger kan oprettes på flere måder:\n\n- Personlige visninger, du har gemt\n- Systemvisninger, som er en standarddel af forretningsprogrammet, eller som er tilføjet af udvidelser eller rollespecifikke visninger. I modsætning til personlige visninger kan du ikke gemme ændringer af filtre i den pågældende systemvisning.\n- Ældre systemvisninger, som er en standarddel af forretningsprogrammet, men som er oprettet med ældre versioner af [!INCLUDE[prod_short](includes/prod_short.md)]. Disse visninger giver færre valgmuligheder. Du kan kun gemme dem som en ny visning og kan ikke skjule dem eller ændre rækkefølgen for dem. Ældre systemvisninger bliver udeladt i en fremtidig opdatering af [!INCLUDE[prod_short](includes/prod_short.md)].\n\n> [!NOTE]\n> Fra og med Business central 2023 udgivelsesbølge 2 understøttes ældre visninger ikke længere, og de vil ikke blive vist på listesiden. Lær tekniske detaljer om, hvordan udviklere kan overflytte til moderne listevisninger ved at [overflytte fra ældre visninger til moderne visninger](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). \n"
-  - question: >
-      Hvordan får jeg tidligere begrænsninger fra ældre systemvisninger?
-    answer: >
-      Ældre systemvisninger er listevisninger, der er oprettet af udviklere i ældre versioner af [!INCLUDE[prod_short](includes/prod_short.md)] ved at placere dem på rollecentersiden. Disse visninger vises nu direkte på listesiden, men giver en forringet oplevelse og færre muligheder. Du kan konvertere en ældre systemvisning til en personlig visning, som kan tilpasses, ved at gemme den gamle visning som en ny visning. På samme måde kan administratorer vælge at konvertere rollespecifikke ældre systemvisninger ved at tilpasse brugerrollen og gemme den ældre visning som en ny rollespecifik visning.
+          Legacy system views will be discontinued in a future update to <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph>.
+      - question: |
+          Others in my organization need similar list views as standard. What can I do?
+        answer: |
+          Working with personal views is quick and effective, but <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> provides other tools to define list views needed by specific user roles or all users in the organization.
+           - Developers can customize the environment and create list views in extensions for all users in the organization.
+           - Non-coders such as administrators or department managers, can create role-specific list views when customizing a role from the <bpt id="p1">**</bpt>Profiles (Roles)<ept id="p1">**</ept> page.
+      - question: |
+          I work with multiple languages: how do I translate the name of the view?
+        answer: |
+          When saving a new view or renaming an existing view, you must enter a recognizable and meaningful name for that view. The name is saved for your current language and will be displayed also when you or other users work with <ph id="ph1">[!INCLUDE[prod_short](includes/prod_short.md)]</ph> in different languages. To provide translated view names, switch the language by using the <bpt id="p1">**</bpt>My Settings<ept id="p1">**</ept> page. Then rename the view, which will store the translated name in the new language.
+      - question: |
+          Do views with expressions work in all languages?
+        answer: |
+          Expressions that only use symbols, such as <ph id="ph1">`|`</ph> or <ph id="ph2">`..`</ph> are considered safe for users to access in any language. Any views with expressions that include letters, keywords, or filter tokens will only work for the language in which they were authored.
+additionalContent: |
 
-
-      Ældre systemvisninger bliver udeladt i en fremtidig opdatering af [!INCLUDE[prod_short](includes/prod_short.md)].
-  - question: >
-      Andre i min organisation skal bruge lignende listevisninger som standard. Hvad kan jeg gøre?
-    answer: >
-      Arbejdet med personlige visninger er hurtigt og effektivt, men [!INCLUDE[prod_short](includes/prod_short.md)] indeholder yderligere værktøjer, der kan bruges til at definere listevisninger, som er nødvendige for bestemte brugerroller eller for alle brugere i organisationen.
-       - Udviklere kan tilpasse miljøet og oprette listevisninger i udvidelser for alle brugere i organisationen.
-       - Ikke-programmører, f.eks. administratorer eller afdelingsledere, kan oprette rollespecifikke listevisninger, når de tilpasser en rolle fra siden **Profiler (roller)**.
-  - question: >
-      Jeg arbejder med flere sprog: Hvordan kan jeg oversætte navnet på visningen?
-    answer: >
-      Når du gemmer en ny visning eller omdøber en eksisterende visning, skal du give visningen et navn, der giver mening. Navnet gemmes på det aktuelle sprog og vises også, når du eller andre brugere arbejder med [!INCLUDE[prod_short](includes/prod_short.md)] på andre sprog. Skift sprog for at angive oversatte visningsnavne på siden **Mine indstillinger**. Omdøb derefter visningen, som gemmer det oversatte navn på det nye sprog.
-  - question: >
-      Fungerer visninger med udtryk på alle sprog?
-    answer: >
-      Udtryk, der kun bruger symboler som f.eks. `|` eller `..` betragtes som sikre for brugerne at anvende på alle sprog. Alle visninger med udtryk, der omfatter bogstaver, nøgleord eller filtertokens, fungerer kun for det sprog, som de er skrevet på.
-additionalContent: "\n## <a name=\"see-also\"></a>Se også\n   [Gemme og tilpasse listevisninger](ui-views.md)  \n   [Finde funktioner og oplysninger](ui-search.md)  \n   [Sortering, søgning og filtrering](ui-enter-criteria-filters.md)  \n        \n        \n   [!INCLUDE[footer-include](includes/footer-banner.md)]"
+  ## See Also
+     <bpt id="p1">[</bpt>Save and Personalize List Views<ept id="p1">](ui-views.md)</ept>  
+     <bpt id="p1">[</bpt>Finding Features and Information<ept id="p1">](ui-search.md)</ept>  
+     <bpt id="p1">[</bpt>Sorting, Searching, and Filtering<ept id="p1">](ui-enter-criteria-filters.md)</ept>  
+          
+          
+     [!INCLUDE[footer-include](includes/footer-banner.md)]

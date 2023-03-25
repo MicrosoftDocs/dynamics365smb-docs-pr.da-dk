@@ -1,28 +1,23 @@
 ---
 title: Udvid din prøveversion af Business Central
-description: Hvis du har brug for mere tid til at afgøre, om du vil oprette et abonnement på Dynamics 365 Business Central, kan du udvide din prøveperiode en gang. Få mere at vide om dine muligheder.
+description: 'Hvis du har brug for mere tid til at afgøre, om du vil oprette et abonnement på Dynamics 365 Business Central, kan du udvide din prøveperiode en gang. Få mere at vide om dine muligheder.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 70d2631be9c126645752ba363b4645081314f6dc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533398"
 ---
-# <a name="need-more-time-to-decide-whether-to-subscribe"></a>Har du brug for mere tid til at beslutte, om du vil oprette et abonnement?
+
+# Har du brug for mere tid til at beslutte, om du vil oprette et abonnement?
 
 Det er vigtigt at træffe den rette beslutning, når du vælger et forretningsprogram, og vi ved, at det kan tage tid at undersøge alle kroge af [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du har brug for mere tid til at foretage en evaluering, kan du selv forlænge prøveperioden med yderligere 30 dage. Når udløbsdatoen for din prøveperiode nærmer sig, vises en meddelelse, når du logger på. Meddelelsen indeholder et link til vejledningen **Udvid prøveperiode**, som du kan bruge til at udvide prøveperioden. De ekstra 30 dage begynder, så snart du vælger **Udvid prøveversion** i vejledningen.
 
 Hvis du udvider prøveperioden selv, er det en éngangsforteelse. Du kan ikke udvide den to gange, i det mindste ikke selv. Hvis du allerede har udvidet perioden, kan din Microsoft-partner udvide den for dig igen. Det kan også kun gøres én gang. Hvis du ikke allerede arbejder med en partner, skal du se [Hvordan finder jeg en videresalgspartner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner).  
 
-## <a name="to-extend-your-trial-period"></a>Sådan udvider du din prøveperiode
+## Sådan udvider du din prøveperiode
 
 1. Log ind i [!INCLUDE[prod_short](includes/prod_short.md)] på [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
@@ -36,7 +31,7 @@ Hvis du udvider prøveperioden selv, er det en éngangsforteelse. Du kan ikke ud
 > [!TIP]
 > Hvis du ikke kan se beskeden, kan du tvinge [!INCLUDE [prod_short](includes/prod_short.md)] til at køre assisteret opsætning af **den forlængede prøveperiode** ved at tilføje parameteren ```?page=1828``` i URL-adressen som i følgende eksempel: [https://businesscentral.dynamics.com/?page=1828](https://businesscentral.dynamics.com/?page=1828)
 
-## <a name="what-happens-if-my-trial-period-is-expired"></a>Hvad sker der, hvis min prøveperiode er udløbet?
+## Hvad sker der, hvis min prøveperiode er udløbet?
 
 Hvis din første 30-dages prøveperiode er udløbet, kan du selv udvide den som beskrevet ovenfor og fortsætte, som du plejer. Du skal logge på demoregnskabet og starte vejledningen **Udvid prøveperiode** fra meddelelsen.  
 
@@ -50,9 +45,9 @@ Når den forlængede prøveperiode er udløbet, kan du [abonnere](https://go.mic
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/trial-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/modules/trial-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Prøveversioner og abonnementer (kun på engelsk)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Oprettelse af nye virksomheder](about-new-company.md)  

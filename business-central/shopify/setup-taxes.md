@@ -6,20 +6,15 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 4146a84aae98b97b9486d4b5fa53ad663d6d5f91
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362186"
 ---
-# <a name="set-up-taxes-for-the-shopify-connection"></a>Konfigurere moms for Shopify-forbindelsen
+
+# Konfigurere moms for Shopify-forbindelsen
 
 I denne artikel undersøges det, hvordan forskellige indstillinger i Shopify påvirker priser og moms, der vises for kunden i butikken. Vi gennemgår også, hvordan du konfigurerer [!INCLUDE[prod_short](../includes/prod_short.md)] til at understøtte indstillingerne i Shopify. Denne artikel er ikke tænkt som en udtømmende momsvejledning. Kontakt din lokale skattemyndighed eller revisor for at få mere at vide.  
 
 I artiklen antages det, at du skal betale moms, når du sælger varer lokalt eller internationalt.
 
-## <a name="if-you-sell-domestically"></a>Hvis du sælger indenlandsk
+## Hvis du sælger indenlandsk
 
 Når du har konfigureret Shopify til at opkræve moms i dit eget land eller område, kan du vælge, hvordan du vil vise priser i din butiksfacade.
 Du kan styre dette ved at aktivere eller deaktivere **Alle priser inkl. moms** i indstillingerne for [**Moms og afgifter**](https://www.shopify.com/admin/settings/taxes) i din **Shopify-administration**.
@@ -39,13 +34,13 @@ Nu skal du angive varepriser i feltet **Varekort** eller **Salgsprisliste** med 
 > [!NOTE]
 > Hvis du har konfigureret Shopify-connectoren til automatisk at oprette debitorer, kan du have brug for flere felter i din skabelon, f.eks. **Debitorbogføringsgruppe**. Hvis du bruger standarddebitoren til importerede ordrer, skal du kontrollere, at debitoren har fået udfyldt de samme felter. Du skal stadig udfylde **Kundeskabelonkode** som angivet ovenfor, da feltet **Priser inkl. moms**/**Priser ekskl. moms** i det oprettede salgsdokument afhænger ikke af debitoren, men af **Debitorskabelon** fra Shopify-butikskortet eller -debitorskabelonen pr. land/område.
 
-## <a name="if-you-sell-internationally"></a>Hvis du sælger internationalt
+## Hvis du sælger internationalt
 
 I dette afsnit vil vi udforske indstillingerne for scenarier, hvor du skal opkræve moms, når du sælger til et andet land, f.eks. andre lande i EU.
 
 Connector til **Shopify**-udvidelsen understøtter aktuelt kun eksport af én pris. Shopify anvender automatisk lokal moms, valuta og afrunding. Funktionen **Alle priser inkl. moms** resulterer i de handlinger, der er beskrevet i følgende undersektioner.
 
-### <a name="all-prices-include-tax-is-selected"></a>*Alle priser inkl. moms* er valgt
+### *Alle priser inkl. moms* er valgt
 
 |-|Indenlandsk salg|Udland, hvor du opkræver moms|Udland, hvor du ikke opkræver moms|
 |------------------------|--------|--------|--------|
@@ -55,7 +50,7 @@ Connector til **Shopify**-udvidelsen understøtter aktuelt kun eksport af én pr
 
 Pris for kunde forbliver intakt, uanset hvor kunden befinder sig, men din margen påvirkes på grund af momssatser i forskellige lande.
 
-### <a name="all-prices-include-tax-is-not-selected"></a>*Alle priser inkl. moms* er ikke valgt
+### *Alle priser inkl. moms* er ikke valgt
 
 |-|Indenlandsk salg|Udland, hvor du opkræver moms|Udland, hvor du ikke opkræver moms|
 |------------------------|--------|--------|--------|
@@ -65,7 +60,7 @@ Pris for kunde forbliver intakt, uanset hvor kunden befinder sig, men din margen
 
 Shopify lægger lokal moms oven på den pris, der er defineret på produktkortet, ud fra hvor varer leveres til.
 
-## <a name="dynamic-tax-inclusive-pricing"></a>Dynamisk pris inkl. moms
+## Dynamisk pris inkl. moms
 
 Da forskellige lande har forskellige krav, der afhænger af, om du inkluderer moms i den viste pris eller ej, kan du slå [dynamiske priser inkl moms](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing) til i Shopify. Derved automatiseres momsmedtagelsesfunktionen.
 
@@ -74,7 +69,7 @@ Vælg **Medtag eller udelad moms baseret på kundens land** i afsnittet **Andre 
 > [!NOTE]
 > Denne indstilling har ikke indflydelse på repræsentation af priser på indenlandske markeder, som styres af **Alle priser inkl. moms**.
 
-### <a name="all-prices-include-tax-is-selected"></a>*Alle priser inkl. moms* er valgt
+### *Alle priser inkl. moms* er valgt
 
 |-|Indenlandsk salg|Udland, hvor moms er inkluderet i prisen|Udland, hvor moms ikke er inkluderet|
 |------------------------|--------|--------|--------|
@@ -84,7 +79,7 @@ Vælg **Medtag eller udelad moms baseret på kundens land** i afsnittet **Andre 
 
 Prisen for hver kunde ændres afhængigt af kundens opholdssted.
 
-### <a name="all-prices-include-tax-is-not-selected"></a>*Alle priser inkl. moms* er ikke valgt
+### *Alle priser inkl. moms* er ikke valgt
 
 |-|Indenlandsk salg|Udland, hvor moms er inkluderet i prisen|Udland, hvor moms ikke er inkluderet|
 |------------------------|--------|--------|--------|
@@ -95,7 +90,7 @@ Prisen for hver kunde ændres afhængigt af kundens opholdssted.
 > [!NOTE]
 > Indstillingen **Alle priser inkl. moms** ændrer ikke den måde, priserne vises på for internationale kunder.
 
-## <a name="if-you-sell-to-eu-customers"></a>Hvis du sælger til EU-kunder
+## Hvis du sælger til EU-kunder
 
 Forskellige EU-lande har forskellige lokale momssatser. Men hvis du er hjemmehørende i EU og sælger til andre EU-lande, kan du bruge den lokale momssats i nogle tilfælde.  
 
@@ -107,7 +102,7 @@ Markér afkrydsningsfeltet **Opkræv moms** i afsnittet **EU** for indstillinger
 |One-stop shop eller landespecifik registrering|Brug momssatsen i kundens land|
 
 
-### <a name="collect-vat-set-to-one-stop-shop-registration"></a>Opkræv moms angivet til one-stop shop-registrering
+### Opkræv moms angivet til one-stop shop-registrering
 
 I det følgende eksempel er **Alle priser inkl. moms** aktiveret. Prisen på produktkortet er angivet til *1200*.
         
@@ -117,7 +112,7 @@ I det følgende eksempel er **Alle priser inkl. moms** aktiveret. Prisen på pro
 |Momsprocentsats|20|25|
 |Pris ved kassen|1200|1250|       
         
-### <a name="collect-vat-set-to-micro-business-exemption"></a>Opkræv moms angivet til undtagelse for mikrovirksomheder
+### Opkræv moms angivet til undtagelse for mikrovirksomheder
 
 I det følgende eksempel er **Alle priser inkl. moms** aktiveret. Prisen på produktkortet er angivet til *1200*.
         
@@ -129,7 +124,7 @@ I det følgende eksempel er **Alle priser inkl. moms** aktiveret. Prisen på pro
     
 Shopify ignorerer momssatsen i det andet land, når der beregnes slutpriser, og der bruges en indenlandsk momssats.
 
-## <a name="importing-shopify-orders-sold-to-international-customers"></a>Import af Shopify-ordrer, der er solgt til internationale kunder
+## Import af Shopify-ordrer, der er solgt til internationale kunder
 
 Hvis du opkræver moms fra flere lande, skal du højst sandsynligt definere en landespecifik indstilling i [!INCLUDE[prod_short](../includes/prod_short.md)]. Det er nødvendigt, for når der oprettes et salgsdokument i [!INCLUDE[prod_short](../includes/prod_short.md)], beregner systemet moms i stedet for at bruge dem, der blev importeret fra Shopify.
 
@@ -146,7 +141,7 @@ Du kan vælge lande/områdespecifikke indstillinger i vinduet **Shopify-debitors
 [!Note]
 > Indstillingen af **Priser inkl. moms** kommer fra skabelonen, ikke fra den specifikke debitor. Derfor er det vigtigt, at du har defineret debitorskabelonen.
 
-## <a name="other-tax-remarks"></a>Andre momskommentarer
+## Andre momskommentarer
 
 Mens den importerede Shopify-ordre viser oplysninger om moms, bliver momsen genberegnet, når du opretter et salgsdokument. Denne genberegning betyder, at det er vigtigt, at momsindstillingerne er korrekte i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -154,6 +149,6 @@ Mens den importerede Shopify-ordre viser oplysninger om moms, bliver momsen genb
 
 - Adresse-afhængige momssatser. Brug feltet **Prioritet af momsområde** sammen med tabellen **Debitorskabeloner** til at overskrive standardlogik, som udfyldes i **Skatteområdekode** i salgsdokumentet. Feltet **Prioritet af momsområde** angiver den prioritet, hvor funktionen skal indeholde oplysninger om land eller område og stat eller provins. Derefter bliver den tilsvarende post i Shopify-debitorskabelonen identificeret, og **Skatteområdekode**, **Momspligtig** og **Momsvirksomheds bogføringsgruppe** bruges, når der oprettes et salgsdokument.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Kom i gang med Connectoren til Shopify](get-started.md)  

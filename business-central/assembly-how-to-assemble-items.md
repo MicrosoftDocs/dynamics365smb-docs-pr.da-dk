@@ -7,17 +7,11 @@ ms.reviewer: andreipa
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
-ms.search.keywords: kit, kitting
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.search.keywords: 'kit, kitting'
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
-ms.openlocfilehash: 35d75808f0d2a0212396151dd2a7a2438dfc7fe5
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804495"
 ---
-# <a name="assemble-items"></a>Montere elementer
+# Montere elementer
 
 Hvis feltet **Genbestillingssystem** på varekortet indeholder **Montage**, er standardmetoden til at levere varen at montere den fra definerede komponenter og potentielt af en ressource, der er defineret. Flere oplysninger i [Arbejde med Montagestyklister](assembly-how-work-assembly-boms.md). Du kan finde flere oplysninger om opsætning af et montageelement i [Om montage til ordre eller montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
@@ -33,7 +27,7 @@ Denne artikel beskriver standardindstillingerne for montage til lagerbeholdning.
 > [!NOTE]  
 > Montagekomponenter håndteres på en særlig måde i grundlæggende lageropsætninger. Flere oplysninger i [Håndtering af montage til ordre-varer med pluk](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## <a name="to-assemble-an-item-to-stock"></a>Sådan monteres et element til lager
+## Sådan monteres et element til lager
 
 Udfør trinnene i denne procedure for at samle en vare på lager. Du kan lære mere om montage efter ordre ved at gå til [Sælge varer, der er samlet til ordre](assembly-how-to-sell-items-assembled-to-order.md).
 
@@ -67,14 +61,14 @@ Udfør trinnene i denne procedure for at samle en vare på lager. Du kan lære m
 
 Når bogføringen er udført, bogføres montageelementet som afgang til den lokationskode og potentielle placeringskode, der er defineret på montageordren. For manuelt oprettede montageordrer kopieres placeringen evt. fra opsætningsfeltet **Standardlokation for ordrer**. Ved montage efter ordre-forløb kopieres lokationskoden evt. fra salgsordrelinjen.  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/assemble-items-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Montagestyring](assembly-assemble-items.md)  
 [Arbejde med montagestyklister](assembly-how-work-assembly-boms.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Warehouse Management-oversigt](design-details-warehouse-management.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

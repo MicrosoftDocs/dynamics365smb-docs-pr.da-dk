@@ -4,24 +4,18 @@ description: Oprette forbindelse mellem Business Central og Dataverse. Virksomhe
 author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: ''
-ms.search.forms: 7200, 7201
+ms.search.keywords: null
+ms.search.forms: '7200, 7201'
 ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: 57f8091d81870f9e58af80462259006d4cb822ae
-ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8485028"
 ---
-# <a name="connect-to-microsoft-dataverse"></a>Opret forbindelse til Microsoft Dataverse
+# Opret forbindelse til Microsoft Dataverse
 
 
 
 Dette emne beskriver, hvordan du konfigurerer en forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Virksomheder opretter typisk forbindelsen for at integrere og synkronisere data med en anden Dynamics 365-forretningsapp såsom [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-## <a name="before-you-start"></a>Før du starter
+## Før du starter
 
 Der er et par oplysninger, som du skal have klar, før du opretter forbindelsen:  
 
@@ -37,7 +31,7 @@ Der er et par oplysninger, som du skal have klar, før du opretter forbindelsen:
 > I fremgangsmåden nedenfor beskrives proceduren for onlineversionen af [!INCLUDE[prod_short](includes/prod_short.md)].
 > Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] on-premises og ikke bruger en Azure Active Directory-konto til at oprette forbindelse til [!INCLUDE [cds_long_md](includes/cds_long_md.md)], skal du også angive brugernavn og adgangskode for en brugerkonto til integrationen. Denne konto kaldes "integrationsbruger"-kontoen. Hvis du bruger en Azure Active Directory-konto, er integrationsbrugerkontoen ikke påkrævet og vises ikke. Integrationsbrugeren konfigureres automatisk og kræver ikke en licens.
 
-## <a name="set-up-a-connection-to-cds_long_md"></a>Oprette forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+## Oprette forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 For alle andre godkendelsestyper end Microsoft 365-godkendelse kan du konfigurere forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på siden **Konfiguration af Dataverse-forbindelse**. For Microsoft 365-godkendelse anbefaler vi, at du bruger vejledningen **Opsætning af Dataverse-forbindelse** med assisteret opsætning. Denne vejledning gør det nemmere at oprette forbindelsen og angive avancerede funktioner, f.eks. ejerskabsmodel og indledende synkronisering.  
 
@@ -50,7 +44,7 @@ For alle andre godkendelsestyper end Microsoft 365-godkendelse kan du konfigurer
 >
 > Ved at give samtykke på vegne af organisationen giver administratoren det registrerede Azure-program, der hedder [!INCLUDE[prod_short](includes/prod_short.md)]-integration til [!INCLUDE[cds_long_md](includes/cds_long_md.md)], ret til at synkronisere data ved hjælp af den automatisk oprettede [!INCLUDE[prod_short](includes/prod_short.md)]-integrationsprogrambrugers legitimationsoplysninger.
 
-### <a name="to-use-the-dataverse-connection-setup-assisted-setup-guide"></a>Sådan bruger du vejledningen Dataverse-forbindelsesopsætning med assisteret opsætning
+### Sådan bruger du vejledningen Dataverse-forbindelsesopsætning med assisteret opsætning
 Dataverse-forbindelsesopsætningsvejledning kan gøre det nemmere at oprette forbindelse til programmerne, og det kan også være en hjælp til at starte en første synkronisering. Hvis du vælger at køre første synkronisering, gennemgår [!INCLUDE[prod_short](includes/prod_short.md)] dataene i begge programmer og giver anbefalinger om, hvordan du skal håndtere den første synkronisering. Den følgende tabel beskriver de forskellige anbefalinger.
 
 |Anbefaling  |Beskrivlse  |
@@ -69,7 +63,7 @@ Dataverse-forbindelsesopsætningsvejledning kan gøre det nemmere at oprette for
 > [!NOTE]
 > Hvis du ikke bliver bedt om at logge på med din administratorkonto, skyldes det sandsynligvis, at pop op-vinduer er blokeret. Du kan logge på ved at tillade pop op-vinduer fra `https://login.microsoftonline.com`.
 
-### <a name="to-create-or-maintain-the-connection-manually"></a>Sådan oprettes eller vedligeholdes forbindelsen manuelt
+### Sådan oprettes eller vedligeholdes forbindelsen manuelt
 
 Følgende procedure beskriver, hvordan du kan opsætte forbindelsen manuelt på siden **Dataverse-forbindelsesopsætning**. Siden **Konfiguration af Dataverse-forbindelse** er den side, hvor du administrerer indstillingerne.
 
@@ -105,7 +99,7 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
-## <a name="customize-the-match-based-coupling"></a>Tilpas den matchbaserede sammenkædning
+## Tilpas den matchbaserede sammenkædning
 
 Fra 2021 udgivelsesbølge 2 kan en administrator angive kriterier for at sammenkæde poster baseret på matches. Du kan starte algoritmen til identiske poster kan startes fra følgende placeringer i [!INCLUDE [prod_short](includes/prod_short.md)]:
 
@@ -137,7 +131,7 @@ I alle tre tilfælde åbnes siden **Vælg sammenkædningskriterier**, så du kan
 
 * Angiv, om der skal oprettes en ny enhedsforekomst i [!INCLUDE [cds_long_md](includes/cds_long_md.md)], hvis der ikke er en entydig, ikke-sammenkoblet match, ved hjælp af søgekriterierne. Hvis du vil aktivere denne funktion, skal du markere afkrydsningsfeltet **Opret ny, hvis der ikke findes en match**-handling.  
 
-### <a name="view-the-results-of-the-coupling-job"></a>Vis resultaterne af sammenkædningssagen
+### Vis resultaterne af sammenkædningssagen
 
 Hvis du vil have vist resultaterne af sammenkædningssagen, skal du åbne siden **integrationstabeltilknytninger**, vælge den relevante tilknytning, vælge **sammenkædningshandlingen** og derefter vælge handlingen foretag tilknytning af **integrationssammenkædningsjob**.  
 
@@ -164,7 +158,7 @@ Koblingen mislykkes typisk af følgende årsager:
 > [!TIP]
 > For at hjælpe dig med at få et overblik over fremdriften i koblingen viser feltet **sammenkoblet til Dataverse**, om en bestemt post er koblet til en [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-enhed. Du kan bruge feltet **Sammenkoblet med Dataverse** til at filtrere listen over poster, som du synkroniserer.
 
-## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Opgradere forbindelser fra Business Central Online til brug certifikatbaseret godkendelse
+## Opgradere forbindelser fra Business Central Online til brug certifikatbaseret godkendelse
 > [!NOTE]
 > Dette afsnit er kun relevant for [!INCLUDE[prod_short](includes/prod_short.md)] online-lejere, der er hosted af Microsoft. Online-arkitekturer, der er hosted af ISV'er og lokale installationer, påvirkes ikke.
 
@@ -172,7 +166,7 @@ I april 2022 udfases [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Office365-
 
 Hvis du vil undgå at afbryde integration, _skal du opgradere_ forbindelsen til at bruge certifikatbaseret godkendelse. Selvom der er planlagt ændringer for marts 2022, anbefaler vi på det kraftigste, at du opgraderer så hurtigt som muligt. Følgende fremgangsmåde beskriver, hvordan du opgraderer til certifikatbaseret godkendelse. 
 
-### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Opgradere forbindelser fra Business Central Online til brug certifikatbaseret godkendelse
+### Opgradere forbindelser fra Business Central Online til brug certifikatbaseret godkendelse
 
 1. Afhængigt af om du integrerer med Dynamics 365 Sales, skal du benytte en af følgende fremgangsmåder:
    * Hvis du gør det, skal du åbne siden **Microsoft Dynamics 365-forbindelseskonfiguration**.
@@ -183,13 +177,13 @@ Hvis du vil undgå at afbryde integration, _skal du opgradere_ forbindelsen til 
 > [!NOTE]
 > Du skal gentage disse trin i hvert [!INCLUDE[prod_short](includes/prod_short.md)]-miljø, herunder både produktions-og sandkasse miljøer, og i hvert regnskab, du har forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-## <a name="connecting-on-premises-versions"></a>Tilslutning af lokale versioner
+## Tilslutning af lokale versioner
 
 Hvis du vil forbinde [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø med [!INCLUDE[cds_long_md](includes/cds_long_md.md)], skal du angive nogle oplysninger på siden **Konfiguration af Dataverse-forbindelse**.
 
 Hvis du vil oprette forbindelse ved hjælp af en Azure Active Directory (Azure AD)-konto, skal du registrere et program i Azure AD. Du kan også angive program-id, key vault-hemmeligheden og omdirigere den URL-adresse, der skal bruges. URL-adressen til omdirigering er forudindstillet og bør fungere for de fleste installationer. Du skal konfigurere installationen til at bruge HTTPS. Du kan finde flere oplysninger i [Konfigurere SSL for at sikre forbindelsen til Business Central-webklienten](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Hvis du konfigurerer serveren, så den har en anden startside, kan du altid ændre URL-adressen. Klientens hemmelighed gemmes som en krypteret streng i din database. 
 
-### <a name="prerequisites"></a>Forudsætninger
+### Forudsætninger
 
 Dataverse skal bruge en af følgende godkendelsestyper:
 
@@ -200,7 +194,7 @@ Dataverse skal bruge en af følgende godkendelsestyper:
 * Office365 (moderne, baseret på OAuth2-klienthemmelighed)
 * OAuth
 
-### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Sådan registrerer du et program i Azure AD for at oprette forbindelse fra Business Central til Dataverse
+### Sådan registrerer du et program i Azure AD for at oprette forbindelse fra Business Central til Dataverse
 
 I følgende trin antages det, at du bruger Azure AD til at administrere identiteter og adgangsrettigheder. Du kan finde flere oplysninger om registrering af et program i Azure AD under [Hurtig start: registrere et program på Microsoft-identitetsplatformen](/azure/active-directory/develop/quickstart-register-app). 
 
@@ -223,12 +217,12 @@ I følgende trin antages det, at du bruger Azure AD til at administrere identite
    > [!NOTE]
    > Hvis du ikke bliver bedt om at logge på med din administratorkonto, skyldes det sandsynligvis, at pop op-vinduer er blokeret. Du kan logge på ved at tillade pop op-vinduer fra `https://login.microsoftonline.com`.
 
-### <a name="to-disconnect-from-cds_long_md"></a>Sådan afbrydes forbindelsen fra [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+### Sådan afbrydes forbindelsen fra [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Dataverse-forbindelseskonfiguration**, og vælg derefter det relaterede link.
 2. På siden **Dataverse-forbindelsesopsætning** skal du slå **Aktiveret** fra.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Se status på en synkronisering](admin-how-to-view-synchronization-status.md)  
 

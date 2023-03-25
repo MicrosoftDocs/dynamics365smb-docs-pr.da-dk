@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
+ms.search.keywords: 'design, item, tracking, serial number, lot number, outbound documents'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 0b101215e06e33bbbafdf0c38e18ac3ddaa6774a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141303"
 ---
-# <a name="design-details-item-tracking-in-the-warehouse"></a>Designoplysninger: Varesporing i lageret
+# Designoplysninger: Varesporing i lageret
 Serienummer og lotnummer håndteres primært som lageropgave, så alle indgående og udgående lagerdokumenter har derfor standardfunktioner til at tildele og markere varesporingsnumre.  
 
 Da reservationssystemet er baseret på vareposter, understøttes lageraktivitetsdokumenter, der kun registrerer lagerposter, dog ikke fuldt ud. Da reservationer og varesporingsnumre kun kan håndteres på lokationsniveau, og ikke på placerings- og zoneniveau, kan siden **Varesporingslinjer** ikke åbnes fra lageraktivitetsdokumenter. Det samme gælder for siden **Reservation**.  
@@ -25,7 +19,7 @@ Efter et serienummer eller et lotnummer er føjet til en vare på en placering i
 
 Dog tager reservationssystemet lageraktiviteter i betragtning ved beregning af tilgængelighed. Varer, der allokeres til pluk eller registreres som plukket, kan f.eks. ikke reserveres. Du kan finde flere oplysninger i [Designoplysninger: Lagertilgængelighed](design-details-availability-in-the-warehouse.md).
 
-## <a name="see-also"></a>Se også  
+## Se også  
 [Designoplysninger: Varesporing](design-details-item-tracking.md)  
 [Designoplysninger: Integration med lager](design-details-integration-with-inventory.md)  
 [Designoplysninger - Lagertilgængelighed](design-details-availability-in-the-warehouse.md)  

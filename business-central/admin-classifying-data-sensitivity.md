@@ -1,6 +1,6 @@
 ---
 title: Klassificere datafølsomhed
-description: Du skal angive, hvilken type data du gemmer om personer, så du kan besvare anmodninger fra dataemnet.
+description: 'Du skal angive, hvilken type data du gemmer om personer, så du kan besvare anmodninger fra dataemnet.'
 author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
@@ -8,14 +8,9 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: 1752
 ms.date: 06/14/2021
-ms.openlocfilehash: ba629a40bee4f73c3d2a68395b138893265d7b0f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382359"
 ---
-# <a name="classifying-data-sensitivity-fields"></a>Klassificere datafølsomhedsfelter
+
+# Klassificere datafølsomhedsfelter
 For at klassificere de felter, der indeholder følsomme eller personlige data, kan en Microsoft-partner angive egenskaben ```DataClassification``` på felter. Dette kræver adgang til databasetabellerne, enten via udviklingsmiljøet eller ved at køre et Windows PowerShell-script. Du kan finde flere oplysninger i [Klassificere data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Du kan tilføje et andet niveau i klassificering som en kunde ved at angive følsomhedsniveauer for de data, du gemmer i standardfelter og brugerdefinerede felter. Klassificeringen af datafølsomhed hjælper med til at sikre, at du ved, hvor du opbevarer personlige data i systemet, og gør det nemmere at besvare anmodninger fra registrerede. Hvis en kontakt eller kunde f.eks. beder dig om at eksportere deres personlige data. Du kan finde flere oplysninger i [Besvare anmodninger om personlige oplysninger](admin-responding-to-requests-about-personal-data.md).
@@ -32,7 +27,7 @@ I nedenstående tabel beskrives de datafølsomhedsniveauer, du kan tildele.
 |Fortroligt | Forretningsdata, som du bruger til bogholderi eller andre forretningsformål, og ikke ønske at vise til andre enheder. Det kan f.eks. omfatter poster.|
 |Normal | Generelle data, der ikke hører til i nogen andre kategorier.|
 
-## <a name="how-do-i-classify-my-data"></a>Hvordan kan jeg klassificere dataene?
+## Hvordan kan jeg klassificere dataene?
 Klassificering af følsomheden i et stort antal felter ét ad gangen vil tage lang tid. Som en hjælp til at gøre det hurtigere leverer vi værktøjer, som du kan bruge til at klassificere følsomheden af felter i bundter og derefter finjustere klassificeringen for bestemte felter. Du kan finde værktøjer i regnearket Klassificering af data, som er tilgængelig i rollecentrene Administration af brugere, brugergrupper og tilladelser. Du skal være systemadministrator for at kunne bruge regnearket.
 
 > [!Important]
@@ -47,7 +42,7 @@ Med regnearket Klassificering af data kan du f.eks. gøre følgende:
 > [!Tip]
 > Vi har defineret prøvefølsomhedsklassificeringer for tabellerne og felterne i demoregnskabet Cronus. Du kan bruge disse klassificeringer som inspiration, når du klassificerer dine egne tabeller og felter.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Klassificering af Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
 

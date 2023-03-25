@@ -1,98 +1,93 @@
 ---
 title: Hurtig reference til pc-tastaturgenveje
-description: Et udskriftsvenligt referenceark, der indeholder de mest populære tastaturgenveje for pc-brugere.
+description: 'Et udskriftsvenligt referenceark, der indeholder de mest populære tastaturgenveje for pc-brugere.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accessibility, shortcuts, keyboarding
+ms.search.keywords: 'accessibility, shortcuts, keyboarding'
 ms.date: 08/19/2022
 ms.author: jswymer
-ms.openlocfilehash: ddcee165f275b3e7ad757b5a8a448c9a65a7d33c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605792"
 ---
-# <a name="keyboard-quick-reference---pc-only"></a>Hurtig reference til genveje - på pc'er
 
-#### <a name="general"></a>Generelt
+# Hurtig reference til genveje - på pc'er
 
-|Tryk på disse taster|For at gøre følgende|  
+#### Generelt
+
+|Vælg disse taster|For at gøre følgende|  
 |-|-|
-|Alt+F2|Vise eller skjule faktaboksruden|
-|Alt+N|Oprette en ny post|
-|Alt+Skift+N|Lukke en nyoprettet post og åbne en ny|
-|Alt+O|Føje en ny note til den valgte post|
-|ALT + Q|Åbn **Fortæl mig**|
-|Ctrl+Alt+Q|Åbn **Find poster**|
-|Alt+Op|Åbn værktøjstip eller valideringsfejl|
-|Alt+Pil ned|Åbn en rullemenu eller et opslag|
-|Alt+T|Åbn siden **Mine indstillinger**|
-|Alt+Skift+W|Åbne det aktuelle kort eller dokument i et nyt vindue|
-|Ctrl+Insert|Indsætte en ny linje i et dokument|
-|Ctrl-Delete|Slette linjen i et dokument, en kladde eller et regneark|
-|Ctrl+Skift+F12|Maksimere delen med linjevarer på en dokumentside|
-|Ctrl+F1|Åbner ruden hjælp eller en artikel i hjælp|
-|Ctrl+klik|Navigere under tilpasning|
-|Ctrl+O|Skifte firma eller miljø|
-|Shift+F12|Åbn Rollestifinder, en funktionsoversigt|
-|F5/Ctrl+F5|Opdater/genindlæs side|
-|Tab/Skift+Tab|Flytte fokus til næste/forrige element|
-|F6/Shift+F6|Flyt til næste oversigtspanel/del|
+|<kbd>Alt</kbd>+<kbd>F2</kbd>|Vise eller skjule faktaboksruden|
+|<kbd>Alt</kbd>+<kbd>N</kbd>|Oprette en ny post|
+|<kbd>Alt</kbd>+<kbd>Skift</kbd>+<kbd>N</kbd>|Lukke en nyoprettet post og åbne en ny|
+|<kbd>Alt</kbd>+<kbd>O</kbd>|Føje en ny note til den valgte post|
+|<kbd>Alt</kbd>+<kbd>Q</kbd>|Åbn **Fortæl mig**|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>|Åbn **Find poster**|
+|<kbd>Alt</kbd>+<kbd>Op</kbd>|Åbn værktøjstip eller valideringsfejl|
+|<kbd>Alt</kbd>+<kbd>Pil ned</kbd>|Åbn en rullemenu eller et opslag|
+|<kbd>Alt</kbd>+<kbd>T</kbd>|Åbn siden **Mine indstillinger**|
+|<kbd>Alt</kbd>+<kbd>Skift</kbd>+<kbd>W</kbd>|Åbne det aktuelle kort eller dokument i et nyt vindue|
+|<kbd>Ctrl</kbd>+<kbd>Indsæt</kbd>|Indsætte en ny linje i et dokument|
+|<kbd>Ctrl</kbd>-<kbd>Slet</kbd>|Slette linjen i et dokument, en kladde eller et regneark|
+|<kbd>Ctrl</kbd>+<kbd>Skift</kbd>+<kbd>F12</kbd>|Maksimere delen med linjevarer på en dokumentside|
+|<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Åbner ruden hjælp eller en artikel i hjælp|
+|<kbd>Ctrl</kbd>+Klik|Navigere under tilpasning|
+|<kbd>Ctrl</kbd>+<kbd>O</kbd>|Skifte firma eller miljø|
+|<kbd>Skift</kbd>+<kbd>F12</kbd>|Åbn Rollestifinder, en funktionsoversigt|
+|<kbd>F5</kbd>/<kbd>Ctrl</kbd>+<kbd>F5</kbd>|Opdater/genindlæs side|
+|<kbd>Tab</kbd>/<kbd>Skift</kbd>+<kbd>Tab</kbd>|Flytte fokus til næste/forrige element|
+|<kbd>F6</kbd>/<kbd>Skift</kbd>+<kbd>F6</kbd>|Flyt til næste oversigtspanel/del|
 
-#### <a name="navigate--select-rows"></a>Naviger og markér rækker
+#### Naviger og markér rækker
 
-|Tryk på disse taster|For at gøre følgende|
+|Vælg disse taster|For at gøre følgende|
 |-|-|
-|Home eller End|Gå til det første eller sidste felt|
-|Ctrl+Home/End |Gå til den første eller sidste række|
-|Ctrl+Op/Ned|Navigere uden at miste markering|
-|Ctrl+A |Markér alt|
-|Ctrl+mellemrumstast|Skifte markering af række|
-|Ctrl/Skift+klik|Føje rækken/rækkerne til markeringen|
-|Skift+Op/Ned|Føje rækken over/under til markering|
-|Skift+Page Up/Down|Vælg synlige rækker over/under|
-|Ctrl+Enter|Fokusere uden for listen|
+|<kbd>Home eller End|Gå til det første eller sidste felt|
+|<kbd>Ctrl</kbd>+<kbd>Start</kbd>/<kbd>End</kbd>|Gå til den første eller sidste række|
+|<kbd>Ctrl</kbd>+<kbd>Op</kbd>/<kbd>Ned</kbd>|Navigere uden at miste markering|
+|<kbd>Ctrl</kbd>+<kbd>A</kbd>|Markér alt|
+|<kbd>Ctrl</kbd>+<kbd>Mellemrumstast</kbd>|Skifte markering af række|
+|<kbd>Ctrl</kbd>/<kbd>Skift</kbd>+Klik|Føje rækken/rækkerne til markeringen|
+|<kbd>Skift</kbd>+<kbd>Op</kbd>/<kbd>Ned</kbd>|Føje rækken over/under til markering|
+|<kbd>Skift</kbd>+<kbd>Side op</kbd>/<kbd>Ned</kbd>|Vælg synlige rækker over/under|
+|<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Fokusere uden for listen|
 
-#### <a name="copy--paste"></a>Kopiér og sæt ind
+#### Kopiér og sæt ind
 
-|Tryk på disse taster|For at gøre følgende|
+|Vælg disse taster|For at gøre følgende|
 |-|-|
-|Ctrl+C/V|Kopiér/Indsæt rækker|
-|F8|Kopiere feltet ovenover til den aktuelle række|
+|<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Kopiér/Indsæt rækker|
+|<kbd>F8</kbd>|Kopiere feltet ovenover til den aktuelle række|
 
-#### <a name="search-filter--sort"></a>Søg, filtrer og sortér
+#### Søg, filtrer og sortér
 
-|Tryk på disse taster|For at gøre følgende|
+|Vælg disse taster|For at gøre følgende|
 |-|-|
-|Alt+F7|Sortér kolonnen i stigende eller faldende rækkefølge|
-|F3|Skifte søgning|
-|Shift+F3|Skifte filterrude, fokusere på feltfiltre|
-|Alt+F3|Filtrere på den markerede celleværdi|
-|Skift+Alt+F3|Tilføje filter i markeret felt|
-|Ctrl+Alt+Skift+F3|Nulstil filtre|
+|<kbd>Alt</kbd>+<kbd>F7</kbd>|Sortér kolonnen i stigende eller faldende rækkefølge|
+|<kbd>F3</kbd>|Skifte søgning|
+|<kbd>Skift</kbd>+<kbd>F3</kbd>|Skifte filterrude, fokusere på feltfiltre|
+|<kbd>Alt</kbd>+<kbd>F3</kbd>|Filtrere på den markerede celleværdi|
+|<kbd>Skift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Tilføje filter i markeret felt|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Skift</kbd>+<kbd>F3</kbd>|Nulstil filtre|
 
-#### <a name="quick-entry"></a>Hurtigpost
+#### Hurtigpost
 
-|Tryk på disse taster|For at gøre følgende|
+|Vælg disse taster|For at gøre følgende|
 |-|-|
-|Ctrl+Skift+Enter|Gå til næste genvejsfelt uden for en liste|
-|Enter/Skift+Enter|Gå til næste/forrige genvejsfelt|
+|<kbd>Ctrl</kbd>+<kbd>Skift</kbd>+<kbd>Enter</kbd>|Gå til næste genvejsfelt uden for en liste|
+|<kbd>Enter</kbd>/<kbd>Skift</kbd>+<kbd>Enter</kbd>|Gå til næste/forrige genvejsfelt|
 
-##### <a name="report-preview"></a>Rapporteksempel
+##### Rapporteksempel
 
-|Tryk på disse taster|For at gøre følgende|
+|Vælg disse taster|For at gøre følgende|
 |-|-|
-|Ctrl+Home/End|Gå til første/sidste side|
+|<kbd>Ctrl</kbd>+<kbd>Start</kbd>/<kbd>End</kbd>|Gå til første/sidste side|
 
-#### <a name="numeric-keypad"></a>Numeriske tastatur
+#### Numeriske tastatur
 
-|Tryk på disse taster|For at gøre følgende|  
+|Vælg disse taster|For at gøre følgende|  
 |-|-|
-|Alt+Decimalseparator|Slå decimalseparator output til/fra på numerisk tastatur|
+|<kbd>Alt</kbd>+<kbd>Decimalseparator</kbd>|Slå decimalseparator output til/fra på numerisk tastatur|
 
 > [!TIP]
 > Hvis du vil have en grafisk printervenlig version, skal du vælge følgende billede og hente PDF-filen.

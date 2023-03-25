@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2022
 ms.author: edupont
-ms.openlocfilehash: 74cf1897792ab15c9c74ff76e3674ca31fe599f1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317368"
 ---
 [!INCLUDE[prod_short](prod_short.md)]-brugere understøtter undertiden mere end én afdeling eller underorganisation i en koncernvirksomhed. F.eks. kan en virksomhed have salgskontorer i flere og lande, så den har oprettet en separat afdeling for hvert kontor. De kontorer, der befinder sig i samme land, oprettes som separate *virksomheder* i et delt *miljø*. Andre kontorer oprettes som virksomheder i separate miljøer, fordi de er geografisk baseret i andre lande.
 

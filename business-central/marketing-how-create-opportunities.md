@@ -1,29 +1,23 @@
 ---
 title: Oprette salgsleads
-description: Beskriver, hvordan du kan oprette leads fra en sælger eller kontakt i Business Central.
+description: 'Beskriver, hvordan du kan oprette leads fra en sælger eller kontakt i Business Central.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect
+ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: d3e427a4fbff866edfa7b03b23f22ee797ef037b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074767"
 ---
-# <a name="create-sales-opportunities"></a>Oprette salgsleads
+# Oprette salgsleads
 Du kan oprette leads for de salgslaeds du har for dine kontakter. Alle leads skal knyttes til en sælger eller indkøber og skal have en kontakt.
 
 Du kan oprette leads på siden **Leadoversigt**. Men du skal normalt oprette leads fra den specifikke kontakt eller sælger.
 
 Funktionen forudsætter, at du har defineret salgsprocesser for leads. Du kan finde flere oplysninger i [Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="to-create-an-opportunity-from-a-salesperson"></a>Sådan oprettes et lead fra en sælger
+## Sådan oprettes et lead fra en sælger
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sælgere**, og vælg derefter det relaterede link.
 2. Vælg den sælger på listen, du vil oprette et lead for.
 3. Vælg handlingen **Leads**, og vælg derefter **Oversigt**.
@@ -31,7 +25,7 @@ Funktionen forudsætter, at du har defineret salgsprocesser for leads. Du kan fi
 
 
 
-## <a name="to-create-an-opportunity-from-a-contact"></a>Sådan oprettes et lead fra en kontakt
+## Sådan oprettes et lead fra en kontakt
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontakter**, og vælg derefter det relaterede link.
 2. Vælg den kontakt i oversigten, du vil oprette et lead for.
 3. Gør ét af følgende:
@@ -39,7 +33,7 @@ Funktionen forudsætter, at du har defineret salgsprocesser for leads. Du kan fi
    * Vælg handlingen **Leads**, og vælg derefter **Ny**.
 4. Udfyld de relevante felter.
 
-## <a name="see-also"></a>Se også
+## Se også
 [Salg](sales-manage-sales.md)  
 [Oprette og administrere kontakter](marketing-contacts.md)  
 [Arbejde med Business Central](ui-work-product.md)

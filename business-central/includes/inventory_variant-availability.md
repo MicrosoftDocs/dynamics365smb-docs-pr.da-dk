@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 09/21/2022
 ms.author: edupont
-ms.openlocfilehash: 1ed4346dbdcbd6fc4eb5b3cde677498c9f3b5ea6
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9608138"
 ---
 Når du åbner siden **Varedisponering pr. variant** fra en dokumentlinje, kan du indsætte en variant i dokumentlinjen ved at vælge linjen med den variant, du ønsker at indsætte, og klikke på OK. Hvis du kun har brugt siden til at vise tilgængeligheden og ikke vil indsætte en variant, skal du lukke siden uden at vælge OK.
 

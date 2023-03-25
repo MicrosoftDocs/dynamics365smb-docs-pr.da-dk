@@ -1,32 +1,25 @@
 ---
 title: Oprette forudbetalingsfakturaer
-description: Få at vide, hvordan du håndterer situationer, hvor du eller din leverandør kræver forudbetaling. Du kan bruge standardprocenterne til hver enkelt salgs- eller købslinje, eller du kan regulere beløbet efter behov.
-author: edupont04
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 42, 50, 9305, 9307
-ms.date: 12/02/2021
-ms.author: edupont
-ms.openlocfilehash: ffb2adb5a0ec43da14ee7fd9126c3293ea73ab22
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534908"
+description: 'Få at vide, hvordan du håndterer situationer, hvor du eller din leverandør kræver forudbetaling. Du kan bruge standardprocenterne til hver enkelt salgs- eller købslinje, eller du kan regulere beløbet efter behov.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bhielse
+ms.topic: how-to
+ms.date: 02/02/2023
+ms.custom: bap-template
+ms.search.form: '42, 50, 9305, 9307'
 ---
-# <a name="create-prepayment-invoices"></a>Oprette forudbetalingsfakturaer
+# Oprette forudbetalingsfakturaer
 
 Hvis du kræver, at kunderne betaler, før du leverer en ordre til dem, kan du bruge forudbetalingsfunktionen. Det samme gælder, hvis din leverandør kræver, at du betaler, før de leverer en ordre til dig.  
 
-Når du har oprettet en salgs- eller købsordre, kan du starte forudbetalingsprocessen. Hvis du har en standardforudbetalingsprocent for en given vare på ordren eller for debitor eller kreditor, vil procentsatsen automatisk blive medtaget i den oprettede forudbetalingsfaktura. Du kan også angive en forudbetalingsprocent for hele dokumentet.
+Når du har oprettet en salgs- eller købsordre, kan du starte forudbetalingsprocessen. Standardforudbetalingsprocent for en given vare på ordren eller for debitor eller kreditor, vil procentsatsen automatisk blive medtaget i den oprettede forudbetalingsfaktura. Du kan også angive en forudbetalingsprocent for hele dokumentet.
 
 Når du har oprettet en salgs- eller købsordre, kan du oprette en forudbetalingsfaktura. Du kan enten bruge standardprocenterne til hver enkelt salgs- eller købslinje, eller du kan regulere beløbet efter behov. Du kan f.eks. angive et samlet beløb for hele ordren.  
 
 Følgende procedure beskriver, hvordan du fakturerer en forudbetaling for en salgsordre. Fremgangsmåden er den samme for købsordrer.  
 
-## <a name="to-create-a-prepayment-invoice"></a>Sådan oprettes en forudbetalingsfaktura
+## Sådan oprettes en forudbetalingsfaktura
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2. Opret en ny salgsordre for den ønskede kunde. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).  
@@ -41,6 +34,14 @@ Følgende procedure beskriver, hvordan du fakturerer en forudbetaling for en sal
     Hvis du vil angive en forudbetalingsfaktura med én linje for hver salgsordre, der har en forudbetalingsprocent, skal du ikke vælge feltet **Komprimer forudbetaling**.  
 
     Forfaldsdatoen for forudbetalingen beregnes automatisk på grundlag af værdien af **Forudb. - kode for betal.betingelser**.
+
+    > [!NOTE]
+    > Når nogle linjer på en faktura kræver forudbetaling på 100 %, og der ikke er moms på forudbetalingskontoen, kan det afrundede beløb forårsage en fejl, når du opretter en forudbetalingsfaktura. Fejlen opstår, fordi forudbetalingsfaktura beløbet er højere end beløbene på bilagslinjerne. Du kan løse problemet ved at ændre beløbene på en eller alle linjer, der kræver forudbetaling på 100 %. Ændringen genberegner moms afrundingen og bruger den akkumulerede afrundingsdifference på den sidst ændrede linje.
+    >
+    > Der er to måder at løse problemet på:
+    >
+    > * Opret en ny momsproduktbogføringsgruppe og en Momsbogføringsopsætning med et separat moms-id, og brug den til de varer eller linjer, der kræver forudbetaling på 100 %. Afrunding foretages for hvert moms-id, så der foretages en særskilt afrunding for varer, der er knyttet til momsproduktbogføringsgruppen.
+    > * Bruge en separat faktura til varer eller linjer, der ikke kræver, at der er 100 % forudbetalinger.
 
 3. Udfyld salgslinjerne.  
 
@@ -69,13 +70,13 @@ Du kan udstede andre forudbetalingsfakturaer til ordren. I så fald skal du udst
 
  Når du er klar til at bogføre resten af fakturaen, skal du benytte samme fremgangsmåde som med alle andre fakturaer, hvorefter det forudbetalte beløb automatisk trækkes fra det forfaldne beløb.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Opdatere status for forudbetalte ordrer og fakturaer automatisk
+## Opdatere status for forudbetalte ordrer og fakturaer automatisk
 
 Du kan gøre behandlingen hurtigere og oprette en faktura ved at indstille Opgavekøposter, der automatisk opdaterer status for de pågældende dokumenter. Når en forudbetalingsfaktura betales, kan posterne i opgavekøen automatisk ændre dokumentstatus fra **Afventende forudbetaling** til **Frigivet**. Når du opretter Opgavekøposter, er de kodeenheder, du skal bruge, **383 Opdateret Afventer forudbetaling af Salg** og **383 Opdateret Afventer forudbetaling af køb**. Det anbefales, at du planlægger posterne ofte, f. eks. hvert minut. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Fakturere forudbetalinger](finance-invoice-prepayments.md)  
 [Gennemgang: Opsætning og fakturering af salgsforudbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

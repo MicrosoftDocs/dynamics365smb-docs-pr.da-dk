@@ -1,87 +1,100 @@
 ---
-title: Flytte varer ad hoc i grundlæggende lageropsætninger
-description: Dette emne forklarer ad hoc-bevægelser, der udføres, når du skal flytte varer mellem interne placeringer uden et bestemt behov fra et kildedokument.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 393, 7382
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 46b6cbd88cf23974e5fd11453c328c1669c8e19c
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534422"
+title: Flytte varer ad hoc i ikke-planlagte lageropsætninger
+description: I denne artikel forklares ikke planlagte interne overførsler mellem placeringer uden behov fra kildedokumenter.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/16/2022
+ms.custom: bap-template
+ms.search.form: '393, 7382'
 ---
-# <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Flytte varer ad hoc i grundlæggende lageropsætninger
+# Flytte varer internt i grundlæggende konfigurationer af lagersteder
 
-Du kan undertiden have brug for at flytte varer mellem interne placeringer ikke modtagelse eller leveranceplacering uden et bestemt krav fra et kildedokument. Du kan udføre disse ad hoc-bevægelser, for eksempel for at omstrukturere lageret, for at bringe elementer til et inspektionsområde eller for at flytte flere elementer til og fra et produktionsområde uden en systemrelation til produktionsordrens kildedokument.  
+Du kan flytte varer mellem placeringer uden et behov fra et kildedokument. F. eks. som en del af følgende aktiviteter:
 
-I grundlæggende lageropsætninger, dvs. lokationer, der bruger opsætningsfeltet **Tvungen placering** og eventuelt opsætningsfelterne **Kræv pluk** og **Kræv læg-på-lager**, kan du registrere ad hoc-bevægelser uden kildedokumenter på følgende måder:  
+* Reorganiser lagerstedet.
+* Flytte varer til et kontrolområde.
+* Flytte ekstra varer til og fra et produktionsområde. 
 
-- På siden **Intern flytning**.  
-- Med siden **Vareomposteringskladde**.  
+Hvordan du flytter varer afhænger af den måde, som lagerstedet er sat op på som en lokation. Flere oplysninger i [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md).
 
-> [!NOTE]  
->  I avancerede lageropsætninger, dvs. lokationer, der bruger opsætningsfeltet **Styret læg-på-lager og pluk**, bruges siden **Bevægelseskladde** eller **Internt lagerpluk** eller **Internt læg-på-lager** til ad hoc-flytning af varer mellem placeringer.  
+I lageropsætninger, hvor indstillingen til til/fra **placering obligatorisk**-opsætning er aktiveret, men ikke **styret pluk og læg-på-lager**, kan du registrere ikke-planlagte bevægelser på følgende sider:  
 
-## <a name="to-move-items-as-an-internal-movement"></a>Sådan flyttes varer som en intern overførsel
+* På siden **Intern flytning**.
+* Med siden **Vareomposteringskladde**.  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Intern flytning**, og vælg derefter det relaterede link.  
-2.  Udfyld feltet **Nummer** i oversigtspanelet **Generelt**. enten ved at lade værdien i feltet være eller ved at vælge knappen **AssistEdit** for at vælge fra nummerserien.  
-3.  I feltet **Lokationskode** skal du indtaste den lokation, hvor flytningen finder sted.  
+## Interne flytninger
 
-    Hvis lokationen er angivet som din standardlokation som lagermedarbejder, indsættes lokationskoden automatisk.  
-4.  I feltet **Til placeringskode** skal du indtaste en kode for den placering, du vil flytte elementet til. Til produktionsformål kunne dette f.eks. være koden for den åbne produktionsplacering som defineret på lokationskort eller i arbejdscenteret.  
-5.  I feltet **Forfaldsdato** skal du indtaste den dato, som bevægelsen skal være udført inden.  
-6.  På oversigtspanelet **Linjer** skal du vælge feltet **Varenr.** for at åbne siden **Placeringsindh.oversigt** og vælge den vare, der skal flyttes baseret på dens tilgængelighed på placeringerne. Alternativt kan du vælge handlingen **Hent placeringsindh.** for at udfylde de interne overflytningslinjer på grundlag af dine filtre. Du kan finde flere oplysninger i værktøjstip til handlingen **Hent placeringsindh**.  
+Du kan bruge siden **interne overførsler** til at angive Hent-og Placer-linjer, når der ikke er behov fra et kildedokument. Den interne overførsel fungerer som et regneark til organisering af ting. Du kan ikke behandle den aktuelle bevægelse direkte fra den. Når en linje er udfyldt, skal du bruge handlingen **Opret lagerbevægelse** til at sende linjen til siden **flytning (lager)**, hvor du behandler og registrerer bevægelsen.
 
-    Når du har markeret elementet, udfyldes feltet **Fra placeringskode** automatisk i henhold til det valgte placeringsindhold, men du kan ændre det til en anden placering, hvor varen er tilgængelig.  
+### Sådan flyttes varer som en intern overførsel
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Intern flytning**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Ny**. Sørg for, at feltet **Nr.** er udfyldt i oversigtspanelet **Generelt**.
+3. I feltet **Lokationskode** skal du indtaste den lokation, hvor flytningen finder sted.  
+
+    Hvis lokationen er angivet som din standardlokation som lagermedarbejder, tilføjes lokationskoden automatisk.  
+4. I feltet **Til placeringskode** skal du indtaste en kode for den placering, du vil flytte elementet til.
+
+    Til produktionsformål kunne dette f.eks. være koden for den åbne produktionsplacering som defineret på lokationskort eller i arbejdscenteret.  
+5. I feltet **Forfaldsdato** skal du indtaste den dato, som bevægelsen skal være udført inden.  
+6. Udfyld felterne på linjen efter behov. Interne overførsels dokumenter har én linje pr. bevægelse. Linjen indeholder både Hent-og Placer-handlinger.
+7. Vælg **Varenr.** for at åbne siden med **Placeringsindhold**. Vælg den vare, der skal flyttes, afhængigt af dets tilgængelighed, på placeringer. Du kan også vælge **Hent aktions indhold** for at udfylde de interne overførselslinjer på basis af dine filtre.  
+
+    Når du har valgt varen, udfyldes feltet **Fra placeringskode** automatisk i overensstemmelse med det valgte placeringsindhold. Du kan vælge en placering, hvor varen er disponibel. Feltet **Varenr.** og **Fra placeringskode** relaterede felter. Hvis du ændrer værdien i et felt, ændres værdien i det andet felt muligvis.  
+
+    Feltet **Til placeringskode** udfyldes med den værdi, du har angivet i hovedet. Du kan ændre den på linjen til en anden placeringskode, der ikke er spærret eller dedikeret til specielle formål. Få mere at vide i [Feltet dedikeret](warehouse-how-to-create-individual-bins.md#the-dedicated-field).  
+
+8. Når du har defineret, hvilke placeringer du vil flytte elementet fra og til, skal du angive det antal, der skal flyttes, i feltet **Antal**.  
 
     > [!NOTE]  
-    >  Da felterne **Varenr.** og **Fra placeringskode** er forbundet, kan deres værdier ændres i forhold til hinanden, når du redigerer et af felterne.  
+    > Antallet skal være tilgængeligt på den placering, der er angivet i feltet **Fra placeringskode** .  
 
-    Feltet **Til placeringskode** udfyldes med den værdi, du har angivet i hovedet, men du kan ændre den på linjen til anden placeringskode, der ikke er blokeret eller dedikeret til særlige formål. Du kan finde flere oplysninger om oprettelse af dedikerede placeringer i Dedikeret.  
-7.  Når du har defineret, hvilke placeringer du vil flytte elementet fra og til, skal du angive det antal, der skal flyttes, i feltet **Antal**.  
-
-    > [!NOTE]  
-    >  Antallet skal være tilgængelig i Fra placeringskode.  
-
-8.  Når du er klar til at behandle den interne overførsel, skal du vælge handlingen **Opret flytning (lager)**.  
+9. Når du er klar til at behandle den interne overførsel, skal du vælge handlingen **Opret flytning (lager)**.  
 
     > [!NOTE]  
     >  Når du har oprettet lagerflytningen, slettes de interne overførselslinjer.  
 
-    Du udfører resten af ad hoc-bevægelsen på siden **Flytning (lager)** på samme måde som i en bevægelse, der er baseret på kildedokumenter. Du kan finde flere oplysninger i f.eks. [Flytte komponenter til et handlingsområde i grundlæggende lageropsætninger](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
+Du udfører resten af ad hoc-bevægelsen på siden **Flytning (lager)** på samme måde som i en bevægelse, der er baseret på kildedokumenter.
 
-## <a name="to-move-items-with-the-item-reclassification-journal"></a>Sådan flyttes varer i vareomposteringskladden
+### Sådan registreres læg-på-lager-aktiviteten
 
-I stedet for at bruge lagerbevægelsesdokument kan du registrere flytningen af varer ved at ompostere deres placeringskoder. Du kan finde flere oplysninger i [Tælle, justere og ompostere inventar ved hjælp af kladder](inventory-how-count-adjust-reclassify.md).
+1. Åbn det dokument, der skal registreres bevægelser for, på siden **Flytning (lager)**.  
+2. I feltet **Placeringskode** på pluklinjerne, foreslås den placering, som varerne skal plukkes fra, pr. varens standardplacering. Om nødvendigt kan du ændre placeringen.
+3. Udfør plukaktiviteten, og angiv oplysningerne for den faktiske mængde, der er lagt på lager, i feltet **Håndteringsantal**. Værdien i Hent- og Placer-linjerne skal være den samme. Ellers kan du ikke registrere bevægelsen.
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Vareomposteringskladder**, og vælg derefter det relaterede link.  
-2.  På hver kladdelinje skal du definere placeringer, og som du vil flytte elementer til og fra, ved at udfylde felterne **Placeringskode** og **Ny placeringskode**.  
+    Hvis det er nødvendigt at placere varerne for en enkelt linje på mere end én placering, f.eks. fordi den angivne placering er fuld, skal du bruge funktionen **Opdel linje** i oversigtspanelet **Linjer**. Handlingen opretter en linje for det resterende antal til ekspedition.  
+4. Vælg handlingen **Opret bevægelse**.  
 
-    1.  Hvis du vil flytte hele indholdet i en placering til en anden placering, skal du klikke på handlingen og vælge handlingen **Hent placeringsindh.**.  
-    2.  Udfyld filtrene for at finde den placering, hvis indhold du vil flytte, og klik derefter på knappen **OK**. Kladdelinjerne udfyldes med indholdet af placeringen.  
-3.  Udfyld resten af felterne på de enkelte kladdelinjer.   
-4.  Bogfør omposteringskladden.  
+Der sker følgende under bogføringsprocessen:
 
-    > [!NOTE]  
-    >  I modsætning til transportdokumenter opretter en bevægelse, der er bogført i omposteringskladden, ikke en lageranmodning for at udføre den fysiske opgave.  
+* Lagerposter angiver, at antallet overføres fra flytte placeringer til placeringerne.
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/manage-internal-warehouse-processes/)
+## Sådan flyttes varer i vareomposteringskladden
 
-## <a name="see-also"></a>Se også
+I stedet for at bruge lagerbevægelsesdokument kan du registrere flytningen af varer ved at ompostere deres placeringskoder. Flere oplysninger i [Tælle, justere og ompostere lagerbeholdning ved hjælp af kladder](inventory-how-count-adjust-reclassify.md)
 
-[Logistik](warehouse-manage-warehouse.md)  
-[Lagerbeholdning](inventory-manage-inventory.md)  
+> [!NOTE]  
+> Bevægelser, der er bogført med omposterings kladder, gør ikke bevægelses dokumenterne klar til flytning.  
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Vareomposteringskladder**, og vælg derefter det relaterede link.  
+2. På hver kladdelinje skal du definere placeringer, og som du vil flytte elementer til og fra, ved at udfylde felterne **Placeringskode** og **Ny placeringskode**.  
+
+    1. Hvis du vil flytte hele indholdet i en placering til en anden placering, skal du klikke på handlingen og vælge handlingen **Hent placeringsindh.**.  
+    2. Udfyld filtrene for at finde den placering, hvis indhold du vil flytte, og klik derefter på knappen **OK**. Kladdelinjerne udfyldes med indholdet af placeringen.  
+3. Udfyld resten af felterne på de enkelte kladdelinjer.
+4. Bogfør omposteringskladden.  
+
+## Se relateret [Microsoft-træning](/training/modules/manage-internal-warehouse-processes/)
+
+## Se også
+
+[Warehouse Management-oversigt](design-details-warehouse-management.md)
+[Lager](inventory-manage-inventory.md)  
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
 [Montagestyring](assembly-assemble-items.md)  
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

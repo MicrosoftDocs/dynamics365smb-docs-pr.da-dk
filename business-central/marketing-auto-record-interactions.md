@@ -1,22 +1,16 @@
 ---
 title: Oprette automatisk registrering af interaktioner | Microsoft Docs
-description: Du kan automatisk registrere debitorinteraktioner, f.eks. for salgs-, købs- og servicedokumenter eller telefonopkald.
+description: 'Du kan automatisk registrere debitorinteraktioner, f.eks. for salgs-, købs- og servicedokumenter eller telefonopkald.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: marketing, relationship, prospect, contact, client, customer
+ms.search.keywords: 'marketing, relationship, prospect, contact, client, customer'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6ccf3a51b8a9cbddcddd68ba192cfdbe36149bc3
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075866"
 ---
-# <a name="recording-interactions-with-contacts-automatically"></a>Automatisk registrere interaktioner med kontakter
+# Automatisk registrere interaktioner med kontakter
 Du kan konfigurere program til automatisk at registrere interaktioner for salg, køb og servicedokumenter, følgebreve, mails, telefonopkald som f.eks.:
 
 * Udskrive salgs- eller købsrekvisitioner, ordrer, fakturaer, kreditnotaer, følgebreve.
@@ -28,7 +22,7 @@ Du kan konfigurere program til automatisk at registrere interaktioner for salg, 
 Når du vil oprette automatisk registrering af disse interaktioner, skal du angive interaktionsskabeloner til disse dokumenter og handlinger ved hjælp af siden **Opsætning af interaktionsskbl**.  
 Hvis du vil åbne siden **opsætning af interaktionsskabelon**, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **opsætning af interaktionsskabelon**, og vælg derefter det relaterede link.
 
-## <a name="see-also"></a>Se også
+## Se også
 [Registrering af interaktioner med kontakter](marketing-interactions.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

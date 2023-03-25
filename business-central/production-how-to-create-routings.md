@@ -1,22 +1,16 @@
 ---
 title: Oprette ruter
-description: Dette emne indeholder en oversigt over de forskellige måder, du kan oprette ruter på, herunder nødvendige forudsætninger og oprettelse af rutebindinger.
+description: 'Dette emne indeholder en oversigt over de forskellige måder, du kan oprette ruter på, herunder nødvendige forudsætninger og oprettelse af rutebindinger.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845
+ms.search.form: '99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 9aca8b6308fc5a45e008bc5aba529f51e764c79d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516870"
 ---
-# <a name="create-routings"></a>Oprette ruter
+# Oprette ruter
 
 Produktionsvirksomheder bruger ruter til at visualisere og styre produktionsprocessen.
 
@@ -29,7 +23,7 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
 - Der er oprettet varekort for overordnede varer, der indgår i produktionen. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 - Produktionsressourcer er oprettet. Du kan finde flere oplysninger i [Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md).
 
-## <a name="to-create-a-routing"></a>Sådan oprettes en rute
+## Sådan oprettes en rute
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rute**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -57,7 +51,7 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
 > [!NOTE]  
 > Husk også at genberegne varens standardkostpris fra kortet **Vare**: Vælg handlingen **Produktion**, vælg handlingen **Beregn standardkostpris**, og vælg derefter handlingen **Alle niveauer**.  
 
-## <a name="to-create-routing-links"></a>Sådan oprettes rutebindinger
+## Sådan oprettes rutebindinger
 
 Du kan oprette rutebindinger til at knytte komponenter til bestemte operationer for at bevare deres relationer, selvom produktionsstyklisterne eller ruterne ændres. De letter også yderligere just in time-træk af komponenter på det tidspunkt, hvor den angivne bundne operation starter, og ikke når hele produktionsordren frigives. Du kan finde flere oplysninger i [Udtrække komponenter i henhold til operationsafgang](production-how-to-flush-components-according-to-operation-output.md).  
 
@@ -91,7 +85,7 @@ En anden vigtig fordel er, at bundne komponenter og operationer vises i en logis
 
 De valgte komponenter knyttes nu til de valgte operationer, når du opretter eller opdaterer en produktionsordre ved hjælp af den pågældende produktionsstykliste og rute. Dette er synligt på siden **Prod.ordrekomponenter** under produktionsordren, og her kan du også når som helst fjerne og definerede rutebindingskoder.
 
-## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Sådan tildeles personale, værktøj og kvalitetsmål for ruteoperationer
+## Sådan tildeles personale, værktøj og kvalitetsmål for ruteoperationer
 
 Hvis du skal bruge personer med særlige kvalifikationer, specialviden eller særlige tilladelser til en operation, kan du knytte dem til operationen her. Du kan også tildele værktøjer og kvalitetskrav til operationen. Denne procedure beskriver, hvordan du tildeler medarbejdere. Trinene er de samme for andre typer operationsoplysninger.
 
@@ -101,7 +95,7 @@ Hvis du skal bruge personer med særlige kvalifikationer, specialviden eller sæ
 4. Udfyld felterne på siden **Rute - Mandskab**.  
 5. Vælg knappen **OK** for at afslutte siden. De angivne værdier kopieres og knyttes til operationen.  
 
-## <a name="to-create-a-new-versions-of-a-routing"></a>Sådan oprettes en ny version af ruter
+## Sådan oprettes en ny version af ruter
 
 Versionsprincippet gør det muligt for dig at styre flere versioner af en rute. Ruteversionens struktur svarer til rutens struktur, og den består af ruteversionshovedet og -linjerne. Den egentlige forskel består i startdatoen.  
 
@@ -120,7 +114,7 @@ Versionsprincippet gør det muligt for dig at styre flere versioner af en rute. 
 
 Gyldigheden i tid for versionen angives i feltet **Startdato**.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprette produktionsstyklister](production-how-to-create-production-boms.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  

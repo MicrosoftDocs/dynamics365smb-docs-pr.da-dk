@@ -1,6 +1,6 @@
 ---
 title: Business Central adgang med Microsoft 365-licenser
-description: Få mere at vide om, hvordan brugere kan få adgang til Business Central-data, f. eks. i Microsoft Teams-chat og kanaler, med en Microsoft 365-licens, men ingen Business Central-licens.
+description: 'Få mere at vide om, hvordan brugere kan få adgang til Business Central-data, f. eks. i Microsoft Teams-chat og kanaler, med en Microsoft 365-licens, men ingen Business Central-licens.'
 author: mikebc
 ms.author: mikebc
 ms.reviewer: jswymer
@@ -8,21 +8,16 @@ ms.service: dynamics365-business-central
 ms.topic: overview
 ms.date: 11/22/2022
 ms.custom: bap-template
-ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.openlocfilehash: 8fcef5dca8698d0241e5fc6d37574b3c80b833da
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804441"
+ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
-# <a name="business-central-access-with-microsoft-365-licenses"></a>Business Central-adgang med Microsoft 365-licenser
+
+# Business Central-adgang med Microsoft 365-licenser
 
 Business Central-brugere får tildelt en Dynamics 365 Business Central-licens, som giver dem mulighed for at få vist, ændre og behandle forretningsdata fra enhver brugergrænseflade. For alle andre medarbejdere i hele organisationen, der kun har behov for at få vist data af og til, giver Business central adgang via Microsoft 365.  
 
 Når en organisation har både Dynamics 365 Business Central- og Microsoft 365-abonnement, kan administratorer konfigurere miljøer for at aktivere adgang med Microsoft 365-licenser og vælge nøjagtigt, hvilke tabeller og andre objekter denne kategori af brugere skal have adgang til. Når den er konfigureret, kan medarbejdere, der har en Microsoft 365-licens, men ikke en Business Central-licens, få vist business Central-poster, som deles med dem i Microsoft Teams-chat og kanaler.
 
-## <a name="why-enable-access-with-microsoft-365-licenses"></a>Hvorfor aktivere adgang med Microsoft 365-licenser  
+## Hvorfor aktivere adgang med Microsoft 365-licenser  
 
 - Lås op for stamtræet, som alle medarbejdere i organisationen skal have adgang til.
 
@@ -36,11 +31,11 @@ Når en organisation har både Dynamics 365 Business Central- og Microsoft 365-a
 
 - Øg datasikkerheden ved at reducere behovet for at indsætte skærmstykker af forretningsdata uden for styring af datagrænser.
 
-## <a name="use-rights"></a>Bruge rettigheder
+## Bruge rettigheder
 
 Når en person får adgang til Business Central med en Microsoft 365-licens, giver denne licens brugeren ret til at læse (men ikke skrive) Business Central-data gennem en forenklet brugergrænseflade i Microsoft Teams. I dette afsnit forklares disse rettigheder og begrænsninger, som du kan bruge til at planlægge, hvordan du konfigurerer og får mest muligt ud af denne funktion. Du kan finde flere oplysninger om denne licenstype i forhold til andre Business Central-licenser i [Dynamics 365-licens vejledningen](https://go.microsoft.com/fwlink/?LinkId=866544).
- 
-### <a name="client-access"></a>Klientadgang
+ 
+### Klientadgang
 
 Brugere har ret til at få adgang til Business Central-data i Microsoft Teams. I følgende tabel vises en oversigt over, hvilke metoder du kan bruge til at få adgang til Business Central-tjenesten med denne licens. 
 
@@ -53,15 +48,15 @@ Brugere har ret til at få adgang til Business Central-data i Microsoft Teams. I
 |Business Central-integration med andre Office-programmer|![Nej](media/x-icon.png )|
 |Business Central integreret i alle andre programmer |![Nej](media/x-icon.png )|
 
-### <a name="data-access"></a>Dataadgang 
+### Dataadgang 
 
 Brugerne har ret til at læse tabeldata, men de kan ikke ændre, oprette eller slette poster. Business Central-platformen forhindrer automatisk skrivning til nogen datatabeller.  
 
-### <a name="use-of-objects"></a>Bruge objekter 
+### Bruge objekter 
 
 Adgang til Microsoft 365-licenser forhindrer ikke, hvilke Business Central-objekter eller objektområder der er adgang til. Brugere har adgang til Microsoft Base Application og alle udvidelser, f. eks. tilpasninger og tilføjelsesprogrammer. 
 
-## <a name="simplified-ui"></a>Simplified UI 
+## Simplified UI 
 
 Brugere har ret til et reduceret sæt funktioner og funktioner, der leveres af Business Central i Microsoft Teams. Tabellerne nedenfor viser de bemærkelsesværdige funktioner. Dette er ikke en udtømmende liste og kan ændres.
 
@@ -95,17 +90,17 @@ Business central-klientens funktioner integreret i Teams:
 |Indbygget brugerassistance|![Ja](media/check.png) |Værktøjstip, links til dokumentation|
 |Udvidet brugerassistance |![Nej](media/x-icon.png )|Tips om side og felt, hjælp-rude|
 
-## <a name="minimum-requirements"></a>Minimumkrav
+## Minimumkrav
 
 I dette afsnit beskrives minimumkravene, der skal opfyldes, for at organisationen kan aktivere adgang med Microsoft 365-licenser, og for at individuelle Microsoft Teams-brugere kan få adgang til Business Central-data uden en Business Central-licens.
 
-### <a name="requirements-to-enable-access"></a>Krav til at aktivere adgang
+### Krav til at aktivere adgang
 
 - Business Central Online (SaaS).
 
 - Miljøer skal være af platformversion 21,1 eller nyere.
 
-### <a name="requirements-for-individual-users-to-access-data-in-teams"></a>Krav til individuelle brugere med henblik på at få adgang til data i Teams
+### Krav til individuelle brugere med henblik på at få adgang til data i Teams
 
 - Der skal opnås adgang til til data med Business Central-app til Teams. Brugere skal have installeret Business Central-app til Teams og skal bruge en af de understøttede Teams-klienter. Du kan finde en liste over Teams-klienter, der understøttes af Business Central under [Minimumskrav til brug af Business Central](product-requirements.md#teams).
 
@@ -143,11 +138,11 @@ I dette afsnit beskrives minimumkravene, der skal opfyldes, for at organisatione
 
 - Organisationen skal have mindst én anden bruger, der har fået tildelt en Dynamics 365 Business Central-licens.
 
-## <a name="next-steps"></a>Næste trin
+## Næste trin
 
 - Få et overblik over brugerens adgangsforløb, så du kan planlægge din metode og konfiguration af Business Central, så den passer til virksomhedens behov. Se [brugerens adgangsflow](admin-access-with-m365-license-flow.md).
 - Konfigurere miljøet og brugere til adgang med Microsoft 365-licenser. Se [Konfigurere adgang til Microsoft 365-licenser ](admin-access-with-m365-license-setup.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Business Central og Microsoft Teams-integration](across-teams-overview.md)  

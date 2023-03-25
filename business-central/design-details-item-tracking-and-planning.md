@@ -1,22 +1,16 @@
 ---
 title: Designoplysninger – Varesporing og planlægning | Microsoft Docs
-description: Da de er gemt i reservationssystemet, er varesporingsnumre fuldt koordineret med ordresporingsposter.
+description: 'Da de er gemt i reservationssystemet, er varesporingsnumre fuldt koordineret med ordresporingsposter.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 82979335348a3a007acb34282495949b52b1c096
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142389"
 ---
-# <a name="design-details-item-tracking-and-planning"></a>Designoplysninger: Varesporing og planlægning
+# Designoplysninger: Varesporing og planlægning
 Da de er gemt i reservationssystemet, er varesporingsnumre fuldt koordineret med ordresporingsposter. Dette betyder, at varer, der har varesporingsposter, kan blive tildelt varesporingsnumre. Varer, der har varesporingsnumre, kan derimod blive ordresporingsposter. Du kan finde flere oplysninger i [Designoplysninger: Design af varesporing](design-details-item-tracking-design.md).
 
 Hvis du ønsker yderligere oplysninger om de integrerede systemer, kan du se [Designoplysninger: Reservationer, Ordresporing og Aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md).
@@ -41,7 +35,7 @@ For varer, der bruger specifik varesporing, skal ethvert behov, der har serie- e
 
 Du kan finde flere oplysninger i [Designoplysninger: Overførsler i planlægning](design-details-transfers-in-planning.md).
 
-## <a name="balancing-demand-and-supply"></a>Afstemning af behov og forsyning
+## Afstemning af behov og forsyning
 Hvis en vare kræver specifik varesporing, foretages et ordresporingslink fra alle varens varesporingsbehov til en tilsvarende varesporingsforsyning med den eneste begrænsning, at forsyning skal komme før behov. Hvis der under disse omstændigheder ikke findes varesporingsforsyning, der svarer til varesporingsspecifikke behov, oprettes der en ny forsyning til varesporing straks og uden at overveje ordrestørrelse, planlægningsparametre eller omlægning af eksisterende forsyning af det samme serie- eller lotnummer.
 
 Hvis der er tildelt varesporingsnumre på behovssiden eller på forsyningssiden uden at kræve specifik varesporing, foretages der et ordresporlink fra behovet til denne forsyning baseret på den mest hensigtsmæssige timing og mængde, som i den sædvanlige udlignende procedure. Det angivne varesporingsantal indgår i ordresporingsposten på samme måde, som ethvert angivet varesporingsantal definerer den ene ende af ordresporingslinket. Det betyder, at det varesporingsnummer, der er angivet, bevares, men det er også en del af ordresporingsposten.
@@ -50,7 +44,7 @@ Hvis der er tildelt varesporingsnumre på forsyningssiden uden at kræve specifi
 
 Du kan finde flere oplysninger i [Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md).  
 
-## <a name="see-also"></a>Se også  
+## Se også  
 [Designoplysninger: Design af varesporing](design-details-item-tracking-design.md)  
 [Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)  
 [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md)   

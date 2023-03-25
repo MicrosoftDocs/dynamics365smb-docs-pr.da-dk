@@ -1,26 +1,20 @@
 ---
 title: Konfigurere brugerkonti til integration med Microsoft Dataverse | Microsoft Docs
-description: Få at vide, hvordan du konfigurerer brugerkonti, som apps bruger til at udveksle data, og som brugere anvender til at få adgang til og synkronisere data i de pågældende apps.
+description: 'Få at vide, hvordan du konfigurerer brugerkonti, som apps bruger til at udveksle data, og som brugere anvender til at få adgang til og synkronisere data i de pågældende apps.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7683c301131fa5729d74e1c6ef70880db7f3327d
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607333"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Konfigurere brugerkonti til integration med Microsoft Dataverse
+# Konfigurere brugerkonti til integration med Microsoft Dataverse
 
 Denne artikel indeholder en oversigt over opsætning af de brugerkonti, der kræves til at integrere [!INCLUDE[prod_short](includes/cds_long_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="set-up-the-administrator-user-account"></a>Konfigurere administratorbrugerkontoen
+## Konfigurere administratorbrugerkontoen
 
 Du skal tilføje din administratorbrugerkonto for [!INCLUDE[prod_short](includes/prod_short.md)] som en bruger i [!INCLUDE[cds_long](includes/cds_long_md.md)]. Når du konfigurerer forbindelsen mellem [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)], skal vi bruge denne konto én gang for at installere og konfigurere nogle påkrævede komponenter.
 
@@ -29,7 +23,7 @@ Du skal tilføje din administratorbrugerkonto for [!INCLUDE[prod_short](includes
 >
 > Når forbindelses konfiguration er fuldført, kan denne [!INCLUDE[prod_short](includes/cds_long_md.md)]-bruger fjernes. Integrationen fortsætter med at bruge den brugerkonto, der er automatisk oprettet specielt til integrationen.
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Tilladelser og sikkerhedsroller for brugerkonti i [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Tilladelser og sikkerhedsroller for brugerkonti i [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Basisintegrationsløsningen opretter følgende roller i [!INCLUDE[cds_long](includes/cds_long_md.md)] til integrationen:
 
@@ -135,7 +129,7 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Integration med Microsoft Dataverse](admin-common-data-service.md)  
 [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

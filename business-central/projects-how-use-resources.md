@@ -1,23 +1,17 @@
 ---
 title: Registrere og regulere ressourceforbrug og priser
-description: Beskriver, hvordan du kan registrere ressourceforbrug eller forbrug, der er knyttet til en sag, for at holde styr på og styre omkostninger, priser, og arbejdstyper.
+description: 'Beskriver, hvordan du kan registrere ressourceforbrug eller forbrug, der er knyttet til en sag, for at holde styr på og styre omkostninger, priser, og arbejdstyper.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, capacity, staff
-ms.search.form: 201,206, 207, 271, 493
+ms.search.keywords: 'project management, capacity, staff'
+ms.search.form: '201,206, 207, 271, 493'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9e2d8b51381e3fd89f9fab423485fc52cee46071
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517364"
 ---
-# <a name="use-resources-for-jobs"></a>Bruge ressourcer til sager
+# Bruge ressourcer til sager
 
 Du registrerer forbruget af ressourcer i jobkladden, for at holde styr på omkostninger, priser og de arbejdstyper, der er knyttet til sagerne. Du kan finde flere oplysninger i [Registrere forbrug for sager](projects-how-record-job-usage.md).
 
@@ -26,17 +20,17 @@ Du registrerer forbruget af ressourcer i jobkladden, for at holde styr på omkos
 
 Du kan også bogføre forbruget af en ressource i en ressourcekladde. Posteringer i en ressourcekladde har ingen indflydelse på finanskontiene.
 
-## <a name="to-assign-resources-to-jobs"></a>Sådan tildeles ressourcer til sager
+## Sådan tildeles ressourcer til sager
 
 Du kan tildele ressourcer til sager ved at oprette sagsplanlægningslinjer for sagen. Du kan finde flere oplysninger i [Oprette sager](projects-how-create-jobs.md).
 
-## <a name="to-record-resource-usage-for-a-job"></a>Sådan registreres ressourceforbrug for en sag
+## Sådan registreres ressourceforbrug for en sag
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagskladder**, og vælg derefter det relaterede link.
 2. Åbn en relevante sagskladde, og udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Når kladden er fuldført, skal du vælge handlingen **Bogfør**.
 
-## <a name="to-adjust-resource-prices"></a>Sådan reguleres ressourcepriser
+## Sådan reguleres ressourcepriser
 
 Hvis du vil ændre kost- eller salgspriser for et større antal ressourcer, kan du anvende en kørsel.  
 
@@ -46,7 +40,7 @@ Hvis du vil ændre kost- eller salgspriser for et større antal ressourcer, kan 
 > [!NOTE]  
 > Denne kørsel kan ikke bruges til at ændre eller oprette alternative salgs- eller købspriser for ressourcer. Den ændrer kun indholdet af feltet på ressourcekortet for feltet **Reguler felt**, som du har markeret i kørslen. Reguleringen træder i kraft med det samme for ressourcen, så du bør kontrollere reguleringsfaktorerne før kørslen.
 
-## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>Sådan hentes forslag til ændring af ressourcepriser ud fra eksisterende alternative priser
+## Sådan hentes forslag til ændring af ressourcepriser ud fra eksisterende alternative priser
 
 Hvis du allerede har angivet en alternativ ressourcepris for nogle ressourcer, kan du bruge en kørsel til at angive flere alternative ressourcepriser.
 
@@ -55,7 +49,7 @@ Hvis du allerede har angivet en alternativ ressourcepris for nogle ressourcer, k
 3. Vælg knappen **OK**.  
 4. Siden **Ressourceprisforslag** viser resultatet af kørslen, når den er færdig.
 
-## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Sådan henter du forslag til ændring af ressourcepriser ud fra standardpriser
+## Sådan henter du forslag til ændring af ressourcepriser ud fra standardpriser
 
 Hvis du vil angive flere alternative ressourcepriser ud fra standardpriserne på ressourcekortet, kan du anvende en kørsel.  
 
@@ -64,7 +58,7 @@ Hvis du vil angive flere alternative ressourcepriser ud fra standardpriserne på
 3. Vælg knappen **OK**.  
 4. Åbn siden **Ressourceprisforslag** for at se resultatet af kørslen, når den er færdig.
 
-## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Sådan henter du forslag til ændring af ressourcepriser ud fra standardpriser
+## Sådan henter du forslag til ændring af ressourcepriser ud fra standardpriser
 
 Hvis du allerede har angivet en alternativ ressourcepris for nogle ressourcer, kan du bruge en kørsel til at angive flere alternative ressourcepriser.
 
@@ -73,7 +67,7 @@ Hvis du allerede har angivet en alternativ ressourcepris for nogle ressourcer, k
 3. Vælg knappen **OK**.  
 4. Åbn siden **Ressourceprisforslag** for at se resultatet af kørslen, når den er færdig.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Projektstyring](projects-manage-projects.md)  
 [Finans](finance.md)  

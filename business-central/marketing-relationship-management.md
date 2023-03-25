@@ -1,24 +1,18 @@
 ---
 title: Relationsstyring
-description: Relationsstyringsfunktionerne i understøtter din salgsindsats, og du kan få adgang til oplysninger om kontakter og kundeemner, så du kan betjene kunderne effektivt.
+description: 'Relationsstyringsfunktionerne i understøtter din salgsindsats, og du kan få adgang til oplysninger om kontakter og kundeemner, så du kan betjene kunderne effektivt.'
 documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: contact, prospect, client
-ms.search.forms: 9076, 9026
+ms.search.keywords: 'contact, prospect, client'
+ms.search.forms: '9076, 9026'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3dec95b484bce34c2eff2cbc49510e54f871f4ef
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137857"
 ---
-# <a name="managing-relationships"></a>Styre relationer
+# Styre relationer
 Relationsstyringsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)] hjælper dig med at styre og understøtte din salgsindsats. Med disse funktioner får du adgang til dækkende og præcise oplysninger, så du kan fokusere på interaktioner med dine foretrukne kunde-/kontaktmålgrupper.
 
 Gode fremgangsmåder ved salg og marketing drejer sig primært om, hvordan du træffer de bedste beslutninger på det rigtige tidspunkt. [!INCLUDE[prod_short](includes/prod_short.md)] stiller med rettidigt at stille en præcis oversigt til rådighed over dine kontaktoplysninger, så du kan betjene dine vordende kunder mere effektivt og øge kundetilfredsheden.

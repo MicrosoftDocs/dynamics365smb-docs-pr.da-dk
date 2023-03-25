@@ -7,25 +7,20 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize, import, implement
+ms. search.keywords: 'app, add-in, manifest, customize, import, implement'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 38a98bacb8fcef7e57d1f4e4d7339cac5ca3814b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529537"
 ---
-# <a name="cloud-migration-base-extension"></a>Udvidelser af skymigreringsbase
 
-Med denne udvidelse kan du gennemgå processen for konfiguration af en forbindelse mellem din lokale løsning og dit [!INCLUDE [prod_short](includes/prod_short.md)]-onlinemiljø, når du starter migreringen til skyen.  
+# Udvidelser af skymigreringsbase
 
-Når forbindelsen er konfigureret, kan du overføre data fra din lokale løsning til din online [!INCLUDE[prod_short](includes/prod_short.md)]. Udvidelsen fungerer sammen med en datareplikeringsudvidelsen, der er tilgængelig til din specifikke lokale løsning. Du kan finde flere oplysninger i [Kørsel af skyoverflytningsværktøj](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
+Med denne udvidelse kan du gennemgå processen for konfiguration af en forbindelse mellem din lokale løsning og dit [!INCLUDE [prod_short](includes/prod_short.md)]-onlinemiljø, når du starter migreringen til skyen.  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/connect-intelligent-cloud-dynamics-365-business-central/)
+Når forbindelsen er konfigureret, kan du overføre data fra din lokale løsning til din online [!INCLUDE[prod_short](includes/prod_short.md)]. Udvidelsen fungerer sammen med en datareplikeringsudvidelsen, der er tilgængelig til din specifikke lokale løsning. Du kan finde flere oplysninger i [Kørsel af skyoverflytningsværktøj](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
-## <a name="see-also"></a>Se også
+## Se relateret [Microsoft-træning](/training/modules/connect-intelligent-cloud-dynamics-365-business-central/)
+
+## Se også
 
 [Køre skyoverflytningsværktøj](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Intelligente skyudvidelser til skymigrering](ui-extensions-data-replication.md)  

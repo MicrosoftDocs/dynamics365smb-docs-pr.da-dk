@@ -1,6 +1,6 @@
 ---
 title: Allokere omkostninger til IC-partnere | Microsoft-dokumenter
-description: Få mere at vide om, hvordan momsindstillinger for debitorer og kreditorer styrer om, og hvordan moms beregnes.
+description: 'Få mere at vide om, hvordan momsindstillinger for debitorer og kreditorer styrer om, og hvordan moms beregnes.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6f8634ae4431038a6ac3ea66bc5b1ead0a21d30
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077289"
 ---
-# <a name="allocate-costs-to-intercompany-partners"></a>Allokere omkostninger til IC-partnere
+# Allokere omkostninger til IC-partnere
 Når du bruger Intercompany-bogføringer til at overføre dokumenter mellem partner firmaer, har momsrelaterede indstillinger (primært den momsvirksomhedsbogføringsgruppe), der er tildelt debitor-eller kreditorkontiene (associeret med IC-partneren), at bestemme, om og hvordan moms skal beregnes og registreres. Du kan også foretage omkostningsfordelinger direkte fra en købsordre til partnervirksomheder. Hvis du f.eks. registrerer en købsfaktura fra en ekstern leverandør, og du vil distribuere nogle eller alle omkostninger til en eller flere IC-partnere.
 
 Du kan allokere omkostninger til en eller flere IC-partnere på følgende måde:
@@ -24,7 +18,7 @@ Du kan allokere omkostninger til en eller flere IC-partnere på følgende måde:
 * **IC-finanskladder** – disse kladder er nyttige, når en service købes. F. eks. Når en modervirksomhed betjener en service for at opsætte computersystemer i to datterselskaber. Fakturaen sendes til moderselskabet, men omkostningerne fordeles til partnerne. Du kan finde flere oplysninger i [Arbejde med IC-dokumenter og kladder](intercompany-how-work-documents-journals.md).
 * Købsordrer og fakturaer-brug af købsdokumenter er nyttige, når du f.eks. opererer med køb, f.eks. driftsudgifter, er centraliseret i ét regnskab og derefter allokeret til IC-partnerne.
 
-## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Sådan allokeres omkostninger vha. en IC-finanskladde
+## Sådan allokeres omkostninger vha. en IC-finanskladde
 Hvis du vil angive en linje i en IC-finanskladde, skal du følge disse trin. 
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncerninterne finanskladder**, og vælg derefter det relaterede link.
@@ -48,7 +42,7 @@ Hvis du vil angive en linje i en IC-finanskladde, skal du følge disse trin.
    1. Udfyld de resterende felter efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Gentag disse trin for hver IC-partner, der skal dele i omkostningen.
 1. Hvis du vil bogføre dokumentet og allokere omkostningerne, skal du vælge **Bogfør**.  
 
-## <a name="to-allocate-costs-using-a-purchase-document"></a>Sådan allokeres omkostninger ved hjælp af et købsdokument
+## Sådan allokeres omkostninger ved hjælp af et købsdokument
 Følgende procedure beskriver, hvordan du allokerer omkostninger ved hjælp af en købsfaktura. Fremgangsmåden er den samme for købsordrer.
 
 > [!NOTE]
@@ -66,12 +60,12 @@ Følgende procedure beskriver, hvordan du allokerer omkostninger ved hjælp af e
 1. Udfyld de resterende felter efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 1. Du kan bogføre købsordren ved at vælge **Bogfør**.
 
-## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Send de allokerede omkostninger til IC-partnere
+## Send de allokerede omkostninger til IC-partnere
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **IC-udbakketransaktioner**, og vælg derefter det relaterede link.
 2. Vælg de linjer, der skal sendes, og vælg derefter handlingen **Send til IC-partner**. 
 3. Hvis du vil fordele omkostningerne, skal du vælge handlingen **Fuldfør linjehandlinger**.
 
-## <a name="calculating-vat-for-cost-distributions"></a>Beregne moms for omkostningsfordelinger
+## Beregne moms for omkostningsfordelinger
 Når du bruger et dokument til at fordele omkostninger til IC-partnere, er der to indstillinger for moms, der skal være opmærksom på følgende: 
 * Indstillingerne på finanskontoen for udgifter:
    * Hvis virksomheds-eller momsvirksomhedsbogføringsgrupperne er oprettet på finanskontoen, afhænger beregningen af grupperne og produktgrupperne fra dokumentlinjen.
@@ -83,7 +77,7 @@ Når du bruger et dokument til at fordele omkostninger til IC-partnere, er der t
 > [!NOTE]
 > Det er vigtigt at validere både IC-partneropsætningen og finanskontoopsætningen (for den udgiftskonto, der bruges til omkostningsfordelingen), før du allokerer omkostninger til IC-partnere.
 
-## <a name="see-also"></a>Se også
+## Se også
 [Konfigurere mellemregning](intercompany-how-setup.md)  
 [Administrere Intercompany-transaktioner (IC)](intercompany-manage.md)  
 [Finans](finance.md)  

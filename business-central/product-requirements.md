@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.keywords: version
 ms.date: 08/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 34fc581e0140826e957b50b649d3b72573403552
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607684"
 ---
-# <a name="minimum-requirements-for-using-business-central"></a>Minimumkrav til brug af Business Central
+# Minimumkrav til brug af Business Central
 
 Før du åbner [!INCLUDE[prod_short](includes/prod_short.md)] online, anbefales det, at du kontrollerer, at din computer eller mobilenhed opfylder eller overstiger minimumsystemkravene til produktet. Denne artikel indeholder kravene.  
 
-## <a name="browsers"></a>Webbrowsere
+## Webbrowsere
 
 **Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] er udviklet til brug med den aktuelle version af Microsoft Edge.
   
@@ -31,21 +25,21 @@ Før du åbner [!INCLUDE[prod_short](includes/prod_short.md)] online, anbefales 
 > [!TIP]
 > Installer [!INCLUDE[prod_short](includes/prod_short.md)] [appen i menuen Start](install-desktop-app.md#install-the-app-for-business-central-online) ved hjælp af Microsoft Edge- eller Chrome-browsere.
 
-## <a name="mobile-devices"></a>Mobilenheder
+## Mobilenheder
 
 **Android (tablet og telefon):** En af de seneste tre overordnede operativsystemversioner og deres opdateringer.
 
 **iOS (iPad og iPhone):** En af de seneste tre overordnede operativsystemversioner og deres opdateringer.
 
-## <a name="outlook"></a>Outlook
+## Outlook
 
-**Outlook-programmer:** For at kunne bruge [!INCLUDE[prod_short](includes/prod_short.md)] online som din virksomheds indbakke i Outlook, skal du have Outlook 2019 eller nyere, Outlook som webmail, Outlook til iOS eller Outlook til Android. Organisationen skal også bruge Microsoft 365. Du kan ikke bruge [!INCLUDE[prod_short](includes/prod_short.md)] online som din virksomhedsindbakke i Outlook, hvis din virksomhed bruger Exchange Server i det lokale miljø. 
+**Outlook-programmer:** For at bruge [!INCLUDE[prod_short](includes/prod_short.md)] online som din virksomheds indbakke i Outlook, skal du have Outlook 2019 eller nyere, Outlook som webmail, Outlook til iOS eller Outlook til Android. Organisationen skal også bruge Microsoft 365. Du kan ikke bruge [!INCLUDE[prod_short](includes/prod_short.md)] online som din virksomhedsindbakke i Outlook, hvis din virksomhed bruger Exchange Server i det lokale miljø. 
 
 **Webbrowsere:** Når du bruger [!INCLUDE[prod_short](includes/prod_short.md)] som din virksomheds indbakke i en browser, kræver tilføjelsesprogrammet, at computeren kører en af de anførte understøttede webbrowsere, der er angivet tidligere i denne artikel.
 
-**Platforme:** Når du bruger [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-tilføjelsesprogrammet i Outlook til iOS, Outlook til Android, kræver tilføjelsesprogrammet, at mobilenheden kører en af de anførte understøttede mobilenheder til [!INCLUDE[prod_short](includes/prod_short.md)].  
+**Platforme:** Når du bruger [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-tilføjelsesprogrammet i Outlook til iOS eller Outlook til Android, kræver tilføjelsesprogrammet, at mobilenheden kører en af de anførte understøttede mobilenheder til [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="teams"></a>Teams
+## Teams
 
 **Teams-desktopapps:** [!INCLUDE[prod_short](includes/prod_short.md)]-appen til Teams understøtter den nyeste version af Teams Windows-desktopklienten. 
 
@@ -55,11 +49,11 @@ Før du åbner [!INCLUDE[prod_short](includes/prod_short.md)] online, anbefales 
 
 **Understøttet abonnement:** [!INCLUDE[prod_short](includes/prod_short.md)]-appen for Teams understøtter Microsoft 365-forretnings- og virksomhedsabonnementer, men ikke selvstændige Teams-abonnementer, f. eks Microsoft Teams (gratis) eller Microsoft Teams Essentials.
 
-## <a name="excel"></a>Excel
+## Excel
 
 **Rediger i Excel:** Når du vil bruge Excel-tilføjelsesprogrammet til at foretage ændringer i Excel og overføre ændringer til [!INCLUDE[prod_short](includes/prod_short.md)], skal du bruge Excel 2019 eller nyere. Du kan finde flere oplysninger i [Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a> Sådan bruger du Business Central-administrationscenter
+## <a name="TAC"></a> Sådan bruger du Business Central-administrationscenter
 
 Administrationscenteret er designet til at fungere sammen med den aktuelle version af følgende browsere:
 
@@ -68,11 +62,11 @@ Administrationscenteret er designet til at fungere sammen med den aktuelle versi
 - Firefox til Windows
 - Safari til macOS
 
-## <a name="use-business-central-on-premises"></a>Bruge Business Central lokalt
+## Bruge Business Central lokalt
 
 Hvis du vil installere Business Central i det lokale miljø, skal du kontrollere systemkravene. Du kan finde flere oplysninger i [Systemkrav til Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20) og [Installationsoversigt](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Blive køreklar](ui-get-ready-business.md)  
 [Systemkrav til Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20)  

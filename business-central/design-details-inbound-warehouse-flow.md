@@ -1,114 +1,152 @@
 ---
 title: Designoplysninger - Indgående lagerflow
-description: Indgående lagerflow starter, når der ankommer varer til lagerstedet. Varer registreres og matches til indgående kildedokumenter til sidst.
-author: SorenGP
+description: 'Den indgående lagerbevægelse starter, når der ankommer varer til virksomhedens lager, og de registreres og matches med indgående kildedokumenter.'
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: de7a468377f454c01d45742f4510cb9978340ae6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131999"
+ms.search.keywords: null
+ms.date: 11/14/2022
+ms.author: bholtorf
 ---
-# <a name="design-details-inbound-warehouse-flow"></a>Designoplysninger: Indgående lagerflow
-Den indgående strøm i et lager begynder, når der ankommer varer på lageret i virksomheden, som enten er modtaget fra eksterne kilder eller fra et andet sted i firmaet. En medarbejder registrerer varerne, typisk ved at scanne en stregkode. Fra modtagelsesområdet udføres lageraktiviteterne på forskellige kompleksitetsniveauer for at bringe varerne ind i lagerområdet.  
+# Designoplysninger: Indgående lagerflow
 
- Hvert element identificeres og afstemmes med et tilsvarende indgående kildedokument. Der findes følgende indgående kildedokumenter:  
+Den indgående strøm i et lager begynder, når der ankommer varer på lageret i virksomheden, som enten er modtaget fra eksterne kilder eller fra et andet sted i firmaet. Processen med at modtage indgående ordrer består principielt af to aktiviteter:
 
-- Købsordre  
-- Indgående overflytningsordre  
-- Salgsreturvareordre  
+* Modtage varer ved lagermodtagelse, hvor du kan identificere varerne, sammenligne dem med et kildedokument og registrere det modtagne antal. 
+* Lægge varer på lager og registrere, hvor de er placeret.
 
-Desuden findes følgende interne kildedokumenter, der fungerer ligesom indgående kilder:  
+Kildedokumenterne for indgående lagerflows er:
 
-- Produktionsordre med afgangsbogføring  
-- Montageordre med afgangsbogføring  
+* Købsordrer  
+* Indgående overflytningsordrer  
+* Salgsreturordrer  
 
-De sidste to udgør indgående strømme til lageret fra interne operationsområder. Du kan finde flere oplysninger om lagerekspedition for interne indgående og udgående processer i [Designoplysninger: Internt lagerflow](design-details-internal-warehouse-flows.md).  
+> [!NOTE]
+> Produktions- og montage-output repræsenterer også indgående kildedokumenter. Du kan finde flere oplysninger om lagerekspedition for interne indgående og udgående processer i [Designoplysninger: Internt lagerflow](design-details-internal-warehouse-flows.md).  
 
-Processer og brugergrænsefladedokumenter i indgående lagerstrømme er forskellige for grundlæggende og avancerede lageropsætninger. Den væsentligste forskel er, at aktiviteter udføres ordre for ordre i grundlæggende lageropsætninger, og de er fælles for flere ordrer i avancerede lageropsætninger. Du kan finde flere oplysninger om forskellige lagerkompleksitetsniveauer i [Designoplysninger: Oversigt over logistik](design-details-warehouse-setup.md)  
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan du modtage varer og indsætte dem på en af fire måder som beskrevet i følgende tabel.
 
-I [!INCLUDE[prod_short](includes/prod_short.md)] kan de indgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner, afhængigt af kompleksitetsniveauet på lageret.  
+|Metode|Indgående proces|Kræv modtagelse|Kræv læg-på-lager|Sværhedsgrad (få mere at vide på [Warehouse Management-oversigt](design-details-warehouse-management.md))|  
+|------------|---------------------|--------------|----------------|------------|  
+|A|Bogfør lagermodtagelse og læg-på-lager fra ordrelinjen|||Ingen dedikeret lageraktivitet.|  
+|B|Bogfør lagermodtagelse og læg-på-lager fra et læg-på-lager-dokument||Aktiveret|Basis: Ordre for ordre.|  
+|U|Bogfør lagermodtagelse og læg-på-lager fra et lagermodtagelsesdokument|Aktiveret||Basis: Konsolideret modtagelse/levering for flere ordrer.|  
+|D|Bogfør modtagelse fra et lagermodtagelsesdokument, og bogfør læg-på-lager fra lagerets læg-på-lager-dokument|Aktiveret|Aktiveret|Avanceret|  
 
-|Metode|Indgående proces|Placering|Modtagelser|Læg-på-lager-aktiviteter|Kompleksitetsniveau (Se [Designoplysninger: Opsætning af lager](design-details-warehouse-setup.md))|  
-|------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
-|T|Bogfør lagermodtagelse og læg-på-lager fra ordrelinjen|X|||2|  
-|B|Bogfør lagermodtagelse og læg-på-lager fra et læg-på-lager-dokument|||X|3|  
-|L|Bogfør lagermodtagelse og læg-på-lager fra et lagermodtagelsesdokument||X||5-4-6|  
-|D|Bogfør modtagelse fra et lagermodtagelsesdokument, og bogfør læg-på-lager fra lagerets læg-på-lager-dokument||X|X|5-4-6|  
+Valg af metode afhænger af virksomhedens accepterede praksis og graden af organisationens kompleksitet. Nedenfor er vist nogle eksempler, som kan være en hjælp.
 
-Valg af metode afhænger af virksomhedens accepterede praksis og graden af organisationens kompleksitet. I et ordre for ordre-lagermiljø, hvor de fleste af lagermedarbejdere arbejder direkte med ordredokumenter, kan en virksomhed beslutte at bruge metode A. Et ordre for ordre-lagersted, der har en mere kompleks læg-på-lager-proces, eller hvor der er særligt lagerpersonale til at udføre lagerfunktioner, kan beslutte at adskille deres læg-på-lager-funktioner fra ordredokumentet, metode B. Desuden vil firmaer, der har brug for at planlægge håndtering af flere ordrer, måske finde det nyttigt at bruge lagermodtagelsesdokumenter, metode C og D.  
+* I lagermiljøet ordre for ordre, hvor de fleste lagermedarbejdere arbejder direkte med ordredokumenter, kan du vælge at bruge metode A. 
+* Et ordre for ordre-lagersted, der har en mere kompleks læg-på-lager-proces, eller hvor lagerpersonalet adskiller deres læg-på-lager-aktiviteter fra ordredokumentet, kan bruge metode B.
+* Virksomheder, der har brug for at planlægge håndteringen af flere ordrer, kan være nyttig i stedet for at bruge lagermodtagelsesdokumenter, metode C og D.  
 
-Handlinger, der modtager og lægger væk, kombineres i metoderne A, B og C i ét trin, hvor de tilsvarende dokumenter bogføres som modtaget. I D-metoden bogføres modtagelsen først for at genkende forøgelsen af lager, så varerne er tilgængelige til salg. Lagermedarbejderen registrerer derefter læg-på-lager-aktiviteten for at gøre varerne disponible til pluk.  
+I metoderne A, B og C kombineres i metoderne i ét trin, hvor de tilsvarende dokumenter bogføres som modtaget. I D-metoden bogføres modtagelsen først for at registrere forøgelsen af lager, så varerne er tilgængelige til salg. Lagermedarbejderen registrerer derefter læg-på-lager-aktiviteten for at gøre varerne disponible til pluk for udgående ordrer. 
 
-## <a name="basic-warehouse-configurations"></a>Grundlæggende lageropsætninger  
+> [!NOTE]
+> Mens læg-på-lager-aktiviteter og læg-på-lager-aktiviteter i det samme lyder som forskellige dokumenter og bruges i forskellige processer.
+> * Den læg-på-lager-aktivitet, der anvendes i metode B sammen med registreringen af oplysninger om læg-på-lager-aktiviteter, bogfører også modtagelsen af kildedokumentet.
+> * Den læg-på-lager-aktivitet, der bruges i metode D, kan ikke bogføres og registrerer kun læg-på-lager. Registreringen gør varerne tilgængelige for viderebehandlingen, men bogfører ikke modtagelsen. I den indgående flow kræver læg-på-lager-aktiviteten en lagermodtagelse.
+
+> [!NOTE]
+> Mens læg-på-lager-aktiviteter og læg-på-lager-aktiviteter i det samme lyder som forskellige dokumenter og bruges i forskellige processer.
+> * Den læg-på-lager-aktivitet, der anvendes i metode B sammen med registreringen af oplysninger om læg-på-lager-aktiviteter, bogfører også modtagelsen af kildedokumentet.
+> * Den læg-på-lager-aktivitet, der bruges i metode D, kan ikke bogføres og registrerer kun læg-på-lager. Registreringen gør varerne tilgængelige for viderebehandlingen, men bogfører ikke modtagelsen. I den indgående flow kræver læg-på-lager-aktiviteten en lagermodtagelse.
+
+## Ingen dedikeret lageraktivitet
+
+Følgende artikler indeholder oplysninger om, hvordan du behandler modtagelser af kildedokumenter, hvis du ikke har dedikerede lageraktiviteter.
+
+* [Registrere køb](purchasing-how-record-purchases.md)
+* [Overflytningsordrer](inventory-how-transfer-between-locations.md)
+* [Gennemgå salgsreturvareordrer](sales-how-process-sales-returns-orders.md)
+
+## Grundlæggende lageropsætninger  
+
+I en grundlæggende lageropsætning er funktionen **Kræv læg-på-lager** slået til, men indstillingen **Kræv modtagelse** er slået fra på lokationskortet for lokationen.
+
 I følgende diagram illustreres de indgående lagerstrømme af dokumenttype i grundlæggende lageropsætninger. Tallene i diagrammet svarer til trinnene i afsnittene efter diagrammet.  
 
-![Indgående flow i grundlæggende lageropsætninger.](media/design_details_warehouse_management_inbound_basic_flow.png "Indgående flow i grundlæggende lageropsætninger")  
+:::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="Indgående flow i grundlæggende lageropsætninger":::
 
-### <a name="1-release-source-document--create-inventory-put-away"></a>1: Frigiv kildedokument / Opret læg-på-lager  
-Når varerne modtages på lageret, frigiver den bruger, der er ansvarlig for modtagelse, kildedokumentet, f.eks. en indkøbsordre eller en indgående overflytningsordre ordre, for at signalere til lagermedarbejdere, at de modtagne varer kan lægges på lager. Alternativt kan brugeren oprette læg-på-lager-dokumenter for de enkelte ordrelinjer på en push-måde, baseret på angivne placeringer og antal, der skal håndteres.  
+### 1: Frigiv et kildedokument for at oprette en anmodning om en læg-på-lager-aktivitet  
 
-### <a name="2-create-inbound-request"></a>2: Opret indgående anmodning  
-Når det indgående kildedokument frigives, oprettes der automatisk en indgående lageranmodning. Den indeholder referencer til kildebilagstype og -nummer og er ikke synlig for brugeren.  
+Når du modtager varer, skal du frigive kildedokumentet, f. eks. en købsordre eller en indgående overflytningsordre. Når du frigiver dokumentet, bliver varerne klar til at blive lagt på lager. Du kan også oprette læg-på-lager-dokumenter for de enkelte ordrelinjer på en push-måde, baseret på angivne placeringer og antal, der skal håndteres.  
 
-### <a name="3-create-inventory-put-away"></a>3: Opret læg-på-lager  
-På siden **Læg-på-lager** modtager lagermedarbejderen på en pull-måde de ventende kildedokumentlinjer, der er baseret på indgående lageranmodninger. Alternativt er læg-på-lager-linjerne allerede oprettet på en push-måde af den bruger, der er ansvarlig for kildedokumentet.  
+### 2: Opret et læg-på-lager  
 
-### <a name="4-post-inventory-put-away"></a>4: Bogfør læg-på-lager  
+På siden **Læg-på-lager** modtager lagermedarbejderen på en pull-måde de ventende kildedokumentlinjer, der er baseret på indgående lageranmodninger. Når du opretter kildedokumentet, kan du også oprette læg-på-lager-linjer.  
+
+### 3: Bogfør læg-på-lager  
+
 På hver linje for varer, der er lagt på lager, helt eller delvist, udfylder lagermedarbejderen feltet **Antal** og bogfører derefter lagt på lager. Kildedokumenter, der er knyttet til læg-på-lager, bogføres som modtaget.  
 
-Der oprettes positive vareposter og lagerposter, og læg-på-lager-anmodningen slettes, hvis den er fuldt håndteret. Feltet **Modtaget \(antal\)** opdateres f.eks. på den indgående kildedokumentlinje. Der oprettes f.eks. et bogført modtagelsesdokument, der afspejler købsordren og de modtagne varer.  
+* Der oprettes positive vareposter
+* Lagerposter oprettes til lokationer, der kræver placeringskode på alle varetransaktioner.
+* Læg-på-lager-anmodningen slettes, hvis den håndteres fuldt ud. Feltet **Modtaget \(antal\)** opdateres f.eks. på den indgående kildedokumentlinje.
+* Der oprettes f.eks. et bogført modtagelsesdokument, der afspejler købsordren og de modtagne varer.  
 
-## <a name="advanced-warehouse-configurations"></a>Avancerede lageropsætninger  
-I følgende diagram illustreres den indgående lagerstrøm af dokumenttype i avancerede lageropsætninger. Tallene i diagrammet svarer til trinnene i afsnittene efter diagrammet.  
+## Avancerede lageropsætninger  
 
-![Indgående flow i avancerede lageropsætninger.](media/design_details_warehouse_management_inbound_advanced_flow.png "Indgående flow i avancerede lageropsætninger")  
+I en avanceret Lageropsætning skal **Kræv modtagelse**-til/fra være aktiveret på lokationskort siden for lokationen. Funktionen **Kræv læg-på-lager** er valgfrit.
 
-### <a name="1-release-source-document"></a>1: Frigiv kildedokument  
-Når varerne modtages på lageret, frigiver den bruger, der er ansvarlig for modtagelse, kildedokumentet, f.eks. en indkøbsordre eller en indgående overflytningsordre ordre, for at signalere til lagermedarbejdere, at de modtagne varer kan lægges på lager.  
+I følgende diagram illustreres den indgående lagerstrøm af dokumenttype. Tallene i diagrammet svarer til trinnene i afsnittene efter diagrammet.  
 
-### <a name="2-create-inbound-request"></a>2: Opret indgående anmodning  
-Når det indgående kildedokument frigives, oprettes der automatisk en indgående lageranmodning. Den indeholder referencer til kildebilagstype og -nummer og er ikke synlig for brugeren.  
+:::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="Indgående flow i avancerede lageropsætninger.":::
 
-### <a name="3-create-warehouse-receipt"></a>3: Opret lagermodtagelse  
-På siden **Lagermodtagelse** modtager den bruger, der er ansvarlig for modtagelse af varer, de ventende kildedokumentlinjer, der er baseret på den indgående lageranmodning. Flere kildedokumentlinjer kan kombineres i et lagermodtagelsesdokument.  
+### 1: Frigiv kildedokument  
 
-Brugeren udfylder feltet **Håndteringsantal** og vælger den modtagende zone og placering, hvis det er nødvendigt.  
+Når du modtager varer, skal du frigive kildedokumentet, f. eks. en købsordre eller en indgående overflytningsordre. Når du frigiver dokumentet, bliver varerne klar til at blive lagt på lager. Funktionen til at lægge væk indeholder referencer til kildebilagstype og -nummer.
 
-### <a name="4-post-warehouse-receipt"></a>4: Bogfør lagermodtagelse  
-Brugeren bogfører lagermodtagelsen. Der oprettes positive vareposter. Feltet **Modtaget \(antal\)** opdateres f.eks. på den indgående kildedokumentlinje.  
+### 2: Opret lagermodtagelse  
 
-### <a name="5-create-warehouse-internal-put-away"></a>5: Opret intern læg-på-lager  
-Den bruger, der er ansvarlig for læg-på-lager fra interne operationer, opretter et lagersted for internt læg-på-lager for varer, der skal lægges på lager, f.eks. produktions- eller montageoutput. Brugeren angiver antal, zone og placering fra, hvor varerne skal lægges på lager, eventuelt med funktionen **Hent placeringsindh.**. Brugeren frigiver lagerstedets interne læg-på-lager, hvilket opretter en indgående lageranmodning, så opgaven kan hentes i læg-på-lager-dokumenter eller i læg-på-lager-kladden.  
+Linjerne fra kildedokumentet vises på siden **Lagermodtagelse**. Du kan kombinere flere kildedokumentlinjer i et lagermodtagelsesdokument. Brugeren udfylder feltet **Håndteringsantal** og vælger den modtagende zone og placering, hvis det er nødvendigt.  
 
-### <a name="6-create-put-away-request"></a>6: Opret læg-på-lager-anmod.  
-Når det indgående kildedokument bogføres, oprettes der automatisk en læg-på-lager-lageranmodning. Den indeholder referencer til kildebilagstype og -nummer og er ikke synlig for brugeren. Afhængigt af opsætningen opretter afgang fra en produktionsordre også en læg-på-lager-anmodning om at lægge de færdige varer på lager.  
+### 3: Bogfør lagermodtagelsen  
 
-### <a name="7-generate-put-away-worksheet-lines-optional"></a>7: Generér læg-på-lager-kladdelinjer (valgfrit)  
-Den bruger, der er ansvarlig for at koordinere læg-på-lager-aktiviteterne, henter læg-på-lager-linjer i den **Læg-på-lager-kladde**, der er baseret på bogførte lagermodtagelser eller interne operationer med afgang. Brugeren vælger de linjer med læg-på-lager-aktiviteter og forbereder disse læg-på-lager-aktiviteter ved at angive, hvilke placeringer der skal tages fra, hvilke placeringer der skal placeres i, og hvor mange enheder der skal håndteres. Placeringerne kan være foruddefineret ved opsætning af lagerlokationen eller operationsressourcen.  
+Bogfør lagerstedsmodtagelse for at oprette positive poster for varen. Feltet **Modtaget antal** opdateres f.eks. på den indgående kildedokumentlinje.  
+
+Hvis indstillingen **Kræv læg-på-lager** ikke er aktiveret på lokationskortet, er det her, hvor processen stopper. Når du frigiver dokumentet, bliver varerne klar til at blive lagt på lager. Funktionen til at lægge væk indeholder referencer til kildebilagstype og -nummer.  
+
+### 4: (Valgfrit) Generér læg-på-lager-kladdelinjer
+
+Hent læg-på-lager-linjer i **Læg-på-lager-kladden** baseret på bogførte lagermodtagelser eller operationer, der genererer afgang. Vælg de linjer, der skal lægges på lager, og angiv følgende oplysninger:
+
+* De placeringer, som varerne skal hentes fra.
+* Sådan lægges varerne på lager.
+* Hvor mange enheder, der skal håndteres.
+
+Placeringerne kan være foruddefineret ved opsætning af lagerlokationen eller operationsressourcen.  
 
 Når alle læg-på-lager-aktiviteter er planlagt og tildelt til lagermedarbejdere, opretter brugeren læg-på-lager-dokumenter. Fuldt tildelte læg-på-lager-linjer slettes fra **Læg-på-lager-kladden**.  
 
 > [!NOTE]  
->  Hvis feltet **Brug Læg-på-lager-kladde** ikke er markeret på lokationskortet, bliver læg-på-lager-dokumenter oprettet direkte ud fra bogførte lagermodtagelser. I så fald udelades trin 7.  
+> Hvis feltet **Brug Læg-på-lager-kladde** ikke er markeret på lokationskortet, bliver læg-på-lager-dokumenter oprettet direkte ud fra bogførte lagermodtagelser. I dette tilfælde er dette trin ikke nødvendigt.  
 
-### <a name="8-create-warehouse-put-away-document"></a>8: Opret læg-på-lager-dokument  
-Den lagermedarbejder, der udfører læg-på-lager-aktiviteter, opretter et læg-på-lager-lager-dokument på en pull-måde baseret på den bogførte lagermodtagelse. Alternativt er læg-på-lager-dokumentet oprettet og tildelt en lagermedarbejder på en push-måde.  
+### 5: Opret et læg-på-lager-bilag
 
-### <a name="9-register-warehouse-put-away"></a>9: Registrer læg-på-lager  
-På hver linje for varer, der er lagt på lager, helt eller delvist, udfylder lagermedarbejderen feltet **Antal** på siden **Læg-på-lager (logistik)** og registrerer derefter læg-på-lager-aktiviteten.  
+Oprette et læg-på-lager-dokument på en pull-måde baseret på den bogførte lagermodtagelse. Alternativt er læg-på-lager-dokumentet oprettet og tildelt en lagermedarbejder på en push-måde.  
 
-Lagerposter oprettes og læg-på-lager-linjerne slettes, hvis de er fuldt håndteret. Læg-på-lager-dokumentet forbliver åbent, indtil det fulde antal af den relaterede bogførte lagermodtagelse er registreret. Feltet **Antal lagt\-på\-lager** på lagermodtagelsens ordrelinjer opdateres.  
+### 6: Registrer et læg-på-lager
 
-## <a name="see-also"></a>Se også  
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)
+På hver linje for varer, der er lagt på lager, helt eller delvist, udfylder lagermedarbejderen feltet **Antal** på siden **Læg-på-lager** og registrerer derefter læg-på-lager-aktiviteten.  
 
+* Lagerposter oprettes til lokationer, der kræver placeringskode på alle varetransaktioner.
+* Læg-på-lager-linjerne slettes, hvis den håndteres fuldt ud.
+* Læg-på-lager-dokumentet forbliver åbent, indtil det fulde antal af den relaterede bogførte lagermodtagelse er registreret.
+* Feltet **Antal lagt-på-lager** på lagermodtagelsens ordrelinjer opdateres.
+
+## Relaterede emner
+
+Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
+
+|**Hvis du vil**|**Se**|  
+|------------|-------------|  
+|Registrere modtagelsen af varer på lagerlokationer med en lagermodtagelse, i tilfælde af halvt eller fuldt automatiseret lagerbehandling på lokationen.|[Modtage varer](warehouse-how-receive-items.md)|
+|Lægge varer på lager en ordre ad gangen og bogføre tilgangen i samme aktivitet i en grundlæggende lageropsætning.|[Lægge varer på lager med Læg-på-lager (lager)](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
+|Lægge varer på lager, der er modtaget fra flere køb, salgsreturvarer, overflytningsordrer i henhold til den konfigurerede lagerproces.|[Lægge varer på lager med Læg-på-lager (logistik)](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
+
+
+## Se også
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

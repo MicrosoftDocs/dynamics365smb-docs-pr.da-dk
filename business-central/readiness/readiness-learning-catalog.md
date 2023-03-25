@@ -5,14 +5,9 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 511c7c616e94458cc2eb8489831d528968400903
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530185"
 ---
-# <a name="business-central-learning-catalog"></a>Undervisningskatalog for Business Central
+
+# Undervisningskatalog for Business Central
 
 Find den rigtige onlineundervisning, skræddersyede workshops og hændelser for din rolle som en Business Central-bruger eller -partner.
 
@@ -20,7 +15,7 @@ Find den rigtige onlineundervisning, skræddersyede workshops og hændelser for 
 
     :::column:::
 
-    ### <a name="business-decision-maker"></a>Virksomhedens beslutningstager
+    ### Virksomhedens beslutningstager
 
     Beslutter du, om der skal investeres i nye teknologier? 
 
@@ -36,7 +31,7 @@ Find den rigtige onlineundervisning, skræddersyede workshops og hændelser for 
 
     :::column:::
 
-    ### <a name="business-user"></a>Forretningsbruger
+    ### Forretningsbruger
 
     Har du lige fået et nyt program, du skal bruge? 
 
@@ -54,7 +49,7 @@ Find den rigtige onlineundervisning, skræddersyede workshops og hændelser for 
 
     :::column:::
 
-    ### <a name="developer"></a>Udvikler
+    ### Udvikler
 
     Har du brug for at skrive kode, der kan integreres med andre datakilder, udvide kernesystemet eller opbygge et komplekst program?
 
@@ -66,7 +61,7 @@ Find den rigtige onlineundervisning, skræddersyede workshops og hændelser for 
 
     :::column:::
 
-    ### <a name="functional-consultant"></a>Funktionel konsulent
+    ### Funktionel konsulent
     
     Er du implementeringsekspert for et virksomhedsdomæne? 
 

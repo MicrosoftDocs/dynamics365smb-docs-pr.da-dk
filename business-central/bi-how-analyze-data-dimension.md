@@ -1,23 +1,17 @@
 ---
 title: Analysere data efter dimensioner
-description: Denne artikel beskriver, hvordan du kan analysere forretningsdata efter dimensioner for at få større viden om din virksomhed.
+description: 'Denne artikel beskriver, hvordan du kan analysere forretningsdata efter dimensioner for at få større viden om din virksomhed.'
 author: edupont
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 545, 555, 556, 557, 558, 9372, 9370, 9371
+ms.search.keywords: 'bi, power BI, analysis, KPI'
+ms.search.form: '545, 555, 556, 557, 558, 9372, 9370, 9371'
 ms.date: 09/22/2022
 ms.author: edupont
-ms.openlocfilehash: 62c0cdbb3641ab55c58d5ce944591b2aeef7f059
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606247"
 ---
-# <a name="analyze-data-by-dimensions"></a>Analysere data efter dimensioner
+# Analysere data efter dimensioner
 
 I finansielle analyser er en dimension data, som du kan føje til en post som en slags markør. Disse data bruges til at gruppere poster med ens karakteristika, f.eks. debitorer, regioner, produkter og sælger, og disse grupper kan nemt hentes frem til analyse. Dimensioner kan bruges til poster i kladder, dokumenter og budgetter. 
 
@@ -29,7 +23,7 @@ Hver "dimension" beskriver analysens fokus. En todimensional analyse kan f.eks. 
 > [!NOTE]
 > Hvis du opdager, at der er anvendt en forkert dimensionsværdi på bogførte finansposter, kan du rette den og opdatere dine analysevisninger. Du kan finde flere oplysninger i [Fejlfinding og udbedring af dimensioner](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## <a name="set-up-an-analysis-view"></a>Konfigurere en analysevisning
+## Konfigurere en analysevisning
 
 En dimensionsanalyse bruger en valgt kombination af dimensioner. Du lagrer, henter og opdaterer dimensionsgruppen ved at oprette et **Analysevisning**-kort. 
 
@@ -39,7 +33,7 @@ En dimensionsanalyse bruger en valgt kombination af dimensioner. Du lagrer, hent
 4. Du kan tilføje andre dimensionskoder til de fire i oversigtspanelet **Dimensioner** ved at vælger handlingen **Filter**, udfylde felterne og derefter vælge knappen **OK**.  
 5. Hvis du vil opdatere visningen, skal du vælge handlingen **Opdater**.
 
-## <a name="analyze-by-dimensions"></a>Analysere efter dimensioner
+## Analysere efter dimensioner
 
 Brug de analysevisninger, du allerede har oprettet med matrixen **Dimensionsanalyse**, til at få vist beløbene i finans.   
 
@@ -61,7 +55,7 @@ Brug de analysevisninger, du allerede har oprettet med matrixen **Dimensionsanal
 > [!TIP]  
 > Du kan også ændre visningen ved at ændre indholdet i felterne **Vis som linjer** og **Vis som kolonner**. For at tilbageføre en indstilling for visningen skal du vælge handlingen **Byt om på linjer og kolonner**.
 
-## <a name="update-an-analysis-view"></a>Opdatere en analysevisning
+## Opdatere en analysevisning
 
 Beløbene, der vises på siden **Dimensionsanalyse**, viser et billede af virksomhedens tilstand på tidspunktet for den sidste opdatering. Hvis du vil have et billede af den aktuelle tilstand, skal du opdatere analysen ved at bruge opdateringsfunktionen.
 
@@ -79,9 +73,9 @@ Du kan opdatere en analysevisning vha. følgende fremgangsmåde, som startes på
 > [!NOTE]  
 > Du kan opdatere nogle eller alle analyser samtidig ved at bruge kørslen **Opdater analysevisninger**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
+## Se relateret træning på [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Financial Business Intelligence](bi.md)  
 [Finans](finance.md)  

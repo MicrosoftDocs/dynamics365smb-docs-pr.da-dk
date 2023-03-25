@@ -1,42 +1,38 @@
 ---
 title: Registrere forbrug eller forbrug af sagsopgaver og varer
-description: Beskriver, hvordan du registrerer forbrug af varer eller ressourcer på sager for at gøre projektstyringen nemmere.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: project management, consumption
-ms.search.form: 89, 92, 201, 1007, 1014
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c948845c535474ccd5fb8c3d6e031e5467c9de2f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532075"
+description: 'Denne artikel beskriver, hvordan du registrerer forbrug af varer eller ressourcer på sager for at gøre projektstyringen nemmere.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/20/2022
+ms.custom: bap-template
 ---
-# <a name="record-consumption-or-usage-for-jobs"></a>Registrere forbrug eller forbrug til sager
+# Registrere forbrug eller forbrug til sager
 
-På siden **Sagsplanlægningslinjer** kan du gennemse og registrere forbrug på forskellige dele af din sag, der automatisk opdateres, når du ændrer eller overfører oplysninger mellem sag og sagskladder eller sagsfakturaer. Dette kræver, at du har oprettet en sag, så **Anvend anvendelseslink** er aktiveret. Der er flere oplysninger i [Konfigurere sager](projects-how-setup-jobs.md).  
+Fra siden **jobkort** kan du åbne siden **Sagsplanlægningslinjer** for at gennemgå og registrere brugen af forskellige dele af sagen. Disse oplysninger opdateres automatisk, når du ændrer og overfører oplysninger mellem sager og sagskladder eller sagskladder. Dette kræver, at du aktiverer **Anvend anvendelseslink som standard** til/fra på siden **Konfigurer sager**. Flere oplysninger i [Konfigurere sager](projects-how-setup-jobs.md).  
 
-F.eks. kan du angive antallet af en ressource, og hvilken mængde, der skal overføres til sagskladden, for planlægningslinjer af typen **Budget**. Hvis planlægningslinjens type er **Fakturerbar**, kan du angive antallet af ressourcen, og angive hvilket antal, der skal overføres til en faktura. Yderligere oplysninger om fakturering af debitor finder du i [Fakturajobs](projects-how-invoice-jobs.md). Ved at sammenligne den oprindelige mængde, restantal eller bogført antal kan du hurtigt gennemgå oplysninger om forbrug. Du kan finde oplysninger om vurdering af budgetterede værdier under planlægning under [Administrere sagsbudgetter](projects-how-manage-budgets.md).  
+<!-- Not really sure what this paragraph is saying, or why we start with it. Why do you transfer information between jobs and job journals or job invoices? I get the use of resources and items, but what about G/L account and Text?
 
-Følgende procedurer beskrives, hvordan du kan registrere faktiske (fakturerbare) mængder eller udgifter ved sagskladde. Du kan også bruge købsdokumenter til at registrere indkøb for en sag. Du kan finde flere oplysninger i [Administrere sagsforsyninger](projects-how-manage-project-supplies.md).
+On the Jobs Setup page there's an Apply Usage Link by Default toggle. Guessing that's what we're referring to -->
 
-## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Sådan registreres forbrug for en sagsplanlægningslinje af typen Budget
+F.eks. kan du angive antallet af en ressource, og hvilken mængde, der skal overføres til sagskladden, for planlægningslinjer af typen **Budget**. Hvis planlægningslinjens type er **Fakturerbar**, kan du angive antallet af ressourcen, og angive hvilket antal, der skal overføres til en faktura. Yderligere oplysninger om fakturering af debitor finder du i [Fakturasager](projects-how-invoice-jobs.md). Ved at sammenligne den oprindelige mængde, restantal eller bogført antal kan du hurtigt gennemgå oplysninger om forbrug. Du kan finde oplysninger om vurdering af budgetterede værdier under planlægning under [Administrere sagsbudgetter](projects-how-manage-budgets.md).  
+
+Følgende procedurer beskrives, hvordan du kan registrere faktiske (fakturerbare) mængder eller udgifter ved sagskladde. Du kan også bruge købsdokumenter til at registrere indkøb for en sag. Få mere at vide i [Administrere sagsforsyninger](projects-how-manage-project-supplies.md).
+
+## Sådan registreres forbrug for en sagsplanlægningslinje af typen Budget
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
-2. Markér den relevante sag, og vælg derefter handlingen **Sagsplanlægningslinjer**.
-3. Vælg en sagsplanlægningslinje af typen **Budget** eller **Både budget og fakturerbar**, som du vil registrere forbruget for.  
+2. Markér den relevante sag, og vælg derefter handlingen **Sagsplanlægningslinjer**. 
+3. Vælg en sagsplanlægningslinje af typen **Budget** eller **Både budget og fakturerbar**, som du vil registrere forbruget for.   
 
     > [!NOTE]
-    > Du kan også registrere forbrug for en sagsplanlægningslinje af typen **Fakturerbar**. I dette tilfælde skal du typisk bruge disse linjer til at oprette fakturaer, men du kan også overføre det til en kladde. Du kan finde flere oplysninger i [Fakturere sager](projects-how-invoice-jobs.md) <!--However, when you do that, a job planning line of type **Budget** is created to match the billable line. For more information, see [Manage Job Budgets](projects-how-manage-budgets.md).-->
+    > Du kan også registrere forbrug for en sagsplanlægningslinje af typen **Fakturerbar**. I dette tilfælde skal du typisk bruge disse linjer til at oprette fakturaer, men du kan også overføre det til en kladde. Flere oplysninger [Fakturere sager](projects-how-invoice-jobs.md) <!--However, when you do that, a job planning line of type **Budget** is created to match the billable line. For more information, see [Manage Job Budgets](projects-how-manage-budgets.md).-->
 
 4. I feltet **Antal, der skal overføres til kladde** skal du angive det nummer, du vil overføre. Standardantallet er den værdi, du angiver i feltet **Antal**.
 
-    Feltet **Restantal** viser det antal, der mangler for at afslutte sagen og blive overført til kladden.  
+    Feltet **Restantal** viser det antal, der mangler for at afslutte sagen og blive overført til kladden. <!--Should we mention that this field is not shown by default, and that if they want to use it they must add it?--> 
 5. Vælg handlingen **Opret sagskladdelinjer**.
 
     > [!TIP]
@@ -47,21 +43,21 @@ Følgende procedurer beskrives, hvordan du kan registrere faktiske (fakturerbare
 9. På siden **Sagsplanlægningslinjer** skal du gennemgå det registrerede forbrug ved at holde øje felterne **Antal**, **Restantal** og **Antal, der skal overføres til kladde**.  
 10. Gentag trin 3 til 8 for at registrere ekstra forbrug.  
 
-## <a name="to-create-job-journal-lines-manually"></a>Sådan oprettes sagskladdelinjer manuelt
+## Sådan oprettes sagskladdelinjer manuelt
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagskladder**, og vælg derefter det relaterede link.  
 2. I feltet **Kladdenavn** skal du vælge et relevant sagskladdenavn.  
 3. På en ny linje skal du angive bilagsnummer, sagsnummer, sagsopgavenummer, type og mængde af den type, der forbruges.  
 4. Når sagskladdelinjerne er fuldført, skal du vælge handlingen **Bogfør**.  
 
-## <a name="to-view-job-usage-estimates-and-post-updates"></a>Sådan vises sagsforbrugsestimater og bogføringsopdateringer
+## Sådan vises sagsforbrugsestimater og bogføringsopdateringer
 
 Du kan få vist sagsforbruget op til færdiggørelsen af et projekt i ét trin. Hvis du vil gøre det, skal du bruge kørslen **Beregn resterende forbrug for sag** for alle sagerne op til og inklusive afslutningen af en sag.  
 
 På denne måde kan du holde styr på og sammenligne dine oprindelige estimater med de faktiske resultater og foretage ændringer eller oprette nye poster efter behov. Du kan f.eks. have anslået, at en sag krævede 10 timer, og at den frem til nu har taget 15 timer. Du kan føje de ekstra fem timer til den eksisterende kladdelinje eller oprette en ny kladdelinje for at rapportere disse fem timer som overtid, hvilket er en anden arbejdstype. Den korrekte omkostning og pris beregnes, og du kan derefter bogføre den til kladden.  
 
 > [!NOTE]  
->   Vareposter opretter vareposter til finans og reducerer antallet af varer på lager. Kørslen **Bogfør lagerregulering** overfører omkostningen fra lager til finans. Ressourceposter opretter ressourceposter til finans.  
+> Vareposter opretter vareposter til finans og reducerer antallet af varer på lager. Kørslen **Bogfør lagerregulering** overfører omkostningen fra lager til finans. Ressourceposter opretter ressourceposter til finans.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagskladder**, og vælg derefter det relaterede link.  
 2. Vælg en relevant sagskladde, og vælg derefter handlingen **Beregn resterede forbrug**.  
@@ -69,13 +65,14 @@ På denne måde kan du holde styr på og sammenligne dine oprindelige estimater 
 4. Opdater kladden med eventuelle nødvendige ændringer.  
 5. Vælg **Bogfør**.
 
-## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Opret lagerbeholdnings- lagersteds-plukdokumenter for et job
+## Opret lagerbeholdnings- lagersteds-plukdokumenter for et job
 
 Hvis du vil oprette lagerplukdokumenter for sager, skal din administrator aktivere **Funktionsopdatering: Aktivér lagerbeholdning og lagerpluk fra job** på siden **Funktionsstyring**.
 
-Funktionen tilføjer handlingerne **Opret pluk (lager)** og **Opret lager (logistik)** på **Jobkort**. Hvis du vil oprette eller registrere et plukdokument, skal du bruge **Læg-på-lager/pluk-linjer/bevægelseslinjer** eller **registrerede pluklinjer**. Du kan finde flere oplysninger om pluk i [Plukke varer](warehouse-pick-items.md)
+Funktionen tilføjer handlingerne **Opret pluk (lager)** og **Opret lager (logistik)** på **Jobkort**. Hvis du vil oprette eller registrere et plukdokument, skal du bruge **Læg-på-lager/pluk-linjer/bevægelseslinjer** eller **registrerede pluklinjer**. Flere oplysninger i [Flows for produktion, montage og sager](design-details-internal-warehouse-flows.md).
 
 Du kan bruge handlingerne under følgende betingelser:
+
 * Sagens **status** er **åben**.
 * **Linjetypen** for sagsplanlægningslinjen er **budget** eller **Både budget og fakturerbart**.
 * **Typen** på sagsplanlægningslinje er **vare**.
@@ -87,8 +84,7 @@ Du kan bruge handlingerne under følgende betingelser:
 > 
 > Hvis lokationen er indstillet til at kræve både pluk og leverance, dvs. at du har markeret både feltet **Kræv pluk** og feltet **Kræv leverance** på **lokationskortet**, kan du bruge siden **Pluk (logistik)** til at håndtere plukningen. Lagerpluk svarer til pluk (lager). Forskellen er, at i stedet for at bogføre plukoplysninger, registrerer du plukket. Denne registrering bogfører ikke forbrug, den gør blot varerne disponible til bogføring. Som lagerchef kan du bruge en plukkladde til at organisere plukoplysningerne, før du opretter de enkelte plukinstruktioner (logistik)
 
-
-## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Sådan gennemgås planlægningslinjerne for en sagspost
+## Sådan gennemgås planlægningslinjerne for en sagspost
 
 Når du har bogført sagskladdelinjer, kan du se de planlægningslinjer, der er knyttet til posterne i sagskladden, der er blevet bogfør.
 
@@ -99,14 +95,14 @@ Når du har bogført sagskladdelinjer, kan du se de planlægningslinjer, der er 
 2. Vælg en relevant sagskladde, og vælg derefter handlingen **Poster**.  
 3. På siden **Sagsposter** skal du vælge handlingen **Vis tilknyttede sagsplanlægningslinjer**.
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/post-job-usage-sales/)
+## Se relateret [Microsoft-træning](/training/paths/post-job-usage-sales/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Projektstyring](projects-manage-projects.md)  
 [Finans](finance.md)  
-[Køb](purchasing-manage-purchasing.md)         
-[Salg](sales-manage-sales.md)      
+[Køb](purchasing-manage-purchasing.md)  
+[Salg](sales-manage-sales.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.forms: 5704, 5700, 5702, 5701
+ms.search.keywords: null
+ms.search.forms: '5704, 5700, 5702, 5701'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e61c61f760dd14145ecea76f36903f8a4124cac5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533747"
 ---
-# <a name="set-up-stockkeeping-units"></a>Opsætte lagervarer
+# Opsætte lagervarer
 
 Du kan bruge lagervarer til at registrere oplysninger om varer på en bestemt lokation eller med en variantkode.  
 
 Lagervarer er et supplement til varekortene. De erstatter dem ikke, selvom de er relateret til dem. Med lagervarer kan du udskille oplysningerne om den samme vare, så de kun vedrører en bestemt lokation, f.eks. et lager eller distributionscenter, eller en bestemt variant, f.eks. forskellige hyldenumre og forskellige genbestillingsdata.  
 
-## <a name="to-set-up-a-stockkeeping-unit"></a>Sådan opsættes en lagervare  
+## Sådan opsættes en lagervare  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagervarer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
@@ -40,16 +34,15 @@ Brug kørslen **Opret lagervare**, hvis du vil oprette flere lagerførte varer.
 > Hvis lagervaren angives via produktion, bruges feltet **Kostpris (standard)** ikke ved fakturering og justering af den faktiske kostpris for den producerede vare. I stedet anvendes feltet **Kostpris (standard)** på det underliggende varekort, og eventuelle afvigelser beregnes mod kostprisfordelingen for den vare.<br /><br />
 > Fordi produktionsstyklister og rute ikke kan tildeles lagervarer, så er kostprisakkumulering og den relaterede beregning af kostprisfordelingen heller ikke tilgængelig på lagervarer. Du kan finde flere oplysninger i [Om beregning af standardkostpris](finance-about-calculating-standard-cost.md)
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/control-inventory-multiple-locations/)
+## Se relateret [Microsoft-træning](/training/modules/control-inventory-multiple-locations/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
-[Logistik](warehouse-manage-warehouse.md)  
-[Lagerbeholdning](inventory-manage-inventory.md)  
+[Warehouse Management-oversigt](design-details-warehouse-management.md)
+[Lager](inventory-manage-inventory.md)  
 [Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

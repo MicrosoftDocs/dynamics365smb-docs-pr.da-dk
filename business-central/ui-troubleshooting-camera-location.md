@@ -1,6 +1,6 @@
 ---
 title: 'Fejlfinding: Adgang til kamera og placering'
-description: Denne artikel beskriver, hvordan du retter fejl i forbindelse med adgang til kamera- og placeringsoplysninger i Business central.
+description: 'Denne artikel beskriver, hvordan du retter fejl i forbindelse med adgang til kamera- og placeringsoplysninger i Business central.'
 author: bholtorf
 ms.author: bholtorf
 ms.date: 04/01/2021
@@ -9,28 +9,23 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: conceptual
-ms.openlocfilehash: d2b967e3541eee99f7e96978e866f79faabaecdd
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605869"
 ---
-# <a name="troubleshooting-accessing-camera-and-location"></a>Fejlfinding: Adgang til kamera og placering
+
+# Fejlfinding: Adgang til kamera og placering
 
 Der kan opstå fejl, når du forsøger at få adgang til en enheds kamera- og placeringsoplysninger via [!INCLUDE[prod_short](includes/prod_short.md)]. På listen nedenfor kan du se de mulige årsager til disse fejl, og hvordan du retter dem.
 
-## <a name="device-must-have-camera-and-location-capabilities"></a>Enhed skal have kamera- og placeringsfunktioner
+## Enhed skal have kamera- og placeringsfunktioner
 
 For at du kan få adgang til kameraet eller brugerens placering på en enhed, skal enheden have et fysisk kamera eller muligheden for at hente oplysninger om placeringen.
 
 Hvis din enhed har kamera- og placeringsfunktioner, men der stadig opstår fejl, skal nogle af driverne muligvis opdateres eller geninstalleres. Selvom du ikke er sikker, anbefaler vi altid, at du opdaterer enhedens operativsystem, drivere og browser til den seneste version, så du får den bedste oplevelse.
 
-## <a name="access-permissions-not-enabled"></a>Adgangstilladelser er ikke aktiveret
+## Adgangstilladelser er ikke aktiveret
 
 Du skal aktivere generel adgang til kamera og placering i enhedens indstillinger for beskyttelse af personlige oplysninger og give [!INCLUDE[prod_short](includes/prod_short.md)] udtrykkelig tilladelse til at få adgang til dem. Hvis du f.eks. vil se eller ændre tilladelser for en enhed, der kører i Windows, skal du gå til **Indstillinger**, vælge **Beskyttelse af personlige oplysninger** og derefter gå til **App-tilladelser**. 
 
-I forbindelse med mobilenheder skal du give kamera- og placeringsadgangstilladelserne til [!INCLUDE[prod_short](includes/prod_short.md)]-mobilappen. Hvis du vil gøre det for en iOS-enhed, skal du gå til **Indstillinger**, vælge **Beskyttelse af personlige oplysninger** og derefter vælge **Kamera** eller **Placering**. Hvis du bruger en Android-enhed, skal du vælge **Indstillinger**, vælge **Apps og meddelelser**, **Avanceret**, **Rettighedsadministrator** og derefter **Kamera** eller **Placering**.
+I forbindelse med mobilenheder skal du give kamera- og placeringsadgangstilladelserne til [!INCLUDE[prod_short](includes/prod_short.md)]-mobilappen. Hvis du vil gøre det for en iOS-enhed, skal du gå til **Indstillinger**, vælge **Beskyttelse af personlige oplysninger** og derefter vælge **Kamera** eller **Lokation**. Hvis du bruger en Android-enhed, skal du vælge **Indstillinger**, vælge **Apps og meddelelser**, **Avanceret**, **Rettighedsadministrator** og derefter **Kamera** eller **Placering**.
 
 Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] i en browser, skal du desuden give [!INCLUDE[prod_short](includes/prod_short.md)]-webstedet tilladelse til at få adgang til oplysninger om kamera eller placering. Hvis du vil se eller ændre tilladelserne for et websted i Microsoft Edge-browseren, skal du gå til **Indstillinger**, vælge **Webstedstilladelser** og derefter vælge **Kamera** eller **Placering**. Bemærk, at dette kan være anderledes for andre browsere.
 
@@ -39,21 +34,21 @@ Som standard viser enheden eller browseren en anmodning om at få adgang til dis
 > [!NOTE]  
 > Nogle ældre browsere giver ikke adgang til kamera og placering. Kameraet er f.eks. ikke tilgængeligt i Internet Explorer eller den ældre Microsoft Edge-browser.
 
-## <a name="web-client-connection-not-secure"></a>Webklientens forbindelse er ikke sikker
+## Webklientens forbindelse er ikke sikker
 
 Kamera- og placeringsfunktionerne er kun tilgængelige, når du får adgang til webklienten via SSL-sikrede HTTP-forbindelser ved hjælp af `https://` URI-skemaet. 
 
 Den eneste undtagelse er at oprette forbindelse til `http://localhost`, der bruges til udviklings- og testformål.
 
 
-## <a name="work-with-virtualization-technologies"></a>Arbejde med virtualiseringsteknologier
+## Arbejde med virtualiseringsteknologier
 
 Når der oprettes forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)] med fjernskrivebordet eller en anden virtualisering, er der muligvis ikke adgang til kameraet eller placeringen. Hvis det er tilfældet, skal du bruge det fysiske system i stedet for.
 
-## <a name="antivirus-software"></a>Antivirusprogram
+## Antivirusprogram
 Nogle antivirusprogrammer blokerer som standard for kamera og placering. Husk at kontrollere indstillingerne for dit antivirusprogram.
 
-## <a name="see-also"></a>Se også
+## Se også
 [Implementering af kameraet i AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Implementering af placeringen i AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
 

@@ -1,20 +1,15 @@
 ---
 title: Introduktion til demonstrationsdata for Contoso Coffee
-description: Oversigt over scenarier for, hvordan oplysninger om demonstrationsdata for Contoso Coffee kan hjælpe dig med at lære, hvordan du bruger produktionsfunktionerne i Business central.
+description: 'Oversigt over scenarier for, hvordan oplysninger om demonstrationsdata for Contoso Coffee kan hjælpe dig med at lære, hvordan du bruger produktionsfunktionerne i Business central.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 41dac60578399e09b9a67ac5747d48648a872f9c
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 11/18/2022
-ms.locfileid: "9788216"
 ---
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Introduktion til demonstrationsdata for Contoso Coffee
+
+# Introduktion til demonstrationsdata for Contoso Coffee
 
 Contoso Coffee er en fiktiv virksomhed, der producerer forbruger- og kommercielle kaffemaskine. Apps **Contoso Coffee** til Business Central tilføjer demodata, som du kan bruge til at lære, hvordan du bruger produktionsfunktionerne i Business central.  
 
@@ -41,7 +36,7 @@ Produktionsaktiviteterne i alle scenarier bruger *NORTH*-lokationen.
 > [!IMPORTANT]
 > Før du udfører et af scenarierne for Contoso Coffee, skal du bogføre alle varekladdelinjer med primosaldi. Du kan finde flere krav i afsnittet [Opsætning af Contoso Coffee-data](#set-up-contoso-coffee-data).
 
-## <a name="set-up-contoso-coffee-data"></a>Opsætning af Contoso Coffee-data
+## Opsætning af Contoso Coffee-data
 
 Hvis du vil bruge demonstrationsdataene fra Contoso Coffee, skal du installere to apps i det relevante regnskab i [!INCLUDE [prod_short](../includes/prod_short.md)]:  
 
@@ -72,7 +67,7 @@ Når de relevante apps er installeret, skal du gå til [Contoso Coffee-demodata]
 
 Når du er færdig, skal du vælge handlingen **Opret demodata**. Det tager nogle få minutter at føje dataene til den underliggende database, men så er du klar til at køre forskellige scenarier.  
 
-## <a name="scenarios"></a>Eksempler
+## Eksempler
 
 Contoso Coffee-demodata understøtter i øjeblikket følgende scenarier for test og træning:
 
@@ -90,7 +85,7 @@ Læs trinene for hvert scenarie i den relevante artikel.
 > [!IMPORTANT]
 > Denne gennemgang kræver, at brugeroplevelsen er sat til *Premium* på siden **firmaoplysninger**.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Produktion](../production-manage-manufacturing.md)  
 [Produktionsrapporter og analyser i Business Central](../production-reports.md)  

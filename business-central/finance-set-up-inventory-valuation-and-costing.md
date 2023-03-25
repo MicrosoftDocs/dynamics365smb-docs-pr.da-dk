@@ -1,19 +1,13 @@
 ---
 title: Opsætning af lagerværdi og lageromkostningsadministration
-description: For at sikre, at lageromkostningerne registreres korrekt, skal du angive forskellige felter og sider, før du begynder at foretage varetransaktioner.
+description: 'For at sikre, at lageromkostningerne registreres korrekt, skal du angive forskellige felter og sider, før du begynder at foretage varetransaktioner.'
 author: SorenGP
 ms.topic: conceptual
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6b7289aff7d111804806bb1afbdfb822c9922492
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520304"
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Opsætte lagerværdi og kostprisberegning
+# Opsætte lagerværdi og kostprisberegning
 
 For at sikre, at lageromkostningerne registreres korrekt, skal du angive forskellige felter og sider, før du begynder at foretage varetransaktioner. Virksomheder vælger typisk en bestemt kostmetode og anvender den på lagervarer, f.eks. for at hjælpe dem med at spore værdien på lager.  
 
@@ -36,7 +30,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Sørg for, at returneringer af køb udlignes til den oprindelige indgående transaktion for at bevare lagerværdi.|Feltet **Obl. præcis kostprisudligning** på siden **Køb og tilgodehavender**|
 |Definere afrundingsregler, der skal anvendes ved regulering af eller forslag til varepriser eller standardomkostninger.|Siden **Afrundingsmetode**|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Konfigurere generelle lageroplysninger](inventory-how-setup-general.md)  

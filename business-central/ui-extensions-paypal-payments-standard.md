@@ -1,23 +1,17 @@
 ---
 title: Brug af PayPal Payments Standard-udvidelsen
-description: Beskriver, hvordan du bruger standardudvidelsen til at gøre det muligt for kunder at foretage betalinger med PayPal.
+description: 'Beskriver, hvordan du bruger standardudvidelsen til at gøre det muligt for kunder at foretage betalinger med PayPal.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, add-in, manifest, customize
-ms.search.form: 1070, 1071, 1073, 1074
+ms.search.keywords: 'app, add-in, manifest, customize'
+ms.search.form: '1070, 1071, 1073, 1074'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 19e44bf675e02df3494338fb729f9d28081ca6bd
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361835"
 ---
-# <a name="the-paypal-payments-standard-extension"></a>Udvidelsen PayPal Payments Standard
+# Udvidelsen PayPal Payments Standard
 
 Kunder kræver hele tiden bedre kundeservice, både med hensyn til produkternes kvalitet, men også med hensyn til leverings- og betalingsindstillinger. Tjenesten PayPal Payments Standard hjælper dig med at øge din kundeservice.
 
@@ -35,7 +29,7 @@ Tjenesten PayPal Payments Standard giver følgende fordele:
 
 Du kan finde flere oplysninger i [Aktivere debitorbetaling via PayPal](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Konfigurere salg](sales-setup-sales.md)  

@@ -1,6 +1,6 @@
 ---
 title: Flette dobbeltregistreringer på kunder og leverandører
-description: Beskriver, hvordan du kan konsolidere oplysninger om debitorer eller kreditorer, når du har dubletter af poster.
+description: 'Beskriver, hvordan du kan konsolidere oplysninger om debitorer eller kreditorer, når du har dubletter af poster.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a50d15ad62459b78b2d18d8167df319669a56ec7
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529159"
 ---
-# <a name="merge-duplicate-records"></a>Flet dobbeltregistrerede records
+# Flet dobbeltregistrerede records
 
 Efterhånden som brugere opretter ny kunde, leverandør eller kontaktkort igennem længere tid, eller der oprettes nye records automatisk under migration, kan en kunde, leverandør eller kontakt være repræsenteret i systemet med mere end en record. I dette tilfælde kan du benytte siden **Flet dobbeltregistrering** fra record-kortet, som du ønsker at beholde. Siden giver dig et overblik over dobbeltregistrerede værdier og leverer funktioner til at udvælge, hvilke værdier, der skal beholdes og slettes henholdsvis, når du fletter to records til en.
 
@@ -62,9 +56,9 @@ Den følgende procedure er baseret på et kundekort. Trinnene er de samme for le
 > [!NOTE]
 > For kontakter gælder det, at du kan benytte funktionalitet til at finde dobbeltregistrerede kontakter, før du benytter siden **Flet dobbeltregistreringer**. Se [Søg efter dobbeltregistrerede kontakter](marketing-setup-contacts.md#searching-for-duplicate-contacts) for at få yderligere oplysninger.
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Salg](sales-manage-sales.md)  
 [Opsætning af kontakter](marketing-setup-contacts.md)  

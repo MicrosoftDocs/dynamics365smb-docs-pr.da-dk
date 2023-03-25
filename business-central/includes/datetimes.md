@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 44cd8156e66be7736da4f1c51f507715d7842478
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147410"
 ---
 Når du angiver dato/klokkeslæt, som en dato og klokkeslæt kombineret i ét felt, skal du angive et mellemrum mellem datoen og klokkeslættet. Datodelen kan kun indeholde mellemrum i form af officielle datoseparatorer af indstillingerne for land/område. Tidsangivelsen, der kan indeholde mellemrum omkring AM/PM-symbolet i de relevante indstillinger for området.
 

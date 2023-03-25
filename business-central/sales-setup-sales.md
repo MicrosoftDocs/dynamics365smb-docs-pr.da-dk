@@ -1,23 +1,17 @@
 ---
 title: Oversigt over opgaver til konfiguration af salgsprocesser
-description: Oversigt over de opgaver, der er nødvendige for at konfigurere regler og værdier, der definerer din salgs politik og-processer, herunder generel opsætning og opsætning af finansrelaterede salg.
+description: 'Oversigt over de opgaver, der er nødvendige for at konfigurere regler og værdier, der definerer din salgs politik og-processer, herunder generel opsætning og opsætning af finansrelaterede salg.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, sell, configure
-ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
+ms.search.keywords: 'trade, sell, configure'
+ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 2346c246fdf0d9973f40e7d0073dee9004c68669
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531346"
 ---
-# <a name="setting-up-sales"></a>Konfigurere salg
+# Konfigurere salg
 Før du kan administrere salgsprocesser, skal du konfigurere de regler og værdier, der definerer virksomhedens salgspolitikker.
 
 Du skal definere den generelle opsætning på **Salgsopsætning**, f.eks. hvilke salgsdokumenter der kræves, hvordan deres værdi angives og den type af linjer, der skal oprettes som standard. Denne generelle opsætning udføres typisk én gang i forbindelse med den indledende implementering.
@@ -39,9 +33,9 @@ Den finansrelaterede salgsopsætning, som betalingsmetoder og valutaer, dækkes 
 |Angive oplysninger om de forskellige transportleverandører, virksomheden bruger, herunder et link til deres pakkesporingsservice.|[Oprette speditører](sales-how-to-set-up-shipping-agents.md)|
 |Angiv standardrapporter, der skal bruges til forskellige dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/trade-get-started-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 [Salg](sales-manage-sales.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

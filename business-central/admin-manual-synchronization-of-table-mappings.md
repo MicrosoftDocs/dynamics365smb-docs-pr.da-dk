@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: sales, crm, integration, sync, synchronize
+ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fd9ff4640b23dbd58c94d9da3f95ab9670710439
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381907"
 ---
-# <a name="manually-synchronize-table-mappings"></a>Synkroniser tabeltilknytninger manuelt
+
+# Synkroniser tabeltilknytninger manuelt
 
 
 En integreret tabeltilknytning knytter en [!INCLUDE[prod_short](includes/prod_short.md)] tabel (record-type), f.eks. kunde, med en [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabel, f.eks. en konto. Synkronisering af en integreret tabeltilknytning muliggør synkronisering af data i alle records i [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabellen, der er sammenkædet. Afhængigt af konfigurationen af tabeltilknytningen kan synkronisering skabe og sammenkæde nye records i destinationsløsningen til records i ikke sammenkædede records i kilden.  
@@ -25,7 +20,7 @@ Manuel synkronisering af integrationstabeltilknytninger kan være nyttigt under 
 
 Denne artikel beskrives tre metoder til manuel synkronisering af integrationstilknytningstabeller. Hver metode leverer et forskelligt synkroniseringsniveau.
 
-## <a name="run-a-full-synchronization"></a>Kør en fuldstændig synkronisering
+## Kør en fuldstændig synkronisering
 En fuldstændig synkronisering kører alle standardsynkroniseringsjobs til integration for synkronisering af [!INCLUDE[prod_short](includes/prod_short.md)]-records og [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabeller, der er angivet på siden for **Integrationstabeltilknytninger**. 
 
 En fuldstændig synkronisering udfører følgende handlinger til [!INCLUDE[prod_short](includes/prod_short.md)] eller [!INCLUDE[prod_short](includes/cds_long_md.md)] records, der er:
@@ -41,7 +36,7 @@ Om der bliver oprettet en række, og hvor, den evt. oprettes, afhænger af synkr
 > [!IMPORTANT]  
 >  Du benytter typisk kun fuldstændig synkronisering, når du første gang konfigurerer integration mellem [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)], og kun én af løsningerne indeholder data, som du vil kopiere til den anden løsning. En fuldstændig synkronisering kan være nyttig i et demo-miljø. Da fuldstændig synkronisering oprettes automatisk og forbinder records mellem løsningerne, gør det hurtigere at begynde at arbejde med synkronisering af data mellem records. På den anden side bør du kun udføre en fuldstændig synkronisering, hvis du ønsker en række i [!INCLUDE[prod_short](includes/prod_short.md)] for hver række i [!INCLUDE[prod_short](includes/cds_long_md.md)] for de givne tabeltilknytninger. Ellers kan der opstå uønskede eller dobbeltoprettede records i enten [!INCLUDE[prod_short](includes/prod_short.md)] eller [!INCLUDE[prod_short](includes/cds_long_md.md)].  
 
-### <a name="to-run-a-full-synchronization"></a>Sådan kører du en fuldstændig synkronisering  
+### Sådan kører du en fuldstændig synkronisering  
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Dataverse-forbindelseskonfiguration**, og vælg derefter det relaterede link.
 
     > [!NOTE]
@@ -56,7 +51,7 @@ Om der bliver oprettet en række, og hvor, den evt. oprettes, afhænger af synkr
 
 Du kan få vist resultaterne af fuld synkronisering på siden **Integrationssynkroniseringsjobs**. Du kan finde flere oplysninger i [Se status på en synkronisering](admin-how-to-view-synchronization-status.md).  
 
-## <a name="synchronizing-all-modified-records"></a>Synkroniser alle ændrede records
+## Synkroniser alle ændrede records
 Du kan benytte siden **Common Data Service Forbindelseskonfiguration** for at synkronisere ændringer af data i alle integrationstabeltilknytninger. Dette er det samme som en fuld synkronisering. Det vil synkronisere data i alle sammenkædede records i [!INCLUDE[prod_short](includes/prod_short.md)] tabeller og [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabeller, der er defineret i tabeltilknytningerne. Som standard synkroniseres kun data, der er blevet ændret siden sidste gang, de blev synkroniseret. Synkroniseringsjob synkroniserer tabeltilknytninger i denne rækkefølge for at undgå sammenkædning af afhængigheder mellem tabellerne:  
 
 1.  VALUTA  
@@ -70,18 +65,18 @@ Du kan få vist resultaterne af den fulde synkronisering på siden **Integration
 > [!TIP]  
 >  Ved at ændre integrationstabeltilknytningen på forhånd kan du oprette filtre, der skal styre de data, der skal synkroniseres, eller konfigurere tilknytninger for at oprette data i destinationsløsningen til ikke sammenkædede rækker i kilden. Du kan finde flere oplysninger i [Rediger tabeltilknytninger til synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md).
 
-### <a name="to-synchronize-data-for-all-tables"></a>Synkroniser data for alle tabeller  
+### Synkroniser data for alle tabeller  
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Microsoft Dynamics 365 Sales-forbindelseskonfiguration**, og vælg derefter det relaterede link.
 2.  Vælg handlingen **Synkroniser ændrede records**, og vælg derefter **Ja**.  
 
-## <a name="synchronize-individual-table-mappings"></a>Synkroniser individuelle tabeltilknytninger
+## Synkroniser individuelle tabeltilknytninger
 Du kan benytte siden **Integrationstabeltilknytninger** for at køre et synkroniseringsjob på specifikke tabeltilknytninger. Det vil synkronisere data for alle sammenkædede records og rækker i [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabellerne, der er defineret af tabeltilknytningen. Som standard synkroniseres kun data, der er blevet ændret siden sidste gang, de blev synkroniseret.  
 
-### <a name="to-synchronize-records-of-an-integration-table-mapping"></a>Synkroniser records fra en integrationstabeltilknytning  
+### Synkroniser records fra en integrationstabeltilknytning  
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") Vælg ikonet , åbn **Integrationstabeltilknytninger**, og vælg derefter det relaterede link.
 2.  Vælg handlingen **Synkroniser ændrede records**, og vælg derefter **Ja**.  
 
-## <a name="see-also"></a>Se også  
+## Se også  
 [Synkronisering af Business Central og Dynamics 365 Sales](admin-synchronizing-business-central-and-sales.md)   
 [Opsætning af brugerkonti til integration med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)   
 

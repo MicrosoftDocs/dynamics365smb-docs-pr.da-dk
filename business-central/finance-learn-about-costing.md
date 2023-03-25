@@ -1,22 +1,16 @@
 ---
 title: Om lagerkostmetode
-description: Styring af lagerværdien handler om registrering og rapportering af virksomhedens driftsomkostninger, herunder rapportering af produktionsomkostninger og lageromkostninger.
+description: 'Styring af lagerværdien handler om registrering og rapportering af virksomhedens driftsomkostninger, herunder rapportering af produktionsomkostninger og lageromkostninger.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 521cf2700c16bab71d13ea1282fbf4b09164b004
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513961"
 ---
-# <a name="about-inventory-costing"></a>Om lagerkostmetode
+# Om lagerkostmetode
 Administration af lagerkostmetoder vedrører registrering og rapportering af virksomhedens driftsomkostninger. Den omfatter rapportering af produktionsomkostninger og lageromkostninger, dvs. værdien af varer.  
 
  De centrale principper, der er vigtige at forstå, er, at kostmetoder definerer den måde, varer værdiansættes på, når de forlader lageret, at kostregulering opdaterer omkostningerne ved solgte varer med relaterede købsomkostninger bogført efter salget, og at lagerværdier skal bogføres til dedikerede finanskonti med regelmæssige mellemrum.  
@@ -37,7 +31,7 @@ Administration af lagerkostmetoder vedrører registrering og rapportering af vir
 |Læse, hvordan lagerperioder hjælper en virksomhed med at styre lagerværdi over tid, hvis der defineres kortere perioder, hvor der kan være lukket for bogføringer, efterhånden som regnskabsåret skrider frem.|[Arbejde med lagerperioder](finance-how-to-work-with-inventory-periods.md)|  
 |Forstå alle mekanismerne i prisberegningsprogrammet, herunder hvad der sker, når du bogfører montage og produktionstransaktioner.|[Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)|  
 
-## <a name="see-also"></a>Se også
+## Se også
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)    
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

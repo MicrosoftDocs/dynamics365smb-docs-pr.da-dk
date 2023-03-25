@@ -1,6 +1,6 @@
 ---
 title: Planlæg sager til regulering og afstemning af lageromkostninger
-description: Få mere at vide om, hvordan du kan bruge opgavekøen til at flytte opgaverne for at regulere lageromkostninger eller afstemme den med finansregnskabet i baggrunden. Hvis din virksomhed f.eks. kører mange opgaver eller behandler mange transaktioner.
+description: 'Få mere at vide om, hvordan du kan bruge opgavekøen til at flytte opgaverne for at regulere lageromkostninger eller afstemme den med finansregnskabet i baggrunden. Hvis din virksomhed f.eks. kører mange opgaver eller behandler mange transaktioner.'
 author: AndreiPanko
 ms.topic: article
 ms.devlang: na
@@ -10,18 +10,12 @@ ms.reviewer: edupont
 ms.search.form: 461
 ms.date: 09/23/2021
 ms.author: andreipa
-ms.openlocfilehash: 4dda49e125445ab754ce63dc6b2fc530ca59fcc4
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516974"
 ---
-# <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Planlæg sager til regulering og afstemning af lageromkostninger med finansmodulet
+# Planlæg sager til regulering og afstemning af lageromkostninger med finansmodulet
 
 Hvis du vil optimere oplevelsen, er automatisk kostregulering og bogføring til finansmodulet aktiveret som standard. Men når data akkumuleres over tid, kan det påvirke ydeevnen. Hvis du vil reducere belastningen af programmet, kan det ofte være nyttigt at bruge opgavekøposter til at flytte opgaver, der skal køres i baggrunden.
 
-## <a name="move-the-task-of-adjusting-item-costs-to-the-background-with-the-help-of-assisted-setup"></a>Flytte opgaven for regulering af vareomkostningerne til baggrunden ved hjælp af assisteret opsætning
+## Flytte opgaven for regulering af vareomkostningerne til baggrunden ved hjælp af assisteret opsætning
 
 Det kan være vanskeligt at oprette opgavekøposter, selv for en erfaren konsulent, så vi har en assisteret opsætningsvejledning, der letter processen i forbindelse med regulering af vareomkostninger.  
 
@@ -35,7 +29,7 @@ Det kan være vanskeligt at oprette opgavekøposter, selv for en erfaren konsule
 
 5. Vælg feltet **Vis logposterne i sagskøen, når du er færdig** for at gennemgå og justere indstillingerne. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).  
 
-## <a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a>Sådan oprettes en opgavekøpost til regulering og afstemning af lageromkostninger manuelt
+## Sådan oprettes en opgavekøpost til regulering og afstemning af lageromkostninger manuelt
 
 Du kan også oprette opgavekøposter manuelt. Følgende fremgangsmåde viser, hvordan du angiver **Reguler kostværdi - vareposter** til at blive kørt automatisk hver dag, men de samme trin gælder for kørslen **Bogfør lagerregulering til Finans**.  
 
@@ -54,7 +48,7 @@ Hvis du vil planlægge en opgave til afstemning af lageret med finansbogholderie
 > [!TIP]
 > Hvis du vil undgå låsning, skal du ikke planlægge opgaver for kørslen **Reguler kostværdi - vareposter**, codeunit **Bogfør lagerregulering til Finans** og opgaver til bogføring af salgs- eller indkøbstransaktioner på samme tid. Sørg også for, at de bruger samme opgavekøkategori.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Regulere varepriser](inventory-how-adjust-item-costs.md)  
 [Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  

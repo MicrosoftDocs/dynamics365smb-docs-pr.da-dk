@@ -1,22 +1,16 @@
 ---
 title: Sådan oprettes speditører
-description: Få mere at vide om, hvordan du opretter en kode for hver speditør og angiver beskrivende oplysninger om hver af dem og de tjenester, de yder.
+description: 'Få mere at vide om, hvordan du opretter en kode for hver speditør og angiver beskrivende oplysninger om hver af dem og de tjenester, de yder.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 012fe136161d891cb4adde6ace120040f7da909a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513675"
 ---
-# <a name="set-up-shipping-agents"></a>Oprette speditører
+# Oprette speditører
 Du kan angive en kode for hver speditør og angive oplysninger om dem.  
 
 Hvis du angiver en internetadresse for speditøren, og denne tilbyder pakkesporing over internettet, kan du anvende programmets automatiske pakkesporingsfunktion. Du kan finde flere oplysninger i [Spore pakker](sales-how-track-packages.md).
@@ -26,7 +20,7 @@ Du kan angive et ubegrænset antal serviceydelser for hver speditør, og du kan 
 
 Når du har tilknyttet en speditørservice til salgsordrelinjen, medtages transporttiden for den pågældende service i beregningen af ordrebekræftelsen for linjen. Du kan finde flere oplysninger i [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md).
 
-## <a name="to-set-up-a-shipping-agent"></a>Sådan oprettes en speditør  
+## Sådan oprettes en speditør  
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Speditører**, og vælg derefter det relaterede link.  
 2.  Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Vælg handlingen **Speditørservice**.
@@ -35,14 +29,13 @@ Når du har tilknyttet en speditørservice til salgsordrelinjen, medtages transp
 > [!NOTE]  
 >  Hvis du sletter speditøren på ordrelinjen, slettes speditørservicekoden også. Derefter beregnes oplysningerne i de felter, der er baseret på speditørservicen, igen.  
 
-## <a name="see-also"></a>Se også
+## Se også
 [Oprette leveringsformer](sales-how-set-up-shipment-methods.md)  
 [Spore pakker](sales-how-track-packages.md)    
-[Logistik](warehouse-manage-warehouse.md)  
-[Lagerbeholdning](inventory-manage-inventory.md)  
+[Warehouse Management-oversigt](design-details-warehouse-management.md)
+[Lager](inventory-manage-inventory.md)  
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
 [Montagestyring](assembly-assemble-items.md)    
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

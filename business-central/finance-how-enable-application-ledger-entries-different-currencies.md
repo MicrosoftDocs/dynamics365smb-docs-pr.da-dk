@@ -1,23 +1,17 @@
 ---
 title: Udligne poster i forskellige valutaer
-description: Du kan udligne finansposter i flere valutaer, f.eks. hvis du sælger i én valuta og modtager betaling i en anden.
+description: 'Du kan udligne finansposter i flere valutaer, f.eks. hvis du sælger i én valuta og modtager betaling i en anden.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies, payment, reconcile
-ms.search.form: 148, 460, 25
+ms.search.keywords: 'multiple currencies, payment, reconcile'
+ms.search.form: '148, 460, 25'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e8a09e2a832e5461b0a597a9caf4af8e9d7af7e9
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529051"
 ---
-# <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Aktivere anvendelsen af finansposter i forskellige valutaer
+# Aktivere anvendelsen af finansposter i forskellige valutaer
 
 Hvis du køber varer fra en leverandør i én valuta, men foretager betaling i en anden valuta, kan du udligne betalingen med købet.
 
@@ -25,7 +19,7 @@ Ligeledes, hvis du sælger til en debitor i en valuta og modtager betaling i en 
 
 Følgende procedure beskriver, hvordan du kan angive dette for kreditorposter på siden **Købsopsætning**. Der er tilsvarende opsætning for debitorposter på siden **Salgsopsætning**.
 
-## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>Sådan aktiveres udligning af kreditorposter i forskellige valutaer
+## Sådan aktiveres udligning af kreditorposter i forskellige valutaer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Købsopsætning** og derefter vælge det relaterede link.
 2. Vælg en af følgende indstillinger i feltet **Valutaudligning**.
@@ -36,7 +30,7 @@ Følgende procedure beskriver, hvordan du kan angive dette for kreditorposter p�
 | ØMU |Udligning mellem ØMU-valutaer er tilladt. |
 | Alle |Udligning mellem alle valutaer er tilladt. |
 
-## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences"></a>Sådan opsættes finanskonti til afrundingsdifferencer ved valutaudligning
+## Sådan opsættes finanskonti til afrundingsdifferencer ved valutaudligning
 
 Hvis du anvender poster i forskellige valutaer, skal du oprette finanskonti, hvor du kan bogføre afrundingsdifferencer.  
 
@@ -48,9 +42,9 @@ Hvis du anvender poster i forskellige valutaer, skal du oprette finanskonti, hvo
 3. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kreditorbogføringsgrupper**, og vælg derefter det relaterede link.  
 4. I felterne **Valutaudlign.afrnd.kto (deb.)** og **Valutaudlign.afrnd.kto (kre.)** skal du indtaste de relevante finanskonti bogføring af afrundingsdifferencer.  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  

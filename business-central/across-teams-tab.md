@@ -1,6 +1,6 @@
 ---
 title: Tilføje Business Central-fane i Microsoft Teams
-description: Få mere at vide om, hvordan du tilføjer faner i Teams, der viser Business Central-sider.
+description: 'Få mere at vide om, hvordan du tilføjer faner i Teams, der viser Business Central-sider.'
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -8,15 +8,10 @@ ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/04/2022
 ms.custom: bap-template
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records, tab
-ms.openlocfilehash: cff1392b0e4ae622819fa50d4eaf69b98a9a1a52
-ms.sourcegitcommit: bef166d75d656f4cc516f5f9a85227e540630344
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 11/07/2022
-ms.locfileid: "9748397"
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records, tab'
 ---
-# <a name="add-business-central-tab-in-microsoft-teams"></a>Tilføje Business Central-fane i Microsoft Teams
+
+# Tilføje Business Central-fane i Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -24,7 +19,7 @@ I Teams vises faner i toppen af kanaler og chats, så deltagerne har hurtig adga
 
 ![Faner i Teams](media/teams-tabs-border.png)
 
-## <a name="about-business-central-tabs"></a>Om Business Central-faner
+## Om Business Central-faner
 
 En [!INCLUDE [prod_short](includes/prod_short.md)]-fane giver en fokuseret visning af [!INCLUDE [prod_short](includes/prod_short.md)]-liste og kortsider. På fanen vises ikke hele [!INCLUDE [prod_short](includes/prod_short.md)]-webklienten. Der er ingen kant fra browseren, [!INCLUDE [prod_short](includes/prod_short.md)]-banner (f. eks. med Fortæl, søgning, hjælp) eller navigationsmenu - kun sidens indhold og handlinger. Indholdet er interaktivt, hvilket betyder, at du kan vælge handlinger og links, ændre data m.m. Du er begrænset til det, du ser, og hvad du kan udføre med de samme tilladelser, der er tildelt din konto i [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -33,7 +28,7 @@ Hvis du vil vide, hvordan du kan få vist indholdet af en [!INCLUDE [prod_short]
 > [!TIP]
 > Er du udvikler? Du kan også tilføje faner programmeringsmæssigt ved hjælp af Microsoft Graph API. Du kan finde flere oplysninger i [Tilføje en Business Central-faner i Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tabs).  
 
-## <a name="prerequisites"></a>Forudsætninger
+## Forudsætninger
 
 Hvis du vil tilføje en [!INCLUDE [prod_short](includes/prod_short.md)]-fane, skal følgende krav være opfyldt:
 
@@ -47,7 +42,7 @@ Hvis du vil have vist [!INCLUDE [prod_short](includes/prod_short.md)]-fanen, som
 - Du har en [!INCLUDE [prod_short](includes/prod_short.md)]-licens eller begrænset adgang til Business Central med en Microsoft 365-licens. Du kan finde flere oplysninger i [Adgang til Business Central med Microsoft 365-licenser](admin-access-with-m365-license.md).
 - Du har installeret [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams.
 
-## <a name="add-tab-using-recommended-content"></a>Tilføje fane med anbefalet indhold
+## Tilføje fane med anbefalet indhold
 
 Du kan bruge disse trin til at tilføje en fane ved at vælge, hvad der skal vises fra en direkte tilgængelig liste over anbefalet indhold, der er baseret på rollecenteret - uden at forlade Teams. Hvis du vil vide mere om det indhold, du kan vælge mellem, kan du se [Hvor kommer det anbefalede indhold fra?](/dynamics365/business-central/teams-faq?tabs=tabs#where-does-the-recommended-content-come-from).
 
@@ -66,7 +61,7 @@ Du kan bruge disse trin til at tilføje en fane ved at vælge, hvad der skal vis
 6. Vælg **Send til kanalen om denne fane**, hvis du automatisk vil sende en meddelelse i en Teams-kanal eller via chat, så du kan se, at du har tilføjet denne fane.
 7. Vælg **Gem**.
 
-## <a name="add-tab-using-a-page-link"></a>Tilføj fane ved hjælp af et sidelink
+## Tilføj fane ved hjælp af et sidelink
 
 Du kan også tilføje en fane med et link (URL) på den side, du vil vise. Denne måde er nyttig, når du vil have vist en bestemt [!INCLUDE [prod_short](includes/prod_short.md)]-post eller en listeside, der ikke er bogmærket i rollecenteret.
 
@@ -85,14 +80,14 @@ Du kan også tilføje en fane med et link (URL) på den side, du vil vise. Denne
 8. Vælg **Send til kanalen om denne fane**, hvis du automatisk vil sende en meddelelse i en Teams-kanal eller via chat, så du kan se, at du har tilføjet denne fane.
 9. Vælg **Gem**.
 
-## <a name="add-tab-by-pinning-card-details"></a>Tilføj fane ved at fastgøre kortdetaljer
+## Tilføj fane ved at fastgøre kortdetaljer
 
 Benyt følgende trin for at føje en fane til en post, der er delt eller indsat i en Teams-kanal eller chat. Du kan finde flere oplysninger om deling af poster og sidelinks i Teams i [Dele poster og sidelinks i Teams](across-working-with-teams.md).
 
 1. I Teams skal du vælge knappen **Detaljer** på kortet.
 2. I øverste højre hjørne af kortdetaljerne skal du vælge **Fastgør til toppen af chat** ![Fastgør-ikon for at tilføje fanen Teams i Business Central](media/pin-teams.png)-ikonet.
 
-## <a name="change-a-tab-and-its-content"></a>Ændre en fane og dens indhold
+## Ændre en fane og dens indhold
 
 Når der er tilføjet en fane, kan du foretage visse ændringer af fanen. Du kan f. eks. omdøbe fanen, flytte den og fjerne den. Du finder disse handlinger under fanens indstillinger, der er tilgængelige, når du vælger den nedadgående pil på fanen.
 
@@ -102,7 +97,7 @@ Som til indholdet af en fane kan du redigere dataene, hvis du har tilladelse. Hv
 
 Du kan også ændre visningen af siden og dens data, f.eks. sortere og skifte layout mellem liste og feltvisning. Når du foretager denne slags ændringer, har de ingen indflydelse på, hvad andre ser. De kan se, hvad du oprindeligt bogførte, indtil de foretager lignende ændringer.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversigt over integrationen af Business Central og Microsoft Teams](across-teams-overview.md)  
 [Installere appen [!INCLUDE [prod_short](includes/prod_short.md)] til Microsoft Teams](across-install-app-for-teams.md)  

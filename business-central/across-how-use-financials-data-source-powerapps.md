@@ -6,30 +6,24 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: OData, Power App, SOAP
+ms.search.keywords: 'OData, Power App, SOAP'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d7dbc334edcd22bb41ea5ad3a37ff53a52bfe970
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531886"
 ---
-# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Oprette forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af Power Apps
+# Oprette forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af Power Apps
 
 Du kan gøre dine [!INCLUDE[prod_short](includes/prod_short.md)]-data tilgængelige som en datakilde i Power Apps.  
 
 > [!NOTE]  
 > Du skal have en gyldig konto til [!INCLUDE[prod_short](includes/prod_short.md)] og til Power Apps.  
 
-## <a name="to-add-prod_short-as-a-data-source-in-power-apps"></a>Sådan tilføjes [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power Apps
+## Sådan tilføjes [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power Apps
 
 1. Gå til [powerapps.microsoft.com](https://powerapps.microsoft.com/) i din webbrowser, og log på.
 2. Vælg feltet **Andre datakilder** på startsiden i afsnittet **Start fra data**.  
 
     Dette åbner Power Apps Studio. Når du logger på første gang, skal du angive land/område.  
-3. Vælg **Business Central** på listen over tilgængelige forbindelser, og vælg derefter knappen **Opret**.
+3. Vælg **Business Central**på listen over tilgængelige forbindelser, og vælg derefter knappen **Opret**.
 
     Power Apps opretter forbindelse til din [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af de legitimationsoplysninger, du er logget på med. Hvis du ikke er administrator af din [!INCLUDE[prod_short](includes/prod_short.md)], skal du muligvis logge på med en anden konto.  
 
@@ -49,9 +43,9 @@ Når du har designet og opbygget din app, kan du dele den med dine kolleger. Du 
 > [!NOTE]
 > Hvis du vil oprette forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø, skal du vælge **Business Central til det lokale miljø**-connectoren i trin 3.  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/power-apps-power-automate-business-central/)
+## Se relateret [Microsoft-træning](/training/paths/power-apps-power-automate-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprette en lærreds-app fra en skabelon i Power Apps](/powerapps/maker/canvas-apps/get-started-test-drive)  
 [Import af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  

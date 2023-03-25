@@ -1,122 +1,130 @@
 ---
-title: Designoplysninger - Internt lagerflow
-description: Flow mellem placeringscentre i forbindelse med pluk af komponenter og placering af varer på lager for montage-eller produktionsordrer og ad hoc-bevægelser uden kildedokumenter.
-author: SorenGP
+title: 'Designdetaljer - Flows til produktion, montage og sager'
+description: Flere oplysninger om flow mellem placeringscentre i forbindelse med pluk af komponenter og placering af varer på lager for montage-eller produktionsordrer og jobordrer.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: b8e38dcf94c4303cdd69f5417a152484f5100e09
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136370"
+ms.date: 12/16/2022
+ms.custom: bap-template
 ---
-# <a name="design-details-internal-warehouse-flows"></a>Designoplysninger: Internt lagerflow
-Gennemstrømningen af varer mellem placeringer i virksomheden vedrører pluk af komponenter og at lægge færdigvarer på lager til produktions- eller montageordrer og ad hoc-bevægelser, f.eks. placeringsgenopfyldninger, uden relation til kildedokumenter. Omfanget og arten af de involverede aktiviteter varierer mellem grundlæggende og avancerede logistikfunktioner.  
+# Flows til produktion, montage og sager
 
- Nogle interne strømme overlapper med indgående eller udgående strømme. Noget af denne overlapning vises som trin 4 og 5 i de grafiske diagrammer for avancerede indgående og udgående strømme. Du kan finde flere oplysninger i [Designoplysninger: Indgående lagerflow](design-details-outbound-warehouse-flow.md)  
+Interne flow, f. eks. pluk af komponenter og placering af varer på lager for montage, sager og produktionsordrer ligner indgående eller udgående flow. Derfor kan der være kendte mange af processerne. Denne artikel indeholder oplysninger om, hvordan du kan arbejde med interne lagerflows med forskellige kompleksitetsniveauer.
 
-## <a name="internal-flows-in-basic-warehousing"></a>Interne strømme i basislogistik  
- I grundlæggende lageropsætning centrerer gennemstrømningen af varer mellem placeringer i virksomheden på pluk af komponenter og at lægge færdigvarer på lager til produktion eller montageordrer og ad hoc-bevægelser, f.eks. placeringsgenopfyldninger, uden relation til kildedokumenter.  
+## Oversigt over forskellige konfigurationsindstillinger
 
-### <a name="flows-to-and-from-production"></a>Flows til og fra Produktion  
- Den vigtigste integration mellem produktionsordrer og grundlæggende lageraktiviteter er repræsenteret af muligheden for at plukke produktionskomponenter med siden **Pluk (lager)** eller siden **Flytning (lager)**.  
+Du kan konfigurere lagerfunktioner på forskellige måder. Det er vigtigt, at de indstillinger, du vælger, forbedrer processerne uden at medføre spild. I følgende tabel beskrives standardkonfigurationer for håndtering af fysiske varer for produktion, sager og montageordrer.
 
-> [!NOTE]  
->  På siden **Pluk (lager)** er komponentforbrug bogført sammen med bogføringen af pluk. Ved hjælp af siden **Flytning (lager)** registreres kun placeringsreguleringer, der bogføres ingen vareposter.  
+### Indgående flow (læg-på-lager)
 
- Udover håndtering af komponenter er integrationen repræsenteret af muligheden for at lægge producerede varer på lager med siden **Læg-på-lager**.  
+|Kompleksitetsniveau|Beskrivlse|Indstillinger|Placeringskode|Indgående flow for produktionsordre|Indgående flow for montageordre|Indgående flow for sager|  
+|---|----------------|----------|---------|------------------|------------------|------------------|
+|Ingen dedikeret lageraktivitet.|Bogføring af ordrer og kladder||Valgfri. Kontrolleret af **Placeringskoden er obligatorisk** til/fra.|Produktionskladde -> Afgangskladde</br><br/> **Bemærk**: Du kan bogføre afgang vha **Produktionskladden**.|Montageordre|Læg-på-lager er ikke relevant for sager|  
+|Basis|Ordre for ordre|Kræv læg-på-lager. </br><br/> **BEMÆRK**: Selv om indstillingen kaldes **Kræv pluk**, kan du bogføre leverancer direkte fra kildeforretningsdokumentet på den lokation, hvor du markerer dette afkrydsningsfelt. |Valgfri. Kontrolleret af **Placeringskoden er obligatorisk** til/fra.|Produktionsordre -> Læg-på-lager|Montageordre|Læg-på-lager er ikke relevant for sager|
+|Avanceret|Konsoliderede læg-på-lager-aktiviteter for flere kildedokumenter.|Kræv tilgang + Kræv læg-på-lager|Valgfri. Kontrolleret af **Placeringskoden er obligatorisk** til/fra.|Produktionsordrer -> Afgangskladde|Montageordrer -> interne bevægelser | Læg-på-lager er ikke relevant for sager|
+|Avanceret|Samme som over + Styret pluk/læg-på-lager-aktiviteter|Styret pluk og læg-på-lager (afhængige Skift aktiveres automatisk)|Obligatorisk|Samme som ovenfor.|Samme som ovenfor.| Læg-på-lager er ikke relevant for sager|
 
- Felterne **Til-produktionsplaceringskode**, **Fra-produktionsplaceringskode** og **Åben prod.placeringskode** på lokationskortet eller produktionsressource/arbejdscenterkortene definerer standardflow til og fra produktionsområder.  
+I nogle konfigurationer kan du ikke bruge dedikerede lagerdokumenter til at registrere læg-på-lager-aktiviteter. Men hvis lokationen bruger placeringer, kan du bruge standard bevægelses dokumenter til at flytte producerede eller monterede varer til lagerstedet. Du kan finde flere oplysninger i [Flytte varer ad hoc i grundlæggende lageropsætninger](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
- Hvis du ønsker yderligere oplysninger om, hvordan komponentforbrug tømmes fra produktionsplaceringen eller den åbne produktionsplacering, kan du se afsnittet "Træk af produktionskomponenter i lageret" i dette emne.  
+### Udgående flow (pluk)
 
-### <a name="flows-to-and-from-assembly"></a>Flows til og fra Montage  
- Den vigtigste integration mellem montageordrer og grundlæggende lageraktiviteter repræsenteres af muligheden for at flytte montagekomponenter til montageområdet.  
+|Kompleksitetsniveau|Beskrivlse|Indstillinger|Placeringskode|Udgående flow for produktionsordre|Udgående flow for montageordre|Udgående flow for sager|  
+|---|----------------|----------|---------|------------------|------------------|------------------|
+|Ingen dedikeret lageraktivitet.|Bogføring af ordrer og kladder||Valgfri. Kontrolleret af **Placeringskoden er obligatorisk** til/fra.|Produktionskladde -> Forbrugskladde </br><br/> **Bemærk**: Du kan bogføre afgang vha **Produktionskladden**.|Montageordre|Sag -> Sagskladde|  
+|Basis|Ordre for ordre|Kræv pluk. </br><br/> **Bemærk**: Selv om indstillingen kaldes **Kræv pluk**, kan du bogføre leverancer direkte fra kildeforretningsdokumentet på den lokation, hvor du markerer dette afkrydsningsfelt. <!-- ToDo Test prod output-->|Valgfri. Kontrolleret af **Placeringskoden er obligatorisk** til/fra.|Produktionsordre -> Lagerpluk|Montageordre -> flytning (lager)</br><br/>**Lagerbevægelsen** kan kun bruges sammen med placeringer.|Sag -> lagerpluk|
+|Avanceret|Konsoliderede plukaktiviteter for flere kildedokumenter.|Kræv leverance + Kræv pluk|Valgfri. Kontrolleret af Placeringskoden er obligatorisk til/fra|Produktionsordrer -> lagerpluk -> Forbrugskladde |Montageordrer -> lagerpluk| Sager -> Lagerpluk -> Sagskladde |
+|Avanceret|Samme som over + Styret pluk/læg-på-lager-aktiviteter|Styret pluk og læg-på-lager (afhængige Skift aktiveres automatisk)|Obligatorisk|Samme som ovenfor.|Samme som ovenfor.| Dirigerede Læg-på-lager og pluk understøttes ikke for sager|
 
- Da der ikke findes nogen specifikke lagerfunktioner til at lægge montageelementer på lager, kan placeringskoden på montageordrehovedet indstilles til en læg-på-lager-standardplacering. Bogføring af montageordren fungerer derefter som bogføring af læg-på-lager. Lageraktiviteten til at flytte montageelementer til lageret kan administreres på siden **Intern flytning** uden relation til montageordren.  
+Som indgående flow kan nogle konfigurationer ikke bruge dedikerede lagerdokumenter til at registrere læg-på-lager-aktiviteter. Men hvis lokationen bruger placeringer, kan du bruge standard bevægelses dokumenter til at flytte producerede eller monterede varer. Flere oplysninger i [Flytte varer](warehouse-move-items.md).
 
- Der findes følgende montagestrømme.  
+## Lagersteder uden dedikeret lageraktivitet
 
-|Workflow|Beskrivelse|  
-|----------|---------------------------------------|  
-|Montage til lager|Komponenterne skal bruges på en montageordre, hvor outputtet gemmes i lageret.<br /><br /> Dette lagerflow administreres på siden **Flytning (lager)**. En tag-linje angiver, hvor komponenterne skal tages. En placeringslinje angiver, hvor komponenterne skal placeres.|  
-|Montage til ordre|Komponenterne, der skal bruges på en montageordre, der er knyttet til en salgsordre, der leveres, når den solgte vare er monteret.|  
+Selvom du ikke har dedikeret lageraktiviteter, vil du sikkert stadig gerne holde styr på ting, f. eks. forbrug og produktionsafgang. Følgende artikler indeholder oplysninger om, hvordan du behandler modtagelser af kildedokumenter.
 
-> [!NOTE]  
->  Hvis varer samles til ordre, udløser lagerpluk af den tilknyttede salgsordre en flytning (lager) for alle de involverede montagekomponenter, ikke blot for den solgte vare som ved levering af lagervarer.  
+* [Registrere forbrug og afgang for én frigivet produktionsordrelinje](production-how-to-register-consumption-and-output.md)
+* [Montere varer](assembly-how-to-assemble-items.md)
+* [Registrere forbrug eller forbrug til sager](projects-how-record-job-usage.md)
 
- Felterne **Placeringskode til til-montage**, **Placeringskode til fra-montage** og **Pla.kode til ordremontagelev.** på lokationskortet definerer standardflow til og fra montageområder.  
+## Grundlæggende lageropsætninger
 
-> [!NOTE]  
->  Feltet **Pla.kode til ordremontagelev.** fungerer som fra-montageplaceringen i montage til ordre-scenarier.  
+De indgående og udgående flows i en grundlæggende lageropsætning omfatter følgende indstillinger på siden **Lokationskort** siden for lokationen:
 
-### <a name="ad-hoc-movements"></a>Ad hoc-flytninger  
- I grundlæggende lagerfunktioner styres flytning af varer fra placering til placering uden relation til kildedokumenter på siden **Intern flytning**, der fungerer sammen med siden **Flytning (lager)**.  
+* Ved det indgående flow (læg-på-lager), skal du slå funktionen **Kræv læg-på-lager** fra, men slå **Kræv modtagelse** til/fra.
+* Ved det indgående flow (læg-på-lager), skal du slå funktionen **Kræv læg-på-lager** fra, men slå **Kræv modtagelse** til/fra.
 
- En anden måde, hvorpå varer kan flyttes ad hoc mellem placeringer, er ved at bogføre positive poster i feltet **Ny placeringskode** på siden **Vareomposteringskladde**.  
+### Flows til og fra produktion i en grundlæggende lageropsætning  
 
-## <a name="internal-flows-in-advanced-warehousing"></a>Interne strømme i avanceret logistik  
- I avancerede lageropsætninger centrerer gennemstrømningen af varer mellem placeringer i virksomheden omkring pluk af komponenter og at lægge varer til produktionsordrer på lager og plukke komponenter til montageordrer. Desuden opstår interne strømme som ad hoc-bevægelser, såsom placeringsgenopfyldninger, uden relation til kildedokumenter.  
+Brug **Lagerpluk**-dokumenter til at plukke produktionskomponenter i forløbet til produktion. Hvis du vil lægge produkterne på lager, skal du bruge **Læg-på-lager**-dokumenter.
 
-### <a name="flows-to-and-from-production"></a>Flows til og fra Produktion  
- Den vigtigste integration mellem produktionsordrer og avancerede lageraktiviteter er repræsenteret af muligheden for at plukke produktionskomponenter, på siden **Pluk (logistik)** og **Plukkladde**, og muligheden for at lægge producerede varer på lager med siden **Intern læg-på-lager-aktivitet**.  
+For lokationer, der bruger placeringer, er det især praktisk at trække lagerbevægelser. Hvis du ønsker yderligere oplysninger om, hvordan komponentforbrug tømmes fra produktionsplaceringen eller den åbne produktionsplacering, kan du se afsnittet [Træk af produktionskomponenter i lageret](warehouse-how-to-pick-for-production.md#flushing-production-components-in-a-basic-warehouse-configuration).
 
- Et andet integrationspunkt i produktionen er angivet på siden **Bevægelse (logistik)** sammen med siden Bevægelseskladde, som gør det muligt at placere komponenter og tage producerede varer for frigivne produktionsordrer.  
+   > [!NOTE]
+   > Lagerbevægelser er vigtige dokumenter, hvis du bruger **Pluk + Fremad** eller **Pluk + Baglæns**-metoder. Få mere at vide i [Trækmetoder](production-how-to-flush-components-according-to-operation-output.md#flushing-methods).
 
- Felterne **Til-produktionsplaceringskode**, **Fra-produktionsplaceringskode** og **Åben prod.placeringskode** på lokationskortet eller produktionsressource/arbejdscenterkortene definerer standardflow til og fra produktionsområder.  
+* Felterne **Til-produktionsplaceringskode**, **Fra-produktionsplaceringskode** og **Åben prod.placeringskode** på lokationskortet eller produktionsressource/arbejdscenterkortene definerer standardflow til og fra produktionsområder.
+* Styre bevægelsen af fremstillede varer på siden **Intern overførsel** uden en relation til en produktionsordre.
 
- Hvis du ønsker yderligere oplysninger om, hvordan komponentforbrug tømmes fra produktionsplaceringen eller den åbne produktionsplacering, kan du se afsnittet "Træk af produktionskomponenter i lageret" i dette emne.  
+### Flows til og fra montage i en grundlæggende lageropsætning  
 
-### <a name="flows-to-and-from-assembly"></a>Flows til og fra Montage  
- Den vigtigste integration mellem montageordrer og avancerede lageraktiviteter er repræsenteret af muligheden for at plukke montagekomponenter, begge med siderne **Pluk (logistik)** og **Plukkladde**. Denne funktion fungerer ligesom ved pluk af komponenter til produktionsordrer.  
+Bogfør montageafgang og forbrug direkte fra en montageordre.
 
- Da der ikke findes nogen specifikke lagerfunktioner til at lægge montageelementer på lager, kan placeringskoden på montageordrehovedet indstilles til en læg-på-lager-standardplacering. Bogføring af montageordren fungerer derefter som bogføring af læg-på-lager. Lageraktiviteten til at flytte montageelementer til lageret kan administreres på siden **Bevægelseskladde** eller på siden **Intern læg-på-lager-aktivitet** med uden relation til montageordren.  
+> [!NOTE]
+> **Lagerpluk** og **Læg-på-lager**-dokumenter understøttes ikke for montageordrer.
 
-> [!NOTE]  
->  Hvis varer samles til ordre, udløser lagerleveringen af den tilknyttede salgsordre et lagerpluk for alle de involverede montagekomponenter, ikke blot for den solgte vare som ved levering af lagervarer.  
+Lokationer til brug af placeringer:
 
- Felterne **Placeringskode til til-montage** og **Placeringskode til fra-montage** på lokationskortet definerer standardflow til og fra montageområder.  
+* Bruge **Flytning (lager)**-dokumenter af varer til at flytte montagekomponenter til montageområdet.
+* Felterne **Placeringskode til til-montage** og **Placeringskode til fra-montage** på lokationskortet definerer standardflow til og fra montageområder.
+* Administrere bevægelsen af fremstillede varer på siden **Intern overførsel** uden en relation til en produktionsordre.
 
-### <a name="ad-hoc-movements"></a>Ad hoc-flytninger  
- I avancerede lagerfunktioner styres flytning af varer fra placering til placering uden relation til kildedokumenter på siden **Bevægelseskladde** og registreres på siden Bevægelse (logistik).  
+[!INCLUDE [prod_short](includes/prod_short.md)] understøtter montage efter lager-og montage efter ordre-montage processer. Flere oplysninger i [Om montage til ordre og montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock). I forbindelse med lokationsstyring er montage til lager en del af den interne lager strøm, og montage efter ordre er i den udgående lagergang. Flere oplysninger i [Håndtering af montage til ordre-varer med pluk](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## <a name="flushing-production-components-in-the-warehouse"></a>Træk af produktionskomponenter i lageret  
- Hvis det er angivet på varekortet, bliver komponenter, der plukkes med lagerpluk, bogført som forbrugt af produktionsordren, når lagerpluk er registreret. Ved hjælp af metoden **Pluk + Forlæns** og trækmetoden **Pluk + Baglæns**, udløser plukregistreringen den relaterede forbrugsbogføring henholdsvis, når den første handling starter, eller når den sidste handling afsluttes.  
+### Flows til projektstyring i en grundlæggende lageropsætning
 
- Forestil dig følgende scenarie, der er baseret på [!INCLUDE[prod_short](includes/prod_short.md)]-demodatabasen.  
+Brug **Lagerpluk**-dokumenter til at plukke produktionskomponenter i forløbet til produktion.
 
- Der findes en produktionsordre for 15 stk. af vare LS-100. Nogle af varerne på komponentlisten skal trækkes manuelt i en forbrugskladde, og andre varer på listen kan plukkes og trækkes automatisk ved hjælp af metoden **pluk + baglæns**.  
+For en lokation, der bruger placeringer, definerer feltet **Til-sag Placeringskode** på lokationen de standardstrømme, der skal bruges til projektstyringen.
 
-> [!NOTE]  
->  **Pluk + Forlæns** fungerer kun, hvis den anden rutelinje for produktion bruger en rutebindingskode. Frigivelse af en planlagt produktionsordre starter forlæns træk af komponenter, der er angivet til **Pluk + Forlæns**. Men træk kan ikke finde sted, før pluk af komponenter er registreret, som igen kun kan finde sted, når ordren er frigivet.  
+## Avancerede lageropsætninger  
 
- De følgende trin beskriver de handlinger, der er involveret for forskellige brugere, og de relaterede svar:  
+De indgående og udgående flows i en grundlæggende lageropsætning omfatter følgende indstillinger på siden **Lokationskort** for lokationen:
 
-1.  Den tilsynsførende frigiver produktionsordren. Elementer med **Fremad** som trækmetode og ingen rutebindingskode bliver fratrukket åben produktionsplacering.  
-2.  Den tilsynsførende vælger knappen **Opret pluk (logistik)** på produktionsordren. Der oprettes et lagerplukdokument for varer med trækmetoderne **Manuel**, **Pluk + Baglæns** og **Pluk + Forlæns**. Disse varer placeres på produktionsplaceringen.  
-3.  Lagerchefen tildeler pluk til en lagermedarbejder.  
-4.  Lagermedarbejderen plukker varerne fra relevante placeringer og placerer dem på produktionsplaceringen eller på placeringen, der er angivet på lagerplukket, hvilket kan være et arbejdscenter- eller en produktionsressourceplacering.  
-5.  Lagermedarbejderen registrerer plukket. Antallet trækkes fra plukplaceringerne og føjes til forbrugsplaceringen. Feltet **Plukket antal** på komponentlisten for alle de plukkede varer opdateres.  
+* Ved det indgående flow (læg-på-lager), skal du slå funktionen **Kræv læg-på-lager** fra, men slå **Kræv modtagelse** til/fra.
+* Ved det indgående flow (læg-på-lager), skal du slå funktionen **Kræv læg-på-lager** fra, men slå **Kræv modtagelse** til/fra.
 
-    > [!NOTE]  
-    >  Kun det antal, der er plukket, kan forbruges.  
+### Flows til og fra produktion i en avanceret lageropsætning
 
-6.  Maskinoperatøren oplyser produktionschefen om, at færdigvarerne er klar.  
-7.  Den tilsynsførende bruger forbrugskladden eller produktionskladden til at bogføre forbruget af komponentvarer, som enten bruger en **manuel** trækmetode eller **Forlæns**- eller **Pluk + Forlæns**-trækmetoder sammen med rutebindingskoder.  
-8.  Produktionschefen bogfører afgang for produktionsordren og ændrer status til **Udført**. Antallet af komponentvarer, der bruger **baglæns**-trækmetoden, trækkes fra den åbne produktionsplacering, og antallet af komponentvarer, der bruger **pluk + baglæns**-trækmetoden trækkes fra produktionsplaceringen.  
+Brug **Lagerpluk**- dokumenterne og siden **Plukkladde** til at plukke komponenter til produktion.
 
- Følgende illustration viser, når feltet **Placeringskode** på komponentlisten udfyldes i overensstemmelse med konfiguration af din lokation eller maskine/arbejdscenter.  
+Lokationer til brug af placeringer:
 
- ![Oversigt over, hvornår/hvordan feltet Placeringskode skal udfyldes.](media/binflow.png "Oversigt over, hvornår/hvordan feltet Placeringskode skal udfyldes")  
+* **Lagerbevægelse**-dokumenter og **Bevægelsesregneark**-siden er især nyttige ved træk med komponenter. Flere oplysninger i [Træk af produktionskomponenter i lageret](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md#flushing-production-components-in-a-advanced-warehouse-configuration).
+* Felterne **Til-produktionsplaceringskode**, **Fra-produktionsplaceringskode** og **Åben prod.placeringskode** på lokationskortet eller produktionsressource/arbejdscenterkortene definerer standardflow til og fra produktionsområder. 
+* Styre bevægelsen af fremstillede varer på siderne **Bevægelseskladde** eller **Intern læg-på-lager-aktivitet** uden en relation til en produktionsordre.
 
-## <a name="see-also"></a>Se også  
- [Designoplysninger: Warehouse Management](design-details-warehouse-management.md)
+### Flows til og fra montage i en avanceret lageropsætning
 
+Brug **Lagerpluk**-dokumenterne og siden **Plukkladde** til at plukke komponenter til produktion.
+
+Lokationer til brug af placeringer:
+
+* Felterne **Placeringskode til montage** og **Placeringskode fra montage** på lokationskortet definerer standardflow til og fra montageområder.
+* Styre bevægelsen af fremstillede varer på siderne **Bevægelseskladde** eller **Intern læg-på-lager-aktivitet** uden en relation til en produktionsordre.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] understøtter montage efter lager-og montage efter ordre-montage processer. Flere oplysninger i [Om montage til ordre og montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock). 
+
+Montage til lager er en del af det interne lagerflow, og montage efter ordre er i det udgående lagerflow. Flere oplysninger i [Håndtering af montageordrevarer i lagerleverancer](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
+
+### Flows til projektstyring i en avancerede lageropsætninger
+
+Brug **Lagerpluk**-dokumenterne og siden **Plukkladde** til at plukke komponenter til produktion.
+
+For en lokation, der bruger placeringer, definerer feltet **Til-sag Placeringskode** på lokationen de standardstrømme, der skal bruges til projektstyringen.
+
+## Se også  
+
+[Oversigt over logistik](design-details-warehouse-management.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

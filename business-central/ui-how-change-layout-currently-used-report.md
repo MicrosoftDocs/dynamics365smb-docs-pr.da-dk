@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9652, 9650
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9652, 9650'
 ms.date: 03/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 612dc8ada170ae6925bd3121db324cec1624ce68
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530131"
 ---
-# <a name="legacy-set-the-layout-used-by-a-report"></a>(Ældre) Angive det layout, der bruges af en rapport
+# (Ældre) Angive det layout, der bruges af en rapport
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -30,7 +24,7 @@ Når der er defineret brugerdefinerede rapportlayout, kan du vælge dem fra debi
 > [!TIP]  
 > Rapporter af typen dokument (ikke lister), der bruger et Word-rapportlayout, er typisk hurtigere end dem, der bruger et RDLC-rapportlayout. Så hvis du har mulighed for at vælge mellem et Word- eller et RDLC-rapportlayout for en rapport af typen dokument, skal du bruge Word-rapportlayoutet til at få den bedste ydeevne.
 
-## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Sådan ændres det rapportlayout, der skal bruges til en rapport eller et dokument
+## Sådan ændres det rapportlayout, der skal bruges til en rapport eller et dokument
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Valg af rapportlayout**, og vælg derefter det relaterede link.
   
@@ -49,7 +43,7 @@ Når der er defineret brugerdefinerede rapportlayout, kan du vælge dem fra debi
 
 Hvis du har valgt et indbygget RDLC- eller Word-rapportlayout, kræves ingen yderligere handling, og layoutet bruges, næste gang rapporten køres.
 
-## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Sådan ændres et brugerdefineret rapportlayout for et rapportlayout
+## Sådan ændres et brugerdefineret rapportlayout for et rapportlayout
 
 Du kan også ændre det aktuelt anvendte brugerdefinerede layout. Du kan finde flere oplysninger i [Oprette og ændre et brugerdefineret rapportlayouts](ui-how-create-custom-report-layout.md).
 
@@ -62,9 +56,9 @@ Navnet på det valgte brugerdefinerede layout vises nu i feltet **Beskrivelse af
 
 Du kan nu gå til debitor- og leverandørkortene for at angive, hvilke layouts der skal bruges til de forskellige dokumenter, som du opretter for den pågældende debitor eller leverandør, såsom ordrebekræftelser eller betalingsrykkere. Du kan finde flere oplysninger i [Definition af Dokumentlayouts til debitorer og leverandører](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
+## Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
+## Se også
 [Administration af rapportlayout](ui-manage-report-layouts.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

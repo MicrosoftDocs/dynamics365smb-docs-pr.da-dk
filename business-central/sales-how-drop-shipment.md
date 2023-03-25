@@ -1,6 +1,6 @@
 ---
 title: Opret direkte levering (indeholder video)
-description: Beskriver, hvordan du opretter en salgsordre, der er knyttet til en købsordre for at muliggøre levering direkte fra leverandøren til kunden.
+description: 'Beskriver, hvordan du opretter en salgsordre, der er knyttet til en købsordre for at muliggøre levering direkte fra leverandøren til kunden.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f04f49c301b38236be1dda3334e8560584a4e6b4
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528889"
 ---
-# <a name="make-drop-shipments"></a>Foretage direkte leveringer
+# Foretage direkte leveringer
 
 En direkte levering er en levering af varer fra en af dine leverandører direkte til din kunde.
 
@@ -25,7 +19,7 @@ Når en salgsordre er markeret til direkte levering, og du opretter en købsordr
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
 
-## <a name="to-create-a-sales-order-for-drop-shipment"></a>Sådan oprettes en salgsordre til direkte levering
+## Sådan oprettes en salgsordre til direkte levering
 
 Hvis du vil forberede en direkte levering, skal du oprette en salgsordre for en vare og angive på salgslinjen, at salget kræver direkte levering.
 
@@ -35,7 +29,7 @@ Hvis du vil forberede en direkte levering, skal du oprette en salgsordre for en 
 > [!TIP]
 > Som standard er afkrydsningsfeltet direkte levering ikke tilgængeligt på linjerne. Hvis det ikke er tilfældet, kan du tilføje den ved at tilpasse den side sektion, der indeholder linjerne. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
-## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Sådan oprettes købsordren til direkte levering
+## Sådan oprettes købsordren til direkte levering
 
 Hvis du vil forberede en direkte levering, skal du angive på købsordren, at den skal sendes til kunden og ikke til dig selv.
 
@@ -52,7 +46,7 @@ Du kan nu fortælle din leverandør, at varerne leveres direkte til kunden. Du k
 
 Hvis kreditoren angiver et sporingsnummer eller lignende oplysninger, kan du tilføje disse oplysninger på en købsordrelinje af typen *bemærkning*.  
 
-## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Sådan oprettes flere købsordrer til direkte leveringer
+## Sådan oprettes flere købsordrer til direkte leveringer
 
 Du kan også bruge indkøbskladden til at oprette købsordren til kreditoren. 
 
@@ -64,11 +58,11 @@ Fordelen ved at bruge indkøbskladden er, at den kan oprette købsordrer til all
 4. Gennemgå købsordrelinjerne, og vælg den leverandør, der leverer de krævede varer, i feltet **Leverandørnr.**. 
 5. Vælg handlingen **Udfør aktionsmeddelelse** for at konvertere de gennemsete linjer til en købsordre.
 
-## <a name="to-view-the-linked-purchase-order-from-the-sales-order"></a>Sådan får du vist den tilknyttede købsordre fra salgsordren
+## Sådan får du vist den tilknyttede købsordre fra salgsordren
 
 * Markér salgsordrelinjen til direkte levering, vælg handlingen **Ordre**, vælg handlingen **Direkte levering**, og vælg derefter handlingen **Købsordre**.
 
-## <a name="to-post-a-drop-shipment"></a>Sådan bogfører du en direkte levering
+## Sådan bogfører du en direkte levering
 
 Når kreditoren har leveret varerne, kan du bogføre salgsordren som leveret. Du kan også bogføre købsordren, men kun med indstillingen **Modtag**, indtil salgsordren er faktureret.
 
@@ -78,9 +72,9 @@ Når kreditoren har leveret varerne, kan du bogføre salgsordren som leveret. Du
 4. Vælg handlingen **Bogfør** eller **Bogfør og send**.
 5. Vælg enten indstillingen **Levér** for at fakturere senere, eller vælg indstillingen **Levér og fakturer** for at fakturere med det samme.
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprette specialordrer](sales-how-to-create-special-orders.md)  
 [Købe varer til et salg](purchasing-how-purchase-products-sale.md)  

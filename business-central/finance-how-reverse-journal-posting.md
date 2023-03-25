@@ -1,23 +1,17 @@
 ---
 title: Fortryde en postering ved at bogføre en tilbageføringspost
-description: Hvis du har oprettet en forkert bogføring i finanskladden, kan du bruge funktionen Tilbagefør transaktion til at fortryde bogføringen med et korrekt revisionsspor.
+description: 'Hvis du har oprettet en forkert bogføring i finanskladden, kan du bruge funktionen Tilbagefør transaktion til at fortryde bogføringen med et korrekt revisionsspor.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.search.form: 20, 25, 29, 38, 202, 5912,
+ms.search.form: '20, 25, 29, 38, 202, 5912,'
 ms.date: 07/22/2021
 ms.author: bholtorf
-ms.openlocfilehash: d00f8b355e25e15a6aa610dd3392bfc63b7bfad3
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728676"
 ---
-# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Tilbageføre kladdeposteringer og annullere modtagelser/leverancer
+# Tilbageføre kladdeposteringer og annullere modtagelser/leverancer
 
 Tilbageførsel af kladdeposteringer er nyttig f.eks. til at rette fejl og til at fjerne en gammel periodiseringspost, før der angives en ny. En tilbageførselpost er den samme som originalposten, men har et modsat tegn i feltet **Beløb**. Tilbageførselsposten skal have samme bilagsnummer og posteringsdato som den oprindelige post. Når du tilbagefører en post, skal du oprette den korrekte post.
 
@@ -29,7 +23,7 @@ Hvis du har bogført et forkert negativt antal, som f.eks. en købsordre med det
 
 Hvis du har bogført et forkert positivt antal som f.eks. en salgsleverance eller købsreturvare med det forkerte antal varer og bogført dem som leveret, men ikke faktureret, kan du annullere bogføringen.
 
-## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Sådan tilbageføres kladdepost på en finanspost
+## Sådan tilbageføres kladdepost på en finanspost
 
 Du kan tilbageføre poster fra alle **Poster**-sider: Følgende procedure er baseret på siden **Finansposter**.
 
@@ -43,7 +37,7 @@ Du kan tilbageføre poster fra alle **Poster**-sider: Følgende procedure er bas
 3. Vælg handlingen **Tilbagefør** på siden **Tilbagefør transaktionsposter**.
 4. Vælg **Ja** for at bekræfte tilbageførslen.
 
-## <a name="to-post-a-negative-entry"></a>Sådan bogføres en negativ post  
+## Sådan bogføres en negativ post  
 
 Brug feltet **Rettelse** til at bogføre en negativ debet i stedet for kredit eller til at bogføre en negativ kredit i stedet for en debet på en konto. Feltet er som standard tilgængeligt i alle kladder. Felterne **Debetbeløb** og **Kreditbeløb** indeholdet både den oprindelige post og den rettede post. Disse felter har ingen indflydelse på kontosaldoen.  
 
@@ -53,7 +47,7 @@ Brug feltet **Rettelse** til at bogføre en negativ debet i stedet for kredit el
 4. I den kladdelinje, som du vil aktivere for negative poster, skal du markere afkrydsningsfeltet **Rettelse**.  
 5. Hvis du vil postere kladden, skal du vælge handlingen **Bogfør** og derefter vælge knappen **Ja**.
 
-## <a name="to-undo-a-quantity-on-a-posted-purchase-receipt"></a>Sådan fortrydes et bogført antal på en bogført købsmodtagelse  
+## Sådan fortrydes et bogført antal på en bogført købsmodtagelse  
 
 Følgende trin beskriver, hvordan du kan fortryde en bogført modtagelse af vare eller ressourcer. Fremgangsmåden er tilsvarende for bogførte leverancer.
 
@@ -66,7 +60,7 @@ Der indsættes en korrektionslinje under den valgte modtagelseslinje. Hvis mæng
 
 Felterne **Modtaget (antal)** og **Modt. antal (ufakt.)** på den relaterede købsordre , der er angivet til nul.
 
-## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Sådan fortryder du og derefter annullerer et bogført antal på en bogført returvareleverance
+## Sådan fortryder du og derefter annullerer et bogført antal på en bogført returvareleverance
 
 Følgende trin beskriver, hvordan du kan:
 
@@ -92,7 +86,7 @@ Fremgangsmåden er tilsvarende for bogførte returvaremodtagelser.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Fortryde bogføring af montage](assembly-how-to-undo-assembly-posting.md)  
 [Bogføre transaktioner direkte i finansposterne](finance-how-post-transactions-directly.md)  

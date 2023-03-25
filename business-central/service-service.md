@@ -1,22 +1,16 @@
 ---
 title: Servicestyring
-description: Lære, hvordan du bruger funktioner i Business Central designet til at administrere og spore services til understøttelse af reparationsservice og servicehandlinger.
+description: 'Lære, hvordan du bruger funktioner i Business Central designet til at administrere og spore services til understøttelse af reparationsservice og servicehandlinger.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 9b579b2b91d9699800b5fbf550c58c2e7caaa77d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142902"
 ---
-# <a name="service-management"></a>Servicestyring
+# Servicestyring
 > [!NOTE]
 > Funktioner, der beskrives i dette emne og underordnede emner, er kun synlige i brugergrænsefladen, hvis du har oplevelsen **Premium**. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
 
@@ -42,7 +36,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Oprette og administrere aftaler mellem dig og dine kunder.|[Opfylde servicekontrakter](service-fulfill-service-contracts.md)|  
 |Levere service til kunder og fakturere serviceordrer.|[Levering af service](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Se også  
+## Se også  
 [Administrere tilgodehavender](receivables-manage-receivables.md)   
 [Sager](projects-how-create-jobs.md)   
 [Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)

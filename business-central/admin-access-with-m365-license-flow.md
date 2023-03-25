@@ -1,6 +1,6 @@
 ---
 title: Bruger-adgangsflow til Microsoft 365-licenser
-description: Få et overblik over, hvad der sker, når en bruger åbner Business Central-data med deres Microsoft 365-licens første gang.
+description: 'Få et overblik over, hvad der sker, når en bruger åbner Business Central-data med deres Microsoft 365-licens første gang.'
 author: mikebc
 ms.author: mikebc
 ms.reviewer: jswymer
@@ -8,15 +8,9 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 11/03/2022
 ms.custom: bap-template
-ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.openlocfilehash: d20384149854161588df50af9e8d92af78e16fa1
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9744976"
+ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
-# <a name="user-access-flow-for-microsoft-365-licenses"></a>Bruger-adgangsflow til Microsoft 365-licenser
+# Bruger-adgangsflow til Microsoft 365-licenser
 
 Denne artikel beskriver, hvad der sker, når en bruger åbner Business Central-data med deres Microsoft 365-licens første gang. Ved at forstå dette flow kan administratorer planlægge deres metode og konfigurere Business Central, så de passer til virksomhedens forretningsbehov.
 
@@ -34,7 +28,7 @@ Brugerkontoen er nu registreret i Business central og kan administreres som en h
 > [!NOTE]
 > Trinnene kan variere afhængigt af den yderligere sikkerhedskonfiguration, du har angivet i Microsoft 365 eller Business central.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Business Central-adgang med Microsoft 365-licenser](admin-access-with-m365-license.md#minimum-requirements)  
 [Konfigurere adgang til Microsoft 365-licenser](admin-access-with-m365-license-setup.md)  

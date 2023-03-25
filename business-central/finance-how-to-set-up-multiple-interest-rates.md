@@ -1,22 +1,16 @@
 ---
 title: Konfigurere flere rentesatser for forsinket betaling
-description: Dette emne angiver, hvordan du kan beregne renter med flere rentesatser for en bestemt periode.
+description: 'Dette emne angiver, hvordan du kan beregne renter med flere rentesatser for en bestemt periode.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 6, 431, 432, 572
+ms.search.form: '6, 431, 432, 572'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 997a6e587a94d4d4a20db5f01a79ad0fd295df61
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135437"
 ---
-# <a name="set-up-multiple-interest-rates-for-delayed-payment"></a>Konfigurere flere rentesatser for forsinket betaling
+# Konfigurere flere rentesatser for forsinket betaling
 
 Du kan anvende forskellige perioder for forsinkede betalinger i handelstransaktioner. [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]
 
@@ -24,7 +18,7 @@ F.eks. angiver det offentlige den maksimale rente, der kan opkræves for en brug
 
 Når du opretter rentebetingelser og rykkerbetingelser for forsinket betaling, kan du angive flere rentesatser, så strafgebyret beregnes ud fra forskellige rentesatser i forskellige perioder.  
 
-## <a name="to-set-up-multiple-interest-rates"></a>Sådan angives flere rentesatser
+## Sådan angives flere rentesatser
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rentebetingelser**, og vælg derefter det relaterede link.  
 2. På siden **Rentebetingelser** skal du vælge de krævede økonomiske betingelser og derefter vælge handlingen **Rentesatser**.  
@@ -32,11 +26,11 @@ Når du opretter rentebetingelser og rykkerbetingelser for forsinket betaling, k
 4. Vælg knappen **OK**.  
 5. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rykkerbetingelser**, og vælg derefter det relaterede link.  
 6. På siden **Rentebetingelser** skal du vælge de krævede rykkerbetingelser og derefter vælge handlingen **Niveauer**.  
-7. Marker **Beregn rente** på siden **Rykkerniveauer** for de relevante Rykkerniveauer.  
+7. Marker **Beregn rente**på siden **Rykkerniveauer** for de relevante Rykkerniveauer.  
 
 Når du udsteder en rentenota, viser notaen renterne med flere rentesatser for en bestemt tidsperiode. Rentenotaen indeholder også kontaktoplysningerne for kunden, virksomheden, der udsteder rentenotaen, et ekstra beløb og det samlede beløb. Åbningsposten på rentenotaen vises med fed skrift. Renteberegningen beregnes ved brug af flere rentesatser for en bestemt tidsperiode og udskrives efter åbningsposten på rentenotaen.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Indhente udestående beløb](receivables-collect-outstanding-balances.md)  
 [Konfigurere Finans](finance-setup-finance.md)

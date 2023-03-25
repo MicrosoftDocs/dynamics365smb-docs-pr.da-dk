@@ -1,25 +1,19 @@
 ---
 title: 'Fremgangsmåde: Bruge produktionskladdeenhedskoden'
-description: Dette emne giver en oversigt over, hvordan du kan arbejde med måleenheder for produktion i Business Central.
+description: 'Dette emne giver en oversigt over, hvordan du kan arbejde med måleenheder for produktion i Business Central.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: abf8fd20f15f02edad3f451da04729dfd2824bd4
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514435"
 ---
-# <a name="work-with-manufacturing-batch-units-of-measure"></a>Arbejde med produktionskladdeenheder
+# Arbejde med produktionskladdeenheder
 Hvis en vare lagerføres i én enhed, men produceres i en anden, kan der oprettes en produktionsordre, hvor der bruges en produktionskladdeenhed til beregning af det rigtige antal komponenter under kørslen af **Opdater produktionsordre**. Produktionskladdeenheden kan f.eks. bruges til beregning, når den producerede vare lagerføres i enheder, men produceres i ton.  
 
-## <a name="to-create-a-production-bom-using-a-batch-unit-of-measure"></a>Sådan oprettes en produktionsstykliste vha. en kladdeenhed  
+## Sådan oprettes en produktionsstykliste vha. en kladdeenhed  
 1.  Produktionskladdeenheden oprettes som en alternativ enhed på siden **Vareenheder** til den vare, der skal produceres. Kladdeenheden erstatter ikke varens basisenhed.  
 2.  Opret en produktionsstykliste til den vare, som du har oprettet produktionskladdeenheden til. Du kan finde flere oplysninger i [Oprette produktionsstyklister](production-how-to-create-production-boms.md).  
 3.  Vælg produktionskladdeenheden i feltet **Enhedskode**.  
@@ -32,7 +26,7 @@ Hvis en vare lagerføres i én enhed, men produceres i en anden, kan der oprette
 
 På oversigtspanelet **Linjer** skal du vælge handlingen **Linje** og derefter vælge handlingen **Komponenter** for at se resultatet. Nu beregnes det antal komponenter, som skal bruges til produktionsstyklisten i overensstemmelse med produktionskladdeenheden.  
 
-## <a name="to-calculate-a-manufacturing-batch-unit-of-measure-on-a-production-order"></a>Sådan beregnes en produktionskladdeenhed til en produktionsordre  
+## Sådan beregnes en produktionskladdeenhed til en produktionsordre  
 1.  Opret et produktionsordrehoved ved at bruge den vare, som du har oprettet produktionskladdeenheden til.  
 2.  I feltet **Varenr.** på produktionsordrelinjen skal du angive det samme varenummer, som du har angivet i hovedet.  
 3.  Angiv det samme antal, som du har angivet i hovedet, i feltet **Antal**.  
@@ -42,7 +36,7 @@ På oversigtspanelet **Linjer** skal du vælge handlingen **Linje** og derefter 
 7.  Vælg knappen **OK**.  
 8.  På oversigtspanelet **Linjer** skal du vælge handlingen **Linje** og derefter vælge handlingen **Komponenter** for at se resultatet. Nu beregnes det antal komponenter, som skal bruges til produktionsstyklisten i overensstemmelse med produktionskladdeenheden.  
 
-## <a name="see-also"></a>Se også  
+## Se også  
 [Oprette ruter](production-how-to-create-routings.md)  
 [Oprette produktionsstyklister](production-how-to-create-production-boms.md)     
 [Konfigurere produktion](production-configure-production-processes.md)  

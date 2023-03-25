@@ -1,28 +1,22 @@
 ---
 title: Spore relationer mellem behov og forsyning
-description: I dette emne forklares forskellige metoder til at spore relationer mellem behov og levering, f. eks. sporing af sammenkædede varer og håndtering af ikke-sporede planlægningselementer.
+description: 'I dette emne forklares forskellige metoder til at spore relationer mellem behov og levering, f. eks. sporing af sammenkædede varer og håndtering af ikke-sporede planlægningselementer.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5830, 9101, 99000822, 99000855
+ms.search.form: '5830, 9101, 99000822, 99000855'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 377f0af230bd1a1d77bcbc303a9b5cdefcb42ca6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517865"
 ---
-# <a name="track-relations-between-demand-and-supply"></a>Spore relationer mellem behov og forsyning
+# Spore relationer mellem behov og forsyning
 
 Fra ethvert forsynings- eller behovsdokument i det såkaldte ordrenetværk, kan du spore ordrebehov (sporet antal), forecast, rammesalgsordre eller planlægningsparameter (ikkesporet antal), der er årsag til den pågældende planlægningslinje.
 
 Planlægningskladderne indeholder også yderligere planlægningsoplysninger om ikke-ordreenheder for at hjælpe planlæggeren med at opnå den optimale forsyningsplan. Du kan finde flere oplysninger i [Ikke-sporede planlægningselementer](production-how-track-demand-supply.md#untracked-planning-elements).
 
-## <a name="to-track-linked-items"></a>Sådan spores tilknyttede varer
+## Sådan spores tilknyttede varer
 Ordresporing viser, hvordan salgsordrer, produktionsordrer og købsordrer er relaterede til produktionsordrer via planlægnings- og reservationssystemerne.
 
 Nedenstående beskrives, hvordan tilknyttede varer spores på en fastlagt produktionsordre. Trinene er de samme for alle andre typer og i forbindelse med planlægningskladdelinjer.
@@ -33,7 +27,7 @@ Nedenstående beskrives, hvordan tilknyttede varer spores på en fastlagt produk
 
 På linjerne i vinduet **Ordresporing** vises de bilag, der har relation til den aktuelle produktionsordrelinje.
 
-## <a name="untracked-planning-elements"></a>Ikke-sporede planlægningselementer
+## Ikke-sporede planlægningselementer
 Siden **Ikke-sporede planlægningselementer** åbnes, når du klikker på feltet **Ikke-sporet antal** på siden **Ordreplanlægning**. Det tjener to formål:
 
 1. Indeholde oplysninger om ikke-sporet antal, der vises, når brugeren slår op fra siden Ordresporing for at få vist ikke-sporede antal.
@@ -52,7 +46,7 @@ Siden indeholder poster for ikke-sporet overskud i ordresporingsnetværket. Diss
 - Oprundingsfaktor
 - Aktionsgrænse (% af lotstr.)
 
-## <a name="see-also"></a>Se også  
+## Se også  
 [Planlægning](production-planning.md)   
 [Konfigurere produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    

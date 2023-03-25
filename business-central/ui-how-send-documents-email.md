@@ -1,21 +1,15 @@
 ---
 title: Sende dokumenter og e-mails
-description: Du kan definere indhold, der skal indsættes i brødteksten i en mail, f.eks. et PayPal-link. Du kan også knytte dokumenter til mails.
+description: 'Du kan definere indhold, der skal indsættes i brødteksten i en mail, f.eks. et PayPal-link. Du kan også knytte dokumenter til mails.'
 author: edupont04
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
-ms.search.form: ''
+ms.search.keywords: 'SMTP, mail, Microsoft 365, cover, body, PayPal, layout'
+ms.search.form: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5757cbd314d6e8af5a049b8d0dbe626b3eb83057
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607198"
 ---
-# <a name="send-documents-and-emails"></a>Sende dokumenter og e-mails
+# Sende dokumenter og e-mails
 
 Du kan nemt dele oplysninger og dokumenter, f.eks. salgs- og købsordrer og fakturaer, via mail direkte fra [!INCLUDE[prod_short](includes/prod_short.md)] uden at skulle åbne en mailapp.  
 
@@ -28,7 +22,7 @@ For at aktivere mails fra [!INCLUDE[prod_short](includes/prod_short.md)] skal du
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] understøtter kun udgående mailkommunikation. Du kan heller ikke modtage svar fra appen.
 
-## <a name="to-send-documents-by-email"></a>Sådan sendes dokumenter som mail
+## Sådan sendes dokumenter som mail
 
 Denne fremgangsmåde beskriver, hvordan du vedhæfter en bogført-salgsfaktura til en e-mail som PDF-fil og med dokumentspecifik e-mail-tekst. <!--update this-->
 
@@ -50,7 +44,7 @@ Denne fremgangsmåde beskriver, hvordan du vedhæfter en bogført-salgsfaktura t
 > [!NOTE]  
 > Hvis du ikke vil angive mailindstillinger, hver gang du sender en mail med et dokument, kan du vælge indstillingen **Ja (Brug standardindstillinger)** i feltet **Mail** på siden **Send bilag til**. I så fald åbnes siden **Send mail** ikke. Se trin 4. Du kan finde flere oplysninger i [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).  
 
-## <a name="to-compose-and-send-an-email"></a>Sådan skrives og sendes en e-mail
+## Sådan skrives og sendes en e-mail
 
 Du kan hurtigt oprette e-mails til kontakter, debitorer, kreditorer, sælgere/indkøbere og bankkonti direkte fra siderne til de pågældende enheder. Vælg **proces**, og send derefter **e-mails** for at åbne e-mail-editoren. I forbindelse med bankkonti er handlingen **Send E-mail** under **Handlinger**.
 
@@ -59,11 +53,11 @@ Du kan hurtigt oprette e-mails til kontakter, debitorer, kreditorer, sælgere/in
 
 Hvis du er tildelt et e-mailscenarie med relation til det objekt, du sender e-mailen til, eller hvis det dokument, du sender, bliver du muligvis automatisk føjet til din meddelelse. Det skyldes, at der er tildelt en standard vedhæftning til e-mail-scenariet. Du kan slette den vedhæftede fil, hvis du ikke vil sende den med din meddelelse. Du kan finde flere oplysninger i [Tildele e-mailscenarier til e-mailkonti](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
 
-## <a name="documents-marked-as-printed-when-they-are-sent"></a>Dokumenter, der er markeret som udskrevne, når de sendes
+## Dokumenter, der er markeret som udskrevne, når de sendes
 
 Nogle dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)] har et felt, der angiver, hvor mange gange dokumentet er blevet udskrevet. Tallet i feltet <!--"that field?" need a name...--> opdateres også, hvis du sender dokumentet med e-mail, fordi der er genereret en PDF-fil til den. Nummeret opdateres, selvom du ikke sender e-mailen. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
-## <a name="sent-emails-and-your-email-outbox"></a>Sendte mails og din mail-udbakke
+## Sendte mails og din mail-udbakke
 
 [!INCLUDE[prod_short](includes/prod_short.md)] gemmer de mails, som du sender, på siden **Sendt post**. På den måde kan du sende mails igen eller sende dem videre til en anden. Hvis du ikke kan finde en mail i dine sendt post, skal du lede efter den på siden **Mailudbakke**. 
 
@@ -72,9 +66,9 @@ Nogle dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)] har et felt, d
 
 **E-mailudbakke** er det sted, hvor du kan finde de e-mails, du har gemt som kladder, og e-mails, der ikke kunne sendes, f.eks. hvis e-mailadressen er ugyldig. I forbindelse med meddelelser, som ikke kunne sendes, kan du vælge **Vis fejl** eller **Undersøg fejl** for at løse problemet.  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/set-up-email/)
+## Se relateret [Microsoft-træning](/training/modules/set-up-email/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  
 [Konfigurere mail](admin-how-setup-email.md)  

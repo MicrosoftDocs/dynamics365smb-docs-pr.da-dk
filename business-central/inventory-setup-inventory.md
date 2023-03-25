@@ -1,30 +1,24 @@
 ---
 title: Opsætning af lagerbeholdning
-description: Beskriver, hvordan du konfigurerer lagerbeholdnings- og lagerprocesser, herunder overførselsruter og lokationer, f.eks. lagersteder.
+description: 'Beskriver, hvordan du konfigurerer lagerbeholdnings- og lagerprocesser, herunder overførselsruter og lokationer, f.eks. lagersteder.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
-ms.search.form: 30, 461
+ms.search.keywords: 'warehouse, stock'
+ms.search.form: '30, 461'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d637ae9b0413bb069927166fc8a5ac74e9dd7e2
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531481"
 ---
-# <a name="setting-up-inventory"></a>Opsætning af lagerbeholdning
+# Opsætning af lagerbeholdning
 Før du kan administrere lageraktiviteter og lageromkostningsberegning, skal du konfigurere de regler og værdier, der definerer virksomhedens lagerpolitikker.
 
 Du kan yde bedre kundeservice og optimere forsyningskæden ved at organisere lageret på forskellige adresser. Du kan derefter købe, lagre eller sælger varer på forskellige lokationer og overføre lagerbeholdning mellem dem.
 
-Når du har oprettet dit lager, kan du administrere forskellige lagerprocesser i relation til varetransaktioner. Du kan finde flere oplysninger i [Administrere lager](inventory-manage-inventory.md) og [Logistik](warehouse-manage-warehouse.md).
+Når du har oprettet dit lager, kan du administrere forskellige lagerprocesser i relation til varetransaktioner. Du kan finde flere oplysninger i [Administrere lager](inventory-manage-inventory.md) og [Warehouse Management-oversigt](design-details-warehouse-management.md).
 
-| Hvis du vil | Skal du se |
+| Til | Skal du se |
 | --- | --- |
 | Definere den generelle lageropsætning, f.eks nummerserier, og hvordan du bruger placeringer. |[Konfigurere generelle lageroplysninger](inventory-how-setup-general.md) |
 |Konfigurere en effektiv distributionsmodel med en kombination af forskellige lokationer og ansvarscentre, der er knyttet til forretningspartnere eller medarbejdere.|[Arbejde med ansvarscentre](inventory-responsibility-centers.md)|
@@ -38,14 +32,15 @@ Når du har oprettet dit lager, kan du administrere forskellige lagerprocesser i
 |Importér flere varebilleder i én omgang fra en zip-fil, hvor filerne er navngivet efter varenumre.|[Importere flere varebilleder](inventory-how-import-item-pictures.md)|
 |Angiv standardrapporter, der skal bruges til forskellige dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/trade-get-started-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere lager](inventory-manage-inventory.md)  
 [Administrere indkøb](purchasing-manage-purchasing.md)  
 [Administrere salg](sales-manage-sales.md)    
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Warehouse Management-oversigt](design-details-warehouse-management.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 
 

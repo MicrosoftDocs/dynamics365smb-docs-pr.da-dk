@@ -1,23 +1,17 @@
 ---
 title: Arbejde med Excel-layouts
-description: Få mere at vide om, hvordan du kan oprette og redigere rapportlayout, der er oprettet ved hjælp af Excel.
+description: 'Få mere at vide om, hvordan du kan oprette og redigere rapportlayout, der er oprettet ved hjælp af Excel.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9650, 9652
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9650, 9652'
 ms.date: 11/10/2022
 ms.author: jswymer
-ms.openlocfilehash: 790b354577dbb14d7fd0aa75db6e5158f09a5c89
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 11/18/2022
-ms.locfileid: "9788220"
 ---
-# <a name="working-with-microsoft-excel-layouts"></a>Arbejde med Microsoft Excel-layouts
+# Arbejde med Microsoft Excel-layouts
 
 Microsoft Excel-rapportlayout er baseret på Excel-projektmapper (.xlsx-filer). De giver dig mulighed for at oprette rapporter ved hjælp af velkendte Excel-funktioner til sammenfatning, analyse og præsentation af data, f. eks. formler, pivottabeller og pivotdiagrammer.
 
@@ -25,7 +19,7 @@ Microsoft Excel-rapportlayout er baseret på Excel-projektmapper (.xlsx-filer). 
 
 I denne artikel forklares nogle af de vigtigste ting, du skal vide for at komme i gang med Excel-layout.
 
-## <a name="why-use-excel-layouts"></a>Hvorfor bruge Excel-layout?
+## Hvorfor bruge Excel-layout?
 
 Fordele ved at bruge Excel-layout:
 
@@ -38,18 +32,18 @@ Fordele ved at bruge Excel-layout:
   - [Prognoser og analyser](https://support.microsoft.com/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4)
 - Brug installerede tilføjelsesprogrammer og app-integrationer, f.eks. Power Automate-flow eller OneDrive.
 
-## <a name="get-started"></a>Kom i gang
+## Kom i gang
 
 Der er grundlæggende to opgaver involveret i oprettelse af et Excel-layout på en rapport:
 
 1. Opret den nye Excel-layoutfil.
 2. Føj det nye layout til rapporten.
 
-## <a name="task-1-create-the-excel-layout-file"></a>Opgave 1: Opret den nye Excel-layoutfil
+## Opgave 1: Opret den nye Excel-layoutfil
 
 Du kan oprette en Excel-fil med en rapport, der er forklaret i dette afsnit, på tre måder.
 
-### <a name="from-any-report"></a>[Fra enhver rapport](#tab/any-report)
+### [Fra enhver rapport](#tab/any-report)
 
 Følg disse trin for at oprette et Excel-layout fra enhver rapport uanset den aktuelle layouttype. Excel-layoutet vil indeholde det krævede **dataark** og den krævede tabel, et **Rapport-metadata**-ark og intet andet.
 
@@ -60,30 +54,30 @@ Følg disse trin for at oprette et Excel-layout fra enhver rapport uanset den ak
    Dette trin henter en Excel-projektmappe, der indeholder rapportdata sættet.
 4. Åbn den downloadede Excel-fil, foretag dine opdateringer, og gem derefter filen.
 
-### <a name="from-another-excel-report-layout"></a>[Fra et andet Excel-rapportlayout](#tab/other-layout)
+### [Fra et andet Excel-rapportlayout](#tab/other-layout)
 
 Hvis der allerede findes et Excel-layout til en rapport, skal du bruge det eksisterende layout som udgangspunkt. Du kan få en kopi af layoutet på to måder. Du kan eksportere det eksisterende layout fra siden **Rapportlayout** eller hente layoutet fra rapportens anmodnings side. Begge måder at hente en Excel-fil, der indeholder alle arkene i den eksisterende fil. Forskellen er, at på anmodningssiden, vil layoutet indeholde faktiske data. (Dataene er ikke nødvendige, men den hjælper, når du designer layoutet.)
 
-#### <a name="approach-1-export-the-layout-from-the-report-layouts-page"></a>Metode 1: Eksporter layoutet fra siden **Rapportlayout**
+#### Metode 1: Eksporter layoutet fra siden **Rapportlayout**
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Vælg Excel-layoutet på listen, og vælg handlingen **Eksporter layout** øverst på siden.
 3. Åbn den downloadede Excel-fil, foretag dine opdateringer, og gem derefter filen.
 
-#### <a name="approach-2-download-the-layout-from-the-reports-request-page"></a>Metode 2: Hent layoutet fra rapportens anmodnings side
+#### Metode 2: Hent layoutet fra rapportens anmodnings side
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Vælg et layout til rapporten i oversigten **Rapportlayout**, og vælg derefter **Kør rapport**.
 3. Vælg **Download** på rapportanmodningssiden.
 4. Åbn den downloadede Excel-fil, foretag dine opdateringer, og gem derefter filen.
 
-### <a name="from-al-code"></a>[Fra AL-kode](#tab/from-code)
+### [Fra AL-kode](#tab/from-code)
 
 Dette er den mest avancerede metode til oprettelse af et Excel-rapportlayout. Det kræver viden om AL kode, så it-programmører bliver til destination. Excel-layoutene er i dette tilfælde en del af en udvidelsespakke, som du installerer. Du kan finde flere oplysninger i [Oprette en Excel-layoutrapport](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout) i hjælp til udviklere og it-eksperter.
 
 ---
 
-## <a name="task-2-add-the-excel-layout-to-the-report"></a>Opgave 2: Tilføje Excel-layout til rapporten
+## Opgave 2: Tilføje Excel-layout til rapporten
 
 Når du har layout filen i Excel, skal den næste opgave tilføjes som et nyt layout til rapporten.
 
@@ -112,7 +106,7 @@ Når du har layout filen i Excel, skal den næste opgave tilføjes som et nyt la
 3. Report metadata 
 -->
 
-## <a name="understanding-excel-layouts"></a>Om Excel-layout
+## Om Excel-layout
 
 Der er få ting, du skal kende eller overveje, når du begynder at oprette eller ændre Excel-layout. Alle Excel-layout skal indeholde to elementer: et **dataark** og en **datatabel**. Disse elementer fra basis af layoutet ved at definere forretningsdataene fra Business central, som du kan arbejde med. Du kan betragte **Dataarket** som en type kontrakt mellem layoutet i forretningsdataene. Disse data bruges som kilde til beregninger og visuelle effekter, som du vil vise i andre ark.
 
@@ -134,7 +128,7 @@ I oversigtspanelet er det, hvad du bør gøre og ikke bør gøre i **Dataark**:
 - Undlad at tilføje kolonner, medmindre de medtages i rapportens datasæt.
 - Du kan placere arkene i vilkårlig rækkefølge med **dataarket** først eller sidst.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administration af rapportlayout](ui-manage-report-layouts.md)  
 [Ændre det aktuelle rapportlayout](ui-how-change-layout-currently-used-report.md)  

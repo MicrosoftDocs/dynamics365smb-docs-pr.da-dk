@@ -1,6 +1,6 @@
 ---
 title: Tilbageføre bogføring af afgang
-description: Det kan ske, at bogført afgang skal tilbageføres. I dette emne beskrives fremgangsmåden til tilbageførsel af afgangsbogføring.
+description: 'Det kan ske, at bogført afgang skal tilbageføres. I dette emne beskrives fremgangsmåden til tilbageførsel af afgangsbogføring.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 5a9fd8a1d4ac379c2c20d832f8cace206e549375
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516027"
 ---
-# <a name="reverse-output-posting"></a>Tilbageføre bogføring af afgang
+# Tilbageføre bogføring af afgang
 
 Det kan ske, at bogført afgang skal tilbageføres. Det kan f.eks. ske, hvis en oplysning registreres forkert, så et forkert afgangsantal bogføres på en produktionsordre.  
 
-## <a name="to-reverse-an-output-posting"></a>Tilbageføre en afgangsbogføring
+## Tilbageføre en afgangsbogføring
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Afgangskladde**, og vælg derefter det relaterede link. Vælg en kørsel.  
 2. Udfyld felterne efter behov. Du kan finde flere oplysninger i [Massebogføre afgang og operationstider](production-how-to-post-output-quantity.md).
@@ -29,7 +23,7 @@ Det kan ske, at bogført afgang skal tilbageføres. Det kan f.eks. ske, hvis en 
 
 Posterne i afgangskladden bogføres til vareposten som en positiv regulering.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
  [Produktion](production-manage-manufacturing.md) [Konfigurere produktion](production-configure-production-processes.md)  
  [Skabelon](production-planning.md)  

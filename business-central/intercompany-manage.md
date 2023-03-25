@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: 605
 ms.date: 08/11/2021
 ms.author: edupont
-ms.openlocfilehash: 356a484df2445dac39c02b9341cb9a0660a07467
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511645"
 ---
-# <a name="managing-intercompany-transactions"></a>Administrere Intercompany-transaktioner (IC)
+# Administrere Intercompany-transaktioner (IC)
 
 IC-transaktioner er udviklet til de brugere, som styrer mere end én juridisk forretningsenhed, og som har oprettet flere virksomheder for at adskille regnskabsfunktionerne for hver af disse enheder. Denne brede beskrivelse gælder for mange brugere, især dem, som opererer på internationale markeder eller områder med meget forskelligartede forretningskulturer og regler og love.
 
@@ -32,7 +26,7 @@ Der er fire overordnede formål med Intercompany-funktioner:
 - Komplet revisionssporing og fuld synlighed af forretningsaktiviteter og transaktionsoversigter  
 - Effektive og besparende transaktioner med søster- og datterselskaber  
 
-## <a name="streamlining-the-flow-of-business-activities"></a>Strømlining af afviklingen af forretningsaktiviteter  
+## Strømlining af afviklingen af forretningsaktiviteter  
 
 Med Intercompany-transaktioner kan du distribuere salgs- og købsbilagene og finansposter til alle satellitkontorer, salgskontorer eller datterselskaber direkte i programmet. Du sparer tid og øger effektiviteten i hele organisationen, idet du fjerner overflødig dataangivelse og afsendelse, modtagelse, udskrivning og arkivering af salgs- og købsbilagene på papir.  
 
@@ -71,7 +65,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 |Organisere og behandle indgående og udgående transaktioner, som du udveksler med dine koncerninterne partnere.|[Administrere IC-indbakken og -udbakken](intercompany-how-manage-intercompany-inbox.md)|
 |Brug IC-transaktioner til at fordele omkostninger mellem partnerfirmaer.|[Allokere omkostninger til IC-partnere](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  

@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: f002086780e694ad80f2b5c80e942ab411de1948
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8732960"
 ---
 Du vil muligvis kunne se andre brugere på listen over **Brugere**, der ikke tilhører dem fra din egen virksomhed. Når en gruppe, der er delegeret af en partnervirksomhed, logger ind i et [!INCLUDE [prod_short](prod_short.md)]-miljø på vegne af sin kunde, oprettes de automatisk som en bruger i [!INCLUDE [prod_short](prod_short.md)]. På den måde registreres de handlinger, der udføres af en administrativ administrator, [!INCLUDE [prod_short](prod_short.md)] f.eks. bogføring af dokumenter, og som er knyttet til deres bruger-id.  
 

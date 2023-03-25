@@ -1,22 +1,17 @@
 ---
 title: Oprette bedste fremgangsmåder - Planlægningsparametre
-description: I dette emne beskrives de bedste fremgangsmåder for, hvordan du konfigurerer udvalgte felter med planlægningsparametre med oversigtspanelet Planlægning på varekortet.
+description: 'I dette emne beskrives de bedste fremgangsmåder for, hvordan du konfigurerer udvalgte felter med planlægningsparametre med oversigtspanelet Planlægning på varekortet.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d8be2d8c3b9602c1a3e78f6cc4ba495af93730d3
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950169"
 ---
-# <a name="setup-best-practices-planning-parameters"></a>Oprette bedste fremgangsmåder: Planlægningsparametre
+# Oprette bedste fremgangsmåder: Planlægningsparametre
+
 Oversigtspanelet **Planlægning** på varekortet er midtpunktet i en virksomheds forsyningskæde. Det er meget vigtigt at angive de korrekte planlægningsparametre til omkostningseffektiv lagerstyring og høj kundeservice.  
 
  Følgende tabel viser de bedste fremgangsmåder til konfiguration af udvalgte globale felter med planlægningsparametre. Du kan få yderligere oplysninger om et felt ved at vælge linket i kolonnen **Opsætningsfelt**.  
@@ -35,16 +30,16 @@ Oversigtspanelet **Planlægning** på varekortet er midtpunktet i en virksomheds
 |Afrundingspræcision|I dyr produktion, skal du angive 0,00001.|Store afrundingsmængder af spild eller materialeforbrug kan føre til meget store lageromkostninger. Det kan derfor være relevant at angive den mindste afrundingspræcision for at minimere denne potentielle omkostning.|  
 
 > [!NOTE]  
->  De bedste fremgangsmåder til planlægningsparametrene på varekortet gælder også for de samme felter på varekortene.  
->   
->  Hvis virksomheder planlægger med behov på forskellige lokationer, anbefales det kraftigt at definere lagervarer for hver lokation, og at alle behov oprettes ved hjælp af en værdi i feltet **Lokationskode**. Du kan finde flere oplysninger i [Designoplysninger: Behov på lokationen TOM](design-details-demand-at-blank-location.md).  
+> De bedste fremgangsmåder til planlægningsparametrene på varekortet gælder også for de samme felter på varekortene.  
+>
+> Hvis virksomheder planlægger med behov på forskellige lokationer, anbefales det kraftigt at definere lagervarer for hver lokation, og at alle behov oprettes ved hjælp af en værdi i feltet **Lokationskode**. Flere oplysninger i [Designdetaljer: Planlægge med eller uden lokationer](production-planning-with-without-locations.md).  
 
-## <a name="see-also"></a>Se også  
- [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)   
- [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
- [Opret komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
- [Designoplysninger: Behov på lokationen TOM](design-details-demand-at-blank-location.md)  
- [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Se også  
+[Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
+[Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)  
+[Opret komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
+[Designdetaljer: Planlægning med eller uden lokationer](production-planning-with-without-locations.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

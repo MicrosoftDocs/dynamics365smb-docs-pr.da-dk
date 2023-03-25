@@ -1,22 +1,17 @@
 ---
 title: Fejlmeddelelse "Bogføringsdatoen er ikke inden for intervallet af tilladte bogføringsdatoer"
-description: Ret fejlen bag meddelelsen "bogføringsdatoen ligger ikke inden for den tilladte bogføringsdato", når kørslen Reguler kostværdi-vareposter køres.
+description: 'Ret fejlen bag meddelelsen "bogføringsdatoen ligger ikke inden for den tilladte bogføringsdato", når kørslen Reguler kostværdi-vareposter køres.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/17/2021
 ms.author: edupont
-ms.openlocfilehash: 1694bc0267e32d2af4af1202b2dfd1ad4b46ba55
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139751"
 ---
-# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Fejlmeddelelse: "Bogføringsdatoen er ikke inden for intervallet af tilladte bogføringsdatoer..."
+
+# Fejlmeddelelse: "Bogføringsdatoen er ikke inden for intervallet af tilladte bogføringsdatoer..."
 
 Når du bruger kørslen **Reguler kostværdi - vareposter**, kan du starte med følgende fejlmeddelelse:
 
@@ -24,7 +19,7 @@ Når du bruger kørslen **Reguler kostværdi - vareposter**, kan du starte med f
 
 Denne fejlmeddelelse angiver, at brugeren ikke har tilladelse til at bogføre poster for den pågældende dato, og at det kan afhjælpes ved at ændre brugeropsætningen.
 
-## <a name="change-the-user-setup"></a>Ændre Brugeropsætning  
+## Ændre Brugeropsætning  
 
 |Bruger-id  |Bogf. tilladt fra  | Bogf. tilladt til  |
 |---------|---------|--------|
@@ -32,9 +27,9 @@ Denne fejlmeddelelse angiver, at brugeren ikke har tilladelse til at bogføre po
 
 Brugeren har i dette tilfælde et tilladt bogføringsdatointerval fra 11. september til 30. september og må derfor ikke bogføre reguleringsværdiposten med bogføringsdatoen 10. september.  
 
-### <a name="overview-of-involved-posting-date-setup"></a>Oversigt over opsætning af den involverede bogføringsdato
+### Oversigt over opsætning af den involverede bogføringsdato
 
-#### <a name="inventory-periods"></a>Lagerperioder
+#### Lagerperioder
 
 |Afslutningsdato  |Name  |Lukket  |
 |---------|---------|---------|
@@ -51,7 +46,7 @@ Brugeren har i dette tilfælde et tilladt bogføringsdatointerval fra 11. septem
 |2020-11-30     |November 2020   |         |
 |2020-12-31     |December 2020   |         |  
 
-#### <a name="general-ledger-setup"></a>Opsætning af Finans
+#### Opsætning af Finans
 
 |Felt|Værdi|
 |---------|---------|
@@ -60,7 +55,7 @@ Brugeren har i dette tilfælde et tilladt bogføringsdatointerval fra 11. septem
 |Registrer tid:       |         |
 |Lokalt adresseformat:|   Postnr.      |  
 
-#### <a name="user-setup"></a>Brugeropsætning
+#### Brugeropsætning
 
 |Bruger-id  |Bogf. tilladt fra  | Bogf. tilladt til  |
 |---------|---------|--------|
@@ -68,7 +63,7 @@ Brugeren har i dette tilfælde et tilladt bogføringsdatointerval fra 11. septem
 
 Hvis der tilknyttet et større tilladt bogføringsdatointerval som i lagerperiode eller Finans, bliver det muligt at undgå den konflikt, der forårsager fejlmeddelelsen. Reguleringen af værdiposten med bogføringsdatoen 10. september bogføres automatisk med denne opsætning.
   
-## <a name="see-also"></a>Se også  
+## Se også  
 
 [Designoplysninger: Bogføringsdato på post med reguleringsværdi](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)  

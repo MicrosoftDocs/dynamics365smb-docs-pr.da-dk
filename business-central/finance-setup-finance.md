@@ -1,22 +1,16 @@
 ---
 title: Konfigurere finansielle processer
-description: Få mere at vide om opgaver til konfiguration af finans i din virksomhed, der dækker alle dine regnskabs-, revisions- og bogholderibehov.
+description: 'Få mere at vide om opgaver til konfiguration af finans i din virksomhed, der dækker alle dine regnskabs-, revisions- og bogholderibehov.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accounting, auditing, bookkeeping
+ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.date: 08/19/2022
 ms.author: edupont
-ms.openlocfilehash: 64b6b3e3aa74d51b78a62bf2c89e630452c662bb
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605431"
 ---
-# <a name="setting-up-finance"></a>Konfigurere Finans
+# Konfigurere Finans
 
 Før du kan begynde at køre din virksomhed, skal du angive, hvordan du vil administrere finansprocesser for virksomheden. Først skal du definere kernen i regnskabets poster: kontoplan. Derefter definerer du bogføringsgrupper, som gør det mere effektivt, når du skal tildele standardkonti til finanspostering til kunder, leverandører og varer.
 
@@ -57,9 +51,9 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 > [!TIP]
 > Nogle Business Central-sider kan indeholde felter, der ikke er beskrevet i de artikler, der er angivet her, fordi de gælder for lokal funktionalitet eller tilpasninger, afhængigt af din geografiske placering. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finans](finance.md)  
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  

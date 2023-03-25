@@ -1,22 +1,16 @@
 ---
 title: Designoplysninger - Planlægningsparametre
-description: I dette emne beskrives de forskellige planlægningsparametre, du kan bruge, og hvordan de påvirker planlægningssystemet.
+description: 'I dette emne beskrives de forskellige planlægningsparametre, du kan bruge, og hvordan de påvirker planlægningssystemet.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: planning, design
+ms.search.keywords: 'planning, design'
 ms.date: 07/21/2021
 ms.author: edupont
-ms.openlocfilehash: d6598583ad118961fc15c7257e5207c3024e20e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131973"
 ---
-# <a name="design-details-planning-parameters"></a>Designoplysninger: Planlægningsparametre
+# Designoplysninger: Planlægningsparametre
 I dette emne beskrives de forskellige planlægningsparametre, du kan bruge i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Den måde, som planlægningssystemet styrer vareforsyning på, bestemmes af forskellige indstillinger på varekortet eller lagervaren og indstillinger under produktionsopsætning. Følgende tabel viser, hvordan disse parametre bruges til planlægning.  
@@ -30,10 +24,10 @@ Den måde, som planlægningssystemet styrer vareforsyning på, bestemmes af fors
 |Ret forsyningsordrer|Min. ordrestørrelse<br /><br /> Maks. ordrestørrelse<br /><br /> Oprundingsfaktor|  
 |Afgræns den planlagte vare|Produktionsmetode:<br /><br /> -   Fremstil-til-lager<br />-   Fremstil-til-ordre|  
 
-## <a name="define-if-the-item-will-be-planned"></a>Definer, om varen bliver planlagt  
+## Definer, om varen bliver planlagt  
 Hvis du vil medtage en vare/lagervare i planlægningsprocessen, skal den have en genbestillingsmetode, ellers skal det planlægges manuelt, for eksempel med funktionen Ordreplanlægning.  
 
-## <a name="define-when-to-reorder"></a>Definer, hvornår du skal genbestille  
+## Definer, hvornår du skal genbestille  
 Genbestillingsforslag frigives normalt kun, når det forventede disponible antal er faldet til eller under et bestemt antal. Dette antal defineres af genbestillingspunktet. Ellers vil det være nul. Nul kan reguleres ved at angive et sikkerhedslager. Hvis brugeren har defineret en sikkerhedstid, medfører det, at forslaget leveres i perioden før den krævede forfaldsdato.  
 
 Feltet **Interval** bruges af genbestillingspunkt metoder (**Fast genbestil.antal** og **Maks. antal**), hvor lagerniveauet kontrolleres efter hvert tidsinterval. Det første interval starter på den planlagte startdato.  
@@ -45,7 +39,7 @@ Standardsikkerhedstiden på siden **Produktionsopsætning**, skal indstilles til
 
 Tre ekstra felter for genbestillingsperiode **Ændringsperiode**, **Akkumuleringsperiode for lot**, og **Bufferperiode** spiller også en rolle, når det skal defineres, hvornår der skal genbestilles. Du kan finde flere oplysninger i [Optimere, hvornår og hvor meget der genbestilles](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-## <a name="define-how-much-to-reorder"></a>Definer, hvor meget du skal genbestille  
+## Definer, hvor meget du skal genbestille  
 Hvis planlægningssystemet registrerer behovet for genbestilling, bruges den valgte genbestillingsmetode til at bestemme, hvornår og hvor meget der skal bestilles.  
 
 Uafhængigt af genbestillingsmetoden følger planlægningssystemet sædvanligvis denne logik:  
@@ -58,7 +52,7 @@ Uafhængigt af genbestillingsmetoden følger planlægningssystemet sædvanligvis
 
      De tre følgende felter for genbestillingsperiode spiller også en rolle, når det skal defineres, hvor meget der skal genbestilles: **Ændringsperiode**, **Akkumuleringsperiode for lot**, og **Bufferperiode**. Du kan finde flere oplysninger i [Optimere, hvornår og hvor meget der genbestilles](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-### <a name="reordering-policies"></a>Genbestillingsmetoder  
+### Genbestillingsmetoder  
 Følgende genbestillingsmetoder påvirker den mængde, der genbestilles.  
 
 |Genbestillingsmetode|Beskrivelse|  
@@ -68,7 +62,7 @@ Følgende genbestillingsmetoder påvirker den mængde, der genbestilles.
 |**Ordre**|Ordreantallet vil blive beregnet til at opfylde hver enkelt behovshændelse, og behov-forsyningssættet forbliver sammenkædet indtil udførelse. Ingen planlægningsparametre overvejes.|  
 |**Lot-for-Lot**|Antallet beregnes for at opfylde summen for det behov, der bliver forfaldent i intervallet.|  
 
-##  <a name="optimize-when-and-how-much-to-reorder"></a>Optimer, hvornår og hvor meget du skal genbestille  
+##  Optimer, hvornår og hvor meget du skal genbestille  
 En planlægger vil, for at få en rationel forsyningsplan, finjustere planlægningsparametre for at begrænse ændringsforslag, akkumulere behov (dynamisk genbestillingsantal) eller for at undgå ubetydelige planlægningshandlinger. Følgende genbestillingsperiodefelter optimerer, hvornår og hvor meget der skal genbestilles.  
 
 |Felt|Beskrivelse|  
@@ -103,19 +97,19 @@ I nedenstående eksempler repræsenterer sorte pile eksisterende forsyning (op) 
 
 **Standardværdier:** Standardværdien for feltet **Interval** og de tre felter for genbestillingsperioden er tomme. For alle felter, undtagen feltet **Bufferperiode**, betyder det 0D (nul dage). Hvis feltet **Bufferperiode** er tomt, bruges den globale værdi i feltet **Standardbufferperiode** på siden **Produktionsopsætning**.  
 
-## <a name="modify-the-supply-orders"></a>Ret forsyningsordrerne  
+## Ret forsyningsordrerne  
 Når antallet af ordreforslaget er beregnet, kan en eller flere af ordremodifikatorerne justere den. Det maksimale ordreantal er f.eks. større end eller lig med det mindst tilladte ordreantal, som er større end eller lig med oprundingsfaktoren.  
 
 Antallet reduceres, hvis det overskrider det maksimale ordreantal. Derefter forøges det, hvis det er under det mindst tilladte ordreantal. Endelig skal det rundes op, så det passer til en bestemt oprundingsfaktor. Eventuelle restmængder bruger de samme justeringer, indtil det samlede behov er blevet konverteret til ordreforslag.  
 
-## <a name="delimit-the-item"></a>Afgræns varen  
+## Afgræns varen  
 Indstillingen **Produktionsmetode** definerer, hvilke yderligere ordrer MPS-beregningen foreslår.  
 
 Hvis indstillingen **Fremstil-til-lager** bruges, vedrører ordrerne kun varen.  
 
 Hvis indstillingen **Fremstil-til-ordre** bruges, vil planlægningssystemet analysere produktionsstyklisten for varen og oprette yderligere tilknyttede ordreforslag for disse elementer på lavere niveauer, der også er defineret som Fremstil-til-ordre. Dette fortsætter, så længe der er fremstil-til-ordre-varer i de faldende styklistestrukturer.
 
-## <a name="use-low-level-codes-to-manage-derived-demand"></a>Brug laveste-niveau-koder til at administrere afledt behov
+## Brug laveste-niveau-koder til at administrere afledt behov
 
 Brug laveste-niveau-koder for at føre det afledte behov for komponenter frem til de lavere niveauer i styklisten. Hvis du vil have en mere detaljeret forklaring af dette, skal du se [Vareprioritet/laveste-niveau-kode](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
 
@@ -131,11 +125,11 @@ Som et alternativ til automatisk beregning, som udføres dynamisk, hvis feltet e
 > [!NOTE]
 > Selv hvis feltet **Dynamisk laveste-niveau-kode** er markeret, ændres laveste-niveau-koderne for komponentvarer ikke dynamisk, hvis en overordnet stykliste er slettet eller angivet til ikke-godkendt. Det kan medføre, at det er svært at tilføje nye varer i slutningen af produktstrukturen, da det kan overstige det maksimalt tilladte antal laveste-niveau-koder. Hvis du har omfattende produktstrukturer, der når grænsen for laveste-niveau-kode, anbefales det derfor, at du ofte kører **Beregn laveste-niveau-kode** for at vedligeholde strukturen.  
 
-### <a name="optimize-low-level-code-calculation"></a>Optimere beregning af laveste-niveau-kode
+### Optimere beregning af laveste-niveau-kode
 
 Marker feltet **Optimer beregning af laveste-niveau-kode** for at angive, at du vil bruge den nye, hurtigere metode til at beregne laveste-niveau-kode. Bemærk, at den nye beregning foretages anderledes, og at brug kan bryde udvidelser, der er afhængige af den eksisterende metode. Den nye beregningsmetode erstatter den aktuelle metode i en fremtidig version.
 
-## <a name="see-also"></a>Se også  
+## Se også  
 [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
 [Designoplysninger: Afstemning af behov og efterspørgsel](design-details-balancing-demand-and-supply.md)   
 [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)

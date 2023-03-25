@@ -1,23 +1,17 @@
 ---
 title: Sådan slettes godkendelsesworkflows
-description: Hvis du er sikker på, at en arbejdsgang ikke længere bruges, kan du slette den. Alle forekomster af trin i arbejdsgangen, der er defineret i arbejdsgangen, skal have status **Afsluttet**.
+description: 'Hvis du er sikker på, at en arbejdsgang ikke længere bruges, kan du slette den. Alle forekomster af trin i arbejdsgangen, der er defineret i arbejdsgangen, skal have status **Afsluttet**.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 1500,
+ms.search.keywords: null
+ms.search.form: '1500,'
 ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: e93adde3ffdc520433df26f5735d021d5b64bf19
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585590"
 ---
-# <a name="delete-approval-workflows"></a>Slette godkendelsesworkflows
+# Slette godkendelsesworkflows
 
 Hvis du er sikker på, at en arbejdsgang ikke længere bruges, kan du slette den. Alle forekomster af trin i workflowet, der er defineret i arbejdsgangen, skal have status **Afsluttet**.
 
@@ -26,7 +20,7 @@ Hvis du er sikker på, at en arbejdsgang ikke længere bruges, kan du slette den
 
 På siden **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder. Du definerer arbejdsgangstrin ved at udfylde felter om arbejdsganglinjer med faste lister over hændelses- og svarværdier, der repræsenterer scenarier, der understøttes af programkoden. Flere oplysninger i [Oprette godkendelsesworkflows](across-how-to-create-workflows.md).
 
-## <a name="delete-a-workflow"></a>Slette et workflow
+## Slette et workflow
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Workflows**, og vælg derefter det relaterede link.
 2. Vælg det workflow, du vil slette.
@@ -37,7 +31,7 @@ På siden **Workflow** opretter du et workflow ved at angive de involverede trin
 > [!NOTE]
 > Sletning af et workflow kræver, at det er deaktiveret. Hvis du vil deaktivere et workflow, skal du åbne den på siden **Workflows** og derefter slå **Aktiveret** til/fra.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opret godkendelsesworkflows](across-how-to-create-workflows.md)  
 [Aktivere godkendelsesworkflows](across-how-to-enable-workflows.md)  

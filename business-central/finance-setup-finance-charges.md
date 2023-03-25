@@ -1,27 +1,21 @@
 ---
 title: Konfiguration af Rentebetingelser
-description: Se her, hvordan du konfigurerer Business Central, så du kan underrette debitorerne om tilføjede gebyrer ved at sende rentenotaer.
+description: 'Se her, hvordan du konfigurerer Business Central, så du kan underrette debitorerne om tilføjede gebyrer ved at sende rentenotaer.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment due, debt, overdue, fee, charge
-ms.search.form: 6, 494
+ms.search.keywords: 'payment due, debt, overdue, fee, charge'
+ms.search.form: '6, 494'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 27378e1c2c12077bdb04aa9f1e2b93f27fe048dc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528272"
 ---
-# <a name="set-up-finance-charge-terms"></a>Konfiguration af Rentebetingelser
+# Konfiguration af Rentebetingelser
 
 Når en debitor ikke betaler til forfaldsdatoen, kan du automatisk få en rentenota beregnet og føje den til de forfaldne beløb på debitorens konto. Du kan underrette debitor om de tilføjede gebyrer ved at sende rentenotaen. Først skal du definere en kode, der repræsenterer for hver renteberegningsmetode. Du kan så angive denne kode i feltet Rentebetingelseskode på debitorkortene.  
 
-## <a name="finance-charge-terms"></a>Rentebetingelser
+## Rentebetingelser
 
 Du skal definere rentebetingelser for hver renteberegning og derefter knytte betingelserne til debitoren i feltet **Rentebetingelseskode** på siden **Debitor**.
 
@@ -39,7 +33,7 @@ Rentenotaer kan beregnes efter kreditkronedage- eller saldorentemetoder.
 
 Hver kode i tabellen Rentebetingelser er desuden kædet sammen med en undertabel, nemlig tabellen Rentenotatekst. Til hver rentebetingelse kan du definere en starttekst og/eller en sluttekst, som skal vises på rentenotaen.
 
-### <a name="to-set-up-finance-charge-terms"></a>Sådan konfigurerer du rentebetingelser
+### Sådan konfigurerer du rentebetingelser
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rentebetingelser**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
@@ -68,9 +62,9 @@ Hver kode i tabellen Rentebetingelser er desuden kædet sammen med en undertabel
 |%8|Indholdet af feltet **Valutadato** på rentenotahovedet|  
 |%9|Indholdet af feltet **Bogføringsdato** i rentenotahovedet|  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/send-memos-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/modules/send-memos-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Indhente udestående beløb](receivables-collect-outstanding-balances.md)  
 [Konfiguration af rykkerbetingelser og -niveauer](finance-setup-reminders.md)  
