@@ -105,7 +105,14 @@
 ### [Gør dig klar til at komme i gang](ui-get-ready-business.md)
 ### [Fejlfinding af selvbetjeningstilmelding](ui-troubleshoot-self-signup.md)
 ### [Udvide din prøveversion](admin-extend-trial.md)
-### [Opsig eller fjern Business Central](admin-cancel.md)
+### [Opsig abonnement, eller fjern Business Central](admin-cancel.md)
+### Marketingtekst med Copilot til AI-styret vare
+#### [Oversigt](ai-overview.md)
+#### [Hent forhåndsversion – Copilot-udgave](ai-preview-getstarted.md)
+#### [Konfigurere marketingtekst med AI-styret vare](enable-ai.md)
+#### [Oprette marketingtekst med AI-styret vare](item-marketing-text.md)
+#### [Ofte stillede spørgsmål](ai-faq.md)
+
 ## Køb
 ### [Introduktion til et abonnement](trial-signup.md#get-started-with-a-subscription)
 ### [Gør dig klar til at komme i gang](ui-get-ready-business.md)
@@ -492,6 +499,7 @@
 ### [Administrere produktvarianter](inventory-item-variants.md)  
 ### [Arbejde med vareattributter](inventory-how-work-item-attributes.md)
 ### [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md)
+### [Tilføje marketingtekst for varer](item-marketing-text.md)
 ### [Tælle og justere lager ved hjælp af dokumenter](inventory-how-count-inventory-with-documents.md)
 ### [Tælle, justere og ompostere lager ved hjælp af kladder](inventory-how-count-adjust-reclassify.md)
 ### [Vise varer, der er disponible](inventory-how-availability-overview.md)
@@ -1271,7 +1279,7 @@
 ##### [Anlægslokationer og medarbejdere](LocalFunctionality/Russia/Fixed-Asset-Locations-and-Employees.md)
 ##### [Anlægsomsætning](LocalFunctionality/Russia/Fixed-Asset-Turnover.md)
 ##### [Oprette kladder for fremtidige udgifter](LocalFunctionality/Russia/How-to-Create-Future-Expense-Journals.md)
-##### [Oprette gebyr for anlægsaktiv](LocalFunctionality/Russia/How-to-Create-a-Fixed-Asset-Charge.md).
+##### [Oprette gebyr for anlægsaktiv](LocalFunctionality/Russia/How-to-Create-a-Fixed-Asset-Charge.md)
 ##### [Oprette en kreditnota for et anlægsgebyr](LocalFunctionality/Russia/How-to-Create-a-Credit-Memo-for-a-Fixed-Asset-Charge.md)
 ##### [Sælge anlægsaktiver](LocalFunctionality/Russia/Sale-of-fixed-assets.md)
 ##### [Frigive, spore og afskrive anlægsaktiver](LocalFunctionality/Russia/How-to-Release-Track-Write-Off-Fixed-Assets.md)
@@ -1522,11 +1530,12 @@
 #### [Konfigurere måleenheder](inventory-how-setup-units-of-measure.md)
 #### [Konfigurere lagervarer](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Kategorisere varer](inventory-how-categorize-items.md)
-#### [Importere flere varebilleder](inventory-how-import-item-pictures.md)
-### Konfigurere projektstyring
-#### [Konfigurere projekter](projects-setup-projects.md)
-#### [Konfigurere ressourcer](projects-how-setup-resources.md)
-#### [Konfigurer timesedler](projects-how-setup-time-sheets.md)
+#### [Indlæse flere varebilleder](inventory-how-import-item-pictures.md)
+#### [Konfigurere marketingtekst med Copilot til AI-styret vare](enable-ai.md)
+### Opsætte projektstyring
+#### [Opsætte projekter](projects-setup-projects.md)
+#### [Opsætte ressourcer](projects-how-setup-resources.md)
+#### [Opsætte timesedler](projects-how-setup-time-sheets.md)
 #### [Konfigurere sager](projects-how-setup-jobs.md)
 ### Konfigurere anlægsaktiver
 #### [Konfigurere anlægsaktiver](fa-setup.md)
@@ -1594,6 +1603,7 @@
 ##### [Hente Business Central-tilføjelsesprogram til Outlook](admin-outlook.md)
 ##### [Bruge Business Central som din virksomheds Indbakke i Outlook](work-outlook-addin.md)
 ##### [Synkronisere med kontakter i Outlook](admin-synchronize-outlook-contacts.md)
+###### [Opsætte synkronisering af kontakter i det lokale miljø](admin-contact-sync-setup-onprem.md)
 ##### [Optimere Outlook](admin-outlook-optimize.md)
 ##### [Bruge Business Central uden Outlook](admin-no-outlook.md)
 ##### [Ofte stillede spørgsmål](ui-outlook-addin-faq.yml)
@@ -1615,6 +1625,7 @@
 #### Bruge Business Central som din virksomheds Indbakke i Outlook 
 ##### [Oversigt](admin-outlook.md)
 ##### [Synkronisere med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+###### [Opsætte synkronisering af kontakter i det lokale miljø](admin-contact-sync-setup-onprem.md)
 ##### [Bruge Business Central uden Outlook](admin-no-outlook.md)
 #### Bruge Microsoft Teams med Business Central
 ##### [Oversigt](across-teams-overview.md)
