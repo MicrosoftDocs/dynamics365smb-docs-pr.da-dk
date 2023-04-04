@@ -12,6 +12,8 @@ ms.search.form: 9171
 ---
 # Administrere brugerprofiler
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Tildel alle brugere til profiler, der afspejler:
 
 * Deres forretningsrolle

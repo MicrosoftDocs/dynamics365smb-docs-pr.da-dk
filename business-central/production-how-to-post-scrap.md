@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 99000823
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Bogføre spild manuelt
@@ -24,6 +24,8 @@ Hvis der produceres spild under fremstillingen, kan dette også angives i afgang
 3. Angiv spildmængden i feltet **Spildantal**.  
 4. Angiv spildkoden i feltet **Spildkode**.  
 5. Vælg handlingen **Bogfør** for at bogføre det angivne spild pr. operation.  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
 ## Se også
 

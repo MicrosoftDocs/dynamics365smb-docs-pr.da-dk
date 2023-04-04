@@ -59,8 +59,8 @@ Du kan oprette en lagerleverance på en af to måder:
     * På en push-måde, hvor du kan bruge handlingen **Opret pluk**. Marker de linjer, der skal plukkes, og angiv oplysninger om plukningerne. F.eks. hvilke placeringer, der skal tages fra, og hvor mange enheder der skal håndteres. Placeringerne kan være foruddefineret ved opsætning af lagerstedslokationen eller ressourcen.
     * På en push-måde, hvor du kan bruge handlingen **Frigiv**. På siden **Plukkladde** kan lagerstedsmedarbejderne bruge handlingen **Hent lagerstedsdokumenter** til at få tildelt de tildelte pluk. Når lagerstedspluk er fuldt tildelt, slettes linjerne i **Plukkladde**. Flere oplysninger i [Plukke varer til lagerleverance](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-> [!TIP]
-> Du kan udskrive lagerleverancen og bruge den som en plukliste, hvis du vil have en lokation, der ikke kræver plukning.
+    > [!TIP]
+    > Du kan udskrive lagerleverancen og bruge den som en plukliste, hvis du vil have en lokation, der ikke kræver plukning.
 
 8. Angiv det antal, der skal leveres.  
 
@@ -71,6 +71,8 @@ Du kan oprette en lagerleverance på en af to måder:
     Hvis du vil udfylde feltet **Lever (antal)** på alle linjer med nul, skal du vælge handlingen **Annuller Lever (antal)**. Du kan f. eks. angive, at mængderne skal være nul, hvis du bruger en stregkodescanner til at opdatere de leverede mængder. Hvis du vil tilføje det disponible antal til levering, skal du vælge handlingen **Autofyld Lever (antal)**.
 
 9. Bogfør leverancen.
+
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
 ## Sådan bruges filtre til at hente kildedokumenter
 
