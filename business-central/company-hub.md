@@ -68,6 +68,8 @@ Du kan finde flere oplysninger om virksomheder og miljøer i [Miljølinks](compa
 
 ## Få adgang til virksomhedshubben
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 For at der kan opnås adgang til virksomhedens hub, skal du have adgang via enten *D365-VIRKSOMHEDSHUB* eller via *D365 VIRKSOMHEDSHUB*-tilladelsessættet. Du skal også have adgang til de virksomheder, der er opført i virksomhedens hub, hvilket betyder, at du skal være en bruger af disse virksomheder. Du kan finde flere oplysninger i [Oprette brugere i henhold til licenser](ui-how-users-permissions.md).  
 
 > [!IMPORTANT]

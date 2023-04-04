@@ -1,23 +1,17 @@
 ---
 title: Betalingsudligning med Envestnet Yodlee Bank Feeds-udvidelsen
-description: Beskriver udvidelsen Envestnet Yodlee Bank Feeds, der sammenkæder med bankkonti, så du hurtigt kan afstemme betalinger.
+description: 'Beskriver udvidelsen Envestnet Yodlee Bank Feeds, der sammenkæder med bankkonti, så du hurtigt kan afstemme betalinger.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, add-in, manifest, customize, stream, bank account link
-ms.search.form: 1450, 1451, 1452, 1453, 1454, 1458, 1460,
+ms.search.keywords: 'app, add-in, manifest, customize, stream, bank account link'
+ms.search.form: '1450, 1451, 1452, 1453, 1454, 1458, 1460,'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1e2c1b1b9030033ec35c79e478d0d5bd5246b3d6
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361990"
 ---
-# <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Udvidelsen Envestnet Yodlee Bank Feeds
+# Udvidelsen Envestnet Yodlee Bank Feeds
 
 Med tjenesten Envestnet Yodlee Bank Feeds kan du knytte systembankkontoen til din onlinebankkonto for hurtigt at afstemme indbetalinger til bankkonti. Det betyder, at det seneste bankkontoudtog automatisk eller manuelt indlæses i udligningskladden, hvilket sikrer, at du altid behandler de seneste betalinger med minimal risiko for fejl.
 
@@ -40,13 +34,13 @@ Envestnet Yodlee Bank Feeds-tjenesten giver følgende fordele:
 * Understøtter manuelle samt automatiske bankfeeds.
 * Gør det muligt at outsource betalingsudligning til en bogholder ved at give adgang til bankkontoudtog.
 
-## <a name="available-bank-feeds"></a>Tilgængelige bankfeeds
+## Tilgængelige bankfeeds
 
 Du kan kontrollere, om en bank understøttes ved at konfigurere og oprette forbindelse til tjenesten Envestnet Yodlee Bank Feeds. Banken vises på listen, hvis den understøttes af Envestnet Yodlee.
 
 Du kan finde flere oplysninger i [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)  

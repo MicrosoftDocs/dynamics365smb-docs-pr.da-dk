@@ -1,35 +1,29 @@
 ---
 title: Sådan får du Business Central-tilføjelsesprogram til Excel
-description: Få mere at vide om, hvordan du får brugerne til tilføjelsesprogrammet Business Central til Excel.
+description: 'Få mere at vide om, hvordan du får brugerne til tilføjelsesprogrammet Business Central til Excel.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
+ms.search.form: 1480
+ms.search.keywords: 'Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource'
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: e9120463e2876e7513ac8011918039167760172d
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532993"
 ---
-# <a name="get-the-business-central-add-in-for-excel"></a>Få Business Central-tilføjelsesprogram til Excel
+# Få Business Central-tilføjelsesprogram til Excel
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder et tilføjelsesprogram til Excel, der giver brugerne mulighed for at vælge handlingen **Rediger i Excel** på bestemte sider for at åbne dataene i et Excel-regneark. Denne handling er en anden end handlingen **Åbn i Excel**, fordi den giver brugerne mulighed for at foretage ændringer i Excel og derefter udgive ændringerne tilbage til [!INCLUDE[prod_short](includes/prod_short.md)]
 
-## <a name="overview"></a>Oversigt
+## Oversigt
 
-### <a name="about-the-add-in"></a>Om tilføjelsesprogrammet
+### Om tilføjelsesprogrammet
 
 Tilføjelsesprogrammet kaldes **Microsoft Dynamics Office-tilføjelsesprogram**, og det kan installeres fra [Office Store (AppSource)](https://appsource.microsoft.com/). Når tilføjelsesprogrammet er installeret, er handlingen **Rediger i Excel** tilgængelig på de fleste liste- og listedelsider fra ikonet **Del** ![Del en side i en anden app](media/share-icon.png). Du kan finde flere oplysninger om brug af tilføjelsesprogram i [Vise og redigere i Excel fra Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > Tilføjelsesprogrammet fungerer kun i Windows, ikke i macOS.
 
-### <a name="about-deployment-as-an-admin"></a>Om implementering som administrator
+### Om implementering som administrator
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] online er der et par installationsmuligheder for at få tilføjelsesprogrammet til brugerne. En mulighed er *individuel anskaffelse*, hvor du lader brugerne installere tilføjelsesprogrammet selv. Med denne indstilling skal brugerne have adgang til at hente filer fra Office Store. En anden mulighed er at konfigurere *centraliseret installation* i Microsoft 365 Administration til automatisk at installere tilføjelsesprogrammet til hele organisationen, grupperne eller bestemte brugere. Centraliseret installation giver brugerne mulighed for at få tilføjelsesprogrammet til brugerne, hvis din organisation ikke giver brugerne adgang til Office Store.
 
@@ -41,21 +35,21 @@ For slutbrugeren er installationsoplevelsen forskellig for de to installationssc
 
 Med begge disse installationsindstillinger konfigureres tilføjelsesprogrammet automatisk til at oprette forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)]. En tredje installationsindstilling er en manuel installation af tilføjelsesprogrammet direkte fra Excel. Med denne indstilling skal brugerne konfigurere tilføjelsesprogrammet for at oprette forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around"></a><a name="switch"></a>Skift fra individuel anskaffelse til centraliseret installation eller omvendt
+### <a name="switch"></a>Skift fra individuel anskaffelse til centraliseret installation eller omvendt
 
 Når du skifter fra individuel anskaffelse af tilføjelsesprogrammet til Centraliseret installation eller omvendt Excel-filer, som brugerne oprettede, før overgangen påvirkes. Efter overgangen kan brugerne stadig åbne alle Excel-regneark, der tidligere er oprettet ved hjælp af handlingen **Rediger i Excel** eller oprettet manuelt ved at konfigurere Excel-tilføjelsesprogrammet. Men de kan ikke opdatere dataene i filen fra Business Central eller skubbe opdateringer til Business Central
 
 Denne betingelse skyldes, at hver Excel-fil får tildelt et "tilføjelsesprogram"-id. I overgangen til eller fra centraliseret installation tildeles et andet id, så det tidligere id blokeres.
 
-## <a name="preparation-on-premises-only"></a>Forberedelse (kun lokalt)
+## Forberedelse (kun lokalt)
 
 [!INCLUDE[prod_short](includes/prod_short.md)] det lokale miljø kræver, at dit miljø er konfigureret til tilføjelsesprogrammet. Hvis ikke, er handlingen **Rediger i Excel** ikke tilgængelig for brugerne. Du kan finde flere oplysninger under [Konfigurere Excel-tilføjelsesprogrammet til redigering af Business Central-data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin) i Developer og IT Pro i Hjælp.
 
-## <a name="deploy-the-add-in-by-using-centralized-deployment"></a>Installere tilføjelsesprogrammet ved hjælp af centraliseret installation
+## Installere tilføjelsesprogrammet ved hjælp af centraliseret installation
 
 Centraliseret installation er en funktion i Microsoft 365 Administration, som du bruger til automatisk at installere tilføjelsesprogrammer i brugernes Office-apps, f.eks. Excel. Som en hjælp til centraliseret installation inkluderer [!INCLUDE[prod_short](includes/prod_short.md)] den **centraliserede installation af excel-tilføjelsesprogrammet**.
 
-### <a name="before-you-begin"></a>Inden du starter
+### Inden du starter
 
 - Du kan få mere at vide om, hvordan du forhindrer brugere i at hente fra Office under [Administrer tilføjelsesprogrammer i Administration](/microsoft-365/admin/manage/manage-addins-in-the-admin-center).
 - Kontroller, at centraliseret installation fungerer for organisationen. Du kan finde flere oplysninger under [Bestemme, om centraliseret installation af tilføjelsesprogrammer fungerer for organisationen](/microsoft-365/admin/manage/centralized-deployment-of-add-ins)
@@ -64,7 +58,7 @@ Centraliseret installation er en funktion i Microsoft 365 Administration, som du
 > [!NOTE]
 > Aktivering af centraliseret installation påvirker funktioner, der bruger Excel-tilføjelsesprogrammet, f.eks. handlingen **Rediger i Excel**. Det har ingen indflydelse på andre Excel-relaterede funktioner og eller tilladelser, der er tildelt brugere i [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="set-up-centralized-deployment-of-the-add-in"></a>Konfigurere centraliseret udrulning af Excel-tilføjelsesprogram
+### Konfigurere centraliseret udrulning af Excel-tilføjelsesprogram
 
 Du skal arbejde i både [!INCLUDE[prod_short](includes/prod_short.md)] og Microsoft 365 Administration.
 
@@ -93,7 +87,7 @@ Når du er færdig, kan du altid ændre installationen i Microsoft 365 Administr
 > [!NOTE]
 > Det kan tage op til 24 timer, før brugerne af tilføjelsesprogrammet installeres automatisk i Excel af brugere.
 
-## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use"></a><a name="install"></a>Individuel anskaffelse: Du kan finde flere oplysninger i installere tilføjelsesprogrammet manuelt til eget brug
+## <a name="install"></a>Individuel anskaffelse: Du kan finde flere oplysninger i installere tilføjelsesprogrammet manuelt til eget brug
 
 I de fleste tilfælde installeres tilføjelsesprogrammet, når du åbner Excel fra Business Central, enten automatisk for dig, eller du bliver bedt om at installere det. Der kan dog være tilfælde, hvor du skal installere tilføjelsesprogrammet manuelt.
 
@@ -103,7 +97,7 @@ I de fleste tilfælde installeres tilføjelsesprogrammet, når du åbner Excel f
 
 Når tilføjelsesprogrammet er installeret, vises det som et panel i Excel. Nu skal forbindelsen konfigureres.
 
-### <a name="configure-the-business-central-connection"></a>Konfigurer Business Central-forbindelsen
+### Konfigurer Business Central-forbindelsen
 
 Hvis en bruger ikke kan oprette forbindelse automatisk, kan du fjerne blokeringen af dem ved at bede vedkommende om at følge disse trin:
 
@@ -115,17 +109,17 @@ Hvis en bruger ikke kan oprette forbindelse automatisk, kan du fjerne blokeringe
 
 Tilføjelsesprogrammet er nu forbundet til [!INCLUDE [prod_short](includes/prod_short.md)], og du kan redigere data og udgive ændringerne i [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Forberede enheder og netværk til Excel-tilføjelsesprogrammet
+## Forberede enheder og netværk til Excel-tilføjelsesprogrammet
 
 Netværkstjenester som proxyer eller firewalls skal tillade routing mellem hver klientenhed, hvor tilføjelsesprogrammet er installeret, og mange serviceslutpunkter. Du kan finde en liste over slutpunkter under [Forberede netværket til Tilføjelsesprogrammet i Excel](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
-## <a name="troubleshooting"></a>Fejlfinding
+## Fejlfinding
 
 Nogle gange løber brugerne ind i problemer med Excel-tilføjelsesprogrammet. Dette afsnit indeholder nogle tip til, hvordan du fjerner blokeringen af brugere under visse omstændigheder.
 
 |Problem  |Løsning eller løsning  |Bemærkninger  |
 |---------|---------|---------|
-|Tilføjelsesprogrammet starter ikke|Kontroller, om tilføjelsesprogrammet er installeret centralt. Du kan også kontrollere, om brugeren er blokeret fra at installere den lokalt. | Administratoren kan konfigurere Office, så brugerne ikke kan hente tilføjelsesprogrammer. I disse tilfælde skal administratoren installere tilføjelsesprogrammet centralt. Yderligere oplysninger finder du under [Installere tilføjelsesprogrammer i Administration](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
+|Tilføjelsesprogrammet starter ikke <br><br>Brugeren får f. eks. meddelelsen "Advarsel til tilføjelsesprogram: Dette tilføjelsesprogram er ikke længere tilgængeligt." når du forsøger at bruge tilføjelsesprogrammet. Dette problem kan opstå, hvis centraliseret installation er konfigureret korrekt, men brugeren ikke fik tildelt adgang.|Kontroller, om tilføjelsesprogrammet er installeret centralt. Du kan også kontrollere, om brugeren er blokeret fra at installere den lokalt. | Administratoren kan konfigurere Office, så brugerne ikke kan hente tilføjelsesprogrammer. I disse tilfælde skal administratoren installere tilføjelsesprogrammet centralt. Yderligere oplysninger finder du under [Installere tilføjelsesprogrammer i Administration](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
 |Data indlæses ikke i Excel|Test forbindelsen ved at åbne en anden liste i Excel fra [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan også åbne projektmappen i Excel i en browser.|Hvis brugeren har angivet et firmanavn, der indeholder specialtegn, kan tilføjelsesprogrammet ikke oprette forbindelse. |
 |Data kan ikke udgives tilbage til [!INCLUDE [prod_short](includes/prod_short.md)].|Test forbindelsen ved at åbne projektmappen i Excel i en browser. |Nogle gange kan en udvidelse blokere udgivelsesjobbet. Hvis siden er udvidet eller tilpasset, skal du fjerne udvidelserne og derefter prøve igen.|
 |Datoerne er forkerte  |Excel kan vise klokkeslæt og datoer i et andet format end [!INCLUDE [prod_short](includes/prod_short.md)]. Denne betingelse gør dem ikke forkerte, og dataene i [!INCLUDE [prod_short](includes/prod_short.md)] bliver ikke blandet.|         |
@@ -165,9 +159,9 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md)  
 [Arbejde med Business Central](ui-work-product.md)  

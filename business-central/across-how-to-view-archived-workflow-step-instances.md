@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 1530,
+ms.search.keywords: null
+ms.search.form: '1530,'
 ms.date: 09/09/2022
 ms.author: edupont
-ms.openlocfilehash: 60a25f6b07c4e483d06891367a679bada00d4f75
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585806"
 ---
-# <a name="view-archived-workflow-step-instances"></a>Vise arkiverede forekomster af arbejdsgangstrin
+# Vise arkiverede forekomster af arbejdsgangstrin
 
 Alle fuldførte workflowtrininstanser gemmes på siden **Arkiverede workflowtrininstanser**.  
 
@@ -26,7 +20,7 @@ På siden **Workflow** opretter du et workflow ved at angive de involverede trin
 > [!NOTE]
 > Hvis du vil have vist historikken og status for arbejdsgange ved hjælp af Power Automate-integration, skal du vælge handlingen **Mine flows** på siden **Power Automate** og derefter vælge et flow for at få vist historikken og status for opgaven.
 
-## <a name="to-view-archived-workflow-step-instances"></a>Sådan får du vist arkiverede forekomster af arbejdsgangstrin
+## Sådan får du vist arkiverede forekomster af arbejdsgangstrin
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Workflows**, og vælg derefter det relaterede link.  
 2. Åbn den arbejdsgang, du vil se alle arkiverede forekomster af arbejdsgangstrin for.  
@@ -37,7 +31,7 @@ På siden **Workflow** opretter du et workflow ved at angive de involverede trin
 
    Siden **Arkiverede workflowtrininstanser** åbnes og viser alle arkiverede workflowtrininstanser. I feltet **Workflowkode** kan du se, hvilket workflow den arkiverede workflowtrininstans tilhørte.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Slette godkendelsesworkflows](across-how-to-delete-workflows.md)  
 [Opret godkendelsesworkflows](across-how-to-create-workflows.md)  

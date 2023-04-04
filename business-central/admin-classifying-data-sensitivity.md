@@ -28,6 +28,7 @@ I nedenstående tabel beskrives de datafølsomhedsniveauer, du kan tildele.
 |Normal | Generelle data, der ikke hører til i nogen andre kategorier.|
 
 ## Hvordan kan jeg klassificere dataene?
+
 Klassificering af følsomheden i et stort antal felter ét ad gangen vil tage lang tid. Som en hjælp til at gøre det hurtigere leverer vi værktøjer, som du kan bruge til at klassificere følsomheden af felter i bundter og derefter finjustere klassificeringen for bestemte felter. Du kan finde værktøjer i regnearket Klassificering af data, som er tilgængelig i rollecentrene Administration af brugere, brugergrupper og tilladelser. Du skal være systemadministrator for at kunne bruge regnearket.
 
 > [!Important]

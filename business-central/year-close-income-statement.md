@@ -1,30 +1,24 @@
 ---
 title: Nulstille resultatopgørelseskonti
-description: Ved årsregnskabets afslutning skal du udføre kørslen Nulstil resultatopgørelse for at afslutte de regnskabsperioder, der udgør regnskabsåret.
+description: 'Ved årsregnskabets afslutning skal du udføre kørslen Nulstil resultatopgørelse for at afslutte de regnskabsperioder, der udgør regnskabsåret.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: fe66a7341045058f2d5d5b5313d122cf442d3117
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514669"
 ---
-# <a name="closing-income-statement-accounts"></a>Nulstille resultatopgørelseskonti
+# Nulstille resultatopgørelseskonti
 Når regnskabsåret er slut, skal du afslutte de perioder, det indeholder. Brug kørslen **Nulstil resultatopgørelse** for at gøre dette. Denne kørsel overfører årets resultat til en konto i balancen og nulstiller resultatopgørelseskonti. Det gør du ved at oprette linjer i en kladde, som du derefter kan bogføre.
 
-## <a name="to-run-the-close-income-statement-batch-job"></a>Sådan udføres kørslen Nulstil resultatopgørelse
+## Sådan udføres kørslen Nulstil resultatopgørelse
 1. Afslut regnskabsåret. Regnskabsåret skal være afsluttet, før kørslen kan sættes i gang. Du kan finde flere oplysninger i [Afslutte regnskabsperioder](year-close-account-periods.md).
 2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Nulstil resultatopgørelse**, og vælg derefter det relaterede link.
 3. Vælg **OK** for at eksekvere kørslen.
 
-## <a name="about-the-close-income-statement-batch-job"></a>Om kørslen Nulstil resultatopgørelse
+## Om kørslen Nulstil resultatopgørelse
 Ved kørslen behandles alle finansposter af typen Resultatopgørelse, og der oprettes poster, som tilbagefører balancerne. Hver post er totalen af alle finansposter i kontoen i regnskabsåret. Disse nye poster placeres i en kladde, hvor du skal angive en modkonto og en resultatkonto i balancen, inden du bogfører. Når du bogfører kladden, bliver der bogført en post på hver resultatopgørelseskonto, der får saldoen til at gå i nul, og samtidig overfører årets resultat til balancen.
 
 Du skal selv bogføre kladden. Posterne bogføres ikke automatisk ved kørslen, undtagen når der bruges en ekstra rapporteringsvaluta. Når der bruges ekstra rapporteringsvaluta, bogfører kørslen posterne direkte til finansposterne.
@@ -33,7 +27,7 @@ Datoen på de linjer, som kørslen indsætter i kladden, vil altid være en ulti
 
 Kørslen **Nulstil resultatopgørelse** kan bruges flere gange. Du kan bogføre i et tidligere regnskabsår, også efter resultatopgørelseskontiene er nulstillet, hvis du udfører kørslen igen.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Afslutningregnskab](year-close-books.md)  
 [Bogføre årsafslutningsposten](year-how-post-year-end-close-entry.md)  

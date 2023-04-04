@@ -41,6 +41,8 @@ Det første trin til at lægge afgange på lager er at oprette den indgående la
 4. Udfyld læg-på-lager-linjerne efter behov.
 5. Når linjerne er klar til at blive bogført, skal du vælge handlingen **Bogfør**. Bogføringen opretter de nødvendige lagerposter og bogfører afgangen af varer.  
 
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 Du kan også oprette et **Læg-på-lager (lager)** direkte fra den frigivne produktionsordre. Flere oplysninger i [Lægge varer på lager med Læg-på-lager (lager)](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
 
 Når du bogfører læg-på-lager, antages det, at alle operationer er bogført i overensstemmelse med standardruten, dvs., at afgangsantal er bogført i henhold til den seneste operation. Dvs. Afgangsantallet bogføres i overensstemmelse med den seneste operation. Du kan bruge afgangskladde til at bogføre afvigelser i afgangsantal og opstillings- og operationstid. Hvis der er krav om delvis bogføring, efter du har oprettet læg-på-lager, kan du gøre dette under opstillingstid og antal for alle operationer undtagen den sidste. I det tilfælde kontrolleres den sidste operation af læg-på-lager.  

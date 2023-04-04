@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
+ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
 ms.date: 06/14/2022
 ms.author: edupont
-ms.openlocfilehash: 81dc6b8cff380e6eb9cf2fd6ef01be140914bc06
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532237"
 ---
-# <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Oprette indgående bilagsposter direkte fra bilag og poster
+# Oprette indgående bilagsposter direkte fra bilag og poster
 
 Du kan gemme eksterne forretningsbilag i [!INCLUDE[prod_short](includes/prod_short.md)] ved at knytte dokumentfilerne til de relaterede indgående bilagsposter. Hvis dokumentet, f.eks en købsfaktura, ikke startede som en indgående bilagspost, kan du stadig oprette og knytte en indgående bilagspost til det senere. Du kan også tilknytte indgående bilagsfiler til bogførte købs- og salgsdokumenter og til kreditor-, debitor- og finansposter ved hjælp af faktaboksen **Indgående bilagsfiler** f.eks. på siderne **Bogf. købsfakturaer** og **Kreditorposter**.
 
@@ -24,21 +18,21 @@ Fra på siderne **Kontoplan** og **Finansposter** kan du bruge en søgefunktione
 
 Følgende procedurer viser, hvordan du vedhæfter en fil til en kreditorpost eller en eksisterende købsfaktura, der ikke er oprettet fra en indgående bilagspost. Vedhæftning af en fil til bogførte købs- eller salgsdokumenter fungerer på samme måde.
 
-## <a name="to-create-and-connect-an-incoming-document-record-from-a-purchase-invoice"></a>Sådan oprettes og tilknyttes en indgående bilagspost fra en indkøbsfaktura
+## Sådan oprettes og tilknyttes en indgående bilagspost fra en indkøbsfaktura
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.
 2. Vælg linjen for en købsfaktura, du vil knytte til en fil, og vælg derefter handlingen **Opret indgående bilag ud fra fil**.
 3. Du kan også vælge linjen for en købsfaktura, du vil knytte til en fil, og derefter vælge handlingen **Vedhæft fil**.
 4. På siden **Indsæt fil** , skal du vælge den fil, der repræsenterer det pågældende indgående bilag og derefter vælge knappen **Åbn**.
 
-## <a name="to-create-and-connect-an-incoming-document-record-from-a-vendor-ledger-entry"></a>Sådan oprettes og tilknyttes en indgående bilagspost fra en kreditorpost
+## Sådan oprettes og tilknyttes en indgående bilagspost fra en kreditorpost
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Kreditorposter** i feltet Søg, og vælg derefter det relaterede link.
 2. Vælg linjen for en kreditorpost, du vil knytte til en fil, og vælg derefter handlingen **Opret indgående bilag ud fra fil**.
 3. Du kan også vælge en linje for en kreditorpost, du vil knytte til en fil, og derefter vælge handlingen **Vedhæft fil**.
 4. På siden **Indsæt fil** , skal du vælge den fil, der repræsenterer det pågældende indgående bilag og derefter vælge knappen **Åbn**.
 
-## <a name="to-remove-a-connection-from-an-incoming-document-record-to-a-posted-document"></a>Fjerne en forbindelse fra et indgående bilag til et bogført bilag
+## Fjerne en forbindelse fra et indgående bilag til et bogført bilag
 
 Du kan fjerne vedhæftede filer fra ikke-bogførte bilag til enhver tid ved at slette den relaterede indgående bilagspost. Hvis dokumentet er bogført, skal du først fjerne forbindelsen fra den indgående bilagspost.
 
@@ -47,9 +41,9 @@ Du kan fjerne vedhæftede filer fra ikke-bogførte bilag til enhver tid ved at s
 
 Forbindelsen til det bogførte bilag er fjernet. Du kan nu fortsætte med at knytte en andet indgående bilagspost til det bogførte bilag som beskrevet i denne artikel.
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprette indkommende dokument poster](across-how-create-income-document-records.md)
 [Brug OCR til at omdanne PDF-og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md)

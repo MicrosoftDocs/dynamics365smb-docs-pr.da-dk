@@ -1,22 +1,16 @@
 ---
 title: Oprette godkendelsesworkflows for at forbinde opgaver
-description: Lær, hvordan du kan oprette arbejdsgange, der udføres af personer i forretningsprocesser.
+description: 'Lær, hvordan du kan oprette arbejdsgange, der udføres af personer i forretningsprocesser.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 11/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: 0d84da534c754ba7b0f6d1de97b61634ff743ddc
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9763252"
 ---
-# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Oprette arbejdsgange for at forbinde opgaver i virksomhedsprocesser
+# Oprette arbejdsgange for at forbinde opgaver i virksomhedsprocesser
 
 Du kan oprette arbejdsgange, der forbinder handlinger i forretningsprocesser, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin.  
 
@@ -47,7 +41,7 @@ Arbejdsflowet er inddelt i tre sektioner:
 
 Indstillingerne er systemdefinerede for både hændelser og svar. Nye hændelser skal tilføjes ved hjælp af udviklingen af et filtypenavn.
 
-## <a name="to-create-a-workflow"></a>Sådan oprettes en arbejdsgang
+## Sådan oprettes en arbejdsgang
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Workflows**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. Siden **Workflow** åbnes.  
@@ -117,7 +111,7 @@ Indstillingerne er systemdefinerede for både hændelser og svar. Nye hændelser
 > [!TIP]  
 > Hvis du vil se relationer mellem de tabeller, der bruges i arbejdsgange, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, og derefter angive **Workflow – tabelrelationer**.  
 
-## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Eksempel på oprettelse af en ny arbejdsproces vha. eksisterende hændelser
+## Eksempel på oprettelse af en ny arbejdsproces vha. eksisterende hændelser
 
 I følgende eksempel oprettes der en ny arbejdsgang for at godkende ændringer af navnet på en eksisterende kreditor:
 
@@ -176,9 +170,9 @@ Følgende illustration giver en oversigt over resultatet af denne procedure.
 
 Derefter skal du afprøve arbejdsgangen ved at åbne en eksisterende kreditorkort og ændre navnet. Kontrollere, at der er sendt en godkendelsesanmodning om ændring af kreditorens navn.
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/create-workflows/)
+## Se relateret [Microsoft-træning](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md)  
 [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  

@@ -6,21 +6,15 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments'
 ms.date: 08/29/2022
 ms.author: jswymer
-ms.openlocfilehash: ace24899aa3c872cd5ac0609dfc3ecbf63608330
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607657"
 ---
-# <a name="overview-of-tasks-to-close-accounting-periods"></a>Oversigt over opgaver til afslutning af regnskabsperioder
+# Oversigt over opgaver til afslutning af regnskabsperioder
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tvinger dig ikke at lukke perioder, men der er mange periodeafslutnings- (månedsafslutning) aktiviteter, du kan udføre. Dette emne indeholder en oversigt over valgfrie processer og aktiviteter til afslutning af perioder.  
 
-## <a name="general-ledger"></a>Finans
+## Finans
 
 * Angiv bogføringsperioder, som enten er brugerspecifikke, eller som gælder på tværs af hele systemet.  
 
@@ -31,7 +25,7 @@ ms.locfileid: "9607657"
 * Kør regnskabsrapporter på følgende måde:  
   * Åbn siden **Finansrapporter**, og vælg derefter handlingen **Udskriv**.  
 
-## <a name="sales-and-receivables"></a>Salg og tilgodehavender
+## Salg og tilgodehavender
 
 * Bogfør alle salgsordrer, fakturaer, kreditnotaer og returvareordrer.  
 * Bogfør alle indbetalingskladder.  
@@ -39,7 +33,7 @@ ms.locfileid: "9607657"
 * Afstem aldersfordelte tilgodehavender, med finansposterne.  
 * Udfør kørslen **Slet fakturerede salgsordrer**.  
 
-## <a name="purchases-and-payables"></a>Køb og gæld
+## Køb og gæld
 
 * Bogfør alle købsordrer, fakturaer, kreditnotaer og returvareordrer.  
 * Bogfør alle udbetalingskladder.  
@@ -47,7 +41,7 @@ ms.locfileid: "9607657"
 * Udfør rapporten **Aldersfordelt gæld**, og afstem gæld med finansposterne.  
 * Udfør kørslen **Slet fakturerede købsordrer**.  
 
-## <a name="fixed-assets"></a>Anlæg
+## Anlæg
 
 * Bogfør alle vedligeholdelsesomkostninger via anlægskladderne eller fakturaerne
 * Bogfør reguleringer.
@@ -55,17 +49,17 @@ ms.locfileid: "9607657"
 * Bogfør nedskrivning.
 * Opdater og bogfør anlægsgentagelseskladden.
 
-## <a name="intercompany"></a>Intercompany-handel
+## Intercompany-handel
 
 * Behandle koncerninterne transaktioner.
 
-## <a name="calculate-and-process-sales-tax"></a>Beregn og behandl moms
+## Beregn og behandl moms
 
 * Udfyld momsangivelser.  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/close-fiscal-year-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Afslutning af år og perioder](year-close-years-periods.md)  
 [Afslutningregnskab](year-close-books.md)  

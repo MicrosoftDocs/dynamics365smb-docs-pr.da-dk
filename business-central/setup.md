@@ -1,22 +1,16 @@
 ---
 title: Oversigt over opgaver til opsætning af Business Central
-description: Oversigt over de opgaver, som du kan udføre for at oprette, initialisere og konfigurere Business Central efter dine behov.
+description: 'Oversigt over de opgaver, som du kan udføre for at oprette, initialisere og konfigurere Business Central efter dine behov.'
 author: edupont04
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: configure, initialize
+ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
 ms.author: edupont
-ms.openlocfilehash: 65fd173213af21631b27019a79fc8030d6839daf
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604828"
 ---
-# <a name="overview-of-tasks-to-set-up-prod_short"></a>Oversigt over opgaver til opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]
+# Oversigt over opgaver til opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder standardkonfigurationer for de fleste forretningsprocesser, men du kan ændre konfigurationen, så den passer til din organisation. De [Business Central-artikler i hurtig start](quick-start-business-central.md) kan hjælpe dig med at tage de første skridt til at gøre [!INCLUDE [prod_short](includes/prod_short.md)] til din egen. Denne artikel giver en oversigt over, hvordan du kan konfigurere [!INCLUDE [prod_short](includes/prod_short.md)] i organisationen.
 
@@ -61,13 +55,13 @@ For nogle områder kræves, at du skal være administrator i dit [!INCLUDE[prod_
 > [!NOTE]
 > Som administrator kan du oprette en ny virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)] med RapidStart Services, som er et værktøj, der er udviklet til at afkorte installationstiden, forbedre implementeringens kvalitet, introducere en tilgang til implementeringer, der kan gentages, og forbedre produktiviteten ved at automatisere og forenkle tilbagevendende opgaver. Flere oplysninger i [opsætning af din virksomhed med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-## <a name="set-up-apps"></a>Opsætte apps
+## Opsætte apps
 
 Ud over hovedfunktionerne i [!INCLUDE [prod_short](includes/prod_short.md)] tilføjer Microsoft nogle apps, der er angivet [på **Udvidelsesstyring**-siden](https://businesscentral.dynamics.com/?page=2500). Fra og med oktober 2022 får hver app et link til at starte sin installationsside-Vælg blot funktionen **Konfigurer**.  
 
 Du kan også tilføje egenskaber til [!INCLUDE [prod_short](includes/prod_short.md)] ved at tilføje AppSource-apps. Flere oplysninger [Tilpasse Business Central Online ved brug af udvidelser](ui-extensions.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversigt over virksomhedsoplysninger](admin-company-information.md)  
 [Opsætning](admin-setup-and-administration.md)  
@@ -79,8 +73,8 @@ Du kan også tilføje egenskaber til [!INCLUDE [prod_short](includes/prod_short.
 [Anlægsaktiver](fa-manage.md)  
 [Montagestyring](assembly-assemble-items.md)  
 [Produktion](production-manage-manufacturing.md)  
-[Logistik](warehouse-manage-warehouse.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Warehouse Management-oversigt](design-details-warehouse-management.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Oprettelse af nye virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Blive køreklar](ui-get-ready-business.md)  
 [Hurtig start af Business Central](quick-start-business-central.md)  

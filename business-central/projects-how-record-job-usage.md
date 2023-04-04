@@ -6,16 +6,12 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 12/20/2022
+ms.date: 03/08/2023
 ms.custom: bap-template
 ---
 # Registrere forbrug eller forbrug til sager
 
 Fra siden **jobkort** kan du åbne siden **Sagsplanlægningslinjer** for at gennemgå og registrere brugen af forskellige dele af sagen. Disse oplysninger opdateres automatisk, når du ændrer og overfører oplysninger mellem sager og sagskladder eller sagskladder. Dette kræver, at du aktiverer **Anvend anvendelseslink som standard** til/fra på siden **Konfigurer sager**. Flere oplysninger i [Konfigurere sager](projects-how-setup-jobs.md).  
-
-<!-- Not really sure what this paragraph is saying, or why we start with it. Why do you transfer information between jobs and job journals or job invoices? I get the use of resources and items, but what about G/L account and Text?
-
-On the Jobs Setup page there's an Apply Usage Link by Default toggle. Guessing that's what we're referring to -->
 
 F.eks. kan du angive antallet af en ressource, og hvilken mængde, der skal overføres til sagskladden, for planlægningslinjer af typen **Budget**. Hvis planlægningslinjens type er **Fakturerbar**, kan du angive antallet af ressourcen, og angive hvilket antal, der skal overføres til en faktura. Yderligere oplysninger om fakturering af debitor finder du i [Fakturasager](projects-how-invoice-jobs.md). Ved at sammenligne den oprindelige mængde, restantal eller bogført antal kan du hurtigt gennemgå oplysninger om forbrug. Du kan finde oplysninger om vurdering af budgetterede værdier under planlægning under [Administrere sagsbudgetter](projects-how-manage-budgets.md).  
 
@@ -28,11 +24,11 @@ Følgende procedurer beskrives, hvordan du kan registrere faktiske (fakturerbare
 3. Vælg en sagsplanlægningslinje af typen **Budget** eller **Både budget og fakturerbar**, som du vil registrere forbruget for.   
 
     > [!NOTE]
-    > Du kan også registrere forbrug for en sagsplanlægningslinje af typen **Fakturerbar**. I dette tilfælde skal du typisk bruge disse linjer til at oprette fakturaer, men du kan også overføre det til en kladde. Flere oplysninger [Fakturere sager](projects-how-invoice-jobs.md) <!--However, when you do that, a job planning line of type **Budget** is created to match the billable line. For more information, see [Manage Job Budgets](projects-how-manage-budgets.md).-->
+    > Du kan også registrere forbrug for en sagsplanlægningslinje af typen **Fakturerbar**. I dette tilfælde skal du typisk bruge disse linjer til at oprette fakturaer, men du kan også overføre det til en kladde. Flere oplysninger [Fakturere sager](projects-how-invoice-jobs.md) 
 
 4. I feltet **Antal, der skal overføres til kladde** skal du angive det nummer, du vil overføre. Standardantallet er den værdi, du angiver i feltet **Antal**.
 
-    Feltet **Restantal** viser det antal, der mangler for at afslutte sagen og blive overført til kladden. <!--Should we mention that this field is not shown by default, and that if they want to use it they must add it?--> 
+    Feltet **Restantal** viser det antal, der mangler for at afslutte sagen og blive overført til kladden.
 5. Vælg handlingen **Opret sagskladdelinjer**.
 
     > [!TIP]
@@ -40,6 +36,9 @@ Følgende procedurer beskrives, hvordan du kan registrere faktiske (fakturerbare
 6. På siden **Kopier sag til sagsplanlægningslinje** skal du udfylde felterne efter behov og derefter vælge knappen **OK**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Vælg handlingen **Åbn sagskladde**.  
 8. På siden **Sagskladde** skal du markere den relevante linje, og derefter vælge handlingen **Bogfør**.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 9. På siden **Sagsplanlægningslinjer** skal du gennemgå det registrerede forbrug ved at holde øje felterne **Antal**, **Restantal** og **Antal, der skal overføres til kladde**.  
 10. Gentag trin 3 til 8 for at registrere ekstra forbrug.  
 
@@ -49,6 +48,8 @@ Følgende procedurer beskrives, hvordan du kan registrere faktiske (fakturerbare
 2. I feltet **Kladdenavn** skal du vælge et relevant sagskladdenavn.  
 3. På en ny linje skal du angive bilagsnummer, sagsnummer, sagsopgavenummer, type og mængde af den type, der forbruges.  
 4. Når sagskladdelinjerne er fuldført, skal du vælge handlingen **Bogfør**.  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Sådan vises sagsforbrugsestimater og bogføringsopdateringer
 

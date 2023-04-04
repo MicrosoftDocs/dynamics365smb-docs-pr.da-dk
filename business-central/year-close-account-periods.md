@@ -1,27 +1,21 @@
 ---
 title: Afslutte regnskabsperioder for et regnskabsår
-description: Beskriver, hvordan du afslutter regnskabsperioder, der indgår i regnskabsåret ved årsafslutningen.
+description: 'Beskriver, hvordan du afslutter regnskabsperioder, der indgår i regnskabsåret ved årsafslutningen.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 944c2e9a9955a38b079234cc3ef9fb365407a97a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514279"
 ---
-# <a name="close-accounting-periods"></a>Afslutte regnskabsperioder
+# Afslutte regnskabsperioder
 
 Når regnskabsåret er slut, skal du afslutte de perioder, det indeholder.
 
-## <a name="to-close-accounting-periods"></a>Sådan afsluttes regnskabsperioder
+## Sådan afsluttes regnskabsperioder
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Regnskabsperioder**, og vælg derefter det relaterede link.
 2. På siden **Regnskabsperioder** skal du vælge handlingen **Afslut år**.
@@ -38,7 +32,7 @@ Selvom et regnskabsår er afsluttet, kan du stadig bogføre finansposter i det. 
 
 Når et regnskabsår er afsluttet, skal du lukke resultatopgørelseskontiene og overføre årets resultat til resultatkontoen i balancen. Du kan gentage dette, hver gang du bogfører i det afsluttede regnskabsår.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Afslutningregnskab](year-close-books.md)  
 [Bogføre årsafslutningsposten](year-how-post-year-end-close-entry.md)  

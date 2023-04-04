@@ -1,23 +1,18 @@
 ---
 title: Udforske og navigere på sider pr. rolle
-description: Du kan få vist en oversigt over alle de forretningsfunktioner, der er tilgængelige for din rolle, og for andre roller med Rollestifinder.
+description: 'Du kan få vist en oversigt over alle de forretningsfunktioner, der er tilgængelige for din rolle, og for andre roller med Rollestifinder.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: role explorer, find features, navigate
-ms.search.form: RoleExplorer, 9020, 9022, 9027, 9024
+ms.search.keywords: 'role explorer, find features, navigate'
+ms.search.form: 'RoleExplorer, 9020, 9022, 9027, 9024'
 ms.date: 08/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7181579da0f84d0ebdea8c546c7815004a18a40d
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655801"
 ---
-# <a name="finding-pages-with-the-role-explorer"></a>Søge efter sider med Rollestifinder
+
+# Søge efter sider med Rollestifinder
 
 Du kan få vist en oversigt over alle de forretningsfunktioner, der er tilgængelige for din rolle, og for andre roller, hvis du går et trin videre. I følgende dokumentation henvises der til denne funktionsoversigt som *Rollestifinder*.
 
@@ -25,16 +20,16 @@ Hvert element i Rollestifinder er en handling, der åbner en side. Derfor kan du
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="open-the-role-explorer"></a>Åbne rollestifinder
+## Åbne rollestifinder
 
 Du kan åbne Rollestifinder fra rollecenteret og alle listesider og fra vinduet **Fortæl mig**.
 
-- I dit rolle Center eller på en listeside vælges ![Menuknappen.](media/ui_menu_button.png "Menuknap") til højre for navigationslinjen, eller tryk på Shift + F12.
+- I dit rolle Center eller på en listeside vælges ![Menuknappen.](media/ui_menu_button.png "Menuknap") til højre for navigationslinjen, eller vælg på <kbd>Shift</kbd>+<kbd>F12</kbd>.
 - I vinduet **Fortæl mig** skal du vælge handlingen **udforskning** nederst.
 
 Når du åbner rollecenteret første gang, vises der links til de fleste funktioner, der er tilgængelige for din rolle.
 
-## <a name="navigate-features"></a>Navigeringsfunktioner
+## Navigeringsfunktioner
 
 De handlinger, der åbner sider, er organiseret under noder, der er navngivet efter funktionerne eller funktionalitetsområderne. Hver node kan skjules eller udvides individuelt, og du kan skjule/udvide alle noder sammen.
 
@@ -42,11 +37,11 @@ De handlinger, der åbner sider, er organiseret under noder, der er navngivet ef
 - Hvis du vil udvide/minimere alle noder på øverste niveau på siden, men lade undernoderne være, skal du vælge **...** øverst og derefter vælge **Udvid** eller **Skjul**.
 - Hvis du vil udvide/minimere alle noder på øverste niveau og under-noder, skal du vælge **...** øverst og derefter vælge **Udvid alle** eller **Skjul alle**.
 
-## <a name="search-for-features"></a>Søge efter funktioner
+## Søge efter funktioner
 
 Hvis du hurtigt vil finde funktioner, skal du vælge **Søg** og derefter skrive et ord eller en sætning til den funktion, som du forsøger at finde. Den tilsvarende tekst vil derfor blive fremhævet i rollecenteret. Hvis en funktion er skjult fra Vis i skjult node, er den skjulte node markeret med en prik. 
 
-## <a name="explore-other-roles"></a>Udforsk andre roller
+## Udforsk andre roller
 
 Hvis du vil udforske andre roller end din egen, skal du vælge **Gennemse flere roller**. Rollecenteret viser hver rolle under sin egen overskrift med hyperlinks til de tilhørende funktioner. Du kan derefter navigere og finde funktioner på samme måde, som når du udforsker din rolle.
 
@@ -85,17 +80,17 @@ Choose the **Explore more roles** action at the top of the role explorer to get 
 > Only Role Center actions for profiles where the **Show in Role Explorer** check box is selected will appear on the extended version of the role explorer (shown with the **Explore more roles** action). For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 -->
 
-## <a name="expand-and-collapse-nodes-on-the-role-explorer"></a>Udvide/skjule noder i Rollestifinder
+## Udvide/skjule noder i Rollestifinder
 
 De handlinger, der åbner sider, er organiseret under noder, der er navngivet efter funktionerne eller funktionalitetsområderne. Hver node kan skjules eller udvides individuelt, og du kan skjule/udvide alle noder sammen.
 
 - Hvis du vil udvide/skjule en node, skal du vælge noden. Dette gælder for noder på øverste niveau og underordnede noder.
 - Hvis du vil udvide/skjule alle noder på øverste niveau på siden, skal du vælge handlingen **Vis** eller **Skjul** i øverste højre hjørne.
 - Benyt en af følgende fremgangsmåder for at udvide/minimere alle noder på øverste niveau og alle underordnede noder under den:
-  - Tryk på Ctrl + Skift-tasterne, mens du vælger handlingen **Udvid** eller **Skjul** i øverste højre hjørne.
+  - Vælg <kbd>Ctrl</kbd>+<kbd>Skift</kbd>-tasterne, mens du vælger handlingen **Udvid** eller **Skjul** i øverste højre hjørne.
   - Vælg **...** i øverste højre hjørne, og vælg derefter handlingen **Udvid alle** eller **Skjul alle**.
 
-## <a name="see-also"></a>Se også
+## Se også
 [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)  
 [Administrere profiler](admin-users-profiles-roles.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

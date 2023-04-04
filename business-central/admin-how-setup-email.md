@@ -1,23 +1,18 @@
 ---
 title: Konfigurere mail i Business Central (indeholder video)
-description: Beskriver, hvordan e-mail-konti sluttes til Business Central, så du kan sende udgående meddelelser uden at skulle åbne en anden app.
+description: 'Beskriver, hvordan e-mail-konti sluttes til Business Central, så du kan sende udgående meddelelser uden at skulle åbne en anden app.'
 author: brentholtorf
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, email, Office 365, connector
-ms.search.form: 1805, 9813, 9814, 1262, 1263
+ms.search.keywords: 'SMTP, email, Office 365, connector'
+ms.search.form: '1805, 9813, 9814, 1262, 1263'
 ms.date: 11/22/2022
 ms.author: bholtorf
-ms.openlocfilehash: 20246e01fab861a3d4af7d6a1778531f17e97987
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822431"
 ---
-# <a name="set-up-email"></a>Konfigurer mail
+
+# Konfigurer mail
 
 Personer i virksomheder sender oplysninger og dokumenter, f.eks. salgs-og købsordrer og fakturaer, pr. e-mail hver dag. Administratorer kan nemmere oprette forbindelse mellem en eller flere e-mail-konti [!INCLUDE[prod_short](includes/prod_short.md)], så du kan sende dokumenter uden at skulle åbne en e-mail-app. Du kan skrive hver enkelt meddelelse individuelt med grundlæggende formateringsværktøjer, f.eks. skrifttyper, typografier, farver osv., og føje vedhæftede filer til op til 100 MB. Administratorer kan desuden rapportlayout lade administratorer omfatte nøgleoplysninger fra dokumenter. Flere oplysninger i [Afsende dokumenter med e-mail](ui-how-send-documents-email.md).
 
@@ -28,14 +23,14 @@ E-mailfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)] er kun til u
 >
 > Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, skal du oprette en app-registrering til i Azure-portalen, før du kan konfigurere mail [!INCLUDE[prod_short](includes/prod_short.md)]. App-registreringen gør det muligt [!INCLUDE[prod_short](includes/prod_short.md)] at godkende og godkende din e-mail-udbyder. Du kan finde flere oplysninger i [Opsætning af e-mail til Business Central lokalt](admin-how-setup-email.md#setting-up-email-for-business-central-on-premises). I [!INCLUDE[prod_short](includes/prod_short.md)] online håndteres dette for dig.
 
-## <a name="requirements"></a>Krav
+## Krav
 
 Der er et par krav til opsætning og brug af e-mail-funktioner.
 
 * Hvis du vil konfigurere mail, skal du have tilladelsen **EMAIL-OPSÆTNING** indstillet. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).
 * Alle, der skal bruge e-mail-funktionerne, skal være en fuldt licenseret [!INCLUDE [prod_short](includes/prod_short.md)]. Uddelegerede administratorer og gæstebrugere kan f. eks. ikke bruge lejerens mailkonto.
 
-## <a name="adding-email-accounts"></a>Tilføje e-mailkonti
+## Tilføje e-mailkonti
 
 Du kan tilføje e-mailkonti via udvidelser, der gør det muligt at oprette konti fra forskellige providere [!INCLUDE[prod_short](includes/prod_short.md)]. Med standard filtyper kan du bruge konti fra Microsoft Exchange Online. Andre udvidelser, som giver dig mulighed for at oprette forbindelse mellem konti fra andre leverandører, f. eks. Gmail, er muligvis tilgængelige.
 
@@ -45,7 +40,7 @@ I følgende tabel beskrives de e-mail-udvidelser, der som standard er tilgængel
 
 |Udvidelse  |Beskrivlse  |Eksempler på, hvornår du skal bruge  |
 |---------|---------|---------|
-|**Microsoft 365-connector**|Alle sender mails fra en delt postkasse i Exchange Online.|Når alle meddelelser kommer fra samme afdeling, sender salgsorganisationen f.eks. meddelelser fra en sales@cronus.com konto. Dette kræver, at du opretter en delt postkasse i Microsoft 365 Administration. Du kan finde flere oplysninger i [Delte postkasser](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
+|**Microsoft 365-connector**|Alle sender mails fra en delt postkasse i Exchange Online.|Når alle meddelelser kommer fra samme afdeling, sender salgsorganisationen f.eks. meddelelser fra en sales@cronus.com-konto. Dette kræver, at du opretter en delt postkasse i Microsoft 365 Administration. Du kan finde flere oplysninger i [Delte postkasser](/Exchange/collaboration/shared-mailboxes/shared-mailboxes).|
 |**Aktuel brugerforbindelse**|Alle sender mail fra den konto, som de bruges til at logge på [!INCLUDE[prod_short](includes/prod_short.md)].|Tillad kommunikation fra individuelle konti.|
 |**SMTP Connector**|Brug SMTP-protokollen til at sende mails.|Tillad kommunikation via din SMTP-mailserver. |
 
@@ -56,7 +51,7 @@ I følgende tabel beskrives de e-mail-udvidelser, der som standard er tilgængel
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
-## <a name="using-smtp"></a>Brug af SMTP
+## Brug af SMTP
 
 Hvis du vil bruge SMTP-protokollen til at sende e-mails fra [!INCLUDE[prod_short](includes/prod_short.md)], kan du bruge SMTP-forbindelses udvidelsen. Når du opretter en konto, der bruger SMTP, er **Afsendertype** et vigtigt felt. Hvis du vælger en **bestemt bruger**, sendes der e-mails med navnet og andre oplysninger fra den konto, du opretter. Men hvis du vælger **Aktuel bruger**, sendes e-mails fra den e-mail-konto, der er angivet for hver enkeltbrugerkonto. Den aktuelle bruger svarer til funktionen Send som. Du kan finde flere oplysninger i [Brug en erstatningsafsenderadresse på udgående mailmeddelelser](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
@@ -65,7 +60,7 @@ Hvis du vil bruge SMTP-protokollen til at sende e-mails fra [!INCLUDE[prod_short
 >
 > Exchange Online fraråder brug af basisgodkendelse til SMPT. Lejere, der aktuelt benytter SMTP-godkendelse, påvirkes ikke af denne ændring. Det anbefales dog på det kraftigste, at du bruger den nyeste version af [!INCLUDE [prod_short](includes/prod_short.md)] og konfigurerer OAuth 2,0-godkendelse for SMTP. Vi tilføjer ikke certifikatbaseret godkendelse for tidligere versioner af [!INCLUDE [prod_short](includes/prod_short.md)], f. eks. version 14. Hvis du ikke kan konfigurere OAuth 2,0-godkendelse, opfordrer vi dig til at udforske tredjeparts alternativer, hvis du vil bruge SMTP-mail i tidligere versioner.
 
-## <a name="add-email-accounts"></a>Tilføj e-mailkonti
+## Tilføj e-mailkonti
 
 **Installationsvejledningen til opsætning af e-mail**-support kan hjælpe dig med at komme hurtigt i gang med e-mails.
 
@@ -81,7 +76,7 @@ Hvis du vil bruge SMTP-protokollen til at sende e-mails fra [!INCLUDE[prod_short
 > If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Microsoft 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 
 is this still true?-->
-## <a name="assign-email-scenarios-to-email-accounts"></a>Tildel e-mailscenarier til e-mailkonti
+## Tildel e-mailscenarier til e-mailkonti
 
 E-mail-scenarier er processer, der involverer afsendelse af et dokument. En salgs-eller købsordre eller en notifikation, f. eks. en invitation til en ekstern bogholder. Bestemte e-mail-konti kan anvendes til bestemte scenarier. Du kan f.eks. angive, at alle brugere altid skal sende salgsdokumenter fra én konto, købsdokumenter fra en anden konto, et lagersted eller et produktions dokument fra en tredje konto. Du kan tildele, gentildele og fjerne scenarier efter behov. Et scenarie kan kun tildeles én e-mail-konto ad gangen. Standard-mailkontoen bruges til alle scenarier, der ikke er tildelt til en konto.
 
@@ -100,7 +95,7 @@ På siden **Tildeling af mailscenarie** kan du vælge handlingen **Angiv vedhæf
 
 -->
 
-## <a name="set-up-view-policies"></a>Konfigurer visningspolitikker
+## Konfigurer visningspolitikker
 
 Du kan styre de e-mails, som en bruger kan få adgang til på siderne i e-mail-Udbakke og sendte mails.
 
@@ -114,7 +109,7 @@ Vælg en bruger på listen over **Politikker for visning af brugermail**, og væ
 > [!NOTE]
 > Hvis du lader feltet **bruger-ID** være tomt og derefter vælger handlingen **e-mail-visningspolitik** , gælder den politik, du angiver for alle brugere.
 
-## <a name="specify-how-many-messages-an-account-can-send-per-minute"></a>Angiv, hvor mange meddelelser en konto kan sende pr. minut
+## Angiv, hvor mange meddelelser en konto kan sende pr. minut
 
 Nogle e-mailudbydere begrænser antallet af e-mailmeddelelser, som en mailkonto kan sende på én gang eller inden for et bestemt tidsrum, eller begge dele. Kendt som *e-mail-begrænsning*, og internetudbydere styrer trafikken på deres servere og forhindrer spam. Hvis en e-mailkonto overskrider grænsen, blokerer internetudbyderen muligvis meddelelserne. Hvis du vil sikre dig, at det antal meddelelser, du sender fra [!INCLUDE [prod_short](includes/prod_short.md)], overholder din internetudbyders grænse, skal du angive grænsen for hver mailkonto.
 
@@ -125,11 +120,9 @@ Der er to måder at angive grænsen på:
 * Når du bruger opsætningsvejledningen til opsætning af e-mailsupport til at oprette en ny konto, skal du angive grænsen i feltet **hastighedsgrænse pr. minut**.
 * I forbindelse med eksisterende e-mailkonti skal du angive grænsen i feltet **e-mailinterval** på kontoen.
 
+## Konfigurere genanvendelige e-mailtekster og -layouts
 
-
-## <a name="set-up-reusable-email-texts-and-layouts"></a>Konfigurere genanvendelige e-mailtekster og -layouts
-
-Du kan bruge rapporter til at medtage nøgleoplysninger fra salgs-, købs- og servicedokumenter i tekst til mails. Denne procedure beskriver, hvordan du opretter rapporten **Salg-faktura** for bogførte salgsfakturaer, men processen svarer til andre rapporter.
+Du kan bruge rapporter til at medtage nøgleoplysninger fra salgs-, købs- og servicedokumenter i tekst til mails. Rapportlayout definerer typografien og indholdet af teksten i e-mailen. Dette omfatter f.eks. også tekst til indhold som en hilsen eller vejledning, der står foran dokumentoplysningerne. Denne procedure beskriver, hvordan du opretter rapporten **Salg-faktura** for bogførte salgsfakturaer, men processen svarer til andre rapporter.
 
 > [!NOTE]
 > Hvis du vil bruge layoutet til at oprette indhold til e-mailmeddelelser, skal du bruge Word-filtypen til dit layout.
@@ -139,15 +132,15 @@ Du kan bruge rapporter til at medtage nøgleoplysninger fra salgs-, købs- og se
 3. På en ny linje i feltet **Rapport-ID** skal du vælge f.eks. standardrapport 1306.
 4. Markér afkrydsningsfeltet **Brug til brødtekst i mail**.
 5. Vælg feltet **Layoutbeskrivelse for brødtekst i mail**, og vælg derefter et layout på rullelisten.
-
-    Rapportlayout definerer typografien og indholdet af teksten i e-mailen. Dette omfatter f.eks. også tekst til indhold som en hilsen eller vejledning, der står foran dokumentoplysningerne. Hvis din organisation har mange layout, kan du se alle tilgængelige rapportlayout, hvis du vælger knappen **Vælg fra komplet liste**.
-6. For at få vist eller redigere layoutet, som teksten i mailen er baseret på, skal du vælge layoutet på siden **Brugerdefinerede rapportlayouts** og derefter vælge handlingen **Opdater layouts**.
+6. For at få vist eller redigere det layout, som teksten i mailen er baseret på, skal du vælge layoutet på siden **Brugerdefinerede rapportlayouts** og derefter vælge handlingen **Eksporter layout**. Hvis du tilpasser layoutet, skal du bruge handlingen **Importér layout** til at overføre det nye layout.
+    > [!NOTE]
+    > Hvis du vil tilpasse et standardrapport layout, f.eks. 1306, skal du oprette en kopi af rapporten. [!INCLUDE [prod_short](includes/prod_short.md)] kan hjælpe dig med at oprette en kopi, når du importerer et brugerdefineret layout for en standardrapport. Navnet på det nye brugerdefinerede rapportlayout indledes med "Kopi af".
 7. Hvis du vil lade debitorer bruge en betalingstjeneste, f. eks. PayPal, skal du konfigurere servicen. Derefter indsættes PayPal-oplysningerne og linket i e-mail-teksten. Du kan finde flere oplysninger i [Aktivere debitorbetalinger via PayPal](sales-how-enable-payment-service-extensions.md).
 8. Vælg knappen **OK**.
 
 Nu, når du vælger, f.eks. **Send**-handlingen på siden **Bogført salgsfaktura**, indeholder brødtekst i mail dokumentoplysningerne i rapporten 1306 med foranstående standardtekst, hvor typografierne er i overensstemmelse med det rapportlayout, som du valgte under trin 5.
 
-## <a name="use-a-substitute-sender-address-on-outbound-email-messages"></a>Brug en erstatningsafsenderadresse på udgående mailmeddelelser
+## Brug en erstatningsafsenderadresse på udgående mailmeddelelser
 
 Hvis du bruger SMTP Connector-udvidelse, kan du bruge funktionerne **Send som** eller **Send på vegne af** fra Microsoft Exchange for at ændre afsenderadressen i udgående meddelelser. [!INCLUDE[prod_short](includes/prod_short.md)] bruger SMTP-kontoen til at godkende til Exchange, men den vil enten erstatte afsenderadressen med den, du angiver, eller ændre den med "på vegne af."
 
@@ -157,7 +150,7 @@ Alternativt kan du vælge **den aktuelle bruger**, så andre kan sende meddelels
 
 Følgende er eksempler på, hvordan Send som og Send på vegne af bruges i [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-* Du ønsker måske, at de købs- eller salgsordrer, du sender til kreditorer og debitorer, vises som værende fra en _noreply@yourcompanyname.com_-adresse.
+* Du ønsker måske, at de købs- eller salgsordrer, du sender til kreditorer og debitorer, vises som værende fra en _noreply@yourcompanyname.com_ -adresse.
 * Når arbejdsprocessen sender en anmodning om godkendelse pr. mail med anmoderens mailadresse.
 
 > [!Note]
@@ -182,11 +175,11 @@ Følgende er eksempler på, hvordan Send som og Send på vegne af bruges i [!INC
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] will determine which address to display in the following order: <br><br> 1. The address specified in the **E-Mail** field on the **Approval User Setup** page for messages in a workflow. <br> 2. The address specified in the **Send As** field in the **SMTP Email Setup** page. <br> 3. The address specified in the **User ID** field in the **SMTP Email Setup** page. -->
 
-## <a name="set-up-document-sending-profiles"></a>Konfigurere dokumentafsendelsesprofiler
+## Konfigurere dokumentafsendelsesprofiler
 
 Du kan spare tid ved at oprette en foretrukken metode til afsendelse af salgsdokumenter for hver debitor. Hvis du gør det, behøver du ikke at vælge en afsender indstilling, f. eks. om du vil sende dokumentet via e-mail eller som et elektronisk dokument, hver gang du sender et dokument. Du kan finde flere oplysninger i [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).
 
-## <a name="optional-set-up-email-logging-in-exchange-online"></a>Eventuelt: Konfigurer maillogføring i Exchange Online
+## Eventuelt: Konfigurer maillogføring i Exchange Online
 
 Få mere ud af kommunikationen mellem sælgere og eksisterende eller potentielle kunder. Du kan spore e-mailudvekslinger og derefter ændre dem til dine leads. Flere oplysninger: [Spore udveksling af mails mellem sælgere og kontakter](marketing-set-up-email-logging.md).  
 <!--
@@ -194,13 +187,18 @@ Få mere ud af kommunikationen mellem sælgere og eksisterende eller potentielle
 
 Next, you connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  -->
 
-## <a name="setting-up-email-for-business-central-on-premises"></a>Konfigurere e-mail til Business Central lokalt
+## Konfigurere e-mail til Business Central lokalt
 
 [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan integreres med tjenester, der er baseret på Microsoft Azure. Du kan f.eks. bruge Cortana Intelligence til mere intelligente pengestrømme for at Power BI visualiserer din virksomhed og at Exchange Online sender e-mail. Integrationen med disse tjenester er baseret på en app-registrering i Azure Active Directory. App-registreringen leverer godkendelses-og autorisations tjenester til kommunikation. Hvis du vil bruge e-mail-funktionerne i [!INCLUDE[prod_short](includes/prod_short.md)] lokal adresse, skal du registrerer [!INCLUDE[prod_short](includes/prod_short.md)] som en app i Azure-portalen og derefter oprette forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)] App-registreringen. Følgende afsnit beskriver, hvordan.
 
-### <a name="create-an-app-registration-for-business-central-in-azure-portal"></a>Oprette en appregistrering til Business Central i Azure-portal
+### Oprette en appregistrering til Business Central i Azure-portal
 
-De trin, der skal registreres [!INCLUDE[prod_short](includes/prod_short.md)] i Azure-portalen, er beskrevet i [Registrer et program i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). De indstillinger, der er specifikke for e-mailegenskaberne, er de delegerede rettigheder, som du tildeler din app-registrering. I følgende tabel vises minimum tilladelserne.
+De trin, der skal registreres [!INCLUDE[prod_short](includes/prod_short.md)] i Azure-portalen, er beskrevet i [Registrer et program i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
+
+> [!NOTE]
+> Hvis du vil bruge mailfunktionerne, skal din appregistrering bruge en konfiguration med flere lejere.
+
+De indstillinger, der er specifikke for e-mailegenskaberne, er de delegerede rettigheder, som du tildeler din app-registrering. I følgende tabel vises minimum tilladelserne.
 
 |Navn på API / tilladelse  |Type  |Beskrivelse  |
 |---------|---------|---------|
@@ -230,7 +228,7 @@ Flere oplysninger om registrering af en app i [Hurtig start: registrere et progr
 > [!NOTE]
 Hvis du har problemer med at bruge den ældre SMTP-protokollen til at sende mail, efter at du har forbundet [!INCLUDE[prod_short](includes/prod_short.md)] med din app-registrering, kan det skyldes, at SMTP-godkendelse ikke er aktiveret for din lejer. Det anbefales, at du i stedet bruger mailforbindelser for Microsoft 365 og Aktuel bruger, fordi de bruger mail-API'er for Microsoft Graph. Hvis du skal bruge SMTP-protokollen, kan du dog aktivere SMTP-godkendelse. Du kan finde oplysninger i [Aktivere eller deaktivere godkendt SMTP-afsendelse for klient (SMTP-godkendelse) i Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
-### <a name="connect-prod_short-to-your-app-registration"></a>Forbinde [!INCLUDE[prod_short](includes/prod_short.md)] med din appregistrering
+### Forbinde [!INCLUDE[prod_short](includes/prod_short.md)] med din appregistrering
 
 Når du har registreret programmet i Azure-portalen i [!INCLUDE[prod_short](includes/prod_short.md)], skal du bruge **e-mail-programmets AAD-registrering** vejledning til registrering, der kan oprette forbindelse [!INCLUDE[prod_short](includes/prod_short.md)] til den.
 
@@ -263,9 +261,9 @@ Når du har registreret programmet i Azure-portalen i [!INCLUDE[prod_short](incl
 
 -->
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/set-up-email/)
+## Se relateret [Microsoft-træning](/training/modules/set-up-email/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Delte postkasser i Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

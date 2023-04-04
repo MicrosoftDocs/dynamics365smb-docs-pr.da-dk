@@ -98,7 +98,7 @@ Brug **Lagerpluk**-dokumenter til at plukke produktionskomponenter i forløbet t
 
     |Indstilling|Beskrivlse|
     |-|-|
-    |Maks. Antal af pluklinjer|Opretter plukdokumenter, der ikke har mere end det angivne antal linjer i hvert dokument.|
+    |Maks. Nej af pluklinjer|Opretter plukdokumenter, der ikke har mere end det angivne antal linjer i hvert dokument.|
     |Maks. antal plukkildedok.|Opretter plukdokumenter, der hver især ikke dækker mere end det angivne antal kildedokumenter.|
     |Tildelt bruger-id|Opretter plukdokumenter, der kun er til kladdelinjer, som er tildelt til den valgte lagermedarbejder.|
     |Sorteringsmåde for pluklinjer|Vælg mellem de tilgængelige indstillinger for at sortere linjer i det oprettede plukbilag.|

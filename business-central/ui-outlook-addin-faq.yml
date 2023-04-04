@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
-  title: Business Central Add-in for Outlook FAQ
-  description: See answers to frequently asked questions about using Business Central add-in for Outlook.
+  title: 'Business Central-tilføjelsesprogram til Outlook, ofte stillede spørgsmål'
+  description: Se svar på ofte stillede spørgsmål om brug af Business Central-tilføjelsesprogram i Outlook.
   author: jswymer
   ms.topic: faq
   ms.devlang: na
@@ -10,30 +10,30 @@ metadata:
   ms.search.keywords: 'phone, tablet'
   ms.date: 04/27/2022
   ms.author: jswymer
-title: Business Central Add-in for Outlook FAQ
+title: 'Business Central-tilføjelsesprogram til Outlook, ofte stillede spørgsmål'
 summary: |
-  This article answers questions that users often ask about the Business Central add-in for Outlook.   
+  I dette emne besvares spørgsmål, som brugere ofte stiller om Business Central-tilføjelsesprogram til Outlook.   
 sections:
-  - name: Ignored
+  - name: Ignoreret
     questions:
       - question: |
-          How do I change the environment my add-in is pointing to?  
+          Hvordan kan jeg ændre miljøet mit tilføjelses peger på?  
         answer: |
-          The environment URL is configured in the add-in when the add-in is installed (specifically, in the add-in's manifest file). If you want the add-in to point to a different environment, open the desired Business Central environment and deploy the add-in again, for example, by running the <bpt id="p1">**</bpt>Get the Outlook Add-in<ept id="p1">**</ept> assisted setup. This action  will redeploy the add-in with updated environment URLs. 
+          URL-adressen til miljøet konfigureres i tilføjelsesprogrammet, når det installeres (specifikt i tilføjelsesprogrammets manifest-fil). Hvis tilføjelsesprogrammet skal pege på et andet miljø, skal du åbne det ønskede Business Central-miljø og installere tilføjelsesprogrammet igen, f. eks. ved at køre funktionen **Hent Outlook**-tilføjelsesprogrammet. Denne handling vil geninstallere tilføjelsesprogrammet med opdaterede miljø-URL-adresser. 
 
           > [!NOTE]
-          > It might take some time before the change takes effect.
+          > Det kan tage noget tid, før ændringen træder i kraft.
       - question: |
-          Can I customize the add-in to connect to multiple environments?
+          Kan jeg tilpasse tilføjelsesprogrammet til at oprette forbindelse til flere miljøer?
         answer: |
-          Yes. As an administrator, developer, or partner, you can modify and build your own add-in manifests. One way is to download the Contact Insights manifest from each environment that the users want to connect to. Then, modify the <ph id="ph1">`&lt;Id&gt;`</ph> and <ph id="ph2">`&lt;DisplayName&gt;`</ph> tags to allow multiple versions of the add-in to be installed. These modifications will let the user have multiple Business Central add-ins installed, each pointing to their own environment.
+          Ja. Som administrator, udvikler eller partner kan du ændre og opbygge dine egne manifester til tilføjelsesprogrammet. Du kan også hente kontaktpersonens indsigtede manifest fra hvert miljø, som brugerne vil oprette forbindelse til. Rediger derefter koderne `<Id>` og `<DisplayName>`, så de tillader installation af flere versioner af tilføjelsesprogrammet. Disse ændringer giver brugeren mulighed for at installere flere Business Central-tilføjelsesprogrammer, som peger på deres eget miljø.
 
-          ![Multiple Business Central add-ins for Outlook.](media/outlook-multiple-addins.png) 
+          ![Flere Business Central-tilføjelsesprogrammer til Outlook.](media/outlook-multiple-addins.png) 
 additionalContent: |
 
-  ## See also
+  ## Se også
 
-  <bpt id="p1">[</bpt>Get the Business Central Add-in for Outlook<ept id="p1">](admin-outlook.md)</ept>  
-  <bpt id="p1">[</bpt>Use Business Central as your Business Inbox in Outlook<ept id="p1">](work-outlook-addin.md)</ept>  
+  [Få Business Central-tilføjelsesprogram til Outlook](admin-outlook.md)  
+  [Bruge Business Central som din virksomheds Indbakke i Outlook](work-outlook-addin.md)  
 
   [!INCLUDE[footer-include](includes/footer-banner.md)]

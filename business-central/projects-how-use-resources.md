@@ -8,7 +8,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'project management, capacity, staff'
 ms.search.form: '201,206, 207, 271, 493'
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Bruge ressourcer til sager
@@ -29,6 +29,8 @@ Du kan tildele ressourcer til sager ved at oprette sagsplanlægningslinjer for s
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagskladder**, og vælg derefter det relaterede link.
 2. Åbn en relevante sagskladde, og udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Når kladden er fuldført, skal du vælge handlingen **Bogfør**.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Sådan reguleres ressourcepriser
 

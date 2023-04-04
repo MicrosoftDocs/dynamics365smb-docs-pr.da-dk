@@ -1,23 +1,17 @@
 ---
-title: Forretningsfunktioner, der understøttes af Business Central
-description: Indeholder en funktionsoversigt over alle forretningsfunktioner og afdelinger, der understøttes af funktionalitetsområder som finans, lager og projektstyring.
+title: 'Forretningsfunktioner, der understøttes af Business Central'
+description: 'Indeholder en funktionsoversigt over alle forretningsfunktioner og afdelinger, der understøttes af funktionalitetsområder som finans, lager og projektstyring.'
 author: SorenGP
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 3e174ae2218dfe4b5b83a8a567deaba91987d2ea
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606798"
 ---
-# <a name="business-functionality"></a>Forretningsfunktioner
+# Forretningsfunktioner
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder funktioner til almindelige forretningsprocesser i små og mellemstore virksomheder inden for engroshandel og professionelle services. Mere komplekse processer, f.eks. montage, produktion, service og styret logistik, understøttes imidlertid også. [Få mere at vide om, hvordan du får en gratis prøveversion her](trial-signup.md).  
 
@@ -39,13 +33,13 @@ ms.locfileid: "9606798"
 |Planlægge den produktionsdrift, der kræves for at omdanne input til færdig.|[Skabelon](production-planning.md)|
 |Sammensætte salgbare varer i enkle trin for at oprette en ny vare, f.eks en pakke.|[Montagestyring](assembly-assemble-items.md)|
 |Definere produktionsressourcer og deres kapacitet, planlægge operationer, fjerne produktionskomponenter og gennemføre produktionsoperationer.|[Produktion](production-manage-manufacturing.md)|
-|Sørg for et effektivt flow af varer, der er modtaget og leveret.|[Logistik](warehouse-manage-warehouse.md)|
+|Sørg for et effektivt flow af varer, der er modtaget og leveret.|[Oversigt over logistik](design-details-warehouse-management.md)|
 |Planlæg serviceopkald og opret serviceordrer, og spor reservedele og forsyninger.|[Service Management](service-service.md)|
 |Konfigurer og brug arbejdsgange, der forbinder opgaver udført af forskellige brugere eller af systemet, f.eks. automatisk bogføring. Anmodning om og tildeling af tilladelse til at oprette eller bogføre dokumenter er typisk arbejdsgangstrin.|[Workflow](across-workflow.md)|
 |Lad brugerne udveksle data med eksterne kilder i daglige opgaver, f.eks. afsendelse eller modtagelse af elektroniske dokumenter, import og eksport af bankfiler og opdatering af valutakurser.|[Udveksle data elektronisk](across-data-exchange.md)|
 |Registrer eksterne dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)], herunder deres vedhæftede filer, opret derefter relaterede dokumenter manuelt, eller konverter automatisk filerne til elektroniske dokumenter.|[Indgående bilag](across-income-documents.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administration](admin-setup-and-administration.md)    
 [Udforske Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/)  

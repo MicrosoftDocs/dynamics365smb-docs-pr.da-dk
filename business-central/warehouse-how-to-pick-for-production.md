@@ -127,6 +127,8 @@ Der sker følgende under bogføringsprocessen:
 * Bogfør forbruget af de kildedokumentlinjer, der er blevet plukket.
 * Hvis lokationen anvender placeringer, oprettes der også lagerposter til bogføring af ændringer af placeringsantallet.
 
+[!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 ## Sådan registreres læg-på-lager-aktiviteten
 
 1. Åbn det dokument, der skal registreres bevægelser for, på siden **Flytning (lager)**.  

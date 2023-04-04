@@ -1,26 +1,20 @@
 ---
 title: Finde bogførte dokumenter uden indgående dokumenter
-description: Du kan søge efter finansposter for bogførte købs- og salgsdokumenter, der ikke har indgående elektroniske dokumenter, f.eks. importerede fakturaer.
+description: 'Du kan søge efter finansposter for bogførte købs- og salgsdokumenter, der ikke har indgående elektroniske dokumenter, f.eks. importerede fakturaer.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
+ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
 ms.date: 06/14/2022
 ms.author: edupont
-ms.openlocfilehash: 8b532ce1345b9df1ae98cdd98349d4fd4c5b27df
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535016"
 ---
-# <a name="find-posted-documents-without-incoming-document-records"></a>Finde bogførte dokumenter uden indgående bilagsposter
+# Finde bogførte dokumenter uden indgående bilagsposter
 
 Fra på siderne **Kontoplan** og **Finansposter** kan du bruge en søgefunktionen til at finde finansposter for bogførte og købs- og salgsbilag, som ikke har indgående bilagsposter og derefter knytte centralt til eksisterende poster eller oprette nye med vedhæftede bilagsfiler.
 
-## <a name="to-find-posted-documents-without-incoming-document-records"></a>Sådan findes bogførte bilag uden indgående bilagsposter
+## Sådan findes bogførte bilag uden indgående bilagsposter
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoplan**, og derefter vælge det relaterede link.
 2. Vælg en linje for en finanskonto, for hvis finansposter du vil se bogførte købs- og salgsbilag uden indgående bilagsposter, og vælg derefter handlingen **Bogførte bilag uden indgående bilag**.
@@ -29,7 +23,7 @@ Fra på siderne **Kontoplan** og **Finansposter** kan du bruge en søgefunktione
 
 Siden **Bogførte bilag uden indgående bilag** åbnes og viser bogførte købs- åbnes og salgsbilag uden indgående bilagsposter repræsenteret af finansposter på den finanskonto, som du åbnede siden for. Siden kan vise højst 1000 linjer. Som standard indeholder feltet **Datofilter** derfor et filter, der begrænser linjerne til poster med bogføringsdatoer fra begyndelsen af den aktuelle regnskabsperiode til arbejdsdatoen.
 
-## <a name="to-connect-found-documents-to-existing-incoming-document-records"></a>Sådan knyttes fundne bilag til eksisterende indgående bilagsposter
+## Sådan knyttes fundne bilag til eksisterende indgående bilagsposter
 
 1. På siden **Bogførte bilag uden indgående bilag** skal du vælge linjen for et bogført dokument, du vil knytte til en eksisterende indgående bilagspost og derefter vælge handlingen **Vælg indgående bilag**.
 2. Vælg den indgående bilagspost, som du vil knytte til det bogførte fundne bilag, på siden **Indgående bilag**, og vælg derefter **OK**.
@@ -37,9 +31,9 @@ Siden **Bogførte bilag uden indgående bilag** åbnes og viser bogførte købs-
 
 Hvis der ikke findes en relevant indgående bilagspost på siden **Indgående bilag** kan du oprette den. Du kan finde flere oplysninger i [Oprette indgående bilagsposter](across-how-create-income-document-records.md).
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprette indkommende bilagsposter](across-how-create-income-document-records.md)
 [Brug OCR til at omdanne PDF-og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md)

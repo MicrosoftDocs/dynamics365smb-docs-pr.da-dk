@@ -1,23 +1,17 @@
 ---
 title: Administrere anlægsaktiver (indeholder video)
-description: Få mere at vide om funktionerne for anlægsaktiver, og få et overblik over, hvordan du arbejder med og administrerer anlægsaktiver.
+description: 'Få mere at vide om funktionerne for anlægsaktiver, og få et overblik over, hvordan du arbejder med og administrerer anlægsaktiver.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: machinery, buildings
-ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
+ms.search.keywords: 'machinery, buildings'
+ms.search.form: '5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 5bd6ff8d27b17e413c418de64bea7ded8428e892
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529294"
 ---
-# <a name="managing-fixed-assets"></a>Administrere anlægsaktiver
+# Administrere anlægsaktiver
 
 I Anlæg i [!INCLUDE[prod_short](includes/prod_short.md)] får du et overblik over anlægsaktiverne, og her sikres korrekt periodisk afskrivning. Funktionen hjælper dig ligeledes med at holde styr på reparationsomkostningerne, administrere forsikringspolicer, bogføre anlægstransaktioner og generere forskellige rapporter og statistikker.
 
@@ -47,15 +41,15 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Bogføre salgstransaktioner, have vist salgsposter og bogføre delvist salg. |[Afhænde eller lade anlægsaktiver udgå](fa-how-dispose-retire.md) |
 | Administrere anlægsbudgetter, budgettere anskaffelsesomkostninger, salg af anlægsaktiver og afskrivning. |[Administrere budgetter for anlægsaktiver](fa-how-manage-budgets.md) |
 
-## <a name="video-overview"></a>Videooversigt
+## Videooversigt
 
 Følgende video giver en grundlæggende beskrivelse af anlægsaktiver.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/manage-fixed-assets-transactions/)
+## Se relateret [Microsoft-træning](/training/paths/manage-fixed-assets-transactions/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opsætning af Anlægsaktiver](fa-setup.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  

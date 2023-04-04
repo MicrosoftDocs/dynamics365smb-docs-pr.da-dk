@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: f1c6ead7a776d11ccc8917944c3752ec6ac43c66
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132650"
 ---
+
 På købsdokumenter og kladder kan du angive et bilagsnummer, der henviser til kreditorens nummereringssystem. Du kan bruge dette felt til at registrere det nummer, som kreditoren har tildelt ordren, fakturaen eller kreditnotaen. Du kan derefter bruge nummeret, hvis du har brug for at søge efter den bogførte kladdelinje ved hjælp af det eksterne bilagsnummer.
 
 Feltet **udv. doc. Obligatorisk** på opsætningssiden **Køb og kreditorstyring** angiver, om der skal angives et eksternt bilagsnummer i følgende situationer:

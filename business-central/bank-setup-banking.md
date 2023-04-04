@@ -1,23 +1,17 @@
 ---
 title: Oprette banktransaktioner
-description: Brug bankkontokort til at holde styr på dine bankkonti og konfigurere bankfeeds, f.eks. Yodlee, til at udveksle data.
+description: 'Brug bankkontokort til at holde styr på dine bankkonti og konfigurere bankfeeds, f.eks. Yodlee, til at udveksle data.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
+ms.search.keywords: 'Yodlee, feed, stream, data exchange, AMC, link'
 ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 95455b4100aa2628fe6f1e2eefdce8c8117f1166
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516391"
 ---
-# <a name="setting-up-banking"></a>Konfigurere banktransaktioner
+# Konfigurere banktransaktioner
 
 Når du bruger bankkontokort kan du holde styr på dine bankkonti i alle valutaer. Når du har oprettet bankkontiene, får du også mulighed for at udskrive check.
 
@@ -31,7 +25,7 @@ Hvis du vil bruge elektroniske tjenester til at indlæse bankkontoudtog og udlæ
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  

@@ -1,30 +1,24 @@
 ---
 title: Konfigurere priser og rabatter
-description: Beskriver, hvordan du definerer standard- specialpris- og rabataftaler for salg og køb.
+description: 'Beskriver, hvordan du definerer standard- specialpris- og rabataftaler for salg og køb.'
 author: brentholtorf
 ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchase, invoice
-ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
+ms.search.keywords: 'price, pricing, discount, discounting, rebate, sale, purchase, invoice'
+ms.search.form: '459, 460, 7001, 7011, 7015, 7016, 7017, 7018'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5afe559e9f3e741db5c75b5cf3026caf50a1ce97
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530698"
 ---
-# <a name="set-up-prices-and-discounts"></a>Konfigurere priser og rabatter
+# Konfigurere priser og rabatter
 
 > [!NOTE]
 > I 2020 udgivelsesbølge 2 har vi udgivet strømlinede processer til opsætning og administration af priser og rabatter. Hvis du er ny kunde, der bruger den version, bruger du den nye oplevelse. Hvis du allerede bruger den nye oplevelse, afhænger det af, om din administrator har aktiveret funktionsopdateringen **Ny vareprissætningsopdatering** på siden **Funktionsadministration**. Du kan finde flere oplysninger i [Aktivere Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Pris-og rabatstrategier for køb og salg af varer og tjenester er grundlæggende værktøjer til virksomheder med succes. Når du har defineret de varer og servicer, som din virksomhed køber og sælger, kan du definere, hvad du betaler eller debiterer den, og beløbene vil automatisk blive føjet til salgs- og købsdokumenter. 
 
-## <a name="setting-up-prices-and-discounts"></a>Konfigurere priser og rabatter
+## Konfigurere priser og rabatter
 
 Før du opretter prislister, skal du definere dine pris-og rabat strategier på siderne **Salgsopsætning** og **Købsopsætning**.
 
@@ -40,21 +34,21 @@ Da salgspriser og salgslinjerabatter er baseret på en kombination af vare og de
 > [!TIP]  
 > Hvis du ikke ønsker, at en vare nogensinde skal sælges med rabat, kan du lade rabatfelterne på varekortet være tomme, og medtag ikke varen i nogen opsætningen af linjerabat.
 
-## <a name="about-price-lists"></a>Om prislister
+## Om prislister
 
 Prislister er fleksible og giver dig mulighed for at angive den samarbejdspartner eller-aktivitet, som de gælder for. Du kan f.eks. oprette en prisliste, der gælder for alle kreditorer og debitorer, eller tilbyde special priser eller rabatter for hver forretningspartner, eventuelt baseret på et minimumantal på købs- eller salgsordrer eller en bestemt kombination af debitor, vare, minimumsantal, enhed eller tidsperioder. De priser og rabatter, du definerer, anvendes automatisk på købs- og salgsdokumenter. 
 
-## <a name="set-up-prices"></a>Oprette priser
+## Oprette priser
 
 Disse trin varierer, afhængigt af, om din administrator har slået funktionsopdateringen **Ny vareprissætningsopdatering** til. 
 
-#### <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience)  
+#### [Aktuel oplevelse](#tab/current-experience)  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
 2. Vælg debitor, og vælg derefter handlingen **Priser**.
 3. Udfyld felterne på linjen efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Udfyld en linje for hver kombination, som yder en særlig salgspris til kunden.
 
-#### <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience)  
+#### [Ny oplevelse](#tab/new-experience)  
 
 Du kan tilføje varer og tjenester manuelt for hver linje, eller du kan bruge handlingen **Foreslå linjer** til at oprette nye priser for udvalgte varer, varerabatgrupper, ressourcer og andre produkttyper. Hvis du vælger **Foreslå linjer**, på siden **Prislinjer - Opret ny**, kan du bruge filtre til at vælge de varer eller tjenester, der skal medtages på prislisten. Du kan også angive, om der skal tages højde for et minimumantal ved beregning af priser, den reguleringsfaktor, der skal gælde for nye prisliste linjer, og den afrundingsmetode, der skal anvendes for priser. 
 
@@ -74,11 +68,11 @@ Hvis du vil have vist prislister og priser, der gælder for bestemte debitorer e
 
 ---
 
-## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Sådan konfigureres salgslinjerabatter for en debitor
+## Sådan konfigureres salgslinjerabatter for en debitor
 
 Disse trin varierer, afhængigt af, om din administrator har slået funktionsopdateringen **Ny vareprissætningsopdatering** til. 
 
-#### <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience/)  
+#### [Aktuel oplevelse](#tab/current-experience/)  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
 2. Åbn det relevante debitorkort, og vælg derefter handlingen **Linjerabatter**.
@@ -89,7 +83,7 @@ Disse trin varierer, afhængigt af, om din administrator har slået funktionsopd
 >
 > Hvis du vil oprette priser eller linjerabatter for alle debitorer, en debitorprisgruppe eller en kampagne, skal du åbne siderne fra et varekort. Du kan alternativt bruge siden **Salgspriskladde** til salgspriser. Du kan finde flere oplysninger [Sådan masseopdateres varepriser](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
-#### <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience/)  
+#### [Ny oplevelse](#tab/new-experience/)  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
 2. Vælg debitor, og vælg derefter handlingen **Salgsprislister**.
@@ -104,7 +98,7 @@ Disse trin varierer, afhængigt af, om din administrator har slået funktionsopd
 
 ---
 
-## <a name="work-with-invoice-discounts-and-service-charges"></a>Arbejde med fakturarabatter og servicegebyrer
+## Arbejde med fakturarabatter og servicegebyrer
 
 Når du bruger fakturarabatter, bestemmer fakturabeløbet størrelsen af rabatten. På siden **Fakturarabatter** kan du også tilføje et servicegebyr til fakturaer over en vis størrelse.  <!--The Invoice Discounts page is hard to find.-->
 
@@ -121,7 +115,7 @@ Du kan også knytte et servicegebyr til et bestemt fakturabeløb i tillæg til e
 > [!TIP]  
 > Før du begynder at indtaste disse oplysninger, er det en god idé at forberede rabatstrukturen på forhånd, så det er nemmere at se, hvilke kunder der skal have forbindelse til den samme fakturarabatside. Du finder flere oplysninger om rabatter under [Konfigurere rabatter for dine kunder](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
-### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Sådan oprettes en fakturarabat for en debitor
+### Sådan oprettes en fakturarabat for en debitor
 
 Når du har besluttet, hvilke kunder der skal have fakturarabatter, skal du angive fakturarabatkoden på debitorkortene og definere betingelserne for hver kode.
 
@@ -142,11 +136,11 @@ Fortsæt med at angive nye fakturarabatbetingelser for salg.
 
 Fakturarabatten er nu oprettet og knyttet til den pågældende debitor. Når du vælger debitorkoden i feltet **Fakturarabatkode** på andre debitorkort, knyttes samme fakturarabat til den pågældende debitor.
 
-## <a name="to-copy-sales-prices"></a>Sådan kopieres salgspriser
+## Sådan kopieres salgspriser
 
 Disse trin varierer, afhængigt af, om din administrator har slået funktionsopdateringen **Ny vareprissætningsopdatering** til. 
 
-#### <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience/)  
+#### [Aktuel oplevelse](#tab/current-experience/)  
 
 Hvis du vil kopiere en salgspris, f.eks. en individuel kundes salgspriser til brug for en debitorprisgruppe, skal du køre **Forslå salgspris på kladde.** batch-jobbet på siden **Salgspriskladde**.  
 
@@ -160,7 +154,7 @@ Hvis du vil kopiere en salgspris, f.eks. en individuel kundes salgspriser til br
    > [!NOTE]  
    > Kørslen betyder kun, at der udformes forslag, ikke, at ændringerne bliver gennemført. Hvis du er tilfreds med forslagene, og du vil implementere dem, dvs. indsætte dem på siden **Salgspriser**, skal du vælge handlingen **Implementer prisændringer** på siden **Salgspriskladde**.
 
-#### <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience/)  
+#### [Ny oplevelse](#tab/new-experience/)  
 
 Status for prislistelinjen skal være **Kladde**. 
 
@@ -173,11 +167,11 @@ Status for prislistelinjen skal være **Kladde**.
   
 ---
 
-## <a name="to-bulk-update-item-prices"></a>Sådan masseopdateres varepriser
+## Sådan masseopdateres varepriser
 
 Disse trin varierer, afhængigt af, om din administrator har slået funktionsopdateringen **Ny vareprissætningsopdatering** til. 
 
-#### <a name="current-experience"></a>[Aktuel oplevelse](#tab/current-experience/)
+#### [Aktuel oplevelse](#tab/current-experience/)
 
 Hvis du vil masseopdatere varepriser, f.eks. forøge alle varepriser med en procentsats, skal du køre **Foreslå varepris på kladde.** kørsel. Du kan finde et link til kørslen på siden **Salgspriskladde**.  
 
@@ -192,7 +186,7 @@ Hvis du vil masseopdatere varepriser, f.eks. forøge alle varepriser med en proc
 > [!NOTE]
 > Kørslen betyder kun, at der udformes forslag, ikke, at ændringerne bliver gennemført. Hvis du er tilfreds med forslagene, og du vil implementere dem, dvs. indsætte dem i tabellen **Salgspris**, kan du bruge kørslen **Implementer prisændring**, der findes under fanen **Handlinger**, i gruppen **Funktioner** på siden **Salgspriskladde**.
 
-#### <a name="new-experience"></a>[Ny oplevelse](#tab/new-experience/)
+#### [Ny oplevelse](#tab/new-experience/)
 
 Hvis du vil opdatere priser for flere varer, skal du oprette en ny prisliste og derefter kopiere linjerne fra en eksisterende prisliste. Når du kopierer linjer, kan du angive, hvad der skal kopieres, og du kan angive et heltal eller decimaltal i feltet **Ganges med** for at øge eller reducere priserne. Status for prisliste skal være **Kladde**. Hvis det er nødvendigt, kan du deaktivere den gamle prisliste.
 
@@ -201,13 +195,13 @@ Hvis du vil opdatere priser for flere varer, skal du oprette en ny prisliste og 
 
 ---
 
-## <a name="calculating-the-best-price"></a>Beregne bedste pris
+## Beregne bedste pris
 
 Når du har registreret særpriser og linjerabatter for salg og køb, sørger [!INCLUDE[d365fin](includes/d365fin_md.md)] for, at dine avance på varehandel altid er optimal ved automatisk at beregne den bedste pris på salgs- og købsdokumenter og på sags- og varekladdelinjer. Du kan finde flere oplysninger i [Beregne bedste pris](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/customer-discounts-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/modules/customer-discounts-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  

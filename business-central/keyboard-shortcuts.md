@@ -105,8 +105,8 @@ Der findes gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prod_sh
 | <kbd>Page Down</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Pil op</kbd>) | Rulle for at vise rækkesættene under de aktuelle rækker i visningen. | Rulle for at vise feltsættet under de aktuelle felter i visningen. |
 | <kbd>Pil op</kbd> | Flytte i den samme kolonne til feltet i rækken nedenfor. | Flytte i den samme kolonne til feltet i rækken nedenfor. |
 | <kbd>Pil op</kbd> | Flytte i den samme kolonne til feltet i rækken ovenover. | Flytte i den samme kolonne til feltet i rækken ovenover. |
-| <kbd>Pil til højre</kbd> | På en skrivebeskyttet liste skal du i den samme række flytte til det næste felt til højre.<br /><br />På en redigerbar liste skal du flytte til højre i det aktuelle felt. | Flytte i den samme række til det næste felt til højre. |
-| <kbd>Pil til venstre</kbd> | På en skrivebeskyttet liste skal du i den samme række flytte til det forrige felt til venstre. <br /><br />På en redigerbar liste skal du flytte til venstre i det aktuelle felt. | Flyt i den samme række til det forrige felt til venstre. |
+| <kbd>Højrepil</kbd> | På en skrivebeskyttet liste skal du i den samme række flytte til det næste felt til højre.<br /><br />På en redigerbar liste skal du flytte til højre i det aktuelle felt. | Flytte i den samme række til det næste felt til højre. |
+| <kbd>Venstre pil</kbd> | På en skrivebeskyttet liste skal du i den samme række flytte til det forrige felt til venstre. <br /><br />På en redigerbar liste skal du flytte til venstre i det aktuelle felt. | Flyt i den samme række til det forrige felt til venstre. |
 | <kbd>Tab</kbd> | På en redigerbar liste skal du i den samme række flytte til det næste felt til højre. | Ikke tilgængelig. | 
 | <kbd>Skift</kbd>+<kbd>Tab</kbd> | På en redigerbar liste skal du i den samme række flytte til det forrige felt til venstre. | Ikke tilgængelig. |
 
@@ -213,7 +213,7 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 |<kbd>Ctrl</kbd>+<kbd>Start</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Start</kbd>)|Gå til den første side i rapporten.|
 |<kbd>Ctrl</kbd>+<kbd>End</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Start</kbd>)|Gå til den sidste side i rapporten.|
 |<kbd><kbd>Pil til venstre</kbd></kbd>|Rulle til venstre, når siden er zoomet ind, så den ikke vises fuldstændigt. |
-|<kbd>Pil til højre</kbd>|Rulle til højre, når siden er zoomet ind, så den ikke vises fuldstændigt. |
+|<kbd>Højrepil</kbd>|Rulle til højre, når siden er zoomet ind, så den ikke vises fuldstændigt. |
 |<kbd>Page Down</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Pil op</kbd>)|Gå til den næste side i rapporten.|
 |<kbd>Page Up</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Pil op</kbd>)|Gå til den forrige side i rapporten.|
 

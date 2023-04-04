@@ -1,23 +1,18 @@
 ---
 title: Administrere lager
-description: Denne artikel beskriver, hvordan du administrerer de fysiske produkter, som du handler i, ved at oprette et varekort.
+description: 'Denne artikel beskriver, hvordan du administrerer de fysiske produkter, som du handler i, ved at oprette et varekort.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
-ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782
+ms.search.keywords: 'warehouse, stock'
+ms.search.forms: '5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 568ccee7e01aacb429e6ed2e2b69daf91f67b488
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530023"
 ---
-# <a name="manage-inventory"></a>Administrere lager
+
+# Administrere lager
 
 For hvert fysisk produkt, som du vil handle med, skal du oprette et varekort af typen **Lager**. De varer, du tilbyder kunderne, men ikke lagerfører, kan du registrere som katalogvarer, som du kan konvertere til lagervarer, når det er nødvendigt. Du kan øge eller mindske antallet af en vare på lager ved at bogføre direkte til vareposterne, f.eks. efter en fysisk optælling eller hvis du ikke registrerer indkøb.
 
@@ -26,17 +21,17 @@ Lagerforøgelser og -reduktioner registreres naturligt også, når du bogfører 
 Hvis du vil øge dit overblik over varerne og lettere kunne finde dem, kan du kategorisere varer og give dem attributter, du kan søge og sortere efter.
 
 > [!NOTE]
-> Den fysiske håndtering af varer kaldes lageraktiviteter. Flere oplysninger i [Warehouse Management](warehouse-manage-warehouse.md).
+> Den fysiske håndtering af varer kaldes lageraktiviteter. Få mere at vide i [Oversigt over Warehouse Management](design-details-warehouse-management.md).
 
 Planlægning af varer til opfyldelse af behov dækkes som en del af forsyningsplanlægningsfunktionaliteten. Få mere at vide i [Planlægning](production-planning.md).  
 
-## <a name="inventory-reconciliation"></a>Lagerafstemning
+## Lagerafstemning
 
 Når du bogfører lagertransaktioner, f.eks. salgsleverancer, købsfakturaer eller lagerreguleringer, registreres ændringen i varepriser i værdiposterne. For at afspejle ændringen af lagerværdien i dine finansielle regnskaber bogføres lagerværdien automatisk i de relaterede lagerkonti i finansbogholderiet. For hver lagertransaktion du bogfører, bogføres den relevante værdi på lagerkontoen, reguleringskontoen og vareforbrugskontoen i finansregnskabet. Flere oplysninger i [Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Selvom lagerværdien automatisk bogføres i Finans, er det stadig nødvendigt at sikre, at værdien af varerne overføres til de relaterede udgående transaktioner, f.eks salg eller overflytninger. Dette er især vigtigt i de situationer, hvor du sælger varer, inden du fakturerer købet af varerne. Dette omtales som omkostningsregulering. Varepriser reguleres automatisk, når du bogfører transaktioner, men du kan også justere varepriser manuelt. Flere oplysninger i [Regulere varepriser](inventory-how-adjust-item-costs.md).  
 
-## <a name="related-tasks"></a>Relaterede emner
+## Relaterede emner
 
 I følgende tabel beskrives relaterede opgaver.
 
@@ -60,12 +55,12 @@ I følgende tabel beskrives relaterede opgaver.
 |Administrer forretningsaktiviteter på salgskontorer, indkøbsafdelinger eller fabriksplanlægningskontor på tværs af flere lokationer.|[Arbejde med ansvarscentre](inventory-responsibility-centers.md)|
 |Bruge ressourcer med specifikke kvalifikationer til forskellige tjenester og serviceartikler.|[Opsætte ressourceallokering](service-how-setup-resource-allocation.md)|
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/get-started-inventory-management/)
+## Se relateret [Microsoft-træning](/training/paths/get-started-inventory-management/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Logistik](warehouse-manage-warehouse.md)  
-[Køb](purchasing-manage-purchasing.md)  
+[Warehouse Management-oversigt](design-details-warehouse-management.md)
+[Købe](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
