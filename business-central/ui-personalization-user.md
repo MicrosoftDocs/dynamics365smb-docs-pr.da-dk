@@ -13,19 +13,20 @@ ms.author: bholtorf
 ---
 # Tilpasse dit arbejdsområde
 
-Du kan tilpasse dit arbejdsområde, så det passer til dit arbejde og dine præferencer. Ændr sider, så der kun vises de oplysninger, du skal bruge, hvis du har brug for det. De tilpasningsændringer, du foretager, påvirker kun det, *du* ser, ikke hvad andre brugere kan se.
+Du kan tilpasse dit arbejdsområde, så det passer til dit arbejde og dine præferencer. Ændr sider, så der kun vises de oplysninger, du skal bruge, hvis du har brug for det. Tilpasning påvirker kun dit arbejdsområde. Den ændrer ikke, hvordan andre arbejder.
 
-Du kan tilpasse alle typer sider, herunder siden Rollecenter. Du kan finde flere oplysninger om rollecentre i [Rollecenter](ui-change-basic-settings.md#role-center).  
+Du kan tilpasse alle typer sider, herunder siden Rollecenter. Hvis du vil vide mere om rollecentre, skal du gå til [Rollecenter](ui-change-basic-settings.md#role-center).  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 Du kan udføre forskellige ændringer som at flytte eller skjule felter, kolonner, handlinger, hele dele og tilføje nye felter. De fleste tilpasninger skal foretages ved først at aktivere det **personlige** banner. Du kan foretage simple justeringer, f. eks. kolonnebredden, med det samme på en vilkårlig liste.
 
 > [!NOTE]
-> Administratorer kan udføre samme layoutændringer, efterhånden som brugerne kan tilpasse arbejdsområdet til en profil, som tildeles til flere brugere. Du kan finde flere oplysninger i [Tilpasse sider til roller](ui-personalization-manage.md).<br /><br />
+> Administratorer kan udføre samme layoutændringer, efterhånden som brugerne kan tilpasse arbejdsområdet til en profil, som tildeles til flere brugere. Hvis du vil vide mere om roller, skal du gå til [Tilpasse sider til roller](ui-personalization-manage.md)<br /><br />
 Administratorer kan også tilsidesætte eller deaktivere brugernes tilpasninger, og de kan også definere, hvilke funktioner brugerne skal kunne se i alle eller bestemte regnskaber. Du kan finde flere oplysninger i [Tilpasse Business Central](ui-customizing-overview.md).
 
-## Videooversigt
+## Video
+
 I følgende video vises nogle metoder til at tilpasse dit rollecenter.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
@@ -77,7 +78,7 @@ Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden,
 
 Tilpasning gør det muligt at bestemme, hvilke handlinger der skal vises på navigations- handlingslinjerne samt i rollecentre, og hvor de skal vises. Du kan vise, skjule eller flytte individuelle handlinger eller handlingsgrupper.
 
-I 2022s udgivelsesbølge 2 gav vi dig flere muligheder for at gøre Business Central til din egen. Følgende video viser, hvordan du kan tilpasse handlinger på sider og rollecentre.
+Følgende video viser, hvordan du kan tilpasse handlinger på sider og rollecentre.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
 
@@ -126,6 +127,7 @@ Dele er områder på en side, der typisk består af flere felter, diagrammer ell
 Du kan fjerne alle de tilpasningsændringer, du har foretaget i en enkelt del, ved at vælge indstillingen **Fjern tilpasning** under delens pilespids. Hvis du fjerner markering af en del, påvirker det kun, om en del er ændret, ikke placeringen eller synligheden af delen på siden.  
 
 ## Sådan fjernes tilpasning
+
 På et tidspunkt ønsker du måske at fjerne nogle eller alle de tilpasningsændringer, du har foretaget på en side i tidens løb.
 
 1. Vælg handlingen **Fjern tilpasning** på banneret **Tilpas**.
@@ -138,10 +140,10 @@ På et tidspunkt ønsker du måske at fjerne nogle eller alle de tilpasningsænd
 |------|------------
 |**Kun menuen Navigation**|Fjerner alle tilpasningsændringer, du har foretaget i navigationsmenuen, som er delt på tværs af rollecenteret og andre sider. Sådanne ændringer omfatter alle nye handlinger, der er tilføjet som bogmærker, og eventuelle ændringer af links og grupper i menuen.|  
 |**Kun handlinger**|Fjerner alle de tilpasningsændringer, du nogensinde har foretaget på navigations- eller handlingslinjerne på siden.|
-|**Kun felter, kolonner og dele**|Fjerner alle de tilpasningsændringer, du nogensinde har foretaget for siden undtagen ændringer på navigations- eller handlingslinjen. Sådanne ændringer omfatter ændringer af felter, kolonner, dele og fliser. |
+|**Kun Felter og Kolonner**|Fjerner alle de tilpasningsændringer, du nogensinde har foretaget for siden undtagen ændringer på navigations- eller handlingslinjen. Sådanne ændringer omfatter ændringer af felter, kolonner, dele og fliser. |
 |**Alle**|Fjerner alle de tilpasningsændringer, du har foretaget på siden, så siden får sit oprindelige udseende. Sådanne ændringer omfatter ændringer af navigations- og handlingslinjer, felter, kolonner, dele og fliser.|
 
-## Andre punkter af særlig interesse
+## Andre punkter af interesse
 
 Her er nogle forslag, der kan hjælpe dig med at opnå en bedre forståelse.
 

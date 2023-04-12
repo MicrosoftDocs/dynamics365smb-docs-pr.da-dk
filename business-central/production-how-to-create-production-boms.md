@@ -96,7 +96,7 @@ En produktionsstykliste kræver 70 metaldele med dimensionernes længde = 0,20 m
 
 [Oprette ruter](production-how-to-create-routings.md)  
 [Administrere produktvarianter](inventory-item-variants.md)  
-[Gennemgang: Varianter](contoso-coffee/variants.md)  
+[Gennemgang: Varianter](contoso-coffee/manufacturing/variants.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  
 [Skabelon](production-planning.md)  

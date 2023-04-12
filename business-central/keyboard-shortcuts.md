@@ -3,12 +3,12 @@ title: Tastaturgenveje
 description: 'Den komplette liste over tastaturgenvejskombinationer, som gør det muligt for dig at arbejde effektivt med dine data.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 08/16/2022
+ms.date: 02/09/2023
 ms.author: jswymer
+ms.review: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Tastaturgenveje
@@ -39,6 +39,7 @@ I følgende tabel beskrives tastaturgenveje, der kan bruges til navigation og ad
 
 |Vælg disse taster<br />(i macOS)|For at gøre følgende|
 |--------------------------------|----------|
+|<kbd>Alt</kbd>|Vis adgangstaster til valg af handlinger på handlingslinjen og i menuen navigation på siden. Du kan finde flere oplysninger i [Adgangsnøgler](#access-keys-for-action-bar-and-navigation-menu).|
 |<kbd>Alt</kbd>+<kbd>Pil op</kbd>|Åbne en rulleliste eller slå en værdi for et felt op.|
 |<kbd>Alt</kbd>+<kbd>Pil op</kbd>|Vise værktøjstip for et felt eller en kolonneoverskrift i en tabel. Hvis feltet indeholder valideringsfejl, skal du trykke på <kbd>Alt</kbd>+<kbd>Pil op</kbd> for at få vist valideringsfejlen. Tryk på <kbd>Esc</kbd> eller <kbd>Alt</kbd>+<kbd>Pil op</kbd> for at lukke værktøjstippet.|
 |<kbd>F2</kbd>|Du kan skifte mellem at markere hele feltværdien eller placere markøren i slutningen af feltets værdi.|
@@ -51,7 +52,7 @@ I følgende tabel beskrives tastaturgenveje, der kan bruges til navigation og ad
 |<kbd>Alt</kbd>+<kbd>Skift</kbd>+<kbd>N</kbd> |Lukke en nyoprettet side og åbne en ny for at oprette en ny post. På samme måde bogfører <kbd>Alt</kbd>+<kbd>F9</kbd> et dokument og opretter et nyt.|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|Åbne siden **Mine indstillinger**.|
 |<kbd>Alt</kbd>+<kbd>Pil til højre</kbd>|Finde yderligere oplysninger eller underliggende værdier for et felt, der indeholder knappen ![AssistEdit.](media/assist-edit-icon.png "AssistEdit-knap"). knap. Bruges, når den sædvanlige rullemenuknap (<kbd>Alt</kbd>+<kbd>Pil op</kbd>) i det samme felt bruges til andre formål.|
-|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Skift</kbd>+<kbd>C</kbd>|Få vist oplysninger på virksomhedskortet. Denne genvej blev afbrudt i Business central 2022 Udgivelsesbølge 2 (version 21) og erstattet af <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Skift</kbd>+<kbd>C</kbd>|Få vist oplysninger på virksomhedskortet. Start i Business central 2022 Udgivelsesbølge 2 (version 21, denne genvej understøttes ikke længere og erstattes af <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>|Åbne og lukke sideinspektionsruden. Sideinspektionsruden viser oplysninger om siden, f.eks. dens kildetabel, felter, udvidelser og meget mere.<br /><br />Du kan finde flere oplysninger i [Inspektion af sider](across-inspect-page.md).|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd> |Kopiere værdien i feltet. Hvis feltet er i fokus, og du ikke har markeret tekst i feltet, kopieres hele værdien. Hvis du har markeret tekst i feltet, så kopieres kun den markerede tekst.|
 |<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Åbn [Hjælp-ruden](product-help-and-support.md#help-pane) eller en Business Central hjælp-artikel i [Microsoft Learn](/dynamics365/business-central/), afhængigt af virksomhedens centrale version.|
@@ -245,6 +246,19 @@ Følgende tabel beskriver tastaturgenvejene på numerisk tastatur.
 |--------------------------------|----------|
 |<kbd>Alt</kbd>+<kbd>Decimalseparator</kbd>|Skift output for tasten decimalseparator til et punktum (.) eller det tegn, der er fastlagt af indstillingen **region** på siden **mine indstillinger**. Du kan finde flere oplysninger i [Angive den decimalseparator, der bruges af numeriske tastaturer](ui-enter-data.md#decimal).|
 
+
+## Hurtigtaster til en handlingslinje og navigationsmenuen
+
+Hurtigtaster er tastaturgenveje, som angiver bestemte handlinger på handlingslinjen og i menuen Naviger, så du kan navigere gennem handlinger, så de kommer til den ønskede side. Der er adgangsnøgler tilgængelige i Business central-webklienten og ligner hurtigtasterne i Excel og Word online.  
+
+Hvis du vil bruge Access-taster på en side, skal du først markere <kbd>alt</kbd>-tasten for at få vist *vigtige tip*, som er bogstaver i små bokse ud for handlingerne på handlingslinjen og i menuen Naviger. 
+
+![Billede, som viser hurtigtaster på kundelistesiden.](media/access-keys.png) 
+
+Hvis du vil vælge en handling, skal du vælge den tastekombination, der vises i nøgletippet, f.eks. <kbd>H</kbd> eller <kbd>J</kbd>+<kbd>F</kbd>.
+- Hvis handlingen åbnes til en undermenu med andre handlinger, vises nøgletippene for undermenuen, så du kan fortsætte med at bruge hurtigtasterne.
+- Hvis handlingen åbner en anden side, er vigtige tip slået fra. Du kan vise dem igen ved at vælge <kbd>Alt</kbd>-tast. 
+ 
 ## Se også
 
 [Hurtig reference til genveje - på pc'er](keyboard-shortcuts-cheatsheet.md)  

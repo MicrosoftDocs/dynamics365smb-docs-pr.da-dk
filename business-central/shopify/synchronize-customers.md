@@ -39,6 +39,7 @@ Du kan gøre følgende for hver kunde ved hjælp af **Shopify -kundeskabelonen**
 2. Definer den **debitorskabelonkode**, der bruges til at oprette manglende kunder, hvis **Automatisk oprettelse af ukendte debitorer** er aktiveret. Hvis **debitorskabelonkode** er tom, bruger funktionen den **debitorskabelonkode**, der er defineret på **Shopify butikskortet**.
 3. Angiv, om priser er inkl. moms for importerede ordrer.
 4. I nogle tilfælde er den **debitorskabelonkode**, der er defineret for et land, ikke nok til at sikre, at moms beregnes korrekt (f. eks. lande med moms). I dette tilfælde kan **skatteområderne** være nyttige.
+5. Feltet **skatteområde** indeholder også en **landekode** og et **Navn på region**. Dette par er praktisk, når forbindelsen skal konvertere en kode til et navn, eller omvendt.
 
 > [!NOTE]  
 > Landekoderne er ISO 3166-1 Alfa-2-landekoder. Flere oplysninger om [Landekode](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -58,6 +59,7 @@ Der er følgende krav til eksport af en debitor:
 * Et land/område er valgt på debitorkortet, for lokale debitorer, med et tomt land/område det land/område, der er angivet på siden **firmaoplysninger**, skal have en defineret ISO-kode.
 * Hvis debitoren har et telefonnummer, skal nummeret være entydigt, da Shopify ikke accepterer en anden kunde med det samme telefonnummer.
 * Hvis kunden har et telefonnummer, skal det være i formatet E.164. Forskellige formater understøttes, hvis de repræsenterer et nummer, der kan ringes op fra et vilkårligt sted i verden. Følgende formater er mulige:
+
   * xxxxxxxxxx
   * +xxxxxxxxxxx
   * (xxx)xxx-xxxx
@@ -82,7 +84,8 @@ En debitor i Shopify har også en standardadresse. Ud over fornavn, efternavn, m
 |1|**Navn**|Højeste prioritet, hvis feltet **Navnekilde** på **Shopify Produktionskortet** indeholder *Firmanavn*.|
 |2|**Navn 2**|Laveste prioritet, hvis feltet **Navn 2-kilde** i **Shopify Produktionskortet** indeholder *Firmanavn*.|
 
-I forbindelse med adresser, hvor lande/provins anvendes, skal du vælge *Kode* eller *Navn* i feltet **Landekilde** i **Shopify Butikskort**. Koden eller navnet angiver den type data, der er gemt i [!INCLUDE[prod_short](../includes/prod_short.md)] i feltet **Land**.
+I forbindelse med adresser, hvor land/provins anvendes, skal du vælge **Kode** eller **Navn** i feltet **Navn på amt** på siden **Shopify Butikskort**. Koden eller navnet angiver den type data, der er gemt i [!INCLUDE[prod_short](../includes/prod_short.md)] i feltet **Land**. Husk at initialisere kundeskabeloner pr. land, så landekode/navnetilknytning er klar. 
+
 
 ## Synkronisere debitorer
 

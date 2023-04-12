@@ -68,6 +68,7 @@ Med funktionen aktiveret kan returtransaktionen kun bogføres med angivelse af v
 | Administrere forretningsaktiviteter med dine leverandører, importere modtagne fakturadokumenter og registrere nye leverandører ved hjælp af Outlook-e-mailklienten. | [Konfigurer Business Central-tilføjelsesprogram til Outlook](admin-outlook.md) |
 | Gennemgå udgifts kvitteringer, konverter papir og elektroniske dokumenter til kladdelinjer, og digitalize papir fakturaer fra kreditorer. | [Opsætning af indgående bilag](across-how-setup-income-documents.md) |
 | Angiv standardrapporter, der skal bruges til forskellige dokumenttyper. |[Rapportvalg i Business Central](across-report-selections.md)|
+|Angive, om brugere må bogføre købsfakturaer, og om de skal bogføre dem sammen med en forsendelse. |[Definere politik til bogføring af faktura for brugere](admin-setup-invoice-posting-policy.md)|
 
 ## Se relateret træning på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 

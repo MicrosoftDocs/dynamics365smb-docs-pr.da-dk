@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000846, 99000850'
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Massebogføre produktionsforbrug
 
-Hvis trækmetoden er **Manuel**, skal du bogføre komponenterne manuelt ved at bruge en forbrugskladde.  
+Hvis trækmetoden er **Manuel**, skal du bruge forbrugskladden til at bogføre komponenterne manuelt.  
 
->[!NOTE]
+> [!NOTE]
 > Hvis du har markeret feltet **Kræv pluk** på lokationskortet for at angive, at lokationen kræver behandling af lagerpluk, behøver du ikke bruge denne kørsel. [!INCLUDE[prod_short](includes/prod_short.md)] håndterer forbruget, når du bogfører lagerpluk. Du kan finde flere oplysninger i [Plukke til produktion i grundlæggende lageropsætninger](warehouse-how-to-pick-for-production.md)  
 
 Du kan også konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til automatisk at bogføre (*trække*) komponenterne, når du starter eller afslutter produktionsordrer. Du kan finde flere oplysninger i [Aktivere udtrækning af komponenter i henhold til operationsafgang](production-how-to-flush-components-according-to-operation-output.md).
@@ -30,6 +30,8 @@ Du kan også konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til auto
     > Hvis du har konfigureret lokationskortet til at kræve behandling af lagerpluk, er det kun de antal, der allerede er plukket via en lageraktivitet, der kan angives i feltet **Antal** på siden **Forbrugskladde**, ikke beregnede antal. Du kan finde flere oplysninger i [Plukke til produktion eller montage i avancerede lageropsætninger](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 3. Vælg handlingen **Bogfør** for at bogføre forbruget. De relaterede lagerbeholdninger er reduceret.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Se også
 

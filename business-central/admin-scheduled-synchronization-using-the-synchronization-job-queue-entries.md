@@ -2,19 +2,17 @@
 title: Synkronisere Business Central og Dataverse
 description: Få mere at vide om synkronisering af data mellem Business Central og Dataverse.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'sales, crm, integration, sync, synchronize'
-ms.date: 06/14/2021
 ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.date: 03/31/2023
+ms.custom: bap-template
+ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ---
 
 # Planlægning af synkronisering mellem Business Central og Dataverse
 
-
-Du kan synkronisere [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[cds_long_md](includes/cds_long_md.md)] med planlagte intervaller ved at konfigurere jobs i jobkøen. Synkroniseringsjobbene synkroniserer data i [!INCLUDE[prod_short](includes/prod_short.md)]-records og [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -records, der tidligere har været sammenkædet. Synkroniseringsopgaver kan også oprette og sammenkæde nye records i destinationssystemet for records, der ikke allerede er sammenkædet, afhængigt af synkroniseringsretning og -regler. 
+Du kan synkronisere [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[cds_long_md](includes/cds_long_md.md)] med planlagte intervaller ved at konfigurere jobs i jobkøen. Synkroniseringsjobbene synkroniserer data i [!INCLUDE[prod_short](includes/prod_short.md)]-poster og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-poster, der tidligere har været sammenkædet. For poster, der ikke allerede er sammenkædet, og afhængigt af synkroniseringsretning og -regler, kan der oprettes og sammenkædes nye poster i destinationssystemet.
 
 Der er flere standardsynkroniseringsjobs tilgængelige. Jobbene køres i følgende rækkefølge for at undgå sammenkædning af afhængigheder mellem tabeller. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
 
@@ -26,7 +24,7 @@ Der er flere standardsynkroniseringsjobs tilgængelige. Jobbene køres i følgen
 
 Du kan se job på siden **Poster for jobkøer**. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
 
-## Poster for standardsynkroniseringsjobkø
+## Poster i standardsynkroniseringsjobkø
 
 Følgende tabel viser standardsynkroniseringsjobbene for [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 
@@ -44,7 +42,7 @@ Hver synkronisering af en jobkø-post benytter en bestemt integrationstabeltilkn
 
 For at kunne synkronisere data skal [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-tabelposter være sammenkædet med [!INCLUDE[prod_short](includes/prod_short.md)]-records. F.eks. skal en [!INCLUDE[prod_short](includes/prod_short.md)]-debitor være sammenkædet med en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-konto. Du kan konfigurere sammenkædninger manuelt, før du kører synkroniseringsjobbene, eller lade synkroniseringsjobbene konfigurere sammenkædninger automatisk. Den følgende liste beskriver, hvordan data synkroniseres mellem [!INCLUDE[cds_long_md](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)], når du benytter posterne i synkroniseringsjobkøen. Du kan finde flere oplysninger i [Sammenkæd og synkroniser poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md).
 
-- Afkrydsningfeltet **Synkroniser kun sammenkoblede poster** kontrollerer, hvorvidt nye poster oprettes, når du synkroniserer. Afkrydsningsfeltet er som standard markeret, hvilket betyder, at kun poster, der er sammenkoblede, synkroniseres. I integrationstabeltilknytningen kan du ændre tabeltilknytningen mellem en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-tabel og en [!INCLUDE[prod_short](includes/prod_short.md)]-tabel, så integrationssynkroniseringsjobbene opretter nye poster i destinationsdatabasen for hver række i kildedatabasen, der ikke er sammenkoblet. Du kan finde flere oplysninger i [Oprettelse af Nye poster](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).
+- Afkrydsningfeltet **Synkroniser kun sammenkoblede poster** kontrollerer, hvorvidt nye poster oprettes, når du synkroniserer. Afkrydsningsfeltet er som standard markeret, hvilket betyder, at kun poster, der er sammenkoblede, synkroniseres. I integrationstabeltilknytningen kan du ændre tabeltilknytningen mellem en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-tabel og en [!INCLUDE[prod_short](includes/prod_short.md)]-tabel, så integrationssynkroniseringsjobbene opretter nye poster i destinationsdatabasen for hver række i kildedatabasen, der ikke er sammenkoblet. Du kan finde flere oplysninger i [Oprettelse af Nye poster](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).
 
     **Eksempel**: Hvis du rydder afkrydsningsfeltet **Synkroniser kun sammenkoblede poster** når du synkroniserer kunder i [!INCLUDE[prod_short](includes/prod_short.md)] med konti i [!INCLUDE[cds_long_md](includes/cds_long_md.md)], oprettes der en ny konto til hver kunde i [!INCLUDE[prod_short](includes/prod_short.md)] og disse sammenkobles automatisk. Som følge af, at synkroniseringen går begge veje i dette tilfælde, vil der blive oprettet og sammenkoblet en ny kunde sammen for hver [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-konto, der ikke allerede er sammenkoblet.  
 
@@ -59,7 +57,8 @@ For at kunne synkronisere data skal [!INCLUDE[cds_long_md](includes/cds_long_md.
 
 - Ved synkronisering i begge retninger synkroniserer jobbet fra [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[cds_long_md](includes/cds_long_md.md)], og derefter fra [!INCLUDE[cds_long_md](includes/cds_long_md.md)] til [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Vedrørende timeoutperioder for inaktivitet
+## Vedrørende inaktive timeoutperioder
+
 Nogle opgavekøposter, såsom dem, der planlægger synkronisering mellem [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)], anvender feltet **Timeout for inaktivitet** på kortet til Opgavekøside for at forhindre, at opgavekøposten kører unødigt.  
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Rutediagram for, hvornår opgavekøposter sættes på pause pga. inaktivitet.":::
@@ -91,7 +90,7 @@ F.eks. vil den valutaopgavekø, der synkroniserer valutaer i [!INCLUDE[cds_long_
 ## Se også
 
 [Synkronisering af data i Business Central og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
-[Synkroniser tabeltilknytninger manuelt](admin-manual-synchronization-of-table-mappings.md)  
+[Synkronisere tabeltilknytninger manuelt](admin-manual-synchronization-of-table-mappings.md)  
 [Planlægning af synkronisering mellem Business Central og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [Om integration Dynamics 365 Business Central med [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 

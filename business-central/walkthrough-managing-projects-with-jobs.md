@@ -69,9 +69,9 @@ Denne gennemgang giver dig en introduktion til projektstyringsfunktioner i sager
 
 ## Historie
 
-Denne gennemgang fokuserer på CRONUS, et design- og konsulentfirma, der designer og tilpasser nye infrastrukturer, f.eks. konferencerum og kontorer, med møbler, tilbehør og lagerenheder. Det meste af firmaets arbejde er projektorienteret. Per er projektleder hos CRONUS. Han bruger sager til at give ham et overblik over igangværende sager, som CRONUS har startet, samt de sager, der er afsluttet. Det er som regel ham, der indgår aftaler med kunderne og indtaster sagens hovedkomponenter, hvilket er opgave- og planlægningslinjer i [!INCLUDE[prod_short](includes/prod_short.md)]. Han konstaterer, at oprettelse, vedligeholdelse og gennemgang af oplysninger er ligetil. Per kan også lide, den måde [!INCLUDE[prod_short](includes/prod_short.md)] aktiverer kopiering af sager og betaling af afdrag.
+Denne gennemgang fokuserer på CRONUS, et design- og konsulentfirma, der designer og tilpasser nye infrastrukturer, f.eks. konferencerum og kontorer, med møbler, tilbehør og lagerenheder. Det meste af firmaets arbejde er projektorienteret. Prakash, en projektleder hos CRONUS bruger sager til at få et overblik over igangværende sager, som CRONUS har startet, samt de sager, der er afsluttet. Det er som regel Prakash, der indgår aftaler med kunderne og indtaster sagens hovedkomponenter, hvilket er opgave- og planlægningslinjer i [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash konstaterer, at oprettelse, vedligeholdelse og gennemgang af oplysninger er ligetil. Per kan også lide, den måde [!INCLUDE[prod_short](includes/prod_short.md)] aktiverer kopiering af sager og betaling af afdrag.
 
- Tina, der er medlem af projekttemaet og rapporterer til Per, er ansvarlig for overvågning af sagen dag for dag. Hun indtaster sit eget arbejde i tillæg til det arbejde, der udføres af teknikere på hver opgave. Hun registrerer de varer, som de har brugt, og de omkostninger, som de har afholdt.  
+ Tina, der er medlem af projekttemaet og rapporterer til Per, er ansvarlig for overvågning af sagen dag for dag. Tricia angiver sit eget arbejde samt de arbejde, der udføres af teknikerne på hver opgave, herunder de varer, som de har brugt, og de omkostninger, som der er påløbet.  
 
 ## Klargøre eksempeldata
 
@@ -98,7 +98,7 @@ Denne gennemgang fokuserer på CRONUS, et design- og konsulentfirma, der designe
 
 6. Luk siden.
 
-I den næste procedure opretter du en sagskladde for Tina for at bogføre hendes forbrug.  
+I den næste procedure opretter du en sagskladde for Tricia for at bogføre forbruget.  
 
 ### Sådan oprettes et sagskladdenavn  
 
@@ -182,7 +182,7 @@ I den næste procedure opretter du en sagskladde for Tina for at bogføre hendes
 - **Fakturerbar**: Faktureret, men ikke føjet til skemaet.  
 - **Både budget og fakturerbar**: faktureret og føjet til budgettet.  
 
- I denne gennemgang bruger projektleder **Både budget og fakturerbar**. Han oprettes de tre planlægningslinjer for opgaven 1010 og to planlægningslinjer for opgave 1020.  
+ I denne gennemgang bruger projektleder **Både budget og fakturerbar**. De opretter tre planlægningslinjer for opgaven 1010 og to planlægningslinjer for opgave 1020.  
 
 ### Sådan oprettes planlægningslinjer  
 
@@ -208,7 +208,7 @@ I den næste procedure opretter du en sagskladde for Tina for at bogføre hendes
 
 ## Beregne resterede forbrug
 
- Tina, der er medlem af projektteamet, har arbejdet på sagen i et stykke tid og ønsker at registrere sine timer og forbrug på sagen. Hun har ikke arbejdet mere end aftalt med kunden i forvejen. Hun bruger kørslen **Beregn resterede forbrug** til at beregne det resterende forbrug for sagen i sagskladden. For hver opgave beregner kørslen forskellen mellem planlagt forbrug af varer, ressourcer og finansudgifter og det faktiske forbrug, der er bogført i finansposterne. Det resterende forbrug vises derefter i sagskladden, hvor hun kan bogføre det.  
+ Tricia, der er medlem af projektteamet, har arbejdet på sagen i et stykke tid og ønsker at registrere deres timer og forbrug på sagen. Tricia har ikke arbejdet mere end aftalt med kunden i forvejen. Tricia bruger kørslen **Beregn resterede forbrug** til at beregne det resterende forbrug for sagen i sagskladden. For hver opgave beregner kørslen forskellen mellem planlagt forbrug af varer, ressourcer og finansudgifter og det faktiske forbrug, der er bogført i finansposterne. Det resterende forbrug vises derefter i sagskladden, hvor hun kan bogføre det.  
 
 ### Sådan beregnes resterede forbrug  
 
@@ -226,7 +226,7 @@ Linjerne er nu bogført.
 
 ## Oprette og bogføre en sagssalgsfaktura
 
- Derefter kan Tina oprette en ny faktura for hele sagen eller for en del af en sag. Hun kan også tilknytte fakturaen til en anden faktura til samme kunde for samme sag. I dette tilfælde fakturerer hun hele sagen, da projektet nu er færdigt.  
+ Derefter kan Tina oprette en ny faktura for hele sagen eller for en del af en sag. Tricia kan også tilknytte fakturaen til en anden faktura til samme kunde for samme sag. I dette tilfælde fakturerer Tricia hele sagen, da projektet nu er færdigt.  
 
 ### Sådan oprettes en sagssalgsfaktura  
 
@@ -236,7 +236,7 @@ Linjerne er nu bogført.
 4.  Udfyld bogføringsdatoen, og angiv, om du vil oprette én faktura pr. opgave eller kun én enkelt faktura for alle opgaver, i oversigtspanelet **Indstillinger**.  
 5.  Vælg knappen **OK** for at oprette fakturaen, og vælg knappen **OK** på bekræftelsessiden.  
 
- Når Tina opretter fakturaen, kan hun f.eks. få adgang til den fra rollecenteret **Salgsordrebehandler**. 
+ Når Tricia har oprettet fakturaen, kan hun f.eks. få adgang til den fra rollecenteret **Salgsordrebehandler**. 
 
 ### Sådan bogføres en ny salgsfaktura  
 
@@ -250,7 +250,7 @@ Linjerne er nu bogført.
 2.  Markér en hvilken som helst faktureret planlægningslinje, og vælg derefter handlingen **Salgsfaktura/Kreditnota**.
 3. På siden **Sagsfakturaer** skal du vælge handlingen **Åbn salgsfaktura/kreditnota**.  
 
- Tina har et spørgsmål ang. priser, omkostninger og indtjening, der er relevant for denne bestemte sag, så hun får adgang til disse oplysninger på den nye side **Statistik**.  
+ Tricia har et spørgsmål ang. priser, omkostninger og indtjening, der er relevant for denne bestemte sag, så hun får adgang til disse oplysninger på den nye side **Statistik**.  
 
 ### Sådan åbner du siden Statistik  
 
@@ -260,7 +260,7 @@ Linjerne er nu bogført.
 
 ## Håndtere faste priser
 
- CRONUS er blevet bestilt til at oprette konferencerum. Som projektleder ønsker Per at have et godt overblik over de opgaver, der er påkrævet for sagen med de tilhørende budgetterede og realiserede omkostninger for hver sag. Derudover vil han gerne kende den samlede kontraktpris for sagen og det beløb, der er faktureret indtil nu. Han er nået frem til en aftale med kunden om faste priser for denne sag.  
+ CRONUS er blevet bestilt til at oprette konferencerum. Som projektleder ønsker Per at have et godt overblik over de opgaver, der er påkrævet for sagen med de tilhørende budgetterede og realiserede omkostninger for hver sag. Derudover vil Prakash gerne kende den samlede kontraktpris for sagen og det beløb, der er faktureret indtil nu. De er nået frem til en aftale med kunden om faste priser for denne sag.  
 
 ### Sådan håndteres faste priser i sager  
 
@@ -268,7 +268,7 @@ Linjerne er nu bogført.
 2. Vælg sagsnummeret **Svend Hansen Møbler**, og vælg derefter handlingen **Sagsopgavelinjer**.  
 3. Vælg linje 1120, og højreklik på beløbet i feltet **Budget (kostpris)**, og vælg **Specificer**.  
 
-     Ved at gennemse sagsplanlægningslinjerne, kan Per se, at han får brug for Tina i 30 timer i denne fase af projektet. Han aftaler en fast pris med kunden.  
+     Ved at gennemse sagsplanlægningslinjerne, kan Prakash se, at han får brug for Tricia i 30 timer i denne fase af projektet. Prakash aftaler en fast pris med kunden.  
 
 4. På siden **Sagsopgavelinjer** skal du markere linje 1120, og derefter vælge handlingen **Sagsplanlægningslinjer**. Opret en planlægningslinje med følgende oplysninger:  
 
@@ -280,7 +280,7 @@ Linjerne er nu bogført.
 5. Højreklik på feltet i feltet **Budget (kostbeløb)**, og vælg **Specificer** igen på siden **Sagsopgavelinjer**. Få vist ændringerne i tidsplanen. Du kan se, at de 30 timer er føjet til budgettet.  
 6. Luk siderne.  
 
-Når Tina har føjet budgettet til denne opgavelinje, arbejder hun 25 timer på sagen. Hun angiver disse timer i sagskladden.  
+Når Tricia har føjet budgettet til denne opgavelinje, arbejder hun 25 timer på sagen. Disse timer kan angives i sagskladden.  
 
 ### Sådan angives timer i sagskladden  
 
@@ -298,7 +298,7 @@ Når Tina har føjet budgettet til denne opgavelinje, arbejder hun 25 timer på 
 
 3. Vælg handlingen **Bogfør**.  
 
-     Nogle få dage senere, arbejder Tina ti timer til på sagen. Hun har nu arbejdet 35 timer alt i alt. Da aftalen med kunden lyder på 30 timer, er det kun fem af disse timer, der vil blive faktureret kunden. Tina vil føje de ekstra fem timer, som hun har arbejdet, manuelt til tidsplanen.  
+     Nogle få dage senere, arbejder Tricia for at finde endnu en eller flere 10 timer på sagen, og har nu arbejdet 35 timer i alt. Da aftalen med kunden lyder på 30 timer, er det kun fem af disse timer, der vil blive faktureret kunden. Tricia vil føje de ekstra fem timer, som hun har arbejdet, manuelt til tidsplanen.  
 
 4. På siden **Sagskladde** skal du vælge handlingen **Beregn resterende forbrug**.  
 5. På siden **Beregn resterende forbrug for sag** skal du angive følgende oplysninger i oversigtspanelet **Indstillinger**:  
@@ -442,7 +442,7 @@ Følgende procedurer viser, hvordan du opretter et nyt job, angiver priser og de
 
 11. Opret en tilsvarende planlægningslinjepost for sagsopgave 4000.  
 
- Nu, hvor opgave- og planlægningslinjerne er angivet, kan Per oprette en faktura for første betaling. Han gør dette fra sagsopgavelinjerne for at sikre, at fakturaen kun indeholder linjer for den første betaling. Du kan åbne salgsorden fra planlægningslinjerne eller opgavelinjerne.  
+ Nu, hvor opgave- og planlægningslinjerne er angivet, kan Per oprette en faktura for første betaling. Prakash gør dette fra sagsopgavelinjerne for at sikre, at fakturaen kun indeholder linjer for den første betaling. Du kan åbne salgsorden fra planlægningslinjerne eller opgavelinjerne.  
 
 ### Sådan oprettes en faktura  
 

@@ -29,7 +29,7 @@ Du kan finde flere oplysninger om, hvordan du opretter Shopify-forsøg og anbefa
 
 Du skal have en [!INCLUDE[prod_short](../includes/prod_short.md)]-konto. 
 
-Du kan f. eks. oprette en demo konto eller starte prøveversionen. Flere oplysninger i [Udarbejde demonstrationer af [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md) og [tilmelde dig prøveversionen](../trial-signup.md). 
+Du kan f. eks. oprette en demo konto eller starte prøveversionen. Flere oplysninger i [Forberede demonstrationsmiljøer af Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) og [Tilmelde dig prøveversionen](../trial-signup.md). 
 
 ## Forbinde Business central med Shopify-butikken
 
@@ -100,7 +100,7 @@ Vælg knappen **Køb nu**, og fortsæt til udtjekning.
 5. Vælg knappen **Fortsæt til levering**.
 6. Bevar `Standard` leveringsmetoden, og vælg derefter **Fortsæt med betaling**.
 7. Vælg `10%` drikkepenge.
-8. I feltet **kreditkort** skal du angive `1` , hvis du bruger *(til test) Bogus gateway*, hvis du bruger *Shopify payments* i testtilstand, skal du angive `5555 5555 5555 4444` i feltet **kreditkort** .
+8. I feltet **kreditkort** skal du angive `1`, hvis du bruger *(til test) Bogus gateway*, eller angive `5555 5555 5555 4444`, hvis du bruger *Shopify payments* i testtilstand.
 9. Udfyld feltet **Navn på kort**.
 10. Angiv i **Udløbsdato** indeværende måned/år.
 11. Skriv `111` i **Sikkerhedskode**.
@@ -162,18 +162,20 @@ Klargøre data
 2. Tilføj ny prisgruppe. Skriv `SHOPIFY` i feltet **Kode**.
 3. Luk vinduet **Debitorprisgrupper**.
 4. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg det relaterede link.
-5. Vælg vare **1896-S, Athens Desk**.
-6. Vælg handlingen **Varianter**, og tilføj derefter to varianter `PREMIUM, Athens Desk, Premium edition` og `ESSENTIAL, Athens Desk, Essential edition`.
-7. Vælg **udvidet tekst**, opret en ny udvidet tekst, der gælder for alle sprogkoder. Angiv `Shopify` i feltet **Beskrivelse**. 
-8. Tilføj følgende beskrivelse med HTML-koder: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
-9. Vælg **salgspriser**, og tilføj nye priser som vist i følgende tabel:
+
+Vælg vare **1896-S, Athens Desk**, og kør følgende trin.
+
+1. Vælg handlingen **Varianter**, og tilføj derefter to varianter `PREMIUM, Athens Desk, Premium edition` og `ESSENTIAL, Athens Desk, Essential edition`.
+2. Vælg **Udvidet tekst**, opret en ny udvidet tekst, der gælder for alle sprogkoder. Angiv `Shopify` i feltet **Beskrivelse**. 
+3. Tilføj følgende tekst med HTML-koder: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
+4. Vælg **salgspriser**, og tilføj nye priser som vist i følgende tabel:
 
   |Linje|**Salgstype**|**Salgskode**|Enhedstype|Kode|Variantkode<br>(tilføj feltet via brugertilpasning)|Enhedspris|
   |------|------------|------------|------------|------------|------------|------------|
   |1|Debitorprisgruppe|SHOPIFY|Artikel|1896-S|ESSENTIAL|700|
   |2|Debitorprisgruppe|SHOPIFY|Artikel|1896-S|PREMIUM|1000|
 
-10. Vælg **salgsrabatter**, og tilføj en ny rabat:
+5. Vælg **salgsrabatter**, og tilføj en ny rabat:
 
 * **Salgstype** *Debitorrabatgruppe*
 * **Salgskode** *DETAIL*
@@ -182,18 +184,18 @@ Klargøre data
 * **Enhedskode** *PCS*
 * **Linjerabat %** *10*
 
-11. Vælg **varereferencer** og følgende linjer:
+6. Vælg **varereferencer** og følgende linjer:
 
   |Linje|**Referencetype**|**Referencenr.**|Variantkode|
   |------|------------|------------|------------|
   |1|Stregkode|77777777|ESSENTIAL|
   |2|Stregkode|11111111|PREMIUM|
 
-12. Luk **varekortet**.
-13. Vælg vare **1920-S, ANTWERP Conference Table**.
-14. Vælg **Juster lager**, og angiv `100` for lokationerne **ØST** og *VEST* i feltet *Nyt lager*. 
-1. Vælg **OK**.
-1. Luk **varekortet**.
+
+Vælg varen **1920-S, ANTWERP Conference Table**, og udfør følgende trin.
+
+1. Vælg **Juster lager**, og angiv `100` for lokationerne **ØST** og *VEST* i feltet *Nyt lager*. 
+2. Vælg **OK**.
 
 Juster indstillinger til synkronisering.
 

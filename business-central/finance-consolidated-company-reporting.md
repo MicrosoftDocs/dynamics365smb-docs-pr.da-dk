@@ -1,15 +1,15 @@
 ---
 title: Konsolidere data fra flere virksomheder
-description: Du kan konsolidere finansposterne fra to eller flere separate regnskaber (datterselskaber) til et konsolideret regnskab.
-author: edupont04
+description: 'Denne artikel beskriver, hvordan du kan konsolidere finansposterne fra to eller flere separate regnskaber (datterselskaber) til et konsolideret regnskab.'
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'consolidation, subsidiaries, consolidate'
 ms.search.form: '1826, 1827'
-ms.date: 06/16/2021
-ms.author: edupont
+ms.date: 09/29/2022
+ms.author: bholtorf
 ---
 
 # Konsolidering af finansielle oplysninger fra flere regnskaber
@@ -18,9 +18,9 @@ Nogle organisationer bruger [!INCLUDE [prod_short](includes/prod_short.md)] i fl
 
 Du kan konsolidere finansposterne fra to eller flere separate regnskaber (datterselskaber) til et konsolideret regnskab. Hvert enkelt regnskab, der er involveret i en konsolidering, kaldes en koncernvirksomhed. Det kombinerede regnskab kaldes det konsoliderede regnskab.  
 
-Du kan indlæse data til det konsoliderede regnskab fra andre regnskaber i samme [!INCLUDE [prod_short](includes/prod_short.md)]-lejer, fra lejer eller fra filer.  
+Du kan indlæse data til det konsoliderede regnskab fra andre regnskaber i samme [!INCLUDE [prod_short](includes/prod_short.md)]-lejer fra lejere eller fra filer.  
 
-Hvis en koncernvirksomheds resultatopgørelse er i en anden valuta end de øvrige i det konsoliderede regnskab, skal du oprette valutakurser for konsolideringen.  
+Hvis en koncernvirksomheds resultatopgørelse er i en anden valuta end den valuta, der er anvendt i det konsoliderede regnskab, skal du oprette valutakurser for konsolideringen.  
 
 Du kan konsolidere:  
 
@@ -30,16 +30,21 @@ Du kan konsolidere:
 * Ved brug af forskellige valutakurser i de enkelte finanskonti
 * Virksomheder i andre regnskabs-og virksomhedsstyringsprogrammer
 
-Du opretter det konsoliderede regnskab på samme måde, som du opretter andre regnskaber. Kontoplanen er uafhængig af kontoplanen i andre koncernvirksomheder, og kontoplanen i de individuelle koncernvirksomheder, kan være forskellige fra hinanden. Du opretter en liste over regnskaber, der skal konsolideres, kontrollere regnskabsdataene, før du konsoliderer dem, importere filer og oprette konsolideringsrapporter. Du kan finde flere oplysninger i [Konfigurere virksomhedskonsolidering](finance-consolidated-company-reporting-setup.md).  
+Du opretter det konsoliderede regnskab på samme måde, som du opretter andre regnskaber. Kontoplanerne er uafhængige af kontoplanerne i virksomhedsenheder. Kontoplanen i virksomhedsenhederne kan afvige fra hinanden. Du opretter en liste over regnskaber, der skal konsolideres, kontrollere regnskabsdataene, før du konsoliderer dem, importere filer og oprette konsolideringsrapporter. Du kan finde flere oplysninger i [Konfigurere virksomhedskonsolidering](finance-consolidated-company-reporting-setup.md).  
 
 > [!TIP]
 > Konsolidering af finansielle oplysninger kan især være relevant i forbindelse med interne processer. Du kan finde flere oplysninger i [Administrere interne transaktioner](intercompany-manage.md).
 
-## Råbalance
+## Bruge rapporten Konsolideret råbalance
 
-Hvis du har mere end én virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)], kan rapporten **Konsolideret råbalance** give dig et overblik over virksomheden samlede finansielle tilstand.  
+Rapporten **Konsolideret råbalance** kan give dig et overblik over virksomheden samlede finansielle tilstand. Rapporten kombinerer finansposter fra alle dine regnskaber i et nyt virksomhed, som du har oprettet til de konsoliderede data. Dette regnskab kaldes typisk det *konsoliderede regnskab*. Det konsoliderede regnskab er kun en beholder til de konsoliderede data og har ingen direkte forretningsdata. De regnskaber, du inkluderer i det konsoliderede regnskab, bliver **koncernvirksomheder** i rapporten. Du kan finde flere oplysninger i [Konfigurere virksomhedskonsolidering](finance-consolidated-company-reporting-setup.md). Hvis der er fire eller færre koncernvirksomheder, kan du også bruge rapporten **Kons. råbal. - 4 virksomheder**.  
 
-Rapporten kombinerer finansposter fra alle dine regnskaber i et nyt virksomhed, som du opretter til at indeholder de konsoliderede data. Dette regnskab kaldes typisk det "konsoliderede regnskab". Det konsoliderede regnskab er kun en beholder til de konsoliderede data og har ingen direkte forretningsdata. De regnskaber, du inkluderer i det konsoliderede regnskab, bliver **koncernvirksomheder** i rapporten. Du kan finde flere oplysninger i [Konfigurere virksomhedskonsolidering](finance-consolidated-company-reporting-setup.md).  
+Rapporten viser en linje for hver konto og følger kontoplanens opbygning. En konto vises ikke, hvis alle beløb på linjen er 0. Rapporten viser følgende oplysninger om hver konto:
+
+* Kontonummeret og -navnet, der hører til kontoen.
+* Totalerne for koncernregnskabet og for hver koncernvirksomhed. Totaler kan vises som bevægelse eller saldo til dato.
+* Elimineringer foretaget i koncernregnskabet. Elimineringerne vil altid blive vist i en periode, der svarer til koncernregnskabets regnskabsår.
+* Totalen for koncernregnskabet efter elimineringerne, vist som bevægelse eller saldo til dato.
 
 ## Konsolidere data
 
@@ -51,7 +56,7 @@ Du kan teste dataene, inden du overfører dem til det konsoliderede regnskab. [!
 
 1. Åbn det konsoliderede regnskab.  
 2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Forretningsenheder**, og vælg derefter det relaterede link.  
-3. Gør ét af følgende:  
+3. Test filen og databasen på følgende måde:  
 
     * For at teste en fil, skal du vælge handlingen **Kontroller fil**, angive navnet på filen, der skal kontrollere, og derefter vælge **Udskriv**.  
     * Du kan teste databasen ved at vælge **Test database**.  
@@ -68,9 +73,7 @@ Når du har testet dataene, kan du overføre dem til det konsoliderede regnskab.
 
 ## Fjerne gentagne transaktioner
 
-Når du har konsolideret alle regnskaber, skal du finde de transaktioner, som er registreret mere end én gang på tværs af regnskaber, og derefter bogføre elimineringsposter for at fjerne dem.
-
-Behandling af konsolideringselimineringer er en manuel proces.  
+Når du har konsolideret alle regnskaber, skal du finde de transaktioner, som er registreret mere end én gang på tværs af regnskaber. Behandling af konsolideringselimineringer er en manuel proces.  
 
 Sådan fjernes gentagne transaktioner:
 
@@ -78,18 +81,18 @@ Sådan fjernes gentagne transaktioner:
 2. Kør **G/L konsolideringselimineringer**-rapporten for at få hjælp til at vurdere virkningen af finanskladdelinjerne inden bogføringen.
 3. Bogfør tilpasningsposteringerne.
 
-Rapporten **G/L konsolideringselimineringer** indeholder en foreløbig råbalance, hvor du kan simulere konsekvenserne af en eliminering af posterne, ved at sammenligne posterne i koncernregnskabet med de elimineringer, der er indtastet i den finanskladde.
+Rapporten **G/L konsolideringselimineringer** viser en foreløbig råbalance, hvor du kan simulere konsekvenserne af eliminering af poster. Rapporten sammenligner posterne i det konsoliderede regnskab med de elimineringer, der er angivet i finanskladden.
 
-Hvis et koncernvirksomhedsregnskab skal indgå i rapporten, skal det først være oprettet på siden **Konsolider** i feltet **Koncernvirksomhed**.
+Hvis et koncernvirksomhedsregnskab skal indgå i rapporten, skal det først være oprettet på siden **Virksomheden**. Feltet **Konsolidere** skal markeres.
 
-Hver konto vises på en separat linje, rapporten følger kontoplanens opbygning. En konto vises ikke, hvis alle beløb på linjen er nul. Følgende oplysninger vises om hver konto:
+Hver konto vises på en separat linje, rapporten følger kontoplanens opbygning. En konto vises ikke, hvis alle beløb på linjen er 0. Følgende oplysninger vises om hver konto:
 
 * Kontonummer
 * Kontonavn.
 * Hvis du har valgt en eller flere koncernvirksomhedskoder i feltet **Konc.virksomhedskode** på anmodningssiden, vises totalen for koncernregnskabet ekskl. de valgte koncernvirksomheder og elimineringer. Hvis du ikke har udfyldt feltet **Konc.virksomhedskode**, vises totalen for koncernregnskabet ekskl. elimineringer.
 * Hvis du har valgt en koncernvirksomhedskode i feltet **Konc.virksomhedskode** på anmodningssiden, vises totalen for de indlæste poster fra koncernvirksomheden. Hvis du ikke har udfyldt feltet **Konc.virksomhedskode**, vises totalen for de bogførte elimineringer i koncernregnskabet.
 * Totalen for koncernregnskabet med alle koncernvirksomheder og alle bogførte elimineringer.
-* De elimineringer, der skal foretages i koncernregnskabet, dvs. poster i den finanskladde, der er valgt på anmodningssiden.
+* Elimineringer foretaget i koncernregnskabet. Det vil sige posterne i den finanskladde, der er valgt på siden anmodning.
 * Bogføringsteksten kopieret fra finanskladden.
 * Koncernregnskabets total efter elimineringerne, hvis de bogføres.
 
@@ -100,7 +103,7 @@ Hvis data for en koncernvirksomhed er placeret i en anden database, skal du eksp
 > [!TIP]
 > Brug den samme proces til at eksportere konsoliderede data, der skal sendes til Dynamics 365 Finance, f.eks. Hvis den aktuelle afdeling er et datterselskab, og moderselskabet bruger Dynamics 365 Finance.
 
-Når du kører batchjobbet, behandles alle poster i finanskonti. Indhold i felterne **Beløb** sammentælles og udlæses for hver kombination af valgte dimensioner og dato. Den næste kombination af valgte dimensioner og dato med samme kontonummer behandles, og derefter behandles kombinationerne i næste kontonummer osv.  
+Når du kører batchjobbet, behandles alle poster i finanskonti. Indhold i felterne **Beløb** sammentælles og udlæses for hver kombination af valgte dimensioner og dato. Den næste kombination af valgte dimensioner og dato med samme kontonummer behandles. Derefter behandles kombinationerne i det næste kontonummer osv.  
 
 De udlæste poster indeholder følgende felter: **Kontonr.**, **Bogføringsdato** og **Beløb**. Hvis dimensionsoplysningerne også blev eksporteret, medtages dimensionskoderne og dimensionsværdierne også.  
 

@@ -117,8 +117,9 @@ Ved at kopiere kan du hurtigt oprette et nyt layout, der er det samme som et eks
    |Beskrivlse| Skriv mere detaljerede oplysninger om layoutet. |nummer|
    |Formateringsindstillinger|Angive dette felt, så det svarer til layouttypen, f. eks. Word, Excel eller RDLC.|ja|
 
-6. Klik på **OK** > **Vælg** for at åbne Stifinder på enheden.
-7. Find og vælg Excel-filen, og vælg derefter **Åbn**.
+6. Vælg **OK**, og benyt derefter en af følgende fremgangsmåder for at uploade layout-filen til rapporten:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    Den valgte fil overføres til layoutet, og du vender tilbage til siden med siden **Rapport-layouts**.
 

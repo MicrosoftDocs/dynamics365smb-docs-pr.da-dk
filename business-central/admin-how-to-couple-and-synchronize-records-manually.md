@@ -2,21 +2,20 @@
 title: Kobling og synkronisering (indeholder video)
 description: 'Synkronisering af en integreret tabeltilknytning muliggør synkronisering af data i alle records i en tabel i Business Central og Dynamics 365 Sales-tabellen, der er sammenkædet.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'crm, sales, couple, decouple, synchronize'
-ms.search.form: 6250
-ms.date: 10/01/2021
 ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.date: 03/31/2023
+ms.custom: bap-template
+ms.search.keywords: 'crm, sales, couple, decouple, synchronize'
+ms.search.form: '6250,'
 ---
 
 # Kobling og synkronisering af poster mellem Dataverse og Business Central
 
 Dette emne handler om, hvordan du sammenkæder en eller flere poster i [!INCLUDE[prod_short](includes/prod_short.md)] med poster i Dataverse or [!INCLUDE[crm_md](includes/crm_md.md)]. Sammenkædning af records lader dig se Dataverse-oplysninger i [!INCLUDE[prod_short](includes/prod_short.md)] og omvendt. Sammenkædningen gør det også muligt at synkronisere data mellem records. Du kan sammenkæde eksisterende records eller oprette og sammenkæde nye records.
 
-> [!Note]
+> [!NOTE]
 > Sammenkædning og synkronisering af data er kun mulig, hvis din systemadministrator har oprettet en forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Dataverse or [!INCLUDE[crm_md](includes/crm_md.md)]. Dette kan hurtigt kontrolleres ved at åbne **debitor**-kortet og søge efter handlingen **Konfigurer sammenkædning**. Hvis handlingen er tilgængelig, er programmerne forbundet.
 
 ## Videoeksempel
@@ -46,11 +45,11 @@ Denne video viser kobling og synkronisering af data i forbindelse med integratio
 2. Vælg handlingen **[!INCLUDE[prod_short](includes/prod_short.md)]** på båndet for at åbne og sammenkæde posten automatisk.
 
     > [!Note]
-    > Du kan kun synkronisere en enkelt post fra [!INCLUDE[crm_md](includes/crm_md.md)] automatisk, når **Synkroniser kun sammenkædede poster** er deaktiveret, og synkroniseringsretningen angives til Tovejs eller Fra integrationstabel på siden **Integrationstabelknytning** for posten. Få flere oplysninger i [Tilknytning af tabeller og felter, der skal synkroniseres](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
+    > Du kan kun synkronisere en enkelt post fra [!INCLUDE[crm_md](includes/crm_md.md)] automatisk, når **Synkroniser kun sammenkædede poster** er deaktiveret, og synkroniseringsretningen angives til Tovejs eller Fra integrationstabel på siden **Integrationstabelknytning** for posten. Få flere oplysninger i [Tilknytning af tabeller og felter, der skal synkroniseres](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).     
 
 ## Sådan sammensætter du flere poster ved hjælp af matchbaseret sammenkædning
 
-Du kan angive de data, der skal synkroniseres for et objekt, f.eks. kunde eller kontakt ved at sammenkæde poster baseret på matches. Du kan begrænse overensstemmelserne ved at gøre søgningen forskel og tildele en prioritet for hver match. Hvis der ikke findes noget match, kan du også angive, at du vil oprette objektet i Dataverse. Yderligere oplysninger finder du under [Tilpasse den matchbaserede sammenkædning](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
+Angiv de data, der skal synkroniseres for et objekt, f.eks. kunde eller kontakt ved at sammenkæde poster baseret på matches. Begræns overensstemmelserne ved at gøre søgningen forskel og tildele en prioritet for hver match. Hvis der ikke findes noget match, kan du også angive, at du vil oprette objektet i Dataverse. Yderligere oplysninger finder du under [Tilpasse den matchbaserede sammenkædning](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
 
 > [!NOTE]
 > Den match baserede koblingsproces springer over poster, der allerede er matchede. Hvis du vil medtage disse poster, når du kører match-baseret kobling, skal du koble posterne fra og derefter prøve igen. Hvis du vil vide mere om at frigøre poster, skal du gå til [Ophævelse af sammenkobling af poster](#uncoupling-records).

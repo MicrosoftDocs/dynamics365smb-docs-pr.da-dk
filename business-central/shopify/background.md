@@ -18,11 +18,11 @@ Det er effektivt at køre nogle opgaver samtidig og på en automatiseret måde. 
 
 ## Udføre opgaver i baggrunden for et bestemt trykkeri
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skal du skrive navnet på **Shopify Butik** og vælge butiksnavnet på listen.
-2. Marker den butik, som du vil synkronisere varer til for at åbne siden **Shopify-købskort**.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Butik**, og vælg det relevante link.
+2. Marker den butik, som du vil køre synkronisering i baggrunden for at åbne **Shopify Butikskort**-siden.
 3. Aktivér **Tillad baggrundssynkronisering** til/fra.
 
-Når synkroniseringshandlingen udløses i stedet for en opgave, der kører i forgrunden, bliver du nu bedt om at vente. Når den er fuldført, kan du fortsætte til næste handling. Opgaven oprettes som en **Opgavekøpost** og starter straks på en måde, der ikke blokerer for spærringen.
+Når synkroniseringshandlingen udløses i stedet for en opgave, der kører i forgrunden, bliver du nu bedt om at vente. Når den er fuldført, kan du fortsætte til næste handling. Opgaven oprettes som en **Opgavekøpost** og starter straks.
 
 ## Sådan planlægges tilbagevendende opgaver
 
@@ -41,6 +41,15 @@ Du kan planlægge, at følgende tilbagevendende aktiviteter skal udføres automa
 
 > [!NOTE]
 > Nogle elementer kan opdateres af flere forskellige opgaver, f.eks. når du importerer ordrer, afhængigt af indstillingen på **Shopify-butikskort**, kan systemet måske også importere og opdatere debitor-og/eller produktdata. Husk at bruge den samme jobkøkategori for at undgå konflikter.
+
+Andre opgaver, der kan være en hjælp til at automatisere behandlingen af salgsdokumenter:
+
+- reportere 497 Massebogfør købsfakturaer
+- rapportere 496 Massebogfør købsordrer
+
+Du kan bruge **Shopify-ordrenr.** feltet til at identificere de salgsdokumenter, der er indlæst fra Shopify.
+
+Hvis du vil vide mere om bogføring af salgsordrer i en batch, skal du gå til [Oprette en opgavekøpost for massebogføring af salgsordrer](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
 ## Se også
 

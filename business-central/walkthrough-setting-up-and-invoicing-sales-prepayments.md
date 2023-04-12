@@ -39,15 +39,15 @@ Denne gennemgang indeholder opgaver for følgende roller:
 
 ## Historie
 
- Pia er regnskabschef. Hun træffer beslutninger om, hvilke kunder der skal betale et depositum, inden varerne produceres eller leveres. Pia indstiller [!INCLUDE[prod_short](includes/prod_short.md)] til at beregne forudbetalinger automatisk.  
+ Phyllis er regnskabschef og træffer beslutninger om, hvilke kunder der skal betale et depositum, inden varerne produceres eller leveres. Pia indstiller [!INCLUDE[prod_short](includes/prod_short.md)] til at beregne forudbetalinger automatisk.  
 
- Susan er salgsordrebehandler. Når en kunde ringer for at afgive en ordre, indtaster hun ordren i systemet, mens kunden er i telefonen. På denne måde kan hun få bekræftet pris- og betalingsbetingelserne med kunden med det samme, og hun kan foretage ændringer i ordren, mens hun forhandler med kunden.  
+ Susan er salgsordrebehandler. Når en kunde ringer for at afgive en ordre, indtaster Susan ordren i systemet, mens kunden er i telefonen. På denne måde kan Susan få bekræftet pris- og betalingsbetingelserne med kunden med det samme, og hun kan foretage ændringer i ordren, mens hun forhandler med kunden.  
 
- Arne arbejder i afdelingen for tilgodehavender, hvor han bogfører fakturaer og betalinger.  
+ Arnie arbejder i afdelingen for tilgodehavender, hvor han bogfører fakturaer og betalinger.  
 
  I dette scenarie angiver Pia forudbetalingskrav for kunden Ravel Møbler ud fra deres kredithistorie. Pia giver Susan instruktioner om, hvordan deres ordrer håndteres.  
 
- Når kunden ringer, forhandler Susanne med vedkommende, indtil de når en aftale. Derefter kan hun vælge at beregne forudbetalingen på flere forskellige måder.  
+ Når kunden ringer, forhandler Susan med kunden, indtil de når frem til en aftale – systemet giver hende mulighed for at beregne forudbetalingen på flere forskellige måder.  
 
  Når Susanne sender forudbetalingsfakturaen, bestiller kunden en ekstra vare. Susanne opdaterer rækkefølgen, og der opretter endnu en forudbetalingsfaktura.  
 
@@ -75,9 +75,9 @@ Følgende procedurer beskriver, hvordan Pias opgaver udføres:
 
 Nu kan du ikke kan levere eller fakturere en ordre med et forudbetalingsbeløb, der ikke er betalt.  
 
-Pia angiver, at debitor 20000 som standard skal faktureres med en forudbetaling på 30 % på alle ordrer. Hun skal derfor indtaste en standardprocent for forudbetaling på debitorkortet.  
+Pia angiver, at debitor 20000 som standard skal faktureres med en forudbetaling på 30 % på alle ordrer. Phyllis skal derfor indtaste en standardprocent for forudbetaling på debitorkortet.  
 
-Pia angiver, at alle debitorer skal faktureres med et depositum på 20 % for vare 1896-S. Debitor 20000 har en dårlig betalingshistorie, så hun angiver en forudbetaling på 40 % for debitor 20000 på vare 1896-S. Følgende fremgangsmåde viser, hvordan standardprocenten for forudbetaling angives.  
+Pia angiver, at alle debitorer skal faktureres med et depositum på 20 % for vare 1896-S. Debitor 20000 har en dårlig betalingshistorie, så Phyllis angiver en forudbetaling på 40 % for debitor 20000 på vare 1896-S. Følgende fremgangsmåde viser, hvordan standardprocenten for forudbetaling angives.  
 
 ### Sådan angives standardprocenten for forudbetalinger for debitorer og varer
 
@@ -165,7 +165,7 @@ Når den korrekte forudbetalingsværdi er angivet på ordren, opretter Susan for
 
 ## Oprette en yderligere forudbetalingsfaktura
 
-Den næste dag ringer kunden til Susan med ændringer til ordren. Kunden vil gerne have to stk. af vare 1896-S. Susan åbner ordren igen og opdaterer den. Hun opretter ny forudbetalingsfaktura til ordren og sender den til kunden.  
+Den næste dag ringer kunden til Susan med ændringer til ordren. Kunden vil gerne have to stk. af vare 1896-S. Susan åbner ordren igen og opdaterer den, hvorefter hun opretter en forudbetalingsfaktura til på ordren og sender den til kunden.  
 
 ### Sådan oprettes der en forudbetalingsfaktura til
 

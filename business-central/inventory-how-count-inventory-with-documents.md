@@ -83,10 +83,10 @@ Når medarbejderne har optalt varelagerbeholdningerne, skal du klargøre dem til
 4. Markér afkrydsningsfeltet **Optalt** på hver linje.
 5. Når du har indtastet alle data for en varelageroptælling, vælger du handlingen **Afslut**. Bemærk, at alle linjer skal have afkrydsningsfeltet **Registreret** valgt.
 
-> [!NOTE]
-> Når du afslutter en varelageroptælling, overføres hver linje til linjen på den tilhørende lageropgørelsesliste, der matcher den nøjagtigt. Værdierne i felterne **Varenr.**, **Variantkode**, **Lokationskode** og **Placeringskode** skal være de samme på registreringen og ordrelinjerne for at matche.<br /><br />
-> Hvis der ikke findes nogen varelagerlinjer, og hvis afkrydsningsfeltet **Tillad registrering uden Ordre** er valgt, vil en ny linje automatisk blive indsat, og afkrydsningsfeltet **Registreret uden ordre"** på den tilhørende lageropgørelsesordrelinje vælges. Eller vises en fejlmeddelelse, og processen annulleres.<br /><br />
-> Hvis mere end en varelageroptællingslinje matcher en linje på lageroptællingsordren, vises en meddelelse, og processen annulleres. Hvis to identiske varelageropgørelseslinjer af en eller anden grund ender på lageropgørelsesordren, kan du benytte en funktion for at løse dette. Se sektionen [Sådan findes to ens varelageropgørelseslinjer](#to-find-duplicate-physical-inventory-order-lines) for yderligere information.
+    > [!NOTE]
+    > Når du afslutter en varelageroptælling, overføres hver linje til linjen på den tilhørende lageropgørelsesliste, der matcher den nøjagtigt. Værdierne i felterne **Varenr.**, **Variantkode**, **Lokationskode** og **Placeringskode** skal være de samme på registreringen og ordrelinjerne for at matche.<br /><br />
+    > Hvis der ikke findes nogen varelagerlinjer, og hvis afkrydsningsfeltet **Tillad registrering uden Ordre** er valgt, vil en ny linje automatisk blive indsat, og afkrydsningsfeltet **Registreret uden ordre"** på den tilhørende lageropgørelsesordrelinje vælges. Eller vises en fejlmeddelelse, og processen annulleres.<br /><br />
+    > Hvis mere end en varelageroptællingslinje matcher en linje på lageroptællingsordren, vises en meddelelse, og processen annulleres. Hvis to identiske varelageropgørelseslinjer af en eller anden grund ender på lageropgørelsesordren, kan du benytte en funktion for at løse dette. Se sektionen [Sådan findes to ens varelageropgørelseslinjer](#to-find-duplicate-physical-inventory-order-lines) for yderligere information.
 
 ## Sådan afsluttes en varelageropgørelse
 
@@ -102,7 +102,7 @@ Du kan også vælge handlingen **Difference i lageropgørelsesordre** for at få
 2. Åbn varelageropgørelsen, som du ønsker at se dobbelt oprettede linjer for.
 3. Vælg handlingen **Vis dobbelt oprettede linjer**.
 
-Alle dobbelt oprettede varelageropgørelseslinjer vises, så du kan slette dem og kun beholde en linje med et unikt værdisæt for de fire felter **Varenr.**, **Variantkode**, **Lokationskode**, og **Placeringskode**.
+Dobbelt fysiske varelageropgørelseslinjer vises, så du kan slette dem og kun beholde en linje med et unikt værdisæt for de fire felter **Varenr.**, **Variantkode**, **Lokationskode**, og **Placeringskode**.
 
 ### Sådan bogføres en varelageropgørelse
 
@@ -118,10 +118,12 @@ Når du har færdigudarbejdet en varelageropgørelse og ændret dens status til 
     På siden **Varelageropgørelse** kan du se det registrerede antal i feltet **Antal registreret (basis)**.
 3. Vælg handlingen **Afslut**.
 
-    Værdien i feltet **Status** ændres til **Afsluttet**, og du kan nu kun ændre opgørelsen ved først at vælge handlingen **Genåbn**.
+    Værdien i feltet **Status** er **Afsluttet**, og du kan nu kun ændre opgørelsen ved først at vælge handlingen **Genåbn**.
 4. Vælg handlingen **Bogfør** for at bogføre ordren, og vælg derefter knappen **OK**.
 
-De aktuelle vareposter i regnskabet opdateres sideløbende med alle aktuelle varesporingsposter.
+    Vareposterne i regnskabet opdateres sideløbende med alle aktuelle varesporingsposter.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ### Sådan vises bogførte varelageropgørelser
 
@@ -141,7 +143,7 @@ Afkrydsningsfeltet **Benyt varesporing** på varelageropgørelseslinjer vælges 
 
 En varelageropgørelse for vare A, der er lagerført som ti forskellige serienumre.
 1. Vælg afkrydsningsfeltet **Benyt varesporing** på registreringslinjen for varen.
-2.  Vælg feltet **Serienr.**, vælg det første serienummer, der findes på lager for varen, og vælg derefter knappen **OK**.
+2. Vælg feltet **Serienr.**, vælg det første serienummer, der findes på lager for varen, og vælg derefter knappen **OK**.
 
     Kopier dernæst linjen for den første "vare-sporet" vare for at indsætte yderligere linjer svarende til nummeret for serienumre, der er angivet i varelagerbeholdningen.
 
@@ -192,8 +194,8 @@ På siden **Varelageropgørelse** indeholder feltet **Negativ beholdning (basis)
 
 Følgende dokumenttyper er nyttige til administration af lagerstedet:
 
-- Brug **Lagermodtagelser** til at registrere positive reguleringer af varer baseret på kvalitet, antal og kostpris.
-- Brug **Lagerleverancer** til at afskrive manglende eller beskadigede varer.
+* Brug **Lagermodtagelser** til at registrere positive reguleringer af varer baseret på kvalitet, antal og kostpris.
+* Brug **Lagerleverancer** til at afskrive manglende eller beskadigede varer.
 
 Du kan udskrive disse dokumenter på ethvert trin, frigive og åbne dem igen og tildele fælles værdier, herunder dimensioner, i hovedet. Hvis du vil udskrive dokumenterne igen, efter de er blevet bogført, kan du gøre det på siderne **Bogført lagermodtagelse** og **Bogført lagerleverance**.
 
@@ -206,10 +208,11 @@ Følgende procedure viser, hvordan du konfigurerer nummerering for lageropgørel
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Lager**, og vælg derefter det relaterede link.
 2. I oversigtspanelet **Nummerering** skal du angive nummerserier for dokumenter i følgende felter:
-   - **Lagermodtagelsesnumre**  
-   - **Bogførte lagermodtagelsesnumre**  
-   - **Lagerleverancenumre**  
-   - **Bogførte lagerleverancenumre**  
+
+   * **Lagermodtagelsesnumre**  
+   * **Bogførte lagermodtagelsesnumre**  
+   * **Lagerleverancenumre**  
+   * **Bogførte lagerleverancenumre**  
 
 ### Sådan oprettes og bogføres et lagerdokument
 
@@ -222,17 +225,19 @@ Følgende fremgangsmåde viser, hvordan du kan oprette, udskrive og bogføre en 
 
 Du kan vælge mellem følgende funktioner på siden **Lagermodtagelse**:
 
-- Vælge handlingerne **Frigiv** eller **Genåbn** for at angive status for næste behandlingsfase  
-- Vælge handlingen **Bogfør** for at bogføre lagermodtagelsen, eller vælge **Bogfør og udskriv** for at bogføre modtagelsen og udskrive kontrolrapporten  
+* Vælge handlingerne **Frigiv** eller **Genåbn** for at angive status for næste behandlingsfase  
+* Vælge handlingen **Bogfør** for at bogføre lagermodtagelsen, eller vælge **Bogfør og udskriv** for at bogføre modtagelsen og udskrive kontrolrapporten  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Udskrivning af lageropgørelsesdokumenter
 
 Du kan angive, hvilke rapporter der skal udskrives i forskellige faser, ved at vælge en af følgende indstillinger i feltet **Forbrug** på siden **Rapportvalg - lager**:
 
-- Lagermodtagelse
-- Lagerleverance
-- Bogført lagermodtagelse
-- Bogført lagerleverance
+* Lagermodtagelse
+* Lagerleverance
+* Bogført lagermodtagelse
+* Bogført lagerleverance
 
 > [!NOTE]
 > De tilgængelige rapporter kan variere afhængigt af dit lands lokalisering. Basisprogrammet indeholder ikke layoutelementer.

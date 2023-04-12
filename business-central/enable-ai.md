@@ -1,6 +1,6 @@
 ---
 title: Konfigurere marketingtekst med Copilot til AI-styret vare (forhåndsversion)
-description: 'I denne artikel forklares det, hvordan du får en CoPilot prøveversion af Business central, og hvordan du aktiverer CoPilot på et miljø'
+description: 'I denne artikel forklares det, hvordan du får en Copilot prøveversion af Business central, og hvordan du aktiverer Copilot på et miljø'
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
-I denne artikel forklares det, hvordan du kan styre muligheden for at oprette marketingtekst med CoPilot til virksomheden i forbindelse med AI-styret vare. Denne opgave udføres af en administrator. Der er to krav, som du skal udføre for at gøre funktionen tilgængelig for brugerne:
+I denne artikel forklares det, hvordan du kan styre muligheden for at oprette marketingtekst med Copilot til virksomheden i forbindelse med AI-styret vare. Denne opgave udføres af en administrator. Der er to krav, som du skal udføre for at gøre funktionen tilgængelig for brugerne:
 
 - Aktivér funktionen **Opret AI-drevet produktbeskrivelser med Copilot**.
 - Samtykke til vilkårene og betingelserne i forbindelse med [forhåndsversion](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) og [Microsoft erklæring om beskyttelse af personlige oplysninger](https://go.microsoft.com/fwlink/?LinkId=521839) på vegne af organisationen.
@@ -22,12 +22,12 @@ Hvis et af disse krav ikke er opfyldt, kan funktionen ikke bruges.
 
 ## Forudsætninger
 
-Du bruger en [forhåndsversion](ai-preview-getstarted.md) af Business central, som er aktiveret til CoPilot. Aktivering af CoPilot udføres af en administrator. Du kan finde flere oplysninger i [Konfigurere marketingtekst for AI-styret vare med CoPilot](enable-ai.md).
+Du bruger en [forhåndsversion](ai-preview-getstarted.md) af Business central, som er aktiveret til Copilot. Aktivering af Copilot udføres af en administrator. Du kan finde flere oplysninger i [Konfigurere marketingtekst for AI-styret vare med Copilot](enable-ai.md).
 
 ## Aktivér eller deaktivér funktionen "Opret AI-drevet produktbeskrivelser med Copilot"
 
 1. I Business Central skal du søge efter og åbne siden **Funktionsstyring**.
-2. Angiv kolonnen **Aktiveret til** for **Forhåndsversion af funktion: Opret AI-drevne produktbeskrivelser med CoPilot**-funktion til **Alle brugere**, så funktionen eller **Ingen** deaktiveres.
+2. Angiv kolonnen **Aktiveret til** for **Forhåndsversion af funktion: Opret AI-drevne produktbeskrivelser med Copilot**-funktion til **Alle brugere**, så funktionen eller **Ingen** deaktiveres.
 
    Du kan finde flere oplysninger om funktionsstyring generelt i [Funktionsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -39,10 +39,10 @@ Du bruger en [forhåndsversion](ai-preview-getstarted.md) af Business central, s
 
 ## Næste trin
 
-Når du har et sandkasse- eller et prøvemiljø, er du klar til at afprøve CoPilot om emner i Business central. Gå til [Tilføje marketingtekst for varer](item-marketing-text.md).  
+Når du aktiverer og godkender en funktion, er du klar til at afprøve Copilot om emner i Business central. Gå til [Tilføje marketingtekst for varer](item-marketing-text.md).  
 
 ## Se også
 
 [Oversigt over AI-styret varemarketingtekst med Copilot](ai-overview.md)  
-[Oprette marketingtekst til varer vha. CoPilot](item-marketing-text.md)  
+[Oprette marketingtekst til varer vha. Copilot](item-marketing-text.md)  
 [AI-drevet varemarketingtekst med Copilot, ofte stillede spørgsmål](ai-faq.md)  

@@ -1,14 +1,12 @@
 ---
 title: Bruge dine data til at oprette en app | Microsoft Docs
 description: Du kan gøre dine Business Central-data tilgængelige som datakilde og angive en OData URL-adresse til dine webtjenester for at oprette en forretningsapp ved hjælp af Power Apps.
-author: edupont04
+author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.service: dynamics365-business-central
 ms.search.keywords: 'OData, Power App, SOAP'
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 04/01/2023
+ms.author: jswymer
 ---
 # Oprette forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af Power Apps
 
@@ -34,7 +32,7 @@ Du kan gøre dine [!INCLUDE[prod_short](includes/prod_short.md)]-data tilgængel
 Disse såkaldte tabeller eksponeres som slutpunkter af [!INCLUDE[prod_short](includes/prod_short.md)]-connectoren til Power Apps.  
 
 > [!NOTE]
-> Hvis du vil medtage data fra andre tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] i din app, skal du samarbejde med en udvikler om at definere en brugerdefineret API i [!INCLUDE[prod_short](includes/prod_short.md)] og derefter bruge denne API via en brugerdefineret connector i Power Apps. Du kan finde flere oplysninger i [Oprette en brugerdefineret connector fra bunden](/connectors/custom-connectors/define-blank).  
+> Hvis du vil medtage data fra andre tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] i din app, skal du samarbejde med en udvikler om at definere en brugerdefineret API i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Nu har du oprettet forbindelse til dine [!INCLUDE[prod_short](includes/prod_short.md)]-data og er klar til at opbygge din PowerApp. Du kan tilføje yderligere skærmbilleder og oprette forbindelse til flere data fra dit [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Oprette en lærreds-app ud fra et eksempel i Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
 

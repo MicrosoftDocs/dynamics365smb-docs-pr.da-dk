@@ -2,29 +2,24 @@
 title: Administration af Microsoft Teams-integration med Business Central| Microsoft Docs
 description: Administration af Microsoft Teams-integration med Business Central.
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 11/03/2022
+ms.topic: overview
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
+ms.date: 02/03/2023
 ms.author: jswymer
-ms.openlocfilehash: 0290a9224691bbcab8e3a7dbef185e1507a3b75a
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9744784"
+ms.reviewer: jswymer
+ms.custom: bap-template
+ms.service: dynamics365-business-central
 ---
-# <a name="managing-microsoft-teams-integration-with-prod_short"></a>Styring af Microsoft Teams-integration med [!INCLUDE [prod_short](includes/prod_short.md)]
+
+# Styring af Microsoft Teams-integration med [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Denne artikel giver en oversigt over, hvad du kan gøre som administrator for at kontrollere Microsoft Teams-integration med [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="in-microsoft-teams"></a>I Microsoft Teams
+## I Microsoft Teams
 
-### <a name="minimum-requirements"></a>Minimumkrav
+### Minimumkrav
 
 I dette afsnit beskrives minimumkrav til [!INCLUDE [prod_short](includes/prod_short.md)]-appfunktioner for at arbejde i Teams.
 
@@ -47,7 +42,7 @@ I dette afsnit beskrives minimumkrav til [!INCLUDE [prod_short](includes/prod_sh
 
     **Indstillingen Tillad URL-prøveversion** skal være aktiveret. I modsat fald kan der ikke oprettes et kort til [!INCLUDE [prod_short](includes/prod_short.md)]-links, der er indsat i en samtale med Teams. Du kan finde flere oplysninger om denne indstilling under [Administrér meddelelsespolitikker i Teams](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the-prod_short-app-optional"></a>Administrerer [!INCLUDE [prod_short](includes/prod_short.md)]-appen (valgfri)
+### Administrerer [!INCLUDE [prod_short](includes/prod_short.md)]-appen (valgfri)
 
 Som Teams-administrator kan du administrere alle apps for din organisation, herunder [!INCLUDE [prod_short](includes/prod_short.md)]-appen. Du kan godkende eller installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen for din organisation, blokere bruger fra installation af appen og meget mere.
 
@@ -56,9 +51,9 @@ Du kan finde flere oplysninger i følgende artikler i Microsoft Teams-dokumentat
 - [Administrere dine apps i Microsoft Teams Administration](/MicrosoftTeams/manage-apps)
 - [Administrere politikker for app-opsætning i Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-prod_short"></a>I [!INCLUDE [prod_short](includes/prod_short.md)]
+## I [!INCLUDE [prod_short](includes/prod_short.md)]
 
-### <a name="minimum-requirements"></a>Minimumkrav
+### Minimumkrav
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] version:
 
@@ -80,14 +75,14 @@ Du kan finde flere oplysninger i følgende artikler i Microsoft Teams-dokumentat
     
     Du kan finde flere oplysninger om rettigheder i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).
 
-## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Installere Business central-appen ved hjælp af centraliseret installation
+## Installere Business central-appen ved hjælp af centraliseret installation
 
 I Microsoft Teams Administration kan du konfigurere Teams App-installation for organisationen. I administrationscenter for Teams kan du bruge funktionen centraliseret installation til automatisk at installere Business Central-app i Teams for alle brugere i din organisation, bestemte grupper eller enkelte brugere.
 
 > [!NOTE]
 > Hvis du vil konfigurere centraliseret installation, skal Teams have rollen **Teams service administrator** eller **Global administrator**.
 
-1. I Business Central kan du vælge det ![Forstørrelsesglas, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikonet, skal du skrive **Teams App Centraliseret installation** og derefter vælge det relaterede link. Du kan desuden vælge [her](https://businesscentral.dynamics.com/?page=1833) for at åbne siden direkte.
+1. I Business Central kan du vælge det ![Forstørrelsesglas, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikonet, skal du skrive **Teams App Centraliseret installation** og derefter vælge det relaterede link. Eller du kan vælge [her](https://businesscentral.dynamics.com/?page=1833) for at åbne siden direkte.
 2. Læs oplysningerne om **Konfigurere Business central-appen til Teams**, og vælg derefter **Næste**.
 3. Åbn [Teams Administration](https://go.microsoft.com/fwlink/?linkid=2163970), og gennemfør følgende trin.
     1. Gå til **Teams-apps** > **Opsætningspolitikker**.
@@ -96,26 +91,26 @@ I Microsoft Teams Administration kan du konfigurere Teams App-installation for o
     4. Vælg **Tilføj**.
 
        Business central skal nu vises under **installerede apps** til politikken.
-    5. Konfigurer eventuelle yderligere indstillinger, og vælg **Gem**.
+    5. Konfigurer yderligere indstillinger efter behov, og vælg **Gem**.
 
     Du kan finde flere oplysninger om opsætnings politikker i grupper i [Administrer politikker for app-opsætning i Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) i dokumentationen til Teams.
-4. Gå tilbage til **Teams appen centraliseret installation** i Business central, og vælg **udført**.
+4. Gå tilbage til **Teams-appen centraliseret installation** i Business central, og vælg **udført**.
 
 > [!IMPORTANT]
 > Det kan være op til 24 timer, før appen Konfigurer politikken skal anvendes, og appen installeres på brugerne.
 
-## <a name="managing-privacy-and-compliance"></a>Administrere beskyttelse af personlige oplysninger og overholdelse 
+## Administrere beskyttelse af personlige oplysninger og overholdelse 
 
 Microsoft Teams indeholder omfattende styring af overholdelse og håndtering af følsomme eller personlige data&mdash;herunder data, som er føjet til chats og kanaler fra [!INCLUDE [prod_short](includes/prod_short.md)]-appen.
 
-### <a name="understanding-where-prod_short-cards-are-stored"></a>Om, hvor [!INCLUDE [prod_short](includes/prod_short.md)]-kort gemmes
+### Om, hvor [!INCLUDE [prod_short](includes/prod_short.md)]-kort gemmes
 
 Når et kort er sendt til en chat, kopieres kortet og de felter, der vises på kortet, til team. Disse oplysninger er underlagt team politikkerne for organisationen, f.eks. politikker for opbevaring af data. Når der vises kort detaljer, er ingen af dataene i vinduet detaljer gemt i grupper. Dataene gemmes stadig i [!INCLUDE [prod_short](includes/prod_short.md)] og bliver kun hentet af Teams, når brugeren vælger at få vist detaljerne. 
 
 - Du kan finde flere oplysninger om, hvor grupper lagrer disse data, i [Placering af data i Microsoft Teams](/microsoftteams/location-of-data-in-teams).
 - Du kan få mere at vide om opbevaringspolitikker i grupper under [Opbevaringspolitikker i Microsoft Teams](/microsoftteams/retention-policies).
 
-### <a name="restricting-sharing-of-cards"></a>Begrænse deling af kort 
+### Begrænse deling af kort 
 
 Du kan forhindre, at bestemte brugere eller grupper sender kort til chatrum eller kanaler ved at oprette meddelelses politikker, der deaktiverer indstilling af **URL-eksempler**. Du kan finde flere oplysninger om denne indstilling under [Administrér meddelelsespolitikker i Teams](/microsoftteams/messaging-policies-in-teams). 
 
@@ -123,7 +118,7 @@ Du kan også bruge informations hinder til at forhindre, at personer eller grupp
 
 Funktionerne til forebyggelse af datatab i Microsoft 365 Security & Compliance Center kan ikke anvendes specifikt på kort. Men de kan anvendes på de chatmeddelelser, der indeholder kortene. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
-### <a name="responding-to-data-requests"></a>Reagere på anmodninger om data
+### Reagere på anmodninger om data
 
 Du kan give teammedlemmer og team ejere mulighed for at slette meddelelser, der indeholder følsomme kort, ved at oprette meddelelses politikker, f. eks **Ejere kan slette sendte meddelelser** og **Brugere kan slette sendte meddelelser**. Du kan finde flere oplysninger om denne indstilling under [Administrér meddelelsespolitikker i Teams](/microsoftteams/messaging-policies-in-teams).
 
@@ -131,9 +126,29 @@ Indholdssøgning og overholdelsesfunktioner i eDiscovery i Microsoft 365 Securit
 
 Da kortdata i grupper er en kopi af data i [!INCLUDE [prod_short](includes/prod_short.md)], kan du også bruge [!INCLUDE [prod_short](includes/prod_short.md)]-funktioner til at eksportere en kundes data, hvis der er anmodet om det. Du kan finde flere oplysninger om beskyttelse af personlige oplysninger i [!INCLUDE [prod_short](includes/prod_short.md)] under [Ofte stillede spørgsmål om beskyttelse Business Central-kunder](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
-## <a name="see-also"></a>Se også
+## Vise eller skjule postdata på kort
+
+Når en post deles med andre i en gruppechat eller-kanal, vises der et kort med felter, som indeholder data om posten. Alle modtagere kan få vist disse data (eller postoversigten) som standard, uanset deres licens eller tilladelser i Business central. Hvis du er administrator, kan du bruge den assisterede opsætningsvejledning **Kortindstillinger** til at skjule postoversigten, så de vises på kort i Teams. Hvis du skjuler postoversigten, fjernes alle felter og billeder, men du kan stadig få vist knappen **Detaljer** og andre ikke-postoplysninger på kortet.
+
+|Postoversigt til|Postoversigt fra|
+|-|-|
+|![Billede, der viser et kort i Teams, når postoversigten er tændt.](media/card-settings-example-on.png)|![Billede, der viser et kort i Teams, når postoversigten er slukket.](media/card-settings-example-off.png)|
+
+Du konfigurerer indstillingen pr. miljø. Så når du slår postoversigten til eller fra, påvirker det alle virksomheder i miljøet.
+
+1. Åbn det miljø, du vil tilpasse, i Business central.
+
+   > [!TIP]
+   > Hvis du vil skifte miljø, skal du vælge <kbd>Ctrl</kbd>+<kbd>O</kbd>.
+2. Vælg ![Forstørrelsesglas, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Kortindstillinger**, og vælg derefter det relaterede link. <!--Or, select [here](https://businesscentral.dynamics.com/?page=1833) to open the page directly.-->
+3. Læs oplysningerne om **Kortindstillingerne**, og vælg derefter **Næste**, når du er klar.
+4. På siden **Datasynlighed** skal du aktivere **Vis postoversigt** for at få vist data på kortene eller deaktivere for at skjule dataene.
+5. Vælg **Næste**, og følg instruktionerne for at fuldføre opsætningsvejledningen.
+
+## Se også
+
 [[!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams Oversigt over integration](across-teams-overview.md)  
-[Installér appen [!INCLUDE [prod_short](includes/prod_short.md)] til Microsoft Teams](across-install-app-for-teams.md)  
+[Installere appen [!INCLUDE [prod_short](includes/prod_short.md)] til Microsoft Teams](across-install-app-for-teams.md)  
 [Teams, ofte stillede spørgsmål](teams-faq.md)  
 [Fejlfinding i Teams](admin-teams-troubleshooting.md)  
 [Udvikling af Teams-integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  

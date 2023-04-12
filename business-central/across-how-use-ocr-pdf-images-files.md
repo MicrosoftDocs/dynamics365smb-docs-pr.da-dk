@@ -44,7 +44,7 @@ Brug dit mailprogram til at videresende en mail til OCR-tjenesteudbyderen med PD
 Da der ikke findes nogen indgående bilagsposter for filen, oprettes der automatisk en ny post på siden **Indgående bilag**, når OCR-tjenesten sender det elektronisk oprettede dokument fra OCR-tjenesten. Du kan finde flere oplysninger i [Oprette indgående bilagsposter](across-how-create-income-document-records.md).
 
 > [!NOTE]  
-> Hvis du arbejder på en tablet eller telefon, kan du sende filen til OCR-tjenesten, så snart du har taget et billede af bilaget, eller du kan oprette et indgående bilag direkte. Du kan finde flere oplysninger i [Oprette en indgående bilagspost ved at tage et billede](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo).
+> Hvis du arbejder på en tablet eller telefon, kan du sende filen til OCR-tjenesten, så snart du har taget et billede af bilaget, eller du kan oprette et indgående bilag direkte. Du kan finde flere oplysninger i [Oprette en indgående bilagspost ved at tage et billede](across-how-create-income-document-records.md#create-an-incoming-document-record-by-taking-a-photo).
 
 ## Sådan modtager du det resulterende elektroniske dokument fra OCR-tjenesten
 

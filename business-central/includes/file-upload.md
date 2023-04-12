@@ -1,0 +1,2 @@
+- Træk filen fra Stifinder på enheden til dialogboksen.
+- Marker linket **klik her for at gennemse**, find filen, og vælg derefter knappen **Åben**.

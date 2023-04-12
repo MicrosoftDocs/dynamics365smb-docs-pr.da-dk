@@ -47,11 +47,11 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 ## Historie  
  Debitoren, Kontorcentralen A/S, bestiller fem turcykler til levering 05-02-2021 (den 5. februar).  
 
- Erik, der er produktionsplanlægger, står for den rutinemæssige forsyningsplanlægning for den første uge af februar 2021. Han filtrerer selv lokationen, EAST, og indtaster planlægningsintervallet for arbejdsdatoen (23-01-2021) til 07-02-2021, før han beregner en foreløbig forsyningsplan.  
+ Erik, der er produktionsplanlægger, står for den rutinemæssige forsyningsplanlægning for den første uge af februar 2021. Eduardo filtrerer lokationen, EAST, og indtaster planlægningsintervallet for arbejdsdatoen (23-01-2021) til 07-02-2021, før han beregner en foreløbig forsyningsplan.  
 
- Det eneste efterspørgsel denne uge er en salgsordre for Kontorcentralen. Erik ser, at ingen af planlægningslinjerne har advarsler, og han fortsætter med at oprette forsyningsordrer uden ændringer for de foreslåede planlægningslinjer.  
+ Det eneste efterspørgsel denne uge er en salgsordre for Kontorcentralen. Eduardo ser, at ingen af planlægningslinjerne har advarsler, og han fortsætter med at oprette forsyningsordrer uden ændringer for de foreslåede planlægningslinjer.  
 
- Den næste dag, før de første forsyningsordrer startes eller bogføres, får Erik besked om, at en anden debitor har bestilt ti turcykler til afsending den 12-02-2021. Han foretager en genberegning for at justere forsyningsplanen i overensstemmelse med ændringen i behovet. Genberegningsresultatet giver en plan med nettoændringen, der foreslår ændringer i både tid og antal for nogle af de forsyningsordrer, der er oprettet i første kørsel.  
+ Den næste dag, før de første forsyningsordrer startes eller bogføres, får Erik besked om, at en anden debitor har bestilt ti turcykler til afsending den 12-02-2021. Eduardo foretager en genberegning for at justere forsyningsplanen i overensstemmelse med ændringen i behovet. Genberegningsresultatet giver en plan med nettoændringen, der foreslår ændringer i både tid og antal for nogle af de forsyningsordrer, der er oprettet i første kørsel.  
 
  Under de forskellige planlægningstrin slår Erik de involverede ordrer op og bruger funktionen Ordresporing til at se, hvilket behov der er dækket af hvilken forsyning.  
 
@@ -80,7 +80,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
  Hermed er klargøringen af eksempeldata til gennemgangen færdig.  
 
 ## Oprette en total forsyningsplan  
- Som reaktion på en ny salgsordre på fem turcykler, starter Ricardo på planlægningsprocessen ved at angive indstillinger, filtre og planlægningsinterval for at ekskludere anden efterspørgsel med undtagelse af behovet den første uge i februar på lokationen EAST. Han begynder så med at beregne en hovedplan (MPS) og fortsætter derefter til beregningen af en komplet forsyningsplan for alle behov på underniveau (MRP).  
+ Som reaktion på en ny salgsordre på fem turcykler, starter Ricardo på planlægningsprocessen ved at angive indstillinger, filtre og planlægningsinterval for at ekskludere anden efterspørgsel med undtagelse af behovet den første uge i februar på lokationen EAST. Ricardo begynder så med at beregne en hovedplan (MPS) og fortsætter derefter til beregningen af en komplet forsyningsplan for alle behov på underniveau (MRP).  
 
 ### Sådan oprettes salgsordren  
 
@@ -198,7 +198,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
  Dermed er den første beregning, analyse og oprettelse af en forsyningsplan for behov på lokationen EAST i første uge af februar færdig. I det følgende afsnit bestiller en anden kunde ti turcykler, og Erik skal foretage en omplanlægning.  
 
 ## Oprette en nettoplan  
- Den næste dag før nogen af forsyningsordrerne er startet eller bogført, ankommer en ny salgsordre fra Libros S.A. på ti turcykler til afsendelse den 02-12-2021. Erik får besked om det nye behov, og han fortsætter til at foretage en genplanlægning for at justere den aktuelle forsyningsplan. Erik bruger funktionen til nettoplanlægning til kun at beregne de ændringer, der er foretaget i behov og forsyning, siden den sidste planlægning blev kørt. Derudover udvider han planlægningsperioden til 14-02-2021 for at inkludere det nye salgsbehov den 12-02-2014.  
+ Den næste dag før nogen af forsyningsordrerne er startet eller bogført, ankommer en ny salgsordre fra Libros S.A. på ti turcykler til afsendelse den 02-12-2021. Eduardo får besked om det nye behov, og han fortsætter til at foretage en genplanlægning for at justere den aktuelle forsyningsplan. Erik bruger funktionen til nettoplanlægning til kun at beregne de ændringer, der er foretaget i behov og forsyning, siden den sidste planlægning blev kørt. Derudover udvider Eduardo planlægningsperioden til 14-02-2021 for at inkludere det nye salgsbehov den 12-02-2014.  
 
  Planlægningssystemet beregner den bedste måde at dække behovet for disse to identiske produkter på, som f.eks. at konsolidere nogle købs- og produktionsordrer, genplanlægge andre ordrer og oprette nye ordrer, hvor dette er nødvendigt.  
 

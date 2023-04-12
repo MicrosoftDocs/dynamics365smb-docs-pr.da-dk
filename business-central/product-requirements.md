@@ -2,13 +2,13 @@
 title: Minimumkrav til brug af Business Central
 description: Få mere at vide om minimumkravene til system og version for brug af Business Central online herunder.
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: overview
+ms.custom: bap-template
 ms.search.keywords: version
-ms.date: 08/23/2022
+ms.date: 02/28/2023
+ms.review: jswymer
 ms.author: jswymer
+ms.service: dynamics365-business-central
 ---
 # Minimumkrav til brug af Business Central
 
@@ -64,7 +64,7 @@ Administrationscenteret er designet til at fungere sammen med den aktuelle versi
 
 ## Bruge Business Central lokalt
 
-Hvis du vil installere Business Central i det lokale miljø, skal du kontrollere systemkravene. Du kan finde flere oplysninger i [Systemkrav til Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20) og [Installationsoversigt](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+Hvis du vil installere Business Central i det lokale miljø, skal du kontrollere systemkravene. Du kan finde flere oplysninger i [Systemkrav til Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v22) og [Installationsoversigt](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
 ## Se også
 

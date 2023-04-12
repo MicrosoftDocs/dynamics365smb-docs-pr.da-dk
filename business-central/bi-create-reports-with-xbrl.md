@@ -90,8 +90,12 @@ Første trin i arbejdet med XBRL-funktionalitet er at indlæse en taksonomi i di
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **XBRL-taksonomier**, og vælg derefter det relaterede link.  
 2. På siden **XBRL-taksonomier** skal du oprette en ny linje og indsætte navnet på og beskrivelsen af taksonomien.  
 3. Vælg handlingen **Skemaer**, og indsæt derefter beskrivelsen af skemaet.  
-4. For at importere skemaet skal du på siden **XBRL-skemaer** vælge handlingen **Indlæs** og derefter vælge en mappe og en XSD-fil. Vælg **Åbn**.  
-5. For at importere linkbasen skal du på siden **XBRL-skemaer** vælge handlingen **Linkbaser** og derefter en mappe og en XML-fil. Vælg **Åbn**.  
+4. Hvis du vil indlæse skemaet, skal du på siden **XBRL-skemaer** vælge **Import**-handlingen og derefter udføre et af følgende trin for at overføre filen:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
+5. Hvis du vil importere linkbasen, skal du på siden **XBRL-skemaer** vælge **Linkbaser**-handlingen og derefter udføre et af følgende trin for at overføre filen:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)] 
 6. Du kan nu vælge at knytte linkbasen til skemaet. Gentag fremgangsmåden, indtil du har indlæst alle linkbaser.  
 7. Vælg handlingen **Anvend til taksonomi** for at knytte linkbasen til skemaet.  
 

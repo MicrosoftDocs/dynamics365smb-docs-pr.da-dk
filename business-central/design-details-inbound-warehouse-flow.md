@@ -48,11 +48,6 @@ I metoderne A, B og C kombineres i metoderne i ét trin, hvor de tilsvarende dok
 > * Den læg-på-lager-aktivitet, der anvendes i metode B sammen med registreringen af oplysninger om læg-på-lager-aktiviteter, bogfører også modtagelsen af kildedokumentet.
 > * Den læg-på-lager-aktivitet, der bruges i metode D, kan ikke bogføres og registrerer kun læg-på-lager. Registreringen gør varerne tilgængelige for viderebehandlingen, men bogfører ikke modtagelsen. I den indgående flow kræver læg-på-lager-aktiviteten en lagermodtagelse.
 
-> [!NOTE]
-> Mens læg-på-lager-aktiviteter og læg-på-lager-aktiviteter i det samme lyder som forskellige dokumenter og bruges i forskellige processer.
-> * Den læg-på-lager-aktivitet, der anvendes i metode B sammen med registreringen af oplysninger om læg-på-lager-aktiviteter, bogfører også modtagelsen af kildedokumentet.
-> * Den læg-på-lager-aktivitet, der bruges i metode D, kan ikke bogføres og registrerer kun læg-på-lager. Registreringen gør varerne tilgængelige for viderebehandlingen, men bogfører ikke modtagelsen. I den indgående flow kræver læg-på-lager-aktiviteten en lagermodtagelse.
-
 ## Ingen dedikeret lageraktivitet
 
 Følgende artikler indeholder oplysninger om, hvordan du behandler modtagelser af kildedokumenter, hvis du ikke har dedikerede lageraktiviteter.

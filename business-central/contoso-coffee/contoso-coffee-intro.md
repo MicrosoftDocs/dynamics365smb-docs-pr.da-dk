@@ -1,6 +1,6 @@
 ---
 title: Introduktion til demonstrationsdata for Contoso Coffee
-description: 'Oversigt over scenarier for, hvordan oplysninger om demonstrationsdata for Contoso Coffee kan hjælpe dig med at lære, hvordan du bruger produktionsfunktionerne i Business central.'
+description: 'Oversigt over scenarier for, hvordan oplysninger om demonstrationsdata for Contoso Coffee kan hjælpe dig med at lære, hvordan du bruger funktionerne i Business central.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
@@ -11,30 +11,8 @@ ms.author: andreipa
 
 # Introduktion til demonstrationsdata for Contoso Coffee
 
-Contoso Coffee er en fiktiv virksomhed, der producerer forbruger- og kommercielle kaffemaskine. Apps **Contoso Coffee** til Business Central tilføjer demodata, som du kan bruge til at lære, hvordan du bruger produktionsfunktionerne i Business central.  
+Contoso Coffee er en fiktiv virksomhed, der producerer forbruger- og kommercielle kaffemaskine. Apps **Contoso Coffee** til Business Central tilføjer demodata, som du kan bruge til at lære, hvordan du bruger funktionerne i Business central.  
 
-Appen indeholder fire produkter, der er optimeret til forskellige scenarier:
-
-- **SP-SCM1009 Airpot**  
-
-  Dette produkt er en stykliste med a halvfabrikata, **Rute**. Bruges til at demonstrere standardproduktionsflowet. Det er konfigureret med alternative ruter, som du kan bruge til at demonstrere forskellige scenarier, der involverer underleverandører. Omkostningsmetoden er *Standard*.  
-
-- **SP-SCM1011 Airpot Duo**  
-
-  Produktet kræver varesporing og har en komponent, der også kræver varesporing. Omkostningsmetoden er *Specifik*.  
-
-- **SP-SCM1004 Autodrip**  
-
-  Dette produkt er en stykliste med a halvfabrikata, **Rute**. Det anbefales at vise de forskellige trækmetoder til både komponenter og operationer. Omkostningsmetoden er *Standard*.
-
-- **SP-SCM1006 AutoDripLite**
-
-  Produktet har tre varianter og tre styklister, der kan tildeles til lagervarer. Produktet bruger funktionen fantomstykliste begreb. Omkostningsmetoden er *Standard*.
-
-Produktionsaktiviteterne i alle scenarier bruger *NORTH*-lokationen.  
-
-> [!IMPORTANT]
-> Før du udfører et af scenarierne for Contoso Coffee, skal du bogføre alle varekladdelinjer med primosaldi. Du kan finde flere krav i afsnittet [Opsætning af Contoso Coffee-data](#set-up-contoso-coffee-data).
 
 ## Opsætning af Contoso Coffee-data
 
@@ -49,43 +27,40 @@ Hvis du vil bruge demonstrationsdataene fra Contoso Coffee, skal du installere t
 
 Føj apps til et tomt firma i et betalt abonnement eller som en del af et prøveabonnement. Du kan f. eks. oprette en ny virksomhed uden eksempeldata fra guiden **Opret ny virksomhed**, som du kan åbne fra **virksomhedslisten**. Tilføj derefter apps fra [markedspladsen](../ui-extensions-install-uninstall.md#install), hvis de ikke allerede er angivet på siden **Udvidelsesstyring**.  
 
-Når de relevante apps er installeret, skal du gå til [Contoso Coffee-demodata](https://businesscentral.dynamics.com/?page=4760)-siden i [!INCLUDE [prod_short](../includes/prod_short.md)] og ændre standardindstillingerne, så de passer til dine behov. Følgende tabeller beskriver indstillingerne:  
+Derefter skal du gøre følgende:
+ - [Produktionsopsætningen](manufacturing/contoso-coffee-manufacturing-intro.md) til forberedelse til brug af [produktionsscenarierne](#manufacturing-scenarios)
+ - [Lagerstedsopsætningen](warehousing/contoso-coffee-warehousing-intro.md) til forberedelse til brug af [lagerstedsscenarierne](#warehousing-scenarios)
 
-|Felt  |Beskrivlse  |
-|---------|---------|
-|**Startår** |Angiver det første år, du vil bruge til demonstrationsdataene fra Contoso Coffee. Afhængigt af virksomhedens opsætning er året enten et kalenderår eller et regnskabsår.|
-|**Produktionssted** |Angiver det lagersted, som du vil bruge til produktionshandlinger. Standardindstillingen er *NORTH*, men du kan ændre den efter behov.|
-|**Virksomhedstype**    |Angiver, om det aktuelle regnskab skal rapportere moms eller moms. |
-|**Indlands – Virksomhedsbogføringsgruppe**|Angiver en forretnings kode for indenlandske debitorer og kreditorer. Forretnings koderne bruges, når transaktionerne bogføres. |
-|**Kapacitet – generel produktbogføringsgruppe**    |Angiver en kode for varer eller ressourcer, der skal bruges til bogføring af kapacitet.|
-|**Detail – Generel produktbogføringsgruppe**    |Angiver en kode for varer eller ressourcer, der skal bruges til bogføring af detail.|
-|**Råmaterialer – generel produktbogføringsgruppe**    |Angiver en kode for varer eller ressourcer, der skal bruges til bogføring af råmateriale. |
-|**Basis momskode**    |Angiver en eksisterende momsproduktgruppe, der skal bruges til varer.|
-|**Færdig kode**    |Angiver en eksisterende momsproduktgruppe, der skal bruges til færdige varer.|
-|**Prisfaktor**     |Angiver en faktor, der skal omregnes til en pris fra USD/EUR til den lokale valuta. *1* betyder, at prisen er det samme beløb i alle valutaer. Der bruges et højere nummer til at beregne prisen i den lokale valuta. |
-|**Afrundingspræcision**  |Definerer, hvordan beregnede forbrugsmængder skal afrundes, når de indtastes på forbrugskladdelinjer. Mængder under 0,5 nedrundes. Mængder, der er lig med eller større end 0.5 rundes op.|
+## Produktionsscenarier
 
-Når du er færdig, skal du vælge handlingen **Opret demodata**. Det tager nogle få minutter at føje dataene til den underliggende database, men så er du klar til at køre forskellige scenarier.  
+Contoso Coffee-demodata understøtter i øjeblikket følgende produktionsscenarier for test og træning:
 
-## Eksempler
-
-Contoso Coffee-demodata understøtter i øjeblikket følgende scenarier for test og træning:
-
-1. [Opret en ny produktionsstykliste og styklisteversion](create-new-production-bom-version.md)  
-2. [Opret en ny rute](create-new-routing.md)  
-3. [Opret en ny fastlagt produktionsordre og ændre den](create-firm-planned-production-order-change.md)  
-4. [Kombinere automatisk og manuel træk](combine-automatic-manual-flushing.md)  
-5. [Bruge Ordreplanlægning til at oprette og reservere levering](order-planning-create-reserve-supply.md)  
-6. [Konfigurere og behandle en underleverandør operation](set-up-process-subcontracting-operation.md)  
-7. [Opret ny kapacitet](set-up-new-capacity.md)  
-8. [Prognosebehov for varevarianter med forskellige styklister tildelt](variants.md)  
+1. [Opret en ny produktionsstykliste og styklisteversion](manufacturing/create-new-production-bom-version.md)  
+2. [Opret en ny rute](manufacturing/create-new-routing.md)  
+3. [Opret en ny fastlagt produktionsordre og ændre den](manufacturing/create-firm-planned-production-order-change.md)  
+4. [Kombinere automatisk og manuel træk](manufacturing/combine-automatic-manual-flushing.md)  
+5. [Bruge Ordreplanlægning til at oprette og reservere levering](manufacturing/order-planning-create-reserve-supply.md)  
+6. [Konfigurere og behandle en underleverandør operation](manufacturing/set-up-process-subcontracting-operation.md)  
+7. [Opret ny kapacitet](manufacturing/set-up-new-capacity.md)  
+8. [Prognosebehov for varevarianter med forskellige styklister tildelt](manufacturing/variants.md)  
 
 Læs trinene for hvert scenarie i den relevante artikel.  
 
 > [!IMPORTANT]
-> Denne gennemgang kræver, at brugeroplevelsen er sat til *Premium* på siden **firmaoplysninger**.
+> Produktionsgennemgangen kræver, at brugeroplevelsen er sat til *Premium* på siden **Firmaoplysninger**.
 
+## Lagerstedsscenarier
+
+Contoso Coffee-demodata understøtter i øjeblikket følgende lagerstedsscenarier for test og træning:
+
+1.  Konfigurere standardplaceringer, modtagelse og læg-på-lager med læg-på-lager, pluk og Levér lager med pluk (lager) i ordre-til-ordre-måden med [gennemgang af indgående og udgående flow i grundlæggende lageropsætninger](warehousing/warehouse-basic-flow-putaway-pick.md)
+2.  Modtagelse og læg-på-lager-flere indgående ordrer på én gang med lagermodtagelse, afsende flere ordrer på én gang med en lagerleverance, plukke med lagerpluk med [gennemgang af indgående og udgående flow i blandede lager konfigurationer](warehousing/warehouse-mixed-flow-receive-pick-ship.md)
+3.  Konfigurere faste placeringer for vareenhed, direkte afsendelse af brugere for at reducere varernes fysiske bevægelser, optimere varer med genopfyldnings opfyldning, nedbrydnings enheder til mindre enheder, fordele plukning blandt lagersteder med Plukkladde med [gennemgang af indgående og udgående flow i avanceret Lageropsætning med styret læg-på-lager og pluk](warehousing/warehouse-directed-flow.md)
+
+Læs trinene for hvert scenarie i den relevante artikel.
+   
 ## Se også
 
 [Produktion](../production-manage-manufacturing.md)  
-[Produktionsrapporter og analyser i Business Central](../production-reports.md)  
+[Lagersted](../warehouse-manage-warehouse.md)  
+

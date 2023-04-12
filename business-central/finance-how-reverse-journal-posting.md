@@ -1,15 +1,12 @@
 ---
 title: Fortryde en postering ved at bogføre en tilbageføringspost
-description: 'Hvis du har oprettet en forkert bogføring i finanskladden, kan du bruge funktionen Tilbagefør transaktion til at fortryde bogføringen med et korrekt revisionsspor.'
+description: 'Hvis du finder fejl i en bogføring i finanskladden, kan du bruge funktionen Tilbagefør transaktion til at fortryde bogføringen med et korrekt revisionsspor.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: reimbursement
-ms.search.form: '20, 25, 29, 38, 202, 5912,'
-ms.date: 07/22/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.date: 03/28/2023
+ms.custom: bap-template
 ---
 # Tilbageføre kladdeposteringer og annullere modtagelser/leverancer
 
@@ -93,6 +90,5 @@ Fremgangsmåden er tilsvarende for bogførte returvaremodtagelser.
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Finans](finance.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

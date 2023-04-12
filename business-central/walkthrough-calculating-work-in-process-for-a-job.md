@@ -44,7 +44,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
  CRONUS har påtaget sig et længerevarende projekt, der nu har løbet over flere rapporteringsperioder. Tina, der er projektgruppemedlem, beregner Igangværende arbejde (VIA) for at sikre, at virksomhedens regnskabsopgørelse er nøjagtig.  
 
- Som del af denne procedure vælger Tina en bestemt gruppe opgaver, der skal inkluderes i VIA-beregningen. På siden **Sagsopgavelinjer** kan hun angive disse linjer i kolonnen **VIA i alt**.  
+ Som del af denne procedure vælger Tina en bestemt gruppe opgaver, der skal inkluderes i VIA-beregningen. På siden **Sagsopgavelinjer** kan Tricia angive disse linjer i kolonnen **VIA i alt**.  
 
  Følgende tabel beskriver tre indstillinger.  
 
@@ -54,7 +54,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 |**Total**|Definerer det område eller den gruppe af opgaver, der er medtaget i beregningen af VIA og registrering. Inden for gruppen vil alle sagsopgaver med **Sagsopgavetype** indstillet til **Bogføring** blive inkluderet i VIA i alt, medmindre feltet **VIA i alt** er indstillet til **Ekskluderet**.|  
 |**Udelukket**|Gælder kun for opgaver med **Sagsopgavetype** indstillet til **Bogføring**. Opgaven medtages ikke ved beregningen af VIA og registrering.|  
 
- I følgende gennemgang anvender Tina kostværdimetoden, der er standard i virksomheden, til at beregne igangværende arbejde. Hun angiver, hvilken del af sagen, der skal medtages i beregningen af igangværende arbejde ved at tildele forskellige VIA i alt-værdier til forskellige sagslinjer.  
+ I følgende gennemgang anvender Tricia kostværdimetoden, der er standard i virksomheden, til at beregne igangværende arbejde. Tricia angiver, hvilken del af sagen, der skal medtages i beregningen af igangværende arbejde ved at tildele forskellige VIA i alt-værdier til forskellige sagslinjer.  
 
 ### Sådan beregnes VIA  
 
@@ -110,7 +110,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
 ## Bogføre VIA i regnskab
 
- Nu, hvor Tina har beregnet VIA for denne sag, kan hun bogføre det i regnskabet.  
+ Nu, hvor Tricia har beregnet VIA for denne sag, kan hun bogføre det i regnskabet.  
 
 ### Sådan bogføres VIA til finanspost  
 
@@ -134,7 +134,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
 ## Tilbageføre en VIA-bogføring
 
- Tina bestemmer, at de arbejdsopgaver, der blev udeladt fra beregningen af igangværende arbejde, skulle have været beregnet i igangværende arbejde. Hun kan tilbageføre forkerte bogføringer uden at skulle bogføre nye VIA-bogføringer.  
+ Tina bestemmer, at de arbejdsopgaver, der blev udeladt fra beregningen af igangværende arbejde, skulle have været beregnet i igangværende arbejde. Tricia kan tilbageføre forkerte bogføringer uden at skulle bogføre nye VIA-bogføringer.  
 
 ### Sådan tilbageføres en VIA-bogføring.  
 
@@ -153,7 +153,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 13. Åbn **Sagsopgavelinjer** til sagen, inkluder de dele af sagen, der skal medtages i VIA-beregningen, og genberegn og bogfør derefter den nye værdi i regnskabet.  
 
     > [!NOTE]  
-    >  Antag, at Tina beregnede og bogførte igangværende arbejde for en sag med forkerte datoer. Ved at følge de tidligere beskrevne metode kan hun tilbageføre de forkerte bogføringer, rette datoerne og genposterer i regnskabet.  
+    >  Antag, at Tina beregnede og bogførte igangværende arbejde for en sag med forkerte datoer. Ved at følge de tidligere beskrevne metode kan Tricia tilbageføre de forkerte bogføringer, rette datoerne og genposterer i regnskabet.  
 
 ## Efterfølgende trin
 

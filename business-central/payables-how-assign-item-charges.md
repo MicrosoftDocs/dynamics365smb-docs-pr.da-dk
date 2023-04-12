@@ -1,7 +1,7 @@
 ---
 title: Tildele varegebyrer til salg og køb (indeholder video)
-description: 'Tildele varegebyrer, hvis du vil have, at dine lagervarer skal pålægges de ekstra omkostninger, f.eks. fragt, fysisk håndtering, forsikring og transport, som du har ved køb eller salg af varer, kan du bruge funktionen Varegebyrer.'
-author: SorenGP
+description: 'Tildele varegebyrer, når du har behov for lagervarer for at overtage omkostninger, f. eks. fragt og fysisk håndtering.'
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,37 +12,42 @@ ms.date: 06/22/2021
 ms.author: edupont
 ---
 # Bruge varegebyrer til at angive ekstra handelsomkostninger
-For at sikre korrekt værdiansættelse, skal dine lagervarer pålægges evt. ekstra omkostninger, f.eks. fragt, fysisk håndtering, forsikring og transport, som du har ved køb eller salg af varer. Ved køb består hjemtagelsesprisen for en indkøbt vare af købsprisen til leverandøren og alle ekstra, direkte varegebyrer, som det er muligt at tildele til individuelle leverancer eller returvareleverancer. Ved salg kan det være lige så vigtigt at kende omkostningerne ved forsendelse af solgte varer som at kende omkostningen ved levering af købte varer.
 
-Ud over at registrere ekstra omkostninger i lagerværdien kan du bruge funktionen Varegebyrer til følgende:
+For at sikre korrekt værdiansættelse, skal dine lagervarer pålægges evt. ekstra omkostninger, f.eks. fragt, fysisk håndtering, forsikring og transport, som du har ved køb eller salg af varer. Ved køb består hjemtagelsesprisen for en indkøbt vare af købsprisen til leverandøren og alle andre direkte varegebyrer, som det er muligt at tildele til individuelle leverancer eller returvareleverancer. Ved salg kan det være lige så vigtigt at kende omkostningerne ved forsendelse af solgte varer som at kende omkostningen ved levering af købte varer.
 
-- Identificere en vares hjemtagelsespris for på den baggrund at kunne træffe mere nøjagtige beslutninger om, hvordan distributionsnetværket kan optimeres.
-- Opdele en vares kostpris eller salgspris til brug i analyser.
-- Indregn nedslag i prisen i kostprisen og salgsdekort i salgsprisen.
+Ud over at registrere ekstra omkostninger i din lagerværdi kan du bruge funktionen Varegebyrer til følgende:
 
-Når du vil tildele varegebyrer, skal du først opsætte varegebyrnumre for forskellige typer varegebyrer, herunder hvilke finanskonti omkostninger vedrørende salg, køb og lagerreguleringer skal bogføres på. Et varegebyrnummer består af en kombination af produktbogføringsgruppe, skattegruppekode, momsproduktbogføringsgruppe og varegebyr. Når du angiver varegebyrnummeret i et købs- eller salgsdokument, hentes den relevante finanskonto på basis af opsætningen af varegebyrkoden og de oplysninger, der er i det enkelte dokument.
+* Identificere en vares hjemtagelsespris for på den baggrund at kunne træffe mere nøjagtige beslutninger om, hvordan distributionsnetværket kan optimeres.
+* Opdele en vares kostpris eller salgspris til brug i analyser.
+* Indregn nedslag i prisen i kostprisen og salgsdekort i salgsprisen.
+
+Før du kan tildele varegebyrer, skal du oprette varegebyrnumre til de forskellige typer varegebyrer. Her kan du angive, hvilke finanskonti der skal bogføres omkostninger i forbindelse med salg, Køb og lagerreguleringer for. Et varegebyrnummer består af en kombination af produktbogføringsgruppe, skattegruppekode, momsproduktbogføringsgruppe og varegebyr. Når du angiver varegebyrnummeret på et købs-eller salgsdokument, hentes finanskontoen. Den konto, der hentes, vælges på grundlag af opsætningen af varegebyrnummeret og oplysningerne i dokumentet.
 
 For både købs- og salgsdokumenter, kan du tildele et varegebyr på to måder:
-- I det dokument, hvor de varer, som varegebyret vedrører, er angivet. Det gør du typisk for dokumenter, der endnu ikke fuldt ud er bogført.
-- I en separat faktura ved at knytte varegebyret til en bogført kvittering eller leverance, hvor de varer, gebyret vedrører, er anført.
+
+* I det dokument, hvor de varer, som varegebyret vedrører, er angivet. Det gør du typisk for dokumenter, der endnu ikke fuldt ud er bogført.
+* I en separat faktura ved at knytte varegebyret til en bogført kvittering eller leverance, hvor de varer, gebyret vedrører, er anført.
 
 > [!NOTE]  
->   Du kan tildele varegebyrer til ordrer, fakturaer og kreditnotaer for både køb og salg. I følgende procedurer beskrives, hvordan du arbejder med varegebyrer for en købsfaktura. Trinene er de samme for alle andre købs- og salgsdokumenter.
+> Du kan tildele varegebyrer til ordrer, fakturaer og kreditnotaer for både køb og salg. I følgende procedurer beskrives, hvordan du arbejder med varegebyrer for en købsfaktura. Trinene er de samme for alle andre købs- og salgsdokumenter.
 
 ## Eksempel
+
 I denne video kan du se, hvordan du håndterer yderligere forsendelsesomkostning som en del af lagerkostprisberegning.
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
 ## Sådan oprettes varegebyrnumre
-Varegebyrnumre bruges til at skelne mellem de forskellige typer varegebyrer, som bruges i din virksomhed.
+
+Varegebyrnumre bruges til at skelne mellem de forskellige typer varegebyrer.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **varegebyrer**, og vælg derefter det relaterede link.
 2. På siden **Varegebyrer** skal du vælge handlingen **Ny** for at oprette en ny linje.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## Sådan tildeles et varegebyr direkte til købsfakturaen for varen
-Hvis du kender varegebyret på det tidspunkt, hvor du bogfører en købsfaktura for varen, skal du følge nedenstående procedure.
+
+Hvis du kender varegebyret, hvor du bogfører en købsfaktura for varen, skal du følge nedenstående procedure.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.
 2. Opret en ny købsfaktura. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).
@@ -65,13 +70,30 @@ Hvis varegebyret er fuldt tildelt, er værdien i feltet **Antal, der skal tildel
 Varegebyret tildeles nu købsfakturaen. Når du bogfører modtagelsen af købsfakturaen, opdateres varens lagerværdier med omkostningen ved varegebyret.  
 
 ## Sådan tildeles et varegebyr fra en separat faktura til købsfakturaen for varen
+
 Hvis du har modtaget en faktura for varegebyret, når du har bogført den originale købsleverance, skal du benytte denne fremgangsmåde.
+
 1. Gentag trin 1 til 8 i [Sådan tildeles et varegebyr direkte til købsfakturaen for varen](payables-how-assign-item-charges.md#to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item).
 2. Vælg handlingen **Hent købsleverancelinjer** på siden **Varegebyrtildeling**.
 3. På siden **Købsmodtagelseslinjer** skal du vælge den bogførte købsleverance for den vare, du vil tildele varegebyret til, og vælg derefter knappen **OK**.
 4. Vælg handlingen **Foreslå varegebyrtildeling**.
 
 Omkostningen ved varegebyret på den separate købsfaktura er nu tildelt til varen på den bogførte købsleverance, og dermed opdateres varens lagerværdi med omkostningen ved varegebyret.
+
+## Håndtere varegebyrer for delleverancer
+
+Her kan du se et eksempel på, hvordan varegebyrer håndteres for en delleverance.
+
+Du har en købsordre med tre linjer:
+
+* To linjer er til varer.
+* Der findes en linje med varegebyrer fordelt på tværs af varerne efter beløb.
+
+Når varerne leveres, opdager du, at et af varerne mangler, så du kan ikke markere linjen som modtaget. Du kan kun modtage og bogføre købsfakturaen for den anden vare og samtidig behandle den manglende vare senere.
+
+Hvis du vil håndtere vareomkostningerne for den delvise modtagelse på siden **Varegebyrtildeling**, skal du skrive **0** i feltet håndteringsantal på linjen for den manglende vare på siden **Antal til håndtering**. Kopier derefter værdien fra feltet **Antal varegebyr at håndtere** til felter **Antal til faktura** på købsordrelinjerne.
+
+Når du er klar til at håndtere den vare, der manglede, skal du opdatere feltet **Antal til ekspedition** og bogføre ordren.
 
 ## Se relateret [Microsoft-træning](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
 

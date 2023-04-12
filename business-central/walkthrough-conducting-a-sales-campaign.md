@@ -44,7 +44,7 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 
 ## Historie
 
- Marketingmanager i salgsafdelingen for CRONUS er ansvarlig for planlægning af kampagner og for at udføre dem. Han træffer også beslutninger om, hvilke handelsmesser, de skal deltage i, og han evaluerer kampagnefremskridt.  
+ Marketingmanager i salgsafdelingen for CRONUS er ansvarlig for planlægning af kampagner og for at udføre dem. Marketingchefen træffer også beslutninger om, hvilke handelsmesser, de skal deltage i, og han evaluerer kampagnefremskridt.  
 
  Marketingmedarbejderen fra marketingafdelingen tager sig af produktion, distribution og udleveringen af marketingmaterialer.  
 
@@ -96,7 +96,7 @@ Siden **Målgruppe** indeholder nu en liste over kontakter, der er baseret på d
 
 ## Søge efter data
 
- Marketingchefen ser nærmere på listen med udvalgte kontakter og kan se, at listen er alt for lang. Han beslutter at reducere listen ud fra de reelle kundeemner for at sikre, at han fokuserer på den rigtige målgruppe. Denne proces med at finjustere og/eller reducere dataene kaldes datasøgning.  
+ Marketingchefen ser nærmere på listen med udvalgte kontakter og kan se, at listen er alt for lang. Chefen beslutter at reducere listen ud fra de reelle kundeemner for at sikre, at han fokuserer på den rigtige målgruppe. Denne proces med at finjustere og/eller reducere dataene kaldes datasøgning.  
 
 ### Sådan fjernes kontakter fra målgruppen  
 

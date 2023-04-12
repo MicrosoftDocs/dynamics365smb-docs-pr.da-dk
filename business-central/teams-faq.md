@@ -340,6 +340,10 @@ Hvis du sletter en meddelelse, der indeholder et kort, slettes eller påvirkes d
 
 Nej. Feltværdierne på et kort i Teams, herunder alle billeder, er baseret på de data, der er tilgængelige, da kortet blev sendt til chatten. [!INCLUDE [prod_short.md](includes/prod_short.md)]-kort opdateres ikke automatisk i Teams. 
 
+### Hvorfor viser kort ikke flere oplysninger i stedet for blot knappen sidenavn og detaljer?
+
+En administrator kan have konfigureret Teams-integrationen, så kortene ikke viser data om poster. Du kan finde flere oplysninger i [Vise eller skjule postdata på kort](admin-teams-integration.md#show-or-hide-record-data-on-cards).
+
 ### Vil andre se mit kort, hvis de ikke har [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen til Teams? 
 
 Når du skriver og sender en meddelelse til chatten, som indeholder et kort, vil alle brugere kunne se kortet&mdash;selvom de ikke har installeret appen [!INCLUDE [prod_short.md](includes/prod_short.md)] til Teams.

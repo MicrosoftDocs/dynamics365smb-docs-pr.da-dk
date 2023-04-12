@@ -1,20 +1,20 @@
 ---
 title: Betalingstolerance og kontantrabattolerance
-description: 'Du kan angive betalingstolerance for at afslutte en faktura, når betalingen ikke fuldt ud dækker beløbet på fakturaen.'
+description: 'Denne artikel forklarer, hvordan du kan opsætte betalingstolerance for at afslutte en faktura, når betalingen ikke fuldt ud dækker beløbet på fakturaen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '118, 314, 395'
-ms.date: 10/29/2021
+ms.date: 04/03/2023
 ms.author: edupont
 ---
 # Arbejde med betalingstolerancer og kontantrabattolerancer
 
 Du kan angive en betalingstolerance for at afslutte en faktura, når betalingen ikke fuldt ud dækker beløbet på fakturaen. Betalingstolerancer er for eksempel typisk for små beløb, der ellers ville være dyrere at rette end bare at acceptere. Du kan angive en kontantrabattolerance til at give kontantrabat, efter at kontantrabatdatoen er overskredet.  
 
-Du kan bruge betalingstolerancer, så alle udestående beløb har en angivet maksimal tilladt betalingstolerance. Hvis betalingstolerance er overholdt, analyseres det indbetalte beløb. Hvis det indbetalte beløb er utilstrækkeligt, vil det udestående beløb lukkes helt af den utilstrækkelige indbetaling. Der bogføres automatisk en detaljeret post på betalingsposten, så der ikke er noget restbeløb på den udlignede fakturapost. Hvis det indbetalte beløb er en overbetaling, bogføres automatisk en ny detaljeret post på betalingsposten, så der ikke er noget restbeløb på betalingsposten.
+Brug betalingstolerancer, så alle udestående beløb har en angivet maksimal tilladt betalingstolerance. Hvis betalingstolerance er overholdt, analyseres det indbetalte beløb. Hvis det indbetalte beløb er utilstrækkeligt, vil det udestående beløb lukkes helt af den utilstrækkelige indbetaling. Der bogføres automatisk en detaljeret post på betalingsposten, så der ikke er noget restbeløb på den udlignede fakturapost. Hvis det indbetalte beløb er en overbetaling, bogføres automatisk en ny detaljeret post på betalingsposten, så der ikke er noget restbeløb på betalingsposten.
 
 Du kan bruge kontantrabattolerancer, så hvis du accepterer en kontantrabat efter kontantrabatdatoen, bogføres den altid på enten kontantrabatkontoen eller en betalingstolerancekonto.
 
@@ -66,6 +66,9 @@ Hvis du skal opsætte tolerancer, skal du oprette forskellige tolerancekonti. Du
 > For at deaktivere tolerancer for en debitor eller kreditor skal du spærre tolerancer på de relevante debitor- eller kreditorkort. Du kan finde flere oplysninger i [Sådan spærres betalingstolerancer for debitorer](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
 > Når du opsætter tolerancer, kontrolleres det via [!INCLUDE[prod_short](includes/prod_short.md)], om der er åbne poster, og tolerancen beregnes også for disse poster.
+
+> [!IMPORTANT]  
+> Når du aktiverer feltet **Reguler moms ved kontantrabat** på siden **Momsbogføringsopsætning**, anses momsbeløbet for at være relateret til **betalingstolerancer** og **kontantrabat**-beløb og moms reduceres for begge transaktionsbeløb, hvis de findes. Systemet kan ikke konfigureres til kun at anvende momsreduktion for én type transaktion.  
 
 ## Sådan aktiveres eller deaktiveres betalingstoleranceadvarsler
 

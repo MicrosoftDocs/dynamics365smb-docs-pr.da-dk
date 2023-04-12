@@ -36,13 +36,14 @@ Indstillingen **Oplevelse** gælder for alle brugere i en virksomhed, men de enk
 Brugere tildeles til planer i Microsoft 365 Administration i forbindelse med generelt arbejde for at oprette Business Central-brugere. Du kan finde flere oplysninger i [Tilføje brugere og tildele licenser på samme tid](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
 ### Sådan opdateres planændringer i brugergrupper
-Når du har ændret brugerplaner i Microsoft 365 Administration, f.eks. tildelt flere brugere til Premium-planen, skal du afspejle ændringen i [!INCLUDE[prod_short](includes/prod_short.md)].
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
+Når du har ændret brugerplaner i Microsoft 365 Administration, f.eks. tildelt flere brugere til Premium-planen, skal du opdatere [!INCLUDE[prod_short](includes/prod_short.md)] afspejle ændringen.
 
 1. Log på som administrator.
 2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugere**, og vælg derefter det relaterede link.
-3. Vælg handlingen **Opdater alle brugergrupper** på siden **Brugergrupper**.
-
-Alle nye oplysninger om planer for brugere og de tilknyttede brugergrupper opdateres nu i overensstemmelse med ændringerne i planen.
+3. Du kan også vælge handlingen **Opdater brugere fra Microsoft 365** på siden **Brugere**.
 
 ### Sådan vælges Premium-oplevelsen
 Du kan nu fortsætte med at vælge den nye oplevelse.

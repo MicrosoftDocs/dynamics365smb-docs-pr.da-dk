@@ -1,18 +1,17 @@
 ---
 title: Definere lagermedarbejdere
 description: 'Hver bruger, som udfører lageraktiviteter, skal være defineret som en lagermedarbejder, der er tildelt én standardlokation og evt. flere ikke-standardlokationer.'
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 03/09/2023
+ms.custom: bap-template
 ms.search.form: '7328, 7348'
-ms.date: 04/01/2021
-ms.author: edupont
 ---
 # Definere lagermedarbejdere
 
-Hver bruger, som udfører lageraktiviteter, skal være defineret som en lagermedarbejder, der er tildelt én standardlokation og evt. flere ikke-standardlokationer. Denne brugeropsætning filtrerer alle lageraktiviteter på tværs af databasen til medarbejderens lokation, så medarbejderen kun kan udføre lageraktiviteterne på standardlokationen. En bruger kan være tildelt yderligere ikke-standard-lokationer, som medarbejderen kan få vist aktivitetslinjer for men ikke udføre aktiviteterne.
+Hver bruger, som udfører lageraktiviteter, skal være defineret som en lagermedarbejder og tildelt en standardlokation. [!INCLUDE [prod_short](includes/prod_short.md)] filtrerer lageraktiviteter til medarbejderens standardplacering. De kan kun udføre lageraktiviteter på lokationen. Du kan også tildele en bruger på andre lokationer. De kan få adgang til, men ikke udføre aktiviteter på disse placeringer.
 
 ## Sådan defineres lagermedarbejdere  
 
@@ -20,8 +19,8 @@ Hver bruger, som udfører lageraktiviteter, skal være defineret som en lagermed
 2. Vælg handlingen **Ny**.  
 3. Vælg feltet **Bruger-ID**, og vælg derefter brugeren, der skal tilføjes som lagermedarbejder. Vælg knappen **OK**.  
 4. Angiv i feltet **Lokationskode** koden for den lokation, hvor brugeren skal arbejde.  
-5. Marker afkrydsningsfeltet **Standard** for at definere lokationen som den eneste lokation, hvor medarbejderen kan udføre lageraktiviteter.  
-6. Gentag disse trin for at tildele andre medarbejdere til lokationer eller for at tildele ikke-standardlokationer til eksisterende lagermedarbejdere.  
+5. Aktiver til/fra-feltet **Standard** for at definere lokationen som den eneste lokation, hvor medarbejderen kan udføre lageraktiviteter.  
+6. Gentag disse trin for at tildele andre medarbejdere til lokationer eller for at tildele andre lokationer til eksisterende lagermedarbejdere.  
 
 ## Se relateret [Microsoft-træning](/training/modules/get-started-warehouse-management/)
 
@@ -32,6 +31,6 @@ Hver bruger, som udfører lageraktiviteter, skal være defineret som en lagermed
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
 [Montagestyring](assembly-assemble-items.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Definere politik til bogføring af faktura for brugere](admin-setup-invoice-posting-policy.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

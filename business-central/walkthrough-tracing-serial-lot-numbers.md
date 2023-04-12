@@ -53,7 +53,7 @@ Ricardo, der er ansvarlig for kvalitetssikring, handler ud fra returnering af sa
 - Hvilket racerstellet, der er fejlbehæftet.  
 - Hvilken indkøbsordre det fejlbehæftede lot blev modtaget via.  
 
-Salgsafdelingen har fortalt den ansvarlige for kvalitetssikring, at den returnerede racercykel, vare 1002, havde serienummeret SN1. Ved at bruge denne grundlæggende oplysning skal han finde ud af, hvor racercyklen sidst blev brugt, og derefter skal han spore den tilbage til den tidligste oprindelse for at finde ud af, hvilket lotnummer den fejlbehæftede komponent, racerstellet, kom fra.  
+Salgsafdelingen har fortalt den ansvarlige for kvalitetssikring, at den returnerede racercykel, vare 1002, havde serienummeret SN1. Ved at bruge denne grundlæggende oplysning skal de finde ud af, hvor racercyklen sidst blev brugt, og derefter skal de spore den tilbage til den tidligste oprindelse for at finde ud af, hvilket lotnummer den fejlbehæftede komponent, racerstellet, kom fra.  
 
 Resultaterne af denne første varesporingsopgave kan identificere, hvilke racerstel der var defekte, og hvilken leverandør der leverede dem. Bagefter, men i det samme overordnede opfølgningsproces, skal den ansvarlige for kvalitetssikring finde alle solgte racercykler, der indeholder racerstel fra det fejlbehæftede parti, så disse ordrer kan stoppes eller tilbagekaldes. Endelig skal den ansvarlige for kvalitetssikring finde alle åbne dokumenter, hvor det fejlbehæftede parti bruges, så der ikke oprettes tilsvarende transaktioner.  
 
@@ -225,7 +225,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
 ## Sporing fra brug til oprindelse
 
- Salgsafdelingen har fortalt den ansvarlige for kvalitetssikring, at den returnerede racercykel, vare 1002, har serienummeret SN1. Ved at anvende denne grundlæggende oplysning kan han finde ud af, hvor racercyklen sidst blev brugt, i dette tilfælde som salgsleverance til Ravel Møbler. Den ansvarlige for kvalitetssikringen skal derefter foretage en sporing tilbage til den tidligste oprindelse for at finde ud af, hvilket lotnummer det fejlbehæftede racerstel kom fra, og hvilken leverandør der leverede det.  
+ Salgsafdelingen har fortalt den ansvarlige for kvalitetssikring, at den returnerede racercykel, vare 1002, har serienummeret SN1. Ved at anvende denne grundlæggende oplysning kan de finde ud af, hvor racercyklen sidst blev brugt, i dette tilfælde som salgsleverance til Selangorian Ltd. Den ansvarlige for kvalitetssikringen skal derefter foretage en sporing tilbage til den tidligste oprindelse for at finde ud af, hvilket lotnummer det fejlbehæftede racerstel kom fra, og hvilken leverandør der leverede det.  
 
 ### Sådan finder du ud af, hvilket lot det fejlbehæftede stel kommer fra, og hvem der leverede det
 
@@ -256,7 +256,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
 ## Sporing fra oprindelse til brug
 
- Den ansvarlige for kvalitetssikring har fastlagt, at de fejlbehæftede racerstel kom fra LOT1. Han skal nu finde eventuelt andre racercykler, der bruger racerstel fra det fejlbehæftede lot, således at disse cykler kan stoppes eller tilbagekaldes.  
+ Den ansvarlige for kvalitetssikring har fastlagt, at de fejlbehæftede racerstel kom fra LOT1. De skal nu finde eventuelt andre racercykler, der bruger racerstel fra det fejlbehæftede lot, således at disse cykler kan stoppes eller tilbagekaldes.  
 
  En måde, du kan forberede denne sporingsopgave på siden **Varesporing** på, er manuelt at indtaste LOT1 i feltet **Lotnr.filter** og 2000 i feltet **Varefilter**. I denne gennemgang vil vi dog bruge funktionen **Spor modsat - fra linje**.  
 
@@ -274,13 +274,13 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
     Den ansvarlige for kvalitetssikring informerer straks salgsafdelingen, så de kan foretage en tilbagekaldelse af den fejlbehæftede racercykel fra kunden Kontorcentralen A/S.  
 
-    Han kan samtidig se ud af de tre sidste sporingslinjer, at der er fremstillet to andre varer, SN3 og SN4, med racerstel fra LOT1. Han tager handling for at blokere disse slutvarer på lageret.  
+    De kan samtidig se ud af de tre sidste sporingslinjer, at der er fremstillet to andre varer, SN3 og SN4, med racerstel fra LOT1. De tager handling for at blokere disse slutvarer på lageret.  
 
     Dermed er den anden opgave med administration af fejlbehæftede varer ved hjælp af siden **Varesporing** udført. Da siden **Varesporing** kun er baseret på de bogførte poster, skal den ansvarlige for kvalitetssikringen fortsætte til siden **Find poster** for at sikre, at LOT1 ikke er brugt i ikke-bogførte bilag.  
 
 ## Find alle poster for et serie-/lotnummer
 
- Den ansvarlige for kvalitetssikringen brugte siden **Varesporing** til at finde ud af, at LOT1 indeholdt fejlbehæftede racerstel, hvem leverandøren var, og i hvilken bogførte transaktion de er brugt. Han skal nu finde ud af, om LOT1 findes i eventuelle andre åbne bilag, ved integrering af sporingsresultatet til siden **Find poster**, hvor han kan foretage en søgning i alle databaseposter.  
+ Den ansvarlige for kvalitetssikringen brugte siden **Varesporing** til at finde ud af, at LOT1 indeholdt fejlbehæftede racerstel, hvem leverandøren var, og i hvilken bogførte transaktion de er brugt. De skal nu finde ud af, om LOT1 findes i eventuelle andre åbne bilag, ved integrering af sporingsresultatet til siden **Find poster**, hvor de kan foretage en søgning i alle databaseposter.  
 
 ### Sådan findes alle forekomster af LOT1 i ikke-bogførte poster, som f.eks. åbne ordrer  
 
@@ -293,7 +293,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
 3.  Vælg den anden Find poster-linje for at åbne salgslinjeposten, og vælg handlingen **Vis**. Du kan også vælge værdien i feltet **Antal poster**.  
 
-    Her kan den ansvarlige for kvalitetssikringen se, at der er en åben salgslinje for de fejlbehæftede racerstel. Han foreslår straks salgsafdelingen, at denne ordre annulleres, og at der startes en ny produktionsordre, der er baseret op fejlfrie racerstel.  
+    Her kan den ansvarlige for kvalitetssikringen se, at der er en åben salgslinje for de fejlbehæftede racerstel. De foreslår straks salgsafdelingen, at denne ordre annulleres, og at der startes en ny produktionsordre, der er baseret op fejlfrie racerstel.  
 
  Dermed er denne gennemgang i, hvordan siden **Find poster** bruges til administration af fejlbehæftede varer sammen med siden **Varesporing**, færdig.  
 

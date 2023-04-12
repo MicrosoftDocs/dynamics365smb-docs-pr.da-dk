@@ -32,9 +32,9 @@ Hvis lokationen er sat op til at kræve læg-på-lager, men ikke modtagelse, bru
 
 Du kan oprette et læg-på-lager på tre måder:  
 
-- Opret læg-på-lager-aktiviteten direkte fra selve kildedokumentet.  
-- Du kan oprette læg-på-lager-aktiviteter for mange kildedokumenter samtidig ved hjælp af kørslen.  
-- Opret læg-på-lager-aktiviteten i to trin ved først at frigive kildedokumentet for at gøre varerne disponible til at blive lagt på lager. Læg-på-lager-aktiviteten kan derefter oprettes fra siden **Læg-på-lager (lager)** på baggrund af kildedokumentet.  
+* Opret læg-på-lager-aktiviteten direkte fra selve kildedokumentet.  
+* Du kan oprette læg-på-lager-aktiviteter for mange kildedokumenter samtidig ved hjælp af kørslen.  
+* Opret læg-på-lager-aktiviteten i to trin ved først at frigive kildedokumentet for at gøre varerne disponible til at blive lagt på lager. Læg-på-lager-aktiviteten kan derefter oprettes fra siden **Læg-på-lager (lager)** på baggrund af kildedokumentet.  
 
 ## Sådan oprettes en læg-på-lager-aktivitet fra kildedokumentet
 
@@ -80,6 +80,8 @@ En lagermedarbejder kan oprette en ny læg-på-lager-aktivitet baseret på det f
 
     * Bogføre modtagelsen af de kildedokumentlinjer, der er lagt på lager
     * Hvis lokationen anvender placeringer, oprettes der også lagerposter til bogføring af ændringer af placeringsantallet.
+
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
 ## Se relateret [Microsoft-træning](/training/modules/receive-put-away-items/)
 

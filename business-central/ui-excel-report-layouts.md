@@ -86,8 +86,9 @@ Når du har layout filen i Excel, skal den næste opgave tilføjes som et nyt la
 3. Indstil **Rapport-id** til *Rapport*.
 4. Angiv et navn i **Layout-navn**.
 5. Angiv **Formatindstillinger** til **Excel**.
-6. Klik på **OK** > **Vælg** for at åbne Stifinder på enheden.
-7. Find og vælg Excel-filen, og vælg derefter **Åbn**.
+6. Vælg **OK**, og benyt derefter en af følgende fremgangsmåder for at uploade layout-filen til rapporten:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    Den valgte fil overføres til layoutet, og siden **Rapport-layouts** åbnes.
 8. Hvis du vil se, hvordan rapporten ser ud med det nye layout, skal du vælge layoutet på listen og derefter vælge **Kør rapport**.

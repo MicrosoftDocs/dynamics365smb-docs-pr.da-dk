@@ -1,172 +1,254 @@
 ---
 title: Konfigurere bogføring af koncernintern transaktion
-description: 'Opret koncerninterne kreditorer og debitorer som såkaldte koncerninterne partnere, og konfigurer en koncernintern (IC) kontoplan.'
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+description: 'Lære, hvordan du opretter et internt partnerskab.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.date: 01/31/2023
+ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621'
-ms.date: 03/09/2022
-ms.author: edupont
 ---
-# Konfigurere bogføring af koncernintern transaktion
+# Konfigurere koncerninterne transaktioner
 
-Koncerninterne bogføringer gør det lettere for to eller flere virksomheder at foretage en nemmere opgave for en centraliseret finansafdeling og koncerninterne partnervirksomheder. Når du vil sende en transaktion (f.eks. en salgskladde) fra én virksomhed og få den tilsvarende transaktion (f.eks. en købskladdelinje) oprettet automatisk i partnervirksomheden, skal de involverede virksomheder enes om en fælles kontoplan og et sæt dimensioner, som skal anvendes i koncerninterne transaktioner. Intercompany-kontoplanen kan f.eks. være en forenklet udgave af moderselskabets kontoplan. Hver virksomhed knytter deres samlede kontoplan til den delte intercompany-kontoplan, og hver virksomhed knytter deres dimensioner til intercompany-dimensionerne.  
+Intercompany-partnerskaber gør det nemmere at håndtere regnskabs processer, når to eller flere datterselskaber ofte gør forretninger med hinanden. Partnere kan udveksle transaktioner, f. eks. salg og køb, og håndtere dem enten manuelt eller automatisk. Når en partner f. eks. sender en salgskladdelinje til en anden partner, oprettes der en købskladdelinje for den modtagende partner.
 
-Du skal også oprette en koncernintern partnerkode for hver [!INCLUDE [prod_short](includes/prod_short.md)] virksomhed, der er aftalt mellem alle virksomheder, og derefter tildele dem til henholdsvis debitor- og kreditorkort.  
-
-Hvis du vil oprette eller modtage koncerninterne linjer med varer, kan du enten bruge egne varenumre, eller du kan angive partnerens varenumre for hver relevant vare. Brug enten feltet **Leverandørs varenr.** eller **Fælles varenr.** på varekortet. Du kan også bruge funktionen **Varereference** til at knytte dine varenumrene til dine koncerninterne partneres varebeskrivelser, skal du åbne kortet for hver vare og derefter vælge handlingen **Varereferencer** for at oprette krydsreferencer mellem dine varebeskrivelser og din koncerninterne partners. Du kan finde flere oplysninger i [Bruge varereferencer](inventory-how-use-item-cross-refs.md).
-
-Hvis du skal foretage IC-salgstransaktioner, der omfatter ressourcer, skal du udfylde feltet **Finanskt.nr. for IC-partnerkøb** på ressourcekortet til hver relevant ressource. Det er nummeret på den IC-finanskonto, som prisen på denne ressource bogføres på i din partners virksomhed. Der er flere oplysninger i [Konfigurere ressourcer](projects-how-setup-resources.md).
+Intercompany-kontoplanen kan f.eks. være en udgave af synkroniserede partners kontoplan. Hver partner knytter deres konti til IC-kontoplanen. Hver partner knytter også dimensionerne og dimensionsværdierne til IC-dimensionerne.
 
 > [!NOTE]
-> Koncerninterne købstransaktioner, der omfatter ressourcer, anlægsaktiver og varegebyrer, understøttes ikke fuldstændigt. I den koncerninterne partnervirksomhed er feltet **Linhjetype** tomt på købsdokumentlinjer, som indeholder disse enheder. Du skal opdatere feltet manuelt.
+> I 2023 udgivelsesbølge 1 vi har introduceret en forbedret side **Koncernintern konfiguration**. Den nye side gør det nemmere at oprette et internt partnerskab ved at konsolidere alle opsætningsopgaverne på en enkelt side. Hvis du er ny i [!INCLUDE [prod_short](includes/prod_short.md)], bruger du den nye oplevelse. Hvis du allerede er kunde, kan administratoren slå funktionen til **Automatisk accept af IC-finanskladdetransaktioner** på siden **funktionsstyring**.
+>
+> Opgaverne i denne artikel forudsætter, at funktionsparameteren er aktiveret. Hvis du allerede har oprettet et internt partnerskab, kan du fortsætte med at bruge det.
 
-## Acceptér automatisk transaktioner fra IC-partnere
+## Før du starter
 
-2022 udgivelsesbølge 1 har introduceret en ny side til **intern opsætning**, som gør det hurtigere at behandle transaktioner fra partnere. På siden kan du angive, om der automatisk oprettes kladdelinjer på baggrund af IC-partnernes indlæg fra **IC-finanskladde**-siden. Kladdelinjerne er oprettet til dig, men de er ikke bogført. Du kan bruge følgende felter på siden ny IC-opsætning til at angive, hvor de modtagne IC-kladdeposteringer skal oprettes:
+Før du begynder at oprette et internt partnerskab, er der nogle få beslutninger, du skal foretage.
 
-* **Standardskabelon for koncerninterne finanskladder**
-* **Koncernintern standardfinanskladde**
+|Beslutning  |Beskrivlse  |
+|---------|---------|
+|Hvilke kontoplaner skal danne grundlag for IC-kontoplanen?     | Alle firmaer i partnerskabet skal bruge samme IC-kontoplan. Du kan basere IC-kontoplanen på kontoplanen fra et af regnskaberne i partnerskabet eller oprette en ny IC-kontoplan. Du kan knytte de konti, der skal bruges, i partnerskabet på begge måder, så hver partner både sender og modtager transaktioner i de korrekte konti. Få mere at vide om oprettelse af IC-kontoplanen på [Konfigurere IC-kontoplaner](#set-up-the-intercompany-charts-of-accounts).         |
+|Hvilke dimensioner skal der være grundlaget for IC-dimensionerne?     | Hvis du bruger IC-dimensioner, skal de være ens for alle regnskaber i partnerskabet. Når du har angivet IC-dimensionerne, skal du tilknytte deres dimensionsværdier. Få mere at vide om tilknytning af dimensionsværdier til [Opsætning af IC-dimensioner](#set-up-intercompany-dimensions).        |
+|Hvilke partnere er debitorer eller kreditorer?     |  Få mere at vide om oprettelse af debitorer og kreditorer i et IC-partnerskab på [Konfigurere IC-partnere som debitorer og kreditorer](#set-up-intercompany-partners-as-customers-and-vendors).       |
+|Vil du angive bankkonti, der skal bruges i partnerskabet?| Du kan gøre det hurtigere at registrere betalingstransaktioner ved at angive den bankkonto, der skal bruges til hver enkelt partnervirksomhed. Få mere at vide på [Angiv de bankkonti, der skal bruges til IC-partnere](#specify-the-bank-accounts-to-use-for-intercompany-partners). |
+|Hvordan skal virksomhederne identificeres i partnerskabet?     | Alle parter skal aftale en entydig identifikationskode for intercompany-partner for hvert regnskab. Du skal tildele koden til debitor- og kreditorkort for at kunne identificere relaterede transaktioner. Få mere at vide om id'er ved [Oprette nummerserier](ui-create-number-series.md).        |
+|Hvordan vil du håndtere varenumre?     | Hvis koncerninterne linjer indeholder varer, kan du enten bruge egne varenumre, eller du kan angive partnerens varenumre for hver relevant vare. Brug enten feltet **Leverandørs varenr.** eller **Fælles varenr.** på varekortet. Du kan også bruge handlingen **Varereference** til at knytte varenumrene til dine IC-partneres beskrivelser af varerne. Hvis du vil vide mere om varereferencer, skal du gå til [Brug af varereferencer](inventory-how-use-item-cross-refs.md).        |
+|Er ressourcer involveret?     | Hvis du skal foretage IC-salgstransaktioner, der omfatter ressourcer, skal du udfylde feltet **Finanskt.nr. for IC-partnerkøb** på ressourcekortet til hver relevant ressource. Feltet indeholder nummeret på den IC-finanskonto, som prisen på denne ressource bogføres på i din partners virksomhed. Du kan få mere at vide om ressourcer ved at gå til [Konfigurere ressourcer](projects-how-setup-resources.md).<br><br>**Bemærk**<br>Koncerninterne købstransaktioner, der omfatter ressourcer, anlægsaktiver og varegebyrer, understøttes ikke fuldstændigt. I den koncerninterne partnervirksomhed er feltet **Linjetype** tomt på købsdokumentlinjer, som indeholder disse enheder. Du skal opdatere feltet manuelt.        |
+
+## Oversigt over de trin til at komme i gang
+
+Brug siden **IC-opsætning** til at oprette følgende komponenter af IC-transaktioner:
+
+* Indstillingerne for den interne virksomhed.
+* Det firma, som skal være synkroniseringspartneren.
+* Den IC-kontoplan, som alle partnere bruger på at udveksle transaktioner.
+* Tilknytningerne mellem konti i kontoplanen og IC-kontoplanen for indgående og udgående transaktioner for hver partner.
+* Koncerninterne dimensioner og dimensionsværdier til brug og hvordan de tilknyttes til dimensionerne for hver partner.
+* Virksomheder, som er partnerens koncerninterne partnere.
+* Virksomheder, der er leverandører eller debitorer, eller begge dele.
+
+## Konfigurere en synkroniseringspartner
+
+Alle partnere skal bruge samme IC-kontoplan og, hvis det er nødvendigt, den samme IC-dimension. Du kan spare tid, når du opretter partnerskabet ved hjælp af kontoplanen og dimensioner for en af partnerne som en oprindelig plan for IC-kontoplanen og-dimensioner. Den virksomhed, som du bruger som basislinje, kaldes *synkroniseringspartneren*. Synkroniseringspartneren er som regel Headquarter-firmaet, men det behøver ikke være.
+
+På siden **IC-opsætning** angiver hver partner synkroniseringspartneren i feltet **Synkroniseringspartner** . Derefter angives IC-kontoplanen og IC-dimensionerne automatisk for dem baseret på konfigurationen af synkroniseringspartneren. Partnerne bruger derefter indstillingerne for **Intercompany-kontoplanen** og **intercompany-dimensioner**-siderne til at knytte deres kontoplan og dimensioner til IC-kontoplanen og -dimensioner og omvendt. 
+
+Når du er klar til at synkronisere data med synkroniserings partneren, skal du vælge handlingen **Synkroniseringsopsætning**.
 
 > [!NOTE]
-> Hvis din organisation har brugt intercompany-funktioner i [!INCLUDE [prod_short](includes/prod_short.md)] før 2022 udgivelsesbølge 1, skal du aktivere funktionen **Acceptér automatisk IC-finanskladdetransaktioner** for automatisk at acceptere på siden **Funktionsstyring**.
+> Det er vigtigt at knytte konti og dimensioner til begge retninger. Både for IC-kontoplanen og-dimensioner, og fra dem til dine egne konti og dimensioner.
 
-## Sådan konfigureres en virksomhed til koncerninterne transaktioner
+## Oprette IC-kontoplanen
 
-Disse felter, der skal udfyldes, afhængigt af, om din administrator har slået funktionsopdateringen **Ny vareprissætningsopdatering** til.
+Alle partnere skal bruge samme IC-kontoplan og knytte kontiene i deres egen kontoplan til den. Hvis kontoplanen i din virksomhed definerer IC-kontoplanen for partnerne, skal du følge fremgangsmåden i dette afsnit.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern konfiguration**, og vælg derefter det relaterede link.  
-2. På siden **Koncernintern konfiguration** skal du udfylde følgende felter. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+Hvis du bruger en XML-fil, der indeholder IC-kontoplanen, skal du følge trinnene i [Importere eller eksportere en IC-kontoplan](intercompany-how-setup.md#import-or-export-an-intercompany-chart-of-accounts).  
 
-## Opsæt koncerninterne partnere
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern konfiguration**, og vælg derefter det relaterede link.
+2. Vælg handlingen **IC-kontoplan**.
+3. På siden **Koncernintern kontoplan** kan du tilføje konti på en linje på siden:
+    * Vælg **Ny**, og angiv derefter hver konto på en linje på siden.  
+    * Hvis den koncerninterne kontoplan skal være identisk med eller ligge tæt opad din almindelige kontoplan, kan du få udfyldt siden automatisk ved at vælge handlingen **Kopier fra kontoplan**. Du kan redigere nye linjer efter behov.
+    * Hvis du har oprettet en intercompany-kontoplan til en synkroniseringspartner, skal du bruge handlingen **Synkroniseringsopsætning** til at kopiere disse konti.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncerninterne partnere**, og vælg derefter det relaterede link.
-2. Vælg handlingen **Ny**.
-3. På siden **Koncerninterne partnere** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Gentag trin 2 og 3 for alle andre virksomheder, der er en del af denne koncerninterne opsætning.
+    > [!TIP]
+    > Hvis du kopierer IC-kontoplanen fra en synkroniseringspartner, kan du bruge handlingen **Synkroniseringsopsætning** til at opdatere IC-kontiene med de ændringer, som partneren foretager.
 
-> [!NOTE]
-> I [!INCLUDE[prod_short](includes/prod_short.md)] online kan du ikke bruge filplaceringer til at overføre transaktioner til partnerne, fordi [!INCLUDE[prod_short](includes/prod_short.md)] ikke har adgang til dit lokale netværk. Hvis du vælger **Filplacering** i feltet **Overførselstype**, er feltet **Mappesti** ikke tilgængeligt. I stedet bliver filen downloadet til mappen Overførsler på din computer. Derefter kan du sende filen til en person i partnervirksomheden, f.eks. via mail. Hvis du vil have en mere direkte proces, anbefales du at vælge **Mail** i stedet.
+Det næste trin er at tilknytte IC-kontoplanen til regnskabets kontoplan. Flere oplysninger i [Tilknytte IC-kontoplanen til regnskabets kontoplan](#map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts).
 
-> [!NOTE]
-> Når du har aktiveret funktionen til **automatisk accept af transaktioner** på siden **Intercompany-bogføring**, vises der en [!INCLUDE[prod_short](includes/prod_short.md)]-meddelelse om købsfakturaer, der duplikerer den oprindelige købsordre. Det er derfor vigtigt at have en forretningsproces til håndtering af dubletter. F.eks. ved at slette disse købsordrer, når købsfakturaen modtages fra IC-partneren.
+### Importere eller eksportere den koncerninterne kontoplan
 
+Synkroniseringsfirmaet kan dele sin kontoplan med partnere ved at eksportere det til en fil. Partnere kan indlæse filen for at få kontoplanen.
 
-## Sådan konfigureres koncerninterne kreditorer og koncerninterne debitorer
-
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.
-2. Du kan også få adgang til kreditoren fra feltet **Kreditornummer** på siden **Koncernintern partner**.
-3. Åbn kortet for den kreditor, der er en koncernintern partner. Du kan finde flere oplysninger i [Registrere nye kreditorer](purchasing-how-register-new-vendors.md).
-4. I feltet **Koncernintern partnerkode** skal du vælge den relevante koncerninterne partnerkode.
-5. Gentag trin 1 til 4 for debitorer.
-
-## Sådan konfigureres koncerninterne kontoplaner
-
-Virksomhederne i en koncern skal på forhånd aftale, hvilken kontoplan der skal bruges som fælles reference, før de kan foretage IC-transaktioner. Du skal sammen med dine partnere aftale, hvilke kontonumre der skal anvendes, når I opretter koncerninterne transaktioner. Moderselskabet i en koncern kan f.eks. oprette en forenklet version af deres egne kontoplaner, der derefter eksporteres til en XML-fil, der kan distribueres til hver virksomhed i koncernen.  
-
-Hvis kontoplanen for din virksomhed definerer den koncerninterne kontoplan for partnervirksomheder, skal du følge proceduren, der er beskrevet i [Sådan konfigureres definition af den koncerninterne kontoplan](intercompany-how-setup.md#to-set-up-the-intercompany-chart-of-accounts).  
-
-Hvis din virksomhed er et datterselskab, og du modtager en XML-fil med den fælles koncerninterne kontoplan, skal du følge proceduren: [Sådan importeres den koncerninterne kontoplan](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
-
-### Konfigurere IC-kontoplanen
-
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern kontoplan**, og vælg derefter det relaterede link.
-2. På siden **Koncernintern kontoplan** skal du angive hver konto på en linje på siden.  
-3. Hvis den koncerninterne kontoplan skal være identisk med eller ligge tæt opad din almindelige kontoplan, kan du få udfyldt siden automatisk ved at vælge handlingen **Kopier fra kontoplan**. Du kan redigere nye linjer efter behov.
-
-### Sådan udlæses den koncerninterne kontoplan
-
-Hvis dine koncerninterne partnere skal kunne indlæse den definerende kontoplan, skal du udlæse den til en fil.
-
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern kontoplan**, og vælg derefter det relaterede link.
-2. På siden **Koncernintern kontoplan** skal du vælge handlingen **Udlæs** og derefter vælge knappen **Gem**.
-3. Angiv filnavnet og den placering, hvor du vil gemme XML-filen, og vælg derefter knappen **Gem**.  
-
-### Sådan indlæses IC-kontoplanen  
-
-Når der findes en fil til den definerende koncerninterne kontoplan (IC-kontoplan), kan koncerninterne partnere indlæse den for at sikre, at de har de samme konti.  
-
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern kontoplan**, og vælg derefter det relaterede link.  
-2. På siden **Koncernintern kontoplan** skal du vælge handlingen **Indlæs**.  
-3. Vælg XML-filens navn og placering, og vælg derefter knappen **Åbn**.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern konfiguration**, og vælg derefter det relaterede link.
+2. Vælg handlingen **IC-kontoplan**.
+3. På siden **Koncernintern kontoplan** skal du vælge handlingen **Import/Eksport** og derefter vælge **Import** eller **Eksport**.
+4. Vælg den fil, der skal importeres eller eksporteres.  
 
 Siden **IC-kontoplan** udfyldes med nye eller redigerede finanskontolinjer i overensstemmelse med den koncerninterne kontoplan i filen. Alle eksisterende, ikke-relaterede linjer på siden forbliver uændrede.
 
-### Sådan knyttes IC-kontoplanen til regnskabets kontoplan  
+## Tilknytte IC-kontoplanen til regnskabets kontoplan  
 
-Når du har defineret eller indlæst den koncerninterne kontoplan, som du og dine koncerninterne partnere har aftalt at bruge, skal du knytte hver koncerninterne finanskonto til en af finanskontiene i dit regnskab. På siden **IC-kontoplan** angiver du, hvordan IC-finanskonti på indgående transaktioner skal oversættes til finanskonti i dit regnskabs kontoplan.
+Når du har defineret eller indlæst IC-kontoplanen, skal du knytte hver IC-konto til en af dine konti. På siden **IC-kontoplan** angiver du, hvordan IC-finanskonti på indgående transaktioner skal oversættes til finanskonti i dit regnskabs kontoplan.
 
-Hvis kontiene i den koncerninterne kontoplan har samme nummer som de tilsvarende konti i kontoplanen, kan du tildele kontiene automatisk.
+Hvis IC-kontiene og kontiene har samme nummer, kan du knytte kontiene automatisk.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern kontoplan**, og vælg derefter det relaterede link.  
-2. Marker de linjer, som du vil tilknytte automatisk, og væg derefter handlingen **Knyt til konto med samme nr.**.  
-3. For hver IC-finanskonto, der ikke blev tilknyttet automatisk, skal du udfylde feltet **Finanskontonr. for tilknytning**.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern konfiguration**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **IC-kontoplan**.
 
-## Sådan oprettes standardfinanskonti for IC-partnere  
+    > [!TIP]
+    > Hvis du vil have adgang til handlingerne på siden, skal du muligvis udvide siden til visningen i bredformat.
 
-Når du opretter en salgs- eller købslinje, der skal sendes som udgående IC-transaktion, angiver du en konto fra den koncerninterne kontoplan, hvor beløbet som standard bogføres på partnerens regnskab. På siden **Kontoplan** kan du for de konti, som du normalt bruger på udgående koncerninterne salgslinjer eller købslinjer, angive en standardfinanskonto for en koncernintern partner. Du kan f.eks. angive de tilsvarende samlekonti fra den koncerninterne kontoplan for samlekontiene i dit eget regnskab.  
+3. På siden **Koncernintern kontoplan** skal du vælge handlingen **Tilknytning af kontoplan**.
+4. Du kan tilknytte konti automatisk eller manuelt.
+
+    * Hvis du vil oprette tilknytningen manuelt, skal du vælge en konto i vinduet **kontoplan** og **finanskontoplan**, og derefter vælge en konto i feltet **Finanskontonr.** og **IC-nr.** .
+    * Hvis du automatisk vil tilknytte konti, der har samme nummer, skal du markere de linjer, du vil tilknytte, vælge **Tilknytning til konto. med samme nr.**-handlingen og derefter vælge den kontoplan, der skal opdateres.
+
+    > [!TIP]
+    > Hvis du vil tilknytte mange eller alle konti, skal du vælge en linje, vælge :::image type="icon" source="media/show-more-options-icon.png" border="false"::: og derefter vælge **Vælg flere**.
+
+## Konfigurere koncerninterne dimensioner
+
+Hvis partnere vil kunne udveksle transaktioner med tilknyttede dimensioner, skal I aftale, hvilke dimensioner I alle skal bruge. Synkroniseringsselskabet i en koncern kan f.eks. oprette en forenklet version af deres egne dimensionssæt, eksportere dem til en XML-fil, der kan distribueres til hver virksomhed i gruppen. Hver partner kan indlæse XML-filen på siden **IC-dimensioner** og derefter knytte IC-dimensionerne til deres dimensioner. Flere oplysninger i [Sådan knyttes IC-dimensioner til dimensioner i regnskabet](#map-intercompany-dimensions-to-your-companys-dimensions).
+
+> [!NOTE]
+> Hvert regnskab skal knytte deres dimensioner til IC-dimensionerne for udgående og indgående dokumenter. Det er vigtigt at tilknytte konti i begge retninger, hvilket er med til at sikre ensartethed på tværs af virksomhederne.
+
+Hvis partnere bruger IC-dimensionerne i synkroniseringspartneren, skal du følge fremgangsmåden i dette afsnit. Hvis du vil dele brug af en XML-fil, der indeholder IC-dimensioner, skal du følge trinnene i [Importere eller eksportere en IC-dimensioner](#import-or-export-intercompany-dimensions).
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern konfiguration**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **IC-dimensioner**.
+3. Tilføj dimensioner ved at gøre følgende på siden **Koncerninterne dimensioner**:
+    * Vælg **Ny**, og angiv derefter hver dimension på en linje.  
+    * Hvis de koncerninterne dimensioner skal være identisk med eller ligge tæt opad din almindelige dimensioner, kan du få udfyldt siden automatisk ved at vælge handlingen **Kopier fra dimensioner**. Du kan derefter redigere linjerne efter behov.
+    * Hvis du har angivet en intercompany-dimensioner til en synkroniseringspartner, skal du bruge handlingen **Synkroniseringsopsætning** til at kopiere disse dimensioner.
+
+    > [!TIP]
+    > Hvis du kopierer IC-dimensioner fra en synkroniseringspartner, kan du bruge handlingen **Synkroniseringsopsætning** til at opdatere IC-dimensionerne med de ændringer, som partneren foretager.  
+
+### Importere eller eksportere koncerninterne dimensioner  
+
+Synkroniseringsfirmaet kan dele sine dimensioner med partnere ved at eksportere dem til en fil. Partnere kan indlæse filen for at få dimensionerne.
+
+1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern konfiguration**, og vælg derefter det relaterede link.
+2. Vælg handlingen **IC-dimensioner**.  
+3. På siden **Koncernintern dimension** skal du vælge handlingen **Import/Eksport** og derefter vælge **Import** eller **Eksport**.
+4. Vælg den fil, der skal importeres eller eksporteres.
+
+Det næste trin er at tilknytte dimensioner til koncerninterne dimensioner. Flere oplysninger i [Sådan knyttes IC-dimensioner til dimensioner i regnskabet](#map-intercompany-dimensions-to-your-companys-dimensions).
+
+### Tilknytte IC-dimensioner til dimensioner i regnskabet
+
+Når du angiver de dimensioner, du skal bruge, tilknyttes hver koncernintern dimension til en af firmaets dimensioner og omvendt. Brug siden **Tilknytning af IC-dimensioner** til at angive tilknytningen. Gentag derefter processen for dimensionsværdierne.
+
+* Angiv, hvordan IC-dimensioner på indgående transaktioner skal knyttes til dimensioner fra dit firmas dimensionsoversigt.
+* Angiv, hvordan dine dimensioner skal oversættes til IC-dimensioner på *udgående transaktioner*.
+
+Hvis nogle af IC-dimensionerne har samme kode som de tilsvarende dimensioner i virksomheden i dit eget regnskab, kan du få programmet til automatisk at knytte dimensionerne sammen:  
+
+I følgende trin skal du først knytte IC-dimensionerne til dimensioner for indgående dokumenter på siden **IC-dimensioner**. Derefter knytter du dimensioner til IC-dimensioner for udgående dokumenter på siden **Aktuelle virksomhedsdimensioner**.
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern konfiguration**, og vælg derefter det relaterede link.
+2. Vælg handlingen **IC-dimensioner**.
+3. På siden **Koncerninterne dimensioner** skal du vælge handlingen **Dimensionstilknytning**.
+4. Du kan tilknytte dimensioner automatisk eller manuelt.
+
+    * Hvis du vil oprette tilknytningen manuelt, skal du vælge en dimension i ruderne **IC-dimensioner** og **Aktuel virksomhedsdimension** og derefter vælge en dimension i felterne **Dim. kode** og **IC-dim. kode**.
+    * Hvis du automatisk vil tilknytte dimensioner, der har samme kode, skal du markere de linjer, du vil tilknytte, vælge **Tilknyt dimensioner med samme kode**-handlingen og derefter vælge de dimensioner, der skal opdateres. 
+
+    > [!TIP]
+    > Hvis du vil tilknytte mange eller alle dimensioner, skal du vælge en linje, vælge :::image type="icon" source="media/show-more-options-icon.png" border="false"::: og derefter vælge **Vælg flere**.
+
+5. Vælg handlingen **Tilknytning af dimensionsværdier**.
+6. De trin, du skal oprette tilknytningen på, svarer til det, du netop har angivet for dimensioner, på siden **Tilknytning af IC-dimensionsværdier**.
+
+## Konfigurere koncerninterne kladdeskabeloner og batches
+
+Du skal oprette en Finanskladdeskabelon og et finanskladdenavn, der som standard skal bruges til IC-transaktioner. Skabelonen og navnet er specielt vigtig, hvis du automatisk accepterer IC-transaktioner fra partnerne. Hvis du vil vide mere om automatisk accept af transaktioner, skal du gå til [Automatisk accept af transaktioner fra IC-partnere](#auto-accept-transactions-from-intercompany-partners).   
+
+* Finanskladder bruges til at bogføre til finanskonti og andre konti, f.eks. bank-, debitor- og kreditorkonti. Når du bogfører via en finanskonto, oprettes der altid poster i finanskonti.  Brug siden **IC-finanskladde** til at angive det finanskladdenavn, der skal bruges. De indstillinger, der er specifikke for IC-transaktioner, er de konti, som du angiver i felterne **IC-kontotype** og **IC-kontonr**.
+* De forskellige kladdeskabeloner giver dig mulighed for at arbejde med de kladder, der er beregnet til bestemte formål. Det vil sige, at felterne i hver kladdeskabeloner er netop dem, der skal bruges til en bestemt funktionalitet i programmet. Brug siden **Finanskladdeskabeloner** til at oprette en skabelon, der skal bruges til IC-transaktioner.
+
+Hvis du vil vide mere om Finanskladdetyper og -navne, skal du gå til [Brug kladdetyper og navne](ui-work-general-journals.md#use-journal-templates-and-batches).
+
+## Konfigurere en virksomhed til koncerninterne transaktioner
+
+I følgende trin antages det, at en synkroniseringspartner er sat op med den kontoplan og de dimensioner, som IC-kontoplanen og-dimensionerne skal baseres på. Du kan konfigurere dem selv, men det er typisk hurtigere at komme i gang, og det er nemmere at bruge en synkroniseringspartner. Få mere at vide om synkroniseringspartneren ved at gå til [Opsætte en synkroniseringspartner](#set-up-a-synchronization-partner).
+
+> [!TIP]
+> Det er en god ide at udfylde felterne i oversigtspanelet **Generelt** på siden **Koncernintern konfiguration** for hver partner, før du tilføjer deres partnere. Når du tilføjer partnervirksomheder, der befinder sig i samme lejer, hentes [!INCLUDE [prod_short](includes/prod_short.md)] deres IC-kode og virksomhedsnavn fra opsætningen i oversigtspanelet Generelt. Feltet **Firmanavn** kontrollerer, om IC-koden er entydig.
+
+> [!NOTE]
+> Hvis du vil bruge en synkroniseringspartner, skal du lade feltet **Synkroniseringspartner** være tomt, når du indstiller det pågældende regnskab op for partnerskabet.
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern konfiguration**, og vælg derefter det relaterede link.  
+2. Udfyld felterne i oversigtspanelet **Generelt** på siden **Koncernintern konfiguration**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+> [!NOTE]
+> I [!INCLUDE[prod_short](includes/prod_short.md)] online kan du ikke bruge filplaceringer til at overføre transaktioner til partnerne, fordi [!INCLUDE[prod_short](includes/prod_short.md)] ikke har adgang til dit lokale netværk. Hvis du vælger **Filplacering** i feltet **Overførselstype**, er feltet **Mappesti** ikke tilgængeligt. I stedet bliver filen downloadet til mappen **Overførsler** på din computer. Derefter kan du sende filen til en person i partnervirksomheden, f.eks. via mail. Hvis du vil have en mere direkte proces, anbefales du at vælge **e-mail** i stedet.
+
+Det næste trin er at konfigurere partnerfirmaer.
+
+## Konfigurere koncerninterne partnere
+
+Hver partner skal tilføje alle andre virksomheder i partnerskabet som partner.
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern konfiguration**, og vælg derefter det relaterede link.
+2. Vælg **Tilføj** på oversigtspanelet **IC-partnere**.
+3. På siden **Koncernintern partner** skal du udfylde følgende felter. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Gentag trin 2 og 3 for alle firmaer i partnerskabet.
+
+> [!NOTE]
+> Når du har aktiveret funktionen til **automatisk accept af transaktioner** på siden **Intercompany-bogføring**, vises der en [!INCLUDE[prod_short](includes/prod_short.md)]-meddelelse, der varsler om købsfakturaer, der duplikerer den oprindelige købsordre. Det er derfor vigtigt at have en forretningsproces til håndtering af dubletter. F.eks. ved at slette disse købsordrer, når købsfakturaen modtages fra IC-partneren.
+
+### Konfigurere koncerninterne partnere som debitorer og kreditorer
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncernintern konfiguration**, og vælg derefter det relaterede link.
+2. I oversigtspanelet **IC-partnere** skal du åbne kortsiden af partneren.
+3. Afhængigt af hvad du vil gøre, skal du vælge debitoren eller partneren i feltet **Debitornr.** eller **kreditornr.**-felterne.
+
+    > [!NOTE]
+    > Hvis debitoren eller kreditoren ikke er oprettet, kan du vælge **+Ny** i rullemenuen for at oprette dem. Hvis du vil vide mere om, hvordan du opretter debitorer og kreditorer, skal du [Registrere nye debitorer](sales-how-register-new-customers.md) og [Registrere nye kreditorer](purchasing-how-register-new-vendors.md).
+
+    > [!TIP]
+    > Du kan også angive en debitor eller kreditor som IC-partnere ved at udfylde feltet **IC-partnerkode** på siderne **Debitorkort** og **Kreditorkort**.
+
+### Konfigurere standardfinanskonti for IC-partnere  
+
+Når du opretter en salgs- eller købslinje, der skal sendes som udgående IC-transaktion, angiver du en konto fra den koncerninterne kontoplan, hvor beløbet som standard bogføres på partnerens regnskab. På siden **Finanskort** kan du for de konti, som du normalt bruger på udgående koncerninterne salgslinjer eller købslinjer, angive en standardfinanskonto for en koncernintern partner. Du kan f.eks. angive de tilsvarende samlekonti fra den koncerninterne kontoplan for samlekontiene i dit eget regnskab. Tilgodehavender og skyldige beløb bruges som off-Setting-konto til IC-partneren, når du bogfører transaktioner i IC-finanskladder.  
 
 Når du derefter angiver en finanskonto i feltet **Modkontonr.** på en koncernintern linje, hvor der står **Koncernintern partner** i feltet **Kontotype**, udfyldes feltet **Finanskonto for koncernintern partner** automatisk.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoplan**, og derefter vælge det relaterede link.  
-2. På linjen for en finanskonto, der bruges til koncerninterne transaktioner, skal du i feltet **Standardfinanskonto for koncernintern partner** angive den IC-finanskonto, som partneren bogfører på, når du bogfører til finanskontoen på linjen.  
+2. Åbne finanskontoen, der bruges til koncerninterne transaktioner, og feltet **Standardfinanskonto for koncernintern partner** angives den IC-finanskonto, som partneren bogfører på, når du bogfører til finanskontoen på linjen.
 3. Gentag trin 2 for hver konto, som du ofte angiver i feltet **Modkontonr.** på en linje i en IC-kladde eller et IC-dokument.
 
-## Sådan konfigureres koncerninterne dimensioner
+### Acceptér automatisk transaktioner fra IC-partnere
 
-Før du og dine koncerninterne partnere vil kunne udveksle transaktioner med tilknyttede dimensioner, skal I aftale, hvilke dimensioner I alle skal bruge. Moderselskabet i en koncern kan f.eks. oprette en forenklet version af deres egne dimensionssæt, eksportere dem til en XML-fil, der kan distribueres til hver virksomhed i gruppen. Datterselskaberne i koncernen kan derefter indlæse XML-filen på siden **Koncerninterne dimensioner** i deres eget regnskab og knytte de koncerninterne dimensioner her til dimensionerne på siden **Dimensioner**.  
+Du kan gøre det hurtigere at behandle koncerninterne transaktion ved at angive, om der automatisk oprettes kladdelinjer på baggrund af IC-partnernes indlæg fra **IC-finanskladde**-siden. Hvis du vil oprette indgående og udgående transaktioner automatisk, skal du aktivere følgende for hver partner:
+
+* For synkroniseringspartneren skal du aktivere **Auto-send transaktioner** til siden **Koncernintern konfiguration**. Angiv derefter, hvor de modtagne IC-kladdeposteringer skal oprettes, ved at udfylde felterne i **Standardskabelon for koncerninterne finanskladder** og **Koncernintern standardfinanskladde**.
+
+    > [!TIP]
+    > Hvis feltet **Standardskabelon for koncerninterne finanskladder** er tomt, skal du oprette en Finanskladdetype, der skal bruges til IC-finanskladder. Hvis du vil vide mere om Finanskladdetyper og -navne, skal du gå til [Konfigurere koncerninterne finanskladeskabeloner og navne](#set-up-intercompany-general-journal-templates-and-batches)    
+
+* Aktiver feltet **Auto-send transaktioner** på siden **Koncernintern konfiguration** .
+
+Kladdelinjerne er oprettet til dig, men de er ikke bogført.
 
 > [!NOTE]
-> Hvert regnskab i [!INCLUDE [prod_short](includes/prod_short.md)] skal knytte dimensioner til IC-dimensioner for udgående dokumenter og knytte IC-dimensioner til deres egne dimensioner for indgående dokumenter. Denne tilknytning er med til at sikre konsistens i alle virksomheder. Du kan finde flere oplysninger i afsnittet [Oversigt over tilknytning af intercompany-dimensioner til regnskabets dimensioner](#to-map-intercompany-dimensions-to-your-companys-dimensions).
+> Hvis din organisation har brugt intercompany-funktioner i [!INCLUDE [prod_short](includes/prod_short.md)] før 2022 udgivelsesbølge 1, skal du aktivere funktionen **Acceptér automatisk IC-finanskladdetransaktioner** for automatisk at acceptere på siden **Funktionsstyring**.
 
-Hvis din virksomhed er moderselskabet og har det definerende sæt koncerninterne dimensioner, som skal bruges i koncernen som fælles reference, skal du følge proceduren: [Sådan defineres koncerninterne dimensioner](intercompany-how-setup.md#to-define-the-intercompany-dimensions).
+### Angiv de bankkonti, der skal bruges til IC-partnere
 
-Hvis din virksomhed er et datterselskab, og du modtager en XML-fil med koncerninterne dimensioner, som skal bruges som fælles reference i koncernen, skal du følge proceduren: [Sådan indlæses koncerninterne dimensioner](intercompany-how-setup.md#to-import-the-intercompany-dimensions).
+Hvis du vil have en hurtig betaling, skal du angive en eller flere bankkonti, der skal bruges i forbindelse med IC-partnere. Når en partner bruger en IC-finanskladde til at foretage en betaling, kan han angive bankkontoen på linjen. Bankkontoen bruges som modkonto i modtagelsesfirmaet, hvilket minimerer behovet for at angive transaktioner manuelt.
 
-### Sådan defineres koncerninterne dimensioner
+* Hvis du vil angive den bankkonto, der skal bruges, skal du vælge handlingen **Bankkonti** på siden **Intercompany-partnere**. Angiv kontooplysningerne på **IC-bankkontokortet**.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncerninterne dimensioner**, og vælg derefter det relaterede link.  
-2. Angiv hver dimension på en linje på siden **Koncerninterne dimensioner**.
+## Fejlfinde koncernintern opsætning
 
-    Hvis dine koncerninterne dimensioner skal være identiske med eller ligge tæt opad de eksisterende dimensioner i dit regnskab, kan du få udfyldt siden automatisk ved at klikke på **Kopier fra dimensioner**, hvorefter du kan redigere de indsatte linjer.  
-3. Du kan udlæse de koncerninterne dimensioner til en XML-fil, så de kan distribueres til partnerne, ved at vælge handlingen **Udlæs**.  
-4. Angiv filnavnet og den placering, hvor du vil gemme XML-filen, og vælg derefter knappen **Gem**.  
-
-### Sådan indlæses koncerninterne dimensioner  
-
-Når der findes en fil til de definerende koncerninterne dimensioner, kan koncerninterne partnere indlæse den for at sikre, at de har de samme dimensioner.  
-
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncerninterne dimensioner**, og vælg derefter det relaterede link.  
-2. På siden **Koncerninterne dimensioner** skal du vælge handlingen **Indlæs**.  
-3. Angiv XML-filens navn og placering, og vælg derefter knappen **Åbn**.  
-
-Linjerne på siderne **Koncerninterne dimensioner** og **Koncerninterne dimensionsværdier** indlæses.  
-
-### Sådan knyttes IC-dimensioner til dimensioner i regnskabet
-
-Når du har defineret eller importeret de dimensioner, som du og dine koncerninterne partnerne har aftalt at bruge, skal du knytte hver koncerninterne dimension til en af dimensionerne i dit eget regnskab og omvendt. På siden **Koncerninterne dimensioner** angiver du, hvordan koncerninterne dimensioner på *indgående transaktioner* skal oversættes til dimensioner fra din virksomheds liste over dimensioner. På siden **Dimensioner** angiver du, hvordan dine dimensioner skal oversættes til IC-dimensioner på *udgående transaktioner*.
-
-Hvis nogle af de koncerninterne dimensioner har samme kode som de tilsvarende dimensioner i listen over dimensioner i din egen virksomhed, kan du få programmet til automatisk at knytte dimensionerne sammen, og derefter kan du tilknytte kontiene automatisk.  
-
-I følgende trin skal du først knytte IC-dimensionerne til dimensioner for indgående dokumenter på siden **IC-dimensioner**. Derefter knytter du dimensioner til IC-dimensioner for udgående dokumenter på siden **Dimensioner**.
-
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koncerninterne dimensioner**, og vælg derefter det relaterede link.
-2. På siden **Koncerninterne dimensioner** skal du markere de linjer, som du vil tilknytte automatisk, og derefter vælge handlingen **Knyt til dim. med samme kode**.
-3. Udfyld feltet **Dim.kode for tilknytning** for hver IC-dimension, der ikke tilknyttes automatisk.
-
-    Du skal muligvis føje feltet til visningen. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
-4. Vælg handlingen **Koncerninterne dimensionsværdier**.
-5. Udfyld feltet **Dim.værdikode for tilknytning** på siden **Koncerninterne dimensionsværdier**.
-
-    Fortsæt med at knytte dimensionerne til koncerninterne dimensioner ved at udføre lignende trin.
-6. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Dimensioner**, og vælg derefter det relaterede link.
-7. På siden **Koncerninterne dimensioner** skal du markere de linjer, som du vil tilknytte automatisk, og derefter vælge handlingen **Knyt til IC-dim. med samme kode**.
-8. Udfyld feltet **IC-dim.værdikode for tilknytn.** for hver koncerninterne dimension, der ikke tilknyttes automatisk.
-9. Vælg handlingen **Koncerninterne dimensionsværdier**.
-10. Udfyld feltet **Knyt til IC-dim. med samme kode** på siden **Dimensionsværdier**.
+På siden **Opsætning af intern handel** indeholder ruden **Koncernintern opsætningsdiagnosticering**, der angiver, om du har opsat alle de komponenter, der er nødvendige for at udveksle IC-transaktioner. Felterne er også tilgængelige i rollecentret forretningsregler. Vælg ruderne for at finde ud af, hvad der mangler. Du kan få vist en oversigt over de påkrævede komponenter ved at gå til [Oversigt over de trin, hvor du skal starte](#overview-of-the-steps-to-get-started).
 
 ## Se også
 
@@ -175,6 +257,5 @@ I følgende trin skal du først knytte IC-dimensionerne til dimensioner for indg
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
