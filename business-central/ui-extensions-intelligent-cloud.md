@@ -2,7 +2,6 @@
 title: Udvidelser af skymigreringsbase
 description: Brug udvidelsen med skymigreringsbasen til at forbinde løsningen i dit lokale miljø med Business Central Online.
 author: edupont04
-manager: edupont
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
