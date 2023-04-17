@@ -1,26 +1,20 @@
 ---
-title: Se/CVR-nr. til Intrastat [DK]
-description: Få mere at vide om, hvordan du opretter et Se/CVR-nummer som angivet i danske Intrastat-behov.
+title: 'Se/CVR-nr. til Intrastat [DK]'
+description: 'Få mere at vide om, hvordan du opretter et Se/CVR-nummer som angivet i danske Intrastat-behov.'
 author: altotovi
 ms.reviewer: edupont
 ms.topic: conceptual
 ms.search.form: 328
 ms.date: 05/09/2022
 ms.author: altotovi
-ms.openlocfilehash: 4c8da6106aa4d87185e961432f0293d07865e58b
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605673"
 ---
-# <a name="vat-registration-number-setup-for-intrastat-in-the-danish-version"></a>Opsætning af Se/CVR-numre for Intrastat i den danske version
+# Opsætning af Se/CVR-numre for Intrastat i den danske version
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
 I Danmark betyder moms liste kravene, at du angiver et entydigt momsnummer i feltet **Se/CVR-nr.** på debitor-eller kreditorkortene. Men rapportering til Intrastat kræver et Se/CVR-nummer i de indsendte filer, der består af landekoden og se/CVR-nummeret.
 
-## <a name="to-set-up-vat-registration-numbers-for-intrastat"></a>Opsætning af momsnummer for Intrastat
+## Opsætning af momsnummer for Intrastat
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Intrastat, Opsætning**, og vælg derefter det relaterede link.  
 2. Hvis du vil angive, hvordan momsnummeret for debitorer skal oprettes i en Intrastat-fil, skal du vælge en af de tilgængelige indstillinger i feltet **Debitors registrerede moms-nr.**. [!INCLUDE [tooltip-inline-tip_md](../../includes/tooltip-inline-tip_md.md)]  
@@ -34,7 +28,7 @@ Du kan vælge mellem disse indstillinger:
 
 Afhængigt af dine valg bliver de relevante numre sammenkædet med værdierne i felterne **Momsreg.nr.** og felterne **EU-landekode**.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
 [Oprette Intrastat-rapportering](../../finance-how-setup-report-intrastat.md)  

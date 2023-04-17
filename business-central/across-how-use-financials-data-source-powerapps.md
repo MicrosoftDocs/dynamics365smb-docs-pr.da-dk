@@ -12,15 +12,19 @@ ms.author: jswymer
 
 Du kan gøre dine [!INCLUDE[prod_short](includes/prod_short.md)]-data tilgængelige som en datakilde i Power Apps.  
 
-> [!NOTE]  
-> Du skal have en gyldig konto til [!INCLUDE[prod_short](includes/prod_short.md)] og til Power Apps.  
+> [!TIP]  
+> Den ekstra Power Apps-dokumentation og vores Power app-eksempler, der vises under [!INCLUDE[prod_short](includes/prod_short.md)]-lanceringen, udgives her senere i 2023 bølge 1. Læs mere på [Introduktion til flere Power Automate-skabelonprøver og Power Apps](/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/get-started-more-sample-power-automate-templates-power-apps).
 
-## Sådan tilføjes [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power Apps
+## Forudsætninger
+
+Du skal have en gyldig konto til [!INCLUDE[prod_short](includes/prod_short.md)] og til Power Apps.  
+
+## Tilføje [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power Apps
 
 1. Gå til [powerapps.microsoft.com](https://powerapps.microsoft.com/) i din webbrowser, og log på.
 2. Vælg feltet **Andre datakilder** på startsiden i afsnittet **Start fra data**.  
 
-    Dette åbner Power Apps Studio. Når du logger på første gang, skal du angive land/område.  
+    Dette trin åbner Power Apps Studio. Når du logger på første gang, skal du angive land/område.  
 3. Vælg **Business Central**på listen over tilgængelige forbindelser, og vælg derefter knappen **Opret**.
 
     Power Apps opretter forbindelse til din [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af de legitimationsoplysninger, du er logget på med. Hvis du ikke er administrator af din [!INCLUDE[prod_short](includes/prod_short.md)], skal du muligvis logge på med en anden konto.  
@@ -34,7 +38,7 @@ Disse såkaldte tabeller eksponeres som slutpunkter af [!INCLUDE[prod_short](inc
 > [!NOTE]
 > Hvis du vil medtage data fra andre tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] i din app, skal du samarbejde med en udvikler om at definere en brugerdefineret API i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Nu har du oprettet forbindelse til dine [!INCLUDE[prod_short](includes/prod_short.md)]-data og er klar til at opbygge din PowerApp. Du kan tilføje yderligere skærmbilleder og oprette forbindelse til flere data fra dit [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Oprette en lærreds-app ud fra et eksempel i Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
+Nu har du oprettet forbindelse til dine [!INCLUDE[prod_short](includes/prod_short.md)]-data og er klar til at opbygge din Power App. Du kan tilføje flere skærmbilleder og oprette flere data fra dit [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Oprette en lærreds-app ud fra et eksempel i Power Apps](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
 
 Når du har designet og opbygget din app, kan du dele den med dine kolleger. Du kan finde flere oplysninger i [Gemme og udgive en lærreds-app i Power Apps](/powerapps/maker/canvas-apps/save-publish-app).  
 
