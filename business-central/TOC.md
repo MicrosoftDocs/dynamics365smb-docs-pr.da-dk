@@ -810,6 +810,7 @@
 ##### [Begrænse bogføringsperioden](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Angive arbejdsdato som bogføringsdato](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 ##### [Gøre kladdeskabeloner obligatoriske](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Periodiseringsprocent i salgs- og købsfinansrapporter](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
 ### Canada
 #### [Lokal funktionalitet i den canadiske version](LocalFunctionality/Canada/canada-local-functionality.md)
