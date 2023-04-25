@@ -45,7 +45,7 @@ Denne video viser kobling og synkronisering af data i forbindelse med integratio
 2. Vælg handlingen **[!INCLUDE[prod_short](includes/prod_short.md)]** på båndet for at åbne og sammenkæde posten automatisk.
 
     > [!Note]
-    > Du kan kun synkronisere en enkelt post fra [!INCLUDE[crm_md](includes/crm_md.md)] automatisk, når **Synkroniser kun sammenkædede poster** er deaktiveret, og synkroniseringsretningen angives til Tovejs eller Fra integrationstabel på siden **Integrationstabelknytning** for posten. Få flere oplysninger i [Tilknytning af tabeller og felter, der skal synkroniseres](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).     
+    > Du kan kun synkronisere en enkelt post fra automatisk [!INCLUDE[crm_md](includes/crm_md.md)], når **Synkroniser kun sammenkædede poster** er deaktiveret, og synkroniseringsretningen angives til **Tovejs** eller **Fra integrationstabel** på siden **Integrationstabelknytning** for posten. Få flere oplysninger i [Tilknytning af tabeller og felter, der skal synkroniseres](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).
 
 ## Sådan sammensætter du flere poster ved hjælp af matchbaseret sammenkædning
 
@@ -63,6 +63,36 @@ Angiv de data, der skal synkroniseres for et objekt, f.eks. kunde eller kontakt 
 1. Åbn listesiden i [!INCLUDE[prod_short](includes/prod_short.md)] for posten, f.eks. listesiderne for kunder (debitorer) eller kontakter.  
 2. Vælg de records, du vil synkronisere, og vælg derefter handlingen **Synkroniser nu**.  
 3. Hvis poster kan synkroniseres i én retning, skal du vælge den valgmulighed, der angiver retningen for dataopdateringen, og derefter vælge **OK**.  
+
+## Masseindsætte og koble poster
+
+Hvis du har et stort antal Dataverse-enheder, der svarer til poster i [!INCLUDE [prod_short](includes/prod_short.md)], kan du indsætte og massekoble. Du kan f. eks. masse indsætte og koble poster, når du konfigurerer synkronisering første gang.
+
+Du skal bruge **Dataimport-guide** i **Microsoft Power Platform Administration**.
+
+Følgende eksempel beskriver, hvordan du masse indsætter og kobler debitorer med konti i Dataverse. Benyt samme fremgangsmåde til andre typer enheder, f. eks. kreditorer, varer og ressourcer.
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
+2. Vælg handlingen **Åbn i Excel** for at åbne kundedata i Excel. <!--Don't they need to choose the customers that they want to import to Dataverse?-->
+3. Hvis du vil knytte og indlæse data til objektet **Konto** i Dataverse, skal du følge fremgangsmåden, der er beskrevet under [Importér data (alle posttyper) fra flere kilder](/power-platform/admin/import-data-all-record-types).  
+
+    Hvis objektet konto har en **bcbi_companyid**-kolonne, når du tilknytter datakolonnerne, skal du sikre dig, at importen tildeler det relevante firma-id i kolonnen for hver importeret post. Hvis du vil finde firma-id'et i [!INCLUDE [prod_short](includes/prod_short.md)], skal du benytte følgende fremgangsmåde:
+
+    1. Åbn siden **Integrationstabelstilknytning**.
+    2. Vælg tilknytningen **KUNDE**, og vælg derefter handlingen **Rediger liste**.
+    3. Rul til højre, og vælg knappen hjælpe med rediger :::image type="icon" source="media/assist-edit-icon.png" border="false":::-knappen i feltet **Integration af tabelfilter**. Dette viser standardfilteret for kundetilknytning og indeholder firma-id. Firma-id er den første del af værdien. Kopier kun den pågældende del, og ignorer 0s. Følgende eksempel fremhæver den del, der skal kopieres.
+
+    :::image type="content" source="media/dataverse-company-id-guid.png" alt-text="Viser den del af firma-id'et, der skal kopieres.":::
+
+    > [!NOTE]
+    > Ikke alle navnene på Dataverse-enheder og Business central-poster passer. Afhængigt af hvad du importerer, skal du dobbelttjekke, at følgende kolonner har følgende værdier, efter at du har importeret:
+    >
+    >* For debitorer skal kolonnen **CustomerTypeCode** indeholde **Debitor**.
+    >* For debitorer skal kolonnen **CustomerTypeCode** indeholde **Debitorer**. 
+    >* For varer skal **ProductTypeCode**-kolonne indeholde **Salgslager**.
+    >* For ressourcer skal kolonnen **ProductTypeCode** indeholde **Service**.
+ 
+4. Når du har importeret data til Dataverse-miljøet, skal du i [!INCLUDE [prod_short](includes/prod_short.md)] følge trinene [Sådan sammensætter du flere poster ved hjælp af matchbaseret sammenkædning](#to-couple-multiple-records-using-match-based-coupling) for at sammenkæde Dataverse-enhederne med [!INCLUDE [prod_short](includes/prod_short.md)]-poster. 
 
 ## Ophævelse af sammenkædning af poster
 

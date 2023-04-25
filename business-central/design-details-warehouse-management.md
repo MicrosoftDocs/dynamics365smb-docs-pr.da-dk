@@ -28,9 +28,9 @@ Implementer disse funktioner i forskellige kombinationer for at skræddersy lage
 
 ## Oversigt over forskellige konfigurationsindstillinger
 
-Du kan konfigurere lagerfunktioner på forskellige måder. Det er vigtigt, at de indstillinger, du vælger, forbedrer processerne uden at medføre spild. Følgende tabel indeholder en oversigt over typiske konfigurationer, der bruges til at håndtere fysiske varer.
+Du kan konfigurere lagerfunktioner på forskellige måder. Det er vigtigt at vælge de indstillinger, der forbedrer processerne uden at medføre spild. Følgende tabel indeholder en oversigt over typiske konfigurationer til at håndtere fysiske varer.
 
-|Kompleksitetsniveau|Beskrivlse|Indstillinger|Placeringskode|Eksempel på indgående flow|Eksempel på udgående flow|Eksempel på internt flow|  
+|Kompleksitetsniveau|Beskrivelse|Indstillinger|Placeringskode|Eksempel på indgående flow|Eksempel på udgående flow|Eksempel på internt flow|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
 |Ingen dedikeret lageraktivitet.|Bogføring af ordrer og kladder||Valgfri. Kontrolleret af **Placeringskoden er obligatorisk** til/fra.|Købsordre|Salgsordre| Produktionsordre -> Forbrugskladde|  
 |Basis|Konsolideret modtagelse/levering for flere ordrer.|**Kræv modtagelse**<br>**Kræv leverance**|Valgfri. Kontrolleret af Placeringskoden er obligatorisk til/fra|Købsordrer-> lagerstedsmodtagelse|Salgsordre -> Lagerstedsleverance|Samme som ovenfor.|
@@ -61,7 +61,7 @@ Hvis du vil håndtere fysiske varer, skal du have mindst én lokation. Du kan br
 Typisk er lokationer den foretrukne metode til at organisere operationer, som er fordelt på tværs af geografiske områder. I nogle tilfælde kan det imidlertid være, at du vil oprette flere lokationer, der er placeret samme sted. Der er følgende fordele ved at bruge lokationerne:
 
 * Tildele adgang ved hjælp af siderne **Lagermedarbejder** og **Ansvarscentre**.
-* Definere kalendere, ruter og indgående og udgående tid til datoberegning og planlægning. [Om planlægningsfunktionen](production-about-planning-functionality.md).
+* Definere kalendere, ruter og indgående og udgående tid til datoberegning og planlægning. flere oplysninger i [Om planlægningsfunktionen](production-about-planning-functionality.md).
 * Angive standarddimensioner og bruge forskellige vare bogføringsopsætninger.
 * Opsætte planlægningsparametre. Få mere at vide i [Planlægning af parametre](production-about-planning-functionality.md#planning-parameters).  
 * Brug forskellige lagerfunktioner for hver lokation.

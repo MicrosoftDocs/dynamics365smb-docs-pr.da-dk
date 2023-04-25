@@ -28,6 +28,7 @@ Power Automate-flows udløses af hændelser, f. eks. en post blev oprettet, ænd
 ## Om Power Automate-flows
 
 Power Automate er en tjeneste, der hjælper dig med at oprette automatiserede arbejdsgange (eller flows) mellem apps og tjenester, som [!INCLUDE[prod_short](includes/prod_short.md)]. Power Automate-flows kræver lidt eller ingen viden om kodning De kan knyttes til en lang række hændelser og svar, f. eks.:
+
 - Postændringer
 - Opdateringer af eksterne filer
 - Bogførte dokumenter
@@ -41,10 +42,13 @@ Der er tre forskellige Cloudflow-typer, som du kan arbejde med:
 |Tidsfastlagt|Denne type flow køres også automatisk, men kører periodisk på planlagt dato og klokkeslæt. |
 |Øjeblikkelig |Denne flowtype kører efter anmodning og kræver, at brugeren kører den manuelt fra en knap eller handling i en anden app eller enhed, i dette tilfælde [!INCLUDE[prod_short](includes/prod_short.md)]-klienten. Øjeblikkelige flows fungerer på samme måde som batch genveje, så der udføres flere længde trin med et par tryk på knappen og de startes fra bestemte sider eller tabeller. Et flow kan f.eks. føje en knap til menuen handling på siden **Kreditorer** for at blokere betalinger til en leverandør og samtidig sende brugerdefinerbare e-mails til leverandørens kontakt og din virksomheds indkøbere og opdatere kontakten i Outlook. |
 
-## Power Automate-funktioner i [!INCLUDE[prod_short](includes/prod_short.md)]
+## Power Automate-funktioner
 
-Du kan gennemse alle de Power Automate-flow, der i øjeblikket er tilgængelige, ved at logge på [Power Automate](https://powerautomate.com) og vælge **Mine flows** fra navigationslinjen til venstre. Her finder du de flows, du allerede har oprettet, og som du har delt med dig af en administrator eller kollega. Disse flows gøres også tilgængelige i [!INCLUDE [prod_short](includes/prod_short.md)] fra forskellige sider. Med automatiske flows i [!INCLUDE[prod_short](includes/prod_short.md)] er det ikke nødvendigt at gøre noget, medmindre du vil ændre dem eller deaktivere dem. Ellers fungerer de bare, når de udløses. Med f.eks. [!INCLUDE[prod_short](includes/prod_short.md)]-data kan du køre dem fra de fleste liste-, kort-og dokumentsider ved at vælge dem fra elementet **Automatisering** i handlingen. Der er flere oplysninger i afsnittene herunder.
+Du kan gennemse alle de Power Automate-flow, der i øjeblikket er tilgængelige, ved at logge på [Power Automate](https://powerautomate.com) og vælge **Mine flows** fra navigationslinjen til venstre. Her finder du de flows, du allerede har oprettet, og som du har delt med dig af en administrator eller kollega.
 
+- Du kan også bruge øjeblikkelige flows til at køre direkte fra de fleste liste-, kort-og dokumentsider i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde de øjeblikkelige flows i handlingsgruppen **Automatisering** på siderne i handlingspanelet. Hvis du vil køre et flow, skal du markere den og følge instruktionerne. Der er flere oplysninger i afsnittene herunder.
+ 
+- Med automatiske flows i [!INCLUDE[prod_short](includes/prod_short.md)] er det ikke nødvendigt at gøre noget, medmindre du vil ændre dem eller deaktivere dem. Ellers fungerer de bare, når de udløses. 
 <!--
 
 ## Automated flows
@@ -86,9 +90,9 @@ Du kan oprette nye flows, ændre og administrere eksisterende, f.eks. at aktiver
 
 - Hvis du vil oprette en hurtig proces fra en liste, et kort eller en dokumentside, skal du vælge **Automatiser** > **Opret et flow**.
 - Hvis du vil åbne Power Automate fra en liste, et kort eller en dokumentside, skal du vælge **Automatiser** > **Administrer flows**.
-- Du kan oprette nye flows eller administrere eksisterende flows i [!INCLUDE[prod_short](includes/prod_short.md)] på siden **Administrer Power Automate-flows** .
+<!--- To create new flows or manage existing flows from inside [!INCLUDE[prod_short](includes/prod_short.md)], got to the **Manage Power Automate Flows** page.-->
 
-Disse opgaver udføres typisk kun af administratorer eller superbrugere. Opgaverne kræver en større viden om forretningsprocesserne i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Konfigurere automatiske flows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows), [Konfigurere øjeblikkelige flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) og [Administrere Power Automate-flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
+Disse opgaver udføres typisk kun af administratorer eller superbrugere. Opgaverne kræver en større viden om forretningsprocesserne i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil lære mere, skal du udforske [Power Automate-integrationen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview), [Konfigurere øjeblikkelige flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) og [Administrere Power Automate-flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
 <!-- 
 
 ## Add more automated flows and instant flows

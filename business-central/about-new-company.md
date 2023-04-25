@@ -1,15 +1,14 @@
 ---
 title: Oprette nye virksomheder ved hjælp af en assisterende opsætningsvejledning
-description: 'Det er nemt at oprette en ny, tom virksomhed i Business Central. En assisterede opsætningsvejledning hjælper dig gennem trinene, og du kan indlæse eksisterende forretningsdata.'
-author: edupont04
+description: 'Det er nemt at oprette en ny, tom virksomhed i Business Central. En assisterede opsætningsvejledning hjælper dig gennem trinene, og du kan indlæse forretningsdata.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 04/14/2023
+ms.custom: bap-template
 ms.search.keywords: 'company, setup wizard'
 ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 04/01/2021
-ms.author: edupont
 ---
 # Opret nye virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -46,7 +45,9 @@ Administratoren kan få mere at vide om forsøg og abonnement [her](/dynamics365
 På siden **Virksomheder** kan du bruge handlingen **Kopiér** til at oprette endnu en virksomhed baseret på indholdet af en eksisterende virksomhed. Det er f.eks. nyttigt, hvis du vil teste en virksomhed uden at afbryde produktionsdata.
 
 > [!Important]
-> Denne funktion kan ikke bruges til at tage en sikkerhedskopi af en virksomhed. Når du tager en sikkerhedskopi af virksomheden, begynder den at eksportere databasen som en. bacpac-fil. Du kan finde flere oplysninger i [Eksportere databaser](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) i hjælpen til udvikling og administration.
+> Brug ikke kopieringshandlingen til at tage en sikkerhedskopi af et firma. Når du tager en sikkerhedskopi, skal du starte med at eksportere databasen som en. bacpac-fil. Du kan finde flere oplysninger i [Eksportere databaser](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) i hjælpen til udvikling og administration.
+
+[!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
 ## Konfigurere virksomheden
 

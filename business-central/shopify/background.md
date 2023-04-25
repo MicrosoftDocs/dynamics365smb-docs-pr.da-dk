@@ -44,8 +44,8 @@ Du kan planlægge, at følgende tilbagevendende aktiviteter skal udføres automa
 
 Andre opgaver, der kan være en hjælp til at automatisere behandlingen af salgsdokumenter:
 
-- reportere 497 Massebogfør købsfakturaer
-- rapportere 496 Massebogfør købsordrer
+- reportere 297 Massebogfør salgsfakturaer
+- rapportere 296 Massebogfør salgsordrer
 
 Du kan bruge **Shopify-ordrenr.** feltet til at identificere de salgsdokumenter, der er indlæst fra Shopify.
 
