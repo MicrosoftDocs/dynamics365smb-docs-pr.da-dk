@@ -2,17 +2,17 @@
 title: Definere granulerede tilladelser
 description: 'Denne artikel beskriver, hvordan du definerer granularitet-tilladelser og tildeler hver enkelt bruger de tilladelsessæt, som de skal bruge for at udføre deres arbejde.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'access, right, security'
 ms.search.form: '1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862'
-ms.date: 11/29/2022
-ms.author: bholtorf
+ms.date: 02/08/2023
 ---
 
 # Tildele rettigheder til brugere og grupper
+
+[!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)]-sikkerhedssystemet kontrollerer, hvilke objekter en bruger kan få adgang til inden for hver database eller hvert miljø, sammen med brugerens licens. Du kan angive for hver bruger, om de kan læse, ændre eller indtaste data i de databaseobjekter. Du kan finde flere oplysninger ved at se [Datasikkerhed](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i indholdet til udviklere og it-eksperter for [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -26,16 +26,16 @@ I [!INCLUDE[prod_short](includes/prod_short.md)]er der to niveauer af rettighede
 
 - Detaljerede tilladelser, som du tildeler i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-  Denne artikel beskriver, hvordan du kan definere, bruge og anvende tilladelser i [!INCLUDE [prod_short](includes/prod_short.md)] til at ændre standardkonfigurationen.  
+Denne artikel beskriver, hvordan du kan definere, bruge og anvende tilladelser i [!INCLUDE [prod_short](includes/prod_short.md)] til at ændre standardkonfigurationen.  
 
 [!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]  
 Du kan finde flere oplysninger i [Delegeret administratoradgang til Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-[!INCLUDE [prod_short](includes/prod_short.md)] online indeholder standardbrugergrupper, der automatisk tildeles til brugere baseret på deres licens. Du kan ændre standardkonfigurationen ved at ændre eller tilføje brugergrupper, tilladelsessæt og tilladelser. I følgende tabel beskrives nøgle scenarier, der bruges til at ændre standardtilladelserne.  
+[!INCLUDE [prod_short](includes/prod_short.md)] online indeholder standardbrugergrupper, der automatisk tildeles til brugere baseret på deres licens. Du kan ændre standardkonfigurationen ved at ændre eller tilføje sikkerhedsgrupper, tilladelsessæt og tilladelser. I følgende tabel beskrives nøgle scenarier, der bruges til at ændre standardtilladelserne.  
 
 |Hvis du vil  |Skal du se  |
 |---------|---------|
-|Hvis du vil gøre det nemmere at administrere rettigheder for flere brugere, kan du organisere dem i brugergrupper og dermed tildele eller ændre et rettighedssæt for mange brugere i én handling.| [Sådan administreres rettigheder via brugergrupper](#to-manage-permissions-through-user-groups) |
+|Hvis du vil gøre det nemmere at administrere rettigheder for flere brugere, kan du organisere dem i sikkerhedsgrupper og dermed tildele eller ændre et rettighedssæt for mange brugere i én handling.| [Sådan administreres rettigheder via brugergrupper](#to-manage-permissions-through-user-groups) |
 |Sådan administreres tilladelsessæt for bestemte brugere | [Sådan tildeles rettighedssæt til brugere](#to-assign-permission-sets-to-users) |
 |Sådan defineres et tilladelsessæt|[Oprette et rettighedssæt](#to-create-a-permission-set)|
 |Sådan får du vist eller fejlfinder en brugers rettigheder|[Sådan får du vist en oversigt over en brugers rettigheder](#to-get-an-overview-of-a-users-permissions)|
@@ -76,11 +76,11 @@ Vedligeholdelse er også nemmere. Når du tilføjer en systemtilladelse, opdater
   |**Reduktion af indirekte**|Ændre adgangsniveauet til indirekte, hvis et tilladelsessæt giver direkte adgang til objektet. Du kan f. eks. vælge denne indstilling, hvis tilladelsessættet giver direkte adgang til finansposter, men du ikke ønsker, at brugerne har fuld adgang til posterne.|
   
   > [!NOTE]
-  > Det højeste tilladelsessæt i hierarkiet bestemmer, om tilladelsen er medtaget eller udeladt. Hvis to sæt er på samme niveau i hierarkiet, og der medtages en tilladelse i ét sæt, men ikke i det andet, vil tilladelsen blive udelukket.
+  > Hvis en tilladelse både er medtaget og udeladt, udelukkes tilladelsen.
 
 6. Brug felterne **Objekttype** og **Objekt-id** til at angive det objekt, du giver adgang til.
 
-> [!TIP]
+  > [!TIP]
   > Nye linjer viser standardværdier. Feltet **objekttype** indeholder f.eks. **tabeldata**, og feltet **Objekt-id** indeholder **0**. Standardværdierne er blot pladsholdere og bruges ikke. Du skal vælge en objekttype og et objekt i feltet **Objekt-id**, før du kan oprette en ny linje.
 
 7. Valgfrit: Hvis du definerer tilladelser for en dataobjekttype i en tabel, kan du filtrere de data, som en bruger kan få adgang til i felter i den valgte tabel, i feltet **Sikkerhedsfilter**. For eksempel kan du angive, at en bruger kun skal kunne læse poster, der indeholder oplysninger om en bestemt kunde. Du kan finde flere oplysninger i [Sikkerhedsfiltre begrænser en brugers adgang til bestemte poster i en tabel](#security-filters-limit-a-users-access-to-specific-records-in-a-table) og [Bruge sikkerhedsfiltre](/dynamics365/business-central/dev-itpro/security/security-filters).
@@ -105,9 +105,15 @@ I ruden **Resultat** skal du bruge feltet **Medtagelsesstatus** til at identific
 
 Hvis du vil have en overordnet visning af tilladelserne i tilladelsessættet, skal du vælge handlingen **Vis alle tilladelser**. Siden **Udvidede tilladelser** viser alle de tilladelser, der allerede er tildelt til tilladelsessættet, og tilladelserne i tilføjede tilladelsessæt.
 
-Hvis du helt vil udelukke et tilladelsessæt, som du har tilføjet, skal du markere linjen i ruden **Resultat**, vælge **Vis flere indstillinger** og derefter vælge **Udeluk**. Når du udelukker et tilladelsessæt, oprettes der en linje i ruden **Tilladelsessæt** af typen udeladt. Hvis du har udeladt et tilladelsessæt, men vil medtage det igen, skal du slette linjen i ruden med **Tilladelsessæt**.
+Hvis du helt vil udelukke alle tilladelser fra et tilladelsessæt, skal du markere linjen i ruden **Resultat**, vælge **Vis flere indstillinger** og derefter vælge **Udeluk**. Når du udelukker et tilladelsessæt, oprettes der en linje i ruden **Tilladelsessæt** af typen udeladt. Hvis du har udeladt et tilladelsessæt, men vil medtage det igen, skal du slette linjen i ruden med **Tilladelsessæt**.
 
-Hvis du vil udelukke en bestemt tilladelse helt eller delvist i et sæt, du har tilføjet, skal du oprette en linje for objektet under **Tilladelser**. Felterne adgangsniveau, Indsæt tilladelse, Rediger tilladelse osv. vil alle indeholde Udelad. Hvis du vil tillade et bestemt adgangsniveau, skal du vælge den relevante indstilling.
+Hvis du vil udelukke en bestemt tilladelse helt eller delvist i et sæt, du har tilføjet, skal du oprette en linje for objektet under **Tilladelser**. Felterne adgangsniveau, Indsæt tilladelse, Rediger tilladelse osv. vil alle indeholde **Udelad**. Hvis du vil tillade et bestemt adgangsniveau, skal du vælge den relevante indstilling.
+
+Hvis du udelader et tilladelsessæt, udelukkes alle tilladelserne i sættet. [!INCLUDE [prod_short](includes/prod_short.md)] beregner tilladelserne som følger:
+
+1. Beregne den fuldstændige liste over inkluderede tilladelser
+2. Beregne den fuldstændige liste over ekskluderede tilladelser
+3. Fjerne udelukkede tilladelser fra listen over inkluderede tilladelser (fjerne en indirekte tilladelse er den samme som reduktion af indirekte)
 
 ## Sådan kopieres et rettighedssæt
 
@@ -135,7 +141,7 @@ Opret et nyt tilladelsessæt ved at kopiere et andet. Det nye sæt vil omfatte a
 2. Vælg handlingen **Ny** på siden **Rettighedssæt**.
 3. Udfyld felterne på en ny linje efter behov.
 4. Vælg handlingen **Rettigheder**.
-1. På siden **Rettigheder** skal du vælge handlingen **Registrer rettigheder** og derefter vælge handlingen **Start**.  
+5. På siden **Rettigheder** skal du vælge handlingen **Registrer rettigheder** og derefter vælge handlingen **Start**.  
     Optagelsen skal udføres enten ved hjælp af **Åbn siden i en ny Windows**-funktion (pop-out) for at få **tilladelse** til at optage siden ved siden af eller ved at arbejde på den samme fane.  
     Der startes nu en registreringsproces, som registrerer alle dine handlinger i brugergrænsefladen.
 6. Gå til de forskellige sider og aktiviteter i [!INCLUDE[prod_short](includes/prod_short.md)], som du vil give brugerne med dette rettighedssæt adgang til. Du skal udføre de opgaver, som du vil registrere rettigheder for.
@@ -166,7 +172,7 @@ Rettighedssættene importeres.
 
 ## Sådan fjernes forældede rettigheder fra alle rettighedssæt
 
-1. På siden **Rettighedssæt** skal du vælge handlingen **Fjern forældede rettigheder**.
+På siden **Rettighedssæt** skal du vælge handlingen **Fjern forældede rettigheder**.
 
 ## Sådan opsættes tidsbegrænsninger for brugere
 
