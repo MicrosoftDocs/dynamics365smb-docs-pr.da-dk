@@ -1,38 +1,38 @@
 ---
 title: Sådan konfigureres lagervarer
-description: Du kan bruge lagervarer til at registrere oplysninger om dine varer på en bestemt lokation eller med en bestemt variantkode.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
+description: Brug lagervarer til at registrere oplysninger om dine varer på en bestemt lokation eller med en bestemt variant.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 04/19/2023
+ms.custom: bap-template
 ms.search.forms: '5704, 5700, 5702, 5701'
-ms.date: 04/01/2021
-ms.author: edupont
 ---
-# Opsætte lagervarer
 
-Du kan bruge lagervarer til at registrere oplysninger om varer på en bestemt lokation eller med en variantkode.  
+# Konfigurere lagervarer
 
-Lagervarer er et supplement til varekortene. De erstatter dem ikke, selvom de er relateret til dem. Med lagervarer kan du udskille oplysningerne om den samme vare, så de kun vedrører en bestemt lokation, f.eks. et lager eller distributionscenter, eller en bestemt variant, f.eks. forskellige hyldenumre og forskellige genbestillingsdata.  
+Brug lagervarer (SKU'er) til at registrere oplysninger om varer på en bestemt lokation eller med en variant. De giver dig mulighed for at tilføje forskellige oplysninger om en vare til en bestemt lokation, f. eks.:
+
+* Et lagersted eller distributionscenter
+* Varianter, f. eks. forskellige hyldenumre og forskellige genbestillingsoplysninger, for den samme vare  
 
 ## Sådan opsættes en lagervare  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagervarer**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Ny**.  
-3.  Udfyld felterne på kortet. Følgende felter er obligatoriske: **Varenr.**, **Lokationskode** og/eller **Variantkode**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagervarer**, og vælg derefter det relaterede link.  
+2. Vælg handlingen **Ny**.  
+3. Udfyld felterne efter behov. Følgende felter er obligatoriske: **Varenr.**, **Lokationskode** og/eller **Variantkode**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 Når du har angivet den første lagervare, bliver afkrydsningsfeltet **Lagervare findes** automatisk markeret på **Vare**-kortet.  
 
-Brug kørslen **Opret lagervare**, hvis du vil oprette flere lagerførte varer.  
+Brug kørslen **Opret lagervare**, hvis du vil oprette flere lagerførte varer. Få mere at vide om styring af batchjobs i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).  
 
 > [!NOTE]  
->  Oplysningerne på **lagervarekortet** tilsidesætter oplysningerne på **varekortet**.
+> Oplysningerne på **lagervarekortet** tilsidesætter oplysningerne på **varekortet**.
 
 > [!Warning]
-> Hvis lagervaren angives via produktion, bruges feltet **Kostpris (standard)** ikke ved fakturering og justering af den faktiske kostpris for den producerede vare. I stedet anvendes feltet **Kostpris (standard)** på det underliggende varekort, og eventuelle afvigelser beregnes mod kostprisfordelingen for den vare.<br /><br />
-> Fordi produktionsstyklister og rute ikke kan tildeles lagervarer, så er kostprisakkumulering og den relaterede beregning af kostprisfordelingen heller ikke tilgængelig på lagervarer. Du kan finde flere oplysninger i [Om beregning af standardkostpris](finance-about-calculating-standard-cost.md)
+> Hvis lagervaren angives via produktion, bruges feltet **Kostpris (standard)** ikke ved fakturering og justering af den faktiske kostpris for den producerede vare. I stedet anvender [!INCLUDE [prod_short](includes/prod_short.md)] værdien i feltet **kostpris (standard)** på det underliggende varekort, og eventuelle afvigelser beregnes mod kostprisfordelingen for den vare.<br><br>
+> Selvom du kan tildele produktionsstyklister og rute til lagervarer, er kostprisakkumulering og den relaterede beregning af kostprisfordelingen ikke tilgængelig på lagervarer. Hvis du vil vide mere om standardkostpriser, skal du gå til [Om beregning af standardkostpris](finance-about-calculating-standard-cost.md)
 
 ## Se relateret [Microsoft-træning](/training/modules/control-inventory-multiple-locations/)
 
@@ -44,6 +44,5 @@ Brug kørslen **Opret lagervare**, hvis du vil oprette flere lagerførte varer.
 [Lager](inventory-manage-inventory.md)  
 [Montagestyring](assembly-assemble-items.md)    
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

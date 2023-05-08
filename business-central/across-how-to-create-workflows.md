@@ -2,32 +2,33 @@
 title: Oprette godkendelsesworkflows for at forbinde opgaver
 description: 'Lær, hvordan du kan oprette arbejdsgange, der udføres af personer i forretningsprocesser.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 11/11/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: how-to
+ms.date: 04/24/2023
+ms.custom: bap-template
 ---
 # Oprette arbejdsgange for at forbinde opgaver i virksomhedsprocesser
 
-Du kan oprette arbejdsgange, der forbinder handlinger i forretningsprocesser, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin.  
+Du kan oprette arbejdsgange, der forbinder handlinger i forretningsprocesser, der udføres af forskellige brugere. Du kan inkludere systemopgaver, f.eks automatisk bogføring, som trin i arbejdsgange med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin.  
 
-På siden **Workflow** oprettes et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en workflowhændelse, begrænset af hændelsesbetingelser, og et workflowrespons med responsmuligheder. Du definerer arbejdsgangstrin ved at udfylde felter om arbejdsganglinjer med faste lister over hændelses- og svarværdier, der repræsenterer scenarier, der understøttes af programkoden.  
+På siden **Workflow** oprettes et workflow ved at angive trinnene på linjerne. Hvert trin består af en udløser og et svar:
+
+* En hændelse, der angiver de betingelser, som skal starte arbejdsprocessen.
+* En workflowrespons, der definerer, hvad arbejdsprocessen udfører.
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-Når du opretter workflows, kan du kopiere trinene fra eksisterende workflows eller workflowskabeloner. Workflowskabeloner repræsenterer workflows, som ikke kan redigeres, og som findes i den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)]. Koden for arbejdsgangsskabeloner tilføjet af Microsoft, har "MS-" foran som f.eks. i "MS PIW". Flere oplysninger [Oprette workflows fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md).  
+Når du opretter workflows, kan du kopiere trinene fra eksisterende workflows eller workflowskabeloner. Arbejdsprocesskabeloner er arbejdsprocesser, der ikke kan redigeres [!INCLUDE[prod_short](includes/prod_short.md)]. Id'er for arbejdsgangsskabeloner tilføjet med "MS-" foran f.eks. "MS PIW". Flere oplysninger [Oprette workflows fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md).  
 
 > [!NOTE]  
 > Alle notifikationer om arbejdsgangstrin sendes via en opgavekø. Sørg for, at opgavekøen afspejler virksomhedens behov. Flere oplysninger under [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).  
 
 :::image type="content" source="media/Workflows/workflow-example.png" alt-text="Illustration af et eksempel på en arbejdsproces.":::
 
-Arbejdsflowet er inddelt i tre sektioner:
+Et arbejdsflow er inddelt i tre sektioner:
 
-1. **Hvis hændelse**  
+1. **Når hændelse**  
    Hver vælges udløseren.  
    Eksempler på en udløser:
    * En masterdatapost er ændret
@@ -39,7 +40,7 @@ Arbejdsflowet er inddelt i tre sektioner:
 3. **Så svar**  
    **Svarene** angiver de næste trin i workflowet.
 
-Indstillingerne er systemdefinerede for både hændelser og svar. Nye hændelser skal tilføjes ved hjælp af udviklingen af et filtypenavn.
+Indstillingerne er hændelser og svar er systemdefineret. Hvis du vil tilføje nye indstillinger, skal du udvikle et filtypenavn.
 
 ## Sådan oprettes en arbejdsgang
 
@@ -51,18 +52,18 @@ Indstillingerne er systemdefinerede for både hændelser og svar. Nye hændelser
 6. I feltet **Kategori** kan du angive, hvilken kategori workflowet hører under.  
 7. I feltet **Når hændelse** skal du angive den hændelse, der skal udføres for at starte trinnet i workflowet.  
 
-   Når du vælger feltet, åbnes siden **Workflowhændelser**, hvor du kan vælge mellem alle tilgængelige workflowhændelser.  
+   Når du vælger feltet, åbnes siden **Workflowhændelser** med alle tilgængelige workflowhændelser.  
 8. I feltet **På betingelse** skal du angive en eller flere betingelser, der skal opfyldes, før hændelsen i feltet **Når hændelse** kan udføres.  
 
-   Når du vælger feltet, åbnes siden **Hændelsesbetingelser**, så du kan vælge på en liste over filterfelter, der er relevante som betingelser for den pågældende hændelse. Du kan tilføje nye filterfelter, du vil bruge som hændelsesbetingelser. Du kan angive hændelsesbetingelsesfiltre, ligesom du angiver filtre for rapportanmodningssider.  
+   Når du klikker på feltet, viser siden **Hændelsesbetingelser** filtrerede felter, der kan være betingelser for hændelsen. Du kan tilføje nye filtrede felter, hvis du har brug for det.  
 
-   Hvis workflowhændelsen er ændringen af et bestemt felt i en post, åbnes siden **Hændelsesbetingelser**, hvor du kan vælge feltet og ændringstypen.  
+   Hvis workflowhændelsen er ændringen af et bestemt felt i en post, bruges siden **Hændelsesbetingelser** til at vælge feltet og ændringstypen.  
 
    1. Hvis du vil angive feltændringen for hændelsen, skal du i feltet **Felt** på siden **Hændelsesbetingelser** markere det felt, der ændres.  
    2. I feltet **Operator** skal du vælge enten **Reduceret**, **Forøget** eller **Ændret**.  
 9. Angiv den respons, der skal følge, når workflowhændelsen forekommer, i feltet **Så svar**.  
 
-   Når du vælger feltet, åbnes siden **Workflowrespons**, så du kan vælge mellem alle tilgængelige workflowresponser, og angive indstillinger for respons for den valgte respons.  
+   Når du vælger feltet, viser siden **Workflowsvar** med alle tilgængelige workflowsvar og svarmuligheder.  
 10. På oversigtspanelet **Indstillinger for den valgte svar** skal du angive indstillinger for workflowsvar ved at vælge værdier i forskellige felter, der vises, som følger:  
 
     1. Hvis du vil angive indstillinger for et workflowrespons, der involverer afsendelse af en notifikation, skal du udfylde felterne som beskrevet i følgende tabel.  
@@ -72,21 +73,22 @@ Indstillingerne er systemdefinerede for både hændelser og svar. Nye hændelser
 
        |Felt|Beskrivelse|
        |-----|-----------|
-       |**Giv afsender besked**|Angiv, om godkendelsesanmoderen er blevet underrettet i stedet for modtageren af godkendelsesanmodningen. Hvis du markerer afkrydsningsfeltet, bliver feltet **Modtagers bruger-ID** deaktiveret, da anmoderen til godkendelsen, afsenderen, får besked i stedet. Navnet på workflowresponset ændres tilsvarende til **Opret notifikation til &lt;afsender&gt;**. Hvis afkrydsningsfeltet ikke er markeret, angives navnet på workflowresponset til **Opret notifikation til &lt;bruger&gt;**.|
+       |**Giv afsender besked**|Angiv, om godkendelsesanmoderen skal underrettes i stedet for modtageren af godkendelsesanmodningen. Hvis du markerer afkrydsningsfeltet, bliver feltet **Modtagers bruger-ID** deaktiveret, da anmoderen til godkendelsen, afsenderen, får besked i stedet. Navnet på workflowresponset ændres tilsvarende til **Opret notifikation til &lt;afsender&gt;**. Hvis afkrydsningsfeltet ikke er markeret, angives navnet på workflowresponset til **Opret notifikation til &lt;bruger&gt;**.|
        |**Modtagers bruger-id**|Angiv den bruger, som notifikationen skal sendes til. **Bemærk**: Denne indstilling er kun tilgængelig for workflowrespons med en pladsholder for en bestemt bruger. Notifikationsmodtageren defineres typisk af **godkendelsesbrugeropsætningen**, når det drejer sig om workflowsvar uden pladsholdere for brugere.|
-       |**Notifikationsposttype**|Angiv, om workflow-notifikationen udløses af en postændring, en godkendelsesanmodning eller data vedrørende forfaldsdato.|
-       |**Side, der linkes til**|Angiv en anden side, som linket i notifikationen åbner i stedet for standardsiden. Siden skal have samme kildetabel som den post, det drejer sig om.|
+       |**Notifikationsposttype**|Angiv en udløser til notifikationen arbejdsgang. Udløseren kan være en postændring, en godkendelsesanmodning eller en overskredet forfaldsdato.|
+       |**Side, der linkes til**|Angiv den side, som linket i notifikationen åbner. Siden skal have samme kildetabel som den post, det drejer sig om.|
        |**Brugerdefineret link**|Angiv URL-adressen på et link, der føjes til notifikationen ud over standardlinket til siden.|
 
     2. Hvis du vil angive indstillinger for et workflowrespons, der involverer oprettelse af en godkendelsesanmodning, skal du udfylde felterne som beskrevet i følgende tabel.  
 
        |Felt|Beskrivelse|  
        |-----|-----------|  
-       |**Formular for forfaldsdato**|Angiv, inden hvor mange dage godkendelsesanmodningen skal løses fra den dato, hvor den blev sendt.|
-       |**Uddeleger efter**|Angiv, om og hvornår en godkendelsesanmodning uddelegeres automatisk til den relevante stedfortræder. Du kan vælge, at der automatisk skal uddelegeres én, to eller fem dage efter den dato, hvor der blev anmodet om godkendelse.|
+       |**Formular for forfaldsdato**|Angiv det antal dage, som godkenderen skal kunne løse anmodningen. Perioden starter, når anmodningen sendes.|
+       |**Uddeleger efter**|Angiv, om og hvornår en godkendelsesanmodning uddelegeres automatisk til stedfortræderen. Du kan vælge, at der automatisk skal uddelegeres én, to eller fem dage efter den dato, hvor der blev anmodet om godkendelse.|
        |**Godkendertype**|Angiv, hvem godkenderen er, i overensstemmelse med opsætningen af godkendelses- og arbejdsgangsbrugere. Når feltet er angivet til **Sælger/indkøber**, angiver den bruger, der er angivet i feltet **Sælger/indkøbskode** på siden **Brugeropsætning af godkendelser**, godkenderen. Derefter oprettes der godkendelsesanmodningsposter ud fra værdien i feltet **Godkenders grænsetype**. Flere oplysninger i [Konfigurere godkendte brugere](across-how-to-set-up-workflow-users.md).|
-       |**Vis bekræftelsesmeddelelse**|Angiv, om en bekræftelsesmeddelelse vises for brugere, når de anmoder om en godkendelse.|
-       |**Godkenders grænsetype**|Angiv, hvordan godkenderes godkendelsesgrænser påvirker, hvornår godkendelsesanmodningsposter oprettes for dem. En kvalificeret godkender er en person, hvis godkendelsesgrænse er større end værdien i anmodningen, der sendes. Der findes følgende indstillinger: <ol><li>**Godkenderkæde** angiver, at godkendelsesanmodningsposter oprettes for alle anmoderens godkendere til og med den første kvalificerede godkender.</li><li>**Direkte godkender** angiver, at en godkendelsesanmodningspost kun oprettes for anmoderens umiddelbare godkender, uanset godkenderens godkendelsesgrænse.</li><li>**Første kvalificerede godkender** angiver, at en godkendelsesanmodningspost kun oprettes for anmoderens første kvalificerede godkender.</li><li>**Specifik godkender** angiver, at du får besked om, at brugeren har valgt feltet **Godkender-id**.</li></ol>|
+       |**Vis bekræftelsesmeddelelse**|Angiv, om en bekræftelsesmeddelelse skal vises efter en bruger anmoder om en godkendelse.|
+       |**Godkenders grænsetype**|Angiv virkningen af grænser for godkendere. Godkendelsesgrænsen for en godkenders konto skal være over værdien i anmodningen. Der findes følgende indstillinger: <ol><li>**Godkenderkæde** angiver, at godkendelsesanmodningsposter oprettes for alle anmoderens godkendere til og med den første kvalificerede godkender.</li><li>**Direkte godkender** angiver, at en godkendelsesanmodningspost kun oprettes for anmoderens umiddelbare godkender, uanset godkenderens godkendelsesgrænse.</li><li>**Første kvalificerede godkender** angiver, at en godkendelsesanmodningspost kun oprettes for anmoderens første godkender.</li><li>**Specifik godkender** angiver, at du får besked om, at brugeren har valgt feltet **Godkender-id**.</li></ol>|
+
     3. Hvis du vil angive indstillinger for et arbejdsgangssvar, der involverer oprettelse af kladdelinjer, skal du udfylde felterne som beskrevet i følgende tabel.  
 
        |Felt|Beskrivelse|  
@@ -96,24 +98,24 @@ Indstillingerne er systemdefinerede for både hændelser og svar. Nye hændelser
 
 11. Vælg knapperne **Forøg indrykning** og **Reducer indrykning** for at indrykke hændelsesnavnet i feltet **Når** for at definere trinnets placering i workflowet.  
 
-    1. Angiv, at trinnet er næste i arbejdsgangrækkefølgen ved at indrykke hændelsesnavnet under hændelsesnavnet på det foregående trin.  
+    1. Indryk hændelsen under navnet på forrige trin for at angive, at det er næste trin.  
     2. Angiv, at trinnet er et af flere alternative trin, der kan starte, afhængigt af dets tilstand, ved at placere hændelsesnavnet på den samme indrykning som de andre alternative trin. Ranger sådanne valgfrie trin i overensstemmelse med prioritet ved at placere det vigtigste først.  
 
     > [!NOTE]  
     >  Du kan kun ændre indrykningen af et trin, der ikke har et efterfølgende trin.  
 
 12. Gentag trin 7 til 11 for at tilføje flere arbejdsgang trin, før eller efter det trin, du lige har oprettet.  
-13. Aktiver afkrydsningsfeltet **Aktiveret** for at angive, at workflowet starter, så snart hændelsen på det første trin af typen **Startpunkt** nås. Flere oplysninger i [Bruge workflows](across-use-workflows.md).  
+13. Aktiver afkrydsningsfeltet **Aktiveret** for at angive, at workflowet starter, når hændelsen på det første trin af typen **Startpunkt** nås. Flere oplysninger i [Bruge workflows](across-use-workflows.md).  
 
 > [!NOTE]  
-> Undlad at aktivere en arbejdsgang, før du er sikker på, at arbejdsgangen er fuldført, og at arbejdsgangstrin involveret kan begynde.  
+> Aktivér ikke en arbejdsproces, før du er sikker på, at den er klar.  
 
 > [!TIP]  
-> Hvis du vil se relationer mellem de tabeller, der bruges i arbejdsgange, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, og derefter angive **Workflow – tabelrelationer**.  
+> Hvis du vil udforske relationer mellem de tabeller, der bruges i arbejdsgange, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, og derefter angive **Workflow – tabelrelationer**.  
 
 ## Eksempel på oprettelse af en ny arbejdsproces vha. eksisterende hændelser
 
-I følgende eksempel oprettes der en ny arbejdsgang for at godkende ændringer af navnet på en eksisterende kreditor:
+I følgende eksempel oprettes der en arbejdsgang for at godkende ændringer af navnet på en kreditor:
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Workflows**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. Siden **Workflow** åbnes.
@@ -128,39 +130,39 @@ I følgende eksempel oprettes der en ny arbejdsgang for at godkende ændringer a
 4. Gør følgende for at oprette det første workflow-trin.
 
     1. I feltet **Når-hændelse** skal du angive, at *En kreditorpost er ændret*.  
-    2. I feltet **på betingelse** skal du vælge **Altid**. Vælg derefter linket **Tilføj en betingelse for, hvornår en feltværdi skifter** på siden **Hændelsesbetingelser** og derefter feltet *Navn*. Resultatet af dette trin er, at betingelsen læses som *Navnet er ændret*.  
-    3. I feltet **Så svar** skal du vælge linket **Vælg svar**. Vælg nu i feltet **Vælg svar** på siden **Workflow-svar** svaret *Tilbagefør værdien for feltet \<Field\> i posten, og gem ændringen*. Angiv feltet **Navn** i sektionen *Indstillingerne for den valgte svar*.  
-    4. Vælg linket **Tilføj flere svar**, og tilføj derefter svaret *Opret en godkendelsesanmodning for posten ved hjælp af godkendertype <%1> og <%2>* svaret.  
-    5. Under **Indstillinger for den valgte svar**-sektion til det nye svar skal du ændre feltet **Godkendertype** til *brugergruppen arbejdsgang* og derefter angive den relevante brugergruppe i feltet **arbejdsgang-brugergruppe**. Flere oplysninger i [Konfigurere godkendte brugere](across-how-to-set-up-approval-users.md).  
-    6. Tilføj et tredje svar, *Send godkendelsesanmodning for posten, og opret en notifikation.*  
-    7. Tilføj et fjerde svar *Vis meddelelse "%1"*, og angiv derefter **Indstillinger for det valgte svar** i feltet **Meddelelse**, og angiv derefter **En godkendelsesanmodning er sendt**.  
+    2. I feltet **på betingelse** skal du vælge **Altid**. Vælg derefter linket **Tilføj en betingelse for, hvornår en feltværdi skifter** på siden **Hændelsesbetingelser** og derefter feltet **Navn**. Resultatet af dette trin er, at betingelsen læses som *Navnet er ændret*.  
+    3. I feltet **Så svar** skal du vælge linket **Vælg svar**. Vælg nu i feltet **Vælg svar** på siden **Workflow-svar** svaret **Tilbagefør værdien for feltet \<Field\> i posten, og gem ændringen**. Angiv feltet **Navn** i sektionen **Indstillingerne for den valgte svar**.  
+    4. Vælg linket **Tilføj flere svar**, og tilføj derefter svaret **Opret en godkendelsesanmodning for posten ved hjælp af godkendertype <%1> og <%2>** svaret.  
+    5. I sektionen **Indstillinger for det valgte svar** til det nye svar skal du ændre feltet **Godkendertype** til **Brugergruppe for workflow**. Angiv derefter brugergruppen i feltet **Brugergruppe for workflow**. Flere oplysninger i [Konfigurere godkendte brugere](across-how-to-set-up-approval-users.md).  
+    6. Tilføj et tredje svar, **Send godkendelsesanmodning for posten, og opret en notifikation**.  
+    7. Tilføj et fjerde svar **Vis meddelelsen "%1"**. Angiv derefter i sektionen **Indstillingerne for den valgte svar** i feltet **Meddelelse** skal du angive **En godkendelsesanmodning er sendt**.  
     8. Vælg **OK** for at gå tilbage til workflowtrinnet.  
 
-5. På næste linje skal du tilføje et nyt arbejdsprocestrin for *en godkendelsesanmodning er godkendt.* begivenhed.
+5. På næste linje skal du tilføje et nyt arbejdsprocestrin for hændelsen **En godkendelsesanmodning er godkendt**.
 
-    1. I feltet **når hændelse** skal du angive, at *en godkendelsesanmodning er godkendt*.  
+    1. I feltet **når hændelse** skal du angive, at **en godkendelsesanmodning er godkendt**.  
     2. Vælg linje menuen, vælg derefter **Øg indrykning**.  
-    3. I feltet **På betingelse** skal du vælge ordet **Altid** og derefter angive **0** i feltet *ventende godkendelser*. Resultatet af dette trin læses som *ventende godkendelser:0* for at angive, at dette er den sidste godkender.  
-    4. I feltet **Så svar** skal du vælge linket **Vælg svar**. Derefter på siden **Workflow-svar** i feltet **Vælg svar** vælges *Send godkendelsesanmodning til post, og opret en notifikation*.  
+    3. I feltet **På betingelse** skal du vælge **Altid**. Angiv derefter **0** i feltet **Udestående godkendelser**. Resultatet af dette trin læses som **Udestående godkendelser:0** for at angive, at anmodninger ikke kræver flere godkendere.  
+    4. I feltet **Så svar** skal du vælge linket **Vælg svar**. Derefter på siden **Workflow-svar** i feltet **Vælg svar** vælges **Send godkendelsesanmodning til post, og opret en notifikation**.  
     5. Vælg **OK**.  
-6. På næste linje skal du tilføje et nyt arbejdsprocestrin for hændelsen *en godkendelsesanmodning er godkendt*.  
+6. På næste linje skal du tilføje et nyt arbejdsprocestrin for hændelsen **en godkendelsesanmodning er godkendt**.  
 
-    1. I feltet **når hændelse** skal du angive, at *en godkendelsesanmodning er godkendt*.
-    2. I feltet **På betingelse** skal du vælge ordet **Altid** og derefter angive i feltet **Ventende godkendelser** *>0*. Resultatet af dette trin læses som *ventende godkendelser:>0* for at angive, at dette er *ikke* den sidste godkender.  
-    3. I feltet **Så svar** skal du vælge linket **Vælg svar**. Derefter på siden **Workflow-svar** i feltet **Vælg svar** vælges *Send godkendelsesanmodning til post, og opret en notifikation*.  
+    1. I feltet **når hændelse** skal du angive, at **en godkendelsesanmodning er godkendt**.
+    2. I feltet **På betingelse** skal du vælge **Altid**. Angiv derefter **>0** i feltet **Udestående godkendelser**. Resultatet af dette trin læses som **Udestående godkendelser:>0** for at angive, at dette ikke er den sidste godkender.  
+    3. I feltet **Så svar** skal du vælge linket **Vælg svar**. Derefter på siden **Workflow-svar** i feltet **Vælg svar** vælges **Send godkendelsesanmodning til post, og opret en notifikation**.  
     4. Vælg **OK**.  
-7. På næste linje skal du tilføje et nyt arbejdsprocestrin for hændelsen *en godkendelsesanmodning er delegeret*.  
+7. På næste linje skal du tilføje et nyt arbejdsprocestrin for hændelsen **en godkendelsesanmodning er delegeret**.  
 
-    1. I feltet **når hændelse** skal du angive, at *en godkendelsesanmodning er delegeret*.  
-    2. I feltet **på betingelse** skal du lade værdien være som *altid*.  
-    3. I feltet **Så svar** skal du vælge linket **Vælg svar**. Derefter på siden **Workflow-svar** i feltet **Vælg svar** vælges *Send godkendelsesanmodning til post, og opret en notifikation*.  
+    1. I feltet **når hændelse** skal du angive, at **en godkendelsesanmodning er delegeret**.  
+    2. I feltet **på betingelse** skal du lade værdien være som **altid**.  
+    3. I feltet **Så svar** skal du vælge linket **Vælg svar**. Derefter på siden **Workflow-svar** i feltet **Vælg svar** vælges **Send godkendelsesanmodning til post, og opret en notifikation**.  
     4. Vælg **OK**.  
-8. På næste linje skal du tilføje et nyt arbejdsprocestrin for hændelsen *en godkendelsesanmodning er afvist*.  
+8. På næste linje skal du tilføje et nyt arbejdsprocestrin for hændelsen **en godkendelsesanmodning er afvist**.  
 
-    1. I feltet **når hændelse** du angive, at *en godkendelsesanmodning er afvist*.  
-    2. I feltet **på betingelse** skal du lade værdien være som *altid*.  
-    3. I feltet **Så svar** skal du vælge linket **Vælg svar**. Vælg derefter indstillingen **Fjern de nye værdier** i feltet **Vælg svar** på siden *Workflow-svar*.  
-    4. Vælge linket **Tilføj flere svar**, tilføj derefter en post for *Afvis en godkendelsesanmodning for posten og opret en notifikation*-svaret
+    1. I feltet **når hændelse** du angive, at **en godkendelsesanmodning er afvist**.  
+    2. I feltet **på betingelse** skal du lade værdien være som **altid**.  
+    3. I feltet **Så svar** skal du vælge linket **Vælg svar**. Vælg derefter indstillingen **Fjern de nye værdier** i feltet **Vælg svar** på siden **Workflow-svar**.  
+    4. Vælge linket **Tilføj flere svar**, tilføj derefter en post for **Afvis en godkendelsesanmodning for posten og opret en notifikation**-svaret
     5. Vælg **OK**.  
 9. Aktiver workflowet ved at slå **Aktiveret** til.  
 

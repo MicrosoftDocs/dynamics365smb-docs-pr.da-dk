@@ -40,7 +40,7 @@ En varesporingskode afspejler de forskellige overvejelser, som en virksomhed ska
 Da dette specielle opsætningsfelt dækker alle mulige transaktioner med varen, markeres de individuelle indgående og udgående felter også. De individuelle ind- og udgående felter har imidlertid intet at gøre med udligning på lageret – de angiver blot din virksomheds arbejdsgang for, hvornår der skal tilknyttes varesporingsnumre.  
 
 > [!NOTE]  
->  Når du vil tildele varesporingsnumre i lageraktiviteter, skal du markere afkrydsningsfelterne **Serienr. - lagersporing** og **Lotlagersporing** være markeret på varens varesporingskodekort.  
+> Når du vil tildele varesporingsnumre i lageraktiviteter, skal du markere afkrydsningsfelterne **Serienr. - lagersporing** og **Lotlagersporing** være markeret på varens varesporingskodekort.  
 
 ## Sådan oprettes udløbsregler for serienumre eller lotnumre
 
@@ -78,6 +78,36 @@ Hvis du vil aktivere varesporing, skal du først tildele varesporingskoderne til
 2. Vælg en eksisterende vare på listen, og Åbn siden **Varekort**.  
 3. I oversigtspanelet **varesporing** skal du tildele de relevante varesporingskoder og vælge **Varesporingskode**, **serienumre** og **lotnumre**.
     1. Du kan også vælge at oprette en ny varesporingskode ved at vælge den **nye** handling.
+
+## Sådan angives startsaldoer for de varer, du sporer
+
+Du kan oprette primosaldi for de varer, som du sporer. Da du kan vælge forskellige lageropsætninger, er der to muligheder:
+
+* Aktivere bestemte batchnumre på siden **Varekladder** for at lade personer angive serie-, lot- og pakkedata direkte på kladdelinjer.
+* For lokationer, hvor funktionen **Styret læg-på-lager og pluk** er aktiveret, skal du bruge siden **Lagerplaceringsopgørelse** til at gøre alle varesporingsfelter tilgængelige. De felter, der er tilgængelige, omfatter felterne **Garantidato** og **Udløbsdato**.
+
+### Varekladder 
+
+1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varekladder**, og vælg derefter det relaterede link.
+2. Vælg feltet **Navn** for at åbne en liste over varekladdenavne.
+3. Vælg **Ny** for at oprette et nyt batch, og aktiver derefter **Varesporing på linjer**.
+4. Klik på **OK** for at vælge den oprettede batch.
+5. Udfyld felterne efter behov på varekladdelinjen. Bemærk, at felterne **Lotnr.**, **Serienr.**, **Udløbsdato**, **Garantidato** og **Pakkesporingsnr.** felterne er tilgængelige (hvis funktionen er aktiveret).
+6. Vælg handlingen **Bogfør** for at justere lagerbeholdning.
+
+> [!NOTE] 
+> [!INCLUDE [prod_short](includes/prod_short.md)] understøtter nogle få mindre valideringer, når du indtaster eller importerer data. Der foretages en mere omfattende kontrol, når du bogfører eller overfører data fra kladdelinjer til vinduet **Varesporing**. Sidstnævnte sker automatisk, når du åbner siden **Varesporing** fra varekladdelinjen, eller hvis du har valgt handlingen **Opdater varesporingslinjer**.
+
+### Lagerplaceringsopgørelseskladde til lokationer, hvor styret pluk og læg-på-lager er aktiveret  
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lageropgørelsesordrer**, og vælg derefter det relaterede link.
+2. Udfyld felterne efter behov på varekladdelinjen. Bemærk, at felterne **Lotnr.**, **Serienr.**, **Udløbsdato**, **Garantidato** og **Pakkesporingsnr.** felterne er tilgængelige (hvis funktionen er aktiveret).
+3. Vælg handlingen **Registrer** for at regulere lagerbeholdningen. Husk, at du skal synkronisere de regulerede lagerposter med de relaterede vareposter. Hvis du vil vide mere, skal du gå til [synkronisering af de justerede lagerposter](/dynamics365/business-central/inventory-how-count-adjust-reclassify#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
+
+I forbindelse med masseimport skal du bruge konfigurationspakker til at importere data til kladderne.
+
+> [!NOTE]
+> Du kan ikke bruge **Rediger i Excel** til at oprette kladdelinjer med sporingsoplysninger.
 
 ## Se relateret [Microsoft-træning](/training/modules/prepare-item-tracking/)
 

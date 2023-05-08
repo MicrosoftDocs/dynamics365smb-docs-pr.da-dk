@@ -1,26 +1,25 @@
 ---
 title: Programoverholdelse
-description: 'Dette emne indeholder oplysninger om programoverholdelse i relation til Business Central som f.eks. internationale standarder for finansiel rapportering, lokal funktionalitet og GDPR.'
+description: 'Denne artikel beskriver, hvordan Business Central overholder de internationale Financial Reporting-standarder, lokal funktionalitet og regler og lovgivning vedrørende beskyttelse af personlige oplysninger.'
 author: sorenfriisalexandersen
-documentationcenter: ''
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 08/25/2022
 ms.author: soalex
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.date: 04/25/2023
+ms.custom: bap-template
 ---
+
 # Programoverholdelse
 
-Dette indhold indeholder oplysninger om programoverholdelse i relation til [!INCLUDE[prod_short](../includes/prod_short.md)], f.eks. internationale standarder for finansiel rapportering, lokal funktionalitet, generel forordning om databeskyttelse (GDPR) og meget mere. Tillid til en løsning til virksomhedsadministration er nøglen til at køre en effektiv virksomhed. Med Business Central har virksomheder muligheder for at strømline forretningsprocesser, samtidig med at de ensartet og omkostningseffektivt følger de stigende krav til regulering og rapportering.
+Artiklen indeholder oplysninger om, hvordan [!INCLUDE [prod_short](../includes/prod_short.md)] sikrer, at firmaer strømliner forretningsprocesser, samtidig med at de ensartet og omkostningseffektivt følger de stigende krav til regulering og rapportering.
 
 ## Beskyttelse af data
 
-Business Central understøtter initiativer til beskyttelse af personlige data, f.eks. den generelle forordning om databeskyttelse (GDPR), der trådte i kraft 25. maj 2018. Læs mere om, hvordan [Business Central understøtter GDPR](../admin-responding-to-requests-about-personal-data.md).  
+[!INCLUDE [prod_short](../includes/prod_short.md)] understøtter love og bestemmelser om beskyttelse af data. [Få mere at vide om, hvordan du besvarer anmodninger om dataanmodninger i Business Central](../admin-responding-to-requests-about-personal-data.md).
 
-Hvis du er udvikler af Business Central-udvidelser, skal du kende til klassificering af data. Få mere at vide på [denne side](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
-Hvis du vil vide mere om GDPR fra et større Dynamics 365-perspektiv, skal du se [denne liste over hvidbøger](/dynamics365/get-started/gdpr/).
+Hvis du udvikler [!INCLUDE [prod_short](../includes/prod_short.md)]-udvidelser, har du brug for at vide, [hvordan data klassificeres i Dynamics 365](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
+
+[Få mere at vide om beskyttelse af personlige oplysninger i Dynamics 365](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## Regnskabet behandler og styrer for at hjælpe med overholdelse
 
@@ -36,7 +35,7 @@ Overholdelse afhænger ikke kun af nøjagtige oplysninger og relevante regnskabs
 
 ## Udnyt fordelene ved en integreret løsning til virksomhedsadministration
 
-Business Central leverer integrerede driftsmæssige og finansielle oplysninger i realtid fra hele organisationen, så du kan:
+[!INCLUDE [prod_short](../includes/prod_short.md)] leverer integrerede driftsmæssige og finansielle oplysninger i realtid fra hele organisationen, så du kan:
 
 - Spor finansielle data ved hjælp af brugerdefinerede finansrapporter til pengestrøm,, indtægter, balancer, anlægsaktiver, kapitalstruktur, nøgletal og meget mere.
 - Hjælp med til at sikre nøjagtigheden med rollebaseret sikkerhed og programstyring, der kan konfigureres, som forhindrer indtastning af ugyldige eller dublerede data.
@@ -45,7 +44,7 @@ Business Central leverer integrerede driftsmæssige og finansielle oplysninger i
 
 ## Få kontrol over vigtige oplysninger, processer og rapporter
 
-Business Central forbedrer styringen af nøglefunktioner og oplysninger, der er vigtige for virksomhedens succesfulde drift.
+[!INCLUDE [prod_short](../includes/prod_short.md)] forbedrer styringen af nøglefunktioner og oplysninger, der er vigtige for virksomhedens succesfulde drift.
 
 ### Styr overholdelse af de standarder, der har betydning
 
@@ -90,7 +89,7 @@ Microsoft bygger lokaliserede versioner af Business Central med et begrænset an
 
 > [!NOTE]  
 > **IAS/IFRS: Registrering og målingsstandarder**  
-> Afhængigt af de aktuelle lokale GAAP'er, der i øjeblikket bruges, er nogle af de vigtigste ændringer af registrering og måling til IAS/IFRS brugen af principper for markedspris i stedet for historisk kostpris. Business Central kan hjælpe virksomheder med beregne handelsværdi og nettonutidsværdi (NPV), der fokuserer på eksisterende og forventede pengestrømme i stedet for på historisk købspris. På rapportsiden tilbydes segmentrapportering efter afdeling og geografiske placering.
+> Afhængigt af de aktuelle lokale GAAP'er, der i øjeblikket bruges, er nogle af de vigtigste ændringer af registrering og måling til IAS/IFRS brugen af principper for markedspris i stedet for historisk kostpris. [!INCLUDE [prod_short](../includes/prod_short.md)] kan hjælpe virksomheder med beregne handelsværdi og nettonutidsværdi (NPV), der fokuserer på eksisterende og forventede pengestrømme i stedet for på historisk købspris. På rapportsiden tilbydes segmentrapportering efter afdeling og geografiske placering.
 
 > [!NOTE]  
 > **Basel II: Konsekvenser for rapportering og analyse**  
