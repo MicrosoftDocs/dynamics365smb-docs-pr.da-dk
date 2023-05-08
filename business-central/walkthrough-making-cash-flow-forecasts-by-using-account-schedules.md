@@ -39,7 +39,7 @@ Denne gennemgang viser de opgaver, der udføres af følgende brugerrolle:
 
 ## Historie
 
-Ken er controller hos CRONUS, der udarbejder månedlige likviditetsforecasts. Han medtager økonomi, salg, køb og anlæg i budgettet, og derefter præsenterer han det for Økonomichefen Sara med henblik på brancheindsigt.  
+Ken er controller hos CRONUS, der udarbejder månedlige likviditetsforecasts. Ken medtager økonomi, salg, køb og anlæg i budgettet, og derefter præsenterer han det for Økonomichefen Sara med henblik på brancheindsigt.  
 
 ## Opsætning af et nyt finansrapportnavn
 
@@ -95,12 +95,12 @@ Når der er oprettet et økonomisk rapportnavn, definerer Ken hver linje i den f
 
 ## Opsætning af et nyt kolonneformat
 
-Før Ken kan udskrive likviditetsforecastet, skal han oprette kolonneformat for de numeriske oplysninger. I kolonnerne skal han definere de oplysninger, han ønsker at bruge fra linjerne.
+Før Ken kan udskrive likviditetsforecastet, skal han oprette kolonneformat for de numeriske oplysninger. I kolonnerne skal Ken definere de oplysninger, han ønsker at bruge fra linjerne.
 
 - Den første kolonne er nummeret *C10* med titlen **Beløb**, og den indeholder bevægelsen.  
 - Den anden kolonne er nummereret *C20* med titlen **Saldo til dato** og indeholder transaktionerne i perioden.  
 - Den tredje kolonne er nummeret *C30* med titlen **Hele året** og indeholder bevægelsen i saldiene for hele regnskabsåret.  
-- Endelig angiver han kolonnedefinitionen som standardindstillingen for finansrapporten **Prognose**.  
+- Endelig angiver Ken kolonnedefinitionen som standardindstillingen for finansrapporten **Prognose**.  
 
 ### Opsætning af ny kolonnedefinition
 

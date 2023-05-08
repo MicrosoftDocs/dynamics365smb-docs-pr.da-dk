@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: kit, kitting
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.search.keywords: 'kit, kitting'
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7ba67db5f2ba0e01dc2b3b13dca162de714b3127
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607306"
 ---
-# <a name="quote-an-assemble-to-order-sale"></a>Oprette tilbud på montage til ordre-salg
+# Oprette tilbud på montage til ordre-salg
 
 Du kan bruge montagestyring til at tilpasse et montageelement på anmodning fra en kunde under salgsprocessen. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -26,7 +20,7 @@ Du kan også oprette et salgstilbud for en tilpasset montageelement, som når du
 > [!NOTE]  
 >  Ligesom alle typer tilbud bruges mængderne med montagetilbud ikke i forbindelse med tilgængelighed, planlægning eller reservationer.  
 
-## <a name="to-create-a-sales-quote-for-an-assemble-to-order-item"></a>Sådan oprettes et salgstilbud til et montage efter ordre-element
+## Sådan oprettes et salgstilbud til et montage efter ordre-element
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgstilbud**, og vælg derefter det relaterede link.  
 2.  Opret en ny salgstilbudslinje med en linje til et montageelement. Der er flere oplysninger i [Give salgstilbud](sales-how-make-offers.md).  
@@ -40,15 +34,15 @@ Du kan også oprette et salgstilbud for en tilpasset montageelement, som når du
 6.  Når du har reguleret montageordrelinjerne i overensstemmelse med tilbuddet, skal du lukke siden **Montage efter ordre-linjer** for at vende tilbage til siden **Salgstilbud**.  
 7.  Hvis debitor accepterer tilbuddet, kan du oprette en salgsordre for det tilbudte montageelement. Der er flere oplysninger i [Give salgstilbud](sales-how-make-offers.md). Det sammenkædede montagetilbud og eventuelle tilpasninger er knyttet til den pågældende nye salgsordre for at forberede til montage af varen eller de varer, der skal sælges.  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Montagestyring](assembly-assemble-items.md)  
 [Arbejde med montagestyklister](assembly-how-work-assembly-boms.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Designoplysninger: Warehouse Management](design-details-warehouse-management.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Warehouse Management-oversigt](design-details-warehouse-management.md)
+[Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -87,6 +87,8 @@ I stedet for at bruge lagerbevægelsesdokument kan du registrere flytningen af v
 3. Udfyld resten af felterne på de enkelte kladdelinjer.
 4. Bogfør omposteringskladden.  
 
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 ## Se relateret [Microsoft-træning](/training/modules/manage-internal-warehouse-processes/)
 
 ## Se også
