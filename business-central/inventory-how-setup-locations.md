@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'warehouse, distribution center'
 ms.search.forms: '5703, 15'
-ms.date: 07/05/2022
+ms.date: 03/25/2023
 ms.author: bholtorf
 ---
 # Opsætte lokationer
 
 Lokationer er steder, f. eks. lagersteder, hvor du køber, sælger eller sælger varer. [!INCLUDE [prod_short](includes/prod_short.md)] bruger lokationer til at holde styr på lagerbeholdningen i både enkle og komplekse lagerprocesser.
 
-Du kan derefter oprette dokumentlinjer for en bestemt lokation vis tilgængeligehed pr. lokation og vare samt overføre lagerbeholdning mellem lokationer. Der er flere oplysninger i [Administrere lager](inventory-manage-inventory.md).
+Du kan derefter oprette dokumentlinjer for en bestemt lokation vis tilgængeligehed pr. lokation og vare samt overføre lagerbeholdning mellem lokationer. Hvis du vil vide mere, skal du gå til [Administrer lager](inventory-manage-inventory.md).
 <br><br>  
   
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
@@ -38,11 +38,11 @@ Luk handlingen **Zoner** eller **Placeringer** for at få vist oplysninger om zo
 4. Gentag trin 2 og 3 for hver lokation, hvor du vil foretage lageropgørelse.
 
 > [!NOTE]  
-> Mange af felterne på lokationskortet henviser til håndtering af varer i indgående og udgående lagerprocesser. Disse felter er ikke relevante for virksomheder, der ikke har brug for mere komplekse lagerfunktioner. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).
+> Mange af felterne på lokationskortet henviser til håndtering af varer i indgående og udgående lagerprocesser. Disse felter er ikke relevante for virksomheder, der ikke har brug for mere komplekse lagerfunktioner. Flere oplysninger i [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md).
 
 Du kan ændre konfigurationen for en lokation, så længe det ikke har vareposter.  
 
-Hvis du har flere lokationer, kan du definere overflytningsruter mellem lokationer. Du kan finde flere oplysninger under [Sådan oprettes en overflytningsrute](inventory-how-setup-locations.md#to-create-a-transfer-route).
+Hvis du har flere lokationer, kan du definere overflytningsruter mellem lokationer. Hvis du vil vide mere om overflytningsruter, skal du gå til [Oprette en overførselsrute](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
 ### Sådan oprettes en overflytningsrute
 
@@ -50,24 +50,59 @@ Hvis du har flere lokationer, kan du definere overflytningsruter mellem lokation
 2. Vælg handlingen **Ny**.
 4. På siden **Lokationskort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Du kan nu overflytte lagervarer mellem to lokationer. Du kan finde flere oplysninger i [Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md).    
+Du kan nu overflytte lagervarer mellem to lokationer. Hvis du vil vide mere om overførsler, skal du gå til [Overføre lager mellem lokationer](inventory-how-transfer-between-locations.md).
 
 ## Placering
 
-Placeringer repræsenterer den grundlæggende lagerstruktur og kan foreslå, hvor varer skal lægges på. Placeringerne kan have indhold eller være flydende placeringer uden specifikt indhold. 
+Placeringer repræsenterer den grundlæggende lagerstruktur og kan foreslå, hvor varer skal lægges på. Placeringerne kan have indhold eller være flydende placeringer uden specifikt indhold.
 
 Hvis du vil bruge placeringsfunktionen på en lokation, skal du først aktivere funktionen på siden **Lokationskort** ved at aktivere feltet **Tvungen placering** i oversigtspanelet **Lagersted**. Du kan designe varestrømmen på lokationen ved at angive placeringskoder i felterne for lager processerne i oversigtspanelerne **Placeringer** og **Placeringsregler**.
 
 > [!NOTE]
-> Placeringskoderne skal være oprettet, før du kan angive placeringskoder på en lokation. Du kan finde flere oplysninger i [Oprette placeringer](warehouse-how-to-create-individual-bins.md) og [Oprette placeringstyper](warehouse-how-to-set-up-bin-types.md).  
+> Placeringskoderne skal være oprettet, før du kan angive placeringskoder på en lokation. Hvis du vil vide mere om placeringer, skal du gå til [Oprette placeringer](warehouse-how-to-create-individual-bins.md) og [Oprette placeringstyper](warehouse-how-to-set-up-bin-types.md).  
 
 ## Zoner
 
-Hvis du vil strukturere placeringerne under zoner, kan du gøre det på siden **Zoner**. Når du tildeler en zone til placeringer, kopierer [!INCLUDE [prod_short](includes/prod_short.md)] oplysninger fra zonen til placeringerne. Du kan også vælge at oprette en zone og bruge placeringer alene til at organisere lagerstedet. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).  
+Hvis du vil strukturere placeringerne under zoner, kan du gøre det på siden **Zoner**. Når du tildeler en zone til placeringer, kopierer [!INCLUDE [prod_short](includes/prod_short.md)] oplysninger fra zonen til placeringerne. Du kan også vælge at oprette en zone og bruge placeringer alene til at organisere lagerstedet. Flere oplysninger om zoner [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md).  
 
 ## Standarddimensioner for lokationer
 
-Du kan angive standarddimensioner for en lokation på siden **Lokationskort** ved at klikke på lokation og derefter på **Dimensioner**. Derefter tildeles standarddimensionerne for lokationen til dokumenter, når du vælger lokationen på en linje. Efter behov kan du slette eller ændre dimensionerne på linjen. I feltet **Værdibogføring** kan du kræve, at personer angiver dimensioner for bestemte lokationer, før de kan bogføre en post. Hvis du vil give brugerne mulighed for at vælge bestemte dimensionsværdier, kan du angive dem i feltet **Filter for tilladte værdier**. Du kan også medtage dimensionsværdier for lokationer på siden **Prioriteringer for standarddimensioner** og kombinationer af prioritet og dimensionsregler på siden **Dimensionskombinationer**.
+Dimensioner er værdier, der kategoriserer poster, så du kan spore og analysere dem ved hjælp af rapporteringsværktøjer. Dimensioner kan f.eks. angive det projekt eller den afdeling, en post kommer fra. Hvis du har standarddimensioner, undgår du fejl og skal angive dimensioner manuelt på transaktionsniveau, hvis alle varer kommer fra én enkelt lokation og afdeling.
+
+Du kan angive standarddimensioner for en lokation på siden **Lokationskort** ved at klikke på lokation og derefter på **Dimensioner**. Derefter tildeles standarddimensionerne for lokationen til følgende dokumenter, når du vælger lokationen på en linje.
+
+* Overflytningsordrer
+* Fysisk lagerordrer
+* Vareleverancer
+* Lagermodtagelser
+* Varekladder
+
+Efter behov kan du slette eller ændre dimensionerne på linjen. I feltet **Værdibogføring** kan du kræve, at personer angiver dimensioner for bestemte lokationer, før de kan bogføre en post. Hvis du vil give brugerne mulighed for at vælge bestemte dimensionsværdier, kan du angive dem i feltet **Filter for tilladte værdier**. Du kan også medtage dimensionsværdier for lokationer på siden **Prioriteringer for standarddimensioner** og kombinationer af prioritet og dimensionsregler på siden **Dimensionskombinationer**.
+
+Da overflytningsordre dokumenter og omposterings kladder vedrører mere end én lokation, er den rækkefølge, som du angiver data i, vigtig. Standarddimensioner kopieres fra feltet sidste lokation (den transitlokationen ignoreres).
+
+### Eksempel på standarddimensioner for lokationer
+
+Følgende eksempler viser, hvordan standarddimensionen bruges.
+
+Du har følgende dimensionsindstillinger:
+
+* Lokation EAST. Afdelingsdimension er ADM
+* Lokation WEST. Afdelingsdimension er PROD
+
+Du kan angive placeringen på en overflytningsordre på følgende måde:
+
+1. Fra lokation = EAST
+2. Til lokation = WEST
+
+PROD-dimensionen kopieres fra lokationen WEST.
+
+Når der skal angives filtre i rapporten, skal du udfylde filterne på følgende måde:
+
+1. Til lokation = WEST
+2. Fra lokation = EAST
+
+ADM-dimensionen kopieres fra lokationen EAST.
 
 ## Se relateret træning på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
