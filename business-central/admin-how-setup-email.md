@@ -60,6 +60,8 @@ Hvis du vil bruge SMTP-protokollen til at sende e-mails fra [!INCLUDE[prod_short
 >
 > Exchange Online fraråder brug af basisgodkendelse til SMPT. Lejere, der aktuelt benytter SMTP-godkendelse, påvirkes ikke af denne ændring. Det anbefales dog på det kraftigste, at du bruger den nyeste version af [!INCLUDE [prod_short](includes/prod_short.md)] og konfigurerer OAuth 2,0-godkendelse for SMTP. Vi tilføjer ikke certifikatbaseret godkendelse for tidligere versioner af [!INCLUDE [prod_short](includes/prod_short.md)], f. eks. version 14. Hvis du ikke kan konfigurere OAuth 2,0-godkendelse, opfordrer vi dig til at udforske tredjeparts alternativer, hvis du vil bruge SMTP-mail i tidligere versioner.
 
+[!INCLUDE [email-copy-company](includes/email-copy-company.md)]
+
 ## Tilføj e-mailkonti
 
 **Installationsvejledningen til opsætning af e-mail**-support kan hjælpe dig med at komme hurtigt i gang med e-mails.

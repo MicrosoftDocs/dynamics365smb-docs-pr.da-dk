@@ -1,24 +1,23 @@
 ---
 title: Planlægge sager til at køre automatisk
-description: 'Planlagte sager styres af opgavekøen. Disse sager kører rapporter og kodeenheder. Du kan angive opgaver, der skal køres én gang eller gentagne gange.'
-author: edupont04
+description: 'Få mere at vide om, hvordan du bruger Opgavekøposter til at køre rapporter og kodeenheder.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 03/20/2023
+ms.custom: bap-template
 ms.search.form: '672, 673, 674, 671'
-ms.date: 10/01/2021
-ms.author: edupont
 ---
 # Du kan bruge opgavekøer til at planlægge opgaver
 
-Siden Opgavekøposter giver brugerne mulighed for at planlægge og køre specifikke rapporter og kodeenheder. Du kan angive opgaver, der skal køres én gang eller gentagne gange. Du kan f.eks. køre rapporten **Sælger * salgsstatistik** hver uge for at spore salget pr. sælger, eller du kan køre codeunit **Uddeleger godkendelsesanmodninger** dagligt for at forhindre, at dokumenter hober sig op.
+Brug siden **Opgavekøposter** til at planlægge og køre specifikke rapporter og kodeenheder. Du kan angive opgaver, der skal køres én gang eller gentagne gange. Du kan f.eks. køre rapporten **Sælger * salgsstatistik** hver uge for at spore salget pr. sælger, eller du kan køre codeunit **Uddeleger godkendelsesanmodninger** dagligt for at forhindre, at dokumenter hober sig op.
 
-Siden **Opgavekøposter** viser alle eksisterende sager. Hvis du tilføjer en ny opgavekøpost, som du vil planlægge, skal du angive nogle oplysninger. Eksempler:
+Siden Opgavekøposter viser alle eksisterende sager. Hvis du tilføjer en ny opgavekøpost, der skal køres i en plan, skal du angive nogle oplysninger. Eksempler:
 
-* Den type objekt, du vil køre, f. eks. en rapport eller codeunit. Du skal have tilladelse til at køre den bestemte rapport eller codeunit.
-* Navn og objekt-id for objektet. 
-* Parametre for at angive funktionsmåden for opgavekøposten. Du kan f.eks. tilføje en parameter til kun at sende bogførte salgsordrer. 
+* Den type objekt, der skal køres, f. eks. en rapport eller codeunit. Du skal have tilladelse til at køre den bestemte rapport eller codeunit.
+* Navn og objekt-id for objektet.
+* Parametre for at angive funktionsmåden for opgavekøposten. Du kan f.eks. tilføje en parameter til kun at sende bogførte salgsordrer.
 * Når og hvor ofte, vil opgavekøposten køre.
 
 > [!IMPORTANT]  
@@ -36,7 +35,7 @@ Når en opgave er afsluttet korrekt, fjernes den fra listen over opgavekøposter
 
 ## Overvåge status eller fejl i opgavekøen
 
-Data, som jobkøen genererer gemmes i databasen, så du kan foretage fejlfinding i opgavekøen.  
+Data, som jobkøen genererer gemmes, så du kan foretage fejlfinding.  
 
 Du kan få vist og ændre status for hver opgavekøpost. Når du opretter en opgavekøpost, er dens status angivet til **Afvent**. Du kan angive status til f.eks. **Klar** og tilbage til **Afvent**. Ellers opdateres oplysninger om status i dette felt automatisk.
 
@@ -59,7 +58,7 @@ I følgende tabel beskrives værdierne i feltet **Status**.
 2. På siden **Opgavekøposter** skal du vælge en opgavekøpost og derefter vælge **Logposter**-handlingen.  
 
 > [!TIP]
-> Du kan også få vist status for opgavekøposter ved hjælp af Application Insights i Microsoft Azure til mere dybdegående analyse baseret på telemetri. Du kan finde flere oplysninger i [Overvågning og analyse af telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) og [Analyse af sporingstelemetri for opgavekøs levetid](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) i [!INCLUDE [prod_short](includes/prod_short.md)] indholdet til udviklere og administration.
+> Du kan også få vist status for opgavekøposter ved hjælp af Application Insights i Microsoft Azure til mere dybdegående analyse baseret på telemetri. Hvis du vil vide mere om telemetri, skal du gå til [Overvåge og analysere telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) og [Analysere opgavekøens levetidssporing](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
 
 ## Vis planlagte opgaver
 
@@ -70,9 +69,9 @@ F.eks. stoppes alle planlagte opgaver, hvis virksomheden er i et miljø, som er 
 > [!NOTE]
 > Interne administratorer og brugere med licens kan planlægge kørsel af opgaver. Stedfortræderadministratorer kan oprette og planlægge opgaver til kørsel, men kun licenserede brugere kan køre dem.
 
-## Delen Min opgavekø
+## Min opgavekødel
 
-**Min opgavekø**-delen i dit rollecenter viser de poster i opgavekøen, som du har startet, men som ikke er færdige endnu. Som standard vises delen ikke, men du kan føje den til dit rollecenter. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).  
+**Min opgavekø**-delen i dit rollecenter viser de poster i opgavekøen, som du har startet, men som ikke er færdige endnu. Som standard vises delen ikke, men du kan føje den til dit rollecenter. Du kan finde flere oplysninger om tilpasning under [Tilpasse dit arbejdsområde](ui-personalization-user.md).  
 
 Delen viser følgende oplysninger:
 
@@ -86,25 +85,45 @@ Min opgavekø-del giver dig også mulighed for at annullere bogføringen af et d
 1. I en post med status **Fejl** skal du vælge **Vis fejl**-handlingen.
 2. Gennemgå fejlmeddelelsen, og løs problemet.
 
-## Eksempler på, hvad der kan planlægges med jobkø
+## Eksempler på, hvad der kan planlægges med jobkøelementer
 
 ### Planlæg rapporter
 
 Du kan planlægge kørsel af en rapport eller et batchjob på en bestemt dato og et bestemt klokkeslæt. Planlagte rapporter og kørsler indsættes i jobkøen og behandles på det planlagte tidspunkt, ligesom andre job. Du vælger indstillingen **Skema**, når du har valgt knappen **Send til**, og derefter angiver du oplysninger som f.eks. printer og klokkeslæt og dato, gentagelse.  
 
-Du kan få flere oplysninger [Planlægge en rapport til kørsel](ui-work-report.md#ScheduleReport).
+Hvis du vil vide mere om planlægning, skal du fortsætte med at [Planlægge, at rapporten skal køres](ui-work-report.md#ScheduleReport)
 
 ### Planlæg synkronisering mellem [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-Hvis du har integreret [!INCLUDE[prod_short](includes/prod_short.md)] i [!INCLUDE[prod_short](includes/cds_long_md.md)], kan du bruge opgavekøen til at planlægge, hvornår du skal synkronisere data. Afhængigt af den eller de regler, du har defineret, kan posten i opgavekøposten oprette poster i én app, så de svarer til poster i den anden app. Du kan f. eks. registrere en kontakt i [!INCLUDE[crm_md](includes/crm_md.md)], men posten i opgavekøposten kan angive den kontaktperson, du har angivet i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Planlægning af synkronisering mellem Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
+Hvis du har integreret [!INCLUDE[prod_short](includes/prod_short.md)] i [!INCLUDE[prod_short](includes/cds_long_md.md)], kan du bruge opgavekøen til at planlægge, hvornår du skal synkronisere data. Afhængigt af den eller de regler, du har defineret, kan posten i opgavekøposten oprette poster i én app, så de svarer til poster i den anden app. Du kan f. eks. registrere en kontakt i [!INCLUDE[crm_md](includes/crm_md.md)], men posten i opgavekøposten kan angive den kontaktperson, du har angivet i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger om planlægning i [Planlægning af synkronisering mellem Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
 ### Planlægge bogføring af salgs-og købsordrer
 
-Du kan bruge opgavekøposter til at planlægge forretningsprocesser, der skal køres i baggrunden. For eksempel er baggrundsopgaver nyttige, når flere bruger bogfører salgsordrer op samme tid, men hvor kun én ordre kan behandles ad gangen. Du kan finde flere oplysninger i [Sådan konfigureres baggrundsbogføring med opgavekøer](ui-batch-posting.md#to-set-up-background-posting-with-job-queues).
+Du kan bruge opgavekøposter til at planlægge forretningsprocesser, der skal køres i baggrunden. For eksempel er baggrundsopgaver nyttige, når flere bruger bogfører salgsordrer op samme tid, men hvor kun én ordre kan behandles ad gangen. Hvis du vil vide mere om bogføring af baggrunden, skal du gå til [Sådan konfigureres baggrundsbogføring med opgavekøer](ui-batch-posting.md#to-set-up-background-posting-with-job-queues).
+
+## Håndter problemer med opgavekøposter
+
+Hvis en opgavekøpost viser en fejl, er den første mulighed for at løse problemet ved at genstarte opgavekøposten. Du kan angive status for opgavekøposten til **Venter** og derefter **Klar** eller bare genstarte.
+
+Hvis det ikke hjælper at genstarte, kan problemet være i koden. Du kan finde ejeren (også kaldet *Udgiveren*) af koden i sporing af AL stak i logfilen til opgavekøen. Hvis fejlen opstår fra en app/udvidelse, skal du kontakte din Microsoft-partner. Hvis fejlen stammer fra et Microsoft-program, skal du åbne en supportanmodning hos Microsoft.
+
+Hvis du kontakter din Microsoft-partner eller Microsoft for at få support, skal du angive følgende oplysninger:
+
+* Id for det jobkøelement, hvor fejlen er opstået
+* Tidsstemplet for, hvornår fejlen opstod
+* Din tidszone
+
+> [!TIP]
+> Afhængigt af om din [!INCLUDE [prod_short](includes/prod_short.md)] er tidligere er ældre eller nyere end version 22.1, skal du indsamle oplysningerne på følgende måder:
+>
+> * Til tidligere versioner skal du angive et skærmbillede af siden **logposter i opgavekø**.
+> * Til senere versioner skal du bruge handlingen **Kopier detaljer** på siden logførte logposter i opgavekø til at kopiere oplysningerne (kø-id, tidsstempel og tidszone).
 
 ## Overvåge opgavekøen med telemetri
 
-Som administrator kan du bruge [Application Insights](/azure/azure-monitor/app/app-insights-overview) til at indsamle og analysere telemetri, som du kan bruge til at identificere problemer. Du kan finde flere oplysninger i [Overvågning og analyse af telemtri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) i indholdet til udviklere og administration.  
+Administratorer kan bruge [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview) til at indsamle og analysere telemetri, som kan hjælpe med at identificere problemer. Hvis du vil vide mere om telemetri, skal du gå til [Overvåge og analysere telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) og [Analysere opgavekøens levetidssporing](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
+
+Med telemetri får administratorer mulighed for at konfigurere påmindelser i forbindelse med jobkøer, der sender en SMS-besked, e-mail eller en meddelelse i grupper, hvis noget ikke er korrekt. Du kan få mere at vide om disse beskeder [Besked på telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-alert).
 
 ## Se også
 
@@ -112,6 +131,6 @@ Som administrator kan du bruge [Application Insights](/azure/azure-monitor/app/a
 [Konfigurere Business Central](setup.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Analysere Job Queue Lifecycle Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)  
-
+[Besked om telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-alert)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
