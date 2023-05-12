@@ -347,12 +347,14 @@
 
 ### Administrere moms
 #### [Oversigt over momsstyring](finance-manage-vat.md)
-#### Opsætte moms
+#### Opsætning af moms
 ##### [Opsætte merværdiafgift (moms)](finance-setup-vat.md)
-##### [Opsætte bogføringsgruppe](finance-posting-groups.md#tax-posting-groups)
+##### [Opsætning af bogføringsgruppe](finance-posting-groups.md#tax-posting-groups)
+##### [Opsætte ikke-fradragsberettiget moms](finance-setup-nondeductible-vat.md)
 ##### [Opsætte urealiseret merværdiafgift](finance-setup-unrealized-vat.md)
 ##### [Opsætte en momsangivelse](finance-how-setup-vat-statement.md)
 #### [Arbejde med moms af salg og køb](finance-work-with-vat.md)
+#### [Bruge ikke-fradragsberettiget moms](finance-how-use-non-deductible-vat.md)
 #### [Indsende momsrapporter til skattemyndighederne](finance-how-report-vat.md)
 #### [Administrere ændringer af momssats](finance-how-use-vat-rate-change-tool.md)
 #### [Validere momsregistreringsnumre](finance-how-validate-vat-registration-number.md)
