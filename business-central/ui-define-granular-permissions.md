@@ -76,7 +76,7 @@ Vedligeholdelse er også nemmere. Når du tilføjer en systemtilladelse, opdater
   |**Reduktion af indirekte**|Ændre adgangsniveauet til indirekte, hvis et tilladelsessæt giver direkte adgang til objektet. Du kan f. eks. vælge denne indstilling, hvis tilladelsessættet giver direkte adgang til finansposter, men du ikke ønsker, at brugerne har fuld adgang til posterne.|
   
   > [!NOTE]
-  > Hvis en tilladelse både er medtaget og udeladt, udelukkes tilladelsen.
+  > Hvis en rettighed befinder sig i et rettighedssæt, der er medtaget, og som også er angivet i et udeladt rettighedssæt, udelukkes rettigheden.
 
 6. Brug felterne **Objekttype** og **Objekt-id** til at angive det objekt, du giver adgang til.
 

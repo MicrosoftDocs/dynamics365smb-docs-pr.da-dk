@@ -338,13 +338,15 @@ I modsætning til de fleste forsyning-behov-sæt, planlægges tilknyttede ordrer
 
 Lot-for-Lot-politikken er den mest fleksible, da systemet kun reagerer på faktisk behov. Det handler om forventede behov fra prognose- og tomme ordrer og udligner derefter ordreantallet på basis af behovet. Lot-for-lot-politik er beregnet til elementer, hvor lageret kan accepteres, men bør undgås.  
 
-På nogle måder svarer politikken Lot-for-lot til ordrepolitikken, men der er en generisk metode til varer. Den kan acceptere antal på lager, og den har bundtet behov og levering i de intervaller, du definerer.  
+På nogle måder svarer politikken Lot-for-lot til ordrepolitikken. Den kan acceptere antal på lager, og den har bundtet behov og levering i de intervaller, du definerer.
 
 Du kan angive tidsintervallet i feltet **Tidsinterval** på siden **Varekort**. Den minimale størrelse på et interval er én dag, da det er den mindste tidsenhed, der gælder for behovs-og leverings hændelser i [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 Intervallet angiver også grænser for, hvornår en eksisterende forsyningsordre bør omplanlægges for at opfylde et bestemt behov. Forsyningen i intervallet flyttes ind eller ud for at opfylde behovet. Tidligere levering vil medføre ekstra lagerbeholdning, og du skal annullere den. Opret en ny forsyningsordre til levering senere.  
 
-Med denne politik kan du angive et sikkerhedslager for at kompensere for ændringer i forsyningen eller til at opfylde et pludseligt behov.  
+Med denne politik kan du angive et sikkerhedslager for at kompensere for ændringer i forsyningen eller til at opfylde et pludseligt behov. Lot-for-Lot-politikken kan også omfatte en bufferperiode og en buffermængde for at reducere ordreplanlægning.  
+
+Sammen med feltet **Ændringsperiode** bidrager feltet **Akkumuleringsperiode for lot** til at definere virksomhedens genbestillingscyklus. Fra datoen for det første behov akkumuleres alle behov i den næste akkumuleringsperiode for lot i én forsyningsordre, der er placeret på datoen for det første behov. Behov, som er uden for akkumuleringsperiode for lot er ikke omfattet af forsyningsordren.
 
 Da forsyningsordre antallet er baseret på det faktiske behov, kan det være en god idé at bruge ordre faktorerne:
 
