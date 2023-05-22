@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Tilføje marketingtekst til varer
 
-Du kan skrive *marketingtekst* om varen for alle de varer, der er registreret i Business central. Selvom marketingtekst er en slags beskrivelse, er den forskellig fra varens **beskrivelsesfelt**. Feltet **Beskrivelse** bruges typisk som et kort vist navn til at identificere produktet hurtigt. Marketingteksten er derimod en mere omfattende og beskrivende tekst. Formålet er at tilføje marketing- og reklameindhold, også kendt som *kopi*. Denne tekst kan derefter udgives sammen med varen, hvis den vises i en webshop, som f.eks. Shopify.
+Du kan skrive *marketingtekst* om varen for alle de varer, der er registreret i Business central. Selvom marketingtekst er en slags beskrivelse, er den forskellig fra en vares **Beskrivelsesfelt**. Feltet **Beskrivelse** bruges typisk som et kort vist navn til at identificere produktet hurtigt. Marketingteksten er derimod en mere omfattende og beskrivende tekst. Formålet er at tilføje marketing- og reklameindhold, også kendt som *kopi*. Denne tekst kan derefter udgives sammen med varen, hvis den vises i en webshop, som f.eks. Shopify.
 
 Der er to måder at oprette en marketingtekst på. Den nemmeste måde at komme i gang på er ved at bruge Copilot, som foreslår AI-genereret tekst for dig. Den anden måde er at starte fra bunden. 
 
@@ -46,18 +46,18 @@ Copilot er designet til at spare dig tid og hjælpe dig med at skrive kreativ og
 
    Du kan finde flere oplysninger om, hvordan du opretter en vare, i [Registrere nye varer](inventory-how-register-new-items.md).
 
-   [![Viser varekort med marketing tekstrude](media/create-with-copilot.png)](media/create-with-copilot.png#lightbox)
+   [![Viser et varekort med marketing tekstrude](media/create-with-copilot.png)](media/create-with-copilot.png#lightbox)
 
 2. På varekortet kan du komme i gang med at skrive marketingtekst med Copilot:
 
-   - Du kan også bruge **Marketing tekst**-ruden i faktaboksen til højre for siden. Følg disse trin:
+   - Bruge **Marketingtekst**-ruden i faktaboksen til højre for siden. Følg disse trin:
 
-      1. Vælg **Opret med Copilot** i ruden **Marketing tekst**.
+     1. Vælg **Opret med Copilot** i ruden **Marketing tekst**.
 
-         Den foreslåede tekst vises i ruden.
-      2. Hvis du vil have et andet forslag, skal du vælge **Opret med Copilot** igen. Hvis du ikke er tilfreds med et forslag, skal du vælge **Afvis** for at rydde ruden.
+        Den foreslåede tekst vises i ruden.
+     2. Hvis du vil have et andet forslag, skal du vælge **Opret med Copilot** igen. Hvis du ikke er tilfreds med et forslag, skal du vælge **Afvis** for at rydde ruden.
 
-         Du kan udføre dette trin igen og igen, indtil du får et forslag, som du tror, du mener, det er et godt sted. Men vær opmærksom på, at det aktuelle forslag overskrives, og du ikke nødvendigvis vil komme tilbage igen. Gå til næste trin, hvis du kan lide det aktuelle forslag. Du har stadig mulighed for at få flere forslag, men du kan også forbedre forslagene, hvis du vil senere.
+        Du kan udføre dette trin igen og igen, indtil du får et forslag, som er et godt startpunkt. Men vær opmærksom på, at det aktuelle forslag overskrives, og du ikke vil komme tilbage igen. Gå til næste trin, hvis du kan lide det aktuelle forslag. Du har stadig mulighed for senere at få flere forslag, men du kan også forbedre forslagene, hvis du vil.
       3. Vælg **Gennemse, og gem forslaget**, eller **Rediger** for at gennemgå, redigere og gemme teksten.
 
          I dette trin kommer du til siden **Opret med Copilot**. Gå til næste sektion.
@@ -65,7 +65,7 @@ Copilot er designet til at spare dig tid og hjælpe dig med at skrive kreativ og
          > [!NOTE]
          > Teksten gemmes først, når du har gennemført dette trin.
 
-   - Du kan også vælge handlingen **Marketingtekst** øverst på siden med varekortet, så du kan gå direkte til siden **Opret med Copilot** .
+   - Vælg **Marketingtekst** øverst på siden med varekortet, så du kan gå direkte til siden **Opret med Copilot**.
 
      Vælg **Opret med Copilot** på siden **Opret med Copilot** for at hente det første forslag. Du kan derefter få flere forslag, forsøge at forbedre de forslag, du får, redigere tekst m.m. Gå til [Gennemsyn, Rediger og Gem](#review-edit-and-save-text) for at få flere oplysninger.
 
@@ -96,7 +96,7 @@ Følg nedenstående retningslinjer for at afslutte og gemme marketingteksten.
 
 ### Forbedre og skræddersy tekstforslag
 
-Der er nogle trin, du kan udføre for at forbedre tekstforslagene og ændre dem, så de passer til dine personlige indstillinger.
+Der er nogle trin, du kan udføre for at forbedre tekstforslagene og ændre dem, så de passer til dine personlige eller professionelle indstillinger.
 
 1. Brug indstillingerne øverst på siden **Opret med Copilot** til at påvirke resultatet af den AI-genererede tekst: 
 
@@ -109,7 +109,7 @@ Der er nogle trin, du kan udføre for at forbedre tekstforslagene og ændre dem,
 
 2. Du kan forbedre feltet **Beskrivelse** på varekortet.
 
-   Teksten i feltet **Beskrivelse** bruges, som den er, i den foreslåede tekst, så det er vigtigt, at beskrivelsen bedst portrays, hvordan du vil referere til varen i marketingteksten. 
+   Teksten i feltet **Beskrivelse** bruges, som den er mange steder i den foreslåede tekst, så det er vigtigt, at beskrivelsen bedst beskriver, hvordan du vil referere til varen i marketingteksten. 
 
 3. Kontroller, at feltet **Varekategorikode** på varekortet er indstillet til en korrekt kategori.
 

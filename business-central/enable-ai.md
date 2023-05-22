@@ -1,6 +1,6 @@
 ---
 title: Konfigurere marketingtekst med Copilot til AI-styret vare (forhåndsversion)
-description: 'I denne artikel forklares det, hvordan du får en Copilot prøveversion af Business central, og hvordan du aktiverer Copilot på et miljø'
+description: 'I denne artikel forklares det, hvordan du får en Copilot prøveversion af Business central, og hvordan du aktiverer Copilot på et miljø.'
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -24,10 +24,10 @@ Hvis et af disse krav ikke er opfyldt, kan funktionen ikke bruges.
 
 Du bruger en [forhåndsversion](ai-preview-getstarted.md) af Business central, som er aktiveret til Copilot. Aktivering af Copilot udføres af en administrator. Du kan finde flere oplysninger i [Konfigurere marketingtekst for AI-styret vare med Copilot](enable-ai.md).
 
-## Aktivér eller deaktivér funktionen "Opret AI-drevet produktbeskrivelser med Copilot"
+## Aktivér eller deaktivér Opret AI-drevet produktbeskrivelser med Copilot
 
 1. I Business Central skal du søge efter og åbne siden **Funktionsstyring**.
-2. Angiv kolonnen **Aktiveret til** for **Forhåndsversion af funktion: Opret AI-drevne produktbeskrivelser med Copilot**-funktion til **Alle brugere**, så funktionen eller **Ingen** deaktiveres.
+2. Angiv kolonnen **Aktiveret til** for **Forhåndsversion af funktion: Opret AI-drevne produktbeskrivelser med Copilot** til **Alle brugere**, så funktionen eller **Ingen** deaktiveres.
 
    Du kan finde flere oplysninger om funktionsstyring generelt i [Funktionsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -35,7 +35,7 @@ Du bruger en [forhåndsversion](ai-preview-getstarted.md) af Business central, s
 
 1. Søg, og åbn siden **Status for meddelelser om beskyttelse af personlige oplysninger** i Business central.
 2. Vælg **Azure OpenAI** i kolonnen **Integrationsnavn**, og læs derefter de vilkår og betingelser, der er angivet for dig.
-3. Marker afkrydsningsfeltet **Accepter for alle** i **Azure OpenAI**  , eller marker afkrydsningsfeltet **Afvis for alle** for at afvise.
+3. Marker afkrydsningsfeltet **Accepter for alle** i **Azure OpenAI**, eller marker afkrydsningsfeltet **Afvis for alle** for at afvise.
 
 ## Næste trin
 

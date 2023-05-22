@@ -99,6 +99,26 @@ Kontrollerer, at den godkendte bruger kan oprette forbindelse til et fundet milj
 |Ingen klyngeadresse til at udføre denne kontrol for|Se oversigten over tilgængelige miljøer i Business Central Administration.|
 |Versions slutpunktet findes ikke|Se oversigten over tilgængelige miljøer i Business Central Administration.|
 
+## Webserverforbindelse
+
+Kontrollerer, at den godkendte bruger kan oprette forbindelse til webserveren.
+
+|Problem|Metoder, du kan prøve|
+|-------|-------------|
+|Ingen godkendt bruger kan udføre denne kontrol for|Se **brugergodkendelse**-kontrol.|
+|De tilgængelige miljøer for din konto kunne ikke hentes.|Se **Business central-miljøer**.|
+|Ingen klyngeadresse til at udføre denne kontrol for|Se oversigten over tilgængelige miljøer i Business Central Administration.|
+|Der kunne ikke oprettes forbindelse til webserveren|Ryd cachen, og genindlæs siden.|
+
+## Status for tjenestetilstand
+
+Rapporterer status for Business Centrals servicetilstand ved at kontrollere, om der er angivet udfald.
+
+|Problem|Metoder, du kan prøve|
+|-------|-------------|
+|Ingen godkendt bruger kan udføre denne kontrol for|Se **brugergodkendelse**-kontrol.|
+|Business Central er desværre ikke tilgængelig i øjeblikket. Prøv igen senere.|Prøv igen senere.|
+
 ## Se også
 
 [Ressourcer til hjælp og support](product-help-and-support.md)  

@@ -53,7 +53,7 @@ Du kan finde flere oplysninger om lokal funktionalitet for hvert land/område ve
 [!INCLUDE[prod_short](includes/prod_short.md)] findes også på andre markeder via oversættelsesapps. Hvis en Microsoft-partner har udviklet en oversættelsesapp til dit land/område, kan du finde den i [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## Se også
-
+[Oprette miljøer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Blive køreklar](ui-get-ready-business.md)  
 [Overholdelse](compliance/compliance-overview.md)  
 [Tilgængelighed i land/område og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

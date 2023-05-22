@@ -106,7 +106,7 @@ Der er to måder at godkende som administrator:
 
 - Den nemmeste måde at bruge Copilot på. Første gang du bruger Copilot som administrator, bliver du bedt om at gennemgå vilkår og betingelser og derefter acceptere eller blive uenig. Sådan kan du lære, hvordan du bruger Copilot, ved at gå til [Tilføje marketingtekst til varer](item-marketing-text.md).  
 
-- Den anden måde er at bruge siden **Status for meddelelser om beskyttelse af personlige oplysninger** i Business central og accepterer **Azure OpenAI**-integration for alle brugere. Hvis du vil vide mere, skal du gå til [Bekræftelse til Vilkår og betingelser](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
+- Den anden måde er at bruge siden **Status for meddelelser om beskyttelse af personlige oplysninger** i Business central og accepterer **Azure OpenAI**-integration for alle brugere. Hvis du vil vide mere, skal du gå til [Bekræftelse til Vilkår og betingelser](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
 ## Se også
 

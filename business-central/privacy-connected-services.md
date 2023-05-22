@@ -13,7 +13,7 @@ ms.reviewer: jswymer
 
 [!INCLUDE[prod_long](includes/prod_long.md)] er en omfattende løsning til virksomhedsstyring, som er dybt integreret med Microsoft 365-produktivitetsapps og Power Platform. Din gratis prøveversion af Business central kan oprette forbindelse til mange forskellige Microsoft-tjenester, som du skal først konfigurere og aktivere. Hvis du vil have størst udbytte af din gratis prøveversion, er nogle af disse funktioner automatisk blevet aktiveret. Selvom forbindelsen fra [!INCLUDE[prod_short](includes/prod_short.md)] er aktiveret, følger disse tjenester ikke med din prøveversion, og de skal købes separat, medmindre de allerede findes.
 
-I nedenstående tabel vises de forbindelser til Microsoft-tjenester, der automatisk er aktiveret for [!INCLUDE[prod_short](includes/prod_short.md)]-forsøg:
+I følgende tabel vises de forbindelser til Microsoft-tjenester, der automatisk er aktiveret for [!INCLUDE[prod_short](includes/prod_short.md)]-forsøg:
 
 |Tjenestenavn|Forbindelse er automatisk aktiveret |Tjenesten kontaktes, når der logges på Business central |Eksempel på en funktion, som bruger denne tjeneste | Få mere at vide om, hvordan du administrerer den forbindelse og de funktioner, der bruger den|  
 |------------|-------------|--------|------------|-------------|
