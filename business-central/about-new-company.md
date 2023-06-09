@@ -14,17 +14,20 @@ ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 902
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] bliver beholderen til forretningsdata, der hører til en afdeling eller en juridisk enhed, kaldet en *virksomhed*. Når du logger på [!INCLUDE[prod_short](includes/prod_short.md)], får du angivet et demoregnskab og en tom virksomhed, *Min virksomhed*. Det er nemt at skifte mellem virksomhederne: Du skal bare gå til **Mine indstillinger** og flytte til den anden virksomhed. Men du kan også oprette nye virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)], afhængigt af dine forretningsmæssige behov.  
 
+> [!NOTE]
+> Hvis du vil oprette en ny virksomhed, skal du have tildelt tilladelsessættet **Super**.
+
 Når du opretter en ny virksomhed, hjælper en assisterede opsætningsvejledning dig med at få styr på det grundlæggende. Du kan derefter indlæse relevante data fra dit gamle system eller en anden virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## Vælge den rigtige skabelon
 
-Hvis du vil indsætte en virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)], kan du bruge den assisterende opsætningsvejledning **Opret ny virksomhed** for at komme i gang. Opsætningsguiden er tilgængelig fra siden **Virksomheder** og fra opslag i feltet **Virksomhed** på siden **Mine indstillinger**.  
+Hvis du vil indsætte en virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)], kan du bruge den assisterende opsætningsvejledning **Opret ny virksomhed** for at komme i gang. Opsætningsvejledningen er tilgængelig fra siden **Virksomheder** og fra opslag i feltet **Virksomhed** på siden **Mine indstillinger**.  
 
-Installationsguiden har to skabeloner og en tom indstilling:
+Installationsvejledningen har to skabeloner og en tom indstilling:
 
-- **Evaluering - eksempeldata**  
+- **Evaluering – Eksempeldata**  
     Den opretter en virksomhed, der ligner demoregnskabet med eksempeldata og opsætningsdata. Denne type virksomhed er tilgængelig uden at skifte til en 30-dages prøveperiode, som de andre typer gør.  
 - **Produktion - kun opsætningsdata**  
     Den opretter en virksomhed, der ligner **Min virksomhed** med opsætningsdata, men uden eksempeldata. Du kan bruge denne virksomhed i en prøveperiode på 30 dage.  

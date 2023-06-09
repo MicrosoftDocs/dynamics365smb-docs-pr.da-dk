@@ -2,18 +2,18 @@
 title: Arkivere salgs- og købsdokumenter
 description: 'Du kan arkivere salgs-og købsordrer, tilbud, returvareordrer og rammeordrer og gendanne originalerne, hvis det er nødvendigt.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
-ms.date: 03/06/2022
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 06/02/2023
+ms.custom: bap-template
+ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ---
 # Arkivere dokumenter
+
 Du kan arkivere salgs-og købsordrer, tilbud, returvareordrer og rammeordrer. Hvis du arkiverer dokumenter, kan du gendanne originalen. Du kan arkiverer et salgs- eller købsdokument flere gange og gemme en ny arkiveret version hver gang.
 
-For arkiverede salgsdokumenter, hvor originalen stadig findes og ikke er bogført, kan du bruge funktionen **Gendan**, hvis du vil overskrive det aktuelle dokument med en arkiveret version. 
+For arkiverede salgsdokumenter, hvor originalen stadig findes og ikke er bogført, kan du bruge funktionen **Gendan**, hvis du vil overskrive det aktuelle dokument med en arkiveret version.
 
 Du kan kun genbruge indholdet i arkiverede dokumenter, hvis originalen er slettet, ved at kopiere dataene, for eksempel med handlingen **Kopiér fra dokument**.  
 
@@ -39,9 +39,9 @@ I følgende tabel beskrives indstillingerne for feltet **Arkivér tilbud**.
 |**Spørgsmål**|Spørg brugeren om at vælge, om salgstilbud skal arkiveres, når de slettes.|
 |**Altid**|Arkivér automatisk salgstilbud, når de slettes.|
 
-## Sådan arkiveres en salgsordre
+## Sådan arkiveres en salgsordre manuelt
 
-Nedenstående procedure beskriver, hvordan du arkiverer en salgsordre. Fremgangsmåden er den samme for alle ordrer, rammeordrer, returvareordrer og tilbud.
+Nedenstående procedure beskriver, hvordan du arkiverer en salgsordre manuelt. Fremgangsmåden er den samme for alle ordrer, rammeordrer, returvareordrer og tilbud.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2. Åbn en salgsordre, som du vil arkivere.  
@@ -60,18 +60,19 @@ Oplysningerne i den oprindelige salgsordre erstattes med oplysningerne fra den v
 
 ## Sådan sletter du arkiverede salgsordrer
 
-Nedenstående procedure beskriver, hvordan du sletter arkiverede salgsordrer. Trinene er de samme for andre arkiverede salgs- og købsdokumenter.
+Brug en opbevaringspolitik til at rydde op i arkiverede dokumenter, som du ikke længere har brug for. Opbevaringspolitikker lader administratorer definere, hvor lang tid de vil gemme data. De kan f.eks. oprette en politik, der sletter data efter en udløbsdato. Du kan finde flere oplysninger i [Definere opbevaringspolitikker](admin-data-retention-policies.md).
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrearkiver**, og vælg derefter det relaterede link.  
-2. Vælg handlingen **Slet ældre versioner**, og vælg derefter de relevante filtre på siden **Slet arkiverede salgsordreversioner**.  
-3. Vælg knappen **OK**.
+Der er et par ting, du skal være opmærksom på, når du opretter opbevaringspolitikker for arkiverede dokumenter:
+
+* *Hvis det oprindelige dokument ikke er slettet, sletter Business Central ikke arkiverede versioner. Arkiverede versioner udløber ikke, så længe originalen findes.
+* Når du konfigurerer opbevaringspolitikken, kan du angive, at politikken skal slette alle arkiverede versioner af et dokument, undtagen den seneste. Du kan f.eks. have ti versioner af et dokument og vil beholde en kopi af den seneste. 
+* Business Central beregner udløbsdatoen for dokumenter baseret på datoen for den senest arkiverede version.
 
 ## Se også
 
-[Spor dokumentlinjer](across-how-to-track-document-lines.md)  
+[Spore bilagslinjer](across-how-to-track-document-lines.md)  
 [Salg](sales-manage-sales.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
