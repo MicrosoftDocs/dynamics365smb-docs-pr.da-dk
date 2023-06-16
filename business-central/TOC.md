@@ -1,5 +1,6 @@
 
-# [Velkommen til Business Central](index.md)
+# [Business Central-dokumentation](index.yml)
+# [Velkommen til Business Central](welcome.md)
 # [Nyt og planlagt](product-news.md)
 # Kom i gang
 ## [Oversigt over forretningsfunktioner](across-business-functionality.md)
@@ -157,6 +158,7 @@
 ### [Skifte til et andet firma eller miljø](ui-organization-switch.md)
 ### [Administrere notifikationer](ui-smart-notifications.md)
 ### [Tip til ydeevne for forretningsbrugere](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
+### [Analysér ydeevne](/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview?toc=/dynamics365/business-central/toc.json)
 ### [Advarsler og fejlmeddelelser](product-error-messages.md)
 ### Tilpasse Business Central
 #### [Tilpasse arbejdsområdet](ui-personalization-user.md)
@@ -601,7 +603,7 @@
 ### [Registrere medarbejdere](hr-how-register-employees.md)
 ### [Analysere medarbejderfravær](hr-how-manage-absence.md)
 
-## Planlægge
+## Planlægning
 ### [Produktionsplanlægning](production-planning.md)
 ### [Om planlægningsfunktion](production-about-planning-functionality.md)
 ### [Planlægge med eller uden lokationer](production-planning-with-without-locations.md)
@@ -691,7 +693,7 @@
 
 ## Service Management
 ### [Service Management](service-service.md)
-### Planlægge service
+### Planlægningsservice
 #### [Administrere planlægningsservice](service-plan-service.md)
 #### [Administrere servicepris](service-service-price-management.md)
 #### [Serviceordrestatus og reparationsstatus](service-service-order-status-and-repair-status.md)
@@ -1844,6 +1846,7 @@
 ### [Administrationsværktøj](admin-setup-and-administration.md)
 ### Administrere adgang til Business Central
 #### [Oversigt](admin-access-overview.md)
+#### [Kontrollere adgangen til Business Central vha. sikkerhedsgrupper](ui-security-groups.md)
 #### Få adgang med Microsoft 365-licenser
 ##### [Oversigt](admin-access-with-m365-license.md)
 ##### [Opsætte adgang med Microsoft 365-licenser](admin-access-with-m365-license-setup.md)
