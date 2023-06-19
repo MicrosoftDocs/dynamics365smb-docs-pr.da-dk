@@ -13,9 +13,9 @@ ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 
 # Gør dig klar til at synkronisere stamdata
 
-Når du har to eller flere virksomheder, der bruger mindst nogle af de samme stamdata, kan du spare tid ved at synkronisere dem i regnskaberne. Synkronisering af data er især nyttig, når du skal oprette nye datterselskaber.
+Hvis to eller flere regnskaber bruger nogle af de samme stamdata, kan du synkronisere dataene i stedet for at tilføje dem manuelt i hver virksomhed. F.eks. er synkronisering af data især nyttig, når du skal oprette nye datterselskaber.
 
-Stamdata omfatter indstillinger og ikke-transaktionsoplysninger om forretningsenheder, f. eks. debitorer, kreditorer, varer og medarbejdere. Dataene indeholder kontekst for forretningstransaktioner. Her følger nogle få eksempler på stamdata for en kunde:
+Stamdata omfatter indstillinger og ikke-transaktionsoplysninger om forretningsenheder. F.eks. kunder, leverandører, varer og medarbejdere. Dataene indeholder kontekst for forretningstransaktioner. Her følger nogle få eksempler på stamdata for en kunde:
 
 * Name
 * Identifikationsnummer
@@ -23,7 +23,7 @@ Stamdata omfatter indstillinger og ikke-transaktionsoplysninger om forretningsen
 * Betalingsbetingelser
 * Kreditgrænse
 
-Du vælger indstillinger til synkronisering i datterselskaber. Hvis du bruger en pull-model, trækker datterselskaber dataene fra det kilderegnskab, de skal bruge for at gøre forretninger med dem. Når du har konfigureret synkroniseringen og synkroniserer data første gang, er du klargjort. Posterne i tabellerne er koblet fra, og opgavekøposter starter med at opdatere data i datterselskaber, når nogen foretager ændringer i kilde regnskabet.
+Du vælger indstillinger til synkronisering i datterselskaber. Hvis du bruger en pull-model, trækker datterselskaber dataene fra det kilderegnskab, de skal bruge for at gøre forretninger med dem. Når du har konfigureret synkroniseringen og synkroniserer data første gang, er du klargjort. Opgavekøposter opdaterer sammenkædede poster i datterselskaber, når nogen foretager ændringer af data i kilderegnskabet.
 
 ## Kun etvejs-synkronisering af debitorer
 
@@ -34,10 +34,13 @@ Du kan kun synkronisere data fra kilderegnskabet med datterselskaberne på en pu
 
 ## Før du starter
 
-Dette er kravene til oprettelse af synkronisering.
+Følgende er kravene til oprettelse af synkronisering.
 
 * Alle regnskaber skal være den samme miljø.
-* Den bruger, der har oprettet datterselskabet, skal have rettighedssættet **Stamdataadministration**. Tilladelsessættet er tilgængeligt i Premium og essentielle licenser. Licensen Team-medlem giver en person adgang, men ikke til at ændre poster, så den kan ikke bruges til at konfigurere synkroniseringen.
+* Den bruger, der opsætter datterselskabet, skal have den licensen **Essential**, **Premium** eller **Basis-ISV**.
+
+> [!NOTE]
+> Licenserne Team-medlem og International administrator giver dig adgang, men ikke til at ændre poster, så de kan ikke bruges til at konfigurere synkroniseringen. Du kan ikke planlægge baggrundsopgaver med den delegerede administratorlicens, så du kan ikke fuldføre installationen.
 
 ## Angive kilderegnskabet
 
@@ -52,7 +55,7 @@ I det næste trin skal du aktivere tabeller og felter til synkronisering.
 
 ## Aktivere eller deaktivere tabeller og felter
 
-Hvis du vil spare tid, angiver [!INCLUDE [prod_short](includes/prod_short.md)] en liste over tabeller, som virksomheder ofte synkroniserer. Disse tabeller er som standard aktiveret til synkronisering, men du kan ændre, deaktivere eller slette dem efter behov. Nogle af felterne i tabellerne er allerede deaktiverede som en ekstra tidsbesparelse, fordi de sandsynligvis ikke er relevante for datterselskabet.
+Hvis du vil spare tid, angiver [!INCLUDE [prod_short](includes/prod_short.md)] en liste over tabeller, som virksomheder ofte synkroniserer. Disse tabeller er som standard aktiveret til synkronisering. Du kan ændre, deaktivere eller slette dem efter behov. Nogle af felterne i tabellerne er allerede deaktiverede som en ekstra tidsbesparelse, fordi de sandsynligvis ikke er relevante for datterselskabet.
 
 > [!NOTE]
 > Hvis en eller flere udvidelser er installeret i kilderegnskabet, og et datterselskab opsætter synkroniseringen, indeholder siden **Synkroniseringstabeller** tabeller fra udvidelserne, og du kan få adgang til felterne. Men hvis kilderegnskabet tilføjer et filtypenavn, efter at synkroniseringen er oprettet, skal de enkelte datterselskaber manuelt tilføje tabellerne. Hvis du vil vide mere om, hvordan du tilføjer tabeller, skal du gå til [Tilføj eller slet tabeller på synkroniseringslisten](#add-or-delete-tables-from-the-synchronization-tables-list). Hvis du vil vide mere om udvidelse [!INCLUDE [prod_short](includes/prod_short.md)], skal du gå til [Udvikling af udvidelser i Visual Studio Code](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview#developing-extensions-in-visual-studio-code).
@@ -85,8 +88,11 @@ Du kan angive de data, der skal synkroniseres for en tabel, ved at sammenligne p
 
 Når du er klar, skal du vælge handlingen **Start første synkronisering** på siden **Opsætning af stamdatastyring**. På siden **Første synkronisering af stamdata** skal du vælge den type synkronisering, du vil bruge til hver tabel.
 
-* Hvis du allerede har poster i både kilde-og datterselskaberne, og du vil matche eksisterende poster, skal du vælge handlingen **Brug matchbaseret kobling**. [!INCLUDE [prod_short](includes/prod_short.md)] matcher poster i datterselskabet med poster i kildevirksomheden, baseret på de matchkriterier du definerer. I forbindelse med flere standardtabeller har [!INCLUDE [prod_short](includes/prod_short.md)] allerede matchede eksisterende poster ved hjælp af deres primære nøgle, men du kan ændre dem efter behov. Du kan også bruge synkroniseringen til at oprette nye poster i datterselskabet for poster i det kilderegnskab, som datterselskabet ikke har. Hvis du vil vide mere om matchning, skal du gå til [Brug match-baseret kobling](#use-match-based-coupling).
-* Hvis du vælger **Kør fuld synkronisering**, vil synkroniseringen oprette nye poster for alle poster i kilderegnskabet, der endnu ikke er sammenkædet. Denne indstilling er typisk nyttig, hvis der ikke er nogen data i datterselskabet, eller hvis du kun vil tilføje poster fra kilde regnskabet uden at tilsvarende.  
+* Hvis du allerede har poster i både kilde-og datterselskaberne, og du vil matche eksisterende poster, skal du vælge handlingen **Brug matchbaseret kobling**. [!INCLUDE [prod_short](includes/prod_short.md)] passer til poster i datterselskab med poster i kilderegnskabet. Overensstemmelserne er baseret på matchkriterier, som du definerer. I forbindelse med flere standardtabeller har [!INCLUDE [prod_short](includes/prod_short.md)] allerede matchede eksisterende poster ved hjælp af deres primære nøgle, men du kan ændre dem efter behov. Du kan også bruge synkroniseringen til at oprette nye poster i datterselskabet for poster i det kilderegnskab, som datterselskabet ikke har. Hvis du vil vide mere om matchning, skal du gå til [Brug match-baseret kobling](#use-match-based-coupling).
+* Hvis du vælger **Kør fuld synkronisering**, opretter synkroniseringen nye poster for alle poster i kilderegnskabet, der endnu ikke er sammenkædet. Denne indstilling er f.eks. nyttig i følgende scenarier:
+
+    * Datterselskabet har ikke data i tabellen.
+    * Du vil føje poster fra kildevirksomheden uden match.  
 
 Når du har valgt indstillingen, der skal bruges, skal du vælge **Start alle**-handlingen for at starte synkroniseringen.
 
@@ -118,7 +124,7 @@ Du kan få adgang til detaljer, f. eks. det antal poster, der indsættes eller �
 
 ## Bruge Eksporter og Importer til at dele en synkroniseringsopsætning
 
-Hvis du opretter flere datterselskaber, som vil bruge de samme eller lignende synkroniseringsindstillinger, kan du spare tid ved at oprette et datterselskab og derefter udlæse opsætningen til en .xml-fil. Filen indeholder hele opsætningen, herunder tabel- og felttilknytninger og filterkriterier. Du kan derefter importere filen til næste datterselskab. Hvis du vil importere eller eksportere en opsætning, skal du bruge **import** eller **eksport** på siden **Opsætning af stamdatastyring**.
+Hvis du opretter flere datterselskaber, som bruger de samme eller lignende synkroniseringsindstillinger, er der en tidsbesparelse. Opret et datterselskab, og eksporter derefter dets opsætning til en .xml-fil. Filen indeholder hele opsætningen, herunder tabel- og felttilknytninger og filterkriterier. Du kan derefter importere filen til næste datterselskab. Hvis du vil importere eller eksportere en opsætning, skal du bruge **import** eller **eksport** på siden **Opsætning af stamdatastyring**.
 
 ## Se også
 

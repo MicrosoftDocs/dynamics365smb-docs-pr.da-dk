@@ -1,13 +1,13 @@
 ---
 title: Synkronisere varer og lager
 description: Oprette og køre synkroniseringer af varer mellem Shopify og Business Central
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: AndreiPanko
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Synkronisere varer og lager
@@ -98,17 +98,17 @@ Du kan bruge følgende indstillinger til at administrere processen med at ekspor
 |------|-----------------|-----------------|
 |Status|Ifølge **Status for oprettede produkter** på **Shopify Produktionskortet**. Få flere oplysninger i sektionen [Ad hoc-opdateringer af Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Bruges ikke.|
 |Titel | **Beskrivelse**. Hvis sprogkoden er defineret, og der findes en tilsvarende vareoversættelse, bruges vareoversættelsen i stedet for beskrivelse.|**Beskrivelse**|
-|Beskrivelse|Kombinerer udvidede tekster og attributter, hvis tilsvarende skift er aktiveret på Shopify-produktionskortet. Respekterer sprogkoden.|Bruges ikke.|
+|Beskrivelse|Kombinerer udvidede tekster, marketingtekst og attributter, hvis tilsvarende skift er aktiveret på Shopify-produktionskortet. Respekterer sprogkoden.|Bruges ikke.|
 |SEO-sidetitel|Fast værdi: tom. Få flere oplysninger i sektionen [Ad hoc-opdateringer af Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Bruges ikke.|
 |SEO-metabeskrivelse|Fast værdi: tom. Få flere oplysninger i sektionen [Ad hoc-opdateringer af Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Bruges ikke.|
 |Medier|**Billede**. Få mere at vide i afsnittet [Synkronisere vare billeder](synchronize-items.md#sync-item-images)|**Billede**|
-|Pris|Beregningen af slutkundepris beregnes med hensyn til vareprisgruppe, kundeprisgruppe, kunderabatgruppe og valutakode. Få mere at vide i afsnittet [Synkronisere priser](synchronize-items.md#sync-prices-with-shopify)|**Enhedspris**|
+|Pris|Beregningen af slutkundepris beregnes med hensyn til vareprisgruppe, kundeprisgruppe, kunderabatgruppe og valutakode. Få mere at vide i afsnittet [Synkronisere priser](synchronize-items.md#sync-prices-with-shopify)|**Enhedspris**. Prisen importeres kun til nyoprettede varer, men den bliver ikke opdateret i senere versioner.|
 |Sammenlign med pris|Beregningen af prisen uden en rabat.|Bruges ikke.|
-|Sager pr. vare|**Kostpris**|**Kostpris**|
+|Sager pr. vare|**Kostpris**|**Kostpris**. Kostprisen importeres kun til nyoprettede varer, men den bliver ikke opdateret i senere versioner.|
 |Varenummer|Få mere at vide om lagervarer under **SKU-tilknytning** i afsnittet [Eksporter varer til Shopify](synchronize-items.md#export-items-to-shopify).|Få flere oplysninger i sektionen [Effekt af Shopify-SKU-produkter og stregkoder ved tilknytning og oprettelse af varer og varianter i Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
 |Stregkode|**Varereferencer** til stregkodetypen.|**Varereferencer** til stregkodetypen.|
-|Spor antal|I henhold til feltet **Lager sporet** på siden **Shopify produktionskortet**. Der er flere oplysninger i [Lager](synchronize-items.md#sync-inventory-to-shopify)-afsnittet.|Bruges ikke.|
-|Fortsætte med at sælge, når der ikke er mere lager|I henhold til **Lager sporet** i **Shopify produktionskortet**. Ikke importeret.|Bruges ikke.|
+|Spor antal|I henhold til feltet **Lager sporet** på siden **Shopify produktionskortet**. Der er flere oplysninger i [Lager](synchronize-items.md#sync-inventory-to-shopify)-afsnittet. Bruges kun, når du eksporterer et produkt første gang.|Bruges ikke.|
+|Fortsætte med at sælge, når der ikke er mere lager|I henhold til **Lager sporet** i **Shopify produktionskortet**. Bruges kun, når du eksporterer et produkt første gang.|Bruges ikke.|
 |Enhedstype|**Beskrivelse** af **Varekategorikode**. Hvis type ikke er angivet til Shopify, tilføjes den som en brugerdefineret type.|**Varekategorikode**. Tilknytning efter beskrivelse.|
 |Leverandør (Kreditor)|**Navn** på kreditor fra **Leverandørnr.**|**Leverandørnr.** Tilknytning efter navn.|
 |Vægt|**Bruttovægt**.|Bruges ikke.|

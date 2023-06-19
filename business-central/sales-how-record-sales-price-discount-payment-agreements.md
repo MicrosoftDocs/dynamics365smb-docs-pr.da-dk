@@ -1,16 +1,14 @@
 ---
 title: Registrere specialsalgspriser og -rabatter
 description: 'Beskriver, hvordan du definerer pris-og rabataftaler for salgsdokumenter.'
-author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
+ms.date: 06/13/2023
+ms.custom: bap-template
 ms.search.keywords: 'special price, alternate price, pricing'
 ms.search.form: '7022, 7024'
-ms.date: 06/03/2022
-ms.author: bholtorf
 ---
 
 # Registrere specialsalgspriser og -rabatter
@@ -22,7 +20,11 @@ ms.author: bholtorf
 
 * Én-pris-til-alle modeller, hvor en vare altid sælges til samme pris.
 * Specielle prisaftaler med specifikke kunder eller grupper af kunder.
-* Kampagner når et salg lever op til kriterier for et særtilbud. F. eks. kan kriterier være, når en ordre overholder et minimumantal, ligger før en bestemt dato eller omfatter en bestemt type vare.  
+* Kampagner når et salg lever op til kriterier for et særtilbud. Du kan f. eks. have følgende kriterier for en ordre:
+
+  * Den opfylder et minimumantal
+  * Det er før en bestemt dato
+  * Den omfatter en bestemt type vare  
 
 Hvis du vil bruge en grundlæggende prissætningsmodel, skal du kun angive en salgspris for en vare eller ressource. Prisen vil altid blive brugt i salgsdokumenter. Hvis du f. eks. kører en salgskampagne og vil tilbyde specielle priser for en salgskampagne, kan du for eksempelvis angive kriterier for det på siden **salgspriser**. Du kan tilbyde specielle priser baseret på en kombination af følgende oplysninger:  
 
@@ -32,13 +34,13 @@ Hvis du vil bruge en grundlæggende prissætningsmodel, skal du kun angive en sa
 * Min. antal
 * Datoer, der definerer den periode, som priserne gælder for.
 
-Når du har konfigurere specielle priser, kan [!INCLUDE[prod_short](includes/prod_short.md)] beregne den bedste pris på salgs-og købsdokumenter og på sags-og varekladdelinjer. Flere oplysninger i [Bedste prisberegning](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Når du har konfigurere specielle priser, kan [!INCLUDE[prod_short](includes/prod_short.md)] beregne den bedste pris på salgs-og købsdokumenter og på sags- og varekladdelinjer. Flere oplysninger i [Bedste prisberegning](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Du kan konfigurere to typer til salgsrabat:
 
-| Rabattype | Beskrivlse |
+| Rabattype | Beskrivelse |
 | --- | --- |
-| **Salgslinjerabat** |Et beløb, der indsættes på salgslinjer, hvis de indeholder en bestemt kombination af kunde, vare, minimumsantal, enhed eller start-/slutdato findes. Dette fungerer på samme måde som for salgspriser. |
+| **Salgslinjerabat** |Tilføj et beløb, der bruges på salgslinjer, hvis en bestemt kombination af kunde, vare, minimumsantal, enhed eller start-/slutdato findes. Dette fungerer på samme måde som for salgspriser. |
 | **Fakturarabat** |En procentvis rabat, der fratrækkes fra salgsdokumenttotalen for salg og køb, hvis værdibeløbet for alle linjer i dokumentet overstiger et bestemt minimum. |
 
 > [!TIP]  
@@ -85,22 +87,22 @@ Når du aktiverer funktionsopdateringen **Ny salgsprisoplevelse** på siden **Fu
 
 * Hvis du vil arbejde med alle priser på en enkelt side, skal du aktivere den. Eksisterende priser konverteres til én standardprisliste for hver af følgende dokumenter:
 
-    * Salg
-    * Køb
-    * Salg af sag
-    * Køb af sag
+  * Salg
+  * Køb
+  * Salg af sag
+  * Køb af sag
 
-    Du kan redigere alle priser for disse områder på siden **Priskladde**. Standardprislisterne angives i siderne **Konfiguration af salgsopsætning**, **Konfiguration af købsopsætning** og **Sagsopsætning**. 
+  Du kan redigere alle priser for disse områder på siden **Priskladde**. Standardprislisterne angives i siderne **Konfiguration af salgsopsætning**, **Konfiguration af købsopsætning** og **Sagsopsætning**.
 
 > [!NOTE]
 > Hvis der kun er angivet priser på vare-eller ressourcekort, vil standard prislisterne ikke blive udfyldt med disse priser under dataopdateringen. Du kan dog åbne en af standardprislisterne eller siden **Priskladde** og bruge handlingen **Foreslå linjer** til at tilføje de priser, der er angivet på vare-eller ressourcekortene.
 
-* Hvis du vil bruge salgspris lister, skal du slå den fra. Eksisterende priser konverteres til en ny prisliste for hver af følgende kombinationer af følgende: 
+* Hvis du vil bruge salgspris lister, skal du slå den fra. Eksisterende priser konverteres til en ny prisliste for hver af følgende kombinationer af følgende:
 
-* Kunde (Debitor)
-* Debitorgruppe eller kampagne
-* Start-og slutdatoer
-* Valutaer 
+  * Kunde (Debitor)
+  * Debitorgruppe eller kampagne
+  * Start-og slutdatoer
+  * Valutaer
 
 Hvis du har mange kombinationer, har du mange prislister.
 
@@ -166,9 +168,12 @@ Hvis du vil kopiere en salgspris, f.eks. en individuel kundes salgspriser til br
 
 #### [Ny oplevelse](#tab/new-experience/)  
 
-Du kan angive, om den nye prisliste skal bruge indstillingerne fra hovedet på den liste, du kopierer, eller indstillingerne fra den nye liste, du vil kopiere til. Hvis du vil bruge indstillingerne fra den prisliste, du kopierer priser til, skal du aktivere funktionen **Brug standarder fra destination** til/fra.
+Du kan angive, hvilke indstillinger prislisten skal bruge:
 
-1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsprislister**, og vælg derefter det relaterede link. 
+* Brug indstillingerne fra hovedet på den liste, du er ved at kopiere.
+* Brug indstillingerne fra hovedet på den liste, du er ved at kopiere. Hvis du vil bruge indstillingerne fra den prisliste, du kopierer priser til, skal du aktivere funktionen **Brug standarder fra destination** til/fra.
+
+1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgsprislister**, og vælg derefter det relaterede link.
 2. Vælg den prisliste, du vil kopiere, og vælg derefter **Kopier linjer**.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -185,8 +190,17 @@ Disse trin varierer, afhængigt af, om din administrator har slået funktionsopd
 
 Hvis du vil masseopdatere varepriser, f.eks. forøge alle varepriser med en procentsats, skal du udfylde Salgspriskladde ved at bruge følgende batchjobs:
 
-* **Foreslå salgspris på kladde** foreslår ændringer på en af to måder. Enten ved at anvende en justeringsfaktor på eksisterende salgspriser eller ved at kopiere eksisterende salgsprisaftaler til andre debitorer, debitorprisgrupper eller salgskampagner.
-* **Foreslå varepris på kladde** foreslår ændringer på en af to måder. Eller ved at anvende en justeringsfaktor på eksisterende salgspriser på varekortet eller ved at foreslå priser på nye kombinationer af valuta, enheder osv. Salgsprisen på varer ændres ikke af denne kørsel.  
+* **Foreslå salgspris på kladde** foreslår ændringer på en af to måder:
+
+  * Ved at anvende en reguleringsfaktor på eksisterende salgspriser.
+  * Ved at kopiere eksisterende salgsprisaftaler til andre debitorer, debitorprisgrupper eller salgskampagner.
+
+* **Foreslå varepris på kladde** foreslår ændringer på en af to måder:
+
+  * Ved at anvende en reguleringsfaktor på eksisterende enhedspriser på varekort.
+  * Ved at foreslå priser på nye kombinationer af valuta, måleenheder osv.
+
+  Dette batchjob ændrer ikke enhedsprisen på varer.  
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Salgspriskladde**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Foreslå varepris på kladde** .  
@@ -219,7 +233,7 @@ Den bedste pris er den lavest tilladte pris med den størst tilladte linjerabat 
 
     * Har denne kunde en pris-/rabataftale, eller tilhører kunden en gruppe, der har en sådan aftale?
     * Er varen eller varerabatgruppen på linjen medtaget i nogen af disse pris/rabataftaler?
-    * Ligger ordredatoen (bogføringsdatoen for faktura- eller kreditnotaen) inden for start- og slutdatoen for pris-/rabataftalen?
+    * Ligger datoen inden for start- pog slutdatoen for pris-/rabataftalen? I forbindelse med fakturaer og kreditnotaer er det datoen i feltet **Bogføringsdato** på dokumenthovedet. For alle andre dokumenter er det datoen i feltet **Ordredato** i hovedafsnittet.
     * Er enhedskoden angivet? Hvis den gør det, kontrollerer [!INCLUDE[prod_short](includes/prod_short.md)], om der er priser/rabatter med samme enhedskode, og om der er priser/rabatter, uden at der er tilknyttet en enhedskode.
 
 2. [!INCLUDE[prod_short](includes/prod_short.md)] undersøger, om der gælder pris/rabataftaler for oplysninger om dokumentet eller kladdelinjen. Derefter indsættes den gældende salgspris og linjerabatprocent med følgende kriterier:

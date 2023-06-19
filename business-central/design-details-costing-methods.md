@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 03/24/2022
+ms.date: 05/12/2023
 ms.author: bholtorf
 ---
 # Designoplysninger: Kostmetoder
@@ -32,13 +32,22 @@ Følgende billede viser, hvordan omkostningerne passerer gennem lageret for hver
 ![Omkostningsmetoder visualiseret.](media/design_details_inventory_costing_7_costing_methods.png "Omkostningsmetoder visualiseret")  
 
 Kostmetoder varierer i den måde, hvorpå de værdiansætter lagerreduceringer, og om de bruger faktiske omkostninger eller standardomkostninger som værdigrundlag. Den følgende tabel beskriver de forskellige karakteristika. (LIFO-metoden er udelukket, da den minder meget om FIFO-metoden).  
-
-|Kategori|FIFO|Gennemsnit|Standard|Bestemt|  
+<!--Old  table
+|Category|FIFO|Average|Standard|Specific|  
 |-|----------|-------------|--------------|--------------|  
-|Generelle egenskaber|Let at forstå|Baseret på periodeindstillinger: **dag**/**uge**/**måned**/**kvartal**/**regnskabsperiode**.<br /><br /> Kan beregnes pr. vare eller pr. vare/lokation/variant.|Let at bruge, men kræver kvalificeret vedligeholdelse.|Kræver varesporing på både indgående og udgående transaktion.<br /><br /> Bruges typisk til serienummererede varer.|  
-|Udligning/justering|Udligning holder styr på **det resterende antal**.<br /><br /> Justering overfører omkostninger i henhold til antalsudligning.|Udligning holder styr på **det resterende antal**.<br /><br /> Omkostninger beregnes og overføres pr. **værdiansættelsesdato**.|Udligning holder styr på **det resterende antal**.<br /><br /> Udligning er baseret på FIFO.|Alle udligninger er faste.|  
-|Regulering|Værdiregulerer kun fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|Værdiregulerer kun fakturerede antal.<br /><br /> Kan kun foretages pr. vare.<br /><br /> Kan foretages bagudrettet.|Værdiregulerer fakturerede og ikke-fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|Værdiregulerer kun fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|  
-|Diverse|Hvis du baguddaterer en lagerreducering, bliver eksisterende poster IKKE genanvendt for at sikre et korrekt FIFO-omkostningsforløb.|Hvis du baguddaterer en lagerforøgelse eller -reducering, genberegnes den gennemsnitlige kostpris, og alle berørte poster justeres.<br /><br /> Hvis du ændrer perioden eller beregningstypen, skal alle berørte poster reguleres.|Brug siden **Standardkladde** til regelmæssigt at opdatere og akkumulere standardomkostninger.<br /><br /> Understøttes ikke pr. lagervare.<br /><br /> Der findes ingen historiske poster for standardomkostninger.|Du kan bruge specifik varesporing uden at bruge den specifikke kostmetode. Derefter følger prisen IKKE lotnummeret, men omkostningsforventningen for den valgte kostmetode.|  
+|General characteristic|Easy to understand|Based on period options: **Day**/**Week**/**Month**/**Quarter**/**Accounting Period**.<br /><br /> Can be calculated per item or per item/location/variant.|Easy to use, but requires qualified maintenance.|Requires item tracking on both inbound and outbound transaction.<br /><br /> Typically used for serialized items.|  
+|Application/Adjustment|Application keeps track of **the remaining quantity**.<br /><br /> Adjustment forwards costs according to quantity application.|Application keeps track of the **remaining quantity**.<br /><br /> Costs are calculated and forwarded per the **valuation date**.|Application keeps track of the **remaining quantity**.<br /><br /> Application is based on FIFO.|All applications are fixed.|  
+|Revaluation|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item only.<br /><br /> Can be done backward in time.|Revalues invoiced and un-invoiced quantities.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|Revalues invoiced quantity only.<br /><br /> Can be done per item or per item ledger entry.<br /><br /> Can be done backward in time.|  
+|Miscellaneous|If you back-date an inventory decrease, then existing entries are NOT reapplied to provide a correct FIFO cost flow.|If you back-date an inventory increase or decrease, then the average cost is recalculated, and all affected entries are adjusted.<br /><br /> If you change the period or calculation type, then all affected entries must be adjusted.|Use the **Standard Worksheet** page to periodically update and roll up standard costs.<br /><br /> Is NOT supported per SKU.<br /><br /> No historic records exist for standard costs.|You can use specific item tracking without using the Specific costing method. Then the cost will NOT follow the lot number, but the cost assumption of the selected costing method.|  
+-->
+<!--Table flipped for slightly better readability -->
+
+||Generelle egenskaber|Udligning/justering |Værdiregulering|Diverse |
+|-|---------|---------|---------|---------|
+|**FIFO**     |Let at forstå|Udligning holder styr på **det resterende antal**.<br /><br /> Justering overfører omkostninger i henhold til antalsudligning. |Værdiregulerer kun fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|Hvis du baguddaterer en lagerreducering, bliver eksisterende poster IKKE genanvendt for at sikre et korrekt FIFO-omkostningsforløb.|
+|**Gennemsnit**     |Baseret på periodeindstillinger: **dag**/**uge**/**måned**/**kvartal**/**regnskabsperiode**.<br /><br /> Kan beregnes pr. vare eller pr. vare/lokation/variant.|Udligning holder styr på **det resterende antal**.<br /><br /> Omkostninger beregnes og overføres pr. **værdiansættelsesdato**. |Værdiregulerer kun fakturerede antal.<br /><br /> Kan kun foretages pr. vare.<br /><br /> Kan foretages bagudrettet. |Hvis du baguddaterer en lagerforøgelse eller -reducering, genberegnes den gennemsnitlige kostpris, og alle berørte poster justeres.<br /><br /> Hvis du ændrer perioden eller beregningstypen, skal alle berørte poster reguleres.|
+|**Standard**     |Let at bruge, men kræver kvalificeret vedligeholdelse.|Udligning holder styr på **det resterende antal**.<br /><br /> Udligning er baseret på FIFO.|Værdiregulerer fakturerede og ikke-fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|Brug siden **Standardkladde** til regelmæssigt at opdatere og akkumulere standardomkostninger.<br /><br /> Understøttes ikke pr. lagervare.<br /><br /> Der findes ingen historiske poster for standardomkostninger.|
+|**Specifik**     |Kræver varesporing på både indgående og udgående transaktion.<br /><br /> Bruges typisk til serienummererede varer.|Alle udligninger er faste.|Værdiregulerer kun fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|Du kan bruge specifik varesporing uden at bruge den specifikke kostmetode. Derefter følger prisen IKKE lotnummeret, men omkostningsforventningen for den valgte kostmetode.|
 
 ## Eksempel
 
@@ -140,13 +149,14 @@ For varer, der bruger kostmetoden **Standard**, værdiansættes lagerforøgelser
 
 ## Se også
 
- [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
- [Designoplysninger: Afvigelse](design-details-variance.md)   
- [Designoplysninger: Gennemsnitlig kostpris](design-details-average-cost.md)   
- [Designoplysninger: Vareudligning](design-details-item-application.md)  
- [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
- [Finans](finance.md)  
- [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Designoplysninger: Lagerberegning](design-details-inventory-costing.md)  
+[Designoplysninger: Afvigelse](design-details-variance.md)  
+[Designoplysninger: Gennemsnitlig omkostning](design-details-average-cost.md)  
+[Designoplysninger: Vareudligning](design-details-item-application.md)  
+[Administrere lageromkostninger](finance-manage-inventory-costs.md)  
+[Finans](finance.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Ordliste med termer i Dynamics 365 business processes](/dynamics365/guidance/business-processes/glossary)  
+[Definere oversigt over produkt-og serviceomkostninger](/dynamics365/guidance/business-processes/product-service-define-cost-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

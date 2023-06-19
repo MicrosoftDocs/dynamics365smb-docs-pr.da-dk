@@ -70,7 +70,7 @@ Du inviteres til at bruge Microsoft Dynamics Lifecycle Services (LCS) til at sen
 [Lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Ændre sprog og landestandard](about-locale-language.md)  
 [Blive køreklar](ui-get-ready-business.md)  
-[Velkommen til Business Central](index.md)  
+[Velkommen til Business Central](welcome.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

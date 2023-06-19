@@ -11,7 +11,7 @@ ms.search.keywords: 'audit, export, SIE, SAF-T, FAC, GDPdU, file export'
 ms.search.form: '5260, 5261, 5264, 5266, 5267, 5270'
 ms.date: 04/04/2023
 ms.author: altotovi
-ms.reviewer: null
+ms.reviewer: kfend
 ---
 
 # Eksport af revisionsfil
@@ -98,10 +98,9 @@ Følg disse trin for at angive finanskontotilknytningen for eksport af revisions
 > Hvis du har flere poster, der skal eksporteres, anbefales det, at du eksporterer dem i den aktuelle session pga. mulige problemer med ydeevnen. I stedet anbefales det, at du bruger parallel behandling i ikke-arbejdsdage eller timer.
 
 ## Se også
-
 [Økonomistyring](finance.md)  
 [Forstå Finans og Kontoplan](finance-general-ledger.md)  
 [Arbejde med dimensioner](finance-dimensions.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbejde med Business Central](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

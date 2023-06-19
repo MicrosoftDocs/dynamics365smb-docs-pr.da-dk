@@ -1,13 +1,13 @@
 ---
 title: Synkronisere og transaktioner og udbetalinger
 description: Konfigurere og køre import af transaktioner og udbetalinger fra Shopify.
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30124, 30125, 30130, 30131, 30132, 30133, 30134,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Transaktioner og udbetalinger
@@ -21,6 +21,8 @@ Hvis du bruger Shopify-betaling som betalingsudbyder og derefter ud over oplysni
 De betalingstransaktioner, der er foretaget i Shopify synkroniseres sammen med ordrerne og kan ses på siden **Shopify-ordrer**.
 
 Hvis du vil se alle transaktioner, skal du vælge ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Transaktioner**, og vælg derefter det relaterede link.
+
+Feltet **Bogført fakturanr.** kan være en hjælp i afstemningen.
 
 Hvis du har konfigureret tilknytning af en betalingsmetode, er der tildelt en betalingsmetode kode i det oprettede salgsdokument. Få mere at vide ved [betalingsmetodetilknytning](#payment-method-mapping).
 

@@ -118,7 +118,7 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 
 [Dokumentation til Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Tilpasse Business Central ved brug af udvidelser](ui-extensions.md)  
-[Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+[Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)  
 [Bruge Kunstig intelligens i Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

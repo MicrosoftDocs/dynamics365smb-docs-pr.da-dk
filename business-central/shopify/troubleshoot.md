@@ -1,13 +1,13 @@
 ---
 title: Fejlfinding af Shopify og Business Central-synkronisering
-description: 'Få mere at vide om, hvad du skal gøre, hvis noget er galt under synkronisering af data mellem Shopify Business Central'
-ms.date: 03/27/2023
-ms.topic: article
-ms.service: dynamics365-business-central
+description: 'Få mere at vide om, hvad du skal gøre, hvis noget er galt under synkronisering af data mellem Shopify Business Central.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 04/24/2023
+ms.custom: bap-template
 ms.search.form: '30118, 30119, 30120, 30101, 30102'
-author: edupont04
-ms.author: andreipa
-ms.reviewer: solsen
 ---
 
 # Fejlfinding af Shopify og Business Central-synkronisering
@@ -20,7 +20,7 @@ Du kan køre i situationer, hvor du skal foretage fejlfinding af problemer ved s
 2. Marker den butik, du vil fejlfinde for at åbne siden **Shopify-købskort**.
 3. Deaktivér **Tillad baggrundssynkronisering** til/fra.
 
-Når der nu udløses en opgave i forgrunden, og der opstår en fejl, vises der en fejldialogboks med linket **Kopiér detaljer**. Brug dette hyperlink til at kopiere yderligere oplysninger til en teksteditor til yderligere analyse.
+Når synkroniseringshandlingen udløses, køres opgaven nu i forgrunden. Hvis der opstår en fejl, vises der en fejldialogboks med linket **Kopieringsoplysninger**. Brug linket til at kopiere yderligere oplysninger til en teksteditor til yderligere analyse.
 
 ## Logfiler
 
@@ -35,16 +35,16 @@ Hvis en synkroniseringsopgave mislykkes, kan du aktivere logføring ved at aktiv
 ### Gennemse logfiler
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-logposter**, og vælg det relaterede link.
-2. Vælg den relaterede logpost, og åbn siden **Shopify-logpost**.
+2. Vælg den relaterede logpost, og åbn derefter siden **Shopify-logpost**.
 3. Gennemsynsanmodning, statuskode og beskrivelse og svarværdier. Du kan hente anmodnings- og svarværdierne som filer i et tekstformat.
 
 Husk at slå logføring fra for at undgå negativ påvirkning af ydeevnen og øge databasens størrelse.
 
-Fra siden **Shopify-logposter** kan du udløse sletning af alle logposter eller filer, der er ældre end syv dage.
+Fra siden **Shopify-logposter** kan du udløse sletning af alle logposter eller poster, der er ældre end syv dage.
 
 ## Dataregistrering
 
-Uanset hvilken indstilling der er aktiveret for **Log aktiveret** vil nogle svar fra Shopify altid være logført, som du kan kontrollere eller hente i vinduet **Liste over registrerede data**.
+Uanset om **Logfilen er aktiveret**, registreres nogle Shopify-svar altid. Du kan undersøge eller hente logfilerne fra siden **Dataregistreringsliste**.
 
 Vælg handlingen **Hentet Shopify-data** på en af følgende sider:
 
@@ -64,7 +64,7 @@ Denne funktion gælder kun for synkroniseringer fra Shopify til [!INCLUDE[prod_s
 
 ## Anmode om adgangstoken
 
-Hvis [!INCLUDE[prod_short](../includes/prod_short.md)] ikke kan oprette forbindelse til din Shopify-konto, kan du prøve at nulstille dette adgangstoken fra Shopify. Denne anmodning kan være nødvendig, hvis der er en rotation af sikkerhedsnøgler eller ændringer af nødvendige tilladelser (områder).
+Hvis [!INCLUDE[prod_short](../includes/prod_short.md)] ikke kan oprette forbindelse til din Shopify-konto, kan du prøve at nulstille dette adgangstoken fra Shopify. Du skal muligvis anmode om et nyt token, hvis der var ændringer til sikkerhedsnøglerne eller de nødvendige tilladelser (områder).
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Butikker**, og vælg det relevante link.
 2. Marker den butik, for hvilken du vil have adgangstoken til at åbne siden **Shopify-butikskort**.
@@ -73,12 +73,12 @@ Hvis [!INCLUDE[prod_short](../includes/prod_short.md)] ikke kan oprette forbinde
 
 Funktionen **Vis Accesskey** vil blive aktiveret.
 
-### Kontrollere og aktivere tilladelser til at foretage http-anmodninger, når der køres i et ikke-produktionsmiljø
+## Kontrollere og aktivere tilladelser til at foretage HTTP-anmodninger, når der køres i et ikke-produktionsmiljø
 
-Hvis Shopify-connector-udvidelsen skal fungere korrekt, kræver det, at du har tilladelse til at foretage http-anmodninger. Når der testes i sandkasse, er http-anmodninger forbudt for alle udvidelser.
+Hvis Shopify-connector-udvidelsen skal fungere korrekt, kræver det, at du har tilladelse til at foretage HTTP-anmodninger. Når der testes i sandkasse, er HTTP-anmodninger forbudt for alle udvidelser.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **udvidelsesstyring**, og vælg derefter det relaterede link.
-2. Vælg udvidelsen **Shopify Connector**.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udvidelsesstyring**, og vælg derefter det relaterede link.
+2. Vælg udvidelsens **Shopify Connector**.
 3. Vælg handlingen **Konfigurer** for at åbne siden **Udvidelsesindstilling**.
 4. Kontroller, at funktionen **Tillad HTTPClient-anmodninger** er aktiveret.
 
@@ -94,20 +94,21 @@ Følgende procedurer beskriver, hvordan du kan rotere det adgangstoken, der brug
 
 ### I [!INCLUDE[prod_short](../includes/prod_short.md)]
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Butikker**, og vælg det relevante link.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-shops**, og vælg derefter det relaterede link.
 2. Marker den butik, for hvilken du vil have adgangstoken til at åbne siden **Shopify-butikskort**.
 3. Vælg handlingen **Anmod om adgang**.
 4. Hvis du bliver bedt om det, skal du logge ind på din Shopify-konto, gennemse personlige oplysninger og tilladelser og derefter vælge knappen **Installer app**.
 
 ## Kendte problemer
 
-### Fejl: Salgshovedet findes ikke. Id-felter og -værdier: Dokumenttype = 'quote',nr. = 'YOU SHOPIFY STORE'
+### Fejl: Salgshovedet findes ikke. Id-felter og -værdier: Dokumenttype = 'quote',nr. = 'YOUR SHOPIFY STORE'
 
-Hvis du vil beregne den pris, som Shopify Connector opretter midlertidigt salgsdokument (tilbud) til midlertidig kunde (butikskode), og du kan bruge standard pris beregningslogikken til at udføre opgaven. Det er typisk, når en tredjepartsudvidelse abonnerer på hændelser på salgslinjen, men ikke kontrollerer, at posten er midlertidig, så hovedet er muligvis ikke tilgængeligt. Det anbefales, at du kontakter leverandøren af udvidelsen og beder brugeren ændre sin kode for at kontrollere, om posterne er midlertidige. I nogle tilfælde er det tilstrækkeligt, at `IsTemporary` tilføjer metoden på det rigtige sted. Du kan få mere at vide om IsTemporary ved at gå til [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
+Hvis du vil beregne den pris, som Shopify Connector opretter midlertidigt salgsdokument (tilbud) til midlertidig kunde (butikskode), og du kan bruge standard pris beregningslogikken til at udføre opgaven. Hvis en tredjepartsudvidelse abonnerer på hændelser i et midlertidigt salgsdokument, er hovedet muligvis ikke tilgængeligt. Det anbefales, at du kontakter udvidelsesudbyderen. Bed dem om at ændre deres kode, så de kan kontrollere, om der er midlertidige poster. I nogle tilfælde er det tilstrækkeligt, at `IsTemporary` tilføjer metoden på det rigtige sted. Du kan få mere at vide om `IsTemporary` ved at gå til [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
 
 Hvis du vil kontrollere, om problemet er forårsaget af et filtypenavn fra tredjepart, skal du bruge linket **Kopier oplysninger til Udklipsholder** i fejlmeddelelsen og kopiere indholdet til tekstredigeringsprogrammet. Oplysningerne indeholder en **AL-kaldestak**, hvor den øverste linje er den linje, hvor fejlen opstod. Det følgende er et eksempel på en AL-kaldestak.
 
-AL-kaldt stak: 
+AL-kaldt stak:
+
 ```AL
 [Object Name]([Object type] [Object Id]).[Function Name] line [XX] - [Extension Name] by [Publisher] 
 ...
@@ -122,17 +123,21 @@ AL-kaldt stak:
 
 Husk at dele oplysninger fra AL-kaldestakken med leverandøren af filtypenavnet.
 
-### Fejl: Gen. Virksomhed-bogføringsgruppe skal have en værdi i Debitor: 'YOU SHOPIFY STORE'. Den må ikke være nul eller tom
+### Fejl: Gen. Virksomhed-bogføringsgruppe skal have en værdi i Debitor: 'YOUR SHOPIFY STORE'. Den må ikke være nul eller tom
 
-Udfyld feltet **Debitorskabelonkode** på siden **Shopify Butikskort** med den skabelon, som har udfyldt **Virksomhedsbogføringsgruppe**. Debitorskabelon bruges ikke kun til oprettelse af debitorer, men også til beregning af salgspris og ved oprettelse af salgsdokumenter.
+Udfyld feltet **Debitorskabelonkode** på siden **Shopify Butikskort** med den skabelon, som har udfyldt **Virksomhedsbogføringsgruppe**. Debitorskabelonen bruges til at oprette debitorer og til at beregne salgspriser på salgsdokumenter.
 
 ### Fejl: Import af data til din Shopify-butik er ikke aktiveret. Gå til butikskortet for at aktivere det
 
-I vinduet **Shopify-butikskort** skal du slå **Tillad datasynkronisering med Shopify** til. Denne til/fra-funktion er beregnet til at beskytte onlinebutikken mod at hente demonstrationsdata fra [!INCLUDE[prod_short](../includes/prod_short.md)].
+På siden **Shopify-butikskort** skal du slå **Tillad datasynkronisering med Shopify** til. Denne indstilling hjælper med at beskytte onlinebutikken mod at hente demonstrationsdata fra [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ### Fejl: Oauth-fejl invalid_request: Kan ikke finde Shopify API-programmet med api_key
 
 Det ser ud til, at du bruger [Indlejret app](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), hvor klientens URL-adresse har formatet:`https://[application name].bc.dynamics.com`. Shopify-connectoren virker ikke for indlejrede apps. Flere oplysninger i [Hvilke Microsoft-produkter er Shopify-connectoren tilgængelige for?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
+
+### Fejl: Intern fejl. Det ser ud til, at noget gik galt. Anmodnings-id: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
+
+Kontakt Shopify support inden for 7 dage efter, at du har oplevet fejlen, og Angiv anmodnings-id'et. Du kan få flere oplysninger ved at gå til [Supportmuligheder i Shopify](shopify-faq.md#shopify).
 
 ## Se også
 

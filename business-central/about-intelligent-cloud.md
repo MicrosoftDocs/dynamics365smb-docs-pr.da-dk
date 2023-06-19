@@ -37,7 +37,7 @@ Siden opretter også forbindelse til Power BI, hvor du kan få endnu flere oplys
 
 ## Se også
 
-[Velkommen til Business Central](index.md)  
+[Velkommen til Business Central](welcome.md)  
 [Udvidelser af skymigrering](ui-extensions-data-replication.md)  
 [Overførsel af data i det lokale miljø til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 

@@ -60,7 +60,7 @@ Gentag trin 2-6 for alle onlinebutikker, du vil oprette forbindelse til.
 
 - Pop op-vinduet blokeres i browseren. Når du aktiverer til/fra-funktionen **Aktiveret**, åbner [!INCLUDE [prod_short](../includes/prod_short.md)] siden **Venter på svar - lad være med at lukke siden**, mens den venter på, at der er en adgangstoken fra Shopify. Hvis siden er lukket eller blokeret, kan du ikke oprette forbindelse til Shopify. Få mere at vide på [Anmod om adgangstoken](troubleshoot.md#request-the-access-token)
 - [Fejl: Oauth-fejl invalid_request: Kan ikke finde Shopify API-programmet med api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
-- [Der kan ikke oprettes forbindelse fra sandkasse](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
+- [Der kan ikke oprettes forbindelse fra sandkasse](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Næste trin
 
@@ -96,7 +96,11 @@ Hvis du skal bruge denne konfiguration, anbefales det, at du gennemser og deakti
 * **Shopify kan opdatere debitorer**, så de eksisterende debitorer ikke opdateres
 * **Opret salgsordre automatisk**, så der ikke oprettes salgsordrer og salgsfakturaer
 
+Du kan finde flere oplysninger i [Gendanne et miljø](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
+
 ### Shopify-produktion og Business central-sandkasse
+
+Det kan være en god idé at sikkerhedskopiere dine data. Du kan f. eks. eksportere produkter og kunder. Du kan finde flere oplysninger i [Bruge CSV-filer til at sikkerhedskopiere lagrede oplysninger](https://help.shopify.com/en/manual/shopify-admin/duplicate-store#using-csv-files-to-back-up-store-information).
 
 Deaktiver **Tillad data synkronisering til Shopify**-til/fra-feltet, så [!INCLUDE[prod_short](../includes/prod_short.md)] ikke skriver til Shopify. I så fald kan du indlæse produkter, billeder, kunder og ordrer fra Shopify. Men du kan ikke sende varer, priser, lagerniveauer, debitorer, indfrielses oplysninger til Shopify.
 

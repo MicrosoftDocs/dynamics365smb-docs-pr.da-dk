@@ -39,7 +39,7 @@ Du kan finde en oversigt over aktuelt understøttede markeder for hele Dynamics 
 
 [Tilmeld dig for at få en gratis Dynamics 365 Business Central-prøveversion](trial-signup.md)  
 [Dynamics 365 Business Central-prøveversion, ofte stillede spørgsmål](trial-faq.md)  
-[Velkommen til [!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
+[Velkommen til [!INCLUDE[prod_short](includes/prod_long.md)]](welcome.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Lokal funktionalitet](about-localization.md)  
 [Tilgængelighed i land/område og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  

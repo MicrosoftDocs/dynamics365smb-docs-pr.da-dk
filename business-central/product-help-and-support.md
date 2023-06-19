@@ -78,7 +78,7 @@ Sektionen **Find det** indeholder to links til produkthjælp:
 
 - Hjælp om siden, du netop fik vist i [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Dette link genereres automatisk. Hvis [!INCLUDE[prod_short](includes/prod_short.md)] ikke kan finde det relevante link, vises [landingssiden på Microsoft Learn](index.md) for standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis siden f.eks. var en del af en app, som ikke har føjet kontekstafhængig hjælp til [!INCLUDE[prod_short](includes/prod_short.md)], viser *Få mere at vide-linket* som standard landingssiden.  
+  Dette link genereres automatisk. Hvis [!INCLUDE[prod_short](includes/prod_short.md)] ikke kan finde det relevante link, vises [landingssiden på Microsoft Learn](index.yml) for standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis siden f.eks. var en del af en app, som ikke har føjet kontekstafhængig hjælp til [!INCLUDE[prod_short](includes/prod_short.md)], viser *Få mere at vide-linket* som standard landingssiden.  
   
 - Hjælpelandingsside for [!INCLUDE[prod_short](includes/prod_short.md)]  
 
@@ -152,9 +152,9 @@ Hvis du vil advare din partner mod et problem, skal du vælge hyperlinket for en
 
 ## Flere oplysninger om brug af produktdokumentationen
 
-Basisversionen af [!INCLUDE [prod_short](includes/prod_short.md)] er udvidet og tilpasset af en stor gruppe af partnere. Hver partner og mange debitorer installerer deres egen Hjælp til deres eget websted. Men du kan altid gå til [Dynamics 365 Business Central-dokumentation](index.md) for at få mere at vide. Webstedet er vært for forskellige typer indhold, f.eks. følgende:
+Basisversionen af [!INCLUDE [prod_short](includes/prod_short.md)] er udvidet og tilpasset af en stor gruppe af partnere. Hver partner og mange debitorer installerer deres egen Hjælp til deres eget websted. Men du kan altid gå til [Dynamics 365 Business Central-dokumentation](index.yml) for at få mere at vide. Webstedet er vært for forskellige typer indhold, f.eks. følgende:
 
-- [Begrebsindhold om virksomhedsfunktioner](index.md)  
+- [Begrebsindhold om virksomhedsfunktioner](welcome.md)  
 - [Dokumentation til udviklere](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
 - [Gratis læringsstier og e-learning-moduler på tværs af flere brugerprofiler](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
@@ -164,7 +164,7 @@ I dette afsnit kan du få mere at vide om, hvordan du kan navigere i forretnings
 
 ### Indhold på webstedet
 
-[Denne sektion](index.md) i Microsoft Learn rummer indhold fra Microsoft, som udgør det faste element *Flere oplysninger* i brugerassistancemodellen. Indholdet af *Få mere at vide* besvarer til dels de spørgsmål, som brugergrænsefladen ikke kan besvare, f.eks. følgende:
+[Denne sektion](welcome.md) i Microsoft Learn rummer indhold fra Microsoft, som udgør det faste element *Flere oplysninger* i brugerassistancemodellen. Indholdet af *Få mere at vide* besvarer til dels de spørgsmål, som brugergrænsefladen ikke kan besvare, f.eks. følgende:
 
 - Hvor passer denne side ind i den overordnede arbejdsgang?  
 - Hvad er næste trin?  

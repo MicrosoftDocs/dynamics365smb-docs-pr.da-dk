@@ -50,6 +50,9 @@ Efter oprettelse af butikken i **Shopify Administration** til den oprettede buti
   1. *(til test) Bogus Gateway*. Du kan finde flere oplysninger i [Aktivering af Bogus Gateway til test](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
   2. *Shopify payments* i testtilstand. Flere oplysninger i [Test af Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
 
+> [!Note]  
+> Udviklingslagre er normalt beskyttet med adgangskode. Når du forsøger at åbne en bestemt side i din onlinebutik fra [!INCLUDE [prod_short](../includes/prod_short.md)], f.eks. for at gå til et bestemt produkt eller en bestemt ordre, skal du angive din adgangskode. Mens du tester, skal du logge på din Shopify-administrator og åbne dit lager derfra for at undgå at skulle angive adgangskoden. Du behøver ikke at angive lageradgangskoden, før du lukker browseren, eller hvis din session udløber.  
+
 ## Se også
 
 [Kom i gang med Shopify-connectoren](get-started.md)  

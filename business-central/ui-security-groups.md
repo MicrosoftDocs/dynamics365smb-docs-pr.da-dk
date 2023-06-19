@@ -12,37 +12,37 @@ ms.date: 02/08/2023
 
 # Kontrollere adgangen til Business central ved brug af sikkerhedsgrupper
 
-[!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
+Sikkerhedsgrupper gør det nemmere for administratorer at administrere brugertilladelser. F. eks. til [!INCLUDE [prod_short](includes/prod_short.md)] online kan de genbruges på tværs af Dynamics 365-programmer, f.eks. SharePoint online, CRM Online og [!INCLUDE [prod_short](includes/prod_short.md)]. Administratorer føjer tilladelser til deres [!INCLUDE [prod_short](includes/prod_short.md)]-sikkerhedsgrupper, og når de føjer brugere til gruppen, gælder tilladelserne for alle medlemmer. En administrator kan f.eks. oprette en [!INCLUDE [prod_short](includes/prod_short.md)]-sikkerhedsgruppe, der giver sælgere mulighed for at oprette og bogføre salgsordrer. Eller lad indkøbere gøre det samme for købsordrer.
 
-Sikkerhedsgrupper gør det nemmere for administratorer at administrere brugertilladelser i deres Dynamics 365-programmer, f.eks. SharePoint Online, CRM Online og onlineversionen af [!INCLUDE [prod_short](includes/prod_short.md)]. Administratorer føjer tilladelser til deres sikkerhedsgrupper, og når de føjer brugere til gruppen, gælder tilladelserne for alle medlemmer. En administrator kan f.eks. oprette en sikkerhedsgruppe, der giver sælgere mulighed for at oprette og bogføre salgsordrer. Eller lad indkøbere gøre det samme for købsordrer.
+## Konfigurere Business Central online og lokalt
 
-Opret sikkerhedsgrupperne i Microsoft 365 Administration eller Azure Active Directory. I denne artikel beskrives trinene i Microsoft 365 Administration, men trinene er ens i begge.
+Du kan bruge sikkerhedsgrupper til online-og lokale versioner af [!INCLUDE [prod_short](includes/prod_short.md)]. Afhængigt af produktversionen skal du oprette grupper på en af følgende måder:
 
-## Tilføj en sikkerhedsgruppe i Microsoft 365 Administration
+* Brug Azure Active Directory-sikkerhedsgrupper til onlineversionen. Hvis du vil vide mere om, hvordan du opretter gruppen, skal du gå til [Opret, rediger eller slet en sikkerhedsgruppe i Microsoft 365 Administration](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
+* Brug Windows Active Directory-grupper til lokal brug. Hvis du vil vide mere, skal du gå til [Opret en gruppekonto i Active Directory](/windows/security/operating-system-security/network-security/windows-firewall/create-a-group-account-in-active-directory).
 
-1. Gå til siden **Aktive teams og grupper** i Microsoft 365 Administration.
-2. Vælg **Tilføj en gruppe**.
-3. Vælg gruppetypen **Sikkerhed**, og vælg derefter **Næste**.
-4. Angiv basis for din gruppe.
-5. Valgfrit: gør medlemmerne i gruppen tilgængelige for rolletildeling. Hvis du vil vide mere om tildelingerne, skal du gå til [Brug Azure AD-grupper for at administrere rolletildelinger](/azure/active-directory/roles/groups-concept).
-6. Åbn gruppen, og brug fanen **Tilføj medlemmer** til at medtage personer i gruppen.
+Bagefter skal du oprette en tilsvarende sikkerhedsgruppe i [!INCLUDE [prod_short](includes/prod_short.md)] og derefter knytte den til den gruppe, du har oprettet. Hvis du vil vide mere, skal du gå til [Tilføje en sikkerhedsgruppe i Business Central](#add-a-security-group-in-business-central).
+
+> [!NOTE]
+> Hvis du har oprettet en særlig type bruger med en Windows-gruppelicenstype i en version af [!INCLUDE [prod_short](includes/prod_short.md)] on-Prem, der er tidligere end 2023-udgivelsesbølge 1, når du opgraderer [!INCLUDE [prod_short](includes/prod_short.md)], konverteres brugeren til en sikkerhedsgruppe. Den nye sikkerhedsgruppe har samme navn som navnet på Windows-gruppen. Sikkerhedsgruppen giver dig et bedre overblik over gruppemedlemmerne og deres gældende tilladelser.
 
 ## Tilføje en sikkerhedsgruppe i Business Central
 
-I [!INCLUDE [prod_short](includes/prod_short.md)] skal du oprette en sikkerhedsgruppe og derefter knytte den til sikkerhedsgruppen i Microsoft 365 Administration. Den nye gruppe indeholder de medlemmer, du har tilføjet i Microsoft 365 Administration.
-
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sikkerhedsgrupper**, og vælg derefter det relaterede link.
-2. Vælg **Ny** for at oprette en gruppe.
-3. Indtast et navn for gruppen i feltet **Navn**.
-4. I feltet **AAD-sikkerhedsgruppenavn** skal du angive navnet på sikkerhedsgruppen, nøjagtigt som den vises i Microsoft 365 Administration. [!INCLUDE [prod_short](includes/prod_short.md)] vil finde den pågældende gruppe og knytte den til denne gruppe.
+1. Vælg **Ny** for at oprette en gruppe.
+1. Opret hyperlinket til din gruppe på følgende måde:
+
+    * For [!INCLUDE [prod_short](includes/prod_short.md)] online skal du vælge gruppen i feltet **AAD-sikkerhedsgruppenavn**.
+    * Til [!INCLUDE [prod_short](includes/prod_short.md)]-lokalt skal du vælge gruppen i feltet **Windows-gruppenavn**.
 
 > [!NOTE]
 > De brugere, der vises på kortet **Medlemmer** i faktaboksruden eller på siden **Medlemmer af sikkerhedsgruppe**, hvis de er tilføjet som brugere i [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger om at tilføje brugere i [Sådan tilføjer du brugere eller opdaterer brugeroplysninger og licenstildelinger i Business Central](ui-how-users-permissions.md#adduser).  
 
-### Tildele rettigheder til gruppen
+### Tildele tilladelser til en sikkerhedsgruppe
 
 1. På siden **Sikkerhedsgruppe** skal du vælge gruppen og derefter handlingen **Tilladelser**.
 1. Tildel rettigheder på følgende måder:
+
     * Hvis du vil tildele tilladelsessæt individuelt, skal du vælge de tilladelser, der skal tildeles, i feltet **Tilladelsessæt**.
     * Hvis du vil tildele flere tilladelsessæt, skal du vælge handlingen **Vælg tilladelsessæt** og derefter vælge de sæt, der skal tildeles.
 
@@ -54,7 +54,19 @@ Tilladelserne er også tilgængelige på siden **Brugere**. I faktaboksruden vis
 
 ## Sikkerhedsgrupper og brugergrupper
 
-Hvis du har brugergrupper, kan du konvertere grupperne til tilladelsessæt i lejeren ved hjælp af den assisterende opsætningsvejledning til **Migrering af brugergruppe**. Hvis du vil starte programguiden, skal du gå til siden **funktionsstyring**, finde **Funktion: Konverter brugergrupperettigheder** og derefter vælge **Alle brugere** i feltet **Aktiveret for**. Den assisterede opsætningsvejledning giver følgende muligheder med konverteringen.
+> [!NOTE]
+> Brugergrupper vil ikke længere være tilgængelige i en fremtidig version.
+
+Sikkerhedsgrupper ligner meget de brugergrupper, der er tilgængelige i øjeblikket. Brugergrupper er dog kun relevante for [!INCLUDE [prod_short](includes/prod_short.md)]. Sikkerhedsgrupper er baseret på grupper i Azure Active Directory eller i Windows Active Directory, afhængigt af om du bruger henholdsvis [!INCLUDE [prod_short](includes/prod_short.md)] online eller lokalt. Grupper giver administratorer fordel, fordi de kan bruge dem med andre Dynamics 365-apps. Hvis sælgerne f. eks. bruger [!INCLUDE [prod_short](includes/prod_short.md)] og SharePoint, skal administratorer ikke oprette gruppen og dens medlemmer igen.
+
+### Eventuelt: Konvertere rettighedssæt til brugergrupper
+
+I 2023-udgivelsesbølge 1 og nyere kan du konvertere brugergrupper til tilladelsessæt i din lejer. Tilladelsessæt giver samme funktionalitet som brugergrupper. Eksempler:
+
+* Du kan bruge faktaboksen **Brugere** til at administrere tilladelser for brugere.
+* Du kan foretage detaljeopløftning for navnet på tilladelsessættet for at føje andre tilladelsessæt til det sæt, du arbejder på. Du kan finde flere oplysninger i [Tilføje andre rettighedssæt](ui-define-granular-permissions.md#to-add-other-permission-sets).
+
+Brug den assisterede opsætningsvejledning **Migrering af brugergruppe** til at konvertere dine grupper. Hvis du vil starte programguiden, skal du gå til siden **funktionsstyring**, finde **Funktion: Konverter brugergrupperettigheder** og derefter vælge **Alle brugere** i feltet **Aktiveret for**. Den assisterede opsætningsvejledning giver følgende muligheder med konverteringen.
 
 |Indstilling  |Beskrivlse  |
 |---------|---------|

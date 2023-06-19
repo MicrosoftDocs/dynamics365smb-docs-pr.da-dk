@@ -1,18 +1,18 @@
 ---
 title: Synkronisere debitorer
 description: Importere debitorer fra eller eksportere til Shopify
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30105, 30106, 30107, 30108, 30109,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Synkronisere debitorer
 
-Når en ordre indlæses fra Shopify, er oplysningerne om debitor nødvendig for at kunne behandle dokumentet yderligere i [!INCLUDE[prod_short](../includes/prod_short.md)]. Der findes to hovedindstillinger for dette og deres kombinationer:
+Når en ordre importeres fra Shopify, er oplysningerne om debitor nødvendig for at kunne behandle dokumentet yderligere i [!INCLUDE[prod_short](../includes/prod_short.md)]. Der findes to hovedindstillinger for dette og flere kombinationer:
 
 * Brug speciel kunde til alle ordrer.
 * Importer oplysninger om den aktuelle kunde fra Shopify. Denne indstilling er også tilgængelig, når du eksporterer debitorer til Shopify fra [!INCLUDE[prod_short](../includes/prod_short.md)] først.
@@ -36,10 +36,9 @@ Nogle indstillinger kan defineres på lande/regionalt niveau eller på niveauet 
 Du kan gøre følgende for hver kunde ved hjælp af **Shopify -kundeskabelonen**:
 
 1. Angiv **Standardkundenr.**, som har højere prioritet end det, du har valgt i felterne **Debitorimport fra Shopify** og **Debitortilknytningstype**. Den bruges i den importerede salgsordre.
-2. Definer den **debitorskabelonkode**, der bruges til at oprette manglende kunder, hvis **Automatisk oprettelse af ukendte debitorer** er aktiveret. Hvis **debitorskabelonkode** er tom, bruger funktionen den **debitorskabelonkode**, der er defineret på **Shopify butikskortet**.
-3. Angiv, om priser er inkl. moms for importerede ordrer.
-4. I nogle tilfælde er den **debitorskabelonkode**, der er defineret for et land, ikke nok til at sikre, at moms beregnes korrekt (f. eks. lande med moms). I dette tilfælde kan **skatteområderne** være nyttige.
-5. Feltet **skatteområde** indeholder også en **landekode** og et **Navn på region**. Dette par er praktisk, når forbindelsen skal konvertere en kode til et navn, eller omvendt.
+2. Definer den **debitorskabelonkode**, der bruges til at oprette manglende kunder, hvis **Automatisk oprettelse af ukendte debitorer** er aktiveret. Hvis **debitorskabelonkode** er tom, bruger funktionen den **debitorskabelonkode**, der er defineret på **Shopify butikskortet**. Systemet prøver først at finde en skabelon til **lande-/områdekoden** for standardadressen. Hvis der ikke findes en skabelon, bruges den første adresse.
+3. I nogle tilfælde er den **debitorskabelonkode**, der er defineret for et land, ikke nok til at sikre, at moms beregnes korrekt (f. eks. lande med moms). I dette tilfælde kan **momsområderne** være nyttige.
+4. Feltet **skatteområde** indeholder også en **landekode** og et **Navn på region**. Dette par er praktisk, når forbindelsen skal konvertere en kode til et navn, eller omvendt.
 
 > [!NOTE]  
 > Landekoderne er ISO 3166-1 Alfa-2-landekoder. Flere oplysninger om [Landekode](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).

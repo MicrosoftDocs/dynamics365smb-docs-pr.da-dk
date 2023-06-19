@@ -16,12 +16,12 @@ Denne artikel indeholder en oversigt over opsætning af de brugerkonti, der kræ
 
 ## Konfigurere administratorbrugerkontoen
 
-Du skal tilføje din administratorbrugerkonto for [!INCLUDE[prod_short](includes/prod_short.md)] som en bruger i [!INCLUDE[cds_long](includes/cds_long_md.md)]. Når du konfigurerer forbindelsen mellem [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)], skal vi bruge denne konto én gang for at installere og konfigurere nogle påkrævede komponenter.
+Hvis du vil oprette forbindelsen mellem [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)], skal du logge på [!INCLUDE[prod_short](includes/prod_short.md)] med en brugerkonto, der er tildelt til licensen [!INCLUDE[prod_short](includes/prod_short.md)] Essentiel eller [!INCLUDE[prod_short](includes/prod_short.md)] Premium. Vi bruger denne konto én gang til at installere og konfigurere nogle påkrævede komponenter.
 
 > [!IMPORTANT]
-> Administratorens brugerkonto skal have licensbruger med sikkerhedsrollen **Systemadministrator** i [!INCLUDE[prod_short](includes/cds_long_md.md)]-miljøet og den globale administrator på den lejer, som miljøet tilhører. Denne konto har ikke brug for en licens til [!INCLUDE[prod_short](includes/prod_short.md)], da den kun skal bruges til at klargøre servicen i [!INCLUDE[prod_short](includes/cds_long_md.md)]-lejeren og udføre opsætningsopgaver.
+> Under installationen bliver du bedt om at angive legitimationsoplysninger til [!INCLUDE[prod_short](includes/cds_long_md.md)]-miljøet. Angiv de oplysninger til en konto, der tilhører en licenseret bruger og er tildelt sikkerhedsrollen **Systemadministrator** i miljøet [!INCLUDE[prod_short](includes/cds_long_md.md)] og den globale administrator på den lejer, som miljøet tilhører. Denne konto har ikke brug for en licens til [!INCLUDE[prod_short](includes/prod_short.md)], da den kun skal bruges til klargøringsopgaver i [!INCLUDE[prod_short](includes/cds_long_md.md)]-miljøet.
 >
-> Når forbindelses konfiguration er fuldført, kan denne [!INCLUDE[prod_short](includes/cds_long_md.md)]-bruger fjernes. Integrationen fortsætter med at bruge den brugerkonto, der er automatisk oprettet specielt til integrationen.
+> Når forbindelseskonfiguration er fuldført, kan du fjerne denne [!INCLUDE[prod_short](includes/cds_long_md.md)]-bruger. Integrationen fortsætter med at bruge den brugerkonto, der er automatisk oprettet specielt til integrationen.
 
 ## Tilladelser og sikkerhedsroller for brugerkonti i [!INCLUDE[prod_short](includes/cds_long_md.md)]
 

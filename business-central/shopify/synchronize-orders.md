@@ -1,13 +1,13 @@
 ---
 title: Synkronisere og opfylde salgsordrer
 description: Konfigurere og køre import og behandling af salgsordre fra Shopify.
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Synkronisere og opfylde salgsordrer
@@ -32,7 +32,20 @@ Hvis du automatisk vil frigive et salgsdokument, skal du aktivere funktionen **F
 
 Salgsdokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)] linker til Shopify-ordren, og du kan tilføje et felt, der ikke allerede vises på siden. Hvis du vil vide mere om tilføjelse af et felt, skal du gå til [Du kan begynde at tilpasse en side via banneret **Tilpasning**](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). Hvis du aktiverer feltet **Shopify-ordrenr. på dokumentlinjen**, bliver disse oplysninger gentaget på salgslinjen af typen **Bemærkning**.
 
-I feltet **Momsområdekilde** kan du definere prioritering af, hvordan skatteområdekode eller momsvirksomhedsbogføringsgruppe på grundlag af adresse. Den importerede Shopify-ordre viser oplysninger om moms, men momsen bliver genberegnet, når du opretter salgsdokumentet, så det er vigtigt, at indstillingerne for moms/skat er korrekte i [!INCLUDE[prod_short](../includes/prod_short.md)]. Du kan finde flere oplysninger om moms i [Konfigurere moms for Shopify-forbindelsen](setup-taxes.md).
+I feltet **Momsområdeprioritet** kan du definere prioritering af, hvordan skatteområdekode på grundlag af adresse. Den importerede Shopify-ordre viser oplysninger om moms. Momsen genberegnes, når du opretter salgsdokumentet, så det er vigtigt, at moms-og skatte indstillingerne er korrekte i [!INCLUDE[prod_short](../includes/prod_short.md)]. Du kan finde flere oplysninger om moms i [Konfigurere moms for Shopify-forbindelsen](setup-taxes.md).
+
+Angiv, hvordan returvarer og refusioner skal behandles:
+
+* **Tom** angiver, at du ikke importerer og behandler returvarer og refusioner.
+* **Kun import** angiver, at du importerer oplysninger, men du skal oprette den tilsvarende kreditnota manuelt.
+* **Opret automatisk kreditnota** angiver, at du importerer oplysninger og [!INCLUDE[prod_short](../includes/prod_short.md)] opretter automatisk kreditnotaerne. Denne indstilling kræver, at du slår **Auto oprettelse af salgsordrer** til og fra.
+
+Angive en lokation til returneringer og finanskonti til refusion af varer og andre refusioner.
+
+* **Refusionskonto til ikke-genopfyldte varer** - Angiver et finanskontonr. for varer, hvor du ikke vil have en lagerrettelse.
+* **Refusionskonto** - Angiver et finanskontonr. for differencen i feltet Total refunderet beløb og det samlede beløb for varerne.
+
+Få mere at vide på [Returneringer og refusion](synchronize-orders.md#returns-and-refunds)
 
 ### Tilknytning af forsendelsesmetode
 
@@ -118,7 +131,7 @@ Hvis dine indstillinger forhindrer, at der oprettes en kunde automatisk, og der 
 
 Funktionen *Importer ordre fra Shopify* forsøger at vælge debitorer i følgende rækkefølge:
 
-1. Hvis **Standarddebitornr.** feltet er defineret i **Shopify Debitorskabelonen** for det tilsvarende land, så anvendes **Standarddebitornr.** uanset indstillingerne i felterne **Debitorimport fra Shopify** og **Debitortilknytningstype**. Flere oplysninger i [Debitorskabelon pr. land](synchronize-customers.md#customer-template-per-country).
+1. Hvis **Standarddebitornr.** feltet er defineret i **Debitorskabelonen for Shopify** for **Send-til Lande/områdekode** og derefter **Standarddebitornr.** uanset indstillingerne i felterne **Debitorimport fra Shopify** og **Debitortilknytningstype**. Flere oplysninger i [Debitorskabelon pr. land](synchronize-customers.md#customer-template-per-country).
 2. Hvis **Debitorimport fra Shopify** er indstillet til *Ingen* og **Standarddebitornr.** er defineret på siden **Shopify Butikskort** skal **Standarddebitornr.** .
 
 Næste trin afhænger af **Debitortilknytningstype**.
@@ -129,6 +142,27 @@ Næste trin afhænger af **Debitortilknytningstype**.
 
 > [!NOTE]  
 > Connectoren bruger oplysninger fra faktureringsadressen og opretter en faktureringskunden i [!INCLUDE[prod_short](../includes/prod_short.md)]. Kunden skal være den samme som den kunde, der faktureres.
+
+### Forskellige behandlingsregler for ordrer
+
+Det kan være en god idé at behandle ordrer forskelligt, afhængigt af en regel. F. eks. bør ordrer fra en bestemt salgskanal, som f. eks. POS, bruge standard debitoren, men du vil gerne have, at din onlinebutik skal have reelle oplysninger om kunden.
+
+En måde at løse dette krav på er at oprette et yderligere Shopify-produktions kort og bruge filtre i **Synkroniseringsrækkefølgen fra Shopify**-anmodningssiden.
+
+Eksempel: du har onlinebutikker samt en Shopify POS. Til din POS, skal du bruge en fast kunde, men til din onlinebutik, som du vil oprette debitorer i [!INCLUDE[prod_short](../includes/prod_short.md)]. Følgende fremgangsmåde viser de overordnede trin. Hvis du vil vide mere, skal du gå til de tilsvarende artikler i hjælp.
+
+1. Opret et firma med navnet Shopify *STORE*, og Opret en kæde til din Shopify-konto.
+2. Konfigurer synkronisering af varer/produkter, så denne butik administrerer produktoplysninger.
+3. Angiv, at debitorer indlæses med ordrer. Connectoren bør finde kunder ved at lede efter deres e-mail-adresse. Hvis der ikke findes en adresse, bruges kundeskabelonen til at oprette en ny debitor.
+4. Opret et Shopify-butik kaldet *POS*, og opret en kæde til din Shopify-konto.
+6. Sørg for, at elementet/produktsynkroniseringen er deaktiveret.
+7. Vælg den Connector, der bruger standarddebitoren.
+8. Opret en tilbagevendende opgavekøpost for Rapport 30104 **Synkronisere ordrer fra Shopify**. Vælg **STORE** i feltet **Shopify-butikskode**, og brug filtre til at fastholde alle ordrer med undtagelse af dem, som POS-salgskanalen opretter. F.eks. **<>Point of Sale**
+9. Opret en tilbagevendende opgavekøpost for Rapport 30104 **Synkronisere ordrer fra Shopify**. Marker **POS** i feltet **Shopify-butikskode**, og brug filtre til at hente ordrer, der er oprettet af salgskanalen POS. F.eks. **<>Point of Sale**.
+
+Hver opgavekø importerer og behandler ordrer inden for de angivne filtre og bruger reglerne fra det tilsvarende Shopify-butikskort. Der oprettes f.eks. POS-ordrer for standarddebitoren.
+
+>![Vigtigt] Hvis du vil undgå konflikter, når der behandles ordrer, skal du huske at bruge den samme jobkø kategori for opgavekøer.
 
 ### Indflydelse på redigeringen af ordrer
 
@@ -184,6 +218,27 @@ Sporingsvirksomheden udfyldes på grundlag af speditørposten med følgende prio
 * **Kode**
 
 Hvis feltet **Pakkesporings-URL** er udfyldt for speditørposten, vil levering også indeholde en URL-adresse til sporing.
+
+## Returneringer og refusioner
+
+I en integration mellem Shopify og [!INCLUDE[prod_short](../includes/prod_short.md)] er det vigtigt, at du kan synkronisere så mange virksomhedsdata som muligt. Det gør det nemmere at holde finans-og lagerniveauer opdaterede i [!INCLUDE[prod_short](../includes/prod_short.md)]. De data, som du kan synkronisere, indeholder returvarer og refusioner, der er registreret i Shopify Administration eller Shopify POS.
+
+Returvarer og refusioner importeres med tilhørende ordrer, hvis du har aktiveret behandlingstypen på Shopify-butikskortet.
+
+Returvarer importeres til oplysningsformål alene. Der er ingen tilknyttet behandlingslogik.
+
+Økonomisk og om nødvendigt lagertransaktioner behandles via refusion. Refusion kan omfatte produkter eller blot beløb, f.eks. hvis en handlende har besluttet at kompensere leveringsgebyrer eller et andet beløb.
+Du kan oprette salgskreditnotaer til refusioner. Kreditnotaerne kan have følgende linjetyper:
+
+|Enhedstype|Nej|Kommentar|
+|-|-|-|
+|Finanskonto|Konto til solgte gavekort| Bruges til refusioner i forbindelse med gavekort.|
+|Finanskonto|Refusionskonto til ikke-genopfyldte varer | Bruges til at udføre refusioner i forbindelse med produkter, som ikke er blevet lagerførte. |
+|Artikel |Varenr.| Bruges til at udføre refusioner i forbindelse med produkter, som ikke er blevet lagerførte. Gælder for direkte refusioner eller refusioner, der er knyttet til refusioner. Den lokationskode, der er på kreditlinjen, angives på grundlag af den værdi, der er valgt for returlokationen.|
+|Finanskonto| Refusionskonto | Bruges til andre refusionsbeløb, der ikke er relateret til produkter eller gavekort. F.eks. tips, eller hvis du manuelt har angivet et beløb til refusion i Shopify. |
+
+>[!Note]
+>Returlokationen, herunder tomme lokationer, der er defineret i **Shopify-butikskortet** bruges på den oprettede kreditnota. De oprindelige lokationer ignoreres fra ordrer eller leverancer.
 
 ## Gavekort
 

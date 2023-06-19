@@ -39,7 +39,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 ## Se også  
 [Administrere tilgodehavender](receivables-manage-receivables.md)   
 [Sager](projects-how-create-jobs.md)   
-[Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)
+[Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
