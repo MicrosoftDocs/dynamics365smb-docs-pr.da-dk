@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="service-management" />Servicestyring
+# Servicestyring
 > [!NOTE]
 > Funktioner, der beskrives i dette emne og underordnede emner, er kun synlige i brugergrænsefladen, hvis du har oplevelsen **Premium**. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
 
@@ -36,12 +36,12 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Oprette og administrere aftaler mellem dig og dine kunder.|[Opfylde servicekontrakter](service-fulfill-service-contracts.md)|  
 |Levere service til kunder og fakturere serviceordrer.|[Levering af service](service-deliver-service.md)|  
 
-## <a name="see-also" />Se også
+## Se også  
 [Administrere tilgodehavender](receivables-manage-receivables.md)   
 [Sager](projects-how-create-jobs.md)   
 [Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
