@@ -10,7 +10,7 @@ ms.search.keywords: 'SMTP, mail, Microsoft 365'
 ms.date: 04/21/2022
 ms.author: jswymer
 ---
-# Brug Business Central som din virksomheds Indbakke i Outlook
+# <a name="use-business-central-as-your-business-inbox-in-outlook" />Brug Business Central som din virksomheds Indbakke i Outlook
 
 [!INCLUDE[prod_short](includes/prod_short.md)] giver mulighed for en tilføjelse, der sætter dig i stand til at administrere forretningsinteraktioner med dine kunder og leverandører direkte i Microsoft Outlook. Med Outlook-tilføjelsesprogrammerne i [!INCLUDE[prod_short](includes/prod_short.md)] kan du se finansielle data, der er relateret til debitorer og kreditorer samt oprette og sende finansielle dokumenter, f.eks tilbud og fakturaer.
 
@@ -24,7 +24,7 @@ ms.author: jswymer
 
    Når et forretningsdokument sendes i en e-mail, indeholder tilføjelsesprogrammet et direkte link fra e-mailen til det aktuelle forretningsdokument i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Kom i gang
+## <a name="get-started" />Kom i gang
 
 1. Det første, du skal gøre, er at få [!INCLUDE[prod_short](includes/prod_short.md)]-tilføjelsesprogrammet installeret i Outlook. Administratoren har muligvis allerede installeret tilføjelsesprogrammet. Hvis du ikke er sikker, skal du kontakte administratoren eller se næste trin for at kontrollere, om det er installeret.
 
@@ -45,7 +45,7 @@ Første gang du bruger tilføjelsesprogrammet [!INCLUDE[prod_short](includes/pro
 
 Du kan finde flere oplysninger i [B ruge tilføjelsesprogrammer i Outlook online](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-## Arbejde med kontaktpersoner og dokumenter ved hjælp af tilføjelsesprogrammet Kontaktoplysninger
+## <a name="work-with-contacts-and-documents-using-the-contact-insights-add-in" />Arbejde med kontaktpersoner og dokumenter ved hjælp af tilføjelsesprogrammet Kontaktoplysninger
 
 Antag, at du får en e-mail fra en kunde, som ønsker et tilbud på nogle varer. I Outlook kan du åbne [!INCLUDE[prod_short](includes/prod_short.md)]-tilføjelsesprogrammet direkte. Programmet genkender afsenderen som debitor og åbner debitorkortet for virksomheden. Fra dette dashboard kan du få vist oversigtsoplysninger om kunden samt gå i dybden for at få yderligere oplysninger om bestemte dokumenter. Du kan også se nærmere på salgsoversigten for debitoren. Hvis det er en ny kontakt, kan du oprette vedkommende som en ny kunde i [!INCLUDE[prod_short](includes/prod_short.md)] uden at forlade Outlook.  
 
@@ -58,7 +58,7 @@ I nogle tilfælde kan det være praktisk at kunne se flere felter, end du kan i 
 > [!TIP]
 > Opgaverne forklarer, hvordan du bruger tilføjelsesprogrammet fra en e-mail-meddelelse. Men du kan gøre det samme fra en kalenderaftale i Outlook.
 
-### Slå en forretningskontaktperson op ved oprettelse af en e-mail
+### <a name="look-up-a-business-contact-when-composing-an-email" />Slå en forretningskontaktperson op ved oprettelse af en e-mail
 
 1. Opret en ny e-mail.
 2. På båndet skal du gå til **[!INCLUDE[prod_short](includes/prod_short.md)]** og vælge **Kontaktoplysninger**. Hvis du bruger Outlook på World Wide Web, skal du i Outlook nederst på e-mailen og vælge ![ikonet for Business Central-tilføjelse i Outlook.](media/outlook-business-central-icon.png) > **Kontaktoplysninger**.
@@ -66,7 +66,7 @@ I nogle tilfælde kan det være praktisk at kunne se flere felter, end du kan i 
 
     Der vises en oversigt over kontakten i ruden, og kontaktpersonen tilføjes på linjen **Til** i e-mailen.
 
-### Få vist og Rediger kontaktoplysninger eller Skift regnskab
+### <a name="view-and-change-the-contact-details-or-switch-company" />Få vist og Rediger kontaktoplysninger eller Skift regnskab
 
 Handlingslinjen øverst i [!INCLUDE[prod_short](includes/prod_short.md)]-tilføjelsesprogrammet indeholder flere handlinger, der gør din grave længere tid i detaljer om kontakten og ændringer.
 
@@ -74,7 +74,7 @@ Handlingslinjen øverst i [!INCLUDE[prod_short](includes/prod_short.md)]-tilføj
 
 Du kan f. eks. åbne alle kontaktoplysninger, som du får vist dem i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du arbejder med mere end ét [!INCLUDE[prod_short](includes/prod_short.md)]-regnskab, kan du nemt skifte mellem firmaer.
 
-### Registrér indgående dokumenter
+### <a name="track-incoming-documents" />Registrér indgående dokumenter
 
 Du skal måske bruge listen over **Indgående bilag** i [!INCLUDE[prod_short](includes/prod_short.md)] til at spore dokumenter til behandling, som kreditorerne sender til dig, f. eks. en købsfaktura, der skal betales. Hvis du gør det, kan du nemt oprette indkommende dokumenter fra Outlook-tilføjelsesprogrammet og medtage vedhæftede filer i e-mail.
 
@@ -82,13 +82,13 @@ Du skal måske bruge listen over **Indgående bilag** i [!INCLUDE[prod_short](in
 
 2. På handlingslinjen i tilføjelsesprogrammet skal du vælge **Vis flere handlinger** og derefter vælge **Send til indgående dokumenter...** .  
 
-### Oprette og sende et nyt dokument til en kontaktperson
+### <a name="create-and-send-new-document-to-a-contact" />Oprette og sende et nyt dokument til en kontaktperson
 
 1. Vælg på båndet eller nederst i e-mailen ![ikonet Business central-tilføjelsesprogram i Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]** > **Ny**, og vælg derefter den dokumenttype, du vil oprette, f.eks. **Salgstilbud**.
 2. Foretag ændringer af dokumentet i ruden med **[!INCLUDE[prod_short](includes/prod_short.md)]**-tilføjelsesprogrammet.
 3. Når dokumentet er klar til at blive sendt til kontakten, skal du på handlingslinjen vælge **Vis flere handlinger** og derefter vælge handlingen **Send via e-mail**.
 
-### Vedhæfte filer til poster
+### <a name="attach-files-to-records" />Vedhæfte filer til poster
 
 Din e-mail-indbakke fungerer ofte som en kilde til indgående filer, der initierer eller fjerner blokering af arbejdsgange. Filer kan omfatte ting som f. eks. PDF-betalinger, fotografier af varer eller krav i et Word-dokument. Når du arbejder i Outlook med Business Central-poster som f. eks. leverandører, debitorer, købsfakturaer eller salgsordrer, kan du vedhæfte filerne til posterne.
 
@@ -98,7 +98,7 @@ Du kan vedhæfte filer på flere måder. Den ene måde er at overføre filer fra
 
 Når du har vedhæftet en fil, kan medarbejderne straks hente og få vist filen fra faktaboksen **Vedhæftede filer** i en hvilken som helst af deres Business Central-klienter. De kan også åbne filen i OneDrive for at dele og samarbejde med deres afdeling.
 
-#### Sådan vedhæftes en fil
+#### <a name="how-to-attach-a-file" />Sådan vedhæftes en fil
 
 1. Åbn e-mailen, Vælg ![ikonet for tilføjelsesprogrammet Business Central i Outlook.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Kontaktoplysninger**.
 2. Vælg **Vis flere handlinger** > **Vedhæftede filer** på handlingslinjen i tilføjelsesprogrammet.
@@ -112,7 +112,7 @@ Når du har vedhæftet en fil, kan medarbejderne straks hente og få vist filen 
 > [!NOTE]
 > Du kan ikke vedhæfte filer til alle poster. Funktionen er tilgængelig for poster, hvor der bruges faktaboksen **Vedhæftede filer**, f. eks. kreditor, debitor, købsfaktura eller salgsordre.
 
-## Vise et dokument fra en e-mail ved hjælp af tilføjelsesprogrammet dokumentvisning
+## <a name="view-a-document-from-an-email-using-the-document-view-add-in" />Vise et dokument fra en e-mail ved hjælp af tilføjelsesprogrammet dokumentvisning
 
 Uanset om det er en mail, du har sendt eller modtaget, kan du overflade alle [!INCLUDE[prod_short](includes/prod_short.md)]-dokumenter, f. eks. salgstilbuddet, direkte i Outlook. Derfra kan du foretage ændringer og navigere til relaterede oplysninger på samme måde som i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -122,9 +122,9 @@ Hvis du bruger Outlook-appen, skal du blot vælge **Dokumentlink** øverst i e-m
 > Starter i 2022 udgivelsesbølge 1 ved at åbne et nyt browservindue i et nyt browservindue med alle de egenskaber, du kender fra [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan navigere fra et dokument til en liste og tilbage igen, åbne lister i Excel, sende dokumenter til udskrivning og køre eller få vist relaterede rapporter. Du har også alle de velkendte tastaturgenveje, når du åbner dokumenter fra Outlook.  
 
 
-## Se relateret [Microsoft-træning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Se relateret [Microsoft-træning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Blive køreklar](ui-get-ready-business.md)  
 [Få Business Central på min mobilenhed](install-mobile-app.md)  

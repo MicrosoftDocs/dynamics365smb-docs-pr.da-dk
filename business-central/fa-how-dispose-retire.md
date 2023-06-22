@@ -11,7 +11,7 @@ ms.search.form: '5628, 5610, 5611, 5629, 5633'
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Afhænde eller lade anlægsaktiver udgå
+# <a name="dispose-of-or-retire-fixed-assets" />Afhænde eller lade anlægsaktiver udgå
 
 Når du sælger eller på anden måde afhænder et anlægsaktiv, skal salgsværdien bogføres for at beregne og registrere tab eller vinding. En salgspost skal være den sidste post, der bogføres for et anlæg. I forbindelse med delvist solgte anlægsaktiver, kan du bogføre mere end én salgspost. Det samlede antal bogførte salgsbeløb skal være et kreditbeløb.  
 
@@ -20,7 +20,7 @@ Når du sælger eller på anden måde afhænder et anlægsaktiv, skal salgsværd
 
 I følgende trin antages det, at du allerede har oprettet de relevante bogføringsgrupper på siden **Anlægsbogføringsgrupper**. Du kan finde flere oplysninger i [Sådan oprettes anlægsbogføringsgrupper](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 
-## Sådan bogføres et salg fra anlægskassekladden
+## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal" />Sådan bogføres et salg fra anlægskassekladden
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægskasseklader**, og vælg derefter det relaterede link.  
 2. Opret en første kladdelinje, og udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -33,7 +33,7 @@ I følgende trin antages det, at du allerede har oprettet de relevante bogførin
 
 Hvis du sælger eller afhænder en del af et anlæg, skal du opdele anlægget, inden du kan registrere salgstransaktionen. Du kan finde flere oplysninger i [Overføre, opdele eller kombinere anlægsaktiver](fa-how-trans-split-combine.md).  
 
-## Sådan får du vist salgsposter
+## <a name="to-view-disposal-ledger-entries" />Sådan får du vist salgsposter
 
 Når du sælger eller på anden måde afhænder et anlægsaktiv, skal salgsværdien bogføres i finansregnskabet, når du kan se resultatet.  
 
@@ -45,9 +45,9 @@ Når du sælger eller på anden måde afhænder et anlægsaktiv, skal salgsværd
 
 Siden **Finansposter** åbnes, og du kan se de poster, som bogføringen af salget har resulteret i.  
 
-## Se relateret [Microsoft-træning](/training/modules/dispose-fixed-assets/)
+## <a name="see-related-microsoft-trainingtrainingmodulesdispose-fixed-assets" />Se relateret [Microsoft-træning](/training/modules/dispose-fixed-assets/)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Anlægsaktiver](fa-manage.md)  
 [Opsætning af Anlægsaktiver](fa-setup.md)  

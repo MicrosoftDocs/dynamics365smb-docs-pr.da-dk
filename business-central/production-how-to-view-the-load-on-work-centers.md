@@ -10,18 +10,18 @@ ms.search.form: '99000887, 99000888, 99000889, 99000890, 99000891, 99000892, 990
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Vise belastningen på arbejdscentre og produktionsressourcer
+# <a name="view-load-on-work-and-machine-centers" />Vise belastningen på arbejdscentre og produktionsressourcer
 
 På siderne **Arbejdscenterkort** og **Prod.ress.kort** kan du få vist arbejdspladsbelastningen som følge af planlagte og frigivne produktionsordrer.  
 
-## Sådan vises belastningen af arbejdscentre
+## <a name="to-view-the-load-on-work-centers" />Sådan vises belastningen af arbejdscentre
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **arbejdscentre**, og vælg derefter det relaterede link.  
 2. Åbn det relevante **arbejdscenterkort** på listen, og vælg derefter handlingen **Belastning**.  
 
 Brug felterne **Vis efter** og **Vis som** i oversigtspanelet **Indstillinger** til at vælge den ønskede periode.  
 
-## Se også  
+## <a name="see-also" />Se også
 [Produktion](production-manage-manufacturing.md)
 [Konfigurere produktion](production-configure-production-processes.md)  
 [Skabelon](production-planning.md)  

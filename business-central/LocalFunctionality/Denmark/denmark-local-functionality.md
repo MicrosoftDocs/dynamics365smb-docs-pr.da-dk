@@ -10,11 +10,11 @@ ms.search.keywords: 'Denmark, local, DK, Danish'
 ms.date: 06/18/2021
 ms.author: soalex
 ---
-# Lokal funktionalitet for Danmark
+# <a name="denmark-local-functionality" />Lokal funktionalitet for Danmark
 
 Følgende emne beskriver den lokale funktionalitet i den danske version af [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Funktionen Tilgængelighed
+## <a name="feature-availability" />Funktionen Tilgængelighed
 
 * Moms
     * [Udskrive rapporter til afstemning af moms](how-to-print-vat-reconciliation-reports.md) **Tilgængelig nu**
@@ -35,7 +35,7 @@ Følgende emne beskriver den lokale funktionalitet i den danske version af [!INC
 * Lønning
     * [Definitioner af løndata (DK)](ui-extensions-payroll-data-definitions-dk.md) **Tilgængelig nu**
 
-## Fremtidige lovgivningskrav, der undersøges
+## <a name="future-legislation-requirements-being-investigated" />Fremtidige lovgivningskrav, der undersøges
 
 * SAF-T Revisionsrapportering - planlagt til **2023 udgivelsesbølge 2**
 * Standard-kontoplan - planlagt til **2023 udgivelsesbølge 2**
@@ -50,12 +50,12 @@ Følgende emne beskriver den lokale funktionalitet i den danske version af [!INC
     > [!Note]  
     > Der er en ny dansk bogføringslovgivning, der gennemtvinger brugen af elektroniske bogføringssystemer pr. juli 2022. Men selvom loven godkendes, frigives oplysninger om, hvordan virksomheden implementeres af virksomheder og ERP-systemer af Erhvervsstyrelsen i faser. Microsoft vil følge retningslinjer for at sikre, at vores **Microsoft Dynamics 365 Business Central** og **Microsoft Dynamics 365 Finance**-løsninger er certificeret inden for parametrene, som der er fastsat deadlines for. Alle opdateringer til Dynamics 365 vil være tilgængelige via standardprocesser til produktudgivelse. Der vil være flere oplysninger tilgængelige i denne artikel.
 
-## Se også
+## <a name="see-also" />Se også
 
 [Arbejd med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Tilgængelighed i land/område og understøttede sprog](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

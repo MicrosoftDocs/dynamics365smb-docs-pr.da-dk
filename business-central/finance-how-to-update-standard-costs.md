@@ -10,7 +10,7 @@ ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Opdatere standardkostpriser
+# <a name="update-standard-costs" />Opdatere standardkostpriser
 Du skal regelmæssigt opdatere standardkostprisen for komponenter og akkumulere de nye omkostninger til den overordnede vare. Processen består normalt af følgende fire trin:  
 
 1.  Opdatere omkostninger på komponent- og kapacitetsniveau. Du kan finde flere oplysninger i kørslen **Foreslå kostpris (standard)**.  
@@ -20,7 +20,7 @@ Du skal regelmæssigt opdatere standardkostprisen for komponenter og akkumulere 
 
 Du kan finde flere oplysninger i [Om beregning af standardkostpris](finance-about-calculating-standard-cost.md).
   
-## Sådan opdateres standardkostpriser
+## <a name="to-update-standard-costs" />Sådan opdateres standardkostpriser
 
 1.  Udfør kørslen **Juster kostpris - vareposter**.  
 2.  Udfør kørslen **Bogfør lagerregulering**.  
@@ -35,7 +35,7 @@ Du kan finde flere oplysninger i [Om beregning af standardkostpris](finance-abou
     7.  Udfør kørslen **Implementer std.kostprisændringer**.  
 4.  Gennemse og bogfør siden **Værdireguleringskladde** , som er blevet udfyldt med posterne fra det forrige trin i processen.  
 
-## Se også
+## <a name="see-also" />Se også
 
  [Om beregning af standardomkostning](finance-about-calculating-standard-cost.md)   
  [Administrere lageromkostninger](finance-manage-inventory-costs.md)   

@@ -8,14 +8,14 @@ ms.search.form: 'Report_107, Report_111, Report_112, Report_113, Report_119, Rep
 ms.date: 06/01/2021
 ms.author: andreipa
 ---
-# Salgsrapporter og analyser i Business Central
+# <a name="sales-reports-and-analytics-in-business-central" />Salgsrapporter og analyser i Business Central
 
 Salgsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gør det muligt for salgs- og erhvervs medarbejdere at få indsigt i og statistikker om aktuelle og tidligere salgsaktiviteter.  
 
-## Rapporter
+## <a name="reports" />Rapporter
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## Opgaver
+## <a name="tasks" />Opgaver
 
 I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med analyse af virksomhedens tilstand:
 
@@ -23,7 +23,7 @@ I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med a
 * [Vise varedisponering](inventory-how-availability-overview.md)
 
 
-## Se også
+## <a name="see-also" />Se også
 
 [Konfigurere salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  

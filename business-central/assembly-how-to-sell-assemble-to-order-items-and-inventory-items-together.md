@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# Sælge montage til ordre-varer og lagervarer sammen
+# <a name="sell-assemble-to-order-items-and-inventory-items-together" />Sælge montage til ordre-varer og lagervarer sammen
 
 Hvis feltet **Montagepolitik** på varekortet til et montageelement indeholder **Montage til lager**, standardsalgsordreprocessen forudsætte, at elementet allerede er monteret og kan plukkes fra lageret, hvis det er tilgængeligt. Derfor er ingen montageordre automatisk oprettet og tilknyttet salgsordrelinjen. Men hvis en del af montage til lager ikke er tilgængeligt, har du mulighed for at oprette en montageordre for det resterende antal. Indtast den samlede mængde i feltet **Antal til montage til ordre** på rammemontageordrelinjen. Med denne indstilling kan du montere varen efter ordre, selvom den som standard er indstillet til montage til lager.  
 
@@ -22,7 +22,7 @@ Du har lignende fleksibilitet, når du sælger montage efter ordre-varer, og nog
 > [!NOTE]  
 > Følgende procedure omfatter ikke de salgsordretrin, du skal følge, før du opretter en montageordre for mængder, der ikke er tilgængelige.
 
-## Sådan sælger du montage efter ordre-varer og lagervarer sammen
+## <a name="to-sell-assemble-to-order-items-and-inventory-items-together" />Sådan sælger du montage efter ordre-varer og lagervarer sammen
 
 1. På en salgsordrelinje for en vare, der er konfigureret til samling til lageret, skal du angive det antal i feltet **Antal**, der overskrider lageret. Siden **Kontroller tilgængelighed** vises. Hvis du vil vide mere om varedisponering, kan du gå til [Vis varedisponering](inventory-how-availability-overview.md).
 2. I feltet **Antal til montage efter ordre** skal du indtaste værdien fra feltet **I alt**.  
@@ -32,7 +32,7 @@ Du har lignende fleksibilitet, når du sælger montage efter ordre-varer, og nog
 > [!CAUTION]  
 > Feltet **Placeringskode** på salgsordren kan være udfyldt på forhånd i henhold til feltet **Pla.kode til ordremontagelev.** eller feltet **Placeringskode til fra-montage** på lokationskortet. I så fald kan feltet **Placeringskode** på salgsordrelinjen være forkert i denne kombination af mængder til montage efter ordre og montage til lager. Det er en god idé at undersøge feltet **Placeringskode** og kontrollere, at placeringen fungerer for alle mængder. Du kan også angive de to forskellige mængder på separate salgsordrelinjer.  
 
-## Se også
+## <a name="see-also" />Se også
 
 [Montagestyring](assembly-assemble-items.md)  
 [Arbejde med montagestyklister](assembly-how-work-assembly-boms.md)  

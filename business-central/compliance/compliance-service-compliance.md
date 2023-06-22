@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# Tjenesteoverholdelse
+# <a name="service-compliance" />Tjenesteoverholdelse
 
 Dette indhold indeholder oplysninger om tjenesteoverholdelse i relation til [!INCLUDE[prod_short](../includes/prod_short.md)] online.  
 
@@ -21,17 +21,17 @@ Du skal finde en detaljeret oversigt over [tilbud med cloud-overholdelse til Bus
 
 Hvis du er interesseret i den komplette liste over tilbud med overholdelse fra Microsoft, skal du se [Microsofts sikkerhedscenter](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## Servicebetingelser
+## <a name="service-terms" />Servicebetingelser
 
 [!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## Se også
+## <a name="see-also" />Se også
 
 [Overholdelse](compliance-overview.md)  
 [Programoverholdelse](compliance-application-compliance.md)  
 [Certificeringer](compliance-certifications.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

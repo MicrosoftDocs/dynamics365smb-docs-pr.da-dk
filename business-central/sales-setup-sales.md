@@ -11,7 +11,7 @@ ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Konfigurere salg
+# <a name="setting-up-sales" />Konfigurere salg
 Før du kan administrere salgsprocesser, skal du konfigurere de regler og værdier, der definerer virksomhedens salgspolitikker.
 
 Du skal definere den generelle opsætning på **Salgsopsætning**, f.eks. hvilke salgsdokumenter der kræves, hvordan deres værdi angives og den type af linjer, der skal oprettes som standard. Denne generelle opsætning udføres typisk én gang i forbindelse med den indledende implementering.
@@ -33,9 +33,9 @@ Den finansrelaterede salgsopsætning, som betalingsmetoder og valutaer, dækkes 
 |Angive oplysninger om de forskellige transportleverandører, virksomheden bruger, herunder et link til deres pakkesporingsservice.|[Oprette speditører](sales-how-to-set-up-shipping-agents.md)|
 |Angiv standardrapporter, der skal bruges til forskellige dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## Se relateret [Microsoft-træning](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also" />Se også
 [Salg](sales-manage-sales.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -7,18 +7,18 @@ ms.topic: article
 ms.date: 07/04/2022
 ms.author: a-reishima
 ---
-# Konfigurere kreditorbankkonti
+# <a name="set-up-vendor-bank-accounts" />Konfigurere kreditorbankkonti
 
 På samme måde som du kan bruge bankkontooplysninger på [!INCLUDE [prod_short](includes/prod_short.md)] til at holde styr på virksomhedens banktransaktioner, kan du også angive bankoplysninger for kreditorer. Kreditorbankkonto data kan forenkle betalinger til leverandører, når de kombineres med [AMC Banking 365 Fundamentals-filtypenavn](ui-extensions-amc-banking.md) eller [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)-funktion, f. eks.
 
-## Tilføje eller redigere en kreditorbankkonto
+## <a name="add-or-edit-a-vendor-bank-account" />Tilføje eller redigere en kreditorbankkonto
 
 [!INCLUDE [purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 > [!TIP]
 > Du kan angive flere kreditorbankkonti på siden **Kreditorbankkontoliste**.
 
-## Konfigurere en foretrukken kreditorbankkonto
+## <a name="set-up-a-preferred-vendor-bank-account" />Konfigurere en foretrukken kreditorbankkonto
 
 Hvis en kreditor har en eller flere bankkonti, og du vil angive en foretrukken indstilling for Udbetalingskladdelinjer, skal du benytte følgende fremgangsmåde:
 
@@ -26,9 +26,9 @@ Hvis en kreditor har en eller flere bankkonti, og du vil angive en foretrukken i
 2. Åbn kortet for kreditoren.
 3. Vælg standard kreditorbankkontoen i feltet **Foretrukken bankkontokode** i oversigtspanelet **Betaling**.
 
-## Se relateret [Microsoft-træning](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/cash-management-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
 [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)  

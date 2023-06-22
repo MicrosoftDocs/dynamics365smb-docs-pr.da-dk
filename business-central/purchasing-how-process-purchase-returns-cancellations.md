@@ -11,7 +11,7 @@ ms.search.form: '6640, 6643, 9307, 9309, 9308, 6652, 145, 147'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Behandle købsreturvarer eller annulleringer
+# <a name="process-purchase-returns-or-cancellations" />Behandle købsreturvarer eller annulleringer
 
 Hvis du skal returnere varer til din kreditor eller annullere serviceydelser, som du har købt, kan du oprette og bogføre en købskreditnota, der angiver den ønskede ændring for den oprindelige købsfaktura. Du kan oprette købskreditnotaen direkte fra den bogførte salgsfaktura for at medtage de korrekte købsfakturaoplysninger, eller du kan oprette en ny købskreditnota med kopierede fakturaoplysninger.
 
@@ -28,7 +28,7 @@ Ud over den oprindelige bogførte købsfaktura kan du anvende købskreditnotaen 
 
 Bogføringen af kreditnotaen gendanner også de varegebyrer, der er tildelt det bogførte dokument, så varens værdiposter er de samme, som før varegebyret blev tildelt.
 
-## Lagerkostmetode
+## <a name="inventory-costing" />Lagerkostmetode
 Hvis du vil bevare korrekt lagerværdi, skal du typisk plukke returvarer fra lagerbeholdningen med den kostpris, som de blev købt til, og ikke til deres aktuelle kostpris. Dette omtales som præcis kostprisudligning.
 
 Der findes to funktioner til at tildele præcis kostprisudligning automatisk.  
@@ -42,7 +42,7 @@ Hvis du vil tildele præcis kostprisudligning manuelt, skal du vælge feltet **U
 
 Du kan finde flere oplysninger i [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md).
 
-## Sådan oprettes en købskreditnota fra en bogført købsfaktura
+## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice" />Sådan oprettes en købskreditnota fra en bogført købsfaktura
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte købsfakturaer**, og vælg derefter det relaterede link.  
 2. På siden **Bogf. købsfakturaer** skal du vælge den bogførte købsfaktura, der skal tilbageføres, og derefter vælge handlingen **Opret rettelseskreditnota**.
@@ -63,7 +63,7 @@ De bogførte købsfakturaer, som du udligner kreditnotaen med, tilbageføres nu.
 
 Købskreditnotaen fjernes og erstattes med et nyt bilag i oversigten over bogførte købskreditnotaer.
 
-## Sådan oprettes en købskreditnota ved at kopiere en bogført købsfaktura
+## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice" />Sådan oprettes en købskreditnota ved at kopiere en bogført købsfaktura
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købskreditnotaer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny** for at åbne en ny tom købskreditnota.
@@ -75,7 +75,7 @@ Købskreditnotaen fjernes og erstattes med et nyt bilag i oversigten over bogfø
 8. Vælg knappen **OK**. De kopierede fakturalinjer skal indsættes i købskreditnotaen.
 9. Udfyld købskreditnotaen, som beskrevet i [Sådan oprettes en købskreditnota fra en bogført købsfaktura](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
-## Sådan oprettes en købsreturvareordre baseret på et eller flere bogførte købsdokumenter.
+## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents" />Sådan oprettes en købsreturvareordre baseret på et eller flere bogførte købsdokumenter.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsreturvareordrer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -125,7 +125,7 @@ Købskreditnotaen fjernes og erstattes med et nyt bilag i oversigten over bogfø
 10. På siden **Købsreturvareordre** i feltet **Returårsagskode** skal du på hver linje vælge årsagen til returneringen.
 11. Vælg handlingen **Bogfør**.
 
-## Sådan oprettes en erstatningskøbsodre fra en købsreturvareordre
+## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order" />Sådan oprettes en erstatningskøbsodre fra en købsreturvareordre
 
 Der kan være tilfælde, hvor du er blevet enig med en leverandør om, at denne skal kompensere for en købsvare ved at udskifte varen. Udskiftningsvaren kan være samme slags vare eller en anden vare. Sidstnævnte situation kan f.eks. være tilfældet, hvis du har fået leveret en forkert vare.  
 
@@ -134,7 +134,7 @@ Der kan være tilfælde, hvor du er blevet enig med en leverandør om, at denne 
 3. På siden **Flyt negative købslinjer** skal du udfylde felterne efter behov.
 4. Vælg knappen **OK**. Den negative linje slettes fra købsreturvareordren, og der oprettes en ny købsordre. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).  
 
-## Sådan oprettes et købsnedslag
+## <a name="to-create-a-purchase-allowance" />Sådan oprettes et købsnedslag
 
 Hvis du har modtaget varer, som f.eks. er lettere beskadigede, eller det ikke er de helt rigtige varer, tilbyder leverandøren muligvis en dekort eller et nedslag i prisen.  
 
@@ -153,7 +153,7 @@ Du kan bogføre den nedsatte købspris som et varegebyr på en kreditnota eller 
 
 Når du bogfører købsreturvareordren, føjes købsnedslaget til den relevante købspost. Det gør det muligt at opretholde en præcis lagerværdi.  
 
-## Sådan samles returvareleverancer
+## <a name="to-combine-return-shipments" />Sådan samles returvareleverancer
 
 Hvis du ønsker at returnere varer, der er dækket af forskellige købsreturvareorder, for den samme kreditor, skal du bruge funktionen **Saml returvareleverancer**.  
 
@@ -175,15 +175,15 @@ Når returleverancer er samlet på en faktura og bogført, oprettes der en bogf�
     Hvis du har valgt en forkert leverancelinje, eller hvis du vil begynde forfra, kan du bare slette linjerne på købskreditnotaen og så bruge funktionen **Hent returvareleverancelinjer** igen.  
 6. Vælg handlingen **Bogfør**.  
 
-### Fjerne åbne købsreturvareordrer efter bogføring af kombineret returvareleverance  
+### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting" />Fjerne åbne købsreturvareordrer efter bogføring af kombineret returvareleverance
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Slet fakturerede købsreturvareordrer**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov, og vælg derefter knappen **OK**.  
 3. Du kan også slette de individuelle købsreturvareordrer manuelt.
 
-## Se relateret [Microsoft-træning](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/return-items-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also" />Se også
 [Køb](purchasing-manage-purchasing.md)  
 [Registrere køb](purchasing-how-record-purchases.md)  
 [Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

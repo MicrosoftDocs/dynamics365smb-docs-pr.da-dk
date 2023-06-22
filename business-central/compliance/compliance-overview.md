@@ -9,7 +9,7 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# Oversigt over overholdelse
+# <a name="compliance-overview" />Oversigt over overholdelse
 
 Dette indhold indeholder oplysninger om overholdelse i relation til [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
@@ -24,7 +24,7 @@ I dette afsnit kan du læse mere om vores tilgang til overholdelse set ud fra ap
 |Få vist oplysninger om forskellige certificeringer i relation til Business Central. Her finder du oplysninger om generelle certificeringer og landespecifikke certificeringer.|[Certificeringer](compliance-certifications.md)|  
 |Lære om vilkårene for serviceniveauaftalen og andre vilkår for service|[Servicebetingelser](compliance-service-compliance.md#service-terms)|  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

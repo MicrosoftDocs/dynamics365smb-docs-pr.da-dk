@@ -10,11 +10,11 @@ ms.search.form: '5832, 99000802, 99000820'
 ms.date: 03/08/2023
 ms.author: edupont
 ---
-# Bogføre kapaciteter
+# <a name="post-capacities" />Bogføre kapaciteter
 
 I kapacitetskladden kan du bogføre forbrugt kapacitet, der ikke er knyttet til produktionsordren. Vedligeholdelsesarbejde skal f.eks. knyttes til kapaciteten, men ikke til en produktionsordre.  
 
-## Sådan bogføres kapaciteter  
+## <a name="to-post-capacities" />Sådan bogføres kapaciteter
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kapacitetskladder**, og vælg derefter det relaterede link.  
 2. Udfyld felterne **Bogføringsdato** og **Bilagsnr** .  
@@ -25,7 +25,7 @@ I kapacitetskladden kan du bogføre forbrugt kapacitet, der ikke er knyttet til 
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Sådan vises arbejdscenterposter  
+## <a name="to-view-work-center-ledger-entries" />Sådan vises arbejdscenterposter
 
 På siderne **Arbejdscenterkort** og **Prod.ress.kort** kan du få vist de bogførte kapaciteter som følge af færdige produktionsordrer.    
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **arbejdscentre**, og vælg derefter det relaterede link.  
@@ -33,7 +33,7 @@ På siderne **Arbejdscenterkort** og **Prod.ress.kort** kan du få vist de bogf�
 
     Siden **Kapacitetsposter** vises med posterne i den rækkefølge, de er bogført.   
 
-## Se også  
+## <a name="see-also" />Se også
 
 [Produktion](production-manage-manufacturing.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  

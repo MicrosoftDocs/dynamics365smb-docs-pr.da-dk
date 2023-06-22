@@ -11,7 +11,7 @@ ms.search.form: '256, 233, 624, 1228'
 ms.date: 07/09/2021
 ms.author: edupont
 ---
-# Registrere indbetalinger og refusioner i udbetalingskladden
+# <a name="record-payments-and-refunds-in-the-payment-journal" />Registrere indbetalinger og refusioner i udbetalingskladden
 
 På siden **Udbetalingskladde** registrerer du betalinger, du foretager til leverandører, og refusioner, du foretager til kunder. Når du bogfører en udbetalingskladdelinje, registreres det betalte beløb i det angivne banksystem. Du skal derefter sørge for at udføre den faktiske pengeoverførsel fra den relaterede bankkonto.  
 
@@ -29,7 +29,7 @@ Betalingskladden er en kassekladde, der er optimeret til betalinger. Du kan hurt
 
     Ud over at registrere, at betalingen er foretaget, kan du også bruge siden **Udbetalingskladde** til at sende betalingen til yderligere behandling i banken. Du kan finde flere oplysninger i [Foretage betalinger med check](payables-how-work-checks.md) og [Foretage elektroniske betalinger](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## Foretage betalinger i udbetalingskladden
+## <a name="to-make-payments-in-the-payment-journal" />Foretage betalinger i udbetalingskladden
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udbetalingskladder**, og vælg derefter det relaterede link.
 2. Åbn det kladdenavn, der er dedikeret til betalinger.
@@ -43,7 +43,7 @@ Betalingskladden er en kassekladde, der er optimeret til betalinger. Du kan hurt
 6. Når alle betalingskladdelinjer er fuldført, skal du vælge handlingen **Bogfør**.
 
 
-## Sådan udstedes en refusionscheck
+## <a name="to-issue-a-refund-check" />Sådan udstedes en refusionscheck
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.
 2. I feltet **Dokumenttype** skal du vælge **Refusion**.  
@@ -57,7 +57,7 @@ Betalingskladden er en kassekladde, der er optimeret til betalinger. Du kan hurt
 10. Når alle linjer i betalingskladden er færdige, skal du vælge handlingen **Bogfør/Udskriv**, derefter vælge handlingen **Bogfør og Udskriv** og derefter vælge **Ja**.  
   
 
-## Se også
+## <a name="see-also" />Se også
 [Foretage betalinger med check](payables-how-work-checks.md)  
 [Foretage elektroniske betalinger](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Administrere skyldige beløb](payables-manage-payables.md)  

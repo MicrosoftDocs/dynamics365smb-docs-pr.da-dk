@@ -11,7 +11,7 @@ ms.search.form: '1151, 1152, 1153, 1154, 1155, 1165, 1166, 1167,'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Virksomhedshub til udvidelsen af Business Central
+# <a name="the-company-hub-for-business-central-extension" />Virksomhedshub til udvidelsen af Business Central
 
 Dette program indeholder et dashboard med oversigtsdata for hvert regnskab, som brugeren har adgang til på tværs af alle [!INCLUDE [prod_short](includes/prod_short.md)] online, f.eks. en bogholders mange klienter. Startsiden viser de økonomiske nøgletal samt en direkte forbindelse til de enkelte miljøer og regnskaber, så brugerne kan.
 
@@ -19,11 +19,11 @@ Et dashboard er et højt specialiseret rollecenter, der giver et bedre overblik 
 
 Når du installerer udvidelsen, hjælper en eksempelvirksomhed dig med at komme i gang. Du kan slette eksempelvirksomheden til enhver tid.
 
-## Installation af udvidelsen
+## <a name="installing-the-extension" />Installation af udvidelsen
 
 Når du installerer udvidelsen i [!INCLUDE [prod_short](includes/prod_short.md)], bliver du spurgt, om du vil bruge den nu. Hvis du vil det, skal du logge af og logge på igen, fordi udvidelsen erstatter dit aktuelle Rollecenter og føjer tilladelser til din brugerprofil.
 
-## Se også
+## <a name="see-also" />Se også
 
 [Administrere arbejde på tværs af flere regnskaber i virksomhedshub](company-hub.md)  
 [Revisoroplevelser i Business Central](finance-accounting.md)  

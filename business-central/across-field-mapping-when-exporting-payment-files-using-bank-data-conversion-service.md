@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Felttilknytning ved eksport af betalingsfiler ved hjælp af AMC Banking 365 Fundamentals-udvidelsen
+# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking--fundamentals-extension" />Felttilknytning ved eksport af betalingsfiler ved hjælp af AMC Banking 365 Fundamentals-udvidelsen
 Når du eksporterer betalingsfiler med AMC Banking 365 Fundamentals-udvidelsen, eksponeres de data, du eksporterer, for tjenesteudbyderen. Serviceudbyderen er ansvarlig for beskyttelsen af disse data. Du kan finde flere oplysninger om AMC Banking 365 Fundamentals-udvidelsen under [Brug AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
@@ -63,7 +63,7 @@ Følgende tabel viser de felter i [!INCLUDE[prod_short](includes/prod_short.md)]
 |Finanskladdenavn|Kladdenavn|Finanskladdelinje|Finanskladdenavnet, der bruges til betalingslinjen|  
 |Afsenderbanks navn - datakonvertering|Banknavn - datakonvertering|Bankkonto|Afsenderens bankkontonavn, der er anmodet om af AMC Banking 365 Fundamentals-udvidelsen og angivet på bankkontokortet|  
 
-## Se også  
+## <a name="see-also" />Se også
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  
 [Udveksle data elektronisk](across-data-exchange.md)
 [Brug AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md)   

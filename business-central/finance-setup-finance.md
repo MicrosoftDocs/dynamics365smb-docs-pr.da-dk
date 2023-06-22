@@ -10,7 +10,7 @@ ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.date: 08/19/2022
 ms.author: edupont
 ---
-# Konfigurere Finans
+# <a name="setting-up-finance" />Konfigurere Finans
 
 Før du kan begynde at køre din virksomhed, skal du angive, hvordan du vil administrere finansprocesser for virksomheden. Først skal du definere kernen i regnskabets poster: kontoplan. Derefter definerer du bogføringsgrupper, som gør det mere effektivt, når du skal tildele standardkonti til finanspostering til kunder, leverandører og varer.
 
@@ -51,9 +51,9 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 > [!TIP]
 > Nogle Business Central-sider kan indeholde felter, der ikke er beskrevet i de artikler, der er angivet her, fordi de gælder for lokal funktionalitet eller tilpasninger, afhængigt af din geografiske placering. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## Se relateret [Microsoft-træning](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Finans](finance.md)  
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  
@@ -62,6 +62,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

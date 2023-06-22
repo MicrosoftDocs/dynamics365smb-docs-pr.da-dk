@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Designoplysninger: Bogføringsprogramstruktur
+# <a name="design-details-posting-engine-structure" />Designoplysninger: Bogføringsprogramstruktur
 Bogføringsgrænsefladen og visse andre funktioner i codeunit 12 bruger bogføringsfunktioner til at forberede og indsætte finansposter og momsposter. Bogføringsprogrammet er også ansvarlig for oprettelse af finansregister.  
   
  Funktionerne i følgende tabel giver en standardramme til design af bogføringsprocedurer (f.eks. Code, CustPostApplyCustledgEntry, VendPostApplyVendLedgEntry, UnapplyCustLedgEntry, UnapplyVendLedgEntry og Reverse) og udelt adgang til tabel 17, Finanspost.  
@@ -30,7 +30,7 @@ Bogføringsgrænsefladen og visse andre funktioner i codeunit 12 bruger bogføri
 |CreateGLEntryVATCollectAdj|Samme som CreateGLEntry, men med yderligere samling af justeringer og lagring til den midlertidige momsbuffer:<br /><br /> `CollectAdjustment(AdjAmount,GLEntry.Amount,GLEntry."Additional-Currency Amount",OriginalDateSet);`<br /><br /> `InsertVATEntriesFromTemp(DtldCVLedgEntryBuf,GLEntry);`|  
 |CreateGLEntryFromVATEntry|Samme som CreateGLEntry, men kopierer også bogføringsgrupper fra momspost.|  
   
-## Se også  
+## <a name="see-also" />Se også
  [Designoplysninger: Bogføring af grænsefladestruktur](design-details-posting-interface-structure.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

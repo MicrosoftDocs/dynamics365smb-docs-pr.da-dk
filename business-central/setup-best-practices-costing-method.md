@@ -10,7 +10,7 @@ ms.search.form: '30, 31'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Konfigurere bedste fremgangsmåder: kostmetode
+# <a name="setup-best-practices-costing-method" />Konfigurere bedste fremgangsmåder: kostmetode
 
 **Kostmetode** på varekortet definerer, hvordan varens kostprisforløb registreres, og om en faktisk eller budgetteret værdi føres som aktiv og bruges i beregningen af kostprisen.  
 
@@ -26,7 +26,7 @@ Den følgende tabel viser de bedste fremgangsmåder til konfiguration af feltet 
 |Bestemt|Bruges i produktionen eller handel med varer, der nemt kan identificeres, med forholdsvis høje kostpriser.<br /><br /> Bruges til varer, der er omfattet af regulering.<br /><br /> Bruges for varer med serienumre.|En vares kostpris er den præcise kostpris, som den aktuelle enhed er modtaget til.|
 |Standard|Bruges, hvor omkostningsstyring er afgørende.<br /><br /> Bruges i serieproduktion til at evaluere kostpriserne for direkte materialeomkostninger, arbejdsomkostninger og produktionsomkostninger.<br /><br /> Bruges, hvor der er disciplin og personale til at vedligeholde standarderne.|En vares kostpris forudindstilles baseret på forventninger.<br /><br /> Når det faktiske kostbeløb realiseres senere, skal standardkostprisen reguleres til de faktiske omkostninger gennem variansværdier.|  
 
-## Se også
+## <a name="see-also" />Se også
 
 [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)  

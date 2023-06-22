@@ -10,13 +10,13 @@ ms.custom: bap-template
 ms.search.form: 630
 ---
 
-# Dataarkivudvidelsen
+# <a name="the-data-archive-extension" />Dataarkivudvidelsen
 
 Med tiden vil virksomheden samle en betydelig mængde data, og som administrator kan det være en god ide at finde en strategi til arkivering af data. Når mange data kan gøre tingene langsommere, kan det f. eks. tage lidt længere tid at oprette rapporter, eller du kan endda låse poster. Derudover kan store mængder data medføre øgede lageromkostninger.
 
 Dataarkivudvidelsen udgør en grundlæggende ramme for arkivering og sikkerhedskopiering af data som en del af datokomprimeringen. Datokomprimering konsoliderer relaterede poster til en enkelt post og sletter de originaler. Flere oplysninger i [Komprimere data med datokomprimering](admin-manage-documents.md#compress-data-with-date-compression). Der kan imidlertid være en værdi, som forhindrer, at dataene gemmes, ved at arkivere den til senere brug.
 
-## Start arkivering af data
+## <a name="start-archiving-data" />Start arkivering af data
 
 Udvidelsen er forudinstalleret og tilgængelig i **administration af udvidelser**, så du behøver ikke at foretage dig noget for at komme i gang. Filtypenavnet er også tilgængelig i AppSource.
 
@@ -50,10 +50,10 @@ Disse filtypenavne for dataarkiv bruges af følgende kørsler til datokomprimeri
 
 Hvis du vil begynde at arkivere data, når du kører en af kørslerne, skal du aktivere funktionen **arkiver slettede poster**.
 
-## Lagerovervejelser
+## <a name="storage-considerations" />Lagerovervejelser
 
 De arkiverede data gemmes i tabellen med **lejermediet**. Det anbefales dog, at du eksporterer gamle filer, f. eks. en CSV-fil, og derefter sletter de gamle Arkiv poster.
 
-## Se også
+## <a name="see-also" />Se også
 
 [Administrere lager ved at slette dokumenter eller komprimere data](admin-manage-documents.md)

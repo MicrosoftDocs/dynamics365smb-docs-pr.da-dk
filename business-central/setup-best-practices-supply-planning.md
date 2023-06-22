@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Oprette bedste fremgangsmåder: Forsyningsplanlægning
+# <a name="setup-best-practices-supply-planning" />Oprette bedste fremgangsmåder: Forsyningsplanlægning
 Forsyningsplanlægning er et vigtigt område. Når forsyningsplanlægningen oprettes og bruges korrekt, hjælper den en virksomhed med at undgå at løbe tør og reducerer både bestillings- og lageromkostningerne.  
 
  Det er ikke muligt at foreskrive en optimal opsætning af alle felter til planlægning, da dette varierer fra virksomhed til virksomhed på grund af forretningsvariabler som markedssituation og forretningsstrategi. Men, der er de bedste fremgangsmåder til valg af indstillinger på varekortene og globale opsætningsfelter, så virksomheden kan komme i gang med rettidige og omkostningseffektive lagerflow.  
@@ -23,7 +23,7 @@ Forsyningsplanlægning er et vigtigt område. Når forsyningsplanlægningen opre
 |Få kendskab til de bedste fremgangsmåder til angivelse af udvalgte planlægningsparametre under den definerede genbestillingsmetode, så du kan planlægge effektivt og økonomisk for en vare i forhold til vigtige elementer som leveringstid, lageromkostninger og sæsonudsving.|[Oprette bedste fremgangsmåder: Planlægningsparametre](setup-best-practices-planning-parameters.md)|  
 |Få kendskab til de bedste fremgangsmåder for anvendelse af en generel leveringsstrategi for alle varekort, f.eks. at varer altid skal modtages én dag før, de skal bruges, eller dæmpning af systemets reaktion på mindre behovsudsving.|[Oprette bedste fremgangsmåder: Global planlægningsopsætning](setup-best-practices-global-planning-setup.md)|  
 
-## Se også  
+## <a name="see-also" />Se også
  [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)   
  [Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)   
  [Opret komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  

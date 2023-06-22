@@ -9,7 +9,7 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# Introduktion til Contoso Coffee til produktion
+# <a name="introduction-to-contoso-coffee-manufacturing" />Introduktion til Contoso Coffee til produktion
 
 Contoso Coffee er en fiktiv virksomhed, der producerer forbruger- og kommercielle kaffemaskine. Apps **Contoso Coffee** til Business Central tilføjer demodata, som du kan bruge til at lære, hvordan du bruger produktionsfunktionerne i Business central.  
 
@@ -36,7 +36,7 @@ Produktionsaktiviteterne i alle scenarier bruger *NORTH*-lokationen.
 > [!IMPORTANT]
 > Før du udfører et af scenarierne for Contoso Coffee, skal du bogføre alle varekladdelinjer med primosaldi. Du kan finde flere krav i afsnittet [Opsætning af Contoso Coffee-data](#set-up-contoso-coffee-manufacturing-data).
 
-## Opsætning af Contoso Coffee-produktionsdata
+## <a name="set-up-contoso-coffee-manufacturing-data" />Opsætning af Contoso Coffee-produktionsdata
 
 Hvis du vil bruge produktionsdemonstrationsdataene fra Contoso Coffee, skal du installere to apps i det relevante regnskab i [!INCLUDE [prod_short](../../includes/prod_short.md)]:  
 
@@ -67,7 +67,7 @@ Når de relevante apps er installeret, skal du gå til [Contoso Coffee-demodata]
 
 Når du er færdig, skal du vælge handlingen **Opret demodata**. Det tager nogle få minutter at føje dataene til den underliggende database, men så er du klar til at køre forskellige scenarier.  
 
-## Eksempler
+## <a name="scenarios" />Eksempler
 
 Contoso Coffee-produktionsdemodata understøtter i øjeblikket følgende scenarier for test og træning:
 
@@ -85,7 +85,7 @@ Læs trinene for hvert scenarie i den relevante artikel.
 > [!IMPORTANT]
 > Denne gennemgang kræver, at brugeroplevelsen er sat til *Premium* på siden **firmaoplysninger**.
 
-## Se også
+## <a name="see-also" />Se også
 
 [Produktion](../../production-manage-manufacturing.md)  
 [Produktionsrapporter og analyser i Business Central](../../production-reports.md)  

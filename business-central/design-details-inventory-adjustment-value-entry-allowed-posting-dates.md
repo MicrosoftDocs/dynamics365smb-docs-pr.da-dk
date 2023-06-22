@@ -11,7 +11,7 @@ ms.date: 09/17/2021
 ms.author: edupont
 ---
 
-# Fejlmeddelelse: "Bogføringsdatoen er ikke inden for intervallet af tilladte bogføringsdatoer..."
+# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates" />Fejlmeddelelse: "Bogføringsdatoen er ikke inden for intervallet af tilladte bogføringsdatoer..."
 
 Når du bruger kørslen **Reguler kostværdi - vareposter**, kan du starte med følgende fejlmeddelelse:
 
@@ -19,7 +19,7 @@ Når du bruger kørslen **Reguler kostværdi - vareposter**, kan du starte med f
 
 Denne fejlmeddelelse angiver, at brugeren ikke har tilladelse til at bogføre poster for den pågældende dato, og at det kan afhjælpes ved at ændre brugeropsætningen.
 
-## Ændre Brugeropsætning  
+## <a name="change-the-user-setup" />Ændre Brugeropsætning
 
 |Bruger-id  |Bogf. tilladt fra  | Bogf. tilladt til  |
 |---------|---------|--------|
@@ -27,9 +27,9 @@ Denne fejlmeddelelse angiver, at brugeren ikke har tilladelse til at bogføre po
 
 Brugeren har i dette tilfælde et tilladt bogføringsdatointerval fra 11. september til 30. september og må derfor ikke bogføre reguleringsværdiposten med bogføringsdatoen 10. september.  
 
-### Oversigt over opsætning af den involverede bogføringsdato
+### <a name="overview-of-involved-posting-date-setup" />Oversigt over opsætning af den involverede bogføringsdato
 
-#### Lagerperioder
+#### <a name="inventory-periods" />Lagerperioder
 
 |Afslutningsdato  |Name  |Lukket  |
 |---------|---------|---------|
@@ -46,7 +46,7 @@ Brugeren har i dette tilfælde et tilladt bogføringsdatointerval fra 11. septem
 |2020-11-30     |November 2020   |         |
 |2020-12-31     |December 2020   |         |  
 
-#### Opsætning af Finans
+#### <a name="general-ledger-setup" />Opsætning af Finans
 
 |Felt|Værdi|
 |---------|---------|
@@ -55,7 +55,7 @@ Brugeren har i dette tilfælde et tilladt bogføringsdatointerval fra 11. septem
 |Registrer tid:       |         |
 |Lokalt adresseformat:|   Postnr.      |  
 
-#### Brugeropsætning
+#### <a name="user-setup" />Brugeropsætning
 
 |Bruger-id  |Bogf. tilladt fra  | Bogf. tilladt til  |
 |---------|---------|--------|
@@ -63,7 +63,7 @@ Brugeren har i dette tilfælde et tilladt bogføringsdatointerval fra 11. septem
 
 Hvis der tilknyttet et større tilladt bogføringsdatointerval som i lagerperiode eller Finans, bliver det muligt at undgå den konflikt, der forårsager fejlmeddelelsen. Reguleringen af værdiposten med bogføringsdatoen 10. september bogføres automatisk med denne opsætning.
   
-## Se også  
+## <a name="see-also" />Se også
 
 [Designoplysninger: Bogføringsdato på post med reguleringsværdi](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)  

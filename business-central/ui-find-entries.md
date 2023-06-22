@@ -11,7 +11,7 @@ ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
 ---
-# Finde relaterede poster for dokumenter
+# <a name="finding-related-entries-for-documents" />Finde relaterede poster for dokumenter
 
 Lær, hvordan du finder dokumenter og poster, der er relateret til hinanden, på basis af fælles oplysninger, f.eks.:
 
@@ -21,7 +21,7 @@ Lær, hvordan du finder dokumenter og poster, der er relateret til hinanden, på
 
 Funktionen er især nyttig til at finde finansposter, der er oprettet som resultat af bestemte transaktioner. Når du søger efter dokumentnummer, kan du udskrive oversigten fra rapporten **Bilagsposter**.
 
-## Kom i gang
+## <a name="get-started" />Kom i gang
 
 Du kan hurtigt finde funktionen Find poster fra næsten alle sider ved at trykke på tasterne <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>. På sider, der specifikt viser bogførte dokumenter eller bogførte bilagsposter&mdash;for både lister og kort&mdash;kan du også åbne funktionen ved at vælge handlingen **Find poster**.
 
@@ -31,7 +31,7 @@ Siden **Find poster** indeholder alle relaterede dokumenter og poster, der er ba
 - Den midterste del viser relaterede dokumenter, der er baseret på søgningen.
 - Den nederste del indeholder oplysninger om kildedokumentet, som blev fundet ved søgning.
 
-## Søg efter poster
+## <a name="search-for-entries" />Søg efter poster
 
 Du kan søge efter poster på grundlag af oplysninger om enten dokument-, forretningskontaktperson- eller var referencen. I den øverste sektion skal du vælge en af følgende indstillinger baseret på den type oplysninger, du har:
 
@@ -46,9 +46,9 @@ Når du har foretaget en markering, skal du indtaste de relevante søgeoplysning
 > [!TIP]
 > Du kan finde et par eksempler på brug af **Find poster** under [Sporing af varesporede elementer](inventory-how-to-trace-item-tracked-items.md) og [Gennemgang: Sporing af serie-/lotnumre](walkthrough-tracing-serial-lot-numbers.md).
 
-## Se relateret [Microsoft-træning](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics--business-centralindex" />Se relateret [Microsoft-træning](/training/modules/user-interface-dynamics-365-business-central/index)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Spore vare via varesporing](inventory-how-to-trace-item-tracked-items.md)  
 [Finde bogførte dokumenter uden indgående bilagsposter](across-how-find-posted-documents-without-income-document-records.md)  

@@ -12,7 +12,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ---
 
-# Designdetaljer: ændre kostmetoden for varer
+# <a name="design-details-change-the-costing-method-for-items" />Designdetaljer: ændre kostmetoden for varer
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du ikke ændre en kostmetode for en vare, efter at du har medtaget varen i en transaktion. Når du f.eks. har købt eller solgt varen. Hvis der er knyttet en forkert kostmetode til varen eller varerne, kan du måske ikke finde problemet, før du foretager en regnskabsaflæggelse.
 
@@ -24,7 +24,7 @@ Dette emne beskriver, hvordan du kan løse dette problem. Den anbefalede metode 
 > [!TIP]
 > Hvis du vil være fortrolig med processen, anbefales det, at du starter konverteringsprocessen med en enkelt vare eller et lille sæt varer.
 
-## Om kostmetoder
+## <a name="about-costing-methods" />Om kostmetoder
 
 Kostmetoderne styrer omkostningsberegninger, når varer købes, modtages på lageret og sælges. Kostmetoderne påvirker timingen af de registrerede beløb i VAREFORBRUG, der påvirker bruttofortjeneste. Det er dette flow, der beregner VAREFORBRUG. Vareforbruget og omsætningen bruges til at bestemme bruttofortjeneste på følgende måde:
 
@@ -40,7 +40,7 @@ Når du opretter lagervarer, skal du tildele en kostmetode. Metoden kan variere 
 
 Du kan finde flere oplysninger i [Designoplysninger: Kostmetoder](design-details-costing-methods.md).
 
-## Brug montageordrer til at ændre tildelinger af kostmetode
+## <a name="use-assembly-orders-to-change-costing-method-assignments" />Brug montageordrer til at ændre tildelinger af kostmetode
 
 I dette afsnit beskrives følgende fremgangsmåde for at ændre den kostmetode, der er tildelt en vare:
 
@@ -53,21 +53,21 @@ I dette afsnit beskrives følgende fremgangsmåde for at ændre den kostmetode, 
 7. Håndter lagerantal, der er allokeret til behov.
 8. Spær den oprindelige vare mod yderligere brug.  
 
-### Definere en standardkostmetode
+### <a name="define-a-default-costing-method" />Definere en standardkostmetode
 
 For at undgå fremtidige fejl kan du angive en standardkostmetode for nye varer. Når en person opretter en ny vare, vil [!INCLUDE[prod_short](includes/prod_short.md)] foreslå standardkostmetoden. Du kan angive standardmetoden i feltet **Standardmetode for kostprisberegning** på siden **Lageropsætning**. 
 
-### Identificere de varer, der skal have ændret kostmetoden, og nummerere dem igen
+### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them" />Identificere de varer, der skal have ændret kostmetoden, og nummerere dem igen
 
 Det kan være en god idé at give de nye varer samme numre som dem, de erstatter. Hvis du vil gøre det, skal du ændre numrene på de eksisterende varer. Hvis det eksisterende varenummer f.eks. er "P1000", kan det ændres til "X-P1000". Dette er en manuel ændring, som du skal foretage for hver vare.
 
-### Oprette nye varer med det gamle nummereringsskema og kopiere stamdata i en batchkørsel
+### <a name="create-new-items-with-the-old-numbering-scheme-and-copy-the-master-data-in-a-batch" />Oprette nye varer med det gamle nummereringsskema og kopiere stamdata i en batchkørsel
 
 Opret de nye varer vha. det aktuelle nummerskema. Med undtagelse af feltet **Kostmetode** skal nye varer indeholde de samme stamdata som de eksisterende varer. Hvis du vil overføre stamdata for varen og relaterede data fra andre funktioner, skal du bruge handlingen **Kopiér vare** på siden **Varekort**. Du kan finde flere oplysninger i [Kopiere eksisterende elementer for at oprette nye varer](inventory-how-copy-items.md).
 
 Når du har oprettet nye varer og overfører stamdataene, skal du tildele den korrekte kostmetode.
 
-### Kopiere relaterede stamdata manuelt fra den oprindelige vare til den nye vare
+### <a name="manually-copy-related-master-data-from-the-original-item-to-the-new-item" />Kopiere relaterede stamdata manuelt fra den oprindelige vare til den nye vare
 
 Hvis du vil gøre de nye elementer fuldt anvendelige, skal du manuelt kopiere nogle masterdata fra andre områder som beskrevet i følgende tabel.
 
@@ -89,7 +89,7 @@ Hvis du vil gøre de nye elementer fuldt anvendelige, skal du manuelt kopiere no
 > [!IMPORTANT]
 > Hvis den nye kostmetode er Standard, skal du angive en værdi i feltet **Standardkostpris** på siden **Varekort**. Du kan bruge siden **Standardkostpriskladde** til at angive kostprisfordelingen i overensstemmelse hermed. Du kan finde flere oplysninger i [Opdatere standardkostpriser](finance-how-to-update-standard-costs.md).
 
-### Bestemme det lagerantal, der skal konverteres fra den oprindelige vare til den nye vare
+### <a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item" />Bestemme det lagerantal, der skal konverteres fra den oprindelige vare til den nye vare
 
 > [!NOTE]
 > Dette trin tager ikke højde for antal, der er medtaget i ikke-leverede ordrer. Du kan finde flere oplysninger i [Håndtere lagerantal, der er allokeret til behov](design-details-changing-costing-methods.md#handle-inventory-quantities-that-are-allocated-to-demand). 
@@ -101,13 +101,13 @@ Brug en lageropgørelseskladde til at oprette en liste over antal på lager. Afh
 
 Begge kladder kan beregne lagerbeholdningen for varen, herunder lokation, variant, placering og lagerplacering. Du kan finde flere oplysninger i [Tælle, justere og ompostere inventar ved hjælp af kladder](inventory-how-count-adjust-reclassify.md).
 
-### Overføre lageret til den nye vare
+### <a name="transfer-the-inventory-to-the-new-item" />Overføre lageret til den nye vare
 
 Opret og bogfør montageordrer for at overføre kostprisen og lagerbeholdningen fra den oprindelige vare til den nye vare. Montageordrer kan konvertere en vare til en anden, samtidig med at omkostningerne bevares. Det er med til at sikre, at nettototalerne for lagerkontoen og VAREFORBRUG ikke påvirkes (undtagen når den nye kostmetode er Standard, og i dette tilfælde kan omkostningerne fordeles på afvigelseskonti). Du kan finde flere oplysninger i [Montagestyring](assembly-assemble-items.md).
 
 Når du opretter montageordrer, skal du bruge oplysningerne fra Lageropgørelseskladder eller Regul.plac. Lagerplacering - opg.kladde I følgende tabel beskrives de oplysninger i rapporterne, der skal angives i hovedet og linjerne på montageordren.
 
-#### Overskrift
+#### <a name="header" />Overskrift
 
 |Felt  |Værdi, der skal indsættes  |
 |---------|---------|
@@ -118,7 +118,7 @@ Når du opretter montageordrer, skal du bruge oplysningerne fra Lageropgørelses
 |Enhedskode |Det samme som i lageropgørelseskladden. |
 |Placeringskode |Det samme som i lageropgørelseskladden. |
 
-#### Linjer
+#### <a name="lines" />Linjer
 
 |Felt  |Værdi, der skal indsættes  |
 |---------|---------|
@@ -135,7 +135,7 @@ Når du opretter montageordrer, skal du bruge oplysningerne fra Lageropgørelses
 > [!NOTE]
 > Du skal muligvis oprette pluk, før du kan bogføre montageordren, for en lagerlokation. Du kan undersøge dette ved at gennemgå opsætningen af plukning på siden **Lokationskort**. Du kan finde flere oplysninger i [Konfigurere varer og lokationer til styret læg-på-lager og pluk](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md).
 
-### Håndtere lagerantal, der er allokeret til behov
+### <a name="handle-inventory-quantities-that-are-allocated-to-demand" />Håndtere lagerantal, der er allokeret til behov
 
 Ideelt bør lagerbeholdningen for den oprindelige vare blive nul, efter at du har overført lagerantal. Der kan imidlertid være udestående ordrer, regneark og kladder (se nedenstående tabel), der stadig kræver et antal af den oprindelige vare. Antallet kan også være spærret af en reservation eller varesporing.
 
@@ -158,11 +158,11 @@ I følgende tabel vises funktionelle områder, hvor der kan være udestående an
 |Tjeneste |Servicedokumenter og servicekontrakter |
 |Produktion |Produktionsordrer (planlagte, fastlagte og frigivne) |
 
-### Spærre den oprindelige vare mod yderligere brug
+### <a name="block-the-original-item-from-further-use" />Spærre den oprindelige vare mod yderligere brug
 
 Når lagerbeholdningen for den oprindelige vare er nul, kan du spærre varen for at forhindre, at den bruges i nye transaktioner. Hvis du vil spærre varen, skal du slå **Spærret** til på siden **Varekort**. Du kan finde flere oplysninger i [Spærre varer mod salg eller køb](inventory-how-block-items.md).
 
-## Oversigt
+## <a name="summary" />Oversigt
 
 Ændring af kostmetoden for varer, der er brugt i transaktioner, er en proces og ikke en standardhandling i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan bruge de trin, der er beskrevet i dette emne, som en skabelon til processen.
 
@@ -173,7 +173,7 @@ Vi anbefaler følgende:
 1. Du kan vurdere, om processen er gennemførlig, ved at tage et eller måske nogle få, repræsentative varer gennem hele processen.
 2. Overvej at kontakte en erfaren partner, som kan hjælpe dig med processen.
 
-## Se også
+## <a name="see-also" />Se også
 
 [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
 [Oversigt](design-details-inventory-costing.md)

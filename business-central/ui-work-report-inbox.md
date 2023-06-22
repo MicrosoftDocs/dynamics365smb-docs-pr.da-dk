@@ -11,14 +11,14 @@ ms.search.form: 680
 ms.date: 08/08/2022
 ms.author: a-reishima
 ---
-# Dele og eksportere rapporter med rapportindbakken
+# <a name="share-and-export-reports-with-the-report-inbox" />Dele og eksportere rapporter med rapportindbakken
 
 **rapportindbakke**-siden viser planlagte rapporter, der er genereret af brugeren i [!INCLUDE[prod_short](includes/prod_short.md)], og den kan kun bruges til at få adgang til de genererede rapporter, men også til at dele og åbne filerne i OneDrive for Business.
 
 > [!TIP]
 > Følgende handlinger er også tilgængelige i **rapportindbakke** i rollecenter. Hvis delen ikke vises i brugergrænsefladen, skal du lære, hvordan du tilpasser dit rollecenter her: [Tilpas arbejdsområdet](ui-personalization-user.md).
 
-## Download genererede rapporter
+## <a name="download-generated-reports" />Download genererede rapporter
 
 Hvis du vil gemme tidligere rapporter, skal du åbne siden **rapportindbakke** ved at benytte følgende fremgangsmåde:
 
@@ -30,7 +30,7 @@ Hvis du vil gemme tidligere rapporter, skal du åbne siden **rapportindbakke** v
 >
 > De genererede filer gemmes i det format, der er defineret ved planlægning af rapporten, og kan ændres på siden **Opgavekøposter** sammen med gentagelsen og andre indstillinger. Få mere at vide om, hvordan du ændrer formatet for rapportfilen og angiver yderligere indstillinger på [Administrer planlagte, tilbagevendende rapporter](ui-work-report.md#manage-scheduled-recurring-reports).
 
-## Åbne genererede rapporter i OneDrive
+## <a name="open-generated-reports-in-onedrive" />Åbne genererede rapporter i OneDrive
 
 Hvis du vil eksportere rapportfilen til Microsoft OneDrive for Business, skal du vælge rapporten på siden **Rapportindbakke** og vælge feltet **Åbn i OneDrive**-handlingen. Rapporten kopieres derefter til [!INCLUDE[prod_short](includes/prod_short.md)]-mappen i OneDrive og åbnes i et nyt browservindue, hvor du kan udskrive og administrere dokumentfilen.
 
@@ -38,7 +38,7 @@ Hvis du vil eksportere rapportfilen til Microsoft OneDrive for Business, skal du
 >
 > Rapporter, der er indstillet til at udløbe på siden **Planlæg en rapport**, og kopieres til OneDrive, fjernes ikke automatisk fra den delte mappe.
 
-## Dele planlagte rapporter
+## <a name="share-scheduled-reports" />Dele planlagte rapporter
 
 Det er også muligt at dele rapporter med samarbejdspartnere på siden **Rapportindbakke**. Vælg rapporten og vælg handlingen **Del**. På siden **Send hyperlink** skal du vælge, hvem der må åbne filen, definere redigering af tilladelser og derefter vælge **Send** for at sende et link for at få adgang til den gemte rapport.
 
@@ -47,9 +47,9 @@ Det er også muligt at dele rapporter med samarbejdspartnere på siden **Rapport
 >
 > Hvis du bruger handlingen **Del**, bliver den genererede rapportfil kun tilgængelig til andre brugere på OneDrive til Business, og den planlagte rapport vises ikke i **Rapportindbakken**.
 
-## Se relateret træning på [Microsoft Learn](/learn/paths/build-reports/).
+## <a name="see-related-training-at-microsoft-learnlearnpathsbuild-reports" />Se relateret træning på [Microsoft Learn](/learn/paths/build-reports/).
 
-## Se også
+## <a name="see-also" />Se også
 
 [Køre og udskrive rapporter](ui-work-report.md)  
 [Tilgængelige rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

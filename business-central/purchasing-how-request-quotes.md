@@ -11,16 +11,16 @@ ms.search.form: '49, 97, 9306, 9346'
 ms.date: 08/08/2022
 ms.author: edupont
 ---
-# Anmode om tilbud
+# <a name="request-quotes" />Anmode om tilbud
 
 Du kan bruge en købsrekvisition som foreløbig kladde til en købsordre for senere at konvertere ordren til en købsfaktura eller en ordre.
 
-## Opret en købsrekvisition
+## <a name="create-a-purchase-quote" />Opret en købsrekvisition
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsrekvisitioner**, og vælg derefter det relaterede link.
 2. Opret et nyt dokument på samme måde, som du opretter en købsordre. Flere oplysninger i [Registrere Køb](purchasing-how-record-purchases.md).
 
-## Konvertere en rekvisition til en købsordre
+## <a name="convert-a-purchase-quote-to-a-purchase-order" />Konvertere en rekvisition til en købsordre
 
 Når du har accepteret leverandørtilbuddet, kan du konvertere det til en købsordre for at behandle den.
 
@@ -31,9 +31,9 @@ Købsrekvisitionen fjernes fra databasen. En købsfaktura eller indkøbsordre op
 > [!NOTE]
 > Det er ikke muligt at konvertere en købsrekvisition til en købsfaktura direkte, ligesom det er muligt med salgstilbud. Du kan finde flere oplysninger om, hvordan du opretter en købsfaktura, ved at læse [Registrere køb med købsfakturaer](purchasing-how-record-purchases.md).
 
-## Se relateret [Microsoft-træning](/training/modules/create-purchase-documents-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-purchase-documents-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/create-purchase-documents-dynamics-365-business-central/).
 
-## Se også
+## <a name="see-also" />Se også
 
 [Køb](purchasing-manage-purchasing.md)  
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  

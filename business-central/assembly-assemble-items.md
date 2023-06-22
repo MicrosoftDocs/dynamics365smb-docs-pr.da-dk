@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# Montagestyring
+# <a name="assembly-management" />Montagestyring
 
 Firmaer kan levere produkter til kunder ved at kombinere komponenter i enkle processer uden produktionsfunktionen. Funktioner til samling af varer integreres med relaterede funktioner som f. eks. salg, planlægning, reservationer og logistik.  
 
@@ -51,9 +51,9 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 |Få mere at vide om, hvordan du arbejder med montagestyklister, og hvordan de er forskellige fra produktionsstyklister.|[Arbejde med montagestyklister](assembly-how-work-assembly-boms.md)|
 |Se, hvordan du bogfører montageforbrug og afgang, og hvordan [!INCLUDE [prod_short](includes/prod_short.md)] distribuerer vare- og ressourcekostpriser til finansposterne.|[Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)|  
 
-## Se relateret [Microsoft-træning](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Arbejde med styklister](inventory-how-work-BOMs.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
@@ -63,6 +63,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,7 +10,7 @@ ms.search.keywords: 'design, replenishment, reordering'
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# Designoplysninger: Reservation, ordresporing og aktionsmeddelelser
+# <a name="design-details-reservation-order-tracking-and-action-messaging" />Designoplysninger: Reservation, ordresporing og aktionsmeddelelser
 Reservationssystemet er omfattende og omfatter indbyrdes relaterede og parallelle funktionerne for ordresporing og aktionsmeddelelser.  
 
  I kernen af reservationssystemet er sammenkædningen af en behovspost og en tilsvarende forsyningspost, enten via reservation eller ordresporing. En reservation er et brugergenereret link, og en ordresporingsregistrering et et systemgenereret link. En varemængde, der er angivet i reservationssystemet, er enten reserveret eller ordresporet, men ikke begge dele på samme tid. Hvordan systemerne håndterer en vare, afhænger af, hvordan varen er oprettet.  
@@ -27,12 +27,12 @@ Reservationssystemet er omfattende og omfatter indbyrdes relaterede og parallell
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-## Reservation  
+## <a name="reservation" />Reservation
  En reservation er et fast link, der forbinder et bestemt behov og en bestemt forsyning med hinanden. Denne tilknytning påvirker den efterfølgende lagertransaktion direkte og sikrer en korrekt udligning af vareposter i forbindelse med kostberegning. En reservation tilsidesætter standardomkostningsmetoden for en vare. Du kan finde flere oplysninger i [Designoplysninger: varesporing](design-details-item-tracking.md).  
 
  Siden **Reservation** er tilgængeligt fra alle ordrelinjer for både behovs- og forsyningstyper. På denne side kan brugeren angive den behovs- og forsyningspost, der skal oprettes en reservationskæde til. Reservationen består af et sæt af poster, der deler samme løbenummer. Én post har et negativt fortegn og peger på behovet. Den anden post har et positivt tegn og peger på forsyningen. Disse poster lagres i tabellen **Reservationspost** med statusværdien **Reservation**. Brugeren kan se alle reservationer på siden **Reservationsposter**.  
 
-### Modregning i reservationer  
+### <a name="offsetting-in-reservations" />Modregning i reservationer
  Reservationer foretages af antal tilgængelige varer. Varedisponering beregnes på følgende grundlæggende måde :  
 
  disponibelt antal = lagerbeholdning + fastlagte tilgange – bruttobehov  
@@ -54,7 +54,7 @@ Reservationssystemet er omfattende og omfatter indbyrdes relaterede og parallell
 
  Du kan finde flere oplysninger i [Designoplysninger: Tilgængelighed i lageret](design-details-availability-in-the-warehouse.md).  
 
-### Manuel reservation  
+### <a name="manual-reservation" />Manuel reservation
  Når en bruger bevidst opretter en reservation, får brugeren fuld ejendomsret til og ansvar for disse varer. Det betyder, at brugeren også manuelt skal ændre eller annullere en reservation. Disse manuelle ændringer kan medføre automatiske ændringer af de involverede reservationer.  
 
  I følgende tabel vises hvornår, og hvilke ændringer der kan opstå:  
@@ -69,7 +69,7 @@ Reservationssystemet er omfattende og omfatter indbyrdes relaterede og parallell
 > [!NOTE]  
 >  Funktionen Sen binding kan også ændre reservationer uden at underrette brugeren via reshuffling af generelle reservationer af serie- eller lotnumre. Hvis du ønsker yderligere oplysninger, kan du se "Designoplysninger: Varesporing og reservationer".  
 
-### Automatiske reservationer  
+### <a name="automatic-reservations" />Automatiske reservationer
  Varekortet kan konfigureres til altid at være automatisk reserveret fra behov, f.eks. salgsordrer I så fald reserveres på lager, indkøbsordrer, montageordrer og produktionsordrer. Der advares, hvis forsyning er utilstrækkelig.  
 
  Desuden reserveres varer automatisk ved forskellige planlægningsfunktioner for at holde et behov knyttet til en bestemt forsyning. Ordresporingsposter for sådanne planlægningskæder indeholder **Reservation** i feltet **Reservationsstatus** i tabellen **Reservationspost**. Der oprettes automatiske reservationer i følgende situationer:  
@@ -90,7 +90,7 @@ Reservationssystemet er omfattende og omfatter indbyrdes relaterede og parallell
 
 -   De er inkluderet og kan være ændret i efterfølgende planlægningskørsler i modsætning til manuelt reserverede varer.  
 
-## Ordresporing  
+## <a name="order-tracking" />Ordresporing
  Ordresporing hjælper med at vedligeholde en gyldig forsyningsplan ved at give et overblik over modregning mellem behov og forsyning i ordrenetværket. Ordresporingsposter fungerer som grundlag for oprettelse af dynamiske aktionsmeddelelser og planlægningslinjeforslag under planlægningskørsler.  
 
 > [!NOTE]  
@@ -99,14 +99,14 @@ Reservationssystemet er omfattende og omfatter indbyrdes relaterede og parallell
 > [!NOTE]  
 >  Ordresporingspolitik og funktionen Hent aktionsmeddelelser er ikke integreret med sager. Det betyder, at efterspørgsel, der er knyttet til en sag, ikke spores automatisk. Da det ikke registreres, kan det forårsage brugen af en eksisterende genbestilling med joboplysninger, der kan spores til et andet behov, for eksempel en salgsordre. Derfor kan der opstå den situation, hvor oplysningerne om lagerbeholdningen ikke er synkroniseret.  
 
-### Ordrenetværket  
+### <a name="the-order-network" />Ordrenetværket
  Ordresporingssystemet er baseret på princippet om, at ordrenetværket altid skal være i en tilstand af balance, hvor hvert behov, der indsættes i systemet, udlignes af en tilsvarende forsyning og omvendt. Systemet leverer dette ved at identificere de logiske forbindelser mellem alle behovs- og forsyningsposter i ordrenetværket.  
 
  Princippet angiver, at en ændring i behov medfører en tilsvarende ubalance på forsyningssiden af ordrenetværket. Omvendt medfører en ændring i forsyning en tilsvarende ubalance på behovssiden af ordrenetværket. I virkeligheden er ordrenetværket i en tilstand af konstant strømmen, når brugere indtaster, ændrer og sletter ordrer. Ordresporing behandler ordrer dynamisk, reagerer på hver enkelt ændring på det tidspunkt, det kommer ind i systemet og bliver en del af ordrenetværket. Så snart der er oprettet nye poster til ordresporing, er ordrenetværket afstemt, men kun indtil næste ændring forekommer.  
 
  Siden **Ikke-sporede planlægningselementer** viser ikke-sporede mængder for at øge gennemsigtigheden af beregninger i planlægningssystemet. Dette repræsenterer forskellen i antallet mellem kendt behov og foreslået forsyning. Hver linje på siden refererer til årsagen til det overskydende antal, som f.eks. **Rammeordre**, **Niveau for sikkerhedslager**, **Fast genbestil.antal**, **Min. ordreantal**, **Afrunding** eller **Aktionsgrænse**.  
 
-### Modregning i ordresporing  
+### <a name="offsetting-in-order-tracking" />Modregning i ordresporing
  I modsætning til reservationer, som kun kan foretages mod tilgængelige vareantal, er ordresporing mulig i forhold til alle ordrenetværksenheder, der indgår i beregningen af planlægningssystemets nettobehov. Nettobehovet beregnes på følgende måde:  
 
  nettobehov = bruttobehov + genbestillingspunkt - fastlagt tilgang - planlagt tilgang - planlagt disponibel balance  
@@ -114,7 +114,7 @@ Reservationssystemet er omfattende og omfatter indbyrdes relaterede og parallell
 > [!NOTE]  
 >  Behov, der er relateret til forecasts eller planlægningsparametre, ordrespores ikke.  
 
-### Eksempel: Ordresporing i Salg, Produktion og Overførsler  
+### <a name="example-order-tracking-in-sales-production-and-transfers" />Eksempel: Ordresporing i Salg, Produktion og Overførsler
  Følgende scenario viser, hvilke ordresporingsposter der oprettes i tabellen **Reservationspost** som et resultat af forskellige ændringer i ordrenetværk.  
 
  Forestil dig følgende data for to varer, der er defineret til ordresporing.  
@@ -133,13 +133,13 @@ På siden **Produktionsopsætning** er feltet **Komponenter på lokation** indst
 
  ![Første eksempel på ordresporingsposter i tabellen Reservationspost.](media/supply_planning_RTAM_1.png "forsyningsplanlægning_RTAM_1")  
 
-### Løbenumre 8 og 9  
+### <a name="entry-numbers--and-" />Løbenumre 8 og 9
  For komponentbehovet for henholdsvis LOTA og LOTB oprettes der ordresporingslinks fra behovet i tabel 5407, **Prod.ordrekomponent**, til forsyningen i tabel 32 **Varepost**. Feltet **Reservationsstatus** indeholder **Sporing** for at angive, at disse poster er dynamiske ordresporingsbindinger mellem forsyning og behov.  
 
 > [!NOTE]  
 >  Feltet **Lotnr.** er tomt på behovslinjer, fordi der ikke er angivet lotnumre på komponentlinjerne i den frigivne produktionsordre.  
 
-### Løbenumre 10  
+### <a name="entry-numbers-" />Løbenumre 10
  Fra salgsbehovet i tabel 37, **Salgslinje**, oprettes der et ordresporingslink til forsyningen i tabel 5406, **Prod.ordrelinje**. Feltet **Reservationsstatus** indeholder **Reservation**, og feltet **Binding** indeholder **Ordre-til-ordre**. Dette skyldes, at den frigivne produktionsordre blev oprettet specielt til salgsordren og skal forblive sammenkædet i modsætning til ordresporingsbindinger med reservationsstatussen **Sporing**, som oprettes og ændres dynamisk. Du kan finde flere oplysninger i afsnittet "Automatiske reservationer" i dette afsnit.  
 
  På dette tidspunkt i scenariet overføres 100 enheder af LOTA og LOTB til lokationen EAST af en overflytningsordre.  
@@ -151,12 +151,12 @@ På siden **Produktionsopsætning** er feltet **Komponenter på lokation** indst
 
  ![Andet eksempel på ordresporingsposter i tabellen Reservationspost.](media/supply_planning_RTAM_2.png "forsyningsplanlægning_RTAM_2")  
 
-### Løbenumre 8 og 9  
+### <a name="entry-numbers--and-" />Løbenumre 8 og 9
  Ordresporingsposter til de to lotter af den komponent, der afspejler behovet i tabel 5407, ændres fra en reservationsstatus **Sporing** til **Overskud**. Årsagen er, at de forsyninger, som de var knyttet til tidligere, i tabel 32, er anvendt af overflytningsordren ved leverancen.  
 
  Ægte overskud, som i dette tilfælde, afspejler overskydende forsyning eller behov, som forbliver ikke-sporet. Det er en indikation af ubalance i ordrenetværket, der genererer en aktionsmeddelelse i planlægningssystemet, medmindre den er løst dynamisk.  
 
-### Løbenumre 12 og 16  
+### <a name="entry-numbers--to-" />Løbenumre 12 og 16
  Da de to lot'er af komponenten bogføres på overflytningsordren som leveret, men ikke modtaget, er alle relaterede positive ordresporingsposter af reservationstypen **Overskud**, hvilket angiver, at de ikke er allokeret til nogen behov. For hvert lotnummer relateres én post til tabel 5741, **Overflytningslinje**, og én post relateres til vareposten på den transitlokation, hvor varerne findes nu.  
 
  På dette tidspunkt i scenariet er overflytningsordren af komponenterne fra EAST til WEST lokation bogført som modtaget.  
@@ -173,14 +173,14 @@ På siden **Produktionsopsætning** er feltet **Komponenter på lokation** indst
 
  ![Fjerde eksempel på ordresporingsposter i tabellen Reservationspost.](media/supply_planning_RTAM_4.png "forsyningsplanlægning_RTAM_4")  
 
-### Løbenummer 21 og 22  
+### <a name="entry-numbers--and-" />Løbenummer 21 og 22
  Eftersom komponentbehovet er blevet ændret til lokationen EAST, og leveringen er tilgængelig som vareposter på lokationen EAST, er alle ordresporingsposter til de to lotnumre nu fuldt registreret, angivet ved reservationsstatus **Sporing**.  
 
  Feltet **Lotnr.** er nu udfyldt i ordresporingsposten for tabel 5407, fordi lotnumrene blev tildelt på produktionsordrelinjerne.  
 
  Hvis du ønsker flere eksempler på ordresporingsposter i tabellen **Reservationspost**, kan du se hvidbogen "Reservationsposttabel" på [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348) (kræver logon).
 
-## Aktionsmeddelelser  
+## <a name="action-messaging" />Aktionsmeddelelser
  Når ordresporingssystemet registrerer en ubalance i ordrenetværket, oprettes der automatisk en aktionsmeddelelse for at give brugeren besked. Aktionsmeddelelser er systemgenererede kald til brugerhandling, som angiver detaljerne omkring ubalancen, og forslagene til, hvordan der genoprettes balance i ordrenetværket. De vises som planlægningslinjer på siden **Planlægningskladde**, når du vælger **Hent aktionsmeddelelser**. Desuden vises der aktionsmeddelelser i planlægningslinjer, der er oprettet af kørslen for at afspejle planlægningssystemets forslag om at gendanne balance i ordrenetværket. I begge tilfælde køres forslagene på ordrenetværk, når du vælger **Udfør aktionsmeddelelse**.  
 
  En aktionsmeddelelse vedrører ét styklisteniveau ad gangen. Hvis brugeren accepterer aktionsmeddelelsen, kan dette give anledning til yderligere meddelelser på det næste niveau for styklisten.  
@@ -207,10 +207,10 @@ På siden **Produktionsopsætning** er feltet **Komponenter på lokation** indst
 
  Hvis der sker en reducering af behovsantal, forsøger ordresporingssystemet at løse ubalancen ved at udføre de forrige kontroller i omvendt rækkefølge. Det betyder, at eksisterende aktionsmeddelelser kan redigeres eller endda slettes, hvis det er nødvendigt. Ordresporingssystemet viser altid resultatet af dets beregninger for brugeren.  
 
-## Ordresporing og planlægning  
+## <a name="order-tracking-and-planning" />Ordresporing og planlægning
  Når planlægningssystemet kører, sletter det alle eksisterende ordresporingsposter og poster for aktionsmeddelelser og genopretter dem som planlægningslinjeforslag i henhold til forsyning/behov-par og prioriteter. Når den planlagte kørsel er færdig, er ordrenetværket i afstemt.  
 
-### Planlægningssystemet kontra ordresporing og aktionsmeddelelser  
+### <a name="planning-system-versus-order-tracking-and-action-messaging" />Planlægningssystemet kontra ordresporing og aktionsmeddelelser
  Følgende sammenligning viser forskelle mellem de metoder, der bruges af planlægningssystemet til at oprette planlægningslinjer, og de metoder, der bruges af ordresporingssystemet til at oprette ordresporingsposter og aktionsmeddelelser.  
 
 -   Planlægningssystemet vedrører hele forsynings- og behovsmønstret for en bestemt vare, hvorimod ordresporing beskæftiger sig med den ordre, der aktiverede den.  
@@ -223,7 +223,7 @@ På siden **Produktionsopsætning** er feltet **Komponenter på lokation** indst
 
 -   Planlægningssystemet opretter links i en brugeraktiveret batchtilstand, når det afstemmer behov og forsyning, hvorimod ordresporing opretter links automatisk og dynamisk, efterhånden som brugeren indtaster ordrer.  
 
-## Se også  
+## <a name="see-also" />Se også
 [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)   
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)
 

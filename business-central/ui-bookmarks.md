@@ -12,31 +12,31 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# Bogmærke en side eller en rapport i rollecenteret
+# <a name="bookmark-a-page-or-report-on-your-role-center" />Bogmærke en side eller en rapport i rollecenteret
 Med bogmærkeikonet kan du tilføje en handling, der åbner en side eller en rapport fra navigationsmenuen i dit rollecenter. Med bogmærker kan du hurtigt få adgang til dit foretrukne indhold eller dine forretningsopgaver. Du kan tilføje bogmærket fra målsiden eller rapporten, dvs. det skærmbillede, du vil have linket i rollecenteret til at åbne.
 
 Bogmærkeikonet vises i øverste højre hjørne af en side og også i vinduet **Fortæl mig**, hvor du effektivt kan indsætte bogmærker på flere sider eller rapporter. Hvis der allerede findes et bogmærke for siden, er ikonet mørkt, og der står "Med bogmærke" i værktøjstippet.
 
-## Sådan føjes et bogmærke til målsiden
+## <a name="to-bookmark-the-target-page" />Sådan føjes et bogmærke til målsiden
 1. Åbn en side, som du vil oprette et link til, i dit rollecenter.
 2. Vælg ikonet ![Bogmærke.](media/ui_bookmark_icon.png "Bogmærke") ikon.
 
 En handling, der er navngivet efter siden, føjes nu til navigationsmenuen i dit rollecenter.
 
-## Sådan føjes et bogmærke til målrapporten
+## <a name="to-bookmark-the-target-report" />Sådan føjes et bogmærke til målrapporten
 1. Åbn en rapportanmodningsside, som du vil oprette et link til, i dit rollecenter.
 2. Vælg ikonet ![Bogmærke.](media/ui_bookmark_icon.png "Bogmærke") ikon.
 
 En handling, der er navngivet efter rapporten, føjes nu til navigationsmenuen i dit rollecenter.
 
-## Sådan oprettes et bogmærke til en side eller en rapport fra vinduet Fortæl mig
+## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window" />Sådan oprettes et bogmærke til en side eller en rapport fra vinduet Fortæl mig
 1. Åbn vinduet **Fortæl mig**, og angiv f.eks. **Salgsordrer**.
 2. Peg på søgeresultatet for siden eller rapporten **Salgsordrer**, og vælg derefter ikonet ![Bogmærke.](media/ui_bookmark_icon.png "Bogmærke") ikon.
 
 En handling, der er navngivet efter siden eller rapporten, føjes nu til navigationsmenuen i dit rollecenter.
 
 
-## Ofte stillede spørgsmål  
+## <a name="frequently-asked-questions" />Ofte stillede spørgsmål
 
 - **Kan jeg omarrangere mine bogmærker?**  
 Ja. Du kan tilpasse rollecenteret og placere handlinger i en mere optimal rækkefølge eller flytte dem til eksisterende grupper eller undergrupper.  
@@ -76,7 +76,7 @@ Når du tilføjer en ny handling, bogmærkes oversat tekst, der var tilgængelig
 - **Hvorfor kan jeg ikke tilføje tekst på en side direkte, når den er åbnet med bogmærket?**<br> Når der oprettes et bogmærke til en side, åbnes siden altid i visningstilstand fra bogmærket, selvom den var i redigeringstilstand, da den blev bogmærket. Hvis du vælger indstillingen **Foretag ændringer på side**-ikonet, ![vises blyantsikonet for at redigere siden.](media/edit-pencil.png) giver dig mulighed for at tilføje tekst i de felter, der kan redigeres.
 
 
-## Se også
+## <a name="see-also" />Se også
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  

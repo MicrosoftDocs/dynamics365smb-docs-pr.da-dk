@@ -8,15 +8,15 @@ ms.search.form: 'Report_5600, Report_5601, Report_5603, Report_5604, Report_5605
 ms.date: 07/13/2021
 ms.author: edupont
 ---
-# Anlægsrapporter og analyser i Business Central
+# <a name="fixed-assets-reports-and-analytics-in-business-central" />Anlægsrapporter og analyser i Business Central
 
 Som en hjælp til styring af anlægsaktiverne i [!INCLUDE [prod_short](includes/prod_short.md)], standardrapporter og analyser indbyggede. Den flyttes udover traditionelle rapporterings begrænsninger for at gøre det nemmere at designe forskellige typer rapporter.  
 
-## Rapporter
+## <a name="reports" />Rapporter
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
-## Se også
+## <a name="see-also" />Se også
 
 [Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md)  
 [Arbejde med dimensioner](finance-dimensions.md)  

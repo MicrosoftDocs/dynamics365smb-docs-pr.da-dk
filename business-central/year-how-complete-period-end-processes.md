@@ -10,11 +10,11 @@ ms.search.keywords: 'year closing, close accounting period, close fiscal year, a
 ms.date: 08/29/2022
 ms.author: jswymer
 ---
-# Oversigt over opgaver til afslutning af regnskabsperioder
+# <a name="overview-of-tasks-to-close-accounting-periods" />Oversigt over opgaver til afslutning af regnskabsperioder
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tvinger dig ikke at lukke perioder, men der er mange periodeafslutnings- (månedsafslutning) aktiviteter, du kan udføre. Dette emne indeholder en oversigt over valgfrie processer og aktiviteter til afslutning af perioder.  
 
-## Finans
+## <a name="general-ledger" />Finans
 
 * Angiv bogføringsperioder, som enten er brugerspecifikke, eller som gælder på tværs af hele systemet.  
 
@@ -25,7 +25,7 @@ ms.author: jswymer
 * Kør regnskabsrapporter på følgende måde:  
   * Åbn siden **Finansrapporter**, og vælg derefter handlingen **Udskriv**.  
 
-## Salg og tilgodehavender
+## <a name="sales-and-receivables" />Salg og tilgodehavender
 
 * Bogfør alle salgsordrer, fakturaer, kreditnotaer og returvareordrer.  
 * Bogfør alle indbetalingskladder.  
@@ -33,7 +33,7 @@ ms.author: jswymer
 * Afstem aldersfordelte tilgodehavender, med finansposterne.  
 * Udfør kørslen **Slet fakturerede salgsordrer**.  
 
-## Køb og gæld
+## <a name="purchases-and-payables" />Køb og gæld
 
 * Bogfør alle købsordrer, fakturaer, kreditnotaer og returvareordrer.  
 * Bogfør alle udbetalingskladder.  
@@ -41,7 +41,7 @@ ms.author: jswymer
 * Udfør rapporten **Aldersfordelt gæld**, og afstem gæld med finansposterne.  
 * Udfør kørslen **Slet fakturerede købsordrer**.  
 
-## Anlæg
+## <a name="fixed-assets" />Anlæg
 
 * Bogfør alle vedligeholdelsesomkostninger via anlægskladderne eller fakturaerne
 * Bogfør reguleringer.
@@ -49,17 +49,17 @@ ms.author: jswymer
 * Bogfør nedskrivning.
 * Opdater og bogfør anlægsgentagelseskladden.
 
-## Intercompany-handel
+## <a name="intercompany" />Intercompany-handel
 
 * Behandle koncerninterne transaktioner.
 
-## Beregn og behandl moms
+## <a name="calculate-and-process-sales-tax" />Beregn og behandl moms
 
 * Udfyld momsangivelser.  
 
-## Se relateret [Microsoft-træning](/training/modules/close-fiscal-year-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Afslutning af år og perioder](year-close-years-periods.md)  
 [Afslutningregnskab](year-close-books.md)  

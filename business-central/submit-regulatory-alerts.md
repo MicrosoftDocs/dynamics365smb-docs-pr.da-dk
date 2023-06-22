@@ -8,11 +8,11 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: soalex
 ---
-# Sende påmindelser om lande-/områdespecifikke lovgivningsmæssige funktioner
+# <a name="submit-alerts-about-countryregion-specific-regulatory-features" />Sende påmindelser om lande-/områdespecifikke lovgivningsmæssige funktioner
 
 Du inviteres til at bruge Microsoft Dynamics Lifecycle Services (LCS) til at sende lovgivningsmæssige påmindelser via Dynamics-tjenesten til afsendelse af lovgivningsmæssige påmindelser.  
 
-## Sådan sendes en lovgivningsmæssig påmindelse i LCS
+## <a name="to-submit-a-regulatory-alert-in-lcs" />Sådan sendes en lovgivningsmæssig påmindelse i LCS
 
 1. Gå til [https://lcs.dynamics.com](https://lcs.dynamics.com), og log på  
 
@@ -65,14 +65,14 @@ Du inviteres til at bruge Microsoft Dynamics Lifecycle Services (LCS) til at sen
 
       Når du har sendt påmindelsen, får du en bekræftelse af, at beskeden blev sendt til Microsoft.
 
-## Se også
+## <a name="see-also" />Se også
 
 [Lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Ændre sprog og landestandard](about-locale-language.md)  
 [Blive køreklar](ui-get-ready-business.md)  
 [Velkommen til Business Central](welcome.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

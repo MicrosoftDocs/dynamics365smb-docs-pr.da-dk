@@ -9,7 +9,7 @@ ms.date: 03/24/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# Oprette brugere i henhold til licenser
+# <a name="create-users-according-to-licenses" />Oprette brugere i henhold til licenser
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -22,7 +22,7 @@ Du kan finde flere oplysninger om de forskellige typer licenser, og hvordan lice
 > [!NOTE]
 > Processen med at administrere brugere og licenser afhænger af, om [!INCLUDE[prod_short](includes/prod_short.md)] er installeret online eller i det lokale miljø. For [!INCLUDE [prod_short](includes/prod_short.md)] online skal du tilføje brugere fra Microsoft 365. I lokale installationer kan du oprette, redigere og slette brugere direkte.  
 
-## Administrere brugere og licenser i onlinelejere
+## <a name="manage-users-and-licenses-in-online-tenants" />Administrere brugere og licenser i onlinelejere
 
 Brugerkonti i [!INCLUDE[prod_short](includes/prod_short.md)] skal oprettes først i Microsoft 365 Administration. Disse brugerkonti er ikke udelukkende til Business Central. Hvis du abonnerer på andre planer, kan de bruges til at logge på andre programmer, f.eks. Power BI. Du kan finde oplysninger om oprettelse af brugere i Microsoft 365 Administration ved at gå til [Tilføj brugere i Microsoft Administration](/microsoft-365/admin/add-users/add-users).
 
@@ -54,7 +54,7 @@ Begge metoder har deres egne fordele, og du kan bruge dem samtidig. Hver fremgan
 
 Du kan finde flere oplysninger i [Delegeret administratoradgang til Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="licensespermissions"></a>Konfigurer tilladelser baseret på licenser
+### <a name="a-namelicensespermissionsaconfigure-permissions-based-on-licenses" /><a name="licensespermissions"></a>Konfigurer tilladelser baseret på licenser
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -84,7 +84,7 @@ Hvis denne standardkonfiguration ikke er den korrekte opsætning for et bestemt 
 > [!IMPORTANT]
 > Denne tilpasning af tilladelser træder kun i kraft for nye brugere, som du tildeler den relevante licens. Eksisterende brugere opdateres ikke. Det anbefales, at du tilpasser tilladelserne, inden du begynder at tildele brugere licenser i Microsoft 365 Administrationscenter.
 
-### <a name="adduser"></a>Sådan tilføjer du en bruger eller opdaterer brugeroplysninger og licenstildelinger i Business Central
+### <a name="a-nameadduserato-add-users-or-update-user-information-and-license-assignments-in-business-central" /><a name="adduser"></a>Sådan tilføjer du en bruger eller opdaterer brugeroplysninger og licenstildelinger i Business Central
 
 Når du har tilføjet brugere eller ændret brugeroplysninger i Microsoft 365 Administration, kan du hurtigt importere bruger oplysningerne til [!INCLUDE[prod_short](includes/prod_short.md)]. Importen omfatter licenstildelinger.  
 
@@ -108,7 +108,7 @@ Du kan få flere oplysninger om synkronisering af brugeroplysninger med Microsof
 > [!NOTE]
 > Hvis du bruger en ekstern revisor til at administrere dine regnskaber og regnskabsaflæggelse, kan du invitere ham eller hende indenfor i din [!INCLUDE[prod_short](includes/prod_short.md)], så de kan samarbejde med dig om dine regnskabsdata. Du kan finde flere oplysninger i [Inviter din eksterne revisor til at deltage i din Business Central](finance-accounting.md#inviteaccountant).
 
-### Sådan fjernes en brugers adgang til systemet
+### <a name="to-remove-a-users-access-to-the-system" />Sådan fjernes en brugers adgang til systemet
 
 I onlineinstallationer kan du fjerne en brugers adgang til [!INCLUDE[prod_short](includes/prod_short.md)]. Alle referencer til brugeren bevares. Men brugeren kan ikke logge på og aktive sessioner for brugeren stoppes.
 
@@ -118,7 +118,7 @@ I onlineinstallationer kan du fjerne en brugers adgang til [!INCLUDE[prod_short]
 
 Du kan også fjerne licensen fra en bruger i Microsoft 365 Administration. Brugeren kan derefter ikke logge på. Du kan få flere oplysninger i [Fjerne licenser fra brugere](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="m365"></a>Synkronisering med Microsoft 365
+### <a name="a-namemasynchronization-with-microsoft-" /><a name="m365"></a>Synkronisering med Microsoft 365
 
 Når du fjerner tildelingen af en licens til [!INCLUDE[prod_short](includes/prod_short.md)] for en bruger i Microsoft 365, kan du oprette brugeren i [!INCLUDE[prod_short](includes/prod_short.md)] på to måder.  
 
@@ -143,13 +143,13 @@ Få mere at vide om at sikre adgang til miljøer med sikkerhedsgrupper i [Admini
 
 Få et overblik over, hvordan du åbner [!INCLUDE[prod_short](includes/prod_short.md)] i Teams med Microsoft 365-licenser i [admin-access-with-m365-license](admin-access-with-m365-license.md).
 
-## Administrere brugere og licenser i Installationer på stedet
+## <a name="manage-users-and-licenses-in-on-premises-deployments" />Administrere brugere og licenser i Installationer på stedet
 
 I installationer i det lokale miljø er der angivet et antal brugerlicenser i licensfilen (.bclicense or .flf). Når en administrator eller Microsoft-partneren overfører licensfilen, kan de angive, hvilke brugere der kan logge på [!INCLUDE[prod_short](includes/prod_short.md)].
 
 I forbindelse med installationer i det lokale miljø opretter redigerer og sletter administratoren brugere direkte fra siden **Brugere.**
 
-### Sådan redigeres eller slettes en bruger i en lokal installation
+### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment" />Sådan redigeres eller slettes en bruger i en lokal installation
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugere**, og vælg derefter det relaterede link.
 2. Vælg den bruger, som du vil redigere, og vælg derefter handlingen **Rediger**.
@@ -161,7 +161,7 @@ I forbindelse med installationer i det lokale miljø opretter redigerer og slett
 >
 > Du kan finde flere oplysninger i [Godkendelse og typer af legitimationsoplysninger](/dynamics365/business-central/dev-itpro/administration/users-credential-types) i administrationens Hjælp til [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Se også
+## <a name="see-also" />Se også
 
 [Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
 [Administrere profiler](admin-users-profiles-roles.md)  

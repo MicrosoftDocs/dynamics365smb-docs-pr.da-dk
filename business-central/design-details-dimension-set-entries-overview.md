@@ -10,10 +10,10 @@ ms.search.keywords: dimension
 ms.date: 06/14/2021
 ms.author: edupont
 ---
-# Oversigt over dimensionsgruppeposter
+# <a name="dimension-set-entries-overview" />Oversigt over dimensionsgruppeposter
 Dette emne beskriver, hvordan dimensionsgruppeposter gemmes og bogføres i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Dimensionsopsætninger  
+## <a name="dimension-sets" />Dimensionsopsætninger
 En dimensionsgruppe er en entydig kombination af dimensionsværdier. Det er gemt som dimensionsgruppeposter i databasen. Hver dimensionsgruppepost repræsenterer en enkelt dimensionsværdi. Dimensionsgruppen er identificeret med en fælles dimensionsgruppe-id, der tildeles til hver dimensionsgruppepost, der hører til dimensionsgruppen.  
 
 Følgende eksempel viser en dimensionsgruppe, der har tre poster for dimensionsgruppe . Dimensionsgruppe er identificeret med en dimensionsgruppe-id, som er 108.  
@@ -24,7 +24,7 @@ Følgende eksempel viser en dimensionsgruppe, der har tre poster for dimensionsg
 |108|FORRETNINGSGRUPPE|HOME|Start|  
 |108|AFDELING|SALG|Salg|  
 
-## Dimensionsgruppeposter  
+## <a name="dimension-set-entries" />Dimensionsgruppeposter
 Dimensionsgrupper er gemt i tabellen **Dimensionsgruppepost** som dimensionsgruppeposter med samme dimensionsgruppe-id.  
 
 ![Flow af dimensionsgruppeposter.](media/dimensionentrynav7.png "Flow af dimensionsgruppeposter")  
@@ -33,13 +33,13 @@ Når du opretter en ny kladdelinje, et nyt bilagshoved eller en ny bilagslinje, 
 
 Når du redigerer og lukker siden **Rediger dimensionsgruppeposter** udføres en kontrol for at se, om kombinationen af dimensionsværdier findes som en dimensionsgruppe i tabellen. Hvis kombinationen findes i tabellen, tildeles den tilsvarende dimensionsgruppe-id til kladdelinjen, bilagshovedet eller bilagslinjen. Ellers tilføjes en ny dimensionsgruppe til tabellen, og den nye dimensionsgruppe-id knyttes til kladdelinjen, bilagshovedet eller bilagslinjen.
 
-## Codeunit 408 Dimensionsstyring
+## <a name="codeunit--dimension-management" />Codeunit 408 Dimensionsstyring
 Codeunit 408 Dimensionsstyring er et funktionsbibliotek, der håndterer almindelige opgaver, der er relateret til dimensioner, f.eks. kopiering fra én tabel til en anden eller fra et dokument til en andet.
 
-## Forbedring af ydeevne  
+## <a name="performance-improvement" />Forbedring af ydeevne
 Ved at gemme dimensionsgrupper én gang i databasen gemmes der plads i databasen, og den overordnede ydeevne forbedres.  
 
-## Se også
+## <a name="see-also" />Se også
 [Designoplysninger: Søgning efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)   
 [Designoplysninger: Tabelstruktur](design-details-table-structure.md)   
 [Designoplysninger: Dimensionsgruppeposter](/dynamics365/business-central/design-details-dimension-set-entries-overview)   

@@ -8,11 +8,11 @@ ms.search.form: '2500, 2502, 20350, 20353'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# Tilpasse Business Central Online med apps
+# <a name="customizing-business-central-online-with-apps" />Tilpasse Business Central Online med apps
 
 Du kan ændre [!INCLUDE[prod_short](includes/prod_short.md)] online ved at installere apps, der f.eks. tilføjer funktioner, ændrer funktionsmåder eller giver dig adgang til nye onlinetjenester. Disse apps kaldes også *udvidelser*, fordi de *udvider* [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## Administrere apps
+## <a name="manage-apps" />Administrere apps
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -49,7 +49,7 @@ Nogle apps er fra Microsoft, mens andre apps leveres af [andre virksomheder](ui-
 > [!NOTE]  
 > Du kan holde øje med nye apps fra Microsoft og andre leverandører på [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
-## Apps og dataoverførsel
+## <a name="apps-and-data-transfer" />Apps og dataoverførsel
 
 Da følgende apps kommunikerer med andre tjenester, kan de overføre data uden for [!INCLUDE[prod_short](includes/prod_short.md)]-miljøet:
 
@@ -69,7 +69,7 @@ Dette gælder også nogle funktioner i basisprogrammet, f.eks. følgende funktio
 * Online kort
 * EU-momsregistreringsnr. Tjeneste
 
-## Opret forbindelse til din virksomhed
+## <a name="connect-your-business" />Opret forbindelse til din virksomhed
 
 Fra 2022 udgivelsesbølge 2 kan [!INCLUDE [prod_short](includes/prod_short.md)] onlinemiljøer vise en liste over en eller flere apps på siderne **forbindelsesapps** og **Bank-apps**. Disse apps kan oprette forbindelse mellem din virksomhed og eksterne tjenester for at øge produktiviteten ved at automatisere processerne. Du kan f. eks. oprette forbindelse til banker og automatisk importere banktransaktioner. Det er nemt at installere og konfigurere apps direkte fra denne side. Vælg en app for at få mere at vide om egenskaber og priser.  
 
@@ -80,16 +80,16 @@ Vis listen over foreslåede apps ved at vælge handlingen **Forbindelses-apps** 
 
 Denne eksterne tjeneste opretter en liste over relevante apps, der er baseret på dit land eller område
 
-## Anbefalede apps
+## <a name="recommended-apps" />Anbefalede apps
 
 Microsoft-partnere og -forhandlere kan oprette en app, som de kan bruge til at kompilere lister over apps, som de ofte anbefaler til deres kunder. Hvis de gør det og har installeret appen til din lejer, vil appsene være tilgængelige på siden **Anbefalede apps**. Der kan du læse om hver app og beslutte, om du vil installere dem.
 
 > [!NOTE]
 > Hvis du er Microsoft-partner eller -forhandler, og du er interesseret i at levere en liste over anbefalede apps, skal du se [Anbefal apps fra AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) i administrationsindholdet.
 
-## Se relateret [Microsoft-træning](/training/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/customize-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Installere og afinstallere apps](ui-extensions-install-uninstall.md)  
 [Tilpasse Business Central](ui-customizing-overview.md)  
@@ -101,7 +101,7 @@ Microsoft-partnere og -forhandlere kan oprette en app, som de kan bruge til at k
 [[!INCLUDE[prod_short](includes/prod_short.md)]-apps fra andre leverandører](ui-extensions-other.md)  
 [Blive køreklar](ui-get-ready-business.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

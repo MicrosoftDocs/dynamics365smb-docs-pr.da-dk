@@ -7,10 +7,10 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Udskrive rapporter til afstemning af moms
+# <a name="print-vat-reconciliation-reports" />Udskrive rapporter til afstemning af moms
 I [!INCLUDE[prod_short](../../includes/prod_short.md)] kan du bruge rapporten **Momsafstemning** til at få vist en oversigt over finanskonti med deres grundlæggende beløb og momsbeløb. Disse beløb er grupperet efter moms-type for at hjælpe med afstemningen for afregning af moms.  
 
-### Sådan udskrives en momsafstemningsrapport  
+### <a name="to-print-a-vat-reconciliation-report" />Sådan udskrives en momsafstemningsrapport
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **momsafstemning**, og derefter vælge det relaterede link.  
 2.  I oversigtspanelet **Indstillinger** skal du udfylde felterne som beskrevet i følgende tabel.  
@@ -23,7 +23,7 @@ I [!INCLUDE[prod_short](../../includes/prod_short.md)] kan du bruge rapporten **
 3.  I oversigtspanelet **Finanspost** skal du vælge de relevante filtre.  
 4.  Vælg **Udskriv** for at udskrive rapporten, eller vælg **Vis udskrift** for at se den på skærmen.  
 
-## Se også  
+## <a name="see-also" />Se også
  [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
 
 

@@ -10,7 +10,7 @@ ms.search.form: '118, 314, 395'
 ms.date: 04/03/2023
 ms.author: edupont
 ---
-# Arbejde med betalingstolerancer og kontantrabattolerancer
+# <a name="work-with-payment-tolerances-and-payment-discount-tolerances" />Arbejde med betalingstolerancer og kontantrabattolerancer
 
 Du kan angive en betalingstolerance for at afslutte en faktura, når betalingen ikke fuldt ud dækker beløbet på fakturaen. Betalingstolerancer er for eksempel typisk for små beløb, der ellers ville være dyrere at rette end bare at acceptere. Du kan angive en kontantrabattolerance til at give kontantrabat, efter at kontantrabatdatoen er overskredet.  
 
@@ -18,7 +18,7 @@ Brug betalingstolerancer, så alle udestående beløb har en angivet maksimal ti
 
 Du kan bruge kontantrabattolerancer, så hvis du accepterer en kontantrabat efter kontantrabatdatoen, bogføres den altid på enten kontantrabatkontoen eller en betalingstolerancekonto.
 
-## Anvendelse af betalingstolerance for flere dokumenter
+## <a name="applying-payment-tolerance-to-multiple-documents" />Anvendelse af betalingstolerance for flere dokumenter
 
 Et enkelt dokument har den samme betalingstolerance, hvad enten det bruges individuelt eller sammen med andre dokumenter. Accept af forsinket kontantrabat, når du anvender betalingstolerance på flere dokumenter, finder automatisk sted for hvert dokument, hvor følgende regel gælder:  
 
@@ -36,7 +36,7 @@ Du kan vælge at vise en advarsel, der er baseret på tolerance i forskellige si
 
 Du kan finde flere oplysninger i [Sådan aktiveres eller deaktiveres betalingstoleranceadvarsel](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings). 
 
-## Sådan opsættes tolerancer
+## <a name="to-set-up-tolerances" />Sådan opsættes tolerancer
 
 Tolerancer på dato eller beløb giver dig mulighed for at afslutte en faktura, også selvom den ikke dækker fakturabeløbet fuldt ud. F. eks. fordi forfaldsdatoen for kontantrabatten er overskredet, er varerne fratrukket eller pga. en mindre fejl. Det samme gælder for refusioner og kreditnotaer.  
 
@@ -70,7 +70,7 @@ Hvis du skal opsætte tolerancer, skal du oprette forskellige tolerancekonti. Du
 > [!IMPORTANT]  
 > Når du aktiverer feltet **Reguler moms ved kontantrabat** på siden **Momsbogføringsopsætning**, anses momsbeløbet for at være relateret til **betalingstolerancer** og **kontantrabat**-beløb og moms reduceres for begge transaktionsbeløb, hvis de findes. Systemet kan ikke konfigureres til kun at anvende momsreduktion for én type transaktion.  
 
-## Sådan aktiveres eller deaktiveres betalingstoleranceadvarsler
+## <a name="to-enable-or-disable-payment-tolerance-warnings" />Sådan aktiveres eller deaktiveres betalingstoleranceadvarsler
 
 Advarslen om betalingstolerance vises, når du bogfører en udligning, der har en saldo i den tilladte tolerance. Du kan derefter vælge, hvordan du vil bogføre og dokumentere saldoen.    
 1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Finans**, og vælg derefter det relaterede link.  
@@ -79,7 +79,7 @@ Advarslen om betalingstolerance vises, når du bogfører en udligning, der har e
 > [!NOTE]  
 > Standardindstillingen for siden **Betalingstolerance - advarsel** er **Lad saldoen stå som restbeløb**. Standardindstillingen for siden **Kontantrabattolerance - advarsel** er **Afvis den forsinkede kontantrabat**.
 
-## Sådan spærres betalingstolerancer for debitorer
+## <a name="to-block-payment-tolerance-for-customers" />Sådan spærres betalingstolerancer for debitorer
 
 Standardindstillingen for betalingstolerancer er tilladt. Hvis du vil afvise betalingstolerancer for en bestemt debitor eller kreditor, skal du spærre tolerancer på henholdsvis debitor- eller kreditorkortet. Følgende beskriver, hvordan du skal gøre det for en debitor. Trinene er de samme for en kreditor.
 
@@ -89,7 +89,7 @@ Standardindstillingen for betalingstolerancer er tilladt. Hvis du vil afvise bet
 > [!NOTE]  
 > Hvis debitoren eller kreditoren har åbne poster, skal du først fjerne betalingstolerancer fra poster, der aktuelt er åbne.
 
-## Eksempel 1 – Toleranceberegninger for et enkelt bilag
+## <a name="example----tolerance-calculations-for-a-single-document" />Eksempel 1 – Toleranceberegninger for et enkelt bilag
 
 Nedenfor findes nogle eksempelscenarier, som viser de forventede toleranceberegninger og -bogføringer, der kan opstå i forskellige situationer.  
 
@@ -123,11 +123,11 @@ Scenarier med alternativ A eller B repræsenterer følgende:
 |14|1.000|20|5|01/15/03|01/20/03|>01/20/03|980|Ingen|Nr., 20 på fakturaen|0|0|  
 |15|1.000|20|5|01/15/03|01/20/03|>01/20/03|975|Ingen|Nr., 25 på fakturaen|0|0|  
 
-### Betalingsområdediagrammer
+### <a name="payment-range-diagrams" />Betalingsområdediagrammer
 
 I forbindelse med ovenstående scenarie er diagrammerne over betalingsintervaller som følger:  
 
-#### (1) Betalingsdato <=15-01-03 (scenarie 1-3)
+#### <a name="-payment-date--scenarios--" />(1) Betalingsdato <=15-01-03 (scenarie 1-3)
 
 Restbeløb pr.  
 
@@ -139,7 +139,7 @@ Normale udligningsregler
 
 (2) Hvis betaling falder i disse intervaller, er det ikke alle udligningsposter, der kan lukkes, selvom der anvendes tolerance.  
 
-#### (2) Betalingsdato er mellem 16.01.03 og 20.01.03 (scenarie 4-9)
+#### <a name="-payment-date-is-between--and--scenarios--" />(2) Betalingsdato er mellem 16.01.03 og 20.01.03 (scenarie 4-9)
 
 Restbeløb pr.  
 
@@ -151,7 +151,7 @@ Normale udligningsregler
 
 (2) Hvis betaling falder i disse intervaller, er det ikke alle udligningsposter, der kan lukkes, selvom der anvendes tolerance.  
 
-#### (3) Betalingsdato er efter 20.01.03 (scenarie 10-15)
+#### <a name="-payment-date-is-after--scenarios--" />(3) Betalingsdato er efter 20.01.03 (scenarie 10-15)
 
 Restbeløb pr.  
 
@@ -163,7 +163,7 @@ Normale udligningsregler
 
 (2) Hvis betaling falder i disse intervaller, er det ikke alle udligningsposter, der kan lukkes, selvom der anvendes tolerance.  
 
-## Eksempel 2 – Toleranceberegninger for flere bilag
+## <a name="example----tolerance-calculations-for-multiple-documents" />Eksempel 2 – Toleranceberegninger for flere bilag
 
 Nedenfor findes nogle eksempelscenarier, som viser de forventede toleranceberegninger og -bogføringer, der kan opstå i forskellige situationer. Eksemplerne er begrænset til de scenarier, der resulterer i, at alle poster i systemet kan lukkes.  
 
@@ -211,11 +211,11 @@ Scenarier med alternativ A, B, C eller D repræsenterer følgende:
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**01/15/03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**>22-01-03**|**2000**|**Ingen**|**Ja**|**0**|**0**|  
 |30|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|>22-01-03|1990|Betalingstolerance|Ja|0|5|  
 
-### Betalingsområdediagrammer
+### <a name="payment-range-diagrams" />Betalingsområdediagrammer
 
 I forbindelse med ovenstående scenarie er diagrammerne over betalingsintervaller som følger:  
 
-#### (1) Betalingsdato <=15-01-03 (scenarie 1-3)
+#### <a name="-payment-date--scenarios--" />(1) Betalingsdato <=15-01-03 (scenarie 1-3)
 
 Restbeløb pr.  
 
@@ -227,7 +227,7 @@ Normale udligningsregler
 
 (2) Hvis betaling falder i disse intervaller, er det ikke alle udligningsposter, der kan lukkes, selvom der anvendes tolerance.  
 
-#### (2) Betalingsdato er mellem 16.01.03 og 17.01.03 (scenarie 4-9)
+#### <a name="-payment-date-is-between--and--scenarios--" />(2) Betalingsdato er mellem 16.01.03 og 17.01.03 (scenarie 4-9)
 
 Restbeløb pr.  
 
@@ -239,7 +239,7 @@ Normale udligningsregler
 
 (2) Hvis betaling falder i disse intervaller, er det ikke alle udligningsposter, der kan lukkes, selvom der anvendes tolerance.  
 
-#### (3) Betalingsdato er mellem 18.01.03 og 20.01.03 (scenarie 10-21)
+#### <a name="-payment-date-is-between--and--scenarios--" />(3) Betalingsdato er mellem 18.01.03 og 20.01.03 (scenarie 10-21)
 
 Restbeløb pr.  
 
@@ -251,7 +251,7 @@ Normale udligningsregler
 
 (2) Hvis betaling falder i disse intervaller, er det ikke alle udligningsposter, der kan lukkes, selvom der anvendes tolerance.  
 
-#### (4) Betalingsdato er mellem 21-01-03 og 22-01-03 (scenarie 22-27)
+#### <a name="-payment-date-is-between--and--scenarios--" />(4) Betalingsdato er mellem 21-01-03 og 22-01-03 (scenarie 22-27)
 
 Restbeløb pr.  
 
@@ -263,7 +263,7 @@ Normale udligningsregler
 
 (2) Hvis betaling falder i disse intervaller, er det ikke alle udligningsposter, der kan lukkes, selvom der anvendes tolerance.  
 
-#### (5) Betalingsdato er efter 22-01-03 (scenarie 28-30)
+#### <a name="-payment-date-is-after--scenarios--" />(5) Betalingsdato er efter 22-01-03 (scenarie 28-30)
 
 Restbeløb pr.  
 
@@ -275,9 +275,9 @@ Normale udligningsregler
 
 (2) Hvis betaling falder i disse intervaller, er det ikke alle udligningsposter, der kan lukkes, selvom der anvendes tolerance.
 
-## Se relateret [Microsoft-træning](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/enter-payments-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  

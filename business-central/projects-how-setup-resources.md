@@ -11,7 +11,7 @@ ms.search.form: '72, 76, 77, 203, 204'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Konfigurere ressourcer for projekter
+# <a name="set-up-resources-for-projects" />Konfigurere ressourcer for projekter
 
 For at kunne administrere ressourceaktiviteterne korrekt skal du oprette ressourcerne og de tilhørende omkostninger og priser. De sagsrelaterede pris-, rabat- og kostfaktorregler oprettes på jobkortet. Du kan angive omkostninger og priser for individuelle ressourcer, ressourcegrupper eller alle tilgængelige ressourcer i virksomheden.
 
@@ -25,7 +25,7 @@ Du kan angive standardbeløbet pr. time, når ressourcen oprettes. Hvis du f.eks
 >  
 > Hvis du bogfører IC-transaktioner, men du kan få en ressource til en linje på en salgsordre, og du konverterer salgsordren til en købsordre på modtagelses siden, medtages ressourcen ikke. Hvis du vil bruge ressourcer i IC-transaktioner, skal du bruge feltet **Finanskt.nr. for IC-partnerkøb** på ressourcekortet til at angive den konto, som udgifterne skal bogføres til.
 
-## Sådan defineres en ressource
+## <a name="to-set-up-a-resource" />Sådan defineres en ressource
 
 Opret et kort for hver ressource, du vil bruge i projekter.
 
@@ -33,7 +33,7 @@ Opret et kort for hver ressource, du vil bruge i projekter.
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Sådan oprettes en ressourcegruppe
+## <a name="to-set-up-a-resource-group" />Sådan oprettes en ressourcegruppe
 
 Du kan samle flere forskellige ressourcer i en ressourcegruppe. Ressourcegruppens kapaciteter og budgetter bliver akkumuleret fra de enkelte ressourcer i gruppen. Du kan også indtaste kapaciteter for ressourcegrupper, enten uafhængigt af de akkumulerede værdier eller som supplement til dem.
 
@@ -41,7 +41,7 @@ Du kan samle flere forskellige ressourcer i en ressourcegruppe. Ressourcegruppen
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne efter behov.
 
-## Sådan angives kapaciteten for en ressource
+## <a name="to-set-capacity-for-a-resource" />Sådan angives kapaciteten for en ressource
 
 For at beregne, hvor lang tid en ressource kan bruge på sager, skal der først ressourcenes kapacitet først angives som disponible tid pr. periode i arbejdskalenderen. Denne opsætning anvendes, når du udfylder sagsplanlægningslinjer, som indeholder ressourcen. Du kan finde flere oplysninger i [Oprette sager](projects-how-create-jobs.md).
 
@@ -54,7 +54,7 @@ For at beregne, hvor lang tid en ressource kan bruge på sager, skal der først 
 7. Vælg handlingen **Opdater kapacitet**. Siden **Ressourcekapacitet** opdateres med den angivne kapacitet.
 8. Luk siden.
 
-## Sådan angives ressourcekostpriser
+## <a name="to-set-up-alternate-resource-costs" />Sådan angives ressourcekostpriser
 
 Udover de omkostninger, der er angivet på ressourcekortet, kan du oprette alternative omkostninger for hver ressource. Hvis en medarbejder f.eks. har en højere timesats for overarbejde, kan du i denne tabel oprette en ressourcekostpris for overtidsbetalingen. Den alternative kostpris, du angiver for ressourcen, tilsidesætter kostprisen på ressourcekortet, når du bruger ressourcen i ressourcekladden.
 
@@ -65,7 +65,7 @@ Udover de omkostninger, der er angivet på ressourcekortet, kan du oprette alter
 
 **Bemærk**! Åbn siden **Ressourcekostpriser** og udfyld felterne for at angive ressourcekostpriser, der kan anvendes til alle ressourcer og ressourcegrupper.
 
-## Sådan angives ressourcepriser
+## <a name="to-set-up-alternate-resource-prices" />Sådan angives ressourcepriser
 
 Udover den pris, der er angivet på ressourcekortet, kan du oprette alternative priser for hver ressource. Alternative priser kan være betingede. De kan være betinget af, om ressourcen anvendes med et bestemt job eller en bestemt arbejdstype.
 
@@ -74,9 +74,9 @@ Udover den pris, der er angivet på ressourcekortet, kan du oprette alternative 
 3. På siden **Ressourcesalgspriser** skal du udfylde felterne på en linje efter behov.
 4. Gentag trin 3 for hver alternativ ressourcepris, du vil oprette.
 
-## Se relateret [Microsoft-træning](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Se relateret [Microsoft-træning](/training/paths/set-up-jobs-resources/)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Konfigurere projektstyring](projects-setup-projects.md)  
 [Projektstyring](projects-manage-projects.md)  

@@ -8,13 +8,13 @@ ms.topic: overview
 ms.date: 03/16/2023
 ms.custom: bap-template
 ---
-# Oversigt over AI-styret marketingtekst med element (forhåndsversion) med Copilot
+# <a name="overview-of-ai-powered-item-marketing-text-preview-with-copilot" />Oversigt over AI-styret marketingtekst med element (forhåndsversion) med Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
 Denne artikel giver en oversigt over den AI-drevne facilitet, der leveres af CoPilot, i Business central.
 
-## Hvad er AI-drevet marketingtekst med Copilot
+## <a name="what-is-ai-powered-item-marketing-text-with-copilot" />Hvad er AI-drevet marketingtekst med Copilot
 
 CoPilot giver mulighed for AI-drevet skrivning til Business Central-brugere, som har ansvaret for at udarbejde marketingtekst (produktbeskrivelser) på varer, der sælges i onlinebutikker, som Shopify. Med et klik på en knap genereres CoPilot tekst, der har spændende, kreative og centrale punkter for det specifikke element. Med en smule korrektur og redigering er den klar til at blive udgivet.
 
@@ -26,13 +26,13 @@ CoPilot bruger [Microsoft Azure OpenAI service](/azure/cognitive-services/openai
 
 *Videoen afspejler ikke nøjagtigt, hvordan funktionen arbejder i øjeblikket, eller ser ud i produktet. Funktionen er lidt ændret, siden videoen blev fremstillet. Men det giver dig en generel ide om funktionen, og hvad du kan bruge den til.*
   
-## Hvor den bruges
+## <a name="where-its-used" />Hvor den bruges
 
 Copilot er tilgængelig til varekort i Business Central. I Business Central er varer som produkter i andre programmer og butikker. Hver vare kan administreres fra et kort, hvor du angiver oplysninger om varen, f.eks. dimensioner, omkostninger eller billede. Dette kort indeholder også en boks til angivelse af marketingtekst. Denne marketingtekst kan udgives på din online-butik for at gøre reklame for varen. Her får du brug for Copilot. Hvis du blot vælger handlingen **Opret med CoPilot** på varekortet, vil CoPilot oprette en intelligent kladdetekst for dig. Når du har hentet den første kladde, kan du køre CoPilot igen og igen, indtil du får en kladde, du synes om. Når du har et forslag, du kan lide, kan du gennemse og redigere den for at opnå en nøjagtighed og derefter gemme det.
 
 Hvis Business Central er konfigureret til at oprette forbindelse til din onlinebutik på Shopify, kan du gøre denne tekst endnu bedre ved at udgive den med emnet direkte ved at vælge **Tilføj til Shopify**.
 
-## Hvorfor bruge den, og hvordan
+## <a name="why-and-how-to-use-it" />Hvorfor bruge den, og hvordan
 
 AI-genereret tekst kan hjælpe med at accelerere fremtiden for produkter på onlinebutikker ved at begrænse den tid, der bruges på kopiskrivning. Nogle vigtige fordele omfatter:
 
@@ -42,7 +42,7 @@ AI-genereret tekst kan hjælpe med at accelerere fremtiden for produkter på onl
 
 Du bør overveje den AI-genererede tekst som **kun forslag**. Forslagene kan i visse tilfælde indeholde fejl og meget upassende tekst, så der kræves overblik og gennemgang af mennesker. Før du gør teksten offentligt tilgængelig, skal du gennemse den for at sikre, at du har de nødvendige ændringer.
 
-## Hvad er nuværende begrænsninger
+## <a name="current-limitations" />Hvad er nuværende begrænsninger
 
 I dette afsnit forklares de aktuelle begrænsninger for funktionen AI-genereret tekst, som leveres af CoPilot.
 
@@ -52,7 +52,7 @@ I dette afsnit forklares de aktuelle begrænsninger for funktionen AI-genereret 
 - CoPilot understøttes ikke via forbindelser til din egen Azure OpenAI-tjenesteressource i dit Azure-abonnement.
 - Partner udvidelser af AI-muligheden ved hjælp af AL-kode understøttes ikke.
 
-## Næste trin
+## <a name="next-steps" />Næste trin
 
 For at komme i gang skal du bruge en dedikeret version af Business Central forhåndsversion, som er aktiveret med CoPilot.
 
@@ -61,7 +61,7 @@ For at komme i gang skal du bruge en dedikeret version af Business Central forh�
 
 Yderligere oplysninger finder du i [Hent Business Central-forhåndsversion - CoPilot-udgave](ai-preview-getstarted.md).  
 
-## Se også
+## <a name="see-also" />Se også
 
 [Konfigurere marketingtekst med AI-styret vare som en administrator](enable-ai.md)  
 [Oprette marketingtekst med CoPilot](item-marketing-text.md)  

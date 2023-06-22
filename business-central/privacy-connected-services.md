@@ -9,7 +9,7 @@ ms.date: 10/28/2022
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# Prøvefunktioner, der opretter forbindelse til andre Microsoft-tjenester 
+# <a name="trial-features-that-connect-to-other-microsoft-services" />Prøvefunktioner, der opretter forbindelse til andre Microsoft-tjenester
 
 [!INCLUDE[prod_long](includes/prod_long.md)] er en omfattende løsning til virksomhedsstyring, som er dybt integreret med Microsoft 365-produktivitetsapps og Power Platform. Din gratis prøveversion af Business central kan oprette forbindelse til mange forskellige Microsoft-tjenester, som du skal først konfigurere og aktivere. Hvis du vil have størst udbytte af din gratis prøveversion, er nogle af disse funktioner automatisk blevet aktiveret. Selvom forbindelsen fra [!INCLUDE[prod_short](includes/prod_short.md)] er aktiveret, følger disse tjenester ikke med din prøveversion, og de skal købes separat, medmindre de allerede findes.
 
@@ -32,6 +32,6 @@ I følgende tabel vises de forbindelser til Microsoft-tjenester, der automatisk 
 
 Dine personlige oplysninger er vigtige for os. Du kan få mere at vide om, hvordan Microsoft håndterer dine data i [Microsofts erklæring om beskyttelse af personlige oplysninger](https://go.microsoft.com/fwlink/?linkid=521839).
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

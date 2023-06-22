@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# Undervisningskatalog for Business Central
+# <a name="business-central-learning-catalog" />Undervisningskatalog for Business Central
 
 Find den rigtige onlineundervisning, skræddersyede workshops og hændelser for din rolle som en Business Central-bruger eller -partner.
 

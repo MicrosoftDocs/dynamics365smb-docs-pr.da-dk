@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.search.form: null
 ms.author: bholtorf
 ---
-# Administrere notifikationer
+# <a name="manage-notifications" />Administrere notifikationer
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du få hjælp til at arbejde mere effektivt ved at få besked om bestemte hændelser eller ændringer af status, når du er ved at fakturere en kunde, der har et forfaldent beløb, eller den disponible lagerbeholdning f.eks. er lavere end det antal, du er ved at sælge. Disse notifikationer skal vises som diskrete tip i forbindelse med den opgave, du udfører, og du kan vælge at ignorere notifikationen eller få vist detaljer om problemet.  
 
@@ -18,7 +18,7 @@ Hvis du vælger at få vist detaljer om en notifikation, kan du gribe ind for at
 
 Notifikationer hjælper uøvede brugere med at udføre ukendte opgaver og sænker ikke produktiviteten for den mere øvede bruger.  
 
-## Sådan aktiverer eller deaktiverer du notifikationer og styrer, hvornår de sendes
+## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent" />Sådan aktiverer eller deaktiverer du notifikationer og styrer, hvornår de sendes
 
 Når du begynder at bruge [!INCLUDE[prod_short](includes/prod_short.md)], er alle notifikationer aktiveret, men du kan slå dem til eller fra, f.eks. hvis du ikke er interesseret i en bestemt hændelse eller status.  
 
@@ -31,7 +31,7 @@ Det er kun dig, der kan aktivere eller deaktivere notifikationer og angive betin
 3. Aktiver eller fjern markeringen i afkrydsningsfeltet **Aktiveret** på den side, der vises.  
 4. Hvis du vil angive betingelser, der skal udløse en notifikation, skal du vælge linket **Vis filterdetaljer** og derefter udfylde felterne.  
 
-## Se også
+## <a name="see-also" />Se også
 
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

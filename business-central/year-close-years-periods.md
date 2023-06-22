@@ -11,7 +11,7 @@ ms.search.form: 100
 ms.date: 08/18/2022
 ms.author: jswymer
 ---
-# Afslutning af år og perioder
+# <a name="closing-years-and-periods" />Afslutning af år og perioder
 
 Ved afslutningen af et regnskabsår er der en række administrative opgaver, du skal udføre, som f.eks. kontrol af, at alle dokumenter og kladder er bogført, og at valutadata er opdateret, at bøger er afsluttet og meget mere. De faktiske opgaver afhænger af din virksomhed.
 
@@ -29,13 +29,13 @@ Følgende tabel indeholder en oversigt over opgaver, du typisk udfører for at l
 | Afslutte regnskabsperioder og -år, overføre resultatopgørelsessaldi til balancekonti og bogføre årsafslutningens lukningspost. |[Afslutningregnskab](year-close-books.md) |
 | Udskrive rapporter, der kan være til nytte, når du skal oprette regnskabsopgørelser. |[Forberedelse af ultimoopgørelser](year-prepare-close-statement.md) |
 
-## Se relateret [Microsoft-træning](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics--business-centralindex" />Se relateret [Microsoft-træning](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

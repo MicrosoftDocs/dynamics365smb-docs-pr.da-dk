@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Designoplysninger: Integration med lager
+# <a name="design-details-integration-with-inventory" />Designoplysninger: Integration med lager
 
 Warehouse Management og lagerfunktioner interagerer med hinanden på det fysiske lager og i lager eller logistikregulering.  
 
-## Fysisk lager  
+## <a name="physical-inventory" />Fysisk lager
 
 Siden **Lagerplacering - opg.kladde** bruges sammen med siden **Lageropgørelseskladde** til alle avancerede lagerlokationer. Lageret på placeringsniveau er beregnet, og en udskrevet liste leveres for lagermedarbejderen. Listen viser, hvilke varer der skal tælles på hvilke placeringer.  
   
@@ -30,7 +30,7 @@ Når du bogfører lageropgørelseskladde, opdateres lageret og standardregulerin
 
 [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
   
-## Lagerstedsreguleringer til vareposten  
+## <a name="warehouse-adjustments-to-the-item-ledger" />Lagerstedsreguleringer til vareposten
 
 Du kan bruge siden **Varekladde** og funktionen **Beregn regulering (logistik)** til at regulere beholdningen på vareposten i henhold til den regulering, der er foretaget i vareantallet på en lagerplacering. Hvis du vil oprette en tilknytning mellem lageret og lagerstedet, skal du definere en standardreguleringsplacering pr. lokation.  
   
@@ -43,7 +43,7 @@ Hvis du vil justere placeringsindholdet, kan du bruge lagerkladden, hvorfra du k
   
 Hvis du angiver et positivt antal og bogfører linjen, øges det lager, der opbevares på placeringen, og antallet på reguleringsplaceringens standard reduceres tilsvarende.  
   
-## Se også  
+## <a name="see-also" />Se også
 
 [Oversigt over logistik](design-details-warehouse-management.md)  
 [Designoplysninger: Tilgængelighed i lageret](design-details-availability-in-the-warehouse.md)  

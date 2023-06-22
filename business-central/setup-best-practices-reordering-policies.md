@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Oprette bedste fremgangsmåder: Genbestillingspolitikker
+# <a name="setup-best-practices-reordering-policies" />Oprette bedste fremgangsmåder: Genbestillingspolitikker
 
 Feltet **Genbestillingsmetode** på varekortene tilbyder fire forskellige planlægningsmetoder, der bestemmer, hvordan individuelle planlægningsparametre skal arbejde sammen.  
 
@@ -35,9 +35,9 @@ Følgende tabel indeholder de bedste fremgangsmåder til at vælge mellem de fir
 |**Fast genbestil.antal**|Brug af C-varer.<br /><br /> Kombinere med parametre for genbestillingspunkt.<br /><br /> Bruges i produktion til komponenter på laveste niveau.<br /><br /> Brug ikke, hvis varen ofte er reserveret.|C-varer, f.eks. tekopper, er varer af lav værdi med høj og regelmæssig ordre velocity. Den bedste genbestillingsmetode for C-varer er derfor en, der garanterer konstant tilgængelighed ved altid at være over et genbestillingspunkt.<br /><br /> Hvis brugeren reserverer en mængde til nogle fremtidige behov, forstyrres grundlaget for planlægningen. Selvom det planlagte beholdningsniveau er acceptabelt med hensyn til genbestillingspunkt, er mængderne muligvis ikke tilgængelige på grund af reservationen.|  
 |**Maks. antal**|Bruges til C-varer med høje lagerbindingsomkostninger eller lagringsbegrænsninger.<br /><br /> Kombineres med en eller flere ordrefaktorer (Minimum/maksimum antal eller oprundingsfaktor).|C-varer, f.eks. tekopper, er varer af lav værdi med høj og regelmæssig ordre velocity. Den bedste genbestillingsmetode for C-varer er derfor en, der garanterer konstant tilgængelighed ved altid at være over et genbestillingspunkt, men under et maksimalt lagerantal.<br /><br /> Hvis du vil ændre den foreslåede ordre, vil du måske formindske ordrestørrelsen til en angiven maksimal ordrestørrelse, øge til en angiven minimumordrestørrelse eller runde op for at opfylde en angiven oprundingsfaktor. **Bemærk:** Hvis den anvendes med et genbestillingspunkt, forbliver lageret mellem genbestillingspunktet og det maksimale antal.|  
 
-## Se relateret [Microsoft-træning](/training/paths/replenish-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsreplenish-items-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/replenish-items-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also" />Se også
 
  [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
  [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)  

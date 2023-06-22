@@ -11,7 +11,7 @@ ms.search.form: '26, 27, 34, 461, 786, 1379, 1385, 1386, 1628'
 ms.date: 09/05/2022
 ms.author: bholtorf
 ---
-# Registrere nye kreditorer
+# <a name="register-new-vendors" />Registrere nye kreditorer
 
 Kreditorer leverer de produkter, du sælger. Hver kreditor, som du køber fra, skal registreres med et kreditorkort.
 
@@ -22,7 +22,7 @@ Kreditorkortene indeholde de oplysninger, som er en forudsætning for at købe p
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-## Tilføjelse af nye kreditorer
+## <a name="adding-new-vendors" />Tilføjelse af nye kreditorer
 
 Du kan tilføje nye kreditorer manuelt ved at udfylde siden **Kreditorkort**, eller du kan bruge skabeloner, der indeholder foruddefinerede oplysninger. Du kan f. eks. oprette skabeloner til forskellige typer kreditorprofiler. Du kan spare tid ved at bruge skabeloner, når du tilføjer nye kreditorer, så oplysningerne bliver korrekte hver gang.
 
@@ -40,7 +40,7 @@ Remitter til-adresser bruges, når du udskriver checks til at betale kreditorer,
 
 Du angiver Remitter til-adresser på kreditorkort sider og i oversigtspanelet forsendelse & betalinger på købsordrer og fakturaer. Når du opretter Udbetalingskladde linjer ved hjælp af rapporten løn-kreditor eller Opret betaling på listesiden kreditor eller på siden med kreditorkortet eller handlingen Udlign på en betalingskladde, tildeles Remitter til-koden på kreditorposten. Du kan overskrive denne værdi.
 
-### Sådan oprettes en ny kreditor
+### <a name="to-create-a-new-vendor" />Sådan oprettes en ny kreditor
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
@@ -51,7 +51,7 @@ Kreditoren er nu registreret, og kreditorkortet er klar til at blive brugt i kø
 
 Hvis du vil bruge dette kreditorkort som skabelon, når du opretter nye kreditorkort, kan du gemme det som en kreditorskabelon. Flere oplysninger i afsnittet [Sådan gemmes kreditorkortsiden som en skabelon](#to-save-the-vendor-card-as-a-template).
 
-### Slette og redigere kreditoroplysninger
+### <a name="deleting-and-editing-vendor-information" />Slette og redigere kreditoroplysninger
 
 Du kan til enhver tid oplysninger om kreditorkort. Hvis du har bogført en postering for en kreditor, kan du ikke slette kortet, da posterne muligvis er nødvendige med henblik på revision. Hvis du vil slette kreditorkort med poster, skal du kontakte din Microsoft-partner for at gøre dette via kode.
 
@@ -61,7 +61,7 @@ Du kan til enhver tid oplysninger om kreditorkort. Hvis du har bogført en poste
 > [!TIP]
 > Du kan tilføje alternative adresser på kreditorkortet ved at vælge handlingen **Bestillingsadresser**.
 
-## Sådan gemmes kreditorkortet som en skabelon
+## <a name="to-save-the-vendor-card-as-a-template" />Sådan gemmes kreditorkortet som en skabelon
 
 1. På siden **Kreditorkort** skal du vælge handlingen **Gem som skabelon**. Siden **Kreditorskabelon** åbnes og viser kreditorkortet som skabelon.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -70,9 +70,9 @@ Du kan til enhver tid oplysninger om kreditorkort. Hvis du har bogført en poste
 5. Når du har fuldført skabelonen for den nye kreditor, skal du vælge knappen **OK**.  
    Kreditorskabelonen føjes til listen over kreditorskabeloner, så du kan bruge den til at oprette nye kreditorkort.
 
-## Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/).
 
-## Se også
+## <a name="see-also" />Se også
 
 [Flette dublerede poster](sales-how-merge-duplicate-records.md)  
 [Oprette nummerserie](ui-create-number-series.md)  

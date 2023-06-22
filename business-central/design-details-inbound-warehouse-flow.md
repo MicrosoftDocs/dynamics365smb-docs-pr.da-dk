@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 11/14/2022
 ms.author: bholtorf
 ---
-# Designoplysninger: Indgående lagerflow
+# <a name="design-details-inbound-warehouse-flow" />Designoplysninger: Indgående lagerflow
 
 Den indgående strøm i et lager begynder, når der ankommer varer på lageret i virksomheden, som enten er modtaget fra eksterne kilder eller fra et andet sted i firmaet. Processen med at modtage indgående ordrer består principielt af to aktiviteter:
 
@@ -48,7 +48,7 @@ I metoderne A, B og C kombineres i metoderne i ét trin, hvor de tilsvarende dok
 > * Den læg-på-lager-aktivitet, der anvendes i metode B sammen med registreringen af oplysninger om læg-på-lager-aktiviteter, bogfører også modtagelsen af kildedokumentet.
 > * Den læg-på-lager-aktivitet, der bruges i metode D, kan ikke bogføres og registrerer kun læg-på-lager. Registreringen gør varerne tilgængelige for viderebehandlingen, men bogfører ikke modtagelsen. I den indgående flow kræver læg-på-lager-aktiviteten en lagermodtagelse.
 
-## Ingen dedikeret lageraktivitet
+## <a name="no-dedicated-warehouse-activity" />Ingen dedikeret lageraktivitet
 
 Følgende artikler indeholder oplysninger om, hvordan du behandler modtagelser af kildedokumenter, hvis du ikke har dedikerede lageraktiviteter.
 
@@ -56,7 +56,7 @@ Følgende artikler indeholder oplysninger om, hvordan du behandler modtagelser a
 * [Overflytningsordrer](inventory-how-transfer-between-locations.md)
 * [Gennemgå salgsreturvareordrer](sales-how-process-sales-returns-orders.md)
 
-## Grundlæggende lageropsætninger  
+## <a name="basic-warehouse-configurations" />Grundlæggende lageropsætninger
 
 I en grundlæggende lageropsætning er funktionen **Kræv læg-på-lager** slået til, men indstillingen **Kræv modtagelse** er slået fra på lokationskortet for lokationen.
 
@@ -64,15 +64,15 @@ I følgende diagram illustreres de indgående lagerstrømme af dokumenttype i gr
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="Indgående flow i grundlæggende lageropsætninger":::
 
-### 1: Frigiv et kildedokument for at oprette en anmodning om en læg-på-lager-aktivitet  
+### <a name="-release-a-source-document-to-create-a-request-for-an-inventory-put-away" />1: Frigiv et kildedokument for at oprette en anmodning om en læg-på-lager-aktivitet
 
 Når du modtager varer, skal du frigive kildedokumentet, f. eks. en købsordre eller en indgående overflytningsordre. Når du frigiver dokumentet, bliver varerne klar til at blive lagt på lager. Du kan også oprette læg-på-lager-dokumenter for de enkelte ordrelinjer på en push-måde, baseret på angivne placeringer og antal, der skal håndteres.  
 
-### 2: Opret et læg-på-lager  
+### <a name="-create-an-inventory-put-away" />2: Opret et læg-på-lager
 
 På siden **Læg-på-lager** modtager lagermedarbejderen på en pull-måde de ventende kildedokumentlinjer, der er baseret på indgående lageranmodninger. Når du opretter kildedokumentet, kan du også oprette læg-på-lager-linjer.  
 
-### 3: Bogfør læg-på-lager  
+### <a name="-post-an-inventory-put-away" />3: Bogfør læg-på-lager
 
 På hver linje for varer, der er lagt på lager, helt eller delvist, udfylder lagermedarbejderen feltet **Antal** og bogfører derefter lagt på lager. Kildedokumenter, der er knyttet til læg-på-lager, bogføres som modtaget.  
 
@@ -81,7 +81,7 @@ På hver linje for varer, der er lagt på lager, helt eller delvist, udfylder la
 * Læg-på-lager-anmodningen slettes, hvis den håndteres fuldt ud. Feltet **Modtaget \(antal\)** opdateres f.eks. på den indgående kildedokumentlinje.
 * Der oprettes f.eks. et bogført modtagelsesdokument, der afspejler købsordren og de modtagne varer.  
 
-## Avancerede lageropsætninger  
+## <a name="advanced-warehouse-configurations" />Avancerede lageropsætninger
 
 I en avanceret Lageropsætning skal **Kræv modtagelse**-til/fra være aktiveret på lokationskort siden for lokationen. Funktionen **Kræv læg-på-lager** er valgfrit.
 
@@ -89,21 +89,21 @@ I følgende diagram illustreres den indgående lagerstrøm af dokumenttype. Tall
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="Indgående flow i avancerede lageropsætninger.":::
 
-### 1: Frigiv kildedokument  
+### <a name="-release-the-source-document" />1: Frigiv kildedokument
 
 Når du modtager varer, skal du frigive kildedokumentet, f. eks. en købsordre eller en indgående overflytningsordre. Når du frigiver dokumentet, bliver varerne klar til at blive lagt på lager. Funktionen til at lægge væk indeholder referencer til kildebilagstype og -nummer.
 
-### 2: Opret lagermodtagelse  
+### <a name="-create-a-warehouse-receipt" />2: Opret lagermodtagelse
 
 Linjerne fra kildedokumentet vises på siden **Lagermodtagelse**. Du kan kombinere flere kildedokumentlinjer i et lagermodtagelsesdokument. Brugeren udfylder feltet **Håndteringsantal** og vælger den modtagende zone og placering, hvis det er nødvendigt.  
 
-### 3: Bogfør lagermodtagelsen  
+### <a name="-post-the-warehouse-receipt" />3: Bogfør lagermodtagelsen
 
 Bogfør lagerstedsmodtagelse for at oprette positive poster for varen. Feltet **Modtaget antal** opdateres f.eks. på den indgående kildedokumentlinje.  
 
 Hvis indstillingen **Kræv læg-på-lager** ikke er aktiveret på lokationskortet, er det her, hvor processen stopper. Når du frigiver dokumentet, bliver varerne klar til at blive lagt på lager. Funktionen til at lægge væk indeholder referencer til kildebilagstype og -nummer.  
 
-### 4: (Valgfrit) Generér læg-på-lager-kladdelinjer
+### <a name="-optional-generate-put-away-worksheet-lines" />4: (Valgfrit) Generér læg-på-lager-kladdelinjer
 
 Hent læg-på-lager-linjer i **Læg-på-lager-kladden** baseret på bogførte lagermodtagelser eller operationer, der genererer afgang. Vælg de linjer, der skal lægges på lager, og angiv følgende oplysninger:
 
@@ -118,11 +118,11 @@ Når alle læg-på-lager-aktiviteter er planlagt og tildelt til lagermedarbejder
 > [!NOTE]  
 > Hvis feltet **Brug Læg-på-lager-kladde** ikke er markeret på lokationskortet, bliver læg-på-lager-dokumenter oprettet direkte ud fra bogførte lagermodtagelser. I dette tilfælde er dette trin ikke nødvendigt.  
 
-### 5: Opret et læg-på-lager-bilag
+### <a name="-create-a-warehouse-put-away-document" />5: Opret et læg-på-lager-bilag
 
 Oprette et læg-på-lager-dokument på en pull-måde baseret på den bogførte lagermodtagelse. Alternativt er læg-på-lager-dokumentet oprettet og tildelt en lagermedarbejder på en push-måde.  
 
-### 6: Registrer et læg-på-lager
+### <a name="-register-a-warehouse-put-away" />6: Registrer et læg-på-lager
 
 På hver linje for varer, der er lagt på lager, helt eller delvist, udfylder lagermedarbejderen feltet **Antal** på siden **Læg-på-lager** og registrerer derefter læg-på-lager-aktiviteten.  
 
@@ -131,7 +131,7 @@ På hver linje for varer, der er lagt på lager, helt eller delvist, udfylder la
 * Læg-på-lager-dokumentet forbliver åbent, indtil det fulde antal af den relaterede bogførte lagermodtagelse er registreret.
 * Feltet **Antal lagt-på-lager** på lagermodtagelsens ordrelinjer opdateres.
 
-## Relaterede emner
+## <a name="related-tasks" />Relaterede emner
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
@@ -142,6 +142,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Lægge varer på lager, der er modtaget fra flere køb, salgsreturvarer, overflytningsordrer i henhold til den konfigurerede lagerproces.|[Lægge varer på lager med Læg-på-lager (logistik)](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
 
 
-## Se også
+## <a name="see-also" />Se også
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

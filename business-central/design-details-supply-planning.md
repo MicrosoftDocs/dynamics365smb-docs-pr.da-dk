@@ -9,7 +9,7 @@ ms.date: 02/23/2023
 ms.custom: bap-template
 ms.search.keywords: 'design, supply, planning, reordering, replenishment'
 ---
-# Designoplysninger: Forsyningsplanlægning
+# <a name="design-details-supply-planning" />Designoplysninger: Forsyningsplanlægning
 
 Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges inden for forsyningsplanlægningsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -20,7 +20,7 @@ I artiklen forklares det, hvordan planlægningssystemet fungerer:
 * Beskriver logikken i den centrale mekanisme, som er forsyningsafstemt
 * Forklar, hvordan genbestillingspolitikker bruges i lagerplanlægning  
 
-## Dette afsnit indeholder  
+## <a name="in-this-section" />Dette afsnit indeholder
 
 [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)  
 [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md)  

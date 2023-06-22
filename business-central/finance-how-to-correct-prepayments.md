@@ -10,14 +10,14 @@ ms.search.form: '44, 48, 42, 50, 52, 9305, 9307'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# Rette forudbetalinger
+# <a name="correct-prepayments" />Rette forudbetalinger
 
 Du kan foretage en rettelse af en ordre, efter at du har bogført en forudbetalingsfaktura for den. Du kan indsætte nye linjer i ordren, efter at der er udstedt en forudbetaling, og derefter kan du bogføre en anden forudbetalingsfaktura, men du kan ikke slette en linje fra en ordre, hvis der allerede er faktureret en forudbetaling for linjen.  
 
 > [!TIP]
 > Hvis du har bogført en forudbetalingsfaktura for en salgsfaktura, som du derefter retter eller annullerer, skal du også rette eller annullere forudbetalingen.
 
-## Sådan rettes en forudbetaling
+## <a name="to-correct-a-prepayment" />Sådan rettes en forudbetaling
 
 Følgende procedure viser, hvordan du kan udstede en forudbetalingskreditnota for at annullere alle fakturerede forudbetalinger for en salgsordre.  
 
@@ -32,9 +32,9 @@ Følgende procedure viser, hvordan du kan udstede en forudbetalingskreditnota fo
 5. Du kan oprette en forudbetalingsfaktura for en hvilken som helst ny linje i salgskreditnotaen ved at vælge handlingen **Forudbetaling** og derefter vælge handlingen **Bogfør forudbetalingsfaktura** eller handlingen **Bogfør og udskriv forudbetalingsfaktura**.  
 6. Hvis du vil udstede en ekstra forudbetalingsfaktura, skal du øge forudbetalingsbeløbet på en eller flere linjer og bogføre forudbetalingsfakturaen. Der oprettes en ny faktura, som dækker differencen mellem de forudbetalte beløb, der er faktureret indtil videre, og det nye forudbetalingsbeløbene.  
 
-## Se relateret [Microsoft-træning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Fakturere forudbetalinger](finance-invoice-prepayments.md)  
 [Gennemgang: Opsætning og fakturering af salgsforudbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
