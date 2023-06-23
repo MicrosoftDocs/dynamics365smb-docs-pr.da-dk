@@ -25,7 +25,7 @@ Når du har oprettet en sælger på siden **Sælgere**, kan du vælge sælgeren 
 
 Du kan bruge sælgere i forskelligt relationsstyrings- og marketingarbejde. F.eks. kan du tildele opgaver til sælgere, så opgaverne indgår i de salgsmuligheder, der er knyttet til sælgeren. Du kan finde flere oplysninger i [Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

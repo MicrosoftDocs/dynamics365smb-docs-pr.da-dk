@@ -51,7 +51,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 |Få mere at vide om, hvordan du arbejder med montagestyklister, og hvordan de er forskellige fra produktionsstyklister.|[Arbejde med montagestyklister](assembly-how-work-assembly-boms.md)|
 |Se, hvordan du bogfører montageforbrug og afgang, og hvordan [!INCLUDE [prod_short](includes/prod_short.md)] distribuerer vare- og ressourcekostpriser til finansposterne.|[Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

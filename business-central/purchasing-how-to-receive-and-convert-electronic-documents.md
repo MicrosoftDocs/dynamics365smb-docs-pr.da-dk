@@ -52,7 +52,7 @@ Følgende fremgangsmåde beskriver, hvordan du modtager en kreditorfaktura og ko
 
     Valideringsfejl, der typisk vedrører forkerte eller manglende stamdata i [!INCLUDE[prod_short](includes/prod_short.md)], vises i oversigtspanelet **Fejlmeddelelser**.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics--business-centralindex" />Se relateret [Microsoft-træning](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

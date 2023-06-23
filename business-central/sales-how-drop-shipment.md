@@ -72,7 +72,7 @@ Når kreditoren har leveret varerne, kan du bogføre salgsordren som leveret. Du
 4. Vælg handlingen **Bogfør** eller **Bogfør og send**.
 5. Vælg enten indstillingen **Levér** for at fakturere senere, eller vælg indstillingen **Levér og fakturer** for at fakturere med det samme.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

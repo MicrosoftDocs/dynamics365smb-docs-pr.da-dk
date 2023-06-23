@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-c-data-migration-extension" />Udvidelsen C5-dataoverførsel
+# <a name="the-c5-data-migration-extension" />Udvidelsen C5-dataoverførsel
 
 Denne udvidelse gør det let at overføre debitorer, kreditorer, varer og finanskonti fra Microsoft Dynamics C5 2012 til [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan også overføre gamle poster for finanskonti.
 

@@ -45,7 +45,7 @@ Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som
 
  Det oprindelige brugerdefinerede rapportlayout erstattes med det importerede rapportlayout.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

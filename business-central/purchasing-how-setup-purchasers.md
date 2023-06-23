@@ -29,7 +29,7 @@ Hvis der er mange indkøbere ansat i virksomheden, kan du oprette dem på en sid
 2. Åbn det relevante kreditorkort for den leverandør, du vil tildele en indkøber.
 3. Vælg den relevante indkøberkode i feltet **Indkøberkode**, og luk derefter siden.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

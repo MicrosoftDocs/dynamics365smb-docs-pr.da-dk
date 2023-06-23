@@ -32,7 +32,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 > [!TIP]
 > Brug bankafstemning til at kontrollere, at dine bøger er opdaterede og ikke bogfører afstemningen, før du er tilfreds med afstemningen.
 
-## <a name="see-related-microsoft-trainingtrainingpathsreconcile-bank-accounts-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsreconcile-bank-accounts-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

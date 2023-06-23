@@ -118,7 +118,7 @@ I onlineinstallationer kan du fjerne en brugers adgang til [!INCLUDE[prod_short]
 
 Du kan også fjerne licensen fra en bruger i Microsoft 365 Administration. Brugeren kan derefter ikke logge på. Du kan få flere oplysninger i [Fjerne licenser fra brugere](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="a-namemasynchronization-with-microsoft-" /><a name="m365"></a>Synkronisering med Microsoft 365
+### <a name="a-namem365asynchronization-with-microsoft-365" /><a name="m365"></a>Synkronisering med Microsoft 365
 
 Når du fjerner tildelingen af en licens til [!INCLUDE[prod_short](includes/prod_short.md)] for en bruger i Microsoft 365, kan du oprette brugeren i [!INCLUDE[prod_short](includes/prod_short.md)] på to måder.  
 

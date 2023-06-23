@@ -54,7 +54,7 @@ Virksomhedsnavnet vises altid i øverste venstre hjørne og fungerer som en hand
 
 Standardbrugeroplevelsen af en [!INCLUDE [prod_short](includes/prod_short.md)]-prøveversion viser ikke alle egenskaber. Du kan skifte til den fulde oplevelse på siden **Virksomhedsoplysninger**. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

@@ -116,7 +116,7 @@ Når du arbejder med **Intrastat-rapporten**, får du vist et **Status**-felt p�
 * *Frigivet*: [!INCLUDE[prod_short](includes/prod_short.md)] ændrer automatisk status til *Frigivet*, når du opretter en fil. Fra dette tidspunkt kan du ikke ændre **Intrastat-rapporten**. Hvis du har brug for at ændre noget og rapportere igen, kan du bruge handlingen **Genåbn** til at genåbne Intrastat-rapporten. Når dokumentet genåbnes, kan du bruge handlingen **Frigiv** igen til at frigive dokumentet igen.
 * **Rapporteret**: Angiver, om posten tidligere har været rapporteret til SKAT. Dette er ikke en fast status, men et uafhængigt felt, og selvom du har genåbnet Intrastat-rapporten, vil den stadig vise, at filen allerede er oprettet til rapporten.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics--business-centralindex" />Se relateret træning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Se relateret træning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Se også
 

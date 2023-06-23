@@ -54,7 +54,7 @@ Interne og uddelegerede administratorer har adgang til [!INCLUDE [prod_short](in
 |Administrere brugersessioner, herunder annullering af en session, hvis brugeren er spærret.|[Administrere sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Konfigurere lejeren til at sende telemetridata til Azure Application Insights for at opnå bedre analyse og fejlfinding.|[Aktivere afsendelse af telemetri til Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

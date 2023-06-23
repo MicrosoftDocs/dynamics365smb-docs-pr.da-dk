@@ -44,7 +44,7 @@ Hvis du ændrer mening om en varekategori, kan du slette den. Hvis den allerede 
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

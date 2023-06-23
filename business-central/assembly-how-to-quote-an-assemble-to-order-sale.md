@@ -34,7 +34,7 @@ Du kan også oprette et salgstilbud for en tilpasset montageelement, som når du
 6.  Når du har reguleret montageordrelinjerne i overensstemmelse med tilbuddet, skal du lukke siden **Montage efter ordre-linjer** for at vende tilbage til siden **Salgstilbud**.  
 7.  Hvis debitor accepterer tilbuddet, kan du oprette en salgsordre for det tilbudte montageelement. Der er flere oplysninger i [Give salgstilbud](sales-how-make-offers.md). Det sammenkædede montagetilbud og eventuelle tilpasninger er knyttet til den pågældende nye salgsordre for at forberede til montage af varen eller de varer, der skal sælges.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

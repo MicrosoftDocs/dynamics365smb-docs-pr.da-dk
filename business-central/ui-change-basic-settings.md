@@ -107,7 +107,7 @@ Vælg linket *Rediger, når jeg modtager notifikationer* for at få vist eller �
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics--business-centralindex" />Se relateret [Microsoft-træning](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

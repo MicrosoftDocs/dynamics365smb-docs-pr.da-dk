@@ -220,7 +220,7 @@ Følgende procedure er baseret på siden **Kassekladde**, men gælder for alle a
 
 Værdier i feltet **Bilagsnr.** ændres, hvor det kræves, så bilagsnummeret på individuelle eller grupperede journallinjer er i rækkefølge. Når bilag omnummereres, kan du bogføre kladden.
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-journals-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-journals-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

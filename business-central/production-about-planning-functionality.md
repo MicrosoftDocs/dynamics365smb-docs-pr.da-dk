@@ -159,7 +159,7 @@ Du kan finde flere oplysninger om planlægning med lokationer og overflytninger 
 > [!TIP]
 > Når du arbejder på siderne **indkøbskladde** eller **Planlægningskladde**, kan du organisere linjerne ved at sortere efter et kolonnenavn. Dette er især nyttigt på siden planlægningskladde, fordi de kan bruges til produktionsordrer med flere niveauer. Som standard sorteres linjer efter feltet **Varenr.**. Hvis du vil gruppere linjer for en række med flere niveauer, skal du sortere efter **Ref. ordrenr.** . Felterne **MPS-ordre** og **planlægningsniveau** kan også være en hjælp til at vise linjernes hierarki.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesplan-items-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/plan-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesplan-items-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/plan-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

@@ -50,7 +50,7 @@ Din [!INCLUDE [prod_short](includes/prod_short.md)]-oplevelse indeholder et tilf
 
 Med tilføjelsesprogrammet kan du få nye data fra [!INCLUDE [prod_short](includes/prod_short.md)], og du kan overføre ændringerne tilbage i [!INCLUDE [prod_short](includes/prod_short.md)]. Men muligheden for at sende data tilbage til databasen er ikke tilgængelig for de regnskabsrapporter, du kan se i Excel.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

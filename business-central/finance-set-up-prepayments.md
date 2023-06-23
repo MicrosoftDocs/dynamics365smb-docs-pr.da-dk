@@ -100,7 +100,7 @@ Du kan spare tid ved at oprette en Opgavekøpost, som automatisk frigiver salgso
 3. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Poster for jobkøer**, og vælg derefter det relaterede link.
 4. Konfigurer **Opdateret Afventer forudbetaling af Salg**-opgavekø, f. eks. ved at bruge indstillingerne i oversigtspanelet **Gentagelse** til at planlægge, hvor ofte den skal køres. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

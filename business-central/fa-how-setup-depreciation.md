@@ -84,7 +84,7 @@ For hver afskrivningsprofil skal du definere en standardopsætning med typer og 
 3. Hvis du vil have en standardopsætning for hver enkelt bruger, skal du vælge feltet **Bruger-id** for at vælge opsætninger på siden **Brugere**.  
 4. Vælg den kladdetype eller kørsel i de andre felter, som skal bruges som standard.  
 
-## <a name="fiscal-year--days-field-depreciation" />Feltet Regnskabsår 365 dage afskrivning
+## <a name="fiscal-year-365-days-field-depreciation" />Feltet Regnskabsår 365 dage afskrivning
 
 Når der beregnes afskrivninger i kørslen Beregn afskrivninger, bruges der normalt et standardår på 360 dage i kørslen, hvor hver af de 12 måneder består af 30 dage.
 

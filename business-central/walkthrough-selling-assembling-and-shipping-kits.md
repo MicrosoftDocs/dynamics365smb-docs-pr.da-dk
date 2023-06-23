@@ -436,7 +436,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Når Enhedsbutikken betaler for deres modtagelse af 18 pc'er fra CRONUS, fjernes salgsordren og dens tilknyttede montageordrer.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

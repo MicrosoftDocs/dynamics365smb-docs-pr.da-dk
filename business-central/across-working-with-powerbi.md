@@ -132,7 +132,7 @@ Denne meddelelse vises, hvis standardrapporten ikke blev implementeret i Power B
 
 Det skyldes sandsynligvis, at rapportens navn ikke indeholder navnet på listesiden. Ryd filteret for at se en komplet liste over tilgængelige Power BI-rapporter.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" /><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" /><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" /><a name="see-also"></a>Se også
 

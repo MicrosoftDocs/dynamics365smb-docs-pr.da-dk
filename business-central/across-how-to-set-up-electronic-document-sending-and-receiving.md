@@ -136,7 +136,7 @@ Emnet indeholder følgende procedurer:
     |---------------------------------|---------------------------------------|  
     |**Finanskonto til ikke-varelinjer**|Angiver den finanskonto, der indsættes automatisk på indkøbslinjer, der er oprettet fra elektroniske dokumenter, når den indgående bilagslinje ikke indeholder en vare, der kan identificeres. En indgående bilagslinje, der ikke har en GTIN eller kreditors varenummer, konverteres til en købslinje af typen **Finanskonto**, og feltet **Nr.** på købslinjen vil indeholde den konto, som du vælger i feltet **Finanskonto til ikke-varelinjer**.<br /><br /> Hvis du lader feltet **Finanskonto til ikke-varelinjer** stå tomt, og det indgående bilag indeholder linjer uden identificerbare varer, bliver indkøbsdokumentet ikke oprettet. En fejlmeddelelse beder dig om at udfylde feltet **Finanskonto til ikke-varelinjer**, inden du kan udføre opgaven.|  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics--business-centralindex" />Se relateret [Microsoft-træning](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 [Udveksle data elektronisk](across-data-exchange.md)   

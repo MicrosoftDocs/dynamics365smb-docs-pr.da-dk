@@ -74,7 +74,7 @@ Du kan udstede andre forudbetalingsfakturaer til ordren. I så fald skal du udst
 
 Du kan gøre behandlingen hurtigere og oprette en faktura ved at indstille Opgavekøposter, der automatisk opdaterer status for de pågældende dokumenter. Når en forudbetalingsfaktura betales, kan posterne i opgavekøen automatisk ændre dokumentstatus fra **Afventende forudbetaling** til **Frigivet**. Når du opretter Opgavekøposter, er de kodeenheder, du skal bruge, **383 Opdateret Afventer forudbetaling af Salg** og **383 Opdateret Afventer forudbetaling af køb**. Det anbefales, at du planlægger posterne ofte, f. eks. hvert minut. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

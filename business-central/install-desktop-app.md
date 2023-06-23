@@ -66,7 +66,7 @@ Forskellen er, når du har flere arkitekturer. I modsætning til [!INCLUDE[prod_
 > [!IMPORTANT]
 > Hvis du bruger Business Central 2021 udgivelsesbølge 1 (version 18) eller tidligere versioner, kan du ikke installere appen som beskrevet i denne artikel. Du skal i stedet installere app'en fra [Microsoft store ](https://go.microsoft.com/fwlink/?LinkId=734848). Du kan finde flere oplysninger og hjælp til installation af denne ældre app under [forberedelse af og installation af Business Central-app](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Se relateret [Microsoft-træning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

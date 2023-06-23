@@ -345,7 +345,7 @@ Hvis du vil se, hvilken måleenhed der bruges i feltet varighed, skal du skrive 
 
 Hvis måleenheden f.eks. er timer, konverteres tallet 5 til 5 timer.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

@@ -92,7 +92,7 @@ Hvis du opretter flere rykkere end du har defineret niveauer til, bruges betinge
 
 Angiv en af koderne på hvert enkelt kundekort, når du har oprettet rykkerbetingelserne med ekstra niveauer og tekst. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessend-reminders-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/send-reminders-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessend-reminders-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/send-reminders-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

@@ -104,7 +104,7 @@ Når der skal angives filtre i rapporten, skal du udfylde filterne på følgende
 
 ADM-dimensionen kopieres fra lokationen EAST.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-set-up-dynamics--business-central" />Se relateret træning på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-set-up-dynamics-365-business-central" />Se relateret træning på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

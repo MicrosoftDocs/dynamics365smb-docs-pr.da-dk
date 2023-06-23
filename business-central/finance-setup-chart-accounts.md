@@ -49,7 +49,7 @@ Et nyt felt, **bloker sletning af finanskonti** er blevet føjet til **Finansops
 
 Hvis du angiver en **Blokér sletning af feltet finanskonto** til *Ja*, kan det anses for at være en bedste fremgangsmåde, da datoen i feltet **Kontroller, om finanskonto slettes efter**-feltet f.eks. er den dato, hvor du skal gemme dine finansdata.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics--business-centralindex" />Se relateret [Microsoft-træning](/training/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

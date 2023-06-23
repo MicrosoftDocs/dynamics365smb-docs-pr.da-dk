@@ -179,7 +179,7 @@ Følg disse trin, hvis du vil ændre navnet på og beskrivelsen af et brugerdefi
     > Hvis du vil have hjælp til at finde layoutet, skal du bruge feltet **Søg**, ruden **Filter** og kolonnerne sortere.
 3. Skift **layout-navn**, og vælg derefter **OK**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

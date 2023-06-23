@@ -33,20 +33,20 @@ Følgende eksempel viser, hvordan vareposter, værdiposter og vareudligningspost
 
  Du kan bogføre en købsordre som modtaget og faktureret for 10 varer med en købspris på RV 7 og et IPO-bidrag på RV 1. Bogføringsdatoen er 01-01-20. Der oprettes følgende poster.  
 
-### <a name="item-ledger-entries-" />Vareposter (1)
+### <a name="item-ledger-entries-1" />Vareposter (1)
 
 |Bogføringsdato|Postens type|Kostbeløb (faktisk)|Antal|Løbenr.|  
 |------------|----------|--------------------|--------|---------|  
 |01-01-20|Køb|80,00|10|1|  
 
-### <a name="value-entries-" />Værdiposter (1)
+### <a name="value-entries-1" />Værdiposter (1)
 
 |Bogføringsdato|Postens type|Kostbeløb (faktisk)|Varepostløbenr.|Løbenr.|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-01-20|Købspris|70.00|1|1|  
 |01-01-20|Indirekte omkostning|10,00|1|2|  
 
-### <a name="item-application-entries-" />Vareudligningsposter (1)
+### <a name="item-application-entries-1" />Vareudligningsposter (1)
 
 |Løbenr.|Varepostløbenr.|Indgående varepostløbenr.|Udgående varepostløbenr.|Antal|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -54,19 +54,19 @@ Følgende eksempel viser, hvordan vareposter, værdiposter og vareudligningspost
 
  Derefter skal bogføre du et salg på 10 enheder af varen med bogføringsdatoen 15-01-20.  
 
-### <a name="item-ledger-entries-" />Vareposter (2)
+### <a name="item-ledger-entries-2" />Vareposter (2)
 
 |Bogføringsdato|Postens type|Kostbeløb (faktisk)|Antal|Løbenr.|  
 |------------|----------|--------------------|--------|---------|  
 |01-15-20|Salg|-80,00|-10|2|  
 
-### <a name="value-entries-" />Værdiposter (2)
+### <a name="value-entries-2" />Værdiposter (2)
 
 |Bogføringsdato|Postens type|Kostbeløb (faktisk)|Varepostløbenr.|Løbenr.|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-15-20|Købspris|-80,00|2|3|  
 
-### <a name="item-application-entries-" />Vareudligningsposter (2)
+### <a name="item-application-entries-2" />Vareudligningsposter (2)
 
 |Løbenr.|Varepostløbenr.|Indgående varepostløbenr.|Udgående varepostløbenr.|Antal|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -78,7 +78,7 @@ I slutningen af regnskabsperioden skal du udføre kørslen **Bogfør lagerregule
 
  Følgende tabeller viser resultatet af afstemning af lagertransaktioner i dette eksempel med finans.  
 
-### <a name="value-entries-" />Værdiposter (3)
+### <a name="value-entries-3" />Værdiposter (3)
 
 |Bogføringsdato|Postens type|Kostbeløb (faktisk)|Bogført kostværdi|Varepostløbenr.|Løbenr.|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -86,7 +86,7 @@ I slutningen af regnskabsperioden skal du udføre kørslen **Bogfør lagerregule
 |01-01-20|Indirekte omkostning|10,00|10,00|1|2|  
 |01-15-20|Købspris|-80,00|-80,00|2|3|  
 
-### <a name="general-ledger-entries-" />Finansposter (3)
+### <a name="general-ledger-entries-3" />Finansposter (3)
 
 |Bogføringsdato|Finanskonto|Kontonummer (En-US Demo)|Beløb|Løbenr.|  
 |------------|-----------|------------------------|------|---------|  
@@ -104,7 +104,7 @@ I slutningen af regnskabsperioden skal du udføre kørslen **Bogfør lagerregule
 
  Relationen mellem værdioplysninger og finansposter lagres i tabellen **Finans - varetilknytning**.  
 
-### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Relationsposter i finans – relationstabel for varepost (3)
+### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3" />Relationsposter i finans – relationstabel for varepost (3)
 
 |Finansløbenr.|Værdiløbenr.|Finansjournalnr.|  
 |-------------|---------------|----------------|  

@@ -26,7 +26,7 @@ I følgende tabel kan du lære mere om Business Intelligence og rapporteringsfun
 | Integrer eksterne business intelligence-værktøjer med [!INCLUDE[prod_short](includes/prod_short.md)].| [Eksterne business intelligence-værktøjer](reports-external-analysis.md) |
 |Tilpas rapportlayout eller endda udvikler dine egne rapporter fra bunden. |[Udvikle rapporter](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se også
 

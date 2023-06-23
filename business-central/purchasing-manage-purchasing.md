@@ -43,7 +43,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathspurchase-items-services-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/purchase-items-services-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathspurchase-items-services-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

@@ -37,7 +37,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Sammenkæd teksten på betalinger til bestemte debitor-, kreditor- eller finanskonti for altid at bogføre tilbagevendende indbetalinger eller udgifter til disse konti, når der ikke findes nogen dokumenter at anvende dem på. |[Knytte tekst på tilbagevendende betalinger til automatisk udligning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Konfigurer de regler til at styre, hvordan betalinger/banktransaktioner skal udlignes automatisk til deres relaterede åbne poster, når du bruger funktionen **Udlign automatisk** på siden **Betalingsudligningskladde**.|[Konfigurere regler for automatisk udligning af betalinger](receivables-how-set-up-payment-application-rules.md)|
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics--business-centralindex" />Se relateret [Microsoft-træning](/training/modules/use-journals-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/use-journals-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md)  

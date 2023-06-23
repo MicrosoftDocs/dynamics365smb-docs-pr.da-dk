@@ -17,7 +17,7 @@ Når Microsoft udgiver funktioner eller forbedret funktionsdesign som en del af 
 
 Få mere at vide om [funktionsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management)..  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

@@ -275,7 +275,7 @@ Antag f.eks., at du bruger et numerisk tastatur, der bruger et punktum (.) som <
 > [!TIP]
 > Der kan være tilfælde, hvor du vil bruge decimalseparatoren til at angive et punktum (.). Antag f. eks., at du har indtastet et datointerval i et filter, `01/01/2022..04/01/2022` eller alt det, der kræver en periode. Hvis du definere dette, skal du vælge tasterne <kbd>Alt</kbd>+<kbd>Decimalseparator</kbd> på det numeriske tastatur. Denne tastekombination indskriver decimalseparatoren mellem en periode og decimalseparatoren, sådan som det er angivet i indstillingen **Region**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

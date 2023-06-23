@@ -138,7 +138,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
  Planlægningslinjen for vare 1300, Kædesaml, foreslår ti stykker. Dette afviger fra de fem stykker, som vi forventer at få brug for ved opfyldning af salgsordren. Fortsæt ved at vise ordresporingsposterne.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />Få vist ordresporingsposter for vare 1300
+### <a name="to-view-order-tracking-entries-for-item-1300" />Få vist ordresporingsposter for vare 1300
 
 1.  Vælg planlægningslinjen for vare 1300, og vælg derefter handlingen **Ordresporing**.  
 
@@ -234,7 +234,7 @@ Betegnelser som "kør planlægning" eller "kør MRP" refererer til beregningen a
 
  Flere planlægningslinjer ganges bare med tre for at angive 15 turcykler i stedet for 5, og forfaldsdatoerne flyttes tilbage i tiden for at levere det øgede antal til Kontorcentralen inden salgsordrens afsendelsesdato. For disse planlægningslinjer er alle mængder sporet. De resterende planlægningslinjer øges med ti stykker, og deres forfaldsdatoer flyttes. Disse planlægningslinjer har en vis mængde, som på grund af forskellige planlægningsparametre ikke er sporet. Fortsæt ved at vise nogle af disse ordresporingsposter.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />Få vist ordresporingsposter for vare 1250
+### <a name="to-view-order-tracking-entries-for-item-1250" />Få vist ordresporingsposter for vare 1250
 
 1.  Vælg planlægningslinjen for vare 1250, og vælg derefter handlingen **Ordresporing**.  
 

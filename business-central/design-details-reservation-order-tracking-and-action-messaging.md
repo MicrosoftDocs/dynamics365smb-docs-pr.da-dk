@@ -133,13 +133,13 @@ På siden **Produktionsopsætning** er feltet **Komponenter på lokation** indst
 
  ![Første eksempel på ordresporingsposter i tabellen Reservationspost.](media/supply_planning_RTAM_1.png "forsyningsplanlægning_RTAM_1")  
 
-### <a name="entry-numbers--and-" />Løbenumre 8 og 9
+### <a name="entry-numbers-8-and-9" />Løbenumre 8 og 9
  For komponentbehovet for henholdsvis LOTA og LOTB oprettes der ordresporingslinks fra behovet i tabel 5407, **Prod.ordrekomponent**, til forsyningen i tabel 32 **Varepost**. Feltet **Reservationsstatus** indeholder **Sporing** for at angive, at disse poster er dynamiske ordresporingsbindinger mellem forsyning og behov.  
 
 > [!NOTE]  
 >  Feltet **Lotnr.** er tomt på behovslinjer, fordi der ikke er angivet lotnumre på komponentlinjerne i den frigivne produktionsordre.  
 
-### <a name="entry-numbers-" />Løbenumre 10
+### <a name="entry-numbers-10" />Løbenumre 10
  Fra salgsbehovet i tabel 37, **Salgslinje**, oprettes der et ordresporingslink til forsyningen i tabel 5406, **Prod.ordrelinje**. Feltet **Reservationsstatus** indeholder **Reservation**, og feltet **Binding** indeholder **Ordre-til-ordre**. Dette skyldes, at den frigivne produktionsordre blev oprettet specielt til salgsordren og skal forblive sammenkædet i modsætning til ordresporingsbindinger med reservationsstatussen **Sporing**, som oprettes og ændres dynamisk. Du kan finde flere oplysninger i afsnittet "Automatiske reservationer" i dette afsnit.  
 
  På dette tidspunkt i scenariet overføres 100 enheder af LOTA og LOTB til lokationen EAST af en overflytningsordre.  
@@ -151,12 +151,12 @@ På siden **Produktionsopsætning** er feltet **Komponenter på lokation** indst
 
  ![Andet eksempel på ordresporingsposter i tabellen Reservationspost.](media/supply_planning_RTAM_2.png "forsyningsplanlægning_RTAM_2")  
 
-### <a name="entry-numbers--and-" />Løbenumre 8 og 9
+### <a name="entry-numbers-8-and-9" />Løbenumre 8 og 9
  Ordresporingsposter til de to lotter af den komponent, der afspejler behovet i tabel 5407, ændres fra en reservationsstatus **Sporing** til **Overskud**. Årsagen er, at de forsyninger, som de var knyttet til tidligere, i tabel 32, er anvendt af overflytningsordren ved leverancen.  
 
  Ægte overskud, som i dette tilfælde, afspejler overskydende forsyning eller behov, som forbliver ikke-sporet. Det er en indikation af ubalance i ordrenetværket, der genererer en aktionsmeddelelse i planlægningssystemet, medmindre den er løst dynamisk.  
 
-### <a name="entry-numbers--to-" />Løbenumre 12 og 16
+### <a name="entry-numbers-12-to-16" />Løbenumre 12 og 16
  Da de to lot'er af komponenten bogføres på overflytningsordren som leveret, men ikke modtaget, er alle relaterede positive ordresporingsposter af reservationstypen **Overskud**, hvilket angiver, at de ikke er allokeret til nogen behov. For hvert lotnummer relateres én post til tabel 5741, **Overflytningslinje**, og én post relateres til vareposten på den transitlokation, hvor varerne findes nu.  
 
  På dette tidspunkt i scenariet er overflytningsordren af komponenterne fra EAST til WEST lokation bogført som modtaget.  
@@ -173,7 +173,7 @@ På siden **Produktionsopsætning** er feltet **Komponenter på lokation** indst
 
  ![Fjerde eksempel på ordresporingsposter i tabellen Reservationspost.](media/supply_planning_RTAM_4.png "forsyningsplanlægning_RTAM_4")  
 
-### <a name="entry-numbers--and-" />Løbenummer 21 og 22
+### <a name="entry-numbers-21-and-22" />Løbenummer 21 og 22
  Eftersom komponentbehovet er blevet ændret til lokationen EAST, og leveringen er tilgængelig som vareposter på lokationen EAST, er alle ordresporingsposter til de to lotnumre nu fuldt registreret, angivet ved reservationsstatus **Sporing**.  
 
  Feltet **Lotnr.** er nu udfyldt i ordresporingsposten for tabel 5407, fordi lotnumrene blev tildelt på produktionsordrelinjerne.  

@@ -167,7 +167,7 @@ Som administrator af [!INCLUDE[prod_short](includes/prod_short.md)] online kan d
 
 Til [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø kan du f.eks. administrere sessioner ved hjælp af SQL Server Management Studio. Du kan finde flere oplysninger i den [tekniske dokumentation til SQL Server](/sql/sql-server).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesusers-security-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/users-security-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesusers-security-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/users-security-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

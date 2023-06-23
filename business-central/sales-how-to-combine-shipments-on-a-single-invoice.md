@@ -59,7 +59,7 @@ Du kan også slette individuelle salgsordrer manuelt.
 
 Gentag trin 1 til 3 for eventuelle andre berørte dokumenter, f.eks. rammesalgsordrer.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/invoicing-customers-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/invoicing-customers-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

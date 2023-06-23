@@ -61,7 +61,7 @@ Hvis annulleringen vedrører en delvis fakturabogføring, opdateres den oprindel
     En salgskreditnota oprettes og bogføres automatisk for at annullere den oprindelige bogførte salgsfaktura.
 5. Vælg handlingen **Vis rettelseskreditnota** for at få vist den bogførte salgskreditnota, som gør den oprindelige bogførte salgsfaktura ugyldig.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/ship-invoice-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/ship-invoice-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

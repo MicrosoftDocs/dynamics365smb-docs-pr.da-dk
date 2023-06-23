@@ -36,7 +36,7 @@ Hvis du ikke angiver en ønsket leveringsdato på en salgsordrelinje, eller hvis
 - *afsendelsesdato + udgående lagerekspeditionstid = planlagt afsendelses dato*
 - *planlagt afsendelsesdato + transporttid = planlagt leveringsdato*
 
-## <a name="see-related-microsoft-trainingtrainingmodulespromising-sales-order-delivery-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingmodulespromising-sales-order-delivery-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se også
 

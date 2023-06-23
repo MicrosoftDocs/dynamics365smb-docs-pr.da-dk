@@ -58,7 +58,7 @@ Følgende proces bruger en salgsordre, men fremgangsmåden er den samme for ramm
 > [!NOTE]  
 > Der oprettes automatisk en varereference for kreditoren til varen mellem leverandørens varenummer og dit nye varenummer. Hvis du vil vide mere om varereferencer, skal du gå til [Brug af varereferencer](inventory-how-use-item-cross-refs.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

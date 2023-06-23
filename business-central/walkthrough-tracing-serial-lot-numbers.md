@@ -282,7 +282,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
  Den ansvarlige for kvalitetssikringen brugte siden **Varesporing** til at finde ud af, at LOT1 indeholdt fejlbehæftede racerstel, hvem leverandøren var, og i hvilken bogførte transaktion de er brugt. De skal nu finde ud af, om LOT1 findes i eventuelle andre åbne bilag, ved integrering af sporingsresultatet til siden **Find poster**, hvor de kan foretage en søgning i alle databaseposter.  
 
-### <a name="to-find-all-occurrences-of-lot-in-non-posted-records-such-as-open-orders" />Sådan findes alle forekomster af LOT1 i ikke-bogførte poster, som f.eks. åbne ordrer
+### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders" />Sådan findes alle forekomster af LOT1 i ikke-bogførte poster, som f.eks. åbne ordrer
 
 1.  Vælg markøren i første sporingslinje på siden **Varesporing**, dvs. købsleverancen for LOT1.  
 2.  Vælg handlingen **Find poster**.  

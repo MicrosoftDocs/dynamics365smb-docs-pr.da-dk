@@ -77,7 +77,7 @@ Hvis du vil bruge denne funktion, skal du føje dig selv til lokationen som en l
   3. Angiv SYD i feltet **Lokationskode**.  
   4. Vælg handlingen **Bogfør**, og vælg derefter knappen **Ja**.  
 
-### <a name="making-item--s-available" />Gør vare 1928-S tilgængelig
+### <a name="making-item-1928-s-available" />Gør vare 1928-S tilgængelig
 
 Gør varen 1928-S tilgængelig på SYD-lokationen ved at følge disse trin:  
 

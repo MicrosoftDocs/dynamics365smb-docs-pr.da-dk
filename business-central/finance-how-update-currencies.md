@@ -122,7 +122,7 @@ Du kan bruge en ekstern tjeneste til at holde dine valutakurser opdateret, f.eks
 
 Værdien i feltet **Valutakurs** på siden **Valutaer** opdateres med den seneste valutakurs.
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

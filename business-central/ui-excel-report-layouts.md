@@ -39,7 +39,7 @@ Der er grundlæggende to opgaver involveret i oprettelse af et Excel-layout på 
 1. Opret den nye Excel-layoutfil.
 2. Føj det nye layout til rapporten.
 
-## <a name="task--create-the-excel-layout-file" />Opgave 1: Opret den nye Excel-layoutfil
+## <a name="task-1-create-the-excel-layout-file" />Opgave 1: Opret den nye Excel-layoutfil
 
 Du kan oprette en Excel-fil med en rapport, der er forklaret i dette afsnit, på tre måder.
 
@@ -58,13 +58,13 @@ Følg disse trin for at oprette et Excel-layout fra enhver rapport uanset den ak
 
 Hvis der allerede findes et Excel-layout til en rapport, skal du bruge det eksisterende layout som udgangspunkt. Du kan få en kopi af layoutet på to måder. Du kan eksportere det eksisterende layout fra siden **Rapportlayout** eller hente layoutet fra rapportens anmodnings side. Begge måder at hente en Excel-fil, der indeholder alle arkene i den eksisterende fil. Forskellen er, at på anmodningssiden, vil layoutet indeholde faktiske data. (Dataene er ikke nødvendige, men den hjælper, når du designer layoutet.)
 
-#### <a name="approach--export-the-layout-from-the-report-layouts-page" />Metode 1: Eksporter layoutet fra siden **Rapportlayout**
+#### <a name="approach-1-export-the-layout-from-the-report-layouts-page" />Metode 1: Eksporter layoutet fra siden **Rapportlayout**
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Vælg Excel-layoutet på listen, og vælg handlingen **Eksporter layout** øverst på siden.
 3. Åbn den downloadede Excel-fil, foretag dine opdateringer, og gem derefter filen.
 
-#### <a name="approach--download-the-layout-from-the-reports-request-page" />Metode 2: Hent layoutet fra rapportens anmodnings side
+#### <a name="approach-2-download-the-layout-from-the-reports-request-page" />Metode 2: Hent layoutet fra rapportens anmodnings side
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Vælg et layout til rapporten i oversigten **Rapportlayout**, og vælg derefter **Kør rapport**.
@@ -77,7 +77,7 @@ Dette er den mest avancerede metode til oprettelse af et Excel-rapportlayout. De
 
 ---
 
-## <a name="task--add-the-excel-layout-to-the-report" />Opgave 2: Tilføje Excel-layout til rapporten
+## <a name="task-2-add-the-excel-layout-to-the-report" />Opgave 2: Tilføje Excel-layout til rapporten
 
 Når du har layout filen i Excel, skal den næste opgave tilføjes som et nyt layout til rapporten.
 

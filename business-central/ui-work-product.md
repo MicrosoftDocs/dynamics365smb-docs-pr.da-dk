@@ -80,7 +80,7 @@ Når du søger efter en åben listeside, f. eks **Salgsordrer**, vises den i Vis
 
 Men når du åbner den samme listeside fra startsiden, er handlingen **Administrer** ikke tilgængelig. I stedet for at åbne en individuel salgsordre skal du blot vælge feltet **Nummer**. I denne visning kan du ikke fastgøre handlingslinjen.  
 
-## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

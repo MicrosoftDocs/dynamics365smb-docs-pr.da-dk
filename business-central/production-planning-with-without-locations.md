@@ -67,71 +67,71 @@ Feltet **Tvungen lokationskode** på siden **Lageropsætning**, feltet **Kompone
 
 Se forskellene i opsætningseksemplerne nedenfor.
 
-### <a name="setup-" />Opsætning 1
+### <a name="setup-1" />Opsætning 1
 
 * Tvungen lokationskode = *Ja*  
 * SKU er konfigureret for *VEST*  
 * Komponenter på lokation = *ØST*  
 
-#### <a name="case--demand-is-at-west-location" />Situation 1.1: Behov findes på lokationen *VEST*
+#### <a name="case-11-demand-is-at-west-location" />Situation 1.1: Behov findes på lokationen *VEST*
 
 Varen planlægges i overensstemmelse med planlægningsparametrene på lagerkortet (herunder mulig overflytning).
 
-#### <a name="case--demand-is-at-east-location" />Situation 1.2: Behov findes på lokationen *ØST*
+#### <a name="case-12-demand-is-at-east-location" />Situation 1.2: Behov findes på lokationen *ØST*
 
 Varen planlægges i overensstemmelse med planlægningsparametrene på varekortet.
 
-#### <a name="case--demand-is-at-north-location" />Situation 1.3: Behovet findes på lokationen *NORD*
+#### <a name="case-13-demand-is-at-north-location" />Situation 1.3: Behovet findes på lokationen *NORD*
 
 Varen planlægges i overensstemmelse med: Genbestillingsmetode = *Lot-for-Lot* (*Ordre* forbliver *Ordre*), Medtag lager = *Ja*, alle andre planlægningsparametre = tomme.
 
-#### <a name="case--demand-is-at-blank-location" />Situation 1.4: Behovet findes på lokationen *TOM*
+#### <a name="case-14-demand-is-at-blank-location" />Situation 1.4: Behovet findes på lokationen *TOM*
 
 Varen planlægges i overensstemmelse med: Genbestillingsmetode = *Lot-for-Lot* (*Ordre* forbliver *Ordre*), Medtag lager = *Ja*, alle andre planlægningsparametre = tomme.
 
-### <a name="setup-" />Opsætning 2
+### <a name="setup-2" />Opsætning 2
 
 * Tvungen lokationskode = *Ja*  
 * Ingen lagervare defineret  
 * Komponenter på lokation = *ØST*  
 
-#### <a name="case--demand-is-at-west-location" />Situation 2.1: Behov findes på lokationen *VEST*
+#### <a name="case-21-demand-is-at-west-location" />Situation 2.1: Behov findes på lokationen *VEST*
 
 Varen planlægges i overensstemmelse med: Genbestillingsmetode = *Lot-for-Lot* (*Ordre* forbliver *Ordre*), Medtag lager = *Ja*, alle andre planlægningsparametre = tomme.
 
-#### <a name="case--demand-is-at-east-location" />Situation 2.2: Behov findes på lokationen *ØST*
+#### <a name="case-22-demand-is-at-east-location" />Situation 2.2: Behov findes på lokationen *ØST*
 
 Varen planlægges i overensstemmelse med planlægningsparametrene på varekortet.  
 
-### <a name="setup-" />Opsætning 3
+### <a name="setup-3" />Opsætning 3
 
 * Tvungen lokationskode = *Nej*  
 * Ingen lagervare defineret  
 * Komponenter på lokation = *ØST*  
 
-#### <a name="case--demand-is-at-west-location" />Situation 3.1: Behov findes på lokationen *VEST*
+#### <a name="case-31-demand-is-at-west-location" />Situation 3.1: Behov findes på lokationen *VEST*
 
 Varen planlægges i overensstemmelse med: Genbestillingsmetode = *Lot-for-Lot* (*Ordre* forbliver *Ordre*), Medtag lager = *Ja*, alle andre planlægningsparametre = tomme.
 
-#### <a name="case--demand-is-at-east-location" />Situation 3.2: Behov findes på lokationen *ØST*
+#### <a name="case-32-demand-is-at-east-location" />Situation 3.2: Behov findes på lokationen *ØST*
 
 Varen planlægges i overensstemmelse med planlægningsparametrene på varekortet.  
 
-#### <a name="case--demand-is-at-blank-location" />Situation 3.3: Behovet findes på lokationen *TOM*
+#### <a name="case-33-demand-is-at-blank-location" />Situation 3.3: Behovet findes på lokationen *TOM*
 
 Varen planlægges i overensstemmelse med: Genbestillingsmetode = *Lot-for-Lot* (*Ordre* forbliver *Ordre*), Medtag lager = *Ja*, alle andre planlægningsparametre = tomme.
 
-### <a name="setup-" />Opsætning 4
+### <a name="setup-4" />Opsætning 4
 
 * Tvungen lokationskode = *Nej*  
 * Ingen lagervare defineret  
 * Komponenter på lokation = *TOM*  
 
-#### <a name="case--demand-is-at-east-location" />Situation 4.1: Behov findes på lokationen *ØST*
+#### <a name="case-41-demand-is-at-east-location" />Situation 4.1: Behov findes på lokationen *ØST*
 
 Varen planlægges i overensstemmelse med: Genbestillingsmetode = *Lot-for-Lot* (*Ordre* forbliver *Ordre*), Medtag lager = *Ja*, alle andre planlægningsparametre = tomme.
 
-#### <a name="case--demand-is-at-blank-location" />Situation 4.2: Behovet findes på lokationen *TOM*
+#### <a name="case-42-demand-is-at-blank-location" />Situation 4.2: Behovet findes på lokationen *TOM*
 
 Varen planlægges i overensstemmelse med planlægningsparametrene på varekortet.
 
@@ -139,7 +139,7 @@ Som det fremgår af det sidste eksempel, kan man kun få det rigtige resultat fo
 
 Hvis du ofte har brug for at planlægge behov på forskellige lokationer, anbefales det derfor at bruge funktionen Lagervarer.
 
-## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics--business-central" />Se relateret træning på [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics-365-business-central" />Se relateret træning på [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se også
 

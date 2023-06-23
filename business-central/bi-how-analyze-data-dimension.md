@@ -73,7 +73,7 @@ Du kan opdatere en analysevisning vha. følgende fremgangsmåde, som startes på
 > [!NOTE]  
 > Du kan opdatere nogle eller alle analyser samtidig ved at bruge kørslen **Opdater analysevisninger**.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-financial-reports-dynamics--business-centralindex" />Se relateret træning på [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-financial-reports-dynamics-365-business-centralindex" />Se relateret træning på [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Se også
 

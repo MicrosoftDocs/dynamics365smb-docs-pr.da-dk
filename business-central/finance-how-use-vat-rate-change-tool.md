@@ -100,7 +100,7 @@ Du bruger momssatsændringsværktøjet til at administrere ændringer i standard
 > [!IMPORTANT]  
 > Efter konverteringen er feltet **Konverteret** valgt i tabellen **Momssatsændringslogpost**, og feltet **Konverteringsdato** i tabellen **Momssatsændringslogpost** viser konverteringsdatoen.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesrate-change-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/rate-change-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesrate-change-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/rate-change-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

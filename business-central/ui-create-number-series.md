@@ -92,7 +92,7 @@ Følgende procedure viser, hvordan du konfigurerer nummerserieren for området S
 
 Det valgte nummer bliver nu brugt til at udfylde feltet **Nummer** på det relevante kort eller dokument i overensstemmelse med de valgte indstillinger på nummerserielinjen.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesnumber-series-trail-codes-dynamics--business-centralindex" />Se relateret [Microsoft-træning](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesnumber-series-trail-codes-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

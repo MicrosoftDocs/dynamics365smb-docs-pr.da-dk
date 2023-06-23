@@ -172,7 +172,7 @@ Når du angiver kriterier, kan du bruge alle de tal og bogstaver, som du plejer 
 > [!TIP]
 > Hvis du bruger et numerisk tastatur, kan decimalseparatoren indeholde et andet tegn end et punktum (.). Hvis du vil skifte til en periode, skal du trykke på tasterne <kbd>Alt</kbd>+<kbd>Decimalseparator</kbd> på det numeriske tastatur. Hvis du vil skifte tilbage, skal du trykke på <kbd>Alt</kbd>+<kbd>Decimalseparator</kbd> igen. Du kan finde flere oplysninger i [Angive den decimalseparator, der bruges af numeriske tastaturer](ui-enter-data.md#decimal).
 
-#### <a name="-eitheror" />(&#124;) Enten/eller
+#### <a name="124-eitheror" />(&#124;) Enten/eller
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
@@ -302,7 +302,7 @@ Brug `%myvendors` i kreditorfeltet **Nej** til at vise alle poster for kreditore
 |-----------------------|-----------------------|  
 |`%myvendors`|Kreditorer i **Mine kreditorer** i dit rollecenter. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

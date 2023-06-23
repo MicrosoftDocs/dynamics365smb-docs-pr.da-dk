@@ -95,7 +95,7 @@ Du kan bogføre den forøgede omkostning som et varegebyr i en kreditnota eller 
 
 Når du bogfører salgsreturvareordren, føjes reklamationsgebyret til den relevante salgspost. Det gør det muligt at opretholde en præcis lagerværdi.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

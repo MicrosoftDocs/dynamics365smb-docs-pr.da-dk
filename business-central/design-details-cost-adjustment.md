@@ -90,14 +90,14 @@ Når du udfører kørslen **Juster kostpris - vareposter**, har du mulighed for 
 
 I følgende eksempel vises, hvis du bogfører en købt vare som modtaget og faktureret den 01-01-20. Du bogfører senere den solgte vare som leveret og faktureret den 01-15-20. Derefter skal du køre kørslerne **Juster kostværdi - vareposter** og **Bogfør lagerregulering**. Der oprettes følgende poster.  
 
-#### <a name="value-entries-" />Værdiposter (1)
+#### <a name="value-entries-1" />Værdiposter (1)
 
 |Bogføringsdato|Vareposttype|Kostbeløb (faktisk)|Bogført kostværdi|Faktureret antal|Løbenr.|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01-01-20|Køb|10,00|10,00|1|1|  
 |01-15-20|Salg|-10,00|-10,00|-1|2|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Relationsposter i finans – relationstabel for varepost (1)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1" />Relationsposter i finans – relationstabel for varepost (1)
 
 |Finansløbenr.|Værdiløbenr.|Finansjournalnr.|  
 |-------------|---------------|----------------|  
@@ -106,7 +106,7 @@ I følgende eksempel vises, hvis du bogfører en købt vare som modtaget og fakt
 |3|2|1|  
 |4|2|1|  
 
-#### <a name="general-ledger-entries-" />Finansposter (1)
+#### <a name="general-ledger-entries-1" />Finansposter (1)
 
 |Bogføringsdato|Finanskonto|Kontonummer (En-US Demo)|Beløb|Løbenr.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -117,14 +117,14 @@ I følgende eksempel vises, hvis du bogfører en købt vare som modtaget og fakt
 
 Senere skal du bogføre et relateret varekøbsgebyr for 2.00 RV, der er faktureret 10-02-20. Derefter skal du køre kørslerne **Juster kostværdi - vareposter** og **Bogfør lagerregulering**. Kørslen til kostregulering justerer omkostningerne ved salget af -2,00 RV i overensstemmelse hermed, og kørslen **Bogfør lagerregulering** bogfører de nye værdiposter i finans. Resultatet er som følger.  
 
-#### <a name="value-entries-" />Værdiposter (2)
+#### <a name="value-entries-2" />Værdiposter (2)
 
 |Bogføringsdato|Vareposttype|Kostbeløb (faktisk)|Bogført kostværdi|Faktureret antal|Regulering|Løbenr.|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |02-10-20|Køb|2.00|2.00|0|Nej|3|  
 |01-15-20|Salg|-2,00|-2,00|0|Ja|4|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Relationsposter i finans – relationstabel for varepost (2)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2" />Relationsposter i finans – relationstabel for varepost (2)
 
 |Finansløbenr.|Værdiløbenr.|Finansjournalnr.|  
 |-------------|---------------|----------------|  
@@ -133,7 +133,7 @@ Senere skal du bogføre et relateret varekøbsgebyr for 2.00 RV, der er fakturer
 |7|4|2|  
 |8|4|2|  
 
-#### <a name="general-ledger-entries-" />Finansposter (2)
+#### <a name="general-ledger-entries-2" />Finansposter (2)
 
 |Bogføringsdato|Finanskonto|Kontonummer (En-US Demo)|Beløb|Løbenr.|  
 |------------|-----------|------------------------|------|---------|  

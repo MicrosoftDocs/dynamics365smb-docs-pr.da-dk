@@ -58,7 +58,7 @@ Hvis der ikke opstår fejl, anvendes opdateringerne på rapportlayout. Hvis der 
 
 Når du ændrer layoutet, kan du prøve at opdatere layoutet igen.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
  [Administration af rapportlayout](ui-manage-report-layouts.md)  

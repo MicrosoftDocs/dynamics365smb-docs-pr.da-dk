@@ -41,7 +41,7 @@ Du kan fjerne vedhæftede filer fra ikke-bogførte bilag til enhver tid ved at s
 
 Forbindelsen til det bogførte bilag er fjernet. Du kan nu fortsætte med at knytte en andet indgående bilagspost til det bogførte bilag som beskrevet i denne artikel.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

@@ -158,7 +158,7 @@ Her er nogle forslag, der kan hjælpe dig med at opnå en bedre forståelse.
    > [!TIP]
    > Som administrator kan du skjule elementet **Automatisering** fra brugere. Flere oplysninger i [Konfigurere Power Automate-integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics--business-centralindex" />Se relateret [Microsoft-træning](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 [Tilpasse sider til profiler](ui-personalization-manage.md)  

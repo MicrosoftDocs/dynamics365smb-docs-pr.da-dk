@@ -17,7 +17,7 @@ Med denne udvidelse kan du gennemgå processen for konfiguration af en forbindel
 
 Når forbindelsen er konfigureret, kan du overføre data fra din lokale løsning til din online [!INCLUDE[prod_short](includes/prod_short.md)]. Udvidelsen fungerer sammen med en datareplikeringsudvidelsen, der er tilgængelig til din specifikke lokale løsning. Du kan finde flere oplysninger i [Kørsel af skyoverflytningsværktøj](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconnect-intelligent-cloud-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/connect-intelligent-cloud-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesconnect-intelligent-cloud-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/connect-intelligent-cloud-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

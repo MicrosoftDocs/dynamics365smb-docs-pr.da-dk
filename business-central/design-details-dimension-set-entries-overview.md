@@ -33,7 +33,7 @@ Når du opretter en ny kladdelinje, et nyt bilagshoved eller en ny bilagslinje, 
 
 Når du redigerer og lukker siden **Rediger dimensionsgruppeposter** udføres en kontrol for at se, om kombinationen af dimensionsværdier findes som en dimensionsgruppe i tabellen. Hvis kombinationen findes i tabellen, tildeles den tilsvarende dimensionsgruppe-id til kladdelinjen, bilagshovedet eller bilagslinjen. Ellers tilføjes en ny dimensionsgruppe til tabellen, og den nye dimensionsgruppe-id knyttes til kladdelinjen, bilagshovedet eller bilagslinjen.
 
-## <a name="codeunit--dimension-management" />Codeunit 408 Dimensionsstyring
+## <a name="codeunit-408-dimension-management" />Codeunit 408 Dimensionsstyring
 Codeunit 408 Dimensionsstyring er et funktionsbibliotek, der håndterer almindelige opgaver, der er relateret til dimensioner, f.eks. kopiering fra én tabel til en anden eller fra et dokument til en andet.
 
 ## <a name="performance-improvement" />Forbedring af ydeevne

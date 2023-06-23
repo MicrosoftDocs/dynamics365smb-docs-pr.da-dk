@@ -45,7 +45,7 @@ I opdatering 15.3 og nyere er der installeret MICR-skrifttyper (Magnetic Ink Cha
 > [!NOTE]
 > Af hensyn til sikkerheden og af juridiske årsager kan du ikke overføre brugerdefinerede skrifttyper til [!INCLUDE[prod_short](includes/prod_short.md)]-miljøet.
 
-### <a name="micr-e-b-specifications" />MICR E-13B-specifikationer
+### <a name="micr-e-13b-specifications" />MICR E-13B-specifikationer
 
 Følgende opsummerer specifikationer for de MICR E-13B-skrifttyper, som kan være nyttige, når du kalibrerer skrifttyper til at kunne bruges i checklayout på specifikke MICR-printere.
 
@@ -57,7 +57,7 @@ Følgende opsummerer specifikationer for de MICR E-13B-skrifttyper, som kan vær
 
 Den komplette specifikation af MICR E-13B-skrifttyper findes i leverandørens dokumentation her: (https://www.idautomation.com/micr-fonts/e13b/).
 
-### <a name="micr-cmc--specifications" />MICR CMC-7-specifikationer
+### <a name="micr-cmc-7-specifications" />MICR CMC-7-specifikationer
 
 Følgende CMC-7-skrifttyper er tilgængelige i [!INCLUDE[prod_short](includes/prod_short.md)] online:
 

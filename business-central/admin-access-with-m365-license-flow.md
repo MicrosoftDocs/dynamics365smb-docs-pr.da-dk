@@ -10,7 +10,7 @@ ms.date: 11/03/2022
 ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
-# <a name="user-access-flow-for-microsoft--licenses" />Bruger-adgangsflow til Microsoft 365-licenser
+# <a name="user-access-flow-for-microsoft-365-licenses" />Bruger-adgangsflow til Microsoft 365-licenser
 
 Denne artikel beskriver, hvad der sker, når en bruger åbner Business Central-data med deres Microsoft 365-licens første gang. Ved at forstå dette flow kan administratorer planlægge deres metode og konfigurere Business Central, så de passer til virksomhedens forretningsbehov.
 

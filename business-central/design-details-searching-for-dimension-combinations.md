@@ -16,7 +16,7 @@ Når du lukker en side, efter du har redigeret et sæt dimensioner, evaluerer [!
 ## <a name="building-search-tree" />Oprettelse af søgetræ
  Tabel 481 **Trænode for dimensionsgruppe** bruges, når [!INCLUDE[prod_short](includes/prod_short.md)] evaluerer, om der allerede findes et sæt dimensioner i tabel 480 **Dimensionsgruppepost**. Evalueringen udføres ved rekursivt at gennemgå søgningstræet startende på øverste niveau, der er nummereret 0. Det øverste niveau 0 repræsenterer et dimensionssæt uden nogen dimensionssætposter. Underordnede til denne dimensionsgruppe repræsenterer dimensionsgrupper med kun én dimensionsgruppepost. Underordnede til disse dimensionsgrupper repræsenterer dimensionsgruppe med to underordnede, osv.  
 
-### <a name="example-" />Eksempel 1
+### <a name="example-1" />Eksempel 1
  I følgende diagram præsenteres et søgetræ med seks dimensionsgrupper. Kun den distinkte dimensionsopsætningspost vises i diagrammet.  
 
  ![Eksempel på dimensionstræstruktur.](media/nav2013_dimension_tree.png "Eksempel på dimensionstræstruktur")  
@@ -33,7 +33,7 @@ Når du lukker en side, efter du har redigeret et sæt dimensioner, evaluerer [!
 |Gruppe 5|AREA 40|  
 |Gruppe 6|AREA 40, PROJ VW|  
 
-### <a name="example-" />Eksempel 2
+### <a name="example-2" />Eksempel 2
  Dette eksempel viser, hvordan [!INCLUDE[prod_short](includes/prod_short.md)] evaluerer, om en dimensionsgruppe, der består af dimensionsgruppeposterne AREA 40, DEPT PROD, findes.  
 
  Først opdaterer [!INCLUDE[prod_short](includes/prod_short.md)] også tabellen **Trænode for dimensionsgruppe** for at sikre, at søgetræet ligner følgende diagram. Dermed bliver dimensionsgruppe 7 underordnet dimensionsgruppe 5.  

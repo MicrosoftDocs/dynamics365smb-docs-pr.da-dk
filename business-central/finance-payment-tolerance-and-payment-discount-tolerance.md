@@ -89,7 +89,7 @@ Standardindstillingen for betalingstolerancer er tilladt. Hvis du vil afvise bet
 > [!NOTE]  
 > Hvis debitoren eller kreditoren har åbne poster, skal du først fjerne betalingstolerancer fra poster, der aktuelt er åbne.
 
-## <a name="example----tolerance-calculations-for-a-single-document" />Eksempel 1 – Toleranceberegninger for et enkelt bilag
+## <a name="example-1---tolerance-calculations-for-a-single-document" />Eksempel 1 – Toleranceberegninger for et enkelt bilag
 
 Nedenfor findes nogle eksempelscenarier, som viser de forventede toleranceberegninger og -bogføringer, der kan opstå i forskellige situationer.  
 
@@ -127,7 +127,7 @@ Scenarier med alternativ A eller B repræsenterer følgende:
 
 I forbindelse med ovenstående scenarie er diagrammerne over betalingsintervaller som følger:  
 
-#### <a name="-payment-date--scenarios--" />(1) Betalingsdato <=15-01-03 (scenarie 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Betalingsdato <=15-01-03 (scenarie 1-3)
 
 Restbeløb pr.  
 
@@ -139,7 +139,7 @@ Normale udligningsregler
 
 (2) Hvis betaling falder i disse intervaller, er det ikke alle udligningsposter, der kan lukkes, selvom der anvendes tolerance.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) Betalingsdato er mellem 16.01.03 og 20.01.03 (scenarie 4-9)
+#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9" />(2) Betalingsdato er mellem 16.01.03 og 20.01.03 (scenarie 4-9)
 
 Restbeløb pr.  
 
@@ -151,7 +151,7 @@ Normale udligningsregler
 
 (2) Hvis betaling falder i disse intervaller, er det ikke alle udligningsposter, der kan lukkes, selvom der anvendes tolerance.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(3) Betalingsdato er efter 20.01.03 (scenarie 10-15)
+#### <a name="3-payment-date-is-after-012003-scenarios-10-15" />(3) Betalingsdato er efter 20.01.03 (scenarie 10-15)
 
 Restbeløb pr.  
 
@@ -163,7 +163,7 @@ Normale udligningsregler
 
 (2) Hvis betaling falder i disse intervaller, er det ikke alle udligningsposter, der kan lukkes, selvom der anvendes tolerance.  
 
-## <a name="example----tolerance-calculations-for-multiple-documents" />Eksempel 2 – Toleranceberegninger for flere bilag
+## <a name="example-2---tolerance-calculations-for-multiple-documents" />Eksempel 2 – Toleranceberegninger for flere bilag
 
 Nedenfor findes nogle eksempelscenarier, som viser de forventede toleranceberegninger og -bogføringer, der kan opstå i forskellige situationer. Eksemplerne er begrænset til de scenarier, der resulterer i, at alle poster i systemet kan lukkes.  
 
@@ -215,7 +215,7 @@ Scenarier med alternativ A, B, C eller D repræsenterer følgende:
 
 I forbindelse med ovenstående scenarie er diagrammerne over betalingsintervaller som følger:  
 
-#### <a name="-payment-date--scenarios--" />(1) Betalingsdato <=15-01-03 (scenarie 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Betalingsdato <=15-01-03 (scenarie 1-3)
 
 Restbeløb pr.  
 
@@ -227,7 +227,7 @@ Normale udligningsregler
 
 (2) Hvis betaling falder i disse intervaller, er det ikke alle udligningsposter, der kan lukkes, selvom der anvendes tolerance.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) Betalingsdato er mellem 16.01.03 og 17.01.03 (scenarie 4-9)
+#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9" />(2) Betalingsdato er mellem 16.01.03 og 17.01.03 (scenarie 4-9)
 
 Restbeløb pr.  
 
@@ -239,7 +239,7 @@ Normale udligningsregler
 
 (2) Hvis betaling falder i disse intervaller, er det ikke alle udligningsposter, der kan lukkes, selvom der anvendes tolerance.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(3) Betalingsdato er mellem 18.01.03 og 20.01.03 (scenarie 10-21)
+#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21" />(3) Betalingsdato er mellem 18.01.03 og 20.01.03 (scenarie 10-21)
 
 Restbeløb pr.  
 
@@ -251,7 +251,7 @@ Normale udligningsregler
 
 (2) Hvis betaling falder i disse intervaller, er det ikke alle udligningsposter, der kan lukkes, selvom der anvendes tolerance.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(4) Betalingsdato er mellem 21-01-03 og 22-01-03 (scenarie 22-27)
+#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27" />(4) Betalingsdato er mellem 21-01-03 og 22-01-03 (scenarie 22-27)
 
 Restbeløb pr.  
 
@@ -263,7 +263,7 @@ Normale udligningsregler
 
 (2) Hvis betaling falder i disse intervaller, er det ikke alle udligningsposter, der kan lukkes, selvom der anvendes tolerance.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(5) Betalingsdato er efter 22-01-03 (scenarie 28-30)
+#### <a name="5-payment-date-is-after-012203-scenarios-28-30" />(5) Betalingsdato er efter 22-01-03 (scenarie 28-30)
 
 Restbeløb pr.  
 
@@ -275,7 +275,7 @@ Normale udligningsregler
 
 (2) Hvis betaling falder i disse intervaller, er det ikke alle udligningsposter, der kan lukkes, selvom der anvendes tolerance.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

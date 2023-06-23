@@ -30,7 +30,7 @@ I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med a
 * [Oprette rapporter med XBRL](bi-create-reports-with-xbrl.md)  
 * [Administrere formål med adgang til database](admin-data-access-intent.md)  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-financial-reports-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/create-financial-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathscreate-financial-reports-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

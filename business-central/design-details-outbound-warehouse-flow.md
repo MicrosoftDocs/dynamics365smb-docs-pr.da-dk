@@ -63,15 +63,15 @@ I følgende diagram illustreres de udgående lagerstedsprocesser for forskellige
 
 :::image type="content" source="media/design-details-warehouse-management-outbound-basic-flow.png" alt-text="Viser trinene i en grundlæggende udgående flow på et lagersted.":::
 
-### <a name="-release-a-source-document" />1: Frigiv et kildedokument
+### <a name="1-release-a-source-document" />1: Frigiv et kildedokument
 
 Når du bruger handlingen **Frigiv** på et kildedokument, f. eks. en salgs-eller overflytningsordre, er varerne i dokumentet klar til at blive ekspederet på lagerstedet. Plukkes og lægges f. eks. på den placering, der er angivet i dokumentet. Alternativt kan du oprette lagerplukdokumenter for de enkelte ordrelinjer på ordrer, baseret på angivne placeringer og antal, der skal håndteres.  
 
-### <a name="-create-an-inventory-pick" />2: Opret lagerpluk
+### <a name="2-create-an-inventory-pick" />2: Opret lagerpluk
 
 På siden **lagerpluk** henter lagermedarbejderen på en pull-måde kildedokumentlinjerne. Alternativt er pluklinjerne for lageret allerede oprettet på en push-måde af den bruger, der er ansvarlig for kildedokumentet.  
 
-### <a name="-post-an-inventory-pick" />3: Bogfør lagerpluk
+### <a name="3-post-an-inventory-pick" />3: Bogfør lagerpluk
 
 På hver linje for varer, der er lagt på lager, helt eller delvist, udfylder feltet **Antal** og bogfører derefter lagerplukket. Kildedokumenter, der er knyttet til lagerplukningen, bogføres som leveret eller forbrugt.  
 
@@ -83,28 +83,28 @@ I følgende diagram illustreres de udgående lagerstedsprocesser for forskellige
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Viser trinene i et avanceret udgående lagerstedsflow.":::
 
-### <a name="-release-a-source-document" />1: Frigiv et kildedokument
+### <a name="1-release-a-source-document" />1: Frigiv et kildedokument
 
 Frigivelse af kildedokumenter i avancerede konfigurationer gør det samme som for grundlæggende konfigurationer. Varerne bliver disponible til håndtering på lagerstedet. F.eks. kan de medtages i en forsendelse.  
 
-### <a name="-create-a-warehouse-shipment" />2: Opret en lagerleverance
+### <a name="2-create-a-warehouse-shipment" />2: Opret en lagerleverance
 
 Linjerne fra kildedokumentet vises på siden **Lagerstedsleverance**. Flere kildedokumentlinjer kan kombineres i et lagerleverancedokument.  
 
-### <a name="-create-a-warehouse-pick" />3: Opret lagerstedspluk
+### <a name="3-create-a-warehouse-pick" />3: Opret lagerstedspluk
 
 På siden **Lagerstedsleverance** kan du oprette lagerstedsplukaktiviteter for lagerstedsleverancer på to måder:
 
 - På en push-måde, hvor du kan bruge handlingen **Opret pluk**. Vælg de linjer, der skal plukkes, og forbered plukkene ved at angive, hvilke placeringer der skal tages fra, hvilke placeringer der skal placeres i, og hvor mange enheder der skal håndteres. Placeringerne kan være foruddefineret ved opsætning af lagerstedslokationen eller ressourcen.
 - På en push-måde, hvor du kan bruge handlingen **Frigiv**. På siden **Plukkladde** kan lagerstedsmedarbejderne bruge handlingen **Hent lagerstedsdokumenter** til at få tildelt de tildelte pluk. Når lagerstedspluk er fuldt tildelt, slettes linjerne i **Plukkladde**.
 
-### <a name="-register-a-warehouse-pick" />4: Registrer et lagerstedspluk
+### <a name="4-register-a-warehouse-pick" />4: Registrer et lagerstedspluk
 
 På hver linje for varer, der er plukket eller flyttet helt eller delvist, udfylder lagermedarbejderen feltet **Antal** på siden **Lagerstedspluk** og registrerer derefter lagerplukningen.
 
 Lagerstedsposter oprettes og lagerstedspluklinjerne slettes, hvis plukningen er fuldført. Lagerstedsplukdokumentet forbliver åbent, indtil det fulde antal af den relaterede lagerstedsleverance er registreret. Feltet **Plukket antal** på lagerleverancelinjerne opdateres i overensstemmelse hermed.  
 
-### <a name="-post-the-warehouse-shipment" />5: Bogfør lagerstedsleverance
+### <a name="5-post-the-warehouse-shipment" />5: Bogfør lagerstedsleverance
 
 Når alle varer på lagerstedsleverancedokumentet er registreret som plukket, bogfører den lagermedarbejderen leverancen. Bogføring opdaterer vareposterne, så de afspejler reduktionen af lagerbeholdningen. Feltet **Leveret (antal)** opdateres f.eks. på den udgående kildedokumentlinje.  
 

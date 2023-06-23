@@ -49,7 +49,7 @@ Når du registrerer programmet, skal du overveje følgende:
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
-## <a name="set-up-the-onedrive-connection-in-version--and-later" />Konfigurere OneDrive-forbindelsen i version 21 og nyere
+## <a name="set-up-the-onedrive-connection-in-version-21-and-later" />Konfigurere OneDrive-forbindelsen i version 21 og nyere
 
 Brug denne fremgangsmåde, hvis du bruger Business Central 2022 udgivelsesbølge 2 (version 21) eller nyere.
 
@@ -74,7 +74,7 @@ Brug denne fremgangsmåde, hvis du bruger Business Central 2022 udgivelsesbølge
    - Hvis du ikke allerede har installeret den Azure AD-registrerede app, åbnes vejledningen **Konfigurer Azure Active Directory**.
 6. Når den er fuldført, er meddelelsen om beskyttelse af personlige oplysninger for OneDrive-integration accepteret for alle brugere. Hvis du vil ændre den, så brugerne skal acceptere eller afvise den selv, skal du gå til siden **Status for meddelelser om beskyttelse af personlige oplysninger** og vælge **Lad brugeren bestemme** for OneDrive-integrationen. Brugerne bliver derefter bedt om at acceptere eller afvise erklæringen om beskyttelse af personlige oplysninger, første gang de bruger OneDrive-funktionerne. Du kan finde flere oplysninger i [Meddelelser om beskyttelse af personlige oplysninger](privacy-notices-status.md).
 
-## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version--and-" />Konfigurere forbindelsen i [!INCLUDE[prod_short](includes/prod_short.md)] version 19 og 20
+## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version-19-and-20" />Konfigurere forbindelsen i [!INCLUDE[prod_short](includes/prod_short.md)] version 19 og 20
 
 Brug denne fremgangsmåde, hvis du bruger Business Central 2022 udgivelsesbølge 1 (version 20) eller 2021 udgivelsesbølge 2 (version 19).
 > [!IMPORTANT]
@@ -96,7 +96,7 @@ Brug denne fremgangsmåde, hvis du bruger Business Central 2022 udgivelsesbølge
 > [!IMPORTANT]
 > Siden **Konfiguration af SharePoint-forbindelse** bruges til at konfigurere flere ældre funktioner. I sektionen **Generelt** konfigureres forbindelsen til OneDrive, og afsnittet **Delte dokumenter** omdirigerer filerne til SharePoint i stedet for. **Konfiguration af SharePoint-forbindelse** er udfaset, og den fjernes i en kommende version. Det anbefales, at du ikke konfigurerer afsnittet **Delte dokumenter**. Du kan finde flere oplysninger i [Udfasede funktioner i basisappen](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup).
 
-## <a name="after-upgrade-to-version-" />Efter opgradering til version 21
+## <a name="after-upgrade-to-version-21" />Efter opgradering til version 21
 
 Når du opgraderer til version 21 eller nyere, vil den eksisterende forbindelse til OneDrive, der er konfigureret på siden **Konfiguration af SharePoint-forbindelse**, stadig fungere. Men da siden **Konfiguration af SharePoint-forbindelse** fjernes i version 23, anbefales det, at du skifter til den nye OneDrive-integration som beskrevet i næste afsnit. Hvis du foretager dette skifte nu, bliver det nemmere, når **Opsætning af SharePoint-forbindelse** bliver fjernet. Desuden giver det dig mulighed for at bruge assisteret opsætning af **OneDrive** til at administrere de OneDrive-funktioner, som brugerne har adgang til.
 

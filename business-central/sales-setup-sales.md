@@ -33,7 +33,7 @@ Den finansrelaterede salgsopsætning, som betalingsmetoder og valutaer, dækkes 
 |Angive oplysninger om de forskellige transportleverandører, virksomheden bruger, herunder et link til deres pakkesporingsservice.|[Oprette speditører](sales-how-to-set-up-shipping-agents.md)|
 |Angiv standardrapporter, der skal bruges til forskellige dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 [Salg](sales-manage-sales.md)  

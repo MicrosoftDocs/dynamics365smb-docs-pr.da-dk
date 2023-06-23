@@ -70,7 +70,7 @@ Følgende tabel viser, hvilke filtre der er mulige for forskellige tildelingsbas
 |Varer solgt (beløb)|Varenr.|Ja|Ja|Ja|Varebogføringsgruppe|  
 |Varer købt (beløb)|Varenr.|Ja|Ja|Ja|Varebogføringsgruppe|
 
-## <a name="scenario--defining-static-allocations-based-on-allocation-ratio" />Scenarieeksempel 1: Definition af statisk allokeringer baseret på fordelingsforholdet
+## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio" />Scenarieeksempel 1: Definition af statisk allokeringer baseret på fordelingsforholdet
 
 Metoden statisk allokering er baseret på en endelig værdi, for eksempel anvendt antal kvadratmeter eller et etableret fordelingsforhold såsom 5: 2: 4.  
 
@@ -110,7 +110,7 @@ Dette emne beskriver, hvordan du definerer tre nye fordelingsmålsomkostningsobj
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] beregner automatisk feltet **Procent** ved hjælp af en procentsats , der er afhængig af alle tre fordelingsforhold, der er angivet i feltet **Fordeling** for alle tre linjer.
 
-## <a name="scenario--defining-dynamic-allocations-based-on-items-sold" />Scenarie 2: Definition af dynamiske fordelinger baseret på solgte varer
+## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold" />Scenarie 2: Definition af dynamiske fordelinger baseret på solgte varer
 
 I dette emne vises et eksempel på, hvordan du definerer allokeringer ved hjælp af metoden til dynamisk fordeling. I dette eksempel skal du ændre dynamisk fordeling af omkostningerne for omkostningsstedet SALES til understøttelse af det nye omkostningsobjekt IT-UDSTYR. IT_UDSTYR-pakker har varenumre i området fra 8904-W til 8924-W. Du bruger salgstal for det foregående år til at beregne det andelen. Allokeringen bogføres til hjælpeomkostningstypen 9903.  
 
@@ -137,7 +137,7 @@ I dette emne vises et eksempel på, hvordan du definerer allokeringer ved hjælp
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] bruger salgstal fra de foregående år til at beregne andelen af 1596,50 RV med 100 procent for IT-UDSTYR-pakkerne. Det betyder, at alle varer, der er solgt sidste år, tildeles omkostningsobjektet IT-UDSTYR.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/allocate-costs-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/allocate-costs-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

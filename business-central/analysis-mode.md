@@ -50,7 +50,7 @@ I dataanalysetilstand er siden opdelt i to områder:
 - Hovedområdet, der består af dataområdet (1), oversigtslinjen (2) og tabulatorlinjen (5)
 - Datamanipulationsområdet, der består af to ruder: kolonne (3) og analysefiltre (4).
 
-### <a name="data-area-" />Dataområde (1)
+### <a name="data-area-1" />Dataområde (1)
 
 Dataområdet er det sted, hvor rækkerne og kolonnerne på listesiden vises, og dataene opsummeres. Dataområdet er en fleksibel måde at styre layoutet af kolonner og en hurtig måde at få et overblik over dataene på. For kolonner, der indeholder numeriske værdier, vises summen af alle værdierne i kolonnen i den sidste række, medmindre du har angivet rækkegrupper. I dette tilfælde vises summerne som en subtotal for grupperne.  
 
@@ -64,7 +64,7 @@ Dataområdet er det sted, hvor rækkerne og kolonnerne på listesiden vises, og 
 - Brug dataområdet til at interagere med dataene. For kolonner, der indeholder numeriske værdier, kan du beregne en beskrivelse af felterne ved at markere dem. Statistikken vises på statuslinjen (2) langs nederst på siden.
 - Eksportér data i Excel- eller CSV-format. Du skal blot højreklikke på dataområdet eller med et udvalg af celler, der skal udlæses.
 
-### <a name="summary-bar-" />Oversigtspanel (2)
+### <a name="summary-bar-2" />Oversigtspanel (2)
 
 Oversigtspanelet er nederst på siden og viser statistik over dataene på listen. Når du interagerer med kolonner, hvis værdier kan sammentælles, f.eks. når du markerer flere rækker i en kolonne, der viser beløb, opdateres dataene.
 
@@ -83,7 +83,7 @@ I følgende tabel beskrives de forskellige numre, der vises i området totaler:
 |Maks.|Maksimumsværdien i alle de valgte felter, der kan summeres.|
 |Sum|Den samlede sum af alle værdierne i de valgte felter, der kan summeres.|
 
-### <a name="columns-" />Kolonner (3)
+### <a name="columns-3" />Kolonner (3)
 
 **Kolonnerne** er en af to ruder, der kan bruges sammen for at definere analysen. Det andet område er ruden **Analysefiltre**. **Kolonnerne** bruges til at opsummere dataene. Brug ruden **Kolonner** til at angive, hvilke kolonner der skal medtages i analysen.
 
@@ -98,7 +98,7 @@ I følgende tabel beskrives de forskellige numre, der vises i området totaler:
 
 Hvis du vil flytte et felt fra et område til et andet, skal du vælge ikonet greb ![Viser en oversigt over en side i analysetilstand](media/column-grab-icon.png) ud for kolonnen på listen ovenfor, og træk den til destinationsområdet. Du kan ikke flytte et felt til et område, hvor det ikke er tilladt.
 
-### <a name="analysis-filters-" />Analysefiltre (4)
+### <a name="analysis-filters-4" />Analysefiltre (4)
 
 I ruden **analysefiltre** kan du angive yderligere datafiltre på kolonner for at begrænse posterne på listen. Indstil filtre på kolonner for at begrænse posterne på listen og efterfølgende summer til de poster, du er interesseret i, baseret på kriterier, som du angiver. Antag f.eks., at du kun er interesseret i data for en bestemt kunde eller salgsordre, der overstiger et bestemt beløb. Hvis du vil angive et filter, skal du markere kolonnen, vælge sammenlignings handlingen på listen (f.eks. **Lig med** eller **Starter med**) og derefter angive værdien.
 
@@ -107,7 +107,7 @@ I ruden **analysefiltre** kan du angive yderligere datafiltre på kolonner for a
 > [!NOTE]
 > De ekstra filtre anvendes kun til fanen aktuel analyse. På den måde kan du definere nøjagtigt de ekstra datafiltre, der skal bruges til en bestemt analyse.
 
-### <a name="tabs-" />Faner (5)
+### <a name="tabs-5" />Faner (5)
 
 Området med fanerne øverst giver dig mulighed for at oprette forskellige konfigurationer (kolonner og og analysefiltre) på separate faner, hvor du kan arbejde på fanerne uafhængigt af hinanden. Der er altid mindst én fane, der kaldes **Analyse 1**, som standard. Det er nyttigt at tilføje flere faner, når du vil gemme ofte anvendte analyse konfigurationer på et datasæt. Du kan f.eks. have faner til at analysere data i Pivot-tilstand og andre faner, der filtrerer til en delmængde af rækker. Nogle faner kan vise en detaljeret visning med mange kolonner, og andre får kun vist nogle få nøglekolonner.
 

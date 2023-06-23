@@ -122,7 +122,7 @@ Hvis du bruger Outlook-appen, skal du blot vælge **Dokumentlink** øverst i e-m
 > Starter i 2022 udgivelsesbølge 1 ved at åbne et nyt browservindue i et nyt browservindue med alle de egenskaber, du kender fra [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan navigere fra et dokument til en liste og tilbage igen, åbne lister i Excel, sende dokumenter til udskrivning og køre eller få vist relaterede rapporter. Du har også alle de velkendte tastaturgenveje, når du åbner dokumenter fra Outlook.  
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Se relateret [Microsoft-træning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

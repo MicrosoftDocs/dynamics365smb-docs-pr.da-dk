@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="warnings-and-error-messages-in-dynamics--business-central" />Advarsler og fejlmeddelelser i Dynamics 365 Business Central
+# <a name="warnings-and-error-messages-in-dynamics-365-business-central" />Advarsler og fejlmeddelelser i Dynamics 365 Business Central
 
 Mens du arbejder, kan du få vist meddelelser i [!INCLUDE [prod_short](includes/prod_short.md)] om, at noget gik galt, eller at det f.eks. ikke var muligt at bogføre noget. I mange tilfælde gør meddelelsen det nemt at løse problemet, eller du kan annullere de ændringer, du har foretaget. I andre tilfælde har du måske ikke de oplysninger, du skal bruge for at fjerne blokeringen. Denne artikel giver tip til, hvordan du kommer videre.  
 

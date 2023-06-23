@@ -70,7 +70,7 @@ Du kan til enhver tid oplysninger om kreditorkort. Hvis du har bogført en poste
 5. Når du har fuldført skabelonen for den nye kreditor, skal du vælge knappen **OK**.  
    Kreditorskabelonen føjes til listen over kreditorskabeloner, så du kan bruge den til at oprette nye kreditorkort.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se også
 

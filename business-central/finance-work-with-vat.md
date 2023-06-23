@@ -234,7 +234,7 @@ Hvis du vil se en gruppe af certifikater, skal du starte fra siden **Leveringsce
 > * Sådan opretter du manuelt et leveringscertifikat  
 > * Sådan udskriver du et leveringscertifikat.
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="workflows-in-dynamics--business-central" />Workflows i Dynamics 365 Business Central
+# <a name="workflows-in-dynamics-365-business-central" />Workflows i Dynamics 365 Business Central
 
 Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Du kan medtage systemopgaver, som f. eks. automatisk bogføring, i workflows. Systemopgaver kan indledes eller efterfølges af brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin.
 

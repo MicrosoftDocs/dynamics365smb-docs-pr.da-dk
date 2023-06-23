@@ -13,7 +13,7 @@ ms.author: edupont
 # <a name="design-details-table-structure" />Designoplysninger: Tabelstruktur
 Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionsposter lagres og bogføres.  
 
-## <a name="table--dimension-set-entry" />Tabel 480, Dimensionsgruppepost
+## <a name="table-480-dimension-set-entry" />Tabel 480, Dimensionsgruppepost
 Denne tabel kan ikke ændres. Når data er blevet skrevet i tabellen, kan du ikke slette eller redigere dem.
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
@@ -25,7 +25,7 @@ Denne tabel kan ikke ændres. Når data er blevet skrevet i tabellen, kan du ikk
 |5|**Dimensionsnavn**|Tekst 30|CalcField. Opslag i tabel 348.|  
 |6|**Dimensionsværdinavn**|Tekst 30|CalcField. Opslag i tabel 349.|  
 
-## <a name="table--dimension-set-tree-node" />Tabel 481, Trænode for dimensionsgruppe
+## <a name="table-481-dimension-set-tree-node" />Tabel 481, Trænode for dimensionsgruppe
 Denne tabel kan ikke ændres. Det bruges til at søge efter en dimensionsgruppe. Hvis dimensionssættet ikke findes, oprettes et nyt sæt.  
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
@@ -35,7 +35,7 @@ Denne tabel kan ikke ændres. Det bruges til at søge efter en dimensionsgruppe.
 |3|**Dimensionsgruppe-id**|Heltal|AutoIncrement. Bruges i felt 1 i tabel 480.|  
 |4|**I brug**|Boolesk|Falsk, hvis ikke i brug.|  
 
-## <a name="table--reclas-dimension-set-buffer" />Tabel 482 Ompost. dimensionsgruppebuffer
+## <a name="table-482-reclas-dimension-set-buffer" />Tabel 482 Ompost. dimensionsgruppebuffer
 Denne tabel bruges, når du ændrer en dimensionsværdikode, for eksempel i en varepost, ved hjælp af siden **Vareomposteringskladde**.  
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
@@ -56,7 +56,7 @@ Ud over de andre dimensionsfelter i tabellen er dette felt også vigtigt:
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensionsgruppe-id**|Heltal|Refererer til felt 1 i tabel 480.|  
 
-### <a name="table--item-journal-line" />Tabel 83, Varekladdelinje
+### <a name="table-83-item-journal-line" />Tabel 83, Varekladdelinje
 Ud over de andre dimensionsfelter i tabellen er disse felter også vigtige.  
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
@@ -64,7 +64,7 @@ Ud over de andre dimensionsfelter i tabellen er disse felter også vigtige.
 |480|**Dimensionsgruppe-id**|Heltal|Refererer til felt 1 i tabel 480.|  
 |481|**Nyt dimensionsgruppe-id**|Heltal|Refererer til felt 1 i tabel 480.|  
 
-### <a name="table--dimension-value" />Tabel 349, Dimensionsværdi
+### <a name="table-349-dimension-value" />Tabel 349, Dimensionsværdi
 Ud over de andre dimensionsfelter i tabellen er disse felter også vigtige.  
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  

@@ -82,7 +82,7 @@ Du kan vælge ikke at få vist advarsler om, at debitorens kreditmaksimum er ove
     |**Forfaldne beløb**|Feltet **Forf. beløb** på debitorens kort kontrolleres, og en advarsel vises, hvis debitorens saldo er forfalden.|
     |**Ingen advarsel**|Der vises ingen advarsler om debitorens status.|
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se også
 

@@ -23,7 +23,7 @@ ms.locfileid: "8521354"
 
  Du kan finde oplysninger om oprettelse eller justering af en dataudvekslingsdefinition i [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).  
 
-## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-" /><a name="camt-data-mapping-to-fields-in-the-general-journal-table-81"></a>CAMT-datatilknytning til felter i tabellen Finanskladde (81)
+## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81" /><a name="camt-data-mapping-to-fields-in-the-general-journal-table-81"></a>CAMT-datatilknytning til felter i tabellen Finanskladde (81)
 
 |Sti til element|Meddelelseselement|Datatype|Beskrivelse|Identifikator for minustegn|Feltnr.|Feltnavn|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -35,14 +35,14 @@ ms.locfileid: "8521354"
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Ustrukturerede|Tekst|Oplysninger, der gives for at aktivere matchning/afstemning af en post med de varer, som betalingen er beregnet til at udligne, f.eks fakturaer i et debitorsystem, på en ustruktureret måde||8|Beskrivelse|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Tekst|Yderligere oplysninger om posten||1222|Oplysninger om transaktion|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-" /><a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273"></a>CAMT-datatilknytning til felter i tabellen Bankkontoafstemning (273)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273" /><a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273"></a>CAMT-datatilknytning til felter i tabellen Bankkontoafstemning (273)
 
 |Sti til element|Meddelelseselement|Datatype|Beskrivelse|Identifikator for minustegn|Feltnr.|Feltnavn|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
 |Stmt/CreDtTm|CreationDateTime|Dato|Den dato og det klokkeslæt, hvor meddelelsen blev oprettet||3|Kontoudtogsdato|  
 |Stmt/Bal/Amt|Beløb|Decimal|Det beløb, der er resultatet af nettobeløbene for alle debet- og kreditposter||4|Kontoudtogs slutsaldo|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-" /><a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274"></a>CAMT-datatilknytning til felter i tabellen Bankkto.afstemningslinje (274)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274" /><a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274"></a>CAMT-datatilknytning til felter i tabellen Bankkto.afstemningslinje (274)
 
 |Sti til element|Meddelelseselement|Datatype|Beskrivelse|Identifikator for minustegn|Feltnr.|Feltnavn|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  

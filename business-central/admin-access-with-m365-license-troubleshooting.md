@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="troubleshoot-access-with-microsoft--licenses" />Fejlfinde adgang med Microsoft 365-licenser
+# <a name="troubleshoot-access-with-microsoft-365-licenses" />Fejlfinde adgang med Microsoft 365-licenser
 
 ## <a name="this-page-uses-data-from-related-tables-that-you-do-not-have-access-to-error-message" />Fejlmeddelelse "Denne side bruger data fra relaterede tabeller, som du ikke har adgang til"
 
@@ -24,7 +24,7 @@ Når du åbner en post i Teams, vises der en fejlmeddelelse i en eller flere af 
 
 Du mangler sandsynligvis objekttilladelser til tabeller, som den aktuelle side eller post er knyttet til.
 
-## <a name="microsoft--access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365-adgang er aktiveret, men brugerne får en tilladelsesfejl
+## <a name="microsoft-365-access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365-adgang er aktiveret, men brugerne får en tilladelsesfejl
 
 ### <a name="symptoms" />Symptomer
 

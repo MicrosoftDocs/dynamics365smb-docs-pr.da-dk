@@ -29,7 +29,7 @@ Du kan angive valutakoder i **valutaerne**, herunder yderligere oplysninger og i
 
 Valutakurserne er værktøjet til beregning af den lokale valutaværdi (RV) for hver valuta transaktion. Du kan finde flere oplysninger i [Opdatere valutakurser](finance-how-update-currencies.md).  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

@@ -98,7 +98,7 @@ For enkelte omkostningsposter overfører [!INCLUDE[prod_short](includes/prod_sho
 
 I tabellen **Omkostningsregister** opretter [!INCLUDE[prod_short](includes/prod_short.md)] en post med kildeoverførsel fra regnskabet. Posten registrerer det første og sidste løbenummer for de finansposter, der overføres, foruden første og sidste postnummer på de omkostningsposter, der er oprettet.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestransfer-gl-entries-dynamics--business-central" />Se relateret [Microsoft-træning](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestransfer-gl-entries-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

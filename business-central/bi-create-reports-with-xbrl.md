@@ -114,7 +114,7 @@ Når en taksonomi ændres, skal du opdatere den aktuelle taksonomi i overensstem
 6. Du kan importere linkbasen ved at vælge handlingen **Indlæs**.  
 7. Vælg knappen **Ja** for at anvende linkbasen til skemaet.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesxbrl-reports-dynamics--business-centralindex" />Se relateret træning på [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesxbrl-reports-dynamics-365-business-centralindex" />Se relateret træning på [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Se også
 

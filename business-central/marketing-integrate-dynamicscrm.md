@@ -12,7 +12,7 @@ ms.search.forms: '9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 53
 ms.date: 09/16/2022
 ms.author: bholtorf
 ---
-# <a name="use-dynamics--sales-from-business-central" />Brug Dynamics 365 Sales fra Business Central
+# <a name="use-dynamics-365-sales-from-business-central" />Brug Dynamics 365 Sales fra Business Central
 Hvis du bruger Dynamics 365 Sales for Customer Engagement, kan du nyde godt af problemfri lead-til-kontant-processen ved hjælp af [!INCLUDE[prod_short](includes/prod_short.md)] for back end-aktiviteter som f.eks. behandling af ordrer, administration af lageret og håndtering af økonomien.
 
 Før du kan bruge integrationsfunktionerne, skal din systemadministrator oprette forbindelsen og definere brugere i [!INCLUDE[crm_md](includes/crm_md.md)]. Du kan finde flere oplysninger i [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).

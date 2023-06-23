@@ -180,7 +180,7 @@ Fra og med februar 2022 vil nye rapporter, der bruger Business Central-data, som
 9. Vælg **Udført**.
 10. Vælg **Luk og Anvend** på båndet for at gemme ændringerne og lukke Power Query-editoren.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

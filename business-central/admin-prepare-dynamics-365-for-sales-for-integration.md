@@ -10,7 +10,7 @@ ms.search.keywords: 'sales, crm, integration, integrating'
 ms.date: 06/14/2021
 ms.author: bholtorf
 ---
-# <a name="integrating-with-dynamics--sales" />Integration med Dynamics 365 Sales
+# <a name="integrating-with-dynamics-365-sales" />Integration med Dynamics 365 Sales
 
 Rollen Sælger betragtes ofte som et af de mest udadvendte i en virksomhed. Det kan imidlertid være en fordel for sælgere at kunne se indad i virksomheden og se, hvad der foregår i back end. Når du integrerer [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[crm_md](includes/crm_md.md)], kan du give dine salgsmedarbejdere den indsigt. Integrationen kan hjælpe med at se oplysninger i [!INCLUDE[prod_short](includes/prod_short.md)], når der arbejdes i [!INCLUDE[crm_md](includes/crm_md.md)]. Ved udarbejdelse af et salgstilbud kan det f.eks. være nyttigt at vide, om der er tilstrækkelig lagerbeholdning til at opfylde ordren. Du kan finde flere oplysninger i [Brug Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md).
 
@@ -51,7 +51,7 @@ Du kan bruge en assisteret opsætningsvejledning til at konfigurere forbindelsen
 |**Aktivér Dynamics 365 Sales-forbindelse** | Aktivér forbindelsen til [!INCLUDE[crm_md](includes/crm_md.md)]. |
 | **Dynamics 365 SDK-version** | Det er kun relevant, hvis du integrerer med en lokal version af [!INCLUDE[crm_md](includes/crm_md.md)]. Denne SDK er det Dynamics 365 software development kit (også kaldet Xrm), du bruger til at forbinde [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]. Versionen skal være kompatibel med den version af SDK, som bruges af [!INCLUDE[crm_md](includes/crm_md.md)], og være lig med eller nyere end den version, der bruges af [!INCLUDE[crm_md](includes/crm_md.md)]. |
 
-### <a name="connection-settings-on-the-microsoft-dynamics--connection-setup-page" />Forbindelsesindstillinger på siden Microsoft Dynamics 365-konfiguration af forbindelse
+### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page" />Forbindelsesindstillinger på siden Microsoft Dynamics 365-konfiguration af forbindelse
 
 Indtast følgende oplysninger vedrørende forbindelsen fra [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -183,7 +183,7 @@ I følgende tabel beskrives standardsynkroniseringsjobbene for Salg.
 |BOGFØRTE SALGSFAKTURAER-FAKTURAER – Dynamics 365 Sales-synkroniseringsjob|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)] fakturaer med [!INCLUDE[prod_short](includes/prod_short.md)] bogførte salgsfakturaer.|Fra [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|FAKTURAER-BOGFØRTE SALGSFAKTURAER|30|1440<br> (24 timer)|
 |Debitorstatistik - Dynamics 365 Sales-synkroniseringsjob|Opdaterer [!INCLUDE[crm_md](includes/crm_md.md)] konti med seneste [!INCLUDE[prod_short](includes/prod_short.md)] debitordata. I [!INCLUDE[crm_md](includes/crm_md.md)] vises disse oplysninger i **Business Central kontostatistik** i hurtigvisningsformat over konti, der er sammenkædet med [!INCLUDE[prod_short](includes/prod_short.md)]-debitorer.<br /><br /> Disse data skal også opdateres manuelt fra hver debitor-record. Du kan finde flere oplysninger i [Sammenkæd og synkroniser poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Bemærk:**  denne jobkøpost er kun relevant, hvis [!INCLUDE[prod_short](includes/prod_short.md)] integrationsløsningen er installeret i [!INCLUDE[crm_md](includes/crm_md.md)]. |Ikke tilgængelig|Ikke tilgængelig|30|Ikke tilgængelig| 
 
-## <a name="connecting-to-on-premises-versions-of-business-central--release-wave--and-microsoft-dynamics-nav-" />Oprette forbindelse til lokale versioner af Business central 2019 Release Wave 1 og Microsoft Dynamics NAV 2018
+## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018" />Oprette forbindelse til lokale versioner af Business central 2019 Release Wave 1 og Microsoft Dynamics NAV 2018
 Microsoft Power Platform-teamet har [meddelt](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse), at det fraråder Office365-godkendelsestypen. Hvis du bruger en version af [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, der er ældre end Business Central 2019 udgivelsesbølge 1, skal du bruge godkendelsestypen OAuth for at oprette forbindelse til [!INCLUDE[crm_md](includes/crm_md.md)]-online. Fremgangsmåden i dette afsnit beskriver, hvordan du opretter forbindelse til følgende produktversioner:
 
 * Business Central 2019 release wave 1
@@ -201,7 +201,7 @@ Microsoft Power Platform-teamet har [meddelt](/power-platform/important-changes-
 
    - OAuth
 
-### <a name="to-connect-business-central--release-wave--and-dynamics-nav-" />Sådan oprettes forbindelse mellem Business Central 2019 Release Wave 1 og Dynamics NAV 2018
+### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018" />Sådan oprettes forbindelse mellem Business Central 2019 Release Wave 1 og Dynamics NAV 2018
 
 1. Importér Microsoft Dynamics 365 Business Central-integrationsløsningen til dit [!INCLUDE[crm_md](includes/crm_md.md)]-miljø. Integrationsløsningen findes i mappen CrmCustomization på [!INCLUDE[prod_short](includes/prod_short.md)] eller Dynamics NAV 2018 installations-dvd'en. Afhængigt af produktversionen skal du indlæse en af følgende løsninger:
 

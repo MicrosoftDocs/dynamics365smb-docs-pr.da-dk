@@ -25,7 +25,7 @@ En rapport i [!INCLUDE[prod_short](includes/prod_short.md)] indsamler oplysninge
 | For at få mere at vide om, hvordan du ændrer standardlayoutet for en rapport. | [Ændre layout i standardrapport](ui-how-change-layout-currently-used-report.md) |
 | Vise og analysere data fra et rapportdatasæt i Microsoft Excel. | [Gem rapportdatasættet i Excel fra anmodningssiden](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics--business-central" />Se relateret [Microsoft-træning](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se også
 

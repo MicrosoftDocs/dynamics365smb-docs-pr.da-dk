@@ -51,7 +51,7 @@ På siden **Bogført købsfaktura** kan du vælge knappen **Ret** eller **Annull
 
 Hvis annulleringen vedrører en delvis fakturabogføring, opdateres den oprindelige indkøbsordrelinje, så den afspejler det annullerede fakturerede antal. Felterne **Fakturer antal** og **Fakt. antal** på den relaterede købsordrelinje nulstilles til værdierne før den delvise fakturabogføring.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d-business-central" />Se relateret [Microsoft-træning](/training/modules/receive-invoice-dynamics-d365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d365-business-central" />Se relateret [Microsoft-træning](/training/modules/receive-invoice-dynamics-d365-business-central/)
 
 ## <a name="see-also" />Se også
 

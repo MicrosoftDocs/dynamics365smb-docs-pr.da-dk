@@ -134,7 +134,7 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 7. Udvid oversigtspanelet **Azure AI**, og Udfyld derefter felterne, herunder API-URL-adressen og API-nøglen fra Azure Machine Learning Studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. I Rollecenteret Regnskabsmedarbejder skal du vælge handlingen **Genberegn prognose** under diagrammet **Pengestrømsprognose**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics--business-centralindex" />Se relateret [Microsoft-træning](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 
