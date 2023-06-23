@@ -10,7 +10,7 @@ ms.search.form: '663,'
 ms.date: 05/31/2023
 ms.author: bholtorf
 ---
-# <a name="set-up-approval-users" />Konfigurere godkendelsesbrugere
+# Konfigurere godkendelsesbrugere
 
 Før du kan oprette workflows, der omfatter godkendelsestrin, skal du angive workflowbrugere, der er involveret i godkendelsesprocessen, på siden **Brugeropsætning af godkendelser**. Du kan også angive beløbsgrænser for forskellige typer anmodninger, definere stedfortrædende godkendere og oprette notifikationer.  
 
@@ -19,7 +19,7 @@ Når du har angivet godkendelsesbrugere, kan du oprette workflowsvar for godkend
 > [!TIP]
 > Du kan kræve, at flere godkendere skal reagere på en godkendelsesanmodning, ved at oprette en gruppe godkendere på siden **Brugergruppe for workflow**. Flere oplysninger i [Konfigurere brugergrupper for workflow](across-how-to-set-up-workflow-users.md).  
 
-## <a name="to-set-up-an-approval-user" />Sådan konfigureres en godkendelsesbruger
+## Sådan konfigureres en godkendelsesbruger
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
@@ -46,9 +46,9 @@ Når du har angivet godkendelsesbrugere, kan du oprette workflowsvar for godkend
 
 I næste trin skal du angive, hvordan du vil [!INCLUDE [prod_short](includes/prod_short.md)] give brugerne besked om, at en anmodning afventer deres opmærksomhed. Få mere at vide under [Konfiguration af workflownotifikationer](across-setting-up-workflow-notifications.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Se relateret [Microsoft-træning](/training/modules/create-workflows/)
+## Se relateret [Microsoft-træning](/training/modules/create-workflows/)
 
-## <a name="see-also" />Se også
+## Se også
 
 [Konfigurere brugere til workflow](across-how-to-set-up-workflow-users.md)  
 [Konfiguration af workflownotifikationer](across-setting-up-workflow-notifications.md)  
