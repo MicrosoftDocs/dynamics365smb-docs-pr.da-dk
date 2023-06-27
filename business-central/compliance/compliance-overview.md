@@ -9,7 +9,7 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# <a name="compliance-overview" />Oversigt over overholdelse
+# <a name="compliance-overview"></a>Oversigt over overholdelse
 
 Dette indhold indeholder oplysninger om overholdelse i relation til [!INCLUDE[prod_short](../includes/prod_short.md)].  
 

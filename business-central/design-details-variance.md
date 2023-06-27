@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-variance" />Designoplysninger: Afvigelse
+# <a name="design-details-variance"></a>Designoplysninger: Afvigelse
 Afvigelsen er defineret som forskellen mellem den faktiske kostpris og standardkostprisen, som beskrevet i følgende formel.  
 
  faktiske omkostninger – standardomkostninger = afvigelse  
@@ -20,7 +20,7 @@ Afvigelsen er defineret som forskellen mellem den faktiske kostpris og standardk
 > [!NOTE]  
 >  Værdiregulering påvirker ikke beregningen af afvigelse, fordi værdiregulering kun ændrer lagerværdien.  
 
-## <a name="example" />Eksempel
+## <a name="example"></a>Eksempel
  Følgende eksempel illustrerer, hvordan afvigelsen beregnes for købte varer. Den bygger på følgende scenario:  
 
 1.  Brugeren køber en vare til RV 90,00, men standardkostprisen er RV 100,00. Derfor bliver købsafvigelsen RV -10,00.  
@@ -33,7 +33,7 @@ Afvigelsen er defineret som forskellen mellem den faktiske kostpris og standardk
 
  ![Beregning af købsafvigelse.](media/design_details_inventory_costing_11_purchase_variance.png "Beregning af købsafvigelse")  
 
-## <a name="determining-the-standard-cost" />Bestemmelse af standardkostpris
+## <a name="determining-the-standard-cost"></a>Bestemmelse af standardkostpris
  Standardkostprisen bruges til beregning af afvigelse og beløbet, der skal kapitaliseres. Da standardkostprisen kan ændres med tiden på grund af manuel opdateringsberegning, skal du bruge et tidspunkt, hvor standardkostprisen er fast til beregning af varians. Dette punkt er, når lagerforøgelsen er faktureret. For producerede eller monterede varer er punktet for, hvornår standardomkostninger bestemmes, når omkostningerne reguleres.  
 
  Følgende tabel viser, hvordan forskellige kostprisfordelinger beregnes for producerede og monterede varer, når du bruger funktionen Beregn standardkostpris.  
@@ -52,7 +52,7 @@ Afvigelsen er defineret som forskellen mellem den faktiske kostpris og standardk
 |**Akkumulerede indirekte kapacitetsomkostninger**|Ikke tilgængelig|![Ligning 8.](media/design_details_inventory_costing_11_equation_8.png "Ligning 8")|  
 |**Ind. prod.kostpris (akkum.)**|Ikke tilgængelig|![Ligning 9.](media/design_details_inventory_costing_11_equation_9.png "Ligning 9")|  
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
  [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
  [Designoplysninger – Omkostningsmetoder](design-details-costing-methods.md) [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  

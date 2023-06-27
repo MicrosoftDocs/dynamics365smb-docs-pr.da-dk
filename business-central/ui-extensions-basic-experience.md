@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-basic-experience-extension" />Basic Experience Extension
+# <a name="the-basic-experience-extension"></a>Basic Experience Extension
 
 Hvis du har brugt Microsoft Dynamics C5, kan Microsoft-partnere hjælpe dig med at skifte til en mere moderne løsning, der er baseret på [!INCLUDE[prod_short](includes/prod_short.md)], så du fortsat kan nyde den samme strømlinede funktionalitet som Dynamics C5.
 
@@ -21,7 +21,7 @@ Denne udvidelse henvender sig til mindre virksomheder og kan understøtte op til
 > [!NOTE]
 > Denne udvidelse er kun tilgængelig for debitorer i Danmark og Island.
 
-## <a name="whats-available" />Tilgængelige oplysninger
+## <a name="whats-available"></a>Tilgængelige oplysninger
 
 I følgende tabel beskrives de funktioner, der er tilgængelige, hvis du installerer Basic Experience-udvidelsen.
 
@@ -33,7 +33,7 @@ I følgende tabel beskrives de funktioner, der er tilgængelige, hvis du install
 |**Projektstyring** |Sager, sagsomkostninger, time sedler, tildeling, opgaver, ressourcer |
 |**Lagerbeholdning** |Basis lager, erstatningsvare, varereferencer |
 
-## <a name="getting-started" />Introduktion
+## <a name="getting-started"></a>Introduktion
 
 Dette filtypenavn er lidt anderledes end de fleste, og du har brug for hjælp fra en Microsoft-partner for at kunne installere og konfigurere den. Det betyder, at du ved, hvad du kan forvente, men her er en overordnet oversigt over, hvad Microsoft-partneren skal gøre.
 
@@ -44,11 +44,11 @@ Dette filtypenavn er lidt anderledes end de fleste, og du har brug for hjælp fr
 5. Tilføje **Demo RapidStart**-pakken. <!--what does the package contain?-->
 6. Hente og installere Basic Experience-udvidelsen fra AppSource.
 
-## <a name="migrating-data" />Dataoverførsel
+## <a name="migrating-data"></a>Dataoverførsel
 
 Bring dine Dynamics C5-data sammen. Når din Microsoft-partner har installeret den grundlæggende oplevelse, har du en tom virksomhed. En nem måde at flytte dine data fra Dynamics C5 il Basic Experience på er at bruge det C5-data overflytnings udvidelse, som findes i [!INCLUDE[prod_short](includes/prod_short.md)]. Udvidelsen overflytter debitorer, kreditorer, varer og finanskonti og deres poster.
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Udvidelsen C5-dataoverførsel](ui-extensions-c5-data-migration.md)  
 

@@ -11,7 +11,7 @@ ms.search.form: '26, 1346, 7012, 7014, 7017, 7018, 7189, 7190, 9307'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="record-special-purchase-prices-and-discounts" />Registrere særlige købspriser og rabatter
+# <a name="record-special-purchase-prices-and-discounts"></a>Registrere særlige købspriser og rabatter
 
 > [!NOTE]
 > I 2020 udgivelsesbølge 2 har vi udgivet strømlinede processer til opsætning og administration af priser og rabatter. Hvis du er ny kunde, der bruger den version, bruger du den nye oplevelse. Hvis du allerede bruger den nye oplevelse, afhænger det af, om din administrator har aktiveret funktionsopdateringen **Ny vareprissætningsopdatering** i **Funktionsadministration**. Du kan finde flere oplysninger i [Aktivere Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -31,7 +31,7 @@ Med hensyn til rabatter kan du oprette og bruge to typer købsrabat:
 
 Da købslinjerabatter og købspriser er baseret på en kombination af vare og leverandør, kan du også angive denne konfiguration fra det varekort, hvor reglerne og værdierne er defineret. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 
-## <a name="to-set-up-a-special-purchase-price-for-a-vendor" />Sådan oprettes en særlig købspris for en kreditor
+## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Sådan oprettes en særlig købspris for en kreditor
 
 #### [Aktuel oplevelse](#tab/current-experience)
 
@@ -54,7 +54,7 @@ Da købslinjerabatter og købspriser er baseret på en kombination af vare og le
 
 ---
 
-## <a name="to-set-up-a-line-discount-for-a-vendor" />Sådan oprettes en linjerabat for en kreditor
+## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Sådan oprettes en linjerabat for en kreditor
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.
 2. Åbn det relevante kreditorkort, og vælg derefter handlingen **Linjerabatter**.
@@ -63,7 +63,7 @@ Da købslinjerabatter og købspriser er baseret på en kombination af vare og le
 3. Udfyld felterne på linjen efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Udfyld en linje for hver kombination, som kreditoren yder dig en købslinjerabat for.
 
-## <a name="to-set-up-an-invoice-discount-for-a-vendor" />Sådan oprettes en fakturarabat for en kreditor
+## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Sådan oprettes en fakturarabat for en kreditor
 
 Når dine kreditorer har oplyst, hvilke fakturarabatter de yder, skal du angive fakturarabatkoden på kreditorkortene og definere betingelserne for hver kode.
 
@@ -83,7 +83,7 @@ Når dine kreditorer har oplyst, hvilke fakturarabatter de yder, skal du angive 
 
 Fakturarabatten er nu oprettet og knyttet til den pågældende kreditor. Når du vælger kreditorkoden i feltet **Fakturarabatkode** på andre kreditorkort, knyttes samme fakturarabat til den pågældende kreditorer.
 
-## <a name="to-choose-a-principle-for-posting-purchase-discounts" />Sådan vælges en metode til bogføring af rabatter
+## <a name="to-choose-a-principle-for-posting-purchase-discounts"></a>Sådan vælges en metode til bogføring af rabatter
 
 Når du bogfører en købsfaktura, som der ydes en eller to rabatter på, kan du vælge mellem to metoder til at bogføre mængderabatter. Du kan bogføre rabatter separat, eller du kan fratrække rabatter som fakturarabatter.  
 
@@ -99,7 +99,7 @@ Før du kan gøre dette, skal du allerede have oprettet de nødvendige konti til
 |**Linjerabat**|Fratrukket|Bogført separat|  
 |**Ingen rabat**|Fratrukket|Fratrukket|  
 
-## <a name="purchase-invoice-discounts-and-service-charges" />Købsfakturarabatter og servicegebyrer
+## <a name="purchase-invoice-discounts-and-service-charges"></a>Købsfakturarabatter og servicegebyrer
 
 Du kan angive de faste betingelser for fakturarabat, som bruges af dine kreditorer. Rabatten beregnes automatisk, når du udfylder en købsfaktura.  
 
@@ -116,7 +116,7 @@ Du kan få [!INCLUDE[prod_short](includes/prod_short.md)] til automatisk at bere
 > [!TIP]  
 > Det anbefales, at du forbereder en skitse over den rabatstruktur, der skal anvendes, før du begynder at indtaste disse oplysninger. Det gør det nemmere at se, hvilke kreditorer der kan knyttes til samme fakturarabatside. Jo færre sider, du har sat op, jo hurtigere kan du indtaste stamoplysningerne.
 
-## <a name="best-price-calculation" />Beregning af bedste pris
+## <a name="best-price-calculation"></a>Beregning af bedste pris
 
 Når du har registreret særpriser og linjerabatter for salg og køb, sørger [!INCLUDE[prod_short](includes/prod_short.md)] for, at dine avance på varehandel altid er optimal ved automatisk at beregne den bedste pris på salgs- og købsdokumenter og på sags- og varekladdelinjer.
 
@@ -139,9 +139,9 @@ Den bedste pris er den lavest tilladte pris med den størst tilladte linjerabat 
 
 Hvis der ikke kan beregnes en særpris for varen på linjen, indsættes seneste indirekte omkostning eller enhedsprisen fra varekortet.
 
-## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index)
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
 [Køb](purchasing-manage-purchasing.md)  

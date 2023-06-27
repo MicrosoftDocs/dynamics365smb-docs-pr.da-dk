@@ -11,7 +11,7 @@ ms.search.form: '7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380
 ms.date: 09/01/2022
 ms.author: edupont
 ---
-# <a name="register-new-customers" />Registrere nye debitorer
+# <a name="register-new-customers"></a>Registrere nye debitorer
 
 Debitorer er din kilde til din indtægt. Du skal registrere hver debitor, du sælger til som et debitorkort. Debitorkort indeholder de oplysninger, som er en forudsætning for at sælge produkter til debitoren. Flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md) og [Registrere nye varer](inventory-how-register-new-items.md).  
 
@@ -20,7 +20,7 @@ Før du kan registrere nye debitorer, skal du oprette forskellige salgskoder, so
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-## <a name="adding-new-customers" />Tilføje nye debitorer
+## <a name="adding-new-customers"></a>Tilføje nye debitorer
 
 Du kan tilføje nye debitorer manuelt ved at udfylde felterne på siden **Debitorkort**, eller du kan bruge skabeloner, der indeholder foruddefinerede oplysninger. Du kan f. eks. oprette en skabelon til forskellige typer debitorprofiler. Du kan spare tid ved at bruge skabeloner, når du tilføjer nye debitorer, så oplysningerne bliver korrekte hver gang. 
 
@@ -35,7 +35,7 @@ Når du har oprettet en skabelon, kan du bruge handlingen **Anvend skabelon** fo
 
 Du kan også oprette en debitor ud fra en kontakt. Flere oplysninger i [Sådan oprettes en debitor-, kreditor-, medarbejder- eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
-### <a name="to-create-a-new-customer-card" />Sådan oprettes et nyt debitorkort
+### <a name="to-create-a-new-customer-card"></a>Sådan oprettes et nyt debitorkort
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
@@ -43,7 +43,7 @@ Du kan også oprette en debitor ud fra en kontakt. Flere oplysninger i [Sådan o
 
 Debitoren er nu registreret, og debitorkortet er klar til at blive brugt i salgsdokumenter.  
 
-### <a name="to-save-the-customer-card-as-a-template" />Sådan gemmes debitorkortet som en skabelon
+### <a name="to-save-the-customer-card-as-a-template"></a>Sådan gemmes debitorkortet som en skabelon
 
 Du kan bruge et debitorkort som skabelon, når du opretter nye debitorkort.
 
@@ -55,11 +55,11 @@ Du kan bruge et debitorkort som skabelon, når du opretter nye debitorkort.
 
 Debitorskabelonen føjes til listen over debitorskabeloner, og du kan bruge den til at oprette nye debitorkort.
 
-## <a name="deleting-customer-cards" />Slette debitorkort
+## <a name="deleting-customer-cards"></a>Slette debitorkort
 
 Hvis du har bogført en postering for en debitor, kan du ikke slette debitorkortet, da posterne muligvis er nødvendige med henblik på revision. Hvis du vil slette debitorkort med poster, skal du kontakte din Microsoft-partner for at gøre dette via kode.  
 
-## <a name="managing-credit-limits" />Administrere kreditgrænser
+## <a name="managing-credit-limits"></a>Administrere kreditgrænser
 
 Kreditgrænser, saldobeløb og betalingsbetingelser gør det f.eks. muligt for [!INCLUDE [prod_short](includes/prod_short.md)] at udstede kredit og en forfaldsadvarsel, når du behandler en salgsordre. Desuden kan du med rykker- og rentebetingelserne fakturere rente og/eller ekstra opkrævningsgebyrer.  
 
@@ -69,7 +69,7 @@ Du kan bogføre, selv om kreditgrænsen er overskredet. Hvis ikke feltet udfylde
 
 Du kan vælge ikke at få vist advarsler om, at debitorens kreditmaksimum er overskredet, og du kan angive, hvilke typer advarsel du vil se.
 
-### <a name="to-specify-credit-limit-warnings" />Sådan angiver du advarsler om kreditmaksimum
+### <a name="to-specify-credit-limit-warnings"></a>Sådan angiver du advarsler om kreditmaksimum
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Salgsopsætning**, og vælg derefter det relaterede link.
 
@@ -82,9 +82,9 @@ Du kan vælge ikke at få vist advarsler om, at debitorens kreditmaksimum er ove
     |**Forfaldne beløb**|Feltet **Forf. beløb** på debitorens kort kontrolleres, og en advarsel vises, hvis debitorens saldo er forfalden.|
     |**Ingen advarsel**|Der vises ingen advarsler om debitorens status.|
 
-## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/).
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Definere betalingsformer](finance-payment-methods.md)  
 [Flette dublerede poster](sales-how-merge-duplicate-records.md)  

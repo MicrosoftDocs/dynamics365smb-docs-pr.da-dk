@@ -11,13 +11,13 @@ ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-inventory-costing" />Designoplysninger: Lagerkostmetode
+# <a name="design-details-inventory-costing"></a>Designoplysninger: Lagerkostmetode
 
 Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges inden for lageromkostningsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Lagerkostmetode, også kendt som "omkostningsstyring", vedrører registrering og rapportering af virksomhedens driftsomkostninger.  
 
-## <a name="in-this-section" />Dette afsnit indeholder
+## <a name="in-this-section"></a>Dette afsnit indeholder
 
 [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
 [Designoplysninger: Vareudligning](design-details-item-application.md)  

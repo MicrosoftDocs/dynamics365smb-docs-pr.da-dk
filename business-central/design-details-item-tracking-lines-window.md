@@ -10,7 +10,7 @@ ms.search.keywords: 'design, inventory, item, tracking, serial number, lot numbe
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-item-tracking-lines-page" />Designoplysninger: Siden Varesporingslinjer
+# <a name="design-details-item-tracking-lines-page"></a>Designoplysninger: Siden Varesporingslinjer
 Varesporingsposter og reservationsposter oprettes i reservationssystemet, og deres tilgængelighed beregnes dynamisk. Data, der er angivet på siden **Varesporingslinjer**, styres i en midlertidig version af tabellen **Sporingsspecifikation**. Når siden lukkes, bliver de aktive data bundet til tabellen **Reservationspost**, og de historiske data bliver bundet til tabellen **Sporingsspecifikation**. Du kan finde flere oplysninger i [Designoplysninger: Aktive kontra historiske varesporingsposter](design-details-active-versus-historic-item-tracking-entries.md).  
   
 Opslag fra felterne **Serienr.** og **Lotnr.** viser tilgængelighed baseret på både tabellen **Varepost** og **Reservationspost**, uden datofilter. Matrixen for mængdefelter i hovedet af siden **Varesporingslinjer** viser dynamiske mængder og summer for de varesporingsnumre, der er angivet på linjerne på siden. Mængderne skal svare til mængderne på dokumentlinjen, der er angivet med **0** i **Udefineret**-felterne i sidehovedet på siden.  
@@ -23,7 +23,7 @@ For at koordinere flowet af serie- og lotnumre i lageret findes følgende regler
   
 Regler for indtastning af data på siden **Varesporingslinjer** understøtter også de sammensætningsprincipper, der styrer ordresporing, planlægning og reservation. Du kan finde flere oplysninger i [Designoplysninger: Varesporing og planlægning](design-details-item-tracking-and-planning.md).  
   
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 [Designoplysninger: Varesporing](design-details-item-tracking.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

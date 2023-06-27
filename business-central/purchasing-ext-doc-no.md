@@ -10,13 +10,13 @@ ms.search.keywords: null
 ms.date: 05/27/2021
 ms.author: edupont
 ---
-# <a name="external-document-numbers-on-purchase-documents" />Eksterne bilagsnumre på købsdokumenter
+# <a name="external-document-numbers-on-purchase-documents"></a>Eksterne bilagsnumre på købsdokumenter
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 Du kan også angive eksterne bilagsnumre på salgsdokumenter. Du kan finde flere oplysninger i forbindelse med [Eksterne bilagsnumre](sales-how-invoice-sales.md#external-document-numbers)
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Angive eksterne bilagsnumre](across-enter-external-document-numbers.md)  
 [Køb](purchasing-manage-purchasing.md)  

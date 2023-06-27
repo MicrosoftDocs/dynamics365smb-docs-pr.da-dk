@@ -10,7 +10,7 @@ ms.search.form: '1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862'
 ms.date: 02/08/2023
 ---
 
-# <a name="assign-permissions-to-users-and-groups" />Tildele rettigheder til brugere og grupper
+# <a name="assign-permissions-to-users-and-groups"></a>Tildele rettigheder til brugere og grupper
 
 [!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
 
@@ -46,7 +46,7 @@ Du kan finde flere oplysninger i [Delegeret administratoradgang til Business Cen
 >
 > Du kan også definere de funktioner, der er tilgængelige for brugere i brugergrænsefladen, og hvordan de interagerer med de tilladte funktioner via sider. Du kan gøre dette via profiler, som du tildeler til forskellige typer brugere, i henhold til deres jobrolle eller afdeling. Du kan finde flere oplysninger i [Administrere profiler](admin-users-profiles-roles.md) og [Tilpasning af [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
 
-## <a name="to-create-a-permission-set" />Oprette et rettighedssæt
+## <a name="to-create-a-permission-set"></a>Oprette et rettighedssæt
 
 > [!NOTE]
 > I 2022 udgivelsesbølge 2 gjorde vi det nemmere at føje tilladelser til tilladelsessæt. I stedet for at tilføje tilladelser enkeltvis, kan du tilføje hele tilladelsessæt. Hvis det er nødvendigt, kan du udelukke individuelle tilladelser i dem. Du kan finde flere oplysninger i [Tilføje andre rettighedssæt](#to-add-other-permission-sets). For at gøre dette skal vi erstatte siden med tilladelsessættet med en ny. De vigtigste forskelle er de nye ruder for **tilladelsessæt** og **resultater** samt faktaboksen **inkludere tilladelser**. Hvis du vil fortsætte med at bruge siden erstattede tilladelser, skal du vælge handlingen **tilladelser (ældre)** på siden **tilladelsessæt**.
@@ -89,13 +89,13 @@ Vedligeholdelse er også nemmere. Når du tilføjer en systemtilladelse, opdater
 > [!IMPORTANT]
 > Vær forsigtig, når du tilknytter **Indsæt tilladelse** eller **Ret tilladelse** til tabellen **9001-brugergruppemedlem** eller **9003-brugergruppetilladelsessæt**. Alle brugere, der har fået tildelt et tilladelsessæt, kan tildele sig selv til andre brugergrupper, som igen kan give dem uønskede rettigheder.
 
-### <a name="example---indirect-permission" />Eksempel - indirekte rettighed
+### <a name="example---indirect-permission"></a>Eksempel - indirekte rettighed
 
 Du kan tildele en indirekte rettighed for kun at bruge et objekt gennem et andet objekt. En bruger kan f.eks. have tilladelse til at køre codeunit 80, salg-post Codeunit Salgs-post udfører mange opgaver, herunder ændring af tabel 37, Salgslinje. Når brugeren bogfører et salgsdokument med Salgs-post-codeunit, kontrollerer [!INCLUDE[prod_short](includes/prod_short.md)], om brugeren har rettighed til at ændre tabellen Salgslinje. Hvis ikke, kan codeunit ikke udføre sine opgaver, og brugeren får en fejlmeddelelse. I så fald kører codeunit'en korrekt.
 
 Men brugeren behøver ikke at have fuld adgang til tabellen Salgslinje for at køre codeunit'en. Hvis brugeren har indirekte rettighed til tabellen Salgslinje, kører codeunit'en Salgs-post korrekt. Når en bruger har indirekte rettighed, kan brugeren kun redigere tabellen Salgslinje ved at køre codeunit'en salgs-post eller et andet objekt, der har rettighed til at ændre tabellen Salgslinje. Brugeren kan kun redigere tabellen Salgslinje, når det sker fra understøttede funktionalitetsområder. Brugeren kan ikke køre funktionen ved et uheld eller skadeligt ved andre metoder.
 
-### <a name="to-add-other-permission-sets" />Sådan tilføjes andre tilladelsessæt
+### <a name="to-add-other-permission-sets"></a>Sådan tilføjes andre tilladelsessæt
 
 Udvid et tilladelsessæt ved at føje andre tilladelsessæt til det. Derefter kan du medtage eller udelade bestemte tilladelser eller hele tilladelsessæt i hvert sæt, du tilføjer. Dette omfatter tilladelser i tilladelsessæt og systemtype-tilladelsessæt, som ellers ikke er tilladt. Udeladelser gælder kun for det tilladelsessæt, du er ved at udvide. Det oprindelige sæt ændres ikke.
 
@@ -115,7 +115,7 @@ Hvis du udelader et tilladelsessæt, udelukkes alle tilladelserne i sættet. [!I
 2. Beregne den fuldstændige liste over ekskluderede tilladelser
 3. Fjerne udelukkede tilladelser fra listen over inkluderede tilladelser (fjerne en indirekte tilladelse er den samme som reduktion af indirekte)
 
-## <a name="to-copy-a-permission-set" />Sådan kopieres et rettighedssæt
+## <a name="to-copy-a-permission-set"></a>Sådan kopieres et rettighedssæt
 
 Opret et nyt tilladelsessæt ved at kopiere et andet. Det nye sæt vil omfatte alle tilladelser og tilladelsessæt fra det sæt, du har kopieret. Den måde, tilladelserne og tilladelses sættene arrangeres på, afhænger af det, du har valgt i feltet **Kopier operation**. Den følgende tabel beskriver indstillingerne.
 
@@ -133,7 +133,7 @@ Opret et nyt tilladelsessæt ved at kopiere et andet. Det nye sæt vil omfatte a
 > [!NOTE]
 > Meddelelsen kræver, at meddelelsen **Oprindelige systemtilladelsessæt ændret** er aktiveret på siden **Mine beskeder**.
 
-## <a name="to-create-or-modify-permissions-by-recording-your-actions" />Sådan opretter eller redigerer du rettigheder ved at registrere dine handlinger
+## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Sådan opretter eller redigerer du rettigheder ved at registrere dine handlinger
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rettighedssæt**, og vælg derefter det relaterede link.
 
@@ -149,7 +149,7 @@ Opret et nyt tilladelsessæt ved at kopiere et andet. Det nye sæt vil omfatte a
 8. Vælg knappen **Ja** for at føje de registrerede rettigheder til det nye rettighedssæt.
 9. Angiv, om brugerne skal kunne indsætte, redigere eller slette poster i de registrerede tabeller for hvert objekt på listen over registrerede elementer.
 
-### <a name="to-export-and-import-a-permission-set" />Sådan eksporteres og importeres et tilladelsessæt
+### <a name="to-export-and-import-a-permission-set"></a>Sådan eksporteres og importeres et tilladelsessæt
 
 Hvis du hurtigt vil oprette tilladelser, kan du importere tilladelsessæt, som du har eksporteret fra en anden [!INCLUDE[prod_short](includes/prod_short.md)]-lejer.
 
@@ -170,11 +170,11 @@ I miljøer med flere lejere importeres et tilladelsessæt i en bestemt lejer. De
 
 Rettighedssættene importeres.
 
-## <a name="to-remove-obsolete-permissions-from-all-permission-sets" />Sådan fjernes forældede rettigheder fra alle rettighedssæt
+## <a name="to-remove-obsolete-permissions-from-all-permission-sets"></a>Sådan fjernes forældede rettigheder fra alle rettighedssæt
 
 På siden **Rettighedssæt** skal du vælge handlingen **Fjern forældede rettigheder**.
 
-## <a name="to-set-up-time-constraints-for-users" />Sådan opsættes tidsbegrænsninger for brugere
+## <a name="to-set-up-time-constraints-for-users"></a>Sådan opsættes tidsbegrænsninger for brugere
 
 Administratorer kan angive perioder, hvor angivne brugere kan bogføre. Administratorer kan også angive, om systemet skal logge af, hvor lang tid brugere er logget på. Administratorer kan også knytte ansvarscentre til brugere. Du kan finde flere oplysninger i [Arbejde med ansvarscentre](inventory-responsibility-centers.md).
 
@@ -183,7 +183,7 @@ Administratorer kan angive perioder, hvor angivne brugere kan bogføre. Administ
 3. I feltet **Bruger-ID** skal du angive ID'et for en bruger, eller vælge feltet for at få vist alle aktuelle Windows-brugere i systemet.
 4. Udfyld felterne efter behov.
 
-## <a name="to-manage-permissions-through-user-groups" />Sådan administreres rettigheder via brugergrupper
+## <a name="to-manage-permissions-through-user-groups"></a>Sådan administreres rettigheder via brugergrupper
 
 Brugergrupper hjælper dig med at administrere tilladelsessæt på tværs af virksomheden. [!INCLUDE [prod_short](includes/prod_short.md)] online indeholder standardbrugergrupper, der automatisk tildeles til brugere baseret på deres licens. Du kan føje brugere til en brugergruppe manuelt, og du kan oprette nye brugergrupper som kopier af eksisterende.  
 
@@ -191,7 +191,7 @@ Du starter med at oprette en brugergruppe. Derefter kan du tildele et rettigheds
 
 Tilladelsessæt, der er tildelt en bruger via en brugergruppe, forbliver synkroniseret. En ændring af brugergruppens rettigheder overføres automatisk til brugerne. Hvis du fjerner en bruger fra en brugergruppe, tilbagekaldes de involverede rettigheder automatisk.
 
-### <a name="to-add-users-to-a-user-group" />Sådan føjes brugere til en brugergruppe
+### <a name="to-add-users-to-a-user-group"></a>Sådan føjes brugere til en brugergruppe
 
 Følgende procedure beskriver, hvordan du opretter brugergrupper manuelt. Hvis du vil oprette brugergrupper automatisk, skal du se [Sådan kopieres en brugergruppe og alle dens rettighedssæt](#to-copy-a-user-group-and-all-its-permission-sets).
 
@@ -201,7 +201,7 @@ Følgende procedure beskriver, hvordan du opretter brugergrupper manuelt. Hvis d
 2. Du kan også vælge handlingen **Medlemmer af brugergruppe** på siden **Brugergruppe**.
 3. Du kan også vælge handlingen **Medlemmer af brugergruppe** på siden **Tilføj brugere**.
 
-### <a name="to-copy-a-user-group-and-all-its-permission-sets" />Sådan kopierer du en brugergruppe og alle dens rettighedssæt
+### <a name="to-copy-a-user-group-and-all-its-permission-sets"></a>Sådan kopierer du en brugergruppe og alle dens rettighedssæt
 
 Hvis du hurtigt vil definere en ny brugergruppe, kan du kopiere alle rettighedssæt fra en eksisterende brugergruppe til den nye brugergruppe.
 
@@ -217,7 +217,7 @@ Den nye gruppe tilføjes på siden **Brugergrupper**. Fortsæt for at tilføje b
 > [!IMPORTANT]
 > Du får en valideringsfejl, hvis du forsøger at tildele en brugergruppe til brugeren, som henviser til et tilladelsessæt, som er defineret i en ikke-installeret udvidelse. Det skyldes, at app-id'et for filtypenavnet er valideret, hver gang der refereres til den. Hvis du vil tildele den pågældende brugergruppe til en bruger, kan du enten geninstallere udvidelsen, fjerne referencen til den ikke-installerede udvidelse fra tilladelsessættet eller fjerne tilladelsen fra brugergruppen.
 
-### <a name="to-assign-permission-sets-to-user-groups" />Sådan tildeles rettighedssæt til brugergrupper
+### <a name="to-assign-permission-sets-to-user-groups"></a>Sådan tildeles rettighedssæt til brugergrupper
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugergrupper**, og vælg derefter det relaterede link.
 2. Vælg den brugergruppe, du vil tildele rettigheden til.  
@@ -226,7 +226,7 @@ Den nye gruppe tilføjes på siden **Brugergrupper**. Fortsæt for at tilføje b
 3. Vælg handlingen **Brugerrettighedssæt** for at åbne siden **Brugerrettighedssæt**.
 4. Udfyld felterne efter behov på en ny linje på siden **Brugerrettighedssæt**.
 
-### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-group-page" />Sådan tildeles et rettighedssæt på siden **Rettighedssæt efter brugergruppe**
+### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-group-page"></a>Sådan tildeles et rettighedssæt på siden **Rettighedssæt efter brugergruppe**
 
 Følgende procedure beskriver, hvordan du tildeler rettighedssæt til en brugergruppe på siden **Rettighedssæt efter brugergruppe**.
 
@@ -237,7 +237,7 @@ Følgende procedure beskriver, hvordan du tildeler rettighedssæt til en brugerg
 
 Du kan også tildele rettighedssæt direkte til brugere.
 
-## <a name="to-assign-permission-sets-to-users" />Sådan tildeles rettighedssæt til brugere
+## <a name="to-assign-permission-sets-to-users"></a>Sådan tildeles rettighedssæt til brugere
 
 Et rettighedssæt er en samling rettigheder til bestemte databaseobjekter. Alle brugere skal være tildelt et eller flere rettighedssæt, før de kan få adgang til [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -253,7 +253,7 @@ Du kan tildele rettighedssæt til brugere på to måder:
 - Fra siden **Brugerkort** ved at vælge de rettighedssæt, der skal tildeles brugeren.
 - Fra siden **Rettighedssæt efter bruger** ved at vælge de brugere, der er tildelt et rettighedssæt.
 
-### <a name="to-assign-a-permission-set-on-a-user-card" />Sådan tildeles et rettighedssæt på et brugerkort
+### <a name="to-assign-a-permission-set-on-a-user-card"></a>Sådan tildeles et rettighedssæt på et brugerkort
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugere**, og vælg derefter det relaterede link.
 2. Vælg den bruger, du vil tildele rettigheden til.
@@ -261,7 +261,7 @@ Ethvert rettighedssæt, der allerede er tildelt brugeren, vises i faktaboksen **
 3. Vælg handlingen **Rediger** for at åbne siden **Brugerkort**.
 4. I oversigtspanelet **Brugerrettighedssæt** skal du udfylde felterne efter behov på en ny linje. Du kan finde flere oplysninger i [Sådan oprettes eller redigeres et rettighedssæt](ui-define-granular-permissions.md#to-create-a-permission-set).
 
-### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page" />Sådan tildeles et rettighedssæt på siden Rettighedssæt efter bruger
+### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Sådan tildeles et rettighedssæt på siden Rettighedssæt efter bruger
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugere**, og vælg derefter det relaterede link.
 2. Du kan også vælge handlingen **Rettighedssæt efter bruger** på siden **Brugere**.
@@ -269,7 +269,7 @@ Ethvert rettighedssæt, der allerede er tildelt brugeren, vises i faktaboksen **
 
     Marker afkrydsningsfeltet **Alle brugere** for at tildele rettighedssættet til alle brugere.
 
-## <a name="to-get-an-overview-of-a-users-permissions" />Sådan får du vist en oversigt over en brugers rettigheder
+## <a name="to-get-an-overview-of-a-users-permissions"></a>Sådan får du vist en oversigt over en brugers rettigheder
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugere**, og vælg derefter det relaterede link.
 2. Åbn den relevante brugers kort.
@@ -295,22 +295,22 @@ Ethvert rettighedssæt, der allerede er tildelt brugeren, vises i faktaboksen **
 > [!NOTE]  
 > Når du redigerer et rettighedssæt, gælder ændringerne også for andre brugere, som rettighedssættet er tildelt til.
 
-### <a name="security-filters-limit-a-users-access-to-specific-records-in-a-table" />Sikkerhedsfiltre begrænser en brugers adgang til bestemte poster i en tabel
+### <a name="security-filters-limit-a-users-access-to-specific-records-in-a-table"></a>Sikkerhedsfiltre begrænser en brugers adgang til bestemte poster i en tabel
 
 Når det drejer sig om postbaseret sikkerhed i [!INCLUDE[prod_short](includes/prod_short.md)], kan du bruge filtrene til at begrænse en brugers adgang til data i en tabel. Du kan oprette sikkerhedsfiltre for tabeldata. Et sikkerhedsfilter beskriver et sæt af poster i en tabel, som en bruger har adgang til. For eksempel kan du angive, at en bruger kun skal kunne læse poster, der indeholder oplysninger om en bestemt kunde. Det betyder, at brugeren ikke kan få adgang til de poster, der indeholder oplysninger om andre kunder. Du kan finde flere oplysninger i [Bruge sikkerhedsfiltre](/dynamics365/business-central/dev-itpro/security/security-filters) i administrationsindholdet.
 
-## <a name="viewing-permission-changes-telemetry" />Få vist ændringer af telemetri
+## <a name="viewing-permission-changes-telemetry"></a>Få vist ændringer af telemetri
 
 Du kan oprette [!INCLUDE[prod_short](includes/prod_short.md)] for at sende ændringer, der er udført for at få tilladelse til en Application Insights-ressource i Microsoft Azure. Derefter kan du bruge Azure Monitor til at oprette rapporter og konfigurere påmindelser i de indsamlede data. Du kan finde flere oplysninger i følgende artikler i [!INCLUDE[prod_short](includes/prod_short.md)]-hjælp til udviklere og it-eksperter:
 
 - [Overvåge og analysere telemetri - aktivere Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Analysere feltovervågningstelemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
 
-## <a name="delegated-admin-users" />Opsætning af administratorbrugere
+## <a name="delegated-admin-users"></a>Opsætning af administratorbrugere
 
 [!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Oprette brugere i henhold til licenser](ui-how-users-permissions.md)  
 [Administrere profiler](admin-users-profiles-roles.md)  

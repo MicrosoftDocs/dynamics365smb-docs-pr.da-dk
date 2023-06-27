@@ -12,12 +12,12 @@ ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="create-interactions-on-contacts-and-segments" />Oprette interaktioner for kontakter og målgrupper
+# <a name="create-interactions-on-contacts-and-segments"></a>Oprette interaktioner for kontakter og målgrupper
 Du kan oprette interaktioner for at registrere al interaktion og kommunikation, som du har med kontakter og målgrupper, f.eks. direct mail.
 
 Du kan først oprette interaktioner, når du har defineret interaktionsskabeloner. Du kan finde flere oplysninger i [Definere interaktionsskabeloner](marketing-interactions.md).
 
-## <a name="to-create-an-interaction" />Sådan oprettes en interaktion
+## <a name="to-create-an-interaction"></a>Sådan oprettes en interaktion
 1. Åbn kontakt-, sælger- eller interaktionslogposten.
 2. Vælg handlingen **Opret interaktion**.
 3. Udfyld felterne, og vælg derefter knappen **OK**.
@@ -25,12 +25,12 @@ Du kan først oprette interaktioner, når du har defineret interaktionsskabelone
 > [!NOTE]  
 >   Hvis du vil udføre en anden opgave, før du afslutter interaktionen, kan du vælge **Annuller** og derefter vælge at afslutte interaktionen på et senere tidspunkt. Dette udsætter interaktionen.
 
-## <a name="to-finish-and-delete-postponed-interactions" />Sådan afsluttes og slettes udsatte interaktioner
+## <a name="to-finish-and-delete-postponed-interactions"></a>Sådan afsluttes og slettes udsatte interaktioner
 1. Åbn kontakt-, sælger- eller interaktionslogposten.
 2. Vælg **Udsatte interaktioner**.
 3. Marker den interaktion, som du vil afslutte, og klik derefter på handlingen **Fortsæt**.
 
-## <a name="to-create-an-interaction-on-a-segment" />Sådan oprettes en interaktion for en målgruppe
+## <a name="to-create-an-interaction-on-a-segment"></a>Sådan oprettes en interaktion for en målgruppe
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Segmenter**, og vælg derefter det relaterede link.
 2. Udfyld felterne i sektionen **Interaktion** på siden **Målgruppe** for at angive, hvilken interaktion du vil knytte til målgruppen.
 
@@ -42,7 +42,7 @@ Der gemmes en interaktion, der er registreret for hver kontakt i målgruppen, i 
 
 Hvis du har markeret afkrydsningsfeltet **Opret opfølgningsmålgruppe**, oprettes der automatisk en ny målgruppe, der indeholder de samme kontakter som den målgruppe, du netop har gemt.
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 [Registrere interaktioner](marketing-interactions.md)  
 [Administrere kontakter](marketing-contacts.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  

@@ -10,18 +10,18 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="create-service-items" />Oprette serviceartikler
+# <a name="create-service-items"></a>Oprette serviceartikler
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] refererer termen "serviceartikel" til udstyr eller varer, der kræver service. Når du opretter en serviceordre, kan du angive de varer, der har brug for service. I ordren kan du knytte en serviceartikel til en vare på lageret eller en serviceartikelgruppe.    
 
 Når du modtager en vare, der kræver service, kan du registrere den som en serviceartikel. Dette kan gøres på flere måder. Du kan f.eks. oprette en serviceartikel på siden **Serviceartikler** eller som en del af en anden proces, f.eks. når du arbejder med en serviceordre.   
 
-## <a name="to-create-a-service-item" />Oprette en serviceartikel
+## <a name="to-create-a-service-item"></a>Oprette en serviceartikel
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceartikler** og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-create-service-items-within-a-service-order" />Sådan oprettes serviceartikler fra serviceordrer
+## <a name="to-create-service-items-within-a-service-order"></a>Sådan oprettes serviceartikler fra serviceordrer
 
 Når du modtager artikler, som du vil registrere som serviceartikler, kan du oprette dem som serviceartikler på siderne **Serviceordre** eller **Servicetilbud**.  
 
@@ -31,7 +31,7 @@ Når du modtager artikler, som du vil registrere som serviceartikler, kan du opr
 
     Der tildeles et nummer til serviceartiklen, og der oprettes et serviceartikelkort. Feltet **Serviceartikelnr.** udfyldes med nummeret på den nye serviceartikel.
 
-## <a name="to-create-a-service-item-when-shipping-items" />Oprette en serviceartikel ved levering af varer
+## <a name="to-create-a-service-item-when-shipping-items"></a>Oprette en serviceartikel ved levering af varer
 
 Når du leverer varer enten ved at bogføre salgsordrer eller salgsfakturaer, registreres de leverede varer automatisk som serviceartikler, hvis følgende betingelser er opfyldt. Varerne skal høre til en serviceartikelgruppe, hvor afkrydsningsfeltet **Opret serviceartikel** er markeret. Hvis varerne har serienumre registreret på siden Varesporingslinje, kopieres disse oplysninger automatisk til feltet **Serienr.** på serviceartikelkortet ved oprettelse af serviceartikler.  
 
@@ -48,7 +48,7 @@ Nedenstående fremgangsmåde viser, hvordan du kan oprette serviceartikler, når
 >   
 >  Hvis varen er en stykliste, og du ikke har udfoldet styklisten, oprettes der en serviceartikel til den på de samme betingelser for serviceartikelgruppen og eventuelt betingelsen for serienumre.  
 
-## <a name="to-insert-a-starting-fee-for-a-service-item" />Sådan indsættes startgebyrer for serviceartikler
+## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Sådan indsættes startgebyrer for serviceartikler
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceopgaver** og vælg derefter det relaterede link.
 2. Vælg handlingen **Varekladde**.
@@ -56,9 +56,9 @@ Nedenstående fremgangsmåde viser, hvordan du kan oprette serviceartikler, når
 
     Der indsættes en servicelinje af typen **Omkostning** med startgebyr. Startgebyret gælder den valgte serviceartikel.
 
-## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/create-items/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/create-items/)
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere serviceartikler og serviceartikelkomponenter](service-how-setup-service-items.md)  
 [Konfigurere Service](service-setup-service.md)  

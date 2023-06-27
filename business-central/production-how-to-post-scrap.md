@@ -10,14 +10,14 @@ ms.search.form: 99000823
 ms.date: 03/08/2023
 ms.author: edupont
 ---
-# <a name="post-scrap-manually" />Bogføre spild manuelt
+# <a name="post-scrap-manually"></a>Bogføre spild manuelt
 
 Hvis der produceres spild under fremstillingen, kan dette også angives i afgangskladden.  
 
 > [!NOTE]
 > Spildmængden forøger ikke afgangsantallet.  
 
-## <a name="to-post-scrap-manually" />Sådan bogføres spild manuelt
+## <a name="to-post-scrap-manually"></a>Sådan bogføres spild manuelt
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Afgangskladde**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -27,7 +27,7 @@ Hvis der produceres spild under fremstillingen, kan dette også angives i afgang
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Produktion](production-manage-manufacturing.md)
 [Konfigurere produktion](production-configure-production-processes.md)  

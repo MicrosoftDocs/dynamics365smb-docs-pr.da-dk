@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605,'
 ---
-# <a name="managing-intercompany-transactions" />Administrere Intercompany-transaktioner (IC)
+# <a name="managing-intercompany-transactions"></a>Administrere Intercompany-transaktioner (IC)
 
 Virksomheder med mere end én juridisk enhed med separate regnskabsfunktioner kan drage fordel af IC-transaktioner. Det er f. eks. nyttigt for virksomheder med datterselskaber på flere internationale markeder eller områder. eller en organisation kan muligvis bestå af flere virksomheder, men har måske ikke det tilsvarende antal regnskabs- og administrationsgrupper. Med Intercompany-transaktioner kan du gøre forretningsgange og transaktioner mellem firmaer i koncernintern partnere.
 
@@ -23,7 +23,7 @@ Der er fire overordnede formål med intercompany-funktioner:
 * Komplet revisionssporing og fuld synlighed af forretningsaktiviteter og transaktionsoversigter  
 * Effektive og besparende transaktioner med søster- og datterselskaber  
 
-## <a name="streamline-the-flow-of-business-activities" />Strømlining flowet af forretningsaktiviteter
+## <a name="streamline-the-flow-of-business-activities"></a>Strømlining flowet af forretningsaktiviteter
 
 Med intercompany-transaktioner kan du distribuere salgs- og købsbilagene og finansposter til alle satellitkontorer, salgskontorer eller datterselskaber direkte i programmet. Distribuere transaktioner sparer tid og øger effektiviteten i hele virksomheden ved at reducere dataindtastning. Den nedskærer behovet for at sende, modtage, udskrive og arkivere salgs-og købsdokumenter.  
 
@@ -68,7 +68,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 |Organisere og behandle indgående og udgående transaktioner, som du udveksler med dine koncerninterne partnere.|[Administrere IC-indbakken og -udbakken](intercompany-how-manage-intercompany-inbox.md)|
 |Brug IC-transaktioner til at fordele omkostninger mellem partnerfirmaer.|[Allokere omkostninger til IC-partnere](intercompany-allocate-costs.md)|
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  

@@ -11,7 +11,7 @@ ms.search.form: '663, 1500, 1512, 1513,'
 ms.date: 09/09/2022
 ms.author: bholtorf
 ---
-# <a name="specify-when-and-how-to-receive-workflow-notifications" />Angive, hvornår og hvordan arbejdsgangsnotifikationer modtages
+# <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Angive, hvornår og hvordan arbejdsgangsnotifikationer modtages
 
 Når du opretter godkendelses brugere i arbejdsprocesser, hvor du vil have, at en anden bruger skal kunne godkende ændringer, f. eks. når der oprettes nye poster, eller når en bruger anmoder om godkendelse, skal du angive, hvordan og hvornår godkendelsesbrugeren skal have besked. Du kan f. eks. angive, at en godkendelsesbruger straks skal modtage en e-mail, når nogen opretter en ny kunde. Du kan også vælge at planlægge, at notifikationer skal holdes og leveres sammen, f. eks. en gang om ugen eller måneden.
 
@@ -25,11 +25,11 @@ Før du kan konfigurere en godkendelsesbrugers notifikationsindstillinger, skal 
 > [!NOTE]
 > Hvis du vil bruge e-mail som beskedmetode, skal du konfigurere e-mail til både afsender og modtager i [!INCLUDE [prod_short](includes/prod_short.md)]. Flere oplysninger i [Konfigurer e-mail](admin-how-setup-email.md).
 
-## <a name="steps-in-workflows" />Trin i Workflows
+## <a name="steps-in-workflows"></a>Trin i Workflows
 
 Mange trin i et godkendelsesworkflow vedrører notifikationer til brugere om, at der er en hændelse, som de skal reagere på. I ét arbejdsgangstrin kan hændelsen f.eks. være, at bruger 1 anmoder om godkendelse af en ny post. Det relaterede svar er, at der er sendt en notifikation til bruger 2, godkenderen. På det næste trin i arbejdsgangen kan hændelsen være, at bruger 2 godkender posten. Det relaterede svar er, at er sendt en notifikation til bruger 3 om at starte en proces med den godkendte post. For workflowtrin, der vedrører godkendelse, er hver notifikation knyttet til en godkendelsespost. Flere oplysninger i [Workflow](across-workflow.md).  
 
-## <a name="specify-when-and-how-approval-users-receive-notifications" />Angive, hvornår og hvordan godkendelsesbrugere modtager notifikationer
+## <a name="specify-when-and-how-approval-users-receive-notifications"></a>Angive, hvornår og hvordan godkendelsesbrugere modtager notifikationer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Godkendelse af brugerkonfiguration**, vælg det relaterede link.  
 2. Vælg linjen med den bruger, du vil konfigurere notifikationsindstillinger for, og vælg derefter handlingen **Konfiguration af notifikation**.  
@@ -58,7 +58,7 @@ Mange trin i et godkendelsesworkflow vedrører notifikationer til brugere om, at
    |**Dato i måned**|Angiv, om brugeren får vist meddelelser på første, sidste eller en bestemt dato i måneden.|
    |**Månedlig notifikationsdato**|Angiv den dato i måneden, hvor brugeren modtager notifikationer, når værdien i feltet **Dato i måned** er **Brugerdefineret**.|
 
-## <a name="change-when-and-how-you-receive-notifications" />Rediger, hvornår og hvordan du modtager notifikationer
+## <a name="change-when-and-how-you-receive-notifications"></a>Rediger, hvornår og hvordan du modtager notifikationer
 
 1. På en af de notifikationer, du har modtaget, enten som mail eller note, skal du klikke på knappen **Rediger notifikationsindstillinger**.  
 2. På siden **Konfiguration af notifikation om arbejdsgang** skal du ændre dine indstillinger som beskrevet i trin 3-5 ovenfor.
@@ -66,7 +66,7 @@ Mange trin i et godkendelsesworkflow vedrører notifikationer til brugere om, at
    2. Vælg, om der skal modtages en mail-eller note under feltet **Notifikationsmetode**.
    3. Vælg en **Notifikationsplan** for at ændre den hyppighed og gentagelse, der sendes beskeder til.
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  
 [Sådan opretter og ændrer du Brugerdefinerede rapportlayouts](ui-how-create-custom-report-layout.md)  

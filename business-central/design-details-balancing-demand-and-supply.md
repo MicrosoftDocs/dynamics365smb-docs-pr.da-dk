@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 12/15/2022
 ms.custom: bap-template
 ---
-# <a name="design-details-balancing-supply-and-demand" />Designoplysninger: Afstemning mellem udbud og efterspørgsel
+# <a name="design-details-balancing-supply-and-demand"></a>Designoplysninger: Afstemning mellem udbud og efterspørgsel
 
 Hvis du vil have en forståelse af, hvordan planlægningssystemet fungerer, er det vigtigt at forstå, om det er prioriterede mål:  
 
@@ -18,7 +18,7 @@ Hvis du vil have en forståelse af, hvordan planlægningssystemet fungerer, er d
 
 Disse mål opnås generelt ved at afstemme forsyninger med behov.  
 
-## <a name="supply-and-demand" />Udbud og efterspørgsel
+## <a name="supply-and-demand"></a>Udbud og efterspørgsel
 
 Betegnelsen *udbud* henviser til enhver form for positiv eller indgående mængde, f. eks.:
 
@@ -46,7 +46,7 @@ Når lagerprofiler er indlæst, afstemmes behov-forsyningssæt for at fremstille
 
 Lagerniveauer og planlægningsparametre er andre former for udbud og efterspørgsel. Disse typer underkastes integreret justering til genopfyldningsvarer. Flere oplysninger [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md).
 
-## <a name="the-concept-of-balancing-in-brief" />Kort om begrebet Justering
+## <a name="the-concept-of-balancing-in-brief"></a>Kort om begrebet Justering
 
 Efterspørgslen kommer fra dine kunder. Forsyning er, hvad virksomheden kan oprette og fjerne for at skabe balance. Planlægningssystemet starter med behovet og sporer derefter baglæns til forsyningen.  
 
@@ -56,7 +56,7 @@ Formålet med planlægningsmekanismen er at opveje udbud og efterspørgsel for e
 
 :::image type="content" source="media/nav_app_supply_planning_2_balancing.png" alt-text="Oversigt over overensstemmelse mellem udbud og efterspørgsel.":::
 
-## <a name="process-orders-before-the-planning-start-date" />Håndtering af ordrer før planlægningsstartdatoen
+## <a name="process-orders-before-the-planning-start-date"></a>Håndtering af ordrer før planlægningsstartdatoen
 
 For at undgå at en forsyningsplan viser urimelige forslag, planlægger planlægningssystemet ikke noget i perioden før planlægningens startdato. Følgende regel gælder for den periode:
 
@@ -70,11 +70,11 @@ Derfor vil planlægningssystemet ikke, med nogle få undtagelser, foreslå ændr
 
 Hvis den første disponible lagerbeholdning er under nul, foreslås der en nødforsyningsordre dagen før planlægningsperioden til at dække den manglende mængde. Derfor vil den forventede og disponible lagerbeholdning altid være mindst nul, når planlægningen for den fremtidige periode begynder. Planlægningslinjen for denne forsyningsordre viser et Nødsituation-advarselsikon, og yderligere oplysninger kan findes ved opslag.
 
-### <a name="serial-and-lot-numbers-and-order-to-order-links-are-exempt-from-the-previous-period" />Serienumre og lotnumre og ordre-til-ordre-links er fritaget fra den tidligere periode
+### <a name="serial-and-lot-numbers-and-order-to-order-links-are-exempt-from-the-previous-period"></a>Serienumre og lotnumre og ordre-til-ordre-links er fritaget fra den tidligere periode
 
 Hvis der kræves serie-eller lotnumre for at oprette en ordre-til-ordre-kæde, tilsidesætter planlægningssystemet reglen for den forrige periode. Den vil omfatte tilbagedaterede mængder fra startdatoen og kan foreslå korrigerende handlinger, hvis udbud og efterspørgsel ikke synkroniseres. Disse udbud og efterspørgsel-sæt skal stemme overens for at sikre, at et bestemt behov er opfyldt.
 
-## <a name="load-inventory-profiles" />Indlæsning af lagerprofiler
+## <a name="load-inventory-profiles"></a>Indlæsning af lagerprofiler
 
 Planlægningssystemet organiserer de mange kilder for udbud og efterspørgsel på to tidslinjer, der kaldes lagerprofiler, for at få dem sorteret.  
 
@@ -98,7 +98,7 @@ Generelt tager planlægningssystemet højde for alle forsyningsordrer efter den 
 
 Bortset fra indlæsning af udbud og efterspørgsel-typer, indlæses visse typer med opmærksomhed på særlige regler og afhængigheder. I følgende afsnit i artiklen beskrives reglerne og afhængighederne.  
 
-### <a name="item-dimensions-are-separated" />Varedimensioner er adskilt
+### <a name="item-dimensions-are-separated"></a>Varedimensioner er adskilt
 
 Forsyningsplanen skal beregnes pr. kombination af varedimensioner, f.eks. variant og lokation. Kun de kombinationer, der bærer behov og/eller forsyning, skal beregnes.  
 
@@ -107,7 +107,7 @@ Planlægningssystemet søger efter kombinationer i lagerprofilen. Når der finde
 > [!NOTE]  
 > Du skal ikke angive en SKU-post, når du angiver en behov og/eller forsyning for en bestemt kombination af variant og lokation. Hvis der ikke findes en SKU for en given kombination, opretter [!INCLUDE [prod_short](includes/prod_short.md)] derfor sin egen midlertidige SKU baseret på varekortdata. Hvis **Tvungen lokationskode** er angivet til Ja på siden **Lageropsætning**, skal der oprettes en Lagervare, eller **komponenter på lokation** skal angives til Ja. Flere oplysninger i [Planlægge med eller uden lokationer](production-planning-with-without-locations.md).  
 
-### <a name="serial-and-lot-numbers-are-loaded-by-specification-level" />Serienumre/lotnumre indlæses efter specifikationsniveau
+### <a name="serial-and-lot-numbers-are-loaded-by-specification-level"></a>Serienumre/lotnumre indlæses efter specifikationsniveau
 
 Serie-/lotnumre indlæses i lagerprofilerne sammen med det behov og udbud og efterspørgsel, de er tildelt.  
 
@@ -122,7 +122,7 @@ En anden årsag til, at serie- og lotnumre er infleksible, er, fordi serie- og l
 
 Serie- og lotnummer betyder, at reglen ikke planlægges før startdatoen for planlægningen. Hvis udbud og efterspørgsel ikke er synkroniseret, kan planlægningssystemet foreslå ændringer eller foreslå nye ordrer, uanset den planlagte startdato.  
 
-### <a name="order-to-order-links-are-never-broken" />Ordre-til-ordre-links er aldrig brudt
+### <a name="order-to-order-links-are-never-broken"></a>Ordre-til-ordre-links er aldrig brudt
 
 Ved planlægning af en ordre-til-ordre-vare må den tilknyttede forsyning ikke bruges til det, den oprindeligt var tiltænkt. Sammenkædede behov bør ikke være dækket af andre tilfældige forsyninger, selv om den leveringen er tilgængelig i tid og antal. En montageordre, der er knyttet til en salgsordre i et montage-til-ordre-scenarie, kan f.eks. ikke bruges til at dække andre behov.  
 
@@ -136,17 +136,17 @@ Denne udligning påvirker også timingen. Den begrænsede horisont, der er givet
 > [!NOTE]  
 > Forecasts bør ikke føre til at oprettelse af forsyningsordrer, der er bundet af et ordre-til-ordre-link. Hvis forecast bruges, skal det kun bruges som en generator af afhængigt behov i et produktionsmiljø.
 
-### <a name="component-need-is-loaded-according-to-production-order-changes" />Komponentbehov er indlæst i overensstemmelse med ændringer af produktionsordrer
+### <a name="component-need-is-loaded-according-to-production-order-changes"></a>Komponentbehov er indlæst i overensstemmelse med ændringer af produktionsordrer
 
 Ved håndtering af produktionsordrer skal planlægningssystemet overvåge de nødvendige komponenter, før de indlæses i behovsprofilen. Komponentlinjer, der skyldes en ændret produktionsordre, erstatter dem fra den oprindelige ordre. Ændringen sikrer, at planlægningssystemet ikke duplikerer planlægningslinjer for komponentbehov.  
 
-### <a name="consume-safety-stock" />Forbrug sikkerhedslager
+### <a name="consume-safety-stock"></a>Forbrug sikkerhedslager
 
 Mængden i sikkerhedslageret er en behovstype og indlæses derfor i lagerprofilen på planlægningens startdato.  
 
 Sikkerhedslager er et lagerantal, der er lagt til side for at kompensere for usikkerheden i behov under leveringstiden for genopfyldning. Du kan dog bruge den til at opfylde et behov. I så fald vil planlægningssystemet sikre, at sikkerhedslageret hurtigt kan udskiftes. Systemet foreslår en forsyningsordre for at genopfylde sikkerhedslageret på den dato, det forbruges. Planlægningslinjen vil vise ikonet Undtagelsesadvarsel, som forklarer planlæggeren, at sikkerhedslageret er blevet helt eller delvist opbrugt ved brug af en undtagelsesordre for det manglende antal.  
 
-### <a name="forecast-demand-is-reduced-by-sales-orders" />Forecast-behov reduceres af salgsordrer
+### <a name="forecast-demand-is-reduced-by-sales-orders"></a>Forecast-behov reduceres af salgsordrer
 
 Behovsprognosen udtrykker det forventede fremtidige behov. Mens faktisk behov angives, normalt som salgsordrer for producerede varer, bruger den prognosen.
 
@@ -163,13 +163,13 @@ Budgettet kan være til forskellige behovstyper:
 
 En vare kan have begge typer forecast. Under planlægningen sker forbruget separat, først for uafhængige behov og derefter for afhængige behov.  
 
-### <a name="blanket-order-demand-is-reduced-by-sales-orders" />Rammeordrebehov reduceres af salgsordrer
+### <a name="blanket-order-demand-is-reduced-by-sales-orders"></a>Rammeordrebehov reduceres af salgsordrer
 
 Forecastfunktionaliteten suppleres af rammesalgsordrer som en måde til at angive fremtidige behov fra en bestemt kunde. Som med (uspecificerede) prognoser bør faktiske salg forbruge det forventede behov, og det resterende antal bør indgå i behovslagerprofilen. Forbruget reducerer ikke rammeordren.
 
 Planlægningsberegningen omfatter åbne salgsordrer, der er knyttet til den bestemte rammeordrelinje, men den tager ikke hensyn til en gyldig periode. Der tages heller ikke højde for bogførte ordrer, da bogføringsproceduren allerede har reduceret udestående rammeordreantal.
 
-## <a name="prioritize-orders" />Prioritering af ordrer
+## <a name="prioritize-orders"></a>Prioritering af ordrer
 
 Den ønskede eller tilgængelige dato for et bestemt varenummer repræsenterer den højeste prioritet. Behov for dags dato skal behandles inden næste uges behov. Men ud over den overordnede prioritering fremstiller planlægningssystemet følgende forslag i overensstemmelse med ordreprioriteter:
 
@@ -178,7 +178,7 @@ Den ønskede eller tilgængelige dato for et bestemt varenummer repræsenterer d
 
 Indlæst udbud og efterspørgsel, der bidrager til en profil for den planlagte lagerbeholdning i henhold til følgende prioriteter.  
 
-### <a name="priorities-on-the-demand-side" />Prioriteter på efterspørgselssiden
+### <a name="priorities-on-the-demand-side"></a>Prioriteter på efterspørgselssiden
 
 1. Allerede leveret: varepost  
 2. Købsreturvareordre  
@@ -193,7 +193,7 @@ Indlæst udbud og efterspørgsel, der bidrager til en profil for den planlagte l
 > [!NOTE]  
 > Købsreturvarer er normalt ikke involveret i forsyningsplanlægning. De skal altid være reserveret fra det lot, der skal returneres. Hvis den ikke er reserveret, spiller købsreturvarer en rolle i udbuddet og er højt prioriteret for at undgå, at planlægningssystemet foreslår en forsyningsordre, der blot skal tjene et købsreturnering.  
 
-### <a name="priorities-on-the-supply-side" />Prioriteter på forsyningssiden
+### <a name="priorities-on-the-supply-side"></a>Prioriteter på forsyningssiden
 
 1. Allerede på lager: Varepost (planlægningsfleksibilitet = ingen)  
 2. Salgsreturvareordre (planlægningsfleksibilitet = ingen)  
@@ -202,7 +202,7 @@ Indlæst udbud og efterspørgsel, der bidrager til en profil for den planlagte l
 5. Montageordre  
 6. Købsordre  
 
-### <a name="priority-related-to-the-state-of-supply-and-demand" />Prioritet, der er relateret til tilstand af efterspørgsel og udbud
+### <a name="priority-related-to-the-state-of-supply-and-demand"></a>Prioritet, der er relateret til tilstand af efterspørgsel og udbud
 
 Ud over de prioriteter, der er angivet for levering og behov, er der andre ting, der påvirker planlægningsfleksibiliteten. F.eks. lageraktiviteter og status for følgende ordrer:
 
@@ -220,7 +220,7 @@ Status for disse ordrer har følgende effekter:
 4. Fastlagt og planlagt produktionsordre (planlægningsfleksibilitet = ubegrænset)  
 5. Planlagt/åben – alle ordretyper (planlægningsfleksibilitet = ubegrænset)
 
-## <a name="balancing-supply-with-demand" />Afstemning af udbud og efterspørgsel
+## <a name="balancing-supply-with-demand"></a>Afstemning af udbud og efterspørgsel
 
 Planlægningssystemet balancerer udbud og efterspørgsel ved at foreslå aktioner for at revidere forsyningsordrer, der ikke er afstemt. Saldoen forekommer for hver kombination af variant og lokation.  
 
@@ -254,7 +254,7 @@ Hver hændelse refererer til dens kildetype og identifikation. Reglerne for afst
 
  Proceduren starter forfra med det næste behov og den aktuelle forsyning eller omvendt. Den aktuelle forsyning kan måske dække dette næste behov, eller det aktuelle behov er ikke endnu fuldt dækket.  
 
-### <a name="rules-for-actions-for-supply-events" />Regler for handlinger for forsyningshændelser
+### <a name="rules-for-actions-for-supply-events"></a>Regler for handlinger for forsyningshændelser
 
 Med henblik på de top-down beregninger, hvor levering skal opfylde behovet, tages behovet som angivet. Den er uden for styringen af planlægningssystemet. Planlægningssystemet kan imidlertid administrere forsynings siden og vil fremstille følgende forslag:
 
@@ -297,7 +297,7 @@ Alle forsyninger har generelt en planlægningsfleksibilitet, som er begrænset a
 * **Annuller**: Som et særligt tilfælde af handlingen, der reducerer antallet, kan forsyningsordren blive annulleret, hvis den er reduceret til nul. 
 * **Ny**: Hvis der ikke allerede findes en forsyningsordre, eller en eksisterende ikke kan ændres for at opfylde det nødvendige antal på den efterspurgte forfaldsdato, foreslås der en ny forsyningsordre.  
 
-### <a name="determine-the-supply-quantity" />Bestemmelse af forsyningsantallet
+### <a name="determine-the-supply-quantity"></a>Bestemmelse af forsyningsantallet
 
 Definer planlægningsparametre, der styrer det foreslåede antal af hver forsyningsordre.  
 
@@ -311,7 +311,7 @@ Det foreslåede antal kan ændres i denne rækkefølge:
 2. Op til det mindste ordreantal.  
 3. Op til at opfylde den nærmeste oprundingsfaktor.
 
-### <a name="order-tracking-links-during-planning" />Ordresporingsbindinger under planlægning
+### <a name="order-tracking-links-during-planning"></a>Ordresporingsbindinger under planlægning
 
 Med hensyn til ordresporing under planlægning, er det vigtigt at nævne, at planlægningssystemet omarrangerer de dynamisk oprettede ordresporingsbindinger til vare-/variant-/lokationskombinationerne. Systemet omarrangerer sporingslinks af følgende årsager:
 
@@ -325,7 +325,7 @@ Før udligning af forsyning med behov, sletter planlægningssystemet alle ordres
 > [!NOTE]  
 > Selvom varen ikke er konfigureret til dynamisk ordresporing, opretter planlægningssystemet afstemte ordresporingsbindinger, som forklaret ovenfor.
 
-## <a name="close-balanced-supply-and-demand" />Luk afstemte udbud og efterspørgsel
+## <a name="close-balanced-supply-and-demand"></a>Luk afstemte udbud og efterspørgsel
 
 Den balancerende leverance har tre mulige udfald:
 
@@ -335,7 +335,7 @@ Den balancerende leverance har tre mulige udfald:
 
 Endelig opretter planlægningssystemet et ordresporingslink mellem forsyning og behov.  
 
-### <a name="create-the-planning-line-suggested-action" />Oprettelse af planlægningslinjen (foreslået aktivitet)
+### <a name="create-the-planning-line-suggested-action"></a>Oprettelse af planlægningslinjen (foreslået aktivitet)
 
 Hvis en handling **Ny**, **Ret antal**, **Omplanlæg**, **Omplanlæg og Ret antal** eller **Annuller** foreslås for at revidere forsyningsordren, vil planlægningssystemet oprette en planlægningslinje i planlægningskladden. I forbindelse med ordresporing oprettes planlægningslinjen ikke kun, når forsyningshændelsen lukkes, men også hvis behovshændelsen lukkes. Dette gælder også, selvom forsyningshændelsen stadig er åben og kan ændres, når den næste behovshændelse behandles. Planlægningslinjen kan ændres, når den er oprettet.
 
@@ -345,7 +345,7 @@ For at reducere belastningen af databasen, når der håndteres produktionsordrer
 * Omfatter rute: Den planlagte rute omfatter beregning af start- og slutdatoer og -tidspunkter. Omfatter routing er påkrævet i forbindelse med adgang til databasen. For at bestemme slutdato og forfaldsdatoer kan det være nødvendigt at beregne routing, selvom forsyningshændelsen ikke er blevet lukket. Hvis du f. eks. foretager forlæns planlægning.  
 * Omfatter styklisteudfoldelsen: Dette kan vente indtil lige før leveringshændelsen er lukket.
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)  
 [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)  

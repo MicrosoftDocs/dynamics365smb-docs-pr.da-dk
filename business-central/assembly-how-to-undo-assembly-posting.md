@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="undo-assembly-posting" />Fortryde bogføring af montage
+# <a name="undo-assembly-posting"></a>Fortryde bogføring af montage
 
 Annullere bogføringen af en montageordre for at rette en fejl eller fjerne en uønsket bogføring.
 
@@ -33,7 +33,7 @@ Montageordrer kan desuden kun gendannes, hvis antallet af linjer og rækkefølge
 
 Følgende procedure beskriver, hvordan du fortryder bogførte montageordrer, hvor der var tale om montage til lager-varer. Hvis du vil annullere bogførte montageordrer med varer, der er samlet til ordre, skal du bruge handlingen **Annuller leverance** på den relaterede bogførte leverance. Flere oplysninger i [Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md). Tilbageførslen af den bogførte montageordre sker så automatisk på samme måde som beskrevet i dette emne.  
 
-## <a name="to-undo-posting-of-an-assembly-order" />Sådan fortrydes bogføring af en montageordre
+## <a name="to-undo-posting-of-an-assembly-order"></a>Sådan fortrydes bogføring af en montageordre
 
 Du kan fortryde helt eller delvist bogførte montageordrer.
 
@@ -50,7 +50,7 @@ Feltet **Tilbageført** på montageordrehovedet ændres til **Ja**. Montageordre
 > [!NOTE]  
 > Hvis du vil gendanne mængder fra flere delvise bogføringer i en montageordre, skal du fortryde alle de pågældende bogførte montageordrer ved at følge trin 1 til 3.  
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Montagestyring](assembly-assemble-items.md)  
 [Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md)  

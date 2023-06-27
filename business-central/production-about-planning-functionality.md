@@ -10,7 +10,7 @@ ms.search.form: 5430
 ms.date: 08/30/2022
 ms.author: bholtorf
 ---
-# <a name="about-planning-functionality" />Om planlægningsfunktionen
+# <a name="about-planning-functionality"></a>Om planlægningsfunktionen
 
 Planlægningssystemet tager højde for alle oplysninger om efterspørgsel og udbud, tæller resultaterne sammen og opretter forslag til, hvordan udbuddet kan afstemmes, så det passer til efterspørgslen.  
 
@@ -19,7 +19,7 @@ Du kan finde flere oplysninger i [Designoplysninger: Forsyningsplanlægning](des
 > [!NOTE]  
 > Læs værktøjstippet for alle felter, der er nævnt i dette emne, for at forstå deres funktion. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="demand-and-supply" />Behov og forsyning
+## <a name="demand-and-supply"></a>Behov og forsyning
 
 I planlægningen indgår to elementer, udbud og efterspørgsel, som her kaldes behov og forsyning. Der skal opretholdes en balance mellem disse to elementer, så det kan sikres, at behovet imødekommes rettidigt og på en økonomisk fornuftig måde.  
 
@@ -28,7 +28,7 @@ I planlægningen indgår to elementer, udbud og efterspørgsel, som her kaldes b
 
 Et andet formål med planlægningssystemet er at sikre, at lagerbeholdningen ikke vokser unødvendigt. Hvis behovet falder, kan planlægningssystemet foreslå, at du udskyder eksisterende genbestillingsordrer, angiver mindre antal til dem eller helt annullerer dem.  
 
-## <a name="planning-calculation" />Planlægningsberegning
+## <a name="planning-calculation"></a>Planlægningsberegning
 
 Udgangspunktet for planlægningssystemet er forventet og faktisk efterspørgsel fra kunderne, dvs. kundebehov og forskellige faktorer i forbindelse med genbestilling af varer til lageret. Planlægningsberegningen resulterer i, at programmet foreslår bestemte handlinger ([Handlingsmeddelelser](production-how-to-run-mps-and-mrp.md#action-messages)) angående mulig genbestilling fra leverandører, overflytninger mellem lagersteder eller produktion. Hvis der allerede findes genbestillingsordrer, kan den foreslåede aktivitet f.eks. være at øge eller fremskynde ordrerne for på den måde at imødekomme det ændrede behov.  
 
@@ -37,7 +37,7 @@ Udgangspunktet for selve planlægningen er beregningen fra brutto til netto. Et 
 > [!TIP]
 > Planlægningssystemet er afhængig af, hvordan organisationen benytter lokationer. Du kan finde flere oplysninger i [Planlægning med eller uden lokationer](production-planning-with-without-locations.md).
 
-## <a name="planning-with-manual-transfer-orders" />Planlægge med manuelle overflytningsordrer
+## <a name="planning-with-manual-transfer-orders"></a>Planlægge med manuelle overflytningsordrer
 
 Som det fremgår af feltet **Genbestillingssystem** på et lagerkort, kan planlægningssystemet indstilles til at oprette overflytningsordrer, der udjævner udbud og efterspørgsel på tværs af lokationer.  
 
@@ -45,7 +45,7 @@ Ud over disse automatiske overflytningsordrer kan du undertiden have brug for at
 
 Hvis du derimod ønsker, at planlægningssystemet justerer overflytningsordrens antal og datoer i forhold til det nuværende behov, skal du indstille feltet **Planlægningsfleksibilitet** til standardværdien, Ubegrænset.
 
-## <a name="planning-parameters" />Planlægningsparametre
+## <a name="planning-parameters"></a>Planlægningsparametre
 
 Planlægningsparametrene bestemmer, hvornår, hvor meget og hvordan der genbestilles på basis af de forskellige indstillinger på varekortet (eller lagervare) og produktionsopsætningen.  
 
@@ -86,16 +86,16 @@ Globale planlægningsopsætningsfelter på siden **Produktionsopsætning** omfat
 
 Du kan finde flere oplysninger i [Designoplysninger: planlægningsparametre](design-details-planning-parameters.md)  
 
-## <a name="other-important-planning-fields" />Andre vigtige felter til planlægning
+## <a name="other-important-planning-fields"></a>Andre vigtige felter til planlægning
 
-### <a name="planning-flexibility" />Planlægningsfleksibilitet
+### <a name="planning-flexibility"></a>Planlægningsfleksibilitet
 
 I de fleste forsyningsordrer, f.eks. produktionsordrer, kan du vælge **Ubegrænset** eller **Ingen** i feltet **Planlægningsfleksibilitet** på linjerne.
 
 Det angiver, om der tages højde for forsyningen repræsenteret af produktionsordrelinjen i planlægningssystemet, når der beregnes aktionsmeddelelser.
 Hvis feltet viser indstillingen **Ubegrænset**, medtager planlægningssystemet linjen, når aktionsmeddelelsen beregnes. Hvis feltet indeholder indstillingen **Ingen**, er linjen fast og kan ikke ændres, og linjen medtages ikke i beregningen af aktionsmeddelelser.
 
-### <a name="warning" />Advarsel
+### <a name="warning"></a>Advarsel
 
 Oplysningsfeltet **Advarsel** på siden **Planlægningskladde** viser eventuelle planlægningslinjer, der er oprettet til en usædvanlig situation med en tekst, som brugeren kan vælge for at få yderligere oplysninger. Der findes følgende advarselstyper:
 
@@ -113,7 +113,7 @@ Hvis varens lager er negativt på den planlagte startdato, foreslår planlægnin
 
 Evt. dokumentlinjer med forfaldsdatoer før den planlagte startdato konsolideres i én nødforsyningsordre, så varen kan ankomme på den planlagte startdato.
 
-### <a name="exception" />Undtagelse
+### <a name="exception"></a>Undtagelse
 
 Advarslen om undtagelsen vises, hvis det forventede disponible lager kommer under sikkerhedslageret.
 
@@ -124,7 +124,7 @@ Overskridelse af niveauet for sikkerhedslageret anses for at være en undtagelse
 > [!NOTE]
 > Efterspørgsel på planlægningslinjer med undtagelsesadvarsler modificeres normalt ikke i henhold til planlægningsparametre. Planlægningssystemet foreslår i stedet for kun en forsyning til at dække det nøjagtige behovsantal. Du kan dog konfigurere planlægningskørslen til at overholde bestemte planlægningsparametre for planlægningslinjer med visse advarsler. Du kan finde flere oplysninger i beskrivelsen af feltet **Respekter advarsler om undtagelser for planlægningsparametre** i artiklen [Kør fuld planlægning, MPS eller MRP](production-how-to-run-mps-and-mrp.md).
 
-### <a name="attention" />Bemærk
+### <a name="attention"></a>Bemærk
 
 Denne advarsel vises i to tilfælde:
 
@@ -134,11 +134,11 @@ Denne advarsel vises i to tilfælde:
 > [!NOTE]
 > På planlægningslinjer med advarsler er feltet **Accepter aktionsmeddelelse** ikke markeret, fordi planlæggeren forventes at undersøge disse linjer nærmere, før planen udføres.
 
-## <a name="planning-worksheets-and-requisition-worksheets" />Planlægningskladder og indkøbskladder
+## <a name="planning-worksheets-and-requisition-worksheets"></a>Planlægningskladder og indkøbskladder
 
 Som beskrevet under [Planlægning](production-planning.md) kan du vælge mellem to kladder til de fleste planlægningsaktiviteter, planlægningskladden og indkøbskladden. De fleste processer beskrives på basis af planlægningskladden, men der er et par scenarier, hvor indkøbskladden foretrækkes.
 
-### <a name="requisition-worksheet" />Indkøbskladde
+### <a name="requisition-worksheet"></a>Indkøbskladde
 
 Siden **Indkøbskladde** viser de varer, du vil bestille. Du kan indsætte varer i kladden på følgende måder:
 
@@ -159,9 +159,9 @@ Du kan finde flere oplysninger om planlægning med lokationer og overflytninger 
 > [!TIP]
 > Når du arbejder på siderne **indkøbskladde** eller **Planlægningskladde**, kan du organisere linjerne ved at sortere efter et kolonnenavn. Dette er især nyttigt på siden planlægningskladde, fordi de kan bruges til produktionsordrer med flere niveauer. Som standard sorteres linjer efter feltet **Varenr.**. Hvis du vil gruppere linjer for en række med flere niveauer, skal du sortere efter **Ref. ordrenr.** . Felterne **MPS-ordre** og **planlægningsniveau** kan også være en hjælp til at vise linjernes hierarki.
 
-## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/plan-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/plan-items-dynamics-365-business-central/)
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)  
 [Skabelon](production-planning.md)  

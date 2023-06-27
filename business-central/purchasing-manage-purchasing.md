@@ -11,7 +11,7 @@ ms.search.form: '460, 9307'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="purchasing" />Indkøb
+# <a name="purchasing"></a>Indkøb
 
 Du kan oprette en købsfaktura eller købsordre for at registrere omkostningerne ved køb og spore gæld. Hvis du vil styre en lagerbeholdning, benyttes købsfakturaer også til dynamisk at opdatere lagerniveauer, så du kan minimere lageromkostningerne og yde bedre kundeservice. Købsomkostningerne, herunder serviceudgifter og lagerværdier, der stammer fra bogføring af købsfakturaer, bidrager til avancebeløb og andre finansielle nøgletal i dit Rollecenter.
 
@@ -39,13 +39,13 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Løse forvirring, når der findes to eller flere poster for samme kreditor.|[Flette dublerede poster](sales-how-merge-duplicate-records.md)|
 |Administrer dit tilsagn til en kreditor om at købe store mængder, der leveres i portioner over en periode.|[Arbejde med rammekøbsordrer](sales-how-to-create-blanket-sales-orders.md)|
 
-## <a name="external-document-numbers" />Eksterne bilagsnumre
+## <a name="external-document-numbers"></a>Eksterne bilagsnumre
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/purchase-items-services-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/purchase-items-services-dynamics-365-business-central/)
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
 [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)  

@@ -8,21 +8,21 @@ ms.search.form: 'Report_1006, Report_1007, Report_1008, Report_1009, Report_1010
 ms.date: 06/01/2021
 ms.author: andreipa
 ---
-# <a name="project-reports-and-analytics-in-business-central" />Rapporter og analyser i Business Central
+# <a name="project-reports-and-analytics-in-business-central"></a>Rapporter og analyser i Business Central
 
 Projektrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gør det muligt for projekt-og erhvervs medarbejdere at få indsigt i og statistikker om aktuelle og tidligere projektaktiviteter.  
 
-## <a name="reports" />Rapporter
+## <a name="reports"></a>Rapporter
 [!INCLUDE [project_reports](includes/project-reports-include.md)]
 
-## <a name="tasks" />Opgaver
+## <a name="tasks"></a>Opgaver
 
 I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med analyse af virksomhedens tilstand:
 
 * [Overvåge jobstatus og -udførelse](projects-how-monitor-progress-performance.md)  
 
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere projektstyring](projects-setup-projects.md)  
 [Projektstyring](projects-manage-projects.md)  

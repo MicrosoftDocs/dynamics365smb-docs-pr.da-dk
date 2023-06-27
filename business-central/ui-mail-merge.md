@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.forms: '9989, 13,'
 ---
 
-# <a name="use-word-templates-for-bulk-communication" />Bruge Word-skabeloner til massekommunikation
+# <a name="use-word-templates-for-bulk-communication"></a>Bruge Word-skabeloner til massekommunikation
 
 Microsoft Word-skabeloner kan gøre det nemmere at massekommunikere på skrift eller i e-mails med objekter som f.eks. kontakter, debitorer og kreditorer. Du kan f.eks. oprette:
 
@@ -21,7 +21,7 @@ Microsoft Word-skabeloner kan gøre det nemmere at massekommunikere på skrift e
 > [!NOTE]
 > Når du konfigurerer Word-skabeloner, skal du bruge en enhed med Microsoft Word 2019 eller nyere og Windows-operativsystemet installeret.
 
-## <a name="set-up-the-source-of-data" />Konfigurer datakilden
+## <a name="set-up-the-source-of-data"></a>Konfigurer datakilden
 
 Bruge objekter i [!INCLUDE[prod_short](includes/prod_short.md)] som datakilde for skabelonen og til at tilføje fletfelter for at tilpasse dokumenter til de enkelte objekter. Fletfelterne hentes fra objektet i [!INCLUDE[prod_short](includes/prod_short.md)]. Når du anvender en Word-skabelon til et objekt, indsættes data fra fletfelterne i dokumentet.
 
@@ -42,7 +42,7 @@ Når du henter en skabelon, får du en. zip-fil, der indeholder to filer.
 
 Hvis du vil vide, hvordan du opretter en skabelon i Word, skal du vælge [Opsætning for skabelonen i Word](#set-up-the-template-in-word).
 
-## <a name="add-entries-that-are-related-or-unrelated-to-the-source-entity" />Tilføj poster, der er relateret eller ikke relateret til kildeenheden
+## <a name="add-entries-that-are-related-or-unrelated-to-the-source-entity"></a>Tilføj poster, der er relateret eller ikke relateret til kildeenheden
 
 Du kan også flette data fra andre objekter. Hvis du vil tilføje andre objekter som datakilder, skal du bruge en af følgende handlinger på siden med **Word-skabeloner**, eller når du bruger den assisterende installationsguide:
 
@@ -57,7 +57,7 @@ Du kan oprette et hierarki af enheder, både relaterede og ikke-relaterede. Rela
 
 Når du tilføjer objekter, skal du bruge feltet **Præfiks** til at angive et præfiks for feltnavnene. Senere når du føjer felter til skabelonen, kan præfikset gøre det nemmere at skelne mellem felter fra kildeenheden og andre objekter.
 
-### <a name="select-the-fields-to-include" />Vælg de felter, der skal medtages
+### <a name="select-the-fields-to-include"></a>Vælg de felter, der skal medtages
 
 Du kan angive de felter, der skal være tilgængelige for skabelonen for hver enkelt objekttype. Vælg tallet i kolonnen **Antal markerede felter** for at få adgang til en liste over felter, der er tilgængelige. På siden **Feltvalg** skal du bruge afkrydsningsfeltet **Medtag** til at angive felterne. I forbindelse med nogle objekter er de felter, som virksomheder typisk bruger, som standard medtaget. Du kan f. eks. redigere listen for at fjerne standardfelterne. Dine ændringer gælder kun for den skabelon, du arbejder på.
 
@@ -67,7 +67,7 @@ Du kan angive de felter, der skal være tilgængelige for skabelonen for hver en
 > [!NOTE]
 > Du eller din Microsoft-partner kan føje brugerdefinerede felter til enheder. Når du gør det, indsætter vi navnene på felterne med **Beregn** og giver dem felttypen **Beregnet**. Felttypen beregnes for at angive, at feltet kan vise forskellige værdityper, f. eks. tekst, tal, datoer osv.
 
-## <a name="to-create-a-word-template-in-business-central" />Sådan oprettes en Word-skabelon i Business central
+## <a name="to-create-a-word-template-in-business-central"></a>Sådan oprettes en Word-skabelon i Business central
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Word-skabeloner**, og vælg derefter det relaterede link.
 2. Vælg **Ny**, **Opret en skabelon**, og følg derefter trinene i installationsvejledningen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -75,19 +75,19 @@ Du kan angive de felter, der skal være tilgængelige for skabelonen for hver en
 > [!TIP]
 > Du kan også oprette en skabelon direkte fra siden for et objekt ved at vælge handlingen **Anvend Word**-skabelon for at åbne den assisterende installationsvejledning og derefter vælge **Ny skabelon**. Når du gør det, vælges datakilden for dig baseret på objekttypen.
 
-## <a name="set-up-the-template-in-word" />Opsætning af skabelon i Word
+## <a name="set-up-the-template-in-word"></a>Opsætning af skabelon i Word
 
 Når du opretter skabelonen i Word, kan du tilføje fletfelter på fanen **Forsendelser** ved at vælge **Indsæt fletfelt**. De tilgængelige fletfelter stammer fra den datakildefil, du har hentet for objektet. De fungerer som pladsholdere, der fortæller Word, at der skal indsættes oplysninger om objektet i dokumentet.
 
 :::image type="content" source="media/word-tmpl-merge-field.PNG" alt-text="Tilføje fletfelter i Microsoft Word":::
 
-## <a name="apply-a-template" />Anvend en skabelon
+## <a name="apply-a-template"></a>Anvend en skabelon
 
 Når du har klargjort din Word-skabelon, kan du vælge **Anvend** for at oprette dokumenterne på siden **Word-skabeloner**. Når du anvender en Word-skabelon til et objekt, indsættes data fra fletfelterne i dokumentet. Du kan enten oprette ét dokument, der indeholder sektioner for hvert objekt, eller **opdele** handlingen for at oprette et nyt dokument for hvert objekt.
 
 Du kan anvende handlingen **Anvend Word-skabeloner** til at anvende skabeloner til en eller flere af de samme typer enheder, f. eks. en debitor, direkte i denne sides kontekst til objektet. F.eks. siderne **Debitor** eller **Kreditor**.
 
-## <a name="use-word-templates-with-email" />Bruge Word-skabeloner med e-mail
+## <a name="use-word-templates-with-email"></a>Bruge Word-skabeloner med e-mail
 
 Du kan bruge Word-skabeloner til at føje indhold til e-mail-meddelelser. Når du opretter en e-mail, kan du vælge at bruge handlingen **brug Word-skabelon** til at anvende indholdet af en skabelon på e-mailen. Du skal have oprettet skabeloner til objektet. Du kan bruge én skabelon ad gangen, og når du skifter mellem skabeloner, ændres den, så den afspejler indholdet af den valgte skabelon.
 
@@ -95,7 +95,7 @@ Derudover kan du bruge handlingen **Tilføj fil fra Word-skabelon** til at vedh�
 
 :::image type="content" source="media/email-word-tmpl.PNG" alt-text="Indstillinger for brug af indhold fra en Word-skabelon i en e-mail":::
 
-## <a name="edit-a-word-template" />Redigere en Word-skabelon
+## <a name="edit-a-word-template"></a>Redigere en Word-skabelon
 
 Du kan foretage følgende ændringer af dine Word-skabeloner:
 
@@ -104,7 +104,7 @@ Du kan foretage følgende ændringer af dine Word-skabeloner:
 * Hvis du vil erstatte Word-skabelonen med en ny skabelon, skal du bruge handlingen **Upload**
 * Slette skabelonen
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  
 [Konfigurer mail](admin-how-setup-email.md)  

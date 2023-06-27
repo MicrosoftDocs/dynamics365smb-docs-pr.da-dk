@@ -9,11 +9,11 @@ ms.date: 02/27/2023
 ms.custom: bap-template
 ms.search.form: '99000883, 99000884,'
 ---
-# <a name="create-production-orders-from-sales-orders" />Oprette produktionsordrer fra salgsordrer
+# <a name="create-production-orders-from-sales-orders"></a>Oprette produktionsordrer fra salgsordrer
 
 Du kan oprette produktionsordrer til producerede varer direkte fra salgsordrer.  
 
-## <a name="to-create-a-production-order-from-a-sales-order" />Sådan oprettes en produktionsordre fra en salgsordre
+## <a name="to-create-a-production-order-from-a-sales-order"></a>Sådan oprettes en produktionsordre fra en salgsordre
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2. Vælg den salgsordre, du vil oprette en produktionsordre for.  
@@ -27,7 +27,7 @@ Du kan oprette produktionsordrer til producerede varer direkte fra salgsordrer.
     >
     > Når du opretter produktionsordrer for salgsordrer med siden Salgsordreplanlægning, anvendes der ordre-til-ordre-links mellem behov og levering. Når der findes ordre-til-ordre-links, medtager planlægningssystemet ikke tilknyttet forsyning eller lagerbeholdning i udligningsproceduren. Hvis du vil vide mere om afstemning, skal du gå til [ordre-til-ordre-links](design-details-central-concepts-of-the-planning-system.md#order-to-order-links).
 
-## <a name="order-type" />Ordretype
+## <a name="order-type"></a>Ordretype
 
 I følgende tabel beskrives to måder, du kan oprette produktionsordrer på.
 
@@ -36,7 +36,7 @@ I følgende tabel beskrives to måder, du kan oprette produktionsordrer på.
 |Vareordre|En produktionsordre oprettes for hver enkelt behov produktionsordre, der repræsenteres af a linje i vinduet **Salgsordreplanlægning**.|
 |Projektordre|En produktionsordre oprettes for hver enkelt behov produktionsordre, der repræsenteres af a linje i vinduet **Salgsordreplanlægning**. Når du bruger projekt ordrer, viser feltet **Kildetype** i produktionsordren **Salgshoved**. Ordren indeholder én linje for hver salgslinjevare, der skal produceres.|
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)  

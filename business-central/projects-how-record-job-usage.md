@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 03/08/2023
 ms.custom: bap-template
 ---
-# <a name="record-consumption-or-usage-for-jobs" />Registrere forbrug eller forbrug til sager
+# <a name="record-consumption-or-usage-for-jobs"></a>Registrere forbrug eller forbrug til sager
 
 Fra siden **jobkort** kan du åbne siden **Sagsplanlægningslinjer** for at gennemgå og registrere brugen af forskellige dele af sagen. Disse oplysninger opdateres automatisk, når du ændrer og overfører oplysninger mellem sager og sagskladder eller sagskladder. Dette kræver, at du aktiverer **Anvend anvendelseslink som standard** til/fra på siden **Konfigurer sager**. Flere oplysninger i [Konfigurere sager](projects-how-setup-jobs.md).  
 
@@ -17,7 +17,7 @@ F.eks. kan du angive antallet af en ressource, og hvilken mængde, der skal over
 
 Følgende procedurer beskrives, hvordan du kan registrere faktiske (fakturerbare) mængder eller udgifter ved sagskladde. Du kan også bruge købsdokumenter til at registrere indkøb for en sag. Få mere at vide i [Administrere sagsforsyninger](projects-how-manage-project-supplies.md).
 
-## <a name="to-record-usage-for-a-job-planning-line-of-type-budget" />Sådan registreres forbrug for en sagsplanlægningslinje af typen Budget
+## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Sådan registreres forbrug for en sagsplanlægningslinje af typen Budget
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
 2. Markér den relevante sag, og vælg derefter handlingen **Sagsplanlægningslinjer**. 
@@ -42,7 +42,7 @@ Følgende procedurer beskrives, hvordan du kan registrere faktiske (fakturerbare
 9. På siden **Sagsplanlægningslinjer** skal du gennemgå det registrerede forbrug ved at holde øje felterne **Antal**, **Restantal** og **Antal, der skal overføres til kladde**.  
 10. Gentag trin 3 til 8 for at registrere ekstra forbrug.  
 
-## <a name="to-create-job-journal-lines-manually" />Sådan oprettes sagskladdelinjer manuelt
+## <a name="to-create-job-journal-lines-manually"></a>Sådan oprettes sagskladdelinjer manuelt
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagskladder**, og vælg derefter det relaterede link.  
 2. I feltet **Kladdenavn** skal du vælge et relevant sagskladdenavn.  
@@ -51,7 +51,7 @@ Følgende procedurer beskrives, hvordan du kan registrere faktiske (fakturerbare
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="to-view-job-usage-estimates-and-post-updates" />Sådan vises sagsforbrugsestimater og bogføringsopdateringer
+## <a name="to-view-job-usage-estimates-and-post-updates"></a>Sådan vises sagsforbrugsestimater og bogføringsopdateringer
 
 Du kan få vist sagsforbruget op til færdiggørelsen af et projekt i ét trin. Hvis du vil gøre det, skal du bruge kørslen **Beregn resterende forbrug for sag** for alle sagerne op til og inklusive afslutningen af en sag.  
 
@@ -66,7 +66,7 @@ På denne måde kan du holde styr på og sammenligne dine oprindelige estimater 
 4. Opdater kladden med eventuelle nødvendige ændringer.  
 5. Vælg **Bogfør**.
 
-## <a name="create-inventory-and-warehouse-pick-documents-for-a-job" />Opret lagerbeholdnings- lagersteds-plukdokumenter for et job
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Opret lagerbeholdnings- lagersteds-plukdokumenter for et job
 
 Hvis du vil oprette lagerplukdokumenter for sager, skal din administrator aktivere **Funktionsopdatering: Aktivér lagerbeholdning og lagerpluk fra job** på siden **Funktionsstyring**.
 
@@ -85,7 +85,7 @@ Du kan bruge handlingerne under følgende betingelser:
 > 
 > Hvis lokationen er indstillet til at kræve både pluk og leverance, dvs. at du har markeret både feltet **Kræv pluk** og feltet **Kræv leverance** på **lokationskortet**, kan du bruge siden **Pluk (logistik)** til at håndtere plukningen. Lagerpluk svarer til pluk (lager). Forskellen er, at i stedet for at bogføre plukoplysninger, registrerer du plukket. Denne registrering bogfører ikke forbrug, den gør blot varerne disponible til bogføring. Som lagerchef kan du bruge en plukkladde til at organisere plukoplysningerne, før du opretter de enkelte plukinstruktioner (logistik)
 
-## <a name="to-review-planning-lines-for-a-job-ledger-entry" />Sådan gennemgås planlægningslinjerne for en sagspost
+## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Sådan gennemgås planlægningslinjerne for en sagspost
 
 Når du har bogført sagskladdelinjer, kan du se de planlægningslinjer, der er knyttet til posterne i sagskladden, der er blevet bogfør.
 
@@ -96,9 +96,9 @@ Når du har bogført sagskladdelinjer, kan du se de planlægningslinjer, der er 
 2. Vælg en relevant sagskladde, og vælg derefter handlingen **Poster**.  
 3. På siden **Sagsposter** skal du vælge handlingen **Vis tilknyttede sagsplanlægningslinjer**.
 
-## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/post-job-usage-sales/)
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Projektstyring](projects-manage-projects.md)  
 [Finans](finance.md)  

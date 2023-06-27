@@ -10,11 +10,11 @@ ms.search.form: '5638, 5636, 5640, 5637'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="transfer-split-or-combine-fixed-assets" />Overføre, opdele eller kombinere anlægsaktiver
+# <a name="transfer-split-or-combine-fixed-assets"></a>Overføre, opdele eller kombinere anlægsaktiver
 
 Anlægsomposteringskladden bruges til at overføre, opdele og kombinere anlægsaktiver. Du kan få vist eller udskrive resultaterne af anlægsompostering med rapporten **Anlæg - bogført værdi 02**.
 
-## <a name="to-transfer-a-fixed-asset-to-a-different-department" />Overføre et anlægsaktiv til en anden afdeling
+## <a name="to-transfer-a-fixed-asset-to-a-different-department"></a>Overføre et anlægsaktiv til en anden afdeling
 
 Du kan overføre et anlægsaktiv til en anden afdeling, når du f.eks. placerer et aktiv i produktionsafdelingen, mens det er under opførelse, og derefter flytte det til administrationsafdelingen, når det er færdigbygget.  
 
@@ -30,7 +30,7 @@ Du kan overføre et anlægsaktiv til en anden afdeling, når du f.eks. placerer 
 
 Hvis du har bogført en anskaffelsespris for ét anlæg, kan du bruge anlægsomposteringskladden til at opdele anskaffelsesprisen på flere anlægsaktiver.  
 
-## <a name="to-split-a-fixed-asset-into-three-fixed-assets" />Sådan opdeles et anlægsaktiv i tre anlægsaktiver
+## <a name="to-split-a-fixed-asset-into-three-fixed-assets"></a>Sådan opdeles et anlægsaktiv i tre anlægsaktiver
 Du kan opdele et anlægsaktiv i flere anlægsaktiver, f.eks. når du skal fordele et anlægsaktiv på tre forskellige afdelinger. I så fald kan du f.eks. flytte 25 procent af anskaffelsesprisen og afskrivningen for det oprindelige anlæg til det andet anlæg og 45 procent til det tredje anlæg. De resterende 30 procent bliver hos det oprindelige anlægsaktiv.
 
 1. Definer to nye anlægsaktiver. Angiv de relevante afdelinger som dimensioner.  
@@ -46,7 +46,7 @@ Du kan opdele et anlægsaktiv i flere anlægsaktiver, f.eks. når du skal fordel
 9. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsfinanskladder**, og vælg derefter det relaterede link.
 10. På siden **Anlægskassekladde** skal du vælge handlingen **Bogfør** for at bogføre den ompostering, du har udført i trin 4 til 8.
 
-## <a name="to-combine-two-fixed-assets-into-one" />Sådan kombineres to anlægsaktiver til ét
+## <a name="to-combine-two-fixed-assets-into-one"></a>Sådan kombineres to anlægsaktiver til ét
 
 Du kan kombinere flere anlægsaktiver til ét anlægsaktiv, f.eks. når du skal flytte fordelte anlægsaktiver til en enkelt afdeling. Hvis du har bogført anskaffelsesprisen og afskrivningen for det anlægsaktiv, der skal flyttes, kombineres værdierne i det enkelte anlægsaktiv.
 
@@ -60,15 +60,15 @@ Du kan kombinere flere anlægsaktiver til ét anlægsaktiv, f.eks. når du skal 
 6. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægskasseklader**, og vælg derefter det relaterede link.
 7. På siden **Anlægskassekladde** skal du vælge handlingen **Bogfør** for at bogføre den ompostering, du har udført i trin 2 til 5.
 
-## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification" />Sådan får du vist ændrede bogførte afskrivningsværdier på grund af ompostering af anlægsaktiver
+## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Sådan får du vist ændrede bogførte afskrivningsværdier på grund af ompostering af anlægsaktiver
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlæg - bogført værdi 02**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov.
 3. Vælg knappen **Udskriv** eller **Vis udskrift**.  
 
-## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/reclassify-fixed-assets/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/reclassify-fixed-assets/)
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Anlægsaktiver](fa-manage.md)  
 [Opsætning af Anlægsaktiver](fa-setup.md)  
