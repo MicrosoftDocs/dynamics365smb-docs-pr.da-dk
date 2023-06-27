@@ -43,7 +43,7 @@ Hvis du vil ændre PDF-og billedfiler til elektroniske dokumenter, som du kan ko
 
 Du kan finde flere oplysninger i [Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

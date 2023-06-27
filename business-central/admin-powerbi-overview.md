@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="power-bi-integration-component-and-architecture-overview-for-includeprodshortincludesprodshortmd" />Oversigt over Power BI-integrationskomponent og -arkitektur for [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="power-bi-integration-component-and-architecture-overview-for-" />Oversigt over Power BI-integrationskomponent og -arkitektur for [!INCLUDE[prod_short](includes/prod_short.md)]
 
 I denne artikel kan du læse om de forskellige aspekter ved Power BI-integration med [!INCLUDE[prod_short](includes/prod_short.md)] som hjælp til at forstå implementering og brug.
 
@@ -59,7 +59,7 @@ I følgende diagram illustreres den grundlæggende arbejdsgang for brugere, når
 6. Bruger opretter en rapport i Power BI Desktop.
 7. Bruger udgiver rapporten til Power BI-tjenesten. Rapporterne kan derefter vælges i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

@@ -60,7 +60,7 @@ I denne procedure behandler du salg af et element, der skal samles i henhold til
 > [!NOTE]  
 > Erstatningsvarer erstatter ikke automatisk en vare med en anden vare, f.eks. når der oprettes en salgsordre eller en stykliste. I stedet bliver du advaret om, at der er en erstatningsvare tilgængelig.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

@@ -111,7 +111,7 @@ Du kan ikke oprette lagerplukdokumenter fra bunden. Pluk er en del af en arbejds
 
 Den person, der er ansvarlig for leveringen, kan nu bringe varerne til forsendelseshavnen og bogføre leverancen, herunder det relaterede kildedokument, på siden **Lagerleverance**. Flere oplysninger i [Levere varer](warehouse-how-ship-items.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespick-ship-items-warehouse" />Se relateret [Microsoft-træning](/training/modules/pick-ship-items-warehouse/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/pick-ship-items-warehouse/)
 
 ## <a name="see-also" />Se også
 

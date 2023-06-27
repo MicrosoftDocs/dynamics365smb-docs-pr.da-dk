@@ -100,7 +100,7 @@ Kontaktkortet fungerer på samme måde som kort for poster, f.eks. varer, debito
 [Fejlfinding i Teams](admin-teams-troubleshooting.md)  
 [Udvikling af Teams-integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

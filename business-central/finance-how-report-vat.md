@@ -35,7 +35,7 @@ Du kan få vist en komplet oversigt over momsposter ved hver bogføring, der ind
 > [!NOTE]
 > Hvert [!INCLUDE[prod_short](includes/prod_short.md)]-miljø skal behandle lovpligtig rapportering i ét enkelt land. Den hollandske version af [!INCLUDE[prod_short](includes/prod_short.md)] håndterer momsrapportering i Holland, men ikke i andre lande. På samme måde håndterer den amerikanske version af [!INCLUDE[prod_short](includes/prod_short.md)] 1099 rapportering i USA og understøtter ikke krav om momsindberetning i andre lande, medmindre de er indført via en udvidelse, der leveres af vores partnerøkosystem eller en kundespecifik kodeændring.
 
-## <a name="a-nameecsaleslistaabout-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Om rapporten Oversigt over EU-salg
+## <a name="about-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Om rapporten Oversigt over EU-salg
 
 I EU og i Storbritannien skal alle virksomheder, der sælger varer og tjenester til momsregistrerede kunder, herunder kunder i andre EU-lande, sende en elektronisk udgave af rapporten Oversigt over EU-salg til Told og Skat. Rapporten **Oversigt over EU-salg** kan kun bruges til EU-lande.
 
@@ -53,7 +53,7 @@ Når skattemyndighederne gennemser rapporten, sender de en e-mail til kontaktper
 
 [!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
 
-## <a name="a-namevatreturnaabout-the-vat-return-report" /><a name="vatreturn"></a>Om rapporten Momsopgørelse
+## <a name="about-the-vat-return-report" /><a name="vatreturn"></a>Om rapporten Momsopgørelse
 
 Du kan bruge denne rapport til at sende moms for salgs- og købsdokumenter, f.eks. købs- og salgsordrer, fakturaer og kreditnotaer. Oplysningerne i rapporten er opstillet på samme måde som i listeangivelsen fra SKAT.  
 
@@ -73,7 +73,7 @@ Når du vil rapportere moms til en skattemyndighed elektronisk, skal du forbinde
     > [!NOTE]  
     > Det er en god ide at teste forbindelsen. For at gøre dette skal du vælge afkrydsningsfeltet **Testtilstand**. Forbered og send derefter momsrapporten, som beskrevet i afsnittet [Sådan forbereder og sender du en momsrapport](#to-prepare-and-submit-a-vat-report). I Testtilstand kontrollerer tjenesten, om skattemyndighederne kan modtage rapporten, og statussen for rapporten angiver, om testafsendelsen blev udført. Det er vigtigt at huske, at det ikke er en faktisk afsendelse. For at sende rapporten rigtigt skal du fjerne markeringen i afkrydsningsfeltet **Testtilstand** og derefter gentage afsendelsesprocessen.
 
-## <a name="to-set-up-vat-reports-in-includeprodshortincludesprodshortmd" />Sådan opsættes momsrapporter i [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-set-up-vat-reports-in-" />Sådan opsættes momsrapporter i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
@@ -148,7 +148,7 @@ I følgende tabel beskrives kodeenheder, du skal oprette til rapporten.
 > [!Note]
 > Når du opretter kodeenheder til rapporten, skal du være opmærksom på værdien i feltet **Momsrapportversion**. Dette felt skal afspejle versionen af den rapport, der blev/bliver krævet af skattemyndighederne. Du kan f.eks. angive **2021** i feltet for at angive, at rapporten opfylder kravene for dette år. For at finde den aktuelle version skal du kontakte skattemyndighederne.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

@@ -53,7 +53,7 @@ Før du åbner [!INCLUDE[prod_short](includes/prod_short.md)] online, anbefales 
 
 **Rediger i Excel:** Når du vil bruge Excel-tilføjelsesprogrammet til at foretage ændringer i Excel og overføre ændringer til [!INCLUDE[prod_short](includes/prod_short.md)], skal du bruge Excel 2019 eller nyere. Du kan finde flere oplysninger i [Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="a-nametaca-using-the-business-central-administration-center" /><a name="TAC"></a> Sådan bruger du Business Central-administrationscenter
+## <a name="using-the-business-central-administration-center" /><a name="TAC"></a> Sådan bruger du Business Central-administrationscenter
 
 Administrationscenteret er designet til at fungere sammen med den aktuelle version af følgende browsere:
 

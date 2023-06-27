@@ -71,7 +71,7 @@ Når brugere er oprettet i Microsoft 365, kan de importeres på siden **Brugere*
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Du kan finde flere oplysninger i [Ressourcer til hjælp og support](product-help-and-support.md).  
 
-### <a name="set-up-your-company-in-includeprodshortincludesprodshortmd" />Konfigurere din virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="set-up-your-company-in-" />Konfigurere din virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 De [centrale artikler i hurtig start](quick-start-business-central.md) kan hjælpe dig med at tage de første skridt til at klargøre [!INCLUDE [prod_short](includes/prod_short.md)] til din egen organisation. I [!INCLUDE [prod_short](includes/prod_short.md)] vises **Assisteret opsætning**-vejledninger, som kan hjælpe dig. Afhængigt af din rolle og dit land/område viser siden forskellige assisterede installationsvejledninger som illustreret i følgende tabel:
 
@@ -112,6 +112,6 @@ Baseret på de overflyttede data, kan du nu fortsætte med at oprette nye salgs-
 [Overfør data](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Prøveversioner og abonnementer](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

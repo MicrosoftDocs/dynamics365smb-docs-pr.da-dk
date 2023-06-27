@@ -10,7 +10,7 @@ ms.search.form: '39, 251, 981'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="letting-includeprodshortincludesprodshortmd-suggest-values" />Lade [!INCLUDE[prod_short](includes/prod_short.md)] foreslå værdier
+# <a name="letting--suggest-values" />Lade [!INCLUDE[prod_short](includes/prod_short.md)] foreslå værdier
 [!INCLUDE[prod_short](includes/prod_short.md)] kan hjælpe dig med at udføre opgaver hurtigere og mere korrekt ved at forhåndsudfylde felter eller hele linjer med data, som du normalt selv skal beregne og angive. Selvom sådan automatisk dataindtastning altid er korrekte, kan du ændre oplysningerne bagefter, hvis du vil.
 
 Funktioner, der indsætter feltværdier, tilbydes typisk i opgaver, hvor du skal angive store mængder transaktionsdata og vil undgå fejl og spare tid. Dette emne indeholder et udvalg af disse funktioner. Der bliver tilføjet flere afsnit i fremtidige opdateringer af [!INCLUDE[prod_short](includes/prod_short.md)].

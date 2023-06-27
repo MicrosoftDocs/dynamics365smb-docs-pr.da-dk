@@ -56,7 +56,7 @@ Nedenstående fremgangsmåde viser, hvordan du kan oprette serviceartikler, når
 
     Der indsættes en servicelinje af typen **Omkostning** med startgebyr. Startgebyret gælder den valgte serviceartikel.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-items" />Se relateret [Microsoft-træning](/training/modules/create-items/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/create-items/)
 
 ## <a name="see-also" />Se også
 

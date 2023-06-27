@@ -55,7 +55,7 @@ Du kan definere navne i en forsikringskladdetype. Værdierne i kladdenavnet brug
 > [!NOTE]  
 >   Tallene har en særlig funktion i kladdenavne. Hvis et kladdetypenavn eller et kladdenavn indeholder et tal, vil tallet automatisk forøges med 1, hver gang kladden bogføres. Hvis du f.eks. angiver HH1 i feltet **Navn**, ændres kladdenavnet til HH2, når kladden HH1 er blevet bogført.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Se relateret [Microsoft-træning](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />Se også
 

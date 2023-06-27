@@ -16,7 +16,7 @@ ms.contentlocale: da-DK
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9606436"
 ---
-# <a name="work-with-power-bi-reports-in-include-prodshortincludesprodshortmd" /><a name="work-with-power-bi-reports-in-prod_short"></a>Arbejde med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="work-with-power-bi-reports-in-" /><a name="work-with-power-bi-reports-in-prod_short"></a>Arbejde med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
 
 I denne artikel får du nogle grundlæggende oplysninger om visning af Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -41,7 +41,7 @@ Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, skal 
 
 Før du kan bruge Power BI sammen med [!INCLUDE[prod_short](includes/prod_short.md)], skal du registrere dig som bruger af Power BI-tjenesten. Hvis du ikke allerede har tilmeldt dig, skal du gå til [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Når du tilmelder dig, skal du bruge din mailadresse og adgangskode.
 
-## <a name="a-nameconnectaconnect-to-power-bi---one-time-only" /><a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Tilknyt til Power BI - èn gang
+## <a name="connect-to-power-bi---one-time-only" /><a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Tilknyt til Power BI - èn gang
 
 Når du logger på [!INCLUDE [prod_short](includes/prod_short.md)] første gang, får du sandsynligvis vist en tom Power BI-del (som vist i den forrige figur) på forskellige sider. Det første, du skal gøre, er at oprette forbindelse til din Power BI-konto. Når du har oprettet forbindelse, kan du se rapporter. Du behøver kun at udføre dette trin én gang.
 
@@ -59,7 +59,7 @@ Forbindelsesprocessen starter. Under processen kommunikerer [!INCLUDE [prod_shor
 > [!TIP]
 > Med [!INCLUDE [prod_short](includes/prod_short.md)] online overfører dette trin automatisk Power BI-standardrapporter, der er anvendt i [!INCLUDE [prod_short](includes/prod_short.md)], til dit Power BI-arbejdsområde.
 
-#### <a name="from-include-prodshortincludesprodshortmd-on-premises" /><a name="from-prod_short-on-premises"></a>Fra [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
+#### <a name="from--on-premises" /><a name="from-prod_short-on-premises"></a>Fra [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
 
 Oprettelse af forbindelse til Power BI fra [!INCLUDE [prod_short](includes/prod_short.md)] ligner online. Du kan også på siden **AZURE ACTIVE DIRECTORY-TJENESTETILLADELSER** blive bedt om at give adgang til Power BI-tjenester. Hvis du vil tildele adgang, skal du vælge **Godkend Azure-tjenester** og derefter **Acceptér**.
 
@@ -105,7 +105,7 @@ Når du går tilbage til rollecenteret, vises den opdaterede rapport. Hvis du ha
 > [!NOTE]
 > Denne funktion er ikke tilgængelig for [!INCLUDE [prod_short](includes/prod_short.md)] on-premises.
 
-### <a name="a-nameuploadaupload-reports" /><a name="upload-reports"></a><a name="upload"></a>Overføre rapporter
+### <a name="upload-reports" /><a name="upload-reports"></a><a name="upload"></a>Overføre rapporter
 
 Power BI-rapporter kan distribueres blandt brugere som .pbix-filer. Hvis du har nogen .pbix-filer, kan du overføre og dele dem med alle brugere af [!INCLUDE [prod_short](includes/prod_short.md)]. Rapporterne deles inden for hver virksomhed i [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -132,7 +132,7 @@ Denne meddelelse vises, hvis standardrapporten ikke blev implementeret i Power B
 
 Det skyldes sandsynligvis, at rapportens navn ikke indeholder navnet på listesiden. Ryd filteret for at se en komplet liste over tilgængelige Power BI-rapporter.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" /><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" /><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" /><a name="see-also"></a>Se også
 

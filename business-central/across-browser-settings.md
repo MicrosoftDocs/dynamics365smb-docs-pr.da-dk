@@ -50,7 +50,7 @@ Hvis browseren ikke tillader cookies, får du vist følgende fejlmeddelelse:
 1. I Microsoft Edge skal du gå til **Indstillinger** > **Cookies og webstedstilladelser** > **Cookies og webstedsdata**.
 2. Flyt **Tillad websteder gemmer og læser cookiedata** til højre (On).  
 
-## <a name="a-namepopupaallow-pop-ups-from-business-central" /><a name="popup"></a>Tillad pop-ops fra Business Central
+## <a name="allow-pop-ups-from-business-central" /><a name="popup"></a>Tillad pop-ops fra Business Central
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integreres med flere produkter. I nogle tilfælde, som f.eks. med Microsoft Teams [!INCLUDE[prod_short](includes/prod_short.md)] åbnes, eller "pop op-vinduer", i produktet. Denne egenskab kræver, at browseren tillader pop op-vinduer [!INCLUDE[prod_short](includes/prod_short.md)].
 

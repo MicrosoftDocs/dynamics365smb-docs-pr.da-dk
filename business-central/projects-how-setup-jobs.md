@@ -99,7 +99,7 @@ Et aspekt af planlægningssager er at beslutte, hvilke bogføringkonti, der skal
 | **Konto til realiserede omkostninger** |Den udgiftskonto, som indeholder de registrerede omkostninger for sagen. Det er normalt en debetafrundingskonto. |
 | **Konto til realiseret salg** |Den indtægtskonto, som indeholder den registrerede indtægt for sagen. Det er normalt en kreditafrundingskonto. |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Se relateret [Microsoft-træning](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Se også
 

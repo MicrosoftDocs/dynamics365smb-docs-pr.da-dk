@@ -13,13 +13,13 @@ Beslutter du, om der skal investeres i nye teknologier?
 
 Følgende katalog er organiseret fra kerneviden til bestemte domæner og fra det mest grundlæggende til det mest avancerede. Hvis indholdet findes i flere formater, giver vi dig besked om det, så du kan vælge det format, der bedst imødekommer dine behov.  
 
-## <a name="business-valuea-namebusvaluea" />Forretningsværdi<a name="busvalue"></a>
+## <a name="business-value" />Forretningsværdi<a name="busvalue"></a>
 
 | Indhold                                                                 | Beskrivelse                                                                                                | Format                                | Længde     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | Dette modul viser programfunktioner, fordele og eksempler på Dynamics 365 Business Central-handlinger. | Gratis onlinelæringssti i dit eget tempo | 24 minutter |
 
-## <a name="getting-starteda-nameget-starteda" />Introduktion<a name="get-started"></a>
+## <a name="getting-started" />Introduktion<a name="get-started"></a>
 
 | Indhold                                                                                                                             | Beskrivelse                                                                                                                                                                                                                                                                                      | Format                                | Længde             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

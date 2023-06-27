@@ -119,10 +119,10 @@ Du kan finde flere oplysninger i [Designoplysninger: Udgående lagerflow](../../
 
 Den følgende gennemgang viser metode B i forrige tabel.
 
-### <a name="scenario" />Scenarie
+### <a name="scenario-1" />Scenarie
 Susan, ordrebehandleren, opretter en salgsordre for forskellige brændte bønner og overfører den til lagerstedet. John, som arbejder på lageret, skal sørge for, at forsendelsen klargøres og leveres til debitoren. John administrerer alle involverede opgaver på siden **Pluk (lager)**, som automatisk peger på de placeringer, hvor brændte bønner opbevares.
 
-### <a name="steps" />Trin
+### <a name="steps-1" />Trin
 Dette er en fortsættelse af [Indgående flow: Modtagelse og placering på lager i grundlæggende lageropsætninger](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Opsætningen af siden **Lokationskort** definerer indgående flows i virksomheden.  
@@ -159,7 +159,7 @@ Dette er en fortsættelse af [Indgående flow: Modtagelse og placering på lager
 
 5. Vælg handlingen **Bogfør**, vælg **Lever**, og vælg derefter knappen **OK**.  
 
-### <a name="results" />Resultater
+### <a name="results-1" />Resultater
  - De brændte bønner registreres nu som plukket fra bestemte placeringer
  - **Bogført lagerpluk** oprettes
  - den **bogførte salgsleverance** oprettes

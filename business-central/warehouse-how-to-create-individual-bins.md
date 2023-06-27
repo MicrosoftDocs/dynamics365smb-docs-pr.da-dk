@@ -70,7 +70,7 @@ Hvis du vil arbejde med siden **Placeringsopr.kladde**, skal du være oprettet s
 
 Gentag processen, hvis det er nødvendigt med endnu et sæt placeringer, indtil du har oprettet alle placeringerne på lagerstedet.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-bins" />Se relateret [Microsoft-træning](/training/modules/create-new-bins/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/create-new-bins/)
 
 ## <a name="see-also" />Se også
 

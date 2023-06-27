@@ -56,7 +56,7 @@ Navnet på det valgte brugerdefinerede layout vises nu i feltet **Beskrivelse af
 
 Du kan nu gå til debitor- og leverandørkortene for at angive, hvilke layouts der skal bruges til de forskellige dokumenter, som du opretter for den pågældende debitor eller leverandør, såsom ordrebekræftelser eller betalingsrykkere. Du kan finde flere oplysninger i [Definition af Dokumentlayouts til debitorer og leverandører](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 [Administration af rapportlayout](ui-manage-report-layouts.md)  

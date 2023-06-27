@@ -87,7 +87,7 @@ Microsoft-partnere og -forhandlere kan oprette en app, som de kan bruge til at k
 > [!NOTE]
 > Hvis du er Microsoft-partner eller -forhandler, og du er interesseret i at levere en liste over anbefalede apps, skal du se [Anbefal apps fra AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) i administrationsindholdet.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 
@@ -101,7 +101,7 @@ Microsoft-partnere og -forhandlere kan oprette en app, som de kan bruge til at k
 [[!INCLUDE[prod_short](includes/prod_short.md)]-apps fra andre leverandører](ui-extensions-other.md)  
 [Blive køreklar](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -174,7 +174,7 @@ De følgende trin beskriver de handlinger, der er involveret for forskellige bru
 
 :::image type="content" source="media/binflow.png" alt-text="Oversigt over, hvornår/hvordan feltet Placeringskode skal udfyldes.":::
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Se relateret [Microsoft-træning](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Se også
 

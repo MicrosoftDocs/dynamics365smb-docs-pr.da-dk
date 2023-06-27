@@ -11,7 +11,7 @@ ms.search.form: '2650, 2750, 2752, 2753, 2754, 8900,'
 ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="a-namedefaultaspecify-a-default-printer" /><a name="default"></a>Angive en standardprinter
+# <a name="specify-a-default-printer" /><a name="default"></a>Angive en standardprinter
 
 Når der er oprettet printere i Business central, kan du angive, hvilken printer du vil bruge som standard. Du kan konfigurere, hvilke printere der skal bruges som standard til rapporter og andre udskriftsjobs. En standardprinter er nyttig, hvis du arbejder med forskellige rapporter, som kræver forskellige printere på grund af deres placering i virksomheden eller deres udskrivningsmuligheder.
 

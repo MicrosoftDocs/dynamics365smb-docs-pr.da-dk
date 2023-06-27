@@ -33,7 +33,7 @@ Opretter en dataudvekslingsdefinition, der omfatter to opgaver:
 1. På siden **Dataudvekslingsdefinition** skal du beskrive formateringen af linjer og kolonner i filen. Flere oplysninger i [Sådan beskrives formateringen af linjer og kolonner i filen](#formatlinescolumns).  
 2. På siden **Dataudvekslingskobling** skal du knytte kolonner i datafilen til felter i [!INCLUDE[prod_short](includes/prod_short.md)]. Flere oplysninger i [Sådan tilknyttes kolonner i datafilen til felter i [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields).  
 
-### <a name="a-nameformatlinescolumnsato-describe-the-formatting-of-lines-and-columns-in-the-file" /><a name=formatlinescolumns></a>Sådan beskrives formateringen af linjer og kolonner i filen
+### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file" /><a name=formatlinescolumns></a>Sådan beskrives formateringen af linjer og kolonner i filen
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Dataudvekslingsdefinitioner** og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -108,7 +108,7 @@ Det næste trin i oprettelsen af en definition til udveksling af data er at besl
 > [!NOTE]  
 > Den bestemte tilknytning afhænger af forretningsformålet med den datafil, der skal udveksles, og af lokale variationer. Selv SEPA-bankstandarden har lokale variationer. [!INCLUDE[prod_short](includes/prod_short.md)] understøtter import af SEPA CAMT-bankkontoudtogsfiler out\-of\-the\-box. Dette repræsenteres ved registreringskoden til dataudvekslingsdefinitionen **SEPA CAMT** på siden **Dataudvekslingsdefinitioner**. Du kan finde oplysninger om den specifikke felttilknytning for denne SEPA CAMT-understøttelse i [Feltkobling, når du importerer SEPA-CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name="a-namemapfieldsato-map-columns-in-the-data-file-to-fields-in-includeprodshortincludesprodshortmd" /><a name=mapfields></a>Sådan tilknyttes kolonner i datafilen til felter i [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="to-map-columns-in-the-data-file-to-fields-in-" /><a name=mapfields></a>Sådan tilknyttes kolonner i datafilen til felter i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > Nogle gange er værdierne i de felter, du vil tilknytte, forskellige. For eksempel er sprogkoden for USA i én forretningsapp "U.S.", mens den i den anden er "US". Det betyder, at du skal transformere værdien, når du udveksler data. Dette sker gennem transformationsregler, som du definerer for felterne. Få mere at vide under [Transformationsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).

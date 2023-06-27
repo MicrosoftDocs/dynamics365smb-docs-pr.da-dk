@@ -75,7 +75,7 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 
 Varerne på siden **Varer** filtreres efter de angivne vareattributværdier.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

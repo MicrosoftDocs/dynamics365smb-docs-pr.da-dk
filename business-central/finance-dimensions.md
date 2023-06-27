@@ -238,7 +238,7 @@ Du kan se, om der er globale dimensioner for poster, når du åbner en side med 
 > [!NOTE]  
 > Siden **Postdimensioner** viser dimensioner for én post ad gangen. Når du ruller gennem finansposter, ændres indholdet på siden **Postdimensioner** løbende.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

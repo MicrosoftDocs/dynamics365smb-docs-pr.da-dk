@@ -138,7 +138,7 @@ Hvis du skal registrere, at varerne allerede er blevet flyttet til andre placeri
 2. Udfyld felterne **Varenr.**, **Fra zonekode**, **Fra placeringskode**, **Til zonekode** og **Til placeringskode**.  
 3. Vælg handlingen **Registrer**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Se relateret [Microsoft-træning](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Se også
 

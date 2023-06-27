@@ -59,7 +59,7 @@ Disse funktioner kan især være praktiske i kvalitetskontrol, når du vil finde
 3. I felterne **Serienr.** og **Lotnr.** skal du angive de varesporingsnumre, du ønsker at spore.  
 4. Vælg handlingen **Find** for at finde alle forekomster af serienummer eller lotnummer i databasen.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />Se relateret [Microsoft-træning](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also" />Se også
 

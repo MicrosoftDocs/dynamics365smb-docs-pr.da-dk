@@ -109,7 +109,7 @@ I forbindelse med masseimport skal du bruge konfigurationspakker til at importer
 > [!NOTE]
 > Du kan ikke bruge **Rediger i Excel** til at oprette kladdelinjer med sporingsoplysninger.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />Se relateret [Microsoft-træning](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also" />Se også
 

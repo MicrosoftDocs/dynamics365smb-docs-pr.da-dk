@@ -11,7 +11,7 @@ ms.search.form: null
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# <a name="local-functionality-in-includeprodlongincludesprodlongmd" />Lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="local-functionality-in-" />Lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] har en kombineret oversættelsesstrategi inklusive både Microsoft-styrede såvel som partnerstyrede modeller. I dette afsnit kan du se beskrivelser af funktioner, der gælder for de lande/områder, hvor Microsoft leverer overholdelse af lovmæssige krav og andre lokale funktioner.  
 

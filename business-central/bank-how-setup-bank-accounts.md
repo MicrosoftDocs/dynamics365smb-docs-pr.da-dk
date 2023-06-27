@@ -230,7 +230,7 @@ Når du har oprettet den nye bankkonto, skal du også oprette en ny Bankbogføri
 
 Hvis du vil have en mere kompakt oversigt over dine kontantkonti i financial reporting, skal du bruge kontiene **Fra-sum** og **Til-sum** i din kontoplan, rækkerne **Sammentælling** i finansrapporter eller finanskontoarter. Du kan finde flere oplysninger i afsnittet om [Business Intelligence og Financial Reporting](bi.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

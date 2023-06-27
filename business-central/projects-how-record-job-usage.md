@@ -96,7 +96,7 @@ Når du har bogført sagskladdelinjer, kan du se de planlægningslinjer, der er 
 2. Vælg en relevant sagskladde, og vælg derefter handlingen **Poster**.  
 3. På siden **Sagsposter** skal du vælge handlingen **Vis tilknyttede sagsplanlægningslinjer**.
 
-## <a name="see-related-microsoft-trainingtrainingpathspost-job-usage-sales" />Se relateret [Microsoft-træning](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also" />Se også
 

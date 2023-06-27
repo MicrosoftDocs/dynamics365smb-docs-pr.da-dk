@@ -15,7 +15,7 @@ Du kan skrive *marketingtekst* om varen for alle de varer, der er registreret i 
 
 Der er to måder at oprette en marketingtekst på. Den nemmeste måde at komme i gang på er ved at bruge Copilot, som foreslår AI-genereret tekst for dig. Den anden måde er at starte fra bunden. 
 
-## <a name="a-namecopilotacreate-ai-generated-marketing-text-preview-with-copilot" /><a name=copilot></a>Opret AI-styret marketingtekst (forhåndsversion) med Copilot
+## <a name="create-ai-generated-marketing-text-preview-with-copilot" /><a name=copilot></a>Opret AI-styret marketingtekst (forhåndsversion) med Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 

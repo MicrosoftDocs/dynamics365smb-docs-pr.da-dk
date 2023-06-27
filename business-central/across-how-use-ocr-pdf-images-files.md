@@ -120,7 +120,7 @@ Siden **Korrektion af OCR-data**, som du kan åbne fra siden **Indgående bilag*
 
 Felterne i oversigtspanelet **Finansielle oplysninger** på siden **Indgående bilag** opdateres med de nye værdier, du angav i trin 4.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

@@ -39,7 +39,7 @@ Denne video viser kobling og synkronisering af data i forbindelse med integratio
 2. Vælg handlingen **Synkroniser nu**.  
 3. Hvis en post kan synkroniseres i én retning, skal du vælge den valgmulighed, der angiver retningen for dataopdateringen, og derefter vælge **OK**.  
 
-## <a name="to-synchronize-a-single-record-from-includecrmmdincludescrmmdmd" />Sådan synkroniseres en enkelt post fra [!INCLUDE[crm_md](includes/crm_md.md)]
+## <a name="to-synchronize-a-single-record-from-" />Sådan synkroniseres en enkelt post fra [!INCLUDE[crm_md](includes/crm_md.md)]
 
 1. Åbn formularen til den post, du vil sammenkæde, i [!INCLUDE[crm_md](includes/crm_md.md)]. Det kan f.eks. være Kontokort- eller Kontaktkort-formularen.  
 2. Vælg handlingen **[!INCLUDE[prod_short](includes/prod_short.md)]** på båndet for at åbne og sammenkæde posten automatisk.

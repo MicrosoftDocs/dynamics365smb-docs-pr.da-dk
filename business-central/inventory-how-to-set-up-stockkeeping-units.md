@@ -34,7 +34,7 @@ Brug kørslen **Opret lagervare**, hvis du vil oprette flere lagerførte varer. 
 > Hvis lagervaren angives via produktion, bruges feltet **Kostpris (standard)** ikke ved fakturering og justering af den faktiske kostpris for den producerede vare. I stedet anvender [!INCLUDE [prod_short](includes/prod_short.md)] værdien i feltet **kostpris (standard)** på det underliggende varekort, og eventuelle afvigelser beregnes mod kostprisfordelingen for den vare.<br><br>
 > Selvom du kan tildele produktionsstyklister og rute til lagervarer, er kostprisakkumulering og den relaterede beregning af kostprisfordelingen ikke tilgængelig på lagervarer. Hvis du vil vide mere om standardkostpriser, skal du gå til [Om beregning af standardkostpris](finance-about-calculating-standard-cost.md)
 
-## <a name="see-related-microsoft-trainingtrainingmodulescontrol-inventory-multiple-locations" />Se relateret [Microsoft-træning](/training/modules/control-inventory-multiple-locations/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/control-inventory-multiple-locations/)
 
 ## <a name="see-also" />Se også
 

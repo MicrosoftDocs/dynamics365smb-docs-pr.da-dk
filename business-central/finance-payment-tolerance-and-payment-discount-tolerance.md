@@ -211,11 +211,11 @@ Scenarier med alternativ A, B, C eller D repræsenterer følgende:
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**01/15/03** <br />**01/17/03**|**01/20/03** <br />**01/22/03**|**>22-01-03**|**2000**|**Ingen**|**Ja**|**0**|**0**|  
 |30|1.000 <br />1.000|60 <br />30|5 <br />5|01/15/03 <br />17-01-03|01/20/03 <br />22-01-03|>22-01-03|1990|Betalingstolerance|Ja|0|5|  
 
-### <a name="payment-range-diagrams" />Betalingsområdediagrammer
+### <a name="payment-range-diagrams-1" />Betalingsområdediagrammer
 
 I forbindelse med ovenstående scenarie er diagrammerne over betalingsintervaller som følger:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Betalingsdato <=15-01-03 (scenarie 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3-1" />(1) Betalingsdato <=15-01-03 (scenarie 1-3)
 
 Restbeløb pr.  
 
@@ -275,7 +275,7 @@ Normale udligningsregler
 
 (2) Hvis betaling falder i disse intervaller, er det ikke alle udligningsposter, der kan lukkes, selvom der anvendes tolerance.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

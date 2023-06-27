@@ -112,7 +112,7 @@ Hvis din lokation bruger både læg-på-lager-behandling og modtagelsesbehandlin
 
 5. Vælg handlingen **Registrer læg-på-lager**, når du har placeret alle varer på de korrekte placeringer.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Se relateret [Microsoft-træning](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also" />Se også
 

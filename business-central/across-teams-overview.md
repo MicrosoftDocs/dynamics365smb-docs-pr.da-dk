@@ -83,7 +83,7 @@ Du kan finde flere oplysninger i [Tilføje en Business Central-fane i Teams](acr
 [Ændring af virksomhed og andre indstillinger i Teams](across-teams-settings.md)  
 [Udvikling af Teams-integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

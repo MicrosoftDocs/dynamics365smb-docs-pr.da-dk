@@ -32,6 +32,6 @@ I følgende tabel vises de forbindelser til Microsoft-tjenester, der automatisk 
 
 Dine personlige oplysninger er vigtige for os. Du kan få mere at vide om, hvordan Microsoft håndterer dine data i [Microsofts erklæring om beskyttelse af personlige oplysninger](https://go.microsoft.com/fwlink/?linkid=521839).
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

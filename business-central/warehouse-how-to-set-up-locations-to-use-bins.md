@@ -51,7 +51,7 @@ Følgende flow-diagram viser, hvordan feltet **Placeringskode** i produktionsord
 
 :::image type="content" source="media/binflow.png" alt-text="Placeringskodefeltet på produktionsordrekomponentlinjerne.":::
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-bins-location" />Se relateret [Microsoft-træning](/training/modules/configure-bins-location/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/configure-bins-location/)
 
 ## <a name="see-also" />Se også
 

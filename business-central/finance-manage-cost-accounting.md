@@ -24,7 +24,7 @@ Omkostningsregnskab bruges til at hjælpe dig med at forstå omkostningerne til 
 |Lær om processerne ved oprettelse af omkostningsbudgetter.|[Oprette omkostningsbudgetter](finance-create-cost-budgets.md)|
 |Annullere omkostningsbudgetposter fra omkostningsbudgetregistret.|[Sletning af omkostningsbudgetposter](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 [Finans](finance.md)  

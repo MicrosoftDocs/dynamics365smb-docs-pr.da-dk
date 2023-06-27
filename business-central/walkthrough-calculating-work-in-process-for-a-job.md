@@ -159,7 +159,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
  Denne gennemgang har taget dig gennem trinnene til beregning af igangværende arbejde i [!INCLUDE[prod_short](includes/prod_short.md)]. I større sager kan det være nyttigt regelmæssigt at overføre omkostningerne til en konto for igangværende arbejde, mens sagen fuldføres. Denne gennemgang har vist dig, hvordan du kan udelade opgavelinjerne i en beregning. Den viser også, hvornår du skal genberegne. Endelig viser denne gennemgang, hvordan du bogfører igangværende arbejde i regnskab. Der er også et eksempel på, hvordan du tilbagefører en bogføring for igangværende arbejde i regnskab .  
 
-## <a name="see-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Se relateret [Microsoft-træning](/training/paths/calculate-post-job-wip/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also" />Se også
 

@@ -79,7 +79,7 @@ En sagsplanlægningslinje han være en af følgende typer.
 4. På siden **Sagsplanlægningslinjer** skal du udfylde felterne på en ny linje efter behov.
 5. Gentag trin 3 og 4 for alle planlægninglinjer, du skal bruge for sagsopgaven.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-job" />Se relateret [Microsoft-træning](/training/modules/create-new-job/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/create-new-job/)
 
 ## <a name="see-also" />Se også
 

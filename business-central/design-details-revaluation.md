@@ -89,7 +89,7 @@ Ved beregning af det re-revaluerede antal for varer ved brug af kostmetoden Stan
 -   En værdipost med posttypen **Afvigelse**. Denne post registrerer forskellen mellem fakturerede omkostninger og den regulerede standardkostpris.  
 -   En værdipost med posttypen **Værdiregulering af**. Denne post registrerer tilbageførsel af værdireguleringen af de forventede omkostninger.  
 
-### <a name="example" />Eksempel
+### <a name="example-1" />Eksempel
 Følgende eksempel, der er baseret på produktion af kæden i det forrige eksempel, illustrerer, hvordan der oprettes tre typer poster. Den bygger på følgende scenario:  
 
 1.  Brugeren bogfører købte led som modtaget med en kostpris på RV 2,00.  
@@ -123,7 +123,7 @@ Følgende tabel viser de kriterier, der bruges til en vare, der ikke bruger kost
 |E|Senere end reguleringspostnummeret.|Lig med bogføringsdatoen for reguleringen|Ja|  
 |F|Senere end reguleringspostnummeret.|Senere end bogføringsdatoen for reguleringen|Ja|  
 
-### <a name="example" />Eksempel
+### <a name="example-2" />Eksempel
 Følgende eksempel, som illustrerer værdiregulering af en vare, der bruger kostmetoden FIFO, er baseret på følgende scenario:  
 
 1.  Den 01-01-20 bogfører brugeren et køb på 6 enheder.  

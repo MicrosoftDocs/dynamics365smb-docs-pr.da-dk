@@ -54,7 +54,7 @@ Begge metoder har deres egne fordele, og du kan bruge dem samtidig. Hver fremgan
 
 Du kan finde flere oplysninger i [Delegeret administratoradgang til Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="a-namelicensespermissionsaconfigure-permissions-based-on-licenses" /><a name="licensespermissions"></a>Konfigurer tilladelser baseret på licenser
+### <a name="configure-permissions-based-on-licenses" /><a name="licensespermissions"></a>Konfigurer tilladelser baseret på licenser
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -84,7 +84,7 @@ Hvis denne standardkonfiguration ikke er den korrekte opsætning for et bestemt 
 > [!IMPORTANT]
 > Denne tilpasning af tilladelser træder kun i kraft for nye brugere, som du tildeler den relevante licens. Eksisterende brugere opdateres ikke. Det anbefales, at du tilpasser tilladelserne, inden du begynder at tildele brugere licenser i Microsoft 365 Administrationscenter.
 
-### <a name="a-nameadduserato-add-users-or-update-user-information-and-license-assignments-in-business-central" /><a name="adduser"></a>Sådan tilføjer du en bruger eller opdaterer brugeroplysninger og licenstildelinger i Business Central
+### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central" /><a name="adduser"></a>Sådan tilføjer du en bruger eller opdaterer brugeroplysninger og licenstildelinger i Business Central
 
 Når du har tilføjet brugere eller ændret brugeroplysninger i Microsoft 365 Administration, kan du hurtigt importere bruger oplysningerne til [!INCLUDE[prod_short](includes/prod_short.md)]. Importen omfatter licenstildelinger.  
 
@@ -118,7 +118,7 @@ I onlineinstallationer kan du fjerne en brugers adgang til [!INCLUDE[prod_short]
 
 Du kan også fjerne licensen fra en bruger i Microsoft 365 Administration. Brugeren kan derefter ikke logge på. Du kan få flere oplysninger i [Fjerne licenser fra brugere](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="a-namem365asynchronization-with-microsoft-365" /><a name="m365"></a>Synkronisering med Microsoft 365
+### <a name="synchronization-with-microsoft-365" /><a name="m365"></a>Synkronisering med Microsoft 365
 
 Når du fjerner tildelingen af en licens til [!INCLUDE[prod_short](includes/prod_short.md)] for en bruger i Microsoft 365, kan du oprette brugeren i [!INCLUDE[prod_short](includes/prod_short.md)] på to måder.  
 

@@ -36,7 +36,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Få mere at vide om forskellige afskrivningsmetoder for anlægsaktiver. |[Afskrivningsmetoder](fa-depreciation-methods.md) |
 | Få mere at vide om, hvordan du anvender brugerdefinerede afskrivningsmetoder. |[Sådan konfigureres brugerdefinerede afskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Se relateret [Microsoft-træning](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />Se også
 

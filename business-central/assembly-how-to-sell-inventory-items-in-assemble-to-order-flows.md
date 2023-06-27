@@ -47,7 +47,7 @@ I denne procedure skal du erstatte montage efter ordre-mængder med lagerantal p
 > [!CAUTION]  
 > Feltet **Placeringskode** på salgsordren kan være udfyldt på forhånd i henhold til feltet **Pla.kode til ordremontagelev.** eller feltet **Placeringskode til fra-montage** på lokationskortet. I så fald kan feltet **Placeringskode** på salgsordrelinjen være forkert i denne kombination af mængder til montage efter ordre og montage til lager. Det er en god idé at undersøge feltet **Placeringskode** og kontrollere, at placeringen fungerer for alle mængder. Du kan også angive de to forskellige mængder på separate salgsordrelinjer.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

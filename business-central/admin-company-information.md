@@ -28,7 +28,7 @@ Hvis [!INCLUDE [prod_short](includes/prod_short.md)] indeholder flere virksomhed
 
 Der er nogle få funktioner, som du kan bruge til at skifte mellem virksomheder, f.eks. virksomhedsskifteren (<kbd>Ctrl</kbd>+<kbd>O</kbd>). Få mere at vide i [Skifte til et andet firma eller miljø](ui-organization-switch.md).
 
-## <a name="a-namebadgeadisplay-a-company-badge" /><a name="badge"></a>Vise et virksomhedskort
+## <a name="display-a-company-badge" /><a name="badge"></a>Vise et virksomhedskort
 
 Hvis der er mere end ét firma eller miljø, kan du se virksomhedsskifteren øverst til højre på applinjen nær søgeikonet. Som standard bruger virksomhedsskifteren et standardfirmaikon, f.eks ![firmaikonet Starter.](media/ui-experience/company-icon.png "Viser ikonet for virksomhedsskifteren, der bruges, når der er et enkelt miljø") og ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Viser ikonet for virksomhedsskifteren, der bruges, når der er flere miljøer").
 
@@ -54,7 +54,7 @@ Virksomhedsnavnet vises altid i øverste venstre hjørne og fungerer som en hand
 
 Standardbrugeroplevelsen af en [!INCLUDE [prod_short](includes/prod_short.md)]-prøveversion viser ikke alle egenskaber. Du kan skifte til den fulde oplevelse på siden **Virksomhedsoplysninger**. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

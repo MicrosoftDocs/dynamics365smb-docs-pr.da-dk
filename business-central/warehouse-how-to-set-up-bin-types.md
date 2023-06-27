@@ -38,7 +38,7 @@ De placeringstyper, som du kan oprette, er angivet nedenfor.
 |LPLPLUK|Varer på placeringer, der foreslås for både læg-på-lager og pluk-funktioner. Placeringer af denne type har som regel forskellige placeringsniveau. Du kan fastsætte massevareplaceringer til denne placeringstype og give dem lave placeringsniveauer sammenlignet med de almindelige plukplaceringer eller forreste placeringer i plukområdet.|  
 |KK|Denne placering bruges til lagerreguleringer, hvis du angiver placeringen i feltet **Reguleringsplaceringskode** på lokationskortet. Du kan også bruge denne type placeringer til defekte varer og varer, der skal kontrolleres. Du kan flytte varer til den type placering, hvis du ikke vil have, at de indgår i den normale varestrøm.<br /><br /> **BEMÆRK!** I modsætning til alle andre placeringstyper har placeringstypen **KK** ingen af afkrydsningsfelterne til håndtering af varen markeret som standard. Dette angiver, at ethvert indhold, du placerer i en KK-placering er udelukket fra vareforløb.|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-zones-bins" />Se relateret [Microsoft-træning](/training/modules/set-up-zones-bins/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/set-up-zones-bins/)
 
 ## <a name="see-also" />Se også
 

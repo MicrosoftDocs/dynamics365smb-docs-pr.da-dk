@@ -47,7 +47,7 @@ Følgende video giver en grundlæggende beskrivelse af anlægsaktiver.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-transactions" />Se relateret [Microsoft-træning](/training/paths/manage-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/manage-fixed-assets-transactions/)
 
 ## <a name="see-also" />Se også
 
@@ -57,7 +57,7 @@ Følgende video giver en grundlæggende beskrivelse af anlægsaktiver.
 [Blive køreklar](ui-get-ready-business.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

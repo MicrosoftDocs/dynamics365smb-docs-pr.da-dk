@@ -84,7 +84,7 @@ I feltet **Reparationsposter** kan du få vist eller udskrive reparationsposter 
 2. Udfyld felterne efter behov.
 3. Vælg knappen **Udskriv** eller **Vis udskrift**.
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-maintenance-insurances" />Se relateret [Microsoft-træning](/training/paths/manage-fixed-assets-maintenance-insurances/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/manage-fixed-assets-maintenance-insurances/)
 
 ## <a name="see-also" />Se også
 

@@ -158,7 +158,7 @@ Hvis du vil konfigurere omkostningsregulering til at køre automatisk, når du b
 
 De valg, som du foretager i feltet **Automatisk omkostningsregulering**, er vigtige for ydeevne og nøjagtigheden af dine omkostninger. Kortere tidsperioder, som **Dag** eller **Uge**, påvirker systemets ydeevne mindre, fordi de giver de strengere krav, som kun omkostninger, der er bogført i det sidste døgn eller den sidste uge, kan justeres automatisk. Det betyder, at den automatiske kostregulering ikke kører så ofte, og derfor påvirkes systemets ydeevne mindre. Det betyder også, at kostpriser kan være mindre nøjagtige.  
 
-### <a name="example" />Eksempel
+### <a name="example-1" />Eksempel
 
 Følgende eksempel viser et scenario for automatisk justering af kostpris:  
 

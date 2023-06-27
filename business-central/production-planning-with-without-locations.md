@@ -139,7 +139,7 @@ Som det fremgår af det sidste eksempel, kan man kun få det rigtige resultat fo
 
 Hvis du ofte har brug for at planlægge behov på forskellige lokationer, anbefales det derfor at bruge funktionen Lagervarer.
 
-## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics-365-business-central" />Se relateret træning på [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn" />Se relateret træning på [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se også
 

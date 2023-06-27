@@ -49,7 +49,7 @@ Du kan angive dette ved at knytte ansvarscentre til brugere i tre funktionsmodul
 > [!NOTE]  
 > Brugerne kan kun få vist de bogførte dokumenter, der er relateret til deres eget ansvarscenter. De kan dog få vist alle poster og navigere til andre bogførte dokumenter fra posterne.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-responsibility-centers" />Se relateret [Microsoft-træning](/training/modules/set-up-responsibility-centers/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/set-up-responsibility-centers/)
 
 ## <a name="see-also" />Se også
 

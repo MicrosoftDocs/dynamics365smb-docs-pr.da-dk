@@ -66,7 +66,7 @@ Du kan kombinere flere anlægsaktiver til ét anlægsaktiv, f.eks. når du skal 
 2. Udfyld felterne efter behov.
 3. Vælg knappen **Udskriv** eller **Vis udskrift**.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsreclassify-fixed-assets" />Se relateret [Microsoft-træning](/training/paths/reclassify-fixed-assets/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/reclassify-fixed-assets/)
 
 ## <a name="see-also" />Se også
 

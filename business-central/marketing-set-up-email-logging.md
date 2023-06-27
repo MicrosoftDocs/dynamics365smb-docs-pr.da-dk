@@ -55,7 +55,7 @@ Regler for e-mailflow undersøger, om der er specifikke betingelser for meddelel
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] behandler kun meddelelser i mappen Indbakke i den delte postkasse. Hvis en regel flytter meddelelser fra indbakken til en anden mappe, bliver disse meddelelser ikke behandlet. Meddelelser i mappen Uønsket post ignoreres desuden.
 
-## <a name="set-up-includeprodshortincludesprodshortmd-to-log-email-messages" />Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til logføring af mails
+## <a name="set-up--to-log-email-messages" />Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til logføring af mails
 
 Introduktion til maillogføring i to lette trin:
 
@@ -145,14 +145,14 @@ Hvis du ikke bruger Azure Active Directory til at administrere identiteter og ad
 
 ## <a name="to-change-the-user-account-used-for-email-logging" />Sådan ændres den brugerkonto, der bruges til e-mail-logføring
 
-### <a name="includeprodshortincludesprodshortmd-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
+### <a name="-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 1. Log på [!INCLUDE[prod_short](includes/prod_short.md)]-kontoen, med den konto, som det planlagte job kan anvende til at oprette forbindelse til den delte postkasse og behandle mails. Denne konto skal have adgang til både [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange Online.
 2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **E-mail-logføring**, og vælg derefter det relaterede link. 
 3. Vælg **Relateret**, og klik derefter på **Opgavekøpost**.
 4. Genstart **E-mail-logføring**-opgave.
 
-### <a name="includeprodshortincludesprodshortmd-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] lokalt
+### <a name="-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] lokalt
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **E-mail-logføring**, og vælg derefter det relaterede link.
 2. Vælg **Handlinger**, og derefter **Forny token**.

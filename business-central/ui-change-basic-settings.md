@@ -17,7 +17,7 @@ På siden **Mine indstillinger** kan du se og ændre grundlæggende indstillinge
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namerole-centerarole" /><a name="role-center"></a>Rolle
+## <a name="role" /><a name="role-center"></a>Rolle
 
 Rollen bestemmer startsiden, et startskærmbillede, der er designet til behovene for en bestemt rolle i organisationen. Afhængigt af din rolle, startside eller dit rollecenter får du et overblik over virksomheden, din afdeling eller dine personlige opgaver. Du kan også navigere til de daglige opgaver, og find arbejde, der er tildelt til dig.
 
@@ -33,7 +33,7 @@ Standardrollen er **Virksomhedsleder**, men du kan vælge en anden rolle for at 
 2. På siden **Mine indstillinger** skal du i feltet **Rolle** vælge den rolle, du vil bruge som standard. Vælg f.eks **Regnskabsmedarbejder**.
 3. Vælg **OK**.
 
-## <a name="a-namecompanyacompany" /><a name="company"></a>Virksomhed
+## <a name="company" /><a name="company"></a>Virksomhed
 
 En virksomhed fungerer som en beholder for data i [!INCLUDE[prod_short](includes/prod_short.md)]. Der kan være flere virksomheder i en database, men du kan vælge kun ét ad gangen. Standardfirmaet kaldes CRONUS og indeholder kun demonstrationsdata.
 
@@ -53,7 +53,7 @@ The company name is always displayed at the top left corner and works as an acti
 2. In the **Name** field, enter the new company name.
 3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="a-namebadgeato-display-a-company-badge-for-quick-access-to-company-information" /><a name="badge"></a>To display a company badge for quick access to company information
+### <a name="to-display-a-company-badge-for-quick-access-to-company-information" /><a name="badge"></a>To display a company badge for quick access to company information
 
 You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
@@ -63,7 +63,7 @@ You can add a customized badge in the top-right corner, which you can choose to 
 > [!NOTE]
 > If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
-## <a name="a-namework-dateawork-date" /><a name="work-date"></a>Arbejdsdato
+## <a name="work-date" /><a name="work-date"></a>Arbejdsdato
 
 Den mest almindeligt anvendte arbejdsdato er dags dato. Du skal muligvis midlertidigt ændre arbejdsdatoen for at kunne udføre opgaver, f.eks. udføre transaktioner for en dato, der ikke er i dag.
 
@@ -83,11 +83,11 @@ Arbejdsdatoen er afgørende for sider, der kan redigeres. Når arbejdsdatoen ikk
 
 Hvis arbejdsdatoen ikke er sat til den aktuelle dag (i dag), vises den aktuelle arbejdsdato i øverste venstre hjørne af siden, på alle de sider, hvor du kan redigere data.
 
-## <a name="a-nameregiona-region" /><a name="region"></a> Område
+## <a name="region" /><a name="region"></a> Område
 
 Indstillingen **Område** bestemmer, hvordan datoer, klokkeslæt, tal og valutaer vises og formateres. Det bestemmer også, hvilket tegn der bruges som decimalseparator, når du bruger et numerisk tastatur til at indtaste data. Flere oplysninger i [Indtastning af data](ui-enter-data.md#decimal).
 
-## <a name="a-namelanguagea-language" /><a name="language"></a> Sprog
+## <a name="language" /><a name="language"></a> Sprog
 
 Ændrer det viste sprog. Dette felt vises kun, hvis der er mere end ét sprog, du kan vælge mellem.
 
@@ -107,7 +107,7 @@ Vælg linket *Rediger, når jeg modtager notifikationer* for at få vist eller �
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

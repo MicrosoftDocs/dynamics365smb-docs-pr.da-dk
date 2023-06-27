@@ -158,7 +158,7 @@ Brugergrupper, der ikke må bogføre i december, men i januar, hvilket sandsynli
 
 ## <a name="item-charge-scenario" />Scenarie med varegebyr
 
-### <a name="prerequisites" />Forudsætninger
+### <a name="prerequisites-1" />Forudsætninger
 
 Indtast følgende værdier:
 
@@ -184,7 +184,7 @@ Indtast følgende værdier:
 
 - Bogf. tilladt til = Tom  
 
-### <a name="to-test-the-scenario" />Sådan testes scenariet
+### <a name="to-test-the-scenario-1" />Sådan testes scenariet
 
 Test dette scenario ved at udføre følgende trin:
 

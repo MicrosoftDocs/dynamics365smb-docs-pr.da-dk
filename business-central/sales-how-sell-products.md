@@ -91,7 +91,7 @@ De relaterede vare- og debitorposter oprettes nu i systemet, og salgsordren udl�
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/create-sales-documents-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/create-sales-documents-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se også
 

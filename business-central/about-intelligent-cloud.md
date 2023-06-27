@@ -13,13 +13,13 @@ ms.date: 04/12/2021
 ms.author: edupont
 ---
 
-# Intelligent indsigt i [!INCLUDE[prod_short](includes/prod_short.md)] Online
+# <a name="intelligent-insights-in--online" />Intelligent indsigt i [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 Som bruger af [!INCLUDE[prod_short](includes/prod_short.md)] online har du fuld adgang til scenarier, der er baseret på den intelligente sky, f.eks. KPI'er, der er baseret på maskinel indlæring, eller når du får vist dataene i Power BI.  
 
 Men hvis du bruger [!INCLUDE [prod_short](includes/prod_short.md)] i det lokale miljø, har du ikke adgang til den samme indsigt. Hvis du vil benytte online scenarier, skal du migrere til [!INCLUDE [prod_short](includes/prod_short.md)] Online. Du kan finde flere oplysninger i [Overførsel af lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsindholdet for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Visning af indsigt i [!INCLUDE[prod_short](includes/prod_short.md)] Online
+## <a name="viewing-insights-in--online" />Visning af indsigt i [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] Online viser siden **Intelligent skyindsigt** fire vigtige punkter af interesse for de fleste virksomheder:
 
@@ -35,7 +35,7 @@ Ved siden af KPI-diagrammer kan få du indsigt i potentielle problemområder, he
 
 Siden opretter også forbindelse til Power BI, hvor du kan få endnu flere oplysninger. Du kan også vælge at oprette forbindelse til Azure AI for at få endnu mere intelligent indsigt. Du kan finde flere oplysninger i [Udvidelsen Salgs- og lagerprognose](ui-extensions-sales-forecast.md).  
 
-## Se også
+## <a name="see-also" />Se også
 
 [Velkommen til Business Central](welcome.md)  
 [Udvidelser af skymigrering](ui-extensions-data-replication.md)  

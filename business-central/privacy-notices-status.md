@@ -11,7 +11,7 @@ ms.author: a-jaaamir
 ms.date: 07/21/2022
 ---
 
-# <a name="privacy-notices-status-in-includeprodlongincludesprodlongmd" />Status for meddelelser om beskyttelse af personlige oplysninger i [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="privacy-notices-status-in-" />Status for meddelelser om beskyttelse af personlige oplysninger i [!INCLUDE[prod_long](includes/prod_long.md)]
 
 I denne artikel diskuteres, hvad en meddelelse om beskyttelse af personlige oplysninger er, og formålet med Statussiden til **Beskyttelse af personlige oplysninger** i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan også lære, hvordan administratorer kan bruge siden.
 

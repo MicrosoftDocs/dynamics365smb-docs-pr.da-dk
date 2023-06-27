@@ -155,7 +155,7 @@ Du kan ændre værdierne i disse felter, men hvis du markerer feltet **Gælder f
 
 Hvis du angiver en værdi i feltet **Servicetransaktionstypekode**, men ikke vælger feltet **Gælder for serviceerklæring** kan du bogføre dokumentet, men linjen bliver ikke beregnet.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Se relateret træning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Se relateret træning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Se også
 

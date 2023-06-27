@@ -294,7 +294,7 @@ Når du indtaster en post i B1 i anlægskassekladden og markerer afkrydsningsfel
 > [!NOTE]  
 > Du kan ikke bruge samme nummerserie i anlægskassekladden og anlægskladden. Når du bogfører poster i anlægskassekladden, skal feltet **Bilagsnr.** være tomt. Hvis du indtaster et tal i feltet, kopieres tallet i anlægskladden. Du skal manuelt ændre bilagsnummeret, før du kan bogføre kladden.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-depreciation-books" />Se relateret [Microsoft-træning](/training/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/configure-depreciation-books/)
 
 ## <a name="see-also" />Se også
 

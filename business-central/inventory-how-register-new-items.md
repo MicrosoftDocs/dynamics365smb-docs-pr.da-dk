@@ -115,7 +115,7 @@ Når din virksomhed bruger forsynings planlægnings processerne i [!INCLUDE [pro
 
 Du kan finde eksempler på, hvordan du kan bruge felterne i oversigtspanelet **Planlægning**, under [konfigurere bedste fremgangsmåder: planlægningsparametre](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-items" />Se relateret [Microsoft-træning](/training/modules/create-items/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/create-items/)
 
 ## <a name="see-also" />Se også
 

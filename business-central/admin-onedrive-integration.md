@@ -63,7 +63,7 @@ Den assisterede opsætning af **OneDrive** blev introduceret i 2022 udgivelsesb�
 
 Hvis du vil skifte, skal du blot åbne og køre assisteret opsætning af **OneDrive** direkte, eller åbne siden **Opsætning af SharePoint-forbindelse** og vælge **Gå til ny OneDrive-konfiguration** i meddelelsen øverst på siden. Følg opsætningsvejledningen som beskrevet i det foregående afsnit.
 
-## <a name="restoring-onedrive-and-includeprodshortincludesprodshortmd" />Gendannelse af OneDrive og [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="restoring-onedrive-and-" />Gendannelse af OneDrive og [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Som en del af en øvelse i genoprettelse efter nedbrud skal administratorer muligvis gendanne et [!INCLUDE[prod_short](includes/prod_short.md)]-onlinemiljø til en sikkerhedskopi fra et tidspunkt tidligere og synkronisere OneDrive-lageret til det samme tidspunkt. OneDrive indeholder forskellige gendannelsesværktøjer, f.eks. gendannelse af en brugers OneDrive til en tidligere tidsperiode, gendannelse af en tidligere version af en enkelt fil eller gendannelse af slettede filer. Du kan finde flere oplysninger i følgende artikler:
 

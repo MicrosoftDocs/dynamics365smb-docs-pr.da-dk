@@ -50,7 +50,7 @@ Hvis du på siden **Finansopsætning** aktiverer indstillingen **Kræv lande-/om
 
 Du kan kontrollere, hvilken version af [!INCLUDE[prod_short](includes/prod_short.md)] din virksomhed er baseret på, på siden **Hjælp og support**. Hvis du vil basere en virksomhed på en anden version, kan administratoren oprette et nyt produktionsmiljø. Du kan finde flere oplysninger i [Oprette et nyt produktionsmiljø](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) i Indhold til udviklere og it-eksperter.  
 
-## <a name="languages-of-the-includeprodshortincludesprodshortmd-help" />Sprog i [!INCLUDE[prod_short](includes/prod_short.md)] Hjælp
+## <a name="languages-of-the--help" />Sprog i [!INCLUDE[prod_short](includes/prod_short.md)] Hjælp
 
 Hjælp-indholdet til standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] udgives til Microsoft Learn. Indholdet er tilgængeligt på forskellige sprog. Hvis du åbner dokumentationen fra [!INCLUDE[prod_short](includes/prod_short.md)], vises indholdet på dit eget sprog. Hvis en bestemt side som standard endnu ikke er tilgængelig på dit eget sprog, vises den på engelsk.
 

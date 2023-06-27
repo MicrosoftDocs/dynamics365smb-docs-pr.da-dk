@@ -29,7 +29,7 @@ På siden **Workflow** opretter du et workflow ved at angive de involverede trin
    Siden **Workflow** åbnes for et nyt workflow, der indeholder alle oplysninger fra den valgte skabelon. Værdien i feltet **Kode** er udvidet med f.eks. "-01" for at angive, at dette er det første workflow, som oprettes ud fra workflowskabelonen.  
 4. Fortsæt med at oprette workflowet ved at redigere workflowtrinene eller tilføje nye trin. Flere oplysninger i [Oprette workflows](across-how-to-create-workflows.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Se relateret [Microsoft-træning](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Se også
 

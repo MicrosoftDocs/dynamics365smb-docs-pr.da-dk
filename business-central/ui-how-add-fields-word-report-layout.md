@@ -37,7 +37,7 @@ Et datasæt i rapporten kan bestå af felter, der viser navne, data og billeder.
 > [!NOTE]  
 >  Du kan ikke ændre indbyggede rapportlayout<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="a-nameopenxmlparta-to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a> Sådan åbner du den brugerdefinerede XML-del for rapporten i Word
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a> Sådan åbner du den brugerdefinerede XML-del for rapporten i Word
   
 1. Hvis det ikke allerede åbnet, skal du åbne Word-rapportlayoutdokumentet i Word.  
   
@@ -103,7 +103,7 @@ Billeder justeres i øverste venstre hjørne af Indholdsstyringen og får automa
   
 3. Hvis du vil forøge eller formindske størrelsen på billedet, skal du trække et størrelseshåndtag væk fra eller mod midten af indholdskontrolelementet.  
 
-## <a name="a-nameremovefielda-removing-label-and-data-fields" /><a name="RemoveField"></a> Fjerne navne- og datafelter
+## <a name="removing-label-and-data-fields" /><a name="RemoveField"></a> Fjerne navne- og datafelter
 
 Navne- og datafelter i en rapport er indeholdt i indholdskontrolelementer i Word. Følgende figur illustrerer et indholdskontrolelement, når det er markeret i Word-dokumentet.  
 

@@ -53,7 +53,7 @@ Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan du ogs
 > [!NOTE]
 > Hvis du har problemer med at få appen til at fungere korrekt, skal du tale med administratoren. Det kan være en manglende forudsætning eller en ufuldstændig konfiguration. Du kan finde flere oplysninger i [Klargøring af miljø til mobilappen](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) eller [Fejlfinding af Business Central mobile-app'en](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

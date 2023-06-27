@@ -83,7 +83,7 @@ I følgende diagram illustreres de udgående lagerstedsprocesser for forskellige
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Viser trinene i et avanceret udgående lagerstedsflow.":::
 
-### <a name="1-release-a-source-document" />1: Frigiv et kildedokument
+### <a name="1-release-a-source-document-1" />1: Frigiv et kildedokument
 
 Frigivelse af kildedokumenter i avancerede konfigurationer gør det samme som for grundlæggende konfigurationer. Varerne bliver disponible til håndtering på lagerstedet. F.eks. kan de medtages i en forsendelse.  
 

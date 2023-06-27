@@ -80,7 +80,7 @@ Standardkonfigurationspakken understøtter følgende tabeller:
 [Overflytning af QuickBooks Data](ui-extensions-quickbooks-data-migration.md)  
 [Importere flere varebilleder](inventory-how-import-item-pictures.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

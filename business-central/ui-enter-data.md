@@ -63,7 +63,7 @@ Der er flere tastaturgenveje, som du kan bruge til at arbejde uden mus og taste 
 
 Du kan finde flere oplysninger om genveje i [Tastaturgenveje](keyboard-shortcuts.md). Nogle af tastaturgenvejene er beskrevet i denne artikel.
 
-## <a name="a-namequickentryaaccelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Fremskynde dataindtastning ved hjælp af genveje
+## <a name="accelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Fremskynde dataindtastning ved hjælp af genveje
 
 Genvej er en funktion, der er designet til dataindtastning med brug af tastatur. Genvej fungerer på felter (f.eks. på kortider) og i lister (rækker og kolonner). Dette er nyttigt, når du udfører gentagne indtastningsopgaver, som kræver, at der oprettes flere poster i rækkefølge. Det kan f.eks. være en gruppe af salgsordrer eller registrering af nye varer.
 
@@ -125,7 +125,7 @@ Du starter filtrering ved at vælge Ikonet ![Filterrude](media/open-filter-pane-
 
 Filtrering er især nyttig, når du ser og analyserer længere dokumenter. Forestil dig, at du åbner en bogført salgsfaktura. Derefter filtrerer du linjeelementerne, så de viser alle linjeposter, der har en individuel rabat på over 5 %. Eller du kan filtrere for kun at se cykeltilbehør med "pro" i navnet.
 
-## <a name="a-namefocusafocusing-on-line-items" /><a name="Focus"></a>Fokusere på linjevarer
+## <a name="focusing-on-line-items" /><a name="Focus"></a>Fokusere på linjevarer
 
 Når du arbejder med dokumenter, der indeholder en del af en linjevarepost, kan du ændre visningen, så der kun fokuseres på linjevarerne. Dokumenter kan f.eks. være salgsordrer eller fakturasider. Delen af linjeelementer udvides, så den fylder næsten hele arbejdsområdet. Den skjuler andre dele af siden med undtagelse af området med handlinger øverst. Dette layout giver dig et bedre overblik over linjevarerne og giver mere plads til at arbejde med dem.
 
@@ -266,7 +266,7 @@ Her er nogle eksempler.
 
  Tallet 5 konverteres til 5 timer, hvis måleenheden er timer.  
 
-## <a name="a-namedecimalasetting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Angive den decimalseparator, der bruges af numeriske tastaturer
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Angive den decimalseparator, der bruges af numeriske tastaturer
 
 Når du bruger tasten <kbd>Decimalseparator</kbd> på numerisk tastatur til at indtaste data, bestemmes den faktiske decimalseparator, der er angivet i feltet, af områdeindstillingen for Business Central. I de fleste områder bruges punktum (.) eller komma (,) som separator for decimalværdier, som du normalt ville se i valutabeløb. Decimal tasten på tastaturet tilpasses dit område. Det er ofte anderledes end i punktum- eller kommatasterne på resten af tastaturet. Du angiver området i Business Central på siden **Mine indstillinger**.
 
@@ -275,7 +275,7 @@ Antag f.eks., at du bruger et numerisk tastatur, der bruger et punktum (.) som <
 > [!TIP]
 > Der kan være tilfælde, hvor du vil bruge decimalseparatoren til at angive et punktum (.). Antag f. eks., at du har indtastet et datointerval i et filter, `01/01/2022..04/01/2022` eller alt det, der kræver en periode. Hvis du definere dette, skal du vælge tasterne <kbd>Alt</kbd>+<kbd>Decimalseparator</kbd> på det numeriske tastatur. Denne tastekombination indskriver decimalseparatoren mellem en periode og decimalseparatoren, sådan som det er angivet i indstillingen **Region**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

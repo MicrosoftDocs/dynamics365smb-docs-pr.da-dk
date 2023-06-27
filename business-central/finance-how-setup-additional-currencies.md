@@ -124,7 +124,7 @@ Derudover vil beløbene i alle fremtidige poster af samme type være registreret
 > [!NOTE]  
 > Feltet **Ekstra rapporteringsvaluta** vil kun være aktiveret, efter at du har valgt knappen **OK** i kørslen **Reguler eks. rapport.valuta**.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-multiple-currencies-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

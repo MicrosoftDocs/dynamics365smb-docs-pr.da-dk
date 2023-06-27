@@ -83,7 +83,7 @@ Centraliseret installation er en funktion i Microsoft 365 Administration, som du
 
 Når du er færdig, kan du altid ændre installationen i Microsoft 365 Administration, f.eks. ved at tildele flere brugere. Du kan finde flere oplysninger om installation af tilføjelsesprogrammer i Administration under [Installer tilføjelsesprogrammer i Administration](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="a-nameinstallainstall-the-add-in-for-your-own-use" /><a name="install"></a>Installere tilføjelsesprogrammet til eget brug
+## <a name="install-the-add-in-for-your-own-use" /><a name="install"></a>Installere tilføjelsesprogrammet til eget brug
 
 Hvis organisationen tillader det, kan du selv installere det Business Central-tilføjelsesprogram til virksomheden. Kontakt din administrator, hvis du ikke er sikker.
 
@@ -94,7 +94,7 @@ Hvis organisationen tillader det, kan du selv installere det Business Central-ti
 
 Business Central opretter forbindelse til e-mail-serveren og installerer tilføjelsesprogrammet i din Outlook. Det tager ikke lang tid. Du er nu klar til at begynde at bruge tilføjelsesprogrammet i Outlook.
 
-### <a name="a-nameonpremafor-business-central-on-premises" /><a name="onprem"></a>Til Business Central i det lokale miljø
+### <a name="for-business-central-on-premises" /><a name="onprem"></a>Til Business Central i det lokale miljø
 
 Hvis du bruger Business Central lokalt, kan det være en smule anderledes at installere tilføjelsesprogrammet.
 
@@ -116,7 +116,7 @@ Hvis du bruger Business Central lokalt, kan det være en smule anderledes at ins
 
 Du er nu klar til at begynde at bruge tilføjelsesprogrammet i Outlook.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

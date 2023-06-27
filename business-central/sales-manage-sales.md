@@ -53,7 +53,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der d
 |Informer debitorerne om ordreleveringsdatoer ved at beregne enten den første mulige afsendelsesdato eller disponibel til leverings-dato.|[Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)|
 |Løse forvirring, når der findes to eller flere poster for samme debitor.|[Flette dublerede poster](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathssell-items-services-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/sell-items-services-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/sell-items-services-dynamics-365-business-central/).
 
 [Konfigurere salg](sales-setup-sales.md)  
 [Registrere nye debitorer](sales-how-register-new-customers.md)  
@@ -63,6 +63,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der d
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

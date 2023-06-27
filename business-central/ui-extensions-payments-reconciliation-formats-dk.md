@@ -47,7 +47,7 @@ Det kræver nogle trin at komme i gang.
 
 Desuden skal du tildele kreditorer til en indenlandsk **Virksomhedsbogføringsgruppe** og en **Kreditorbogføringsgruppe**. Indstillingen land/område for kreditoren skal være Danmark (DK). Du kan finde flere oplysninger i [Konfigurere bogføringsgrupper](finance-posting-groups.md).  
 
-### <a name="to-allow-includeprodshortincludesprodshortmd-to-export-payment-data" />Sådan tillader du [!INCLUDE[prod_short](includes/prod_short.md)] at eksportere betalingsdata
+### <a name="to-allow--to-export-payment-data" />Sådan tillader du [!INCLUDE[prod_short](includes/prod_short.md)] at eksportere betalingsdata
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udbetalingskladde**, og vælg derefter det relaterede link.  
 2. På siden **Rediger udbetalingskladde** skal du vælge kørslen **Bank**.  

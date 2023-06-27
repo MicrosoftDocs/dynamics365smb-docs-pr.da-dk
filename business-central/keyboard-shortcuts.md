@@ -33,7 +33,7 @@ De fleste genveje er de samme, uanset om operativsystemet er Windows eller macOS
 > [!NOTE]
 > Ud over de globale tastaturgenveje, der er beskrevet i denne artikel, er der en række tilgængelige forretningsspecifikke genveje. I f.eks. den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)], bogfører <kbd>F9</kbd> et dokument, og <kbd>Ctrl</kbd>+<kbd>F7</kbd> viser de finansielle posteringer for en post, når du åbner posten i et kort. Denne artikel indeholder nogle af de mere almindelige forretningsspecifikke genveje, som vises med kursiv. Vær opmærksom på, at de aktuelle genveje kan være anderledes i din løsning. I brugergrænsefladen vises tastaturgenvejene i værktøjstippet for den pågældende handling.
 
-## <a name="a-namekeyboarda-general-keyboard-shortcuts" /><a name="Keyboard"></a> Generelle tastaturgenveje
+## <a name="general-keyboard-shortcuts" /><a name="Keyboard"></a> Generelle tastaturgenveje
 
 I følgende tabel beskrives tastaturgenveje, der kan bruges til navigation og adgang til forskellige elementer på en side. Elementer omfatter ting som handlinger, rullelister, opslag og meget mere. Du kan finde oplysninger om tastaturgenveje til navigation mellem poster, når du er på en liste, i næste afsnit.
 
@@ -90,7 +90,7 @@ I følgende tabel beskrives de tastaturgenveje, som du kan bruge på en listesid
 |*<kbd>Skift</kbd>+<kbd>Ctrl</kbd>+<kbd>F</kbd>*|Send foreslåede linjer på siden med pengestrømskladde.|Ikke tilgængelig.|
 |*<kbd>Skift</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd>*|Få vist serie- og lotnumre, der er tildelt linjeelementet i dokumentet eller kladden.|Ikke tilgængelig.|
 
-### <a name="a-namenavigateshortcutsanavigating-between-rows-and-columns" /><a name="navigateshortcuts"></a>Navigere mellem rækker og kolonner
+### <a name="navigating-between-rows-and-columns" /><a name="navigateshortcuts"></a>Navigere mellem rækker og kolonner
 
 Der findes gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prod_short](includes/prod_short.md)], f.eks. listesider og dele af **Linjer** i dokumenter. Flytning fra én celle til en anden på tværs af et gitter er muligt med tastaturet.
 
@@ -111,7 +111,7 @@ Der findes gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prod_sh
 | <kbd>Tab</kbd> | På en redigerbar liste skal du i den samme række flytte til det næste felt til højre. | Ikke tilgængelig. | 
 | <kbd>Skift</kbd>+<kbd>Tab</kbd> | På en redigerbar liste skal du i den samme række flytte til det forrige felt til venstre. | Ikke tilgængelig. |
 
-### <a name="a-namecopyrowsaselecting-copying-and-pasting" /><a name="CopyRows"></a>Markere, kopiere og indsætte
+### <a name="selecting-copying-and-pasting" /><a name="CopyRows"></a>Markere, kopiere og indsætte
 
 |Vælg disse taster<br />(i macOS)|For at gøre følgende i en listevisning |For at gøre følgende i en feltvisning |
 |--------------------------------|--------------------------|--------------------------|
@@ -129,7 +129,7 @@ Der findes gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prod_sh
 |<kbd>Skift</kbd>+<kbd>Page Down</kbd><br /><br />(<kbd>Skift</kbd>+<kbd>Fn</kbd>+<kbd>Pil op</kbd>)|Udvide markeringen af rækker til at omfatte alle synlige rækker under den aktuelle markering af rækker.|Ikke tilgængelig.|
 |<kbd>F8</kbd>|Kopiere feltet i den samme kolonne i rækken ovenfor og indsætte det i den aktuelle række. Du kan kun gøre dette på lister, der kan redigeres. Med denne genvej efterfulgt af <kbd>Tab</kbd> kan du hurtigt udfylde felterne i linjeelementer, som du vil give den samme værdi som rækken ovenfor.|Ikke tilgængelig.|
 
-### <a name="a-namekeyboardfilterasearching-and-filtering-lists" /><a name="KeyboardFilter"></a>Søge i og filtrere lister
+### <a name="searching-and-filtering-lists" /><a name="KeyboardFilter"></a>Søge i og filtrere lister
 
 |Vælg disse taster<br />(i macOS)|For at gøre følgende|
 |--------------------------------|----------|
@@ -169,7 +169,7 @@ Følgende genvejstaster er tilgængelige på kortsider, f.eks. **Debitorkort**, 
 |<kbd>Skift</kbd>+<kbd>F6</kbd>|Flytte til forrige <kbd>oversigtspanel</kbd> eller del (delside).|
 |*<kbd>Skift</kbd>+<kbd>F9</kbd>*|Bogføre og udskrive et dokument.|
 
-## <a name="a-namequickentryaquick-entry-shortcuts-for-fields" /><a name="QuickEntry"></a>Genvej for felter
+## <a name="quick-entry-shortcuts-for-fields" /><a name="QuickEntry"></a>Genvej for felter
 
 Følgende genveje vedrører genvejsfunktionen i kort, dokumenter og oversigtssider. I lister kan genveje ikke bruges, når listen er i feltvisning. Du kan finde flere oplysninger om genveje i [Fremskynde dataindtastning ved hjælp af genveje](ui-enter-data.md#QuickEntry).
 
@@ -179,7 +179,7 @@ Følgende genveje vedrører genvejsfunktionen i kort, dokumenter og oversigtssid
 |<kbd>Skift</kbd>+<kbd>Enter</kbd>|Bekræfte værdien i det aktuelle felt, og gå til forrige genvejsfelt.||
 |<kbd>Ctrl</kbd>+<kbd>Skift</kbd>+<kbd>Enter</kbd>|Bekræfte værdien i den aktuelle kolonne, og gå til næste genvejsfelt uden for listen.<br /><br />Denne genvej gælder for integrerede lister på en side, f.eks. linjevarer i en salgsordre. Den giver dig mulighed for hurtigt at komme ud af listen og fortsætte med at indtaste data i andre felter på siden.|
 
-## <a name="a-namecalendarshortcutsa-keyboard-shortcuts-in-the-calendar-date-picker" /><a name="calendarshortcuts"></a> Tastaturgenveje i kalenderen (datovælger)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker" /><a name="calendarshortcuts"></a> Tastaturgenveje i kalenderen (datovælger)
 
 Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kalender (datovælger), hvor du kan vælge den ønskede dato. Følgende tabel beskriver tastaturgenvejene for kalenderen.
 
@@ -204,7 +204,7 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 |<kbd>d</kbd>|Angive dags dato. "D" betyder "i dag".|
 |<kbd>a</kbd>|Angive arbejdsdatoen. Du kan finde flere oplysninger i [Arbejdsdato](ui-change-basic-settings.md#work-date).|
 
-## <a name="a-namereportpreviewshortcutsakeyboard-shortcuts-in-the-report-preview" /><a name="reportpreviewshortcuts"></a>Brug af genvejstaster i rapportfremviseren
+## <a name="keyboard-shortcuts-in-the-report-preview" /><a name="reportpreviewshortcuts"></a>Brug af genvejstaster i rapportfremviseren
 
 |Vælg disse taster<br />(i macOS)|For at gøre følgende|
 |--------------------------------|----------|
@@ -218,7 +218,7 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 |<kbd>Page Down</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Pil op</kbd>)|Gå til den næste side i rapporten.|
 |<kbd>Page Up</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Pil op</kbd>)|Gå til den forrige side i rapporten.|
 
-## <a name="a-namezoomshortcutsakeyboard-shortcuts-for-zooming-in-and-out" /><a name="zoomshortcuts"></a>Genvejstaster til at zoome ind og ud
+## <a name="keyboard-shortcuts-for-zooming-in-and-out" /><a name="zoomshortcuts"></a>Genvejstaster til at zoome ind og ud
 
 |Vælg disse taster|For at gøre følgende|
 |--------------------------------|----------|
@@ -226,7 +226,7 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 |<kbd>Ctrl</kbd>+<kbd>-</kbd>|Zoom ud på den aktuelle side.|  
 |<kbd>Ctrl</kbd>+<kbd>0</kbd>|Zoom ind eller ud til 100% på den aktuelle side.|  
 
-## <a name="a-nameroleexplorerakeyboard-shortcuts-for-role-explorer" /><a name="roleexplorer"></a>Tastaturgenveje til Rollestifinder
+## <a name="keyboard-shortcuts-for-role-explorer" /><a name="roleexplorer"></a>Tastaturgenveje til Rollestifinder
 
 Rollestifinder giver dig et overblik og en hurtig adgang til alle de forretningsfunktioner, der er tilgængelige for din rolle. Du kan finde flere oplysninger i [Søge efter sider med Rollestifinder](ui-role-explorer.md).
 
@@ -238,7 +238,7 @@ Rollestifinder giver dig et overblik og en hurtig adgang til alle de forretnings
 |<kbd>Skift</kbd> <kbd>F3</kbd> eller <kbd>Ctrl</kbd>+<kbd>Pil op</kbd>|Flytte fokus til den forrige funktion i rollestifinder.|
 |<kbd>Ctrl</kbd>+<kbd>Skift</kbd>|Du kan udvide eller minimere alle undernoder ud over noder på øverste niveau, når du vælger handlingen **Vis** eller **Skjul**.|
 
-## <a name="a-namekeypada-numeric-keypad-shortcuts" /><a name="keypad"></a> Numeriske tastaturgenveje
+## <a name="numeric-keypad-shortcuts" /><a name="keypad"></a> Numeriske tastaturgenveje
 
 Følgende tabel beskriver tastaturgenvejene på numerisk tastatur.
 

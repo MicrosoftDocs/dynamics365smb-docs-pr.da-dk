@@ -42,7 +42,7 @@ Hvis du anvender poster i forskellige valutaer, skal du oprette finanskonti, hvo
 3. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kreditorbogføringsgrupper**, og vælg derefter det relaterede link.  
 4. I felterne **Valutaudlign.afrnd.kto (deb.)** og **Valutaudlign.afrnd.kto (kre.)** skal du indtaste de relevante finanskonti bogføring af afrundingsdifferencer.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocess-foreign-currency-payments-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

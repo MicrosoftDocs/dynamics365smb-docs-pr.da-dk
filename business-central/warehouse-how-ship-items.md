@@ -115,7 +115,7 @@ Når lagerleverance bogføres, opdateres forskellige felter på salgsordrelinjen
 >
 > Montage efter ordre-antallet håndteres som beskrevet i denne artikel. Lagerantal håndteres som en almindelig lagerleverancelinje. Du kan finde flere oplysninger om kombinationsscenarier i [Om Montage til ordre og Montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/ship-invoice-items-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/ship-invoice-items-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se også
 

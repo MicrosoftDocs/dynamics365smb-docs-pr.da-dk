@@ -38,7 +38,7 @@ Du kan også kontakte [[!INCLUDE[prod_short](includes/prod_short.md)]-salgsteame
 
 Du kan finde flere oplysninger om, hvad du kan gøre med [!INCLUDE [prod_short](includes/prod_short.md)], i afsnittet [Blive klar til at gøre forretninger](ui-get-ready-business.md) og [Forretningsfunktioner](across-business-functionality.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="additional-resources" />Flere ressourcer
 

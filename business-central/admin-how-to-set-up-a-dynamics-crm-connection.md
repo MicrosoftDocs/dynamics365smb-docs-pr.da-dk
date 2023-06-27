@@ -29,7 +29,7 @@ Der er et par oplysninger, som du skal have klar, før du opretter forbindelsen:
 > I fremgangsmåden nedenfor beskrives proceduren for onlineversionen af [!INCLUDE[prod_short](includes/prod_short.md)].
 > Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] on-premises og ikke bruger en Azure Active Directory-konto til at oprette forbindelse til [!INCLUDE [cds_long_md](includes/cds_long_md.md)], skal du også angive brugernavn og adgangskode for en brugerkonto til integrationen. Denne konto kaldes "integrationsbruger"-kontoen. Hvis du bruger en Azure Active Directory-konto, er integrationsbrugerkontoen ikke påkrævet og vises ikke. Integrationsbrugeren konfigureres automatisk og kræver ikke en licens.
 
-## <a name="set-up-a-connection-to-includecdslongmdincludescdslongmdmd" />Konfigurer en forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+## <a name="set-up-a-connection-to-" />Konfigurer en forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 For alle andre godkendelsestyper end Microsoft 365-godkendelse kan du konfigurere forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på siden **Konfiguration af Dataverse-forbindelse**. For Microsoft 365-godkendelse anbefaler vi, at du bruger vejledningen **Opsætning af Dataverse-forbindelse** med assisteret opsætning. Denne vejledning gør det nemmere at oprette forbindelsen og angive avancerede funktioner, f.eks. ejerskabsmodel og indledende synkronisering.  
 
@@ -206,7 +206,7 @@ I følgende trin antages det, at du bruger Azure AD til at administrere identite
    > [!NOTE]
    > Hvis du ikke bliver bedt om at logge på med din administratorkonto, skyldes det sandsynligvis, at pop op-vinduer er blokeret. Du kan logge på ved at tillade pop op-vinduer fra `https://login.microsoftonline.com`.
 
-### <a name="to-disconnect-from-includecdslongmdincludescdslongmdmd" />Sådan afbrydes forbindelsen fra [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+### <a name="to-disconnect-from-" />Sådan afbrydes forbindelsen fra [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Dataverse-forbindelseskonfiguration**, og vælg derefter det relaterede link.
 2. På siden **Dataverse-forbindelsesopsætning** skal du slå **Aktiveret** fra.  

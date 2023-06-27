@@ -112,7 +112,7 @@ I den næste procedure opretter du en sagskladde for Tricia for at bogføre forb
 
 4.  Vælg knappen **OK** for at gemme ændringerne.
 
-## <a name="setting-up-a-job" />Oprettelse af en sag
+## <a name="setting-up-a-job-1" />Oprettelse af en sag
 
  I dette scenarie, har CRONUS vundet en kontrakt med en kunde, Progressive Home Furnishings, om at designe en konference- og spisesal. Kunden har base i USA, og projektet kræver specialsoftware. Projektlederen når frem til en aftale med kunden og opretter en sag, der dækker aftalen.  
 
@@ -258,7 +258,7 @@ Linjerne er nu bogført.
 2.  Vælg handlingen **Statistik**. Du kan gennemgå detaljerede oplysninger om sagspriser, omkostninger og avancer i både lokale og udenlandske valutaer.  
 3.  Vælg knappen **Luk** for at lukke siden **Sagsstatistik**.  
 
-## <a name="handling-fixed-prices" />Håndtere faste priser
+## <a name="handling-fixed-prices-1" />Håndtere faste priser
 
  CRONUS er blevet bestilt til at oprette konferencerum. Som projektleder ønsker Per at have et godt overblik over de opgaver, der er påkrævet for sagen med de tilhørende budgetterede og realiserede omkostninger for hver sag. Derudover vil Prakash gerne kende den samlede kontraktpris for sagen og det beløb, der er faktureret indtil nu. De er nået frem til en aftale med kunden om faste priser for denne sag.  
 
@@ -454,7 +454,7 @@ Følgende procedurer viser, hvordan du opretter et nyt job, angiver priser og de
 
  Denne gennemgang har taget dig gennem nogle af de grundlæggende trin til at arbejde med sager i [!INCLUDE[prod_short](includes/prod_short.md)]. Du har lært, hvordan du opretter en ny sag, kopierer en sag og hvordan du håndterer betalinger. Du har også fået vist en demonstration af, hvordan du kan registrere timer og oprette fakturaer.  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-jobs" />Se relateret [Microsoft-træning](/training/paths/create-jobs/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/create-jobs/)
 
 ## <a name="see-also" />Se også
 

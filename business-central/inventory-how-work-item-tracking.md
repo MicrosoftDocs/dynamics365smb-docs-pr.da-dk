@@ -220,7 +220,7 @@ Ompostering af varesporing for en vare betyder, at et lot- eller serienummer æn
 8. Hvis du vil ændre de eksisterende oplysninger for lot- eller serienummeret, kan du angive lot- eller serieoplysninger.  
 9. Bogfør kladden for at linke de ændrede varesporingsnumre eller udløbsdatoerne til den tilknyttede varepost
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />Se relateret [Microsoft-træning](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also" />Se også
 

@@ -98,7 +98,7 @@ Når du vælger handlingen **Generér finansielle rapporter**, eller næste gang
 
 I en mindre organisation, f.eks. CRONUS-demoregnskabet, kan de fleste brugere redigere kontoplanen, undtagen brugere med en licens som TEAMMEDLEM. I større organisationer bruges roller og tilladelser typisk til at begrænse adgang til redigering af kontoplanen. Hvis du er administrator, eller du har rollen *Forretningschef* eller *Bogholder*, kan du kontrollere tilladelserne for alle brugere for at sikre, at de rette personer har adgang til de relevante tabeller. Du kan finde flere oplysninger i afsnittet [Sådan får du vist en oversigt over en brugers rettigheder](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbusiness-central-configure-general-ledger-setup" />Se relateret [Microsoft-træning](/training/modules/business-central-configure-general-ledger-setup/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/business-central-configure-general-ledger-setup/)
 
 ## <a name="see-also" />Se også
 

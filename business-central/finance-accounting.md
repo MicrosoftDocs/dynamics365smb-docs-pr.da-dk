@@ -11,7 +11,7 @@ ms.search.form: '100, 1156, 1157, 1314, 1315, 1316, 9027'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="accountant-experiences-in-includeprodlongincludesprodlongmd" />Revisoroplevelser i [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="accountant-experiences-in-" />Revisoroplevelser i [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Enhver virksomhed skal føre regnskab og godkende det. Nogle virksomheder benytter en ekstern revisor, mens andre har kvalificerede regnskabsmedarbejdere. Uanset hvilken model du benytter, kan du bruge rollecenteret **Regnskabsmedarbejder** som din startside i [!INCLUDE[prod_short](includes/prod_short.md)]. Herfra kan du få adgang til alle sider, du skal bruge i dit arbejde.  
 
@@ -25,7 +25,7 @@ Hvis du ikke kender [!INCLUDE[prod_short](includes/prod_short.md)], kan du åbne
 
 Hvis du arbejder i flere [!INCLUDE [prod_short](includes/prod_short.md)]-firmaer, kan det være nyttigt at bruge siden **Virksomhedshub** til at holde styr på arbejdet.  Du kan finde flere oplysninger i [Administrer arbejde på tværs af flere firmaer i virksomhedens hub](company-hub.md).  
 
-## <a name="a-nameinviteaccountantainviting-your-external-accountant-to-your-includeprodshortincludesprodshortmd" /><a name="inviteaccountant"></a>Inviter din eksterne revisor indenfor i din [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="inviting-your-external-accountant-to-your-" /><a name="inviteaccountant"></a>Inviter din eksterne revisor indenfor i din [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Hvis du bruger en ekstern revisor til at administrere dine regnskaber og financial reporting, kan din administrator invitere ham eller hende indenfor i din [!INCLUDE[prod_short](includes/prod_short.md)], så de kan samarbejde med dig om dine regnskabsdata. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder tre licenser af typen Ekstern revisor. Du kan finde flere oplysninger om licenser i [Licensvejledning til Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?LinkId=871590).
 
@@ -64,7 +64,7 @@ Hvis din administrator eller videresalgspartner ikke vil bruge guiden **Inviter 
 
 Derefter skal du tildele den nye gæstebruger en licens til [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-includeprodshortincludesprodshortmd" />Sådan giver du din revisor adgang til [!INCLUDE[prod_short](includes/prod_short.md)]
+#### <a name="to-give-your-accountant-access-to-your-" />Sådan giver du din revisor adgang til [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Gå til Azure-portalen, og vælg **Profil**og derefter **Rediger** på den bruger, der netop er tilføjet.
 2. Opdater feltet **Brugsplacering** til det relevante land, og vælg derefter **Gem.**
@@ -78,7 +78,7 @@ Derefter skal du tildele den nye gæstebruger en licens til [!INCLUDE[prod_short
 
 Hvis det lykkes, tildeles licensen til gæstebrugeren, og gæstekontoen oprettes.
 
-### <a name="importing-the-new-user-into-includeprodshortincludesprodshortmd" />Import af den nye bruger til [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="importing-the-new-user-into-" />Import af den nye bruger til [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Revisoren modtager en e-mail, der giver vedkommende besked om, at han eller hun har fået adgang til dit Active Directory. Derefter skal du give vedkommende adgang til den rigtige virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)].
 

@@ -55,7 +55,7 @@ Shopify-connectoren kan ikke bruges til en [indlejret app](/dynamics365/business
 
 ## <a name="what-support-is-offered-for-the-shopify-connector" />Hvilken support tilbydes til Shopify-connector?
 
-### <a name="includeprodshortincludesprodshortmd" />[!INCLUDE[prod_short](../includes/prod_short.md)]
+### [!INCLUDE[prod_short](../includes/prod_short.md)]
 
 Shopify-connectoren er dækket af den aktuelle supportmodel. Du kan finde flere oplysninger i [Teknisk support](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (kun på engelsk).
 

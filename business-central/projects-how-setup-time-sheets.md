@@ -88,7 +88,7 @@ I følgende afsnit beskrives det, hvordan du konfigurerer timesedler, hvis du ik
 > [!NOTE]  
 > Du kan ikke ændre id'et på godkenderen af timesedler, hvis der er timesedler, der endnu ikke er behandlet, og som har statussen **Sendt** eller **Åben**.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Se relateret [Microsoft-træning](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Se også
 

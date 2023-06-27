@@ -17,7 +17,7 @@ Siden **8700-tabeloplysninger** indeholder oplysninger om antallet af poster i a
 
 Disse oplysninger kan være nyttige til fejlfinding i forbindelse med ydeevnen, da du kan se fordelingen af datastørrelse på tværs af tabeller.
 
-## <a name="viewing-table-information" />Sådan ser du tabeloplysninger
+## <a name="viewing-table-information-1" />Sådan ser du tabeloplysninger
 
 Hvis du vil åbne denne side, skal du vælge ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, åbn **Tabeloplysninger**, og vælg derefter det relaterede link.
 

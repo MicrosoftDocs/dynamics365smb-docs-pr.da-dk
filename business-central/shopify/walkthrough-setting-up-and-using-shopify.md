@@ -132,11 +132,11 @@ I **Shopify Admin** skal du notere om, ordren nu er markeret som *opfyldt*. Du k
 
 ## <a name="walkthrough-invite-your-customers-to-your-new-online-store" />Gennemgang: Inviter dine kunder til din nye onlinebutik
 
-### <a name="scenario" />Scenarie
+### <a name="scenario-1" />Scenarie
 
 Når du hurtigt har startet din nye onlinebutik, vil du have de aktuelle kunder til at besøge og begynde at bestille.
 
-### <a name="steps" />Trin
+### <a name="steps-1" />Trin
 
 Gør ét af følgende i [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
@@ -148,11 +148,11 @@ I **Shopify Admin** skal du registrere, om kunderne er blevet indlæst. Åbn en 
 
 ## <a name="walkthrough-fine-tuning-of-item-management" />Gennemgang: Finjustering af varestyring
 
-### <a name="scenario" />Scenarie
+### <a name="scenario-2" />Scenarie
 
 Du vil gerne give processerne større fleksibilitet og styring i forbindelse med håndtering af emner. Du vil forbedre produktbeskrivelsen og gerne tilføje flere gennemsynstrin, før produkterne bliver tilgængelige for kunden.
 
-### <a name="steps" />Trin
+### <a name="steps-2" />Trin
 
 Gør ét af følgende i [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
@@ -241,11 +241,11 @@ I **Shopify-onlinebutik** skal du åbne produktkataloget og finde *ATHENS Desk*-
 
 ## <a name="walkthrough-import-items-from-shopify" />Gennemgang: Indlæs varer fra Shopify
 
-### <a name="scenario" />Scenarie
+### <a name="scenario-3" />Scenarie
 
 Du har allerede en onlinebutik med succes og vil gerne bruge [!INCLUDE[prod_short](../includes/prod_short.md)] som software til erhvervsstyring. Du vil importere så mange data fra Shopify som muligt. 
 
-### <a name="steps" />Trin
+### <a name="steps-3" />Trin
 
 Dette er en fortsættelse af [gennemgang: Start salget af produkter online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). Du kan også prøve med dine egne data, f.eks. Shopify-butik eller sandkasse.
 

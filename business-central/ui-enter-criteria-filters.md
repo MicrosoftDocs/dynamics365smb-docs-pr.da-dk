@@ -77,7 +77,7 @@ Følgende tabel indeholder nogle eksempler, der forklarer, hvordan du kan bruge 
 |`@*man`|Alle poster der slutter med teksten **man**, uanset om der er brugt store eller små bogstaver. F.eks. **Sportsman**, men ikke **Manchester** eller **manual**.|
 
 
-## <a name="a-namefilteringafiltering" /><a name="filtering"></a>Filtrering
+## <a name="filtering" /><a name="filtering"></a>Filtrering
 
 Filtrering giver en mere avanceret og fleksibel må de at kontrollere, hvilke poster der skal vises på en liste eller medtages i en rapport eller XMLport. Der er to vigtige forskelle mellem søgning eller filtrering, som beskrevet i nedenstående tabel.
 
@@ -249,7 +249,7 @@ Når du angiver kriterier, kan du bruge alle de tal og bogstaver, som du plejer 
 |`..1299|1400..`|Medtag poster med et tal mindre end eller lig med 1299, eller tal lig med 1400 eller derover (alle tal undtagen 1300 til og med 1399).|  
 |`>50&<100`|Medtag poster med tal større end 50 og mindre end 100 (tal fra 51 til og med 99).|  
 
-### <a name="a-namesymbolsafiltering-on-values-that-contain-symbols" /><a name="symbols"></a>Filtrere på værdier, der indeholder symboler
+### <a name="filtering-on-values-that-contain-symbols" /><a name="symbols"></a>Filtrere på værdier, der indeholder symboler
 
 Der kan være tilfælde, hvor feltværdier indeholder et af følgende symboler:
 
@@ -302,7 +302,7 @@ Brug `%myvendors` i kreditorfeltet **Nej** til at vise alle poster for kreditore
 |-----------------------|-----------------------|  
 |`%myvendors`|Kreditorer i **Mine kreditorer** i dit rollecenter. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

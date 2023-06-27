@@ -202,7 +202,7 @@ Bogfør reguleringsplaceringsposterne i varekladden for de perioder, du har defi
 5. Vælg **OK**. De positive og negative justeringer lægges sammen for hver vare, og der oprettes linjer i varekladden.  
 6. Bogfør kladdelinjerne for at tilføje afvigelserne i varekladden. Oversigterne på placeringer og vareposter passer nu.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Se relateret [Microsoft-træning](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/adjust-inventory/)
 
 ## <a name="see-also" />Se også
 

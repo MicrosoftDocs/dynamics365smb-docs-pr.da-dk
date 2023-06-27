@@ -31,7 +31,7 @@ Hvis du er interesseret i den komplette liste over tilbud med overholdelse fra M
 [Programoverholdelse](compliance-application-compliance.md)  
 [Certificeringer](compliance-certifications.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -29,13 +29,13 @@ Følgende tabel indeholder en oversigt over opgaver, du typisk udfører for at l
 | Afslutte regnskabsperioder og -år, overføre resultatopgørelsessaldi til balancekonti og bogføre årsafslutningens lukningspost. |[Afslutningregnskab](year-close-books.md) |
 | Udskrive rapporter, der kan være til nytte, når du skal oprette regnskabsopgørelser. |[Forberedelse af ultimoopgørelser](year-prepare-close-statement.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 
 [Arbejd med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

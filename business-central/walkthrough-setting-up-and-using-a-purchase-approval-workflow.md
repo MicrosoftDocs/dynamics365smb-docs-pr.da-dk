@@ -117,7 +117,7 @@ Du definerer arbejdsgangsvariationer ved at udfylde felter om arbejdsganglinjer 
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />Se relateret [Microsoft-træning](/training/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also" />Se også
 

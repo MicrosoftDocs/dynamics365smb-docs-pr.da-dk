@@ -62,7 +62,7 @@ Du kan slette enkelte sidetilpasninger, du har foretaget for en profil. Tilpasni
 
 Layoutet på de valgte sider justeres til de ændringer, du har foretaget.
 
-## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Se relateret [Microsoft-træning](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also" />Se også
 

@@ -83,7 +83,7 @@ En lagermedarbejder kan oprette en ny læg-på-lager-aktivitet baseret på det f
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Se relateret [Microsoft-træning](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also" />Se også
 

@@ -45,7 +45,7 @@ Når du sælger eller på anden måde afhænder et anlægsaktiv, skal salgsværd
 
 Siden **Finansposter** åbnes, og du kan se de poster, som bogføringen af salget har resulteret i.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesdispose-fixed-assets" />Se relateret [Microsoft-træning](/training/modules/dispose-fixed-assets/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/dispose-fixed-assets/)
 
 ## <a name="see-also" />Se også
 

@@ -16,7 +16,7 @@ Virksomheder skal sende salgsfakturaer, kreditnotaer, rentenotaer og rykkere til
 
 Du kan finde flere oplysninger om elektronisk OIOUBL-fakturering i [oioubl.info](http://www.oioubl.info/classes/da/index.html).  
 
-## <a name="implementation-in-includeprodshortincludesprodshortmd" />Implementering i [!INCLUDE[prod_short](../../includes/prod_short.md)]
+## <a name="implementation-in-" />Implementering i [!INCLUDE[prod_short](../../includes/prod_short.md)]
 
 De aktuelle krav til at sende elektroniske fakturaer er baseret på OIOUBL, som er baseret på UBL (Universal Business Language) version 2.0-standarden. Få mere at vide på [OASIS UBL](https://aka.ms/OasisUblSite)-websted. De genererede XML-dokumenter kan derefter sendes til debitoren.  
 

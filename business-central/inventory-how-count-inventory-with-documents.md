@@ -242,7 +242,7 @@ Du kan angive, hvilke rapporter der skal udskrives i forskellige faser, ved at v
 > [!NOTE]
 > De tilgængelige rapporter kan variere afhængigt af dit lands lokalisering. Basisprogrammet indeholder ikke layoutelementer.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Se relateret [Microsoft-træning](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/adjust-inventory/)
 
 ## <a name="see-also" />Se også
 

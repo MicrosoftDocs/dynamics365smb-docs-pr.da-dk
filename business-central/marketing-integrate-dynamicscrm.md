@@ -138,7 +138,7 @@ Hvis du vil synkronisere prislister, skal du på siden **Salgsprisliste** vælge
 [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md)    
 [Oversigt over Sales og Salgshub](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

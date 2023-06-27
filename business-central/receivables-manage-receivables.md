@@ -41,7 +41,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Angive en tolerance, som systemet lukker en faktura efter, også selvom betalingen, inklusive eventuel rabat, ikke fuldt ud dækker beløbet på fakturaen.|[Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Forudsige, hvornår betalinger bliver foretaget for salgsdokumenter. | [Udvidelsen Forudsigelse af forsinket betaling](ui-extensions-late-payment-prediction.md) |
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-customer-vendor-payments-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 [Salg](sales-manage-sales.md)  
@@ -49,7 +49,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

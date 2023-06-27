@@ -146,7 +146,7 @@ Hvis du vil tildele præcis kostprisudligning manuelt, skal du vælge feltet **U
 
 Du kan finde flere oplysninger i [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md).
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" /><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" /><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" /><a name="see-also"></a>Se også
 

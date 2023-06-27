@@ -297,7 +297,7 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
  Dermed er denne gennemgang i, hvordan siden **Find poster** bruges til administration af fejlbehæftede varer sammen med siden **Varesporing**, færdig.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-serial-lot-numbers" />Se relateret [Microsoft-træning](/training/paths/use-serial-lot-numbers/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/use-serial-lot-numbers/)
 
 ## <a name="see-also" />Se også
 

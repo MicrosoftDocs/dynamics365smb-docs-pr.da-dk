@@ -29,7 +29,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Oprette en ordre, regulere forudbetalingsbeløb, og udstede en faktura for forudbetalingsbeløb.|[Oprette forudbetalingsfakturaer](finance-how-to-create-prepayment-invoices.md)|  
 |Udstede en supplerende forudbetalingsfaktura, enten for ekstra varer eller for et ekstra depositum til den oprindelige ordre, eller udstede en forudbetalingskreditnota.|[Rette forudbetalinger](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

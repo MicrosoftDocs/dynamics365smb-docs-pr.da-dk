@@ -30,7 +30,7 @@ Handlinger, sider og rapporter, der stammer fra udvidelser, hentes af Fortæl mi
 
 Sidesøgning er blevet udviklet til Fortæl mig for at hjælpe dig med at få arbejdet gjort hurtigt. Sidesøgning kan kun hjælpe dig med at navigere til sider eller rapporter. På et teknisk plan er Fortæl mig ikke længere baseret på det ældre MenuSuite-princip.
 
-### <a name="i-use-on-premises-includeprodshortincludesprodshortmd-does-that-include-tell-me" />Jeg bruger [!INCLUDE[prod_short](includes/prod_short.md)] til det lokale miljø. Omfatter det Fortæl mig?
+### <a name="i-use-on-premises--does-that-include-tell-me" />Jeg bruger [!INCLUDE[prod_short](includes/prod_short.md)] til det lokale miljø. Omfatter det Fortæl mig?
 
 Du kan bruge Fortæl mig i den lokale webklient til at finde handlinger, sider og rapporter, men ikke apps og konsulenttjenester i AppSource.
 

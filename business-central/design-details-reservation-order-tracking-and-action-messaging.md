@@ -151,7 +151,7 @@ På siden **Produktionsopsætning** er feltet **Komponenter på lokation** indst
 
  ![Andet eksempel på ordresporingsposter i tabellen Reservationspost.](media/supply_planning_RTAM_2.png "forsyningsplanlægning_RTAM_2")  
 
-### <a name="entry-numbers-8-and-9" />Løbenumre 8 og 9
+### <a name="entry-numbers-8-and-9-1" />Løbenumre 8 og 9
  Ordresporingsposter til de to lotter af den komponent, der afspejler behovet i tabel 5407, ændres fra en reservationsstatus **Sporing** til **Overskud**. Årsagen er, at de forsyninger, som de var knyttet til tidligere, i tabel 32, er anvendt af overflytningsordren ved leverancen.  
 
  Ægte overskud, som i dette tilfælde, afspejler overskydende forsyning eller behov, som forbliver ikke-sporet. Det er en indikation af ubalance i ordrenetværket, der genererer en aktionsmeddelelse i planlægningssystemet, medmindre den er løst dynamisk.  

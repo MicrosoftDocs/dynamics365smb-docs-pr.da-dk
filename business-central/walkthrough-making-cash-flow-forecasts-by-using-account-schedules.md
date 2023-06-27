@@ -133,7 +133,7 @@ Ken er nu klar til at tildele kolonnedefinition til finansrapportnavnet.
 2. På siden **Finansrapport** kan du vælge et beløb og derefter få vist pengestrømsprognoseposterne, der udgør beløbet. Derudover kan du få vist den formel, der bruges til at beregne beløbet. Du kan også filtrere beløbene efter dato og dimension.  
 3. Vælg handlingen **Udskriv** for at udskrive pengestrømsprognosen.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

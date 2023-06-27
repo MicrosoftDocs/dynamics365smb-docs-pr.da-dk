@@ -22,7 +22,7 @@ Hver bruger, som udfører lageraktiviteter, skal være defineret som en lagermed
 5. Aktiver til/fra-feltet **Standard** for at definere lokationen som den eneste lokation, hvor medarbejderen kan udføre lageraktiviteter.  
 6. Gentag disse trin for at tildele andre medarbejdere til lokationer eller for at tildele andre lokationer til eksisterende lagermedarbejdere.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Se relateret [Microsoft-træning](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Se også
 

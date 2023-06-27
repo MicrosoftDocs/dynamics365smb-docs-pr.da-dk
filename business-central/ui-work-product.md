@@ -10,7 +10,7 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="work-with-includeprodshortincludesprodshortmd" />Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-" />Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Når du udfører de opgaver, interagerer du med data på forskellige måder, f.eks. når du opretter poster og indtaster data, sorterer og filtrerer data, skriver noter og skriver data til andre programmer.
 
@@ -18,7 +18,7 @@ Du kan f.eks. justere størrelsen og placeringen af en side, udvide bredden af k
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namecheatsheetatips-and-tricks" /><a name="cheatsheet"></a>Tip
+## <a name="tips-and-tricks" /><a name="cheatsheet"></a>Tip
 
 > [!TIP]
 > Hvis du vil have vist en printervenlig oversigt over de mest benyttede funktioner, skal du vælge følgende billede og hente PDF-filen.
@@ -80,7 +80,7 @@ Når du søger efter en åben listeside, f. eks **Salgsordrer**, vises den i Vis
 
 Men når du åbner den samme listeside fra startsiden, er handlingen **Administrer** ikke tilgængelig. I stedet for at åbne en individuel salgsordre skal du blot vælge feltet **Nummer**. I denne visning kan du ikke fastgøre handlingslinjen.  
 
-## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 
@@ -89,7 +89,7 @@ Men når du åbner den samme listeside fra startsiden, er handlingen **Administr
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 [Tip til ydeevne for erhvervsbrugere](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

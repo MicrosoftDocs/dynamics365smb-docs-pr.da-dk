@@ -137,7 +137,7 @@ I dette emne vises et eksempel på, hvordan du definerer allokeringer ved hjælp
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] bruger salgstal fra de foregående år til at beregne andelen af 1596,50 RV med 100 procent for IT-UDSTYR-pakkerne. Det betyder, at alle varer, der er solgt sidste år, tildeles omkostningsobjektet IT-UDSTYR.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/allocate-costs-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/allocate-costs-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

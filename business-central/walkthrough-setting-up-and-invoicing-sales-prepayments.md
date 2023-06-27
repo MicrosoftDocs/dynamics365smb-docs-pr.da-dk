@@ -235,7 +235,7 @@ Du har også bogført en forudbetalingsfaktura, oprettet endnu en forudbetalings
 
 Forudbetalings funktionerne gør det nemmere at oprette og gennemtvinge regler for forudbetaling for debitorer og varer. De giver dig også mulighed for at bogføre hver betaling mod en faktura.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

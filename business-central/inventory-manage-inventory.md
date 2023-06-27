@@ -55,7 +55,7 @@ I følgende tabel beskrives relaterede opgaver.
 |Administrer forretningsaktiviteter på salgskontorer, indkøbsafdelinger eller fabriksplanlægningskontor på tværs af flere lokationer.|[Arbejde med ansvarscentre](inventory-responsibility-centers.md)|
 |Bruge ressourcer med specifikke kvalifikationer til forskellige tjenester og serviceartikler.|[Opsætte ressourceallokering](service-how-setup-resource-allocation.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsget-started-inventory-management" />Se relateret [Microsoft-træning](/training/paths/get-started-inventory-management/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/get-started-inventory-management/)
 
 ## <a name="see-also" />Se også
 
@@ -65,6 +65,6 @@ I følgende tabel beskrives relaterede opgaver.
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

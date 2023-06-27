@@ -49,7 +49,7 @@ Du kan konfigurere forskellige aspekter af arbejdsgangsnotifikationer følgende 
 
   I forbindelse med godkendelsesarbejdsprocesser skal du tilføje et trin i arbejdsgangs svaret for at give afsenderen besked, når anmodningen er godkendt eller afvist. Få mere at vide fra trin 9 i afsnittet [Opret workflows](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Se relateret [Microsoft-træning](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Se også
 

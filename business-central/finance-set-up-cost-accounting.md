@@ -189,7 +189,7 @@ For hver enkelt finanskonto kan du definere standarddimensionsværdier i tabelle
 > [!NOTE]  
 >  For at sikre, at det foruddefinerede omkostningssted og omkostningsemne, du har oprettet i regnskabet, automatisk overføres til omkostningsregnskab, skal du markere afkrydsningsfeltet **Kontroller finansbogføringer** på siden Konfiguration af omkostningsregnskab.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

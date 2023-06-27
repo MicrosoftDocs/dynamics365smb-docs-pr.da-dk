@@ -126,7 +126,7 @@ Når der er noget galt, viser [!INCLUDE[prod_short](includes/prod_short.md)] sid
 > [!NOTE]
 > Den fejlhåndtering, der er beskrevet ovenfor, er ikke tilgængelig i vare-, ressource-, medarbejder- og anlægsaktivkladder eller for finanskonti, der er tilføjet i lokale versioner af bogføringsgrupper.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesposting-groups-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/posting-groups-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/posting-groups-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

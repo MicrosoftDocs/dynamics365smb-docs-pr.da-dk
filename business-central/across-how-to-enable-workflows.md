@@ -22,7 +22,7 @@ På siden **Workflow** oprettes et workflow ved at angive de involverede trin p�
 2. Åbn den arbejdsgang, du vil aktivere.  
 3. Aktiver til/fra-feltet **Aktiveret** på siden **Workflow**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Se relateret [Microsoft-træning](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Se også
 

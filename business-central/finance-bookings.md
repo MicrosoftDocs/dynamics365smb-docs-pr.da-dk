@@ -11,7 +11,7 @@ ms.search.form: '1638, 6702, 6704'
 ms.date: 05/20/2022
 ms.author: edupont
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-includeprodshortincludesprodshortmd" />Massefakturering for Microsoft Bookings i [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="bulk-invoicing-for-microsoft-bookings-in-" />Massefakturering for Microsoft Bookings i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Hvis dit firma bruger Bookings-appen i Microsoft 365, kan du udstede flere fakturaer ad gangen for aftaler. Siden **Ikke-fakturerede Bookings** i [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en oversigt over virksomhedens udførte reservationer. På denne side kan du hurtigt vælge de aftaler, som du vil fakturere, og oprette udkast til fakturaer for de ydede services.  
 

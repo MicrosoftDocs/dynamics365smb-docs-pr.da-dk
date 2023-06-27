@@ -136,7 +136,7 @@ Hvis du gør en placering dedikeret, giver den samme funktion som brug af placer
 > [!NOTE]  
 >  Placeringen skal være tom, før du kan markere eller fjerne markeringen i feltet **Dedikeret**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Se relateret [Microsoft-træning](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Se også
 

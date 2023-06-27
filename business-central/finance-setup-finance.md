@@ -51,7 +51,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 > [!TIP]
 > Nogle Business Central-sider kan indeholde felter, der ikke er beskrevet i de artikler, der er angivet her, fordi de gælder for lokal funktionalitet eller tilpasninger, afhængigt af din geografiske placering. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 
@@ -62,6 +62,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

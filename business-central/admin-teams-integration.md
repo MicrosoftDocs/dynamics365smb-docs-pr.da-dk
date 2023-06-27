@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics365-business-central
 ---
 
-# <a name="managing-microsoft-teams-integration-with-include-prodshortincludesprodshortmd" />Styring af Microsoft Teams-integration med [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="managing-microsoft-teams-integration-with-" />Styring af Microsoft Teams-integration med [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -42,7 +42,7 @@ I dette afsnit beskrives minimumkrav til [!INCLUDE [prod_short](includes/prod_sh
 
     **Indstillingen Tillad URL-prøveversion** skal være aktiveret. I modsat fald kan der ikke oprettes et kort til [!INCLUDE [prod_short](includes/prod_short.md)]-links, der er indsat i en samtale med Teams. Du kan finde flere oplysninger om denne indstilling under [Administrér meddelelsespolitikker i Teams](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the-include-prodshortincludesprodshortmd-app-optional" />Administrerer [!INCLUDE [prod_short](includes/prod_short.md)]-appen (valgfri)
+### <a name="managing-the--app-optional" />Administrerer [!INCLUDE [prod_short](includes/prod_short.md)]-appen (valgfri)
 
 Som Teams-administrator kan du administrere alle apps for din organisation, herunder [!INCLUDE [prod_short](includes/prod_short.md)]-appen. Du kan godkende eller installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen for din organisation, blokere bruger fra installation af appen og meget mere.
 
@@ -51,9 +51,9 @@ Du kan finde flere oplysninger i følgende artikler i Microsoft Teams-dokumentat
 - [Administrere dine apps i Microsoft Teams Administration](/MicrosoftTeams/manage-apps)
 - [Administrere politikker for app-opsætning i Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-include-prodshortincludesprodshortmd" />I [!INCLUDE [prod_short](includes/prod_short.md)]
+## <a name="in-" />I [!INCLUDE [prod_short](includes/prod_short.md)]
 
-### <a name="minimum-requirements" />Minimumkrav
+### <a name="minimum-requirements-1" />Minimumkrav
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] version:
 
@@ -103,7 +103,7 @@ I Microsoft Teams Administration kan du konfigurere Teams App-installation for o
 
 Microsoft Teams indeholder omfattende styring af overholdelse og håndtering af følsomme eller personlige data&mdash;herunder data, som er føjet til chats og kanaler fra [!INCLUDE [prod_short](includes/prod_short.md)]-appen.
 
-### <a name="understanding-where-include-prodshortincludesprodshortmd-cards-are-stored" />Om, hvor [!INCLUDE [prod_short](includes/prod_short.md)]-kort gemmes
+### <a name="understanding-where--cards-are-stored" />Om, hvor [!INCLUDE [prod_short](includes/prod_short.md)]-kort gemmes
 
 Når et kort er sendt til en chat, kopieres kortet og de felter, der vises på kortet, til team. Disse oplysninger er underlagt team politikkerne for organisationen, f.eks. politikker for opbevaring af data. Når der vises kort detaljer, er ingen af dataene i vinduet detaljer gemt i grupper. Dataene gemmes stadig i [!INCLUDE [prod_short](includes/prod_short.md)] og bliver kun hentet af Teams, når brugeren vælger at få vist detaljerne. 
 
@@ -153,7 +153,7 @@ Du konfigurerer indstillingen pr. miljø. Så når du slår postoversigten til e
 [Fejlfinding i Teams](admin-teams-troubleshooting.md)  
 [Udvikling af Teams-integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

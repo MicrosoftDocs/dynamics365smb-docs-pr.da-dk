@@ -69,7 +69,7 @@ Når du bogfører en lagerreduktion, oprettes der en vareudligningspost, der kny
 
 I tabellen **Varepost** viser feltet **Restantal** det antal, som endnu ikke er blevet udlignet. Hvis restantallet er større end 0, vil afkrydsningsfeltet **Åben** være markeret.  
 
-### <a name="example" />Eksempel
+### <a name="example-1" />Eksempel
 Det følgende eksempel viser den vareudligningspost, der oprettes, når du bogfører en salgsleverance på 5 enheder af de varer, der blev modtaget i det forrige eksempel. Den første vareudligningspost er købsleverancen. Den anden udligningspost er salgsleverancen.  
 
 Følgende tabel viser de to vareudligningsposter, der skyldes henholdsvis lagerforøgelsen og lagerreduceringen.  

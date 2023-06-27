@@ -139,7 +139,7 @@ Alle sagsrelaterede poster er registreret i sagsjournaler med fortløbende numme
 
 På siden **Sagsposter** kan du gennemse de poster, der er tilknyttet en sag.  
 
-## <a name="find-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Se relateret [Microsoft-træning](/training/paths/calculate-post-job-wip/)
+## <a name="find-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also" />Se også
 

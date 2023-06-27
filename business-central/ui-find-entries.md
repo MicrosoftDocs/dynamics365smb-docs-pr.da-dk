@@ -46,7 +46,7 @@ Når du har foretaget en markering, skal du indtaste de relevante søgeoplysning
 > [!TIP]
 > Du kan finde et par eksempler på brug af **Find poster** under [Sporing af varesporede elementer](inventory-how-to-trace-item-tracked-items.md) og [Gennemgang: Sporing af serie-/lotnumre](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

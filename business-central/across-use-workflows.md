@@ -64,7 +64,7 @@ Inden du kan bruge workflows, skal du oprette arbejdsgangbrugere, oprette workfl
 | Vis forekomsten af workflowtrin med statussen **Afsluttet**. | [Vise arkiverede forekomster af workflowtrin](across-how-to-view-archived-workflow-step-instances.md) |
 | Slet et godkendelsesworkflow, som du er sikker på ikke længere bruges. | [Slette godkendelsesworkflows](across-how-to-delete-workflows.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Se relateret [Microsoft-træning](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Se også
 

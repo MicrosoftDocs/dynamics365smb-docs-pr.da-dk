@@ -147,7 +147,7 @@ Denne funktionalitet vil være tilgængelig snart. Fra og med februar 2022 vil n
 
 Hvis du har gamle rapporter baseret på Business Central-data, kan der ikke oprettes forbindelse til den skrivebeskyttede database-replika.
 
-### <a name="a-namedatabasemodsaive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>Jeg har prøvet forhåndsversionen af den nye connector til opdatering februar 2022. Når jeg opretter forbindelse til min brugerdefinerede Business Central API-side, får jeg fejlmeddelelsen "Der kan ikke indsættes en post. Den aktuelle forbindelsesmåde er skrivebeskyttet." Hvordan kan jeg løse problemet?
+### <a name="ive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>Jeg har prøvet forhåndsversionen af den nye connector til opdatering februar 2022. Når jeg opretter forbindelse til min brugerdefinerede Business Central API-side, får jeg fejlmeddelelsen "Der kan ikke indsættes en post. Den aktuelle forbindelsesmåde er skrivebeskyttet." Hvordan kan jeg løse problemet?
 
 Med den nye connector vil nye rapporter, der bruger Business Central-data, som standard oprette en skrivebeskyttet replika af Business Central-database. Denne ændring vil bringe en forbedring af ydeevnen. Men i sjældne tilfælde kan det medføre en fejl. Denne fejl opstår typisk, fordi den brugerdefinerede API foretager ændringer af Business Central-poster, mens Power BI prøver at hente dataene. Det sker især som en del af AL triggers: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord og OnAfterGetCurrRecord.
 
@@ -182,7 +182,7 @@ In general, we recommend avoiding any database modifications in API pages when t
 10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
 
 -->
-### <a name="a-namepermsahow-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop" /><a name="perms"></a>Hvordan kan jeg ændre eller rydde den konto, jeg bruger for at oprette forbindelse til Business central fra Power BI Desktop?
+### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop" /><a name="perms"></a>Hvordan kan jeg ændre eller rydde den konto, jeg bruger for at oprette forbindelse til Business central fra Power BI Desktop?
 
 Gør ét af følgende i Power BI Desktop:
 
@@ -237,14 +237,14 @@ Ja. Dette avancerede scenario vil hjælpe Business Central permanent, da dataadg
 
 Vi undersøger denne funktion. Power BI tilbyder omfattende API'er til styring af rapportimplementeringer. Du kan finde flere oplysninger i [Introduktion to installations-pipelines](/power-bi/create-reports/deployment-pipelines-overview).
 
-### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-x0020-what-are-these-values" />Når jeg henter data fra Business central til brug i mine Power BI-rapporter, vises nogle værdier som f. eks. "_x0020_ ". Hvad er disse værdier?
+### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-_x0020_-what-are-these-values" />Når jeg henter data fra Business central til brug i mine Power BI-rapporter, vises nogle værdier som f. eks. "_x0020_ ". Hvad er disse værdier?
 
 Nogle API-sider, herunder de fleste API v 2.0-sider, har felter, der er baseret på [AL Enum-objekter](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Felter, der er baseret på AL enum-objekter, skal have navne, der er ensartede og altid ens, så filtre i rapporten altid fungerer på samme måde - uanset det sprog eller operativsystem, du bruger. Derfor oversættes de felter, der er baseret på AL enum, og de kodes for at undgå specialtegn, inklusive pladsen. Når der er en tom indstilling i AL Enum-objektet, er det især kodet til "_x0020_". Du kan altid anvende en transformation til dine data på Power BI, hvis du vil have vist en anden værdi for disse felter, f. eks. "Empty".
 
 
 ---
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

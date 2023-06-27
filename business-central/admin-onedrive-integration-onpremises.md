@@ -22,7 +22,7 @@ Der er to opgaver, der skal udføres for at konfigurere OneDrive-integrationen.
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] On-Premises kan kun være tilsluttet OneDrive, der er hostet af Microsoft i skyen. Tilslutning af [!INCLUDE[prod_short](includes/prod_short.md)] på stedet til lageret for mit websted for SharePoint-serveren understøttes ikke.
 
-## <a name="a-nameregisterapparegister-an-app-in-azure-ad-for-onedrive-integration" /><a name="registerapp"></a>Registrere en app i Azure AD til OneDrive-integration
+## <a name="register-an-app-in-azure-ad-for-onedrive-integration" /><a name="registerapp"></a>Registrere en app i Azure AD til OneDrive-integration
 
 I denne opgave skal du tilføje et registreret program for Business Central i din Azure AD-lejer med din Microsoft 365-plan. Ligesom andre Azure-tjenester, der fungerer sammen med Business Central, kræver OneDrive en appregistrering i Azure Active Directory (Azure AD). Appregistreringen leverer godkendelses- og autorisationstjenester mellem Business Central og SharePoint, der anvendes af OneDrive.
 
@@ -45,7 +45,7 @@ Når du registrerer programmet, skal du overveje følgende:
 
 - Hvis du bruger Business Central version 19 eller 20, skal du kopiere det **Program-id (klient)** og den **klienthemmelighed**, der bruges af den registrerede app. Du skal bruge disse oplysninger i næste opgave.
 
-## <a name="a-nameurlaget-your-onedrive-url" /><a name="url"></a>Hent din OneDrive-URL-adresse
+## <a name="get-your-onedrive-url" /><a name="url"></a>Hent din OneDrive-URL-adresse
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
@@ -74,7 +74,7 @@ Brug denne fremgangsmåde, hvis du bruger Business Central 2022 udgivelsesbølge
    - Hvis du ikke allerede har installeret den Azure AD-registrerede app, åbnes vejledningen **Konfigurer Azure Active Directory**.
 6. Når den er fuldført, er meddelelsen om beskyttelse af personlige oplysninger for OneDrive-integration accepteret for alle brugere. Hvis du vil ændre den, så brugerne skal acceptere eller afvise den selv, skal du gå til siden **Status for meddelelser om beskyttelse af personlige oplysninger** og vælge **Lad brugeren bestemme** for OneDrive-integrationen. Brugerne bliver derefter bedt om at acceptere eller afvise erklæringen om beskyttelse af personlige oplysninger, første gang de bruger OneDrive-funktionerne. Du kan finde flere oplysninger i [Meddelelser om beskyttelse af personlige oplysninger](privacy-notices-status.md).
 
-## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version-19-and-20" />Konfigurere forbindelsen i [!INCLUDE[prod_short](includes/prod_short.md)] version 19 og 20
+## <a name="set-up-the-connection-in--version-19-and-20" />Konfigurere forbindelsen i [!INCLUDE[prod_short](includes/prod_short.md)] version 19 og 20
 
 Brug denne fremgangsmåde, hvis du bruger Business Central 2022 udgivelsesbølge 1 (version 20) eller 2021 udgivelsesbølge 2 (version 19).
 > [!IMPORTANT]
@@ -106,7 +106,7 @@ Hvis du vil skifte til den nye OneDrive-integration, skal du køre den assistere
 
 Før du begynder med omskiftet, eller mens du gør det, skal du se næste afsnit for at lære mere om nogle aspekter og overvejelser om processen. 
 
-### <a name="a-nameonedrivesetupmigrationaabout-switching-to-the-new-onedrive-integration" /><a name="onedrivesetupmigration"></a>Om at skifte til den nye OneDrive-integration
+### <a name="about-switching-to-the-new-onedrive-integration" /><a name="onedrivesetupmigration"></a>Om at skifte til den nye OneDrive-integration
 
 Ud over OneDrive-integration kan Business Central også integreres med andre servicer, f.eks. Power BI og Universaludskrivning. Integration med disse andre tjenester kræver også en registreret Azure AD-app til godkendelse. Den Azure AD-app, som bruges af disse andre tjenester, er konfigureret i den assisterede opsætning **Konfigurer dine Azure Active Directory-konti**. Når du skifter fra den ældre opsætning af SharePoint-forbindelsen, ændrer den nye assisterede opsætning af **OneDrive** din OneDrive-integration til også at bruge den assisterede opsætning **Konfigurer dine Azure Active Directory-konti**, så alle integrationer bruger den samme Azure AD-app.
 

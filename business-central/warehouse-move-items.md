@@ -36,7 +36,7 @@ Optælling, regulering og ompostering af varer kan omfatte lagerstedsopgaver, de
 |Du kan bruge lagerbevægelseskladden til internt at plukke og lægge elementer på lager i avancerede lageropsætninger med styret pluk og læg på lager.|[Flytte varer i avancerede lageropsætninger](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Omstrukturere lagerstedet med nye placeringskoder og nye karakteristika for placeringer og evt. flytte rundt på dem.|[Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Se relateret [Microsoft-træning](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Se også
 

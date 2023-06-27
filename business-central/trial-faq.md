@@ -44,7 +44,7 @@ Skift til 30-dages prøveversionen, og Tilføj dine egne data. Du kan finde fler
 
 Du kan ikke. Hvis du kommer til at slette eksempeldata, skal du bede administratoren om at oprette et nyt sandkassemiljø. Du kan finde flere oplysninger i [Produktions- og sandkassemiljøer](/dynamics365/business-central/dev-itpro/administration/environment-types) i administrationsindholdet (kun engelsk version).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

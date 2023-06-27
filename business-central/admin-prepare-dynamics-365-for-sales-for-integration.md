@@ -25,7 +25,7 @@ Hvis du allerede har integreret [!INCLUDE[crm_md](includes/crm_md.md)] med [!INC
 > [!NOTE]
 > Hvis du genopretter forbindelsen via [!INCLUDE[prod_short](includes/cds_long_md.md)], anvendes standardindstillingerne for synkroniseringen, og alle konfigurationer, du har angivet, tilsidesættes. Standard-tabeltilknytningerne anvendes for eksempel.
 
-## <a name="integration-settings-that-are-specific-to-a-includecrmmdincludescrmmdmd-integration" />Integrationsindstillinger, der er specifikke for en [!INCLUDE[crm_md](includes/crm_md.md)]-integration
+## <a name="integration-settings-that-are-specific-to-a--integration" />Integrationsindstillinger, der er specifikke for en [!INCLUDE[crm_md](includes/crm_md.md)]-integration
 Integration med [!INCLUDE[prod_short](includes/prod_short.md)] foregår via [!INCLUDE[prod_short](includes/cds_long_md.md)], og der er mange standardindstillinger og -tabeller, som stilles til rådighed af integrationen. Ud over standardindstillingerne er der nogle, der er specifikke for [!INCLUDE[crm_md](includes/crm_md.md)]. I følgende afsnit vises disse indstillinger.
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-sales" />Tilladelser og sikkerhedsroller for brugerkonti i Sales

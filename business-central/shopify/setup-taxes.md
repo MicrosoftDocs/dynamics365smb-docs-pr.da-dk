@@ -89,7 +89,7 @@ I **Shopify Administration** skal du vælge **Medtag eller udelad moms baseret p
 > [!NOTE]
 > Denne indstilling har ikke indflydelse på repræsentation af priser på indenlandske markeder, som styres af **Alle priser inkl. moms**.
 
-### <a name="all-prices-include-tax-is-selected" />Alle priser inkl. moms er valgt
+### <a name="all-prices-include-tax-is-selected-1" />Alle priser inkl. moms er valgt
 
 |-|Indenlandsk salg|Udland, hvor moms er inkluderet i prisen|Udland, hvor moms ikke er inkluderet|
 |------------------------|--------|--------|--------|
@@ -99,7 +99,7 @@ I **Shopify Administration** skal du vælge **Medtag eller udelad moms baseret p
 
 Prisen for hver kunde ændres afhængigt af kundens opholdssted.
 
-### <a name="all-prices-include-tax-is-not-selected" />Alle priser inkl. moms er ikke valgt
+### <a name="all-prices-include-tax-is-not-selected-1" />Alle priser inkl. moms er ikke valgt
 
 |-|Indenlandsk salg|Udland, hvor moms er inkluderet i prisen|Udland, hvor moms ikke er inkluderet|
 |------------------------|--------|--------|--------|

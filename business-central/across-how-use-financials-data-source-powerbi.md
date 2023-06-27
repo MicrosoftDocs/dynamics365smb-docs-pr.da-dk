@@ -11,7 +11,7 @@ ms.date: 09/07/2022
 ms.author: jswymer
 ---
 
-# <a name="building-power-bi-reports-to-display-include-prodlongincludesprodlongmd-data" />Oprette Power BI-rapporter, der viser [!INCLUDE [prod_long](includes/prod_long.md)]-data
+# <a name="building-power-bi-reports-to-display--data" />Oprette Power BI-rapporter, der viser [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
 Du kan gøre dine [!INCLUDE[prod_long](includes/prod_long.md)]-data tilgængelige som datakilde i Power BI Desktop og opbygge nyttige rapporter over status for din virksomhed.
 
@@ -46,7 +46,7 @@ Denne artikel beskriver, hvordan du kan komme i gang med at bruge Power BI Deskt
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="a-namegetdataaadd-includeprodshortincludesprodshortmd-as-a-data-source-in-power-bi-desktop" /><a name="getdata"></a>Tilføje [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop
+## <a name="add--as-a-data-source-in-power-bi-desktop" /><a name="getdata"></a>Tilføje [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop
 
 Den første opgave i oprettelsen af rapporter er at tilføje [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop. Når forbindelsen er oprettet, kan du starte med at generere rapporten.
 
@@ -108,7 +108,7 @@ Det er vigtigt, at du gør dine rapporter brugbare for så mange personer som mu
 
 Du kan oprette rapporter, der vises i en faktaboks på en [!INCLUDE [prod_short](includes/prod_short.md)]-listeside. Rapporterne kan indeholde data om den post, der er valgt på listen. Oprettelse af disse rapporter minder om andre rapporter, men der er nogle ting, du skal gøre for at sikre, at rapporterne vises som forventet. Du kan finde flere oplysninger i [Oprette Power BI-rapporter til visning af listedata i [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="a-namethemeausing-the-include-prodshortincludesprodshortmd-report-theme-optional" /><a name="theme"></a>Brug af [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet (valgfrit)
+## <a name="using-the--report-theme-optional" /><a name="theme"></a>Brug af [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet (valgfrit)
 
 Før du opretter rapporten, anbefales det, at du downloader og importerer [!INCLUDE [prod_short](includes/prod_short.md)]-temafilen. Temafilen opretter en farvepalet, så du kan oprette rapporter med de samme farvenuancer som [!INCLUDE [prod_short](includes/prod_short.md)]-apps, uden at du skal definere brugerdefinerede farver til hvert visuelle element.
 
@@ -180,7 +180,7 @@ Fra og med februar 2022 vil nye rapporter, der bruger Business Central-data, som
 9. Vælg **Udført**.
 10. Vælg **Luk og Anvend** på båndet for at gemme ændringerne og lukke Power Query-editoren.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

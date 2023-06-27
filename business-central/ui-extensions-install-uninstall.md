@@ -22,7 +22,7 @@ Du kan ændre [!INCLUDE[prod_short](includes/prod_short.md)] ved at installere a
 
 Hvis du vil bruge et filtypenavn, skal du have fået tildelt de tilladelsessæt, der følger med.
 
-## <a name="a-nameinstallainstall-an-extension" /><a name="install"></a>Installér en udvidelse
+## <a name="install-an-extension" /><a name="install"></a>Installér en udvidelse
 
 Du kan administrere apps og udvidelser på siden **Udvidelsesstyring**. Du kan åbne siden fra Start. Alternativt kan du vælge ikonet **Søg efter side eller rapport** ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") Skriv **Udvidelse** i øverste højre hjørne , og vælg derefter det relaterede link.  
 
@@ -103,7 +103,7 @@ Når du fjerner en app, som du har brugt dine data, er de som standard ikke slet
 [[!INCLUDE[prod_short](includes/prod_short.md)]-udvidelser fra andre leverandører](ui-extensions-other.md)  
 [Blive køreklar](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

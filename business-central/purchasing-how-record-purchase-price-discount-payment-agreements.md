@@ -139,7 +139,7 @@ Den bedste pris er den lavest tilladte pris med den størst tilladte linjerabat 
 
 Hvis der ikke kan beregnes en særpris for varen på linjen, indsættes seneste indirekte omkostning eller enhedsprisen fra varekortet.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-prices-discounts-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

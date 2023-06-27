@@ -27,7 +27,7 @@ Du kan angive alle relevante oplysninger på siden **Firmaoplysninger**, når du
 
 Når du har udfyldt oplysningerne, kan du lukke siden.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

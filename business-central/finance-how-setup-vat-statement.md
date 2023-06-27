@@ -39,7 +39,7 @@ Når du har defineret en momsangivelse, kan du få vist et eksempel på den for 
 4. På de linjer, hvor der står **Momspostsammentælling** i feltet **Type**, kan du få vist en oversigt over momsposter ved at vælge beløbet i feltet **Kolonnebeløb**.
 5. Du kan bruge tilpasning til at få vist flere felter på linjerne. F.eks. det urealiserede basisbeløb og det urealiserede momsbeløb, hvis du bruger urealiseret moms.
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

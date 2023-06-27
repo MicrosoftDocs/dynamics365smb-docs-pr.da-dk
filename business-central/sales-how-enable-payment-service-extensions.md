@@ -19,7 +19,7 @@ Når du har aktiveret en betalingstjeneste i [!INCLUDE[prod_short](includes/prod
 
 PayPal Payments Standard- og WorldPay Payments Standard-udvidelserne installeres i [!INCLUDE[prod_short](includes/prod_short.md)] og er klar til aktivering.  
 
-## <a name="to-enable-a-payment-service-in-includeprodshortincludesprodshortmd" />Sådan aktiverer du en betalingstjeneste i [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-enable-a-payment-service-in-" />Sådan aktiverer du en betalingstjeneste i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingstjenester**, og vælg derefter det relaterede link.  
 2. På siden **Betalingstjenester** skal du vælge handlingen **Ny**.  
@@ -37,7 +37,7 @@ PayPal Payments Standard- og WorldPay Payments Standard-udvidelserne installeres
     > [!NOTE]  
     > Feltet **Betalingstjeneste** er kun tilgængeligt, hvis du har aktiveret betalingstjenesten.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

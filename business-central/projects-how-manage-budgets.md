@@ -17,7 +17,7 @@ Du kan oprette et budget for hver sag. Budgettet bruges til at planlægge de res
 
 Følgende fremgangsmåde beskriver, hvordan du vurderer budgetterede omkostninger under planlægningen. Du kan finde oplysninger om registrering af budgetterede og faktiske sagspriser og -omkostninger i [Registrere forbrug for sager](projects-how-record-job-usage.md).  
 
-## <a name="a-namejobbudgetcostsa-to-estimate-the-budgeted-costs-for-a-job" /><a name="JobBudgetCosts"></a> Sådan vurderes de budgetterede omkostninger for en sag
+## <a name="to-estimate-the-budgeted-costs-for-a-job" /><a name="JobBudgetCosts"></a> Sådan vurderes de budgetterede omkostninger for en sag
 Når en debitor vil have oplyst prisen for en sag, som faktureres på basis af forbrug, skal du bestemme det budgetterede kostbeløb for sagen. Det gør du på siden **Sagsopgavelinjer**.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
@@ -43,7 +43,7 @@ På siden **Jobkort** , kan du nu se en oversigt over de samlede budgetterede om
 
 Du kan finde oplysninger om registrering af budgetterede og faktiske sagspriser og -omkostninger i [Registrere forbrug for sager](projects-how-record-job-usage.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-job-planning-lines" />Se relateret [Microsoft-træning](/training/modules/set-up-job-planning-lines/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/set-up-job-planning-lines/)
 
 ## <a name="see-also" />Se også
 

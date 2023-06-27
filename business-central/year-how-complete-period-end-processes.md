@@ -57,7 +57,7 @@ ms.author: jswymer
 
 * Udfyld momsangivelser.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/close-fiscal-year-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

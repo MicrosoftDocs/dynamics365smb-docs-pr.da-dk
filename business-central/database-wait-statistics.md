@@ -10,7 +10,7 @@ audience: null
 ms.author: a-jaaamir
 ms.date: 06/15/2022
 ---
-# <a name="database-wait-statistics-in-includeprodlongincludesprodlongmd" />Statistik for databasens ventetider i [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="database-wait-statistics-in-" />Statistik for databasens ventetider i [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Administratorer og udviklere kan få indsigt i databasens ydeevne ved at se på **statistik for databasens ventetider** i [!INCLUDE[prod_short](includes/prod_short.md)]. De oplysninger, der præsenteres af **statistikken over databasens ventetid**, kan være med til at kontrollere, hvilken type ressourcer der anvendes, og hvilke forsinkelser der er i forbindelse med databaseprocesserne. Ved at analysere disse ventestatistikker kan du finde den grundlæggende årsag til, at databasen er langsom, og kan derefter træffe bedre beslutninger til programmets ydeevne.
 

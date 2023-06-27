@@ -170,7 +170,7 @@ I mange lande har Told·Skat-myndighederne etableret ottecifrede varekoder på d
 
 Du skal oprette alle de varekoder, du bruger, på siden **Varekoder**. Koderne skal indsættes på varekortet, før du begynder at bogføre. Når du har oprettet koderne, skal du indtaste dem i feltet **Varekode** felt på varekortet. Du skal også udfylde feltet **Nettovægt** på varekortet.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Se relateret træning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Se relateret træning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Se også
 

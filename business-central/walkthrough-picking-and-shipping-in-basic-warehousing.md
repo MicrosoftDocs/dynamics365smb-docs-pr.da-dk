@@ -135,7 +135,7 @@ På siden **Pluk (lager)** kan du administrere alle udgående lageraktiviteter t
 
     De 30 Amsterdam Lamps er nu registreret som plukket fra placeringerne S-01-0001 og S-01-0002, og der oprettes en negativ varepost, der afspejler den bogførte salgsleverance.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Se relateret [Microsoft-træning](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Se også
 

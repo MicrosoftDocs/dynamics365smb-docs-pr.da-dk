@@ -40,7 +40,7 @@ Power BI-integrationen med [!INCLUDE[prod_short](includes/prod_short.md)] indeho
 
 Du kan også oprette visuelle rapporter, der er baseret på [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af **Microsoft Excel-dokument (kun data)** på rapportanmodningssider. Få mere at vide på [kørsels- og udskriftsrapporter](ui-work-report.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsuse-power-bi" />Se relateret træning på [Microsoft Learn](/learn/paths/use-power-bi).
+## <a name="see-related-training-at-microsoft-learn" />Se relateret træning på [Microsoft Learn](/learn/paths/use-power-bi).
 
 ## <a name="see-also" />Se også
 

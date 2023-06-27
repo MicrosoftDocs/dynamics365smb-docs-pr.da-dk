@@ -47,7 +47,7 @@ I de fleste tilfælde kan du åbne finansposter fra det berørte kort eller doku
 
 Du kan redigere bestemte felter i bogførte købsdokumenter, f. eks **Pakkesporingsnr.** . Du kan finde flere oplysninger i [Redigere bogførte dokumenter](across-edit-posted-document.md). Er det mere kritiske felter, der påvirker overvågningssporet, skal du tilbageføre eller annullere bogføring. Du kan finde flere oplysninger i [Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

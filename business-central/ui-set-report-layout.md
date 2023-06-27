@@ -64,7 +64,7 @@ Der er et par måder at angive det layout, som en rapport bruges på. Der er for
 
 Rapporter er som standard udformet til at bruge et layout. Du kan skifte tilbage til det oprindelige standardlayout fra siden til **valg af rapportlayout**. Vælg rapporten, og vælg derefter **Gendan standardmarkeringshandlingen** øverst på siden.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" /><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" /><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" /><a name="see-also"></a>Se også
 

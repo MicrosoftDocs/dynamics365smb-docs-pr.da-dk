@@ -44,13 +44,13 @@ De foruddefinerede Excel-rapporter er baseret på dataene i det aktuelle regnska
 
 Andre ark i Excel-projektmappen viser dataene bag rapporten. Hvis du vil se, hvad der er bag grupperne i Excel-rapporterne, skal du muligvis filtrere listerne i [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="the-include-prodshortincludesprodshortmd-excel-add-in" />Tilføjelsesprogrammet [!INCLUDE [prod_short](includes/prod_short.md)]-Excel
+## <a name="the--excel-add-in" />Tilføjelsesprogrammet [!INCLUDE [prod_short](includes/prod_short.md)]-Excel
 
 Din [!INCLUDE [prod_short](includes/prod_short.md)]-oplevelse indeholder et tilføjelsesprogram til Excel. Afhængigt af dit abonnement er du logget på automatisk, eller du skal angive de samme login-oplysninger til [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Vise og redigere i Excel fra Business Central](across-work-with-excel.md).  
 
 Med tilføjelsesprogrammet kan du få nye data fra [!INCLUDE [prod_short](includes/prod_short.md)], og du kan overføre ændringerne tilbage i [!INCLUDE [prod_short](includes/prod_short.md)]. Men muligheden for at sende data tilbage til databasen er ikke tilgængelig for de regnskabsrapporter, du kan se i Excel.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

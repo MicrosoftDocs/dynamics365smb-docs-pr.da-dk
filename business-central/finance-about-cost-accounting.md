@@ -68,7 +68,7 @@ På samme måde som ved budgettering i finansmodulet kan du oprette budgetter fo
 
 De fleste rapporter og statistikker er baseret på bogførte omkostningsposter. Du kan angive sorteringen af resultaterne og bruge filtre til at definere, hvilke data, der skal vises. Du kan oprette rapporter for omkostningsfordelingsanalyse. Du kan desuden bruge standardfinansrapporter til at definere, hvordan dine rapporter for diagrammet over omkostningstyper vises.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

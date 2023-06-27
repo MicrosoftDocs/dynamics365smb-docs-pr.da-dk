@@ -181,7 +181,7 @@ Når returleverancer er samlet på en faktura og bogført, oprettes der en bogf�
 2. Udfyld felterne efter behov, og vælg derefter knappen **OK**.  
 3. Du kan også slette de individuelle købsreturvareordrer manuelt.
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 [Køb](purchasing-manage-purchasing.md)  

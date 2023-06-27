@@ -43,7 +43,7 @@ I databaseterminologi kaldes denne funktion ofte for *read scale-out*. Du kan f�
     > [!NOTE]
     > Hvis et objekt, der kan redigeres (f.eks. Kundekort) er **Skrivebeskyttet**, vil den primære database stadig blive brugt, uanset adgangsformålet, så brugerne kan foretage ændringer som normalt.
 
-## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 [Forretningsfunktioner](across-business-functionality.md)  
@@ -51,7 +51,7 @@ I databaseterminologi kaldes denne funktion ofte for *read scale-out*. Du kan f�
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Blive køreklar](ui-get-ready-business.md)    
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -24,7 +24,7 @@ Nedenfor følger en oversigt over trinnene til integration af [!INCLUDE[prod_sho
 
 3. Synkroniser data mellem programmer. Du kan finde flere oplysninger i [Synkronisering af Business Central og Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
-## <a name="getting-started-with-includeprodshortincludescdslongmdmd" />Introduktion til [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## <a name="getting-started-with-" />Introduktion til [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 For at komme i gang med [!INCLUDE[prod_short](includes/cds_long_md.md)] skal du have en Microsoft Power Apps-konto. Hvis du ikke allerede har en Power Apps-konto, kan du få en gratis adresse ved at besøge [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) og vælge hyperlinket **Kom gratis i gang**. Du kan få mere at vide om, hvordan du kommer i gang med [!INCLUDE[prod_short](includes/cds_long_md.md)] i modulet [Kom i gang med Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) fra Microsoft-træning.
 
@@ -57,7 +57,7 @@ Du kan finde flere oplysninger om de enkelte roller, f.eks. tilladelser og adgan
 
 Når forbindelsen opsættes, oprettes de integrationstabeltilknytninger, der er nødvendige for at synkronisere data. Objekter i [!INCLUDE[prod_short](includes/cds_long_md.md)] knyttes til tabeller og tabelfelter i Business Central ved hjælp af integrationstabeller. Få flere oplysninger i [Standard-objekttilknytning til synkronisering](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-model-driven-apps-common-data-service" />Se relateret [Microsoft-træning](/training/modules/use-model-driven-apps-common-data-service/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/use-model-driven-apps-common-data-service/)
 
 ## <a name="see-also" />Se også
 

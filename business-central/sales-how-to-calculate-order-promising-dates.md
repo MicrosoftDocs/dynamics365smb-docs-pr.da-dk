@@ -128,7 +128,7 @@ Før en vare kan indgå i beregningen af ordrebekræftelsen, skal den markeres s
     - Marker **Første m. afs.dato**, hvis du ved, at varen er udgået af lageret og du vil beregne den tidligste dato, varen kan være disponibel ved at afsende en genbestillingsordre.  
 5.  Vælg knappen **Accepter** for at godkende den tidligst tilgængelige afsendelsesdato.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulespromising-sales-order-delivery-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

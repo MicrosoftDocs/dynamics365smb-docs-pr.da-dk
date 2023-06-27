@@ -118,7 +118,7 @@ I kombinationsscenarier, hvor en del af mængden først skal samles, og en anden
 > [!NOTE]  
 > Hvis varerne er monteret efter ordre, opretter lagerpluk for den sammenkædede salgsordre en flytning (lager) for alle montagekomponenter.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Se relateret [Microsoft-træning](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Se også
 

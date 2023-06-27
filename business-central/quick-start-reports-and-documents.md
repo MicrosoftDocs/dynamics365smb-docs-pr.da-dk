@@ -64,7 +64,7 @@ r Den genererede skabelonfil gemmes automatisk i webbrowserens overførselsmappe
 
 Få mere at vide om, hvordan du tilpasser rapporter og dokumenter til dine forretningsbehov i [rapport-og dokumentlayout](ui-manage-report-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleswork-with-reports" />Se relateret træning på [Microsoft Learn](/learn/modules/work-with-reports/).
+## <a name="see-related-training-at-microsoft-learn" />Se relateret træning på [Microsoft Learn](/learn/modules/work-with-reports/).
 
 ## <a name="see-also" />Se også
 

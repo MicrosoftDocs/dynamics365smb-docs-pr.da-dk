@@ -49,7 +49,7 @@ Et nyt felt, **bloker sletning af finanskonti** er blevet føjet til **Finansops
 
 Hvis du angiver en **Blokér sletning af feltet finanskonto** til *Ja*, kan det anses for at være en bedste fremgangsmåde, da datoen i feltet **Kontroller, om finanskonto slettes efter**-feltet f.eks. er den dato, hvor du skal gemme dine finansdata.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 
@@ -65,6 +65,6 @@ Hvis du angiver en **Blokér sletning af feltet finanskonto** til *Ja*, kan det 
 [Oprette og lukke saldi for resultatopgørelse i den spanske version](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)  
 [Indrykke kontoplanen og validere den i den spanske version](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

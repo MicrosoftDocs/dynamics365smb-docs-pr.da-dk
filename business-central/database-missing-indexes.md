@@ -10,7 +10,7 @@ audience: null
 ms.author: a-jaaamir
 ms.date: 06/09/2022
 ---
-# <a name="database-missing-indexes-in-includeprodlongincludesprodlongmd" />Manglende databaseindeks i [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="database-missing-indexes-in-" />Manglende databaseindeks i [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Administratorer og udviklere kan gøre databasen mere effektiv og forbedre programmets ydeevne i sidste ende ved hjælp af oplysninger, der er uddraget af **databasen manglende indeks** i [!INCLUDE[prod_short](includes/prod_short.md)].
 

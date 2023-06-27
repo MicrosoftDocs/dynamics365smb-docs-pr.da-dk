@@ -35,7 +35,7 @@ For slutbrugeren er installationsoplevelsen forskellig for de to installationssc
 
 Med begge disse installationsindstillinger konfigureres tilføjelsesprogrammet automatisk til at oprette forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)]. En tredje installationsindstilling er en manuel installation af tilføjelsesprogrammet direkte fra Excel. Med denne indstilling skal brugerne konfigurere tilføjelsesprogrammet for at oprette forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="a-nameswitchaswitching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Skift fra individuel anskaffelse til centraliseret installation eller omvendt
+### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Skift fra individuel anskaffelse til centraliseret installation eller omvendt
 
 Når du skifter fra individuel anskaffelse af tilføjelsesprogrammet til Centraliseret installation eller omvendt Excel-filer, som brugerne oprettede, før overgangen påvirkes. Efter overgangen kan brugerne stadig åbne alle Excel-regneark, der tidligere er oprettet ved hjælp af handlingen **Rediger i Excel** eller oprettet manuelt ved at konfigurere Excel-tilføjelsesprogrammet. Men de kan ikke opdatere dataene i filen fra Business Central eller skubbe opdateringer til Business Central
 
@@ -87,7 +87,7 @@ Når du er færdig, kan du altid ændre installationen i Microsoft 365 Administr
 > [!NOTE]
 > Det kan tage op til 24 timer, før brugerne af tilføjelsesprogrammet installeres automatisk i Excel af brugere.
 
-## <a name="a-nameinstallaindividual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Individuel anskaffelse: Du kan finde flere oplysninger i installere tilføjelsesprogrammet manuelt til eget brug
+## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Individuel anskaffelse: Du kan finde flere oplysninger i installere tilføjelsesprogrammet manuelt til eget brug
 
 I de fleste tilfælde installeres tilføjelsesprogrammet, når du åbner Excel fra Business Central, enten automatisk for dig, eller du bliver bedt om at installere det. Der kan dog være tilfælde, hvor du skal installere tilføjelsesprogrammet manuelt.
 
@@ -159,7 +159,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 09/07/2022
 ms.author: jswymer
 ---
-# <a name="work-with-include-prodshortincludesprodshortmd-data-in-power-bi" />Arbejde med [!INCLUDE [prod_short](includes/prod_short.md)] data i Power BI
+# <a name="work-with--data-in-power-bi" />Arbejde med [!INCLUDE [prod_short](includes/prod_short.md)] data i Power BI
 
 I denne artikel lærer du nogle af de grundlæggende oplysninger om arbejde med rapporter og dashboards i Power BI, der bruger [!INCLUDE [prod_short](includes/prod_short.md)] som datakilde. I artiklen diskuteres nogle aspekter, som kan hjælpe dig med at komme i gang som [!INCLUDE[prod_short](includes/prod_short.md)]-bruger. Du kan finde generelle retningslinjer og instruktioner i brugen af Power BI i [Power BI-dokumentationen til forbrugerne](/power-bi/consumer).
 
@@ -44,7 +44,7 @@ Vælg Flere indstillinger (...) ud for datasættet i navigationsruden under Data
 
 Du kan finde flere oplysninger i [Konfigurere planlagt opdatering](/power-bi/connect-data/refresh-scheduled-refresh)
 
-## <a name="a-nameuploadaupload-reports-from-files" /><a name="upload"></a>Overføre rapporter fra filer
+## <a name="upload-reports-from-files" /><a name="upload"></a>Overføre rapporter fra filer
 
 Power BI-rapporter kan distribueres blandt brugere som .pbix-filer. Hvis du har en .pbix-fil, kan du overføre filen til et arbejdsområde. Benyt følgende fremgangsmåde for at overføre en rapport:
 
@@ -62,7 +62,7 @@ Du kan finde flere oplysninger i [Overføre rapporten til tjenesten](/power-bi/p
 > [!TIP]
 > Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] online, kan du også overføre en rapport inde fra [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Arbejde med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)] - Overføre rapporter](across-working-with-powerbi.md#upload).
 
-## <a name="a-nameshareashare-reports-with-others" /><a name="share"></a>Dele rapporter med andre
+## <a name="share-reports-with-others" /><a name="share"></a>Dele rapporter med andre
 
 Når en rapport findes i dit arbejdsområde, kan du dele den med andre i din organisation.
 
@@ -71,7 +71,7 @@ Hvis du vil dele en rapport i en listerapport eller i en åben rapport, skal du 
 > [!NOTE]
 > Du skal have [Power BI Pro-licens](/power-bi/service-features-license-type), og det samme gælder de personer, som du deler med. Indholdet skal være i et arbejdsområde med en [Premium-kapacitet](/power-bi/service-premium-what-is). Du kan få flere oplysninger i [Sådan deler du dit arbejde i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

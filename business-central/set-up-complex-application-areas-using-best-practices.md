@@ -26,7 +26,7 @@ Det er vigtigt, at der indtastes korrekte opsætningsværdier fra starten, for a
 [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

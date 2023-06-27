@@ -89,7 +89,7 @@ I stedet for at bruge lagerbevægelsesdokument kan du registrere flytningen af v
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Se relateret [Microsoft-træning](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Se også
 

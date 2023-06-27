@@ -31,7 +31,7 @@ Du kan få flere oplysninger ved at læse om den udvidelse, der passer til din Q
 
 Hvis du er klar til at komme i gang nu, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Assisteret opsætning** og vælg derefter det relaterede link. Vælg **Overflyt forretningsdata**, og følg derefter trinnene i vejledningen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

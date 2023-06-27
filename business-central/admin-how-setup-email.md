@@ -230,7 +230,7 @@ Flere oplysninger om registrering af en app i [Hurtig start: registrere et progr
 > [!NOTE]
 Hvis du har problemer med at bruge den ældre SMTP-protokollen til at sende mail, efter at du har forbundet [!INCLUDE[prod_short](includes/prod_short.md)] med din app-registrering, kan det skyldes, at SMTP-godkendelse ikke er aktiveret for din lejer. Det anbefales, at du i stedet bruger mailforbindelser for Microsoft 365 og Aktuel bruger, fordi de bruger mail-API'er for Microsoft Graph. Hvis du skal bruge SMTP-protokollen, kan du dog aktivere SMTP-godkendelse. Du kan finde oplysninger i [Aktivere eller deaktivere godkendt SMTP-afsendelse for klient (SMTP-godkendelse) i Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
-### <a name="connect-includeprodshortincludesprodshortmd-to-your-app-registration" />Forbinde [!INCLUDE[prod_short](includes/prod_short.md)] med din appregistrering
+### <a name="connect--to-your-app-registration" />Forbinde [!INCLUDE[prod_short](includes/prod_short.md)] med din appregistrering
 
 Når du har registreret programmet i Azure-portalen i [!INCLUDE[prod_short](includes/prod_short.md)], skal du bruge **e-mail-programmets AAD-registrering** vejledning til registrering, der kan oprette forbindelse [!INCLUDE[prod_short](includes/prod_short.md)] til den.
 
@@ -263,7 +263,7 @@ Når du har registreret programmet i Azure-portalen i [!INCLUDE[prod_short](incl
 
 -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-email" />Se relateret [Microsoft-træning](/training/modules/set-up-email/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/set-up-email/)
 
 ## <a name="see-also" />Se også
 

@@ -47,7 +47,7 @@ Du kan manuelt oprette betalingslinjer ved at bruge forfaldsdatoen til at beregn
 > [!NOTE]  
 >   Hvis købsfakturaen er overskredet, bliver bogføringsdatoen indstillet til arbejdsdatoen, og skrifttypen på linjen bliver rød.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessuggest-vendor-payments-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

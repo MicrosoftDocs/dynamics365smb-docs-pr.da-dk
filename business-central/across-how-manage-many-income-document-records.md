@@ -47,7 +47,7 @@ Alle indgående bilagsposter vises, herunder poster, hvor feltet **Behandlet** i
 > [!NOTE]  
 > Du kan også udføre handlingen for den individuelle post på siden **Indgående bilagskort**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
   

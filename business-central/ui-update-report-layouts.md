@@ -38,7 +38,7 @@ Hvis der ikke opstår fejl, anvendes opdateringerne på rapportlayout. Hvis der 
 
  Ændringer til de viste rapportlayout testes, men anvendes ikke på de faktiske rapportlayout. En **Log over rapportlayoutopdatering**-side åbnes og viser status for de mulig opdateringer til hver rapportlayout. Hvis der er fejl i et rapportlayout, kan du åbne rapportlayout direkte til redigering fra meddelelsen for at løse problemer. Du kan finde flere oplysninger i [Rettelse af fejl](ui-update-report-layouts.md#FixErrors).  
 
-## <a name="a-nameupdatelimitationsa-limitations-of-the-custom-report-layout-update" /><a name="UpdateLimitations"></a> Begrænsninger for den brugerdefinerede rapport layoutopdatering
+## <a name="limitations-of-the-custom-report-layout-update" /><a name="UpdateLimitations"></a> Begrænsninger for den brugerdefinerede rapport layoutopdatering
  Der er flere typer ændringer, som den automatisk opdatering kan anvende på brugerdefinerede rapportlayout, f.eks. er et felt, der bruges i layoutet, fjernet fra rapportens datasæt. Men den automatisk opdatering kan ikke håndtere følgende ændringer af et rapportdatasæt.  
 
 1.  Slettede felter, etiketter eller dataelementer.  
@@ -49,7 +49,7 @@ Hvis der ikke opstår fejl, anvendes opdateringerne på rapportlayout. Hvis der 
 
  Hvis der registreres et af disse problemer under opdateringen, kan opdateringen ikke anvendes. Du er nødt til at løse problemerne manuelt, f.eks. ved at redigere rapportlayoutet i Word, eller gennem programmering ved at bruge opgraderingskodeenheder.  
 
-## <a name="a-namefixerrorsa-fixing-errors" /><a name="FixErrors"></a> Rettelse af fejl
+## <a name="fixing-errors" /><a name="FixErrors"></a> Rettelse af fejl
  Hvis du får en fejlmeddelelse, når du opdaterer eller kontrollerer layoutopdateringer, skal du sandsynligvis ændre rapportens layout for at løse problemet. Læs fejlmeddelelsen for at finde årsagen til problemet.  
 
  Det mest almindelige problem opstår, når et felt, der bruges i layoutet, er blevet fjernet fra rapportens datasæt. I dette tilfælde vil du se en linje i den fejlmeddelelse, der angiver, at en vare er blevet fjernet. Du kan løse dette problem ved at ændre layoutet og fjerne det pågældende felt.  
@@ -58,7 +58,7 @@ Hvis der ikke opstår fejl, anvendes opdateringerne på rapportlayout. Hvis der 
 
 Når du ændrer layoutet, kan du prøve at opdatere layoutet igen.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
  [Administration af rapportlayout](ui-manage-report-layouts.md)  

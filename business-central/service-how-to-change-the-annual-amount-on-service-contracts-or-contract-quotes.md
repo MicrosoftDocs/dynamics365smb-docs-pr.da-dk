@@ -75,7 +75,7 @@ Hvis du ændrer det årlige beløb i servicekontrakten eller kontrakttilbuddet, 
 
 Trinnene gentages for hver kontraktlinje.  
 
-#### <a name="example" />Eksempel
+#### <a name="example-1" />Eksempel
 Afkrydsningsfeltet **Tillad beløb, der ikke stemmer** er ikke markeret i den servicekontrakt, der indeholder tre kontraktlinjer med følgende oplysninger.  
 
 |Vare|Linjekostpris|Linjeværdi|Linjerabatpct.|Linjerabatbeløb|Linjebeløb|Avance|  
@@ -113,7 +113,7 @@ Hvis du ændrer det årlige beløb i servicekontrakten eller kontrakttilbuddet, 
     * Linjerabatprocent = Linjerabatbeløb/Linjeværdi * 100.  
     * Avance = Linjebeløb - Linjekostpris  
 
-#### <a name="example" />Eksempel
+#### <a name="example-2" />Eksempel
 Afkrydsningsfeltet **Tillad beløb, der ikke stemmer** er ikke markeret i den servicekontrakt, der indeholder tre kontraktlinjer med følgende oplysninger.  
 
 |Vare|Linjekostpris|Linjeværdi|Linjerabatpct.|Linjerabatbeløb|Linjebeløb|Avance|  

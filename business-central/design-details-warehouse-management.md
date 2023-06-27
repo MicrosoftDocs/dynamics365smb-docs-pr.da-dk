@@ -231,7 +231,7 @@ Når der plukkes varer efter FEFO-metoden, samles de tilgængelige varer, der ud
 
 Læg-på-lager-skabelonen angiver en række prioriterede regler, der skal overholdes ved oprettelse af læg-på-lager-aktiviteter. En læg-på-lager-skabelon kan f. eks. kræve, at du anbringer varer på en placering med placeringsindhold, der har samme ENHEDsindhold. Hvis der ikke findes en lignende placering med tilstrækkelig kapacitet, skal varen placeres på en tom placering. Læg-på-lager-skabelonen kan tildeles til en vare og en lokation.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Se relateret [Microsoft-træning](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Se relateret [Microsoft-træning](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Se også
 
@@ -239,6 +239,6 @@ Læg-på-lager-skabelonen angiver en række prioriterede regler, der skal overho
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

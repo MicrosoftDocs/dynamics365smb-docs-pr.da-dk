@@ -11,7 +11,7 @@ ms.date: 10/01/2021
 ms.author: jswymer
 ---
 
-# <a name="troubleshooting-microsoft-teams-integration-with-include-prodshortincludesprodshortmd" />Fejlfinding af Microsoft Teams-integration med [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="troubleshooting-microsoft-teams-integration-with-" />Fejlfinding af Microsoft Teams-integration med [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -182,7 +182,7 @@ Dette problem skyldes sandsynligvis, at du har delt en listevisning, som er en p
 [Ændring af virksomhed og andre indstillinger i Teams](across-teams-settings.md)  
 [Udvikling af Teams-integration](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="included365finincludesfreetrialmdmd" />[!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

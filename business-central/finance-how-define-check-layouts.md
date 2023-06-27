@@ -70,7 +70,7 @@ Følgende opsummerer specifikationer for de MICR CMC-7-skrifttyper, som kan vær
 
 ![MICR CMC-7-specifikationer.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7-specifikationer")
 
-### <a name="delimiter-characters" />Afgrænsningstegn
+### <a name="delimiter-characters-1" />Afgrænsningstegn
 
 ![Afgrænsningstegn for CMC-7.](media/font-cmc7-letters.png "Afgrænsningstegn for CMC-7")
 
