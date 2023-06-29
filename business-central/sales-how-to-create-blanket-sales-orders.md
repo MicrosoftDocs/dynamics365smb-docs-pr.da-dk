@@ -10,7 +10,7 @@ ms.search.form: '507, 509, 6620, 6622, 6623, 9303, 9310'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbejde med rammesalgsordrer eller rammekøbsordrer
+# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a><a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbejde med rammesalgsordrer eller rammekøbsordrer
 
 En rammesalgsordre udgør rammen om en langsigtet aftale mellem dig og en kunde. På samme måde kan du bruge rammekøbsordrer til at styre langsigtede aftaler mellem dig og leverandøren.
 
@@ -23,7 +23,7 @@ Det kan f.eks. være relevant at bruge en rammesalgsordre, når en kunder ringer
 > [!NOTE]
 > Rammekøbsordrer fungerer på samme måde som rammesalgsordrer. Denne dokumentation dækker kun rammesalgsordrer.
 
-## <a name="to-create-a-blanket-sales-order"></a>Sådan oprettes en rammesalgsordre.
+## <a name="to-create-a-blanket-sales-order"></a><a name="to-create-a-blanket-sales-order"></a>Sådan oprettes en rammesalgsordre.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rammesalgsordrer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -31,7 +31,7 @@ Det kan f.eks. være relevant at bruge en rammesalgsordre, når en kunder ringer
 4. Lad feltet **Ordredato** være tomt. Når de enkelte salgsordrer oprettes på basis af rammeordren, angives salgsordrens ordredato til den faktiske arbejdsdato.
 5. I oversigtspanelet **Linjer** skal du oprette separate linjer for hver enkelt leverance. Hvis kunden f.eks. skal have 1000 enheder fordelt jævnt over fire uger, kan du angive fire separate linjer på 250 enheder hver.  
 
-## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Sådan oprettes en salgsordre med udgangspunkt i en rammesalgsordre
+## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a><a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Sådan oprettes en salgsordre med udgangspunkt i en rammesalgsordre
 
 1. Når du skal oprette en ordre til en af linjerne i rammesalgsordren, skal du fjerne antallet i feltet **Lever (antal)** på alle de linjer, som ikke skal leveres på nuværende tidspunkt.  
 2. Når du er klar til at oprette ordrer, skal du vælge handlingen **Lav ordre** og derefter vælge **Ja**. Der vises en meddelelse med besked om, at rammeordren har fået tildelt et ordrenummer. Bemærk, at rammeordren ikke er slettet.  
@@ -50,7 +50,7 @@ Følgende gælder for salgsordrer, når de er oprettet ud fra rammesalgsordrer:
 - Den fakturerede rammesalgsordre bliver liggende i systemet, indtil den slettes, enten ved sletning af bestemte rammesalgsordrer eller ved at køre kørslen **Slet fakturerede rammesalgsordrer**.  
 - Hvis en kunde også er registreret som kontakt i modulet Marketing, og du har angivet en interaktionsskabelonkode for rammesalgsordrer på siden **Marketingopsætning**, registreres der en interaktion i tabellen Interaktionslogpost, når du vælger **Udskriv** for at udskrive rammesalgsordrerne.
 
-## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Sådan vises en rammesalgsordres status
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a><a name="to-view-the-status-of-a-blanket-sales-order"></a>Sådan vises en rammesalgsordres status
 
 Du kan se den aktuelle status for en rammesalgsordre på siden **Statistik over rammesalgsordrer**. Dette kan være relevant, når du begynder at fakturere den ordre, der er oprettet fra rammesalgsordren.  
 
@@ -63,7 +63,7 @@ Du kan se den aktuelle status for en rammesalgsordre på siden **Statistik over 
 - I oversigtspanelet **Forudbetaling** kan du se en oversigt med oplysninger om alle forudbetalte beløb.  
 - Oversigtspanelet **Kreditor** indeholder forskellige stamoplysninger om kreditoren.
 
-## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Sådan vises ikke-bogførte og bogførte rammesalgsordrelinjer
+## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a><a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Sådan vises ikke-bogførte og bogførte rammesalgsordrelinjer
 
 Sammenkædningen mellem rammesalgsordre og den oprindelige salgsordre og ethvert andet salgsbilag bevares efter bogføring som en liste over bogførte og ikke-bogførte salgsordrefakturalinjer.  
 
@@ -89,9 +89,9 @@ Sammenkædningen mellem rammesalgsordre og den oprindelige salgsordre og ethvert
 
 5. På siden **Salgslinjer** skal du vælge handlingen **Vis dokument** for at få vist posten.
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
 [Oprette rammemontageordrer](assembly-how-to-create-blanket-assembly-orders.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: 'migration, Excel'
 ms.date: 05/10/2022
 ms.author: edupont
 ---
-# <a name="import-business-data-from-other-finance-systems"></a>Importere virksomhedsdata fra andre økonomisystemer
+# <a name="import-business-data-from-other-finance-systems"></a><a name="import-business-data-from-other-finance-systems"></a>Importere virksomhedsdata fra andre økonomisystemer
 
 Når du tilmelder dig [!INCLUDE[prod_short](includes/prod_short.md)], kan du oprette en tom virksomhed, så du kan overføre dine egne data og teste den nye virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)]. Afhængigt af hvilket økonomisystem, som virksomheden benytter i dag, kan du overføre oplysninger om debitorer, kreditorer, lagerbeholdning og bankkonti.  
 
@@ -21,11 +21,11 @@ Fra rollecenteret kan du starte en assisterede opsætningsvejledning for at over
 > [!TIP]  
 > Vi anbefaler at du bruger dataoverførselsguiderne til at importere data fra Dynamics GP, Dynamics NAV eller QuickBooks. Du kan finde flere oplysninger i [Overførsel af lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsindholdet eller [Overførsel af QuickBooks-data](ui-extensions-quickbooks-data-migration.md).
 
-## <a name="work-with-data-in-excel"></a>Arbejde med data i Excel
+## <a name="work-with-data-in-excel"></a><a name="work-with-data-in-excel"></a>Arbejde med data i Excel
 
 Du kan føje Excel til at behandle eksisterende budgetposter i [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Vise og redigere i Excel fra Business Central](across-work-with-excel.md).  
 
-## <a name="import-data-from-configuration-packages"></a>Importere data fra konfigurationspakker
+## <a name="import-data-from-configuration-packages"></a><a name="import-data-from-configuration-packages"></a>Importere data fra konfigurationspakker
 
 Du kan konfigurere løsningsspecifikke konfigurationspakker for større implementeringsopgaver. Du kan finde flere oplysninger i [Oprette konfigurationspakker for virksomheder](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) (kun på engelsk) i indholdet til administratorer.  
 
@@ -42,7 +42,7 @@ Når du eksporterer standardkonfigurationspakken til Excel, indeholder den proje
 > [!NOTE]
 > Felter af typen Blob kan ikke eksporteres/importeres ved hjælp af Excel.
 
-### <a name="tables-in-the-default-configuration-package"></a>Tabeller i standardkonfigurationspakken
+### <a name="tables-in-the-default-configuration-package"></a><a name="tables-in-the-default-configuration-package"></a>Tabeller i standardkonfigurationspakken
 
 Standardkonfigurationspakken understøtter følgende tabeller:
 
@@ -73,7 +73,7 @@ Standardkonfigurationspakken understøtter følgende tabeller:
 - Salgspris
 - Købspris
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Overførsel af data i det lokale miljø til Business Central Online (kun på engelsk)](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Konfigurere virksomhedskonfigurationspakker](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)  

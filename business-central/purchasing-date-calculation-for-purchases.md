@@ -11,7 +11,7 @@ ms.search.forms: null
 ms.date: 10/28/2022
 ms.author: bholtorf
 ---
-# <a name="calculate-dates-for-purchases"></a>Beregning af forfaldsdato for køb
+# <a name="calculate-dates-for-purchases"></a><a name="calculate-dates-for-purchases"></a>Beregning af forfaldsdato for køb
 
 Hvis du vil have varer fra lageret på eb bestemt dato, kan [!INCLUDE[prod_short](includes/prod_short.md)] automatisk beregne den dato, hvor du skal bestille varen. 
 
@@ -26,7 +26,7 @@ Modtagelsesdatoen er også den dato, hvor varerne er disponible til pluk.
 > [!TIP]
 > Som standard er mange af de datofelter, som denne artikel nævner, skjult på indkøbsordrelinjer. Hvis et felt ikke er tilgængeligt, kan du tilføje det ved at tilpasse siden. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
-## <a name="calculating-with-a-requested-receipt-date"></a>Beregning med en ønsket modtagelsesdato
+## <a name="calculating-with-a-requested-receipt-date"></a><a name="calculating-with-a-requested-receipt-date"></a>Beregning med en ønsket modtagelsesdato
 
 Hvis der står en ønsket modtagelsesdato på købslinjen, bruges denne dato som udgangspunkt for følgende beregninger.  
 
@@ -38,7 +38,7 @@ Hvis du angiver en ønsket modtagelsesdato på en købsordrelinje, tildeles denn
 > [!NOTE]
 > Hvis processen er baseret på bagudrettet beregning, f.eks. hvis du bruger den ønskede modtagelsesdato til at hente ordredatoen, anbefales det, at du bruger datoformler med faste varigheder, f.eks. "5D" for fem dage eller "1U" for én uge. Datoformler uden faste varigheder, f.eks. "AU" for aktuelle uge eller AM for den aktuelle måned, kan resultere i forkerte datoberegninger. Du kan finde flere oplysninger om datoformler i [Arbejde med kalenderdatoer og-klokkeslæt](ui-enter-date-ranges.md).
 
-## <a name="calculating-without-a-requested-receipt-date"></a>Beregne uden en ønsket modtagelsesdato
+## <a name="calculating-without-a-requested-receipt-date"></a><a name="calculating-without-a-requested-receipt-date"></a>Beregne uden en ønsket modtagelsesdato
 
 Hvis du angiver en købslinje uden en ønsket modtagelsesdato, udfyldes feltet **Ordredato** automatisk med datoen fra feltet **Ordredato** på købshovedet. Denne dato kan enten være en indtastet dato eller arbejdsdatoen. Med ordredatoen som udgangspunkt beregnes datoer derefter automatisk til købsordrelinjen, som følger:  
 
@@ -47,7 +47,7 @@ Hvis du angiver en købslinje uden en ønsket modtagelsesdato, udfyldes feltet *
 
 Hvis du ændrer ordredatoen på linjen, genberegner [!INCLUDE[prod_short](includes/prod_short.md)] de andre datoer.  
 
-## <a name="default-values-for-lead-time-calculation"></a>Standardværdier for beregning af leveringstid
+## <a name="default-values-for-lead-time-calculation"></a><a name="default-values-for-lead-time-calculation"></a>Standardværdier for beregning af leveringstid
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bruger datoformularen i feltet **Leveringstid** på købsordrelinjen til at beregne ordren og de forventede modtagelsesdatoer.  
 
@@ -58,9 +58,9 @@ Du kan angive datoformlen manuelt på linjerne. Ellers bruger [!INCLUDE[prod_sho
 3. Lagervarekort
 4. Leverandørkort (Kreditor)
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Beregning af forfaldsdato for salg](sales-date-calculation-for-sales.md)  
 [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  

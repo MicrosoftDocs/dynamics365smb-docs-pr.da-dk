@@ -8,21 +8,21 @@ ms.search.form: 'Report_311, Report_312, Report_313, Report_320, Report_709, Rep
 ms.date: 06/01/2021
 ms.author: andreipa
 ---
-# <a name="purchase-reports-and-analytics-in-business-central"></a>Købsrapporter og analyser i Business Central
+# <a name="purchase-reports-and-analytics-in-business-central"></a><a name="purchase-reports-and-analytics-in-business-central"></a>Købsrapporter og analyser i Business Central
 
 Købsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gør det muligt for indkøbs-og erhvervs medarbejdere at få indsigt i og statistikker om aktuelle og tidligere montageaktiviteter.  
 
-## <a name="reports"></a>Rapporter
+## <a name="reports"></a><a name="reports"></a>Rapporter
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## <a name="tasks"></a>Opgaver
+## <a name="tasks"></a><a name="tasks"></a>Opgaver
 I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med analyse af virksomhedens tilstand:
 
 * [Oprette analyserapporter](bi-how-create-analysis-views-reports.md)  
 * [Vise varedisponering](inventory-how-availability-overview.md)  
 
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
 [Køb](purchasing-manage-purchasing.md)  
 

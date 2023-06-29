@@ -10,7 +10,7 @@ ms.search.keywords: 'service, work hours, configure, price, pricing'
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="planning-services"></a>Planlægning af service
+# <a name="planning-services"></a><a name="planning-services"></a>Planlægning af service
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du konfigurere de standardopgaver, du skal bruge for at kunne opfylde virksomhedens krav til kundeservice. For at gøre dette skal du bestemme, hvilke serviceartikler og servicetilbud jeres serviceorganisation skal understøtte, og til hvilken pris.   
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder også nogle statistikværktøjer, som du kan bruge til at bestemme, hvor godt det går, og til at identificere områder, der kan forbedres.
@@ -25,7 +25,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Forstå relationen mellem status for en reparation, og hvordan den påvirker allokerede ressourcer og omvendt.|[Om allokeringsstatus og reparationsstatus](service-allocation-status-and-repair-status.md)|  
 |Brug statistikker til at analysere dine serviceprocesser. | [Visning af servicestatistik](service-service-statistics.md) |
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 [Opfylde servicekontrakter](service-fulfill-service-contracts.md)  
 [Levering af service](service-deliver-service.md)  
 [Konfigurere prissætning og ekstra omkostninger for services](service-how-setup-service-costs-pricing.md)  

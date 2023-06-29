@@ -10,7 +10,7 @@ author: jswymer
 ms.service: dynamics365-business-central
 ---
 
-# <a name="ai-powered-item-marketing-text-preview-with-copilot-faq"></a>AI-styret marketingtekst med element (forhåndsversion) med Copilot Ofte stillede spørgsmål
+# <a name="ai-powered-item-marketing-text-preview-with-copilot-faq"></a><a name="ai-powered-item-marketing-text-preview-with-copilot-faq"></a>AI-styret marketingtekst med element (forhåndsversion) med Copilot Ofte stillede spørgsmål
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -18,7 +18,7 @@ Denne artikel bruger spørgsmål og svar til at forklare vigtige aspekter om AI-
 
 ## [Generelt](#tab/general)
 
-### <a name="what-is-copilot"></a>Hvad er Copilot?
+### <a name="what-is-copilot"></a><a name="what-is-copilot"></a>Hvad er Copilot?
 
 Copilot leverer AI-genererede tekstforslag til varer i Business central. Den er beregnet til brugere, der skriver marketingtekst for varer, så de kan producere fængslende og bevisende indhold. Nogle vigtige fordele omfatter:
 
@@ -28,7 +28,7 @@ Copilot leverer AI-genererede tekstforslag til varer i Business central. Den er 
 
 Brugerne skal overveje den AI-genererede tekst som et forslag, som skal gennemses og redigeres, før den er offentligt tilgængelig.
 
-### <a name="why-isnt-copilot-available-for-marketing-text-on-my-items-in-business-central"></a>Hvorfor er Copilot ikke tilgængelig for marketingtekst på mine varer i Business central?
+### <a name="why-isnt-copilot-available-for-marketing-text-on-my-items-in-business-central"></a><a name="why-isnt-copilot-available-for-marketing-text-on-my-items-in-business-central"></a>Hvorfor er Copilot ikke tilgængelig for marketingtekst på mine varer i Business central?
 
 Hvis Copilot skal være tilgængelig, skal følgende krav være opfyldt:
 
@@ -45,21 +45,21 @@ Hvis Copilot skal være tilgængelig, skal følgende krav være opfyldt:
 
    Du kan finde flere oplysninger i [Tilladelse til accept eller afvisning af forhåndsversion og oplysninger om beskyttelse af personlige oplysninger for alle brugere](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
 
-### <a name="is-copilot-available-for-preview-in-business-central-on-premises"></a>Er Copilot tilgængelig til forhåndsversion i Business Central lokalt?
+### <a name="is-copilot-available-for-preview-in-business-central-on-premises"></a><a name="is-copilot-available-for-preview-in-business-central-on-premises"></a>Er Copilot tilgængelig til forhåndsversion i Business Central lokalt?
 
 Nej, det understøttes aktuelt ikke i Business Central lokalt.
 
-### <a name="how-does-copilot-work-where-does-the-suggested-text-come-from"></a>Hvordan fungerer Copilot, hvor den foreslåede tekst kommer fra?
+### <a name="how-does-copilot-work-where-does-the-suggested-text-come-from"></a><a name="how-does-copilot-work-where-does-the-suggested-text-come-from"></a>Hvordan fungerer Copilot, hvor den foreslåede tekst kommer fra?
 
 Copilot bruger [Microsoft Azure OpenAI service](/azure/cognitive-services/openai/overview) til at få adgang til avancerede sprogmodeller, der analyserer og genererer naturligt sprog. Disse modeller er blevet oplært på en bred brødtekst af tekstdatasæt. Derfor kan Copilot generere foreslåede svar, der er tilpasset på engelsk, og som er baseret på minimalt inputdata, som f. eks. en vares attributter, kategori eller beskrivelse. 
 
-### <a name="whats-the-quality-of-the-text-suggested-by-copilot"></a>Hvad er kvaliteten af teksten, der foreslås af Copilot?
+### <a name="whats-the-quality-of-the-text-suggested-by-copilot"></a><a name="whats-the-quality-of-the-text-suggested-by-copilot"></a>Hvad er kvaliteten af teksten, der foreslås af Copilot?
 
 Da den underliggende teknologi bag Copilot bruger AI, som er uddannet på en lang række kilder, er det genererede indhold ikke altid faktuelt eller egnet. Nogle forslag kan endog indeholde tvivlsomt eller upassende indhold. Du har ansvaret for at gennemgå og redigere genererede forslag for at sikre, at det er nøjagtigt og hensigtsmæssigt.
 
 Oplysninger om upassende forslag finder du i forbindelse med [Hvad sker der med stødende og skadelige tekstforslag?](/dynamics365/business-central/ai-faq?&tabs=oversight#whats-done-about-abusive-and-harmful-text-suggestions).
 
-### <a name="how-can-i-improve-the-suggestions-i-get-from-copilot"></a>Hvordan kan jeg forbedre de forslag, jeg får fra Copilot?
+### <a name="how-can-i-improve-the-suggestions-i-get-from-copilot"></a><a name="how-can-i-improve-the-suggestions-i-get-from-copilot"></a>Hvordan kan jeg forbedre de forslag, jeg får fra Copilot?
 
 Der er nogle ting, du kan gøre for at få det optimale forslag fra Copilot:
 
@@ -70,13 +70,13 @@ Der er nogle ting, du kan gøre for at få det optimale forslag fra Copilot:
 
 Du kan finde flere oplysninger i [forbedrende og skræddersyede tekstforslag](item-marketing-text.md#improve-and-tailor-text-suggestions).
 
-### <a name="what-if-im-not-satisfied-with-the-generated-text"></a>Hvad gør jeg, hvis jeg ikke er tilfreds med den genererede tekst?
+### <a name="what-if-im-not-satisfied-with-the-generated-text"></a><a name="what-if-im-not-satisfied-with-the-generated-text"></a>Hvad gør jeg, hvis jeg ikke er tilfreds med den genererede tekst?
 
 Gør følgende for at hjælpe os med at forbedre teksten ved at vælge **Er det en god løsning?** på siden **Opret med Copilot**, som du kan bruge til at besvare med en tommelfinger op (jeg synes om) eller tommelfinger ned (skal forbedres).
 
 ![Viser varekort med marketing tekstrude](media/create-with-copilot-window-feedback.png)
 
-### <a name="can-admins-disable-copilot-if-so-how"></a>Kan administratorer deaktivere Copilot? Hvis ja, hvordan?
+### <a name="can-admins-disable-copilot-if-so-how"></a><a name="can-admins-disable-copilot-if-so-how"></a>Kan administratorer deaktivere Copilot? Hvis ja, hvordan?
 
 Business Central tilbyder administratorerne at deaktivere Copilot i forhåndsversionen på to måder:
 
@@ -90,13 +90,13 @@ Hvis du vil vide mere, skal du gå til [Konfigurer marketingtekst for AI-drevet 
 
 ## [Fairness](#tab/fairness)
 
-### <a name="does-copilot-work-with-languages-other-than-english"></a>Fungerer Copilot med andre sprog end engelsk?
+### <a name="does-copilot-work-with-languages-other-than-english"></a><a name="does-copilot-work-with-languages-other-than-english"></a>Fungerer Copilot med andre sprog end engelsk?
 
 I øjeblikket understøtter Copilot kun engelsk. Unøjagtige svar kan returneres, når brugere kommunikerer med systemet på andre sprog end engelsk.
 
 ## [Humant overblik](#tab/oversight)
 
-### <a name="whats-done-about-abusive-and-harmful-text-suggestions"></a>Hvad sker der med stødende og skadelige tekstforslag?
+### <a name="whats-done-about-abusive-and-harmful-text-suggestions"></a><a name="whats-done-about-abusive-and-harmful-text-suggestions"></a>Hvad sker der med stødende og skadelige tekstforslag?
 
 Azure OpenAI-tjenesten gemmer anmodninger og afslutninger fra tjenesten for at overvåge, om der er stødende brug og for at udvikle og forbedre kvaliteten af Azure OpenAIs indholdsstyringssystemer. [Få mere at vide om indholdsadministration og -filtrering](/azure/cognitive-services/openai/concepts/content-filter).
 
@@ -104,13 +104,13 @@ Godkendte Microsoft-medarbejdere kan få adgang til dine spørgsmål og data, so
 
 Du kan finde flere oplysninger i [Data, beskyttelse af personlige oplysninger og sikkerhed for Azure OpenAI service](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation).
 
-### <a name="can-i-opt-out-of-the-logging-and-human-review-process"></a>Kan jeg framelde mig og +udføre menneskeligt gennemsyn?
+### <a name="can-i-opt-out-of-the-logging-and-human-review-process"></a><a name="can-i-opt-out-of-the-logging-and-human-review-process"></a>Kan jeg framelde mig og +udføre menneskeligt gennemsyn?
 
 Som en del af levering af Azure Open AI-forhåndsversioner vil Microsoft behandle og lagre kundedata, der er sendt til tjenesten, samt output-indhold, med henblik på (1) overvågning af og forebyggelse af misbrug eller skadelig brug eller ydelse af tjenesteydelser, og (2) udvikling, afprøvning og forbedring af de funktioner, der er beregnet til at forebygge misbrug af og/eller skadelige udgange fra tjenesten. Autoriserede Microsoft-medarbejdere kan gennemse data, som har udløst vores automatiserede systemer, til at undersøge og bekræfte potentielle misbrug, og de kan i begrænset omfang få udtagning af betingelser, som ikke er markeret af vores automatiserede systemer for at sikre, at systemerne fungerer korrekt. Autoriserede Microsoft-medarbejdere kan også få adgang til og bruge disse data til at forbedre de systemer, der overvåger, for at forhindre stødende eller skadelig brug eller output fra tjenesten. Yderligere oplysninger om [termer i forhåndsversion](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/)
 
 ## [Beskyttelse af personlige oplysninger](#tab/privacy)
 
-### <a name="what-data-does-the-capability-collect-how-is-the-data-used"></a>Hvilke data indsamler funktionen? Hvordan bruges dataene?
+### <a name="what-data-does-the-capability-collect-how-is-the-data-used"></a><a name="what-data-does-the-capability-collect-how-is-the-data-used"></a>Hvilke data indsamler funktionen? Hvordan bruges dataene?
 
 Funktionen indsamler dit svar til spørgsmålet **Er det en god løsning?** på siden **Opret med Copilot**, som du kan bruge til at besvare med en tommelfinger op (jeg synes om) eller tommelfinger ned (skal forbedres).
 
@@ -120,7 +120,7 @@ Vi bruger disse data til at evaluere og forbedre kvaliteten af funktionen. Yderl
 
 ---
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Oversigt over AI-styret varemarketingtekst med Copilot](ai-overview.md)  
 [Konfigurere marketingtekst med Copilot til AI-styret vare som administrator](enable-ai.md)  

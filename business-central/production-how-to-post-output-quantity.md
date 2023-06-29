@@ -10,7 +10,7 @@ ms.search.form: '99000773, 99000778, 99000823, 99000827'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="batch-post-output-and-run-times"></a>Massebogføre afgang og operationstider
+# <a name="batch-post-output-and-run-times"></a><a name="batch-post-output-and-run-times"></a>Massebogføre afgang og operationstider
 Afgangsantallet repræsenterer arbejdsforløbet i form af den færdige mængde og den anvendte kapacitet for arbejdscentret eller produktionsressourcen.
 
 Du kan bruge afgangskladden til at:
@@ -24,7 +24,7 @@ Du kan bruge afgangskladden til at:
 
 Med vinduet **Produktionskladde** kan du udføre de samme opgaver som i vinduet **Afgangskladde** og samtidigt udføre relaterede forbrugsbogføringsopgaver. Du kan finde flere oplysninger i [Registrere forbrug og afgang for én frigivet produktionsordrelinje](production-how-to-register-consumption-and-output.md).
 
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Sådan bogfører du afgangsantal og/eller registrerer du operationstider for en eller flere produktionsordrelinjer
+## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a><a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Sådan bogfører du afgangsantal og/eller registrerer du operationstider for en eller flere produktionsordrelinjer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Afgangskladde**, og vælg derefter det relaterede link.  
 2. Udfyld felterne med produktionsordredata, afgangsdata og/eller operationstid. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -38,7 +38,7 @@ Kapacitetsposterne opdateres for de anvendte arbejdscentre eller produktionsress
 
 Hvis du har bogført den sidste operation, føjes varen til lageret.  
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Bogføre spild manuelt](production-how-to-post-scrap.md)
 [Tilbageføre bogføring af afgang](production-how-to-reverse-output-posting.md)

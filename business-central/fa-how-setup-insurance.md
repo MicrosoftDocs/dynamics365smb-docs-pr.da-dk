@@ -11,25 +11,25 @@ ms.search.form: '5607, 5648, 5644, 5651'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-fixed-asset-insurance"></a>Definere anlægsforsikring
+# <a name="set-up-fixed-asset-insurance"></a><a name="set-up-fixed-asset-insurance"></a>Definere anlægsforsikring
 
 Hvis du vil administrere forsikringsdækning for anlægsaktiver, skal du først angive nogle generelle forsikringsoplysninger og forsikringskort pr. police.
 
-## <a name="to-set-up-general-insurance-information"></a>Sådan angives generelle forsikringsoplysninger
+## <a name="to-set-up-general-insurance-information"></a><a name="to-set-up-general-insurance-information"></a>Sådan angives generelle forsikringsoplysninger
 
 Du skal angive nogle generelle forsikringsoplysninger for at bruge forsikringsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsaktiver**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-set-up-insurance-types"></a>Sådan defineres forsikringstyper
+## <a name="to-set-up-insurance-types"></a><a name="to-set-up-insurance-types"></a>Sådan defineres forsikringstyper
 
 Du kan gruppere forsikringspolicer i kategorier, som f.eks. forsikring mod tyveri eller brand. Forsikringstyperne bruges på forsikringskortet.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Forsikringstyper**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 
-## <a name="to-set-up-insurance-cards"></a>Sådan defineres forsikringskort
+## <a name="to-set-up-insurance-cards"></a><a name="to-set-up-insurance-cards"></a>Sådan defineres forsikringskort
 
 Du kan samle oplysninger om hver enkelt forsikringspolice på forsikringskortet.  
 
@@ -37,14 +37,14 @@ Du kan samle oplysninger om hver enkelt forsikringspolice på forsikringskortet.
 2. På siden **Forsikring** skal du vælge handlingen **Ny** for at oprette et forsikringskort.  
 3. Udfyld felterne efter behov.
 
-## <a name="to-set-up-insurance-journal-templates"></a>Sådan defineres forsikringskladdetyper
+## <a name="to-set-up-insurance-journal-templates"></a><a name="to-set-up-insurance-journal-templates"></a>Sådan defineres forsikringskladdetyper
 
 Første gang du åbner siden **Forsikringskladde** i [!INCLUDE[prod_short](includes/prod_short.md)], oprettes der automatisk en forsikringskladdetype, men du kan oprette flere kladdetyper. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Forsikringskladdetyper**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 
-## <a name="to-set-up-insurance-journal-batches"></a>Sådan defineres forsikringskladdenavne
+## <a name="to-set-up-insurance-journal-batches"></a><a name="to-set-up-insurance-journal-batches"></a>Sådan defineres forsikringskladdenavne
 
 Du kan definere navne i en forsikringskladdetype. Værdierne i kladdenavnet bruges som standardværdier, hvis felterne ikke er udfyldt på kladdelinjerne. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).  
 
@@ -55,9 +55,9 @@ Du kan definere navne i en forsikringskladdetype. Værdierne i kladdenavnet brug
 > [!NOTE]  
 >   Tallene har en særlig funktion i kladdenavne. Hvis et kladdetypenavn eller et kladdenavn indeholder et tal, vil tallet automatisk forøges med 1, hver gang kladden bogføres. Hvis du f.eks. angiver HH1 i feltet **Navn**, ændres kladdenavnet til HH2, når kladden HH1 er blevet bogført.
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/set-up-fixed-assets-management/)
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Opsætning af Anlægsaktiver](fa-setup.md)  
 [Anlægsaktiver](fa-manage.md)  

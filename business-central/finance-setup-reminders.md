@@ -11,30 +11,30 @@ ms.search.form: '431, 432, 436, 478'
 ms.date: 02/09/2022
 ms.author: edupont
 ---
-# <a name="set-up-reminder-terms-and-levels"></a>Konfiguration af rykkerbetingelser og -niveauer
+# <a name="set-up-reminder-terms-and-levels"></a><a name="set-up-reminder-terms-and-levels"></a>Konfiguration af rykkerbetingelser og -niveauer
 
 Du kan bruge rykkere til at minde debitorer om forfaldne beløb. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
-## <a name="reminder-terms"></a>Rykkerbetingelser
+## <a name="reminder-terms"></a><a name="reminder-terms"></a>Rykkerbetingelser
 
 Hvis debitorer har forfaldne beløb, skal du afgøre, om der skal sendes en rykker. Desuden vil du evt. debitere deres konti for rente eller gebyrer. Du kan angive et hvilket som helst antal betingelser for rykkere.  
 
 > [!NOTE]
 > Hvis du vil beregne rente for forfaldne betalinger, kan du gøre det, når du opretter rykkere. Hvis du imidlertid bare vil beregne rente og informere debitorerne om dette uden at sende rykkere, bør du bruge [rentenotaer](finance-setup-finance-charges.md). Du kan finde flere oplysninger i [Rykkere](receivables-collect-outstanding-balances.md#reminders) eller [Rentegebyrer](receivables-collect-outstanding-balances.md#finance-charges).
 
-### <a name="to-set-up-reminder-terms"></a>Sådan defineres rykkerbetingelser
+### <a name="to-set-up-reminder-terms"></a><a name="to-set-up-reminder-terms"></a>Sådan defineres rykkerbetingelser
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rykkerbetingelser**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Hvis du vil bruge mere end én kombination af rykkerbetingelser, kan du angive en kode for hver enkelt.
 
-## <a name="reminder-levels"></a>Rykkerniveauer
+## <a name="reminder-levels"></a><a name="reminder-levels"></a>Rykkerniveauer
 
 For hver rykkerbetingelseskode kan du definere et ubegrænset antal rykkerniveauer. Første gang en rykker oprettes til en debitor, bruges indstillingen fra niveau 1. Når rykkeren er udstedt, registreres niveaunummeret på de rykkerposter, der er oprettet og sammenkædet med de individuelle debitorposter. Hvis det er nødvendigt at rykke debitoren igen, markeres alle de rykkerposter, der er sammenkædet med åbne debitorposter, så nummeret på det højeste niveau bliver fundet. Derefter vil betingelserne fra det næste niveaunummer blive brugt til den nye rykker.
 
 Hvis du opretter flere rykkere end du har defineret niveauer til, bruges betingelserne for det højeste niveau. Du kan oprette så mange rykkere, som tillades ifølge feltet **Maks. antal rykkere** under rykkerbetingelserne.
 
-### <a name="to-set-up-reminder-levels"></a>Sådan angives rykkerniveauer
+### <a name="to-set-up-reminder-levels"></a><a name="to-set-up-reminder-levels"></a>Sådan angives rykkerniveauer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rykkerbetingelser**, og vælg derefter det relaterede link.  
 2. Vælg den linje med de betingelser, du vil oprette niveauer for, på siden **Rykkerbetingelser**, og vælg derefter handlingen **Niveauer**.  
@@ -92,9 +92,9 @@ Hvis du opretter flere rykkere end du har defineret niveauer til, bruges betinge
 
 Angiv en af koderne på hvert enkelt kundekort, når du har oprettet rykkerbetingelserne med ekstra niveauer og tekst. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/send-reminders-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/send-reminders-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Indhente udestående beløb](receivables-collect-outstanding-balances.md)  
 [Send rykkere til udestående saldi](receivables-send-reminders.md)  

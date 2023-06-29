@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# <a name="set-up-approval-workflows"></a>Konfigurer godkendelsesworkflow
+# <a name="set-up-approval-workflows"></a><a name="set-up-approval-workflows"></a>Konfigurer godkendelsesworkflow
 
 Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin. Flere oplysninger i [Bruge godkendelsesworkflows](across-use-workflows.md).
 
@@ -35,16 +35,16 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 |Del workflows med andre [!INCLUDE[prod_short](includes/prod_short.md)]-databaser.|[Eksportere og importere godkendelsesworkflows](across-how-to-export-and-import-workflows.md)|  
 |Lær, hvordan du konfigurerer en arbejdsgang til godkendelse af salgsdokumenter ved at følge en hel procedure.|[Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## <a name="example-of-an-approval-workflow"></a>Eksempel på et godkendelsesworkflow
+## <a name="example-of-an-approval-workflow"></a><a name="example-of-an-approval-workflow"></a>Eksempel på et godkendelsesworkflow
 
 Denne video viser, hvordan du konfigurerer et workflow, der kræver, at en bruger anmoder om en andens godkendelse, før vedkommende kan ændre oplysninger om en eksisterende kunde eller oprette en ny kunde.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Bruge godkendelsesworkflows](across-use-workflows.md)  
 [Workflow](across-workflow.md)  

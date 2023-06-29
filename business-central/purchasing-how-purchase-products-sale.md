@@ -11,7 +11,7 @@ ms.search.form: '50, 51, 56, 9308'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Købe varer til salg ved at oprette købsfakturaer
+# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a><a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Købe varer til salg ved at oprette købsfakturaer
 
 Fra salgsordrer og salgsfakturaer kan du bruge funktioner til hurtig oprettelse af indkøbsdokumenter for manglende vareantal, der kræves til salget. Du kan bruge to forskellige funktioner afhængigt af dokumenttypen.
 
@@ -23,7 +23,7 @@ Fra salgsordrer og salgsfakturaer kan du bruge funktioner til hurtig oprettelse 
 |**Opret købsordrer**|Fra en salgsordre kan du bruge denne funktion til at oprette en købsordre for hver leverandør af varer på salgsordren. Før du opretter købsordrerne, kan du redigere købsantallet. Der foreslås kun ikke-tilgængelige salgsantal.
 |**Opret købsfaktura**|Fra en salgsordre og en salgsfaktura opretter denne funktion en købsfaktura for en valgt kreditor for alle linjer eller valgte linjer i salgsdokumentet. Det fulde salgsantal foreslås.|
 
-## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Sådan oprettes en eller flere købsordrer fra en salgsordre
+## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a><a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Sådan oprettes en eller flere købsordrer fra en salgsordre
 Hvis du vil oprette en købsordre for hvert vareantal, der ikke er tilgængeligt på salgsordren, skal du bruge funktionen **Opret købsordrer**.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.
@@ -43,7 +43,7 @@ Hvis du vil oprette en købsordre for hvert vareantal, der ikke er tilgængeligt
 7. Fortsæt med at behandle købsordrer eller ordrer, for eksempel ved at redigere eller tilføje købsordrelinjer. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).
 
 
-## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a>Sådan oprettes en købsfaktura fra en salgsordre eller salgsfaktura
+## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a><a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a>Sådan oprettes en købsfaktura fra en salgsordre eller salgsfaktura
 Når du vil oprette en enkelt købsfaktura for en eller flere linjer i et salgsdokument, skal du først at vælge, hvilken leverandør du vil købe fra ved at bruge funktionen **Opret købsfaktura**.
 
 > [!NOTE]  
@@ -59,7 +59,7 @@ Når du vil oprette en enkelt købsfaktura for en eller flere linjer i et salgsd
     Der oprettes en købsfaktura, der indeholder én, flere end én eller alle linjer på salgsfakturaen.
 7. Fortsæt med at behandle købsfakturaen, for eksempel ved at redigere eller tilføje købsfakturalinjer. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 [Køb](purchasing-manage-purchasing.md)  
 [Registrere køb](purchasing-how-record-purchases.md)  
 [Fakturere salg](sales-how-invoice-sales.md)  

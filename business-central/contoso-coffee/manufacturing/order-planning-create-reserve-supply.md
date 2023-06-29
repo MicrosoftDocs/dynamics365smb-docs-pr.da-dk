@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a>Gennemgang: Bruge Ordreplanlægning til at oprette og reservere levering
+# <a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a><a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a>Gennemgang: Bruge Ordreplanlægning til at oprette og reservere levering
 
 I denne artikel kommer vi igennem de trin, du skal benytte, når du skal bruge Contoso Coffee-demodataene i ordreplanlægning.
 
-## <a name="scenario"></a>Scenarie
+## <a name="scenario"></a><a name="scenario"></a>Scenarie
 
 Du er produktionsplanlægger hos Contoso Coffee. Du har oprettet en produktionsordre på 100 enheder af varen **SP-SCM1009, Airpot**, og du vil planlægge underordnede samlinger for denne ordre. Du kan bruge Ordreplanlægning til at oprette den krævede produktionsordre til levering. Da du opretter produktionsordren for at opfylde kravene i en bestemt ordre, bestemmer du dig for at reservere produktionsordrens afgang.  
 
-## <a name="steps"></a>Trin
+## <a name="steps"></a><a name="steps"></a>Trin
 
 1. Opret den nye frigivne produktionsordre på 100 enheder af varen **SP-SCM1009, Airpot**.
 
@@ -59,7 +59,7 @@ Du er produktionsplanlægger hos Contoso Coffee. Du har oprettet en produktionso
 
 Det var ordreplanlægning i [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Introduktion til demonstrationsdata for Contoso Coffee](../contoso-coffee-intro.md)  
 [Om produktionsordrer](../../production-about-production-orders.md)  

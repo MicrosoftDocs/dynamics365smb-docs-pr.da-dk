@@ -11,7 +11,7 @@ ms.search.form: '5605, 5551, 5600, 5628, 5629, 5633'
 ms.date: 12/03/2021
 ms.author: edupont
 ---
-# <a name="acquire-fixed-assets"></a>Anskaffede anlægsaktiver
+# <a name="acquire-fixed-assets"></a><a name="acquire-fixed-assets"></a>Anskaffede anlægsaktiver
 
 For hvert anlægsaktiv skal du definere et kort med oplysninger om aktivet. Du kan angive bygninger eller produktionsudstyr som et hovedanlæg med en komponentliste, og du kan gruppere dem på forskellige måder, f.eks efter art, afdeling eller lokation. Der skal oprettes en afskrivningsprofil, og den skal tildeles til hvert enkelt anlægsaktiv, før du kan hente det.
 
@@ -21,7 +21,7 @@ Skrapværdien er restværdien af et anlæg, der ikke længere kan bruges. Du kan
 
 Indeksering anvendes til at justere for ændringer af det generelle prisniveau. Kørslen **Indekser anlæg** kan bruges til at beregne anskaffelsespriser som genanskaffelsespriser.
 
-## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Sådan oprettes og anskaffes et anlægsaktiv automatisk
+## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a><a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Sådan oprettes og anskaffes et anlægsaktiv automatisk
 
 Følgende procedure beskriver, hvordan du opretter et anlægsaktiv og derefter anskaffer det ved hjælp af siden **Bistået anskaffelse af anlægsaktiver** for at oprette og bogføre de nødvendige anlægskassekladdelinjer. Du kan også oprette og bogføre linjerne manuelt. Du kan finde flere oplysninger i [Sådan bogføres anskaffelse af et anlægsaktiv manuelt med anlægskassekladden](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
@@ -39,7 +39,7 @@ Følgende procedure beskriver, hvordan du opretter et anlægsaktiv og derefter a
 
 Når du vælger **Udfør**, udfyldes feltet **Bogført værdi** på siden **Anlægskort**, hvilket angiver, at anlægsaktivet er anskaffet til den angivne anskaffelsespris.  
 
-## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Sådan konfigureres en komponentliste for et hovedanlæg
+## <a name="to-set-up-a-component-list-for-a-main-asset"></a><a name="to-set-up-a-component-list-for-a-main-asset"></a>Sådan konfigureres en komponentliste for et hovedanlæg
 
 Du kan gruppere anlægsaktiverne i hovedanlæg og de tilhørende komponenter. Du kan f.eks. have en produktionsmaskine, som består af mange dele, som du vil gruppere på denne måde.  
 
@@ -53,7 +53,7 @@ Både hovedanlægget og alle dets komponenter skal oprettes som individuelle anl
 6. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsopsætning**, og vælg derefter det relaterede link.
 7. Markér afkrydsningsfeltet **Tillad bogf. på hovedanlæg**.
 
-## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Sådan bogføres anskaffelse af et anlægsaktiv manuelt med finanskassekladden
+## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a><a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Sådan bogføres anskaffelse af et anlægsaktiv manuelt med finanskassekladden
 
 Følgende fremgangsmåde bruges til at anskaffe et anlægsaktiv manuelt ved at oprette og bogføre linjerne på siden **Anlægsfinanskladde**. Du kan også anskaffe et anlægsaktiv automatisk ved hjælp af siden **Bistået anskaffelse af anlægsaktiver**. Flere oplysninger under trin 5 i [Sådan oprettes og anskaffes et anlægsaktiv automatisk](fa-how-acquire.md#to-create-a-fixed-asset-and-acquire-it-automatically).
 
@@ -68,7 +68,7 @@ Følgende fremgangsmåde bruges til at anskaffe et anlægsaktiv manuelt ved at o
 > [!TIP]  
 >   Hvis du udfylder feltet **Forsikringsnr.** i anlægskassekladden, når du bogfører en anskaffelse, vil [!INCLUDE[prod_short](includes/prod_short.md)] også bogføre anskaffelsesprisen på anlægsaktivet på forsikringsposterne. Du kan finde flere oplysninger i [Forsikre anlægsaktiver](fa-how-insure.md).
 
-## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Sådan annulleres bogføringen af en anskaffelsespris for et anlægsaktiv
+## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a><a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Sådan annulleres bogføringen af en anskaffelsespris for et anlægsaktiv
 
 Hvis du laver en fejl under bogføring af en anskaffelsespris, kan du fjerne posten vha. kørslen **Annuller anlægsposter** og derefter bogføre den korrekte anskaffelsespost. De forkerte poster overføres til siden **Anlægsfejlposter**.
 
@@ -84,7 +84,7 @@ Hvis du f.eks, bogfører en anskaffelse med den forkerte dato, skal du rette den
 5. Vælg **OK** for at eksekvere kørslen.
 6. Når den eller de forkerte poster annulleres, kan du fortsætte med at bogføre den korrekte anskaffelsespris.
 
-## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Sådan bogføres skrapværdien sammen med anskaffelsesprisen
+## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a><a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Sådan bogføres skrapværdien sammen med anskaffelsesprisen
 
 Du kan bogføre skrapværdien sammen med anskaffelsesprisen fra en anlægskladde.
 
@@ -99,9 +99,9 @@ Du kan bogføre skrapværdien sammen med anskaffelsesprisen fra en anlægskladde
 > [!NOTE]
 > Hvis der findes en skrapværdi for et anlægsaktiv, bruges denne værdi i afskrivningsbogføringen i stedet for værdien i feltet **Slutbogført værdi** på siden **Anlægsafskrivningsprofiler**. Du kan finde flere oplysninger i [Sådan administrerer du den slutbogførte værdi](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/purchase-fixed-assets/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/purchase-fixed-assets/)
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Anlægsaktiver](fa-manage.md)  
 [Opsætning af Anlægsaktiver](fa-setup.md)  

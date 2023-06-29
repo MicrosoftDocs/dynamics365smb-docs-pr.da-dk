@@ -10,7 +10,7 @@ ms.search.form: '283, 5629'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="allocate-costs-and-income"></a>Fordele omkostninger og indtægter
+# <a name="allocate-costs-and-income"></a><a name="allocate-costs-and-income"></a>Fordele omkostninger og indtægter
 
 Du kan allokere en post i en finanskladde til flere forskellige konti, når du bogfører kladden. Allokeringen kan foretages på tre forskellige måder:
 
@@ -23,7 +23,7 @@ Allokeringsfunktionen kan bruges sammen med finansgentagelseskladder og i anlæg
 
 I følgende procedurer beskrives, hvordan du forbereder at allokere omkostninger i en finansgentagelseskladde ved at definere fordelingsnøgler. Når der er defineret fordelingsnøgler, skal du udfylde og bogføre kladden ligesom alle andre finansgentagelseskladder. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).
 
-## <a name="to-set-up-allocation-keys"></a>Sådan konfigureres fordelingsnøgler
+## <a name="to-set-up-allocation-keys"></a><a name="to-set-up-allocation-keys"></a>Sådan konfigureres fordelingsnøgler
 
 Du kan allokere en post i en finansgentagelseskladde til flere forskellige konti, når du bogfører kladden. Allokeringen kan foretages efter antal, procent eller beløb.  
 
@@ -41,13 +41,13 @@ Du kan allokere en post i en finansgentagelseskladde til flere forskellige konti
 10. Når du har angivet linjerne med fordelinger, skal du vælge **OK** for at gå tilbage til siden **Finansgentagelseskladde**. Feltet **Fordelt beløb (RV)** udfyldes og svarer til feltet **Beløb**.
 11. Bogfør journalen.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Sådan ændres en fordelingsnøgle, der allerede er oprettet
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a><a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Sådan ændres en fordelingsnøgle, der allerede er oprettet
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
 2. Vælg kladden med allokeringen på siden **Finansgentagelseskladde**.
 3. Vælg linjen med fordelingen og vælg derefter handlingen **Fordelinger**.
 4. Rediger de relevante felter, og vælg derefter knappen **OK**.
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 [Afslutning af år og perioder](year-close-years-periods.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)    
 [Bogføring af dokumenter og kladder](ui-post-documents-journals.md)    

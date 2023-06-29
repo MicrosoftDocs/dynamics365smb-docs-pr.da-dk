@@ -9,18 +9,18 @@ ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 
 ms.date: 09/26/2022
 ms.author: edupont
 ---
-# <a name="manage-product-variants"></a>Administrere produktvarianter
+# <a name="manage-product-variants"></a><a name="manage-product-variants"></a>Administrere produktvarianter
 
 Varevarianter er en smart måde at holde listen over produkter under kontrol på. Det kan være nyttigt, hvis du f.eks. har et stort antal varer, der kun adskiller sig fra hinanden ved farven. Du kan definere hver variant som en separat vare. Men du vælger at oprette en vare og angive de forskellige farver som varianter af varen.  
 
 > [!TIP]
 > Hvis du vil have en praktisk introduktion til brugen af varianter i produktionen, kan du se [Gennemgang: varianter](contoso-coffee/manufacturing/variants.md) af demonstrationsdataene for Contoso Coffee.  
 
-## <a name="add-variants-to-an-item"></a>Føje varianter til en vare
+## <a name="add-variants-to-an-item"></a><a name="add-variants-to-an-item"></a>Føje varianter til en vare
 
 Hvis organisationen har besluttet sig for at bruge varianter, er det nemt at definere varianter for en vare.  
 
-### <a name="to-add-variants"></a>Sådan tilføjes varianter
+### <a name="to-add-variants"></a><a name="to-add-variants"></a>Sådan tilføjes varianter
 
 1. Åbn [siden **Vareliste**](https://businesscentral.dynamics.com/?page=31), og åbn den relevante vare.  
 2. På siden **Varekort** skal du vælge handlingen **Vare** og derefter vælge handlingen **Varianter**.  
@@ -28,11 +28,11 @@ Hvis organisationen har besluttet sig for at bruge varianter, er det nemt at def
 
 Når du derefter opretter et salgsdokument og tilføjer varen, kan du angive varianten af varen i feltet **Variantkode**. Det samme gælder købsdokumenter.  
 
-## <a name="item-availability-by-variant"></a>Varetilgængelighed pr. variant
+## <a name="item-availability-by-variant"></a><a name="item-availability-by-variant"></a>Varetilgængelighed pr. variant
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
 
-## <a name="require-use-of-variants"></a>Kræver brug af varianter
+## <a name="require-use-of-variants"></a><a name="require-use-of-variants"></a>Kræver brug af varianter
 
 Fra 2022 Udgivelsesbølge 2 kan administratorer kræve, at brugere angiver varianten i dokumenter og kladder for varer, der har varianter. Hvis du vil aktivere egenskaben, skal du gå til siden **Lageropsætning** og derefter vælge feltet **Variantobligatorisk, hvis feltet findes**. Du kan tilsidesætte denne globale indstilling for bestemte varer.  
 
@@ -49,11 +49,11 @@ På varekort har feltet **Variant obligatorisk, hvis der findes** følgende muli
 
 Hvis faciliteten er aktiveret, kan brugere ikke bogføre en post, hvis varianten ikke er angivet.
 
-## <a name="categories-attributes-and-variants"></a>Kategorier, attributter og varianter
+## <a name="categories-attributes-and-variants"></a><a name="categories-attributes-and-variants"></a>Kategorier, attributter og varianter
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Konfigurere generelle lageroplysninger](inventory-how-setup-general.md)  

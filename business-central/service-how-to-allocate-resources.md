@@ -11,14 +11,14 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="allocate-resources"></a>Allokere ressourcer
+# <a name="allocate-resources"></a><a name="allocate-resources"></a>Allokere ressourcer
 Det vigtigste element i servicestyring er de mennesker, der leverer servicen. Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til at tildele de relevante personer til de relevante job. Opgaverne kan baseres på servicezoner, hvor personerne befinder sig, eller hvor servicen finder sted. Du kan desuden gruppere ressourcerne, når der reageres på serviceanmodninger. Du kan finde flere oplysninger i [Definere ressourceallokering](service-how-setup-resource-allocation.md).
 
 Du kan allokere ressourcer, f.eks. teknikere, ved hjælp af **Ordreoversigt** eller fra en serviceordre. Du kan bruge ressourcedisponering til at allokere ressourcer, der skal udføre serviceopgaverne i ordrerne eller tilbuddene.
 
 Du kan allokere den samme ressource, f.eks. en tekniker, eller ressourcegruppe til alle serviceartiklerne i en serviceordre. Der oprettes allokeringsposter for de andre serviceartikler i ordren med samme ressourcenummer og allokeringsdato som den linje, du har allokeret. De allokerede timer er de timer, du har allokeret, delt med antallet af serviceartikler i ordren. Feltet **Status** indstilles automatisk til **Aktiv** for alle poster, der er oprettet.
 
-## <a name="to-see-an-overview-of-service-orders-and-service-quotes"></a>Sådan får du vist en oversigt over serviceordrer og -tilbud
+## <a name="to-see-an-overview-of-service-orders-and-service-quotes"></a><a name="to-see-an-overview-of-service-orders-and-service-quotes"></a>Sådan får du vist en oversigt over serviceordrer og -tilbud
 Du kan ofte få brug for at se listen over serviceordrer eller servicetilbud, som opfylder bestemte krav, så du kan udføre bestemte handlinger på hver enkelt af dem. Du kan f.eks. få brug for at allokere ressourcer til serviceordrer, der hører til en bestemt kunde.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ordreoversigt**, og vælg derefter det relaterede link.  
@@ -31,7 +31,7 @@ Du kan ofte få brug for at se listen over serviceordrer eller servicetilbud, so
 
     Siden **Serviceordre** eller **Servicetilbud** åbnes, og du kan arbejde med dokumentet. Hvis du vil tilbage til siden **Ordreoversigt**, skal du vælge **OK**.
 
-## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Sådan allokeres ressourcer vha. ressourcedisponering eller ressourcegruppedisponering
+## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a><a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Sådan allokeres ressourcer vha. ressourcedisponering eller ressourcegruppedisponering
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ordreoversigt**, og vælg derefter det relaterede link.  
 2. Vælg serviceordren, og vælg derefter handlingen **Ressourceallokeringer**.  
 3. Vælg posten med den serviceopgave, du vil allokere en ressource til.  
@@ -49,7 +49,7 @@ Du kan ofte få brug for at se listen over serviceordrer eller servicetilbud, so
 > [!NOTE]  
 >  Der kan kun være **aktive** allokeringsposter med én ressource eller ressourcegruppe ad gangen.  
 
-## <a name="to-allocate-a-resource-using-a-service-order"></a>Allokere ressourcer ved hjælp af en serviceordre
+## <a name="to-allocate-a-resource-using-a-service-order"></a><a name="to-allocate-a-resource-using-a-service-order"></a>Allokere ressourcer ved hjælp af en serviceordre
 Når du har oprettet og udfyldt en serviceordre eller et servicetilbud, kan du allokere ressourcer, f.eks. teknikere, til udførelse af serviceopgaver, der er registreret som serviceartikellinjer i dokumentet.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceordre** og vælg derefter det relaterede link.  
@@ -65,7 +65,7 @@ Når du har oprettet og udfyldt en serviceordre eller et servicetilbud, kan du a
 > [!NOTE]  
 >  En serviceartikel i en serviceordre kan kun indeholde aktive allokeringsposter med én ressource eller ressourcegruppe ad gangen.
 
-## <a name="to-reallocate-resources-on-a-service-order"></a>Sådan genallokeres ressourcer på en serviceordre
+## <a name="to-reallocate-resources-on-a-service-order"></a><a name="to-reallocate-resources-on-a-service-order"></a>Sådan genallokeres ressourcer på en serviceordre
 Du kan genallokere ressourcer direkte fra den serviceordre eller det servicetilbud, som du arbejder med. Den oprindelige post findes stadigvæk, men dens status opdateres på følgende måde:  
 
 * Hvis reparationen blev startet, da allokeringen var **Aktiv**, dvs. hvis reparationsstatus for serviceartiklen i posten blev ændret til **I arbejde**, ændres allokeringsstatus automatisk fra **Genallokering nødvendig** til **Udført**.  
@@ -79,7 +79,7 @@ Du kan genallokere ressourcer direkte fra den serviceordre eller det servicetilb
 5. Vælg <kbd>Enter</kbd>. Der åbnes en dialogboks, hvor du bliver spurgt, om du vil genallokere posten. Udfyld eventuelt feltet **Årsagskode**, og vælg knappen **Ja** for at bekræfte genallokeringen.  
 6. Udfyld felterne **Allokeringsdato** og **Allokerede timer**. Posten indeholder nu den nye ressource, og status for posten er **Aktiv**.
 
-## <a name="to-reallocate-a-resource-using-the-dispatch-board"></a>Sådan genallokeres ressourcer ved hjælp af ordreoversigten
+## <a name="to-reallocate-a-resource-using-the-dispatch-board"></a><a name="to-reallocate-a-resource-using-the-dispatch-board"></a>Sådan genallokeres ressourcer ved hjælp af ordreoversigten
 Hvis den ressource, der er allokeret til en serviceopgave, ikke kan udføre arbejdet, betyder det, at serviceopgaven skal genallokeres. Ressourcer genallokeres som regel til en serviceopgave ved hjælp af **Ordreoversigt**.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ordreoversigt**, og vælg derefter det relaterede link.  
@@ -97,7 +97,7 @@ Hvis den ressource, der er allokeret til en serviceopgave, ikke kan udføre arbe
     > * Hvis reparationen ikke blev påbegyndt, mens allokeringen var **Aktiv**, bliver allokeringsstatus ændret fra **Genallokering nødvendig** til **Annulleret**.  
     > * Hvis du genallokerer en serviceordre, som du har konverteret fra et tilbud, ændres status altid automatisk for de allokeringsposter, der er registreret for tilbuddet, til **Udført**, når du genallokerer serviceartiklerne i serviceordren.  
 
-## <a name="to-register-resource-hours"></a>Sådan registreres ressourcetimer
+## <a name="to-register-resource-hours"></a><a name="to-register-resource-hours"></a>Sådan registreres ressourcetimer
 Når du arbejder med serviceartikler i serviceordrer, har du brug for at registrere de ressourcetimer, der anvendes på serviceydelsen. Følgende fremgangsmåde viser, hvordan ressourcetimerne skal registreres på siden **Serviceartikelkladde**.  
 
 Du kan bruge samme fremgangsmåde til at registrere timerne på siden **Servicelinjer**, som du kan åbne fra siden Serviceordre. Åbn det relevante servicekort, og vælg handlingen **Servicelinjer**.  
@@ -108,7 +108,7 @@ Hvis samme ressource arbejder på alle serviceartiklerne i serviceordren, kan du
 2. Vælg den linje, der indeholder den relevante serviceartikel, og vælg derefter handlingen **Artikelkladde**.  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-assign-a-resource-to-all-service-items-in-an-order"></a>Sådan tildeles en ressource til alle serviceartikler i en ordre
+## <a name="to-assign-a-resource-to-all-service-items-in-an-order"></a><a name="to-assign-a-resource-to-all-service-items-in-an-order"></a>Sådan tildeles en ressource til alle serviceartikler i en ordre
 Hvis samme ressource (f.eks. en tekniker) arbejder på alle serviceartiklerne i serviceordren, kan du registrere de samlede ressourcetimer for kun én serviceartikel og derefter opdele ressourcelinjen for at opdele ressourcetimerne på ressourcelinjerne for de andre serviceartikler.  
 
 Følgende fremgangsmåde viser, hvordan ressourcelinjerne på siden **Servicefakturalinjer** kan opdeles.  
@@ -121,7 +121,7 @@ Følgende fremgangsmåde viser, hvordan ressourcelinjerne på siden **Servicefak
 
     Der oprettes ressourcelinjer for de andre serviceartikler i ordren med samme ressourcenummer som den linje, du har opdelt. Antallet er det antal, der er angivet for den opdelte linje delt med antallet af serviceartikler i ordren.  
 
-## <a name="to-cancel-an-allocation"></a>Sådan annulleres allokeringer
+## <a name="to-cancel-an-allocation"></a><a name="to-cancel-an-allocation"></a>Sådan annulleres allokeringer
 Du kan annullere ressourceallokeringer til serviceopgaver uden at genallokere opgaverne.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ordreoversigt**, og vælg derefter det relaterede link.  
@@ -134,7 +134,7 @@ Du kan annullere ressourceallokeringer til serviceopgaver uden at genallokere op
     > [!NOTE]  
     > Indstillingen **Genallokering nødvendig** i feltet **Status** markeres automatisk. Hvis reparationsstatus for serviceartiklen i posten er **Oprettet**, ændres reparationsstatus automatisk til **Henvist**, dvs. at der ikke er påbegyndt nogen reparation. Hvis reparationsstatus er **I arbejde**, ændres den til **Delvist repareret**, dvs. at en del af reparationen er udført.
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 [Opsætte ressourceallokering](service-how-setup-resource-allocation.md)  
 [Allokeringsstatus og reparationsstatus](service-allocation-status-and-repair-status.md)  
 

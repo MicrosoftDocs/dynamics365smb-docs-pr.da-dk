@@ -16,7 +16,7 @@ ms.contentlocale: da-DK
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605761"
 ---
-# <a name="setting-up-manufacturing"></a><a name="setting-up-manufacturing"></a>Konfigurere produktion
+# <a name="setting-up-manufacturing"></a><a name="setting-up-manufacturing"></a><a name="setting-up-manufacturing"></a>Konfigurere produktion
 
 Hvis du vil konvertere materialer til fremstillede færdigvarer, skal produktionsressourcer, f.eks. styklister, ruter, maskinoperatører og maskiner, konfigureres i systemet.
 
@@ -39,7 +39,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Brug standardoperationer til at forenkle oprettelsen af ruter ved hurtigt at knytte ekstra oplysninger til gentagne operationer.|[Konfigurere standardrutelinjer](production-how-set-up-standard-routing-lines.md)|  
 |Forbered arbejdscentre og ruter til at repræsentere underleverandørens produktionsoperationer.|[Produktion hos underleverandør](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Produktion](production-manage-manufacturing.md)  
 [Skabelon](production-planning.md)  

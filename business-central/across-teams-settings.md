@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
-# <a name="changing-company-and-other-settings-in-teams"></a>Ændring af virksomhed og andre indstillinger i Teams
+# <a name="changing-company-and-other-settings-in-teams"></a><a name="changing-company-and-other-settings-in-teams"></a>Ændring af virksomhed og andre indstillinger i Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -27,7 +27,7 @@ Du kan åbne siden **Indstillinger** på to måder: 1) fra meddelelsesboksen ell
 
    ![Indstillinger for Business Central fra meddelelsesboks.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Oversigt over integrationen af Business Central og Microsoft Teams](across-teams-overview.md)  
 [Installere appen [!INCLUDE [prod_short](includes/prod_short.md)] til Microsoft Teams](across-install-app-for-teams.md)  

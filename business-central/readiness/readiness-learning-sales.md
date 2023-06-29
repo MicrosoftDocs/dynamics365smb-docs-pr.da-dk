@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="partner-sales-and-marketing-learning-catalog"></a>Undervisningskatalog for partnersalg og marketing
+# <a name="partner-sales-and-marketing-learning-catalog"></a><a name="partner-sales-and-marketing-learning-catalog"></a>Undervisningskatalog for partnersalg og marketing
 
 Er du ansvarlig for at hjælpe kunder med at købe den rigtige løsning?
 
 Følgende katalog er organiseret fra kerneviden til bestemte domæner og fra det mest grundlæggende til det mest avancerede. Hvis indholdet findes i flere formater, giver vi dig besked om det, så du kan vælge det format, der bedst imødekommer dine behov.  
 
-## <a name="business-value"></a>Forretningsværdi<a name="busvalue"></a>
+## <a name="business-value"></a><a name="business-value"></a>Forretningsværdi<a name="busvalue"></a>
 
 | Indhold     | Beskrivelse    | Format                                | Længde              |
 |-------------|----------------|---------------------------------------|---------------------|
@@ -21,7 +21,7 @@ Følgende katalog er organiseret fra kerneviden til bestemte domæner og fra det
 | [Udforske Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/) | Udforske Dynamics 365 Business Central-funktioner    | Websted    |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/)            | Dette modul viser programfunktioner, fordele og eksempler på Dynamics 365 Business Central-handlinger.    | Gratis onlinelæringssti i dit eget tempo | 24 minutter          |
 
-## <a name="getting-started"></a>Introduktion<a name="get-started"></a>
+## <a name="getting-started"></a><a name="getting-started"></a>Introduktion<a name="get-started"></a>
 
 | Indhold   | Beskrivelse   | Format                                | Længde              |
 |-----------|---------------|---------------------------------------|---------------------|
@@ -30,7 +30,7 @@ Følgende katalog er organiseret fra kerneviden til bestemte domæner og fra det
 | [Arbejde som en professionel med data i Business Central](/training/paths/work-pro-data-dynamics-365-business-central) | Er du blot kommet i gang med Business Central? Denne læringssti hjælper dig med at forberede dig til de forskellige typer data i Business Central, og hvordan du finder de oplysninger, du skal bruge, i programmet.      | Gratis onlinelæringssti i dit eget tempo | 2 timer og 27 minutter  |
 | [Business Central YouTube-afspilningsliste](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | YouTube-landingsside for Dynamics 365 Business Central-videoer  | YouTube-videoer  |                     |
 
-## <a name="grow-your-business"></a>Udvid din virksomhed<a name="grow"></a>
+## <a name="grow-your-business"></a><a name="grow-your-business"></a>Udvid din virksomhed<a name="grow"></a>
 
 | Indhold   | Beskrivelse        | Format                                | Længde                |
 |-----------|--------------------|---------------------------------------|-----------------------|

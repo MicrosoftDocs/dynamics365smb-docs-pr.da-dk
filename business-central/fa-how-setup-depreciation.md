@@ -8,7 +8,7 @@ ms.date: 06/28/2021
 ms.author: edupont
 ---
 
-# <a name="set-up-fixed-asset-depreciation"></a>Opsætte afskrivning af anlægsaktiv
+# <a name="set-up-fixed-asset-depreciation"></a><a name="set-up-fixed-asset-depreciation"></a>Opsætte afskrivning af anlægsaktiv
 
 Du kan bruge forskellige afskrivningsmetoder til forberedelse af årsregnskab og selvangivelse. Mange store virksomheder benytter lineær afskrivning i deres årsregnskab, fordi dette som regel tillader angivelse af højere indkomst. Af skattemæssige årsager bruger mange virksomheder dog en metode til hurtigere afskrivning såsom saldoafskrivning. Du kan definere afskrivningsmetoden for anlægsaktivet med feltet **Afskrivningsmetode** på siden **Anlægskort**. Du kan finde yderligere oplysninger om de forskellige metoder i [Afskrivningsmetoder](fa-depreciation-methods.md).
 
@@ -16,7 +16,7 @@ Du kan konfigurere de afskrivningsprofiler, du definerer de forskellige afskrivn
 
 Når du har oprettet de relevante afskrivningsprofiler, skal du tildele en eller flere afskrivningsprofiler til hvert anlægsaktiv. En afskrivningsprofil, der er tildelt til et anlægsaktiv, kaldes en anlægsafskrivningsprofil. Du kan opsætte et ubegrænset antal afskrivningsprofiler for et anlæg.  
 
-## <a name="to-create-a-depreciation-book"></a>Sådan oprettes en afskrivningsprofil
+## <a name="to-create-a-depreciation-book"></a><a name="to-create-a-depreciation-book"></a>Sådan oprettes en afskrivningsprofil
 
 I en anlægsafskrivningsprofil angiver du, hvordan anlægsaktiver skal afskrives. Du kan definere flere afskrivningsprofiler for at tage højde for forskellig slags afskrivningsmetoder.  
 
@@ -34,7 +34,7 @@ I en anlægsafskrivningsprofil angiver du, hvordan anlægsaktiver skal afskrives
 
 Hvis du f.eks. sælger et anlægsaktiv, hvor afskrivningsprofilen ikke angiver afrunding, men virksomhedens finans opsætning kræver afrunding, vises der en fejlmeddelelse om, at et beløb skal afrundes på en post, når du sælger anlægsaktivet.  
 
-## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Sådan tildeles en afskrivningsprofil til et anlægsaktiv
+## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a><a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Sådan tildeles en afskrivningsprofil til et anlægsaktiv
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsaktiver**, og vælg derefter det relaterede link.
 2. Vælg det anlægsaktiv, som du vil konfigurere en anlægsafskrivningsprofil for.
@@ -48,7 +48,7 @@ Hvis du f.eks. sælger et anlægsaktiv, hvor afskrivningsprofilen ikke angiver a
     > [!NOTE]  
     > Når du bruger den brugerdefinerede afskrivningsmetode, skal du tildele afskrivningsprofilen på en anden måde. Du kan finde flere oplysninger i [konfigurere brugerdefineret afskrivningsmetode](fa-how-setup-user-defined-depreciation-method.md).
 
-## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Sådan tildeles en afskrivningsprofil til flere anlægsaktiver med en kørsel
+## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a><a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Sådan tildeles en afskrivningsprofil til flere anlægsaktiver med en kørsel
 
 Hvis du vil tildele en afskrivningsprofil til flere anlægsaktiver, kan du bruge kørslen **Opret anlægsafskr.profiler** til at oprette anlægsafskrivningsprofiler.  
 
@@ -62,7 +62,7 @@ Hvis du vil tildele en afskrivningsprofil til flere anlægsaktiver, kan du bruge
 6. I oversigtspanelet **Anlæg** kan du definere et filter for at udvælge de aktiver, som du vil oprette anlægsafskrivningsprofiler for.
 7. Vælg knappen **OK**.
 
-## <a name="to-set-up-depreciation-posting-types"></a>Sådan defineres bogføringstyper for afskrivning
+## <a name="to-set-up-depreciation-posting-types"></a><a name="to-set-up-depreciation-posting-types"></a>Sådan defineres bogføringstyper for afskrivning
 
 For hver afskrivningsprofil skal du angive, hvordan [!INCLUDE[prod_short](includes/prod_short.md)] skal håndtere forskellige bogføringstyper. For eksempel skal det angives, om bogføringen skal være debet eller kredit, og om bogføringstypen skal medtages i afskrivningsgrundlaget.  
 
@@ -75,7 +75,7 @@ For hver afskrivningsprofil skal du angive, hvordan [!INCLUDE[prod_short](includ
 
 Det anbefales dog, at du ikke ændrer opsætningen af afskrivningsprofiler, hvori posteringer allerede er blevet bogført. Ændringer har ikke indflydelse på posteringer, som allerede er bogført, hvilket ville gøre afskrivningsprofilstatistikken misvisende.
 
-## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Sådan defineres standardtyper og -kørsler for anlægsafskrivning
+## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a><a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Sådan defineres standardtyper og -kørsler for anlægsafskrivning
 
 For hver afskrivningsprofil skal du definere en standardopsætning med typer og navne. Du bruger disse standarder til at duplikere linjer fra én kladde til en anden, oprette kladdelinjer ved hjælp af kørslen **Beregn afskrivning** eller **Indekser anlæg**, duplikere anskaffelsesomkostninger i forsikringskladden.  
 
@@ -84,15 +84,15 @@ For hver afskrivningsprofil skal du definere en standardopsætning med typer og 
 3. Hvis du vil have en standardopsætning for hver enkelt bruger, skal du vælge feltet **Bruger-id** for at vælge opsætninger på siden **Brugere**.  
 4. Vælg den kladdetype eller kørsel i de andre felter, som skal bruges som standard.  
 
-## <a name="fiscal-year-365-days-field-depreciation"></a>Feltet Regnskabsår 365 dage afskrivning
+## <a name="fiscal-year-365-days-field-depreciation"></a><a name="fiscal-year-365-days-field-depreciation"></a>Feltet Regnskabsår 365 dage afskrivning
 
 Når der beregnes afskrivninger i kørslen Beregn afskrivninger, bruges der normalt et standardår på 360 dage i kørslen, hvor hver af de 12 måneder består af 30 dage.
 
 Hvis du markerer dette felt, anvendes der i stedet et kalenderår på 365 dage i kørslen Beregn afskrivninger, hvor hver måned beregnes med samme antal dage som i kalenderen. Den eneste undtagelse er februar i skudår, som i kørslen behandles, som om der er 28 dage og ikke 29. Pga. det anses alle år, også skudår, for at bestå af 365 dage.
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/configure-depreciation-books/)
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Opsætning af Anlægsaktiver](fa-setup.md)  
 [Anlægsaktiver](fa-manage.md)  
