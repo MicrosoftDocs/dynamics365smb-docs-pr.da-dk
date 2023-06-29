@@ -9,7 +9,7 @@ ms.date: 06/02/2023
 ms.custom: bap-template
 ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ---
-# <a name="archive-documents"></a>Arkivere dokumenter
+# Arkivere dokumenter
 
 Du kan arkivere salgs-og købsordrer, tilbud, returvareordrer og rammeordrer. Hvis du arkiverer dokumenter, kan du gendanne originalen. Du kan arkiverer et salgs- eller købsdokument flere gange og gemme en ny arkiveret version hver gang.
 
@@ -17,7 +17,7 @@ For arkiverede salgsdokumenter, hvor originalen stadig findes og ikke er bogfør
 
 Du kan kun genbruge indholdet i arkiverede dokumenter, hvis originalen er slettet, ved at kopiere dataene, for eksempel med handlingen **Kopiér fra dokument**.  
 
-## <a name="to-set-up-automatic-document-archiving"></a>Sådan konfigurerer du automatisk dokumentarkivering
+## Sådan konfigurerer du automatisk dokumentarkivering
 
 Du kan konfigurere automatisk arkivering af salgs- og indkøbsordrer, tilbud, rammeordrer og returordrer. Når automatisk arkivering er aktiveret, oprettes der en ny version af det arkiverede dokument, når nogen udfører følgende opgaver:
 
@@ -39,7 +39,7 @@ I følgende tabel beskrives indstillingerne for feltet **Arkivér tilbud**.
 |**Spørgsmål**|Spørg brugeren om at vælge, om salgstilbud skal arkiveres, når de slettes.|
 |**Altid**|Arkivér automatisk salgstilbud, når de slettes.|
 
-## <a name="to-manually-archive-a-sales-order"></a>Sådan arkiveres en salgsordre manuelt
+## Sådan arkiveres en salgsordre manuelt
 
 Nedenstående procedure beskriver, hvordan du arkiverer en salgsordre manuelt. Fremgangsmåden er den samme for alle ordrer, rammeordrer, returvareordrer og tilbud.
 
@@ -49,7 +49,7 @@ Nedenstående procedure beskriver, hvordan du arkiverer en salgsordre manuelt. F
 
 Salgsordren arkiveres. Du kan se den på siden **Arkiverede salgsordrer**.
 
-## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Sådan gendannes en ikke-bogført salgsordre fra arkivet
+## Sådan gendannes en ikke-bogført salgsordre fra arkivet
 
 Følgende procedure beskriver, hvordan du gendanner en arkiveret salgsordre tilbage til den oprindelige salgsordre. Gendannelse af et dokument er kun muligt, når det oprindelige dokument ikke er bogført. Fremgangsmåden er den samme for alle ordrer, rammeordrer, returvareordrer og tilbud.
 
@@ -58,7 +58,7 @@ Følgende procedure beskriver, hvordan du gendanner en arkiveret salgsordre tilb
 
 Oplysningerne i den oprindelige salgsordre erstattes med oplysningerne fra den valgte arkiverede version.
 
-## <a name="to-delete-archived-sales-orders"></a>Sådan sletter du arkiverede salgsordrer
+## Sådan sletter du arkiverede salgsordrer
 
 Brug en opbevaringspolitik til at rydde op i arkiverede dokumenter, som du ikke længere har brug for. Opbevaringspolitikker lader administratorer definere, hvor lang tid de vil gemme data. De kan f.eks. oprette en politik, der sletter data efter en udløbsdato. Du kan finde flere oplysninger i [Definere opbevaringspolitikker](admin-data-retention-policies.md).
 
@@ -68,7 +68,7 @@ Der er et par ting, du skal være opmærksom på, når du opretter opbevaringspo
 * Når du konfigurerer opbevaringspolitikken, kan du angive, at politikken skal slette alle arkiverede versioner af et dokument, undtagen den seneste. Du kan f.eks. have ti versioner af et dokument og vil beholde en kopi af den seneste. 
 * Business Central beregner udløbsdatoen for dokumenter baseret på datoen for den senest arkiverede version.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Spore bilagslinjer](across-how-to-track-document-lines.md)  
 [Salg](sales-manage-sales.md)  
