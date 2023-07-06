@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'bi, power BI, analysis, KPI, financial report'
 ms.search.form: '2632, 2631, 2633, 2623, 2634'
 ---
-# <a name="analyze-data-with-statistical-accounts"></a><a name="analyze-data-with-statistical-accounts"></a>Analysere data med statistiske konti
+# <a name="analyze-data-with-statistical-accounts"></a><a name="analyze-data-with-statistical-accounts"></a><a name="analyze-data-with-statistical-accounts"></a>Analysere data med statistiske konti
 
 Brug statistiske konti til at supplere oplysninger i regnskabsrapporter. Med statistiske konti kan du tilføje målinger, der er baseret på ikke-transaktionsdata. Du tilføjer ikke-transaktionsdata som nummerbaserede enheder, f.eks.:
 
@@ -26,12 +26,12 @@ Når de arbejder, svarer de statistiske konti til bogføringskonti. De gemmer tr
 
 Der er et par vigtige forskelle mellem de statistiske konti og bogføringskonti. Statistiske konti er separate enheder og medtages ikke i rapporter om råbalance. Du behøver heller ikke at afstemme debet-og kreditbeløb, når du bruger statistiske konto kladder til at bogføre poster til en statistisk konto. Du skal blot bogføre beløbet.
 
-## <a name="set-up-a-statistical-account"></a><a name="set-up-a-statistical-account"></a>Sådan oprettes en statistisk konto
+## <a name="set-up-a-statistical-account"></a><a name="set-up-a-statistical-account"></a><a name="set-up-a-statistical-account"></a>Sådan oprettes en statistisk konto
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Statistiske konti**, og vælg derefter det relaterede link.
 1. Udfyld felterne i oversigtspanelet **Generelt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="post-amounts-to-a-statistical-account"></a><a name="post-amounts-to-a-statistical-account"></a>Bogføre beløb på en statistisk konto
+## <a name="post-amounts-to-a-statistical-account"></a><a name="post-amounts-to-a-statistical-account"></a><a name="post-amounts-to-a-statistical-account"></a>Bogføre beløb på en statistisk konto
 
 1. Hvis du vil bogføre de beløb, der skal spores, skal du vælge handlingen **Kladde til statistiske konti** på siden **Statistiske konti**.
 1. I feltet **Bogføringsdato** skal du angive den sidste dato i den bogføringsperiode, du vil bogføre beløb for.
@@ -41,11 +41,11 @@ Der er et par vigtige forskelle mellem de statistiske konti og bogføringskonti.
 1. Angiv det beløb, der skal tilbagebetales, i feltet **Beløb**. 
 1. Valgfrit: Hvis du vil medtage den statistiske konto i mere avancerede analyser, skal du angive dimensioner i felterne **Afdelingskode** og **Debitorgruppekode**. Hvis du vil vide mere om dimensioner, skal du gå til [Analyse af data for dimensioner](bi-how-analyze-data-dimension.md).
 
-## <a name="verify-statistical-account-amounts"></a><a name="verify-statistical-account-amounts"></a>Kontrollere statistiske kontobeløb
+## <a name="verify-statistical-account-amounts"></a><a name="verify-statistical-account-amounts"></a><a name="verify-statistical-account-amounts"></a>Kontrollere statistiske kontobeløb
 
 Brug handlingen **Statistisk kontoafstemning** på siden **Statistiske konti** for at kontrollere, at de registrerede beløb er korrekte for hver periode.  
 
-## <a name="include-the-statistical-account-in-a-financial-report"></a><a name="include-the-statistical-account-in-a-financial-report"></a>Medtage den statistiske konto i en finansiel rapport
+## <a name="include-the-statistical-account-in-a-financial-report"></a><a name="include-the-statistical-account-in-a-financial-report"></a><a name="include-the-statistical-account-in-a-financial-report"></a>Medtage den statistiske konto i en finansiel rapport
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Finansielle rapporter**, og vælg derefter det relaterede link.
 1. Opret en ny økonomisk rapport på en af følgende måder:
@@ -61,7 +61,7 @@ Brug handlingen **Statistisk kontoafstemning** på siden **Statistiske konti** f
 1. I feltet **rækketype** skal du vælge, om saldoen på bogføringsdatoen eller begyndelsen af bogføringsperioden skal vises, eller om der skal vises en ændring i beløbet i perioden.
 1. Udfyld de resterende felter. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Financial Business Intelligence](bi.md)  
 [Finansrapporter og analyser i Business Central](finance-reports.md)

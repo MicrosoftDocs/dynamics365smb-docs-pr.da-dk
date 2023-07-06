@@ -11,7 +11,7 @@ ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="suggest-vendor-payments"></a><a name="suggest-vendor-payments"></a>Lav forslag
+# <a name="suggest-vendor-payments"></a><a name="suggest-vendor-payments"></a><a name="suggest-vendor-payments"></a>Lav forslag
 
 På siden **Udbetalingskladde** kan du bruge kørslen **Lav kreditorbetalingsforslag** til at foreslå betalingslinjer. Linjer til betalinger, som snart forfalder, eller betalinger, hvor en kontantrabat er tilgængelig, foreslås baseret på dine indstillinger.
 
@@ -26,14 +26,14 @@ For at få det fulde udbytte af betalingsforslag skal du først prioritere dine 
     * Forfaldne kreditorposter, der ikke er prioriteret.  
     * Åbne kreditorposter, hvor der ydes kontantrabat, arrangeret efter kreditornummer.  
 
-## <a name="to-use-the-suggest-vendor-payments-function"></a><a name="to-use-the-suggest-vendor-payments-function"></a>Sådan bruges funktionen Lav kreditorbetalingsforslag
+## <a name="to-use-the-suggest-vendor-payments-function"></a><a name="to-use-the-suggest-vendor-payments-function"></a><a name="to-use-the-suggest-vendor-payments-function"></a>Sådan bruges funktionen Lav kreditorbetalingsforslag
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udbetalingskladder**, og vælg derefter det relaterede link.  
 2. Åbn den relevante kladde, og vælg derefter handlingen **Lav kreditorbetalingsforslag**.  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Vælg knappen **OK**.  
 
-## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a><a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Sådan indsættes forfaldsdatoen som bogføringsdato på betalingskladdelinjer
+## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a><a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a><a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Sådan indsættes forfaldsdatoen som bogføringsdato på betalingskladdelinjer
 
 Når du udfører kørslen **Lav kreditorbetalingsforslag** til at oprette betalingslinjer for dine kreditorer, kan du udfylde to særlige felter for at sikre, at de genererede linjer bruger forfaldsdatoen til at beregne bogføringsdatoen. Disse felter er **Beregn bogføringsdato fra forfaldsdato for udligningsbilag** og **Forskydning af forfaldsdato for udligningsbilag**.  
 
@@ -47,9 +47,9 @@ Du kan manuelt oprette betalingslinjer ved at bruge forfaldsdatoen til at beregn
 > [!NOTE]  
 >   Hvis købsfakturaen er overskredet, bliver bogføringsdatoen indstillet til arbejdsdatoen, og skrifttypen på linjen bliver rød.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Foretage betaling](payables-make-payments.md)  

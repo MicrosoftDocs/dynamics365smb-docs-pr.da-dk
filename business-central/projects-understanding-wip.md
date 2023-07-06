@@ -11,7 +11,7 @@ ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="understanding-wip-methods-in-project-management"></a><a name="understanding-wip-methods-in-project-management"></a>Forstå via-metoder i projektstyring
+# <a name="understanding-wip-methods-in-project-management"></a><a name="understanding-wip-methods-in-project-management"></a><a name="understanding-wip-methods-in-project-management"></a>Forstå via-metoder i projektstyring
 
 Efterhånden som status for en sag ændrer sig, forbruges der materialer, ressourcer og andre udgifter, og disse skal bogføres i sagen. Igangværende arbejde er en funktion, som giver dig mulighed for at estimere den økonomiske værdi af sager i finansregnskabet under udførelsen af sagen. Du kan i mange tilfælde bogføre udgifterne for en sag, før sagen faktureres. Hvis der kun er bogført udgifter, vil din regnskabsopgørelse ikke være helt korrekt.
 
@@ -27,9 +27,9 @@ Du kan beregne VIA og bogføre værdien i finansregnskabet for at spore værdien
 | Færdiggørelsesgrad |Realiserede omkostninger = Forbrug-kostbeløb<br /><br /> Realiseret indtægt = Fakturerbar salgspris x Færdiggørelsesgrad<br /><br /> Færdiggørelsesgrad = Forbrug-kostbeløb/Budget-kostbeløb<br /> (Hentet i feltet **Fuldførelse af omkostning i %** på Sagsopgavelinjer)<br /><br /> Igangværende arbejde salg = Realiseret salg - Fakturerbart faktureret salgsbeløb |I beregninger af færdiggørelsesgrad realiseres indtægt proportionalt baseret på færdiggørelsesgraden, dvs. Forbrug-kostbeløb over for Budgetomkostninger.<br /><br /> Denne beregning kræver, at det fakturerbare salgsbeløb og det budgetterede kostbeløb angives korrekt for hele sagen. |
 | Afsluttet kontrakt |VIA-beløb = VIA-kostbeløb = Forbrug (kostbeløb)<br /><br /> Igangværende arbejde - salgsbeløb = Fakturerbar (faktureret salg) |Afsluttet kontrakt realiserer ikke indtægter og omkostninger, før sagen er afsluttet. Du kan vælge denne metode, hvis der er stor tvivl omkring de anslåede kostbeløb og sagens omsætning.<br /><br /> Alt forbrug bogføres til kontoen til VIA-omkostninger (aktiv), og alt faktureret salg bogføres til kontoen til faktureret VIA-salg (kreditorkonto), indtil sagen er afsluttet. |
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/calculate-post-job-wip/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/calculate-post-job-wip/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Projektstyring](projects-manage-projects.md)  
 [Finans](finance.md)  

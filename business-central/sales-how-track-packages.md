@@ -8,12 +8,12 @@ ms.search.form: '142, 800, 806'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="track-packages"></a><a name="track-packages"></a>Spore pakker
+# <a name="track-packages"></a><a name="track-packages"></a><a name="track-packages"></a>Spore pakker
 De fleste speditører tilbyder en webtjeneste, som du kan bruge til at spore status for dine pakker, mens de er på vej. Disse oplysninger kan være nyttige i mange forretningsprocesser, f. eks. ved levering af kundeservice. Hvis du bruger mere end én af disse speditører, kan du oprette grundlæggende oplysninger og bruge sporingsfunktionen for forsendelser, bogførte salgsleveringer, bogførte salgsfakturaer, bogførte salgskreditnotaer og bogførte returvaremodtagelser. Du kan finde flere oplysninger i [Oprette speditører](sales-how-to-set-up-shipping-agents.md). 
 
 Følgende fremgangsmåde viser, hvordan en pakke spores fra en bogført salgsleverance, men de samme trin gælder for aktivering af pakkesporing fra den bogførte salgsfaktura, den bogførte salgskreditnota og den bogførte returvarekvittering.  
 
-## <a name="to-track-a-package"></a><a name="to-track-a-package"></a>Sådan spores en pakke
+## <a name="to-track-a-package"></a><a name="to-track-a-package"></a><a name="to-track-a-package"></a>Sådan spores en pakke
 
 > [!NOTE]
 > I følgende procedure bruges siden Bogført salgsleverance som et eksempel. De trin, du skal følge for at spore en pakke, er de samme på de bogførte salgsfakturaer, bogførte salgskreditnotaer og bogførte returvarekvitteringer.
@@ -24,7 +24,7 @@ Følgende fremgangsmåde viser, hvordan en pakke spores fra en bogført salgslev
 4. Kontroller, at den korrekte speditør og serviceniveauet er korrekt, og luk derefter siden.
 5. Vælg **Spor pakke** for at åbne speditørens pakkesporingstjeneste.
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Oprette speditører](sales-how-to-set-up-shipping-agents.md)  
 [Salg](sales-manage-sales.md)  

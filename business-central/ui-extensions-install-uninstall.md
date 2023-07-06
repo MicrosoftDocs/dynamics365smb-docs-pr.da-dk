@@ -11,7 +11,7 @@ ms.search.keywords: 'app, add-in, manifest, customize, install, uninstall'
 ms.search.form: '2500, 20350'
 ---
 
-# <a name="install-and-uninstall-extensions-apps-in-business-central"></a><a name="install-and-uninstall-extensions-apps-in-business-central"></a>Installere og fjerne udvidelser (apps) i Business Central
+# <a name="install-and-uninstall-extensions-apps-in-business-central"></a><a name="install-and-uninstall-extensions-apps-in-business-central"></a><a name="install-and-uninstall-extensions-apps-in-business-central"></a>Installere og fjerne udvidelser (apps) i Business Central
 
 Du kan ændre [!INCLUDE[prod_short](includes/prod_short.md)] ved at installere apps, der f.eks. tilføjer funktioner, ændrer funktionsmåder eller giver dig adgang til nye onlinetjenester. Du kan finde flere oplysninger i [Tilpasse Business Central ved hjælp af udvidelser](ui-extensions.md).
 
@@ -22,7 +22,7 @@ Du kan ændre [!INCLUDE[prod_short](includes/prod_short.md)] ved at installere a
 
 Hvis du vil bruge et filtypenavn, skal du have fået tildelt de tilladelsessæt, der følger med.
 
-## <a name="install-an-extension"></a><a name="install-an-extension"></a><a name="install"></a>Installér en udvidelse
+## <a name="install-an-extension"></a><a name="install-an-extension"></a><a name="install-an-extension"></a><a name="install"></a>Installér en udvidelse
 
 Du kan administrere apps og udvidelser på siden **Udvidelsesstyring**. Du kan åbne siden fra Start. Alternativt kan du vælge ikonet **Søg efter side eller rapport** ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") Skriv **Udvidelse** i øverste højre hjørne , og vælg derefter det relaterede link.  
 
@@ -69,19 +69,19 @@ Microsoft tilbyder følgende apps:
 * [Udvidelse til britiske GetAddress.io-postnumre](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Send remitteringsadvis](ui-extensions-send-remittance-advice.md)
 
-## <a name="set-up-an-app"></a><a name="set-up-an-app"></a>Konfigurere en app
+## <a name="set-up-an-app"></a><a name="set-up-an-app"></a><a name="set-up-an-app"></a>Konfigurere en app
 
 Når du har installeret en app, skal du muligvis konfigurere den. F. eks. skal du angive den PayPal-konto, der skal bruges, for **PayPal Payments Standard for [!INCLUDE[prod_short](includes/prod_short.md)]**-appen. Hvis det er tilfældet, bliver du spurgt, om du vil konfigurere appen med det samme, når installationen har fuldført [!INCLUDE[prod_short](includes/prod_short.md)]. Der kan kræves opsætninger, før appen kan fungere, eller eventuelt.
 
 Hvis du vælger at konfigurere din app med det samme, og den har en nødvendig installation, [!INCLUDE[prod_short](includes/prod_short.md)] åbnes den nødvendige installation. Opsætningen kan enten være en side, hvor du indtaster oplysninger, eller en assisteret opsætningsvejledning, der kan hjælpe dig gennem trinnene. Hvis du ikke fuldfører installationsprogrammet på én gang, kan du bruge **opsætningerne til _navnet på den app_**-side, som viser alle opsætninger for appen. Krævede opsætninger angivet med **fede bogstaver**.
 
-## <a name="upload-a-per-tenant-extension-pte"></a><a name="upload-a-per-tenant-extension-pte"></a>Overfører en udvidelse pr. lejer (PTE)
+## <a name="upload-a-per-tenant-extension-pte"></a><a name="upload-a-per-tenant-extension-pte"></a><a name="upload-a-per-tenant-extension-pte"></a>Overfører en udvidelse pr. lejer (PTE)
 
 Du kan overføre en PTE ved hjælp af siden **styring af udvidelser**. Gå til **Administrer** på siden **udvidelsesstyring**, og vælg derefter **Overfør udvidelse**. Angiv den. programfil, der skal overføres, på siden **Overfør og installér udvidelse**. Hvis du vil fortsætte, skal du vælge knappen **Acceptér** og derefter knappen **Implementér** for at implementere PTE.
 
 Hvis PTE indeholder ændringer af skemaændringer, er det muligt at *gennemtvinge* overførslen. Hvis du vil gøre det, skal du vælge indstillingen **Gennemtving** i tilstanden **Skemasynkronisering**. Du får vist en bekræftelsesdialogboks, før du fortsætter.  
 
-## <a name="uninstall-an-app"></a><a name="uninstall-an-app"></a>AfInstaller en app
+## <a name="uninstall-an-app"></a><a name="uninstall-an-app"></a><a name="uninstall-an-app"></a>AfInstaller en app
 
 Du fjerner en app via siden **Udvidelsesstyring**. Hvis du vil fjerne en app, skal du markere den på siden og derefter vælge handlingen til **afinstallation**. Hvis du fjerner en app, og du senere skifter mening, kan du installere appen igen.
 
@@ -92,7 +92,7 @@ Når du fjerner en app, som du har brugt dine data, er de som standard ikke slet
 > * Hvis du aktiverer til/fra-feltet **Slet udvidelsesdata**, slettes alle data for appen *plus* data til alle afhængige apps, når du fjerner appen. Handlingen kan ikke fortrydes.
 > * Nogle apps kræves, og du kan ikke slette dem på siden **Udvidelsesstyring**.  
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Tilpasse Business Central](ui-customizing-overview.md)  
 [Business Central-udvidelser fra andre leverandører](ui-extensions-other.md)  

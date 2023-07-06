@@ -10,17 +10,17 @@ ms.custom: bap-template
 ms.search.keywords: incoming document
 ms.search.form: '600, 605, 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611'
 ---
-# <a name="manage-the-intercompany-inbox-and-outbox"></a><a name="manage-the-intercompany-inbox-and-outbox"></a>Administrere IC-indbakken og -udbakken
+# <a name="manage-the-intercompany-inbox-and-outbox"></a><a name="manage-the-intercompany-inbox-and-outbox"></a><a name="manage-the-intercompany-inbox-and-outbox"></a>Administrere IC-indbakken og -udbakken
 
 Alle IC-transaktioner, som du modtager elektronisk fra koncerninterne partnere, vises i den **koncerninterne indbakke**. Du kan lære mere om at behandle indgående IC-transaktioner ved at gå til [Behandle indgående IC-transaktioner](#process-incoming-intercompany-transactions). Alle IC-transaktioner, som du sender til partnere, vises i den **koncerninterne udbakke**. Du kan lære mere om at behandle udgående IC-transaktioner ved at gå til [Behandle udgående IC-transaktioner](#to-process-outgoing-intercompany-transactions).
 
 Men afhængigt af virksomhedens interne opsætning, håndteres der automatisk visse transaktioner. Du kan indstille kilde regnskabet og partnervirksomheder til automatisk at oprette dokumenter og kladder, der svarer til transaktioner, som partnere bogfører via IC-finanskladden. Hvis du vil vide mere om brug af IC-kladder, skal du gå til [Udfylde og bogføre en IC-kladde](intercompany-how-work-documents-journals.md#fill-in-and-post-an-intercompany-journal).  
 
-## <a name="organizing-the-inbox"></a><a name="organizing-the-inbox"></a>Organisere indbakken
+## <a name="organizing-the-inbox"></a><a name="organizing-the-inbox"></a><a name="organizing-the-inbox"></a>Organisere indbakken
 
 Du kan bruge filterfelterne øverst i indbakken til at bestemme, hvilke transaktioner der skal vises på siden. Hvis du f.eks. kun vil udforske transaktioner oprettet af en bestemt partner, kan du angive det i filtrene **Transaktionskilde** og **Koncernintern partnerkode**.  
 
-### <a name="transaction-source"></a><a name="transaction-source"></a>Transaktionskilde
+### <a name="transaction-source"></a><a name="transaction-source"></a><a name="transaction-source"></a>Transaktionskilde
 
 Hvad du kan foretage dig med en transaktion, afhænger af om den er:  
 
@@ -29,7 +29,7 @@ Hvad du kan foretage dig med en transaktion, afhænger af om den er:
 
 Du kan bruge feltet **Vis transaktionskilde** til at filtrere siden **Koncerninterne indbakketransaktioner**, så der kun vises én af disse typer transaktioner. Du kan også filtrere efter koncernintern partner eller efter oplysningerne i feltet **Linjehandling**.  
 
-#### <a name="created-by-intercompany-partner"></a><a name="created-by-intercompany-partner"></a>Oprettet af koncernintern partner
+#### <a name="created-by-intercompany-partner"></a><a name="created-by-intercompany-partner"></a><a name="created-by-intercompany-partner"></a>Oprettet af koncernintern partner
 
  Når du modtager en ny transaktion, der er oprettet af en partner, kan du vælge enten at:
 
@@ -37,15 +37,15 @@ Du kan bruge feltet **Vis transaktionskilde** til at filtrere siden **Koncernint
 * Afvise transaktionen (returnere den til partneren)  
 * Annullere transaktionen (slette transaktionen uden at returnere den til partneren)  
 
-#### <a name="returned-from-intercompany-partner"></a><a name="returned-from-intercompany-partner"></a>Returneret fra koncernintern partner
+#### <a name="returned-from-intercompany-partner"></a><a name="returned-from-intercompany-partner"></a><a name="returned-from-intercompany-partner"></a>Returneret fra koncernintern partner
 
 Hvis din koncerninterne partner afviser en transaktion, kan du annullere transaktionen i indbakken og derefter oprette rettelseslinjer eller tilbageføre kladden eller dokumentet i regnskabet.  
 
-## <a name="recreating-inbox-entries"></a><a name="recreating-inbox-entries"></a>Gendanne indbakkeposter
+## <a name="recreating-inbox-entries"></a><a name="recreating-inbox-entries"></a><a name="recreating-inbox-entries"></a>Gendanne indbakkeposter
 
 Hvis du har accepteret en transaktion i indbakken, men efterfølgende har slettet dokumentet eller kladden i stedet for at bogføre den/det, kan du gendanne indbakkeposten og acceptere dokumentet eller kladden igen.  
 
-## <a name="get-an-overview-of-intercompany-transactions-for-a-period"></a><a name="get-an-overview-of-intercompany-transactions-for-a-period"></a>Få vist en oversigt over IC-transaktioner i en periode
+## <a name="get-an-overview-of-intercompany-transactions-for-a-period"></a><a name="get-an-overview-of-intercompany-transactions-for-a-period"></a><a name="get-an-overview-of-intercompany-transactions-for-a-period"></a>Få vist en oversigt over IC-transaktioner i en periode
 
 Du kan få vist en oversigt over alle de IC-transaktioner, som du har sendt og modtaget i en periode. Brug rapporten **Koncerninterne transaktioner** til at se alle IC-finansposter, -debitorposter og -kreditorposter.
 
@@ -55,7 +55,7 @@ Du kan få vist en oversigt over alle de IC-transaktioner, som du har sendt og m
 > * For synkroniseringspartneren skal du aktivere **Auto-send transaktioner** til siden **Koncernintern konfiguration**.
 > * For partnervirksomheder skal du aktivere **Auto-send transaktioner** til siden **Koncernintern konfiguration** .  
 
-## <a name="import-intercompany-transactions-from-a-file"></a><a name="import-intercompany-transactions-from-a-file"></a>Importere IC-transaktioner fra en fil
+## <a name="import-intercompany-transactions-from-a-file"></a><a name="import-intercompany-transactions-from-a-file"></a><a name="import-intercompany-transactions-from-a-file"></a>Importere IC-transaktioner fra en fil
 
 [!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
 
@@ -68,7 +68,7 @@ Hvis du har en IC-partner, der ikke er med i den samme database som dit regnskab
 
 Transaktioner indlæses nu til indbakken, hvor du kan arbejde med dem.
 
-## <a name="process-incoming-intercompany-transactions"></a><a name="process-incoming-intercompany-transactions"></a>Sådan behandles indgående IC-transaktioner
+## <a name="process-incoming-intercompany-transactions"></a><a name="process-incoming-intercompany-transactions"></a><a name="process-incoming-intercompany-transactions"></a>Sådan behandles indgående IC-transaktioner
 
 Når dine partnere sender dig IC-transaktioner, ender transaktionerne i IC-indbakken. Du skal tage stilling til hver transaktion i indbakken og følge op på den.  
 
@@ -83,7 +83,7 @@ Linjer, som du afviser og vender tilbage til din partner, flyttes til din interc
 
 For linjer, som en partner afviste og returnerede, skal du nu bogføre en rettelse af den oprindelige transaktion, som du har bogført i regnskabet.
 
-## <a name="to-process-outgoing-intercompany-transactions"></a><a name="to-process-outgoing-intercompany-transactions"></a>Sådan håndteres udgående IC-transaktioner
+## <a name="to-process-outgoing-intercompany-transactions"></a><a name="to-process-outgoing-intercompany-transactions"></a><a name="to-process-outgoing-intercompany-transactions"></a>Sådan håndteres udgående IC-transaktioner
 
 Når du bogfører en IC-kladde eller et IC-dokument eller sender en IC-ordrebekræftelse, skal du gå til transaktionerne til din IC-udbakke. Du skal åbne udbakken og behandle transaktionerne, før de kan sendes til dine partnere.  
 
@@ -96,7 +96,7 @@ Brug handlingen **Returner til Indbakke** for at flytte til indbakken, hvor du d
 
 Hvis du bruger handlingen **Annuller**, skal du nu bogføre en rettelse af den oprindelige transaktion, som du har bogført i regnskabet.  
 
-## <a name="recreate-intercompany-inbox-transactions"></a><a name="recreate-intercompany-inbox-transactions"></a>Gendanne transaktionerne i den koncerninterne indbakke
+## <a name="recreate-intercompany-inbox-transactions"></a><a name="recreate-intercompany-inbox-transactions"></a><a name="recreate-intercompany-inbox-transactions"></a>Gendanne transaktionerne i den koncerninterne indbakke
 
 Du kan måske gendanne en transaktion i indbakken eller udbakken. Hvis du f.eks. har accepteret en transaktion i indbakken, men efterfølgende har slettet dokumentet eller kladden i stedet for at bogføre den/det, kan du gendanne indbakkeposten og acceptere dokumentet eller kladden igen.  
 
@@ -105,7 +105,7 @@ Følgende procedure beskriver, hvordan du gendanner transaktioner i indbakken, m
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Håndterede IC-indbakketransaktioner**, og vælg derefter det relaterede link.  
 2. På siden **Håndterede IC-indbakketransaktioner**, skal du markere linjen med den transaktion, som du vil gendanne i indbakken, og derefter vælge handlingen **Genopret indbakketransaktion**.  
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Administrere Intercompany-transaktioner (IC)](intercompany-manage.md)  
 [Finans](finance.md)  

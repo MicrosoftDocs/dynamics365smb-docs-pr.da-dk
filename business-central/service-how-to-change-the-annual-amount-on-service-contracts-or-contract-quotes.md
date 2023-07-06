@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a><a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ændre det årlige beløb på servicekontrakter eller kontrakttilbud
+# <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a><a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a><a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Ændre det årlige beløb på servicekontrakter eller kontrakttilbud
 Du kan ændre det årlige beløb på en servicekontrakt eller et kontrakttilbud til det korrekte beløb, der faktureres årligt.  
 
-## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a><a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Sådan ændres det årlige beløb på en servicekontrakt eller et kontrakttilbud
+## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a><a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a><a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Sådan ændres det årlige beløb på en servicekontrakt eller et kontrakttilbud
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Servicekontrakter** eller **Servicekontrakttilbud**, og vælg derefter det relaterede link.  
 2. Vælg kontrakten eller kontrakttilbuddet.  
@@ -22,14 +22,14 @@ Du kan ændre det årlige beløb på en servicekontrakt eller et kontrakttilbud 
 5. Rediger indholdet i feltet **Årligt beløb**. Du kan ikke underskrive, dvs. konvertere til en servicekontrakt, hvis du arbejder på et kontrakttilbud, eller låse en servicekontrakt, hvis det årlige beløb er negativt. Hvis det årlige beløb angives til nul, skal indholdet af feltet **Faktureringsperiode** angives til **Ingen** ved underskrivning eller låsning af servicekontrakten.  
 6. Afhængigt af om afkrydsningsfeltet **Tillad beløb, der ikke stemmer** er markeret, skal du køre enten manuel eller automatisk fordeling af den årlige beløbsdifference. Kontraktlinjerne bliver opdateret, så feltværdien **Årligt. Årlige beløb** er lig med det nye årlige beløb.  
 
-## <a name="distributing-differences-between-new-and-calculated-annual-amounts"></a><a name="distributing-differences-between-new-and-calculated-annual-amounts"></a>Distribuere forskelle mellem nye og beregnede årlige beløb
+## <a name="distributing-differences-between-new-and-calculated-annual-amounts"></a><a name="distributing-differences-between-new-and-calculated-annual-amounts"></a><a name="distributing-differences-between-new-and-calculated-annual-amounts"></a>Distribuere forskelle mellem nye og beregnede årlige beløb
 Hvis du ændrer det årlige beløb i en servicekontrakt eller et kontrakttilbud, skal du evt. fordele differencen mellem det nye og det beregnede årlige beløb på kontraktlinjerne. Der er tre måder at fordele beløb på:
 
 * Ligelig fordeling  
 * Fordeling baseret på linjebeløb  
 * Fordeling baseret på avance
 
-### <a name="even-distribution"></a><a name="even-distribution"></a>Ligelig fordeling
+### <a name="even-distribution"></a><a name="even-distribution"></a><a name="even-distribution"></a>Ligelig fordeling
 Hvis du ændrer det årlige beløb i servicekontrakten eller kontrakttilbuddet, kan du blive nødt til at fordele differencen mellem det nye og det beregnede årlige beløb på kontraktlinjerne. Ligelig fordeling er en af de automatiske fordelingsmetoder, som kan hjælpe med at fordele differencen mellem det nye og det beregnede beløb ligeligt mellem linjebeløbene på kontraktlinjerne. Følgende procedure beskriver hovedidéen bag denne metode:  
 
 1. Differencen mellem de nye værdier i felterne **Årligt beløb** og **Beregnet årligt beløb** divideres med antallet af kontraktlinjer i servicekontrakten eller kontrakttilbuddet.  
@@ -41,7 +41,7 @@ Hvis du ændrer det årlige beløb i servicekontrakten eller kontrakttilbuddet, 
 
  Trinnene gentages for hver kontraktlinje.  
 
-#### <a name="example"></a><a name="example"></a>Eksempel
+#### <a name="example"></a><a name="example"></a><a name="example"></a>Eksempel
 Afkrydsningsfeltet **Tillad beløb, der ikke stemmer** er ikke markeret i den servicekontrakt, der indeholder tre kontraktlinjer med følgende oplysninger.  
 
 |Vare|Linjekostpris|Linjeværdi|Linjerabatpct.|Linjerabatbeløb|Linjebeløb|Avance|  
@@ -62,7 +62,7 @@ Kontraktlinjerne indeholder derefter følgende data.
 |Vare 2|40,00|50.00|16.00|8.00|42.00|2.00|  
 |Vare 3|50.00|70.00|14.29|10.00|60.00|10.00|  
 
-### <a name="distribution-based-on-line-amount"></a><a name="distribution-based-on-line-amount"></a>Fordeling baseret på linjebeløb
+### <a name="distribution-based-on-line-amount"></a><a name="distribution-based-on-line-amount"></a><a name="distribution-based-on-line-amount"></a>Fordeling baseret på linjebeløb
 Hvis du ændrer det årlige beløb i servicekontrakten eller kontrakttilbuddet, kan du blive nødt til at fordele differencen mellem det nye og det beregnede årlige beløb på kontraktlinjerne. Fordeling baseret på linjebeløb er en automatisk metode, som kan hjælpe med at fordele differencen mellem det nye og det beregnede beløb mellem linjebeløbene på kontraktlinjerne. Fordelingen foretages proportionalt i forhold til andelene af linjebeløbet i det beregnede årlige beløb. Følgende procedure for fordeling for hver kontraktlinje beskriver hovedidéen bag denne metode:  
 
 1. Andelen af linjebeløbprocenten beregnes på følgende måde: Indholdet af feltet **Linjebeløb** divideres med værdierne i feltet **Beregnet årligt beløb** på alle kontraktlinjerne.  
@@ -75,7 +75,7 @@ Hvis du ændrer det årlige beløb i servicekontrakten eller kontrakttilbuddet, 
 
 Trinnene gentages for hver kontraktlinje.  
 
-#### <a name="example-1"></a><a name="example-1"></a>Eksempel
+#### <a name="example-1"></a><a name="example-1"></a><a name="example-1"></a>Eksempel
 Afkrydsningsfeltet **Tillad beløb, der ikke stemmer** er ikke markeret i den servicekontrakt, der indeholder tre kontraktlinjer med følgende oplysninger.  
 
 |Vare|Linjekostpris|Linjeværdi|Linjerabatpct.|Linjerabatbeløb|Linjebeløb|Avance|  
@@ -102,7 +102,7 @@ Kontraktlinjerne indeholder derefter følgende data.
 |Vare 2|20,00|23.00|8.65|1.99|21.01|1.01|  
 |Vare 3|24.00|27.00|11.37|3.07|23.93|-0,07|  
 
-### <a name="distribution-based-on-profit"></a><a name="distribution-based-on-profit"></a>Fordeling baseret på avance
+### <a name="distribution-based-on-profit"></a><a name="distribution-based-on-profit"></a><a name="distribution-based-on-profit"></a>Fordeling baseret på avance
 Hvis du ændrer det årlige beløb i servicekontrakten eller kontrakttilbuddet, kan du blive nødt til at fordele differencen mellem det nye og det beregnede årlige beløb på kontraktlinjerne. Fordeling baseret på avance er en af de automatiske fordelingsmetoder, som kan hjælpe med at fordele differencen mellem det nye og det beregnede beløb mellem linjebeløbene på kontraktlinjerne. Fordelingen foretages proportionelt i forhold til avanceandelene i den samlede avance i kontrakten eller kontrakttilbuddet. Følgende procedure for fordeling for hver kontraktlinje beskriver hovedidéen bag denne metode:  
 
 1. Andelen af avanceprocenten beregnes på følgende måde: Indholdet af feltet **Avance** divideres med summen af værdierne i feltet **Avance** for alle kontraktlinjerne.  
@@ -113,7 +113,7 @@ Hvis du ændrer det årlige beløb i servicekontrakten eller kontrakttilbuddet, 
     * Linjerabatprocent = Linjerabatbeløb/Linjeværdi * 100.  
     * Avance = Linjebeløb - Linjekostpris  
 
-#### <a name="example-2"></a><a name="example-2"></a>Eksempel
+#### <a name="example-2"></a><a name="example-2"></a><a name="example-2"></a>Eksempel
 Afkrydsningsfeltet **Tillad beløb, der ikke stemmer** er ikke markeret i den servicekontrakt, der indeholder tre kontraktlinjer med følgende oplysninger.  
 
 |Vare|Linjekostpris|Linjeværdi|Linjerabatpct.|Linjerabatbeløb|Linjebeløb|Avance|  
@@ -140,7 +140,7 @@ Kontraktlinjerne indeholder derefter følgende data.
 |Vare 2|50.00|58.00|9.93|5.76|52.24|2.24|  
 |Vare 3|100.00|115.00|8.20|9.43|105.57|5.57|  
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 [Oprette servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Konfigurere Service](service-setup-service.md)  
 

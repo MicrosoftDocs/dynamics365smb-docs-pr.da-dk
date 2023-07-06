@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="partner-pre-sales-learning-catalog"></a><a name="partner-pre-sales-learning-catalog"></a>Undervisningskatalog for førsalgspartnere
+# <a name="partner-pre-sales-learning-catalog"></a><a name="partner-pre-sales-learning-catalog"></a><a name="partner-pre-sales-learning-catalog"></a>Undervisningskatalog for førsalgspartnere
 
 Er du ansvarlig for at demonstrere nøglefunktioner for kunder? 
 
 Følgende katalog er organiseret fra kerneviden til bestemte domæner og fra det mest grundlæggende til det mest avancerede. Hvis indholdet findes i flere formater, giver vi dig besked om det, så du kan vælge det format, der bedst imødekommer dine behov. 
 
-## <a name="get-started"></a><a name="get-started"></a>Kom i gang<a name="get-started"></a>
+## <a name="get-started"></a><a name="get-started"></a><a name="get-started"></a>Kom i gang<a name="get-started"></a>
 
 | Indhold                                                                                                                              | Beskrivelse                                                                                                                                                                                                                                                                                      | Format                                | Længde             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -23,21 +23,21 @@ Følgende katalog er organiseret fra kerneviden til bestemte domæner og fra det
 | [Business Central YouTube-afspilningsliste](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTube-landingsside for Dynamics 365 Business Central-videoer | YouTube-videoer |                    |
 | [Udforske Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Udforske Dynamics 365 Business Central-funktioner                                                                                                                                                                                                                                               | Websted                               |                    |
 
-## <a name="grow-your-business"></a><a name="grow-your-business"></a>Udvid din virksomhed<a name="grow"></a>
+## <a name="grow-your-business"></a><a name="grow-your-business"></a><a name="grow-your-business"></a>Udvid din virksomhed<a name="grow"></a>
 
 | Indhold                                                                                                                                | Beskrivelse                                                                                                                                                                                                                                                                                      | Format                                | Længde                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 Business Central - Overbevisende samtaler med kundeemner (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761) | Errol Schoenfish, direktør for Product Marketing, fortæller om, hvordan du får overbevisende samtaler med kundeemner om Microsoft Dynamics 365 Business Central. | Video | 11 minutter og 16 sekunder |
 | [Dynamics 365 Business Central - Sådan gør du det virkeligt](https://mbspartner.microsoft.com/D365/Videos/101787) | Errol Schoenfish, direktør for Product Marketing, fortæller om, hvordan du kommer i gang med at aktivere demoer til Microsoft Dynamics 365 Business Central. | Video | 12 minutter og 29 sekunder |
 
-## <a name="business-value"></a><a name="business-value"></a>Forretningsværdi<a name="busvalue"></a>
+## <a name="business-value"></a><a name="business-value"></a><a name="business-value"></a>Forretningsværdi<a name="busvalue"></a>
 
 | Indhold                                                                                                                                | Beskrivelse                                                                                                                                                                                                                                                                                      | Format                                | Længde                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Udforske Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/) | Udforske Dynamics 365 Business Central-funktioner | Websted |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | Dette modul viser programfunktioner, fordele og eksempler på Dynamics 365 Business Central-handlinger. | Gratis onlinelæringssti i dit eget tempo | 24 minutter          |
 
-## <a name="whats-new"></a><a name="whats-new"></a>Nyheder<a name="whatsnew"></a>
+## <a name="whats-new"></a><a name="whats-new"></a><a name="whats-new"></a>Nyheder<a name="whatsnew"></a>
 
 | Indhold                                                                                                                                | Beskrivelse                                 | Format                                | Længde                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|

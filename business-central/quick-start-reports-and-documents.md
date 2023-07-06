@@ -12,11 +12,11 @@ ms.date: 08/15/2022
 ms.author: a-reishima
 ---
 
-# <a name="basic-reports-and-documents-output-quick-start"></a><a name="basic-reports-and-documents-output-quick-start"></a>Grundlæggende rapporter og dokumenter output, hurtig start
+# <a name="basic-reports-and-documents-output-quick-start"></a><a name="basic-reports-and-documents-output-quick-start"></a><a name="basic-reports-and-documents-output-quick-start"></a>Grundlæggende rapporter og dokumenter output, hurtig start
 
 Til at tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] til dine virksomhedsbehov, angive og anvende rapporter og tilpassede dokumenter, som passer til virksomhedens processer og visuelle identitet.
 
-## <a name="add-your-company-logo-to-documents"></a><a name="add-your-company-logo-to-documents"></a>Tilføj firmalogo til dokumenter
+## <a name="add-your-company-logo-to-documents"></a><a name="add-your-company-logo-to-documents"></a><a name="add-your-company-logo-to-documents"></a>Tilføj firmalogo til dokumenter
 
 [!INCLUDE[prod_short](includes/prod_short.md)] har skabeloner indstillet til at bruge dit firmalogo til at spare dig tid på at tilpasse dokumenter, f. eks. fakturaer, ordrer og kontoudtog.
 
@@ -26,7 +26,7 @@ Til at tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] til dine virksomh
 
 Du kan se ovenstående instruktioner i [denne YouTube-video](https://www.youtube.com/watch?v=AatXbKF1NGg). Når billedet vises i feltet **billede**, kan du lukke siden **firmaoplysninger**.
 
-## <a name="run-reports"></a><a name="run-reports"></a>Køre rapporter
+## <a name="run-reports"></a><a name="run-reports"></a><a name="run-reports"></a>Køre rapporter
 
 Rapporter organisering af oplysninger fra forskellige kilder i [!INCLUDE[prod_short](includes/prod_short.md)] og vis dem på en læsbar måde, der nemt kan udskrives eller deles digitalt. Rapporter kan findes på de sider, som er tilknyttet en kontekst. F. eks. viser siden **varer** rapporter vedrørende lagerniveauer, køb, salg m.m.
 
@@ -38,7 +38,7 @@ Rapporter organisering af oplysninger fra forskellige kilder i [!INCLUDE[prod_sh
 
 Få mere at vide om filtrering af data, planlægning af rapporter og meget mere, på [Kør og udskriv rapporter](ui-work-report.md).
 
-## <a name="save-reports-as-pdf-excel-or-word-documents"></a><a name="save-reports-as-pdf-excel-or-word-documents"></a>Gem rapporter som PDF, Excel eller Word-dokumenter
+## <a name="save-reports-as-pdf-excel-or-word-documents"></a><a name="save-reports-as-pdf-excel-or-word-documents"></a><a name="save-reports-as-pdf-excel-or-word-documents"></a>Gem rapporter som PDF, Excel eller Word-dokumenter
 
 Hvis du hurtigt vil dele rapporter, kan du gemme [!INCLUDE[prod_short](includes/prod_short.md)]-rapporter direkte til PDF, Microsoft Excel eller Microsoft Word-dokumenter.
 
@@ -47,7 +47,7 @@ Hvis du hurtigt vil dele rapporter, kan du gemme [!INCLUDE[prod_short](includes/
 3. Vælg filen, og vælg derefter **OK**.
 r Den genererede skabelonfil gemmes automatisk i webbrowserens overførselsmappe.
 
-### <a name="change-report-and-document-layouts"></a><a name="change-report-and-document-layouts"></a>Ændre rapport- og dokumentlayout
+### <a name="change-report-and-document-layouts"></a><a name="change-report-and-document-layouts"></a><a name="change-report-and-document-layouts"></a>Ændre rapport- og dokumentlayout
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder mange indbyggede layouts til rapporter og andre genererede dokumenter, f. eks. salgsfakturaer. Du kan bruge programmer som Microsoft Word eller Excel til at redigere layoutskabeloner til dokumenter og rapporter som beskrevet i følgende eksempel:
 
@@ -64,9 +64,9 @@ r Den genererede skabelonfil gemmes automatisk i webbrowserens overførselsmappe
 
 Få mere at vide om, hvordan du tilpasser rapporter og dokumenter til dine forretningsbehov i [rapport-og dokumentlayout](ui-manage-report-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/work-with-reports/).
+## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/work-with-reports/).
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Brug rapporter i dagligt arbejde](reports-use-reports.md)  
 [Tilgængelige rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

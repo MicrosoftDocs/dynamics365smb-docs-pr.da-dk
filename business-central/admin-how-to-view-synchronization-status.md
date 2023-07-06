@@ -12,7 +12,7 @@ ms.date: 06/14/2021
 ms.author: bholtorf
 ---
 
-# <a name="view-the-status-of-synchronization-jobs"></a><a name="view-the-status-of-synchronization-jobs"></a>Se status på synkroniseringsjob
+# <a name="view-the-status-of-synchronization-jobs"></a><a name="view-the-status-of-synchronization-jobs"></a><a name="view-the-status-of-synchronization-jobs"></a>Se status på synkroniseringsjob
 
 
 Du kan bruge siden **Fejl ved sammenkædet datasynkronisering** til at se status for de synkroniseringsjob, der er blevet udført for sammenkædede poster i en Dataverse- eller [!INCLUDE[crm_md](includes/crm_md.md)]-integration. Dette omfatter job, der er kørt fra opgavekøen, og manuelle synkroniseringsjob, der er kørt på poster fra [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan f.eks. se, hvordan deres status er nyttig, når du foretager fejlfinding, fordi det giver dig adgang til detaljer om fejl, der vedrører sammenkædede poster. Denne type fejl forårsages typisk af brugerhandlinger, f.eks. når:  
@@ -23,13 +23,13 @@ Du kan bruge siden **Fejl ved sammenkædet datasynkronisering** til at se status
 > [!Note]
 > På siden **Fejl ved sammenkædet datasynkronisering** vises oplysninger om job, der er relateret til sammenkædede poster. Hvis du løser alle fejl, men posterne stadig ikke synkroniseres, kan der være noget, der skal udføres med en indstilling for integrationen. Normalt skal din administrator løse disse fejltyper.   
 
-## <a name="example"></a><a name="example"></a>Eksempel
+## <a name="example"></a><a name="example"></a><a name="example"></a>Eksempel
 I denne video vises et eksempel på, hvordan du retter fejl, der er opstået under synkronisering med [!INCLUDE[prod_short](includes/cds_long_md.md)]. Denne proces vil være den samme for alle integrationer. 
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
 
-## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a><a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Sådan vises og løses synkroniseringsfejl for sammenkædede poster
+## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a><a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a><a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Sådan vises og løses synkroniseringsfejl for sammenkædede poster
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, åbn **Fejl ved sammenkædet datasynkronisering**, og vælg derefter det relaterede link.
 2. På siden **Fejl ved sammenkædet datasynkronisering** vises problemer, der opstod, da du synkroniserede sammenkoblede poster. Følgende tabel indeholder handlinger, som du kan bruge til at løse problemer et efter et:
 
@@ -43,16 +43,16 @@ I denne video vises et eksempel på, hvordan du retter fejl, der er opstået und
 > [!NOTE]
 > Hvis du vil reducere antallet af konflikter, der skal løses, kan du indstille tilknytningerne for integrationstabeller, så disse handlinger anvendes automatisk. Du kan finde flere oplysninger i [Integrationstabeller til tilknytning](admin-how-to-modify-table-mappings-for-synchronization.md#mapping-integration-tables).
 
-## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a><a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Sådan får du vist synkroniseringsloggen for en bestemt (manuelt synkroniseret) post
+## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a><a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a><a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Sådan får du vist synkroniseringsloggen for en bestemt (manuelt synkroniseret) post
 1. Åbn f.eks. en kunde, en vare eller en anden post, der synkroniserer data mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Dataverse or [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Vælg handlingen **Synkroniseringslog** for at få vist synkroniseringsloggen for en valgt post. En bestemt kunde f.eks., som du har synkroniseret manuelt.
 
-## <a name="remove-couplings-between-records"></a><a name="remove-couplings-between-records"></a>Fjerne koblinger mellem poster
+## <a name="remove-couplings-between-records"></a><a name="remove-couplings-between-records"></a><a name="remove-couplings-between-records"></a>Fjerne koblinger mellem poster
 Når noget går galt i integrationen, og du har brug for at koble posterne fra, så de ikke længere synkroniseres, kan du gøre det for en eller flere poster ad gangen. Du kan fjerne frakoble en eller flere poster fra listesider eller siden **Koblede datasynkroniseringsfejl** ved at vælge en eller flere linjer og vælge **Slet kobling**. Du kan også fjerne alle koblinger for en eller flere tabeltilknytninger på siden **Tilknytninger til integrationstabel**. 
 
 Hvis en enhed med en envejs kobling slettes i [!INCLUDE[prod_short](includes/prod_short.md)], skal du slette den brudte kobling manuelt. Hvis du vil gøre dette, skal du vælge **Søg efter slettet** handling på siden **Fejl i forbindelse med sammenkoblet datasynkronisering** og derefter slette koblingerne.
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 [Opsætning af brugerkonti til integration med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md)  
 [Brug Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md)
 

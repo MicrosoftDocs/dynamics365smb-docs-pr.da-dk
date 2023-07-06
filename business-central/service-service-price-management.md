@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="service-price-management"></a><a name="service-price-management"></a>Serviceprisstyring
+# <a name="service-price-management"></a><a name="service-price-management"></a><a name="service-price-management"></a>Serviceprisstyring
 Funktionen til serviceprisstyring gør det muligt at angive den bedste pris på serviceordrer, at oprette personlige serviceprisaftaler for debitorer, at forbedre servicemedarbejdernes effektivitet og at forbedre faktureringsprocessen.  
   
 Med serviceprisstyring kan du oprette forskellige serviceprisgrupper, så du kan tage højde for serviceartiklen eller serviceartikelgruppen og for den type fejl, serviceopgaven dækker. Disse grupper kan oprettes for en begrænset periode eller for en bestemt debitor eller valuta. Du kan bruge prisberegningsstrukturer som skabeloner til at tildele en bestemt pris til en bestemt serviceopgave.  
@@ -21,7 +21,7 @@ Inden prisen for en serviceartikel i en serviceordre reguleres, vises en oversig
   
 Ved hjælp af statistikker for serviceprisgrupper og standardrapporter kan du holde styr på rentabiliteten for hver serviceprisgruppe.  
   
-## <a name="service-price-adjustment-groups"></a><a name="service-price-adjustment-groups"></a>Serviceprisreguleringsgrupper
+## <a name="service-price-adjustment-groups"></a><a name="service-price-adjustment-groups"></a><a name="service-price-adjustment-groups"></a>Serviceprisreguleringsgrupper
 Du bruger serviceprisreguleringsgrupper til at oprette forskellige typer prisreguleringer til servicelinjer. Du kan f.eks. oprette en serviceprisreguleringsgruppe, der regulerer priserne på reservedele, en, der regulerer priser for arbejdskraft, en, der regulerer priser på omkostninger, osv. Du kan også angive, om serviceprisregulering kun skal anvendes på én specifik vare eller ressource eller på alle varer eller ressourcer.  
   
 Serviceprisreguleringsfunktionen gælder ikke de serviceartikler under følgende betingelser:
@@ -32,14 +32,14 @@ Serviceprisreguleringsfunktionen gælder ikke de serviceartikler under følgende
   
 Når du bruger funktionen til serviceprisregulering, erstattes alle rabatter i ordren med værdierne i serviceprisreguleringen.  
   
-## <a name="service-price-groups"></a><a name="service-price-groups"></a>Serviceprisgrupper
+## <a name="service-price-groups"></a><a name="service-price-groups"></a><a name="service-price-groups"></a>Serviceprisgrupper
 Du kan oprette serviceprisgrupper for at oprette grupper med serviceartikler, der kan opnå samme særlige serviceprissætning. Når du har oprettet serviceprisgrupperne, kan du tildele dem til serviceartikler på serviceartikellinjer. Du kan også tildele serviceprisgrupper til serviceartikelgrupper.  
   
 Inden du kan tildele en serviceprisgruppe til en serviceartikel, skal du bestemme, hvilken fejltype, valuta eller serviceprisreguleringsgruppe serviceprisgruppen anvender. Du skal beslutte, hvordan serviceprisen skal reguleres, og om beløbet skal være inklusive moms og rabatter. Du skal også beslutte, om denne regulering gælder et fast beløb, eller om den kun skal anvendes under særlige betingelser.  
   
 Når du tildeler en serviceprisgruppe til en serviceartikel, vil alle særlige serviceprissætninger, som du opretter i denne gruppe, blive tildelt til denne serviceartikel.  
   
-## <a name="service-pricing"></a><a name="service-pricing"></a>Serviceprissætning
+## <a name="service-pricing"></a><a name="service-pricing"></a><a name="service-pricing"></a>Serviceprissætning
 Du definerer de faktiske typer serviceprissætning (prisreguleringstype og pris) for en kombination af serviceprisgrupper og debitorprisgrupper. For hver type serviceprissætning skal du vælge en serviceprisreguleringsgruppe. Du skal også angive prisreguleringstypen, fast, maksimum eller minimum, og den faktiske pris.  
   
 Du kan f.eks. definere serviceprissætningstyper for en radioreparationsprisgruppe. For kunder uden prisgruppe kan du bestemme, at du vil have en serviceprisgruppe med maksimumspris på arbejde, arbejdsprisreguleringsgruppen. For kunder i en bestemt prisgruppe kan du bestemme, at du vil have serviceprissætning med fast pris på arbejde, dvs. samme arbejdsprisreguleringsgruppe.  
@@ -50,7 +50,7 @@ Du kan f.eks. definere serviceprissætningstyper for en radioreparationsprisgrup
 3. Udfyld felterne efter behov i **Salgsressourcepriser**, **Salgsvarepriser** eller **Sagsfinanskontopriser**.
 
   
-## <a name="service-price-adjustment"></a><a name="service-price-adjustment"></a>Serviceprisregulering
+## <a name="service-price-adjustment"></a><a name="service-price-adjustment"></a><a name="service-price-adjustment"></a>Serviceprisregulering
 Ved hjælp af serviceprisreguleringer kan du regulere prisen på en vare, ressource, finanskonto eller omkostning i en serviceordre.  
   
 Når du har angivet en vare på serviceartikellinjerne, skal du angive alle oplysninger om omkostningen for denne artikel på servicelinjerne. Når du kører funktionen Reguler servicepris, kan du få vist prisreguleringerne. Du kan foretage eventuelle ændringer i vinduet. Når du bekræfter ændringerne, beregnes reguleringerne, og de overføres derefter til servicelinjerne. Derefter kan du bogføre serviceordren.  
@@ -65,7 +65,7 @@ Følgende tabel beskriver beregningerne.
 |**Maksimum**|Dette betyder, at du kan angive en øvre grænse for, hvor meget debitoren skal betale, uanset de reelle omkostninger eller gebyrer. Hvis du vælger denne indstilling, vil serviceprisreguleringen kun blive foretaget, hvis den samlede pris overskrider det beløb, der er angivet i serviceprisgruppen.|  
 |**Minimum**|Dette betyder, at du kan angive en nedre grænse for, hvor meget debitoren skal betale, uanset de reelle omkostninger eller gebyrer. Hvis du vælger denne indstilling, vil serviceprisreguleringen kun blive foretaget, hvis den samlede pris er mindre end det beløb, der er angivet i serviceprisgruppen.|  
   
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 [Konfigurere prissætning og ekstra omkostninger for services](service-how-setup-service-costs-pricing.md)  
 [Konfigurere Service](service-setup-service.md)  
 

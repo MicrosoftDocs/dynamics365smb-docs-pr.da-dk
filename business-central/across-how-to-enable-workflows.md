@@ -10,21 +10,21 @@ ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: edupont
 ---
-# <a name="enable-approval-workflows"></a><a name="enable-approval-workflows"></a>Aktivere godkendelsesworkflows
+# <a name="enable-approval-workflows"></a><a name="enable-approval-workflows"></a><a name="enable-approval-workflows"></a>Aktivere godkendelsesworkflows
 
 Når du har oprettet et godkendelsesworkflow, og du er sikker på, at det er klar til at starte, skal du aktivere det.  
 
 På siden **Workflow** oprettes et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder. Du definerer arbejdsgangstrin ved at udfylde felter om arbejdsganglinjer med faste lister over hændelses- og svarværdier, der repræsenterer scenarier, der understøttes af programkoden. Flere oplysninger i [Oprette workflows](across-how-to-create-workflows.md).  
 
-## <a name="enable-a-workflow"></a><a name="enable-a-workflow"></a>Aktivere et workflow
+## <a name="enable-a-workflow"></a><a name="enable-a-workflow"></a><a name="enable-a-workflow"></a>Aktivere et workflow
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Workflows**, og vælg derefter det relaterede link.  
 2. Åbn den arbejdsgang, du vil aktivere.  
 3. Aktiver til/fra-feltet **Aktiveret** på siden **Workflow**.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/create-workflows/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Opret godkendelsesworkflows](across-how-to-create-workflows.md)  
 [Bruge godkendelsesworkflows](across-use-workflows.md)  

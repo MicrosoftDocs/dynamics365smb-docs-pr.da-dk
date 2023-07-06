@@ -12,15 +12,15 @@ ms.date: 08/25/2022
 ms.author: a-reishima
 ---
 
-# <a name="financial-information-quick-start"></a><a name="financial-information-quick-start"></a>Virksomhedsoplysninger Finansielle oplysninger
+# <a name="financial-information-quick-start"></a><a name="financial-information-quick-start"></a><a name="financial-information-quick-start"></a>Virksomhedsoplysninger Finansielle oplysninger
 
 Når du har angivet grundlæggende virksomhedsoplysninger i [!INCLUDE[prod_short](includes/prod_short.md)], udfyldes et af de næste trin den økonomiske sektion. Du behøver ikke blot at modtage eller foretage betalinger, men også for at administrere og rapportere virksomhedens numre korrekt.
 
-## <a name="the-chart-of-accounts"></a><a name="the-chart-of-accounts"></a>Kontoplanen
+## <a name="the-chart-of-accounts"></a><a name="the-chart-of-accounts"></a><a name="the-chart-of-accounts"></a>Kontoplanen
 
 Kontoplanen giver dig et overblik over virksomhedens økonomi og viser konti i strukturerede grupper, f. eks. aktiver, passiver, indkomst, vareforbrug og udgifter. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en standardkontoplan, du kan tilpasse til din virksomheds regnskabspraksis.
 
-## <a name="set-up-the-chart-of-accounts"></a><a name="set-up-the-chart-of-accounts"></a>Konfigurere kontoplanen
+## <a name="set-up-the-chart-of-accounts"></a><a name="set-up-the-chart-of-accounts"></a><a name="set-up-the-chart-of-accounts"></a>Konfigurere kontoplanen
 
 Følgende video viser, hvordan du opretter en kontoplan i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -28,7 +28,7 @@ Følgende video viser, hvordan du opretter en kontoplan i [!INCLUDE[prod_short](
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-### <a name="add-an-account-to-the-chart-of-accounts"></a><a name="add-an-account-to-the-chart-of-accounts"></a>Tilføj en konto i kontoplanen
+### <a name="add-an-account-to-the-chart-of-accounts"></a><a name="add-an-account-to-the-chart-of-accounts"></a><a name="add-an-account-to-the-chart-of-accounts"></a>Tilføj en konto i kontoplanen
 
 Hvis du f. eks. vil tilføje en konto, der ikke er inkluderet som standard i [!INCLUDE[prod_short](includes/prod_short.md)]- f.eks. havearbejde - skal du benytte følgende fremgangsmåde:
 
@@ -56,7 +56,7 @@ Hvis du f. eks. vil tilføje en konto, der ikke er inkluderet som standard i [!I
 
 5. På siden **Finanskontokort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="get-an-overview-of-the-chart-of-accounts"></a><a name="get-an-overview-of-the-chart-of-accounts"></a>Få vist en oversigt over kontoplanen
+### <a name="get-an-overview-of-the-chart-of-accounts"></a><a name="get-an-overview-of-the-chart-of-accounts"></a><a name="get-an-overview-of-the-chart-of-accounts"></a>Få vist en oversigt over kontoplanen
 
 Hvis du har brug for en mere kompakt visning af kontoplanen, uden at der er angivet kolonner til bogføringsgrupper, bogføringstype eller omkostningstype, viser oversigten over **Kontoplan** hovedoplysningerne for hver konto i en mindre tabel. Du kan også skjule eller udvide grupper for at skjule kontiene i dem.
 
@@ -64,7 +64,7 @@ Hvis du vil have vist oversigten, skal du vælge handlingen **Oversigt over kont
 
 Få mere at vide om kontoplanen og finansregnskabet i [Forstå finansregnskabet og kontoplanen](finance-general-ledger.md).
 
-## <a name="set-up-bank-accounts"></a><a name="set-up-bank-accounts"></a>Opret bankkonti
+## <a name="set-up-bank-accounts"></a><a name="set-up-bank-accounts"></a><a name="set-up-bank-accounts"></a>Opret bankkonti
 
 Bankkonti i [!INCLUDE[prod_short](includes/prod_short.md)]-register med banktransaktioner, og som er knyttet til poster i kontoplanen. Følgende video viser, hvordan du opretter bankkonti.
 
@@ -79,9 +79,9 @@ Bankkonti i [!INCLUDE[prod_short](includes/prod_short.md)]-register med banktran
    Feltet er ikke det samme som feltet **Bankkontonr.**, der også tilgængeligt i oversigtspanelet **Generelt**.
 4. På siden **Kreditorbankkontokort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Konfigurere kontoplanen](finance-setup-chart-accounts.md)  
 [Konfigurere bankkonti](bank-how-setup-bank-accounts.md)  

@@ -11,7 +11,7 @@ ms.search.forms: '5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="managing-contacts"></a><a name="managing-contacts"></a>Administrere kontakter
+# <a name="managing-contacts"></a><a name="managing-contacts"></a><a name="managing-contacts"></a>Administrere kontakter
 
 Medarbejderne i din virksomhed har regelmæssigt møder med mulige forretningsrelationer, der kan udvikle sig til formelle relationer. Alle disse eksterne kontaktpersoner og deres detaljerede oplysninger skal registreres i systemet, så kommunikationen bliver mere vellykket, og så de nemt kan konverteres til formelle kunde-, kreditor- eller bankrelationer.
 
@@ -26,7 +26,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Konfigurere profilspørgeskemaer, du vil bruge til indtastning af oplysninger om kontaktprofiler.|[Bruge profilspørgeskemaer til at klassificere forretningskontakter](marketing-create-contact-profile-questionnaire.md)|
 |Løse forvirring, når der findes to eller flere poster for samme kontakt.|[Flette dublerede poster](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Sortering, søgning og filtrering](ui-enter-criteria-filters.md)  

@@ -11,7 +11,7 @@ ms.search.form: '1002, 1007,'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="invoice-jobs"></a><a name="invoice-jobs"></a>Fakturere sager
+# <a name="invoice-jobs"></a><a name="invoice-jobs"></a><a name="invoice-jobs"></a>Fakturere sager
 
 I løbet af projektet kan der akkumuleres sagsomkostninger fra ressourceforbrug, materialer og sagsrelaterede indkøb. Efterhånden som status for sagen ændrer sig, bogføres disse transaktioner i sagskladden. Det er vigtigt, at alle omkostninger er registreret i sagskladden, før du fakturerer kunden.
 
@@ -25,7 +25,7 @@ Du kan fakturere hele sagen fra siden **Sagsopgavelinjer** eller kun fakturere d
 
 Du kan også fakturere en virksomhed, der ikke er slut debitor. Nogle gange adskiller den part, der er til projektet, sig fra den part, der betaler fakturaen. På siden **sager** kan du angive den kunde, der skal have fordel af projektet i felterne **kunde**, og den part, der skal faktureres, i felterne **faktureres**. 
 
-## <a name="to-create-multiple-job-sales-invoices"></a><a name="to-create-multiple-job-sales-invoices"></a>Sådan opretter du flere salgsfakturaer for sager
+## <a name="to-create-multiple-job-sales-invoices"></a><a name="to-create-multiple-job-sales-invoices"></a><a name="to-create-multiple-job-sales-invoices"></a>Sådan opretter du flere salgsfakturaer for sager
 
 Du kan oprette en faktura for en sag eller for en eller flere sagsopgaver for en debitor, når det arbejde, der skal faktureres, er udført, eller når den fakturadato, som er angivet i et fakturaskema, nås.
 
@@ -41,7 +41,7 @@ Du kan gennemse og bogføre oprettede fakturaer i vinduet **Salgsfakturaer**.
 > [!NOTE]
 > Du kan også fakturere en kunde ved at markere sagen og derefter vælge handlingen **Opret salgsfaktura for sag**. 
 
-## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a><a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Sådan opretter og bogfører du salgsfakturaer for sager fra sagsplanlægningslinjer
+## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a><a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a><a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Sådan opretter og bogfører du salgsfakturaer for sager fra sagsplanlægningslinjer
 
 Du kan oprette en faktura ud fra en sagsplanlægningslinje, og på det tidspunkt angive antallet af varen, ressourcen eller finanskontoen, som du vil fakturere.
 
@@ -60,9 +60,9 @@ Du kan oprette en faktura ud fra en sagsplanlægningslinje, og på det tidspunkt
 > [!NOTE]  
 >   Ovenstående fremgangsmåde er ens for at oprette, gennemse og bogføre en sagsrelateret salgskreditnota.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/post-job-usage-sales/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Administrere projekter](projects-manage-projects.md)  
 [Finans](finance.md)  

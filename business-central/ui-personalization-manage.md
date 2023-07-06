@@ -8,7 +8,7 @@ ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="customize-pages-for-profiles"></a><a name="customize-pages-for-profiles"></a>Tilpasse sider til profiler
+# <a name="customize-pages-for-profiles"></a><a name="customize-pages-for-profiles"></a><a name="customize-pages-for-profiles"></a>Tilpasse sider til profiler
 
 Brugerne kan tilpasse de sider, som udgør deres arbejdsområde, så de passer til deres egne præferencer. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
@@ -19,7 +19,7 @@ Administratorer kan tilpasse sider til en profil i henhold til den tilknyttede f
 
 Sidetilpasningen begynder på siden **Profiler (roller)**, som er administratorens udgangspunkt for styring af brugerprofiler for individuelle profilkort. Ud over at tilpasse sidelayoutet kan du styre forskellige andre indstillinger for profiler på siden **Profil (rolle)** for hver profil. Du kan finde flere oplysninger i [Administrere profiler](admin-users-profiles-roles.md).
 
-## <a name="to-customize-pages-for-a-profile"></a><a name="to-customize-pages-for-a-profile"></a>Sådan tilpasses sider for en profil
+## <a name="to-customize-pages-for-a-profile"></a><a name="to-customize-pages-for-a-profile"></a><a name="to-customize-pages-for-a-profile"></a>Sådan tilpasses sider for en profil
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Profiler (roller)**, og vælg derefter det relaterede link.
 2. Marker linjen for den profil, du vil tilpasse sider for, og vælg derefter handlingen **Rediger**.
@@ -37,7 +37,7 @@ Sidetilpasningen begynder på siden **Profiler (roller)**, som er administratore
 
 Tilpasningen af sider er nu registreret for profilen.
 
-## <a name="to-view-all-customized-pages-for-a-profile"></a><a name="to-view-all-customized-pages-for-a-profile"></a>Sådan får du vist alle tilpassede sider for en profil
+## <a name="to-view-all-customized-pages-for-a-profile"></a><a name="to-view-all-customized-pages-for-a-profile"></a><a name="to-view-all-customized-pages-for-a-profile"></a>Sådan får du vist alle tilpassede sider for en profil
 
 Du kan få vist en oversigt over, hvilke sider der er tilpasset for en profil, f.eks. hvis du vil planlægge, hvilke sider, der skal tilpasses yderligere eller slettes.
 
@@ -45,7 +45,7 @@ Du kan få vist en oversigt over, hvilke sider der er tilpasset for en profil, f
 
 Du kan slette tilpasninger på siden **Brugerdefinerede sider**, og du kan foretage fejlfinding ved at søge efter mulige problemer.  
 
-## <a name="to-delete-all-customizations-for-a-profile"></a><a name="to-delete-all-customizations-for-a-profile"></a>Sådan slettes alle tilpasninger for en profil
+## <a name="to-delete-all-customizations-for-a-profile"></a><a name="to-delete-all-customizations-for-a-profile"></a><a name="to-delete-all-customizations-for-a-profile"></a>Sådan slettes alle tilpasninger for en profil
 
 Du kan annullere alle tilpasninger, du har foretaget for en profil. Tilpasninger, som er introduceret med en udvidelse, og tilpasninger, der er udført af en bruger, slettes ikke. Du kan slette alle tilpasninger med en anden handling. Du kan finde flere oplysninger i [Sådan slettes alle tilpasninger, der er foretaget af en bruger](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
@@ -53,7 +53,7 @@ Du kan annullere alle tilpasninger, du har foretaget for en profil. Tilpasninger
 
 Layoutet på siderne i profilen nulstilles til standardlayoutet.  
 
-## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a><a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Sådan slettes tilpasning af bestemte sider for en profil
+## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a><a name="to-delete-customization-for-specific-pages-for-a-profile"></a><a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Sådan slettes tilpasning af bestemte sider for en profil
 
 Du kan slette enkelte sidetilpasninger, du har foretaget for en profil. Tilpasninger, som er introduceret med en udvidelse, og tilpasninger, der er udført af en bruger, slettes ikke. Du kan slette bestemte sidetilpasninger med en anden handling. Du kan finde flere oplysninger i [Sådan slettes tilpasninger for bestemte sider](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
@@ -62,9 +62,9 @@ Du kan slette enkelte sidetilpasninger, du har foretaget for en profil. Tilpasni
 
 Layoutet på de valgte sider justeres til de ændringer, du har foretaget.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/tailor-roles-design-ui/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)  
 [Administrere profiler](admin-users-profiles-roles.md)  

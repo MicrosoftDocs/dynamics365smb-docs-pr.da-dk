@@ -8,17 +8,17 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="set-up-and-process-a-subcontracting-operation"></a><a name="set-up-and-process-a-subcontracting-operation"></a>Konfigurere og behandle en underleverandørhandling
+# <a name="set-up-and-process-a-subcontracting-operation"></a><a name="set-up-and-process-a-subcontracting-operation"></a><a name="set-up-and-process-a-subcontracting-operation"></a>Konfigurere og behandle en underleverandørhandling
 
 I denne artikel kommer vi igennem de trin, du skal benytte, når du skal bruge Contoso Coffee-demodataene i underleverandør.
 
-## <a name="scenario"></a><a name="scenario"></a>Scenarie
+## <a name="scenario"></a><a name="scenario"></a><a name="scenario"></a>Scenarie
 
 Du er produktionsplanlægger hos Contoso Coffee. På grund af kapacitetsbegrænsninger skal du planlægge at bruge en underleverandør til at producere varen **SP-SCM1009, Airpot**.
 
 Her kan du oprette en ny frigivet produktionsordre på 12 enheder af vare SP-SCM1009, Airpot, ved hjælp af routing-SP-SCM1009-SUB-2. Du kan bruge underleverandørkladden til at oprette en købsordre for produktionen og afslutte operationen ved at modtage og fakturere købsordren.
 
-## <a name="steps"></a><a name="steps"></a>Trin
+## <a name="steps"></a><a name="steps"></a><a name="steps"></a>Trin
 
 1. Opret den nye frigivne produktionsordre på 12 enheder af varen SP-SCM1009, Airpot.
 
@@ -73,6 +73,6 @@ Her kan du oprette en ny frigivet produktionsordre på 12 enheder af vare SP-SCM
 
 Resultatet af vare SP-SCM1009 Airpot er nu registreret.
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Introduktion til demonstrationsdata for Contoso Coffee](../contoso-coffee-intro.md)  

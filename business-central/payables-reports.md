@@ -8,15 +8,15 @@ ms.search.form: '347, Report_301, Report_304, Report_305, Report_312, Report_317
 ms.date: 07/13/2021
 ms.author: edupont
 ---
-# <a name="accounts-payable-reports-and-analytics-in-business-central"></a><a name="accounts-payable-reports-and-analytics-in-business-central"></a>Kreditorrapporter og analyser i Business Central
+# <a name="accounts-payable-reports-and-analytics-in-business-central"></a><a name="accounts-payable-reports-and-analytics-in-business-central"></a><a name="accounts-payable-reports-and-analytics-in-business-central"></a>Kreditorrapporter og analyser i Business Central
 
 Som en hjælp til styring af kreditorer i [!INCLUDE [prod_short](includes/prod_short.md)], standardrapporter og analyser er indbygget. Den flyttes udover traditionelle rapporterings begrænsninger for at gøre det nemmere at designe forskellige typer rapporter.  
 
-## <a name="reports"></a><a name="reports"></a>Rapporter
+## <a name="reports"></a><a name="reports"></a><a name="reports"></a>Rapporter
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
 
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md)  
 [Arbejde med dimensioner](finance-dimensions.md)  

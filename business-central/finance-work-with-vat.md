@@ -11,7 +11,7 @@ ms.search.form: '7, 118, 130, 142, 459, 460, 525'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# <a name="work-with-vat-on-sales-and-purchases"></a><a name="work-with-vat-on-sales-and-purchases"></a>Arbejde moms af salg og køb
+# <a name="work-with-vat-on-sales-and-purchases"></a><a name="work-with-vat-on-sales-and-purchases"></a><a name="work-with-vat-on-sales-and-purchases"></a>Arbejde moms af salg og køb
 
 Hvis dit land eller område kræver, at du beregner moms på salgs-og købstransaktioner, kan du konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til at beregne moms. Du kan finde flere oplysninger i [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md).
 
@@ -20,7 +20,7 @@ Der er dog nogle opgaver i forbindelse med moms, der kan udføres manuelt. Du ka
 > [!TIP]
 > Du kan lade [!INCLUDE[prod_short](includes/prod_short.md)] kontrollere momsregistreringsnummeret og andre virksomhedsoplysninger, når du opretter eller opdaterer dokumenter. Du kan finde flere oplysninger i [Validate CVR-numre](finance-how-validate-vat-registration-number.md).
 
-## <a name="calculating-and-displaying-vat-amounts-on-sales-and-purchase-documents"></a><a name="calculating-and-displaying-vat-amounts-on-sales-and-purchase-documents"></a>Beregne og vise momsbeløb i salg- og købsdokumenter
+## <a name="calculating-and-displaying-vat-amounts-on-sales-and-purchase-documents"></a><a name="calculating-and-displaying-vat-amounts-on-sales-and-purchase-documents"></a><a name="calculating-and-displaying-vat-amounts-on-sales-and-purchase-documents"></a>Beregne og vise momsbeløb i salg- og købsdokumenter
 
 Når du vælger et varenummer i feltet **Nummer** felt på salgs-eller købsdokumenter, [!INCLUDE[prod_short](includes/prod_short.md)] udfylder felterne **Enhedspris** og **Linjebeløb**. Salgsprisen stammer fra enten **Vare**-kortet eller fra de varesalgspriser, der er tilladt for varen og debitoren. [!INCLUDE[prod_short](includes/prod_short.md)] beregner kun linjebeløb, når du angiver et antal for linjen.  
 
@@ -28,7 +28,7 @@ Hvis salgsprisen og linjebeløbene skal være inklusive moms, f. eks. Hvis du s�
 
 Du kan beregne og vise momsbeløb i salgs- og købsdokumenter forskelligt, afhængigt af den type debitor eller kreditor, du handler med. Du kan også ændre det beregnede momsbeløb manuelt for at have det samme momsbeløb som det, der er beregnet af kreditoren i en given transaktion.
 
-### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a><a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>Inklusive eller eksklusive moms i priser og linjebeløb
+### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a><a name="including-or-excluding-vat-in-prices-and-line-amounts"></a><a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>Inklusive eller eksklusive moms i priser og linjebeløb
 
 Hvis afkrydsningsfeltet **Priser inkl. moms** er markeret på et salgsdokument, vil felterne **Enhedspris** og **Linjebeløb** være inkl. moms. Som standard er moms ikke inkluderet i disse felter. Navnene på felterne afspejler, om priserne er inkl. moms.  
 
@@ -43,7 +43,7 @@ Følgende tabel indeholder en oversigt over, hvordan salgsprisbeløbene for et s
 |Aktiveret|Ikke aktiveret|Programmer beregner momsbeløbet, der er medtaget i **Salgsprisen** på **varekortet** ved hjælp af momsprocenten relateret til kombinationen af Momsvirks.bogf.gruppe (pris) og Momsproduktbogf.gruppe. **Salgsprisen** på varekortet, reduceret med momsbeløbet, angives derefter i feltet **Enhed pris ekskl. MOMS** i salgslinjerne. Du kan finde flere oplysninger i [Bruge momsvirksomhedsbogføringsgrupper og debitorprisgrupper](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups).|  
 |Aktiveret|Aktiveret|**Salgsprisen** på varekortet kopieres til feltet **med salgsprisen inkl. moms** i salgslinjerne.|
 
-#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a><a name="using-vat-business-posting-groups-and-customer-price-groups"></a>Bruge momsvirksomhedsbogføringsgrupper og debitorprisgrupper
+#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a><a name="using-vat-business-posting-groups-and-customer-price-groups"></a><a name="using-vat-business-posting-groups-and-customer-price-groups"></a>Bruge momsvirksomhedsbogføringsgrupper og debitorprisgrupper
 
 Hvis du vil have priser til at omfatte moms, kan du bruge momsvirksomhedsbogføringsgrupper til at beregne beløbet på grundlag af momsbogføringsopsætningen for gruppen. Du kan finde flere oplysninger i [Konfigurere momsvirksomhedsbogføringsgrupper](finance-setup-vat.md#set-up-vat-business-posting-groups).
 
@@ -57,13 +57,13 @@ Afhængigt af hvad du vil gøre, kan du knytte en momsvirksomhedsbogføringsgrup
 > [!NOTE]
 > Hvis du ikke angiver en gruppe i feltet **momsvirksomhedsbogføringsgruppe (pris)**, medtages de ikke i priserne.
 
-#### <a name="examples"></a><a name="examples"></a>Eksempler
+#### <a name="examples"></a><a name="examples"></a><a name="examples"></a>Eksempler
 
 Faktorer som det land eller område, du sælger i, eller den type brancher, du sælger til, kan påvirke det momsbeløb, du skal redegøre for. F. eks. kan en restaurant opkræve 6 % moms af måltider, der er Eaten internt og 17 % for takeaway. For at opnå dette skal du oprette en momsvirksomhedsbogføringsgruppe (salgspris) for internt og en til takeaway.
 
-## <a name="working-with-vat-date"></a><a name="working-with-vat-date"></a>Arbejde med momsdato
+## <a name="working-with-vat-date"></a><a name="working-with-vat-date"></a><a name="working-with-vat-date"></a>Arbejde med momsdato
 
-### <a name="vat-date-in-documents"></a><a name="vat-date-in-documents"></a>Momsdato i dokumenter
+### <a name="vat-date-in-documents"></a><a name="vat-date-in-documents"></a><a name="vat-date-in-documents"></a>Momsdato i dokumenter
 
 Når du opretter nye salgs-eller købsdokumenter, bliver **momsdatoen** baseret på indstillingen i feltet **standardmomsdato** på siden **Regnskabsopsætning**. Denne standardværdi kan være den samme som **Bogføringsdato** eller **Bilagsdato**. Hvis du har brug for en anden moms dato, kan du ændre værdien i feltet **momsdato** manuelt. Når du bogfører dokumentet, vises **momsdatoen** på bogførings dokumentet og på moms-og finansposterne.
 
@@ -79,7 +79,7 @@ Når du opretter nye salgs-eller købsdokumenter, bliver **momsdatoen** baseret 
 > [!NOTE]
 > Hvis du lader **Momsdatoen** være tom, vil [!INCLUDE [prod_short](includes/prod_short.md)] bruge standardopsætningen fra **Standardmomsdatoen** i **Regnskabsopsætningen** som en **Momsdato** i den bogførte transaktion.  
 
-### <a name="modifying-the-vat-date-in-posted-entries"></a><a name="modifying-the-vat-date-in-posted-entries"></a>Tilpasse momsdato i bogførte poster
+### <a name="modifying-the-vat-date-in-posted-entries"></a><a name="modifying-the-vat-date-in-posted-entries"></a><a name="modifying-the-vat-date-in-posted-entries"></a>Tilpasse momsdato i bogførte poster
 
 Hvis det er nødvendigt, kan du ændre momsdatoen ved bogføring af dokumenter. Hvis du vil ændre **momsdatoen** for bogførte bilag, skal du følge disse trin:
 
@@ -94,7 +94,7 @@ Hvis det er nødvendigt, kan du ændre momsdatoen ved bogføring af dokumenter. 
 > [!NOTE]
 > Hvis dokumentet indeholder mere end én **Momspost**, skal du kun ændre værdien i feltet **Momsdato** i en post, der er relateret til dokumentet. For at sikre, at poster er vedvarende, ændrer [!INCLUDE[prod_short](includes/prod_short.md)] automatisk momsdatoen i momsposter, der vedrører denne transaktion. [!INCLUDE [prod_short](includes/prod_short.md)] vil opdatere **momsdatoen** i andre tabeller (finansposter og-bilag), men kun med relation til denne transaktion.  
 
-## <a name="correcting-vat-amounts-manually-on-sales-and-purchase-documents"></a><a name="correcting-vat-amounts-manually-on-sales-and-purchase-documents"></a>Manuel korrektion af momsbeløb i salgs- og købsdokumenter
+## <a name="correcting-vat-amounts-manually-on-sales-and-purchase-documents"></a><a name="correcting-vat-amounts-manually-on-sales-and-purchase-documents"></a><a name="correcting-vat-amounts-manually-on-sales-and-purchase-documents"></a>Manuel korrektion af momsbeløb i salgs- og købsdokumenter
 
 Du kan foretage rettelser i bogførte momsposter, så du kan ændre beløbene for den samlede salgs- eller købsmoms uden at ændre momsbasen. Hvis du f. eks. modtager en faktura fra en kreditor med et forkert momsbeløb.  
 
@@ -102,13 +102,13 @@ Selvom du måske har oprettet en eller flere kombinationer til håndtering af im
 
 Hvis en kontantrabat er beregnet på basis af et fakturabeløb, der er inkl. moms, tilbagefører du momsen af kontantrabatten, når rabatten er tildelt. Bemærk, at du skal aktivere feltet **Reguler moms ved kontantrabat** for både opsætning af finanskontiene generelt og momsbogføringsopsætning for en bestemt kombination af en momsvirksomhedsbogføringsgruppe og en momsproduktbogføringsgruppe.  
 
-### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a><a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Sådan indstilles systemet for manuel momspostering i salgsdokumenter
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a><a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a><a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Sådan indstilles systemet for manuel momspostering i salgsdokumenter
 I det følgende beskrives, hvordan du aktiverer manuelle momsændringer i salgsdokumenter. Trinnene er de samme på siden **Købsopsætning**.
 
 1. På siden **Opsætning af Finans** skal du angive **Maks. momsdifference tilladt** mellem det beløb, der beregnes af programmet, og det manuelle beløb.  
 2. På siden **Salgsopsætning** skal du markere afkrydsningsfeltet **Tillad momsdifference**.  
 
-### <a name="to-adjust-vat-for-a-sales-document"></a><a name="to-adjust-vat-for-a-sales-document"></a>Sådan reguleres moms for et salgsdokument
+### <a name="to-adjust-vat-for-a-sales-document"></a><a name="to-adjust-vat-for-a-sales-document"></a><a name="to-adjust-vat-for-a-sales-document"></a>Sådan reguleres moms for et salgsdokument
 
 1. Åbn den relevante Salgsordre.  
 2. Vælg handlingen **Statistik**.  
@@ -118,16 +118,16 @@ I det følgende beskrives, hvordan du aktiverer manuelle momsændringer i salgsd
 > [!NOTE]  
 > Det samlede momsbeløb på fakturaen, grupperet efter moms-id, vises på linjerne. Du kan justere beløbet manuelt i feltet **Momsbeløb** på linjerne for hvert moms-id. Når du retter i feltet **Momsbeløb**, kontrolleres det, at du ikke har ændret momsen med mere end det beløb, du har angivet som den maksimalt tilladte difference. Hvis beløbet er uden for **den maksimalt tilladte momsdifference**, vises der en advarsel, hvor den maksimalt tilladte difference vises. Du vil ikke kunne fortsætte, før beløbet ændres, så det ligger inden for de acceptable parametre. Klik på **OK** , og angiv et andet **momsbeløb**, som ligger inden for det tilladte. Hvis momsdifferencen er lig med eller lavere end den maksimalt tilladte, deles momsen proportionalt mellem de dokumentlinjer, der har det samme moms-id.  
 
-## <a name="calculating-vat-manually-using-journals"></a><a name="calculating-vat-manually-using-journals"></a>Manuel momsberegning ved hjælp af kladder
+## <a name="calculating-vat-manually-using-journals"></a><a name="calculating-vat-manually-using-journals"></a><a name="calculating-vat-manually-using-journals"></a>Manuel momsberegning ved hjælp af kladder
 Du kan også justere momsbeløb i finans-, salgs- og købskladder. Det kan f.eks. være nødvendigt, når du angiver en kreditorfaktura i kladden, og der er en forskel mellem det momsbeløb, som [!INCLUDE[prod_short](includes/prod_short.md)] har beregnet, og momsbeløbet på kreditorfakturaen.  
 
-### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a><a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Sådan indstilles systemet til manuel momspostering i finanskladder
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a><a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a><a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Sådan indstilles systemet til manuel momspostering i finanskladder
 Du skal udføre følgende trin, før du manuelt indtaster moms i en finanskladde.  
 
 1. På siden **Opsætning af Finans** skal du angive **Maks. momsdifference tilladt** mellem det beløb, der beregnes af programmet, og det manuelle beløb.  
 2. På siden **Finanskladdetyper** skal du markere afkrydsningsfeltet **Tillad momsdifference** for den relevante kladde.  
 
-### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a><a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Sådan indstilles systemet til manuel momspostering i salgs- og købskladder
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a><a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a><a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Sådan indstilles systemet til manuel momspostering i salgs- og købskladder
 
 Du skal udføre følgende trin, før du manuelt indtaster moms i en salgs- eller købskladde.
 
@@ -138,10 +138,10 @@ Du skal udføre følgende trin, før du manuelt indtaster moms i en salgs- eller
 > [!NOTE]  
 > Hvis differencen er større, bliver der vist en advarsel med den maksimalt tilladte difference. Hvis du vil fortsætte, skal du justere beløbet. Vælg **OK**, og angiv derefter et beløb, som ligger inden for det tilladte. Hvis momsforskellen er lig med eller lavere end det maksimalt tilladte, viser [!INCLUDE[prod_short](includes/prod_short.md)] differencen i feltet **Momsdifference**.  
 
-## <a name="posting-import-vat-with-purchase-invoices"></a><a name="posting-import-vat-with-purchase-invoices"></a>Sådan bogføres importmoms på købsfakturaer
+## <a name="posting-import-vat-with-purchase-invoices"></a><a name="posting-import-vat-with-purchase-invoices"></a><a name="posting-import-vat-with-purchase-invoices"></a>Sådan bogføres importmoms på købsfakturaer
 I stedet for at bruge kladder, når du bogfører en faktura med importmoms, kan du bruge en købsfaktura.  
 
-### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a><a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Konfigurere Indkøb til at bogføre fakturaer med importmoms
+### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a><a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a><a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Konfigurere Indkøb til at bogføre fakturaer med importmoms
 
 1. Opret et kreditorkort for den importmyndighed, der sender dig fakturaen med importmoms. Du skal vælge de samme indstillinger til **Virksomhedsbogføringsgruppe** og **Momsvirksomhedsbogf.gruppe** som til den finanskonto, der bruges til importmoms.  
 2. Opret en **Produktbogføringsgruppe** til importmomsen, og opret en **Momsproduktbogf.gruppe**, der skal bruges som standard til den tilhørende **Produktbogføringsgruppe**.  
@@ -151,7 +151,7 @@ I stedet for at bruge kladder, når du bogfører en faktura med importmoms, kan 
 6. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogføringsopsætning**, og vælg derefter det relaterede link.  
 7. Opret en kombination af **Virksomhedsbogføringsgruppe** til momsmyndighederne og **Produktbogføringsgruppe** til importmoms. Til denne nye kombination skal du i feltet **Købskonto** vælge finanskontoen for importmoms.  
 
-### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a><a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Sådan oprettes en ny faktura til importmyndigheden (leverandører), når du har foretaget opsætningen
+### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a><a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a><a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Sådan oprettes en ny faktura til importmyndigheden (leverandører), når du har foretaget opsætningen
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.  
 2. Opret en ny købsfaktura.  
@@ -161,11 +161,11 @@ I stedet for at bruge kladder, når du bogfører en faktura med importmoms, kan 
 6. Angiv momsbeløbet i feltet **Købspris Ekskl. moms**.  
 7. Bogfør fakturaen.  
 
-## <a name="processing-certificates-of-supply"></a><a name="processing-certificates-of-supply"></a>Behandling af leveringscertifikater
+## <a name="processing-certificates-of-supply"></a><a name="processing-certificates-of-supply"></a><a name="processing-certificates-of-supply"></a>Behandling af leveringscertifikater
 
 Når du sælger varer til en kunde i et andet EU-land/-område, skal du tilsende kunden et leveringscertifikat, som kunden skal underskrive og returnere til dig. Der er følgende procedurer for behandling af leveringscertifikater for salgsleverancer, men de samme trin gælder for serviceleverancer af varer og returvareleverancer til kreditorer.  
 
-### <a name="to-view-certificate-of-supply-details"></a><a name="to-view-certificate-of-supply-details"></a>Sådan får du vist leveringscertifikatdetaljer
+### <a name="to-view-certificate-of-supply-details"></a><a name="to-view-certificate-of-supply-details"></a><a name="to-view-certificate-of-supply-details"></a>Sådan får du vist leveringscertifikatdetaljer
 1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte salgskvitteringer**, og vælg derefter det relaterede link.  
 2. Vælg den relevante salgsleverance til en kunde i et andet EU-land/-område.  
 3. Vælg **Leveringscertifikatdetaljer**.  
@@ -184,7 +184,7 @@ Når du sælger varer til en kunde i et andet EU-land/-område, skal du tilsende
 > [!Note]  
 >  Du kan se eller udskrive dokumentet. Når du vælger **Udskriv leveringscertifikat** og udskriver dokumentet, bliver afkrydsningsfeltet **Udskrevet** automatisk markeret. Desuden, hvis det ikke allerede er angivet, opdateres status for certifikatet til **Påkrævet**. Du kan evt. også medtage det udskrevne certifikat i leverancen.  
 
-### <a name="to-print-a-certificate-of-supply"></a><a name="to-print-a-certificate-of-supply"></a>Sådan udskriver du et leveringscertifikat
+### <a name="to-print-a-certificate-of-supply"></a><a name="to-print-a-certificate-of-supply"></a><a name="to-print-a-certificate-of-supply"></a>Sådan udskriver du et leveringscertifikat
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte salgskvitteringer**, og vælg derefter det relaterede link.  
 2. Vælg den relevante salgsleverance til en kunde i et andet EU-land/-område.  
@@ -203,7 +203,7 @@ Når du sælger varer til en kunde i et andet EU-land/-område, skal du tilsende
 
 8. Send det trykte leveringscertifikat til underskrift hos kunden.  
 
-### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a><a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Sådan opdaterer du status for et leveringscertifikat til en leverance
+### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a><a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a><a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Sådan opdaterer du status for et leveringscertifikat til en leverance
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte salgskvitteringer**, og vælg derefter det relaterede link.  
 2. Vælg den relevante salgsleverance til en kunde i et andet EU-land/-område.  
@@ -217,7 +217,7 @@ Når du sælger varer til en kunde i et andet EU-land/-område, skal du tilsende
 
 Hvis du vil se en gruppe af certifikater, skal du starte fra siden **Leveringscertifikater** og derefter opdatere oplysninger om status for udestående certifikater, når du får dem tilbage fra dine kunder. Dette kan være nyttigt, når du vil søge efter alle de certifikater, der har en bestemt status, for eksempel **Påkrævet**, hvis status du vil opdatere til **Ikke modtaget**.  
 
-### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a><a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Sådan opdaterer du status for en gruppe af leveringscertifikater
+### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a><a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a><a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Sådan opdaterer du status for en gruppe af leveringscertifikater
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leveringscertifikater**, og derefter vælge det relaterede link.  
 2. Filtrer feltet **Status** til den værdi, du ønsker, for at oprette en liste over certifikater, som du vil administrere.  
@@ -234,9 +234,9 @@ Hvis du vil se en gruppe af certifikater, skal du starte fra siden **Leveringsce
 > * Sådan opretter du manuelt et leveringscertifikat  
 > * Sådan udskriver du et leveringscertifikat.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/process-vat-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)  
 [Rapportere moms til skattemyndighederne](finance-how-report-vat.md)  

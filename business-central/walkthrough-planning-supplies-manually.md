@@ -10,27 +10,27 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="walkthrough-planning-supplies-manually"></a><a name="walkthrough-planning-supplies-manually"></a>Gennemgang: Manuel planlægning af forsyninger
+# <a name="walkthrough-planning-supplies-manually"></a><a name="walkthrough-planning-supplies-manually"></a><a name="walkthrough-planning-supplies-manually"></a>Gennemgang: Manuel planlægning af forsyninger
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Denne gennemgang viser processen med at planlægge forsyningsordrer til opfyldning af nye behov. Du kan starte forsyningsplanlægningen med faste intervaller, f.eks. hver morgen eller hver mandag, eller når du får besked om det af salg eller produktion, afhængigt af behovstypen. I denne gennemgang kommer du til at bruge siden **Ordreplanlægning**, der er et simpelt forsyningsplanlægningsværktøj, der er baseret på manuel beslutningstagning i stedet for en parameterbaseret automatisk planlægning.  
 
-## <a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a>Om denne gennemgang
+## <a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a>Om denne gennemgang
  Denne gennemgang illustrerer følgende opgaver:  
 
 -   Planlægning af en købsordre for produktionskomponenter.  
 -   Planlægning af en overflytningsordre til opfyldning af et salgsbehov.  
 -   Planlægning af en produktionsordre for en vare med flere niveauer.  
 
-## <a name="roles"></a><a name="roles"></a>Roller
+## <a name="roles"></a><a name="roles"></a><a name="roles"></a>Roller
  Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:  
 
 -   Produktionsplanlægger  
 -   Indkøbsagent  
 -   Salgsordrebehandler  
 
-## <a name="prerequisites"></a><a name="prerequisites"></a>Forudsætninger
+## <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Forudsætninger
  Inden du begynder denne gennemgang, skal du installere [!INCLUDE[prod_short](includes/prod_short.md)]. Der skal foretages følgende ændringer i databasen:  
 
 -   Slet alle eksisterende salgsordrer på cykler.  
@@ -39,17 +39,17 @@ Denne gennemgang viser processen med at planlægge forsyningsordrer til opfyldni
 
  Du skal som hovedregel bruge de foreslåede data i denne gennemgang, da disse data indeholder de nødvendige poster.  
 
-## <a name="story"></a><a name="story"></a>Historie
+## <a name="story"></a><a name="story"></a><a name="story"></a>Historie
  Erik, der er produktionsplanlægger i en mindre produktionsvirksomhed, er ved at planlægge produktions og købsordrer til opfyldning af nye salgsbehov.  
 
  Da der er få styklisteniveauer i produkterne, og ordrestrømmen er relativ beskeden, anvender Erik siden **Ordreplanlægning** til manuelt at oprette forsyningsordrer – ét produktniveau ad gangen.  
 
  Ved mere komplekse produktionsmiljøer, bruges planlægningskladden til at planlægge forsyningen baseret på vareparametre, som f.eks. ændringsperiode, sikkerhedstid, genbestillingspunkt og batchberegninger af den samlede efterspørgsel fra alle produktniveauer.  
 
-## <a name="setting-up-the-sample-data"></a><a name="setting-up-the-sample-data"></a>Oprette eksempeldata
+## <a name="setting-up-the-sample-data"></a><a name="setting-up-the-sample-data"></a><a name="setting-up-the-sample-data"></a>Oprette eksempeldata
  Standarddemoregnskabet CRONUS har p.t. en stor mængde ikke-planlagte behov. Under de forskellige planlægningsopgaver i denne gennemgang vil du få brug for at afvige fra den realistiske forretningsgang ved at ignorere behov med tætte forfaldsdatoer og i stedet bruge behov med senere forfaldsdatoer.  
 
-## <a name="use-the-order-planning-page"></a><a name="use-the-order-planning-page"></a>Bruge siden Ordreplanlægning
+## <a name="use-the-order-planning-page"></a><a name="use-the-order-planning-page"></a><a name="use-the-order-planning-page"></a>Bruge siden Ordreplanlægning
 
 Du kan få adgang til siden **Ordreplanlægning** fra flere forskellige lokationer:  
 
@@ -58,7 +58,7 @@ Du kan få adgang til siden **Ordreplanlægning** fra flere forskellige lokation
 -   Køb, Planlægning  
 -   Derudover kan du åbne siden for en bestemt produktionsordre ved at vælge handlingen **Planlægning**.
 
-### <a name="to-use-the-order-planning-page"></a><a name="to-use-the-order-planning-page"></a>Sådan bruges siden Ordreplanlægning
+### <a name="to-use-the-order-planning-page"></a><a name="to-use-the-order-planning-page"></a><a name="to-use-the-order-planning-page"></a>Sådan bruges siden Ordreplanlægning
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ordreplanlægning**, og vælg derefter det relaterede link.  
 
@@ -82,10 +82,10 @@ Du kan få adgang til siden **Ordreplanlægning** fra flere forskellige lokation
 
      Ordrer, der ikke har disponeringsproblemer, vises ikke. Hvis der ikke findes nogle ordrer, når en plan beregnes, vil der blive vist en meddelelse, og der vil ikke blive vist nogen planlægningslinjer.  
 
-## <a name="planning-a-purchase-order-to-fulfill-component-demand"></a><a name="planning-a-purchase-order-to-fulfill-component-demand"></a>Planlægge en købsordre for at opfylde et komponentbehov
+## <a name="planning-a-purchase-order-to-fulfill-component-demand"></a><a name="planning-a-purchase-order-to-fulfill-component-demand"></a><a name="planning-a-purchase-order-to-fulfill-component-demand"></a>Planlægge en købsordre for at opfylde et komponentbehov
  I denne procedure opretter du en købsordre til manglende produktionskomponenter.  
 
-### <a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a><a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a>Sådan planlægges en købsordre for at opfylde et komponentbehov i produktionen
+### <a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a><a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a><a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a>Sådan planlægges en købsordre for at opfylde et komponentbehov i produktionen
 
 1.  Udvid den første linje (vælg symbolet +).  
 2.  Vælg den første behovslinje med varen **LSU-15**, og vælg derefter handlingen **Vis dokument**.  
@@ -122,10 +122,10 @@ Du kan få adgang til siden **Ordreplanlægning** fra flere forskellige lokation
 
      Købsordrerne er nu oprettet og gemt som de sidste ordrer på listen over købsordrer.  
 
-## <a name="planning-a-transfer-order-to-fulfill-sales-demand"></a><a name="planning-a-transfer-order-to-fulfill-sales-demand"></a>Planlægge en overflytningsordre for at opfylde et salgsbehov
+## <a name="planning-a-transfer-order-to-fulfill-sales-demand"></a><a name="planning-a-transfer-order-to-fulfill-sales-demand"></a><a name="planning-a-transfer-order-to-fulfill-sales-demand"></a>Planlægge en overflytningsordre for at opfylde et salgsbehov
  I denne procedure kommer du til at planlægge ud fra et behov fra en salgsordre. Behovslinjerne repræsenterer salgslinjer og ikke komponentlinjer som ved produktionsbehov.  
 
-### <a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a><a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a>Sådan planlægges en overflytningsordre til opfyldning af et salgsbehov.
+### <a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a><a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a><a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a>Sådan planlægges en overflytningsordre til opfyldning af et salgsbehov.
 
 1.  Flyt markøren til planlægningslinjen for ordre **2008**.  
 2.  Udvid linjen, og flyt markøren til behovslinjen.  
@@ -150,10 +150,10 @@ Du kan få adgang til siden **Ordreplanlægning** fra flere forskellige lokation
 
      Overførselsordren er nu oprettet og gemt som den sidste ordre på listen over åbne overførselsordrer.  
 
-## <a name="planning-a-multilevel-production-order-to-fulfill-sales-demand"></a><a name="planning-a-multilevel-production-order-to-fulfill-sales-demand"></a>Planlægge en Produktionsordre med flere niveauer for at opfylde et salgsbehov
+## <a name="planning-a-multilevel-production-order-to-fulfill-sales-demand"></a><a name="planning-a-multilevel-production-order-to-fulfill-sales-demand"></a><a name="planning-a-multilevel-production-order-to-fulfill-sales-demand"></a>Planlægge en Produktionsordre med flere niveauer for at opfylde et salgsbehov
  I denne procedure kommer du til at planlægge en opfyldning af et salgsbehov for en produceret vare med flere produktniveauer, der hver opretter afhængige produktionsbehov.  
 
-### <a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a><a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a>Sådan planlægges en produktion med flere niveauer for at opfylde et salgsbehov
+### <a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a><a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a><a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a>Sådan planlægges en produktion med flere niveauer for at opfylde et salgsbehov
 
 1.  Vælg planlægningslinjen med salgsbehovet for ordre **1001**, oprettet tidligere som forudsætningsdata.  
 
@@ -172,7 +172,7 @@ Du kan få adgang til siden **Ordreplanlægning** fra flere forskellige lokation
 
  Som produktionsplanlægger skal du planlægge en specifik produktionsordre.  
 
-### <a name="to-plan-a-specific-production-order"></a><a name="to-plan-a-specific-production-order"></a>Sådan planlægges en specifik produktionsordre
+### <a name="to-plan-a-specific-production-order"></a><a name="to-plan-a-specific-production-order"></a><a name="to-plan-a-specific-production-order"></a>Sådan planlægges en specifik produktionsordre
 
 1.  Åbn produktionsordren **101001**, på ti cykler, som du oprettede ved at bruge funktionen **Lav ordrer**.  
 2.  Åbn siden **Prod.ordrekomponenter** for at kontrollere, at de ekstra ringeklokker afspejles på produktionsordren.  
@@ -222,7 +222,7 @@ Du kan få adgang til siden **Ordreplanlægning** fra flere forskellige lokation
 
      Se, hvordan start- og sluttiderne for de enkelte ordrer er planlagt i overensstemmelse med produktstrukturen på siden **Fastlagte prod.ordrer**. Komponenterne til de laveste niveauer i strukturen produceres først. Derfor skal du planlægge ordrer med flere niveauer som vist i denne planlægningsprocedure.  
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
  [Gennemgang af forretningsproces](walkthrough-business-process-walkthroughs.md)   
 <!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 

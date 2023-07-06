@@ -11,11 +11,11 @@ ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="post-multiple-documents-at-the-same-time"></a><a name="post-multiple-documents-at-the-same-time"></a>Bogføre flere dokumenter på én gang
+# <a name="post-multiple-documents-at-the-same-time"></a><a name="post-multiple-documents-at-the-same-time"></a><a name="post-multiple-documents-at-the-same-time"></a>Bogføre flere dokumenter på én gang
 
 I stedet for at bogføre individuelle dokumenter ét ad gangen, kan du vælge flere ikke-bogførte dokumenter i en oversigt til bogføring med det samme eller til baggrundsbogføring i henhold til en plan, f.eks. ved dagens slutning. Dette kan være nyttigt, hvis det kun er en supervisor, der kan bogføre dokumenter, der er oprettet af andre brugere, eller for at undgå, at der opstår problemer med systemydeevnen under bogføring i arbejdstiden.
 
-## <a name="to-post-multiple-purchase-orders-immediately"></a><a name="to-post-multiple-purchase-orders-immediately"></a>Sådan bogføres flere købsordrer med det samme
+## <a name="to-post-multiple-purchase-orders-immediately"></a><a name="to-post-multiple-purchase-orders-immediately"></a><a name="to-post-multiple-purchase-orders-immediately"></a>Sådan bogføres flere købsordrer med det samme
 
 Følgende procedure beskriver, hvordan flere købsordrer kan bogføres med det samme. Trinene er de samme for alle købs- og salgsdokumenter.
 
@@ -26,7 +26,7 @@ Følgende procedure beskriver, hvordan flere købsordrer kan bogføres med det s
 5. Vælg handlingen **Bogføring**, og vælg derefter handlingen **Bogfør**.
 6. Vælg knappen **Ja** i bekræftelsesmeddelelsen.
 
-## <a name="to-batch-post-multiple-purchase-orders"></a><a name="to-batch-post-multiple-purchase-orders"></a>Sådan massebogføres flere købsordrer
+## <a name="to-batch-post-multiple-purchase-orders"></a><a name="to-batch-post-multiple-purchase-orders"></a><a name="to-batch-post-multiple-purchase-orders"></a>Sådan massebogføres flere købsordrer
 
 Følgende procedure beskriver, hvordan du kan massebogføre flere købsordrer. Fremgangsmåden er den samme for alle købs- og salgsdokumenter, hvor handlingen **Massebogfør** er tilgængelig.
 
@@ -42,7 +42,7 @@ Følgende procedure beskriver, hvordan du kan massebogføre flere købsordrer. F
 > [!NOTE]
 > Det kan tage noget tid at bogføre flere dokumenter, og andre brugere vil blive blokeret. Overvej at aktivere baggrundsbogføring. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
 
-## <a name="to-set-up-background-posting-with-job-queues"></a><a name="to-set-up-background-posting-with-job-queues"></a>Sådan konfigureres baggrundsbogføring med opgavekøer
+## <a name="to-set-up-background-posting-with-job-queues"></a><a name="to-set-up-background-posting-with-job-queues"></a><a name="to-set-up-background-posting-with-job-queues"></a>Sådan konfigureres baggrundsbogføring med opgavekøer
 Opgavekøer er et effektivt værktøj til planlægning af kørsel af forretningsprocesser i baggrunden, f.eks. når mange brugere prøver at bogføre salgsordrer, men kun én ordre kan behandles ad gangen.  
 
 Nedenstående fremgangsmåde beskriver, hvordan du konfigurerer baggrundsbogføring af salgsordrer. Trinnene er lignende for indkøb.  
@@ -67,14 +67,14 @@ Nedenstående fremgangsmåde beskriver, hvordan du konfigurerer baggrundsbogfør
 4. Du kan kontrollere, at opgavekøen fungerer som forventet ved at bogføre en salgsordre. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).
     Salgsordrerne føjes nu til en dedikeret opgavekøpost, der definerer, hvornår dokumenterne bliver bogført. 
 
-### <a name="to-view-status-from-a-sales-or-purchase-document"></a><a name="to-view-status-from-a-sales-or-purchase-document"></a>Sådan vises status fra et salgs- eller købsdokument
+### <a name="to-view-status-from-a-sales-or-purchase-document"></a><a name="to-view-status-from-a-sales-or-purchase-document"></a><a name="to-view-status-from-a-sales-or-purchase-document"></a>Sådan vises status fra et salgs- eller købsdokument
 Hvis opgavekøen ikke kan bogføre salgsordren, ændres status til **Fejlmeddelelse**, og salgsordren føjes til listen over salgsordrer, som brugeren skal håndtere manuelt.
 1. I det dokument, du har forsøgt at bogføre med baggrundsbogføring, skal du vælge feltet **Opgavekøstatus**, der indeholder **Fejl**.
 2. Gennemgå fejlmeddelelsen, og løs problemet.
 
 Du kan også gennemgå siden **Logposter i opgavekø**, hvis salgsordren blev bogført korrekt. Du kan finde flere oplysninger i afsnittet [Overvåge opgavekøen](#monitor-the-job-queue).
 
-## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a><a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Sådan oprettes en opgavekøpost for baggrundsbogføring af salgsordrer
+## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a><a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a><a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Sådan oprettes en opgavekøpost for baggrundsbogføring af salgsordrer
 
 Alternativt kan du udsætte posteringer, når det er belejligt for din organisation. F.eks. giver det måske mening i din virksomhed at køre visse rutiner, når de fleste af dataindtastningerne for den pågældende dag er afsluttede. Du kan opnå dette ved at indstille opgavekøen til at køre forskellige massebogføringsrapporter, f.eks. rapporterne **Massebogfør salgsordrer**, **Massebogfør salgsfakturaer** og lignende rapporter. [!INCLUDE[prod_short](includes/prod_short.md)] understøtter baggrundsbogføring for alle salg, køb og servicedokumenter.
 
@@ -111,13 +111,13 @@ Følgende procedure viser, hvordan du kan indstille rapporten **Massebogfør sal
 
 Salgsordrer, der falder inden for de definerede filtre, bogføres alle hverdage kl. 16.
 
-## <a name="monitor-the-job-queue"></a><a name="monitor-the-job-queue"></a>Overvåge opgavekøen
+## <a name="monitor-the-job-queue"></a><a name="monitor-the-job-queue"></a><a name="monitor-the-job-queue"></a>Overvåge opgavekøen
 
 Hvis du konfigurerer baggrundsbogføring med opgavekøer, skal du gøre det til en fast opgave at overvåge opgavekøen for at fange eventuelle problemer. Du kan spore status på siden **Poster for opgavekøer**. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).  
 
 Som administrator kan du bruge [Application Insights](/azure/azure-monitor/app/app-insights-overview) til at indsamle og analysere telemetri, som du kan bruge til at identificere problemer. Du kan finde flere oplysninger i [Overvågning og analyse af telemtri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) i indholdet til udviklere og administration.  
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Bogføring af dokumenter og kladder](ui-post-documents-journals.md)  
 [Du kan bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)  

@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.date: 02/24/2023
 ms.custom: bap-template
 ---
-# <a name="design-details-handling-reordering-policies"></a><a name="design-details-handling-reordering-policies"></a>Designoplysninger: Håndtering af genbestillingsmetoder
+# <a name="design-details-handling-reordering-policies"></a><a name="design-details-handling-reordering-policies"></a><a name="design-details-handling-reordering-policies"></a>Designoplysninger: Håndtering af genbestillingsmetoder
 
 Hvis du vil medtage en vare i forsyningsplanlægningen, skal du angive en genbestillingsmetode for den på **varekort**-siden. Der findes følgende fire genbestillingsmetoder:  
 
@@ -19,36 +19,36 @@ Hvis du vil medtage en vare i forsyningsplanlægningen, skal du angive en genbes
 
 Politikmetoderne **Fast genbestil.antal** og **Maks. antal**, der er relateret til lagerplanlægning. Disse politikker findes sammen med den trinvise balance mellem levering og ordresporing.  
 
-## <a name="the-role-of-the-reorder-point"></a><a name="the-role-of-the-reorder-point"></a>Genbestillingspunktets rolle
+## <a name="the-role-of-the-reorder-point"></a><a name="the-role-of-the-reorder-point"></a><a name="the-role-of-the-reorder-point"></a>Genbestillingspunktets rolle
 
 Et genbestillingspunkt repræsenterer behov under leveringstid. Når den projekterede lagerbeholdning kommer under den lagerbeholdning, der er defineret af genbestillingspunktet, er det tid til at bestille mere. Lagerbeholdningen reduceres gradvist, indtil genopfyldningen ankommer. Den kan nå nul eller sikkerhedsniveauet. Planlægningssystemet vil derfor foreslå en forsyningsordre, der er planlagt fremad, når den forventede lagerbeholdning er under genbestillingspunktet.  
 
 Lagerniveauer kan bevæges væsentligt i tids filsættet. Derfor overvåger planlægningssystemet konstant tilgængelig beholdning.
 
-## <a name="monitoring-the-projected-inventory-level-and-the-reorder-point"></a><a name="monitoring-the-projected-inventory-level-and-the-reorder-point"></a>Overvågning af det forventede lagerniveau og genbestillingspunktet
+## <a name="monitoring-the-projected-inventory-level-and-the-reorder-point"></a><a name="monitoring-the-projected-inventory-level-and-the-reorder-point"></a><a name="monitoring-the-projected-inventory-level-and-the-reorder-point"></a>Overvågning af det forventede lagerniveau og genbestillingspunktet
 
 Lageret er en slags forsyning, men for lagerplanlægning skelner planlægningssystemet mellem to lagerniveauer:  
 
 * Planlagt beholdning  
 * Forventet disponibel beholdning  
 
-### <a name="projected-inventory"></a><a name="projected-inventory"></a>Planlagt beholdning
+### <a name="projected-inventory"></a><a name="projected-inventory"></a><a name="projected-inventory"></a>Planlagt beholdning
 
 I starten af planlægningsprocessen er planlagt beholdning bruttomængden af lager. Brutto antallet omfatter bogført og ikke-bogført udbud og efterspørgsel i fortiden. Denne mængde bliver til projekteret lageropgørelse, som bruttomængder fra fremtidig udbud og efterspørgselsvedligehold. Fremtidig levering og efterspørgsel introduceres langs tidslinjen, uanset om de reserveres eller allokeres på andre måder.  
 
 Den planlagte beholdning bruges af systemet til at overvåge genbestillingspunktet og bestemme genbestillingsantallet, når du bruger genbestillingsmetoden **Maks. antal**.  
 
-### <a name="projected-available-inventory"></a><a name="projected-available-inventory"></a>Forventet disponibel beholdning
+### <a name="projected-available-inventory"></a><a name="projected-available-inventory"></a><a name="projected-available-inventory"></a>Forventet disponibel beholdning
 
 Den forventede disponible beholdning er en del af det planlagte lager, der er tilgængeligt til at opfylde behov på et givet tidspunkt. Den forventede disponible beholdning der bruges af planlægningssystemet ved overvågning af niveauet for sikkerhedslageret. Sikkerhedslageret skal altid være tilgængeligt for uventet efterspørgsel.  
 
-### <a name="time-buckets"></a><a name="time-buckets"></a>Intervaller
+### <a name="time-buckets"></a><a name="time-buckets"></a><a name="time-buckets"></a>Intervaller
 
 Det er afgørende at have streng kontrol med den forventede lagerbeholdning for at registrere, når genbestillingspunktet nås eller passeres, og for at beregne det korrekte ordreantal, når du bruger genbestillingsmetoden **Maks. antal**.  
 
 Som tidligere nævnt beregnes den forventede lagerbeholdning i starten af planlægningsperioden. Det er et bruttoniveau, der ikke medtager reservationer og lignende fordelinger. Systemet overvåger de aggregerede ændringer over en tidsperiode, et interval, for at overvåge dette lagerniveau under planlægningssekvensen. Denne periode kaldes et *tidsinterval*. Hvis du vil vide mere om tidsintervaller, skal du gå til [Tidsintervaller](#time-buckets). Planlægningssystemet sikrer, at tidsintervallet er mindst én dag. En dag er den mindste tidsenhed for behovs-eller forsyningshændelser.  
 
-### <a name="determining-the-projected-inventory-level"></a><a name="determining-the-projected-inventory-level"></a>Bestemmelse af det forventede lagerniveau
+### <a name="determining-the-projected-inventory-level"></a><a name="determining-the-projected-inventory-level"></a><a name="determining-the-projected-inventory-level"></a>Bestemmelse af det forventede lagerniveau
 
 Følgende sekvens beskriver, hvordan det planlagte system bestemmer det planlagte lagerniveau:  
 
@@ -77,7 +77,7 @@ Følgende billede viser dette princip.
 8. Systemet føjer reduktionsrykkeren af -3-rykker til det planlagte lagerniveau enten A: +4 -3 = 1 eller B: +6 -3 = +3.  
 9. I tilfælde af A opretter systemet en fremad planlagt ordre fra datoen **Da**. Genbestillingspunktet er ikke nået i B, og der oprettes ingen ny ordre.
 
-## <a name="the-role-of-the-time-bucket"></a><a name="the-role-of-the-time-bucket"></a>Intervallets rolle
+## <a name="the-role-of-the-time-bucket"></a><a name="the-role-of-the-time-bucket"></a><a name="the-role-of-the-time-bucket"></a>Intervallets rolle
 
 Formålet med intervallet er at indsamle behovshændelser inden for tidssiden for at oprette en fælles forsyningsordre.  
 
@@ -91,7 +91,7 @@ Begrebet interval afspejler den manuelle proces til hyppig kontrol af lagernivea
 
 Intervaller bruges normalt til at undgå en overlapningseffekt. For eksempel en afstemt række af behov og forsyning, hvor et tidligt behov annulleres, eller et ny oprettes. Resultatet ville være, at hver forsyningsordre (undtagen den sidste) skal omplanlægges.
 
-## <a name="stay-below-the-overflow-level"></a><a name="stay-below-the-overflow-level"></a>Beregning af overløbsniveau
+## <a name="stay-below-the-overflow-level"></a><a name="stay-below-the-overflow-level"></a><a name="stay-below-the-overflow-level"></a>Beregning af overløbsniveau
 
 Når du bruger metoderne **Maks. antal** og **Fast genbestil.antal**, fokuserer planlægningssystemet kun på den planlagte lagerbeholdning i det angivne tidsinterval. Det kan foreslå ekstra forsyning, når negativ efterspørgsel eller positiv forsyning ændres uden for det pågældende interval. I forbindelse med ekstra levering beregnes det antal, du skal reducere leveringen med. Dette antal kaldes "overløbsniveauet". Overløbet kommunikeres som en planlægningslinje med en handling i form af **Ret antal (reducering)** eller **Annuller** og følgende advarselsmeddelelse:  
 
@@ -99,11 +99,11 @@ Når du bruger metoderne **Maks. antal** og **Fast genbestil.antal**, fokuserer 
 
 ![Overløbsniveau for lagerbeholdning.](media/supplyplanning_2_overflow1_new.png "Overløbsniveau for lagerbeholdning")  
 
-### <a name="calculating-the-overflow-level"></a><a name="calculating-the-overflow-level"></a>Beregning af overløbsniveau
+### <a name="calculating-the-overflow-level"></a><a name="calculating-the-overflow-level"></a><a name="calculating-the-overflow-level"></a>Beregning af overløbsniveau
 
 Overløbsniveauet beregnes på forskellige måder afhængig af genbestillingspolitikken.  
 
-#### <a name="maximum-qty"></a><a name="maximum-qty"></a>Maks. antal
+#### <a name="maximum-qty"></a><a name="maximum-qty"></a><a name="maximum-qty"></a>Maks. antal
 
 Overløbsniveau = Maks. lagerbeholdning  
 
@@ -112,7 +112,7 @@ Overløbsniveau = Maks. lagerbeholdning
 >
 > Overløbsniveau = maks. lagerbeholdning + ordrestørrelse.  
 
-#### <a name="fixed-reorder-qty"></a><a name="fixed-reorder-qty"></a>Fast genbestil.antal
+#### <a name="fixed-reorder-qty"></a><a name="fixed-reorder-qty"></a><a name="fixed-reorder-qty"></a>Fast genbestil.antal
 
 overløbsniveau = ordrekvantum + genbestillingspunkt  
 
@@ -121,15 +121,15 @@ overløbsniveau = ordrekvantum + genbestillingspunkt
 >
 > overløbsniveau = ordrekvantum + genbestillingspunkt  
 
-#### <a name="order-multiple"></a><a name="order-multiple"></a>Oprundingsfaktor
+#### <a name="order-multiple"></a><a name="order-multiple"></a><a name="order-multiple"></a>Oprundingsfaktor
 
 Hvis en ordre findes flere gange, vil den justere overløbsniveauet for både maks. og fast genbestillingsantal som genbestillingsmetoder.  
 
-### <a name="creating-the-planning-line-with-an-overflow-warning"></a><a name="creating-the-planning-line-with-an-overflow-warning"></a>Oprettelse af planlægningslinjen med overløbsadvarsel
+### <a name="creating-the-planning-line-with-an-overflow-warning"></a><a name="creating-the-planning-line-with-an-overflow-warning"></a><a name="creating-the-planning-line-with-an-overflow-warning"></a>Oprettelse af planlægningslinjen med overløbsadvarsel
 
 Der oprettes en planlægningslinje, når forsyningen medfører, at den projekterede lagerbeholdning bliver større end overløbsniveauet ved slutningen af et interval. For at advare om potentiel overflødig levering indeholder planlægningslinjen en advarselsmeddelelse, feltet **Accepter aktionsmeddelelse** er ikke markeret, og aktionsmeddelelsen er enten **Annuller** eller **Ret antal**  
 
-#### <a name="calculating-the-planning-line-quantity"></a><a name="calculating-the-planning-line-quantity"></a>Beregning af antallet af planlægningslinjer
+#### <a name="calculating-the-planning-line-quantity"></a><a name="calculating-the-planning-line-quantity"></a><a name="calculating-the-planning-line-quantity"></a>Beregning af antallet af planlægningslinjer
 
 Det antal, der kan reserveres, beregnes sådan:
 
@@ -138,12 +138,12 @@ planlægning af linjeantallet = aktuel forsyningsmængde – (projekteret lagerb
 > [!NOTE]  
 > Som med alle advarselslinjer vil alle maksimale/minimale ordremængder eller oprundingsfaktorer blive ignoreret.  
 
-#### <a name="defining-the-action-message-type"></a><a name="defining-the-action-message-type"></a>Definition af aktionsmeddelelsestypen
+#### <a name="defining-the-action-message-type"></a><a name="defining-the-action-message-type"></a><a name="defining-the-action-message-type"></a>Definition af aktionsmeddelelsestypen
 
 * Hvis antallet på planlægningslinjen er højere end 0, er aktionsmeddelelsen **Ret antal**  
 * Hvis antallet på planlægningslinjen er lig med eller mindre end 0, er aktionsmeddelelsen **Annuller**  
 
-#### <a name="composing-the-warning-message"></a><a name="composing-the-warning-message"></a>Oprettelse af advarselsmeddelelsen
+#### <a name="composing-the-warning-message"></a><a name="composing-the-warning-message"></a><a name="composing-the-warning-message"></a>Oprettelse af advarselsmeddelelsen
 
 I forbindelse med overløb vises der på siden **Ikke-sporede planlægningselementer** en advarsel med følgende oplysninger:  
 
@@ -153,11 +153,11 @@ I forbindelse med overløb vises der på siden **Ikke-sporede planlægningseleme
 
 Eksempel: "Den planlagte beholdning 120 er større end overløbsniveauet 60 på 01-28-23"  
 
-### <a name="example-scenario"></a><a name="example-scenario"></a>Scenarieeksempel
+### <a name="example-scenario"></a><a name="example-scenario"></a><a name="example-scenario"></a>Scenarieeksempel
 
 I dette scenario ændrer en kunde en salgsordre fra 70 til 40 stykker mellem to kørsler af planlægning. Overløbsfunktionen reducerer det køb, der blev foreslået for det oprindelige salgsantal.  
 
-#### <a name="item-setup"></a><a name="item-setup"></a>Vareopsætning
+#### <a name="item-setup"></a><a name="item-setup"></a><a name="item-setup"></a>Vareopsætning
 
 |Genbestillingsmetode|Maks. antal|  
 |-----------------------|------------------|  
@@ -165,7 +165,7 @@ I dette scenario ændrer en kunde en salgsordre fra 70 til 40 stykker mellem to 
 |Genbestillingspunkt|50|  
 |Lagerbeholdning|80|  
 
-#### <a name="situation-before-sales-decrease"></a><a name="situation-before-sales-decrease"></a>Situationen før salgsreducering
+#### <a name="situation-before-sales-decrease"></a><a name="situation-before-sales-decrease"></a><a name="situation-before-sales-decrease"></a>Situationen før salgsreducering
 
 |Begivenhed|Ret antal|Planlagt beholdning|  
 |-----------|-----------------|-------------------------|  
@@ -174,7 +174,7 @@ I dette scenario ændrer en kunde en salgsordre fra 70 til 40 stykker mellem to 
 |Slutning på interval|Ingen|10|  
 |Foreslå ny købsordre|+90|100|  
 
-#### <a name="situation-after-sales-decrease"></a><a name="situation-after-sales-decrease"></a>Situationen efter salgsreducering
+#### <a name="situation-after-sales-decrease"></a><a name="situation-after-sales-decrease"></a><a name="situation-after-sales-decrease"></a>Situationen efter salgsreducering
 
 |Ændring|Ret antal|Planlagt beholdning|  
 |------------|-----------------|-------------------------|  
@@ -184,7 +184,7 @@ I dette scenario ændrer en kunde en salgsordre fra 70 til 40 stykker mellem to 
 |Slutning på interval|Ingen|130|  
 |Foreslå at reducere køb<br><br> ordre fra 90 til 60|-30|100|  
 
-#### <a name="resulting-planning-lines"></a><a name="resulting-planning-lines"></a>Resulterende planlægningslinjer
+#### <a name="resulting-planning-lines"></a><a name="resulting-planning-lines"></a><a name="resulting-planning-lines"></a>Resulterende planlægningslinjer
 
 Der oprettes en planlægningslinje (advarsel) for at reducere køb med 30 fra 90 til 60 for at bevare den projekterede lagerbeholdning på 100 i henhold til overløbsniveauet.  
 
@@ -193,7 +193,7 @@ Der oprettes en planlægningslinje (advarsel) for at reducere køb med 30 fra 90
 > [!NOTE]  
 > Uden overløbsfunktionen vises der ingen advarsel, hvis den projekterede lagerbeholdning ligger over maks., hvilket kunne forårsage ekstra forsyning af 30.
 
-## <a name="handling-projected-negative-inventory"></a><a name="handling-projected-negative-inventory"></a>Håndtering af forventet negativt lager
+## <a name="handling-projected-negative-inventory"></a><a name="handling-projected-negative-inventory"></a><a name="handling-projected-negative-inventory"></a>Håndtering af forventet negativt lager
 
 Genbestillingspunktet udtrykker det forventede behov under leveringstiden for varen. Den forventede lagerbeholdning skal være stor nok til at dække behovet, indtil den nye ordre er modtaget. I mellemtiden bør sikkerhedslageret tage højde for udsving i behov op til et målrettet serviceniveau.  
 
@@ -227,11 +227,11 @@ I følgende illustration repræsenterer forsynings-id en akutordre for at juster
 
 I følgende afsnit beskrives karakteristika for de fire understøttede genbestillingsmetoder.
 
-## <a name="reordering-policies"></a><a name="reordering-policies"></a>Genbestillingsmetoder
+## <a name="reordering-policies"></a><a name="reordering-policies"></a><a name="reordering-policies"></a>Genbestillingsmetoder
 
 Genbestillingsmetoder definerer, hvor meget der skal bestilles, når varen skal genbestilles. Der findes fire forskellige genbestillingsmetoder.  
 
-### <a name="fixed-reorder-quantity"></a><a name="fixed-reorder-quantity"></a>Fastlagt ordrekvantum
+### <a name="fixed-reorder-quantity"></a><a name="fixed-reorder-quantity"></a><a name="fixed-reorder-quantity"></a>Fastlagt ordrekvantum
 
 Fastlagt ordrekvantum bruges typisk til lager planlægning for varer med følgende egenskaber:
 
@@ -241,7 +241,7 @@ Fastlagt ordrekvantum bruges typisk til lager planlægning for varer med følgen
 
 Denne metode bruges normalt i forbindelse med et genbestillingspunkt, hvilket afspejler det forventede behov under leveringstiden.  
 
-#### <a name="calculated-per-time-bucket"></a><a name="calculated-per-time-bucket"></a>Beregnet pr. interval
+#### <a name="calculated-per-time-bucket"></a><a name="calculated-per-time-bucket"></a><a name="calculated-per-time-bucket"></a>Beregnet pr. interval
 
 Hvis du når til eller krydse ved genbestillingspunktet i et tidsinterval (genbestillingscyklus), foreslås der to handlinger:
 
@@ -250,7 +250,7 @@ Hvis du når til eller krydse ved genbestillingspunktet i et tidsinterval (genbe
 
 Det tidsbegrænsede genbestillingspunkt reducerer antallet af forsyningsforslag. Den afspejler en proces, hvor der manuelt kontrolleres for det aktuelle antal placeringer på lagerstedet.  
 
-#### <a name="creates-only-necessary-supply"></a><a name="creates-only-necessary-supply"></a>Opretter kun nødvendige forsyninger
+#### <a name="creates-only-necessary-supply"></a><a name="creates-only-necessary-supply"></a><a name="creates-only-necessary-supply"></a>Opretter kun nødvendige forsyninger
 
 Før der foreslås en ny forsyningsordre for at opfylde et genbestillingspunkt, kontrollerer planlægningssystemet, om der er følgende levering:
 
@@ -261,7 +261,7 @@ Systemet foreslår ikke en ny forsyningsordre, hvis forsyningen bringer den proj
 
 Forsyningsordrer, der er oprettet specielt med henblik på at opfylde genbestillingspunktet, er udelukket fra almindelig forsyningsafstemning og vil ikke på nogen måde blive ændret bagefter. Hvis du vil uddele en vare, der har genbestillingspunkt, skal du gennemgå de udestående forsyningsordrer manuelt eller ændre genbestillingsmetoden til **Lot-for-lot**. Systemet reducerer eller annullerer ekstra levering.  
 
-#### <a name="combines-with-order-modifiers"></a><a name="combines-with-order-modifiers"></a>Kombineres med ordremodifikatorer
+#### <a name="combines-with-order-modifiers"></a><a name="combines-with-order-modifiers"></a><a name="combines-with-order-modifiers"></a>Kombineres med ordremodifikatorer
 
 Ordremodifikatorerne Min. ordrestørrelse, Maks. ordrestørrelse og Oprundingsfaktor bør ikke spille en stor rolle, når metoden for fast genbestillingsantal bruges. Planlægningssystemet tager imidlertid dem i betragtning:
 
@@ -269,27 +269,27 @@ Ordremodifikatorerne Min. ordrestørrelse, Maks. ordrestørrelse og Oprundingsfa
 * Forøg ordren til det angivne minimum ordreantal
 * Rund ordreantallet op for at overholde en angivet flere ordre flere  
 
-#### <a name="combines-with-calendars"></a><a name="combines-with-calendars"></a>Kombinerer med kalendere
+#### <a name="combines-with-calendars"></a><a name="combines-with-calendars"></a><a name="combines-with-calendars"></a>Kombinerer med kalendere
 
 Før du foreslår en ny forsyningsordre for at opfylde et genbestillingspunkt, kontrollerer planlægningssystemet, om ordren er planlagt til en fridag. Den bruger de kalendere, du angiver i feltet **Basiskalenderkode** på siderne **Firmaoplysninger** og **lokationskort**.  
 
 Hvis den planlagte dato er en ikkearbejdsdag, flytter planlægningssystemet ordren frem til den nærmeste arbejdsdag. Flyttes datoen kan det resultere i en ordre, der opfylder et genbestillingspunkt, men ikke opfylder visse specifikke behov. Planlægningssystemet opretter en ekstra levering for sådanne behov.  
 
-#### <a name="shouldnt-be-used-with-forecasts"></a><a name="shouldnt-be-used-with-forecasts"></a>Bør ikke bruges med forecast
+#### <a name="shouldnt-be-used-with-forecasts"></a><a name="shouldnt-be-used-with-forecasts"></a><a name="shouldnt-be-used-with-forecasts"></a>Bør ikke bruges med forecast
 
 Det er ikke nødvendigt at medtage en prognose i planlægningen af en vare ved hjælp af et genbestillingspunktet, fordi det forventede behov allerede er angivet i genbestillingspunktet. Hvis det er relevant at basere planen på et forecast, kan du bruge politikken **Lot-for-Lot**.  
 
-#### <a name="must-not-be-used-with-reservations"></a><a name="must-not-be-used-with-reservations"></a>Må ikke anvendes med reservationer
+#### <a name="must-not-be-used-with-reservations"></a><a name="must-not-be-used-with-reservations"></a><a name="must-not-be-used-with-reservations"></a>Må ikke anvendes med reservationer
 
 Hvis du har reserveret en mængde, for eksempel et antal på lageret, til nogle fremtidige behov, bliver grundlaget for planlægningen forstyrret. Selvom det planlagte beholdningsniveau er acceptabelt i relation til genbestillingspunktet, er mængderne muligvis ikke tilgængelige. Systemet kan forsøge at kompensere ved at oprette undtagelses ordrer. Det anbefales dog, at feltet **Reserver** er angivet til **Aldrig** for varer, der er planlagt vha. genbestillingspunkt.
 
-### <a name="maximum-quantity"></a><a name="maximum-quantity"></a>Maksimumantal
+### <a name="maximum-quantity"></a><a name="maximum-quantity"></a><a name="maximum-quantity"></a>Maksimumantal
 
 Det maksimale antal er en måde at vedligeholde lageret ved hjælp af et genbestillingspunkt.  
 
 Alt om den faste genbestillingsantalmetode gælder også for denne metode. Den eneste forskel er omfanget af den foreslåede forsyning. Når metoden med maksimalt antal bruges, defineres genbestillingsantallet dynamisk baseret på det planlagte lagerniveau. Derfor adskiller den sig som regel fra ordre til ordre.  
 
-#### <a name="calculate-per-time-bucket"></a><a name="calculate-per-time-bucket"></a>Beregn pr. interval
+#### <a name="calculate-per-time-bucket"></a><a name="calculate-per-time-bucket"></a><a name="calculate-per-time-bucket"></a>Beregn pr. interval
 
 Når du når til eller kryds genbestillingspunktet, bestemmer systemet genbestillings antallet i slutningen af et tidsinterval. Systemet måler afstanden fra den nuværende forventede lagerbeholdning og den angivne maksimale lagerbeholdning for at bestemme den ordremængden. Systemet kontrollerer derefter:
 
@@ -300,7 +300,7 @@ Hvis det er tilfældet, reduceres antallet i den nye forsyningsordre med de anta
 
 Hvis du ikke angiver et maksimalt lagerantal, sørger planlægningssystemet for, at den planlagte beholdning når ordreantallet.
 
-#### <a name="combine-with-order-modifiers"></a><a name="combine-with-order-modifiers"></a>Kombineres med ordremodifikatorer
+#### <a name="combine-with-order-modifiers"></a><a name="combine-with-order-modifiers"></a><a name="combine-with-order-modifiers"></a>Kombineres med ordremodifikatorer
 
 Afhængigt af opsætningen kan det være bedst at kombinere politikken for maks. antal ved ordre ændring: 
 
@@ -308,13 +308,13 @@ Afhængigt af opsætningen kan det være bedst at kombinere politikken for maks.
 * Afrund antallet til et heltal af måleenheder for køb
 * Antallet inddeles, hvis det overskrider det maksimale ordreantal  
 
-### <a name="combine-with-calendars"></a><a name="combine-with-calendars"></a>Kombinerer med kalendere
+### <a name="combine-with-calendars"></a><a name="combine-with-calendars"></a><a name="combine-with-calendars"></a>Kombinerer med kalendere
 
 Før du foreslår en ny forsyningsordre for at opfylde et genbestillingspunkt, kontrollerer planlægningssystemet, om ordren er planlagt til en fridag. Den bruger de kalendere, du angiver i feltet **Basiskalenderkode** på siderne **Firmaoplysninger** og **lokationskort**.  
 
 Hvis den planlagte dato er en ikkearbejdsdag, flytter planlægningssystemet ordren frem til den nærmeste arbejdsdag. Flyttes datoen kan det resultere i en ordre, der opfylder et genbestillingspunkt, men ikke opfylder visse specifikke behov. Planlægningssystemet opretter en ekstra levering for sådanne behov.
 
-### <a name="order"></a><a name="order"></a>Sorteringsrækkefølge
+### <a name="order"></a><a name="order"></a><a name="order"></a>Sorteringsrækkefølge
 
 I et fremstil-til-ordre-miljø bliver en vare købt eller produceret til at dække et bestemt behov. Fastlagt ordrekvantum bruges typisk til lager planlægning for varer med følgende egenskaber
 
@@ -330,11 +330,11 @@ I et fremstil-til-ordre-miljø bliver en vare købt eller produceret til at dæk
 > [!TIP]
 > Hvis vareattributter ikke varierer, kan det være bedst at bruge en Lot-for-Lot-genbestillingsmetode. Som resultat bruger systemet ikke-planlagt lagerbeholdning og akkumulerer kun salgsordrer med samme afsendelsesdato eller inden for et defineret interval.  
 
-#### <a name="order-to-order-links-and-past-due-dates"></a><a name="order-to-order-links-and-past-due-dates"></a>Ordre-til-ordre-links og overskredne datoer
+#### <a name="order-to-order-links-and-past-due-dates"></a><a name="order-to-order-links-and-past-due-dates"></a><a name="order-to-order-links-and-past-due-dates"></a>Ordre-til-ordre-links og overskredne datoer
 
 I modsætning til de fleste forsyning-behov-sæt, planlægges tilknyttede ordrer med forfaldsdatoer, før planlægningsstartdatoen er fuldt planlagt af systemet. Årsagen til denne undtagelse er, at bestemte behov-forsyningssæt skal synkroniseres. Du kan finde flere oplysninger om den fastlåste zone, der gælder for de fleste behovsforsyningstyper i [Håndtering af ordrer før planlægningsstartdatoen](design-details-balancing-demand-and-supply.md#process-orders-before-the-planning-start-date).
 
-### <a name="lot-for-lot"></a><a name="lot-for-lot"></a>Lot-for-Lot
+### <a name="lot-for-lot"></a><a name="lot-for-lot"></a><a name="lot-for-lot"></a>Lot-for-Lot
 
 Lot-for-Lot-politikken er den mest fleksible, da systemet kun reagerer på faktisk behov. Det handler om forventede behov fra prognose- og tomme ordrer og udligner derefter ordreantallet på basis af behovet. Lot-for-lot-politik er beregnet til elementer, hvor lageret kan accepteres, men bør undgås.  
 
@@ -354,7 +354,7 @@ Da forsyningsordre antallet er baseret på det faktiske behov, kan det være en 
 * Forøg ordren til det angivne minimum ordreantal
 * Reducer antallet til det angivne maksimale ordreantal (og opret to eller flere leverancer for at nå det samlede ordreantal)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)  
 [Designoplysninger: Tabellen Planlægningsopgave](design-details-planning-assignment-table.md)  

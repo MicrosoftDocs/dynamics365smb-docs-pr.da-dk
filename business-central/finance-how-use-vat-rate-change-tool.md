@@ -11,11 +11,11 @@ ms.date: 06/16/2021
 ms.author: andregu
 ---
 
-# <a name="managing-vat-rate-changes"></a><a name="managing-vat-rate-changes"></a>Styre ændringer af momssats
+# <a name="managing-vat-rate-changes"></a><a name="managing-vat-rate-changes"></a><a name="managing-vat-rate-changes"></a>Styre ændringer af momssats
 
 Momssatser kan ændres i henhold til lokal lovgivning. Eventuelle ændringer i moms påvirker dine data i [!INCLUDE[prod_short](includes/prod_short.md)], uanset om momssatsen bliver lavere, højere eller fjernet. Moms er knyttet til mange objekter i [!INCLUDE[prod_short](includes/prod_short.md)], f.eks. debitorer, kreditorer, varer, ressourcer, varegebyrer og finanskonti. Ændringer af momssatser sker normalt på en bestemt dato, hvorfra du skal have ændret momsopsætningen, bogføringsgrupperne osv. for at sikre, at der oprettes nye salgsordrer og købsordrer med den nye momssats.
 
-## <a name="changing-vat-rates"></a><a name="changing-vat-rates"></a>Ændre momssatser
+## <a name="changing-vat-rates"></a><a name="changing-vat-rates"></a><a name="changing-vat-rates"></a>Ændre momssatser
 
 Den bedste metode til styring af momsændringer er at bogføre og lukke åbne ordrer og andre dokumenter før startdatoen for ændret momssats for at sikre, at de ikke påvirkes af ændringen. Det er den rene metode, der giver dig mulighed for at starte nye ordrer og dokumenter med den nye momssats.
 
@@ -30,11 +30,11 @@ Følgende fremgangsmåde foreslås til styring af en momssatsændring
 > [!NOTE]  
 > Vi opdaterer aktuelt momssatsændringsværktøjet. Ovennævnte funktionalitet stemmer muligvis ikke overens med funktionaliteten i dit miljø. Opdateringen vil finde sted før 1. juli 2020 og vil ikke være en almindelig månedlig opdatering. Alle miljøer opdateres i stedet automatisk (hotfix). Når denne opdatering er fuldført, vises denne meddelelse ikke længere.  
 
-## <a name="the-vat-rate-change-tool"></a><a name="the-vat-rate-change-tool"></a>Momssatsændringsværktøjet
+## <a name="the-vat-rate-change-tool"></a><a name="the-vat-rate-change-tool"></a><a name="the-vat-rate-change-tool"></a>Momssatsændringsværktøjet
 
 Momssatsændringsværktøjet kan hjælpe med at konvertere momssatser på stamdata, kladder og ordrer, i en vis grad. Dette er nyttigt, hvis du nemmere vil konvertere moms på stamdata, eller hvis du har ordrer, som du ikke kan lukke inden ændringsdatoen og vil blive behandlet over en længere periode, som krydser ændringsdatoen for momssatsen. Der gælder visse restriktioner og begrænsninger i momssatsændringsværktøjet.
 
-## <a name="understanding-the-vat-rate-conversion-process-and-limitations"></a><a name="understanding-the-vat-rate-conversion-process-and-limitations"></a>Forstå processen og begrænsningerne for konvertering af momssatsen
+## <a name="understanding-the-vat-rate-conversion-process-and-limitations"></a><a name="understanding-the-vat-rate-conversion-process-and-limitations"></a><a name="understanding-the-vat-rate-conversion-process-and-limitations"></a>Forstå processen og begrænsningerne for konvertering af momssatsen
 
 Momssatsændringsværktøjet udfører momssatskonverteringer for stamdata, kladder og ordrer på forskellige måder. De valgte masterdata og kladder opdateres af den nye generelle produktbogføringsgruppe eller momsproduktbogføringsgruppe. Hvis en ordre er blevet helt eller delvist leveret, bevarer de leverede varer den aktuelle generelle produktbogføringsgruppe eller momsproduktbogføringsgruppe. En ny ordrelinje oprettes for de ikke-leverede varer og opdateres for at justere aktuelle og nye momsbogføringsgrupper eller generelle produktbogføringsgrupper. Desuden opdateres oplysninger om varegebyrtildeling, konfigurationsskabeloner for varer, reservationer og varesporingsoplysninger tilsvarende. 
 
@@ -55,7 +55,7 @@ Der er et par ting, som værktøjet ikke konverterer:
 * Priser på salgspriser (stamdata)
 * Virksomhedsbogføringsgrupper til debitorer og kreditorer.
 
-### <a name="to-prepare-vat-rate-change-conversions"></a><a name="to-prepare-vat-rate-change-conversions"></a>Sådan forberedes momssatsændringskonverteringer
+### <a name="to-prepare-vat-rate-change-conversions"></a><a name="to-prepare-vat-rate-change-conversions"></a><a name="to-prepare-vat-rate-change-conversions"></a>Sådan forberedes momssatsændringskonverteringer
 
 Før du konfigurerer momssatsændringsværktøj, skal du foretage følgende forberedelser.
 
@@ -64,20 +64,20 @@ Før du konfigurerer momssatsændringsværktøj, skal du foretage følgende forb
 * For at reducere antallet af dokumenter, der konverteres, skal du postere så mange dokumenter som muligt og reducere antallet af dokumenter, der ikke posteres, til et minimum.  
 * Sikkerhedskopiering af data.
 
-### <a name="to-set-up-the-vat-rate-change-tool"></a><a name="to-set-up-the-vat-rate-change-tool"></a>Sådan konfigureres momssatsændringsværktøjet
+### <a name="to-set-up-the-vat-rate-change-tool"></a><a name="to-set-up-the-vat-rate-change-tool"></a><a name="to-set-up-the-vat-rate-change-tool"></a>Sådan konfigureres momssatsændringsværktøjet
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Konfiguration af ændring af momssats** og vælg derefter det relaterede link.  
 2. På oversigtspanelerne **Stamdata**, **Kladder** og **Dokumenter** skal du vælge en bogføringsgruppeværdi i indstillingslisten for nødvendige felter. For hver gruppe kan du vælge, om der skal konverteres momsproduktbogføringsgrupper eller generelle produktbogføringsgrupper, eller om begge værdier skal konverteres, hvis de er tilgængelige i stamdata. I nogle områder kan du også angive et filter for kun at konvertere et undersæt af værdier, f.eks. finanskonti. 
 3. I oversigtspanelet **Priser inkl. moms** skal du vælge, hvilke linjetyper på ordrer du vil opdatere enhedspriser for. Enhedspriser på linjer af typen Vare og Ressource opdateres altid.
 
-### <a name="to-set-up-product-posting-group-conversion"></a><a name="to-set-up-product-posting-group-conversion"></a>Sådan konfigureres produktbogføringsgruppekonvertering
+### <a name="to-set-up-product-posting-group-conversion"></a><a name="to-set-up-product-posting-group-conversion"></a><a name="to-set-up-product-posting-group-conversion"></a>Sådan konfigureres produktbogføringsgruppekonvertering
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Konfiguration af ændring af momssats** og vælg derefter det relaterede link.  
 2. På siden **Konfiguration af ændring af momssats** skal du vælge enten **Momsproduktbogf.gruppekonv.** eller **Gen. produktbogf.gruppekonv.**.  
 3. Angiv den aktuelle bogføringsgruppe i feltet **Fra kode**.  
 4. Angiv den nye bogføringsgruppe i feltet **Til kode**.  
 
-### <a name="to-perform-vat-rate-change-conversion"></a><a name="to-perform-vat-rate-change-conversion"></a>Sådan udføres konvertering af momssatsændring
+### <a name="to-perform-vat-rate-change-conversion"></a><a name="to-perform-vat-rate-change-conversion"></a><a name="to-perform-vat-rate-change-conversion"></a>Sådan udføres konvertering af momssatsændring
 
 Du bruger momssatsændringsværktøjet til at administrere ændringer i standardmomssatsen. Du udfører momsproduktbogføringsgruppekonverteringer og generelle produktbogføringsgruppekonverteringer for at ændre momssatser og opretholde nøjagtig momsafregning. Afhængigt af din opsætning foretages følgende ændringer:  
 
@@ -100,9 +100,9 @@ Du bruger momssatsændringsværktøjet til at administrere ændringer i standard
 > [!IMPORTANT]  
 > Efter konverteringen er feltet **Konverteret** valgt i tabellen **Momssatsændringslogpost**, og feltet **Konverteringsdato** i tabellen **Momssatsændringslogpost** viser konverteringsdatoen.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/rate-change-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/rate-change-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Konfigurere moms](finance-setup-vat.md)  
 [Opsætning af ikke-realiseret moms](finance-setup-unrealized-vat.md)  

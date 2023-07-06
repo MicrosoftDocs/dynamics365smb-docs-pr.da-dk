@@ -9,12 +9,12 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a><a name="introduction-to-contoso-coffee-demo-data"></a>Introduktion til demonstrationsdata for Contoso Coffee
+# <a name="introduction-to-contoso-coffee-demo-data"></a><a name="introduction-to-contoso-coffee-demo-data"></a><a name="introduction-to-contoso-coffee-demo-data"></a>Introduktion til demonstrationsdata for Contoso Coffee
 
 Contoso Coffee er en fiktiv virksomhed, der producerer forbruger- og kommercielle kaffemaskine. Apps **Contoso Coffee** til Business Central tilføjer demodata, som du kan bruge til at lære, hvordan du bruger funktionerne i Business central.  
 
 
-## <a name="set-up-contoso-coffee-data"></a><a name="set-up-contoso-coffee-data"></a>Opsætning af Contoso Coffee-data
+## <a name="set-up-contoso-coffee-data"></a><a name="set-up-contoso-coffee-data"></a><a name="set-up-contoso-coffee-data"></a>Opsætning af Contoso Coffee-data
 
 Hvis du vil bruge demonstrationsdataene fra Contoso Coffee, skal du installere to apps i det relevante regnskab i [!INCLUDE [prod_short](../includes/prod_short.md)]:  
 
@@ -31,7 +31,7 @@ Derefter skal du gøre følgende:
  - [Produktionsopsætningen](manufacturing/contoso-coffee-manufacturing-intro.md) til forberedelse til brug af [produktionsscenarierne](#manufacturing-scenarios)
  - [Lagerstedsopsætningen](warehousing/contoso-coffee-warehousing-intro.md) til forberedelse til brug af [lagerstedsscenarierne](#warehousing-scenarios)
 
-## <a name="manufacturing-scenarios"></a><a name="manufacturing-scenarios"></a>Produktionsscenarier
+## <a name="manufacturing-scenarios"></a><a name="manufacturing-scenarios"></a><a name="manufacturing-scenarios"></a>Produktionsscenarier
 
 Contoso Coffee-demodata understøtter i øjeblikket følgende produktionsscenarier for test og træning:
 
@@ -49,7 +49,7 @@ Læs trinene for hvert scenarie i den relevante artikel.
 > [!IMPORTANT]
 > Produktionsgennemgangen kræver, at brugeroplevelsen er sat til *Premium* på siden **Firmaoplysninger**.
 
-## <a name="warehousing-scenarios"></a><a name="warehousing-scenarios"></a>Lagerstedsscenarier
+## <a name="warehousing-scenarios"></a><a name="warehousing-scenarios"></a><a name="warehousing-scenarios"></a>Lagerstedsscenarier
 
 Contoso Coffee-demodata understøtter i øjeblikket følgende lagerstedsscenarier for test og træning:
 
@@ -59,7 +59,7 @@ Contoso Coffee-demodata understøtter i øjeblikket følgende lagerstedsscenarie
 
 Læs trinene for hvert scenarie i den relevante artikel.
    
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Produktion](../production-manage-manufacturing.md)  
 [Lagersted](../warehouse-manage-warehouse.md)  

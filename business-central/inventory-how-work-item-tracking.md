@@ -11,7 +11,7 @@ ms.search.forms: '6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 65
 ms.date: 08/31/2021
 ms.author: edupont
 ---
-# <a name="track-items-with-serial-lot-and-package-numbers"></a><a name="track-items-with-serial-lot-and-package-numbers"></a>Spore varer med serie-, lot- og pakkenumre
+# <a name="track-items-with-serial-lot-and-package-numbers"></a><a name="track-items-with-serial-lot-and-package-numbers"></a><a name="track-items-with-serial-lot-and-package-numbers"></a>Spore varer med serie-, lot- og pakkenumre
 
 Du kan tildele serie-, lot- og pakkenumre til ethvert udgående eller indgående bilag, og dets posterede varesporing vises i de relaterede vareposter. Du kan udføre arbejdet på siden **Varesporingslinjer**, som du kan åbne fra et indgående eller udgående dokument.
 
@@ -22,7 +22,7 @@ Af hensyn til ydeevnen indsamler programmet kun disponeringsoplysninger på side
 > [!NOTE]  
 >  Hvis du vil arbejde med de funktioner, der er beskrevet i denne artikel, skal du først oprette varesporing. Se [Konfigurere varesporing med serie-, lot og pakkenumre](inventory-how-setup-item-tracking.md) for at få yderligere information.
 
-## <a name="item-tracking-availability"></a><a name="item-tracking-availability"></a>Tilgængelighed af varesporing
+## <a name="item-tracking-availability"></a><a name="item-tracking-availability"></a><a name="item-tracking-availability"></a>Tilgængelighed af varesporing
 
 Når du arbejder med serie-, lot- og pakkenumre, beregner [!INCLUDE[prod_short](includes/prod_short.md)] tilgængelighedsoplysningerne og viser dem på de forskellige sider for varesporing. På denne måde kan du se, hvor meget af et lot-, pakke- eller serienummer der i øjeblikket er anvendt i andre dokumenter. Dette reducerer fejl og usikkerhed, der skyldes dobbelte tildelinger.
 
@@ -40,7 +40,7 @@ På siden **Serienr./lotnr. - liste**, siden **Serienr./lotnr. - disponering** o
 
 Hvis du arbejder på siden **Varesporingslinjer** i lang tid, eller hvis der er stor aktivitet omkring den vare, du arbejder med, kan du vælge handlingen **Opdater disponering**. Varedisponeringen kontrolleres også automatisk, når du lukker siden, så det kontrolleres, at der ikke er nogen disponeringsproblemer.
 
-## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a><a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Sådan tildeles serie- eller lotnumre under indgående transaktioner
+## <a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a><a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a><a name="to-assign-serial-or-lot-numbers-during-an-inbound-transaction"></a>Sådan tildeles serie- eller lotnumre under indgående transaktioner
 
 Mange virksomheder ønsker at holde styr på varer, lige så snart de modtager dem. I denne situation er købsordren ofte det centrale dokument, selvom varesporing kan håndteres fra alle indgående bilag, og de tilhørende poster kan ses i de tilknyttede vareposter.
 
@@ -71,7 +71,7 @@ Matrixen for mængdefelter på hovedet viser, dynamisk, mængder og summer for d
 
 Når dokumentet er bogført, overføres varesporingsposterne til de tilknyttede vareposter.
 
-### <a name="to-handle-serial-and-lot-numbers-when-getting-receipt-lines-from-a-purchase-invoice"></a><a name="to-handle-serial-and-lot-numbers-when-getting-receipt-lines-from-a-purchase-invoice"></a>Sådan håndteres serie- og lotnumre, når der hentes modtagelseslinjer fra en købsfaktura
+### <a name="to-handle-serial-and-lot-numbers-when-getting-receipt-lines-from-a-purchase-invoice"></a><a name="to-handle-serial-and-lot-numbers-when-getting-receipt-lines-from-a-purchase-invoice"></a><a name="to-handle-serial-and-lot-numbers-when-getting-receipt-lines-from-a-purchase-invoice"></a>Sådan håndteres serie- og lotnumre, når der hentes modtagelseslinjer fra en købsfaktura
 
 Hvis du bruger funktioner til at få bogførte modtagelses- eller afsendelseslinjer fra relaterede fakturaer eller kreditnotaer, så overføres alle varesporingslinjer på lagerdokumenter automatisk, men de behandles de på en særlig måde.
 
@@ -97,14 +97,14 @@ I disse situationer kopieres de eksisterende varesporingslinjer automatisk til f
 
 Du kan ikke ændre felterne **Serienr.** og **Lotnr.** Du kan imidlertid slette hele linjer eller ændre mængder, så de svarer til de ændringer, der er foretaget på kildelinjen.  
 
-## <a name="to-assign-a-serial-or-lot-number-during-an-outbound-transaction"></a><a name="to-assign-a-serial-or-lot-number-during-an-outbound-transaction"></a>Sådan tildeles serie- eller lotnumre under en udgående transaktion
+## <a name="to-assign-a-serial-or-lot-number-during-an-outbound-transaction"></a><a name="to-assign-a-serial-or-lot-number-during-an-outbound-transaction"></a><a name="to-assign-a-serial-or-lot-number-during-an-outbound-transaction"></a>Sådan tildeles serie- eller lotnumre under en udgående transaktion
 
 Udgående håndtering af serie eller lotnumre er en almindeligt forekommende opgave i mange forskellige lagerprocesser. Serie- og lotnumre kan føjes til udgående transaktioner på to måder:  
 
 -   Vælg fra eksisterende serie- eller lotnumre. Bruges, når der allerede er blevet tildelt varesporingsnumre i forbindelse med en indgående transaktion.
 -   Tildeling af nye serie- eller lotnumre under udgående transaktioner. Dette gælder, når varesporingsnumre ikke skal tildeles til varer, før de er solgt og klar til at blive afsendt.
 
-### <a name="to-select-from-existing-serial-or-lot-numbers"></a><a name="to-select-from-existing-serial-or-lot-numbers"></a>Sådan vælges der fra eksisterende serienumre eller lotnumre
+### <a name="to-select-from-existing-serial-or-lot-numbers"></a><a name="to-select-from-existing-serial-or-lot-numbers"></a><a name="to-select-from-existing-serial-or-lot-numbers"></a>Sådan vælges der fra eksisterende serienumre eller lotnumre
 
 Når du arbejder med varer, der kræver varesporing, og du opretter udgående transaktioner, hvor varerne forlader lageret, skal du som regel vælge lot- eller serienumrene ud fra dem, der allerede findes på lageret.
 
@@ -123,7 +123,7 @@ Matrixen for mængdefelter på hovedet viser, dynamisk, mængder og summer for d
 
 Når du bogfører dokumentlinjen, overføres varesporingsoplysningerne til de tilknyttede vareposter.
 
-### <a name="to-assign-new-serial-or-lot-numbers"></a><a name="to-assign-new-serial-or-lot-numbers"></a>Sådan tildeles nye serie- eller lotnumre
+### <a name="to-assign-new-serial-or-lot-numbers"></a><a name="to-assign-new-serial-or-lot-numbers"></a><a name="to-assign-new-serial-or-lot-numbers"></a>Sådan tildeles nye serie- eller lotnumre
 
 Dette alternativ gælder, når lagervarerne ikke indeholder serie-eller lotnumre og i stedet varesporingsnumrene, når varerne sælges og klar til at blive afsendt. I dette scenarie er numrene typisk tildelt fra en foruddefineret nummerserie.
 
@@ -144,11 +144,11 @@ Matrixen for mængdefelter i den øverste visning viser, dynamisk, mængder og s
 
 Når dokumentet er bogført, overføres varesporingsposterne til de tilknyttede vareposter.
 
-### <a name="assign-tracking-numbers-on-source-documents"></a><a name="assign-tracking-numbers-on-source-documents"></a>Tildel sporingsnumre på kildedokumenter
+### <a name="assign-tracking-numbers-on-source-documents"></a><a name="assign-tracking-numbers-on-source-documents"></a><a name="assign-tracking-numbers-on-source-documents"></a>Tildel sporingsnumre på kildedokumenter
 
 I visse situationer vedr. lagervare med serie - eller lotnumre defineres bestemte serie- eller lotnumre på kildedokumentet, f.eks. en salgsordre, som lagermedarbejderen skal respektere under den udgående lageradministration. Dette kan skyldes, at debitor har anmodet om et bestemt lot under ordreprocessen. Når lagerplukdokumentet er oprettet fra et udgående kildedokument, hvor der allerede er defineret serie- eller lotnumre, er alle felterne på siden **Varesporingslinjer** under lagerpluk skrivebeskyttede, undtagen feltet **Håndteringsantal**. I så fald angiver pluklinjerne for lageret varesporingsnumrene på de enkelte Hent- og Placer-linjer. Antallet er allerede opdelt i entydige serie- eller lotnummerkombinationer, fordi salgsordren angiver de varesporingsnumre, der skal leveres.
 
-## <a name="to-handle-serial-and-lot-numbers-on-transfer-orders"></a><a name="to-handle-serial-and-lot-numbers-on-transfer-orders"></a>Sådan håndteres serie- og lotnumre på overflytningsordrer
+## <a name="to-handle-serial-and-lot-numbers-on-transfer-orders"></a><a name="to-handle-serial-and-lot-numbers-on-transfer-orders"></a><a name="to-handle-serial-and-lot-numbers-on-transfer-orders"></a>Sådan håndteres serie- og lotnumre på overflytningsordrer
 
 Procedurerne for håndtering af serie- og lotnumre, der overføres mellem forskellige lokationer, ligner de procedurer, der bruges, når varer sælges eller købes.  
 
@@ -164,7 +164,7 @@ Overførselsordren er imidlertid entydig i den pågældende leverance, og begge 
 
 Under overførslen er siden **Varesporingslinjer** låst for skrivning.  
 
-## <a name="to-record-additional-serial-or-lot-number-information"></a><a name="to-record-additional-serial-or-lot-number-information"></a>Sådan registreres yderligere oplysninger om serie- eller lotnumre
+## <a name="to-record-additional-serial-or-lot-number-information"></a><a name="to-record-additional-serial-or-lot-number-information"></a><a name="to-record-additional-serial-or-lot-number-information"></a>Sådan registreres yderligere oplysninger om serie- eller lotnumre
 
 Hvis du vil knytte specielle oplysninger til et bestemt varesporingsnummer, f.eks. for kvalitetssikring, kan du gøre dette på serie- eller lotnr.oplysningskortet.
 
@@ -182,7 +182,7 @@ Alternatively, you can create an information card when you post journals or docu
 
 Du kan ændre oprettede serie- eller lotnumre på et senere tidspunkt.
 
-## <a name="to-modify-existing-serial-or-lot-number-information"></a><a name="to-modify-existing-serial-or-lot-number-information"></a>Sådan ændres eksisterende serie-/lotnummeroplysninger
+## <a name="to-modify-existing-serial-or-lot-number-information"></a><a name="to-modify-existing-serial-or-lot-number-information"></a><a name="to-modify-existing-serial-or-lot-number-information"></a>Sådan ændres eksisterende serie-/lotnummeroplysninger
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
 2. Vælg en vare, der har en varesporingskode og har serie- eller lotnummeroplysninger.
@@ -193,7 +193,7 @@ Du kan ændre oprettede serie- eller lotnumre på et senere tidspunkt.
 
 Du kan ikke redigere serienumre, lotnumre eller mængder. For at gøre det skal du ompostere den pågældende varepost. Hvis du vil have yderligere oplysninger om dette, skal du se [Sådan omposteres lot- eller serienumre](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 
-## <a name="to-reclassify-serial-or-lot-numbers"></a><a name="to-reclassify-serial-or-lot-numbers"></a>Sådan omposteres serie- eller lotnumre
+## <a name="to-reclassify-serial-or-lot-numbers"></a><a name="to-reclassify-serial-or-lot-numbers"></a><a name="to-reclassify-serial-or-lot-numbers"></a>Sådan omposteres serie- eller lotnumre
 
 Ompostering af varesporing for en vare betyder, at et lot- eller serienummer ændres til et nyt lot- eller serienummer, eller at udløbsdatoen ændres til en ny udløbsdato. Hvis du arbejder med lotter, kan du også samle flere lotter i en enkelt lot. Disse opgaver udføres ved hjælp af vareomposteringskladden.
 
@@ -220,9 +220,9 @@ Ompostering af varesporing for en vare betyder, at et lot- eller serienummer æn
 8. Hvis du vil ændre de eksisterende oplysninger for lot- eller serienummeret, kan du angive lot- eller serieoplysninger.  
 9. Bogfør kladden for at linke de ændrede varesporingsnumre eller udløbsdatoerne til den tilknyttede varepost
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/prepare-item-tracking/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Konfigurere varesporing med serie-, lot- og pakkenumre](inventory-how-setup-item-tracking.md)  
 [Spore vare via varesporing](inventory-how-to-trace-item-tracked-items.md)  

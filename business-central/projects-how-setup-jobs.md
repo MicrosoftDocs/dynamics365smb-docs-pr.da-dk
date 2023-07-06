@@ -9,13 +9,13 @@ ms.search.form: '211, 463, 1012'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-jobs-prices-and-job-posting-groups"></a><a name="set-up-jobs-prices-and-job-posting-groups"></a>Oprette sager, priser og sagsbogføringsgrupper
+# <a name="set-up-jobs-prices-and-job-posting-groups"></a><a name="set-up-jobs-prices-and-job-posting-groups"></a><a name="set-up-jobs-prices-and-job-posting-groups"></a>Oprette sager, priser og sagsbogføringsgrupper
 
 Som projektleder kan du oprette sager, der definerer hvert af de projekter, som du administrerer i [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Sagsopsætning** skal du angive, hvordan du vil bruge bestemte sagsfunktioner.
 
 For hver sag kan du derefter specificere de individuelle jobkort med oplysninger om priser for sagsvarer, sagsressourcer og sagsfinanskonti, og du skal oprette sagsbogføringsgrupper.
 
-## <a name="to-set-general-information-for-jobs"></a><a name="to-set-general-information-for-jobs"></a>Sådan angives generelle oplysninger for sager
+## <a name="to-set-general-information-for-jobs"></a><a name="to-set-general-information-for-jobs"></a><a name="to-set-general-information-for-jobs"></a>Sådan angives generelle oplysninger for sager
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagsopsætning**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -23,7 +23,7 @@ For hver sag kan du derefter specificere de individuelle jobkort med oplysninger
 > [!NOTE]
 > Feltet **Anvend anvendelseslink som standard** angiver, om der som standard knyttes sagsposter til sagsplanlægningslinjer. Marker feltet, hvis du vil anvende indstillingen på alle nye sager, du opretter. Du kan aktivere eller deaktivere sporing af sagsforbrug for et bestemt job ved at ændre værdien i feltet **Anvend anvendelses link** på det enkelte jobkort. Konsekvenser beskrives i følgende afsnit.
 
-### <a name="to-set-up-job-usage-tracking"></a><a name="to-set-up-job-usage-tracking"></a>Sådan definerer du sagsforbrugssporing
+### <a name="to-set-up-job-usage-tracking"></a><a name="to-set-up-job-usage-tracking"></a><a name="to-set-up-job-usage-tracking"></a>Sådan definerer du sagsforbrugssporing
 
 Når du ekspederer en aktiv sag, kan du få flere oplysninger om forbruget i forhold til din plan. Det kan du nemt gøre ved at oprette en tilknytning mellem dine sagsplanlægningslinjer og det faktiske forbrug. På denne måde kan du holde styr på dine omkostninger og nemt se, hvor meget arbejde, der mangler at blive udført. Som standard er sagsplanlægningslinjetypen *Budget*, men brug af linjetypen **Både budget og fakturerbar** har samme virkning.
 
@@ -43,7 +43,7 @@ If job usage tracking is not enabled and the **Line Type** field on the job jour
 -->
 
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a><a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Konfigurere priser for ressourcer, varer og finanskonti for jobs.
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a><a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a><a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Konfigurere priser for ressourcer, varer og finanskonti for jobs.
 
 > [!NOTE]
 > I 2020 udgivelsesbølge 2 har vi udgivet nye processer til opsætning og administration af priser og rabatter. Hvis du er ny kunde, bruger du den nye oplevelse. Hvis du allerede bruger den nye oplevelse, afhænger det af, om din administrator har aktiveret funktionsopdateringen **Ny vareprissætningsopdatering** i **Funktionsadministration**. Du kan finde flere oplysninger i [Aktivere Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -71,7 +71,7 @@ I følgende tabel vises, hvordan oplysningerne i de valgfrie felter bruges på S
 
 ---
 
-## <a name="to-set-up-job-posting-groups"></a><a name="to-set-up-job-posting-groups"></a>Sådan oprettes sagsbogføringsgrupper
+## <a name="to-set-up-job-posting-groups"></a><a name="to-set-up-job-posting-groups"></a><a name="to-set-up-job-posting-groups"></a>Sådan oprettes sagsbogføringsgrupper
 
 Et aspekt af planlægningssager er at beslutte, hvilke bogføringkonti, der skal bruges til sagsomkostninger. Hvis du vil bogføre sager, skal du oprette konti til bogføring for hver sagsbogføringsgruppe. En bogføringsgruppe repræsenterer en kæde mellem sagen, og hvordan den bør behandles i Finans. Når du opretter en sag, kan du angive en bogføringsgruppe, og som standard knyttes hver opgave, du opretter for sagen, til denne bogføringsgruppe. Når du opretter opgaver, kan du tilsidesætte standardindstillingen og vælge en bogføringsgruppe, der passer bedre.  
 
@@ -99,9 +99,9 @@ Et aspekt af planlægningssager er at beslutte, hvilke bogføringkonti, der skal
 | **Konto til realiserede omkostninger** |Den udgiftskonto, som indeholder de registrerede omkostninger for sagen. Det er normalt en debetafrundingskonto. |
 | **Konto til realiseret salg** |Den indtægtskonto, som indeholder den registrerede indtægt for sagen. Det er normalt en kreditafrundingskonto. |
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/set-up-jobs-resources/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Oprette projektstyring](projects-setup-projects.md)  
 [Video: Sådan oprettes en sag i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
