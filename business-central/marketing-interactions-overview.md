@@ -10,7 +10,7 @@ ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="managing-interactions-with-your-contacts"></a><a name="managing-interactions-with-your-contacts"></a><a name="managing-interactions-with-your-contacts"></a>Administrere interaktioner med dine kontakter
+# <a name="managing-interactions-with-your-contacts"></a>Administrere interaktioner med dine kontakter
 I [!INCLUDE[prod_short](includes/prod_short.md)] er interaktioner alle typer kommunikation mellem din virksomhed og dine kontakter. F.eks. kan kommunikation foregå via brev, mail, telefon, møder osv.
 
 Du kan registrere alle de interaktioner, du har med kontakter. Det sætter dig i stand til at holde styr på de salgs- og marketingtiltag, du har iværksat over for kontakterne, og til at forbedre de fremtidige forretningsinteraktioner med dem.

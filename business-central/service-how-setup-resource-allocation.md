@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="set-up-resource-allocation"></a><a name="set-up-resource-allocation"></a><a name="set-up-resource-allocation"></a>Opsætte ressourceallokering
+# <a name="set-up-resource-allocation"></a>Opsætte ressourceallokering
 Det er vigtigt at finde en ressource, der er kvalificeret til at udføre arbejdet, for at sikre, at en serviceopgave udføres korrekt. Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)], så det er nemt at allokere en person, der har de korrekte kvalifikationer til sagen. I [!INCLUDE[prod_short](includes/prod_short.md)] kalder vi det _ressourceallokering_. Du kan allokere ressourcer, alt efter deres færdigheder og tilgængelighed, eller om de er i samme servicezone som kunden. 
 
 Når du vil bruge ressourceallokering, skal du angive:  
@@ -20,29 +20,29 @@ Når du vil bruge ressourceallokering, skal du angive:
 * Geografiske områder, kaldet zoner, som du har defineret for dit marked. For eksempel øst, vest, centralt osv. Du tildeler grupperne til debitorer og ressourcer.  
 * Om der skal vises ressourcekvalifikationer og zoner, og om der skal vises en advarsel, hvis en bruger vælger en ukvalificeret ressource eller en ressource, som ikke er i kundezonen.  
 
-## <a name="to-set-up-skills"></a><a name="to-set-up-skills"></a><a name="to-set-up-skills"></a>Sådan oprettes kvalifikationer
+## <a name="to-set-up-skills"></a>Sådan oprettes kvalifikationer
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kvalifikationer**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-assign-skills-to-service-items-and-resources"></a><a name="to-assign-skills-to-service-items-and-resources"></a><a name="to-assign-skills-to-service-items-and-resources"></a>Sådan tildeles kvalifikationer til serviceartikler og ressourcer
+## <a name="to-assign-skills-to-service-items-and-resources"></a>Sådan tildeles kvalifikationer til serviceartikler og ressourcer
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Serviceartikler** eller **Ressourcer**, og vælg derefter det relaterede link.  
 2. Åbn kortet for serviceartiklen eller ressourcen, og vælg derefter en af følgende:  
   
     * Vælg **Ressourcekvalifikationer** for serviceartikler.  
     * Vælg **Kvalifikationer** for ressourcer.  
 
-## <a name="to-set-up-zones"></a><a name="to-set-up-zones"></a><a name="to-set-up-zones"></a>Sådan defineres zoner
+## <a name="to-set-up-zones"></a>Sådan defineres zoner
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Zoner**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-assign-zones-to-customers-and-resources"></a><a name="to-assign-zones-to-customers-and-resources"></a><a name="to-assign-zones-to-customers-and-resources"></a>Sådan tildeles zoner til kunder og ressourcer
+## <a name="to-assign-zones-to-customers-and-resources"></a>Sådan tildeles zoner til kunder og ressourcer
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder** eller **Debitorer**, og vælg derefter det relaterede link.  
 2. Åbn kortet for serviceartiklen eller ressourcen, og vælg derefter en af følgende:  
   
     * For kunder skal du vælge en zone i feltet **Servicezonekode**.  
     * For ressourcer skal du vælge handlingen **Servicezoner**.  
 
-## <a name="to-specify-what-to-show-when-a-resource-is-chosen"></a><a name="to-specify-what-to-show-when-a-resource-is-chosen"></a><a name="to-specify-what-to-show-when-a-resource-is-chosen"></a>Sådan angiver du, hvad der skal vises, når en ressource vælges
+## <a name="to-specify-what-to-show-when-a-resource-is-chosen"></a>Sådan angiver du, hvad der skal vises, når en ressource vælges
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceopsætning**, og vælg derefter det relaterede link. 
 2. I feltet **Indstilling for ressourcekval.** skal du vælge en af de indstillinger, der er beskrevet i følgende tabel.  
   
@@ -52,14 +52,14 @@ Når du vil bruge ressourceallokering, skal du angive:
     |Vis advarsel | Viser oplysninger og en advarsel, hvis du vælger en ressource, som ikke er kvalificeret.|  
     |Bruges ikke | Viser ikke disse oplysninger.|  
 
-## <a name="to-update-resource-capacity"></a><a name="to-update-resource-capacity"></a><a name="to-update-resource-capacity"></a>Sådan opdateres ressourcekapacitet
+## <a name="to-update-resource-capacity"></a>Sådan opdateres ressourcekapacitet
 Du skal muligvis ændre ressourcernes kapacitet.  
   
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourcekapacitet**, og vælg derefter det relaterede link.  
 2. Vælg ressourcen, og vælg derefter handlingen **Angiv kapacitet**.  
 3. Foretag ændringerne, og vælg derefter **Opdater kapacitet**.  
 
-## <a name="to-update-skills-for-items-service-items-or-service-item-groups"></a><a name="to-update-skills-for-items-service-items-or-service-item-groups"></a><a name="to-update-skills-for-items-service-items-or-service-item-groups"></a>Sådan opdateres kvalifikationer for artikler, serviceartikler eller serviceartikelgrupper
+## <a name="to-update-skills-for-items-service-items-or-service-item-groups"></a>Sådan opdateres kvalifikationer for artikler, serviceartikler eller serviceartikelgrupper
 Hvis du vil ændre kvalifikationskoder, der er tildelt til varer, for eksempel fra **PC** til **PCS**, kan du gøre det for en vare, en serviceartikel eller for alle varer i en serviceartikelgruppe.  
   
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer** eller **Serviceartikel** eller **Serviceartikelgruppe**, og vælg derefter det relaterede link.  
@@ -70,7 +70,7 @@ Hvis du vil ændre kvalifikationskoder, der er tildelt til varer, for eksempel f
     * Skift kvalifikationskoderne til den valgte værdi: Vælg denne indstilling, hvis du vil erstatte den gamle kvalifikationskode med den nye kode for alle relaterede serviceartikler.  
     * Slet kvalifikationskoderne, eller opdater deres relation: Vælg denne indstilling, hvis du kun vil ændre kvalifikationskode for denne vare. Kvalifikationskoden for de relaterede serviceartikler bliver tildelt igen, dvs. feltet **Tildelt fra** opdateres.  
   
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 [Allokere ressourcer](service-how-to-allocate-resources.md)  
 [Konfigurere arbejdstimer og serviceåbningstider](service-how-setup-work-service-hours.md)  
 [Konfigurere fejlrapportering](service-how-setup-fault-reporting.md)  

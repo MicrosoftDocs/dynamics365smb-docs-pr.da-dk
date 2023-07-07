@@ -10,7 +10,7 @@ ms.search.keywords: 'design, items, ledger entries, posting, inventory'
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-item-application"></a><a name="design-details-item-application"></a><a name="design-details-item-application"></a>Designoplysninger: Vareudligning
+# <a name="design-details-item-application"></a>Designoplysninger: Vareudligning
 
 Når du bogfører en lagertransaktion, registreres antalsbogføringen i vareposterne og værdibogføringen i værdiposterne. Du kan finde flere oplysninger i [Designoplysninger: Varekladde](design-details-inventory-posting.md).  
 
@@ -54,22 +54,22 @@ Følgende oplysninger registreres i en vareudligningspost.
 |**Antal**|Det antal, der udlignes.|  
 |**Bogføringsdato**|Transaktionens bogføringsdato.|  
 
-## <a name="inventory-increase"></a><a name="inventory-increase"></a><a name="inventory-increase"></a>Lagerforøgelse
+## <a name="inventory-increase"></a>Lagerforøgelse
 Når du bogfører en lagerforøgelse, registreres der en simpel vareudligningspost uden en udligning med en udgående post.  
 
-### <a name="example"></a><a name="example"></a><a name="example"></a>Eksempel
+### <a name="example"></a>Eksempel
 Følgende tabel viser den vareudligningspost, der oprettes, når du bogfører en købsleverance på 10 enheder.  
 
 |Bogføringsdato|Indgående varepostløbenr.|Udgående varepostløbenr.|Antal|Varepostløbenr.|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-01-20|1|0|10|1|  
 
-## <a name="inventory-decrease"></a><a name="inventory-decrease"></a><a name="inventory-decrease"></a>Lagerreducering
+## <a name="inventory-decrease"></a>Lagerreducering
 Når du bogfører en lagerreduktion, oprettes der en vareudligningspost, der knytter lagerreduktionen til en lagerforøgelse. Dette link oprettes ved at bruge varens kostmetode som retningslinje. For varer, der bruger kostmetoden FIFO, Standard og Gennemsnit, er tilknytningen baseret på princippet først ind-først ud. Der lagerreduktionen anvendes til lagerforøgelsen, der har den tidligste bogføringsdato. For varer, der bruger kostmetoden LIFO, er tilknytningen baseret på princippet sidst ind-først ud. Lagerreduktionen anvendes til lagerforøgelsen, der har den nyeste bogføringsdato.  
 
 I tabellen **Varepost** viser feltet **Restantal** det antal, som endnu ikke er blevet udlignet. Hvis restantallet er større end 0, vil afkrydsningsfeltet **Åben** være markeret.  
 
-### <a name="example-1"></a><a name="example-1"></a><a name="example-1"></a>Eksempel
+### <a name="example-1"></a>Eksempel
 Det følgende eksempel viser den vareudligningspost, der oprettes, når du bogfører en salgsleverance på 5 enheder af de varer, der blev modtaget i det forrige eksempel. Den første vareudligningspost er købsleverancen. Den anden udligningspost er salgsleverancen.  
 
 Følgende tabel viser de to vareudligningsposter, der skyldes henholdsvis lagerforøgelsen og lagerreduceringen.  
@@ -79,12 +79,12 @@ Følgende tabel viser de to vareudligningsposter, der skyldes henholdsvis lagerf
 |01-01-20|1|0|10|1|  
 |01-03-20|1|2|-5|2|  
 
-## <a name="fixed-application"></a><a name="fixed-application"></a><a name="fixed-application"></a>Fast udligning
+## <a name="fixed-application"></a>Fast udligning
 Du foretager faste udligninger, når du angiver, at kostprisen for en lagerforøgelse skal udlignes med en bestemt lagerreduktion eller vice versa. Den faste udligning har indflydelse på det resterende antal i posterne, men den faste udligning tilbagefører også den præcise kostpris for den oprindelige post, du udligner til eller fra.  
 
 Hvis du vil foretage en fast udligning, skal du bruge felterne **Udl.varepostløbenr.** eller **Udlign fra varepost** på de bilagslinjer, der angiver den varepost, som transaktionslinjen skal udlignes til eller fra. Du kan f.eks. foretage en fast udligning, hvis du vil oprette en kostprisudligning, der angiver, at en salgsreturvareordre skal udlignes med en bestemt salgsleverance for at kostprisen for salgsleverancen kan tilbageføres. I dette tilfælde tilsidesætter [!INCLUDE[prod_short](includes/prod_short.md)] kostmetoden og anvender lagerreduktionen eller forøgelsen for en salgsreturvare på den varepost, du angiver. Fordelen ved en fast udligning er, at kostprisen for den oprindelige transaktion overføres til den nye transaktion.  
 
-### <a name="example--fixed-application-in-purchase-return"></a><a name="example--fixed-application-in-purchase-return"></a><a name="example--fixed-application-in-purchase-return"></a>Eksempel – Fast udligning i købsreturvare
+### <a name="example--fixed-application-in-purchase-return"></a>Eksempel – Fast udligning i købsreturvare
 Følgende eksempel, som illustrerer virkningen af fast udligning af en købsreturvare, der bruger kostmetoden FIFO, er baseret på følgende scenario:  
 
 1. I post 1 bogfører brugeren et køb til en kostpris på RV 10,00.  
@@ -109,7 +109,7 @@ Følgende tabel viser den vareudligningspost, der skyldes fast udligning.
 
 Kostprisen for det andet køb, RV 20,00, vil derefter blive overført korrekt til købsreturvareordren.  
 
-### <a name="example--fixed-application-with-average-cost"></a><a name="example--fixed-application-with-average-cost"></a><a name="example--fixed-application-with-average-cost"></a>Eksempel – Fast udligning med gennemsnitlig kostpris
+### <a name="example--fixed-application-with-average-cost"></a>Eksempel – Fast udligning med gennemsnitlig kostpris
 Følgende eksempel, som illustrerer virkningen af fast udligning, er baseret på følgende scenario for en vare, der bruger kostmetoden Gennemsnit:  
 
 1. Brugeren bogfører to købsfakturaer i postnummer 1 og 2. Den anden faktura har en forkert købspris på RV 1000,00.  
@@ -149,7 +149,7 @@ I post nummer 5 er værdien af feltet **Kostbeløb (faktisk)** for denne post og
 > [!NOTE]  
 >  Hvis du opretter en fast udligning for en lagerreduktion for en vare, der bruger kostmetoden Gennemsnit, vil reduktionen ikke som sædvanlig modtage den gennemsnitlige kostpris for varen, men den vil i stedet modtage kostprisen for den lagerforøgelse, du har angivet. Den lagerreduktion er derefter ikke en del af beregningen af den gennemsnitlige kostpris.  
 
-### <a name="example--fixed-application-in-sales-return"></a><a name="example--fixed-application-in-sales-return"></a><a name="example--fixed-application-in-sales-return"></a>Eksempel – Fast udligning i salgsreturvare
+### <a name="example--fixed-application-in-sales-return"></a>Eksempel – Fast udligning i salgsreturvare
 Faste udligninger er også en meget god måde til at tilbageføre omkostninger nøjagtigt, som f.eks. ved salgsreturvarer.  
 
 Følgende eksempel, som illustrerer, hvordan fast udligning sikrer præcis kostprisudligning, er baseret på følgende scenario:  
@@ -190,10 +190,10 @@ Når du udfører kørslen **Juster kostpris - vareposter**, videreføres de for�
 > [!NOTE]  
 >  Hvis du bogfører en transaktion med en fast udligning, og den varepost, du udligner, er lukket, dvs. restantallet er nul, annulleres den gamle udligning automatisk, og derefter udlignes vareposten igen med den faste udligning, du har angivet.  
 
-## <a name="transfer-application"></a><a name="transfer-application"></a><a name="transfer-application"></a>Overfør udligning
+## <a name="transfer-application"></a>Overfør udligning
 Når en vare overflyttes fra én placering til en anden inden for virksomhedens lager, oprettes der en udligning mellem de to overflytningsposter. Værdiansættelse af en overflytningspost afhænger af kostmetoden. For varer, der bruger kostmetoden Gennemsnit, foretages værdiansættelsen ved hjælp af den gennemsnitlige kostpris i den gennemsnitlige omkostningsperiode, hvori værdiansættelsesdatoen for overførslen sker. For varer, der benytter andre kostmetoder, foretages værdiansættelse ved sporing tilbage til kostprisen for den oprindelige lagerforøgelse.  
 
-### <a name="example--average-costing-method"></a><a name="example--average-costing-method"></a><a name="example--average-costing-method"></a>Eksempel – Gennemsnitlig kostmetode
+### <a name="example--average-costing-method"></a>Eksempel – Gennemsnitlig kostmetode
 Følgende eksempel, som illustrerer, hvordan overførselsposter anvendes, er baseret på følgende scenario for en vare, der bruger kostmetoden Gennemsnit og en gennemsnitlig omkostningsperiode på en dag.  
 
 1. Brugeren køber varen til en pris på RV 10,00.  
@@ -209,7 +209,7 @@ Følgende tabel viser effekten af overførslen på værdiposterne for varen.
 |02-01-20|Overførsel|EAST|-1|15.00|3|  
 |02-01-20|Overførsel|WEST|1|15.00|4|  
 
-### <a name="example--standard-costing-method"></a><a name="example--standard-costing-method"></a><a name="example--standard-costing-method"></a>Eksempel – standardkostmetode
+### <a name="example--standard-costing-method"></a>Eksempel – standardkostmetode
 Følgende eksempel, som illustrerer, hvordan overførselsposter anvendes, er baseret på følgende scenario for en vare, der bruger kostmetoden Standard og en gennemsnitlig omkostningsperiode på en dag.  
 
 1. Brugeren køber varen til en standardpris på RV 10,00.  
@@ -225,7 +225,7 @@ Følgende tabel viser effekten af overførslen på værdiposterne for varen.
 
 Da værdien af den oprindelige lagerforøgelse er RV 10,00, er overførslen værdisat til denne kostpris, ikke RV 12,00.  
 
-## <a name="reapplication"></a><a name="reapplication"></a><a name="reapplication"></a>Genudligning
+## <a name="reapplication"></a>Genudligning
 På grund af den måde, som kostprisen på en vare beregnes, kan en forkert vareudligning føre til en forkert gennemsnitlig kostpris og en forkert kostpris. Følgende situationer kan medføre forkerte vareudligninger, som kræver, at du fortryder vareudligninger og genanvender vareposter:  
 
 * Du har glemt at foretage en fast udligning.  
@@ -235,7 +235,7 @@ På grund af den måde, som kostprisen på en vare beregnes, kan en forkert vare
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en funktion, der analyserer og korrigerer vareudligninger. Dette arbejde udføres på siden **Udligningskladde**.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 [Designoplysninger: Kendt problem med vareudligning](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)  
 [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  

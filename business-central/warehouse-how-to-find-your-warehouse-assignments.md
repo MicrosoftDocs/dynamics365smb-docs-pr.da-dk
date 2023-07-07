@@ -10,11 +10,11 @@ ms.search.form: 9000
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="find-your-warehouse-assignments"></a><a name="find-your-warehouse-assignments"></a><a name="find-your-warehouse-assignments"></a>Finde dine lageropgaver
+# <a name="find-your-warehouse-assignments"></a>Finde dine lageropgaver
 
 Hvis du vil finde dine lageropgaver, skal du åbne kortsiden til en markeret vare. Hvis der er oprettet lagerinstruktioner, vises der Hent- og Placer-linjer, og du kan starte på en opgave. Der kan også være tildelt særlige instruktioner til hver lagermedarbejder af en overordnet leder. Du kan finde flere oplysninger i [Definere lagermedarbejdere](warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="to-find-an-instruction-assigned-to-you"></a><a name="to-find-an-instruction-assigned-to-you"></a><a name="to-find-an-instruction-assigned-to-you"></a>Sådan findes en tildelt instruktion
+## <a name="to-find-an-instruction-assigned-to-you"></a>Sådan findes en tildelt instruktion
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikonk, skriv **Læg-på-lager (logistik)**, **Pluk (logistik)** eller **Bevægelse (logistik)**, og vælg derefter det relaterede link.
 
@@ -25,7 +25,7 @@ Hvis du vil finde dine lageropgaver, skal du åbne kortsiden til en markeret var
 
 Du kan bruge feltet **Tildelt bruger-id** på hovedet til at påtage dig opgaver, hvis lagerlederen ikke har tildelt bestemte instruktioner til hver individuel medarbejder. Indtast blot dit bruger-id på hovedet, før du begynder at arbejde på en instruktion. De andre medarbejdere kan så vælge at starte på andre instruktioner, og to medarbejdere kommer ikke til at spilde tid og kræfter på at udføre den samme opgave.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

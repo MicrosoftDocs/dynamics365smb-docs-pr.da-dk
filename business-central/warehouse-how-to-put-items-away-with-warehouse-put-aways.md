@@ -10,7 +10,7 @@ ms.date: 01/24/2023
 ms.custom: bap-template
 ms.search.forms: '7352, 7333'
 ---
-# <a name="put-items-away-with-warehouse-put-aways"></a><a name="put-items-away-with-warehouse-put-aways"></a><a name="put-items-away-with-warehouse-put-aways"></a>Lægge varer på lager med Læg-på-lager (logistik)
+# <a name="put-items-away-with-warehouse-put-aways"></a>Lægge varer på lager med Læg-på-lager (logistik)
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du modtage varer og indsætte dem på en af fire måder som beskrevet i følgende tabel.
 
@@ -31,7 +31,7 @@ Afhængigt af værdien i feltet **Brug læg-på-lager-kladde** på **lokationsko
 
 Foruden de almindelige måder at oprette lagerets læg-på-lager, der er beskrevet i denne artikel, kan du oprette læg-på-lager fra den relaterede bogførte lagermodtagelse. Dette er nyttigt, hvis du har slettet læg-på-lager-linjer, eller hvis du bruger styret læg-på-lager og pluk og har besluttet dig til ikke at bruge læg-på-lager-kladden, fordi du kan oprette eller genoprette læg-på-lager-vejledninger fra de bogførte købsleverancelinjer.
 
-## <a name="zone-and-bin-codes"></a><a name="zone-and-bin-codes"></a><a name="zone-and-bin-codes"></a>Zone-og placeringskoder
+## <a name="zone-and-bin-codes"></a>Zone-og placeringskoder
 
 På lokationer, der er konfigureret til at bruge styret læg-på-lager og pluk, er følgende indstillinger forudsætninger for ovenstående fremgangsmåde:  
 
@@ -41,7 +41,7 @@ På lokationer, der er konfigureret til at bruge styret læg-på-lager og pluk, 
 
 Der tages hensyn til placeringsniveau, når mere end én placering opfylder kriterierne for læg-på-lager-skabelonen. Hvis kriterierne i læg-på-lager-skabelonen og placeringsniveauet er ens for mere end én placering, vælges placeringen med det højeste nummer.
 
-## <a name="to-create-put-away-documents-in-bulk-with-the-put-away-worksheet"></a><a name="to-create-put-away-documents-in-bulk-with-the-put-away-worksheet"></a><a name="to-create-put-away-documents-in-bulk-with-the-put-away-worksheet"></a>Sådan oprettes plukdokumenter samlet med plukkladden
+## <a name="to-create-put-away-documents-in-bulk-with-the-put-away-worksheet"></a>Sådan oprettes plukdokumenter samlet med plukkladden
 
 Du kan oprette læg-på-lager-dokumenter for flere modtagelser på én gang på siden **læg-på-lager-kladde**.  
 
@@ -75,7 +75,7 @@ Du kan oprette læg-på-lager-dokumenter for flere modtagelser på én gang på 
 
 8. Vælg handlingen **OK** for at oprette læg-på-lager.  
 
-## <a name="to-create-a-put-away-from-a-posted-receipt"></a><a name="to-create-a-put-away-from-a-posted-receipt"></a><a name="to-create-a-put-away-from-a-posted-receipt"></a>Sådan oprettes en læg-på-lager-aktivitet fra en bogført modtagelse
+## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Sådan oprettes en læg-på-lager-aktivitet fra en bogført modtagelse
 
 Hvis din lokation bruger både læg-på-lager-behandling og modtagelsesbehandling, og du har slettet læg-på-lager-linjer, eller hvis du bruger styret læg-på-lager og pluk og har besluttet dig til ikke at bruge læg-på-lager-kladden, kan du oprette eller genoprette læg-på-lager-vejledninger til bogførte købsleverancelinjer.
 
@@ -88,7 +88,7 @@ Hvis din lokation bruger både læg-på-lager-behandling og modtagelsesbehandlin
 4. Vælg handlingen **Opret læg-på-lager**, hvis modtagelsen er lagt delvist på lager eller slet ikke er lagt på lager.  
 5. Udfyld felterne efter behov, og vælg derefter knappen **OK**.  
 
-## <a name="to-put-items-away"></a><a name="to-put-items-away"></a><a name="to-put-items-away"></a>Sætte varer på plads
+## <a name="to-put-items-away"></a>Sætte varer på plads
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Læg-på-lager**, og vælg derefter det relaterede link.
 
@@ -112,9 +112,9 @@ Hvis din lokation bruger både læg-på-lager-behandling og modtagelsesbehandlin
 
 5. Vælg handlingen **Registrer læg-på-lager**, når du har placeret alle varer på de korrekte placeringer.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/receive-put-away-items/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

@@ -11,13 +11,13 @@ ms.date: 09/07/2022
 ms.author: jswymer
 ---
 
-# <a name="building-power-bi-reports-to-display--data"></a><a name="building-power-bi-reports-to-display--data"></a><a name="building-power-bi-reports-to-display--data"></a>Oprette Power BI-rapporter, der viser [!INCLUDE [prod_long](includes/prod_long.md)]-data
+# <a name="building-power-bi-reports-to-display--data"></a>Oprette Power BI-rapporter, der viser [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
 Du kan gøre dine [!INCLUDE[prod_long](includes/prod_long.md)]-data tilgængelige som datakilde i Power BI Desktop og opbygge nyttige rapporter over status for din virksomhed.
 
 Denne artikel beskriver, hvordan du kan komme i gang med at bruge Power BI Desktop til at oprette rapporter, der viser [!INCLUDE[prod_long](includes/prod_long.md)]-data.  Når du har oprettet rapporter, kan du udgive dem til din egen Power BI-tjeneste eller dele dem med andre brugere i din organisation. Når disse rapporter er i Power BI-tjenesten, kan de brugere, der er oprettet til den, se rapporterne i [!INCLUDE[prod_long](includes/prod_long.md)].
 
-## <a name="get-ready"></a><a name="get-ready"></a><a name="get-ready"></a>Gør dig klar
+## <a name="get-ready"></a>Gør dig klar
 
 - Tilmeld dig Power BI-tjenesten.
 
@@ -46,7 +46,7 @@ Denne artikel beskriver, hvordan du kan komme i gang med at bruge Power BI Deskt
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Tilføje [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop
+## <a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Tilføje [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop
 
 Den første opgave i oprettelsen af rapporter er at tilføje [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop. Når forbindelsen er oprettet, kan du starte med at generere rapporten.
 
@@ -100,39 +100,39 @@ Når dataene er indlæst, kan du se dem i den højre navigation på siden. Nu ha
 > [!TIP]
 > Du kan finde flere oplysninger om brugen af Power BI Desktop under [Introduktion til Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
 
-## <a name="creating-accessible-reports"></a><a name="creating-accessible-reports"></a><a name="creating-accessible-reports"></a>Oprette tilgængelige rapporter
+## <a name="creating-accessible-reports"></a>Oprette tilgængelige rapporter
 
 Det er vigtigt, at du gør dine rapporter brugbare for så mange personer som muligt. Prøv at designe rapporter, så de ikke kræver særlig tilpasning for at imødekomme specifikke behov hos forskellige brugere. Sørg for, at designet gør det muligt for brugere at udnytte standard hjælpeteknologier som f. eks. skærmlæsere. Power BI indeholder forskellige funktioner til hjælp til handicappede, værktøjer og retningslinjer, som kan hjælpe dig med at opnå dette mål. Du kan finde flere oplysninger i [Designe Power BI-rapporter for tilgængelighed](/power-bi/create-reports/desktop-accessibility-creating-reports) i Power BI-dokumentationen.
 
-## <a name="creating-reports-to-display-data-associated-with-a-list"></a><a name="creating-reports-to-display-data-associated-with-a-list"></a><a name="creating-reports-to-display-data-associated-with-a-list"></a>Oprette rapporter for at vise data, der er knyttet til en liste
+## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Oprette rapporter for at vise data, der er knyttet til en liste
 
 Du kan oprette rapporter, der vises i en faktaboks på en [!INCLUDE [prod_short](includes/prod_short.md)]-listeside. Rapporterne kan indeholde data om den post, der er valgt på listen. Oprettelse af disse rapporter minder om andre rapporter, men der er nogle ting, du skal gøre for at sikre, at rapporterne vises som forventet. Du kan finde flere oplysninger i [Oprette Power BI-rapporter til visning af listedata i [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="using-the--report-theme-optional"></a><a name="using-the--report-theme-optional"></a><a name="using-the--report-theme-optional"></a><a name="theme"></a>Brug af [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet (valgfrit)
+## <a name="using-the--report-theme-optional"></a><a name="theme"></a>Brug af [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet (valgfrit)
 
 Før du opretter rapporten, anbefales det, at du downloader og importerer [!INCLUDE [prod_short](includes/prod_short.md)]-temafilen. Temafilen opretter en farvepalet, så du kan oprette rapporter med de samme farvenuancer som [!INCLUDE [prod_short](includes/prod_short.md)]-apps, uden at du skal definere brugerdefinerede farver til hvert visuelle element.
 
 > [!NOTE]
 > Denne opgave er valgfri. Du kan altid oprette dine rapporter og derefter downloade og anvende typografiskabelonen senere.
 
-### <a name="download-the-theme"></a><a name="download-the-theme"></a><a name="download-the-theme"></a>Downloade temaet
+### <a name="download-the-theme"></a>Downloade temaet
 
 Temafilen er tilgængelig som en json-fil i Microsoft Power BI Community-temagalleriet. Benyt følgende fremgangsmåde for at downloade temafilen:
 
 1. Gå til [Microsoft Power BI Community-temagalleriet til Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
 2. Vælg den vedhæftede fil **Microsoft Dynamics Business Central.json**.
 
-### <a name="import-the-theme-on-a-report"></a><a name="import-the-theme-on-a-report"></a><a name="import-the-theme-on-a-report"></a>Indlæse temaet i en rapport
+### <a name="import-the-theme-on-a-report"></a>Indlæse temaet i en rapport
 
 Når du har downloadet [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet, kan du indlæse det i rapporterne. Hvis du vil indlæse temaet, skal du vælge **Vis** > **Temaer** > **Søg efter temaer**. Du kan finde flere oplysninger i [Power BI Desktop - Indlæse brugerdefinerede rapporttemaer](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
-## <a name="publish-reports"></a><a name="publish-reports"></a><a name="publish-reports"></a>Udgive rapporter
+## <a name="publish-reports"></a>Udgive rapporter
 
 Når du har oprettet eller redigeret en rapport, kan du udgive rapporten til Power BI-tjenesten og dele den med andre i din organisation. Når den er udgivet, kan du se rapporten i Power BI. Rapporterne kan derefter også vælges i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Hvis du vil udgive en rapport, skal du vælge **Udgiv** på fanen **Startside** på båndet eller i menuen **Filer**. Hvis du er logget på Power BI-tjenesten, udgives rapporten til denne tjeneste. Ellers bliver du bedt om at logge på. 
 
-## <a name="distribute-or-share-a-report"></a><a name="distribute-or-share-a-report"></a><a name="distribute-or-share-a-report"></a>Distribuere eller dele en rapport
+## <a name="distribute-or-share-a-report"></a>Distribuere eller dele en rapport
 
 Du kan få rapporter ud til dine kolleger og andre på flere måder:
 
@@ -147,9 +147,9 @@ Du kan få rapporter ud til dine kolleger og andre på flere måder:
 
     Hvis du har en Power BI Pro-licens, kan du dele rapporten med andre direkte fra Power BI-servicen. Du kan finde flere oplysninger i [Power BI - Dele et dashboard eller en rapport](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
-## <a name="fixing-problems"></a><a name="fixing-problems"></a><a name="fixing-problems"></a>Løsning af problemer
+## <a name="fixing-problems"></a>Løsning af problemer
 
-### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a><a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a><a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Kan ikke indsætte en post. Den aktuelle forbindelsesmåde er skrivebeskyttet." Fejl ved oprettelse af forbindelse til brugerdefineret API-side
+### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Kan ikke indsætte en post. Den aktuelle forbindelsesmåde er skrivebeskyttet." Fejl ved oprettelse af forbindelse til brugerdefineret API-side
 
 > **GÆLDER FOR:** Business Central online
 
@@ -180,9 +180,9 @@ Fra og med februar 2022 vil nye rapporter, der bruger Business Central-data, som
 9. Vælg **Udført**.
 10. Vælg **Luk og Anvend** på båndet for at gemme ændringerne og lukke Power Query-editoren.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Aktivering af dine virksomhedsdata for Power BI](admin-powerbi.md)  
 [Business Intelligence](bi.md)  

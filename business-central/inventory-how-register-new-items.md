@@ -11,7 +11,7 @@ ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 
 ms.date: 09/26/2022
 ms.author: edupont
 ---
-# <a name="register-new-items"></a><a name="register-new-items"></a><a name="register-new-items"></a>Registrere nye varer
+# <a name="register-new-items"></a>Registrere nye varer
 
 Varer er, blandt andre produkter, grundlaget for din virksomhed og de varer eller tjenester, som du handler med. Hver vare skal registreres som et varekort.
 
@@ -34,7 +34,7 @@ Følgende fremgangsmåde beskriver, hvordan du opretter et varekort fra bunden. 
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
-## <a name="to-create-a-new-item-card"></a><a name="to-create-a-new-item-card"></a><a name="to-create-a-new-item-card"></a>Sådan oprettes et nyt varekort
+## <a name="to-create-a-new-item-card"></a>Sådan oprettes et nyt varekort
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
@@ -49,7 +49,7 @@ Varen er nu registreret, og varekortet er klar til at blive brugt i købs- og sa
 
 Hvis du vil bruge dette varekort som skabelon, når du opretter nye varekort, kan du gemme det som en skabelon. Du kan finde flere oplysninger i følgende afsnit.  
 
-### <a name="to-save-the-item-card-as-a-template"></a><a name="to-save-the-item-card-as-a-template"></a><a name="to-save-the-item-card-as-a-template"></a>Sådan gemmes varekortet som en skabelon
+### <a name="to-save-the-item-card-as-a-template"></a>Sådan gemmes varekortet som en skabelon
 
 1. På siden **Varekort** skal du vælge handlingen **Gem som skabelon**. Siden **Vareskabelon** åbnes med varekortet som skabelon.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -59,11 +59,11 @@ Hvis du vil bruge dette varekort som skabelon, når du opretter nye varekort, ka
 
 Vareskabelonen føjes til listen over vareskabeloner, så du kan bruge den til at oprette nye varekort.
 
-### <a name="items-used-in-production-orders"></a><a name="items-used-in-production-orders"></a><a name="items-used-in-production-orders"></a>Varer, der bruges i produktionsordrer
+### <a name="items-used-in-production-orders"></a>Varer, der bruges i produktionsordrer
 
 Hvis du vil registrere varer, der derefter bruges i produktionsordrer, skal du angive genbestillingssystemet som *Prod.ordre* i oversigtspanelet **Genbestilling**. Du kan finde flere oplysninger i [Om produktionsordrer](production-about-production-orders.md).  
 
-## <a name="to-set-up-multiple-vendors-for-an-item"></a><a name="to-set-up-multiple-vendors-for-an-item"></a><a name="to-set-up-multiple-vendors-for-an-item"></a>Sådan oprettes flere leverandører af en vare
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>Sådan oprettes flere leverandører af en vare
 
 Hvis du køber den samme vare fra flere forskellige leverandører, skal du angive oplysninger om hver vareleverandør, f.eks. priser, leveringstid og rabatter.  
 
@@ -76,11 +76,11 @@ Hvis du køber den samme vare fra flere forskellige leverandører, skal du angiv
 
 Leverandørerne vises nu på siden **Vare/leverandører**, som du åbner fra varekortet, så du nemt kan vælge en anden leverandør.
 
-## <a name="set-up-item-substitutions"></a><a name="set-up-item-substitutions"></a><a name="set-up-item-substitutions"></a>Konfigurere erstatningsvarer
+## <a name="set-up-item-substitutions"></a>Konfigurere erstatningsvarer
 
 Du kan definere, at varer skal have erstatningsvarer, f. eks. andre varer, der kan bruges i stedet for den oprindelige vare.
 
-### <a name="to-make-an-item-substitution"></a><a name="to-make-an-item-substitution"></a><a name="to-make-an-item-substitution"></a>Sådan gør du en vare en erstatning
+### <a name="to-make-an-item-substitution"></a>Sådan gør du en vare en erstatning
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
 2. Find den relevante vare, og vælg derefter på **Varenr.** for at åbne varekortet.  
@@ -93,31 +93,31 @@ Når antallet af efterspurgte varer overstiger den mængde, der er tilgængelig 
 > [!NOTE]  
 > Vær opmærksom på, at erstatningsvarer ikke automatisk medfører, at en vare erstattes af en anden vare, f. eks. når der oprettes en salgsordre eller en stykliste. I stedet bliver du advaret om, at der er en erstatningsvare tilgængelig.
 
-## <a name="categories-attributes-and-variants"></a><a name="categories-attributes-and-variants"></a><a name="categories-attributes-and-variants"></a>Kategorier, attributter og varianter
+## <a name="categories-attributes-and-variants"></a>Kategorier, attributter og varianter
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 Få mere at vide om varianter på [Administrer produktvarianter](inventory-item-variants.md).  
 
-## <a name="deleting-item-cards"></a><a name="deleting-item-cards"></a><a name="deleting-item-cards"></a>Sletning af varekort
+## <a name="deleting-item-cards"></a>Sletning af varekort
 
 Hvis du har bogført en postering for en vare, kan du ikke slette kortet, da posterne muligvis er nødvendige med henblik på værdiansættelse eller revision af lageret. Hvis du vil slette varekort med poster, skal du kontakte Microsoft-partneren for at gøre dette via kode.  
 
-## <a name="manage-inventory-in-warehouses"></a><a name="manage-inventory-in-warehouses"></a><a name="manage-inventory-in-warehouses"></a>Administration af lager på lagersteder
+## <a name="manage-inventory-in-warehouses"></a>Administration af lager på lagersteder
 
 Når du registrerer en ny vare, kan du se de felter, der er relateret til lagerstedsstyringen, især i oversigtspanelet **Lagersted**. Hvis organisationen ikke bruger warehouse management capabilities i [!INCLUDE [prod_short](includes/prod_short.md)], kan du ignorere disse felter.  
 
 Hvis organisationen på et senere tidspunkt opsætter logistik, anbefales det, at du sikrer dig, at hver eksisterende vare har de rette oplysninger i de forskellige felter. På den måde kan lagerprocesserne køre som forventet. Oplysningerne kan omfatte felter som **Lagerklassekode** eller **Læg på lager-skabelonkode**. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).  
 
-## <a name="planning"></a><a name="planning"></a><a name="planning"></a>Skabelon
+## <a name="planning"></a>Skabelon
 
 Når din virksomhed bruger forsynings planlægnings processerne i [!INCLUDE [prod_short](includes/prod_short.md)], skal du udfylde de relevante felter i oversigtspanelet **Planlægning** . Du kan finde en introduktion til planlægnings området i [design oplysninger: centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md).  
 
 Du kan finde eksempler på, hvordan du kan bruge felterne i oversigtspanelet **Planlægning**, under [konfigurere bedste fremgangsmåder: planlægningsparametre](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/create-items/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/create-items/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Oprette måleenheder](inventory-how-setup-units-of-measure.md)  

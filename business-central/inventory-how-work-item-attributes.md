@@ -11,7 +11,7 @@ ms.search.forms: '7507, 7509, 7506, 7505, 7503, 7502, 7510, 7504, 7501, 7500, 91
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="work-with-item-attributes"></a><a name="work-with-item-attributes"></a><a name="work-with-item-attributes"></a>Arbejde med vareattributter
+# <a name="work-with-item-attributes"></a>Arbejde med vareattributter
 
 Når kunder forespørger om en vare, enten via korrespondance eller en integreret en webshop, kan de spørge eller søge ud fra egenskaber som f.eks højde og modelår. For at yde denne kundeservice kan du tildele vareattributværdier af forskellige typer til dine varer, som kan bruges ved søgning efter varer.
 
@@ -20,7 +20,7 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 > [!TIP]  
 > Hvis du vil knytte billeder til varer, kan billedanalyseudvidelsen registrere attributter i billedet, og foreslå attributterne, så bliver du spurgt, om du vil tildele dem. Udvidelsen er klar til brug. Du skal blot aktivere den. Du kan finde flere oplysninger i [Billedanalyseudvidelsen](ui-extensions-image-analyzer.md).
 
-## <a name="create-item-attributes"></a><a name="create-item-attributes"></a><a name="create-item-attributes"></a>Oprette vareattributter
+## <a name="create-item-attributes"></a>Oprette vareattributter
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Vareattributter**, og vælg derefter det relaterede link.
 2. På siden **Vareattributter** skal du vælge handlingen **Ny**.
@@ -29,13 +29,13 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 > [!NOTE]  
 > Hvis du vælger **Indstilling** i feltet **Type**, kan du vælge handlingen **Vareattributværdier** for at oprette værdier for vareattributten. Du kan finde flere oplysninger i [Sådan oprettes værdier for vareattributter af typen Indstilling](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
 
-## <a name="create-values-for-item-attributes-of-type-option"></a><a name="create-values-for-item-attributes-of-type-option"></a><a name="create-values-for-item-attributes-of-type-option"></a>Oprette værdier for vareattributter af typen Indstilling
+## <a name="create-values-for-item-attributes-of-type-option"></a>Oprette værdier for vareattributter af typen Indstilling
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Vareattributter**, og vælg derefter det relaterede link.
 2. På siden **Vareattributter** skal du vælge en vareattribut af typen **Indstilling**, som du vil oprette værdier for, og derefter vælge handlingen **Vareattributværdier**.
 3. På siden **Vareattributværdier** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="assign-item-attributes-to-items"></a><a name="assign-item-attributes-to-items"></a><a name="assign-item-attributes-to-items"></a>Tildele vareattributter til varer
+## <a name="assign-item-attributes-to-items"></a>Tildele vareattributter til varer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. På siden **Varer** skal du vælge den vareattribut, du vil tildele vareattributter til, og derefter vælge handlingen **Attributter**.
@@ -45,7 +45,7 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 6. For vareattributter af typen **Indstilling** skal du vælge opslagsknappen i feltet **Værdi** og vælge en vareattributværdi. Du kan også vælge handlingen **Ny** for først at oprette en ny vareattributværdi som beskrevet i [Sådan oprettes værdier for vareattributter af typen Indstilling](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-items).
 7. Gentag trin 4-6 for alle vareattributter, du vil tildele til varen.
 
-## <a name="assign-item-attributes-to-item-categories"></a><a name="assign-item-attributes-to-item-categories"></a><a name="assign-item-attributes-to-item-categories"></a>Tildele vareattributter til varekategorier
+## <a name="assign-item-attributes-to-item-categories"></a>Tildele vareattributter til varekategorier
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varekategorier**, og vælg derefter det relaterede link.
 2. På siden **Varekategorier** skal du vælge den varekategori, som du vil tildele vareattributter til, og derefter vælge handlingen **Rediger**.
@@ -57,7 +57,7 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 > [!NOTE]  
 > Vareattributter for overordnede varekategorier bliver overført til underordnede varekategorier. Dette er angivet med feltet **Overført fra** på oversigtspanelet **Attributter**. Yderligere oplysninger findes under [Kategorisere varer](inventory-how-categorize-items.md).
 
-## <a name="filter-by-item-attributes"></a><a name="filter-by-item-attributes"></a><a name="filter-by-item-attributes"></a>Filtrere efter vareattributter
+## <a name="filter-by-item-attributes"></a>Filtrere efter vareattributter
 
 1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. På siden **Varer** skal du vælge handlingen **Filtrer efter attributter**.
@@ -75,9 +75,9 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 
 Varerne på siden **Varer** filtreres efter de angivne vareattributværdier.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Kategorisere varer](inventory-how-categorize-items.md)  
 [Registrere nye varer](inventory-how-register-new-items.md)  

@@ -7,19 +7,19 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="business-decision-makers-learning-catalog"></a><a name="business-decision-makers-learning-catalog"></a><a name="business-decision-makers-learning-catalog"></a>Undervisningskatalog for forretningsbeslutningstagere
+# <a name="business-decision-makers-learning-catalog"></a>Undervisningskatalog for forretningsbeslutningstagere
 
 Beslutter du, om der skal investeres i nye teknologier?
 
 Følgende katalog er organiseret fra kerneviden til bestemte domæner og fra det mest grundlæggende til det mest avancerede. Hvis indholdet findes i flere formater, giver vi dig besked om det, så du kan vælge det format, der bedst imødekommer dine behov.  
 
-## <a name="business-value"></a><a name="business-value"></a><a name="business-value"></a>Forretningsværdi<a name="busvalue"></a>
+## <a name="business-value"></a><a name="busvalue"></a>Forretningsværdi
 
 | Indhold                                                                 | Beskrivelse                                                                                                | Format                                | Længde     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | Dette modul viser programfunktioner, fordele og eksempler på Dynamics 365 Business Central-handlinger. | Gratis onlinelæringssti i dit eget tempo | 24 minutter |
 
-## <a name="getting-started"></a><a name="getting-started"></a><a name="getting-started"></a>Introduktion<a name="get-started"></a>
+## <a name="getting-started"></a><a name="get-started"></a>Introduktion
 
 | Indhold                                                                                                                             | Beskrivelse                                                                                                                                                                                                                                                                                      | Format                                | Længde             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

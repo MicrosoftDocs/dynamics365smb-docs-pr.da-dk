@@ -11,7 +11,7 @@ ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="receive-and-convert-electronic-documents"></a><a name="receive-and-convert-electronic-documents"></a><a name="receive-and-convert-electronic-documents"></a>Modtage og konvertere elektroniske dokumenter
+# <a name="receive-and-convert-electronic-documents"></a>Modtage og konvertere elektroniske dokumenter
 
 Den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)] understøtter modtagelse af elektroniske fakturaer og kreditnotaer i PEPPOL-formatet, som understøttes af de største udbydere af dokumentudvekslingstjenester. For at modtage en faktura fra en kreditor som et elektronisk PEPPOL-dokument, skal du behandle dokumentet på siden Indgående bilag for at konvertere det til en købsfaktura eller finanskladdelinje i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -34,7 +34,7 @@ Kan du enten starte konverteringen af elektroniske dokumenter manuelt som beskre
 
 Følgende fremgangsmåde beskriver, hvordan du modtager en kreditorfaktura og konvertere den til en købsfaktura i [!INCLUDE[prod_short](includes/prod_short.md)]. Fremgangsmåden er den samme, når du konverterer en kreditorfaktura til en finanskladdelinje.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a><a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a><a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Sådan modtages og konverteres en elektronisk faktura til en købsfaktura
+### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Sådan modtages og konverteres en elektronisk faktura til en købsfaktura
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Indgående bilag** og derefter vælge det relaterede link.  
 
@@ -52,9 +52,9 @@ Følgende fremgangsmåde beskriver, hvordan du modtager en kreditorfaktura og ko
 
     Valideringsfejl, der typisk vedrører forkerte eller manglende stamdata i [!INCLUDE[prod_short](includes/prod_short.md)], vises i oversigtspanelet **Fejlmeddelelser**.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Indgående bilag](across-income-documents.md)  

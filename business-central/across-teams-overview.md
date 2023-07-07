@@ -11,7 +11,7 @@ ms.date: 09/22/2022
 ms.custom: bap-template
 ---
 
-# <a name="business-central-and-microsoft-teams-integration"></a><a name="business-central-and-microsoft-teams-integration"></a><a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams-integration
+# <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams-integration
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -19,11 +19,11 @@ ms.custom: bap-template
 
 Appen er tilgængelig på Teams-markedspladsen, og du kan bruge den sammen med din Teams-pc, -mobilapp eller- web.
 
-## <a name="features-overview"></a><a name="features-overview"></a><a name="features-overview"></a>Oversigt over funktioner
+## <a name="features-overview"></a>Oversigt over funktioner
 
 Appen [!INCLUDE [prod_short](includes/prod_short.md)] for Teams indeholder følgende funktioner.
 
-### <a name="look-up-details-of-customers-vendors-and-other-contacts"></a><a name="look-up-details-of-customers-vendors-and-other-contacts"></a><a name="look-up-details-of-customers-vendors-and-other-contacts"></a>Søge efter detaljer om debitorer, kreditorer og andre kontakter
+### <a name="look-up-details-of-customers-vendors-and-other-contacts"></a>Søge efter detaljer om debitorer, kreditorer og andre kontakter
 
 Uanset hvor du er i Teams, kan du finde oplysninger om debitorer, kreditorer og andre kontakter i [!INCLUDE [prod_short](includes/prod_short.md)]. Denne funktion giver dig ikke kun mulighed for at få vist generelle oplysninger om kontakter, men giver også adgang til interaktionshistorik, relaterede dokumenter og meget mere.
 
@@ -35,7 +35,7 @@ Du kan også dele kontaktoplysninger i en samtale. Derfra har deltagerne adgang 
 
 Du kan få flere oplysninger i [Søgning efter kontakter fra Microsoft Teams](across-search-contacts-teams.md).
 
-### <a name="share-records-in-conversations"></a><a name="share-records-in-conversations"></a><a name="share-records-in-conversations"></a>Dele poster i samtaler
+### <a name="share-records-in-conversations"></a>Dele poster i samtaler
 
 Kopiere et hyperlink til en hvilken som helst Business Central-post og sætte den ind i en Teams-samtale, som du kan dele med dine kolleger. Appen udvider derefter linket til et kompakt, interaktivt kort, der viser oplysninger om posten.
 
@@ -45,7 +45,7 @@ Når du er i samtalen, kan du og dine kolleger få vist flere oplysninger om pos
 
 Du kan finde flere oplysninger i [Dele poster i Microsoft Teams](across-working-with-teams.md).
 
-### <a name="share-links-from-pages-in-business-central-to-teams"></a><a name="share-links-from-pages-in-business-central-to-teams"></a><a name="share-links-from-pages-in-business-central-to-teams"></a>Dele links fra sider i Business central til Teams
+### <a name="share-links-from-pages-in-business-central-to-teams"></a>Dele links fra sider i Business central til Teams
 
 Direkte fra de fleste sider med indsamling og detaljer i Business central kan du bruge handlingen **Del til Teams** fra ![Ikonet Del menu på siderne.](media/share-icon.png "Menuen Del vises på et kort.") ikon for at skrive en meddelelse, vælge modtagere, f.eks. teammedlemmer, grupper eller kanaler, og sende meddelelsen med et link til Business Central-siden.
 
@@ -55,7 +55,7 @@ Direkte fra de fleste sider med indsamling og detaljer i Business central kan du
 
 Du kan finde flere oplysninger i [Dele poster og sidelinks i Microsoft Teams](across-working-with-teams.md#share-link).
 
-### <a name="add-a-business-central-tab-to-teams-channel-or-chat"></a><a name="add-a-business-central-tab-to-teams-channel-or-chat"></a><a name="add-a-business-central-tab-to-teams-channel-or-chat"></a>Tilføje fanen Business Central til Teams-kanal eller chat
+### <a name="add-a-business-central-tab-to-teams-channel-or-chat"></a>Tilføje fanen Business Central til Teams-kanal eller chat
 
 Når Business Central-appen til Teams er installeret, kan du tilføje en fane i en kanal eller chatte for at vise Business Central-data fra lister og på kortsider.
 
@@ -63,7 +63,7 @@ Når Business Central-appen til Teams er installeret, kan du tilføje en fane i 
 
 Du kan finde flere oplysninger i [Tilføje en Business Central-fane i Teams](across-teams-tab.md).
 
-## <a name="get-started"></a><a name="get-started"></a><a name="get-started"></a>Kom i gang
+## <a name="get-started"></a>Kom i gang
 
 1. Der kræves en online [!INCLUDE [prod_short](includes/prod_short.md)]-brugerkonto til [!INCLUDE [prod_short](includes/prod_short.md)]-appen til Teams.
 
@@ -76,7 +76,7 @@ Du kan finde flere oplysninger i [Tilføje en Business Central-fane i Teams](acr
 3. Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams. Se [Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen til Microsoft Teams](across-install-app-for-teams.md).
 4. Når appen er installeret, er du klar til at gå i gang. Du kan finde flere oplysninger i [Søge efter debitorer, kreditorer og andre kontakter fra Microsoft Teams](across-search-contacts-teams.md) og [Dele poster i Microsoft Teams](across-working-with-teams.md).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Teams, ofte stillede spørgsmål](teams-faq.md)  
 [Fejlfinding i Teams](admin-teams-troubleshooting.md)  

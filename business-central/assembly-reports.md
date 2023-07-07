@@ -8,21 +8,21 @@ ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940
 ms.date: 06/01/2021
 ms.author: andreipa
 ---
-# <a name="assembly-reports-and-analytics-in-business-central"></a><a name="assembly-reports-and-analytics-in-business-central"></a><a name="assembly-reports-and-analytics-in-business-central"></a>Samle rapporter og analyser i Business Central
+# <a name="assembly-reports-and-analytics-in-business-central"></a>Samle rapporter og analyser i Business Central
 
 Samlingsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gør det muligt for produktions-og erhvervs medarbejdere at få indsigt i og statistikker om aktuelle og tidligere montageaktiviteter.  
 
-## <a name="reports"></a><a name="reports"></a><a name="reports"></a>Rapporter
+## <a name="reports"></a>Rapporter
 
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]
 
-## <a name="tasks"></a><a name="tasks"></a><a name="tasks"></a>Opgaver
+## <a name="tasks"></a>Opgaver
 
 I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med analyse af virksomhedens tilstand:
 
 * [Vise varedisponering](inventory-how-availability-overview.md)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Montagestyring](assembly-assemble-items.md)  
 [Arbejde med montagestyklister](assembly-how-work-assembly-boms.md)  

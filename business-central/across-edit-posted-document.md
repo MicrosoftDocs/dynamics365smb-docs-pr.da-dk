@@ -12,7 +12,7 @@ ms.search.form: '130, 138, 142, 146, 6660, 6662, 6650, 6652'
 ms.date: 06/10/2021
 ms.author: edupont
 ---
-# <a name="edit-posted-documents"></a><a name="edit-posted-documents"></a><a name="edit-posted-documents"></a>Redigere bogførte dokumenter
+# <a name="edit-posted-documents"></a>Redigere bogførte dokumenter
 
 Nogle gange er det nødvendigt at opdatere et bogført dokument, da oplysninger, der er relevante for dokumentet, er ændret. I et bogført salgsdokument, kan det f.eks. være speditørens pakkesporingsnummer. I et bogført købsdokument kan det være en betalingsreferencetekst.
 
@@ -32,7 +32,7 @@ Følgende yderligere dokumenter kan redigeres i de angivne lande eller områder:
 - RU: bogført salgskreditnota
 - IT: Bogført overflytningsleverance, bogført serviceleverance
 
-## <a name="to-edit-a-posted-sales-shipment"></a><a name="to-edit-a-posted-sales-shipment"></a><a name="to-edit-a-posted-sales-shipment"></a>Sådan redigeres en bogført salgsleverance
+## <a name="to-edit-a-posted-sales-shipment"></a>Sådan redigeres en bogført salgsleverance
 
 I det følgende forklares det, hvordan du kan redigere en bogført salgsleverance. Fremgangsmåden er den samme for de andre understøttede dokumenter.
 
@@ -43,7 +43,7 @@ I det følgende forklares det, hvordan du kan redigere en bogført salgsleveranc
 
 Den bogførte salgsleverance opdateres.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Bogføring af dokumenter og kladder](ui-post-documents-journals.md)  
 [Find relaterede poster for dokumenter](ui-find-entries.md)  

@@ -11,11 +11,11 @@ ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="terminology-in-cost-accounting"></a><a name="terminology-in-cost-accounting"></a><a name="terminology-in-cost-accounting"></a>Terminologi i omkostningsregnskab
+# <a name="terminology-in-cost-accounting"></a>Terminologi i omkostningsregnskab
 
 Dette emne definerer vigtige termer, der anvendes i omkostningsregnskab.  
 
-## <a name="key-terms"></a><a name="key-terms"></a><a name="key-terms"></a>Vigtige termer
+## <a name="key-terms"></a>Vigtige termer
 
  Følgende tabel viser definitionerne af de vigtigste termer i omkostningsregnskab.  
 
@@ -43,9 +43,9 @@ Dette emne definerer vigtige termer, der anvendes i omkostningsregnskab.
 |Variabel omkostning|Variable omkostninger er udgifter, der ændres i forhold til en virksomheds aktivitet. Variable omkostninger er summen af marginalomkostninger over alle producerede enheder. Faste omkostninger og variable omkostninger udgør de to komponenter af samlede omkostninger.|  
 |Variant|En variant bruges som en valgfri brugerdefineret etiket for tildelinger. Formålet med etiketten er at filtrere grupper af fordelinger.|  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
  [Om omkostningsregnskab](finance-about-cost-accounting.md)  
  [Regnskab for omkostninger](finance-manage-cost-accounting.md)  

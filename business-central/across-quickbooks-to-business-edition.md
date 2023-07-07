@@ -13,7 +13,7 @@ ms.author: bholtorf
 ---
 
 
-# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a><a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a><a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Skifte fra en QuickBooks-app til Dynamics 365 Business Central
+# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Skifte fra en QuickBooks-app til Dynamics 365 Business Central
 
 Flere og flere voksende virksomheder skifter fra finansapps som QuickBooks Desktop og QuickBooks Online, som er beregnet til nystartede og andre mindre virksomheder, til [!INCLUDE[prod_short](includes/prod_short.md)], som også understøtter større og mere komplekse organisationer. 
 
@@ -27,13 +27,13 @@ Du kan få flere oplysninger ved at læse om den udvidelse, der passer til din Q
 * [Udvidelsen QuickBooks Desktop-dataoverførsel](ui-extensions-quickbooks-data-migration.md)
 * [Udvidelsen QuickBooks Online-dataoverførsel](ui-extensions-quickbooks-online-data-migration.md)
 
-## <a name="ready-now"></a><a name="ready-now"></a><a name="ready-now"></a>Klar nu?
+## <a name="ready-now"></a>Klar nu?
 
 Hvis du er klar til at komme i gang nu, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Assisteret opsætning** og vælg derefter det relaterede link. Vælg **Overflyt forretningsdata**, og følg derefter trinnene i vejledningen.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/migrate-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Import af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Tilpasse Business Central ved brug af udvidelser](ui-extensions.md)   

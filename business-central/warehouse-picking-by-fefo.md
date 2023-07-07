@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="enable-picking-items-by-fefo"></a><a name="enable-picking-items-by-fefo"></a><a name="enable-picking-items-by-fefo"></a>Aktivere pluk af varer efter FEFO
+# <a name="enable-picking-items-by-fefo"></a>Aktivere pluk af varer efter FEFO
 Første-udløbet-først ud (FEFO) er en sorteringsmetode, der sikrer, at de ældste elementer med den tidligste udløbsdato plukkes først.  
 
  Denne funktionalitet fungerer kun, når følgende kriterier er opfyldt:  
@@ -33,7 +33,7 @@ Hvis du vil aktivere bevægelser i overensstemmelse med FEFO, skal du lade felte
 <br /><br />
 Hvis feltet **Nøje bogføring af udløbsdato** er markeret på **Varesporingskodekortet**, medtages kun varer, der ikke er udløbet, i plukket, og linjerne sorteres efter FEFO-princippet.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 [Plukke varer til lagerleverance](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
