@@ -997,7 +997,8 @@
 
 ### Indien
 #### [Oversigt](LocalFunctionality/India/india-local-functionality.md)
-#### [Oprette bogføringsnummerserier](LocalFunctionality/India/posting-no-series-setup.md)
+#### [Opsætte bogføringsnummerserier](LocalFunctionality/India/posting-no-series-setup.md)
+#### [Revisionsspor og redigeringslogfiler for regnskabssoftware i Indien](LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md)
 #### Momsprogram
 ##### [Oversigt](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Konfigurere import/eksport af skatteprogrammer](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
