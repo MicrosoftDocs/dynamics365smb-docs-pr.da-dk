@@ -12,11 +12,11 @@ ms.date: 06/06/2023
 ms.author: altotovi
 ---
 
-# Eksportere SAF-T-overvågnings filformatet i Danmark
+# <a name="export-the-saf-t-audit-file-format-in-denmark"></a>Eksportere SAF-T-overvågnings filformatet i Danmark
 
 Du kan eksportere alle obligatoriske data, der er obligatoriske, i overensstemmelse med standardrevisionsfilen til Skatformatet (SAF-T) i Danmark. SAF-T er en international standard for elektronisk udveksling af pålidelige regnskabsdata fra organisationer til nationale skattemyndigheder eller eksterne revisorer. Danske skattemyndigheder bruger organisationen som standardfilformat for økonomisk samarbejde og udvikling (OECD) standard SAF-T som standardfilformat. Der findes imidlertid nogle Danmark-specifikke felter i denne eksportfil. Du kan finde flere oplysninger i [Danske landespecifikke funktioner](denmark-local-functionality.md).
 
-## Eksportere revisionsfiler
+## <a name="exporting-audit-files"></a>Eksportere revisionsfiler
 
 Eksport af SAF-T-overvågningsfilformatet i den danske lokalisering er baseret på **Eksport af revisionsfiler** i Microsoft-app. Få flere oplysninger i [Eksport af revisionsfil](../../finance-how-to-export-audit-files.md)]
 
