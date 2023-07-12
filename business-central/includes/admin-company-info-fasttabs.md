@@ -10,4 +10,4 @@ ms.author: edupont
 |**Kommunikation**|Angiv de grundlæggende kontaktoplysninger som f. eks. telefonnummer og e-mail-adresse.|  
 |**Udbetaling**| Udfyld de relevante bankoplysninger for at sikre, at kunderne kan betale dig.|  
 |**Levering**|Udfyld de relevante leveringsoplysninger, så du kan sende og modtage varer fra og til din virksomhed.|  
-|**Skat**|Afhængigt af, hvilket land din virksomhed er registreret i, ser du muligvis et oversigtspanel for skat. Udfyld felterne, hvis det er tilgængeligt.|  
+|**Skat**|Afhængigt af, hvilket land/område din virksomhed er registreret i, ser du muligvis et oversigtspanel for skat. Udfyld felterne, hvis det er tilgængeligt.|  

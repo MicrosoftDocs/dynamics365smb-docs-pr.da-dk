@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# <a name="certifications"></a>Certificeringer
+# Certificeringer
 
 Dette indhold indeholder oplysninger om certificeringer i relation til [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
-## <a name="countryregion-specific-certifications-and-accreditations"></a>Certificeringer og -godkendelser, der er lande/områdespecifikke
+## Certificeringer og -godkendelser, der er lande/områdespecifikke
 
 I nogle lande/områder skal regnskabssoftware certificeres for at være i overensstemmelse med lokale skattelovgivning og regnskabskrav. Nogle lande/områder håndhæver dette som et årligt tilbagevendende krav og andre som et engangskrav, der skal opfyldes. Nedenfor vises en oversigt over de aktuelle lande/områder, hvor Business Central har opnået certificeringer.
 
@@ -27,17 +27,17 @@ I nogle lande/områder skal regnskabssoftware certificeres for at være i overen
 > [!NOTE]  
 > I lande/områder, hvor Microsoft ikke frigiver en lande/områdespecifik version, er det normalt op til partnere at opnå certificering af Business Central-basisproduktet med partnerens oversættelse og lovbestemte funktioner.
 
-## <a name="other-certifications"></a>Andre certificeringer
+## Andre certificeringer
 
 Business Central som en cloudbaseret service har også opnået certificeringer som f.eks. ISO 27001. Du kan finde en komplet oversigt over disse certificeringer på [denne side (PDF)](https://aka.ms/d365-compliance-list).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Overholdelse](compliance-overview.md)  
 [Programoverholdelse](compliance-application-compliance.md)  
 [Tjenesteoverholdelse](compliance-service-compliance.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,7 +8,7 @@ ms.author: edupont
 2. For at vil lade brugerne ændre rapporten og sende den igen skal du markere feltet **Modificer sendte rapporter**.  
 3. Hvis skattemyndighederne kræver, at du sender momsrapporter, der også omfatter det nettobeløb, der er brugt til at beregne moms, skal du vælge feltet **Rapport over momsgrundlag**.  
 4. Vælg den nummerserie, der skal bruges til hver rapport. [!INCLUDE [tooltip-inline-tip_md](tooltip-inline-tip_md.md)]  
-5. I understøttede lande kan du oprette momsreturperioder ved at udfylde felterne **Rapportversion** og **Rykkerberegning** i sektionen **Returperiode**.  
+5. I understøttede lande/områder kan du oprette momsreturperioder ved at udfylde felterne **Rapportversion** og **Rykkerberegning** i sektionen **Returperiode**.  
 
-    I lande, hvor der kræves momsreturbeløb af skattemyndighederne, f. eks. UK, skal du udfylde yderligere felter også. [!INCLUDE [tooltip-inline-tip_md](tooltip-inline-tip_md.md)]  Men i den britiske version har denne sektion navnet **Oprette moms digitalt**.
+    I lande/områder, hvor der kræves momsreturbeløb af skattemyndighederne, f. eks. UK, skal du udfylde yderligere felter også. [!INCLUDE [tooltip-inline-tip_md](tooltip-inline-tip_md.md)]  Men i den britiske version har denne sektion navnet **Oprette moms digitalt**.
 6. Hvis din virksomhed er en del af en momsgruppe, skal du angive din rolle. Du kan finde flere oplysninger i [Udvidelsen til momsgruppestyring](../ui-extensions-vat-group.md)  

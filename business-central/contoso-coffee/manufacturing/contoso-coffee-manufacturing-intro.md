@@ -9,7 +9,7 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Introduktion til Contoso Coffee til produktion
+# Introduktion til Contoso Coffee til produktion
 
 Contoso Coffee er en fiktiv virksomhed, der producerer forbruger- og kommercielle kaffemaskine. Apps **Contoso Coffee** til Business Central tilføjer demodata, som du kan bruge til at lære, hvordan du bruger produktionsfunktionerne i Business central.  
 
@@ -36,7 +36,7 @@ Produktionsaktiviteterne i alle scenarier bruger *NORTH*-lokationen.
 > [!IMPORTANT]
 > Før du udfører et af scenarierne for Contoso Coffee, skal du bogføre alle varekladdelinjer med primosaldi. Du kan finde flere krav i afsnittet [Opsætning af Contoso Coffee-data](#set-up-contoso-coffee-manufacturing-data).
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Opsætning af Contoso Coffee-produktionsdata
+## Opsætning af Contoso Coffee-produktionsdata
 
 Hvis du vil bruge produktionsdemonstrationsdataene fra Contoso Coffee, skal du installere to apps i det relevante regnskab i [!INCLUDE [prod_short](../../includes/prod_short.md)]:  
 
@@ -45,7 +45,7 @@ Hvis du vil bruge produktionsdemonstrationsdataene fra Contoso Coffee, skal du i
     Denne app leverer demonstrationsdata til basisprogrammet.  
 - **Demonstrationsdata for Contoso Coffee (lande-id)**  
 
-    Denne app tilføjer landespecifik indhold oven på basisprogrammet.
+    Denne app tilføjer lande/områdespecifik indhold oven på basisprogrammet.
 
 Føj apps til et tomt firma i et betalt abonnement eller som en del af et prøveabonnement. Du kan f. eks. oprette en ny virksomhed uden eksempeldata fra guiden **Opret ny virksomhed**, som du kan åbne fra **virksomhedslisten**. Tilføj derefter apps fra [markedspladsen](../../ui-extensions-install-uninstall.md#install), hvis de ikke allerede er angivet på siden **Udvidelsesstyring**.  
 
@@ -67,13 +67,13 @@ Når de relevante apps er installeret, skal du gå til [Contoso Coffee-demodata]
 
 Når du er færdig, skal du vælge handlingen **Opret demodata**. Det tager nogle få minutter at føje dataene til den underliggende database, men så er du klar til at køre forskellige scenarier.  
 
-## <a name="scenarios"></a>Eksempler
+## Eksempler
 
 Contoso Coffee-produktionsdemodata understøtter i øjeblikket følgende scenarier for test og træning:
 
 1. [Opret en ny produktionsstykliste og styklisteversion](create-new-production-bom-version.md)  
 2. [Opret en ny rute](create-new-routing.md)  
-3. [Opret en ny fastlagt produktionsordre og ændre den](create-firm-planned-production-order-change.md)  
+3. [Oprette en ny fastlagt produktionsordre og ændre den](create-firm-planned-production-order-change.md)  
 4. [Kombinere automatisk og manuel træk](combine-automatic-manual-flushing.md)  
 5. [Bruge Ordreplanlægning til at oprette og reservere levering](order-planning-create-reserve-supply.md)  
 6. [Konfigurere og behandle en underleverandør operation](set-up-process-subcontracting-operation.md)  
@@ -85,7 +85,7 @@ Læs trinene for hvert scenarie i den relevante artikel.
 > [!IMPORTANT]
 > Denne gennemgang kræver, at brugeroplevelsen er sat til *Premium* på siden **firmaoplysninger**.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Produktion](../../production-manage-manufacturing.md)  
 [Produktionsrapporter og analyser i Business Central](../../production-reports.md)  

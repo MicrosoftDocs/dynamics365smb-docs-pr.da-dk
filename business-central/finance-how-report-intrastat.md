@@ -1,6 +1,6 @@
 ---
 title: Arbejde med Intrastat-rapportering
-description: 'Få at vide, hvordan du rapporterer handel med virksomheder i andre EU-lande med Intrastat-systemet.'
+description: 'Få at vide, hvordan du rapporterer handel med virksomheder i andre EU-lande/områder med Intrastat-systemet.'
 author: altotovi
 ms.topic: conceptual
 ms.devlang: na
@@ -11,11 +11,11 @@ ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8
 ms.date: 09/02/2022
 ms.author: altotovi
 ---
-# <a name="work-with-intrastat-reporting"></a>Arbejde med Intrastat-rapportering
+# Arbejde med Intrastat-rapportering
 
 Alle virksomheder i EU skal rapportere deres handel med andre EU-lande/områder. Du skal rapportere bevægelsen af varer til statistikmyndighederne i Danmark hver måned, og rapporten skal indleveres til skattemyndighederne. Intrastat er det system, der bruges til indsamling af handelsstatistik for varer inden for disse lande/områder. Du kan bruge **Intrastat-rapporten** til at udfærdige regelmæssig Intrastat-rapportering (typisk månedligt), indsamling, registrering og rapportering af handel med varer i henhold til den lokale lovgivning.
 
-Intrastat-rapportering er baseret på de grundlæggende EU-forordninger, der gælder for alle lande/områder. I praksis er der imidlertid visse forskelle i de enkelte lande. Hvert land har regler for, hvad der nøjagtigt skal rapporteres og hvordan.
+Intrastat-rapportering er baseret på de grundlæggende EU-forordninger, der gælder for alle lande/områder. I praksis er der imidlertid visse forskelle i de enkelte lande/områder. Hvert land/område har regler for, hvad der nøjagtigt skal rapporteres og hvordan.
 
 > [!IMPORTANT]
 > I denne artikel beskrives den nye Intrastat-oplevelse i [!INCLUDE[prod_short](includes/prod_short.md)], som starter i 2022 udgivelsesbølge 2, der indeholder udvidede funktioner og [skal være aktiveret for eksisterende virksomheder](finance-how-setup-report-intrastat.md#enable-the-new-intrastat-experience). Kontakt administratoren for at aktivere og konfigurere den nye funktion.
@@ -23,16 +23,16 @@ Intrastat-rapportering er baseret på de grundlæggende EU-forordninger, der gæ
 > Læs den forrige versions artikel om Intrastat-opsætning og brugsoplysninger ved i [Konfigurere og rapportere Intrastat](finance-how-setup-report-intrastat-v20.md).
 
 > [!NOTE]
-> Intrastat-oplysninger gælder ikke for flytning af tjenester mellem lande, men kun handelsvarer (varer og anlægsaktiver). Hvis den lokale regering kræver registrering af tjenesteydelser mellem lande, kan det gøres ved hjælp af funktionen **Serviceerklæring**.
+> Intrastat-oplysninger gælder ikke for flytning af tjenester mellem lande/områder, men kun handelsvarer (varer og anlægsaktiver). Hvis den lokale regering kræver registrering af tjenesteydelser mellem lande/områder, kan det gøres ved hjælp af funktionen **Serviceerklæring**.
 >
 > Vi forventer, at denne funktion er tilgængelig fra november 2022 som en app på [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). På nuværende tidspunkt skal du først installere den på siden **Udvidelsesstyring**.
 
-## <a name="fill-in-the-intrastat-report"></a>Udfylde Intrastat-rapporten
+## Udfylde Intrastat-rapporten
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Intrastat-liste**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny** for at oprette en ny **Intrastat-rapport**.
 3. Hvis du har brug for at angive interne oplysninger om **Intrastat-rapporten**, skal du udfylde disse oplysninger i feltet **Beskrivelse**.
-4. Angiv den måned, der skal rapporteres data for, i feltet **Statistikperiode**. Angiv perioden som et fircifret tal uden mellemrum eller symboler. Afhængigt af dit land skal du angive enten måneden først og derefter året eller omvendt. Skriv f.eks. enten *2206* eller *0622* for juni 2022.
+4. Angiv den måned, der skal rapporteres data for, i feltet **Statistikperiode**. Angiv perioden som et fircifret tal uden mellemrum eller symboler. Afhængigt af dit land/område skal du angive enten måneden først og derefter året eller omvendt. Skriv f.eks. enten *2206* eller *0622* for juni 2022.
 5. Vælg handlingen **Foreslå linjer**. Felterne **Startdato** og **Slutdato** indeholder allerede datoerne for statistikperioden i Intrastat-rapporthovedet.
 6. I feltet **Reguleringspct.** kan du angivet et procenttal til dækning af transport og forsikring. Hvis du angiver en procent, er indholdet af feltet **Statistisk værdi** i kladden forholdsmæssigt højere. Men hvis du vil bruge denne funktion, skal du ændre feltet **Beløb inkl. varegebyrer** til **Ja**.
 7. Du kan oprette ekstra konfigurationer i oversigtspanelet **Yderligere**.
@@ -44,7 +44,7 @@ Intrastat-rapportering er baseret på de grundlæggende EU-forordninger, der gæ
 
 Kørslen henter alle vareposter i statistikperioden og indsætter dem som linjer i **Intrastat-rapport**-linjer. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="modify-the-intrastat-report"></a>Redigere Intrastat-rapporten
+## Redigere Intrastat-rapporten
 
 Hvis det er nødvendigt, kan du ændre linjerne, men når du ændrer en værdi på Intrastat-rapportlinjen, udfyldes feltet **Rettelse** automatisk som **Ja**. Til sidst kan du tilføje en ny linje manuelt, hvis der er grund til det. Sådan tilføjer du en ny linje manuelt:
 
@@ -57,13 +57,13 @@ Hvis det er nødvendigt, kan du ændre linjerne, men når du ændrer en værdi p
 > [!NOTE]
 > Når du manuelt føjer en ny linje til Intrastat-rapporten, skal feltet **Dato** på linjen ligge inden for den **Statistikperiode**, du tilføjede i hovedet.
 
-## <a name="validate-intrastat-lines"></a>Validere Intrastat-linjer
+## Validere Intrastat-linjer
 
 Når du har udfyldt **Intrastat-rapporten**, kan du køre handlingen **Kontrollisterapport** for at kontrollere, at alle oplysninger i **Intrastat-rapport** er korrekte. Obligatoriske felter, du har angivet på siden i **Tjekliste til Intrastat-rapport**, og som mangler værdier, vises i **Fejl og advarsler**-faktaboksen på siden **Intrastat-rapport**.
 
 Kør rapporten **Tjekliste til Intrastat-rapport** for at kontrollere Intrastat-linjer, før de udlæses til det krævede format. Checket udføres i **Intrastat-rapporten**.
 
-## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Genberegne vægt eller supplerende måleenhed
+## Genberegne vægt eller supplerende måleenhed
 
 Hvis fejlmeddelelsen *"Samlet vægt" på Intrastat-rapportlinje må ikke være tom*, vises, skyldes det sikkert, at du ikke har angivet feltet **Nettovægt** på den anvendte kilde, vare eller anlægsaktiv. Hvis det er tilfældet, skal du søge efter varen eller anlægskortet og tilføje den påkrævede værdi. Derefter skal du blot åbne **Intrastat-rapporten** igen og følge disse trin:
 
@@ -75,7 +75,7 @@ Hvis fejlmeddelelsen *"Samlet vægt" på Intrastat-rapportlinje må ikke være t
     3. **Begge** – for at genberegne den **Samlede vægt** og **Supplerende antal** baseret på de aktuelle oplysninger om varen og anlægskortene.
 3. Vælg **OK** for at starte kørslen.
 
-## <a name="report-intrastat-in-a-file"></a>Rapportere Intrastat i en fil
+## Rapportere Intrastat i en fil
 
 Du kan sende Intrastat-rapporten som en fil, der er baseret på andre lokale myndighedskrav. Før du opretter filen, skal du køre **Kontrollisterapporten** for at kontrollere, om alle linjer indeholder alle nødvendige og gyldige oplysninger. Sådan opretter du en fil:
 
@@ -93,22 +93,22 @@ Når du har oprettet filen, vil [!INCLUDE[prod_short](includes/prod_short.md)] a
 > [!NOTE]
 > Næste gang du opretter en fil, bevarer felterne **Eksportdato** og **Eksporttidspunkt** kun oplysninger om den sidste fil, du har oprettet.
 
-## <a name="intrastat-rules"></a>Intrastat-regler
+## Intrastat-regler
 
-### <a name="grouping-lines"></a>Gruppering af linjer
+### Gruppering af linjer
 
 I **Intrastat-rapportens** linjer er der ingen gruppering af felter. Alle poster kopieres fra den oprindelige kilde, så du hurtigt kan finde dem på basis af kombinationen af **Kildetype** og **Kildepostnr**.
 
 Gruppering, der kræves af myndighederne, leveres i den eksporterede fil. Du skal konfigurere dette i **dataudvekslingsdefinitionen**, som kan konfigureres med det hele. Flere oplysninger i [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="fixed-assets-reporting"></a>Rapportering af anlægsaktiver
+### Rapportering af anlægsaktiver
 
 Anlægsaktiver vises kun på Intrastat-linjerne, hvis:
 
 * **Anlægsbogføringstypen** i feltet **Momspost** er **Anskaffelsespris**, og hvis **Dokumenttype** er **Faktura** i forbindelse med køb, og
 * **Anlægsbogføringstypen** i feltet **Momspost** er **Disponibelt salg**, og hvis **Dokumenttype** er **Faktura** i forbindelse med salg.
 
-### <a name="intrastat-report-statuses"></a>Intrastat-rapportstatusser
+### Intrastat-rapportstatusser
 
 Når du arbejder med **Intrastat-rapporten**, får du vist et **Status**-felt på dokumenthovedet. Du kan finde følgende statusser sammen med relaterede regler:
 
@@ -116,9 +116,9 @@ Når du arbejder med **Intrastat-rapporten**, får du vist et **Status**-felt p�
 * *Frigivet*: [!INCLUDE[prod_short](includes/prod_short.md)] ændrer automatisk status til *Frigivet*, når du opretter en fil. Fra dette tidspunkt kan du ikke ændre **Intrastat-rapporten**. Hvis du har brug for at ændre noget og rapportere igen, kan du bruge handlingen **Genåbn** til at genåbne Intrastat-rapporten. Når dokumentet genåbnes, kan du bruge handlingen **Frigiv** igen til at frigive dokumentet igen.
 * **Rapporteret**: Angiver, om posten tidligere har været rapporteret til SKAT. Dette er ikke en fast status, men et uafhængigt felt, og selvom du har genåbnet Intrastat-rapporten, vil den stadig vise, at filen allerede er oprettet til rapporten.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relateret træning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## Se relateret træning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprette Intrastat-rapportering](finance-how-setup-report-intrastat.md)  
 [Økonomistyring](finance.md)  

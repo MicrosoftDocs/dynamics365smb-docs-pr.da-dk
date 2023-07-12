@@ -29,7 +29,7 @@ Uanset om du masseimporterer debitorer fra Shopify eller importerer ordrer, skal
 |**Opret automatisk ukendte debitorer**| Marker dette felt, hvis du vil have connectoren til at oprette manglende kunder, når indstillingerne **pr. e-mail/telefon** eller **pr. faktureringsoplysninger** er valgt i feltet **Debitortilknytningstype**. Der oprettes en ny kunde ved hjælp af de importerede data og **kundeskabelonkoden**, der er defineret på siden med **Shopify butikskort** eller **Shopify debitorskabeloner**. Bemærk, at Shopify-debitor skal have mindst én adresse. Ordrer, der er oprettet via salgskanalen Shopify POS, mangler ofte adressedetaljer. Hvis denne indstilling ikke er aktiveret, skal du oprette debitoren manuelt og knytte den til Shopify-kunden.|
 |**Debitorskabelonkode**|Dette felt bruges sammen med **automatisk oprettelse af ukendte kunder**.<br>- Vælg den standardskabelon, der skal bruges til automatisk oprettede debitorer. Kontroller, at den valgte skabelon indeholder de obligatoriske felter, f. eks. **Virksomhedsbogføringsgruppe**, **Debitorbogføringsgruppe** og moms- eller skatterelaterede felter.<br>- Du kan definere skabeloner pr. land/område på siden **Shopify debitorskabeloner**, som er nyttige i forbindelse med beregning af den relevante afgift. <br>- Få flere oplysninger [Konfigurere moms](setup-taxes.md).|
 
-### Debitorskabelon pr. land
+### Debitorskabelon pr. land/område
 
 Nogle indstillinger kan defineres på lande/regionalt niveau eller på niveauet stat/provins. Indstillingerne kan konfigureres i [Forsendelse og levering](https://www.shopify.com/admin/settings/shipping) på Shopify.
 
@@ -37,7 +37,7 @@ Du kan gøre følgende for hver kunde ved hjælp af **Shopify -kundeskabelonen**
 
 1. Angiv **Standardkundenr.**, som har højere prioritet end det, du har valgt i felterne **Debitorimport fra Shopify** og **Debitortilknytningstype**. Den bruges i den importerede salgsordre.
 2. Definer den **debitorskabelonkode**, der bruges til at oprette manglende kunder, hvis **Automatisk oprettelse af ukendte debitorer** er aktiveret. Hvis **debitorskabelonkode** er tom, bruger funktionen den **debitorskabelonkode**, der er defineret på **Shopify butikskortet**. Systemet prøver først at finde en skabelon til **lande-/områdekoden** for standardadressen. Hvis der ikke findes en skabelon, bruges den første adresse.
-3. I nogle tilfælde er den **debitorskabelonkode**, der er defineret for et land, ikke nok til at sikre, at moms beregnes korrekt (f. eks. lande med moms). I dette tilfælde kan **momsområderne** være nyttige.
+3. I nogle tilfælde er den **debitorskabelonkode**, der er defineret for et land/område, ikke nok til at sikre, at moms beregnes korrekt (f. eks. lande/områder med moms). I dette tilfælde kan **momsområderne** være nyttige.
 4. Feltet **skatteområde** indeholder også en **landekode** og et **Navn på region**. Dette par er praktisk, når forbindelsen skal konvertere en kode til et navn, eller omvendt.
 
 > [!NOTE]  
@@ -83,7 +83,7 @@ En debitor i Shopify har også en standardadresse. Ud over fornavn, efternavn, m
 |1|**Navn**|Højeste prioritet, hvis feltet **Navnekilde** på **Shopify Produktionskortet** indeholder *Firmanavn*.|
 |2|**Navn 2**|Laveste prioritet, hvis feltet **Navn 2-kilde** i **Shopify Produktionskortet** indeholder *Firmanavn*.|
 
-I forbindelse med adresser, hvor land/provins anvendes, skal du vælge **Kode** eller **Navn** i feltet **Navn på amt** på siden **Shopify Butikskort**. Koden eller navnet angiver den type data, der er gemt i [!INCLUDE[prod_short](../includes/prod_short.md)] i feltet **Land**. Husk at initialisere kundeskabeloner pr. land, så landekode/navnetilknytning er klar. 
+I forbindelse med adresser, hvor land/provins anvendes, skal du vælge **Kode** eller **Navn** i feltet **Navn på amt** på siden **Shopify Butikskort**. Koden eller navnet angiver den type data, der er gemt i [!INCLUDE[prod_short](../includes/prod_short.md)] i feltet **Land**. Husk at initialisere kundeskabeloner pr. land/område, så lande/områdekode/navnetilknytning er klar. 
 
 
 ## Synkronisere debitorer

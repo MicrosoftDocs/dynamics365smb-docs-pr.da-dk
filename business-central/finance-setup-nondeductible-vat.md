@@ -14,14 +14,14 @@ ms.custom: bap-template
 
 # Oprette ikke-fradragsberettiget moms
 
-Moms uden fradragsberettiget moms er den moms, der skal betales af en indkøber, men som ikke er fradragsberettiget for køberens eget momsansvar. Virksomheder kan som regel genoprette moms på køb af varer og tjenester, der vedrører deres forretningsaktiviteter. I nogle situationer er en virksomhed, der er inddraget moms, men som ikke er fradragsberettiget. Disse situationer vedrører typisk de lokale forskrifter og kan variere fra land til land. Modellen til brug af ikke-fradragsberettiget eller delvist fradragsberettiget moms er den samme. Du kan bruge proportional moms til at beregne moms, når der er fradragsberettiget og ikke-fradragsberettiget moms.
+Moms uden fradragsberettiget moms er den moms, der skal betales af en indkøber, men som ikke er fradragsberettiget for køberens eget momsansvar. Virksomheder kan som regel genoprette moms på køb af varer og tjenester, der vedrører deres forretningsaktiviteter. I nogle situationer er en virksomhed, der er inddraget moms, men som ikke er fradragsberettiget. Disse situationer vedrører typisk de lokale forskrifter og kan variere fra land/område til land/område. Modellen til brug af ikke-fradragsberettiget eller delvist fradragsberettiget moms er den samme. Du kan bruge proportional moms til at beregne moms, når der er fradragsberettiget og ikke-fradragsberettiget moms.
 
 Generelt kan moms ikke fratrækkes for nogle indkøb pga. følgende faktorer:
 
 - **Den type varer eller tjenester, der købes** – momsen er helt eller delvist ikke-fradragsberettiget ved lov om varer, f. eks. biler, mobiltelefoner og fødevarer, der købes på restauranter.
 - **Delvist fradragsberettiget moms** – momsen er professionel ifølge forholdet mellem salgs operationerne for den pågældende moms og alle de operationer, der er blevet udført. Moms, der overstiger dette nøgletal, kan ikke fratrækkes.
 
-Da det kan være svært at vide, hvor og hvordan en vare anvendes, skal du kontakte de lokale skattemyndigheder i dit land for at finde ud af, om en bestemt procent af momsen fradrages i forhold til historiske data. 
+Da det kan være svært at vide, hvor og hvordan en vare anvendes, skal du kontakte de lokale skattemyndigheder i dit land/område for at finde ud af, om en bestemt procent af momsen fradrages i forhold til historiske data. 
 
 > [!IMPORTANT]
 > Denne globale funktion er tilgængelig i alle lande med aktiveret moms, **bortset fra Belgien, Italien, Norge og Spanien**. Disse lokaliteter har allerede eksisterende lokal funktionalitet og opgraderes fremover. Du skal ikke køre denne funktion i disse lande, da opgraderingsproceduren ikke findes.

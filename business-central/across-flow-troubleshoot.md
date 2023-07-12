@@ -4,7 +4,7 @@ description: 'Få mere at vide om, hvordan du foretager fejlfinding af forbindel
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,'
-ms.date: 06/16/2023
+ms.date: 07/03/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: d365-business-central
@@ -22,7 +22,7 @@ Hvis en hændelse opretter eller ændrer mange poster, køres flowet ikke på no
 
 ### Mulig årsag
 
-Der er i øjeblikket en grænse for, hvor mange poster et flow kan behandle. Hvis der oprettes eller ændres mere end 100 poster inden for 30 sekunder, udløses flowet ikke.
+Der er i øjeblikket en grænse for, hvor mange poster et flow kan behandle. Hvis der oprettes eller ændres mere end 1000 poster inden for 30 sekunder, udløses flowet ikke.
 
 > [!NOTE]
 > For udviklere udføres flow-udløseren via webhook-beskeder, og denne begrænsning skyldes den måde, Business Central-connector håndterer `collection` meddelelser på. Flere oplysninger under [Arbejde med Webhooks i Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) i hjælp til udvikler og administrator.
