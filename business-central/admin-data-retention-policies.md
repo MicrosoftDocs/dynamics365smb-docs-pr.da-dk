@@ -11,10 +11,10 @@ ms.search.form: '3903, 3901'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="define-retention-policies"></a>Definere opbevaringspolitikker
+# Definere opbevaringspolitikker
 Administratorer kan definere opbevaringspolitikker for at angive, hvor ofte [!INCLUDE[prod_short](includes/prod_short.md)] skal slette forældede data i tabeller, der indeholder logposter og poster, der er arkiveret. Hvis du f.eks. rydder poster i logfilen, bliver det nemmere at arbejde med de data, der rent faktisk er relevante. Politikker kan omfatte alle data i de tabeller, der ligger ud over udløbsdatoen, eller du kan tilføje filterkriterier, som kun skal indeholde bestemte udløbne data i politikken. 
 
-## <a name="required-setups-and-permissions"></a>Krævede opsætninger og tilladelser
+## Krævede opsætninger og tilladelser
 Før du kan oprette med opbevaringspolitikker, skal du angive følgende.
 
 |Installation  |Description  |
@@ -27,13 +27,13 @@ Derudover skal du have tilladelse som SUPER-bruger eller til opsætning af opbev
 > [!NOTE]
 > Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, og du vil afprøve opbevaringspolitikkerne i CRONUS-demonstrationsdatabasen, er der et par ting, du skal gøre. Demonstrationsregnskabet indeholder ikke tabeller, som du kan bruge med opbevaringspolitikker, så du skal tilføje dem. Hvis du vil gøre dette, skal du oprette et nyt tomt regnskab i demonstrationsdatabasen. Importér den RapidStart-konfigurationspakke til dit land/område, der svarer til standard NAV17.0.W1.ENU.STANDARD.rapidstart-pakken, i det nye regnskab. Konfigurationsdataene for opbevaringspolitikker vil være tilgængelige i det nye regnskab.
 
-### <a name="to-create-retention-periods"></a>Sådan oprettes opbevaringsperioder
+### Sådan oprettes opbevaringsperioder
 Opbevaringsperioderne kan være så lange eller korte, som du har lyst til. Hvis du vil oprette opbevaringsperioder på siden **Opbevaringspolitikker**, skal du bruge handlingen **Opbevaringsperiode**. De perioder, du definerer, er tilgængelige for alle politikker.
 
 > [!NOTE]
 > Af hensyn til kompatibiliteten har vi defineret en mindste opbevaringsperiode for nogle tabeller. Hvis du angiver en opbevaringsperiode, der er kortere end minimumkravet, viser en meddelelse den obligatoriske periode.
 
-### <a name="set-up-a-retention-policy"></a>Opsæt opbevaringspolitik
+### Opsæt opbevaringspolitik
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Opbevaringspolitikker**, og vælg derefter det relaterede link.
 2. I feltet **Tabel-id** skal du vælge den tabel, du vil medtage i politikken.
 3. I feltet **Opbevaringsperiode** skal du angive, hvor længe dataene i tabellen skal være.
@@ -42,17 +42,17 @@ Opbevaringsperioderne kan være så lange eller korte, som du har lyst til. Hvis
    > [!NOTE]
    > Hver linje har sin egen opbevaringsperiode. Hvis du angiver forskellige opbevaringsperioder for de samme data, bruges den længste periode. Nogle tabeller indeholder også filtre, som du ikke kan ændre eller fjerne. Som en hjælp til at identificere disse filtre vises de med farven lysere skrifttype.
 
-## <a name="applying-retention-policies"></a>Anvende opbevaringspolitikker
+## Anvende opbevaringspolitikker
 Du kan bruge en Opgavekøpost til at anvende opbevaringspolitikker til at slette data automatisk, eller du kan anvende politikker manuelt.
 
 Hvis du vil anvende en opbevaringspolitik automatisk, skal du blot oprette og aktivere en politik. Når du aktiverer en politik, opretter vi en Opgavekøpost, som anvender opbevaringspolitikker i overensstemmelse med den angivne opbevaringsperiode. Alle opbevaringspolitikker benytter den samme Opgavekøpost. Som standard anvender opgavekøposten politikken hver dag kl. 0200. Du kan ændre standardindstillingen, men hvis du gør det, anbefales det at køre uden for normal arbejdstid. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md). 
 
 Du kan anvende en politik manuelt vha handlingen **Anvend manuelt** på siden **Opbevaringspolitikker**. Hvis du altid vil anvende en politik manuelt, skal du aktivere den **Manuelt**. Opgavekøposten ignorerer politikken, når den kører.
 
-## <a name="viewing-retention-policy-log-entries"></a>Se logførte poster for opbevaringspolitikker
+## Se logførte poster for opbevaringspolitikker
 Se aktivitet, der er relateret til opbevaringspolitikker, på siden **Opbevaringspolitiklog**. Der oprettes f.eks. poster, når der anvendes en politik, eller hvis der opstod fejl, når det skete. 
 
-## <a name="including-your-extension-in-a-retention-policy-requires-help-from-a-developer"></a>Medtage din udvidelse i en opbevaringspolitik (kræver hjælp fra en udvikler)
+## Medtage din udvidelse i en opbevaringspolitik (kræver hjælp fra en udvikler)
 Opbevaringspolitikker dækker som standard kun tabeller, der er medtaget på den liste over [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller, som vi yder. Du kan fjerne standardtabeller fra listen, og du kan tilføje tabeller, som du ejer. Det vil sige, at du ikke kan tilføje en tabel, som du ikke selv har oprettet. Du kan f.eks. ikke tilføje andre tabeller fra [!INCLUDE[prod_short](includes/prod_short.md)] eller fra en udvidelse, du har købt.
 
 Hvis du vil føje tabeller til listen over tilladte tabeller, skal en udvikler tilføje en kode, f.eks. codeunit til installationsprogrammet til udvidelsen (en codeunit med undertypen *Installation*). 
@@ -95,7 +95,7 @@ Følgende eksempel indeholder et obligatorisk filter.
 
 Når en udvikler har føjet tabeller til listen, kan en administrator medtage dem i en opbevaringspolitik. 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Analyse af Retention Policy Trace Telemetry](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Ændringer af revision i Business Central](across-log-changes.md)  
