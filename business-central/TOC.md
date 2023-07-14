@@ -106,7 +106,7 @@
 ##### [Oversigt over bogføringslinje i finanskladde](design-details-general-journal-post-line-overview.md)  
 ##### [Designoplysninger: Bogføring af grænsefladestruktur](design-details-posting-interface-structure.md)  
 ##### [Designoplysninger: Bogføring af programstruktur](design-details-posting-engine-structure.md)  
-
+#### [Designoplysninger: Ikke-fradragsberettiget moms](design-details-nondeductible-vat.md)
 ## Prøv
 ### [Tilmeld dig for at få en gratis Dynamics 365 Business Central-prøveversion](trial-signup.md)
 ### [Dynamics 365 Business Central-prøveversion, Ofte stillede spørgsmål](trial-faq.md)
