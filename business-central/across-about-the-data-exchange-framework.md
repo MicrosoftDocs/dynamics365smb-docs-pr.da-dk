@@ -11,7 +11,7 @@ ms.search.form: '189,'
 ms.date: 06/10/2021
 ms.author: edupont
 ---
-# <a name="about-the-data-exchange-framework"></a>Om Data Exchange Framework
+# Om Data Exchange Framework
 
 Du kan bruge dataudvekslingsstrukturen til at håndtere udveksling af forretningsdokumenter, bankfiler, valutakurser og andre datafiler med dine samarbejdspartnere eller myndighederne.
 
@@ -23,7 +23,7 @@ Som administrator eller Microsoft-partner kan du bruge strukturen i nye integrat
 
  ![Dataudvekslingsstruktur &#45; Eksport.](media/across-data-exchange/dataexchangeframework_export.png)  
 
-## <a name="electronic-documents"></a>Elektroniske dokumenter
+## Elektroniske dokumenter
 
 Som et alternativ til at sende forretningsdokumenter som vedhæftede, kan du sende og modtage dem elektronisk. Et 'elektronisk dokumentet' menes en standardkompatibel fil, der repræsenterer et forretningsdokument, f.eks en faktura fra en kreditor, som du kan modtage og konvertere til en købsfaktura i [!INCLUDE[prod_short](includes/prod_short.md)]. Handelspartnere udveksler elektroniske dokumenter via eksterne dokumentudvekslingstjenester. Som standard understøtter [!INCLUDE[prod_short](includes/prod_short.md)] afsendelse og modtagelse af elektroniske fakturaer og kreditnotaer i PEPPOL-formatet, som understøttes af de største udbydere af dokumentudvekslingstjenester. En større udbyder af dokumentudvekslingstjenester, Tradeshift, er forudkonfigureret og klar til at blive konfigureret til din virksomhed. For at understøtte andre elektroniske dokumentformater skal du oprette nye dataudvekslingsdefinitioner.  
 
@@ -35,7 +35,7 @@ For at modtage f.eks. en faktura fra en kreditor som et elektronisk PEPPOL-dokum
 
   For at kunne modtage f.eks. en faktura som et elektronisk OCR-dokument skal du behandle den, som når du modtager et elektronisk PEPPOL-dokument. Modtagelse og konvertering af elektroniske PEPPOL-dokumenter fra OCR udføres af Data Exchange Framework, som er repræsenteret ved dataudvekslingsdefinitionen **OCR - Faktura**.  
 
-## <a name="bank-files"></a>Bankfiler
+## Bankfiler
 
 Formatet af filer til udveksling af bankdata med virksomhedsadministrationsapplikationer afhænger af leverandøren af filen og landet eller området. [!INCLUDE[prod_short](includes/prod_short.md)] understøtter import og eksport af SEPA-bankfiler (Single Euro Payments Area). Derudover giver AMC Banking 365 Fundamentals-udvidelsen dig mulighed for at oprette forbindelse til en AMC Banking 365 Fundamentals-udvidelse, der leveres af en ekstern udbyder, AMC Consult. Du kan finde flere oplysninger i [Foretage indbetalinger med AMC Banking 365 Fundamentals-udvidelsen eller SEPA Kreditoverførsel](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md). For at understøtte andre elektroniske dokumentformater kan du bruge Data Exchange Framework.  
 
@@ -47,17 +47,17 @@ Hvis du vil eksportere SEPA-kreditoverførsler, skal du vælge knappen **Eksport
 
  Desuden understøtter de lokale versioner af [!INCLUDE[prod_short](includes/prod_short.md)] forskellige andre filformater til import og eksport af bankdata, løntransaktioner og andre data. Se landingssiden [Lokal funktionalitet](about-localization.md) for dit land/område i Hjælp for at få flere oplysninger.  
 
-## <a name="currency-exchange-rates"></a>Valutakurser
+## Valutakurser
 
 Du kan konfigurere en ekstern tjeneste til at holde dine valutakurser opdaterede. Den tjeneste, der leverer opdaterede valutakurser, aktiveres af en dataudvekslingsdefinition. På samme måde er siden **Opsætning af valutakursopdatering** et komprimeret billede af siden **Dataudvekslingsdefinition** for den pågældende dataudveksling.  
 
 Ved al udveksling af data i XML-filer kan du forberede dataudvekslingsopsætningen ved at indlæse den relaterede XML-skemafil på siden **XML-skemafremviser**. Her kan du vælge de dataelementer, du vil udveksle med [!INCLUDE[prod_short](includes/prod_short.md)], og derefter enten initialisere en dataudvekslingsdefinition eller generere en XMLport.
 
-## <a name="intrastat"></a>Intrastat
+## Intrastat
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bruger Data Exchange-strukturen til Intrastat-rapportering, hvor du nemt kan oprette tidsstemplede filer i forskellige formater til eksport. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder forberedte formater til lokaliserede lande/områder og til standardversion. Men du kan ændre standardrapporten eller oprette din egen.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Udveksle data elektronisk](across-data-exchange.md)  
 [Brug XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
