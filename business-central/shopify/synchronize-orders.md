@@ -18,7 +18,7 @@ I denne artikel beskrives de nødvendige indstillinger og trin, du skal fuldfør
 
 Husk at angive en **Valutakode**, hvis din online-butik bruger en anden valuta end den relevante regnskabsvaluta. Der skal være konfigureret valutakurser for den angivne valuta. Hvis dit onlineindkøb bruger samme valuta som [!INCLUDE[prod_short](../includes/prod_short.md)], skal du lade feltet stå tomt. 
 
-Du kan se lager valutaen i indstillingerne for [butiksdetaljer](https://www.shopify.com/admin/settings/general) i din Shopify-administrator. Shopify kan konfigureres til at acceptere forskellige valutaer, men importerede ordrer til [!INCLUDE[prod_short](../includes/prod_short.md)] butiksvaluta.
+Du kan få adgang til lagervalutaen i indstillingerne for [butiksdetaljer](https://www.shopify.com/admin/settings/general) i din Shopify-administrator. Shopify kan konfigureres til at acceptere forskellige valutaer, men importerede ordrer til [!INCLUDE[prod_short](../includes/prod_short.md)] butiksvaluta.
 
 En almindelig Shopify-ordre kan indeholder omkostninger ud over subtotalen, f. eks. forsendelsesgebyrer eller, hvis det er aktiveret, tip. Beløbene bogføres direkte på den finanskonto, der skal bruges til bestemte posteringstyper:
 
@@ -96,6 +96,31 @@ Du kan også søge efter **synkroniseringsordrer fra Shopify** batchjobbet.
 
 Du kan planlægge, at opgaven skal udføres automatisk. Få mere at vide, når du [planlægger tilbagevendende opgaver](background.md#to-schedule-recurring-tasks).
 
+### Under toppen
+
+Shopify Connector importerer ordrer i to trin:
+
+1.  Den importerer ordrehoveder til **Shopify-ordrer, der skal importeres**, når de svarer til bestemte betingelser:
+    
+* De arkiveres ikke.
+* De er oprettet eller ændret efter den seneste synkronisering.
+
+2.  Den indlæser Shopify-ordrer og supplerende oplysninger.
+* Shopify Connector behandler alle poster i tabellen **Shopify-ordrer, der skal importeres**, som opfylder de filterkriterier, du har defineret i **Synkroniser ordrer fra Shopify**-anmodningssiden. F.eks. tags, kanal eller opfyldelsesstatus. Hvis du ikke har angivet nogen filtre, behandler den alle poster.
+* Når der importeres Shopify-ordre, anmoder Shopify connector om yderligere oplysninger fra Shopify:
+
+    * Ordrehoved
+    * Ordrelinjer
+    * Oplysninger om forsendelse og opfyldelse
+    * Transaktioner
+    * Returvarer og refusioner, hvis det er konfigureret
+
+Siden **Shopify-ordre, der skal importeres**, er nyttig til fejlfinding af import ordrer. Du kan vurdere de ordrer, der er tilgængelige, og tage de næste trin:
+
+* Undersøg, om en fejl har blokeret for importen af en bestemt ordre, og se nærmere oplysninger om fejlen. Se feltet **Indeholder fejl**.
+* Behandl kun bestemte ordrer. Du skal udfylde feltet **Butikskode**, vælge en eller flere ordrer og derefter vælge handlingen **Indlæs markerede ordrer**.
+* Slet ordrer fra **Shopify-ordren for at importere** siden for at udelukke dem fra synkroniseringen.
+
 ## Gennemgå importerede ordrer
 
 Når importen er fuldført, kan du udforske Shopify-ordren og finde alle relaterede oplysninger, f. eks. betalingstransaktioner, forsendelsesomkostninger, følgerne, risikoniveauet, ordreattributter og koder eller opfølgningerne, hvis ordren allerede er opfyldt i Shopify. Du kan også se enhver ordrebekræftelse, der er sendt til debitoren, ved at vælge handlingen **Shopify statusside**.
@@ -131,7 +156,7 @@ Hvis dine indstillinger forhindrer, at der oprettes en kunde automatisk, og der 
 
 Funktionen *Importer ordre fra Shopify* forsøger at vælge debitorer i følgende rækkefølge:
 
-1. Hvis **Standarddebitornr.** feltet er defineret i **Debitorskabelonen for Shopify** for **Send-til Lande/områdekode** og derefter **Standarddebitornr.** uanset indstillingerne i felterne **Debitorimport fra Shopify** og **Debitortilknytningstype**. Flere oplysninger i [Debitorskabelon pr. land](synchronize-customers.md#customer-template-per-country).
+1. Hvis **Standarddebitornr.** feltet er defineret i **Debitorskabelonen for Shopify** for **Send-til Lande/områdekode** og derefter **Standarddebitornr.** uanset indstillingerne i felterne **Debitorimport fra Shopify** og **Debitortilknytningstype**. Flere oplysninger i [Debitorskabelon pr. land](synchronize-customers.md#customer-template-per-countryregion).
 2. Hvis **Debitorimport fra Shopify** er indstillet til *Ingen* og **Standarddebitornr.** er defineret på siden **Shopify Butikskort** skal **Standarddebitornr.** .
 
 Næste trin afhænger af **Debitortilknytningstype**.
