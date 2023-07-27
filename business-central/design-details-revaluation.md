@@ -1,26 +1,27 @@
 ---
 title: Designoplysninger - Regulering
 description: 'Du kan regulere lagerbeholdningen baseret på det værdigrundlag, der mest præcist afspejler værdien af lageret.'
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 06/15/2021
-ms.author: edupont
+ms.date: 07/07/2023
+ms.custom: bap-template
 ---
-# <a name="design-details-revaluation"></a>Designoplysninger: Regulering
+
+# Designoplysninger: Regulering
+
 Du kan regulere lagerbeholdningen baseret på det værdigrundlag, der mest præcist afspejler værdien af lageret. Du kan også tilbagedatere en værdiregulering, så omkostningerne for vareforbruget opdateres korrekt for varer, der allerede er solgt. Varer, der benytter kostmetoden Standard, der ikke er blevet fuldt faktureret, kan også revalueres.  
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] understøttes følgende fleksibilitet med hensyn til værdiregulering:  
 
--   Antallet, der skal reguleres, kan være beregnet for en given dato, også tilbage i tiden.  
--   For varer, der benytter kostmetoden Standard, medtages forventede omkostningsposter i reguleringen.  
--   Lagerreduceringer, der påvirkes af værdiregulering, registreres.  
+- Antallet, der skal reguleres, kan være beregnet for en given dato, også tilbage i tiden.  
+- For varer, der benytter kostmetoden Standard, medtages forventede omkostningsposter i reguleringen.  
+- Lagerreduceringer, der påvirkes af værdiregulering, registreres.  
 
-## <a name="calculating-the-revaluable-quantity"></a>Beregning af det antal, der kan reguleres
- Antallet, der skal reguleres, er det resterende antal på lager, der er tilgængeligt for værdiregulering på en given dato. Det beregnes som summen af mængderne, der er fuldt fakturerede vareposter, som har en bogføringsdato, der er lig med eller tidligere end værdireguleringens bogføringsdato.  
+## Beregning af det antal, der kan reguleres
+
+Antallet, der skal reguleres, er det resterende antal på lager, der er tilgængeligt for værdiregulering på en given dato. Antallet er den samlede værdi af vareposter, der er fuldt faktureret, og som du bogfører på eller før værdi reguleringsdatoen.  
 
 > [!NOTE]  
 >  Varer, der benytter kostmetoden Standard, behandles forskelligt ved beregning af den revaluerbare mængde pr. vare, lokation og variant. Antallet og værdien af vareposter, der ikke er fuldt faktureret, medtages i det antal, der skal reguleres.  
@@ -29,7 +30,8 @@ Når en regulering er blevet bogført, kan du bogføre en lagerforøgelse eller 
 
 Da regulering kan foretages på en hvilken som helst dato, skal der være konventioner for, hvornår en vare betragtes som en del af lageret fra et økonomisk synspunkt. Når varen f.eks. er på lager, og når varen er igangværende arbejde (VIA).  
 
-### <a name="example"></a>Eksempel
+### Eksempel  
+
 I følgende eksempel illustreres, når en vareoverflytning for igangværende arbejde bliver en del af lageret. Eksemplet er baseret på produktion af en kæde med 150 links.  
 
 ![Lageret og værdiregulering for igangværende arbejde.](media/design_details_inventory_costing_10_revaluation_wip.png "Lageret og værdiregulering for igangværende arbejde")  
@@ -75,31 +77,34 @@ Værdiansættelsesdatoen angives til datoen for forbrugsbogføring (01-02-20) so
 |------------------|----------------|--------------------|----------------------------|---------------------------|---------------|  
 |01-15-20|Købspris|01-01-20|150,00|2|2|  
 |02-01-20|Købspris|02-01-20|-150,00|2|2|  
-|02-15-20|Købspris|02-15-20|150,00|3|3|  
+|02-15-20|Købspris|02-15-20|150.00|3|3|  
 
-## <a name="expected-cost-in-revaluation"></a>Forventet kostpris i værdiregulering
+## Forventet kostpris i værdiregulering
+
 Antallet, der skal reguleres, beregnes som det samlede antal af fuldt fakturerede vareposter med en bogføringsdato, der er lig med eller tidligere end reguleringsdatoen. Det betyder, at når nogle varer er modtaget/leveret, men ikke faktureret, så kan deres lagerværdi ikke beregnes. Varer, der benytter kostmetoden Standard, er ikke begrænset i denne henseende.  
 
 > [!NOTE]  
 >  En anden type af forventede omkostninger, der kan reguleres, er lagerbeholdningen for det igangværende arbejde, inden for visse regler. Du kan finde flere oplysninger i [WIP-lagerregulering](design-details-revaluation.md#wip-inventory-revaluation).  
 
-Ved beregning af det re-revaluerede antal for varer ved brug af kostmetoden Standard medtages vareposter, der endnu ikke er fuldt faktureret i beregningen. Disse poster reguleres så, når du bogfører reguleringen. Når du fakturerer den regulerede post, oprettes der følgende værdiposter:  
+Ved beregning af det revaluable antal for varer ved brug af kostmetoden Standard medtages vareposter, der endnu ikke er fuldt faktureret i beregningen. Disse poster reguleres så, når du bogfører reguleringen. Når du fakturerer den regulerede post, oprettes der følgende værdiposter:  
 
--   Den normale fakturerede værdipost med posttypen **Direkte omkostning**. Kostbeløbet for denne post er den direkte omkostning fra kildelinjen.  
--   En værdipost med posttypen **Afvigelse**. Denne post registrerer forskellen mellem fakturerede omkostninger og den regulerede standardkostpris.  
--   En værdipost med posttypen **Værdiregulering af**. Denne post registrerer tilbageførsel af værdireguleringen af de forventede omkostninger.  
+- Den normale fakturerede værdipost med posttypen **Direkte omkostning**. Kostbeløbet for denne post er den direkte omkostning fra kildelinjen.  
+- En værdipost med posttypen **Afvigelse**. Denne post registrerer forskellen mellem fakturerede omkostninger og den regulerede standardkostpris.  
+- En værdipost med posttypen **Værdiregulering af**. Denne post registrerer tilbageførsel af værdireguleringen af de forventede omkostninger.
 
-### <a name="example-1"></a>Eksempel
-Følgende eksempel, der er baseret på produktion af kæden i det forrige eksempel, illustrerer, hvordan der oprettes tre typer poster. Den bygger på følgende scenario:  
+### Eksempel  
 
-1.  Brugeren bogfører købte led som modtaget med en kostpris på RV 2,00.  
-2.  Brugeren bogfører derefter en regulering af ledene med en ny kostpris på RV 3,00 og opdaterer standardkostprisen til RV 3,00.  
-3.  Brugeren bogfører det oprindelige køb af led som faktureret, så der oprettes følgende:  
+Følgende eksempel er baseret på produktionen af kæden i det forrige eksempel. Dette eksempel viser, hvordan de tre typer poster oprettes, baseret på følgende scenario:  
+
+1.  Du bogfører købte links som modtaget med en kostpris på LV 2,00.  
+2.  Du bogfører derefter en regulering af linkene med en ny kostpris på LV 3,00 og opdaterer standardkostprisen til LV 3,00.  
+3.  Du bogfører det oprindelige køb af led som faktureret, så der oprettes følgende:  
 
     1.  En faktureret værdipost med posttypen **Direkte omkostning**.  
     2.  En værdipost med posttypen **Værdiregulering** til at registrere tilbageførsel af værdiregulering for de forventede omkostninger.  
     3.  En værdipost med posttypen Afvigelse, der registrerer forskellen mellem fakturerede omkostninger og de regulerede standardomkostninger.  
-Følgende tabel viser de resulterende værdiposter.  
+
+Den følgende tabel viser resultaterne.  
 
 |Trin|Bogføringsdato|Postens type|Værdiansættelsesdato|Kostbeløb (forventet)|Kostbeløb (faktisk)|Varepostløbenr.|Løbenr.|  
 |----------|------------------|----------------|--------------------|------------------------------|----------------------------|---------------------------|---------------|  
@@ -107,14 +112,15 @@ Følgende tabel viser de resulterende værdiposter.
 |2.|01-20-20|Regulering|01-20-20|150,00|0.00|1|2|  
 |3.a.|01-15-20|Købspris|01-15-20|-300,00|0.00|1|3|  
 |3.b.|01-15-20|Regulering|01-20-20|-150,00|0.00|1|4|  
-|3.c.|01-15-20|Afvigelse|01-15-20|0.00|450,00|1|5|  
+|3.c.|01-15-20|Varians|01-15-20|0.00|450.00|1|5|  
 
-## <a name="determining-whether-an-inventory-decrease-is-affected-by-revaluation"></a>Bestemmelse af om en lagerreducering påvirkes af værdiregulering
+## Bestemmelse af om en lagerreducering påvirkes af værdiregulering  
+
 Datoen for bogføringen eller reguleringen bruges til at bestemme, om en lagerreduktion er berørt af en værdiregulering.  
 
 Følgende tabel viser de kriterier, der bruges til en vare, der ikke bruger kostmetoden Gennemsnit.  
 
-|Scenarie|Løbenr.|Timing|Påvirket af regulering|  
+|Scenarie|Løbenummer|Timing|Påvirket af regulering|  
 |--------------|---------------|------------|-----------------------------|  
 |A|Tidligere end reguleringsløbenummeret.|Tidligere end bogføringsdatoen for reguleringen|Nej|  
 |B|Tidligere end reguleringspostnummeret.|Lig med bogføringsdatoen for reguleringen|Nej|  
@@ -123,18 +129,19 @@ Følgende tabel viser de kriterier, der bruges til en vare, der ikke bruger kost
 |E|Senere end reguleringspostnummeret.|Lig med bogføringsdatoen for reguleringen|Ja|  
 |F|Senere end reguleringspostnummeret.|Senere end bogføringsdatoen for reguleringen|Ja|  
 
-### <a name="example-2"></a>Eksempel
-Følgende eksempel, som illustrerer værdiregulering af en vare, der bruger kostmetoden FIFO, er baseret på følgende scenario:  
+### Eksempel  
+
+Følgende eksempel, som illustrerer værdiregulering af en vare, der bruger kostmetoden FIFO. Eksemplet bygger på følgende scenario:  
 
 1.  Den 01-01-20 bogfører brugeren et køb på 6 enheder.  
-2.  Den 01-02-20 bogfører brugeren et salg på 1 enhed.  
-3.  Den 03-01-20 bogfører brugeren et salg på 1 enhed.  
-4.  Den 04-01-20 bogfører brugeren et salg på 1 enhed.  
-5.  Den 01-03-20 beregner brugeren lagerværdien for varen og bogfører en værdiregulering af varens kostpris i RV 10,00 til RV 8,00.  
-6.  Den 01-02-20 bogfører brugeren et salg på 1 enhed.  
-7.  Den 03-01-20 bogfører brugeren et salg på 1 enhed.  
-8.  Den 04-01-20 bogfører brugeren et salg på 1 enhed.  
-9. Brugeren udfører kørslen **Reguler kostværdi - vareposter**.  
+2.  Den 02-01-20 bogfører du et salg på 1 enhed.  
+3.  Den 03-01-20 bogfører du et salg på 1 enhed.  
+4.  Den 04-01-20 bogfører du et salg på 1 enhed.  
+5.  Den 01-03-20 beregner brugeren lagerværdien for varen og bogfører en værdiregulering af varens kostpris i LV 10,00 til LV 8,00.  
+6.  Den 02-01-20 bogfører du et salg på 1 enhed.  
+7.  Den 03-01-20 bogfører du et salg på 1 enhed.  
+8.  Den 04-01-20 bogfører du et salg på 1 enhed.  
+9. Kør batchjobbet **Juster kostpris - vareposter**.  
 
 Følgende tabel viser de resulterende værdiposter.  
 
@@ -153,28 +160,71 @@ Følgende tabel viser de resulterende værdiposter.
 |F|04-01-20|Salg|04-01-20|-1|-10,00|7|8|  
 ||04-01-20|Salg|04-01-20|-1|2.00|7|12|  
 
-## <a name="wip-inventory-revaluation"></a>VIA - Regulering af lagerværdi
-Værdiregulering af igangværende arbejdslager indebærer regulering af komponenter, der er registreret som en del af igangværende arbejdslager i forbindelse med reguleringen.  
+## Igangværende arbejde - Regulering af lagerværdi  
 
-Med dette for øje er det vigtigt at etablere konventioner i forbindelse med, hvornår en vare betragtes som en del af det VIA-lagerbeholdningen fra et økonomisk synspunkt. I [!INCLUDE[prod_short](includes/prod_short.md)] findes følgende konventioner:  
+Revaluating igangværende arbejde i lager angiver, at du regulerer komponenter, der er registreret som igangværende arbejde-lager.  
 
--   En købt komponent bliver en del af lageret for råmaterialer fra det tidspunkt, hvor et køb bogføres som faktureret.  
--   En købt/delmonteret komponent bliver en del af lagerbeholdningen for det igangværende arbejde fra det tidspunkt, hvor forbruget bogføres i forbindelse med en produktionsordre.  
--   En købt/delmonteret komponent forbliver en del af lagerbeholdningen for det igangværende arbejde indtil det tidspunkt, hvor en produktionsordre (en fremstillet vare) faktureres.  
+Det er vigtigt at have konventioner, der styrer, hvornår en vare er igangværende arbejde-lagervare fra et økonomisk synspunkt. I [!INCLUDE[prod_short](includes/prod_short.md)] findes følgende konventioner:  
 
-Den måde, hvorpå værdiansættelsesdatoen for værdiposten af forbrug angives, følger de samme regler som for ikke-VIA-lagerbeholdningen. Hvis du ønsker yderligere oplysninger, kan du se afsnittet [Bestemmelse af om en lagerreducering påvirkes af værdiregulering](design-details-revaluation.md#determining-whether-an-inventory-decrease-is-affected-by-revaluation).  
+- En købt komponent bliver en del af lageret for råmaterialer fra det tidspunkt, hvor et køb bogføres som faktureret.  
+- En købt/delmonteret komponent bliver en del af lagerbeholdningen for det igangværende arbejde fra det tidspunkt, hvor forbruget bogføres i forbindelse med en produktionsordre.  
+- En købt/delmonteret komponent forbliver en del af lagerbeholdningen for det igangværende arbejde indtil det tidspunkt, hvor en produktionsordre (en fremstillet vare) faktureres.  
 
-VIA-lageret kan reguleres, så længe reguleringsdatoen ikke ligger senere end bogføringsdatoen for de tilsvarende vareposter af typen forbrug, og så længe den tilsvarende produktionsordre endnu ikke er faktureret.  
+Den måde, hvorpå værdiansættelsesdatoen for værdiposten af forbrug angives, følger de samme regler som for ikke-igangværende arbejde-lagerbeholdningen. Du kan lære mere i [Bestemmelse af om en lagerreducering påvirkes af værdiregulering](#determine-whether-revaluation-affects-an-inventory-decrease).  
+
+Du kan revaluere igangværende arbejde-lageret under følgende betingelser:
+
+- Værdireguleringsdatoen ligger før bogføringsdatoerne for de tilsvarende vareposter af typen forbrug.
+- Du har ikke faktureret produktionsordren.  
 
 > [!CAUTION]  
->  Rapporten **Lagerværdi - igangværende arb.** viser værdien af bogførte produktionsordreposter og kan derfor være lidt forvirrende for igangværende arbejders varer, der er blevet reguleret.  
+> Rapporten **Lagerværdi - igangværende arb.** viser værdien af bogførte produktionsordreposter og kan derfor være lidt forvirrende for igangværende arbejders varer, der er blevet reguleret.  
 
-## <a name="see-also"></a>Se også
- [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
- [Designoplysninger: Kostmetoder](design-details-costing-methods.md)   
- [Designoplysninger: Lagerværdi](design-details-inventory-valuation.md) [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
- [Finans](finance.md)  
- [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Revaluate varer, der har kostmetoden gennemsnit
 
+Du kan kun revaluate varer, der bruger kostmetoden gennemsnit, hvis **Beregn pr.** er *vare*.
+
+Du kan kun foretage værdiregulering ved slutningen af den periode, der er valgt i feltet **gennemsnitlig omkostningsperiode** på **lageropsætningssiden**.
+
+Værdiregulering påvirker ikke negative transaktioner i den aktuelle måned, hvilket vil sige, at fuldstændig udlignede indgående poster ikke medtages.
+
+### Eksempel
+
+Dette eksempel viser, hvad der sker, når du beregner lagerværdien på siden **vareværdireguleringskladde**. På siden **Lageropsætning** vælges **vare** i feltet **Beregn. type for gnsn. kostpris** og derefter vælges **måned** i feltet **gennemsnitlig omkostningsperiode**.
+
+Følgende tabel indeholder de vareposter, som prøveeksemplet er baseret på, ITEM1.
+
+|Bogføringsdato|Vareposttype|Antal|Kostbeløb (faktisk)|Løbenummer|
+|----|----|----|----|----|
+25-04-23|Køb|5|5.00|1
+26-04-23|Køb|3|3.00|2
+27-04-23|Salg|-5|-5,00|3
+28-04-23|Salg|-1|-1,00|4
+13-05-23|Køb|2|20.00|5
+17-06-23|Salg|-6|-22,00|6
+
+I følgende tabel vises resultatet af kørselsrapporten **Beregn lagerværdi** med forskellige tilgangsdatoer.
+
+|Bogføringsdato|Antal|Kommentar|
+|---|---|-------------|
+30-04-23|2|Inkluderer kun Restantal fra post 2. Post 1 er helt udlignet før bogføringsdatoen, og post 5 er efter bogføringsdato.
+31-05-23|4|Inkluderer restmængder fra post 2 og 13.
+30-06-23|0|Restantal på bogføringsdatoen er ikke angivet.
+
+Resultatet af følgende poster vil være 0, uanset bogføringsdatoen.
+
+|Bogføringsdato|Vareposttype|Antal|Kostbeløb (faktisk)|Løbenummer|
+|----|----|----|----|----|
+13-05-23|Køb|5|5.00|1
+26-04-23|Salg|-5|5.00|2
+
+## Se også  
+
+[Designoplysninger: Lagerberegning](design-details-inventory-costing.md)   
+[Designoplysninger: Kostmetoder](design-details-costing-methods.md)   
+[Designdetaljer: Lagervurdering](design-details-inventory-valuation.md)
+[Administration af lageromkostninger](finance-manage-inventory-costs.md)  
+[Finans](finance.md)  
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
