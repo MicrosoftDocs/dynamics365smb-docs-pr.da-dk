@@ -10,7 +10,7 @@ ms.workload: na
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# Udvidelsen WorldPay Payments Standard
+# <a name="the-worldpay-payments-standard-extension"></a>Udvidelsen WorldPay Payments Standard
 
 > [!CAUTION]
 > Udvidelsen WorldPay Payments Standard udfases. Koden er marked som forældet startende med 2023 udgivelsesbølge 2. Appen er aktiv for de næste tre vigtige udgivelser, og derefter fjernes den.   
@@ -20,7 +20,7 @@ Hvis du aktiverer udvidelsen og sender en salgsfaktura eller salgsordre via mail
 
 Aktivering af betalingstjenesteudvidelser er gratis i [!INCLUDE[prod_short](includes/prod_short.md)], men du skal kontakte betalingstjenesten for at få en konto. Du kan finde flere oplysninger i [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Konfigurere salg](sales-setup-sales.md)  
