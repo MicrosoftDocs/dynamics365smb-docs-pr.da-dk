@@ -11,11 +11,11 @@ ms.search.form: 9901
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Eksportere Business-data til Excel
+# <a name="export-your-business-data-to-excel"></a>Eksportere Business-data til Excel
 
 Excel er et effektivt værktøj til at arbejde med data. Du kan åbne alle lister i Excel fra [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan endda ændre data i Excel og derefter sende dem tilbage til [!INCLUDE [prod_short](includes/prod_short.md)]. Med denne funktion kan du let tage data med dig, hvis du beslutter dig for at opsige dit abonnement.
 
-## Åbne lister i Excel
+## <a name="opening-lists-in-excel"></a>Åbne lister i Excel
 
 Du kan åbne data i Excel fra enhver kladde, liste eller regneark. Du skal bare åbne den ønskede side og derefter vælge **Åbn i Excel**. Du kan f.eks. åbne listen over debitorer (søg efter **Debitorer**) og derefter klikke på **Åbn i Excel**. Din du bliver bedt om at åbne eller gemme den oprettede Excel-projektmappe.  
 
@@ -24,11 +24,11 @@ Du kan åbne data i Excel fra enhver kladde, liste eller regneark. Du skal bare 
 
 Hver liste indeholder nogle kolonner. Eksporter til Excel indeholder alle kolonner, som findes i den aktuelle visning. Du kan ændre kolonnerne ved at åbne genvejsmenuen for en vilkårlig kolonne og derefter angive, hvilke kolonner du vil have vist. Listen over kolonner adskiller sig fra de fleste lister. Kolonnerne afspejler strukturen i den database, der indeholder dine data. Hvis du ikke er sikker på, hvilken type data en bestemt kolonne indeholder, kan du tilføje den i visningen. Du kan altid fjerne den igen.  
 
-### Redigere data i Excel
+### <a name="edit-data-in-excel"></a>Redigere data i Excel
 
 Din [!INCLUDE[prod_short](includes/prod_short.md)]-oplevelse omfatter et tilføjelsesprogram til Excel, så du kan redigere data i Excel. Du kan finde flere oplysninger i [Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md).  
 
-## Eksportere data til andre økonomisystemer
+## <a name="exporting-data-to-other-finance-systems"></a>Eksportere data til andre økonomisystemer
 
 Hvis du beslutter at annullere dit abonnement på [!INCLUDE[prod_short](includes/prod_short.md)], kan du eksportere dine data til Excel og tage dem med dig til dit næste økonomisystem.  
 
@@ -72,9 +72,9 @@ Det anbefales, at du også overvejer at eksportere data fra følgende sider:
 
 Du kan finde flere oplysninger i [Sådan får du vist en oversigt over en brugers rettigheder](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-## Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## Se også
+## <a name="see-also"></a>Se også
 [Annullere dit abonnement på [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
 [Import af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md)  
