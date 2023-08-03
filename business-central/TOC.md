@@ -213,7 +213,7 @@
 ## Hjælp og support
 ### [Ressourcer til hjælp og support](product-help-and-support.md)
 ### [Besøge vores videobibliotek](across-videos.md)
-### [Få teknisk support](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
+### [Få teknisk support](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
 <!--## Microsoft Learn training
 ### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)

@@ -3,9 +3,6 @@ title: Køre og udskrive rapporter
 description: 'Få mere at vide om, hvordan du angiver en rapport i en opgavekø og planlægger, at den skal afvikles på en bestemt dato og tidspunkt.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, Word, dataset'
 ms.search.form: null
 ms.date: 09/09/2022
@@ -136,6 +133,12 @@ Et rapportlayout bestemmer, hvad der skal vises i en rapport, hvordan det arrang
 - Hvis du vil ændre det standardlayout, der anvendes af en rapport, skal du gå til siden med **rapportlayout** eller **markering af rapportlayout**.
 
 Flere oplysninger [Angive det layout, der bruges af en rapport](ui-set-report-layout.md). Eller du kan tilpasse din egen rapportlayout, skal du se [Introduktion til oprettelse af layout](ui-get-started-layouts.md).
+
+## Ændre sprog og format for tal, datoer og klokkeslæt
+
+Sproget i tal og format af tal, datoer og klokkeslæt er som standard baseret på dine indstillinger for arbejdssprog og område, der er defineret på siden **Mine indstillinger**. Du kan imidlertid ændre sproget og formatområdet i tilfælde af, hvordan du får vist, udskriver eller sender en rapport. Vælg **Avanceret** på anmodningssiden, og Angiv derefter indstillingerne for **Sprog** og **Formatér region** efter behov.
+
+Du kan finde flere oplysninger om **Mine indstillinger** ved at gå til [Ændre basisindstillinger](ui-change-basic-settings.md#region).
 
 ## Avancerede indstillinger
 
