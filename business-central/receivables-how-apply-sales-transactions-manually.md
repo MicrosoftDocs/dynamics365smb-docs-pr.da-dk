@@ -11,7 +11,7 @@ ms.search.form: '25, 255'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Afstemme betalinger fra debitorer med indbetalingskladden eller fra debitorposter
+# Afstemme betalinger fra debitorer med indbetalingskladden eller fra debitorposter
 
 Når du modtager en kontantbetaling fra en debitor, eller du foretager en kontantrefusion, skal du vælge, om betalingen skal lukke en eller flere åbne debet- eller kreditposter. Du kan angive det beløb, du vil udligne. Du kan f.eks. udligne delbetalinger til debitorposter. Når du lukker debitorposter, sikrer du, at oplysninger som debitorstatistik, kontoudtog og rentenotaer er opdaterede.
 
@@ -31,7 +31,7 @@ Du kan udligne debitorposter på forskellige måder:
 > [!NOTE]  
 >   Hvis feltet **Udligningsmetode** på debitorkortet indeholder **Saldo**, bliver betalinger automatisk udlignet til den ældste åbne kreditpost, medmindre du foretager en manuel angivelse. Hvis udligningsmetoden er **Manuel**, skal du altid udligne posterne manuelt.
 
-## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Sådan udfyldes og bogføres en indbetalingskladde
+## Sådan udfyldes og bogføres en indbetalingskladde
 Indbetalingskladden er en type finanskladde. Du kan bruge det til at bogføre på finanskonti, bankkonti, debitor- og kreditorkonti og anlægskonti. Du kan anvende betalingen på en eller flere debetposteringer, når du bogfører betalingen. Du kan også udligne fra de bogførte posteringer senere.
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Indbetalingskladde**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Rediger kladde**.
@@ -48,7 +48,7 @@ Indbetalingskladden er en type finanskladde. Du kan bruge det til at bogføre p�
 11. Vælg kontantkontoen til kontantindbetalinger eller bankkontoen til andre betalinger i feltet **Modkonto**.
 12. Bogfør journalen.
 
-## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Sådan udlignes en betaling med en enkelt debitorpost
+## Sådan udlignes en betaling med en enkelt debitorpost
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Indbetalingskladde**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Rediger kladde**.
 3. Angiv de relevante oplysninger om den post, der skal udlignes, i den første indkøbskladdelinje.
@@ -63,7 +63,7 @@ Indbetalingskladden er en type finanskladde. Du kan bruge det til at bogføre p�
 10. Vælg knappen **OK**. Siden **Indbetalingskladde** viser nu posten i felterne **Udligningsbilagstype** og **Udligningsbilagsnr.**.
 11. Bogfør indbetalingskladden.
 
-## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Sådan udlignes en betaling med flere debitorposter:
+## Sådan udlignes en betaling med flere debitorposter:
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Indbetalingskladde**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Rediger kladde**.
 3. Angiv de relevante oplysninger om den post, der skal udlignes, i den første indkøbskladdelinje.
@@ -79,7 +79,7 @@ Indbetalingskladden er en type finanskladde. Du kan bruge det til at bogføre p�
 11. Vælg knappen **OK**.
 12. Bogfør indbetalingskladden.
 
-## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Sådan udlignes en kreditnota på en enkelt debitorpost
+## Sådan udlignes en kreditnota på en enkelt debitorpost
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgskreditnotaer**, og vælg derefter det relaterede link.
 2. Åbn den relevante salgskreditnota.
 3. Hvis du vil udligne kreditnotaen med en enkelt debitorpost i forbindelse med bogføringen, skal du i feltet **Udligningsbilagsnr.** vælge den post, som du vil udligne betalingen med.
@@ -89,7 +89,7 @@ Indbetalingskladden er en type finanskladde. Du kan bruge det til at bogføre p�
 5. Vælg knappen **OK**. Siden **Salgskreditnota** viser nu posten, som du valgte, i felterne **Udligningsbilagstype** og **Udligningsbilagsnr.**. Og beløbet på kreditnotaen, som skal bogføres, reguleres i forhold til mulige kontantrabatter.
 6. Bogfør kreditnotaen.
 
-## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Sådan udlignes en kreditnota med flere debitorposter
+## Sådan udlignes en kreditnota med flere debitorposter
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgskreditnotaer**, og vælg derefter det relaterede link.
 2. Åbn den relevante salgskreditnota.
 3. Hvis du vil udligne kreditnotaen med flere debitorposter, når du bogfører, skal du vælge handlingen **Udlign poster**.
@@ -100,7 +100,7 @@ Indbetalingskladden er en type finanskladde. Du kan bruge det til at bogføre p�
 6. Vælg knappen **OK**. Siden viser nu **Salgskreditnota** beløbet på kreditnotaen, som skal bogføres, justeret i forhold til eventuelle kontantrabatter.
 7. Bogfør kreditnotaen.
 
-## <a name="to-apply-posted-customer-ledger-entries"></a>Sådan udlignes bogførte debitorposter
+## Sådan udlignes bogførte debitorposter
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
 2. Åbn debitorkortet for debitoren med de poster, du vil udligne.
 3. Vælg handlingen **Poster**, og vælg derefter linjen med den post, som betalingen skal udlignes med.
@@ -120,7 +120,7 @@ På oversigten over poster kan du se, at afkrydsningsfeltet **Åben** ikke er ma
 > [!NOTE]  
 >   Når du har valgt en post på siden **Udlign debitorposter** eller flere poster ved at indstille feltet **Udlignings-id**, indeholder feltet **Udlignet beløb** på kladdelinjen summen af de resterende beløb for de bogførte poster, som du valgte - medmindre feltet allerede indeholder noget. Hvis du markerer **Saldo** i feltet **Udligningsmetode** på debitorkortet, sker udligningen automatisk.
 
-## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a>Sådan udlignes debitorposter i andre valutaer med hinanden
+## Sådan udlignes debitorposter i andre valutaer med hinanden
 Hvis du sælger til en debitor i en valuta og modtager betaling i en anden, kan du stadig knytte fakturaen til betalingen.  
 
 Her er et eksempel. Du udligner post 1 i én valuta til post 2 i en anden valuta. Bogføringsdatoen i post 1 bruges til at finde den valutakurs, der skal bruges til omregning af beløb i post 2. Den relevante valutakurs findes på siden **Valutakurser**.  
@@ -137,7 +137,7 @@ Udligning af debitorposter i andre valutaer skal være aktiveret. Du kan finde f
 > [!IMPORTANT]  
 >   Når du udligner poster i forskellige valutaer, konverteres posterne til RV. Selvom valutakursen for de to valutaer er fast, f.eks. mellem USD og EUR, kan der være et lille restbeløb, når de konverteres til RV. Disse små restbeløb bogføres som gevinst og tab på den konto, der er angivet i feltet **Realiseret gevinstkonto** eller feltet **Realiseret tabskonto** på siden **Valutaer**. Feltet **Beløb (RV)** tilpasses også på kreditorposter.  
 
-## <a name="to-correct-an-application-of-customer-entries"></a>Sådan rettes en udligning af debitorposter
+## Sådan rettes en udligning af debitorposter
 Når du retter en udligning, oprettes der korrigerende poster, som bogføres for alle poster. De korrigerende poster er de samme som originalerne, men har en modsat log i feltet **Beløb**. De korrigerende poster omfatter alle finansposter, der er afledt af udligningen. F.eks. kontantrabatten og tab/gevinst. Alle poster, der blev lukket af programmet, genåbnes.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
@@ -151,7 +151,7 @@ Når du retter en udligning, oprettes der korrigerende poster, som bogføres for
 > [!IMPORTANT]  
 >   Hvis en post er udlignet med mere end en udligningspost, skal du fjerne udligningen af den sidste udligningspost først.  
 
-## <a name="see-also"></a>Se også
+## Se også
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

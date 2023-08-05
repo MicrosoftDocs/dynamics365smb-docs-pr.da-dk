@@ -10,18 +10,18 @@ ms.search.form: '99000799, 99000803, 99000804, 99000805, 99000807'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="set-up-standard-routing-lines"></a>Konfigurere standardrutelinjer
+# Konfigurere standardrutelinjer
 
 Brugen af standardoperationer forenkler oprettelse og vedligeholdelse af ruter. De giver dig mulighed for hurtigt at tilknytte ekstra oplysninger til gentagne operationer.
 
-## <a name="to-set-up-a-standard-task"></a>Sådan defineres en standardopgave
+## Sådan defineres en standardopgave
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **standardopgaver**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Vælg handlingen **Funktioner**, **Medarbejdere**, **Beskrivelse**eller **Værktøjer**, og tilføj derefter den relevante post på den side, der vises.
 
-## <a name="to-add-a-standard-task-to-an-operation"></a>Sådan tilføjes en standardopgave til en operation
+## Sådan tilføjes en standardopgave til en operation
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rute**, og vælg derefter det relaterede link.
 2. Åbn den relevante rute.
@@ -29,7 +29,7 @@ Brugen af standardoperationer forenkler oprettelse og vedligeholdelse af ruter. 
 
 Når du udskriver rutediagrammet, kan du vælge at medtage de elementer fra standardoperationen, som du føjede til rutelinjerne.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprette ruter](production-how-to-create-routings.md)  
 [Oprette produktionsstyklister](production-how-to-create-production-boms.md)  

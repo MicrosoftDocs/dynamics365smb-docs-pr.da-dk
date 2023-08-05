@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 04/24/2023
 ms.custom: bap-template
 ---
-# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Oprette arbejdsgange for at forbinde opgaver i virksomhedsprocesser
+# Oprette arbejdsgange for at forbinde opgaver i virksomhedsprocesser
 
 Du kan oprette arbejdsgange, der forbinder handlinger i forretningsprocesser, der udføres af forskellige brugere. Du kan inkludere systemopgaver, f.eks automatisk bogføring, som trin i arbejdsgange med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin.  
 
@@ -42,7 +42,7 @@ Et arbejdsflow er inddelt i tre sektioner:
 
 Indstillingerne er hændelser og svar er systemdefineret. Hvis du vil tilføje nye indstillinger, skal du udvikle et filtypenavn.
 
-## <a name="to-create-a-workflow"></a>Sådan oprettes en arbejdsgang
+## Sådan oprettes en arbejdsgang
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Workflows**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. Siden **Workflow** åbnes.  
@@ -113,7 +113,7 @@ Indstillingerne er hændelser og svar er systemdefineret. Hvis du vil tilføje n
 > [!TIP]  
 > Hvis du vil udforske relationer mellem de tabeller, der bruges i arbejdsgange, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, og derefter angive **Workflow – tabelrelationer**.  
 
-## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Eksempel på oprettelse af en ny arbejdsproces vha. eksisterende hændelser
+## Eksempel på oprettelse af en ny arbejdsproces vha. eksisterende hændelser
 
 I følgende eksempel oprettes der en arbejdsgang for at godkende ændringer af navnet på en kreditor:
 
@@ -172,9 +172,9 @@ Følgende illustration giver en oversigt over resultatet af denne procedure.
 
 Derefter skal du afprøve arbejdsgangen ved at åbne en eksisterende kreditorkort og ændre navnet. Kontrollere, at der er sendt en godkendelsesanmodning om ændring af kreditorens navn.
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/create-workflows/)
+## Se relateret [Microsoft-træning](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md)  
 [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  

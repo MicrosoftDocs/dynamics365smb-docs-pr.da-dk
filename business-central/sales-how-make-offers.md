@@ -11,7 +11,7 @@ ms.search.form: '41, 9300'
 ms.date: 07/12/2021
 ms.author: edupont
 ---
-# <a name="make-sales-quotes"></a>Oprette salgstilbud
+# Oprette salgstilbud
 
 Du opretter et salgstilbud for at registrere dit tilbud til en debitor eller et emne om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser. Du kan sende salgstilbuddet til debitoren for at kommunikere tilbuddet. Du kan sende dokumentet i en mail som en vedhæftet PDF-fil. Du kan også få brødteksten i mailen udfyldt med en oversigt over tilbuddet. Du kan finde flere oplysninger i [Sende dokumenter via mail](ui-how-send-documents-email.md).
 
@@ -19,7 +19,7 @@ Mens du forhandler med debitoren eller om emnet, kan du ændre og gensende salgs
 
 I de fleste tilfælde sender du salgstilbud til potentielle kunder. Du har ofte en kontaktperson, som du kan forhandle med. Hvis de derefter accepterer tilbuddet, kan du konvertere salgstilbuddet til en ordre og registrere kundeemnet som kunde i [!INCLUDE [prod_short](includes/prod_short.md)]. I følgende procedure fokuseres der på kontakter, men du kan også sende tilbud til eksisterende kunder.  
 
-## <a name="to-create-a-sales-quote"></a>Sådan oprettes et salgstilbud
+## Sådan oprettes et salgstilbud
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgstilbud**, og vælg derefter det relaterede link.
 2. Angiv den kontakt eller debitor, som du vil sende salgstilbuddet til.
@@ -88,13 +88,13 @@ I de fleste tilfælde sender du salgstilbud til potentielle kunder. Du har ofte 
 
 Konverteringen fjerner salgstilbuddet fra databasen. En salgsfaktura eller salgsordre oprettes på grundlag af oplysningerne i salgstilbuddet, hvor du kan behandle salget. I feltet **Tilbudsnr.** på salgsfakturaen eller salgsordren kan du se nummeret på det salgstilbud, den blev oprettet ud fra. Du kan finde flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md) eller [Sælge produkter](sales-how-sell-products.md).  
 
-## <a name="external-document-number"></a>Eksterne bilagsnumre
+## Eksterne bilagsnumre
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Salg](sales-manage-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  

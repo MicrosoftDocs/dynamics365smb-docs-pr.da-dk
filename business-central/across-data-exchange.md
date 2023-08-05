@@ -1,22 +1,17 @@
 ---
 title: Elektroniske dokumenter i Business Central
-description: En oversigt over, hvordan du kan bruge dataudvekslingsstrukturen til at håndtere udveksling af forretningsdokumenter, bankfiler, valutakurser og andre datafiler med dine samarbejdspartnere.
+description: 'En oversigt over, hvordan du kan bruge dataudvekslingsstrukturen til at håndtere udveksling af forretningsdokumenter, bankfiler, valutakurser og andre datafiler med dine samarbejdspartnere.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
+ms.search.keywords: 'Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file'
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 83a210cc41c720a1a92aa907697626c0d3dd0cd8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141719"
 ---
-# <a name="exchanging-data-electronically"></a>Udveksle data elektronisk
+
+# Udveksle data elektronisk
 Du kan bruge dataudvekslingsstrukturen til at håndtere udveksling af forretningsdokumenter, bankfiler, valutakurser og andre datafiler med dine samarbejdspartnere.
 
 I standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] er dataudvekslingsstrukturen brugt i processer som f.eks. udveksling af elektroniske dokumenter, import/eksport af bankfiler og opdateringer af valutakurser. Du kan finde flere oplysninger i [Om dataudvekslingsstrukturen](across-about-the-data-exchange-framework.md).
@@ -31,7 +26,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Forberede at udveksle data i en fil ved at genbruge filens XML-skema. Konfigurere dataudvekslingsdefinitioner. Konfigurere stamdata for afsendelse af elektronisk dokumenter. Konfigurere forskellige felter til import/eksport for bank.|[Konfigurere dataudveksling](across-set-up-data-exchange.md)|  
 |Ud fra dataudvekslingsdefinitioner sende PEPPOL fakturaer, modtage PEPPOL-fakturaer, importere bankkontoudtog og eksportere bankbetalingsfiler.|[Udveksle data](across-exchange-data.md)|  
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Om Data Exchange Framework](across-about-the-data-exchange-framework.md)  
 [Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  

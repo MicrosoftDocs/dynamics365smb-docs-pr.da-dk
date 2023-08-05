@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="flush-components-according-to-operation-output"></a>Udtrække komponenter i henhold til operationsafgang
+# Udtrække komponenter i henhold til operationsafgang
 Du kan definere forskellige trækstrategier for at automatisere registrering af forbruget af komponenter. 
 
 Denne funktion er nyttig, af følgende årsager:  
@@ -29,14 +29,14 @@ Denne funktion er nyttig, af følgende årsager:
 
     Når det er muligt at trække en operation automatisk, kan hele processen til registrering af forbrug og afgang automatiseres. Ulempen ved at bruge automatisk træk er, at du muligvis ikke kan registrere spild, eller måske ikke engang er opmærksom på spild.
 
-## <a name="automatic-consumption-posting-flushing-methods"></a>Automatisk bogføring af forbrugsmetode (træk)
+## Automatisk bogføring af forbrugsmetode (træk)  
 
 - Forlæns træk af hele ordren  
 - Forlæns træk for én operation ad gangen  
 - Baglæns træk for én operation ad gangen  
 - Baglæns træk af hele ordren  
 
-### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Automatisk rapportering – forlæns træk af hele ordren
+### Automatisk rapportering – forlæns træk af hele ordren  
 Hvis du bruger forlæns træk til produktionsordren ved sagens start, opfører programmet sig stort set på samme måde som ved manuelt forbrug. Den væsentligste forskel er, at forbruget sker automatisk.  
 
 - Alt indhold på produktionsstyklisten forbruges og trækkes fra lagerbeholdningen på det tidspunkt, hvor den frigivne produktionsordre fornys.  
@@ -51,7 +51,7 @@ Forlæns træk af en hel ordre er velegnet i produktionsmiljøer med:
 -   Få operationer  
 -   Højt komponentforbrug i tidligere operationer  
 
-### <a name="automatic-reporting---forward-flushing-by-operation"></a>Automatisk rapportering – forlæns træk for én operation ad gangen
+### Automatisk rapportering – forlæns træk for én operation ad gangen  
 Hvis du vælger træk for én operation ad gangen, kan du fratrække lagervarer, mens en bestemt operation udføres på den samlede vares rute. Materialet er knyttet til ruten vha. rutebindingskoder, som svarer til de rutebindingskoder, der bruges til komponenter i produktionsstyklisten.  
 
 Trækket finder sted, når den operation, der har den samme rutebindingskode, starter. At den starter betyder, at der registreres en aktivitet i afgangskladden for den pågældende operation. Aktiviteten behøver ikke være andet end, at der angives en opstillingstid.  
@@ -62,7 +62,7 @@ Denne teknik egner sig bedst til forhold, hvor der er mange operationer, og hvor
 
 Materialet kan forbruges under operationerne vha. rutebindingskoder. Nogle komponenter skal måske først bruges på de sidste produktionsstadier og skal derfor ikke trækkes fra lageret før det tidspunkt, hvor de skal bruges i operationerne.  
 
-### <a name="automatic-reporting---back-flushing-by-operation"></a>Automatisk rapportering – baglæns træk for én operation ad gangen
+### Automatisk rapportering – baglæns træk for én operation ad gangen  
 Hvis du bruger baglæns træk for én operation ad gangen, registreres forbruget, efter at operationen er bogført i afgangskladden.  
 
 Fordelen ved denne metode er, at antallet af færdige samlede varer i denne operation er kendt.  
@@ -71,7 +71,7 @@ Materialet i produktionsstyklisten knyttes sammen med ruteposterne vha. rutebind
 
 Trækmængden er det antal pr. samling, der er angivet i produktionsstyklisten, ganget med det antal samlede varer, der er bogført som afgangsantal på den pågældende operation. Det kan være anderledes end det forventede antal.  
 
-### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Automatisk rapportering – baglæns træk af hele ordren
+### Automatisk rapportering – baglæns træk af hele ordren  
 I denne rapporteringsmetode tages der ikke højde for rutebindingskoder.  
 
 Der plukkes ingen komponenter, før den frigivne ordres status ændres til *Færdig*. Trækmængden er det antal pr. samling, der er angivet på produktionsstyklisten, ganget med det antal samlede varer, der er færdige og overført til lageret.  
@@ -82,7 +82,7 @@ Baglæns træk af hele produktionsordren forudsætter samme opsætning som til f
 
 Hvis f.eks. en produktionsordre om at fremstille 800 meter kræver 8 kg af en komponent, bogføres derefter, når du bogfører 200 meter som afgang, 2 kg automatisk som forbrug. Du kan opnå dette ved at kombinere baglæns trækmetode og rutebindingskoder, så den mængde, der udtrækkes for hver operation er proportional med den faktiske afgang af den afsluttede operation. For varer, der er konfigureret med baglæns trækmetode, er standardfunktionsmåden at beregne og bogføre komponentforbrug, når du ændrer status på en frigivet produktionsordre til **Afsluttet**. Hvis du også definerer rutebindingskoder, forekommer beregning og bogføring, når hver operation er afsluttet, og den mængde, der rent faktisk er forbrugt i handlingen, der er bogført. Du kan finde flere oplysninger i [Oprette ruter](production-how-to-create-routings.md).  
 
-## <a name="to-flush-components-according-to-operation-output"></a>Udtrække komponenter i henhold til operationsafgang
+## Udtrække komponenter i henhold til operationsafgang
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Rediger**.  
@@ -100,7 +100,7 @@ Hvis f.eks. en produktionsordre om at fremstille 800 meter kræver 8 kg af en ko
 
 Forbruget bogføres automatisk, når du registrerer afgang. Du kan finde flere oplysninger i [Massebogføre afgang og operationstider](production-how-to-post-output-quantity.md)
 
-## <a name="flushing-methods"></a>Trækmetoder
+## Trækmetoder
 
 I følgende tabel beskrives de tilgængelige indstillinger for trækmetode, som du kan angive på kort af typerne **Vare** og **Lagervare (pr. lok.)**.
 
@@ -112,7 +112,7 @@ I følgende tabel beskrives de tilgængelige indstillinger for trækmetode, som 
 |Pluk + Forlæns|Samme som for forlæns trækmetode, undtagen den kan kun bruges til lokationer, der bruger avanceret Lageropsætning eller grundlæggende Lageropsætning med obligatoriske placeringer.<br><br> Forbruget beregnes og bogføres fra den placering, der er defineret i feltet **Til-produktionsplaceringskode** på lokationen eller produktionsressourcen, når komponenten er blevet plukket fra lageret.<br><br> **Bemærk** <br>Hvis en komponent er indstillet til trækmetoden Pluk + Forlæns, kan den ikke have en rutebindingskode til en operation, der er konfigureret med trækmetoden Forlæns. Komponenten vil derefter automatisk blive udtrukket, når operationen starter, hvilket gør det umuligt at anmode om plukaktiviteten.|
 |Pluk + Baglæns|Samme som for baglæns trækmetode, undtagen den kan kun bruges til lokationer, der bruger avanceret Lageropsætning eller grundlæggende Lageropsætning med obligatoriske placeringer.<br><br> Forbruget beregnes og bogføres fra den placering, der er defineret i feltet **Til-produktionsplaceringskode** på lokationen eller produktionsressourcen, når komponenten er blevet plukket fra lageret.|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprette produktionsstyklister](production-how-to-create-production-boms.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  

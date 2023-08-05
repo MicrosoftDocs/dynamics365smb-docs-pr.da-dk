@@ -10,18 +10,18 @@ ms.custom: bap-template
 ms.service: dynamics365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# <a name="analyze-list-data-using-data-analysis-mode"></a>Analysere listedata ved hjælp af dataanalysetilstand
+# Analysere listedata ved hjælp af dataanalysetilstand
 
 I denne artikel kan du lære, hvordan du analyserer data fra listesider ved hjælp af *dataanalysetilstand*. Dataanalysetilstanden giver dig mulighed for at analysere data direkte fra siden uden at skulle køre en rapport eller skifte andet program, f.eks. Excel. Det er en interaktiv og alsidig måde at beregne, opsummere og gennemgå data på. I stedet for at køre rapporter med forskellige indstillinger og filtre kan du tilføje flere faner, der repræsenterer forskellige opgaver eller visninger på dataene. Eksempler kan være "mine kunder", "følge op på varer", "senest tilføjede leverandører", "Salgsstatistik" eller andre visninger, du kan forestille sig.
 
 > [!TIP]
 > Et godt indtryk af dataanalyse tilstanden er, at den ikke ændrer nogen af de underliggende data på listesiden eller sidens layout, når den ikke er i dataanalyse tilstand. Så den bedste måde at lære mere om, hvad du kan foretage dig i dataanalysetilstand, er at prøve noget.
 
-## <a name="prerequisite"></a>Forudsætninger
+## Forudsætninger 
 
 Dataanalysetilstanden er i øjeblikket i forhåndsversion, hvilket betyder, at en administrator skal tænde den, før du kan bruge den. Hvis du er administrator, og du vil aktivere dataanalysetilstanden, skal du gå til siden **funktionsadministration** og aktivere **funktionsopdatering: analysetilstand og hurtigt analysere data direkte i Business central**. Du kan finde flere oplysninger om slå funktionsstyring til eller fra i [Funktionsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-## <a name="get-started"></a>Kom i gang
+## Kom i gang
 
 1. Åbn listesiden.
 
@@ -43,14 +43,14 @@ Dataanalysetilstanden er i øjeblikket i forhåndsversion, hvilket betyder, at e
 > [!NOTE]
 > De data, der vises i analysetilstand, styres af de filtre eller visninger, der er angivet på listesiden. Dette giver dig mulighed for at oprette et foruddefineret data, før du skifter til analysetilstand.
 
-## <a name="work-with-data-analysis-mode"></a>Arbejde med dataanalysetilstand
+## Arbejde med dataanalysetilstand
 
 I dataanalysetilstand er siden opdelt i to områder:
 
 - Hovedområdet, der består af dataområdet (1), oversigtslinjen (2) og tabulatorlinjen (5)
 - Datamanipulationsområdet, der består af to ruder: kolonne (3) og analysefiltre (4).
 
-### <a name="data-area-1"></a>Dataområde (1)
+### Dataområde (1)
 
 Dataområdet er det sted, hvor rækkerne og kolonnerne på listesiden vises, og dataene opsummeres. Dataområdet er en fleksibel måde at styre layoutet af kolonner og en hurtig måde at få et overblik over dataene på. For kolonner, der indeholder numeriske værdier, vises summen af alle værdierne i kolonnen i den sidste række, medmindre du har angivet rækkegrupper. I dette tilfælde vises summerne som en subtotal for grupperne.  
 
@@ -64,7 +64,7 @@ Dataområdet er det sted, hvor rækkerne og kolonnerne på listesiden vises, og 
 - Brug dataområdet til at interagere med dataene. For kolonner, der indeholder numeriske værdier, kan du beregne en beskrivelse af felterne ved at markere dem. Statistikken vises på statuslinjen (2) langs nederst på siden.
 - Eksportér data i Excel- eller CSV-format. Du skal blot højreklikke på dataområdet eller med et udvalg af celler, der skal udlæses.
 
-### <a name="summary-bar-2"></a>Oversigtspanel (2)
+### Oversigtspanel (2)
 
 Oversigtspanelet er nederst på siden og viser statistik over dataene på listen. Når du interagerer med kolonner, hvis værdier kan sammentælles, f.eks. når du markerer flere rækker i en kolonne, der viser beløb, opdateres dataene.
 
@@ -83,7 +83,7 @@ I følgende tabel beskrives de forskellige numre, der vises i området totaler:
 |Maks.|Maksimumsværdien i alle de valgte felter, der kan summeres.|
 |Sum|Den samlede sum af alle værdierne i de valgte felter, der kan summeres.|
 
-### <a name="columns-3"></a>Kolonner (3)
+### Kolonner (3)
 
 **Kolonnerne** er en af to ruder, der kan bruges sammen for at definere analysen. Det andet område er ruden **Analysefiltre**. **Kolonnerne** bruges til at opsummere dataene. Brug ruden **Kolonner** til at angive, hvilke kolonner der skal medtages i analysen.
 
@@ -98,7 +98,7 @@ I følgende tabel beskrives de forskellige numre, der vises i området totaler:
 
 Hvis du vil flytte et felt fra et område til et andet, skal du vælge ikonet greb ![Viser en oversigt over en side i analysetilstand](media/column-grab-icon.png) ud for kolonnen på listen ovenfor, og træk den til destinationsområdet. Du kan ikke flytte et felt til et område, hvor det ikke er tilladt.
 
-### <a name="analysis-filters-4"></a>Analysefiltre (4)
+### Analysefiltre (4)
 
 I ruden **analysefiltre** kan du angive yderligere datafiltre på kolonner for at begrænse posterne på listen. Indstil filtre på kolonner for at begrænse posterne på listen og efterfølgende summer til de poster, du er interesseret i, baseret på kriterier, som du angiver. Antag f.eks., at du kun er interesseret i data for en bestemt kunde eller salgsordre, der overstiger et bestemt beløb. Hvis du vil angive et filter, skal du markere kolonnen, vælge sammenlignings handlingen på listen (f.eks. **Lig med** eller **Starter med**) og derefter angive værdien.
 
@@ -107,7 +107,7 @@ I ruden **analysefiltre** kan du angive yderligere datafiltre på kolonner for a
 > [!NOTE]
 > De ekstra filtre anvendes kun til fanen aktuel analyse. På den måde kan du definere nøjagtigt de ekstra datafiltre, der skal bruges til en bestemt analyse.
 
-### <a name="tabs-5"></a>Faner (5)
+### Faner (5)
 
 Området med fanerne øverst giver dig mulighed for at oprette forskellige konfigurationer (kolonner og og analysefiltre) på separate faner, hvor du kan arbejde på fanerne uafhængigt af hinanden. Der er altid mindst én fane, der kaldes **Analyse 1**, som standard. Det er nyttigt at tilføje flere faner, når du vil gemme ofte anvendte analyse konfigurationer på et datasæt. Du kan f.eks. have faner til at analysere data i Pivot-tilstand og andre faner, der filtrerer til en delmængde af rækker. Nogle faner kan vise en detaljeret visning med mange kolonner, og andre får kun vist nogle få nøglekolonner.
 
@@ -125,7 +125,7 @@ Her er nogle punkter til arbejdet med flere analysefaner:
    > De faner, du opretter, er kun synlige for dig. Andre brugere kan kun se faner, som de har oprettet.
 - Du kan kopiere analysefaner. Kopieringen kan være nyttig, hvis du vil eksperimentere med at ændre en tabulator uden at ændre originalen, eller hvis du vil oprette forskellige variationer af samme analyse.
 
-## <a name="pivot-mode"></a>Pivot-tilstand
+## Pivot-tilstand
 
 Du kan bruge Pivot-tilstanden til at analysere en stor mængde numeriske data, subtotalere data efter kategorier og underkategorier. Pivot-tilstanden er ligesom [pivot-tabeller i Microsoft Excel](https://support.microsoft.com/office/create-a-pivottable-to-analyze-worksheet-data-a9a84538-bfe9-40a9-a8e9-f99134456576).
 
@@ -145,11 +145,11 @@ Opbygning af dataanalyse i pivot-tilstand involverer flytning af felter til de t
 > [!TIP]
 > Kolonner, der kun har få få værdier, er de bedste kandidater til at bruge i kolonnen **Værdier**.
 
-## <a name="limitations"></a>Begrænsninger
+## Begrænsninger
 
 Analysen har i øjeblikket en begrænsning på 100.000 rækker. Hvis du overskrider denne grænse, får du vist en meddelelse om dette. Hvis du vil omgå denne begrænsning, skal du angive filtre på siden, før du skifter til dataanalysetilstand.  Du vil måske gerne analysere en bestemt gruppe af kunder eller måske kun vil have data fra indeværende år. Du kan også vælge en foruddefineret visning, hvis den kunne bruges til analysen.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Ad hoc-dataanalyse](reports-adhoc-analysis.md)  
 [Vise og redigere i Excel](across-work-with-excel.md)  

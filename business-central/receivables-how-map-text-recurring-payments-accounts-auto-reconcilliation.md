@@ -1,23 +1,17 @@
 ---
 title: Oprette Tilknytning af tekst til konto for tilbagevendende betalinger
-description: Du kan sammenkæde tekst på betalinger med bestemte konti, så betalinger bogføres på kontiene, når du bogfører betalingsudligningskladden.
+description: 'Du kan sammenkæde tekst på betalinger med bestemte konti, så betalinger bogføres på kontiene, når du bogfører betalingsudligningskladden.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt
-ms.search.form: 1290, 1294, 1287
+ms.search.keywords: 'account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt'
+ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4acc962c596bf2ba8eb857d488eb4fc0045f79cc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529186"
 ---
-# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti
+# Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti
 
 På siden **Tekst til kontotilknytning**, som du kan åbne fra siden **Betalingsudligningskladde**, kan du oprette tilknytninger mellem tekst på betalinger og specifikke debet-, kredit- og modkonti, så disse betalinger bliver bogført på de angivne konti, når du bogfører kladden til betalingsafstemning.
 
@@ -30,7 +24,7 @@ Betalinger, der er bogført baseret på tekst-til-kontotilknytning, udlignes ikk
 
 På en betalingsudligningskladdelinje, hvor betalingen er angivet til bogføring i overensstemmelse med tekst-til-kontotilknytning, indeholder feltet **Matchtillid** **Høj – Tekst-til-kontotilknytning**, og felterne **Kontotype** og **Kontonr.** indeholder de tilknyttede konti.
 
-## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Sådan knytter du tekst på tilbagevendende betalinger til automatisk afstemning af konti
+## Sådan knytter du tekst på tilbagevendende betalinger til automatisk afstemning af konti
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsudligningskladder**, og vælg derefter det relaterede link.
 2. Åbne en kladde til betalingsafstemning. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
@@ -50,7 +44,7 @@ På en betalingsudligningskladdelinje, hvor betalingen er angivet til bogføring
 
 Næste gang du importerer en bankkontofil eller vælge handlingen **Udlign automatisk** på siden **Betalingsudligningskladde**, vil kladdelinjerne til betalinger, der indeholder den angivne tilknytningstekst, indeholde tilknyttede konti i felterne **Kontotype** og **Kontonr.**. Feltet **Matchtillid** indeholder **Høj - Tilknytning af tekst til konto**. Det er på betingelse af, at den automatiske udligningsfunktion kun kan give en udligningstillid af **Lav** eller **Mellem**.
 
-## <a name="example-text-to-account-mapping-for-bank-fees"></a>Eksempel: Tekst-til kontotilknytning for udgift til benzin
+## Eksempel: Tekst-til kontotilknytning for udgift til benzin
 
 Hvis du altid vil bogføre udgifter, der er knyttet til gebyrer fra en bestemt bank, MyBank til finanskontoen for bankens gebyrer og gebyrer (konto 60400), skal du udfylde en linje på **siden til tilknytning af tekst til konto på** følgende måde.
 
@@ -58,9 +52,9 @@ Hvis du altid vil bogføre udgifter, der er knyttet til gebyrer fra en bestemt b
 | --- | --- | --- | --- | --- |
 | MyBank |TOM |60400|Finanskonto |TOM |
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/use-journals-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/modules/use-journals-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  

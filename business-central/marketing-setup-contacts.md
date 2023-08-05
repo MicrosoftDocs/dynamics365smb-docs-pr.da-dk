@@ -10,14 +10,14 @@ ms.search.keywords: 'relationship, prospect'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-contacts"></a>Opsætning af kontakter
+# Opsætning af kontakter
 Når du opretter kontakter, kan du angive specifikke oplysninger, f.eks. den branche som kontakten tilhører og dine forretningsmæssige forhold til kontakterne.
 
 Før du opretter kontakter og registrerer oplysninger om forretningsforhold, skal du definere forskellige koder, som skal bruges til at tildele oplysningerne til virksomheder og personer. Der kan defineres koder til mailgrupper, brancher, forretningsforhold, webkilder, kompetenceniveau og ansvarsområder. Du kan oprette dem ved at vælge handlingen **Ny**, som du kan få vist på listerne fra kontaktkortet.  
 
 Når disse oplysninger er defineret, er det væsentligt mere organiseret at oprette kontakter, og det er langt mere effektivt, når du kan finde alle kontakter baseret på en bestemt gruppe. Hver gruppe i firmaet kan finde disse oplysninger, hvilket giver en meget bedre kommunikationen med disse kontakter.
 
-## <a name="to-assign-industry-groups-to-a-contact"></a>Sådan tildeles brancher til en kontakt
+## Sådan tildeles brancher til en kontakt
 Du bruger brancher til at angive, hvilken branchetype dine kontakter tilhører, f.eks. detailbranchen eller automobilbranchen.
 
 > [!NOTE]
@@ -35,7 +35,7 @@ Det antal brancher, du har tildelt til kontakten, vises i feltet **Antal branche
 
 Når du har tildelt brancher til kontakter, kan du bruge oplysningerne til at udvælge kontakter til målgrupper. Du kan finde flere oplysninger i [Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
 
-## <a name="to-assign-mailing-groups-to-a-contact"></a>Sådan tildeles mailgrupper til en kontakt
+## Sådan tildeles mailgrupper til en kontakt
 Du kan bruge mailgrupper til at angive grupper af kontakter, som skal modtage de samme oplysninger. F.eks. kan du oprette en mailgruppe til de kontakter, du vil sende en meddelelse til om at skifte kontor, og en anden gruppe om at sende gaver til andre kontakter.
 
 Feltet Mailgruppekode definerer type eller kategori af gruppen, f.eks SKIFT i forbindelse med skift af kontor eller GAVE i forbindelse med barsel. Du kan have flere branchekoder. Du definerer brancherne på siden **Mailgrupper**.
@@ -50,7 +50,7 @@ Det antal mailgrupper, du har tildelt kontakten, vises i feltet **Antal mailgrup
 
 Når du har tildelt mailgrupper til kontakter, kan du bruge oplysningerne til at udvælge kontakter til målgrupper. Du kan finde flere oplysninger i [Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
 
-## <a name="to-define-a-contacts-alternate-address"></a>Sådan defineres en kontakts alternative adresse
+## Sådan defineres en kontakts alternative adresse
 Du kan tildele en alternativ adresse, hvis din kontakt i perioder ønsker at modtage post i f.eks. et sommerhus. Du kan også tildele en eller flere datointervaller til hver af kontaktpersonens alternative adresser og på den måde angive, hvornår en bestemt adresse er gyldig.
 
 1. Åbn det relevante kontaktkort.
@@ -61,7 +61,7 @@ Du kan tildele en alternativ adresse, hvis din kontakt i perioder ønsker at mod
 
 Gentag disse trin for hver alternativ adresse, du vil tildele. Du kan angive flere datointervaller til hver alternativ adresser.
 
-## <a name="to-assign-job-responsibilities-to-a-contact"></a>Sådan tildeles ansvarsområder til en kontaktperson
+## Sådan tildeles ansvarsområder til en kontaktperson
 Du kan tilføje oplysninger om ansvarsområder for kontaktpersoner for at angive, hvad kontaktpersonen er ansvarlig for i virksomheden, f.eks. IT, administration eller produktion. Du kan bruge disse oplysninger, når du angiver oplysninger om dine kontakter.
 
 > [!NOTE]
@@ -79,7 +79,7 @@ Det antal ansvarsområder, du har tildelt til kontakten, vises i feltet **Antal 
 
 Når du har tildelt ansvarsområder til kontaktpersoner, kan du bruge oplysningerne til at udvælge kontakter til målgrupper. Du kan finde flere oplysninger i [Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
 
-## <a name="to-assign-organizational-levels-to-a-contact"></a>Sådan tildeles kompetenceniveauer til en person
+## Sådan tildeles kompetenceniveauer til en person
 Du kan bruge kompetenceniveauer til kontakter, så de selv kan angive den stilling, som de har i virksomheden, f.eks. ledelse. Du kan bruge disse oplysninger, når du angiver oplysninger om dine kontakter.
 
 > [!NOTE]
@@ -94,7 +94,7 @@ Når du har tildelt kompetenceniveauer til dine kontakter, kan du bruge oplysnin
 
 Når du har tildelt ansvarsområder til kontaktpersoner, kan du bruge oplysningerne til at udvælge kontakter til målgrupper. Du kan finde flere oplysninger i [Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
 
-## <a name="to-assign-web-sources-to-a-contact"></a>Sådan tildeles webkilder til en kontakt
+## Sådan tildeles webkilder til en kontakt
 Du kan bruge webkilder til dine kontaktvirksomheder for at identificere f.eks. søgemaskiner og websteder på internettet, som du vil bruge til at søge efter oplysninger om kontakterne. Når du tildeler websteder skal du angive den søgemaskine og det søgeord, som skal bruges til at finde de ønskede oplysninger.
 
 > [!NOTE]
@@ -109,7 +109,7 @@ Når du tildeler websteder skal du angive den søgemaskine og det søgeord, som 
 
 Gentag disse trin for hver webkilde, du vil tildele.
 
-## <a name="to-assign-business-relations-to-a-contact"></a>Sådan tildeles forretningsrelationer til en kontakt
+## Sådan tildeles forretningsrelationer til en kontakt
 Du kan bruge forretningsrelationer til at angive det forretningsforhold, som findes mellem din virksomhed og dine kontakter, f.eks. et kundeemne, bank, konsulent, serviceleverandør osv.
 
 > [!NOTE]
@@ -125,29 +125,29 @@ Det antal relationer, du har tildelt kontakten, vises i feltet **Antal forretnin
 
 Når du har tildelt forretningsrelationer til kontakter, kan du bruge oplysningerne til at udvælge kontakter til dine målgrupper. Du kan finde flere oplysninger i [Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
 
-## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Kopiere bestemte oplysninger automatisk fra kontaktvirksomheder til kontaktpersoner
+## Kopiere bestemte oplysninger automatisk fra kontaktvirksomheder til kontaktpersoner
 En del af virksomhedsoplysningerne er identiske med oplysningerne om de kontaktpersoner, som arbejder i virksomhederne, f.eks. adresseoplysningerne. I oversigtspanelet **Overførte oplysninger** på siden **Marketingopsætning** kan du angive, hvilket felter på kontaktkortet for en virksomhed der skal kopieres til kontaktkortet for en person, hver gang du opretter en kontakt for virksomheden.
 
 Hvis du ændrer et af disse felter på virksomhedens kontaktkort, opdateres de samme felter på kontaktpersonkortet, medmindre du har ændret feltet på kontaktpersonkortet manuelt.
 
 Du kan finde flere oplysninger i [Oprette kontakter](marketing-create-contact-companies.md).
 
-## <a name="use-predefined-defaults-on-new-contacts"></a>Bruge foruddefinerede standarder på de nye kontakter
+## Bruge foruddefinerede standarder på de nye kontakter
 Du kan vælge, at der automatisk skal tildeles bestemte standardværdier for sprogkode, distriktskode, sælgerkode og lande-/områdekode til hver ny kontakt, du opretter. Du kan også angive en standardværdi for salgsproceskode, som automatisk tildeles hvert nyt lead. Du opretter dette i oversigtspanelet **Standarder** på siden **Marketingopsætning**
 
 Ved kopieringen af felter overskrives de standardværdier, du har defineret. Hvis du f.eks. har angivet dansk som standardsprog, men kontaktvirksomhedens sprog er tysk, bliver sprogkoden for de kontaktpersoner, som er registreret for virksomheden, også tysk.
 
-## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synkronisering af kontakter med debitorer, kreditorer og bankkonti
+## Synkronisering af kontakter med debitorer, kreditorer og bankkonti
 Hvis du vil synkronisere kontaktkortet med et tilknyttet debitor-, kreditor- eller bankkontokort, skal du udfylde det relevante felt i sektionen **Forretningsrelationskode for** i oversigtspanelet **Interaktioner** på siden **Marketingopsætning**.  
 
 Du kan finde flere oplysninger i [Synkronisering af kontakter med debitorer, kreditorer og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
-## <a name="searching-for-duplicate-contacts"></a>Søgning efter dublerede kontakter
+## Søgning efter dublerede kontakter
 Du kan vælge at lade programmet søge automatisk efter dubletter, hver gang du opretter en kontakt, eller du kan vælge at søge manuelt, når du har oprettet kontakten. Du kan også vælge at lade programmet opdatere søgestrenge automatisk, hver gang du har ændret kontaktoplysninger eller oprettet en kontakt. Du kan angive hitprocenten til søgning, dvs. den procentdel identiske strenge som to kontakter skal have, før de betragtes som dubletter. Du opretter dette i oversigtspanelet **Dubletter** på siden **Marketingopsætning**.
 
 Når du har fundet en dubleret kontakt, kan du bruge siden **Flet dublet** til at flette den med en eksisterende kontaktpost, du vil beholde. Du kan finde flere oplysninger i [Flette dublerede poster](sales-how-merge-duplicate-records.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 [Administrere kontakter](marketing-contacts.md)  
 [Oprette kontakter](marketing-create-contact-companies.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  

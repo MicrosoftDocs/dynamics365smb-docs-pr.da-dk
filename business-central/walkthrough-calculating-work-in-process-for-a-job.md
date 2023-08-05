@@ -10,13 +10,13 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Gennemgang: Beregning af igangværende arbejder for en sag
+# Gennemgang: Beregning af igangværende arbejder for en sag
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer og holde styr på de forskellige omkostninger, der er forbundet med brugen af ressourcerne på et bestemt projekt. Sager inkluderer forbruget af medarbejdertimer, maskintimer, lagervarer og andre brugstyper, der skal registreres, efterhånden som en sag skrider frem. Hvis en sag kører over en længere periode, kan du have brug for at overføre disse omkostninger til en konto for igangværende arbejde (VIA) på balancen, mens sagen færdiggøres. Du kan derefter godkende omkostningerne og salget på resultatopgørelseskontiene, når det er relevant.  
 
-## <a name="about-this-walkthrough"></a>Om denne gennemgang
+## Om denne gennemgang
 
  Denne gennemgang illustrerer følgende opgaver:  
 
@@ -28,19 +28,19 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
  Hvert trin i processen beregner værdien og flytter sagstransaktionerne til regnskabet. Beregnings- og bogføringstrinnene er adskilte, så du bedre kan gennemse dataene og foretage ændringer før bogføringen i regnskabet. Du skal derfor kontrollere, at alle oplysninger er korrekte, når du har udført beregningen, og før du udfører kørslerne med bogføringen.  
 
-## <a name="roles"></a>Roller
+## Roller
 
  I denne gennemgang bruges projektteammedlemmet (Tina) som person.  
 
-## <a name="prerequisites"></a>Forudsætninger
+## Forudsætninger
 
  Før du kan udføre opgaverne i denne gennemgang, skal du installere [!INCLUDE[prod_short](includes/prod_short.md)] på din computer.  
 
-## <a name="story"></a>Historie
+## Historie
 
  I denne gennemgang fokuseres der på CRONUS Danmark A/S, en design- og konsulentvirksomhed, der designer og tilpasser nye infrastrukturer, f.eks. konferencerum og kontorer, med møbler, tilbehør og lagerenheder. Det meste af arbejdet hos CRONUS er projektorienteret, og Tina, som er med i projektteamet, bruger sager til at få en oversigt over hver igangværende sag, som CRONUS har startet samt de sager, der er afsluttet. Nogle af sagerne kan være meget langvarige og løbe over flere måneder. Tina kan bruge en VIA-konto til at registrere igangværende arbejde og spore omkostningerne hele vejen gennem sagen.  
 
-## <a name="calculating-wip"></a>Beregne VIA
+## Beregne VIA
 
  CRONUS har påtaget sig et længerevarende projekt, der nu har løbet over flere rapporteringsperioder. Tina, der er projektgruppemedlem, beregner Igangværende arbejde (VIA) for at sikre, at virksomhedens regnskabsopgørelse er nøjagtig.  
 
@@ -56,7 +56,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
  I følgende gennemgang anvender Tricia kostværdimetoden, der er standard i virksomheden, til at beregne igangværende arbejde. Tricia angiver, hvilken del af sagen, der skal medtages i beregningen af igangværende arbejde ved at tildele forskellige VIA i alt-værdier til forskellige sagslinjer.  
 
-### <a name="to-calculate-wip"></a>Sådan beregnes VIA
+### Sådan beregnes VIA  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
 2.  På listen **Sager** skal du vælge sagen **Kvalitetsmøbler** og derefter vælge handlingen **Rediger**. Dermed åbnes sagskortet i redigeringstilstand.  
@@ -88,7 +88,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
  Bemærk, at værdien for **Realiseret kostbeløb** er 215,60 i kolonnen **Til bogføring**. Dette afspejler den samlede kostpris for to af varerne i gruppen af sagsopgaver 1110 – 1130. Den tredje vare var angivet til **udelukket**, og medtages derfor ikke i VIA-beregningen.  
 
-### <a name="to-review-wip-warnings"></a>Gennemgå VIA -advarsler
+### Gennemgå VIA -advarsler  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **IGVA-cockpit for job**, og vælg derefter det relaterede link.  
 2.  Markér sagen **Kvalitetsmøbler**, og vælg derefter handlingen **Vis advarsler**.  
@@ -96,7 +96,7 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 
  Når denne regnskabsperiode slutter, skal Tina genberegne VIA for at inkludere det færdige arbejde op til det pågældende tidspunkt.  
 
-### <a name="to-recalculate-wip"></a>Sådan genberegnes VIA
+### Sådan genberegnes VIA  
 
 1.  På kortet **Sag** skal du vælge handlingen **VIA-poster** for at få vist VIA-beregningen.  
 
@@ -108,11 +108,11 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 > [!NOTE]  
 >  Det er kun igangværende arbejde og registrering, der bregnes Det bogføres ikke i finansmodulet. For at gøre dette skal du udføre kørslen **Bogfør VIA**, når du har beregnet VIA og registrering.
 
-## <a name="posting-wip-to-general-ledger"></a>Bogføre VIA i regnskab
+## Bogføre VIA i regnskab
 
  Nu, hvor Tricia har beregnet VIA for denne sag, kan hun bogføre det i regnskabet.  
 
-### <a name="to-post-wip-to-general-ledger"></a>Sådan bogføres VIA til finanspost
+### Sådan bogføres VIA til finanspost  
 
 1.  På listen **Sager**, vælges sagen **Kvalitetsmøbler**.  
 2.  Vælg handlingen **VIA**, og vælg derefter handlingen **Bogfør VIA**.  
@@ -132,11 +132,11 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
 10. Bemærk, at feltet **Realiseret bogført kostbeløb** i kolonnen **Bogført** i oversigtspanelet **VIA og registrering** nu er udfyldt, hvilket angiver, at igangværende arbejde blev korrekt bogført i regnskab.  
 11. Vælg knappen **OK** for at lukke kortet.  
 
-## <a name="reversing-a-wip-posting"></a>Tilbageføre en VIA-bogføring
+## Tilbageføre en VIA-bogføring
 
  Tina bestemmer, at de arbejdsopgaver, der blev udeladt fra beregningen af igangværende arbejde, skulle have været beregnet i igangværende arbejde. Tricia kan tilbageføre forkerte bogføringer uden at skulle bogføre nye VIA-bogføringer.  
 
-### <a name="to-reverse-a-wip-posting"></a>Sådan tilbageføres en VIA-bogføring.
+### Sådan tilbageføres en VIA-bogføring.  
 
 1.  På listen **Sager**, vælges sagen **Kvalitetsmøbler**.  
 2.  Vælg handlingen **VIA**, og vælg derefter handlingen **Bogfør VIA**.  
@@ -155,13 +155,13 @@ Du kan bruge modulet Sager til at planlægge brugen af virksomhedens ressourcer 
     > [!NOTE]  
     >  Antag, at Tina beregnede og bogførte igangværende arbejde for en sag med forkerte datoer. Ved at følge de tidligere beskrevne metode kan Tricia tilbageføre de forkerte bogføringer, rette datoerne og genposterer i regnskabet.  
 
-## <a name="next-steps"></a>Efterfølgende trin
+## Efterfølgende trin
 
  Denne gennemgang har taget dig gennem trinnene til beregning af igangværende arbejde i [!INCLUDE[prod_short](includes/prod_short.md)]. I større sager kan det være nyttigt regelmæssigt at overføre omkostningerne til en konto for igangværende arbejde, mens sagen fuldføres. Denne gennemgang har vist dig, hvordan du kan udelade opgavelinjerne i en beregning. Den viser også, hvornår du skal genberegne. Endelig viser denne gennemgang, hvordan du bogfører igangværende arbejde i regnskab. Der er også et eksempel på, hvordan du tilbagefører en bogføring for igangværende arbejde i regnskab .  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/calculate-post-job-wip/)
+## Se relateret [Microsoft-træning](/training/paths/calculate-post-job-wip/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Gennemgang: Administration af projekter med sager](walkthrough-managing-projects-with-jobs.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 11/26/2021
 ms.author: edupont
 ---
-# <a name="application-design-details"></a>Oplysninger om programdesign
+# Oplysninger om programdesign
 
 Artiklen i dette afsnit indeholder detaljerede tekniske oplysninger om komplekse programfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -26,7 +26,7 @@ Indholdet af designoplysningerne er rettet mod iværksættere, udviklere og supe
 |Få mere at vide om historisk og aktuelt design af varesporingsfunktionalitet, og hvordan den integreres med reservationssystemet for at medtage serienumre/lotnumre i disponeringsberegninger.|[Designoplysninger: Varesporing](design-details-item-tracking.md)|  
 |Få mere at vide om funktionen bogføringslinje for finanskladder.|[Designoplysninger: Bogføringslinje i finanskladde](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Skabelon](production-planning.md)  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
@@ -34,4 +34,4 @@ Indholdet af designoplysningerne er rettet mod iværksættere, udviklere og supe
 [Opret komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

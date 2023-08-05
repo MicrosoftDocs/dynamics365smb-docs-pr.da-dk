@@ -11,7 +11,7 @@ ms.search.form: '5709, 5800, 5805, 5814'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Bruge varegebyrer til at angive ekstra handelsomkostninger
+# Bruge varegebyrer til at angive ekstra handelsomkostninger
 
 For at sikre korrekt værdiansættelse, skal dine lagervarer pålægges evt. ekstra omkostninger, f.eks. fragt, fysisk håndtering, forsikring og transport, som du har ved køb eller salg af varer. Ved køb består hjemtagelsesprisen for en indkøbt vare af købsprisen til leverandøren og alle andre direkte varegebyrer, som det er muligt at tildele til individuelle leverancer eller returvareleverancer. Ved salg kan det være lige så vigtigt at kende omkostningerne ved forsendelse af solgte varer som at kende omkostningen ved levering af købte varer.
 
@@ -31,13 +31,13 @@ For både købs- og salgsdokumenter, kan du tildele et varegebyr på to måder:
 > [!NOTE]  
 > Du kan tildele varegebyrer til ordrer, fakturaer og kreditnotaer for både køb og salg. I følgende procedurer beskrives, hvordan du arbejder med varegebyrer for en købsfaktura. Trinene er de samme for alle andre købs- og salgsdokumenter.
 
-## <a name="example"></a>Eksempel
+## Eksempel
 
 I denne video kan du se, hvordan du håndterer yderligere forsendelsesomkostning som en del af lagerkostprisberegning.
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
-## <a name="to-set-up-item-charge-numbers"></a>Sådan oprettes varegebyrnumre
+## Sådan oprettes varegebyrnumre
 
 Varegebyrnumre bruges til at skelne mellem de forskellige typer varegebyrer.
 
@@ -45,7 +45,7 @@ Varegebyrnumre bruges til at skelne mellem de forskellige typer varegebyrer.
 2. På siden **Varegebyrer** skal du vælge handlingen **Ny** for at oprette en ny linje.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Sådan tildeles et varegebyr direkte til købsfakturaen for varen
+## Sådan tildeles et varegebyr direkte til købsfakturaen for varen
 
 Hvis du kender varegebyret, hvor du bogfører en købsfaktura for varen, skal du følge nedenstående procedure.
 
@@ -69,7 +69,7 @@ Hvis varegebyret er fuldt tildelt, er værdien i feltet **Antal, der skal tildel
 
 Varegebyret tildeles nu købsfakturaen. Når du bogfører modtagelsen af købsfakturaen, opdateres varens lagerværdier med omkostningen ved varegebyret.  
 
-## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Sådan tildeles et varegebyr fra en separat faktura til købsfakturaen for varen
+## Sådan tildeles et varegebyr fra en separat faktura til købsfakturaen for varen
 
 Hvis du har modtaget en faktura for varegebyret, når du har bogført den originale købsleverance, skal du benytte denne fremgangsmåde.
 
@@ -80,7 +80,7 @@ Hvis du har modtaget en faktura for varegebyret, når du har bogført den origin
 
 Omkostningen ved varegebyret på den separate købsfaktura er nu tildelt til varen på den bogførte købsleverance, og dermed opdateres varens lagerværdi med omkostningen ved varegebyret.
 
-## <a name="handle-item-charges-for-partial-receipts"></a>Håndtere varegebyrer for delleverancer
+## Håndtere varegebyrer for delleverancer
 
 Her kan du se et eksempel på, hvordan varegebyrer håndteres for en delleverance.
 
@@ -95,9 +95,9 @@ Hvis du vil håndtere vareomkostningerne for den delvise modtagelse på siden **
 
 Når du er klar til at håndtere den vare, der manglede, skal du opdatere feltet **Antal til ekspedition** og bogføre ordren.
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Registrere køb](purchasing-how-record-purchases.md)  

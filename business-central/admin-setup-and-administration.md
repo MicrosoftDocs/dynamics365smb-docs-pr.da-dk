@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 01/11/2023
 ms.custom: bap-template
 ---
-# <a name="administration-tasks"></a>Administrationsopgaver
+# Administrationsopgaver
 
 Centrale administrationsopgaver udføres som regel af én rolle i firmaet. Omfanget af disse opgaver kan afhænge af firmaets størrelse og administratorens jobansvar. Disse opgaver kan omfatte styring af databasesynkronisering af job og e-mail-køer, oprettelse af brugere og tilpasning af brugergrænsefladen.  
 
@@ -43,7 +43,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 |Opret forbindelse fra Dynamics 365 Sales til [!INCLUDE[prod_short](includes/prod_short.md)] for at opnå problemfri integration mellem debitorrelationer og ordrebehandling i lead-til-kontant-processen.|[Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Ændre, hvilke felter og handlinger der vises i brugergrænsefladen, så det passer til virksomhedens forretningsprocesser, og så løsningen kan udvides med apps.|[Tilpas [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
 
-## <a name="administration-in-the-admin-center"></a>Administration i administrationscenteret
+## Administration i administrationscenteret
 
 Interne og uddelegerede administratorer har adgang til [!INCLUDE [prod_short](includes/prod_short.md)] Administration, hvor de kan konfigurere, overvåge og foretage fejlfinding i [!INCLUDE [prod_short](includes/prod_short.md)]-miljøer. Den følgende tabel indeholder nogle af de vigtige opgaver med links til artikler med beskrivelser af dem.  
 
@@ -54,16 +54,16 @@ Interne og uddelegerede administratorer har adgang til [!INCLUDE [prod_short](in
 |Administrere brugersessioner, herunder annullering af en session, hvis brugeren er spærret.|[Administrere sessioner](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Konfigurere lejeren til at sende telemetridata til Azure Application Insights for at opnå bedre analyse og fejlfinding.|[Aktivere afsendelse af telemetri til Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/deploy-configure-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/paths/deploy-configure-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Forretningsfunktioner](across-business-functionality.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Blive køreklar](ui-get-ready-business.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

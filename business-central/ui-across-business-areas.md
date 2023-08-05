@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 12/01/2022
 ms.custom: bap-template
 ---
-# <a name="general-business-functionality"></a>Generelle forretningsfunktioner
+# Generelle forretningsfunktioner
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder dedikerede funktioner til almindelige virksomhedsområder som f.eks. finans og salg. Du kan finde flere oplysninger i [Forretningsfunktioner](across-business-functionality.md).
 
@@ -45,11 +45,11 @@ I følgende tabel vises disse generelle forretningsområder med links til artikl
 | Konfigurer dataudvekslingsdefinitioner, så du kan sende og modtage elektroniske dokumenter. |[Udveksle data elektronisk](across-data-exchange.md) |
 | Brug onlinekort til at finde steder og instruktioner til kunder, leverandører og adresser generelt. | [Bruge online kort til at finde steder og vejledninger](across-online-maps.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Opsætning](admin-setup-and-administration.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -11,7 +11,7 @@ ms.search.form: '5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 563
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="managing-fixed-assets"></a>Administrere anlægsaktiver
+# Administrere anlægsaktiver
 
 I Anlæg i [!INCLUDE[prod_short](includes/prod_short.md)] får du et overblik over anlægsaktiverne, og her sikres korrekt periodisk afskrivning. Funktionen hjælper dig ligeledes med at holde styr på reparationsomkostningerne, administrere forsikringspolicer, bogføre anlægstransaktioner og generere forskellige rapporter og statistikker.
 
@@ -41,15 +41,15 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Bogføre salgstransaktioner, have vist salgsposter og bogføre delvist salg. |[Afhænde eller lade anlægsaktiver udgå](fa-how-dispose-retire.md) |
 | Administrere anlægsbudgetter, budgettere anskaffelsesomkostninger, salg af anlægsaktiver og afskrivning. |[Administrere budgetter for anlægsaktiver](fa-how-manage-budgets.md) |
 
-## <a name="video-overview"></a>Videooversigt
+## Videooversigt
 
 Følgende video giver en grundlæggende beskrivelse af anlægsaktiver.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/manage-fixed-assets-transactions/)
+## Se relateret [Microsoft-træning](/training/paths/manage-fixed-assets-transactions/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opsætning af Anlægsaktiver](fa-setup.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
@@ -57,7 +57,7 @@ Følgende video giver en grundlæggende beskrivelse af anlægsaktiver.
 [Blive køreklar](ui-get-ready-business.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
 
 

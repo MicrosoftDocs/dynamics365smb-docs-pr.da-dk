@@ -11,7 +11,7 @@ ms.search.form: '6774, 6775, 6776'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="set-up-basic-warehouses-with-operations-areas"></a>Oprette grundlæggende lagersteder med handlingsområder
+# Oprette grundlæggende lagersteder med handlingsområder
 
 Hvis der findes interne operationsområder, såsom produktion eller montage i grundlæggende lageropsætninger, hvor lokationer bruger opsætningsfeltet **Tvungen placering** og muligvis opsætningsfelterne **Kræv pluk** og **Kræv læg-på-lager**, kan du derefter bruge følgende grundlæggende lagerdokumenter til at registrere dine lageraktiviteter for interne operationsområder:  
 
@@ -35,14 +35,14 @@ Følgende procedurer er baseret på oprettelse af grundlæggende lageraktivitete
 > [!NOTE]  
 >  I følgende procedure er feltet **Tvungen placering** på lokationskort markeret som en forudsætning, fordi dette betragtes som grundlaget for ethvert logistikniveau.  
 
-## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Aktivere lagerdokumenter til interne operationsaktiviteter
+## Aktivere lagerdokumenter til interne operationsaktiviteter
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.
 2. Åbn det lokationskort, du vil konfigurere.  
 3.  Markér afkrydsningsfeltet **Kræv læg-på-lager** i oversigtspanelet **Lagersted** for at angive, at når der frigives et indgående eller internt kildedokument med en placeringskode, så kan der oprettes et læg-på-lager-dokument eller et flytning (lager)-dokument.  
 4.  Markér afkrydsningsfeltet **Kræv pluk** for at angive, at når der oprettes et udgående eller internt kildedokument med en placeringskode, så skal der oprettes et lagerplukdokument eller et flytning (lager)-dokument.  
 
-## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Definere en standardplaceringsstruktur i produktionsområdet
+## Definere en standardplaceringsstruktur i produktionsområdet
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.
 2. Åbn det lokationskort, du vil konfigurere.  
@@ -60,7 +60,7 @@ Dette flow-diagram viser, hvordan feltet **Placeringskode** i produktionsordreko
 
 ![Placeringsrutediagram.](media/binflow.png "BinFlow")
 
-## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Definere en standardplaceringsstruktur i montageområdet
+## Definere en standardplaceringsstruktur i montageområdet
 
 Komponenter til montageordrer kan ikke plukkes eller bogføres med pluk. Brug i stedet siden **Flytning (lager)**. Du kan finde flere oplysninger i [Plukke til produktion eller montage i grundlæggende lageropsætninger](warehouse-how-to-pick-for-production.md).
 
@@ -68,12 +68,12 @@ Når du plukker og leverer salgslinjemængder, der er monteret til ordren, skal 
 
 Du kan finde flere oplysninger i [Montagestyring](assembly-assemble-items.md).
 
-### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Sådan angiver du, at en flytning (lager) automatisk skal oprettes, når lagerpluk for montageelementet oprettes
+### Sådan angiver du, at en flytning (lager) automatisk skal oprettes, når lagerpluk for montageelementet oprettes
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Montagekonfiguration**, og vælg derefter det relaterede link.
 2. Markér afkrydsningsfeltet **Opret bevægelser automatisk**.
 
-### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Sådan angiver du placeringen i montageområdet, hvor komponenter placeres som standard, før de kan forbruges i montagen
+### Sådan angiver du placeringen i montageområdet, hvor komponenter placeres som standard, før de kan forbruges i montagen
 
 Værdien i dette felt indsættes automatisk i feltet **Placeringskode** på montageordrelinjer, når denne lokation indsættes i feltet **Lokationskode** på montageordrelinjen.
 
@@ -81,7 +81,7 @@ Værdien i dette felt indsættes automatisk i feltet **Placeringskode** på mont
 2. Åbn den lokation, du vil konfigurere.
 3. Udfyld feltet **Placeringskode til til-montage**.
 
-### <a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a>Sådan angiver du den placering i montageområdet, som færdige montageelementer bogføres på, når de monteres til lager
+### Sådan angiver du den placering i montageområdet, som færdige montageelementer bogføres på, når de monteres til lager
 
 Værdien i dette felt indsættes automatisk i feltet **Placeringskode** på montageordrehoveder, når denne lokationskode indsættes i feltet **Lokationskode** på montageordrehovedet.
 
@@ -94,7 +94,7 @@ De placeringskoder, der er angivet på lokationskort, definerer en standardlager
 2. Åbn den lokation, du vil konfigurere.
 3. Udfyld feltet **Placeringskode til fra-montage**.
 
-### <a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a>Sådan angives den placering, som færdige montageelementer bogføres på, når de monteres til en tilknyttet salgsordre
+### Sådan angives den placering, som færdige montageelementer bogføres på, når de monteres til en tilknyttet salgsordre
 
 Fra denne placering leveres montageelementer med det samme via et lagerpluk for at opfylde salgsordre.
 
@@ -116,7 +116,7 @@ Den samme placeringskode kopieres igen fra feltet **Placeringskode** på lagerpl
 2. Åbn den lokation, du vil konfigurere.
 3. Udfyld feltet **Pla.kode til ordremontagelev.**.
 
-## <a name="to-create-dedicated-component-bins"></a>Sådan oprettes dedikerede komponentplaceringer
+## Sådan oprettes dedikerede komponentplaceringer
 
 Du kan angive, at antallet i en placering skal beskyttes mod pluk til andre formål end det aktuelle.
 
@@ -136,9 +136,9 @@ Hvis du gør en placering dedikeret, giver den samme funktion som brug af placer
 > [!NOTE]  
 >  Placeringen skal være tom, før du kan markere eller fjerne markeringen i feltet **Dedikeret**.
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/get-started-warehouse-management/)
+## Se relateret [Microsoft-træning](/training/modules/get-started-warehouse-management/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

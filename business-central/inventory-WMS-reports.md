@@ -8,15 +8,15 @@ ms.search.form: 'Report_707, Report_716, Report_813, Report_1001, Report_5807, R
 ms.date: 04/13/2023
 ms.author: andreipa
 ---
-# <a name="inventory-and-warehouse-reports-and-analytics-in-business-central"></a>Lager- og lagerstedrapporter og -analyse i Business Central
+# Lager- og lagerstedrapporter og -analyse i Business Central
 
 Lagerbeholdning og lagerstedsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gør det muligt for lagerbeholdning og ansatte at få indsigt i og hente statistikker om aktuelle og tidligere lagerbeholdning og lagerstedsaktiviteter.  
 
-## <a name="reports"></a>Rapporter
+## Rapporter
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
 
-## <a name="tasks"></a>Opgaver
+## Opgaver
 
 I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med analyse af virksomhedens tilstand:
 
@@ -24,7 +24,7 @@ I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med a
 * [Vise varedisponering](inventory-how-availability-overview.md)
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opsætning af lagerbeholdning](inventory-setup-inventory.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  

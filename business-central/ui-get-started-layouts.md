@@ -11,14 +11,14 @@ ms.search.form: '9650, 9652'
 ms.date: 03/23/2022
 ms.author: jswymer
 ---
-# <a name="get-started-creating-report-layouts"></a>Introduktion til oprettelse af rapportlayout
+# Introduktion til oprettelse af rapportlayout
 
 Business central leveres med mange indbyggede layouts, som du kan bruge i rapporter. Andre layouts kan være tilføjet som en del af andre udvidelser. Men du kan også oprette dine egne rapporter fra bunden eller ud fra et eksisterende layout.
 
 > [!IMPORTANT]
 > Du kan også bruge rapportlayouts til at føje indhold til e-mailmeddelelser. F.eks. rapportlayout kan spare tid og være med til at sikre konsistensen ved at genbruge det samme indhold, når du kommunikerer med kunderne. Hvis du vil bruge brugerdefinerede rapportlayout med e-mail, skal det være et Word-filtypeformat. Du kan ikke bruge RDLC-filtypen. Du kan finde flere oplysninger i [angive genanvendelige e-mail-tekst og layout](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## <a name="overview"></a>Oversigt
+## Oversigt
 
 Når du arbejder med rapportlayout, er det en hjælp at tænke på layoutet som en fil, der importeres og tildeles til en rapport. Uanset layouttypen er det grundlæggende at administrere layout i Business central. Normalt kommer du til at arbejde fra siden **rapportlayout**. Den væsentligste forskel er, hvordan du designer layoutet, hvilket gøres ved hjælp af den programsoftware, som layoutet bygger på, f. eks. Word, Excel eller SQL Server Report Builder.
 
@@ -34,7 +34,7 @@ Med dette begreb. der er grundlæggende tre eller fire opgaver involveret i opre
 >
 > Du kan få mere at vide om forskellen mellem udvidelses layout og brugerdefinerede layout i [layoutkilde](ui-manage-report-layouts.md#layout-sources).
 
-## <a name="get-started"></a>Kom i gang
+## Kom i gang
 
 Afhængigt af hvad din situation er, vil de faktiske opgaver variere. Brug følgende tabel som en hjælp til at komme i gang.
 
@@ -47,7 +47,7 @@ Afhængigt af hvad din situation er, vil de faktiske opgaver variere. Brug følg
 |Ændre det aktuelle layout, som bruges af en rapport, til et andet layout|[Angive det layout, der bruges af en rapport](ui-set-report-layout.md)|
 |Ændre et layouts navn og beskrivelse|[Omdøbe et layout](#rename)|
 
-## <a name="decide-what-type-of-layout-you-want"></a><a name="decide"></a>Bestemme, hvilken type layout du vil bruge
+## <a name="decide"></a>Bestemme, hvilken type layout du vil bruge
 
 Det første, når du opretter et layout, er at bestemme, hvilken [layouttype](ui-manage-report-layouts.md#layout-types) du vil have. Du kan vælge mellem Word, Excel eller RDLC. Layouttypen afhænger af, hvordan den genererede rapport skal se ud. Desuden afhænger det af din viden om programsoftware til oprettelse af layouterne, f. eks. Word, Excel og SQL Server Report Builder.
 
@@ -66,7 +66,7 @@ Det første, når du opretter et layout, er at bestemme, hvilken [layouttype](ui
 
 * De generelle designkoncepter for Word- og RDLC-layout er ens. Hver type har visse designfunktioner, der påvirker, hvordan den genererede rapport skal vises i [!INCLUDE[prod_short](includes/prod_short.md)]. Den samme rapport måske ser anderledes ud, når du bruger Word-rapportlayout sammenlignet med RDLC-rapportlayoutet.
 
-## <a name="create-a-new-layout"></a><a name="create"></a>Oprette et nyt layout
+## <a name="create"></a>Oprette et nyt layout
 
 Du kan oprette et nyt layout på baggrund af et eksisterende layout på to måder. Den ene måde er at gemme det eksisterende layout i en kopi. Den anden måde er at eksportere det eksisterende layout.
 
@@ -127,7 +127,7 @@ Hvis du vil se, hvordan rapporten ser ud med det nye layout, skal du vælge layo
 
 ---
 
-## <a name="modify-a-layout"></a><a name="modify"></a>Redigere et layout
+## <a name="modify"></a>Redigere et layout
 
 Benyt følgende fremgangsmåde for at ændre et eksisterende brugerdefineret layout.
 
@@ -156,7 +156,7 @@ Benyt følgende fremgangsmåde for at ændre et eksisterende brugerdefineret lay
    Den valgte fil overføres til layoutet, og du vender tilbage til siden med siden **Rapport-layouts**.
 7. Hvis du vil se, hvordan rapporten ser ud med det nye layout, skal du vælge layoutet på listen og derefter vælge **Kør rapport**.
 
-## <a name="replace-a-layout"></a><a name="replace"></a>Erstat et layout
+## <a name="replace"></a>Erstat et layout
 
 Følg disse trin for at erstatte den eksisterende brugerdefinerede fil med en ny fil.
 
@@ -168,7 +168,7 @@ Følg disse trin for at erstatte den eksisterende brugerdefinerede fil med en ny
    Den valgte fil overføres til layoutet, og du vender tilbage til siden med siden **Rapport-layouts**.
 5. Hvis du vil se, hvordan rapporten ser ud med det nye layout, skal du vælge layoutet på listen og derefter vælge **Kør rapport**.
 
-## <a name="rename-a-layout"></a><a name="rename"></a>Omdøbe et layout
+## <a name="rename"></a>Omdøbe et layout
 
 Følg disse trin, hvis du vil ændre navnet på og beskrivelsen af et brugerdefineret layout.
 
@@ -179,9 +179,9 @@ Følg disse trin, hvis du vil ændre navnet på og beskrivelsen af et brugerdefi
     > Hvis du vil have hjælp til at finde layoutet, skal du bruge feltet **Søg**, ruden **Filter** og kolonnerne sortere.
 3. Skift **layout-navn**, og vælg derefter **OK**.
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
+## Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administration af rapportlayout](ui-manage-report-layouts.md)  
 [Arbejde med Word-layouts](ui-how-add-fields-word-report-layout.md)  

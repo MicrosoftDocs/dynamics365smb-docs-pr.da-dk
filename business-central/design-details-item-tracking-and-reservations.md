@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-item-tracking-and-reservations"></a>Designoplysninger: Varesporing og reservationer
+# Designoplysninger: Varesporing og reservationer
 
 Samtidig brug af reservation og specifik varesporing er usædvanlig, da de begge skaber en kobling mellem udbud og efterspørgsel. Bortset fra situationer, hvor en kunde eller produktionsplanlægger anmoder om et bestemt lot, giver det sjældent mening at reservere lagervarer, der allerede har varesporingsnumre til bestemt udligning. Selvom det er muligt at reservere varer, der kræver bestemt varesporing, er specielle funktioner nødvendige for at undgå konflikter omkring tilgængelighed mellem ordrebehandlere, der anmoder om de samme varesporede varer.  
   
@@ -37,12 +37,12 @@ Den væsentligste forskel mellem specifik og generel reservation defineres af ek
   
 Når du reserverer lagerbeholdningsantal fra en udgående dokumentlinje for en vare, der har varesporingsnumre tildelt og er defineret til specifik varesporing, fører siden **Reservation** dig gennem forskellige arbejdsgange, afhængigt af behovet for serie- eller lotnumre.  
   
-## <a name="specific-reservation"></a>Specifik reservation
+## Specifik reservation  
 Når du vælger **Reserver** fra den udgående dokumentlinje, vises der en dialogboks, hvor du bliver spurgt, om du vil reservere bestemte serie- eller lotnumre. Hvis du vælger **Ja**, vises en liste med alle serie- eller lotnumre, der er tildelt bilagslinjen. Siden **Reservation** åbnes, når du har valgt et serie- eller lotnummer, og du kan derefter reservere mellem de valgte serie- eller lotnumre på normal vis.  
   
 Hvis nogle af de specifikke varesporingsnumre, du forsøger at reservere, opbevares i generelle reservationer, vil en meddelelse nederst i siden **Reservation** informere dig om, hvor mange af det samlede reserverede antal, der holdes i generelle reservationer, og om de stadig er tilgængelige.  
   
-## <a name="nonspecific-reservation"></a>Ikke-specifik reservation
+## Ikke-specifik reservation  
 Hvis du vælger **Nej** i den dialogboks, der vises, åbnes siden **Reservation**, så du kan reservere blandt alle serienumre eller lotnumre på lageret.  
   
 Når du foretager en generel reservation af en varesporet vare, skal systemet vælge bestemte vareposter, at reservere mod på grund af strukturen i reservationssystemet. Da vareposterne er markeret med varesporingsnumrene, reserverer reservationen indirekte specifikke serie- eller lotnumre, selvom det ikke var din hensigt. Reservationssystemet forsøger at omrokere ikke-specifikke reservationsposter inden bogføring for at håndtere denne situation.  
@@ -52,24 +52,24 @@ Systemet reserverer faktisk stadig mod bestemte poster, men derefter bruger det 
 > [!NOTE]  
 >  På en generel reservation er feltet med lotnummer eller serienummer tomt i reservationsposten, der peger på behov, f.eks. salg.  
   
-## <a name="reshuffle"></a>Omrokering
+## Omrokering  
 Når en bruger sender et udgående dokument efter at have valgt forkert serie- eller lotnummer, omrokeres andre generelle reservationer, så de afspejler det faktiske serie- eller lotnummer, der er plukket. Dette opfylder bogføringsprogrammet med en fast udligning mellem forsyning og behov.  
   
 For alle understøttede virksomhedsscenarier er omrokering kun mulig mod positive vareposter med reservationsnummer og serie- eller lotnumre, men uden definerede serie- eller lotnumre på behovssiden.  
   
-## <a name="supported-business-scenarios"></a>Understøttede virksomhedsscenarier
+## Understøttede virksomhedsscenarier  
 Funktionen Sen binding understøtter følgende virksomhedsscenarier:  
   
 * Angivelse af et bestemt serienummer eller lotnummer på et udgående dokument med generel reservation af et forkert serienummer eller lotnummer.  
 * Reservere et bestemt serie- eller lotnummer.  
 * Bogføring af et udgående dokument med generel reservation af et serie- eller lotnummer.  
   
-### <a name="entering-serial-or-lot-numbers-on-an-outbound-document-with-wrong-nonspecific-reservation"></a>Angivelse af serie- eller lotnumre på et udgående dokument med forkert generel reservation
+### Angivelse af serie- eller lotnumre på et udgående dokument med forkert generel reservation  
 Dette er det mest almindelige af de tre understøttede scenarier. I dette tilfælde sikrer sen bindingsfunktionalitet, at en bruger kan indtaste et serienummer eller lotnummer, der rent faktisk plukkes, på et udgående dokument, der allerede har en generel reservation af et andet serie- eller lotnummer.  
   
 Behovet opstår for eksempel, når en ordrebehandler først har foretaget en generel reservation af et hvilket som helst serienummer eller lotnummer. Senere, når varen faktisk plukkes fra lager, skal plukket serie- eller lotnummer angives på ordren, før den bogføres. Den ikke-specifikke reservation omrokeres på bogføringtidspunktet for at sikre, at det plukkede serie- eller lotnummer kan angives uden at miste reservationen og for at sikre, at det plukkede serie- eller lotnummer fuldt ud kan anvendes og bogføres.  
   
-### <a name="reserve-specific-serial-or-lot-numbers"></a>Reservere bestemte serienumre eller lotnumre
+### Reservere bestemte serienumre eller lotnumre  
 Sen bindingsfunktionalitet sikrer, at en bruger, der forsøger at reservere et bestemt serienummer eller lotnummer, der er reserveret generelt i øjeblikket, kan gøre det i dette virksomhedsscenario. En generel reservation omrokeres på tidspunktet for reservationen for at frigøre serie- eller lotnummeret for den specifikke anmodning.  
   
 Omrokering sker automatisk, men integreret Hjælp vises nederst på siden **Reservation** og viser følgende tekst:  
@@ -78,12 +78,12 @@ Omrokering sker automatisk, men integreret Hjælp vises nederst på siden **Rese
   
 Derudover viser feltet **Ikke-specifikt reserveret antal**, hvor mange reservationsposter der er generelle. Dette felt er som standard ikke synligt for brugerne.  
   
-### <a name="posting-an-outbound-document-with-nonspecific-reservation-of-serial-or-lot-numbers"></a>Bogføring af et udgående dokument med generel reservation af serie- eller lotnumre
+### Bogføring af et udgående dokument med generel reservation af serie- eller lotnumre  
 Dette forretningsscenarie understøttes med funktionaliteten Sen Binding, der muliggør fast udligning og udgående bogføring af, hvad der faktisk er plukket, ved at omrokere en anden generel reservation af et serie- eller lotnummer. Hvis reshuffling ikke er mulig, vises følgende standardfejlmeddelelse, når brugeren forsøger at postere leveringen:  
   
 **XX-element kan ikke anvendes fuldt ud.**  
   
-## <a name="see-also"></a>Se også
+## Se også  
 [Designoplysninger: Varesporing](design-details-item-tracking.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

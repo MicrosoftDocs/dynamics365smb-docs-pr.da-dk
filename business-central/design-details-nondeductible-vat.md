@@ -11,18 +11,18 @@ ms.date: 07/04/2023
 ms.author: altotovi
 ---
 
-# <a name="design-details-non-deductible-vat"></a>Designoplysninger: Ikke-fradragsberettiget moms
+# Designoplysninger: Ikke-fradragsberettiget moms
 
 Moms uden fradragsberettiget moms er den moms, der skal betales af en indkøber, men som ikke er fradragsberettiget for køberens eget momsansvar. Da det kan være svært at vide, hvor og hvordan en vare anvendes, skal du kontakte de lokale skattemyndigheder i dit land eller område for at finde ud af, om en bestemt procent af momsen fradrages i forhold til historiske data. Selv når du ved, at en bestemt procentdel af momsen ikke er fradragsberettiget, er der forskellige modeller til håndtering af ikke-fradragsberettigede beløb, da de er relateret til **varer** og **anlægsaktiver**.
 
-## <a name="prerequisites-for-using-non-deductible-vat"></a>Forudsætninger for brug af ikke-fradragsberettiget moms
+## Forudsætninger for brug af ikke-fradragsberettiget moms
 
 Benyt følgende fremgangsmåde, hvis du vil bruge og bogføre ikke-fradragsberettiget moms.
 
 1. Vælg **Aktiver ikke-fradragsberettiget moms** på siden **Momsopsætning** for at aktivere funktionen.
 2. På siden **Momsbogføringsopsætning** skal du vælge, hvilke momsbogføringsgrupper der kan bruge ikke-fradragsberettiget moms.
 
-## <a name="examples"></a>Eksempler
+## Eksempler
 
 For følgende eksempler er ikke-fradragsberettiget moms aktiveret, og følgende opsætning er fuldført:
 
@@ -39,62 +39,62 @@ For følgende eksempler er ikke-fradragsberettiget moms aktiveret, og følgende 
 
 I alle eksempler bruges der varer og anlægsaktiver, hvor momsproduktbogføringsgruppen er **NDVAT**.
 
-### <a name="items"></a>Varer
+### Varer
 
 En ny vare har **NDVAT** angivet som momsproduktbogføringsgruppe. På købsdokumentet, **Antal** = **1** og **Købspris Ekskl. moms** = **1.000,00**
 
-Uanset hvilken indstilling der bruges, er resultatet af momsposten ens.
+Uanset hvilken indstilling der bruges, er resultatet af **momsposten** ens.
 
 | Dokumenttype | Enhedstype | Basis | Beløb | Ikke-fradragsberettiget momsgrundlag | Ikke-fradragsberettiget momsbeløb |
 |---|---|---|---|---|---|
 | Fakturer | Køb | 0.00 | 0.00 | 1,000.00 | 250.00 |
 
-Detaljerne vises i værdiposterne.
+Detaljerne vises i **værdiposterne**.
 
 > [!NOTE]
 > Du kan aktivere feltet **Brug til varekostpris** på siden **Momsopsætning**.
 
-#### <a name="use-for-item-cost-isnt-enabled"></a>Brug til vare omkostning er ikke aktiveret
+#### Brug til vare omkostning er ikke aktiveret
 
 | Vareposttype | Postens type | Kostbeløb (faktisk) | Varepostmængde |
 |---|---|---|---|
 | Køb | Købspris | 1,000.00 | 1 |
 
-#### <a name="use-for-item-cost-is-enabled"></a>Brug til vare omkostning er aktiveret
+#### Brug til vare omkostning er aktiveret
 
 | Vareposttype | Postens type | Kostbeløb (faktisk) | Varepostmængde |
 |---|---|---|---|
 | Køb | Købspris | 1,250.00 | 1 |
 
-### <a name="fixed-assets"></a>Anlægsaktiver
+### Anlægsaktiver
 
 Et nyt anlægsaktiv har den anskaffelses konto, der er indstillet til at bruge **NDVAT** som momsproduktbogføringsgruppe. På købsdokumentet, **Antal** = **1** og **Købspris Ekskl. moms** = **1.000,00**
 
-Uanset hvilken indstilling der bruges, er resultatet af momsposten ens.
+Uanset hvilken indstilling der bruges, er resultatet af **momsposten** ens.
 
 | Dokumenttype | Enhedstype | Basis | Beløb | Ikke-fradragsberettiget momsgrundlag | Ikke-fradragsberettiget momsbeløb |
 |---|---|---|---|---|---|
 | Fakturer | Køb | 0.00 | 0.00 | 1,000.00 | 250.00 |
 
-Detaljerne vises i anlægsposterne.
+Detaljerne vises i **anlægsposterne**.
 
 > [!NOTE]
 > Du kan aktivere feltet **Brug til anlægsaktivomkostning** på siden **Momsopsætning**.
 
-#### <a name="use-for-fixed-asset-cost-isnt-enabled"></a>Bruges til anlægsaktiv omkostninger er ikke aktiveret
+#### Bruges til anlægsaktiv omkostninger er ikke aktiveret
 
 | Dokumenttype | Anlægsbogføringstype | Beløb | Momsbeløb |
 |---|---|---|---|
 | Fakturer | Omkostning ved anskaffelse | 1,000.00 | 250.00 |
 
-#### <a name="use-for-fixed-asset-cost-is-enabled"></a>Bruges til anlægsaktiv omkostninger er aktiveret
+#### Bruges til anlægsaktiv omkostninger er aktiveret
 
 | Dokumenttype | Anlægsbogføringstype | Beløb | Momsbeløb |
 |---|---|---|---|
 | Fakturer | Omkostning ved anskaffelse | 1,000.00 | 250.00 |
 | Fakturer | Omkostning ved anskaffelse | 250.00 | 0.00 |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opsætte ikke-fradragsberettiget moms](finance-setup-nondeductible-vat.md)  
 [Finans](finance.md)  
