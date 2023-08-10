@@ -10,7 +10,7 @@ ms.search.keywords: 'undo, credit memo, return'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Rette eller annullere ubetalte salgsfakturaer
+# <a name="correct-or-cancel-unpaid-sales-invoices"></a>Rette eller annullere ubetalte salgsfakturaer
 
 Du kan rette eller annullere en ubetalt bogført salgsfaktura, hvis den ikke er fuldt leveret. Dette er nyttigt, hvis du laver en fejl, eller hvis debitoren anmoder om en ændring før leverancen er fuldført. I alle andre scenarier anbefales det, at du opretter en rettelses salgskreditnota direkte. Du kan finde flere oplysninger i [Sådan oprettes en salgskreditnota på en bogført-salgsfaktura](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).  
 
@@ -29,7 +29,7 @@ Når du retter eller annullerer en bogført salgsfaktura, anvendes den rettede s
 > [!TIP]
 > Hvis du har bogført en forudbetalingsfaktura for en salgsfaktura, som du derefter retter eller annullerer, skal du også rette eller annullere forudbetalingen. Du kan finde flere oplysninger i [Rette forudbetalinger](finance-how-to-correct-prepayments.md).
 
-## Hvis du vil annullere en bogført salgsfaktura
+## <a name="to-cancel-a-posted-sales-invoice"></a>Hvis du vil annullere en bogført salgsfaktura
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.  
 2. Vælg den bogførte salgsfaktura, som du vil annullere.
@@ -41,11 +41,11 @@ Når du retter eller annullerer en bogført salgsfaktura, anvendes den rettede s
     En salgskreditnota oprettes og bogføres automatisk for at annullere den oprindelige bogførte salgsfaktura. Feltet **Annulleret** på den første bogførte salgsfaktura ændres til **Ja**.
 4. Vælg **Vis rettelseskreditnota** for at få vist den bogførte salgskreditnota, som gør den oprindelige bogførte salgsfaktura ugyldig.
 
-### Delvis fakturabogføring understøttes også
+### <a name="partial-invoice-posting-also-supported"></a>Delvis fakturabogføring understøttes også
 
 Hvis annulleringen vedrører en delvis fakturabogføring, opdateres den oprindelige salgsordrelinje, så den afspejler det annullerede fakturerede antal. Felterne **Fakturer anta** og **Fakt. antal** på den relaterede salgsordrelinje nulstilles til værdierne før den delvise fakturabogføring.
 
-## Hvis du vil rette en bogført salgsfaktura
+## <a name="to-correct-a-posted-sales-invoice"></a>Hvis du vil rette en bogført salgsfaktura
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.  
 2. Vælg den bogførte salgsfaktura, som du vil rette.
@@ -61,9 +61,9 @@ Hvis annulleringen vedrører en delvis fakturabogføring, opdateres den oprindel
     En salgskreditnota oprettes og bogføres automatisk for at annullere den oprindelige bogførte salgsfaktura.
 5. Vælg handlingen **Vis rettelseskreditnota** for at få vist den bogførte salgskreditnota, som gør den oprindelige bogførte salgsfaktura ugyldig.
 
-## Se relateret [Microsoft-træning](/training/modules/ship-invoice-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/ship-invoice-items-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  

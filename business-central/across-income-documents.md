@@ -10,13 +10,13 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: edupont
 ---
-# Indgående bilag
+# <a name="incoming-documents"></a>Indgående bilag
 
 Eksterne forretningsbilag kan komme til din virksomhed som en vedhæftet fil i mail eller som en papirkopi, som du indscanne i en fil. Dette er typisk for køb, hvor sådanne indgående bilagsfiler repræsenterer betalingskvitteringer for udgifter eller mindre køb.
 
 På siden **Indgående bilag** kan du bruge forskellige funktioner til at gennemgå udgiftsbilag, administrere OCR-opgaver og konvertere indgående bilagsfiler, manuelt eller automatisk, til de relevante købs- og salgsdokumenter eller kladdelinjer. Eksterne filer kan tilknyttes i enhver procesfase, herunder til bogførte dokumenter og til de derved oprettede kreditor-, debitor- og finansposter.
 
-## Brugsscenarie
+## <a name="usage-scenario"></a>Brugsscenarie
 
 Du kan registrere filer eller papirkopier, der er modtaget fra samhandelspartnere, i [!INCLUDE[prod_short](includes/prod_short.md)] og oprette en bilagspost. F. eks. en købs-eller salgsfaktura, kreditnota eller en kladdelinje.
 
@@ -30,7 +30,7 @@ F.eks. når du modtager en faktura i PDF-format fra en leverandør, kan du sende
 > [!TIP]
 > Oprette indgående bilagsposter i [!INCLUDE[prod_short](includes/prod_short.md)] direkte fra e-mails, der er sendt af leverandører ved hjælp af Outlook-tilføjelsesprogrammet. Du kan finde flere oplysninger i [Brug Business Central som din virksomheds Indbakke i Outlook](work-outlook-addin.md).
 
-## Indgående bilagsfunktioner
+## <a name="incoming-document-features"></a>Indgående bilagsfunktioner
 
 Det indgående bilag kan bestå af følgende primære aktiviteter:
 
@@ -57,9 +57,9 @@ Det indgående bilag kan bestå af følgende primære aktiviteter:
 | Fra siderne **Kontoplan** og **Finansposter** skal du bruge en søgefunktionen til at finde finansposter for bogførte dokumenter, som ikke har indgående bilagsposter og derefter knytte centralt til eksisterende poster eller oprette nye med vedhæftede dokument filer. |[Finde bogførte dokumenter uden indgående bilagsposter](across-how-find-posted-documents-without-income-document-records.md) |
 | Få et større overblik ved at indstille indgående bilagsposter til *Behandlet* for at fjerne dem fra standardvisningen. |[Administrere mange indgående bilagsposter](across-how-manage-many-income-document-records.md) |
 
-## Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Køb](purchasing-manage-purchasing.md)  
 [Redigering af bogførte bilag](across-edit-posted-document.md)  

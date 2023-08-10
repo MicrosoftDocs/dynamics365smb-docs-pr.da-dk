@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Konfigurere afsendelse og modtagelse af elektroniske dokumenter
+# <a name="set-up-electronic-document-sending-and-receiving"></a>Konfigurere afsendelse og modtagelse af elektroniske dokumenter
 
 Som et alternativ til at sende vedhæftede filer i en mail, kan du sende og modtage forretningsdokumenter elektronisk. Med et elektronisk dokumentet menes en standard\-kompatibel fil, der repræsenterer et forretningsdokument, f.eks en faktura fra en kreditor, som kan modtages og konverteres til en købsfaktura i [!INCLUDE[prod_short](includes/prod_short.md)]. Udvekslingen af elektroniske forretningsdokumenter mellem to handelspartnere udføres af en ekstern udbyder af dokumentudvekslingstjenester. Den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)] understøtter afsendelse og modtagelse af elektroniske fakturaer og kreditnotaer i PEPPOL-formatet, som understøttes af de største udbydere af dokumentudvekslingstjenester. En større udbyder af dokumentudvekslingstjenester er forudkonfigureret og klar til at blive konfigureret til din virksomhed.  
 
@@ -37,7 +37,7 @@ Emnet indeholder følgende procedurer:
 * Sådan vælges dataudvekslingsformatet **PEPPOL – faktura** for modtagelse af elektroniske dokumenter  
 * Sådan konfigureres den finanskonto, der skal bruges på nye købsfakturalinjer, for ikke\-identificerbare varer og ikke\-varer  
 
-### Sådan defineres regnskabet for afsendelse og modtagelse af elektroniske dokumenter
+### <a name="to-set-up-the-company-for-electronic-document-sending-and-receiving"></a>Sådan defineres regnskabet for afsendelse og modtagelse af elektroniske dokumenter
 
 1. I feltet **Søg** skal du indtaste **Virksomhedsoplysninger** og derefter vælge det relaterede link.  
 2. På oversigtspanelet **Generelt** skal du udfylde felterne som beskrevet i følgende tabel.  
@@ -48,7 +48,7 @@ Emnet indeholder følgende procedurer:
     |**SE/CVR-nr.**|Angiv din virksomheds momsregistreringsnummer.|  
     |**Ansvarscenter**|Hvis din virksomhed er konfigureret med et ansvarscenter, skal du sørge for, at feltet **Lande-/områdekode** er udfyldt.|  
 
-### Sådan defineres momsbogføring for afsendelse og modtagelse af elektroniske dokumenter
+### <a name="to-set-up-vat-posting-for-electronic-document-sending-and-receiving"></a>Sådan defineres momsbogføring for afsendelse og modtagelse af elektroniske dokumenter
 
 1. I feltet **Søg** skal du skrive **Momsbogf.opsætning** og derefter vælge det relaterede link.  
 2. For hver momsbogføringslinje, du vil bruge til elektroniske dokumenter, skal du udfylde feltet som beskrevet i følgende tabel.  
@@ -57,7 +57,7 @@ Emnet indeholder følgende procedurer:
     |---------------------------------|---------------------------------------|  
     |**Momskategori**|Angiv momskategori.<br /><br /> F.eks, når du sender elektroniske fakturaer i PEPPOL-format, bruges værdien i dette felt til at udfylde elementet **TaxApplied** i gruppen **AccountingSupplierParty**. Nummeret er baseret på UNCL5305 standarden.|  
 
-### Sådan defineres lande/områder for afsendelse og modtagelse af elektroniske dokumenter
+### <a name="to-set-up-countriesregions-for-electronic-document-sending-and-receiving"></a>Sådan defineres lande/områder for afsendelse og modtagelse af elektroniske dokumenter
 
 1. I feltet **Søg** skal du indtaste **Lande/områder** og derefter vælge det relaterede link.  
 2. For hvert land/område, du vil udveksle elektroniske dokumenter med, skal du udfylde feltet som beskrevet i følgende tabel.  
@@ -66,7 +66,7 @@ Emnet indeholder følgende procedurer:
     |---------------------------------|---------------------------------------|  
     |**Momsskema**|Identificer den nationale myndighed, der udsteder CVR-nummeret for land\/området i forbindelse med afsendelse af elektronisk dokumenter.<br /><br /> F.eks når du sender elektroniske fakturaer i PEPPOL-format, bruges værdien i dette felt til at udfylde attributten **SchemeID** for elementet **EndPointID** både under noden **AccountingSupplierParty** og **AccountingCustomerParty** i filen.<br /><br /> Feltet **Momsskema** bruges kun, hvis feltet **GLN** på siden **Virksomhedsoplysninger** ikke er udfyldt. **Bemærk:** Værdien i feltet **Kode** på siden **Lande\/områder** skal overholde ISO 3166\-1:Alpha2.|  
 
-### Sådan defineres varer for afsendelse og modtagelse af elektroniske dokumenter
+### <a name="to-set-up-items-for-electronic-document-sending-and-receiving"></a>Sådan defineres varer for afsendelse og modtagelse af elektroniske dokumenter
 
 1. I feltet **Søg** skal du indtaste **Varer** og derefter vælge det relaterede link.  
 2. For hver vare, du køber eller sælger i elektroniske dokumenter, skal du udfylde feltet som beskrevet i følgende tabel.  
@@ -75,7 +75,7 @@ Emnet indeholder følgende procedurer:
     |---------------------------------|---------------------------------------|  
     |**GTIN**|Identificerer varen i forbindelse med afsendelse og modtagelse af elektronisk dokument. For PEPPOL-format bruges feltet på følgende måde:<br /><br /> Hvis **SchemeID**-attributten for **StandardItemIdentification\/ID**-elementet er indstillet til **GTIN**, knyttes elementet til feltet **GTIN** på varekortet.|  
 
-### Sådan defineres måleenheder for afsendelse og modtagelse af elektroniske dokumenter
+### <a name="to-set-up-units-of-measure-for-electronic-document-sending-and-receiving"></a>Sådan defineres måleenheder for afsendelse og modtagelse af elektroniske dokumenter
 
 1. Indtast **Måleenhed** i feltet **Søg**, og vælg derefter det relaterede link.  
 2. For hver måleenhed, du vil bruge til varer i elektroniske dokumenter, skal du udfylde feltet som beskrevet i følgende tabel.  
@@ -84,7 +84,7 @@ Emnet indeholder følgende procedurer:
     |---------------------------------|---------------------------------------|  
     |**International standardkode**|Angiv enhedskoden, udtrykt i overensstemmelse med UNECERec20 standarden i forbindelse med afsendelse af elektroniske dokumenter.<br /><br /> Når du sender elektroniske fakturaer i PEPPOL-format, bruges værdien i dette felt f.eks. til at udfylde attributten **unitCode** i elementet **InvoicedQuantity** under noden **InvoiceLine**. **Bemærk:** Hvis feltet **Enhed** på salgslinjen er tomt, indsættes standardværdien UNECERe20 for "Styk" \(H87\) som standard. Du kan finde flere oplysninger og en liste over gyldige enhedskoder i [Anbefaling nr. 20 \- Enheder i international handel](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
-### Sådan konfigureres kunder for afsendelse af elektronisk dokumenter
+### <a name="to-set-up-customers-for-electronic-document-sending"></a>Sådan konfigureres kunder for afsendelse af elektronisk dokumenter
 
 1. I feltet **Søg** skal du indtaste **Debitorer** og derefter vælge det relaterede link.  
 2. For hver debitor, du vil sende elektroniske dokumenter til, skal du udfylde felter som beskrevet i følgende tabel.  
@@ -97,7 +97,7 @@ Emnet indeholder følgende procedurer:
 
     Du kan konfigurere hver debitor med en foretrukken metode til afsendelse af forretningsdokumenter, så du ikke behøver at vælge en afsendelsesindstilling, hver gang du sender et dokument til debitoren. Du kan finde flere oplysninger i [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).  
 
-### Sådan vælges elektronisk PEPPOL-dokumentformat for afsendelse af elektroniske dokumenter  
+### <a name="to-select-the-peppol-electronic-document-format-for-electronic-document-sending"></a>Sådan vælges elektronisk PEPPOL-dokumentformat for afsendelse af elektroniske dokumenter
 1. I feltet **Søg** skal du indtaste **Profiler for afsendelse af dokumenter** og derefter vælge det relaterede link.  
 2. Åbn den eksisterende dokumentafsendelsesprofil, eller opret en ny. Du kan finde flere oplysninger i [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).  
 3. På siden **Dokumentafsendelsesprofil** skal du vælge **Elektronisk format**, vælge linjen for PEPPOL og derefter vælge **OK**.  
@@ -110,7 +110,7 @@ Emnet indeholder følgende procedurer:
 
     Du kan nu sende det elektroniske dokument med de konverterede data. Du kan finde flere oplysninger i [Sende elektroniske dokumenter](sales-how-to-send-electronic-documents.md).  
 
-### Sådan konfigureres kreditorer for modtagelse af elektroniske dokumenter  
+### <a name="to-set-up-vendors-for-electronic-document-receiving"></a>Sådan konfigureres kreditorer for modtagelse af elektroniske dokumenter
 1. I feltet **Søg** skal du angive **Leverandører** og derefter vælge det relaterede link.  
 2. For hver kreditor, du vil modtage elektroniske dokumenter fra, skal du udfylde felter som beskrevet i følgende tabel.  
 
@@ -120,7 +120,7 @@ Emnet indeholder følgende procedurer:
     |**SE/CVR-nr.**|Angiv kreditorens momsregistreringsnummer. **Tip:** I understøttede lokaliserede versioner skal du vælge knappen Specificer for at bruge den webtjeneste, der kontrollerer, om nummeret findes i det nationale virksomhedsregister.|  
     |**Ansvarscenter**|Hvis kreditoren er konfigureret med et ansvarscenter, skal du sørge for, at feltet **Lande-/områdekode** er udfyldt.|  
 
-### Sådan vælges dataudvekslingsformatet PEPPOL – faktura for modtagelse af elektroniske dokumenter  
+### <a name="to-select-the-peppol---invoice-data-exchange-definition-for-electronic-document-receiving"></a>Sådan vælges dataudvekslingsformatet PEPPOL – faktura for modtagelse af elektroniske dokumenter
 1. I feltet **Søg** skal du skrive **Indgående bilag** og derefter vælge det relaterede link.  
 2. På linjen for det elektronisk dokument, du vil modtage og konvertere, skal du vælge feltet **Dataudvekslingstype** og vælge **PEPPOLINVOICE**.  
 
@@ -128,7 +128,7 @@ Emnet indeholder følgende procedurer:
 
     Nu kan du modtage det elektroniske dokument ved at starte datakonverteringsprocessen på siden **Indgående bilag**. Du kan finde flere oplysninger i [Modtage og konvertere elektroniske dokumenter](purchasing-how-to-receive-and-convert-electronic-documents.md)  
 
-### Sådan konfigureres den finanskonto, der skal bruges på nye købsfakturalinjer, for varer, der ikke kan identificeres, og ikke-varer  
+### <a name="to-set-up-the-gl-account-to-use-on-new-purchase-invoice-lines-for-non-identifiable-items-and-non-items"></a>Sådan konfigureres den finanskonto, der skal bruges på nye købsfakturalinjer, for varer, der ikke kan identificeres, og ikke-varer
 1. I feltet **Søg** skal du indtaste **Købsopsætning** og derefter vælge det relaterede link.  
 2. På oversigtspanelet **Standardkonti** skal du udfylde feltet som beskrevet i følgende tabel.  
 
@@ -136,9 +136,9 @@ Emnet indeholder følgende procedurer:
     |---------------------------------|---------------------------------------|  
     |**Finanskonto til ikke-varelinjer**|Angiver den finanskonto, der indsættes automatisk på indkøbslinjer, der er oprettet fra elektroniske dokumenter, når den indgående bilagslinje ikke indeholder en vare, der kan identificeres. En indgående bilagslinje, der ikke har en GTIN eller kreditors varenummer, konverteres til en købslinje af typen **Finanskonto**, og feltet **Nr.** på købslinjen vil indeholde den konto, som du vælger i feltet **Finanskonto til ikke-varelinjer**.<br /><br /> Hvis du lader feltet **Finanskonto til ikke-varelinjer** stå tomt, og det indgående bilag indeholder linjer uden identificerbare varer, bliver indkøbsdokumentet ikke oprettet. En fejlmeddelelse beder dig om at udfylde feltet **Finanskonto til ikke-varelinjer**, inden du kan udføre opgaven.|  
 
-## Se relateret [Microsoft-træning](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
-## Se også  
+## <a name="see-also"></a>Se også
 [Udveksle data elektronisk](across-data-exchange.md)   
 [Fakturere salg](sales-how-invoice-sales.md)   
 [Registrere køb](purchasing-how-record-purchases.md)

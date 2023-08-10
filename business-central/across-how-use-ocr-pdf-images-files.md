@@ -11,7 +11,7 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: edupont
 ---
-# Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter
+# <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter
 
 Fra PDF-filer eller billedfiler, som du modtager fra dine handelspartnere, kan du få en ekstern OCR-tjeneste (Optical Character Recognition) til at oprette elektroniske dokumenter, der kan konverteres til dokumentposter i [!INCLUDE[prod_short](includes/prod_short.md)]. F.eks. når du modtager en faktura i PDF-format fra en leverandør, kan du [sende den til tjenesten OCR fra siden **Indgående bilag**](#to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page).
 
@@ -26,7 +26,7 @@ Trafikken i filer til og fra OCR-tjenesten behandles af en dedikeret opgavekøpo
 > [!NOTE]
 > OCR-funktionen leveres af eksterne udbydere. Vælg en servicepakke, der passer til din organisation og/eller dit land/område. Find tjenester, der er kompatible med [!INCLUDE[prod_short](includes/prod_short.md)], og oplysninger om tilgængelige funktioner på [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## Sådan sendes en PDF- eller billedfil til OCR-tjenesten fra siden Indgående bilag
+## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>Sådan sendes en PDF- eller billedfil til OCR-tjenesten fra siden Indgående bilag
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Indgående bilag** og derefter vælge det relaterede link.
 2. Opret en ny indgående bilagspost, og vedhæft filen. Du kan finde flere oplysninger i [Oprette indgående bilagsposter](across-how-create-income-document-records.md).  
@@ -37,7 +37,7 @@ Trafikken i filer til og fra OCR-tjenesten behandles af en dedikeret opgavekøpo
 
    Værdien i feltet **OCR-status** ændres til **Sendt**, forudsat at der ikke er nogen fejl.
 
-## Sådan sendes en PDF- eller billedfil til OCR-tjenesten via mail
+## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a>Sådan sendes en PDF- eller billedfil til OCR-tjenesten via mail
 
 Brug dit mailprogram til at videresende en mail til OCR-tjenesteudbyderen med PDF- eller billedfilen vedhæftet. Du kan finde oplysninger om, hvilken mailadresse du skal sende til, på OCR-tjenesteudbyderens websted.
 
@@ -46,7 +46,7 @@ Da der ikke findes nogen indgående bilagsposter for filen, oprettes der automat
 > [!NOTE]  
 > Hvis du arbejder på en tablet eller telefon, kan du sende filen til OCR-tjenesten, så snart du har taget et billede af bilaget, eller du kan oprette et indgående bilag direkte. Du kan finde flere oplysninger i [Oprette en indgående bilagspost ved at tage et billede](across-how-create-income-document-records.md#create-an-incoming-document-record-by-taking-a-photo).
 
-## Sådan modtager du det resulterende elektroniske dokument fra OCR-tjenesten
+## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Sådan modtager du det resulterende elektroniske dokument fra OCR-tjenesten
 
 Det elektroniske dokument, der oprettes af OCR-tjenesten fra PDF eller billedfilen, modtages automatisk på siden **Indgående bilag** ved den opgavekøpost, som er oprettet, når du aktiverer OCR-tjenesten.
 
@@ -65,7 +65,7 @@ Hvis du ikke bruger en opgavekø, eller du skal have et færdigt OCR-dokument hu
 
 Nu kan du fortsætte med at oprette dokumentposter for de modtagne elektroniske dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)] manuelt eller automatisk. Der er flere oplysninger i næste procedure. Du kan også [forbinde den nye indgående bilagspost med eksisterende bogførte eller ikke-bogførte bilag](across-how-connect-disconnect-income-document-records.md), så kildefilen er nem at få adgang til fra [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Sådan oprettes en købsfaktura fra et elektronisk dokument, der er modtaget fra OCR-tjenesten
+## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Sådan oprettes en købsfaktura fra et elektronisk dokument, der er modtaget fra OCR-tjenesten
 
 Følgende fremgangsmåde beskriver, hvordan du opretter en købsfakturapost fra en kreditorfaktura, der er modtaget som et elektronisk dokument fra OCR-tjenesten. Fremgangsmåden er den samme som, når du f.eks. opretter en finanskladdelinje fra en udgiftskvittering eller en salgsreturvareordre fra en kunde.
 
@@ -78,7 +78,7 @@ Der oprettes en købsfaktura i [!INCLUDE[prod_short](includes/prod_short.md)] ba
 
 Enhver valideringsfejl, der typisk vedrører forkerte eller manglende data i [!INCLUDE[prod_short](includes/prod_short.md)], vises i oversigtspanelet **Fejl og advarsler**. Du kan finde flere oplysninger i [Håndtere fejl ved modtagelse af elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 
-### Sådan knyttes tekst på et indgående bilag til en bestemt kreditorkonto
+### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Sådan knyttes tekst på et indgående bilag til en bestemt kreditorkonto
 
 For indgående bilag kan du normalt bruge handlingen **Knyt tekst til konto** for at definere, at en bestemt tekst på en kreditorfaktura, som er modtaget fra OCR-tjenesten, er knyttet til en bestemt kreditorkonto. Fremover skal en del af den indgående bilags beskrivelse, der findes som en tilknytnings tekst, betyder, at feltet **Leverandørnr.** på dokument-eller kladdelinjer af typen *Finanskonto* udfyldes med den pågældende kreditor.
 
@@ -94,7 +94,7 @@ Ud over tilknytning til en kreditorkonto eller finanskonti kan du også knytte t
    > Brug ikke felterne **Modkontokildetype** og **Modkontokildenr.** i forbindelse med indgående bilag. De bruges kun til afstemning af automatisk betaling. Du kan finde flere oplysninger i [Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 6. Gentag trin 2 til 5 for al tekst på indgående bilag, du automatisk vil oprette bilag til.
 
-## Sådan håndteres fejl ved modtagelse af elektroniske dokumenter
+## <a name="to-handle-errors-when-receiving-electronic-documents"></a>Sådan håndteres fejl ved modtagelse af elektroniske dokumenter
 
 1. På siden **Indgående bilag** skal du vælge linjen for et elektronisk dokument, der er modtaget fra OCR-tjenesten med fejl, der angives ved værdien *Fejl* i feltet **OCR Status**.
 2. Vælg handlingen **Rediger** for at åbne siden **Indgående bilag**.
@@ -104,7 +104,7 @@ Ud over tilknytning til en kreditorkonto eller finanskonti kan du også knytte t
 6. Fortsæt med at behandle det indgående elektroniske dokument ved vælge handlingen **Opret manuelt** igen.
 7. Gentag trin 5 og 6 for de resterende fejl, indtil det elektroniske dokument kan modtages uden fejl.
 
-## Sådan lærer du OCR-tjenesten at undgå fejl
+## <a name="to-train-the-ocr-service-to-avoid-errors"></a>Sådan lærer du OCR-tjenesten at undgå fejl
 
 Da OCR er baseret på optiske registrering, kan OCR-tjenesten fortolke tegn forkert i PDF- eller billedfilerne forkert, første gang programmet f.eks. behandler dokumenter fra en bestemt kreditor. Det fortolker muligvis virksomhedens logo som leverandørens navn eller fejlfortolker det samlede beløb på en kvittering på grund af layoutet. Hvis du vil undgå disse fejl fremover, skal du rette data modtaget af tjenesten OCR og derefter sende feedback til tjenesten.
 
@@ -120,9 +120,9 @@ Siden **Korrektion af OCR-data**, som du kan åbne fra siden **Indgående bilag*
 
 Felterne i oversigtspanelet **Finansielle oplysninger** på siden **Indgående bilag** opdateres med de nye værdier, du angav i trin 4.
 
-## Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oprette indgående bilagsposter](across-how-create-income-document-records.md)
 [Oprette indgående bilagsposter direkte fra dokumenter og poster](across-how-connect-disconnect-income-document-records.md)

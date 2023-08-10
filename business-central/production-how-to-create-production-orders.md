@@ -10,7 +10,7 @@ ms.search.form: '9325, 99000815, 99000829, 9900083'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Oprette produktionsordrehoveder
+# <a name="create-production-order-headers"></a>Oprette produktionsordrehoveder
 
 Du kan oprette en produktionsordre manuelt, og det første trin i denne procedure er at oprette et produktionsordrehoved.
 
@@ -18,7 +18,7 @@ Produktionsordrer oprettes typisk automatisk af en planlægningsfunktion til opf
 
 I proceduren nedenfor oprettes en fastlagt produktionsordre. Du kan også oprette produktionsordrer med en anden status.  
 
-## Sådan oprettes et produktionsordrehovede
+## <a name="to-create-a-production-order-header"></a>Sådan oprettes et produktionsordrehovede
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Fastlagt produktionsordrer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -31,7 +31,7 @@ I proceduren nedenfor oprettes en fastlagt produktionsordre. Du kan også oprett
 
 Når du ændrer produktionskravene, f.eks. komponenter og operationer, kan du hurtigt omplanlægge produktionsordren. Du kan finde flere oplysninger i [Omplanlægge eller forny produktionsordrer direkte](production-how-to-replan-refresh-production-orders.md).  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Produktion](production-manage-manufacturing.md)
 [Konfigurere produktion](production-configure-production-processes.md)  

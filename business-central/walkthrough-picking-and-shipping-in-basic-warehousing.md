@@ -9,7 +9,7 @@ ms.date: 02/27/2023
 ms.custom: bap-template
 ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ---
-# Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger
+# <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Gennemgang: Pluk og forsendelse i grundlæggende lageropsætninger
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du modtage varer og indsætte dem på en af fire måder som beskrevet i følgende tabel.
 
@@ -24,7 +24,7 @@ Få mere at vide på [Udgående lagerstedsflow](design-details-outbound-warehous
 
 Den følgende gennemgang viser metode B i forrige tabel.  
 
-## Om denne gennemgang
+## <a name="about-this-walkthrough"></a>Om denne gennemgang
 
 I grundlæggende lageropsætninger, hvor lokationen, du vil plukke fra, er sat op til at kræve pluk, men ikke leverance, bruges siden **Pluk (lager)** til at registrere og bogføre pluk- og leveranceoplysninger for de udgående kildedokumenterne. Det udgående kildedokumentet kan være en salgsordre, en købsreturvareordre, en udgående overflytning eller en produktionsordre med komponentbehov.  
 
@@ -36,7 +36,7 @@ Denne gennemgang viser følgende opgaver:
 - Oprette et pluk baseret på et frigivet kildedokumentet.  
 - Registrering af lagerbevægelsen fra lageret og på samme tid bogføring af salgsleverancen til kildesalgsordren.  
 
-## Roller
+## <a name="roles"></a>Roller
 
 Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:  
 
@@ -51,33 +51,33 @@ To complete this walkthrough, you will need:
 - For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
  -->
 
-## Historie
+## <a name="story"></a>Historie
 
 Ellen, lagerlederen hos CRONUS, konfigurerer lagerstedet SYD til grundlæggende håndtering af pluk, hvor lagermedarbejdere kan behandle udgående ordrer enkeltvis. Susan, ordrebehandleren, opretter en salgsordre for 30 enheder af varen LS-1928-S, der skal sendes til debitor 10000 på lagerstedet SYD. John, som arbejder på lageret, skal sørge for, at forsendelsen klargøres og leveres til debitoren. John administrerer alle involverede opgaver på siden **Pluk (lager)**, som automatisk peger på de placeringer, hvor 1928-S opbevares.
 
 [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
 
-### Indstilling af placeringskoder
+### <a name="setting-up-the-bin-codes"></a>Indstilling af placeringskoder
 
 Når du har oprettet lokationen, skal du tilføje to placeringer.
 
-#### Indstilling af placeringskoder
+#### <a name="to-setup-the-bin-codes"></a>Indstilling af placeringskoder
 
 1. Vælg handlingen **Placeringer**.
 2. Opret to placeringer med koderne *S-01-0001* og *S-01-0002*.
 
-### Selv oprette en lagermedarbejder på lokationen SYD
+### <a name="making-yourself-a-warehouse-employee-at-location-south"></a>Selv oprette en lagermedarbejder på lokationen SYD
 
 Hvis du vil bruge denne funktion, skal du føje dig selv til lokationen som en lagermedarbejder. 
 
-#### Sådan oprettes en lagermedarbejder som en lagermedarbejder
+#### <a name="to-make-yourself-a-warehouse-employee"></a>Sådan oprettes en lagermedarbejder som en lagermedarbejder
 
   1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig første.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
   2. Vælg feltet **Bruger-id**, og vælg din egen brugerkonto på siden **Lagerstedsansatte**.
   3. Angiv SYD i feltet **Lokationskode**.  
   4. Vælg handlingen **Bogfør**, og vælg derefter knappen **Ja**.  
 
-### Gør vare 1928-S tilgængelig
+### <a name="making-item-1928-s-available"></a>Gør vare 1928-S tilgængelig
 
 Gør varen 1928-S tilgængelig på SYD-lokationen ved at følge disse trin:  
 
@@ -94,11 +94,11 @@ Gør varen 1928-S tilgængelig på SYD-lokationen ved at følge disse trin:
   3. Vælg **Bogfør** i gruppen **Bogføring** under fanen **Handlinger**.  
   4. Vælg knappen **Ja**.  
 
-## Oprettelse af salgsordren
+## <a name="creating-the-sales-order"></a>Oprettelse af salgsordren
 
 Salgsordrer er den mest almindelige type udgående kildedokument.  
 
-### Sådan oprettes salgsordren
+### <a name="to-create-the-sales-order"></a>Sådan oprettes salgsordren
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig tredje.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -114,11 +114,11 @@ Salgsordrer er den mest almindelige type udgående kildedokument.
 
     John fortsætter ved at vælge og sende de solgte varer.  
 
-## Sådan plukkes og leveres varer
+## <a name="picking-and-shipping-items"></a>Sådan plukkes og leveres varer
 
 På siden **Pluk (lager)** kan du administrere alle udgående lageraktiviteter til et specifikt kildedokument såsom en salgsordre. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-### Sådan foretages pluk og levering af varer
+### <a name="to-pick-and-ship-items"></a>Sådan foretages pluk og levering af varer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig fjerde.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk fra lager**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -135,9 +135,9 @@ På siden **Pluk (lager)** kan du administrere alle udgående lageraktiviteter t
 
     De 30 Amsterdam Lamps er nu registreret som plukket fra placeringerne S-01-0001 og S-01-0002, og der oprettes en negativ varepost, der afspejler den bogførte salgsleverance.  
 
-## Se relateret [Microsoft-træning](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/pick-ship-items-business-central/)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Plukke varer med Pluk fra lager](warehouse-how-to-pick-items-with-inventory-picks.md)  
 [Plukke varer til lagerleverance](warehouse-how-to-pick-items-for-warehouse-shipment.md)  

@@ -10,11 +10,11 @@ ms.search.form: '7600, 7601, 7602, 5703'
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# Konfigurere basiskalendere
+# <a name="set-up-base-calendars"></a>Konfigurere basiskalendere
 
 Du kan tildele en basiskalender til din virksomhed eller til virksomhedens samarbejdspartnere, f.eks. kunder, leverandører eller lokationer. Leverings- og modtagelsesdatoer på fremtidige salgsordrer, købsordrer, overflytningsordrer og produktionsordrelinjer beregnes i overensstemmelse med de arbejdsdage, der er angivet i kalenderen. Den vigtigste opgave i forbindelse med oprettelse af en ny basiskalender, er at angive og definere de fridage, som du vil anvende.  
 
-## Sådan oprettes en basiskalender
+## <a name="to-set-up-a-base-calendar"></a>Sådan oprettes en basiskalender
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Basiskalender**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
@@ -36,7 +36,7 @@ Når du indtaster en linje, vil feltet **Fridag** være markeret. Du kan vælge 
 >  Enhver basiskalender, der er defineret for kreditoren eller lokationen, påvirker, hvordan datoerne beregnes og afrundet til arbejdsdage.
 Angiver en datoformel for det tidsrum, det tager at genbestille varen. Den bruges til at beregne feltet **Planlagt modtagelsesdato**, hvis du beregner fremad, og feltet **Ordredato**, hvis du beregner bagud. Se [Leveringstid](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
-## Leveringstid
+## <a name="lead-time-calculation"></a>Leveringstid
 
 Enhver basiskalender, der er defineret for kreditoren eller lokationen, påvirker, hvordan datoerne beregnes og afrundet til arbejdsdage. I henhold hertil beregnes de to vigtige datofelter på købsordrelinjer på følgende måde under forskellige betingelser.
 
@@ -53,7 +53,7 @@ Enhver basiskalender, der er defineret for kreditoren eller lokationen, påvirke
 
 Indeholder i feltet **Leveringstid** kopieres fra enten varekortet eller lagervarekortet, hvis leveringstiden er defineret for varen, eller på siden **Vare/Leverandør-katalog**, hvis leveringstiden er defineret for kreditoren.
 
-## Sådan tilpasses en kalender
+## <a name="to-customize-a-calendar"></a>Sådan tilpasses en kalender
 Den vigtigste opgave i forbindelse med tilpasning af en basiskalender for din virksomhed eller en samarbejdspartner, er at angive eventuelle ændringer i statussen for arbejdsdage eller fridage.
 
 En basiskalender vil f.eks. typisk opgive alle lørdage som fridage. Den tilpassede kalender for en bestemt lokation kan f.eks. angive alle lørdage i november og december måned og op til ferieperioden, som arbejdsdage.
@@ -86,7 +86,7 @@ Hvis du ikke udfylder feltet **Speditørkode** på ordrelinjen, bruger programme
 > [!NOTE]  
 > Hvis du foretager ændringer i en kalender, hvori der er foretaget tilpassede kalenderændringer, opdateres alle eksisterende tilpassede kalendere automatisk.
 
-## Sådan tildeles en basiskalender  
+## <a name="to-assign-a-base-calendar"></a>Sådan tildeles en basiskalender
 I følgende procedure planlægges leveringsdatoer på salgsordrelinjer for en kunde som eksempel.
 
 Basiskalendere er knyttet til din egen virksomhed, debitorer, kreditorer, placeringer og speditører som følger:  
@@ -108,7 +108,7 @@ Basiskalendere er knyttet til din egen virksomhed, debitorer, kreditorer, placer
 > [!NOTE]  
 >  Før du kan oprette poster i tilpassede kalendere, skal du tildele en basiskalender til virksomheden.  
 
-## Se også
+## <a name="see-also"></a>Se også
 [Køb](purchasing-manage-purchasing.md)  
 [Produktion](production-manage-manufacturing.md)    
 [Lagerbeholdning](inventory-manage-inventory.md)  

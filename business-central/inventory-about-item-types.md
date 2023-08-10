@@ -12,7 +12,7 @@ ms.search.form: '9297, 5845, 30,'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# Om varetyper
+# <a name="about-item-types"></a>Om varetyper
 I feltet **Type** på siden **Varekort** kan du vælge, hvad varen bruges til i virksomheden, hvilket påvirker, hvordan du kan administrere varen i lageret. I følgende tabel vises og beskrives de tre typer varer, der er tilgængelige.
 
 |Indstilling|Typisk formål|
@@ -32,19 +32,19 @@ Følgende tabel viser oversigt over de funktioner, de tre varetyper understøtte
 |Ikke på lager|Ja|Ja|Ja|Ja|Ja|Ja|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Ja|
 |Tjeneste|Ja|Ja|Ja|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Ja|
 
-## Kostmetoder for varetyper
+## <a name="costing-methods-for-types-of-items"></a>Kostmetoder for varetyper
 Når du bogfører lagertransaktioner, registreres ændringer i antal og værdi på lageret i henholdsvis vareposterne og værdiposterne. 
 
 For lagervarer registreres omkostningen i feltet **Kostbeløb (faktisk)** på siden **Værdiposter**, og når den afstemmes med Finans, vises omkostningen i feltet **Bogført kostværdi**. Du kan finde flere oplysninger i [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md).
 
 For ikke-lager og serviceartikler registreres omkostningen i feltet **Kostbeløb (ikke-lager)** på siden **Værdiposter**. For ikke-lager og serviceartikler er omkostningen angivet i salgs-, montage- og produktionsbilag og kladder. Standardkostprisen kan angives i feltet **Kostpris** på siderne **Varekort** og **Lagervare (pr. lok.)**. Kostpriser for disse typer af varer afstemmes ikke med Finans. 
 
-## Katalog og serviceartikler
+## <a name="catalog-and-service-items"></a>Katalog og serviceartikler
 Varer, som du tilbyder til dine kunder, men som du ikke vil administrere i dit system, før du begynder at sælge dem, kan oprettes som katalogvarer. Katalogvarer må ikke forveksles med almindelige varer af typen Ikke-lager. Du kan finde flere oplysninger i [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md).
 
 Kunders varer, du udfører reparation på, f.eks. en printer, kaldes serviceartikler. Serviceartikler har intet at gøre med almindelige varer eller katalogvarer. Servicekomponenterne kan dog være almindelige varer. Du kan finde flere oplysninger i [Konfigurere serviceartikler og serviceartikelkomponenter](service-how-setup-service-items.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Opsætning af lagerbeholdning](inventory-setup-inventory.md)  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  

@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ---
 
-# Konfigurere Service
+# <a name="setting-up-service-management"></a>Konfigurere Service
 Før du kan begynde at bruge Service-funktionerne i [!INCLUDE[prod_short](includes/prod_short.md)], der er et par ting, du skal konfigurere. Du kan f.eks. oprette koder for standardservice, symptom- og fejlkoder, og de serviceartikler og serviceartikeltyper efter de behov, som virksomhedens debitorservice kræver.  
 
 Når du konfigurerer service, skal du beslutte, hvilke serviceydelser du vil tilbyde kunderne, og fastlægge en plan for disse serviceydelser. En service er en type arbejde, der udføres af en eller flere ressourcer og ydes til en kunde. En service kan f.eks. være en type computerreparation. En serviceartikel er det udstyr eller den artikel, der har brug for service, f.eks. den computer, der skal repareres, og som er installeret hos en bestemt kunde. Du kan konfigurere serviceydelser som en del af en gruppe af relaterede reparations- eller vedligeholdelsesydelser.  
@@ -35,7 +35,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Konfigurere serviceartikler og serviceartikelkomponenter. |[Opsætte serviceartikler](service-how-setup-service-items.md) |
 | Skab grundlaget for oprettelse af servicekontrakter og kontrakttilbud. |[Opsætte servicekontrakter](service-how-setup-service-contracts.md) |
 
-## Se også
+## <a name="see-also"></a>Se også
 [Service Management](service-service.md)  
 [Blive køreklar](ui-get-ready-business.md)  
 

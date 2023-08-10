@@ -11,12 +11,12 @@ ms.date: 06/23/2021
 ms.author: edupont
 ROBOTS: NOINDEX
 ---
-# Udvidelsen Overførsel af data med Dynamics GP
+# <a name="the-dynamics-gp-data-migration-extension"></a>Udvidelsen Overførsel af data med Dynamics GP
 
 > [!NOTE]
 > Udvidelsen er udfaset i 15.3-opdateringen. Det anbefales, at brugere, der vil overflytte fra Dynamics GP, begynder at bruge guiden **Skymigrering** i stedet. **Skymigrering**-udvidelsen har mere robust funktionalitet og henter flere data til Business Central fra Dynamics GP. Du kan finde flere oplysninger i [Overføre til Business Central Online fra Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp) i administrationsindholdet for [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Intelligente skyudvidelser til skymigrering](ui-extensions-data-replication.md)  
 [Importer virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  

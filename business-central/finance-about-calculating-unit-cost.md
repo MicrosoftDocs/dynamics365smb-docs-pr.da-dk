@@ -7,13 +7,13 @@ ms.topic: article
 ms.date: 03/06/2022
 ms.author: edupont
 ---
-# Om Kostprisberegning
+# <a name="about-unit-cost-calculation"></a>Om Kostprisberegning
 
 Hver vare har en kostpris, der er beregnet på basis af virksomhedens kostmetode og andre faktorer. Som regel er værdien i feltet *Kostpris* på varekortet baseret på **standardkostprisen** for varer, der følger standardkostmetoden. For alle andre kostmetoder (*FIFO*, *LIFO*, *specifik* og *gennemsnit*) beregnes kostprisen ud fra den gennemsnitlige kostpris på en tidsperiode.  
 
 Der er flere oplysninger i [Administration af lageromkostninger](finance-manage-inventory-costs.md).  
 
-## Når kostprisen for enheden opdateres
+## <a name="when-is-the-unit-cost-field-updated"></a>Når kostprisen for enheden opdateres
 
 Den valgte omkostningsmetode påvirkes, når **Kostprisen** er opdateret.
 
@@ -33,35 +33,35 @@ Hvis en af disse forudsætninger er til stede, opdateres feltet **Kostprisen** m
 
 I feltet **Kostpris** på varekortet kan du specificere for at vise en oversigt over transaktioner, som den gennemsnitlige kostpris beregnes ud fra siden **Oversigt over beregning af gns. kostpris**.
 
-## Beregne kostpris ved køb
+## <a name="unit-cost-calculation-for-purchases"></a>Beregne kostpris ved køb
 
 Når du køber varer, overføres værdien i feltet **Sidste købspris** på varekortet altid til feltet **Direct Unit Cost** på en købslinje eller til linjen **Pris** på en serviceartikelkladdelinje.
 
 Det, du vælger i feltet **Kostmetode**, har indflydelse på, hvordan [!INCLUDE[prod_short](includes/prod_short.md)] beregner indholdet i felterne **Kostpris** på linjerne.
 
-### Kostmetoden FIFO, LIFO, Specifik eller Gennemsnit
+### <a name="costing-method-fifo-lifo-specific-or-average"></a>Kostmetoden FIFO, LIFO, Specifik eller Gennemsnit
 
 [!INCLUDE[prod_short](includes/prod_short.md)] beregner indholdet af feltet **Kostpris RV** på købslinjen og indholdet af feltet **Kostpris** på serviceartikelkladdelinjen beregnes efter følgende formel:
 
 *Kostpris (RV) = (Direkte kostpris - (Fakturarabatbeløb/Antal)) x (1 + Omkostningspct./100) + IPO-bidrag*
 
-### Standardkostmetoden
+### <a name="costing-method-standard"></a>Standardkostmetoden
 
 Feltet **Kostpris (RV)** på købslinjen eller feltet **Kostpris** udfyldes på varekladdelinjen ved at kopiere værdien i feltet **Kostpris** på varekortet. Ved at bruge kostmetoden som *Standard*, er værdien altid baseret på standardkostprisen.
 
 Når du bogfører købet, anvender [!INCLUDE[prod_short](includes/prod_short.md)] kostprisen fra købslinjen eller varekladdelinjen til købsfakturaposten. Den kan ses på varens postoversigt.
 
-### Alle kostmetoder
+### <a name="all-costing-methods"></a>Alle kostmetoder
 
 Programmet bruger altid kostprisen fra kildedokumentlinjen til at beregne indholdet af feltet **Kostbeløb faktisk**, eller hvis det er relevant, feltet **Kostbeløb forventet** i forbindelse med denne post, uanset hvilken kostmetode der anvendes for varen.
 
-## Beregne kostpris ved salg
+## <a name="unit-cost-calculation-for-sales"></a>Beregne kostpris ved salg
 
 Når du sælger varer, overføres kostprisen altid fra feltet **Kostpris** på varekortet til salgslinjen eller serviceartikelkladdelinjen.
 
 Når du bogfører overføres kostprisen til salgsfakturaposten, og den kan ses på varens postoversigt. [!INCLUDE[prod_short](includes/prod_short.md)] bruger kostprisen fra kildedokumentlinjen til beregne indholdet af feltet **Kostbeløb faktisk** eller, hvis det er relevant, feltet **Kostbeløb forventet** i den værdipost, der er forbundet med denne varepost.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Registrere nye varer](inventory-how-register-new-items.md)  

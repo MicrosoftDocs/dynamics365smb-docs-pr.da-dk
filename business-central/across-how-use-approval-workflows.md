@@ -9,7 +9,7 @@ ms.search.form: '654, 662, 1500,'
 ms.date: 09/12/2022
 ms.author: edupont
 ---
-# Sådan bruger du godkendelsesworkflows
+# <a name="how-to-use-approval-workflows"></a>Sådan bruger du godkendelsesworkflows
 
 Når en post, f.eks et købsdokument eller et debitorkort, skal godkendes af en person i organisationen, sendes en godkendelsesanmodning som en del af en arbejdsgang. Afhængigt af hvordan arbejdsgangen er konfigureret, får den relevante godkender derefter besked om, at posten kræver godkendelse.
 
@@ -19,7 +19,7 @@ Ud over godkendelsesworkflows, der er beskrevet i denne artikel, kan du udføre 
 
 Grundlæggende godkendelsesworkflows for købsdokumenter, salgsdokumenter, udbetalingskladder, debitorkort og varekort er klar til brug som vejledninger. Flere oplysninger i [Blive køreklar](ui-get-ready-business.md).
 
-## Anmode om godkendelse af en post
+## <a name="request-a-record-approval"></a>Anmode om godkendelse af en post
 
 Følgende opgave udføres af en godkendelsesbruger.
 
@@ -30,7 +30,7 @@ Godkendelsespostens status opdateres fra **Oprettet** til **Åben**. Postens sta
 
 Når alle de ønskede godkendere har godkendt posten, ændres status til **Frigivet**. Du kan derefter fortsætte med at arbejde med posten.
 
-## Annuller godkendelsesanmodninger
+## <a name="cancel-approval-requests"></a>Annuller godkendelsesanmodninger
 
 Følgende opgave udføres af en godkendelsesbruger med godkendelsesrettigheder.
 
@@ -40,7 +40,7 @@ En kunde vil måske ændre en ordre, efter at den er sendt til godkendelse. I s�
 
 Når godkendelsesanmodningen er annulleret, ændres statussen for den relaterede godkendelsespost til **Annulleret**. Postens status opdateres fra **Afventer godkendelse** til **Åben**. Herefter kan godkendelsesprocessen starte igen.
 
-## Godkende eller afvise anmodninger om godkendelse
+## <a name="approve-or-reject-approval-requests"></a>Godkende eller afvise anmodninger om godkendelse
 
 Følgende opgave udføres af en godkendelsesbruger med godkendelsesrettigheder.
 
@@ -56,7 +56,7 @@ Hvis der er konfigureret et godkenderhierarki, er poststatussen **Afventer godke
 
 På samme tid ændres godkendelsespostens status fra **Oprettet** til **Åben**, så snart der oprettes en godkendelsesanmodning for posten. Hvis anmodningen afvises, ændres godkendelsesstatusen til **Afvist**. Statussen forbliver **Åben** eller **Afvist**, indtil alle godkendere har godkendt anmodningen.
 
-## Uddelegere anmodninger om godkendelse
+## <a name="delegate-approval-requests"></a>Uddelegere anmodninger om godkendelse
 
 Følgende opgave udføres af en godkendelsesbruger med godkendelsesrettigheder.
 
@@ -67,7 +67,7 @@ For at forhindre, at poster hober sig op eller på anden måde blokerer arbejdsg
 
 En notifikation til at godkende anmodningen sendes til en anden foruddefineret stedfortrædende godkender.
 
-## Administrere forfaldne godkendelsesanmodninger
+## <a name="manage-overdue-approval-requests"></a>Administrere forfaldne godkendelsesanmodninger
 
 Følgende opgave udføres af en godkendelsesbruger med godkendelsesrettigheder.
 
@@ -78,9 +78,9 @@ Funktionen **Send notifikationer om forfaldne godkendelser** tjekker for alle å
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Overskredne anmodninger om godkendelsesfrist**, og vælg derefter det relaterede link.
 2. På siden **Forfaldne godkendelsesanmodninger** skal du vælge handlingen **Send notifikationer om forfaldne godkendelser**.
 
-## Se relateret [Microsoft-træning](/training/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/use-approval-workflows/)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Bruge godkendelsesworkflows](across-use-workflows.md)  
 [Workflow](across-workflow.md)  
