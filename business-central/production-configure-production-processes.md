@@ -1,22 +1,16 @@
 ---
 title: Konfigurere produktionsprocesser
-description: Hvis du vil konvertere materialer til fremstillede færdigvarer, skal produktionsressourcer, f.eks. styklister, ruter, maskinoperatører og maskiner, konfigureres i systemet.
+description: 'Hvis du vil konvertere materialer til fremstillede færdigvarer, skal produktionsressourcer, f.eks. styklister, ruter, maskinoperatører og maskiner, konfigureres i systemet.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000768, 99000779, 99000780, 99000866
+ms.search.form: '99000768, 99000779, 99000780, 99000866'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ae567c2ac44c1b8b272b7a7f2ed1e9ba4826b60
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: da-DK
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605761"
 ---
-# <a name="setting-up-manufacturing"></a>Konfigurere produktion
+# Konfigurere produktion
 
 Hvis du vil konvertere materialer til fremstillede færdigvarer, skal produktionsressourcer, f.eks. styklister, ruter, maskinoperatører og maskiner, konfigureres i systemet.
 
@@ -39,7 +33,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Brug standardoperationer til at forenkle oprettelsen af ruter ved hurtigt at knytte ekstra oplysninger til gentagne operationer.|[Konfigurere standardrutelinjer](production-how-set-up-standard-routing-lines.md)|  
 |Forbered arbejdscentre og ruter til at repræsentere underleverandørens produktionsoperationer.|[Produktion hos underleverandør](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Produktion](production-manage-manufacturing.md)  
 [Skabelon](production-planning.md)  

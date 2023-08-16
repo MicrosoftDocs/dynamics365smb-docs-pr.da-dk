@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary, bank-to-bank'
 ms.search.form: '600, 610'
 ---
-# <a name="work-with-intercompany-documents-and-journals"></a>Arbejde med koncerninterne dokumenter og kladder
+# Arbejde med koncerninterne dokumenter og kladder
 
 Bruge IC-dokumenter eller -kladder til at bogføre transaktioner med koncerninterne partnere. Du kan bogføre transaktioner på finanskonti, og hvis du har oprettet IC-bankkonti, kan du også bogføre bank-til-bank-transaktioner. Hvis du vil vide mere om oprettelse af IC-bankkonti, skal du vælge at [Angive de bankkonti, der skal bruges til IC-partnere](intercompany-how-setup.md#specify-the-bank-accounts-to-use-for-intercompany-partners).  
 
@@ -20,7 +20,7 @@ For salgs- og købsdokumenter sikrer den koncerninterne partnerkode på den invo
 
 Det samme gælder for IC-finanskladdelinjer. Du behøver ikke at angive konti, men du skal blot vælge partnervirksomheden. De tilsvarende IC-finanskladdelinjer oprettes derefter i partnervirksomheden.
 
-## <a name="fill-in-and-send-an-intercompany-sales-order"></a>Udfylde og indsende en IC-salgsordre
+## Udfylde og indsende en IC-salgsordre
 
 Du kan sende salgs- og købsordrer og returordrer, før du bogfører dem. Fakturaer og kreditnotaer kan ikke sendes, før de er blevet bogført.
 
@@ -35,7 +35,7 @@ Den følgende procedure beskriver, hvordan du udfylder og sender en IC-salgsordr
 > [!NOTE]
 > Hvis du udfører trin 5, flyttes salgsordren derefter til din koncerninterne udbakke, hvor kan du sende den senere. Du kan få mere at vide om IC-indbakken og -udbakken ved at gå til [Administrere IC-indbakke og -Udbakke](intercompany-how-manage-intercompany-inbox.md).
 
-## <a name="fill-in-and-post-an-intercompany-journal"></a>Udfylde og bogføre en IC-kladde
+## Udfylde og bogføre en IC-kladde
 
 Når du bogfører en koncernintern finanskladdelinje i regnskabet, oprettes der en tilsvarende finanskladdelinje i din koncerninterne udbakke, som du kan overføre til partneren. Med 2022 udgivelsesbølge 1 kan du også angive, at regnskabet automatisk skal oprette IC-transaktioner, der er modtaget fra IC-partnere, og som bogføres via IC-finanskladden. Din partner kan derefter bogføre den tilsvarende transaktion direkte i sit eget regnskab uden at skulle indtaste oplysningerne igen.
 
@@ -50,7 +50,7 @@ Når du bogfører en koncernintern finanskladdelinje i regnskabet, oprettes der 
 
 De involverede poster bogføres i regnskabet, og der oprettes en kladde med de tilsvarende poster i din koncerninterne udbakke, som du kan sende til din partnervirksomhed.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere Intercompany-transaktioner (IC)](intercompany-manage.md)  
 [Finans](finance.md)  

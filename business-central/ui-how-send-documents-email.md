@@ -5,7 +5,7 @@ author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: 'SMTP, mail, Microsoft 365, cover, body, PayPal, layout'
-ms.search.form: null
+ms.search.form: '41,'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
@@ -13,7 +13,7 @@ ms.author: edupont
 
 Du kan nemt dele oplysninger og dokumenter, f.eks. salgs- og købsordrer og fakturaer, via mail direkte fra [!INCLUDE[prod_short](includes/prod_short.md)] uden at skulle åbne en mailapp.  
 
-Du kan sende næsten alle typer dokumenter som vedhæftede PDF-filer. Du kan også oprette et rapportlayout, der indeholder oplysninger fra dokumentet i e-mail-teksten, sammen med tekst, som gør e-mailen mere brugervenlig, f.eks. en standardhilsen. Du kan finde flere oplysninger i [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
+Du kan sende næsten alle typer dokumenter som vedhæftede PDF-filer. Du kan også oprette et rapportlayout, der indeholder oplysninger fra dokumentet i e-mail-teksten, sammen med tekst, som gør e-mailen mere brugervenlig, f.eks. en standardhilsen. Du kan finde flere oplysninger i [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md).
 
 Når du sender fakturaer, kan du gøre det nemmere for kunderne at foretage betalinger via en betalingstjeneste, som f.eks. PayPal, ved automatisk at tilføje oplysninger og en kæde til tjenesten i e-mailen. Du kan finde flere oplysninger i [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md).
 
@@ -24,12 +24,12 @@ For at aktivere mails fra [!INCLUDE[prod_short](includes/prod_short.md)] skal du
 
 ## Sådan sendes dokumenter som mail
 
-Denne fremgangsmåde beskriver, hvordan du vedhæfter en bogført-salgsfaktura til en e-mail som PDF-fil og med dokumentspecifik e-mail-tekst. <!--update this-->
+Denne fremgangsmåde beskriver, hvordan du vedhæfter en bogført-salgsfaktura til en e-mail som PDF-fil og med dokumentspecifik e-mail-tekst. Fremgangsmåden er den samme for de andre dokumenter.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.
-2. Vælg den relevante bogførte salgsfaktura, vælg **Udskriv/Send**, og vælg derefter handlingen **Send**.
+2. Vælg den relevante bogførte salgsfaktura, vælg **Udskriv/Send**, og vælg derefter handlingen **Send med e-mail**.
 3. I feltet **Mail** skal du vælge **Ja (Bed om indstillinger)**. Du kan finde flere oplysninger i [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md).
-    
+
     Hvis feltet **Mail** på siden **Send bilag til** indstilles til **Ja (Bed om indstillinger)**, åbnes siden **Send mail** forhåndsudfyldt med kontaktpersonen i feltet **Til:** og dokumentet vedhæftet som PDF-fil. I feltet **Tekst** kan du enten indtaste tekst manuelt, eller du kan få udfyldt feltet med dokumentspecifikke brødtekst i mail, som du har oprettet.
 
 4. Vælg knappen **OK**.
@@ -51,7 +51,17 @@ Du kan hurtigt oprette e-mails til kontakter, debitorer, kreditorer, sælgere/in
 > [!TIP]
 > Hvis du ofte sender e-mailmeddelelser, der ligner hinanden, eller du vil sende en masse kommunikation, f. eks. for at annoncere en salgskampagne, kan du bruge Word-skabeloner med e-mail til at gøre processen hurtigere. Du kan oprette en skabelon for en eller flere enheder, f. eks. kunder, leverandører og kontakter, som vil generere indholdet af en e-mail for dig, og endda tilpasse indholdet for modtageren baseret på data i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Bruge Word-skabeloner til masse kommunikation](ui-mail-merge.md).  
 
+### Vedhæfte dokument til en e-mail
+
+Du kan vedhæfte dokumenter til e-mails på flere måder.
+
 Hvis du er tildelt et e-mailscenarie med relation til det objekt, du sender e-mailen til, eller hvis det dokument, du sender, bliver du muligvis automatisk føjet til din meddelelse. Det skyldes, at der er tildelt en standard vedhæftning til e-mail-scenariet. Du kan slette den vedhæftede fil, hvis du ikke vil sende den med din meddelelse. Du kan finde flere oplysninger i [Tildele e-mailscenarier til e-mailkonti](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
+
+Hvis du selv vil vedhæfte en fil, skal du bruge følgende handlinger i e-mail-editoren:
+
+* Vælg **Tilføj fil** for at vælge en fil.
+* Vælg **Tilføj filer fra standardmarkeringen**, hvis du vil tilføje en fil, der er knyttet til e-mail-scenariet manuelt.
+* Vælg **Tilføj fil fra kildedokumentet** for at vælge en fil, der er vedhæftet det dokument, du arbejder med. Filerne er enten vedhæftet selve dokumentet eller på en eller flere af dens linjer.
 
 ## Dokumenter, der er markeret som udskrevne, når de sendes
 

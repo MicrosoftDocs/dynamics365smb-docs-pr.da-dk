@@ -10,14 +10,14 @@ ms.search.keywords: 'SMTP, mail, Microsoft 365'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="use-business-central-without-outlook"></a>Brug Business Central uden Outlook
+# Brug Business Central uden Outlook
 [!INCLUDE[prod_short](includes/prod_short.md)] er tæt integreret med Microsoft 365, og du kan bruge [!INCLUDE[prod_short](includes/prod_short.md)] som din virksomhedsindbakke i Outlook. Men hvis du ikke har Outlook, kan du arbejde med [!INCLUDE[prod_short](includes/prod_short.md)] i webbrowseren eller på mobilenheden.  
 
-## <a name="sending-email"></a>Sende mail
+## Sende mail
 Du kan sende dokumenter som f.eks. fakturaer som mail ved hjælp af din virksomheds mailadresse. Du kan åbne en assisteret opsætningsvejledning, som hjælper dig med at konfigurere mail fra dit rollecenter. Hvis du ikke bruger en Microsoft 365-mailkonto, skal du angive tekniske oplysninger om din mailserver. Hvis du ikke har disse oplysninger, skal du kontakte en it-supportmedarbejder.  
 
 
-## <a name="see-also"></a>Se også
+## Se også
 [Blive køreklar](ui-get-ready-business.md)  
 [Brug Business Central som din virksomheds Indbakke i Outlook](admin-outlook.md)  
 [Få Business Central på min mobilenhed](install-mobile-app.md)  

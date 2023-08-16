@@ -350,9 +350,10 @@
 
 ### Administrere moms
 #### [Oversigt over momsstyring](finance-manage-vat.md)
-#### Opsætning af moms
+#### [Købstransaktioner for tredjeparter i EU](finance-how-to-eu3party-trade-purchase.md)
+#### Opsætte moms
 ##### [Opsætte merværdiafgift (moms)](finance-setup-vat.md)
-##### [Opsætning af bogføringsgruppe](finance-posting-groups.md#tax-posting-groups)
+##### [Opsætte bogføringsgruppe](finance-posting-groups.md#tax-posting-groups)
 ##### [Opsætte ikke-fradragsberettiget moms](finance-setup-nondeductible-vat.md)
 ##### [Opsætte urealiseret merværdiafgift](finance-setup-unrealized-vat.md)
 ##### [Opsætte en momsangivelse](finance-how-setup-vat-statement.md)
@@ -1993,14 +1994,14 @@
 #### [Designoplysninger: Søgning efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)  
 #### [Designoplysninger: Tabelstruktur](design-details-table-structure.md)
 <!--migrate to BC online-->
-## Overflytte til Business Central Online
-### [Overføre data fra det lokale miljø](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
-### [Køre skyoverflytningsværktøj](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)
-### [Administrere overflytningen til skyen](/dynamics365/business-central/dev-itpro/administration/migration-management?toc=/dynamics365/business-central/toc.json)
-### [Overflytte fra Business Central lokalt](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
-### [Overflytte fra Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
-### [Overflytte fra Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
-### [Ofte stillede spørgsmål om migrering til skyen](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
+## Migrere til Business Central Online
+### [Introduktion](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
+<!--### [Running the Cloud Migration Tool](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)-->
+### [Administrere migrering til skyen](/dynamics365/business-central/dev-itpro/administration/migration-manage?toc=/dynamics365/business-central/toc.json)
+### [Migrere fra Business Central lokalt](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
+### [Migrere fra Dynamics GP](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
+<!--### [Migrating from Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)-->
+### [Ofte stillede spørgsmål om migrering til skyen](/dynamics365/business-central/dev-itpro/administration/faq-migrate-data?toc=/dynamics365/business-central/toc.json)
 ## [Administration i Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Udvikling](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
 ## [Sikkerhed og beskyttelse](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

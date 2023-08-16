@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
-# <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Søgning efter debitorer, kreditorer og andre kontakter fra Microsoft Teams
+# Søgning efter debitorer, kreditorer og andre kontakter fra Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]. Introduceret i 2021 udgivelsesbølge 1.
 
@@ -21,7 +21,7 @@ ms.author: jswymer
 - Dele en kontaktperson som et kort i en Teaks-samtale.
 - Få vist detaljer om kontakt, interaktionshistorik og anden indsigt som f.eks. udestående betalinger eller åbne dokumenter.
 
-## <a name="prerequisites"></a>Forudsætninger
+## Forudsætninger
 
 - Du har adgang til Microsoft Teams.
 - Du har installeret [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams. Du kan finde flere oplysninger i [Installere [!INCLUDE [prod_short](includes/prod_short.md)]-app til Microsoft Teams](across-install-app-for-teams.md).
@@ -30,7 +30,7 @@ ms.author: jswymer
 > [!NOTE]
 > Hvis du søger fra kommandoboksen eller meddelelsesboksen, kan du blive bedt om at logge på eller konfigurere appen første gang. Dette trin er nødvendigt, hvis du vil søge efter kontakter i den rette Business Central-virksomhed. Du kan finde oplysninger om, hvordan du konfigurerer appen til at vælge virksomheden, i [Skift af regnskab og andre indstillinger i Teams](across-teams-settings.md).
 
-## <a name="look-up-contacts-from-the-command-box"></a>Søge efter kontakter fra kommandoboksen
+## Søge efter kontakter fra kommandoboksen
 
 Kommandoboksen er placeret øverst i alle skærmbilleder i Teams. Det gør det muligt at søge efter, udføre hurtige handlinger eller starte apps som f.eks. appen [!INCLUDE [prod_short](includes/prod_short.md)]. Søgning fra kommandoboksen er perfekt til hurtig søgning efter kontakter og deres relaterede data til egen brug. Antag f.eks., at du vil søge efter en mailadresse for en leverandør for at oprette et kalendermøde. Eller måske vil du søge efter interaktionshistorikken under et møde med en kunde.
 
@@ -51,7 +51,7 @@ Kommandoboksen er placeret øverst i alle skærmbilleder i Teams. Det gør det m
 
 Du kan finde generelle oplysninger om kommandoboksen i Teams i [Teams - Bruge kommandoboksen](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
 
-## <a name="look-up-contacts-from-the-message-compose-box"></a>Søge efter kontakter fra meddelelsesboksen
+## Søge efter kontakter fra meddelelsesboksen
 
 Fordelen ved at bruge meddelelsesboksen er, at du kan tilføje et kontaktkort direkte til en samtale, så andre kan se det.
 
@@ -73,13 +73,13 @@ Fordelen ved at bruge meddelelsesboksen er, at du kan tilføje et kontaktkort di
     > [!NOTE]
     > Kontaktkortet sendes ikke med det samme til samtalen, hvor andre kan se det. Du har mulighed for at gennemgå indholdet af kortet og tilføje tekst efter ønske før og efter det er sendt. Send derefter meddelelsen til chatten, når du er klar.
 
-### <a name="heres-another-way"></a>En anden metode
+### En anden metode
 
 1. I stedet for at bruge ikonet for **Business Central** skal du skrive **@Business Central** direkte i meddelelsesboksen.
 2. Indtast dine søgeord i feltet.
 3. Brug piletasterne Op og Ned på tastaturet til at vælge en kontakt, og tryk derefter på <kbd>Enter</kbd> for at vælge kontakten.
 
-## <a name="viewing-contact-card-details"></a>Visning af oplysninger fra visitkort
+## Visning af oplysninger fra visitkort
 
 Kontaktkortet i Teams giver dig et hurtigt overblik over debitoren, kreditoren eller kontaktpersonen. Kortet er interaktivt&mdash;hvilket betyder, at du kan få vist flere oplysninger eller ændre en kontakt ved hjælp af knapperne **Detaljer** eller **Pop-op**.
 
@@ -90,7 +90,7 @@ Kontaktkortet fungerer på samme måde som kort for poster, f.eks. varer, debito
 > [!NOTE]
 > Alle deltagerne i en Teams-samtale kan få vist kort for den Business Central-kontakt, som du sender til en samtale. Men hvis du vil have vist flere detaljer om poster, bruge **Detaljer** eller **Pop-op**-knapper på et kort, skal de have adgang til [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Administrere Microsoft Teams-integration](admin-teams-integration.md#minimum-requirements-1).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversigt over integrationen af Business Central og Microsoft Teams](across-teams-overview.md)  
 [Installere appen [!INCLUDE [prod_short](includes/prod_short.md)] til Microsoft Teams](across-install-app-for-teams.md)  

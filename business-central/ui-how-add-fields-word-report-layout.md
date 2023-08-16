@@ -11,7 +11,7 @@ ms.date: 11/25/2021
 ms.author: jswymer
 ---
 
-# <a name="work-with-word-layouts"></a>Arbejde med Word-layouts
+# Arbejde med Word-layouts
 
 Et Word-rapportlayout bestemmer en rapports indhold og format, når den vises og udskrives fra Business central. Du opretter og redigerer disse layout ved hjælp af Microsoft Word.
 
@@ -26,18 +26,18 @@ Hvis du designer et Word-rapportlayout fra bunden eller tilføjer nye datafelter
 > [!TIP]  
 > Vis tabelgitterlinjer, så du kan se grænserne for tabelceller. Husk at skjule gitterlinjerne, når du er færdig med redigering. Hvis du vil vise eller skjule tabelgitterlinjer, skal du vælge tabellen og derefter vælge på **Vis gitterlinjer** under **Layout** under fanen **Tabel**.
 
-## <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Integrere skrifttyper i Word-layout for at skabe ensartethed
+## Integrere skrifttyper i Word-layout for at skabe ensartethed
 
 For at sikre, at rapporter altid vises og udskrives med de ønskede skrifttyper, uanset hvor brugere åbner eller udskriver rapporter, kan du integrere skrifttyperne i Word-dokumentet. Du skal dog være opmærksom på, at integrering af skrifttyper kan øge størrelsen på Word-filer. Du kan finde flere oplysninger om integrering af skrifttyper i Word i [Integrere skrifttyper i Word, PowerPoint eller Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-## <a name="adding-data-fields"></a>Tilføje datafelter
+## Tilføje datafelter
 
 Et datasæt i rapporten kan bestå af felter, der viser navne, data og billeder. I dette emne beskrives fremgangsmåden for tilføjelse af felter fra et rapportedatasæt i et eksisterende Word-rapportlayout for en rapport. Du kan tilføje felter ved hjælp af den Word-tilpassede XML-del for rapporten og tilføje indholdskontrolelementer, der er knyttet til felterne i rapportens datasæt. Tilføjelse af felter kræver, at du har kendskab til rapportens datasæt, så du kan identificere de felter, du vil føje til layoutet.  
   
 > [!NOTE]  
 >  Du kan ikke ændre indbyggede rapportlayout<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a>Sådan åbner du den brugerdefinerede XML-del for rapporten i Word
+###  <a name="OpenXMLPart"></a> Sådan åbner du den brugerdefinerede XML-del for rapporten i Word  
   
 1. Hvis det ikke allerede åbnet, skal du åbne Word-rapportlayoutdokumentet i Word.  
   
@@ -59,7 +59,7 @@ Et datasæt i rapporten kan bestå af felter, der viser navne, data og billeder.
   
      Når du vælger den brugerdefinerede XML-del, viser ruden XML-tilknytning navne og feltkontrolelementer, der er tilgængelige for rapporten.  
   
-### <a name="to-add-a-label-or-data-field"></a>Sådan tilføjer du et navne- eller datafelt.
+### Sådan tilføjer du et navne- eller datafelt.  
   
 1. Placer markøren i dokumentet, hvor du vil tilføje kontrolelementet.  
   
@@ -68,7 +68,7 @@ Et datasæt i rapporten kan bestå af felter, der viser navne, data og billeder.
     > [!NOTE]  
     >  Du kan ikke tilføje et felt ved manuelt at indtaste feltnavnet på datasættet i indholdskontrolelementet. Du skal bruge ruden **XML-tilknytning** til at tilknytte felterne.  
   
-### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>Sådan tilføjer du gentagne rækker med datafelter for at oprette en liste
+### Sådan tilføjer du gentagne rækker med datafelter for at oprette en liste  
   
 1. I en tabel kan du tilføje en tabelrække, der indeholder en kolonne for hvert felt, der skal gentages.  
   
@@ -86,7 +86,7 @@ Et datasæt i rapporten kan bestå af felter, der viser navne, data og billeder.
   
     3. Gentag trin a og b for hvert felt.  
   
-## <a name="adding-image-fields"></a>Tilføje billedfelter
+## Tilføje billedfelter
 
 Et datasæt i rapporten kan indeholde et felt, der indeholder et billede som et firmalogo eller et billede af en vare. Hvis du vil tilføje et billede fra datasættet i rapporten, skal du indsætter et **Billede**-indholdskontrolelement.  
   
@@ -95,7 +95,7 @@ Billeder justeres i øverste venstre hjørne af Indholdsstyringen og får automa
 > [!IMPORTANT]  
 > Du kan kun tilføje billeder, der har et format, som understøttes af Word, f.eks. .bmp-, .jpg- og .png-filtyper. Hvis du tilføjer et billede, der har et format, der ikke understøttes af Word, får du en fejl, når du kører rapporten fra [!INCLUDE[prod_short](includes/prod_short.md)]-klienten.  
   
-### <a name="to-add-an-image"></a>Sådan tilføjer du et billede
+### Sådan tilføjer du et billede  
   
 1. Placer markøren i dokumentet, hvor du vil tilføje kontrolelementet.  
   
@@ -103,7 +103,7 @@ Billeder justeres i øverste venstre hjørne af Indholdsstyringen og får automa
   
 3. Hvis du vil forøge eller formindske størrelsen på billedet, skal du trække et størrelseshåndtag væk fra eller mod midten af indholdskontrolelementet.  
 
-## <a name="removing-label-and-data-fields"></a><a name="RemoveField"></a>Fjerne navne- og datafelter
+##  <a name="RemoveField"></a> Fjerne navne- og datafelter
 
 Navne- og datafelter i en rapport er indeholdt i indholdskontrolelementer i Word. Følgende figur illustrerer et indholdskontrolelement, når det er markeret i Word-dokumentet.  
 
@@ -111,7 +111,7 @@ Navne- og datafelter i en rapport er indeholdt i indholdskontrolelementer i Word
 
 Navnet på etiketten eller datafeltet vises i kontrolelementet for indhold. I eksemplet er feltnavnet CompanyAddr1.  
 
-### <a name="to-remove-a-label-or-data-field"></a>Sådan fjerner du et navne- eller datafelt
+### Sådan fjerner du et navne- eller datafelt  
 
 1. Højreklik på det felt, du vil slette, og vælg derefter **Fjern indholdskontrolelement**.  
 
@@ -119,11 +119,11 @@ Navnet på etiketten eller datafeltet vises i kontrolelementet for indhold. I ek
 
 2. Slet den resterende tekst efter behov.
 
-## <a name="custom-xml-part-overview"></a>Oversigt over brugerdefineret XML-del
+## Oversigt over brugerdefineret XML-del
 
 Word-rapportlayout er baseret på *brugerdefinerede XML-dele*. En brugerdefineret XML-del til en rapport består af elementer, der svarer til de dataelementer, kolonner og etiketter, der udgør rapportens datasæt. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->Den brugerdefinerede XML-del bruges til at tilknytte dataene i en rapport, når rapporten køres.
 
-### <a name="xml-structure-of-custom-xml-part"></a>XML-struktur af brugerdefineret XML-del
+### XML-struktur af brugerdefineret XML-del
 
 Følgende tabel indeholder en forenklet oversigt over XML for en brugerdefineret XML-del.  
   
@@ -136,7 +136,7 @@ Følgende tabel indeholder en forenklet oversigt over XML for en brugerdefineret
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Dataelementer og kolonner, der er indlejret i dataelementet på øverste niveau. Kolonnerne vises i alfabetisk rækkefølge under det respektive dataelement.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Lukker element.|  
   
-### <a name="custom-xml-part-in-word"></a>Brugerdefineret XML-del i Word
+### Brugerdefineret XML-del i Word
 
  I Word kan du åbne den brugerdefinerede XML-del i ruden **XML-tilknytning** og derefter bruge ruden til at knytte elementer til indholdskontrolelementer i Word-dokumentet. Ruden **XML-tilknytning** er tilgængelig fra fanen **Udvikler** (du kan finde flere oplysninger i [Vise fanen Udvikler på båndet](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
@@ -154,7 +154,7 @@ Følgende tabel indeholder en forenklet oversigt over XML for en brugerdefineret
   
 * Sproget i teksten, der vises, når du kører rapporten, afhænger af sprogindstillingen af rapportobjektet.  
   
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprette og ændre et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md)   
 

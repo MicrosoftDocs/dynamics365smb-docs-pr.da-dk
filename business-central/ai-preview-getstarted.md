@@ -9,13 +9,13 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# <a name="get-started-with-a-business-central-preview-version-for-copilot"></a>Kom i gang med en Business central-forhåndsversion til Copilot
+# Kom i gang med en Business central-forhåndsversion til Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
 Du kan prøve at udføre AI-drevet varemarketingtekst med Copilot, uanset om du er en eksisterende Business Central-kunde eller en potentiel kunde, dvs. en person, der bare er interesseret i at udforske Business central og afprøve den nye funktion. For at komme i gang skal du have adgang til en Business Central Online-version, som understøtter den nye funktion. Udfyld den sektion nedenfor, der gælder for dig.
 
-## <a name="your-organization-already-uses-business-central"></a>Organisationen bruger allerede Business Central
+## Organisationen bruger allerede Business Central
 
 Som eksisterende kunde eller partner har du brug for en administrator med adgang til Business Central Administration for at oprette et miljø, der kører forhåndsversionen, der omfatter Copilot. Når miljøet er konfigureret og kører, kan brugerne afprøve den nye funktion.
 
@@ -39,7 +39,7 @@ Du kan finde flere oplysninger om, hvordan du opretter miljøer, ved at gå til 
 > [!IMPORTANT]
 > Hvis du har forhåndsversion af sandkasser, der kører på **22.0.54157.54311 (forhåndsversion - Copilot-version)**, skal du være opmærksom på, at disse miljøer kun er tilgængelige indtil 01 maj 2023. Efter denne dato skal du klargøre et nyt miljø eller opgradere alle andre miljøer til version 22.0 eller nyere for at fortsætte med at prøve forhåndsversionen på AI-drevet varemarketingtekst.
 
-## <a name="your-organization-doesnt-use-business-central"></a>Organisationen bruger ikke Business Central
+## Organisationen bruger ikke Business Central
 
 Hvis du ikke er Business Central-kunde, men gerne vil prøve AI-funktionerne, kan du tilmelde dig og få en gratis forhåndsversion. Enkel tilmelding til prøveversion. Du kommer til at lede efter et par trin, hvor du skal angive nogle oplysninger, f. eks. din e-mailadresse, telefonnummer og navn. Hvis du vil have prøveversionen, skal du fuldføre følgende trin:
 
@@ -95,7 +95,7 @@ Hvis du ikke er Business Central-kunde, men gerne vil prøve AI-funktionerne, ka
    > [!TIP]
    > Hvis du ikke kan se **Din kontrolliste**, skal du vælge knappen **Vis demonstrationspræsentation** først.
 
-## <a name="next-steps"></a>Næste trin
+## Næste trin
 
 Egenskaberne for AI, som leveres af Copilot, skal aktiveres, før du eller andre kan bruge Copilot. Hvis du vil aktivere AI-funktionerne, skal en administrator godkende vilkårene og betingelserne i [forhåndsversion](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) og [Microsoft erklæring om beskyttelse af personlige oplysninger](https://go.microsoft.com/fwlink/?LinkId=521839) på vegne af organisationen.
 
@@ -108,7 +108,7 @@ Der er to måder at godkende som administrator:
 
 - Den anden måde er at bruge siden **Status for meddelelser om beskyttelse af personlige oplysninger** i Business central og accepterer **Azure OpenAI**-integration for alle brugere. Hvis du vil vide mere, skal du gå til [Bekræftelse til Vilkår og betingelser](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversigt over AI-styret varemarketingtekst med Copilot](ai-overview.md)  
 [Konfigurere marketingtekst med Copilot til AI-styret vare som administrator](enable-ai.md)  

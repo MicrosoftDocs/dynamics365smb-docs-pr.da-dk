@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
 
-# <a name="get-ready-to-synchronize-master-data"></a>Gør dig klar til at synkronisere stamdata
+# Gør dig klar til at synkronisere stamdata
 
 Hvis to eller flere regnskaber bruger nogle af de samme stamdata, kan du synkronisere dataene i stedet for at tilføje dem manuelt i hver virksomhed. F.eks. er synkronisering af data især nyttig, når du skal oprette nye datterselskaber.
 
@@ -25,14 +25,14 @@ Stamdata omfatter indstillinger og ikke-transaktionsoplysninger om forretningsen
 
 Du vælger indstillinger til synkronisering i datterselskaber. Hvis du bruger en pull-model, trækker datterselskaber dataene fra det kilderegnskab, de skal bruge for at gøre forretninger med dem. Når du har konfigureret synkroniseringen og synkroniserer data første gang, er du klargjort. Opgavekøposter opdaterer sammenkædede poster i datterselskaber, når nogen foretager ændringer af data i kilderegnskabet.
 
-## <a name="uni-directional-synchronization-only"></a>Kun etvejs-synkronisering af debitorer
+## Kun etvejs-synkronisering af debitorer
 
 Du kan kun synkronisere data fra kilderegnskabet med datterselskaberne på en pull-måde. Datterselskaber kan ikke skubbe data til kilderegnskabet.
 
 > [!NOTE]
 > Selvom det er muligt, anbefaler vi ikke, at du opretter tovejssynkronisering. Det vil sige, at synkronisering af data fra kilderegnskabet til datterselskaberne og fra datterselskaberne til kilderegnskabet. Synkronisering af data i begge retninger kan medføre konflikter eller uønskede overskrivninger.
 
-## <a name="before-you-start"></a>Før du starter
+## Før du starter
 
 Følgende er kravene til oprettelse af synkronisering.
 
@@ -42,9 +42,12 @@ Følgende er kravene til oprettelse af synkronisering.
 > [!NOTE]
 > Licenserne Team-medlem og International administrator giver dig adgang, men ikke til at ændre poster, så de kan ikke bruges til at konfigurere synkroniseringen. Du kan ikke planlægge baggrundsopgaver med den delegerede administratorlicens, så du kan ikke fuldføre installationen.
 
-## <a name="specify-the-source-company"></a>Angive kilderegnskabet
+## Angive kilderegnskabet
 
 De første trin er at angive, hvilket regnskab der skal være datakilden og aktivere synkronisering. Datterselskaber trækker data fra kilderegnskabet.
+
+> [!NOTE]
+> Når du aktiverer synkronisering, opretter og planlægger [!INCLUDE [prod_short](includes/prod_short.md)] de opgavekøposter, som synkroniserer dataene. Det kan se ud som om, de indlæste data synkroniseres med det samme, men det er ikke tilfældet. De oprettede opgavekøposter synkroniserer kun sammenkoblede poster, og du har ikke indstillet det endnu. Synkroniseringen starter, når du [aktiverer eller deaktiverer tabeller og felter](#enable-or-disable-tables-and-fields) og [synkronisere for første gang](#synchronize-for-the-first-time).
 
 1. I datterselskabet skal du vælge ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Administration af opsætning af stamdata**, og vælg derefter det relaterede link.
 1. Angiv det regnskab, du vil trække ændringer fra, i feltet **kilderegnskab**.
@@ -53,7 +56,7 @@ De første trin er at angive, hvilket regnskab der skal være datakilden og akti
 
 I det næste trin skal du aktivere tabeller og felter til synkronisering.
 
-## <a name="enable-or-disable-tables-and-fields"></a>Aktivere eller deaktivere tabeller og felter
+## Aktivere eller deaktivere tabeller og felter
 
 Hvis du vil spare tid, angiver [!INCLUDE [prod_short](includes/prod_short.md)] en liste over tabeller, som virksomheder ofte synkroniserer. Disse tabeller er som standard aktiveret til synkronisering. Du kan ændre, deaktivere eller slette dem efter behov. Nogle af felterne i tabellerne er allerede deaktiverede som en ekstra tidsbesparelse, fordi de sandsynligvis ikke er relevante for datterselskabet.
 
@@ -75,7 +78,7 @@ Hvis du vil spare tid, angiver [!INCLUDE [prod_short](includes/prod_short.md)] e
 > [!TIP]
 > Du kan hurtigt aktivere eller deaktivere flere felter på én gang ved at markere dem på listen og derefter bruge handlingerne **Aktiver** eller **Deaktiver**.
 
-### <a name="use-match-based-coupling"></a>Brug matchbaseret sammenkædning
+### Brug matchbaseret sammenkædning
 
 Du kan angive de data, der skal synkroniseres for en tabel, ved at sammenligne posterne på basis af kriterier. På side **Administration af stamdataopsætning** skal du vælge handlingen **Matchbaseret sammenkædning** for at åbne siden **Vælg sammenkædningskriterie**. Du kan angive følgende kriterier for sammenligningen:
 
@@ -84,7 +87,7 @@ Du kan angive de data, der skal synkroniseres for en tabel, ved at sammenligne p
 * De felter, der skal bruges til at matche poster, og om der er forskel på store og små bogstaver.
 * Prioritere den rækkefølge, som poster gennemsøges i, ved at angive en matchprioritet. [!INCLUDE [prod_short](includes/prod_short.md)] søger efter et match i stigende rækkefølge på grundlag af matchprioritet. En tom værdi i feltet er lig med prioritet 0, som er den højeste prioritet. Felter med prioriteten 0 behandles først.
 
-## <a name="synchronize-for-the-first-time"></a>Synkronisere første gang
+## Synkronisere første gang
 
 Når du er klar, skal du vælge handlingen **Start første synkronisering** på siden **Opsætning af stamdatastyring**. På siden **Første synkronisering af stamdata** skal du vælge den type synkronisering, du vil bruge til hver tabel.
 
@@ -103,9 +106,9 @@ Mens synkroniseringen kører, viser **Opgavestatus**-kolonnen på siden **Fuld s
 
 Du kan få adgang til detaljer, f. eks. det antal poster, der indsættes eller ændres, ved at vælge værdien i kolonnen **jobstatus** for at åbne siden **Vis-integrationssynkroniseringsjob**. I forbindelse med poster, der er indsat, kan du vælge tallet i den **indsatte** kolonne for at få adgang til flere detaljer om de nye poster.
 
-## <a name="add-or-delete-tables-from-the-synchronization-tables-list"></a>Tilføje eller slette tabeller på listen over synkroniseringstabeller
+## Tilføje eller slette tabeller på listen over synkroniseringstabeller
 
-### <a name="add-a-table"></a>Tilføje en tabel
+### Tilføje en tabel
 
 > [!IMPORTANT]
 > Selvom tabeller, der indeholder transaktionsdata, er tilgængelige på listen, f. eks. tabeller, der indeholder poster, skal du ikke vælge dem. Synkronisering fungerer kun for tabeller, der indeholder ikke-transaktionsdata.
@@ -114,7 +117,7 @@ Du kan få adgang til detaljer, f. eks. det antal poster, der indsættes eller �
 1. Vælg **Ny**, og vælg derefter den tabel, der skal tilføjes.
 1. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 
-### <a name="delete-a-table"></a>Slet en tabel
+### Slet en tabel
 
 > [!NOTE]
 > Hvis du sletter en post i kilde regnskabet, slettes den ikke også i datterselskabet. Dette er med til at forhindre uønsket tab af data. Du kan f. eks. vælge at slette tabellen.
@@ -122,10 +125,10 @@ Du kan få adgang til detaljer, f. eks. det antal poster, der indsættes eller �
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Synkroniseringstabeller**, og vælg derefter det relaterede link.
 1. Vælg handlingen **Slet**.
 
-## <a name="use-export-and-import-to-share-a-synchronization-setup"></a>Bruge Eksporter og Importer til at dele en synkroniseringsopsætning
+## Bruge Eksporter og Importer til at dele en synkroniseringsopsætning
 
 Hvis du opretter flere datterselskaber, som bruger de samme eller lignende synkroniseringsindstillinger, er der en tidsbesparelse. Opret et datterselskab, og eksporter derefter dets opsætning til en .xml-fil. Filen indeholder hele opsætningen, herunder tabel- og felttilknytninger og filterkriterier. Du kan derefter importere filen til næste datterselskab. Hvis du vil importere eller eksportere en opsætning, skal du bruge **import** eller **eksport** på siden **Opsætning af stamdatastyring**.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere synkronisering af stamdata](admin-sync-master-data.md)

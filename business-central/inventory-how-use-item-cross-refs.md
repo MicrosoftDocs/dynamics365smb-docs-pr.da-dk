@@ -11,7 +11,7 @@ ms.search.forms: '5737, 5735, 5736'
 ms.date: 10/27/2021
 ms.author: edupont
 ---
-# <a name="use-item-references"></a>Anvend varereferencer
+# Anvend varereferencer
 
 Hvis du køber eller sælger varer, som du og leverandøren eller debitoren bruger forskellige betingelser for, kan du oprette en reference mellem betingelserne for varerne og de betingelser, som kunden eller leverandøren af den pågældende vare bruger. På den måde indsættes leverandørens eller kundens varebeskrivelse, enhed eller variantkode automatisk i de relevante dokumenter, når du udfylder feltet **Varereferencenr.** .  
 
@@ -22,14 +22,14 @@ Hvis du køber eller sælger varer, som du og leverandøren eller debitoren brug
 >
 > I tidligere versioner før 2021-udgivelsesbølge 2 kan administratoren aktivere funktionen *Skriv længere varereferencer* på siden [Funktionsstyring](https://businesscentral.dynamics.com/?page=2610) (linket kræver, at du har en [!INCLUDE [prod_short](includes/prod_short.md)]-lejer). Hvordan du bruger referencer, ændres ikke, men navnene på ting som f.eks. sider og knapper ændres. F.eks. bliver siden **Varens krydshenvisningsposter** til **Varereferenceposter**.
 
-## <a name="to-start-using-item-references"></a>Sådan begyndes du at bruge elementreferencer
+## Sådan begyndes du at bruge elementreferencer
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
 1. Vælg ikonet :::image type="icon" source="media/ui-search/search_small.png" border="false":::, skriv **Opsætning af Lager**, og vælg derefter det relaterede link.
 2. Marker feltet **Brug varereferencer**.
 
-## <a name="to-set-up-an-item-reference"></a>Sådan oprettes en varereference
+## Sådan oprettes en varereference
 
 1. Vælg ikonet :::image type="icon" source="media/ui-search/search_small.png" border="false":::, angiv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for en vare, som du vil oprette reference for.
@@ -41,7 +41,7 @@ Hvis du køber eller sælger varer, som du og leverandøren eller debitoren brug
 
 Følgende procedurer beskriver, hvordan du kan angive varereference på en købsordre. Lignende trin gælder for salgsdokumenter og andre købsdokumenter.  
 
-## <a name="to-enter-a-vendors-item-description-on-a-document"></a>Sådan angiver du en kreditors varebeskrivelse på et dokument
+## Sådan angiver du en kreditors varebeskrivelse på et dokument
 
 1. Vælg ikonet :::image type="icon" source="media/ui-search/search_small.png" border="false":::, skriv **Købsordrer**, og vælg derefter det relaterede link.
 2. Opret en købsordre for den leverandør, som du angav en varereference for ovenfor.
@@ -50,7 +50,7 @@ Følgende procedurer beskriver, hvordan du kan angive varereference på en købs
 
 Feltet **Beskrivelse** på linjen overskrives med kreditorens varebeskrivelse, som blev oprettet i varereferenceposten. Hvis varereferencen indeholder en variantkode eller en enhed, kopieres disse værdier også til dokumentet.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  

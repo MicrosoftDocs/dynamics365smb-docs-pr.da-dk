@@ -11,7 +11,7 @@ ms.search.form: '555, 556, 557, 558, 9372, 9370, 9371'
 ms.date: 09/22/2022
 ms.author: edupont
 ---
-# <a name="create-analysis-reports"></a>Oprette analyserapporter
+# Oprette analyserapporter
 
 Salgschefer har behov for løbende at kunne analysere omsætning, bruttoavance og andre nøgletal om salgsresultater. Indkøbere er mere interesseret i udviklingen inden for købsmængder, leverandørernes præstation og købspriser. Logistik- og lagerchefer har på den anden side brug for oplysninger om lageromsætning, analyser af lagerbevægelser og statistik om lagerværdi. På den måde er der ingen analyserapport, der passer til alle.
 
@@ -23,7 +23,7 @@ Analyserapporten består af de objekter, som du vil analysere (f.eks. kunder, ku
 
 Ud over analyserapporter, kan du oprette og få vist ensartede oplysninger i analysevisninger (baseret på dimensioner). Få mere at vide i [Analysere data efter dimensioner](bi-how-analyze-data-dimension.md).
 
-## <a name="example"></a>Eksempel
+## Eksempel
 
 Du kan oprette linjerne (objekter, som du vil analysere):  
 
@@ -37,7 +37,7 @@ Derefter kan du opsætte disse kolonner (hvordan objekterne skal analyseres):
 - Salg foregående måned  
 - Salg i % af foregående måned  
 
-## <a name="setting-up-line-and-column-layouts"></a>Opsætte linje- og kolonneformater
+## Opsætte linje- og kolonneformater
 
 På siden **Analyserapport** kan du få vist forskellige linje- og kolonneformater, som du opretter på:
 
@@ -57,7 +57,7 @@ Bemærk, at analyselinjer og analysekolonner er uafhængige af hinanden.
 
 Du kan f.eks. oprette et sæt linjer og flere forskellige sæt kolonneformater, så du får vist henholdsvis månedlige og årlige rapporter.
 
-## <a name="set-up-analysis-column-templates"></a>Oprette analysekolonneskabeloner
+## Oprette analysekolonneskabeloner
 
 Følgende procedure er baseret på analysevisninger for salg. Trinene er de samme for købs- og lageranalysevisninger.
 
@@ -74,7 +74,7 @@ En analysekolonneskabelon indeholder et sæt linjer, der hver repræsenterer en 
     Hvis du vælger **Vareposter** i feltet **Posttype**, kopieres de faktiske tal desuden fra vareposten. Hvis du vælger **Varebudgetposter**, kopieres de budgetterede tal fra budgettet.  
 5. Vælg **OK** for at gemme ændringerne.  
 
-## <a name="set-up-analysis-line-templates"></a>Konfigurere analyselinjeskabeloner
+## Konfigurere analyselinjeskabeloner
 
 Følgende procedure er baseret på analyserapporter for salg. Trinene er de samme for købs- og lageranalyserapporter.
 
@@ -88,7 +88,7 @@ En analyselinjeskabelon indeholder et sæt linjer, der hver repræsenterer en an
 > [!NOTE]  
 > Hvis du skal oprette mange individuelle linjer for hver vare, kunde osv., kan du i stedet klikke på den relevante indsættelsesfunktion for at udfylde alle de relevante felter på linjen. Hvis du vil, kan du derefter redigere linjerne manuelt. Hvis du vil indsætte linjer, skal du vælge handlingen **Indsæt varer** eller **Indsæt varegrupper**.  
 
-## <a name="create-a-new-sales-analysis-report"></a>Oprette en ny salgsanalyserapport
+## Oprette en ny salgsanalyserapport
 
 Følgende procedure er baseret på analyserapporter for salg. Trinene er de samme for købs- og lageranalyserapporter.
 
@@ -103,7 +103,7 @@ Med analyserapporter kan du analysere dynamikken i dit salg i henhold til nøgle
 > [!NOTE]  
 > Det er valgfrit at opbygge kombinationer af linje- og kolonneskabeloner for at oprette rapporter og tildele dem unikke navne. Hvis du gør dette, har du ikke har brug for at vælge linje- og kolonneskabeloner på siden **Salgsanalyserapport**. Når du har valgt et rapportnavn, kan du ændre linje- og kolonneskabeloner uafhængigt og derefter senere vælge rapportnavnet igen for at gendanne den oprindelige kombination.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Financial Business Intelligence](bi.md)  
 [Finans](finance.md)  
