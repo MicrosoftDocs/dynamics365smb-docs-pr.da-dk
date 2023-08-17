@@ -11,7 +11,7 @@ ms.search.form: '130, 142, 1350'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Bogføring af salg
+# <a name="posting-sales"></a>Bogføring af salg
 
 I menuen **Bogføring** i et salgsdokument kan du vælge mellem følgende bogføringsfunktioner:
 
@@ -37,19 +37,19 @@ For hver salgsordrelinje oprettes der en varepost i tabellen **Varepost** (hvis 
 
 Du kan enten bogføre eller bogføre og sende. Hvis du vælger at bogføre og sende, genereres der en PDF-fil, som du derefter kan sende. Du kan også vælge funktionen **Massebogfør**, der giver mulighed for at bogføre flere ordrer samtidig. Du kan finde flere oplysninger i [Bogføre flere dokumenter på én gang](ui-batch-posting.md).
 
-## Visning af finansposter
+## <a name="viewing-ledger-entries"></a>Visning af finansposter
 
 Når bogføringen er gennemført, fjernes de bogførte salgslinjer fra ordren. Der vises en meddelelse, når bogføringen er gennemført. Herefter kan du se de bogførte poster på forskellige sider, der indeholder bogførte poster, f.eks. **Debitorposter**, **Finansposter**, **Vareposter**, **Bogf. salgsleverancer** og **Bogf. salgsfakturaer**.  
 
 I de fleste tilfælde kan du åbne finansposter fra det berørte kort eller dokument. Du kan f.eks. på siden **Debitorkort** vælge handlingen **Finansposter**.
 
-## Redigering af finansposter
+## <a name="editing-ledger-entries"></a>Redigering af finansposter
 
 Du kan redigere bestemte felter i bogførte købsdokumenter, f. eks **Pakkesporingsnr.** . Du kan finde flere oplysninger i [Redigere bogførte dokumenter](across-edit-posted-document.md). Er det mere kritiske felter, der påvirker overvågningssporet, skal du tilbageføre eller annullere bogføring. Du kan finde flere oplysninger i [Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md).
 
-## Se relateret [Microsoft-træning](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
 [Bogføre flere dokumenter på én gang](ui-batch-posting.md)  

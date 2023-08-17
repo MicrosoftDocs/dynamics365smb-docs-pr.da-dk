@@ -11,10 +11,10 @@ ms.search.form: '5091, 5093'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Oprette målgrupper
+# <a name="create-segments"></a>Oprette målgrupper
 Du kan oprette målgrupper for at vælge en gruppe kontakter, hvis du f.eks. vil oprette en interaktion, der vedrører flere forskellige kontakter, f.eks. en direct mail.
 
-## Sådan oprettes målgrupper
+## <a name="to-create-a-segment"></a>Sådan oprettes målgrupper
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Segmenter**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.
 3. I sektionen **Generelt** i feltet **Nummer** skal du skrive et nummer på målgruppen.
@@ -24,7 +24,7 @@ Du kan oprette målgrupper for at vælge en gruppe kontakter, hvis du f.eks. vil
 
 Du kan nu føje kontakter til målgruppen. Du kan finde flere oplysninger i [Tilføje kontakter til målgrupper](marketing-add-contact-segment.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 [Administrere målgrupper](marketing-segments.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

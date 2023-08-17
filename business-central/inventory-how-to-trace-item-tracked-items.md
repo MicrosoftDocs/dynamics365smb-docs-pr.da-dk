@@ -11,7 +11,7 @@ ms.search.forms: '6520,'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# Spore vare via varesporing
+# <a name="trace-item-tracked-items"></a>Spore vare via varesporing
 
 Du kan se, hvor en vare med varesporing er brugt, herunder hvordan og hvornår den blev modtaget eller fremstillet, overflyttet, solgt, forbrugt eller returneret. Du kan også finde alle aktuelle forekomster af et bestemt serienummer eller lotnummer i databasen. Du kan gøre dette ved hjælp af funktionerne Varesporing og [Find poster](ui-find-entries.md).  
 
@@ -23,7 +23,7 @@ Disse funktioner kan især være praktiske i kvalitetskontrol, når du vil finde
 
  De to funktioner kan bruges i kombination ved at overføre sporede serienummer eller lotnummer til siden **Find poster** for at afslutte et komplet sporingsscenarie. <!-- For more information, see [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).   -->
 
-## Sådan spores varer via varesporing  
+## <a name="to-trace-item-tracked-items"></a>Sådan spores varer via varesporing
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varesporing**, og vælg derefter det relaterede link.  
 2.  Du kan angive bestemte varenumre i filterfelterne øverst på siden, eller du kan angive et filter for et interval af de varenumre, du vil spore.  
@@ -52,16 +52,16 @@ Disse funktioner kan især være praktiske i kvalitetskontrol, når du vil finde
 >   
 >  Hvis du vil finde de varesporingslinjer, hvor transaktionsoversigten allerede er sporet, skal du vælge knappen **Gå til allerede sporede**. Den pågældende varesporingslinje er markeret, og alle underliggende linjer er udvidet.  
 
-## Sådan findes varesporede varer med Find poster  
+## <a name="to-find-item-tracked-items-with-find-entries"></a>Sådan findes varesporede varer med Find poster
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Find poster**, og vælg derefter det relaterede link.  
 2. Vælg **Handlinger** > **Find efter** > **Søg efter varereference**.
 3. I felterne **Serienr.** og **Lotnr.** skal du angive de varesporingsnumre, du ønsker at spore.  
 4. Vælg handlingen **Find** for at finde alle forekomster af serienummer eller lotnummer i databasen.  
 
-## Se relateret [Microsoft-træning](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/prepare-item-tracking/)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Arbejde med serie-, lot- og pakkenumre](inventory-how-work-item-tracking.md)  

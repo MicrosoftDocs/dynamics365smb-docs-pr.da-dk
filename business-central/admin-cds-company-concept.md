@@ -11,12 +11,12 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# Modeller for ejerskab af data
+# <a name="data-ownership-models"></a>Modeller for ejerskab af data
 
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] kræver, at du angiver en ejer af de data, du gemmer. Du kan få flere oplysninger i [Tabeltyper](/powerapps/maker/data-platform/types-of-entities) i Power Apps-dokumentationen. Når du konfigurerer integrationen mellem [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)], skal du vælge ejerskabet **Bruger eller team** for de poster, der skal synkroniseres. Handlinger, der kan udføres på disse poster, kan styres på et brugerniveau. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
-## Teamejerskab
+## <a name="team-ownership"></a>Teamejerskab
 I [!INCLUDE[prod_short](includes/prod_short.md)], en virksomhed en juridisk og virksomhedsmæssig tabel, der kan bruges til at sikre og visualisere forretningsdata. Brugere arbejder altid i en virksomheds kontekst. Det tætteste, som [!INCLUDE[prod_short](includes/cds_long_md.md)] kommer på dette begreb, er virksomhedsafdelingstabeller, som ikke har juridiske eller forretningsmæssige konsekvenser.
 
 Da forretningsenheder ikke har nogen juridiske og forretningsmæssige konsekvenser, kan du ikke gennemtvinge en-til-en-tilknytning (1:1) mellem en virksomhed og en koncernvirksomhed, enten etvejs eller tovejs. Hvis du vil gøre synkroniseringen mulig, når du aktiverer synkronisering for en virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)], sker der følgende i [!INCLUDE[prod_short](includes/cds_long_md.md)]:
@@ -50,21 +50,21 @@ Synkroniseringen bestemmer, hvilket team der skal eje regnskaber. Dette styres a
 > [!NOTE]
 > Posterne bliver skrivebeskyttet, når en virksomhed er blevet tilføjet og gemt. Derfor skal du sørge for at vælge den rigtige virksomhed.
 
-## Sådan vælger du en anden afdeling
+## <a name="choosing-a-different-business-unit"></a>Sådan vælger du en anden afdeling
 Du kan vælge en ny afdeling, hvis du bruger ejerskabsmodellen Teams. Hvis du bruger ejerskabsmodellen Person, vælges standardafdelingen altid. 
 
 Hvis du vælger en anden afdeling, f. eks den, som du har oprettet tidligere i [!INCLUDE[prod_short](includes/cds_long_md.md)], beholder den sit oprindelige navn. Det vil sige, at den ikke får et suffiks med virksomheds-id'et. Vi opretter et team, der bruger navngivningskonventionen.
 
 Når du ændrer en afdeling, kan du kun vælge de afdelinger, der er ét niveau under rodafdelingen.
 
-## Personejerskab
+## <a name="person-ownership"></a>Personejerskab
 Hvis du vælger modellen Personejerskab, skal du angive hver sælger, der skal eje nye poster. Afdelingen og teamet oprettes som beskrevet i sektionen [Teamejerskab](admin-cds-company-concept.md#team-ownership).
 
 Standardafdelingen bruges, når ejerskabsmodellen Person vælges, og du kan ikke vælge en anden afdeling. Det team, der er knyttet til standardafdelingen, vil eje poster for fælles tabeller, f.eks. produkttabeller, som ikke er knyttet til bestemte sælgere.
 
 Når du sætter sælgere i [!INCLUDE[prod_short](includes/prod_short.md)] sammen med brugere i [!INCLUDE[prod_short](includes/cds_long_md.md)], [!INCLUDE[prod_short](includes/prod_short.md)], tilføjes brugeren til standardteamet i [!INCLUDE[prod_short](includes/cds_long_md.md)]. Du kan kontrollere, at brugerne er tilføjet ved at se på **Standardteammedlem** på siden **Brugere - Common Data Service**. Hvis brugeren ikke er tilføjet, kan du tilføje dem manuelt ved hjælp af handlingen **Tilføj sammenkødede brugere til team**. Du kan finde flere oplysninger i [Synkronisering af data i Business Central med Dataverse](admin-synchronizing-business-central-and-sales.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 [Om [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

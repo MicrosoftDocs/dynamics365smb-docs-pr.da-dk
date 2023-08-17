@@ -11,7 +11,7 @@ ms.search.form: null
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Sortering, søgning og filtrering
+# <a name="sorting-searching-and-filtering"></a>Sortering, søgning og filtrering
 
 Der er et par ting, du kan gøre som en hjælp til at scanne, finde og begrænse poster på en liste eller i en rapport eller XMLport. Disse omfatter sortering, søgning og filtrering. Du kan anvende nogle eller alle af disse samtidigt til hurtigt at finde eller analysere dataene.
 
@@ -26,7 +26,7 @@ I forbindelse med rapporter og XMLporte kan du angive filtre for at afgrænse, h
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
 -->
 
-## Sortering
+## <a name="sorting"></a>Sortering
 
 Sortering gør det nemt og hurtigt for dig at overskue dine oplysninger. Hvis du har mange kunder, f.eks. kan du vælge at sortere dem efter **Kundenr.**, **vvalutakode** eller **Lande-/områdekode** for at få det nødvendige overblik.
 
@@ -38,7 +38,7 @@ Hvis du vil sortere en liste, kan du enten:
 > [!NOTE]  
 > Sortering understøttes ikke af billeder, BLOB-felter, FlowFilters og felter, der ikke tilhører en tabel.  
 
-## Søgning
+## <a name="searching"></a>Søgning
 
 <!--## Searching by using the Quick Filter -->
 Øverst på hver listeside findes der en ![Søgeliste.](media/ui-search/search-list.png "Ikonet Søgeoversigt") **Søg**-handling giver en hurtig og nem måde at reducere posterne på en liste på og kun viser de poster, der indeholder data, som du er interesseret i at få vist.
@@ -54,7 +54,7 @@ Normalt vil søgningen forsøge at matche teksten på tværs af alle felter. Den
 > Søgning matcher ikke værdier i billeder, BLOB-felter, FlowFilter, FlowField og andre felter, der ikke er en del af en tabel.
 
 
-### Finjustere søgningen med filterkriterier
+### <a name="fine-tuning-the-search-with-filter-criteria"></a>Finjustere søgningen med filterkriterier
 
 Du kan foretage en mere præcis søgning ved hjælp af filteroperatorer, udtryk og filter-tokens. I modsætning til filtrering anvendes alle felter på tværs af alle felter, når de bruges i søgefeltet, så de bliver mindre effektive end filtrering.
 
@@ -77,7 +77,7 @@ Følgende tabel indeholder nogle eksempler, der forklarer, hvordan du kan bruge 
 |`@*man`|Alle poster der slutter med teksten **man**, uanset om der er brugt store eller små bogstaver. F.eks. **Sportsman**, men ikke **Manchester** eller **manual**.|
 
 
-## <a name="filtering"></a>Filtrering
+## <a name="filtering"></a><a name="filtering"></a>Filtrering
 
 Filtrering giver en mere avanceret og fleksibel må de at kontrollere, hvilke poster der skal vises på en liste eller medtages i en rapport eller XMLport. Der er to vigtige forskelle mellem søgning eller filtrering, som beskrevet i nedenstående tabel.
 
@@ -90,7 +90,7 @@ Filtrering giver dig mulighed at få vist poster for bestemte konti eller kunder
 
 I forbindelse med lister vises filtrene i en filterrude, der vises til venstre på listen, når du aktiverer den. For rapporter, kørsler og XMLporte kan filtrene ses direkte på anmodningssiden.
 
-### Filtrere med indstillingsfelter
+### <a name="filtering-with-option-fields"></a>Filtrere med indstillingsfelter
 
 I forbindelse med "almindelige" felter, der indeholder data, opsætningsdata eller virksomhedsdata, kan du indsætte filtre både ved at vælge data og indtaste filterværdier, og du kan bruge symboler til at angive avancerede filterkriterier. Du kan finde flere oplysninger i [Angivelse af filerkriterier](ui-enter-criteria-filters.md#entering-filter-criteria).
 
@@ -99,7 +99,7 @@ Ved felter af typen **Indstilling** kan du imidlertid kun angive et filter ved a
 > [!NOTE]
 > Hvis du vælger flere indstillinger som en filterværdi, defineres relationen mellem indstillingerne som *OR*. Hvis du f.eks. både markerer afkrydsningsfeltet **Åbne** og afkrydsningsfeltet **Frigivet** i filterfeltet **Status** på siden **Salgsordrer**, betyder det, at salgsordrer, der enten er åbne eller frigivne, vises.
 
-### Angive filtre på lister
+### <a name="setting-filters-on-lists"></a>Angive filtre på lister
 
 På lister kan du indstille filtre ved hjælp af filterruden. Hvis du vil have vist filterruden for en liste, skal du vælge rullepilen ud for navnet på siden og derefter vælge handlingen **Vis filterrude**. Du kan også trykke på <kbd>Skift</kbd>+<kbd>F3</kbd>.
 
@@ -126,7 +126,7 @@ Filterruden viser de aktuelle filtre på en liste, og gør det muligt at angive 
 
 Du kan angive et enkelt filter direkte på en liste under brug af filterruden, dvs. et filter, hvor der kun vises poster med den samme værdi som i den markerede celle. Vælg en celle på listen, vælg rullepilen, og vælg derefter handlingen **Filtrer til denne værdi**. Du kan også trykke på <kbd>Alt</kbd>+<kbd>F3</kbd>.
 
-### Angive filtre i rapporter, kørsler og XMLporte
+### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Angive filtre i rapporter, kørsler og XMLporte
 
 For rapporter og XMLporte kan filtrene ses direkte på anmodningssiden. På anmodningssiden vises de senest anvendte filtre på grundlag af dit valg i feltet **Brug standardværdier fra**. Du kan finde flere oplysninger i [Bruge gemte indstillinger](ui-work-report.md#SavedSettings).
 
@@ -134,7 +134,7 @@ For rapporter og XMLporte kan filtrene ses direkte på anmodningssiden. På anmo
 
 I sektionen **Filtrer totaler efter** kan du justere forskellige dimensioner, der påvirker beregninger i rapporten eller i XMLport. Hvis du vil tilføje et filter, skal du vælge handlingen **+ Filter**. Når du vil tilføje et filter, skal du skrive navnet på det felt, du vil filtrere listen efter, eller vælge et felt på rullelisten.
 
-## Angivelse af filterkriterier
+## <a name="entering-filter-criteria"></a>Angivelse af filterkriterier
 
 Både i filterruden og på en anmodningsside angiver du filterkriterierne i feltet under filterfeltet.
 
@@ -145,7 +145,7 @@ Kolonner, som allerede indeholder filtre, er angivet med ikonet ![Filter.](media
 > [!TIP]
 > Fremskynd søgning efter og analyse af dine data ved hjælp af kombinationer af genvejstaster. For f.eks. at markere et felt skal du bruge <kbd>Skift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd> for at føje dette felt til filterruden, angive filterkriterierne, bruge <kbd>Ctrl</kbd>+<kbd>Enter</kbd> for at vende tilbage til rækkerne, vælge et andet felt og bruge <kbd>Alt</kbd>+<kbd>F3</kbd> til at filtrere til værdien. Du kan finde flere oplysninger i [Tastaturgenveje](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="FilterCriteria"> </a>Filterkriterier og -operatorer
+### <a name="a-namefiltercriteria-afilter-criteria-and-operators"></a><a name="FilterCriteria"> </a>Filterkriterier og -operatorer
 
 Når du angiver kriterier, kan du bruge alle de tal og bogstaver, som du plejer at bruger i feltet. Men der er også en række specielle symboler, som du kan bruge som operatorer for at filtrere resultaterne yderligere. I følgende afsnit beskrives disse symboler, og hvordan de bruges som operatorer i filtre.
 
@@ -157,7 +157,7 @@ Når du angiver kriterier, kan du bruge alle de tal og bogstaver, som du plejer 
 >
 > - Hvis der er mere end 200 operatorer i et enkelt filter, vil systemet automatisk gruppere nogle udtryk i parenteser `()` med henblik på behandling. Det har ingen indflydelse på filteret eller resultaterne.  
 
-#### (..) Interval
+#### <a name="-interval"></a>(..) Interval
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
@@ -172,62 +172,62 @@ Når du angiver kriterier, kan du bruge alle de tal og bogstaver, som du plejer 
 > [!TIP]
 > Hvis du bruger et numerisk tastatur, kan decimalseparatoren indeholde et andet tegn end et punktum (.). Hvis du vil skifte til en periode, skal du trykke på tasterne <kbd>Alt</kbd>+<kbd>Decimalseparator</kbd> på det numeriske tastatur. Hvis du vil skifte tilbage, skal du trykke på <kbd>Alt</kbd>+<kbd>Decimalseparator</kbd> igen. Du kan finde flere oplysninger i [Angive den decimalseparator, der bruges af numeriske tastaturer](ui-enter-data.md#decimal).
 
-#### (&#124;) Enten/eller
+#### <a name="124-eitheror"></a>(&#124;) Enten/eller
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |`1200|1300`|Tal med 1200 eller 1300.|  
 
-#### (<>) Ikke lig med  
+#### <a name="-not-equal-to"></a>(<>) Ikke lig med
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |`<>0`|Alle tal undtagen 0<br /><br /> I SQL Server Option kan du kombinere dette symbol med et udtryk med jokertegn. <>A* betyder f.eks. ikke lig med tekst, der starter med A.|  
 
-#### (>) Større end  
+#### <a name="-greater-than"></a>(>) Større end
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |`>1200`|Tal større end 1200|  
 
-#### (>=) Større end eller lig med  
+#### <a name="-greater-than-or-equal-to"></a>(>=) Større end eller lig med
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |`>=1200`|Tal lig med eller større end 1200|  
 
-#### (<) Mindre end  
+#### <a name="-less-than"></a>(<) Mindre end
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |`<1200`|Tal mindre end 1200|  
 
-#### (<=) Mindre end eller lig med  
+#### <a name="-less-than-or-equal-to"></a>(<=) Mindre end eller lig med
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |`<=1200`|Tal lig med eller mindre end 1200|  
 
-#### (&) Og  
+#### <a name="-and"></a>(&) Og
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |`>200&<1200`|Tal større end 200 og mindre end 1200|  
 
-#### ('') Tegn, der stemmer nøjagtigt overens  
+#### <a name="-an-exact-character-match"></a>('') Tegn, der stemmer nøjagtigt overens
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |`'man'`|Tekst, der svarer nøjagtigt til **man**, og der skelnes mellem store og små bogstaver.|  
 |`''`|Tekst, der er tom.|  
 
-#### (@) Ingen forskel på store og små bogstaver  
+#### <a name="-case-insensitive"></a>(@) Ingen forskel på store og små bogstaver
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |`@man*`|Tekst, der starter med **man**, og der skelnes mellem store og små bogstaver.|  
 
-#### (*) Mange ukendte tegn
+#### <a name="-an-indefinite-number-of-unknown-characters"></a>(*) Mange ukendte tegn
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
@@ -235,13 +235,13 @@ Når du angiver kriterier, kan du bruge alle de tal og bogstaver, som du plejer 
 |`*Co`|Tekst, der ender på **A/S**, og der skelnes mellem store og små bogstaver.|  
 |`Co*`|Tekst, der begynder med **A/S**, og der skelnes mellem store og små bogstaver.|  
 
-#### (?) Ét ukendt tegn  
+#### <a name="-one-unknown-character"></a>(?) Ét ukendt tegn
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
 |`Hans?n`|Tekst som f.eks. **Hansen** eller **Hanson**|  
 
-#### Kombinerede formatudtryk  
+#### <a name="combined-format-expressions"></a>Kombinerede formatudtryk
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
@@ -249,7 +249,7 @@ Når du angiver kriterier, kan du bruge alle de tal og bogstaver, som du plejer 
 |`..1299|1400..`|Medtag poster med et tal mindre end eller lig med 1299, eller tal lig med 1400 eller derover (alle tal undtagen 1300 til og med 1399).|  
 |`>50&<100`|Medtag poster med tal større end 50 og mindre end 100 (tal fra 51 til og med 99).|  
 
-### <a name="symbols"></a>Filtrere på værdier, der indeholder symboler
+### <a name="filtering-on-values-that-contain-symbols"></a><a name="symbols"></a>Filtrere på værdier, der indeholder symboler
 
 Der kan være tilfælde, hvor feltværdier indeholder et af følgende symboler:
 
@@ -263,14 +263,14 @@ Hvis du vil filtrere efter et af disse symboler, skal du placere filterudtrykket
 
 Dette krav er ikke nødvendigt for andre symboler.
 
-### <a name="FilterTokens"> </a>Filtertokens
+### <a name="a-namefiltertokens-afilter-tokens"></a><a name="FilterTokens"> </a>Filtertokens
 
 Når du angiver filterkriterier, kan du også skrive ord, der har en særlig betydning, kaldet filtertokens. Når du har angivet et tokenordet, erstattes ordet af den eller de værdier, det repræsenterer. Med filter-tokens bliver filtrering nemmere ved at reducere behovet for at navigere til andre sider for at søge efter værdier, du vil føje til filteret. Tabellerne nedenfor beskriver nogle af de tegn, du kan skrive som filterkriterier.
 
 > [!TIP]
 > Din organisation bruger muligvis brugerdefinerede tokens. For at få mere at vide om det komplette sæt tokens, der er tilgængelige for dig, eller tilføje flere brugerdefinerede tokens, skal du kontakte din administrator. Du kan finde tekniske oplysninger i [Tilføje filtertokens](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
-#### (%me eller %userid) Poster, der er tildelt til dig
+#### <a name="me-or-userid-records-assigned-to-you"></a>(%me eller %userid) Poster, der er tildelt til dig
 
 Brug `%me` eller `%userid` ved filtrering af felter, der indeholder bruger-id'et, f.eks. feltet **Tildelt til bruger-id**, for at få vist alle poster, der er tildelt til dig.
 
@@ -278,7 +278,7 @@ Brug `%me` eller `%userid` ved filtrering af felter, der indeholder bruger-id'et
 |-----------------------|-----------------------|  
 |`%me`<br />eller<br />`%userid`|Poster, der er knyttet til din brugerkonto. |  
 
-#### (%mycustomers) Debitorer i Mine debitorer
+#### <a name="mycustomers-customers-in-my-customers"></a>(%mycustomers) Debitorer i Mine debitorer
 
 Brug `%mycustomers` i debitorfeltet **Nej** til at vise alle poster for debitorer, der står på listen **Mine debitorer** i dit rollecenter.
 
@@ -286,7 +286,7 @@ Brug `%mycustomers` i debitorfeltet **Nej** til at vise alle poster for debitore
 |-----------------------|-----------------------|  
 |`%mycustomers`|Debitorer i **Mine debitorer** i dit rollecenter. |  
 
-#### (%myitems) Varer i Mine varer
+#### <a name="myitems-items-in-my-items"></a>(%myitems) Varer i Mine varer
 
 Brug `%myitems` i varefeltet **Nej** til at vise alle poster for varer, der står på listen **Mine varer** i dit rollecenter.
 
@@ -294,7 +294,7 @@ Brug `%myitems` i varefeltet **Nej** til at vise alle poster for varer, der stå
 |-----------------------|-----------------------|  
 |`%myitems`|Varer i **Mine varer** i dit rollecenter. |  
 
-#### (%myvendors) Kreditorer i Mine kreditorer
+#### <a name="myvendors-vendors-in-my-vendors"></a>(%myvendors) Kreditorer i Mine kreditorer
 
 Brug `%myvendors` i kreditorfeltet **Nej** til at vise alle poster for kreditorer, der står på listen **Mine kreditor** i dit rollecenter.
 
@@ -302,9 +302,9 @@ Brug `%myvendors` i kreditorfeltet **Nej** til at vise alle poster for kreditore
 |-----------------------|-----------------------|  
 |`%myvendors`|Kreditorer i **Mine kreditorer** i dit rollecenter. |  
 
-## Se relateret [Microsoft-træning](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.yml)  
 [Gemme og tilpasse listevisninger](ui-views.md)  

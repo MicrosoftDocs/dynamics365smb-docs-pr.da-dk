@@ -11,11 +11,11 @@ ms.search.form: '30, 456, 461'
 ms.date: 07/28/2021
 ms.author: edupont
 ---
-# Konfigurere generelle lageroplysninger
+# <a name="set-up-general-inventory-information"></a>Konfigurere generelle lageroplysninger
 
 Du kan angive dine generelle lageropsætning på siden **Lageropsætning**.
 
-## Sådan konfigurerer du generelle lageroplysninger
+## <a name="to-set-up-general-inventory-information"></a>Sådan konfigurerer du generelle lageroplysninger
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Lager**, og vælg derefter det relaterede link.
 2. På siden **Lageropsætning** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -31,7 +31,7 @@ Hvis du automatisk vil inkludere lagerekspeditionstiden i beregningen af leverin
 >
 > Alternativt kan du ændre omkostningerne manuelt med kørslen Reguler kostværdi - vareposter. Du kan også slå automatisk omkostningbogføring fra eller angive feltet **Automatisk kostregulering** til *Aldrig*. I begge tilfælde vises en meddelelse, hvorfra du kan starte en assisteret opsætningsvejledning, der hjælper dig med at planlægge opgaver for opgavekøen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere lager](inventory-setup-inventory.md)  
 [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
