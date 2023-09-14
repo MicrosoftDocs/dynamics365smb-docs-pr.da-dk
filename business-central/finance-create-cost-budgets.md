@@ -1,16 +1,16 @@
 ---
 title: Oprette omkostningsbudgetter
 description: 'Dette emne indeholder en oversigt over, hvor du kan oprette og analysere omkostningsbudgetter. Budgettering i omkostningsregnskab minder om budgettering i regnskabet.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133'
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="creating-cost-budgets"></a>Oprette omkostningsbudgetter
+# Oprette omkostningsbudgetter
 
 Budgettering i omkostningsregnskab minder om budgettering i regnskabet. Et omkostningsbudget oprettes baseret på omkostningstyper, ligesom et budget for regnskabet oprettes baseret på finanskonti.  
 
@@ -26,9 +26,9 @@ Brug følgende sider til at oprette og analysere omkostningsbudgetter. Vælg ![L
 |Se omkostningsbudgetregistre og omkostningsbudgetposter.|Siden **Omkostningsbudgetregistre**|  
 |Udskrive omkostningsbudgetsammenligninger med forskellige rapporter.|Rapporten **Omk.regnskabssaldo/budget**<br /><br /> Rapporten **Omk.regnskabskontoudtog/budget**<br /><br /> Rapporten **Omkostningsbudget efter omkostningssted**<br /><br /> Rapporten **Omkostningsbudget efter omkostningsemne**|  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Regnskab for omkostninger](finance-manage-cost-accounting.md)  
 [Oprette finansbudgetter](finance-how-create-budgets.md)  

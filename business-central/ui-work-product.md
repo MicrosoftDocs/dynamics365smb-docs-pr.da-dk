@@ -1,16 +1,16 @@
 ---
 title: Arbejde med Business Central (indeholder video)
 description: 'Beskriver de overordnede funktioner, du bruger til at arbejde med data i Business Central, som f.eks. at angive værdier, sortere data og ændre visninger.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="work-with-"></a>Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]
+# Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Når du udfører de opgaver, interagerer du med data på forskellige måder, f.eks. når du opretter poster og indtaster data, sorterer og filtrerer data, skriver noter og skriver data til andre programmer.
 
@@ -18,14 +18,14 @@ Du kan f.eks. justere størrelsen og placeringen af en side, udvide bredden af k
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Tip
+## <a name="cheatsheet"></a>Tip
 
 > [!TIP]
 > Hvis du vil have vist en printervenlig oversigt over de mest benyttede funktioner, skal du vælge følgende billede og hente PDF-filen.
 >
 > [ ![Ikon for PDF-filen.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Ikon, der åbner et PDF-dokument")
 
-## <a name="links-to-learn-more"></a>Links til flere oplysninger
+## Links til flere oplysninger
 
 I følgende tabel vises nogle af den generelle funktionalitet med links til emner, hvor de er beskrevet.
 
@@ -51,12 +51,12 @@ I følgende tabel vises nogle af den generelle funktionalitet med links til emne
 | Administrere indholdet og formatet af rapporter og dokumenter, herunder hvilke datafelter i et datasæt der vises i rapporten, og hvordan de er organiseret, teksttypografi, billeder og meget mere.|[Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md) |
 |Få mere at vide om funktioner og muligheder, der gør [!INCLUDE[prod_short](includes/prod_short.md)] direkte tilgængelig for personer med handicap.|[Tilgængelighedsfunktioner og tastaturgenveje](ui-accessibility.md)|
 
-## <a name="getting-around-in-business-central"></a>Navigation i Business Central
+## Navigation i Business Central
 Her er en kort video om, hvordan du bevæger dig rundt i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## <a name="choosing-a-desktop-browser"></a>Sådan vælger du en desktopbrowser
+## Sådan vælger du en desktopbrowser
 
 [!INCLUDE[prod_short](includes/prod_short.md)] understøtter flere browsere, som hver især har mange forskellige funktioner og muligheder. Browseren spiller en vigtig rolle for, hvor hurtigt brugergrænsefladen reagerer og kan bruges. Se listen over understøttede, anbefalede browsere til [Business Central Online](./product-requirements.md) og browsere til [Business Central til det lokale miljø](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
@@ -65,7 +65,7 @@ Her er en kort video om, hvordan du bevæger dig rundt i [!INCLUDE[prod_short](i
     Internet Explorer understøttes ikke længere. Du kan få flere oplysninger i [Dokumentation til Microsoft Edge](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Sørg for, at din browser altid er opdateret til den nyeste version.
 
-## <a name="action-bars"></a>Handlingslinjer
+## Handlingslinjer
 
 I [!INCLUDE [prod_short](includes/prod_short.md)] gør du det meste af arbejdet på en liste, et dokument eller et kort. Alle tre typer sider har en linje med aktioner, der er relevante for den pågældende side, og handlingerne er næsten de samme for det enkelte kort eller dokument og for listen over objekter. På den måde kan du administrere en individuel salgsordre på siden **Salgsordre** og på listen **Salgsordrer**, herunder bogføre og fakturere den.  
 
@@ -80,9 +80,9 @@ Når du søger efter en åben listeside, f. eks **Salgsordrer**, vises den i Vis
 
 Men når du åbner den samme listeside fra startsiden, er handlingen **Administrer** ikke tilgængelig. I stedet for at åbne en individuel salgsordre skal du blot vælge feltet **Nummer**. I denne visning kan du ikke fastgøre handlingslinjen.  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/work-pro-data-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/paths/work-pro-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Blive køreklar](ui-get-ready-business.md)  
 [Konfigurere Business Central](setup.md)  

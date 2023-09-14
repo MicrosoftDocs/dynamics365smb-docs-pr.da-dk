@@ -1,7 +1,7 @@
 ---
 title: Indlæse løn eller løndata ved hjælp af udvidelsen Ceridian-løn
 description: Brug denne udvidelse til at importere løntransaktioner fra tjenesterne Ceridian HR/Payroll (US) og Ceridian PowerPay (Canada).
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms. search.keywords: 'app, add-in, manifest, customize, salary, wage'
 ms.search.form: '1665,'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="the-ceridian-payroll-extension"></a>Udvidelsen Ceridian-lønudvidelse
+# Udvidelsen Ceridian-lønudvidelse
 
 For at tage højde for lønbetalinger og relaterede transaktioner, skal du importere og bogføre finansielle transaktioner, der er foretaget af din lønningssystemudbyder i finansbogholderiet.
 
@@ -19,7 +19,7 @@ For at gøre dette skal du først importere en fil, som du modtager fra lønning
 
 Udvidelsen Ceridian løn giver dig mulighed at importere løntransaktioner fra tjenesterne Ceridian HR/Payroll (US) og Ceridian PowerPay (Canada).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Finans](finance.md)  

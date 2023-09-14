@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 08/08/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 > [!IMPORTANT]
 > Når du bogfører en salgsordre, har du mulighed for både at oprette en leverance og en faktura. Disse dokumenter kan gennemføre på samme tid eller hver for sig. Du kan også oprette en delleverance og en delfaktura ved at udfylde felterne **Lever (antal)** og **Fakturer (antal)** på de enkelte salgsordrelinjer, før du bogfører. Bemærk, at du ikke kan oprette en faktura fra siden **Salgsordrer** for noget, der ikke er leveret. Dvs., før du kan fakturere, skal der være registreret en leverance, eller du skal vælge at sende og fakturere på samme tid.

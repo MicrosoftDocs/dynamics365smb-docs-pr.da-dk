@@ -1,7 +1,7 @@
 ---
 title: Arbejde med styklister
 description: 'Du opretter en montagestykliste eller produktionsstykliste for at angive de komponenter eller ressourcer, der kræves for at sammensætte den vare, som styklisten repræsenterer.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,13 +9,13 @@ ms.workload: na
 ms.search.keywords: 'bills of material, assembly BOM, production BOM,'
 ms.search.form: null
 ms.date: 09/26/2022
-ms.author: a-reishima
+ms.author: bholtorf
 ---
-# <a name="work-with-bills-of-material"></a>Arbejde med styklister
+# Arbejde med styklister
 
 Du kan bruge styklister til at strukturere overordnede varer, der skal samles fra andre varer eller fremstilles af ressourcer eller produktionsressourcer fra komponenter.
 
-## <a name="assembly-boms-or-production-boms"></a>Montagestykliste eller produktionsstyklister
+## Montagestykliste eller produktionsstyklister
 
 [!INCLUDE[prod_short](includes/prod_short.md)] understøtter to forskellige typer styklister:
 
@@ -36,7 +36,7 @@ Begrebet ressourcer i produktionen er langt mere avanceret end i montagestyring.
 
 Både montageordrer og produktionsordrer kan knyttes direkte til salgsordrer. Du kan dog kun bruge montageordrer til at tilpasse færdigvaren direkte til en debitoranmodning med salgsordren.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbejde med montagestyklister](assembly-how-work-assembly-boms.md)  
 [Oprette produktionsstyklister](production-how-to-create-production-boms.md)  

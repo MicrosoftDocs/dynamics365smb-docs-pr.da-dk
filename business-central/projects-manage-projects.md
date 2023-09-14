@@ -1,15 +1,15 @@
 ---
 title: Projektstyring
 description: 'Beskriver, hvordan du bruger ressourcer, timesedler og sager til at administrere projekter og deres budgetter.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
 ms.search.form: '89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015'
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="project-management"></a>Projektstyring
+# Projektstyring
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du udføre almindelige projektstyringsopgaver, som f.eks. konfiguration af en sag og planlægning af en ressource samt anskaffelsen af de oplysninger, der er nødvendige til administration af budgetter og overvågning af status. Du kan spore maskin- og medarbejdertimer på projektet ved hjælp af timeregistreringer. Som projektleder har du et godt overblik, ikke kun over individuelle sager, men også over allokeringen af medarbejdere, maskiner og andre ressourcer, der bruges i alle projekter.
 
@@ -29,11 +29,11 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Bogfør forbruget af materialer, ressourcer og andre udgifter ved igangværende arbejde for at overvåge arbejdets økonomiske værdi og føre korrekt regnskab, selvom du bogfører sagsudgifter, inden du fakturerer sagen. |[Overvåge jobstatus og -udførelse](projects-how-monitor-progress-performance.md) |
 | Registrer løbende sagsomkostninger for ressourceforbrug, materialer og sagsrelaterede indkøb, og fakturer kunden, enten når sagen er afsluttet eller i henhold til en faktureringsplan. |[Fakturere sager](projects-how-invoice-jobs.md) |
 
-## <a name="get-started-with-projects"></a>Kom i gang med projekter
+## Kom i gang med projekter
 
 Projektstyring er kompliceret nok i forvejen, og det kan være ekstra kompliceret at skulle lære at oprette sager og administrere igangværende arbejde i et nyt værktøj. For at hjælpe dig i gang med projektstyring i [!INCLUDE[prod_short](includes/prod_short.md)] kan du se [en video om oprettelse af sager](https://www.youtube.com/watch?v=VqaPWr7BWmw) på [!INCLUDE[prod_short](includes/prod_short.md)] YouTube-kanalen.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere projektstyring](projects-setup-projects.md)  
 [Video: Sådan oprettes en sag i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

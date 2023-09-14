@@ -2,14 +2,14 @@
 metadata:
   title: Ofte stillede spørgsmål til mobilapp
   description: Se svar på ofte stillede spørgsmål om brug af Business Central på din telefon eller tablet.
-  author: edupont04
+  author: brentholtorf
   ms.topic: faq
   ms.devlang: na
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: 'phone, tablet'
   ms.date: 10/25/2021
-  ms.author: edupont
+  ms.author: bholtorf
 title: Ofte stillede spørgsmål til mobilapp
 summary: |
   I dette emne besvares spørgsmål, som erfarne brugere ofte stiller om mobilapps til [!INCLUDE [prod_short](includes/prod_short.md)].  

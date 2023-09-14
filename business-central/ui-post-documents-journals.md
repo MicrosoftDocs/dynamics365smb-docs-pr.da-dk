@@ -1,16 +1,16 @@
 ---
 title: Bogføring af dokumenter og kladder
 description: 'I dette emne beskrives bogførings handlinger, og hvordan du kan bogføre dokumenter og kladder i de forskellige regnskaber.'
-author: SorenGP
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/24/2021
 ms.search.form: null
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="posting-documents-and-journals"></a>Bogføring af dokumenter og kladder
+# Bogføring af dokumenter og kladder
 
 Bogføringen repræsenterer regnskabshandlingen, som registrerer forretningstransaktioner i forskellige virksomhedsfinanskonti.
 
@@ -27,7 +27,7 @@ Følgende tabel beskriver relaterede opgaver med links til de emner, der beskriv
 | Vis en side med de poster, der oprettes, når du bogfører. |[Vise bogføringsresultater](ui-how-preview-post-results.md) |
 | Vis en rapport med de poster, der oprettes, når du bogfører. |[Vise testrapporter inden bogføring](ui-how-view-test-reports-posting.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Redigere bogførte dokumenter](across-edit-posted-document.md)  
 [Find relaterede poster for dokumenter](ui-find-entries.md)  

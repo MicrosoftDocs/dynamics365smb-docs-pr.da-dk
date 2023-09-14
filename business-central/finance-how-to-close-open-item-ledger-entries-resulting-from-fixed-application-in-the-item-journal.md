@@ -1,16 +1,16 @@
 ---
 title: 'Lukke vareposter, der stammer fra brug af fast udligning.'
 description: 'Se, hvordan du kan oprette en fast udligning mellem en indgående transaktion og den oprindelige udgående transaktion i varekladden.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 40
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Lukke åbne vareposter, der fremkommer ved fast udligning i varekladden
+# Lukke åbne vareposter, der fremkommer ved fast udligning i varekladden
 
 Du kan bruge feltet **Udlign fra-post** på siden **Varekladde** for at oprette en fast udligning mellem en indgående transaktion og den oprindelige udgående transaktion. For eksempel for at rette den udgående transaktion eller behandle dens returvare.  
 
@@ -23,7 +23,7 @@ Du kan ændre og genanvende udligningsposter under visse betingelser ved hjælp 
 
 Følgende procedure viser, hvordan du kan lukke disse poster ved at udføre to korrigerende bogføringer i varekladden.  
 
-## <a name="to-close-open-item-ledger-entries-that-result-from-a-fixed-application-in-the-item-journal"></a>Sådan lukkes åbne vareposter, der fremkommer ved fast udligning i varekladden
+## Sådan lukkes åbne vareposter, der fremkommer ved fast udligning i varekladden  
 
 1. Brug feltet **Udlign fra-post** for at bogføre en positiv regulering med den tilsvarende mængde. Den oprindelige negative post med fast udligning lukkes.  
 
@@ -32,7 +32,7 @@ Følgende procedure viser, hvordan du kan lukke disse poster ved at udføre to k
 
     Feltet **Udligningspostløbenr.** angiver, om antallet på varekladdelinjen skal udlignes med et bilag, der allerede er bogført. Hvis det er tilfældet, skal du angiver det løbenummer på vareposten, som varekladdelinjen skal udlignes med.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Fjerne og genanvende vareposter](finance-how-to-remove-and-reapply-item-entries.md)  
 [Behandle salgsreturvarer og annulleringer](sales-how-process-sales-returns-cancellations.md)  

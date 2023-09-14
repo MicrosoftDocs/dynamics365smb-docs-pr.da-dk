@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345'
 ---
-# <a name="moving-items"></a>Flytte varer
+# Flytte varer
 
 Du kan flytte varer på lagerstedet på forskellige måder afhængigt af, hvordan du har konfigureret lagerstedet. Kompleksiteten kan variere:
 
@@ -36,9 +36,9 @@ Optælling, regulering og ompostering af varer kan omfatte lagerstedsopgaver, de
 |Du kan bruge lagerbevægelseskladden til internt at plukke og lægge elementer på lager i avancerede lageropsætninger med styret pluk og læg på lager.|[Flytte varer i avancerede lageropsætninger](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Omstrukturere lagerstedet med nye placeringskoder og nye karakteristika for placeringer og evt. flytte rundt på dem.|[Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/manage-internal-warehouse-processes/)
+## Se relateret [Microsoft-træning](/training/modules/manage-internal-warehouse-processes/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversigt over logistik](design-details-warehouse-management.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  

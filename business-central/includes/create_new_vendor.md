@@ -1,8 +1,8 @@
 ---
-author: jill-kotel-andersson
+author: brentholtorf
 ms.topic: include
 ms.date: 09/27/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 2.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.  

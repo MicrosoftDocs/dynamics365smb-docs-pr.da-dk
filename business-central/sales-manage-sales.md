@@ -1,7 +1,7 @@
 ---
 title: Oversigt over opgaver til administration af salg
 description: 'Læs alt om, hvordan du bruger Business Central''s services til at styre kundernes salgsaktiviteter med salgsfakturaer, ordrer, tilbud og meget mere.'
-author: SorenGP
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'trade, sell'
 ms.search.form: 253
 ms.date: 09/02/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="sales"></a>Salg
+# Salg
 
 Du opretter en salgsfaktura eller salgsordre for at registrere din aftale med en debitor om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser.
 
@@ -53,7 +53,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der d
 |Informer debitorerne om ordreleveringsdatoer ved at beregne enten den første mulige afsendelsesdato eller disponibel til leverings-dato.|[Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)|
 |Løse forvirring, når der findes to eller flere poster for samme debitor.|[Flette dublerede poster](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/paths/sell-items-services-dynamics-365-business-central/).
+## Se relateret [Microsoft-træning](/training/paths/sell-items-services-dynamics-365-business-central/).
 
 [Konfigurere salg](sales-setup-sales.md)  
 [Registrere nye debitorer](sales-how-register-new-customers.md)  

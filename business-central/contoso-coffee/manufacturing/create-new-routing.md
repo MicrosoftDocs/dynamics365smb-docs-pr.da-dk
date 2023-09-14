@@ -4,18 +4,18 @@ description: 'Gennemgang for at få mere at vide om, hvordan du angiver alle opl
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-author: edupont04
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
-# <a name="walkthrough-create-a-new-routing"></a>Gennemgang: Opret en ny rute
+# Gennemgang: Opret en ny rute
 
 I denne artikel kommer vi igennem de trin, du skal benytte, når du skal arbejde med Contoso Coffee-demodata til manuelt at opsætte ny produktionsrute i [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## <a name="scenario"></a>Scenarie
+## Scenarie
 
 Oscar, procesteknikeren hos Contoso Coffee beslutter at oprette en ny rute med navnet *Ny sti*. Da denne rute ikke svarer til nogen anden rute hos Contoso Coffee, skal Oscar manuelt angive alle oplysninger til ruten.  
 
-## <a name="steps"></a>Trin
+## Trin
 
 1. Opret rutehovedet.  
 
@@ -54,6 +54,6 @@ Oscar, procesteknikeren hos Contoso Coffee beslutter at oprette en ny rute med n
 
 Den nye rute er nu oprettet.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Introduktion til demonstrationsdata for Contoso Coffee](../contoso-coffee-intro.md)  

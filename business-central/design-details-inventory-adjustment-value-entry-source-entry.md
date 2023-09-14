@@ -1,25 +1,25 @@
 ---
 title: Bogføringsdatoen for regulerings værdiposten sammenlignet med kildeposten
 description: 'Få mere at vide om scenariet "Bogføringsdato for reguleringsværdipost mellem bogføringsdato for post, der medfører, at reguleringen f. eks. værdiregulering eller varegebyr" identificeres.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 09/17/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
-# <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Bogføringsdatoen for regulerings værdiposten sammenlignet med kildeposten
+# Bogføringsdatoen for regulerings værdiposten sammenlignet med kildeposten
 
 Denne artikel sammenligner bogføringsdatoen for regulerings værdiposten med bogføringsdatoen på posten, der medfører, at kørslen Reguler kostværdi - vareposter er blevet kørt, især et reguleringsscenarie og et varegebyrscenario.
 
 Kørslen **Reguler kostværdi - vareposter** behandler dine data, afhængigt af dit scenario og din konfiguration af [!INCLUDE[prod_short](includes/prod_short.md)]. I dette afsnit beskrives to separate processer, og hver af dem viser, hvilken type indflydelse kørslen Juster kostpris - vareposter har på dataene.
 
-## <a name="revaluation-scenario"></a>Værdireguleringsscenarie
+## Værdireguleringsscenarie
 
-### <a name="prerequisites"></a>Forudsætninger
+### Forudsætninger  
 
 Indtast følgende værdier:
 
@@ -45,7 +45,7 @@ Indtast følgende værdier:
 
 - Bogf. tilladt til = Tom  
 
-### <a name="to-test-the-scenario"></a>Sådan testes scenariet
+### Sådan testes scenariet
 
 Test dette scenario ved at udføre følgende trin.
 
@@ -150,15 +150,15 @@ Reguleringen, der er foretaget for nedreguleringen i trin 3 giver problemer. Den
 
 For at opnå regulering i december af nedreguleringen i trin 3, skal Opsætning af Finans i feltet Bogf. tilladt fra angive en dato i december.  
 
-### <a name="conclusion"></a>Konklusion
+### Konklusion
 
 Når du overvejer den mest velegnede opsætning for et firmas tilladte datointerval, kan det være en god idé at overveje følgende. Så længe ændringer i lagerværdien skal bogføres i en periode, f. eks. december, skal den opsætning, som firmaet bruger til at tillade bogføringsdato intervaller, justeres i henhold til denne beslutning. Bogf. tilladt fra i Opsætning af Finans angiver 1. december, og det tillader at, værdireguleringen foretaget i december kan sendes til berørte udgående poster i samme periode.  
 
 Brugergrupper, der ikke må bogføre i december, men i januar, hvilket sandsynligvis var beregnet til at være begrænset af Opsætning af Finans i dette scenarie, skal i stedet behandles via Brugeropsætning.  
 
-## <a name="item-charge-scenario"></a>Scenarie med varegebyr
+## Scenarie med varegebyr  
 
-### <a name="prerequisites-1"></a>Forudsætninger
+### Forudsætninger  
 
 Indtast følgende værdier:
 
@@ -184,7 +184,7 @@ Indtast følgende værdier:
 
 - Bogf. tilladt til = Tom  
 
-### <a name="to-test-the-scenario-1"></a>Sådan testes scenariet
+### Sådan testes scenariet  
 
 Test dette scenario ved at udføre følgende trin:
 
@@ -350,7 +350,7 @@ Det er en udfordring, at rapporten Lagerværdi viser antal = 0, mens værdien er
 
 I dette scenarie kunne det være en mulighed at lade feltet Bogf. tilladt fra i Opsætning af Finans angive en dato i december i et par dage til, og lade bogføringen af det første varegebyr vente for at tillade, at alle omkostninger fra den forrige periode/det forrige regnskabsår blev genkendt i den periode, hvor de hører til, og køre kørslen Juster kostpris - vareposter og derefter flytte den tilladte bogføringsdato til den nye periode\/det nye regnskabsår. Den første varegebyr med bogføringsdatoen 2. januar kan derefter bogføres.  
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Designoplysninger: Bogføringsdato på post med reguleringsværdi](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)  

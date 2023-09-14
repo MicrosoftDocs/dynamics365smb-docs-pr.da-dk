@@ -1,16 +1,16 @@
 ---
 title: Oprettre og administrere interaktioner med kontakter
 description: 'I Business Central er interaktioner alle typer af kommunikation mellem din virksomhed og dine kontakter. Læs om de måder, du kan oprette og administrere kontaktpersoner på.'
-author: SorenGP
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="managing-interactions-with-your-contacts"></a>Administrere interaktioner med dine kontakter
+# Administrere interaktioner med dine kontakter
 I [!INCLUDE[prod_short](includes/prod_short.md)] er interaktioner alle typer kommunikation mellem din virksomhed og dine kontakter. F.eks. kan kommunikation foregå via brev, mail, telefon, møder osv.
 
 Du kan registrere alle de interaktioner, du har med kontakter. Det sætter dig i stand til at holde styr på de salgs- og marketingtiltag, du har iværksat over for kontakterne, og til at forbedre de fremtidige forretningsinteraktioner med dem.

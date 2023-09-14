@@ -1,14 +1,14 @@
 ---
 title: Bruge online kort til at finde steder og vejledninger
 description: Få mere at vide om at bruge adressedata i Business Central til at få et onlinekort med ruteanvisninger.
-author: rubenseishima
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: article
 ms.search.form: '21, 26, 76, 86, 88, 300, 370, 800, 804, 5050, 5200, 5703'
 ms.date: 07/15/2022
-ms.author: a-reishima
+ms.author: bholtorf
 ---
-# <a name="use-online-maps-to-find-locations-and-directions"></a>Bruge online kort til at finde steder og vejledninger
+# Bruge online kort til at finde steder og vejledninger
 
 Du kan hente et kort fra din onlinekorttjeneste, der kan vise adresser og lokationer til debitor og kreditor eller genererer rutedirektioner til dem. Du kan få adgang til **Online Map**-funktioner på følgende kort i [!INCLUDE[prod_short](includes/prod_short.md)]:
 
@@ -25,14 +25,14 @@ Du kan hente et kort fra din onlinekorttjeneste, der kan vise adresser og lokati
 > [!NOTE]
 > Hvis der ikke er en kode i feltet **Lande-/områdekode**, kan onlinekortet ikke finde anvisninger.
 
-## <a name="find-a-location-in-an-online-map"></a>Sådan finder du en lokation på et onlinekort
+## Sådan finder du en lokation på et onlinekort
 
 1. Åbn et af kortene, der nævnes ovenfor.
 2. Vælg handlingen **Online Map** eller **Vis på kort**.
 3. Vælg feltet **Denne adresse** og derefter **OK**.
 4. Det konfigurerede onlinekort åbnes med den adresseplacering, der er defineret på kortet.
 
-## <a name="get-route-directions-from-your-location"></a>Hent ruteanvisninger fra din placering
+## Hent ruteanvisninger fra din placering
 
 1. Åbn et af kortene, der nævnes ovenfor.
 2. Vælg handlingen **Online Map** eller **Vis på kort**.
@@ -42,7 +42,7 @@ Du kan hente et kort fra din onlinekorttjeneste, der kan vise adresser og lokati
 > [!NOTE]
 > Onlinekortet åbnes i standardbrowseren eller -appen, hvilket kan anmode om adgang til enhedens placeringsdata.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opsætning af onlinekort](across-online-maps-setup.md)  
 [Blive køreklar](ui-get-ready-business.md)  

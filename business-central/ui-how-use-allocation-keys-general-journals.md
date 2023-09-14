@@ -1,7 +1,7 @@
 ---
 title: Bruge fordelingsnøgler i finanskladder
 description: 'Du kan allokere en post i en finanskladde til flere forskellige konti, når du bogfører kladden.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: cost accounting
 ms.search.form: '283, 284'
 ms.date: 06/29/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="use-allocation-keys-in-general-journals"></a>Bruge fordelingsnøgler i finanskladder
+# Bruge fordelingsnøgler i finanskladder
 Du kan allokere en post i en finanskladde til flere forskellige konti, når du bogfører kladden. Allokeringen kan foretages efter antal, procent eller beløb.
 
-## <a name="to-set-up-allocation-keys"></a>Sådan konfigureres fordelingsnøgler
+## Sådan konfigureres fordelingsnøgler
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
 2. Vælg feltet **Kladdenavn** for at åbne siden **Finanskladdenavne**.
 3. Du kan ændre fordelinger for et eksisterende navn på listen eller oprette et nyt navn med fordelinger.
@@ -29,13 +29,13 @@ Du kan allokere en post i en finanskladde til flere forskellige konti, når du b
 10. Når du har angivet linjerne med fordelinger, skal du vælge **OK** for at gå tilbage til siden **Finansgentagelseskladde**. Feltet **Fordelt beløb (RV)** udfyldes og svarer til feltet **Beløb**.
 11. Bogfør journalen.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Sådan ændres en fordelingsnøgle, der allerede er oprettet
+## Sådan ændres en fordelingsnøgle, der allerede er oprettet
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Finansgentagelseskladde**, og vælg derefter det relaterede link.
 2. Vælg kladden med allokeringen på siden **Finansgentagelseskladde**.
 3. Vælg linjen med fordelingen og vælg derefter handlingen **Fordelinger**.
 4. Rediger de relevante felter, og vælg derefter knappen **OK**.
 
-## <a name="see-also"></a>Se også
+## Se også
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Bogføring af dokumenter og kladder](ui-post-documents-journals.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

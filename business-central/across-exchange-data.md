@@ -1,16 +1,16 @@
 ---
 title: Udveksle data
 description: 'Udveksle elektroniske forretningsdokumenter, f. eks. bankfiler, mellem Business Central og eksterne parter.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'exchange data, external files, electronic documents, AMC Banking, OCT, SEPA'
 ms.date: 06/10/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="exchanging-data"></a>Udveksle data
+# Udveksle data
 Du kan udveksle data mellem [!INCLUDE[prod_short](includes/prod_short.md)] og eksterne filer eller streams i forbindelse med almindelige forretningsrelaterede opgaver, f.eks. afsendelse og modtagelse af elektroniske dokumenter og importere og eksportere bankfiler.  
 
 Før du kan sende og modtage elektroniske dokumenter eller importere og eksportere bankfiler, skal du konfigurere dataudvekslingsstrukturen for at behandle datafiler eller -streams. Derudover skal du definere relaterede områder, f.eks. debitorer, som du sender elektroniske fakturaer til, og AMC Banking 365 Fundamentals-udvidelsen, hvis du distribuerer bankfiler til en ekstern tjenesteudbyder. Du kan finde flere oplysninger i [Konfiguration af dataudveksling](across-set-up-data-exchange.md).  
@@ -31,7 +31,7 @@ Før du kan sende og modtage elektroniske dokumenter eller importere og eksporte
 |Eksportér data til Intrastat-rapportering i [!INCLUDE[prod_short](includes/prod_short.md)].|[Oprette Intrastat-rapportering](finance-how-setup-report-intrastat.md)|
 |Se, hvilke felter i [!INCLUDE[prod_short](includes/prod_short.md)], der er knyttet til filelementer, når du eksporterer betalingsfiler ved hjælp af AMC Banking 365 Fundamentals-udvidelsen.|[Felttilknytning ved eksport af betalingsfiler ved hjælp af AMC Banking 365 Fundamentals-udvidelsen](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  
 [Udveksle data elektronisk](across-data-exchange.md)  
 [Fakturere salg](sales-how-invoice-sales.md)   

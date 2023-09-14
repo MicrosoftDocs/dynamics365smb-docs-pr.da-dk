@@ -1,20 +1,20 @@
 ---
 title: Konfigurere kontantkunder
 description: 'I dette emne beskrives de trin, der er nødvendige for at oprette fakturaen med et debitornummer for debitorer, der betaler kontant.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '21, 22'
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-cash-customers"></a>Konfigurere kontantkunder
+# Konfigurere kontantkunder
 
 Du kan ikke oprette en faktura uden et debitornummer. Det gælder også, hvis du sælger kontant og ikke har noget at registrere i en kundekonto.  
 
-## <a name="to-set-up-a-cash-customer"></a>Definere en kontantkunde
+## Definere en kontantkunde
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Debitor**, og vælg derefter det relaterede link.  
 2. Opret et nyt kort for en **Kunde**. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).
@@ -29,7 +29,7 @@ Du kan ikke oprette en faktura uden et debitornummer. Det gælder også, hvis du
 >
 > Du skal angive et nummer til salgskonto for bogføringsgruppen, også selvom saldoen altid vil være 0, når du har bogført en faktura.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Registrere nye debitorer](sales-how-register-new-customers.md)

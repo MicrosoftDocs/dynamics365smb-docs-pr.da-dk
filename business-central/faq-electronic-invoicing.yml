@@ -3,8 +3,8 @@ metadata:
   title: Ofte stillede spørgsmål om elektronisk fakturering
   description: Få svar på dokumentudvekslingstjeneste og understøttede versioner af PEPPOL.
   ms.topic: faq
-  author: edupont04
-  ms.author: edupont
+  author: brentholtorf
+  ms.author: bholtorf
 title: Ofte stillede spørgsmål om elektronisk fakturering
 summary: |
   Den indbyggede dokumentudvekslingstjeneste sender elektroniske fakturaer til TradeShift, som er en tjenesteudbyder, der relæer elektroniske fakturaer til PEPPOL eller NemHandel modtagere. Men tjenesten understøtter kun et begrænset antal versioner.   

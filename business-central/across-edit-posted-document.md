@@ -1,18 +1,18 @@
 ---
 title: Redigere bogførte salgs- og købsdokumenter
 description: 'Dette emne beskriver, hvordan du opdaterer oplysninger i et bogført bilag som en salgsleverance eller købsfaktura, når relevante oplysninger er ændret.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.search.keywords: 'Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document'
 ms.search.form: '130, 138, 142, 146, 6660, 6662, 6650, 6652'
 ms.date: 06/10/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="edit-posted-documents"></a>Redigere bogførte dokumenter
+# Redigere bogførte dokumenter
 
 Nogle gange er det nødvendigt at opdatere et bogført dokument, da oplysninger, der er relevante for dokumentet, er ændret. I et bogført salgsdokument, kan det f.eks. være speditørens pakkesporingsnummer. I et bogført købsdokument kan det være en betalingsreferencetekst.
 
@@ -32,7 +32,7 @@ Følgende yderligere dokumenter kan redigeres i de angivne lande eller områder:
 - RU: bogført salgskreditnota
 - IT: Bogført overflytningsleverance, bogført serviceleverance
 
-## <a name="to-edit-a-posted-sales-shipment"></a>Sådan redigeres en bogført salgsleverance
+## Sådan redigeres en bogført salgsleverance
 
 I det følgende forklares det, hvordan du kan redigere en bogført salgsleverance. Fremgangsmåden er den samme for de andre understøttede dokumenter.
 
@@ -43,7 +43,7 @@ I det følgende forklares det, hvordan du kan redigere en bogført salgsleveranc
 
 Den bogførte salgsleverance opdateres.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bogføring af dokumenter og kladder](ui-post-documents-journals.md)  
 [Find relaterede poster for dokumenter](ui-find-entries.md)  

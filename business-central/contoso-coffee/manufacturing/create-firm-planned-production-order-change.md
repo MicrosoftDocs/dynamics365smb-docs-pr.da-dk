@@ -4,21 +4,21 @@ description: 'Gennemgang af en produktionsplanlægger hos contoso Coffee, som vi
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-author: edupont04
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
-# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Gennemgang: Opret en ny fastlagt produktionsordre og ændre den
+# Gennemgang: Opret en ny fastlagt produktionsordre og ændre den
 
 I denne artikel kommer vi igennem de trin, du skal benytte, når du skal arbejde med produktionsordrer fra Contoso Coffee.  
 
-## <a name="scenario"></a>Scenarie
+## Scenarie
 
 Eduardo, der er produktionsplanlægger hos Contoso Coffee, skal oprette en ny produktionsordre på 10 enheder af varen **SP-SCM1009, Airpot**, der skal betales den 28. april. Eduardo bagudretter planlægningen og bekræfter, at de kan starte ordren den 27. april.  
 
 Kort efter at han har afsluttet opgaven, bliver Eduardo bedt om at øge ordren til 50 enheder. Hvis det er tilfældet, skubber den bagudrettede planlægningsfunktion den første rækkefølge. Så Eduardo videresender ordren fra den 23. april for at fastlægge en mere realistisk slutdato.  
 
-## <a name="steps"></a>Trin
+## Trin
 
 1. Opret den første produktionsordre på 10 enheder af varen **SP-SCM1009, Airpot**.
 
@@ -58,6 +58,6 @@ Kort efter at han har afsluttet opgaven, bliver Eduardo bedt om at øge ordren t
 
 Den nye produktionsordre er nu oprettet, og Eduardos anmodning imødekommes.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Introduktion til demonstrationsdata for Contoso Coffee](../contoso-coffee-intro.md)  

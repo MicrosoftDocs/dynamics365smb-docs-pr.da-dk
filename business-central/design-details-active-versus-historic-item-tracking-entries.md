@@ -1,16 +1,16 @@
 ---
 title: Designoplysninger - Aktive kontra historiske varesporingsposter
 description: 'Når dele af et dokumentlinjeantal er bogført, overføres kun det bestemte antal til vareposter og dets varesporingsnumre.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/15/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="design-details-active-versus-historic-item-tracking-entries"></a>Designoplysninger: Aktive kontra historiske varesporingsposter
+# Designoplysninger: Aktive kontra historiske varesporingsposter
 Når dele af et dokumentlinjeantal er bogført, overføres kun det bestemte antal til vareposter og dets varesporingsnumre. Dog skal du kunne få adgang til alle relevante oplysninger om varesporing direkte fra den aktive bilagslinje. Det vil sige, at du ikke kun vil se de poster, der er relateret til det resterende antal, men du vil også have oplysninger om de enheder, der er bogført. Når du får vist eller redigerer siden **Varesporingslinjer**, vises det samlede indhold af tabellen **Sporingsspecifikation** (T336) og tabellen **Reservationspost** (T337) i en midlertidig version af T336. Dette sikrer, at historiske og aktive varesporingsdata kan åbnes som en.  
 
  Følgende tabel viser, hvordan T336 og T337 bruges i forbindelse med køb. Fede tal repræsenterer værdier, som brugeren indtaster manuelt på siden **Varesporingslinjer**.  
@@ -52,7 +52,7 @@ Når dele af et dokumentlinjeantal er bogført, overføres kun det bestemte anta
 |Siden **Varesporingslinjer**|7|0|**5**|7|2|  
 |**T336**|7|0|0|7|7|  
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Designoplysninger: Varesporing](design-details-item-tracking.md)   
  [Designoplysninger: Siden Varesporingslinjer](design-details-item-tracking-lines-window.md)
 

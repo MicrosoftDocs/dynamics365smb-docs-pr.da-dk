@@ -1,16 +1,16 @@
 ---
 title: Designoplysninger – Bogføring af forventet kostpris
 description: 'Forventede kostpriser repræsenterer et overslag over f.eks. en købt vares omkostninger, som du registrerer, før du modtager fakturaen for varen.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 07/20/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="design-details-expected-cost-posting"></a>Designoplysninger: Bogføring af forventet kostpris
+# Designoplysninger: Bogføring af forventet kostpris
 Forventede kostpriser repræsenterer et overslag over f.eks. en købt vares omkostninger, som du registrerer, før du modtager fakturaen for varen.  
 
  Du kan bogføre forventede omkostninger til både lagerbeholdning og finans. Når du bogfører et antal, der kun er modtaget eller leveret, men ikke faktureret, oprettes der en værdipost med de forventede omkostninger. Denne forventede omkostning påvirker lagerværdien, men bogføres ikke i finans, medmindre det er angivet i opsætningen af programmet.  
@@ -22,7 +22,7 @@ Forventede kostpriser repræsenterer et overslag over f.eks. en købt vares omko
 
  Den fakturerede værdipost viser det forventede kostbeløb, der er bogført for at udligne mellemregningskontiene for at understøtte afstemnings- og sporingsarbejde.  
 
-## <a name="prerequisites-for-posting-expected-costs"></a>Forudsætninger for bogføring af forventet kostpris
+## Forudsætninger for bogføring af forventet kostpris
 
 Hvis du vil bogføre forventede kostpriser, skal du gøre følgende:
 1. Markér afkrydsningsfeltet **Aut. lagerværdibogføring** og **Bogføring af forventet kostpris** på siden **Lageropsætning**.
@@ -32,7 +32,7 @@ Hvis du vil bogføre forventede kostpriser, skal du gøre følgende:
 3. På siden **Bogføringsopsætning** skal du kontrollere feltet **Periodiseringskonto (foreløbig)** for den **Virksomhedsbogføringsgruppe** og **Produktbogføringsgruppe**, som du bruger.
 4. Når du opretter en købsordre, er det standard, at feltet **Kreditors fakturanr.** skal udfyldes. Du skal slå dette fra på siden **Opsætning af indkøb og gæld** ved at fjerne markeringen af feltet **Eksternt bilagsnr. obl.**.
 
-## <a name="example"></a>Eksempel
+## Eksempel  
 
 > [!NOTE]  
 > De kontonumre, der bruges i dette eksempel, er kun eksempler og vil være anderledes i dit system. Konfigurer dem som anvist i forudsætningerne ovenfor.
@@ -85,7 +85,7 @@ Du kan bogføre en købsordre som modtaget. Den forventede kostpris er 95,00 RV.
 |01-15-20|Tillagte dir. omkost.konto|7291|-100|6|  
 |01-15-20|Lagerkonto|2130|100|5|  
 
-## <a name="see-also"></a>Se også
+## Se også
  [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)   
  [Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md)   
  [Designoplysninger: Afstemning med Finans](design-details-reconciliation-with-the-general-ledger.md)   

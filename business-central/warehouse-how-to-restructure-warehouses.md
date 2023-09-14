@@ -1,7 +1,7 @@
 ---
 title: Omstrukturere lagre
 description: 'Få mere at vide om, hvordan du omstrukturerer lagerstedet med nye placeringskoder og nye placeringskarakteristika for at opnå eller opretholde en mere effektiv operation.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: '9813, 9814'
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="restructure-warehouses"></a>Omstrukturere lagre
+# Omstrukturere lagre
 Det kan eventuelt blive nødvendigt at omstrukturere lagerstedet med nye placeringskoder og nye karakteristika for placeringer. Sådanne omstruktureringer foretages som regel sjældent, men der kan opstå situationer, hvor det er nødvendigt med en omklassificering for at opnå en mere effektiv forretningsgang. Eksempler:  
 
 - Lageret går over til at bruge et ADCS-system (Automatic Data Capture System), hvor der skal benyttes nye placeringskoder, som kan registreres med håndholdt udstyr.  
@@ -20,7 +20,7 @@ Det kan eventuelt blive nødvendigt at omstrukturere lagerstedet med nye placeri
 
 Hvis lagerstedet er sat op til at benytte placeringer, men ikke styret læg-på-lager og pluk, skal du omstrukturere lagerstedet ved at oprette nye placeringer, som du vil benytte fremover.  
 
-## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Sådan omstruktureres et grundlæggende lager, der kun bruger placeringer
+## Sådan omstruktureres et grundlæggende lager, der kun bruger placeringer  
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.  
 2.  På oversigtspanelet **Lagersted** skal du angive feltet **Standardplacering** til **Sidst anv. placering**.  
 3.  Flyt alt indhold fra de nuværende placeringer til de nye placeringer, du lige har oprettet.  
@@ -35,7 +35,7 @@ Hvis lagerstedet er sat op til at benytte placeringer, men ikke styret læg-på-
 
 Du har nu tømt de placeringer, hvor varerne plejede at være. Standardplaceringerne for varerne er nu ændret til de nye placeringer.  
 
-## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>Sådan omstruktureres et avanceret lager, hvor der bruges styret læg-på-lager og pluk
+## Sådan omstruktureres et avanceret lager, hvor der bruges styret læg-på-lager og pluk  
 
 1.  Opret de nye placeringer, der skal benyttes fremover. Du kan finde flere oplysninger i [Oprette placeringer](warehouse-how-to-create-individual-bins.md).  
 2.  Flyt alt indhold fra de nuværende placeringer til de nye placeringer, som du lige har oprettet.  
@@ -52,7 +52,7 @@ Du har nu tømt de placeringer, hvor varerne plejede at være. Standardplacering
 
 Du har nu fjernet placeringerne fra lagerstedet og omposteret dem som KK-placeringer. KK-placeringer har ingen af aktivitetsfelterne på siden **Placeringstyper** valgt og tages derfor ikke i betragtning af varestrømmen. Der er flere oplysninger i [Konfigurere placeringer](warehouse-how-to-set-up-bin-types.md).  
 
-## <a name="to-delete-a-bin"></a>Sådan slettes en placering
+## Sådan slettes en placering  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.  
 2.  Vælg den lokation, hvor der skal slettes placeringer. Vælg handlingen **Placeringer**.  
@@ -63,7 +63,7 @@ Hvis du klikker på knappen **Ja**, slettes placeringen og kan ikke længere bru
 
 Hvis du vil omdøbe en placering, så alle de tildelte poster også omdøbes, bl.a. placeringsindhold, lageraktivitetslinjer, registrerede lageraktivitetslinjer, lagerkladdelinjer, lagermodtagelseslinjer, bogførte lagermodtagelseslinjer, lagerleverancelinjer, bogførte lagerleverancelinjer og lagerposter, kan du gøre det på siden **Placeringer**.  
 
-## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Sådan omdøbes en placering, og sådan ændres placeringskoden i alle poster
+## Sådan omdøbes en placering, og sådan ændres placeringskoden i alle poster  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.  
 2.  Vælg den lokation, hvor du vil omdøbe en placering eller ændre placeringskoden, og vælg derefter handlingen **Placeringer**.  
@@ -75,7 +75,7 @@ Hvis du vil omdøbe en placering, så alle de tildelte poster også omdøbes, bl
 >   
 >  Hvis du omdøber en modtagelses- eller en leveranceplacering, omdøbes alle de bogførte modtagelser eller leverancer, der henviser til den pågældende placering.  
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     

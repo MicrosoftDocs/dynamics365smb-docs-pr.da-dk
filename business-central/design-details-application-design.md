@@ -1,16 +1,16 @@
 ---
 title: Oplysninger om programdesign
 description: Dette indhold indeholder detaljerede tekniske oplysninger om komplekse programfunktioner i Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 11/26/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="application-design-details"></a>Oplysninger om programdesign
+# Oplysninger om programdesign
 
 Artiklen i dette afsnit indeholder detaljerede tekniske oplysninger om komplekse programfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -26,7 +26,7 @@ Indholdet af designoplysningerne er rettet mod iværksættere, udviklere og supe
 |Få mere at vide om historisk og aktuelt design af varesporingsfunktionalitet, og hvordan den integreres med reservationssystemet for at medtage serienumre/lotnumre i disponeringsberegninger.|[Designoplysninger: Varesporing](design-details-item-tracking.md)|  
 |Få mere at vide om funktionen bogføringslinje for finanskladder.|[Designoplysninger: Bogføringslinje i finanskladde](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Skabelon](production-planning.md)  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  

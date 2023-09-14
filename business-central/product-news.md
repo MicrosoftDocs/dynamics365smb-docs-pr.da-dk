@@ -5,28 +5,28 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: jswymer
 ms.topic: conceptual
-ms.date: 06/15/2023
+ms.date: 08/25/2023
 ms.custom: bap-template
 ms.search.keywords: 'news, release plan, roadmap, whats new'
 ---
-# <a name="new-and-planned-for-dynamics-365-business-central"></a>Nyt og planlagt for Dynamics 365 Business Central
+# Nyt og planlagt for Dynamics 365 Business Central
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
 Følgende liste indeholder oplysninger om de nyeste versioner af [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-* [2023 udgivelsesbølge 1](/dynamics365/release-plans/)
-* [2022 udgivelsesbølge 2](/dynamics365-release-plan/2022wave2/smb/dynamics365-business-central/planned-features)  
+* [2023 udgivelsesbølge 2](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/planned-features)
+* [2023 udgivelsesbølge 1](/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/planned-features)
 
 Du kan også udforske [Dynamics 365 Business Central Funktioner](https://dynamics.microsoft.com/business-central/capabilities/)-webstedet og [Dynamics 365 Business Central Oversivgt](https://dynamics.microsoft.com/roadmap/business-central/)-webstedet.  
 
 Få mere at vide om, hvordan onlineversionen af [!INCLUDE [prod_short](includes/prod_short.md)] får de næste opdateringer på [Vigtige opdateringer og mindre opdateringer](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline) (kun på engelsk).
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Få besked om ændringer via en RSS-fødning
+## Få besked om ændringer via en RSS-fødning
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Besøge vores videobibliotek](across-videos.md)  
 [Ressourcer til hjælp og support](product-help-and-support.md)  

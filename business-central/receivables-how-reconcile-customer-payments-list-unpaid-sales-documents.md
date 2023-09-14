@@ -1,7 +1,7 @@
 ---
 title: Udligne betalinger til ubetalte salgsdokumenter
 description: 'Du kan udligne beløb, der er betalt af debitorer, til relaterede salgsdokumenter og bogføre betalingen for at opdatere debitor-, finans- og bankposter.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'payment process, cash receipts, customer payment'
 ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Afstemme debitorbetalinger på en liste over ubetalte salgsdokumenter
+# Afstemme debitorbetalinger på en liste over ubetalte salgsdokumenter
 
 Når kunderne foretager elektroniske betalinger til din bankkonto, skal du gøre følgende:
 
@@ -27,7 +27,7 @@ Brug siden **Registrer debitorbetalinger** til at balancere interne konti med fa
 
 Betalinger til forskellige debitorer, som har forskellige betalingsdatoer, skal bogføres som individuelle betalinger. Betalinger til den samme debitor, som har den samme betalingsdato, kan bogføres som en engangsbetaling. Engangsbetalinger er nyttige, når en debitor f.eks. har foretaget en enkelt betaling, der dækker flere salgsfakturaer.
 
-## <a name="to-set-up-the-payment-registration-journal"></a>Sådan konfigurerer du betalingsregistreringskladden
+## Sådan konfigurerer du betalingsregistreringskladden
 Fordi du kan bogføre forskellige typer betaling til forskellige modkonti, skal du vælge en modkonto på siden **Opsætning af betalingsregistrering**, før du starte behandlingen af debitorbetalinger. Hvis du altid bogfører på den samme modkonto, kan du angive den pågældende konto som standard og undgå dette trin, hver gang du åbner siden **Registrer debitorbetalinger**.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af betalingsregistrering**, og vælg derefter det relaterede link. Du kan også vælge handlingen **Opsætning** på siden **Registrer debitorbetalinger**.
@@ -36,7 +36,7 @@ Fordi du kan bogføre forskellige typer betaling til forskellige modkonti, skal 
 > [!TIP]
 > Hvis du vil gøre det nemmere senere at identificere poster, der blev bogført via kladden, kan du tildele en bestemt nummerserie til kladden. Dette er nyttigt, hvis du bruger betalings afstemnings kladder til at registrere og anvende betalinger.
 
-## <a name="to-register-customer-payments-individually"></a>Sådan registrerer du debitorbetalinger individuelt
+## Sådan registrerer du debitorbetalinger individuelt
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Registrer debitorbetalinger**, og vælg derefter det relaterede link.  
 
@@ -55,7 +55,7 @@ De angivne betalingsoplysninger bogføres for bilag, der repræsenteres af linje
 
 Betalingsposter bogføres til finans, bank og debitorkonti. Hver betaling anvendes på det relevante bogførte salgsdokument.  
 
-## <a name="to-reconcile-lump-sum-payments"></a>Sådan afstemmer du engangsbetalinger
+## Sådan afstemmer du engangsbetalinger
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsregistrering**, og vælg derefter det relaterede link.
 2. Marker afkrydsningsfeltet **Betaling foretaget** på de linjer, der repræsenterer de bogførte bilag til den samme debitor, som engangsbeløbet blev betalt til.  
 
@@ -80,7 +80,7 @@ Hvis en betaling i banken ikke repræsenteres af nogen bilag på siden **Betalin
 
 Hvis en betaling i banken ikke repræsenteres af nogen bilag i [!INCLUDE[prod_short](includes/prod_short.md)], kan du åbne en finanskladdelinje, som er udfyldt på forhånd, på siden **Betalingsregistrering** for at bogføre betalingen direkte på modkontoen uden at knytte betalingen til et bilag. Du kan også registrere betalingen i kladden, indtil den betalingens oprindelse er løst. Du kan finde flere oplysninger i [Sådan registrerer eller bogfører du en betaling uden et relateret dokument](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document).  
 
-## <a name="to-process-customer-payments-with-discounts-manually"></a>Sådan behandler du debitorbetalinger med rabatter manuelt
+## Sådan behandler du debitorbetalinger med rabatter manuelt
 Hvis du har aftalt en kontantrabat med debitoren, kan de indbetalte beløb være mindre end fakturabeløbene, hvis betalingen finder sted inden den aftalte rabatdato.  
 
 I følgende fremgangsmåder beskrives fire forskellige måder til at bogføre fratrukne betalinger på siden **Betalingsregistrering**.  
@@ -90,7 +90,7 @@ I følgende fremgangsmåder beskrives fire forskellige måder til at bogføre fr
 * Betalingsbeløbet er lavere end det resterende fratrukne beløb. Du bogfører betalingen delvis. Bilaget forbliver åbent, så restbeløbet kan opkræves/betales.  
 * Betalingsbeløbet er højere end det resterende fratrukne beløb. Du bogfører betalingerne, som de er. Kun det resterende beløb bogføres. Det ekstra beløb krediteres til debitoren.  
 
-### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Sådan behandler du et betalingsbeløb, der er lig med det fratrukne beløb, og hvor betalingsdatoen ligger før rabatdatoen
+### Sådan behandler du et betalingsbeløb, der er lig med det fratrukne beløb, og hvor betalingsdatoen ligger før rabatdatoen
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsregistrering**, og vælg derefter det relaterede link.  
 2. Angiv betalingsbeløbet i feltet **Beløb modtaget**. Beløbet er lig med beløbet i feltet **Rest. bel. efter rabat**.
 
@@ -99,7 +99,7 @@ I følgende fremgangsmåder beskrives fire forskellige måder til at bogføre fr
 4. Kontrollér, at feltet **Restbeløb** indeholder et nul (0).  
 5. Vælg handlingen **Bogfør betalinger** for at bogføre hele betalingen til finans-, bank- og debitorkonti.
 
-### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Sådan behandler du et betalingsbeløb, der er lig med det fratrukne beløb, men hvor betalingsdatoen ligger efter rabatdatoen
+### Sådan behandler du et betalingsbeløb, der er lig med det fratrukne beløb, men hvor betalingsdatoen ligger efter rabatdatoen
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsregistrering**, og vælg derefter det relaterede link.  
 2. Angiv betalingsbeløbet i feltet **Beløb modtaget**. Beløbet er lig med beløbet i feltet **Rest. bel. efter rabat**.
 
@@ -117,7 +117,7 @@ I følgende fremgangsmåder beskrives fire forskellige måder til at bogføre fr
 
 Det relaterede bilag forbliver åbent.
 
-### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Sådan behandler du en betaling, der er lavere end det resterende fratrukne beløb
+### Sådan behandler du en betaling, der er lavere end det resterende fratrukne beløb
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsregistrering**, og vælg derefter det relaterede link.  
 2. Angiv betalingsbeløbet i feltet **Beløb modtaget**. Beløbet er lavere end beløbet i feltet **Rest. bel. efter rabat**.
 
@@ -128,7 +128,7 @@ Det relaterede bilag forbliver åbent.
 
 Det relaterede bilag forbliver åbent.
 
-### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Sådan behandler du en betaling, der er højere end det resterende fratrukne beløb
+### Sådan behandler du en betaling, der er højere end det resterende fratrukne beløb
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsregistrering**, og vælg derefter det relaterede link.  
 2. Angiv betalingsbeløbet i feltet **Beløb modtaget**. Beløbet er højere end beløbet i feltet **Rest. bel. efter rabat**.  
 
@@ -139,7 +139,7 @@ Det relaterede bilag forbliver åbent.
 
 Det relaterede bilag er lukket, og debitoren krediteres det overskydende betalingsbeløb.  
 
-## <a name="to-find-a-specific-sales-document-that-isnt-fully-invoiced"></a>Sådan finder du et bestemt salgsdokument, der ikke er fuldt faktureret
+## Sådan finder du et bestemt salgsdokument, der ikke er fuldt faktureret
 Siden **Betalingsregistrering** understøtter dig i opgaver, der er nødvendige for at afstemme interne konti med aktuelle tal for at sikre effektiv opkrævning fra debitorer. Den viser udestående indgående betalinger som linjer, der repræsenterer salgsdokumenter, hvor et beløb er forfaldent til betaling.  
 
 Typisk når en betaling er foretaget, registreret i bankbogføringsgrupperne eller lignende, repræsenteres det relaterede, salgs- eller købsdokument som en linje på siden **Betalingsregistrering**, fordi det pågældende dokument afventer, at betalingen bogføres i forhold til det udestående beløb. Ind imellem er der dog en udført betaling, som ikke repræsenteres af en linje på siden **Betalingsregistrering**, typisk fordi det pågældende bilag ikke er helt fakturabogført.
@@ -169,7 +169,7 @@ Hvis et eller flere bilag matcher kriterierne, åbnes siden **Resultat af dokume
 
 Hvis en betaling i banken ikke repræsenteres af nogen bilag i [!INCLUDE[prod_short](includes/prod_short.md)], kan du åbne en finanskladdelinje, som er udfyldt på forhånd, på siden **Betalingsregistrering** for at bogføre betalingen direkte på modkontoen uden at knytte betalingen til et bilag. Du kan også registrere betalingen i kladden, indtil den betalingens oprindelse er løst.  
 
-## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Sådan registrerer eller bogfører du en betaling uden et relateret dokument
+## Sådan registrerer eller bogfører du en betaling uden et relateret dokument
 Hvis en betaling i banken ikke repræsenteres af nogen bilag i [!INCLUDE[prod_short](includes/prod_short.md)], kan du åbne en finanskladdelinje, som er udfyldt på forhånd, på siden **Betalingsregistrering** for at bogføre betalingen direkte på modkontoen uden at knytte betalingen til et bilag. Du kan også registrere betalingen i kladden, indtil den betalingens oprindelse er afklaret.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsregistrering**, og vælg derefter det relaterede link.
@@ -182,7 +182,7 @@ Du kan bogføre kladdelinjen for at opdatere det samlede beløb på modkontoen. 
 
 Hvis du efterlader kladdelinjen uden at bogføre den, vil den tilføre værdi til feltet **Ikke-bogført saldo** nederst på siden **Betalingsregistrering**.  
 
-## <a name="see-also"></a>Se også
+## Se også
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

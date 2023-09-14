@@ -14,12 +14,18 @@ ms.author: altotovi
 
 # Eksportere SAF-T-overvågnings filformatet i Danmark
 
-Du kan eksportere alle obligatoriske data, der er obligatoriske, i overensstemmelse med standardrevisionsfilen til Skatformatet (SAF-T) i Danmark. SAF-T er en international standard for elektronisk udveksling af pålidelige regnskabsdata fra organisationer til nationale skattemyndigheder eller eksterne revisorer. Danske skattemyndigheder bruger organisationen som standardfilformat for økonomisk samarbejde og udvikling (OECD) standard SAF-T som standardfilformat. Der findes imidlertid nogle Danmark-specifikke felter i denne eksportfil. Du kan finde flere oplysninger i [Danske landespecifikke funktioner](denmark-local-functionality.md).
+Du kan eksportere alle obligatoriske data, der er obligatoriske, i overensstemmelse med standardrevisionsfilen til Skatformatet (SAF-T) i Danmark. SAF-T er en international standard for elektronisk udveksling af pålidelige regnskabsdata fra organisationer til nationale skattemyndigheder eller eksterne revisorer. Danske skattemyndigheder bruger organisationen som standardfilformat for økonomisk samarbejde og udvikling (OECD) standard SAF-T som standardfilformat. Der findes imidlertid nogle Danmark-specifikke felter i denne eksportfil.  
 
 ## Eksportere revisionsfiler
 
-Eksport af SAF-T-overvågningsfilformatet i den danske lokalisering er baseret på **Eksport af revisionsfiler** i Microsoft-app. Få flere oplysninger i [Eksport af revisionsfil](../../finance-how-to-export-audit-files.md)]
+Eksport af SAF-T-overvågningsfilformatet i den danske lokalisering er baseret på **Eksport af revisionsfiler** i Microsoft-app. Få flere oplysninger i [Eksport af revisionsfil](../../finance-how-to-export-audit-files.md)  
 
+Du kan finde flere oplysninger i [Danske landespecifikke funktioner](denmark-local-functionality.md).
+
+## Se også
+[Økonomistyring](../../finance.md)  
+[Forstå Finans og Kontoplan](../../finance-general-ledger.md)  
+[Arbejde med dimensioner](../../finance-dimensions.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

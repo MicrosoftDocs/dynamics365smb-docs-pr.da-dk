@@ -1,7 +1,7 @@
 ---
 title: Sandkassemiljøer
 description: 'Få mere at vide om, hvordan et dedikeret miljø kan gøre det mere sikkert at udforske, lære, afprøve, udvikle, foretage fejlfinding og teste Business Central.'
-author: SusanneWindfeldPedersen
+author: brentholtorf
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.devlang: na
@@ -9,9 +9,9 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
-ms.author: solsen
+ms.author: bholtorf
 ---
-# <a name="sandbox-environments-in-"></a>Sandkassemiljøer i [!INCLUDE[prod_short](includes/prod_short.md)]
+# Sandkassemiljøer i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] online kan du nemt oprette et sikkert miljø, hvor du kan teste, træne eller foretage fejlfinding uden at forstyrre virksomhedens arbejdsprocesser eller forretningsdata. Et sådant ikke-produktionsmiljø kaldes en *sandkasse*. Isoleret fra produktion er et sandkassemiljø stedet, hvor du sikkert kan udforske, lære, demonstrere, udvikle og teste tjenesten uden risiko for at påvirke data og indstillinger i dit produktionsmiljø.  
 
@@ -35,13 +35,13 @@ Sandkassemiljøet er ikke mindst anvendelig, fordi det indeholder et par praktis
 <!--* [Complete sample data](#complete-sample-data)  -->
 * [Designer](#designer)  
 
-## <a name="advanced-user-experience"></a>Udvidet brugeroplevelse
+## Udvidet brugeroplevelse
 
 Du kan aktivere og prøve den fulde funktionalitet af standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] i en sandkasselejer ved at indstille feltet **Oplevelse** på siden **Virksomhedsoplysninger** til *Premium*. Find siden **Virksomhedsoplysninger** i :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Indstillinger-ikon."::: menu.  
 
 Når du har aktiveret *Premium*-brugeroplevelsen, får du adgang til alle standardprofilerne (rollerne) og rollecentre i standardversionen. Alternativt kan du kontakte en videresalgspartner for at demonstrere mulighederne. Du kan finde flere oplysninger i [Hvordan finder jeg en videresalgspartner?](across-faq.yml#how-do-i-find-a-reselling-partner).  
 
-### <a name="complete-sample-data"></a>Komplette eksempeldata
+### Komplette eksempeldata
 
 I de situationer, hvor du har brug for yderligere eksempeldata, skal du kontakte din forhandlerpartner.
 <!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
@@ -56,7 +56,7 @@ I de situationer, hvor du har brug for yderligere eksempeldata, skal du kontakte
 
 When the assisted setup guide completes, you can start exploring the new company with the complete sample data. For more information, see [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  -->
 
-## <a name="designer"></a>Designer
+## Designer
 
 I et sandkassemiljø er **Designer** aktiveret. Du kan aktivere designer ved at vælge designikon ![Designer.](./media/across-sandbox/sandbox-inclient-design-icon.png) På en side eller ved at vælge menupunktet **Design** i ![Indstillinger](media/ui-experience/settings_icon_small.png) i menuen Indstillinger.  
 
@@ -64,9 +64,9 @@ Du kan finde flere oplysninger i [Brug designer](/dynamics365/business-central/d
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/admin-online-dynamics-365-business-central/)
+## Se relateret [Microsoft-træning](/training/modules/admin-online-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversioner og abonnementer](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

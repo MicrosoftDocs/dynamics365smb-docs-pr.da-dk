@@ -4,19 +4,19 @@ description: 'Gennemgang for at få mere at vide om, hvordan du opretter et nyt 
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-author: edupont04
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
-# <a name="walkthrough-set-up-new-capacity"></a>Gennemgang: Konfigurere ny kapacitet
+# Gennemgang: Konfigurere ny kapacitet
 
 I denne artikel kommer vi igennem de trin, du skal benytte, til Contoso Coffee-demodata til administration af kapacitet.  
 
-## <a name="scenario"></a>Scenarie
+## Scenarie
 
 Du er produktionsplanlægger hos Contoso Coffee. I forbindelse med ændringer i produktionen skal du oprette et nyt arbejdscenter, en testafdeling. Det nye arbejdscenter har én produktionsressource, tester. De nye centre skal have en kapacitetskalender for et enkelt skift fra 08:00:00 til 16:00:00, mandag til fredag.  
 
-## <a name="steps"></a>Trin
+## Trin
 
 1. Konfigurere et arbejdscenter.
 
@@ -84,6 +84,6 @@ Du er produktionsplanlægger hos Contoso Coffee. I forbindelse med ændringer i 
 
 På siden **kalenderposter** er felterne for daglig kapacitet i feltet **kapacitet (Total)** i 480 minutter. Dette afspejler et otte-timers skift pr. arbejdsdag. Desuden viser feltet **kapacitet (effektiv)** 432 minutter. Dette afspejler den 90 procent effektivitetsprocent, som du har knyttet til produktionsressourcen.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Introduktion til demonstrationsdata for Contoso Coffee](../contoso-coffee-intro.md)  

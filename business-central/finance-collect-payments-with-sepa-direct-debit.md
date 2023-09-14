@@ -1,16 +1,16 @@
 ---
 title: SEPA-direkte debitering i Business Central
 description: Du kan opkræve betalinger direkte fra kundens bankkonto i overensstemmelse med SEPA-formatet med kundens samtykke.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '371, 423, 424, 427, 1208, 1207, 1230'
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="collect-payments-with-sepa-direct-debit"></a>Indhente betalinger med SEPA Direct Debit
+# Indhente betalinger med SEPA Direct Debit
 
 Du kan opkræve betalinger direkte fra kundens bankkonto i overensstemmelse med SEPA-formatet med kundens samtykke.  
 
@@ -25,7 +25,7 @@ Når betalinger er behandlet, og banken har informeret om det, kan du bogføre b
 > [!NOTE]  
 > Hvis du vil samle betalinger ved hjælp af SEPA Direct Debit, skal valutaen på salgsfakturaen være i EURO.  
 
-## <a name="setting-up-sepa-direct-debit"></a>Konfigurere SEPA Direct Debit
+## Konfigurere SEPA Direct Debit
 
 Fra siden **Direct Debit-opkrævninger** kan du eksportere instruktioner til din netbank for at udføre en direkte debiteringsopkrævning fra debitorens bankkonto til din bankkonto ifølge SEPA Direct Debit-format.
 
@@ -40,13 +40,13 @@ Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner 
 * Konfigurer debitorens betalingsform.  
 * Konfigurer den Direct Debit-betalingsaftale, der afspejler din aftale med kunden om opkrævning af deres betalinger i en bestemt periode i aftalen.  
 
-### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>Sådan konfigureres din bankkonto til SEPA-Direct Debit
+### Sådan konfigureres din bankkonto til SEPA-Direct Debit
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.  
 2. Åbn den bankkonto, du vil bruge til Direct Debit.  
 3. I oversigtspanelet **Overfør** i feltet **SEPA Direct Debit-format** skal du vælge indstillingen for SEPA Direct Debit.  
 
-### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>Sådan konfigureres kundens betalingsform til SEPA-Direct Debit
+### Sådan konfigureres kundens betalingsform til SEPA-Direct Debit
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsformer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -66,7 +66,7 @@ Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner 
 7. Vælg feltet **Betalingsformskode**, og vælg derefter den betalingsformskode, du har angivet i trin 3.  
 8. Gentag trin 6 og 7 for alle de debitorer, som du vil konfigurere til SEPA Direct Debit-opkrævning.  
 
-#### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>Sådan konfigureres den Direct Debit-betalingsaftale, der repræsenterer kundeaftalen
+#### Sådan konfigureres den Direct Debit-betalingsaftale, der repræsenterer kundeaftalen
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.  
 2. Åbn kortet for den kunde, som du vil konfigurere til SEPA Direct Debit.  
@@ -89,14 +89,14 @@ Før du kan behandle debitorbetalinger elektronisk ved eksport af instruktioner 
 
  Direct Debit-betalingsaftalen indsættes automatisk i feltet **Id for Direct Debit-betalingsaftale**, når du opretter en salgsfaktura til den debitor, som du valgte i trin 2. Du kan finde flere oplysninger i [Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md).
 
-## <a name="creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>Oprette poster i SEPA Direct Debit-opkrævning og eksportere til en bankfil
+## Oprette poster i SEPA Direct Debit-opkrævning og eksportere til en bankfil
 
 For at instruere banken i at overføre det indbetalte beløb fra kundens bankkonto til din virksomheds konto, opretter du en post i den Direct Debit-opkrævning, der indeholder oplysninger om kundens bankkonto, de berørte salgsfakturaer og den Direct Debit-betalingsaftale. Fra posten i den direkte debiteringsopkrævning, som fås som resultat, kan du derefter eksportere en XML-fil, som du sender eller overfører til din elektroniske bank til behandling. Du får besked fra banken om alle betalinger, der ikke kunne behandles af banken, og derefter skal du manuelt afvise de pågældende poster i Direct Debit-opkrævningen.  
 
  > [!NOTE]  
  > Hvis du vil samle betalinger ved hjælp af SEPA Direct Debit, skal valutaen på salgsfakturaen være i EURO.  
 
-### <a name="to-create-a-direct-debit-collection"></a>Sådan oprettes en direkte debiteringsopkrævning
+### Sådan oprettes en direkte debiteringsopkrævning  
 
  1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Direct Debit-opkrævninger**, og vælg derefter det relaterede link.  
  2. På siden **Direct Debit-opkrævninger** skal du vælge handlingen **Opret Direct Debit-opkrævning**.  
@@ -116,7 +116,7 @@ For at instruere banken i at overføre det indbetalte beløb fra kundens bankkon
 
 Der føjes en Direct Debit-opkrævning til siden **Direct Debit-opkrævninger**, og der oprettes en eller flere poster med Direct Debit-opkrævning.  
 
-### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Sådan eksporteres en post i en direkte debiteringsopkrævning til en bankfil
+### Sådan eksporteres en post i en direkte debiteringsopkrævning til en bankfil
 
  1. På siden **Direct Debit-opkrævninger** skal du vælge handlingen **Poster i Direct Debit-opkrævning**.  
  2. På siden **Poster i Direct Debit-opkrævning** skal du markere den post, du vil eksportere, og derefter vælge handlingen **Opret fil til Direct Debit**.  
@@ -126,13 +126,13 @@ Der føjes en Direct Debit-opkrævning til siden **Direct Debit-opkrævninger**,
 
  Hvis den eksporterede fil ikke kan behandles, f.eks. fordi debitoren er insolvent, kan du afvise posten i den direkte debiteringsopkrævning. Hvis den eksporterede fil er blevet behandlet af banken, opkræves forfaldne betalinger for de involverede salgsfakturaer automatisk fra de berørte debitorer. I så fald kan du lukke opkrævningen.  
 
-### <a name="to-reject-a-direct-debit-collection-entry"></a>Sådan afvises en post i en direkte debiteringsopkrævning
+### Sådan afvises en post i en direkte debiteringsopkrævning  
 
 * På siden **Poster i Direct Debit-opkrævning** skal du markere den post, der ikke blev behandlet korrekt, og derefter vælge handlingen **Afvis post**.  
 
     På siden **Poster i Direct Debit-opkrævning** ændres feltet **Status** til **Afvist**.  
 
-### <a name="to-close-a-direct-debit-collection"></a>Sådan lukkes en direkte debiteringsopkrævning
+### Sådan lukkes en direkte debiteringsopkrævning
 
 * På siden **Poster i Direct Debit-opkrævning** skal du markere den post, der ikke blev behandlet korrekt, og derefter vælge handlingen **Luk opkrævning**.  
 
@@ -140,13 +140,13 @@ Der føjes en Direct Debit-opkrævning til siden **Direct Debit-opkrævninger**,
 
  Du kan nu fortsætte med at bogføre kvitteringer for betalinger for de involverede salgsfakturaer. Du kan gøre dette, mens du typisk bogfører betalingskvitteringer, f.eks. på siden **Betalingsregistrering**, eller du kan bogføre de relaterede betalingskvitteringer direkte fra siden **Poster i Direct Debit-opkrævning**. Du kan finde flere oplysninger i [Indhente betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md).
 
-## <a name="posting-sepa-direct-debit-payment-receipts"></a>Bogføring af SEPA Direct Debit-betalingskvitteringer
+## Bogføring af SEPA Direct Debit-betalingskvitteringer
 
 Når en Direct Debit-opkrævning er behandlet af din bank, kan du fortsætte med at bogføre kvittering for betaling for de involverede salgsfakturaer. Du kan finde flere oplysninger i [Oprette poster i SEPA Direct Debit-opkrævning og eksportere til en bankfil](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).  
 
 Du kan bogføre betalingskvitteringen direkte fra siden **Direct Debit-opkrævninger** eller siden **Poster i Direct Debit-opkrævning**. Alternativt kan du overføre arbejdet til en anden bruger ved at udarbejde de relaterede kladdelinjer.  
 
-### <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>Sådan bogføres en betalingskvittering i Direct Debit fra siden Direct Debit-opkrævninger
+### Sådan bogføres en betalingskvittering i Direct Debit fra siden Direct Debit-opkrævninger
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Direct Debit-opkrævninger**, og vælg derefter det relaterede link.  
 2. Vælg en linje for en Direct Debit-opkrævning, der er eksporteret til en bankfil og er blevet behandlet af banken.
@@ -162,7 +162,7 @@ Du kan bogføre betalingskvitteringen direkte fra siden **Direct Debit-opkrævni
 
 5. Vælg knappen **OK**.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Service Management](service-service.md)

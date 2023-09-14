@@ -1,14 +1,14 @@
 ---
-author: jill-kotel-andersson
+author: brentholtorf
 ms.topic: include
 ms.date: 05/27/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-## <a name="setting-up-the-location"></a>Indstilling af lokation
+## Indstilling af lokation
 
 Opsætningen af siden **Lokationskort** definerer flows i virksomheden. Du kan bruge lokationskortet til at oprette en lokation med kodenavnet *SYD*.
 
-### <a name="to-set-up-the-location-south"></a>Sådan oprettes lokationen SYD
+### Sådan oprettes lokationen SYD
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.  
 2. Opret et lokationskort med navnet *SYD*.  

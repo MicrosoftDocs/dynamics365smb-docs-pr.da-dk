@@ -1,7 +1,7 @@
 ---
 title: Om Finans og kontoplanen
 description: 'Beskriver finans-, kontoplans- og kontokategorier. Brug siden Opsætning af Finans til at angive, hvordan du vil behandle bestemte regnskabsopgaver i virksomheden.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,13 +9,13 @@ ms.workload: na
 ms.search.keywords: 'analysis, history, track'
 ms.search.form: '18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158'
 ms.date: 08/24/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Forstå Finans og Kontoplan
+# Forstå Finans og Kontoplan
 
 Finansregnskabet gemmer de finansielle data, og kontoplanen viser de konti, som alle finansposter bogføres til. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en standardkontoplan, der er klar til at understøtte din virksomhed.
 
-## <a name="general-ledger-setup-and-general-posting-setup"></a>Finansopsætning og bogføringsopsætning
+## Finansopsætning og bogføringsopsætning
 
 Opsætningen af finansmodulet er kernen i økonomiprocesser, fordi den definerer, hvordan du bogfører data. To sider spiller især en vigtig rolle for konfigurering af dine økonomiske processer:  
 
@@ -41,7 +41,7 @@ Opsætningen af finansmodulet er kernen i økonomiprocesser, fordi den definerer
 
   Åbn siden [her](https://businesscentral.dynamics.com/?page=314).
 
-## <a name="the-chart-of-accounts"></a>Kontoplanen
+## Kontoplanen
 
 Kontoplanen viser alle finanskonti. Fra kontoplanen kan du gøre ting som at:  
 
@@ -53,7 +53,7 @@ Kontoplanen viser alle finanskonti. Fra kontoplanen kan du gøre ting som at:
 
 Du kan tilføje, ændre eller slette finanskonti. Men for at forhindre afvigelser kan du ikke slette en finanskonto, hvis dens data bruges i kontoplanen. Du kan også starte med 2022 Release Wave 2, men du kan også blokere for utilsigtet sletning af konti i følsomme perioder. Få mere at vide i afsnittet [Sletning af konti](finance-setup-chart-accounts.md#delete-accounts).  
 
-## <a name="account-categories"></a>Kontokategorier
+## Kontokategorier
 
 Du kan tilpasse strukturen i regnskabsopgørelser ved at knytte finanskonti til kontokategorier.  
 
@@ -63,7 +63,7 @@ Du kan oprette en kategorigruppe ved at indrykke andre underkategorier under en 
 
 Du kan angive, om kontiene i hver underkategori skal medtages i bestemte typer rapporter. Kontokategorier hjælper med at definere layoutet af regnskabet.  
 
-### <a name="example"></a>Eksempel
+### Eksempel
 
 F.eks. har standardsaldoopgørelsen en underkategori for *Kassebeholdning* under *Omsætningsaktiver*. Hvis du vil have, at kontantbeholdning og checks skal indgå i saldoopgørelsen, skal du gøre følgende:
 
@@ -90,17 +90,17 @@ Når du vælger handlingen **Generér finansielle rapporter**, eller næste gang
 > [!NOTE]
 > Hvis du opretter en finanskonto uden at tilknytte en kontokategori, tildeles kontoarten automatisk fra finanskontoen, når du knytter kontoen til en bogføringsgruppe [!INCLUDE[prod_short](includes/prod_short.md)], lige over kontoen i din kontoplan. Hvis du vil medtage den nye konto i dine regnskabsrapporter, skal du imidlertid vælge handlingen **Generér finansielle rapporter** på siden **Finanskontokategorier**. Du kan også åbne finanskortsiden ved at angive kontoarten og derefter generere din finansrapport igen.
 
-## <a name="get-a-quick-overview"></a>Få et hurtigt overblik
+## Få et hurtigt overblik
 
 **Kontoplan** viser kontiene på en hierarkisk liste, der giver hurtig adgang til nøgleoplysninger for hver konto. Listen er imidlertid statisk, og hvis du har mange konti, skal du muligvis rulle for at få vist forskellige konti. Hvis du blot vil have et hurtigt overblik over det grundlæggende, f. eks. bevægelser og saldi, er siden **Oversigt over kontoplaner** et nyttigt alternativ. Kolonnelayoutet på siden er nu den samme, som du finder på siden **Kontoplan** (men med færre kolonner), så du ikke behøver at orientere dig igen. Du kan udvide eller skjule de hierarkiske niveauer for at gøre visningen smallere. Hvis du vil gøre det nemt at skifte mellem siderne, er siden **Oversigt over kontoplan** tilgængelig på siden **kontoplan**.
 
-## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Adgang til at oprette og redigere konti og kontokategorier
+## Adgang til at oprette og redigere konti og kontokategorier
 
 I en mindre organisation, f.eks. CRONUS-demoregnskabet, kan de fleste brugere redigere kontoplanen, undtagen brugere med en licens som TEAMMEDLEM. I større organisationer bruges roller og tilladelser typisk til at begrænse adgang til redigering af kontoplanen. Hvis du er administrator, eller du har rollen *Forretningschef* eller *Bogholder*, kan du kontrollere tilladelserne for alle brugere for at sikre, at de rette personer har adgang til de relevante tabeller. Du kan finde flere oplysninger i afsnittet [Sådan får du vist en oversigt over en brugers rettigheder](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/business-central-configure-general-ledger-setup/)
+## Se relateret [Microsoft-træning](/training/modules/business-central-configure-general-ledger-setup/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere eller ændre kontoplanen](finance-setup-chart-accounts.md)  
 [Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  

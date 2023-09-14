@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 02/21/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 > [!NOTE]
 > Hvis en [!INCLUDE [prod_short](prod_short.md)]-prøveversion ikke bruges i løbet af 45 dage, opfatter Microsoft prøveversionen som udløbet, og [!INCLUDE [prod_short](prod_short.md)]-lejeren er slettet.
