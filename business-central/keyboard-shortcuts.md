@@ -90,7 +90,7 @@ I følgende tabel beskrives de tastaturgenveje, som du kan bruge på en listesid
 |*<kbd>Skift</kbd>+<kbd>Ctrl</kbd>+<kbd>F</kbd>*|Send foreslåede linjer på siden med pengestrømskladde.|Ikke tilgængelig.|
 |*<kbd>Skift</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd>*|Få vist serie- og lotnumre, der er tildelt linjeelementet i dokumentet eller kladden.|Ikke tilgængelig.|
 
-### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigere mellem rækker og kolonner
+### <a name="navigate-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigere mellem rækker og kolonner
 
 Der findes gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prod_short](includes/prod_short.md)], f.eks. listesider og dele af **Linjer** i dokumenter. Flytning fra én celle til en anden på tværs af et gitter er muligt med tastaturet.
 
@@ -111,7 +111,7 @@ Der findes gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prod_sh
 | <kbd>Tab</kbd> | På en redigerbar liste skal du i den samme række flytte til det næste felt til højre. | Ikke tilgængelig. | 
 | <kbd>Skift</kbd>+<kbd>Tab</kbd> | På en redigerbar liste skal du i den samme række flytte til det forrige felt til venstre. | Ikke tilgængelig. |
 
-### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Markere, kopiere og indsætte
+### <a name="select-copy-and-paste"></a><a name="CopyRows"></a>Markere, kopiere og indsætte
 
 |Vælg disse taster<br />(i macOS)|For at gøre følgende i en listevisning |For at gøre følgende i en feltvisning |
 |--------------------------------|--------------------------|--------------------------|
@@ -129,7 +129,7 @@ Der findes gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prod_sh
 |<kbd>Skift</kbd>+<kbd>Page Down</kbd><br /><br />(<kbd>Skift</kbd>+<kbd>Fn</kbd>+<kbd>Pil op</kbd>)|Udvide markeringen af rækker til at omfatte alle synlige rækker under den aktuelle markering af rækker.|Ikke tilgængelig.|
 |<kbd>F8</kbd>|Kopiere feltet i den samme kolonne i rækken ovenfor og indsætte det i den aktuelle række. Du kan kun gøre dette på lister, der kan redigeres. Med denne genvej efterfulgt af <kbd>Tab</kbd> kan du hurtigt udfylde felterne i linjeelementer, som du vil give den samme værdi som rækken ovenfor.|Ikke tilgængelig.|
 
-### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Søge i og filtrere lister
+### <a name="search-and-filter-lists"></a><a name="KeyboardFilter"></a>Søge i og filtrere lister
 
 |Vælg disse taster<br />(i macOS)|For at gøre følgende|
 |--------------------------------|----------|

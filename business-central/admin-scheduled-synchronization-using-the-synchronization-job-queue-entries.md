@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ---
 
-# Planlægning af synkronisering mellem Business Central og Dataverse
+# <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Planlægning af synkronisering mellem Business Central og Dataverse
 
 Du kan synkronisere [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[cds_long_md](includes/cds_long_md.md)] med planlagte intervaller ved at konfigurere jobs i jobkøen. Synkroniseringsjobbene synkroniserer data i [!INCLUDE[prod_short](includes/prod_short.md)]-poster og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-poster, der tidligere har været sammenkædet. For poster, der ikke allerede er sammenkædet, og afhængigt af synkroniseringsretning og -regler, kan der oprettes og sammenkædes nye poster i destinationssystemet.
 
@@ -24,7 +24,7 @@ Der er flere standardsynkroniseringsjobs tilgængelige. Jobbene køres i følgen
 
 Du kan se job på siden **Poster for jobkøer**. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
 
-## Poster i standardsynkroniseringsjobkø
+## <a name="default-synchronization-job-queue-entries"></a>Poster i standardsynkroniseringsjobkø
 
 Følgende tabel viser standardsynkroniseringsjobbene for [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
 
@@ -36,7 +36,7 @@ Følgende tabel viser standardsynkroniseringsjobbene for [!INCLUDE[cds_long_md](
 | LEVERANDØR - Common Data Service-synkroniseringsjob | Synkroniserer [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-konti med [!INCLUDE[prod_short](includes/prod_short.md)]-debitorer. | I begge retninger | KREDITOR | 30 | 720<br> (12 timer) |
 | SÆLGERE - Common Data Service-synkroniseringsjob | Synkroniserer [!INCLUDE[prod_short](includes/prod_short.md)]-sælgere med [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-brugere. | Fra [!INCLUDE[cds_long_md](includes/cds_long_md.md)] til [!INCLUDE[prod_short](includes/prod_short.md)] | SÆLGERE | 30 | 1440<br> (24 timer) |
 
-## Synkroniseringsproces
+## <a name="synchronization-process"></a>Synkroniseringsproces
 
 Hver synkronisering af en jobkø-post benytter en bestemt integrationstabeltilknytning, der angiver, hvilken [!INCLUDE[prod_short](includes/prod_short.md)]-tabel og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-tabel, der skal synkroniseres. Tabeltilknytningerne omfatter også nogle indstillinger, der bestemmer, hvilke records i [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-tabellen, der skal synkroniseres.  
 
@@ -57,7 +57,7 @@ For at kunne synkronisere data skal [!INCLUDE[cds_long_md](includes/cds_long_md.
 
 - Ved synkronisering i begge retninger synkroniserer jobbet fra [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[cds_long_md](includes/cds_long_md.md)], og derefter fra [!INCLUDE[cds_long_md](includes/cds_long_md.md)] til [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Vedrørende inaktive timeoutperioder
+## <a name="about-inactivity-timeouts"></a>Vedrørende inaktive timeoutperioder
 
 Nogle opgavekøposter, såsom dem, der planlægger synkronisering mellem [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)], anvender feltet **Timeout for inaktivitet** på siden **Opgavekøpost** til at forhindre, at opgavekøposten kører unødigt.  
 
@@ -70,7 +70,7 @@ F.eks. vil den valutaopgavekø, der synkroniserer valutaer i [!INCLUDE[cds_long_
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] aktiverer automatisk opgavekøposter, der er sat på pause, når der sker ændringer i [!INCLUDE[prod_short](includes/prod_short.md)]. Ændringer i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] vil ikke aktivere opgavekøposter.
 
-## Sådan får du vist synkroniseringsjobloggen
+## <a name="to-view-the-synchronization-job-log"></a>Sådan får du vist synkroniseringsjobloggen
 
 1. Vælg ikonet :::image type="icon" source="media/ui-search/search_small.png" border="false":::, åbn **Integrationssynkroniseringslog**, og vælg derefter det relaterede link.
 2. Hvis der er opstået en eller flere fejl i et synkroniseringsjob, vises antallet af fejl i kolonnen **Mislykkedes**. Vælg nummeret for at få vist fejlene for jobbet.  
@@ -78,16 +78,16 @@ F.eks. vil den valutaopgavekø, der synkroniserer valutaer i [!INCLUDE[cds_long_
     > [!TIP]  
     > Du kan få vist alle synkroniseringsjobfejl ved at åbne loggen over synkroniseringsjobfejl direkte.
 
-## Sådan får du vist loggen over synkroniseringsjobbet fra tabeltilknytninger
+## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>Sådan får du vist loggen over synkroniseringsjobbet fra tabeltilknytninger
 
 1. Vælg ikonet :::image type="icon" source="media/ui-search/search_small.png" border="false":::, åbn **Integrationstabeltilknytninger**, og vælg derefter det relaterede link.
 2. På siden **Integrationstabeltilknytninger**, vælger du en record og derefter vælger du **Integrationssynkronisering. Joblog**.  
 
-## Sådan får du vist synkroniseringsfejlloggen
+## <a name="to-view-the-synchronization-error-log"></a>Sådan får du vist synkroniseringsfejlloggen
 
 - Vælg ikonet :::image type="icon" source="media/ui-search/search_small.png" border="false":::, åbn **Integrationssynkroniseringsfejl**, og vælg derefter det relaterede link.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Synkronisering af data i Business Central og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]](admin-synchronizing-business-central-and-sales.md)  
 [Synkronisere tabeltilknytninger manuelt](admin-manual-synchronization-of-table-mappings.md)  

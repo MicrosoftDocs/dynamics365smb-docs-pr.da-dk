@@ -12,11 +12,11 @@ ms.date: 09/29/2021
 ms.author: bholtorf
 ---
 
-# Indkøb, Hurtig start
+# <a name="procurement-quick-start"></a>Indkøb, Hurtig start
 
 For at kunne købe produkter og tjenester skal du først oprette kreditorer. Når det er gjort, kan du begynde at registrere købsordrer og modtage fakturaer.  
 
-## Oprette kreditorer
+## <a name="set-up-vendors"></a>Oprette kreditorer
 
 Følgende video viser, hvordan du opretter en kreditor i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -24,13 +24,13 @@ Følgende video viser, hvordan du opretter en kreditor i [!INCLUDE[prod_short](i
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-### Opret en ny kreditor
+### <a name="set-up-a-new-vendor"></a>Opret en ny kreditor
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
 Yderligere oplysninger og andre ting, du kan gøre, når du registrerer kreditorer, finder du i [registrere nye kreditorer](purchasing-how-register-new-vendors.md).  
 
-## Opret nye købsordrer
+## <a name="create-new-purchase-orders"></a>Opret nye købsordrer
 
 Når du køber noget fra en leverandør, har du to muligheder. Den første og den enkleste er blot at oprette en købsfaktura. Du skal bruge købsordrer, hvis din købsproces kræver, at du kan registrere delleveringer af et ordreantal, f.eks. fordi hele antallet ikke er tilgængeligt hos leverandøren.
 
@@ -40,7 +40,7 @@ Følgende video viser, hvordan du opretter en købsordre i [!INCLUDE[prod_short]
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-### Oprette en indkøbsordre  
+### <a name="to-create-a-purchase-order"></a>Oprette en indkøbsordre
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **købsordrer**, og vælg derefter det relaterede link.  
 
@@ -66,11 +66,11 @@ Følgende video viser, hvordan du opretter en købsordre i [!INCLUDE[prod_short]
 
 Du kan finde flere oplysninger og yderligere ting, du kan gøre, når du opretter en købsordre, i afsnittet [Indkøb](purchasing-manage-purchasing.md).  
 
-## Opret en købsfaktura  
+## <a name="create-a-purchase-invoice"></a>Opret en købsfaktura
 
 Du kan oprette en købsfaktura til at registrere omkostningerne ved køb og til at spore i Kreditor. Oprettelse af en købsfaktura svarer til at oprette en købsordre.
 
-### Sådan opretter og bogfører du en købsfaktura  
+### <a name="how-to-create-and-post-a-purchase-invoice"></a>Sådan opretter og bogfører du en købsfaktura
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 3.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny** på siden **Indkøbsfaktura** for at oprette en ny købsfaktura.
@@ -95,7 +95,7 @@ Købet afspejles nu i lagerposter, ressourceposter og finansposter, og kreditorb
 
 Du kan finde flere oplysninger og yderligere ting, du kan gøre, når du opretter en købsfaktura, i afsnittet [Bogfør køb med købsfakturaer](purchasing-how-record-purchases.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Hurtig start af Business Central](quick-start-business-central.md)  
 [Købsoversigt](Purchasing-manage-purchasing.md)  
