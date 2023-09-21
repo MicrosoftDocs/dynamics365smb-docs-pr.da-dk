@@ -12,7 +12,7 @@ ms.date: 09/29/2022
 ms.author: bholtorf
 ---
 
-# <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidering af finansielle oplysninger fra flere regnskaber
+# Konsolidering af finansielle oplysninger fra flere regnskaber
 
 Nogle organisationer bruger [!INCLUDE [prod_short](includes/prod_short.md)] i flere afdelinger eller juridiske enheder. Andre bruger [!INCLUDE [prod_short](includes/prod_short.md)] i datterselskaber, der skal rapportere til overordnede organisationer. I begge tilfælde bruger bogholderen indbyggede værktøjer til at konsolidere de finansielle data.  
 
@@ -35,7 +35,7 @@ Du opretter det konsoliderede regnskab på samme måde, som du opretter andre re
 > [!TIP]
 > Konsolidering af finansielle oplysninger kan især være relevant i forbindelse med interne processer. Du kan finde flere oplysninger i [Administrere interne transaktioner](intercompany-manage.md).
 
-## <a name="use-the-consolidated-trial-balance-report"></a>Bruge rapporten Konsolideret råbalance
+## Bruge rapporten Konsolideret råbalance
 
 Rapporten **Konsolideret råbalance** kan give dig et overblik over virksomheden samlede finansielle tilstand. Rapporten kombinerer finansposter fra alle dine regnskaber i et nyt virksomhed, som du har oprettet til de konsoliderede data. Dette regnskab kaldes typisk det *konsoliderede regnskab*. Det konsoliderede regnskab er kun en beholder til de konsoliderede data og har ingen direkte forretningsdata. De regnskaber, du inkluderer i det konsoliderede regnskab, bliver **koncernvirksomheder** i rapporten. Du kan finde flere oplysninger i [Konfigurere virksomhedskonsolidering](finance-consolidated-company-reporting-setup.md). Hvis der er fire eller færre koncernvirksomheder, kan du også bruge rapporten **Kons. råbal. - 4 virksomheder**.  
 
@@ -46,11 +46,11 @@ Rapporten viser en linje for hver konto og følger kontoplanens opbygning. En ko
 * Elimineringer foretaget i koncernregnskabet. Elimineringerne vil altid blive vist i en periode, der svarer til koncernregnskabets regnskabsår.
 * Totalen for koncernregnskabet efter elimineringerne, vist som bevægelse eller saldo til dato.
 
-## <a name="consolidate-data"></a>Konsolidere data
+## Konsolidere data
 
 Den faktiske *konsolidering* er at overføre tallene fra koncernvirksomhederne til det konsoliderede regnskab. Før du gør det, er det en god ide at kontrollere, om der er forskelle mellem de grundlæggende oplysninger i koncernvirksomhederne og det konsoliderede regnskab. Der er to rapporter, du kan bruge til at teste databasen og filen.
 
-### <a name="to-test-the-data-before-you-consolidate"></a>Sådan kontrolleres dataene, før du konsoliderer
+### Sådan kontrolleres dataene, før du konsoliderer
 
 Du kan teste dataene, inden du overfører dem til det konsoliderede regnskab. [!INCLUDE[prod_short](includes/prod_short.md)] kontrollerer, om der er forskelle mellem oplysningerne i koncernvirksomhederne og den konsoliderede virksomhed. F.eks., om kontonumre eller dimensionskoder er anderledes. Du skal rette fejlene, før du kan køre rapporten. Du kan teste databasen, eller hvis du importerer data fra en XML-fil, kan du teste filen.  
 
@@ -61,7 +61,7 @@ Du kan teste dataene, inden du overfører dem til det konsoliderede regnskab. [!
     * For at teste en fil, skal du vælge handlingen **Kontroller fil**, angive navnet på filen, der skal kontrollere, og derefter vælge **Udskriv**.  
     * Du kan teste databasen ved at vælge **Test database**.  
 
-### <a name="run-the-consolidation"></a>Kør konsolideringen
+### Kør konsolideringen
 
 Når du har testet dataene, kan du overføre dem til det konsoliderede regnskab.  
 
@@ -71,7 +71,7 @@ Når du har testet dataene, kan du overføre dem til det konsoliderede regnskab.
 4. I afsnittet filter skal du angive et filter for den relevante afdeling eller det relevante firmanavn.  
 5. Alternativt kan du planlægge en rapport til at køre på et passende klokkeslæt.  
 
-## <a name="eliminate-repeated-transactions"></a>Fjerne gentagne transaktioner
+## Fjerne gentagne transaktioner
 
 Når du har konsolideret alle regnskaber, skal du finde de transaktioner, som er registreret mere end én gang på tværs af regnskaber. Behandling af konsolideringselimineringer er en manuel proces.  
 
@@ -96,7 +96,7 @@ Hver konto vises på en separat linje, rapporten følger kontoplanens opbygning.
 * Bogføringsteksten kopieret fra finanskladden.
 * Koncernregnskabets total efter elimineringerne, hvis de bogføres.
 
-## <a name="export-and-import-consolidated-data-between-databases"></a>Eksportere og importere konsoliderede data mellem databaser
+## Eksportere og importere konsoliderede data mellem databaser
 
 Hvis data for en koncernvirksomhed er placeret i en anden database, skal du eksportere dataene til en fil, før de kan medtages i konsolideringen. Regnskaberne skal udlæses separat. Til det formål bruges kørslen **Udlæs konsolideringsposter**.  
 
@@ -112,7 +112,7 @@ De udlæste poster indeholder følgende felter: **Kontonr.**, **Bogføringsdato*
 3. Den dimensionsværdi, der blev udlæst for posten, vil blive det konsoliderede regnskabs dimensionsværdi, som er oprettet i feltet **Konsolideringskode** for dimensionsværdien. Hvis der ikke er blevet oprettet en dimensionsværdi for det konsoliderede regnskab i feltet **Konsolideringskode** for dimensionsværdien, vil selve dimensionsværdien blive udlæst til linjen.  
 4. XML-filerne indeholder også valutakurserne i konsolideringsperioden. Disse kurser er inkluderet i en separat sektion øverst i filen.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere virksomhedskonsolidering](finance-consolidated-company-reporting-setup.md)  
 [Administrere Intercompany-transaktioner (IC)](intercompany-manage.md)  

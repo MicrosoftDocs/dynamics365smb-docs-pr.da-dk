@@ -12,17 +12,17 @@ ms.date: 06/07/2022
 ms.author: bholtorf
 ---
 
-# <a name="configure-api-templates"></a>Konfigurere API-skabeloner
+# Konfigurere API-skabeloner
 
 API-biblioteket til [!INCLUDE[prod_short_md](includes/prod_short.md)] giver en forenklet fremstilling af de underliggende objekter. Det er ikke alle egenskaber i programmet, der vises ved hjælp af den tilknyttede API. På siden **API-opsætning** kan du definere skabeloner, der bruges til at angive tomme egenskaber for en enhed, når du opretter en BOGF-handling via API'et. 
 
 Hvis en konfigurationsskabelon defineres for vareobjektet, når der oprettes en ny post ved hjælp af varer-API'et, bliver egenskaber for den nye vare, der ikke er defineret i API-kaldet, f.eks. udfyldt med oplysninger fra den valgte skabelon. Hvis der f.eks. ikke er angivet en værdi i feltet **Produktbogføringsgruppe** ved hjælp af API'et, men der er angivet en værdi i den valgte skabelon, bliver værdien for bogføringsgruppen i skabelonen anvendt på den nye vare. 
 
-## <a name="setting-up-the-entity-template"></a>Opsætning af enhedsskabelonen
+## Opsætning af enhedsskabelonen
 
 Hvis du vil bruge skabeloner med API-biblioteket, skal du først oprette og definere egenskaber for skabelonerne. Du kan oprette skabelonerne på siden **Konfigurationsskabeloner**. Du kan finde flere oplysninger i [Overførsel af lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administration (kun engelsk version).  
 
-## <a name="assign-the-template-to-an-api"></a>Tildele skabelonen til et API
+## Tildele skabelonen til et API
 
 Hvis du vil tildele en skabelon til en API, skal du udføre følgende trin.
 
@@ -45,7 +45,7 @@ Hvis du vil tildele en skabelon til en API, skal du udføre følgende trin.
 
     Den definerede skabelon anvendes på en ny post, der oprettes via API'et, hvis og kun hvis de betingelser, der er defineret i feltet **Betingelser**, opfyldes af de værdier, der allerede er defineret for den nye forekomst af enheden.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [API-dokumentation](/dynamics-nav/fin-graph)  
 [Udvikle Connect Apps til [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  

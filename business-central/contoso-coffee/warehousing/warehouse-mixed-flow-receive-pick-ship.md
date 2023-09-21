@@ -12,17 +12,17 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-mixed-warehouse-configurations"></a>Gennemgang af indgående og udgående flow i blandet opsætning af lagersted
+# Gennemgang af indgående og udgående flow i blandet opsætning af lagersted
 
 Denne gennemgang viser, hvordan indgående og udgående flow skal udfyldes i blandet konfiguration, hvor for indgående lagersteder er konfigureret som basis: ordre-til-ordre og for udgående flow Avanceret konfiguration bruges. Du kan finde flere oplysninger i [Oversigt over forskellige konfigurationsindstillinger](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Forudsætninger
+## Forudsætninger  
 Fuldfør denne gennemgang, og gør dig selv til lagermedarbejder på lokationen *GUL* ved at følge disse trin:  
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
 2. Vælg feltet **Bruger-id**, og vælg din egen brugerkonto på siden **Brugere**.  
 3. Angiv **GUL** i feltet *Lokationskode*.  
 
-## <a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Indgående flow: Modtagelse og placering på lager i grundlæggende lageropsætninger
+## Indgående flow: Modtagelse og placering på lager i grundlæggende lageropsætninger
 
 I [!INCLUDE[prod_short](../../includes/prod_short.md)] kan de indgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret.  
 
@@ -37,10 +37,10 @@ Du kan finde flere oplysninger i [Designoplysninger: Indgående lagerflow](../..
 
 Den følgende gennemgang viser metode C i forrige tabel.  
 
-### <a name="scenario"></a>Scenarie
+### Scenarie  
 Alicia, indkøbsagenten, opretter købsordrer på forskellige brændte bønner, når efterspørgslen vises. Når leveringen ankommer på lagerstedet, sætter John, som er lagerarbejder, varerne på lager på standardplaceringer, der er defineret for varerne. Når John bogfører modtagelsen, bogføres varerne som modtaget på lageret og tilgængelige til salg eller andre behov.  
 
-### <a name="steps"></a>Trin
+### Trin
 1. Opsætningen af siden **Lokationskort** definerer indgående flows i virksomheden.  
 
     1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig 2.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.  
@@ -69,7 +69,7 @@ Alicia, indkøbsagenten, opretter købsordrer på forskellige brændte bønner, 
     4. På den anden linje skal du ændre værdien i feltet **Antal til modtagelse** fra *200* til *190*.
     5. Vælg handlingen **Bogfør kvittering**.
 
-### <a name="results"></a>Resultater
+### Resultater 
  - De brændte bønner registreres nu som lagt på lager
  - **Bogført lagerstedsmodtagelse** oprettes
  - **Bogført købsmodtagelse** oprettes
@@ -77,7 +77,7 @@ Alicia, indkøbsagenten, opretter købsordrer på forskellige brændte bønner, 
  - varen **Lageret** øges med det valgte antal
     
 
-## <a name="outbound-flow-picking-and-shipping-in-advanced-warehouse-configurations"></a>Udgående flow: Pluk og forsendelse i avancerede lageropsætninger
+## Udgående flow: Pluk og forsendelse i avancerede lageropsætninger
 
 I [!INCLUDE[prod_short](../../includes/prod_short.md)] kan de udgående processer for pluk og levering udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret.  
 
@@ -92,10 +92,10 @@ Du kan finde flere oplysninger i [Designoplysninger: Udgående lagerflow](../../
 
 Den følgende gennemgang viser metode D i forrige tabel.
 
-### <a name="scenario-1"></a>Scenarie
+### Scenarie  
 Susan, ordrebehandleren, opretter salgsordrer for forskellige brændte bønner og overfører den til lagerstedet. Da alle ordrer kommer fra den samme kunde, beslutter Ellen, lagerchefen, at levere dem sammen. John, som arbejder på lageret, skal sørge for, at forsendelsen klargøres og leveres til debitoren.
 
-### <a name="steps-1"></a>Trin
+### Trin
 Dette er en fortsættelse af [Indgående flow: Modtagelse og placering på lager i grundlæggende lageropsætninger](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Frigiv salgsordrer til lagersted.  
@@ -137,7 +137,7 @@ Dette er en fortsættelse af [Indgående flow: Modtagelse og placering på lager
     4. Vælg **Bogfør leverance**-handling.
     5. Bekræft indstillingen **Levering**.
 
-### <a name="results-1"></a>Resultater
+### Resultater
  - De brændte bønner registreres nu som plukket 
  - **Registreret lagerpluk** oprettes
  - **Bogført lagerstedslevering** oprettes
@@ -146,7 +146,7 @@ Dette er en fortsættelse af [Indgående flow: Modtagelse og placering på lager
  - varen **Lageret** reduceres med det valgte antal
 
 
-## <a name="see-also"></a>Se også
+## Se også
 [Modtag varer](../../warehouse-how-receive-items.md)
 [Konfigurer basislagersteder med operationsområder](../../warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)
 [Designdetaljer: Indgående lagerstedsflow](../../design-details-inbound-warehouse-flow.md)
