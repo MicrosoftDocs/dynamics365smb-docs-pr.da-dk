@@ -53,11 +53,9 @@ Du indtaster 1.200.000 i overskriftslinjen, eksporterer budgettet til Excel og s
 
 Lønafdelingen fordeler beløbet på de tre bogføringskonti. Når du importerer tilbage i finansbudgettet, udfyldes de tre konti med de nye Excel-data, der tilsammen giver RV 1.200.000, og overskriftslinjen er tom.
 
-## Se relateret [Microsoft-træning](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
-
 ## Se også
 
-[Eksportere forretningsdata til Excel](about-export-data.md)  
+[Eksportere dine forretningsdata til Excel](about-export-data.md)  
 [Finans](finance.md)  
 [Business Intelligence](bi.md)  
 [Konfigurere Finans](finance-setup-finance.md)  

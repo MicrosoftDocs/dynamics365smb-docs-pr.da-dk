@@ -43,8 +43,6 @@ På siden **Jobkort** , kan du nu se en oversigt over de samlede budgetterede om
 
 Du kan finde oplysninger om registrering af budgetterede og faktiske sagspriser og -omkostninger i [Registrere forbrug for sager](projects-how-record-job-usage.md).
 
-## Se relateret [Microsoft-træning](/training/modules/set-up-job-planning-lines/)
-
 ## Se også
 
 [Projektstyring](projects-manage-projects.md)  

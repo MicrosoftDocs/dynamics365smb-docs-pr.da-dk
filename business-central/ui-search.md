@@ -70,8 +70,6 @@ Funktionen **Fortæl mig, hvad du vil foretage dig** søger ikke efter data, f.e
 
 Vi har vist Fortæl mig til en række interessenter, noteret de spørgsmål, de havde fælles, og lavet vores noter om til en oversigt over ofte stillede spørgsmål. Hvis du er interesseret, kan du se [Fortæl mig – ofte stillede spørgsmål](ui-search-faq.md).
 
-## Se relateret [Microsoft-træning](/training/modules/user-interface-dynamics-365-business-central/index)
-
 ## Se også
 
 [Arbejde med Business Central](ui-work-product.md)  

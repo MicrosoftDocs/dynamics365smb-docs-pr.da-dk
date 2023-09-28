@@ -39,8 +39,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Få vist en vares planlagte disponible lager ved forskellige visninger og se, hvilke bruttobehov, planlagte ordretilgange og andre hændelser, der påvirker over tid.|[Vise varedisponering](inventory-how-availability-overview.md)|  
 <!--|Udfør udvalgte planlægningsaktiviteter, f.eks. ændring eller tilføjelse af planlægningskladdelinjer, i en grafisk oversigt over forsyningsplanen.|[Ændre planlægningsforslag i en grafisk visning](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)|-->
 
-## Se relateret [Microsoft-træning](/training/modules/plan-items-dynamics-365-business-central/)
-
 ## Se også
 
 [Konfigurere produktion](production-configure-production-processes.md)  

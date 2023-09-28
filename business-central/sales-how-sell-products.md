@@ -91,11 +91,9 @@ De relaterede vare- og debitorposter oprettes nu i systemet, og salgsordren udl�
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Se relateret [Microsoft-træning](/training/modules/create-sales-documents-dynamics-365-business-central/).
-
 ## Se også
 
-[Fakturere salg](sales-how-invoice-sales.md)  
+[Fakturasalg](sales-how-invoice-sales.md)  
 [Bogføring af salg](ui-post-sales.md)  
 [Afsende varer](warehouse-how-ship-items.md)  
 [Foretage direkte leveringer](sales-how-drop-shipment.md)  

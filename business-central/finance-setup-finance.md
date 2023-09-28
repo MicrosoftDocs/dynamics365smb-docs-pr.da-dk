@@ -51,8 +51,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 > [!TIP]
 > Nogle Business Central-sider kan indeholde felter, der ikke er beskrevet i de artikler, der er angivet her, fordi de gælder for lokal funktionalitet eller tilpasninger, afhængigt af din geografiske placering. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## Se relateret [Microsoft-træning](/training/paths/set-up-financial-management-dynamics-365-business-central/)
-
 ## Se også
 
 [Finans](finance.md)  

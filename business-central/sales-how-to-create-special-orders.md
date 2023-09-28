@@ -38,8 +38,6 @@ En indkøbsordre, der er oprettet som en specialordre for en salgsordre, respekt
 > [!NOTE]  
 >  Du kan ikke bruge funktionen til specialordre, hvis varen allerede er reserveret. For varer, der sælges på specialordrer, skal du derfor sørge for, at feltet **Reserver** på varekortet ikke er angivet til **Altid**.  
 
-## Se relateret [Microsoft-træning](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Se også
 
 [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md)  

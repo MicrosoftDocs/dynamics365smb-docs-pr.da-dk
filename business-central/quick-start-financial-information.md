@@ -79,11 +79,9 @@ Bankkonti i [!INCLUDE[prod_short](includes/prod_short.md)]-register med banktran
    Feltet er ikke det samme som feltet **Bankkontonr.**, der også tilgængeligt i oversigtspanelet **Generelt**.
 4. På siden **Kreditorbankkontokort** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Se relateret træning på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
-
 ## Se også
 
-[Konfigurere kontoplanen](finance-setup-chart-accounts.md)  
+[Konfigurere kontoplaner](finance-setup-chart-accounts.md)  
 [Konfigurere bankkonti](bank-how-setup-bank-accounts.md)  
 [Køre og udskrive rapporter](ui-work-report.md)  
 [Hurtig start af Business Central](quick-start-business-central.md)  

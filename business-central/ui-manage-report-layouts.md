@@ -11,7 +11,7 @@ ms.search.form: '9652, 9650, 9660'
 ms.date: 05/23/2023
 ms.author: jswymer
 ---
-# <a name="report-and-document-layouts-overview"></a>Oversigt over rapport- og dokumentlayout
+# Oversigt over rapport- og dokumentlayout
 
 Et rapportlayout styrer indholdet og formatet af rapporten, herunder hvilke datafelter i et datasæt der vises i rapporten, og hvordan de er organiseret, teksttypografi, billeder og meget mere. Fra [!INCLUDE[prod_short](includes/prod_short.md)]-klienter kan du ændre, hvilket layout der skal bruges i en rapport, oprette et nyt layout eller ændre det aktuelle layout.
 
@@ -20,7 +20,7 @@ Et rapportlayout styrer indholdet og formatet af rapporten, herunder hvilke data
 
 Du kan også bruge rapportlayouts til at føje indhold til e-mailmeddelelser. F.eks. rapportlayout kan spare tid og være med til at sikre konsistensen ved at genbruge det samme indhold, når du kommunikerer med kunderne. Hvis du vil bruge brugerdefinerede rapportlayout med e-mail, skal det være et Word-filtypeformat. Du kan ikke bruge RDLC-filtypen. Du kan finde flere oplysninger i [angive genanvendelige e-mail-tekst og layout](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## <a name="introduction"></a>Introduktion
+## Introduktion
 
 Et rapportlayout indstiller navnlig følgende:
 
@@ -35,11 +35,11 @@ En rapport kan konfigureres med flere rapportlayout, som du kan skifte mellem ef
 
 Der er to vigtige layout aspekter af rapportlayout, som vil påvirke den måde, du arbejder med dem på: *layouttypen* og *layoutkilden*. Layouttypen angiver den filtype, som layoutet er baseret på. Layout-kildet angiver layoutets oprindelse.
 
-## <a name="layout-types"></a>Layouttyper
+## Layouttyper
 
 Der findes fire typer rapportlayout, der kan bruges i rapporter: Word, RDLC, Excel og ekstern.
 
-### <a name="word"></a>Word
+### Word
 
 Et rapportlayout til Word er baseret på Word-dokumenter (.docx-filtype). Med Word-rapportlayout kan du udforme rapportlayout ved hjælp af Microsoft Word. Et Word-rapportlayout bestemmer rapportens indhold og styrer, hvordan indholdselementerne skal placeres, og hvordan de ser ud. Et Word-dokument med rapportlayout vil normalt bruge tabeller til at arrangere indhold, hvor cellerne kan indeholde datafelter, tekst eller billeder.
 
@@ -49,7 +49,7 @@ Et rapportlayout til Word er baseret på Word-dokumenter (.docx-filtype). Med Wo
 
 Du kan finde flere oplysninger i [Arbejde med Word-layout](ui-how-add-fields-word-report-layout.md).
 
-### <a name="excel"></a>Excel
+### Excel
 
 Excel-rapportlayout er baseret på Microsoft Excel-projektmapper (.xlsx-filtype). De giver dig mulighed for at oprette rapporter ved hjælp af velkendte Excel-funktioner til sammenfatning, analyse og præsentation af data, f. eks. formler, pivottabeller og pivotdiagrammer.
 
@@ -57,7 +57,7 @@ Excel-rapportlayout er baseret på Microsoft Excel-projektmapper (.xlsx-filtype)
 
 Du kan finde flere oplysninger i [Arbejde med Excel-layout](ui-excel-report-layouts.md).
 
-### <a name="rdlc"></a>RDLC
+### RDLC
 
 RDLC-layout er baseret på klientrapportens definitionslayoutfiler (.rdl- eller .rdlc-filtyper). Disse layout oprettes og ændres ved hjælp af SQL Server Report Builder eller Microsoft RDLC Report Designer. Design konceptet til RDLC layout svarer til Word-layout, hvor layoutet bestemmer, hvilke felter der skal vises, og hvordan de er arrangeret. Men RDLC-layoutdesign er mere avanceret end Word-layout.
 
@@ -65,13 +65,13 @@ RDLC-layout er baseret på klientrapportens definitionslayoutfiler (.rdl- eller 
 
 Du kan finde flere oplysninger i [Arbejde med RDLC-layouts](ui-rdlc-report-layouts.md).
 
-### <a name="external"></a>Ekstern
+### Ekstern
 
 En ekstern layouttype henviser til en avanceret type, der specielt er beregnet til bestemte rapporter. Selve rapporterne og layouts leveres typisk af partnere, ikke Microsoft. Det faktiske filtypeformat varierer, afhængigt af udbyderen.
 
 Du kan finde flere oplysninger i [Udvikle en brugerdefineret rapportgengivelse](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
-## <a name="layout-sources"></a>Layoutkilder
+## Layoutkilder
 
 Ud over teksten inddeles layout yderligere i tre kategorier baseret på kilde eller oprindelse.
 
@@ -97,7 +97,7 @@ Du kan finde flere oplysninger om, hvordan du kan bestemme, hvilken type der pas
 > Det er vigtigt at huske på, at du ikke kan ændre udvidelses layout fra Business Central-klienten. Du kan f. eks. ikke ændre layout navnet eller-typen eller overføre og erstatte det med en anden version. Hvis du prøver, vises der en fejlmeddelelse. Du skal i stedet oprette et brugerdefineret eller brugerdefineret layout, der er baseret på udvidelses layoutet.
 
 <!--
-### <a name="built-in-and-custom-report-layouts"></a>Built-in and custom report layouts
+### Built-in and custom report layouts
 
 
 
@@ -117,15 +117,10 @@ Deciding on whether to use a Word, Excel, or RDLC layout type will depend on how
 For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
 
 -->
+## Se også
 
-
-
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
-
-## <a name="see-also"></a>Se også
-
-[Opdater brugerdefinerede rapportlayouts](ui-update-report-layouts.md)  
-[Sådan opretter og ændrer du Brugerdefinerede rapportlayouts](ui-how-create-custom-report-layout.md)  
+[Opdatere brugerdefinerede rapportlayouts](ui-update-report-layouts.md)  
+[Oprette og tilpasse brugerdefinerede rapportlayouts](ui-how-create-custom-report-layout.md)  
 [Importere og eksportere et brugerdefineret rapport- eller dokumentlayout](ui-how-import-and-export-report-layout.md)  
 [Angiv specielle dokumentlayout for debitorer og leverandører](ui-define-customer-vendor-document-layouts.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  

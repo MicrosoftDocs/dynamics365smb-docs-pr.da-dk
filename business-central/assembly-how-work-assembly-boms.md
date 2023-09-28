@@ -106,13 +106,11 @@ En montagestyklistes kostpris svarer altid til den samlede kostpris for dens kom
 
 Omkostningerne ved de elementer, der udgør montagestyklisten, kopieres fra komponentvarekortene. Kostprisen på hver vare ganges med antallet, og den samlede kostpris vises i feltet **Kostpris** på varekortet.
 
-## Se relateret [Microsoft-træning](/training/modules/set-up-assembly-items-dynamics-365-business-central/).
-
 ## Se også
 
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Administrere produktvarianter](inventory-item-variants.md)  
-[Vise varedisponering](inventory-how-availability-overview.md)  
+[Vise varer, der er disponible](inventory-how-availability-overview.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Arbejde med styklister](inventory-how-work-BOMs.md)  
 [Oprette produktionsstyklister](production-how-to-create-production-boms.md)  

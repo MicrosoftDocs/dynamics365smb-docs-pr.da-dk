@@ -47,8 +47,6 @@ Følgende video giver en grundlæggende beskrivelse af anlægsaktiver.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Se relateret [Microsoft-træning](/training/paths/manage-fixed-assets-transactions/)
-
 ## Se også
 
 [Opsætning af Anlægsaktiver](fa-setup.md)  

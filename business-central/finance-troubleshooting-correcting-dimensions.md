@@ -117,8 +117,6 @@ Hvis en rettelse ikke fuldføres, vises der en advarsel på rettelseskortet. Hvi
 
 Når du har rettet dimensionerne vil dine data til omkostningsregnskabet ikke være synkroniserede. Omkostningsregnskabet bruger dimensioner til at samle beløb for omkostningssteder og omkostningsemner og udføre omkostningsfordelinger. Ændring af dimensioner for finansposter vil det sandsynligvis betyde, at du skal køre dine omkostningsregnskabsmodeller igen. Uanset om du bare har brug for at slette nogle få omkostningsregistre og udføre fordelinger igen, eller du vil slette alle dine modeller, afhænger af de data, der er blevet opdateret, og hvordan funktionerne til omkostningsregnskabet er konfigureret. Du skal manuelt identificere hvor dimensionsrettelser vil påvirke omkostningsregnskabet, og hvor opdateringer er nødvendige. I øjeblikket kan [!INCLUDE[prod_short](includes/prod_short.md)] ikke udføre denne proces automatisk.
 
-## Se relateret [Microsoft-træning](/training/modules/dimensions-dynamics-365-business-central/)
-
 ## Se også
 
 [Arbejde med dimensioner](finance-dimensions.md)  

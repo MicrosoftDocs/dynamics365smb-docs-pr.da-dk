@@ -89,8 +89,6 @@ Sammenkædningen mellem rammesalgsordre og den oprindelige salgsordre og ethvert
 
 5. På siden **Salgslinjer** skal du vælge handlingen **Vis dokument** for at få vist posten.
 
-## Se relateret [Microsoft-træning](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Se også
 
 [Salg](sales-manage-sales.md)  

@@ -3,7 +3,7 @@ title: 'Fremgangsmåde: Plukke varer med Pluk fra lager'
 description: 'Få mere at vide om, hvordan du bruger pluk (lager) til at registrere og bogføre pluk-og leveringsoplysninger for kildedokumenter.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
@@ -119,8 +119,6 @@ I kombinationsscenarier, hvor en del af mængden først skal samles, og en anden
 
 > [!NOTE]  
 > Hvis varerne er monteret efter ordre, opretter lagerpluk for den sammenkædede salgsordre en flytning (lager) for alle montagekomponenter.  
-
-## Se relateret [Microsoft-træning](/training/paths/pick-ship-items-business-central/)
 
 ## Se også
 

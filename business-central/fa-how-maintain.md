@@ -84,8 +84,6 @@ I feltet **Reparationsposter** kan du få vist eller udskrive reparationsposter 
 2. Udfyld felterne efter behov.
 3. Vælg knappen **Udskriv** eller **Vis udskrift**.
 
-## Se relateret [Microsoft-træning](/training/paths/manage-fixed-assets-maintenance-insurances/)
-
 ## Se også
 
 [Anlægsaktiver](fa-manage.md)  

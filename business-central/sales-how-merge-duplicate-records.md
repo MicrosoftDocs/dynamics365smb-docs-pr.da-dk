@@ -56,12 +56,10 @@ Den følgende procedure er baseret på et kundekort. Trinnene er de samme for le
 > [!NOTE]
 > For kontakter gælder det, at du kan benytte funktionalitet til at finde dobbeltregistrerede kontakter, før du benytter siden **Flet dobbeltregistreringer**. Se [Søg efter dobbeltregistrerede kontakter](marketing-setup-contacts.md#searching-for-duplicate-contacts) for at få yderligere oplysninger.
 
-## Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Se også
 
 [Salg](sales-manage-sales.md)  
-[Opsætning af kontakter](marketing-setup-contacts.md)  
+[Opsætte kontakter](marketing-setup-contacts.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

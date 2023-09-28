@@ -36,11 +36,9 @@ Hvis du ikke angiver en ønsket leveringsdato på en salgsordrelinje, eller hvis
 - *afsendelsesdato + udgående lagerekspeditionstid = planlagt afsendelses dato*
 - *planlagt afsendelsesdato + transporttid = planlagt leveringsdato*
 
-## Se relateret [Microsoft-træning](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/).
-
 ## Se også
 
-[Beregning af forfaldsdato for køb](purchasing-date-calculation-for-purchases.md)  
+[Beregne dato for køb](purchasing-date-calculation-for-purchases.md)  
 [Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -297,12 +297,10 @@ Du skal derefter oprette forskellige indkøbs-, produktions- og salgstransaktion
 
  Dermed er denne gennemgang i, hvordan siden **Find poster** bruges til administration af fejlbehæftede varer sammen med siden **Varesporing**, færdig.  
 
-## Se relateret [Microsoft-træning](/training/paths/use-serial-lot-numbers/)
-
 ## Se også
 
 [Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)  
-[Spore vare via varesporing](inventory-how-to-trace-item-tracked-items.md)  
+[Spore varer - sporede varer](inventory-how-to-trace-item-tracked-items.md)  
 [Find poster](ui-find-entries.md)  
 [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
 

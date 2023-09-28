@@ -46,8 +46,6 @@ Når du har angivet godkendelsesbrugere, kan du oprette workflowsvar for godkend
 
 I næste trin skal du angive, hvordan du vil [!INCLUDE [prod_short](includes/prod_short.md)] give brugerne besked om, at en anmodning afventer deres opmærksomhed. Få mere at vide under [Konfiguration af workflownotifikationer](across-setting-up-workflow-notifications.md).
 
-## Se relateret [Microsoft-træning](/training/modules/create-workflows/)
-
 ## Se også
 
 [Konfigurere brugere til workflow](across-how-to-set-up-workflow-users.md)  

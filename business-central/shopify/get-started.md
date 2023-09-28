@@ -59,7 +59,9 @@ Gentag trin 2-6 for alle onlinebutikker, du vil oprette forbindelse til.
 ### Kendte problemer
 
 - Pop op-vinduet blokeres i browseren. Når du aktiverer til/fra-funktionen **Aktiveret**, åbner [!INCLUDE [prod_short](../includes/prod_short.md)] siden **Venter på svar - lad være med at lukke siden**, mens den venter på, at der er en adgangstoken fra Shopify. Hvis siden er lukket eller blokeret, kan du ikke oprette forbindelse til Shopify. Få mere at vide på [Anmod om adgangstoken](troubleshoot.md#request-the-access-token)
+- Det kan være en god ide at have Shopify-administration åben i samme browser som [!INCLUDE [prod_short](../includes/prod_short.md)]
 - [Fejl: Oauth-fejl invalid_request: Kan ikke finde Shopify API-programmet med api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
+- [Fejl: Oauth fejl invalid_request: Din konto har ikke tilladelse til at give den ønskede adgang til denne app.](troubleshoot.md#error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app)
 - [Der kan ikke oprettes forbindelse fra sandkasse](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Næste trin
@@ -108,8 +110,6 @@ Hvis indstillingen **Tillad datasynkronisering til Shopify**-til/fra-feltet er a
 
 *   Vælg **Kladde** i feltet **Status for Opret produkt** for at sikre, at de udlæste produkter ikke er disponible til købere. Du kan kontrollere, hvordan produkter ser ud i onlinebutikken, synkronisere priser, indstillinger og lagerniveauer. Du skal blot sørge for at bruge filtre på siden **Tilføj elementet til Shopify** for at begrænse antallet af udlæste varer.
 * Deaktiver til/fra-feltet **eksporter kunde til Shopify**, så du ikke sender kunderne til Shopify.
-
-## Se relateret [Microsoft-træning](/training/paths/use-shopify-connector-dynamics-365-business-central/)
 
 ## Se også
 

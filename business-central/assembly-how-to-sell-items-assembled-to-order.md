@@ -3,7 +3,7 @@ title: 'Sælge varer, der er monteret til ordre'
 description: 'Sådan sælger du en vare, der er samlet til ordre.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
@@ -59,8 +59,6 @@ I denne procedure behandler du salg af et element, der skal samles i henhold til
 
 > [!NOTE]  
 > Erstatningsvarer erstatter ikke automatisk en vare med en anden vare, f.eks. når der oprettes en salgsordre eller en stykliste. I stedet bliver du advaret om, at der er en erstatningsvare tilgængelig.
-
-## Se relateret [Microsoft-træning](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## Se også
 

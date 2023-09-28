@@ -3,7 +3,7 @@ title: Flytte varer
 description: Få mere at vide om flytning af varer mellem placeringer på lagerstedet.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: Conceptual
 ms.date: 01/25/2023
@@ -34,13 +34,11 @@ Optælling, regulering og ompostering af varer kan omfatte lagerstedsopgaver, de
 |Flytte varer mellem lokationer|[Overflytte lagerbeholdning mellem lokationer](inventory-how-transfer-between-locations.md)|
 |Flytte varer mellem placeringer i grundlæggende lageropsætninger til enhver tid og uden kildedokumenter.|[Flytte varer i grundlæggende lageropsætninger](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
 |Du kan bruge lagerbevægelseskladden til internt at plukke og lægge elementer på lager i avancerede lageropsætninger med styret pluk og læg på lager.|[Flytte varer i avancerede lageropsætninger](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
-|Omstrukturere lagerstedet med nye placeringskoder og nye karakteristika for placeringer og evt. flytte rundt på dem.|[Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)|  
-
-## Se relateret [Microsoft-træning](/training/modules/manage-internal-warehouse-processes/)
+|Omstrukturere lagerstedet med nye placeringskoder og nye karakteristika for placeringer og evt. flytte rundt på dem.|[Omstrukturere lagersteder](warehouse-how-to-restructure-warehouses.md)|  
 
 ## Se også
 
-[Oversigt over logistik](design-details-warehouse-management.md)  
+[Oversigt over Warehouse Management](design-details-warehouse-management.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

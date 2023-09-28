@@ -31,8 +31,6 @@ Siden **Bogførte bilag uden indgående bilag** åbnes og viser bogførte købs-
 
 Hvis der ikke findes en relevant indgående bilagspost på siden **Indgående bilag** kan du oprette den. Du kan finde flere oplysninger i [Oprette indgående bilagsposter](across-how-create-income-document-records.md).
 
-## Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Se også
 
 [Oprette indkommende bilagsposter](across-how-create-income-document-records.md)

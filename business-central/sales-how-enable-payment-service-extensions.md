@@ -40,8 +40,6 @@ PayPal Payments Standard- og WorldPay Payments Standard-udvidelserne installeres
     > [!NOTE]  
     > Feltet **Betalingstjeneste** er kun tilgængeligt, hvis du har aktiveret betalingstjenesten.  
 
-## Se relateret [Microsoft-træning](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Se også
 
 [Konfigurere salg](sales-setup-sales.md)  

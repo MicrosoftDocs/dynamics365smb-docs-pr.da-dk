@@ -2,24 +2,23 @@
 title: Lokal funktionalitet og lokaliseringsstrategi
 description: 'Få mere at vide om lokal tilgængelighed og overholdelse af Business Central for de lande/områder, hvor Microsoft leverer den lokale funktionalitet.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: overview
 ms.search.keywords: 'availability, localization'
 ms.search.form: null
-ms.date: 06/11/2021
-ms.author: bholtorf
+ms.date: 09/05/2023
+ms.custom: bap-template
 ---
-# Lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]
+# Hvad er lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] har en kombineret oversættelsesstrategi inklusive både Microsoft-styrede såvel som partnerstyrede modeller. I dette afsnit kan du se beskrivelser af funktioner, der gælder for de lande/områder, hvor Microsoft leverer overholdelse af lovmæssige krav og andre lokale funktioner.  
 
-Du kan finde en liste over de aktuelt understøttede markeder under [Tilgængelighed i land/område og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
+Du kan finde en liste over de aktuelt understøttede markeder i [Tilgængelighed i land/område og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
 ## Lokal funktionalitet
 
-Du kan finde flere oplysninger om lokal funktionalitet for hvert land/område ved at vælge det relaterede link:
+Følgende tabel indeholder links til de artikler, hvor du kan få mere at vide om de lokale funktioner i hvert land/område.
 
 | Område | Land/område | Flere oplysninger |
 | --- | --- |--- |
@@ -53,6 +52,7 @@ Du kan finde flere oplysninger om lokal funktionalitet for hvert land/område ve
 [!INCLUDE[prod_short](includes/prod_short.md)] findes også på andre markeder via oversættelsesapps. Hvis en Microsoft-partner har udviklet en oversættelsesapp til dit land/område, kan du finde den i [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
 ## Se også
+
 [Oprette miljøer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Blive køreklar](ui-get-ready-business.md)  
 [Overholdelse](compliance/compliance-overview.md)  

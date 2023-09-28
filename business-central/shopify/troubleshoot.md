@@ -3,7 +3,7 @@ title: Fejlfinding af Shopify og Business Central-synkronisering
 description: 'Få mere at vide om, hvad du skal gøre, hvis noget er galt under synkronisering af data mellem Shopify Business Central.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/24/2023
 ms.custom: bap-template
@@ -143,6 +143,10 @@ Det ser ud til, at du bruger [Indlejret app](/dynamics365/business-central/dev-i
 ### Fejl: Intern fejl. Det ser ud til, at noget gik galt. Anmodnings-id: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
 
 Kontakt Shopify support inden for 7 dage efter, at du har oplevet fejlen, og Angiv anmodnings-id'et. Du kan få flere oplysninger ved at gå til [Supportmuligheder i Shopify](shopify-faq.md#shopify).
+
+### Fejl: Oauthfejl invalid_request: Din konto har ikke tilladelse til at give den ønskede adgang til denne app. 
+
+Det ser ud til, at brugere, der anmoder om adgang, ikke har rettigheder til at administrere apps (mulighed for at administrere og installere apps og kanaler samt potentielt godkende appgebyrer). Du kan muligvis løse dette problem ved at installere appen som kontoejer. Du kan også kontrollere **Apptilladelsen** for brugeren i indstillingerne [**Bruger- og tilladelser**](https://www.shopify.com/admin/settings/account) i din **Shopify administrator**.  
 
 ## Se også
 

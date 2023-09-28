@@ -114,11 +114,9 @@ Når en taksonomi ændres, skal du opdatere den aktuelle taksonomi i overensstem
 6. Du kan importere linkbasen ved at vælge handlingen **Indlæs**.  
 7. Vælg knappen **Ja** for at anvende linkbasen til skemaet.  
 
-## Se relateret træning på [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
-
 ## Se også
 
-[Financial Business Intelligence](bi.md)  
+[Økonomisk Business Intelligence](bi.md)  
 [Finans](finance.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

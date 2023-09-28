@@ -52,8 +52,6 @@ Hvis du altid vil bogføre udgifter, der er knyttet til gebyrer fra en bestemt b
 | --- | --- | --- | --- | --- |
 | MyBank |TOM |60400|Finanskonto |TOM |
 
-## Se relateret [Microsoft-træning](/training/modules/use-journals-dynamics-365-business-central/)
-
 ## Se også
 
 [Administrere tilgodehavender](receivables-manage-receivables.md)  

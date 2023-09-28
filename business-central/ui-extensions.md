@@ -87,8 +87,6 @@ Microsoft-partnere og -forhandlere kan oprette en app, som de kan bruge til at k
 > [!NOTE]
 > Hvis du er Microsoft-partner eller -forhandler, og du er interesseret i at levere en liste over anbefalede apps, skal du se [Anbefal apps fra AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) i administrationsindholdet.
 
-## Se relateret [Microsoft-træning](/training/modules/customize-dynamics-365-business-central/)
-
 ## Se også
 
 [Installere og afinstallere apps](ui-extensions-install-uninstall.md)  

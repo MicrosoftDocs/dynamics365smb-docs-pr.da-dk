@@ -140,14 +140,12 @@ Hvis du vil tildele præcis kostprisudligning manuelt, skal du vælge feltet **U
 
 Du kan finde flere oplysninger i [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md).
 
-## Se relateret [Microsoft-træning](/training/paths/return-items-dynamics-365-business-central/)
-
 ## Se også
 
 [Salg](sales-manage-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
-[Sende dokumenter som mail](ui-how-send-documents-email.md)  
+[Sende dokumenter via mail](ui-how-send-documents-email.md)  
 [Behandle købsreturvarer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

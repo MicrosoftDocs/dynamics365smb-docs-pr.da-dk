@@ -115,8 +115,6 @@ Du kan kopiere poster fra én afskrivningsprofil til en anden vha. kørslen **Ko
 
 De kopierede linjer oprettes enten i anlægskassekladden eller anlægskladden, afhængigt af, om finansintegration er aktiveret for den afskrivningsprofil, du er ved at kopiere.  
 
-## Se relateret [Microsoft-træning](/training/modules/calculate-post-depreciations/)
-
 ## Se også
 
 [Anlægsaktiver](fa-manage.md)  

@@ -104,8 +104,6 @@ Når der skal angives filtre i rapporten, skal du udfylde filterne på følgende
 
 ADM-dimensionen kopieres fra lokationen EAST.
 
-## Se relateret træning på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
-
 ## Se også
 
 [Administrere lager](inventory-manage-inventory.md)  

@@ -31,13 +31,11 @@ Købsrekvisitionen fjernes fra databasen. En købsfaktura eller indkøbsordre op
 > [!NOTE]
 > Det er ikke muligt at konvertere en købsrekvisition til en købsfaktura direkte, ligesom det er muligt med salgstilbud. Du kan finde flere oplysninger om, hvordan du opretter en købsfaktura, ved at læse [Registrere køb med købsfakturaer](purchasing-how-record-purchases.md).
 
-## Se relateret [Microsoft-træning](/training/modules/create-purchase-documents-dynamics-365-business-central/).
-
 ## Se også
 
 [Køb](purchasing-manage-purchasing.md)  
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
-[Sende dokumenter som mail](ui-how-send-documents-email.md)  
+[Sende dokumenter via mail](ui-how-send-documents-email.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

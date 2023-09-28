@@ -79,8 +79,6 @@ Den valgte årsagskode kopieres til nye kladdenavne, der er oprettet under denne
 
 Når fakturaen er bogført, kopieres årsagskoden til hver finans-, debitor- og kreditorpost. Du kan ikke tilknytte forskellige årsagskoder til individuelle købs- og salgslinjer, fordi alle linjer er bogført som en post.
 
-## Se relateret [Microsoft-træning](/training/paths/set-up-financial-management-dynamics-365-business-central/)
-
 ## Se også
 
 [Finans](finance.md)  

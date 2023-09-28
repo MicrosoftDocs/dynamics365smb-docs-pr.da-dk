@@ -107,8 +107,6 @@ Vælg linket *Rediger, når jeg modtager notifikationer* for at få vist eller �
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## Se relateret [Microsoft-træning](/training/modules/personalize-ui-dynamics-365-business-central/index)
-
 ## Se også
 
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

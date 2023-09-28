@@ -32,8 +32,6 @@ Når du har oprettet dit lager, kan du administrere forskellige lagerprocesser i
 |Importér flere varebilleder i én omgang fra en zip-fil, hvor filerne er navngivet efter varenumre.|[Importere flere varebilleder](inventory-how-import-item-pictures.md)|
 |Angiv standardrapporter, der skal bruges til forskellige dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## Se relateret [Microsoft-træning](/training/paths/trade-get-started-dynamics-365-business-central/)
-
 ## Se også
 
 [Administrere lager](inventory-manage-inventory.md)  

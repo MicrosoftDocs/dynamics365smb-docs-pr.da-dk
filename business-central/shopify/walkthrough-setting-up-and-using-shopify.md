@@ -43,24 +43,24 @@ Gør ét af følgende i [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 Konfigurer Shopify-butikken som beskrevet i følgende trin:
 
-1. Aktivér **Logfil aktiveret**-feltet til/fra.
-2. Deaktivér **Tillad baggrundssynkronisering** til/fra.
-3. Vælg **Til Shopify** i feltet **Sync vare**.
-4. Vælg **Til Shopify** i feltet **Sync varebilleder**.
-5. Aktivér til/fra-knappen **Synkroniser vareattributter**.
-6. Aktiver **Lager sporet** til/fra.
-7. Vælg **Afvis** i feltet **Standardlagerpolitik**.
-8. Aktiver **Automatisk oprettelse af ukendte kunder** til/fra.
-9. Udfyld feltet **Debitorskabelonkode** med den relevante skabelon.
-10. Udfyld feltet **Leveringskonto**, **Konto til drikkepenge** med omsætning. F. eks. kan du i USA bruge `40100`.
-11. Aktiver **Automatisk oprettelse af ordrer** til/fra.
+1. Deaktivér **Tillad baggrundssynkronisering** til/fra.
+2. Vælg *Til Shopify* i feltet **Sync vare**.
+3. Vælg *Til Shopify* i feltet **Sync varebilleder**.
+4. Aktivér til/fra-knappen **Synkroniser vareattributter**.
+5. Aktiver **Lager sporet** til/fra.
+6. Vælg *Afvis* i feltet **Standardlagerpolitik**.
+7. Aktiver **Automatisk oprettelse af ukendte kunder** til/fra.
+8. Udfyld feltet **Debitorskabelonkode** med den relevante skabelon.
+9. Udfyld feltet **Leveringskonto**, **Konto til drikkepenge** med omsætning. F. eks. kan du i USA bruge `40100`.
+10. Aktiver **Automatisk oprettelse af ordrer** til/fra.
 
 Konfigurere tilknytning af lokation:
 
 1. Vælg handlingen **Lokationer** for at åbne **Shopify Butikslokationer**.
-2. Vælg handlingen **Hent Shopify-lokationer** for at importere alle de placeringer, der er defineret i Shopify.
+2. Vælg handlingen **Hent Shopify-lokationer** for at importere alle de placeringer, der er defineret i Shopify. Vælg din standardplacering i Shopify
 3. Angiv `''|EAST|MAIN` i **lokationsfilteret**.
-4. Fjern markeringen fra til/fra-feltet **Deaktiveret** for at aktivere lagersynkronisering for udvalgt Shopify-lokation.
+4. Slå til/fra-knappen **Standardproduktplacering** til.
+5. Vælg *Forventet disponibel saldo ved dags dato* i feltet **Lagerberegning** for at aktivere lagersynkronisering for den valgte Shopify-lokation.
 
 ## Gennemgang: Start salg af produkter online
 
@@ -167,7 +167,7 @@ Vælg vare **1896-S, Athens Desk**, og kør følgende trin.
 
 1. Vælg handlingen **Varianter**, og tilføj derefter to varianter `PREMIUM, Athens Desk, Premium edition` og `ESSENTIAL, Athens Desk, Essential edition`.
 2. Vælg **Udvidet tekst**, opret en ny udvidet tekst, der gælder for alle sprogkoder. Angiv `Shopify` i feltet **Beskrivelse**. 
-3. Tilføj følgende tekst med HTML-koder: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
+3. Tilføj følgende tekst med HTML-koder: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`. Luk siden **Udvidet tekst**, og vend tilbage til varekortet.
 4. Vælg **salgspriser**, og tilføj nye priser som vist i følgende tabel:
 
   |Linje|**Salgstype**|**Salgskode**|Enhedstype|Kode|Variantkode<br>(tilføj feltet via brugertilpasning)|Enhedspris|
@@ -214,7 +214,7 @@ Kør varesynkronisering.
 2. Marker den *DEMO1*-butik, som du vil synkronisere varer til for at åbne siden **Shopify-købskort**.
 3. Vælg handlingen **Produkter** for at åbne vinduet **Shopify-produkter**.
 4. Vælg handlingen **Tilføj varer**.
-5. Angiv filteret *TABEL* i feltet **Varekategorikode** .
+5. Angiv filteret *TABEL|DESK* i feltet **Varekategorikode** .
 6. Vælg handlingen **Synkroniser produktbilleder**.
 7. Vælg handlingen **Synkroniser lager**.
 
@@ -262,17 +262,13 @@ Gør ét af følgende i [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 Konfigurer Shopify-butikken som beskrevet herunder i de følgende trin:
 
-7. Aktivér **Logfil aktiveret** til/fra.
-8. Deaktivér **Tillad baggrundssynkronisering** til/fra.
-9. Vælg **Fra Shopify** i feltet **Sync vare**.
-5. Aktiver **Automatisk oprettelse af ukendte varer** til/fra.
-11. Udfyld feltet **Vareskabelonkode** med den relevante skabelon.
-12. Vælg **Fra Shopify** i feltet **Sync varebilleder**.
-13. Vælg **Alle debitorer** i **Debitorimport fra Shopify**.
-14. Aktiver **Automatisk oprettelse af ukendte kunder** til/fra.
-15. Udfyld feltet **Debitorskabelonkode** med den relevante skabelon.
-16. Udfyld feltet **Konto til forsendelsesgebyr**, **Konto til drikkepenge** med omsætningen. F. eks. kan du i USA bruge `40100`.
-17. Aktiver **Automatisk oprettelse af ordrer** til/fra.
+7. Deaktivér **Tillad baggrundssynkronisering** til/fra.
+8. Vælg *Fra Shopify* i feltet **Sync vare**.
+9. Aktiver **Automatisk oprettelse af ukendte varer** til/fra.
+10. Udfyld feltet **Vareskabelonkode** med den relevante skabelon.
+11. Vælg *Fra Shopify* i feltet **Sync varebilleder**.
+12. Vælg *Alle debitorer* i **Debitorimport fra Shopify**.
+13. Aktiver **Automatisk oprettelse af ukendte kunder** til/fra.
 
 #### Kør varesynkronisering
 

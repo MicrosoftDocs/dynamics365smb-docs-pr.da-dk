@@ -40,12 +40,10 @@ Power BI-integrationen med [!INCLUDE[prod_short](includes/prod_short.md)] indeho
 
 Du kan også oprette visuelle rapporter, der er baseret på [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af **Microsoft Excel-dokument (kun data)** på rapportanmodningssider. Få mere at vide på [kørsels- og udskriftsrapporter](ui-work-report.md).
 
-## Se relateret træning på [Microsoft Learn](/learn/paths/use-power-bi).
-
 ## Se også
 
 [Business Analysis og Financial Reporting](bi.md)  
-[Hurtig start af Business Central](quick-start-business-central.md)  
+[Hurtig startvejledning til Business Central](quick-start-business-central.md)  
 [Arbejde med Power BI-rapporter i Business Central](across-working-with-powerbi.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -39,11 +39,9 @@ Når du har defineret en momsangivelse, kan du få vist et eksempel på den for 
 4. På de linjer, hvor der står **Momspostsammentælling** i feltet **Type**, kan du få vist en oversigt over momsposter ved at vælge beløbet i feltet **Kolonnebeløb**.
 5. Du kan bruge tilpasning til at få vist flere felter på linjerne. F.eks. det urealiserede basisbeløb og det urealiserede momsbeløb, hvis du bruger urealiseret moms.
 
-## Se relateret [Microsoft-træning](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Se også
 
-[Konfigurere moms](finance-setup-vat.md)  
+[Opsætte merværdiafgift (moms)](finance-setup-vat.md)  
 [Opsætning af ikke-realiseret moms](finance-setup-unrealized-vat.md)  
 [Rapportere moms til skattemyndighederne](finance-how-report-vat.md)  
 [Arbejde med moms af salg og køb](finance-work-with-vat.md)  

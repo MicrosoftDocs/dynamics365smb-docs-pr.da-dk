@@ -136,8 +136,6 @@ Hvis du gør en placering dedikeret, giver den samme funktion som brug af placer
 > [!NOTE]  
 >  Placeringen skal være tom, før du kan markere eller fjerne markeringen i feltet **Dedikeret**.
 
-## Se relateret [Microsoft-træning](/training/modules/get-started-warehouse-management/)
-
 ## Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)

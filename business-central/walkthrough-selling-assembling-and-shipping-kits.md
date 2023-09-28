@@ -436,8 +436,6 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 
     Når Enhedsbutikken betaler for deres modtagelse af 18 pc'er fra CRONUS, fjernes salgsordren og dens tilknyttede montageordrer.  
 
-## Se relateret [Microsoft-træning](/training/paths/assemble-items-dynamics-365-business-central/)
-
 ## Se også
 
  [Om montage til ordre og montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md)   

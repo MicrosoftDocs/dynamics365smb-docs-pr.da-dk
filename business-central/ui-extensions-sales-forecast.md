@@ -59,8 +59,6 @@ Du kan også oprette din egen prognosewebtjeneste baseret på en offentlig model
 6. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af salgs- og lagerprognose**, og vælg derefter det relaterede link.  
 7. Udvid oversigtspanelet **Generelt**, og udfyld derefter felterne med API URL-adressen og API-nøglen.  
 
-## Se relateret [Microsoft-træning](/training/modules/use-sales-inventory-forecast-extension/)
-
 ## Se også
 
 [Salg](sales-manage-sales.md)  

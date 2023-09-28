@@ -66,8 +66,6 @@ Du kan kombinere flere anlægsaktiver til ét anlægsaktiv, f.eks. når du skal 
 2. Udfyld felterne efter behov.
 3. Vælg knappen **Udskriv** eller **Vis udskrift**.  
 
-## Se relateret [Microsoft-træning](/training/paths/reclassify-fixed-assets/)
-
 ## Se også
 
 [Anlægsaktiver](fa-manage.md)  

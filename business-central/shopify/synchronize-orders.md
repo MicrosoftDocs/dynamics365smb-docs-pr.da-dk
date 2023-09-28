@@ -105,8 +105,8 @@ Shopify Connector importerer ordrer i to trin:
 
 1.  Den importerer ordrehoveder til **Shopify-ordrer, der skal importeres**, når de svarer til bestemte betingelser:
     
-* De arkiveres ikke.
-* De er oprettet eller ændret efter den seneste synkronisering.
+* De arkiveres ikke. Det betyder, at du kan inkludere eller ekskludere ordrer fra synkronisering ved at arkivere eller fjerne arkiveringen af dem i Shopify-administratoren.
+* De blev oprettet eller ændret efter sidste synkronisering. Det betyder, at du kan gennemtvinge genimport af en bestemt ordre, hvis du ændrer den, f.eks. ved at tilføje **Noter** eller **Tag**.
 
 2.  Den indlæser Shopify-ordrer og supplerende oplysninger.
 * Shopify Connector behandler alle poster i tabellen **Shopify-ordrer, der skal importeres**, som opfylder de filterkriterier, du har defineret i **Synkroniser ordrer fra Shopify**-anmodningssiden. F.eks. tags, kanal eller opfyldelsesstatus. Hvis du ikke har angivet nogen filtre, behandler den alle poster.
@@ -190,7 +190,8 @@ Eksempel: du har onlinebutikker samt en Shopify POS. Til din POS, skal du bruge 
 
 Hver opgavekø importerer og behandler ordrer inden for de angivne filtre og bruger reglerne fra det tilsvarende Shopify-butikskort. Der oprettes f.eks. POS-ordrer for standarddebitoren.
 
->![Vigtigt] Hvis du vil undgå konflikter, når der behandles ordrer, skal du huske at bruge den samme jobkø kategori for opgavekøer.
+>[!Important]
+> Hvis du vil undgå konflikter, når der behandles ordrer, skal du huske at bruge den samme jobkø kategori for opgavekøer.
 
 ### Indflydelse på redigeringen af ordrer
 
@@ -206,9 +207,11 @@ I Shopify:
 |Procesrækkefølge: indfri, opdater betalingsoplysninger | Ordrehovedet opdateres, men ikke linjerne. |Ændringen har ingen indflydelse på, hvordan ordren importeres.|
 |Annuller ordre | Ordrehovedet opdateres, men ikke linjerne. |Annullerede ordrer importeres ikke |
 
+Som du kan se, kan det i nogle tilfælde være rimeligt at slette redigeret ordre i [!INCLUDE[prod_short](../includes/prod_short.md)] og importere den som ny.
+
 I [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
-|Rediger|Effekt|
+|Rediger|Indvirkning|
 |------|-----------|
 |Ændre lokationen til en anden lokation, der er knyttet til Shopify-lokationerne. Bogfør levering. | Ordren markeres som fuldført. Den oprindelige placering anvendes. |
 |Ændre lokationen til en anden lokation, der ikke er knyttet til Shopify-lokationerne. Bogfør levering. | Denne opfyldelse synkroniseres ikke med Shopify. |
@@ -233,7 +236,7 @@ Du kan planlægge, at følgende tilbagevendende aktiviteter skal udføres automa
 >[!Important]
 >Lokationen, herunder tom lokation, der er defineret på den bogførte leverancelinje, skal have en tilsvarende post på Shopify-lokationen. Ellers sendes denne linje ikke tilbage til Shopify. Flere oplysninger [Lokationstilknytning](synchronize-orders.md#location-mapping).
 
-Husk at køre **Synkroniser ordre fra Shopify** for at opdatere opfyldelsesstatus for ordre i [!INCLUDE[prod_short](../includes/prod_short.md)]. Connector-funktionen arkiverer også fuldt indbetalte og befriede ordrer både i Shopify og [!INCLUDE[prod_short](../includes/prod_short.md)], hvis betingelserne er opfyldt.
+Husk at køre **Synkroniser ordre fra Shopify** for at opdatere opfyldelsesstatus for ordre i [!INCLUDE[prod_short](../includes/prod_short.md)]. Connector-funktionen arkiverer også fuldt indbetalte og befriede ordrer både i Shopify og [!INCLUDE[prod_short](../includes/prod_short.md)], hvis betingelserne er opfyldt. 
 
 ### Speditører og sporing af URL-adresse
 

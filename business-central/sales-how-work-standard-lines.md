@@ -70,13 +70,11 @@ Du kan bruge kørslen **Opret tilbagevendende salgsfakturaer** til at oprette sa
 
 Salgsfakturaer oprettes for kunder med den angivne standarddebitorsalgskode og eventuelle angivne oplysninger om direkte debitering for bogføring på den angivne dato.
 
-## Se relateret [Microsoft-træning](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Se også
 
 [Salg](sales-manage-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  
-[Opret tilbagevendende købslinjer](purchasing-how-work-recurring-purchase-lines.md)  
+[Oprette tilbagevendende købslinjer](purchasing-how-work-recurring-purchase-lines.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

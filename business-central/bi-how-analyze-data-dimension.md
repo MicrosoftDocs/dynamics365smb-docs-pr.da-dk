@@ -50,7 +50,7 @@ Brug de analysevisninger, du allerede har oprettet med matrixen **Dimensionsanal
 > Du kan ikke vælge en periodelængde som er kortere en den periode, som er angivet på kortet **Analysevisning**. Kommandoerne **Næste sæt** og **Forrige sæt** er inaktive, hvis du har valgt **Periode** i feltet **Vis som linjer** eller **Vis som kolonner**.  
 
 > [!NOTE]  
-> Du kan bruge rapporten **Dimensioner - detaljer** til at se en detaljeret klassifikation af, hvordan dimensioner er blevet brugt på poster over en udvalgt periode. Du kan bruge rapporten **Dimensioner - i alt** til kun at få vist de totale beløb.  
+> Du kan bruge rapporten **Dimensioner - detaljer** til at få vist en detaljeret klassifikation af, hvordan dimensioner er brugt på poster i en valgt periode. Du kan bruge rapporten **Dimensioner - i alt** til kun at få vist de totale beløb.  
 
 > [!TIP]  
 > Du kan også ændre visningen ved at ændre indholdet i felterne **Vis som linjer** og **Vis som kolonner**. For at tilbageføre en indstilling for visningen skal du vælge handlingen **Byt om på linjer og kolonner**.
@@ -73,11 +73,9 @@ Du kan opdatere en analysevisning vha. følgende fremgangsmåde, som startes på
 > [!NOTE]  
 > Du kan opdatere nogle eller alle analyser samtidig ved at bruge kørslen **Opdater analysevisninger**.  
 
-## Se relateret træning på [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
-
 ## Se også
 
-[Financial Business Intelligence](bi.md)  
+[Økonomisk Business Intelligence](bi.md)  
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Finans- og kontoplanen](finance-general-ledger.md)  

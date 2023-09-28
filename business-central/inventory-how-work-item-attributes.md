@@ -27,7 +27,7 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 3. På siden **Vareattribut** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
-> Hvis du vælger **Indstilling** i feltet **Type**, kan du vælge handlingen **Vareattributværdier** for at oprette værdier for vareattributten. Du kan finde flere oplysninger i [Sådan oprettes værdier for vareattributter af typen Indstilling](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
+> Hvis du vælger **Indstilling** i feltet **Type**, kan du vælge handlingen **Vareattributværdier** for at oprette værdier for vareattributten. Du kan finde flere oplysninger i [Sådan oprettes værdier for vareattributter af typen Indstilling](inventory-how-work-item-attributes.md#create-values-for-item-attributes-of-type-option).  
 
 ## Oprette værdier for vareattributter af typen Indstilling
 
@@ -40,9 +40,9 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. På siden **Varer** skal du vælge den vareattribut, du vil tildele vareattributter til, og derefter vælge handlingen **Attributter**.
 3. På siden **Vareattributværdier** skal du vælge handlingen **Ny**.
-4. Vælg opslagsknappen i feltet **Attribut**, og vælg en eksisterende vareattribut. Du kan også vælge handlingen **Ny** for først at oprette en ny vareattribut som beskrevet i [Sådan oprettes vareattributter](inventory-how-work-item-attributes.md#to-create-item-attributes).
+4. Vælg opslagsknappen i feltet **Attribut**, og vælg en eksisterende vareattribut. Du kan også vælge handlingen **Ny** for først at oprette en ny vareattribut som beskrevet i [Sådan oprettes vareattributter](inventory-how-work-item-attributes.md#create-item-attributes).
 5. I feltet **Værdi** skal du angive vareattributværdien som "2010" for attributten **Modelår**.
-6. For vareattributter af typen **Indstilling** skal du vælge opslagsknappen i feltet **Værdi** og vælge en vareattributværdi. Du kan også vælge handlingen **Ny** for først at oprette en ny vareattributværdi som beskrevet i [Sådan oprettes værdier for vareattributter af typen Indstilling](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-items).
+6. For vareattributter af typen **Indstilling** skal du vælge opslagsknappen i feltet **Værdi** og vælge en vareattributværdi. Du kan også vælge handlingen **Ny** for først at oprette en ny vareattributværdi som beskrevet i [Sådan oprettes værdier for vareattributter af typen Indstilling](inventory-how-work-item-attributes.md#assign-item-attributes-to-items).
 7. Gentag trin 4-6 for alle vareattributter, du vil tildele til varen.
 
 ## Tildele vareattributter til varekategorier
@@ -50,7 +50,7 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varekategorier**, og vælg derefter det relaterede link.
 2. På siden **Varekategorier** skal du vælge den varekategori, som du vil tildele vareattributter til, og derefter vælge handlingen **Rediger**.
 3. På siden **Varekategorikort** i oversigtspanelet **Attributter** skal du vælge handlingen **Ny**.
-4. Vælg opslagsknappen i feltet **Attribut**, og vælg en eksisterende vareattribut. Du kan også vælge handlingen **Ny** for først at oprette en ny vareattribut som beskrevet i [Sådan oprettes vareattributter](inventory-how-work-item-attributes.md#to-create-item-attributes).
+4. Vælg opslagsknappen i feltet **Attribut**, og vælg en eksisterende vareattribut. Du kan også vælge handlingen **Ny** for først at oprette en ny vareattribut som beskrevet i [Sådan oprettes vareattributter](inventory-how-work-item-attributes.md#create-item-attributes).
 5. I feltet **Standardværdi** skal du klikke på opslagsknappen og vælge en vareattributværdi.
 6. Gentag trin 4 og 5 for alle vareattributter, som du vil tildele til varekategorien.
 
@@ -74,8 +74,6 @@ Du kan også tildele vareattributter til varekategorier, som derefter gælder fo
 8. Vælg knappen **OK**.
 
 Varerne på siden **Varer** filtreres efter de angivne vareattributværdier.
-
-## Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## Se også
 

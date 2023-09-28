@@ -88,8 +88,6 @@ I følgende afsnit beskrives det, hvordan du konfigurerer timesedler, hvis du ik
 > [!NOTE]  
 > Du kan ikke ændre id'et på godkenderen af timesedler, hvis der er timesedler, der endnu ikke er behandlet, og som har statussen **Sendt** eller **Åben**.
 
-## Se relateret [Microsoft-træning](/training/paths/set-up-jobs-resources/)
-
 ## Se også
 
 [Bruge timesedler for projekter](projects-how-use-time-sheets.md)  

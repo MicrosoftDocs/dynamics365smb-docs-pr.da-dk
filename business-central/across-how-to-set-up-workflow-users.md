@@ -34,8 +34,6 @@ På siden **Brugergrupper for workflow** kan du angive, hvor en deltager skal de
 
 6. Gentag trin 5 for at føje flere workflowbrugere til workflowbrugergruppen.  
 
-## Se relateret [Microsoft-træning](/training/modules/create-workflows/)
-
 ## Se også
 
 [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  

@@ -3,7 +3,7 @@ title: Sådan lægges varer på lager med Læg-på-lager (lager)
 description: Lære mere om de forskellige måder at bruge læg-på-lager-aktiviteter til at lægge modtagne varer på lager på.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/24/2023
@@ -111,8 +111,6 @@ Hvis din lokation bruger både læg-på-lager-behandling og modtagelsesbehandlin
     > Hvis det er nødvendigt at placere varerne for en enkelt linje på mere end én placering, f.eks. fordi den angivne placering er fuld, skal du bruge funktionen **Opdel linje** i oversigtspanelet **Linjer**. Handlingen opretter en linje for det resterende antal til ekspedition.
 
 5. Vælg handlingen **Registrer læg-på-lager**, når du har placeret alle varer på de korrekte placeringer.  
-
-## Se relateret [Microsoft-træning](/training/modules/receive-put-away-items/)
 
 ## Se også
 

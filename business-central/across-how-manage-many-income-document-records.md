@@ -47,8 +47,6 @@ Alle indgående bilagsposter vises, herunder poster, hvor feltet **Behandlet** i
 > [!NOTE]  
 > Du kan også udføre handlingen for den individuelle post på siden **Indgående bilagskort**.
 
-## Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Se også
   
 [Oprette indgående bilagsposter](across-how-create-income-document-records.md)

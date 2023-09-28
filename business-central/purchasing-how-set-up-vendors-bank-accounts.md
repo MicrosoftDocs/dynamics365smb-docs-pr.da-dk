@@ -26,8 +26,6 @@ Hvis en kreditor har en eller flere bankkonti, og du vil angive en foretrukken i
 2. Åbn kortet for kreditoren.
 3. Vælg standard kreditorbankkontoen i feltet **Foretrukken bankkontokode** i oversigtspanelet **Betaling**.
 
-## Se relateret [Microsoft-træning](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Se også
 
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  

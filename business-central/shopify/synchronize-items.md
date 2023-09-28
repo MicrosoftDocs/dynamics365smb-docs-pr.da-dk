@@ -35,7 +35,7 @@ Et tredje scenario er at administrere data i Shopify, men indlæse disse element
 |**Fra Shopify**| Vælg denne indstilling, hvis du planlægger at masseimportere produkter fra Shopify enten manuelt ved hjælp af handlingen **Synkroniseringsprodukt** eller via jobkø for tilbagevendende opdateringer. Få flere oplysninger i afsnittet [Importere varer fra Shopify](synchronize-items.md#import-items-from-shopify)|
 
 > [!NOTE]
-> Hvis du ændrer **Synkroniseringselement** fra **Fra Shopify** til **Til Shopify**, vil det ikke have en effekt, medmindre du aktiverer **Kan opdatere Shopify-produkter**.
+> Hvis du ændrer **Synkroniseringselement** fra **Fra Shopify** til **Til Shopify**, vil det ikke have en effekt, medmindre du aktiverer **Kan opdatere Shopify-produkter**. 
 
 ## Indlæs varer fra Shopify
 
@@ -93,7 +93,7 @@ Du kan bruge følgende indstillinger til at administrere processen med at ekspor
 |**SKU-feltseparator**|Definer en separator for indstillingen **varenr. + variantkode**.|
 |**Lager sporet**| Vælg, hvordan systemet skal udfylde feltet **Spor lager** for de produkter, der eksporteres til Shopify. Du kan opdatere tilgængelighedsoplysninger fra [!INCLUDE[prod_short](../includes/prod_short.md)] for produkter i Shopify, hvor spor lager er aktiveret. Der er flere oplysninger i [Lager](synchronize-items.md#sync-inventory-to-shopify)-afsnittet.|
 |**Standardlagerpolitik**|Vælg *Afvis* for at forhindre negativ beholdning af Shopify-siden.|
-|**Kan opdatere Shopify Produkter**|Definer, om [!INCLUDE[prod_short](../includes/prod_short.md)] kun kan oprette varer, eller om der også kan opdateres varer. Vælg denne indstilling, hvis du vil opdatere produkterne manuelt ved hjælp af handlingen **Synkroniser produkt** eller vis jobkø for tilbagevendende opdateringer, når den første synkronisering blev udløst med handlingen **Tilføj vare**. Husk at vælge **Til Shopify** i feltet **Varesynkronisering**.<br>**Kan opdatere Shopify-produkter** påvirker ikke synkronisering af priser, billeder eller lagerniveauer, som er konfigureret af uafhængige kontroller.<br>Hvis **Kan opdatere Shopify-produkter** er aktiveret, opdateres følgende felter for produktet på Shopify-siden og eventuelt variantniveauet: **SKU**, **Stregkode**, **Vægt**. **Titel**, **Produkttype**, **Leverandør**, **Beskrivelse** for produktet opdateres også, hvis de eksporterede værdier ikke er tomme. Hvis det er en beskrivelse, betyder det, at du skal aktivere et af til/fra-felterne **Udvidet tekst til synkroniseret vare**, **Marketingtekst til synkroniseret vare**, **Synkroniser vareattributter**, og attributterne, udvidet tekst eller marketingtekst skal have værdier. Hvis produktet bruger varianter, tilføjes eller fjernes varianten, hvis det er nødvendigt.|
+|**Kan opdatere Shopify Produkter**|Definer, om [!INCLUDE[prod_short](../includes/prod_short.md)] kun kan oprette varer, eller om der også kan opdateres varer. Vælg denne indstilling, hvis du vil opdatere produkterne manuelt ved hjælp af handlingen **Synkroniser produkt** eller vis jobkø for tilbagevendende opdateringer, når den første synkronisering blev udløst med handlingen **Tilføj vare**. Husk at vælge **Til Shopify** i feltet **Varesynkronisering**.<br>**Kan opdatere Shopify-produkter** påvirker ikke synkronisering af priser, billeder eller lagerniveauer, som er konfigureret af uafhængige kontroller.<br>Hvis **Kan opdatere Shopify-produkter** er aktiveret, opdateres følgende felter for produktet på Shopify-siden og eventuelt variantniveauet: **SKU**, **Stregkode**, **Vægt**. **Titel**, **Produkttype**, **Leverandør**, **Beskrivelse** for produktet opdateres også, hvis de eksporterede værdier ikke er tomme. Hvis det er en beskrivelse, betyder det, at du skal aktivere et af til/fra-felterne **Udvidet tekst til synkroniseret vare**, **Marketingtekst til synkroniseret vare**, **Synkroniser vareattributter**, og attributterne, udvidet tekst eller marketingtekst skal have værdier. Hvis produktet bruger varianter, tilføjes eller fjernes varianten, hvis det er nødvendigt. <br>Bemærk, hvis produktet på Shopify er konfigureret til at bruge variantmatrix, der kombinerer to eller flere indstillinger, kan Shopify Connector ikke oprette variant for det pågældende produkt. I [!INCLUDE[prod_short](../includes/prod_short.md)] er ingen måde at definere indstillingsmatrix på, derfor bruger connectoren **variantkoden** som den eneste mulighed. Shopify forventer dog flere muligheder og nægter at oprette variant, hvis der mangler oplysninger om en anden og andre muligheder. |
 
 ### Oversigt over felttilknytning
 
@@ -101,6 +101,7 @@ Du kan bruge følgende indstillinger til at administrere processen med at ekspor
 |------|-----------------|-----------------|
 |Status|Ifølge **Status for oprettede produkter** på **Shopify Produktionskortet**. Få flere oplysninger i sektionen [Ad hoc-opdateringer af Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Bruges ikke.|
 |Titel | **Beskrivelse**. Hvis sprogkoden er defineret, og der findes en tilsvarende vareoversættelse, bruges vareoversættelsen i stedet for beskrivelse.|**Beskrivelse**|
+|Varianttitel | **Variantkode**.|**Beskrivelse** af variant|
 |Beskrivelse|Kombinerer udvidede tekster, marketingtekst og attributter, hvis tilsvarende skift er aktiveret på Shopify-produktionskortet. Respekterer sprogkoden.|Bruges ikke.|
 |SEO-sidetitel|Fast værdi: tom. Få flere oplysninger i sektionen [Ad hoc-opdateringer af Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Bruges ikke.|
 |SEO-metabeskrivelse|Fast værdi: tom. Få flere oplysninger i sektionen [Ad hoc-opdateringer af Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Bruges ikke.|
@@ -147,6 +148,10 @@ De resulterende varer oprettes automatisk i Shopify med priser. Afhængigt af de
 Du kan også bruge handlingen **Synkroniser produkter** i vinduet **Shopify Produkter** eller søg efter **Synkroniseringsprodukter**.
 
 Du kan planlægge, at følgende tilbagevendende aktiviteter skal udføres automatisk. Få mere at vide, når du [planlægger tilbagevendende opgaver](background.md#to-schedule-recurring-tasks).
+
+### URL-adresse og URL-adresse til forhåndsvisning
+
+Element, der føjes til Shopify eller importeres fra Shopify, kan have **URL-adressen** eller udfyldt **Vis URL-adresse** . Feltet **URL-adresse** er tomt, hvis produktet ikke udgives i onlinebutikken, f.eks. fordi dets status er kladde. **URL-adresse** vil være tom, hvis butikken er beskyttet med adgangskode, for eksempel fordi dette er udviklingsbutik. I de fleste tilfælde kan du bruge **URL-adressen** til forhåndsversion til at kontrollere, hvordan produktet vil se ud, når det er offentliggjort.
 
 ### Ad-Hoc-opdateringer for Shopify-produkter
 
@@ -204,7 +209,7 @@ Du kan bruge følgende indstillinger til at administrere processen med at ekspor
 |**Tillad linjerabat**|Angiver, om linjerabat er tilladt ved beregning af priser for Shopify. Denne indstilling gælder kun for priser på varen. Priserne for debitorprisgruppen kan f. eks. skifte til linjer.|
 |**Priser inkl. moms**|Angiver, om prisberegbninger for Shopify skal inkludere moms. Få flere oplysninger [Konfigurere moms](setup-taxes.md).|
 |**Momsvirksomhedsbogf.gruppe**|Angiver, hvilken momsvirksomhedsbogføringsgruppe bruges til at beregne priser i Shopify. Dette skal være den gruppe, du bruger til indenlandske debitorer. Få flere oplysninger [Konfigurere moms](setup-taxes.md).|
-|**Valutakode**|Husk at angive en Valutakode, hvis din online-butik bruger en anden valuta end den relevante regnskabsvaluta. Der skal være konfigureret valutakurser for den angivne valuta. Hvis dit onlineindkøb bruger samme valuta som [!INCLUDEprod_short], skal du lade feltet stå tomt.|
+|**Valutakode**|Husk at angive en Valutakode, hvis din online-butik bruger en anden valuta end den relevante regnskabsvaluta. Der skal være konfigureret valutakurser for den angivne valuta. Hvis dit onlineindkøb bruger samme valuta som [!INCLUDE[prod_short](../includes/prod_short.md)], skal du lade feltet stå tomt.|
 
 Priser for synkroniserede varer kan eksporteres på to måder, der er beskrevet nedenfor.
 

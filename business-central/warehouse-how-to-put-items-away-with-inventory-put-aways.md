@@ -83,8 +83,6 @@ En lagermedarbejder kan oprette en ny læg-på-lager-aktivitet baseret på det f
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## Se relateret [Microsoft-træning](/training/modules/receive-put-away-items/)
-
 ## Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)

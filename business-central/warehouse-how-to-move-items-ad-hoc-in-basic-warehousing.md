@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.form: '393, 7382'
 ---
-# <a name="move-items-internally-in-basic-warehouse-configurations"></a>Flytte varer internt i grundlæggende konfigurationer af lagersteder
+# Flytte varer internt i grundlæggende konfigurationer af lagersteder
 
 Du kan flytte varer mellem placeringer uden et behov fra et kildedokument. F. eks. som en del af følgende aktiviteter:
 
@@ -25,11 +25,11 @@ I lageropsætninger, hvor indstillingen til til/fra **placering obligatorisk**-o
 * På siden **Intern flytning**.
 * Med siden **Vareomposteringskladde**.  
 
-## <a name="internal-movements"></a>Interne flytninger
+## Interne flytninger
 
 Du kan bruge siden **interne overførsler** til at angive Hent-og Placer-linjer, når der ikke er behov fra et kildedokument. Den interne overførsel fungerer som et regneark til organisering af ting. Du kan ikke behandle den aktuelle bevægelse direkte fra den. Når en linje er udfyldt, skal du bruge handlingen **Opret lagerbevægelse** til at sende linjen til siden **flytning (lager)**, hvor du behandler og registrerer bevægelsen.
 
-### <a name="to-move-items-as-an-internal-movement"></a>Sådan flyttes varer som en intern overførsel
+### Sådan flyttes varer som en intern overførsel
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Intern flytning**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. Sørg for, at feltet **Nr.** er udfyldt i oversigtspanelet **Generelt**.
@@ -59,7 +59,7 @@ Du kan bruge siden **interne overførsler** til at angive Hent-og Placer-linjer,
 
 Du udfører resten af ad hoc-bevægelsen på siden **Flytning (lager)** på samme måde som i en bevægelse, der er baseret på kildedokumenter.
 
-### <a name="to-record-the-inventory-movement"></a>Sådan registreres læg-på-lager-aktiviteten
+### Sådan registreres læg-på-lager-aktiviteten
 
 1. Åbn det dokument, der skal registreres bevægelser for, på siden **Flytning (lager)**.  
 2. I feltet **Placeringskode** på pluklinjerne, foreslås den placering, som varerne skal plukkes fra, pr. varens standardplacering. Om nødvendigt kan du ændre placeringen.
@@ -72,7 +72,7 @@ Der sker følgende under bogføringsprocessen:
 
 * Lagerposter angiver, at antallet overføres fra flytte placeringer til placeringerne.
 
-## <a name="to-move-items-with-the-item-reclassification-journal"></a>Sådan flyttes varer i vareomposteringskladden
+## Sådan flyttes varer i vareomposteringskladden
 
 I stedet for at bruge lagerbevægelsesdokument kan du registrere flytningen af varer ved at ompostere deres placeringskoder. Flere oplysninger i [Tælle, justere og ompostere lagerbeholdning ved hjælp af kladder](inventory-how-count-adjust-reclassify.md)
 
@@ -89,9 +89,7 @@ I stedet for at bruge lagerbevægelsesdokument kan du registrere flytningen af v
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-related-microsoft-training"></a>Se relateret [Microsoft-træning](/training/modules/manage-internal-warehouse-processes/)
-
-## <a name="see-also"></a>Se også
+## Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

@@ -92,8 +92,6 @@ Hvis placeringer er obligatoriske for en lokation, føjes zone-og placeringskode
 * I forbindelse med avancerede konfigurationer, der bruger styret læg-på-lager og pluk, bruger [!INCLUDE [prod_short](includes/prod_short.md)] modtagelsesplaceringskoden fra siden **lokationskort** for lokationen. Hvis der ikke er angivet en modtagelsesplaceringskode, er der ikke angivet nogen placering. Hvis varen og kvitterings placeringerne ikke stemmer overens, er modtagelsesplaceringskoden tom.
 * I andre konfigurationer bruges placeringskoden fra kildedokumentet, hvis der ikke er angivet [!INCLUDE [prod_short](includes/prod_short.md)], bruges en modtagelsesplaceringskode.
 
-## Se relateret [Microsoft-træning](/training/modules/receive-invoice-dynamics-d365-business-central/index).
-
 ## Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)

@@ -70,8 +70,6 @@ Med funktionen aktiveret kan returtransaktionen kun bogføres med angivelse af v
 | Angiv standardrapporter, der skal bruges til forskellige dokumenttyper. |[Rapportvalg i Business Central](across-report-selections.md)|
 |Angive, om brugere må bogføre købsfakturaer, og om de skal bogføre dem sammen med en forsendelse. |[Definere politik til bogføring af faktura for brugere](admin-setup-invoice-posting-policy.md)|
 
-## Se relateret træning på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
-
 ## Se også
 
 [Køb](purchasing-manage-purchasing.md)  

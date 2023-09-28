@@ -137,12 +137,10 @@ I dette emne vises et eksempel på, hvordan du definerer allokeringer ved hjælp
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] bruger salgstal fra de foregående år til at beregne andelen af 1596,50 RV med 100 procent for IT-UDSTYR-pakkerne. Det betyder, at alle varer, der er solgt sidste år, tildeles omkostningsobjektet IT-UDSTYR.
 
-## Se relateret [Microsoft-træning](/training/modules/allocate-costs-dynamics-365-business-central/)
-
 ## Se også
 
  [Konfigurere omkostningsregnskab](finance-set-up-cost-accounting.md)  
- [Overførsel og bogføring af omkostningsposter](finance-transfer-and-post-cost-entries.md)  
+ [Overføre og bogføre omkostningsposter](finance-transfer-and-post-cost-entries.md)  
  [Regnskab for omkostninger](finance-manage-cost-accounting.md)  
  [Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)  
  [Om omkostningsregnskab](finance-about-cost-accounting.md)

@@ -61,8 +61,6 @@ Hvis du vil forbinde Business Central lokalt, skal du oprette en app på Tradesh
 
 Hvis du foretrækker at gemme app-id'et og hemmeligheden et andet sted, kan du lade felterne Klient-id og Klienthemmelighed være tomme og skrive en udvidelse for at hente id'et og hemmeligheden fra placeringen. Du kan levere hemmeligheden på kørselstidspunktet ved at abonnere på hændelserne OnGetClientId og OnGetClientSecret i codeunit 1410 "Doc. Exch. Service Mgt."
 
-## Se relateret [Microsoft-træning](/training/modules/electronic-documents-dynamics-365-business-central/)
-
 ## Se også
 
 [Konfigurere dataudveksling](across-set-up-data-exchange.md)  

@@ -49,8 +49,6 @@ Du kan angive dette ved at knytte ansvarscentre til brugere i tre funktionsmodul
 > [!NOTE]  
 > Brugerne kan kun få vist de bogførte dokumenter, der er relateret til deres eget ansvarscenter. De kan dog få vist alle poster og navigere til andre bogførte dokumenter fra posterne.
 
-## Se relateret [Microsoft-træning](/training/modules/set-up-responsibility-centers/)
-
 ## Se også
 
 [Opsætning af lagerbeholdning](inventory-setup-inventory.md)  

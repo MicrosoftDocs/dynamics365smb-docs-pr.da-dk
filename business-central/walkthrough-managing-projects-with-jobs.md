@@ -454,8 +454,6 @@ Følgende procedurer viser, hvordan du opretter et nyt job, angiver priser og de
 
  Denne gennemgang har taget dig gennem nogle af de grundlæggende trin til at arbejde med sager i [!INCLUDE[prod_short](includes/prod_short.md)]. Du har lært, hvordan du opretter en ny sag, kopierer en sag og hvordan du håndterer betalinger. Du har også fået vist en demonstration af, hvordan du kan registrere timer og oprette fakturaer.  
 
-## Se relateret [Microsoft-træning](/training/paths/create-jobs/)
-
 ## Se også
 
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  

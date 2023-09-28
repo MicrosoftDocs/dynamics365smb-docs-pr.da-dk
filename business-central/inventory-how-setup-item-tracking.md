@@ -109,12 +109,10 @@ I forbindelse med masseimport skal du bruge konfigurationspakker til at importer
 > [!NOTE]
 > Du kan ikke bruge **Rediger i Excel** til at oprette kladdelinjer med sporingsoplysninger.
 
-## Se relateret [Microsoft-træning](/training/modules/prepare-item-tracking/)
-
 ## Se også
 
 [Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)  
-[Spore vare via varesporing](inventory-how-to-trace-item-tracked-items.md)  
+[Spore varer - sporede varer](inventory-how-to-trace-item-tracked-items.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Designoplysninger: Varesporing](design-details-item-tracking.md)  
 [Designoplysninger - Varesporing og reservationer](design-details-item-tracking-and-reservations.md)  

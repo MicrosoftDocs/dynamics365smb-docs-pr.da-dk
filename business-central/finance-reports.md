@@ -30,8 +30,6 @@ I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med a
 * [Oprette rapporter med XBRL](bi-create-reports-with-xbrl.md)  
 * [Administrere formål med adgang til database](admin-data-access-intent.md)  
 
-## Se relateret [Microsoft-træning](/training/paths/create-financial-reports-dynamics-365-business-central/)
-
 ## Se også
 
 [Oprette omkostningsbudgetter](finance-create-cost-budgets.md)  

@@ -70,12 +70,10 @@ Du kan til enhver tid oplysninger om kreditorkort. Hvis du har bogført en poste
 5. Når du har fuldført skabelonen for den nye kreditor, skal du vælge knappen **OK**.  
    Kreditorskabelonen føjes til listen over kreditorskabeloner, så du kan bruge den til at oprette nye kreditorkort.
 
-## Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/).
-
 ## Se også
 
 [Flette dublerede poster](sales-how-merge-duplicate-records.md)  
-[Oprette nummerserie](ui-create-number-series.md)  
+[Oprette nummerserier](ui-create-number-series.md)  
 [Konfigurere kreditorbankkonto](purchasing-how-set-up-vendors-bank-accounts.md)  
 [Oprette indkøbere](purchasing-how-setup-purchasers.md)  
 [Køb](purchasing-manage-purchasing.md)  

@@ -2,14 +2,12 @@
 title: Konfigurere mail i Business Central (indeholder video)
 description: 'Beskriver, hvordan e-mail-konti sluttes til Business Central, så du kan sende udgående meddelelser uden at skulle åbne en anden app.'
 author: brentholtorf
+ms.author: bholtorf
 ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'SMTP, email, Office 365, connector'
 ms.search.form: '1805, 9813, 9814, 1262, 1263'
-ms.date: 07/17/2023
-ms.author: bholtorf
+ms.date: 09/13/2023
+ms.custom: bap-template
 ---
 
 # Konfigurer mail
@@ -56,9 +54,11 @@ I følgende tabel beskrives de e-mail-udvidelser, der som standard er tilgængel
 Hvis du vil bruge SMTP-protokollen til at sende e-mails fra [!INCLUDE[prod_short](includes/prod_short.md)], kan du bruge SMTP-forbindelses udvidelsen. Når du opretter en konto, der bruger SMTP, er **Afsendertype** et vigtigt felt. Hvis du vælger en **bestemt bruger**, sendes der e-mails med navnet og andre oplysninger fra den konto, du opretter. Men hvis du vælger **Aktuel bruger**, sendes e-mails fra den e-mail-konto, der er angivet for hver enkeltbrugerkonto. Den aktuelle bruger svarer til funktionen Send som. Du kan finde flere oplysninger i [Brug en erstatningsafsenderadresse på udgående mailmeddelelser](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø, kan du bruge OAuth 2.0-protokol til godkendelse. Du skal oprette en programregistrering i Azure-portalen og derefter køre vejledningen **Opsætning af Azure Active Directory**-assisteret installation i [!INCLUDE[prod_short](includes/prod_short.md)] for at oprette forbindelse til Azure AD. Du kan finde flere oplysninger i [Oprette en appregistrering til Business Central i Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø, kan du bruge OAuth 2.0-protokol til godkendelse. Hvis du vil bruge OAuth til SMTP, skal alle brugere være på den samme Microsoft Entra-lejer. 
+> 
+> Du skal oprette en programregistrering i Azure-portalen og derefter køre vejledningen **Opsætning af Azure Active Directory**-assisteret installation i [!INCLUDE[prod_short](includes/prod_short.md)] for at oprette forbindelse til Azure AD. Du kan finde flere oplysninger i [Oprette en appregistrering til Business Central i Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
-> Exchange Online fraråder brug af basisgodkendelse til SMPT. Lejere, der aktuelt benytter SMTP-godkendelse, påvirkes ikke af denne ændring. Det anbefales dog på det kraftigste, at du bruger den nyeste version af [!INCLUDE [prod_short](includes/prod_short.md)] og konfigurerer OAuth 2,0-godkendelse for SMTP. Vi tilføjer ikke certifikatbaseret godkendelse for tidligere versioner af [!INCLUDE [prod_short](includes/prod_short.md)], f. eks. version 14. Hvis du ikke kan konfigurere OAuth 2,0-godkendelse, opfordrer vi dig til at udforske tredjeparts alternativer, hvis du vil bruge SMTP-mail i tidligere versioner.
+> Exchange Online fraråder brug af basisgodkendelse til SMTP. Lejere, der aktuelt benytter SMTP-godkendelse, påvirkes ikke af denne ændring. Det anbefales dog på det kraftigste, at du bruger den nyeste version af [!INCLUDE [prod_short](includes/prod_short.md)] og konfigurerer OAuth 2,0-godkendelse for SMTP. Vi tilføjer ikke certifikatbaseret godkendelse for tidligere versioner af [!INCLUDE [prod_short](includes/prod_short.md)], f. eks. version 14. Hvis du ikke kan konfigurere OAuth 2,0-godkendelse, opfordrer vi dig til at udforske tredjeparts alternativer, hvis du vil bruge SMTP-mail i tidligere versioner.
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
@@ -274,14 +274,12 @@ Når du har registreret programmet i Azure-portalen i [!INCLUDE[prod_short](incl
 
 -->
 
-## Se relateret [Microsoft-træning](/training/modules/set-up-email/)
-
 ## Se også
 
 [Delte postkasser i Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Sende dokumenter som mail](ui-how-send-documents-email.md)  
+[Sende dokumenter via mail](ui-how-send-documents-email.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Brug [!INCLUDE[prod_short](includes/prod_short.md)] som din virksomheds Indbakke i Outlook](admin-outlook.md)  
 [Få [!INCLUDE[prod_short](includes/prod_short.md)] på min mobilenhed](install-mobile-app.md)   

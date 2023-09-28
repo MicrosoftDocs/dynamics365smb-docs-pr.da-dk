@@ -64,11 +64,9 @@ r Den genererede skabelonfil gemmes automatisk i webbrowserens overførselsmappe
 
 Få mere at vide om, hvordan du tilpasser rapporter og dokumenter til dine forretningsbehov i [rapport-og dokumentlayout](ui-manage-report-layouts.md).
 
-## Se relateret træning på [Microsoft Learn](/learn/modules/work-with-reports/).
-
 ## Se også
 
-[Brug rapporter i dagligt arbejde](reports-use-reports.md)  
+[Bruge rapporter i dagligt arbejde](reports-use-reports.md)  
 [Tilgængelige rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
 [Valg af Dokumentrapport](across-report-selections.md)  
 [Hurtig start af Business Central](quick-start-business-central.md)  

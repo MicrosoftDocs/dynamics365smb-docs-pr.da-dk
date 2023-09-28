@@ -181,12 +181,10 @@ Når returleverancer er samlet på en faktura og bogført, oprettes der en bogf�
 2. Udfyld felterne efter behov, og vælg derefter knappen **OK**.  
 3. Du kan også slette de individuelle købsreturvareordrer manuelt.
 
-## Se relateret [Microsoft-træning](/training/paths/return-items-dynamics-365-business-central/)
-
 ## Se også
 [Køb](purchasing-manage-purchasing.md)  
 [Registrere køb](purchasing-how-record-purchases.md)  
-[Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Rette eller annullere ubetalte salgsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Behandle salgsreturvarer eller annulleringer](sales-how-process-sales-returns-cancellations.md)  
 

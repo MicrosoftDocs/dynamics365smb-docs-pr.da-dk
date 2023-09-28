@@ -193,10 +193,6 @@ I de fleste tilfælde kan du åbne finansposter fra det berørte kort eller doku
 
 Du kan redigere bestemte felter i bogførte købsdokumenter, f. eks feltet **Betalingsreference**. Flere oplysninger i [Rediger bogførte dokumenter](across-edit-posted-document.md). Er det mere kritiske felter, der påvirker overvågningssporet, skal du tilbageføre eller annullere bogføring. Flere oplysninger i [Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md).
 
-## Se relateret [Microsoft-træning](/training/modules/receive-invoice-dynamics-d365-business-central/index).
-
-## Se relateret [Microsoft-træning](/training/modules/processing-invoices-dynamics-365-business-central/index)
-
 ## Se også
 
 [Anmode om tilbud](purchasing-how-request-quotes.md)  

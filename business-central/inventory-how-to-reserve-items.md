@@ -101,8 +101,6 @@ Følgende procedure er baseret på en salgsordre.
 7. Klik på **OK** for at åbne siden **Reservation**, hvor der kun vises forsyning med det angivne varesporingsnummer. Hvis der findes ikke-specifikke reservationer på nogle af de varesporingsnumre, du har angivet for linjen, vises der en meddelelse om det antal, der allerede er reserveret.  
 8. Vælg enten handlingen **Reserver automatisk** eller handlingen **Reserver fra aktuel linje** for at oprette reservationen på de specifikke varesporingsnumre.
 
-## Se relateret [Microsoft-træning](/training/modules/manage-outbound-serial-lot-numbers/)
-
 ## Se også
 
 [Lagerbeholdning](inventory-manage-inventory.md)  

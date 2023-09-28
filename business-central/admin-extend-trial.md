@@ -45,8 +45,6 @@ Når den forlængede prøveperiode er udløbet, kan du [abonnere](https://go.mic
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## Se relateret [Microsoft-træning](/training/modules/trial-dynamics-365-business-central/)
-
 ## Se også
 
 [Prøveversioner og abonnementer (kun på engelsk)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  

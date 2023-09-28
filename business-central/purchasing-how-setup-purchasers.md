@@ -29,8 +29,6 @@ Hvis der er mange indkøbere ansat i virksomheden, kan du oprette dem på en sid
 2. Åbn det relevante kreditorkort for den leverandør, du vil tildele en indkøber.
 3. Vælg den relevante indkøberkode i feltet **Indkøberkode**, og luk derefter siden.
 
-## Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Se også
 
 [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)  

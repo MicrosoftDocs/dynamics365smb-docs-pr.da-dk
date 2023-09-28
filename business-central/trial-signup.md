@@ -38,8 +38,6 @@ Du kan også kontakte [[!INCLUDE[prod_short](includes/prod_short.md)]-salgsteame
 
 Du kan finde flere oplysninger om, hvad du kan gøre med [!INCLUDE [prod_short](includes/prod_short.md)], i afsnittet [Blive klar til at gøre forretninger](ui-get-ready-business.md) og [Forretningsfunktioner](across-business-functionality.md).  
 
-## Se relateret [Microsoft-træning](/training/modules/trial-dynamics-365-business-central/)
-
 ## Flere ressourcer
 
 - [Besøge vores videobibliotek](across-videos.md)  

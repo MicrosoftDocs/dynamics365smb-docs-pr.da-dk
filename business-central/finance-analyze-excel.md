@@ -50,8 +50,6 @@ Din [!INCLUDE [prod_short](includes/prod_short.md)]-oplevelse indeholder et tilf
 
 Med tilføjelsesprogrammet kan du få nye data fra [!INCLUDE [prod_short](includes/prod_short.md)], og du kan overføre ændringerne tilbage i [!INCLUDE [prod_short](includes/prod_short.md)]. Men muligheden for at sende data tilbage til databasen er ikke tilgængelig for de regnskabsrapporter, du kan se i Excel.  
 
-## Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
 ## Se også
 
 [Visning og redigering i Excel fra Business Central](across-work-with-excel.md)  

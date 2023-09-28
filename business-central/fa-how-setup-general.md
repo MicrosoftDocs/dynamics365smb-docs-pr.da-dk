@@ -123,8 +123,6 @@ Hvis det er første gang, du bruger modulet Anlæg i [!INCLUDE[prod_short](inclu
 
 Hvis anlægsaktiverne ikke er integreret med finansposterne, skal du springe trin 6 og 8 over.
 
-## Se relateret [Microsoft-træning](/training/paths/set-up-fixed-assets-management/)
-
 ## Se også
 
 [Opsætning af Anlægsaktiver](fa-setup.md)  

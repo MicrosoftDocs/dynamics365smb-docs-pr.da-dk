@@ -302,8 +302,6 @@ Du skal angive oplysninger om, hvordan skattemyndighederne i dit land kræver, a
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## Se relateret [Microsoft-træning](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Se også
 
 [Konfigurere momsangivelsestyper og momsangivelsesnavne](finance-how-setup-vat-statement.md)  

@@ -37,12 +37,10 @@ Du kan også tilføje betalingsbetingelser til betalingsmetoden. Du kan finde fl
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Debitor** eller **Kreditor**, og vælg derefter det relaterede link.
 2. I feltet **Betalingsformkode** skal du vælge metoden, der skal bruges som standard for debitoren eller kreditoren.
 
-## Se relateret [Microsoft-træning](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Se også
 
 [Registrere nye debitorer](sales-how-register-new-customers.md)  
-[Definere betalingsbetingelser](finance-payment-terms.md)  
+[Konfigurere betalingsvilkår](finance-payment-terms.md)  
 [Finans](finance.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

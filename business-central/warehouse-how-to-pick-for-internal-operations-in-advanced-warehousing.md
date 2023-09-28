@@ -167,8 +167,6 @@ Følgende illustration viser, når feltet **Placeringskode** på komponentlisten
 
 :::image type="content" source="media/binflow.png" alt-text="Oversigt over, hvornår/hvordan feltet Placeringskode skal udfyldes.":::
 
-## Se relateret [Microsoft-træning](/training/paths/pick-ship-items-business-central/)
-
 ## Se også
 
 [Lagerbeholdning](inventory-manage-inventory.md)  

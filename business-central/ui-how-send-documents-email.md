@@ -76,13 +76,11 @@ Nogle dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)] har et felt, d
 
 **E-mailudbakke** er det sted, hvor du kan finde de e-mails, du har gemt som kladder, og e-mails, der ikke kunne sendes, f.eks. hvis e-mailadressen er ugyldig. I forbindelse med meddelelser, som ikke kunne sendes, kan du vælge **Vis fejl** eller **Undersøg fejl** for at løse problemet.  
 
-## Se relateret [Microsoft-træning](/training/modules/set-up-email/)
-
 ## Se også
 
 [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  
 [Konfigurere mail](admin-how-setup-email.md)  
-[Fakturere salg](sales-how-invoice-sales.md)  
+[Fakturasalg](sales-how-invoice-sales.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

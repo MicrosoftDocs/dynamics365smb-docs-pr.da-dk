@@ -59,8 +59,6 @@ I følgende diagram illustreres den grundlæggende arbejdsgang for brugere, når
 6. Bruger opretter en rapport i Power BI Desktop.
 7. Bruger udgiver rapporten til Power BI-tjenesten. Rapporterne kan derefter vælges i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Se relateret [Microsoft-træning](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
 ## Se også
 
 [Business Central og Power BI](admin-powerbi.md)  

@@ -45,8 +45,6 @@ Hvis du vil spare tid, når du sender dokumenter til kunde-og leverandør kontak
 1. På siden **Dokumentlayouts** skal du på linjen for et rapportlayout, som du vil sende til en bestemt kontaktperson, vælge handlingen **Vælg e-mail fra kontaktpersoner**.
 2. Vælg en eller flere kontakter på siden **kontaktpersoner**, og vælg derefter **OK**.
 
-## Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/)
-
 ## Se også
 
 [Opdater brugerdefinerede rapportlayouts](ui-update-report-layouts.md)  

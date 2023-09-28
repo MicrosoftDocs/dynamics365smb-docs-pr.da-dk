@@ -4,7 +4,7 @@ description: 'Den komplette liste over tastaturgenvejskombinationer, som gør de
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 08/15/2023
+ms.date: 09/07/2023
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics365-business-central
@@ -85,12 +85,12 @@ I følgende tabel beskrives de tastaturgenveje, som du kan bruge på en listesid
 |<kbd>Alt</kbd>+<kbd>D</kbd>|Åbn dimensionsgruppeposter.|Samme.|
 |<kbd>Ctrl</kbd>+<kbd>F7</kbd>|Åbne poster, logføre poster, omkostningsposter osv.|
 |<kbd>Ctrl</kbd>+<kbd>F9</kbd>|Frigiv dokument.|Samme.|
-|*<kbd>F7</kbd>*|Åbn statistik.|Samme.|
-|*<kbd>F9</kbd>*|Bogføre, udstede, registrere eller tilbageføre dokumenter.|Samme.|
-|*<kbd>Skift</kbd>+<kbd>Ctrl</kbd>+<kbd>F</kbd>*|Send foreslåede linjer på siden med pengestrømskladde.|Ikke tilgængelig.|
-|*<kbd>Skift</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd>*|Få vist serie- og lotnumre, der er tildelt linjeelementet i dokumentet eller kladden.|Ikke tilgængelig.|
+|<kbd>F7</kbd>|Åbn statistik.|Samme.|
+|<kbd>F9</kbd>|Bogføre, udstede, registrere eller tilbageføre dokumenter.|Samme.|
+|<kbd>Skift</kbd>+<kbd>Ctrl</kbd>+<kbd>F</kbd>|Send foreslåede linjer på siden med **Pengestrømskladde**.|Ikke tilgængelig.|
+|<kbd>Skift</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd>|Få vist serie- og lotnumre, der er tildelt linjeelementet i dokumentet eller kladden.|Ikke tilgængelig.|
 
-### <a name="navigateshortcuts"></a>Navigere mellem rækker og kolonner
+### <a name="navigateshortcuts"></a> Navigere mellem rækker og kolonner
 
 Der findes gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prod_short](includes/prod_short.md)], f.eks. listesider og dele af **Linjer** i dokumenter. Flytning fra én celle til en anden på tværs af et gitter er muligt med tastaturet.
 
@@ -103,8 +103,8 @@ Der findes gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prod_sh
 | <kbd>Enter</kbd> | Åbne den record, som er knyttet til feltet.<br /><br />Kun er relevant, hvis der er knyttet en kortside til posten. | Åbne posten.<br /><br />Er kun relevant, hvis der er knyttet en kortside til posten. |
 | <kbd>Ctrl</kbd>+<kbd>Enter</kbd> | Flytte fokus til det næste element uden for listen. | Flytte fokus til det næste element uden for listen. |
 | <kbd>Page Up</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Pil op</kbd>) | Rulle for at vise rækkesættene over de aktuelle rækker i visningen. | Rulle for at vise feltsættet over de aktuelle felter i visningen. |
-| <kbd>Page Down</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Pil op</kbd>) | Rulle for at vise rækkesættene under de aktuelle rækker i visningen. | Rulle for at vise feltsættet under de aktuelle felter i visningen. |
-| <kbd>Pil op</kbd> | Flytte i den samme kolonne til feltet i rækken nedenfor. | Flytte i den samme kolonne til feltet i rækken nedenfor. |
+| <kbd>Page Down</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Pil ned</kbd>) | Rulle for at vise rækkesættene under de aktuelle rækker i visningen. | Rulle for at vise feltsættet under de aktuelle felter i visningen. |
+| <kbd>Pil ned</kbd> | Flytte i den samme kolonne til feltet i rækken nedenfor. | Flytte i den samme kolonne til feltet i rækken nedenfor. |
 | <kbd>Pil op</kbd> | Flytte i den samme kolonne til feltet i rækken ovenover. | Flytte i den samme kolonne til feltet i rækken ovenover. |
 | <kbd>Højrepil</kbd> | På en skrivebeskyttet liste skal du i den samme række flytte til det næste felt til højre.<br /><br />På en redigerbar liste skal du flytte til højre i det aktuelle felt. | Flytte i den samme række til det næste felt til højre. |
 | <kbd>Venstre pil</kbd> | På en skrivebeskyttet liste skal du i den samme række flytte til det forrige felt til venstre. <br /><br />På en redigerbar liste skal du flytte til venstre i det aktuelle felt. | Flyt i den samme række til det forrige felt til venstre. |
@@ -116,20 +116,20 @@ Der findes gitre med rækker og kolonner på mange sidetyper i [!INCLUDE[prod_sh
 |Vælg disse taster<br />(i macOS)|For at gøre følgende i en listevisning |For at gøre følgende i en feltvisning |
 |--------------------------------|--------------------------|--------------------------|
 |<kbd>Ctrl</kbd>+Klik<br /><br />(<kbd>Cmd</kbd>+Klik)|Udvide markeringen af rækker til at omfatte den række, som du har klikket på.|Ikke tilgængelig.|
-|<kbd>Skift</kbd>+Klik|Udvide markeringen af rækker til at omfatte den række, som du har klikket på, og alle rækker imellem.<br /><br />Du kan bruge denne, efter at du har brugt <kbd>Ctrl</kbd>+<kbd>Pil op</kbd> eller <kbd>Ctrl</kbd>+Pil ned, til at udvide dit valg.|Ikke tilgængelig.|
+|<kbd>Skift</kbd>+Klik|Udvide markeringen af rækker til at omfatte den række, som du har klikket på, og alle rækker imellem.<br /><br />Du kan bruge denne, efter at du har brugt <kbd>Ctrl</kbd>+<kbd>Pil op</kbd> eller <kbd>Ctrl</kbd>+<kbd> Pil ned</kbd> til at udvide dit valg.|Ikke tilgængelig.|
 |<kbd>Ctrl</kbd>+<kbd>Pil op</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Pil op</kbd>)|Flytte fokus til rækken ovenover og beholder markeringen af den aktuelle række.|Ikke tilgængelig.|
-|<kbd>Ctrl</kbd>+<kbd>Pil op</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Pil op</kbd>)|Flytte fokus til rækken nedenfor og beholde markeringen af den aktuelle række.|Ikke tilgængelig.|
-|<kbd>Ctrl</kbd>+<kbd>Mellemrumstast</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+Mellemrumstasts)|Udvide markeringen af rækker, så den omfatter den række, der fokuseres på.<br /><br />Du kan bruge denne, efter at du har brugt <kbd>Ctrl</kbd>+<kbd>Pil op</kbd> eller <kbd>Ctrl</kbd>+<kbd>Pil op</kbd> til at udvide din markering.|Ikke tilgængelig.|
+|<kbd>Ctrl</kbd>+<kbd>Pil ned</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+<kbd>Pil ned</kbd>)|Flytte fokus til rækken nedenfor og beholde markeringen af den aktuelle række.|Ikke tilgængelig.|
+|<kbd>Ctrl</kbd>+<kbd>Mellemrumstast</kbd><br /><br />(<kbd>Ctrl</kbd>+<kbd>Cmd</kbd>+Mellemrumstasts)|Udvide markeringen af rækker, så den omfatter den række, der fokuseres på.<br /><br />Du kan bruge denne, efter at du har brugt <kbd>Ctrl</kbd>+<kbd>Pil op</kbd> eller <kbd>Ctrl</kbd>+<kbd>Pil ned</kbd> til at udvide dit valg.|Ikke tilgængelig.|
 |<kbd>Ctrl</kbd>+<kbd>A</kbd>|Markere alle rækker.|Ikke tilgængelig.|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>C</kbd>)|Kopiere de markerede rækker til Udklipsholder.|Ja, men kun for et enkelt markeret felt.|
 |<kbd>Ctrl</kbd>+<kbd>V</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>V</kbd>)|Indsætte de markerede rækker fra Udklipsholder til den aktuelle side eller et eksternt dokument som Microsoft Excel eller e-mails i Outlook. Du kan kun gøre dette på lister, der kan redigeres.|Ikke tilgængelig.|
 |<kbd>Skift</kbd>+<kbd>Pil op</kbd>|Udvide markeringen af rækker til at omfatte rækken ovenover.|Ikke tilgængelig.|
-|<kbd>Skift</kbd>+<kbd>Pil op</kbd>|Udvide markeringen af rækker til at omfatte rækken nedenfor.|Ikke tilgængelig.|
+|<kbd>Skift</kbd>+<kbd>Pil ned</kbd>|Udvide markeringen af rækker til at omfatte rækken nedenfor.|Ikke tilgængelig.|
 |<kbd>Skift</kbd>+<kbd>Page Up</kbd><br /><br />(<kbd>Skift</kbd>+<kbd>Fn</kbd>+<kbd>Pil op</kbd>)|Udvide markeringen af rækker til at omfatte alle synlige rækker oven over den aktuelle markering af rækker.|Ikke tilgængelig.|
-|<kbd>Skift</kbd>+<kbd>Page Down</kbd><br /><br />(<kbd>Skift</kbd>+<kbd>Fn</kbd>+<kbd>Pil op</kbd>)|Udvide markeringen af rækker til at omfatte alle synlige rækker under den aktuelle markering af rækker.|Ikke tilgængelig.|
+|<kbd>Skift</kbd>+<kbd>Page Down</kbd><br /><br />(<kbd>Skift</kbd>+<kbd>Fn</kbd>+<kbd>Pil ned</kbd>)|Udvide markeringen af rækker til at omfatte alle synlige rækker under den aktuelle markering af rækker.|Ikke tilgængelig.|
 |<kbd>F8</kbd>|Kopiere feltet i den samme kolonne i rækken ovenfor og indsætte det i den aktuelle række. Du kan kun gøre dette på lister, der kan redigeres. Med denne genvej efterfulgt af <kbd>Tab</kbd> kan du hurtigt udfylde felterne i linjeelementer, som du vil give den samme værdi som rækken ovenfor.|Ikke tilgængelig.|
 
-### <a name="KeyboardFilter"></a>Søge i og filtrere lister
+### <a name="KeyboardFilter"></a>Søg og filtrer lister
 
 |Vælg disse taster<br />(i macOS)|For at gøre følgende|
 |--------------------------------|----------|
@@ -155,7 +155,7 @@ Følgende genvejstaster er tilgængelige på kortsider, f.eks. **Debitorkort**, 
 |<kbd>Alt</kbd>+<kbd>Skift</kbd>+<kbd>N</kbd> |Lukke en side og åbne en ny side for at oprette en ny post – på samme måde som ved valg af handlingen **OK og ny**. |
 |<kbd>Alt</kbd>+<kbd>Skift</kbd>+<kbd>W</kbd> |Åbne det aktuelle kort eller dokument i et nyt vindue. Du kan finde flere oplysninger i [Multitasking på tværs af flere sider](ui-enter-data.md#multitasking-across-multiple-pages).|
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Gem og luk siden.|
-|<kbd>Ctrl</kbd>+<kbd>Pil op</kbd>|Åbne den næste post for en enhed.|
+|<kbd>Ctrl</kbd>+<kbd>Pil ned</kbd>|Åbne den næste post for en enhed.|
 |<kbd>Ctrl</kbd>+<kbd>Pil op</kbd> |Åbne den forrige post for en enhed.|
 |<kbd>Ctrl</kbd>+<kbd>Indsæt</kbd> |Indsætte en ny linje i dokumenter.|
 |<kbd>Ctrl</kbd>+<kbd>Slet</kbd> |Slette linjen i dokumenter, kladder og regneark.|
@@ -163,13 +163,14 @@ Følgende genvejstaster er tilgængelige på kortsider, f.eks. **Debitorkort**, 
 |<kbd>Ctrl</kbd>+<kbd>F9</kbd>|Frigiv dokument.|
 |<kbd>Ctrl</kbd>+<kbd>Skift</kbd>+<kbd>F12</kbd> |Maksimere delen med linjevarer på en dokumentside. Vælg tasterne igen for at vende tilbage til normal visning. Du kan finde flere oplysninger i [Fokusere på linjevarer](ui-enter-data.md#Focus).|
 |<kbd>F6</kbd>|Flytte til det næste <kbd>oversigtspanel</kbd> eller den næste del (delside).|
-|*<kbd>F7</kbd>*|Åbn statistik.|
-|*<kbd>F9</kbd>*|Bogføre, udstede, registrere eller tilbageføre dokumenter.|
-|*<kbd>Skift</kbd>+<kbd>Ctrl</kbd>+<kbd>F9</kbd>*|Bogføre, udskrive og lægge lagermodtagelse på lager.|
+|<kbd>F7</kbd>|Åbn statistik.|
+|<kbd>F9</kbd>|Bogføre, udstede, registrere eller tilbageføre dokumenter.|
+|<kbd>Skift</kbd>+<kbd>Ctrl</kbd>+<kbd>F9</kbd>|Bogføre, udskrive og lægge lagermodtagelse på lager.|
 |<kbd>Skift</kbd>+<kbd>F6</kbd>|Flytte til forrige <kbd>oversigtspanel</kbd> eller del (delside).|
-|*<kbd>Skift</kbd>+<kbd>F9</kbd>*|Bogføre og udskrive et dokument.|
+|<kbd>Skift</kbd>+<kbd>F9</kbd>|Bogføre og udskrive et dokument.|
+|<kbd>Skift</kbd>+<kbd>F11</kbd>|Udlign poster, hent kildedokumenter eller hent lagerdokumenter.|
 
-## <a name="QuickEntry"></a>Genvej for felter
+## <a name="QuickEntry"></a>Hurtige genveje for felter
 
 Følgende genveje vedrører genvejsfunktionen i kort, dokumenter og oversigtssider. I lister kan genveje ikke bruges, når listen er i feltvisning. Du kan finde flere oplysninger om genveje i [Fremskynde dataindtastning ved hjælp af genveje](ui-enter-data.md#QuickEntry).
 
@@ -190,7 +191,7 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 |<kbd>Ctrl</kbd>+<kbd>Pil til venstre</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Pil til venstre</kbd>)|Flytte til forrige dag.|
 |<kbd>Ctrl</kbd>+<kbd>Pil til højre</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Pil til højre</kbd>)|Flytte til næste dag.|
 |<kbd>Ctrl</kbd>+<kbd>Pil op</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Pil op</kbd>)|Flytte til den forrige uge, samme dag i ugen.|
-|<kbd>Ctrl</kbd>+<kbd>Pil op</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Pil op</kbd>)|Flytte til næste uge, samme dag i ugen.|
+|<kbd>Ctrl</kbd>+<kbd>Pil ned</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Pil ned</kbd>)|Flytte til næste uge, samme dag i ugen.|
 |<kbd>Indsæt</kbd>|Vælge den dato, der er fokus på.|
 |<kbd>Ctrl</kbd>+<kbd>End</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>End</kbd>)|Lukke kalenderen og slette den aktuelle dato.|
 |<kbd>Esc</kbd>|Lukke kalenderen uden en markering, bevare dags dato.|
@@ -204,18 +205,18 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 |<kbd>d</kbd>|Angive dags dato. "D" betyder "i dag".|
 |<kbd>a</kbd>|Angive arbejdsdatoen. Du kan finde flere oplysninger i [Arbejdsdato](ui-change-basic-settings.md#work-date).|
 
-## <a name="reportpreviewshortcuts"></a>Brug af genvejstaster i rapportfremviseren
+## <a name="reportpreviewshortcuts"></a>Tastaturgenveje i rapportfremviseren
 
 |Vælg disse taster<br />(i macOS)|For at gøre følgende|
 |--------------------------------|----------|
-|<kbd>Pil op</kbd>|Rulle ned på siden.|  
+|<kbd>Pil ned</kbd>|Rulle ned på siden.|  
 |<kbd>Pil op</kbd>|Rulle op på siden.|
 |<kbd>Ctrl</kbd>+<kbd>0</kbd> (nul)<br /><br />(<kbd>Cmd</kbd>+<kbd>0</kbd>)|Passer til hele siden på siden. |
 |<kbd>Ctrl</kbd>+<kbd>Start</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Start</kbd>)|Gå til den første side i rapporten.|
-|<kbd>Ctrl</kbd>+<kbd>End</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Start</kbd>)|Gå til den sidste side i rapporten.|
+|<kbd>Ctrl</kbd>+<kbd>End</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>End</kbd>)|Gå til den sidste side i rapporten.|
 |<kbd><kbd>Pil til venstre</kbd></kbd>|Rulle til venstre, når siden er zoomet ind, så den ikke vises fuldstændigt. |
 |<kbd>Højrepil</kbd>|Rulle til højre, når siden er zoomet ind, så den ikke vises fuldstændigt. |
-|<kbd>Page Down</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Pil op</kbd>)|Gå til den næste side i rapporten.|
+|<kbd>Page Down</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Pil ned</kbd>)|Gå til den næste side i rapporten.|
 |<kbd>Page Up</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Pil op</kbd>)|Gå til den forrige side i rapporten.|
 
 ## <a name="zoomshortcuts"></a>Genvejstaster til at zoome ind og ud
@@ -226,15 +227,15 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 |<kbd>Ctrl</kbd>+<kbd>-</kbd>|Zoom ud på den aktuelle side.|  
 |<kbd>Ctrl</kbd>+<kbd>0</kbd>|Zoom ind eller ud til 100% på den aktuelle side.|  
 
-## <a name="roleexplorer"></a>Tastaturgenveje til Rollestifinder
+## <a name="roleexplorer"></a>Tastaturgenveje til rollestifinder
 
 Rollestifinder giver dig et overblik og en hurtig adgang til alle de forretningsfunktioner, der er tilgængelige for din rolle. Du kan finde flere oplysninger i [Søge efter sider med Rollestifinder](ui-role-explorer.md).
 
-|Vælg disse taster<br />(i macOS)|For at gøre følgende|
+|Vælg disse taster<br/>(i macOS)|For at gøre følgende|
 |--------------------------------|----------|
 |<kbd>Skift</kbd>+<kbd>F12</kbd>|Åbne rollestifinder.|
 |<kbd>F3</kbd>|Åbne feltet **Søg** i rollestifinder for at finde funktioner, der er baseret på et givet søgeord eller -udtryk.|
-|<kbd>F3</kbd> eller <kbd>Ctrl</kbd>+<kbd>Pil op</kbd>|Flytter fokus til den næste fundne funktion i rollestifinder. <kbd>F3</kbd> flytter fokus til feltet **Søg** efter den sidste fundne funktion.|
+|<kbd>Skift</kbd> <kbd>F3</kbd> eller <kbd>Ctrl</kbd>+<kbd>Pil ned</kbd>|Flytter fokus til den næste fundne funktion i rollestifinder. <kbd>F3</kbd> flytter fokus til feltet **Søg** efter den sidste fundne funktion.|
 |<kbd>Skift</kbd> <kbd>F3</kbd> eller <kbd>Ctrl</kbd>+<kbd>Pil op</kbd>|Flytte fokus til den forrige funktion i rollestifinder.|
 |<kbd>Ctrl</kbd>+<kbd>Skift</kbd>|Du kan udvide eller minimere alle undernoder ud over noder på øverste niveau, når du vælger handlingen **Vis** eller **Skjul**.|
 
@@ -242,7 +243,7 @@ Rollestifinder giver dig et overblik og en hurtig adgang til alle de forretnings
 
 Følgende tabel beskriver tastaturgenvejene på numerisk tastatur.
 
-|Vælg disse taster<br />(i macOS)|For at gøre følgende|
+|Vælg disse taster<br/>(i macOS)|For at gøre følgende|
 |--------------------------------|----------|
 |<kbd>Alt</kbd>+<kbd>Decimalseparator</kbd>|Skift output for tasten decimalseparator til et punktum (.) eller det tegn, der er fastlagt af indstillingen **region** på siden **mine indstillinger**. Du kan finde flere oplysninger i [Angive den decimalseparator, der bruges af numeriske tastaturer](ui-enter-data.md#decimal).|
 

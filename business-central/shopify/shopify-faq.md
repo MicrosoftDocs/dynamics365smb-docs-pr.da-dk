@@ -70,9 +70,12 @@ Du kan også udforske [Eksperter på markedet](https://experts.shopify.com/) for
 ## Understøttes ikke i øjeblikket, men vi holder styr på dem og kan evt. tilføje dem
 
 - B2B-funktioner, herunder virksomheder, prislister og betalingsbetingelser
+  - Det er i øjeblikket muligt at importere ordrer oprettet via B2B. Hvis du har flere købere knyttet til virksomheden, skal du ikke aktivere automatisk oprettelse af debitorer, men knytte hver Shopify-køber til respektive kunder manuelt.
+  - Du skal vedligeholde virksomhedens prislister i Shopify.
 - Markeder
   - Flere oversættelser af master data. Du kan vælge ét sprog, der skal bruges til eksport af produktoplysninger.
   - Priser pr. land/område. Én prisliste er tilgængelig for den valgte valuta. Omregningen til andre valutaer håndteres af Shopify.
+- Udkast til ordrer
 
 ## Kan Shopify-connectoren udvides?
 

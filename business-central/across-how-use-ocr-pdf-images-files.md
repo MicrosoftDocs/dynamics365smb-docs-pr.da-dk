@@ -120,8 +120,6 @@ Siden **Korrektion af OCR-data**, som du kan åbne fra siden **Indgående bilag*
 
 Felterne i oversigtspanelet **Finansielle oplysninger** på siden **Indgående bilag** opdateres med de nye værdier, du angav i trin 4.
 
-## Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Se også
 
 [Oprette indgående bilagsposter](across-how-create-income-document-records.md)

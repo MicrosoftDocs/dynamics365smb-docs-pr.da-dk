@@ -32,8 +32,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 > [!TIP]
 > Brug bankafstemning til at kontrollere, at dine bøger er opdaterede og ikke bogfører afstemningen, før du er tilfreds med afstemningen.
 
-## Se relateret [Microsoft-træning](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
-
 ## Se også
 
 [Konfigurere banktransaktioner](bank-setup-banking.md)  

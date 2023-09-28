@@ -95,13 +95,11 @@ Hvis du vil håndtere vareomkostningerne for den delvise modtagelse på siden **
 
 Når du er klar til at håndtere den vare, der manglede, skal du opdatere feltet **Antal til ekspedition** og bogføre ordren.
 
-## Se relateret [Microsoft-træning](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
-
 ## Se også
 
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Registrere køb](purchasing-how-record-purchases.md)  
-[Fakturere salg](sales-how-invoice-sales.md)  
+[Fakturasalg](sales-how-invoice-sales.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

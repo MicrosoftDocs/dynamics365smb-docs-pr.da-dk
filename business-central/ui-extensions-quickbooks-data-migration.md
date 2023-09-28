@@ -61,8 +61,6 @@ Der er især nogle ting, du skal gøre: Hvis transaktionerne i QuickBooks havde 
 Hvis du bruger moms, skal du evt. tilføje en virksomhedsbogføringsgruppe og en produktbogføringsgruppe i bogføringsopsætningen, så du kan bogføre momsbeløb.
 Kontroller primosaldi for konti i finansbogholderiet. QuickBooks gemmer ikke den aktuelle saldo for alle konti, så det kan være nødvendigt at rette primosaldi.
 
-## Se relateret [Microsoft-træning](/training/modules/migrate-data-dynamics-365-business-central/)
-
 ## Se også
 
 [Import af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  

@@ -43,8 +43,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Se relateret [Microsoft-træning](/training/paths/purchase-items-services-dynamics-365-business-central/)
-
 ## Se også
 
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  

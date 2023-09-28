@@ -70,8 +70,6 @@ Hvis du vil arbejde med siden **Placeringsopr.kladde**, skal du være oprettet s
 
 Gentag processen, hvis det er nødvendigt med endnu et sæt placeringer, indtil du har oprettet alle placeringerne på lagerstedet.  
 
-## Se relateret [Microsoft-træning](/training/modules/create-new-bins/)
-
 ## Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)

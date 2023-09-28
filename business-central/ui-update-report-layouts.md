@@ -58,8 +58,6 @@ Hvis der ikke opstår fejl, anvendes opdateringerne på rapportlayout. Hvis der 
 
 Når du ændrer layoutet, kan du prøve at opdatere layoutet igen.  
 
-## Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## Se også  
  [Administration af rapportlayout](ui-manage-report-layouts.md)  
  [Arbejde med rapporter, kørsler og XMLporte](ui-work-report.md)  

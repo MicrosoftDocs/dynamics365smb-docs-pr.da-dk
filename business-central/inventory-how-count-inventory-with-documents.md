@@ -242,8 +242,6 @@ Du kan angive, hvilke rapporter der skal udskrives i forskellige faser, ved at v
 > [!NOTE]
 > De tilgængelige rapporter kan variere afhængigt af dit lands/områdes lokalisering. Basisprogrammet indeholder ikke layoutelementer.
 
-## Se relateret [Microsoft-træning](/training/modules/adjust-inventory/)
-
 ## Se også
 
 [Tælle, justere og ompostere lagerbeholdning ved hjælp af kladder](inventory-how-count-adjust-reclassify.md)  

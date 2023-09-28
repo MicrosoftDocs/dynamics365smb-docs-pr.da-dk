@@ -172,8 +172,6 @@ Følgende illustration giver en oversigt over resultatet af denne procedure.
 
 Derefter skal du afprøve arbejdsgangen ved at åbne en eksisterende kreditorkort og ændre navnet. Kontrollere, at der er sendt en godkendelsesanmodning om ændring af kreditorens navn.
 
-## Se relateret [Microsoft-træning](/training/modules/create-workflows/)
-
 ## Se også
 
 [Oprette workflows ud fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md)  

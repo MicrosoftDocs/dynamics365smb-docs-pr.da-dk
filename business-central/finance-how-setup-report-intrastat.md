@@ -338,8 +338,6 @@ Arbejdsprocessen i forbindelse med Intrastat-rapporter er den samme som i den gl
 
 <!-- ### United Kingdom-->
 
-## Se relateret træning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Se også
 
 [Intrastat-rapportering i Business Central](finance-how-report-intrastat.md)  

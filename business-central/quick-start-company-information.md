@@ -27,8 +27,6 @@ Du kan angive alle relevante oplysninger på siden **Firmaoplysninger**, når du
 
 Når du har udfyldt oplysningerne, kan du lukke siden.  
 
-## Se relateret [Microsoft-træning](/training/modules/create-new-companies-dynamics-365-business-central/)
-
 ## Se også  
 
 [Oversigt over virksomhedsoplysninger](admin-company-information.md)  

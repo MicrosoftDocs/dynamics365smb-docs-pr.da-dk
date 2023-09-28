@@ -128,12 +128,10 @@ Før en vare kan indgå i beregningen af ordrebekræftelsen, skal den markeres s
     - Marker **Første m. afs.dato**, hvis du ved, at varen er udgået af lageret og du vil beregne den tidligste dato, varen kan være disponibel ved at afsende en genbestillingsordre.  
 5.  Vælg knappen **Accepter** for at godkende den tidligst tilgængelige afsendelsesdato.  
 
-## Se relateret [Microsoft-træning](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
-
 ## Se også
 
 [Salg](sales-manage-sales.md)  
-[Beregning af forfaldsdato for køb](purchasing-date-calculation-for-purchases.md)  
+[Beregne dato for køb](purchasing-date-calculation-for-purchases.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

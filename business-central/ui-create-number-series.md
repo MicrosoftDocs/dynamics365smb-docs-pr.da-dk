@@ -92,8 +92,6 @@ Følgende procedure viser, hvordan du konfigurerer nummerserieren for området S
 
 Det valgte nummer bliver nu brugt til at udfylde feltet **Nummer** på det relevante kort eller dokument i overensstemmelse med de valgte indstillinger på nummerserielinjen.  
 
-## Se relateret [Microsoft-træning](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
-
 ## Se også
 
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

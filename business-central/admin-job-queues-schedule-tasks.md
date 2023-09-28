@@ -37,6 +37,14 @@ Når opgavekøer er konfigureret og kører, kan status ændres på følgende må
 
 Når en opgave er afsluttet korrekt, fjernes den fra listen over opgavekøposter, medmindre det er en tilbagevendende opgave. Hvis det er tilbagevendende opgaver, justeres feltet **Tidligste starttidspunkt** og vises, næste gang opgaven forventes at køre.  
 
+## Den tidligste startdato
+
+Værdien i feltet **Tidligste startdato/-tidspunkt** på siden **Kort til opgavekøpost** vises, næste gang opgaven køres. Der er flere faktorer, der kan påvirke, om en opgavekøpost rent faktisk kører på det pågældende tidspunkt.
+
+De mest almindelige faktorer er antallet af opgavekøposter i et miljø og det samlede antal planlagte opgaver. For at beskytte ydeevneniveauer er der operationelle grænser. Hvis der er mange poster i køen, og f.eks. en af dem mislykkes, eller posterne bare tager længere tid end forventet, starter den næste opgave muligvis ikke på det forventede tidspunkt. Hvis du har kodeenheder, der genererer 100.000 eller flere planlagte opgaver, bør du undersøge, om du rent faktisk har brug for alle disse opgaver. Du kan få adgang til listen over alle planlagte opgaver på siden **Planlagte opgaver**.
+
+Du kan få mere at vide om overvågning af status for opgavekøposter ved at gå til [Sådan får du vist status for en opgave](#to-view-status-for-any-job). Du kan få mere at vide om driftsgrænser ved at gå til [Asynkrone opgavegrænser](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Task).
+
 ## Overvåge status eller fejl i opgavekøen
 
 Data, som jobkøen genererer gemmes, så du kan foretage fejlfinding.  

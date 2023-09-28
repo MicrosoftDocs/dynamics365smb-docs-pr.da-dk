@@ -224,11 +224,9 @@ Følgende procedure er baseret på siden **Kassekladde**, men gælder for alle a
 
 Værdier i feltet **Bilagsnr.** ændres, hvor det kræves, så bilagsnummeret på individuelle eller grupperede journallinjer er i rækkefølge. Når bilag omnummereres, kan du bogføre kladden.
 
-## Se relateret [Microsoft-træning](/training/paths/use-journals-dynamics-365-business-central/)
-
 ## Se også
 
-[Bogføre transaktioner direkte i finansposterne](finance-how-post-transactions-directly.md)  
+[Bogføre transaktioner direkte i Finans](finance-how-post-transactions-directly.md)  
 [Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md)  
 [Fordele omkostninger og indtægter](year-allocate-costs-income.md)  
 [Finans](finance.md)  

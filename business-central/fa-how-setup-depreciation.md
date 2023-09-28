@@ -90,8 +90,6 @@ Når der beregnes afskrivninger i kørslen Beregn afskrivninger, bruges der norm
 
 Hvis du markerer dette felt, anvendes der i stedet et kalenderår på 365 dage i kørslen Beregn afskrivninger, hvor hver måned beregnes med samme antal dage som i kalenderen. Den eneste undtagelse er februar i skudår, som i kørslen behandles, som om der er 28 dage og ikke 29. Pga. det anses alle år, også skudår, for at bestå af 365 dage.
 
-## Se relateret [Microsoft-træning](/training/modules/configure-depreciation-books/)
-
 ## Se også
 
 [Opsætning af Anlægsaktiver](fa-setup.md)  

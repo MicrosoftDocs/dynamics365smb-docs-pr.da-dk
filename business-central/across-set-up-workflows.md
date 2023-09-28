@@ -42,12 +42,10 @@ Denne video viser, hvordan du konfigurerer et workflow, der kræver, at en bruge
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## Se relateret [Microsoft-træning](/training/modules/create-workflows/)
-
 ## Se også
 
 [Bruge godkendelsesworkflows](across-use-workflows.md)  
-[Workflow](across-workflow.md)  
+[Arbejdsproces](across-workflow.md)  
 [Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Arbejde med Business Central](ui-work-product.md)
 

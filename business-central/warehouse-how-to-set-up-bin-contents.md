@@ -49,8 +49,6 @@ Når du har oprettet placeringer, kan du angive, hvilke varer der skal opbevares
 
 I denne kladde kan du arbejde med placeringsindholdslinjer for flere placeringer ad gangen og på den måde få et godt overblik over, hvilke varer der lægges på de forskellige placeringer i en given zone, række eller hylde.  
 
-## Se relateret [Microsoft-træning](/training/modules/set-up-zones-bins/)
-
 ## Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)

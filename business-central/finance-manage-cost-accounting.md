@@ -22,9 +22,7 @@ Omkostningsregnskab bruges til at hjælpe dig med at forstå omkostningerne til 
 |Overføre finansposter til omkostningsposter.|[Overførsel og bogføring af omkostningsposter](finance-transfer-and-post-cost-entries.md)|  
 |Alloker omkostninger.|[Definere og allokere omkostninger](finance-define-and-allocate-costs.md)|  
 |Lær om processerne ved oprettelse af omkostningsbudgetter.|[Oprette omkostningsbudgetter](finance-create-cost-budgets.md)|
-|Annullere omkostningsbudgetposter fra omkostningsbudgetregistret.|[Sletning af omkostningsbudgetposter](finance-how-to-delete-cost-budget-entries.md)|
-
-## Se relateret [Microsoft-træning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+|Annullere omkostningsbudgetposter fra omkostningsbudgetregistret.|[Slette omkostningsbudgetposter](finance-how-to-delete-cost-budget-entries.md)|
 
 ## Se også  
 [Finans](finance.md)  

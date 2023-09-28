@@ -43,8 +43,6 @@ Dette emne definerer vigtige termer, der anvendes i omkostningsregnskab.
 |Variabel omkostning|Variable omkostninger er udgifter, der ændres i forhold til en virksomheds aktivitet. Variable omkostninger er summen af marginalomkostninger over alle producerede enheder. Faste omkostninger og variable omkostninger udgør de to komponenter af samlede omkostninger.|  
 |Variant|En variant bruges som en valgfri brugerdefineret etiket for tildelinger. Formålet med etiketten er at filtrere grupper af fordelinger.|  
 
-## Se relateret [Microsoft-træning](/training/paths/use-cost-accounting-dynamics-365-business-central/)
-
 ## Se også
 
  [Om omkostningsregnskab](finance-about-cost-accounting.md)  

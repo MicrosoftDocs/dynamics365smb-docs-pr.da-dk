@@ -11,11 +11,9 @@ ms.search.form: '436, 437, 442, 431, 432, 434'
 ms.date: 02/09/2022
 ms.author: bholtorf
 ---
-# Send rykkere til udestående saldi
+# Sende rykkere for udestående saldi
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
-
-## Se relateret [Microsoft-træning](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
 ## Se også
 

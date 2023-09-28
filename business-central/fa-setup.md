@@ -34,9 +34,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Aktivere forsikring af anlæg, angive generelle forsikringsoplysninger, oprette forsikringskort pr. police, og klargøre kladder til at bogføre forsikringsomkostninger. |[Definere anlægsforsikring](fa-how-setup-insurance.md) |
 | Udføre reparation af anlægsaktiver, angive generelle reparationsoplysninger, oprette bogføringskonti for reparation og definere typer af vedligeholdelsesarbejde. |[Definere anlægsreparation](fa-how-setup-maintenance.md) |
 | Få mere at vide om forskellige afskrivningsmetoder for anlægsaktiver. |[Afskrivningsmetoder](fa-depreciation-methods.md) |
-| Få mere at vide om, hvordan du anvender brugerdefinerede afskrivningsmetoder. |[Sådan konfigureres brugerdefinerede afskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
-
-## Se relateret [Microsoft-træning](/training/paths/set-up-fixed-assets-management/)
+| Få mere at vide om, hvordan du anvender brugerdefinerede afskrivningsmetoder. |[Konfigurere brugerdefinerede afskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
 ## Se også
 

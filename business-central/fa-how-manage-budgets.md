@@ -54,8 +54,6 @@ Du kan bruge rapporten **Anlæg - forventet værdi** til at beregne den fremtidi
 4. Lad oversigtspanelet **Anlæg** stå tomt, hvis alle anlægsaktiver skal inkluderes. I feltet **Budgetanlæg** skal du angive **Nej** for at udelukke budgetanlæg eller **Ja** for kun at få vist budgetanlæg.
 5. Vælg knappen **Udskriv** eller **Vis udskrift**.
 
-## Se relateret [Microsoft-træning](/training/modules/budget-fixed-assets/)
-
 ## Se også
 
 [Anlægsaktiver](fa-manage.md)  

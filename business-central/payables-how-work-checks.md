@@ -75,8 +75,6 @@ Hvis du vil gennemse bogførte checks, for eksempel for at kontrollere flere che
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonto - checkoplysninger**, og vælg derefter det relaterede link.
 2. Angiv filtre som relevante, og vælg derefter knappen **Eksempel**.
 
-## Se relateret [Microsoft-træning](/training/modules/use-checks-dynamics-365-business-central/)
-
 ## Se også
 
 [Foretage betaling](payables-make-payments.md)  

@@ -47,13 +47,11 @@ Det er også muligt at dele rapporter med samarbejdspartnere på siden **Rapport
 >
 > Hvis du bruger handlingen **Del**, bliver den genererede rapportfil kun tilgængelig til andre brugere på OneDrive til Business, og den planlagte rapport vises ikke i **Rapportindbakken**.
 
-## Se relateret træning på [Microsoft Learn](/learn/paths/build-reports/).
-
 ## Se også
 
 [Køre og udskrive rapporter](ui-work-report.md)  
 [Tilgængelige rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
-[Brug rapporter i dagligt arbejde](reports-use-reports.md)  
+[Bruge rapporter i dagligt arbejde](reports-use-reports.md)  
 [Oversigt over Business Intelligence og rapportering](reports-bi-reporting.md)  
 [Installation af printere](ui-specify-printer-selection-reports.md)  
 [Arbejde med kalenderdatoer og klokkeslæt](ui-enter-date-ranges.md)  

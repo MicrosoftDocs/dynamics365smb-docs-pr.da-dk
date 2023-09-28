@@ -26,12 +26,10 @@ Brug følgende sider til at oprette og analysere omkostningsbudgetter. Vælg ![L
 |Se omkostningsbudgetregistre og omkostningsbudgetposter.|Siden **Omkostningsbudgetregistre**|  
 |Udskrive omkostningsbudgetsammenligninger med forskellige rapporter.|Rapporten **Omk.regnskabssaldo/budget**<br /><br /> Rapporten **Omk.regnskabskontoudtog/budget**<br /><br /> Rapporten **Omkostningsbudget efter omkostningssted**<br /><br /> Rapporten **Omkostningsbudget efter omkostningsemne**|  
 
-## Se relateret [Microsoft-træning](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
-
 ## Se også
 
 [Regnskab for omkostninger](finance-manage-cost-accounting.md)  
-[Oprette finansbudgetter](finance-how-create-budgets.md)  
+[Oprette Finansbudgetter](finance-how-create-budgets.md)  
 [Terminologi i omkostningsregnskab](finance-terminology-in-cost-accounting.md)  
 [Definere og allokere omkostninger](finance-define-and-allocate-costs.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -115,12 +115,10 @@ Når din virksomhed bruger forsynings planlægnings processerne i [!INCLUDE [pro
 
 Du kan finde eksempler på, hvordan du kan bruge felterne i oversigtspanelet **Planlægning**, under [konfigurere bedste fremgangsmåder: planlægningsparametre](setup-best-practices-planning-parameters.md).  
 
-## Se relateret [Microsoft-træning](/training/modules/create-items/)
-
 ## Se også
 
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Oprette måleenheder](inventory-how-setup-units-of-measure.md)  
+[Konfigurere måleenheder](inventory-how-setup-units-of-measure.md)  
 [Administrere produktvarianter](inventory-item-variants.md)  
 [Oprette Intrastat-rapportering](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
 [Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  

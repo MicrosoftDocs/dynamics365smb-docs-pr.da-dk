@@ -275,8 +275,6 @@ Normale udligningsregler
 
 (2) Hvis betaling falder i disse intervaller, er det ikke alle udligningsposter, der kan lukkes, selvom der anvendes tolerance.
 
-## Se relateret [Microsoft-træning](/training/modules/enter-payments-dynamics-365-business-central/)
-
 ## Se også
 
 [Finans](finance.md)  

@@ -22,11 +22,9 @@ På siden **Workflow** oprettes et workflow ved at angive de involverede trin p�
 2. Åbn den arbejdsgang, du vil aktivere.  
 3. Aktiver til/fra-feltet **Aktiveret** på siden **Workflow**.  
 
-## Se relateret [Microsoft-træning](/training/modules/create-workflows/)
-
 ## Se også
 
-[Opret godkendelsesworkflows](across-how-to-create-workflows.md)  
+[Oprette godkendelsesworkflows](across-how-to-create-workflows.md)  
 [Bruge godkendelsesworkflows](across-use-workflows.md)  
 [Vise arkiverede forekomster af workflowtrin](across-how-to-view-archived-workflow-step-instances.md)  
 [Slette godkendelsesworkflows](across-how-to-delete-workflows.md)  

@@ -57,8 +57,6 @@ Det indgående bilag kan bestå af følgende primære aktiviteter:
 | Fra siderne **Kontoplan** og **Finansposter** skal du bruge en søgefunktionen til at finde finansposter for bogførte dokumenter, som ikke har indgående bilagsposter og derefter knytte centralt til eksisterende poster eller oprette nye med vedhæftede dokument filer. |[Finde bogførte dokumenter uden indgående bilagsposter](across-how-find-posted-documents-without-income-document-records.md) |
 | Få et større overblik ved at indstille indgående bilagsposter til *Behandlet* for at fjerne dem fra standardvisningen. |[Administrere mange indgående bilagsposter](across-how-manage-many-income-document-records.md) |
 
-## Se relateret [Microsoft-træning](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Se også
 
 [Køb](purchasing-manage-purchasing.md)  

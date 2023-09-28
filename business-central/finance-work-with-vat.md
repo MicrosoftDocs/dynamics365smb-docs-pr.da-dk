@@ -234,8 +234,6 @@ Hvis du vil se en gruppe af certifikater, skal du starte fra siden **Leveringsce
 > * Sådan opretter du manuelt et leveringscertifikat  
 > * Sådan udskriver du et leveringscertifikat.
 
-## Se relateret [Microsoft-træning](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Se også
 
 [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)  

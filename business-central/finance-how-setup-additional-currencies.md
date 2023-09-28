@@ -124,12 +124,10 @@ Derudover vil beløbene i alle fremtidige poster af samme type være registreret
 > [!NOTE]  
 > Feltet **Ekstra rapporteringsvaluta** vil kun være aktiveret, efter at du har valgt knappen **OK** i kørslen **Reguler eks. rapport.valuta**.  
 
-## Se relateret [Microsoft-træning](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## Se også
 
 [Opdatere valutakurser](finance-how-update-currencies.md)  
-[Afslutning af år og perioder](year-close-years-periods.md)  
+[Lukke år og perioder](year-close-years-periods.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

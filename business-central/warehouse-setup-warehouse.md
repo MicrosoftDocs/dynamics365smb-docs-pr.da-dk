@@ -35,8 +35,6 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Få idéer til, hvordan du kan reorganisere lokationer, placeringer eller zoner for at opnå mere effektive lageraktiviteter.|[Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)|
 |Angiv standardrapporter, der skal bruges til forskellige dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## Se relateret [Microsoft-træning](/training/paths/set-up-warehouse-management/)
-
 ## Se også
 
 [Lagerbeholdning](inventory-manage-inventory.md)  

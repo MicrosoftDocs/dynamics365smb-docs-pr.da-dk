@@ -62,8 +62,6 @@ Hver kode i tabellen Rentebetingelser er desuden kædet sammen med en undertabel
 |%8|Indholdet af feltet **Valutadato** på rentenotahovedet|  
 |%9|Indholdet af feltet **Bogføringsdato** i rentenotahovedet|  
 
-## Se relateret [Microsoft-træning](/training/modules/send-memos-dynamics-365-business-central/)
-
 ## Se også
 
 [Indhente udestående beløb](receivables-collect-outstanding-balances.md)  

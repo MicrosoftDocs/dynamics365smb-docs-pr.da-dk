@@ -53,9 +53,7 @@ I følgende tabel beskrives relaterede opgaver.
 |Konfigurer en kreditors eller debitors egen varebeskrivelse på dit varekort, så du hurtigt kan indsætte deres varebeskrivelse i handelsdokumenter.|[Anvend varereferencer](inventory-how-use-item-cross-refs.md)|
 |Spær for, at varer kan angives på salgs- eller købslinjer eller for, at de bogføres i nogen posteringer.|[Spærre for varer](inventory-how-block-items.md)|
 |Administrer forretningsaktiviteter på salgskontorer, indkøbsafdelinger eller fabriksplanlægningskontor på tværs af flere lokationer.|[Arbejde med ansvarscentre](inventory-responsibility-centers.md)|
-|Bruge ressourcer med specifikke kvalifikationer til forskellige tjenester og serviceartikler.|[Opsætte ressourceallokering](service-how-setup-resource-allocation.md)|
-
-## Se relateret [Microsoft-træning](/training/paths/get-started-inventory-management/)
+|Bruge ressourcer med specifikke kvalifikationer til forskellige tjenester og serviceartikler.|[Konfigurere ressourceallokering](service-how-setup-resource-allocation.md)|
 
 ## Se også
 

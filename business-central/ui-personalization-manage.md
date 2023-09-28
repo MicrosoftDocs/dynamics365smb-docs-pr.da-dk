@@ -62,11 +62,9 @@ Du kan slette enkelte sidetilpasninger, du har foretaget for en profil. Tilpasni
 
 Layoutet på de valgte sider justeres til de ændringer, du har foretaget.
 
-## Se relateret [Microsoft-træning](/training/paths/tailor-roles-design-ui/)
-
 ## Se også
 
-[Tilpasse dit arbejdsområde](ui-personalization-user.md)  
+[Tilpasse arbejdsområdet](ui-personalization-user.md)  
 [Administrere profiler](admin-users-profiles-roles.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  

@@ -107,12 +107,10 @@ Når du udsteder en rykker, oprettes der en rykkerpost på siden **Rykker-/rente
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Du kan finde flere oplysninger i [Angiv flere rentesatser](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## Se relateret [Microsoft-træning](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
-
 ## Se også
 
-[Konfiguration af rykkerbetingelser og -niveauer](finance-setup-reminders.md)  
-[Konfiguration af Rentebetingelser](finance-setup-finance-charges.md)  
+[Konfigurere rykkerbetingelser og -niveauer](finance-setup-reminders.md)  
+[Konfigurere rentebetingelser](finance-setup-finance-charges.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

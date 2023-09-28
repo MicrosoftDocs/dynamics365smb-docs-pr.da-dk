@@ -167,11 +167,9 @@ Som administrator af [!INCLUDE[prod_short](includes/prod_short.md)] online kan d
 
 Til [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø kan du f.eks. administrere sessioner ved hjælp af SQL Server Management Studio. Du kan finde flere oplysninger i den [tekniske dokumentation til SQL Server](/sql/sql-server).  
 
-## Se relateret [Microsoft-træning](/training/modules/users-security-dynamics-365-business-central/)
-
 ## Se også
 
-[Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
+[Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md)  
 [Tilpasse sider til profiler](ui-personalization-manage.md)  
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)  
 
