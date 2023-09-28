@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# Designoplysninger: Lagerværdi
+# <a name="design-details-inventory-valuation"></a>Designoplysninger: Lagerværdi
 Lagerværdi er bestemmelse af de omkostninger, der er tildelt en lagervare, som udtrykt ved følgende ligning.  
 
 Afslutningslager = begyndelseslager + nettokøb – produktionspris  
@@ -19,7 +19,7 @@ Beregningen af lagerværdien bruger feltet **Kostbeløb (faktisk)** i værdipost
 
 Poster udlignes med hinanden, enten ved fast udligning eller i henhold til det forventede generelle kostprisforløb, der er defineret af kostmetoden. En post på lagerreducering kan anvendes til mere end én tilgangspost med forskellige bogføringsdatoer og eventuelle andre anskaffelsesomkostninger. Du kan finde flere oplysninger i [Designoplysninger: Vareudligning](design-details-item-application.md). Beregning af lagerværdien for en given dato er derfor baseret på en opsummering af positive og negative værdiposter.  
 
-## Lagerværdirapport  
+## <a name="inventory-valuation-report"></a>Lagerværdirapport
 For at beregne lagerværdien i rapporten **Lagerværdi** begynder rapporten at beregne varens lagerværdi på en angivet startdato. Derefter tilføjes værdien af lagerforøgelser, og værdien af lagerreduceringer fratrækkes op til en bestemt slutdato. Slutresultatet er lagerværdien på slutdatoen. Rapporten beregner disse værdier ved at addere værdierne i feltet **Kostbeløb (faktisk)** i værdiposterne med bogføringsdatoerne som filtre.  
 
 Den udskrevne rapport viser altid faktiske beløb, det vil sige købsprisen for poster, der er bogført som fakturerede. Rapporten udskriver også den forventede købspris på poster, der er bogført som modtaget eller leveret, hvis du markerer feltet Medtag forventet kostpris på oversigtspanelet Indstillinger.  
@@ -30,7 +30,7 @@ Den udskrevne rapport viser altid faktiske beløb, det vil sige købsprisen for 
 > [!IMPORTANT]  
 >  Beløb i kolonnen **Værdi** i rapporten er baseret på bogføringsdatoen af transaktioner for en vare.  
 
-## Lagerværdi – igangværende arbejde, rapport  
+## <a name="inventory-valuation---wip-report"></a>Lagerværdi – igangværende arbejde, rapport
 En produktionsvirksomhed skal bestemme værdien af tre typer af lagerbeholdning:  
 
 * Lager af råmaterialer  
@@ -45,7 +45,7 @@ Hvad angår købt lager, danner værdiposterne grundlag for lagerværdien. Bereg
 
 Formålet med VIA-lagerværdi er at bestemme værdien af de varer, hvis produktion endnu ikke er fuldført på en given dato. Derfor er VIA-lagerbeholdningen baseret på de værdiposter, der er relateret til forbrugs- og kapacitetsposter. Forbrugsposter skal være fuldt faktureret ved værdiansættelsesdatoen. Derfor viser rapporten **Lagerværdi - igangværende arb.** omkostningerne, der repræsenterer det igangværende arbejdes værdi i to kategorier: forbrug og kapacitet.  
 
-## Se også  
+## <a name="see-also"></a>Se også
 [Designoplysninger: Afstemning med Finans](design-details-reconciliation-with-the-general-ledger.md)   
 [Designoplysninger: Regulering](design-details-revaluation.md)   
 [Designoplysninger: Bogføring af produktionsordrer](design-details-production-order-posting.md)

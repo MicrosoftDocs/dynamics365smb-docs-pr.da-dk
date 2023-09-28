@@ -11,7 +11,7 @@ ms.search.form: '389, 1290, 1294, 1287'
 ms.date: 06/22/2022
 ms.author: bholtorf
 ---
-# Afstemme betalinger ved hjælp af automatisk udligning
+# <a name="reconcile-payments-using-automatic-application"></a>Afstemme betalinger ved hjælp af automatisk udligning
 
 **Betalingsafstemningskladden** angiver betalinger, enten indgående eller udgående, som er registreret som transaktioner på din online bankkonto eller på en betalingstjeneste. Du kan udligne betalingerne til relaterede åbne debitor-, kreditor-og bankkontoposter. Udfyld kladden ved at importere et bankkontoudtog som et feed eller en fil eller ved manuelt at angive de transaktioner, du foretager på din betalingsservice.
 
@@ -43,7 +43,7 @@ For hver kladdelinje på siden **Betalingsudligningskladde** kan du åbne siden 
 > [!NOTE]  
 > Du kan starte importen af banktransaktioner på samme tid, som du åbner siden **Betalingsudligningskladde** for en eksisterende betalingsafstemningskladde. Følgende procedure beskriver, hvordan du importerer banktransaktioner på siden **Betalingsudligningskladde**, når du har oprettet en ny kladde.
 
-## Sådan afstemmer du betalinger ved hjælp af automatisk udligning
+## <a name="to-reconcile-payments-using-automatic-application"></a>Sådan afstemmer du betalinger ved hjælp af automatisk udligning
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsudligningskladder**, og vælg derefter det relaterede link.
 2. Hvis du vil arbejde i en ny betalingsafstemningskladde, skal du vælge handlingen **Ny kladde**.
 3. Brug siden **Betalingsbankkontooversigt** til at vælge den bankkonto, som du vil afstemme betalinger for, og vælg derefter knappen **OK**.
@@ -88,7 +88,7 @@ Du kan sammenligne værdien i feltet **Saldo på bankkonto efter bogføring** me
 > [!NOTE]  
 >   Hvis du ikke vil afstemme bankkontoen fra siden **Betalingsudligningskladde**, skal du bruge siden **Bankkontoafstemning**. Du kan finde flere oplysninger i [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  

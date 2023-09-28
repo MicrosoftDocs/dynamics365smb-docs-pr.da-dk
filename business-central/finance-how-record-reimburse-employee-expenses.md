@@ -11,7 +11,7 @@ ms.search.form: '63, 234, 625, 5224, 5237, 5238, 5239, 5240'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# Registrere og refundere medarbejdernes udgifter
+# <a name="record-and-reimburse-employees-expenses"></a>Registrere og refundere medarbejdernes udgifter
 
 [!INCLUDE[prod_short](includes/prod_short.md)] understøtter transaktioner for medarbejdere på samme måde som for kreditorer. Derfor findes der medarbejderbogføringsgrupper for at sikre, at medarbejderposter bogføres på de relevante konti i regnskabet.
 
@@ -25,7 +25,7 @@ Hvis medarbejdere bruger deres egne penge under forretningsaktiviteter, kan du b
 
 [!INCLUDE [prod_short](includes/prod_short.md)] er fleksibel nok til at dække mange forskellige fremgangsmåder. De nøjagtige kontonumre, der skal bruges, afhænger af organisationens konfiguration og processer.  
 
-## Sådan registrerer du en medarbejders udgift
+## <a name="to-record-an-employees-expense"></a>Sådan registrerer du en medarbejders udgift
 
 Du bogfører medarbejdernes udgifter på siden **Finanskladde**.
 
@@ -41,7 +41,7 @@ Du bogfører medarbejdernes udgifter på siden **Finanskladde**.
     > Hvis du vil angive flere udgiftslinjer over én modkontolinje for medarbejderens bankkonto, skal du markere afkrydsningsfeltet **Foreslå modkontobeløb** på linjen for kørslen på siden **Finanskladdenavne**. Feltet **Beløb** på modkontolinjen udfyldes derefter automatisk med den værdi, der skal bruges til at afstemme udgifterne.
 5. Vælg handlingen **Bogfør** for at registrere udgifter på medarbejderens konto.
 
-## Sådan refunderer du en medarbejder
+## <a name="to-reimburse-an-employee"></a>Sådan refunderer du en medarbejder
 
 Du refunderer medarbejdere ved at bogføre betalinger til deres bankkonto på siden **Udbetalingskladde**.  
 
@@ -51,11 +51,11 @@ Du refunderer medarbejdere ved at bogføre betalinger til deres bankkonto på si
 4. Du kan også vælge handlingen **Foreslå medarbejderbetaling** for automatisk at indsætte kladdelinjerne for ventende medarbejderrefusioner.
 5. Vælg handlingen **Bogfør** for at registrere refusionen.  
 
-## Sådan afstemmes refusioner med medarbejderposter
+## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Sådan afstemmes refusioner med medarbejderposter
 
 Du udligner medarbejderbetalinger til deres relaterede åbne medarbejderposter på samme måde som for kreditorbetalinger, f.eks. på siden **Betalingsudligningskladde**, baseret på de relaterede bankkontoudtogsposter. Du kan finde flere oplysninger i [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md). Du kan også udligne manuelt på siden **Medarbejderposter**. Du kan finde flere oplysninger i det relaterede emne [Afstemme kreditorbetalinger med udbetalingskladden eller fra kreditorposter](payables-how-apply-purchase-transactions-manually.md).  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Bogføre transaktioner direkte i finansposterne](finance-how-post-transactions-directly.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  

@@ -11,13 +11,13 @@ ms.search.form: '257, 259, 279'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Oprette kilde- og årsagskoder til revisionsspor
+# <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Oprette kilde- og årsagskoder til revisionsspor
 
 Alle bogførte poster får automatisk tildelt en kildekode, så transaktioner kan spores til deres oprindelse. Hvis du vil knytte en supplerende kildekode til poster, kan du benytte årsagskoder. Årsagskoder kan bruges til at angive, hvorfor en post er oprettet. Når du har angivet årsagskoder, kan du tildele dem til hele anlægskladdetyper og kladder, og derefter kan du tildele dem til individuelle kladdelinjer og dokumenter.  
 
 Brug koder, der er lette at huske, og som er beskrivende, til både kilde- og årsagskoder. Koden skal være entydig, og du kan oprette et ubegrænset antal koder.
 
-## Definere kildekoder
+## <a name="define-source-codes"></a>Definere kildekoder
 
 Det kan være nyttigt at se, hvordan en bestemt post blev oprettet, f.eks. om posten blev oprettet ved bogføring af en finanskladde eller af en købsfaktura. En kildekode angiver, hvor en post er oprettet. Der oprettes poster, når kladder og fakturaer bogføres, og når visse kørsler udføres. Hver bogføringstype har en bestemt kildekode, der tilknyttes, når der oprettes individuelle poster.  
 
@@ -25,7 +25,7 @@ Når kladder, ordrer, fakturaer eller kreditnotaer bogføres, og når forskellig
 
 Når du bogfører eller udfører en kørsel, knyttes den korrekte kildekode automatisk til posten. Det vil sige, at når du f.eks. bogfører fra kassekladden, får posten koden *KASSEKLD*. Herefter kan du filtrere siden **Finansposter** for at se, hvilke poster der er bogført fra finanskladden eller fra salgsdokumenter, f.eks.
 
-### Sådan defineres kildekoder
+### <a name="to-define-source-codes"></a>Sådan defineres kildekoder
 
 1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, angiv **Kildekodedefinition** og derefter vælge det relaterede link.  
 
@@ -33,11 +33,11 @@ Når du bogfører eller udfører en kørsel, knyttes den korrekte kildekode auto
 
 Du kan ændre indholdet i et felt senere. Herefter vil ændringerne påvirke fremtidige bogføringer.
 
-## Ændre kildekoder
+## <a name="change-source-codes"></a>Ændre kildekoder
 
 Det kan være en fordel at ændre en kildekode. Lad os sige, at du vil ændre kildekoden *KASSEKLD* til *GNJ*.
 
-### Sådan ændres kildekoder
+### <a name="to-change-source-codes"></a>Sådan ændres kildekoder
 
 1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, skriv **Varespor**, og vælg derefter det relaterede link.
 
@@ -47,11 +47,11 @@ Det kan være en fordel at ændre en kildekode. Lad os sige, at du vil ændre ki
 
 Alle nye poster, der er bogført fra finanskladden, skal have en ny kildekode.
 
-## Definere årsagskoder
+## <a name="define-reason-codes"></a>Definere årsagskoder
 
 Årsagskoder supplerer kildekoder og bruges til at angive, hvorfor en post er oprettet. Du kan tildele årsagskoder i individuelle poster, og du kan tildele permanente koder i bestemte anlægskladder og kladder. Når en årsagskode er knyttet til en kladdelinje eller til købs- og salgshoveder, bliver alle posterne markeret med årsagskoder, når de bogføres.  
 
-### Sådan oprettes årsagskoder
+### <a name="to-set-up-reason-codes"></a>Sådan oprettes årsagskoder
 
 1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport")  ikon, skriv **revisionsspor**, og vælg derefter det relaterede link.
 
@@ -61,7 +61,7 @@ Gentag denne fremgangsmåde for hver enkelt af de koder, du vil bruge. Du kan op
 
 Følgende fremgangsmåde beskriver, hvordan du føjer en årsagskode til en kladdetype, men lignende trin gælder for tilføjelse af en årsagskode til en kladdelinje eller et kladdenavn.  
 
-### Sådan knytter du årsagskoder til kladdetyper
+### <a name="to-assign-reason-codes-to-journal-templates"></a>Sådan knytter du årsagskoder til kladdetyper
 
 1. Vælg ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport")  ikon, skriv **Finanskladdetyper**, og vælg derefter det relaterede link.
 
@@ -71,7 +71,7 @@ Følgende fremgangsmåde beskriver, hvordan du føjer en årsagskode til en klad
 
 Den valgte årsagskode kopieres til nye kladdenavne, der er oprettet under denne kladdetype. Du kan knytte årsagskoder til kladdetyper i andre områder på samme måde.
 
-### Sådan bruges årsagskoder i salgs- og købsdokumenter
+### <a name="to-use-reason-codes-on-sales-and-purchase-documents"></a>Sådan bruges årsagskoder i salgs- og købsdokumenter
 
 1. Åbn det relevante salgs- eller købsdokument.
 
@@ -79,7 +79,7 @@ Den valgte årsagskode kopieres til nye kladdenavne, der er oprettet under denne
 
 Når fakturaen er bogført, kopieres årsagskoden til hver finans-, debitor- og kreditorpost. Du kan ikke tilknytte forskellige årsagskoder til individuelle købs- og salgslinjer, fordi alle linjer er bogført som en post.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Finans](finance.md)  
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  

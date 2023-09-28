@@ -10,11 +10,11 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Arbejde med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="work-with-power-bi-reports-in-"></a>Arbejde med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
 
 I denne artikel får du nogle grundlæggende oplysninger om visning af Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## Oversigt
+## <a name="overview"></a>Oversigt
 
 Power BI-rapporter giver dig indblik i din [!INCLUDE[prod_short](includes/prod_short.md)]. Forskellige sider i [!INCLUDE [prod_short](includes/prod_short.md)] omfatter en Power BI-del af en rapport, der kan vise Power BI-rapporter. Rollecenteret er en typisk side, hvor du kan se en Power BI-del af rapporten. Nogle listesider som **Elementer** indeholder også en Power BI-del.
 
@@ -22,20 +22,20 @@ Power BI-rapporter giver dig indblik i din [!INCLUDE[prod_short](includes/prod_s
 
 ![Power BI-del i Business Central.](./media/power-bi-part.png)
 
-## Kom i gang
+## <a name="get-started"></a>Kom i gang
 
-### Forudsætninger
+### <a name="prerequisites"></a>Forudsætninger
 
 Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, skal det aktiveres til Power BI-integration. Denne opgave udføres typisk af en administrator. Du kan finde flere oplysninger i [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] on-premises til Power BI-integration](admin-powerbi-setup.md#setup).
 
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] online er allerede konfigureret til at blive integreret med Power BI.
 
-### Oprette dig som bruger af Power BI
+### <a name="sign-up-power-bi"></a>Oprette dig som bruger af Power BI
 
 Før du kan bruge Power BI sammen med [!INCLUDE[prod_short](includes/prod_short.md)], skal du registrere dig som bruger af Power BI-tjenesten. Hvis du ikke allerede har tilmeldt dig, skal du gå til [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Når du tilmelder dig, skal du bruge din mailadresse og adgangskode.
 
-## <a name="connect"></a>Tilknyt til Power BI - èn gang
+## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Tilknyt til Power BI - èn gang
 
 Når du logger på [!INCLUDE [prod_short](includes/prod_short.md)] første gang, får du sandsynligvis vist en tom Power BI-del (som vist i den forrige figur) på forskellige sider. Det første, du skal gøre, er at oprette forbindelse til din Power BI-konto. Når du har oprettet forbindelse, kan du se rapporter. Du behøver kun at udføre dette trin én gang.
 
@@ -53,15 +53,15 @@ Forbindelsesprocessen starter. Under processen kommunikerer [!INCLUDE [prod_shor
 > [!TIP]
 > Med [!INCLUDE [prod_short](includes/prod_short.md)] online overfører dette trin automatisk Power BI-standardrapporter, der er anvendt i [!INCLUDE [prod_short](includes/prod_short.md)], til dit Power BI-arbejdsområde.
 
-#### Fra [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
+#### <a name="from--on-premises"></a>Fra [!INCLUDE [prod_short](includes/prod_short.md)] on-premises
 
 Oprettelse af forbindelse til Power BI fra [!INCLUDE [prod_short](includes/prod_short.md)] ligner online. Du kan også på siden **AZURE ACTIVE DIRECTORY-TJENESTETILLADELSER** blive bedt om at give adgang til Power BI-tjenester. Hvis du vil tildele adgang, skal du vælge **Godkend Azure-tjenester** og derefter **Acceptér**.
 
 Når forbindelsen er oprettet, kan du vælge en rapport fra Power BI-delen på siderne.
 
-## Arbejde med Power BI-rapporter
+## <a name="work-with-power-bi-reports"></a>Arbejde med Power BI-rapporter
 
-### Vise rapporter på listesider
+### <a name="show-reports-on-list-pages"></a>Vise rapporter på listesider
 
 [!INCLUDE[prod_long](includes/prod_long.md)] indeholder en Power BI-faktaboks på flere nøglelistesider. Denne faktaboks giver ekstra indblik i dataene på listen. Når du flytter mellem rækkerne på listen, opdateres rapporten og filtreres for den valgte post.
 
@@ -72,13 +72,13 @@ Hvis du vil lære, hvordan du opretter rapporter for listesider, skal du se [Opr
 >
 > Hvis du har en ældre version af Business central, skal du gå til handlingslinjen, vælge **Handlinger** > **Vis** > **Vis/Skjul Power BI-rapporter**.
 
-### Skifte rapporter
+### <a name="switch-reports"></a>Skifte rapporter
 
 En Power BI-del på en side kan vise alle de Power BI-rapporter, der er tilgængelige for dig. Hvis du vil skifte til at få vist en anden rapport, skal du vælge handlingen **Vælg rapport** på rullelisten over kommandoer øverst i delen.  
 
 På siden **Power BI-rapportvalg** vises en liste over alle de Power BI-rapporter, du har adgang til. Denne liste hentes fra dine arbejdsområder eller arbejdsområder, som du har delt med dig i Power BI.tjenesten. Vælg **Aktivér** for hver enkelt rapport, der skal vises på startsiden, og vælg derefter **OK**. Du vender tilbage til siden, og den sidste rapport, du har aktiveret, vises. Brug kommandoen **Forrige** og **Næste** til at navigere mellem rapporterne på kommandorullelisten.  
 
-### Hente flere rapporter
+### <a name="get-more-reports"></a>Hente flere rapporter
 
 Hvis der ikke vises nogen rapporter på siden **Power BI-rapportvalg**, eller hvis du ikke kan se den ønskede rapport, skal du vælge **Hent rapporter**. Du kan bruge denne handling til at søge efter rapporter fra to placeringer: *Min organisation* eller fra *Tjenester*.
 
@@ -88,7 +88,7 @@ Hvis der ikke vises nogen rapporter på siden **Power BI-rapportvalg**, eller hv
 > [!TIP]
 > Hvis du har Power BI Desktop, kan du også oprette nye Power BI-rapporter. Når disse rapporter er publiceret til dit Power BI-arbejdsområde, vises de på siden **Power BI-rapportvalg**.  
 
-### Administrere og redigere rapporter
+### <a name="manage-and-modify-reports"></a>Administrere og redigere rapporter
 
 Du kan foretage ændringer af en rapport i Power BI-delen. De ændringer, du foretager, publiceres derefter til Power BI-tjenesten. Hvis rapporten deles med andre brugere, kan de også se ændringerne, medmindre du gemmer ændringerne i en ny rapport.
 
@@ -99,7 +99,7 @@ Når du går tilbage til rollecenteret, vises den opdaterede rapport. Hvis du ha
 > [!NOTE]
 > Denne funktion er ikke tilgængelig for [!INCLUDE [prod_short](includes/prod_short.md)] on-premises.
 
-### <a name="upload"></a>Overføre rapporter
+### <a name="upload-reports"></a><a name="upload"></a>Overføre rapporter
 
 Power BI-rapporter kan distribueres blandt brugere som .pbix-filer. Hvis du har nogen .pbix-filer, kan du overføre og dele dem med alle brugere af [!INCLUDE [prod_short](includes/prod_short.md)]. Rapporterne deles inden for hver virksomhed i [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -110,23 +110,23 @@ Når rapporten overføres til Power BI-arbejdsområdet, overføres den automatis
 > [!NOTE]
 > Hvis du overfører en rapport, kræver det, at du har SUPER-brugerrettigheder i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan heller ikke overføre rapporter med [!INCLUDE [prod_short](includes/prod_short.md)] on-premises. Med on-premises kan du overføre rapporter direkte til dit Power BI-arbejdsområde. Du kan finde flere oplysninger i [Arbejde med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md).
 
-## Løsning af problemer
+## <a name="fixing-problems"></a>Løsning af problemer
 
 Men hvis noget går galt indeholder dette afsnit en løsning til de mest almindelige problemer.  
 
-### Du har ikke en Power BI-konto
+### <a name="you-dont-have-a-power-bi-account"></a>Du har ikke en Power BI-konto
 
 Der er ikke blevet oprettet en Power BI-konto. Fo at få en gyldig Power BI-konto skal du have en licens, og du skal tidligere have været logget på Power BI for at kunne oprette et Power BI-arbejdsområde.
 
-### Meddelelse: Der er ingen aktiverede rapporter. Vælg Vælg rapport for at få vist en oversigt over de rapporter, du kan få vist.
+### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Meddelelse: Der er ingen aktiverede rapporter. Vælg Vælg rapport for at få vist en oversigt over de rapporter, du kan få vist.
 
 Denne meddelelse vises, hvis standardrapporten ikke blev implementeret i Power BI-arbejdsområdet. Eller den blev installeret, men blev ikke opdateret korrekt. Gå til rapporten i dit Power BI-arbejdsområde, vælg **Datasæt**, **Indstillinger**, og opdater derefter legitimationsoplysningerne manuelt. Når datasættet er opdateret, skal du gå tilbage til [!INCLUDE[prod_short](includes/prod_short.md)] og vælge rapporten manuelt på siden **Vælg rapporter**.
 
-#### Du kan ikke se en rapport på siden Vælg rapport på en listeside
+#### <a name="you-cant-see-a-report-on-the-select-report-page-on-a-list-page"></a>Du kan ikke se en rapport på siden Vælg rapport på en listeside
 
 Det skyldes sandsynligvis, at rapportens navn ikke indeholder navnet på listesiden. Ryd filteret for at se en komplet liste over tilgængelige Power BI-rapporter.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Business Central og Power BI](admin-powerbi.md)  
 [Oprette Power BI-rapporter, der viser [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md)  

@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# Workflows i Dynamics 365 Business Central
+# <a name="workflows-in-dynamics-365-business-central"></a>Workflows i Dynamics 365 Business Central
 
 Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Du kan medtage systemopgaver, som f. eks. automatisk bogføring, i workflows. Systemopgaver kan indledes eller efterfølges af brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin.
 
@@ -26,7 +26,7 @@ Standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] understøtt
 
   På siden **workflow-skabeloner** kan du se alle tilgængelige arbejdsprocesser. Prøveversionen af [!INCLUDE[prod_short](includes/prod_short.md)] indeholder mange forudkonfigurerede workflows, som repræsenteres af workflowskabeloner, som du kan kopiere for at oprette nye. Når du åbner en skabelon fra siden **workflow-skabeloner**, og navnet på arbejdsprocessen starter med *MS-*, er skabelonen tilføjet af Microsoft.
 
-## Power Automate-flows
+## <a name="power-automate-flows"></a>Power Automate-flows
 
 Med [!INCLUDE [prod_short](includes/prod_short.md)] online kan du tilmelde dig Power Automate for at oprette effektive automatiserede workflows. Du kører disse workflows fra [!INCLUDE [prod_short](includes/prod_short.md)]. Disse flows kan forbinde interne og eksterne datakilder og værktøjer uden kodning af viden.
 
@@ -36,7 +36,7 @@ Med [!INCLUDE [prod_short](includes/prod_short.md)] online kan du tilmelde dig P
 |Få mere at vide om, hvordan du opretter, redigerer og administrerer flows|[Konfigurere automatiserede flows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) og [Konfigurere øjeblikkelige flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
 |Konfigurere Power Automate-integration med [!INCLUDE[prod_short](includes/prod_short.md)] for brugere som administrator|[Konfigurere Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
 
-## Godkendelsesworkflows
+## <a name="approval-workflows"></a>Godkendelsesworkflows
 
 Oprette en godkendelsesarbejdsgang ved at definere, hvad der starter arbejdsprocessen, og hvad der derefter sker, som følgende:
 
@@ -57,7 +57,7 @@ Eksempler på hændelser med godkendelsesworkflows omfatter bl.a. oprettelse af 
 <!--
 | Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
 [Køb](purchasing-manage-purchasing.md)  

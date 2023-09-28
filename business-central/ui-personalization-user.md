@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 10/11/2022
 ms.author: bholtorf
 ---
-# Tilpasse dit arbejdsområde
+# <a name="personalize-your-workspace"></a>Tilpasse dit arbejdsområde
 
 Du kan tilpasse dit arbejdsområde, så det passer til dit arbejde og dine præferencer. Ændr sider, så der kun vises de oplysninger, du skal bruge, hvis du har brug for det. Tilpasning påvirker kun dit arbejdsområde. Den ændrer ikke, hvordan andre arbejder.
 
@@ -25,13 +25,13 @@ Du kan udføre forskellige ændringer som at flytte eller skjule felter, kolonne
 > Administratorer kan udføre samme layoutændringer, efterhånden som brugerne kan tilpasse arbejdsområdet til en profil, som tildeles til flere brugere. Hvis du vil vide mere om roller, skal du gå til [Tilpasse sider til roller](ui-personalization-manage.md)<br /><br />
 Administratorer kan også tilsidesætte eller deaktivere brugernes tilpasninger, og de kan også definere, hvilke funktioner brugerne skal kunne se i alle eller bestemte regnskaber. Du kan finde flere oplysninger i [Tilpasse Business Central](ui-customizing-overview.md).
 
-## Video
+## <a name="video"></a>Video
 
 I følgende video vises nogle metoder til at tilpasse dit rollecenter.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
-## Sådan ændres kolonnebredden
+## <a name="to-change-the-width-of-a-column"></a>Sådan ændres kolonnebredden
 
 Du kan nemt ændre kolonnestørrelsen på en vilkårlig liste. Træk blot i kanten mellem to kolonner mod venstre eller højre.  
 
@@ -40,7 +40,7 @@ Du kan nemt ændre kolonnestørrelsen på en vilkårlig liste. Træk blot i kant
 
 Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden, på din konto og vises, uanset hvilken enhed du logger på.
 
-## Du kan begynde at tilpasse en side via banneret **Tilpasning**
+## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Du kan begynde at tilpasse en side via banneret **Tilpasning**
 
 1. Åbn en side, du vil tilpasse.
 2. I øverste højre hjørne vælges ![Indstillinger.](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") ikon, og derefter handlingen **Tilpas**.
@@ -58,7 +58,7 @@ Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden,
 6. Vælg elementet, og vælg derefter enten **Flyt**, **Fjern**, **Skjul**, **Vis**, **Vis under "Vis flere"**, **Vis, når skjult**, **Vis altid**, **Angiv/Ryd låst rude** eller **Medtag/Udeluk fra genvej**, afhængigt af typen og tilstanden for brugergrænsefladeelementet. Du kan finde flere oplysninger i [Hvad kan du tilpasse](#What).
 7. Når du er færdig med at ændre layoutet for en eller flere sider, skal du vælge knappen **Udført** på banneret **Tilpas**.
 
-## <a name="What"></a>Hvad kan du tilpasse
+## <a name="what-you-can-personalize"></a><a name="What"></a>Hvad kan du tilpasse
 
 |Hvad vil du foretage dig?|Hvordan du gør det|Kommentarer|
 |----|------------|-------|
@@ -74,7 +74,7 @@ Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden,
 |Føje en ny handling til en side eller en rapport i dit rollecenter.|Vælg bogmærkeikonet på rapportanmodningssiden eller i vinduet Fortæl mig på målsiden.|Se [Bogmærke en side eller en rapport i rollecenteret](ui-bookmarks.md)|
 |Starte altid en liste som udvidet eller skjult|Vælg **Udvid alle** eller **Skjul alle** i øverste venstre hjørne. Du kan også vælge funktionen **Udvid alle** eller **Skjul alle** i menuen til den første kolonne. |Gælder for hierarkilister, der kan skjules|
 
-## <a name="Actions"></a>Tilpasse handlingslinje og menuer
+## <a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a>Tilpasse handlingslinje og menuer
 
 Tilpasning gør det muligt at bestemme, hvilke handlinger der skal vises på navigations- handlingslinjerne samt i rollecentre, og hvor de skal vises. Du kan vise, skjule eller flytte individuelle handlinger eller handlingsgrupper.
 
@@ -93,7 +93,7 @@ En *fremhævet kategori* er en handlingsgruppe, der vises foran den lodrette lin
 > [!NOTE]  
 > Hvis du vil rydde tilpasningen, skal du markere pilespidsen omkring delens design menu og derefter vælge **Ryd tilpasning**.
 
-### Sådan fjernes, skjules og vises handlinger og handlingsgrupper
+### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>Sådan fjernes, skjules og vises handlinger og handlingsgrupper
 
 Når du vil vise eller skjule en handling, definerer indstillingerne under pilespidsen, hvad du kan gøre, afhængigt af handlingstilstanden. 
 
@@ -106,7 +106,7 @@ Når du vil vise eller skjule en handling, definerer indstillingerne under piles
 |**Skjul**|Denne indstilling vises, hvis handlingen eller handlingsgruppen ikke er placeret andre steder på navigations- eller handlingslinjen. Som det er tilfældet med **Fjern**, forsvinder handlingen eller handlingsgruppen fra navigations- eller handlingslinjen, hvis du vælger denne indstilling. Men i tilpasningstilstand vises handlingen eller handlingsgruppen stadig på den aktuelle placering, bortset fra at den er nedtonet.|
 |**Vis**|Denne indstilling vises, hvis handlingen eller handlingsgruppen tidligere har været skjult (nedtonet). Vælges denne indstilling, vises handlingen eller handlingsgruppen på navigations- eller handlingslinjen.|
 
-### Sådan flyttes handlinger og handlingsgrupper
+### <a name="to-move-actions-and-action-groups"></a>Sådan flyttes handlinger og handlingsgrupper
 
 Hvor du kan slippe handlinger eller handlingsgrupper, er angivet af en vandret linje mellem to handlinger eller en kant omkring en handlingsgruppe. Der findes følgende begrænsninger:
 
@@ -116,7 +116,7 @@ Hvor du kan slippe handlinger eller handlingsgrupper, er angivet af en vandret l
 1. Hvis du vil flytte en handling eller handlingsgruppe, skal du trække og slippe den på den ønskede placering på samme måde som med feltet og kolonner.
 2. Hvis du vil flytte en handling eller handlingsgruppe til en anden handlingsgruppe, der er tom, skal du trække handlingen eller handlingsgruppen og slippe den i feltet **Slip en handling her**.
 
-## <a name="Parts"></a>Tilpasning af dele
+## <a name="personalizing-parts"></a><a name="Parts"></a>Tilpasning af dele
 
 Dele er områder på en side, der typisk består af flere felter, diagrammer eller andet indhold. En del vises med en farvet ramme, når du fokuserer på delen. Et rollecenters startskærm har f.eks. flere dele. På grund af den veldefinerede grænse kan du tilpasse hele delen og dens indhold.
 
@@ -126,7 +126,7 @@ Dele er områder på en side, der typisk består af flere felter, diagrammer ell
 
 Du kan fjerne alle de tilpasningsændringer, du har foretaget i en enkelt del, ved at vælge indstillingen **Fjern tilpasning** under delens pilespids. Hvis du fjerner markering af en del, påvirker det kun, om en del er ændret, ikke placeringen eller synligheden af delen på siden.  
 
-## Sådan fjernes tilpasning
+## <a name="to-clear-personalization"></a>Sådan fjernes tilpasning
 
 På et tidspunkt ønsker du måske at fjerne nogle eller alle de tilpasningsændringer, du har foretaget på en side i tidens løb.
 
@@ -143,7 +143,7 @@ På et tidspunkt ønsker du måske at fjerne nogle eller alle de tilpasningsænd
 |**Kun Felter og Kolonner**|Fjerner alle de tilpasningsændringer, du nogensinde har foretaget for siden undtagen ændringer på navigations- eller handlingslinjen. Sådanne ændringer omfatter ændringer af felter, kolonner, dele og fliser. |
 |**Alle**|Fjerner alle de tilpasningsændringer, du har foretaget på siden, så siden får sit oprindelige udseende. Sådanne ændringer omfatter ændringer af navigations- og handlingslinjer, felter, kolonner, dele og fliser.|
 
-## Andre punkter af interesse
+## <a name="other-points-of-interest"></a>Andre punkter af interesse
 
 Her er nogle forslag, der kan hjælpe dig med at opnå en bedre forståelse.
 
@@ -158,7 +158,7 @@ Her er nogle forslag, der kan hjælpe dig med at opnå en bedre forståelse.
    > [!TIP]
    > Som administrator kan du skjule elementet **Automatisering** fra brugere. Flere oplysninger i [Konfigurere Power Automate-integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## Se også
+## <a name="see-also"></a>Se også
 [Tilpasse sider til profiler](ui-personalization-manage.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
