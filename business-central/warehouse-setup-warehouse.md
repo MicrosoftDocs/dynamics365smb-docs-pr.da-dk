@@ -10,7 +10,7 @@ ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 732
 ms.date: 06/25/2021
 ms.author: bholtorf
 ---
-# <a name="setting-up-warehouse-management"></a>Sådan konfigureres Warehouse Management
+# Sådan konfigureres Warehouse Management
 
 En virksomheds distributionsstrategi afspejles i konfigurationen af virksomhedens lagerprocesser. Dette omfatter bl.a. angivelse af, hvordan forskellige varer håndteres på forskellige lagerlokationer, f.eks. graden af placeringsstyring, og hvilket omfang af arbejdsgange der kræves mellem lageraktiviteterne.  
 
@@ -35,7 +35,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Få idéer til, hvordan du kan reorganisere lokationer, placeringer eller zoner for at opnå mere effektive lageraktiviteter.|[Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)|
 |Angiv standardrapporter, der skal bruges til forskellige dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Montagestyring](assembly-assemble-items.md)  

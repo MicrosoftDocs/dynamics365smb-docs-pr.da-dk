@@ -239,8 +239,6 @@ Undlad at bruge en finanskonto, der tillader direkte bogføring i din bankkontos
 
 Fejlen opstår ofte, når der angives en primosaldo for en bankkonto. Det er vigtigt, at du ikke bogfører primosaldoen direkte i finansregnskabet. De poster på finanskontoen, der bogføres direkte på finanskontoen, vil medføre problemer. Disse poster kan f.eks. forhindre dig i at afstemme din bankkonto. I forbindelse med bankkonti i udenlandsk valuta kan posterne skabe øgede differencer, når du bogfører flere bankafstemninger, pga. valutakursreguleringer. Du bogfører ofte primosaldoen direkte på bankkontoen, og beløbet ophører derefter med finanskontoen. Alternativt kan du tilbageføre den senere til en angivet finanskonto, som du har brugt til at afstemme primosaldoen med finansbalancen. I begge tilfælde skal du udligne en direkte bogføring til finanskontoen, før du starter din første bankafstemning, og især hvis bankkontoen er i udenlandsk valuta.
 
-## Se relateret [Microsoft-træning](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
-
 ## Se også
 
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  

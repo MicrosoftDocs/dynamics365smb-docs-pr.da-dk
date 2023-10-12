@@ -42,8 +42,6 @@ Hvis du vil undersøge prognosen ud over prognoseposter, kan du også se pengest
 2. Vælg en pengestrømsprognose, og vælg derefter handlingen **Pengestrømskladde**.  
 3. På siden **Pengestrømskladde** skal du vælge handlingen **Foreslå kladdelinjer**.  
 
-## Se relateret [Microsoft-træning](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
-
 ## Se også
 
 [Konfigurere Finans](finance-setup-finance.md)  

@@ -5,15 +5,15 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/09/2023
+ms.date: 09/25/2023
 ms.custom: bap-template
 ms.search.form: '7328, 7348'
 ---
-# <a name="set-up-warehouse-employees"></a>Definere lagermedarbejdere
+# Konfigurere lagermedarbejdere
 
-Hver bruger, som udfører lageraktiviteter, skal være defineret som en lagermedarbejder og tildelt en standardlokation. [!INCLUDE [prod_short](includes/prod_short.md)] filtrerer lageraktiviteter til medarbejderens standardplacering. De kan kun udføre lageraktiviteter på lokationen. Du kan også tildele en bruger på andre lokationer. De kan få adgang til, men ikke udføre aktiviteter på disse placeringer.
+Du skal konfigurere hver bruger, som udfører lageraktiviteter, skal være defineret som en lagermedarbejder og tildele en standardlokation. [!INCLUDE [prod_short](includes/prod_short.md)] filtrerer lageraktiviteter til medarbejderens standardplacering. De kan kun udføre lageraktiviteter på lokationen. Du kan også tildele en bruger på andre lokationer. De kan få adgang til, men ikke udføre aktiviteter på disse placeringer.
 
-## <a name="to-set-up-warehouse-employees"></a>Sådan defineres lagermedarbejdere
+## Sådan defineres lagermedarbejdere  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -22,7 +22,12 @@ Hver bruger, som udfører lageraktiviteter, skal være defineret som en lagermed
 5. Aktiver til/fra-feltet **Standard** for at definere lokationen som den eneste lokation, hvor medarbejderen kan udføre lageraktiviteter.  
 6. Gentag disse trin for at tildele andre medarbejdere til lokationer eller for at tildele andre lokationer til eksisterende lagermedarbejdere.  
 
-## <a name="see-also"></a>Se også
+> [!TIP]
+> Du kan også bruge handlingen **Tilføj mig som lagermedarbejder** til hurtigt at føje dig selv til listen over lagermedarbejdere. Dette er f.eks. nyttigt, når du tester funktionerne.
+
+## Se relateret [Microsoft-træning](/training/modules/get-started-warehouse-management/)
+
+## Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

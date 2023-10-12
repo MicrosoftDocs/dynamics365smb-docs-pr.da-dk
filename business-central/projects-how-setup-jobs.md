@@ -3,7 +3,7 @@ title: 'Oprette sager, priser og sagsbogføringsgrupper'
 description: 'Beskriver, hvordan du definerer generelle oplysninger om sager.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/25/2023
 ms.custom: bap-template
@@ -81,29 +81,27 @@ Et aspekt af planlægningssager er at beslutte, hvilke bogføringkonti, der skal
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagsbogføringsgrupper**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**, og udfyld derefter felterne som beskrevet i følgende tabel.  
 
-| Feltet Konto | Beskrivelse |
-| --- | --- |
-| **Kode** |En identitet for bogføringsgruppen. Du kan indtaste op til 10 tegn inkl. mellemrum. |
-| **Konto til VIA-omkostning** |VIA-kontoen for den beregnede omkostning for sagens VIA, som er en anlægsaktivkonto på balancen. |
-| **Konto til periodisk VIA-omkostning** |En konto til metoden Kostværdi eller Salgsomkostning for beregning af igangværende arbejde. Kontoen er til skyldige omkostninger på balancen. Der bogføres til denne konto, når reguleringen af igangværende arbejde kræver, at de forbrugsomkostninger, der er bogført til resultatopgørelsen, forhøjes. |
-| **Konto til anvendte sagsomkostninger** |En modkonto til kontoen til VIA-omkostninger, som er en kontra for en konto med negative udgifter. |
-| **Konto til anvendte vareomkostninger** |En modkonto til kontoen til VIA-omkostninger, som er en kontra for en konto med negative udgifter. |
-| **Konto til anvendte ressourceomkostninger** |En modkonto til kontoen til VIA-omkostninger, som er en kontra for en konto med negative udgifter. |
-| **Konto til anvendte omkostninger** |En modkonto til kontoen til VIA-omkostninger, som er en kontra for en konto med negative udgifter. |
-| **Konto til regulering af sagsomkostning** |Modkontoen til kontoen til de periodiske VIA-omkostninger, som er en udgiftskonto. |
-| **Driftskonto (budget)** |Den salgskonto, der vil blive brugt til finansudgifter i sagsopgaver med denne bogføringsgruppe. Hvis den er tom, bruges den finanskonto, som blev angivet på sagsplanlægningslinjen. |
-| **Konto til periodisk VIA-salg** |Kontoen for igangværende arbejde for den beregnede salgsværdi af igangværende arbejde, som er en konto for periodiske indtægter på balancen. Der bogføres til denne konto, når reguleringen for igangværende arbejde kræver, at den registrerede omsætning, skal forhøjes. |
-| **Konto til faktureret VIA-salg** |Kontoen for den fakturerede salgsværdi af VIA, som ikke kan registreres. Det er en konto til ikke-indtjent omsætning på balancen. |
-| **Konto til anvendt sagssalg** |Modkontoen til kontoen til det fakturerede VIA-salg, som er en kontraindtægtskonto. |
-| **Konto til justering af sagssalg** |Modkontoen til sagssalgskontoen for VIA, som er en indtægtskonto. |
-| **Konto til realiserede omkostninger** |Den udgiftskonto, som indeholder de registrerede omkostninger for sagen. Det er normalt en debetafrundingskonto. |
-| **Konto til realiseret salg** |Den indtægtskonto, som indeholder den registrerede indtægt for sagen. Det er normalt en kreditafrundingskonto. |
-
-## Se relateret [Microsoft-træning](/training/paths/set-up-jobs-resources/)
+| Feltet Konto | Beskrivelse | Brugt i WIP-type |
+| --- | --- |  --- |
+| **Kode** |En identitet for bogføringsgruppen. Du kan indtaste op til 10 tegn inkl. mellemrum. | |
+| **Konto til VIA-omkostning** |VIA-kontoen for den beregnede omkostning for sagens VIA, som er en anlægsaktivkonto på balancen. | Anvendt omkostning, realiserede omkostninger|
+| **Konto til periodiske VIA-omkostninger** |En konto til metoden Kostværdi eller Salgsomkostning for beregning af igangværende arbejde. Kontoen er til skyldige omkostninger på balancen. Der bogføres til denne konto, når reguleringen af igangværende arbejde kræver, at de forbrugsomkostninger, der er bogført til resultatopgørelsen, forhøjes. | Periodiserede omkostninger|
+| **Konto til anvendte sagsomkostninger** |En modkonto til kontoen til VIA-omkostninger, som er en kontra for en konto med negative udgifter. Bruges, når **WIP-bogføringsmetode anvendt** er angivet til *Sag*. | Anvendte omkostninger, realiserede omkostninger|
+| **Konto til anvendte vareomkostninger** |Samme som **Sagsomkostninger anvendt konto**, men brugt, når **WIP-bogføringsmetode anvendt** er angivet til *Sagsposten*.| |
+| **Konto til anvendte ressourceomkostninger** |Samme som **Sagsomkostninger anvendt konto**, men brugt, når **WIP-bogføringsmetode anvendt** er angivet til *Sagsposten*.| |
+| **Konto til anvendte finansomkostninger** |Samme som **Sagsomkostninger anvendt konto**, men brugt, når **WIP-bogføringsmetode anvendt** er angivet til *Sagsposten*.| |
+| **Konto til justering af sagsomkostninger** |Modkontoen til kontoen til de periodiske VIA-omkostninger, som er en udgiftskonto. | Periodiserede omkostninger|
+| **Driftskonto (budget)** |Den salgskonto, der vil blive brugt til finansudgifter i sagsopgaver med denne bogføringsgruppe. Hvis den er tom, bruges den finanskonto, som blev angivet på sagsplanlægningslinjen. | |
+| **Konto til periodisk VIA-salg** |Kontoen for igangværende arbejde for den beregnede salgsværdi af igangværende arbejde, som er en konto for periodiske indtægter på balancen. Der bogføres til denne konto, når reguleringen for igangværende arbejde kræver, at den registrerede omsætning, skal forhøjes. | Periodiseret salg, realiseret salg|
+| **Konto til faktureret VIA-salg** |Kontoen for den fakturerede salgsværdi af VIA, som ikke kan registreres. Det er en konto til ikke-indtjent omsætning på balancen. | Realiseret salg, anvendt salg|
+| **Konto til anvendt sagssalg** |Modkontoen til kontoen til det fakturerede VIA-salg, som er en kontraindtægtskonto. | Anvendt salg, realiseret salg|
+| **Konto til justering af sagssalg** |Modkontoen til sagssalgskontoen for VIA, som er en indtægtskonto. | Periodiseret salg|
+| **Konto til realiserede omkostninger** |Den udgiftskonto, som indeholder de registrerede omkostninger for sagen. Det er normalt en debetafrundingskonto. | Realiserede omkostninger|
+| **Konto til realiseret salg** |Den indtægtskonto, som indeholder den registrerede indtægt for sagen. Det er normalt en kreditafrundingskonto. | Realiseret salg|
 
 ## Se også
 
-[Oprette projektstyring](projects-setup-projects.md)  
+[Opsætte projektstyring](projects-setup-projects.md)  
 [Video: Sådan oprettes en sag i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Administrere projekter](projects-manage-projects.md)  
 [Finans](finance.md)  

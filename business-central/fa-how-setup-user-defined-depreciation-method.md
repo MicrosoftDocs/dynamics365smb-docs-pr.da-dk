@@ -9,7 +9,7 @@ ms.date: 07/05/2021
 ms.author: bholtorf
 ---
 
-# <a name="set-up-fixed-assets-with-user-defined-depreciation-methods"></a>Oprette anlægsaktiver med brugerdefinerede afskrivningsmetoder
+# Oprette anlægsaktiver med brugerdefinerede afskrivningsmetoder
 
 Du kan bruge [!INCLUDE[prod_short](includes/prod_short.md)] til at definere de brugerdefinerede afskrivningsmetoder, som beskrevet her.
 
@@ -23,20 +23,20 @@ Formlen for beregning af afskrivningsbeløbet er:
 > [!NOTE]  
 > Mens datoen i feltet **Første brugerdef. dato**bruges til at bestemme tidsintervallerne er det den **startdato for afskrivningen**, der bruges til at bestemme antallet af afskrivningsdage. Hvis **Første brugerdef. afskr.dato** ligger tidligere end datoen i feltet **Afskriv fra den**, vil procenten i den første periode i afskrivningstabellen kun blive delvist brugt i forbindelse med den automatiske beregning af første afskrivning. Det betyder, at anlægget ikke er helt afskrevet ved slutningen af den sidste periode.
 
-## <a name="to-assign-a-depreciation-book-to-a-fixed-asset-with-a-user-defined-depreciation-method"></a>Sådan knyttes en afskrivningsprofil til et anlægsaktiv med en brugerdefineret afskrivningsmetode
+## Sådan knyttes en afskrivningsprofil til et anlægsaktiv med en brugerdefineret afskrivningsmetode
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsaktiver**, og vælg derefter det relaterede link.
 2. Vælg det anlægsaktiv, som du vil konfigurere en anlægsafskrivningsprofil for.
 3. Vælg den **relaterede** handling, og vælg derefter **anlægsaktiver** og derefter **Afskrivningsprofiler**. Derved åbnes siden **Anlægsafskrivningsprofiler**.
 
-   Som standard er nogle af de felter, der skal udfyldes, på basis af nedenstående instruktioner skjult, så de skal vises. Hvis du vil gøre dette, skal du tilpasse siden. Du kan finde flere oplysninger i [Start af tilpasning af en side gennem det personlige banner](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+   Som standard er nogle af de felter, der skal udfyldes, på basis af nedenstående instruktioner skjult, så de skal vises. Hvis du vil gøre dette, skal du tilpasse siden. Du kan finde flere oplysninger i [Start af tilpasning af en side gennem det personlige banner](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 4. Du skal vælge **Brugerdefineret** i feltet **Afskrivningsmetode**.
 5. Vælg den **afskrivningstabel**, du vil bruge, i feltet **Afskrivningstabelkode**.
 6. Vælg startdatoen for afskrivningsberegningen i feltet **Afskriv fra den**.
 7. Når du bruger en brugerdefineret metode, angives feltet **Første brugerdef. dato** skal være angivet til en dato, der er identisk med eller tidligere end feltet **Afskriv fra den**. Hvis du har valgt en værdi i feltet **Periodelængde** i afskrivningstabellen, skal datoen i feltet **Første brugerdef. afskr.dato** være startdatoen i en regnskabsperiode.
 8. Udfyld feltet **Antal afskrivningsår** eller feltets **Afskriv til den**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
-## <a name="to-set-up-user-defined-depreciation-methods"></a>Sådan konfigureres brugerdefinerede afskrivningsmetoder
+## Sådan konfigureres brugerdefinerede afskrivningsmetoder
 
 På siden **Afskrivningstabel** kan du oprette brugerdefinerede afskrivningsmetoder. For eksempel kan du konfigurere afskrivning baseret på antal enheder.  
 
@@ -56,11 +56,11 @@ Sum af cifre = 1 + 2 + 3 + 4 = 10 Afskrivning:
 * År 3 = 2/10  
 * År 4 = 1/10  
 
-### <a name="depreciation-based-on-number-of-units"></a>Afskrivning baseret på antal enheder
+### Afskrivning baseret på antal enheder
 
 Denne brugerdefinerede metode kan også bruges til afskrivning baseret på antal enheder, f.eks. i forbindelse med produktionsmaskiner med fastlagt levetidskapacitet. På siden **Afskrivningstabeller** kan du angive antallet af enheder, der kan produceres i hver enkelt periode (måned, kvartal, år eller regnskabsperiode).  
 
-### <a name="example---user-defined-depreciation"></a>Eksempel - Brugerdefineret afskrivning
+### Eksempel - Brugerdefineret afskrivning
 
 Du bruger en afskrivningsmetode, der gør det muligt at afskrive aktiver hurtigere af skattemæssige årsager.  
 
@@ -93,7 +93,7 @@ I det foregående eksempel er begge felter **Første brugerdef. dato** og **Afsk
 | 31-12-24 |Afskrivninger |Ingen |Ingen |0 |
 
 
-## <a name="see-also"></a>Se også
+## Se også
 [Opsætning af Anlægsaktiver](fa-setup.md)  
 [Anlægsaktiver](fa-manage.md)  
 [Opsætte afskrivning af anlægsaktiv](fa-how-setup-depreciation.md)  

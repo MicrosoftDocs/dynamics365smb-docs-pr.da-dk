@@ -65,7 +65,7 @@ sections:
       - question: |
           Hvor finder jeg det pågældende linjenummer?
         answer: |
-          Dokumenter som salgsordrer eller købsfakturaer består af overskrifter og linjer. Hver linje har et nummer, som [!INCLUDE [prod_short](includes/prod_short.md)] bruger til at identificere den pågældende linje. Det betyder, at der muligvis vises en advarsel eller en fejlmeddelelse om, at noget er forkert i linjenummer 1000. I standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] er linjenumre skjulte. Hvis du vil se linjenumrene, skal du tilpasse den aktuelle side og tilføje **Linjenr.** . Flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+          Dokumenter som salgsordrer eller købsfakturaer består af overskrifter og linjer. Hver linje har et nummer, som [!INCLUDE [prod_short](includes/prod_short.md)] bruger til at identificere den pågældende linje. Det betyder, at der muligvis vises en advarsel eller en fejlmeddelelse om, at noget er forkert i linjenummer 1000. I standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] er linjenumre skjulte. Hvis du vil se linjenumrene, skal du tilpasse den aktuelle side og tilføje **Linjenr.** . Flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
       - question: |
           Hvorfor beskriver Hjælp funktioner, som jeg ikke kan få adgang til?
         answer: |
@@ -90,7 +90,7 @@ sections:
 
           Hvis den konto, du logger på med, er en ikke-Microsoft 365-arbejdskonto (f.eks. joe@mysolution.com), og du har et Microsoft 365-abonnement, kan du knytte dit domæne (*mysolution.com*) til Microsoft 365-abonnementet. Få mere at vide på [Hvad er et domæne?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) i Microsoft 365-indholdet.  
 
-          Hvis du ikke har et Microsoft 365-abonnement, og du ikke ønsker at købe et, så tilbyder vi en ny Azure Active Directory-lejer, når du logger på, så du kan få adgang til de avancerede administrationsværktøjer på Azure-portalen.  
+          Hvis du ikke har et Microsoft 365-abonnement, og du ikke ønsker at købe et, så tilbyder vi en ny Microsoft Entra-lejer, når du logger på, så du kan få adgang til de avancerede administrationsværktøjer på Azure-portalen.  
       - question: |
           Hvad indebærer integration med Microsoft 365?
         answer: |

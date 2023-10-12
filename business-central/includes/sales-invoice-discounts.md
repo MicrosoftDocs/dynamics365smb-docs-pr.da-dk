@@ -9,7 +9,7 @@ Når du har indsat alle varer på linjerne, kan du beregne fakturarabatten for d
 Rabatten beregnes ud fra alle linjer i salgsdokumentet, hvor afkrydsningsfeltet **Tillad fakturarabat** er markeret. Som standard er fakturarabatter tilladt. Men linjer med varegebyrer er f.eks. ikke medtaget i beregningen af fakturarabatten. Hvis du vil anvende en rabat på disse linjer, skal du angive værdien i feltet **Linjerabat i %** på linjerne.  
 
 > [!NOTE]
-> Felterne **Tillad fakturarabat** og **Linjerabatbeløb** er som standard skjult på linjerne. Hvis felterne ikke er tilgængelige, kan du tilføje dem ved at tilpasse siden. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+> Felterne **Tillad fakturarabat** og **Linjerabatbeløb** er som standard skjult på linjerne. Hvis felterne ikke er tilgængelige, kan du tilføje dem ved at tilpasse siden. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 > [!TIP]
 > Hvis feltet **Beregn fakturarabat** er markeret på siden **Salgsopsætning**, beregnes fakturarabatten automatisk. Når beregningen sker anderledes, afhængigt af den type salgsdokument, du bruger.

@@ -111,8 +111,6 @@ Du kan angive en valutakode på en finanskladdelinje og bogføre linjen til en f
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Se relateret [Microsoft-træning](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
-
 ## Se også
 
 [Opdatere valutakurser](finance-how-update-currencies.md)  

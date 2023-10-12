@@ -10,7 +10,7 @@ ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysi
 ms.date: 06/11/2021
 ms.author: jswymer
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-"></a>Oprettelse af Power BI-rapporter til visning af listedata i [!INCLUDE[prod_short](includes/prod_short.md)]
+# Oprettelse af Power BI-rapporter til visning af listedata i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_long](includes/prod_long.md)] indeholder et kontrolelement for Power BI-faktaboksen på mange nøglelistesider. Formålet med denne faktaboks er at vise Power BI-rapporter, der er relateret til poster på listerne, hvilket giver ekstra indblik i dataene. Formålet er, at rapporten opdateres for den valgte post, når du bevæger dig mellem rækkerne på listen.
 
@@ -19,7 +19,7 @@ ms.author: jswymer
 > [!NOTE]
 > Generelle oplysninger om oprettelse og udgivelse af Power BI-rapporter til Business Central finder du i [Oprettelse af Power BI-rapporter for at vise [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md). 
 
-## <a name="prerequisites"></a>Forudsætninger
+## Forudsætninger
 
 - En Power BI-konto.
 - Power BI Desktop.
@@ -27,7 +27,7 @@ ms.author: jswymer
 <!-- 
 For more information about getting started, see [Use [!INCLUDE[prod_short](includes/prod_short.md)] as a Power BI Data Source](across-how-use-financials-data-source-powerbi.md).-->
 
-## <a name="create-a-report-for-a-list-page"></a>Oprette en rapport til en listeside
+## Oprette en rapport til en listeside
 
 1. Start Power BI Desktop.
 2. Vælg **Hent data**, og begynd at vælge datakilden for rapporten.
@@ -75,7 +75,7 @@ For more information about getting started, see [Use [!INCLUDE[prod_short](inclu
 
     Hvis rapporten er designet korrekt, vises den.  
 
-## <a name="set-the-report-size-and-color"></a>Angive størrelse og farve for rapporten
+## Angive størrelse og farve for rapporten
 
 Størrelsen på rapporten skal angives til 325 x 310 pixel. Denne størrelse angiver rapportens korrekte skalering på den ledige plads i Power BI-faktaboksens kontrolelementet i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil angive størrelsen på rapporten, skal du placere fokus uden for rapportens layoutområde og derefter vælge malerulleikonet.
 
@@ -88,35 +88,35 @@ Hvis baggrunden for rapporten skal passe ind i baggrundsfarven for kontrolelemen
 > [!TIP]
 > Brug [!INCLUDE [prod_short](includes/prod_short.md)]-temafilen til at oprette rapporter med samme farveskema som [!INCLUDE [prod_short](includes/prod_short.md)]-apps. Du kan finde flere oplysninger i [Brug [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttema](across-how-use-financials-data-source-powerbi.md#theme).
 
-## <a name="reports-with-multiple-pages"></a>Rapporter med flere sider
+## Rapporter med flere sider
 
 Med Power BI kan du oprette en enkelt rapport med flere sider. Men i forbindelse med rapporter, der vises med listesider, kan vi ikke anbefale, at de har mere end én side. Power BI-faktaboksen viser kun den første side i rapporten.
 
-## <a name="fixing-problems"></a>Løsning af problemer
+## Løsning af problemer
 
 Denne sektion forklarer, hvordan du løser problemer, som du kan støde på, når du forsøger at få vist en Power BI-rapport for en listeside i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="you-cant-see-the-power-bi-factbox-on-a-list-page"></a>Du kan ikke se Power BI-faktaboksen på en listeside
+### Du kan ikke se Power BI-faktaboksen på en listeside
 
 Power BI-faktaboksen er som standard skjult. Hvis du vil have vist faktaboksen på en side, skal du vælge **Handlinger** > **Vis** > **Vis/skjul Power BI-rapporter** på handlingslinjen.
 
-### <a name="you-cant-see-the-report-in-the-select-report-pane"></a>Du kan ikke se rapporten i ruden Vælg rapport
+### Du kan ikke se rapporten i ruden Vælg rapport
 
 Rapportens navn indeholder ikke navnet på den viste listeside. Ryd filteret for at se en komplet liste over tilgængelige Power BI-rapporter.  
 
-### <a name="report-is-loaded-but-blank-not-filtered-or-filtered-incorrectly"></a>Rapporten er indlæst, men tom, ikke filtreret eller filtreret forkert
+### Rapporten er indlæst, men tom, ikke filtreret eller filtreret forkert
 
 Kontrollér, at rapportfilteret indeholder den rette primære nøgle. I de fleste tilfælde er dette felt **Nr.** men i tabellen **Finanspost** skal du f.eks. bruge feltet **Løbenr.**
 
-### <a name="report-is-loaded-but-it-shows-a-page-you-didnt-expect"></a>Rapporten indlæses, men viser en side, du ikke forventede
+### Rapporten indlæses, men viser en side, du ikke forventede
 
 Kontrollér, at den side, du vil have vist, er den første side i rapporten.  
 
-### <a name="report-appears-with-an-unwanted-gray-boarder-or-its-too-small-or-too-large"></a>Rapporten vises med en uønsket grå kant, er for lille eller for stor
+### Rapporten vises med en uønsket grå kant, er for lille eller for stor
 
 Kontroller, at rapportstørrelse er indstillet til 325 x 310 pixel. Gem rapporten, og opdater derefter oversigtssiden.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Aktivering af dine virksomhedsdata for Power BI](admin-powerbi.md)  
 [Brug af [!INCLUDE[prod_short](includes/prod_short.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  

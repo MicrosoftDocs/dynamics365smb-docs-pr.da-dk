@@ -345,12 +345,10 @@ Hvis du vil se, hvilken måleenhed der bruges i feltet varighed, skal du skrive 
 
 Hvis måleenheden f.eks. er timer, konverteres tallet 5 til 5 timer.
 
-## Se relateret [Microsoft-træning](/training/modules/explore-modify-info-dynamics-365-business-central/)
-
 ## Se også
 
 [Arbejd med [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
-[Beregning af forfaldsdato for køb](purchasing-date-calculation-for-purchases.md)  
+[Beregne dato for køb](purchasing-date-calculation-for-purchases.md)  
 [Indtaste kriterier i filtre](ui-enter-criteria-filters.md)  
 
 

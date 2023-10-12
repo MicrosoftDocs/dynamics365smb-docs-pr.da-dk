@@ -74,8 +74,6 @@ I følgende tabel beskrives standard betalings reglerne i [!INCLUDE[prod_short](
 | Lav              | 4        | Nr.                    | Nr.                             | En afstemning                      |
 | Lav              | 5        | Nr.                    | Nr.                             | Flere afstemninger               |
 
-## Se relateret [Microsoft-træning](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
-
 ## Se også
 [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  

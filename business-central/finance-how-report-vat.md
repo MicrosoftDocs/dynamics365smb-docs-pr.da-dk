@@ -148,8 +148,6 @@ I følgende tabel beskrives kodeenheder, du skal oprette til rapporten.
 > [!Note]
 > Når du opretter kodeenheder til rapporten, skal du være opmærksom på værdien i feltet **Momsrapportversion**. Dette felt skal afspejle versionen af den rapport, der blev/bliver krævet af skattemyndighederne. Du kan f.eks. angive **2021** i feltet for at angive, at rapporten opfylder kravene for dette år. For at finde den aktuelle version skal du kontakte skattemyndighederne.  
 
-## Se relateret [Microsoft-træning](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Se også
 
 [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)  

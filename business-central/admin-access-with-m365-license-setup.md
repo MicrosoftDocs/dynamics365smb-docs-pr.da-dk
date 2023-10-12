@@ -6,20 +6,22 @@ ms.author: mikebc
 ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 11/03/2022
+ms.date: 09/28/2023
 ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
-ms.search.form: 9061
+ms.search.form: '9061,'
 ---
-# <a name="set-up-business-central-access-in-teams-with-microsoft-365-licenses"></a>Konfigurere Business Central-adgang i Teams med Microsoft 365-licenser
+# Konfigurere Business Central-adgang i Teams med Microsoft 365-licenser
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Administratorer skal udføre flere aktiviteter, før brugere kan få adgang til [!INCLUDE [prod_short](includes/prod_short.md)] med deres Microsoft 365-licens. Nedenstående trin repræsenterer den opsætning, der som minimum kræves for at komme i gang. Hvis du vil vide mere om adgang med Microsoft 365-licenser, skal du gå til [Business Central-adgang med Microsoft 365-licenser](admin-access-with-m365-license.md).
 
-## <a name="guidelines"></a>Retningslinjer
+## Retningslinjer
 
 Opsætning af adgang til Microsoft 365-licenser omfatter følgende opgaver:
 
-||Opgave|Påkrævet|
+|Trin|Opgave|Påkrævet|
 |-|-|-|
 |1|[Konfigurere de Business Central-data, som Microsoft 365-licensbrugere har tilladelse til at få vist](#configure-permissions)|![markering](media/check.png "check")|
 |2|[Aktivér adgang med Microsoft 365-licenser til Business Central-miljø](#enable-access-with-microsoft-365-licenses)|![markering](media/check.png "check")|
@@ -36,7 +38,7 @@ Opsætning af adgang til Microsoft 365-licenser omfatter følgende opgaver:
 > 2. Gå til afsnittet **Gør mere med Business Central**, og vælg **Adgang med Microsoft 365-licenser** på siden **Assisteret opsætning**.
 > 3. Følg anvisningerne.  
 
-## <a name="configure-permissions"></a>Konfigurer tilladelser
+## Konfigurer tilladelser
 
 [!INCLUDE [prod_short](includes/prod_short.md)] har et sikkert design og minimerer risikoen ved at give adgang til Microsoft 365-brugere som standard. Administratorer skal konfigurere objekttilladelser, der bestemmer, hvilke tabeller, sider og rapporter der er adgang til i Teams, der kun har en Microsoft 365-licens. Disse tilladelser er de starttilladelser, der tildeles, når en bruger logger på første gang med Microsoft 365-licensen. 
 
@@ -50,7 +52,7 @@ Konfigurere starttilladelser:
 Med denne konfiguration bliver brugere, der kun har en Microsoft 365-licens, føjet til listen **Brugere**, når de åbner [!INCLUDE [prod_short](includes/prod_short.md)] første gang. Du kan finde flere oplysninger om brugere i [Oprette brugere i henhold til licenser](ui-how-users-permissions.md).
 
 > [!NOTE]
-> Når listen med brugere i [!INCLUDE [prod_short](includes/prod_short.md)] synkroniseres med brugere i Microsoft 365, tilføjes kun brugere, der har en [!INCLUDE [prod_short](includes/prod_short.md)]-licens, til [!INCLUDE [prod_short](includes/prod_short.md)]-brugerliste. Hvis du vil have mere administrativ kontrol over tilladelser og profiler, kan du tildele en sikkerhedsgruppe til miljøet. Når miljøer er sikret ved hjælp af en sikkerhedsgruppe og giver adgang med Microsoft 365-licenser, omfatter funktionen **Opdater brugere fra Microsoft 365** en handling på siden **Brugere** også brugere, der kun har en Microsoft 365-licens. Du kan få mere at vide om sikring af miljøer i afsnittet [Administrere adgang med Azure Active Directory-grupper](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) i hjælp til udviklere og it-fagfolk.
+> Når listen med brugere i [!INCLUDE [prod_short](includes/prod_short.md)] synkroniseres med brugere i Microsoft 365, tilføjes kun brugere, der har en [!INCLUDE [prod_short](includes/prod_short.md)]-licens, til [!INCLUDE [prod_short](includes/prod_short.md)]-brugerliste. Hvis du vil have mere administrativ kontrol over tilladelser og profiler, kan du tildele en sikkerhedsgruppe til miljøet. Når miljøer er sikret ved hjælp af en sikkerhedsgruppe og giver adgang med Microsoft 365-licenser, omfatter funktionen **Opdater brugere fra Microsoft 365** en handling på siden **Brugere** også brugere, der kun har en Microsoft 365-licens. Du kan få mere at vide om sikring af miljøer i afsnittet [Administrere adgang med Microsoft Entra-grupper](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) i hjælp til udviklere og it-fagfolk.
 
 > [!TIP]
 > Er du på udkig efter en hurtigere måde at komme i gang på, når du prøver denne funktion i en sandkasse eller evalueringsvirksomhed? Tildel det **D365 læse**-tilladelsessæt, som giver tilladelse til de fleste objekter.  
@@ -59,7 +61,7 @@ Når du arbejder med flere miljøer, skal der tilknyttet licenskonfiguration til
 
 Du kan finde flere oplysninger om rettigheder i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md) og [Sammensætte tilladelsessæt](/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing).
 
-## <a name="enable-access-with-microsoft-365-licenses"></a>Aktivere adgang med Microsoft 365-licenser
+## Aktivere adgang med Microsoft 365-licenser
 
 Adgang med Microsoft 365-licenser er som standard deaktiveret. Adgang skal være aktiveret uafhængigt for hvert miljø, hvilket giver administratorerne mulighed for at styre den midlertidigt inddelte fase i organisationen. Du kan aktivere adgang ved hjælp af [!INCLUDE [prod_short](includes/prod_short.md)] Administration: 
 
@@ -69,11 +71,13 @@ Adgang med Microsoft 365-licenser er som standard deaktiveret. Adgang skal være
 4. Aktiver i ruden **Microsoft 365-licenser**. 
 5. Vælg **Gem**, når du er færdig, og accepter bekræftelsen. Ændringen træder i kraft med det samme.
 
-## <a name="choose-who-gets-access-by-using-security-group"></a>Vælge, hvem der får adgang ved hjælp af sikkerhedsgruppen
+## Vælge, hvem der får adgang ved hjælp af sikkerhedsgruppen
 
-I Business Center administration kan et miljø tildeles til en eller flere sikkerhedsgrupper for at kontrollere adgangen. Du kan tildele en Azure Active Directory (Azure AD)-gruppe til miljøet. Ved at tildele en Azure AD-gruppe til et miljø giver gruppen kun direkte og indirekte medlemmer af gruppen adgang til miljøet. Indirekte medlemmer er brugere i en anden gruppe, som selv er medlem af den gruppe, der er tildelt miljøet. Selvom alle brugere med licens i Azure AD bliver føjet til miljøet, når det synkroniseres med Microsoft 365, kan kun gruppemedlemmer logge på. Du kan få mere at vide i afsnittet [Administrere adgang med Azure Active Directory-grupper](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) i hjælp til udviklere og it-fagfolk.
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
-## <a name="deploy-the-business-central-app-for-teams"></a>Implementer Business Central-appen til Teams
+I Business Center administration kan et miljø tildeles til en eller flere sikkerhedsgrupper for at kontrollere adgangen. Du kan tildele en Microsoft Entra-gruppe til miljøet. Ved at tildele en Microsoft Entra-gruppe til et miljø giver gruppen kun direkte og indirekte medlemmer af gruppen adgang til miljøet. Indirekte medlemmer er brugere i en anden gruppe, som selv er medlem af den gruppe, der er tildelt miljøet. Selvom alle brugere med licens i Microsoft Entra ID bliver føjet til miljøet, når det synkroniseres med Microsoft 365, kan kun gruppemedlemmer logge på. Du kan få mere at vide i afsnittet [Administrere adgang med Microsoft Entra-grupper](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) i hjælp til udviklere og it-fagfolk.
+
+## Implementer Business Central-appen til Teams
 
 Hvis du vil have, at [!INCLUDE [prod_short](includes/prod_short.md)]-licensindehavere skal dele data i Teams, og hvis Microsoft 365-licensindehavere skal have adgang til disse data, skal hver enkelt have installeret [!INCLUDE [prod_short](includes/prod_short.md)]-app til teams. Selvom brugerne kan installere appen alene, anbefales det, at administratorer bruger centraliseret udrulning. Centraliseret installation giver dig mulighed for at samle en app til et bredere publikum i hele organisationen og minimere den enkelte bruger indsats. 
 
@@ -85,7 +89,7 @@ Du kan få mere at vide om, hvordan du installerer [!INCLUDE [prod_short](includ
 > [!TIP]
 > Er du på udkig efter en hurtigere måde at komme i gang på, når du prøver denne funktion? Test brugere kan installere appen på [aka.ms/BCgetTeamsApp](https://aka.ms/BCgetTeamsApp).
 
-## <a name="test-your-setup"></a>Test konfigurationen
+## Test konfigurationen
 
 Du kan kontrollere, at opsætningen er klar til produktion, ved at benytte følgende fremgangsmåde for at opbygge tilliden for, at alt fungerer, som det skal.
 
@@ -109,7 +113,7 @@ Du kan kontrollere, at opsætningen er klar til produktion, ved at benytte følg
 > [!TIP]
 > Gik noget galt? Se [Fejlfinde adgang med Microsoft 365-licenser](admin-access-with-m365-license-troubleshooting.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversigt over Business Central-adgang med Microsoft 365-licenser](admin-access-with-m365-license.md#minimum-requirements)  
 [Fejlfinde adgang med Microsoft 365-licenser](admin-access-with-m365-license-troubleshooting.md)  

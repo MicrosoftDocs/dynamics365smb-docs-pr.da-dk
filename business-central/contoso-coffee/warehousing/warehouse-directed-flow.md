@@ -1,6 +1,6 @@
 ---
 title: 'Modtagelse, læg-på-lager, flytning, pluk og levering i avanceret lageropsætning med styret plukning og læg-på-lager'
-description: I Business Central kan de indgående og udgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret.
+description: Indgående og udgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -12,11 +12,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration-with-directed-put-away-and-pick"></a>Gennemgang af indgående og udgående flow i avanceret opsætning af lagersted med Styret læg-på-lager og pluk
+# Gennemgang af indgående og udgående flow i avanceret opsætning af lagersted med Styret læg-på-lager og pluk
 
 Denne gennemgang viser, hvordan indgående og udgående flow kan fuldføres i Avanceret: Styret læg på lager og pluk-konfiguration. Du kan finde flere oplysninger i [Oversigt over forskellige konfigurationsindstillinger](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Forudsætninger
+## Forudsætninger  
 Fuldfør denne gennemgang, og gør dig selv til lagermedarbejder på lokationen *HVID* ved at følge disse trin:  
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
 2. Vælg feltet **Bruger-id**, og vælg din egen brugerkonto på siden **Brugere**.  
@@ -24,27 +24,27 @@ Fuldfør denne gennemgang, og gør dig selv til lagermedarbejder på lokationen 
 4. Aktiver **Standard** til/fra.
 
 
-## <a name="scenario"></a>Scenarie
+## Scenarie  
 Ellen, lagerchefen, bruger muligheder for direkte afsendelse og placeringsgenopfyldning for at øge modtagelses- og transporttiden.  
 
-## <a name="steps"></a>Trin
+## Trin
 
 1. Opret lagerleverance.  
 
     1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 2.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
-    2. Vælg ordre for debitor 10000 for lokationen HVID. Eksternt Ordrenr er *W-1*. Brug tilpasningsværktøjerne, hvis feltet **Eksternt ordrenr.** feltet er ikke synligt. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](../../ui-personalization-user.md).
+    2. Vælg ordre for debitor 10000 for lokationen HVID. Eksternt Ordrenr er *W-1*.
     3. Vælg **Opret lagerleverance**-handling i kildedokumentet for at oprette en lagerleverance for valgte salgsordrer.
-    4.  Vælg **Frigiv** for at meddele lageret, at leverancen er klar til lagerekspedition.  
+    4. Vælg **Frigiv** for at meddele lageret, at leverancen er klar til lagerekspedition.  
 
 2. Definere placering for varen for at kontrollere, hvor de lægges på lager 
 
     1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig 3.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
     2.  Vælg *WRB-1000*, og vælg derefter handlingen **Placeringsindhold**.  
-    3.  Vælg handlingen **Ny**. Tilføj to linjer. Brug tilpasningsværktøjerne, hvis **Placeringskode** ikke er synligt. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](../../ui-personalization-user.md). 
+    3.  Vælg handlingen **Ny**. Tilføj to linjer.
     
-    |Artikel|Lokationskode|Placeringskode|Fast|Måleenhed|
+    |Artikel|Lokationskode|Placeringskode|Løst|Måleenhed|
     |----------|----------|---------|---|------|  
-    |WRB-1000|HVID|V-05-0001|Ja|TASKE|  
+    |LRB-1000|HVID|V-05-0001|Ja|TASKE|  
     |WRB-1000|HVID|V-05-0002|Ja|TASKE|
 
 3. Opret lagermodtagelse.  
@@ -136,7 +136,7 @@ Ellen, lagerchefen, bruger muligheder for direkte afsendelse og placeringsgenopf
     4. Bekræft indstillingen **Levering**.
 
 
-## <a name="results"></a>Resultater
+## Resultater
 - **Bogført lagerstedsmodtagelse** oprettes
 - **Bogf. læg-på-lager** oprettes    
 - **Bogført købsmodtagelse** oprettes    
@@ -150,7 +150,7 @@ Ellen, lagerchefen, bruger muligheder for direkte afsendelse og placeringsgenopf
 
 
 
-## <a name="see-also"></a>Se også
+## Se også
 [Modtag varer](../../warehouse-how-receive-items.md) 
 [Designdetaljer: Indgående lagerstedsflow](../../design-details-inbound-warehouse-flow.md) 
 [Lever varer](../../warehouse-how-ship-items.md) 

@@ -1,0 +1,18 @@
+---
+title: Opdatere dokumentdatoer med bogføringsdatoer
+description: 'Lære, hvordan du sikrer, at bilagsdatoer på salgs- og købsdokumenter stemmer overens med bogføringsdatoerne.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: conceptual
+ms.date: 08/03/2023
+ms.custom: bap-template
+---
+
+# Opdatere dokumentdatoer med bogføringsdatoer
+
+[!INCLUDE [document-posting-date](includes/document-posting-date.md)]
+
+## Se også
+
+[Konfigurere salg](sales-setup-sales.md)

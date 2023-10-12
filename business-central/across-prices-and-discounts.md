@@ -199,8 +199,6 @@ Hvis du vil opdatere priser for flere varer, skal du oprette en ny prisliste og 
 
 Når du har registreret særpriser og linjerabatter for salg og køb, sørger [!INCLUDE[d365fin](includes/d365fin_md.md)] for, at dine avance på varehandel altid er optimal ved automatisk at beregne den bedste pris på salgs- og købsdokumenter og på sags- og varekladdelinjer. Du kan finde flere oplysninger i [Beregne bedste pris](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## Se relateret [Microsoft-træning](/training/modules/customer-discounts-dynamics-365-business-central/)
-
 ## Se også
 
 [Konfigurere salg](sales-setup-sales.md)  

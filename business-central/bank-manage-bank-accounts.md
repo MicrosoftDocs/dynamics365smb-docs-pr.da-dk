@@ -11,7 +11,7 @@ ms.search.form: '377, 378, 165, 1284'
 ms.date: 06/14/2021
 ms.author: bholtorf
 ---
-# <a name="manage-and-reconcile-your-bank-accounts"></a>Administrere og afstemme bankkonti
+# Administrere og afstemme bankkonti
 
 En bankafstemning skal udføres med jævne mellemrum for alle dine bankkonti for at sikre, at firmaets kontantposter er korrekte. Det gør du ved at sammenligne og afstemme poster på dine interne bankkonti med banktransaktioner i din bank og derefter bogføre saldi på dine interne bankkonti for at gøre totaler tilgængelige for økonomichefer. Bankafstemning er også en praktisk måde at opdage og løse manglende betalinger og bogføringsfejl på.
 
@@ -32,7 +32,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 > [!TIP]
 > Brug bankafstemning til at kontrollere, at dine bøger er opdaterede og ikke bogfører afstemningen, før du er tilfreds med afstemningen.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md)  

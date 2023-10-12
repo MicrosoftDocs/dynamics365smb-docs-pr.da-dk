@@ -60,8 +60,6 @@ Du kan oprette en faktura ud fra en sagsplanlægningslinje, og på det tidspunkt
 > [!NOTE]  
 >   Ovenstående fremgangsmåde er ens for at oprette, gennemse og bogføre en sagsrelateret salgskreditnota.
 
-## Se relateret [Microsoft-træning](/training/paths/post-job-usage-sales/)
-
 ## Se også
 
 [Administrere projekter](projects-manage-projects.md)  

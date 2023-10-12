@@ -99,8 +99,6 @@ Du kan bogføre skrapværdien sammen med anskaffelsesprisen fra en anlægskladde
 > [!NOTE]
 > Hvis der findes en skrapværdi for et anlægsaktiv, bruges denne værdi i afskrivningsbogføringen i stedet for værdien i feltet **Slutbogført værdi** på siden **Anlægsafskrivningsprofiler**. Du kan finde flere oplysninger i [Sådan administrerer du den slutbogførte værdi](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## Se relateret [Microsoft-træning](/training/modules/purchase-fixed-assets/)
-
 ## Se også
 
 [Anlægsaktiver](fa-manage.md) 

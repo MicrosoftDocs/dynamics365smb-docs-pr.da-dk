@@ -447,9 +447,10 @@
 ### [Bogføre transaktioner direkte i Finans](finance-how-post-transactions-directly.md)
 ### [Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md)
 ### [Eksport af revisionsfil](finance-how-to-export-audit-files.md)
-### [Fordele omkostninger og indtægter](year-allocate-costs-income.md)
 ### [Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md)
 ### [Periodisere indtægter og udgifter](finance-how-defer-revenue-expenses.md)
+### [Fordele gentagende omkostninger og indtægter](year-allocate-costs-income.md)
+### [Allokere indtægter og omkostninger på flere finanskonti](finance-allocate-revenue-costs.md)
 ### [Opdatere valutakurser](finance-how-update-currencies.md)
 ### [Indlæse løntransaktioner](finance-how-import-payroll-transactions.md)
 ### [Arbejde med moms af salg og køb](finance-work-with-vat.md)
@@ -585,6 +586,7 @@
 #### [Administrere interaktioner for målgrupper](marketing-interaction-segments.md)
 ### Administrere interaktioner
 #### [Interaktioner](marketing-interactions-overview.md)
+#### [Vedhæftede filer til interaktioner](marketing-interaction-attachments.md)
 #### [Registrere interaktioner med kontakter](marketing-interactions.md)
 #### [Oprette interaktioner for kontakter og målgrupper](marketing-how-create-interactions.md)
 #### [Automatisk registrere interaktioner med kontakter](marketing-auto-record-interactions.md)
@@ -1545,6 +1547,7 @@
 #### [Opsætte forsendelsesformer](sales-how-set-up-shipment-methods.md)
 #### [Opsætte speditører](sales-how-to-set-up-shipping-agents.md)
 #### [Definere politik til bogføring af faktura for brugere](admin-setup-invoice-posting-policy.md)
+#### [Opdatere dokumentdatoer med bogføringsdatoer](across-link-doc-dates-to-posting-dates.md)
 ### Opsætte indkøb
 #### [Opsætte indkøb](purchasing-setup-purchasing.md)
 #### [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)
@@ -1554,6 +1557,7 @@
 #### [Opsætte priser og rabatter](across-prices-and-discounts.md)
 #### [Registrere specialkøbspriser og -rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Definere politik til bogføring af faktura for brugere](admin-setup-invoice-posting-policy.md)
+#### [Opdatere dokumentdatoer med bogføringsdatoer](across-link-doc-dates-to-posting-dates.md)
 ### Opsætte lager
 #### [Opsætte lager](inventory-setup-inventory.md)
 #### [Opsætte generelle lageroplysninger](inventory-how-setup-general.md)
@@ -1791,7 +1795,7 @@
 ### [Ofte stillede spørgsmål om Søge og filtrere](ui-search-filter-faq.yml)
 ### [Analysere sidedata i Excel](across-work-with-excel.md)
 ### [Analysere rapportdata med Excel](report-analyze-excel.md)
-### [Analysere listedata med analysetilstand](analysis-mode.md)
+### [Analysere liste- og forespørgselsdata med analysetilstand](analysis-mode.md)
 ### [Økonomisk Business Intelligence](bi.md)
 
 ## Indbygget analyse 

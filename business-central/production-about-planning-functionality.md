@@ -1,16 +1,15 @@
 ---
-title: Om planlægningsfunktionen
-description: 'Planlæg tager højde for alle oplysninger om efterspørgsel og udbud, tæller resultaterne sammen og opretter forslag til, hvordan udbuddet kan afstemmes, så det passer til efterspørgslen.'
+title: Om planlægningsfunktion
+description: 'Få mere at vide om, hvordan planlægning bruger efterspørgsels- og udbudsdata til at foreslå, hvordan udbuddet kan afstemmes for at imødekomme efterspørgslen.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 5430
-ms.date: 08/30/2022
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: conceptual
+ms.search.form: '5430,'
+ms.date: 09/19/2023
+ms.custom: bap-template
 ---
-# Om planlægningsfunktionen
+# Om planlægningsfunktion
 
 Planlægningssystemet tager højde for alle oplysninger om efterspørgsel og udbud, tæller resultaterne sammen og opretter forslag til, hvordan udbuddet kan afstemmes, så det passer til efterspørgslen.  
 
@@ -19,11 +18,11 @@ Du kan finde flere oplysninger i [Designoplysninger: Forsyningsplanlægning](des
 > [!NOTE]  
 > Læs værktøjstippet for alle felter, der er nævnt i dette emne, for at forstå deres funktion. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Behov og forsyning
+## Udbud og efterspørgsel
 
-I planlægningen indgår to elementer, udbud og efterspørgsel, som her kaldes behov og forsyning. Der skal opretholdes en balance mellem disse to elementer, så det kan sikres, at behovet imødekommes rettidigt og på en økonomisk fornuftig måde.  
+I planlægningen indgår to elementer, udbud og efterspørgsel, som her kaldes behov og forsyning. Disse skal balancere for at sikre, at efterspørgslen imødekommes.  
 
-- Behov er fællesbetegnelsen for enhver form for bruttobehov, såsom en salgsordre, serviceordre, komponentbehov fra montage eller produktionsordrer, udgående overflytning, rammeordre eller forecast. Herudover kan programmet håndtere andre tekniske behovstyper - som en negativ produktions- eller købsordre, negativ lagerbeholdning og købsreturvarer.  
+- Behov er fællesbetegnelsen for enhver form for bruttobehov, såsom en salgsordre, serviceordre, komponentbehov til samling eller produktionsordrer, udgående overflytning, rammeordre eller forecast. Herudover er der andre tekniske behovstyper - som en negativ produktions- eller købsordre, negativ lagerbeholdning og købsreturvarer.  
 - Forsyning henviser til enhver form for genanskaffelse som lagerbeholdning, en købsordre, montage eller produktionsordre eller indgående overflytning. Tilsvarende kan der være en negativ salgs- eller serviceordre, et negativt komponentbehov eller salgsreturvarer , der også repræsenterer forsyning.  
 
 Et andet formål med planlægningssystemet er at sikre, at lagerbeholdningen ikke vokser unødvendigt. Hvis behovet falder, kan planlægningssystemet foreslå, at du udskyder eksisterende genbestillingsordrer, angiver mindre antal til dem eller helt annullerer dem.  
@@ -37,9 +36,9 @@ Udgangspunktet for selve planlægningen er beregningen fra brutto til netto. Et 
 > [!TIP]
 > Planlægningssystemet er afhængig af, hvordan organisationen benytter lokationer. Du kan finde flere oplysninger i [Planlægning med eller uden lokationer](production-planning-with-without-locations.md).
 
-## Planlægge med manuelle overflytningsordrer
+## Planlægge med manuelle overførselsordrer
 
-Som det fremgår af feltet **Genbestillingssystem** på et lagerkort, kan planlægningssystemet indstilles til at oprette overflytningsordrer, der udjævner udbud og efterspørgsel på tværs af lokationer.  
+I feltet **Genbestillingssystem** på et SKU-kort, kan du konfigurere planlægningssystemet til at oprette overførselsordrer, der udjævner udbud og efterspørgsel på tværs af lokationer.  
 
 Ud over disse automatiske overflytningsordrer kan du undertiden have brug for at udføre en almindelig flytning af lagerbeholdning til en anden lokation, uanset det nuværende behov. Til det formål skal du manuelt oprette en overflytningsordre på det antal, der skal flyttes. For at sikre, at planlægningssystemet ikke forsøger at justere den manuelle overflytningsordre, skal du indstille **Planlægningsfleksibilitet** på overflytningslinjerne til Ingen.  
 
@@ -86,7 +85,7 @@ Globale planlægningsopsætningsfelter på siden **Produktionsopsætning** omfat
 
 Du kan finde flere oplysninger i [Designoplysninger: planlægningsparametre](design-details-planning-parameters.md)  
 
-## Andre vigtige felter til planlægning
+## Andre vigtige planlægningsfelter
 
 ### Planlægningsfleksibilitet
 
@@ -101,10 +100,10 @@ Oplysningsfeltet **Advarsel** på siden **Planlægningskladde** viser eventuelle
 
 - Nødsituation
 - Undtagelse
-- Bemærk!
+- Bemærk
 - Nødsituation
 
-Denne advarsel vises i to tilfælde:
+Denne advarsel vises i to situationer:
 
 - Når lageret er negativt på den planlagte startdato.
 - Når der er antedaterede udbuds- eller efterspørgselshændelser.
@@ -126,7 +125,7 @@ Overskridelse af niveauet for sikkerhedslageret anses for at være en undtagelse
 
 ### Bemærk
 
-Denne advarsel vises i to tilfælde:
+Denne advarsel vises i to situationer:
 
 - Når den planlagte startdato ligger før arbejdsdatoen.
 - Når planlægningslinjen foreslår at ændre en frigivet købs- eller produktionsordre.
@@ -137,6 +136,8 @@ Denne advarsel vises i to tilfælde:
 ## Planlægningskladder og indkøbskladder
 
 Som beskrevet under [Planlægning](production-planning.md) kan du vælge mellem to kladder til de fleste planlægningsaktiviteter, planlægningskladden og indkøbskladden. De fleste processer beskrives på basis af planlægningskladden, men der er et par scenarier, hvor indkøbskladden foretrækkes.
+
+[!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
 
 ### Indkøbskladde
 
@@ -158,8 +159,6 @@ Du kan finde flere oplysninger om planlægning med lokationer og overflytninger 
 
 > [!TIP]
 > Når du arbejder på siderne **indkøbskladde** eller **Planlægningskladde**, kan du organisere linjerne ved at sortere efter et kolonnenavn. Dette er især nyttigt på siden planlægningskladde, fordi de kan bruges til produktionsordrer med flere niveauer. Som standard sorteres linjer efter feltet **Varenr.**. Hvis du vil gruppere linjer for en række med flere niveauer, skal du sortere efter **Ref. ordrenr.** . Felterne **MPS-ordre** og **planlægningsniveau** kan også være en hjælp til at vise linjernes hierarki.
-
-## Se relateret [Microsoft-træning](/training/modules/plan-items-dynamics-365-business-central/)
 
 ## Se også
 

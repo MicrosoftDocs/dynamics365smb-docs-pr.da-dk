@@ -134,8 +134,6 @@ Hvis du aktiverer denne indstilling, bruger systemet følgende regler, men kun h
 | Uden for EU-lande | EU-land, der er forskelligt fra landet i **Virksomhedsoplysninger** | Ingen intrastat-linjer |
 | Uden for EU-lande | Uden for EU-lande | Ingen intrastat-linjer |   
 
-## Se relateret træning på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Se også
 
 [Konfigurere intrastat-rapportering](finance-how-setup-report-intrastat.md)  

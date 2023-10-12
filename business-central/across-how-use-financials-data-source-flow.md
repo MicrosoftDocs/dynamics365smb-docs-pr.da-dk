@@ -8,10 +8,10 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: 'workflow, OData, Power App, SOAP, Power Automate,'
 ms.search.form: '1500,'
-ms.date: 10/10/2022
+ms.date: 08/31/2023
 ms.custom: bap-template
 ---
-# <a name="use-power-automate-flows-in-"></a>Brug Power Automate-flows i [!INCLUDE[prod_short](includes/prod_short.md)]
+# Brug Power Automate-flows i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] får du en licens til Microsoft Power Automate. Med denne licens kan du bruge dine [!INCLUDE[prod_short](includes/prod_short.md)]-data som en del af en arbejdsproces i Microsoft Power Automate. Du opretter flows og opretter forbindelse til dine data fra interne og eksterne kilder med [!INCLUDE [prod_short](includes/prod_short.md)]-connectoren.
 
@@ -25,7 +25,7 @@ Power Automate-flows udløses af hændelser, f. eks. en post blev oprettet, ænd
 > [!TIP]
 > Ud over Power Automate kan du bruge skabeloner til godkendelse af workflow i [!INCLUDE[prod_short](includes/prod_short.md)]. Vær opmærksom på, at selv om det er to separate workflowsystemer, tilføjes en hvilken som helst workflow-skabelon, du opretter med Power Automate, på listen over workflows i [!INCLUDE[prod_short](includes/prod_short.md)]. Flere oplysninger i [Workflows](across-workflow.md).
 
-## <a name="about-power-automate-flows"></a>Om Power Automate-flows
+## Om Power Automate-flows
 
 Power Automate er en tjeneste, der hjælper dig med at oprette automatiserede arbejdsgange (eller flows) mellem apps og tjenester, som [!INCLUDE[prod_short](includes/prod_short.md)]. Power Automate-flows kræver lidt eller ingen viden om kodning De kan knyttes til en lang række hændelser og svar, f. eks.:
 
@@ -38,32 +38,33 @@ Der er tre forskellige Cloudflow-typer, som du kan arbejde med:
 
 |Flowtype|Beskrivelse|
 |---------|-----------|
-|Automatisk|Denne flowtype køres automatisk af en hændelse. I [!INCLUDE[prod_short](includes/prod_short.md)] kan en hændelse være, når en post eller et dokument oprettes, ændres eller slettes. F.eks. kan en ny salgsfaktura udløse et flow for en godkendelsesanmodning, som kan angive forskellige hændelser afhængigt af godkenderens svar. Et negativ svar sender en besked og sender en e-mail til den, der har anmodet om godkendelse. Et positivt svar opdateres samtidig med et Excel-regneark, der er placeret i en SharePoint-mappe, og der sendes en opdatering til Teams-chatten. Automatiske flows kan startes af både interne og eksterne hændelser i [!INCLUDE[prod_short](includes/prod_short.md)].|
-|Tidsfastlagt|Denne type flow køres også automatisk, men kører periodisk på planlagt dato og klokkeslæt. |
-|Øjeblikkelig |Denne flowtype kører efter anmodning og kræver, at brugeren kører den manuelt fra en knap eller handling i en anden app eller enhed, i dette tilfælde [!INCLUDE[prod_short](includes/prod_short.md)]-klienten. Øjeblikkelige flows fungerer på samme måde som batch genveje, så der udføres flere længde trin med et par tryk på knappen og de startes fra bestemte sider eller tabeller. Et flow kan f.eks. føje en knap til menuen handling på siden **Kreditorer** for at blokere betalinger til en leverandør og samtidig sende brugerdefinerbare e-mails til leverandørens kontakt og din virksomheds indkøbere og opdatere kontakten i Outlook. |
+|Automatiserede flows|Denne flowtype køres automatisk af en hændelse. I [!INCLUDE[prod_short](includes/prod_short.md)] kan en hændelse være, når en post eller et dokument oprettes, ændres eller slettes. F.eks. kan en ny salgsfaktura udløse et flow for en godkendelsesanmodning, som kan angive forskellige hændelser afhængigt af godkenderens svar. Et negativ svar sender en besked og sender en e-mail til den, der har anmodet om godkendelse. Et positivt svar opdateres samtidig med et Excel-regneark, der er placeret i en SharePoint-mappe, og der sendes en opdatering til Teams-chatten. Automatiske flows kan startes af både interne og eksterne hændelser i [!INCLUDE[prod_short](includes/prod_short.md)].|
+|Godkendelsesflow|Godkendelsesflow er også automatiserede flows i Power Automate, men de er designet specielt til at anmode om godkendelse, når der foretages ændringer af poster og data. Du kan bruge godkendelsesflow i Power Automate som et alternativ til den [godkendelsesarbejdsgangsfunktion](across-use-workflows.md), der er en del af [!INCLUDE[prod_short](includes/prod_short.md)]. |
+|Planlagt flow|Denne type flow køres også automatisk, men kører periodisk på planlagt dato og klokkeslæt. |
+|Øjeblikkeligt flow|Denne flowtype kører efter anmodning og kræver, at brugeren kører den manuelt fra en knap eller handling i en anden app eller enhed, i dette tilfælde [!INCLUDE[prod_short](includes/prod_short.md)]-klienten. Øjeblikkelige flows fungerer på samme måde som batch genveje, så der udføres flere længde trin med et par tryk på knappen og de startes fra bestemte sider eller tabeller. Et flow kan f.eks. føje en knap til menuen handling på siden **Kreditorer** for at blokere betalinger til en leverandør og samtidig sende brugerdefinerbare e-mails til leverandørens kontakt og din virksomheds indkøbere og opdatere kontakten i Outlook. |
 
-## <a name="power-automate-features"></a>Power Automate-funktioner
+## Power Automate-funktioner
 
 Du kan gennemse alle de Power Automate-flow, der i øjeblikket er tilgængelige, ved at logge på [Power Automate](https://powerautomate.com) og vælge **Mine flows** fra navigationslinjen til venstre. Her finder du de flows, du allerede har oprettet, og som du har delt med dig af en administrator eller kollega.
 
 - Du kan også bruge øjeblikkelige flows til at køre direkte fra de fleste liste-, kort-og dokumentsider i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde de øjeblikkelige flows i handlingsgruppen **Automatisering** på siderne i handlingspanelet. Hvis du vil køre et flow, skal du markere den og følge instruktionerne. Der er flere oplysninger i afsnittene herunder.
- 
+
 - Med automatiske flows i [!INCLUDE[prod_short](includes/prod_short.md)] er det ikke nødvendigt at gøre noget, medmindre du vil ændre dem eller deaktivere dem. Ellers fungerer de bare, når de udløses. 
 <!--
 
-## <a name="automated-flows"></a>Automated flows
+## Automated flows
 
 With Power Automate, you can create business flows directly in-house and rely on citizen developers. Automated workflows can be started by both internal and external events in [!INCLUDE[prod_short](includes/prod_short.md)], and also be set to run periodically. Learn more and get instructions on how to create flows in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.
 
 -->
 
-## <a name="run-instant-flows"></a>Kør øjeblikkelige flows
+## Kør øjeblikkelige flows
 
 Øjeblikkelige flows åbnes online i [!INCLUDE [prod_short](includes/prod_short.md)], så du kan forblive inden for rammerne af den forretningsproces, du var midt i. Du kan køre et hurtigt flow fra de fleste lister, kort eller dokumenter.
 
 1. Vælg **Automatiser** på handlingslinjen, og vælg derefter et flow fra listen over tilgængelige flows under **Power Automate**-handlingen
 
-    :::image type="content" source="media/power-automate-action-intro.png" alt-text="Viser handlingen Automatiser på handlingslinjen med udvidede handlinger.":::
+    :::image type="content" source="media/power-automate-instant-menu.svg" alt-text="Viser handlingen Automatiser med øjeblikkelige flowhandlinger.":::
 
     På en side er **automatiser** indlejret i de **Flere indstillinger (...)**. 
 2. Udfyld alle obligatoriske felter i ruden **Kør flow**, og vælg derefter **Fortsæt** for at køre flowet.
@@ -84,31 +85,43 @@ Most flows require you to fill in a field or two before you choose the **Run flo
 > [!TIP]
 > If you don't see an **Automate** action, then your [!INCLUDE [prod_short](includes/prod_short.md)] probably hasn't yet been set up to use Power Automate. Learn more from your admin.-->
 
-## <a name="create-edit-and-manage-flows"></a>Opret, rediger og administrer flows
+## Opret, rediger og administrer flows
 
-Du kan oprette nye flows, ændre og administrere eksisterende, f.eks. at aktivere eller deaktivere dem, direkte i Power Automate. Men du kan starte nogle af disse opgaver fra [!INCLUDE[prod_short](includes/prod_short.md)]:
+Du kan oprette nye flows, ændre og administrere eksisterende, f.eks. at aktivere eller deaktivere dem, direkte i Power Automate. Men du kan starte nogle af disse opgaver fra Automatiser handling-menuen i [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-- Hvis du vil oprette en hurtig proces fra en liste, et kort eller en dokumentside, skal du vælge **Automatiser** > **Opret et flow**.
+:::image type="content" source="media/power-automate-menu.svg" alt-text="Viser handlingen Automatiser på handlingslinjen med udvidede handlinger.":::
+
+- Hvis du vil oprette en automatiseret proces fra en liste, et kort eller en dokumentside, skal du vælge **Automatiser** > **Opret automatiseret flow**.
+- Hvis du vil oprette et godkendelsesflow fra et kort eller en dokumentside, skal du vælge **Automatiser** > **Opret godkendelsesflow**.
+
+  > [!TIP]
+  > Denne handling er kun tilgængelig på kort- og dokumenttypesider. ikke lister.
+- Hvis du vil oprette en hurtig proces fra en liste, et kort eller en dokumentside, skal du vælge **Automatiser** > **Opret handling baseret på et flow**.
 - Hvis du vil åbne Power Automate fra en liste, et kort eller en dokumentside, skal du vælge **Automatiser** > **Administrer flows**.
 <!--- To create new flows or manage existing flows from inside [!INCLUDE[prod_short](includes/prod_short.md)], got to the **Manage Power Automate Flows** page.-->
 
-Disse opgaver udføres typisk kun af administratorer eller superbrugere. Opgaverne kræver en større viden om forretningsprocesserne i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil lære mere, skal du udforske [Power Automate-integrationen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview), [Konfigurere øjeblikkelige flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) og [Administrere Power Automate-flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
+Disse opgaver udføres typisk kun af administratorer eller superbrugere. Opgaverne kræver en større viden om forretningsprocesserne i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i følgende artikler i Business Central hjælp til udviklere og it-eksperter:
+
+- [Power Automate integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview)
+- [Oprette automatiserede flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) (dækker også godkendelsesflows)
+- [Opret øjeblikkelige flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)
+- [Håndtér Power Automate-flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)
 <!-- 
 
-## <a name="add-more-automated-flows-and-instant-flows"></a>Add more automated flows and instant flows
+## Add more automated flows and instant flows
 
 You can create flows through the [powerautomate.microsoft.com](https://powerautomate.microsoft.com) website. However, if your admin has switched on the capability to run Power Automate flows from inside [!INCLUDE [prod_short](includes/prod_short.md)] online, you can start the process of building a flow from the **Automate** action on the relevant pages, which can be found under the **More Options** menu depending on the page. Then choose the **Power Automate** menu item, and then choose the **Create a flow** action. Power Automate then opens in a new browser tab, and you're signed in automatically.
 
 You can find sample templates to adapt to your company and all available trigger events, using both [!INCLUDE [prod_short](includes/prod_short.md)] and external tools, by choosing the **Connectors** menu on the Power Automate website. Learn more about available templates and triggers in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.
 
-## <a name="create-and-manage-power-automate-flows"></a>Create and manage Power Automate flows
+## Create and manage Power Automate flows
 
 You can create new flows or manage existing Power Automate flows in [!INCLUDE [prod_short](includes/prod_short.md)] on the **Manage Power Automate Flows** page. Learn more in the [Manage Power Automate Flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows) article in the administration content.
 
 <!--
 You can also manage available Power Automate workflows on the **Workflows** page in [!INCLUDE[prod_short](includes/prod_short.md)]. The page lists both the built-in approval and Power Automate workflows, with options for the latter to enable/disable, delete, and view the workflow on the Power Automate website.-->
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Fejlfinde dine [!INCLUDE[prod_short](includes/prod_short.md)] Automatiserede workflows](across-flow-troubleshoot.md)  
 [Gør dig klar til at komme i gang](ui-get-ready-business.md)  
@@ -122,4 +135,3 @@ You can also manage available Power Automate workflows on the **Workflows** page
 [Skift til hurtige flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
-a

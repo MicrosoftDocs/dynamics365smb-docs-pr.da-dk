@@ -45,8 +45,6 @@ Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som
 
  Det oprindelige brugerdefinerede rapportlayout erstattes med det importerede rapportlayout.  
 
-## Se relateret [Microsoft-træning](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## Se også
 
 [Oprette og ændre et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md)   

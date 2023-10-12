@@ -3,12 +3,12 @@ title: Gennemgang - Modtagelse og placering på lager i grundlæggende lagerops�
 description: Lær mere om de forskellige måder at håndtere indgående processer på i forbindelse med modtagelse og læg-på-lager.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/27/2023
 ms.custom: bap-template
 ---
-# <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger
+# Gennemgang: Modtagelse og placering på lager i grundlæggende lageropsætninger
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du modtage varer og indsætte dem på en af fire måder som beskrevet i følgende tabel.
 
@@ -23,7 +23,7 @@ Få mere at vide i [Udgående lagerstedsflow](design-details-inbound-warehouse-f
 
 Den følgende gennemgang viser metode B i forrige tabel.  
 
-## <a name="about-this-walkthrough"></a>Om denne gennemgang
+## Om denne gennemgang  
 
 I grundlæggende lageropsætninger, hvor lokationen, du vil plukke fra, er sat op til at kræve læg-på-lager men ikke modtagelse, bruges siden **Læg-på-lager** til at registrere og bogføre læg-på-lager- og modtagelsesoplysninger for de indgående kildedokumenterne. Følgende dokumenter er indgående kildedokumenter:
 
@@ -50,7 +50,7 @@ Denne gennemgang viser følgende opgaver:
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-## <a name="roles"></a>Roller
+## Roller  
 
 Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:  
 
@@ -58,7 +58,7 @@ Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:
 * Indkøbsagent  
 * Lagermedarbejder  
 
-## <a name="prerequisites"></a>Forudsætninger
+## Forudsætninger  
 
 For at gennemføre denne gennemgang skal du bruge:  
 
@@ -70,15 +70,15 @@ For at gennemføre denne gennemgang skal du bruge:
     3. I feltet **Lokationskode** vælges **SØLV**.  
     4. Marker afkrydsningsfeltet **Standard**.  
 
-## <a name="story"></a>Historie
+## Historie  
 
 Ellen, som er indkøbschef hos CRONUS Danmark A/S, opretter en købsordre til 10 enheder af varen LS-75 og 30 enheder af varen LS-81 fra kreditoren 10000 til afsendelse til lagerstedet SØLV. Når leveringen ankommer på lagerstedet, sætter John, som er lagerarbejder, varerne på lager på standardplaceringer, der er defineret for varerne. Når John bogfører placeringen på lager, bogføres varerne som modtaget på lageret og tilgængelige til salg eller andre behov.  
 
-## <a name="setting-up-the-location"></a>Indstilling af lokation
+## Indstilling af lokation  
 
 Opsætningen af siden **Lokationskort** definerer flows i virksomheden.  
 
-### <a name="to-set-up-the-location"></a>Sådan oprettes lokationen
+### Sådan oprettes lokationen  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.  
 2. Åbn lokationskortet SØLV.  
@@ -95,11 +95,11 @@ Opsætningen af siden **Lokationskort** definerer flows i virksomheden.
 7. Vælg felterne **Fast** og **Standard**.  
 8. I feltet **Varenr.** skal du skrive **LS-81**.  
 
-## <a name="create-the-purchase-order"></a>Oprette købsordren
+## Oprette købsordren  
 
 Købsordrer er den mest almindelige type indgående kildedokument.  
 
-### <a name="to-create-the-purchase-order"></a>Hvis du vil oprette købsordren
+### Hvis du vil oprette købsordren  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **købsordrer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -119,11 +119,11 @@ Købsordrer er den mest almindelige type indgående kildedokument.
 
     Leverancen af højttalere fra kreditor 10000 er modtaget på SØLV-lageret, og John fortsætter med at lægge dem på plads.  
 
-## <a name="receive-and-put-the-items-away"></a>Modtage varerne og lægge dem på lager
+## Modtage varerne og lægge dem på lager  
 
 På siden **Læg-på-lager** kan du administrere alle indgående lageraktiviteter til et specifikt kildedokument, f.eks. en købsordre.  
 
-### <a name="to-receive-and-put-the-items-away"></a>Sådan modtager du varerne og lægger dem på lager
+### Sådan modtager du varerne og lægger dem på lager  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Læg-på-lager-aktiviteter**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -140,7 +140,7 @@ På siden **Læg-på-lager** kan du administrere alle indgående lageraktivitete
 
     De 40 højttalere er nu registreret som lagt på lager på placering S-01-0001, og der oprettes en positiv varepost, der afspejler den bogførte købsmodtagelse.  
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Lægge varer på lager med Læg-på-lager (lager)](warehouse-how-to-put-items-away-with-inventory-put-aways.md)  
 [Oprette grundlæggende lagersteder med handlingsområder](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  

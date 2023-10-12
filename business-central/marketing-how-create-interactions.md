@@ -1,52 +1,55 @@
 ---
 title: Oprette interaktioner for kontakter og målgrupper
-description: 'Beskriver, hvordan du kan oprette interaktioner for kommunikation, som du har med kontakter og målgrupper i Business Central, f.eks. direct mail.'
-documentationcenter: ''
-author: jswymer
+description: 'Flere oplysninger om at oprette interaktioner i Business Central for kommunikation, som du har med kontakter og segmenter.'
+author: brentholtorf
+ms.author: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.reviewer: ivkoleti
+ms.date: 04/01/2021
+ms.custom: bap-template
 ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
-ms.date: 04/01/2021
-ms.author: jswymer
 ---
-# <a name="create-interactions-on-contacts-and-segments"></a>Oprette interaktioner for kontakter og målgrupper
-Du kan oprette interaktioner for at registrere al interaktion og kommunikation, som du har med kontakter og målgrupper, f.eks. direct mail.
+# Oprette interaktioner for kontakter og målgrupper
 
-Du kan først oprette interaktioner, når du har defineret interaktionsskabeloner. Du kan finde flere oplysninger i [Definere interaktionsskabeloner](marketing-interactions.md).
+Du kan oprette interaktioner for at spore den kommunikation, du har med en enkelt kontakt eller med flere kontakter i dine målgrupper. Hvis du vil gøre det nemt at oprette interaktioner, indeholder [!INCLUDE [prod_short](includes/prod_short.md)] den assisterede opsætningsvejledning **Opret interaktion**. Vejledningen hjælper dig med at registrere de vigtige detaljer om interaktionen.
 
-## <a name="to-create-an-interaction"></a>Sådan oprettes en interaktion
-1. Åbn kontakt-, sælger- eller interaktionslogposten.
+Du kan først oprette interaktioner, når du har defineret interaktionsskabeloner. Hvis du vil vide mere om interaktionsskabeloner, skal du gå til [Konfigurere interaktionsskabeloner](marketing-interactions.md).
+
+## Oprette en interaktion med en kontakt
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikonet, angiv **Kontakter**, **Sælger** eller **Interaktions-logpost**, og vælg det relaterede link.
 2. Vælg handlingen **Opret interaktion**.
-3. Udfyld felterne, og vælg derefter knappen **OK**.
+3. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Hvis du vil udføre en anden opgave, før du afslutter interaktionen, kan du vælge **Annuller** og derefter vælge at afslutte interaktionen på et senere tidspunkt. Dette udsætter interaktionen.
+> Hvis du har brug for at stoppe, før du er færdig med interaktionen, kan du vælge **Annuller** og derefter angive, om du vil gemme dine indstillinger, så du kan fortsætte senere. Du kan få mere at vide om udsatte interaktioner ved at gå til [Sådan afsluttes konfigurationen af en udsat interaktion](#to-finish-setting-up-a-postponed-interaction).
 
-## <a name="to-finish-and-delete-postponed-interactions"></a>Sådan afsluttes og slettes udsatte interaktioner
-1. Åbn kontakt-, sælger- eller interaktionslogposten.
-2. Vælg **Udsatte interaktioner**.
-3. Marker den interaktion, som du vil afslutte, og klik derefter på handlingen **Fortsæt**.
+## Sådan oprettes en interaktion for en målgruppe
 
-## <a name="to-create-an-interaction-on-a-segment"></a>Sådan oprettes en interaktion for en målgruppe
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Segmenter**, og vælg derefter det relaterede link.
-2. Udfyld felterne i sektionen **Interaktion** på siden **Målgruppe** for at angive, hvilken interaktion du vil knytte til målgruppen.
+2. Vælg handlingen **Opret interaktion**.
+3. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-    Når du har tildelt en interaktion til målgruppe, kan du tilpasse interaktionen til hver kontakt i målgruppen. Du kan f.eks. vælge en anden interaktionsskabelon på linjerne på siden **Målgruppe**.  
-3. Hvis du vil logge målgruppen og interaktionerne, skal du vælge handlingen **Log**. Siden **Gemt målgruppe** åbnes.
-4. Hvis du vil oprette en ny målgruppe, der indeholder de samme kontakter, skal du markere afkrydsningsfeltet **Opret opfølgningsmålgruppe**. Du kan kun oprette en opfølgningsmålgruppe, hvis du har angivet nummerserier for målgrupper på siden **Marketingopsætning**.
+> [!TIP]
+> Når du har tildelt en interaktion til en målgruppe, kan du udføre flere andre handlinger på siden **Segment**:
+>
+> * Tilpas interaktionen til hver kontakt i målgruppen. Du kan f.eks. vælge en anden interaktionsskabelon på linjerne på siden Målgruppe.  
+>* Logfør målgruppe og interaktioner ved at vælge handlingen **Log** for at åbne siden **Log segment**.
+> * Opret et nyt segment, der indeholder de samme kontakter, ved at vælge afkrydsningsfeltet **Opret opfølgningsmålgruppe**. Denne indstilling kræver, at der er angivet en nummerserie for målgrupper på siden **Marketingopsætning**.
 
-Der gemmes en interaktion, der er registreret for hver kontakt i målgruppen, i tabellen **Interaktionslogpost**, og målgruppen logges. Logførte målgrupper vises på siden **Gemte målgrupper**.
+Der gemmes en interaktion, der er registreret for hver kontakt i målgruppen, i tabellen **Interaktionslogpost**, og målgruppen logges. Logførte segmenter vises på siden **Gemte segmenter**.
 
-Hvis du har markeret afkrydsningsfeltet **Opret opfølgningsmålgruppe**, oprettes der automatisk en ny målgruppe, der indeholder de samme kontakter som den målgruppe, du netop har gemt.
+## Sådan afsluttes en udsat interaktion
 
-## <a name="see-also"></a>Se også
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udsatte interaktioner**, og vælg derefter det relaterede link.
+2. Marker den interaktion, som du vil afslutte, og klik derefter på handlingen **Fortsæt**.
+
+## Se også
+
 [Registrere interaktioner](marketing-interactions.md)  
 [Administrere kontakter](marketing-contacts.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Arbejde med Business Central](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,7 +10,9 @@ ms.date: 01/26/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-universal-print-printers"></a>Konfigurere printere til Universaludskrivning
+# Konfigurere printere til Universaludskrivning
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Universaludskrivning er en Microsoft 365-abonnementsbaseret tjeneste, der udelukkende kører på Microsoft Azure. Den giver dig centraliseret printerstyring via portalen for Universaludskrivning. [!INCLUDE[prod_short](includes/prod_short.md)] gør det muligt at konfigurere printere i Universaludskrivning for klientbrugere via udvidelsen **Integration af Universaludskrivning**.
 
@@ -21,7 +23,7 @@ Den komplette konfiguration kræver, at du arbejder i både Microsoft Azure ved 
 1. I Microsoft Azure skal du konfigurere Universaludskrivning og tilføje de printere, du vil bruge i Business Central for at dele udskrivning. Gå til [dette afsnit](#set-up-universal-print-and-printers-in-microsoft-azure).
 2. Tilføj printerne fra printerdelinger i Universal udskrivning i [!INCLUDE[prod_short](includes/prod_short.md)]. Gå til [denne sektion](#add-printers-in-business-central-online) for at finde online eller [her](#add-printers-in-business-central-on-premises) for lokalt.
 
-## <a name="prerequisites"></a>Forudsætninger
+## Forudsætninger
 
 - Understøttede printere
 
@@ -35,7 +37,7 @@ Den komplette konfiguration kræver, at du arbejder i både Microsoft Azure ved 
 
   - Du har rollerne **Printerstyring** (eller Printer Manager) og **Global administrator** i Azure.
 
-    Hvis du vil administrere Universaludskrivning, skal din konto omfatte rollerne **Printerstyring** (eller Printer Manager) og **Global administrator** i Azure AD. Disse roller er kun nødvendige for at administrere Universaludskrivning. Brugerne behøver ikke at konfigurere og bruge printerne fra [!INCLUDE[prod_short](includes/prod_short.md)].
+    Hvis du vil administrere Universaludskrivning, skal din konto omfatte rollerne **Printerstyring** (eller Printer Manager) og **Global administrator** i Microsoft Entra ID. Disse roller er kun nødvendige for at administrere Universaludskrivning. Brugerne behøver ikke at konfigurere og bruge printerne fra [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - [!INCLUDE[prod_short](includes/prod_short.md)] online og i det lokale miljø:
 
@@ -44,18 +46,18 @@ Den komplette konfiguration kræver, at du arbejder i både Microsoft Azure ved 
 
     Denne udvidelse udgives og installeres som standard som en del af [!INCLUDE[prod_short](includes/prod_short.md)] online og i det lokale miljø. Du kan kontrollere, om den er installeret på siden **Udvidelsesstyring**. Få mere at vide om at [installere og fjerne udvidelser i Business Central](ui-extensions-install-uninstall.md).
 - [!INCLUDE[prod_short](includes/prod_short.md)] kun lokalt:
-  - Godkendelse af typen Azure Active Directory (AD) eller NavUserPassword er konfigureret.
+  - Godkendelse af typen Microsoft Entra ID eller NavUserPassword er konfigureret.
     > [!NOTE]
     >  Universal print Extension understøtter ikke service-to-service (S2S)-godkendelse. Den kræver, at en bruger er logget på for at sende udskriftsjob til Universal print service via Graph API.
-  - Registrering som bruger af Business Central foregår i din Azure AD-lejer og [!INCLUDE[prod_short](includes/prod_short.md)].
+  - Registrering som bruger af Business Central foregår i din Microsoft Entra-lejer og [!INCLUDE[prod_short](includes/prod_short.md)].
 
-    Ligesom andre Azure-tjenester, der fungerer sammen med [!INCLUDE[prod_short](includes/prod_short.md)], kræver Universaludskrivning en appregistrering for [!INCLUDE[prod_short](includes/prod_short.md)] i Azure AD. Appregistreringen leverer godkendelses- og autorisationstjenester mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Universaludskrivning.
+    Ligesom andre Azure-tjenester, der fungerer sammen med [!INCLUDE[prod_short](includes/prod_short.md)], kræver Universaludskrivning en appregistrering for [!INCLUDE[prod_short](includes/prod_short.md)] i Microsoft Entra ID. Appregistreringen leverer godkendelses- og autorisationstjenester mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Universaludskrivning.
 
     Din installation bruger muligvis allerede en appregistrering for andre Azure-tjenester, f.eks. Power BI. Hvis det er tilfældet, skal du bruge den eksisterende appregistrering for Universaludskrivning i stedet for at tilføje en ny. Det eneste, du skal gøre, er i dette tilfælde at ændre appregistreringen, så den indeholder de relevante udskrivningstilladelser til Microsoft Graph API: **PrinterShare.ReadBasic.All**, **PrintJob.Create** og **PrintJob.ReadBasic.** 
 
-    Hvis du vil registrere en app og angive de rette tilladelser, skal du følge den fremgangsmåde, der er beskrevet i [Registrere et program i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
+    Hvis du vil registrere en app og angive de rette tilladelser, skal du følge den fremgangsmåde, der er beskrevet i [Registrere et program i Microsoft Entra ID](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
 
-## <a name="set-up-universal-print-and-printers-in-microsoft-azure"></a>Konfigurere Universaludskrivning og printere i Microsoft Azure
+## Konfigurere Universaludskrivning og printere i Microsoft Azure
 
 Før du kan begynde at administrere printere for Universaludskrivning i Business Central, skal du udføre flere opgaver for at Universaludskrivning til at køre i Azure sammen med de printere, du vil bruge.
 
@@ -69,9 +71,9 @@ Du kan finde detaljerede instruktioner i konfigurationen i [Introduktion: Konfig
 
       Flere oplysninger i [Hjælp til Microsoft Administration - Tildele licenser til brugere](/microsoft-365/admin/manage/assign-licenses-to-users).
 
-    - Med [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø tildeler du licenser i din Azure-lejer via Azure-portalen.
+    - Med [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø tildeler du licenser i din lejer via Azure-portalen.
 
-      Flere oplysninger i [Azure Directory – Tildele eller fjerne licenser på Azure Active Directory-portalen](/azure/active-directory/fundamentals/license-users-groups).
+      Flere oplysninger i [Tildele eller fjerne licenser i Azure-portalen](/azure/active-directory/fundamentals/license-users-groups).
 
 2. Installer connectoren for Universaludskrivning med henblik på registrering af printere, der ikke kan kommunikere direkte med Universaludskrivning.
 
@@ -102,13 +104,13 @@ Du kan finde detaljerede instruktioner i konfigurationen i [Introduktion: Konfig
 
 6. Aktiver dokumentkonvertering.
 
-    Universaludskrivning gengiver indholdet til udskrivning i XPS-format. Nogle ældre printere på markedet understøtter ikke gengivelse af XPS-indhold&mdash;og i mange tilfælde kun PDF-format. Udskrivning til disse printere vil mislykkes, medmindre Universaludskrivning er konfigureret til at konvertere dokumenter til printerens understøttede format.
+    Universaludskrivning gengiver indholdet til udskrivning i XPS-format. Nogle ældre printere på markedet understøtter ikke gengivelse af XPS-indhold og i mange tilfælde kun PDF-format. Udskrivning til disse printere vil mislykkes, medmindre Universaludskrivning er konfigureret til at konvertere dokumenter til printerens understøttede format.
 
     Flere oplysninger i [Dokumentkonverteringsoversigt](/universal-print/portal/document-conversion).
 
 Nu er du klar til at føje printerne til [!INCLUDE[prod_short](includes/prod_short.md)], konfigurere standardprintere for rapporter og udskrive.  
 
-## <a name="add-printers-in-business-central-online"></a>Tilføj printere i Business central online
+## Tilføj printere i Business central online
 
 Når printere er konfigureret og delt i Universaludskrivning, er du klar til at tilføje dem i [!INCLUDE[prod_short](includes/prod_short.md)] til brug. Du kan tilføje printere for Universaludskrivning på to måder. Du kan tilføje printerne samlet eller hver for sig.
 
@@ -131,7 +133,7 @@ Tilføjelse af printere hver for sig gør det muligt installere den samme printe
 
 Når der er tilføjet en printer, kan du få vist og ændre indstillingerne for den i **Printerstyring**. Du skal bare vælge printeren og derefter vælge **Rediger printerindstillinger**.
 
-## <a name="add-printers-in-business-central-on-premises"></a>Tilføj printere i Business central lokalt
+## Tilføj printere i Business central lokalt
 
 <!--With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, unlike online, users aren't automatically authenticated with the registered app in Azure used for the Universal Print service. So, before any Business Central user (including admins) can add or even use Universal Print printers, they'll have to authenticate with the Azure app and grant access to the Universal Print service. The following procedure describes how to initiate this authentication flow. Each user typically only has to do this task once.-->
 
@@ -147,17 +149,17 @@ Dette gøres typisk første gang, der oprettes forbindelse til den Azure-registr
 > Hvis du er administrator, anbefales det, at du udfører denne opgave før andre brugere. Derefter skal du underrette brugerne om, hvem der skal bruge universaludskriftsprintere, når de skal gøre. Hvis den Azure-registrerede app til Universaludskrivning kræver administrator samtykke til API-tilladelser, er det nemmere, hvis du giver samtykke på vegne af organisationen. Du kan tildele administratorsamtykke fra Azure-portalen, eller når du udfører de trin, der følger efter. 
 
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
-### <a name="connect-to-universal-print-for-the-first-time"></a>Tilslutte til Universaludskrivning for første gang
+### Tilslutte til Universaludskrivning for første gang
 
 Gennemfør disse trin for at oprette forbindelse til den universaludskrivningstjeneste første gang.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Printerstyring**, vælg derefter det relaterede link.
 2. Vælg **universaludskrivning** > **Tilføj alle universaludskrivningsprintere** for at starte assisteret opsætningsguide til **Tilføj universaludskrivningsprinter**.
-3. Følg vejledningen på skærmen, indtil du kommer til siden AZURE ACTIVE DIRECTORY SERVICE PERMISSIONS.
+3. Følg vejledningen på skærmen, indtil du kommer til siden **MICROSOFT ENTRA-TJENESTETILLADELSER**.
 
-    <!--The AZURE ACTIVE DIRECTORY SERVICE PERMISSIONS page appears. You'll be prompted to give consent to Azure Services. You'll be lead through the process of verifying your Azure AD setup, checking your Universal Print license, and then adding the printers.-->
+    <!--The MICROSOFT ENTRA SERVICE PERMISSIONS page appears. You'll be prompted to give consent to Azure Services. You'll be lead through the process of verifying your Microsoft Entra ID setup, checking your Universal Print license, and then adding the printers.-->
 
-   ![Viser siden AZURE ACTIVE DIRECTORY SERVICE PERMISSIONS](media/azure-ad-services-permissions.png "Viser siden AZURE ACTIVE DIRECTORY SERVICE PERMISSIONS")
+   ![Viser siden MICROSOFT ENTRA-TJENESTETILLADELSER](media/azure-ad-services-permissions.png "Viser siden MICROSOFT ENTRA-TJENESTETILLADELSER")
 
 4. Vælg linket **Autoriserede Azure Services**.
 
@@ -173,11 +175,11 @@ Når der er tilføjet en printer, kan du få vist og ændre indstillingerne for 
 
 Når du har fuldført første logon, kan du bruge de universelle udskrivningsprintere til at udskrive rapporter og andre udskriftsjob. Du kan få flere oplysninger i [Udskrive en rapport](ui-work-report.md#PrintReport). Hvis du vil tilføje, fjerne eller ændre en printer, skal du bare gå tilbage til siden **Udskriftsstyring** og vælge **Universaludskrivning**.
 
-## <a name="common-problems-and-resolutions"></a>Almindelige problemer og løsninger
+## Almindelige problemer og løsninger
 
 I dette afsnit skal du lære om de almindelige problemer, som brugere kan opleve, når du forsøger at installere eller bruge universaludskrivningsprintere.
 
-### <a name="you-dont-have-access-to-the-printer-your-printer"></a>Du har ikke adgang til printeren \<your-printer\>.
+### Du har ikke adgang til printeren \<your-printer\>.
 
 Hvis en bruger får denne meddelelse, når du forsøger at udskrive et dokument på en universaludskrivningsprinter, kan det skyldes et af følgende forhold:
 
@@ -186,17 +188,17 @@ Hvis en bruger får denne meddelelse, når du forsøger at udskrive et dokument 
 - (Lokalt) Den Azure-app-registrering, der bruges til universaludskrivning, fungerer ikke eller er ændret for nylig siden den sidste gang, brugeren loggede på.
 - (Lokalt) Brugeren er endnu ikke logget på Azure-registreret app til Universaludskrivnings-app og har godkendt for første gang.
 
-## <a name="there-was-an-error-fetching-printers-shared-to-you"></a>Der opstod en fejl under hentning af printere, der er delt til dig.
+## Der opstod en fejl under hentning af printere, der er delt til dig.
 
 Hvis en bruger får denne meddelelse, når du forsøger at tilføje en universaludskrivningsprinter fra siden **Printerstyring**, skyldes det typisk, at du endnu ikke har logget på Azure registreret app til Universaludskrivnings-app og har godkendt for første gang. 
 <!--
-### <a name="troubleshooting"></a>Troubleshooting
+### Troubleshooting
 
-#### <a name="you-dont-see-the-a-printer-in-the"></a>You don't see the a printer in the
+#### You don't see the a printer in the 
 
 The printer is not shared in Universal Print.
 
-### <a name="you-get-an-error-when-tryong-to-add-all-or-a-single-printer"></a>You get an error when tryong to add all or a single printer
+### You get an error when tryong to add all or a single printer
 
 You have'nt been assigned a Uincersla Print license.
 
@@ -204,7 +206,7 @@ There was an error fetching printers shared to you. You don't have access to the
 or 
 You don't seem to have access to Universal Print. Make sure you have a Universal Print subscription, and that your account has been assigned a Universal Print license.
 
-## <a name="could-not-upload-the-document-to-print-job-50"></a>Could not upload the document to print job 50.
+## Could not upload the document to print job 50.
 
 There is a technical problem withe the printer. Unsupported document-format: application/pdf. Supported formats: Attribute document-format-supported: SimpleIppValue-Type:MimeMediaType-Value:application/oxps
 
@@ -213,10 +215,10 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 -->
 
-## <a name="next-steps"></a>Næste trin
+## Næste trin
 [Konfiguration af standardprintere](ui-specify-printer-selection-reports.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversigt over printere](admin-printer-setup-overview.md)  
 [Konfigurere e-mailprintere](admin-printer-setup-email.md)

@@ -31,8 +31,6 @@ Du kan oprette en række læg-på-lager-skabeloner og vælge en af som standards
 
 Du kan oprette en række læg-på-lager-skabeloner og bruge dem efter behov. Den læg-på-lager-skabelon, som du har valgt til varen eller lagervaren, hvis en sådan er oprettet, benyttes først. Hvis felterne her ikke er udfyldt, anvendes den læg-på-lager-skabelon, du har valgt til lagerstedet i oversigtspanelet **Placeringsmetode** på lokationskortet.  
 
-## Se relateret [Microsoft-træning](/training/modules/put-away-templates/)
-
 ## Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)

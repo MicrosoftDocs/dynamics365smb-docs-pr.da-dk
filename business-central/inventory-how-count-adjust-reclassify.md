@@ -22,6 +22,8 @@ Brug en vareomposteringskladde til at ændre attributter for varekladdeposter. S
 > [!NOTE]
 > I processer med flere trin registreres varer på placeringer som lagerposter, ikke som vareposter. Derfor kan du foretage optælling, regulering og ompostering af særlige lagerkladder, der understøtter placeringer. Du kan derefter bruge særlige funktioner til at synkronisere de nye eller ændrede lagerposter med de tilknyttede vareposter, så de afspejler ændringer i lagerbeholdninger og lagerværdier.
 
+[!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
+
 ## Fysisk lagerbeholdningsoptælling
 
 Foretag en lageropgørelse ved udgangen af hvert regnskabsår eller oftere, dvs. tælle antallet af fysiske varer, for at kontrollere, om det antal, der er registreret, er det samme som det fysiske antal varer, der er på lager. Optællinger sker typisk i slutningen af et regnskabsår, men nogle gange sker det oftere. Hvis der er differencer, skal du bogføre det aktuelle antal varekonti <!--accounts, or ledger?--> Inden du foretager lagerværdien.
@@ -202,13 +204,11 @@ Bogfør reguleringsplaceringsposterne i varekladden for de perioder, du har defi
 5. Vælg **OK**. De positive og negative justeringer lægges sammen for hver vare, og der oprettes linjer i varekladden.  
 6. Bogfør kladdelinjerne for at tilføje afvigelserne i varekladden. Oversigterne på placeringer og vareposter passer nu.  
 
-## Se relateret [Microsoft-træning](/training/modules/adjust-inventory/)
-
 ## Se også
 
 [Lageroptælling ved hjælp af dokumenter](inventory-how-count-inventory-with-documents.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Oversigt over logistik](design-details-warehouse-management.md)  
+[Oversigt over Warehouse Management](design-details-warehouse-management.md)  
 [Salg](sales-manage-sales.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

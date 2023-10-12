@@ -60,11 +60,9 @@ Du kan få vist et antal perioder for en enkelt konto i stedet for at få vist a
 3. I oversigtspanelet **Indstillinger** skal du udfylde felterne efter behov for at definere, hvad der vises i tabellen.  
 4. I oversigtspanelet **Linjer** skal du hold markøren over et felt i tabellen for at læse en kort beskrivelse af det viste beløb.  
 
-## Se relateret træning på [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
-
 ## Se også
 
-[Financial Business Intelligence](bi.md)  
+[Økonomisk Business Intelligence](bi.md)  
 [Arbejde med finansielle rapporter](bi-how-work-account-schedule.md)  
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  

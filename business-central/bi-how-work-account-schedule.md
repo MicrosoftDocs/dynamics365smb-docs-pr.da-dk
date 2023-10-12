@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'bi, power BI, analysis, KPI, account schedule, financial report'
 ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ---
-# <a name="prepare-financial-reporting-with-financial-data-and-account-categories"></a>Forberede Financial Reporting med finansdata og kontokategorier
+# Forberede Financial Reporting med finansdata og kontokategorier
 
 Du kan bruge finansrapporter til at få indsigt i de finansielle oplysninger, der er gemt i din kontoplan. Finansrapporter analyserer tal i finanskonti og sammenligner finansposter med budgetposter. Resultaterne vises i diagrammer og rapporter på rollecenteret, f.eks. likviditetsdiagrammet og resultatopgørelsen og balancerapporterne.
 
@@ -20,7 +20,7 @@ Du kan få adgang til disse to rapporter, f.eks. med handlingen **Regnskabsopgø
 
 Oprettelse af finansrapporter kræver en forståelse af de finansielle data i kontoplanen. Du kan f.eks. få vist finansposter som procenter af budgetposter, men det kræver, at du har oprettet budgetter. Flere oplysninger i [Oprette finansbudgetter](finance-how-create-budgets.md).
 
-## <a name="financial-reports"></a>Finansielle rapporter
+## Finansielle rapporter
 
 Finansielle rapporter arrangerer konti fra din kontoplan på en måde, der gør det nemmere at præsentere data. Du kan oprette forskellige layout for at definere de oplysninger, du vil uddrage af kontoplanen. Finansielle rapporter udfører beregninger, der ikke kan foretages direkte i diagrammet for kassekonti. Du kan f. eks. oprette subtotaler for grupper af konti og derefter medtage denne total i andre totaler. Et andet eksempel er at beregne avancer på dimensioner som afdelinger eller debitorgrupper. Desuden kan finansposter og budgetposter filtreres, f.eks. efter nettobevægelse eller debitbeløb.
 
@@ -30,7 +30,7 @@ Du kan også sammenligne to eller flere finansielle rapporter og kolonnedefiniti
 * Oprette lige så mange finansielle rapporter, der er brug for, hver med et entydigt navn.
 * Oprette forskellige rapportlayout og udskrive rapporterne med de aktuelle tal.
 
-## <a name="gl-account-categories"></a>Finanskontokategorier
+## Finanskontokategorier
 
 Du kan bruge finanskontokategorier til at ændre layoutet af regnskabet. Når du f.eks. har oprettet kontokategorierne på siden **Finanskontokategorier**, kan du vælge handlingen **Generér finansielle rapporter** og opdatere de underliggende finansielle rapporter for de grundlæggende finansielle rapporter. Næste gang du kører en af disse rapporter, f.eks. rapporten **Saldoopgørelse**, tilføjes nye totaler og underordnede linjer.
 
@@ -39,7 +39,7 @@ Du kan bruge finanskontokategorier til at ændre layoutet af regnskabet. Når du
 >
 > Du bør oprette og opbygge dine egne finanskontokategorier på lavere niveauer fra bunden i et hierarki, hvis det er nødvendigt, i stedet for at prøve at omarrangere de eksisterende. Du kan f.eks. omstrukturere noden **Gæld**, så den indeholder en ny **Egenkapital**-node efterfulgt af noderne **Aktuelle passiver** og **Langfristet gæld**.
 
-## <a name="create-a-new-financial-report"></a>Oprette en ny finansiel rapport
+## Oprette en ny finansiel rapport
 
 Du bruger finansielle rapporter til at analysere finanskonti eller sammenligne finansposter med budgetposter. Du kan f.eks. få vist finansposter som procenter af budgetposter.
 
@@ -70,7 +70,7 @@ De finansielle rapporter i standardversionen af [!INCLUDE[prod_short](includes/p
 
 Du har nu defineret grundlaget for en finansiel rapport, rækkerne med finansielle data, der skal vises, og et eksisterende kolonneformat, der viser dataene i rækkerne ud fra egne parametre. Hvis den standardkolonnedefinition, du har valgt i trin 4, ikke er egnet til dit formål, skal du følge fremgangsmåden i [Rediger en kolonnedefinition](#edit-a-column-definition).
 
-### <a name="edit-a-column-definition"></a>Redigere en kolonnedefinition
+### Redigere en kolonnedefinition
 
 Brug kolonnedefinitioner til at angive, hvilke kolonner der skal med i den rapport, der oprettes. Du kan f.eks. udforme et format til sammenligning af bevægelse og saldo til dato for den samme periode dette år og sidste år. Du kan bruge op til 15 kolonner, som f.eks. kan være nyttige til visning af budgetter for 12 måneder med en kolonne, der viser totalen.
 
@@ -85,7 +85,7 @@ Brug kolonnedefinitioner til at angive, hvilke kolonner der skal med i den rappo
 > [!NOTE]
 > De kolonner, som du definerer i hver række, repræsenterer kolonne 3 og opad på siden **Finansiel rapport**. De to første kolonner **Rækkenr.** og **Beskrivelse** er faste.  
 
-### <a name="create-a-column-that-calculates-percentages"></a>Oprette en kolonne, hvor procenten beregnes
+### Oprette en kolonne, hvor procenten beregnes
 
 Du vil muligvis gerne medtage en kolonne i en finansiel rapport for at beregne procenter af et totalbeløb. Hvis du f.eks. har et antal rækker, som specificerer salg efter dimension, kan du have en kolonne, som angiver procenten af det samlede salg i hver række.
 
@@ -98,7 +98,7 @@ Du vil muligvis gerne medtage en kolonne i en finansiel rapport for at beregne p
 7. Udfyld felterne på linjen på følgende måde: I feltet **Kolonnetype** skal du vælge **Formel**. I feltet **Formel** skal du indtaste en formel for det beløb, som du vil beregne en procentdel for, efterfulgt af procenttegnet (%). Hvis kolonnenummer N f.eks. indeholder nettoændringen, indtastes **N %**.  
 8. Gentag trin 4 til 7 for alle de grupper af rækker, du vil specificere efter procent.
 
-## <a name="set-up-financial-reports-with-overviews"></a>Oprette finansielle rapporter med oversigter
+## Oprette finansielle rapporter med oversigter
 
 Du kan bruge en financiel rapport til at oprette en opgørelse, hvor tallene i finansposter sammenlignes med tallene i finansbudgettet.
 
@@ -116,7 +116,7 @@ Du kan bruge en financiel rapport til at oprette en opgørelse, hvor tallene i f
 
 Du kan nu kopiere og indsætte budgetoversigten i et regneark..  
 
-## <a name="comparing-accounting-periods-using-period-formulas"></a>Sammenligne regnskabsperioder ved hjælp af periodeformler
+## Sammenligne regnskabsperioder ved hjælp af periodeformler
 
 Din finansielle rapport kan sammenligne resultaterne af forskellige regnskabsperioder, f.eks. sidste måned sammenlignet med samme måned sidste år. Hvis du vil gøre det, skal du åbne siden **Kolonnedefinition** og tilpasse den ved at tilføje feltet **Sammenligningsperiodeformel** som en kolonne. Flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md). Du kan derefter angive det pågældende felt til en periodeformel.  
 
@@ -150,7 +150,7 @@ Hvis du vil foretage beregninger efter almindelige tidsperioder, skal du angive 
 
 Du kan finde flere oplysninger i [Arbejde med kalenderdatoer og klokkeslæt](ui-enter-date-ranges.md).
 
-## <a name="print-and-save-financial-reports"></a>Udskrive og gemme finansielle rapporter
+## Udskrive og gemme finansielle rapporter
 
 Du kan udskrive finansielle rapporter ved at bruge enhedens udskrivningsservice. [!INCLUDE[prod_short](includes/prod_short.md)] giver også mulighed for at gemme rapporter som Microsoft Excel-projektmapper, Microsoft Word-dokumenter, PDF-filer og XML-filer.
 
@@ -161,7 +161,7 @@ Du kan udskrive finansielle rapporter ved at bruge enhedens udskrivningsservice.
     1. Indstillingen **(Håndteres af browseren)** angiver, at der ikke er en udvalgt printer til rapporten. I dette tilfælde vil browseren håndtere udskriften og vise en standardoplevelse, hvor du kan vælge en lokal printer, der er tilsluttet enheden. **(Håndteres af browseren)** er ikke tilgængelig i mobilappen [!INCLUDE[prod_short](includes/prod_short.md)] eller appen til Microsoft Teams.
 5. Vælg handlingen **Udskriv**.
 
-### <a name="schedule-a-financial-report-or-save-as-a-pdf-word-or-excel-document"></a>Planlægge en finansiel rapport eller gemme som et PDF-, Word-eller Excel-dokument
+### Planlægge en finansiel rapport eller gemme som et PDF-, Word-eller Excel-dokument
 
 En finansiel rapport kan gemmes som en fil i forskellige formater, f. eks. PDF, XML, Word eller Excel. Du kan også konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til at oprette gentagne finansielle rapporter:
 
@@ -172,11 +172,11 @@ En finansiel rapport kan gemmes som en fil i forskellige formater, f. eks. PDF, 
 5. Udfyld felterne for at oprette en planlagt eller tilbagevendende finansiel rapport. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
    * For tilbagevendende finansielle rapporter skal du angive felterne **Tidligste startdato/-klokkeslæt** og **Udløbsdato/-klokkeslæt** med den første og sidste dato for at oprette den finansielle rapport. Du kan også vælge, hvilke dage rapporten oprettes, ved at angive feltet **Datoformel for næste kørsel** efter det format, der er forklaret i sektionen [Bruge datoformler](ui-enter-date-ranges.md#use-date-formulas).
 
-## <a name="importing-or-exporting-financial-reports"></a>Importere eller eksportere finansielle rapporter
+## Importere eller eksportere finansielle rapporter
 
 Du kan importere og eksportere finansielle rapporter som RapidStart-konfigurationspakker, som kan være nyttige, når du vil dele oplysninger med andre virksomheder. Pakken oprettes i en .rapidstart-fil, som komprimerer indholdet.
 
-### <a name="import-and-export-financial-reports"></a>Importere og eksportere finansielle rapporter
+### Importere og eksportere finansielle rapporter
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 4.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Finansielle rapporter**, og vælg derefter det relaterede link.
 2. Vælg den finansielle rapport, og vælg derefter **Indlæs finansiel rapport** eller **Udlæs finansiel rapport**, afhængigt af hvad du vil gøre.
@@ -184,7 +184,7 @@ Du kan importere og eksportere finansielle rapporter som RapidStart-konfiguratio
 > [!NOTE]
 > Når du importerer en finansiel rapport, slettes eksisterende poster med samme navn som dem, der importeres.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Køre og udskrive rapporter](ui-work-report.md)  
 [Økonomisk Business Intelligence](bi.md)  
