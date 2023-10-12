@@ -11,13 +11,13 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# Udvidelser af skymigreringsbase
+# <a name="cloud-migration-base-extension"></a>Udvidelser af skymigreringsbase
 
 Med denne udvidelse kan du gennemgå processen for konfiguration af en forbindelse mellem din lokale løsning og dit [!INCLUDE [prod_short](includes/prod_short.md)]-onlinemiljø, når du starter migreringen til skyen.  
 
 Når forbindelsen er konfigureret, kan du overføre data fra din lokale løsning til din online [!INCLUDE[prod_short](includes/prod_short.md)]. Udvidelsen fungerer sammen med en datareplikeringsudvidelsen, der er tilgængelig til din specifikke lokale løsning. Du kan finde flere oplysninger i [Kørsel af skyoverflytningsværktøj](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Køre skyoverflytningsværktøj](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Intelligente skyudvidelser til skymigrering](ui-extensions-data-replication.md)  

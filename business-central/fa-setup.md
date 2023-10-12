@@ -11,7 +11,7 @@ ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Opsætning af anlægsaktiver
+# <a name="setting-up-fixed-assets"></a>Opsætning af anlægsaktiver
 
 Før du kan arbejde med anlægsaktiver, skal du angive et par ting:  
 
@@ -36,7 +36,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Få mere at vide om forskellige afskrivningsmetoder for anlægsaktiver. |[Afskrivningsmetoder](fa-depreciation-methods.md) |
 | Få mere at vide om, hvordan du anvender brugerdefinerede afskrivningsmetoder. |[Konfigurere brugerdefinerede afskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Anlægsaktiver](fa-manage.md)  
 [Finans](finance.md)  

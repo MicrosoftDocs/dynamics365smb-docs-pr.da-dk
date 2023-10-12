@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ---
-# Oprette sager, priser og sagsbogføringsgrupper
+# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Oprette sager, priser og sagsbogføringsgrupper
 
 Som projektleder kan du oprette sager, der definerer hvert af de projekter, som du administrerer i [!INCLUDE[prod_short](includes/prod_short.md)]. Brug siden **Jobopsætning** til at definere, hvordan du vil bruge jobfunktioner.
 
@@ -21,7 +21,7 @@ For hvert job skal du angive forskellige oplysninger:
 * Finanskonti for sag
 * Sagbogføringsgrupper (påkrævet)
 
-## Sådan angives generelle oplysninger for sager
+## <a name="to-set-general-information-for-jobs"></a>Sådan angives generelle oplysninger for sager
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagsopsætning**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -29,7 +29,7 @@ For hvert job skal du angive forskellige oplysninger:
 > [!NOTE]
 > Feltet **Anvend anvendelseslink som standard** på siden **Sagbogføringsgrupper** angiver, om der som standard knyttes sagsposter til sagsplanlægningslinjer. Slå til/fra-funktionen til for at anvende denne indstilling på alle nye job. Du kan aktivere eller deaktivere sporing af sagsforbrug for et bestemt job ved at slå værdien i feltet **Anvend anvendelseslink** til/fra på siden **sagskort**.
 
-### Sådan definerer du sagsforbrugssporing
+### <a name="to-set-up-job-usage-tracking"></a>Sådan definerer du sagsforbrugssporing
 
 Når du ekspederer en aktiv sag, kan du få flere oplysninger om forbruget i forhold til din plan. Det kan udforske forbruget ved at oprette en tilknytning mellem dine sagsplanlægningslinjer og det faktiske forbrug. Du kan bruge hyperlinket til at spore omkostningerne og forstå, hvor meget arbejde der er tilbage. Som standard er sagsplanlægningslinjetypen **Budget**, men brug af linjetypen **Både budget og fakturerbar** har samme virkning.
 
@@ -43,7 +43,7 @@ Når du har konfigureret forbrugssporing ved at vælge feltet **Anvend forbrugsl
 > [!IMPORTANT]
 > Hvis du ikke angiver en specifik værdi i feltet **Linjetype** på sagskladdelinjen eller linjen er tomt, oprettes der ingen sagsplanlægningslinjer, når du bogfører sagskladden eller købsdokumentet.
 
-## Konfigurere priser for ressourcer, varer og finanskonti for jobs.
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Konfigurere priser for ressourcer, varer og finanskonti for jobs.
 
 > [!NOTE]
 > I 2020 udgivelsesbølge 2 har vi udgivet nye processer til opsætning og administration af priser og rabatter. Hvis du er ny kunde, bruger du den nye oplevelse. Hvis du allerede bruger den nye oplevelse, afhænger det af, om din administrator har aktiveret funktionsopdateringen **Ny vareprissætningsopdatering** i **Funktionsadministration**. Du kan finde flere oplysninger i [Aktivere Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -71,7 +71,7 @@ Når du vælger en ressource, vare eller finanskonto for en sag, bruger [!INCLUD
 
 ---
 
-## Sådan oprettes sagsbogføringsgrupper
+## <a name="to-set-up-job-posting-groups"></a>Sådan oprettes sagsbogføringsgrupper
 
 Et aspekt af planlægningssager er at beslutte, hvilke bogføringkonti, der skal bruges til sagsomkostninger. Hvis du vil bogføre sager, skal du oprette konti til bogføring for hver sagsbogføringsgruppe. En bogføringsgruppe repræsenterer en kæde mellem sagen, og hvordan den bør behandles i Finans. Når du opretter en sag, kan du angive en bogføringsgruppe, og som standard knyttes hver opgave, du opretter for sagen, til denne bogføringsgruppe. Når du opretter opgaver, kan du tilsidesætte standardindstillingen og vælge en bogføringsgruppe, der passer bedre.  
 
@@ -99,7 +99,7 @@ Et aspekt af planlægningssager er at beslutte, hvilke bogføringkonti, der skal
 | **Konto til realiserede omkostninger** |Den udgiftskonto, som indeholder de registrerede omkostninger for sagen. Det er normalt en debetafrundingskonto. | Realiserede omkostninger|
 | **Konto til realiseret salg** |Den indtægtskonto, som indeholder den registrerede indtægt for sagen. Det er normalt en kreditafrundingskonto. | Realiseret salg|
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Opsætte projektstyring](projects-setup-projects.md)  
 [Video: Sådan oprettes en sag i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

@@ -10,7 +10,7 @@ ms.date: 09/11/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# Plukke varer til lagerleverance
+# <a name="pick-items-for-warehouse-shipment"></a>Plukke varer til lagerleverance
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du modtage varer og indsætte dem på en af fire måder som beskrevet i følgende tabel.
 
@@ -39,11 +39,11 @@ Du kan ikke oprette lagerplukdokumenter fra bunden. Pluk er en del af en arbejds
 >  
 > Se [Plukke til montage eller produktion i avancerede lageropsætninger](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md) for at få oplysninger om pluk af komponenter til montageordrer generelt, herunder situationer, hvor montageelementet ikke er forfaldent på en salgsleverance.  
 
-## Kontrollere, om varer er tilgængelige til pluk
+## <a name="check-whether-items-are-available-for-picking"></a>Kontrollere, om varer er tilgængelige til pluk
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## Sådan oprettes plukdokumenter samlet med plukkladden
+## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Sådan oprettes plukdokumenter samlet med plukkladden
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Plukkladde**, og vælg derefter det relaterede link.  
 
@@ -93,7 +93,7 @@ Du kan ikke oprette lagerplukdokumenter fra bunden. Pluk er en del af en arbejds
 
 8. Vælg **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] opretter plukket i overensstemmelse med dine valg.  
 
-## Sådan plukkes varer til lagerleverance
+## <a name="to-pick-items-for-a-warehouse-shipment"></a>Sådan plukkes varer til lagerleverance
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk (logistik)**, og vælg derefter det relaterede link.  
 
@@ -115,7 +115,7 @@ Du kan ikke oprette lagerplukdokumenter fra bunden. Pluk er en del af en arbejds
 
 Den person, der er ansvarlig for leveringen, kan nu bringe varerne til forsendelseshavnen og bogføre leverancen, herunder det relaterede kildedokument, på siden **Lagerleverance**. Flere oplysninger i [Levere varer](warehouse-how-ship-items.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

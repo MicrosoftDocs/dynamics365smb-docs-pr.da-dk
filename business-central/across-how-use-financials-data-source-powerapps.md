@@ -8,18 +8,18 @@ ms.search.keywords: 'OData, Power App, SOAP'
 ms.date: 05/15/2023
 ms.author: jswymer
 ---
-# Oprette forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af Power Apps
+# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Oprette forbindelse til dine Business Central-data for at oprette en forretningsapp ved hjælp af Power Apps
 
 Du kan gøre dine [!INCLUDE[prod_short](includes/prod_short.md)]-data tilgængelige som en datakilde i Power Apps.  
 
 > [!TIP]  
 > Business Central tilbyder nu understøttelse til udvikling og drift til Power Platform i AL-Go og eksempler, så du kan komme i gang med at oprette dine egne apps med Power Apps. Disse funktioner findes i øjeblikket som forhåndsversion. Hvis du vil vide mere, kan du gå videre til [Business Central og Power Apps](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview) i Hjælp til it-fagfolk.
 
-## Forudsætninger
+## <a name="prerequisites"></a>Forudsætninger
 
 Du skal have en gyldig konto til [!INCLUDE[prod_short](includes/prod_short.md)] og til Power Apps.  
 
-## Tilføje [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power Apps
+## <a name="add--as-a-data-source-in-power-apps"></a>Tilføje [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power Apps
 
 Denne fremgangsmåde tilføjer en Business Central-tabel, f. eks. kunder eller varer, som datakilde til en Power Apps-app.
 
@@ -50,15 +50,15 @@ Nu har du oprettet forbindelse til dine [!INCLUDE[prod_short](includes/prod_shor
 Når du har designet og opbygget din app, kan du dele den med dine kolleger. Du kan finde flere oplysninger i [Gemme og udgive en lærreds-app i Power Apps](/powerapps/maker/canvas-apps/save-publish-app).  
 
 <!--
-## Sample apps to get started
+## <a name="sample-apps-to-get-started"></a>Sample apps to get started
 
 As a preview version, Business Central offers several sample apps that you can use as a starting point for building your own apps that use Business Central data. These sample apps are available in the [Business Central Demos](https://github.com/BusinessCentralDemos) repo on GitHub. For a quick overview on the apps, go to [Power Apps samples for Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-samples).
 
-## Develop and maintain apps application lifecycle management
+## <a name="develop-and-maintain-apps-application-lifecycle-management"></a>Develop and maintain apps application lifecycle management
 
 As an app developer, you may already be familiar with Business Central AL-Go. AL-Go is set of tools on GiHub that enables you to maintain professional DevOps processes for your Business Central AL projects. AL-Go supports source control and activities, like building, testing, and deploying. As a preview, Business Central now offers an Al-Go version that supports for Power Platform solutions. The preview, for example, includes workflows that let you push and pull Power Platfrom changes to and from enviroments. You can access the tools at [https://github.com/BusinessCentralDemos/AL-Go-PTE](https://github.com/BusinessCentralDemos/AL-Go-PTE). For more information, see [Application lifecycle management for Power Apps in Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm).-->
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oprette en lærreds-app fra en skabelon i Power Apps](/powerapps/maker/canvas-apps/get-started-test-drive)  
 [Import af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  

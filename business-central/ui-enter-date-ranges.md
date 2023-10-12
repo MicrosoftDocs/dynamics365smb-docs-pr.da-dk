@@ -12,13 +12,13 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ---
 
-# Arbejde med kalenderdatoer og klokkeslæt
+# <a name="work-with-calendar-dates-and-times"></a>Arbejde med kalenderdatoer og klokkeslæt
 
 Du kan angive datoer og klokkeslæt på flere måder. [!INCLUDE[prod_short](includes/prod_long.md)] indeholder effektive funktioner, der fremskynder indtastning af data og hjælper dig med at skrive komplekse kalenderudtryk. Der er forskellige steder i programmet, hvor du kan angive datoer og klokkeslæt i felterne. På en salgsordre kan du f.eks. angive afsendelsesdatoen. Når du filtrerer lister eller rapportdata, kan du angive datoer og klokkeslæt for kun at finde de data, du er interesseret i.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## Kontrollere internationale og sproglige indstillinger
+## <a name="check-your-region-and-language-settings"></a>Kontrollere internationale og sproglige indstillinger
 
 Siden **Mine indstillinger** angiver det **Område** og **Sprog**, du bruger i programmet. Disse indstillinger påvirker måden, du angiver datoer og klokkeslæt på.
 
@@ -33,7 +33,7 @@ Siden **Mine indstillinger** angiver det **Område** og **Sprog**, du bruger i p
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
 
-## Angive datoer
+## <a name="entering-dates"></a>Angive datoer
 
 I et datofelt kan du angive en dato i standardformatet for din land/områdeindstilling. Forskellige områder kan bruge forskellige separatorer mellem dage, måneder og år. For eksempel bruger nogle lande/områder bindestreger (mm-dd-åååå), mens andre bruger skråstreger (mm/dd/åååå).  
 
@@ -45,7 +45,7 @@ I et datofelt kan du angive en dato i standardformatet for din land/områdeindst
 
 For at arbejde mere produktivt med datoer og klokkeslæt kan du bruge de metoder og formater, der er beskrevet i følgende afsnit.
 
-### Vælge datoer i kalenderen
+### <a name="picking-dates-from-the-calendar"></a>Vælge datoer i kalenderen
 
 De felter, der viser et kalenderikon, kan angives ved hjælp af kalenderdatovælgeren. Aktiver kalenderikonet for at få vist kalenderdatovælgeren, eller vælge på <kbd>Ctrl</kbd>+<kbd>Home</kbd>-tastaturgenvejen i feltet.
 
@@ -53,7 +53,7 @@ De felter, der viser et kalenderikon, kan angives ved hjælp af kalenderdatovæl
 
 Se også [Tastaturgenveje i kalenderdatovælgeren](keyboard-shortcuts.md#calendarshortcuts).
 
-### Mønsteret dag\-uge\-år
+### <a name="day-week-year-pattern"></a>Mønsteret dag\-uge\-år
 
 Du kan angive en dato som en ugedag efterfulgt af et ugenummer og eventuelt et år. F.eks. betyder Man25 eller man25 mandag i uge 25. Hvis du ikke angiver et år, bruges året fra arbejdsdatoen.
 
@@ -61,7 +61,7 @@ I stedet for at skrive hele ordet for den pågældende dag i ugen kan du skrive 
 
 Ugenummereringen er altid ISO 8601, hvor er uge 1 uge er den uge, som 4. januar indgår i, eller ugen med den første torsdag i året.
 
-### Talmønstre
+### <a name="digit-patterns"></a>Talmønstre
 
 I et datofelt kan du indtaste to, fire, seks eller otte cifre:
 
@@ -74,17 +74,17 @@ I et datofelt kan du indtaste to, fire, seks eller otte cifre:
   > [!NOTE]
   > Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan det tocifrede årstal være forskelligt. Administratorer kan ændre området ved at ændre indstillingen **CalendarTwoDigitYearMax** for [!INCLUDE[prod_short](includes/prod_short.md)]-serveren. Du kan finde flere oplysninger under [Konfiguration af Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
  
-### I dag
+### <a name="today"></a>I dag
 
 Indtast ordet for _i dag_, på det sprog, der er angivet på siden **Mine indstillinger**, for at angive datoen på en post til dags dato. I stedet for at skrive hele ordet kan du skrive en del af ordet fra begyndelsen. Du kan f. eks. skrive _t_ eller _tor_, så længe det ikke også er starten på et andet ord.
 
-### Periode
+### <a name="period"></a>Periode
 
 For at filtrere på en bestemt regnskabsperiode skal du i et datofelt skrive bogstavet p eller ordet periode efterfulgt af et tal, der identificerer regnskabsperioden, f.eks. p2 eller periode4. Regnskabsperioden passer til regnskabsåret for den aktuelle arbejdsdato, der er angivet i dit rollecenter. Hvis arbejdsdatoen f.eks. er **21-03-22**, så filtrerer _p1_, eller bare _p_, på den første regnskabsperiode i regnskabsåret 2022 (f.eks. 01-01-22...01-31-22). _p15_ filtrerer på den 15 regnskabsperiode fra starten af regnskabsåret 2022 (f.eks. 01-03-23..31-03-23).
 
 Regnskabsperioden defineres på siden **Regnskabsperioder**. Hvis du vil se eller ændre regnskabsperioderne, skal du åbne siden [her](https://businesscentral.dynamics.com/?page=100).
 
-### Arbejdsdato
+### <a name="work-date"></a>Arbejdsdato
 
 Brug en arbejdsdato til at angive en dato, der ikke er dags dato på poster. En arbejdsdato er f. eks. nyttig, når du skal angive en bestemt dato for flere poster. Du kan angive arbejdsdatoen på siden **Mine indstillinger**. 
 
@@ -92,13 +92,13 @@ En hurtig måde at indtaste arbejdsdatoen på i posterne er at indtaste noget af
 
 Hvis du ikke har angivet en arbejdsdato, bruges dags dato. Se også [Ændre grundlæggende indstillinger, f.eks. arbejdsdatoen](ui-change-basic-settings.md#work-date).
 
-### Ultimodato
+### <a name="closing-date"></a>Ultimodato
 
 Ved afslutning af et regnskabsår kan du bruge ultimodatoer til at angive, at posten er en ultimopost. I teknisk forstand er en ultimodato en hvilken som helst dato mellem to datoer, f.eks. 31. december og 1. januar.
 
 Hvis en dato skal være en ultimodato, skal du indsætte et U lige foran datoen, f.eks. U120131. Brug dette format sammen med alle datomønstre.
 
-### Eksempler
+### <a name="examples"></a>Eksempler
 
 Følgende tabel indeholder eksempler på datoer i alle formater. Det forudsætter indstillinger for land/område, der formaterer datoer i henhold til: **år.måned.dag.**, en uge, der begynder om mandagen, og hvor sproget er engelsk.
 
@@ -123,7 +123,7 @@ Følgende tabel indeholder eksempler på datoer i alle formater. Det forudsætte
 |ti 23|Tirsdag i uge 23 i året for arbejdsdatoen|
 |ti-1|Tirsdag i uge 1 i året for arbejdsdatoen|
 
-##  <a name="BKMK_SettingDateRanges"></a> Angive intervaller
+## <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a>Angive intervaller
 
 På lister, i totaler og rapporter kan angive filtre for datoer, klokkeslæt og dato/klokkeslæt, der indeholder en startværdi og eventuelt en slutværdi for kun at få vist dataene i det pågældende interval. Standardreglerne gælder for den måde, du angiver datointervaller på.
 
@@ -135,7 +135,7 @@ På lister, i totaler og rapporter kan angive filtre for datoer, klokkeslæt og 
 
 Du kan bruge de gyldige formater i datointervalfiltre. F.eks. resulterer man14 03..d 16, der anvendes på et dato og klokkeslætsfelt, i et filter fra kl. 3 mandag i uge 14 for den igangværende arbejdsdatos år, begge inklusive, indtil i dag kl. 16 inklusive.
 
-## Bruge dataformularer
+## <a name="use-date-formulas"></a>Bruge dataformularer
 
 En datoformel er en kort, forkortet kombination af bogstaver og tal, der angiver, hvordan datoer skal beregnes. Du kan angive datoformler i forskellige datoberegningsfelter eller filtre.
 
@@ -199,7 +199,7 @@ Følgende eksempel viser, hvordan du kan bruge et minustegn til at angive en dat
 > [!IMPORTANT]
 > Hvis lokationen bruger en basiskalender, fortolkes den datoformel, du f.eks. indtaster i feltet **Transporttid**, i overensstemmelse med kalenderens arbejdsdage. For eksempel betyder 1U syv arbejdsdage.
 <!--
-# Entering Date Ranges
+# <a name="entering-date-ranges"></a>Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
 ![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
@@ -222,7 +222,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## Use Date Formulas
+## <a name="use-date-formulas-1"></a>Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -287,7 +287,7 @@ The following example shows how you can use a minus sign to indicate a date in t
 
 -->
 
-## Angive klokkeslæt
+## <a name="entering-times"></a>Angive klokkeslæt
 
 Når du angiver klokkeslæt, kan du indsætte en vilkårlige separatorer uden mellemrum mellem tidsenhederne. Hvis du bruger dobbelte tal for hver enhed op til millisekunder, er det ikke nødvendigt.
 
@@ -320,11 +320,11 @@ I den følgende tabel kan du se, hvordan du kan indtaste klokkeslæt, og hvordan
 
 Ordet for 'time" på det sprog, som [!INCLUDE[prod_short](includes/prod_long.md)] bruger, vurderes til det aktuelle tidspunkt på din computer eller en mobilenhed. Du kan angive en del af ordet fra begyndelsen, f.eks. t eller TIM.
 
-## Indtastning af kombineret dato/klokkeslæt
+## <a name="entering-combined-dates-and-times"></a>Indtastning af kombineret dato/klokkeslæt
 
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
-## Angivelse af varighed
+## <a name="entering-duration"></a>Angivelse af varighed
 
 Nogle felter i programmet repræsenterer en varighed eller et forløbet tidsrum i stedet for en bestemt dato eller klokkeslæt. Du angiver varighed ved at skrive et tal efterfulgt af en måleenhed.
 
@@ -345,7 +345,7 @@ Hvis du vil se, hvilken måleenhed der bruges i feltet varighed, skal du skrive 
 
 Hvis måleenheden f.eks. er timer, konverteres tallet 5 til 5 timer.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Arbejd med [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Beregne dato for køb](purchasing-date-calculation-for-purchases.md)  

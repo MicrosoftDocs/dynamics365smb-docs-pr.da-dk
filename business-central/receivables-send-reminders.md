@@ -11,11 +11,11 @@ ms.search.form: '436, 437, 442, 431, 432, 434'
 ms.date: 02/09/2022
 ms.author: bholtorf
 ---
-# Sende rykkere for udestående saldi
+# <a name="send-reminders-of-outstanding-balances"></a>Sende rykkere for udestående saldi
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Indhente udestående beløb](receivables-collect-outstanding-balances.md)  
 [Konfigurere flere rentesatser for forsinket betaling](finance-how-to-set-up-multiple-interest-rates.md)  

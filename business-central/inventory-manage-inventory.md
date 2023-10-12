@@ -12,7 +12,7 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ---
 
-# Administrere lager
+# <a name="manage-inventory"></a>Administrere lager
 
 For hvert fysisk produkt, som du vil handle med, skal du oprette et varekort af typen **Lager**. De varer, du tilbyder kunderne, men ikke lagerfører, kan du registrere som katalogvarer, som du kan konvertere til lagervarer, når det er nødvendigt. Du kan øge eller mindske antallet af en vare på lager ved at bogføre direkte til vareposterne, f.eks. efter en fysisk optælling eller hvis du ikke registrerer indkøb.
 
@@ -25,13 +25,13 @@ Hvis du vil øge dit overblik over varerne og lettere kunne finde dem, kan du ka
 
 Planlægning af varer til opfyldelse af behov dækkes som en del af forsyningsplanlægningsfunktionaliteten. Få mere at vide i [Planlægning](production-planning.md).  
 
-## Lagerafstemning
+## <a name="inventory-reconciliation"></a>Lagerafstemning
 
 Når du bogfører lagertransaktioner, f.eks. salgsleverancer, købsfakturaer eller lagerreguleringer, registreres ændringen i varepriser i værdiposterne. For at afspejle ændringen af lagerværdien i dine finansielle regnskaber bogføres lagerværdien automatisk i de relaterede lagerkonti i finansbogholderiet. For hver lagertransaktion du bogfører, bogføres den relevante værdi på lagerkontoen, reguleringskontoen og vareforbrugskontoen i finansregnskabet. Flere oplysninger i [Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Selvom lagerværdien automatisk bogføres i Finans, er det stadig nødvendigt at sikre, at værdien af varerne overføres til de relaterede udgående transaktioner, f.eks salg eller overflytninger. Dette er især vigtigt i de situationer, hvor du sælger varer, inden du fakturerer købet af varerne. Dette omtales som omkostningsregulering. Varepriser reguleres automatisk, når du bogfører transaktioner, men du kan også justere varepriser manuelt. Få mere at vide om [Regulere varepriser](inventory-how-adjust-item-costs.md).  
 
-## Relaterede emner
+## <a name="related-tasks"></a>Relaterede emner
 
 I følgende tabel beskrives relaterede opgaver.
 
@@ -55,7 +55,7 @@ I følgende tabel beskrives relaterede opgaver.
 |Administrer forretningsaktiviteter på salgskontorer, indkøbsafdelinger eller fabriksplanlægningskontor på tværs af flere lokationer.|[Arbejde med ansvarscentre](inventory-responsibility-centers.md)|
 |Bruge ressourcer med specifikke kvalifikationer til forskellige tjenester og serviceartikler.|[Konfigurere ressourceallokering](service-how-setup-resource-allocation.md)|
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
 [Købe](purchasing-manage-purchasing.md)  

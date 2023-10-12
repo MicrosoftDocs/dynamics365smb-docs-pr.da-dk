@@ -11,9 +11,9 @@ ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# Hurtig reference til tastatur - kun pc'er
+# <a name="keyboard-quick-reference---pc-only"></a>Hurtig reference til tastatur - kun pc'er
 
-#### Generelt
+#### <a name="general"></a>Generelt
 
 |Vælg disse taster|For at gøre følgende|  
 |-|-|
@@ -40,7 +40,7 @@ ms.custom: bap-template
 |<kbd>Tab</kbd>/<kbd>Skift</kbd>+<kbd>Tab</kbd>|Flytte fokus til næste/forrige element|
 |<kbd>F6</kbd>/<kbd>Skift</kbd>+<kbd>F6</kbd>|Flyt til næste oversigtspanel/del|
 
-#### Naviger og vælg rækker
+#### <a name="navigate--select-rows"></a>Naviger og vælg rækker
 
 |Vælg disse taster|For at gøre følgende|
 |-|-|
@@ -54,14 +54,14 @@ ms.custom: bap-template
 |<kbd>Skift</kbd>+<kbd>Side op</kbd>/<kbd>Ned</kbd>|Vælg synlige rækker over/under|
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Fokusere uden for listen|
 
-#### Kopiér og sæt ind
+#### <a name="copy--paste"></a>Kopiér og sæt ind
 
 |Vælg disse taster|For at gøre følgende|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Kopiér/Indsæt rækker|
 |<kbd>F8</kbd>|Kopiere feltet ovenover til den aktuelle række|
 
-#### Søg, filtrer og sortér
+#### <a name="search-filter--sort"></a>Søg, filtrer og sortér
 
 |Vælg disse taster|For at gøre følgende|
 |-|-|
@@ -72,20 +72,20 @@ ms.custom: bap-template
 |<kbd>Skift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Tilføje filter i markeret felt|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Skift</kbd>+<kbd>F3</kbd>|Nulstil filtre|
 
-#### Genvej
+#### <a name="quick-entry"></a>Genvej
 
 |Vælg disse taster|For at gøre følgende|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Skift</kbd>+<kbd>Enter</kbd>|Gå til næste genvejsfelt uden for en liste|
 |<kbd>Enter</kbd>/<kbd>Skift</kbd>+<kbd>Enter</kbd>|Gå til næste/forrige genvejsfelt|
 
-##### Visning af et rapporteksempel
+##### <a name="report-preview"></a>Visning af et rapporteksempel
 
 |Vælg disse taster|For at gøre følgende|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Start</kbd>/<kbd>End</kbd>|Gå til første/sidste side|
 
-#### Numerisk tastatur
+#### <a name="numeric-keypad"></a>Numerisk tastatur
 
 |Vælg disse taster|For at gøre følgende|  
 |-|-|

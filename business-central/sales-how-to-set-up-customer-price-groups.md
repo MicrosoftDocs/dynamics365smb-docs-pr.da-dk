@@ -11,17 +11,17 @@ ms.date: 09/30/2021
 ms.author: bholtorf
 ---
 
-# Oprette debitorprisgrupper
+# <a name="set-up-customer-price-groups"></a>Oprette debitorprisgrupper
   
 Salgspriser kan gøres afhængige af de debitorgrupper, du sælger til. Disse kaldes debitorprisgrupper.
 
 Før du opsætter debitorprisgrupper, skal du afgøre, hvor mange grupper der skal være, og hvilke kunder der skal høre til de enkelte grupper.  
 
-## Sådan oprettes salgspriser for en gruppe debitorer  
+## <a name="how-to-create-sales-prices-for-a-group-of-customers"></a>Sådan oprettes salgspriser for en gruppe debitorer
 
 Når du har aftalt den pris, en gruppe debitorer skal betale for en bestemt vare, kan du registrere aftaler for de enkelte varer på linjerne på siden **Salgspriser**.
 
-### Sådan oprettes salgspriser for en gruppe debitorer
+### <a name="to-create-sales-prices-for-a-group-of-customers"></a>Sådan oprettes salgspriser for en gruppe debitorer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Debitorprisgrupper**, og vælg derefter det relaterede link.  
 
@@ -43,11 +43,11 @@ Når du har aftalt den pris, en gruppe debitorer skal betale for en bestemt vare
 
 Gentag trin 4-8 for hver vare, som du vil oprette salgspriser for.
 
-## Sådan angives debitorprisgruppekoder på debitorkort  
+## <a name="how-to-enter-customer-price-group-codes-on-customer-cards"></a>Sådan angives debitorprisgruppekoder på debitorkort
 
 Når du har oprettet debitorprisgrupperne, kan du angive debitorprisgruppekoder på debitorkortene.
 
-### Sådan angives debitorprisgruppekoder på et debitorkort  
+### <a name="to-enter-customer-price-group-codes-on-a-customer-card"></a>Sådan angives debitorprisgruppekoder på et debitorkort
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.  
 
@@ -56,7 +56,7 @@ Når du har oprettet debitorprisgrupperne, kan du angive debitorprisgruppekoder 
 3. I oversigtspanelet **Fakturering** skal du i feltet **Debitorprisgruppe** åbne koden **Debitorprisgruppe** .  
 
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  
