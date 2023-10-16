@@ -117,8 +117,6 @@ Du definerer arbejdsgangsvariationer ved at udfylde felter om arbejdsganglinjer 
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## Se relateret [Microsoft-træning](/training/modules/use-approval-workflows/)
-
 ## Se også
 
 [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  

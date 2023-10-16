@@ -3,16 +3,17 @@ title: Basic Experience Extension | Microsoft-dokumenter
 description: Denne udvidelse er et nyere alternativ til Microsoft Dynamics C5.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'C5, financials, extension'
 ms.search.form: '20600,'
-ms.date: 04/01/2021
+ms.date: 09/28/2023
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.custom: bap-template
 ---
 
-# <a name="the-basic-experience-extension"></a>Basic Experience Extension
+# Basic Experience Extension
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Hvis du har brugt Microsoft Dynamics C5, kan Microsoft-partnere hjælpe dig med at skifte til en mere moderne løsning, der er baseret på [!INCLUDE[prod_short](includes/prod_short.md)], så du fortsat kan nyde den samme strømlinede funktionalitet som Dynamics C5.
 
@@ -21,7 +22,7 @@ Denne udvidelse henvender sig til mindre virksomheder og kan understøtte op til
 > [!NOTE]
 > Denne udvidelse er kun tilgængelig for debitorer i Danmark og Island.
 
-## <a name="whats-available"></a>Tilgængelige oplysninger
+## Tilgængelige oplysninger
 
 I følgende tabel beskrives de funktioner, der er tilgængelige, hvis du installerer Basic Experience-udvidelsen.
 
@@ -33,22 +34,22 @@ I følgende tabel beskrives de funktioner, der er tilgængelige, hvis du install
 |**Projektstyring** |Sager, sagsomkostninger, time sedler, tildeling, opgaver, ressourcer |
 |**Lagerbeholdning** |Basis lager, erstatningsvare, varereferencer |
 
-## <a name="getting-started"></a>Introduktion
+## Introduktion
 
 Dette filtypenavn er lidt anderledes end de fleste, og du har brug for hjælp fra en Microsoft-partner for at kunne installere og konfigurere den. Det betyder, at du ved, hvad du kan forvente, men her er en overordnet oversigt over, hvad Microsoft-partneren skal gøre.
 
 1. Oprette en ny [!INCLUDE[prod_short](includes/prod_short.md)]-lejer. Dette kan enten være en prøveversion eller en version af CSP.
-2. Tilføje mindst én bruger, der er tildelt en grundlæggende Experience licens, i din Azure Active Directory-konto.
+2. Tilføje mindst én bruger, der er tildelt en grundlæggende Experience licens, i din Microsoft Entra-konto.
 3. Fjerne alle regnskaber, herunder eksemplet med CRONUS-regnskabet.
 4. Oprette en ny virksomhed, der ikke indeholder eksempeldata eller opsætninger.
 5. Tilføje **Demo RapidStart**-pakken. <!--what does the package contain?-->
 6. Hente og installere Basic Experience-udvidelsen fra AppSource.
 
-## <a name="migrating-data"></a>Dataoverførsel
+## Dataoverførsel
 
 Bring dine Dynamics C5-data sammen. Når din Microsoft-partner har installeret den grundlæggende oplevelse, har du en tom virksomhed. En nem måde at flytte dine data fra Dynamics C5 il Basic Experience på er at bruge det C5-data overflytnings udvidelse, som findes i [!INCLUDE[prod_short](includes/prod_short.md)]. Udvidelsen overflytter debitorer, kreditorer, varer og finanskonti og deres poster.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Udvidelsen C5-dataoverførsel](ui-extensions-c5-data-migration.md)  
 

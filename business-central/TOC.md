@@ -348,6 +348,11 @@
 #### [Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Forudsigelse af den forsinkede betalingsudvidelse](ui-extensions-late-payment-prediction.md)
 
+### Administrere e-dokumenter
+#### [Opsætte e-dokumenter](finance-how-setup-edocuments.md)
+#### [Bruge e-dokumenter i salg og køb](finance-how-use-edocuments.md)
+#### [Udvide e-dokumenters funktionalitet](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### Administrere moms
 #### [Oversigt over momsstyring](finance-manage-vat.md)
 #### [Købstransaktioner for tredjeparter i EU](finance-how-to-eu3party-trade-purchase.md)
