@@ -114,8 +114,6 @@ Hvis du ikke har markeret afkrydsningsfeltet **Afskriv til bogføringsdato for a
 
 *Samlet afskrivning = 100 + 15 + 55,54 = 170,54*
 
-## Se relateret [Microsoft-træning](/training/paths/manage-advanced-fixed-assets-transactions/)
-
 ## Se også
 
 [Anlægsaktiver](fa-manage.md)  

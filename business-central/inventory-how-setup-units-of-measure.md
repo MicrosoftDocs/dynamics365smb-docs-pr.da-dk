@@ -74,8 +74,6 @@ Hvis du normalt køber eller sælger i andre enheder end basisenheden, kan du an
 4. For køb skal du i oversigtspanelet **Genbestilling** i feltet **Købsenhed** åbne siden **Vareenheder**.
 5. Vælg den kode, du vil angive som standardenhed for henholdsvis salg eller køb, og vælg derefter knappen **OK**.
 
-## Se relateret [Microsoft-træning](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Se også
 
 [Arbejde med produktionskladdeenheder](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)  

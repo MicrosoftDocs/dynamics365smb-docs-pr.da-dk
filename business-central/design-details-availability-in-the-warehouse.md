@@ -73,6 +73,10 @@ Resultatet vises i feltet **Beholdning i alt** på siden **Reservation**.
 
 På en reservationslinje vises det antal, der ikke kan reserveres, fordi det er fordelt i lageret, i feltet **Allokeret antal på lager** på siden **Reservation**.  
 
+## Kontrollere, om varer er tilgængelige til pluk
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
+
 ### Beregning af det antal, der er disponibelt til reservation
 
 [!INCLUDE [prod_short](includes/prod_short.md)] beregner det antal, der kan reserveres, sådan:  
@@ -85,8 +89,8 @@ Følgende diagram viser de forskellige elementer i beregningen.
 
 ## Se også  
 
-[Warehouse Management-oversigt](design-details-warehouse-management.md)
-[Vis varetilgængelighed](inventory-how-availability-overview.md)
-
+[Oversigt over Warehouse Management](design-details-warehouse-management.md)
+[Vise varer, der er disponible](inventory-how-availability-overview.md)
+[Plukke til produktion, samling eller jobs i avancerede lageropsætninger](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.date: 05/31/2023
 ms.custom: bap-template
 ---
-# <a name="walkthrough-of-basic-jobs"></a>Gennemgang af grundlæggende job
+# Gennemgang af grundlæggende job
 
 Denne gennemgang viser flere centrale processer:
 
@@ -15,13 +15,13 @@ Denne gennemgang viser flere centrale processer:
 - Registrere tids- og materialeudgifter for en sag
 - Fakturering af en sag
 
-## <a name="adding-a-job-task-to-a-job"></a>Føje en sagsopgave til en sag
+## Føje en sagsopgave til en sag
 
-### <a name="scenario"></a>Scenarie
+### Scenarie  
 
 Simon, projektlederen, ønsker at registrere den tid, der bruges på at uddanne kunden i brugen af espressomaskineprodukter til en separat opgave i jobbet med at installere en kommerciel maskine på stedet.
 
-### <a name="steps"></a>Trin
+### Trin
 
 1. Oprette sagsopgaven  
 
@@ -37,17 +37,17 @@ Simon, projektlederen, ønsker at registrere den tid, der bruges på at uddanne 
    1. I området Opgaver skal du finde handlingen **Indryk sagsopgaver**
    2. Bekræft, at du vil indrykke opgaver ved at vælge **Ja**.
 
-### <a name="results"></a>Resultater
+### Resultater
 
  - Nu kan tid og udgifter registreres til den nye sagsopgave
 
-## <a name="record-time-and-material-expenses-to-a-job"></a>Registrer tids- og materialeudgifter for en sag
+## Registrer tids- og materialeudgifter for en sag
 
-### <a name="scenario-1"></a>Scenarie
+### Scenarie  
 
 Edgin, den tekniker, der installerer maskinen, skal registrere sin tid og de materialer, der bruges under installationen, til jobbet til fakturering.  Han har allerede tilføjet rejser og materialer, og nu skal han tilføje tid til lærerpersonalet, hvordan man bruger maskinen.
 
-### <a name="steps-1"></a>Trin
+### Trin
 
 1. Opret yderligere sagskladdelinjer
 
@@ -63,19 +63,19 @@ Edgin, den tekniker, der installerer maskinen, skal registrere sin tid og de mat
    1. Vælg handlingen **Bogfør**
    2. Bekræft, at du vil indrykke linjerne ved at vælge **Ja**.
 
-### <a name="results-1"></a>Resultater
+### Resultater
 
  - Der oprettes sagsposter og ressourceposter af typen *Forbrug* 
  - Der oprettes vareposter for at justere lagerbeholdningen negativt
  - På jobkortet afspejler omkostnings- og prisområdet i området Opgaver de nye saldi, der venter på at blive faktureret
  - Faktaboksen Sagsoplysninger på jobkortet afspejler de samlede priser
 
-## <a name="creating-a-sales-invoice-for-a-job"></a>Oprettelse af en salgsfaktura for en sag
+## Oprettelse af en salgsfaktura for en sag
 
-### <a name="scenario-2"></a>Scenarie
+### Scenarie  
 Simon skal oprette og bogføre en faktura, der skal sendes til kunden med hensyn til tid og udgifter fra sagen.
 
-### <a name="steps-2"></a>Trin
+### Trin
 1. Opret salgsfaktura
 
     1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
@@ -88,7 +88,7 @@ Simon skal oprette og bogføre en faktura, der skal sendes til kunden med hensyn
    2. Vælg den sidste faktura for at åbne den til gennemsyn.
    3. Vælg handlingen **Bogfør**.
 
-### <a name="results-2"></a>Resultater
+### Resultater
 
  - Der oprettes sagsposter og ressourceposter af typen *Salg*
  - På jobkortet afspejler omkostnings- og prisområdet i området Opgaver de nye fakturasaldi

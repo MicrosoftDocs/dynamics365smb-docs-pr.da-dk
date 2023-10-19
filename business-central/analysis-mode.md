@@ -1,11 +1,11 @@
 ---
-title: Analysere data på listesider ved hjælp af dataanalysetilstand
+title: Analysere data på listesider og forespørgsler ved hjælp af dataanalysetilstand
 description: 'Få mere at vide om, hvordan du kan bruge dataanalysetilstand i Business central til at analysere data.'
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 09/23/2023
+ms.date: 10/05/2023
 ms.custom: bap-template
 ms.service: dynamics365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
@@ -21,7 +21,7 @@ I denne artikel kan du lære, hvordan du analyserer data fra listesider og fores
 
 ## Forudsætninger 
 
-- Hvis du bruger Business Central version 22, er dataanalysetilstanden i prøveversion, så den skal aktiveres af en administrator, før du kan bruge den. Du kan aktivere det ved at gå til siden **funktionsadministration** og aktivere **Funktionsopdatering: analysetilstand og hurtigt analysere data direkte i Business central**. [Få mere at vide om Funktionsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- Hvis du bruger Business Central version 22, er dataanalysetilstanden i forhåndsversion. Så en administrator skal aktivere det, før du kan bruge det. Du kan aktivere det ved at gå til siden **funktionsadministration** og aktivere **Funktionsopdatering: analysetilstand og hurtigt analysere data direkte i Business central**. [Få mere at vide om Funktionsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - I version 23 og nyere skal din konto tildeles tilladelsessættet **DATA ANALYSIS - EXEC** eller inkludere kørselstilladelse på systemobjektet **9640 Tillad dataanalysetilstand**. Som administrator kan du ekskludere disse tilladelser for brugere, som ikke skal have adgang til analysetilstanden.
 
 > [!NOTE]
@@ -69,7 +69,7 @@ Dataområdet er det sted, hvor rækkerne og kolonnerne på listesidens forespør
   - Hvis du vil fastgøre en kolonne til venstre eller højre for dataområdet, så den ikke bevæger sig væk fra skærmen, når du ruller, vælg kolonnedelen ![Viser ikonet i en kolonne i dataanalysetilstand, der åbner en menu med handlinger](media/analysis-mode-column-menu-icon.png) > **Fastgør kolonne** > **Fastgør venstre**.
   - Du kan definere datafiltre direkte på kolonnedefinitionen i stedet for at gå til ruderne **Analysefiltre**. Du kan stadig finde oplysninger om relaterede data og for hver linje og åbne kortet for at få mere at vide om en bestemt enhed.
 - Brug dataområdet til at interagere med dataene. For kolonner, der indeholder numeriske værdier, kan du beregne en beskrivelse af felterne ved at markere dem. Statistikken vises på statuslinjen (2) langs nederst på siden.
-- Eksportér data i Excel- eller CSV-format. Du skal blot højreklikke på dataområdet eller med et udvalg af celler, der skal udlæses.
+- Eksportér data i Excel- eller CSV-format. Højreklik på dataområdet eller med et udvalg af celler, der skal udlæses.
 
 ### Oversigtspanel (2)
 
@@ -103,7 +103,7 @@ I følgende tabel beskrives de forskellige numre, der vises i området totaler:
 |Rækkegrupper|Brug dette område til at gruppere og summere data efter et eller flere felter. Du kan kun medtage ikke-numeriske felter, f. eks. tekst, dato og klokkeslæt-felter. Række grupper bruges ofte i Pivot-tilstand.|
 |Værdier|Du kan bruge dette område til at angive de felter, som du vil have en indsamlede beløb for. Du kan kun medtage felter, der indeholder numre, som kan tilføjes sammen. felterne tekst, dato eller klokkeslæt er f.eks.|
 
-Hvis du vil flytte et felt fra et område til et andet, skal du vælge ikonet greb ![Viser en oversigt over en side i analysetilstand](media/column-grab-icon.png) ud for kolonnen på listen ovenfor, og træk den til destinationsområdet. Du kan ikke flytte et felt til et område, hvor det ikke er tilladt.
+Hvis du vil flytte et felt fra et område til et andet, skal du vælge greb-ikonet ![Viser en oversigt over en side i analysetilstand](media/column-grab-icon.png) ud for kolonnen på listen, og træk den til destinationsområdet. Du kan ikke flytte et felt til et område, hvor det ikke er tilladt.
 
 ### Analysefiltre (4)
 
@@ -131,6 +131,16 @@ Her er nogle punkter til arbejdet med flere analysefaner:
    > [!TIP]
    > De faner, du opretter, er kun synlige for dig. Andre brugere kan kun se faner, som de har oprettet.
 - Du kan kopiere analysefaner. Kopieringen kan være nyttig, hvis du vil eksperimentere med at ændre en tabulator uden at ændre originalen, eller hvis du vil oprette forskellige variationer af samme analyse.
+
+
+## Datohierarkier
+
+I analysetilstand genereres datofelter for datasættet i et hierarki for år og kvartal med tre separate felter. Dette hierarki er baseret på den normale kalender, ikke nogen regnskabskalendere, der er defineret i Business Central.
+
+De ekstra felter hedder _\<field name\> År_, _\<field name\> Kvartal_ og _\<field name\> Måned_. Hvis datasættet f.eks. indeholder et felt med navnet _Bogføringsdato_, består det tilsvarende datohierarki af felter kaldet _Bogføringsdatoår_, _Bogføringsdatokvartal_ og _Bogføringsdatomåned_.
+
+> [!NOTE]
+> Datohierarkiet gælder i øjeblikket kun for felter af typen dato, ikke for felter af typen datetime.
 
 ## Pivot-tilstand
 

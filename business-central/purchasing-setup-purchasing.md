@@ -11,7 +11,7 @@ ms.search.form: '175, 176, 177, 178, 456, 460, 5727, 5729'
 ms.date: 08/30/2022
 ms.author: bholtorf
 ---
-# <a name="setting-up-purchasing"></a>Opsætning af indkøb
+# Opsætning af indkøb
 
 Før du kan administrere købsprocesser, skal du konfigurere de regler og værdier, der definerer virksomhedens købspolitikker.
 
@@ -21,11 +21,11 @@ En særskilt sæt opgaver i forbindelse med registrering af nye kreditorer er at
 
 Den finansrelaterede købsopsætning, som betalingsmetoder og valutaer, dækkes i afsnittet Konfigurere finans. Flere oplysninger i [Konfigurere finans](finance-setup-finance.md). På samme måde kan du finde lagerrelaterede købsopsætninger, f. eks. enheder og varesporingskoder, i afsnittet [Lageropsætning](inventory-setup-inventory.md).
 
-## <a name="purchases-and-payables-setup"></a>Opsætning af køb og skyldige beløb
+## Opsætning af køb og skyldige beløb
 
 Før du arbejder med køb, skal du på siden **Køb og skyldige beløb** angive, hvordan købsværdier bogføres og nummerserierne, der bruges til kreditorer og købsdokumenter.
 
-### <a name="general-settings"></a>Generelle indstillinger
+### Generelle indstillinger
 
 I oversigtspanelet **Generelt** angiver du indstillinger for, hvordan der skal beregnes og bogføres rabatter, og om fakturaer skal afrundes. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
@@ -37,15 +37,15 @@ Nogle felter ændrer også deres funktionsmåde eller afhænger af, hvordan andr
 
 Læse oplysninger om feltet [**Eksternt bilagsnr. obl.**](#external-document-number) og præcise beløb til feltet [**Obl. præcis kostprisudligning**](#exact-cost-reversing) herunder.
 
-### <a name="number-series-settings"></a>Indstillinger for nummerserier
+### Indstillinger for nummerserier
 
 I oversigtspanelet **Nummerserier** angiver du den de entydige identifikationskoder, som skal bruges til kreditorer, fakturaer og andre købsdokumenter. Nummereringen er ikke kun vigtig ved interne processer, men det kan også være nødvendigt at følge lokale forskrifter. Det kan være værd at overveje at oprette serier på siden **Nummerserie** i stedet for at oprette nye fra **Købsopsætning**. Flere oplysninger i [Oprette nummerserie](ui-create-number-series.md).
 
-## <a name="external-document-number"></a>Eksterne bilagsnumre
+## Eksterne bilagsnumre
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="exact-cost-reversing"></a>Præcis kostprisudligning
+## Præcis kostprisudligning
 
 Den **præcise funktion til tilbageførsel af kostpris** hjælper med at sikre, at returvarer værdiansættes til den samme omkostning, som da de oprindeligt blev trukket fra lageret ved hjælp af en fast udligning i stedet for en kostmetode for FIFO eller første, første og anden. Få mere at vide i sektionen [Designdetaljer: fast udligning](design-details-item-application.md#fixed-application). Hvis der senere føjes en supplerende pris til det oprindelige køb, opdateres værdien af købsreturvaren tilsvarende automatisk.
 
@@ -53,7 +53,7 @@ Med funktionen aktiveret kan returtransaktionen kun bogføres med angivelse af v
 
 [!INCLUDE[local-functionality](includes/local-functionality.md)]
 
-## <a name="more-purchasing-setups"></a>Flere indkøbsopsætninger
+## Flere indkøbsopsætninger
 
 | Til | Se |
 | --- | --- |
@@ -70,7 +70,7 @@ Med funktionen aktiveret kan returtransaktionen kun bogføres med angivelse af v
 | Angiv standardrapporter, der skal bruges til forskellige dokumenttyper. |[Rapportvalg i Business Central](across-report-selections.md)|
 |Angive, om brugere må bogføre købsfakturaer, og om de skal bogføre dem sammen med en forsendelse. |[Definere politik til bogføring af faktura for brugere](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Køb](purchasing-manage-purchasing.md)  
 [Konfigurer oversigt](setup.md)  

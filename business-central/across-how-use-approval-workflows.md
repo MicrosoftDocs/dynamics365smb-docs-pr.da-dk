@@ -78,12 +78,10 @@ Funktionen **Send notifikationer om forfaldne godkendelser** tjekker for alle å
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Overskredne anmodninger om godkendelsesfrist**, og vælg derefter det relaterede link.
 2. På siden **Forfaldne godkendelsesanmodninger** skal du vælge handlingen **Send notifikationer om forfaldne godkendelser**.
 
-## Se relateret [Microsoft-træning](/training/modules/use-approval-workflows/)
-
 ## Se også
 
 [Bruge godkendelsesworkflows](across-use-workflows.md)  
-[Workflow](across-workflow.md)  
+[Arbejdsproces](across-workflow.md)  
 [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  
 [Salg](sales-manage-sales.md)  
 [Indgående bilag](across-income-documents.md)  

@@ -74,8 +74,6 @@ Udover den pris, der er angivet på ressourcekortet, kan du oprette alternative 
 3. På siden **Ressourcesalgspriser** skal du udfylde felterne på en linje efter behov.
 4. Gentag trin 3 for hver alternativ ressourcepris, du vil oprette.
 
-## Se relateret [Microsoft-træning](/training/paths/set-up-jobs-resources/)
-
 ## Se også
 
 [Konfigurere projektstyring](projects-setup-projects.md)  

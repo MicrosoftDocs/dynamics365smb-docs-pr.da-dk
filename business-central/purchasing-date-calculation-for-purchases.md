@@ -58,8 +58,6 @@ Du kan angive datoformlen manuelt på linjerne. Ellers bruger [!INCLUDE[prod_sho
 3. Lagervarekort
 4. Leverandørkort (Kreditor)
 
-## Se relateret [Microsoft-træning](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
-
 ## Se også
 
 [Beregning af forfaldsdato for salg](sales-date-calculation-for-sales.md)  

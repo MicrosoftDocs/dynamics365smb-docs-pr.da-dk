@@ -102,8 +102,6 @@ Hvis du har gjort det, skal du angive en undtagelse for periodiseringer, så de 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Opsætning af Finans** eller **Brugeropsætning**, og vælg derefter det relaterede link.
 2. Angiv en start-og slutdato for perioden i feltet **Tillad udsættelsens bogføring fra** og **Tillad udsættelsens bogføring til**.
 
-## Se relateret [Microsoft-træning](/training/modules/processing-invoices-dynamics-365-business-central/)
-
 ## Se også
 
 [Finans](finance.md)  
