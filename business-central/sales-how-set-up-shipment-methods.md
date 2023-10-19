@@ -11,13 +11,13 @@ ms.search.form: '11, 130'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Oprette leveringsformer
+# <a name="set-up-shipment-methods"></a>Oprette leveringsformer
 
 Leveringsmetoder afhænger ofte af varerne, kunderne og leverandørerne. En kunde, der bor på en ø, vælger måske, at varerne altid skal flyves eller sejles til øen. Nogle kunder kan kræve levering næste dag. Det ønsker at afhente ordren. På debitor- og kreditorkortene kan du derfor angive den ønskede leveringsform.
 
 Du opretter beskrivelsen og koden for hver leveringsform på siden **Leveringsformer**. Du kan f.eks. oprette koden FOB (Free on board) og skrive Free on Board i feltet **Beskrivelse**. Du kan indtaste koden i **Leveringskode**-felterne et andet sted i systemet, f.eks. på et debitorkort. Når du derefter opretter nye ordrer, fakturaer, kreditnotaer osv., bruges den beskrivelse, som koden repræsenterer, automatisk af systemet. Du kan ændre dette i dokumentet efter behov.
 
-## Sådan defineres en leveringsform
+## <a name="to-set-up-a-shipment-method"></a>Sådan defineres en leveringsform
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leveringsformer**, og vælg derefter det relaterede link.
 2. På siden **Leveringsformer** skal du vælge handlingen **Ny**.
@@ -26,7 +26,7 @@ Du opretter beskrivelsen og koden for hver leveringsform på siden **Leveringsfo
 > [!TIP]
 > Hvis du bruger Incoterms, skal du oprette leveringsmetoder for at angive de relevante Incoterms-regler.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oprette speditører](sales-how-to-set-up-shipping-agents.md)  
 [Spore pakker](sales-how-track-packages.md)  

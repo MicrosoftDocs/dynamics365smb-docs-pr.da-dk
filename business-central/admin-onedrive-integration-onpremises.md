@@ -10,7 +10,7 @@ ms.search.keywords: 'OneDrive, share, browser'
 ms.date: 09/28/2023
 ms.author: jswymer
 ---
-# Konfigurere OneDrive-integration med Business Central On-premises
+# <a name="configuring-onedrive-integration-with-business-central-on-premises"></a>Konfigurere OneDrive-integration med Business Central On-premises
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -24,7 +24,7 @@ Der er to opgaver, der skal udføres for at konfigurere OneDrive-integrationen.
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] On-Premises kan kun være tilsluttet OneDrive, der er hostet af Microsoft i skyen. Tilslutning af [!INCLUDE[prod_short](includes/prod_short.md)] på stedet til lageret for mit websted for SharePoint-serveren understøttes ikke.
 
-## <a name="registerapp"></a>Registrere en app i Microsoft Entra ID til OneDrive-integration
+## <a name="register-an-app-in-microsoft-entra-id-for-onedrive-integration"></a><a name="registerapp"></a>Registrere en app i Microsoft Entra ID til OneDrive-integration
 
 I denne opgave skal du tilføje et registreret program for Business Central i din Microsoft Entra-lejer med din Microsoft 365-plan. Ligesom andre Azure-tjenester, der fungerer sammen med Business Central, kræver OneDrive en appregistrering i Microsoft Entra ID. Appregistreringen leverer godkendelses- og autorisationstjenester mellem Business Central og SharePoint, der anvendes af OneDrive.
 
@@ -47,19 +47,19 @@ Når du registrerer programmet, skal du overveje følgende:
 
 - Hvis du bruger Business Central version 19 eller 20, skal du kopiere det **Program-id (klient)** og den **klienthemmelighed**, der bruges af den registrerede app. Du skal bruge disse oplysninger i næste opgave.
 
-## <a name="url"></a>Hent din OneDrive-URL-adresse
+## <a name="get-your-onedrive-url"></a><a name="url"></a>Hent din OneDrive-URL-adresse
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
-## Konfigurere OneDrive-forbindelsen i version 21 og nyere
+## <a name="set-up-the-onedrive-connection-in-version-21-and-later"></a>Konfigurere OneDrive-forbindelsen i version 21 og nyere
 
 Brug denne fremgangsmåde, hvis du bruger Business Central 2022 udgivelsesbølge 2 (version 21) eller nyere.
 
-### Forudsætninger
+### <a name="prerequisites"></a>Forudsætninger
 
 - Indirekte, redigere- og slette-tilladelse på tabellen **Dokumentservicescenarie** som minimum
 
-### Køre Opsætning af OneDrive
+### <a name="run-onedrive-setup"></a>Køre Opsætning af OneDrive
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **OneDrive-konfiguration**, og vælg derefter det relaterede link.
 2. Første gang du kører den assisterede opsætning, kan du se **Dine personlige oplysninger**. Læs siden, og hvis du kan acceptere vilkårene, skal du vælge **Acceptér** for at fortsætte.
@@ -76,7 +76,7 @@ Brug denne fremgangsmåde, hvis du bruger Business Central 2022 udgivelsesbølge
    - Hvis du ikke allerede har installeret den Microsoft Entra ID-registrerede app, åbnes vejledningen **Konfigurer Microsoft Entra ID**.
 6. Når den er fuldført, er meddelelsen om beskyttelse af personlige oplysninger for OneDrive-integration accepteret for alle brugere. Hvis du vil ændre den, så brugerne skal acceptere eller afvise den selv, skal du gå til siden **Status for meddelelser om beskyttelse af personlige oplysninger** og vælge **Lad brugeren bestemme** for OneDrive-integrationen. Brugerne bliver derefter bedt om at acceptere eller afvise erklæringen om beskyttelse af personlige oplysninger, første gang de bruger OneDrive-funktionerne. Du kan finde flere oplysninger i [Meddelelser om beskyttelse af personlige oplysninger](privacy-notices-status.md).
 
-## Konfigurere forbindelsen i [!INCLUDE[prod_short](includes/prod_short.md)] version 19 og 20
+## <a name="set-up-the-connection-in--version-19-and-20"></a>Konfigurere forbindelsen i [!INCLUDE[prod_short](includes/prod_short.md)] version 19 og 20
 
 Brug denne fremgangsmåde, hvis du bruger Business Central 2022 udgivelsesbølge 1 (version 20) eller 2021 udgivelsesbølge 2 (version 19).
 > [!IMPORTANT]
@@ -98,17 +98,17 @@ Brug denne fremgangsmåde, hvis du bruger Business Central 2022 udgivelsesbølge
 > [!IMPORTANT]
 > Siden **Konfiguration af SharePoint-forbindelse** bruges til at konfigurere flere ældre funktioner. I sektionen **Generelt** konfigureres forbindelsen til OneDrive, og afsnittet **Delte dokumenter** omdirigerer filerne til SharePoint i stedet for. **Konfiguration af SharePoint-forbindelse** er udfaset, og den fjernes i en kommende version. Det anbefales, at du ikke konfigurerer afsnittet **Delte dokumenter**. Du kan finde flere oplysninger i [Udfasede funktioner i basisappen](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup).
 
-## Efter opgradering til version 21
+## <a name="after-upgrade-to-version-21"></a>Efter opgradering til version 21
 
 Når du opgraderer til version 21 eller nyere, vil den eksisterende forbindelse til OneDrive, der er konfigureret på siden **Konfiguration af SharePoint-forbindelse**, stadig fungere. Men da siden **Konfiguration af SharePoint-forbindelse** fjernes i version 23, anbefales det, at du skifter til den nye OneDrive-integration som beskrevet i næste afsnit. Hvis du foretager dette skifte nu, bliver det nemmere, når **Opsætning af SharePoint-forbindelse** bliver fjernet. Desuden giver det dig mulighed for at bruge assisteret opsætning af **OneDrive** til at administrere de OneDrive-funktioner, som brugerne har adgang til.
 
-## Skifte fra ældre SharePoint til ny OneDrive-integration 
+## <a name="switching-from-legacy-sharepoint-to-new-onedrive-integration"></a>Skifte fra ældre SharePoint til ny OneDrive-integration
 
 Hvis du vil skifte til den nye OneDrive-integration, skal du køre den assisterede opsætningsvejledning til **OneDrive**, som du kan åbne direkte eller fra den ældre side **Konfiguration af SharePoint-forbindelse**. Den assisterede opsætning af **OneDrive** vil føre dig gennem overgangen, så du kan angive oplysninger om de ændringer, der er foretaget undervejs.
 
 Før du begynder med omskiftet, eller mens du gør det, skal du se næste afsnit for at lære mere om nogle aspekter og overvejelser om processen. 
 
-### <a name="onedrivesetupmigration"></a>Om at skifte til den nye OneDrive-integration
+### <a name="about-switching-to-the-new-onedrive-integration"></a><a name="onedrivesetupmigration"></a>Om at skifte til den nye OneDrive-integration
 
 Ud over OneDrive-integration kan Business Central også integreres med andre servicer, f.eks. Power BI og Universaludskrivning. Integration med disse andre tjenester kræver også en registreret Microsoft Entra-app til godkendelse. Den Microsoft Entra-app, som bruges af disse andre tjenester, er konfigureret i den assisterede opsætning **Konfigurer dine Microsoft Entra-konti**. Når du skifter fra den ældre opsætning af SharePoint-forbindelsen, ændrer den nye **OneDrive Setup**-konfiguration-assisterede opsætning din OneDrive-integration til også at bruge den assisterede opsætning **Konfigurer dine Microsoft Entra-konti**-assisterede opsætning&mdash;så alle integrationer bruger den samme Microsoft Entra-app.
 
@@ -117,7 +117,7 @@ Denne ændring har betydning, når der skiftes til den nye OneDrive-integration,
 > [!IMPORTANT]
 > Når du har skiftet til den nye OneDrive-opsætning, kan du ikke længere bruge siden **Konfiguration af SharePoint-forbindelse** til at konfigurere OneDrive-integrationen.
 
-#### Sådan påvirker ændringerne integrationen
+#### <a name="how-the-changes-affect-the-integration"></a>Sådan påvirker ændringerne integrationen
 
 Den assisterede opsætning af **OneDrive** vil altid bruge den app, der er konfigureret i den assisterede opsætning **Konfigurer dine Microsoft Entra-konti**, hvis der er en sådan. Når du kører den assisterede opsætning af **OneDrive**, sammenlignes den app, der er konfigureret i **Konfigurer dine Microsoft Entra-konti** med din aktuelle app, der er konfigureret i **Konfiguration af SharePoint-forbindelse**.
 
@@ -149,7 +149,7 @@ Den assisterede opsætning af **OneDrive** vil altid bruge den app, der er konfi
 
    `The Microsoft Entra application used for authentication will be configured for all Business Central integrations`.
 
-### Kør OneDrive-opsætningen for at skifte til den nye OneDrive-integration
+### <a name="run-onedrive-setup-to-switch-to-the-new-onedrive-integration"></a>Kør OneDrive-opsætningen for at skifte til den nye OneDrive-integration
 
 1. Åbn enten siden **Opsætning af OneDrive** eller **Konfiguration af SharePoint-forbindelse**.
 2. Hvis du bruger siden **Konfiguration af SharePoint-forbindelse**, skal du vælge **Gå til ny OneDrive-konfiguration** i meddelelsen øverst på siden.
@@ -163,7 +163,7 @@ Den assisterede opsætning af **OneDrive** vil altid bruge den app, der er konfi
 
    Hvis testen lykkes, skal du vælge **Udført**, og så er du klar til at gå i gang. Ellers kan du bruge meddelelserne på siden til at løse problemet.
 
-## Se også
+## <a name="see-also"></a>Se også
 [Business Central og OneDrive for Business Integration](across-onedrive-overview.md)  
 [Åbner Business Central-filer i OneDrive](across-share-onedrive.md)  
 [OneDrive Ofte stillede spørgsmål](admin-onedrive-faq.md)
