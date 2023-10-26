@@ -7,10 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
-ms.date: 04/01/2021
+ms.date: 10/11/2023
 ms.author: bholtorf
 ---
-# <a name="update-standard-costs"></a>Opdatere standardkostpriser
+# Opdatere standardkostpriser
 Du skal regelmæssigt opdatere standardkostprisen for komponenter og akkumulere de nye omkostninger til den overordnede vare. Processen består normalt af følgende fire trin:  
 
 1.  Opdatere omkostninger på komponent- og kapacitetsniveau. Du kan finde flere oplysninger i kørslen **Foreslå kostpris (standard)**.  
@@ -20,11 +20,11 @@ Du skal regelmæssigt opdatere standardkostprisen for komponenter og akkumulere 
 
 Du kan finde flere oplysninger i [Om beregning af standardkostpris](finance-about-calculating-standard-cost.md).
   
-## <a name="to-update-standard-costs"></a>Sådan opdateres standardkostpriser
+## Sådan opdateres standardkostpriser
 
-1.  Udfør kørslen **Juster kostpris - vareposter**.  
-2.  Udfør kørslen **Bogfør lagerregulering**.  
-3.  Åbn **Standardkostpriskladde**, og brug en eller flere af følgende funktioner:  
+1.  Udfør kørslen **Juster kostpris - vareposter**. Start jobbet ved at vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **uster kostpris – Vareposter**, og vælg derefter det relaterede link. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Gennemse resultaterne, og foretag de nødvendige ændringer.  
+2.  Udfør kørslen **Bogfør lagerregulering**. Start jobbet ved at vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogfør lagerregulering**, og vælg derefter det relaterede link. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Gennemse resultaterne, og foretag de nødvendige ændringer.  
+3.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Standardkostpriskladde**, og brug en eller flere af følgende funktioner:
 
     1.  Udfør kørslen **Foreslå kostpris (standard)**.  
     2.  Gennemse resultaterne, og foretag de nødvendige ændringer.  
@@ -35,11 +35,12 @@ Du kan finde flere oplysninger i [Om beregning af standardkostpris](finance-abou
     7.  Udfør kørslen **Implementer std.kostprisændringer**.  
 4.  Gennemse og bogfør siden **Værdireguleringskladde** , som er blevet udfyldt med posterne fra det forrige trin i processen.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
  [Om beregning af standardomkostning](finance-about-calculating-standard-cost.md)   
  [Administrere lageromkostninger](finance-manage-inventory-costs.md)   
- [Designoplysninger: Kostmetoder](design-details-costing-methods.md) [Finans](finance.md)  
+ [Designoplysninger: Kostmetoder](design-details-costing-methods.md)   
+ [Finans](finance.md)  
  [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

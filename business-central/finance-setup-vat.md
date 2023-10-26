@@ -21,7 +21,7 @@ Forbrugere og virksomheder betaler moms, når de køber varer eller tjenesteydel
 * Hvad du sælger  
 * Hvad du køber.  
 
-Du kan konfigurere momsberegninger manuelt, men der kan være svært og tidskrævende. Det er fordi, det er nemt at bruge forskellige momssatser utilsigtet og gøre rapporter vedrørende moms unøjagtige. Det anbefales, at du bruger den assisterende **momsopsætnings**-vejledning i produktet for at gøre moms opsætningen nemmere. 
+Du kan konfigurere momsberegninger manuelt, men der kan være svært og tidskrævende. Det er nemt at bruge forskellige momssatser utilsigtet og gøre rapporter vedrørende moms unøjagtige. Det anbefales, at du bruger den assisterende **momsopsætnings**-vejledning i produktet for at gøre moms opsætningen nemmere. 
 
 Hvis du selv vil konfigurere momsberegninger eller bare vil vide mere om de enkelte trin, indeholder i denne artikel beskrivelser af de enkelte trin:  
 
@@ -101,7 +101,32 @@ Du kan forhindre, at personer bogfører eller ændrer momsposter inden for beste
 | **Advar ved bogføring i lukket periode** | Vis en advarsel, men blokér ikke bogføring, hvis du vil bogføre et dokument eller en kladde, der har en moms dato inden for en afsluttet **momsreturperiode**. |
 | **Deaktiveret** | Foretag ingen handlinger på basis af en afsluttet **momsreturperiode**. |
 
-#### Sådan begrænses bogføringen baseret på Tillad fra/til periode
+#### Begrænsning af bogføring baseret på Tillad fra/til periode
+
+> [!NOTE]
+> Fra og med Business Central version 23.1 ændres dette kontrolelement. I tidligere versioner var der kun ét kontrolelement på siden **Regnskabsopsætning** for både bogføringsdato og momsdato. Nu er disse kontrolelementer opdelt, så kontrolelementet på siden **Regnskabsopsætning** kun gælder **bogføringsdatoen**, og kontrolelementet **Momsopsætning** på siden kun er for **momsdatoen**. Der er også nye datokontroller på siden **Brugeropsætning**.  
+
+##### Version 23.1 eller nyere
+
+> [!IMPORTANT]
+> Når du opgraderer til en ny version, skal du være opmærksom på, at værdierne opgraderes i den nye **Tillad momsdato fra/til** på siden **Momsopsætning** baseret på værdierne i **Tillad bogføring Fra/Til** i **Regnskabsopsætning**. Hvis du vil bruge forskellige datokontroller, skal du åbne siden **Momsopsætning** og foretage ændringer.  
+
+Du kan angive begrænsning for firmaet eller bestemte brugerniveauer.
+
+Sådan begrænses alle bogføringer for hele virksomheden:
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Konfiguration af VAT** og vælg derefter det relaterede link.  
+2. Angiv den momsdato, du tillader bogføring fra, i feltet **Tillad momsdato fra** i oversigtspanelet **Momsdato**. Bogføring af et dokument eller en kladde med en momsdato før denne dato er ikke tilladt.  
+3. Angiv den momsdato, hvortil du tillader bogføring, i feltet **Tillad momsdato til** i oversigtspanelet **Momsdato**. Bogføring af et dokument eller en kladde med en momsdato efter denne dato er ikke tilladt. 
+
+Sådan begrænses bogføring for en bestemt bruger:  
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugeropsætning**, og vælg derefter det relaterede link.  
+2. I feltet **bruger-id** skal du angive den bruger, der kan tillades i en bestemt periode.  
+3. Angiv den momsdato, du tillader bogføring fra, i feltet **Tillad momsdato fra**. Bogføring af et dokument eller en kladde med en momsdato før denne dato er ikke tilladt. 
+4. Angiv den momsdato, du tillader bogføring indtil, i feltet **Tillad momsdato til**. Bogføring af et dokument eller en kladde med en momsdato efter denne dato er ikke tilladt.  
+
+##### Versioner før 23.1 
 
 Du kan angive begrænsning for firmaet eller bestemte brugerniveauer.
 
@@ -114,7 +139,7 @@ Sådan begrænses alle bogføringer for hele virksomheden:
 Sådan begrænses bogføring for en bestemt bruger:
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugeropsætning**, og vælg derefter det relaterede link.  
-2. I feltet **bruger-id** skal du angive den bruger, du vil tillade at bogføre i en bestemt periode.  
+2. I feltet **bruger-id** skal du angive den bruger, der kan tillades i en bestemt periode.  
 3. Angiv den momsdato, du tillader bogføring fra, i feltet **Tillad bogføring fra**. Bogføring af et dokument eller en kladde med en momsdato før denne dato er ikke tilladt.
 4. Angiv den momsdato, du tillader bogføring indtil, i feltet **Tillad bogføring til**. Bogføring af et dokument eller en kladde med en momsdato efter denne dato er ikke tilladt.
 
@@ -122,7 +147,7 @@ Sådan begrænses bogføring for en bestemt bruger:
 
 For at sikre, at brugere angiver gyldige momsregistreringsnumre, kan du definere formater til momsregistreringsnumre, som bruges i de lande eller områder, hvor du handler. [!INCLUDE[prod_short](includes/prod_short.md)] viser en fejlmeddelelse, hvis en bruger laver en fejl eller bruger et format, der er forkert for landet eller området.
 
-For at oprette momsregistreringsnumre, skal du gøre følgende:
+For at opsætte momsregistreringsnumre, skal du gøre følgende:
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 2.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lande/områder**.
 2. Vælg landet eller området, og vælg derefter handlingen **SE/CVR-nr.formater**.
