@@ -12,7 +12,7 @@ ms.date: 10/10/2023
 ms.author: altotovi
 ---
 
-# Oversigt over e-dokumenter
+# <a name="e-documents-overview"></a>Oversigt over e-dokumenter
 
 Elektroniske dokumenter (e-dokumenter) er rygraden i moderne forretningstransaktioner. De omfatter vigtige dokumenter, såsom fakturaer og kvitteringer i begge retninger (levering og modtagelse). De tilføjer også funktioner til dokumentstatusrelaterede meddelelser mellem adgangspunkter.
 
@@ -32,7 +32,7 @@ Dokumentationen forklarer e-dokumenter i detaljer. Det viser appens muligheder o
 | [Udvide e-dokumenters funktionalitet](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Få mere at vide om, hvordan du udvider funktionaliteten i e-dokumenter med specifikke lokale eller branchemæssige krav ved at oprette flere apps oven på denne. |
 | [Udveksle data elektronisk](across-data-exchange.md) | Se, hvordan du kan bruge dataudvekslingsstrukturen til at håndtere udveksling af forretningsdokumenter som f.eks. bankfiler, valutakurser og andre datafiler med dine samarbejdspartnere. | 
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Økonomistyring](finance.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
