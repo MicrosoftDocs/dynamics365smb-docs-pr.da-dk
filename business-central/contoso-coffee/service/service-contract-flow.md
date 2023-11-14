@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# <a name="walkthrough-of-service-contracts-for-service-items"></a>Gennemgang af servicekontrakter for servicevarer
+# Gennemgang af servicekontrakter for servicevarer
 
 Denne gennemgang viser flere centrale processer:
 
@@ -19,13 +19,13 @@ Denne gennemgang viser flere centrale processer:
 - Udfyld tidsregistreringen for serviceordren
 - Bogføre og fakturere kontraktserviceordre
 
-## <a name="creation-of-service-items"></a>Oprette serviceartikler
+## Oprette serviceartikler
 
-### <a name="scenario"></a>Scenarie
+### Scenarie  
 
 Susan, der er ordrebehandler, bogfører en salgsordre, der sælger en vare, der er konfigureret til at generere en serviceartikel.  
 
-### <a name="steps"></a>Trin
+### Trin
 
 1. Kontroller, at **Serviceartikelgruppe** er valgt for **varen**.
    
@@ -39,13 +39,13 @@ Susan, der er ordrebehandler, bogfører en salgsordre, der sælger en vare, der 
     2. Vælg ordren til kundenr. 10000. Eksternt Ordrenr. er *SVC-1*.
     3. Vælg handlingen **Bogfør** for at levere varen til kunden.
 
-### <a name="results"></a>Resultater
+### Resultater
 
 - Der oprettes en servicevare til Kunde 10000
 
-## <a name="invoicing-a-service-contract"></a>Fakturere en servicekontrakt
+##  Fakturere en servicekontrakt
 
-### <a name="scenario-1"></a>Scenarie
+### Scenarie
 
 Charles, servicechefen, opretter derefter en servicekontrakt for at fakturere for regelmæssige vedligeholdelsesbesøg.
 
@@ -68,18 +68,18 @@ Charles, servicechefen, opretter derefter en servicekontrakt for at fakturere fo
    1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Servicefakturaer**, og vælg derefter det relaterede link.
    2. Find servicefakturaen, og vælg handlingen **Bogfør**.
 
-### <a name="results-1"></a>Resultater
+### Resultater
 
 - Der oprettes en underskrevet servicekontrakt med finansposter
 - Der oprettes en bogført servicefaktura
 
-## <a name="creating-a-service-order-for-a-service-contract-and-assign-resources"></a>Oprette serviceordrer for en servicekontrakt og tildel ressourcer
+## Oprette serviceordrer for en servicekontrakt og tildel ressourcer
 
-### <a name="scenario-2"></a>Scenarie
+### Scenarie  
 
 Charles, servicechefen, opretter serviceordrerne for almindelige vedligeholdelsesordrer i henhold til servicekontrakten og gennemser derefter ordreoversigten for at tildele dem.
 
-### <a name="steps-1"></a>Trin
+### Trin
 
 1. Kør de serviceordrer, der skal opfylde forpligtelserne i de aktive servicekontrakter.
    1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opret kontraktserviceordrer**, og vælg derefter det relaterede link.
@@ -102,21 +102,21 @@ Charles, servicechefen, opretter serviceordrerne for almindelige vedligeholdelse
     3. Allokeringen ændres til en Status til Aktiv.
     4. Når du opdaterer Ordreoversigt, vises **antallet af allokeringer** ændret fra 0 til 1 for serviceordren.
 
-### <a name="results-2"></a>Resultater
+### Resultater
 
 - Der oprettes serviceordrer for servicekontrakterne
 - Serviceordrerne allokeres til en ressource, så arbejdet kan færdiggøres
 
-## <a name="complete-the-time-entry-for-the-service-order-and-post-the-service-order"></a>Udfyld tidsregistreringen for serviceordren, og bogfør serviceordren
+## Udfyld tidsregistreringen for serviceordren, og bogfør serviceordren
 
-### <a name="scenario-3"></a>Scenarie
+### Scenarie  
 
 Serviceteknikeren registrerer sin tid direkte i forhold til serviceordren og markerer derefter ordren som færdig.
 
 > [!NOTE]
 > Tidsregistrering for serviceordrer kan angives via timesedler. For mere information, se [link til timeseddel, hvis denne note giver mening].
 
-### <a name="steps-2"></a>Trin
+### Trin
 
 1. Find serviceordren, og indtast tiden på servicelinjen
    1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceordre** og vælg derefter det relaterede link.
@@ -131,8 +131,8 @@ Serviceteknikeren registrerer sin tid direkte i forhold til serviceordren og mar
 2. Bogfør forbrug på serviceordren
    1. Vælg handlingen **Bogfør**, udfyld serviceordren og vælg **Send og forbrug**, og vælg derefter knappen **OK**.
 
-### <a name="results-3"></a>Resultater
+### Resultater
 
 - Der oprettes serviceposter knyttet til serviceartiklen, servicekontrakten og ressourcen
 
-## <a name="see-also"></a>Se også
+## Se også

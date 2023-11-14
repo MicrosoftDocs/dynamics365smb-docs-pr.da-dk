@@ -10,7 +10,7 @@ ms.search.keywords: 'SMTP, mail, Microsoft 365, setup, wizard, experience'
 ms.date: 05/25/2022
 ms.author: bholtorf
 ---
-# <a name="get-ready-for-doing-business"></a>Bliv klar til at agere
+# Bliv klar til at agere
 
 Tillykke, du lige har startet din første virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -23,7 +23,7 @@ Du kan også finde listen over assisterede opsætningsvejledninger, hvis du væl
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## <a name="get-started"></a>Kom i gang
+## Kom i gang
 
 Når du logger på første gang eller starter et nyt regnskab, fører kontrollisten **Kom i gang** dig gennem alle trin, så du er køreklar. Fremgangsmåden varierer afhængigt af dit land/område og eventuelle branchespecifikke funktioner, som du har føjet til din [!INCLUDE [prod_short](includes/prod_short.md)]. Første gang du logger på CRONUS-demonstrationsregnskabet, er din startside optimeret til dine første oplevelser fra og med 2021 udgivelsesbølge 2. Hvis du foretrækker at se flere hyperlinks til flere sider, skal du bare skifte til rollen forretningschef. Du kan finde flere oplysninger i [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).  
 
@@ -38,13 +38,13 @@ Hvis et område ikke er dækket af en assisteret opsætning, skal du vælge ![Ta
 
 Når du har udført en assisteret opsætningsvejledning, markeres den som **Afsluttet**.  
 
-## <a name="teaching-tips-and-tours"></a>Undervisningstip og guider
+## Undervisningstip og guider
 
 [!INCLUDE [prod_short](includes/prod_short.md)] indeholder en produktguide og undervisningstip, som du kan bruge til at komme i gang. I den aktuelle version findes der en guide til fremgangsmåden i oversigten **Introduktion** og nogle af de mest anvendte sider i demoregnskabet, f.eks. siden **Salgsfakturakort**.  
 
 Undervisningstip er korte meddelelser, der underretter, minder om eller lærer dig vigtige og nye funktioner. De startes automatisk, når du åbner en side. Hvis du f.eks. vil have vist undervisningstippet for kortet **Salgsfaktura**, skal du vælge linket for *Salgsfaktura* i øverste venstre hjørne af siden. Derefter vises en billedforklaring med en kort beskrivelse af siden, og hvad du kan gøre på den. Hvis der findes en guide til siden, inviterer et link dig til at bruge guiden. Linket *Få mere at vide* fører dig til sidens Hjælp for produktet.
 
-## <a name="role-specific-home-pages"></a>Rollespecifikke startsider
+## Rollespecifikke startsider
 
 Afhængigt af din rolle giver startsiden en oversigt over virksomheden. Navigationslinjen øverst gør det let for dig at få adgang til debitorer, kreditorer, varer osv. Du finder ruden **Aktiviteter** i midten. **Aktiviteter** viser aktuelle data, og du kan klikke eller trykke på det for hurtigt at få adgang til det valgte dokument.
 
@@ -55,11 +55,11 @@ Brug pilene til at skjule en del af siden og få mere plads til at se specifikke
 > [!TIP]  
 > Du kan vende tilbage til startsiden ved at vælge virksomhedsnavnet i øverste venstre hjørne.
 
-## <a name="company-information"></a>Virksomhedsoplysninger
+## Virksomhedsoplysninger
 
 Under **Virksomhedsindstillinger** kan du se og redigere opsætningsoplysninger om den aktuelle virksomhed, meget af det er udfyldt på forhånd, hvis du fuldførte den assisterede opsætning **Konfigurer virksomhed**, da du oprettede [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ændre virksomhedens logo, kontaktoplysninger, bankindstillinger eller momsoplysninger, kan du gøre det på denne side.  
 
-## <a name="adding-users-and-permissions"></a>Tilføjelse af brugere og tilladelser
+## Tilføjelse af brugere og tilladelser
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -67,11 +67,11 @@ Du tilføjer brugere i Microsoft 365 Administration. Du kan finde flere oplysnin
 
 Når brugere er oprettet i Microsoft 365, kan de importeres på siden **Brugere** ved hjælp af handlingen **Hent opdateringer fra Office 365**. Du kan derefter give tilladelser til brugere og organisere dem i brugergrupper. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).  
 
-## <a name="product-help"></a>Produkthjælp
+## Produkthjælp
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Du kan finde flere oplysninger i [Ressourcer til hjælp og support](product-help-and-support.md).  
 
-### <a name="set-up-your-company-in-"></a>Konfigurere din virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)]
+### Konfigurere din virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 De [centrale artikler i hurtig start](quick-start-business-central.md) kan hjælpe dig med at tage de første skridt til at klargøre [!INCLUDE [prod_short](includes/prod_short.md)] til din egen organisation. I [!INCLUDE [prod_short](includes/prod_short.md)] vises **Assisteret opsætning**-vejledninger, som kan hjælpe dig. Afhængigt af din rolle og dit land/område viser siden forskellige assisterede installationsvejledninger som illustreret i følgende tabel:
 
@@ -93,11 +93,11 @@ De [centrale artikler i hurtig start](quick-start-business-central.md) kan hjæl
 
 Siden **Assisteret opsætning** kan indeholde andre poster. Når du gennemgår en opsætning, markeres opsætningen som **Fuldført**. Du kan oprette flere virksomhedsområder ved hjælp af den manuelle opsætning. Du kan finde flere oplysninger i [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## <a name="next-steps"></a>Næste trin
+## Næste trin
 
 Baseret på de overflyttede data, kan du nu fortsætte med at oprette nye salgs- eller købsdokumenter. Brug sektionen **Handlinger** på startsiden til hurtigt at oprette et nyt salgstilbud, en salgsfaktura, salgsordre, købsfaktura eller betalingsregistrering. Se i [Hurtig start](quick-start-business-central.md)-artiklerne, så du kan udføre de første trin.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Hurtig start af Business Central](quick-start-business-central.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

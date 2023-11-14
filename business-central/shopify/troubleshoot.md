@@ -158,6 +158,10 @@ Kontakt Shopify support inden for syv dage efter, at du har oplevet fejlen, og A
 
 Det ser ud til, at brugere, der anmoder om adgang, ikke har rettigheder til at administrere apps (mulighed for at administrere og installere apps og kanaler samt potentielt godkende appgebyrer). Du kan muligvis løse dette problem ved at installere appen som kontoejer. Du kan også kontrollere **Apptilladelsen** for brugeren i indstillingerne [**Bruger- og tilladelser**](https://www.shopify.com/admin/settings/account) i din **Shopify administrator**.  
 
+### [{"meddelelse":"Adgang nægtet for FIELD-feltet.","lokationer":["linje":0,"kolonne":0{],"sti":[}"sti"],"udvidelser":"kode":"ACCESS_DENIED","dokumentation":{https://shopify.dev/api/usage/access-scopes}}]
+
+Anmod om et nyt token, fordi den opdaterede version af connectoren kræver flere tilladelser (programområder). Få mere at vide ved at gå til [Anmod om adgangstoken](#request-the-access-token).
+
 ## Se også
 
 [Kom i gang med Connectoren til Shopify](get-started.md)

@@ -139,6 +139,13 @@ Du kan bruge en ekstern tjeneste til at holde dine valutakurser opdateret, f.eks
 
 Værdien i feltet **Valutakurs** på siden **Valutaer** opdateres med den seneste valutakurs.
 
+## Ret fejl
+
+Nu og da skal du muligvis rette en fejl i en betalingstransaktion, der er forbundet med justeringer af gevinster og tab i udenlandsk valuta. Du kan bruge handlingen **Tilbagefør transaktion** på siderne **Bankposter**, **Debitorposter** og **Kreditorposter** til at fortryde og tilbageføre betalingstransaktionen.
+
+> [!NOTE]
+> Når du annullerer og tilbagefører en betaling for en post, der var genstand for valutakursreguleringer, bogføres tilbageførselsposter for reguleringerne. Du skal muligvis køre valutakursreguleringen igen for at få den korrekte aktuelle saldo.
+
 ## Se også
 
 [valutaer i Business Central](finance-currencies.md)  

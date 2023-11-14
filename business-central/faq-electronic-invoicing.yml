@@ -10,6 +10,9 @@ summary: |
   Den indbyggede dokumentudvekslingstjeneste sender elektroniske fakturaer til TradeShift, som er en tjenesteudbyder, der relæer elektroniske fakturaer til PEPPOL eller NemHandel modtagere. Men tjenesten understøtter kun et begrænset antal versioner.   
 
   Disse ofte stillede spørgsmål besvarer nogle af nøgle spørgsmål vedrørende elektronisk fakturering.  
+
+  > [!NOTE]
+  > Denne side med ofte stillede spørgsmål er ikke relateret til den nye E-dokument-app, der er tilgængelig i udgivelsesbølge 2 i 2023. Du kan få mere at vide om den nye funktion under [Oversigt over e-dokumenter](finance-edocuments-overview.md).  
 sections:
   - name: Generelt
     questions:

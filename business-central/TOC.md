@@ -6,7 +6,8 @@
 ## [Oversigt over forretningsfunktioner](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Lær
-### [Business Central Undervisningskatalog](readiness/readiness-learning-catalog.md)
+### [Ressourcer for brugere](resources-for-users.md)
+### [Business Central-undervisningskatalog](readiness/readiness-learning-catalog.md)
 ### [Business Central-træning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Gennemgang af forretningsprocesser
 #### [Tilgængelige gennemgange](walkthrough-business-process-walkthroughs.md)
@@ -349,6 +350,7 @@
 #### [Forudsigelse af den forsinkede betalingsudvidelse](ui-extensions-late-payment-prediction.md)
 
 ### Administrere e-dokumenter
+#### [Oversigt over e-dokumenter](finance-edocuments-overview.md)
 #### [Opsætte e-dokumenter](finance-how-setup-edocuments.md)
 #### [Bruge e-dokumenter i salg og køb](finance-how-use-edocuments.md)
 #### [Udvide e-dokumenters funktionalitet](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
@@ -1815,6 +1817,7 @@
 
 ## Analysere data i Business Intelligence-værktøjer
 ### [Oversigt](reports-external-analysis.md)
+### [Microsoft Fabric og Business Central](admin-fabric.md)
 ### [Bruge Power BI med Business Central](admin-powerbi.md)
 ### [Analysere regnskabsopgørelser med Excel](finance-analyze-excel.md)
 ### [Udtrække data til datalagersteder eller Data Lake](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)

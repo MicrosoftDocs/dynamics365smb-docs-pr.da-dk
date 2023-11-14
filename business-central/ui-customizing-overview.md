@@ -28,8 +28,6 @@ Der er forskellige måder at tilpasse programmet på, der giver dig og dine koll
 > [!NOTE]
 > Alle beskrivelser af funktioner i dokumentationen til [!INCLUDE[prod_short](includes/prod_short.md)] antager **Premium**-oplevelsen, hvilket betyder, at beskrivelserne dækker det fulde omfang af elementerne i brugergrænsefladen. Derfor kan brugere med **Essential**-oplevelsen i visse emner få flere oplysninger om funktioner og elementer i brugergrænsefladen, som ikke vises i brugergrænsefladen. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
 
-## Se relateret [Microsoft-træning](/training/paths/tailor-roles-design-ui/)
-
 ## Se også
 
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

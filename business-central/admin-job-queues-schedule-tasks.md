@@ -35,7 +35,12 @@ Når opgavekøer er konfigureret og kører, kan status ændres på følgende må
 > [!NOTE]
 > Statussen **Sat på pause pga. inaktivitet** bruges primært til opgavekøposter, der planlægger synkronisering mellem [!INCLUDE [prod_short](includes/prod_short.md)] og et andet program, f.eks. [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Hvis du vil vide mere om denne status, skal du gå til [Om inaktivitets timeout](/dynamics365/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries#about-inactivity-timeouts).
 
-Når en opgave er afsluttet korrekt, fjernes den fra listen over opgavekøposter, medmindre det er en tilbagevendende opgave. Hvis det er tilbagevendende opgaver, justeres feltet **Tidligste starttidspunkt** og vises, næste gang opgaven forventes at køre.  
+Når en opgave er afsluttet korrekt, fjernes den fra listen over opgavekøposter, medmindre det er en tilbagevendende opgave. Hvis det er tilbagevendende opgaver, justeres feltet **Tidligste starttidspunkt** og vises, næste gang opgaven forventes at køre. 
+
+## Vigtigt for at planlægge gentagne opgaver
+
+> [!IMPORTANT]  
+> Tilbagevendende opgavekøer kan påvirke ydeevnen, så du bør ikke køre dem for ofte. Når du angiver, hvor ofte en gentaget opgave skal udføres, skal du prøve at angive det størst mulige tidsinterval. For eksempel, hvis du er ved at indstille en gentagelse på fem minutter, skal du overveje, om det kan være 15 minutter eller endda en gang i timen i stedet. Når du planlægger gentagne opgavekøer, skal du overveje, hvilke områder af programmet jobbet vil påvirke. Er det et område, hvor mange brugere arbejder og vil blive påvirket af kraftig aktivitet? Overvej længden af en enkelt jobkørsel og de forretningsmæssige motivationer for at køre job med en given kadence.
 
 ## Den tidligste startdato
 

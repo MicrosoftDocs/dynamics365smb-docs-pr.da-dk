@@ -12,10 +12,10 @@ ms.search.forms: '5803,'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="revalue-inventory"></a>Regulere lagerbeholdning
+# Regulere lagerbeholdning
 Hvis du vil op- eller nedskrive en vare eller en bestemt varepost, skal du bruge reguleringskladden.
 
-## <a name="to-revalue-inventory"></a>Sådan reguleres lagerbeholdningen
+## Sådan reguleres lagerbeholdningen
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **værdireguleringskladde**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Beregn lagerværdi**.
 3. På siden **Beregn lagerværdi** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -27,7 +27,7 @@ Hvis du vil op- eller nedskrive en vare eller en bestemt varepost, skal du bruge
 
 Nye værdiposter oprettes nu for at afspejle de værdireguleringer, du har bogført. Du kan se de nye værdier på de respektive varekort.
 
-## <a name="see-also"></a>Se også
+## Se også
 [Designoplysninger: Regulering](design-details-revaluation.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Salg](sales-manage-sales.md)  
