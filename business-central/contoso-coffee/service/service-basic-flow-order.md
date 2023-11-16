@@ -61,7 +61,7 @@ Serviceteknikeren markerer udlånsvarer som returneret, registrerer udført arbe
    3. Vælg handlingen **Varekladde**.
    4. Angiv følgende oplysninger
 
-    |Enhedstype|Nej|Antal|
+    |Enhedstype|Nr.|Antal|
     |----|---|--------|  
     |Artikel|SER102|2|
 

@@ -68,12 +68,12 @@ Nogle rapporter kan erstattes af andre rapporter, når du har anvendt en udvidel
 <!-- For more information on report substitution, see this link UNAVAILABLE AT THIS TIME -->
 
 - **Er der muligt at føje bogmærker til XMLporte?**  
-Nummer På dette tidspunkt er det ikke muligt at føje handlinger til åbne XMLporte fra brugergrænsefladen.
+Nej. På dette tidspunkt er det ikke muligt at føje handlinger til åbne XMLporte fra brugergrænsefladen.
 
 - **Bliver bogmærkerne oversat, når jeg ændrer sproget i Business Central?**  
 Når du tilføjer en ny handling, bogmærkes oversat tekst, der var tilgængelig på det tidspunkt, hvor bogmærket blev oprettet. Hvis ny, oversat tekst tilføjes senere, vil den nye handling ikke indeholde de nyere oversættelser.
 
-- **Hvorfor kan jeg ikke tilføje tekst på en side direkte, når den er åbnet med bogmærket?**<br> Når der oprettes et bogmærke til en side, åbnes siden altid i visningstilstand fra bogmærket, selvom den var i redigeringstilstand, da den blev bogmærket. Hvis du vælger indstillingen **Foretag ændringer på side**-ikonet, ![vises blyantsikonet for at redigere siden.](media/edit-pencil.png) giver dig mulighed for at tilføje tekst i de felter, der kan redigeres.
+- **Hvorfor kan jeg ikke tilføje tekst på en side direkte, når den er åbnet med bogmærket?**<br> Når der oprettes et bogmærke til en side, åbnes siden altid i visningstilstand fra bogmærket – selvom den var i redigeringstilstand, da den blev bogmærket. Hvis du vælger indstillingen **Foretag ændringer på side**-ikonet, ![vises blyantsikonet for at redigere siden.](media/edit-pencil.png) giver dig mulighed for at tilføje tekst i de felter, der kan redigeres.
 
 
 ## Se også

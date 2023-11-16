@@ -69,8 +69,8 @@ Funktioner i [!INCLUDE [prod_short](includes/prod_short.md)]-appen til Teams:
 |Fastgøre kortets detaljer som en fane |![Ja](media/check.png)|
 |Vis [!INCLUDE [prod_short](includes/prod_short.md)]-faner|![Ja](media/check.png)|
 |Tilføj en [!INCLUDE [prod_short](includes/prod_short.md)]-fane|![Nej_](media/x-icon.png )|
-|Søg efter forretningskontakter |![Nr.](media/x-icon.png )|
-|Indsætte og dele et link-forhåndsversion som et kort|![Nr.](media/x-icon.png )|
+|Søg efter forretningskontakter |![Nej](media/x-icon.png )|
+|Indsætte og dele et link-forhåndsversion som et kort|![Nej](media/x-icon.png )|
 
 Funktionerne i [!INCLUDE [prod_short](includes/prod_short.md)]-klientens funktioner integreret i Teams:
 

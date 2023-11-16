@@ -109,7 +109,7 @@ Shopify Connector importerer ordrer i to trin:
 
 2.  Den indlæser Shopify-ordrer og supplerende oplysninger.
 * Shopify Connector behandler alle poster i tabellen **Shopify-ordrer, der skal importeres**, som opfylder de filterkriterier, du har defineret i **Synkroniser ordrer fra Shopify**-anmodningssiden. F.eks. tags, kanal eller opfyldelsesstatus. Hvis du ikke har angivet nogen filtre, behandler den alle poster.
-* Når der importeres Shopify-ordre, anmoder Shopify connector om yderligere oplysninger fra Shopify:
+* Når der importeres Sopify-ordre, anmoder Shopify connectoren om yderligere oplysninger fra Shopify:
 
     * Ordrehoved
     * Ordrelinjer
@@ -185,7 +185,7 @@ Eksempel: du har onlinebutikker samt en Shopify POS. Til din POS, skal du bruge 
 6. Sørg for, at elementet/produktsynkroniseringen er deaktiveret.
 7. Vælg den Connector, der bruger standarddebitoren.
 8. Opret en tilbagevendende opgavekøpost for Rapport 30104 **Synkronisere ordrer fra Shopify**. Vælg **STORE** i feltet **Shopify-butikskode**, og brug filtre til at fastholde alle ordrer med undtagelse af dem, som POS-salgskanalen opretter. F.eks. **<>Point of Sale**
-9. Opret en tilbagevendende opgavekøpost for Rapport 30104 **Synkronisere ordrer fra Shopify**. Marker **POS** i feltet **Shopify-butikskode**, og brug filtre til at hente ordrer, der er oprettet af salgskanalen POS. F.eks. **<>Point of Sale**.
+9. Opret en tilbagevendende opgavekøpost for Rapport 30104 **Synkronisere ordrer fra Shopify**. Marker **POS** i feltet **Shopify-butikskode**, og brug filtre til at hente ordrer, der er oprettet af salgskanalen POS. F.eks. **Point of Sale**.
 
 Hver opgavekø importerer og behandler ordrer inden for de angivne filtre og bruger reglerne fra det tilsvarende Shopify-butikskort. Der oprettes f.eks. POS-ordrer for standarddebitoren.
 
@@ -260,7 +260,7 @@ Returvarer importeres til oplysningsformål alene. Der er ingen tilknyttet behan
 Økonomisk og om nødvendigt lagertransaktioner behandles via refusion. Refusion kan omfatte produkter eller blot beløb, f.eks. hvis en handlende har besluttet at kompensere leveringsgebyrer eller et andet beløb.
 Du kan oprette salgskreditnotaer til refusioner. Kreditnotaerne kan have følgende linjetyper:
 
-|Enhedstype|Nej|Kommentar|
+|Enhedstype|Nr.|Kommentar|
 |-|-|-|
 |Finanskonto|Konto til solgte gavekort| Bruges til refusioner i forbindelse med gavekort.|
 |Finanskonto|Refusionskonto til ikke-genopfyldte varer | Bruges til at udføre refusioner i forbindelse med produkter, som ikke er blevet lagerførte. |

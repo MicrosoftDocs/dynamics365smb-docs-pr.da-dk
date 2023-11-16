@@ -272,7 +272,7 @@ Når salgsordren senere bogføres som fuldt faktureret, fjernes salgsordren og d
 2.  Vælg handlingen **Beregn totalplan**.  
 3.  På siden **Beregn plan** skal du angive følgende filtre.  
 
-    |Startdato|Afslutningsdato|Nej.|  
+    |Startdato|Afslutningsdato|Nr.|  
     |-------------------|-----------------|---------|  
     |01-23-2014|01-27-2014|Pakke A – grundlæggende pc-pakke|  
 

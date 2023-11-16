@@ -41,7 +41,7 @@ Ja. Tilføjelse af tilladelsessæt til Microsoft Teams-brugergruppen interne bru
 
 ### Når en Business Central-bruger deler en post i Teams, får de nye rettigheder?
 
-Nej Denne handling er ikke det samme som at dele et link med et SharePoint-dokument, hvor den person, der deler dokumentet, kan vælge at give andre tilladelser. I Business central kan kun administratorer konfigurere og tildele tilladelser. Sammenlignet med at dele SharePoint-dokumenter, svarer det til at vælge indstillingen "dele til personer med eksisterende adgang".
+Nej. Denne handling er ikke det samme som at dele et link med et SharePoint-dokument, hvor den person, der deler dokumentet, kan vælge at give andre tilladelser. I Business central kan kun administratorer konfigurere og tildele tilladelser. Sammenlignet med at dele SharePoint-dokumenter, svarer det til at vælge indstillingen "dele til personer med eksisterende adgang".
 
 ### Understøtter denne funktion sikkerhed på rækkeniveau?
 
@@ -95,7 +95,7 @@ Med henblik på at maksimere produktiviteten og strømline deres transaktioner, 
 
 ### Er dette 100 % gratis?
  
-Nej Adgang til Business Central-data i Microsoft Teams kræver, at hver bruger har en Business Central-licens eller en Microsoft 365-licens fra listen over understøttede ordninger.
+Nej. Adgang til Business Central-data i Microsoft Teams kræver, at hver bruger har en Business Central-licens eller en Microsoft 365-licens fra listen over understøttede ordninger.
 
 ### Fungerer dette sammen med Microsoft 365- forsøg og Business Central-test?
 

@@ -19,7 +19,7 @@ Følgende tabel viser forholdet mellem forskellige typer værdiposter for lager 
 |**Vareposttype**|**Værdiposttype**|**Afvigelsestype**|**Forventet kostpris**|**Konto**|**Modkonto**|  
 |--------------------------------|--------------------------|-----------------------|-----------------------|-----------------|---------------------------|  
 |Køb|Købspris||Ja|Lager (mellemregningskonto)|Lagerperiod.konto (mellemkto.)|  
-|Køb|Købspris||Nr.|Lagerbeholdning|Tillagte direkte omkostninger|  
+|Køb|Købspris||Nej|Lagerbeholdning|Tillagte direkte omkostninger|  
 |Køb|Indir. omkostninger||Nej|Lagerbeholdning|Tillagte indir. prod.omkostn.|  
 |Køb|Varians|Køb|Nej|Lagerbeholdning|Købsafvigelse|  
 |Køb|Værdiregulering||Nej|Lagerbeholdning|Lagerregulering|  

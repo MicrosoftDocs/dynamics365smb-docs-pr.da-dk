@@ -23,7 +23,7 @@ Ja, da rapporterne er integrerede fra Power BI.
 <!-- 3 -->
 ### Er Business Central-apps til Power BI tilgængelige på andre sprog end engelsk?
 
-Nummer Disse apps er i øjeblikket kun tilgængelige på engelsk.
+Nej. Disse apps er i øjeblikket kun tilgængelige på engelsk.
 
 <!-- 24 -->
 ### Når en rapport er udgivet på mit powerbi.com arbejdsområde, kan jeg hente dets pbix? 
@@ -33,7 +33,7 @@ Ja. Du kan finde flere oplysninger i [Hente en rapport fra Power BI-tjenesten ti
 <!-- 27 -->
 ### Kan jeg hente apps som pbix-filer? 
 
-Nummer I øjeblikket tilbyder vi ikke hentning af pbix-filer til de officielle Power BI-apps, fordi de er udgivet på AppSource.
+Nej. I øjeblikket tilbyder vi ikke hentning af pbix-filer til de officielle Power BI-apps, fordi de er udgivet på AppSource.
 
 ## [Licens](#tab/license)
 
@@ -41,7 +41,7 @@ Nummer I øjeblikket tilbyder vi ikke hentning af pbix-filer til de officielle P
 ### Skal jeg bruge en Power BI Pro-licens for at udgive rapporter? 
 
 <!-- todo What does " or for every user that consults the published report" mean? fixed -->
-Nummer Det er ikke nødvendigt med en Pro-licens for at udgive rapporter? Standard Power BI-licensen er tilstrækkelig. Du kan finde flere oplysninger i [Power BI-licenser](admin-powerbi-setup.md#license).
+Nej. Det er ikke nødvendigt med en Pro-licens for at udgive rapporter? Standard Power BI-licensen er tilstrækkelig. Du kan finde flere oplysninger i [Power BI-licenser](admin-powerbi-setup.md#license).
 
 <!-- 15 -->
 ### Er der noget, jeg ikke kan gøre med den gratis licens?
@@ -126,7 +126,7 @@ Der er på nuværende tidspunkt ingen mulighed for at angive et filter til webtj
 <!-- 10 -->
 ### Fra Power BI, ud over at bruge en forespørgsel, er der en anden måde, hvorpå du kan få data fra Business Central-tabeller, som ikke har en tilknyttet side? F. eks. kan du lide tabellen *Værditilknytning for vareattributter*.
 
-Nummer Ikke på nuværende tidspunkt.
+Nej. Ikke på nuværende tidspunkt.
 
 <!-- 12 --> 
 ### Er udgivne forespørgsler hurtigere at bruge end udgivne sider?
@@ -202,12 +202,12 @@ Ja. Vores tests angiver, at API-sider fylder op til 25 % mere end webtjenester.
 <!-- 18 -->
 ### Har der planer om at have en spejling på Azure SQL-database forekomsten, som jeg kan oprette forbindelse til direkte?
 
-Nummer Ikke på nuværende tidspunkt. Du kan kun kommunikere med API'er (Business central gennem API'er).
+Nej. Ikke på nuværende tidspunkt. Du kan kun kommunikere med API'er (Business central gennem API'er).
 
 <!-- 19 -->
 ### Indlæsning af data fra Business Central-webtjenester virker langsomt. Er der nogen måde at hente data direkte fra SQL-databasetabellen på?
 
-Nummer Direkte adgang til databasen er ikke mulig, men skifter til API-sider (når den nye Connector er tilgængelig) vil være en hjælp for meget.
+Nej. Direkte adgang til databasen er ikke mulig, men skifter til API-sider (når den nye Connector er tilgængelig) vil være en hjælp for meget.
 
 ## [Avanceret](#tab/advanced)
 <!-- 1 -->
@@ -239,7 +239,7 @@ Vi undersøger denne funktion. Power BI tilbyder omfattende API'er til styring a
 
 ### Når jeg henter data fra Business central til brug i mine Power BI-rapporter, vises nogle værdier som f. eks. "_x0020_ ". Hvad er disse værdier?
 
-Nogle API-sider, herunder de fleste API v 2.0-sider, har felter, der er baseret på [AL Enum-objekter](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Felter, der er baseret på AL enum-objekter, skal have navne, der er ensartede og altid ens, så filtre i rapporten altid fungerer på samme måde - uanset det sprog eller operativsystem, du bruger. Derfor oversættes de felter, der er baseret på AL enum, og de kodes for at undgå specialtegn, inklusive pladsen. Når der er en tom indstilling i AL Enum-objektet, er det især kodet til "_x0020_". Du kan altid anvende en transformation til dine data på Power BI, hvis du vil have vist en anden værdi for disse felter, f. eks. "Empty".
+Nogle API-sider, herunder de fleste API v 2.0-sider, har felter, der er baseret på [AL Enum-objekter](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Felter, der er baseret på AL enum-objekter, skal have navne, der er ensartede og altid ens, så filtre i rapporten altid fungerer på samme måde – uanset det sprog eller operativsystem, du bruger. Derfor oversættes de felter, der er baseret på AL enum, og de kodes for at undgå specialtegn, inklusive pladsen. Når der er en tom indstilling i AL Enum-objektet, er det især kodet til "_x0020_". Du kan altid anvende en transformation til dine data på Power BI, hvis du vil have vist en anden værdi for disse felter, f. eks. "Empty".
 
 ## Se også
 

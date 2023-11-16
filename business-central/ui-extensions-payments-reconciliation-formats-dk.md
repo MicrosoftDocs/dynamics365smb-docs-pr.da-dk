@@ -61,7 +61,7 @@ Følgende tabel viser de kombinationer af FIK- og GIRO betalingsformer, som [!IN
 |----|--------|---------|---------|---------|
 |Girokontonr. eller FIK-kreditornummer? | Girokontonr. | Girokontonr. | FIK-kreditornummer | FIK-kreditornummer|
 |Tillader meddelelse til modtager? | Ja |Nej |Nej | Ja |
-|Indeholder betalingsreferencenummer? | Nej | Ja, 16 cifre. | Ja, 15 cifre. | Nr.|
+|Indeholder betalingsreferencenummer? | Nej | Ja, 16 cifre. | Ja, 15 cifre. | Nej|
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.  
 2. Åbn kortet, udvid fanen **Betalinger** og vælg betalingsformen i feltet **Betalingsform**.  

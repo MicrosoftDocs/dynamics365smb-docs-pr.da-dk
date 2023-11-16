@@ -86,7 +86,7 @@ sections:
       - question: |
           Er det nødvendigt at købe Microsoft 365?
         answer: |
-          Nej Men hvis du vil opleve [!INCLUDE[prod_short](includes/prod_short.md)] som fuldt integreret med Microsoft 365, kan du tilmelde dig til en 1-måneds gratis prøveversion af Microsoft 365 [her](https://products.office.com/try).  
+          Nej. Men hvis du vil opleve [!INCLUDE[prod_short](includes/prod_short.md)] som fuldt integreret med Microsoft 365, kan du tilmelde dig til en 1-måneds gratis prøveversion af Microsoft 365 [her](https://products.office.com/try).  
 
           Hvis den konto, du logger på med, er en ikke-Microsoft 365-arbejdskonto (f.eks. joe@mysolution.com), og du har et Microsoft 365-abonnement, kan du knytte dit domæne (*mysolution.com*) til Microsoft 365-abonnementet. Få mere at vide på [Hvad er et domæne?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) i Microsoft 365-indholdet.  
 

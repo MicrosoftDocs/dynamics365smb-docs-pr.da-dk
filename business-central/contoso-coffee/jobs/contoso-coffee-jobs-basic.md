@@ -55,7 +55,7 @@ Edgin, den tekniker, der installerer maskinen, skal registrere sin tid og de mat
     2. Vælg batchen *CONTOSO.*  Du får vist flere linjer med ressource- og varetyper, der afspejler den anvendte tid (for teknikeren og køretøjet) og materialerne (maskinen og forsyningerne).
     3. Opret en ny linje. Angiv følgende værdier:
  
-    |Sagsnr.|Sagsopgavenr.|Enhedstype|Nej|Beskrivelse|Antal|
+    |Sagsnr.|Sagsopgavenr.|Enhedstype|Nr.|Beskrivelse|Antal|
     |-------|------------|----|---|-----------|--------|  
     |J00010|220|Ressource|EDGIN|Kundetræning|1|
 

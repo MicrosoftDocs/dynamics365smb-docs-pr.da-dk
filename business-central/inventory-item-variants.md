@@ -41,7 +41,7 @@ På varekort har feltet **Variant obligatorisk, hvis der findes** følgende muli
 |Feltværdi |Beskrivelse|
 |---------|----|
 |Standard| Indstillingen fra **Lageropsætning** gælder for varen.|
-|Nr.| Brugere behøver ikke at angive en variant for denne vare.|
+|Nej| Brugere behøver ikke at angive en variant for denne vare.|
 |Ja| Hvis varen har en eller flere varianter, skal de angive varianten. Hvis de ikke gør det, vil de være spærret for bogføring af transaktionen.|
 
 > [!NOTE]

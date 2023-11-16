@@ -69,10 +69,10 @@ Følgende tabel viser vareposter for eksemplet med den gennemsnitlige omkostning
 
 | **Varenr.** | **Variantkode** | **Lokationskode** | **Værdiansættelsesdato** | **Kostværdien er reguleret** |
 |--|--|--|--|--|
-| VARE1 |  | BLÅ | 01-01-23 |   Nr. |
-| VARE1 |  | BLÅ | 02-01-23 |   Nr. |
-| VARE1 |  | BLÅ | 02-02-23 |   Nr. |
-| VARE1 |  | BLÅ | 02-03-23 |   Nr. |
+| VARE1 |  | BLÅ | 01-01-23 |   Nej |
+| VARE1 |  | BLÅ | 02-01-23 |   Nej |
+| VARE1 |  | BLÅ | 02-02-23 |   Nej |
+| VARE1 |  | BLÅ | 02-03-23 |   Nej |
 
  Følgende tabel viser de samme vareposter, efter at kørslen **Juster kostpris - vareposter** er udført. Den gennemsnitlige kostpris pr. dag beregnes og anvendes til lagerreduktionen.  
 
@@ -109,8 +109,8 @@ I følgende tabel vises posterne i tabellen **Indf.sted, regl. gnsn. kostpr.**, 
 
 | **Varenr.** | **Variantkode** | **Lokationskode** | **Værdiansættelsesdato** | **Kostværdien er reguleret** |
 |--|--|--|--|--|
-| VARE1 |  | BLÅ | 01-31-23 |   Nr. |
-| VARE1 |  | BLÅ | 02-28-23 |   Nr. |
+| VARE1 |  | BLÅ | 01-31-23 |   Nej |
+| VARE1 |  | BLÅ | 02-28-23 |   Nej |
 
 > [!NOTE]  
 > Værdiansættelsesdatoen angives til den sidste dag i den gennemsnitlige omkostningsperiode, som i dette tilfælde er den sidste dag i måneden.  

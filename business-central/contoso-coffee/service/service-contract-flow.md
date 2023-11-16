@@ -124,7 +124,7 @@ Serviceteknikeren registrerer sin tid direkte i forhold til serviceordren og mar
    3. Vælg linjehandlingen **Servicelinje**.
    4. Angiv følgende oplysninger
 
-    |Enhedstype|Nej|Antal|Antal til forbrug|
+    |Enhedstype|Nr.|Antal|Antal til forbrug|
     |----|---|--------|--------|   
     |Ressource|RESOURCE1|2|2|
 

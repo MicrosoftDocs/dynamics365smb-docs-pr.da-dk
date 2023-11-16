@@ -71,8 +71,8 @@ I følgende tabel beskrives standard betalings reglerne i [!INCLUDE[prod_short](
 | Lav              | 1        | Fuldt ud                 | Nej                             | Ingen afstemninger                     |
 | Lav              | 2        | Delvist             | Nej                             | Flere afstemninger               |
 | Lav              | 3        | Delvist             | Nej                             | Ingen afstemninger                     |
-| Lav              | 4        | Nr.                    | Nr.                             | En afstemning                      |
-| Lav              | 5        | Nr.                    | Nr.                             | Flere afstemninger               |
+| Lav              | 4        | Nej                    | Nej                             | En afstemning                      |
+| Lav              | 5        | Nej                    | Nej                             | Flere afstemninger               |
 
 ## Se også
 [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md)  

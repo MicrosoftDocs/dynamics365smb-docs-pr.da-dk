@@ -26,7 +26,7 @@ Som en del af dit Microsoft 365-abonnement giver din virksomhed dig OneDrive, di
 
 ## Understøtter [!INCLUDE[prod_short](includes/prod_short.md)] forbruger OneDrive?
 
-Nummer Denne integration er udelukkende beregnet til OneDrive for Business og understøtter kun din arbejdskonto. 
+Nej. Denne integration er udelukkende beregnet til OneDrive for Business og understøtter kun din arbejdskonto. 
 
 ## Understøttes OneDrive for Business alle forretningsplaner?
 
@@ -42,11 +42,11 @@ Ja, men i modsætning til [!INCLUDE[prod_short](includes/prod_short.md)]-online 
 
 ## Opretter [!INCLUDE[prod_short](includes/prod_short.md)] lokal forbindelse til SharePoint-serveren?
 
-Nej Denne installationskombination understøttes ikke, selvom SharePoint-serveren har aktiveret mit websted.  
+Nej. Denne installationskombination understøttes ikke, selvom SharePoint-serveren har aktiveret mit websted.  
 
 ## Opretter [!INCLUDE[prod_short](includes/prod_short.md)] online forbindelse til SharePoint-serveren?
 
-Nej Denne installationskombination understøttes ikke, selvom SharePoint-serveren har aktiveret mit websted.  
+Nej. Denne installationskombination understøttes ikke, selvom SharePoint-serveren har aktiveret mit websted.  
 
 ## Hvordan fungerer dette i en organisation med flere miljøer?
 
