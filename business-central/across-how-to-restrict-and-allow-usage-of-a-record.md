@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: bholtorf
 ---
-# Begrænse og tillade brugen af en record
+# <a name="restrict-and-allow-usage-of-a-record"></a>Begrænse og tillade brugen af en record
 
 Hvis du vil begrænse brugen af en post, f.eks. i bestemte aktiviteter, kan du integrere to arbejdsgangssvar i workflowet, der styrer forbruget af posten. Et workflowsvar begrænser brugen af posten, som defineret i arbejdsganghændelsen og -betingelserne. Det andet workflowsvar tillader brug af posten, som defineret i arbejdsganghændelsen og -betingelserne. Der er to svar i standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] til dette formål: **Tilføj postbegrænsning** og **Fjern postbegrænsning**.
 
@@ -22,7 +22,7 @@ Hvis du vil begrænse brugen af en post, f.eks. i bestemte aktiviteter, kan du i
 
 Følgende fremgangsmåde beskriver, hvordan du kan begrænse bogføring af købsordrer, indtil de er godkendt. Den nye arbejdsgang baseres på den eksisterende skabelon *Godkendelsesworkflow for købsfaktura*.  
 
-## Oprette et trin i et workflow, som begrænser bogføring af ikke-godkendte købsordrer
+## <a name="create-a-workflow-step-that-restricts-posting-of-unapproved-purchase-orders"></a>Oprette et trin i et workflow, som begrænser bogføring af ikke-godkendte købsordrer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Workflows**, og vælg derefter det relaterede link.  
 2. På siden **Workflows** skal du vælge handlingen **Nyt workflow fra skabelon**. Flere oplysninger [Oprette workflows fra workflowskabeloner](across-how-to-create-workflows-from-workflow-templates.md).
@@ -32,7 +32,7 @@ Følgende fremgangsmåde beskriver, hvordan du kan begrænse bogføring af købs
 4. I oversigtspanelet **Workflowtrin** skal du vælge feltet **På betingelse** for det første trin og **Ordre** for filteret **Dokumenttype**.  
 5. Fortsæt med at redigere, slette eller tilføje andre workflowtrin for at reflektere en forretningsproces, der begynder med at begrænse bogføring af ikke-godkendte købsordrer.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Bruge godkendelsesworkflows](across-use-workflows.md)  
 [Opret godkendelsesworkflows](across-how-to-create-workflows.md)  

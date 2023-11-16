@@ -11,13 +11,13 @@ ms.search.form: '44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
 ms.date: 09/08/2021
 ms.author: bholtorf
 ---
-# Gennemgå salgsreturvareordrer  
+# <a name="process-sales-return-orders"></a>Gennemgå salgsreturvareordrer
 
 Hvis du ønsker større kontrol over salgsreturvareprocessen, f.eks. med lagerdokumenter til håndtering af varer eller bedre overblik ved modtagelse af varer fra flere salgsdokumenter i én salgsreturnering, kan du oprette salgsreturvareordrer. En salgsreturvareordre udsteder automatisk den relaterede salgskreditnota og andre returvarerelaterede dokumenter, f.eks. en erstatningssalgsordre, hvis det er nødvendigt.
 
 Ud over den oprindelige bogførte salgsfaktura kan du anvende salgskreditnotaen eller salgsreturvareordren på andre salgsdokumenter, for eksempel en anden bogført salgsfaktura, fordi kunden også returnerer varerne fra denne faktura.
 
-## Oprette en salgsreturvareordre baseret på et eller flere bogførte salgsdokumenter  
+## <a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Oprette en salgsreturvareordre baseret på et eller flere bogførte salgsdokumenter
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsreturvareordrer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.  
@@ -67,7 +67,7 @@ Ud over den oprindelige bogførte salgsfaktura kan du anvende salgskreditnotaen 
 10. På siden **Salgsreturvareordre** i feltet **Returårsagskode** skal du på hver linje vælge årsagen til returneringen.
 11. Vælg handlingen **Bogfør**.
 
-## Sådan oprettes en erstatningssalgsordre fra en salgsreturvareordre
+## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>Sådan oprettes en erstatningssalgsordre fra en salgsreturvareordre
 Antag, at du har besluttet at kompensere en kunde ved at udskifte den vare, som er solgt. Udskiftningsvaren kan være den samme type vare eller en anden type. Sidstnævnte situation kan f.eks. være tilfældet, hvis der er leveret en forkert vare.  
 
 1. På siden **Salgsreturvareordre** for en aktiv returproces skal du på en tom linje angive en negativ postering for erstatningsvaren ved at indsætte et negativt beløb i feltet **Antal**.  
@@ -75,7 +75,7 @@ Antag, at du har besluttet at kompensere en kunde ved at udskifte den vare, som 
 3. På siden **Flyt negative salgslinjer** skal du udfylde felterne efter behov.
 4. Vælg knappen **OK**. Den negative linje for erstatningsvaren slettes fra salgsreturvareordren og indsættes på en ny **Salgsordre**-side. Du kan finde flere oplysninger i [Sælge produkter](sales-how-sell-products.md).
 
-## Sådan oprettes returvarerelaterede dokumenter med udgangspunkt i en salgsreturvareordre
+## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>Sådan oprettes returvarerelaterede dokumenter med udgangspunkt i en salgsreturvareordre
 Salgsordrer på erstatningsvarer, købsreturvareordrer og erstatningskøbsordrer kan oprettes automatisk under salgsreturvareprosssen. Dette er nyttigt f.eks. i situationer, hvor du vil håndtere varer med garantier fra leverandører.
 
 1. På siden **Salgsreturvareordre** for en aktiv returneringsproces skal du vælge handlingen **Opret returrelaterede dokumenter**.
@@ -84,7 +84,7 @@ Salgsordrer på erstatningsvarer, købsreturvareordrer og erstatningskøbsordrer
 4. Hvis en returneret vare bestilles hos leverandøren, skal du markere afkrydsningsfeltet **Opret købsordre**.
 5. Hvis der skal oprettes en salgsordre på en erstatningsvare, skal du markere afkrydsningsfeltet **Opret salgsordre**.
 
-## Sådan gør du: Oprette et reklamationsgebyr
+## <a name="to-create-a-restock-charge"></a>Sådan gør du: Oprette et reklamationsgebyr
 Der kan være tilfælde, hvor en kunde skal opkræves et gebyr for omkostningerne ved den fysiske håndtering af en vare. Det kan f.eks. være fordi, at kunden har bestilt en forkert vare ved en fejltagelse eller skifter mening efter modtagelsen af varen.
 
 Du kan bogføre den forøgede omkostning som et varegebyr i en kreditnota eller returvareordre og tildele den til den bogførte levering. Nedenfor beskrives dette for en salgsreturvareordre, men samme fremgangsmåde anvendes ved en salgskreditnota.
@@ -95,7 +95,7 @@ Du kan bogføre den forøgede omkostning som et varegebyr i en kreditnota eller 
 
 Når du bogfører salgsreturvareordren, føjes reklamationsgebyret til den relevante salgspost. Det gør det muligt at opretholde en præcis lagerværdi.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  

@@ -11,7 +11,7 @@ ms.search.form: '5091, 5093'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="add-contacts-to-segments"></a>Tilføje kontakter til målgrupper
+# <a name="adding-contacts-to-segments"></a>Tilføje kontakter til målgrupper
 Når du har oprettet en målgruppe og angivet grundlæggende oplysninger om den, vil du muligvis gerne tilføje kontakter til målgruppen. Du kan gøre dette ved at udfylde linjerne på siden **Målgruppe** manuelt, men det er lettere og hurtigere at bruge handlingen **Tilføj kontakter**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Sådan tilføjes en kontakt til en målgruppe

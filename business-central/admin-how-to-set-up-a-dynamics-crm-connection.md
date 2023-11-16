@@ -9,13 +9,13 @@ ms.search.forms: '7200, 7201'
 ms.date: 09/28/2023
 ms.author: bholtorf
 ---
-# Opret forbindelse til Microsoft Dataverse
+# <a name="connect-to-microsoft-dataverse"></a>Opret forbindelse til Microsoft Dataverse
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Denne artikel beskriver, hvordan du konfigurerer en forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Virksomheder opretter typisk forbindelsen for at integrere og synkronisere data med en anden Dynamics 365-forretningsapp såsom [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-## Før du starter
+## <a name="before-you-start"></a>Før du starter
 
 Der er et par oplysninger, som du skal have klar, før du opretter forbindelsen:  
 
@@ -31,7 +31,7 @@ Der er et par oplysninger, som du skal have klar, før du opretter forbindelsen:
 > I fremgangsmåden nedenfor beskrives proceduren for onlineversionen af [!INCLUDE[prod_short](includes/prod_short.md)].
 > Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] on-premises og ikke bruger en Microsoft Entra-konto til at oprette forbindelse til [!INCLUDE [cds_long_md](includes/cds_long_md.md)], skal du også angive brugernavn og adgangskode for en brugerkonto til integrationen. Denne konto kaldes "integrationsbruger"-kontoen. Hvis du bruger en Microsoft Entra-konto, er integrationsbrugerkontoen ikke påkrævet og vises ikke. Integrationsbrugeren konfigureres automatisk og kræver ikke en licens.
 
-## Tillad for forskellige valutaer
+## <a name="allow-for-different-currencies"></a>Tillad for forskellige valutaer
 
 [!INCLUDE [prod_short](includes/prod_short.md)]-firmaer kan oprette forbindelse til et [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-miljø, der har en basisvaluta, der er anderledes end deres lokale valuta..
 
@@ -54,7 +54,7 @@ Da synkronisering af valuta er envejs, fra [!INCLUDE [prod_short](includes/prod_
 * Beløbene i [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-basisvalutaen konverteres til den [!INCLUDE [prod_short](includes/prod_short.md)] lokale valuta ud fra den seneste valutakurs, der er synkroniseret fra [!INCLUDE [prod_short](includes/prod_short.md)].
 * Beløb i den [!INCLUDE [prod_short](includes/prod_short.md)] lokale valuta synkroniseres med den [!INCLUDE [prod_short](includes/prod_short.md)] lokale valuta i en af de andre (ikke-basis) valutaer i [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
 
-## Konfigurer en forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+## <a name="set-up-a-connection-to-"></a>Konfigurer en forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 For alle andre godkendelsestyper end Microsoft 365-godkendelse kan du konfigurere forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på siden **Konfiguration af Dataverse-forbindelse**. For Microsoft 365-godkendelse anbefaler vi, at du bruger vejledningen **Opsætning af Dataverse-forbindelse** med assisteret opsætning. Denne vejledning gør det nemmere at oprette forbindelsen og angive avancerede funktioner, f.eks. ejerskabsmodel og indledende synkronisering.  
 
@@ -67,7 +67,7 @@ For alle andre godkendelsestyper end Microsoft 365-godkendelse kan du konfigurer
 >
 > Ved at give samtykke på vegne af organisationen giver administratoren det registrerede Azure-program, der hedder [!INCLUDE[prod_short](includes/prod_short.md)]-integration til [!INCLUDE[cds_long_md](includes/cds_long_md.md)], ret til at synkronisere data ved hjælp af den automatisk oprettede [!INCLUDE[prod_short](includes/prod_short.md)]-integrationsprogrambrugers legitimationsoplysninger.
 
-### Sådan bruger du vejledningen Dataverse-forbindelsesopsætning med assisteret opsætning
+### <a name="to-use-the-dataverse-connection-setup-assisted-setup-guide"></a>Sådan bruger du vejledningen Dataverse-forbindelsesopsætning med assisteret opsætning
 
 Dataverse-forbindelsesopsætningsvejledning kan gøre det nemmere at oprette forbindelse til programmerne, og det kan også være en hjælp til at starte en første synkronisering. Hvis du vælger at køre første synkronisering, gennemgår [!INCLUDE[prod_short](includes/prod_short.md)] dataene i begge programmer og giver anbefalinger om, hvordan du skal håndtere den første synkronisering. Den følgende tabel beskriver de forskellige anbefalinger.
 
@@ -87,7 +87,7 @@ Dataverse-forbindelsesopsætningsvejledning kan gøre det nemmere at oprette for
 > [!NOTE]
 > Hvis du ikke bliver bedt om at logge på med din administratorkonto, skyldes det sandsynligvis, at pop op-vinduer er blokeret. Du kan logge på ved at tillade pop op-vinduer fra `https://login.microsoftonline.com`.
 
-### Sådan oprettes eller vedligeholdes forbindelsen manuelt
+### <a name="to-create-or-maintain-the-connection-manually"></a>Sådan oprettes eller vedligeholdes forbindelsen manuelt
 
 Følgende procedure beskriver, hvordan du kan opsætte forbindelsen manuelt på siden **Dataverse-forbindelsesopsætning**. Siden **Konfiguration af Dataverse-forbindelse** er den side, hvor du administrerer indstillingerne.
 
@@ -115,7 +115,7 @@ Følgende procedure beskriver, hvordan du kan opsætte forbindelsen manuelt på 
 5. Hvis [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-synkronisering ikke allerede er konfigureret, bliver du spurgt, om du vil bruge standardkonfigurationen for synkronisering. Afhængigt af om du vil bevare poster justeret i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)], skal du vælge **Ja** eller **Nej**.
 
 <!--
-## Show Me the Process
+## <a name="show-me-the-process"></a>Show Me the Process
 
 The following video shows the steps to connect [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. <br>
   
@@ -123,7 +123,7 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
-## Tilpas den matchbaserede sammenkædning
+## <a name="customize-the-match-based-coupling"></a>Tilpas den matchbaserede sammenkædning
 
 Fra 2021 udgivelsesbølge 2 kan en administrator angive kriterier for at sammenkæde poster baseret på matches. Du kan starte algoritmen til identiske poster kan startes fra følgende placeringer i [!INCLUDE [prod_short](includes/prod_short.md)]:
 
@@ -155,7 +155,7 @@ I alle tre tilfælde åbnes siden **Vælg sammenkædningskriterier**, så du kan
 
 * Angiv, om der skal oprettes en ny enhedsforekomst i [!INCLUDE [cds_long_md](includes/cds_long_md.md)], hvis der ikke er en entydig, ikke-sammenkoblet match, ved hjælp af søgekriterierne. Hvis du vil aktivere denne funktion, skal du markere afkrydsningsfeltet **Opret ny, hvis der ikke findes en match**-handling.  
 
-### Vis resultaterne af sammenkædningssagen
+### <a name="view-the-results-of-the-coupling-job"></a>Vis resultaterne af sammenkædningssagen
 
 Hvis du vil have vist resultaterne af sammenkædningssagen, skal du åbne siden **integrationstabeltilknytninger**, vælge den relevante tilknytning, vælge **sammenkædningshandlingen** og derefter vælge handlingen foretag tilknytning af **integrationssammenkædningsjob**.  
 
@@ -182,7 +182,7 @@ Koblingen mislykkes typisk af følgende årsager:
 > [!TIP]
 > For at hjælpe dig med at få et overblik over fremdriften i koblingen viser feltet **sammenkoblet til Dataverse**, om en bestemt post er koblet til en [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-enhed. Du kan bruge feltet **Sammenkoblet med Dataverse** til at filtrere listen over poster, som du synkroniserer.
 
-## Opgradere forbindelser fra Business Central Online for at bruge certifikatbaseret godkendelse
+## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Opgradere forbindelser fra Business Central Online for at bruge certifikatbaseret godkendelse
 
 > [!NOTE]
 > Dette afsnit er kun relevant for [!INCLUDE[prod_short](includes/prod_short.md)] online-lejere, der er hosted af Microsoft. Online-arkitekturer, der er hosted af ISV'er og lokale installationer, påvirkes ikke.
@@ -191,7 +191,7 @@ I april 2022 udfases [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Office365-
 
 Hvis du vil undgå at afbryde integration, _skal du opgradere_ forbindelsen til at bruge certifikatbaseret godkendelse. Selvom der er planlagt ændringer for marts 2022, anbefaler vi på det kraftigste, at du opgraderer så hurtigt som muligt. Følgende fremgangsmåde beskriver, hvordan du opgraderer til certifikatbaseret godkendelse. 
 
-### Opgradere forbindelser fra Business Central Online til brug certifikatbaseret godkendelse
+### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Opgradere forbindelser fra Business Central Online til brug certifikatbaseret godkendelse
 
 1. Afhængigt af om du integrerer med Dynamics 365 Sales, skal du benytte en af følgende fremgangsmåder:
    * Hvis du gør det, skal du åbne siden **Microsoft Dynamics 365-forbindelseskonfiguration**.
@@ -202,13 +202,13 @@ Hvis du vil undgå at afbryde integration, _skal du opgradere_ forbindelsen til 
 > [!NOTE]
 > Du skal gentage disse trin i hvert [!INCLUDE[prod_short](includes/prod_short.md)]-miljø, herunder både produktions-og sandkasse miljøer, og i hvert regnskab, du har forbindelse til [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-## Tilslutning af lokale versioner
+## <a name="connecting-on-premises-versions"></a>Tilslutning af lokale versioner
 
 Hvis du vil forbinde [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø med [!INCLUDE[cds_long_md](includes/cds_long_md.md)], skal du angive nogle oplysninger på siden **Konfiguration af Dataverse-forbindelse**.
 
 Hvis du vil oprette forbindelse ved hjælp af en Microsoft Entra-konto, skal du registrere et program i Microsoft Entra ID. Du kan også angive program-id, key vault-hemmeligheden og omdirigere den URL-adresse, der skal bruges. URL-adressen til omdirigering er forudindstillet og bør fungere for de fleste installationer. Du skal konfigurere installationen til at bruge HTTPS. Du kan finde flere oplysninger i [Konfigurere SSL for at sikre forbindelsen til Business Central-webklienten](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Hvis du konfigurerer serveren, så den har en anden startside, kan du altid ændre URL-adressen. Klientens hemmelighed gemmes som en krypteret streng i din database. 
 
-### Sådan registrerer du et program i Microsoft Entra ID for at oprette forbindelse fra Business Central til Dataverse
+### <a name="to-register-an-application-in-microsoft-entra-id-for-connecting-from-business-central-to-dataverse"></a>Sådan registrerer du et program i Microsoft Entra ID for at oprette forbindelse fra Business Central til Dataverse
 
 I følgende trin antages det, at du bruger Microsoft Entra ID til at administrere identiteter og adgangsrettigheder. Du kan finde flere oplysninger om registrering af et program i Microsoft Entra ID under [Hurtig start: registrere et program på Microsoft-identitetsplatformen](/azure/active-directory/develop/quickstart-register-app). 
 
@@ -231,12 +231,12 @@ I følgende trin antages det, at du bruger Microsoft Entra ID til at administrer
    > [!NOTE]
    > Hvis du ikke bliver bedt om at logge på med din administratorkonto, skyldes det sandsynligvis, at pop op-vinduer er blokeret. Du kan logge på ved at tillade pop op-vinduer fra `https://login.microsoftonline.com`.
 
-### Sådan afbrydes forbindelsen fra [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+### <a name="to-disconnect-from-"></a>Sådan afbrydes forbindelsen fra [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Dataverse-forbindelseskonfiguration**, og vælg derefter det relaterede link.
 2. På siden **Dataverse-forbindelsesopsætning** skal du slå **Aktiveret** fra.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Se status på en synkronisering](admin-how-to-view-synchronization-status.md)  
 

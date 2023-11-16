@@ -11,14 +11,14 @@ ms.search.form: '459, 460, 7001, 7011, 7015, 7016, 7017, 7018'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Konfigurere priser og rabatter
+# <a name="set-up-prices-and-discounts"></a>Konfigurere priser og rabatter
 
 > [!NOTE]
 > I 2020 udgivelsesbølge 2 har vi udgivet strømlinede processer til opsætning og administration af priser og rabatter. Hvis du er ny kunde, der bruger den version, bruger du den nye oplevelse. Hvis du allerede bruger den nye oplevelse, afhænger det af, om din administrator har aktiveret funktionsopdateringen **Ny vareprissætningsopdatering** på siden **Funktionsadministration**. Du kan finde flere oplysninger i [Aktivere Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Pris-og rabatstrategier for køb og salg af varer og tjenester er grundlæggende værktøjer til virksomheder med succes. Når du har defineret de varer og servicer, som din virksomhed køber og sælger, kan du definere, hvad du betaler eller debiterer den, og beløbene vil automatisk blive føjet til salgs- og købsdokumenter. 
 
-## Konfigurere priser og rabatter
+## <a name="setting-up-prices-and-discounts"></a>Konfigurere priser og rabatter
 
 Før du opretter prislister, skal du definere dine pris-og rabat strategier på siderne **Salgsopsætning** og **Købsopsætning**.
 
@@ -34,11 +34,11 @@ Da salgspriser og salgslinjerabatter er baseret på en kombination af vare og de
 > [!TIP]  
 > Hvis du ikke ønsker, at en vare nogensinde skal sælges med rabat, kan du lade rabatfelterne på varekortet være tomme, og medtag ikke varen i nogen opsætningen af linjerabat.
 
-## Om prislister
+## <a name="about-price-lists"></a>Om prislister
 
 Prislister er fleksible og giver dig mulighed for at angive den samarbejdspartner eller-aktivitet, som de gælder for. Du kan f.eks. oprette en prisliste, der gælder for alle kreditorer og debitorer, eller tilbyde special priser eller rabatter for hver forretningspartner, eventuelt baseret på et minimumantal på købs- eller salgsordrer eller en bestemt kombination af debitor, vare, minimumsantal, enhed eller tidsperioder. De priser og rabatter, du definerer, anvendes automatisk på købs- og salgsdokumenter. 
 
-## Oprette priser
+## <a name="set-up-prices"></a>Oprette priser
 
 Disse trin varierer, afhængigt af, om din administrator har slået funktionsopdateringen **Ny vareprissætningsopdatering** til. 
 
@@ -68,7 +68,7 @@ Hvis du vil have vist prislister og priser, der gælder for bestemte debitorer e
 
 ---
 
-## Sådan konfigureres salgslinjerabatter for en debitor
+## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Sådan konfigureres salgslinjerabatter for en debitor
 
 Disse trin varierer, afhængigt af, om din administrator har slået funktionsopdateringen **Ny vareprissætningsopdatering** til. 
 
@@ -98,7 +98,7 @@ Disse trin varierer, afhængigt af, om din administrator har slået funktionsopd
 
 ---
 
-## Arbejde med fakturarabatter og servicegebyrer
+## <a name="work-with-invoice-discounts-and-service-charges"></a>Arbejde med fakturarabatter og servicegebyrer
 
 Når du bruger fakturarabatter, bestemmer fakturabeløbet størrelsen af rabatten. På siden **Fakturarabatter** kan du også tilføje et servicegebyr til fakturaer over en vis størrelse.  <!--The Invoice Discounts page is hard to find.-->
 
@@ -115,7 +115,7 @@ Du kan også knytte et servicegebyr til et bestemt fakturabeløb i tillæg til e
 > [!TIP]  
 > Før du begynder at indtaste disse oplysninger, er det en god idé at forberede rabatstrukturen på forhånd, så det er nemmere at se, hvilke kunder der skal have forbindelse til den samme fakturarabatside. Du finder flere oplysninger om rabatter under [Konfigurere rabatter for dine kunder](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
-### Sådan oprettes en fakturarabat for en debitor
+### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Sådan oprettes en fakturarabat for en debitor
 
 Når du har besluttet, hvilke kunder der skal have fakturarabatter, skal du angive fakturarabatkoden på debitorkortene og definere betingelserne for hver kode.
 
@@ -136,7 +136,7 @@ Fortsæt med at angive nye fakturarabatbetingelser for salg.
 
 Fakturarabatten er nu oprettet og knyttet til den pågældende debitor. Når du vælger debitorkoden i feltet **Fakturarabatkode** på andre debitorkort, knyttes samme fakturarabat til den pågældende debitor.
 
-## Sådan kopieres salgspriser
+## <a name="to-copy-sales-prices"></a>Sådan kopieres salgspriser
 
 Disse trin varierer, afhængigt af, om din administrator har slået funktionsopdateringen **Ny vareprissætningsopdatering** til. 
 
@@ -167,7 +167,7 @@ Status for prislistelinjen skal være **Kladde**.
   
 ---
 
-## Sådan masseopdateres varepriser
+## <a name="to-bulk-update-item-prices"></a>Sådan masseopdateres varepriser
 
 Disse trin varierer, afhængigt af, om din administrator har slået funktionsopdateringen **Ny vareprissætningsopdatering** til. 
 
@@ -195,11 +195,11 @@ Hvis du vil opdatere priser for flere varer, skal du oprette en ny prisliste og 
 
 ---
 
-## Beregne bedste pris
+## <a name="calculating-the-best-price"></a>Beregne bedste pris
 
 Når du har registreret særpriser og linjerabatter for salg og køb, sørger [!INCLUDE[d365fin](includes/d365fin_md.md)] for, at dine avance på varehandel altid er optimal ved automatisk at beregne den bedste pris på salgs- og købsdokumenter og på sags- og varekladdelinjer. Du kan finde flere oplysninger i [Beregne bedste pris](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  

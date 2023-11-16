@@ -15,7 +15,7 @@ Du kan skrive *marketingtekst* om varen for alle de varer, der er registreret i 
 
 Der er to måder at oprette en marketingtekst på. Den nemmeste måde at komme i gang på er ved at bruge Copilot, som foreslår AI-genereret tekst for dig. Den anden måde er at starte fra bunden. 
 
-## <a name="create-ai-generated-marketing-text-preview-with-copilot"></a><a name=copilot></a>Opret AI-styret marketingtekst (forhåndsversion) med Copilot
+## <a name="get-marketing-text-suggestions-with-copilot"></a><a name=copilot></a>Opret AI-styret marketingtekst (forhåndsversion) med Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -115,7 +115,7 @@ Der er nogle trin, du kan udføre for at forbedre tekstforslagene og ændre dem,
 
    Copilot finder ord og udtryk, der er relateret til kategorien, og kan arbejde i den foreslåede tekst.
 
-## <a name="create-marketing-text-from-scratch"></a>Oprette marketingtekst fra bunden
+## <a name="create-text-from-scratch"></a>Oprette marketingtekst fra bunden
 
 1. Åbn den vare, du vil tilpasse, i Business central, som følgende:
 
