@@ -116,13 +116,6 @@
 ### [Fejlfinding af selvbetjeningstilmelding](ui-troubleshoot-self-signup.md)
 ### [Udvide din prøveversion](admin-extend-trial.md)
 ### [Opsig abonnement, eller fjern Business Central](admin-cancel.md)
-### Marketingtekst med Copilot til AI-styret vare
-#### [Oversigt](ai-overview.md)
-#### [Hent forhåndsversionsversion](ai-preview-getstarted.md)
-#### [Konfigurere marketingtekst med AI-styret vare](enable-ai.md)
-#### [Oprette marketingtekst med AI-styret vare](item-marketing-text.md)
-#### [Ofte stillede spørgsmål](ai-faq.md)
-
 ## Køb
 ### [Introduktion til et abonnement](trial-signup.md#get-started-with-a-subscription)
 ### [Gør dig klar til at komme i gang](ui-get-ready-business.md)
@@ -379,6 +372,7 @@
 ### Afstemme bankkonti
 #### [Oversigt over bankafstemning](bank-manage-bank-accounts.md)
 #### [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md)
+#### [Afstemme bankkonti med Copilot (forhåndsversion)](bank-reconciliation-with-copilot.md)
 #### [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 ### Administrere koncerninterne transaktioner
@@ -1577,7 +1571,6 @@
 #### [Opsætte lagervarer](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Kategorisere varer](inventory-how-categorize-items.md)
 #### [Indlæse flere varebilleder](inventory-how-import-item-pictures.md)
-#### [Konfigurere marketingtekst med Copilot til AI-styret vare](enable-ai.md)
 ### Opsætte projektstyring
 #### [Opsætte projekter](projects-setup-projects.md)
 #### [Opsætte ressourcer](projects-how-setup-resources.md)
@@ -1841,6 +1834,17 @@
 #### [Rapportudviklingsguide](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Rapport om justering af ydeevne](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
+# Copilot- og AI-funktioner
+## Administrere Copilot- og AI-funktioner
+### [Konfigurere Copilot- og AI-funktioner](enable-ai.md)
+### [Copilot-dataflytning på tværs af geografiske områder](ai-copilot-data-movement.md)
+## Hjælp til afstemning af bankkonto (forhåndsversion)
+### [Afstemme bankkonti med Copilot](bank-reconciliation-with-copilot.md)
+### [Ofte stillede spørgsmål om hjælp til bankafstemning](faqs-bank-reconciliation.md)
+## Forslag til marketingtekst
+### [Oversigt over forslag til marketingtekst](ai-overview.md)
+### [Oprette marketingtekst med Copilot](item-marketing-text.md)
+### [Ofte stillede spørgsmål om forslag til marketingtekst](faqs-marketing-text.md)
 
 # Sikkerhed, overholdelse og beskyttelse af personlige oplysninger
 ## Sikkerhed og beskyttelse
@@ -1894,6 +1898,7 @@
 ### [Aktivere nye funktioner på forhånd](admin-feature-management.md)
 ### [Onboarde brugere med tjeklister](admin-checklist.md)
 ### [Sandkassemiljøer](admin-sandbox-environments.md)
+## [Copilot- og AI-funktioner](enable-ai.md)
 ## Tilpasse Business Central
 ### [Oversigt over tilpasning](ui-customizing-overview.md)
 ### [Tilpasse sider til profiler](ui-personalization-manage.md)
@@ -1926,19 +1931,19 @@
 #### [US/CA/UK/AU/NZ/ZA – Send remitteringsadvis](ui-extensions-send-remittance-advice.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [Business Central-udvidelser fra andre leverandører](ui-extensions-other.md)
-## Integrere med Dynamics 365 Sales
-### [Integrere med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## Integrere med andre Dynamics 365-applikationer
+### [Integrere med Dynamics 365 Sales via datasynkronisering](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ## Integrere med Microsoft Dataverse
-### [Integrere med Microsoft Dataverse](admin-common-data-service.md)
-### [Modeller for dataejerskab](admin-cds-company-concept.md)
-### [Opsætte brugerkonti til Microsoft Dataverse-integration](admin-setting-up-integration-with-dynamics-sales.md)
-### [Oprette forbindelse til Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Integrere med Dataverse via datasynkronisering](admin-common-data-service.md)
+### [Dataejerskabsmodeller til synkronisering](admin-cds-company-concept.md)
+### [Opsætte brugerkonti til Dataverse-integration via datasynkronisering](admin-setting-up-integration-with-dynamics-sales.md)
+### [Opret forbindelse til Dataverse for datasynkronisering](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synkronisere Business Central og Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
 ### [Knytte tabeller og felter til synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Synkronisere tabeltilknytninger manuelt](admin-manual-synchronization-of-table-mappings.md)
 ### [Planlægge en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Fejlfinde synkroniseringsfejl](admin-troubleshoot-sales-synchronization.md)
-### [Bruge et Power Automate-flow til beskeder til Dataverse-enhedsændringer](admin-power-automate-flow-dataverse.md)
+### [Bruge et Power Automate-flow til rettidig at synkronisere Dataverse-enhedsændringer](admin-power-automate-flow-dataverse.md)
 ## Synkronisere stamdata på tværs af virksomheder
 ### [Gør dig klar til at synkronisere stamdata](admin-set-up-data-sync.md)
 ### [Administrere synkronisering af stamdata](admin-sync-master-data.md)
@@ -2019,3 +2024,7 @@
 ## [Sikkerhed og beskyttelse](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Ydeevne](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Fjernede eller udfasede funktioner](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Ansvarlig kunstig intelligens
+## [Oversigt](responsible-ai-overview.md)
+## [Ofte stillede spørgsmål om hjælp til bankafstemning (forhåndsversion)](faqs-bank-reconciliation.md)
+## [Ofte stillede spørgsmål om forslag til marketingtekst](faqs-marketing-text.md)
