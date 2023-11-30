@@ -14,16 +14,6 @@ ms.custom: bap-template
 
 Hvis du køber eller sælger varer, som du og leverandøren eller debitoren bruger forskellige betingelser for, kan du oprette en reference mellem betingelserne for varerne og de betingelser, som kunden eller leverandøren af den pågældende vare bruger. På den måde indsættes leverandørens eller kundens varebeskrivelse, enhed eller variantkode automatisk i de relevante dokumenter, når du udfylder feltet **Varereferencenr.** .  
 
-> [!NOTE]
-> Ikke alle virksomheder bruger varereferencer. Vi har minimeret rod på sider ved at skjule de relaterede felter og handlinger som standard. Hvis du beslutter dig for at bruge dem, kan du vælge feltet **Brug varereferencer** på siden **Lageropsætning**. Når du har aktiveret varereferencer, er felterne og handlingerne tilgængelige på siderne Varekort, Kreditorkort og Debitorkort samt fra salgs- og købsdokumenter.
->
-> I tidligere versioner før 2021-udgivelsesbølge 2 kan administratoren aktivere funktionen *Skriv længere varereferencer* på siden [Funktionsstyring](https://businesscentral.dynamics.com/?page=2610) (linket kræver, at du har en [!INCLUDE [prod_short](includes/prod_short.md)]-lejer). Hvordan du bruger referencer, ændres ikke, men navnene på ting som f.eks. sider og knapper ændres. F.eks. bliver siden **Varens krydshenvisningsposter** til **Varereferenceposter**.
-
-## Sådan begyndes du at bruge elementreferencer
-
-1. Vælg ikonet :::image type="icon" source="media/ui-search/search_small.png" border="false":::, skriv **Opsætning af Lager**, og vælg derefter det relaterede link.
-2. Marker feltet **Brug varereferencer**.
-
 ## Sådan oprettes en varereference
 
 1. Vælg ikonet :::image type="icon" source="media/ui-search/search_small.png" border="false":::, angiv **Varer**, og vælg derefter det relaterede link.

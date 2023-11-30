@@ -1,5 +1,5 @@
 ---
-title: Brug af Microsoft Dataverse
+title: Integrer med Microsoft Dataverse via datasynkronisering
 description: Introduktion til integration og brug af Microsoft Dataverse og komponenter til at oprette forbindelse til andre Dynamics 365-programmer.
 author: brentholtorf
 ms.author: bholtorf
@@ -9,7 +9,7 @@ ms.date: 06/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="integrate-with-microsoft-dataverse-via-data-sync"></a>Integrere med Microsoft Dataverse
+# Integrer med Microsoft Dataverse via datasynkronisering
 
 Forretningsapps bruger ofte data fra mere end én kilde. [!INCLUDE[prod_short](includes/cds_long_md.md)] kombinerer data til et enkelt sæt logik, som gør det nemmere at forbinde [!INCLUDE[prod_short](includes/prod_short.md)] med andre Dynamics 365-programmer. F.eks. [!INCLUDE[crm_md](includes/crm_md.md)] eller dit eget program bygget på [!INCLUDE[prod_short](includes/cds_long_md.md)]. Du kan få mere at vide om [!INCLUDE[prod_short](includes/cds_long_md.md)] ved at gå til [Hvad er Dataverse?](/powerapps/maker/common-data-service/data-platform-intro).
 
@@ -24,19 +24,19 @@ Nedenfor følger en oversigt over trinnene til integration af [!INCLUDE[prod_sho
 
 3. Synkroniser data mellem programmer. Du kan finde flere oplysninger i [Synkronisering af Business Central og Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
-## <a name="get-started-with-"></a>Kom i gang med [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Kom i gang med [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 For at komme i gang med [!INCLUDE[prod_short](includes/cds_long_md.md)] skal du have en Microsoft Power Apps-konto. Hvis du ikke allerede har en Power Apps-konto, kan du få en gratis adresse ved at besøge [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) og vælge hyperlinket **Kom gratis i gang**. Du kan få mere at vide om, hvordan du kommer i gang med [!INCLUDE[prod_short](includes/cds_long_md.md)] i modulet [Kom i gang med Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) fra Microsoft-træning.
 
-## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Tovejs eller etvejs datasynkronisering
+## Tovejs eller etvejs datasynkronisering
 
 Du kan synkronisere data enten til eller fra en Dynamics 365-forretningsapp til en anden eller i begge retninger og næsten i realtid via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Hvis du f.eks. integrerer [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[crm_md](includes/crm_md.md)], kan en sælger oprette en salgsordre i [!INCLUDE[crm_md](includes/crm_md.md)], hvorefter ordren synkroniseres til [!INCLUDE[prod_short](includes/prod_short.md)]. Fra [!INCLUDE[crm_md](includes/crm_md.md)] kan sælgeren ligeledes se tilgængelighed for objektet i ordren i [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
-## <a name="standard-and-custom-entities"></a>Standardobjekter og brugerdefinerede objekter
+## Standardobjekter og brugerdefinerede objekter
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] gemmer data sikkert i en række tabeller, som er postsæt, der svarer til, hvordan en tabel gemmer data i en database. [!INCLUDE[prod_short](includes/cds_long_md.md)] indeholder et grundlæggende sæt standardtabeller, der dækker typiske scenarier, men du kan også oprette brugerdefinerede tabeller, der er specifikke for din virksomhed. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du se de standardobjekter og brugerdefinerede tabeller, der synkroniseres, på siden Integrationstabeltilknytninger.
 
-## <a name="about-the-business-central-base-integration-solution"></a>Om Business Central-basisintegrationsløsningen
+## Om Business Central-basisintegrationsløsningen
 
 Business Central-basisintegrationsløsningen er en nøglekomponent i integrationen. Løsningen føjer de nødvendige roller og adgangsniveauer til brugerkontiene for integrationen og opretter de tabeller, der kræves for at knytte [!INCLUDE[prod_short](includes/prod_short.md)]-virksomheden til en afdeling i [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
 
@@ -63,7 +63,7 @@ Du kan finde flere oplysninger om de enkelte roller, f.eks. tilladelser og adgan
 
 Når du konfigurerer forbindelsen, oprettes de integrationstabeltilknytninger, der er nødvendige for at synkronisere data. Objekter i [!INCLUDE[prod_short](includes/cds_long_md.md)] knyttes til tabeller og tabelfelter i [!INCLUDE [prod_short](includes/prod_short.md)] ved hjælp af integrationstabeller. Hvis du vil vide mere om tilknytning, skal du gå til [Standardobjekttilknytning for synkronisering](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="handle-differences-in-local-and-base-transaction-currencies"></a>Håndter forskelle i lokale og grundlæggende transaktionsvalutaer
+## Håndter forskelle i lokale og grundlæggende transaktionsvalutaer
 
 Du kan oprette forbindelse til et [!INCLUDE[prod_short](includes/cds_long_md.md)]-miljø med en anden grundvaluta end den lokale valuta i [!INCLUDE[prod_short](includes/prod_short.md)]. Du opretter forbindelsen i [!INCLUDE[prod_short](includes/prod_short.md)] på siden **Dataverse-konfiguration af forbindelse** eller ved at bruge **Installationsforbindelsen til Dataverse**-assisteret opsætningsvejledning.
 
@@ -78,7 +78,7 @@ Synkronisering af valuta er envejs, fra [!INCLUDE [prod_short](includes/prod_sho
 * Beløbene i [!INCLUDE[prod_short](includes/cds_long_md.md)]-basisvalutaen konverteres til den [!INCLUDE [prod_short](includes/prod_short.md)] lokale valuta ud fra den seneste valutakurs, der er synkroniseret fra [!INCLUDE [prod_short](includes/prod_short.md)].
 * Beløb i den [!INCLUDE [prod_short](includes/prod_short.md)] lokale valuta synkroniseres med den [!INCLUDE [prod_short](includes/prod_short.md)] lokale valuta i en af de andre (ikke-basis) valutaer i [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Modeller for dataejerskab](admin-cds-company-concept.md)  
 <!--needs to be removed as this is moved to dev-itpro docs[Walkthrough: Customizing an Integration with Dataverse](\dynamics365\business-central\dev-itpro\administration\administration-custom-cds-integration) -->

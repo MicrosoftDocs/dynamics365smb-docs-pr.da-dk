@@ -7,7 +7,6 @@
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Lær
 ### [Ressourcer for brugere](resources-for-users.md)
-### [Business Central-undervisningskatalog](readiness/readiness-learning-catalog.md)
 ### [Business Central-træning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Gennemgang af forretningsprocesser
 #### [Tilgængelige gennemgange](walkthrough-business-process-walkthroughs.md)
@@ -209,19 +208,6 @@
 ### [Besøge vores videobibliotek](across-videos.md)
 ### [Få teknisk support](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
-<!--## Microsoft Learn training
-### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
-### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
-### Resources for a Business Decision Maker
-#### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Business User
-#### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Developer
-#### [Learning catalog](readiness/readiness-learning-developers.md)
-#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
 # Forretningsfunktioner
 ## [Oversigt over forretningsfunktioner](across-business-functionality.md)
 <!--general-->
@@ -244,6 +230,7 @@
 ### [Bruge sagskøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md)
 ### [Lade Business Central foreslå værdier](ui-let-system-suggest-values.md)
 ### [Bruge onlinekort til at finde steder og vejledninger](across-online-maps.md)
+### [Opsætte digitale bilag](across-how-setup-digital-vouchers.md)
 
 ### Indgående bilag
 #### [Oversigt over indgående dokumenter](across-income-documents.md)
@@ -882,10 +869,12 @@
 
 ### Danmark
 #### [Lokal funktionalitet i den danske version](LocalFunctionality/Denmark/denmark-local-functionality.md)
+#### [Anmeldelse og tilmelding til NemHandelsregisteret i Danmark](localfunctionality/denmark/how-to-nemhandel-register.md)
 #### Moms
 ##### [Udskrive momsafstemningsrapporter](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [Moms-VIES-rapporter](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ##### [Opsætning af momsregistreringsnummer for Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
+##### [Indsend momsafgivelser elektronisk](localfunctionality/denmark/how-to-evat-statement-dk.md)
 #### Banktransaktioner og betalinger
 ##### [FIK-detaljer i betalingsudligningskladden](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [Udvidelsen Betalinger og afstemninger (DK)](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -897,6 +886,8 @@
 ##### [Oprette elektroniske dokumenter i et OIOUBL-format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
 #### Lønning
 ##### [Definitioner af løndata (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
+#### Digitale bilag
+##### [Opsæt digitale bilag i Danmark](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finland
 #### [Lokal funktionalitet i den finske version](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -1838,6 +1829,7 @@
 ## Administrere Copilot- og AI-funktioner
 ### [Konfigurere Copilot- og AI-funktioner](enable-ai.md)
 ### [Copilot-dataflytning på tværs af geografiske områder](ai-copilot-data-movement.md)
+### [Fejlfinde Copilot- og AI-funktioner](ai-copilot-troubleshooting.md)
 ## Hjælp til afstemning af bankkonto (forhåndsversion)
 ### [Afstemme bankkonti med Copilot](bank-reconciliation-with-copilot.md)
 ### [Ofte stillede spørgsmål om hjælp til bankafstemning](faqs-bank-reconciliation.md)

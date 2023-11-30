@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/04/2023
+ms.date: 10/24/2023
 ms.custom: bap-template
 ---
 # Afstemme bankkonti
@@ -22,9 +22,15 @@ Men du kan også afstemme bankkonti på siden **Betalingsudligningskladde**, nå
 
 Linjerne på siden **Bankkontoafstemning** er opdelt i to ruder. Ruden **Bankkontoudtogslinjer** viser enten importerede banktransaktioner eller poster med udestående betalinger. Ruden **Bankkontoposter** viser finansposterne på en intern bankkonto.
 
-Afstemning af transaktioner i bankkontoudtog med bankposter i [!INCLUDE[prod_short](includes/prod_short.md)] kaldes *matching*. Du kan sammenligne transaktioner med bankposter på to måder:
+## Om bankafstemning 
+
+Afstemning af transaktioner i bankkontoudtog med bankposter i [!INCLUDE[prod_short](includes/prod_short.md)] kaldes *matching*. Du kan sammenligne transaktioner med bankposter på tre måder:
 
 * Du kan vælge at matche automatisk ved hjælp af handlingen **Match automatisk**.
+
+* Automatisk ved hjælp af handlingen **Afstem med Copilot**.
+
+  Denne handling er tilgængelig som en del af funktionen til hjælp til bankafstemning (forhåndsversion), som er en AI-drevet funktion. [Få mere at vide om hjælp til bankafstemning](bank-reconciliation-with-copilot.md).
 * Du kan også manuelt markere linjer i begge ruder for at sammenkæde de enkelte bankkontoudtogslinjer med en eller flere relaterede bankposter og derefter bruge handlingen **Match manuelt**.
 
 Afkrydsningsfeltet **Udlignet** er markeret på linjer, hvor posterne stemmer. Du kan finde flere oplysninger i [Konfigurere regler for automatisk udligning af betalinger](receivables-how-set-up-payment-application-rules.md). Hvis du angiver en Kontoudtogs slutdato på bankafstemningen, efter at du har matchet linjerne med poster, fortryder [!INCLUDE [prod_short](includes/prod_short.md)] de relaterede linjer og poster, der ligger efter denne dato.
@@ -49,7 +55,7 @@ Du kan udfylde ruden **Bankkontoudtogslinjer** på siden **Bankkontoafstemning**
 * Automatisk, ved hjælp af funktionen **Importér bankkontoudtog** for at udfylde ruden **Bankkontoudtogslinjer** med banktransaktioner ifølge en importeret fil eller stream, der er leveret af banken.
 * Manuelt ved hjælp af funktionen **Foreslå linjer** for at udfylde ruden **Bankkontoudtogslinjer** ifølge fakturaerne i [!INCLUDE[prod_short](includes/prod_short.md)], der har udestående betalinger.
 
-## Sådan tilføjes bankafstemningslinjer ved at importere et bankkontoudtog
+## Tilføje bankafstemningslinjer ved at importere et bankkontoudtog
 
 Ruden **Bankkontoudtogslinjer** udfyldes med bankposteringer i henhold til en importeret fil eller strøm, der er leveret af banken.
 
@@ -80,9 +86,9 @@ Ruden **Bankkontoudtogslinjer** udfyldes i henhold til fakturaer i [!INCLUDE[pro
 4. Hvis du ikke vil have, at bankkontoposterne skal omfatte ikke-matchede åbne tilbageførte poster, skal du vælge funktionen **Udelad tilbageførte poster**. Som standard vil listen over bankkontoposter medtage tilbageførte poster op til kontoudtogsdatoen.
 5. Vælg knappen **OK**.
 
-## Sådan afstemmes kontoudtogslinjer automatisk med bankposter
+## Afstemme kontoudtogslinjer automatisk med bankposter
 
-Siden **Bankkontoafstemning** indeholder automatisk matchningsfunktionalitet, der er baseret på en sammenligning af tekst i en bankkontoudtogslinje (venstre rude) med tekst i en eller flere bankkontoposter (højre rude). Du kan overskrive den foreslåede automatiske afstemning, og du kan vælge slet ikke at bruge automatisk afstemning. Du kan finde flere oplysninger i [Sådan afstemmes bankkontoudtoglinjer manuelt med bankposter](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
+Siden **Bankkontoafstemning** indeholder automatisk matchningsfunktionalitet, der er baseret på en sammenligning af tekst i en bankkontoudtogslinje (venstre rude) med tekst i en eller flere bankkontoposter (højre rude). Du kan overskrive den foreslåede automatiske afstemning, og du kan vælge slet ikke at bruge automatisk afstemning. Du kan finde flere oplysninger i [Afstemme bankkontoudtoglinjer manuelt med bankposter](#match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
 Du kan undersøge udgangspunktet for matches ved at bruge handlingen **match detaljer**. Detaljerne vil f. eks. omfatte navnene på de felter, der indeholdt identiske værdier.  
 
@@ -98,7 +104,7 @@ Du kan undersøge udgangspunktet for matches ved at bruge handlingen **match det
 > [!TIP]
 > Du kan bruge en blanding af manuel og automatisk matchning. Hvis du har matchet poster manuelt, overskriver den automatiske matchning ikke dine valg.
 
-## Sådan afstemmes bankkontoudtoglinjer manuelt med bankposter
+## Afstemme bankkontoudtoglinjer manuelt med bankposter
 
 > [!TIP]
 > Når matching af linjer og poster bliver manuelt, kan **Vis alle**, **Vis tilbageførte poster**, **Skjul tilbageførte poster** og **Vis ikke-matchede** gøre det nemmere at få vist en oversigt. Bankkontoposterne indeholder som standard ikke ikke-matchede tilbageførte poster. Hvis du vil medtage disse poster på listen og matche dem manuelt, skal du vælge handlingen **Vis tilbageførte poster**. Hvis du vælger at skjule tilbageførte poster, efter at du har foretaget et eller flere match, vises de matchede poster stadig.
@@ -123,7 +129,7 @@ Du kan undersøge udgangspunktet for matches ved at bruge handlingen **match det
 > [!TIP]
 > For at fjerne et match skal du markere bankkontoudtogslinjen og derefter vælge handlingen **Fjern match**. Hvis du har knyttet flere bankkontoudtogslinjer til en post og har behov for at fjerne en eller flere af de matchede linjer, fjernes alle de manuelle matches for posten, når du vælger **Fjern match**.
 
-## Sådan valideres bankafstemningen
+## Validere din bankafstemning
 
 Hvis du vil dobbelttjekke bankkontoafstemningen, før du bogfører den, skal du bruge handlingen **Test rapport** til at vise en forhåndsversion af afstemningen. Følgende rapport er tilgængelig i følgende kontekster:
 
@@ -239,10 +245,12 @@ Undlad at bruge en finanskonto, der tillader direkte bogføring i din bankkontos
 
 Fejlen opstår ofte, når der angives en primosaldo for en bankkonto. Det er vigtigt, at du ikke bogfører primosaldoen direkte i finansregnskabet. De poster på finanskontoen, der bogføres direkte på finanskontoen, vil medføre problemer. Disse poster kan f.eks. forhindre dig i at afstemme din bankkonto. I forbindelse med bankkonti i udenlandsk valuta kan posterne skabe øgede differencer, når du bogfører flere bankafstemninger, pga. valutakursreguleringer. Du bogfører ofte primosaldoen direkte på bankkontoen, og beløbet ophører derefter med finanskontoen. Alternativt kan du tilbageføre den senere til en angivet finanskonto, som du har brugt til at afstemme primosaldoen med finansbalancen. I begge tilfælde skal du udligne en direkte bogføring til finanskontoen, før du starter din første bankafstemning, og især hvis bankkontoen er i udenlandsk valuta.
 
+
 ## Se også
 
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  
-[Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
+[Afstemme bankkonti ved hjælp af hjælp til bankafstemning (forhåndsversion)](bank-reconciliation-with-copilot.md)
+[Anvende automatisk betaling og afstemning af bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Konfigurere regler for automatisk udligning af betalinger](receivables-how-set-up-payment-application-rules.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

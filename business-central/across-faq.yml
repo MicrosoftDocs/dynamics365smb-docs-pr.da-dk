@@ -65,7 +65,7 @@ sections:
       - question: |
           Hvor finder jeg det pågældende linjenummer?
         answer: |
-          Dokumenter som salgsordrer eller købsfakturaer består af overskrifter og linjer. Hver linje har et nummer, som [!INCLUDE [prod_short](includes/prod_short.md)] bruger til at identificere den pågældende linje. Det betyder, at der muligvis vises en advarsel eller en fejlmeddelelse om, at noget er forkert i linjenummer 1000. I standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] er linjenumre skjulte. Hvis du vil se linjenumrene, skal du tilpasse den aktuelle side og tilføje **Linjenr.** . Flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
+          Dokumenter som salgsordrer eller købsfakturaer består af overskrifter og linjer. Hver linje har et nummer, som [!INCLUDE [prod_short](includes/prod_short.md)] bruger til at identificere den pågældende linje. Det betyder, at der muligvis vises en advarsel eller en fejlmeddelelse om, at noget er forkert i linjenummer 1000. I standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] er linjenumre skjulte. Hvis du vil se linjenumrene, skal du tilpasse den aktuelle side og tilføje feltet **Linjenr.** . Flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
       - question: |
           Hvorfor beskriver Hjælp funktioner, som jeg ikke kan få adgang til?
         answer: |
@@ -86,7 +86,7 @@ sections:
       - question: |
           Er det nødvendigt at købe Microsoft 365?
         answer: |
-          Nej. Men hvis du vil opleve [!INCLUDE[prod_short](includes/prod_short.md)] som fuldt integreret med Microsoft 365, kan du tilmelde dig til en 1-måneds gratis prøveversion af Microsoft 365 [her](https://products.office.com/try).  
+          Nej Men hvis du vil opleve [!INCLUDE[prod_short](includes/prod_short.md)] som fuldt integreret med Microsoft 365, kan du tilmelde dig til en 1-måneds gratis prøveversion af Microsoft 365 [her](https://products.office.com/try).  
 
           Hvis den konto, du logger på med, er en ikke-Microsoft 365-arbejdskonto (f.eks. joe@mysolution.com), og du har et Microsoft 365-abonnement, kan du knytte dit domæne (*mysolution.com*) til Microsoft 365-abonnementet. Få mere at vide på [Hvad er et domæne?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) i Microsoft 365-indholdet.  
 
@@ -151,9 +151,9 @@ additionalContent: |
   [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  
   [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
   [Få svar på spørgsmål](/dynamics365/business-central/ui-get-ready-business#getting-answers-to-questions)  
+  [Business Central-træning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)   
   [Ressourcer til hjælp og support](product-help-and-support.md)  
-  [Undervisningskatalog for Business Central](readiness/readiness-learning-catalog.md)  
-  [Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
+  [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md)  
   [Tilgængelighed i land/område og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
   [Servicebetingelser](compliance/compliance-service-compliance.md#service-terms)  
   [Ofte stillede spørgsmål om udvikler-og administratoroplevelser](/dynamics365/business-central/dev-itpro/faq)

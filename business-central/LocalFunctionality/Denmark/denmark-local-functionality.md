@@ -10,16 +10,16 @@ ms.search.keywords: 'Denmark, local, DK, Danish'
 ms.date: 08/25/2023
 ms.author: soalex
 ---
-# <a name="denmark-local-functionality"></a>Lokal funktionalitet for Danmark
+# Lokal funktionalitet for Danmark
 
 Følgende emne beskriver den lokale funktionalitet i den danske version af [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Funktionen Tilgængelighed
+## Funktionen Tilgængelighed
 
 * Overholdelse
     * Revisionsspor og Rediger logfiler for bogholderisoftware i Danmark **Planlagt i november 2023**
     * 5 år med overholdelse af standarder for data **Planlagt til 2023 udgivelsesbølge 2**
-    * Obligatoriske digitale bilag som vedhæftede filer **Planlagt til 2023 udgivelsesbølge 2**
+    * [Obligatoriske digitale kuponer som vedhæftede filer](how-to-digital-vouchers-dk.md) **Tilgængelig fra v23.2**
 
 * Overvågning
     *  [Eksporter SAF-T-overvågningsfilformat](how-to-use-saft-audit-files-export.md) **Tilgængeligt i september 2023**
@@ -49,14 +49,14 @@ Følgende emne beskriver den lokale funktionalitet i den danske version af [!INC
 * Lønning
     * [Definitioner af løndata (DK)](ui-extensions-payroll-data-definitions-dk.md) **Tilgængelig nu**
 
-## <a name="future-legislation-requirements-being-investigated"></a>Fremtidige lovgivningskrav, der undersøges
+## Fremtidige lovgivningskrav, der undersøges
 
 Der findes ingen yderligere kommende funktioner eller-krav, uden for den nye danske bogføringslovgivning, der allerede er nævnt i **Funktionstilgængelighed**. Hvis du har kendskab til yderligere kommende regler, skal du indsende en [Lovgivningsmæssige besked](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 > [!NOTE]  
 > Der er en ny dansk bogføringslovgivning, der gennemtvinger brugen af elektroniske bogføringssystemer pr. juli 2022. Men selvom loven godkendes, frigives oplysninger om, hvordan virksomheden implementeres af virksomheder og ERP-systemer af Erhvervsstyrelsen i faser. Microsoft vil følge retningslinjer for at sikre, at vores **Microsoft Dynamics 365 Business Central** og **Microsoft Dynamics 365 Finance**-løsninger er certificeret inden for parametrene, som der er fastsat deadlines for. Alle opdateringer til Dynamics 365 vil være tilgængelige via standardprocesser til produktudgivelse. Der vil være flere oplysninger tilgængelige i denne artikel.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbejd med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Tilgængelighed i land/område og understøttede sprog](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
