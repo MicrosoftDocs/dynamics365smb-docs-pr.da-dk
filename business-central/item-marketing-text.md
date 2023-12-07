@@ -42,7 +42,7 @@ Udfør følgende trin for at føje marketingtekst til en eksisterende vare. Du k
 
    1. I øverste højre hjørne skal du vælge den ![Lightbulb, der åbner funktionen Fortæl mig 22.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Varer**, og vælg derefter det relaterede link for at vise en liste over tilgængelige varer.
 
-   2. Dobbeltklik på varen, eller vælg dets værdi i **Nummer** kolonne.
+   2. Dobbeltklik på varen, eller vælg dets værdi i **Nummer** kolonne .
 
    [![Viser et varekort med marketing tekstrude](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
 
@@ -120,7 +120,7 @@ Der er nogle trin, du kan udføre for at forbedre tekstforslagene og ændre dem,
 1. Åbn den vare, du vil tilpasse, i Business central, som følgende:
 
     1. I øverste højre hjørne skal du vælge den ![Lightbulb, der åbner funktionen Fortæl mig 22.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Varer**, og vælg derefter det relaterede link for at vise en liste over tilgængelige varer.
-    2. Hvis du vil åbne varen, skal du dobbeltklikke på den eller vælge dens nummer i **Nummer** .
+    2. Hvis du vil åbne varen, skal du dobbeltklikke på den eller vælge dens nummer i feltet **Nummer** .
 
 2. Gør ét af følgende:
 

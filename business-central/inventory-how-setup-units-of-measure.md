@@ -10,7 +10,7 @@ ms.search.keywords: UOM
 ms.date: 10/16/2023
 ms.author: bholtorf
 ---
-# <a name="set-up-units-of-measure"></a>Oprette måleenheder
+# Oprette måleenheder
 
 Som en del af opsætningen af [!INCLUDE [prod_short](includes/prod_short.md)] kan du konfigurere generelle måleenheder på siden **Måleenheder**. Når du derefter registrerer nye varer, skal du angive basisenheden på **Varekortet**. Men du kan også tilføje måleenheder senere.  
 
@@ -23,7 +23,7 @@ Hvis en vare lagerføres i én enhed, men produceres i en anden, kan der oprette
 
 Et andet værktøj, der gør det nemmere at arbejde med flere måleenheder for varer, er muligheden for at angive en afrundingspræcision for basisenheder. Angivelse af afrundingspræcision giver vejledning om, hvad en person skal angive for en given forretningsproces, og hjælper med at reducere afrundingsproblemer. Når du bruger alternative måleenheder, hjælper værdien i feltet **Antal pr. enhed** med at beregne antallet i basisenheden, hvilket kan føre til afrundingsproblemer. Forestil dig f.eks., at du modtager en boks, der indeholder seks elementer. Når kassen ankommer til dit lager, opdager du, at en af de seks varer mangler. Du beslutter dig for ikke at bogføre modtagelsen af en boks, men i stedet ændre det modtagne antal til fem ud af seks stk. Det ville føre til en modtagelse af 4.99998 stykker, snarere end fem. På siden **Vareenheder** kan du i feltet **Afrundingspræcision for antal** angive en værdi, der skal konvertere antallet til et tal, der er lettere at forstå. Fortsætter med eksemplet, ville vi indtaste **1** i feltet for at runde op til en endnu fem stykker.
 
-## <a name="to-set-up-units-of-measure"></a>Sådan oprettes måleenheder
+## Sådan oprettes måleenheder
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **måleenheder**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. En ny tom linje er indsat.  
@@ -36,7 +36,7 @@ Et andet værktøj, der gør det nemmere at arbejde med flere måleenheder for v
 
 Når du registrerer en ny vare, kan du vælge basisenheden på listen over de måleenheder, som du har oprettet. Du kan også angive flere enheder for en vare.  
 
-## <a name="to-set-up-multiple-item-units-of-measure"></a>Sådan konfigurerer du flere vareenheder
+## Sådan konfigurerer du flere vareenheder
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Åbn varekortet for den vare, du vil angive alternative enheder for.
@@ -54,7 +54,7 @@ Når du registrerer en ny vare, kan du vælge basisenheden på listen over de m�
 
 Du kan nu bruge de alternative enheder på købs-, produktions- og salgsdokumenter. Der er flere oplysninger her [Sådan angives en standardenhedskode for salgs- og købstransaktioner](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
-## <a name="to-set-up-unit-of-measure-translations"></a>Sådan oprettes enhedsoversættelser
+## Sådan oprettes enhedsoversættelser
 
 Når du sælger varer til udenlandske kunder, kan det være nødvendigt at angive enheden på kundens sprog. Det kan du gøre ved at angive oversættelser for måleenheder.
 
@@ -64,7 +64,7 @@ Når du sælger varer til udenlandske kunder, kan det være nødvendigt at angiv
 4. Indsæt den relevante tekst i feltet **Beskrivelse**.
 5. Gentag trinnene 2 til 4 for alle enhedskoder og sprog, du vil indsætte oversættelser til.
 
-## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Sådan angives en standardenhedskode for salgs- og købstransaktioner
+## Sådan angives en standardenhedskode for salgs- og købstransaktioner
 
 Hvis du normalt køber eller sælger i andre enheder end basisenheden, kan du angive særskilte enheder, som skal bruges ved køb og salg. Det gør du ved at definere enhederne på siden **Vareenheder**.
 
@@ -74,7 +74,7 @@ Hvis du normalt køber eller sælger i andre enheder end basisenheden, kan du an
 4. For køb skal du i oversigtspanelet **Genbestilling** i feltet **Købsenhed** åbne siden **Vareenheder**.
 5. Vælg den kode, du vil angive som standardenhed for henholdsvis salg eller køb, og vælg derefter knappen **OK**.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbejde med produktionskladdeenheder](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)  
 [Registrere nye varer](inventory-how-register-new-items.md)  

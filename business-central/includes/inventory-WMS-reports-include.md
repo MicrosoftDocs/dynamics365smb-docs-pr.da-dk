@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/13/2023
+ms.date: 10/31/2023
 ms.author: bholtorf
 ---
 
@@ -10,7 +10,7 @@ I følgende tabel beskrives nogle af nøglerapporterne i lagerbeholdning og lage
 | Rapport | Beskrivelse | Id | 
 |---------|---------|---------|
 |[Lagerbeholdning - tilgængelighedsplan](https://businesscentral.dynamics.com?report=707)|Hent en oversigt over specifikke varer og lagervarer og deres tilgængelighed. Denne rapport viser akkumulerede værdier som f.eks. bruttobehov, planlagte tilgange, lager osv. |707|
-|[Lagerværdi](https://businesscentral.dynamics.com?report=1001)|Viser lagerværdien for udvalgte varer på dit lager. Rapporten viser også oplysninger om værdien af forøgelse og reduktion af lageret over en given periode.|1001|
+|[Lagerværdi](https://businesscentral.dynamics.com?report=1001)|Viser lagerværdien for udvalgte varer på dit lager. Rapporten viser også oplysninger om værdien af forøgelse og reduktion af lageret over en given periode.<br><br>Rapporten udskriver også den forventede købspris på poster, der er bogført som modtaget eller leveret, afhængigt af, om du aktiverer til/fra-feltet **Medtag forventet kostpris**.<br><br>Hvis du aktiverer **Medtag forventet kostpris**, grupperer rapporten poster og viser et samlet antal fakturerede og forventede købspriser for hver varebogføringsgruppe.<br><br>Du kan også indsnævre rapportoutputtet med filtrene Lokation og Variant. Men da rapporten er bygget oven på en værdipost, kan du ikke bruge Placeringsfilter.<br><br>For at sikre, at rapporten **Lagerværdi** er opdateret, anbefales det, at du udfører kørslen **Reguler kostværdi - vareposter**, før rapporten udføres.<br><br>I USA, Canada og Mexico er denne rapport ikke tilgængelig. Brug i stedet den lokaliserede version af rapporten Lagerværdi (10139).|1001|
 |[Vareudløb - antal](https://businesscentral.dynamics.com?report=5809)|Hent en oversigt over det antal udvalgte varer på lageret med udløbsdatoer i en bestemt periode. Listen viser antallet af enheder for den udvalgte vare, der udløber inden for en angivet tidsperiode. Det udskrevne dokument viser antallet af enheder, der udløber inden for hver af tre perioder med samme varighed og det samlede lagerantal.<br><br>Brug filtre til at angive, hvad rapporten inkluderer. Hvis du ikke angiver filtre, medtages alle posterne i rapporten. Antallet i rapporten viser kun det antal af varen, hvor der er angivet en udløbsdato.|5809|
 |[Beholdningsændring - antal](https://businesscentral.dynamics.com?report=5807)|Hent en oversigt over den aktuelle alderssammensætning på bestemte varer i lagerbeholdningen. Denne rapport kategoriserer lagerbeholdningen for udvalgte varer i tre periode filsæt. Du kan angive slutdatoen for det sidste filsæt og varigheden af tidsgrupper (punktum). Rapporten analyserer det resterende antal åbne vareposter, der som regel er f. eks. køb, afgang eller opreguleringer.|5807|
 |[Beholdningsændring - værdi](https://businesscentral.dynamics.com?report=5808)|Hent en oversigt over den aktuelle alderssammensætning på bestemte varer i lagerbeholdningen. Denne rapport kategoriserer lagerbeholdningen for udvalgte varer i tre periode filsæt. Du kan angive slutdatoen for det sidste filsæt og varigheden af tidsgrupper (punktum). Rapporten analyserer det resterende antal åbne vareposter, der som regel er f. eks. køb, afgang eller opreguleringer.|5808|
