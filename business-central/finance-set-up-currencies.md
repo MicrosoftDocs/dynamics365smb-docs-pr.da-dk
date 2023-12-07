@@ -8,7 +8,7 @@ ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: bholtorf
 ---
-# Konfigurere valutaer
+# <a name="set-up-currencies"></a>Konfigurere valutaer
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
@@ -16,7 +16,7 @@ Brug en ekstern tjeneste til at få de seneste valutakurser i vinduet **Valutaer
 
 [!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy-note.md)]
 
-## <a name="curr"></a>Valutaer
+## <a name="currencies"></a><a name="curr"></a>Valutaer
 
 I følgende tabel beskrives de felterne i listen **Valutaer**.
 
@@ -52,7 +52,7 @@ I følgende tabel beskrives de felterne i listen **Valutaer**.
 |**Maks. momsdifference tilladt**|Det maksimalt tilladte beløb for momsdifferencer i denne valuta. Flere oplysninger i [Manuel korrektion af momsbeløb i salgs- og købsdokumenter](finance-work-with-vat.md#correcting-vat-amounts-manually-on-sales-and-purchase-documents). Dette felt er muligvis ikke synligt som standard. Den kan hentes ved at tilpasse siden.|
 |**Momsafrundingstype**|Angiver afrundingsmetoden for korrigering af momsbeløb manuelt i salgs-og købsdokumenter. Dette felt er muligvis ikke synligt som standard. Den kan hentes ved at tilpasse siden.|
 
-### Tilgængelige valutafunktioner
+### <a name="available-currency-functions"></a>Tilgængelige valutafunktioner
 
 I følgende tabel beskrives nøgle handlinger på siden **Valutaer**.  
 
@@ -67,11 +67,11 @@ I følgende tabel beskrives nøgle handlinger på siden **Valutaer**.
 ||**Opdater valutakurser**|Brug de seneste valutakurser fra en tjenesteudbyder.|
 |**Rapporter**|**Valutaopgørelse**|Vis saldi for alle debitorer og kreditorer i såvel udenlandsk valuta som i den lokale valuta. Rapporten indeholder 2 LV-saldi. Det ene er saldoen for udenlandsk valuta omregnet til RV ved hjælp af valutakurs på tidspunktet for transaktion. Det andet er saldoen for udenlandsk valuta omregnet til RV ved hjælp af valutakurs på arbejdsdatoen.|
 
-## RV og andre valutaer
+## <a name="lcy-and-other-currencies"></a>RV og andre valutaer
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## Afrundingsvalutaer
+## <a name="rounding-currencies"></a>Afrundingsvalutaer
 
 Hvis du vil styre valutaer, hvor der ikke anvendes decimaler, og du vil undgå unødvendige decimaler i udenlandsk valuta, kan du benytte to forskellige afrundingsfunktioner:
 
@@ -83,35 +83,35 @@ Disse funktioner kan anvendes uafhængigt eller kombineret. Derudover kan funkti
 
 I modsætning til fakturaafrundingsfunktionen påvirker funktionerne til afrunding og pris-afrunding kun beløb i udenlandsk valuta - ikke de tilsvarende beløb i den lokale valuta. Disse to funktioner resulterer ikke i bogføring til finanskonti. Det er derfor ikke nødvendigt at specificere en finanskonto til bogføringsgrupper eller andet.
 
-### Pris-afrunding
+### <a name="unit-amount-rounding"></a>Pris-afrunding
 
 Pris-afrundingsfunktionen styrer den måde, salgspriser for varer og ressourcer i udenlandsk valuta afrundes på salgs- og købslinjer. Du skal angive reglerne for hver valuta separat i feltet **Pris-afrundingspræcision** i listen **Valutaer**.
 
 Pris-afrundingsfunktionen bruges automatisk, hver gang du angiver et vare- eller ressourcenummer på en salgslinje. Hvis fakturaen er til en kunde, som har en fakturakode, omregnes varens eller ressourcens pris til kundens valuta. Prisen afrundes i overensstemmelse med pris-afrundingspræcisionen for valutaen.
 
-### Afrunding
+### <a name="amount-rounding"></a>Afrunding
 
 Afrundingsfunktionen styrer den måde, beløb i udenlandske valutaer afrundes på finanskladdelinjer, salgslinjer og købslinjer. Du skal angive reglerne for hver valuta separat i feltet **Afrundingspræcision** i listen **Valutaer**.
 
 Beløb i udenlandske valutaer afrundes, når du udfylder og bogfører finanskladdelinjer, salgslinjer og købslinjer.
 
-## Valutakurser
+## <a name="exchange-rates"></a>Valutakurser
 
 Du kan registrere valutakurser for hver udenlandsk valuta og angive, hvilke datoer valutakurserne gælder fra. Du kan f.eks. angive daglige, månedlige eller kvartalsvise valutakurser for hver udenlandsk valuta.
 
 Du kan bevare valutakurser på siden **Valutakurs** til referenceformål. Når du har brug for at opdatere valutakurserne, kan du bruge knappen **Opdater valutakurser** for at få de seneste valutakurser fra en ekstern tjenesteudbyder.
 
-## Finanskonti
+## <a name="general-ledger-accounts"></a>Finanskonti
 
 Du kan ikke sammenkæde valutakoder til finanskonti, fordi beløb på regnskab føres i RV. Hvis du har et banklån i DKK og placerer indskud på en bankkonto i SEK, kan du holde styr på disse konti ved at oprette bankkonti i USD og SEK. Med bogføringsgrupper kan du sammenkæde kontiene til relevante finanskonti. I regnskabet vises værdien af beløbene i RV.
 
 Du kan angive en valutakode på en finanskladdelinje og bogføre linjen til en finanskonto. Den relevante valutakurs bruges til at omregne beløbet til lokal valuta, før det bogføres til finanskontoen.  
 
-## Eksempel på en valutapostering for tilgodehavender
+## <a name="example-of-a-receivable-currency-transaction"></a>Eksempel på en valutapostering for tilgodehavender
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Opdatere valutakurser](finance-how-update-currencies.md)  
 [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md)  

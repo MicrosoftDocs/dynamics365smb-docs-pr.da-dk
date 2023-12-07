@@ -99,7 +99,7 @@ Når antallet af efterspurgte varer overstiger den mængde, der er tilgængelig 
 
 Få mere at vide om varianter på [Administrer produktvarianter](inventory-item-variants.md).  
 
-## <a name="deleting-item-cards"></a>Sletning af varekort
+## <a name="delete-item-cards"></a>Sletning af varekort
 
 Hvis du har bogført en postering for en vare, kan du ikke slette kortet, da posterne muligvis er nødvendige med henblik på værdiansættelse eller revision af lageret. Hvis du vil slette varekort med poster, skal du kontakte Microsoft-partneren for at gøre dette via kode.  
 

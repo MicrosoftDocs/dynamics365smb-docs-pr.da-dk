@@ -22,7 +22,7 @@ Når du modtager lagervarerne, eller når den købte tjeneste er fuldført, skal
 > [!CAUTION]  
 > Bogfør ikke en købsfaktura for fysiske varer, før du har modtaget varerne og kender de endelige omkostninger for købet, herunder eventuelle ekstra gebyrer. Ellers kan din lagerværdi og avancetal blive skævt.
 
-### <a name="create-a-and-post-purchase-invoice"></a>Oprette og bogføre købsfaktura
+### <a name="create-and-post-a-purchase-invoice"></a>Oprette og bogføre købsfaktura
 
 Følgende afsnit handler om, hvordan du opretter en købsfaktura. Fremgangsmåden er den samme for en købsordre. Den væsentligste forskel er, at købsordrer har yderligere felter og handlinger til fysisk håndtering af varer.
 

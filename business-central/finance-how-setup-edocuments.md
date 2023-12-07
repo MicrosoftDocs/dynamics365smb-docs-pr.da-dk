@@ -12,7 +12,7 @@ ms.date: 10/05/2023
 ms.author: altotovi
 ---
 
-# Opsætte e-dokumenter
+# <a name="set-up-e-documents"></a>Opsætte e-dokumenter
 
 > [!IMPORTANT]
 > E-dokumenters kernemodul er en ramme. Der er som standard ikke noget felt til **Dokumentformat** eller **Tjenesteintegration**. Disse oplysninger er en del af lokaliseringsapps, fordi de begge er specifikke for lokale krav.
@@ -22,7 +22,7 @@ ms.author: altotovi
 
 Det første trin i konfigurationen af elektroniske dokumenter (e-dokumenter) er at konfigurere tjenesten E-dokumenter, hvor du konfigurerer hele systemets funktionsmåde i forbindelse med e-dokumentkommunikation.
 
-## Konfigurere tjenesten til e-dokument
+## <a name="set-up-the-e-document-service"></a>Konfigurere tjenesten til e-dokument
 
 Følg disse trin for at konfigurere e-dokumenttjenesten.
 
@@ -61,7 +61,7 @@ Hvis du har konfigureret formatet **Data Exchange Definition** i lokaliseringen,
 
 Hvis du ikke bruger formatet **Dataudvekslingsdefinition**, kan du konfigurere formater via linjerne **Eksportér tilknytning** og **Importtilknytning**, hvor du kan finde de tabeller og felter, der skal bruges, og konfigurere transformationsregler, hvis det er relevant.
 
-## Konfigurere dokumentafsendelsesprofil
+## <a name="set-up-a-document-sending-profile"></a>Konfigurere dokumentafsendelsesprofil
 
 Du kan konfigurere en foretrukken metode til afsendelse af salgsdokumenter for hver debitor. På denne måde behøver du ikke at vælge en afsendelsesindstilling, hver gang du vælger handlingen **Bogfør og send**. På siden **Profiler for afsendelse af dokumenter** kan du oprette forskellige afsendelsesprofiler, som du kan vælge i feltet **Dokumentafsendelsesprofil** på et debitorkort. Du kan markere afkrydsningsfeltet **Standard** for at angive, at dokumentafsendelsesprofilen er standardprofilen for alle debitorer, bortset fra debitorer, hvor feltet **Dokumentafsendelsesprofil** er udfyldt med en anden afsendelsesprofil.
 
@@ -83,7 +83,7 @@ Følg disse trin for at oprette en dokumentafsendelsesprofil.
     > [!NOTE]
     > Hvis du vælger **Udvidet e-dokumentserviceflow i** feltet **Elektronisk dokument** , skal arbejdsprocessen allerede være konfigureret for dine e-dokumenter.
 
-## Konfigurere workflowet
+## <a name="set-up-the-workflow"></a>Konfigurere workflowet
 
 Følg disse trin for at konfigurere det workflow, der bruges i e-dokumentfunktionalitet.
 
@@ -98,7 +98,7 @@ Følg disse trin for at konfigurere det workflow, der bruges i e-dokumentfunktio
 > [!NOTE]
 > Du kan oprette din egen arbejdsgang til e-dokumenter uden at bruge foruddefinerede arbejdsgangsskabeloner. Hvis du har flere tjenester, kan du bruge forskellige arbejdsgange.
 
-## Oprette en opbevaringspolitik for e-dokumenter
+## <a name="set-up-a-retention-policy-for-e-documents"></a>Oprette en opbevaringspolitik for e-dokumenter
 
 E-dokumenter kan være omfattet af forskellige lokale lovgivninger, der er relateret til den periode, hvor e-dokumenterne opbevares. Derfor har vi tilføjet en opsætning af opbevaringspolitik for alle vigtige oplysninger, der er relateret til e-dokumenter. Administratorer kan definere opbevaringspolitikker, der angiver, hvor ofte Dynamics 365 Business Central forældede poster, der er relateret til e-dokumenter, slettes. Du kan få mere at vide om opbevaringspolitikker i [Definere opbevaringspolitikker](admin-data-retention-policies.md).
 
@@ -112,7 +112,7 @@ Følg disse trin for at konfigurere opbevaringspolitikker relateret til e-dokume
     - Log over tilknytning af e-dokument
     - Lagring af e-dokumentdata
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Sådan bruges e-dokumenter i Business Central](finance-how-use-edocuments.md)  
 [Sådan udvides e-dokumenter i Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
