@@ -10,11 +10,11 @@ ms.search.forms: '5737, 5735, 5736'
 ms.date: 10/02/2023
 ms.custom: bap-template
 ---
-# <a name="use-item-references"></a>Anvend varereferencer
+# Anvend varereferencer
 
 Hvis du køber eller sælger varer, som du og leverandøren eller debitoren bruger forskellige betingelser for, kan du oprette en reference mellem betingelserne for varerne og de betingelser, som kunden eller leverandøren af den pågældende vare bruger. På den måde indsættes leverandørens eller kundens varebeskrivelse, enhed eller variantkode automatisk i de relevante dokumenter, når du udfylder feltet **Varereferencenr.** .  
 
-## <a name="to-set-up-an-item-reference"></a>Sådan oprettes en varereference
+## Sådan oprettes en varereference
 
 1. Vælg ikonet :::image type="icon" source="media/ui-search/search_small.png" border="false":::, angiv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for en vare, som du vil oprette reference for.
@@ -26,7 +26,7 @@ Hvis du køber eller sælger varer, som du og leverandøren eller debitoren brug
 
 Følgende procedurer beskriver, hvordan du kan angive varereference på en købsordre. Lignende trin gælder for salgsdokumenter og andre købsdokumenter.  
 
-## <a name="to-enter-a-vendors-item-description-on-a-document"></a>Sådan angiver du en kreditors varebeskrivelse på et dokument
+## Sådan angiver du en kreditors varebeskrivelse på et dokument
 
 1. Vælg ikonet :::image type="icon" source="media/ui-search/search_small.png" border="false":::, skriv **Købsordrer**, og vælg derefter det relaterede link.
 2. Opret en købsordre for den leverandør, som du angav en varereference for ovenfor.
@@ -35,7 +35,7 @@ Følgende procedurer beskriver, hvordan du kan angive varereference på en købs
 
 Feltet **Beskrivelse** på linjen overskrives med kreditorens varebeskrivelse, som blev oprettet i varereferenceposten. Hvis varereferencen indeholder en variantkode eller en enhed, kopieres disse værdier også til dokumentet.  
 
-## <a name="scan-barcodes-with-the-business-central-mobile-app"></a>Scan stregkoder med Business Central-mobilapp
+## Scan stregkoder med Business Central-mobilapp
 
 [!INCLUDE [barcode-mobile-app](includes/barcode-mobile-app.md)]
 
@@ -49,7 +49,7 @@ Følgende tabel viser de sider, der understøtter stregkodescanning af varerefer
 |Købslinje     |   Varereferencenr.      |
 |Salgslinje     | Varereferencenr.        |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  

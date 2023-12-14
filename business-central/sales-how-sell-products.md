@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 09/02/2022
+ms.date: 11/03/2023
 ms.author: bholtorf
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Sælge produkter med en kundesalgsordre
+# Sælge produkter med en kundesalgsordre
 
 Denne artikel giver brugerne vejledning om, hvornår du bør benytte en debitorsalgsordre i stedet for blot en faktura. Hvis din salgsproces kræver, at du kan levere dele af et ordreantal, f.eks. fordi hele antallet ikke er tilgængeligt på én gang, skal du behandle salget ved at oprette salgsordrer.
 
@@ -19,11 +19,11 @@ Hvis du sælger varer ved at levere direkte fra leverandøren til kunden som en 
 
 Når du leverer varerne, enten helt eller delvist, kan du bogføre salgsordren som leveret eller leveret og faktureret for at oprette de relaterede vare- og debitorposter i systemet. Når du bogfører salgsordren, kan du også sende den som en vedhæftet PDF-fil i en mail. Du kan udfylde brødteksten i mailen med en oversigt over ordre- og betalingsoplysninger, f.eks. et link til PayPal. Flere oplysninger i [Afsendevarer](warehouse-how-ship-items.md) og [Send dokumenter med e-mail](ui-how-send-documents-email.md).
 
-I forretningsmiljøer hvor debitor betaler med det samme, f.eks. via PayPal eller kontant, registreres betalingen med det samme, når du bogfører salgsordren som faktureret, dvs. at den bogførte salgsfaktura lukkes som fuldt udlignet. Du vælger den relevante metode i feltet **Betalingsformskode** på salgsordren. Se trin 5 herunder. Ved elektroniske betalinger, f.eks. PayPal, skal du også udfylde feltet **Betalingstjeneste**. Flere oplysninger i [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md).
+I forretningsmiljøer hvor debitor betaler med det samme, f.eks. via PayPal eller kontant, registreres betalingen med det samme, når du bogfører salgsfakturaen, dvs. at den bogførte salgsfaktura lukkes, som fuldt udlignet. Du vælger den relevante metode i feltet **Betalingsformskode** på salgsordren. Se trin 5 herunder. Ved elektroniske betalinger, f.eks. PayPal, skal du også udfylde feltet **Betalingstjeneste**. Flere oplysninger i [Aktivere debitorbetalinger via betalingstjenester](sales-how-enable-payment-service-extensions.md).
 
 Du kan også oprette direkte betalte ordrer for ikke-registrerede kunder ved først at oprette et "kontantkunde"-kort, som du så peger hen på salgsordren. Flere oplysninger i [Konfigurere kontantkunder](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Oprette en salgsordre
+## Oprette en salgsordre
 
 > [!NOTE]  
 > I følgende procedure antages det, at kunden allerede er oprettet. Yderligere oplysninger om, hvordan du gør dette, finder du i [Registrere nye kunder](sales-how-register-new-customers.md).
@@ -60,7 +60,7 @@ Du kan også oprette direkte betalte ordrer for ikke-registrerede kunder ved fø
     Prisen og linjebeløbene vises med eller uden moms, afhængigt af hvad du har valgt i feltet **Priser inkl. moms** på debitorkortet.
 8. I feltet **Linjerabatpct.** kan du indtaste en procentdel, hvis du vil give debitoren en rabat på produktet. Værdien i feltet **Linjebeløb** opdateres tilsvarende.
 
-    Hvis du har konfigureret specialvarepriser i oversigtspanelet **Salgspriser og salgslinjerabatter** på debitor- eller varekortet, opdateres linjerabatprocenten, prisen og beløbet på tilbudslinjen automatisk, hvis de aftalte priskriterier opfyldes. Flere oplysninger i [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).
+    Hvis der er konfigureret specialvarepriser i oversigtspanelet **Salgspriser og salgslinjerabatter** på debitor- eller varekortet, opdateres linjerabatprocenten, prisen og beløbet på salgslinjen automatisk, hvis priskriterierne er opfyldt. Flere oplysninger i [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).
 9. Hvis du vil tilføje en kommentar om den ordrelinje, som debitoren kan se på det udskrevne ordrer, skal du skrive en kommentar i feltet **Beskrivelse** på en tom linje.  
 10. Gentag trin 5 til 9 for hver vare, du ønsker kunden skal købe.
 
@@ -73,7 +73,7 @@ Du kan også oprette direkte betalte ordrer for ikke-registrerede kunder ved fø
 
 11. Eller angiv i feltet **Fakturarabatbeløb** det beløb, der skal trækkes fra den værdi, der vises i feltet **I alt inkl. moms**.
 
-    Hvis du har konfigureret fakturarabatter til debitoren, indsættes den angivne procentværdi automatisk i feltet **Fakturarabat i %**, hvis kriterierne er opfyldt, og det relaterede beløb indsættes i feltet **Fakturarabat ekskl. moms**. Flere oplysninger i [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).
+    Hvis du har konfigureret fakturarabatter til debitoren, indsættes den angivne procentværdi automatisk i feltet **Leverandørfakturarabat i %**, hvis kriterierne opfyldes. Det relaterede beløb indsættes derefter i feltet **Fakturarabatbeløb ekskl. moms**. Flere oplysninger i [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md).
 12. Hvis du kun vil sende en del af ordreantallet, skal du angive dette antal i feltet **Lever antal**. Værdien kopieres automatisk til feltet **Fakturer antal**.
 
     > [!NOTE]
@@ -87,11 +87,11 @@ Dialogboksen **Bekræftelse af bogfør og send** viser debitorens foretrukne met
 
 De relaterede vare- og debitorposter oprettes nu i systemet, og salgsordren udlæses som et PDF-dokument. Når salgsordren er bogført fuldstændigt, fjernes den fra listen over salgsordrer og erstattes med nye dokumenter på listen over bogførte salgsfakturaer og oversigten over bogførte salgsleverancer.  
 
-## <a name="external-document-number"></a>Eksterne bilagsnumre
+## Eksterne bilagsnumre
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Fakturasalg](sales-how-invoice-sales.md)  
 [Bogføring af salg](ui-post-sales.md)  

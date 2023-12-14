@@ -10,13 +10,13 @@ ms.date: 09/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="printer-setup-and-management-overview"></a>Oversigt over printeropsætning og -styring
+# Oversigt over printeropsætning og -styring
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Udskrivning af dokumenter og rapporter fra [!INCLUDE[prod_short](includes/prod_short.md)] er en vigtig opgave for virksomhedsbrugere. Du vil typisk sende udskriftsjob direkte til en af organisationens printere - uanset hvilken [!INCLUDE[prod_short](includes/prod_short.md)]-klient eller -app de bruger. Da [!INCLUDE[prod_short](includes/prod_short.md)] Online er en skytjeneste, kan den ikke nå direkte ud til lokale printere, der er tilsluttet brugernes enheder, men den kan oprette forbindelse til skyaktiverede printere.
 
-## <a name="what-are-your-printer-possibilities-in-business-central"></a>Hvad er dine printer muligheder i Business central?
+## Hvad er dine printer muligheder i Business central?
 
 For at understøtte dine udskrivningsbehov tilbyder [!INCLUDE[prod_short](includes/prod_short.md)] følgende funktioner:
 
@@ -31,13 +31,13 @@ Det meste af arbejdet med at konfigurere printere kan udføres fra siden **Print
 > [!IMPORTANT]
 > For Business central lokalt kræver universel udskrivning og e-mailudskrift at Microsoft Entra ID bruger (AD) eller NavUserPassword-godkendelse.
 
-## <a name="custom-printer-extensions"></a>Brugerdefinerede printerudvidelser
+## Brugerdefinerede printerudvidelser
 
 [!INCLUDE[prod_short](includes/prod_short.md)] understøtter andre brugerdefinerede printerudvidelser, der tilføjer endnu flere udskrivningsfunktioner. Så hvis der er installeret brugerdefinerede printerudvidelser, kan du muligvis medtage udskrivningsfunktioner, der ikke er beskrevet i denne artikel.
 
 Hvis du er AL-udvikler og vil lære mere om, hvordan du opretter printerudvidelser, skal du gå til [udvikling af printerudvidelser i Business central](/dynamics365/business-central/dev-itpro/developer/devenv-reports-printing).
 
-## <a name="next-steps"></a>Næste trin
+## Næste trin
 
 - [Konfigurere printere til Universaludskrivning](admin-printer-setup-universal-print.md)  
 - [Konfigurere e-mailprintere](admin-printer-setup-email.md)  

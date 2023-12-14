@@ -11,7 +11,7 @@ ms.search.form: '5, 16,118, 483, 495'
 ms.date: 07/23/2021
 ms.author: bholtorf
 ---
-# <a name="set-up-an-additional-reporting-currency"></a>Oprette en ekstra rapporteringsvaluta
+# Oprette en ekstra rapporteringsvaluta
 
 Da virksomheder handler i stadig flere lande/områder, bliver det mere vigtigt, at de kan gennemgå eller rapportere finansielle oplysninger i mere end én valuta.
 
@@ -26,7 +26,7 @@ Finansprogrammet er konfigureret til at bruge den lokale valuta (RV), men du kan
 >
 > Du har f. eks. en stor mængde tilgodehavender i britiske pund (GBP), og du har oprettet din ekstra rapporteringsvaluta (EV) som GBP. I dette scenario reguleres beløb i de tilgodehavender, der benytter GBP, ikke for valutagevinster/-tab i EV, men kun beløbene i tilgodehavender i andre valutaer. Det betyder, at hvis du bruger EV til at rapportere dine regnskabsopgørelser, kan det medføre, at der er under-eller udestående saldi for tilgodehavender.
 
-## <a name="displaying-reports-and-amounts-in-the-additional-reporting-currency"></a>Visning af rapporter og beløb i den ekstra rapporteringsvaluta
+## Visning af rapporter og beløb i den ekstra rapporteringsvaluta
 Brug af en ekstra rapporteringsvaluta kan være en hjælp i rapporteringsprocessen for en virksomhed i følgende tilfælde:
 
 - Virksomheder i lande uden for EU, som har et højt antal transaktioner med virksomheder i EU-lande. I dette tilfælde kan virksomheder i lande/områder uden for EU også ønske at rapportere i euro for at gøre regnskabsopgørelserne mere brugbare for EU-handelspartnere.
@@ -34,11 +34,11 @@ Brug af en ekstra rapporteringsvaluta kan være en hjælp i rapporteringsprocess
 
 Flere finansrapporter er baseret på finansposter. Hvis rapportdata skal vises i rapporten i den ekstra rapporteringsvaluta, skal du blot markere feltet **Vis beløb i ekstra rapporteringsvaluta** på oversigtspanelet **Indstillinger** for den relevante finansrapport.
 
-## <a name="adjusting-exchange-rates"></a>Regulering af valutakurser
+## Regulering af valutakurser
 
 Fordi valutakurser svinger hele tiden, skal ekstra valutaer i systemet reguleres med jævne mellemrum. Hvis der ikke foretages reguleringer, kan de beløb, der er konverterede fra udenlandske (eller ekstra) valutaer, og som er bogførte i regnskabet i RV være vildledende. Derudover skal daglige poster, der er bogført før, en daglig valutakurs angives i programmet, opdateres, efter at de daglige oplysninger om valutakurser angives. Kørslen **Juster valutakurser** bruges til at regulere valutakursen for bogførte kunde-, leverandør- og bankkontoposter. Det kan også opdatere ekstra rapporteringsvalutabeløb i finansposter. Du kan finde flere oplysninger i [Opdatere valutakurser](finance-how-update-currencies.md).
 
-## <a name="setting-up-an-additional-reporting-currency"></a>Oprette en ekstra rapporteringsvaluta.
+## Oprette en ekstra rapporteringsvaluta.
 
 For at konfigurere en ekstra rapporteringsvaluta, skal du følge disse trin:
 
@@ -47,7 +47,7 @@ For at konfigurere en ekstra rapporteringsvaluta, skal du følge disse trin:
 - Angiv metoder til regulering af valutakurser for momsposter.  
 - Aktivér den ekstra rapporteringsvaluta.  
 
-### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Angiv finanskonti til bogføring af valutakursreguleringer
+### Angiv finanskonti til bogføring af valutakursreguleringer  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **valutaer**, og vælg derefter det relaterede link.  
 2. På siden **Valutaer** skal du udfylde følgende felter for den ekstra rapporteringsvaluta.  
@@ -64,7 +64,7 @@ For at konfigurere en ekstra rapporteringsvaluta, skal du følge disse trin:
 
 For hver enkelt finanskonto skal du angive, hvordan bogførte beløb for kontoen skal reguleres, så der tages hensyn til udsving i valutakurserne mellem RV og den ekstra rapporteringsvaluta.  
 
-### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Sådan angives metoden til regulering af valutakurser for alle finanskonti
+### Sådan angives metoden til regulering af valutakurser for alle finanskonti
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoplan**, og derefter vælge det relaterede link.  
 2. På siden **Kontoplan** skal du vælge den relevante konto og derefter vælge handlingen **Rediger**.  
@@ -82,7 +82,7 @@ For hver enkelt finanskonto skal du angive, hvordan bogførte beløb for kontoen
 
 4.  Luk siden **Finanskort**.  
 
-### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Sådan angives metoder til regulering af valutakurser for momsposter
+### Sådan angives metoder til regulering af valutakurser for momsposter
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Finans**, og vælg derefter det relaterede link.  
 2. På siden **Opsætning af Finans** skal du vælge den relevante metode i feltet **Valutakursregulering (moms)**.  
@@ -98,7 +98,7 @@ For hver enkelt finanskonto skal du angive, hvordan bogførte beløb for kontoen
     |**Regul. beløb**|RV-beløbet reguleres for alle kursgevinster eller -tab. Valutakursgevinster eller -tab bogføres i finanskontoen i feltet **Beløb** og i de konti, du angav til gevinster eller tab, i felterne **Realiseret finansgevinstkonto** og **Realiseret finanstabskonto** på siden **Valutaer**.|  
     |**Regul. ekstra valutabeløb**|Den ekstra rapporteringsvaluta reguleres for alle kursgevinster eller -tab. Valutakursgevinster eller -tab bogføres i finanskontoen i feltet **Ekstra valuta (beløb)** og i de konti, du angav til gevinster eller tab, i felterne **Realiseret finansgevinstkonto** og **Realiseret finanstabskonto** på siden **Valutaer**.|  
 
-### <a name="to-activate-the-additional-reporting-currency"></a>Sådan aktiveres den ekstra rapporteringsvaluta
+### Sådan aktiveres den ekstra rapporteringsvaluta  
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Finans**, og vælg derefter det relaterede link.  
 2. På siden **Regnskabsopsætning** skal du vælge feltet **Ekstra rapporteringsvaluta** for at vælge den ekstra valuta, du vil rapportere i.  
 3. Når du forlader feltet, vises der via [!INCLUDE[prod_short](includes/prod_short.md)] en bekræftelsesmeddelelse, der beskriver konsekvensen af at aktivere den ekstra rapporteringsvaluta.  
@@ -124,7 +124,7 @@ Derudover vil beløbene i alle fremtidige poster af samme type være registreret
 > [!NOTE]  
 > Feltet **Ekstra rapporteringsvaluta** vil kun være aktiveret, efter at du har valgt knappen **OK** i kørslen **Reguler eks. rapport.valuta**.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opdatere valutakurser](finance-how-update-currencies.md)  
 [Lukke år og perioder](year-close-years-periods.md)  

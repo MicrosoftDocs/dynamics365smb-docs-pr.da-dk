@@ -10,7 +10,7 @@ ms.search.form: '9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000
 ms.date: 06/22/2021
 ms.author: bholtorf
 ---
-# <a name="set-up-shop-calendars"></a>Konfigurere produktionskalendere
+# Konfigurere produktionskalendere
 
 En arbejdscenter- eller produktionsressourcekalender angiver de arbejdsdage og -timer, arbejdsskift, fridage og det fravær, der bestemmer arbejdscentrets tilgængelige bruttokapacitet, målt i tid, i henhold til centrets definerede værdier for effektivitet og kapacitet.
 
@@ -18,7 +18,7 @@ Som grundlag for at beregne en bestemt arbejdscenter- eller produktionsressource
 
 Nedenstående beskrives, hvordan du opretter arbejdscenterkalendere. Trinene er de samme som ved oprettelse af produktionsressourcekalendere.  
 
-## <a name="to-create-work-shifts"></a>Sådan oprettes arbejdsskift
+## Sådan oprettes arbejdsskift  
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Arbejdsskift**, og vælg derefter det relaterede link.  
 2.  Angiv på en tom linje et tal i feltet **Kode** for at identificere arbejdsskiftet, f.eks. **1**.  
 3.  Beskriv arbejdsskiftet i feltet **Beskrivelse**, f.eks. **Første skift**.  
@@ -26,7 +26,7 @@ Nedenstående beskrives, hvordan du opretter arbejdscenterkalendere. Trinene er 
 
 Selvom arbejdscentrene ikke arbejder i forskellige arbejdsskift, skal du angive mindst én arbejdsskiftkode.  
 
-## <a name="to-set-up-a-shop-calendar"></a>Sådan oprettes en produktionskalender
+## Sådan oprettes en produktionskalender  
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **produktionskalendere**, og vælg derefter det relaterede link.  
 2.  Angiv på en tom linje et tal i feltet **Kode** for at identificere produktionskalenderen.  
 3.  Beskriv produktionskalenderen i feltet **Beskrivelse**.  
@@ -60,7 +60,7 @@ De definerede fridage har ingen tilgængelig kapacitet i en arbejdscenterkalende
 
 Produktionskalenderen kan nu knyttes til et arbejdscenter for at beregne den arbejdscenterkalender, der skal styre alle operationsplaner i løbet af tiden på arbejdscentret.  
 
-## <a name="to-calculate-a-work-center-calendar"></a>Sådan beregnes en arbejdscenterkalender
+## Sådan beregnes en arbejdscenterkalender  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **arbejdscentre**, og vælg derefter det relaterede link.
 2. Åbn det arbejdscenter, du vil opdatere.  
@@ -88,7 +88,7 @@ Der er nu oprettet (eller opdateret) kalenderindgange, som viser den tilgængeli
 
 Den beregnede arbejdscenterkalender definerer nu, hvor meget kapacitet der er tilgængelig på dette arbejdscenter. Dette styrer den detaljerede planlægning af operationer, der udføres på arbejdscenter.  
 
-## <a name="to-record-work-center-absence"></a>Sådan registreres fraværet på arbejdscentret
+## Sådan registreres fraværet på arbejdscentret  
 1.  På siden **Arbejdscenterkalender** skal du vælge handlingen **Vis matrix**.
 2. Vælg det arbejdscenter og den kalenderdag, fraværstiden skal registreres for, på siden **Matrix for arbejdscenterkalender**, og klik derefter på handlingen **Fravær**.  
 3.  Definer starttidspunktet, sluttidspunktet og beskrivelsen for dagens fravær på siden **Fravær**. Eksempler:  
@@ -99,7 +99,7 @@ Den beregnede arbejdscenterkalender definerer nu, hvor meget kapacitet der er ti
 
 Kapaciteten på den markerede dag er nu reduceret med den registrerede fraværstid.  
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Konfigurere basiskalendere](across-how-to-assign-base-calendars.md)  
 [Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  

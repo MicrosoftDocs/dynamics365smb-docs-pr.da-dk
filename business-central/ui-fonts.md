@@ -11,20 +11,20 @@ ms.search.form: null
 ms.date: 11/30/2021
 ms.author: bholtorf
 ---
-# <a name="available-fonts"></a>Tilgængelige skrifttyper
+# Tilgængelige skrifttyper
 
 Onlineversionen af [!INCLUDE[prod_short](includes/prod_short.md)] indeholder forudinstallerede skrifttyper på de servere, der kan bruges ved generering af rapporter. I følgende afsnit beskrives de tilgængelige skrifttyper.
 
 > [!NOTE]
 > Af hensyn til sikkerheden og af juridiske årsager kan du ikke overføre brugerdefinerede skrifttyper til [!INCLUDE[prod_short](includes/prod_short.md)]-miljøet.
 
-## <a name="document-fonts"></a>Dokumentskrifttyper
+## Dokumentskrifttyper
 
 Følgende skrifttyper er installeret og tilgængelige til brug i Excel, Word og RDLC-dokumentrapporter:
  
 Angsana New, AngsanaUPC, Arial, Arial Black, Bahnschrift, Bahnschrift Condensed, Bahnschrift Light, Bahnschrift Light Condensed, Bahnschrift Light SemiCondensed, Bahnschrift SemiBold, Bahnschrift SemiBold Condensed, Bahnschrift SemiBold SemiConden, Bahnschrift SemiCondensed, Bahnschrift SemiLight, Bahnschrift SemiLight Condensed, Bahnschrift SemiLight SemiConde, Batang, BatangChe, Browallia New, BrowalliaUPC, Calibri, Calibri Light, Cambria, Cambria Math, Candara, Candara Light, Comic Sans MS, Consolas, Constantia, Corbel, Corbel Light, Cordia New, CordiaUPC, Courier New, DilleniaUPC, Dotum, DotumChe, E-13B, Ebrima, EucrosiaUPC, Franklin Gothic Medium, FreesiaUPC, Gabriola, Gadugi, Georgia, Gulim, GulimChe, Gungsuh, GungsuhChe, Impact, Ink Free, IrisUPC, JasmineUPC, Javanese Text, Khmer UI, KodchiangUPC, Latha, Leelawadee, Leelawadee UI, Leelawadee UI Semilight, LilyUPC, Lucida Console, Lucida Sans Unicode, Malgun Gothic, Malgun Gothic Semilight, Marlett, MICR, Microsoft Himalaya, Microsoft JhengHei, Microsoft JhengHei Light, Microsoft JhengHei UI, Microsoft JhengHei UI Light, Microsoft New Tai Lue, Microsoft PhagsPa, Microsoft Sans Serif, Microsoft Tai Le, Microsoft YaHei, Microsoft YaHei Light, Microsoft YaHei UI, Microsoft YaHei UI Light, Microsoft Yi Baiti, MingLiU, MingLiU-ExtB, MingLiU_HKSCS, MingLiU_HKSCS-ExtB, Mongolian Baiti, MS Gothic, MS PGothic, MS UI Gothic, MV Boli, Myanmar Text, Nirmala UI, Nirmala UI Semilight, NSimSun, OCRB, Palatino Linotype, PMingLiU, PMingLiU-ExtB, Segoe MDL2 Assets, Segoe Print, Segoe Script, Segoe UI, Segoe UI Black, Segoe UI Emoji, Segoe UI Historic, Segoe UI Light, Segoe UI Semibold, Segoe UI Semilight, Segoe UI Symbol, Shonar Bangla, SimSun, SimSun-ExtB, Sitka Banner, Sitka Display, Sitka Heading, Sitka Small, Sitka Subheading, Sitka Text, Sylfaen, Symbol, Tahoma, Times New Roman, Trebuchet MS, Verdana, Vijaya, Webdings, Wingdings, Yu Gothic, Yu Gothic Light, Yu Gothic Medium, Yu Gothic UI, Yu Gothic UI Light, Yu Gothic UI Semibold, Yu Gothic UI Semilight
 
-## <a name="fonts-for-checks"></a>Skrifttyper til checks
+## Skrifttyper til checks
 
 MICR-skrifttyper (Magnetic Ink Character Recognition) er installeret og klar til brug. Både E-13B- og CMC-7-standarder understøttes.  
 
@@ -32,7 +32,7 @@ Ud over MICR-skrifttyper er særlige sikkerhedsskrifttyper tilgængelige, så du
 
 Du kan finde flere oplysninger i [Vælge et checklayout](finance-how-define-check-layouts.md).  
 
-## <a name="fonts-for-barcodes"></a>Skrifttyper til stregkoder
+## Skrifttyper til stregkoder
 De skrifttyper, der bruges til at oprette stregkoder, er installeret og tilgængelige til brug i både Word-og RDLC-rapportlayout.
 
 Følgende endimensionelle stregkode-symbologier understøttes:
@@ -52,7 +52,7 @@ Følgende todimensionelle stregkode-symbologier understøttes:
 
 Du kan finde flere oplysninger i [Stregkodeskrifttyper i Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administration af rapportlayout](ui-manage-report-layouts.md)  
 [Vælge et checklayout](finance-how-define-check-layouts.md)  

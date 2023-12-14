@@ -1,21 +1,23 @@
 ---
 title: Opdatere valutakurser (indeholder video)
-description: Hvis du sporer beløb i forskellige valutaer kan Business Central hjælpe med at regulere valutakurser.
+description: 'Få mere at vide om, hvordan du kan bruge Business Central til at justere valutakurser i forskellige valutaer.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
 ms.search.keywords: 'multiple currencies, adjust exchange rates, FX rates'
 ms.search.form: '5, 118'
-ms.date: 09/07/2023
-ms.author: bholtorf
+ms.date: 11/13/2023
+ms.custom: bap-template
 ---
 # Opdatere valutakurser
 
-Du kan f. eks. definere forskellige valutaer i [!INCLUDE [prod_short](includes/prod_short.md)], hvis du f. eks. handler i andre valutaer end den lokale valuta. For at hjælpe dig med at holde styr på ændringer i valutakurserne kan du administrere valutaerne manuelt, eller du kan oprette en valutakurs service.
+Hvis du handler i forskellige valutaer, skal du holde styr på ændringerne i valutakurserne. [!INCLUDE [prod_short](includes/prod_short.md)] hjælper dig med at holde styr på og opdatere valutakurserne manuelt eller automatisk og med at oprette en valutakurstjeneste.
 
 ## Valutaer
 
 > [!TIP]  
-> Hvis du leder efter realtidsoplysninger om valutakurser (fx) eller historiske kurser, omtales de som valuta i [!INCLUDE[prod_short](includes/prod_short.md)]. Udover denne artikel kan du også se [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md).
+> Du kan finde realtidsoplysninger om valutakurser (fx) eller historiske kurser under termen valuta i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md).
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
@@ -31,13 +33,13 @@ Valutakurserne er værktøjet til beregning af den lokale valutaværdi (RV) for 
 
 |Felt|Beskrivelse|  
 |---------------------------------|---------------------------------------|  
-|**Startdata**|Den dato, hvor valuta kursen blev effektueret|  
-|**Valutakode**|Den valutakode, der er knyttet til denne valutakurs|  
-|**Associeret valutakode**|Hvis valutaen er en del af en trekants beregning, kan den relaterede valutakode oprettes her|  
-|**Valutakursbeløb**|Valutakursbeløbet er den kurs, der skal bruges til den valutakode, der er valgt på linjen. Normalt 1 eller 100|  
+|**Startdato**|Den dato, hvor valuta kursen blev gældende.|  
+|**Valutakode**|Den valutakode, der er knyttet til denne valutakurs.|  
+|**Associeret valutakode**|Hvis valutaen er en del af en trekants beregning, kan den relaterede valutakode oprettes her.|  
+|**Valutakursbeløb**|Valutakursbeløbet er den kurs, der skal bruges til den valutakode, der er valgt på linjen. Normalt 1 eller 100.|  
 |**Associeret valutakursbeløb**|Det forholdsmæssige valutakursbeløb er den kurs, der skal bruges til den forholdsmæssige valutakode.|  
-|**Regul. valutakursbeløb**|Det regulerede valutakursbeløb er den kurs, der skal bruges til den valutakode, der er valgt på linjen til brug af kørslen **Kursreguler. valutabeholdninger**.|  
-|**Ass. regul. valutakursbeløb**|Det forholdsmæssige regulerede valutakursbeløb er den kurs, der skal bruges til den valutakode, der er valgt på linjen til brug af kørslen **Kursreguler. valutabeholdninger**.|  
+|**Regul. valutakursbeløb**|Den valutakode, der er valgt på linjen til brug af kørslen **Kursregulering af valutabeholdninger**.|  
+|**Ass. regul. valutakursbeløb**|Den valutakode, der er valgt på linjen til brug af kørslen **Kursregulering af valutabeholdninger**.|  
 |**Fastsæt valutakursbeløb**|Angiver, om valutaens kurs kan ændres på fakturaer og kladdelinjer.|  
 
 Generelt bruges værdierne i felterne **Valutakursbeløb** og **Associeret valutakursbeløb** som standardvaluta kurs på alle nye tilgodehavender og skyldige dokumenter, der er oprettet frem. Dokumentet tildeles valutakurserne i overensstemmelse med den aktuelle arbejdsdato.  
@@ -54,14 +56,14 @@ Reguleringsvalutakursbeløbet for reguleringsvalutakursen eller relations-regule
 >
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
-## Valutakurser reguleres
+## Regulere valutakurser
 
 Fordi valutakurser svinger hele tiden, skal andre valutaer i systemet reguleres med jævne mellemrum. Hvis du ikke gør det, kan beløb, som du har omregnet fra udenlandske (eller andre) valutaer og bogført i finansregnskabet i lokal valuta, være forkerte. Du skal desuden opdatere daglige poster, der er bogført, før du angiver en daglig valutakurs.
 
-Brug **Juster valutakurser** til at regulere valutakursen manuelt for bogførte kunde-, leverandør- og bankkontoposter. Kørslen opdaterer også opdatere andre rapporteringsvalutabeløb i finansposter.  
+Du kan bruge **Juster valutakurser** til at regulere valutakursen manuelt for bogførte kunde-, leverandør- og bankkontoposter. Kørslen opdaterer også opdatere andre rapporteringsvalutabeløb i finansposter.  
 
 > [!TIP]
-> Du kan bruge en service til automatisk at opdatere valutakurser i systemet. Du kan finde flere oplysninger i [Sådan konfigureres en valutakurstjeneste](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Dette regulerer imidlertid ikke valutakurser for allerede bogførte transaktioner. Hvis du vil opdatere valutakurser for bogførte poster, skal du bruge kørslen **Kursreguler valutabeholdninger**.
+> Du kan bruge en service til automatisk at opdatere valutakurser i systemet. Du kan finde flere oplysninger i [Sådan konfigureres en valutakurstjeneste](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service). Dette regulerer imidlertid ikke valutakurser for allerede bogførte transaktioner. Hvis du vil opdatere valutakurser for bogførte poster, skal du bruge kørslen **Kursreguler valutabeholdninger**.
 
 Du kan også angive, hvordan dimensioner for justeringerne håndteres for gevinst-og tabs posteringer ved at vælge en af følgende indstillinger i feltet **Overfør bogføring**:  
 
@@ -79,7 +81,7 @@ Du kan også angive, hvordan dimensioner for justeringerne håndteres for gevins
 
 Du kan få vist den effekt, som en justering af en valutakurs har ved bogføring, inden du bogfører ved at vælge **Forhåndsversion** på siden **Justering af kursvalutaer** (Report 596). På anmodningssiden kan du angive, hvad der skal medtages i eksemplet:
 
-* Hent en detaljeret bogføring på en finanspost efter bogføring
+* Hent en detaljeret bogføring på en finanspost efter bogføring.
 * Få en opsummeret bogføring efter valuta. Du skal blot vælge feltet **Reguler pr. post** i rapporten **Regulering af valutakurser**.
 
 ### Indflydelse på debitorer og kreditorer
@@ -102,7 +104,7 @@ Reguleringsposterne for bankkontoens finanskonto og for gevinst-/tabskontoen til
 
 ### Indflydelse på finanskonti
 
-Hvis du bogfører i en anden rapporteringsvaluta, kan kørslen oprette nye finansposter for kursreguleringer mellem den lokale valutaer og andre rapporteringsvalutaer. Kørslen beregner forskellene for hver finanspost og regulerer finansposterne, afhængigt af oplysningerne i feltet **Valutakursregulering** for hver finanskonto.
+Hvis du bogfører i en anden rapporteringsvaluta, kan kørslen oprette nye finansposter for kursreguleringer mellem den lokale valutaer og andre rapporteringsvalutaer. Batchjobbet beregner forskellene for hver hovedbogspost. Det beregner kladdeposten på finansbogholderiet, afhængigt af oplysningerne i feltet **Valutakursregulering** for hver finanskonto.
 
 #### Dimensioner for finanskontoposter
 
@@ -113,7 +115,7 @@ Reguleringsposterne tildeles standarddimensionerne fra de konti, de bogføres p�
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
-## Sådan konfigureres en valutakurstjeneste
+## Konfigurere en valutakurstjeneste
 
 Du kan bruge en ekstern tjeneste til at holde dine valutakurser opdateret, f.eks. FloatRates. 
 
@@ -132,12 +134,12 @@ Du kan bruge en ekstern tjeneste til at holde dine valutakurser opdateret, f.eks
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
-## Sådan opdateres valutakurser fra en tjeneste
+## Opdater valutakurser fra en tjeneste
+
+Følg trinene for at opdatere valutakurserne gennem en tjeneste:
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **valutaer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Opdater valutakurser**.
-
-Værdien i feltet **Valutakurs** på siden **Valutaer** opdateres med den seneste valutakurs.
 
 ## Ret fejl
 
@@ -148,11 +150,12 @@ Nu og da skal du muligvis rette en fejl i en betalingstransaktion, der er forbun
 
 ## Se også
 
+## Se også
+
 [valutaer i Business Central](finance-currencies.md)  
 [Definere valutaer](finance-set-up-currencies.md)  
 [Konfigurere en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md)  
 [Afslutning af år og perioder](year-close-years-periods.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

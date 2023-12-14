@@ -12,7 +12,7 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-non-deductible-vat"></a>Oprette ikke-fradragsberettiget moms
+# Oprette ikke-fradragsberettiget moms
 
 Moms uden fradragsberettiget moms er den moms, der skal betales af en indkøber, men som ikke er fradragsberettiget for køberens eget momsansvar. Virksomheder kan som regel genoprette moms på køb af varer og tjenester, der vedrører deres forretningsaktiviteter. I nogle situationer er en virksomhed, der er inddraget moms, men som ikke er fradragsberettiget. Disse situationer vedrører typisk de lokale forskrifter og kan variere fra land/område til land/område. Modellen til brug af ikke-fradragsberettiget eller delvist fradragsberettiget moms er den samme. Du kan bruge proportional moms til at beregne moms, når der er fradragsberettiget og ikke-fradragsberettiget moms.
 
@@ -24,9 +24,9 @@ Generelt kan moms ikke fratrækkes for nogle indkøb pga. følgende faktorer:
 Da det kan være svært at vide, hvor og hvordan en vare anvendes, skal du kontakte de lokale skattemyndigheder i dit land/område for at finde ud af, om en bestemt procent af momsen fradrages i forhold til historiske data. 
 
 > [!IMPORTANT]
-> Denne globale funktion er tilgængelig i alle lande med aktiveret moms, **bortset fra Belgien, Italien, Norge og Spanien**. Disse lokaliteter har allerede eksisterende lokal funktionalitet og opgraderes fremover. Du skal ikke køre denne funktion i disse lande, da opgraderingsproceduren ikke findes.
+> Denne globale funktion er tilgængelig i alle lande med aktiveret moms, **bortset fra Belgien, Italien og Norge**. Disse lokaliteter har allerede eksisterende lokal funktionalitet og opgraderes fremover. Du skal ikke køre denne funktion i disse lande, da opgraderingsproceduren ikke findes.
 
-## <a name="use-non-deductible-vat"></a>Bruge ikke-fradragsberettiget moms
+## Bruge ikke-fradragsberettiget moms
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 3.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Konfiguration af VAT** og vælg derefter det relaterede link.
 2. Vælg afkrydsningsfeltet **Aktiver ikke-fradragsberettiget moms**.
@@ -41,7 +41,7 @@ Da det kan være svært at vide, hvor og hvordan en vare anvendes, skal du konta
     3. Marker afkrydsningsfeltet **Brug af sagsomkostninger** for at angive, at den ikke-fradragsberettigede moms skal lægges til sagsomkostninger, når du køber varer til sagen. Ellers vil den ikke-fradragsberettigede moms ikke have indflydelse på jobomkostningerne, og hele beløbet registreres kun på finansniveau.
     4. Marker afkrydsningsfeltet **Vis ikke-fra. moms i linjer** for at angive, at den ikke-fradragsberettigede moms skal vises på dokumentlinje sider for at gøre det nemmere at manipulere momsbeløb.
 
-## <a name="use-the-non-deductible-vat-percentage"></a>Brug den ikke-fradragsberettigede momsprocent
+## Brug den ikke-fradragsberettigede momsprocent
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 3.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Momsbogf.opsætning**, og vælg derefter det relaterede link.
 2. På siden **Momsbogf.opsætning** skal du udfylde felterne som beskrevet i følgende tabel.
@@ -62,7 +62,7 @@ Da det kan være svært at vide, hvor og hvordan en vare anvendes, skal du konta
 >
 > Undlad at bruge den samme **Moms-id**-værdi for både normal moms, hvor feltet **Ikke-fradragsberettiget momsprocent** er indstillet til **0** (nul) og normal moms, hvor feltet **Ikke-fradragsberettiget momsprocent** er indstillet til en anden værdi end nul. Ellers vil det samlede ikke-fradragsberettigede momsbeløb blive beregnet forkert.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Økonomistyring](finance.md)  
 [Designoplysninger: Ikke-fradragsberettiget moms](design-details-nondeductible-vat.md)  
