@@ -10,7 +10,7 @@ ms.search.form: null
 ms.date: 11/02/2023
 ms.author: bholtorf
 ---
-# Gemme og tilpasse listevisninger
+# <a name="save-and-personalize-list-views"></a>Gemme og tilpasse listevisninger
 
 Når du har indstillet et filter på en liste, og du vil beholde filteret til senere brug, kan du gemme det som en visning. Du kan finde flere oplysninger om filtrering af lister i [Indstille filtre på lister](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
@@ -18,7 +18,7 @@ Hvis der findes visninger, vises gruppen **Visninger** øverst i filterruden. Vi
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## Sådan gemmes en visning
+## <a name="to-save-a-view"></a>Sådan gemmes en visning
 
 1. Åbn en listeside.
 2. Vælg ![Ikonet Filterrude.](media/open-filter-pane-icon.png "Ikonet Filterrude") øverst på listen eller ved at trykke på <kbd>Skift</kbd>+<kbd>F3</kbd> for at åbne filterruden.
@@ -34,16 +34,16 @@ Hvis du ikke tildeler et navn, får visningen navnet **Alle (kopi)**.
 > [!TIP]
 > Ikke se ikonet ![Gem visning](media/save_view_icon.png "Gem visning")? Du kan finde flere oplysninger i [Hvorfor ikke nogen har et Gem-ikon](/dynamics365/business-central/ui-views-faq#save).
 
-## Sådan omdøbes eller fjernes en visning
+## <a name="to-rename-or-remove-a-view"></a>Sådan omdøbes eller fjernes en visning
 
 1. I forbindelse med den visning, der vises over listen, skal du vælge ![Vis flere indstillinger.](media/show-more-options-icon.png "Vis flere indstillinger") ikon for at se, hvilke indstillinger der er tilgængelige.
 2. Vælg enten handlingen **Omdøb** eller handlingen **Fjern**.
 
-## Administrere mange visninger
+## <a name="managing-many-views"></a>Administrere mange visninger
 
 Efterhånden som antallet af visninger på en side vokser, kan du få brug for yderligere styring med, hvordan visninger præsenteres i filterruden. Med banneret **Tilpas** kan du skjule uønskede visninger eller ændre rækkefølgen af visningerne. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Ofte stillede spørgsmål om listevisninger](ui-views-faq.yml)  
 [Tilpasse dit arbejdsområde](ui-personalization-user.md)    

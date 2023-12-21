@@ -10,7 +10,7 @@ ms.search.keywords: 'customer payment, debtor, balance due, AR'
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# Administrere tilgodehavender
+# <a name="managing-receivables"></a>Administrere tilgodehavender
 
 Almindelige trin i en økonomisk cyklus er at udligne bankkonti, hvilket indebærer, at du udligner indgående betalinger til debitor- eller kreditorposter for at lukke salgsfakturaer og købskreditnotaer som betalte.
 
@@ -41,7 +41,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Angive en tolerance, som systemet lukker en faktura efter, også selvom betalingen, inklusive eventuel rabat, ikke fuldt ud dækker beløbet på fakturaen.|[Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Forudsige, hvornår betalinger bliver foretaget for salgsdokumenter. | [Forudsigelse af forsinket betaling-udvidelsen](ui-extensions-late-payment-prediction.md) |
 
-## Se også
+## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

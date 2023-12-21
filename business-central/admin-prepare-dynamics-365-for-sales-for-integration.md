@@ -8,7 +8,7 @@ ms.date: 09/28/2023
 ms.author: bholtorf
 ms.custom: bap-template
 ---
-# Integration med Dynamics 365 Sales
+# <a name="integrating-with-dynamics-365-sales"></a>Integration med Dynamics 365 Sales
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -17,7 +17,7 @@ Rollen Sælger betragtes ofte som et af de mest udadvendte i en virksomhed. Det 
 > [!NOTE]
 > Dette emne beskriver processen med at integrere onlineversionerne af [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Du kan finde oplysninger om konfiguration af det lokale miljø under [Forberede Dynamics 365 Sales til integration i det lokale miljø](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
-## Integration via Dataverse
+## <a name="integrating-through-dataverse"></a>Integration via Dataverse
 
 Med henblik på at gøre det lettere at oprette forbindelse og synkronisere data med andre Dynamics 365-programmer, kan [!INCLUDE[prod_short](includes/prod_short.md)] også integreres med [!INCLUDE[prod_short](includes/cds_long_md.md)]. Du kan f. eks. oprette forbindelse til [!INCLUDE[crm_md](includes/crm_md.md)] eller endda apps, som du selv bygger. Hvis det er første gang, du integrerer, skal du gøre det ved hjælp af [!INCLUDE[prod_short](includes/cds_long_md.md)]. Få flere oplysninger i [Integration med Dataverse](admin-common-data-service.md).
 
@@ -26,11 +26,11 @@ Hvis du allerede har integreret [!INCLUDE[crm_md](includes/crm_md.md)] med [!INC
 > [!NOTE]
 > Hvis du genopretter forbindelsen via [!INCLUDE[prod_short](includes/cds_long_md.md)], anvendes standardindstillingerne for synkroniseringen, og alle konfigurationer, du har angivet, tilsidesættes. Standard-tabeltilknytningerne anvendes for eksempel.
 
-## Integrationsindstillinger, der er specifikke for en [!INCLUDE[crm_md](includes/crm_md.md)]-integration
+## <a name="integration-settings-that-are-specific-to-a--integration"></a>Integrationsindstillinger, der er specifikke for en [!INCLUDE[crm_md](includes/crm_md.md)]-integration
 
 Integration med [!INCLUDE[prod_short](includes/prod_short.md)] foregår via [!INCLUDE[prod_short](includes/cds_long_md.md)], og der er mange standardindstillinger og -tabeller, som stilles til rådighed af integrationen. Ud over standardindstillingerne er der nogle, der er specifikke for [!INCLUDE[crm_md](includes/crm_md.md)]. I følgende afsnit vises disse indstillinger.
 
-## Tilladelser og sikkerhedsroller for brugerkonti i Sales
+## <a name="permissions-and-security-roles-for-user-accounts-in-sales"></a>Tilladelser og sikkerhedsroller for brugerkonti i Sales
 
 Når du installerer integrationsløsningen, konfigureres tilladelser til integrationsbrugerkontoen. Hvis disse tilladelser ændres, skal du muligvis nulstille dem. Det kan du gøre ved at geninstallere integrationsløsningen ved at vælge **Geninstaller integrationsløsning** på siden **Opsætning af Dynamics 365-forbindelse**. Følgende sikkerhedsroller installeres:
 
@@ -38,7 +38,7 @@ Når du installerer integrationsløsningen, konfigureres tilladelser til integra
 * Dynamics 365 Business Central-integrationsbruger
 * Dynamics 365 Business Central-produkttilgængelighedsbruger
 
-### Forbindelsesindstillinger i installationsvejledningen
+### <a name="connection-settings-in-the-setup-guide"></a>Forbindelsesindstillinger i installationsvejledningen
 
 Du kan bruge en assisteret opsætningsvejledning til at konfigurere forbindelsen hurtigt og angive avancerede funktioner som f.eks. sammenkædning mellem poster.
 
@@ -56,7 +56,7 @@ Du kan bruge en assisteret opsætningsvejledning til at konfigurere forbindelsen
 | **Dynamics 365 SDK-version** | Det er kun relevant, hvis du integrerer med en lokal version af [!INCLUDE[crm_md](includes/crm_md.md)]. Denne SDK er det Dynamics 365 software development kit (også kaldet Xrm), du bruger til at forbinde [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]. Versionen skal være kompatibel med den version af SDK, som bruges af [!INCLUDE[crm_md](includes/crm_md.md)], og være lig med eller nyere end den version, der bruges af [!INCLUDE[crm_md](includes/crm_md.md)]. |
 |**Tovejs synkronisering af salgsordrer**|Synkronisere salgsordrer i begge retninger. Du kan få mere at vide om denne indstilling ved at gå til [Enkelt og tovejssynkronisering af salgsordrer](#single-and-bi-directional-synchronization-of-sales-orders).<br><br>**Bemærk:** Du kan ikke bruge denne indstilling, hvis du bruger indstillingen **Aktivér integration af ældre salgsordrer**. De to indstillinger udelukker hinanden.|
 
-### Forbindelsesindstillinger på siden Microsoft Dynamics 365-konfiguration af forbindelse
+### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page"></a>Forbindelsesindstillinger på siden Microsoft Dynamics 365-konfiguration af forbindelse
 
 Indtast følgende oplysninger vedrørende forbindelsen fra [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -75,9 +75,9 @@ Udover indstillingerne ovenfor skal du angive følgende indstillinger for [!INCL
 | **Behandl salgstilbud automatisk** | Behandl et salgstilbud i [!INCLUDE[prod_short](includes/prod_short.md)], når en bruger opretter og aktiverer et i [!INCLUDE[crm_md](includes/crm_md.md)]. Der er flere oplysninger i [Håndtere data i salgstilbud](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
 |**Tovejs synkronisering af salgsordrer**|Synkronisere salgsordrer i begge retninger. Du kan få mere at vide om denne indstilling ved at gå til [Enkelt og tovejssynkronisering af salgsordrer](#single-and-bi-directional-synchronization-of-sales-orders).|
 <!--
-### User Account Settings
+### <a name="user-account-settings"></a>User Account Settings
 Integration with Business Central through Dataverse requires an administrator user account and an account that is used only for the connection between the apps. This account is called the "integration user." When you install the CDS Base Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].  -->
-### Enkelt- og tovejs synkronisering af salgsordrer
+### <a name="single-and-bi-directional-synchronization-of-sales-orders"></a>Enkelt- og tovejs synkronisering af salgsordrer
 
 Når du konfigurerer integrationen, enten i opsætningsvejledningen eller på siden Microsoft Dynamics 365-forbindelseskonfiguration, er der indstillinger, der styrer, i hvilken retning du synkroniserer salgsordrer, og hvordan du sender dem.
 
@@ -97,7 +97,7 @@ Vil du bruge denne indstilling, skal du angive legitimationsoplysninger for en a
 
 For begge indstillinger [!INCLUDE [prod_short](includes/prod_short.md)] vises alle salgsordrer med statussen **Sendt** på siden **Ordrer - Microsoft Dynamics 365 Sales**.
 
-### Standardenhedstilknytning i Sales til synkronisering
+### <a name="standard-sales-entity-mapping-for-synchronization"></a>Standardenhedstilknytning i Sales til synkronisering
 
 Objekter i [!INCLUDE[crm_md](includes/crm_md.md)], f.eks. ordrer, er integreret med tabeller af samme type i [!INCLUDE[prod_short](includes/prod_short.md)], som f.eks. salgsordrer. For at arbejde med [!INCLUDE[crm_md](includes/crm_md.md)]-data, opretter du links, kaldet sammenkædninger mellem tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
 
@@ -122,7 +122,7 @@ Følgende tabel viser standardtilknytningen mellem tabeller i [!INCLUDE[prod_sho
 > [!NOTE]
 > Tilknytningerne for enheds-, ressource enheds-og enhedsgruppe tabeller er kun tilgængelige, hvis administratoren har aktiveret **Funktionsopdatering: Synkronisering af flere enheder med funktionen Dynamics 365 Sales** på siden **Funktionsadministration**. Du kan finde flere oplysninger i [Synkronisere varer og ressourcer med produkter i forskellige enheder](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
 
-## Synkronisere varer og ressourcer med produkter med forskellige måleenheder
+## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Synkronisere varer og ressourcer med produkter med forskellige måleenheder
 
 Virksomheder opretter eller køber ofte varerne i en enhed og sælger dem i en anden. Hvis du vil synkronisere varer, der bruger flere enheder, skal du aktivere **Funktionsopdatering: Synkronisering af flere enheder med brug af Dynamics 365 Sales** på siden **Funktionsadministration**. 
 
@@ -132,7 +132,7 @@ Når du aktiverer funktionsopdatering, oprettes der en ny enhedsgruppe tabel, so
 
 Du kan oprette flere måleenheder for hver enhedsgruppe og tildele grupper til produkter i [!INCLUDE[crm_md](includes/crm_md.md)]. Derefter kan du synkronisere produkterne med varer og ressourcer i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan manuelt koble vareenheder eller ressourceenheder til en enhedsgruppe. Hvis du gør det, vil enhedsgruppen for varen eller ressourcen ikke være koblet til en enhedsgruppe i [!INCLUDE[crm_md](includes/crm_md.md)], f. eks. fordi enhedsgruppen ikke eksisterer, [!INCLUDE[prod_short](includes/prod_short.md)] opretter enhedsgruppen automatisk i [!INCLUDE[crm_md](includes/crm_md.md)].
 
-### Tilknytning af varer og ressourcer til produkter
+### <a name="mapping-items-and-resources-to-products"></a>Tilknytning af varer og ressourcer til produkter
 
 Når du aktiverer **Funktionsopdatering: Synkronisering af flere måleenheder med Dynamics 365 Sales**, sker der følgende:
 
@@ -165,7 +165,7 @@ I følgende trin beskrives trinnene til start af tilknytning af enhedsgrupper:
 5. Vælg tilknytningen **VARE-PRODUKT**, og vælg derefter knappen **Genstart**. En genstart opretter nye produkter ud fra varerne i [!INCLUDE[crm_md](includes/crm_md.md)], og der tildeles en ny enhedsgruppe, der er specifik for varen.
 6. Vælg tilknytningen **RESSOURCEPRODUKT**, og vælg derefter knappen **Genstart**. En genstart opretter nye produkter ud fra ressourcerne i [!INCLUDE[crm_md](includes/crm_md.md)], og der tildeles en ny enhedsgruppe, der er specifik for ressourcerne.
 
-### Synkroniseringsregler
+### <a name="synchronization-rules"></a>Synkroniseringsregler
 
 Følgende tabel viser de regler, der styrer synkroniseringen mellem [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)]. Disse regler er foruden de regler, der er defineret for Dataverse, der også gælder. Få flere oplysninger i [Standardobjekttilknytning](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
@@ -183,7 +183,7 @@ Følgende tabel viser de regler, der styrer synkroniseringen mellem [!INCLUDE[cr
 |Bogførte salgsfakturaer|Bogførte salgsfakturaer synkroniseres med salgsfakturaer. Før en faktura kan synkroniseres, er det bedre at synkronisere alle andre tabeller, der kan indgå i fakturaen, fra sælgere til prislister. Værdien Sælgerkode i fakturahovedet definerer ejeren af den sammenkoblede tabel i Sales.|
 |Salgsordrer|Når salgsordreintegration er aktiveret, synkroniseres salgsordrer i [!INCLUDE[prod_short](includes/prod_short.md)], der er oprettet fra sendte salgsordrer i [!INCLUDE[crm_md](includes/crm_md.md)], med salgsordrer i [!INCLUDE[crm_md](includes/crm_md.md)], når de frigives. Inden du synkroniserer ordrer, anbefales det, at du først synkroniserer alle de tabeller, der indgår i ordren, f.eks. sælgere og prislister. Feltet Sælgerkode i ordrehovedet definerer ejeren af den sammenkædede tabel i [!INCLUDE[crm_md](includes/crm_md.md)].|
 
-### Synkroniseringsjob for en Sales-integration
+### <a name="synchronization-jobs-for-a-sales-integration"></a>Synkroniseringsjob for en Sales-integration
 
 Jobbene køres i følgende rækkefølge for at undgå sammenkædning af afhængigheder mellem tabeller. Der er flere tilgængelig jobs i Dataverse. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](./admin-job-queues-schedule-tasks.md).
 
@@ -194,7 +194,7 @@ Jobbene køres i følgende rækkefølge for at undgå sammenkædning af afhængi
 5. SALGSPRIS- PRODUKTPRIS – Dynamics 365 Sales-synkroniseringsjob.
 6. BOGFØRTE SALGSFAKTURAER-FAKTURAER – Dynamics 365 Sales-synkroniseringsjob.
 
-### Poster i standardsynkroniseringsjobkø
+### <a name="default-synchronization-job-queue-entries"></a>Poster i standardsynkroniseringsjobkø
 
 Følgende tabel viser standardsynkroniseringsjobbene for [!INCLUDE[crm_md](includes/crm_md.md)].  
 
@@ -208,14 +208,14 @@ Følgende tabel viser standardsynkroniseringsjobbene for [!INCLUDE[crm_md](inclu
 |BOGFØRTE SALGSFAKTURAER-FAKTURAER – Dynamics 365 Sales-synkroniseringsjob|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)] fakturaer med [!INCLUDE[prod_short](includes/prod_short.md)] bogførte salgsfakturaer.|Fra [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|FAKTURAER-BOGFØRTE SALGSFAKTURAER|30|1440<br> (24 timer)|
 |Debitorstatistik - Dynamics 365 Sales-synkroniseringsjob|Opdaterer [!INCLUDE[crm_md](includes/crm_md.md)] konti med seneste [!INCLUDE[prod_short](includes/prod_short.md)] debitordata. I [!INCLUDE[crm_md](includes/crm_md.md)] vises disse oplysninger i **Business Central kontostatistik** i hurtigvisningsformat over konti, der er sammenkædet med [!INCLUDE[prod_short](includes/prod_short.md)]-debitorer.<br /><br /> Disse data skal også opdateres manuelt fra hver debitor-record. Du kan finde flere oplysninger i [Sammenkæd og synkroniser poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Bemærk:**  denne jobkøpost er kun relevant, hvis [!INCLUDE[prod_short](includes/prod_short.md)] integrationsløsningen er installeret i [!INCLUDE[crm_md](includes/crm_md.md)]. |Ikke tilgængelig|Ikke tilgængelig|30|Ikke tilgængelig| 
 
-## Oprette forbindelse til lokale versioner af Business central 2019-udgivelsesbølge 1 og Microsoft Dynamics NAV 2018
+## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Oprette forbindelse til lokale versioner af Business central 2019-udgivelsesbølge 1 og Microsoft Dynamics NAV 2018
 
 Microsoft Power Platform-teamet har [meddelt](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse), at det fraråder Office365-godkendelsestypen. Hvis du bruger en version af [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, der er ældre end Business Central 2019 udgivelsesbølge 1, skal du bruge godkendelsestypen OAuth for at oprette forbindelse til [!INCLUDE[crm_md](includes/crm_md.md)]-online. Fremgangsmåden i dette afsnit beskriver, hvordan du opretter forbindelse til følgende produktversioner:
 
 * Business Central 2019 release wave 1
 * Microsoft Dynamics NAV 2018
 
-### Forudsætninger
+### <a name="prerequisites"></a>Forudsætninger
 
 * Du skal have et Microsoft Azure-abonnement. En prøvekonto kan bruges til registrering af programmer.
 * [!INCLUDE[crm_md](includes/crm_md.md)] er konfigureret til at bruge en af følgende godkendelsestyper:
@@ -227,7 +227,7 @@ Microsoft Power Platform-teamet har [meddelt](/power-platform/important-changes-
 
    * OAuth
 
-### Sådan oprettes forbindelse mellem Business Central 2019 Release Wave 1 og Dynamics NAV 2018
+### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Sådan oprettes forbindelse mellem Business Central 2019 Release Wave 1 og Dynamics NAV 2018
 
 1. Importér Microsoft Dynamics 365 Business Central-integrationsløsningen til dit [!INCLUDE[crm_md](includes/crm_md.md)]-miljø. Integrationsløsningen findes i mappen CrmCustomization på [!INCLUDE[prod_short](includes/prod_short.md)] eller Dynamics NAV 2018 installations-dvd'en. Afhængigt af produktversionen skal du indlæse en af følgende løsninger:
 
@@ -282,7 +282,7 @@ Microsoft Power Platform-teamet har [meddelt](/power-platform/important-changes-
 > [!Note]
 > Hvis du konfigurerer en forbindelse til en [!INCLUDE[crm_md](includes/crm_md.md)] med en forekomst af en bestemt godkendelsestype, skal du udfylde felterne i oversigtspanelet **Detaljer om godkendelsestype**. Du kan finde flere oplysninger i [Godkendelse med Microsoft Dataverse-webtjenester](/powerapps/developer/data-platform/authentication). Dette trin er ikke obligatorisk, når du opretter forbindelse for en onlineversion af [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere brugerkonti til integration med [!INCLUDE[crm_md](includes/crm_md.md)]](admin-setting-up-integration-with-dynamics-sales.md)  
 [Oprette en forbindelse til [!INCLUDE[crm_md](includes/crm_md.md)]](admin-how-to-set-up-a-dynamics-crm-connection.md)  

@@ -12,7 +12,7 @@ ms.date: 11/17/2023
 ms.author: altotovi
 ---
 
-# Indsend momsafgivelser elektronisk
+# <a name="submit-vat-returns-electronically"></a>Indsend momsafgivelser elektronisk
 
 I den danske lokalisering understøtter Microsoft Dynamics 365 Business Central i at bruge Skattestyrelsens VAT API til at indberette momsangivelser (moms).
 
@@ -22,11 +22,11 @@ For at generere en momsangivelse og sende den direkte til Skattestyrelsens VAT A
 - På siden **Opsætning af momsbogføring SAF-T** tilknytter du en opsætning af momsbogføringsgruppe med **Indberetningskode for salgsmoms** og **Købsmomsindberetningskode**.
 - Anskaf certifikater til at arbejde med Skattestyrelsens VAT API, og gem dem i Azure key vault.
 
-## Konfigurere momsreturafsendelse
+## <a name="set-up-vat-return-submission"></a>Konfigurere momsreturafsendelse
 
 Udfør følgende procedurer for at oprette momsangivelse.
 
-### Konfigurere certifikater
+### <a name="set-up-certificates"></a>Konfigurere certifikater
 
 Før du kan begynde opsætningen, skal en administrator konfigurere certifikater.
 
@@ -34,7 +34,7 @@ Før du kan begynde opsætningen, skal en administrator konfigurere certifikater
 2. Vælg **Ny** for at oprette _klientcertifikat_. Dette certifikat er et virksomhedscertifikat (VOCES3), der er udstedt af MitID Erhverv (OCES3). Den skal indeholde en privat nøgle til underskrift.
 3. Vælg **Ny** for at oprette _servercertifikat_. Dette certifikat er et certifikat, som NemVirksomhed udleverer til at verificere svar XML.
 
-### Konfigurer momsangivelser
+### <a name="set-up-vat-statements"></a>Konfigurer momsangivelser
 
 Hvis du vil definere en momsangivelse, skal du gøre følgende.
 
@@ -45,7 +45,7 @@ Hvis du vil definere en momsangivelse, skal du gøre følgende.
 5. Opsæt endepunkter for **VirksomhedKalenderHent**, **ModtagMomsangivelseForeloebig** og **MomsangivelseKvitteringHent**-tjenester. Du kan vælge **Indstil standardslutpunkter** for at få systemet til at køre automatisk. Alternativt kan du foretage opdateringer, hvis standardværdierne ikke længere er brugbare.
 6. Indstil **Klientcertifikatkode** og **Servercertifikatkode** til de certifikater, som du tidligere har oprettet og uploadet på siden **Certificeringer**.
 
-## Brug og indsend en momsangivelse
+## <a name="use-and-submit-a-vat-return"></a>Brug og indsend en momsangivelse
 
 Hvis du vil indsende en momsangivelse, skal du gøre følgende:
 
@@ -60,13 +60,13 @@ Hvis processen er udført korrekt, modtager du meddelelsen "Anmodning er sendt",
 
 Du kan dobbelttjekke anmodningsmeddelelsen til momsangivelsen senere ved at vælge **Hent**.
 
-## Efter indsendelse af momsangivelse
+## <a name="after-a-vat-return-is-submitted"></a>Efter indsendelse af momsangivelse
 
 Du vil ikke altid kende den endelige status, der er bekræftet af myndighederne. Derfor tjekker Business Central løbende **MomsangivelseKvitteringHent**-tjenesten gennem det konfigurerede slutpunkt, for at se efter ethvert svar om indsendte momsangivelser. Hvis et svar er tilgængeligt, modtages det, og status for virksomhedens momsangivelse ændres til **Accepteret** eller **Afvist**.
 
 Du kan downloade en **Svar**-meddelelse ved at vælge **Hent**. Hvis status er **Accepteret**, kan du gemme kvitteringslinket til momsangivelsen.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Økonomistyring](../../finance.md)  
 [Oversigt over momsstyring](../../finance-manage-vat.md)

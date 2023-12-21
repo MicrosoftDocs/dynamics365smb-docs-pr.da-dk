@@ -9,7 +9,7 @@ ms.search.form: '1210, 1211, 1213, 1214, 1215, 1216, 1217'
 ms.date: 11/03/2022
 ms.author: bholtorf
 ---
-# Konfigurere dataudvekslingsdefinitioner
+# <a name="set-up-data-exchange-definitions"></a>Konfigurere dataudvekslingsdefinitioner
 
 Du kan indstille [!INCLUDE[prod_short](includes/prod_short.md)] til at udveksle data i bestemte tabeller med data på eksterne filer. Du kan f.eks. sende og modtage elektroniske dokumenter, importere og eksportere bankoplysninger eller andre data, f.eks. løn og varekataloger. Flere oplysninger i [Udveksle data elektronisk](across-data-exchange.md).  
 
@@ -26,14 +26,14 @@ Denne artikel indeholder følgende procedurer:
 * Eksportér en dataudvekslingsdefinition som en XML-fil, som andre kan bruge.
 * Importér en XML-fil til en eksisterende dataudvekslingsdefinition.
 
-## Oprette en dataudvekslingsdefinition
+## <a name="create-a-data-exchange-definition"></a>Oprette en dataudvekslingsdefinition
 
 Opretter en dataudvekslingsdefinition, der omfatter to opgaver:  
 
 1. På siden **Dataudvekslingsdefinition** skal du beskrive formateringen af linjer og kolonner i filen. Flere oplysninger i [Sådan beskrives formateringen af linjer og kolonner i filen](#formatlinescolumns).  
 2. På siden **Dataudvekslingskobling** skal du knytte kolonner i datafilen til felter i [!INCLUDE[prod_short](includes/prod_short.md)]. Flere oplysninger i [Sådan tilknyttes kolonner i datafilen til felter i [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields).  
 
-### <a name=formatlinescolumns></a>Sådan beskrives formateringen af linjer og kolonner i filen
+### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>Sådan beskrives formateringen af linjer og kolonner i filen
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Dataudvekslingsdefinitioner** og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -108,7 +108,7 @@ Det næste trin i oprettelsen af en definition til udveksling af data er at besl
 > [!NOTE]  
 > Den bestemte tilknytning afhænger af forretningsformålet med den datafil, der skal udveksles, og af lokale variationer. Selv SEPA-bankstandarden har lokale variationer. [!INCLUDE[prod_short](includes/prod_short.md)] understøtter import af SEPA CAMT-bankkontoudtogsfiler out\-of\-the\-box. Dette repræsenteres ved registreringskoden til dataudvekslingsdefinitionen **SEPA CAMT** på siden **Dataudvekslingsdefinitioner**. Du kan finde oplysninger om den specifikke felttilknytning for denne SEPA CAMT-understøttelse i [Feltkobling, når du importerer SEPA-CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name=mapfields></a>Sådan tilknyttes kolonner i datafilen til felter i [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>Sådan tilknyttes kolonner i datafilen til felter i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > Nogle gange er værdierne i de felter, du vil tilknytte, forskellige. For eksempel er sprogkoden for USA i én forretningsapp "U.S.", mens den i den anden er "US". Det betyder, at du skal transformere værdien, når du udveksler data. Dette sker gennem transformationsregler, som du definerer for felterne. Få mere at vide under [Transformationsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
@@ -163,7 +163,7 @@ Du kan også gruppere efter et hvilket som helst felt, bruge nøgleindekset til 
      |**Felt-id**|Angiv nummeret på det felt i den eksterne fil, der bruges til gruppering, og feltet skal angives af brugeren.|
      |**Felttitel**|Angiv titlen på feltet i den eksterne fil, der bruges til gruppering.|
 
-## Transformationsregler
+## <a name="transformation-rules"></a>Transformationsregler
 
 Hvis værdierne i de felter, du tilknytter, er forskellige, skal du bruge transformationsregler til dataudvekslingsdefinitioner for at gøre dem ens. Du kan definere transformationsregler for dataudvekslingsdefinitioner ved at åbne en eksisterende definition eller oprette en ny definition og derefter i oversigtspanelet **Linjedefinitioner** vælge **Administrer** og derefter **Felttilknytning**. Der findes foruddefinerede regler, men du kan også oprette dine egne. I følgende tabel beskrives de typer af transformationer, du kan udføre.
 
@@ -188,7 +188,7 @@ Hvis værdierne i de felter, du tilknytter, er forskellige, skal du bruge transf
 > [!NOTE]  
 > Få mere at vide om formatering af dato og klokkeslæt i [Standarddato- og tidsformatstrenge](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
-### Tip til udviklere: eksempel på brugerdefineret indstilling
+### <a name="tip-for-developers-example-of-the-custom-option"></a>Tip til udviklere: eksempel på brugerdefineret indstilling
 
 Følgende eksempel viser, hvordan du implementerer din egen transformationskode.
 
@@ -206,7 +206,7 @@ codeunit 60100 "Hello World"
 
 Når du har defineret dine regler, kan du teste dem. I oversigtspanelet **Test** skal du angive et eksempel på en værdi, du vil transformere, og derefter kontrollere resultaterne ved at vælge **Opdater**.
 
-## Eksportere en dataudvekslingsdefinition som en XML-fil, som andre kan bruge
+## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Eksportere en dataudvekslingsdefinition som en XML-fil, som andre kan bruge
 
 Når du har oprettet dataudvekslingsdefinitionen for en bestemt datafil, kan du eksportere dataudvekslingsdefinitionen som en XML-fil, som du kan importere. Denne opgave beskrives i følgende fremgangsmåde.  
 
@@ -217,14 +217,14 @@ Når du har oprettet dataudvekslingsdefinitionen for en bestemt datafil, kan du 
 
     Hvis en definition til udveksling af data allerede er oprettet, skal du kun importere XML-filen til Data Exchange Framework. Denne opgave beskrives i følgende fremgangsmåde.  
 
-## Importere en eksisterende dataudvekslingsdefinition
+## <a name="import-an-existing-data-exchange-definition"></a>Importere en eksisterende dataudvekslingsdefinition
 
 1. Gem den XML-fil, der repræsenterer dataudvekslingsdefinitionen i en passende lokation.  
 2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Dataudvekslingsdefinitioner** og vælg derefter det relaterede link.  
 3. Vælg handlingen **Importer dataudvekslingsdefinition**.  
 4. Vælg den fil, du gemte i trin 1.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Opsætning af dataudveksling](across-set-up-data-exchange.md)  
 [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

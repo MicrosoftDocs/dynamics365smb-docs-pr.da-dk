@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7700, 7703, 7704, 7706, 7707, 7710, 9813, 9814'
 ---
-# Brug ADCS (Automated Data Capture Systems)-grundlag
+# <a name="use-automated-data-capture-systems-adcs-foundation"></a>Brug ADCS (Automated Data Capture Systems)-grundlag
 
 > [!Important]
 > ADCS-løsningen (Automated Data Capture System) gør det muligt for [!INCLUDE[prod_short](includes/prod_short.md)] at kommunikere med håndholdte enheder via webtjenester. Du skal arbejde med en Microsoft-partner, som kan sørge for forbindelsen mellem webtjenesten og den håndholdte enhed. 
@@ -25,11 +25,11 @@ Ved opsætningen af miniformularer skal du definere, hvilke oplysninger der skal
 - Tekstoplysninger.  
 - Meddelelser til at vise bekræftelser eller fejl om aktiviteter, der er udført og registreret af brugeren af den håndholdte enhed.
 
-## Sådan aktiveres webtjenester til ADCS
+## <a name="to-enable-web-services-for-adcs"></a>Sådan aktiveres webtjenester til ADCS
 
 Hvis du vil bruge Automated Data Capture System, skal du aktivere ADCS-webtjenesten. Du skal arbejde med en Microsoft-partner, som kan implementere en webtjeneste, der kan forbinde ADCS og en specifik håndholdt enhed. Du kan få mere at vide om webtjenesten til ADCS ved at undersøge codeunit 7714. 
  
-## Sådan opsætter du et lager til brug af ADCS  
+## <a name="to-set-up-a-warehouse-to-use-adcs"></a>Sådan opsætter du et lager til brug af ADCS
 
 Hvis du vil bruge ADCS, skal du angive, hvilke lokationer på lagerstedet der bruger teknologien.  
 
@@ -40,7 +40,7 @@ Hvis du vil bruge ADCS, skal du angive, hvilke lokationer på lagerstedet der br
 2. Vælg et lagersted på listen, som du vil aktivere ADCS for, og vælg derefter handlingen **Rediger**.
 3. På siden **Lokationskort** skal du markere afkrydsningsfeltet **Brug ADCS**.  
 
-## Angive en vare for at bruge ADCS  
+## <a name="to-specify-an-item-to-use-adcs"></a>Angive en vare for at bruge ADCS
 
 Hver vare på lager, du vil bruge sammen med ADCS, skal tildeles en id-kode, som sammenkæder den med dens varenummer. Du kan for eksempel bruge varens stregkode som id-kode. En vare kan også have flere id-koder. Du kan finde dette nyttigt i tilfælde, hvor en vare findes i forskellige enhedskoder såsom stykker og paller. I dette tilfælde skal du tildele en id-kode til hver.
 
@@ -56,7 +56,7 @@ Hver vare på lager, du vil bruge sammen med ADCS, skal tildeles en id-kode, som
 7. Vælg knappen **OK**.  
 8. For at få vist oplysningerne skal du vælge feltet **Id-kode** for at åbne siden **Vare-id'er**.
 
-## Sådan tilføjes en ADCS-bruger  
+## <a name="to-add-an-adcs-user"></a>Sådan tilføjes en ADCS-bruger
 
 Du kan føje brugere til en ADSC. Når du gør dette, skal brugeren angive en adgangskode. Du kan eventuelt også angive en forbindelse, der identificerer ADCS-brugeren som lagermedarbejder. ADCS-brugeradgangskoden kan være forskellig fra deres logonadgangskode. Flere oplysninger i [Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md).
 
@@ -65,7 +65,7 @@ Du kan føje brugere til en ADSC. Når du gør dette, skal brugeren angive en ad
 3. Indtast et navn til brugeren i feltet **Navn**. Navnet må ikke indeholde mere end 20 tegn, inklusive mellemrum.  
 4. Indtast en adgangskode i feltet **Adgangskode**.  
 
-### Sådan angiver du, at en lagermedarbejder er ADCS-bruger  
+### <a name="to-specify-that-a-warehouse-employee-is-an-adcs-user"></a>Sådan angiver du, at en lagermedarbejder er ADCS-bruger
 
 1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
 2. Hvis det er nødvendigt, kan du tilføje en ny lagermedarbejder. Flere oplysninger i [Konfigurere lagerstedsmedarbejdere](warehouse-how-to-set-up-warehouse-employees.md).  
@@ -75,7 +75,7 @@ Du kan føje brugere til en ADSC. Når du gør dette, skal brugeren angive en ad
 > [!NOTE]  
 > Standardlagerstedet for medarbejderen skal være ét, der anvender ADCS.
 
-## Sådan oprettes og tilpasses miniformularer
+## <a name="to-create-and-customize-miniforms"></a>Sådan oprettes og tilpasses miniformularer
 
 Du kan bruge miniformularer til at beskrive de oplysninger, som du vil vise på en håndholdt enhed. Du kan f.eks. oprette miniformularer, der understøtter lageraktiviteten at plukke varer. Når du opretter en miniformular, kan du føje funktioner til den for almindelige handlinger, en bruger udfører med håndholdte enheder, f.eks flytte en linje op eller ned.  
 
@@ -87,7 +87,7 @@ Du kan bruge miniformularer til at beskrive de oplysninger, som du vil vise på 
 > * 7712
 > * 7713  
 
-### Sådan oprettes en miniformular til ADCS  
+### <a name="to-create-a-miniform-for-adcs"></a>Sådan oprettes en miniformular til ADCS
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Miniformularer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -99,14 +99,14 @@ Du kan bruge miniformularer til at beskrive de oplysninger, som du vil vise på 
 
 Når du har oprettet en miniformular, er næste trin at oprette funktioner og knytte funktioner til forskellige tastaturinput.  
 
-### Sådan tilpasses miniformularfunktioner
+### <a name="to-customize-miniform-functions"></a>Sådan tilpasses miniformularfunktioner
 
 1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Miniformularer**, og vælg derefter det relaterede link.  
 2. Vælg en miniformular på listen, og vælg derefter handlingen **Rediger**.  
 3. Vælg handlingen **Funktioner**.  
 4. På rullelisten **Funktionskode** skal du vælge en kode til at repræsentere den funktion, du vil knytte til miniformularen. For eksempel kan du vælge **ESC**, som tilknytter funktionalitet, når der trykkes på **ESC**-tasten.  
 
-## Se også  
+## <a name="see-also"></a>Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

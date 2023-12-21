@@ -11,12 +11,12 @@ ms.search.form: '30, 461'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# Importer flere varebilleder
+# <a name="import-multiple-item-pictures"></a>Importer flere varebilleder
 Du kan importere flere varebilleder på en gang. Navngiv blot dine billedfiler svarende til dine varenumre, komprimer dem til en zip-fil, og benyt siden Importer varebilleder for at styre, hvilke varebilleder, der skal importeres.
 
 Alle standardfilformater er understøttet.
 
-## Navngivning af billedfiler efter varenavne og klargøring af zip-filen
+## <a name="to-name-picture-files-by-the-item-names-and-prepare-the-zip-file"></a>Navngivning af billedfiler efter varenavne og klargøring af zip-filen
 1. Navngiv hver fil i henhold til den pågældende vares nummer på lokationen, hvor du dine varebilleder er gemt. Eksempler:
 
     |Varenr.|Filnavn|
@@ -27,7 +27,7 @@ Alle standardfilformater er understøttet.
 
 2. Saml alle filerne i en zip-fil. F.eks.: I Windows Explorer vælger du filerne, og derefter vælger du **Send til**, **Komprimeret (zipped) mappe**.     
 
-## Importer varebilleder
+## <a name="to-import-item-pictures"></a>Importer varebilleder
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Lager**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Importer billeder**.
 3. Find feltet **Vælg en zip-fil**, vælg den relevante zip-mappe, og vælg dernæst knappen **Åbn**.
@@ -41,7 +41,7 @@ Alle standardfilformater er understøttet.
 
 Feltet **Importstatus** opdateres for at vise, om billedimporten blev annulleret eller gennemført.       
 
-## Se også
+## <a name="see-also"></a>Se også
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Oprette nummerserie](ui-create-number-series.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  

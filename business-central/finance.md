@@ -11,7 +11,7 @@ ms.search.form: '1151, 1166, 9027, 9004'
 ms.date: 12/19/2023
 ms.author: bholtorf
 ---
-# Økonomistyring
+# <a name="financial-management"></a>Økonomistyring
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en standardkonfigurationen for de fleste finansielle processer, men du kan ændre den, så den passer til dine behov. Flere oplysninger i [Konfigurere finans](finance-setup-finance.md).
 
@@ -49,13 +49,13 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Arbejde med regnskabsopgørelser og oversigter i Microsoft Excel. |[Analysere regnskabsopgørelser i Excel](finance-analyze-excel.md) |
 |Lær at bruge rollecenteret Revisor, engagere en ekstern revisor og brug virksomhedshubben til at administrere konti for flere klienter.|[Revisoroplevelser i Business Central](finance-accounting.md)|  
 
-## Tag en videopræsentation
+## <a name="take-a-video-tour"></a>Tag en videopræsentation
 
 Denne video introducerer nogle af de vigtigste funktioner i forbindelse med styring af økonomien. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere Finans](finance-setup-finance.md)  
 [Salg](sales-manage-sales.md)  

@@ -11,7 +11,7 @@ ms.search.form: '9652, 9650'
 ms.date: 08/12/2022
 ms.author: jswymer
 ---
-# Angive det layout, der bruges af en rapport
+# <a name="setting-the-layout-used-by-a-report"></a>Angive det layout, der bruges af en rapport
 
 > **GÆLDER FOR:** Business Central Online, Business Central lokalt 2022 udgivelsesbølge 1 og nyere. Find tidligere versioner [her](ui-how-change-layout-currently-used-report.md).
 
@@ -19,7 +19,7 @@ Et rapportlayout bestemmer en rapports udseende. Det styrer, hvilke datafelter i
 
 Hvis der findes flere firmaer i programmet, angives layouterne for hvert enkelt regnskab. Så den samme rapport i én virksomhed kan have forskellige layout i et andet regnskab.
 
-## Kom i gang
+## <a name="get-started"></a>Kom i gang
 
 Der er et par måder at angive det layout, som en rapport bruges på. Der er fordele ved hver måde, afhængigt af hvad du leder efter: 
 
@@ -36,12 +36,12 @@ Der er et par måder at angive det layout, som en rapport bruges på. Der er for
   > [!NOTE]
   > Du kan ikke bruge siden **Rapportlayout** til Word-og RDLC-layout, der er oprettet med den ældre **brugerdefinerede layout**-funktion. Du kan faktisk ikke se disse brugerdefinerede layout på siden **rapportlayout**. Du kan kun indstille disse layout ved hjælp af siden **Valg af rapportlayout**.
 
-## Angiv layoutet fra siden Rapportlayout
+## <a name="set-the-layout-from-the-report-layouts-page"></a>Angiv layoutet fra siden Rapportlayout
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Find layoutet på listen, Marker det, og vælg derefter handlingen **Angiv standard** øverst på siden.
 
-## Angiv layoutet fra siden Valg af rapportlayout
+## <a name="set-the-layout-from-report-layout-selection-page"></a>Angiv layoutet fra siden Valg af rapportlayout
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Valg af rapportlayout**, og vælg derefter det relaterede link.
   
@@ -54,11 +54,11 @@ Der er et par måder at angive det layout, som en rapport bruges på. Der er for
 
 4. Vælg layoutet på siden **Rapportlayout**, og vælg derefter **OK**.
 
-## Vende tilbage til det oprindelige standardlayout
+## <a name="revert-to-the-original-default-layout"></a>Vende tilbage til det oprindelige standardlayout
 
 Rapporter er som standard udformet til at bruge et layout. Du kan skifte tilbage til det oprindelige standardlayout fra siden til **valg af rapportlayout**. Vælg rapporten, og vælg derefter **Gendan standardmarkeringshandlingen** øverst på siden.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Administration af rapportlayout](ui-manage-report-layouts.md)  
 [Arbejde med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
