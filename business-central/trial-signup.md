@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: bholtorf
-ms.date: 05/25/2022
+ms.date: 12/19/2023
 ---
 
 # Tilmeld dig for at få en gratis Dynamics 365 Business Central-prøveversion

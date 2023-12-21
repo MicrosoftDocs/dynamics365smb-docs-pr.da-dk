@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
-ms.date: 04/01/2021
+ms.date: 12/19/2023
 ms.author: jswymer
 ---
 # Arbejde med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
