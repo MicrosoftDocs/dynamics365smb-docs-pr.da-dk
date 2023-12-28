@@ -10,7 +10,7 @@ ms.date: 09/11/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Plukke varer til lagerleverance
+# Plukke varer til lagerleverance
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du modtage varer og indsætte dem på en af fire måder som beskrevet i følgende tabel.
 
@@ -39,11 +39,11 @@ Du kan ikke oprette lagerplukdokumenter fra bunden. Pluk er en del af en arbejds
 >  
 > Se [Plukke til montage eller produktion i avancerede lageropsætninger](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md) for at få oplysninger om pluk af komponenter til montageordrer generelt, herunder situationer, hvor montageelementet ikke er forfaldent på en salgsleverance.  
 
-## <a name="check-whether-items-are-available-for-picking"></a>Kontrollere, om varer er tilgængelige til pluk
+## Kontrollere, om varer er tilgængelige til pluk
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Sådan oprettes plukdokumenter samlet med plukkladden
+## Sådan oprettes plukdokumenter samlet med plukkladden
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Plukkladde**, og vælg derefter det relaterede link.  
 
@@ -83,8 +83,8 @@ Du kan ikke oprette lagerplukdokumenter fra bunden. Pluk er en del af en arbejds
 
     |Indstilling|Beskrivlse|
     |-|-|
-    |Maks. Antal pluklinjer|Opretter plukdokumenter, der ikke har mere end det angivne antal linjer i hvert dokument.|
-    |Maks. Antal plukkildedok.|Opretter plukdokumenter, der hver især ikke dækker mere end det angivne antal kildedokumenter.|
+    |Maks. Nej af pluklinjer|Opretter plukdokumenter, der ikke har mere end det angivne antal linjer i hvert dokument.|
+    |Maks. Nej plukkildedok.|Opretter plukdokumenter, der hver især ikke dækker mere end det angivne antal kildedokumenter.|
     |Tildelt bruger-id|Opretter plukdokumenter, der kun er til kladdelinjer, som er tildelt til den valgte lagermedarbejder.|
     |Sorteringsmåde for pluklinjer|Vælg mellem de tilgængelige indstillinger for at sortere linjer i det oprettede plukbilag.|
     |Angiv nedbrydningsfilter|Skjuler mellemliggende nedbrydningspluklinjer, når en større enhed konverteres til en mindre enhed og plukkes fuldstændigt.|
@@ -93,7 +93,7 @@ Du kan ikke oprette lagerplukdokumenter fra bunden. Pluk er en del af en arbejds
 
 8. Vælg **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] opretter plukket i overensstemmelse med dine valg.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>Sådan plukkes varer til lagerleverance
+## Sådan plukkes varer til lagerleverance
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk (logistik)**, og vælg derefter det relaterede link.  
 
@@ -115,13 +115,13 @@ Du kan ikke oprette lagerplukdokumenter fra bunden. Pluk er en del af en arbejds
 
 Den person, der er ansvarlig for leveringen, kan nu bringe varerne til forsendelseshavnen og bogføre leverancen, herunder det relaterede kildedokument, på siden **Lagerleverance**. Flere oplysninger i [Levere varer](warehouse-how-ship-items.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Warehouse Management-oversigt](design-details-warehouse-management.md)
-[Lager](inventory-manage-inventory.md)  
-[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
-[Montagestyring](assembly-assemble-items.md)    
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+- [Oversigt over Warehouse Management](design-details-warehouse-management.md)
+- [Administrere lager](inventory-manage-inventory.md)  
+- [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)     
+- [Montagestyring](assembly-assemble-items.md)    
+- [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

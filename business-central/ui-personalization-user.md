@@ -8,12 +8,16 @@ ms.custom: bap-template
 ms.reviewer: jswymer
 ms.search.keywords: 'customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 09/14/2023
+ms.date: 12/05/2023
 ms.author: jswymer
 ---
 # Tilpas arbejdsområdet
 
-Du kan tilpasse dit arbejdsområde, så det passer til dit arbejde og dine præferencer. Ændr sider, så der kun vises de oplysninger, du skal bruge, hvis du har brug for det. Tilpasning påvirker kun dit arbejdsområde. Den ændrer ikke, hvordan andre arbejder. Du kan tilpasse alle typer sider, herunder siden [Rollecenter](ui-change-basic-settings.md#role-center). 
+Du kan tilpasse dit arbejdsområde, så det passer til dit arbejde og dine præferencer. Ændr sider, så der kun vises de oplysninger, du skal bruge, hvis du har brug for det. Tilpasning påvirker kun dit arbejdsområde. Den ændrer ikke, hvordan andre arbejder. Du kan tilpasse alle typer sider, herunder siden [Rollecenter](ui-change-basic-settings.md#role-center).
+
+> [!NOTE]
+> På grund af begrænsninger på designmuligheder i webklienten er det i øjeblikket ikke muligt at tilpasse eller tilpasse kontrollerne i gittersyntaksen.
+Det gælder for alle designtilstande, ikke kun personalisering.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -184,7 +188,6 @@ Her er nogle forslag, der kan hjælpe dig med at opnå en bedre forståelse.
 - Nogle sider har flere sidefelter, der er knyttet til den samme kildetabel. Ruden viser begge/alle disse sidefelter uafhængigt af hinanden. At vise/skjule/flytte disse felter er også uafhængigt, uden at det ene påvirker det andet.
 - Hvis en del eller gruppe er skjult, vises spøgelsesfelter stadig inde i den, men du kan ikke trække og slippe eller tilføje/vise dette felt, før du gør gruppen/delen synlig.
 
-## Se relateret [Microsoft-træning](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## Se også
 [Tilpasse sider til profiler](ui-personalization-manage.md)  

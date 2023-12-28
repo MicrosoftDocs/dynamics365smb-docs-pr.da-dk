@@ -25,11 +25,11 @@ Oplysningerne respekterer også andre faktorer, der påvirker tilgængeligheden.
 > [!NOTE]
 > Denne funktion kræver, at du aktiverer til/fra-knappen **Styret læg-på-lager og pluk** for de lokationer, du bruger i plukprocessen.
 
-### <a name="set-up-previews"></a>Konfigurere forhåndsversioner
+### Konfigurere forhåndsversioner
 
 Hvis du vil have oplysninger om, hvad der plukkes, og hvad der ikke plukkes, skal du aktivere **Vis oversigt (styret læg-på-lager og pluk)** på anmodningssiderne **Lager - kilde - Opret dokument** eller **Lager - leverance - Opret pluk**.
 
-### <a name="determine-the-quantity-you-can-pick"></a>Bestem det antal, du kan plukke
+### Bestem det antal, du kan plukke
 
 På linjerne på siden **Opret lagerplukoversigt** viser feltet **Håndteringsantal (basis)**, hvilke og hvor mange varer [!INCLUDE [prod_short](prod_short.md)] har forsøgt at plukke. Faktaboksen **Oversigt** indeholder flere oplysninger.
 
@@ -56,7 +56,7 @@ Følgende billede illustrerer det maksimale antal, der tages i betragtning til p
 |B     |Placeringer med indhold af typen Pluk med blokeret udgående bevægelse         |
 |O     |Andre placeringer         |
 
-### <a name="reservations"></a>Reservationer
+### Reservationer
 
 Hvis der er forbehold for den vare, der plukkes, fortsætter beregningen. Ideen er, at reserveret behov har højere prioritet end ikke-reserveret, hvilket betyder, at plukning for ikke-reserveret behov ikke bør forhindre plukning for reserveret behov senere.
 
@@ -74,7 +74,7 @@ Disse antal er muligvis tilgængelige, men du kan muligvis ikke plukke dem endnu
 
 Forskellen mellem **Disp.antal ekskl. leveranceplacering** og reserveret antal på lagerstedet er den mængde, der er disponibel til pluk, uden at det påvirker det reserverede lager.
 
-### <a name="other-details"></a>Andre detaljer
+### Andre detaljer
 
 Hvis varer kræver varesporing, kan du også finde antallet i blokerede lot- eller serienumre, hvilket medfører følgende reduktioner:
 

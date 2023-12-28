@@ -70,7 +70,11 @@ Følg disse trin for at konfigurere e-dokumenttjenesten.
 
 Hvis du har konfigureret formatet **Data Exchange Definition** i lokaliseringen, kan du tilføje en linje for hver dokumenttype, du har brug for. Tilføj linjer, der matcher standarddataudvekslingseksemplet for W1 PEPPOL-formatet. Du skal først vælge indstillingen **Dokumenttype** for hver linje, du har brug for. For hver datatype skal du vælge værdien **Import Data Exchange Def. Code** eller **Export Data Exchange Def. Code**, som du vil bruge.
 
-Hvis du ikke bruger **Data Exchange Definition**-formatet, kan du oprette og konfigurere formater ved at bruge [grænsefladen](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Juster oplysningerne på linjerne **Eksportér kortlægning** og **Importér kortlægning**, hvor du kan finde de tabeller og felter, der skal konfigureres transformationsregler. I dette tilfælde skal du tilføje en ny mulighed i feltet **Dokumentformat**, der er relateret til dit format.
+Hvis du ikke bruger **Data Exchange Definition**-formatet, kan du oprette og konfigurere formater ved at bruge [grænsefladen](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Juster oplysningerne på linjerne **Eksportér kortlægning** og **Importér kortlægning**, hvor du kan finde de tabeller og felter, der skal konfigureres transformationsregler. I dette tilfælde skal du tilføje en ny mulighed i feltet **Dokumentformat**, der er relateret til dit format.  
+
+### Understøttede dokumenttyper 
+
+Understøttede dokumenttyper er baseret på det valgte **dokumentformat**. For at kontrollere, hvilke dokumenttyper der understøttes, skal du på **E-Document Service** siden køre handlingen **Understøttede dokumenttyper** . **E-Document Service Understøttede kildedokumenttyper** åbner, og i kolonnen **Kildedokumenttype** kan du finde alle de understøttede dokumenttyper.  
 
 ## Konfigurere dokumentafsendelsesprofil
 

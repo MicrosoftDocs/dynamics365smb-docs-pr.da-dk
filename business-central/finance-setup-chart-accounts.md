@@ -1,24 +1,23 @@
 ---
 title: Konfigurere eller ændre kontoplan (indeholder video)
-description: 'Kontoplanen viser de finanskonti, hvor dine finansielle data er gemt. Du kan ændre standardkontiene i COA, og du kan tilføje nye konti.'
+description: 'Få mere at vide om konfiguration af kontoplanen for at vise de finanskonti, hvor dine finansielle data er gemt.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'COA, cha of acc'
 ms.search.form: '16, 17, 18, 118, 386, 391'
-ms.date: 01/21/2022
-ms.author: bholtorf
+ms.date: 12/19/2023
+ms.custom: bap-template
 ---
-# <a name="set-up-or-change-the-chart-of-accounts"></a>Konfigurere eller ændre kontoplanen
+# Konfigurere eller ændre kontoplanen
 
 Kontoplanen viser de finanskonti, hvor dine finansielle data er gemt. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en standardkontoplan, der er klar til at understøtte din virksomhed. Men du kan ændre standardkontiene, og du kan tilføje nye konti.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="add-or-change-accounts"></a>Tilføje eller ændre konti
+## Tilføje eller ændre konti
 
 Fra kontoplanen kan du åbne hver finanskonto og tilføje eller ændre indstillinger for hver konto. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +28,7 @@ For kontoer af typen **I alt** skal du udfylde feltet **Sammentælling**. For ko
 > [!IMPORTANT]
 > Hvis du har angivet definitioner i felterne **I alt** for konti med **Til-sum**, før du anvender indrykningsfunktionen, skal du angive dem igen bagefter, fordi funktionen overskriver værdierne i alle felter med **Til-sum**.
 
-## <a name="delete-accounts"></a>Slet konti
+## Slet konti
 
 Du kan slette en finanskonto. Men før du sletter den, skal følgende være opfyldt:  
 
@@ -39,17 +38,17 @@ Du kan slette en finanskonto. Men før du sletter den, skal følgende være opfy
 
 [!INCLUDE[prod_short](includes/prod_short.md)] forhindrer, at du kan slette en finanskonto, der indeholder data, der skal bruges i kontoplanen.  
 
-## <a name="block-deletion-of-gl-accounts"></a>Bloker sletning af finanskonti
+Du kan også angive, hvornår folk skal have lov til at slette konti. På **Hovedbogsopsætning**-siden, fungerer **Bloker sletning af artskonti** sammen med datoen i **Tjek G/L Acc. Sletning efter**-feltet til at fungere som en ekstra validering. Hvis du aktiverer **Bloker sletning af finanskonti**, kan du ikke slette finanskonti, der er sagsposter efter den dato i feltet **Kontrollér sletning af finanskonto efter**. For at slette en sådan konto skal en person med adgang til **Hovedbogsopsætning**-siden skal **Bloker sletning af artskonti** slås fra.  
 
-[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+Hvis du aktiverer **Blokér sletning af feltet finanskonto**, er det ofte den bedste fremgangsmåde at indstille datoen i feltet **Kontroller, om finanskonto slettes efter**-feltet til den dato, hvor du skal gemme dine finansdata.  
 
-2022 udgivelsesbølge 2 introducerer en ekstra beskyttelse mod utilsigtet sletning af finanskonti i de situationer, hvor kriterierne er opfyldt.  
+### Videovejledning
 
-Et nyt felt, **bloker sletning af finanskonti** er blevet føjet til **Finansopsætning**-siden. Når feltet er indstillet til *Ja*, fungerer feltet som en ekstra vurdering, der betyder, at du ikke kan slette finanskonti med poster efter den dato i feltet **Kontrollér sletning af finanskonto efter**. Hvis du vil slette en sådan konto, skal en bruger med adgang til siden **Finansopsætning** først angive feltet til *Nej*.  
+Denne video viser, hvordan man angiver, om og hvornår folk kan slette artskonti.
 
-Hvis du angiver en **Blokér sletning af feltet finanskonto** til *Ja*, kan det anses for at være en bedste fremgangsmåde, da datoen i feltet **Kontroller, om finanskonto slettes efter**-feltet f.eks. er den dato, hvor du skal gemme dine finansdata.  
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finans- og kontoplanen](finance-general-ledger.md)  
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  
