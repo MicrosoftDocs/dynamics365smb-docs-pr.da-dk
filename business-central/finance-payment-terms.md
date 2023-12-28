@@ -7,7 +7,7 @@ ms.search.form: '4,'
 ms.date: 09/05/2023
 ms.author: bholtorf
 ---
-# Opsætte betalingsvilkår
+# <a name="set-up-payment-terms"></a>Opsætte betalingsvilkår
 
 Betalingsbetingelser bestemmer, hvordan du administrerer forfaldsdatoer og kontantrabatter. Du kan oprette koder og bruge datoformler til at definere betalingsbetingelserne. Når du tilmelder dig første gang til [!INCLUDE [prod_short](includes/prod_short.md)], giver demonstrationsvirksomheden nogle få betalingsmetoder, som virksomheder ofte bruger. Du kan dog tilføje lige så mange, du vil.  
 
@@ -19,7 +19,7 @@ Når du bogfører en kreditnota, beregner [!INCLUDE [prod_short](includes/prod_s
 
 Hvis du vil sende rykkere til kunder om forfaldne betalinger, skal du oprette rykkerniveauer og-betingelser. Hvis du vil vide mere om rykkere, skal du gå til [Konfigurere rykkerbetingelser og -niveauer](finance-setup-reminders.md).  
 
-## Sådan defineres betalingsbetingelser
+## <a name="to-set-up-payment-terms"></a>Sådan defineres betalingsbetingelser
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsbetingelser**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -31,7 +31,7 @@ Efter du har angivet betalingsbetingelserne, kan du tildele dem til debitorer og
 >
 > I nogle lande/områder kan du *angive* betalingsbetingelser med delbetalinger. Hvis du vil vide, om denne dit land/område understøtter denne funktion, skal du gå til **Lokal funktionalitet** i indholdsfortegnelsen i venstre side af [Microsoft Learn](about-localization.md)-artiklen.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere betalingsformer](finance-payment-methods.md)  
 [Oprette forudbetalinger](finance-set-up-prepayments.md)  

@@ -9,7 +9,7 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# Svare på anmodninger om brugerens personlige oplysninger
+# <a name="responding-to-requests-about-users-personal-data"></a>Svare på anmodninger om brugerens personlige oplysninger
 
 Dataemner kan anmode om flere typer handlinger vedrørende deres personlige oplysninger. I henhold til lovgivning og regler vedrørende databeskyttelse har de ret til at anmode om eksport, sletning og ændring af deres personlige data. Disse anmodninger kaldes *Dataemneanmodninger*. Hvis du har klassificeret følsomheden af dine data og er sikker på, at de er korrekte, kan en administrator reagere på anmodninger ved hjælp af indstillingerne under fanen **Beskyttelse af personlige oplysninger** i rollecenteret **It-chef**. 
 <!--
@@ -18,7 +18,7 @@ For more information about classifying data and data sensitivity in [!INCLUDE[pr
 * [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) 
 * [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)  -->
 
-## Typer af anmodninger
+## <a name="types-of-requests"></a>Typer af anmodninger
 
 Nedenstående tabel indeholder eksempler på typerne af anmodninger, som administratorer kan reagere på.
 
@@ -31,11 +31,11 @@ Nedenstående tabel indeholder eksempler på typerne af anmodninger, som adminis
 |Anmodninger om sletning|Et dataemne kan anmode om, at du sletter deres personlige oplysninger. Der er flere måder at slette personlige oplysninger på ved hjælp af tilpasningsmulighederne, men beslutningen og implementeringen er dit ansvar. I nogle tilfælde kan du vælge at redigere dataene direkte. F.eks. hvis du sletter en kontakt og derefter udfører kørslen Slet annulleret interaktion, slettes interaktioner for kontakten. <br><br> **Bemærk:** Hvis du har angivet en dato i feltet **Tillad sletning af dokument før** på siderne **Opsætning af salg og tilgodehavender** eller **Købsopsætning**, skal du måske ændre datoen, så kan du slette bogførte salgs- og købsdokumenter, der har bogføringsdatoen på eller inden denne dato.|
 |Anmodninger om rettelse|Et dataemne kan anmode om, at du retter forkerte personlige oplysninger. Dette kan gøres på flere måder. I nogle tilfælde kan du eksportere lister til Excel til hurtig masseredigering af flere poster og derefter importere de opdaterede data. Du kan finde flere oplysninger i [Eksportere forretningsdata til Excel](about-export-data.md). Du kan også manuelt redigere felter, der indeholder personlige oplysninger, f.eks. redigere oplysninger om en debitor på debitorkortet. Men poster som f.eks. generelle finans-, debitor- og momsposter er vigtige. Hvis du gemmer personlige data i forretningstransaktionsposter, kan du overveje at bruge funktionerne til tilpasning til at ændre disse personlige oplysninger.|
 
-## Begrænse databehandling for et dataemne
+## <a name="restrict-data-processing-for-a-data-subject"></a>Begrænse databehandling for et dataemne
 
 Et dataemne kan anmode om, at du midlertidigt stopper behandlingen af deres personlige oplysninger. Du kan imødekomme sådanne anmodninger ved at markere posten som spærret på grund af beskyttelse af personlige oplysninger, så behandlingen af deres data stoppes. Når en post er markeret som spærret, kan du ikke oprette nye posteringer, der bruger denne post. Du kan f.eks. ikke du oprette en ny faktura for en debitor, når enten kunden eller sælgeren er blokeret. Åbn kortet for et dataemne, f.eks. kortene Debitor, Leverandør eller Kontakt, hvis du vil markere et dataemne som spærret, og markér afkrydsningsfeltet **Beskyttelse af personlige oplysninger spærret**. Du skal måske vælge **Vis mere** for at få vist feltet.  
 
-## Håndtering af dataemneanmodninger i prøveversion
+## <a name="handling-data-subject-requests-when-using-a-trial-version"></a>Håndtering af dataemneanmodninger i prøveversion
 
 Visse typer personoplysninger er en del af en Microsoft 365-konto, og det er kun administratorer, der kan eksportere dataene. Processen til håndtering af dataemneanmodninger er forskellige afhængigt af [!INCLUDE[prod_short](includes/prod_short.md)]-lejertypen.
 
@@ -47,21 +47,21 @@ Du kan også lukke din konto på denne side. Det anbefales dog, at du først eks
 
 Du kan stadig markere personer som spærret af hensyn til beskyttelse af personlige oplysninger og eksportere, redigere eller slette transaktioner, som beskrevet andetsteds i denne artikel.  
 
-## Eksportere data fra tabeller, der ikke er klassificeret af dataemnet
+## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Eksportere data fra tabeller, der ikke er klassificeret af dataemnet
 
 Hvis du skal eksportere data, der ikke er klassificeret på en sådan måde, så de bliver eksporteret automatisk, f.eks. data fra tabellen Profilsvar, skal du gøre følgende:
 
 * Overvej, om du skal eksportere supplerende data, der ikke er direkte relateret til kontakten.
 * Føj tabellen og relationen til manuelt start pakken, og eksporter den direkte fra den hurtige startpakke. Vi opretter en hurtig startpakke til dig, så du kan ændre den i sådanne situationer.
 
-## Håndtering af data om mindreårige
+## <a name="handling-data-about-minors"></a>Håndtering af data om mindreårige
 
 Hvis en kontakts alder er under myndighedsalderen i henhold til lovgivningen i dit område, kan du angive dette, ved at markere afkrydsningsfeltet **Mindreårig** på kortet **Kontakt**. Når du gør dette, markeres afkrydsningsfeltet **Beskyttelse af personlige oplysninger spærret** automatisk. Når du modtager samtykke fra den mindreåriges forældre eller værge, kan du markere afkrydsningsfeltet **Forældresamtykke modtaget** for at fjerne spærringen af kontakten. Selvom du kan behandle personlige oplysninger for mindreårige, kan du ikke bruge profileringsfunktionen i Dynamics 365 Sales.
 
 > [!Note]
 > Ændringsloggen kan f.eks. registrere oplysninger om, hvornår og af hvem afkrydsningsfeltet **Forældresamtykke modtaget** blevet markeret. En administrator kan oprette dette ved hjælp af guiden **Opsætning af ændringslog** guide og også markere afkrydsningsfeltet **Logfør ændring af Forældresamtykke modtaget** på kortet **Kontakt**. Du kan finde flere oplysninger i [Logføre ændringer](across-log-changes.md).  
 
-### Se også
+### <a name="see-also"></a>Se også
 
 <!-- [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json)  
 [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)  -->
