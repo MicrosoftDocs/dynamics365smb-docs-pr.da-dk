@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# Sende elektroniske dokumenter
+# <a name="send-electronic-documents"></a>Sende elektroniske dokumenter
 
 > [!NOTE]
 > Indholdet i denne artikel gælder kun for versioner af Dynamics 365 Business Central, der blev udgivet før udgivelsesbølge 2 i 2023. I udgivelsesbølge 2 i 2023 er ny funktionalitet til E-dokumenter inkluderet. Du kan få mere at vide under [Konfiguration af e-dokumenter](finance-how-setup-edocuments.md).  
@@ -21,7 +21,7 @@ Den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)] underst�
 
  Når du vil sende en salgsfaktura som et elektronisk PEPPOL dokument, skal du vælge indstillingen **Elektronisk dokument** i dialogboksen **Bogfør og send**. Herfra kan du også angive debitorens standardprofil for afsendelse af dokumenter. Først skal du konfigurere forskellige stamdata, såsom firmaoplysninger, debitorer, varer og enheder. Disse bruges til at identificere forretningspartnere og varer ved konvertering af data i felterne i [Konfigurere afsendelse og modtagelse af elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
 
-### Sådan sendes en elektronisk salgsfaktura
+### <a name="to-send-an-electronic-sales-invoice"></a>Sådan sendes en elektronisk salgsfaktura
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsfakturaer**, og vælg derefter det relaterede link.  
 
@@ -46,7 +46,7 @@ Den generiske version af [!INCLUDE[prod_short](includes/prod_short.md)] underst�
     > [!NOTE]  
     >  Du kan også sende en bogført salgsfaktura som et elektronisk dokument. Fremgangsmåden er den samme som beskrevet i dette emne for ikke-bogførte salgsdokumenter. På siden **Bogført salgsfaktura** skal du vælge handlingen **Aktivitetslog** for at få vist statussen for det elektroniske dokument.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Fakturasalg](sales-how-invoice-sales.md)  
 [Konfigurere dokumentafsendelsesprofiler](sales-how-setup-document-send-profiles.md)  
