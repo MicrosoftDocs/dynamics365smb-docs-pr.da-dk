@@ -10,26 +10,26 @@ ms.search.form: '4700, 4701, 4703, 4704, 4705, 4706, 4707, 4708, 4709,'
 ms.date: 12/12/2023
 ---
 
-# Udvidelsen til momsgruppe styring for Storbritannien
+# <a name="the-vat-group-management-extension-for-the-united-kingdom"></a>Udvidelsen til momsgruppe styring for Storbritannien
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Du kan forbinde en eller flere virksomheder i Storbritannien for at konsolidere momsrapporteringen under et enkelt registreringsnummer. Denne type arrangement er kendt som en *momsgruppe*. Du kan deltage i gruppen som medlem eller gruppens repræsentant.
 
-## Danner en momsgruppe
+## <a name="forming-a-vat-group"></a>Danner en momsgruppe
 
 Medlemmer af momsgruppen og grupperepræsentanten kan bruge **Opsætning af den assisterede opsætning af momsgruppe styring** til at definere deres ansættelse med gruppen og oprette en forbindelse mellem deres [!INCLUDE[prod_short](includes/prod_short.md)]-lejere. Gruppemedlemmerne bruger forbindelsen til at sende deres moms tilbage til gruppens repræsentant. Repræsentanten sender en enkelt momsangivelse til skattemyndighederne på koncernens vegne ved hjælp af en enkelt moms Returvare.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] understøtter afsendelser af Fællesskabs retur indgange for virksomheder, der bruger [!INCLUDE[prod_short](includes/prod_short.md)] on-premises eller online, i enhver kombination, der har indflydelse på kommunikations opsætningen mellem virksomheder. Denne artikel beskriver forskellige gruppeopsætninger.
 
-### Licenskrav
+### <a name="license-requirements"></a>Licenskrav
 
 Deltagerne i gruppen skal have licens til brug af [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan ikke bruge gæstekonti i momsgrupper.
 
 * Hvis en bruger skal beregne og sende moms, skal den være en central [!INCLUDE[prod_short](includes/prod_short.md)]-bruger.
 * Hvis du vil logge på og udføre grundlæggende opgaver, f. eks. oprette konti, kan du have [!INCLUDE[prod_long](includes/prod_long.md)]-licensen Team medlem.
 
-## Opsætning af momsgruppe
+## <a name="set-up-a-vat-group"></a>Opsætning af momsgruppe
 
 Følgende liste viser den anbefalede rækkefølge for trinene til oprettelse af en momsgruppe:
 
@@ -44,7 +44,7 @@ Følgende liste viser den anbefalede rækkefølge for trinene til oprettelse af 
 > [!NOTE]
 > Hvis du vil oprette forbindelse til momsgruppens repræsentant, skal gruppemedlemmerne bruge en bruger med adgang til momsgruppens repræsentants [!INCLUDE[prod_short](includes/prod_short.md)]. MOMS-gruppens repræsentant skal oprette mindst én bruger til dette. Af sikkerhedsgrunde anbefales det imidlertid, at der oprettes en bruger for hvert momsgruppe medlem, som kan være en systembrugerkonto, som ikke er relateret til en faktisk person. Sørg for at distribuere legitimationsoplysningerne for disse brugere til momsgruppemedlemmer på en sikker måde.
 
-### Microsoft Entra ID-opsætning af gruppemedlemmer
+### <a name="microsoft-entra-id-setup-for-group-members"></a>Microsoft Entra ID-opsætning af gruppemedlemmer
 
 Når repræsentanten for momsgruppen bruger [!INCLUDE[prod_short](includes/prod_short.md)] online eller lokalt, bruger momsgruppemedlemmerne Microsoft Entra ID til at godkende brugere, når de sender momsreturvarer til den ansvarlige momsgruppe. For [!INCLUDE[prod_short](includes/prod_short.md)]-lokale brugere skal medlemmerne konfigurere Single Sign-on. Du kan finde flere oplysninger i [Konfigurere Microsoft Entra-godkendelse med WS-Federation](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory?tabs=singletenant%2Cadmintool).
 
@@ -60,7 +60,7 @@ Når administratoren af momsgruppens medlem opretter app-registreringen i Micros
 * Tilføj tilladelser i afsnittet **API-tilladelser** [!INCLUDE[prod_short](includes/prod_short.md)]. Aktivér uddelegeret adgang til **Financials.ReadWrite.All** og **user_impersonation**.
 * I afsnittet **Oversigt** bemærkes **Program-id (klient)**. Momsgruppemedlemmerne skal bruge id, når de konfigurerer forbindelsen til gruppens repræsentant.
 
-### Opsætning af momsgruppemedlem
+### <a name="group-api-setup"></a>Opsætning af momsgruppemedlem
 
 Repræsentanten for momsgruppen opretter og leverer en API til gruppemedlemmerne. Medlemmerne bruger API'EN til at oprette forbindelse til medarbejderens [!INCLUDE[prod_short](includes/prod_short.md)]-lejer og sende momsreturneringer. Medlemmerne af momsgruppen vil ofte bruge [!INCLUDE[prod_short](includes/prod_short.md)] i separate Microsoft Entra-lejere. Derfor skal mere opsætning være nødvendig, hvis der skal oprettes forbindelse mellem momsgruppemedlemmet og repræsentantens [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -72,7 +72,7 @@ Repræsentanten for momsgruppen opretter og leverer en API til gruppemedlemmerne
 1. Kopier **URL-adressen** i sektionen **Detaljer**.
 1. Åbn Notesblok, og indsæt URL-adressen. Erstat `https://businesscentral.dynamics.com` med `https://api.businesscentral.dynamics.com/v2.0`.
 
-## Opsætning af momsgruppemedlemmer
+## <a name="set-up-vat-group-members"></a>Opsætning af momsgruppemedlemmer
 
 Medlemmerne af momsgruppen tilkobler repræsentanten ved at kalde en webtjeneste på den sælger ansvarlige for momsgruppen. Brugeren skal godkendes ved brug af OAuth2. Når udvidelsen til momsgruppestyring er sat op, bliver du bedt om at godkende momsgruppens repræsentant for at hente og gemme en adgangstoken. Dette adgangstoken bruges ved afsendelse af moms tilbage til momsgruppens repræsentant.
 
@@ -96,14 +96,14 @@ Før momsgruppemedlemmer starter opsætningen (vist nedenfor), skal de kontakte 
 
    Følg derefter trinnene i enten [momsgrupperepræsentant bruger Business Central online](ui-extensions-vat-group.md#vat-group-representative-uses-business-central-online) eller [momsgrupperepræsentant bruger Business Central On-premises](ui-extensions-vat-group.md#vat-group-representative-uses-business-central-on-premises)-sektionen herunder.
 
-### Moms-grupperepræsentant bruger Business Central online
+### <a name="vat-group-representative-uses-business-central-online"></a>Moms-grupperepræsentant bruger Business Central online
 
 1. Angiv de brugerlegitimationsoplysninger, som er blevet leveret af momsgruppe beviset, og tilføj de nødvendige tilladelser.
 2. Vælg den momsrapportkonfiguration, der aktuelt bruges til at sende moms-returvarer til UK-skattemyndighederne. 
 
 Når du har fuldført opsætningen, opretter [!INCLUDE[prod_short](includes/prod_short.md)] en ny konfiguration baseret på dette valg, og du kan bruge konfigurationen til at sende moms returvarer til den ansvarlige momsgruppe.
 
-### Moms-grupperepræsentant bruger Business Central On-premises
+### <a name="vat-group-representative-uses-business-central-on-premises"></a>Moms-grupperepræsentant bruger Business Central On-premises
 
 1. Angiv brugerlegitimationsoplysningerne fra momsgrupperepræsentanten, og vælg **næste**.
 2. I feltet **Klient-ID** skal du angive klient-id fra app-registreringen i [Microsoft Entra ID-opsætning for gruppemedlemmer](#microsoft-entra-id-setup-for-group-members).
@@ -114,7 +114,7 @@ Når du har fuldført opsætningen, opretter [!INCLUDE[prod_short](includes/prod
 7. Når du har angivet de forskellige felter, skal du vælge **næste** og derefter bekræfte godkendelses forbindelsen for at oprette dette adgangstoken.
 8. Vælg den momsrapportkonfiguration, der aktuelt bruges til at sende moms-returvarer til UK-skattemyndighederne.
 
-## Oprette repræsentanten for momsgruppen
+## <a name="set-up-the-vat-group-representative"></a>Oprette repræsentanten for momsgruppen
 
 > [!NOTE]
 > Til on-premises understøtter [!INCLUDE[prod_short](includes/prod_short.md)] kun en enkelt lejer forekomst af en grupperepræsentant.
@@ -135,7 +135,7 @@ Når du har fuldført opsætningen, opretter [!INCLUDE[prod_short](includes/prod
     3. Angiv i feltet **Firma** den virksomhed, hvorfra gruppemedlemmet vil sende momsreturneringer i [!INCLUDE[prod_short](includes/prod_short.md)], f.eks. **CRONUS UK Ltd**.
     4. Angiv din virksomheds kontaktoplysninger.
 
-## Bruge funktionerne til momsgruppestyring
+## <a name="use-the-vat-group-management-features"></a>Bruge funktionerne til momsgruppestyring
 
 Medlemmer af momsgruppen bruger standardprocesserne til at oprette momsreturneringer. Den eneste forskel er at vælge rapportversionen **Momsgruppe** på siden **Returmoms** for at sende moms retur til momsgrupperepræsentanten i stedet for myndighederne. Få mere at vide på [rapporten Momsopgørelse](finance-how-report-vat.md#vatreturn).
 
@@ -144,14 +144,14 @@ Medlemmer af momsgruppen bruger standardprocesserne til at oprette momsreturneri
 
 I følgende afsnit beskrives de opgaver, som momsgrupperepræsentanter skal udføre for at registrere momsgruppeopgørelse.
 
-### Gennemse indsendelse af gruppemedlem
+### <a name="review-vat-member-submissions"></a>Gennemse indsendelse af gruppemedlem
 
 På siden **Momsgruppemeddelser** vises momsreturneringer, som medlemmerne har indsendt. Siden tjener som en kladde placering til indsendelserne, indtil repræsentanten for momsgruppen medtager dem i en momsreturnering for gruppen. Repræsentanten kan åbne indsendelserne for at gennemgå momsen for de enkelte felter, der er rapporteret af momsgruppemedlemmet.
 
 > [!TIP]
 > På siden **momsangivelsesperioder** viser felterne **Indsendelse af gruppemedlem**, hvor mange returmedlemmer der er sendt. Hvis du vil sikre dig, at nummeret er opdateret, skal du vælge handlingen **Hent momsreturvarer**.
 
-### Oprette en gruppemomsretur
+### <a name="create-a-group-vat-return"></a>Oprette en gruppemomsretur
 
 Hvis du vil rapportere moms på vegne af gruppen, skal du kun oprette en momsreturnering til virksomheden på siden **momsreturneringer**. Derefter skal du medtage de seneste momsafsendelser fra momsgruppemedlemmer ved at vælge handlingen **Medtag gruppemoms**.  
 
@@ -160,7 +160,7 @@ Når momsgruppens momsgruppe er blevet sendt til myndighederne på vegne af hele
 > [!IMPORTANT]
 > Momsgruppefunktionen understøttes kun på de markeder, hvor [!INCLUDE[prod_short](includes/prod_short.md)], der bruger en momsramme, som består af momsopgørelser og momsreturperioder. Du kan ikke bruge momsgrupper på andre markeder, der har andre implementeringer af lokal momsrapportering, f.eks. Østrig, Tyskland, Italien, Spanien og Schweiz.
 
-## Problem med aktivering af Multifactor Authentication (MFA)
+## <a name="issue-with-enabling-multifactor-authentication-mfa"></a>Problem med aktivering af Multifactor Authentication (MFA)
 
 Hvis du får en fejlmeddelelse vedrørende godkendelse under fornyelsen af **OAuth2-tokenet** på siden **Opsætning af momsrapport**, efter du har aktiveret MFA, skal du udføre følgende trin.  
 
@@ -172,7 +172,7 @@ Hvis du får en fejlmeddelelse vedrørende godkendelse under fornyelsen af **OAu
 
 Dette bør være en engangsopsætning, når du har aktiveret multifaktorgodkendelse for den bruger, der er valgt i **Momsrapportopsætning**.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Lokal funktionalitet for Storbritannien i den britiske version](LocalFunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
 [Overførsel af moms digitalt i Storbritannien](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  

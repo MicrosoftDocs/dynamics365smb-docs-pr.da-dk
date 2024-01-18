@@ -12,17 +12,17 @@ ms.date: 12/13/2023
 ms.author: altotovi
 ---
 
-# Eksportere SAF-T-overvågnings filformatet i Danmark
+# <a name="export-the-saf-t-audit-file-format-in-denmark"></a>Eksportere SAF-T-overvågnings filformatet i Danmark
 
 Du kan eksportere alle obligatoriske data, der er obligatoriske, i overensstemmelse med standardrevisionsfilen til Skatformatet (SAF-T) i Danmark. SAF-T er en international standard for elektronisk udveksling af pålidelige regnskabsdata fra organisationer til nationale skattemyndigheder eller eksterne revisorer. Danske skattemyndigheder bruger organisationen som standardfilformat for økonomisk samarbejde og udvikling (OECD) standard SAF-T som standardfilformat. Der findes imidlertid nogle Danmark-specifikke felter i denne eksportfil.  
 
-## Eksportere revisionsfiler
+## <a name="exporting-audit-files"></a>Eksportere revisionsfiler
 
 Eksport af SAF-T-overvågningsfilformatet i den danske lokalisering er baseret på **Eksport af revisionsfiler** i Microsoft-app. Få flere oplysninger i [Eksport af revisionsfil](../../finance-how-to-export-audit-files.md)  
 
 Du kan finde flere oplysninger i [Danske landespecifikke funktioner](denmark-local-functionality.md).
 
-## Importer revisionsfiler  
+## <a name="import-audit-files"></a>Importer revisionsfiler
 
 Du kan importere SAF-T fil i dansk lokalisering. Det kan du gøre ved at benytte følgende fremgangsmåde. 
 
@@ -37,7 +37,7 @@ Fra siden **Importér SAF-T-filer** kan du finde detaljer om importerede SAF-T-f
 > [!NOTE]
 > Når du importerer SAF-T-filen, skal du huske på, at der ikke er yderligere handlinger i systemet baseret på disse oplysninger. Dynamics 365 Business Central kan kun beholde listen over uploadede filer. 
 
-## Se også
+## <a name="see-also"></a>Se også
 [Økonomistyring](../../finance.md)  
 [Forstå Finans og Kontoplan](../../finance-general-ledger.md)  
 [Arbejde med dimensioner](../../finance-dimensions.md)  

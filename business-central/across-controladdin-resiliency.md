@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.date: 12/12/2023
 ---
 
-# Styre tilføjelsesprogrammet resiliency i Business central
+# <a name="control-add-in-resiliency-in-business-central"></a>Styre tilføjelsesprogrammet resiliency i Business central
 
 Fra opdatering 20.0 i [!INCLUDE[prod_short](includes/prod_short.md)] skal der automatisk registreres tilføjelsesprogrammer, som udfører langsomt, og der vises en dialogboks, der ligner nedenstående.
 
@@ -19,5 +19,5 @@ Fra opdatering 20.0 i [!INCLUDE[prod_short](includes/prod_short.md)] skal der au
 
 Et tilføjelsesprogram til en usund styring kan påvirke din Business Central-oplevelse og medføre, at den side, du arbejder på, starter langsomt. Den har ingen indflydelse på data, og ændringerne gemmes altid. Hvis du får vist advarslen som vist ovenfor, kan du skjule den, men den kan komme tilbage, hvis problemet fortsætter, skal du kontakte administratoren.
 
-## Se også
+## <a name="see-also"></a>Se også
 [Styr bedste praksis for tilføjelsesydelse](/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-bestpractices)  
