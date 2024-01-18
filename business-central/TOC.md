@@ -42,6 +42,10 @@
 ##### [Gennemgang af indgående og udgående flow i grundlæggende opsætning af lagersted](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
 ##### [Gennemgang af indgående og udgående flow i blandet opsætning af lagersted](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
 ##### [Gennemgang af indgående og udgående flow i avanceret opsætning af lagersted med Styret læg-på-lager og pluk](contoso-coffee/warehousing/warehouse-directed-flow.md)
+#### Service
+##### [Introduktion til Contoso Coffee-servicestyring](contoso-coffee/service/contoso-coffee-service-intro.md)
+##### [Gennemgang af serviceordrer for serviceartikler](contoso-coffee/service/service-basic-flow-order.md)
+##### [Gennemgang af servicekontrakter til serviceartikler](contoso-coffee/service/service-contract-flow.md)
 
 ### Designoplysninger
 #### [Oversigt over designoplysninger om applikation](design-details-application-design.md)

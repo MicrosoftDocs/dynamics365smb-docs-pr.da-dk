@@ -9,7 +9,7 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-warehousing"></a>Introduktion til Contoso Coffee-lagersted
+# Introduktion til Contoso Coffee-lagersted
 
 Contoso Coffee er en fiktiv virksomhed, der producerer forbruger- og kommercielle kaffemaskine. Apps **Contoso Coffee** til Business Central tilføjer demodata, som du kan bruge til at lære, hvordan du bruger lagerfunktionerne i Business central. Du kan konfigurere logistikfunktioner på forskellige måder i [oversigten over forskellige konfigurationsindstillinger](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
@@ -27,9 +27,9 @@ Appen indeholder tre lokationer, der er optimeret til forskellige scenarier:
 
   Denne lokation bruger den avancerede lager konfiguration med styret læg-på-lager og pluk, som gør det muligt at have mere avancerede regler for, hvordan varer bevæger sig på hele lagerstedet.
 
-## <a name="set-up-contoso-coffee-warehousing-data"></a>Opsætning af Contoso Coffee-lagerstedsdata
+## Opsætning af Contoso Coffee-lagerstedsdata
 
-[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
 Når de relevante apps er installeret, skal du gå til siden [Contoso-demoværktøj](https://businesscentral.dynamics.com/?page=5194) i [!INCLUDE [prod_short](../../includes/prod_short.md)], vælge linjen *Lagermodul*, og brug handlingen **Konfigurer** til at forberede modulerne. Følgende tabeller beskriver indstillingerne:  
 
@@ -50,7 +50,7 @@ Når du er færdig, skal du vælge handlingen **Opret demodata**. Det tager nogl
 > [!IMPORTANT]
 > Hvis du kører scenarierne, kan det være en god ide at kontrollere, at brugeren er blevet tilføjet som for bestemte placeringer. Du kan finde flere oplysninger i [Definere lagermedarbejdere](../../warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="scenarios"></a>Eksempler
+## Eksempler
 
 Contoso Coffee-lagerdemodata understøtter i øjeblikket følgende scenarier for test og træning:
 
@@ -60,7 +60,7 @@ Contoso Coffee-lagerdemodata understøtter i øjeblikket følgende scenarier for
 
 Læs trinene for hvert scenarie i den relevante artikel.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere lager](../../inventory-setup-inventory.md) 
 [Sådan opsættes lokationer](../../inventory-how-setup-locations.md) 

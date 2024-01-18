@@ -1,15 +1,15 @@
 ---
 title: Introduktion til Contoso Coffee til produktion
 description: 'Oversigt over scenarier for, hvordan oplysninger om demonstrationsdata for Contoso Coffee kan hjælpe dig med at lære, hvordan du bruger produktionsfunktionerne i Business central.'
-ms.date: 04/01/2022
+ms.date: 04/01/2023
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 4765
+ms.search.form: '4765,'
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Introduktion til Contoso Coffee til produktion
+# Introduktion til Contoso Coffee til produktion
 
 Contoso Coffee er en fiktiv virksomhed, der producerer forbruger- og kommercielle kaffemaskine. Apps **Contoso Coffee** til Business Central tilføjer demodata, som du kan bruge til at lære, hvordan du bruger produktionsfunktionerne i Business central.  
 
@@ -36,9 +36,9 @@ Produktionsaktiviteterne i alle scenarier bruger *MAIN*-lokationen.
 > [!IMPORTANT]
 > Før du udfører et af scenarierne for Contoso Coffee, skal du bogføre alle varekladdelinjer med primosaldi. Du kan finde flere krav i afsnittet [Opsætning af Contoso Coffee-data](#set-up-contoso-coffee-manufacturing-data).
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Opsætning af Contoso Coffee-produktionsdata
+## Opsætning af Contoso Coffee-produktionsdata
 
-[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
 |Felt  |Beskrivelse  |
 |---------|---------|
@@ -47,7 +47,7 @@ Produktionsaktiviteterne i alle scenarier bruger *MAIN*-lokationen.
 
 Når du er færdig, skal du vælge handlingen **Opret demodata**. Det tager nogle få minutter at føje dataene til den underliggende database, men så er du klar til at køre forskellige scenarier.  
 
-## <a name="scenarios"></a>Eksempler
+## Eksempler
 
 Contoso Coffee-produktionsdemodata understøtter i øjeblikket følgende scenarier for test og træning:
 
@@ -65,7 +65,7 @@ Læs trinene for hvert scenarie i den relevante artikel.
 > [!IMPORTANT]
 > Denne gennemgang kræver, at brugeroplevelsen er sat til *Premium* på siden **firmaoplysninger**.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Produktion](../../production-manage-manufacturing.md)  
 [Produktionsrapporter og analyser i Business Central](../../production-reports.md)  
