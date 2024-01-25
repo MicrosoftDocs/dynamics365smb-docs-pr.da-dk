@@ -8,9 +8,11 @@ ms.topic: how-to
 ms.date: 10/29/2023
 ms.custom: bap-template
 ms.search.form: 7775
+ms.collection:
+  - bap-ai-copilot
 ---
 
-# <a name="configure-copilot-and-ai-capabilities"></a>Konfigurere Copilot- og AI-funktioner
+# Konfigurere Copilot- og AI-funktioner 
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
@@ -30,12 +32,12 @@ I denne artikel forklares det, hvordan du styrer brugernes adgang til Copilot og
 
 Hvis nogle af disse krav ikke er opfyldt, kan funktionen ikke bruges.
 
-## <a name="prerequisites"></a>Forudsætninger
+## Forudsætninger
 
 - Du bruger Business Central online, version 23.1 eller nyere. <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
 - Du har administrator- eller supertilladelser i Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
-## <a name="allow-data-movement-across-geographies"></a>Tillade dataflytning på tværs af geografiske områder
+## Tillade dataflytning på tværs af geografiske områder
 
 Denne opgave gælder kun, hvis kontakten **Tillad dataflytning** vises øverst på siden **Copilot- og AI-funktioner**. Hvis linket **Hvordan styrer jeg mine copilotdata?** vises i stedet for **Tillad databevægelse** kontakten, skal du springe over dette trin.
 
@@ -70,7 +72,7 @@ Copilot and other AI capabilities use Azure OpenAI Service.  and are provided by
 Meanwhile, customers with environments outside the United States can use Copilot AI features by opting in to share relevant data with the Azure OpenAI Service in United States or Switzerland.
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
-## <a name="activate-features"></a>Aktivér funktioner
+## Aktivér funktioner
 
 Alle Copilot- og AI-funktioner er aktive som standard, når de gøres tilgængelige i forhåndsvisning eller bliver almindeligt tilgængelige. Ved hjælp af siden **Copilot- og AI-funktioner** kan du slå individuelle funktioner til eller fra for alle brugere.
 
@@ -84,7 +86,7 @@ Alle Copilot- og AI-funktioner er aktive som standard, når de gøres tilgængel
    - Hvis du vil slå en funktion fra, skal du markere den og derefter vælge handlingen **Deaktivér**. 
 
 
-## <a name="enable-feature-in-feature-management"></a>Aktivér funktion i Funktionsstyring
+## Aktivér funktion i Funktionsstyring
 
 Når individuelle Copilot-funktioner frigives i Business Central mindre opdateringer, er disse funktioner valgfri indtil næste større opdatering. **Funktionsstyring** bruges til at slå funktioner til eller fra i prøveversion, f.eks. bankafstemning, og visse funktioner, der er generelt tilgængelige, f.eks. forslag til varemarketingtekst. [Få mere at vide om funktionsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -96,20 +98,20 @@ Når individuelle Copilot-funktioner frigives i Business Central mindre opdateri
 
    Du kan finde flere oplysninger om funktionsstyring generelt i [Funktionsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-## <a name="granting-user-access"></a>Tildele brugeradgang
+## Tildele brugeradgang 
 
 Copilot- og AI-funktioner kan tilbyde funktionalitet beregnet til alle brugere på tværs af din organisation eller til specifikke brugerroller. De fleste Copilot- og AI-funktioner tilbyder adgangskontrol ved hjælp af tilladelser og tilladelsessæt i Business Centrals tilladelsesstyringssystem. [Få mere at vide om tilladelser og tilladelsessæt](ui-define-granular-permissions.md).
 
 For at give eller nægte adgang til specifikke Copilot- og AI-funktioner skal du konsultere dokumentationen eller udgiveren af ​​den funktion for at identificere, hvilke tilladelser der kræves. 
 
-## <a name="next-steps"></a>Næste trin
+## Næste trin
 
 Når du har aktiveret og givet dit samtykke til funktionerne, er du klar til at prøve dem. Gå til:
 
 - [Tilføje marketingtekst til varer](item-marketing-text.md) 
 - [Afstemme ved hjælp af hjælp til bankkontoafstemning](bank-reconciliation-with-copilot.md) 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Fejlfinde Copilot- og AI-funktioner](ai-copilot-troubleshooting.md)  
 [Oversigt over forslag til marketingtekst](ai-overview.md)   

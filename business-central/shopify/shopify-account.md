@@ -3,21 +3,21 @@ title: Oprette og konfigurere Shopify-konto
 description: 'Få mere at vide om, hvordan du får en Shopify-konto, så du kan demonstrere arbejdsgangen for integrering af Shopify og Business central.'
 ms.date: 06/21/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: '30101, 30102'
 ms.reviewer: solsen
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="create-and-set-up-a-shopify-account"></a>Oprette og konfigurere Shopify-konto
+# Oprette og konfigurere Shopify-konto
 
 Hvis du overvejer, om du skal bruge Shopify som e-handelsløsning og har brug for en Shopify-konto til at validere integreret arbejdsgang, har du følgende muligheder:
 
 - Få en prøveversion. Dette er det typiske udgangspunkt for slutbrugere.  
 - Oprette udviklingsbutikker. Denne fremgangsmåde gælder for partnere, som har brug for gentagende demoer, kurser og yder support.
 
-## <a name="trial-end-user"></a>Prøveversion (slutbruger)
+## Prøveversion (slutbruger)
 
 Gå til [Shopify-webstedet](https://www.shopify.com), og brug din mailkonto til administratorkontoen for at tilmelde dig og få en gratis prøveversion. Du kan finde flere oplysninger om, hvordan du opretter og tilpasser onlinebutikken, i [Shopify Hjælp-center](https://help.shopify.com/).
 
@@ -36,7 +36,7 @@ I **Shopify Administration** til den oprettede butik skal du anvende følgende *
 > [!Important]  
 > Hvis du vil undgå betalinger, skal du huske at annullere din Shopify-prøveversion.
 
-## <a name="development-store"></a>Udviklingsbutik
+## Udviklingsbutik
 
 Begynd at deltage i [Shopify Partner-programmet](https://help.shopify.com/partners/about). Derefter skal du bruge **Partner-dashboardet** til at oprette udviklingsbutikken. Flere oplysninger i [Oprette udviklingsbutikker](https://help.shopify.com/partners/dashboard/managing-stores/development-stores).
 
@@ -53,7 +53,7 @@ Efter oprettelse af butikken i **Shopify Administration** til den oprettede buti
 > [!Note]  
 > Udviklingslagre er normalt beskyttet med adgangskode. Når du forsøger at åbne en bestemt side i din onlinebutik fra [!INCLUDE [prod_short](../includes/prod_short.md)], f.eks. for at gå til et bestemt produkt eller en bestemt ordre, skal du angive din adgangskode. Mens du tester, skal du logge på din Shopify-administrator og åbne dit lager derfra for at undgå at skulle angive adgangskoden. Du behøver ikke at angive lageradgangskoden, før du lukker browseren, eller hvis din session udløber.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Kom i gang med Shopify-connectoren](get-started.md)  
 [Gennemgang: oprette og bruge Shopify Connector](walkthrough-setting-up-and-using-shopify.md)

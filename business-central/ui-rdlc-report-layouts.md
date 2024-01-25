@@ -3,20 +3,20 @@ title: Arbejde med RDLC-layouts
 description: Få en introduktion til RDLC-rapportlayout.
 author: jswymer
 ms.topic: conceptual
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.keywords: 'customized report, document layout, logo, personalize'
 ms.search.form: '9650, 9652'
 ms.date: 12/04/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# <a name="working-with-rdlc-layouts"></a>Arbejde med RDLC-layouts
+# Arbejde med RDLC-layouts
 
 RDLC-layout er baseret på rapportens definitionslayoutfiler (.rdl- eller .rdlc-filtyper). Design begreberne for RDLC-layout ligner de andre layouttyper. Layoutet bestemmer, hvilke felter der skal vises, og hvordan de er arrangeret. Men RDLC-layoutdesign er mere avanceret end Word- og Excel-layout.
 
 [![Viser forskellige elementer i et RDLC-layout.](media/rdlc-layout.png)](media/rdlc-layout.png#lightbox)
 
-## <a name="required-tools"></a>Krævede værktøjer
+## Krævede værktøjer
 
 Hvis du vil ændre RDL-layout, kan du bruge enten Microsoft SQL Server Report Builder eller Microsoft Visual Studio med RDLC Report Designer-udvidelsen.
 
@@ -24,7 +24,7 @@ Hvis du vil ændre RDL-layout, kan du bruge enten Microsoft SQL Server Report Bu
 
 - RDLC Report Designer er et filtypenavn for Visual Studio 2019 og nyere. Du kan hente og installere RDLC Report Designer fra [Visual Studio-markedspladsen](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftRdlcReportDesignerforVisualStudio-18001).
 
-## <a name="create-and-modify-rdlc-layouts"></a>Oprette og tilpasse RDLC-layouts
+## Oprette og tilpasse RDLC-layouts
 
 Oprettelse og ændring af RDLC-layout er en avanceret opgave, som typisk gøres af superbrugere eller udviklere. Grundlæggende begreber er ikke specifikke for Business Central-rapportlayout. Vi henviser derfor til følgende dokumentation:
 
@@ -39,7 +39,7 @@ Oprettelse og ændring af RDLC-layout er en avanceret opgave, som typisk gøres 
 > [!NOTE]
 > Report Builder kan kun genkende .rdl-filtypen, dvs. ikke .rdlc. Layoutfiler, der er eksporteret fra Business central, er .rdlc-filtyper. Hvis du vil ændre layoutet i Report Builder, skal du omdøbe filtypen til .rdl.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administration af rapportlayout](ui-manage-report-layouts.md)  
 [Angive det layout, der bruges af en rapport](ui-set-report-layout.md)  

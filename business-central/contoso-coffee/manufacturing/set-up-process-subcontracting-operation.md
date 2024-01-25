@@ -3,22 +3,22 @@ title: Konfigurere og behandle en underleverandørhandling
 description: 'Gennemgang for at lære, hvordan du opretter og behandler en underleverandøroperation i Business central.'
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="set-up-and-process-a-subcontracting-operation"></a>Konfigurere og behandle en underleverandørhandling
+# Konfigurere og behandle en underleverandørhandling
 
 I denne artikel kommer vi igennem de trin, du skal benytte, når du skal bruge Contoso Coffee-demodataene i underleverandør.
 
-## <a name="scenario"></a>Scenarie
+## Scenarie
 
 Du er produktionsplanlægger hos Contoso Coffee. På grund af kapacitetsbegrænsninger skal du planlægge at bruge en underleverandør til at producere varen **SP-SCM1009, Airpot**.
 
 Her kan du oprette en ny frigivet produktionsordre på 12 enheder af vare SP-SCM1009, Airpot, ved hjælp af routing-SP-SCM1009-SUB-2. Du kan bruge underleverandørkladden til at oprette en købsordre for produktionen og afslutte operationen ved at modtage og fakturere købsordren.
 
-## <a name="steps"></a>Trin
+## Trin
 
 1. Opret den nye frigivne produktionsordre på 12 enheder af varen SP-SCM1009, Airpot.
 
@@ -73,6 +73,6 @@ Her kan du oprette en ny frigivet produktionsordre på 12 enheder af vare SP-SCM
 
 Resultatet af vare SP-SCM1009 Airpot er nu registreret.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Introduktion til demonstrationsdata for Contoso Coffee](../contoso-coffee-intro.md)  

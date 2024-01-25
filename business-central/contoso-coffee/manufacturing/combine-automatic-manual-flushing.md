@@ -3,20 +3,20 @@ title: Kombinere automatisk og manuel træk
 description: 'Gennemgang af en produktionsplanlægger hos Contoso Coffee, som vil kombinere automatisk og manuel træk.'
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Gennemgang: Kombinere automatisk og manuel træk
+# Gennemgang: Kombinere automatisk og manuel træk
 
 I denne artikel kommer vi igennem de trin, du skal benytte, når du skal bruge demonstrationsdataene fra Contoso Coffee.  
 
-## <a name="scenario"></a>Scenarie
+## Scenarie
 
 Du er produktionsplanlægger hos Contoso Coffee. Du skal oprette en ny produktionsordre på ti enheder af vare SP-SCM1004, AutoDrip. Nogle komponenter og operationer vil blive tømt, andre tilbage træk baseret på forskellige betingelser.
 
-## <a name="steps"></a>Trin
+## Trin
 
 > [Bemærk!] Husk at regulere lagerbeholdningen ved at bogføre varekladder med primosaldi.
 
@@ -103,7 +103,7 @@ Du er produktionsplanlægger hos Contoso Coffee. Du skal oprette en ny produktio
 
 Det er den til manuel og automatisk træk af komponenter.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Udtrække komponenter i henhold til operationsafgang](../../production-how-to-flush-components-according-to-operation-output.md)  
 [Introduktion til demonstrationsdata for Contoso Coffee](contoso-coffee-manufacturing-intro.md)  

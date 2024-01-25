@@ -4,14 +4,14 @@ description: 'Sådan sælger du en vare, der er samlet til ordre.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
 ms.search.keywords: 'kit, kitting, substitute items'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# <a name="sell-items-assembled-to-order"></a>Sælge varer, der er monteret til ordre
+# Sælge varer, der er monteret til ordre
 
 Varer, der er konfigureret til montage til ordre, forventes varen derefter ikke at være på lager, og den skal samles specifikt til en salgsordre. En vare, der er konfigureret til montage efter ordre, når feltet **montagepolitik** på varekortet indeholder **montage efter ordre**. Når du indtaster varen på en salgsordrelinje, bliver der automatisk oprettet en montageordre, hvorefter den knyttes til salgsordren.  
 
@@ -28,7 +28,7 @@ I denne procedure behandler du salg af et element, der skal samles i henhold til
 > [!NOTE]  
 > Følgende procedure omfatter ikke trinnene til oprettelse af standardsalgsordre før det trin, hvor du indtaster montage efter ordre-elementer på en salgsordrelinje. Få mere at vide om oprettelse af salgsordrer i [Salg af produkter med en kundesalgsordre](sales-how-sell-products.md).  
 
-## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Sådan sælger du en vare, der er samlet til ordre
+## Sådan sælger du en vare, der er samlet til ordre
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2. Oprette en salgsordre. 
@@ -60,7 +60,7 @@ I denne procedure behandler du salg af et element, der skal samles i henhold til
 > [!NOTE]  
 > Erstatningsvarer erstatter ikke automatisk en vare med en anden vare, f.eks. når der oprettes en salgsordre eller en stykliste. I stedet bliver du advaret om, at der er en erstatningsvare tilgængelig.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Montagestyring](assembly-assemble-items.md)  
 [Arbejde med montagestyklister](assembly-how-work-assembly-boms.md)  

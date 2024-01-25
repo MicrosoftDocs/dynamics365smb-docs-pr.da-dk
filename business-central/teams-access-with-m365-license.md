@@ -4,14 +4,14 @@ description: 'Få mere at vide om, hvordan brugere kan få adgang til Business C
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: overview
 ms.date: 02/07/2023
 ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="access-data-in-teams-without-business-central-license"></a>Få adgang til data i Teams uden Business Central-licens
+# Få adgang til data i Teams uden Business Central-licens
 
 [!INCLUDE[prod_short](includes/prod_short.md)]-brugere får tildelt en Dynamics 365 Business Central-licens, som giver dem mulighed for at få vist, ændre og behandle forretningsdata i Teams. Disse brugere kan samarbejde om data ved at dele poster med chatrum eller kanaler eller tilføje faner, der viser poster. Men der kan være andre medarbejdere på tværs af virksomheden, som ikke har en Business Central-licens, men som kan drage fordel af at få vist data i Teams. For disse brugere giver [!INCLUDE[prod_short](includes/prod_short.md)] begrænset adgang via deres Microsoft 365-licenser.  
 
@@ -19,10 +19,10 @@ Som administrator kan du konfigurere miljøer, der giver adgang til Microsoft 36
 
 Hvis du vil vide mere om adgang med Microsoft 365-licenser, skal du gå til [Business Central-adgang med Microsoft 365-licenser](admin-access-with-m365-license.md) og [Adgang med Microsoft 365-licenser, ofte stillede spørgsmål](admin-access-with-m365-license-faq.md).
 
-## <a name="next-steps"></a>Næste trin
+## Næste trin
 
 [Konfigurere Business Central-adgang i Teams med Microsoft 365-licenser](admin-access-with-m365-license-setup.md)  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Fejlfinde adgang med Microsoft 365-licenser](admin-access-with-m365-license-troubleshooting.md)  
