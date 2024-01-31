@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 05/30/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Når du konfigurerer brugere til godkendelsesworkflow, er det vigtigt, at den samme bruger ikke både er anmoder og godkender i en brugergruppe for workflowet. Når en bruger både er anmoder og godkender, fungerer godkendelse på følgende måde:

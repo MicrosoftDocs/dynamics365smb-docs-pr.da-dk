@@ -8,13 +8,14 @@ ms.topic: conceptual
 ms.date: 03/09/2023
 ms.custom: bap-template
 ms.search.forms: '119, 9807,'
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="define-an-invoice-posting-policy-for-users"></a>Definere en fakturabogføringsmetode for brugere
+# Definere en fakturabogføringsmetode for brugere
 
 Virksomheder har ofte forskellige processer til bogføring af salgs- og købsfakturaer og leverancer. Processer kan f. eks. variere fra én person, der bogfører alt på en købsordre, til flere medarbejdere. Du kan begrænse brugere i at bogføre fakturaer eller kræve, at fakturaerne bogføres sammen med leverancer eller modtagelser.
 
-## <a name="to-specify-a-posting-policy"></a>Sådan angives bogføringspolitik
+## Sådan angives bogføringspolitik
 
 På siden **Brugeropsætning** i felterne **Bogføringsmetode til salgsfaktura** og **Politik til bogføring af købsfaktura** skal du vælge en af følgende indstillinger:
 
@@ -22,7 +23,7 @@ På siden **Brugeropsætning** i felterne **Bogføringsmetode til salgsfaktura**
 * **Forbudt** -forhindrer, at brugeren bogfører fakturaer. Business central viser en bekræftelsesdialogboks, der kun viser **Lever**- eller **Modtag**-indstillingerne.
 * **Obligatorisk** - Tillad, at brugeren bogfører fakturaer sammen med modtagelser eller leverancer. Business central viser en bekræftelsesdialogboks, der kun viser **Lever og Fakturer** eller **Modtag og Fakturer**-indstillingerne.
 
-## <a name="effect-on-documents"></a>Indvirkning på dokumenter
+## Indvirkning på dokumenter
 
 Følgende tabel beskriver, hvordan fakturabogføringspolitikker påvirker dokumenter.
 
@@ -46,7 +47,7 @@ Følgende tabel beskriver, hvordan fakturabogføringspolitikker påvirker dokume
    > [!Note]
    > Indstillingen påvirker ikke bogføring af finanskladdelinjer, hvor du kan vælge **faktura** i feltet **Bilagstype**.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Fakturere salg](sales-how-invoice-sales.md)  
 [Registrere køb med købsfakturaer og ordrer](purchasing-how-record-purchases.md)  

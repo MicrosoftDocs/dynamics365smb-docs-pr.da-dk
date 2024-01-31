@@ -10,8 +10,9 @@ ms.search.keywords: 'check, bank transfer, cash, PayPal'
 ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-payment-methods"></a>Konfigurere betalingsmetoder
+# Konfigurere betalingsmetoder
 
 Betalingsformer definerer, hvordan du foretrækker, at debitorer skal betale dig, og hvordan du foretrækker at betale dine kreditorer. Metoden kan variere for hver debitor eller kreditor. Eksempler på typiske betalingsformer er **bank**, **kontant**, **check** eller **konto**.
 
@@ -23,7 +24,7 @@ Kreditnotaer for returneringer er dog undtagelser, fordi pengene flyder den mods
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys?rel=0]
 
-## <a name="to-set-up-a-payment-method"></a>Sådan defineres en betalingsform
+## Sådan defineres en betalingsform
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder et par betalingsmetoder, som virksomheder ofte bruger. Du kan dog tilføje lige så mange, du vil.
 
@@ -32,12 +33,12 @@ Kreditnotaer for returneringer er dog undtagelser, fordi pengene flyder den mods
 
 Du kan også tilføje betalingsbetingelser til betalingsmetoden. Du kan finde flere oplysninger i [Oprette betalingsbetingelser](finance-payment-terms.md).  
 
-## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Sådan tildeles en betalingsmetode til en debitor eller kreditor
+## Sådan tildeles en betalingsmetode til en debitor eller kreditor
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Debitor** eller **Kreditor**, og vælg derefter det relaterede link.
 2. I feltet **Betalingsformkode** skal du vælge metoden, der skal bruges som standard for debitoren eller kreditoren.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Registrere nye debitorer](sales-how-register-new-customers.md)  
 [Konfigurere betalingsvilkår](finance-payment-terms.md)  

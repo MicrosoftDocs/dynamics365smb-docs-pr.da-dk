@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 05/09/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Du vil muligvis kunne se andre brugere på listen over **Brugere**, der ikke tilhører dem fra din egen virksomhed. Når en gruppe, der er delegeret af en partnervirksomhed, logger ind i et [!INCLUDE [prod_short](prod_short.md)]-miljø på vegne af sin kunde, oprettes de automatisk som en bruger i [!INCLUDE [prod_short](prod_short.md)]. På den måde registreres de handlinger, der udføres af en administrativ administrator, [!INCLUDE [prod_short](prod_short.md)] f.eks. bogføring af dokumenter, og som er knyttet til deres bruger-id.  
 

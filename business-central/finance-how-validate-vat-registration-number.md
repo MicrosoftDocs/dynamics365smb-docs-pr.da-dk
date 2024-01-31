@@ -1,22 +1,23 @@
 ---
 title: Valider et SE/CVR-nr.
 description: 'Lad Business Central validere momsregistreringsnummeret for kontakter, debitorer og kreditorer, baseret på den Europæiske Unions liste momsnummervalideringsservice.'
-author: andregu
+author: jswymer
 ms.topic: conceptual
 ms.reviewer: bholtorf
 ms.search.keywords: 'VAT, posting, tax, value-added tax'
 ms.search.form: '249, 575, 1279'
 ms.date: 06/16/2021
-ms.author: andregu
+ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="validate-vat-registration-numbers"></a>Valider et SE/CVR-nr.
+# Valider et SE/CVR-nr.
 
 Det er vigtigt, at de momsregistreringsnumre, du har for debitorer, kreditorer og kontakter, er gyldige, hvis du anvender [!INCLUDE [prod_short](includes/prod_short.md)] i et land/område, der bruger moms. F.eks. ændrer virksomheder nogle gange deres status for skattetilsvar, og i visse lande/områder kan skattemyndighederne måske bede dig om at indsende rapporter, f.eks. rapportering af **EU-salg** med de momsnumre, du bruger, når du handler.
 
 Kommissionen har VIES-tjenesten til kontrol af momsnumre på deres websted, som er offentlig og gratis. [!INCLUDE [prod_short](includes/prod_short.md)] kan spare dig for et trin, idet du kan bruge VIES-tjenesten til at validere og spore momsnumre for kunder og andre virksomhedsoplysninger for debitorer, kreditorer og kontakter. Tjenesten i [!INCLUDE [prod_short](includes/prod_short.md)] hedder **Service for validering af SE/CVR-nr. for EU**. Tjenesten findes på siden **Serviceforbindelser**, og du kan begynde at bruge den med det samme. Tjenesteforbindelsen er gratis, og yderligere tilmelding er ikke nødvendig.
 
-## <a name="configure-the-service-to-verify-vat-registration-numbers-automatically"></a>Konfigurere servicen til at kontrollere momsregistreringsnummeret automatisk
+## Konfigurere servicen til at kontrollere momsregistreringsnummeret automatisk
 
 Aktivere **Service for validering af SE/CVR-nr. for EU** ved at åbne posten på siden **Serviceforbindelse**. Hvis feltet **Serviceslutpunkt** ikke allerede er udfyldt, skal du bruge funktionen **Angiv standardslutpunkt**. Angiv derefter feltet **Aktiveret**, og så er du klar til at gå i gang.  
 
@@ -37,7 +38,7 @@ Der er et par ting at bemærke om VIES-tjenesten til kontrol af momsnumre:
 > [!IMPORTANT]
 > Det er dit ansvar at kontrollere, at dataene er gyldige. Af og til returneres data med fejl af VIES-tjenesten til kontrol af momsregistreringsnumre. Hvis valideringen mislykkes, skal du validere momsregistreringsnummeret på [webstedet](https://ec.europa.eu/taxation_customs/vies/), udskrive resultatet eller gemme det på en fælles placering og derefter tilføje linket til posten for din kunde, leverandør eller kontaktperson. Du kan få flere oplysninger i [Administrere vedhæftede filer, links og noter på kort og dokumenter](ui-how-add-link-to-record.md).
 
-## <a name="validation-templates"></a>Valideringsskabeloner
+## Valideringsskabeloner
 
 Du kan også kontrollere andre virksomhedsoplysninger, f.eks. adressen, samt se/CVR-nummeret ved hjælp af listetjenesten. Opret i feltet **Se/CVR-nr. Siden validerings skabeloner** en post for hvert land/område, du vil have valideret nærmere for, og angiv derefter de oplysninger, som du vil have valideret automatisk.  
 
@@ -48,7 +49,7 @@ Tilføj f.eks. en post for Spanien, hvor du vil have valideret navn, adresse, by
 
 Næste gang du angiver et Se/CVR-nummer, validerer service nummeret og de yderligere data, der er fastsat i dine validerings skabeloner. Hvis de angivne værdier er forskellige fra de værdier, der returneres af tjenesten, vises detaljerne på siden **valideringsoplysninger**, hvor du kan acceptere eller nulstille værdierne.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere moms](finance-setup-vat.md)  
 [Opsætning af ikke-realiseret moms](finance-setup-unrealized-vat.md)  

@@ -3,14 +3,13 @@ title: Konfigurere statusser for serviceordrer og reparationer | Microsoft Docs
 description: 'Du skal definere ni reparationsstatusindstillinger, som identificerer status for reparation og vedligeholdelse af serviceartikler i serviceordrer.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-statuses-for-service-orders-and-repairs"></a>Konfigurere statusser for serviceordrer og reparationer
+# Konfigurere statusser for serviceordrer og reparationer
 
 Du skal definere reparationsstatusindstillinger, som identificerer status for reparation og vedligeholdelse af serviceartikler i serviceordrer. Du skal definere mindst ni indstillinger for reparationsstatus, som angiver de situationer eller handlinger, der udføres, når serviceartikler repareres.  
 
@@ -20,7 +19,7 @@ Når du ændrer reparationsstatus for en serviceartikel i en serviceordre, opdat
 
 Før du kan oprette en reparationsstatus, skal du oprette servicestatusprioriteter.
 
-## <a name="to-set-up-service-status-priorities"></a>Sådan defineres statusprioriteter
+## Sådan defineres statusprioriteter
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceordrestatus**, og vælg derefter det relaterede link.  
 2. Marker den serviceordrestatus, du vil definere en prioritet for.  
@@ -28,7 +27,7 @@ Før du kan oprette en reparationsstatus, skal du oprette servicestatusprioritet
 
 Gentag trin 2 og 3, indtil du har defineret prioriteten for hver af de fire statusindstillinger: **Afventer**, **Igang**, **Afsluttet** og **Afventer**.  
 
-## <a name="to-set-up-a-repair-status"></a>Definere reparationsstatus
+## Definere reparationsstatus
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Reparationsstatus**, og vælg derefter det relaterede link.
 2. Opret en ny reparationsstatus.  
@@ -41,7 +40,7 @@ Gentag trin 2 og 3, indtil du har defineret prioriteten for hver af de fire stat
 
 Gentag disse trin for hver af indstillingerne for reparationsstatus, du vil oprette.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Serviceordrestatus og reparationsstatus](service-service-order-status-and-repair-status.md)  
 [Konfigurere Service](service-setup-service.md)  

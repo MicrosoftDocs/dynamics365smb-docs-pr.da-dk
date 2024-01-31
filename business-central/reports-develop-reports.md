@@ -3,20 +3,19 @@ title: Udvikling af rapportlayout og datasæt
 description: Indeholder en oversigt over Business Central-data.
 author: kennieNP
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: kepontop
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="developing-business-central-report-layouts-and-datasets"></a>Udvikling af Business Central-rapportlayout og datasæt
+# Udvikling af Business Central-rapportlayout og datasæt
 
 En rapport i [!INCLUDE[prod_short](includes/prod_short.md)] består af et rapportobjekt, der definerer _rapportens datasæt_ (hvilke data er tilgængelige) og et antal _rapportlayout_ (hvordan data præsenteres).  
 
-## <a name="developing-report-layouts"></a>Udvikle rapportlayout
+## Udvikle rapportlayout
 
 Vil du redigere eksisterende rapportlayout, som findes i [!INCLUDE[prod_short](includes/prod_short.md)]? Afhængigt af den teknologi, der bruges til layoutet, er det noget, du kan gøre, f. eks. Word-layout, eller måske har du brug for en udvikler til at gøre det (pixel-perfekt RDLC layout).
 
@@ -31,7 +30,7 @@ Vil du redigere eksisterende rapportlayout, som findes i [!INCLUDE[prod_short](i
 | For at få mere at vide om, hvordan du ændrer standardlayoutet for en rapport. | [Ændre standardlayoutet](ui-how-change-layout-currently-used-report.md) |
 <!-- | For at lære, hvordan du arbejder med Excel-layout | [Arbejd med Excel-layouts](ui-how-add-fields-word-report-layout.md) | -->
 
-## <a name="developing-report-datasets"></a>Udvikle rapportdatasæt
+## Udvikle rapportdatasæt
 
  Hvis du vil ændre definitionerne for datasættet, der definerer, hvilke data der er tilgængelige i rapporten, skal du have en udvikler, der kender til programmeringssproget AL-programmering og de værktøjer, der skal bruges til at udvikle rapportobjekter og rapportudvidelser.
 
@@ -40,7 +39,7 @@ Vil du redigere eksisterende rapportlayout, som findes i [!INCLUDE[prod_short](i
 | Lære, hvordan du udlæser programmer i AL | [Rapportudviklingsguide](/dynamics365/business-central/dev-itpro/developer/devenv-reports) |
 | Lære, hvordan rapporter udføres | [Rapport om justering af ydeevne](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversigt over Business Intelligence og rapportering](reports-use-reports.md)
 

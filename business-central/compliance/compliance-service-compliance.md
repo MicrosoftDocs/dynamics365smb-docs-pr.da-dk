@@ -10,8 +10,9 @@ ms.search.keywords: null
 ms.reviewer: bholtorf
 ms.date: 06/14/2021
 ms.author: soalex
+ms.service: dynamics-365-business-central
 ---
-# <a name="service-compliance"></a>Tjenesteoverholdelse
+# Tjenesteoverholdelse
 
 Dette indhold indeholder oplysninger om tjenesteoverholdelse i relation til [!INCLUDE[prod_short](../includes/prod_short.md)] online.  
 
@@ -21,11 +22,11 @@ Du skal finde en detaljeret oversigt over [tilbud med cloud-overholdelse til Bus
 
 Hvis du er interesseret i den komplette liste over tilbud med overholdelse fra Microsoft, skal du se [Microsofts sikkerhedscenter](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## <a name="service-terms"></a>Servicebetingelser
+## Servicebetingelser
 
 [!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Overholdelse](compliance-overview.md)  
 [Programoverholdelse](compliance-application-compliance.md)  

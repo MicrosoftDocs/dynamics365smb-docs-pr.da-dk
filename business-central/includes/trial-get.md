@@ -1,11 +1,11 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/05/2022
+ms.date: 01/17/2024
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-1. Gå til [prøveversionen](https://go.microsoft.com/fwlink/?linkid=847861), vælg *Økonomi og drift*, og vælg derefter kortet **Dynamics 365 Business Central**, vælg knappen **Prøv gratis**.  
-2. Angiv din arbejds-eller skolemailadresse og øvrige oplysninger. Du bliver omdirigeret til din prøveversion på [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
+<!--1. Go to **[Dynamics 365 Business Central product](https://www.microsoft.com/en-us/dynamics-365/products/business-central)** page, and choose the **Try for free** button.-->  
 
 Prøveversionen skal bruge et øjeblik på indlæsningen, og så kan du begynde at bruge appen. Du kan bruge checklisten **Introduktion** til at gøre dig klar til virksomheden. Fremgangsmåden varierer afhængigt af dit land/område og eventuelle branchespecifikke funktioner, som du har føjet til din [!INCLUDE [prod_short](prod_short.md)].  
 

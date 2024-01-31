@@ -3,14 +3,13 @@ title: Designoplysninger - Siden Varesporingslinjer
 description: 'Læs om, hvordan du styrer strømmen af serienumre og lotnumre på lageret ved hjælp af varesporingslinjer.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, inventory, item, tracking, serial number, lot number'
 ms.date: 06/15/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-item-tracking-lines-page"></a>Designoplysninger: Siden Varesporingslinjer
+# Designoplysninger: Siden Varesporingslinjer
 Varesporingsposter og reservationsposter oprettes i reservationssystemet, og deres tilgængelighed beregnes dynamisk. Data, der er angivet på siden **Varesporingslinjer**, styres i en midlertidig version af tabellen **Sporingsspecifikation**. Når siden lukkes, bliver de aktive data bundet til tabellen **Reservationspost**, og de historiske data bliver bundet til tabellen **Sporingsspecifikation**. Du kan finde flere oplysninger i [Designoplysninger: Aktive kontra historiske varesporingsposter](design-details-active-versus-historic-item-tracking-entries.md).  
   
 Opslag fra felterne **Serienr.** og **Lotnr.** viser tilgængelighed baseret på både tabellen **Varepost** og **Reservationspost**, uden datofilter. Matrixen for mængdefelter i hovedet af siden **Varesporingslinjer** viser dynamiske mængder og summer for de varesporingsnumre, der er angivet på linjerne på siden. Mængderne skal svare til mængderne på dokumentlinjen, der er angivet med **0** i **Udefineret**-felterne i sidehovedet på siden.  
@@ -23,7 +22,7 @@ For at koordinere flowet af serie- og lotnumre i lageret findes følgende regler
   
 Regler for indtastning af data på siden **Varesporingslinjer** understøtter også de sammensætningsprincipper, der styrer ordresporing, planlægning og reservation. Du kan finde flere oplysninger i [Designoplysninger: Varesporing og planlægning](design-details-item-tracking-and-planning.md).  
   
-## <a name="see-also"></a>Se også
+## Se også  
 [Designoplysninger: Varesporing](design-details-item-tracking.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

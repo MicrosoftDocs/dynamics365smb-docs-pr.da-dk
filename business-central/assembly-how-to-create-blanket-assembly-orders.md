@@ -10,8 +10,9 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-blanket-assembly-orders"></a>Oprette rammemontageordrer
+# Oprette rammemontageordrer
 
 Du kan bruge montagestyring til at tilpasse et montageelement på anmodning fra en kunde under salgsprocessen. Du kan finde flere oplysninger i [Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -20,7 +21,7 @@ Du kan bruge montagestyring til at tilpasse et montageelement på anmodning fra 
 > [!NOTE]  
 >  Ligesom alle rammeordrer forecastes mængder på montagerammeordrer kun og er ikke operationelle, før de konverteres til faktiske montageordrer. Ordrefunktionalitet, som f.eks. disponeringsberegning, reservation og varesporing , er derfor ikke aktiv på rammemontageordrer.  
 
-## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Sådan oprettes en rammemontageordre til en montage\-til\-ordre-vare
+## Sådan oprettes en rammemontageordre til en montage\-til\-ordre-vare  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rammesalgsordrer**, og vælg derefter det relaterede link.  
 2. Opret en ny rammesalgsordre med en linje til et montageelement. Du kan finde flere oplysninger i [Oprette rammesalgsordrer](sales-how-to-create-blanket-sales-orders.md).  
@@ -36,7 +37,7 @@ Du kan bruge montagestyring til at tilpasse et montageelement på anmodning fra 
 
 Den sammenkædede montagerammeordre og eventuelle tilpasninger er knyttet til den pågældende nye salgsordre for at forberede til montage for varen eller de varer, der skal sælges.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprette rammesalgsordrer](sales-how-to-create-blanket-sales-orders.md)  
 [Montagestyring](assembly-assemble-items.md)  

@@ -9,8 +9,9 @@ ms.workload: na
 ms.search.keywords: null
 ms.date: 05/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-costing-methods"></a>Designoplysninger: Kostmetoder
+# Designoplysninger: Kostmetoder
 
 Kostmetoden afgør, om en faktisk eller en budgetteret værdi føres som aktiv og bruges i beregningen af kostprisen. Sammen med bogføringsdatoen og rækkefølgen har kostmetoden også indflydelse på, hvordan kostprisforløbet registreres.
 
@@ -49,7 +50,7 @@ Kostmetoder varierer i den måde, hvorpå de værdiansætter lagerreduceringer, 
 |**Standard**     |Let at bruge, men kræver kvalificeret vedligeholdelse.|Udligning holder styr på **det resterende antal**.<br /><br /> Udligning er baseret på FIFO.|Værdiregulerer fakturerede og ikke-fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|Brug siden **Standardkladde** til regelmæssigt at opdatere og akkumulere standardomkostninger.<br /><br /> Understøttes ikke pr. lagervare.<br /><br /> Der findes ingen historiske poster for standardomkostninger.|
 |**Specifik**     |Kræver varesporing på både indgående og udgående transaktion.<br /><br /> Bruges typisk til serienummererede varer.|Alle udligninger er faste.|Værdiregulerer kun fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|Du kan bruge specifik varesporing uden at bruge den specifikke kostmetode. Derefter følger prisen IKKE lotnummeret, men omkostningsforventningen for den valgte kostmetode.|
 
-## <a name="example"></a>Eksempel
+## Eksempel
 
 Dette afsnit indeholder eksempler på, hvordan forskellige kostmetoder påvirker lagerværdien.  
 
@@ -67,7 +68,7 @@ Følgende tabel viser lagerforøgelser og -reduceringer, som eksemplerne er base
 > [!NOTE]  
 > Det resulterende antal i lageret er nul. Derfor skal lagerværdien også være nul, uanset hvilken kostmetode der anvendes.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Kostmetoders indflydelse på værdiansættelse af lagerforøgelser
+### Kostmetoders indflydelse på værdiansættelse af lagerforøgelser  
 
 For varer med kostmetoder, der bruger de faktiske omkostninger som grundlag for værdiansættelsen (**FIFO**, **LIFO**, **Gennemsnit**, eller **Specifik**), værdiansættes lagerforøgelser til varens anskaffelsesomkostninger.  
 
@@ -75,11 +76,11 @@ For varer med kostmetoder, der bruger de faktiske omkostninger som grundlag for 
 
     For varer, der bruger kostmetoden **Standard**, værdiansættes lagerforøgelser til varens aktuelle standardkostpris.  
 
-#### <a name="standard"></a>Standard
+#### Standard  
 
 For varer, der bruger kostmetoden **Standard**, værdiansættes lagerforøgelser til varens aktuelle standardkostpris.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Kostmetoders indflydelse på værdiansættelse af lagerreduktioner
+### Kostmetoders indflydelse på værdiansættelse af lagerreduktioner
 
 - **FIFO**  
 
@@ -147,7 +148,7 @@ For varer, der bruger kostmetoden **Standard**, værdiansættes lagerforøgelser
     |03-01-20|-1|-10,00|**1**|5|  
     |04-01-20|-1|-30,00|**3**|6|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Designoplysninger: Lagerberegning](design-details-inventory-costing.md)  
 [Designoplysninger: Afvigelse](design-details-variance.md)  

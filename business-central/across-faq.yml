@@ -5,9 +5,10 @@ metadata:
   author: brentholtorf
   ms.topic: faq
   ms.search.keywords: 'FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend'
-  ms.date: 07/14/2023
+  ms.date: 12/19/2023
   ms.author: bholtorf
-title: Ofte stillede spørgsmål om brugen af Business Central
+  ms.service: dynamics-365-business-central
+title: Ofte stillede spørgsmål om brug af Business Central
 summary: |
   Dette afsnit indeholder svar på ofte stillede spørgsmål om tilmelding til og brug af en prøveversion, køb af abonnement og brug af [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan også lære, hvordan du får teknisk support.  
 sections:
@@ -22,7 +23,7 @@ sections:
         answer: |
           Du kan tilmelde dig en gratis prøveversion, så du kan danne dig et indtryk af [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Hvis du vil have mere tid til at udforske programmet, [kan du udvide prøveperioden](#can-i-extend-my-30-day--new-company--trial-period-).  
 
-          Sådan kan du få hjælp til at blive klar til at foretage handler i [!INCLUDE[prod_short](includes/prod_short.md)] ved at starte assisterede opsætningsvejledninger, videoer eller emner i Hjælp for valgte opsætningsopgaver. Flere oplysninger i [Blive køreklar](ui-get-ready-business.md).  
+          Få hjælp til at blive klar til at anvende [!INCLUDE[prod_short](includes/prod_short.md)] ved at starte assisterede opsætningsvejledninger, videoer eller artikler i Hjælp for valgte opsætningsopgaver. Flere oplysninger i [Blive køreklar](ui-get-ready-business.md).  
 
           Når du er klar til at købe [!INCLUDE[prod_short](includes/prod_short.md)], kan du finde en [!INCLUDE[prod_short](includes/prod_short.md)]-partner på siden [Jeg søger efter en løsningsudbyder](https://go.microsoft.com/fwlink/?linkid=2038145). Du kan finde flere oplysninger i [Hvordan finder jeg en videresalgspartner?](#how-do-i-find-a-reselling-partner).  
       - question: |
@@ -69,7 +70,7 @@ sections:
       - question: |
           Hvorfor beskriver Hjælp funktioner, som jeg ikke kan få adgang til?
         answer: |
-          Hvis indstillingen Oplevelse på siden **Virksomhedsoplysninger** er indstillet til **Essential**, er elementer i brugergrænsefladen til funktionerne Produktion og Service Management ikke synlige for dig, fordi de kræver oplevelsen **Premium**. Der er indsat en tekstnote i vigtige emner i Hjælp for disse funktionsområder. Flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).  
+          Hvis indstillingen Oplevelse på siden **Virksomhedsoplysninger** er indstillet til **Essential**, er elementer i brugergrænsefladen til funktionerne Produktion og Service Management ikke synlige for dig, fordi de kræver oplevelsen **Premium**. Der er indsat en tekstnote i vigtige artikler i Hjælp for disse funktionsområder. Flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).  
       - question: |
           Hvorfor er nye oplysninger ikke tilgængelige på mit sprog?
         answer: |
@@ -141,7 +142,7 @@ additionalContent: |
 
   ## Se også
 
-  [Blive køreklar](ui-get-ready-business.md)  
+  [Blive køreklar til at foretage handler](ui-get-ready-business.md)  
   [Ofte stillede spørgsmål om Fortæl mig](ui-search-faq.md)  
   [Ofte stillede spørgsmål om søgning og filtrering](ui-search-filter-faq.yml)  
   [Ofte stillede spørgsmål om listevisninger](ui-views-faq.yml)  

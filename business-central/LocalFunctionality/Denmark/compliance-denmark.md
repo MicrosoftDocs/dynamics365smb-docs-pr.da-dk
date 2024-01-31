@@ -3,15 +3,14 @@ title: Overholdelse af bogføringsloven i Danmark
 description: Lær hvordan Business Central overholder bogføringsloven i Danmark.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'bookkeeping, law, compliance, e-vat, e-document, nemhandel, denmark, dk'
 ms.search.form: null
-ms.date: 12/26/2023
+ms.date: 01/18/2024
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
-
+# Overholdelse af bogføringsloven i Danmark 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] (sky) er registreret som digitalt bogføringssystem i Danmark.  
 
 > [!IMPORTANT]
@@ -22,7 +21,7 @@ Registreringsattest er baseret på jfr. §4 stk.1 i bekendtgørelse nr. 98 af 26
 > [!NOTE]
 > Følgende dokument giver ikke officiel dokumentation i processen med certificering hos DBA. Dette er blot en forklaring på, at Dynamics 365 Business central overholder alle krav og i sidste ende instruktioner til partnere eller kunder, hvis de ønsker at certificere deres løsning uden for Microsoft.  
 
-# Hvordan opfyldes Business central?   
+## Hvordan opfyldes Business central?   
 
 For at opnå dette registreringsbevis [!INCLUDE[prod_short](../../includes/prod_short.md)] skulle overholde forskellige krav fra Danske Erhvervsmyndigheder baseret på bekendtgørelse nr. 97.  
 
@@ -238,7 +237,7 @@ Krav: Besked om registrering i Nemhandelsregistrere og Registreringsfunktionalit
 
 Hvordan [!INCLUDE[prod_short](../../includes/prod_short.md)] overholder:
 
-Hvis virksomheden ikke er registreret i NemHandelsregisteret, vises en meddelelse øverst på siden med registreringsinstruktioner. Hvis virksomheden er registreret, vil [!INCLUDE[prod_short](../../includes/prod_short.md)] tjekke om CVR-nummeret på siden Virksomhedsoplysninger findes som registreret i NemHandelsregisteret, og hvis det findes, vil beskeden simpelthen ikke fremkomme, og denne virksomhed vil blive markeret som ' registreret i NemHandelsregisteret'. 
+Hvis virksomheden ikke er registreret i NemHandelsregisteret, vises en meddelelse øverst på siden med registreringsinstruktioner. Hvis virksomheden er registreret, vil [!INCLUDE[prod_short](../../includes/prod_short.md)] tjekke om CVR-nummeret på siden Virksomhedsoplysninger findes som registreret i NemHandelsregisteret, og hvis det findes, vil beskeden ikke fremkomme, og denne virksomhed vil blive markeret som ' registreret i NemHandelsregisteret'. 
 
 For at starte registreringen skal brugeren vælge linket Tilmeld dig i NemHandelsregisteret i meddelelsen. Når brugeren har afsluttet registreringen i NemHandelsregisteret, forsvinder meddelelsen. Flere oplysninger om [anmeldelse og tilmelding til NemHandelsregisteret i Danmark](how-to-nemhandel-register.md).   
 

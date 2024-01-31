@@ -8,8 +8,9 @@ ms.topic: conceptual
 ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 09/19/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-"></a>Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]
+# Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Mens du arbejder i [!INCLUDE [prod_short](includes/prod_short.md)], interagerer du med data på forskellige måder. Du kan f.eks. oprette poster, indtaste data, sortere og filtrere data, skrive noter og eksportere data til andre programmer.
 
@@ -23,14 +24,14 @@ Hvis du vil bruge et vandret rullepanel til at få vist alle kolonner på en lis
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Tip
+## <a name="cheatsheet"></a>Tip
 
 > [!TIP]
 > Hvis du vil have vist en printervenlig oversigt over de mest benyttede funktioner, skal du vælge følgende billede og hente PDF-filen.
 >
 > [ ![Ikon for PDF-filen.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Ikon, der åbner et PDF-dokument")
 
-## <a name="links-to-learn-more"></a>Links til flere oplysninger
+## Links til flere oplysninger
 
 I følgende tabel vises nogle af den generelle funktionalitet med links til emner, hvor de er beskrevet.
 
@@ -56,13 +57,13 @@ I følgende tabel vises nogle af den generelle funktionalitet med links til emne
 |Administrer indholdet og formatet af rapporter og dokumenter. Angiv de feltdata, der skal medtages, og hvordan de vises. Du kan f.eks. vælge et tekstformat, tilføje billeder og meget mere.|[Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md) |
 |Få mere at vide om funktioner og muligheder, der gør [!INCLUDE[prod_short](includes/prod_short.md)] direkte tilgængelig for personer med handicap.|[Tilgængelighedsfunktioner og tastaturgenveje](ui-accessibility.md)|
 
-## <a name="getting-around-in-business-central"></a>Navigation i Business Central
+## Navigation i Business Central
 
 Her er en kort video om, hvordan du bevæger dig rundt i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## <a name="choosing-a-desktop-browser"></a>Sådan vælger du en desktopbrowser
+## Sådan vælger du en desktopbrowser
 
 [!INCLUDE[prod_short](includes/prod_short.md)] Understøtter flere browsere, og hver browser tilbyder forskellige funktioner. Browseren spiller en vigtig rolle for, hvor hurtigt brugergrænsefladen reagerer og kan bruges. Kontroller listen over understøttede, anbefalede browsere til [Business Central Online](./product-requirements.md) og browsere til [Business Central til det lokale miljø](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
@@ -72,7 +73,7 @@ Her er en kort video om, hvordan du bevæger dig rundt i [!INCLUDE[prod_short](i
     > Internet Explorer understøttes ikke længere. Du kan få mere at vide ved at gå til [Microsoft Edge-dokumentation](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Sørg for, at din browser altid er opdateret til den nyeste version.
 
-## <a name="action-bars"></a>Handlingslinjer
+## Handlingslinjer
 
 I [!INCLUDE [prod_short](includes/prod_short.md)] gør du det meste af arbejdet på en liste, et dokument eller et kort. Alle sider har en bjælke med handlinger, der er relevante for dem. Handlingerne er næsten ens for det enkelte kort eller dokument og listen over objekter. På den måde kan du administrere en individuel salgsordre på siden **Salgsordre** og på listen **Salgsordrer**, herunder bogføre og fakturere den.  
 
@@ -89,7 +90,7 @@ Når du søger efter en åben listeside, f. eks **Salgsordrer**, vises den i Vis
 
 Men når du åbner den samme listeside fra startsiden, er handlingen **Administrer** ikke tilgængelig. I stedet for at åbne en individuel salgsordre skal du blot vælge feltet **Nummer**. I denne visning kan du ikke fastgøre handlingslinjen.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Blive køreklar](ui-get-ready-business.md)  
 [Konfigurere Business Central](setup.md)  

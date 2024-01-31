@@ -3,19 +3,18 @@ title: Oversigt over Power BI-integrationskomponent og -arkitektur for Business 
 description: Flere oplysninger om forskellige aspekter ved Power BI-integration med Business central.
 author: jswymer
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.reviewer: bholtorf
 ms.date: 04/01/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="power-bi-integration-component-and-architecture-overview-for-"></a>Oversigt over Power BI-integrationskomponent og -arkitektur for [!INCLUDE[prod_short](includes/prod_short.md)]
+# Oversigt over Power BI-integrationskomponent og -arkitektur for [!INCLUDE[prod_short](includes/prod_short.md)]
 
 I denne artikel kan du læse om de forskellige aspekter ved Power BI-integration med [!INCLUDE[prod_short](includes/prod_short.md)] som hjælp til at forstå implementering og brug.
 
-## <a name="components"></a>Komponenter
+## Komponenter
 
 I følgende tabel beskrives de vigtigste komponenter, der indgår i Power BI-integrationen.
 
@@ -25,7 +24,7 @@ I følgende tabel beskrives de vigtigste komponenter, der indgår i Power BI-int
 |Power BI Desktop|Et oprettelsesværktøj til opbygning af rapporter og dashboards, og du kan køre rapporter. Den kan hentes gratis på Microsoft Store og installeres lokalt.|
 |[!INCLUDE[prod_short](includes/prod_short.md)]|Online eller lokal løsning med connectorer til Power BI og mulighed for at integrere en Power BI-del.|
 
-## <a name="whats-available-from-the-start"></a>Hvad er tilgængeligt fra begyndelsen
+## Hvad er tilgængeligt fra begyndelsen
 
 Følgende tabel beskriver de tilgængelige funktioner.
 
@@ -37,7 +36,7 @@ Følgende tabel beskriver de tilgængelige funktioner.
 |Standardrapporter fra Power BI i rollecentre, der er udrullet til Power BI|Online|
 |Power BI-apps på Microsoft AppSource|Online|
 
-## <a name="architecture"></a>Arkitektur
+## Arkitektur
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integreres med Power BI via en connector, der bruger OData. Datakilden til Power BI-rapporter vises som API-sider og OData-webtjenester.
 
@@ -45,7 +44,7 @@ Følgende tabel beskriver de tilgængelige funktioner.
 
 Fra og med februar 2022 er Power BI-rapporter om [!INCLUDE[prod_short](includes/prod_short.md)] Online baseret på en sekundær, skrivebeskyttet databasereplika. Database-replika er en del af [read scale-out](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview)-funktionen i [!INCLUDE[prod_short](includes/prod_short.md)] online. Denne konfiguration frigør hoveddatabasen til transaktioner, hvilket forbedrer systemets ydeevne. Når du opretter forbindelse til den skrivebeskyttede databasereplika, er det en integreret del af Business Central online-connector og kræver ingen ekstra opsætning. Alle nye rapporter opretter som standardforbindelse til den skrivebeskyttede databasereplika. Gamle rapporter bruger stadig hoveddatabasen. Du kan finde flere oplysninger i [Business Central 2021 Release Wave 2-plan ](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
-## <a name="general-flow"></a>Generelt flow
+## Generelt flow
 
 I følgende diagram illustreres den grundlæggende arbejdsgang for brugere, når der oprettes forbindelse mellem [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI.
 
@@ -59,7 +58,7 @@ I følgende diagram illustreres den grundlæggende arbejdsgang for brugere, når
 6. Bruger opretter en rapport i Power BI Desktop.
 7. Bruger udgiver rapporten til Power BI-tjenesten. Rapporterne kan derefter vælges i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Business Central og Power BI](admin-powerbi.md)  
 [Power BI for forbrugere](/power-bi/consumer/end-user-consumer)  

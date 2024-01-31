@@ -3,29 +3,28 @@ title: Nedbrydning med styret læg-på-lager og pluk
 description: 'Få mere at vide om, hvordan du aktiverer automatisk nedbrydning med styret læg-på-lager og pluk samt nedbrydning i pluk, putaways, bevægelser m.m.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '5703, 7352'
 ms.date: 11/04/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Aktivere automatisk nedbrydning med styret læg-på-lager og pluk
+# Aktivere automatisk nedbrydning med styret læg-på-lager og pluk
 
 På lokationer, hvor der bruges styret læg-på-lager og pluk, kan [!INCLUDE[prod_short](includes/prod_short.md)] nedbryde større enheder til mindre enheder, når der oprettes lagerinstruktioner, som opfylder behovet for kildedokumenter, produktionsordrer eller interne pluk og læg-på-lager. Nedbrydning kan også betyde, at varer i mindre enheder bliver større, så de svarer til antallet af en større enhed i et kildedokument eller en produktionsordre.
 
-## <a name="breakbulk-in-picks"></a>Nedbryde i pluk
+## Nedbryde i pluk  
 
 Hvis du vil lagre varer i flere forskellige enheder på en placering og lade dem blive automatisk kombineret efter behov i plukprocessen, skal du aktivere feltet **Tillad nedbrydning** på siden med lokationskortet. Når programmet skal fuldføre en opgave, leder [!INCLUDE [prod_short](includes/prod_short.md)] efter en vare fra samme enhed. Hvis der ikke findes en, foreslår [!INCLUDE [prod_short](includes/prod_short.md)], at du afbryder en større enhed i den måleenhed, der er nødvendig.  
 
 Hvis systemet kun kan finde mindre enheder, foreslår [!INCLUDE [prod_short](includes/prod_short.md)], at du samler varerne for at opfylde antallet på leverance- eller produktionsordren. I praksis nedbryder det større enheder på kildedokumentet til mindre enheder, der kan plukkes.  
 
-## <a name="breakbulk-in-put-aways"></a>Nedbryde i læg-på-lager
+## Nedbryde i læg-på-lager  
 
 I læg-på-lager-aktiviteter kommer [!INCLUDE [prod_short](includes/prod_short.md)] med forslag til placeringslinjer i læg-på-lager-enheden. F.eks. kan det foreslå dele, selvom varerne ankommer til en anden enhed.  
 
-## <a name="breakbulk-in-movements"></a>Nedbryde i bevægelse
+## Nedbryde i bevægelse  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] kan også nedbryde i genopfyldningsbevægelser, hvis indstillingen **Tillad nedbrydning** på siden **Beregn genopfyldning** er aktiveret.  
 
@@ -40,7 +39,7 @@ Du kan få vist resultaterne af konverteringsprocessen fra en enhed til en anden
 > - indstille basisenheden for en vare til at være den mindste enhed, som du forventer at skulle håndtere under lagerprocessen.  
 > - Indstil alternative enheder for varen som flere forekomster af basisenheden.  
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

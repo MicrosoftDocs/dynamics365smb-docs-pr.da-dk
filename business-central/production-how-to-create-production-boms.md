@@ -7,8 +7,9 @@ ms.search.keywords: 'production bom, bills of material,'
 ms.search.form: '911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818'
 ms.date: 06/22/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-production-boms"></a>Oprette produktionsstyklister
+# Oprette produktionsstyklister
 
 En produktionsstykliste indeholder masterdata, som beskriver de komponenter og halvfabrikata, som anvendes til fremstilling af en overordnet vare. Så snart der oprettes en produktionsordre for den overordnede vare, bestemmer dens produktionsstykliste beregningen af materialebehov, som repræsenteret på siden **Prod.ordrekomponenter**.
 
@@ -22,7 +23,7 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
 - Der er oprettet varekort for overordnede varer, der indgår i produktionen. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 - Produktionsressourcer er oprettet. Du kan finde flere oplysninger i [Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md).
 
-## <a name="to-create-a-production-bom"></a>Sådan oprettes en produktionsstykliste
+## Sådan oprettes en produktionsstykliste
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Produktionsstykliste**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -46,7 +47,7 @@ Før du kan oprette en rute, skal følgende betingelser være opfyldt:
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Hvis du vil genberegne varens standardkostpris fra varekortet, skal du vælge handlingen **Produktion** og derefter vælge handlingen **Beregn standardkostpris**.  
 
-## <a name="to-create-a-new-version-of-a-production-bom"></a>Sådan oprettes en ny version af en produktionsstykliste
+## Sådan oprettes en ny version af en produktionsstykliste
 
 Nye versioner af produktionsstyklister anvendes, når f.eks. en vare erstattes af en anden vare, eller når en kunde bestiller en speciel version af et produkt. Versionsprincippet gør det muligt at administrere flere versioner af en produktionsstykliste. Ruteversionens struktur svarer til rutens struktur. Forskellen ligger i versionernes tidsmæssige gyldighed. Gyldigheden bestemmes af startdatoen.  
 
@@ -70,7 +71,7 @@ Gyldigheden i tid for versionen angives i feltet **Startdato**.
 >
 > Fantomstyklister anvendes til at strukturere produkter. Denne produktionsstyklistetype fører aldrig til et færdigt produkt, men anvendes udelukkende til at bestemme afhængige behov. Fantomstyklister har ikke deres egne stamdata for varer.
 
-## <a name="quantity-calculation-formula-on-production-boms"></a>Beregningsformel for mængde på produktionsstyklister
+## Beregningsformel for mængde på produktionsstyklister
 
 Mængden beregnes under hensyntagen til forskellige dimensioner, der også er angivet på produktionsstyklistens linjer. Dimensionerne henviser til en ordreenhed for den pågældende vare. Længde, bredde, dybde og vægt kan angives som dimensioner.  
 
@@ -88,11 +89,11 @@ De enkelte komponenters relation defineres af beregningsformlen. Du kan vælge m
 > [!NOTE]
 > Formlen til beregning af **fast mængde** sikrer, at en komponents forbrug er den samme, uanset spild-eller afgangsantal. For produktionsordrekomponenter er værdien af feltet **Forventet antal** altid lig med feltet **Antal pr.**, når feltet **Beregningsformel** er indstillet til **Fast antal**. Den spildprocent, der er defineret på samme linje, ignoreres. Fast antal respekteres af rapporten **Disponering pr. stykliste**. Rapporten viser varen som flaskehals, hvis det disponible antal er mindre end antallet i feltet **Antal pr. overordnet**. Felterne **Muligheder for at gøre overordnet** og **kunne gøre de øverste vare** er altid tomme uanset det disponible antal. Fast antal indgår også i beregninger af standardkostpriser. Lotstørrelsen for den producerede vare påvirker den omkostning, der er tildelt én vare.
 
-### <a name="example"></a>Eksempel
+### Eksempel
 
 En produktionsstykliste kræver 70 metaldele med dimensionernes længde = 0,20 m og bredde = 0,15 m. Værdierne angives sådan: Beregningsformel = Længde x bredde, længde = 20, bredde = 15, Antal pr. = 70. Antallet er givet af antal pr. x længde * bredde, det vil sige, antal = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprette ruter](production-how-to-create-routings.md)  
 [Administrere produktvarianter](inventory-item-variants.md)  

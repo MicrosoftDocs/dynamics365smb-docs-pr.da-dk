@@ -3,15 +3,14 @@ title: Analyse af pengestrømme
 description: 'Beskriver, hvordan du bruger diagrammerne Kassebeholdningsproces, Indtægter og udgifter, Pengestrøm og Pengestrømsprognose til at analysere tidligere og fremtidige pengestrømme til og fra din virksomhed.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera'
 ms.search.form: '762, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818'
 ms.date: 12/20/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Analysere pengestrømme i din virksomhed
+# Analysere pengestrømme i din virksomhed
 Diagrammer i rollecenteret Regnskabsmedarbejder giver indsigt, som kan hjælpe dig med at træffe beslutninger vedrørende dine pengestrømme.  
 
 | For at besvare spørgsmål som de følgende | Skal du bruge dette diagram |
@@ -36,13 +35,13 @@ Hvis du vil undersøge prognosen ud over prognoseposter, kan du også se pengest
 * Fratrækker skyldige beløb og tilføjer tilgodehavender.  
 * Springer dubletter af salgsordrer og købsordrer over.  
 
-## <a name="to-view-a-cash-flow-worksheet"></a>Sådan vises en pengestrømskladde
+## Sådan vises en pengestrømskladde
 
 1. Søg efter **Pengestrømsprognoser**, og vælg derefter det relaterede link.  
 2. Vælg en pengestrømsprognose, og vælg derefter handlingen **Pengestrømskladde**.  
 3. På siden **Pengestrømskladde** skal du vælge handlingen **Foreslå kladdelinjer**.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

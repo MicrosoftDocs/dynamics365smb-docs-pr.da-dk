@@ -3,15 +3,14 @@ title: Håndbevægelser til touch og pen
 description: 'Få mere at vide om berørings- og penbevægelser, som kan hjælpe dig med at arbejde effektivt med dine data fra tablets og telefoner.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'accessibility, shortcuts, charts, tiles'
 ms.date: 04/29/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Håndbevægelser til touch og pen til tablet og telefoner
+# Håndbevægelser til touch og pen til tablet og telefoner 
 
 Denne artikel indeholder nogle af de specielle bevægelser, du kan bruge, når du arbejder med [!INCLUDE[prod_short](includes/prod_short.md)] fra en tablet eller en telefon.
 
@@ -30,7 +29,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Hurtig reference til genveje - på pc'er](keyboard-shortcuts-cheatsheet.md)  
 [Hjælpefunktioner](ui-accessibility.md)  

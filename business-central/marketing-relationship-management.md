@@ -4,15 +4,14 @@ description: 'Relationsstyringsfunktionerne i understøtter din salgsindsats, og
 documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'contact, prospect, client'
 ms.search.forms: '9076, 9026'
 ms.date: 06/22/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="managing-relationships"></a>Styre relationer
+# Styre relationer
 Relationsstyringsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)] hjælper dig med at styre og understøtte din salgsindsats. Med disse funktioner får du adgang til dækkende og præcise oplysninger, så du kan fokusere på interaktioner med dine foretrukne kunde-/kontaktmålgrupper.
 
 Gode fremgangsmåder ved salg og marketing drejer sig primært om, hvordan du træffer de bedste beslutninger på det rigtige tidspunkt. [!INCLUDE[prod_short](includes/prod_short.md)] stiller med rettidigt at stille en præcis oversigt til rådighed over dine kontaktoplysninger, så du kan betjene dine vordende kunder mere effektivt og øge kundetilfredsheden.

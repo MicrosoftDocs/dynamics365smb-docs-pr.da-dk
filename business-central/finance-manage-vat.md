@@ -3,15 +3,14 @@ title: Oversigt over momsstyring
 description: 'Få mere at vide om, hvordan du administrerer moms med anførte oplysninger og ressourcer.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: VAT
 ms.search.form: '118, 472, 737, 743'
 ms.date: 01/31/2023
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
-# <a name="vat-management-overview"></a>Oversigt over momsstyring
+# Oversigt over momsstyring
 Moms er en indirekte afgift af forbruget af varer og tjenesteydelser. Der opkræves moms på hvert enkelt trin af forsyningskæden, når der lægges værdi fra den første produktion til pos. Se følgende emner for at komme i gang med momsstyring.  
 
 |  Artikel  |  Beskrivelse  |  
@@ -29,7 +28,7 @@ Moms er en indirekte afgift af forbruget af varer og tjenesteydelser. Der opkræ
 | [Validere momsregistreringsnumre](finance-how-validate-vat-registration-number.md) | Denne artikel forklarer, hvordan du bruger Business Central-validering til momsregistreringsnummeret for kontakter, debitorer og kreditorer, baseret på den Europæiske Unions liste momsnummer validerings service.|
 
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Finans](finance.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

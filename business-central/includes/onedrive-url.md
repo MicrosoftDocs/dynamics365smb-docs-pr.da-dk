@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 Du skal bruge en URL-adresse til at oprette forbindelse til OneDrive fra Business central. Den nemmeste måde at få URL-adressen på er at logge på [OneDrive](https://onedrive.live.com) med din organisation. I browserens adresse kan du se en URL-adresse, der har følgende format:
 
 `https://<your Microsoft 365 tenant name>-my.sharepoint.com/personal/<your user name>`

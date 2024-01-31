@@ -3,9 +3,10 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/24/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 22.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 22.](../media/ui-search/search_small.png "Søg efter forstørrelsesglas") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
 2. På siden **Varer** skal du vælge handlingen **Ny**.
 
     Hvis der kun er én vareskabelon, åbnes nye varekort med nogle felter, der er udfyldt med oplysninger fra denne skabelon.

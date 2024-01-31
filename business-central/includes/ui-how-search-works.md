@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 06/14/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Når du har angivet nøgleordene, starter [!INCLUDE [prod_short](prod_short.md)] søgningen i baggrunden og gennemgår hver tabel én ad gangen. Søgeresultaterne begynder for at blive vist, når det er færdigt hver tabel. Hvis du indtaster mere end ét nøgleord, vil resultaterne kun indeholde de poster, der indeholder alle ordene i de valgte felter.

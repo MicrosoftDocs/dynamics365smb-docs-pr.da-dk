@@ -7,12 +7,13 @@ ms.search.keywords: multiple currencies
 ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="currencies-in-business-central"></a>Valutaer i Business Central
+# Valutaer i Business Central
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## <a name="currencies"></a>Valutaer
+## Valutaer
 
 > [!TIP]  
 > Hvis du leder efter realtidsoplysninger om valutakurser (fx) eller historiske kurser, omtales de som valuta i [!INCLUDE[prod_short](includes/prod_short.md)]. Udover denne artikel kan du også se [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md).
@@ -21,15 +22,15 @@ ms.author: bholtorf
 
 Du kan angive valutakoder i **valutaerne**, herunder yderligere oplysninger og indstillinger, der er nødvendige for hver valutakode. Der er flere oplysninger i [Valutaer](finance-set-up-currencies.md#curr)
 
-### <a name="example-of-a-receivable-currency-transaction"></a>Eksempel på en valutapostering for tilgodehavender
+### Eksempel på en valutapostering for tilgodehavender
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="exchange-rates"></a>Valutakurser
+## Valutakurser
 
 Valutakurserne er værktøjet til beregning af den lokale valutaværdi (RV) for hver valuta transaktion. Du kan finde flere oplysninger i [Opdatere valutakurser](finance-how-update-currencies.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Definere valutaer](finance-set-up-currencies.md)  
 [Opdatere valutakurser](finance-how-update-currencies.md)  

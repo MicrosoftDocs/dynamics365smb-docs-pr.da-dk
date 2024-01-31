@@ -3,16 +3,15 @@ title: Regnskab og bogholderi
 description: 'Denne artikel indeholder oplysninger, der kan hjælpe dig med at bruge Microsoft Dynamics 365 Business Central til korrekt udførelse af regnskab og bogholderi for din virksomhed.'
 author: altotovi
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'accounting, bookkeeping'
 ms.search.form: '16, 39, 108'
 ms.date: 03/14/2023
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="accounting-and-bookkeeping"></a>Regnskab og bogholderi
+# Regnskab og bogholderi
 
 Bogføring er en kritisk funktion i enhver ERP-løsning (Enterprise Resource Planning) og i de fleste virksomheder. Regnskabet er den proces, der bruges til at registrere og katalogisere virksomhedens økonomiske transaktioner og derefter hente, måle, opsummere og præsentere resultaterne ved hjælp af forskellige rapporter, der ofte kræves af lokal lovgivning. Det primære mål for denne proces er at hjælpe virksomhedens ledelse med at håndtere virksomhedens finans og måleresultaterne af virksomhedens økonomiske aktiviteter.
 
@@ -100,7 +99,7 @@ Den følgende tabel indeholder en opgavesekvens og leverer links til de artikler
 | Aktivere global finansiel rapportering til internationale revisionsfirmaer med XBRL-standarden (eXtensible Business Reporting Language). | [Oprette rapporter med XBRL](bi-create-reports-with-xbrl.md) |
 | Rediger formål for adgang til databaser på rapporter, sider af typen API og forespørgsler for at reducere belastningen og forbedre ydeevnen. | [Administrere hensigter med databaseadgang](admin-data-access-intent.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere Finans](finance-setup-finance.md)  
 [Salg](sales-manage-sales.md)  

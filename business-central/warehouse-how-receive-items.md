@@ -5,12 +5,11 @@ author: brentholtorf
 ms.author: bholtorf
 ms.topic: how-to
 ms.date: 09/02/2022
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008'
+ms.service: dynamics-365-business-central
 ---
-# <a name="receive-items-with-warehouse-receipts"></a>Modtage varer med en lagermodtagelse
+# Modtage varer med en lagermodtagelse
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du modtage varer og indsætte dem på en af fire måder som beskrevet i følgende tabel.
 
@@ -25,7 +24,7 @@ Du kan lære mere om, hvordan indgående varer håndteres, ved at gå til [Indg�
 
 Følgende artikel henviser til metode C og D i den foregående tabel.
 
-## <a name="receive-items-with-a-warehouse-receipt"></a>Modtage varer med en lagermodtagelse
+## Modtage varer med en lagermodtagelse
 
 Når der ankommer varer til et lagersted, der er sat op til lagermodtagelse, henter du de linjer i kildedokumentet, som har udløst modtagelsen. Hvis du bruger placeringer, kan du enten acceptere standardplaceringen eller angive den placering, varerne skal anbringes i. Dette kan være nødvendigt, når du modtager en vare for første gang. Du skal derefter udfylde det antal af varen, du har modtaget, og bogføre modtagelsen.  
 
@@ -66,7 +65,7 @@ Du kan anvende svar på en af to måder:
     > [!NOTE]  
     > Hvis lagerstedet bruger direkte afsendelse, kan du kontrollere, om du kan afsende varer direkte uden at lægge dem på lager. Hvis du vil vide mere om direkte afsendelse, skal du gå til [Afsende varer direkte](warehouse-how-to-cross-dock-items.md).
 
-## <a name="how-to-use-filters-to-get-source-documents"></a>Sådan bruges filtre til at hente kildedokumenter
+## Sådan bruges filtre til at hente kildedokumenter
 
 Fra en ny eller en åben lagermodtagelse kan du bruge siden **Filtre til at hente kildedok.** til at hente de frigivne kildedokumentlinjer, der definerer, hvilke varer der skal modtages eller leveres.
 
@@ -82,7 +81,7 @@ Alle frigivne kildedokumentlinjer, som opfylder filterkriterierne, indsættes nu
 
 Du kan oprette et ubegrænset antal filterkombinationer. De filterkombinationer, du definerer, gemmes på siden **Filtre til at hente kildedok.**, indtil næste gang du skal bruge dem. Du kan til enhver tid ændre kriterierne ved at vælge handlingen **Ret**.
 
-## <a name="zone-and-bin-codes"></a>Zone-og placeringskoder
+## Zone-og placeringskoder
 
 Hvis du vil modtage varer med en anden lagerklassekode end placeringens klassekode i feltet **Placeringskode** i dokumenthovedet, skal du slette indholdet i feltet **Placeringskode** i hovedet, inden du henter kildedokumentlinjerne for varerne.  
 <!-- TBD, table with comparison of various options-->
@@ -92,7 +91,7 @@ Hvis placeringer er obligatoriske for en lokation, føjes zone-og placeringskode
 * I forbindelse med avancerede konfigurationer, der bruger styret læg-på-lager og pluk, bruger [!INCLUDE [prod_short](includes/prod_short.md)] modtagelsesplaceringskoden fra siden **lokationskort** for lokationen. Hvis der ikke er angivet en modtagelsesplaceringskode, er der ikke angivet nogen placering. Hvis varen og kvitterings placeringerne ikke stemmer overens, er modtagelsesplaceringskoden tom.
 * I andre konfigurationer bruges placeringskoden fra kildedokumentet, hvis der ikke er angivet [!INCLUDE [prod_short](includes/prod_short.md)], bruges en modtagelsesplaceringskode.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

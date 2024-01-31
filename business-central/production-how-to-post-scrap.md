@@ -3,21 +3,20 @@ title: Bogføre spild manuelt
 description: 'Hvis der produceres spild under fremstillingen, kan dette også angives i afgangskladden. Bemærk, at spildmængden ikke øger afgangsantallet.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 99000823
 ms.date: 03/08/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="post-scrap-manually"></a>Bogføre spild manuelt
+# Bogføre spild manuelt
 
 Hvis der produceres spild under fremstillingen, kan dette også angives i afgangskladden.  
 
 > [!NOTE]
 > Spildmængden forøger ikke afgangsantallet.  
 
-## <a name="to-post-scrap-manually"></a>Sådan bogføres spild manuelt
+## Sådan bogføres spild manuelt
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Afgangskladde**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -27,7 +26,7 @@ Hvis der produceres spild under fremstillingen, kan dette også angives i afgang
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Produktion](production-manage-manufacturing.md)
 [Konfigurere produktion](production-configure-production-processes.md)  

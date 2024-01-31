@@ -9,26 +9,27 @@ ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5082,'
 ms.date: 09/05/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# <a name="attachments-for-interactions"></a>Vedhæftede filer til interaktioner
+# Vedhæftede filer til interaktioner
 
 De filer, der er vedhæftet interaktioner, knyttes ikke direkte til interaktionen. De kommer fra ét af følgende steder:
 
 * Den interaktionsskabelon, du har brugt til at oprette interaktionen. Flere oplysninger om konfiguration af skabeloner finder du i [Konfigurere interaktionsskabeloner](marketing-interactions.md#set-up-interaction-templates).
 * Den målgruppe, du har oprettet interaktionen for. Du kan få mere at vide om segmenter ved at gå til [Administrer interaktioner for segmenter](marketing-interaction-segments.md).
 
-## <a name="view-attachments"></a>Vise vedhæftede filer
+## Vise vedhæftede filer
 
 Vedhæftede filer er tilgængelige, når du får vist registrerede interaktioner på siden **Interaktionslogposter**. Vælg handlingen **Vis vedhæftede filer**.
 
-## <a name="types-of-files-you-can-attach"></a>Typer af filer, du kan vedhæfte
+## Typer af filer, du kan vedhæfte
 
 Vedhæftede filer kan være næsten enhver filtype, f.eks. Word-dokumenter, PowerPoint-præsentationer, Excel- eller tekstfiler.
 
 > [!TIP]
 > [!INCLUDE [prod_short](includes/prod_short.md)] integreres med Word, som giver dig mulighed for at bruge funktioner som flette felter på Word-skabeloner. Du kan få mere at vide om brug af Word-skabeloner ved at gå til [Brug af Word-skabeloner til massekommunikation](ui-mail-merge.md).
 
-## <a name="what-you-can-do-with-attachments"></a>Brug vedhæftede filer til følgende
+## Brug vedhæftede filer til følgende
 
 Du kan bruge vedhæftede filer til følgende handlinger:
 
@@ -38,6 +39,6 @@ Du kan bruge vedhæftede filer til følgende handlinger:
 * **Fjern**: Fjern den aktuelle vedhæftede fil fra en interaktionsskabelon.
 * **Kopier**: Kopier vedhæftede filer fra en anden interaktionsskabelon.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Registrere interaktioner med kontakter](marketing-interactions.md)  
