@@ -8,15 +8,15 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Fejlfinding af selvbetjeningstilmelding
+# <a name="troubleshooting-self-service-sign-up"></a>Fejlfinding af selvbetjeningstilmelding
 Tilmelding til [!INCLUDE[prod_short](includes/prod_short.md)] er nemt og kan udføres hurtigt. Du kan oprette en gratis konto, selvom du en eksisterende virksomhed. Denne artikel løser problemer, der måtte opstå under tilmeldingen.
 
-## Hvilken mailadresse kan jeg bruge til Business Central?
+## <a name="what-email-address-can-i-use-with-business-central"></a>Hvilken mailadresse kan jeg bruge til Business Central?
 [!INCLUDE[prod_short](includes/prod_short.md)] kræver, at du bruger en arbejds- eller skolemailadresse til at tilmelde dig. [!INCLUDE[prod_short](includes/prod_short.md)] understøtter ikke mailadresser, som leveres af forbrugermailtjenester eller telekommunikationsudbydere. Dette omfatter outlook.com, hotmail.com, gmail.com og andre.
 
 Hvis du forsøger at tilmelde dig med en privat mailadresse, får du en meddelelse om, at du skal bruge en arbejds- eller skolemailadresse.
 
-## Fejlfinding
+## <a name="troubleshooting"></a>Fejlfinding
 I mange tilfælde kan registrering til [!INCLUDE[prod_short](includes/prod_short.md)] gøres ved at følge tilmeldingsprocessen. Der er flere årsager til, hvorfor du ikke muligvis ikke kan fuldføre selvbetjeningstilmelding. Tabellen nedenfor indeholder en oversigt over nogle af de mest almindelige årsager til, at du ikke kan fuldføre tilmeldingen, og hvordan du kan løsning disse problemer.
 
 | Symptom/fejlmeddelelse | Årsag og løsning |
@@ -28,13 +28,13 @@ I mange tilfælde kan registrering til [!INCLUDE[prod_short](includes/prod_short
 | Mailadressen er ikke et Microsoft 365-id. Du modtager en meddelelse som den følgende under tilmeldingen:<br /><br />**Vi finder ikke du i contoso.com. Bruger du et andet id på arbejde eller i skolen? Prøv at logge på med det, og hvis det ikke virker, skal du kontakte it-afdelingen.** |Din organisation bruger id'er til at logge på Microsoft 365 og andre Microsoft-tjenester, der er forskellige fra din mailadresse. For eksempel kan din mailadresse kan være Nancy.Smith@contoso.com, men dit id er nancys@contoso.com. Brug det id, som virksomheden har tilknyttet, til at logge på Microsoft 365 eller andre Microsoft-tjenester. Hvis du ikke kender det, skal du kontakte it-administratoren. Hvis du stadig ikke kan tilmelde dig og kan udføre en mere avanceret opsætning, kan du registrere dig til et nyt Microsoft 365-prøveabonnement og bruge denne mailadresse til at tilmelde dig. |
 | Hvis din Microsoft 365-konto er registreret i et understøttet land, og du tilmelder dig til [!INCLUDE[prod_short](includes/prod_short.md)], mens du er i et andet land, modtager du en meddelelse som følgende under tilmeldingen:<br /><br />**Det virkede ikke, vi understøtter ikke dit land eller område endnu.**| Virksomhedens Microsoft 365-abonnement er registreret til et bestemt land i Microsoft 365-administrationsportalen. Tilmeldingsoplevelsen for [!INCLUDE[prod_short](includes/prod_short.md)] bruger det sprog og den landekode, som din aktuelle webbrowser bruger, og derfor du kan få en fejlmeddelelse, selvom du befinder dig i et understøttet land. Bed administratoren om at kontrollere det land, der er angivet i organisationsprofilen i den [Microsoft 365-administrationsportalen](https://portal.office.com/adminportal/home#/companyprofile). Du skal muligvis bruge en anden konto til [!INCLUDE[prod_short](includes/prod_short.md)].|
 
-## Tilgængelighed i område
+## <a name="regional-availability"></a>Tilgængelighed i område
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fås i en række lande eller områder med lokalisering fra Microsoft eller en godkendt lokaliseringspartner. Du kan finde en komplet liste over de aktuelt understøttede lande og områder under [Tilgængelighed i land/område og understøttede oversættelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
 Du kan finde en oversigt over aktuelt understøttede markeder for hele Dynamics 365 under [International tilgængelighed af Microsoft Dynamics 365](/dynamics365/get-started/availability). Du kan finde en oversigt over lokal funktionalitet i [!INCLUDE[prod_short](includes/prod_short.md)] på startsiden [Lokal funktionalitet](about-localization.md).  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Tilmeld dig for at få en gratis Dynamics 365 Business Central-prøveversion](trial-signup.md)  
 [Dynamics 365 Business Central-prøveversion, ofte stillede spørgsmål](trial-faq.md)  

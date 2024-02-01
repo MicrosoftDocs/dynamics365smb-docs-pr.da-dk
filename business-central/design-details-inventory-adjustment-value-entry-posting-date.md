@@ -11,11 +11,11 @@ ms.date: 09/17/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Designoplysninger: Bogføringsdato på post med reguleringsværdi
+# <a name="design-details-posting-date-on-adjustment-value-entry"></a>Designoplysninger: Bogføringsdato på post med reguleringsværdi
 
 Denne artikel indeholder en vejledning til brugere af funktionen til lagerprisberegning i [!INCLUDE[prod_short](includes/prod_short.md)], og det er især, at kørslen **Reguler kostværdi-vareposter** identificerer og tildeler en bogføringsdato til de værdiposter, som kørslen skal til at oprette.
 
-## Sådan tildeles bogføringsdatoer
+## <a name="how-posting-dates-are-assigned"></a>Sådan tildeles bogføringsdatoer
 
 Kørslen **Reguler kostværdi – vareposter** tildeler en bogføringsdato til den værdipost, der er ved at blive oprettet i følgende trin:  
 
@@ -27,7 +27,7 @@ Kørslen **Reguler kostværdi – vareposter** tildeler en bogføringsdato til d
 
 Lad os gennemgå processen mere i praksis. Antag, at vi har en varepost for varesalg. Varen blev leveret på den 5. september 2020, og den blev faktureret dagen efter.  
 
-#### Varepost
+#### <a name="item-ledger-entry"></a>Varepost
 
 |Løbenr.  |Varenr.  |Bogføringsdato  |Postens type  | Bilagsnr. |Lokationskode  |Antal  |Kostbeløb (faktisk)  |Faktureret antal  |Restantal  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
@@ -53,7 +53,7 @@ Du kan tildele bogføringsdatoen for **Postnr. 391** ved at benytte følgende fr
 
 Lad os gennemgå ovennævnte salg ved at tilføje opsætningen af tilladte bogføringsdatointervaller.  
   
-#### Lagerperioder
+#### <a name="inventory-periods"></a>Lagerperioder
 
 |Afslutningsdato  |Name  |Lukket  |
 |---------|---------|---------|
@@ -72,7 +72,7 @@ Lad os gennemgå ovennævnte salg ved at tilføje opsætningen af tilladte bogf�
 
 Den første tilladte bogføringsdato er den første dag i den første åbne periode, som er 1. september 2020.  
 
-#### Opsætning af Finans
+#### <a name="general-ledger-setup"></a>Opsætning af Finans
 
 |Felt|Værdi  |
 |---------|---------|
@@ -94,19 +94,19 @@ Den oprindeligt tildelt bogføringsdato er 6. september, som vist i trin 1. Men 
 |381     |  A       |    2020-09-06     |    Salg     | Købspris   | 103022        |319     | Blå        |  0       |-1        |-10       |    10     | Nr.  |0      |       Salg   |
 |391     |  A       |    **2020-09-10**     |    Salg     | Købspris   | 103022        |319     | Blå        |  0       |0         |-1        |    0     |Ja   |    181   | INVTADJMT   |
 
-## Almindelige problemer med "Juster kostpris - vareposter"-kørsel
+## <a name="common-problems-with-the-adjust-cost---item-entries-batch-job"></a>Almindelige problemer med "Juster kostpris - vareposter"-kørsel
 
 Der er to scenarier, som supportteamet ofte støder på for at garantere deres egne problemløsningsartikler.
 
-### Fejlmeddelelse: "Bogføringsdatoen er ikke inden for intervallet af tilladte bogføringsdatoer..."
+### <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Fejlmeddelelse: "Bogføringsdatoen er ikke inden for intervallet af tilladte bogføringsdatoer..."
 
 Hvis denne fejl opstår, skal du justere de datoer, hvor brugeren har tilladelse til at bogføre poster. Du kan finde flere oplysninger her [Fejlmeddelelse: "Bogføringsdatoen er ikke inden for intervallet af tilladte bogføringsdatoer"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md).
 
-### Bogføringsdato på reguleringsværdipost og bogføringsdatoen på post, der forårsager reguleringen, f.eks. værdiregulering eller varegebyr
+### <a name="posting-date-on-adjustment-value-entry-versus-posting-date-on-entry-causing-the-adjustment-such-as-revaluation-or-item-charge"></a>Bogføringsdato på reguleringsværdipost og bogføringsdatoen på post, der forårsager reguleringen, f.eks. værdiregulering eller varegebyr
 
 Du kan finde flere oplysninger her [Bogføringsdatoen for regulerings værdiposten sammenlignet med kildeposten](design-details-inventory-adjustment-value-entry-source-entry.md).
 
-## Se også  
+## <a name="see-also"></a>Se også
 
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)  
 [Designoplysninger: Vareudligning](design-details-item-application.md)  

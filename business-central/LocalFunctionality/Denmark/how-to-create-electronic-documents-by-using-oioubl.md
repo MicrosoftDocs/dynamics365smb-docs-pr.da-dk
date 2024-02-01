@@ -10,7 +10,7 @@ ms.date: 11/11/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Oprette elektroniske dokumenter ved hjælp af OIOUBL
+# <a name="create-electronic-documents-by-using-oioubl"></a>Oprette elektroniske dokumenter ved hjælp af OIOUBL
 
 > [!NOTE]
 > Denne funktion er ikke relateret til den nye E-dokumentramme og krav relateret til den nye danske bogføringslov. For ny funktionalitet og opdateret OIOUBL 3.0 kan du finde opdateret indhold i **Elektronisk fakturering med NemHandel**.   
@@ -26,7 +26,7 @@ Før du kan oprette elektroniske dokumenter, skal du oprette dine kunder til OIO
 
 Du kan oprette et elektronisk dokument, når du har bogført et salgs- eller servicedokument. I følgende afsnit beskrives, hvordan du bogfører en salgsfaktura med de nødvendige oplysninger og derefter opretter en elektronisk salgsfaktura, men samme fremgangsmåde gælder for salgs-og servicekreditnotaer og rykkere.  
 
-## Sådan bogføres en salgsfaktura
+## <a name="to-post-a-sales-invoice"></a>Sådan bogføres en salgsfaktura
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsfakturaer**, og vælg derefter det relaterede link.  
 2. Åbn den salgsfaktura, som du vil bogføre.  
@@ -41,7 +41,7 @@ Du kan oprette et elektronisk dokument, når du har bogført et salgs- eller ser
 
 5. Bogfør fakturaen.  
 
-## Sådan oprettes en elektronisk salgsfaktura
+## <a name="to-create-an-electronic-sales-invoice"></a>Sådan oprettes en elektronisk salgsfaktura
 
 Når du har bogført et dokument, kan du oprette en elektronisk faktura i OIOUBL-format. Nedenfor beskrives processen for bogførte salgsfakturaer, men proceduren er den samme for andre dokumenter.
 
@@ -53,7 +53,7 @@ Når du har bogført et dokument, kan du oprette en elektronisk faktura i OIOUBL
 > [!NOTE]
 > I onlineudgaven af Business Central og webklienten til versioner, der findes på stedet, oprettes XML-filen i mappen Hentede filer.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
  [Konfigurere OIOUBL](how-to-set-up-oioubl.md)  

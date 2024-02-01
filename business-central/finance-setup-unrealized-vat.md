@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Konfigurere urealiseret moms i forbindelse med bogføring baseret på kontanter
+# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Konfigurere urealiseret moms i forbindelse med bogføring baseret på kontanter
 
 Hvis du bruger bogføringsmetoder, der er baseret på kontanter, kan du konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til at håndtere urealiseret moms.
 
-## Sådan bruges finanskonti for urealiseret moms
+## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Sådan bruges finanskonti for urealiseret moms
 
 Du kan vælge, at momsbeløb beregnes og bogføres til en midlertidig finanskonto, når en faktura bogføres. Når den faktiske betaling af fakturaen bogføres, kan momsbeløbet så bogføres til den korrekte finanskonto og medtages i momsangivelsen. Du skal først [færdiggøre momsbogføringsopsætning](finance-setup-vat.md).
 
@@ -45,7 +45,7 @@ Når du vil bruge konti for urealiseret moms, skal du gøre følgende:
 > [!NOTE]  
 > Momsbeløbet bogføres på denne konto og bliver stående der, indtil debitors indbetaling er bogført. Derefter overføres beløbet til finanskontoen for købsmoms.
 
-## Se også
+## <a name="see-also"></a>Se også
 [Konfigurere beregnings- og bogføringsmetoder for moms](finance-setup-vat.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

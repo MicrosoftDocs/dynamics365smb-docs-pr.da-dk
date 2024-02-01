@@ -9,7 +9,7 @@ ms.date: 02/03/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Indbygget analyse
+# <a name="built-in-analytics"></a>Indbygget analyse
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en række funktioner, der giver dig mulighed for at analysere data i en samlet formular. Denne funktion er nyttig, hvis du f. eks. vil følge op på finansielle nøgletal (KPI'er) eller analysere regnskabsopgørelser i Microsft Excel. Nedenfor findes links, som du kan bruge til at lære at bruge det.
 
@@ -22,7 +22,7 @@ ms.service: dynamics-365-business-central
 |Analysere finansielle data på tværs af flere regnskaber | [Konsolidering af finansielle data fra flere regnskaber](finance-consolidated-company-reporting.md) |
 |Få indblik i, hvilke rapporter brugerne skal bruge| [Telemetri for rapportanvendelse](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversigt over Business Intelligence og rapportering](reports-use-reports.md)
 

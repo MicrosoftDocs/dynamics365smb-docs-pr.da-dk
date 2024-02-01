@@ -9,13 +9,13 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Udskrive pluklisten
+# <a name="print-the-picking-list"></a>Udskrive pluklisten
 
 Du kan udskrive en lagerplukliste direkte i salgsordrer, en salgsfakturaer og andre udgående salgsdokumenter, der bruges til at starte leverance af varer.
 
 Denne rapport bruges typisk i virksomheder uden dedikeret funktionalitet til lagerstyring, så en lagermedarbejder kan nøjes med at se eller udskrive pluklisten fra det relaterede salgsdokument. I virksomheder med større eller mere komplicerede processer planlægges og udføres forsendelse og plukning i dedikerede lagerdokumenter. Få mere at vide på [Udgående lagerstedsflow](design-details-outbound-warehouse-flow.md).
 
-## Sådan udskriver du en plukliste fra en salgsordre
+## <a name="to-print-a-picking-list-from-a-sales-order"></a>Sådan udskriver du en plukliste fra en salgsordre
 
 Følgende procedure er baseret på en salgsordre. Fremgangsmåden er den samme for alle andre salgsdokumenter, der kan bruges til at starte leverance af varer, f.eks. en overflytningsordre.
 
@@ -29,7 +29,7 @@ Du kan også gemme pluklisten som et dokument, hvis du f.eks. vil sende den til 
 > [!NOTE]
 > Hvis du har brugt funktionen **Udfold stykliste** på salgsordren, vises kun de komponenter, der hører til det relaterede montageelement, i rapporten. Du kan finde flere oplysninger i [Arbejde med styklister](inventory-how-work-BOMs.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Udgående lagerstedsflow](design-details-outbound-warehouse-flow.md)

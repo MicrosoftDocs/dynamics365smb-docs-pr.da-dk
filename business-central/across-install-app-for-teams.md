@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# Installér [!INCLUDE [prod_short](includes/prod_short.md)]-appen til Microsoft Teams
+# <a name="install-the--app-for-microsoft-teams"></a>Installér [!INCLUDE [prod_short](includes/prod_short.md)]-appen til Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -19,7 +19,7 @@ I denne artikel kan du lære, hvordan du installerer [!INCLUDE [prod_short](incl
 > [!NOTE]
 > Administratoren kan have konfigureret tingene, så appen automatisk bliver installeret. Hvis du vil kontrollere, om appen er installeret, skal du åbne grupper og derefter vælge **apps**. Søg efter **Business central**, Vælg den, når du finder det. Hvis du ser **åben** på siden **Business Central**, er app'en allerede installeret.  
 
-## Forudsætninger
+## <a name="prerequisites"></a>Forudsætninger
 
 - Der kræves en online [!INCLUDE [prod_short](includes/prod_short.md)]-brugerkonto til [!INCLUDE [prod_short](includes/prod_short.md)]-appen til Teams.
 
@@ -29,7 +29,7 @@ I denne artikel kan du lære, hvordan du installerer [!INCLUDE [prod_short](incl
 
 - Organisationens politikker skal tillade, at du installerer apps i Microsoft Teams.
 
-## Tilføj Business Central-appen til Teams
+## <a name="add-the-business-central-app-to-teams"></a>Tilføj Business Central-appen til Teams
 
 Du kan installere Business central-appen på tre måder:
 
@@ -66,11 +66,11 @@ Denne indstilling er den hurtigste måde at installere appen på.
 > [!NOTE]
 > Med begge indstillinger bliver du bedt om at logge på [!INCLUDE [prod_short](includes/prod_short.md)]. Vælg linket **log på**, og følg instruktionerne for at angive logonnavn og adgangskode til [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## Næste trin
+## <a name="next-step"></a>Næste trin
 
 Du er nu klar til at bruge appen i Teams til at søge efter kontakter eller dele Business Central-poster. Du kan finde flere oplysninger i [Søge efter debitorer, kreditorer og andre kontakter fra Microsoft Teams](across-search-contacts-teams.md) eller [Dele poster i Microsoft Teams](across-working-with-teams.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversigt over integrationen af Business Central og Microsoft Teams](across-teams-overview.md)  
 [Teams, ofte stillede spørgsmål](teams-faq.md)  

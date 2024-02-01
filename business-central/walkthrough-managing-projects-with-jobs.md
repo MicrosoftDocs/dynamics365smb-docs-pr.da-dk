@@ -9,7 +9,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gennemgang: Administration af projekter med sager
+# <a name="walkthrough-managing-projects-with-jobs"></a>Gennemgang: Administration af projekter med sager
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -17,11 +17,11 @@ Denne gennemgang giver dig en introduktion til projektstyringsfunktioner i sager
 
  Denne gennemgang beskriver opsætningen af et nyt job samt nogle af de almindelige opgaver, som f.eks. fastprishåndtering, betaling af afdrag, bogføring af fakturaer fra sager og kopiering af sager.  
 
-## Om denne gennemgang
+## <a name="about-this-walkthrough"></a>Om denne gennemgang
 
  Denne gennemgang viser følgende opgaver:  
 
-### Oprettelse af en sag
+### <a name="setting-up-a-job"></a>Oprettelse af en sag
 
  Med den budgetstruktur, der oprettet for sager, er oprettelse af en sag ligetil. Denne gennemgang omfatter følgende procedurer:  
 
@@ -29,14 +29,14 @@ Denne gennemgang giver dig en introduktion til projektstyringsfunktioner i sager
 - Hvordan du opretter sags-specifikke priser på varer, ressourcer og finanskonti.  
 - Fakturering fra en sag.  
 
-### Håndtere faste priser
+### <a name="handling-fixed-prices"></a>Håndtere faste priser
 
  I Sager kan du håndtere faste priser og priser på tjenester eller varer, der er aftalt med kunder i forvejen. I denne gennemgang kan du gøre følgende:  
 
 - Se, hvordan leverandør- og fakturaværdier bestemmes.  
 - Gøre plads til ekstraarbejde i planen, der ikke er faktureret.  
 
-### Kopiering af en sag
+### <a name="copying-a-job"></a>Kopiering af en sag
 
  Denne gennemgang fokuserer på, hvordan du kan kopiere en del af eller en komplet sag for at reducere behovet for manuel indtastning af data og forbedre nøjagtigheden. Dette omfatter følgende:  
 
@@ -44,7 +44,7 @@ Denne gennemgang giver dig en introduktion til projektstyringsfunktioner i sager
 - Kopiering af sags-specifikke priser.  
 - Kopiering af planlægningslinjer.  
 
-### Betaling af afdrag
+### <a name="making-payment-by-installment"></a>Betaling af afdrag
 
  Når et stort, dyrt projekt varer længere tid, laver kunden ofte en aftale med virksomheden om at betale afdrag. Dette scenarie viser, hvordan du opretter betaling af afdrag håndteres og dækker følgende:  
 
@@ -52,31 +52,31 @@ Denne gennemgang giver dig en introduktion til projektstyringsfunktioner i sager
 - Fakturering af betalinger til debitorer.  
 - Kontering af forbrug i en sag opsat til betaling af afdrag.  
 
-## Roller
+## <a name="roles"></a>Roller
 
  Denne gennemgang indeholder opgaver for følgende roller:  
 
 - Projektleder  
 - Projektteammedlem  
 
-## Forudsætninger
+## <a name="prerequisites"></a>Forudsætninger
 
  Før du kan udføre opgaverne i denne gennemgang, skal du gøre følgende:  
 
 - Installer CRONUS-demonstrationsdatabasen.
 - Opret eksempeldata ved at bruge trinnene i følgende afsnit.  
 
-## Historie
+## <a name="story"></a>Historie
 
 Denne gennemgang fokuserer på CRONUS, et design- og konsulentfirma, der designer og tilpasser nye infrastrukturer, f.eks. konferencerum og kontorer, med møbler, tilbehør og lagerenheder. Det meste af firmaets arbejde er projektorienteret. Prakash, en projektleder hos CRONUS bruger sager til at få et overblik over igangværende sager, som CRONUS har startet, samt de sager, der er afsluttet. Det er som regel Prakash, der indgår aftaler med kunderne og indtaster sagens hovedkomponenter, hvilket er opgave- og planlægningslinjer i [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash konstaterer, at oprettelse, vedligeholdelse og gennemgang af oplysninger er ligetil. Per kan også lide, den måde [!INCLUDE[prod_short](includes/prod_short.md)] aktiverer kopiering af sager og betaling af afdrag.
 
  Tina, der er medlem af projekttemaet og rapporterer til Per, er ansvarlig for overvågning af sagen dag for dag. Tricia angiver sit eget arbejde samt de arbejde, der udføres af teknikerne på hver opgave, herunder de varer, som de har brugt, og de omkostninger, som der er påløbet.  
 
-## Klargøre eksempeldata
+## <a name="preparing-sample-data"></a>Klargøre eksempeldata
 
  Forbered denne gennemgang ved at tilføje Tina som en ny ressource.  
 
-### Sådan klargøres eksempeldataene  
+### <a name="to-prepare-the-sample-data"></a>Sådan klargøres eksempeldataene
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourcer**, og vælg derefter det relaterede link.  
 2.  Klik på handlingen **Ny** for at oprette et nyt ressourcekort.  
@@ -99,7 +99,7 @@ Denne gennemgang fokuserer på CRONUS, et design- og konsulentfirma, der designe
 
 I den næste procedure opretter du en sagskladde for Tricia for at bogføre forbruget.  
 
-### Sådan oprettes et sagskladdenavn  
+### <a name="to-create-a-job-journal-batch"></a>Sådan oprettes et sagskladdenavn
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagskladder**, og vælg derefter det relaterede link.  
 2.  Vælg feltet **Kladdenavn** på siden **Sagskladde**. Siden **Kladdenavn** åbnes.  
@@ -111,11 +111,11 @@ I den næste procedure opretter du en sagskladde for Tricia for at bogføre forb
 
 4.  Vælg knappen **OK** for at gemme ændringerne.
 
-## Oprettelse af en sag
+## <a name="setting-up-a-job-1"></a>Oprettelse af en sag
 
  I dette scenarie, har CRONUS vundet en kontrakt med en kunde, Progressive Home Furnishings, om at designe en konference- og spisesal. Kunden har base i USA, og projektet kræver specialsoftware. Projektlederen når frem til en aftale med kunden og opretter en sag, der dækker aftalen.  
 
-### Sådan oprettes en sag  
+### <a name="to-set-up-a-job"></a>Sådan oprettes en sag
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
 2.  Klik på handlingen **Ny** for at oprette et nyt kort.  
@@ -135,7 +135,7 @@ I den næste procedure opretter du en sagskladde for Tricia for at bogføre forb
 
  Du kan tilpasse priser til kunder pr. sagsbasis, afhængigt af de aftaler, du har indgået. I den næste procedure angiver projektlederen en pris for Tinas tid, angiver prisen for den nødvendige software og tilføjer rejseudgifter, som debitor har accepteret at betale.  
 
-### Tilpasse priser  
+### <a name="to-customize-pricing"></a>Tilpasse priser
 
 1.  Gå til sagskortet, vælg handlingen **Ressource**.  
 2.  Indtast følgende oplysninger på siden **Sagsressourcepriser**:  
@@ -161,7 +161,7 @@ I den næste procedure opretter du en sagskladde for Tricia for at bogføre forb
 
  De sidste trin i opsætning af en sag tilføjer sagsopgaver og de planlægningslinjer, der indgår i hver opgave. Planlægningslinjerne bestemmer, hvad kunden faktureres for.  
 
-### Sådan tilføjes sagsopgaver  
+### <a name="to-add-job-tasks"></a>Sådan tilføjes sagsopgaver
 
 1.  På kortet **Sag** for den nye sag skal du vælge handlingen **Sagsopgavelinjer**.  
 2.  I følgende tabel beskrives de oplysninger, du skal angive i felterne.  
@@ -183,7 +183,7 @@ I den næste procedure opretter du en sagskladde for Tricia for at bogføre forb
 
  I denne gennemgang bruger projektleder **Både budget og fakturerbar**. De opretter tre planlægningslinjer for opgaven 1010 og to planlægningslinjer for opgave 1020.  
 
-### Sådan oprettes planlægningslinjer  
+### <a name="to-create-planning-lines"></a>Sådan oprettes planlægningslinjer
 
 1. Vælg linje 1010, og vælg derefter handlingen **Sagsplanlægningslinjer**.  
 
@@ -205,11 +205,11 @@ I den næste procedure opretter du en sagskladde for Tricia for at bogføre forb
 
 4. Luk siden. Totaler opdateres på siden **Sagsopgavelinjer**.  
 
-## Beregne resterede forbrug
+## <a name="calculating-remaining-usage"></a>Beregne resterede forbrug
 
  Tricia, der er medlem af projektteamet, har arbejdet på sagen i et stykke tid og ønsker at registrere deres timer og forbrug på sagen. Tricia har ikke arbejdet mere end aftalt med kunden i forvejen. Tricia bruger kørslen **Beregn resterede forbrug** til at beregne det resterende forbrug for sagen i sagskladden. For hver opgave beregner kørslen forskellen mellem planlagt forbrug af varer, ressourcer og finansudgifter og det faktiske forbrug, der er bogført i finansposterne. Det resterende forbrug vises derefter i sagskladden, hvor hun kan bogføre det.  
 
-### Sådan beregnes resterede forbrug  
+### <a name="to-calculate-remaining-usage"></a>Sådan beregnes resterede forbrug
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagskladder**, og vælg derefter det relaterede link.  
 2.  På siden **Sagskladde** og feltet **Kladdenavn**, skal du åbne listen **Job Journals Batch**. Vælg sagskladden **Tina**.  
@@ -223,11 +223,11 @@ I den næste procedure opretter du en sagskladde for Tricia for at bogføre forb
 
 Linjerne er nu bogført.  
 
-## Oprette og bogføre en sagssalgsfaktura
+## <a name="creating-and-posting-a-job-sales-invoice"></a>Oprette og bogføre en sagssalgsfaktura
 
  Derefter kan Tina oprette en ny faktura for hele sagen eller for en del af en sag. Tricia kan også tilknytte fakturaen til en anden faktura til samme kunde for samme sag. I dette tilfælde fakturerer Tricia hele sagen, da projektet nu er færdigt.  
 
-### Sådan oprettes en sagssalgsfaktura  
+### <a name="to-create-a-job-sales-invoice"></a>Sådan oprettes en sagssalgsfaktura
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
 2.  Vælg den sag, du oprettede tidligere, og vælg derefter handlingen **Opret salgsfaktura**.  
@@ -237,13 +237,13 @@ Linjerne er nu bogført.
 
  Når Tricia har oprettet fakturaen, kan hun f.eks. få adgang til den fra rollecenteret **Salgsordrebehandler**. 
 
-### Sådan bogføres en ny salgsfaktura  
+### <a name="to-post-a-new-sales-invoice"></a>Sådan bogføres en ny salgsfaktura
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsfakturaer**, og vælg derefter det relaterede link.  
 2.  Åbn fakturaen til kunde nr. 01445544. Du kan se de oplysninger, der er indtastet fra planlægningslinjerne.  
 3.  Vælg handlingen **Bogfør**. Vælg **Ja** for at bekræfte bogføringen.  
 
-### Sådan vises den bogførte faktura  
+### <a name="to-view-the-posted-invoice"></a>Sådan vises den bogførte faktura
 
 1.  Åbn sagen, og vælg derefter handlingen **Sagsplanlægningslinjer**.  
 2.  Markér en hvilken som helst faktureret planlægningslinje, og vælg derefter handlingen **Salgsfaktura/Kreditnota**.
@@ -251,17 +251,17 @@ Linjerne er nu bogført.
 
  Tricia har et spørgsmål ang. priser, omkostninger og indtjening, der er relevant for denne bestemte sag, så hun får adgang til disse oplysninger på den nye side **Statistik**.  
 
-### Sådan åbner du siden Statistik  
+### <a name="to-open-the-statistics-page"></a>Sådan åbner du siden Statistik
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Statistik**. Du kan gennemgå detaljerede oplysninger om sagspriser, omkostninger og avancer i både lokale og udenlandske valutaer.  
 3.  Vælg knappen **Luk** for at lukke siden **Sagsstatistik**.  
 
-## Håndtere faste priser
+## <a name="handling-fixed-prices-1"></a>Håndtere faste priser
 
  CRONUS er blevet bestilt til at oprette konferencerum. Som projektleder ønsker Per at have et godt overblik over de opgaver, der er påkrævet for sagen med de tilhørende budgetterede og realiserede omkostninger for hver sag. Derudover vil Prakash gerne kende den samlede kontraktpris for sagen og det beløb, der er faktureret indtil nu. De er nået frem til en aftale med kunden om faste priser for denne sag.  
 
-### Sådan håndteres faste priser i sager  
+### <a name="to-manage-fixed-pricing-in-jobs"></a>Sådan håndteres faste priser i sager
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
 2. Vælg sagsnummeret **Svend Hansen Møbler**, og vælg derefter handlingen **Sagsopgavelinjer**.  
@@ -281,7 +281,7 @@ Linjerne er nu bogført.
 
 Når Tricia har føjet budgettet til denne opgavelinje, arbejder hun 25 timer på sagen. Disse timer kan angives i sagskladden.  
 
-### Sådan angives timer i sagskladden  
+### <a name="to-enter-hours-in-the-job-journal"></a>Sådan angives timer i sagskladden
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagskladder**, og vælg derefter det relaterede link.  
 2. Angiv følgende oplysninger på en ny linje:  
@@ -336,13 +336,13 @@ Når Tricia har føjet budgettet til denne opgavelinje, arbejder hun 25 timer p�
 
 Når du gennemser tabellen for den samlede kontraktpris, er det kun de oprindeligt kontraktaftalte 30 timer, der er inkluderet, da dette er det, der er aftalt med kunden.  
 
-## Kopiere sager
+## <a name="copying-jobs"></a>Kopiere sager
 
 Per er nået frem til en aftale med en kunder, Ravel Møbler, om at opsætte ti konferencerum. Aftalen ligner en tidligere sag. Derfor vil det spare tid at kopiere den tidligere sag.  
 
 På siden **Kopier sag** kan du vælge sagen og de opgavelinjer, du vil kopiere. Du kan også vælge at kopiere kildesagsposterne, der opretter planlægningslinjer baseret på det faktiske forbrug, eller du kan kopiere kildesagsplanlægningslinjerne, der kopierer de oprindelige planlægningslinjer til den nye sag. Du kan derefter vælge den planlægningslinje eller finanspostlinjetype, du vil inkludere, ved kun at vælge det, der er relevant for den nye sag. Til sidst kan du vælge den sag, som du vil kopiere til, og definere, om priser og antal også skal kopieres.  
 
-### Sådan kopieres en sag  
+### <a name="to-copy-a-job"></a>Sådan kopieres en sag
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
 2. Klik på handlingen **Ny** for at oprette en ny sag. Angiv følgende oplysninger:  
@@ -364,11 +364,11 @@ På siden **Kopier sag** kan du vælge sagen og de opgavelinjer, du vil kopiere.
 
 Ved at sammenligne priser, sagsopgavelinjer og sagsplanlægningslinjer for de to job, kan du se, at oplysninger er blevet kopieret.  
 
-## Foretage betaling af afdrag
+## <a name="making-payments-by-installments"></a>Foretage betaling af afdrag
 
 CRONUS har lige fået et stort projekt hjem, der vil tage mere end et år at gennemføre. Da det kræver tildeling af en lang række ressourcer, opsætter projektlederen kontrakten på en sådan måde, at kunden betaler en del af prisen med det samme, en del, når projektet er halvvejs færdigt, og den sidste betaling ved færdiggørelsen.  
 
-### Sådan oprettes et nyt konto  
+### <a name="to-set-up-a-new-account"></a>Sådan oprettes et nyt konto
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoplan**, og derefter vælge det relaterede link.  
 2. På siden **Kontoplan** skal du vælge handlingen **Ny** for at oprette et nyt kort.  
@@ -382,7 +382,7 @@ CRONUS har lige fået et stort projekt hjem, der vil tage mere end et år at gen
 
 Følgende procedurer viser, hvordan du opretter et nyt job, angiver priser og derefter oprette betaling af afdrag. På sagsopgavelinjerne kan du oprette specifikke linjer, der er dedikeret til betaling af afdrag. Alt det færdiggjorte arbejde, der føjes til budgettet, angives på forbrugslinjerne. For hver betalingsopgavelinje på planlægningslinjerne er linjetypen **Fakturerbar**, hvilket betyder, at debitoren faktureres. Angiv en ny linje for Udbetalingen. På forbrugsopgavelinjen kan du indtaste oplysningerne for de varer og ressourcer, der er brugt i dette projekt, hvilket vil øge budgettet for f.eks. medarbejdertimer og varer, der er anvendt i sagen.  
 
-### Sådan foretages betaling af afdrag  
+### <a name="to-make-a-payment-by-installment"></a>Sådan foretages betaling af afdrag
 
 1. Opret en ny sag.  
 2. Udfyld følgende oplysninger på det nye **Job**-kort:  
@@ -443,17 +443,17 @@ Følgende procedurer viser, hvordan du opretter et nyt job, angiver priser og de
 
  Nu, hvor opgave- og planlægningslinjerne er angivet, kan Per oprette en faktura for første betaling. Prakash gør dette fra sagsopgavelinjerne for at sikre, at fakturaen kun indeholder linjer for den første betaling. Du kan åbne salgsorden fra planlægningslinjerne eller opgavelinjerne.  
 
-### Sådan oprettes en faktura  
+### <a name="to-create-an-invoice"></a>Sådan oprettes en faktura
 
 1.  På siden **Sagsopgavelinjer** skal du markere linje 1000, og derefter vælge handlingen **Opret salgsfaktura**.  
 2.  Angiv dags dato som bogføringsdatoen på siden **Opret salgsfaktura**, angiv **Pr. opgave**, og vælg knappen **OK** for at oprette en faktura med standardoplysningerne. Vælg knappen **OK** for at gemme og lukke bekræftelsessiden.  
 3.  Vælg handlingen **Opret salgsfaktura/kreditnota**. På salgsfakturaen kan du se, at det kun er udbetalingen, der er inkluderet på fakturaen. Du kan nu sende den til kunden som aftalt.  
 
-## Efterfølgende trin
+## <a name="next-steps"></a>Efterfølgende trin
 
  Denne gennemgang har taget dig gennem nogle af de grundlæggende trin til at arbejde med sager i [!INCLUDE[prod_short](includes/prod_short.md)]. Du har lært, hvordan du opretter en ny sag, kopierer en sag og hvordan du håndterer betalinger. Du har også fået vist en demonstration af, hvordan du kan registrere timer og oprette fakturaer.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Konfigurere projektstyring](projects-setup-projects.md)  

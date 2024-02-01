@@ -12,11 +12,11 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Ofte stillede spørgsmål om tekstforslag med Copilot
+# <a name="faq-for-marketing-text-suggestions-with-copilot"></a>Ofte stillede spørgsmål om tekstforslag med Copilot
 
 Disse ofte stillede spørgsmål beskriver AI-effekten af [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]-funktionen i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Hvad er forslag til varemarketingtekst?
+## <a name="what-is-item-marketing-text-suggestions"></a>Hvad er forslag til varemarketingtekst?
 
 Copilot yder skrivehjælp til brugere, der er ansvarlige for at oprette marketingtekst (også kaldet kopi) på varer i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne funktion er kendt som [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]. Funktionen [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] yder skrivehjælp til brugere, der er ansvarlige for at oprette marketingtekst (også kaldet *kopi*) på varer i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -33,20 +33,20 @@ Nogle af de vigtigste fordele ved denne funktion omfatter:
 - Oplåsning af kreativitet for at kunne levere mere spændende produktbeskrivelser.
 - Forbedrer konsistensen af marketingmaterialer til produktlinjer.
 
-## Hvad er systemets muligheder?
+## <a name="what-are-the-systems-capabilities"></a>Hvad er systemets muligheder?
 
 Funktionen [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] bruger [Microsoft Azure OpenAI-tjeneste](/azure/cognitive-services/openai/overview) til at få adgang til avancerede sprogmodeller, der analyserer og genererer naturligt sprog. Disse modeller er blevet oplært på en bred brødtekst af tekstdatasæt. Derfor kan Copilot generere foreslåede svar, der er tilpasset på engelsk, og som er baseret på minimalt inputdata, som f. eks. en vares attributter, kategori eller beskrivelse. 
 
-## Hvad er systemets tiltænkte brug?
+## <a name="what-is-the-systems-intended-use"></a>Hvad er systemets tiltænkte brug?
 
 Denne funktion er beregnet til at hjælpe brugerne med at oprette marketingtekst til varer i [!INCLUDE[prod_short](includes/prod_short.md)]. Forfattere bruger funktionen til hurtigt at få overbevisende og engagerende tekstforslag, som derefter gennemgås og redigeres for nøjagtighed. 
 
-## Hvordan blev tekst til varemarkedsføring evalueret? Hvilke metrikværdier bruges til at måle ydeevnen?
+## <a name="how-was-item-marketing-text-evaluated-what-metrics-are-used-to-measure-performance"></a>Hvordan blev tekst til varemarkedsføring evalueret? Hvilke metrikværdier bruges til at måle ydeevnen?
 
 - Funktionen gennemgik omfattende test, hvor adskillige tekster på forskellige sprog blev evalueret af sprogeksperter i forhold til forskellige kriterier. Testen var baseret på [!INCLUDE[prod_short](includes/prod_short.md)]-demonstrationsdata og andre fiktive produktkataloger.
 - Denne funktion er bygget i overensstemmelse med ansvarlig brug af AI-standard i Microsoft. [Få mere at vide om ansvarlig AI fra Microsoft](https://aka.ms/RAI).
 
-## Hvordan overvåger Microsoft kvaliteten af genereret indhold?
+## <a name="how-does-microsoft-monitor-the-quality-of-generated-content"></a>Hvordan overvåger Microsoft kvaliteten af genereret indhold?
 
 Microsoft har forskellige systemer på plads for at sikre, at Copilot-funktionerne forbliver operationelle og genererer indhold af højeste kvalitet.
 
@@ -68,7 +68,7 @@ Microsoft har forskellige systemer på plads for at sikre, at Copilot-funktioner
 
    Du kan finde flere oplysninger i [Data, beskyttelse af personlige oplysninger og sikkerhed for Azure OpenAI-tjeneste](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation).
 
-## Er der en logføringsproces og en proces til manuel gennemgang som en del af Azure OpenAI-tjeneste, og kan jeg i så fald fravælge det?  
+## <a name="is-there-a-logging-and-human-review-process-as-part-of-azure-openai-service-and-if-so-can-i-opt-out"></a>Er der en logføringsproces og en proces til manuel gennemgang som en del af Azure OpenAI-tjeneste, og kan jeg i så fald fravælge det?
 
 Som en del af levering af Azure OpenAI-tjeneste vil Microsoft behandle og gemme kundedata, der er sendt til tjenesten, samt output-indhold, med henblik på overvågning af og forebyggelse af misbrug eller skadelig brug eller ydelse af tjenesteydelser, og udvikling, afprøvning og forbedring af de funktioner, der er beregnet til at forebygge misbrug af og/eller skadelige udgange fra tjenesten. 
 
@@ -76,13 +76,13 @@ Autoriserede Microsoft-medarbejdere kan gennemse data, som har udløst vores aut
 
 For at Microsoft kan beskytte tjenesten og dens kunder, er det ikke muligt at fravælge logføring og menneskelige gennemgangsprocesser.
 
-## Hvilke data indsamler funktionen? Hvordan bruges dataene?
+## <a name="what-data-does-the-capability-collect-how-is-the-data-used"></a>Hvilke data indsamler funktionen? Hvordan bruges dataene?
 
 Funktionen til forslag til marketingtekst indsamler de data, der som minimum kræves af Business Central for at kunne tilbyde tjenesten. Du kan finde flere oplysninger i [Dynamics 365-vilkår for Azure OpenAI-drevne funktioner](https://go.microsoft.com/fwlink/?linkid=2236010).
 
 Funktionen indsamler også data fra den feedback, brugeren kan give, ved hjælp af ikonerne synes godt om (tommelfinger op) eller antipati (tommelfinger ned) øverst på siden **Copilot**. Dataene er anonyme og omfatter valget af synes om eller synes ikke om, hvis den leveres, og Copilot-funktionen, som feedbacken gælder for. Vi bruger disse data til at evaluere og forbedre kvaliteten af funktionen.
 
-## Hvad er nuværende begrænsninger for [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? Hvordan kan brugere minimere påvirkningen af [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]-begrænsningerne, når de bruger systemet?
+## <a name="what-are-the-limitations-of--how-can-users-minimize-the-impact-of-the-includefeature-marketing-text-suggestions-limitations-when-using-the-system"></a>Hvad er nuværende begrænsninger for [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? Hvordan kan brugere minimere påvirkningen af [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]-begrænsningerne, når de bruger systemet?
 
 - Da den underliggende teknologi bag funktionen bruger AI, som er uddannet på en lang række kilder, er det genererede indhold ikke altid faktuelt eller egnet. Nogle forslag kan endog indeholde tvivlsomt eller upassende indhold. Du har ansvaret for at gennemgå og redigere genererede forslag for at sikre, at det er nøjagtigt og hensigtsmæssigt.
 - [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
@@ -90,7 +90,7 @@ Funktionen indsamler også data fra den feedback, brugeren kan give, ved hjælp 
   Unøjagtige svar kan returneres, når brugere interagerer med systemet på andre sprog end de understøttede. Der kan også genereres unøjagtig tekst, når brugerens sprog og primære datasprog i [!INCLUDE[prod_short](includes/prod_short.md)] databasen ikke er identiske.
 
 
-## Hvilke driftsmæssige faktorer og indstillinger gør det muligt at bruge systemet på en effektiv og ansvarlig måde?
+## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-system"></a>Hvilke driftsmæssige faktorer og indstillinger gør det muligt at bruge systemet på en effektiv og ansvarlig måde?
 
 Der er nogle ting, du kan gøre for at få det optimale ud af funktionen:
 
@@ -105,7 +105,7 @@ Du kan finde flere oplysninger i [forbedrende og skræddersyede tekstforslag](it
 > Gennemgå altid forslagene for nøjagtighed, før du gemmer dem og offentliggør dem til offentligt forbrug.
 
 
-## Se også
+## <a name="see-also"></a>Se også
 
 - [Forslag til marketingtekst](ai-overview.md)
 

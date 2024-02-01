@@ -8,7 +8,7 @@ ms.date: 03/31/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Ad hoc-dataanalyse
+# <a name="ad-hoc-data-analysis"></a>Ad hoc-dataanalyse
 
 Nogle gange kan du have brug for at analysere data i [!INCLUDE[prod_short](includes/prod_short.md)] på en måde, som ikke er tilgængelig i en standardrapport. Det kaldes ofte ad hoc-analyser. Nedenfor findes links, som du kan bruge til at lære, hvordan du skal udføre dem.
 
@@ -20,7 +20,7 @@ Nogle gange kan du have brug for at analysere data i [!INCLUDE[prod_short](inclu
 | Få vist og analysere finansielle oplysninger vha. finansrapporter | [Økonomisk analyse](bi.md) |
 | Analysere listedata direkte fra en side |[Analysere listedata ved hjælp af dataanalysetilstand](analysis-mode.md)|
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversigt over Business Intelligence og rapportering](ui-work-report.md)
 

@@ -12,7 +12,7 @@ ms.author: altotovi
 ms.reviewer: kfend
 ---
 
-# Eksport af revisionsfil
+# <a name="audit-file-export"></a>Eksport af revisionsfil
 
 Udførsel af bogføringsoplysninger fra systemet er en fælles anmodning fra nogle lokale myndigheder eller revisorer. Udførsel af formater og nødvendige oplysninger kan være forskellige. Poster til eksport er som regel finansposter eller momsposter. Der er dog nogle gange brug for andre oplysninger.
 
@@ -21,7 +21,7 @@ Udførsel af bogføringsoplysninger fra systemet er en fælles anmodning fra nog
 > [!NOTE]
 > I øjeblikket kan du vælge SIE (Sverige), FEC (Frankrig) og SAF-T-formatet som en ekstra app. Partnere kan også udvikle et brugerdefineret format. Antallet af tilgængelige formater øges med tiden.
 
-## Opsætning af eksport af revisionsfil
+## <a name="set-up-audit-file-export"></a>Opsætning af eksport af revisionsfil
 
 1. Vælg søgeknappen ![Forstørrelsesglas-knappen, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Opsætning af eksport af revisionsfil**, og vælg derefter det relaterede link.
 2. Følg disse trin på siden **Opsætning af eksport af revisionsfil**:
@@ -42,7 +42,7 @@ Udførsel af bogføringsoplysninger fra systemet er en fælles anmodning fra nog
     2. I feltet **Revisionsfilnavn** skal du angive standardfilnavnet eller skabelonen til filnavnet til den revisionsfil, du vil eksportere.
     3. Marker afkrydsningsfeltet **Arkiver til Zip** for automatisk at zippe eksporterede filer.
 
-## Angiv finanskontotilknytningen for eksport af revisionsfiler
+## <a name="provide-the-gl-account-mapping-for-audit-file-export"></a>Angiv finanskontotilknytningen for eksport af revisionsfiler
 
 De fleste formater, der kræves af myndighederne i finanskonti, kræver en bestemt standardkontoplan. Når du har konfigureret finanskontiene, bliver den eksporterede fil derfor baseret på tilknytningerne. Du kan bruge flere tilknytninger i systemet.
 
@@ -67,7 +67,7 @@ Følg disse trin for at angive finanskontotilknytningen for eksport af revisions
     1. Generer linjerne på siden **Tilknytning af finanskonto** baseret på en eksisterende kontoplan, ved at vælge **Initialiser kilde til tilknytning**. Hvis du vil kopiere finanskontotilknytningen fra en anden tilknytningskode, skal du vælge **Kopier fra en anden tilknytning**. Når du er færdig med at oprette linjer, vil alle finanskonti med bogførte poster blive markeret med grønt.
     2. Hvis du kun vil markere finanskonti med poster, skal du vælge **Opdater finansposttilgængelighed**. Hvis indstillingen **Medtag indgående saldo** er aktiveret, indgår alle bogførte finansposter med henblik på beregning. Ellers er det kun finansposter i rapporteringsperioden, der tages i betragtning.
 
-## Eksporter revisionsfil
+## <a name="export-the-audit-file"></a>Eksporter revisionsfil
 
 1. Vælg søgeknappen ![Forstørrelsesglas-knappen, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Dokumenter til eksport af revisionsfiler**, og vælg derefter det relaterede link.
 2. Vælg **Ny** på siden **Dokumenter til eksport af revisionsfiler**.
@@ -95,7 +95,7 @@ Følg disse trin for at angive finanskontotilknytningen for eksport af revisions
 > [!IMPORTANT]
 > Hvis du har flere poster, der skal eksporteres, anbefales det, at du eksporterer dem i den aktuelle session pga. mulige problemer med ydeevnen. I stedet anbefales det, at du bruger parallel behandling i ikke-arbejdsdage eller timer.
 
-## Se også
+## <a name="see-also"></a>Se også
 [Økonomistyring](finance.md)  
 [Forstå Finans og Kontoplan](finance-general-ledger.md)  
 [Arbejde med dimensioner](finance-dimensions.md)  
