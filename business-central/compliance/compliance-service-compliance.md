@@ -3,9 +3,7 @@ title: Tjenesteoverholdelse og SLA
 description: Fra et serviceperspektiv overholder Business Central de strenge krav og overholdelse af SLA i flere ISO-og branchespecifikke certificeringer.
 author: sorenfriisalexandersen
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.reviewer: bholtorf
 ms.date: 06/14/2021

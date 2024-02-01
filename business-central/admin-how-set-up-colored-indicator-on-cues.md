@@ -3,9 +3,7 @@ title: Indstille tilpassede farvede indikatorer for en køindikators aktivitet
 description: 'Som administrator kan du oprette køindikatorer, der vises i rollecentre for brugere, for at medtage en indikator, der skifter farve ud fra dataværdierne i køerne.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '9701, 9702'
 ms.date: 04/01/2021
 ms.author: jswymer

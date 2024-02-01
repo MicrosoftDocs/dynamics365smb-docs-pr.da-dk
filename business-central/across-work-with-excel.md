@@ -3,8 +3,7 @@ title: Visning og redigering i Excel fra Business Central (indeholder video)
 description: 'Få mere at vide om, hvordan du kan åbne siderne i Microsoft Excel fra Business Central for at få en bedre dataanalyse.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
+ms.devlang: al
 ms.search.form: 1480
 ms.search.keywords: 'accountant, accounting, financial report'
 ms.date: 04/01/2021

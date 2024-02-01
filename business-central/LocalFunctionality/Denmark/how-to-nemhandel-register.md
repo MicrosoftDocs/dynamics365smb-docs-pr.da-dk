@@ -3,9 +3,7 @@ title: Anmeldelse og tilmelding til NemHandelsregisteret i Danmark
 description: 'Denne artikel beskriver, hvordan du håndterer anmeldelse og tilmelding til NemHandelsregisteret i Danmark.'
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'nemhandel, nemhandelsregisteret, notification, registration, denmark'
 ms.search.form: 1
 ms.date: 11/17/2023

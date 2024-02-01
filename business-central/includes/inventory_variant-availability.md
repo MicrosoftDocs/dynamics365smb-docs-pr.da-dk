@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/21/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Når du åbner siden **Varedisponering pr. variant** fra en dokumentlinje, kan du indsætte en variant i dokumentlinjen ved at vælge linjen med den variant, du ønsker at indsætte, og klikke på OK. Hvis du kun har brugt siden til at vise tilgængeligheden og ikke vil indsætte en variant, skal du lukke siden uden at vælge OK.
 

@@ -3,9 +3,7 @@ title: 'Konfigurere projektressourcekostpriser, priser og kapacitet'
 description: For at bruge ressourcer og lette projektstyring skal du angive omkostninger og priser for individuelle ressourcer eller ressourcegrupper og angive ressourcekapacitet.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'project management, capacity, staff'
 ms.search.form: '72, 76, 77, 203, 204'
 ms.date: 04/01/2021

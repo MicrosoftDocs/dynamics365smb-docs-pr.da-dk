@@ -3,9 +3,7 @@ title: Angive eksterne bilagsnumre
 description: 'Du kan angive eksterne bilagsnumre til debitorer og kreditorer i alle salgs-og købsordrer, fakturaer og kreditnotaer. Du kan bruge disse numre til at søge efter bogførte salgs-og købslinjer senere.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 05/28/2021
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Konfigurere omkostningsregnskab
 description: 'Før du begynder at arbejde med omkostningsregnskab, skal du udføre opsætning. Det betyder, at hver omkostningspost skal have pristype samt en omkostningsstedskode eller et omkostningsobjekt tildelt.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '1100, 1112, 1113, 1122'
 ms.date: 10/09/2023
 ms.author: bholtorf

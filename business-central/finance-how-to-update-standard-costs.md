@@ -3,9 +3,7 @@ title: Opdatere standardkostpriser
 description: Du skal regelmæssigt opdatere standardkostprisen for komponenter og akkumulere de nye omkostninger til den overordnede vare.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 5841
 ms.date: 10/11/2023
 ms.author: bholtorf

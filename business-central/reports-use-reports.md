@@ -3,14 +3,13 @@ title: Brug rapporter i dagligt arbejde
 description: 'Indeholder en oversigt over alle de funktioner til Business Intelligence og rapportering, som understøttes i Business Central-produktet.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.date: 09/22/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="use-reports-in-daily-work"></a>Brug rapporter i dagligt arbejde
+# Brug rapporter i dagligt arbejde
 
 En rapport i [!INCLUDE[prod_short](includes/prod_short.md)] indsamler oplysninger baseret på et nærmere angivet sæt kriterier. Den organiserer og præsenterer oplysninger i det læsevenlige format, som du kan udskrive eller gemme som en fil.  
 
@@ -25,7 +24,7 @@ En rapport i [!INCLUDE[prod_short](includes/prod_short.md)] indsamler oplysninge
 | For at få mere at vide om, hvordan du ændrer standardlayoutet for en rapport. | [Ændre layout i standardrapport](ui-how-change-layout-currently-used-report.md) |
 | Vise og analysere data fra et rapportdatasæt i Microsoft Excel. | [Gem rapportdatasættet i Excel fra anmodningssiden](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Rapportoversigt](reports-available-reports.md)  
 [Oversigt over Business Intelligence og rapportering](ui-work-report.md)  

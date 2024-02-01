@@ -3,9 +3,7 @@ title: Tilføje udvidet tekst
 description: 'Du kan tilføje ekstra linjer for at udvide standardteksten, der beskriver en vare, en finanskonto og andre data.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '391, 30'
 ms.date: 06/24/2021
 ms.author: bholtorf

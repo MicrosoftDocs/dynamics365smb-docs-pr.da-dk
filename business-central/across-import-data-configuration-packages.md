@@ -3,9 +3,7 @@ title: Brug Excel til at importere data til Business Central
 description: Brug standardkonfigurationspakken til at tilføje debitordata i Excel og importere dataene tilbage til Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'migration, Excel'
 ms.date: 05/10/2022
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Designoplysninger - Opsætning af lager
 description: 'Lagerfunktionen indeholder forskellige kompleksitets niveauer, som i vidt omfang defineres af placerings opsætningen på lokationskort.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf

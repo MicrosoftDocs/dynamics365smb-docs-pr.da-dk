@@ -1,2 +1,5 @@
+---
+ms.service: dynamics-365-business-central
+---
 > [!NOTE]
 > Brugerdefinerede rapport layouts er en ældre funktion, som er ved at blive udfyldt. Du skal i stedet begynde at oprette brugerdefinerede layout, som beskrevet [her](../ui-get-started-layouts.md).

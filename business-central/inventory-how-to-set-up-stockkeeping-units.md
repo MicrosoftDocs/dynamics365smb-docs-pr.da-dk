@@ -8,16 +8,17 @@ ms.topic: how-to
 ms.date: 04/19/2023
 ms.custom: bap-template
 ms.search.forms: '5704, 5700, 5702, 5701'
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-stockkeeping-units"></a>Konfigurere lagervarer
+# Konfigurere lagervarer
 
 Brug lagervarer (SKU'er) til at registrere oplysninger om varer på en bestemt lokation eller med en variant. De giver dig mulighed for at tilføje forskellige oplysninger om en vare til en bestemt lokation, f. eks.:
 
 * Et lagersted eller distributionscenter
 * Varianter, f. eks. forskellige hyldenumre og forskellige genbestillingsoplysninger, for den samme vare  
 
-## <a name="to-set-up-a-stockkeeping-unit"></a>Sådan opsættes en lagervare
+## Sådan opsættes en lagervare  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagervarer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -34,7 +35,7 @@ Brug kørslen **Opret lagervare**, hvis du vil oprette flere lagerførte varer. 
 > Hvis lagervaren angives via produktion, bruges feltet **Kostpris (standard)** ikke ved fakturering og justering af den faktiske kostpris for den producerede vare. I stedet anvender [!INCLUDE [prod_short](includes/prod_short.md)] værdien i feltet **kostpris (standard)** på det underliggende varekort, og eventuelle afvigelser beregnes mod kostprisfordelingen for den vare.<br><br>
 > Selvom du kan tildele produktionsstyklister og rute til lagervarer, er kostprisakkumulering og den relaterede beregning af kostprisfordelingen ikke tilgængelig på lagervarer. Hvis du vil vide mere om standardkostpriser, skal du gå til [Om beregning af standardkostpris](finance-about-calculating-standard-cost.md)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  

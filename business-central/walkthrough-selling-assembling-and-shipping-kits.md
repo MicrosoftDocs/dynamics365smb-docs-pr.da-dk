@@ -3,9 +3,7 @@ title: 'Sælge, montere og levere pakker'
 description: 'For at støtte en for JIT-lagerstrategi kan montageordrer automatisk oprettes og tilknyttes, så snart salgsordrelinjen er oprettet.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf

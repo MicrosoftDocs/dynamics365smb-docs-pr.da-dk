@@ -3,9 +3,7 @@ title: Holde styr på målgrupper og de tilhørende interaktioner
 description: Få mere at vide om at oprette målgrupper for at definere grupper af kontaktpersoner og angive interaktioner for målgrupper.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5091, 5139,'
 ms.date: 04/01/2021

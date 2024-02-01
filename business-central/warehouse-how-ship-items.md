@@ -8,9 +8,10 @@ ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
 ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="ship-items-with-a-warehouse-shipment"></a>Levere varer med en lagerleverance
+# Levere varer med en lagerleverance
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du modtage varer og indsætte dem på en af fire måder som beskrevet i følgende tabel.
 
@@ -37,7 +38,7 @@ Du kan oprette en lagerleverance på en af to måder:
 * I en push-metode, når der arbejdes på ordre til ordre-grundlag. Vælg **Opret lagerleverance**-handling i kildedokumentet for at oprette en lagerleverance for dokumentet.
 * Når du bruger funktionen **Frigiv** i kildedokumentet til at frigive den til lageret. En lagerstedsmedarbejder opretter en **Lagerstedsmodtagelse** for en eller flere frigivne kildedokumenter. Følgende fremgangsmåde beskriver, hvordan du opretter en lagermodtagelse på en pull-måde.
 
-## <a name="to-ship-items-using-a-warehouse-shipment-document"></a>Sådan leveres varer med et lagerleverancedokument
+## Sådan leveres varer med et lagerleverancedokument
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagerleverancer**, og vælg derefter det relaterede link.  
 2. Vælg **Ny**.  
@@ -74,7 +75,7 @@ Du kan oprette en lagerleverance på en af to måder:
 
     [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
-## <a name="how-to-use-filters-to-get-source-documents"></a>Sådan bruges filtre til at hente kildedokumenter
+## Sådan bruges filtre til at hente kildedokumenter
 
 Fra en ny eller en åben lagerleverance kan du bruge siden **Filtre til at hente kildedok.** til at hente de frigivne kildedokumentlinjer, der definerer, hvilke varer der skal leveres.
 
@@ -90,14 +91,14 @@ Alle frigivne kildedokumentlinjer, som opfylder filterkriterierne, indsættes nu
 
 Du kan oprette et ubegrænset antal filterkombinationer. De filterkombinationer, du definerer, gemmes på siden **Filtre til at hente kildedok.**, indtil næste gang du skal bruge dem. Du kan til enhver tid ændre kriterierne ved at vælge handlingen **Ret**.
 
-## <a name="zone-and-bin-codes"></a>Zone-og placeringskoder
+## Zone-og placeringskoder
 
 Hvis der er obligatoriske placeringer på lokationen, foreslår [!INCLUDE [prod_short](includes/prod_short.md)] en zone og Placeringskode i lagerleverancedokumentet.
 
 * I forbindelse med avancerede konfigurationer, hvor en lokation bruger styret læg-på-lager og pluk, bruger [!INCLUDE [prod_short](includes/prod_short.md)] den placering, der er angivet i feltet **Lev. placeringskode** på **lokationskortet**. Hvis der ikke er angivet en **leveringsplaceringskode**, er feltet tomt. Hvis varen og leverancens placering ikke stemmer overens, bevarer [!INCLUDE [prod_short](includes/prod_short.md)] leveranceplaceringen.
 * I andre tilfælde bruger [!INCLUDE [prod_short](includes/prod_short.md)] altid den placering, der er angivet i feltet **Overførselsplaceringskode** på **lokationskortet** først. I andre konfigurationer bruger [!INCLUDE [prod_short](includes/prod_short.md)] placeringskoden fra kildedokumentet.
 
-## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Håndtering af montageordrevarer i lagerleverancer
+## Håndtering af montageordrevarer i lagerleverancer
 
 I montageordrescenarier bruges feltet **Lever (antal)** på lagerleverancelinjerne til at registrere, hvor mange enheder der monteres. Den angivne mængde bogføres derefter som montageoutput, når er bogført lagerleverance. For andre lagerleverancelinjer er værdien i feltet **Lever (antal)** nul fra start.
 
@@ -115,7 +116,7 @@ Når lagerleverance bogføres, opdateres forskellige felter på salgsordrelinjen
 >
 > Montage efter ordre-antallet håndteres som beskrevet i denne artikel. Lagerantal håndteres som en almindelig lagerleverancelinje. Du kan finde flere oplysninger om kombinationsscenarier i [Om Montage til ordre og Montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  

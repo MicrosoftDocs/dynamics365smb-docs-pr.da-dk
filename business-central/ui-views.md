@@ -3,9 +3,7 @@ title: Gemme og tilpasse listevisninger
 description: 'Få mere at vide om, hvordan du opretter dine egne visninger til filtrerede lister, og hvordan du gemmer, omdøber og styrer disse visninger.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: null
 ms.date: 11/02/2023
 ms.author: bholtorf

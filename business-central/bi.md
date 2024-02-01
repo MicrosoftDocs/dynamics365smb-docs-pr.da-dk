@@ -3,15 +3,14 @@ title: Financial Business Intelligence
 description: 'Business Central indeholder mange funktioner, som kan hjælpe dig med at indsamle, analysere og dele værdifulde virksomhedsdata til Business Intelligence og beslutningstagning.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '103, 108, 198, 490'
 ms.date: 09/22/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="financial-business-intelligence"></a>Financial Business Intelligence
+# Financial Business Intelligence
 
 Firmaer registrerer en stor mængde data under de daglige aktiviteter. Disse data, som f.eks. afspejler organisationens salgstal, køb, driftsudgifter, medarbejderlønninger og budgetter, udgør værdifulde oplysninger eller "business intelligence" (BI) for beslutningstagere. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder mange funktioner, som kan være nyttige, når du skal indsamle, analysere og dele virksomhedens data.
 
@@ -32,7 +31,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 |Aktivere global finansiel rapportering til internationale revisionsfirmaer med XBRL-standarden (eXtensible Business Reporting Language).|[Oprette rapporter med XBRL](bi-create-reports-with-xbrl.md)|
 |Rediger formål for adgang til databaser på rapporter, sider af typen API og forespørgsler for at reducere belastningen og forbedre ydeevnen.|[Administrere formål med adgang til database](admin-data-access-intent.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finans](finance.md)  
 [Brug Business Central som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  

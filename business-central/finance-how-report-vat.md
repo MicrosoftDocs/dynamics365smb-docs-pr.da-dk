@@ -3,9 +3,7 @@ title: Sende momsrapporter til skattemyndighederne
 description: 'Få at vide, hvordan du udarbejder rapporter over moms fra salg i en periode eller fra salg og indkøb og sender rapporten til en skattemyndighed.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'VAT, tax, report, EC sales list, statement'
 ms.search.form: '321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401'
 ms.date: 01/31/2022

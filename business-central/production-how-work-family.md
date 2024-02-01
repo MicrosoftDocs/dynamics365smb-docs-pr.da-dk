@@ -3,9 +3,7 @@ title: Arbejde med produktionsfamilier i produktion
 description: 'Den vigtigste opgave i forbindelse med tilpasning af en basiskalender for din virksomhed eller en samarbejdspartner, er at angive eventuelle ændringer i statussen for arbejdsdage eller fridage.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '99000790, 99000791, 99000792, 99000793'
 ms.date: 04/01/2021
 ms.author: bholtorf

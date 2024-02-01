@@ -3,6 +3,7 @@ author: jswymer
 ms.topic: include
 ms.date: 11/01/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 Forslag til marketingtekst understøttes kun på følgende sprog og landestandarder:
 

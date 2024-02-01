@@ -3,9 +3,7 @@ title: Standardkontoplan i Danmark
 description: 'Denne artikel beskriver, hvordan du opretter en standardkontoplan i Danmark.'
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '5264, 5266, 5267, 5270,'
 ms.date: 08/23/2023

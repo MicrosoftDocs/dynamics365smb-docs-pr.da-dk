@@ -3,9 +3,7 @@ title: Føje bemærkninger til kort og dokumenter
 description: 'Føje ekstra oplysninger til konti, debitorkort eller salgsordrer for at kommunikere aftaler, f.eks. en særlig pris eller leveringsmetode, til andre brugere.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'tasks, work'
 ms.search.form: '124, 30'
 ms.date: 04/01/2021

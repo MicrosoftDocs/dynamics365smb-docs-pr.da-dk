@@ -3,9 +3,7 @@ title: Tildele dokumentlayouts til debitorer eller kreditorer
 description: 'Brug dokumentlayout til at kontrollere udseende og format på dokumenter, f. eks. fakturaer og ordrer, som du sender til debitorer og kreditorer.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'customized report, document layout, logo, personalize'
 ms.search.form: '21, 9650'
 ms.date: 04/07/2022

@@ -3,9 +3,7 @@ title: Sådan kopieres eksisterende varer for at oprette nye varer
 description: 'Når du tilføjer en ny vare, kan du spare tid ved at bruge funktionen Kopiér vare til at kopiere en eksisterende vare, der skal bruges som skabelon for en ny vare.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.forms: 729
 ms.date: 04/01/2021

@@ -3,9 +3,7 @@ title: 'Modtagelse, placering, plukning og levering i grundlæggende lageropsæt
 description: I Business Central kan de indgående og udgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 04/01/2021

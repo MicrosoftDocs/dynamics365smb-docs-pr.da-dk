@@ -3,9 +3,7 @@ title: Foretage betalinger med AMC Banking (USA) eller SEPA Credit Transfer (EU)
 description: Du kan behandle betalinger til dine kreditorer ved at eksportere en fil (EFT) sammen med betalingsoplysningerne fra kladdelinjerne.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '256, 1205, 1206, 1209, 10810, 10811'
 ms.date: 07/06/2021

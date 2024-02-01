@@ -3,9 +3,7 @@ title: Oprette bedste fremgangsmåder - Planlægningsparametre
 description: 'I dette emne beskrives de bedste fremgangsmåder for, hvordan du konfigurerer udvalgte felter med planlægningsparametre med oversigtspanelet Planlægning på varekortet.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Økonomistyring (indeholder video)
 description: 'Få mere at vide om, hvordan Business Central understøtter dine behov for økonomistyring, regnskab, revision eller bogholderi.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.search.form: '1151, 1166, 9027, 9004'
 ms.date: 12/19/2023

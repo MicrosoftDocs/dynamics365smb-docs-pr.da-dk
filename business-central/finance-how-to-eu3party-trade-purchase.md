@@ -3,9 +3,7 @@ title: Købstransaktioner for tredjeparter i EU
 description: 'Dette artikel emne indeholder beskrivelser af, hvordan du opretter og bruger EU-tredjeparts købstransaktioner.'
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '50, 51, 52, 187, 317'
 ms.search.keywords: 'EU3P, EU 3-P, EU 3-Party'
 ms.date: 07/07/2023

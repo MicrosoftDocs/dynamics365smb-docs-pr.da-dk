@@ -3,9 +3,7 @@ title: Forsikring af anlægsaktiver
 description: Du kan knytte et eller flere anlægsaktiver til en forsikringspolice ved at bogføre forsikringsposterne fra siden **Forsikringskladde**.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'policy, coverage'
 ms.search.form: '5647, 5644, 5653, 5651, 5655, 5652, 5645, 5656, 5646, 5648, 9275'
 ms.date: 06/29/2021

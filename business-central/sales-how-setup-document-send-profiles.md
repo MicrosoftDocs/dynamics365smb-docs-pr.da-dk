@@ -3,9 +3,7 @@ title: Oprette foretrukne metoder til at sende salgsdokumenter (indeholder video
 description: 'Bruges til at oprette hver debitors foretrukne metode til at sende salgsdokumenter, f.eks. e-mail, PDF-fil, elektronisk dokument osv.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'email, PDF, electronic document'
 ms.date: 04/01/2021
 ms.author: bholtorf

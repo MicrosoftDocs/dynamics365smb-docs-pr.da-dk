@@ -3,9 +3,7 @@ title: Oversigt over dimensionsgruppeposter
 description: 'Denne artikel giver dig et overblik over, hvordan poster i dimensionsopsætning gemmes som dimensions opsætnings poster, og hvordan de bogføres.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: dimension
 ms.date: 06/14/2021
 ms.author: bholtorf

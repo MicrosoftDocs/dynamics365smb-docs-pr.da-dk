@@ -3,9 +3,7 @@ title: Spore relationer mellem behov og forsyning
 description: 'I dette emne forklares forskellige metoder til at spore relationer mellem behov og levering, f. eks. sporing af sammenkædede varer og håndtering af ikke-sporede planlægningselementer.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '5830, 9101, 99000822, 99000855'
 ms.date: 06/25/2021
 ms.author: bholtorf

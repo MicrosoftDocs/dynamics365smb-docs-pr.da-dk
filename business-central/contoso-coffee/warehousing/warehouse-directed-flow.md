@@ -3,13 +3,12 @@ title: 'Modtagelse, placering, plukning og levering i blandet lageropsætning'
 description: Indgående og udgående processer for modtagelse og placering på lager udføres på fire måder ved hjælp af forskellige funktioner afhængigt af kompleksitetsniveauet på lageret.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 12/07/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Gennemgang af indgående og udgående flow i blandet opsætning af lagersted

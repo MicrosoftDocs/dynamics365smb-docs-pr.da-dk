@@ -9,8 +9,9 @@ ms.date: 02/21/2023
 ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
+ms.service: dynamics-365-business-central
 ---
-# <a name="assembly-management"></a>Montagestyring
+# Montagestyring
 
 Firmaer kan levere produkter til kunder ved at kombinere komponenter i enkle processer uden produktionsfunktionen. Funktioner til samling af varer integreres med relaterede funktioner som f. eks. salg, planlægning, reservationer og logistik.  
 
@@ -51,7 +52,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 |Få mere at vide om, hvordan du arbejder med montagestyklister, og hvordan de er forskellige fra produktionsstyklister.|[Arbejde med montagestyklister](assembly-how-work-assembly-boms.md)|
 |Se, hvordan du bogfører montageforbrug og afgang, og hvordan [!INCLUDE [prod_short](includes/prod_short.md)] distribuerer vare- og ressourcekostpriser til finansposterne.|[Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbejde med styklister](inventory-how-work-BOMs.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  

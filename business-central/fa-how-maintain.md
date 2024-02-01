@@ -3,9 +3,7 @@ title: Vedligeholde anlægsaktiver
 description: Du fører en vedligeholdelsespost for reparation og service på et anlægsaktiv for at bevare anlægsaktivets værdi.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'repair, service'
 ms.search.form: '5642, 5625'
 ms.date: 06/15/2021

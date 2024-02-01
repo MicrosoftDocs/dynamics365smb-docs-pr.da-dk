@@ -3,9 +3,7 @@ title: Tildele varegebyrer til salg og køb (indeholder video)
 description: 'Tildele varegebyrer, når du har behov for lagervarer for at overtage omkostninger, f. eks. fragt og fysisk håndtering.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'transportation, added cost, landed cost'
 ms.search.form: '5709, 5800, 5805, 5814'
 ms.date: 11/08/2023

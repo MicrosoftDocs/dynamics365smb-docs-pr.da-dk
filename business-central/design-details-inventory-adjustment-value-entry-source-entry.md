@@ -3,9 +3,7 @@ title: Bogføringsdatoen for regulerings værdiposten sammenlignet med kildepost
 description: 'Få mere at vide om scenariet "Bogføringsdato for reguleringsværdipost mellem bogføringsdato for post, der medfører, at reguleringen f. eks. værdiregulering eller varegebyr" identificeres.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/17/2021
 ms.author: bholtorf

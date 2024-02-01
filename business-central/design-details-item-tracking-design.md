@@ -3,9 +3,7 @@ title: Designoplysninger – Design af varesporing
 description: 'I dette emne beskrives designet bag varesporing i Business Central, sådan som det har udviklet sig gennem produktversionerne.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, item, tracking, tracing'
 ms.date: 06/08/2021
 ms.author: bholtorf

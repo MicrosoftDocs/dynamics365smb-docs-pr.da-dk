@@ -3,9 +3,7 @@ title: Oprette indkøbere og tildele dem til leverandører (indeholder video)
 description: 'Hvis der er mange indkøbere eller indkøbsagenter ansat i virksomheden, kan du organisere dem til statistisk analyse.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: purchasing agent
 ms.search.form: '14, 5116'
 ms.date: 04/01/2021

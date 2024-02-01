@@ -3,9 +3,7 @@ title: Bruge udvidelsen Import af QuickBooks-lønfil | Microsoft Docs
 description: 'Denne artikel beskriver, hvordan du kan bruge udvidelsen til at importere gage- og løntransaktioner fra tjenesten QuickBooks.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms. search.keywords: 'app, add-in, manifest, customize, salary, wage'
 ms.date: 12/07/2023
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Konfigurere godkendelsesworkflows (indeholder video)
 description: 'Konfigurere arbejdsgange, brugere af arbejdsgangen og godkendelses brugere til at forbinde forretningsproces systemopgaver, der udføres af disse brugere.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: bholtorf

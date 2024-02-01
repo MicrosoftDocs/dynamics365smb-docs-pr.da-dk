@@ -3,9 +3,7 @@ title: Aktivere debitorbetalinger med betalingstjenester
 description: Gør det lettere for kunderne at betale deres fakturaer ved at aktivere kundebetaling via betalingstjenester.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: online payment
 ms.search.forms: '1060, 1061, 1062'
 ms.date: 06/25/2021

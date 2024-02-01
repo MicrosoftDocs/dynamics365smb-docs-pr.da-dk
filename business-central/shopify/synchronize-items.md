@@ -3,7 +3,6 @@ title: Synkronisere varer og lager
 description: Oprette og køre synkroniseringer af varer mellem Shopify og Business Central
 ms.date: 11/17/2023
 ms.topic: article
-ms.service: dynamics-365-business-central
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: brentholtorf
 ms.author: bholtorf
