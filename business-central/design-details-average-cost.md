@@ -12,13 +12,13 @@ ms.date: 06/06/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-average-cost"></a>Designoplysninger: Gennemsnitlig omkostning
+# Designoplysninger: Gennemsnitlig omkostning
 
 Den gennemsnitlige kostpris for en vare beregnes med et periodisk vejet gennemsnit. Gennemsnittet er baseret på den gennemsnitlige omkostningsperiode, der er konfigureret i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Værdiansættelsesdatoen angives automatisk.  
 
-## <a name="setting-up-average-cost-calculation"></a>Opsætning af beregning af gennemsnitsomkostninger
+## Opsætning af beregning af gennemsnitsomkostninger
 
 I følgende tabel beskrives de to felter på siden **Opsætning af Lager**, der skal angives for at aktivere beregningen af gennemsnitlig kostpris.  
 
@@ -32,7 +32,7 @@ I følgende tabel beskrives de to felter på siden **Opsætning af Lager**, der 
 >
 > Siden **Regnskabsperioder** viser, hvilken gennemsnitlig omkostningsperiode og hvilken beregningstypen for gennemsnitskostprisen er gældende i den pågældende periode for hver regnskabsperiode.  
 
-## <a name="calculating-average-cost"></a>Beregning af gennemsnitlig kostpris
+## Beregning af gennemsnitlig kostpris
 
  Når du bogfører en transaktion for en vare, der bruger kostmetoden Gennemsnit, oprettes en post i tabellen **Indf.st., regl. gnsn. kostpr.**. Denne post indeholder transaktionens varenummer, variantkode og lokationskode. Posten indeholder også feltet **Værdiansættelsesdato**, som angiver den sidste dato i den gennemsnitlige omkostningsperiode, hvor transaktionen blev bogført.  
 
@@ -48,7 +48,7 @@ I følgende tabel beskrives de to felter på siden **Opsætning af Lager**, der 
 
  Den beregnede gennemsnitlige kostpris udligner derefter lagerreduktionen for varen (eller vare, lokation og variant) med bogføringsdatoer inden for den gennemsnitlige omkostningsperiode. Hvis der er nogen lagerforøgelser, som blev fast udlignet til lagerreduceringer i den gennemsnitlige omkostningsperiode, videresender [!INCLUDE [prod_short](includes/prod_short.md)] den beregnede gennemsnitlige kostpris fra forøgelsen til reduceringen.  
 
-### <a name="example-average-cost-period--day"></a>Eksempel: Gennemsnitlig omkostningsperiode = dag
+### Eksempel: Gennemsnitlig omkostningsperiode = dag
 
 Følgende eksempler viser effekten af beregning af den gennemsnitlige kostpris ud fra en gennemsnitlig omkostningsperiode på én dag. Feltet **Beregn.type for gnsn. kostpris** på siden **Opsætning af Lager** er angivet til **Vare**.  
 
@@ -86,7 +86,7 @@ Følgende tabel viser vareposter for eksemplet med den gennemsnitlige omkostning
 | 02-02-23 |   Køb | 1 | 100.00 | 5 |
 | 02-03-23 |   Salg | -1 | -100,00 | 6 |
 
-### <a name="example-average-cost-period--month"></a>Eksempel: Gennemsnitlig omkostningsperiode = måned
+### Eksempel: Gennemsnitlig omkostningsperiode = måned
 
  Følgende eksempel viser effekten af beregning af den gennemsnitlige kostpris ud fra en gennemsnitlig omkostningsperiode på én måned. Feltet **Beregn.type for gnsn. kostpris** på siden **Opsætning af Lager** er indstillet til **Vare**.  
 
@@ -131,7 +131,7 @@ Den gennemsnitlige kostpris for løbenummer 3 beregnes i den gennemsnitlige omko
 
 For at få den gennemsnitlige kostpris for februar lægger [!INCLUDE [prod_short](includes/prod_short.md)] den gennemsnitlige kostpris for varen, der er modtaget på lageret (100,00) til den gennemsnitlige kostpris i begyndelsen af perioden (30,00). Summen (130,00) divideres derefter med det samlede antal på lagerbeholdningen (2). Denne beregning giver varens gennemsnitlige kostpris i perioden pr. februar (65,00). Den gennemsnitlige kostpris anvendes derefter til lagerreduktionerne i perioden (post 4 og 6).  
 
-## <a name="setting-the-valuation-date"></a>Angivelse af værdiansættelsesdatoen
+## Angivelse af værdiansættelsesdatoen
 
  Feltet **Værdiansættelsesdato** i tabellen **Værdipost** bruges til at bestemme, hvilken gennemsnitlige omkostningsperiode en lagerreduktionspost tilhører. Denne indstilling gælder også for igangværende lagerarbejde (WIP).  
 
@@ -144,7 +144,7 @@ For at få den gennemsnitlige kostpris for februar lægger [!INCLUDE [prod_short
 | 3 | Tidligere end den seneste værdiansættelsesdato for anvendte værdiposter | Positiv | Nej | Seneste værdiansættelsesdato for anvendte værdiposter |
 | 4 |  | Negativ | Ja | Bogføringsdato for værdireguleringspost |
 
-### <a name="example"></a>Eksempel
+### Eksempel
 
 Følgende tabel med værdiposter illustrerer de forskellige scenarier.  
 
@@ -166,7 +166,7 @@ Følgende tabel med værdiposter illustrerer de forskellige scenarier.
 
 Hvis antallet på lager er mindre end nul efter bogføring af en reducering i lagerbeholdningen, indstilles værdiansættelsesdatoen først til bogføringsdatoen for lagerreduceringen. Du kan ændre denne dato, når lagerforøgelsen aktiveres, i henhold til de regler, der er beskrevet i noten tidligere i dette afsnit.  
 
-## <a name="recalculating-average-cost"></a>Genberegning af gennemsnitlig kostpris
+## Genberegning af gennemsnitlig kostpris
 
 Værdiansættelse af lagerreduktioner som et vejet gennemsnit er ligetil i flere forskellige scenarier:
 
@@ -189,7 +189,7 @@ På grund af denne fleksibilitet kan det være nødvendigt at genberegne den gen
 
 Du kan ændre grundlaget for lagerværdi inden for en regnskabsperiode ved at ændre felterne **Gennemsnitlig omkostningsperiode** og **Beregn.type for gnsn. kostpris**. Det anbefales dog, at du er forsigtig og får hjælp hos din revisor.  
 
-### <a name="example-of-recalculated-average-cost"></a>Eksempel på genberegnet gennemsnitlig kostpris
+### Eksempel på genberegnet gennemsnitlig kostpris
 
 Dette eksempel viser, hvordan [!INCLUDE [prod_short](includes/prod_short.md)] genberegner den gennemsnitlige kostpris, når du bogfører på en dato, der ligger før en lagerreduktion. Eksemplet er baseret på den gennemsnitlige omkostningsperiode **Dag**.  
 
@@ -214,7 +214,7 @@ Følgende tabel viser de værdiposter, der findes for varen, når løbenummer 5 
 | 02-15-20 | -1 | -17,00 | 3 |
 | 02-16-20 | -1 | -17,00 | 4 |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Designoplysninger: Lagerberegning](design-details-inventory-costing.md)  
 [Designoplysninger: Beregningsmetoder](design-details-costing-methods.md)  

@@ -12,7 +12,7 @@ ms.date: 09/22/2022
 ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
-# <a name="business-intelligence-and-reporting-overview"></a>Oversigt over Business Intelligence og rapportering
+# Oversigt over Business Intelligence og rapportering
 
 Små og mellemstore virksomheder afhænger af den indbyggede analyse og rapporteringsfunktioner, de kan bruge som standard til at holde styr på deres forretninger. [!INCLUDE[prod_short](includes/prod_short.md)] understøtter almindelige forretningsprocesser samt mere komplekse processer for disse organisationer. Hver af disse processer omfatter rapporter og analyseværktøjer. Du kan også foretage ad-hoc-analyser direkte fra hjemmesiden.  
 
@@ -28,7 +28,7 @@ I følgende tabel kan du lære mere om Business Intelligence og rapporteringsfun
 |Tilpas rapportlayout eller endda udvikler dine egne rapporter fra bunden. |[Udvikle rapporter](reports-develop-reports.md)|
 |Analysér data med Microsoft Fabric| [Introduktion til Microsoft Fabric og Business Central](admin-fabric.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Økonomisk Business Intelligence](bi.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
