@@ -59,7 +59,7 @@ I slutningen af installationsvejledningen kan du vælge at lade [!INCLUDE [prod_
 
 I følgende afsnit beskrives det, hvordan du konfigurerer timesedler, hvis du ikke bruger vejledningen til assisteret opsætning **Konfigurere timesedler**.  
 
-### <a name="to-set-up-general-information-for-time-sheets-manually"></a>Sådan angives generelle oplysninger for timesedler manuelt
+### <a name="set-up-general-information-for-time-sheets-manually"></a>Sådan angives generelle oplysninger for timesedler manuelt
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourceopsætning**, og vælg derefter det relaterede link.  
 1. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -74,7 +74,7 @@ I følgende afsnit beskrives det, hvordan du konfigurerer timesedler, hvis du ik
 | **Altid** |Brugeren i feltet **Ansvarlig person** på sagskortet godkender timesedlen. |
 | **Kun maskine** |Hvis maskintimesedlen er knyttet til en sag, godkendes timesedlen af brugeren i feltet **Ansvarlig person** på sagskortet. Hvis maskintimesedlen er knyttet til en ressource, godkendes timesedlen af brugeren i feltet **Bruger-id for timeseddelgodkender** på ressourcekortet. |
 
-### <a name="to-assign-a-time-sheet-administrator-manually"></a>Sådan tildeles en timeseddeladministrator manuelt
+### <a name="assign-a-time-sheet-administrator-manually"></a>Sådan tildeles en timeseddeladministrator manuelt
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugeropsætning**, og vælg derefter det relaterede link.  
 3. Vælg den bruger, der skal være timeseddeladministrator, og marker derefter afkrydsningsfeltet **Timeseddeladm.**.  
@@ -82,7 +82,7 @@ I følgende afsnit beskrives det, hvordan du konfigurerer timesedler, hvis du ik
 > [!TIP]  
 > Det anbefales, at du kun udpeger én bruger til timeseddeladministrator for en virksomhed. I følgende procedure opretter du en timeseddelejer og -godkender, hvor timeseddelgodkenderen tildeles for hver ressource.  
 
-### <a name="to-assign-a-time-sheets-owner-and-approver-manually"></a>Sådan tildeles en timeseddelejer og -godkender manuelt
+### <a name="assign-a-time-sheets-owner-and-approver-manually"></a>Sådan tildeles en timeseddelejer og -godkender manuelt
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourcer**, og vælg derefter det relaterede link.
 2. Vælg den ressource, du vil konfigurere til at kunne bruge timesedler, og vælg derefter afkrydsningsfeltet **Brug timeseddel**.  

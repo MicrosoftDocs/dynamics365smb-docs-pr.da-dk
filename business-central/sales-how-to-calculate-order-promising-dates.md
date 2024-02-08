@@ -9,7 +9,7 @@ ms.date: 12/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Beregne ordrebekræftelsesdatoer
+# <a name="calculate-order-promising-dates"></a>Beregne ordrebekræftelsesdatoer
 
 En virksomhed skal være i stand til at informere deres kunder om leveringsdatoer for ordren. Med siden **Beregning af lev.tid - linjer** kan du gøre dette fra en salgsordre.  
 
@@ -27,7 +27,7 @@ Hvis du ikke angiver en ønsket leveringsdato på en salgsordrelinje, eller hvis
 - afsendelsesdato + udgående lagerekspeditionstid = planlagt afsendelses dato  
 - planlagt afsendelsesdato + transporttid = planlagt leveringsdato  
 
-## Om beregning af leveringstid
+## <a name="about-order-promising"></a>Om beregning af leveringstid
 
 Vha. funktionen Beregning af leveringstid kan du oprette en ordrebekræftelse med en bestemt afsendelses- eller leveringsdato. Den dato, hvor en vare er disponibel til levering eller den første mulige afsendelsesdato for en vare og opretter ordrelinjer for de datoer, som du godkender. Funktionen beregner den tidligst mulige dato, en vare er disponibel til afsendelse eller levering. Funktionen opretter også rekvisitionslinjer, hvis varerne først skal købes eller produceres, for de datoer, du godkender.
 
@@ -36,19 +36,19 @@ Vha. funktionen Beregning af leveringstid kan du oprette en ordrebekræftelse me
 - Disp.-til-levering  
 - Første m. afs.dato  
 
-### Disp.-til-levering
+### <a name="available-to-promise"></a>Disp.-til-levering
 
 Disp.-til-levering (ATP) beregner datoer baseret på reservationssystemet. Der udføres en tilgængelighedskontrol af de ikke-reserverede mængder på lageret med henblik på planlagt produktion, indkøb, overførsler og salgsreturvarer. Baseret på disse oplysninger beregner [!INCLUDE[prod_short](includes/prod_short.md)] leveringsdato for kundens ordre, da varerne er tilgængelige på lageret eller på fastlagte tilgange.  
 
-### Første m. afs.dato
+### <a name="capable-to-promise"></a>Første m. afs.dato
 
 Første m. afs.dato (CTP) forudsætter et "hvad nu hvis"-scenarie, som kun gælder for vareantal, der ikke findes på lageret eller i planlagte ordrer. Baseret på dette scenarie vil [!INCLUDE[prod_short](includes/prod_short.md)] beregne den tidligste dato, varen kan være tilgængelig, hvis den skal produceres, købes eller overføres.
 
-#### Eksempel
+#### <a name="example"></a>Eksempel
 
 Hvis der er en ordre på henholdsvis 10 stk. og 6 stk. er tilgængelige på lageret eller i planlagte ordrer, så skal den første m. afs.dato-beregning baseres på 4 stykker.
 
-### Beregninger
+### <a name="calculations"></a>Beregninger
 
 Når [!INCLUDE[prod_short](includes/prod_short.md)] beregner kundens leveringsdato, udfører den to opgaver:  
 
@@ -73,7 +73,7 @@ Ordrebehandler afslutter LE-processen ved at acceptere datoerne. Det betyder, at
 
 Foruden den eksterne beregning af leveringstid, som du kan udføre på siden **Beregning af lev.tid - linjer**, kan du også love interne eller eksterne leveringsdatoer for stykliste-elementer. Du kan finde flere oplysninger i [Vise tilgængeligheden af varer](inventory-how-availability-overview.md).
 
-## Sådan defineres beregning af leveringstid
+## <a name="to-set-up-order-promising"></a>Sådan defineres beregning af leveringstid
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætn. af beregn. af lev.tid**, og vælg derefter det relaterede link.  
 2. Angiv et nummer og en tidsenhedskode i feltet **Responstid**. Marker én af følgende koder.  
@@ -91,16 +91,16 @@ Foruden den eksterne beregning af leveringstid, som du kan udføre på siden **B
 4. Angiv en skabelon til beregning af leveringstid i feltet **Skabl. til beregn. af lev.tid** ved at vælge en linje fra oversigten på siden **Indkøbskld.typeover**.  
 5. Angiv en indkøbskladdetype i feltet **Kld. til beregn. af lev.tid** ved at vælge en linje i oversigten på siden **Indkøbskladdenavne**.
 
-### Indgående og Udgående lagerekspeditionstid i beregning af leveringstid
+### <a name="inbound-and-outbound-warehouse-handling-times-in-order-promising"></a>Indgående og Udgående lagerekspeditionstid i beregning af leveringstid
 
 Hvis du automatisk vil inkludere lagerekspeditionstiden i beregningen af leveringstiden på købslinjen, kan du på siden **Opsætning af Lager** angive en standardindstilling for ekspeditionstid til salgs- og købsdokumenter. Du kan også angive bestemte tidspunkter for hver af lokationerne på siden **Lokationskort**. 
 
-#### Angive standard-indgående og -udgående lagerekspeditionstid for salgs-og købsdokumenter
+#### <a name="to-enter-default-inbound-and-outbound-warehouse-handling-times-for-sales-and-purchase-documents"></a>Angive standard-indgående og -udgående lagerekspeditionstid for salgs-og købsdokumenter
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Lager**, og vælg derefter det relaterede link.  
 2. På oversigtspanelet **Generelt** i felterne **Indgående lagerekspeditionstid** og **Udgående lagerekspeditionstid** skal du angive det antal dage, du vil inkludere i beregningerne af leveringstiden.  
 
-#### Angive ind- og udgående lagerekspeditionstider på lokationer
+#### <a name="to-enter-inbound-and-outbound-warehouse-handling-times-on-locations"></a>Angive ind- og udgående lagerekspeditionstider på lokationer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokation**, og vælg derefter det relaterede link.  
 2.  Åbn det relevante lokationskort.  
@@ -109,14 +109,14 @@ Hvis du automatisk vil inkludere lagerekspeditionstiden i beregningen af leverin
 > [!NOTE]  
 >  Hvis du opretter en købsordre, og du vælger **lokation** i feltet **Leveringsadresse** i oversigtspanelet **Levering og betaling**, og du derefter vælger en lokation i feltet **Lokationskode**, udfyldes bruger felterne **Udgående lagerekspeditionstid** og **Indgående lagerekspeditionstid** det ekspeditionstidstidspunkt, der er angivet for lokationen. Det samme gælder for salgsordrer, hvis du vælger en lokation i feltet **Lokationskode**. Hvis der ikke er angivet nogen ekspeditionstid for lokationen, er felterne **Udgående lagerekspeditionstid** og **Indgående lagerekspeditionstid** tomme. Hvis du lader feltet **Lokationskode** stå tomt på salgs- og købsdokumenterne, bruger beregningen den ekspeditionstid, der er angivet på siden **Lageropsætning**.
 
-## Sådan gør du en vare kritisk
+## <a name="to-make-an-item-critical"></a>Sådan gør du en vare kritisk
 
 Før en vare kan indgå i beregningen af ordrebekræftelsen, skal den markeres som kritisk. Denne opsætning sikrer, at ikke-kritiske varer ikke medfører irrelevante beregnede leveringstider.   
 1.  Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
 2.  Åbn det relevante varekort.  
 3.  Vælg feltet **Kritisk** i oversigtspanel **Planlægning**.  
 
-## Sådan beregnes en ordrebekræftelsesdato
+## <a name="to-calculate-an-order-promising-date"></a>Sådan beregnes en ordrebekræftelsesdato
 
 1.  Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordre**, og vælg derefter det relaterede link.  
 2.  Åbn den relevante salgsordre, og vælg de salgsordrelinjer, du vil have programmet til at beregne.  
@@ -127,7 +127,7 @@ Før en vare kan indgå i beregningen af ordrebekræftelsen, skal den markeres s
     - Marker **Første m. afs.dato**, hvis du ved, at varen er udgået af lageret og du vil beregne den tidligste dato, varen kan være disponibel ved at afsende en genbestillingsordre.  
 5.  Vælg knappen **Accepter** for at godkende den tidligst tilgængelige afsendelsesdato.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
 [Beregne dato for køb](purchasing-date-calculation-for-purchases.md)  

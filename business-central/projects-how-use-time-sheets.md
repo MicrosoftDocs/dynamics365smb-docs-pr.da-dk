@@ -131,7 +131,7 @@ Registrering af timesedler spores i timer, standardbasisenheden for ressourcer. 
     > En leder kan afvise en timeseddellinje, der er sendt til godkendelse. Hvis en linje har statussen **Afvist**, kan du foretage ændringer i linjen og derefter vælge **Send** igen.  
 6. Vælg knappen **OK**.
 
-## <a name="to-approve-or-reject-a-time-sheet"></a>Sådan godkendes eller afvises en timeseddel
+## <a name="approve-or-reject-a-time-sheet"></a>Sådan godkendes eller afvises en timeseddel
 
 En timeseddel skal sendes til godkendelse, før den kan bruges. Du kan godkende og afvise individuelle linjer på en timeseddel eller sende dem tilbage til afsenderen. Du kan godkende en timeseddel på to måder:
 
@@ -207,7 +207,7 @@ Når du har godkendt timeseddelposter for en sag, kan du bogføre dem i den rele
 5. Vælg handlingen **Bogfør**.  
 6. Vælg handlingen **Poster** for at bekræfte posteringen. Siden **Sagsposter** åbnes og viser resultatet for bogføring af ressourcekladden.
 
-## <a name="to-archive-time-sheets"></a>Sådan arkiveres timesedler
+## <a name="archive-time-sheets"></a>Sådan arkiveres timesedler
 
 Når du har bogført timesedler, kan du arkivere dem til fremtidig reference. Du skal bogføre alle linjer på en timeseddel, før du kan arkivere den.
 
