@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 [!INCLUDE[prod_short](prod_short.md)] online styres af [politikken for moderne livscyklus](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Betingelserne i serviceniveauaftalen er beskrevet i det dokument, du kan hente fra afsnittet **Serviceniveauaftaler for Microsoft Online Services** på siden [Licensbetingelser](https://www.microsoft.com/licensing/product-licensing/products).  
 

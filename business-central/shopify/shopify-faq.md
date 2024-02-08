@@ -1,7 +1,7 @@
 ---
 title: Ofte stillede spørgsmål til tekniske detaljer
 description: Implementeringsdetaljer vedrørende Shopify-connector.
-ms.date: 03/27/2023
+ms.date: 01/24/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 author: brentholtorf
@@ -70,8 +70,7 @@ Du kan også udforske [Eksperter på markedet](https://experts.shopify.com/) for
 ## Understøttes ikke i øjeblikket, men vi holder styr på dem og kan evt. tilføje dem
 
 - B2B-funktioner, herunder virksomheder, prislister og betalingsbetingelser
-  - Det er i øjeblikket muligt at importere ordrer oprettet via B2B. Hvis du har flere købere knyttet til virksomheden, skal du ikke aktivere automatisk oprettelse af debitorer, men knytte hver Shopify-køber til respektive kunder manuelt.
-  - Du skal vedligeholde virksomhedens prislister i Shopify.
+  - Udvidet understøttelse af B2B vil være tilgængelig i udgivelsesbølge 1 i 2024. Du kan finde flere oplysninger i [Connect Business Central med Shopify B2B](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b)
 - Markeder
   - Flere oversættelser af master data. Du kan vælge ét sprog, der skal bruges til eksport af produktoplysninger.
   - Priser pr. land/område. Én prisliste er tilgængelig for den valgte valuta. Omregningen til andre valutaer håndteres af Shopify.
@@ -84,6 +83,16 @@ Ja, Shopify-connectoren kan udvides. Kontroller GitHub for at få adgang til [li
 ## Er Shopify-connectoren åben for bidrag
 
 Ja, denne udvidelse er åben for bidrag fra vores community. Du kan finde [kildekoden](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) i Microsoft AL-tilføjelsesprogrammet til alle programmer.
+
+## Opbygning af din version af Shopify Connector
+
+Ifølge Shopify, hvis du vil bygge og udgive en connector-app på Shopify-markedspladsen, der har det primære formål at overføre eller dele forhandlerdata til en tredjepart ([!INCLUDE [prod_short](../includes/prod_short.md)]), skal du have skriftligt samtykke fra Shopify. Som en del af denne proces skal du indhente samtykke fra Microsoft i "End Recipient Data Acknowledgement Form". Vi er nødt til at bede dig om at håndtere sagen med Shopify, fordi Microsoft ikke kan underskrive 3. parts aftaler.
+
+### Hvad du skal gøre
+
+Tjek kravene fra Shopify, fordi du muligvis stadig kan have en skjult app.
+
+Alternativt får Shopify Connector til [!INCLUDE [prod_short](../includes/prod_short.md)] konstant nye funktioner og nye kunder. Hvis du opdager et specifikt hul, kan du overveje at indsende et produktforslag (https://aka.ms/bcideas) eller et kodebidrag til [!INCLUDE [prod_short](../includes/prod_short.md)]. For krav, der muligvis ikke er relevante for et flertal af kunderne, og som ikke let kan løses med den nuværende udvidelsesmodel, bedes du kontakte [!INCLUDE [prod_short](../includes/prod_short.md)] udviklingsteamet for at diskutere brugssagen. Vi bør være i stand til at finde en gennemførlig løsning.
 
 ## Se også
 

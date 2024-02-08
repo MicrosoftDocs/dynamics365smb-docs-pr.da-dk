@@ -3,15 +3,13 @@ title: Registrere forbrugsoutput for produktionsordre
 description: 'Dette emne beskriver, hvordan du registrerer forbrug og afgang for en frigivet produktionsordrelinje, der vises på produktionskladdesiden.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 5510
 ms.date: 03/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrere forbrug og afgang for én frigivet produktionsordrelinje
+# Registrere forbrug og afgang for én frigivet produktionsordrelinje
 
 Denne opgave udføres fra siden **Produktionskladde**. Kladden kombinerer funktionaliteten ved forbrugskladden og afgangskladden til én kladde. Der er direkte adgang til den kombinerede kladde fra en frigivet produktionsordre. Dens vigtigste formål er manuelt at bogføre forbruget af komponenter, antallet af producerede færdige varer og den tid, der bruges på operationerne. Værdierne bogføres til poster under den frigivne produktionsordre. Forbrugsantallene bogføres som negative vareposter, afgangsantal bogføres som positive poster, og den forbrugte tid bogføres som kapacitetsposter. Disse bogførte værdier vises også nederst i kladden som faktiske mængder.  
 
@@ -21,7 +19,7 @@ Denne opgave udføres fra siden **Produktionskladde**. Kladden kombinerer funkti
 > [!NOTE]  
 > Komponenter uden rutebindingskoder angives først i kladden.  
 
-## <a name="to-register-consumption-and-output"></a>Sådan registreres forbrug og afgang
+## Sådan registreres forbrug og afgang  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Frigivne produktionsordrer**, og vælg derefter det relaterede link.  
 2. Åbn den frigivne produktionsordrelinje, der er klar til registrering. I oversigtspanelet **Linjer** skal du derefter vælge handlingen **Linje** og derefter handlingen **Produktionskladde**.  
@@ -62,7 +60,7 @@ Denne opgave udføres fra siden **Produktionskladde**. Kladden kombinerer funkti
 > [!WARNING]  
 > Siden **Produktionskladde** kan ikke bruges af to brugere på én gang. Det betyder, at hvis Bruger 2 åbner siden og indtaster data, når Bruger 1 allerede arbejder på siden, kan Bruger 2 miste data, når Bruger 1 lukker siden.  
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Produktion](production-manage-manufacturing.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  

@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 04/11/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 0.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Momsrapportkonfiguration**, og vælg derefter det relaterede link.  
 2. For at vil lade brugerne ændre rapporten og sende den igen skal du markere feltet **Modificer sendte rapporter**.  

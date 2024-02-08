@@ -3,15 +3,14 @@ title: 'Forretningsfunktioner, der understøttes af Business Central'
 description: 'Indeholder en funktionsoversigt over alle forretningsfunktioner og afdelinger, der understøttes af funktionalitetsområder som finans, lager og projektstyring.'
 author: brentholtorf
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 11/01/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="business-functionality"></a>Forretningsfunktioner
+# Forretningsfunktioner
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder funktioner til almindelige forretningsprocesser i små og mellemstore virksomheder inden for engroshandel og professionelle services. Mere komplekse processer, f.eks. montage, produktion, service og styret logistik, understøttes imidlertid også. Få mere at vide om, hvordan du får en gratis prøveversion [her](trial-signup.md).  
 
@@ -39,7 +38,7 @@ ms.author: bholtorf
 |Lad brugerne udveksle data med eksterne kilder i daglige opgaver, f.eks. afsendelse eller modtagelse af elektroniske dokumenter, import og eksport af bankfiler og opdatering af valutakurser.|[Udveksle data elektronisk](across-data-exchange.md)|
 |Registrer eksterne dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)], herunder deres vedhæftede filer, opret derefter relaterede dokumenter manuelt, eller konverter automatisk filerne til elektroniske dokumenter.|[Indgående bilag](across-income-documents.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administration](admin-setup-and-administration.md)    
 [Udforske Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/)  

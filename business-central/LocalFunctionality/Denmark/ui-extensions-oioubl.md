@@ -3,15 +3,14 @@ title: Udvidelsen OIOUBL til elektronisk fakturering
 description: Denne udvidelse gør det nemt at sende salgsdokumenter elektronisk til kunder i den danske offentlige sektor i OIOUBL-formatet.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '13645, 13646, 13647'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="the-oioubl-extension-for-electronic-invoicing-in-denmark"></a>Udvidelsen OIOUBL til elektronisk fakturering i Danmark
+# Udvidelsen OIOUBL til elektronisk fakturering i Danmark
 
 Når du sælger varer eller tjenesteydelser til debitorer i den danske offentlige sektor, skal du sende dokumenter til kunden elektronisk i en XML-fil, der er struktureret til at opfylde kravene i en eller flere OIOUBL-profiler (Offentlig oplysninger Online - Universal Business Language).  
 
@@ -21,7 +20,7 @@ De aktuelle krav til at sende elektroniske fakturaer er baseret på UBL version 
 
 Du kan få yderligere oplysninger om OIOUBL generelt på webstedet med [OIOUBL-onlinedokumentationen](http://www.oioubl.info/classes/da/index.html) og webstedet til [Digitaliseringsstyrelsenl](https://digst.dk/).  
 
-## <a name="getting-started-with-the-oioubl-extension"></a>Kom i gang med udvidelsen OIOUBL
+## Kom i gang med udvidelsen OIOUBL
 
 Som standard er OUOUBL-udvidelsen installeret i [!INCLUDE[prod_short](../../includes/prod_short.md)]. Men, der er et par ting, du skal gøre, før du kan bruge udvidelsen:
 
@@ -30,7 +29,7 @@ Som standard er OUOUBL-udvidelsen installeret i [!INCLUDE[prod_short](../../incl
 
 Du kan få flere oplysninger i [Konfigurere udvidelsen OIOUBL](how-to-set-up-oioubl.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
 [Konfigurere OIOUBL-udvidelsen](how-to-set-up-oioubl.md)  
