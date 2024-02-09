@@ -7,21 +7,22 @@ ms.reviewer: jswymer
 ms.topic: overview
 ms.date: 04/04/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="manage-access-to-business-central"></a>Administrere adgang til Business Central
+# Administrere adgang til Business Central
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Denne artikel giver administratorer og programudviklere en højt oversigt over, hvordan man styrer adgangen til [!INCLUDE [prod_short](includes/prod_short.md)] og dets funktioner. Brug linkene til at gå til andre artikler, hvor du kan finde flere oplysninger om emnerne.
 
-## <a name="layered-access"></a>Lagdelt adgang
+## Lagdelt adgang
 
 [!INCLUDE [prod_short](includes/prod_short.md)] bruger en lagdelt tilgang til programsikkerhed som beskrevet i følgende diagram. Hvis du vil vide mere om hvert lag, skal du gå til [Application Security i Business Central](/dynamics365/business-central/dev-itpro/security/security-application).
 
 :::image type="content" source="media/security-overview.png" alt-text="Lagdelt programsikkerhed i Business Central.":::
 
-## <a name="licenses"></a>Licenser
+## Licenser
 
 Tildel [!INCLUDE [prod_short](includes/prod_short.md)]-brugere til en **Dynamics 365 Business Central**-licens, som giver dem mulighed for at få vist, ændre og behandle forretningsdata fra enhver brugergrænseflade. Hvis du vil vide mere om licenser, skal du gå til [Licensering i Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing).
 
@@ -29,7 +30,7 @@ Men brugere, der lejlighedsvis har brug for skrivebeskyttet adgang til oplysning
 
 Du kan finde flere oplysninger om de forskellige typer licenser, og hvordan licenser fungerer i [!INCLUDE[prod_short](includes/prod_short.md)] ved at hente [Licensvejledning til Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-## <a name="business-central-administrator-tasks"></a>Administrative opgaver i Business Central
+## Administrative opgaver i Business Central
 
 I følgende tabel vises, hvordan administratorer kan kontrollere adgangen til [!INCLUDE [prod_short](includes/prod_short.md)], og hvilke funktioner personer bruger. Nogle af opgaverne hjælper også at holde Access-indstillingerne opdaterede.
 
@@ -44,7 +45,7 @@ I følgende tabel vises, hvordan administratorer kan kontrollere adgangen til [!
 |En Azure-servicekode repræsenterer en gruppe IP-adresser, som trafik til en tjeneste kan komme fra eller gå til. Brug servicekoder til at oprette firewalls for at tillade trafik fra bestemte tjenester. Med **Dynamics365BusinessCentral**-koden kan du bruge firewall og regler i netværkssikkerhedsgruppen til at begrænse trafikken til og fra [!INCLUDE [prod_short](includes/prod_short.md)].| [Azure-sikkerhedstjenestemærker](/dynamics365/business-central/dev-itpro/security/security-service-tags)|
 |Når du bruger Microsoft Entra-godkendelse til [!INCLUDE [prod_short](includes/prod_short.md)], anbefales det, at du drager fordel af [Microsoft Entra ID Multi-Factor Authentication (MFA)](/azure/active-directory/authentication/concept-mfa-howitworks). MFA sikrer yderligere adgang til programmet og dataene.|[Multifaktorgodkendelse for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/security/multifactor-authentication)|
 
-## <a name="business-central-developer-tasks"></a>Business Central-udvikleropgaver
+## Business Central-udvikleropgaver
 
 Der er også en udviklertekst til at styre adgangen til [!INCLUDE [prod_short](includes/prod_short.md)]. Udviklere og administratorer kan f.eks. bygge og forbinde programmer til [!INCLUDE [prod_short](includes/prod_short.md)], der drager fordel af virksomheden:  
 
@@ -58,6 +59,6 @@ Følgende tabel indeholder oplysninger om, hvordan du giver apps og udvidelser a
 |--|--|
 |De to vigtigste begreber for at definere adgang til funktioner er rettigheder og tilladelser. Rettigheder giver almen adgang til objekter i henhold til licenser og Microsoft Entra-roller. Tilladelser og tilladelsessæt giver dig mulighed for at finjustere adgangen til objekter. |[Oversigt over rettigheds- og tilladelsessæt](/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Sikkerhed i Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection)
