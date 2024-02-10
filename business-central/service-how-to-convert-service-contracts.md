@@ -11,7 +11,7 @@ ms.date: 12/07/2023
 ms.author: bholtorf
 ---
 
-# <a name="convert-service-contracts-that-include-vat-amounts"></a>Konvertere servicekontrakter, der omfatter momsbeløb
+# Konvertere servicekontrakter, der omfatter momsbeløb
 
 Da momssatsændringsværktøjet ikke kan konvertere servicekontrakter, skal disse kontrakter konverteres manuelt. Denne artikel beskriver flere alternative metoder, der kan bruges til konvertering af servicekontrakter.  
 
@@ -23,7 +23,7 @@ Da momssatsændringsværktøjet ikke kan konvertere servicekontrakter, skal diss
 > [!NOTE]  
 > I dette eksempel skal du ændre din arbejdsdato til 01.01.2017.  
 
-## <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Sådan rettes en faktura for en forudbetalt servicekontrakt
+## Sådan rettes en faktura for en forudbetalt servicekontrakt  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontraktstyring**, og vælg derefter det relaterede link.  
 2. Under **Lister** skal du vælge **Servicekontrakter**.  
@@ -36,14 +36,14 @@ Da momssatsændringsværktøjet ikke kan konvertere servicekontrakter, skal diss
 > [!NOTE]  
 > Ændr ikke den ikke-bogførte servicefaktura. Da serviceposterne oprettes, når fakturaen oprettes, vil en ændring af den ikke-bogførte faktura ikke ændre de allerede oprettede serviceposter. Momsposter oprettes dog, når fakturaen bogføres. Dermed kan du ændre den generelle produktbogføringsgruppe og GSP-produktbogføringsgruppe på den ikke-bogførte servicefaktura.  
 
-### <a name="to-create-a-credit-memo-for-vat-difference"></a>Sådan oprettes en kreditnota for momsdifference
+### Sådan oprettes en kreditnota for momsdifference 
  
 Følgende procedure beskriver, hvordan du opretter en kreditnota , der kun omfatter momsdifference for den periode, der allerede er fakturerede, startende med **01.07.2017**. I dette eksempel bogføres momsbeløbet kun i modulet Økonomistyring, ikke i modulet Servicestyring. De momsposter, der er knyttet til serviceposten, vil ikke blive rettet.  
 
 1. Oprette en ny finanskonto for momsdifferencen. Denne konto bruges til direkte bogføring af momskorrektionen.  
 2. Tilføj en ny linje til momsbogføringsopsætningen.  
 
-## <a name="to-create-contract-expiration-dates-in-contract-lines"></a>Sådan oprettes kontraktudløbsdatoen i kontraktlinjer
+## Sådan oprettes kontraktudløbsdatoen i kontraktlinjer  
 
 Følgende procedure beskriver, hvordan du opretter nye kontrakter ved at arbejde med kontraktudløbsdatoer i servicekontraktlinjer.  
 
@@ -51,7 +51,7 @@ Følgende procedure beskriver, hvordan du opretter nye kontrakter ved at arbejde
 2. Vælg handlingen **Opret kreditnota** for automatisk at oprette en kreditnota for juli 2017 til december 2017.  
 3. Da kontrakten er udløbet, skal du oprette en ny kontrakt for perioden med den nye momssats for 1 juli 2017 til 31. december 2017.  
 
-### <a name="to-create-a-new-credit-memo"></a>Sådan oprettes en ny kreditnota
+### Sådan oprettes en ny kreditnota  
 
 Følgende procedure beskriver, hvordan du opretter en ny kreditnota ved hjælp af batchjobbet **Hent forudbetalte kontraktposter**. Poster, du ikke vil rette fra januar 2017 til juni 2017, vil blive slettet.  
 
@@ -62,7 +62,7 @@ Følgende procedure beskriver, hvordan du opretter en ny kreditnota ved hjælp a
 5. Vælg handlingen **Hent forudbetalte kontraktposter**.  
 6. Når konverteringen er fuldført, vil moms og serviceposter være korrekte.  
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Arbejde med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Finans](finance.md)  
