@@ -63,13 +63,16 @@ I følgende tabel beskrives værdierne i feltet **Status**.
 |--|--|
 | Klar | Jobkøposten er klar til at blive kørt. |
 | Igangsat | Opgavekøposten er i gang. Feltet opdateres, mens opgavekøen kører. |
-| I venteposition | Standardstatus for opgavekøposten, da den blev oprettet. Vælg **Angiv Status som Klar** for at ændre status til **Klar**. Vælg handlingen **Indstil som afvent** omdannes status til **Afvent**. |
+| I venteposition | Standardstatus for opgavekøposten, da den blev oprettet. Vælg **Angiv Status som Klar** for at ændre status til **Klar**. Vælg handlingen **Indstil som afvent** omdannes status til **Afvent**. Du kan finde flere oplysninger i [Om I venteposition](#about-on-hold).|
 | Fejl | Noget gik galt. Vælg **Vis fejl** for at se fejlmeddelelsen. |
 | Afsluttet | Opgavekøposten er fuldført. |
 
-> [!Tip]  
+> [!TIP]  
 > Opgavekøposten holder op med at køre, når der er en fejl. Dette kan f. eks. være et problem, når en post opretter forbindelse til en ekstern tjeneste, f. eks. en arkføder. Hvis tjenesten midlertidigt ikke er tilgængelig, og opgavekøposten ikke kan oprette forbindelse, viser posten en fejl og stopper med at køre. Du skal genstarte opgavekøposten manuelt. Men **Maks. antal forsøg** og **Forsinkelse før genkørsel (sek.)** kan hjælpe dig med at undgå denne situation. Feltet **Maks. af feltet forsøg** giver dig mulighed for at angive, hvor mange gange opgavekøposten skal mislykkes, før det forsøges at køre. Feltet **Kør forsinkelse igen (sek.)** giver dig mulighed for at angive, hvor lang tid, der skal være mellem forsøg. Kombinationen af disse to felter kan holde opgavekøposten kørende, indtil den eksterne tjeneste bliver tilgængelig.
 
+### Om I venteposition
+
+Hvis du angiver en opgavekøpost til **I venteposition**, påvirker det ikke en løbetur, der allerede kører. Når en opgave er startet i opgavekøen, fortsætter den, indtil den er færdig, uanset eventuelle efterfølgende ændringer af opgavekøposten, f.eks. hvis den sættes i venteposition.<br><br>Status **I venteposition** bruges typisk til at forhindre, at et job starter automatisk, når det planlagte starttidspunkt nås. Det giver dig mulighed for midlertidigt at sætte udførelsen af et job på pause, før det begynder at blive behandlet. Men når et job allerede kører, vil ændring af status til "I venteposition" ikke afbryde eller påvirke jobbets udførelse.<br><br>Hvis du har brug for at stoppe eller annullere et igangværende job, kan du gøre det ved at gribe ind manuelt i processen, f.eks. ved at afslutte den tilsvarende session eller proces, der er ansvarlig for udførelsen af jobbet.
 ### Sådan får du vist status for en opgave
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Poster for jobkøer**, og vælg derefter det relaterede link.

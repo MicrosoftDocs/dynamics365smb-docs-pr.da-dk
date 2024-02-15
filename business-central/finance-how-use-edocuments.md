@@ -3,16 +3,15 @@ title: Bruge e-dokumenter i salg og køb
 description: 'Lære, hvordan du bruger e-dokumentfunktioner, der er relateret til salgs- og købsfakturaer.'
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice, sales, purchase'
 ms.search.form: '42, 43, 51, 6103, 6133, 6121, 9301, 9305, 9308'
 ms.date: 10/03/2023
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="use-e-documents-in-sales-and-purchases"></a>Bruge e-dokumenter i salg og køb
+# Bruge e-dokumenter i salg og køb
 
 Du kan bruge konfigurerede elektroniske dokumenter (e-dokumenter) sammen med salgs- og købsdokumenter.
 
@@ -35,13 +34,13 @@ Du kan bruge følgende dokumenter med e-dokumenters funktioner:
 > [!NOTE]
 > I øjeblikket kan en købsordre kun bruges, når du opretter dokumentet fra e-dokumentet fra leverandøren. Du kan dog ikke opdatere det eksisterende dokument med linjer, som du har fået fra kreditoren.  
 
-## <a name="e-documents-in-sales"></a>E-dokumenter i salg
+## E-dokumenter i salg
 
 For at oprette og sende en e-faktura til en kunde skal du oprette og bogføre salgsfakturaen. Du kan få mere at vide om standardprocessen under [Fakturere salg](sales-how-invoice-sales.md).
 
 Når du har bogført salgsdokumentet, skal du åbne siden **Bogført salgsfaktura** for at få adgang til den relaterede side **E-dokument**.
 
-### <a name="view-e-documents"></a>Vise e-dokumenter
+### Vise e-dokumenter
 
 Følg disse trin for at få vist eksisterende e-dokumenter.
 
@@ -50,7 +49,7 @@ Følg disse trin for at få vist eksisterende e-dokumenter.
 3. Feltet **Post** viser dokumentnummeret på det bogførte salgsfaktura. Vælg linket til at åbne dokumentet.
 4. I feltet **Status for elektroniske dokumenter** kan du få vist dokumentets status i realtid og dets placering i procespipelinen. Hvis dokumentet er bogført, er status **Behandlet**.
 
-### <a name="e-document-statuses-and-logs"></a>Logfiler for e-dokumentstatusser
+### Logfiler for e-dokumentstatusser
 
 Du kan finde flere oplysninger om servicestatusniveauet for dit e-dokument i oversigtspanelet **E-dokumentservicestatus**. På linjerne viser systemet en eller flere tjenester, som dokumentet har brugt. I det mest almindelige scenarie bruger hvert dokument kun én tjeneste. Et dokument kan dog bruge flere tjenester.
 
@@ -74,11 +73,11 @@ Hvis der er et problem med tjenesteudbyderen, og dokumentet ikke kan sendes, ska
 
 Når problemet er løst, skal du manuelt køre handlingerne **Send dokumenter**. Hvis du har brug for forskellige handlinger, f.eks. **Genoprettede dokument**, **Annuller dokument** eller **Hent godkendelse**, kan du køre dem.
 
-## <a name="e-documents-in-purchases"></a>E-dokumenter i køb
+## E-dokumenter i køb
 
 Modtagelse af elektroniske købsfakturaer i Dynamics 365 Business Central kan udføres som en kørsel eller manuelt.
 
-### <a name="run-the-batch-job"></a>Kør batchjobbet
+### Kør batchjobbet
 
 > [!NOTE]
 > Dette batchjob bruges til automatisk opkrævning af indgående fakturaer. Det kan kun fungere i et land eller område, hvor funktionaliteten findes.
@@ -102,7 +101,7 @@ Der er to almindelige fejl:
 
 Når du har rettet fejlene og advarslerne, kan du manuelt angive, hvornår systemet skal oprette en købsfaktura baseret på din opsætning, ved at vælge **Opret dokument**.
 
-### <a name="manually-import-invoices"></a>Importer fakturaer manuelt
+### Importer fakturaer manuelt
 
 Følg disse trin for manuelt at importere eksterne e-dokumenter.
 
@@ -113,7 +112,7 @@ Følg disse trin for manuelt at importere eksterne e-dokumenter.
 5. Når du er færdig med at løse problemerne, skal du vælge **Opret dokument** i gruppen **Importér manuelt**.
 6. Når dokumentet er oprettet i Business Central, kan du få det vist på samme måde, som hvis du bruger et batchjob.
 
-## <a name="overview-of-e-document-statuses"></a>Oversigt over e-dokumentstatusser
+## Oversigt over e-dokumentstatusser
 
 Hvis du vil have et bedre overblik over alle e-dokumenter i regnskabet, kan du vælge rollecenteret **Bogholder**, hvor der findes e-dokumentstatusser. Der kan du finde e-dokumentaktiviteter, der har følgende statusser:
 
@@ -129,7 +128,7 @@ Hvis du vil have et bedre overblik over alle e-dokumenter i regnskabet, kan du v
     - Igangværende
     - Fejl
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Sådan konfigureres e-dokumenter i Business Central](finance-how-setup-edocuments.md)  
 [Sådan udvides e-dokumenter i Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

@@ -7,8 +7,9 @@ ms.reviewer: jswymer
 ms.topic: troubleshooting
 ms.collection:
   - bap-ai-copilot
-ms.date: 11/15/2023
+ms.date: 02/01/2024
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 # Fejlfinde Copilot- og AI-funktioner
 
@@ -29,8 +30,12 @@ Når du prøver at bruge Copilot, og du får en fejl svarende til **Beklager, Co
 - Først skal du kontrollere, at funktionen er aktiveret på siden **Copilot- og AI-funktioner**. [Få mere at vide om aktivering af Copilot- og AI-funktioner](enable-ai.md#activate-features). 
 - Dernæst skal du sørge for, at erklæringen om beskyttelse af personlige oplysninger for Azure OpenAI-integration ikke er indstillet til **Uenig for alle**. Hvis det er det, skal du ændre det til **Enig for alle**. [Få mere at vide om fortrolighedserklæringer](privacy-notices-status.md).
 
+## Copilot-funktioner fra Microsoft er ikke angivet på siden Copilot- og AI-funktioner
+
+Hvis ingen af AI-funktionerne fra Microsoft vises på siden **Copilot- og AI-funktioner**, skyldes det sandsynligvis, at du har en eller flere integreringsapps installeret i dit miljø. Integreringsapps kan tilbyde deres egne Copilot-funktioner, men funktioner, der udgives af Microsoft, er ikke kompatible med miljøer, der har integrerede apps.
+
 ## Se også
 
-[Konfigurer Copilot- og AI-funktioner](enable-ai.md)  
+[Konfigurere Copilot- og AI-funktioner](enable-ai.md)  
 [Marketing-tekstforslag med Copilot](ai-overview.md)  
 [Afstemme bankkonti med Copilot](bank-reconciliation-with-copilot.md)  
