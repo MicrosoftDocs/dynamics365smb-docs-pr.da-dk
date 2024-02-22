@@ -1560,6 +1560,7 @@ ms.service: dynamics-365-business-central
 #### [Opsætte speditører](sales-how-to-set-up-shipping-agents.md)
 #### [Definere politik til bogføring af faktura for brugere](admin-setup-invoice-posting-policy.md)
 #### [Opdatere dokumentdatoer med bogføringsdatoer](across-link-doc-dates-to-posting-dates.md)
+#### [Vise en beholdningsadvarsel](sales-setup-show-stockout-warning.md)
 ### Opsætte indkøb
 #### [Opsætte indkøb](purchasing-setup-purchasing.md)
 #### [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)
