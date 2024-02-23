@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-Felterne **Bilagsdato** og **Bogføringsdato** på salgs- og købsdokumenter kan hjælpe dig med at overholde regnskabsstandarder og sikre nøjagtige økonomiske beregninger. Felterne tjener forskellige formål:
+Felterne **Bilagsdato** og **Bogføringsdato** på salgs- og købsdokumenter hjælper dig med at overholde regnskabsstandarder og få nøjagtige økonomiske beregninger. Felterne tjener forskellige formål:
 
 - Hvis [!INCLUDE [prod_short](prod_short.md)] du vil beregne rentenotaer og det skyldige beløb på salgsfakturaer korrekt, skal **dokumentdatoen** stemme overens med en af følgende datoer:
 

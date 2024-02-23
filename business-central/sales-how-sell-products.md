@@ -2,13 +2,14 @@
 title: Oprette en kundesalgsordre og sælge produkter
 description: 'Beskriver, hvordan du opretter en salgsnota for at registrere en aftale med en kunde om at sælge eller handle med produkter i henhold til bestemte betingelser.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: soalex
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 11/03/2023
-ms.author: bholtorf
+ms.date: 02/01/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Sælge produkter med en kundesalgsordre
 
@@ -89,6 +90,12 @@ De relaterede vare- og debitorposter oprettes nu i systemet, og salgsordren udl�
 ## Eksterne bilagsnumre
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
+
+## Arbejde med beløbsfelter
+
+Værdierne i de felter, der viser beløb, kan være positive eller negative, afhængigt af om værdien repræsenterer en kredit eller en debet. Denne video viser, hvordan du arbejder med felter, der viser beløb.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
 ## Se også
 

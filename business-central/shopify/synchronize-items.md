@@ -11,7 +11,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="synchronize-items-and-inventory"></a>Synkronisere varer og lager
+# Synkronisere varer og lager
 
 **Varerne** i [!INCLUDE[prod_short](../includes/prod_short.md)] svarer til *produkterne* i Shopify og inkluderer fysiske produkter, digitale overførsler, tjenester og gavekort, som du kan sælge. Der er to grunde til at synkronisere varerne:
 
@@ -22,7 +22,7 @@ Følgende to scenarier er altid aktiverede.
 
 Et tredje scenario er at administrere data i Shopify, men indlæse disse elementer samlet i [!INCLUDE[prod_short](../includes/prod_short.md)]i. Dette scenario kan være nyttigt i forbindelse med dataoverførselshændelser, når du vil forbinde en eksisterende online shop med en ny [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="define-item-synchronizations"></a>Definere synkronisering af elementer
+## Definere synkronisering af elementer
 
 1. Vælg søgningen ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, og skriv **Shopify Butik**. Åbn butikken, som du vil konfigurere vare synkronisering for.
 2. Vælg den ønskede indstilling i feltet **Synkroniser element**.
@@ -38,7 +38,7 @@ Et tredje scenario er at administrere data i Shopify, men indlæse disse element
 > [!NOTE]
 > Hvis du ændrer **Synkroniseringselement** fra **Fra Shopify** til **Til Shopify**, vil det ikke have en effekt, medmindre du aktiverer **Kan opdatere Shopify-produkter**. 
 
-## <a name="import-items-from-shopify"></a>Indlæs varer fra Shopify
+## Indlæs varer fra Shopify
 
 Du kan enten masseimportere varer fra Shopify eller sammen med import af ordrer, lægge disse varer til tabellen **Shopify produkt** og **Shopify Variant** først. Knyt derefter importerede produkter og varianter til varer og varianter i [!INCLUDE[prod_short](../includes/prod_short.md)]. Du kan bruge følgende indstillinger til at administrere processen:
 
@@ -51,7 +51,7 @@ Du kan enten masseimportere varer fra Shopify eller sammen med import af ordrer,
 |**Variantpræfiks**|Bruges sammen med **SKU-tilknytning** angivet til **variantkode** eller **varenr. + variantkode**-indstillinger som fallback-strategi, når SKU, der kommer fra Shopify, er tom.<br>Hvis du vil oprette varevarianten i [!INCLUDE[prod_short](../includes/prod_short.md)] automatisk, skal du angive en værdi i **koden**. Den værdi, der er angivet i feltet SKU, som er indlæst fra Shopify, bruges som standard. Men hvis LAGERVAREN er tom, genereres kode, der starter med et defineret præfiks, og "001".|
 |**Shopify Kan opdatere vare**|Vælg denne mulighed, hvis du vil opdatere varer og/eller varianter automatisk.|
 
-### <a name="effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central"></a>Effekten af SKU og stregkoder i Shopify-produkt, der påvirker tilknytning og oprettelse af varer og varianter i Business Central
+### Effekten af SKU og stregkoder i Shopify-produkt, der påvirker tilknytning og oprettelse af varer og varianter i Business Central
 
 Når produkter importeres fra Shopify til **tabellerneShopify Produkter** og **Shopify Varianter**, forsøger [!INCLUDE[prod_short](../includes/prod_short.md)] at finde eksisterende poster.
 
@@ -64,7 +64,7 @@ Den følgende tabel beskriver de forskellen mellem indstillingerne i feltet **SK
 |**Variantkode**|Feltet SKU bruges ikke i varetilknytningsrutinen.|Ingen indflydelse på oprettelsen af varen. Når der oprettes en varevariant, bruges værdien i feltet Lagervare som en kode. Hvis LAGERVAREN er tom, genereres en kode med brug af feltet **Variantkode**.|
 |**Varenr. + variantkode**|Vælg denne indstilling, hvis feltet SKU indeholder et varenummer. og varevariantkoden er separeret med den værdi, der er defineret i feltet **SKU-feltseparator**.|Når der oprettes en vare, bruges den første del af værdien i feltet SKU som **Nr.** Hvis SKU er tom, vil varenr. genereres ved hjælp af de nummerserier, der er defineret i **vareskabelonkoden** eller **varenumrene** fra siden **Lageropsætning**.<br>Når der oprettes en vare, bruger funktionen variant den anden del af værdien af feltet SKU som **kode**. Hvis SKU er tom, genereres en kode med brug af feltet **Variantkode**.|
 |**Kreditors varenr.**|Vælg, hvis feltet SKU indeholder kreditorvarenr. I dette tilfælde **Vare/leverandørnr.** //leverandør ikke på siden **varekort** i stedet bruges **leverandør/varenr.** fra **Vare/leverandører-kataloget**. Hvis den fundne *vare-leverandørkatalog*-post indeholder en variantkode, anvendes denne variantkode til at tilknytte Shopify-varianten.|Hvis der findes en tilsvarende kreditor i [!INCLUDE[prod_short](../includes/prod_short.md)], bruges SKU-værdien som **Leverandør/varenr.** på siden **varekort** og som **varereference** for *typen af kreditor*. <br>Forhindrer oprettelse af varianter. Det er nyttigt, hvis du kun vil bruge hoved varen i salgsordren. Du kan stadig tilknytte en variant manuelt fra siden **Shopify Produkt**.|
-|**Stregkode**|Vælg, hvis feltet SKU indeholder feltet en stregkode. Der udføres en søgning blandt **varereferencer** af typen *stregkode* . Hvis den fundne varereferencepost indeholder en variantkode, anvendes denne variantkode til at tilknytte Shopify-varianten.|Ingen indflydelse på oprettelsen af varen. <br>Forhindrer oprettelse af varianter. Det er nyttigt, hvis du kun vil bruge hoved varen i salgsordren. Du kan stadig tilknytte en variant manuelt fra siden **Shopify Produkt**.|
+|**Stregkode**|Vælg, hvis feltet SKU indeholder feltet en stregkode. Der udføres en søgning blandt **varereferencer** af typen *stregkode*. Hvis den fundne varereferencepost indeholder en variantkode, anvendes denne variantkode til at tilknytte Shopify-varianten.|Ingen indflydelse på oprettelsen af varen. <br>Forhindrer oprettelse af varianter. Det er nyttigt, hvis du kun vil bruge hoved varen i salgsordren. Du kan stadig tilknytte en variant manuelt fra siden **Shopify Produkt**.|
 
 Følgende tabel beskriver effekten af feltet **Stregkode**.
 
@@ -75,7 +75,7 @@ Følgende tabel beskriver effekten af feltet **Stregkode**.
 > [!NOTE]  
 > Du kan udløse tilknytningen for de valgte produkter/varianter ved at vælge **Prøv Find produkttilknytning** eller alle importerede ikke-tilknyttede produkter **Prøv at finde tilknytninger**.
 
-## <a name="export-items-to-shopify"></a>Eksporter til Excel Shopify
+## Eksporter til Excel Shopify
 
 Du kan eksportere elementer til Shopify på flere måder: 
 
@@ -100,9 +100,9 @@ Du kan bruge følgende indstillinger til at administrere processen med at ekspor
 |**Feltseparator til varenumre**|Definer en separator for indstillingen **varenr. + variantkode**.|
 |**Lager sporet**| Vælg, hvordan systemet skal udfylde feltet **Spor lager** for de produkter, der eksporteres til Shopify. Du kan opdatere tilgængelighedsoplysninger fra [!INCLUDE[prod_short](../includes/prod_short.md)] for produkter i Shopify, hvor spor lager er aktiveret. Der er flere oplysninger i [Lager](synchronize-items.md#sync-inventory-to-shopify)-afsnittet.|
 |**Standardlagerpolitik**|Vælg *Afvis* for at forhindre negativ beholdning af Shopify-siden. <br>Hvis **Kan opdatere Shopify produkter** er aktiveret, overføres ændringer i feltet **Standardlagerpolitik** til Shopify efter næste synkronisering for alle produkter, og varianter, der er angivet i **Shopify-produkter** er angivet for den valgte butik.|
-|**Kan opdatere Shopify Produkter**|Definer, om [!INCLUDE[prod_short](../includes/prod_short.md)] kun kan oprette varer, eller om der også kan opdateres varer. Vælg denne indstilling, hvis du vil opdatere produkterne manuelt ved hjælp af handlingen **Synkroniser produkt** eller vis jobkø for tilbagevendende opdateringer, når den første synkronisering blev udløst med handlingen **Tilføj vare**. Husk at vælge **Til Shopify** i feltet **Varesynkronisering**.<br>**Kan opdatere Shopify-produkter** påvirker ikke synkronisering af priser, billeder eller lagerniveauer, som er konfigureret af uafhængige kontroller.<br>Hvis **Kan opdatere Shopify-produkter** er aktiveret, opdateres følgende felter for produktet på Shopify-siden og eventuelt variantniveauet: **SKU**, **Stregkode**, **Vægt**. **Titel**, **Produkttype**, **Leverandør**, **Beskrivelse** for produktet opdateres også, hvis de eksporterede værdier ikke er tomme. Hvis det er en beskrivelse, betyder det, at du skal aktivere et af til/fra-felterne **Udvidet tekst til synkroniseret vare**, **Marketingtekst til synkroniseret vare**, **Synkroniser vareattributter**, og attributterne, udvidet tekst eller marketingtekst skal have værdier. Hvis produktet bruger varianter, tilføjes eller fjernes varianten, hvis det er nødvendigt. <br>Hvis produktet på Shopify er konfigureret til at bruge variantmatrix, der kombinerer to eller flere indstillinger, kan Shopify Connector ikke oprette variant for det pågældende produkt. I [!INCLUDE[prod_short](../includes/prod_short.md)] er ingen måde at definere indstillingsmatrix på, derfor bruger connectoren **variantkoden** som den eneste mulighed. Shopify forventer dog flere muligheder og nægter at oprette variant, hvis der mangler oplysninger om en anden og andre muligheder. |
+|**Kan opdatere Shopify Produkter**|Definer, om [!INCLUDE[prod_short](../includes/prod_short.md)] kun kan oprette varer, eller om der også kan opdateres varer. Vælg denne indstilling, hvis du vil opdatere produkterne manuelt ved hjælp af handlingen **Synkroniser produkt** eller vis jobkø for tilbagevendende opdateringer, når den første synkronisering blev udløst med handlingen **Tilføj vare**. Husk at vælge **Til Shopify** i feltet **Varesynkronisering**.<br>**Kan opdatere Shopify-produkter** påvirker ikke synkronisering af priser, billeder eller lagerniveauer, som er konfigureret af uafhængige kontroller.<br>Hvis **Kan opdatere Shopify-produkter** er aktiveret, opdateres følgende felter for produktet på Shopify-siden og eventuelt variantniveauet: **SKU**, **Stregkode**, **Vægt**. **Titel**, **Produkttype**, **Leverandør** og **Beskrivelse** for produktet opdateres også, hvis de eksporterede værdier ikke er tomme. Hvis det er en beskrivelse, betyder det, at du skal aktivere et af til/fra-felterne **Udvidet tekst til synkroniseret vare**, **Marketingtekst til synkroniseret vare** og **Synkroniser vareattributter** samt og attributterne, udvidet tekst eller marketingtekst skal have værdier. Hvis produktet bruger varianter, tilføjes eller fjernes varianten, hvis det er nødvendigt. <br>Hvis produktet på Shopify er konfigureret til at bruge variantmatrix, der kombinerer to eller flere indstillinger, kan Shopify Connector ikke oprette variant for det pågældende produkt. I [!INCLUDE[prod_short](../includes/prod_short.md)] er ingen måde at definere indstillingsmatrix på, derfor bruger connectoren **Variantkoden** som den eneste mulighed. Shopify forventer dog flere muligheder og nægter at oprette variant, hvis der mangler oplysninger om en anden og andre muligheder. |
 
-### <a name="fields-mapping-overview"></a>Oversigt over felttilknytning
+### Oversigt over felttilknytning
 
 |Shopify|Kilde, når den eksporteres fra [!INCLUDE[prod_short](../includes/prod_short.md)]|Destinationen, når den importeres til [!INCLUDE[prod_short](../includes/prod_short.md)]|
 |------|-----------------|-----------------|
@@ -128,16 +128,16 @@ Du kan bruge følgende indstillinger til at administrere processen med at ekspor
 |Momskoder|**Momsgruppekode**. Kun relevant i forbindelse med moms. Få flere oplysninger [Konfigurere moms](setup-taxes.md).|Bruges ikke.|
 
 
-### <a name="tags"></a>Koder
+### Koder
 
 Gennemse importerede koder i faktaboksen **Koder** på siden **Shopify-produkt**. På samme side redigeres koder ved at vælge handlingen **Koder**.
 Hvis indstillingen **Til Shopify** er valgt i feltet **Synkroniser vare**, eksporteres tilknyttede tags til Shopify ved næste synkronisering.
 
-## <a name="run-item-synchronization"></a>Kør varesynkronisering
+## Kør varesynkronisering
 
 Du kan udføre fuldstændig eller delvis synkronisering af elementer på mange forskellige måder.
 
-### <a name="initial-sync-of-items-from-business-central-to-shopify"></a>Oprindelig synkronisering af varer fra Business Central til Shopify
+### Oprindelig synkronisering af varer fra Business Central til Shopify
 
 1. Gå til søgning søg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Produkter**, og vælg det relevante link.
 2. Vælg handlingen **Tilføj varer**.
@@ -153,7 +153,7 @@ Alternativt kan du synkronisere ét element ved at vælge **Tilføj til Shopify*
 > [!NOTE]  
 > Indledende synkronisering af elementer fra [!INCLUDE[prod_short](../includes/prod_short.md)] til Shopify overvejer ikke indstillingerne **Synkroniser element** og **Kan opdatere Shopify-produkter**. 
 
-### <a name="sync-products-from-shopify-to-business-central"></a>Synkroniser produkter fra Shopify til Business central
+### Synkroniser produkter fra Shopify til Business central
 
 1. Gå til søgning ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Butik**, og vælg det relevante link.
 2. Marker den butik, som du vil synkronisere varer til for at åbne siden **Shopify-købskort**.
@@ -163,11 +163,11 @@ Du kan også bruge handlingen **Synkroniser produkter** i vinduet **Shopify Prod
 
 Du kan planlægge, at følgende tilbagevendende aktiviteter skal udføres automatisk. Få mere at vide, når du [planlægger tilbagevendende opgaver](background.md#to-schedule-recurring-tasks).
 
-### <a name="url-and-preview-url"></a>URL-adresse og URL-adresse til forhåndsvisning
+### URL-adresse og URL-adresse til forhåndsvisning
 
-Element, der føjes til Shopify eller importeres fra Shopify, kan have **URL-adressen** eller udfyldt **Vis URL-adresse** . Feltet **URL-adresse** er tomt, hvis produktet ikke udgives i onlinebutikken, f.eks. fordi dets status er kladde. **URL-adresse** vil være tom, hvis butikken er beskyttet med adgangskode, for eksempel fordi dette er udviklingsbutik. I de fleste tilfælde kan du bruge **URL-adressen** til forhåndsversion til at kontrollere, hvordan produktet vil se ud, når det er offentliggjort.
+Et element, der føjes til Shopify eller importeres fra Shopify, kan have **URL-adressen** eller udfyldt **Forhåndsversion af URL-adresse**. Feltet **URL-adresse** er tomt, hvis produktet ikke udgives i onlinebutikken, f.eks. fordi dets status er kladde. **URL-adressen** vil være tom, hvis butikken er beskyttet med adgangskode, for eksempel fordi dette er udviklingsbutik. I de fleste tilfælde kan du bruge **Forhåndsversion af URL-adresse** til at kontrollere, hvordan produktet vil se ud, når det er offentliggjort.
 
-### <a name="ad-hoc-updates-of-shopify-products"></a>Ad-Hoc-opdateringer for Shopify-produkter
+### Ad-Hoc-opdateringer for Shopify-produkter
 
 Når posterne opdateres i tabellen **Shopify Produkt**, synkroniseres følgende ændringer med Shopify.
 
@@ -185,7 +185,7 @@ På baggrund af værdien i **Handling for fjernede produkter** på side **Shopif
 * **Status til kladde** - Status for produktet i Shopify er angivet til *Kladde*.
 * **Status til arkiveret** - Produkt er arkiveret i Shopify.
 
-## <a name="sync-item-images"></a>Synkroniser varebilleder
+## Synkroniser varebilleder
 
 Synkronisering af afbildninger kan konfigureres for synkroniserede elementer. Vælg mellem følgende indstillinger:
 
@@ -195,24 +195,24 @@ Synkronisering af afbildninger kan konfigureres for synkroniserede elementer. V�
 
 Billedsynkronisering kan initialiseres på to måder.
 
-### <a name="sync-product-images-from-the-shopify-shop-page"></a>Synkronisere produktbilleder fra siden Shopify-butik
+### Synkronisere produktbilleder fra siden Shopify-butik
 
 1. Gå til søgning ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-butikker**, og vælg det relevante link.
 2. Marker den butik, som du vil synkronisere billeder til for at åbne **Shopify-butikskortsiden**.
 3. Vælg handlingen **Synkroniser produktbilleder**.
 
-### <a name="sync-product-images-from-the-shopify-products-page"></a>Synkronisere produktbilleder fra Shopify-produktvinduet
+### Synkronisere produktbilleder fra Shopify-produktvinduet
 
 1. Gå til søgning ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Produkter**, og vælg det relevante link.
 2. Vælg handlingen **Synkroniser produktbilleder**.
 
-### <a name="image-synchronization-remarks"></a>Bemærkninger til billedsynkronisering
+### Bemærkninger til billedsynkronisering
 
 * Når du eksporterer billeder fra [!INCLUDE[prod_short](../includes/prod_short.md)] til Shopify, erstatter billederne dem, du har eksporteret tidligere. De tidligere billeder er ikke længere tilgængelige.
 * Hvis du sletter et billede i [!INCLUDE[prod_short](../includes/prod_short.md)], bliver billedet Shopify ikke også slettet. Du skal manuelt slette de gamle billeder i **Shopify-administratoren**.
 * De billeder, du eksporterer til Shopify, skal opfylde Shopify-kravene. Ellers kan du ikke indlæse dem. Du kan finde flere oplysninger om mediekrav i [Produktmedietyper på help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
 
-## <a name="sync-prices-with-shopify"></a>Synkroniser priser med Shopify
+## Synkroniser priser med Shopify
 
 Du kan bruge følgende indstillinger til at administrere processen med at eksportere priser:
 
@@ -227,25 +227,25 @@ Du kan bruge følgende indstillinger til at administrere processen med at ekspor
 
 Priser for synkroniserede varer kan eksporteres på to måder, der er beskrevet nedenfor.
 
-### <a name="sync-prices-from-the-shopify-products-page"></a>Synkronisere priser fra siden Shopify-produkter
+### Synkronisere priser fra siden Shopify-produkter
 
 1. Gå til søgning ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Produkter**, og vælg det relevante link.
 2. Vælg handlingen **Synkroniser priser til Shopify**.
 
-### <a name="price-calculation-remarks"></a>Bemærkninger til prisberegning
+### Bemærkninger til prisberegning
 
 * Når du fastlægger en pris, [!INCLUDE[prod_short](../includes/prod_short.md)] bruges logikken "laveste kurs". Den laveste pris logik ignorerer imidlertid den salgspris, der er defineret på varekortet, hvis der er defineret en pris i prisgruppen. Dette gælder også, hvis vareprisen fra varekortprisen er lavere.
 * Med henblik på beregning af priser opretter forbindelsen et midlertidigt salgstilbud på varen med et antal på 1 og bruger beregningslogik for standardpris. Kun priser og rabatter, der er gældende for antal 1, bruges. Du kan ikke eksportere forskellige priser eller rabatter baseret på antal.
 * Connectoren sender en anmodning om at opdatere priserne Shopify, hvis prisen i [!INCLUDE[prod_short](../includes/prod_short.md)] er ændret. Hvis du for eksempel synkroniserede produkter og priser og derefter ændrede prisen i Shopify, vil handlingen **Synkroniser priser til Shopify** ikke have nogen indflydelse på prisen i Shopify, da ny pris beregnet af connector er den samme som pris gemt i Shopify Variant fra tidligere synkronisering. **Sammenlign til pris** opdateres kun, hvis hovedprisen er ændret. 
 
-## <a name="sync-inventory-to-shopify"></a>Synkroniser lager med Shopify
+## Synkroniser lager med Shopify
 
 Lagersynkronisering kan konfigureres for allerede synkroniserede elementer. Der skal være to betingelser, der skal overholdes:
 
 1. Lagersporing skal aktiveres for et produkt i Shopify. Hvis varerne eksporteres til Shopify, skal du overveje at aktivere til/fra-feltet **Lagersporing** på siden **Shopify Butik**. Få flere oplysninger i afsnittet [Eksportere varer til Shopify](synchronize-items.md#export-items-to-shopify)
 2. Lagersynkronisering skal være aktiveret for **Shopify Lokationer**.
 
-### <a name="to-enable-inventory-sync"></a>Sådan aktiveres lagersynkronisering
+### Sådan aktiveres lagersynkronisering
 
 1. Gå til søgning ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Butik**, og vælg det relevante link.
 2. Marker den butik, som du vil synkronisere lager med for at åbne **Shopify Butikskort**-siden.
@@ -258,18 +258,18 @@ Lagersynkronisering kan konfigureres for allerede synkroniserede elementer. Der 
 
 Du kan initialisere lagersynkronisering på to måder, som beskrevet herunder.
 
-### <a name="sync-inventory-from-the-shopify-shop-page"></a>Synkronisere lager fra Shopify-butiksvinduet
+### Synkronisere lager fra Shopify-butiksvinduet
 
 1. Gå til søgning ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-butikker**, og vælg det relevante link.
 2. Marker den butik, som du vil synkronisere lager med for at åbne **Shopify Butikskort**-siden.
 3. Vælg handlingen **Synkroniser lager**.
 
-### <a name="sync-inventory-from-the-shopify-products-page"></a>Synkronisere lager fra Shopify-produktsiden
+### Synkronisere lager fra Shopify-produktsiden
 
 1. Gå til søgning ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Produkter**, og vælg det relevante link.
 2. Vælg handlingen **Synkroniser lager**.
 
-### <a name="inventory-remarks"></a>Lagerokmmentarer
+### Lagerokmmentarer
 
 * Metoden standardberegning for lagerbeholdning er **planlagte disponible resultat til dato**. Du kan også bruge udvidelsesmulighederne til at tilføje flere indstillinger. Du kan få mere at vide om udvidelser ved at gå til [eksempler](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation). 
 * Du kan kontrollere de modtagne lageroplysninger fra Shopify på siden **Shopify Lager-faktaboks**. I denne faktaboks får du en oversigt over Shopify-lagerbeholdningen og den sidst beregnede lagerbeholdning i [!INCLUDE[prod_short](../includes/prod_short.md)]. Der er en post pr. lokation.
@@ -277,7 +277,7 @@ Du kan initialisere lagersynkronisering på to måder, som beskrevet herunder.
 * Når du tilføjer en ny placering i Shopify, skal du også tilføje lagerposter for den. Shopify gør det ikke automatisk for eksisterende produkter og varianter, og connector synkroniserer ikke lagerniveauer for de pågældende varer på en ny lokation. Hvis du vil vide mere, skal du gå til [Tildele lagervarer til lokationer](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
 * Både **Business Central-opfyldelsestjenester** og normale lokationer understøttes og kan bruges til levering og lager.
 
-#### <a name="example-of-calculation-of-projected-available-balance"></a>Eksempel på beregning af planlagt disponibel balance
+#### Eksempel på beregning af planlagt disponibel balance
 
 Der er 10 enheder af varen tilgængelig på lager og to udestående salgsordrer. En for mandag med mængde *En* og en for torsdag med antal *To*. Afhængigt af, hvornår du synkroniserer lageret, opdaterer systemet lagerniveauet Shopify med forskellige mængder:
 
@@ -286,6 +286,6 @@ Der er 10 enheder af varen tilgængelig på lager og to udestående salgsordrer.
 |Tirsdag|9|Lagerbeholdning 10 minus angivet i salgsordre til afsendelse mandag|
 |Fredag|7|Lager 10 minus begge salgsordrer|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Kom i gang med Connectoren til Shopify](get-started.md)  

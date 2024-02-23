@@ -38,13 +38,13 @@ sections:
           | Handlinger på handlingslinjen | Der vises kun promoverede handlinger. | Der vises kun promoverede handlinger. |  |
           | Faktabokse | Vises ikke på listesider eller regnearkssider. | Vises ikke på listesider eller regnearkssider. | `Customer`-liste i `Small Business`-rollecenter. |
           | Avancerede filtre | Der er ingen tilgængelige kolonnespecifikke filtreringer. | Der er ingen tilgængelige kolonnespecifikke filtreringer. | På `Customer`-listesiden. |
-          | Fortæl mig | Det skal være aktiveret i [Funktionsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management) ved hjælp af kontakten **Funktion: Søg efter sider og data i mobilappen**. Afsnittet **Hent fra Microsoft AppSource** i resultaterne for apps er ikke tilgængeligt. | Samme som tabletter | Se [Søg efter sider og oplysninger med Fortæl mig](ui-search.md). |  |
-          | Rollestifinder | Ikke tilgængelig. | Ikke tilgængelig. | Se [Søg efter sider med Rollestifinder](ui-role-explorer.md). |
+          | Fortæl mig | Det skal være aktiveret i [Funktionsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management) ved hjælp af kontakten **Funktion: Søg efter sider og data i mobilappen**. Afsnittet **Hent fra Microsoft AppSource** i resultaterne for apps er ikke tilgængeligt. | Samme som tabletter | Gå til [Søg efter sider og oplysninger med Fortæl mig](ui-search.md). |  |
+          | Rollestifinder | Ikke tilgængelig. | Ikke tilgængelig. | Gå til [Søg efter sider med Rollestifinder](ui-role-explorer.md). |
           | Felter i oversigtspaneler | Felterne i oversigtspaneler på listesider vises ikke. Kun kontrolelementet forstærker vises i sidens indholdsområde. | Ikke tilgængelig |  |
           | Vælg fra komplet liste | Ikke tilgængelig for opslag. Brugere kan ikke udføre handlinger på en opslags side, og de kan ikke få adgang til alle poster. | Ikke tilgængelig for opslag. Brugere kan ikke udføre handlinger på en opslags side, og de kan ikke få adgang til alle poster. | På `Item Card`, når der vælges **basisenheder**. |
-          | Søg på tværs af listekolonner | Delvist understøttet Søg vil ikke indeholde FlowFields. | Delvist understøttet Søg vil ikke indeholde FlowFields. | Se eksempler på `Customers`-listesiden. |
-          | Slå op | Tilgængelig. | Tilgængelig med forskellen, som avancerede og enkle opslag opfører sig på samme måde i telefonen. Opslaget viser ikke kortet, vis faktabokse eller feltgrupper. | Se eksempler på `Customer Card`-siden. |
-          | Matrix kontrolelementer | Ikke tilgængelig | Ikke tilgængelig | Se eksemplet i `G/L Budget`. |
+          | Søg på tværs af listekolonner | Delvist understøttet Søg vil ikke indeholde FlowFields. | Delvist understøttet Søg vil ikke indeholde FlowFields. | Gå til eksempler på `Customers`-listesiden. |
+          | Slå op | Tilgængelig. | Tilgængelig med forskellen, som avancerede og enkle opslag opfører sig på samme måde i telefonen. Opslaget viser ikke kortet, vis faktabokse eller feltgrupper. | Gå til eksempler på `Customer Card`-siden. |
+          | Matrix kontrolelementer | Ikke tilgængelig | Ikke tilgængelig | Gå til eksempel i `G/L Budget`. |
           | Fildownload | Tilgængelig. Der kan ikke hentes flere filer på samme tid. | Tilgængelig. Der kan ikke hentes flere filer på samme tid. | `Trial Balance`-rapport i afkrydsningsfeltet i **Udskriv til Excel**. |
           | Kladdesider | Tilgængelig. | Ikke tilgængelig - der vises en fejlmeddelelse. | `Sales Price`-kladde eller `Cash Flow`-regneark. |
           | Liste | Tilgængelig. | Tilgængelig, med den difference, der vises i et fysisk layout. | Debitor- eller salgsordresider. |
@@ -53,15 +53,15 @@ sections:
       - question: |
           Er det samme oplevelse med tabletter og telefoner?
         answer: |
-          Næsten, men ikke helt rigtigt. Se listen i sektionen [Er den samme visning af apps som i browseren?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  
+          Næsten, men ikke helt rigtigt. Gå til listen i sektionen [Er den samme visning af apps som i browseren](#is-it-the-same-experience-in-the-apps-as-in-the-browser-)?  
       - question: |
           Kan jeg tilslutte appen til vores on-premises-løsning?
         answer: |
-          Ja, det kan du. Det er en lidt anderledes måde at logge på. Du kan finde flere oplysninger i [bruge Business Central i det lokale miljø?](install-mobile-app.md#use-business-central-on-premises).  
+          Ja, det kan du. Det er en lidt anderledes måde at logge på. Du kan finde flere oplysninger i Gå til [Bruge Business Central i det lokale miljø?](install-mobile-app.md#use-business-central-on-premises).  
       - question: |
           Kan en gæstebruger bruge appen til at få adgang til vores Business Central-løsning?
         answer: |
-          Nej. Gæstebrugere er blevet inviteret til brugere fra en anden Microsoft Entra-lejer end dine. I dette tilfælde godkendes appen af gæste brugerens primære Microsoft Entra-lejer, og du kan prøve at åbne Business Central-slutpunktet på den pågældende lejer i stedet for dit.  
+          Nej Gæstebrugere er blevet inviteret til brugere fra en anden Microsoft Entra-lejer end dine. I dette tilfælde godkendes appen af gæste brugerens primære Microsoft Entra-lejer, og du kan prøve at åbne Business Central-slutpunktet på den pågældende lejer i stedet for dit.  
 additionalContent: |
 
   ## Se også
