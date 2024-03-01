@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Oversigt over styring af bæredygtighed
+# Oversigt over styring af bæredygtighed
 
 >[!IMPORTANT]
 >Denne funktion vil være tilgængelig i Business Central fra **2024 udgivelsesbølge 1**, og alle referencelinks aktiveres, når de er tilgængelige.
@@ -43,7 +43,7 @@ Se følgende artikler for at komme i gang med Sustainability Management.
 |Sådan kan du registrere udledninger | Brug denne artikel til at lære, hvordan du arbejder med alle typer bæredygtighedstidsskrifter. |
 
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Finance](finance.md)    
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
