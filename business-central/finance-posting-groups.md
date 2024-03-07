@@ -7,7 +7,7 @@ ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: 'posting setup, initialize'
 ms.search.form: '312, 313'
-ms.date: 12/21/2023
+ms.date: 02/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -113,7 +113,19 @@ På den måde får du besked, når du arbejder på et dokument, der bruger en bo
 >
 > Hvis det er tilfældet, skal du deaktivere notifikationen *Finanskonto mangler i bogføringsgruppe eller opsætning*, og du skal derefter samarbejde med bogholderen for at foretage de relevante ændringer af bogføringsgruppen, opsætningen eller dokumentet. Dette er et vigtigt trin, fordi når dokumenterne er bogført, kan alle ukorrekte bogføringsgrupper eller opsætninger ikke slettes, da der er oprettet finansposter til dem.
 
-Fra 2022 udgivelsesbølge 1 kan du bruge feltet **Spærret** på **Bogføringsopsætnings**-siden til at forhindre, at brugere kommer til at følge med en opsætning, der ikke længere er relevant for nye posteringer.  
+Brug feltet **Spærret** på **Bogføringsopsætnings**-siden til at forhindre, at brugere kommer til at følge med en opsætning, der ikke længere er relevant for nye posteringer. 
+
+## Få adgang til alle felter og konti, når du opretter en bogføringsgruppe  
+
+Det kan være komplekst at oprette bogføringsgrupper. Da nogle kontotyper ikke bruges ofte, vises [!INCLUDE [prod_short](includes/prod_short.md)] ikke som kolonner på linjerne. For at gøre det lidt nemmere at vælge de rigtige konti [!INCLUDE [prod_short](includes/prod_short.md)] filtrerer du også de konti, du kan vælge i feltopslag. 
+
+Hvis du vil have adgang til alle konti på linjerne og i feltopslag, er der et par indstillinger, der kan hjælpe:
+
+* Hvis du vil have vist alle konti som kolonner på linjerne, skal du slå **Vis alle konti** til.
+* På individuelle linjer skal du markere afkrydsningsfeltet **Vis alle konti ved opslag** for at få adgang til alle konti i feltopslag.
+
+> [!NOTE]
+> Til/fra-knappen **Vis alle konti** ser muligvis ikke ud til at fungere på siden **Bogføringsopsætning**. Det skyldes, at [!INCLUDE [prod_short](includes/prod_short.md)] altid viser alle konti som kolonner på linjerne på den pågældende side.
 
 ## Fejlfinding i forbindelse med bogføringsgruppefejl
 

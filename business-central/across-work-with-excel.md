@@ -65,10 +65,10 @@ Hvis du foretager ændringer af tilføjelsesprogrammet, skal du genindlæse det 
 
 Når **Rediger i Excel** bruges på listesider til tabeller med mange kolonner, kan den resulterende projektmappe indeholde for mange kolonner, så filen ikke kan ses i Excel på internettet. [!INCLUDE[prod_short](includes/prod_short.md)] begrænser automatisk den eksporterede projektmappe til 100 kolonner, når OneDrive er konfigureret til systemfunktioner. 
 
-## Se forskellene mellem indstillingerne
+<!--## See the differences between the options
 <br><br>  
 
-> [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
+> [!Video https://go.microsoft.com/fwlink/?linkid=2086039]-->
 
 ## Se også
 
