@@ -4,7 +4,7 @@ description: Forskellige integrationsscenarier til påvisning af arbejdsgange me
 ms.date: 06/21/2022
 ms.topic: article
 ms.service: dynamics-365-business-central
-ms.search.form: '30101, 30102, 30106, 30107, 30113, 30115, 30126'
+ms.search.form: '30101, 30102, 30106, 30107, 30113, 30115, 30126, 30156, 30157'
 ms.reviewer: solsen
 author: brentholtorf
 ms.author: bholtorf
@@ -50,17 +50,17 @@ Benyt følgende fremgangsmåde for at konfigurere Shopify-shops:
 5. Aktiver **Lager sporet** til/fra.
 6. Vælg *Afvis* i feltet **Standardlagerpolitik**.
 7. Aktiver **Automatisk oprettelse af ukendte kunder** til/fra.
-8. Udfyld feltet **Debitorskabelonkode** med den relevante skabelon.
+8. Udfyld feltet **Debitor/Firmaskabelonkode** med den relevante skabelon.
 9. Udfyld feltet **Leveringskonto**, **Konto til drikkepenge** med omsætning. F. eks. kan du i USA bruge `40210`.
 10. Aktiver **Automatisk oprettelse af ordrer** til/fra.
+11. Deaktivér **Automatisk frigivelse af salgsordrer**.
 
 Konfigurere tilknytning af lokation:
 
 1. Vælg handlingen **Lokationer** for at åbne **Shopify Butikslokationer**.
-2. Vælg handlingen **Hent Shopify-lokationer** for at importere alle de placeringer, der er defineret i Shopify. Vælg din standardplacering i Shopify.
+2. Vælg handlingen **Hent Shopify-lokationer** for at importere alle de placeringer, der er defineret i Shopify. Vælg post med Til/fra-knappen **Er primær** er valgt.
 3. Angiv `''|EAST|MAIN` i **lokationsfilteret**.
-4. Slå til/fra-knappen **Standardproduktplacering** til.
-5. Vælg *Forventet disponibel saldo ved dags dato* i feltet **Lagerberegning** for at aktivere en lagersynkronisering for en valgt Shopify-lokation.
+4. Vælg *Forventet disponibel saldo ved dags dato* i feltet **Lagerberegning** for at aktivere en lagersynkronisering for en valgt Shopify-lokation.
 
 ## Gennemgang: Start salg af produkter online
 
@@ -74,11 +74,11 @@ Følg disse trin i [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-produkter**, og vælg derefter det relaterede link.
 2. Vælg **Tilføj elementer**.
-3. Skriv *DEMO1* i feltet **Butikskode**.
-4. Indstil filteret `CHAIR` i feltet **Varekategorikode** (tilføj filter, hvis det er nødvendigt).
-5. Vælg **OK**, og vent, til den første synkronisering af varer og priser er fuldført.
-6. Vælg **Synkroniser produktbilleder**.
-7. Vælg **Synkroniser lager**.
+3. Skriv `DEMO1` i feltet **Butikskode**.
+4. Angiv filteret `CHAIR` i feltet **Varekategorikode**.
+5. Aktivér til/fra-knappen **Synkroniser produktbilleder**.
+6. Aktiver til/fra-knappen **Synkronisér lager**.
+7. Vælg **OK**, og vent, til den første synkronisering af varer, billeder og lager er fuldført.
 
 I **Shopify-onlinebutik**:
 > [!Tip]  
@@ -97,14 +97,13 @@ Vælg **Køb nu**, og fortsæt til udtjekning.
 2. I felterne **Fornavn** og **Efternavn** skal du indtaste `Claudia Lawson`.
 3. Angiv den lokale adresse.
 4. Vælg afkrydsningsfeltet **Gem disse oplysninger til næste gang**.
-5. Vælg **Fortsæt til levering**.
-6. Bevar `Standard` som leveringsmetoden, og vælg derefter **Fortsæt med betaling**.
-7. Vælg `10%` drikkepenge.
-8. I feltet **kreditkort** skal du angive `1`, hvis du bruger *(til test) Bogus gateway*, eller angive `5555 5555 5555 4444`, hvis du bruger *Shopify payments* i testtilstand.
+6. Hold *Standard* som forsendelsesmetode.
+8. I feltet **kreditkortnr.** skal du angive `1`, hvis du bruger *(til test) Bogus gateway*, eller angive `5555 5555 5555 4444`, hvis du bruger *Shopify payments* i testtilstand.
 9. Udfyld feltet **Navn på kort**.
 10. Angiv i **Udløbsdato** indeværende måned/år.
 11. Skriv `111` i **Sikkerhedskode**.
-12. Vælg **Betal nu**.
+7. Valgfrit: Vælg `10%` drikkepenge.
+8. 12. Vælg **Betal nu**.
 
 Gør ét af følgende i [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
@@ -118,8 +117,7 @@ Den importerede ordre er klar til behandling.
 2. Bemærk, at der oprettes ny kunde- og salgsordrer.
 3. Udforsk handlingerne **risiko** og **forsendelsesomkostning**.
 4. Vælg **Salgsordre** for at åbne vinduet **Salgsordre**. Salgsordre kan, om nødvendigt, dækkes af montage, produktion eller køb ved hjælp af planlægningsprogrammet. Den understøtter også forskellige lagerekspeditionsprocesser med fuldstændig adskillelse af opgaver.
-5. Vælg handlingen **Genåbne**.
-6. I feltet **helpdesk-medarbejder** angives `DHL`.
+6. I feltet **helpdesk-medarbejder** angives `DHL`. Åbn ordren igen, hvis det er nødvendigt, ved at vælge handlingen **Åbn igen**.
 7. I feltet **Pakkesporingsnr.** angives `123456789`.
 8. Vælg handlingen **Bogfør**, vælg indstillingen **Lever og fakturer**, og vælg derefter knappen **OK**.
 
@@ -130,27 +128,43 @@ Nu registreres fysiske og økonomiske oplysninger i [!INCLUDE[prod_short](../inc
 
 I **Shopify Admin** skal du notere om, ordren nu er markeret som *opfyldt*. Du kan også gennemse leveringsoplysningerne og se, hvordan du registrerer URL-adressen. Hvis du kører **synkroniseringsordrer fra Shopify** igen, vil ordren blive arkiveret på begge systemer.
 
-## Gennemgang: Inviter dine kunder til din nye onlinebutik
+## Gennemgang: Tilføj dine kunder til din nye onlinebutik
 
 ### Scenarie
 
-Når du hurtigt har startet din nye onlinebutik, vil du have de aktuelle kunder til at besøge og begynde at bestille.
+Når du hurtigt har startet din nye onlinebutik, vil du have de aktuelle kunder til at besøge og begynde at bestille. Afhængigt af din Shopify plan og proces kan du prøve B2B- og D2C-flows.
 
-### Trin
+### D2C Trin
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)] skal du gøre følgende:
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-butikker**, og vælg det relevante link.
-2. Marker den **DEMO1**-butik, som du vil synkronisere debitorer til for at åbne **Shopify-butikskort**-siden.
-3. Vælg **Synkroniser kunder**.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-kunder**, og vælg derefter det relaterede link.
+2. Vælg **Tilføj kunder**.
+3. Skriv `DEMO1` i feltet **Butikskode**.
+4. Indstil filteret `20000` på **Nej.** .
+5. Vælg **OK**, og vent, til den første synkronisering af kunder er fuldført.
 
-I **Shopify Admin** skal du registrere, om kunderne er blevet indlæst. Åbn en af debitorerne, og læg mærke til, at det første og sidste navn på debitoren kommer fra i feltet **kontaktnavn** på **debitorkortet**. Firmanavnet kan findes i den standardadresse, der er knyttet til debitoren. Vælg **Send kontoinvitationen** for at invitere debitoren.
+I **Shopify Admin** skal du registrere, om kunderne er blevet indlæst. Åbn debitorerne, og læg mærke til, at det første og sidste navn på debitoren kommer fra i feltet **kontaktnavn** på **debitorkortet**. Firmanavnet kan findes i den standardadresse, der er knyttet til debitoren. Hvis du bruger *Classic-kundekonti*, kan du vælge **Send kontoinvitation** for at invitere kunden. Med *Nye kundekonti* kræves der ikke en adgangskode, for at kunderne kan logge på, men lader i stedet Shopify dine kunder logge ind ved hjælp af en engangs 6-cifret bekræftelseskode, der sendes via e-mail. 
+
+### B2B Trin
+
+[!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
+
+I [!INCLUDE[prod_short](../includes/prod_short.md)] skal du gøre følgende:
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Virksomheder**, og vælg derefter det relaterede link.
+2. Vælg **Tilføj virksomhed**.
+3. Skriv `DEMO1` i feltet **Butikskode**.
+4. Indstil filteret `30000` på **Nej.** .
+5. Vælg **OK**, og vent, til den første synkronisering af kunder er fuldført.
+
+I **Shopify Administrator** skal du bemærke, at både virksomheden og kunden blev importeret. Åbn debitorer, og læg mærke til faktaboksen for virksomheden med link til Virksomhed, lokation og tildelte tilladelser. Vælg **[...]** i **Virksomhed-faktaboksen, og vælg derefter **Send B2B-adgangsmail** for at invitere kunden.
 
 ## Gennemgang: Finjustering af varestyring
 
 ### Scenarie 
 
-Du vil gerne give processerne større fleksibilitet og styring i forbindelse med håndtering af emner. Du vil forbedre produktbeskrivelser og tilføje flere gennemsynstrin, før produkterne bliver tilgængelige for kunderne.
+Du vil gerne give processerne større fleksibilitet og styring i forbindelse med håndtering af emner. Du vil forbedre produktbeskrivelser og tilføje flere gennemsynstrin, før produkterne bliver tilgængelige alle kunder.
 
 ### Trin
 
@@ -162,20 +176,18 @@ Klargøre data
 2. Tilføj en ny prisgruppe. Skriv `SHOPIFY` i feltet **Kode**.
 3. Luk vinduet **Debitorprisgrupper**.
 4. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
+5. Vælg vare *1896-S, Athens Desk*, og følg disse trin:
 
-Vælg vare **1896-S, Athens Desk**, og følg disse trin:
-
-1. Vælg handlingen **Varianter**, og tilføj derefter to varianter: `PREMIUM, Athens Desk, Premium edition` og `ESSENTIAL, Athens Desk, Essential edition`.
-2. Vælg **Udvidet tekst**, og opret en ny udvidet tekst, der gælder for alle sprogkoder. Angiv `Shopify` i feltet **Beskrivelse**. 
-3. Tilføj følgende tekst med HTML-koder: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`. Luk siden **Udvidet tekst**, og vend tilbage til varekortet.
-4. Vælg **salgspriser**, og tilføj nye priser som vist i følgende tabel:
+6. Vælg handlingen **Varianter**, og tilføj derefter to varianter: `PREMIUM, Athens Desk, Premium edition` og `ESSENTIAL, Athens Desk, Essential edition`.
+7. Vælg handlingen **Marketingtekst**, og brug **Kladde med Copilot**  til at få en kreativ og engagerende tekst. Hvis forslag til marketingtekst ikke er aktiveret, skal du blot indtaste: "**Enkelt, stilfuldt design**, som passer ind i ethver sammenhæng. *Findes i to udgaver.*'. 
+8. Vælg **salgspriser**, og tilføj nye priser som vist i følgende tabel:
 
    |Linje|Salgstype|Salgskode|Enhedstype|Kode|Variantkode<br>(tilføj feltet via brugertilpasning)|Enhedspris|
-   |------|------------|------------|------------|------------|------------|------------|
+   |------|------------|------------|------------|----------------|------------|------------|
    |1|Debitorprisgruppe|SHOPIFY|Artikel|1896-S|ESSENTIAL|700|
    |2|Debitorprisgruppe|SHOPIFY|Artikel|1896-S|PREMIUM|1000|
 
-5. Vælg **salgsrabatter**, og tilføj en ny rabat:
+9. Vælg **salgsrabatter**, og tilføj en ny rabat:
 
    * **Salgstype** *Debitorrabatgruppe*
    * **Salgskode** *DETAIL*
@@ -184,39 +196,39 @@ Vælg vare **1896-S, Athens Desk**, og følg disse trin:
    * **Enhedskode** *PCS*
    * **Linjerabat %** *10*
 
-6. Vælg **Varereferencer** og følgende linjer:
+10. Vælg **Varereferencer** og følgende linjer:
 
    |Linje|Referencetype|Referencenr.|Variantkode|
    |------|------------|------------|------------|
    |1|Stregkode|77777777|ESSENTIAL|
    |2|Stregkode|11111111|PREMIUM|
 
-
-Vælg varen **1920-S, ANTWERP Conference Table**, og udfør følgende trin.
-
-1. Vælg **Juster lager**, og angiv `100` for lokationerne **ØST** og *VEST* i feltet *Nyt lager*. 
-2. Vælg **OK**.
+11. Vælg varen *1920-S, ANTWERP Conference Table*, og udfør følgende trin.
+12. Vælg **Juster lager**, og angiv `100` for lokationerne **ØST** og *VEST* i feltet *Nyt lager*. 
+13. Vælg **OK**.
 
 Juster indstillinger til synkronisering.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-butikker**, og vælg det relevante link.
-2. Marker den *DEMO1*-butik, som du vil synkronisere varer til for at åbne siden **Shopify-købskort**.
-3. Vælg *SHOPIFY* i feltet **Debitorprisgruppe**.
-4. Vælg *DETAIL* i feltet **Debitorrabatgruppe**.
-5. Aktiver feltet til **udvidet tekst for synkroniseringselement**.
-6. Klik på *Varenr. + variantkode* i feltet **SKU-tilknytning**.
-7. Vælg *Kladde* i feltet **status for oprettede produkter**.
-8. Vælg *status til arkiveret* i feltet **Handling for fjernet produkt**.
-
+2. Marker den `DEMO1`-butik, som du vil synkronisere varer til for at åbne siden **Shopify-butikskort**.
+3. Aktiver feltet **Synkronisér marketingtekst**.
+4. Klik på *Varenr. + variantkode* i feltet **SKU-tilknytning**.
+5. Vælg *Fortsæt* i feltet **Standardlagerpolitik**.
+6. Vælg *Kladde* i feltet **status for oprettede produkter**.
+7. Vælg *status til arkiveret* i feltet **Handling for fjernet produkt**.
+8. Vælg *SHOPIFY* i feltet **Debitorprisgruppe**.
+9. Vælg *DETAIL* i feltet **Debitorrabatgruppe**.
+ 
 Kør varesynkronisering.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-butikker**, og vælg det relevante link.
-2. Marker den *DEMO1*-butik, som du vil synkronisere varer til for at åbne siden **Shopify-købskort**.
+2. Marker den `DEMO1`-butik, som du vil synkronisere varer til for at åbne siden **Shopify-butikskort**.
 3. Vælg **Produkter** for at åbne vinduet **Shopify-produkter**.
 4. Vælg handlingen **Tilføj varer**.
 5. Angiv filteret *TABEL|DESK* i feltet **Varekategorikode**.
-6. Vælg **Synkroniser produktbilleder**.
-7. Vælg **Synkroniser lager**.
+6. Aktivér til/fra-knappen **Synkroniser produktbilleder**.
+7. Aktiver til/fra-knappen **Synkronisér lager**.
+8. Vælg **OK**, og vent, til den første synkronisering af varer, billeder og lager er fuldført.
 
 Produkter tilføjes. Bemærk, at statussen er angivet til *Kladde*, og at varerne ikke kan ses i Shopify-onlinebutikken.
 
@@ -239,7 +251,100 @@ Bemærk, at lager for ANTWERP Conference Table er 100, fordi vi har konfigureret
 
 I **Shopify-onlinebutik** skal du åbne produktkataloget og finde *ATHENS Desk*-produktet. Bemærk, at der er forskellige muligheder tilgængelige. Priserne er forskellige for forskellige indstillinger. Vær opmærksom på oplysninger om rabat.
 
-## Gennemgang: Indlæs varer fra Shopify
+### Yderligere trin til B2B
+
+[!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
+
+Du kan konfigurere connectoren til automatisk at oprette og tildele katalog til eksporterede virksomheder. Nedenstående trin er nyttige, hvis du vil have mere præcis kontrol over, hvad der er tilgængeligt for B2B-kunder.
+
+I **Shopify Admin**cCreate, og tildel katalog.
+
+1. Vælg **Produkter** og derefter **Kataloger** i sidebjælken i **Shopify admin**.
+2. Opret katalog til specifikke produkter. Angiv titlen 'B2B'. 
+3. Vælg **Administrer** og derefter **Administrer produkter og priser**.
+4. Vælg *Ekskluderet* filter, find *ATHERN Desk* , og vælg **Medtag i katalog**.
+5. Vælg **Debitorer** og derefter **Virksomheder** i sidebjælken i **Shopify admin**.
+6. Vælg *School of Fine Art* og vælg **[...]** og derefter **Tilføj kataloger**, og tilføj *B2B*-katalog , der er oprettet tidligere.
+
+I [!INCLUDE[prod_short](../includes/prod_short.md)] skal du gøre følgende:
+
+Klargøre data
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
+
+2. Vælg vare **1896-S, Athens Desk**, og følg disse trin:
+
+3. Vælg **salgsrabatter**, og tilføj en ny rabat:
+
+   * **Salgstype** *Debitorrabatgruppe*
+   * **Salgskode** *LARGE ACC*
+   * **Type** *Vare*
+   * **Kode** *1896-S*
+   * **Enhedskode** *PCS*
+   * **Linjerabat %** *25*
+
+4. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-kataloger**, og vælg derefter det relaterede link.
+5. Vælg **Hent kataloger**.
+6. Skriv `DEMO1` i feltet **Butikskode**.
+7. Vælg en post med navnet *B2B-katalog*, som du vil synkronisere priser for.
+8. Aktivér til/fra-knappen **Synkroniser priser**.
+9. Vælg *SHOPIFY* i feltet **Debitorprisgruppe**.
+10. Vælg *LARGE ACC* i feltet **Debitorrabatgruppe**.
+11. Vælg **Synkronisér priser**, og vent, til den første synkronisering af varer og priser er fuldført.
+
+I **Shopify Admin** kan du udforske priser for *B2B-katalog*.
+
+I **Shopify-onlinebutik** skal du åbne produktkataloget og finde *ATHENS Desk*-produktet. Bemærk, at priserne er rabatoplysninger.
+
+## Gennemgang: Synkronisering af udtjekning og bestilling for den enkelte indkøber og virksomhedsrepræsentant
+Dette er en fortsættelse af [gennemgang: Start salget af produkter online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). Du kan også prøve med dine egne data, f.eks. Shopify-butik eller sandkasse.
+
+Individuel køber
+
+1. I **Shopify-onlinebutik**. Vælg ikonet **Konto**-ikon. Aktivér den e-mail, du har adgang til.
+2. Log ind ved hjælp af en engangs 6-cifret bekræftelseskode sendt via e-mail, du indtastede.
+3. Udforsk produktkataloget, så skal du kunne se alle produkter med detailpriser.
+4. Vælg Essential-variant, vælg **Køb den nu**, og fortsæt til kassen.
+5. Udfyld felterne **Fornavn** og **Efternavn**.
+6. Angiv den lokale adresse.
+7. Hold *Standard* som forsendelsesmetode.
+8. I feltet **kreditkortnr.** skal du angive `1`, hvis du bruger *(til test) Bogus Gateway*, eller angive `5555 5555 5555 4444`, hvis du bruger *Shopify payments* i testtilstand.
+9. Angiv i **Udløbsdato** indeværende måned/år.
+10. Skriv `111` i **Sikkerhedskode**.
+11. Udfyld feltet **Navn på kort**.
+12. Vælg **Betal nu**.
+ 
+Virksomhedsrepræsentant
+
+[!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
+
+1. I **Shopify Administrator**.
+2. Vælg **Debitorer** og derefter **Virksomheder** i sidebjælken i **Shopify admin**.
+3. åbn posten *School of Fine Art*.
+4. Vælg **[...]** i faxfeltet **Shcool of Fine Art**, og vælg derefter **Rediger betalingsbetingelser**, og vælg *Forfalder ved opfyldelse*.
+5. Vælg **[...]** i faxfeltet **Kunder** og derefter **Tilføj kunde**, og tilføj en med den mail, du brugte til at logge på butikken tidligere.
+6. I **Shopify-onlinebutik**. Vælg ikonet **Konto**-ikon. Aktivér den e-mail, du har adgang til.
+7. Log ind ved hjælp af en engangs 6-cifret bekræftelseskode sendt via e-mail, du indtastede.
+8. Udforsk produktkataloget, bør du kun kunne se produkter, der er føjet til *B2B-kataloget* med specialpriser i detailhandlen.
+9. Vælg Essential-variant, vælg **Køb den nu**, og fortsæt til kassen.
+10. Bemærk, at konto, Send til, betalingsmetode er udfyldt.
+11. Udfyld det **PO-nummer**, der angivet med `PO-12345`.
+12. Vælg **Send ordre**.
+ 
+Gør ét af følgende i [!INCLUDE[prod_short](../includes/prod_short.md)]:
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-ordrer**, og vælg derefter det relaterede link.
+2. Vælg handlingen **Synkroniser ordrer fra Shopify**.
+3. Vælg **OK**.
+
+Den importerede ordre er klar til behandling.
+
+1. Vælg den importerede ordre for at åbne **Shopify-ordre**-vinduet.
+2. Bemærk, at selvom begge ordrer blev sendt af samme person, er de knyttet til to forskellige kunder. 
+3. I den ordre, der er afgivet på virksomhedens vegne, kan du se værdien i feltet **PO-nummer**, som også overføres til feltet **Eksternt bilagsnr.** for oprettet salgsdokument.
+4. Da vi har konfigureret B2B-virksomhed til at håndtere betalinger uden for Shopify er **Økonomisk status** angivet til *Afventer*. Når du har modtaget betaling, skal du vælge handlingen **Markér som betalt**. Økonomisk status opdateres i Shopify. 
+
+## Gennemgang: Indlæs varer, debitorer, virksomheder fra Shopify
 
 ### Scenarie 
 
@@ -247,7 +352,7 @@ Du har allerede en onlinebutik med succes og vil gerne bruge [!INCLUDE[prod_shor
 
 ### Trin
 
-Dette er en fortsættelse af [gennemgang: Start salget af produkter online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). Du kan også prøve med dine egne data, f.eks. Shopify-butik eller sandkasse.
+Dette er en fortsættelse af [Gennemgang: Begynd at sælge produkter online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online) og [Gennemgang: Føj dine kunder til din nye webshop](walkthrough-setting-up-and-using-shopify.md#walkthrough-add-your-customers-to-your-new-online-store). Du kan også prøve med dine egne data, f.eks. Shopify-butik eller sandkasse.
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)] skal du følge nedenstående trin.
 
@@ -263,12 +368,16 @@ I [!INCLUDE[prod_short](../includes/prod_short.md)] skal du følge nedenstående
 Konfigurer Shopify butikken som beskrevet her:
 
 1. Deaktivér **Tillad baggrundssynkronisering** til/fra.
-1. Vælg *Fra Shopify* i feltet **Sync vare**.
-1. Aktiver **Automatisk oprettelse af ukendte varer** til/fra.
-1. Udfyld feltet **Vareskabelonkode** med den relevante skabelon.
-1. Vælg *Fra Shopify* i feltet **Sync varebilleder**.
-1. Vælg *Alle debitorer* i **Debitorimport fra Shopify**.
-1. Aktiver **Automatisk oprettelse af ukendte kunder** til/fra.
+2. Vælg *Fra Shopify* i feltet **Sync vare**.
+3. Aktiver **Automatisk oprettelse af ukendte varer** til/fra.
+4. Udfyld feltet **Vareskabelonkode** med den relevante skabelon.
+5. Vælg *Fra Shopify* i feltet **Sync varebilleder**.
+6. Klik på *Varenr. + variantkode* i feltet **SKU-tilknytning**.
+7. Vælg *Alle debitorer* i **Debitorimport fra Shopify**.
+8. Aktiver **Automatisk oprettelse af ukendte kunder** til/fra.
+9. Udfyld feltet **Debitor/Firmaskabelonkode** med den relevante skabelon.
+10. Vælg *Alle debitorer* i **Debitorimport fra Shopify**.
+11. Aktiver **Automatisk oprettelse af ukendt virksomhed** til/fra.
 
 #### Kør varesynkronisering
 
@@ -277,12 +386,14 @@ Konfigurer Shopify butikken som beskrevet her:
 3. Vælg **Synkroniser produkter**.
 4. Vælg **Synkroniser produktbilleder**.
 5. Vælg **Synkroniser kunder**.
+6. Vælg **Synkroniser kunder**
 
 ### Resultater
 
 * Shopify-produkter importeres. Kontroller ved at vælge ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-produkter**, og vælg derefter det relaterede link.
 * Elementer med billeder oprettes. Kontroller ved at vælge ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Vare**, og vælg derefter det relaterede link.
 * Shopify Debitorer importeres. Kontroller ved at vælge ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-kunder**, og vælg derefter det relaterede link.
+* Shopify Virksomheder importeres. Kontroller ved at vælge ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Virksomheder**, og vælg derefter det relaterede link.
 * Debitorer oprettes. Kontroller ved at vælge ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
 
 
