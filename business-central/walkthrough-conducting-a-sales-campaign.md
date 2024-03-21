@@ -9,7 +9,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gennemgang: Gennemførsel af en salgskampagne
+# <a name="walkthrough-conducting-a-sales-campaign"></a>Gennemgang: Gennemførsel af en salgskampagne
 
 En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del af oprettelsen af en kampagne er at vælge målgruppen for kampagnen. Til dette formål kan du i [!INCLUDE[prod_short](includes/prod_short.md)] oprette en målgruppe eller en gruppe af kontakter ved hjælp af filtre.  
 
@@ -17,7 +17,7 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 
  Funktionen til kampagner og målgrupper med aktivering af de automatisk processer giver dig mulighed for at planlægge, organisere og holde styr på dine marketingaktiviteter. Dette øger dine chancer for at få nye kunder og bibeholde eksisterende kunder.  
 
-## Om denne gennemgang
+## <a name="about-this-walkthrough"></a>Om denne gennemgang
 
  Denne gennemgang viser processen til opfølgning på en handelsmesse og fokusering på potentielle kunder (kontakter) i en opfølgningskampagne.  
 
@@ -30,18 +30,18 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 - Afsendelse af breve til kontakter.  
 - Registrering af kampagnesvar.  
 
-## Roller
+## <a name="roles"></a>Roller
 
  Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:  
 
 - Marketingchef eller salgschef  
 - Marketingmedarbejder  
 
-## Forudsætninger
+## <a name="prerequisites"></a>Forudsætninger
 
  Før du kan udføre opgaverne i denne gennemgang, skal du installere [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Historie
+## <a name="story"></a>Historie
 
  Marketingmanager i salgsafdelingen for CRONUS er ansvarlig for planlægning af kampagner og for at udføre dem. Marketingchefen træffer også beslutninger om, hvilke handelsmesser, de skal deltage i, og han evaluerer kampagnefremskridt.  
 
@@ -55,11 +55,11 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 
  Medarbejderen med at sende et takkebrev ud til alle de kontakter, der har givet deres kort til medarbejderne på standen, og til sidst registrerer chefen alle de svar, der blev modtaget fra kundeemnerne.  
 
-## Oprette en kampagne
+## <a name="setting-up-a-campaign"></a>Oprette en kampagne
 
  Når medarbejderen har indtastet de modtagne forretningskort fra handelsmessen, opretter marketingchefen et kampagnekort til administration af de aktiviteter, der er involveret i kampagnen.  
 
-### Sådan oprettes en kampagne  
+### <a name="to-set-up-a-campaign"></a>Sådan oprettes en kampagne
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kampagner**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny** for at oprette en ny kampagne. På kampagnekortet skal du trykke på <kbd>Enter</kbd> for få indsat et kampagnenummer automatisk.  
@@ -67,13 +67,13 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 4. Vælg feltet **Statuskode**, og vælg statuskode "1-plan". 
 5. Udfyld felterne **Startdato** og **Slutdato** for kampagnen som ønsket.  
 
-## Vælge målgruppe
+## <a name="selecting-the-target-audience"></a>Vælge målgruppe
 
  Marketingchefen opretter en målgruppe for at vælge de kontakter, som han vil interagere med.  
  
  Når du opretter en målgruppe, kan du bruge en række kriterier til at vælge de kontakter, der skal være mål for målgruppen. Du kan f.eks. bruge en række forskellige kriterier til at vælge kontakter, f.eks. kontaktpersoner, der arbejder hos en kunde eller hos en mulig kunde og er ansvarlige for indkøb i virksomheden. Du kan bruge filtre til at tilføje kontaktpersoner i henhold til de kriterier, der passer bedst til dit formål. Du kan f.eks. filtrere efter kontaktpersonens ansvarsområde eller forretningsforbindelse eller kontaktvirksomhedens branche. I denne gennemgang skal du vælge filteret **Ansvarsområde** for at vælge kontakter.
 
-### Sådan oprettes en målgruppe med de relevante kontakter  
+### <a name="to-create-a-segment-with-the-relevant-contacts"></a>Sådan oprettes en målgruppe med de relevante kontakter
 
 1. Vælg **Naviger**, og vælg derefter handlingen **Målgrupper**.  
 2. Vælg handlingen **Ny** for at oprette en ny målgruppe. På kampagnekortet skal du trykke på **Enter** for få indsat et målgruppenummer automatisk.  
@@ -86,18 +86,18 @@ Siden **Målgruppe** indeholder nu en liste over kontakter, der er baseret på d
 > [!NOTE]  
 > Du kan gemme målgruppekriterierne, så de kan bruges igen senere.
 
-### Sådan gemmes målgruppekriterier
+### <a name="to-save-your-segmentation-criteria"></a>Sådan gemmes målgruppekriterier
 
 1. Vælg handlingen **Handlinger** på siden **Målgruppe**.
 2. Vælg **Funktioner**, **Målgruppe** og vælg derefter **Gem kriterie**.  
 3. På siden **Gem målgruppekriterie** skal du indtaste koden for målgruppen. I feltet **Beskrivelse** skal du indtaste beskrivelsen af målgruppekriterierne.
 4. Vælg knappen **OK**.  
 
-## Søge efter data
+## <a name="mining-the-data"></a>Søge efter data
 
  Marketingchefen ser nærmere på listen med udvalgte kontakter og kan se, at listen er alt for lang. Chefen beslutter at reducere listen ud fra de reelle kundeemner for at sikre, at han fokuserer på den rigtige målgruppe. Denne proces med at finjustere og/eller reducere dataene kaldes datasøgning.  
 
-### Sådan fjernes kontakter fra målgruppen  
+### <a name="to-remove-contacts-from-the-segment"></a>Sådan fjernes kontakter fra målgruppen
 
 1. Vælg handlingen **Handlinger** på siden **Målgruppe**.
 2. På menulinjen nedenfor skal du vælge **Funktioner**, Vælg **Kontakter** og derefter **Reducér kontakter**.  
@@ -110,28 +110,28 @@ Siden **Målgruppe** indeholder nu en liste over kontakter, der er baseret på d
  > [!NOTE]  
  > Hvis du skal tilbageføre denne fjernelse af en gruppe kontakter, kan du gøre det ved hjælp af funktionen **Gå tilbage**. Med andre ord kan du fortryde dine sidste segmentering.  
 
-### Sådan tilbageføres de fjernede kontaktpersoner
+### <a name="to-bring-back-the-removed-contacts"></a>Sådan tilbageføres de fjernede kontaktpersoner
 
 1. Vælg handlingen **Målgruppe** på siden **Målgruppe**.
 2. Vælg handlingen **Gå tilbage**.
 
 De kontaktpersoner, du lige har fjernet, føjes til listen over kontaktpersoner.
 
-## Knytte en målgruppe til en kampagne
+## <a name="linking-a-segment-to-a-campaign"></a>Knytte en målgruppe til en kampagne
 
 Marketingchefen beslutter, at den reducerede liste er den endelige liste over kontakter, der skal være en del af kampagnen. De knytter derfor denne målgruppe til kampagnen FUTURUS-handelsmesse.  
 
-### Sådan knyttes en målgruppe til kampagnen  
+### <a name="to-link-a-segment-to-the-campaign"></a>Sådan knyttes en målgruppe til kampagnen
 
 1. På siden **Målgruppe** i oversigtspanelet **Kampagne** skal du vælge feltet **Kampagnenr.** for at vælge den kampagne, du ønsker, at målgruppen skal knyttes til, f.eks., **CP0001**.
 2. Vælg **Ja**.  
 3. Da denne målgruppe er målet for kampagnen, skal du markere afkrydsningsfeltet **Kampagnemålgruppe** og vælge **Ja**.  
 
-## Sende breve og mails til kontakter
+## <a name="sending-letters-and-email-messages-to-contacts"></a>Sende breve og mails til kontakter
 
  Marketingsmedarbejderen hjælper marketingchefen med at sende korrespondance ud til kundeemner, hvor han takker dem for, at de besøgte handelsmessen.
 
-### Bruge en målgruppe til at sende et brev til en kontakt  
+### <a name="to-use-a-segment-to-send-a-letter-to-a-contact"></a>Bruge en målgruppe til at sende et brev til en kontakt
 
 > [!NOTE]  
 > I denne procedure skal du vedhæfte et Word-dokument. Du kan tilføje vedhæftede filer på alle sprog.
@@ -159,7 +159,7 @@ Når målgruppen er registreret, registreres hvert brev, der er sendt, som en in
 
 Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Interaktionslogposter**, og vælg derefter det relaterede link. Der er en post for hvert brev, der er sendt.  
 
-### Sende en mail til en kontakt  
+### <a name="to-send-an-email-message-to-a-contact"></a>Sende en mail til en kontakt
 
 1. Gå til oversigtspanelet **Interaktion** og feltet **Interaktionsskabelonkode**, og vælg skabelonen Brev, kode **BUS**.  
 2. I feltet **Emne (standard)** kan du indtaste følgende eksempel på tekst: **Tak, fordi du besøgte handelsmessen**.  
@@ -172,13 +172,13 @@ Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_sm
 
  Brevene sendes automatisk pr. mail, og målgruppen registreres. Da målgruppen er registreret, findes den ikke længere på listen over målgrupper, men er gemt på listen over registrerede målgrupper. Du kan se den liste ved at vælge ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Gemte målgrupper**, og vælg derefter det relaterede link.  
 
-## Registrere kampagnesvar
+## <a name="registering-campaign-responses"></a>Registrere kampagnesvar
 
  I løbet af de næste par uger svarer kundeemnerne på brevet. Marketingchefen ønsker at holde styr på svarene og registrerer disse interaktioner.  
 
  Opret en målgruppe med de kontakter, der svarer på brevet, til dette formål.  
 
-### Sådan registreres kampagnesvar.  
+### <a name="to-register-campaign-responses"></a>Sådan registreres kampagnesvar.
 
 1. Vælg feltet **Interaktionsskabelonkode** på siden **Målgruppe** i oversigtspanelet **Interaktion**.  
 
@@ -192,7 +192,7 @@ Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_sm
 7. Vælg handlingen **Logfør** under på siden **Målgruppe**.  
 8. Fjern markeringen i afkrydsningsfeltet **Send vedhæftede filer** på siden **Gemt målgruppe**. Klik derefter på **OK** for at bekræfte meddelelsen om, at målgruppen er gemt.  
   
-## Se også  
+## <a name="see-also"></a>Se også
 [Relationsstyring](marketing-relationship-management.md)  
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

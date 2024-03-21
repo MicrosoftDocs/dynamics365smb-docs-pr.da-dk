@@ -10,7 +10,7 @@ ms.date: 09/19/2023
 ms.custom: bap-template
 ms.search.forms: '7375,'
 ---
-# Lægge varer på lager med Læg-på-lager (lager)
+# <a name="put-items-away-with-inventory-put-aways"></a>Lægge varer på lager med Læg-på-lager (lager)
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du modtage varer og indsætte dem på en af fire måder som beskrevet i følgende tabel.
 
@@ -36,29 +36,29 @@ Du kan oprette et læg-på-lager på tre måder:
 * Du kan oprette læg-på-lager-aktiviteter for mange kildedokumenter samtidig ved hjælp af kørslen.  
 * Opret læg-på-lager-aktiviteten i to trin ved først at frigive kildedokumentet for at gøre varerne disponible til at blive lagt på lager. Læg-på-lager-aktiviteten kan derefter oprettes fra siden **Læg-på-lager (lager)** på baggrund af kildedokumentet.  
 
-## Sådan oprettes en læg-på-lager-aktivitet fra kildedokumentet
+## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>Sådan oprettes en læg-på-lager-aktivitet fra kildedokumentet
 
 1. I kildedokumentet, som kan være en købsordre, salgsreturvareordre, indgående overflytningsordre eller produktionsordre, skal du vælge handlingen **Opret læg-på-lager/pluk (lager)**.  
 2. Markér afkrydsningsfeltet **Opret læg-på-lager/pluk (lager)**.
 3. Vælg knappen **OK**. Der oprettes en ny læg-på-lager-aktivitet.
 
-## Sådan oprettes flere læg-på-lager-aktiviteter med en kørsel
+## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Sådan oprettes flere læg-på-lager-aktiviteter med en kørsel
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opret læg-på-lager/pluk (lager)**, og vælg derefter det relaterede link. 
 2. Brug felterne **Kildedokument** og **Kildenr.** i oversigtspanelet **Lageranmodning** til at filtrere på bestemte typer dokumenter eller rækker af dokumentnumre. Du kan for eksempel oprette pluk til kun salgsordrer.
 3. I oversigtspanelet **Indstillinger** skal du markere afkrydsningsfeltet **Opret læg-på-lager (lager)**.
 4. Vælg knappen **OK**. De angivne læg-på-lager-aktiviteter oprettes.
 
-## Sådan oprettes læg-på-lager i to trin
+## <a name="to-create-the-put-away-in-two-steps"></a>Sådan oprettes læg-på-lager i to trin
 
-### Sådan anmoder du om en læg-på-lager-aktivitet ved at frigive kildedokumentet
+### <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Sådan anmoder du om en læg-på-lager-aktivitet ved at frigive kildedokumentet
 
 Når du frigiver købsordrer, salgsreturvareordrer og indgående overflytningsordrer, bliver varerne i ordrerne disponible til at blive lagt på lager. Følgende fremgangsmåde beskriver, hvordan du kan gøre varerne på en købsordre klar til at blive lagt på lager.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **købsordrer**, og vælg derefter det relaterede link.
 2. Vælg den købsordre, du vil frigive, og vælg derefter handlingen **Frigiv**.  
 
-### Sådan oprettes en læg-på-lager-aktivitet ud fra kildedokumentet
+### <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Sådan oprettes en læg-på-lager-aktivitet ud fra kildedokumentet
 
 En lagermedarbejder kan oprette en ny læg-på-lager-aktivitet baseret på det frigivne kildedokument.
 
@@ -69,7 +69,7 @@ En lagermedarbejder kan oprette en ny læg-på-lager-aktivitet baseret på det f
 5. Du kan også vælge handlingen **Hent kildedokument** for at vælge kildedokumentet på en liste over indgående kildedokumenter, der er klar til læg-på-lager på lokationen.  
 6. Vælg knappen **OK** for at udfylde læg-på-lager-linjerne i overensstemmelse med det valgte kildedokument.  
 
-## Sådan registreres læg-på-lager-aktiviteten
+## <a name="to-record-the-inventory-put-away"></a>Sådan registreres læg-på-lager-aktiviteten
 
 1. Åbn et tidligere oprettet læg-på-lager-dokument ved at vælge et på siden **Læg-på-lager akt. (lager)**.  
 2. I feltet **Placeringskode** på læg-på-lager-linjerne, foreslås den placering, hvor varerne skal lægges på lager, pr. varens standardplacering. Om nødvendigt kan du ændre placeringen.  
@@ -83,7 +83,7 @@ En lagermedarbejder kan oprette en ny læg-på-lager-aktivitet baseret på det f
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
