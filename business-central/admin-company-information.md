@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="company-information-overview"></a>Oversigt over virksomhedsoplysninger
+# Oversigt over virksomhedsoplysninger
 
 [!INCLUDE[prod_short](includes/prod_short.md)] organiserer forretningsenheder i *virksomheder*. For hvert regnskab skal du udfylde nogle af de grundlæggende virksomhedsoplysninger og relevante oplysninger på siden **Virksomhedsoplysninger**. Oplysningerne på siden [**Virksomhedsoplysninger**](https://businesscentral.dynamics.com/?page=1) bruges til at udskrive emner såsom fakturaoverskrifter. Du kan oprette mere end ét firma, f.eks. et moderselskab og et datterselskab.  
 
@@ -25,13 +25,13 @@ Siden **virksomhedsoplysninger** indeholder forskellige felter og oversigtspanel
 
 Når du har udfyldt oplysningerne, kan du lukke siden.  
 
-## <a name="working-with-multiple-companies"></a>Arbejde med flere virksomheder
+## Arbejde med flere virksomheder
 
 Hvis [!INCLUDE [prod_short](includes/prod_short.md)] indeholder flere virksomheder, vil brugerne muligvis gerne bruge *virksomhedskort* til hurtigt at identificere og holde styr på, hvilken virksomhed de aktuelt arbejder i. Du kan finde flere oplysninger i [Vise et virksomhedskort](#badge).
 
 Der er nogle få funktioner, som du kan bruge til at skifte mellem virksomheder, f.eks. virksomhedsskifteren (<kbd>Ctrl</kbd>+<kbd>O</kbd>). Få mere at vide i [Skifte til et andet firma eller miljø](ui-organization-switch.md).
 
-## <a name="display-a-company-badge"></a><a name="badge"></a>Vise et virksomhedskort
+## <a name="badge"></a>Vise et virksomhedskort
 
 Hvis der er mere end ét firma eller miljø, kan du se virksomhedsskifteren øverst til højre på applinjen nær søgeikonet. Som standard bruger virksomhedsskifteren et standardfirmaikon, f.eks ![firmaikonet Starter.](media/ui-experience/company-icon.png "Viser ikonet for virksomhedsskifteren, der bruges, når der er et enkelt miljø") og ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Viser ikonet for virksomhedsskifteren, der bruges, når der er flere miljøer").
 
@@ -39,7 +39,7 @@ Hvis der er mere end ét firma eller miljø, kan du se virksomhedsskifteren øve
 
 Fra og med udgivelsesbølge 2 i 2023, version 23, vises firmabadget på browserfanen, når du bruger webklienten. Det er også inkluderet i sidelinks, som du [kopierer og indsætter](across-share-data-features.md#copying-a-link) i RTF-editorer, som Word, Outlook og Teams.
  
-### <a name="set-the-company-badge"></a>Konfigurere virksomhedsbadge
+### Konfigurere virksomhedsbadge
 
 Du kan bruge siden **Virksomhedsoplysninger** til at erstatte standardfirmaikonet med et brugerdefineret kort på hver enkelt virksomhed, hvis virksomhedens kort gør det nemmere for brugerne at identificere den virksomhed, som de arbejder i.
 
@@ -49,7 +49,7 @@ Du kan bruge siden **Virksomhedsoplysninger** til at erstatte standardfirmaikone
 > [!NOTE]
 > Virksomhedsskifteren blev introduceret i 2022 udgivelsesbølge 2, version 21. I tidligere versioner bruges virksomhedskortet ikke til at skifte virksomhed. Det vises øverst til højre på de fleste sider, selvom der kun er én virksomhed. Hvis du vælger det, vises hele firmanavnet og miljønavnet.
 
-## <a name="change-company-display-name"></a>Ændre virksomheds viste navn
+## Ændre virksomheds viste navn
 
 Virksomhedsnavnet vises altid i øverste venstre hjørne og fungerer som en handling, som du kan vælge for at gå tilbage til rollecenteret. Du kan ændre dette navn på siden **Virksomhedsoplysninger**.
 
@@ -57,13 +57,13 @@ Virksomhedsnavnet vises altid i øverste venstre hjørne og fungerer som en hand
 2. I feltet **Navn** skal du angive det nye virksomhedsnavn.
 3. Forlad siden. Systemet genstarter og viser den nye virksomhed i øverste venstre hjørne.
 
-## <a name="experience"></a>Oplevelse
+## Oplevelse
 
 Standardbrugeroplevelsen af en [!INCLUDE [prod_short](includes/prod_short.md)]-prøveversion viser ikke alle egenskaber. Du kan skifte til den fulde oplevelse på siden **Virksomhedsoplysninger**.  
 
 Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversigt over opgaver til opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Virksomhedsoplysninger til Hurtig start](quick-start-company-information.md)  

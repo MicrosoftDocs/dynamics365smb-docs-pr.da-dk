@@ -9,7 +9,7 @@ ms.date: 09/07/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="use-the--apps-in-power-bi"></a>Bruge [!INCLUDE [prod_short](includes/prod_short.md)]-apps i Power BI
+# Bruge [!INCLUDE [prod_short](includes/prod_short.md)]-apps i Power BI
 
 > **GÆLDER FOR:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
@@ -19,7 +19,7 @@ ms.service: dynamics-365-business-central
 - [!INCLUDE [prod_long](includes/prod_long.md)] - Finance  
 - [!INCLUDE [prod_long](includes/prod_long.md)] - Sales
 
-## <a name="overview"></a>Oversigt
+## Oversigt
 
 Hver app indeholder flere rapporter, som du kan se detaljerede data i, herunder følgende funktioner:
 
@@ -33,7 +33,7 @@ Apps er designet til at arbejde med data fra alle de virksomheder i [!INCLUDE[pr
 > [!NOTE]
 > Du kan også oprette dine egne rapporter og dashboards i Power BI baseret på dine [!INCLUDE[prod_short](includes/prod_short.md)]-data. Du kan finde flere oplysninger i [Forbinde dine virksomhedsdata med Power BI](across-how-use-financials-data-source-powerbi.md). 
 
-## <a name="prerequisites"></a>Forudsætninger
+## Forudsætninger
 
 Power BI-apps kræver tilladelser til de tabeller, hvor der hentes data fra, og de webtjenester, der bruges til at hente data. I følgende tabel vises de webtjenester, der kræves for hver enkelt Power BI-app:
     
@@ -46,11 +46,11 @@ Power BI-apps kræver tilladelser til de tabeller, hvor der hentes data fra, og 
 > [!TIP] 
 > En nem måde at finde webtjenesterne på er at søge efter *webtjenester* i [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Webtjenester** skal du sørge for, at feltet **Udgiv** er markeret for de webtjenester, der er angivet ovenfor. Du kan finde flere oplysninger i [Udgive en webtjeneste](across-how-publish-web-service.md).
 
-## <a name="get-ready"></a>Gør dig klar
+## Gør dig klar
 
 Tilmeld dig Power BI-tjenesten. Hvis du ikke allerede har tilmeldt dig, skal du gå til [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Når du tilmelder dig, skal du bruge din mailadresse og adgangskode.
 
-## <a name="install-a--app-in-power-bi"></a>Installere en [!INCLUDE[prod_short](includes/prod_short.md)]-app i Power BI
+## Installere en [!INCLUDE[prod_short](includes/prod_short.md)]-app i Power BI
 
 1. Åbn browseren, gå til [https://powerbi.microsoft.com](https://powerbi.microsoft.com), og log på din konto.
 2. Vælg **Apps** i navigationsruden.
@@ -71,7 +71,7 @@ Tilmeld dig Power BI-tjenesten. Hvis du ikke allerede har tilmeldt dig, skal du 
 
     Bagefter vil appen væge tilgængelig fra **Apps** i navigationsmenuen i Power BI.
 
-## <a name="connect-the--app-to-your-data"></a>Forbinde [!INCLUDE[prod_short](includes/prod_short.md)]-appen med dine data
+## Forbinde [!INCLUDE[prod_short](includes/prod_short.md)]-appen med dine data
 
 1. Vælg Business Central-appen under **Apps**, og vælg derefter **Opret forbindelse**.
 2. Når du bliver bedt om det, skal du udfylde **Virksomhedsnavn** og **Miljø** med oplysninger om den [!INCLUDE[prod_short](includes/prod_short.md)]-forekomst, som du vil oprette forbindelse til.
@@ -86,23 +86,23 @@ Tilmeld dig Power BI-tjenesten. Hvis du ikke allerede har tilmeldt dig, skal du 
 
     ![Vælg Dynamics 365 Business Central, og vælg Hent nu.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
-## <a name="fixing-problems"></a>Løsning af problemer
+## Løsning af problemer
 
 Power BI-dashboardet er baseret på de udgivne webtjenester, der er angivet ovenfor. Det viser data fra demoregnskabet eller din egen virksomhed, hvis du importerer data fra den aktuelle økonomiløsning. Men hvis noget går galt indeholder dette afsnit en løsning til de mest almindelige problemer.  
 
-### <a name="you-dont-have-a-power-bi-account"></a>Du har ikke en Power BI-konto
+### Du har ikke en Power BI-konto
 
 Der er ikke blevet oprettet en Power BI-konto. Du skal have en licens for at få en gyldig Power BI-konto. Du skal også tidligere have logget på Power BI for at oprette dit Power BI-arbejdsområde.  
 
-### <a name="message-there-are-no-enabled-reports-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Meddelelse: Der er ingen aktiverede rapporter. Vælg rapport for at få vist en oversigt over de rapporter, du kan få vist.
+### Meddelelse: Der er ingen aktiverede rapporter. Vælg rapport for at få vist en oversigt over de rapporter, du kan få vist.
 
 Denne meddelelse vises, hvis standardrapporten ikke blev implementeret i Power BI-arbejdsområdet. Eller rapporten blev installeret, men blev ikke opdateret. Hvis dette problem opstår, skal du gå til rapporten i dit Power BI-arbejdsområde, vælge **Datasæt**, **Indstillinger** og derefter opdatere legitimationsoplysningerne manuelt. Når datasættet er opdateret, skal du gå tilbage til [!INCLUDE[prod_short](includes/prod_short.md)] og vælge rapporten manuelt på siden **Vælg rapporter**.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi"></a>Du skal have Power BI-en Pro-licens for at kunne installere [!INCLUDE[prod_short](includes/prod_short.md)]-appen i Power BI
+### Du skal have Power BI-en Pro-licens for at kunne installere [!INCLUDE[prod_short](includes/prod_short.md)]-appen i Power BI
 
 Du skal have en [Power BI Pro-licens](/power-bi/service-features-license-type) for at kunne dele indholdet, og de personer, du deler det med, skal også. Indholdet skal være i et arbejdsområde med en [Premium-kapacitet](/power-bi/service-premium-what-is). Du kan få flere oplysninger i [Sådan deler du dit arbejde i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
-### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>"Parametervalideringen mislykkedes, kontrollér, at alle parametre er gyldige"
+### "Parametervalideringen mislykkedes, kontrollér, at alle parametre er gyldige"
 
 Denne fejl angiver, at en eller flere af parametrene er ugyldige.
 
@@ -111,7 +111,7 @@ Denne fejl angiver, at en eller flere af parametrene er ugyldige.
 - Hvis du opretter forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø, angav du en ugyldig URL-adresse. Du kan kontrollere URL-adressen på siden **Webtjeneste** i [!INCLUDE[prod_short](includes/prod_short.md)]  
 - En port er ikke åben, så anmodningen kan passere gennem firewall'en.
 
-### <a name="cant-sign-in"></a>Kan ikke logge på
+### Kan ikke logge på
 
 Hvis fejlmeddelelsen "logon mislykkedes" vises, efter at du har brugt dine legitimationsoplysninger for [!INCLUDE[prod_short](includes/prod_short.md)] til at logge på, kan det skyldes en af følgende situationer:
 
@@ -119,34 +119,34 @@ Hvis fejlmeddelelsen "logon mislykkedes" vises, efter at du har brugt dine legit
 - Du har valgt en anden godkendelsestype end basis, hvis der oprettes forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)] on-premises.
 - Du har ikke angivet et gyldigt brugernavn eller en gyldig adgangskode.
 
-### <a name="message-your-data-source-cant-be-refreshed-because-the-credentials-are-invalid-please-update-your-credentials-and-try-again"></a>Meddelelse: Datakilden kan ikke opdateres, fordi legitimationsoplysningerne er ugyldige. Opdater dine legitimationsoplysninger, og prøv igen
+### Meddelelse: Datakilden kan ikke opdateres, fordi legitimationsoplysningerne er ugyldige. Opdater dine legitimationsoplysninger, og prøv igen
 
 For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises kan problemet skyldes, at URL-adressen til OData kun er synlig for det lokale netværk.
 
-### <a name="incorrect-company-name"></a>Forkert virksomhedsnavn
+### Forkert virksomhedsnavn
 
 Det er en normal fejl at angive fælles virksomhedens visningsnavn i stedet for navnet på virksomheden. Du kan finde navnet på virksomheden ved at søge efter **virksomheder**. Brug derefter feltet **Navn**, når du angiver navnet på virksomheden.
 
-### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Nøglen svarer ikke til nogen rækker i tabellen
+### Nøglen svarer ikke til nogen rækker i tabellen
 
 Hvis du angiver et ikke gyldigt firmanavn under oprettelsen af forbindelsen, kan du få vist meddelelsen "Nøglen svarer ikke nogen rækker i tabellen". Angiv det korrekte firmanavn, og forsøg igen.
 
-### <a name="historical-data-appears-to-be-missing"></a>Der mangler tilsyneladende historiske data
+### Der mangler tilsyneladende historiske data
 
 Når Power BI-appen er installeret, og dine data vises i Power BI, bemærker du måske, at du ikke kan se alle dine data. Datasættene er filtrerede til kun at returnere de tidligere 365 dages data. Denne standard er på plads for at gøre det hurtigere at lave rapporterne.  
 
-### <a name="i-only-see-data-for-a-single-company"></a>Jeg kan kun se data for en enkelt virksomhed
+### Jeg kan kun se data for en enkelt virksomhed
 
 Power BI-appen viser kun data fra den [!INCLUDE[prod_short](includes/prod_short.md)]-virksomhed, der blev defineret, da Power BI-appen blev installeret. Du kan føje data fra yderligere virksomheder til rapporterne ved at tilføje nye forespørgsler, der bruger forskellige virksomheder som datakilde.  
 
-### <a name="what-now"></a>Hvad nu?
+### Hvad nu?
 
 - Prøv [at stille et spørgsmål i feltet Spørgsmål og svar](/power-bi/service-q-and-a-tips) øverst i dashboardet.
 - [Ændre felterne](/power-bi/service-dashboard-edit-tile) i dashboardet.  
 - [Vælg et felt](/power-bi/service-dashboard-tiles) for at åbne den underliggende rapport.  
 - Som standard er dit datasæt ikke planlagt til opdatering. Du kan ændre tidsplanen for opdatering eller prøve at opdatere det efter behov ved hjælp af **Opdater nu**. Du kan finde flere oplysninger i [Konfiguration af planlagt opdatering](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Business Central og Power BI](admin-powerbi.md)  
 [Oversigt over Power BI-integrationskomponent og -arkitektur for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

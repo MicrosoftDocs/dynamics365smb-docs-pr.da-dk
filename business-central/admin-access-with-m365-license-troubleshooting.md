@@ -11,59 +11,59 @@ ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration,
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="troubleshoot-access-with-microsoft-365-licenses"></a>Fejlfinde adgang med Microsoft 365-licenser
+# Fejlfinde adgang med Microsoft 365-licenser
 
-## <a name="this-page-uses-data-from-related-tables-that-you-do-not-have-access-to-error-message"></a>Fejlmeddelelse "Denne side bruger data fra relaterede tabeller, som du ikke har adgang til"
+## Fejlmeddelelse "Denne side bruger data fra relaterede tabeller, som du ikke har adgang til"
 
-### <a name="symptoms"></a>Symptomer
+### Symptomer
 
 Når du åbner en post i Teams, vises der en fejlmeddelelse i en eller flere af de kortdetaljer, der ligner:
 
 "Denne side bruger data fra relaterede tabeller, som du ikke har adgang til. Hvis du vil arbejde med alle funktioner på denne side, skal du kontakte din administrator."
 
-### <a name="cause"></a>Årsag
+### Årsag
 
 Du mangler sandsynligvis objekttilladelser til tabeller, som den aktuelle side eller post er knyttet til.
 
-## <a name="microsoft-365-access-has-been-enabled-but-users-get-a-permission-error"></a>Microsoft 365-adgang er aktiveret, men brugerne får en tilladelsesfejl
+## Microsoft 365-adgang er aktiveret, men brugerne får en tilladelsesfejl
 
-### <a name="symptoms-1"></a>Symptomer
+### Symptomer
 
 Adgang med Microsoft 365 er aktiveret i Business Central Administration, men brugerne får en tilladelsesfejl, når de får adgang til en post.
 
-### <a name="cause-1"></a>Årsag
+### Årsag
 
 Hvis du aktiverer adgang i Business central-administration, men ikke tildeler tilladelser på siden **Licenskonfiguration**, er alle, der forsøger at få adgang til Business Central-poster i Teams, klargjort uden tilladelse til objekter. Business Central er sikret af design: Administratorer skal først konfigurere, hvilke data der kan opnås adgang til i Teams. 
 
-### <a name="resolution"></a>Løsning
+### Løsning
 
 Hvis du tilpasser tilladelserne på siden med licenskonfiguration, påvirker det kun de senest oprettede brugere. Du skal også tildele de manglende tilladelser til de brugere, der allerede er oprettet, via siden med brugerliste. 
 
-## <a name="you-shared-a-link-in-teams-but-users-get-a-message-that-they-can-only-view-data"></a>Du har delt et link i grupper, men brugerne får en meddelelse om, at de kun kan få vist data
+## Du har delt et link i grupper, men brugerne får en meddelelse om, at de kun kan få vist data
 
-### <a name="symptoms-2"></a>Symptomer
+### Symptomer
 
 Når jeg deler et hyperlink i Teams som Business Central-bruger, får andre fejlmeddelelsen "Når du får adgang til Business central med en Microsoft 365-licens, kan du kun få vist data i Microsoft Teams" .
 
-### <a name="cause-2"></a>Årsag
+### Årsag
 
 Når du deler et Business Central-link til en Teams-chat eller kanaler, navigerer et hyperlink altid ud af Microsoft Teams, hvor dataene ikke længere bliver tilgængelige for en person med Microsoft 365-licens.
 
-### <a name="resolution-1"></a>Løsning
+### Løsning
 
 Når du deler sider eller poster, skal du enten medtage linkforhåndsversionen som et kort, eller du kan dele data som en fane i chatten eller kanalen.
 
-## <a name="card-from-shared-link-is-minimal-and-doesnt-include-details-button"></a>Kort fra delt link er minimalt og indeholder ikke oplysninger om knappen detaljer
+## Kort fra delt link er minimalt og indeholder ikke oplysninger om knappen detaljer
 
-### <a name="symptoms-3"></a>Symptomer
+### Symptomer 
 
 Når en Microsoft 365-licensindehaver uden en Business Central-licens deler et Business Central-link i Teams, udvides den automatisk til et kort, der ikke har nogen brugbare oplysninger, og viser kun Business central uden knappen **Detaljer**.
 
-### <a name="cause-3"></a>Årsag
+### Årsag
 
 Brugere, der har en Microsoft 365-licens, men ingen Business central-licens, har tilladelse til at dele links som kort. Hvis brugeren har Business central-app til Teams installeret og indsætter et link i meddelelsesområdet, vises der kun et minimalt kort. 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Business Central-adgang med Microsoft 365-licenser](admin-access-with-m365-license.md#minimum-requirements)  
 [Konfigurere adgang til Microsoft 365-licenser](admin-access-with-m365-license-setup.md)  

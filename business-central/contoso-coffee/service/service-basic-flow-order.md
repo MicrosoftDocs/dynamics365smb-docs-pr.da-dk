@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="walkthrough-of-service-orders-for-service-items"></a>Gennemgang af serviceordrer for serviceartikler
+# Gennemgang af serviceordrer for serviceartikler
 
 Denne gennemgang viser flere centrale processer:
 
@@ -18,13 +18,13 @@ Denne gennemgang viser flere centrale processer:
 - Levere en udlånsvare til kunden for en reparationstid
 - Bogføre og fakturere serviceordrer
     
-## <a name="creating-a-service-order"></a>Sådan oprettes en serviceordre
+## Sådan oprettes en serviceordre
 
-### <a name="scenario"></a>Scenarie
+### Scenarie  
 
 Charles, servicechefen, opretter en serviceordre til et reparationsscenarie og låner en udlånsvare ud til kunden på reparationstidspunktet.
 
-### <a name="steps"></a>Trin
+### Trin
 
 1. Oprette serviceordren manuelt for den vare, der skal repareres.
    1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") Ikon, angiv **Serviceordrer**
@@ -41,20 +41,20 @@ Charles, servicechefen, opretter en serviceordre til et reparationsscenarie og l
    1. Vælg **UDLÅNER1** som udlånernr. på linjerne. Bekræft udlånsvarens udstedelse ved at vælge **Ja** for at låne udlånsvaren ud. 
    2. Vælg funktionshandlingen **Hent std.servicekoder**, vælg standardkode, der er tilknyttet servicegruppen, og vælg **OK**.
    
-### <a name="results"></a>Resultater
+### Resultater
 
 - Der oprettes en serviceordre for varen
 - Servicedokumentets log over serviceordren viser udlånsaktiviteterne.
 - Udlånsvaren vil have en finanspost, der afspejler udlånet.
    
 
-## <a name="register-performed-work-mark-loaner-as-returned"></a>Registrer udførte arbejde, markér udlåner som returneret.
+## Registrer udførte arbejde, markér udlåner som returneret.
 
-### <a name="scenario-1"></a>Scenarie
+### Scenarie  
 
 Serviceteknikeren markerer udlånsvarer som returneret, registrerer udført arbejde.
 
-### <a name="steps-1"></a>Trin
+### Trin
 
 1. Finde serviceopgaven og registrere tid 
    1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceopgaver** og vælg derefter det relaterede link.
@@ -74,13 +74,13 @@ Serviceteknikeren markerer udlånsvarer som returneret, registrerer udført arbe
    3. Vælg handlingen **Modtag** 
    4. Bekræft udlåners returnering ved at vælge **Ja** for at udlånsreturnering.
       
-### <a name="results-1"></a>Resultater
+### Resultater
 
 - Servicedokumentets **Log over serviceordren** viser udlånsaktiviteterne.
 - Udlånsvaren har en finanspost, der afspejler kvitteringen.
 
 
-### <a name="scenario-2"></a>Scenarie
+### Scenarie  
 
 Charles, servicechefen, bogfører den færdige serviceordre.
 
@@ -91,11 +91,11 @@ Charles, servicechefen, bogfører den færdige serviceordre.
 2. Bogføre fakturaen på serviceordren
    1. Vælg handlingen **Bogfør**, udfyld serviceordren og vælg **Send og fakturer**, og vælg derefter knappen **OK**.
    2. Bekræft åbningen af den bogførte faktura ved at vælge **Ja**. 
-### <a name="results-2"></a>Resultater
+### Resultater
 
 - Åbn **Bogført servicefaktura** er oprettet.
 - De **Serviceposter**, der tilknyttes til varen og ressourcen, oprettes
 
-## <a name="see-also"></a>Se også
+## Se også
 [Gennemgang af servicekontrakter for servicevarer](service-contract-flow.md)  
 [Tjeneste](../../service-service.md)

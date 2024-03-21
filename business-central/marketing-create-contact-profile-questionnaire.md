@@ -11,7 +11,7 @@ ms.date: 05/20/2022
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Bruge profilspørgeskemaer til at klassificere forretningskontakter
+# Bruge profilspørgeskemaer til at klassificere forretningskontakter
 
 Du kan vurdere et emne, så du kan identificere de ideelle emner, som din salgskampagne skal fokusere på. Du kan definere profilspørgeskemaer, du vil bruge til indtastning af oplysninger om kontaktprofiler. Du kan i det enkelte spørgeskema definere forskellige spørgsmål, du vil stille dine kontaktpersoner. På den måde kan du gruppere kontaktpersoner, så kampagnerne er mere sandsynlige for de rigtige personer på grundlag af de kriterier, du definerer med spørgeskemaerne.  
 
@@ -19,13 +19,13 @@ Med de rette spørgeskemaer kan du vurdere dine emner og gruppere dem i kategori
 
 Du kan også køre spørgeskemaet for at besvare nogle af spørgsmålene automatisk ud fra kontakt-, debitor- eller kreditordata.  
 
-## <a name="to-add-a-profile-questionnaire"></a>Sådan tilføjes et profilspørgeskema
+## Sådan tilføjes et profilspørgeskema
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **opsætning af spørgeskema**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-add-questions-to-a-profile-questionnaire"></a>Sådan føjes spørgsmål til et profilspørgeskema
+## Sådan føjes spørgsmål til et profilspørgeskema
 
 1. Vælg det relevante profilspørgeskema, og vælg handlingen **Rediger opsætning af spørgeskema**.  
 2. I den første tomme linje skal du i feltet **Type** vælge **Spørgsmål** og skrive dit spørgsmål i feltet **Beskrivelse**. Udfyld de andre felter på linjen.  
@@ -60,11 +60,11 @@ Når du har oprettet et spørgeskema, kan du bruge det til at vurdere og klassif
 > [!NOTE]
 > Hvis du angiver et spørgsmål, som skal besvares automatisk, skal du vælge **Linje** og derefter vælge **Oplysn. om spørgsmål** for at angive de kriterier, som skal anvendes ved den automatiske besvarelse.
 
-## <a name="apply-questionnaires-to-contacts"></a>Anvende spørgeskemaer på kontakter
+## Anvende spørgeskemaer på kontakter
 
 Du kan anvende dine spørgeskemaer til kontakter manuelt. Åbn blot det relevante kontaktkort, og vælg handlingen **Profil**. Derefter kan du begynde at bruge kategorierne i kampagnerne, når du har anvendt de spørgeskemaer, du vil udligne.  
 
-## <a name="the-automatic-classification-of-contacts"></a>Den automatiske klassificering af kontaktpersoner
+## Den automatiske klassificering af kontaktpersoner
 
 Du kan automatisk klassificere kontakter efter debitor-, kreditor- og kontaktoplysninger ved at definere automatisk besvarede profilspørgsmål på siden **Opsætn. af profilspørgeskema**.  
 
@@ -73,7 +73,7 @@ Du kan automatisk klassificere kontakter efter debitor-, kreditor- og kontaktopl
 
 Hvis du har angivet automatisk besvarede profilspørgsmål, udfylder [!INCLUDE[prod_short](includes/prod_short.md)] automatisk de korrekte svar for kontakterne, når du tildeler en kontakt et profilspørgeskema med de pågældende spørgsmål.  
 
-## <a name="example"></a>Eksempel
+## Eksempel
 
 Du kan klassificere kontakter efter deres købsbeløb.
 
@@ -101,7 +101,7 @@ Udfyld derefter siden **Oplysninger om profilspørgsmål** på følgende måde:
 
 Når du tildeler et profilspørgeskema med disse spørgsmål til en kontakt, udfyldes de relevante svar for kontakten automatisk på profillinjerne på kontaktkortet.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprettelse af kontakter](marketing-create-contact-companies.md)  
 

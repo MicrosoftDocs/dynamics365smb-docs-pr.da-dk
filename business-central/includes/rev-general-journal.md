@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-### <a name="reversing-journals-to-correct-mistakes"></a>Tilbageføre kladder for at rette fejltagelser
+### Tilbageføre kladder for at rette fejltagelser
 
 Når du arbejder med kladder med mange linjer, og noget går galt, er det vigtigt, at du har en nem måde at rette fejlene på. Siden **Bogført finanskladde** indeholder et par handlinger, der kan være en hjælp.
 

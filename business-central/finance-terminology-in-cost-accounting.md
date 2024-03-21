@@ -10,11 +10,11 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="terminology-in-cost-accounting"></a>Terminologi i omkostningsregnskab
+# Terminologi i omkostningsregnskab
 
 Dette emne definerer vigtige termer, der anvendes i omkostningsregnskab.  
 
-## <a name="key-terms"></a>Vigtige termer
+## Vigtige termer
 
  Følgende tabel viser definitionerne af de vigtigste termer i omkostningsregnskab.  
 
@@ -42,7 +42,7 @@ Dette emne definerer vigtige termer, der anvendes i omkostningsregnskab.
 |Variabel omkostning|Variable omkostninger er udgifter, der ændres i forhold til en virksomheds aktivitet. Variable omkostninger er summen af marginalomkostninger over alle producerede enheder. Faste omkostninger og variable omkostninger udgør de to komponenter af samlede omkostninger.|  
 |Variant|En variant bruges som en valgfri brugerdefineret etiket for tildelinger. Formålet med etiketten er at filtrere grupper af fordelinger.|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
  [Om omkostningsregnskab](finance-about-cost-accounting.md)  
  [Regnskab for omkostninger](finance-manage-cost-accounting.md)  
