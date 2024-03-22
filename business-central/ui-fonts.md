@@ -10,14 +10,14 @@ ms.date: 11/30/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="available-fonts"></a>Tilgængelige skrifttyper
+# Tilgængelige skrifttyper
 
 Onlineversionen af [!INCLUDE[prod_short](includes/prod_short.md)] indeholder forudinstallerede skrifttyper på de servere, der kan bruges ved generering af rapporter. I følgende afsnit beskrives de tilgængelige skrifttyper.
 
 > [!NOTE]
 > Af hensyn til sikkerheden og af juridiske årsager kan du ikke overføre brugerdefinerede skrifttyper til [!INCLUDE[prod_short](includes/prod_short.md)]-miljøet.
 
-## <a name="document-fonts"></a>Dokumentskrifttyper
+## Dokumentskrifttyper
 
 Følgende skrifttyper er installeret og tilgængelige til brug i Excel, Word og RDLC-dokumentrapporter:
  
@@ -156,7 +156,7 @@ Følgende skrifttyper er installeret og tilgængelige til brug i Excel, Word og 
 * Yu Gothic UI Semibold
 * Yu Gothic UI Semilight
 
-## <a name="fonts-for-checks"></a>Skrifttyper til checks
+## Skrifttyper til checks
 
 MICR-skrifttyper (Magnetic Ink Character Recognition) er installeret og klar til brug. Både E-13B- og CMC-7-standarder understøttes.  
 
@@ -164,7 +164,7 @@ Ud over MICR-skrifttyper er særlige sikkerhedsskrifttyper tilgængelige, så du
 
 Du kan finde flere oplysninger i [Vælge et checklayout](finance-how-define-check-layouts.md).  
 
-## <a name="fonts-for-barcodes"></a>Skrifttyper til stregkoder
+## Skrifttyper til stregkoder
 De skrifttyper, der bruges til at oprette stregkoder, er installeret og tilgængelige til brug i både Word-og RDLC-rapportlayout.
 
 Følgende endimensionelle stregkode-symbologier understøttes:
@@ -184,7 +184,7 @@ Følgende todimensionelle stregkode-symbologier understøttes:
 
 Du kan finde flere oplysninger i [Stregkodeskrifttyper i Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administration af rapportlayout](ui-manage-report-layouts.md)  
 [Vælge et checklayout](finance-how-define-check-layouts.md)  

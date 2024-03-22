@@ -10,13 +10,13 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-set-up-and-use-the-shopify-connector"></a>Gennemgang: Konfigurere og bruge Shopify Connector
+# Gennemgang: Konfigurere og bruge Shopify Connector
 
 I dette afsnit beskrives nogle typiske scenarier, og du får gennemgang af de trin, du skal udføre for at teste eller uddanne brugere i den integrerede [!INCLUDE[prod_short](../includes/prod_short.md)] og Shopify-butikken.
 
-## <a name="prerequisites"></a>Forudsætninger
+## Forudsætninger 
 
-### <a name="shopify"></a>Shopify
+### Shopify
 
 Du skal have:
 
@@ -25,13 +25,13 @@ Du skal have:
 
 Du kan finde flere oplysninger om, hvordan du opretter Shopify-prøveversioner og anbefalede indstillinger på [Opret og konfigurer Shopify-konto](shopify-account.md).
 
-### <a name="business-central"></a>Business Central
+### Business Central
 
 Du skal have en [!INCLUDE[prod_short](../includes/prod_short.md)]-konto. 
 
 Du kan f. eks. oprette en demokonto eller starte en prøveversion. Flere oplysninger i [Forberede demonstrationsmiljøer af Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) og [Tilmelde dig prøveversionen](../trial-signup.md). 
 
-## <a name="connect-business-central-to-the-shopify-shop"></a>Forbinde Business central med Shopify-butikken
+## Forbinde Business central med Shopify-butikken
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)] skal du gøre følgende:
 
@@ -62,13 +62,13 @@ Konfigurere tilknytning af lokation:
 3. Angiv `''|EAST|MAIN` i **lokationsfilteret**.
 4. Vælg *Forventet disponibel saldo ved dags dato* i feltet **Lagerberegning** for at aktivere en lagersynkronisering for en valgt Shopify-lokation.
 
-## <a name="walkthrough-start-selling-products-online"></a>Gennemgang: Start salg af produkter online
+## Gennemgang: Start salg af produkter online
 
-### <a name="scenario"></a>Scenarie
+### Scenarie
 
 Lad os antage, at du vil prøve Shopify som onlinebutik uden at skulle bruge tid på indstilling, især fordi du allerede har vedligeholdt dine varer i [!INCLUDE[prod_short](../includes/prod_short.md)]. Når du har startet din Shopify-onlinebutik, får du straks nye kunder, der er glade for din produktions- og købserfaring. Derfor beslutter de at efterlade drikkepenge ved kassen.
 
-### <a name="steps"></a>Trin
+### Trin
 
 Følg disse trin i [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
@@ -128,13 +128,13 @@ Nu registreres fysiske og økonomiske oplysninger i [!INCLUDE[prod_short](../inc
 
 I **Shopify Admin** skal du notere om, ordren nu er markeret som *opfyldt*. Du kan også gennemse leveringsoplysningerne og se, hvordan du registrerer URL-adressen. Hvis du kører **synkroniseringsordrer fra Shopify** igen, vil ordren blive arkiveret på begge systemer.
 
-## <a name="walkthrough-add-your-customers-to-your-new-online-store"></a>Gennemgang: Tilføj dine kunder til din nye onlinebutik
+## Gennemgang: Tilføj dine kunder til din nye onlinebutik
 
-### <a name="scenario-1"></a>Scenarie
+### Scenarie
 
 Når du hurtigt har startet din nye onlinebutik, vil du have de aktuelle kunder til at besøge og begynde at bestille. Afhængigt af din Shopify plan og proces kan du prøve B2B- og D2C-flows.
 
-### <a name="d2c-steps"></a>D2C Trin
+### D2C Trin
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)] skal du gøre følgende:
 
@@ -146,7 +146,7 @@ I [!INCLUDE[prod_short](../includes/prod_short.md)] skal du gøre følgende:
 
 I **Shopify Admin** skal du registrere, om kunderne er blevet indlæst. Åbn debitorerne, og læg mærke til, at det første og sidste navn på debitoren kommer fra i feltet **kontaktnavn** på **debitorkortet**. Firmanavnet kan findes i den standardadresse, der er knyttet til debitoren. Hvis du bruger *Classic-kundekonti*, kan du vælge **Send kontoinvitation** for at invitere kunden. Med *Nye kundekonti* kræves der ikke en adgangskode, for at kunderne kan logge på, men lader i stedet Shopify dine kunder logge ind ved hjælp af en engangs 6-cifret bekræftelseskode, der sendes via e-mail. 
 
-### <a name="b2b-steps"></a>B2B Trin
+### B2B Trin
 
 [!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
@@ -160,13 +160,13 @@ I [!INCLUDE[prod_short](../includes/prod_short.md)] skal du gøre følgende:
 
 I **Shopify Administrator** skal du bemærke, at både virksomheden og kunden blev importeret. Åbn debitorer, og læg mærke til faktaboksen for virksomheden med link til Virksomhed, lokation og tildelte tilladelser. Vælg **[...]** i **Virksomhed-faktaboksen, og vælg derefter **Send B2B-adgangsmail** for at invitere kunden.
 
-## <a name="walkthrough-fine-tuning-of-item-management"></a>Gennemgang: Finjustering af varestyring
+## Gennemgang: Finjustering af varestyring
 
-### <a name="scenario-2"></a>Scenarie
+### Scenarie 
 
 Du vil gerne give processerne større fleksibilitet og styring i forbindelse med håndtering af emner. Du vil forbedre produktbeskrivelser og tilføje flere gennemsynstrin, før produkterne bliver tilgængelige alle kunder.
 
-### <a name="steps-1"></a>Trin
+### Trin
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)] skal du gøre følgende:
 
@@ -251,7 +251,7 @@ Bemærk, at lager for ANTWERP Conference Table er 100, fordi vi har konfigureret
 
 I **Shopify-onlinebutik** skal du åbne produktkataloget og finde *ATHENS Desk*-produktet. Bemærk, at der er forskellige muligheder tilgængelige. Priserne er forskellige for forskellige indstillinger. Vær opmærksom på oplysninger om rabat.
 
-### <a name="additional-steps-for-b2b"></a>Yderligere trin til B2B
+### Yderligere trin til B2B
 
 [!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
@@ -296,7 +296,7 @@ I **Shopify Admin** kan du udforske priser for *B2B-katalog*.
 
 I **Shopify-onlinebutik** skal du åbne produktkataloget og finde *ATHENS Desk*-produktet. Bemærk, at priserne er rabatoplysninger.
 
-## <a name="walkthrough-check-out-and-order-synchronization-for-individual-buyer-and-company-representative"></a>Gennemgang: Synkronisering af udtjekning og bestilling for den enkelte indkøber og virksomhedsrepræsentant
+## Gennemgang: Synkronisering af udtjekning og bestilling for den enkelte indkøber og virksomhedsrepræsentant
 Dette er en fortsættelse af [gennemgang: Start salget af produkter online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). Du kan også prøve med dine egne data, f.eks. Shopify-butik eller sandkasse.
 
 Individuel køber
@@ -344,19 +344,19 @@ Den importerede ordre er klar til behandling.
 3. I den ordre, der er afgivet på virksomhedens vegne, kan du se værdien i feltet **PO-nummer**, som også overføres til feltet **Eksternt bilagsnr.** for oprettet salgsdokument.
 4. Da vi har konfigureret B2B-virksomhed til at håndtere betalinger uden for Shopify er **Økonomisk status** angivet til *Afventer*. Når du har modtaget betaling, skal du vælge handlingen **Markér som betalt**. Økonomisk status opdateres i Shopify. 
 
-## <a name="walkthrough-import-items-customers-companies-from-shopify"></a>Gennemgang: Indlæs varer, debitorer, virksomheder fra Shopify
+## Gennemgang: Indlæs varer, debitorer, virksomheder fra Shopify
 
-### <a name="scenario-3"></a>Scenarie
+### Scenarie 
 
 Du har allerede en onlinebutik med succes og vil gerne bruge [!INCLUDE[prod_short](../includes/prod_short.md)] som software til erhvervsstyring. Du vil importere så mange data fra Shopify som muligt. 
 
-### <a name="steps-2"></a>Trin
+### Trin
 
 Dette er en fortsættelse af [Gennemgang: Begynd at sælge produkter online](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online) og [Gennemgang: Føj dine kunder til din nye webshop](walkthrough-setting-up-and-using-shopify.md#walkthrough-add-your-customers-to-your-new-online-store). Du kan også prøve med dine egne data, f.eks. Shopify-butik eller sandkasse.
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)] skal du følge nedenstående trin.
 
-#### <a name="prepare-data"></a>Klargøre data
+#### Klargøre data
 
 1. Skift til en gratis 30-dages prøveversion uden eksempeldata. Du kan finde flere oplysninger i [Tilføje dine egne data til en tom prøveversion](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
 2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-Shops**, og vælg derefter det relaterede link.
@@ -379,7 +379,7 @@ Konfigurer Shopify butikken som beskrevet her:
 10. Vælg *Alle debitorer* i **Debitorimport fra Shopify**.
 11. Aktiver **Automatisk oprettelse af ukendt virksomhed** til/fra.
 
-#### <a name="run-the-synchronization"></a>Kør varesynkronisering
+#### Kør varesynkronisering
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-butikker**, og vælg det relevante link.
 2. Marker den *DEMO2*-butik, som du vil synkronisere data til for at åbne **Shopify Butikskort**-siden.
@@ -388,7 +388,7 @@ Konfigurer Shopify butikken som beskrevet her:
 5. Vælg **Synkroniser kunder**.
 6. Vælg **Synkroniser kunder**
 
-### <a name="results"></a>Resultater
+### Resultater
 
 * Shopify-produkter importeres. Kontroller ved at vælge ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-produkter**, og vælg derefter det relaterede link.
 * Elementer med billeder oprettes. Kontroller ved at vælge ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Vare**, og vælg derefter det relaterede link.
@@ -397,6 +397,6 @@ Konfigurer Shopify butikken som beskrevet her:
 * Debitorer oprettes. Kontroller ved at vælge ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Kom i gang med Shopify-connectoren](get-started.md)  
