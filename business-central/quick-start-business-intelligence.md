@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="business-intelligence-quick-start"></a>Hurtig start af Business Intelligence
+# Hurtig start af Business Intelligence
 
 En uvurderlig del af virksomheden er at kunne indsamle og analysere de stadig stigende mængder data på en effektiv måde. [!INCLUDE[prod_short](includes/prod_short.md)] tilbyder mange forskellige business intelligence-værktøjer (BI) - både indbygget og integreret med andre tjenester - for at hjælpe virksomheden med at træffe beslutningsprocessen.
 
-## <a name="get-insights-on-your-key-points-of-interest"></a>Få indsigt i dine nøglepunkter med interesse
+## Få indsigt i dine nøglepunkter med interesse
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder indbyggede diagrammer, der kan vises i **insights**-delen på hjemmesiden, som dækker *indtægt og udgift*, *pengestrøm*, *salgstendenser* og andre rapporter. Du kan finde yderligere KPI'er på siden **Intelligent cloudindsigt**, der viser oplysninger, der kan udføres fra finans, lager, salg og indkøb:
 
@@ -23,7 +23,7 @@ En uvurderlig del af virksomheden er at kunne indsamle og analysere de stadig st
 
 Du kan vælge de tilgængelige datakort og indsigter for at åbne den tilknyttede finansside. Siden med **intelligent Cloudindsigt** bruger også en forbindelse med eksisterende Power BI og Azure Machine-læringsabonnementer til visning af analyse- og prognose-dashboards.
 
-## <a name="set-up-power-bi-integration"></a>Konfigurere Power BI-integration
+## Konfigurere Power BI-integration
 
 Du kan oprette [!INCLUDE[prod_short](includes/prod_short.md)]-forbindelse med Power BI for at oprette indtrængningsrapporter og effektive dashboards. Power BI-integration indeholder mange muligheder for at give indsigt, der er baseret på virksomhedens data, herunder en lang række visuelle, filtre og skærmtilpasninger.
 
@@ -39,7 +39,7 @@ Power BI-integrationen med [!INCLUDE[prod_short](includes/prod_short.md)] indeho
 
 Du kan også oprette visuelle rapporter, der er baseret på [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af **Microsoft Excel-dokument (kun data)** på rapportanmodningssider. Få mere at vide på [kørsels- og udskriftsrapporter](ui-work-report.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Business Analysis og Financial Reporting](bi.md)  
 [Hurtig startvejledning til Business Central](quick-start-business-central.md)  

@@ -9,11 +9,11 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-database-access-intent"></a>Administration af formål med adgang til database
+# Administration af formål med adgang til database
 
 Som superbruger eller administrator kan du ændre formålet med adgang til databaser for rapporter, sider af typen API og forespørgsler for at forbedre tjenestens ydeevne.
 
-## <a name="overview"></a>Oversigt
+## Oversigt
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kan konfigureres til at bruge skrivebeskyttede kopier af den primære database (læse-skrive). Hvis du bruger kopien af brugerdatabasen, reduceres den primære databases belastning. I nogle tilfælde vil det også forbedre ydeevnen, når data vises i klienten. Kopier er nyttige for objekter, f.eks. rapporter, forespørgsler og API-sider, som kun bruges til at se data, ikke til at ændre data.
 
@@ -23,7 +23,7 @@ På siden **Liste over formål med adgang til database** kan du tilsidesætte de
 
 I databaseterminologi kaldes denne funktion ofte for *read scale-out*. Du kan få flere oplysninger om read-scale out og formål med adgang til databaser i [!INCLUDE[prod_short](includes/prod_short.md)] i [Sådan bruger du read scale-out til at forbedre ydeevnen](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) i [!INCLUDE[prod_short](includes/prod_short.md)] Hjælp til udviklere og administratorer.
 
-## <a name="to-change-the-database-access-intent"></a>Sådan ændrer du formålet med adgang til databaser
+## Sådan ændrer du formålet med adgang til databaser
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **listen database-adgangsmetode**, og vælg derefter det relaterede link.
 
@@ -42,7 +42,7 @@ I databaseterminologi kaldes denne funktion ofte for *read scale-out*. Du kan f�
     > [!NOTE]
     > Hvis et objekt, der kan redigeres (f.eks. Kundekort) er **Skrivebeskyttet**, vil den primære database stadig blive brugt, uanset adgangsformålet, så brugerne kan foretage ændringer som normalt.
 
-## <a name="see-also"></a>Se også
+## Se også
 [Forretningsfunktioner](across-business-functionality.md)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

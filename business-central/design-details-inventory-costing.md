@@ -10,13 +10,13 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-inventory-costing"></a>Designoplysninger: Lagerkostmetode
+# Designoplysninger: Lagerkostmetode
 
 Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges inden for lageromkostningsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Lagerkostmetode, også kendt som "omkostningsstyring", vedrører registrering og rapportering af virksomhedens driftsomkostninger.  
 
-## <a name="in-this-section"></a>Dette afsnit indeholder
+## Dette afsnit indeholder
 
 [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
 [Designoplysninger: Vareudligning](design-details-item-application.md)  
