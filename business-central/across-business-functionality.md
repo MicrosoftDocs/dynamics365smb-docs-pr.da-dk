@@ -10,7 +10,7 @@ ms.date: 11/01/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Forretningsfunktioner
+# <a name="business-functionality"></a>Forretningsfunktioner
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder funktioner til almindelige forretningsprocesser i små og mellemstore virksomheder inden for engroshandel og professionelle services. Mere komplekse processer, f.eks. montage, produktion, service og styret logistik, understøttes imidlertid også. Få mere at vide om, hvordan du får en gratis prøveversion [her](trial-signup.md).  
 
@@ -38,7 +38,7 @@ ms.service: dynamics-365-business-central
 |Lad brugerne udveksle data med eksterne kilder i daglige opgaver, f.eks. afsendelse eller modtagelse af elektroniske dokumenter, import og eksport af bankfiler og opdatering af valutakurser.|[Udveksle data elektronisk](across-data-exchange.md)|
 |Registrer eksterne dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)], herunder deres vedhæftede filer, opret derefter relaterede dokumenter manuelt, eller konverter automatisk filerne til elektroniske dokumenter.|[Indgående bilag](across-income-documents.md)|
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Administration](admin-setup-and-administration.md)    
 [Udforske Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/)  

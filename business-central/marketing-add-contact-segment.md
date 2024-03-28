@@ -10,10 +10,10 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Tilføje kontakter til segmenter
+# <a name="adding-contacts-to-segments"></a>Tilføje kontakter til segmenter
 Når du har oprettet en målgruppe og angivet grundlæggende oplysninger om den, vil du muligvis gerne tilføje kontakter til målgruppen. Du kan gøre dette ved at udfylde linjerne på siden **Målgruppe** manuelt, men det er lettere og hurtigere at bruge handlingen **Tilføj kontakter**.
 
-## Sådan tilføjes en kontakt til en målgruppe
+## <a name="to-add-a-contact-to-a-segment"></a>Sådan tilføjes en kontakt til en målgruppe
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Segmenter**, og vælg derefter det relaterede link.  
 2. Vælg målgruppen, og vælg derefter handlingen **Tilføj kontakter**. Kørselssiden **Tilføj kontakter** åbnes.
 3. I sektionen **Kontakt** skal du indstille filtre for at angive de oplysninger, du vil vælge kontakter efter.
@@ -22,7 +22,7 @@ Hvis du vil angive yderligere filtre, skal du gentage denne fremgangsmåde i hve
 
 Hvis du har tilføjet kontakter ved en fejltagelse og ønsker at gå et trin tilbage, skal du vælge handlingen **Gå tilbage**.
 
-## Sådan begrænses antallet af kontakter
+## <a name="to-refine-the-number-of-contacts"></a>Sådan begrænses antallet af kontakter
 Efter du har valgt kontakter i en målgruppe, kan du have behov for at fjerne nogle af kontakterne, mens du vil beholde andre. Du kan gøre det manuelt ved at fjerne kontakterne fra linjerne på siden **Målgruppe**, men det er nemmere og hurtigere at bruge handlingen **Begræns kontakter**.
 
 1. Åbn målgruppen.
@@ -34,7 +34,7 @@ Der er ingen begrænsninger på, hvor mange gange du kan opdatere en målgruppe.
 
 Vælg **Antal kriteriehandlinger** i sektionen **Generelt**, hvis du vil se en oversigt over de målgruppekriterier, som du har anvendt.
 
-## Sådan reduceres antallet af kontakter
+## <a name="to-reduce-the-number-of-contacts"></a>Sådan reduceres antallet af kontakter
 Efter du har valgt kontakter i en målgruppe, kan du have behov for at fjerne nogle af dem. Du kan gøre dette manuelt ved at fjerne dem fra linjerne på siden Målgruppe, men det er nemmere og hurtigere at bruge funktionen Reducer kontakter til at angive, hvilke kontakter der skal fjernes, og at bruge funktionen Begræns kontakter til at specificere de kontakter, der skal bevares.
 
 1. Åbn målgruppen.
@@ -44,7 +44,7 @@ Efter du har valgt kontakter i en målgruppe, kan du have behov for at fjerne no
 
 Der er ingen begrænsninger på, hvor mange gange du kan fjerne kontakter fra en målgruppe. Hvis du har fjernet forkerte kontakter og vil gå ét trin tilbage, skal du vælge handlingen **Gå tilbage**.
 
-## Se også
+## <a name="see-also"></a>Se også
 [Oprette en målgruppe](marketing-how-create-segment.md)   
 [Administrere målgrupper](marketing-segments.md)  
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  

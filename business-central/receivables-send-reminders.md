@@ -10,11 +10,11 @@ ms.date: 02/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Sende rykkere for udestående saldi
+# <a name="send-reminders-of-outstanding-balances"></a>Sende rykkere for udestående saldi
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Indhente udestående beløb](receivables-collect-outstanding-balances.md)  
 [Konfigurere flere rentesatser for forsinket betaling](finance-how-to-set-up-multiple-interest-rates.md)  

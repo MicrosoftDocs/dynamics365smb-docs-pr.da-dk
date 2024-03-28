@@ -12,11 +12,11 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# Bruge ikke-fradragsberettiget moms
+# <a name="use-non-deductible-vat"></a>Bruge ikke-fradragsberettiget moms
 
 I denne artikel forklares, hvordan du kan bruge og rapportere ikke-fradragsberettiget moms.
 
-## Oprette en købsfaktura med ikke-fradragsberettiget moms
+## <a name="create-a-purchase-invoice-with-non-deductible-vat"></a>Oprette en købsfaktura med ikke-fradragsberettiget moms
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 3.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.
 2. Vælg **Ny** for at oprette en købsfaktura, og angiv de relevante oplysninger i fakturahovedet.
@@ -27,7 +27,7 @@ I denne artikel forklares, hvordan du kan bruge og rapportere ikke-fradragsberet
 
 5. Bogfør fakturaen.
 
-## Oprette en købsordre med ikke-fradragsberettiget moms
+## <a name="create-a-purchase-order-with-non-deductible-vat"></a>Oprette en købsordre med ikke-fradragsberettiget moms
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 3.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **købsordrer**, og vælg derefter det relaterede link.
 2. Vælg **Ny** for at oprette en købsordre, og angiv de relevante oplysninger i dokumenthovedet.
@@ -38,7 +38,7 @@ I denne artikel forklares, hvordan du kan bruge og rapportere ikke-fradragsberet
 
 5. Bogfør købsordren.
 
-## Reguler momsbeløb før bogføring af bilag
+## <a name="adjust-rounded-vat-amounts-before-document-posting"></a>Reguler momsbeløb før bogføring af bilag
 
 Hvis momsbeløb ikke er afrundet på samme måde i miljøet og i det eksterne regnskabssystem (det oprindelige fakturadokument), kan du justere momsbeløbet, inden du bogfører dokumentet. Hvis du vil foretage denne justering, skal du følge disse trin, inden du bogfører dokumentet.
 
@@ -61,7 +61,7 @@ Du kan justere værdierne i felterne **Momsbeløb** og **Ikke-fradragsbeløb**. 
 > [!IMPORTANT]
 > Du kan ikke bruge ikke-fradragsberettiget moms på forudbetalingsfakturaer.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Økonomistyring](finance.md)
 
