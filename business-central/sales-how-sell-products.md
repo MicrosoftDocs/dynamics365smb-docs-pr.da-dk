@@ -11,7 +11,7 @@ ms.date: 02/01/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Sælge produkter med en kundesalgsordre
+# Sælge produkter med en kundesalgsordre
 
 Denne artikel giver brugerne vejledning om, hvornår du bør benytte en debitorsalgsordre i stedet for blot en faktura. Hvis din salgsproces kræver, at du kan levere dele af et ordreantal, f.eks. fordi hele antallet ikke er tilgængeligt på én gang, skal du behandle salget ved at oprette salgsordrer.
 
@@ -23,7 +23,7 @@ I forretningsmiljøer hvor debitor betaler med det samme, f.eks. via PayPal elle
 
 Du kan også oprette direkte betalte ordrer for ikke-registrerede kunder ved først at oprette et "kontantkunde"-kort, som du så peger hen på salgsordren. Flere oplysninger i [Konfigurere kontantkunder](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Oprette en salgsordre
+## Oprette en salgsordre
 
 > [!NOTE]  
 > I følgende procedure antages det, at kunden allerede er oprettet. Yderligere oplysninger om, hvordan du gør dette, finder du i [Registrere nye kunder](sales-how-register-new-customers.md).
@@ -87,17 +87,17 @@ Dialogboksen **Bekræftelse af bogfør og send** viser debitorens foretrukne met
 
 De relaterede vare- og debitorposter oprettes nu i systemet, og salgsordren udlæses som et PDF-dokument. Når salgsordren er bogført fuldstændigt, fjernes den fra listen over salgsordrer og erstattes med nye dokumenter på listen over bogførte salgsfakturaer og oversigten over bogførte salgsleverancer.  
 
-## <a name="external-document-number"></a>Eksterne bilagsnumre
+## Eksterne bilagsnumre
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="working-with-amount-fields"></a>Arbejde med beløbsfelter
+## Arbejde med beløbsfelter
 
 Værdierne i de felter, der viser beløb, kan være positive eller negative, afhængigt af om værdien repræsenterer en kredit eller en debet. Denne video viser, hvordan du arbejder med felter, der viser beløb.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Fakturasalg](sales-how-invoice-sales.md)  
 [Bogføring af salg](ui-post-sales.md)  

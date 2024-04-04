@@ -9,17 +9,17 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="financial-reports-and-analytics-in-business-central"></a>Finansrapporter og analyser i Business Central
+# Finansrapporter og analyser i Business Central
 
 Financial Reporting i [!INCLUDE [prod_short](includes/prod_short.md)] tillader økonomi- og erhvervsfolk at oprette, vedligeholde, implementere og få vist regnskaber. Går ud over traditionelle rapporterings begrænsninger for at gøre det nemmere at designe forskellige typer rapporter. [!INCLUDE [prod_short](includes/prod_short.md)] indeholder flere rapporter, sporingsfunktioner og værktøjer, som kan hjælpe revisorer eller controllere, som er ansvarlige for at rapportere til finansafdelingen. Financial Reporting omfatter understøttelse af dimensioner, så kontosegmenter eller dimensioner er straks tilgængelige - der kræves ingen andre konfigurationstrin.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## <a name="reports"></a>Rapporter
+## Rapporter
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## <a name="tasks"></a>Opgaver
+## Opgaver
 
 I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med analyse af virksomhedens tilstand:
 
@@ -31,7 +31,7 @@ I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med a
 * [Oprette rapporter med XBRL](bi-create-reports-with-xbrl.md)  
 * [Administrere formål med adgang til database](admin-data-access-intent.md)  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprette omkostningsbudgetter](finance-create-cost-budgets.md)  
 [Rapportere moms til skattemyndighederne](finance-how-report-vat.md)  

@@ -9,7 +9,7 @@ ms.date: 12/03/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Gennemgang: Opsætning og fakturering af salgsforudbetalinger
+# Gennemgang: Opsætning og fakturering af salgsforudbetalinger
 
 Denne gennemgang fører dig gennem konfigureringen og brugen af forudbetalinger i [!INCLUDE [prod_short](includes/prod_short.md)]. [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -17,7 +17,7 @@ Denne gennemgang fører dig gennem konfigureringen og brugen af forudbetalinger 
 
 Du kan f.eks. sende yderligere forudbetalingsfakturaer, hvis der føjes ekstra varer til ordren.  
 
-## <a name="about-this-walkthrough"></a>Om denne gennemgang
+## Om denne gennemgang  
 
 I denne gennemgang vil du komme gennem følgende scenarier:  
 
@@ -28,7 +28,7 @@ I denne gennemgang vil du komme gennem følgende scenarier:
 - Anvendelse af forudbetalinger på en ordre  
 - Fakturering af det endelige beløb på en ordre med forudbetaling  
 
-### <a name="roles"></a>Roller
+### Roller
 
 Denne gennemgang indeholder opgaver for følgende roller:  
 
@@ -36,7 +36,7 @@ Denne gennemgang indeholder opgaver for følgende roller:
 - Ordrebehandler (Susan)  
 - Administrator af tilgodehavender (Arne)  
 
-## <a name="story"></a>Historie
+## Historie
 
  Phyllis er regnskabschef og træffer beslutninger om, hvilke kunder der skal betale et depositum, inden varerne produceres eller leveres. Pia indstiller [!INCLUDE[prod_short](includes/prod_short.md)] til at beregne forudbetalinger automatisk.  
 
@@ -52,7 +52,7 @@ Denne gennemgang indeholder opgaver for følgende roller:
 
  Arne registrerer kundens betaling, påfører den på fakturaen og sender derefter den endelige faktura.  
 
-## <a name="set-up-prepayments"></a>Oprette forudbetalinger
+## Oprette forudbetalinger
 
 Pia opsætter systemet til at håndtere forudbetalinger for debitorer.  
 
@@ -62,13 +62,13 @@ Pia opsætter systemet til at håndtere forudbetalinger for debitorer.
 
 Følgende procedurer beskriver, hvordan Pias opgaver udføres:  
 
-### <a name="to-set-up-number-series-for-prepayments"></a>Sådan opsættes nummerserierne for forudbetalinger
+### Sådan opsættes nummerserierne for forudbetalinger
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Salgsopsætning**, og vælg derefter det relaterede link.  
 2. På siden **Salgsopsætning** skal du udvide oversigtspanelet **Nummerering**.  
 3. Kontroller, at nummerserierne for de bogførte forudbetalingsfakturaer i feltet **Bogførte forudbetalingsfakturanr.** er de samme som dem, der er bogført for salgsfakturaerne (**Bogførte fakturanumre**), og at nummerserierne for bogførte forudbetalingskreditnotaer (**Bogførte forudbetalingskreditnotanr.**) er de samme som dem, der er bogført for kreditnotaer (**Bogf. kreditnotanumre**).  
 
-### <a name="to-block-shipments-for-unpaid-prepayment"></a>Sådan blokeres forsendelser ved ubetalte forudbetalinger
+### Sådan blokeres forsendelser ved ubetalte forudbetalinger
 
 1. Gå til siden **Salgsopsætning**, og marker afkrydsningsfeltet **Kontroller forudbetaling ved bogføring** i oversigtspanelet **Generelt**.
 
@@ -78,7 +78,7 @@ Pia angiver, at debitor 20000 som standard skal faktureres med en forudbetaling 
 
 Pia angiver, at alle debitorer skal faktureres med et depositum på 20 % for vare 1896-S. Debitor 20000 har en dårlig betalingshistorie, så Phyllis angiver en forudbetaling på 40 % for debitor 20000 på vare 1896-S. Følgende fremgangsmåde viser, hvordan standardprocenten for forudbetaling angives.  
 
-### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Sådan angives standardprocenten for forudbetalinger for debitorer og varer
+### Sådan angives standardprocenten for forudbetalinger for debitorer og varer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.  
 2. Åbn kortvinduet for debitor 20000 (Trey Research).
@@ -96,7 +96,7 @@ Pia angiver, at alle debitorer skal faktureres med et depositum på 20 % for var
 
 6. Luk alle sider.  
 
-### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Angive en konto for salgsforudbetalinger i den generelle bogføringsopsætning
+### Angive en konto for salgsforudbetalinger i den generelle bogføringsopsætning
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogføringsopsætning**, og vælg derefter det relaterede link.  
 2. Markér linjen, hvor feltet **Virksomhedsbogføringsgruppe** er indstillet til **DOMESTIC**, og feltet **Produktbogføringsgruppe** er indstillet til **DETAIL**.  
@@ -105,7 +105,7 @@ Pia angiver, at alle debitorer skal faktureres med et depositum på 20 % for var
 > [!TIP]
 > Hvis du ikke kan se feltet på siden **Bogføringsopsætning**, skal du bruge det vandrette rullepanel nederst på siden til at rulle til højre.  
 
-## <a name="create-an-order-that-requires-a-prepayment"></a>Oprette en ordre, der kræver en forudbetaling
+## Oprette en ordre, der kræver en forudbetaling
 
  I følgende scenarie opretter ordrebehandleren Susan en ordre, mens hun taler med en kunde. De varer, som kunden bestiller, kræver en forudbetaling. Desuden har debitoren allerede foretaget nogle forsinkede betalinger. Susan er derfor blevet instrueret i at kræve et fast beløb på **800** som en forudbetaling på ordren.  
 
@@ -113,7 +113,7 @@ Kunden beder om at betale 35 %, hvilket Susan går med til, og hun ændrer derfo
 
 Susan opretter forudbetalingsfakturaen og sender den til kunden.  
 
-### <a name="to-create-a-sales-order-with-a-prepayment"></a>Sådan oprettes en salgsordre med en forudbetaling
+### Sådan oprettes en salgsordre med en forudbetaling
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -150,11 +150,11 @@ Susan opretter forudbetalingsfakturaen og sender den til kunden.
 12. Vælg knappen **Ja** i den viste advarsel. Der anvendes en sats på 35 % som betalingsprocent for hele ordren.  
 13. Kontrollér, at linjerne er opdateret tilsvarende.  
 
-## <a name="create-a-prepayment-invoice"></a>Oprette en forudbetalingsfaktura
+## Oprette en forudbetalingsfaktura
 
 Når den korrekte forudbetalingsværdi er angivet på ordren, opretter Susan forudbetalingsfakturaen og sender den til kunden.  
 
-### <a name="to-create-a-prepayment-invoice"></a>Sådan oprettes en forudbetalingsfaktura
+### Sådan oprettes en forudbetalingsfaktura
 
 1. Vælg **Forudbetaling** og derefter **Bogfør og udskriv forudbetalingsfaktura** i gruppen **Bogføring** under fanen **Handlinger** i **salgsordren**.
 2. Vælg **Ja** for at bogføre fakturaen.  
@@ -162,11 +162,11 @@ Når den korrekte forudbetalingsværdi er angivet på ordren, opretter Susan for
 > [!NOTE]  
 > Susan sender nu fakturaen til kunden.  
 
-## <a name="create-an-additional-prepayment-invoice"></a>Oprette en yderligere forudbetalingsfaktura
+## Oprette en yderligere forudbetalingsfaktura
 
 Den næste dag ringer kunden til Susan med ændringer til ordren. Kunden vil gerne have to stk. af vare 1896-S. Susan åbner ordren igen og opdaterer den, hvorefter hun opretter en forudbetalingsfaktura til på ordren og sender den til kunden.  
 
-### <a name="to-create-an-additional-prepayment-invoice"></a>Sådan oprettes der en forudbetalingsfaktura til
+### Sådan oprettes der en forudbetalingsfaktura til
 
 1. På siden **Salgsordre** skal du vælge handlingen **Frigiv** og **Åbn igen**.  
 2. Gå til linjen for vare **1896-S** i feltet **Antal**, og indtast **2**.  
@@ -175,11 +175,11 @@ Den næste dag ringer kunden til Susan med ændringer til ordren. Kunden vil ger
 3. For at bogføre det ekstra forudbetalingsbeløb skal du på vælge **Handlinger**, i gruppen **Bogfør og udskriv forudbetalingsfaktura** vælge **Forudbetaling** og derefter vælge **Bogfør**
 4. Vælg **Ja** for at bogføre fakturaen.  
 
-## <a name="apply-the-prepayments"></a>Påføre forudbetalinger
+## Påføre forudbetalinger
 
 Kunden betaler forudbetalingsbeløbet. Arnie skal fra regnskabsafdelingen registrere betalingen og udligne den med forudbetalings fakturaerne.  
 
-### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Sådan påføres en betaling på forudbetalingsfakturaer
+### Sådan påføres en betaling på forudbetalingsfakturaer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Indbetalingskladder**, og vælg derefter det relaterede link.  
 2. Udfyld kladdelinjen med følgende oplysninger.  
@@ -199,11 +199,11 @@ Kunden betaler forudbetalingsbeløbet. Arnie skal fra regnskabsafdelingen regist
 7. Du kan bogføre kladden ved at vælge handlingen **Bogfør/Udskriv** og derefter klikke på **Bogfør**.
 8. Vælg knappen **Ja**.
 
-## <a name="invoice-the-remaining-amount"></a>Fakturere restbeløbet
+## Fakturere restbeløbet
 
 Arne har nu fået oplyst, at varerne i ordren er blevet afsendt, og at ordren er klar til fakturering. Arne opretter fakturaen til ordren.  
 
-### <a name="to-invoice-the-remaining-amount"></a>Sådan faktureres restbeløbet
+### Sådan faktureres restbeløbet
 
 1. Åbn salgsordren.
 2. Vælg **bogføring**-handling og derefter **Bogfør**.
@@ -217,11 +217,11 @@ Arne har nu fået oplyst, at varerne i ordren er blevet afsendt, og at ordren er
 
 5. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogførte salgsfakturaer**, og vælg derefter det relaterede link.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Opdatere status for forudbetalte ordrer og fakturaer automatisk
+## Opdatere status for forudbetalte ordrer og fakturaer automatisk
 
 Du kan gøre behandlingen hurtigere og oprette en faktura ved at indstille Opgavekøposter, der automatisk opdaterer status for de pågældende dokumenter. Når en forudbetalingsfaktura betales, kan posterne i opgavekøen automatisk ændre dokumentstatus fra **Afventende forudbetaling** til **Frigivet**. Når du opretter Opgavekøposter, er de kodeenheder, du skal bruge, **383 Opdateret Afventer forudbetaling af Salg** og **383 Opdateret Afventer forudbetaling af køb**. Det anbefales, at du planlægger posterne ofte, f. eks. hvert minut. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
 
-## <a name="next-steps"></a>Efterfølgende trin
+## Efterfølgende trin
 
 Denne gennemgang har ført dig gennem trinnene i, hvordan du indstiller [!INCLUDE[prod_short](includes/prod_short.md)] til at håndtere forudbetalinger. 
 
@@ -234,7 +234,7 @@ Du har også bogført en forudbetalingsfaktura, oprettet endnu en forudbetalings
 
 Forudbetalings funktionerne gør det nemmere at oprette og gennemtvinge regler for forudbetaling for debitorer og varer. De giver dig også mulighed for at bogføre hver betaling mod en faktura.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Fakturere forudbetalinger](finance-invoice-prepayments.md)  
 [Finans](finance.md)  
