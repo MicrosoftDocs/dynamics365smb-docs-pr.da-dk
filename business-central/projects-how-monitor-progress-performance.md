@@ -11,7 +11,7 @@ ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
 ms.service: dynamics-365-business-central
 ---
-# <a name="monitor-project-progress-and-performance"></a>Overvåge jobstatus og -udførelse
+# Overvåge jobstatus og -udførelse
 
 Med igangværende arbejde (WIP)-funktionen kan du estimere den økonomiske værdi af igangværende sager i finansregnskabet.
 
@@ -28,7 +28,7 @@ Du kan beregne VIA baseret på følgende:
 <!--If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.-->
 <!--Unhide the above paragraph?-->
 
-## <a name="create-a-project-wip-method"></a>Opret et job med igangværende arbejde-metoden
+## Opret et job med igangværende arbejde-metoden
 
 Opret et job med igangværende arbejde-metode, der afspejler behovet i organisationen og angiver det som standard.  
 
@@ -41,7 +41,7 @@ Opret et job med igangværende arbejde-metode, der afspejler behovet i organisat
 4. Hvis du vil gøre den nye metode til standardmetoden, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **jobopsætning**, og vælg derefter det relaterede link.  
 5. I feltet **Standard-VIA-metode** skal du vælge metoden fra listen.
 
-## <a name="define-a-wip-method-for-a-project"></a>Definere en metode for igangværende arbejde for en sag
+## Definere en metode for igangværende arbejde for en sag
 
 Når du opretter en ny sag, skal du angive, hvilken metode for igangværende arbejde der gælder. I nogle tilfælde er den igangværende arbejde-metode for sager, du bruger, allerede angivet som standard.
 
@@ -49,7 +49,7 @@ Når du opretter en ny sag, skal du angive, hvilken metode for igangværende arb
 2. Vælg handlingen **Ny**. Få mere at vide på [Oprettelse af job](projects-how-create-jobs.md).  
 3. På siden **Sagskort** i feltet **Metode for igangværende arbejde** skal du vælge en metode for igangværende arbejde. Hvis der er defineret en standardmetode, kan du vælge en anden indstilling, hvis det er nødvendigt.  
 
-### <a name="define-a-wip-method-for-a-project-task"></a>Definere en metode for igangværende arbejde for en sagsopgave
+### Definere en metode for igangværende arbejde for en sagsopgave
 
 Du kan definere en igangværende arbejde-metode for en sagsopgave, udelukke nogle sagsopgaver fra igangværende arbejde-beregningen eller gruppere opgaver som beregnet. 
 
@@ -94,7 +94,7 @@ Du bemærker følgende:
 
 * *1300* til *1399*: VIA beregnes separat for denne gruppe sagsopgaver.
 
-## <a name="calculate-wip"></a>Beregn VIA
+## Beregn VIA
 
 Du kan fastlægge det beløb for VIA, der skal bogføres til balancekonti ved periodeafslutningsrapporteringen. Det gør du ved at udføre kørslen **Beregn VIA for sag**.  
 
@@ -106,7 +106,7 @@ Du kan fastlægge det beløb for VIA, der skal bogføres til balancekonti ved pe
 > [!NOTE]  
 >   Batchjobbet beregner kun VIA, men VIA bogføres ikke. Hvis du vil bogføre, skal du udføre kørslen **Bogfør igangværende arbejde - finansafstemning**, når du har beregnet igangværende arbejde. Der er flere oplysninger i følgende procedure.
 
-## <a name="post-wip"></a>Bogfør VIA
+## Bogfør VIA
 
 Når du har beregnet igangværende arbejde, kan du bogføre det til balancekontiene for periodeafslutningsrapporteringen. Det gør du ved at udføre kørslen **Bogfør VIA for sag**.
 
@@ -114,7 +114,7 @@ Når du har beregnet igangværende arbejde, kan du bogføre det til balancekonti
 2. På siden **Bogfør VIA - finansafstemning** skal du udfylde felterne efter behov.  
 3. Vælg knappen **OK**.
 
-## <a name="calculate-and-post-project-completion-entries"></a>Beregn og bogfør sagsafslutningsposter
+## Beregn og bogfør sagsafslutningsposter
 
 Når du har fuldført alle aktiviteter for en sag, inklusive bogføring og fakturering af forbrug, skal du opdatere sagen for at få **status** **Afsluttet**. Derefter skal du tilbageføre alt igangværende arbejde, som er blevet bogført i finansregnskabet.
 
@@ -131,7 +131,7 @@ Når du har fuldført alle aktiviteter for en sag, inklusive bogføring og faktu
 
      Sagens VIA-finansposter, som blev oprettet ved at udføre kørslen, vil nu være markeret i feltet **Sagen er fuldført** for at vise, at de er færdiggørelsesposter.
 
-## <a name="view-project-ledger-entries"></a>Vise sagsposter
+## Vise sagsposter
 
 Alle sagsrelaterede poster er registreret i sagsjournaler med fortløbende nummerering, hvor der startes med 1. Fra sagsjournalen kan du få et overblik over alle sagsposter.    
 
@@ -140,7 +140,7 @@ Alle sagsrelaterede poster er registreret i sagsjournaler med fortløbende numme
 
 På siden **Sagsposter** kan du gennemse de poster, der er tilknyttet en sag.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Gennemgang - Beregning af igangværende arbejder for en sag](walkthrough-calculating-work-in-process-for-a-job.md)
 [Managing Projects](projects-manage-projects.md)  
