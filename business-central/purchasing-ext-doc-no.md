@@ -9,13 +9,13 @@ ms.date: 05/27/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="external-document-numbers-on-purchase-documents"></a>Eksterne bilagsnumre på købsdokumenter
+# Eksterne bilagsnumre på købsdokumenter
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 Du kan også angive eksterne bilagsnumre på salgsdokumenter. Du kan finde flere oplysninger i forbindelse med [Eksterne bilagsnumre](sales-how-invoice-sales.md#external-document-numbers)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Angive eksterne bilagsnumre](across-enter-external-document-numbers.md)  
 [Køb](purchasing-manage-purchasing.md)  
