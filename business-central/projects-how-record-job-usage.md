@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 02/22/2024
 ms.custom: bap-template
 ---
-# Registrere forbrug eller brug til projekter
+# <a name="record-consumption-or-usage-for-projects"></a>Registrere forbrug eller brug til projekter
 
 Fra siden **Projektkort** kan du åbne siden **Projektplanlægningslinjer** for at gennemgå og registrere brugen af forskellige dele af projektet. Disse oplysninger opdateres automatisk, når du ændrer og overfører oplysninger mellem projekter og projektkladder eller projektfakturaer. Dette kræver, at du slår til/fra-knappen **Anvend anvendelseslink som standard** til på siden **Projektopsætning**. Flere oplysninger [Konfigurere projekter](projects-how-setup-jobs.md).  
 
@@ -17,7 +17,7 @@ F.eks. kan du angive antallet af en ressource, og hvilken mængde, der skal over
 
 Følgende procedurer beskrives, hvordan du kan registrere faktiske (fakturerbare) mængder eller udgifter ved projektkladde. Du kan også bruge købsdokumenter til at registrere indkøb for et projekt. Få mere at vide i [Administrere projektforsyninger](projects-how-manage-project-supplies.md).
 
-## Sådan registreres forbrug for en projektplanlægningslinje af typen Budget
+## <a name="to-record-usage-for-a-project-planning-line-of-type-budget"></a>Sådan registreres forbrug for en projektplanlægningslinje af typen Budget
 
 1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Projekter**, og vælg derefter det relaterede link.  
 2. Markér det relevante projekt, og vælg derefter handlingen **Projektplanlægningslinjer**. 
@@ -42,7 +42,7 @@ Følgende procedurer beskrives, hvordan du kan registrere faktiske (fakturerbare
 9. På siden **Projektplanlægningslinjer** skal du gennemgå det registrerede forbrug ved at holde øje felterne **Antal**, **Restantal** og **Antal, der skal overføres til kladde**.  
 10. Gentag trin 3 til 8 for at registrere ekstra forbrug.  
 
-## Sådan oprettes projektkladdelinjer manuelt
+## <a name="to-create-project-journal-lines-manually"></a>Sådan oprettes projektkladdelinjer manuelt
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , skriv **Projektkladder**, og vælg derefter det relaterede link.  
 2. I feltet **Kladdenavn** skal du vælge et relevant projektkladdenavn.  
@@ -51,7 +51,7 @@ Følgende procedurer beskrives, hvordan du kan registrere faktiske (fakturerbare
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Sådan vises projektforbrugsestimater og bogføringsopdateringer
+## <a name="to-view-project-usage-estimates-and-post-updates"></a>Sådan vises projektforbrugsestimater og bogføringsopdateringer
 
 Du kan få vist projektforbruget op til færdiggørelsen af et projekt i ét trin. Hvis du vil gøre det, skal du bruge kørslen **Beregn resterende forbrug for projekt** for alle sagerne op til og inklusive afslutningen af et projekt.  
 
@@ -66,7 +66,7 @@ På denne måde kan du holde styr på og sammenligne dine oprindelige estimater 
 4. Opdater kladden med eventuelle nødvendige ændringer.  
 5. Vælg **Bogfør**.
 
-## Opret lagerbeholdnings- lagersteds-plukdokumenter for et projekt
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-project"></a>Opret lagerbeholdnings- lagersteds-plukdokumenter for et projekt
 
 Brug handlingerne **Opret pluk (lager)** og **Opret lager (logistik)** på siden **Projektkort**. Hvis du vil oprette eller registrere et plukdokument, skal du bruge **Læg-på-lager/pluk-linjer/bevægelseslinjer** eller **registrerede pluklinjer**. Flere oplysninger i [Flows for produktion, montage og projekter](design-details-internal-warehouse-flows.md).
 
@@ -83,7 +83,7 @@ Du kan bruge handlingerne under følgende betingelser:
 > 
 > Hvis lokationen er indstillet til at kræve både pluk og leverance, dvs. at du har markeret både feltet **Kræv pluk** og feltet **Kræv leverance** på **lokationskortet**, kan du bruge siden **Pluk (logistik)** til at håndtere plukningen. Lagerpluk svarer til pluk (lager). Forskellen er, at i stedet for at bogføre plukoplysninger, registrerer du plukket. Denne registrering bogfører ikke forbrug, den gør blot varerne disponible til bogføring. Som lagerchef kan du bruge en plukkladde til at organisere plukoplysningerne, før du opretter de enkelte plukinstruktioner (logistik)
 
-## Sådan gennemgås planlægningslinjerne for en projektpost
+## <a name="to-review-planning-lines-for-a-project-ledger-entry"></a>Sådan gennemgås planlægningslinjerne for en projektpost
 
 Når du har bogført projektkladdelinjer, kan du se de planlægningslinjer, der er knyttet til posterne i projektkladden, der er blevet bogført.
 
@@ -94,7 +94,7 @@ Når du har bogført projektkladdelinjer, kan du se de planlægningslinjer, der 
 2. Vælg en relevant projektkladde, og vælg derefter handlingen **Poster**.  
 3. På siden **Projektposter** skal du vælge handlingen **Vis tilknyttede projektplanlægningslinjer**.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Projektstyring](projects-manage-projects.md)  
 [Finans](finance.md)  

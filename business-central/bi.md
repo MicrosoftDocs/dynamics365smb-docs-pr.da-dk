@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Finansanalyser i Business Central
+# <a name="financial-analytics-in-business-central"></a>Finansanalyser i Business Central
 
 Virksomheder indsamler en enorm mængde data under daglige aktiviteter, der understøtter værdifuld business intelligence (BI) for beslutningstagere: 
 
@@ -33,7 +33,7 @@ Hver af disse funktioner har sine egne fordele og ulemper afhængigt af typen af
 
 I denne artikel introduceres det, at du kan bruge disse analytiske funktioner til at få økonomisk indsigt.
 
-## Analysebehov inden for økonomi
+## <a name="analytics-needs-in-finance"></a>Analysebehov inden for økonomi
 
 Når man tænker på analysebehov inden for økonomi, kan det hjælpe at bruge en mental model baseret på personer beskrevet på et højt niveau og deres forskellige analysebehov.
 
@@ -49,7 +49,7 @@ Mennesker i forskellige roller har forskellige behov, når det kommer til data, 
 |Økonomistyring | Tendenser, resuméer | Indbyggede administrative rapporter <br> Ad hoc-analyse      | 
 |Bogholder         | Detaljerede data     | Indbyggede driftsrapporter <br> Opgavedata på skærmen |
 
-## KPI'er for økonomi
+## <a name="finance-kpis"></a>KPI'er for økonomi
 
 En KPI (Key Performance Indicator) er en målbar værdi, der viser, hvor effektivt du når dine mål. I økonomi bruger folk ofte følgende KPI'er til at overvåge deres organisations økonomiske sundhed:
 
@@ -67,7 +67,7 @@ En KPI (Key Performance Indicator) er en målbar værdi, der viser, hvor effekti
 For more information, see [Financial KPIs in Business Central](bi-finance-kpis.md) 
 -->
 
-## Brug af financial Reporting til produktion af årsregnskaber og KPI'er
+## <a name="using-financial-reporting-to-produce-financial-statements-and-kpis"></a>Brug af financial Reporting til produktion af årsregnskaber og KPI'er
 
 Du kan bruge **finansrapporter** til at få indsigt i de finansielle oplysninger, der er gemt i din kontoplan (COA). Du kan konfigurere finansrapporter til at analysere tal i finanskonti og sammenligner finansposter med budgetposter. Resultaterne vises i diagrammer og rapporter på hjemmesiden, f.eks. tabellen Likviditet og resultatopgørelsen og balancerapporterne.
 
@@ -87,13 +87,13 @@ Den følgende tabel indeholder en opgavesekvens i Financial Reporting med links 
 | Oprette visninger for at analysere data vha. dimensioner.|[Analysere data efter dimensioner](bi-how-analyze-data-dimension.md)|
 | Oprette nye analyserapporter for salg, køb og lager og oprette analyseskabeloner. |[Oprette analyserapporter](bi-how-create-analysis-views-reports.md)|
 
-## Økonomirapportering på tværs af afdelinger eller juridiske enheder
+## <a name="finance-reporting-across-business-units-or-legal-entities"></a>Økonomirapportering på tværs af afdelinger eller juridiske enheder
 
 Nogle organisationer bruger [!INCLUDE [prod_short](includes/prod_short.md)] i flere afdelinger eller juridiske enheder. Andre bruger [!INCLUDE [prod_short](includes/prod_short.md)] i datterselskaber, der skal rapportere til overordnede organisationer. [!INCLUDE [prod_short](includes/prod_short.md)] giver bogholdere værktøjer, der kan hjælpe dem med at overføre finansposter fra to eller flere regnskaber (datterselskaber) til et konsolideret regnskab.  
 
 Flere oplysninger i [Virksomhedskonsolidering](finance-consolidated-company-reporting.md).
 
-## Ad hoc-analyse af finansdata
+## <a name="ad-hoc-analysis-of-finance-data"></a>Ad hoc-analyse af finansdata
 
 Nogle gange skal du bare kontrollere, om tallene tilføjes korrekt, eller hurtigt bekræfte et tal. Følgende funktioner er gode til ad hoc-analyser:
 
@@ -114,7 +114,7 @@ På samme måde kan du bruge handlingen **Åbn i Excel** til at åbne en listesi
 <!-- Not ready yet
 For more information on how to do ad-hoc analysis on ledgers, see [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md). 
 -->
-## Indbyggede økonomiske rapporter
+## <a name="built-in-reports-for-finance"></a>Indbyggede økonomiske rapporter
 
 [!INCLUDE [prod_short](includes/prod_short.md)] indeholder flere indbyggede rapporter, sporingsfunktioner og værktøjer, som kan hjælpe revisorer eller controllere, som er ansvarlige for at rapportere til finansafdelingen.
 
@@ -141,11 +141,11 @@ Du kan finde flere oplysninger i disse oversigter for rapporter, der er relevant
 * [Built-in Tax and VAT reports](tax-and-vat-reports.md) 
 -->
 
-## Opgavesider for økonomi på skærmen
+## <a name="on-screen-finance-task-pages"></a>Opgavesider for økonomi på skærmen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] har et antal sider, der giver dig økonomiske oversigter og opgaver at gøre.
 
-### Vise finansposter og saldi fra siden Kontoplan
+### <a name="show-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Vise finansposter og saldi fra siden Kontoplan
 
 Siden Kontoplan viser alle finanskonti med aggregerede tal på det, der bogføres i finansregnskabet. Fra denne side kan du f.eks. gøre følgende:  
 
@@ -157,13 +157,13 @@ Siden Kontoplan viser alle finanskonti med aggregerede tal på det, der bogføre
 
 Få mere at vide i [Forstå Kontoplanen](finance-general-ledger.md#the-chart-of-accounts).
 
-### Få vist budgetter, og faktiske beløb sammenlignet med budgetterede beløb for alle konti og for flere perioder
+### <a name="view-actual-amounts-compared-to-budgeted-amounts-for-all-accounts-and-for-several-periods"></a>Få vist budgetter, og faktiske beløb sammenlignet med budgetterede beløb for alle konti og for flere perioder
 
 Som et led i indsamling, analyse og deling af virksomhedens data kan du få vist faktiske beløb sammenlignet med budgetterede beløb for alle konti og for flere perioder. Du kan gøre dette fra siden **Kontoplan** ved at vælge handlingen **Finans - saldi/budget**.
 
 Du kan få flere oplysninger ved at gå til [Analyse af faktiske beløb sammenlignet med budgetterede beløb](bi-how-analyze-actual-versus-budget.md).
 
-### Analysere data efter dimensioner
+### <a name="analyze-data-by-dimensions"></a>Analysere data efter dimensioner
 
 Dimensioner er værdier, der kategoriserer poster, så du kan spore og analysere dem i dokumenter som f.eks. salgsordrer. Dimensioner kan f.eks. angive det projekt eller den afdeling, en post kommer fra.  
 
@@ -171,7 +171,7 @@ I stedet for at oprette separate finanskonti for hver afdeling og hvert projekt 
 
 I finansielle analyser er en dimension data, som du kan føje til en finanspost som en slags markør. Disse data bruges til at gruppere finansposter med ens karakteristika, f.eks. debitorer, regioner, produkter og sælger, og disse grupper kan nemt hentes frem til analyse. Du kan bruge dimensioner til poster i kladder, dokumenter og budgetter. Du kan finde flere oplysninger i [Analysere data efter dimensioner](bi-how-analyze-data-dimension.md)
 
-### Analyse af pengestrømme
+### <a name="analyzing-cash-flow"></a>Analyse af pengestrømme
 
 På hjemmesiden Revisor under **Finansydeevne** giver diagrammerne Kassebeholdningsproces, Pengestrøm og Indtægter og udgifter dig måder at analysere pengestrømme på:
 
@@ -189,7 +189,7 @@ Hvis du vil undersøge prognosen ud over prognoseposter, kan du også se pengest
 
 Få mere at vide i [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Håndtere økonomirapportering på tværs af afdelinger eller juridiske enheder](finance-consolidated-company-reporting.md)  
 <!-- [Financial KPIs in Business Central](bi-finance-kpis.md)    -->

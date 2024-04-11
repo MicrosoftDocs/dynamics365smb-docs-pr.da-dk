@@ -11,11 +11,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# Analyse, Business Intelligence og rapporteringsoversigt
+# <a name="analytics-business-intelligence-and-reporting-overview"></a>Analyse, Business Intelligence og rapporteringsoversigt
 
 Små og mellemstore virksomheder afhænger af den indbyggede analyse og rapporteringsfunktioner, de kan bruge som standard til at holde styr på deres forretninger. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder rapporter og analyseværktøjer, der dækker grundlæggende og komplekse forretningsprocesser for sådanne organisationer. Du kan også foretage ad-hoc-analyser direkte fra hjemmesiden.  
 
-## Analysebehov i organisationer
+## <a name="analytics-needs-in-organizations"></a>Analysebehov i organisationer
 
 Når du tænker på analysebehov i organisationer, kan det hjælpe at bruge en mental model baseret på personer beskrevet på et højt niveau og deres forskellige analysebehov.
 
@@ -34,7 +34,7 @@ Brug følgende afsnit til at få mere at vide om, hvordan du kan forbruge data f
 - Ad hoc-analyse
 - Rapporter
 
-## Brug af finansrapporter til udarbejdelse af årsregnskaber og KPI'er
+## <a name="using-financial-reports-to-produce-financial-statements-and-kpis"></a>Brug af finansrapporter til udarbejdelse af årsregnskaber og KPI'er
 
 Funktionen Finansrapporter giver dig indsigt i de finansielle data, der er gemt i din kontoplan. Du kan konfigurere finansrapporter til at analysere tal i finanskonti og sammenligner finansposter med budgetposter.
 
@@ -44,7 +44,7 @@ Dimensioner spiller en vigtig rolle i Business Intelligence. En dimension er dat
 
 Du kan få mere at vide om regnskabsopgørelser og KPI'er ved at gå til [Brug af finansrapporter til udarbejdelse af årsregnskaber og KPI'er](bi.md).
 
-## Bruge nøgletal til at overholde din virksomheds mål
+## <a name="using-key-performance-indicators-to-meet-your-business-goals"></a>Bruge nøgletal til at overholde din virksomheds mål
 
 En KPI (Key Performance Indicator) er en målbar værdi, der viser, hvor effektivt du når dine mål. Tænk på KPI'er som din virksomheds scorecard, en måde at måle, om du leverer på dine mål.
 
@@ -59,7 +59,7 @@ Identifikation og sporing af KPI'er fortæller dig, om din virksomhed er på ret
 
 Du kan få mere at vide om KPI'er ved at gå til [Bruge nøgletal (KPI'er) til at overholde din virksomheds mål](./analytics-about-kpis.md)
 
-## Ad hoc-dataanalyse
+## <a name="ad-hoc-data-analysis"></a>Ad hoc-dataanalyse
 
 Nogle gange vil du måske bare tjekke, om tallene er korrekte, hurtigt bekræfte eller aflive en hypotese om virksomheden eller måske kigge efter uregelmæssigheder i dine økonomiske data. I forbindelse med ad hoc-analyser har du muligvis ikke en indbygget rapport, der hjælper dig med at besvare dine spørgsmål. Brug disse to funktioner til ad hoc-analyser:
 
@@ -79,7 +79,7 @@ På samme måde kan du bruge handlingen **Åbn i Excel** til at åbne en listesi
 
 Du kan få flere oplysninger om ad hoc-analyser ved at gå til [Ad hoc-dataanalyse](reports-adhoc-analysis.md).
 
-## Rapporter
+## <a name="reports"></a>Rapporter
 
 En rapport i [!INCLUDE[prod_short](includes/prod_short.md)] indsamler oplysninger baseret på et nærmere angivet sæt kriterier. Rapporter organiserer og præsenterer oplysningerne i et læsevenligt format, som du kan bruge i Excel, udskrive eller gemme som en fil.  
 
@@ -105,7 +105,7 @@ Følgende tabel indeholder artikler om, hvordan du bruger indbyggede rapporter i
 | Få mere at vide om, hvilke indbyggede rapporter der er tilgængelige i [!INCLUDE[prod_short](includes/prod_short.md)]. |[Rapportoversigt](reports-available-reports.md)| 
 | Brug rapportoversigten til at se alle indbyggede rapporter. | [Udforske rapporter pr. rolle](ui-role-explorer.md) |
 
-## Eksterne business intelligence- og rapporteringsværktøjer
+## <a name="external-business-intelligence-and-reporting-tools"></a>Eksterne business intelligence- og rapporteringsværktøjer
 
 Hvis du foretrækker at bruge business intelligence-værktøjer, der ikke er integreret i [!INCLUDE[prod_short](includes/prod_short.md)], indeholder følgende tabel links til vejledning om værktøjer og måder at bruge eksterne værktøjer på.
 
@@ -117,7 +117,7 @@ Hvis du foretrækker at bruge business intelligence-værktøjer, der ikke er int
 | Analysere Business Central-data med Microsoft Fabric| [Introduktion til Microsoft Fabric og Business Central](admin-fabric.md) |
 | Læse data fra Business Central ved hjælp af API'er | [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Bruge Financial Reporting til produktion af årsregnskaber og KPI'er](bi.md)  
 [Bruge nøgletal (KPI'er) til at overholde din virksomheds mål](analytics-about-kpis.md)  

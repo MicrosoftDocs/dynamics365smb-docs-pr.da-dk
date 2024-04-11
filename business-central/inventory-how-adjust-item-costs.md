@@ -10,7 +10,7 @@ ms.date: 03/08/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Justere varepriser
+# <a name="adjust-item-costs"></a>Justere varepriser
 
 Kostprisen for en vare (lagerværdi), du køber og senere sælger, kan ændres i varens levetid, fordi f.eks. en fragtomkostning føjes til købsprisen, når du har solgt varen. Omkostningsregulering er især relevant i de situationer, hvor du sælger varer, inden du fakturerer købet af varerne. Hvis du altid vil kende den korrekte lagerværdi, skal du regelmæssigt regulere varepriser. Rigtige kostpriser er med til at sikre, at salgs- og indtjeningsstatistikkerne er opdateret, og at finansielle nøgletal er korrekte. Du kan finde flere oplysninger i [Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md).
 
@@ -28,13 +28,13 @@ Hvis du bruger kostmetoden Gennemsnit, beregnes en vares kostpris som den gennem
 
 Regulering af kostpriser behandler kun de værdiposter, der ikke er reguleret. I en situation, hvor ændrede indgående kostpriser skal overføres til relaterede udgående poster, oprettes der nye reguleringsværdiposter. Reguleringsværdiposterne er baseret på oplysningerne i de oprindelige værdiposter, men indeholder reguleringsbeløbet. Omkostningsreguleringsfunktionen bruger bogføringsdatoen for den oprindelige værdipost i justeringsposten, medmindre den dato er inden for en lukket lagerperiode. Hvis det er tilfældet, bruges startdatoen for den næste åbne lagerperiode. Hvis der ikke anvendes lagerperioder, er det datoen i feltet **Bogf. tilladt fra** på siden **Regnskabsopsætning**, der definerer, hvornår reguleringsposten bogføres.
 
-## Sådan reguleres varekostpriser manuelt
+## <a name="to-adjust-item-costs-manually"></a>Sådan reguleres varekostpriser manuelt
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **uster kostpris – Vareposter**, og vælg derefter det relaterede link.
 2. På siden **Reguler kostværdi - vareposter** skal du angive de varer, hvis omkostninger skal reguleres.
 3. Vælg knappen **OK**.
 
-## Sådan foretages generelle rettelser af købspris
+## <a name="to-make-general-changes-in-the-direct-unit-cost"></a>Sådan foretages generelle rettelser af købspris
 
 Hvis du skal rette købsprisen for en række varer, kan du bruge kørslen **Reguler varepriser**.  
 
@@ -46,45 +46,45 @@ Kørslen bruges til at rette oplysningerne i feltet **Købspris** på varekortet
 4. Angiv f.eks. filtre for at specificere, hvilke varer der skal behandles med kørslen i oversigtspanelet **Vare**.  
 5. Vælg knappen **OK**.  
 
-## Om beregning af kostpris
+## <a name="understanding-unit-cost-calculation"></a>Om beregning af kostpris
 
 Værdien i feltet **Kostpris** på varekortet er baseret på standardkostprisen for varer, der følger standardkostmetoden. For varer, der følger andre kostmetoder, er værdien baseret på en beregning af den disponible lagerbeholdning (fakturerede kostpriser og forventede kostpriser) divideret med varebeholdningen.  
 
 Nedenfor beskrives, hvordan indholdet af feltet **Kostmetode** påvirker beregningen af kostprisen for både køb og salg.  
 
-## Beregne kostpris ved køb  
+## <a name="unit-cost-calculation-for-purchases"></a>Beregne kostpris ved køb
 
 Når du køber varer, overføres værdien i feltet **Sidste købspris** på varekortet altid til feltet **Købspris** på en købslinje eller til linjen **Pris** på en varekladdelinje.  
 
 Det, du vælger i feltet **Kostmetode**, har indflydelse på, hvordan [!INCLUDE[prod_short](includes/prod_short.md)] beregner indholdet i felterne **Kostpris** på linjerne.  
 
-### Kostmetoderne FIFO, LIFO, Specifik eller Gennemsnit  
+### <a name="fifo-lifo-specific-or-average-costing-methods"></a>Kostmetoderne FIFO, LIFO, Specifik eller Gennemsnit
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bruger følgende formel til at beregne indholdet af feltet **Kostpris RV** på købslinjen eller indholdet af feltet **Kostpris** på varekladdelinjen:  
 
 Kostpris (RV) = (Direkte kostpris - (Fakturarabatbeløb/Antal)) x (1 + Omkostningspct./100) + IPO-bidrag  
 
-### Standardkostmetoden  
+### <a name="standard-costing-method"></a>Standardkostmetoden
 
 Feltet **Kostpris (RV)** på købslinjen eller feltet **Kostpris** udfyldes på varekladdelinjen ved at kopiere værdien i feltet **Kostpris** på varekortet. Hvis du bruger standardkostmetoden, er værdien altid baseret på standardkostprisen.  
 
 Når du bogfører et køb, kopieres kostprisen fra købslinjen eller varekladdelinjen til købsfakturaposten. Den vises på varens postoversigt.  
 
-### Alle kostmetoder  
+### <a name="all-costing-methods"></a>Alle kostmetoder
 
 Kostprisen fra kildedokumentlinjen bruges til at beregne værdien i feltet **Kostbeløb faktisk** eller, hvis det er relevant, feltet **Kostbeløb forventet**, der er forbundet med denne varepost. Kostprisen medtages i beregningen, uanset hvilken kostmetode varen har.  
 
-## Beregne kostpris ved salg  
+## <a name="unit-cost-calculation-for-sales"></a>Beregne kostpris ved salg
 
 Når du sælger varer, overføres kostprisen altid fra feltet **Kostpris** på varekortet til salgslinjen eller varekladdelinjen.  
 
 Når du bogfører, overføres kostprisen til salgsfakturaposten, og den kan ses på varens postoversigt. [!INCLUDE[prod_short](includes/prod_short.md)] bruger kostprisen fra kildedokumentlinjen til at beregne indholdet af feltet **Kostbeløb faktisk** eller, hvis det er relevant, feltet **Kostbeløb forventet** i den værdipost, der er forbundet med denne varepost.  
 
-## Spore vareprisreguleringer
+## <a name="track-item-cost-adjustments"></a>Spore vareprisreguleringer
 
 Der kan være mange årsager til, at vareomkostningerne ændrer sig, så det er vigtigt, at du kan holde styr på vareprisreguleringer. Brug siden **Regulering af lageromkostninger** til at administrere og overvåge omkostningsreguleringsprocessen. På denne side vises varer sammen med deres omkostningsparametre og status for omkostningsregulering. Du kan filtrere listen for at fokusere på varer, der kræver regulering, eller som ikke er medtaget i omkostningsreguleringen. Du kan få mere at vide om sporing af omkostningsreguleringer ved at gå til [Spore vareprisreguleringer](finance-track-inventory-costs.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  

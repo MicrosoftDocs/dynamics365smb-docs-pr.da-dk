@@ -10,18 +10,18 @@ ms.date: 03/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Opret serviceartikler
+# <a name="create-service-items"></a>Opret serviceartikler
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] refererer termen "serviceartikel" til udstyr eller varer, der kræver service. Når du opretter en serviceordre, kan du angive de varer, der har brug for service. I ordren kan du knytte en serviceartikel til en vare på lageret eller en serviceartikelgruppe.
 
 Når du modtager en vare, der kræver service, kan du registrere den som en serviceartikel. Dette kan gøres på flere måder. Du kan f.eks. oprette en serviceartikel på siden **Serviceartikler** eller som en del af en anden proces, f.eks. når du arbejder med en serviceordre.
 
-## Oprette en serviceartikel
+## <a name="to-create-a-service-item"></a>Oprette en serviceartikel
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceartikler** og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Sådan oprettes serviceartikler fra serviceordrer
+## <a name="to-create-service-items-within-a-service-order"></a>Sådan oprettes serviceartikler fra serviceordrer
 
 Når du modtager artikler, som du vil registrere som serviceartikler, kan du oprette dem som serviceartikler på siderne **Serviceordre** eller **Servicetilbud**.  
 
@@ -31,7 +31,7 @@ Når du modtager artikler, som du vil registrere som serviceartikler, kan du opr
 
     Der tildeles et nummer til serviceartiklen, og der oprettes et serviceartikelkort. Feltet **Serviceartikelnr.** udfyldes med nummeret på den nye serviceartikel.
 
-## Oprette en serviceartikel ved levering af varer
+## <a name="to-create-a-service-item-when-shipping-items"></a>Oprette en serviceartikel ved levering af varer
 
 Når du leverer varer enten ved at bogføre salgsordrer eller salgsfakturaer, registreres de leverede varer automatisk som serviceartikler, hvis følgende betingelser er opfyldt. Varerne skal høre til en serviceartikelgruppe, hvor afkrydsningsfeltet **Opret serviceartikel** er markeret. Hvis varerne har serienumre registreret på siden Varesporingslinje, kopieres disse oplysninger automatisk til feltet **Serienr.** på serviceartikelkortet ved oprettelse af serviceartikler.  
 
@@ -48,7 +48,7 @@ Nedenstående fremgangsmåde viser, hvordan du kan oprette serviceartikler, når
 >
 > Hvis varen er en stykliste, og du ikke har udfoldet styklisten, oprettes der en serviceartikel til den på de samme betingelser for serviceartikelgruppen og eventuelt betingelsen for serienumre.  
 
-## Sådan indsættes startgebyrer for serviceartikler
+## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Sådan indsættes startgebyrer for serviceartikler
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceopgaver** og vælg derefter det relaterede link.
 2. Vælg handlingen **Varekladde**.
@@ -56,7 +56,7 @@ Nedenstående fremgangsmåde viser, hvordan du kan oprette serviceartikler, når
 
     Der indsættes en servicelinje af typen **Omkostning** med startgebyr. Startgebyret gælder den valgte serviceartikel.
 
-## Spærre varer, varevarianter eller bestemte serviceartikler
+## <a name="block-items-item-variants-or-specific-service-items"></a>Spærre varer, varevarianter eller bestemte serviceartikler
 
 Du kan forhindre, at varer, varevarianter eller serviceartikler bruges i servicestyringstransaktioner, f.eks. servicekontrakter, serviceordrer og servicefakturaer. Dette kan være nyttigt, hvis du vil begrænse tilgængeligheden af visse varer eller serviceartikler til serviceformål, f.eks. på grund af ophørt support, begrænset lagerbeholdning eller kontraktlige aftaler.
 
@@ -79,7 +79,7 @@ Hvis du derudover har servicekontrakter, servicekontrakttilbud eller serviceordr
 - **Frigiv til levering** eller **Bogfør** på siden **Serviceordre**.
 - **Bogfør** på siden **Servicefaktura**.
 
-### Spærre en serviceartikel
+### <a name="block-a-service-item"></a>Spærre en serviceartikel
 
 Hvis du vil spærre en serviceartikel, så den ikke kan bruges i servicestyringstransaktioner, skal du vælge en af følgende indstillinger i feltet **Spærret** på siden **Serviceartikelkort**:
 
@@ -107,14 +107,14 @@ Du kan også få vist de spærrede serviceartikler ved at anvende et filter på 
 - Serviceart. - garanti udløbet (rapport 5937)
 - Serviceavance (serviceart.) (rapport 5938)
 
-### Dataopgradering
+### <a name="data-upgrade"></a>Dataopgradering
 
 Denne funktion kræver ikke yderligere konfiguration. Men hvis du opgraderer [!INCLUDE [prod_short](includes/prod_short.md)], skal du være opmærksom på følgende:
 
 - Hvis du har varer, varevarianter eller vareskabeloner, hvor til/fra-knappen **Salg er spærret** er slået til, slås feltet **Servicen er spærret** også til for disse poster under opgraderingen. Dette sikrer, at den eksisterende logik for spærring af salg også gælder for servicestyringstransaktioner.
 - Data opgraderes kun, hvis du har mindst én serviceartikel i virksomheden, hvilket betyder, at du bruger servicestyringsfunktionen og har brug for dataopgraderingen. Hvis du ikke har serviceartikler, springes dataopgraderingen over, og til/fra-knappen **Servicen er spærret** er som standard slået fra for alle varer, varevarianter og vareskabeloner.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere serviceartikler og serviceartikelkomponenter](service-how-setup-service-items.md)  
 [Konfigurere Service](service-setup-service.md)  

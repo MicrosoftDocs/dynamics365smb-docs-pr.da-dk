@@ -9,7 +9,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Servicestyring
+# <a name="service-management"></a>Servicestyring
 > [!NOTE]
 > Funktioner, der beskrives i dette emne og underordnede emner, er kun synlige i brugergrænsefladen, hvis du har oplevelsen **Premium**. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
 
@@ -35,7 +35,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Oprette og administrere aftaler mellem dig og dine kunder.|[Opfylde servicekontrakter](service-fulfill-service-contracts.md)|  
 |Levere service til kunder og fakturere serviceordrer.|[Levering af service](service-deliver-service.md)|  
 
-## Se også  
+## <a name="see-also"></a>Se også
 [Administrere tilgodehavender](receivables-manage-receivables.md)   
 [Sager](projects-how-create-jobs.md)   
 [Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)
