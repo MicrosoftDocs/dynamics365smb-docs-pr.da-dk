@@ -1,13 +1,13 @@
 ---
 title: Synkronisere og opfylde salgsordrer
 description: Konfigurere og køre import og behandling af salgsordrer fra Shopify.
-ms.date: 06/06/2023
+ms.date: 03/25/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ---
 
 # Synkronisere og opfylde salgsordrer
@@ -30,10 +30,12 @@ Aktiver **Automatisk oprettelse af ordrer** for at oprette salgsdokumenter autom
 
 Hvis du automatisk vil frigive et salgsdokument, skal du aktivere funktionen **Frigiv salgsordrer automatisk**.
 
+Hvis du ikke vil sende automatiske leveringsbekræftelser til kunder, skal du slå **Send leveringsbekræftelse** fra. Det kan være nyttigt at slå til/fra-knappen fra, hvis du sælger digitale varer eller vil bruge en anden meddelelsesmekanisme.
+
 Hvis du vælger feltet **Shopify -ordrenr. på dokumentlinjen**, indsætter [!INCLUDE [prod_short](../includes/prod_short.md)] salgslinjer af typen **Bemærkning** med ordrenummeret Shopify.
 
->[!NOTE]
->Salgsdokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)] linker til Shopify-ordren, og du kan tilføje **Shopify-ordrenr.** feltet til liste- eller kortsider for salgsordrer, fakturaer og leveringer. Hvis du vil vide mere om tilføjelse af et felt, skal du gå til [Start tilpasning ved hjælp af tilpasningstilstand](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
+> [!NOTE]
+> Salgsdokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)] linker til Shopify-ordren, og du kan tilføje **Shopify-ordrenr.** feltet til liste- eller kortsider for salgsordrer, fakturaer og leveringer. Hvis du vil vide mere om tilføjelse af et felt, skal du gå til [Start tilpasning ved hjælp af tilpasningstilstand](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
 
 I feltet **Momsområdeprioritet** kan du prioriterer, hvordan du vil vælge skatteområdekode for adresser på ordrer. Den importerede Shopify-ordre viser oplysninger om moms. Momsen genberegnes, når du opretter salgsdokumenter, så det er vigtigt, at moms- eller skatteindstillingerne er korrekte i [!INCLUDE[prod_short](../includes/prod_short.md)]. Du kan finde flere oplysninger om moms i [Konfigurere moms for Shopify-forbindelsen](setup-taxes.md).
 
@@ -131,7 +133,11 @@ Siden **Shopify-ordre, der skal importeres**, er nyttig til fejlfinding af impor
 Når importen er fuldført, kan du udforske Shopify-ordren og finde alle relaterede oplysninger, f. eks. betalingstransaktioner, forsendelsesomkostninger, følgerne, risikoniveauet, ordreattributter og koder eller opfølgningerne, hvis ordren allerede er opfyldt i Shopify. Du kan også se enhver ordrebekræftelse, der er sendt til debitoren, ved at vælge handlingen **Shopify statusside**.
 
 > [!NOTE]  
-> Du kan navigere til vinduet **Shopify Ordrer** direkte, og du kan se ordrer med status *Åben* fra alle butikker. Hvis du vil have vist de færdige ordrer, skal du åbne siden **Shopify Ordrer** fra vinduet specifikt **Shopify Butikskort**-vindue.
+> Du kan navigere til vinduet **Shopify Ordrer** direkte, og du kan se ordrer med status *Åben* fra alle butikker. Hvis du vil have vist de færdige ordrer, skal du åbne siden **Shopify-ordrer** fra den specifikke **Shopify Butikskort**-side.
+
+Før der oprettes salgsdokumenter i [!INCLUDE[prod_short](../includes/prod_short.md)], kan du bruge handlingen **Synkroniseret ordre fra Shopify** på siden **Shopify-ordre** til at importere bestemte ordrer igen.
+
+Du kan også markere en ordre som betalt, hvilket er nyttigt i et B2B-scenarie, hvor betalinger behandles uden for Shopify-kassen. Vælg handlingen **Marker som betalt** på siden **Shopify-ordre**. Du kan også markere en ordre som annulleret for at starte refusionsflowet i Shopify. Vælg handlingen **Annuller ordre** på siden **Shopify-ordre**, udfylde felterne efter behov på siden **Shopify Annuller ordre** og trykke på **OK**. Du skal køre ordresynkronisering for at importere opdateringerne til [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## Opret salgsdokument i Business Central
 
@@ -147,15 +153,17 @@ Hvis til/fra-feltet **Automatisk oprettelse af ordrer** er aktiveret på **Shopi
 
 Hvis Shopify-ordren kræver opfyldelse, oprettes der en **Salgsordre**. For gennemførte Shopify-ordrer, f.eks. ordrer, der kun indeholder et gavekort, eller som allerede er håndteret i Shopify, oprettes **salgsfakturaen**.
 
-Der er nu oprettet et salgsdokument, som kan administreres vha. standard [!INCLUDE[prod_short](../includes/prod_short.md)]-funktionerne.
+Der oprettes et salgsdokument, som kan administreres vha. standard [!INCLUDE[prod_short](../includes/prod_short.md)]-funktionerne.
+
+Hvis du vil genskabe salgsdokumentet, kan du bruge handlingen **Fjern sammenkædning af behandlede dokumenter** på siden **Shopify-ordre**. Bemærk, at denne handling ikke sletter det allerede oprettede salgsdokument. Du skal behandle det manuelt.
 
 ### Administrer manglende kunder
 
-Hvis dine indstillinger forhindrer, at der oprettes en kunde automatisk, og der ikke findes en korrekt eksisterende kunde, kan du manuelt tildele en kunde en Shopify-ordre. Dette kan gøres på et par måder:
+Hvis dine indstillinger forhindrer, at der oprettes en kunde automatisk, og der ikke findes en matchende kunde, kan du manuelt tildele en kunde en Shopify-ordre. Du kan knytte kunder til ordrer på flere måder:
 
-* Du kan knytte feltet **Sælg til kundenr.** og **Faktureres til kundenr.** direkte i siden **Shopify-ordrer** ved at vælge en kunde på listen over eksisterende kunder.
-* Du kan vælge en debitorskabelonkode, oprette og tildele debitoren via handlingen **Opret ny debitor** på siden **Shopify-ordrer**. Bemærk, at Shopify-debitor skal have mindst én adresse. Ordrer, der er oprettet via salgskanalen Shopify POS, mangler ofte adressedetaljer.
-* Du kan knytte en eksisterende debitor til den relaterede **Shopify-kunde** i vinduet **Shopify-kunder** og derefter vælge handlingen **Find tilknytning** på siden **Shopify-ordrer**.
+* Tildel **Kundenr.** og **Faktureres til kundenr.** direkte i siden **Shopify-ordrer** ved at vælge en kunde på listen over eksisterende kunder.
+* Vælg en debitorskabelon, og opret og tildel derefter debitoren via handlingen **Opret ny debitor** på siden **Shopify-ordrer**. Shopify-debitoren skal have mindst én adresse. Ordrer, du opretter via salgskanalen Shopify POS, mangler ofte adressedetaljer.
+* Knyt en eksisterende debitor til den relaterede **Shopify-kunde** på siden **Shopify-kunder**, og vælg derefter handlingen **Find tilknytning** på siden **Shopify-ordrer**.
 
 ### Hvordan connectoren vælger, hvilken kunde der skal bruges
 
@@ -172,6 +180,8 @@ Næste trin afhænger af **Debitortilknytningstype**.
 
 > [!NOTE]  
 > Connectoren bruger oplysninger fra faktureringsadressen og opretter en faktureringskunden i [!INCLUDE[prod_short](../includes/prod_short.md)]. Kunden skal være den samme som den kunde, der faktureres.
+
+For B2B-ordrer er flowet det samme, men connectoren bruger felterne **Standardvirksomhedsnr.**, **Virksomhedsindlæsning fra Shopify**, **Type af virksomhedstilknytning** på siden **Shopify-butikskort**. Bemærk, at der ikke er noget **standardvirksomhedsnummer** i **Shopify-kundeskabelon**, da for B2B forventes det at have navngivne kunder.
 
 ### Forskellige behandlingsregler for ordrer
 
@@ -199,27 +209,32 @@ Hver opgavekø importerer og behandler ordrer inden for de angivne filtre og bru
 
 I Shopify:
 
-|Rediger|Indflydelse for allerede importeret ordre|Indflydelse for den ordre, der importeres for første gang|
+|Rediger|Indvirkning på Shopify-ordrer, der endnu ikke er behandlet i [!INCLUDE[prod_short](../includes/prod_short.md)] | Indvirkning på Shopify-ordrer, der allerede er behandlet i [!INCLUDE[prod_short](../includes/prod_short.md)] |
 |------|-----------|-----------|
-|Ændre opfyldelsesplaceringen | Oprindelig placering er på linjer | Opfyldelse af placering synkroniseres til [!INCLUDE[prod_short](../includes/prod_short.md)].|
-|Redigere en ordre og øge antallet| Ordrehovedet og supplerende tabeller opdateres i [!INCLUDE[prod_short](../includes/prod_short.md)], men linjerne vil ikke.| Den importerede ordre vil bruge et nyt antal|
-|Redigere en ordre og reducere antallet| Ordrehovedet og supplerende tabeller opdateres i [!INCLUDE[prod_short](../includes/prod_short.md)], men linjerne vil ikke.| Den oprindelige ordre bruges i det oprindelige antal, vil feltet Antal, der kan opfyldes indeholde en ny værdi.|
-|Redigere en ordre og fjerne en eksisterende vare | Ordrehoved og supplerende tabeller opdateres i [!INCLUDE[prod_short](../includes/prod_short.md)], men linjerne vil ikke.| Den fjernede vare bliver stadig importeret, men feltet Antal, der kan opfyldes indeholder nul. |
-|Redigere en ordre og tilføje nyt element | Ordrehovedet opdateres, men linjerne vil ikke blive udtaget. | Oprindelige og tilføjede varer vil blive importeret. |
-|Procesrækkefølge: indfri, opdater betalingsoplysninger | Ordrehovedet opdateres, men ikke linjerne. |Ændringen har ingen indflydelse på, hvordan ordren importeres.|
-|Annuller ordre | Ordrehovedet opdateres, men ikke linjerne. |Annullerede ordrer importeres ikke |
+|Ændre opfyldelsesplaceringen | Opfyldelse af placering synkroniseres til [!INCLUDE[prod_short](../includes/prod_short.md)]. | Opfyldelse af placering synkroniseres til [!INCLUDE[prod_short](../includes/prod_short.md)].|
+|Redigere en ordre og øge antallet|Den importerede ordre vil bruge et nyt antal.| Connectoren registrerer ændringer og markerer ordrer. |
+|Redigere en ordre og reducere antallet|Den importerede ordre vil bruge et nyt antal. Shopify-refusion med 0 beløb importeres og ikke kan konverteres til kreditnota.| Connectoren registrerer ændringer og markerer ordrer. |
+|Redigere en ordre og fjerne en eksisterende vare |Det fjernede element importeres ikke. Shopify-refusion med 0 beløb importeres og ikke kan konverteres til kreditnota.| Connectoren registrerer ændringer og markerer ordrer. |
+|Redigere en ordre og tilføje nyt element | Oprindelige og tilføjede varer vil blive importeret. | Connectoren registrerer ændringer og markerer ordrer. |
+|Procesrækkefølge: indfri, opdater betalingsoplysninger | Ordrehovedet opdateres. |Ordrehovedet opdateres. Denne opfyldelse synkroniseres ikke med Shopify.|
+|Annuller betalt ordre | Ordrehovedet opdateres, så det behandles separat |Connectoren registrerer ændringer og markerer ordrer. |
+|Annuller ubetalt ordre | Det fjernede element importeres ikke. Shopify-refusion med 0 beløb importeres og ikke kan konverteres til kreditnota. |Connectoren registrerer ændringer og markerer ordrer. |
 
-Som du kan se, kan det i nogle tilfælde være rimeligt at slette redigeret ordre i [!INCLUDE[prod_short](../includes/prod_short.md)] og importere den som ny.
+Hvis ordren allerede er behandlet i [!INCLUDE[prod_short](../includes/prod_short.md)], viser connectoren følgende fejlmeddelelse: *Ordren er allerede behandlet i Business Central, men der er modtaget en udgave fra Shopify. Ændringer blev ikke overført til den behandlede ordre i Business Central. Opdater de behandlede dokumenter, så de matcher de modtagne data fra Shopify. Hvis du vil gennemtvinge synkroniseringen, skal du bruge handlingen "Synkroniser ordre fra Shopify" på siden Shopify-ordrekort.*
+
+Afhængigt af status for det oprettede salgsdokument kan du udføre følgende handlinger:
+1. Slette oprettede salgsdokumenter
+2. Vælg handlingen **Fjern sammenkædning af behandlede dokumenter** for at nulstille indikatoren **Behandlet**.
+3. Vælg handlingen **Synkroniseret ordre fra Shopify** for at opdatere den individuelle ordre med de seneste data fra Shopify.
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 |Rediger|Indvirkning|
 |------|-----------|
-|Ændre lokationen til en anden lokation, der er knyttet til Shopify-lokationerne. Bogfør levering. | Ordre markeres som opfyldt. Den oprindelige placering anvendes. |
-|Ændre lokationen til en anden lokation, der ikke er knyttet til Shopify-lokationerne. Bogfør levering. | Denne opfyldelse synkroniseres ikke med Shopify. |
+|Skift placering til en anden placering. Bogfør levering. | Ordre markeres som opfyldt. Opfyldelseslokation fra Shopify vil blive brugt. |
 |Reducere antallet. Bogfør levering. | Ordren i Shopify bliver markeret som delvist opfyldt. |
-|Øge antallet. Bogfør levering. | Denne opfyldelse synkroniseres ikke med Shopify. |
-|Tilføj en ny komponent. Bogfør levering. | Ordren i Shopify bliver markeret som opfyldt. Linjer ikke opdateres. |
+|Øge antallet. Bogfør levering. | Denne opfyldelse synkroniseres ikke med Shopify. Det samme er tilfældet, hvis opfyldelsen blev opdelt i Shopify, men behandlet som én linje i [!INCLUDE[prod_short](../includes/prod_short.md)]. |
+|Tilføj en ny komponent. Bogfør levering. | Ordren i Shopify bliver markeret som opfyldt. Nye linjer tilføjes ikke. |
 
 ## Synkronisere leverancer til Shopify
 

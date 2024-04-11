@@ -1,15 +1,15 @@
 ---
-title: Opret direkte levering (indeholder video)
+title: Oprette direkte levering (indeholder video)
 description: 'Beskriver, hvordan du opretter en salgsordre, der er knyttet til en købsordre for at muliggøre levering direkte fra leverandøren til kunden.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: direct shipment
-ms.date: 04/01/2021
+ms.date: 02/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Foretage direkte leveringer
+# Foretage direkte forsendelser
 
 En direkte levering er en levering af varer fra en af dine leverandører direkte til din kunde.
 

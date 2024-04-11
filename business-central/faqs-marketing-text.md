@@ -89,7 +89,6 @@ Funktionen indsamler også data fra den feedback, brugeren kan give, ved hjælp 
 
   Unøjagtige svar kan returneres, når brugere interagerer med systemet på andre sprog end de understøttede. Der kan også genereres unøjagtig tekst, når brugerens sprog og primære datasprog i [!INCLUDE[prod_short](includes/prod_short.md)] databasen ikke er identiske.
 
-
 ## Hvilke driftsmæssige faktorer og indstillinger gør det muligt at bruge systemet på en effektiv og ansvarlig måde?
 
 Der er nogle ting, du kan gøre for at få det optimale ud af funktionen:

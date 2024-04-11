@@ -24,7 +24,7 @@ En vigtig del af enhver virksomhed er at yde løbende service til kunderne, og d
 
 Derudover kan du standardisere brug af koder, oprette kontrakter, implementere rabatpolitikker og oprette rutekort for servicemedarbejdere.  
 
-Generelt er der to aspekter i servicestyring: Konfiguration og opsætning af systemet og brug af systemet til prissætning, kontrakter, ordrer, allokering af servicepersonale og sagsplanlægning.  
+Generelt er der to aspekter i servicestyring: Konfiguration og opsætning af systemet og brug af systemet til prissætning, kontrakter, ordrer, allokering af servicepersonale og projektplanlægning.  
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
 

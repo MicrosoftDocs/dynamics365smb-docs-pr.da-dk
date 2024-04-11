@@ -133,7 +133,7 @@ Hvis brugeren ikke havde foretaget fast udligning mellem købskreditnotaen og k�
 
 I følgende tabel vises resultatet i værdiposterne for varen, hvis trin 2 er udført i det forrige scenario uden en fast udligning.  
 
-|Bogføringsdato|Vareposttype|Værdiansat antal|Kostbeløb (faktisk)|Udl.varepostløbenr.|Værdisat efter gnsn. kostpris|Varepostløbenr.|Løbenummer|  
+|Bogføringsdato|Vareposttype|Værdiansat antal|Kostbeløb (faktisk)||Værdisat efter gnsn. kostpris|Varepostløbenr.|Postnr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Køb|1|200.00||Nej|1|1|  
 |01-01-20|Køb|1|1000.00||Nej|2|2|  

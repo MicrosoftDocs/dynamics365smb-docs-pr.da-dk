@@ -6,7 +6,7 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'trade, sell'
 ms.search.form: 253
-ms.date: 09/02/2022
+ms.date: 01/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---

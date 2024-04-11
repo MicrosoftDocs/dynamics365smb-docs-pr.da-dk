@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: rfq
 ms.search.form: '142, 800, 806'
-ms.date: 06/23/2021
+ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -27,10 +27,10 @@ Følgende fremgangsmåde viser, hvordan en pakke spores fra en bogført salgslev
 
 ## Se også
 
-[Oprette speditører](sales-how-to-set-up-shipping-agents.md)  
+[Konfigurere speditører](sales-how-to-set-up-shipping-agents.md)  
 [Salg](sales-manage-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  
-[Sende dokumenter som mail](ui-how-send-documents-email.md)  
+[Sende dokumenter via mail](ui-how-send-documents-email.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

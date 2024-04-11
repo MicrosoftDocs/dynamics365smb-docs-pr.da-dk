@@ -6,7 +6,7 @@ metadata:
   ms.topic: faq
   ms.service: dynamics-365-business-central
   ms.search.keywords: 'phone, tablet'
-  ms.date: 09/21/2023
+  ms.date: 03/18/2024
   ms.author: bholtorf
   ms.reviewer: jswymer
   ms.custom: bap-template
@@ -36,9 +36,7 @@ sections:
           | Aktivitetsgrupper | Det er kun **Hjem**-aktivitetsgruppen, der vises. | Det er kun **Hjem**-aktivitetsgruppen, der vises. | **Hjem** og **Bogførte dokumenter** i `Sales Order Processor`-rollecenteret. |  |
           | Vælge flere poster på lister | Ikke tilgængelig | Ikke tilgængelig | <kbd>Ctrl</kbd>+<kbd>A</kbd> eller <kbd>Ctrl</kbd>+<kbd>klik</kbd> på rækker på en liste i browseren. |
           | Handlinger på handlingslinjen | Der vises kun promoverede handlinger. | Der vises kun promoverede handlinger. |  |
-          | Faktabokse | Vises ikke på listesider eller regnearkssider. | Vises ikke på listesider eller regnearkssider. | `Customer`-liste i `Small Business`-rollecenter. |
           | Avancerede filtre | Der er ingen tilgængelige kolonnespecifikke filtreringer. | Der er ingen tilgængelige kolonnespecifikke filtreringer. | På `Customer`-listesiden. |
-          | Fortæl mig | Det skal være aktiveret i [Funktionsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management) ved hjælp af kontakten **Funktion: Søg efter sider og data i mobilappen**. Afsnittet **Hent fra Microsoft AppSource** i resultaterne for apps er ikke tilgængeligt. | Samme som tabletter | Gå til [Søg efter sider og oplysninger med Fortæl mig](ui-search.md). |  |
           | Rollestifinder | Ikke tilgængelig. | Ikke tilgængelig. | Gå til [Søg efter sider med Rollestifinder](ui-role-explorer.md). |
           | Felter i oversigtspaneler | Felterne i oversigtspaneler på listesider vises ikke. Kun kontrolelementet forstærker vises i sidens indholdsområde. | Ikke tilgængelig |  |
           | Vælg fra komplet liste | Ikke tilgængelig for opslag. Brugere kan ikke udføre handlinger på en opslags side, og de kan ikke få adgang til alle poster. | Ikke tilgængelig for opslag. Brugere kan ikke udføre handlinger på en opslags side, og de kan ikke få adgang til alle poster. | På `Item Card`, når der vælges **basisenheder**. |
@@ -46,7 +44,6 @@ sections:
           | Slå op | Tilgængelig. | Tilgængelig med forskellen, som avancerede og enkle opslag opfører sig på samme måde i telefonen. Opslaget viser ikke kortet, vis faktabokse eller feltgrupper. | Gå til eksempler på `Customer Card`-siden. |
           | Matrix kontrolelementer | Ikke tilgængelig | Ikke tilgængelig | Gå til eksempel i `G/L Budget`. |
           | Fildownload | Tilgængelig. Der kan ikke hentes flere filer på samme tid. | Tilgængelig. Der kan ikke hentes flere filer på samme tid. | `Trial Balance`-rapport i afkrydsningsfeltet i **Udskriv til Excel**. |
-          | Kladdesider | Tilgængelig. | Ikke tilgængelig - der vises en fejlmeddelelse. | `Sales Price`-kladde eller `Cash Flow`-regneark. |
           | Liste | Tilgængelig. | Tilgængelig, med den difference, der vises i et fysisk layout. | Debitor- eller salgsordresider. |
           | Indrykning i forstærkerkontrol | Tilgængelig. | Ikke tilgængelig Forstærkerkontrollen gengives som et normalt fladt fysisk layout. | Kontoplan- og kontaktlistesider. |
           | Automatisk inputfokus på første redigerbare felt på en side | Ikke tilgængelig | Ikke tilgængelig | `Customer Card`-side.<BR /><BR />I browseren vil fokus automatisk være på det første redigerbare felt (f. eks `Name`-feltet), så du kan ændre værdien med det samme.<BR /><BR />I apps til tablet og telefon er dette felt ikke i fokus. I stedet skal du manuelt markere feltet for at foretage ændringer.|

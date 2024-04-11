@@ -35,7 +35,7 @@ Hvis du vil bruge en grundlæggende prissætningsmodel, skal du kun angive en sa
 * Min. antal
 * Datoer, der definerer den periode, som priserne gælder for.
 
-Når du har konfigurere specielle priser, kan [!INCLUDE[prod_short](includes/prod_short.md)] beregne den bedste pris på salgs-og købsdokumenter og på sags- og varekladdelinjer. Flere oplysninger i [Bedste prisberegning](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Når du har konfigurere specielle priser, kan [!INCLUDE[prod_short](includes/prod_short.md)] beregne den bedste pris på salgs- og købsdokumenter og på projekt- og varekladdelinjer. Flere oplysninger i [Bedste prisberegning](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Du kan konfigurere to typer til salgsrabat:
 
@@ -93,7 +93,7 @@ Når du aktiverer funktionsopdateringen **Ny salgsprisoplevelse** på siden **Fu
   * Salg af sag
   * Køb af sag
 
-  Du kan redigere alle priser for disse områder på siden **Priskladde**. Standardprislisterne angives i siderne **Konfiguration af salgsopsætning**, **Konfiguration af købsopsætning** og **Sagsopsætning**.
+  Du kan redigere alle priser for disse områder på siden **Priskladde**. Standardprislisterne angives i siderne **Konfiguration af salgsopsætning**, **Konfiguration af købsopsætning** og **Projektopsætning**.
 
 > [!NOTE]
 > Hvis der kun er angivet priser på vare-eller ressourcekort, vil standard prislisterne ikke blive udfyldt med disse priser under dataopdateringen. Du kan dog åbne en af standardprislisterne eller siden **Priskladde** og bruge handlingen **Foreslå linjer** til at tilføje de priser, der er angivet på vare-eller ressourcekortene.
@@ -107,7 +107,7 @@ Når du aktiverer funktionsopdateringen **Ny salgsprisoplevelse** på siden **Fu
 
 Hvis du har mange kombinationer, har du mange prislister.
 
-Hvis du allerede har aktiveret den nye prissætningsoplevelse, kan du oprette prislister manuelt eller angive en eksisterende prisliste som standard. Hvis du vil angive en eksisterende prisliste som standard, skal du aktivere funktionen **Tillad opdatering af standarder** på prislisten. Standardprislisterne angives på siderne **Konfiguration af salgsopsætning**, **Konfiguration af købsopsætning** eller **Sagsopsætning**.
+Hvis du allerede har aktiveret den nye prissætningsoplevelse, kan du oprette prislister manuelt eller angive en eksisterende prisliste som standard. Hvis du vil angive en eksisterende prisliste som standard, skal du aktivere funktionen **Tillad opdatering af standarder** på prislisten. Standardprislisterne angives på siderne **Konfiguration af salgsopsætning**, **Konfiguration af købsopsætning** eller **Projektopsætning**.
 
 ### Redigere aktive prislister
 
@@ -223,7 +223,7 @@ Hvis du vil opdatere priser for flere varer, skal du oprette en ny prisliste og 
 
 ## Beregning af bedste pris
 
-Når du har oprettet special postpriser og linjerabatter for salg og køb, beregner [!INCLUDE[prod_short](includes/prod_short.md)] den bedste pris på salgs-og købsdokumenter og på sags-og varekladdelinjer.
+Når du har oprettet special postpriser og linjerabatter for salg og køb, beregner [!INCLUDE[prod_short](includes/prod_short.md)] den bedste pris på salgs-og købsdokumenter og på projekt- og varekladdelinjer.
 
 Den bedste pris er den lavest tilladte pris med den størst tilladte linjerabat på en givet dato. [!INCLUDE[prod_short](includes/prod_short.md)] beregner bedste priser, når enhedsprisen og linjerabatprocenten for varer indsættes på nye dokument- og kladdelinjer.
 

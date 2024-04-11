@@ -8,15 +8,17 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 10/25/2023
+ms.date: 03/27/2024
 ms.custom: bap-template
 ---
 
 # Afstemme bankkonti med Copilot (forhåndsversion)
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
 
 I denne artikel forklares det, hvordan du bruger hjælp til afstemning af bankkonto som en hjælp til at afstemme banktransaktioner med finansposter i Business Central.
+
+[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 ## Om hjælp til afstemning af bankkonto
 
@@ -25,7 +27,7 @@ Hjælp til bankkontoafstemning er et sæt AI-drevne funktioner, der hjælper dig
 - Forbedret matchning af transaktioner med poster
 
    Du kender måske allerede handlingen **Afstem automatisk** på siden **Bankkontoafstemning**, der automatisk afstemmes med de fleste banktransaktioner med posterne. Vi henviser til denne operation som *automatisk*. Selvom automatch fungerer godt, kan de algoritmer, den bruger, nogle gange resultere i mange ikke-matchede transaktioner. Copilot bruger AI-teknologi til at inspicere resterende transaktioner og identificere flere matches baseret på datoer, beløb og beskrivelser. Hvis flere fakturaer f.eks. blev betalt som et engangsbeløb af en kunde, afstemmer Copilot linjen med det enkelte bankkontoudtog med flere fakturaposter.
-   
+
    Gå til [Afstem bankkonti med Copilot](#reconcile-bank-accounts-with-copilot).
 
 - Foreslåede finanskonti
@@ -34,11 +36,9 @@ Hjælp til bankkontoafstemning er et sæt AI-drevne funktioner, der hjælper dig
   
    Gå til [Overfør ikke-matchede banktransaktioner til foreslåede finanskonti](#transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts).
 
-
-   
 ## Forudsætninger
 
-- Hjælp til afstemning af bankkonto er aktiveret og aktiveret. Denne opgave udføres af en administrator. [Få mere at vide om aktivering af Copilot- og AI-funktioner](enable-ai.md).
+- Hjælp til afstemning af bankkonto er aktiveret. Denne opgave udføres af en administrator. [Få mere at vide om konfigurering af Copilot- og AI-funktioner](enable-ai.md).
 - Bankkonti i Business Central, som du vil afstemme, er knyttet til en onlinebankkonto eller konfigureret med format til import af bankkontoudtog. 
 - Du kender bankkontoafstemning i Business Central som beskrevet i [Afstem bankkonti](bank-how-reconcile-bank-accounts-separately.md). 
 

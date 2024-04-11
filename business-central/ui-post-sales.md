@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.form: '130, 142, 1350'
-ms.date: 04/01/2021
+ms.date: 02/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Bogføring af salg
+# Bogføre salg
 
 I menuen **Bogføring** i et salgsdokument kan du vælge mellem følgende bogføringsfunktioner:
 
@@ -50,7 +50,7 @@ Du kan redigere bestemte felter i bogførte købsdokumenter, f. eks **Pakkespori
 
 [Salg](sales-manage-sales.md)  
 [Bogføre flere dokumenter på én gang](ui-batch-posting.md)  
-[Redigere bogførte dokumenter](across-edit-posted-document.md)  
+[Udskrive bogførte dokumenter](across-edit-posted-document.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
 [Rette eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md)  
 [Søge efter sider og oplysninger med Fortæl mig](ui-search.md)  

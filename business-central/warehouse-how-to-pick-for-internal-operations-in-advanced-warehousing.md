@@ -21,8 +21,8 @@ Når lokationen kræver lagerpluk og lagerleverance, skal du bruge lagerplukdoku
 
 Du kan ikke oprette lagerplukdokumenter fra bunden. Pluk er en del af en arbejdsgang, hvor en person, der behandler en ordre, opretter dem på en Tryk måde, eller lagermedarbejderen opretter den på en pull-måde:
 
-- Du kan bruge handlingen **Opret pluk** på siden **produktionsordren**, **montageordren**, **sagskortet**. Vælg de linjer, der skal plukkes, og forbered plukkene ved at angive, hvilke placeringer der skal tages fra, hvilke placeringer der skal placeres i, og hvor mange enheder der skal håndteres. Placeringerne kan være foruddefineret ved opsætning af lagerstedslokationen eller ressourcen.
-- Når du frigiver **produktionsordrer**, **montageordre**, **sagskort** til lagerstedet, er varerne disponible til pluk. På siden **Plukkladde** kan lagerstedsmedarbejderne bruge handlingen **Hent lagerstedsdokumenter** til at få tildelt de tildelte pluk.
+- Du kan bruge handlingen **Opret pluk** på siden **produktionsordren**, **montageordren**, **projektkortet**. Vælg de linjer, der skal plukkes, og forbered plukkene ved at angive, hvilke placeringer der skal tages fra, hvilke placeringer der skal placeres i, og hvor mange enheder der skal håndteres. Placeringerne kan være foruddefineret ved opsætning af lagerstedslokationen eller ressourcen.
+- Når du frigiver **produktionsordrer**, **montageordre**, **projektkort** til lagerstedet, er varerne disponible til pluk. På siden **Plukkladde** kan lagerstedsmedarbejderne bruge handlingen **Hent lagerstedsdokumenter** til at få tildelt de tildelte pluk.
 
 Hvis du vil plukke eller flytte komponenter til kildedokumenter på en pull-måde, skal du frigive kildedokumentet for at gøre det klar til pluk. Frigiv kildedokumenter for interne operationer på følgende måder.  
 
@@ -52,7 +52,7 @@ Bruge **Flytning (lager)**-dokumenter af varer til at flytte montagekomponenter 
 Brug **Lagerpluk**-dokumenter til at plukke produktionskomponenter i forløbet til produktion.
 
 > [!NOTE]
-> Muligheden for at plukke komponenter til Sagsplanlægningslinjer blev tilføjet i [!INCLUDE[d365fin](includes/d365fin_md.md)] i 2022 udgivelsesbølge 2. Hvis du vil starte med at bruge funktionen, skal din administrator aktivere **Funktionsopdatering: Aktivér lagerbeholdning og lagerpluk fra job** på siden **Funktionsstyring**.
+> Muligheden for at plukke komponenter til projektplanlægningslinjer blev tilføjet i [!INCLUDE[d365fin](includes/d365fin_md.md)] i 2022 udgivelsesbølge 2. Hvis du vil starte med at bruge funktionen, skal din administrator aktivere **Funktionsopdatering: Aktivér lagerbeholdning og lagerpluk fra job** på siden **Funktionsstyring**.
 >
 > Jobbene understøtter ikke avancerede konfigurationer, hvor funktionen **Styret pluk og læg-på-lager** er aktiveret.
 
@@ -135,11 +135,11 @@ Brug **Lagerpluk**-dokumenter til at plukke produktionskomponenter i forløbet t
 
 4. Når du har foretaget plukket og har placeret varerne på rette sted, skal du vælge handlingen **Registrer pluk**.  
 
-    Du kan nu overføre varerne til området og bogføre forbruget eller forbruget for de plukkede komponenter ved at bogføre forbrugskladden, montageordren eller sagskladden. Du kan finde flere oplysninger i følgende artikler:
+    Du kan nu overføre varerne til området og bogføre forbruget eller forbruget for de plukkede komponenter ved at bogføre forbrugskladden, montageordren eller projektkladden. Du kan finde flere oplysninger i følgende artikler:
 
     * [Registrere forbrug og afgang for én frigivet produktionsordrelinje](production-how-to-register-consumption-and-output.md)
     * [Montere varer](assembly-how-to-assemble-items.md)
-    * [Registrere forbrug eller forbrug til sager](projects-how-record-job-usage.md)
+    * [Registrere forbrug eller anvendelse af projekter](projects-how-record-job-usage.md)
 
 ## Træk af komponenter til produktion i en avanceret lageropsætning
 

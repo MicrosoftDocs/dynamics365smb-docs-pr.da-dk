@@ -28,7 +28,7 @@ Du kan tilbageføre poster fra alle **Poster**-sider: Følgende procedure er bas
 > [!NOTE]
 > Din bogføring skal stamme fra en kladdepost.
 >
-> Du kan heller ikke tilbageføre poster, der er bogført med oplysninger fra en sag, eller som har realiserede gevinster og tab inden for samme transaktion.
+> Du kan heller ikke tilbageføre poster, der er bogført med oplysninger fra et projekt, eller som har realiserede gevinster og tab inden for samme transaktion.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Finansposter** , og vælg derefter det relaterede link.
 2. Marker den post, du vil tilbageføre, og vælg derefter handlingen **Tilbagefør transaktion**.

@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 12/08/2023
+ms.date: 03/15/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
@@ -28,6 +28,11 @@ I denne artikel kan du lære, hvordan du analyserer data fra listesider og fores
 > Du bemærker muligvis nogle listesider, der ikke inkluderer parameteren **Analysér**, når du skifter til analysetilstand. Årsagen er, at udviklere kan deaktivere analysetilstand på bestemte sider ved hjælp af egenskaben [AnalysisModeEnabled](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) i AL.
 
 ## Kom i gang
+
+Udfør disse trin for at komme i gang med at analysere data ved hjælp af analysetilstanden.
+
+>[!TIP]
+> Analysetilstand inkluderer også en Copilot-funktion kaldet *analyseassistent*, der kan hjælpe dig med at komme i gang. [Få mere at vide mere om analyseassistent med Copilot](analysis-assist.md).
 
 1. Åbn listesiden eller forespørgslen.
 

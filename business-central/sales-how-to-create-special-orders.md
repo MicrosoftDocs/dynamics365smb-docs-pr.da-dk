@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/23/2021
+ms.date: 02/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -24,11 +24,11 @@ Før du kan bruge denne funktion, skal du oprette den kunde, den leverandør, og
 3.  Udfyld salgslinjen på oversigtspanelet **Linjer**. I feltet **Indkøbskode** skal du vælge en indkøbskode, hvor der er en markering i feltet **Specialordre**.
 
     Du skal nu oprette købsordren fra en indkøbskladde.  
-4. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Indkøbskladde**, og vælg derefter det relaterede link.  
+4. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Indkøbskladder**, og vælg derefter det relaterede link.  
 5. Vælg handlingen **Specialordre**, og vælg derefter handlingen **Hent salgsordrer**.  
 6.  På siden **Hent salgsordrer** skal du vise de resultater, hvor **Bilagsnr.** er nummeret på salgsordren. Vælg knappen **OK**. Der oprettes en indkøbskladdelinje for varen.  
 7.  Vælg **Ny** i feltet **Aktionsmeddelelse** på indkøbskladdelinjen.  
-8.  På siden **Indkøbskladde** skal du vælge handlingen **Udfør aktionsmeddelelse**. Siden **Udfør aktionsmeddl. - Indk.** åbnes. Vælg knappen **OK**.  
+8.  På siden **Indkøbskladder** skal du vælge handlingen **Udfør aktionsmeddelelse**. Siden **Udfør aktionsmeddl. - Indk.** åbnes. Vælg knappen **OK**.  
 
     Du får vist en meddelelse om, at købsordrerne er oprettet. Vælg knappen **OK**.  
 

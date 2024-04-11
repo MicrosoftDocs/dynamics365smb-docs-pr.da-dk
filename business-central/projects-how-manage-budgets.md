@@ -1,46 +1,48 @@
 ---
-title: Konfigurere og administrere et budget for en sag
-description: 'Beskriver, hvordan du planlægger ressourcer og estimerer og styrer omkostningerne for et projekt ved at oprette et budget for hver sag.'
+title: Konfigurere og administrere et budget for et projekt
+description: 'Beskriver, hvordan du planlægger ressourcer og estimerer og styrer omkostningerne for et projekt ved at oprette et budget for hvert projekt.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'project budget, forecast'
 ms.search.form: '1002, 1007'
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Administrere sagsbudgetter
+# Administrere projektbudgetter
 
-Du kan oprette et budget for hver sag. Budgettet bruges til at planlægge de ressourcer, som du kan allokere til en sag. Budgettet kan enten være generelt med få poster, eller det kan indeholde flere poster, der er inddelt i aktivitetsniveauer. Du kan derefter sammenligne de budgetterede beløb med det faktiske forbrug som registreret i sagskladden. Ved at overvåge forskellene mellem det faktiske forbrug og det budgetterede forbrug kan du kontrollere et igangværende projekt og forbedre kvaliteten af fremtidige sager ved at reducere risikoen for at undervurdere omkostningerne.
+Du kan oprette et budget for hvert projekt. Budgettet bruges til at planlægge de ressourcer, som du kan allokere til et projekt. Budgettet kan enten være generelt med få poster, eller det kan indeholde flere poster, der er inddelt i aktivitetsniveauer. Du kan derefter sammenligne de budgetterede beløb med det faktiske forbrug som registreret i projektkladden. Ved at overvåge forskellene mellem det faktiske forbrug og det budgetterede forbrug kan du kontrollere et igangværende projekt og forbedre kvaliteten af fremtidige projekter ved at reducere risikoen for at undervurdere omkostningerne.
 
-Følgende fremgangsmåde beskriver, hvordan du vurderer budgetterede omkostninger under planlægningen. Du kan finde oplysninger om registrering af budgetterede og faktiske sagspriser og -omkostninger i [Registrere forbrug for sager](projects-how-record-job-usage.md).  
+Følgende fremgangsmåde beskriver, hvordan du vurderer budgetterede omkostninger under planlægningen. Du kan finde oplysninger om registrering af budgetterede og faktiske projektpriser og -omkostninger i [Registrere forbrug for projekter](projects-how-record-job-usage.md).  
 
-## <a name="JobBudgetCosts"></a> Sådan vurderes de budgetterede omkostninger for en sag
-Når en debitor vil have oplyst prisen for en sag, som faktureres på basis af forbrug, skal du bestemme det budgetterede kostbeløb for sagen. Det gør du på siden **Sagsopgavelinjer**.
+## <a name="JobBudgetCosts"></a> Sådan vurderes de budgetterede omkostninger for et projekt
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
-2. Åbn en relevant sag.
-3. Vælg en opgavelinje af typen Bogføring, og vælg derefter handlingen **Sagsplanlægningslinjer**.
-4. Udfyld felterne på en ny linje efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]   
+Når en debitor vil have oplyst prisen for et projekt, som faktureres på basis af forbrug, skal du bestemme det budgetterede kostbeløb for projektet. Det gør du på siden **Projektopgavelinjer**.
+
+1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Projekter**, og vælg derefter det relaterede link.  
+2. Åbn et relevant projekt.
+3. Vælg en opgavelinje af typen Bogføring, og vælg derefter handlingen **Projektplanlægningslinjer**.
+4. Udfyld felterne på en ny linje efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 For feltet **Linjetype** skal du se følgende oplysninger.  
 
 | Linjetype | Beskrivelse |
 | --- | --- |
 | **Både budget og fakturerbar** |De kost- og prisbeløb, der er angivet på planlægningslinjen, er de budgetterede kostbeløb for netop denne planlægningslinje. Prisbeløbet vil blive faktureret. |
-| **Budget** |Kunden faktureres ikke for forbruget. Forbrug overføres ikke til en faktura, men vil stadig blive brugt i VIA-beregningen. |
-| **Fakturerbar** |Kunden faktureres for forbruget. Forbrug overføres til fakturaen, baseret på det antal, der er angivet i feltet Antal til overførsel til faktura. |
+| **Budget** |Kunden faktureres ikke for forbruget. Forbrug overføres ikke til en faktura, men bruges til at beregne igangværende arbejde. |
+| **Fakturerbar** |Kunden faktureres for forbruget. Forbrug overføres til fakturaen baseret på det antal, der er angivet i feltet **Antal til overførsel til faktura**. |
 
 > [!NOTE]  
-> Feltet **Planlagt leveringsdato** for planlægningslinjen er den dato, hvor forbrug, der vedrører planlægningslinjen, forventes at fuldføres. Det er også den dato, hvor planlægningslinjen kan overføres til en salgsfaktura og bogføres. <br /><br /> I den underliggende sagsopgave på siden **Jobkort** indeholder felterne **Startdato** og **Slutdato** værdien af feltet **Planlagt leveringsdato** på de tidligste og seneste sagsplanlægningslinjer på den tilhørende **Sagsplanlægningslinjer**-side.
+> Feltet **Planlagt leveringsdato** for planlægningslinjen er den dato, hvor forbrug, der vedrører planlægningslinjen, forventes at fuldføres. Det er også den dato, hvor planlægningslinjen kan overføres til en salgsfaktura og bogføres. <br /><br /> I den underliggende projektopgave på siden **Projektkort** indeholder felterne **Startdato** og **Slutdato** værdien af feltet **Planlagt leveringsdato** på de tidligste og seneste projektplanlægningslinjer på den tilhørende **Projektplanlægningslinjer**-side.
 
 > [!NOTE]  
->   Når du udfylder feltet **Antal**, beregnes og udfyldes alle oplysninger om salgsbeløb og kostbeløb for planlægningslinjen. Du kan redigere dem når som helst.
+> Når du udfylder feltet **Antal**, beregnes og udfyldes alle oplysninger om salgsbeløb og kostbeløb for planlægningslinjen. Du kan redigere dem når som helst.
 
-På siden **Jobkort** , kan du nu se en oversigt over de samlede budgetterede omkostninger, budgetteret pris, fakturerbare omkostninger og fakturerbar pris for hver opgave.
+På siden **Projektkort** , kan du nu se en oversigt over de samlede budgetterede omkostninger, budgetteret pris, fakturerbare omkostninger og fakturerbar pris for hver opgave.
 
-Du kan finde oplysninger om registrering af budgetterede og faktiske sagspriser og -omkostninger i [Registrere forbrug for sager](projects-how-record-job-usage.md).
+Du kan finde oplysninger om registrering af budgetterede og faktiske projektpriser og -omkostninger i [Registrere forbrug for projekter](projects-how-record-job-usage.md).
 
 ## Se også
 
@@ -49,6 +51,5 @@ Du kan finde oplysninger om registrering af budgetterede og faktiske sagspriser 
 [Køb](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

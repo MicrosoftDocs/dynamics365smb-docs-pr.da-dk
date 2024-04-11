@@ -1,11 +1,11 @@
 ---
-title: Udskriv en plukliste fra en salgsordre
+title: Udskrive lagerplukliste fra en salgsordre
 description: 'Du kan udskrive en lagerplukliste direkte i salgsordrer, salg, fakturaer og andre udgående salgsdokumenter.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/25/2021
+ms.date: 02/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---

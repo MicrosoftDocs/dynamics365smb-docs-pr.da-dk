@@ -2,23 +2,27 @@
 title: Indhente udestående beløb
 description: 'Få mere at vide om, hvordan du kan huske dine kunder med udestående betalinger. Sende et kundekontoudtog, udstede en rykker eller sende en rentenota.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '6, 25, 440, 443, 448, 452'
-ms.date: 02/09/2022
-ms.author: bholtorf
+ms.date: 03/13/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Indhente udestående beløb
 
 Likviditetsstyring omfatter kontrol af, om forfaldne beløb er betalt til tiden. Hvis debitorer har forfaldne betalinger, kan du begynde med at sende rapporten **Kontoudtog** som en påmindelse. Alternativt kan du udstede rykkere.
 
-Du kan bruge rykkere til at minde debitorer om forfaldne beløb. Du kan også bruge rykkere til at beregne renter eller gebyrer og inkludere dem på rykkeren. Du kan bruge rentenotaer, hvis du vil debitere debitorerne for renter eller gebyrer uden at rykke for forfaldne beløb.
+Bruge rykkere til at fortælle debitorerne om forfaldne beløb. Du kan også bruge rykkere til at beregne renter eller gebyrer og inkludere dem på rykkeren. Du kan bruge rentenotaer, hvis du vil debitere debitorerne for renter eller gebyrer uden at rykke for forfaldne beløb.
 
 ## Kontoudtog
 
-Fra debitorkortet kan du oprette en kontoudtog med den pågældende debitors transaktioner. Derefter sender du kunden den genererede PDF-fil. Du kan også bruge rapporten **Kontoudtog** til at sende dine kunder en oversigt over deres forretning med dig. Kundekontoudtoget kan sendes til Excel til videre behandling.  
+Fra debitorkortet kan du oprette en kontoudtog for debitorens transaktioner hos dig. Derefter kan du generere en PDF-fil og sende den til kunden. Du kan også bruge rapporten **Kontoudtog** til at sende dine kunder en oversigt over deres forretning med dig. 
+
+> [!TIP]
+> Du kan eventuelt sende kontoudtoget til Excel, så du kan foretage ændringer.  
 
 ### Sådan sendes rapporten Kontoudtog
 
@@ -59,9 +63,10 @@ En rentenota svarer til en faktura. Du kan udfylde et hoved manuelt og lade prog
 
     > [!NOTE]
     > Selvom de vises, vil valg af filtrene **Betaling** og **Kreditnota** dom **Dokumenttype** ikke have nogen virkning, fordi funktionen **Selvom de vises, vil valg** kun håndterer positive beløb.
-5.  Vælg **OK** for at starte kørslen.  
+5. Vælg **OK** for at starte kørslen.  
 
-### Sådan opdateres tekster til rentenotaer  
+### Sådan opdateres tekster til rentenotaer
+
 I nogle tilfælde kan det være nødvendigt at ændre den start- og sluttekst, der er angivet for rentebetingelser. Hvis du gør det på et tidspunkt, hvor du har oprettet, men ikke udstedt rentenotaer, kan du opdatere notaen med den ændrede tekst.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 3.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rentenota**, og vælg derefter det relaterede link.  
@@ -70,9 +75,10 @@ I nogle tilfælde kan det være nødvendigt at ændre den start- og sluttekst, d
 4. Klik på **OK** for at opdatere start- og slutteksten.  
 
 ### Sådan udstedes rentenotaer
+
 Når du har oprettet rentenotaer og foretaget eventuelle nødvendige ændringer, kan du enten udskrive testrapporter eller udstede rentenotaer.
 
-Når man udsteder en rykker, bogføres posterne automatisk svarende til de betingelser, der er angivet på siden **Rentebetingelser**. Denne specifikation angiver, om renter og/eller gebyrer skal bogføres på debitorens konto og på finanskonti. Opsætningen på siden **Debitorbogføringsgrupper** angiver, hvilke konti der bogføres på.
+Når du udsteder en rykker, bogføres posterne i overensstemmelse med de betingelser, der er angivet på siden **Rentebetingelser**. Denne specifikation angiver, om renter og/eller gebyrer skal bogføres på debitorens konto og på finanskonti. Indstillinger på siden **Debitorbogføringsgrupper** bestemmer, hvilke konti renter eller gebyrer skal bogføres på.
 
 Der er oprettet en post på siden **Rykker-/rentenotaposter** for hver debitorpost på rentenotaen.
 
@@ -92,12 +98,16 @@ Desuden kan udstedelse af en rentenota medføre momsposteringer.
 Rentenotaen udskrives enten eller sendes til en mail, der er angivet som en vedhæftet PDF-fil.
 
 ### Sådan annulleres den udstedte rentenota
+
 Hvis rentenotaer er blevet udstedt ved en fejl, kan du annullere dem, før de sendes. Det kan du gøre enten en for en eller som en kørsel.
+
 1. På siden **Udstedte rentenotaer** skal du vælge en eller flere linjer for udstedte rentenotaer, som du vil annullere, og derefter vælge handlingen **Annuller**.
 2. På siden **Annuller udstedte rentenotaer** skal du udfylde felterne efter behov, og derefter vælge knappen **OK**.
 
 ### Sådan får du vist rykker- og rentenotaposter  
-Når du udsteder en rykker, oprettes der en rykkerpost på siden **Rykker-/rentenotaposter** for hver rykkerlinje, der indeholder en debitorpost. Derefter kan du få vist en oversigt over de oprettede rykkerposter for en bestemt debitor.    
+
+Når du udsteder en rykker, oprettes der en rykkerpost på siden **Rykker-/rentenotaposter** for hver rykkerlinje, der indeholder en debitorpost. Derefter kan du få vist en oversigt over de oprettede rykkerposter for en bestemt debitor.
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 5.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.  
 2. Åbn det relevante debitorkort, og vælg derefter handlingen **Poster**.
 3. På siden **Debitorposter** skal du vælge linjen med den post, du vil have vist rykkerposter for, og derefter vælge handlingen **Rykker-/rentenotaposter**.
@@ -113,6 +123,5 @@ Når du udsteder en rykker, oprettes der en rykkerpost på siden **Rykker-/rente
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

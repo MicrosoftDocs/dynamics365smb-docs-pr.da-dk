@@ -1,15 +1,15 @@
 ---
-title: Angive eksterne bilagsnumre
+title: Indsætte eksternt dokumentnummer
 description: 'Du kan angive eksterne bilagsnumre til debitorer og kreditorer i alle salgs-og købsordrer, fakturaer og kreditnotaer. Du kan bruge disse numre til at søge efter bogførte salgs-og købslinjer senere.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 05/28/2021
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Angive eksterne bilagsnumre
+# Indsætte eksternt dokumentnummer
 
 Du kan angive eksterne bilagsnumre til debitorer og kreditorer i alle salgs-og købsordrer, fakturaer og kreditnotaer. Du kan bruge disse numre til at søge efter bogførte salgs-og købslinjer senere.  
 

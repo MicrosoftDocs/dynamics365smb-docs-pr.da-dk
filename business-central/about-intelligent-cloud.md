@@ -1,26 +1,26 @@
 ---
-title: Intelligent indsigt og skymigrering
+title: Intelligente indsigter og skymigrering (kun lokalt)
 description: 'I Business Central Online har du adgang til andre onlinetjenester, og du kan få intelligent indsigt, der f.eks. er baseret på Azure AI. Læs videre, hvis du overvejer at migrere fra det lokale miljø til skyen.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.reviewer: bholtorf
 ms. search.keywords: 'cloud, migrate, insights'
-ms.search.form: 4010
-ms.date: 04/12/2021
+ms.search.form: '4010,'
+ms.date: 03/15/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Intelligent indsigt i [!INCLUDE[prod_short](includes/prod_short.md)] Online
+# Intelligente indsigter og skymigrering (kun lokalt)
 
-Som bruger af [!INCLUDE[prod_short](includes/prod_short.md)] online har du fuld adgang til scenarier, der er baseret på den intelligente sky, f.eks. KPI'er, der er baseret på maskinel indlæring, eller når du får vist dataene i Power BI.  
+Hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] online, har du fuld adgang til scenarier, der er baseret på den intelligente sky. Det kan f.eks. være KPI'er (Key Performance Indicators), der er baseret på maskinel indlæring, eller når du får vist dine data i Power BI.  
 
 Men hvis du bruger [!INCLUDE [prod_short](includes/prod_short.md)] i det lokale miljø, har du ikke adgang til den samme indsigt. Hvis du vil benytte online scenarier, skal du migrere til [!INCLUDE [prod_short](includes/prod_short.md)] Online. Du kan finde flere oplysninger i [Overførsel af lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsindholdet for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## Visning af indsigt i [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
-I [!INCLUDE[prod_short](includes/prod_short.md)] Online viser siden **Intelligent skyindsigt** fire vigtige punkter af interesse for de fleste virksomheder:
+For et lokalt miljø, hvor data blev overført til [!INCLUDE[prod_short](includes/prod_short.md)] online, viser siden **Intelligent cloudindsigt** i onlinemiljøet fire vigtige interessepunkter for de fleste virksomheder:
 
 - Tilgængelig kassebeholdning
 - Salgsrentabilitet

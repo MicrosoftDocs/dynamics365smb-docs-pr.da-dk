@@ -2,29 +2,31 @@
 title: Analysere data efter dimensioner
 description: 'Denne artikel beskriver, hvordan du kan analysere forretningsdata efter dimensioner for at få større viden om din virksomhed.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: kepontop
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '545, 555, 556, 557, 558, 9372, 9370, 9371'
-ms.date: 09/22/2022
-ms.author: bholtorf
+ms.date: 03/27/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
+
 # Analysere data efter dimensioner
 
-I finansielle analyser er en dimension data, som du kan føje til en post som en slags markør. Disse data bruges til at gruppere poster med ens karakteristika, f.eks. debitorer, regioner, produkter og sælger, og disse grupper kan nemt hentes frem til analyse. Dimensioner kan bruges til poster i kladder, dokumenter og budgetter. 
+I finansielle analyser er en dimension data, som du kan føje til en post som en slags markør for at gruppere poster med ens karakteristika. Dimensioner grupperer f.eks. ofte poster for kunder, regioner, produkter og sælgere. Med grupperne kan du nemt hente data om dem til analyse. Du kan bruge dimensioner til poster i kladder, dokumenter og budgetter.
 
-Hver "dimension" beskriver analysens fokus. En todimensional analyse kan f.eks. være pr. område. Når der bruges mere end to dimensioner ved oprettelsen af en post, kan du udføre mere komplekse analyser, f.eks. salg pr. salgskampagne pr. kundegruppe pr. område. Så får du større indsigt i din forretning, så du kan evaluere oplysningerne, f.eks. om hvor godt din forretning kører, hvor den blomster og hvor det ikke gør det, og hvor der bør allokeres flere ressourcer, så du kan tage bedre beslutninger undervejs. Flere oplysninger i [Arbejde med dimensioner](finance-dimensions.md).
+Hver dimension beskriver analysens fokus. En todimensional analyse kan f.eks. være pr. område. Hvis du bruger mere end to dimensioner, når du opretter en post, kan du udføre en mere kompleks analyse. Et eksempel på en kompleks analyse er at undersøge salg pr. salgskampagne pr. kundegruppe pr. område. Så får du større indsigt i din forretning, så du kan evaluere oplysningerne, f.eks. om hvor godt din forretning kører, hvor den blomster og hvor det ikke gør det, og hvor der bør allokeres flere ressourcer. Denne indsigt hjælper dig med at træffe mere informerede forretningsbeslutninger. Flere oplysninger i [Arbejde med dimensioner](finance-dimensions.md).
 
 > [!TIP]
 > For hurtigt at analysere transaktionsdata efter dimensioner kan du filtrere totaler i kontoplanen og poster på alle sider af typen **Poster** efter dimensioner. Kig efter handlingen **Angiv dimensionsfilter**.
 
 > [!NOTE]
-> Hvis du opdager, at der er anvendt en forkert dimensionsværdi på bogførte finansposter, kan du rette den og opdatere dine analysevisninger. Du kan finde flere oplysninger i [Fejlfinding og udbedring af dimensioner](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
+> Hvis du opdager, at der er anvendt en forkert dimensionsværdi på bogførte finansposter, kan du rette den og opdatere dine analysevisninger. Få mere at vide i [Fejlfinding og korrigering af dimensioner](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
 ## Konfigurere en analysevisning
 
-En dimensionsanalyse bruger en valgt kombination af dimensioner. Du lagrer, henter og opdaterer dimensionsgruppen ved at oprette et **Analysevisning**-kort. 
+En dimensionsanalyse bruger en valgt kombination af dimensioner. Du lagrer, henter og opdaterer dimensionsgruppen ved at oprette et **Analysevisning**-kort.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Analysevisninger**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny** på siden **Analysevisningsoversigt**.
@@ -34,29 +36,29 @@ En dimensionsanalyse bruger en valgt kombination af dimensioner. Du lagrer, hent
 
 ## Analysere efter dimensioner
 
-Brug de analysevisninger, du allerede har oprettet med matrixen **Dimensionsanalyse**, til at få vist beløbene i finans.   
+Brug de analysevisninger, du allerede har oprettet med matrixen **Dimensionsanalyse**, til at få vist beløbene i finans.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Analysevisninger**, og vælg derefter det relaterede link.  
 2. Vælg den relevante analysevisning, og vælg derefter handlingen **Dimensionsanalyse**.
 3. Øverst på siden **Dimensionsanalyse** skal du udfylde felterne for at definere, hvilke data der vises og hvordan.
 4. Vælg handlingen **Vis Matrix** for at åbne den respektive matrixside for den definerede analysevisning.
-5. Hvis du vil se en specifikation af et beløb på matrixsiden, skal du vælge beløbet for at gå ned i detaljerne.  
+5. Hvis du vil have adgang til oplysninger om et beløb på matrixsiden, skal du vælge beløbet.  
 
-- Kolonnen længst til venstre indeholder oplysninger, der er baseret på, hvad du har valgt i feltet **Vis som linjer** i hovedet.  
-- Kolonnen længst til højre indeholder oplysninger, der er baseret på, hvad du har valgt i feltet **Vis som kolonner** i hovedet.
+- Kolonnerne til venstre indeholder oplysninger, der er baseret på, hvad du har valgt i feltet **Vis som linjer** i hovedet.  
+- Kolonnerne til højre indeholder oplysninger, der er baseret på, hvad du har valgt i feltet **Vis som kolonner** i hovedet.
 
 > [!IMPORTANT]  
-> Du kan ikke vælge en periodelængde som er kortere en den periode, som er angivet på kortet **Analysevisning**. Kommandoerne **Næste sæt** og **Forrige sæt** er inaktive, hvis du har valgt **Periode** i feltet **Vis som linjer** eller **Vis som kolonner**.  
+> Du kan ikke vælge en periodelængde som er kortere en den periode, som er angivet på kortet **Analysevisning**. Handlingerne **Næste sæt** og **Forrige sæt** er inaktive, hvis du har valgt **Periode** i feltet **Vis som linjer** eller **Vis som kolonner**.  
 
 > [!NOTE]  
-> Du kan bruge rapporten **Dimensioner - detaljer** til at få vist en detaljeret klassifikation af, hvordan dimensioner er brugt på poster i en valgt periode. Du kan bruge rapporten **Dimensioner - i alt** til kun at få vist de totale beløb.  
+> Du kan bruge rapporten **Dimensioner - detaljer** til at se en detaljeret klassifikation af, hvordan dimensioner er blevet brugt på poster over en udvalgt periode. Du kan bruge rapporten **Dimensioner - i alt** til kun at få vist de totale beløb.  
 
 > [!TIP]  
 > Du kan også ændre visningen ved at ændre indholdet i felterne **Vis som linjer** og **Vis som kolonner**. For at tilbageføre en indstilling for visningen skal du vælge handlingen **Byt om på linjer og kolonner**.
 
 ## Opdatere en analysevisning
 
-Beløbene, der vises på siden **Dimensionsanalyse**, viser et billede af virksomhedens tilstand på tidspunktet for den sidste opdatering. Hvis du vil have et billede af den aktuelle tilstand, skal du opdatere analysen ved at bruge opdateringsfunktionen.
+Beløbene på siden **Dimensionsanalyse**, viser et billede af virksomhedens tilstand på tidspunktet for den sidste opdatering. Du henter den aktuelle tilstand ved at køre opdateringshandlingen for at opdatere analysevisningen.
 
 Du kan opdatere en analysevisning vha. følgende fremgangsmåde, som startes på siden **Dimensionsanalyse**. Trinnene ligner dem til opdatering af siderne **Analysevisningskort** og **Analysevisningsoversigt**.  
 

@@ -1,15 +1,15 @@
 ---
-title: Beregning af leveringsdato for salg
+title: Beregne leveringsdato for salg
 description: 'Programmet beregner automatisk den dato, hvor du skal bestille en vare for at have den på lager på en bestemt dato og tilgængelige til pluk.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 09/22/2022
+ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Beregning af leveringsdato for salg
+# Beregne leveringsdato for salg
 
 [!INCLUDE[prod_short](includes/prod_short.md)] beregner automatisk den tidligst mulige dato, som en vare eller en salgsordrelinje kan sendes på.
 
@@ -30,7 +30,7 @@ Hvis varen er disponibel til pluk på afsendelsesdatoen, kan salgsprocessen fort
 
 ## Beregning af den tidligst mulige leveringsdato
 
-Hvis du ikke angiver en ønsket leveringsdato på en salgsordrelinje, eller hvis ikke den ønskede leveringsdato kan imødekommes, vil den tidligste dato for varernes tilgængelighed blive beregnet. Datoen kan derefter indtastes i feltet **Afsendelsesdato** på linjen, og den dato, som du planlægger at levere varer samt den dato, hvor de leveres til debitor beregnes ved hjælp af følgende formler.
+Hvis du ikke angiver en ønsket leveringsdato på salgsordrelinjen, eller hvis ikke den ønskede leveringsdato kan imødekommes, vil den tidligste dato for varernes tilgængelighed blive beregnet. Datoen kan derefter indtastes i feltet **Afsendelsesdato** på linjen, og den dato, som du planlægger at levere varer samt den dato, hvor de leveres til debitor beregnes ved hjælp af følgende formler:
 
 - *afsendelsesdato + udgående lagerekspeditionstid = planlagt afsendelses dato*
 - *planlagt afsendelsesdato + transporttid = planlagt leveringsdato*

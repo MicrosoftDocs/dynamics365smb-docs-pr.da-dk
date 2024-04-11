@@ -7,7 +7,7 @@ ms.reviewer: soalex
 ms.topic: conceptual
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 02/01/2024
+ms.date: 02/06/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -30,7 +30,7 @@ Du kan også oprette direkte betalte ordrer for ikke-registrerede kunder ved fø
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.
 2. Vælg **Ny** for at oprette en ny post.
-3. I feltet **Debitor** skal du indtaste navnet på en eksisterende debitor.
+3. I feltet **Debitornavn** skal du indtaste navnet på en eksisterende debitor.
 
     Andre felter på siden **Salgsordre** er nu udfyldt med standardoplysningerne om den valgte debitor.  
 

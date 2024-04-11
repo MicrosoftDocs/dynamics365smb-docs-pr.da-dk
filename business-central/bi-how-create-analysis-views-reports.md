@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '555, 556, 557, 558, 9372, 9370, 9371'
-ms.date: 09/22/2022
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -14,7 +14,7 @@ ms.service: dynamics-365-business-central
 
 Salgschefer har behov for løbende at kunne analysere omsætning, bruttoavance og andre nøgletal om salgsresultater. Indkøbere er mere interesseret i udviklingen inden for købsmængder, leverandørernes præstation og købspriser. Logistik- og lagerchefer har på den anden side brug for oplysninger om lageromsætning, analyser af lagerbevægelser og statistik om lagerværdi. På den måde er der ingen analyserapport, der passer til alle.
 
-Du kan tilpasse analyserapporter til at lave tilpassende rapporter på grundlag af poster for bogførte transaktioner, f.eks. salg, køb, overflytninger og lagerreguleringer. I en tilpasset rapport kan du kombinere, sammenligne og præsentere kildeoplysninger fra en varekladde (med tilhørende værdiposter) på mange forskellige måder, så du får meningsfulde oplysninger. Analyserapporten minder i den henseende meget om en rapport af typen Pivottabel i Microsoft Excel.  
+Du kan tilpasse analyserapporter til at lave tilpassende rapporter på grundlag af poster for bogførte transaktioner, f.eks. salg, køb, overflytninger og lagerreguleringer. I en tilpasset rapport kan du kombinere, sammenligne og præsentere kildeoplysninger fra en varekladde (med tilhørende værdiposter) på mange forskellige måder, så du får meningsfulde oplysninger. Analyserapporten minder i den henseende om en rapport af typen Pivottabel i Microsoft Excel.  
 
 Du kan f.eks. oprette en tilpasset rapport, der fokuserer på dine nøglekonti med hensyn til den samlede produktomsætning i beløb og solgte mængder, bruttoavance og bruttoavanceprocent i den aktuelle måned. Derefter kan du få den til at sammenligne tallene med resultaterne fra de foregående måneder eller den samme måned sidste år og beregne afvigelser. Alt dette kan gøres i en og samme visning, så du har mulighed for at finde frem til årsagen til identificerede problemområder og vælge rullelisten for at få adgang til detaljer helt ned til de individuelle transaktionsniveauer.  
 

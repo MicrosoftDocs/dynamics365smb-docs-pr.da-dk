@@ -1,15 +1,15 @@
 ---
-title: Opsætning og brug af workflow for godkendelse af køb
+title: Konfigurere og bruge workflow for godkendelse af køb
 description: 'Denne gennemgang fører dig gennem alle de faser, der er involveret i oprettelse og brug af en arbejdsgang til købsgodkendelse, i Business central.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 09/13/2022
+ms.date: 03/11/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gennemgang: Opsætning og brug af workflow for godkendelse af køb
+# Gennemgang: Opsæt og brug godkendelsesworkflow af køb
 
 Du kan automatisere processen med at godkende nye eller ændrede poster, f.eks dokumenter, kladdelinjer og debitorkort, ved at oprette arbejdsgange med fremgangsmåder for de pågældende godkendelser.
 
@@ -40,7 +40,7 @@ For at kontrollere godkendelsesworkflowet logger Sean først på [!INCLUDE[prod_
 
 Før du kan konfigurere godkendelsesbrugere og deres notifikationsmetode, skal du kontrollere, at disse brugere findes i [!INCLUDE[prod_short](includes/prod_short.md)]: en bruger, der repræsenterer Alicia. Den anden bruger, dig selv, repræsenterer Søren. Flere oplysninger i [Oprette brugere ifølge licenser](ui-how-users-permissions.md).
 
-### Angive indstillinger for godkendelsesbrugere
+### Opsætte godkendelsesbrugere
 
 Når du er logget på som dig selv, skal du indstille Alicia som godkendelsesbruger, og hendes godkender er dig selv. Indstil dine godkendelsesrettigheder, og angiv, hvordan og hvornår du skal have besked om godkendelsesanmodninger.  
 
@@ -59,7 +59,7 @@ Når du er logget på som dig selv, skal du indstille Alicia som godkendelsesbru
     |DIG||Valgt|
     |ANNA|DIG||
 
-### Opsætning af meddelelser
+### Opsætning af notifikationer.
 
 I denne gennemgang får brugeren en besked i form af en intern note om anmodninger, der skal godkendes. Godkendelsesnotifikationer kan også sendes via mail, og du kan tilføje et trin i arbejdsgangs svaret, som giver afsenderen besked, når en anmodning godkendes eller afvises. Flere oplysninger [Angive, hvornår og hvordan notifikationer modtages](across-how-to-specify-when-and-how-to-receive-notifications.md).
 

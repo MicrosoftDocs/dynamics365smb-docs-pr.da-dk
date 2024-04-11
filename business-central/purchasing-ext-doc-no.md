@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 05/27/2021
+ms.date: 04/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -17,7 +17,7 @@ Du kan også angive eksterne bilagsnumre på salgsdokumenter. Du kan finde flere
 
 ## Se også
 
-[Angive eksterne bilagsnumre](across-enter-external-document-numbers.md)  
+[Indsætte eksternt dokumentnummer](across-enter-external-document-numbers.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Eksterne bilagsnumre på salgsdokumenter](sales-how-invoice-sales.md#external-document-numbers)  
 [Generelle forretningsfunktioner](ui-across-business-areas.md)  

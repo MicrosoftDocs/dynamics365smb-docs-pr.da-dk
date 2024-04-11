@@ -2,21 +2,22 @@
 title: 'Konfigurere projektressourcekostpriser, priser og kapacitet'
 description: For at bruge ressourcer og lette projektstyring skal du angive omkostninger og priser for individuelle ressourcer eller ressourcegrupper og angive ressourcekapacitet.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'project management, capacity, staff'
 ms.search.form: '72, 76, 77, 203, 204'
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Konfigurere ressourcer for projekter
 
-For at kunne administrere ressourceaktiviteterne korrekt skal du oprette ressourcerne og de tilhørende omkostninger og priser. De sagsrelaterede pris-, rabat- og kostfaktorregler oprettes på jobkortet. Du kan angive omkostninger og priser for individuelle ressourcer, ressourcegrupper eller alle tilgængelige ressourcer i virksomheden.
+For at kunne administrere ressourceaktiviteterne korrekt skal du oprette ressourcerne og de tilhørende omkostninger og priser. De projektrelaterede pris-, rabat- og kostfaktorregler oprettes på projektkortet. Du kan angive omkostninger og priser for individuelle ressourcer, ressourcegrupper eller alle tilgængelige ressourcer i virksomheden.
 
-Når der bruges eller sælges ressourcer i en sag, hentes de tilhørende priser og omkostninger fra de oplysninger, du har oprettet.
+Når der bruges eller sælges ressourcer i et projekt, hentes de tilhørende priser og omkostninger fra de oplysninger, du har oprettet.
 
-Du kan angive standardbeløbet pr. time, når ressourcen oprettes. Hvis du f.eks. bruger en bestemt maskine i fem timer i en sag, udregnes sagen ud fra beløbet pr. time.
+Du kan angive standardbeløbet pr. time, når ressourcen oprettes. Hvis du f.eks. bruger en bestemt maskine i fem timer i et projekt, udregnes projektet ud fra beløbet pr. time.
 
 > [!NOTE]
 > Du kan købe eksterne ressourcer, f.eks. for at fakturere en kreditor for udført arbejde. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).<br /><br />
@@ -42,9 +43,9 @@ Du kan samle flere forskellige ressourcer i en ressourcegruppe. Ressourcegruppen
 
 ## Sådan angives kapaciteten for en ressource
 
-For at beregne, hvor lang tid en ressource kan bruge på sager, skal der først ressourcenes kapacitet først angives som disponible tid pr. periode i arbejdskalenderen. Denne opsætning anvendes, når du udfylder sagsplanlægningslinjer, som indeholder ressourcen. Du kan finde flere oplysninger i [Oprette sager](projects-how-create-jobs.md).
+For at beregne, hvor lang tid en ressource kan bruge på projekter, skal ressourcernes kapacitet først angives som disponibel tid pr. periode i arbejdskalenderen. Denne opsætning anvendes, når du udfylder projektplanlægningslinjer, som indeholder ressourcen. Du kan finde flere oplysninger i [Oprette projekter](projects-how-create-jobs.md).
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourcer**, og vælg derefter det relaterede link.
+1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourcer**, og vælg derefter det relaterede link.
 2. Åbn det relevante ressourcekort, og vælg derefter handlingen **Ressourcekapacitet**.
 3. På siden **Ressourcekapacitet** feltet **Vis efter** skal du angive periodens længde, f.eks **Dag**, som vises i kolonnerne på oversigtspanelet **Matrix for ressourcekapacitet**.
 4. For hver ressource på en linje skal du for hver periode i kolonnerne angive det antal timer, hvor ressourcen er tilgængelig.
@@ -66,9 +67,9 @@ Udover de omkostninger, der er angivet på ressourcekortet, kan du oprette alter
 
 ## Sådan angives ressourcepriser
 
-Udover den pris, der er angivet på ressourcekortet, kan du oprette alternative priser for hver ressource. Alternative priser kan være betingede. De kan være betinget af, om ressourcen anvendes med et bestemt job eller en bestemt arbejdstype.
+Udover den pris, der er angivet på ressourcekortet, kan du oprette alternative priser for hver ressource. Alternative priser kan være betingede. De kan være betinget af, om ressourcen anvendes med et bestemt projekt eller en bestemt arbejdstype.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourcer**, og vælg derefter det relaterede link.
+1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourcer**, og vælg derefter det relaterede link.
 2. Vælg ressource, som du vil angive en eller flere alternative priser for, og vælg derefter handlingen **Priser**.
 3. På siden **Ressourcesalgspriser** skal du udfylde felterne på en linje efter behov.
 4. Gentag trin 3 for hver alternativ ressourcepris, du vil oprette.

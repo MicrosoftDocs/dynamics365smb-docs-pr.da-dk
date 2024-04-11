@@ -5,11 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: client
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Flet dobbeltregistrerede records
+# Flette dublerede poster
 
 Efterhånden som brugere opretter ny kunde, leverandør eller kontaktkort igennem længere tid, eller der oprettes nye records automatisk under migration, kan en kunde, leverandør eller kontakt være repræsenteret i systemet med mere end en record. I dette tilfælde kan du benytte siden **Flet dobbeltregistrering** fra record-kortet, som du ønsker at beholde. Siden giver dig et overblik over dobbeltregistrerede værdier og leverer funktioner til at udvælge, hvilke værdier, der skal beholdes og slettes henholdsvis, når du fletter to records til en.
 
@@ -26,7 +26,7 @@ Den følgende procedure er baseret på et kundekort. Trinnene er de samme for le
 3. Vælg handlingen **Flet med** på siden **Kundekort**.
 4. På siden **Flet dobbeltregistrering** i feltet **Flet med** vælger du den kunde, du har åbnet, som du tror er en dobbeltregistrering, der er indikeret i feltet **Aktuel**.
 
-    Oversigtspanelet **Felter** viser felter, hvor værdierne er forskellige for de to kunder. Dette betyder, at hvis den valgte kunde virkelig er en dobbeltregistrering, bør kun ganske få felter blive vist, såsom stavefejl eller andre dataregistreringsfejltagelser.
+    Oversigtspanelet **Felter** viser felter, hvor værdierne er forskellige for de to kunder. Dette betyder, at hvis den valgte kunde virkelig er en dobbeltregistrering, bør kun få felter blive vist, såsom stavefejl eller andre dataregistreringsfejltagelser.
 
     Oversigtspanelet **Relaterede tabeller** viser, hvor der er felter med en relation til begge kunder. Felterne **Aktuelt antal** og **Dobbelt antal** viser antallet af felter i relaterede tabeller, hvor **Nr.** værdien for både den aktuelle og den dobbeltregistrerede er benyttet. På siden **Flet dobbeltregistrering** er denne sektion kun til information. Hvis der imidlertid findes flettekonflikter, løser du dem på siden **Flet dobbeltkonflikter**. Se trin 8 til 12.   
 
@@ -42,7 +42,7 @@ Den følgende procedure er baseret på et kundekort. Trinnene er de samme for le
 9. Vælg linjen for den relaterede tabel med en konflikt på siden **Flet dobbeltkonflikter** og vælg så handlingen **View Details**.
 
     Siden **Flet dobbeltkonflikt** viser nu felterne i den valgte tabel, der forårsager en flettekonflikt mellem to kunde-records. Bemærk, i begge opsummerede værdier i felterne **Aktuel** og **Konflikter med** og på linjerne, at mindst et primært nøglefelt er det samme for begge kunder, og værdien i **Nej.**- feltet er forskelligt for begge kunder.   
-10. Hvis du ikke ønsker at behold den dobbeltregistrerede kunde-record, vælger du handlingen **Fjern dobbeltregistrering**, og derefter vælger du knappen **Luk**.
+10. Hvis du ikke ønsker at beholde den dobbeltregistrerede kunde-record, vælger du handlingen **Fjern dobbeltregistrering**, og derefter vælger du knappen **Luk**.
 
     Identiske feltværdier ud over værdien i **Nej.**- feltet fjernes fra den dobbeltregistrerede record og indsættes på den aktuelle record.
 11. Hvis du ønsker at beholde den dobbeltregistrerede kunde-record efter sammenfletningen, vælger du **Omdøb dobbeltregistrering**.

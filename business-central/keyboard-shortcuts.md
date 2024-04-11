@@ -22,7 +22,6 @@ Du kan finde en oversigt over de mest populære tastaturgenveje under [Tastaturg
 > [ ![Ikon for PDF-filen.](media/keyboard_shortcut_inline.png) ](media/keyboard-shortcuts-2023.pdf "Ikon, der åbner et PDF-dokument")
 
 
-
 ## Oversigt
 
 Tastaturgenveje giver større tilgængelighed, hvilket kan gøre det lettere og mere effektivt at navigere til forskellige områder og elementer på en side. Genvejene understøttes af de fleste webbrowsere, men funktionsmåden kan variere en smule.
@@ -194,12 +193,12 @@ Når du indstiller et datofelt, kan du angive datoen manuelt eller åbne en kale
 |--------------------------------|----------|
 |<kbd>Ctrl</kbd>+<kbd>Start</kbd>|Åbne kalenderen, hvis den er lukket. **Bemærk**: Dette fungerer ikke, hvis datofeltet er i et gitter, hvor <kbd>Ctrl</kbd>+<kbd>Start</kbd> hopper til den første række.|
 |<kbd>Ctrl</kbd>+<kbd>Start</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Start</kbd>)|Flytte til den aktuelle måned, dags dato.|
-|<kbd>Ctrl</kbd>+<kbd>Pil til venstre</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Pil til venstre</kbd>)|Flytte til forrige dag.|
-|<kbd>Ctrl</kbd>+<kbd>Pil til højre</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Pil til højre</kbd>)|Flytte til næste dag.|
-|<kbd>Ctrl</kbd>+<kbd>Pil op</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Pil op</kbd>)|Flytte til den forrige uge, samme dag i ugen.|
-|<kbd>Ctrl</kbd>+<kbd>Pil ned</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Pil ned</kbd>)|Flytte til næste uge, samme dag i ugen.|
+|<kbd>Venstre pil</kbd><br /><br />(<kbd>Venstre pil</kbd>)|Flytte til forrige dag.|
+|<kbd>Højrepil</kbd><br /><br />(<kbd>Højrepil</kbd>)|Flytte til næste dag.|
+|<kbd>Pil op</kbd><br /><br />(<kbd>Pil op</kbd>)|Flytte til den forrige uge, samme dag i ugen.|
+|<kbd>Pil ned</kbd><br /><br />(<kbd>Pil ned</kbd>)|Flytte til næste uge, samme dag i ugen.|
 |<kbd>Indsæt</kbd>|Vælge den dato, der er fokus på.|
-|<kbd>Ctrl</kbd>+<kbd>End</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>End</kbd>)|Lukke kalenderen og slette den aktuelle dato.|
+|<kbd>Slut</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>End</kbd>)|Lukke kalenderen og slette den aktuelle dato.|
 |<kbd>Esc</kbd>|Lukke kalenderen uden en markering, bevare dags dato.|
 |<kbd>Page Down</kbd>|Flytte til næste måned.|
 |<kbd>Page Up</kbd>|Flytte til forrige måned.|  

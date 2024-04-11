@@ -25,7 +25,7 @@ Brug følgende dokumenter for interne operationer:
 
 * Når du registrerer et pluk for en intern handling, såsom produktion eller en sag, bogføres forbrug af de komponenter, der er plukket på samme tid.
 * Afkrydsningsfeltet **Tvungen placering** på **lokationskortet** er markeret.
-* Når du bruger pluk fra lager definerer feltet **Placeringskode** på en produktionsordrekomponentlinje den *hente*-placering, som komponenter tages fra, når forbruget posteres. Komponenterne formindskes i vinduet Hent, når du bogfører forbrug.
+* Når du bruger pluk fra lager definerer feltet **Placeringskode** på en produktionsordrekomponentlinje eller projektplanlægningslinjer *hente*-placeringen. Komponenterne formindskes i vinduet Hent, når du bogfører forbrug.
 
 ## Flytninger (lager)
 
@@ -60,11 +60,11 @@ Brug **Lagerpluk**-dokumenter til at plukke produktionskomponenter i forløbet t
 For en lokation, der bruger placeringer, kan du udvide strømmen til produktion ved hjælp af **flytning (lager)**-dokumenter.
 
 > [!NOTE]
-> Muligheden for at plukke komponenter til Sagsplanlægningslinjer blev tilføjet i [!INCLUDE[d365fin](includes/d365fin_md.md)] i 2022 udgivelsesbølge 2. Hvis du vil starte med at bruge funktionen, skal din administrator aktivere **Funktionsopdatering: Aktivér lagerbeholdning og lagerpluk fra job** på siden **Funktionsstyring**.
+> Muligheden for at plukke komponenter til projektplanlægningslinjer blev tilføjet i [!INCLUDE[d365fin](includes/d365fin_md.md)] i 2022 udgivelsesbølge 2. Hvis du vil starte med at bruge funktionen, skal din administrator aktivere **Funktionsopdatering: Aktivér lagerbeholdning og lagerpluk fra job** på siden **Funktionsstyring**.
 >
-> [!INCLUDE[prod_short](includes/prod_short.md)] bruger værdien i feltet **Restantal** på sagsplanlægningslinjen, når der oprettes pluk (lager). Hvis du vil bruge pluk fra lager til sager, skal du aktivere funktionen **Anvend anvendelseslink** på siden **opgavekortet** for sagen. På den måde kan du spore forbruget i forhold til din plan. Hvis du ikke aktiverer til/fra, forbliver restantallet ved **0**, og lagerplukket bliver ikke oprettet. Du kan finde flere oplysninger i [Sådan konfigureres sagsforbrugssporing](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
+> [!INCLUDE[prod_short](includes/prod_short.md)] bruger værdien i feltet **Restantal** på projektplanlægningslinjen, når der oprettes pluk (lager). Hvis du vil bruge pluk fra lager til sager, skal du aktivere funktionen **Anvend anvendelseslink** på siden **Projektkort** for sagen. På den måde kan du spore forbruget i forhold til din plan. Hvis du ikke aktiverer til/fra, forbliver restantallet ved **0**, og lagerplukket bliver ikke oprettet. Du kan finde flere oplysninger i [Sådan konfigureres projektforbrugssporing](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-project-usage-tracking).
 
-## Plukke eller flytte til produktion, montage eller sager i grundlæggende lageropsætninger
+## Plukke eller flytte til produktion, montage eller projekter i grundlæggende lageropsætninger
 
 Du kan oprette et lagerpluk eller en lagerflytning på tre måder:  
 
@@ -140,7 +140,7 @@ Der sker følgende under bogføringsprocessen:
 
 Der sker følgende under bogføringsprocessen:
 
-* Der oprettes lagerposter som tegn på, at komponenterne nu findes på de placeringer, der er angivet i montageordrelinjerne. F. eks. montageordre, produktions komponent eller sagsplanlægningslinje.
+* Der oprettes lagerposter som tegn på, at komponenterne nu findes på de placeringer, der er angivet i montageordrelinjerne. F.eks. montageordre, produktionskomponent eller projektplanlægningslinje.
 
 >[!NOTE]
 > I modsætning til når du flytter komponenter med et lagerpluk, bogføres forbrug ikke, når du registrerer en flytning (lager). Du registrerer forbruget som et separat trin ved at bogføre kildedokumentet.

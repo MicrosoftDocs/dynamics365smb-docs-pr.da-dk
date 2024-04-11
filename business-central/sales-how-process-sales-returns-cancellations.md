@@ -6,13 +6,13 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'undo, credit memo, return'
 ms.search.form: '44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
-ms.date: 09/27/2021
+ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Behandle salgsreturvarer eller annulleringer
 
-Hvis en debitor ønsker at returnere varer eller få refunderet varer eller serviceydelser, som du har solgt og modtaget betaling for, skal du oprette og bogføre en salgskreditnota, der angiver den ønskede ændring. Hvis du vil medtage de korrekte salgsfakturaoplysninger, kan du gøre følgende:  
+Hvis en debitor ønsker at returnere varer eller få refunderet varer eller serviceydelser, som du har solgt og modtaget betaling for, skal du oprette og bogføre en salgskreditnota, der angiver den ønskede ændring. Hvis du vil medtage de korrekte salgsfakturaoplysninger, kan du udføre følgende opgaver:  
 
 - Oprette en salgskreditnota direkte fra en bogført salgsfaktura.
 - Opret en ny salgskreditnota med oplysninger om kopieret faktura.

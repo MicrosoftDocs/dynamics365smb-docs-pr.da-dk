@@ -1,16 +1,16 @@
 ---
-title: Gennemgå salgsreturvareordrer
+title: Behandle salgsreturordrer
 description: 'Beskriver, hvordan du opretter en salgsreturordre for at behandle en returnering, annullering eller refusion for varer eller tjenester, du har modtaget betaling for.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'undo, credit memo, return, order'
 ms.search.form: '44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
-ms.date: 09/08/2021
+ms.date: 03/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gennemgå salgsreturvareordrer  
+# Behandle salgsreturordrer  
 
 Hvis du ønsker større kontrol over salgsreturvareprocessen, f.eks. med lagerdokumenter til håndtering af varer eller bedre overblik ved modtagelse af varer fra flere salgsdokumenter i én salgsreturnering, kan du oprette salgsreturvareordrer. En salgsreturvareordre udsteder automatisk den relaterede salgskreditnota og andre returvarerelaterede dokumenter, f.eks. en erstatningssalgsordre, hvis det er nødvendigt.
 

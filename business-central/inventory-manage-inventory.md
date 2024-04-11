@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'warehouse, stock'
 ms.search.forms: '5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782'
-ms.date: 12/19/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -28,7 +28,7 @@ Planlægning af varer til opfyldelse af behov dækkes som en del af forsyningspl
 
 Når du bogfører lagertransaktioner, f.eks. salgsleverancer, købsfakturaer eller lagerreguleringer, registreres ændringen i varepriser i værdiposterne. For at afspejle ændringen af lagerværdien i dine finansielle regnskaber bogføres lagerværdien automatisk i de relaterede lagerkonti i finansbogholderiet. For hver lagertransaktion du bogfører, bogføres den relevante værdi på lagerkontoen, reguleringskontoen og vareforbrugskontoen i finansregnskabet. Flere oplysninger i [Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
-Selvom lagerværdien automatisk bogføres i Finans, er det stadig nødvendigt at sikre, at værdien af varerne overføres til de relaterede udgående transaktioner, f.eks salg eller overflytninger. Dette er især vigtigt i de situationer, hvor du sælger varer, inden du fakturerer købet af varerne. Dette omtales som omkostningsregulering. Varepriser reguleres automatisk, når du bogfører transaktioner, men du kan også justere varepriser manuelt. Få mere at vide om [Regulere varepriser](inventory-how-adjust-item-costs.md).  
+Selvom lagerværdien automatisk bogføres i Finans, er det stadig nødvendigt at sikre, at værdien af varerne overføres til de relaterede udgående transaktioner, f.eks. salg eller overflytninger. Dette er især vigtigt i de situationer, hvor du sælger varer, inden du fakturerer købet af varerne. Dette omtales som omkostningsregulering. Varepriser reguleres automatisk, når du bogfører transaktioner, men du kan også justere varepriser manuelt. Få mere at vide om [Regulere varepriser](inventory-how-adjust-item-costs.md).  
 
 ## Relaterede emner
 
@@ -56,11 +56,11 @@ I følgende tabel beskrives relaterede opgaver.
 
 ## Se også
 
-[Warehouse Management-oversigt](design-details-warehouse-management.md)
-[Købe](purchasing-manage-purchasing.md)  
-[Salg](sales-manage-sales.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Generelle forretningsfunktioner](ui-across-business-areas.md)  
+[Oversigt over logistik](design-details-warehouse-management.md)    
+[Køb](purchasing-manage-purchasing.md)    
+[Salg](sales-manage-sales.md)    
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+[Generelle forretningsfunktioner](ui-across-business-areas.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

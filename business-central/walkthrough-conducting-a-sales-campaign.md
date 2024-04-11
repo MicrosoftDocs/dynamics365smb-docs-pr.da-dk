@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/24/2021
+ms.date: 01/31/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -47,7 +47,7 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 
  Marketingmedarbejderen fra marketingafdelingen tager sig af produktion, distribution og udleveringen af marketingmaterialer.  
 
- Virksomheden har lige lanceret et nyt produkt med navnet Rome Guest Chair. Produktet blev for nyligt markedsført på en handelsmesse, Office Futurus. Mange kunder udtrykte deres store interesse for produktet, og som del af en markedsføringsmæssig indsats blev de kunder, der købte Rome Guest Chair i en kampagneperiode, tilbudt en særlig kampagnepris.  
+ Virksomheden har lanceret et nyt produkt med navnet Rome Guest Chair. Produktet blev for nyligt markedsført på en handelsmesse, Office Futurus. Mange kunder udtrykte deres store interesse for produktet, og som del af en markedsføringsmæssig indsats blev de kunder, der købte Rome Guest Chair i en kampagneperiode, tilbudt en særlig kampagnepris.  
 
  En af marketingmedarbejderens opgaver efter handelsmessen er at angive de potentielle kunder som kontakter.  
 
@@ -67,7 +67,7 @@ En kampagne er enhver aktivitet, der involverer flere kontakter. En vigtig del a
 4. Vælg feltet **Statuskode**, og vælg statuskode "1-plan". 
 5. Udfyld felterne **Startdato** og **Slutdato** for kampagnen som ønsket.  
 
-## Vælge målgruppe
+## Vælge målgruppen
 
  Marketingchefen opretter en målgruppe for at vælge de kontakter, som han vil interagere med.  
  
@@ -115,7 +115,7 @@ Siden **Målgruppe** indeholder nu en liste over kontakter, der er baseret på d
 1. Vælg handlingen **Målgruppe** på siden **Målgruppe**.
 2. Vælg handlingen **Gå tilbage**.
 
-De kontaktpersoner, du lige har fjernet, føjes til listen over kontaktpersoner.
+De kontaktpersoner, du har fjernet, føjes til listen over kontaktpersoner.
 
 ## Knytte en målgruppe til en kampagne
 

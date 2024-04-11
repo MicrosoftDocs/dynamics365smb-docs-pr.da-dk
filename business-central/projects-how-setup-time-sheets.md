@@ -24,7 +24,7 @@ Du kan også angive, om og hvordan timesedler skal godkendes. Afhængigt af orga
 * En eller flere brugere som timeseddeladministrator og godkendere for alle timesedler.
 * En timeseddelgodkender for hver ressource.
 
-Når du har oprettet timesedler, kan du oprette timesedler for ressourcer, og ressourcerne kan bogføre timeseddellinjer. Du kan også knytte timesedler til sagsplanlægningslinjer. Hvis du vil vide mere, skal du gå til [Bruge timesedler](projects-how-use-time-sheets.md).  
+Når du har oprettet timesedler, kan du oprette timesedler for ressourcer, og ressourcerne kan bogføre timeseddellinjer. Du kan også knytte timesedler til projektplanlægningslinjer. Hvis du vil vide mere, skal du gå til [Bruge timesedler](projects-how-use-time-sheets.md).  
 
 ## Oprette timesedler med assisterende opsætningsvejledning
 
@@ -71,8 +71,8 @@ I følgende afsnit beskrives det, hvordan du konfigurerer timesedler, hvis du ik
 | Indstilling | Beskrivelse |
 | --- | --- |
 | **Aldrig** |Brugeren i feltet **Bruger-id for timeseddelgodkender** på ressourcekortet godkender timesedlen. |
-| **Altid** |Brugeren i feltet **Ansvarlig person** på sagskortet godkender timesedlen. |
-| **Kun maskine** |Hvis maskintimesedlen er knyttet til en sag, godkendes timesedlen af brugeren i feltet **Ansvarlig person** på sagskortet. Hvis maskintimesedlen er knyttet til en ressource, godkendes timesedlen af brugeren i feltet **Bruger-id for timeseddelgodkender** på ressourcekortet. |
+| **Altid** |Brugeren i feltet **Ansvarlig person** på projektkortet godkender timesedlen. |
+| **Kun maskine** |Hvis maskintimesedlen er knyttet til en sag, godkendes timesedlen af brugeren i feltet **Ansvarlig person** på projektkortet. Hvis maskintimesedlen er knyttet til en ressource, godkendes timesedlen af brugeren i feltet **Bruger-id for timeseddelgodkender** på ressourcekortet. |
 
 ### Tildel en timeseddeladministrator manuelt
 

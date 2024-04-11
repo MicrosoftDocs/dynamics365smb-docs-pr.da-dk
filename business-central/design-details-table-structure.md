@@ -1,6 +1,6 @@
 ---
 title: Designdetaljer – Tabelstruktur | Microsoft Docs
-description: 'Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionspostlagring og -bogføring er omdesignet.'
+description: 'Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionspostlagring og -bogføring er gendesignet.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
@@ -10,12 +10,14 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Designoplysninger: Tabelstruktur
+
 Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionsposter lagres og bogføres.  
 
 ## Tabel 480, Dimensionsgruppepost  
+
 Denne tabel kan ikke ændres. Når data er blevet skrevet i tabellen, kan du ikke slette eller redigere dem.
 
-|Feltnr.|Feltnavn|Datatype|Bemærkning|  
+|Feltnr.|Feltnavn|Datatype|Kommentar|  
 |---------------|----------------|---------------|-------------|  
 |1|**Id**|Heltal|> 0,0 er reserveret til den tomme dimensionsgruppe. Refererer til felt 3 i tabel 481.|  
 |2|**Dimensionskode**|Kode 20|Tabelrelation til tabel 348.|  
@@ -27,7 +29,7 @@ Denne tabel kan ikke ændres. Når data er blevet skrevet i tabellen, kan du ikk
 ## Tabel 481, Trænode for dimensionsgruppe  
 Denne tabel kan ikke ændres. Det bruges til at søge efter en dimensionsgruppe. Hvis dimensionssættet ikke findes, oprettes et nyt sæt.  
 
-|Feltnr.|Feltnavn|Datatype|Bemærkning|  
+|Feltnr.|Feltnavn|Datatype|Kommentar|  
 |---------------|----------------|---------------|-------------|  
 |1|**Overordnet dimensionsgruppe-id**|Heltal|0 for node på højeste niveau.|  
 |2|**Dimensionsværdi-id**|Heltal|Tabelrelation til felt 12 i tabel 349.|  
@@ -75,7 +77,7 @@ Ud over de andre dimensionsfelter i tabellen er disse felter også vigtige.
 
  Felt 480 kan ikke redigeres i følgende tabeller.  
 
-|Tabelnr.|Tabelnavn|  
+|Tabel-nr.|Tabelnavn|  
 |---------------|----------------|  
 |17|**Finanspost**|  
 |21|**Debitorpost**|  
@@ -140,9 +142,9 @@ Felt 480 kan redigeres i følgende tabeller.
 |89|**Styklistekladdelinje**|  
 |96|**Finansbudgetpost**|  
 |207|**Ressourcekladdelinje**|  
-|210|**Sagskladdelinje**|  
+|210|**Projektkladdelinje**|  
 |221|**Fordeling**|  
-|246|**Disponeringslinje**|  
+|246|**Rekvisitionslinje**|  
 |295|**Rykkerhoved**|  
 |302|**Rentenotahoved**|  
 |5405|**Produktionsordre**|  
@@ -163,10 +165,10 @@ Felt 480 kan redigeres i følgende tabeller.
 
 Felt 480 findes i følgende buffertabeller.  
 
-|Tabelnr.|Tabelnavn|  
+|Tabel-nr.|Tabelnavn|  
 |---------------|----------------|  
 |49|**Fakturabogf.buffer**|  
-|212|**Sagsbogføringsbuffer**|  
+|212|**Projektbogføringsbuffer**|  
 |372|**Betalingsbuffer**|  
 |382|**Kunde/leverandør - bogf.buffer**|  
 |461|**Buffer for forudbetalingsfakturalinje**|  

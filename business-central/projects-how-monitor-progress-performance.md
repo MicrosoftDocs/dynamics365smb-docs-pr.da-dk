@@ -1,21 +1,21 @@
 ---
-title: Overvåge jobstatus og -udførelse
-description: 'Beskriver, hvordan du kan oprette en metode for igangværende arbejde og beregne igangværende arbejde for at estimere den økonomiske værdi af sager, der er igangværende.'
+title: Overvåge projektstatus og -udførelse
+description: 'Beskriver, hvordan du kan oprette en metode for igangværende arbejde og beregne igangværende arbejde for at estimere den økonomiske værdi af projekter, der er igangværende.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.topic: how-to
-ms.date: 03/28/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
 ms.service: dynamics-365-business-central
 ---
-# Overvåge jobstatus og -udførelse
+# Overvåge status og ydeevne af projekt
 
-Med igangværende arbejde (WIP)-funktionen kan du estimere den økonomiske værdi af igangværende sager i finansregnskabet.
+Med igangværende arbejde (WIP)-funktionen kan du estimere den økonomiske værdi af igangværende projekter i finansregnskabet.
 
-Efterhånden som status for en sag ændrer sig, forbruges der materialer og ressourcer, der skal bogføres i sagen. Du kan i mange tilfælde bogføre udgifterne for en sag, før sagen faktureres. Hvis der kun er bogført udgifter, vil din regnskabsopgørelse ikke være helt korrekt. Hvis du vil spore den faktiske værdi af sagen, skal du beregne igangværende arbejde og bogføre det i finansregnskabet. Få mere at vide på [Forstå igangværende arbejde-metoder](projects-understanding-wip.md).
+Efterhånden som status for et projekt ændrer sig, forbruges der materialer og ressourcer, der skal bogføres i projektet. Du kan i mange tilfælde bogføre udgifterne for et projekt, før projektet faktureres. Hvis der kun er bogført udgifter, vil din regnskabsopgørelse ikke være helt korrekt. Hvis du vil spore den faktiske værdi af projektet, skal du beregne igangværende arbejde og bogføre det i finansregnskabet. Få mere at vide på [Forstå igangværende arbejde-metoder](projects-understanding-wip.md).
 
 Du kan beregne VIA baseret på følgende:
 
@@ -28,51 +28,51 @@ Du kan beregne VIA baseret på følgende:
 <!--If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.-->
 <!--Unhide the above paragraph?-->
 
-## Opret et job med igangværende arbejde-metoden
+## Oprette en projektmetode for igangværende arbejde
 
-Opret et job med igangværende arbejde-metode, der afspejler behovet i organisationen og angiver det som standard.  
+Opret et projekt med igangværende arbejde-metode, der afspejler behovet i organisationen og angiver det som standard.  
 
 > [!NOTE]
 > Når du har brugt en ny metode til at oprette poster for igangværende arbejde, kan du ikke ændre eller slette metoden.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **job med igangværende arbejde-metoder**, og vælg derefter det relaterede link.  
+1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , skriv **projekt med igangværende arbejde-metoder**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**, og udfyld derefter felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Luk siden.   
-4. Hvis du vil gøre den nye metode til standardmetoden, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **jobopsætning**, og vælg derefter det relaterede link.  
+4. Hvis du vil gøre den nye metode til standardmetoden, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , skrive **projektopsætning** og derefter vælge det relaterede link.  
 5. I feltet **Standard-VIA-metode** skal du vælge metoden fra listen.
 
-## Definere en metode for igangværende arbejde for en sag
+## Definere en metode for igangværende arbejde for et projekt
 
-Når du opretter en ny sag, skal du angive, hvilken metode for igangværende arbejde der gælder. I nogle tilfælde er den igangværende arbejde-metode for sager, du bruger, allerede angivet som standard.
+Når du opretter et nyt projekt, skal du angive, hvilken metode for igangværende arbejde der gælder. I nogle tilfælde er den igangværende arbejde-metode for projekter, du bruger, allerede angivet som standard.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Jobs**, og vælg derefter det relaterede link.
-2. Vælg handlingen **Ny**. Få mere at vide på [Oprettelse af job](projects-how-create-jobs.md).  
-3. På siden **Sagskort** i feltet **Metode for igangværende arbejde** skal du vælge en metode for igangværende arbejde. Hvis der er defineret en standardmetode, kan du vælge en anden indstilling, hvis det er nødvendigt.  
+1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , angiv **Projekter**, og vælg derefter det relaterede link.
+2. Vælg handlingen **Ny**. Flere oplysninger i [Oprette projekter](projects-how-create-jobs.md).  
+3. På siden **Projektkort** i feltet **Metode for igangværende arbejde** skal du vælge en metode for igangværende arbejde. Hvis der er defineret en standardmetode, kan du vælge en anden indstilling, hvis det er nødvendigt.  
 
-### Definere en metode for igangværende arbejde for en sagsopgave
+### Definere en metode for igangværende arbejde for en projektopgave
 
-Du kan definere en igangværende arbejde-metode for en sagsopgave, udelukke nogle sagsopgaver fra igangværende arbejde-beregningen eller gruppere opgaver som beregnet. 
+Du kan definere en igangværende arbejde-metode for en projektopgave, udelukke nogle projektopgaver fra igangværende arbejde-beregningen eller gruppere opgaver som beregnet. 
 
-Hvis du vil beregne igangværende arbejde for hver sagsopgave individuelt, har via-bogføringen defineret dimensioner for de enkelte opgaver.
+Hvis du vil beregne igangværende arbejde for hver projektopgave individuelt, har bogføringen af igangværende arbejde defineret dimensioner for de enkelte opgaver.
 
-**Igangværende arbejde-total** angiver de sagsopgaver, du vil gruppere ved beregning af Igangværende arbejde og registrering. I en gruppe af opgaver skal der være én opgave, som opfylder to betingelser:
+**Igangværende arbejde-total** angiver de projektopgaver, du vil gruppere ved beregning af Igangværende arbejde og registrering. I en gruppe af opgaver skal der være én opgave, som opfylder to betingelser:
 <!--But doesn't the parenthetical below contradict this -* if there is no total, the application sets the total for you, meaning the condition does not HAVE to be satisfied, right? Or am I missing something?-->
 
-* Har et **samlet Igangværende arbejde** angivet til *I alt*. (Hvis der ikke er nogen sagsopgaver med **Samlet Igangværende arbejde** angivet til *I alt*, indstilles *I alt* automatisk på den sidste sagsopgavelinje, når Igangværende arbejde beregnes første gang.)
+* Har et **samlet Igangværende arbejde** angivet til *I alt*. (Hvis der ikke er nogen projektopgaver med **Samlet Igangværende arbejde** angivet til *I alt*, indstilles *I alt* automatisk på den sidste projektopgavelinje, når Igangværende arbejde beregnes første gang).
 
-* Har et **Job-opgavenummer** -nummer, der er det sidste i gruppen eller intervallet af sagsopgaver.
+* Har et **Projektopgavenummer**, der er det sidste i gruppen eller intervallet af projektopgaver.
 
 Følgende tabel beskriver tre indstillinger:
 
 | Felt | Beskrivelse |
 |--|--|
-| **\<blank\>** | Lad stå tomt, hvis sagsopgaven er del af en gruppe opgaver. |
-| **Total** | Definerer det område eller den gruppe af opgaver, der er medtaget i beregningen af Igangværende arbejde og registrering. Inden for gruppen vil alle sagsopgaver med **Sagsopgavetype** indstillet til **Bogføring** blive inkluderet i VIA i alt, medmindre feltet **VIA i alt** er indstillet til **Ekskluderet**. |
-| **Udelukket** | Gælder kun for en opgave med **bogføringstypen** **Postering**, i hvilket tilfælde opgaven ikke medtages ved beregning af VIA og registrering. |
+| **\<blank\>** | Lad stå tomt, hvis projektopgaven er del af en gruppe opgaver. |
+| **I alt** | Definerer det område eller den gruppe af opgaver, der er medtaget i beregningen af Igangværende arbejde og registrering. Inden for gruppen vil alle projektopgaver med **Projektopgavetype** indstillet til **Bogføring** blive inkluderet i igangværende arbejde i alt, medmindre feltet **Igangværende arbejde i alt** er indstillet til **Ekskluderet**. |
+| **Ikke medtaget** | Gælder kun for en opgave, hvor **Projektopgavetype** er **Postering**, i hvilket tilfælde opgaven ikke medtages ved beregning af igangværende arbejde og registrering. |
 
-I følgende eksempel er sagsopgaver inddelt i to grupper for VIA, som viser, hvordan feltet **VIA-sum** fungerer:
+I følgende eksempel er projektopgaver inddelt i to grupper for igangværende arbejde, som viser, hvordan feltet **Igangværende arbejde i alt** fungerer:
 
-|Sagsopgavenr.|Beskrivelse|Sagsopgavetype|**VIA-Total**-felt|  
+|Projektopgavenr.|Beskrivelse|Projektopgavetype|**VIA-Total**-felt|  
 |------------------|----------------------|----------------------|----------------------|  
 |1000|Forberedelse|Fra-sum|\<blank\>|
 |1010|.    Rengøring|Bogfører|**Udelukket**|
@@ -90,60 +90,60 @@ I følgende eksempel er sagsopgaver inddelt i to grupper for VIA, som viser, hvo
 
 Du bemærker følgende:
 
-* *1000* til *1299*: VIA beregnes separat for denne gruppe sagsopgaver. Bemærk dog, at to af opgaverne, 1010 og 1110 ikke er omfattet af VIA-beregningen, fordi den pågældende jobfunktion **bogføres**.
+* *1000* til *1299*: Igangværende arbejde beregnes separat for denne gruppe projektopgaver. Bemærk dog, at to af opgaverne, 1010 og 1110 ikke er omfattet af beregningen af igangværende arbejde, fordi den pågældende projektfunktion er **Bogføring**.
 
-* *1300* til *1399*: VIA beregnes separat for denne gruppe sagsopgaver.
+* *1300* til *1399*: Igangværende arbejde beregnes separat for denne gruppe projektopgaver.
 
 ## Beregn VIA
 
-Du kan fastlægge det beløb for VIA, der skal bogføres til balancekonti ved periodeafslutningsrapporteringen. Det gør du ved at udføre kørslen **Beregn VIA for sag**.  
+Du kan fastlægge det beløb for VIA, der skal bogføres til balancekonti ved periodeafslutningsrapporteringen. Brug batchprojektet **Beregn igangværende arbejde for projekt** til at gøre det.  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Beregn VIA for sag**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , skriv **beregn igangværende arbejde for projekt**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Beregn igangværende arbejde**.
-3. På siden **Beregn VIA for sag** skal du udfylde felterne efter behov.
+3. På siden **Beregn igangværende arbejde for projekt** skal du udfylde felterne efter behov.
 4. Vælg knappen **OK**.  
 
 > [!NOTE]  
->   Batchjobbet beregner kun VIA, men VIA bogføres ikke. Hvis du vil bogføre, skal du udføre kørslen **Bogfør igangværende arbejde - finansafstemning**, når du har beregnet igangværende arbejde. Der er flere oplysninger i følgende procedure.
+> Batchprojektet beregner kun igangværende arbejde, men det bogføres ikke. Hvis du vil bogføre, skal du udføre kørslen **Bogfør projektets igangværende arbejde til finans**, når du har beregnet igangværende arbejde. Der er flere oplysninger i følgende procedure.
 
 ## Bogfør VIA
 
-Når du har beregnet igangværende arbejde, kan du bogføre det til balancekontiene for periodeafslutningsrapporteringen. Det gør du ved at udføre kørslen **Bogfør VIA for sag**.
+Når du har beregnet igangværende arbejde, kan du bogføre det til balancekontiene for periodeafslutningsrapporteringen. Det gør du ved at køre batchprojektet **Bogfør projektets igangværende arbejde til finans**.
 
-1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogfør VIA for sag til finans**, og vælg derefter det relaterede link.  
-2. På siden **Bogfør VIA - finansafstemning** skal du udfylde felterne efter behov.  
+1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , skriv **Bogfør projektets igangværende arbejde til finans**, og vælg derefter det relaterede link.  
+2. På siden **Bogfør projektets igangværende arbejde til finans** skal du udfylde felterne efter behov.  
 3. Vælg knappen **OK**.
 
-## Beregn og bogfør sagsafslutningsposter
+## Beregn og bogfør projektafslutningsposter
 
-Når du har fuldført alle aktiviteter for en sag, inklusive bogføring og fakturering af forbrug, skal du opdatere sagen for at få **status** **Afsluttet**. Derefter skal du tilbageføre alt igangværende arbejde, som er blevet bogført i finansregnskabet.
+Når du har fuldført alle aktiviteter for et projekt, inklusive bogføring og fakturering af forbrug, skal du opdatere projektets status til **Afsluttet**. Derefter skal du tilbageføre alt igangværende arbejde, som er blevet bogført i finansregnskabet.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Jobs**, og vælg derefter det relaterede link.  
-2. Vælg en åben sag, og vælg derefter handlingen **Rediger**.
+1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , angiv **Projekter**, og vælg derefter det relaterede link.  
+2. Vælg et åbent projekt, og vælg derefter handlingen **Rediger**.
 3. I feltet **Status** skal du vælge **Fuldført**.
-4. Følg hjælpetrinnene for at beregne og bogføre igangværende arbejde. Du kan også følge trin 5 og 6 for at gøre det manuelt.  
+4. Følg trinnene i hjælpen for at beregne og bogføre igangværende arbejde, eller følg trin 5 og 6 for at gøre det manuelt.  
 5. Vælg handlingen **Beregn igangværende arbejde**.
-6. På siden **Beregn VIA for sag** skal du udfylde felterne efter behov.  
+6. På siden **Beregn igangværende arbejde for projekt** skal du udfylde felterne efter behov.  
 
-     Posterne for igangværende arbejde for sagen, som blev oprettet ved at udføre kørslen, vil nu være markeret i feltet **Sagen er fuldført** for at vise, at de er færdiggørelsesposter.  
-7. Vælg handlingen **Bogfør VIA - finansafstemning**.
-8. På siden **Bogfør VIA - finansafstemning** skal du udfylde felterne efter behov.  
+     Posterne for igangværende arbejde for projektet, som blev oprettet ved at udføre kørslen, vil nu være markeret i feltet **Projektet er fuldført** for at vise, at de er færdiggørelsesposter.  
+7. Vælg handlingen **Bogfør igangværende arbejde til finans**.
+8. På siden **Bogfør projektets igangværende arbejde til finans** skal du udfylde felterne efter behov.  
 
-     Sagens VIA-finansposter, som blev oprettet ved at udføre kørslen, vil nu være markeret i feltet **Sagen er fuldført** for at vise, at de er færdiggørelsesposter.
+     Projektets finansposter for igangværende arbejde, som blev oprettet ved at udføre batchprojektet, vil nu være markeret i feltet **Projektet er fuldført** for at vise, at de er færdiggørelsesposter.
 
-## Vise sagsposter
+## Få vist projektfinansposter
 
-Alle sagsrelaterede poster er registreret i sagsjournaler med fortløbende nummerering, hvor der startes med 1. Fra sagsjournalen kan du få et overblik over alle sagsposter.    
+Alle projektrelaterede poster er registreret i projektjournaler med fortløbende nummerering, hvor der startes med 1. Fra projektjournalen kan du få et overblik over alle projektposter.    
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagsjournaler**, og vælg derefter det relaterede link.
-2. Vælg en relevant journal, og vælg derefter handlingen **Sagsposter**.
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , skriv **Projektregistre**, og vælg derefter det relaterede link.
+2. Vælg en relevant journal, og vælg derefter handlingen **Projektposter**.
 
-På siden **Sagsposter** kan du gennemse de poster, der er tilknyttet en sag.  
+På siden **Projektposter** kan du gennemse de poster, der er tilknyttet et projekt.  
 
 ## Se også
 
-[Gennemgang - Beregning af igangværende arbejder for en sag](walkthrough-calculating-work-in-process-for-a-job.md)
-[Managing Projects](projects-manage-projects.md)  
+[Gennemgang - Beregning af igangværende arbejder for et projekt](walkthrough-calculating-work-in-process-for-a-job.md)
+[Administrere projekter](projects-manage-projects.md)  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
 [Køb](purchasing-manage-purchasing.md)  

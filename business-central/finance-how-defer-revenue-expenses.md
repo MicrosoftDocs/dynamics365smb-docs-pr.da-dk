@@ -1,25 +1,28 @@
 ---
 title: Periodisere indtægter og udgifter
-description: 'For at genkende indtægter og udgifter i perioder, hvor transaktionen ikke blev bogført, kan du automatisk periodisere eller udskyde dem inden for et angivet skema.'
+description: 'Lær mere om automatisk at periodisere eller udskyde indtægter og udgifter i perioder, hvor transaktionen ikke blev bogført, kan du automatisk periodisere eller udskyde dem inden for et angivet skema.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: postpone
 ms.search.form: '1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707'
-ms.date: 12/06/2023
+ms.date: 03/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 # Periodisere indtægter og udgifter
 
-For at genkende en indtægt eller udgift i en periode ud over den periode, hvor transaktionen blev bogført, kan du bruge funktionen til automatisk periodisering af indtægter og udgifter inden for et angivet skema.
+For at genkende en indtægt eller udgift i en periode ud over den periode, hvor transaktionen blev bogført, kan du automatisk periodisere indtægter og udgifter inden for et angivet skema.
 
 For at fordele indtægter eller udgifter på de involverede regnskabsperioder, skal du oprette en periodiseringsskabelon for den ressource, vare eller finanskonto, som indtægten eller udgiften skal bogføres til. Når du bogfører det relaterede salgs- eller købsbilag, periodiseres indtægten eller udgiften til de involverede regnskabsperioder i overensstemmelse med en periodiseringsplan, som er omfattet af indstillingerne i periodiseringsskabelonen og bogføringsdatoen.
 
+> [!NOTE]
+> Salgs- og købskladder validerer kildesporet. Valideringen kræver, at kildekoden for salgs- og salgskladder og købs- og købskladder ikke er identiske, når du bruger udsættelser. Hvis det er indstillet til at være identisk, kan du omgå denne begrænsning ved at oprette en skabelon og batch, der bruger en anden kildekode.
+
 ## Sådan konfigureres en finanskonti til periodisering
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoplan**, og derefter vælge det relaterede link.
+1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoplan**, og derefter vælge det relaterede link.
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne efter behov for at oprette en finanskonto til udskudte indtægter. Du kan finde flere oplysninger i [Finans- og kontoplanen](finance-general-ledger.md).
 4. Gentag trin 2 og 3 for at oprette en ny finanskonto til udskudte udgifter.

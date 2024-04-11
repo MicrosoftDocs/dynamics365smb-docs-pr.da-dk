@@ -34,7 +34,7 @@ Med indstillingen Send og forbrug, kan du registrere og bogføre varer, omkostni
 > [!NOTE]  
 >  Proceduren til servicepostering sætter dig i stand til at foretage delvis bogføring. Du kan oprette en delleverance eller en delfaktura ved at udfylde felterne **Lever (antal)** og **Fakturer (antal)** på de enkelte servicelinjer i serviceordrerne, før du bogfører. Bemærk, at du ikke kan oprette en faktura for noget, der ikke er leveret. Dvs., før du kan fakturere, skal der være registreret en leverance, eller du skal vælge at sende og fakturere på samme tid.  
 
-Når bogføringen er færdig, kan du se de bogførte servicedokumenter i de tilsvarende sider **Bogført serviceleverance** og **Bogført servicefaktura**. De bogførte poster, der er oprettet, kan ses på de forskellige sider med bogførte poster **Finansposter**, **Vareposter**, **Lagerposter**, **Serviceposter**, **Sagsposter** og **Garantiposter**.  
+Når bogføringen er færdig, kan du se de bogførte servicedokumenter i de tilsvarende sider **Bogført serviceleverance** og **Bogført servicefaktura**. De bogførte poster, der er oprettet, kan ses på de forskellige sider med bogførte poster **Finansposter**, **Vareposter**, **Lagerposter**, **Serviceposter**, **Projektposter** og **Garantiposter**.  
 
 ## Sådan får du vist oplysninger om et bogført servicedokument  
 Når du bogfører en servicefaktura, en serviceleverance eller en servicekreditnota, overføres oplysningerne i dokumentet til en af siderne **Bogført servicefaktura**, **Bogført serviceleverance** eller **Bogført servicekreditnota**. Du kan ikke skrive, ændre eller slette noget på disse sider. Du kan udskrive en leverance, faktura eller kreditnota fra disse sider.  

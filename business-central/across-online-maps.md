@@ -16,7 +16,7 @@ Du kan hente et kort fra din onlinekorttjeneste, der kan vise adresser og lokati
 * Kundekort
 * Leverandørkort
 * Ressourcekort
-* Sagskort
+* Projektkort
 * Bankkontokort
 * Kontaktkort
 * Medarbejderkort

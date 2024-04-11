@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'supply planning, sales demand, replenish'
 ms.search.form: '50, 51, 56, 9308'
-ms.date: 04/01/2021
+ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -61,7 +61,7 @@ Når du vil oprette en enkelt købsfaktura for en eller flere linjer i et salgsd
 ## Se også
 [Køb](purchasing-manage-purchasing.md)  
 [Registrere køb](purchasing-how-record-purchases.md)  
-[Fakturere salg](sales-how-invoice-sales.md)  
+[Fakturasalg](sales-how-invoice-sales.md)  
 [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

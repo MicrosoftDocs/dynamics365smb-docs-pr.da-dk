@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.service: dynamics-365-business-central
 ms.search.keywords: 'find, search, Tell Me'
 ms.search.form: TellMe
-ms.date: 09/21/2023
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
@@ -41,7 +41,7 @@ Du kan bruge Fortæl mig i den lokale webklient til at finde handlinger, sider o
 
 ## Er Fortæl mig tilgængelig for alle formfaktorer?
 
-Ja. Den blev introduceret på telefoner og tablets i Business Central-udgivelsesbølge 2 i 2023, men skal aktiveres i [Funktionsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management) ved hjælp af parameteren **Funktion: Søg efter sider og data i mobilappen**. 
+Ja. Det blev introduceret på telefoner og tablets i Business Central 2023 udgivelsesbølge 2. I 2023 udgivelsesbølge 2 skal det være aktiveret i [Funktionsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management) ved hjælp af kontakten **Funktion: Søg efter sider og data i mobilappen**. I 2024 udgivelsesbølge 1 og nyere er det altid aktiveret.
 
 <!-- removed in v20 because of Help pane
 ### Are the documentation results available in any language?

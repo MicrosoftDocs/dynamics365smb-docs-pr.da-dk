@@ -5,14 +5,14 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.topic: conceptual
-ms.date: 09/25/2023
+ms.date: 03/14/2024
 ms.custom: bap-template
 ms.search.keywords: 'consolidation, subsidiaries, consolidate'
 ms.search.form: '1826, 1827'
 ms.service: dynamics-365-business-central
 ---
 
-# Konfigurere virksomhedskonsolidering
+# Opsætte virksomhedskonsolidering
 
 Før du kan konsolidere finansposterne fra to eller flere regnskaber (datterselskaber) til et konsolideret regnskab, skal du forberede kontoplanerne og det konsoliderede regnskab.  
 
@@ -75,6 +75,19 @@ En stor del af opsætningen af koncernvirksomheden er at angive, hvordan enheden
 > [!NOTE]
 > API-indstillingen giver dig også mulighed for at dele finansposter fra andre [!INCLUDE [prod_short](includes/prod_short.md)]-miljøer. Hvis du vil bruge API-indstillingen, skal den bruger, der konfigurerer konsolideringen, have tilladelse til at få adgang til finansposter. Tilladelsessættene D365 Basic og D365 Read giver f.eks. adgang.
 
+#### Opsæt valutaer for afdelinger
+
+Når du udfører konsolidering for koncernvirksomheder, der bruger en fremmed valuta, skal du være særlig opmærksom på de valutakurser, som forskellige dele af processen bruger, og endnu mere, når du kører konsolideringen igen. Det gør du ved at bruge siden **Konfigurer valutaer for afdelinger** for koncernvirksomheder til nemt at holde styr på kurserne.
+
+Siden **Konfigurer valutaer for afdelinger** giver dig de seneste kurser for gennemsnit, ultimokurs og sidste ultimokurs. Du kan slå valutakurserne op i tabellen Valutakurs, hvilket gør det nemmere at validere kurser. Du kan ændre satserne for den aktuelle kørsel ved at indtaste værdierne eller kopiere dem fra tidligere kørsler. Hvis du vil kopiere kurser, skal du vælge **Vælg fra forrige konsolidering**. Denne side er især værdifuld, når du vil køre en tidligere konsolidering igen, hvor du skal bruge en tidligere ultimokurs. Dette er nødvendigt for at regulere balanceposterne korrekt. Siden **Vælg fra forrige konsolidering** er også nyttig, hvis du kun vil have vist de satser, der blev brugt, f.eks. i forbindelse med fejlfinding. Siden filtreres til kørsler, der omfattede den valgte afdeling.
+
+Du starter batchjobbet **Udfør konsolidering** fra listesiden **Koncernvirksomheder**. Du kan også finde siden **Konfigurer valutaer for afdelinger** ved at vælge handlingen **Valutakurser**.
+
+> [!NOTE]
+> De sider til opsætning af valutakurser for gennemsnit, ultimokurs og seneste ultimokurs, der aktuelt er tilgængelige på **virksomhed**, udfases i en fremtidig version. Du kan dog stadig opretholde disse satser, hvis du har koncernvirksomheder, som du importerer via filer.
+
+#### Opret en afdeling
+
 1. Log på det konsoliderede regnskab.
 2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Forretningsenheder**, og vælg derefter det relaterede link.  
 3. Vælg handlingen **Ny handling**, og udfyld felterne på oversigtspanelerne **Generelt** og **Finanskonti** efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -113,13 +126,11 @@ I følgende tabel beskrives de valutakursmetoder, du kan bruge til konti.
 |Sammensat kurs | Beløbene i den aktuelle periode oversættes til gennemsnitskursen og føjes til den tidligere registrerede balance i det konsoliderede regnskab. Du bruger typisk denne metode til resultatkonti. Disse konti indeholder beløb fra forskellige perioder, så de indeholder beløb, der er oversat med forskellige valutakurser.|
 |Aktiekurs | Dette svarer til **sammensat**. Differencerne bogføres på separate finanskonti.|
 
-Gør følgende for at angive valutakurser for koncernvirksomheder:
+Gør følgende for at angive valutakurser for en koncernvirksomhed:
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Forretningsenheder**, og vælg derefter det relaterede link.  
-2. Vælg koncernvirksomheden på siden **Koncernvirksomhedsoversigt**, og vælg derefter handlingen **Gennemsnitskurs (manuel)**.  
-3. På siden **Ret valutakurs** er indholdet af feltet **Associeret valutakurs** blevet kopieret fra tabellen **Valutakurs**, men du kan ændre oplysningerne efter behov. Luk siden.  
-4. Vælg handlingen **Ultimokurs**.  
-5. I feltet **Associeret valutakursbeløb** skal du angive valutakursen.
+1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Forretningsenheder**, og vælg derefter det relaterede link.  
+2. Vælg koncernvirksomheden på siden **Koncernvirksomhedsoversigt**, og vælg derefter handlingen **Valutakurser**.  
+3. På siden **Opsæt valutaer for afdelinger** skal du udfylde felterne efter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="dim"></a>Medtag eller Udelad dimensioner
 

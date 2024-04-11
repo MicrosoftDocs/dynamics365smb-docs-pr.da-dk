@@ -6,18 +6,18 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'numbers, numbering'
 ms.search.form: '456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31'
-ms.date: 03/24/2022
+ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Oprette nummerserie
 
-For hver af de virksomheder, som du opretter, skal du knytte entydige id-koder til ting som finanskonti, debitor- og kreditorkonti, fakturaer og andre dokumenter. Nummereringen er ikke kun vigtig til identifikation. Et veludviklet nummereringssystem gør det også nemmere at administrere og foretage analyse i virksomheden og kan reducere antallet af dataindtastningsfejl.
+For hver af de virksomheder, som du opretter, skal du knytte entydige id-koder til ting som finanskonti, debitor- og kreditorkonti, fakturaer og andre dokumenter. Nummerering er ikke kun vigtig til identifikation. Et veludviklet nummereringssystem gør det også nemmere at administrere og foretage analyse i virksomheden og kan reducere antallet af dataindtastningsfejl.
 
 > [!Important]
-> Der er som standard ikke tilladt huller i nummerserier, fordi den nøjagtige historik over økonomiske transaktioner i henhold til lovgivningen skal være tilgængelig for revision og derfor skal følge en ubrudt rækkefølge uden slettede numre.
-> 
-> Hvis du vil tillade huller i visse nummerserier, skal du først rådføre dig med din revisor eller regnskabschef for at sikre, at du overholder de juridiske krav i dit land/område. Du kan finde flere oplysninger i [Huller i nummerserier](#gaps-in-number-series).
+> Det er som standard ikke tilladt at have huller i nummerserier, fordi den nøjagtige historik over økonomiske transaktioner i henhold til lovgivningen skal være tilgængelig for revision og derfor skal følge en ubrudt rækkefølge uden slettede numre.
+>
+> Hvis du vil tillade huller i visse nummerserier, skal du rådføre dig med din revisor eller regnskabschef for at sikre, at du overholder de juridiske krav i dit land/område. Du kan finde flere oplysninger i [Huller i nummerserier](#gaps-in-number-series).
 
 > [!NOTE]  
 > Det anbefales, at du bruger samme nummerseriekoder, som du kan se vist på siden **Nummerserieoversigt** i demoregnskabet CRONUS. Koder som *K-FAK+* giver muligvis ikke mening for dig, men [!INCLUDE[prod_short](includes/prod_short.md)] har en række standardindstillinger, som afhænger af disse nummerseriekoder.
@@ -32,11 +32,12 @@ Normalt vil du indstille dine nummerserier til automatisk at indsætte det næst
 Hvis du vil bruge mere end én nummerseriekode til en type stamdata - hvis du f.eks. vil bruge forskellige nummerserier til forskellige varekategorier - kan du bruge nummerserierelationer.
 
 ## Huller i nummerserier
+
 Ikke alle de poster, du opretter i [!INCLUDE[prod_short](includes/prod_short.md)], er økonomiske transaktioner, der skal bruge fortløbende nummerering. Debitorkort, salgstilbud og lageraktiviteter er eksempler på poster, der tildeles et nummer fra en nummerserie, men som ikke er underlagt økonomisk revision og/eller kan slettes. For disse nummerserier kan du markere afkrydsningsfeltet **Tillad huller i numre** på siden **Nummerserielinjer**. Denne indstilling kan også ændres, når nummerserien er oprettet. Du kan finde flere oplysninger i [Sådan opretter du en ny nummerserie](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## Egenskaberne for feltet felt på dokumenter og kort
 
-På salgs-, købs- og overførselsdokumenter og på alle kort kan **Nummer** felter kan udfyldes automatisk eller fra en foruddefineret nummerserie, eller du kan tilføje dem manuelt. Men i visse tilfælde er feltet **nr.** feltet er usynligt for at forhindre dig i at redigere det.  
+På salgs-, købs-, overførsels- og servicedokumenter og på alle kort kan **Nummer** felter kan udfyldes automatisk eller fra en foruddefineret nummerserie, eller du kan tilføje dem manuelt. Men i visse tilfælde er feltet **nr.** feltet er usynligt for at forhindre dig i at redigere det.  
 
 Feltet **Nummer** kan udfyldes på tre måder:
 
@@ -45,20 +46,22 @@ Feltet **Nummer** kan udfyldes på tre måder:
     Selvom du definerer skabeloner med forskellige nummerserier til debitorer, er den nummerserie, der er defineret på siden **Salgsopsætning** konfigureret på denne måde, og feltet **Nr.** er usynligt på debitorkortet, uanset hvilken type du bruger. Det samme gælder for andre kort og dokumenter.  
 
     > [!NOTE]  
-    > Hvis nummerserien ikke fungerer, f.eks. fordi der ikke er flere tal, er feltet **Nummer** synligt, og du kan manuelt angive et nummer eller løse problemerne på siden **Nummerserie**.
+    > Hvis nummerserien ikke fungerer, f.eks. fordi den har nået det sidst definerede nummer i intervallet, vises feltet **Nr.**, hvor du kan indtaste et nummer manuelt. Du kan løse problemer på siden **Nummerserie**.
 
-2. Hvis der findes mere end én nummerserie for typen af dokument eller kort, og afkrydsningsfeltet **Standardnumre** ikke er markeret for den nummerserie, der aktuelt er tildelt, er feltet **Nummer** synligt, og kan du slå siden **Nummerserie** op og vælge den nummerserie, du vil bruge. Det næste nummer i serien indsættes derefter i feltet **Nummer** .
+2. Hvis du har mere end én nummerserie for en type dokument eller kort, og afkrydsningsfeltet **Standardnumre** ikke er markeret for den tildelte nummerserie, vises feltet **Nummer**, og du kan gå til siden **Nummerserie** og vælge den nummerserie, du vil bruge. Det næste nummer i serien indsættes derefter i feltet **Nummer** .
 
-3. Hvis du ikke har defineret en nummerserie for denne type dokument eller kort, eller hvis feltet **Manuel nummerering** er markeret for nummerserien, er feltet **Nummer** synligt, og du skal angive et nummer manuelt. Du kan bruge op til 20 tegn (både tal og bogstaver).
+3. Hvis du ikke har defineret en nummerserie for en type dokument eller kort, eller hvis feltet **Manuel nummerering** er markeret for nummerserien, vises feltet **Nummer**, hvor du kan indtaste et nummer manuelt. Du kan bruge op til 20 tegn (både tal og bogstaver).
 
-Når du åbner et nyt dokument eller kort, der findes en nummerserie for, åbnes den relevante side **Konfiguration af salgsnummerserie**, så du kan oprette en nummerserie for denne type dokument eller kort, før du fortsætter med andre indtastning af data.
+Når du åbner et nyt dokument eller kort, der findes en nummerserie for, åbnes siden **Konfiguration af nummerserie**, så du kan oprette en nummerserie for denne type dokument eller kort og fortsætte med arbejdet.
 
 > [!NOTE]  
 > Hvis du har brug for at aktivere manuel nummerering på f.eks. nye varekort, der er oprettet med en dataoverførselsproces, hvor **Nummer** som standard er skjult, skal du gå til siden **Lageropsætning** og vælge feltet **Varenumre** for at åbne og indstille de relaterede nummerserier til **Manuel nummerering**.
+>
+> Det samme gælder, hvis du bruger funktioner til servicestyring. Du kan løse problemet ved at gå til siden **Serviceopsætning** og vælge feltet **Serviceartikelnumre** for at indstille nummerserien til **Manuel nummerering**.
 
 ## Sådan opretter du en ny nummerserie
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Nummerserie**, og vælg derefter det relaterede link.
+1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Nummerserie**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.  
 3. Udfyld felterne på den nye linje efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Vælg handlingen **Linjer**.  
@@ -66,9 +69,9 @@ Når du åbner et nyt dokument eller kort, der findes en nummerserie for, åbnes
 6. Gentag trin 5 for så mange forskellige anvendelser af nummerserien, du har brug for. Feltet **Startdato** angiver, hvilken nummerserielinje der er aktiv.  
 
 > [!TIP]
-> Hvis du vil tillade, at brugere angiver numre manuelt, når de registrerer en ny kunde eller leverandør, skal du f. eks. vælge feltet **Manuel nummerering** på selve nummerserien. Fjern feltet, hvis du ikke vil tillade Manuel nummerering.
+> Hvis du vil tillade, at brugere angiver numre manuelt, når de registrerer en ny kunde eller leverandør, skal du f. eks. vælge feltet **Manuel nummerering** på selve nummerserien. Ryd feltet, hvis du vil undgå manuel nummerering.
 
-Du kan tildele nummerserier til de skabeloner, som du opretter til de forskellige typer debitorer og kreditorer, som dine salgs folk og indkøbere oftest føjer til din [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis det er tilfældet, skal du oprette de relevante nummerserier, knytte dem gennem forhold og derefter tilføje den første nummerserie i den relevante relation til den relevante opsætningsside. Når en bruger opretter en kunde, vælger han derefter den relevante skabelon, og den nye debitor får et nummer, der er tildelt fra den nummerserie, der er defineret for den pågældende skabelon.  
+Du kan tildele nummerserier til de skabeloner, som du opretter til de forskellige typer debitorer og kreditorer, som dine sælgere og indkøbere oftest tilføjer. Hvis det er tilfældet, skal du oprette de relevante nummerserier, knytte dem gennem forhold og derefter tilføje den første nummerserie i den relevante relation til den relevante opsætningsside. Når en bruger opretter en kunde, vælger han derefter den relevante skabelon, og den nye debitor får et nummer, der er tildelt fra den nummerserie, der er defineret for den pågældende skabelon.  
 
 ## Sådan oprettes relationer mellem nummerserier
 

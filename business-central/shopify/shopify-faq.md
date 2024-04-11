@@ -25,23 +25,26 @@ Shopify-connector giver virksomheder mulighed for at tilslutte din deres Shopify
 - Support til mere end én Shopify-butik
   - Hvert køb har sin egen opsætning, herunder en samling produkter, lokationer, der bruges til at beregne lager, og prislister.  
 - Tovejs synkronisering af varer eller produkter
-  - Connectoren synkroniserer billeder, varevarianter, stregkoder, leverandørs varenumre, udvidede tekster og koder.  
+  - Connectoren synkroniserer billeder, varevarianter, stregkoder, leverandørs varenumre, udvidede og marketingtekster og -koder.  
   - Eksporte vareattributter til Shopify.  
-  - Brug de valgte debitorprisgrupper og rabatter til at definere de priser, der skal udlæses til Shopify.  
-  - Beslut, om du kan oprette varer automatisk eller kun tillade opdateringer af eksisterende produkter.  
+  - Brug de valgte debitorprisgrupper og rabatter til at definere de priser, der skal udlæses til Shopify.
+  - Definere priser og rabatter for produktkataloger, der er knyttet til B2B-virksomheder.
+  - Beslut, om du kan oprette varer automatisk eller kun tillade opdateringer af eksisterende produkter.
 - Lagerniveausynkronisering
   - Vælge nogle eller alle tilgængelige placeringer i [!INCLUDE [prod_short](../includes/prod_short.md)].  
   - Opdater lagerniveauer på flere lokationer i Shopify.  
-- Tovejs synkronisering af kunder
+- Tovejs synkronisering af kunder og virksomheder
   - Med chipkort-kunder pr. telefon og pr. e-mail.  
   - Brug lande/områdespecifikke skabeloner, når du opretter debitorer, som er med til at sikre, at skatte indstillingerne er korrekte.  
 - Importer ordrer fra Shopify
-  - Medtage ordrer, der er oprettet i andre kanaler, f. eks Online-butik eller **Shopify POS**.
+  - Medtage ordrer, der er oprettet i andre kanaler, f. eks Online-butik, **Shopify POS** eller **B2B**.
   - Forsendelsesomkostninger, gavekort, tip, leverings-og betalingsmetoder, transaktioner og risiko for svig.  
   - Under indlæsningen kan du automatisk oprette debitorer i [!INCLUDE [prod_short](../includes/prod_short.md)] eller bestemme, om debitorerne i Shopify skal administreres.  
   - Modtage betalingsoplysninger fra Shopify Payments.
 - Spore indfrielsesoplysninger
-  - Du kan vælge at overføre oplysninger om varesporing fra [!INCLUDE [prod_short](../includes/prod_short.md)] til Shopify.  
+  - Du kan vælge at overføre oplysninger om varesporing fra [!INCLUDE [prod_short](../includes/prod_short.md)] til Shopify.
+- Konsolløs integration
+  - Aktivér automatisk synkronisering af produkter, lagerbeholdning, ordrer, opfyldelser og meget mere.
 
 ## Hvorfor har Microsoft og Shopify formular dette partnerskab?
 
@@ -52,6 +55,8 @@ Shopify-connector giver virksomheder mulighed for at tilslutte din deres Shopify
 Denne funktion er kun tilgængelig for [!INCLUDE[prod_short](../includes/prod_short.md)] online, startende med version 20.1. Funktionen understøttes ikke i lokale installationer. Connectoren er forudinstalleret for at give nye miljøer. Organisationer med eksisterende miljøer kan hente og installere connectoren fra AppSource. Organisationen skal have både en [!INCLUDE [prod_short](../includes/prod_short.md)]-licens og en Shopify-licens for at kunne bruge connectoren. Du kan finde flere oplysninger om understøttede lande/områder, sprog og udgaver af [!INCLUDE[prod_short](../includes/prod_short.md)] på [Shopify Connector på AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
 
 Shopify-connectoren kan ikke bruges til en [indlejret app](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), hvor klientens URL-adresse har formatet: `https://[application name].bc.dynamics.com`.
+
+Shopify-connectoren fungerer ikke sammen med andre produkter i Dynamics 365-porteføljen.
 
 ## Hvilken support tilbydes til Shopify-connector?
 
@@ -69,8 +74,6 @@ Du kan også udforske [Eksperter på markedet](https://experts.shopify.com/) for
 
 ## Understøttes ikke i øjeblikket, men vi holder styr på dem og kan evt. tilføje dem
 
-- B2B-funktioner, herunder virksomheder, prislister og betalingsbetingelser
-  - Udvidet understøttelse af B2B vil være tilgængelig i udgivelsesbølge 1 i 2024. Du kan finde flere oplysninger i [Connect Business Central med Shopify B2B](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b)
 - Markeder
   - Flere oversættelser af master data. Du kan vælge ét sprog, der skal bruges til eksport af produktoplysninger.
   - Priser pr. land/område. Én prisliste er tilgængelig for den valgte valuta. Omregningen til andre valutaer håndteres af Shopify.
@@ -78,7 +81,7 @@ Du kan også udforske [Eksperter på markedet](https://experts.shopify.com/) for
 
 ## Kan Shopify-connectoren udvides?
 
-Ja, Shopify-connectoren kan udvides. Kontroller GitHub for at få adgang til [listen med udvidelsespunkter](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify), og udforsk nogle [eksempler](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md).
+Ja, Shopify-connectoren kan udvides. Kontroller GitHub for at få adgang til [listen med udvidelsespunkter](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify), og udforsk nogle [eksempler](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
 
 ## Er Shopify-connectoren åben for bidrag?
 

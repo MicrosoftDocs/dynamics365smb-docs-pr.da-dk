@@ -1,7 +1,7 @@
 ---
 title: Ofte stillede spørgsmål om bankkontoafstemning med Copilot (forhåndsversion)
 description: 'Disse ofte stillede spørgsmål indeholder oplysninger om den AI-teknologi, der bruges til at afstemme bankkonti og kontoudtog Business Central. De indeholder vigtige overvejelser og detaljer om, hvordan AI bruges, hvordan det blev testet og evalueret, og eventuelle specifikke begrænsninger.'
-ms.date: 11/07/2023
+ms.date: 03/27/2024
 ms.custom:
   - responsible-ai-faqs
 ms.topic: article
@@ -15,9 +15,11 @@ ms.collection:
 
 # Ofte stillede spørgsmål om bankkontoafstemning med Copilot (forhåndsversion)
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
 
-Disse ofte stillede spørgsmål (FAQ) beskriver AI-effekten af Copilot-assistance med bankkontoafstemning i [!INCLUDE[prod_short](includes/prod_short.md)]. 
+Disse ofte stillede spørgsmål (FAQ) beskriver AI-effekten af Copilot-assistance med bankkontoafstemning i [!INCLUDE[prod_short](includes/prod_short.md)].
+
+[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 ## Hvad er bankafstemningshjælp?
 

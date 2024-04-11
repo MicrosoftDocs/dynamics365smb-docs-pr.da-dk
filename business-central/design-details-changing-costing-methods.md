@@ -79,7 +79,7 @@ Hvis du vil gøre de nye elementer fuldt anvendelige, skal du manuelt kopiere no
 |Salg |Forudbetalingsprocenter - salg | Kontrollér, om der er defineret forudbetalingsprocenter for salg af den oprindelige vare, og overfør dataene til den nye vare. Hvis du vil have vist forudbetalingsprocenter, skal du vælge **Salg** på siden **Varekort** og derefter **Forudbetalingsprocenter**.|
 |Køb |Forudbetalingsprocenter - køb |Kontrollér, om der er defineret forudbetalingsprocenter for køb af den oprindelige vare, og overfør dataene til den nye vare. Hvis du vil have vist forudbetalingsprocenter, skal du vælge **Køb** på siden **Varekort** og derefter **Forudbetalingsprocenter**. |
 |Lageragersted |Placeringsindhold |Gennemgå det placeringsindhold, der er defineret for den oprindelige vare. Hvis der er kolonner som Min. Antal, Maks. Antal, Standard og Dedikeret, der er blevet angivet individuelt, skal du manuelt oprette placeringsindhold til den nye vare. Hvis ikke, kræves der ingen handling. [!INCLUDE[prod_short](includes/prod_short.md)] vedligeholder posterne, når du registrerer lagerdokumenter og kladder.|
-|Sag |Sagspriser |Kontrollér, om der er defineret sagspriser for den oprindelige vare, og overfør dataene til den nye vare. Disse oplysninger er tilgængelige på siden **Jobkort** i delen **Sagsdetaljer - antal priser** i **faktaboksruden**. |
+|Sag |Sagspriser |Kontrollér, om der er defineret projektpriser for den oprindelige vare, og overfør dataene til den nye vare. Disse oplysninger er tilgængelige på siden **Projektkort** i delen **Projektdetaljer - antal priser** i **faktaboksruden**. |
 |Tjeneste |Ressourcekvalifikation for service |Kontrollér, om der er defineret ressourcekvalifikationer for service for den oprindelige vare, og overfør dataene til den nye vare. Hvis du vil have vist ressourcekvalifikationer, skal du bruge handlingen **Ressourcekvalifikationer** på siden **Varekort**.  |
 | |Serviceartikelkomponenter |Kontrollér, om der er defineret komponenter for den oprindelige service, og overfør dataene til den nye vare. Hvis du vil have vist serviceartikelkomponenter, skal du bruge **Serviceartikel**-handlingen på siden **Varekort** til at åbne listen over relaterede serviceartikler og derefter vælge handlingen **Komponenter**.  |
 |Produktion |Produktionsstyklister |Kontrollér, om produktionsstyklister indeholder den oprindelige vare, og erstat den med den nye vare. Hvis du vil erstatte den oprindelige vare, skal du vælge handlingen **Erstat prod.styklistevare** på siden **Produktionsstyklister**. |
@@ -153,7 +153,7 @@ I følgende tabel vises funktionelle områder, hvor der kan være udestående an
 |Planlægning |Indkøbskladde, planlægningskladde og ordreplanlægning |
 |Lageragersted |Overflytningsordrer, lagerleverancer, lagerkladder og pluk (logistik), læg-på-lager-aktiviteter og bevægelser, interne pluk og læg-på-lager-aktiviteter og placeringsoprettelseskladder |
 |Montage |Montagedokumenter, herunder ordrer, returvareordrer og rammeordrer |
-|Sager |Sagsplanlægningslinjer og sagskladdelinjer |
+|Job |projektplanlægningslinjer og projektkladdelinjer |
 |Tjeneste |Servicedokumenter og servicekontrakter |
 |Produktion |Produktionsordrer (planlagte, fastlagte og frigivne) |
 

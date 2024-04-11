@@ -17,11 +17,10 @@ Da virksomheder handler i stadig flere lande/områder, bliver det mere vigtigt, 
 > [!NOTE]  
 > Hvis du leder efter realtidsoplysninger om valutakurser (fx) eller historiske kurser, omtales de som valuta i [!INCLUDE[prod_short](includes/prod_short.md)]. Foruden denne artikel, kan du også se [Opdatere valutakurser](finance-how-update-currencies.md).
 
-
-Finansprogrammet er konfigureret til at bruge den lokale valuta (RV), men du kan også konfigurere det til at bruge en anden valuta med en aktuel valutakurs tilknyttet. Ved at angive en anden valuta som en såkaldt ekstra rapporteringsvaluta vil [!INCLUDE[prod_short](includes/prod_short.md)] automatisk registrere beløb i både RV og i den ekstra rapporteringsvaluta i hver enkelt finanspost og i andre poster, f.eks. momsposter.
+Finansprogrammet er konfigureret til at bruge den lokale valuta (RV), men du kan også konfigurere det til at bruge en anden valuta med en aktuel valutakurs tilknyttet. Ved at angive en anden valuta som en såkaldt ekstra rapporteringsvaluta vil [!INCLUDE[prod_short](includes/prod_short.md)] automatisk bogføre beløb i både RV og i den ekstra rapporteringsvaluta i hver enkelt finanspost og i andre poster, f.eks. momsposter.
 
 > [!Warning]
-> Funktionen Ekstra rapporteringsvaluta må ikke bruges som grundlag for oversættelse af regnskabsopgørelser, medmindre du forstår begrænsningerne. Det er ikke et værktøj, som kan udføre oversættelse af udenlandske datterselskabers regnskabsopgørelser som en del af en virksomhedskonsolidering. Funktionen Ekstra regnskabsvaluta må kun bruges til at udarbejde rapporter i en anden valuta, som hvis den pågældende valuta var virksomhedens lokale valuta.
+> Funktionen Ekstra rapporteringsvaluta må ikke bruges som grundlag for oversættelse af regnskabsopgørelser, medmindre du forstår begrænsningerne. Det kan ikke oversætte udenlandske datterselskabers regnskabsopgørelser som en del af en virksomhedskonsolidering. Funktionen Ekstra regnskabsvaluta må kun bruges til at udarbejde rapporter i en anden valuta, som hvis den pågældende valuta var virksomhedens lokale valuta.
 >
 > Du har f. eks. en stor mængde tilgodehavender i britiske pund (GBP), og du har oprettet din ekstra rapporteringsvaluta (EV) som GBP. I dette scenario reguleres beløb i de tilgodehavender, der benytter GBP, ikke for valutagevinster/-tab i EV, men kun beløbene i tilgodehavender i andre valutaer. Det betyder, at hvis du bruger EV til at rapportere dine regnskabsopgørelser, kan det medføre, at der er under-eller udestående saldi for tilgodehavender.
 
@@ -31,7 +30,7 @@ Brug af en ekstra rapporteringsvaluta kan være en hjælp i rapporteringsprocess
 - Virksomheder i lande uden for EU, som har et højt antal transaktioner med virksomheder i EU-lande. I dette tilfælde kan virksomheder i lande/områder uden for EU også ønske at rapportere i euro for at gøre regnskabsopgørelserne mere brugbare for EU-handelspartnere.
 - Virksomheder, som også ønsker at vise rapporter i en mere internationalt handlet valuta end deres egen lokale valuta.
 
-Flere finansrapporter er baseret på finansposter. Hvis rapportdata skal vises i rapporten i den ekstra rapporteringsvaluta, skal du blot markere feltet **Vis beløb i ekstra rapporteringsvaluta** på oversigtspanelet **Indstillinger** for den relevante finansrapport.
+Flere finansrapporter er baseret på finansposter. Hvis rapportdata skal vises i rapporten i den ekstra rapporteringsvaluta, skal du markere feltet **Vis beløb i ekstra rapporteringsvaluta** på oversigtspanelet **Indstillinger** for den relevante finansrapport.
 
 ## Regulering af valutakurser
 
@@ -113,7 +112,7 @@ Når du har udført kørslen, vil beløb i de følgende eksisterende poster vær
 - Finansposter  
 - Vareudligningsposter  
 - Momsposter  
-- Sagsposter  
+- Projektfinansposter  
 - Værdiposter  
 - Produktionslinjer  
 - Produktionsordreposter  

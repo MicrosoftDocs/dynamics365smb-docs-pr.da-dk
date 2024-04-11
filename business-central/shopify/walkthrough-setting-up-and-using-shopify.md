@@ -132,9 +132,9 @@ I **Shopify Admin** skal du notere om, ordren nu er markeret som *opfyldt*. Du k
 
 ### Scenarie
 
-Når du hurtigt har startet din nye onlinebutik, vil du have de aktuelle kunder til at besøge og begynde at bestille. Afhængigt af din Shopify plan og proces kan du prøve B2B- og D2C-flows.
+Når du hurtigt har startet din nye onlinebutik, vil du have de aktuelle kunder til at besøge og begynde at bestille. Afhængigt af din Shopify plan og proces kan du prøve B2B- og DTC-flows.
 
-### D2C Trin
+### DTC Trin
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)] skal du gøre følgende:
 
@@ -158,7 +158,7 @@ I [!INCLUDE[prod_short](../includes/prod_short.md)] skal du gøre følgende:
 4. Indstil filteret `30000` på **Nej.** .
 5. Vælg **OK**, og vent, til den første synkronisering af kunder er fuldført.
 
-I **Shopify Administrator** skal du bemærke, at både virksomheden og kunden blev importeret. Åbn debitorer, og læg mærke til faktaboksen for virksomheden med link til Virksomhed, lokation og tildelte tilladelser. Vælg **[...]** i **Virksomhed-faktaboksen, og vælg derefter **Send B2B-adgangsmail** for at invitere kunden.
+I **Shopify Administrator** skal du bemærke, at både virksomheden og kunden blev importeret. Åbn debitorer, og læg mærke til faktaboksen for virksomheden med link til Virksomhed, lokation og tildelte tilladelser. Vælg **[...]** i Virksomhed-faktaboksen, og vælg derefter **Send B2B-adgangsmail** for at invitere kunden.
 
 ## Gennemgang: Finjustering af varestyring
 

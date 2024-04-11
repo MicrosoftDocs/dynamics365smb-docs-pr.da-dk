@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Yodlee, feed, stream, payment process'
 ms.search.form: '1280, 1290'
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Konfigurere tjenesten Envestnet Yodlee Bank Feeds
+# Opsætte servicen Envestnet Yodlee Bank Feeds
 
 Du kan importere elektroniske bankkontoudtog fra din bank, så du hurtigt kan udfylde siden **Betalingsudligningskladde** og kan udligne betalinger og afstemme bankkontoen. Du kan finde flere oplysninger i [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
@@ -18,7 +18,7 @@ Du kan importere elektroniske bankkontoudtog fra din bank, så du hurtigt kan ud
 > På grund af betalingstjenestedirektivet i Europa (PSD2) kan du efter den 14. september 2019 ikke længere automatisk importere bankkontoudtog fra banker i Storbritannien til [!INCLUDE[prod_short](includes/prod_short.md)]. Vi overvejer evt. at tilbyde denne funktion igen i fremtiden.
 
 > [!NOTE]
-> Tjenesten Envestnet Yodlee Bank Feeds understøttes kun i onlineversionen af Business Central. Hvis du vil bruge denne funktion i det lokale miljø, skal du anskaffe en cobrand-konto fra Envestnet, og du skal tilføje kode for at integrere med Yodlee-API'en.
+> Tjenesten Envestnet Yodlee Bank Feeds understøttes kun i Business Central online. Denne funktionalitet understøttes ikke for lokale versioner af [!INCLUDE [prod_short](includes/prod_short.md)] eller for [!INCLUDE [prod_short](includes/prod_short.md)] miljøer, der hostes på Embed ISV-programtjenester. Hvis du vil bruge denne funktion i det lokale miljø, skal du anskaffe en cobrand-konto fra Envestnet, og du skal tilføje kode for at integrere med Yodlee-API'en.
 >
 > Tjenesten Envestnet Yodlee Bank Feeds understøttes kun i USA og Canada.
 > Kun banker, der er hjemmehørende i disse lande/områder, understøttes, selvom bankerne fra andre lande/områder kan blive vist i Envestnet Yodlee Bank Feeds-vinduet til bankvalg i [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -41,9 +41,10 @@ Når bankfeedtjenesten er aktiveret, kan du indstille en bankkonto til automatis
 > Hvis du bruger den assisterede opsætningsvejledning Konfigurer virksomhed, udføres nogle af trinnene i følgende procedurer automatisk, når du kommer til opsætning af virksomhedens bankkonto. Du kan finde flere oplysninger i [Blive klar til at handle](ui-get-ready-business.md).
 
 ## Sådan aktiveres bankfeedtjenesten
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.
 2. Åbn den bankkonto, som du vil bruge til bankfeedtjenesten.
-3. På siden **Bankkonto** skal du i feltet **Format til import af bankkontoudtog** , vælge YODLEEBANKFEED.  
+3. På siden **Bankkontokort** skal du i feltet **Format til import af bankkontoudtog** , vælge YODLEEBANKFEED.  
 
 Bankfeedtjenesten aktiveres, når du knytter en bankkonto til dens relaterede onlinebankkonto. Se den næste fremgangsmåde.  
 
@@ -51,6 +52,7 @@ Bankfeedtjenesten aktiveres, når du knytter en bankkonto til dens relaterede on
 > Hvis du bruger **Virksomhedsopsætning**-guiden til assisteret opsætning, aktiverer du tjenesten ved at markere afkrydsningsfeltet **Brug en bankfeedtjeneste**. Du kan finde flere oplysninger i [Oprettelse af ny virksomheder i Business Central](about-new-company.md).
 
 ## Sådan oprettes en ny tilknyttet bankkonto
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.
 2. Vælg den relevante bankkonto, og vælg derefter **Opret ny tilknyttet bankkonto**. Siden **Tilknytning af bankkonto** åbnes efter et kort øjeblik.
 
@@ -79,6 +81,7 @@ Bankfeedtjenesten aktiveres, når du knytter en bankkonto til dens relaterede on
 10. Brug siden **Bankkontooversigt** til at vælge den bankkonto, som du vil oprette en tilknytning til, og vælg derefter knappen **OK**.
 
 ## Sådan knyttes en bankkonto til en onlinebankkonto
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.
 2. Vælg linjen for en bankkonto, der ikke er knyttet til en onlinebankkonto, og vælg derefter handlingen **Tilknyt til onlinebankkonto**. Siden **Tilknytning af online bankkonto** åbnes med navnet på banken angivet i ruden **Tilknyt konto**.
 3. Vælg bankens navn. Ruden **Log på** åbnes.
@@ -92,11 +95,13 @@ Bankfeedtjenesten aktiveres, når du knytter en bankkonto til dens relaterede on
 På siden **Bankkontooversigt** er afkrydsningsfeltet **Tilknyttet** markeret.
 
 ## Sådan redigeres legitimationsoplysningerne for en online bankkonto
+
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Bankkonti**, og vælg derefter det relaterede link.  
 2. Vælg linjen for en bankkonto, der ikke er knyttet til en onlinebankkonto, og vælg derefter handlingen **Rediger onlinebankkontooplysninger**.
 3. Opdater oplysninger.
 
 ## Sådan fjernes tilknytningen til en bankkonto
+
 1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.  
 2. Vælg linjen for en tilknyttet bankkonto, som du vil fjerne tilknytningen for til den relaterede onlinebankkonto, og vælg derefter handlingen **Fjern tilknytning til onlinebankkonto**.
 
@@ -104,12 +109,14 @@ På siden **Bankkontooversigt** er afkrydsningsfeltet **Tilknyttet** markeret.
 > Hvis du vælger **Ja** i bekræftelsesdialogboksen, fjernes tilknytningen til onlinebankkontoen og logondetaljer ryddes. Hvis du vil knytte bankkontoen til onlinebankkontoen igen, skal du logge på banken igen. Du kan finde flere oplysninger i afsnittet “Sådan knyttes en bankkonto til en onlinebankkonto“.
 
 ## Sådan opdateres tilknytning af bankkonto
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.
 2. Vælg den relevante bankkonto, og vælg derefter handlingen **Opdater tilknytning af bankkonto**.
 
 Hvis der er problemer med nogen af de tilknyttede bankkonti på siden **Bankkontooversigt**, åbnes siden **Tilknytning af bankkonto** og angiver, hvilke konti der er problemer med. Problemer kan bedst løses ved at fjerne tilknytningen af onlinebankkontoen og derefter at oprette tilknytningen igen. Du kan finde flere oplysninger i afsnittet "Sådan knyttes en bankkonto til en onlinebankkonto".
 
 ## Sådan aktiveres automatisk import af kontoudtog fra banken
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.
 2. Vælg linjen for en tilknyttet bankkonto og vælg derefter handlingen **Opsætning af automatisk import af bankkontoudtog**.
 3. På siden **Opsætning af automatisk import af bankkontoudtog** skal du i feltet **Antal dage inkluderet** angive, hvor langt tilbage i tiden, der skal hentes nye banktransaktioner.
@@ -124,6 +131,7 @@ Hver time viser siden **Betalingsudligningskladde** nye betalinger, der foretage
 > Transaktioner for betalinger, der allerede er bogført som udlignet og/eller afstemt på siden **Betalingsudligningskladde** importeres ikke.
 
 ## Se også
+
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  
 [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)  

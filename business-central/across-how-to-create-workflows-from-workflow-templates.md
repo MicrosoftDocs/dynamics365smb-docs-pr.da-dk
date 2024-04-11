@@ -1,32 +1,38 @@
 ---
 title: Sådan oprettes workflows ud fra workflowskabeloner
-description: 'Hvis du vil spare tid, når du opretter nye godkendelses-workflows, kan du oprette ikke-redigerbare workflows fra workflowskabeloner, der er blevet foranstillet med "MS".'
+description: For at spare tid ved oprettelse af nye godkendte workflows kan du oprette workflows ud fra workflowskabeloner.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 09/08/2022
 ms.author: bholtorf
+ms.reviewer: dajoo
+ms.topic: how-to
+ms.search.keywords: null
+ms.date: 03/27/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Oprette workflows ud fra workflowskabeloner
 
-For at spare tid ved oprettelse af nye godkendelses-workflows kan du bruge workflowskabeloner.  
+På siden **Workflow** opretter du et workflow ved at oprette en serie af workflowtrin på linjerne. Hvert trin består af en workflowhændelse (Når hændelse), begrænset af hændelsesbetingelser (På betingelse) og et workflowsvar (Så svar), begrænset af svarmuligheder. Felterne på workflowlinjer indeholder faste lister med hændelses- og svarværdier, der repræsenterer de scenarier, som [!INCLUDE [prod_short](includes/prod_short.md)] understøtter. Flere oplysninger i [Oprette workflows](across-how-to-create-workflows.md).
 
-Workflowskabeloner er workflows, som ikke kan redigeres, og som findes i standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)]. Koderne for workflowskabeloner, som er oprettet af Microsoft, har "MS-" foran.  
+For at spare tid ved oprettelse af nye godkendelsesworkflows leverer [!INCLUDE [prod_short](includes/prod_short.md)] workflowskabeloner. Skabelonerne er tilgængelige på siden **Workflowskabeloner**. Du kan bruge skabelonerne, som de er, eller tilpasse dem, så de opfylder dine behov. Koderne for workflowskabeloner fra Microsoft, har **MS-** foran.
 
-En anden måde til hurtigt at oprette et workflow på er at importere et eksisterende workflow, som du har på en fil uden for [!INCLUDE[prod_short](includes/prod_short.md)]. Flere oplysninger under [Eksport og import af workflows](across-how-to-export-and-import-workflows.md).  
+[!INCLUDE [workflow-next-step](includes/workflow-next-step.md)]
 
-På siden **Workflow** opretter du et workflow ved at angive de involverede trin på linjerne. Hvert trin består af en hændelse i arbejdsgangen, begrænset af hændelsesbetingelser og et arbejdsgangssvar, begrænset af svarmuligheder. Du definerer arbejdsgangstrin ved at udfylde felter om arbejdsganglinjer fra faste lister over hændelses- og svarværdier, der repræsenterer scenarier, der understøttes af programkoden. Flere oplysninger i [Oprette workflows](across-how-to-create-workflows.md).  
+Hvis du ændrer en arbejdsprocesskabelon, men senere fortryder ændringen, skal du bruge handlingen **Nulstil Microsoft-skabeloner** til at vende tilbage til den oprindelige indstilling for arbejdsprocessen.
+
+> [!CAUTION]
+> Handlingen **Nulstil Microsoft-skabeloner** nulstiller alle Microsoft-arbejdsprocesskabeloner. Du kan ikke nulstille en enkelt skabelon.  
+
+Du kan også hurtigt oprette en arbejdsproces ved at importere den, f.eks. hvis du har eksporteret den fra en anden forekomst af [!INCLUDE[prod_short](includes/prod_short.md)]. Flere oplysninger under [Eksport og import af workflows](across-how-to-export-and-import-workflows.md).  
 
 ## Sådan opretter du fra et workflow ud fra en workflowskabelon
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Workflows**, og vælg derefter det relaterede link.  
+1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Workflows**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Nyt workflow fra skabelon**. Siden **Workflowskabeloner** åbnes.  
 3. Vælg en workflowskabelon, og vælg derefter knappen **OK**.  
 
    Siden **Workflow** åbnes for et nyt workflow, der indeholder alle oplysninger fra den valgte skabelon. Værdien i feltet **Kode** er udvidet med f.eks. "-01" for at angive, at dette er det første workflow, som oprettes ud fra workflowskabelonen.  
-4. Fortsæt med at oprette workflowet ved at redigere workflowtrinene eller tilføje nye trin. Flere oplysninger i [Oprette workflows](across-how-to-create-workflows.md).  
+4. Tilpas workflowet ved at redigere workflowtrinene eller tilføje nye trin. Flere oplysninger i [Oprette workflows](across-how-to-create-workflows.md).  
 
 ## Se også
 

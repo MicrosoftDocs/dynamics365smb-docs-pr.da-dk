@@ -1,5 +1,5 @@
 ---
-title: Hent en disponeringsoversigt
+title: Hente en disponeringsoversigt
 description: 'Du kan få vist oplysninger om varedisponeringen eller -beholdningen på tværs af lokationer pr. salg eller købshændelser, efter en periode eller lignende.'
 documentationcenter: ''
 author: brentholtorf
@@ -7,11 +7,11 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: stock
 ms.search.form: '908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390'
-ms.date: 09/21/2022
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Vise varedisponering
+# Vise varer, der er disponible
 
 Fra konteksten for en virksomhedsopgave kan du få avancerede oplysninger om, hvornår og hvor en vare er tilgængelig, f.eks, når du taler med en kunde om en leveringsdato.
 
@@ -59,7 +59,7 @@ Du får vist disponeringen for en vare over tid for angivne perioder på siden *
 
 På siden **Varedisponering pr. lokation** får du vist disponeringen for en vare på de forskellige steder, hvor den opbevares.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
+1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for en vare, som du vil have vist disponering for.
 3. Vælg handlingen **Varedisponering pr.**, og vælg derefter handlingen **Lokation**.
 
@@ -127,7 +127,7 @@ Siden **Montagedisponering** indeholder detaljerede disponeringsoplysninger for 
 
 - Automatisk fra en salgsordrelinje i montageordrescenarier, når du angiver et antal, der forårsager et problem med komponentdisponeringen.
 - Automatisk fra et montageordrehoved, når du angiver en værdi i feltet Antal, der forårsager et problem med komponentdisponeringen.
-- Manuelt, når du åbner den fra en montageordre. Under fanen Handlinger i gruppen Funktion skal du klikke på Vis disponering.
+- Manuelt, når du åbner den fra en montageordre. Under fanen Handlinger i gruppen Funktion skal du vælge Vis disponering.
 
 I oversigtspanelet **Detaljer** vises detaljerede disponeringsoplysninger for montageelementet, herunder, hvor mange af montageordreantallet kan monteres ved forfaldsdatoen, der er baseret på tilgængeligheden af de nødvendige komponenter. Dette vises i feltet Mulighed for montage i oversigtspanelet Detaljer.
 

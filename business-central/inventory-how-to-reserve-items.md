@@ -7,7 +7,7 @@ ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.forms: '498, 497'
-ms.date: 09/19/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -18,7 +18,7 @@ Du kan reservere varer til salgsordrer, købsordrer, serviceordrer, montageordre
 Hver linje på siden **Reservation**, som du åbner for at reservere varer, indeholder oplysninger om én type linje (salg, køb, kladde) eller lagerpost. Linjerne beskriver, hvor mange varer, der er tilgængelige for reservation fra hver linje eller post.
 
 > [!TIP]
-> Ud fra de antal, du har reserveret på lageret, viser [!INCLUDE [prod_short](includes/prod_short.md)] en status på dokumenterne, så du hurtigt er klar over det næste trin. Hvis du f.eks. vil angive, at du kan levere en salgsordre eller begynde at arbejde på en sag, en montage eller en produktionsordre. Status er også med til at reducere risikoen for utilsigtede delleverancer eller forsinkelser på grund af manglende lager til produktions- og montageordrer.
+> Ud fra de antal, du har reserveret på lageret, viser [!INCLUDE [prod_short](includes/prod_short.md)] en status på dokumenterne, så du hurtigt er klar over det næste trin. Hvis du f.eks. vil angive, at du kan levere en salgsordre eller begynde at arbejde på et projekt, en montage eller en produktionsordre. Status er også med til at reducere risikoen for utilsigtede delleverancer eller forsinkelser på grund af manglende lager til produktions- og montageordrer.
 >
 > Feltet **Reserveret fra lager** kan hjælpe dig med at forstå, om du kan levere eller plukke til en bestemt ordre eller ordrelinje. For linjer er feltet Reserveret fra lager tilgængeligt i faktabokse. Hvis du vil have adgang til oplysninger for hele ordren, findes feltet på siden **Statistik**.
 
@@ -79,13 +79,13 @@ Brug siden **Reservationskladde** til at reservere og masseallokere indgående v
 2. Vælg handlingen **Hent behov**, og angiv derefter den type behov, du vil reservere fra tilgængeligt lager.
 3. Udfyld filtrene efter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 4. Valgfrit: Hvis du vil allokere varerne med det samme, skal du vælge handlingen **Alloker**.
-5. Vælg en politik for hvert trin på siden **Allokeringspolitik**
+5. Vælg en politik for hvert trin på siden **Allokeringspolitik**.
 
    |Allokeringspolitik  |Beskrivelse  |
    |---------|---------|
    |Basis     | Allokerer lageret til et behov, hvis der ikke er nogen konflikter, og behovet kan dækkes fuldt ud. Du har f.eks. salgsordre A med et antal på 10 og en sag med et antal på 7. Hvis du har 20 på lager, modtager begge krav fuld mængde. Hvis dit lager er 12, tildeles der ikke noget lager. Du skal allokere mængden manuelt.        |
    |Ligeligt    | Fordeler det disponible lager ligeligt efter behov. Du har f.eks. en salgsordre med et antal på 10 og en sag med et antal på 7. Hvis dit lagerniveau er 20, modtager begge krav fuld mængde. Hvis dit lager er 12, får begge krav 6.        |
-   |Efter debitorprioritet|Fordeling baseret på feltet Prioritet på debitorkortet. I tilfælde af utilstrækkelige mængder vil systemet prioritere at forsyne kunder med højeste prioritet.|
+   |Efter debitorprioritet|Fordeling baseret på feltet **Prioritet** på siden **Debitorkort**. I tilfælde af lave lagermængder leverer Business Central først kunder med højere prioritet.|
 
 6. Hvis du vil reservere alle linjer, hvor **Accepter** er slået til, skal du vælge handlingen Foretag **reservation**.
     

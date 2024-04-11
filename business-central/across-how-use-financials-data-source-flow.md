@@ -107,7 +107,7 @@ Du kan oprette nye flows eller ændre og administrere eksisterende, f.eks. at ak
 Disse opgaver udføres typisk kun af administratorer eller superbrugere. Opgaverne kræver en større viden om forretningsprocesserne i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i følgende artikler i Business Central hjælp til udviklere og it-eksperter:
 
 - [Power Automate integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview)
-- [Oprette automatiserede flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) (dækker også godkendelsesflows)
+- [Oprette automatiserede flows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) (dækker også godkendelsesflows)
 - [Opret øjeblikkelige flows](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)
 - [Håndtér Power Automate-flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)
 <!-- 

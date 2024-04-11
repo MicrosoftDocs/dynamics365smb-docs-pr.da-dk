@@ -5,11 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 12/16/2021
+ms.date: 03/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Kombinere leverancer på én enkelt faktura
+# Tillad samlefaktura på én enkelt faktura
 
 Hvis du vil fakturere mere end én leverance samtidig, kan du bruge samlefunktionen.  
 
@@ -26,7 +26,7 @@ Før du kan oprette en samleleverance, skal der bogføres mere end én salgsleve
     - Hvis alle linjer skal indsættes, skal du markere samtlige linjer og vælge knappen **OK**.  
     - Hvis specifikke linjer skal indsættes, skal du markere linjerne og vælge knappen **OK**. Du kan bruge Ctrl-tasten til at markere flere ikke-fortløbende linjer.  
 
-    Hvis du kommer til at vælge en forkert leveringslinje eller vil begynde forfra, skal du bare slette linjerne på fakturaen og bruge funktionen **Hent salgsleverancelinjer** igen.  
+    Hvis du kommer til at vælge en forkert leveringslinje eller vil begynde forfra, skal du slette linjerne på fakturaen og bruge funktionen **Hent salgsleverancelinjer** igen.  
 7. Vælg handlingen **Bogfør** for at fakturere kladden.  
 
 > [!TIP]  

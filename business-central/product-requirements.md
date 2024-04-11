@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: overview
 ms.custom: bap-template
 ms.search.keywords: version
-ms.date: 12/13/2023
+ms.date: 03/11/2024
 ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central
@@ -35,7 +35,7 @@ Vi anbefaler, at du bruger en stabil kanalversion af en webbrowser, da det er de
 
 ## Outlook
 
-**Outlook-programmer:** For at bruge [!INCLUDE[prod_short](includes/prod_short.md)] online som din virksomheds indbakke i Outlook, skal du have Outlook 2019 eller nyere eller Outlook på internettet. Organisationen skal også bruge Microsoft 365. Du kan ikke bruge [!INCLUDE[prod_short](includes/prod_short.md)] online som din virksomhedsindbakke i Outlook, hvis din virksomhed bruger Exchange Server i det lokale miljø. 
+**Outlook-programmer:** For at bruge [!INCLUDE[prod_short](includes/prod_short.md)] online som din virksomheds indbakke i Outlook, skal du have Outlook 2021 eller nyere eller Outlook på internettet. Organisationen skal også bruge Microsoft 365. Du kan ikke bruge [!INCLUDE[prod_short](includes/prod_short.md)] online som din virksomhedsindbakke i Outlook, hvis din virksomhed bruger Exchange Server i det lokale miljø. 
 
 **Browsere:** Når du bruger [!INCLUDE[prod_short](includes/prod_short.md)] som din virksomheds indbakke i en browser, kræver tilføjelsesprogrammet, at computeren kører en af de anførte understøttede webbrowsere, der er angivet tidligere i denne artikel. 
 
@@ -51,7 +51,7 @@ Vi anbefaler, at du bruger en stabil kanalversion af en webbrowser, da det er de
 
 ## Excel
 
-**Rediger i Excel:** Når du vil bruge Excel-tilføjelsesprogrammet til at foretage ændringer i Excel og overføre ændringer til [!INCLUDE[prod_short](includes/prod_short.md)], skal du bruge Excel 2019 eller nyere. Du kan finde flere oplysninger i [Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md).  
+**Rediger i Excel:** Når du vil bruge Excel-tilføjelsesprogrammet til at foretage ændringer i Excel og overføre ændringer til [!INCLUDE[prod_short](includes/prod_short.md)], skal du bruge Excel 2021 eller nyere. Du kan finde flere oplysninger i [Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="TAC"></a> Sådan bruger du Business Central-administrationscenter
 

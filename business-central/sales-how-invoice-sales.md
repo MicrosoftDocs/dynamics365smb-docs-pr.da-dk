@@ -1,12 +1,12 @@
 ---
-title: Fakturere salg
+title: Fakturasalg
 description: 'Beskriver, hvordan du opretter en salgsnota, en salgsfaktura eller salgsordre for at registrere en aftale med en kunde om at sælge produkter i henhold til bestemte betingelser.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bill, sale, invoice, order'
 ms.search.form: '43, 48, 9301'
-ms.date: 11/01/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,7 +26,7 @@ Du kan forhandle med debitoren ved først at oprette et salgstilbud, som du kan 
 
 ## Oprette salgsfakturaer
 
-Hvis kunden beslutter at købe, bogfører du salgsfakturaen for at oprette det relaterede antal og værdiposterne. Når du bogfører salgsfakturaen, kan du også sende den som en vedhæftet PDF-fil i en mail. Du kan få brødteksten i mailen udfyldt med en oversigt over faktura- og betalingsoplysninger, f.eks. et link til PayPal. Flere oplysninger i [Afsende dokumenter med e-mail](ui-how-send-documents-email.md). Når kunden derefter betaler fakturaen, kan du registrere betalingen på forskellige måder, afhængigt af størrelsen og de foretrukne arbejdsgange i organisationen. Flere oplysninger i afsnittet [Registrering af betalinger](#register-payments).  
+Hvis kunden beslutter at købe, bogfører du salgsfakturaen for at oprette det relaterede antal og værdiposterne. Når du bogfører salgsfakturaen, kan du også sende den som en vedhæftet PDF-fil i en mail. Du kan få brødteksten i mailen udfyldt med en oversigt over faktura- og betalingsoplysninger, f.eks. et link til PayPal. Flere oplysninger i [Afsende dokumenter med e-mail](ui-how-send-documents-email.md#to-send-documents-by-email). Når kunden derefter betaler fakturaen, kan du registrere betalingen på forskellige måder, afhængigt af størrelsen og de foretrukne arbejdsgange i organisationen. Flere oplysninger i afsnittet [Registrering af betalinger](#register-payments).  
 
 Varekortet kan være af typen **Lager**, **Service** og **Ikke-lager** for at angive, om varekortet repræsenterer en fysisk lagerenhed, en arbejdstidsenhed eller en fysisk enhed, der ikke opbevares på lageret. Flere oplysninger i [Registrere nye emner](inventory-how-register-new-items.md). Salgsfakturaprocessen er den samme for alle tre varetyper.
 
@@ -126,7 +126,7 @@ Du kan også oprette direkte betalte fakturaer for ikke-registrerede kunder ved 
 [Konfigurere salg](sales-setup-sales.md)  
 [Udskrive pluklisten](sales-how-print-picking-list.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
-[Sende dokumenter som mail](ui-how-send-documents-email.md)  
+[Sende dokumenter som mail](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Indhente udestående beløb](receivables-collect-outstanding-balances.md)  
 [Massefakturering fra Microsoft Bookings i Business Central](finance-bookings.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

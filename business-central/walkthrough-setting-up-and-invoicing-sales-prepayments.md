@@ -1,15 +1,15 @@
 ---
-title: Oprette og fakturere salgsforudbetalinger
+title: Konfigurere og fakturere salgsforudbetalinger
 description: Forudbetalinger faktureres og bogføres på en forudbetalingsordre for salg eller køb inden den endelige bogføring.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 12/03/2021
+ms.date: 01/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gennemgang: Opsætning og fakturering af salgsforudbetalinger
+# Gennemgang: Konfigurere og fakturere salgsforudbetalinger
 
 Denne gennemgang fører dig gennem konfigureringen og brugen af forudbetalinger i [!INCLUDE [prod_short](includes/prod_short.md)]. [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -52,7 +52,7 @@ Denne gennemgang indeholder opgaver for følgende roller:
 
  Arne registrerer kundens betaling, påfører den på fakturaen og sender derefter den endelige faktura.  
 
-## Oprette forudbetalinger
+## Opsætte forudbetalinger
 
 Pia opsætter systemet til at håndtere forudbetalinger for debitorer.  
 
@@ -126,7 +126,7 @@ Susan opretter forudbetalingsfakturaen og sender den til kunden.
     |**Vare**|**1896-S**|**1**|  
     |**Vare**|**1900-S**|**1**|
 
-    Forudbetalingsfelterne på salgslinjen er som standard skjult, så de skal vises. For at få vist de felter, du skal tilpasse siden. Du kan finde flere oplysninger i [Start af tilpasning af en side gennem det personlige banner](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
+    Forudbetalingsfelterne på salgslinjen er som standard skjult, så de skal vises. For at få vist felterne skal du tilpasse siden. Du kan finde flere oplysninger i [Start af tilpasning af en side gennem det personlige banner](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 6. Kontroller, at feltet **Forudbetaling i %** på linjen med vare **1900-S** indeholder **30**. Standardværdien er taget fra salgshovedet, der blev udfyldt med oplysninger fra debitorkortet.  
 
@@ -156,7 +156,7 @@ Når den korrekte forudbetalingsværdi er angivet på ordren, opretter Susan for
 
 ### Sådan oprettes en forudbetalingsfaktura
 
-1. Vælg **Forudbetaling** og derefter **Bogfør og udskriv forudbetalingsfaktura** i gruppen **Bogføring** under fanen **Handlinger** i **salgsordren**.
+1. Vælg **Forudbetaling** og derefter **Bogfør og udskriv forudbetalingsfaktura** i **Bogføring** under **Handlinger** på siden **Salgsordre**
 2. Vælg **Ja** for at bogføre fakturaen.  
 
 > [!NOTE]  
@@ -171,8 +171,8 @@ Den næste dag ringer kunden til Susan med ændringer til ordren. Kunden vil ger
 1. På siden **Salgsordre** skal du vælge handlingen **Frigiv** og **Åbn igen**.  
 2. Gå til linjen for vare **1896-S** i feltet **Antal**, og indtast **2**.  
 
-    Klik på **Statistik** i handlingen **Ordre**. Feltet **Forudbetalingsbeløb Ekskl. moms** indeholder nu **768,04**, og feltet **Forudbetalt beløb faktureret ekskl. moms** indeholder **417,76**. Dette viser, at der er et yderligere forudbetalingsbeløb, der endnu ikke er faktureret.  
-3. For at bogføre det ekstra forudbetalingsbeløb skal du på vælge **Handlinger**, i gruppen **Bogfør og udskriv forudbetalingsfaktura** vælge **Forudbetaling** og derefter vælge **Bogfør**
+    Klik på **Statistik** i handlingen **Ordre**. Feltet **Forudbetalingsbeløb ekskl. moms** indeholder nu **768,04**, og feltet **Forudbetalt beløb faktureret ekskl. moms** indeholder **417,76**. Dette viser, at der er et yderligere forudbetalingsbeløb, der endnu ikke er faktureret.  
+3. For at bogføre det ekstra forudbetalingsbeløb skal du på vælge **Handlinger**, derefter **Bogfør**, derefter **Forudbetaling** og derefter vælge **Bogfør og udskriv forudbetalingsfaktura**
 4. Vælg **Ja** for at bogføre fakturaen.  
 
 ## Påføre forudbetalinger
@@ -221,7 +221,7 @@ Arne har nu fået oplyst, at varerne i ordren er blevet afsendt, og at ordren er
 
 Du kan gøre behandlingen hurtigere og oprette en faktura ved at indstille Opgavekøposter, der automatisk opdaterer status for de pågældende dokumenter. Når en forudbetalingsfaktura betales, kan posterne i opgavekøen automatisk ændre dokumentstatus fra **Afventende forudbetaling** til **Frigivet**. Når du opretter Opgavekøposter, er de kodeenheder, du skal bruge, **383 Opdateret Afventer forudbetaling af Salg** og **383 Opdateret Afventer forudbetaling af køb**. Det anbefales, at du planlægger posterne ofte, f. eks. hvert minut. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
 
-## Efterfølgende trin
+## Næste trin
 
 Denne gennemgang har ført dig gennem trinnene i, hvordan du indstiller [!INCLUDE[prod_short](includes/prod_short.md)] til at håndtere forudbetalinger. 
 

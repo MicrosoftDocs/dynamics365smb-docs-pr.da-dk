@@ -1,6 +1,6 @@
 ---
 title: Bruge timesedler
-description: 'Få mere at vide om, hvordan du opretter, sender, godkender og bogfører timesedler for ressourcer, job og tjenester.'
+description: 'Få mere at vide om, hvordan du opretter, sender, godkender og bogfører timesedler for ressourcer, projekter og tjenester.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
@@ -13,11 +13,11 @@ ms.custom: bap-template
 ---
 # Bruge timesedler
 
-Denne artikel indeholder en beskrivelse af, hvordan du kan bruge timesedler til at spore fravær og spore tid og ressourcer, der er brugt på et projekt. Med tidssporing kan du nemt identificere problemer tidligt og undgå forsinkelser eller overskridelser af omkostninger. Med timesedler kan en ressource nemt rapportere tidsforbrug for en enkeltperson eller en maskine, og en leder let kan gennemgå forbruget og fordelingen. 
+Denne artikel indeholder en beskrivelse af, hvordan du kan bruge timesedler til at spore fravær og spore tid og ressourcer, der er brugt på et projekt. Med tidssporing kan du nemt identificere problemer tidligt og undgå forsinkelser eller overskridelser af omkostninger. Med timesedler kan en ressource nemt rapportere tidsforbrug for en enkeltperson eller en maskine, og en leder let kan gennemgå forbruget og fordelingen.
 
-Du kan kopiere og bruge dine sagsplanlægningslinjer i en timeseddel. På denne måde må du kun indtaste oplysninger på ét sted, og linjeoplysningerne vil altid være korrekte. Du finder flere oplysninger i [Sådan kopieres sagsplanlægningslinjer til en timeseddel](#copy-job-planning-lines-to-a-time-sheet).
+Du kan kopiere og bruge dine projektplanlægningslinjer i en timeseddel. På denne måde må du kun indtaste oplysninger på ét sted, og linjeoplysningerne vil altid være korrekte. Du finder flere oplysninger i [Sådan kopieres projektplanlægningslinjer til en timeseddel](#copy-project-planning-lines-to-a-time-sheet).
 
-Når du godkender timeseddelposter for en sag, kan du bogføre dem i den relevante sagskladde eller ressourcekladde. Du kan få mere at vide ved at gå til [Sådan bogføres timeseddellinjer i en sagskladde](#post-time-sheet-lines-in-a-job-journal) og [Sådan bogføres timeseddellinjer i en ressourcekladde](#post-time-sheet-lines-in-a-resource-journal).
+Når du godkender timeseddelposter for et projekt, kan du bogføre dem i den relevante projektkladde eller ressourcekladde. Du kan få mere at vide ved at gå til [Sådan bogføres timeseddellinjer i en projektkladde](#post-time-sheet-lines-in-a-project-journal) og [Sådan bogføres timeseddellinjer i en ressourcekladde](#post-time-sheet-lines-in-a-resource-journal).
 
 Før du kan bruge timesedler, skal du angive generelle oplysninger og angive en administrator og en eller flere godkendere af timesedler. Du kan få mere at vide om opsætning af timesedler ved at gå til [Opsætning af timesedler](projects-how-setup-time-sheets.md).  
 
@@ -26,7 +26,7 @@ Før du kan bruge timesedler, skal du angive generelle oplysninger og angive en 
 
 ## Opret timesedler
 
-Du kan bruge siden **Opret timesedler** til at oprette timesedler for specifikke tidsperioder eller uger. Derefter kan timesedlens ejer åbne den og registrere tid, der er brugt på en opgave. Du kan også [planlægge batchjobbet til at køre automatisk](ui-work-report.md#ScheduleReport).  
+Du kan bruge siden **Opret timesedler** til at oprette timesedler for et angivet antal tidsperioder eller uger. Derefter kan timesedlens ejer åbne den og registrere tid, der har været brugt på en opgave. Du kan også [planlægge batchprojektet til at køre automatisk](ui-work-report.md#ScheduleReport).  
 
 > [!IMPORTANT]
 > Du skal have tilladelser til at oprette timesedler. Du kan få mere at vide om tilladelser ved at gå til [Konfigurere timesedler](projects-how-setup-time-sheets.md).
@@ -49,7 +49,7 @@ Du kan se de timesedler, du opretter, på siden **Timesedler**. Hver timeseddel 
 | | Bruges til at tilføje en note eller en markering i feltet **Beskrivelse** på timeseddellinjen. Du kan f.eks. bruge dette felt til at kategorisere timeseddelposter. Hvis du lader feltet **Type** for en timeseddellinje være tomt, kan du ikke angive tidsværdier i ugedagsfelterne for den pågældende linje. |
 | Fravær | Bruges til at registrere den tid, du er fraværende i en arbejdsuge. Hvis du vil udfylde oplysningerne for linjen, skal du angive typen af fravær i feltet **Fraværsårsagskode**. |
 | Montageordre | Bruges til at registrere tid for montageordrer. En timeseddellinje af denne type oprettes under bogføringen af montageordrelinjer, hvor ressourcen er konfigureret til at bruge timesedler. Du kan ikke manuelt vælge en linje af denne type. |
-| Sag | Bruges til at registrere tidsforbrug for et projekt. Hvis du vil udfylde oplysningerne for linjen, skal du angive det sagsnummer og det sagsopgavenummer, du vil registrere tid for. Du kan registrere tid for linjer, du ikke har planlagt.|
+| Projekt | Bruges til at registrere tidsforbrug for et projekt. Hvis du vil udfylde oplysningerne for linjen, skal du angive det projektnummer og det projektopgavenummer, du vil registrere tid for. Du kan registrere tid for linjer, du ikke har planlagt.|
 | Ressource | Bruges til at registrere tidsforbrug for en ressource. Hvis du vil udfylde oplysningerne for linjen, skal du angive en beskrivelse af arbejdet. |
 | Tjeneste | Bruges til at registrere tidsforbrug for en serviceordre eller en servicekreditnota. |
 
@@ -76,19 +76,19 @@ Hvis dine timeseddeloplysninger forbliver de samme fra tidsperiode til tidsperio
 2. Åbn timesedlen for en period efter perioden for en eksisterende timeseddel med linjer.  
 3. Vælg handlingen **Kopier linjer fra en tidligere timeseddel**.
 
-Linjerne kopieres, herunder oplysninger som type og beskrivelse. Hvis linjen f.eks. er knyttet til en sag, kopieres **Sagsnr.**. Alle kopierede linjer har statussen **Åben**. Du kan nu redigere linjerne efter behov.
+Linjerne kopieres, herunder oplysninger som type og beskrivelse. Hvis linjen f.eks. er knyttet til et projekt, kopieres **Projektnr.** . Alle kopierede linjer har statussen **Åben**. Du kan nu redigere linjerne efter behov.
 
-## Sådan kopieres sagsplanlægningslinjer til en timeseddel
+## Kopiere projektplanlægningslinjer til en timeseddel
 
-Følgende procedure beskriver, hvordan du hurtigt føjer sagsplanlægningslinjer til en timeseddel.
+Følgende procedure beskriver, hvordan du hurtigt føjer projektplanlægningslinjer til en timeseddel.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Timesedler**, og vælg derefter det relaterede link.  
 2. Vælg en timeseddel for den relevante periode på siden **Timesedler**.  
-3. Vælg handlingen **Opret linjer fra sagsplanlægning**. Alle sagsplanlægningslinjer i timeseddeltidsperioden kopieres til timesedlen for personen eller maskinen i feltet **Ressourcenr.** på timesedlen.
+3. Vælg handlingen **Opret linjer fra projektplanlægning**. Alle projektplanlægningslinjer i timeseddeltidsperioden kopieres til timesedlen for personen eller maskinen i feltet **Ressourcenr.** på timesedlen.
 
 ## Sådan definerer du arbejdstyper og tilføjer en til en timeseddel
 
-Du kan definere arbejdstypen for alle timeseddellinjer for serviceordrer, sagsordrer og ressourcer. På denne måde kan du tilføje oplysninger, du behøver for at fakturere debitoren for forskellige typer arbejde.  
+Du kan definere arbejdstypen for alle timeseddellinjer for serviceordrer, projektordrer og ressourcer. På denne måde kan du tilføje oplysninger, du behøver for at fakturere debitoren for forskellige typer arbejde.  
 
 1. På siden **Timesedler** skal du vælge den relevante timeseddel.
 2. Vælg feltet **Type** på den første af linjerne i afsnittet **Linjer**, og vælg derefter den relevante type, f.eks. *Ressource*.  
@@ -161,16 +161,16 @@ Når du godkender eller afviser en timeseddel, kan den ikke redigeres, medmindre
 3. På siden **Timeseddel** skal du vælge handlingen **Åbn igen** og derefter vælge handlingen **Alle sendte linjer** for at åbne alle linjer igen eller handlingen **Kun valgte linjer** for kun at åbne de linjer, der er valgt på siden **Timeseddel**, igen.
 4. Vælg knappen **OK**. Status for timeseddellinjerne er ændringer for **Sendt**.  
 
-## Sådan kan du se og godkende en timeseddel efter sag
+## Få vist og godkende en timeseddel efter projekt
 
-Du kan for en sag angive en person, der er ansvarlig for sagen. Disse oplysninger er knyttet til timeseddellinjer. Linket giver projektledere en liste over de timesedler, der skal godkendes. Teamprojektlederen kan for eksempel være ansvarlig for bestemte sager i din virksomhed. I så fald bør lederen udpeges som **Ansvarlig person** på sagskortet. Du kan se sagsopgaver, der er knyttet til en sag, og antal timer brugt, i denne visning af timeseddeloplysninger.
+Du kan for et projekt angive en person, der er ansvarlig for projektet. Disse oplysninger er knyttet til timeseddellinjer. Linket giver projektledere en liste over de timesedler, der skal godkendes. Teamprojektlederen kan for eksempel være ansvarlig for bestemte projekter i din virksomhed. I så fald bør lederen udpeges som **Ansvarlig person** på projektkortet. Du kan se projektopgaver, der er knyttet til et projekt, og antal timer brugt, i denne visning af timeseddeloplysninger.
 
 > [!NOTE]
-> Du skal godkende timesedler på siden **Leders timeseddel efter sag**, når du har valgt en indstilling for **Timeseddel efter sagsgodkendelse** på siden **Ressourceopsætning**. Du kan få mere at vide om opsætning af godkendelse af ressourcer ved at gå til [Konfigurere ressourcer](projects-how-setup-resources.md).
+> Du skal godkende timesedler på siden **Leders timeseddel efter projekt**, når du har valgt en indstilling for **Timeseddel efter projektgodkendelse** på siden **Ressourceopsætning**. Du kan få mere at vide om opsætning af godkendelse af ressourcer ved at gå til [Konfigurere ressourcer](projects-how-setup-resources.md).
 
-### Sådan godkendes eller afvises en timeseddel efter sag
+### Godkende eller afvise en timeseddel efter projekt
 
-1. Indtast **Leders timeseddel efter sag** i feltet **Søg**, og vælg derefter det relaterede link. [!INCLUDE[prod_short](includes/prod_short.md)] viser en liste over timeseddellinjer, der er knyttet til de job, du har ansvaret for.
+1. Indtast **Leders timeseddel efter projekt** i feltet **Søg**, og vælg derefter det relaterede link. [!INCLUDE[prod_short](includes/prod_short.md)] viser en liste over timeseddellinjer, der er knyttet til de projekter, du har ansvaret for.
 2. Vælg handlingen **Godkend**, og vælg derefter handlingen **Alle sendte linjer** for at godkende alle linjer eller handlingen **Kun valgte linjer** for kun at godkende de linjer, der er valgt på siden **Timeseddel**.
 
     > [!NOTE]
@@ -180,7 +180,7 @@ Du kan for en sag angive en person, der er ansvarlig for sagen. Disse oplysninge
 4. Vælg knappen **OK**.
 
 > [!NOTE]
-> Når du har godkendt eller afvist en timeseddellinje efter sag, kan den ikke åbnes igen eller ændres i vinduet **Timeseddel**.
+> Når du har godkendt eller afvist en timeseddellinje efter projekt, kan den ikke åbnes igen eller ændres i vinduet **Timeseddel**.
 
 ## Sådan bogfører du timeseddellinjer i en ressourcekladde
 
@@ -193,19 +193,19 @@ Når du har godkendt timeseddelposter for en ressource, kan du bogføre dem i de
 5. Vælg handlingen **Bogfør**.  
 6. Vælg handlingen **Poster** for at bekræfte posteringen. Siden **Ressourceposter** åbnes og viser resultatet for bogføring af ressourcekladden.
 
-## Sådan bogfører du timeseddellinjer i en sagskladde
+## Bogføre timeseddellinjer i en projektkladde
 
-Når du har godkendt timeseddelposter for en sag, kan du bogføre dem i den relevante sagskladde.
+Når du har godkendt timeseddelposter for et projekt, kan du bogføre dem i den relevante projektkladde.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sagskladder**, og vælg derefter det relaterede link.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , skriv **Projektkladder**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Foreslå linjer fra timesedler**.  
-3. På siden **Foreslå Job kladdelinjer** skal du udfylde felterne efter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
-4. Vælg knappen **OK**. Der oprettes poster for forbrug i sagskladden, hvor du kan ændre oplysningerne efter behov.  
+3. På siden **Foreslå projektkladdelinjer** skal du udfylde felterne efter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
+4. Vælg knappen **OK**. Der oprettes poster for forbrug i projektkladden, hvor du kan ændre oplysningerne efter behov.  
 
     > [!NOTE]  
     > Oplysninger om arbejdstype, og om arbejdet er fakturerbart, kopieres fra timeseddellinjen. Du kan om nødvendigt reducere antallet af timer og foretage en delvis bogføring. Hvis du reducerer antallet, sker der følgende: Næste gang, du vælger handlingen **Foreslå linjer fra timesedler**, vil den linje, der oprettes, indeholde den resterende mængde timer.  
 5. Vælg handlingen **Bogfør**.  
-6. Vælg handlingen **Poster** for at bekræfte posteringen. Siden **Sagsposter** åbnes og viser resultatet for bogføring af ressourcekladden.
+6. Vælg handlingen **Poster** for at bekræfte posteringen. Siden **Projektposter** åbnes og viser resultatet for bogføring af ressourcekladden.
 
 ## Arkivér timesedler
 
@@ -227,6 +227,5 @@ Når du har bogført timesedler, kan du arkivere dem til fremtidig reference. Du
 [Køb](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

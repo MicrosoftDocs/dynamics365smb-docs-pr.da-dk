@@ -5,10 +5,11 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
 ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
-ms.date: 03/24/2023
+ms.date: 02/21/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Oprette brugere i henhold til licenser
 
@@ -93,6 +94,9 @@ Hvis denne standardkonfiguration ikke er den korrekte opsætning for et bestemt 
 ### <a name="adduser"></a>Sådan tilføjer du en bruger eller opdaterer brugeroplysninger og licenstildelinger i Business Central
 
 Når du har tilføjet brugere eller ændret brugeroplysninger i Microsoft 365 Administration, kan du hurtigt importere bruger oplysningerne til [!INCLUDE[prod_short](includes/prod_short.md)]. Importen omfatter licenstildelinger.  
+
+> [!TIP]
+> Hvis du har brug for at opdatere brugeroplysninger, og du har mange brugere, kan du bruge filterruden til at indsnævre listen. Du kan filtrere på grundlæggende oplysninger, f.eks. brugernavnet, eller angive mere tekniske filtre, f.eks. brugerens sikkerheds-id.
 
 1. Log på [!INCLUDE[prod_short](includes/prod_short.md)] som administrator.
 2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugere**, og vælg derefter det relaterede link.  

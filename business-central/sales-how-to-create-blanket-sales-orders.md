@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '507, 509, 6620, 6622, 6623, 9303, 9310'
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -46,7 +46,7 @@ Følgende gælder for salgsordrer, når de er oprettet ud fra rammesalgsordrer:
 - Rammeordrenummeret og linjenummeret registreres som egenskaber for salgslinjerne, når de oprettes på basis af en rammeordre.  
 - Hvis salgsordrerne ikke oprettes direkte fra rammeordren, men stadig har forbindelse til den, kan du oprette en forbindelse mellem en salgsordre og en rammeordre ved at angive det tilhørende rammeordrenummer i feltet **Rammeordrenr.** på salgsordrelinjen.  
 - Når salgsordren er oprettet på hele antallet på en rammeordrelinje, kan en anden salgsordre ikke oprettes for den samme linje. Brugere kan ikke indtaste et antal i feltet **Lever antal**. Men hvis det er nødvendigt at føje flere enheder til en rammeordre, kan værdien i feltet **Antal** øges, hvorefter der kan oprettes flere ordrer.  
-- Den fakturerede rammesalgsordre bliver liggende i systemet, indtil den slettes, enten ved sletning af bestemte rammesalgsordrer eller ved at køre kørslen **Slet fakturerede rammesalgsordrer**.  
+- Den fakturerede rammesalgsordre bliver liggende i systemet, indtil den slettes, enten ved sletning af bestemte rammesalgsordrer eller ved at udføre kørslen **Slet fakturerede rammesalgsordrer**.  
 - Hvis en kunde også er registreret som kontakt i modulet Marketing, og du har angivet en interaktionsskabelonkode for rammesalgsordrer på siden **Marketingopsætning**, registreres der en interaktion i tabellen Interaktionslogpost, når du vælger **Udskriv** for at udskrive rammesalgsordrerne.
 
 ## Sådan vises en rammesalgsordres status

@@ -1,6 +1,6 @@
 ---
-title: Finansrapporter og analyser
-description: 'Se, hvilke finansrapporter og analyser der er tilgængelige i standardversionen af Business Central, så du kan holde styr på virksomheden. Brug rapport 38 til gevinst/tab (P/L)-rapportering.'
+title: Indbyggede finansrapporter i Business Central
+description: 'Se, hvilke finansrapporter der er tilgængelige i standardversionen af Business Central, så du kan holde styr på virksomheden. Brug rapport 38 til gevinst/tab (P/L)-rapportering.'
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
@@ -9,32 +9,20 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Finansrapporter og analyser i Business Central
 
-Financial Reporting i [!INCLUDE [prod_short](includes/prod_short.md)] tillader økonomi- og erhvervsfolk at oprette, vedligeholde, implementere og få vist regnskaber. Går ud over traditionelle rapporterings begrænsninger for at gøre det nemmere at designe forskellige typer rapporter. [!INCLUDE [prod_short](includes/prod_short.md)] indeholder flere rapporter, sporingsfunktioner og værktøjer, som kan hjælpe revisorer eller controllere, som er ansvarlige for at rapportere til finansafdelingen. Financial Reporting omfatter understøttelse af dimensioner, så kontosegmenter eller dimensioner er straks tilgængelige - der kræves ingen andre konfigurationstrin.  
+# Indbyggede finansrapporter i Business Central
+
+[!INCLUDE [prod_short](includes/prod_short.md)] indeholder flere indbyggede rapporter, sporingsfunktioner og værktøjer, som kan hjælpe revisorer eller controllere, som er ansvarlige for at rapportere til finansafdelingen. 
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## Rapporter
-
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## Opgaver
-
-I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med analyse af virksomhedens tilstand:
-
-* [Analysere faktiske beløb sammenlignet med budgetterede beløb](bi-how-analyze-actual-versus-budget.md)  
-* [Forberede Financial Reporting med finansdata og kontokategorier](bi-how-work-account-schedule.md)  
-* [Konfigurere og udgive KPI-webtjenester, der er baseret på finansielle rapporter](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
-* [Analysere data efter dimensioner](bi-how-analyze-data-dimension.md)  
-* [Oprette analyserapporter](bi-how-create-analysis-views-reports.md)  
-* [Oprette rapporter med XBRL](bi-create-reports-with-xbrl.md)  
-* [Administrere formål med adgang til database](admin-data-access-intent.md)  
 
 ## Se også
 
 [Oprette omkostningsbudgetter](finance-create-cost-budgets.md)  
-[Rapportere moms til skattemyndighederne](finance-how-report-vat.md)  
+[Rapportere moms til SKAT](finance-how-report-vat.md)  
 [Afslutning af år og perioder](year-close-years-periods.md)  
 [Bruge rapporter før afslutning](year-prepare-preclose-reports.md)  
 [Forberedelse af ultimoopgørelser](year-prepare-close-statement.md)  

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: reimbursement
 ms.search.form: '63, 234, 625, 5224, 5237, 5238, 5239, 5240'
-ms.date: 06/16/2021
+ms.date: 03/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -15,14 +15,17 @@ ms.service: dynamics-365-business-central
 [!INCLUDE[prod_short](includes/prod_short.md)] understøtter transaktioner for medarbejdere på samme måde som for kreditorer. Derfor findes der medarbejderbogføringsgrupper for at sikre, at medarbejderposter bogføres på de relevante konti i regnskabet.
 
 > [!NOTE]  
-> Medarbejdertransaktioner kan kun bogføres i den lokale valuta. Refusion af betalinger til medarbejdere understøtter ikke rabatter og betalingstolerancer.
+> Refusion af betalinger til medarbejdere understøtter ikke rabatter og betalingstolerancer.
 
 Hvis medarbejdere bruger deres egne penge under forretningsaktiviteter, kan du bogføre udgiften til medarbejderens konto. Du kan derefter refundere medarbejderen ved at foretage en betaling til medarbejderens bankkonto, på samme måde som når du betaler leverandører.  
 
-> [!TIP]
-> I denne artikel forklares det, hvordan du registrerer udgiften i bøgerne og refunderer medarbejderen. Din organisation kan have en portal eller app, som medarbejderne kan sende deres udgiftsrapporter til.
+I denne artikel forklares det, hvordan du registrerer udgiften i bøgerne og refunderer medarbejderen. Din organisation kan have en portal eller app, som medarbejderne kan sende deres udgiftsrapporter til.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] er fleksibel nok til at dække mange forskellige fremgangsmåder. De nøjagtige kontonumre, der skal bruges, afhænger af organisationens konfiguration og processer.  
+
+Du kan bruge finanskladder til medarbejderkonti til at registrere medarbejderudgifter og refusionstransaktioner i udenlandsk valuta og derefter nemt spore beløbene og sammenligne dem med modtagelser. Lad lommeregneren ligge i skrivebordsskuffen – Business Central kan justere valutakursen for dig. Når du bruger finanskladder til at bogføre transaktioner for medarbejderkonti, f.eks. når du refunderer udgifter, kan du bruge feltet **Valutakode** til at angive valutaen for transaktionerne. Når du angiver en valuta, kan du bruge de samme funktioner, som når du registrerer transaktioner i debitor- og kreditorposterne. For eksempel kan medarbejdere registrere en udgift i euro, men blive betalt i dollars.
+
+Hvis du vil sikre dig, at kursen for beløbene er opdateret, kan du regulere medarbejdersaldi, når du udfører kørslen Valutakurs. Hvis du vil bruge valutakurstabellen, men afregne medarbejdersaldi i den lokale valuta, kan du ekskludere medarbejderkonti, når du regulerer valutakurserne.
 
 ## Sådan registrerer du en medarbejders udgift
 

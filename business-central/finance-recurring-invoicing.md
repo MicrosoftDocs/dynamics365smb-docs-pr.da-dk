@@ -7,7 +7,7 @@ ms.devlang: al
 ms.search.keywords: 'recurring, invoicing, subscription, billing'
 ms.search.form: 283
 ms.reviewer: bholtorf
-ms.date: 04/01/2021
+ms.date: 03/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -28,19 +28,19 @@ Men hvis du vælger denne mulighed, kan du ikke udskrive og sende fakturaer i st
 
 Du kan finde flere oplysninger i [Arbejde med gentagelseskladder](ui-work-general-journals.md#work-with-recurring-journals).  
 
-## Oprette flere fakturaer på basis af en sagsgentagelseskladde
+## Oprette flere fakturaer på basis af en projektgentagelseskladde
 
 Sagsgentagelseskladden er et mere avanceret alternativ til finanskladden. Du kan definere varer, ressourcer og finanskonti, der skal gentages for hver opgave, og du angiver hyppigheden af gentagelser.  
 
-Når du har bogført en sagsgentagelseskladde, kan du oprette flere fakturaer med opgaven **Opret salgsfaktura for sag**. Du kan gennemse og bogføre oprettede fakturaer på siden **Salgsfakturaer**.
+Når du har bogført en projektgentagelseskladde, kan du oprette flere fakturaer med opgaven **Opret salgsfaktura for sag**. Du kan gennemse og bogføre oprettede fakturaer på siden **Salgsfakturaer**.
 
 ### Hvorfor bruge denne mulighed
 
-Hvis du vælger denne mulighed, følger du standardproceduren for fakturering med alle de fordele, der er forbundet med dette, herunder standard- og kundelayout til kommunikationspræferencer. Du kan også definere priser for hver enkelt sag.
+Hvis du vælger denne mulighed, følger du standardproceduren for fakturering med alle de fordele, der er forbundet med dette, herunder standard- og kundelayout til kommunikationspræferencer. Du kan også definere priser for hvert enkelt projekt.
 
-Du skal imidlertid oprette en ny sag og føje linjer til gentagelseskladden. 
+Du skal imidlertid oprette et nyt projekt og føje linjer til gentagelseskladden. 
 
-Du kan finde flere oplysninger i [Oprette sagskladdelinjer](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) og [Oprette flere salgsfakturaer for sager](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices).
+Du kan finde flere oplysninger i [Oprette projektkladdelinjer](projects-how-record-job-usage.md#to-create-project-journal-lines-manually) og [Oprette flere projektsalgsfakturaer](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices).
 
 ## Oprette flere fakturaer baseret på tilbagevendende salgslinjer
 
@@ -106,8 +106,8 @@ På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du få udvid
 
 [Datoformler](ui-enter-date-ranges.md#use-date-formulas)  
 [Arbejde med gentagelseskladder](ui-work-general-journals.md#work-with-recurring-journals)  
-[Oprette sagskladdelinjer](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
-[Oprette flere salgsfakturaer for sager](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
+[Opret projektkladdelinjer](projects-how-record-job-usage.md#to-create-project-journal-lines-manually)  
+[Opret flere salgsfakturaer for projekter](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices)  
 [Oprette gentagne salgs- og købslinjer](sales-how-work-standard-lines.md)  
 [Arbejde med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Fakturere flere servicekontrakter](service-how-create-invoices.md#to-invoice-several-service-contracts)  

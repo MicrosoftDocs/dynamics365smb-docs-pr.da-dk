@@ -46,7 +46,7 @@ Du kan f.eks. definere serviceprissætningstyper for en radioreparationsprisgrup
 #### [Aktuel oplevelse](#tab/current-experience)
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Serviceartikler** og vælg derefter det relaterede link.  
 2. Vælg serviceartiklen, udvid oversigtspanelet **Priser og salg**, vælg **Ressource**, **Vare** eller **Finanskonto**.
-3. Udfyld felterne efter behov i **Salgsressourcepriser**, **Salgsvarepriser** eller **Sagsfinanskontopriser**.
+3. Udfyld felterne efter behov i **Projektressourcepriser**, **Projektvarepriser** eller **Projektfinanskontopriser**.
 
   
 ## Serviceprisregulering  

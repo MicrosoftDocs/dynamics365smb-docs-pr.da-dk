@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: procurement
 ms.search.form: '50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310'
-ms.date: 12/19/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,11 +26,11 @@ Når du modtager lagervarerne, eller når den købte tjeneste er fuldført, skal
 Følgende afsnit handler om, hvordan du opretter en købsfaktura. Fremgangsmåden er den samme for en købsordre. Den væsentligste forskel er, at købsordrer har yderligere felter og handlinger til fysisk håndtering af varer.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.  
-2. I feltet **Kreditor** skal du indtaste navnet på en eksisterende kreditor.
+2. I feltet **Kreditornavn** skal du indtaste navnet på en eksisterende kreditor.
 
     Andre felter på siden **Købsfaktura** er nu udfyldt med standardoplysningerne for den valgte kreditor. Hvis kreditoren ikke er registreret, skal du følge disse trin:
 
-    1. I feltet **Kreditor** skal du indtaste navnet på den nye kreditor.
+    1. I feltet **Kreditornavn** skal du indtaste navnet på den nye kreditor.
     2. I dialogboksen, hvor du registrerer den nye kreditor, skal du trykke på knappen **Ja**.
     3. Du kan finde flere oplysninger om, hvordan du udfylder kreditorkortet, i [Registrere nye kreditorer](purchasing-how-register-new-vendors.md).  
     4. Når du er færdig med kreditorkortet, skal du vælge **OK** for at vende tilbage til siden **Købsfaktura**.
@@ -79,7 +79,7 @@ Linjerne på en købsfaktura kan være af **ressource**- eller **vare**-typen. V
 > [!NOTE]
 > Du kan også købe eksterne ressourcer med købslinjetypen **Ressource**, f.eks. for at fakturere en kreditor for udført arbejde. Flere oplysninger i [Konfigurere ressourcer](projects-how-setup-resources.md).
 >
-> Hvis du vil bruge en købt ressource, skal du muligvis angive ressourcens kapacitet og knytte den til en sag manuelt. Når en ressource købes, oprettes en ressourcepost, men ressourceposternes antal og værdi spores ikke, ligesom det f.eks. er tilfældet med varer. Hvis antal og værdi skal spores, skal du overveje at bruge andre typer linjeelementer.
+> Hvis du vil bruge en købt ressource, skal du muligvis angive ressourcens kapacitet og knytte den til et projekt manuelt. Når en ressource købes, oprettes en ressourcepost, men ressourceposternes antal og værdi spores ikke, ligesom det f.eks. er tilfældet med varer. Hvis antal og værdi skal spores, skal du overveje at bruge andre typer linjeelementer.
 
 ## Hvornår skal købsordrer bruges?
 

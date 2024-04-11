@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'trade, sell, replenishment'
 ms.search.form: 172
-ms.date: 07/06/2022
+ms.date: 02/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Opret tilbagevendende salg
+# Oprette tilbagevendende salg
 
 Hvis du ofte har brug at oprette salgslinjer med næsten ens oplysninger, kan du oprette standardlinjer, som du derefter kan indsætte i tilbagevendende salgsdokumenter, f.eks. for tilbagevendende genbestillingsordrer.  
 
@@ -52,7 +52,7 @@ Tildele en eller flere gentagne salgslinjer til en debitor, så de kan indsætte
 
 Hvis der findes gentagne salgslinjerne for debitoren, kan du indsætte dem eller få dem indsat i alle typer salgsdokumenter, f.eks. en salgsfaktura. Hvis du har aktiveret indstillingen **Spørg altid**, når du tildeler gentagne salgslinjer til debitorer, får du besked, hvis der findes gentagne salgslinjer.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsfakturaer**, og vælg derefter det relaterede link.
+1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsfakturaer**, og vælg derefter det relaterede link.
 2. Åbn den salgsfaktura, som du vil indsætte en eller flere standardsalgslinjer i.
 3. Vælg handlingen **Hent tilbagevendende salgslinjer**.
 4. På siden **Tilbagevendende salgslinjer** skal du vælge på opslagsknappen i feltet **Kode** og derefter vælge en række standardsalgslinjer.

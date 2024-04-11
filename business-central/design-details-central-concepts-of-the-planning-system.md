@@ -11,7 +11,7 @@ ms.custom: bap-template
 ---
 # Designoplysninger: Centrale begreber i planlægningssystemet
 
-Planlægningsfunktionerne er indeholdt i en kørsel, der først vælger de relevante varer og den relevante periode, der skal planlægges. Derefter kalder kørslen en kodeenhed, der beregner en forsyningsplan, i overensstemmelse med hver vares laveste-niveau-kode (styklisteposition). Kodeenheden balancerer sæt af leveringsbehov og foreslår handlinger, som brugeren skal udføre. De foreslåede handlinger vises som linjer i planlægningskladden eller indkøbskladden.  
+Planlægningsfunktionerne er indeholdt i et batchprojekt, der først vælger de relevante varer og den relevante periode, der skal planlægges. Derefter kalder kørslen en kodeenhed, der beregner en forsyningsplan, i overensstemmelse med hver vares laveste-niveau-kode (styklisteposition). Kodeenheden balancerer sæt af leveringsbehov og foreslår handlinger, som brugeren skal udføre. De foreslåede handlinger vises som linjer i planlægningskladden eller indkøbskladden.  
 
 ![Indhold på siden Planlægningskladdeside.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Indhold på siden Planlægningskladdeside")  
 
@@ -75,7 +75,7 @@ Når du har kørt planlægningen, indeholder tabellen Aktionsmeddelelsespost ikk
 
 ## Rækkefølge og prioritet i planlægningen
 
-Når du opretter en plan, er rækkefølgen af beregningerne vigtig for at få arbejdet gjort inden for en rimelig tidsramme. Desuden spiller prioriteringen af krav og ressourcer en vigtig rolle for at opnå de bedste resultater.  
+Når du opretter en plan, er rækkefølgen af beregningerne vigtig for at få projektet gjort inden for en rimelig tidsramme. Desuden spiller prioriteringen af krav og ressourcer en vigtig rolle for at opnå de bedste resultater.  
 
 Planlægningssystemet er behovstyret. Varer med højt niveau bør planlægges før varer med lavt niveau, fordi de kan generere yderligere behov for varerne på lavere niveau. Det betyder for eksempel, at detaillokationer bør planlægges før distributionscentre planlægges, fordi planen for en retaillokation kan omfatte yderligere behov fra distributionscentret. På en nærmere afvejning betyder dette også, at en salgsordre kan dække en salgsordre kan systemet ikke oprette en ny forsyningsordre. Desuden må en forsyning med et bestemt lotnummer ikke allokeres for at dække et generisk behov, hvis et andet behov kræver denne specifikke lot.  
 
@@ -267,7 +267,7 @@ Hvis feltet ikke er markeret, fortsætter kørslen **Beregn Plan**, indtil den e
 
 ## Planlægningsfleksibilitet
 
-Det er ikke altid praktisk at planlægge en eksisterende forsyningsordre. Når produktionen f. eks. er startet, eller du ansætter ekstra personer på en bestemt dag for at udføre opgaven. Med henblik på at angive om en eksisterende ordre kan ændres af planlægningssystemet, har alle forsyningsordrelinjer et **planlægningsfleksibilitetsfelt** med to indstillinger: **Ubegrænset** eller **Ingen**. Hvis feltet er angivet til **Ingen**, vil planlægningssystemet ikke forsøge at ændre forsyningsordrelinjen.  
+Det er ikke altid praktisk at planlægge en eksisterende forsyningsordre. Når produktionen f. eks. er startet, eller du ansætter ekstra personer på en bestemt dag for at udføre projektet. Med henblik på at angive om en eksisterende ordre kan ændres af planlægningssystemet, har alle forsyningsordrelinjer et **planlægningsfleksibilitetsfelt** med to indstillinger: **Ubegrænset** eller **Ingen**. Hvis feltet er angivet til **Ingen**, vil planlægningssystemet ikke forsøge at ændre forsyningsordrelinjen.  
 
 Feltet kan manuelt indstilles af brugeren, men i nogle tilfælde angives det automatisk af [!INCLUDE [prod_short](includes/prod_short.md)]. Den omstændighed, at planlægningsfleksibiliteten kan angives manuelt af brugeren, er vigtig, fordi den gør det nemt at tilpasse brugen af funktionen til forskellige arbejdsgange og forretningssituationer. Du kan finde flere oplysninger om, hvordan dette felt bruges, i [Designoplysninger: Overførsler i planlægning](design-details-transfers-in-planning.md).  
 

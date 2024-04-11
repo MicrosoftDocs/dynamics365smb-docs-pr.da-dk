@@ -2,20 +2,20 @@
 title: Registrere nye debitorer ved at oprette debitorkort (indeholder video)
 description: 'Beskriver, hvordan du opretter et debitorkort for at registrere oplysninger om hver ny kunde, du sælger til.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
 ms.search.keywords: 'client, customer, credit'
 ms.search.form: '7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305'
-ms.date: 11/01/2023
-ms.author: bholtorf
+ms.date: 02/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Registrere nye debitorer
 
 Debitorer er din kilde til din indtægt. Du skal registrere hver debitor, du sælger til som et debitorkort. Debitorkort indeholder de oplysninger, som er en forudsætning for at sælge produkter til debitoren. Flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md) og [Registrere nye varer](inventory-how-register-new-items.md).  
 
 Før du kan registrere nye debitorer, skal du oprette forskellige salgskoder, som du kan vælge mellem, når du udfylder debitorkort. Flere oplysninger i [Konfigurere salg](sales-setup-sales.md).
-
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
@@ -80,6 +80,14 @@ Du kan vælge ikke at modtage advarsler, når debitorens kreditmaksimum er overs
     |**Kreditmaksimum**|Værdien i feltet **Kreditmaksimum** på debitorkortet sammenlignes med kundens saldo, og der vises en advarsel, hvis kundens saldo overskrider dette beløb.|
     |**Forfaldne beløb**|Feltet **Forf. beløb** på debitorens kort kontrolleres, og en advarsel vises, hvis debitorens saldo er forfalden.|
     |**Ingen advarsel**|Der vises ingen advarsler om debitorens status.|
+
+## Tilknytte en sælger
+
+Du kan knytte sælgere til kundens leveringsadresse i stedet for deres faktureringsadresse, så dine salgsrapporter afspejler den sande geografiske fordeling af dit salg. Når du knytter en sælger til en kundes leveringsadresse, får du mere præcis indsigt, og ressourceallokeringen optimeres.
+
+Tildel en sælger på siden med kortet **Debitor** ved at vælge **Debitor** og derefter **Leveringsadresser** for at åbne siden **Oversigt over leveringsadresser** . Vælg **Administrer** og derefter **Rediger** for at åbne siden med kortet **Leveringsadresser** . Angiv eller vælg en **Sælgerkode** for at vælge sælgeren.
+
+Når du vælger indstillingen **Alternativ leveringsadresse** som lokation for **Leveres til** på et salgsdokument, opdateres **Sælgerkode**, så den svarer til sælgeren fra **Leveres til** i stedet for adressen i **Faktureres til**. 
 
 ## Se også
 

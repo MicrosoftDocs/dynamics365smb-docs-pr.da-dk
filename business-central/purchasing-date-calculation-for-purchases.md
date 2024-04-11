@@ -1,16 +1,16 @@
 ---
-title: Beregning af forfaldsdato for køb
+title: Beregne datoer for køb
 description: 'Denne artikel beskriver, hvordan du kan beregne dato for køb.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'purchase order, purchase, date, receipt, delivery, lead time'
 ms.search.forms: null
-ms.date: 10/28/2022
+ms.date: 04/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Beregning af forfaldsdato for køb
+# Beregne datoer for køb
 
 Hvis du vil have varer fra lageret på eb bestemt dato, kan [!INCLUDE[prod_short](includes/prod_short.md)] automatisk beregne den dato, hvor du skal bestille varen. 
 

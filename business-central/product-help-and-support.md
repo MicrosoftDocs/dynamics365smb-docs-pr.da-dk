@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: bholtorf
-ms.date: 09/28/2023
+ms.date: 02/27/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -17,9 +17,20 @@ ms.service: dynamics-365-business-central
 
 Organisationer, der bruger [!INCLUDE[prod_long](includes/prod_long.md)], kan få teknisk support i forbindelse med de problemer, de måtte opleve. I denne artikel får du vist følgende oplysninger og mange andre tip om, hvordan du bruger [!INCLUDE[prod_short](includes/prod_short.md)]:
 
+- Få mere at vide om, hvordan din AI-drevne assistent [kan vejlede og forklare](#chat-with-copilot)
 - Få mere at vide om, hvordan du [får fjernet blokering](#in-product-tips)  
-- Flere oplysninger om [få mere at vide](#help-pane)    
-- Få mere at vide om, hvordan du finder [de tekniske oplysninger](#help--support-page), du skal bruge for at sende en supportanmodning    
+- Flere oplysninger om [få mere at vide](#help-pane)
+- Få mere at vide om, hvordan du finder [de tekniske oplysninger](#help--support-page), du skal bruge for at sende en supportanmodning
+
+## Chat med Copilot
+
+[!INCLUDE [online_only](includes/online_only.md)]
+
+Chat med Copilot er et AI-drevet værktøj, der besvarer spørgsmål og finder forretningsdata, der er relateret til Business Central. Det er tilgængeligt på alle sider via ikonet ![Viser ikonet for chat med Copilot](media/chat-copilot-icon.png) **Copilot** i øverste højre hjørne. [Få mere at vide mere om chat med Copilot](chat-with-copilot.md).
+
+### Hjælp til felter
+
+Copilot kan hjælpe dig med at forstå formålet med og den typiske brug af de enkelte felter. Når du vælger **Spørg Copilot** i et værktøjstip til et felt, åbnes chatten med prompten Forklar for feltnavnet, og Copilot giver oplysninger om det. Copilot linker til de artikler, den refererer til, så det er nemt at verificere beskrivelsen.
 
 ## Hjælp til produktet
 
@@ -35,14 +46,9 @@ Menupunktet Hjælp i [!INCLUDE [prod_short](includes/prod_short.md)], (spørgsm�
 
 Følgende liste beskriver, hvordan du kan få adgang til ruden hjælp, og om der er tilføjet kort til den:
 
-- Vælg linket *Flere oplysninger* om et værktøjstip for et felt
-
-  Følgende kort indsættes i ruden hjælp:
-
-  - Feltets værktøjstip
-- Vælg linket *Flere oplysninger* om et værktøjstip for en handling
 - Vælge menupunktet Hjælp (spørgsmålstegnet i øverste højre hjørne)
 - Brug tastaturgenvejen <kbd>Ctrl</kbd>+<kbd>F1</kbd> fra alle steder
+- Vælg linket *Flere oplysninger* om et værktøjstip for et felt, hvis det er tilgængeligt. Linket *Få mere at vide* er kun tilgængeligt i mobilappen eller i brugerdefinerede felter (dvs. felter fra ikke-Microsoft-udvidelser) i webklienten.
 
 > [!TIP]
 > Når du vælger et hyperlink, åbnes destinations artiklen under en ny webbrowser fane. Du kan vælge at fjerne fanen browser, så du kan få vist de relevante oplysninger ved siden af hinanden med [!INCLUDE [prod_short](includes/prod_short.md)]. Ruden forbliver åben, mens du navigerer gennem [!INCLUDE [prod_short](includes/prod_short.md)], så det indhold, du har søgt efter, forbliver synligt.  

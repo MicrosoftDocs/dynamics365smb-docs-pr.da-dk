@@ -30,7 +30,7 @@ Nogle funktioner, enten generelle eller for bestemte forretningsprocesser, kan k
 | Konfigurere de regler og værdier, der definerer virksomhedens indkøbspolitikker, registrere nye kreditorer og prioritere dine kreditorer i forbindelse med behandling af betalinger. |[Opsætning af indkøb](purchasing-setup-purchasing.md) |
 | Konfigurere de regler og værdier, der definerer virksomhedens lagerpolitikker, oprette placeringer, hvis du fører lager på flere lagersteder og kategorisere varer for at forbedre søgning og sortering. |[Opsætning af lagerbeholdning](inventory-setup-inventory.md) |
 |Angiv standardrapporter, der skal bruges til forskellige dokumenttyper.|[Rapportvalg til dokumenter](across-report-selections.md)|
-| Konfigurere ressourcer, timesedler og sager for at administrere projekter. |[Konfigurere projektstyring](projects-setup-projects.md) |
+| Konfigurere ressourcer, timesedler og projekter for at administrere projekter. |[Konfigurere projektstyring](projects-setup-projects.md) |
 | Konfigurere, hvordan du vil forsikre, vedligeholde og afskrive anlægsaktiver, og hvordan du vil registrere udgifterne til anlægsaktiver i dine virksomhedsregnskaber. |[Opsætning af anlægsaktiver](fa-setup.md) |
 |Definere de generelle regler og værdier for lagerprocesser og den specifikke håndtering på hver enkelt lokation.|[Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)|
 |Forberede produktionsstyklister og ruter for at definere, hvordan færdigvarer produceres, og forberede produktionsressourcer eller arbejdscentre, der skal udføre de krævede operationer.|[Konfigurere produktion](production-configure-production-processes.md)|

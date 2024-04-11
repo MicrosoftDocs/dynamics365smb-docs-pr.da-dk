@@ -70,7 +70,7 @@ I følgende fremgangsmåde beskrives det, hvordan du bogfører varer, ressourcet
 4. Find de nødvendige poster, og angiv de antal, du vil bogføre forbrug for, i feltet **Antal til forbrug**. Antallet kan ikke være større end den mængde, der allerede er leveret, og den resterende mængde, der ikke er faktureret efter delvis fakturering af denne leverance.  
 
     > [!NOTE]  
-    >  Hvis du vil registrere forbruget i forbindelse med en opgave, skal du udfylde felterne **Sagsnr.**, **Sagsopgavenr.** og **Linjetype for sag** på servicelinjen.  
+    >  Hvis du vil registrere forbruget i forbindelse med et projekt, skal du udfylde felterne **Projektnr.**, **Projektopgavenr.** og **Linjetype for projekt** på servicelinjen.  
 
 5. Vælg de linjer, der skal bogføres, og vælg derefter handlingen **Bogfør**. Vælg **Send og forbrug** på den side, der åbnes.  
 
@@ -109,7 +109,7 @@ Du kan annullere forbruget i serviceordrerne. F.eks. fordi det er bogført ved e
 >  Du kan ikke fortryde serviceforbruget, hvis:  
 
 >    * Serviceordren er blevet lukket.  
->    * Den er blevet bogført i området sager, så der er sagsposter knyttet til den.  
+>    * Den er blevet bogført i området sager, så der er projektposter knyttet til den.  
 
 ## Sådan bogføres servicelinjer  
 Hvis du er nødt til at arbejde i længere tid med en serviceordre uden at bogføre den, kan du bogføre nogle af de servicelinjer, der er knyttet til den, f.eks. for at holde lageret opdateret. Du kan bogføre ved at angive de relevante antal på de linjer, der skal bogføres. Du kan vælge at bogføre linjerne én for én eller ved at vælge flere linjer ad gangen.  

@@ -1,12 +1,12 @@
 ---
 title: Modtage og konvertere elektroniske dokumenter
-description: 'Beskriver, hvordan du kan modtage elektroniske dokumenter direkte fra handelspartnere eller en OCR-tjeneste.'
+description: 'Denne artikel beskriver, hvordan du kan modtage elektroniske dokumenter direkte fra handelspartnere eller en OCR-tjeneste.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '189, 190, 191'
-ms.date: 06/23/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---

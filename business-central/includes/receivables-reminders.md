@@ -1,11 +1,14 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 Du kan bruge rykkere til at minde debitorer om forfaldne beløb. Du kan også bruge rykkere til at beregne renter eller gebyrer og inkludere dem på rykkeren.
+
+> [!TIP]
+> Oplysningerne i denne artikel er nøjagtige, men de beskriver en stort set manuel proces. [!INCLUDE [prod_short](prod_short.md)] indeholder værktøjer, som du kan bruge til at automatisere processerne til oprettelse, udstedelse og afsendelse af påmindelser. Automatisering af disse trin kan spare dig for meget tid, der skal bruges på samlinger. Du kan få mere at vide ved at gå til [Automatisere påmindelser i samlinger](../finance-automate-reminders.md).
 
 Inden du kan oprette rykkere, skal du oprette betingelser og knytte dem til debitorerne. Du kan finde flere oplysninger i [Konfiguration af rykkerbetingelser og -niveauer](../finance-setup-reminders.md). [!INCLUDE [reminder-terms](reminder-terms.md)] Indholdet af siden **Rentebetingelser** er bestemmende for, om der beregnes rente på rykkeren.  
 

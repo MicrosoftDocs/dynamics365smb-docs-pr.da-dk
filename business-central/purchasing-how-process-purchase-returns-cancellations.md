@@ -1,12 +1,12 @@
 ---
-title: Behandle salgsreturvarer eller annulleringer
+title: Behandle returvarer eller annulleringer
 description: 'Beskriver, hvordan du kan oprette og bogføre en købskreditnota, når du returnerer varer til en leverandør eller annullerer købte tjenester.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'cancel, undo, correct'
 ms.search.form: '6640, 6643, 9307, 9309, 9308, 6652, 145, 147'
-ms.date: 04/01/2021
+ms.date: 03/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -58,7 +58,7 @@ Du kan finde flere oplysninger i [Designoplysninger: Lagerkostmetode](design-det
     Når du har oprettet eller redigeret de ønskede købskreditnotalinjer, og anvendelse på enkelt eller flere er angivet, kan du fortsætte med at bogføre købskreditnotaen.
 8. Vælg handlingen **Bogfør**.
 
-De bogførte købsfakturaer, som du udligner kreditnotaen med, tilbageføres nu. Hvis du allerede har betalt den oprindelige faktura, skal leverandøren nu refundere betalingen til dig. Hvis kreditnotaen kun er for en del af produktet på den oprindelige faktura, kan du kun betale det resterende beløb på den originale købsfaktura for at lukke den.
+De bogførte købsfakturaer, som du udligner kreditnotaen med, tilbageføres nu. Hvis du allerede har betalt den oprindelige faktura, skal leverandøren nu refundere betalingen til dig. Hvis kreditnotaen kun er for en del af produktet på den oprindelige faktura, skal du måske kun betale det resterende beløb på den originale købsfaktura for at lukke den.
 
 Købskreditnotaen fjernes og erstattes med et nyt bilag i oversigten over bogførte købskreditnotaer.
 
@@ -135,7 +135,7 @@ Der kan være tilfælde, hvor du er blevet enig med en leverandør om, at denne 
 
 ## Sådan oprettes et købsnedslag
 
-Hvis du har modtaget varer, som f.eks. er lettere beskadigede, eller det ikke er de helt rigtige varer, tilbyder leverandøren muligvis en dekort eller et nedslag i prisen.  
+Hvis du har modtaget varer, som f.eks. er lettere beskadigede, har den forkerte farve eller forkerte størrelse, tilbyder leverandøren muligvis en dekort eller et nedslag i prisen.  
 
 Du kan bogføre den nedsatte købspris som et varegebyr på en kreditnota eller en returvareordre og knytte den til den bogførte modtagelse. Nedenfor beskrives dette for en købsreturvareordre, men samme fremgangsmåde anvendes ved en købskreditnota.
 
@@ -145,7 +145,7 @@ Du kan bogføre den nedsatte købspris som et varegebyr på en kreditnota eller 
 4. Marker **Gebyr (vare)** i feltet **Type** på oversigtspanelet **Linjer**.  
 5. I feltet **Nummer** skal du markere det relevante varegebyrværdi.  
 
-    Du kan oprette et særligt varegebyrnummer, som dækker købsdekorter.  
+    Du vil måske oprette et særligt varegebyrnummer, som dækker købsdekorter.  
 6. Angiv **1** i feltet **Antal**.  
 7. Indtast beløbet på dekorten i feltet **Købspris**.  
 8. Tildel købsnedslaget som et varegebyr på varerne i den bogførte leverance. Du kan finde flere oplysninger i [Bruge varegebyrer til at angive ekstra handelsomkostninger](payables-how-assign-item-charges.md). Vend derefter tilbage til siden **Købskreditnota**, når du har tildelt nedslaget.

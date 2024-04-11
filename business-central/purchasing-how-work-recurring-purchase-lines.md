@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'trade, purchase, replenishment'
 ms.search.form: 177
-ms.date: 07/06/2022
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Opret tilbagevendende købslinjer
+# Oprette tilbagevendende købslinjer
 
 Hvis du ofte har brug at oprette købslinjer med næsten ens oplysninger, kan du oprette standardlinjer, som du derefter kan indsætte i tilbagevendende købsdokumenter, f.eks. for tilbagevendende genbestillingsordrer.
 
@@ -28,7 +28,7 @@ Hvis du ofte har brug at oprette købslinjer med næsten ens oplysninger, kan du
 
 ## Tildele tilbagevendende købslinjer til en kreditor
 
-Tildele en eller flere gentagne købslinjer til en kreditor, så de kan indsættes i købsdokumenter for den pågældende kreditor.
+Tildel en eller flere gentagne købslinjer til en kreditor, så de kan indsættes i købsdokumenter for den pågældende kreditor.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.
 2. Åbn kortet for den relevante kreditor.
@@ -47,7 +47,7 @@ Tildele en eller flere gentagne købslinjer til en kreditor, så de kan indsætt
 
 Hvis der findes gentagne købslinjerne for kreditoren, kan du indsætte dem eller få dem automatisk indsat i alle typer købsdokumenter, f.eks. en købsfaktura. Hvis du har aktiveret indstillingen **Spørg altid**, når du tildeler gentagne købslinjer til kreditorer, får du besked, hvis der findes gentagne købslinjer.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.
+1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.
 2. Åbn den købsfaktura, som du vil indsætte en eller flere standardkøbslinjer i.
 3. Vælg handlingen **Hent tilbagevendende købslinjer**.
 4. På siden **Tilbagevendende købslinjer** skal du vælge på opslagsknappen i feltet **Kode** og derefter vælge en række standardkøbslinjer.

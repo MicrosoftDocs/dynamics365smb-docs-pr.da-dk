@@ -25,7 +25,7 @@ ms.service: dynamics-365-business-central
 |Administrere salgsprocesser og oplysninger, f.eks. tilbud, ordrer, returvareordrer og debitorkonti, og foretage direkte levering.|[Salg](sales-manage-sales.md)|
 |Administrere indkøbsprocesser og oplysninger, f.eks. fakturaer, ordrer, returvareordrer og kreditorkonti og købe varer fra salgsdokumenter. |[Køb](purchasing-manage-purchasing.md)|
 |Registrere ny lagerbeholdning eller varer af tjenestetypen, kategorisere varer med henblik på nem søgning, regulere lagerniveauer og udføre almindelige lageromkostningsopgaver.|[Lagerbeholdning](inventory-manage-inventory.md)|
-|Oprette job og planlægge ressourcer for projekter, administrere sagsbudgetter, overvåge status og spore maskin- og medarbejdertimer.|[Projektstyring](projects-manage-projects.md)|
+|Oprette projekter og planlægge ressourcer for projekter, administrere projektbudgetter, overvåge status og spore maskin- og medarbejdertimer.|[Projektstyring](projects-manage-projects.md)|
 |Organisere anlægsaktiverne, sikre korrekt periodisk afskrivning og holde styr på reparationsomkostninger.|[Anlægsaktiver](fa-manage.md)|
 |Styre og understøtte din salgsindsats og fokusere dine interaktioner på foretrukne kunder og kontakter.|[Relationsstyring](marketing-relationship-management.md)|
 |Føre detaljerede registre over medarbejderne og registrere fravær til analyseformål. |[Personale](hr-manage-human-resources.md)|

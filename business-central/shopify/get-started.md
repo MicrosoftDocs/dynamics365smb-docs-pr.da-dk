@@ -51,6 +51,10 @@ For eksisterende tilfælde af [!INCLUDE[prod_short](../includes/prod_short.md)] 
 2. Vælg handlingen **Ny**.  
 3. I feltet **Kode** skal du angive en kode, der nemt kan findes i [!INCLUDE[prod_short](../includes/prod_short.md)]. Et navn kan f. eks. vise, hvad et køb sælger, f. eks. "møbler" eller "kaffe", eller det land eller område, det befinder sig i.
 4. Angiv den URL-adresse, du vil oprette forbindelse til, i feltet **Shopify URL**. Brug følgende format: `https://{shop}.myshopify.com/`.
+
+   > [!TIP]
+   > Du kan kopiere URL-adressen fra Shopify Administration, synes godt om `https://admin.shopify.com/store/{shop}`, og connectoren konverterer den til det ønskede format.
+
 5. Slå til/fra-feltet **Aktiveret** til, gennemse og accepter vilkår og betingelser.
 6. Hvis du bliver bedt om det, skal du logge på din Shopify-konto. Når du har gennemset beskyttelsen af personlige oplysninger og tilladelser, skal du vælge knappen **Installer app**.
 
@@ -69,8 +73,8 @@ Gentag trin 2-6 for alle onlinebutikker, du vil oprette forbindelse til.
 
 Nu er din online forretning tilsluttet [!INCLUDE[prod_short](../includes/prod_short.md)]. I de næste trin skal du definere, hvordan og hvad der skal synkroniseres.
 
-- [Synkroniserere elementer](synchronize-items.md)
-- [Synkronisere debitorer](synchronize-customers.md)
+- [Synkronisere varer og lager](synchronize-items.md)
+- [Synkroniser debitorer](synchronize-customers.md)
 - [Synkronisere ordrer](synchronize-orders.md)
 
 ## Teststrategier

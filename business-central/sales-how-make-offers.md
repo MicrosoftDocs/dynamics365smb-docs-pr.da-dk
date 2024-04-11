@@ -1,18 +1,18 @@
 ---
-title: Oprette salgstilbud
+title: Foretage salgstilbud
 description: 'Beskriver, hvordan du opretter et salgstilbuds- eller tilbudsanmodningsdokument for at registrere dit tilbud til en kunde om at sælge produkter i henhold til bestemte betingelser.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: '41, 9300'
-ms.date: 07/12/2021
+ms.date: 02/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Oprette salgstilbud
+# Foretage salgstilbud
 
-Du opretter et salgstilbud for at registrere dit tilbud til en debitor eller et emne om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser. Du kan sende salgstilbuddet til debitoren for at kommunikere tilbuddet. Du kan sende dokumentet i en mail som en vedhæftet PDF-fil. Du kan også få brødteksten i mailen udfyldt med en oversigt over tilbuddet. Du kan finde flere oplysninger i [Sende dokumenter via mail](ui-how-send-documents-email.md).
+Du opretter et salgstilbud for at registrere dit tilbud til en debitor eller et emne om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser. Du kan sende salgstilbuddet til debitoren for at kommunikere tilbuddet. Du kan sende dokumentet i en mail som en vedhæftet PDF-fil. Du kan også få brødteksten i mailen udfyldt med en oversigt over tilbuddet. Du kan finde flere oplysninger i [Sende dokumenter via mail](ui-how-send-documents-email.md#to-send-documents-by-email).
 
 Mens du forhandler med debitoren eller om emnet, kan du ændre og gensende salgstilbuddet så meget, som det er nødvendigt. Når debitoren accepterer tilbuddet, kan du konverterer salgstilbuddet til en salgsfaktura eller en salgsordre, hvor du behandler salget. Du kan finde flere oplysninger i [Fakturere salg](sales-how-invoice-sales.md) eller [Sælge produkter](sales-how-sell-products.md).
 
@@ -44,7 +44,7 @@ I de fleste tilfælde sender du salgstilbud til potentielle kunder. Du har ofte 
 
     Hvis du har konfigureret de tilbagevendende salgslinjer for debitoren, f.eks en månedlig genbestillingsordre, kan du indsætte disse linjer i ordren ved at vælge handlingen **Hent tilbagevendende salgslinjer**.  
 
-4. I oversigtspanelet **Linjer** i feltet **Type** skal du vælge, hvilken type produkt, gebyr eller transaktion, som du vil bogføre for debitoren med salgslinjen.
+4. I oversigtspanelet **Linjer** i feltet **Type** skal du vælge, hvilken type produkt, gebyr eller transaktion som du vil bogføre for debitoren med salgslinjen.
 5. I feltet **Nummer** skal du vælge en post, der skal bogføres i overensstemmelse med værdien i feltet **Type**.
 
     Lad feltet **Nummer** være tomt i følgende tilfælde:
@@ -73,7 +73,7 @@ I de fleste tilfælde sender du salgstilbud til potentielle kunder. Du har ofte 
     > Feltet **Tilbud gyldigt til dato** kan udfyldes automatisk med et bestemt antal dage efter oprettelsen af tilbuddet, hvis du udfylder feltet **Beregning af tilbuddets gyldighed** på siden **Salg**.
 
 10. Når salgstilbudslinjerne er fuldført, skal du vælge handlingen **Send via mail**.
-11. På siden **Send mail** skal du udfylde de resterende felter og gennemse det integrerede salgstilbud. Du kan finde flere oplysninger i [Sende dokumenter via mail](ui-how-send-documents-email.md).
+11. På siden **Send mail** skal du udfylde de resterende felter og gennemse det integrerede salgstilbud. Du kan finde flere oplysninger i [Sende dokumenter via mail](ui-how-send-documents-email.md#to-send-documents-by-email).
 12. Hvis kontaktpersonen accepterer tilbuddet, skal du vælge **Lav ordre**-handlingen.  
 
     Hvis organisationen foretrækker denne proces, skal du vælge handlingen **Opret faktura**.  
@@ -95,7 +95,7 @@ Konverteringen fjerner salgstilbuddet fra databasen. En salgsfaktura eller salgs
 
 [Salg](sales-manage-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  
-[Sende dokumenter via mail](ui-how-send-documents-email.md)  
+[Sende dokumenter via mail](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Arkivere dokumenter](across-how-to-archive-documents.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
