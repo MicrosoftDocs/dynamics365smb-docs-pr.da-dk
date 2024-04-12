@@ -10,7 +10,7 @@ ms.date: 05/31/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-a-sequence-of-workflow-users"></a>Konfigurere en række workflowbrugere
+# Konfigurere en række workflowbrugere
 
 Før du kan oprette godkendelsesworkflows, skal du konfigurere de brugere, der skal sende anmodninger, og deres godkendere. Du kan f.eks. angive, hvem der skal modtage en besked om at udføre et workflowtrin. Du kan konfigurere deltagere i godkendelsesworkflow på siden **Brugeropsætning af godkendelser**. Flere oplysninger i [Konfigurere godkendte brugere](across-how-to-set-up-approval-users.md).
 
@@ -18,7 +18,7 @@ På siden **Brugergrupper for workflow** kan du angive, hvor en deltager skal de
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-## <a name="to-set-up-a-workflow-user-group"></a>Sådan oprettes en brugergruppe for workflow
+## Sådan oprettes en brugergruppe for workflow
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Workflow brugergrupper**, vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. Siden **Brugergruppe for workflow** åbnes.  
@@ -33,7 +33,7 @@ På siden **Brugergrupper for workflow** kan du angive, hvor en deltager skal de
 
 6. Gentag trin 5 for at føje flere workflowbrugere til workflowbrugergruppen.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  
 [Konfigurere godkendelsesworkflows](across-set-up-workflows.md)  
