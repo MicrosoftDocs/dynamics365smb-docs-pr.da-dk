@@ -471,7 +471,9 @@ ms.service: dynamics-365-business-central
 
 ### Financial Reporting (implementering af årsregnskaber og KPI'er)
 #### [Klargøre Financial Rapportering](bi-how-work-account-schedule.md)
-#### [Gennemgang: Brug Financial Reporting til at oprette en pengestrømsprognose](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Rækkedefinitioner i finansiel rapportering](bi-row-definitions.md)
+#### [Kolonnedefinitioner i finansiel rapportering](bi-column-definitions.md)
+#### [Gennemgang: Brug finansiel rapportering til at oprette en pengestrømsprognose](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Opsætte og udgive en KPI-webservice, der er baseret på Financial Reporting](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Analysere data med statistiske konti](bi-use-statistical-accounts.md)
 #### [Analysere data efter dimensioner](bi-how-analyze-data-dimension.md)
@@ -1049,6 +1051,7 @@ ms.service: dynamics-365-business-central
 
 ### Island
 #### [Lokal funktionalitet i den islandske version](LocalFunctionality/Iceland/iceland-local-functionality.md)
+#### [Opsætning af Island W1-kerneapp](LocalFunctionality/Iceland/iceland-global-core-app.md)
 #### Moms
 ##### [Udskrive momsoversigtsoplysninger for dokumenter](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 ##### [Særlig dataoutput og rapporter til skattemyndighederne](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
@@ -1057,6 +1060,7 @@ ms.service: dynamics-365-business-central
 #### Generelt  
 ##### [Knytte IRS-numre til kontoplanen](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Slette bogførte fakturaer og kreditnotaer](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
+##### [Registreringsnummer i den islandske lokalisering](LocalFunctionality/Iceland/use-registration-no.md)
 
 ### Indien
 #### [Oversigt](LocalFunctionality/India/india-local-functionality.md)
@@ -1386,7 +1390,7 @@ ms.service: dynamics-365-business-central
 ##### [Moms i den russiske version](LocalFunctionality/Russia/VAT.md)
 ##### [Opsætte momsposter](LocalFunctionality/Russia/How-to-Set-Up-VAT-Ledgers.md)  
 ##### [Forberede og bogføre momsposter](LocalFunctionality/Russia/How-to-Prepare-VAT-Entries-for-Posting.md)  
-##### [VAT-udligning](LocalFunctionality/Russia/Settlement-VAT.md)  
+##### [Momsudligning](LocalFunctionality/Russia/Settlement-VAT.md)  
 ##### [Uploade regnskaber til køb og salg samt momsopgørelsen i XML-format](LocalFunctionality/Russia/upload-books-purchases-sales-xml-vat-declaration.md)  
 ##### [Moms efter debitorforudbetaling](LocalFunctionality/Russia/VAT-by-Customer-prepayments.md)  
 ##### [Genindføre moms](LocalFunctionality/Russia/VAT-reinstatement.md)  

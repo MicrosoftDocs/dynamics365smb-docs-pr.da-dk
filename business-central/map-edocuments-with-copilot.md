@@ -12,7 +12,7 @@ ms.date: 02/23/2024
 ms.custom: bap-template
 ---
 
-# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>Knytte e-dokumenter til købsordrelinjer med Copilot (forhåndsversion)
+# Knytte e-dokumenter til købsordrelinjer med Copilot (forhåndsversion)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -33,17 +33,17 @@ Du kan nu opdatere en eksisterende indkøbsordre i Business Central med de oplys
 > - AI-generated content may be incorrect.-->
 
 
-## <a name="identify-purchase-orders"></a>Identificere købsordrer
+## Identificere købsordrer
 
 Først kan du identificere de købsordrer, som du kan matche automatisk.
 
-## <a name="map-lines"></a>Tilknytte linjer
+## Tilknytte linjer
 
 Copilot hjælper dig med automatisk at matche e-fakturalinjer med indkøbsordrelinjer og tilbyder ekstra matchende intelligens for at forbedre matchene.
 
 Når de er matchet og tilknyttet, opdaterer Business Central den matchede købsordre med de relevante modtagelsesoplysninger for at sikre, at de rigtige antal er modtaget på ordrelinjerne.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversigt over e-dokumenter](finance-edocuments-overview.md)  
 [Bruge e-dokumenter i salg og køb](finance-how-use-edocuments.md)  
