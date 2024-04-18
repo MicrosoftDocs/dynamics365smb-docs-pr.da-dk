@@ -10,7 +10,7 @@ ms.date: 04/05/2024
 ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
-# Administrere synkronisering af stamdata
+# <a name="manage-master-data-synchronization"></a>Administrere synkronisering af stamdata
 
 Når du har oprettet stamdata og synkroniseret for første gang, er posterne i de valgte tabeller tilkoblet, og der oprettes en tilbagevendende opgavekøpost for hver tabel. Opgavekøposten synkroniserer automatisk data i datterselskaberne, når nogen foretager en ændring i kilderegnskabet. Ellers behøver du ikke foretage dig noget.
 
@@ -21,29 +21,29 @@ Nogle gange går der ikke noget galt, og der kan være situationer, hvor du skal
 
 I denne artikel beskrives de værktøjer, du kan bruge til at holde synkroniseringen kørende uden problemer.
 
-## Overskriv lokale ændringer
+## <a name="overwrite-local-changes"></a>Overskriv lokale ændringer
 
 Du kan bruge afkrydsningsfeltet **Overskriv lokal ændring** i de felter og tabeller, du synkroniserer, for at tillade, at data fra kilderegnskabet overskriver data i datterselskabet.
 
 > [!NOTE]
 > Du kan ikke aktivere synkroniseringen af et felt og tillade datterselskabet at skrive værdier i det uafhængigt af kildefirmaet. Du skal enten deaktivere synkroniseringen af feltet eller tillade, at kildefirmaet overskriver lokale ændringer.
 
-## Opdatere tabelskemaer
+## <a name="update-table-schemas"></a>Opdatere tabelskemaer
 
 Hvis kilderegnskabet ændrer en tabel, f.eks. ved at tilføje et felt, som du vil synkronisere, skal datterselskaberne opdatere felttilknytningerne. Brug handlingen **Opdater felter** på siden **synkroniseringsfelter**.
 
-## Aktivere eller deaktivere kobling mellem poster
+## <a name="enable-or-disable-couplings-between-records"></a>Aktivere eller deaktivere kobling mellem poster
 
 Hvis du vil starte eller stoppe koblingen på bestemte poster i en tabel, skal du på siden **synkroniseringsfelter** vælge felterne og enten bruge **Aktiver** eller **Deaktiver** .
 
 > [!TIP]
 > Du kan hurtigt aktivere eller deaktivere flere felter på én gang ved at markere dem på listen og derefter bruge handlingerne **Aktiver** eller **Deaktiver**.
 
-## Kør en fuld synkronisering
+## <a name="run-a-full-synchronization"></a>Kør en fuld synkronisering
 
 Handlingen **Udfør fuld synkronisering** planlægger en synkronisering for alle tabelposter i kildevirksomheden og gensynkroniserer alle poster betingelsesløst. Gensynkronisering er f.eks. nyttig, hvis du aktiverer et ekstra felt i en synkroniseringstabel eller tilføjer et ekstra felt ved hjælp af handlingen **Opdater felter**. Handlingen synkroniserer dataene i disse felter med tilbagevirkende kraft.
 
-## Synkroniser tilpassede poster
+## <a name="synchronize-modified-records"></a>Synkroniser tilpassede poster
 
 Hvis du ændrer en indstilling for en tabel eller et felt i et datterselskab, skal du opdatere synkroniseringen. Hvis du vil opdatere synkroniseringen, skal du bruge handlingen **Synkroniser ændrede poster** på siden **synkroniseringstabeller**.
 
@@ -54,7 +54,7 @@ Handlingen **Synkroniser ændrede poster** planlægger en synkronisering af føl
 
 Handlingen fungerer på samme måde som en planlagt synkronisering, og du kan bruge den som en metode til synkronisering uden for tidsplanen. Hvis du f. eks. vælger at markere afkrydsningsfeltet **Overskriv lokal ændring** i et felt for at tillade, at data fra kilderegnskabet overskriver lokale ændringer, opdaterer handlingen disse data. Du kan også bare vente, indtil den næste planlagte synkronisering sker.
 
-## Undersøge status for synkronisering
+## <a name="investigate-the-status-of-synchronization"></a>Undersøge status for synkronisering
 
 Der er to handlinger på siden **Synkroniseringstabeller**, som kan være en hjælp til at overvåge synkroniseringen:
 
@@ -71,14 +71,14 @@ Den følgende tabel beskriver handlingerne.
 > [!NOTE]
 > Hvis du finder en fejl på siden **integrationssynkroniseringsjob**, som du ikke kan løse, skal du, hvis du kontakter din partner eller Microsoft for support, få fejlmeddelelsen og oplysninger om callstack.
 
-## Rydde op i gamle poster
+## <a name="clean-up-old-entries"></a>Rydde op i gamle poster
 
 Med tiden vil antallet af poster i synkroniseringsloggen være større, så du kan evt. Housekeeping fjerne unødvendige poster. Når du vil gøre det nemmere at rydde op i gamle poster, kan du bruge siden **Integrationssynkroniseringsjobs** til følgende:
 
 * **Slet poster ældre end syv dage**
 * **Slet alle poster**
 
-## Tilføje udvidelser
+## <a name="adding-extensions"></a>Tilføje udvidelser
 
 Hvis kilderegnskabet installerer et nyt filtypenavn, skal datterselskabet også installere det, hvis det vil synkronisere dataene for det. Datterselskabet kan bruge handlingen **Opdater felter** på siden **Synkroniseringsfelter** til at føje tabellerne fra udvidelsen til listen.
 
@@ -86,11 +86,11 @@ Hvis kilderegnskabet installerer et nyt filtypenavn, skal datterselskabet også 
 > Nogle tabeller henter data fra relaterede tabeller. Hvis du tilføjer et filtypenavn, der ikke indeholder relaterede tabeller, vil felterne i disse tabeller ikke være tilgængelige. Kontroller, at du har tilføjet alle relaterede tabeller.
 
 <!--
-## Recreate a deleted job queue entry
+## <a name="recreate-a-deleted-job-queue-entry"></a>Recreate a deleted job queue entry
 
 If the recurring job queue entry is deleted for a table, you can quickly recreate it. On the **Synchronization Tables** page, choose the **Use Default Synchronization Setup** action.
 -->
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Gør dig klar til at synkronisere stamdata](admin-set-up-data-sync.md)
