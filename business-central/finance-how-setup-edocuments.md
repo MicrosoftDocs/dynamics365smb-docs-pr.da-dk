@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
 ms.search.form: '359, 360, 6103, 6133'
-ms.date: 10/05/2023
+ms.date: 03/29/2023
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -73,7 +73,7 @@ Hvis du ikke bruger **Data Exchange Definition**-formatet, kan du oprette og kon
 
 ### Understøttede dokumenttyper 
 
-Understøttede dokumenttyper er baseret på det valgte **dokumentformat**. For at kontrollere, hvilke dokumenttyper der understøttes, skal du på **E-Document Service** siden køre handlingen **Understøttede dokumenttyper** . **E-Document Service Understøttede kildedokumenttyper** åbner, og i kolonnen **Kildedokumenttype** kan du finde alle de understøttede dokumenttyper.  
+Understøttede dokumenttyper er baseret på det valgte **dokumentformat**. For at kontrollere, hvilke dokumenttyper der understøttes, skal du på **E-Document Service** siden vælge handlingen **Understøttede dokumenttyper** . **E-Document Service Understøttede kildedokumenttyper** åbner, og i kolonnen **Kildedokumenttype** kan du vælge forskellige dokumenttyper, der skal understøtte det format, du planlægger at anvende. Sørg for ikke at bruge dokumenttypen, hvis dokumentet ikke er markeret på denne side.   
 
 ## Konfigurere dokumentafsendelsesprofil
 
@@ -104,7 +104,7 @@ Følg disse trin for at konfigurere det workflow, der bruges i e-dokumentfunktio
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Word-skabeloner**, og vælg derefter det relaterede link.
 2. Hvis du ikke kan finde **Skabeloner til e-dokumentworkflow** på siden **Arbejdsprocesskabeloner**, skal du vælge **Nulstil Microsoft-skabeloner**. Derefter vises **skabeloner til e-dokumentarbejdsgange**. Luk siden.
 3. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Workflows**, og vælg derefter det relaterede link.
-4. Kør handlingen **Nyt workflow fra skabelon** for at vælge en skabelon til e-dokumentprocessen. De tilgængelige skabeloner er **Send til én tjeneste** og **Send til flere tjenester**.
+4. Vælg handlingen **Nyt workflow fra skabelon** for at vælge en skabelon til e-dokumentprocessen. De tilgængelige skabeloner er **Send til én tjeneste** og **Send til flere tjenester**.
 5. Vælg **OK** for at fuldføre opsætningen af workflowet.
 6. I feltet **Derefter svar** skal du vælge **Send e-dokument ved hjælp af opsætning** for at konfigurere arbejdsgangssvarene.
 7. Vælg den E-dokumenttjeneste, du har oprettet, som en indstilling, vælg **OK,** og aktivér derefter arbejdsgangen.
@@ -122,13 +122,28 @@ E-dokumenter kan være omfattet af forskellige lokale lovgivninger, der er relat
 
 Følg disse trin for at konfigurere opbevaringspolitikker relateret til e-dokumenter.
 
-1. På siden **E-dokumenttjenester** skal du køre handlingen **Opbevaringspolitik**.
+1. På siden **E-dokumenttjenester** skal du vælge handlingen **Opbevaringspolitik**.
 2. Når handlingen er fuldført, skal du vælge en af følgende opbevaringspolitikker, der skal konfigureres:
 
     - Log over e-dokument
     - Log over integration af e-dokumenter
     - Log over tilknytning af e-dokument
     - Lagring af e-dokumentdata
+
+## Demodata til e-dokumenter  
+
+> [!NOTE]
+> Fra Business Central version 24.0 er det muligt at opsætte demodata til E-dokumenter.
+
+For at gøre det nemmere at teste og demonstrere egenskaber ved **E-dokumenter**har Microsoft oprettet et nyt demomodul til elektroniske dokumenter. Følg trinene for at aktivere dette modul:  
+
+1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, åbn **Contoso-demoværktøj**, og vælg derefter det relaterede link.  
+2.  Før du aktiverer **Contoso-modulets E-dokument**, skal du på grund af afhængigheder have aktiveret følgende moduler: **Fælles modul** og **Lagermodul**. 
+3.  Når du har aktiveret disse moduler, skal du vælge **Contoso-modulets E-dokumenter** og derefter vælge handlingen **Generer**. 
+4.  Følge trinene.  
+5.  Luk siden.   
+
+Når du har et aktiveret modul, ville du have oprettet nye demoelementer, importeret seks elektroniske dokumenter (baseret på Peppol BIS 3) og allerede konfigureret **E-dokumenttjenesten** med oprettede arbejdsgange.  
 
 ## Se også
 
