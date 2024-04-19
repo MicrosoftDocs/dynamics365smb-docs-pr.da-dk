@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="use-e-documents-in-the-sales-process"></a>Bruge e-dokumenter i salgsprocessen
+# Bruge e-dokumenter i salgsprocessen
 
 Du kan bruge konfigurerede elektroniske dokumenter (e-dokumenter) sammen med salgsdokumenter.
 
@@ -25,13 +25,13 @@ Du kan bruge følgende salgsdokumenter med e-dokumenters funktioner:
 - Rentenotaer
 - Rykkere
 
-## <a name="e-documents-in-sales"></a>E-dokumenter i salg
+## E-dokumenter i salg  
 
 For at oprette og sende en e-faktura til en kunde skal du oprette og bogføre salgsfakturaen. Du kan få mere at vide om standardprocessen under [Fakturere salg](sales-how-invoice-sales.md).
 
 Når du har bogført salgsdokumentet, skal du åbne siden **Bogført salgsfaktura** for at få adgang til den relaterede side **E-dokument**.
 
-### <a name="view-e-documents"></a>Vise e-dokumenter
+### Vise e-dokumenter   
 
 Følg disse trin for at få vist eksisterende e-dokumenter.
 
@@ -40,7 +40,7 @@ Følg disse trin for at få vist eksisterende e-dokumenter.
 3. Feltet **Post** viser dokumentnummeret på det bogførte salgsfaktura. Vælg linket til at åbne dokumentet.
 4. I feltet **Status for elektroniske dokumenter** kan du få vist dokumentets status i realtid og dets placering i procespipelinen. Hvis dokumentet er bogført, er status **Behandlet**.
 
-### <a name="e-document-statuses-and-logs"></a>Logfiler for e-dokumentstatusser
+### Logfiler for e-dokumentstatusser 
 
 Du kan finde flere oplysninger om servicestatusniveauet for dit e-dokument i oversigtspanelet **E-dokumentservicestatus**. På linjerne viser systemet en eller flere tjenester, som dokumentet har brugt. I det mest almindelige scenarie bruger hvert dokument kun én tjeneste. Et dokument kan dog bruge flere tjenester.
 
@@ -64,7 +64,7 @@ Hvis der er et problem med tjenesteudbyderen, og dokumentet ikke kan sendes, ska
 
 Når problemet er løst, skal du manuelt køre handlingerne **Send dokumenter**. Hvis du har brug for forskellige handlinger, f.eks. **Genoprettede dokument**, **Annuller dokument** eller **Hent godkendelse**, kan du køre dem.
 
-## <a name="overview-of-e-document-statuses"></a>Oversigt over e-dokumentstatusser
+## Oversigt over e-dokumentstatusser
 
 Hvis du vil have et bedre overblik over alle e-dokumenter i regnskabet, kan du vælge rollecenteret **Bogholder**, hvor der findes e-dokumentstatusser. Der kan du finde e-dokumentaktiviteter, der har følgende statusser:
 
@@ -75,7 +75,7 @@ Hvis du vil have et bedre overblik over alle e-dokumenter i regnskabet, kan du v
     - Fejl
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Sådan konfigureres e-dokumenter i Business Central](finance-how-setup-edocuments.md)  
 [Sådan udvides e-dokumenter i Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
