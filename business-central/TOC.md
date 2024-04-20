@@ -573,6 +573,7 @@ ms.service: dynamics-365-business-central
 ### [Forstå metoder for igangværende arbejde](projects-understanding-wip.md)
 ### [Overvåge status og ydeevne af projekt](projects-how-monitor-progress-performance.md)
 ### [Fakturaprojekter](projects-how-invoice-jobs.md)
+### [Montage til projekt](projects-assemble-to-project.md)
 
 ## Anlægsaktiver
 ### [Oversigt over anlægsaktiver](fa-manage.md)
