@@ -127,6 +127,37 @@ Du kan bruge en financiel rapport til at oprette en opgørelse, hvor tallene i f
 
 Du kan nu kopiere og indsætte budgetoversigten i et regneark..  
 
+## Integrere finansielle rapporter med Excel
+
+Du kan integrere en økonomisk rapport med en Excel-projektmappeskabelon, justere layoutet, så det passer til dine behov, og derefter opdatere Excel-skabelonen med data fra [!INCLUDE[prod_short](includes/prod_short.md)]. Denne integration gør det f.eks. nemmere at generere dine månedlige og årlige regnskaber i et format, der fungerer for dig.
+
+### Konfigurere Excel-integration for en økonomisk rapport (oprette en Excel-skabelon)
+
+Hvis du vil konfigurere Excel-integration for en økonomisk rapport, skal du følge disse trin for at oprette en Excel-skabelon til en rapport.
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 4.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Finansrapporter**, og vælg derefter det relaterede link.
+1. På siden **Finansielle rapporter** skal du vælge den relevante finansielle rapport til aktivering med Excel, og vælge **Eksportér til Excel**.
+1. Vælg handlingen **Opret nyt dokument**. Denne handling henter en Excel-skabelonprojektmappe med et enkelt regneark, der er opkaldt efter rapportnavnet.
+1. Kopiér regnearket, og omdøb det til **Data**.
+1. Omdøb rapportregnearket efter eget valg.
+1. Markér alle celler, der viser data fra den økonomiske rapport (herunder kolonne- og rækkeoverskrifter), i rapportregnearket. På båndet **Hjem** skal du finde menuen **Tal** og vælge **Generelt** som format.
+1. Vælg cellen længst til venstre i området med data fra den økonomiske rapport, og angiv en reference til den tilsvarende celle i dataregnearket. Træk formlen til højre for at udvide den til alle celler i den første række, og træk derefter rækken ned for at dække alle rækker i den økonomiske rapport.
+1. Skjul **dataregnearket**.
+1. Formatér rapportkladden, så den passer til dine behov.
+1. Gem projektmappen på OneDrive eller et lignende sted, hvor filen sikkerhedskopieres og versioneres.
+1. Luk projektmappen.
+
+### Køre en økonomisk rapport med en Excel-skabelon
+
+Hvis du vil køre en økonomisk rapport med en Excel-skabelon, skal du følge disse trin:
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 4.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Finansrapporter**, og vælg derefter det relaterede link.
+1. På siden **Finansielle rapporter** skal du vælge den relevante finansielle rapport til aktivering med Excel, og vælge **Eksportér til Excel**.
+1. Vælg handlingen **Opdater kopi af eksisterende dokument**.
+1. Overfør din Excel-skabelon (luk Excel-projektmappen, før du overfører den).
+1. På siden **Navn/værdiopslag** skal du vælge dataregnearket.
+1. [!INCLUDE[prod_short](includes/prod_short.md)] kører den økonomiske rapport og fletter de resulterende data med din Excel-skabelon.
+
 ## Udskrive og gemme finansielle rapporter
 
 Du kan udskrive finansielle rapporter ved at bruge enhedens udskrivningsservice. [!INCLUDE[prod_short](includes/prod_short.md)] giver også muligheder for at gemme rapporter som Excel-projektmapper, Word-dokumenter, PDF-filer og XML-filer.
@@ -147,6 +178,7 @@ Du kan gemme en finansrapport i filformater som f.eks. PDF, XML, Word eller Exce
 1. Angiv rapporten tilsvarende, og vælg derefter handlingen **Send til**.
 1. Vælg filformatet eller handlingen **Planlægning**, og vælg **OK**.
 1. Udfyld felterne for at oprette en planlagt eller tilbagevendende finansiel rapport. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>For tilbagevendende finansielle rapporter skal du angive felterne **Tidligste startdato/-klokkeslæt** og **Udløbsdato/-klokkeslæt** med den første og sidste dato for at oprette den finansielle rapport. Du kan også vælge, hvilke dage rapporten oprettes, ved at angive feltet **Datoformel for næste kørsel** efter det format, der er forklaret i sektionen [Bruge datoformler](ui-enter-date-ranges.md#use-date-formulas).
+
 
 ## Bedste fremgangsmåder for arbejde med definitioner af finansrapporter
 

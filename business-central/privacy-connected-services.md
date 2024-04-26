@@ -5,13 +5,13 @@ author: jswymer
 ms.topic: overview
 ms.service: dynamics-365-business-central
 ms.search.keywords: 'privacy, trial, Microsoft services'
-ms.date: 12/12/2023
+ms.date: 04/14/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Prøvefunktioner, der opretter forbindelse til andre Microsoft-tjenester
+# Prøvefunktioner, der opretter forbindelse til andre Microsoft-tjenester 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] er en omfattende løsning til virksomhedsstyring, som er dybt integreret med Microsoft 365-produktivitetsapps og Power Platform. Din gratis prøveversion af Business central kan oprette forbindelse til mange forskellige Microsoft-tjenester, som du skal først konfigurere og aktivere. Hvis du vil have størst udbytte af din gratis prøveversion, er nogle af disse funktioner automatisk blevet aktiveret. Selvom forbindelsen fra [!INCLUDE[prod_short](includes/prod_short.md)] er aktiveret, følger disse tjenester ikke med din prøveversion, og de skal købes separat, medmindre de allerede findes.
 
@@ -19,10 +19,10 @@ I følgende tabel vises de forbindelser til Microsoft-tjenester, der automatisk 
 
 |Tjenestenavn|Forbindelse er automatisk aktiveret |Tjenesten kontaktes, når der logges på Business central |Eksempel på en funktion, som bruger denne tjeneste | Få mere at vide om, hvordan du administrerer den forbindelse og de funktioner, der bruger den|  
 |------------|-------------|--------|------------|-------------|
-|Microsoft Teams|Ja|Nej|**Del med Teams**-handling på **varekort** |[Administration af Teams-integration med Business Central](admin-teams-integration.md)|  
-|Microsoft OneDrive til virksomheder|Ja|Nej|**Åbn i OneDrive**-handling på **vedhæftede varer** |[Administrere OneDrive-integration med Business Central](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
-| Microsoft Power Automate |Ja|Nej|**Automatisere** handlinger på **varekort** |[Konfigurere Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
-| Microsoft Azure OpenAI-automatisk |Ja |Nej|**CoPilot (forhåndsversion)** |[Konfigurere marketingtekst med Copilot til AI-styret vare](enable-ai.md)|
+|Microsoft Teams|Ja|Nr.|**Del med Teams**-handling på **varekort** |[Administration af Teams-integration med Business Central](admin-teams-integration.md)|  
+|Microsoft OneDrive til virksomheder|Ja|Nr.|**Åbn i OneDrive**-handling på **vedhæftede varer** |[Administrere OneDrive-integration med Business Central](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
+| Microsoft Power Automate |Ja|Nr.|**Automatisere** handlinger på **varekort** |[Konfigurere Power Automate Integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
+| Microsoft Azure OpenAI-tjeneste |Ja |Nr.|**Copilot** |[Konfigurere marketingtekst med Copilot til AI-styret vare](enable-ai.md)|
 
 > [!NOTE]
 > Brug af funktioner, der opretter forbindelse til disse tjenester: 

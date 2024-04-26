@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 03/27/2024
+ms.date: 04/16/2024
 ms.custom: bap-template
 ---
 
@@ -24,7 +24,7 @@ Microsoft Copilot er den AI-drevne assistent, der hjælper med at sætte gang i 
 
 Copilot indeholder et konstant voksende sæt funktioner, der hjælper brugere i forskellige roller og opgaver. Du kan læse om Copilot og andre AI-funktioner i Business Central på [aka.ms/BCAI](https://aka.ms/BCAI). 
 
-## Er Copilot gratis? 
+## Er Copilot gratis?
 
 På nuværende tidspunkt er Copilot i Business Central inkluderet i din Business Central-licens uden ekstra omkostninger. Dette udelukker ikke, at politikker, kvoter eller priser om rimeligt forbrug kan blive indført på et senere tidspunkt.
 
@@ -39,6 +39,10 @@ Business Central tilbyder adskillige AI-drevne funktioner. Nogle funktioner, f.e
 ## Er Copilot i Business Central tilgængelig over hele verden? 
 
 Copilot indeholder et konstant voksende sæt funktioner, der hjælper brugere i forskellige roller og opgaver. Hver Copilot-funktion definerer sin egen liste over understøttede områder og understøttede sprog. Selvom de fleste funktioner sandsynligvis kun vil være tilgængelige på engelsk, stræber vi efter at låse op for flere sprog og områder over tid. Du kan få et overblik over de Copilot-sprog og -områder, der er tilgængelige for virksomhedsprogrammer, på [https://dynamics.microsoft.com/availability-reports/copilotreport](https://dynamics.microsoft.com/availability-reports/copilotreport).
+
+## Er Copilot opmærksom på mine miljøtilpasninger?
+
+Nogle, men ikke alle, Copilot-funktioner kan fungere sammen med dine brugerdefinerede sider og tabeller. Du kan f.eks. bruge [analyseassistenten](analysis-assist.md) på dine brugerdefinerede lister eller [chatte med Copilot](chat-with-copilot.md) for at finde poster i brugerdefinerede tabeller. Du kan finde ud af, hvilke Copilot-funktioner der fungerer med tilpasninger, i artiklerne for hver funktion.
 
 ## Kan jeg udvikle mine egne Copilots til Business Central?
 

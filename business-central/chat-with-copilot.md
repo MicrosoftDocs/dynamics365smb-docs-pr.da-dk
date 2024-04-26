@@ -103,9 +103,9 @@ Prompt: `How does I save my filterrings to do them later?`
 
 I dette eksempel beder du Copilot om vejledning i, hvordan du udfører en opgave i Business Central. Copilot kan normalt forstå hensigten med dit spørgsmål, selvom der er et par grammatiske fejl, stavefejl eller forkortelser.
 
-Prompt: `Provide feedback on answers`
+## Giv feedback på svar
 
-Du kan bedømme de svar, du får fra Copilot, ved at bruge knappen Synes godt om (tommelfinger op) for god bedømmelse eller knappen Dislike (tommelfinger ned) for en dårlig bedømmelse. Når du vælger knappen Dislike, kan du vælge en årsag, herunder unøjagtig, upassende eller andet. Disse oplysninger kan hjælpe os med at forbedre forslagene.
+Du kan bedømme de svar, du får fra Copilot, ved at bruge knappen Synes godt om (tommelfinger op) for god bedømmelse eller knappen Dislike (tommelfinger ned) for en dårlig bedømmelse. Når du vælger knappen Dislike, kan du vælge en årsag, herunder unøjagtig, upassende eller andet. Disse oplysninger kan hjælpe med at forbedre forslagene.
 
 <!--
 1. If you want help getting you're question started, select the prompts either from the **Find**, **Explain**, or **Guide** buttons at the top of the Coplit pane or use the **View Prompts** menu above **Ask a question** box at the bottom.

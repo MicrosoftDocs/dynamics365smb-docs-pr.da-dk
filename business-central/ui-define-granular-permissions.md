@@ -36,10 +36,10 @@ Du kan finde flere oplysninger i [Delegeret administratoradgang til Business Cen
 
 |Hvis du vil  |Skal du se  |
 |---------|---------|
-|Hvis du vil gøre det nemmere at administrere rettigheder for flere brugere, kan du organisere dem i sikkerhedsgrupper og dermed tildele eller ændre et rettighedssæt for mange brugere i én handling.| [Sådan administreres rettigheder via brugergrupper](#to-manage-permissions-through-user-groups) |
-|Sådan administreres tilladelsessæt for bestemte brugere | [Sådan tildeles rettighedssæt til brugere](#to-assign-permission-sets-to-users) |
-|Sådan defineres et tilladelsessæt|[Oprette et rettighedssæt](#to-create-a-permission-set)|
-|Sådan får du vist eller fejlfinder en brugers rettigheder|[Sådan får du vist en oversigt over en brugers rettigheder](#to-get-an-overview-of-a-users-permissions)|
+|Hvis du vil gøre det nemmere at administrere rettigheder for flere brugere, kan du organisere dem i sikkerhedsgrupper og dermed tildele eller ændre et rettighedssæt for mange brugere i én handling.| [Administrere rettigheder via brugergrupper](#manage-permissions-through-user-groups) |
+|Sådan administreres tilladelsessæt for bestemte brugere | [Tildele rettighedssæt til brugere](#assign-permission-sets-to-users) |
+|Sådan defineres et tilladelsessæt|[Oprette et rettighedssæt](#create-a-permission-set)|
+|Sådan får du vist eller fejlfinder en brugers rettigheder|[Hent en oversigt over en brugers rettigheder](#get-an-overview-of-a-users-permissions)|
 |Sådan kan du se mere om sikkerhed på postniveau|[Sikkerhedsfiltre begrænser en brugers adgang til bestemte poster i en tabel](#security-filters-limit-a-users-access-to-specific-records-in-a-table)|
 
 > [!NOTE]
@@ -116,7 +116,7 @@ Hvis du udelader et tilladelsessæt, udelukkes alle tilladelserne i sættet. [!I
 2. Beregne den fuldstændige liste over ekskluderede tilladelser
 3. Fjerne udelukkede tilladelser fra listen over inkluderede tilladelser (fjerne en indirekte tilladelse er den samme som reduktion af indirekte)
 
-## Sådan kopieres et rettighedssæt
+## Kopiere et rettighedssæt
 
 Opret et nyt tilladelsessæt ved at kopiere et andet. Det nye sæt vil omfatte alle tilladelser og tilladelsessæt fra det sæt, du har kopieret. Den måde, tilladelserne og tilladelses sættene arrangeres på, afhænger af det, du har valgt i feltet **Kopier operation**. Den følgende tabel beskriver indstillingerne.
 
@@ -134,7 +134,7 @@ Opret et nyt tilladelsessæt ved at kopiere et andet. Det nye sæt vil omfatte a
 > [!NOTE]
 > Meddelelsen kræver, at meddelelsen **Oprindelige systemtilladelsessæt ændret** er aktiveret på siden **Mine beskeder**.
 
-## Sådan opretter eller redigerer du rettigheder ved at registrere dine handlinger
+## Oprette eller redigere rettigheder ved at registrere dine handlinger
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rettighedssæt**, og vælg derefter det relaterede link.
 
@@ -171,11 +171,11 @@ I miljøer med flere lejere importeres et tilladelsessæt i en bestemt lejer. De
 
 Rettighedssættene importeres.
 
-## Sådan fjernes forældede rettigheder fra alle rettighedssæt
+## Fjerne forældede rettigheder fra alle rettighedssæt
 
 På siden **Rettighedssæt** skal du vælge handlingen **Fjern forældede rettigheder**.
 
-## Sådan opsættes tidsbegrænsninger for brugere
+## Opsætte tidsbegrænsninger for brugere
 
 Administratorer kan angive perioder, hvor angivne brugere kan bogføre. Administratorer kan også angive, om systemet skal logge af, hvor lang tid brugere er logget på. Administratorer kan også knytte ansvarscentre til brugere. Du kan finde flere oplysninger i [Arbejde med ansvarscentre](inventory-responsibility-centers.md).
 
@@ -184,7 +184,15 @@ Administratorer kan angive perioder, hvor angivne brugere kan bogføre. Administ
 3. I feltet **Bruger-ID** skal du angive ID'et for en bruger, eller vælge feltet for at få vist alle aktuelle Windows-brugere i systemet.
 4. Udfyld felterne efter behov.
 
-## Sådan administreres rettigheder via brugergrupper
+## Kontrollere adgangen til bestemte virksomheder
+
+Når du har flere regnskaber i Business Central, kræver administration af tilladelser på tværs af firmaer ekstra overvejelse. Det er ikke sikkert, at du ønsker, at brugerne skal have de samme adgangsrettigheder som alle firmaer. I stedet skal du muligvis give brugernes tilladelser baseret på deres virksomhedstilknytninger. Hvis du vil understøtte dette scenarie, når du tildeler tilladelsessæt til individuelle brugere eller sikkerhedsgrupper, har du mulighed for at vælge et bestemt firma, som tilladelsessættet gælder for. Virksomheden angives ikke eksplicit i tilladelsessættet, men når tilladelsessættet tildeles brugeren eller sikkerhedsgruppen.
+
+Hvis du ikke angiver regnskabet, når du tildeler et tilladelsessæt, gælder tilladelsessættet for alle firmaer. Hvis et tilladelsessæt skal gælde for mere end ét regnskab, men ikke for alle firmaer, skal du tilføje tilladelsessættet specifikt for hvert regnskab separat.
+
+Du kan finde flere oplysninger om [Tildeling af tilladelser til brugere og grupper](#assign-permission-sets-to-users) eller [Tildeling af tilladelser til en sikkerhedsgruppe](ui-security-groups.md#assign-permissions-to-a-security-group).
+
+## Administrere rettigheder via brugergrupper
 
 Brugergrupper hjælper dig med at administrere tilladelsessæt på tværs af virksomheden. [!INCLUDE [prod_short](includes/prod_short.md)] online indeholder standardbrugergrupper, der automatisk tildeles til brugere baseret på deres licens. Du kan føje brugere til en brugergruppe manuelt, og du kan oprette nye brugergrupper som kopier af eksisterende.  
 
@@ -227,7 +235,7 @@ Den nye gruppe tilføjes på siden **Brugergrupper**. Fortsæt for at tilføje b
 3. Vælg handlingen **Brugerrettighedssæt** for at åbne siden **Brugerrettighedssæt**.
 4. Udfyld felterne efter behov på en ny linje på siden **Brugerrettighedssæt**.
 
-### Sådan tildeles et rettighedssæt på siden **Rettighedssæt efter brugergruppe**
+### Sådan tildeles et rettighedssæt på siden Rettighedssæt efter brugergruppe
 
 Følgende procedure beskriver, hvordan du tildeler rettighedssæt til en brugergruppe på siden **Rettighedssæt efter brugergruppe**.
 
@@ -238,11 +246,11 @@ Følgende procedure beskriver, hvordan du tildeler rettighedssæt til en brugerg
 
 Du kan også tildele rettighedssæt direkte til brugere.
 
-## Sådan tildeles rettighedssæt til brugere
+## Tildele rettighedssæt til brugere
 
 Et rettighedssæt er en samling rettigheder til bestemte databaseobjekter. Alle brugere skal være tildelt et eller flere rettighedssæt, før de kan få adgang til [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-En [!INCLUDE[prod_short](includes/prod_short.md)]-løsning indeholder et antal foruddefinerede rettighedssæt, der er tilføjet af Microsoft eller din løsningsudbyder. Du kan også tilføje nye rettighedssæt, der er skræddersyet til at opfylde din organisations behov. Du kan finde flere oplysninger i afsnittet [Sådan oprettes eller redigeres et rettighedssæt](#to-create-a-permission-set).
+En [!INCLUDE[prod_short](includes/prod_short.md)]-løsning indeholder et antal foruddefinerede rettighedssæt, der er tilføjet af Microsoft eller din løsningsudbyder. Du kan også tilføje nye rettighedssæt, der er skræddersyet til at opfylde din organisations behov. Du kan finde flere oplysninger i afsnittet [Oprette et rettighedssæt](#create-a-permission-set).
 
 > [!NOTE]
 > Hvis du ikke vil begrænse en brugers adgang mere, end det allerede er defineret af licensen, kan du tildele et særligt rettighedssæt, der kaldes SUPER, til brugeren. Dette rettighedssæt sikrer, at brugeren kan få adgang til alle de objekter, der er angivet i licensen.
@@ -257,22 +265,26 @@ Du kan tildele rettighedssæt til brugere på to måder:
 ### Sådan tildeles et rettighedssæt på et brugerkort
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugere**, og vælg derefter det relaterede link.
-2. Vælg den bruger, du vil tildele rettigheden til.
-Ethvert rettighedssæt, der allerede er tildelt brugeren, vises i faktaboksen **Rettighedssæt**.
-3. Vælg handlingen **Rediger** for at åbne siden **Brugerkort**.
-4. I oversigtspanelet **Brugerrettighedssæt** skal du udfylde felterne efter behov på en ny linje. Du kan finde flere oplysninger i [Sådan oprettes eller redigeres et rettighedssæt](ui-define-granular-permissions.md#to-create-a-permission-set).
+1. Vælg den bruger, du vil tildele rettigheden til.
 
-   Brug feltet **Regnskab** til at ansøge om tilladelser, der er angivet for et bestemt regnskab. Hvis du lader feltet være tomt, gælder det for alle regnskaber.
+   Ethvert rettighedssæt, der allerede er tildelt brugeren, vises i faktaboksen **Rettighedssæt**.
+1. Vælg handlingen **Rediger** for at åbne siden **Brugerkort**.
+1. I oversigtspanelet **Brugerrettighedssæt** skal du udfylde felterne efter behov på en ny linje. Du kan finde flere oplysninger i [Oprette eller redigere et rettighedssæt](ui-define-granular-permissions.md#create-a-permission-set).
+
+   Hvis tilladelsessættene kun skal gælde for et bestemt firma, skal du angive feltet **Regnskab** til det pågældende regnskab. Hvis tilladelsessættet skal gælde for alle firmaer, skal du lade feltet **Regnskab** være tom. [Lær mere](#control-access-to-specific-companies).
 
 ## Sådan tildeles et rettighedssæt på siden Rettighedssæt efter bruger
 
+Denne metode gør det nemmere at tildele forskellige rettighedssæt til flere brugere. 
+
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugere**, og vælg derefter det relaterede link.
-2. Du kan også vælge handlingen **Rettighedssæt efter bruger** på siden **Brugere**.
-3. På siden **Rettighedssæt efter bruger** skal du markere afkrydsningsfeltet **[brugernavn]** på en linje for det relevante rettighedssæt for at tildele sættet til brugeren.
+1. Du kan også vælge handlingen **Rettighedssæt efter bruger** på siden **Brugere**.
+1. Hvis tilladelsessættene kun skal gælde for et bestemt firma, skal du angive kolonnen **Regnskabsnavn** til det pågældende regnskab. Hvis tilladelsessættet skal gælde for alle firmaer, skal du lade feltet **Regnskabsnavn** være tom. [Lær mere](#control-access-to-specific-companies).
+1. På siden **Rettighedssæt efter bruger** skal du markere afkrydsningsfeltet **[brugernavn]** på en linje for det relevante rettighedssæt for at tildele sættet til brugeren.
 
     Marker afkrydsningsfeltet **Alle brugere** for at tildele rettighedssættet til alle brugere.
 
-## Sådan får du vist en oversigt over en brugers rettigheder
+## Hent en oversigt over en brugers rettigheder
 
 Du kan vise andre brugeres gældende rettigheder, hvis du har tilladelserne SUPER eller SIKKERHED. 
 
@@ -293,7 +305,7 @@ Siden **Gældende tilladelser** indeholder yderligere oplysninger om kilden for 
     >
     > Rækker med kildeberettigelse stammer fra abonnementslicensen. Rettighedsværdierne for rettigheden tilsidesætter værdier i andre rettighedssæt, hvis de ligger på et højere placeringsniveau. En værdi i et ikke-rettighedssæt, der har et højere placeringsniveau end den relaterede værdi i rettighedsfeltet, sættes i parentes for at angive, at det ikke er gældende, fordi det er tilsidesat af rettigheden.
     >
-    > Du kan finde en forklaring på placeringsniveauer i [Sådan oprettes et tilladelsessæt](ui-define-granular-permissions.md#to-create-a-permission-set).  
+    > Du kan finde en forklaring på placeringsniveauer i [Oprette et tilladelsessæt](ui-define-granular-permissions.md#create-a-permission-set).  
 
 4. For at redigere et rettighedssæt skal du i delen **Efter rettighedssæt** på linjen for en relevant rettighed angive typen **Brugerdefineret**, vælge et af de fem adgangstypefelter og vælge en anden værdi.
 
@@ -306,7 +318,8 @@ Siden **Gældende tilladelser** indeholder yderligere oplysninger om kilden for 
 
 Når det drejer sig om postbaseret sikkerhed i [!INCLUDE[prod_short](includes/prod_short.md)], kan du bruge filtrene til at begrænse en brugers adgang til data i en tabel. Du kan oprette sikkerhedsfiltre for tabeldata. Et sikkerhedsfilter beskriver et sæt af poster i en tabel, som en bruger har adgang til. For eksempel kan du angive, at en bruger kun skal kunne læse poster, der indeholder oplysninger om en bestemt kunde. Det betyder, at brugeren ikke kan få adgang til de poster, der indeholder oplysninger om andre kunder. Du kan finde flere oplysninger i [Bruge sikkerhedsfiltre](/dynamics365/business-central/dev-itpro/security/security-filters) i administrationsindholdet.
 
-## Få vist ændringer af telemetri
+
+## Vise tilladelsesændringer af telemetri
 
 Du kan oprette [!INCLUDE[prod_short](includes/prod_short.md)] for at sende ændringer, der er udført for at få tilladelse til en Application Insights-ressource i Microsoft Azure. Derefter kan du bruge Azure Monitor til at oprette rapporter og konfigurere påmindelser i de indsamlede data. Du kan finde flere oplysninger i følgende artikler i [!INCLUDE[prod_short](includes/prod_short.md)]-hjælp til udviklere og it-eksperter:
 

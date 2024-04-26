@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 02/27/2024
+ms.date: 04/16/2024
 ms.custom: bap-template
 ms.search.form: 7775
 ms.collection:
@@ -35,12 +35,12 @@ I denne artikel forklares det, hvordan du styrer brugernes adgang til Copilot og
 
   In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)-->
 
-Hvis nogle af disse krav ikke er opfyldt, kan funktionen ikke bruges.-->
+Hvis nogle af disse krav ikke er opfyldt, kan funktionen ikke bruges.
 
 ## Forudsætninger
 
-- Du bruger Business Central Online <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
-- Du har administrator- eller supertilladelser i Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
+- Du bruger Business Central Online.
+- Du er [administrator](#requirements-for-being-an-administrator) i Business Central.
 
 ## Tillade dataflytning på tværs af geografiske områder
 
@@ -119,18 +119,34 @@ Følgende tabel viser de tilladelser, der kræves for at bruge Copilot-funktione
 |Analyseassistance|**DATA ANALYSIS - EXEC** tilladelsessæt eller udfør tilladelse til systemobjektet 9640 **Tillad dataanalysetilstand**. Det er de samme tilladelser, der kræves for at få adgang til analysetilstanden.|
 |Assistance til bankafstemning|Tilladelse på side 7250 **Bank Acc. Rec. AI Forslag** og side 7252 **Trans. Til GL Acc. AI-forslag**.|
 |Chat |Der er ingen tilladelser eller tilladelsessæt, der styrer adgangen til chat pr. bruger. Hvis chat er aktiveret, er den tilgængelig for alle brugere.|
+|Tilknyt e-dokumenter |Tilladelse på side 6166 **PO Copilot-forslag til e-dokument**|
 |Forslag til marketingtekst |Tilladelse på side 5836 **Copilot Marketing Text**|
+|Salgslinjeforslag |Tilladelse på side 7275 **Salgslinje AI-forslag** og side 7276 **Salgslinje AI-forslag Sub**|
 
 For at give eller nægte adgang til specifikke ikke-Microsoft Copilot- og AI-funktioner skal du konsultere dokumentationen eller udgiveren af den funktion for at identificere, hvilke tilladelser der kræves.
+
+## Krav til at være administrator
+
+Du skal enten have SUPER-tilladelser i Business Central-brugerkontoen eller en af følgende Business Central-licenser:
+
+- Stedfortræderadministrator
+- Delegeret helpdesk
+- Global administrator
+- BC-administrator
+- D365 Administrator
+
+Business Central tilbyder endnu ikke detaljerede tilladelser på objektniveau, så kun bestemte administratorer kan konfigurere Copilot.
 
 ## Næste trin
 
 Når du har aktiveret og givet dit samtykke til funktionerne, er du klar til at prøve dem. Gå til:
 
-- [Tilføje marketingtekst til varer](item-marketing-text.md)
-- [Analysere data i analysetilstand med Copilot](analysis-assist.md)  
+- [Tilføje marketingtekst til varer med Copilot](item-marketing-text.md)
+- [Analysere listedata med Copilot](analysis-assist.md)  
 - [Chatte med Copilot](chat-with-copilot.md)
-- [Afstemme ved hjælp af hjælp til bankkontoafstemning](bank-reconciliation-with-copilot.md)
+- [Knytte e-dokumenter til indkøbsordrelinjer med Copilot](map-edocuments-with-copilot.md)
+- [Afstemme bankkonti med Copilot](bank-reconciliation-with-copilot.md)
+- [Foreslå linjer på salgsordrer med Copilot](sales-suggest-sales-lines-with-copilot.md)  
 
 ## Se også
 
@@ -138,5 +154,8 @@ Når du har aktiveret og givet dit samtykke til funktionerne, er du klar til at 
 [Ofte stillede spørgsmål om analyseassistance](faqs-analysis-assist.md)  
 [Ofte stillede spørgsmål om hjælp til bankafstemning](faqs-bank-reconciliation.md)  
 [Ofte stillede spørgsmål om chatte med Copilot](faqs-chat-with-copilot.md)  
+[Ofte stillede spørgsmål om tilknytning af e-dokumenter med købsordrer](faqs-map-edocuments.md)  
 [Ofte stillede spørgsmål om forslag til marketingtekst](faqs-marketing-text.md)  
+[Ofte stillede spørgsmål til forslag til salgslinje](faq-sales-suggest-sales-lines-with-copilot.md)  
+
 [Oversigt over forslag til marketingtekst](ai-overview.md)  

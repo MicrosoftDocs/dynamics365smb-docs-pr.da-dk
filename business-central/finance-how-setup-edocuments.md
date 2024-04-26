@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
 ms.search.form: '359, 360, 6103, 6133'
-ms.date: 03/29/2023
+ms.date: 04/10/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-e-documents"></a>Opsætte e-dokumenter
+# Opsætte e-dokumenter
 
 > [!IMPORTANT]
 > E-dokumenters kernemodul er en ramme. Der er som standard ikke noget felt til **Tjenesteintegration**. Hvis du finder **Dokumentformat** indstillingerne som standard, skal du være opmærksom på, at de tilbydes som et eksempel, og at lokalisering skal give et detaljeret format. Disse oplysninger er en del af lokaliseringsapps, fordi de er specifikke for lokale krav.
@@ -21,12 +21,12 @@ ms.service: dynamics-365-business-central
 
 Det første trin i konfigurationen af elektroniske dokumenter (e-dokumenter) er at konfigurere tjenesten E-dokumenter, hvor du konfigurerer hele systemets funktionsmåde i forbindelse med e-dokumentkommunikation.
 
-## <a name="set-up-the-e-document-service"></a>Konfigurere tjenesten til e-dokument
+## Konfigurere tjenesten til e-dokument
 
 Følg disse trin for at konfigurere e-dokumenttjenesten.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **e-dokumenttjeneste**, og vælg derefter det relaterede link.
-2. Vælg **Ny**, og konfigurer derefter felterne i oversigtspanelet **Generelt** på siden **E-dokumenttjeneste** som beskrevet i følgende tabel.
+2. Vælg **Ny**, og konfigurer derefter felterne i oversigtspanelet **Generelt** på siden **E-dokumenttjenester** som beskrevet i følgende tabel.
 
     | Felt | Beskrivelse |
     |-------|-------------|
@@ -71,11 +71,11 @@ Hvis du har konfigureret formatet **Data Exchange Definition** i lokaliseringen,
 
 Hvis du ikke bruger **Data Exchange Definition**-formatet, kan du oprette og konfigurere formater ved at bruge [grænsefladen](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Juster oplysningerne på linjerne **Eksportér kortlægning** og **Importér kortlægning**, hvor du kan finde de tabeller og felter, der skal konfigureres transformationsregler. I dette tilfælde skal du tilføje en ny mulighed i feltet **Dokumentformat**, der er relateret til dit format.  
 
-### <a name="supported-document-types"></a>Understøttede dokumenttyper
+### Understøttede dokumenttyper 
 
-Understøttede dokumenttyper er baseret på det valgte **dokumentformat**. For at kontrollere, hvilke dokumenttyper der understøttes, skal du på **E-Document Service** siden vælge handlingen **Understøttede dokumenttyper** . **E-Document Service Understøttede kildedokumenttyper** åbner, og i kolonnen **Kildedokumenttype** kan du vælge forskellige dokumenttyper, der skal understøtte det format, du planlægger at anvende. Sørg for ikke at bruge dokumenttypen, hvis dokumentet ikke er markeret på denne side.   
+Understøttede dokumenttyper er baseret på det valgte **dokumentformat**. For at kontrollere, hvilke dokumenttyper der understøttes, skal du på **E-dokumenttjenester** siden vælge handlingen **Understøttede dokumenttyper** . **E-Document Service Understøttede kildedokumenttyper** åbner, og i kolonnen **Kildedokumenttype** kan du vælge forskellige dokumenttyper, der skal understøtte det format, du planlægger at anvende. Sørg for ikke at bruge dokumenttypen, hvis dokumentet ikke er markeret på denne side.   
 
-## <a name="set-up-a-document-sending-profile"></a>Konfigurere dokumentafsendelsesprofil
+## Konfigurere dokumentafsendelsesprofil
 
 Du kan konfigurere en foretrukken metode til afsendelse af salgsdokumenter for hver debitor. På denne måde behøver du ikke at vælge en afsendelsesindstilling, hver gang du vælger handlingen **Bogfør og send**. På siden **Profiler for afsendelse af dokumenter** kan du oprette forskellige afsendelsesprofiler, som du kan vælge i feltet **Dokumentafsendelsesprofil** på et debitorkort. Du kan markere afkrydsningsfeltet **Standard** for at angive, at dokumentafsendelsesprofilen er standardprofilen for alle debitorer, bortset fra debitorer, hvor feltet **Dokumentafsendelsesprofil** er udfyldt med en anden afsendelsesprofil.
 
@@ -97,7 +97,7 @@ Følg disse trin for at oprette en dokumentafsendelsesprofil.
     > [!NOTE]
     > Hvis du vælger **Udvidet e-dokumentserviceflow i** feltet **Elektronisk dokument** , skal arbejdsprocessen allerede være konfigureret for dine e-dokumenter.
 
-## <a name="set-up-the-workflow"></a>Konfigurere workflowet
+## Konfigurere workflowet
 
 Følg disse trin for at konfigurere det workflow, der bruges i e-dokumentfunktionalitet.
 
@@ -114,9 +114,9 @@ Følg disse trin for at konfigurere det workflow, der bruges i e-dokumentfunktio
 
 For at bruge flere arbejdsgange skal du konfigurere dem gennem dokumentafsendelsesprofilerne for forskellige kunder. Når du konfigurerer arbejdsgangen, skal du angive dokumentafsendelsesprofilen i kolonnen **On Condition** på oversigtspanelet **Workflow Steps**, fordi du ikke kan have to tjenester, der bruger den samme dokumentafsendelsesprofil i arbejdsgange.
 
-Når du konfigurerer dit workflow på **Workflow** siden, skal du pege på feltet **On Condition** på oversigtspanelet **Workflow-trin**. På siden **Begivenhedsbetingelser** i feltet **Filter** skal du vælge den dokumentafsendelsesprofil, du vil bruge.
+Når du konfigurerer dit workflow på **Workflows** siden, skal du pege på feltet **På betingelse** på oversigtspanelet **Workflow-trin**. På siden **Begivenhedsbetingelser** i feltet **Filter** skal du vælge den dokumentafsendelsesprofil, du vil bruge.
 
-## <a name="set-up-a-retention-policy-for-e-documents"></a>Oprette en opbevaringspolitik for e-dokumenter
+## Oprette en opbevaringspolitik for e-dokumenter
 
 E-dokumenter kan være omfattet af forskellige lokale lovgivninger, der er relateret til den periode, hvor e-dokumenterne opbevares. Derfor har vi tilføjet en opsætning af opbevaringspolitik for alle vigtige oplysninger, der er relateret til e-dokumenter. Administratorer kan definere opbevaringspolitikker, der angiver, hvor ofte Dynamics 365 Business Central forældede poster, der er relateret til e-dokumenter, slettes. Du kan få mere at vide om opbevaringspolitikker i [Definere opbevaringspolitikker](admin-data-retention-policies.md).
 
@@ -130,7 +130,7 @@ Følg disse trin for at konfigurere opbevaringspolitikker relateret til e-dokume
     - Log over tilknytning af e-dokument
     - Lagring af e-dokumentdata
 
-## <a name="e-documents-demo-data"></a>Demodata til e-dokumenter
+## Demodata til e-dokumenter  
 
 > [!NOTE]
 > Fra Business Central version 24.0 er det muligt at opsætte demodata til E-dokumenter.
@@ -143,15 +143,16 @@ For at gøre det nemmere at teste og demonstrere egenskaber ved **E-dokumenter**
 4.  Følge trinene.  
 5.  Luk siden.   
 
-Når du har et aktiveret modul, ville du have oprettet nye demoelementer, importeret seks elektroniske dokumenter (baseret på Peppol BIS 3) og allerede konfigureret **E-dokumenttjenesten** med oprettede arbejdsgange.  
+Når du har et aktiveret modul, ville du have oprettet nye demoelementer, importeret seks elektroniske dokumenter (baseret på Peppol BIS 3) og allerede konfigureret **E-dokumenttjenester** med oprettede arbejdsgange.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Sådan bruges e-dokumenter i Business Central](finance-how-use-edocuments.md)  
-[Sådan udvides e-dokumenter i Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
-[Økonomistyring](finance.md)  
-[Fakturasalg](sales-how-invoice-sales.md)  
-[Registrere køb med købsfakturaer og ordrer](purchasing-how-record-purchases.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Sådan bruges e-dokumenter i salg](finance-how-use-edocuments.md)    
+[Sådan bruges e-dokumenter i køb](finance-how-use-edocuments-purchase.md)  
+[Sådan udvides e-dokumenter i Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)    
+[Økonomistyring](finance.md)    
+[Fakturere salg](sales-how-invoice-sales.md)    
+[Registrere køb med købsfakturaer og ordrer](purchasing-how-record-purchases.md)    
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
