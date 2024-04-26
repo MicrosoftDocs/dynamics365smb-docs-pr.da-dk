@@ -148,7 +148,7 @@ Du kan få rapporter ud til dine kolleger og andre på flere måder:
 
 ## <a name="fixing-problems"></a>Løsning af problemer
 
-### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Kan ikke indsætte en post. Den aktuelle forbindelsesmåde er skrivebeskyttet." Fejl ved oprettelse af forbindelse til brugerdefineret API-side
+### <a name="cant-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Kan ikke indsætte en post. Den aktuelle forbindelsesmåde er skrivebeskyttet." Fejl ved oprettelse af forbindelse til brugerdefineret API-side
 
 > **GÆLDER FOR:** Business Central online
 
