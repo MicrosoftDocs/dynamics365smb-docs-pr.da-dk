@@ -11,7 +11,7 @@ ms.date: 03/25/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="setting-up-fixed-assets"></a>Opsætning af anlægsaktiver
+# Opsætning af anlægsaktiver
 
 Før du kan arbejde med anlægsaktiver, skal du angive et par ting:  
 
@@ -26,7 +26,7 @@ Afsnittene i denne artikel indeholder hyperlinks til flere oplysninger om, hvord
 
 Når du vælger en anlægsaktivitet i afsnittet **Finansintegration** på siden **Afskrivningsprofilkort**, bruges siden **Anlægsfinanskladde** til at bogføre transaktioner for aktiviteten.
 
-## <a name="required-setup-tasks"></a>Påkrævede opsætningsopgaver
+## Påkrævede opsætningsopgaver
 
 Følgende tabel indeholder en række opgaver i forbindelse med oprettelse af anlægsaktiver og hyperlinks til relaterede artikler.
 
@@ -35,7 +35,7 @@ Følgende tabel indeholder en række opgaver i forbindelse med oprettelse af anl
 | Konfigurer standardfinanskonti, allokeringsnøgler, kladdetyper og -navne for bogføringen af anlægsaktiver og definere anlægsarter og -grupper, f.eks materielle og immaterielle. |[Angive generelle oplysninger om anlægsaktiver](fa-how-setup-general.md) |
 | Oprette afskrivningsprofiler, definere forskellige afskrivningsmetoder, integrere med finansregnskabet og muliggøre kopiering af poster i flere afskrivningsprofiler. |[Konfigurere afskrivning på anlægsaktiver](fa-how-setup-depreciation.md) |
 
-## <a name="optional-setup-tasks-insurance-maintenance-and-user-defined-depreciation-methods"></a>Valgfrie opsætningsopgaver (forsikring, vedligeholdelse og brugerdefinerede afskrivningsmetoder)
+## Valgfrie opsætningsopgaver (forsikring, vedligeholdelse og brugerdefinerede afskrivningsmetoder)
 
 Følgende tabel indeholder en række valgfri opgaver i forbindelse med oprettelse af anlægsaktiver, f.eks. forsikring, vedligeholdelse og afskrivningsmetoder og links til relaterede artikler. 
 
@@ -45,7 +45,7 @@ Følgende tabel indeholder en række valgfri opgaver i forbindelse med oprettels
 | Udføre reparation af anlægsaktiver, angive generelle reparationsoplysninger, oprette bogføringskonti for reparation og definere typer af vedligeholdelsesarbejde. |[Konkfigurere vedligeholdelse af anlægsaktiver](fa-how-setup-maintenance.md) |
 | Få mere at vide om, hvordan du anvender afskrivningsmetoder. |[Konfigurere brugerdefinerede afskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversigt over anlægsaktiver](fa-manage.md)  
 [Finans](finance.md)  
