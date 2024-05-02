@@ -68,7 +68,7 @@ Derefter skal du oprette en salgsordre med et antal på 12 på lokationen WEST. 
 > [!NOTE]  
 > Hvis du får vist lokationsbaserede forecasts enkeltvis, skal du være opmærksom på, at det ikke er sikkert, at den overordnede forecast i så fald giver et korrekt billede.
 
-### <a name="do-not-use-forecast-by-locations"></a>Brug ikke forecast på lokationer
+### <a name="if-you-dont-use-forecast-by-locations"></a>Brug ikke forecast på lokationer
 
 Hvis du slå til/fra-feltet **Brug forecast pr. lokation** fra, vil [!INCLUDE[prod_short](includes/prod_short.md)] ignorere de lokationskoder, der er angivet for hver efterspørgselsprognosepost, og beregne prognoser for tomme lokationer.  
 

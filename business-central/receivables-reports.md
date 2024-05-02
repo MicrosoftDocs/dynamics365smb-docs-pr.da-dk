@@ -9,7 +9,7 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Rapporter og analyser for debitor i Business Central
+# <a name="accounts-receivable-reports-and-analytics"></a>Rapporter og analyser for debitor i Business Central
 
 Som en hjælp til styring af tilgodehavender i [!INCLUDE [prod_short](includes/prod_short.md)], standardrapporter og analyser er indbygget. Den flyttes udover traditionelle rapporterings begrænsninger for at gøre det nemmere at designe forskellige typer rapporter.  
 

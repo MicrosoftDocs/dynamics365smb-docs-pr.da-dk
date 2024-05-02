@@ -9,21 +9,21 @@ ms.date: 02/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Købsrapporter og analyser i Business Central
+# <a name="purchase-reporting-and-analytics"></a>Købsrapporter og analyser i Business Central
 
 Købsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gør det muligt for indkøbs-og erhvervs medarbejdere at få indsigt i og statistikker om aktuelle og tidligere montageaktiviteter.  
 
-## Rapporter
+## <a name="reports"></a>Rapporter
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## Opgaver
+## <a name="tasks"></a>Opgaver
 I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med analyse af virksomhedens tilstand:
 
 * [Oprette analyserapporter](bi-how-create-analysis-views-reports.md)  
 * [Vise varedisponering](inventory-how-availability-overview.md)  
 
 
-## Se også
+## <a name="see-also"></a>Se også
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
 [Køb](purchasing-manage-purchasing.md)  
 

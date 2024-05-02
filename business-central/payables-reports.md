@@ -9,7 +9,7 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="accounts-payable-reports-and-analytics-in-business-central"></a>Kreditorrapporter og analyser i Business Central
+# <a name="accounts-payable-reports-and-analytics"></a>Kreditorrapporter og analyser i Business Central
 
 Som en hjælp til styring af kreditorer i [!INCLUDE [prod_short](includes/prod_short.md)], standardrapporter og analyser er indbygget. Den flyttes udover traditionelle rapporterings begrænsninger for at gøre det nemmere at designe forskellige typer rapporter.  
 

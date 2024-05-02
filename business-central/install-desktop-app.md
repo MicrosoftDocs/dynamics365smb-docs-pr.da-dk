@@ -9,7 +9,7 @@ ms.date: 01/11/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="get-business-central-desktop-app"></a>Hent Business Central Desktop-app
+# <a name="get-the-business-central-desktop-app"></a>Hent Business Central Desktop-app
 
 Hvis du har en Windows-PC eller macOS-computer, kan du installere en Business central-app på computeren. Appen fungerer sammen med Business central online og on-premises.
 
@@ -24,7 +24,7 @@ Business Central-app ligner webklienten, men der er nogle få fordele som f. eks
 
      Når du åbner appen for bestemte miljøer, medtages miljø navnet i vinduets titel. Når du arbejder på tværs af flere [!INCLUDE[prod_short](includes/prod_short.md)]-miljøer, vises hvert programvindue separat. Navnet gør det nemmere at se, hvilke vinduer der er knyttet til de enkelte miljøer.
 
-## <a name="install-the-app-for-business-central-online"></a>Sådan installerer app til Business central online
+## <a name="install-the-app-for--online"></a>Sådan installerer app til Business central online
 
 Du kan installere app til Business central online på to måder. Du kan installere det direkte fra browseren eller fra Microsoft store. Uanset hvilken fremgangsmåde du bruger, er det den samme app. Forskellen er, at ved installation fra browseren kan du installere app'en for hvert miljø, når der er mere end én.
 
@@ -56,7 +56,7 @@ Næste gang du vil åbne appen, skal du søge efter den i menuen **Start**.
 
 Når appen er installeret, vises den i menuen **Start**. Hvis du har valgt et specifikt miljø for appen, føjes miljø navnet til App-navnet i menuen **Start**.
 
-## <a name="install-the-app-for-business-central-on-premises"></a>Sådan installerer app til Business central lokalt
+## <a name="install-the-app-for--on-premises"></a>Sådan installerer app til Business central lokalt
 
 Installation af desktop-app'en, når du bruger Business Central lokalt direkte fra browseren, som [beskrevet ovenfor](#from-the-browser). Hvis du kun har én lejer, skal du blot åbne Business central i browseren og derefter vælge et ![ikon til installation af en app i Edge.](media/ui-edge-install-app-icon.png) **App tilgængelig. Installer Business central** eller ![ikonet for installation af en app i Chrome.](media/ui-chrome-install-app-icon.png) **Installer Business central** som vist ovenfor.
 
