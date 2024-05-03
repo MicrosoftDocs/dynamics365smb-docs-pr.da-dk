@@ -50,7 +50,7 @@ Shopify-connector giver virksomheder mulighed for at tilslutte din deres Shopify
 
 [!INCLUDE[prod_short](../includes/prod_long.md)] er hjælper vores kunder sammen med Shopify for at opnå en bedre indkøbsoplevelse. Mens Shopify leverer en nem, komplet løsning til virksomhedsadministration, tilbyder [!INCLUDE[prod_short](../includes/prod_short.md)] omfattende virksomhedsadministration på tværs af finansielle transaktioner, salg, service og drift. Problemfri forbindelse mellem de to systemer synkroniserer ordrer, lager og kundeoplysninger for at sikre, at handlende kan opfylde ordrer hurtigere og give bedre kunder.
 
-## <a name="which-microsoft-products-is-the-shopify-connector-available-for"></a>Hvilke Microsoft-produkter er Shopify-connectoren tilgængelige for?
+## <a name="which-microsoft-products-work-with-the-shopify-connector"></a>Hvilke Microsoft-produkter er Shopify-connectoren tilgængelige for?
 
 Denne funktion er kun tilgængelig for [!INCLUDE[prod_short](../includes/prod_short.md)] online, startende med version 20.1. Funktionen understøttes ikke i lokale installationer. Connectoren er forudinstalleret for at give nye miljøer. Organisationer med eksisterende miljøer kan hente og installere connectoren fra AppSource. Organisationen skal have både en [!INCLUDE [prod_short](../includes/prod_short.md)]-licens og en Shopify-licens for at kunne bruge connectoren. Du kan finde flere oplysninger om understøttede lande/områder, sprog og udgaver af [!INCLUDE[prod_short](../includes/prod_short.md)] på [Shopify Connector på AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
 
@@ -87,7 +87,7 @@ Ja, Shopify-connectoren kan udvides. Kontroller GitHub for at få adgang til [li
 
 Ja, denne udvidelse er åben for bidrag fra vores community. Du kan finde [kildekoden](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) i Microsoft AL-tilføjelsesprogrammet til alle programmer.
 
-## <a name="building-your-version-of-shopify-connector"></a>Opbygning af din version af Shopify Connector
+## <a name="building-your-version-of-the-shopify-connector"></a>Opbygning af din version af Shopify Connector
 
 Ifølge Shopify, hvis du vil bygge og udgive en connector-app på Shopify-markedspladsen, der har det primære formål at overføre eller dele forhandlerdata til en tredjepart ([!INCLUDE [prod_short](../includes/prod_short.md)]), skal du have skriftligt samtykke fra Shopify. Som en del af denne proces skal du indhente samtykke fra Microsoft i "End Recipient Data Acknowledgement Form". Vi er nødt til at bede dig om at håndtere sagen med Shopify, fordi Microsoft ikke kan underskrive 3. parts aftaler.
 

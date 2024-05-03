@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Administration af anlægsaktiver
+# <a name="manage-fixed-assets"></a>Administration af anlægsaktiver
 
 I Anlæg i [!INCLUDE[prod_short](includes/prod_short.md)] får du et overblik over anlægsaktiverne, og her sikres korrekt periodisk afskrivning. Funktionen hjælper dig ligeledes med at holde styr på reparationsomkostningerne, administrere forsikringspolicer, bogføre anlægstransaktioner og generere forskellige rapporter og statistikker.
 
-## Videooversigt
+## <a name="video-overview"></a>Videooversigt
 
 Følgende video giver en grundlæggende beskrivelse af anlægsaktiver:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Oversigt over anlægsaktiver
+## <a name="fixed-assets-overview"></a>Oversigt over anlægsaktiver
 
 For hvert anlægsaktiv skal du definere et kort med oplysninger om aktivet. Du kan angive bygninger eller produktionsudstyr som et hovedanlæg med en komponentliste, og du kan gruppere dem på forskellige måder, f.eks efter art, afdeling eller lokation. Derefter kan du begynde at anskaffe, vedligeholde og sælge anlægsaktiverne. Du kan også konfigurere budgetterede aktiver. Med budgettering kan du inkludere forventede anskaffelser og salg i rapporterne.
 
@@ -46,7 +46,7 @@ Du kan knytte hvert anlægsaktiv til en eller flere forsikringspolicer og kontro
 > [!NOTE]  
 > Du kan registrere anlægstransaktioner på siden **Anlægskassekladde** eller på siden **Anlægskladde**, afhængigt af om transaktionerne, der er til financial reporting eller intern administration. Hjælp for Anlæg beskriver kun, hvordan du bruger siden **Anlægskassekladde**. Du kan finde flere oplysninger i [Konfigurere afskrivning af anlægsaktiver](fa-how-setup-depreciation.md).
 
-## Forsikre anlægsaktiver
+## <a name="how-to-use-fixed-assets"></a>Forsikre anlægsaktiver
 
 Den følgende tabel indeholder en opgavesekvens med links til de artikler, der rummer beskrivelserne af opgaverne.
 
@@ -64,7 +64,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 | Administrere anlægsbudgetter, budgettere anskaffelsesomkostninger, salg af anlægsaktiver og afskrivning. |[Administrere budgetter for anlægsaktiver](fa-how-manage-budgets.md) |
 | Få mere at vide om indbyggede rapporterings- og analysefunktioner til anlægsaktiver. | [Rapporter og analyser af anlægsaktiver](fa-reports.md) |
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Opsætning af Anlægsaktiver](fa-setup.md)  
 [Oversigt for Finance](finance.md)  

@@ -154,7 +154,7 @@ Eksisterende debitorer kan masseeksporteres til Shopify som en virksomhed. I hve
 |**Standardkontakttilladelser**| Angiv, hvilke tilladelser der skal tildeles den primære kontakt. Du kan vælge mellem **Ingen**, **Kun bestilling** og **Placeringsadministrator**.|
 |**Opret katalog automatisk**| Aktivér denne indstilling, hvis du vil oprette et katalog, der omfatter alle produkter. Der oprettes et katalog for hver eksporteret virksomhed.|
 
-## <a name="export-b2b-company-to-shopify"></a>Eksportere B2B-virksomhed til Shopify
+## <a name="export-a-b2b-company-to-shopify"></a>Eksportere B2B-virksomhed til Shopify
 
 ### <a name="initial-sync-of-b2b-companies-from-business-central-to-shopify"></a>Oprindelig synkronisering af B2B-virksomheder fra Business Central til Shopify
 

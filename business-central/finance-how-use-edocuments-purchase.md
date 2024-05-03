@@ -157,7 +157,7 @@ Hvis du vil tilføje en vis tolerance og tillade forskellen mellem linjerne i **
 3. Denne opsætning vil gælde for alle matchende linjer, men igen under hensyntagen til tolerance for det samlede beløb, som for **Købspris** sammen med anvendt **Linjerabatpct.**.  
 4. Luk siden.   
 
-##### <a name="to-match-lines-from-e-document"></a>Sådan matches linjer fra e-dokument
+##### <a name="matching-lines-from-e-document"></a>Sådan matches linjer fra e-dokument
 
 Du kan matche linjerne på siden **E-dokument**. Det kan du gøre ved at benytte følgende fremgangsmåde:  
 

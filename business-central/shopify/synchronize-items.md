@@ -327,7 +327,7 @@ For [!INCLUDE[prod_short](../includes/prod_short.md)] gælder det, at når du op
 * bruge til/fra-knappen **Standardproduktplacering** til at angive, om denne vare skal opfyldes af Shopify eller af tredjepart. Der er altid en **Business Central-opfyldelsesservice**, men der kan være flere opfyldelsesservicer, hvis der installeres flere apps. Du kan kun aktivere **Standardproduktplacering** i én post, hvis du vil bruge en opfyldelsesservice. 
 * Brug til/fra-knappen **Standardproduktplacering** til at angive, hvilke lokationer du vil bruge til at spore lagerbeholdning. Du kan aktivere **Standardproduktplacering** for flere placeringer, hvor **Er opfyldelsesservice** er deaktiveret. Bemærk, at lagerbeholdning altid spores for primær lokation. 
  
-#### <a name="what-is-the-difference"></a>Hvad er forskellen?
+#### <a name="whats-the-difference"></a>Hvad er forskellen?
 
 Shopify-opfyldelse er nyttig, når du bruger Shopify POS, og der er flere fysiske butikker. Du ønsker, at medarbejderen i den fysiske butik skal kende den aktuelle lagerbeholdning. I dette tilfælde opretter du flere lokationer i Shopify, flere lokationer i [!INCLUDE[prod_short](../includes/prod_short.md)] og aktiverer **Standardproduktplacering** for alle disse lokationer.  
 
