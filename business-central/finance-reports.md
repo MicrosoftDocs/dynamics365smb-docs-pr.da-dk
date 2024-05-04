@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="built-in-finance-reports-in-business-central"></a>Indbyggede finansrapporter i Business Central
+# Indbyggede finansrapporter i Business Central
 
 [!INCLUDE [prod_short](includes/prod_short.md)] indeholder flere indbyggede rapporter, sporingsfunktioner og værktøjer, som kan hjælpe revisorer eller controllere, som er ansvarlige for at rapportere til finansafdelingen. 
 
@@ -19,7 +19,7 @@ ms.service: dynamics-365-business-central
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprette omkostningsbudgetter](finance-create-cost-budgets.md)  
 [Rapportere moms til SKAT](finance-how-report-vat.md)  
