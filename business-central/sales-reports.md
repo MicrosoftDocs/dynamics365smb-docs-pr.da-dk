@@ -21,11 +21,13 @@ Salgsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gør det mul
 I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med analyse af virksomhedens tilstand:
 
 * [Oprette analyserapporter](bi-how-create-analysis-views-reports.md)  
-* [Vise varedisponering](inventory-how-availability-overview.md)
+* [Vise varer, der er disponible](inventory-how-availability-overview.md)
 
 
 ## Se også
 
+[Oversigt over salgsanalyse](sales-analytics-overview.md)   
+[Ad hoc-analyse af salgsdata](ad-hoc-analysis-sales.md)    
 [Konfigurere salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  
 [Reservere varer](inventory-how-to-reserve-items.md)

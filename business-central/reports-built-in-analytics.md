@@ -2,28 +2,25 @@
 title: Indbygget analyse
 description: 'Indeholder en oversigt over alle de funktioner, der understøtter analyseopgaver i Business Central-produktet.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: feature overview
-ms.date: 02/03/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: feature overview
+ms.date: 04/30/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="built-in-analytics"></a>Indbygget analyse
+# Indbygget analyse
 
-[!INCLUDE[prod_short](includes/prod_short.md)] indeholder en række funktioner, der giver dig mulighed for at analysere data i en samlet formular. Denne funktion er nyttig, hvis du f. eks. vil følge op på finansielle nøgletal (KPI'er) eller analysere regnskabsopgørelser i Microsft Excel. Nedenfor findes links, som du kan bruge til at lære at bruge det.
+[!INCLUDE[prod_short](includes/prod_short.md)] indeholder funktioner, der giver dig mulighed for at analysere data i en samlet formular. Du kan f.eks. bruge disse funktioner til at spore nøgletal (KPI'er) for din økonomi eller analysere regnskaber i Microsoft Excel. Følgende tabel indeholder links til artikler, der kan hjælpe dig med at lære, hvordan du bruger de indbyggede analyser.
 
 | Til | Se |
 | --- | --- |
-|Få vist en oversigt over KPI'er, f. eks. kontanttilgængelighed, salgsrentabilitet, nettoindtægter eller lagerværdi | [Intelligent indsigt](about-intelligent-cloud.md) |
 |Analysere data med indbyggede Power BI-rapporter. | [Arbejde med Power BI-rapporter](across-working-with-powerbi.md) |
-|Analysere finansielle data i realtid vha. finansielle rapporter og analysevisninger.| [Økonomisk analyse](bi.md) |
-|Analysere regnskabsopgørelser med Excel | [Analysere regnskabsopgørelser med Excel](finance-analyze-excel.md) |
-|Analysere finansielle data på tværs af flere regnskaber | [Konsolidering af finansielle data fra flere regnskaber](finance-consolidated-company-reporting.md) |
-|Få indblik i, hvilke rapporter brugerne skal bruge| [Telemetri for rapportanvendelse](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
+|Få indblik i, hvilke rapporter brugerne skal bruge| [Telemetri for rapportforbrug](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Oversigt over Business Intelligence og rapportering](reports-use-reports.md)
+[Oversigt over analyse](reports-bi-reporting.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

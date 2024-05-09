@@ -1,31 +1,31 @@
 ---
-title: Analysere data på listesider og forespørgsler ved hjælp af dataanalysetilstand
-description: 'Få mere at vide om, hvordan du kan bruge dataanalysetilstand i Business central til at analysere data.'
+title: Analysere listeside ved forespørgselsdata ved hjælp af dataanalyse
+description: 'Få mere at vide om, hvordan du kan bruge analysetilstand i Business central til at analysere data.'
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/15/2024
+ms.date: 04/29/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# Analysere listeside ved forespørgselsdata ved hjælp af dataanalysetilstand
+# Analysere listeside ved forespørgselsdata ved hjælp af dataanalysefunktion
 
 > **GÆLDER FOR:** Offentlig forhåndsversion i Business Central-udgivelsesbølge 1 i 2023 og nyere til analyse af listesider; Generelt tilgængelig i Business Central 2023-udgivelsesbølge 2 til analyse af data fra listesider og forespørgsler.
 
-I denne artikel kan du lære, hvordan du analyserer data fra listesider og forespørgsler ved hjælp af *dataanalysetilstand*. Dataanalysetilstanden giver dig mulighed for at analysere data direkte fra siden uden at skulle køre en rapport eller skifte andet program, f.eks. Excel. Det er en interaktiv og alsidig måde at beregne, opsummere og gennemgå data på. I stedet for at køre rapporter med forskellige indstillinger og filtre kan du tilføje flere faner, der repræsenterer forskellige opgaver eller visninger på dataene. Eksempler kan være "mine kunder", "følge op på varer", "senest tilføjede leverandører", "Salgsstatistik" eller andre visninger, du kan forestille sig.
+I denne artikel kan du lære, hvordan du analyserer data fra listesider og forespørgsler ved hjælp af funktionen *dataanalyse*. Med dataanalysefunktionen kan du analysere data direkte fra siden uden at skulle køre en rapport eller skifte andet program, f.eks. Excel. Det er en interaktiv og alsidig måde at beregne, opsummere og gennemgå data på. I stedet for at køre rapporter med forskellige indstillinger og filtre kan du tilføje flere faner, der repræsenterer forskellige opgaver eller visninger på dataene. Eksempler kan være "mine kunder", "følge op på varer", "senest tilføjede leverandører", "Salgsstatistik" eller andre visninger, du kan forestille sig.
 
 > [!TIP]
-> Et godt indtryk af dataanalyse tilstanden er, at den ikke ændrer nogen af de underliggende data på listesiden eller forespørgslen eller sidens layout, når den ikke er i dataanalyse tilstand. Så den bedste måde at lære mere om, hvad du kan foretage dig i dataanalysetilstand, er at prøve noget.
+> Et godt indtryk af dataanalysefunktionen er, at den ikke ændrer nogen af de underliggende data på listesiden eller forespørgslen eller sidens layout, når den ikke er i dataanalyse tilstand. Så den bedste måde at lære mere om, hvad du kan foretage dig i analysetilstand, er at prøve noget.
 
 ## Forudsætninger 
 
-- Hvis du bruger Business Central version 22, er dataanalysetilstanden i forhåndsversion. Så en administrator skal aktivere det, før du kan bruge det. Du kan aktivere det ved at gå til siden **funktionsadministration** og aktivere **Funktionsopdatering: analysetilstand og hurtigt analysere data direkte i Business central**. [Få mere at vide om Funktionsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- Hvis du bruger Business Central version 22, er dataanalysefunktionen i forhåndsversion. Så en administrator skal aktivere det, før du kan bruge det. Du kan aktivere det ved at gå til siden **funktionsadministration** og aktivere **Funktionsopdatering: analysetilstand og hurtigt analysere data direkte i Business central**. [Få mere at vide om Funktionsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - I version 23 og nyere skal din konto tildeles tilladelsessættet **DATA ANALYSIS - EXEC** eller inkludere kørselstilladelse på systemobjektet **9640 Tillad dataanalysetilstand**. Som administrator kan du ekskludere disse tilladelser for brugere, som ikke skal have adgang til analysetilstanden.
 
 > [!NOTE]
-> Du bemærker muligvis nogle listesider, der ikke inkluderer parameteren **Analysér**, når du skifter til analysetilstand. Årsagen er, at udviklere kan deaktivere analysetilstand på bestemte sider ved hjælp af egenskaben [AnalysisModeEnabled](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) i AL.
+> Du bemærker muligvis nogle listesider, der ikke inkluderer parameteren **Skift til analysetilstand**, når du skifter til analysetilstand. Årsagen er, at udviklere kan deaktivere analysetilstand på bestemte sider ved hjælp af egenskaben [AnalysisModeEnabled](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) i AL.
 
 ## Kom i gang
 
@@ -40,9 +40,9 @@ Udfør disse trin for at komme i gang med at analysere data ved hjælp af analys
 
 2. På handlingslinjen øverst på siden skal du vælge på knappen **Skift til analysetilstand** ![Viser knappen til aktivering af analysetilstand](media/analysis-mode-icon.png).
 
-    Dataanalysetilstand åbner dataene i en oplevelse, der er optimeret til dataanalyse.  Mens den normale handlingslinje i dataanalysetilstand erstattes af en særlig dataanalysetilstandslinje. I følgende figur vises de forskellige områder af siden i dataanalysetilstanden.
+    Analysetilstanden åbner dataene i en oplevelse, der er optimeret til dataanalyse. Mens den normale handlingslinje i analysetilstand erstattes af en særlig analysetilstandslinje. I følgende figur vises de forskellige områder af siden i analysetilstanden.
 
-   [![Viser en oversigt over en side i dataanalysetilstand](media/analysis-mode-overview-3.png)](media/analysis-mode-overview-3.png#lightbox)
+   [![Viser en oversigt over en side i analysetilstand](media/analysis-mode-overview-3.png)](media/analysis-mode-overview-3.png#lightbox)
 
    Hvert område forklares i de efterfølgende afsnit.
 
@@ -50,29 +50,29 @@ Udfør disse trin for at komme i gang med at analysere data ved hjælp af analys
 
 4. Når du vil stoppe analysetilstanden, skal du vælge **Afslut analysetilstand** ![Viser knappen til deaktivering af analysetilstand](media/analysis-mode-exit-icon.png)
 
-   De analysefaner, du har tilføjet, gemmes, indtil du sletter dem. Så hvis du vender tilbage til dataanalysetilstand igen, kan du se dem nøjagtigt, som du forlod dem.
+   De analysefaner, du har tilføjet, gemmes, indtil du sletter dem. Så hvis du vender tilbage til analysetilstand igen, kan du se dem nøjagtigt, som du forlod dem.
 
 > [!NOTE]
 > De data, der vises i analysetilstand, styres af de filtre eller visninger, der er angivet på listesiden. Dette giver dig mulighed for at oprette et foruddefineret data, før du skifter til analysetilstand.
 
-## Arbejde med dataanalysetilstand
+## Arbejde med analysetilstand
 
-I dataanalysetilstand er siden opdelt i to områder:
+I analysetilstand er siden opdelt i to områder:
 
-- Hovedområdet, der består af dataområdet (1), oversigtslinjen (2) og tabulatorlinjen (5)
+- Hovedområdet, der består af dataområdet (1), oversigtslinjen (2) og tabulatorlinjen (5).
 - Datamanipulationsområdet, der består af to ruder: kolonne (3) og analysefiltre (4).
 
 ### Dataområde (1)
 
 Dataområdet er det sted, hvor rækkerne og kolonnerne på listesidens forespørgsel vises, og dataene opsummeres. Dataområdet er en fleksibel måde at styre layoutet af kolonner og en hurtig måde at få et overblik over dataene på. For kolonner, der indeholder numeriske værdier, vises summen af alle værdierne i kolonnen i den sidste række, medmindre du har angivet rækkegrupper. I dette tilfælde vises summerne som en subtotal for grupperne.  
 
-![Viser en oversigt over en dataområde i dataanalysetilstand](media/analysis-mode-data-area.png)
+![Viser en oversigt over en dataområde i analysetilstand](media/analysis-mode-data-area.png)
 
 - Hvis du vil flytte en kolonne, skal du markere den og trække den til det sted, hvor der er størst mulig mening i analysen.
 - For at sortere på en kolonne skal du vælge kolonneoverskriften. For at sortere på flere kolonner skal du vælge og holde <kbd>Shift</kbd> tasten nede, mens du vælger de kolonneoverskrifter, du vil sortere på.
-- Højreklik på kolonnen, eller hold markøren over den, og vælg menuknappen ![Viser ikonet på en kolonne i dataanalysetilstand, der åbner en menu med handlinger](media/analysis-mode-column-menu-icon.png) At få adgang til flere handlinger, som du kan udføre på kolonner. Eksempler:
+- Højreklik på kolonnen, eller hold markøren over den, og vælg menuknappen ![Viser ikonet på en kolonne i analysetilstand, der åbner en menu med handlinger](media/analysis-mode-column-menu-icon.png) At få adgang til flere handlinger, som du kan udføre på kolonner. Eksempler:
 
-  - Hvis du vil fastgøre en kolonne til venstre eller højre for dataområdet, så den ikke bevæger sig væk fra skærmen, når du ruller, vælg kolonnedelen ![Viser ikonet i en kolonne i dataanalysetilstand, der åbner en menu med handlinger](media/analysis-mode-column-menu-icon.png) > **Fastgør kolonne** > **Fastgør venstre**.
+  - Hvis du vil fastgøre en kolonne til venstre eller højre for dataområdet, så den ikke bevæger sig væk fra skærmen, når du ruller, vælg kolonnedelen ![Viser ikonet i en kolonne i analysetilstand, der åbner en menu med handlinger](media/analysis-mode-column-menu-icon.png) > **Fastgør kolonne** > **Fastgør venstre**.
   - Du kan definere datafiltre direkte på kolonnedefinitionen i stedet for at gå til ruderne **Analysefiltre**. Du kan stadig finde oplysninger om relaterede data og for hver linje og åbne kortet for at få mere at vide om en bestemt enhed.
 - Brug dataområdet til at interagere med dataene. For kolonner, der indeholder numeriske værdier, kan du beregne en beskrivelse af felterne ved at markere dem. Statistikken vises på statuslinjen (2) langs nederst på siden.
 - Eksportér data i Excel- eller CSV-format. Højreklik på dataområdet eller med et udvalg af celler, der skal udlæses.
@@ -81,7 +81,7 @@ Dataområdet er det sted, hvor rækkerne og kolonnerne på listesidens forespør
 
 Oversigtspanelet er nederst på siden og viser statistik over dataene på listesiden eller forespørgslen. Når du interagerer med kolonner, hvis værdier kan sammentælles, f.eks. når du markerer flere rækker i en kolonne, der viser beløb, opdateres dataene.
 
-![Viser en oversigt over en opsummeringslinje i dataanalysetilstand](media/analysis-mode-totals-row.png)
+![Viser en oversigt over en opsummeringslinje i analysetilstand](media/analysis-mode-totals-row.png)
 
 I følgende tabel beskrives de forskellige numre, der vises i området totaler:
 
@@ -100,16 +100,16 @@ I følgende tabel beskrives de forskellige numre, der vises i området totaler:
 
 **Kolonnerne** er en af to ruder, der kan bruges sammen for at definere analysen. Det andet område er ruden **Analysefiltre**. **Kolonnerne** bruges til at opsummere dataene. Brug ruden **Kolonner** til at angive, hvilke kolonner der skal medtages i analysen.
 
-![Viser en oversigt over kolonneruden i dataanalysetilstand](media/analysis-mode-columns-3.png)
+![Viser en oversigt over kolonneruden i analysetilstand](media/analysis-mode-columns-3.png)
 
-|Områder|Beskrivlse|
+|Områder|Beskrivelse|
 |-|-|
 |Søg/Marker, eller Ryd alle bokse|Søg efter kolonner. Markér afkrydsningsfeltet for at vælge/rydde alle kolonner.|
 |Afkrydsningsfelter|Området indeholder et afkrydsningsfelt for hvert felt i listens eller forespørgslens kildetabel. Brug dette område til at ændre, hvilke kolonner der vises. Marker et afkrydsningsfelt for at få vist kolonne for feltet på siden. Fjern markeringen i afkrydsningsfeltet for at skjule kolonnen. |
 |Rækkegrupper|Brug dette område til at gruppere og summere data efter et eller flere felter. Du kan kun medtage ikke-numeriske felter, f. eks. tekst, dato og klokkeslæt-felter. Række grupper bruges ofte i Pivot-tilstand.|
 |Værdier|Du kan bruge dette område til at angive de felter, som du vil have en indsamlede beløb for. Du kan kun medtage felter, der indeholder numre, som kan tilføjes sammen. felterne tekst, dato eller klokkeslæt er f.eks.|
 
-Hvis du vil flytte et felt fra et område til et andet, skal du vælge greb-ikonet ![Viser en oversigt over en side i analysetilstand](media/column-grab-icon.png) ud for kolonnen på listen, og træk den til destinationsområdet. Du kan ikke flytte et felt til et område, hvor det ikke er tilladt.
+Hvis du vil flytte et felt fra et område til et andet, skal du vælge greb-ikonet ![Viser knappen til at hente et felt i analysetilstand](media/column-grab-icon.png) ud for kolonnen på listen, og træk den til destinationsområdet. Du kan ikke flytte et felt til et område, hvor det ikke er tilladt.
 
 ### Analysefiltre (4)
 
@@ -132,18 +132,17 @@ Her er nogle punkter til arbejdet med flere analysefaner:
    - **Slet** sletter den fane, der aktuelt er åben. **Slet alle** sletter alle de faner, du har tilføjet, undtagen fanen standard-**analyse 1**.
 - Du kan ikke fjerne **analyse 1** fuldstændigt, men du kan omdøbe den ved at bruge handlingen **Omdøb** og fjerne alle de ændringer, du har foretaget ved hjælp af **Slet** eller **Slet alt**.  
 
-- De analysefaner, du har tilføjet og konfigureret, gemmes, indtil du sletter dem. Så hvis du vender tilbage til dataanalysetilstand igen, kan du se dem nøjagtigt, som du forlod dem.
+- De analysefaner, du har tilføjet og konfigureret, gemmes, indtil du sletter dem. Så hvis du vender tilbage til analysetilstand igen, kan du se dem nøjagtigt, som du forlod dem.
 
    > [!TIP]
    > De faner, du opretter, er kun synlige for dig. Andre brugere kan kun se faner, som de har oprettet.
 - Du kan kopiere analysefaner. Kopieringen kan være nyttig, hvis du vil eksperimentere med at ændre en tabulator uden at ændre originalen, eller hvis du vil oprette forskellige variationer af samme analyse.
 
-
 ## Datohierarkier
 
 I analysetilstand genereres datofelter for datasættet i et hierarki for år og kvartal med tre separate felter. Dette hierarki er baseret på den normale kalender, ikke nogen regnskabskalendere, der er defineret i Business Central.
 
-De ekstra felter hedder _\<field name\> År_, _\<field name\> Kvartal_ og _\<field name\> Måned_. Hvis datasættet f.eks. indeholder et felt med navnet _Bogføringsdato_, består det tilsvarende datohierarki af felter kaldet _Bogføringsdatoår_, _Bogføringsdatokvartal_ og _Bogføringsdatomåned_.
+De ekstra felter hedder *\<field name\> År*, *\<field name\> Kvartal* og *\<field name\> Måned*. Hvis datasættet f.eks. indeholder et felt med navnet *Bogføringsdato*, består det tilsvarende datohierarki af felter kaldet *Bogføringsdatoår*, *Bogføringsdatokvartal* og *Bogføringsdatomåned*.
 
 > [!NOTE]
 > Datohierarkiet gælder i øjeblikket kun for felter af typen dato, ikke for felter af typen datetime.
@@ -167,7 +166,6 @@ Opbygning af dataanalyse i pivot-tilstand involverer flytning af felter til de t
 
 > [!TIP]
 > Kolonner, der kun har få få værdier, er de bedste kandidater til at bruge i kolonnen **Værdier**.
-
 
 ## Analysér store mængder data
 
@@ -198,10 +196,56 @@ Når du har udarbejdet en analyse på en fane, kan du dele den som et link med k
    ![Viser dialogboksen Kopiér link for en analysefane](media/analysis-link-copied.svg)
 
 1. Vælg **Kopier**.
-
 1. Indsæt linket i et kommunikationsmedie efter eget valg, f.eks. Word, Outlook, Teams OneNote osv. 
+1. Når det er modtaget, kan modtagerne derefter vælge linket og åbne analysen for siden eller forespørgslen i Business Central. De bliver bedt om at angive et navn til den nye analysefane, der oprettes.  
 
-2. Når det er modtaget, kan modtagerne derefter vælge linket og åbne analysen for siden eller forespørgslen i Business Central. De bliver bedt om at angive et navn til den nye analysefane, der oprettes.  
+## Eksempler på hvordan data analyseres
+
+Funktionen *Analysér data* er beregnet til hurtig faktakontrol og ad hoc-analyse, når du ikke vil køre en rapport, hvis der findes en rapport til dine specifikke behov, eller hvis du hurtigt vil gentage for at få et godt overblik over en del af virksomheden.
+
+I de følgende afsnit finder du eksempler på brugsscenarier for mange af funktionsområderne i Business Central-programmet.
+
+| Område | Til... | Åbn denne side i analysetilstand | Brug af disse felter |
+| ---- | ----- | ------------------------------- |------------------- |
+| [Finance (Tilgodehavender)](#example-finance-accounts-receivables) | Se, hvad dine kunder skylder dig, f.eks. opdelt i tidsintervaller for, hvornår beløb er forfaldne. | [Debitorposter](https://businesscentral.dynamics.com/?page=25) | **Debitornavn**, **Forfaldsdato** og **Restbeløb** |
+| [Finance (Resultatopgørelse)](#example-finance-income-statement) | Se din indkomst over resultatkontiene fra kontoplanen, f.eks. opdelt i tidsintervaller for, hvornår beløb blev bogført. | [Finansposter](https://businesscentral.dynamics.com/?page=20) | **Finanskontonr.**, **Bogføringsdato** og **Beløb**. |
+| [Finance (samlede aktiver)](#example-finance-total-assets) | Se dine aktiver over anlægskonti fra kontoplanen, f.eks. opdelt i tidsintervaller for, hvornår beløb blev bogført. | [Finansposter](https://businesscentral.dynamics.com/?page=20) | **Finanskontonr.**, **Bogføringsdato** og **Beløb**. |
+
+### Eksempel: Finance (Tilgodehavender)
+
+Se, hvad du dine debitorer skylder dig, eventuelt opdelt i tidsintervaller for, hvornår beløb er forfaldne ved at følge disse trin:
+
+1. Åbn listesiden [Debitorposter](https://businesscentral.dynamics.com/?page=25), og slå analysetilstand til.
+1. Gå til menuen **Kolonner**, og fjern alle kolonner (markér feltet ud for feltet *Søg*).
+1. Aktiver **Pivot* tilstand** (placeret direkte over **Søg** feltet).
+1. Træk feltet *Debitornavn* til området **Rækkegrupper**, og træk feltet **Restbeløb** til området **Værdier**. 
+1. Træk til sidst feltet **Forfaldsdato Måned** og træk det til området **Kolonnenavne**. 
+1. Hvis du vil begrænse analysen for et givet år/kvartal, skal du anvende et filter i menuen **Yderligere filtre** (til højre på siden lige under menuen **Kolonner**.) 
+1. Omdøb din analysefane til "Aldersfordel gæld efter måned" eller noget, der beskriver denne analyse for dig. 
+
+### Eksempel: Finance (Resultatopgørelse)
+
+Se din indkomst over resultatkontiene fra kontoplanen, opdelt i tidsintervaller for, hvornår beløb blev bogført, ved at gøre følgende.
+
+1. Åbn listesiden [Finansposter](https://businesscentral.dynamics.com/?page=20), og slå analysetilstand til.
+1. Gå til menuen **Kolonner**, og fjern alle kolonner (markér feltet ud for feltet **Søg**).
+1. Slå **Pivot** tilstand (placeret direkte over **Søg** feltet).
+1. Træk feltet **Finanskontonummer** til området **Rækkegrupper**, og træk feltet **Beløb** til området **Værdier**.
+1. Træk til sidst feltet **Bogføringsdatomåned** og træk det til området **Kolonnenavne**.
+1. Til resultatopgørelsen skal du filtrere på de konti, du bruger til dette, i Business Central-demodataene er dette konti, der starter med "4", din kontoplanopsætning kan være anderledes (hvis du kører rapporten [Råbalance pr. periode](https://businesscentral.dynamics.com/?report=38), kan du nemt se, hvilke konti der bruges i din opsætning). Angiv et filter på passende konti i menuen **Yderligere filtre** (til højre lige under menuen **Kolonner**.)
+1. Omdøb din analysefane til "Indtægt efter måned" eller noget, der beskriver denne analyse for dig.
+
+### Eksempel: Finance (samlede aktiver)
+
+Se dine aktiver over anlægskonti fra kontoplanen, opdelt i tidsintervaller for, hvornår beløb blev bogført, ved at gøre følgende.
+
+1. Åbn listesiden [Finansposter](https://businesscentral.dynamics.com/?page=20), og slå analysetilstand til.
+1. Gå til menuen **Kolonner**, og fjern alle kolonner (markér feltet ud for feltet **Søg**).
+1. Slå **Pivot** tilstand (placeret direkte over **Søg** feltet).
+1. Træk feltet **Finanskontonummer** til området **Rækkegrupper**, og træk feltet **Beløb** til området **Værdier**.
+1. Træk til sidst feltet **Bogføringsdatomåned** og træk det til området **Kolonnenavne**.
+1. For opgørelsen af samlede aktiver skal du filtrere på de konti, du bruger til dette, i Business Central-demodataene er dette konti, der starter med "10", din kontoplanopsætning kan være anderledes. Hvis du kører rapporten [Saldo pr. periode](https://businesscentral.dynamics.com/?report=38), kan du nemt se, hvilke konti der bruges i opsætningen. Angiv et filter på passende konti i menuen **Yderligere filtre** (til højre lige under menuen **Kolonner**.)
+1. Omdøb din analysefane til "Indtægt efter måned" eller noget, der beskriver denne analyse for dig.
 
 ## Begrænsninger i udgivelsesbølge 1 i 2023 (prøveversion)
 

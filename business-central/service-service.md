@@ -2,45 +2,43 @@
 title: Servicestyring
 description: 'Lære, hvordan du bruger funktioner i Business Central designet til at administrere og spore services til understøttelse af reparationsservice og servicehandlinger.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 06/23/2021
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="service-management"></a>Servicestyring
+# Service Management
+
 > [!NOTE]
-> Funktioner, der beskrives i dette emne og underordnede emner, er kun synlige i brugergrænsefladen, hvis du har oplevelsen **Premium**. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
+> Funktionaliteten, der beskrives i dette emne og underordnede emner, er kun synlige i brugergrænsefladen, hvis du har oplevelsen **Premium**. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
 
-En vigtig del af enhver virksomhed er at yde løbende service til kunderne, og det kan være en kilde til såvel kundetilfredshed og -loyalitet i tillæg til indtjening. Administration og sporing af service er dog ikke altid let, men [!INCLUDE[prod_short](includes/prod_short.md)] indeholder et sæt værktøjer, der kan være en hjælp. Disse værktøjer er designet til at understøtte operationer for reparationsværksteder og feltservice og kan bruges i forretningsscenarier som f.eks. komplicerede servicedistributionssystemer, industrielle servicemiljøer med styklister og masseekspedition af serviceteknikere med behov for administration af reservedele.  
+En vigtig del af enhver virksomhed er at yde løbende service til kunderne, og det kan være en kilde til såvel kundetilfredshed og -loyalitet i tillæg til indtjening. Administration og sporing af service er dog ikke altid let, men [!INCLUDE[prod_short](includes/prod_short.md)] indeholder et sæt værktøjer, der kan være en hjælp. Disse værktøjer er designet til at understøtte reparationsværksteder og feltserviceoperationer og understøtter typiske scenarier for disse virksomheder:
 
- Med disse værktøjer kan du udføre følgende:  
-
-* Planlæg servicebesøg og opret serviceordrer.  
+* Planlagte tjenesteopkald.
+* Administrere tjenesteordrer.  
 * Spor reservedele og forsyninger.  
 * Tildel servicepersonale baseret på færdigheder og tilgængelighed.  
 * Producer serviceestimater og servicefakturaer.  
 
 Derudover kan du standardisere brug af koder, oprette kontrakter, implementere rabatpolitikker og oprette rutekort for servicemedarbejdere.  
 
-Generelt er der to aspekter i servicestyring: Konfiguration og opsætning af systemet og brug af systemet til prissætning, kontrakter, ordrer, allokering af servicepersonale og projektplanlægning.  
+Den følgende tabel indeholder en opgavesekvens med links til de artikler, der rummer beskrivelserne af opgaverne.
 
-Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
-
-|**Hvis du vil**|**Se**|  
+|**For at**|**Skal du se**|  
 |------------|-------------|  
-|Konfigurere Service, herunder fejlkoder, politikker, standarddokumenter og skabeloner.|[Konfigurere Service](service-setup-service.md)|  
+|Opsætte service, herunder fejlkoder, metoder, standarddokumenter og skabeloner.|[Konfigurere Service](service-setup-service.md)|  
 |Administrere serviceprissætning, oprette serviceartikler og forstå, hvordan status overvåges.|[Planlægning af service](service-plan-service.md)|  
 |Oprette og administrere aftaler mellem dig og dine kunder.|[Opfylde servicekontrakter](service-fulfill-service-contracts.md)|  
 |Levere service til kunder og fakturere serviceordrer.|[Levering af service](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Se også
-[Administrere tilgodehavender](receivables-manage-receivables.md)   
-[Sager](projects-how-create-jobs.md)   
-[Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)
+## Se også  
+
+[Administrere tilgodehavender](receivables-manage-receivables.md)  
+[Projekter](projects-how-create-jobs.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,11 +6,11 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 09/19/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.forms: '7352, 7333'
 ---
-# <a name="put-items-away-with-warehouse-put-aways"></a>Lægge varer på lager med Læg-på-lager (logistik)
+# Lægge varer på lager med Læg-på-lager (lagersted)
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du modtage varer og indsætte dem på en af fire måder som beskrevet i følgende tabel.
 
@@ -31,7 +31,7 @@ Afhængigt af værdien i feltet **Brug læg-på-lager-kladde** på **lokationsko
 
 Foruden de almindelige måder at oprette lagerets læg-på-lager, der er beskrevet i denne artikel, kan du oprette læg-på-lager fra den relaterede bogførte lagermodtagelse. Dette er nyttigt, hvis du har slettet læg-på-lager-linjer, eller hvis du bruger styret læg-på-lager og pluk og har besluttet dig til ikke at bruge læg-på-lager-kladden, fordi du kan oprette eller genoprette læg-på-lager-vejledninger fra de bogførte købsleverancelinjer.
 
-## <a name="zone-and-bin-codes"></a>Zone-og placeringskoder
+## Zone-og placeringskoder
 
 På lokationer, der er konfigureret til at bruge styret læg-på-lager og pluk, er følgende indstillinger forudsætninger for ovenstående fremgangsmåde:  
 
@@ -41,7 +41,7 @@ På lokationer, der er konfigureret til at bruge styret læg-på-lager og pluk, 
 
 Der tages hensyn til placeringsniveau, når mere end én placering opfylder kriterierne for læg-på-lager-skabelonen. Hvis kriterierne i læg-på-lager-skabelonen og placeringsniveauet er ens for mere end én placering, vælges placeringen med det højeste nummer.
 
-## <a name="to-create-put-away-documents-in-bulk-with-the-put-away-worksheet"></a>Sådan oprettes plukdokumenter samlet med plukkladden
+## Sådan oprettes plukdokumenter samlet med plukkladden  
 
 [!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
 
@@ -54,12 +54,12 @@ Du kan oprette læg-på-lager-dokumenter for flere modtagelser på én gang på 
 3. Vælg de dokumenter, du vil arbejde på. Du kan arbejde med linjer fra flere dokumenter samtidigt.  
 
     > [!NOTE]  
-    >  Hvis du prøver at vælge et modtagelses- eller intern læg-på-lager-dokument, som der allerede er oprettet instruktioner for til samtlige linjer, får du besked fra [!INCLUDE[prod_short](includes/prod_short.md)]], hvis der ingenting er at håndtere.  
+    > Hvis du prøver at vælge et modtagelses- eller intern læg-på-lager-dokument, som der allerede er oprettet instruktioner for til samtlige linjer, får du besked fra [!INCLUDE[prod_short](includes/prod_short.md)]], hvis der ingenting er at håndtere.  
 
 4. Udfyld feltet **Sorteringsmetode** for at sortere linjerne efter behov.  
 
     > [!NOTE]  
-    >  Den måde, som linjerne sorteres på i kladden, overføres ikke automatisk til læg på lager-instruktionen. De samme muligheder for sortering og placeringsrangering findes dog. Du kan derfor nemt genskabe samme linjerækkefølge, når du opretter læg-på-lager-instruktionerne eller ved efterfølgende at sortere dem.
+    > Den måde, som linjerne sorteres på i kladden, overføres ikke automatisk til læg på lager-instruktionen. De samme muligheder for sortering og placeringsrangering findes dog. Du kan derfor nemt genskabe samme linjerækkefølge, når du opretter læg-på-lager-instruktionerne eller ved efterfølgende at sortere dem.
 
 5. Udfyld feltet **Håndteringsantal**. Vælg handlingen **Autofyld håndteringsantal**, eller udfyld felterne manuelt.  
 6. Du kan redigere linjerne efter behov. Du kan også slette linjer, f.eks. hvis der er varer, der skal lægges på en placering, der ligger langt fra de andre placeringer.  
@@ -77,7 +77,7 @@ Du kan oprette læg-på-lager-dokumenter for flere modtagelser på én gang på 
 
 8. Vælg handlingen **OK** for at oprette læg-på-lager.  
 
-## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Sådan oprettes en læg-på-lager-aktivitet fra en bogført modtagelse
+## Sådan oprettes en læg-på-lager-aktivitet fra en bogført modtagelse
 
 Hvis din lokation bruger både læg-på-lager-behandling og modtagelsesbehandling, og du har slettet læg-på-lager-linjer, eller hvis du bruger styret læg-på-lager og pluk og har besluttet dig til ikke at bruge læg-på-lager-kladden, kan du oprette eller genoprette læg-på-lager-vejledninger til bogførte købsleverancelinjer.
 
@@ -90,7 +90,7 @@ Hvis din lokation bruger både læg-på-lager-behandling og modtagelsesbehandlin
 4. Vælg handlingen **Opret læg-på-lager**, hvis modtagelsen er lagt delvist på lager eller slet ikke er lagt på lager.  
 5. Udfyld felterne efter behov, og vælg derefter knappen **OK**.  
 
-## <a name="to-put-items-away"></a>Sætte varer på plads
+## Sætte varer på plads
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Læg-på-lager**, og vælg derefter det relaterede link.
 
@@ -101,6 +101,9 @@ Hvis din lokation bruger både læg-på-lager-behandling og modtagelsesbehandlin
 
     * Hvis Hent- og Placer-linjerne til hver modtagelseslinje ikke står umiddelbart efter hinanden, og du gerne vil have det sådan, kan du sortere linjerne ved at vælge **Vare** i feltet **Sorteringsmetode**.  
     * Hvis placeringsniveauerne afspejler det fysiske lager for lagerstedet, skal du bruge sorteringsmetoden **Placeringsniveau** til at organisere omgåelsen af placeringerne.
+
+  > [!NOTE]  
+  > Linjer sorteres i stigende rækkefølge efter valgte kriterier. Hvis du sorterer efter dokument, foretages sorteringen først efter dokumenttype baseret på feltet **Lageraktivitetskildedokument**. Hvis du sorterer efter levering, foretages sorteringen først efter destinationstype baseret på feltet **Lagerdestinationstype**.
 
 4. Udføre handlingerne.
 
@@ -114,7 +117,7 @@ Hvis din lokation bruger både læg-på-lager-behandling og modtagelsesbehandlin
 
 5. Vælg handlingen **Registrer læg-på-lager**, når du har placeret alle varer på de korrekte placeringer.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

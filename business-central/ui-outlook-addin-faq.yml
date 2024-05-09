@@ -27,12 +27,16 @@ sections:
         answer: |
           Ja. Som administrator, udvikler eller partner kan du ændre og opbygge dine egne manifester til tilføjelsesprogrammet. Du kan også hente kontaktpersonens indsigtede manifest fra hvert miljø, som brugerne vil oprette forbindelse til. Rediger derefter koderne `<Id>` og `<DisplayName>`, så de tillader installation af flere versioner af tilføjelsesprogrammet. Disse ændringer giver brugeren mulighed for at installere flere Business Central-tilføjelsesprogrammer, som peger på deres eget miljø.
 
-          ![Flere Business Central-tilføjelsesprogrammer til Outlook.](media/outlook-multiple-addins.png) 
+          ![Flere Business Central-tilføjelsesprogrammer til Outlook.](media/outlook-multiple-addins.png)
+      - question: |
+          Outlook-tilføjelsesprogrammet fortæller mig, at siden ikke understøttes. Hvorfor?
+        answer: |
+          Nogle funktioner i Business Central kræver et betydeligt arbejdsområde for at give en god oplevelse og er ikke tilgængelige, når du bruger ruden Outlook-tilføjelsesprogram. Alle sider i guiden, der er trinvise for eksempel, er ikke tilgængelige i ruden. For at overvinde dette kan du poppe siden ud i tilføjelsesprogrammet ved hjælp af handlingen "Pop ud". Popout-vinduet kan strækkes til enhver størrelse inklusive udvidelse for at fylde din skærm.
 additionalContent: |
 
   ## Se også
 
-  [Få Business Central-tilføjelsesprogram til Outlook](admin-outlook.md)  
+  [Hente Business Central-tilføjelsesprogram til Outlook](admin-outlook.md)  
   [Bruge Business Central som din virksomheds Indbakke i Outlook](work-outlook-addin.md)  
 
   [!INCLUDE[footer-include](includes/footer-banner.md)]

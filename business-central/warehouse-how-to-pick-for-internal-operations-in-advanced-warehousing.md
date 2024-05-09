@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 12/13/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -133,6 +133,14 @@ Brug **Lagerpluk**-dokumenter til at plukke produktionskomponenter i forløbet t
     > [!NOTE]
     > Hvis det er nødvendigt at placere varerne for en enkelt linje på mere end én placering, f.eks. fordi den angivne placering er fuld, skal du bruge funktionen **Opdel linje** i oversigtspanelet **Linjer**. Handlingen opretter en linje for det resterende antal til ekspedition.
 
+      Du kan sortere pluklinjerne ud fra forskellige kriterier, f.eks. efter vare, placeringsnummer eller forfaldsdato. Sortering kan hjælpe med at optimere læg-på-lager-processen, f. eks.:
+
+    * Hvis hent- og placer-linjerne til hver leveringslinje ikke står umiddelbart efter hinanden, og du gerne vil have det sådan, kan du sortere linjerne ved at vælge **Vare** i feltet **Sorteringsmetode**.  
+    * Hvis placeringsniveauerne afspejler det fysiske lager for lagerstedet, skal du bruge sorteringsmetoden **Placeringsniveau** til at organisere omgåelsen af placeringerne.
+
+  > [!NOTE]  
+  > Linjer sorteres i stigende rækkefølge efter valgte kriterier. Hvis du sorterer efter dokument, foretages sorteringen først efter dokumenttype baseret på feltet **Lageraktivitetskildedokument**. Hvis du sorterer efter levering, foretages sorteringen først efter destinationstype baseret på feltet **Lagerdestinationstype**.
+
 4. Når du har foretaget plukket og har placeret varerne på rette sted, skal du vælge handlingen **Registrer pluk**.  
 
     Du kan nu overføre varerne til området og bogføre forbruget eller forbruget for de plukkede komponenter ved at bogføre forbrugskladden, montageordren eller projektkladden. Du kan finde flere oplysninger i følgende artikler:
@@ -171,6 +179,14 @@ De følgende trin beskriver de handlinger, der er involveret for forskellige bru
 Følgende illustration viser, når feltet **Placeringskode** på komponentlisten udfyldes i overensstemmelse med konfiguration af din lokation eller maskine/arbejdscenter.  
 
 :::image type="content" source="media/binflow.png" alt-text="Oversigt over, hvornår/hvordan feltet Placeringskode skal udfyldes.":::
+
+## Fremstil til ordre (MTO)-komponenter til produktion i en avanceret lageropsætning
+
+I scenarier, hvor en produceret vare består af råmaterialer og halvfabrikata, hvor produktionsmetoden er angivet til **Fremstil-til-ordre**, føjes lagerplukket for disse halvfabrikata til den samme produktionsordre, og feltet **Planlægningsniveaukode** er udfyldt. Det forventes, at halvfabrikata er klar til forbrug med det samme og ikke kræver pluk, så de medtages ikke i lagerplukdokumentet. De oprettede lagerpluk omfatter kun råvarer til producerede varer og halvfabrikata.
+
+Men hvis der er halvfabrikata på lager op, foreslår planlægningssystemet, at du forbruger dem i stedet for at producere hele antallet. En produceret vare kræver f.eks. fem halvfabrikata, men tre er allerede på lager. I dette tilfælde vises fem halvfabrikata i produktionsordrekomponenterne, men kun to produceres i samme produktionsordre som en separat produktionsordrelinje.
+En sådan opsætning er ikke kompatibel med lagerpluk, og afhængigt af hyppigheden skal du enten ændre produktionsmetoden for halvfabrikata til **Fremstil-til-lager** eller manuelt opdele produktionsordrekomponentlinjen, når du skal plukke de halvfabrikata, der er produceret tidligere.
+
 
 ## Se også
 

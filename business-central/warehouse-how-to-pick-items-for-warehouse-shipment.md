@@ -1,16 +1,16 @@
 ---
-title: Plukke varer til lagerleverance
+title: Plukke varer til lagerstedsforsendelse
 description: 'Få mere at vide om, hvordan du bruger lagerplukdokumenterne til at oprette og behandle plukoplysninger, inden lagerleverancen bogføres.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 09/11/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Plukke varer til lagerleverance
+# Plukke varer til lagerstedsforsendelse
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du modtage varer og indsætte dem på en af fire måder som beskrevet i følgende tabel.
 
@@ -39,11 +39,11 @@ Du kan ikke oprette lagerplukdokumenter fra bunden. Pluk er en del af en arbejds
 >  
 > Se [Plukke til montage eller produktion i avancerede lageropsætninger](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md) for at få oplysninger om pluk af komponenter til montageordrer generelt, herunder situationer, hvor montageelementet ikke er forfaldent på en salgsleverance.  
 
-## <a name="check-whether-items-are-available-for-picking"></a>Kontrollere, om varer er tilgængelige til pluk
+## Kontrollere, om varer er tilgængelige til pluk
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Sådan oprettes plukdokumenter samlet med plukkladden
+## Sådan oprettes plukdokumenter samlet med plukkladden
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Plukkladde**, og vælg derefter det relaterede link.  
 
@@ -93,7 +93,7 @@ Du kan ikke oprette lagerplukdokumenter fra bunden. Pluk er en del af en arbejds
 
 8. Vælg **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] opretter plukket i overensstemmelse med dine valg.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>Sådan plukkes varer til lagerleverance
+## Sådan plukkes varer til lagerleverance
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk (logistik)**, og vælg derefter det relaterede link.  
 
@@ -110,12 +110,20 @@ Du kan ikke oprette lagerplukdokumenter fra bunden. Pluk er en del af en arbejds
 
     > [!NOTE]
     > Hvis det er nødvendigt at placere varerne for en enkelt linje på mere end én placering, f.eks. fordi den angivne placering er fuld, skal du bruge funktionen **Opdel linje** i oversigtspanelet **Linjer**. Handlingen opretter en linje for det resterende antal til ekspedition.
+        
+    Du kan sortere pluklinjerne ud fra forskellige kriterier, f.eks. efter vare, placeringsnummer eller forfaldsdato. Sortering kan hjælpe med at optimere læg-på-lager-processen, f. eks.:
+
+    * Hvis Hent- og Placer-linjerne til hver leveringslinje ikke står umiddelbart efter hinanden, og du gerne vil have det sådan, kan du sortere linjerne ved at vælge **Vare** i feltet **Sorteringsmetode**.  
+    * Hvis placeringsniveauerne afspejler det fysiske lager for lagerstedet, skal du bruge sorteringsmetoden **Placeringsniveau** til at organisere omgåelsen af placeringerne.
+
+  > [!NOTE]  
+  > Linjer sorteres i stigende rækkefølge efter valgte kriterier. Hvis du sorterer efter dokument, foretages sorteringen først efter dokumenttype baseret på feltet **Lageraktivitetskildedokument**. Hvis du sorterer efter levering, foretages sorteringen først efter destinationstype baseret på feltet **Lagerdestinationstype**.
 
 4. Når du har foretaget plukket og har placeret varerne på rette sted, skal du vælge handlingen **Registrer pluk**.  
 
 Den person, der er ansvarlig for leveringen, kan nu bringe varerne til forsendelseshavnen og bogføre leverancen, herunder det relaterede kildedokument, på siden **Lagerleverance**. Flere oplysninger i [Levere varer](warehouse-how-ship-items.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 - [Oversigt over Warehouse Management](design-details-warehouse-management.md)
 - [Administrere lager](inventory-manage-inventory.md)  
