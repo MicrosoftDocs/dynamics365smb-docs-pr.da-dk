@@ -10,11 +10,11 @@ ms.author: altotovi
 ---
 
 
-# Udvikling af validerede lokaliseringsapps
+# <a name="development-of-validated-localization-apps"></a>Udvikling af validerede lokaliseringsapps
 
 I denne artikel beskrives kravene og retningslinjerne til udvikling af en valideret lokaliseringsapp til [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Hvad er en valideret lokaliseringsapp?
+## <a name="what-is-a-validated-localization-app"></a>Hvad er en valideret lokaliseringsapp?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er tilgængelig [globalt på 170+ markeder](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json). På en række markeder samarbejder Microsoft med ISV-partnere om at lokalisere [!INCLUDE[prod_short](includes/prod_short.md)] via lokaliseringsapps, der er tilgængelige på [Microsoft AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). I disse områder kan lokaliseringer være tilgængelige via foretrukket lokaliseringsappprogram. Programmet Foretrukne lokaliseringsapps genkender de apps, der er bygget i henhold til Microsofts specifikke retningslinjer for kvalitet. ISV-partnere, der overholder disse programkrav og retningslinjer, kan med teknisk og kommerciel fordel betjene deres forhandlere og kunder.  
 
@@ -36,7 +36,7 @@ Apps i pilotprogrammet for valideret lokalisering indeholder et sæt funktioner,
 > [!NOTE]
 > Lokal funktionalitet er gavnlig for produktivitetsforretningsprocesserne i et land og tilføjer dermed værdi til forretningen, men er ikke påkrævet ud fra et lovgivningsmæssigt perspektiv, såsom specifikke bank- og betalingsformater, udgiftsrapporter, HR-funktioner, lønningsliste og lignende mindre eller større, og nice-to-have-funktioner bør isoleres i andre apps. Hvis apps indeholder disse funktioner, godkendes de ikke som validerede lokaliseringsapps.   
 
-## Krav til validerede forretningskrav til lokaliseringsapps  
+## <a name="validated-localization-app-business-requirements"></a>Krav til validerede forretningskrav til lokaliseringsapps
 
 - Udbyderen af appen Valideret lokalisering overholder alle krav for at være indirekte CSP-udbyder.  
 - Udbyderen af appen til valideret lokalisering markedsfører mindst fem lande/områder, som leveres Dynamics 365 Business Central sammen med en valideret lokaliseringsapp. 
@@ -49,9 +49,9 @@ Apps i pilotprogrammet for valideret lokalisering indeholder et sæt funktioner,
 - Validerede lokaliseringsapps gøres tilgængelige for alle kunder og partnere, der ønsker at drage fordel af dem.  
 - Udbyderen af appen til valideret lokalisering deltager i tilbagevendende arbejdsstrømme med Microsoft.
 
-## Funktionelle og tekniske krav til valideret lokaliseringsapp  
+## <a name="validated-localization-app-functional-and-technical-requirements"></a>Funktionelle og tekniske krav til valideret lokaliseringsapp
 
-### Krav til funktionalitet   
+### <a name="functionality-requirements"></a>Krav til funktionalitet
 
 Ud over at opfylde de tekniske krav til den foretrukne lokaliseringsapp er det mindst levedygtige produktomfang for foretrukken lokaliseringsapp:  
 
@@ -80,7 +80,7 @@ Ud over at opfylde de tekniske krav til den foretrukne lokaliseringsapp er det m
 - Forbered opsætningsvejledninger (guider) til områder, der er komplekse at konfigurere, for at hjælpe brugerne med at aktivere, opdage og få en god første oplevelse med at bruge din lokaliseringsapp.  
 - Partnere skal levere funktionel dokumentation for alle aspekter af deres lokalisering.  
 
-### Tekniske krav  
+### <a name="technical-requirements"></a>Tekniske krav
 
 Det følgende er en kontrolliste over alle de krav, du skal opfylde, før du sender en valideret lokaliseringsapp som udvidelse til validering. Denne liste ændrer ikke [listen over tekniske valideringer](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission) og udvider kun kravene derfra.  
 
@@ -99,7 +99,7 @@ Det følgende er en kontrolliste over alle de krav, du skal opfylde, før du sen
 > [!NOTE]  
 > Du kan også oprette en integration, hvis du finder det fordelagtigt at have nogle funktioner placeret uden for [!INCLUDE[prod_short](includes/prod_short.md)]-miljøet og i stedet oprette forbindelse til at [!INCLUDE[prod_short](includes/prod_short.md)] bruge for eksempel API'er eller webtjenester.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Teknisk validering](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission)  
 [Udvikling af en standardlokaliseringsløsning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
