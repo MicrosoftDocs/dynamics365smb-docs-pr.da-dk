@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Analyse af indkøb
+# <a name="analytics-in-purchasing"></a>Analyse af indkøb
 
 Virksomheder indsamler store mængder data under daglige aktiviteter, der understøtter værdifuld business intelligence (BI) for indkøbsmedarbejdere:
 
@@ -30,7 +30,7 @@ Hver af disse funktioner har fordele og ulemper afhængigt af typen af dataanaly
 
 I denne artikel introduceres det, hvordan du kan bruge disse analytiske funktioner til at få indkøbsindsigt.
 
-## Analysebehov inden for indkøb
+## <a name="analytics-needs-in-purchasing"></a>Analysebehov inden for indkøb
 
 Når du tænker på analysebehov i indkøb, kan det hjælpe at bruge en pesona-baseret model, der beskriver forskellige analysebehov på højt niveau.
 
@@ -47,14 +47,14 @@ Mennesker i forskellige roller har forskellige behov, når det kommer til data, 
 |Indkøbsmedarbejder / indkøbsagent | Detaljerede data     | Indbyggede driftsrapporter <br> Opgavedata på skærmen |
 
 <!-- 
-## Purchasing KPIs
+## <a name="purchasing-kpis"></a>Purchasing KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In purchasing management, people often use the following KPIs to monitor their organization's purchasing performance:
 
 - TODO  
 -->
 
-## Brug financial Reporting til produktion af årsregnskaber og KPI'er (relateret til faste aktiver)
+## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-purchasing"></a>Brug financial Reporting til produktion af årsregnskaber og KPI'er (relateret til faste aktiver)
 
 Du kan bruge **Financial Reporting** til at få indsigt i de finansielle oplysninger, der er gemt i din kontoplan (COA). Du kan konfigurere finansrapporter til at analysere tal i finanskonti og sammenligner finansposter med budgetposter. Specielt til indkøb kan du oprette finansielle rapporter på de finanskonti, som du bruger til at spore bogføring af indkøb.
 
@@ -62,13 +62,13 @@ Dimensioner spiller en vigtig rolle i Business Intelligence. En dimension er dat
 
 Flere oplysninger om finansrapporter i [Forberede Financial Reporting med finansdata og kontokategorier](bi-how-work-account-schedule.md).
 
-## Økonomirapportering på tværs af afdelinger eller juridiske enheder (relateret til indkøb)
+## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-purchasing"></a>Økonomirapportering på tværs af afdelinger eller juridiske enheder (relateret til indkøb)
 
 Nogle organisationer bruger [!INCLUDE [prod_short](includes/prod_short.md)] i flere afdelinger eller juridiske enheder. Andre bruger [!INCLUDE [prod_short](includes/prod_short.md)] i datterselskaber, der rapporterer til overordnede organisationer. [!INCLUDE [prod_short](includes/prod_short.md)] giver bogholdere værktøjer, der kan hjælpe dem med at overføre finansposter fra to eller flere regnskaber (datterselskaber) til et konsolideret regnskab. Specielt til styring af indkøb vil du måske konsolidere finansposter for dine anlægskonti for at kunne spore KPI'er for indkøbskonti på tværs af forretningsenheder eller juridiske enheder.
 
 Flere oplysninger i [Virksomhedskonsolidering](finance-consolidated-company-reporting.md).
 
-## Ad hoc-analyse af indkøbsdata
+## <a name="ad-hoc-analysis-of-purchasing-data"></a>Ad hoc-analyse af indkøbsdata
 
 Nogle gange skal du bare kontrollere, om tallene tilføjes korrekt, eller hurtigt bekræfte et tal. Følgende funktioner er gode til ad hoc-analyser:
 
@@ -88,7 +88,7 @@ På samme måde kan du bruge handlingen **Åbn i Excel** til at åbne en listesi
 
 Du kan få mere at vide om, hvordan du udfører ad hoc-analyser af købsdata, ved at gå til [Ad hoc-analyse af indkøbsdata](ad-hoc-analysis-purchasing.md).
 
-## Indbyggede indkøbsrapporter
+## <a name="built-in-reports-for-purchasing"></a>Indbyggede indkøbsrapporter
 
 [!INCLUDE [prod_short](includes/prod_short.md)] Indeholder flere indbyggede rapporter, sporingsfunktioner og værktøjer, der hjælper indkøbsorganisationer med at rapportere om deres data.
 
@@ -103,13 +103,13 @@ Hvis du vil have et overblik over tilgængelige rapporter, kan du klikke på **A
 
 Du kan få mere at vide om rapporter, der er relevante for køb, ved at gå til [Indbyggede købsrapporter](purchase-reports.md).
 
-## Analyse af køb på skærmen
+## <a name="on-screen-purchasing-analytics"></a>Analyse af køb på skærmen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] har flere sider, der giver dig oversigter over indkøb og opgaver at gøre. Her er et eksempel på, hvordan du kommer i gang:
 
 - [Beregne datoer for køb](purchasing-date-calculation-for-purchases.md)
 
-### Vise indkøbsrelaterede finansposter og saldi fra siden Kontoplan
+### <a name="show-purchasing-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Vise indkøbsrelaterede finansposter og saldi fra siden Kontoplan
 
 Siden Kontoplan viser alle finanskonti med aggregerede tal, der bogføres i finansregnskabet. Fra denne side kan du f.eks. gøre følgende:  
 
@@ -123,7 +123,7 @@ Specielt for indkøb kan du oprette en visning på siden Kontoplan, der kun vise
 
 Få mere at vide i [Forstå Kontoplanen](finance-general-ledger.md#the-chart-of-accounts).
 
-### Analysere data efter dimensioner (relateret til indkøb)
+### <a name="analyze-data-by-dimensions-related-to-purchasing"></a>Analysere data efter dimensioner (relateret til indkøb)
 
 Dimensioner er værdier, der kategoriserer poster, så du kan spore og analysere dem i dokumenter som f.eks. indkøbsordrer. Dimensioner kan f.eks. angive det projekt eller den afdeling, en post kommer fra.  
 
@@ -131,7 +131,7 @@ I stedet for at oprette separate finanskonti for hver afdeling eller lokation ka
 
 Få mere at vide i [Analysere data efter dimensioner](bi-how-analyze-data-dimension.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Virksomhedskonsolidering](finance-consolidated-company-reporting.md)  
 [Forberede finansrapporter med finansdata og kontokategorier](bi-how-work-account-schedule.md)  
