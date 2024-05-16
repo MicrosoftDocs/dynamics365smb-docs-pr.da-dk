@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Ad hoc-analyse af finansdata
+# <a name="ad-hoc-analysis-of-finance-data"></a>Ad hoc-analyse af finansdata
 
 I artikel beskriver, hvordan du bruger funktionen **Dataanalyse** til at analysere finansdata direkte fra listesider og forespørgsler. Du behøver ikke at køre en rapport eller skifte til et andet program, f.eks. Excel. Funktionen indeholder en interaktiv og alsidig måde at beregne, opsummere og gennemgå data på. I stedet for at køre rapporter med indstillinger og filtre kan du tilføje flere faner, der repræsenterer forskellige opgaver eller visninger på dataene. Nogle eksempler er "Aktiver i alt", "Afskrivninger over tid", "Tilgodehavender" eller enhver anden visning, du kan forestille dig. Du kan få mere at vide om, hvordan du bruger funktionen **Dataanalyse** ved at gå til [Analysér liste og forespørge på data med analysetilstand](analysis-mode.md).
 
@@ -22,7 +22,7 @@ Brug følgende listesider for at starte en ad hoc-analyse af finansprocesser:
 - [Debitorposter](https://businesscentral.dynamics.com/?page=25)
 - [Kreditorposter](https://businesscentral.dynamics.com/?page=29)
 
-## Finans ad hoc-analysescenarier
+## <a name="finance-ad-hoc-analysis-scenarios"></a>Finans ad hoc-analysescenarier
 
 Brug funktionen **Dataanalyse** til hurtig faktatjek og ad hoc-analyse:
 
@@ -39,7 +39,7 @@ Følgende afsnit indeholder eksempler på finansscenarier i [!INCLUDE [prod_shor
 | [Finance (Resultatopgørelse)](#example-finance-income-statement) | Se din indkomst over resultatkontiene fra kontoplaner, f.eks. opdelt i tidsintervaller for, hvornår beløb blev bogført. | [Finansposter](https://businesscentral.dynamics.com/?page=20) | **Finanskontonr.**, **Bogføringsdato** og **Beløb**. |
 | [Finance (samlede aktiver)](#example-finance-total-assets) | Se dine aktiver over anlægskonti fra kontoplanen, f.eks. opdelt i tidsintervaller for, hvornår beløb blev bogført. | [Finansposter](https://businesscentral.dynamics.com/?page=20) | **Finanskontonr.**, **Bogføringsdato** og **Beløb**. |
 
-### Eksempel: Finance (Tilgodehavender)
+### <a name="example-finance-accounts-receivables"></a>Eksempel: Finance (Tilgodehavender)
 
 Se, hvad du dine debitorer skylder dig, eventuelt opdelt i tidsintervaller for, hvornår beløb er forfaldne ved at følge disse trin:
 
@@ -51,7 +51,7 @@ Se, hvad du dine debitorer skylder dig, eventuelt opdelt i tidsintervaller for, 
 1. Hvis du vil udføre analysen for et givet år eller kvartal, skal du anvende et filter i menuen **Analysefiltre** (placeret under menuen **Kolonner** i højre side).
 1. Omdøb din analysefane til **Aldersfordel gæld efter måned** eller noget, der beskriver denne analyse.
 
-### Eksempel: Finance (Kreditorer)
+### <a name="example-finance-accounts-payable"></a>Eksempel: Finance (Kreditorer)
 
 Se, hvad du skylder dine kreditorer, eventuelt opdelt i tidsintervaller for, hvornår beløb er forfaldne ved at følge disse trin:
 
@@ -67,7 +67,7 @@ Følgende billede viser resultatet af disse trin.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Eksempel på, hvordan du udfører dataanalyse på siden Finansposter." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
-### Eksempel: Finance (Resultatopgørelse)
+### <a name="example-finance-income-statement"></a>Eksempel: Finance (Resultatopgørelse)
 
 Se din indkomst over resultatkontiene fra kontoplanen, opdelt i tidsintervaller for, hvornår beløb blev bogført, ved at følge disse trin:
 
@@ -83,7 +83,7 @@ Se din indkomst over resultatkontiene fra kontoplanen, opdelt i tidsintervaller 
 
 1. Omdøb din analysefane til **Indtægt efter måned** eller noget, der beskriver denne analyse.
 
-### Eksempel: Finance (samlede aktiver)
+### <a name="example-finance-total-assets"></a>Eksempel: Finance (samlede aktiver)
 
 Se dine aktiver over anlægskonti fra kontoplanen, opdelt i tidsintervaller for, hvornår beløb blev bogført, ved at gøre følgende.
 
@@ -99,7 +99,7 @@ Se dine aktiver over anlægskonti fra kontoplanen, opdelt i tidsintervaller for,
 
 1. Omdøb din analysefane til **Indtægt efter måned** eller noget, der beskriver denne analyse.
 
-## Datagrundlag for ad-hoc analyse af finans
+## <a name="data-foundation-for-ad-hoc-analysis-on-finance"></a>Datagrundlag for ad-hoc analyse af finans
 
 Når du bogfører anlægskladder [!INCLUDE [prod_short](includes/prod_short.md)], oprettes der poster i tabellen **Finanspost**. Derfor udføres ad hoc-analyser af finanser typisk på siden [Finansposter](https://businesscentral.dynamics.com/?page=20). I forbindelse med tilgodehavender og gæld kan du analysere [henholdsvis debitorposter](https://businesscentral.dynamics.com/?page=25) og [kreditorposter](https://businesscentral.dynamics.com/?page=29).
 
@@ -108,7 +108,7 @@ Når du bogfører anlægskladder [!INCLUDE [prod_short](includes/prod_short.md)]
 - [Datagrundlag for ad-hoc analyse af salg](ad-hoc-analysis-sales.md#data-foundation-for-ad-hoc-analysis-on-sales)
 - [Datagrundlag for ad-hoc analyse af indkøb](ad-hoc-analysis-purchasing.md#data-foundation-for-ad-hoc-analysis-on-purchasing)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Analysere liste- og forespørgselsdata med analysetilstand](analysis-mode.md)  
 [Oversigt over økonomisk analyse](bi.md)  
