@@ -72,8 +72,8 @@ ms.service: dynamics-365-business-central
 ##### [Designoplysninger: Konti i Finans](design-details-accounts-in-the-general-ledger.md)
 ##### [Designoplysninger: Lagerværdi](design-details-inventory-valuation.md)  
 ##### [Designoplysninger: Værdiregulering](design-details-revaluation.md)
-#### Designoplysninger: Bogføringsdato på post med reguleringsværdi
-##### [Bogføringsdato for oversigt over post med reguleringsværdi](design-details-inventory-adjustment-value-entry-posting-date.md)  
+#### Designoplysninger: Bogføringsdato på reguleringsværdipost
+##### [Bogføringsdato for oversigt over med reguleringsværdipost](design-details-inventory-adjustment-value-entry-posting-date.md)  
 ##### [Fejlmeddelelse "Bogføringsdatoen er ikke inden for den tilladte bogføringsperiode"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
 ##### [Bogføringsdatoen for regulering af værdiposten sammenlignet med kildeposten](design-details-inventory-adjustment-value-entry-source-entry.md)
 #### Designoplysninger: Dimensionsgruppeposter
@@ -202,7 +202,7 @@ ms.service: dynamics-365-business-central
 ### [Intelligent indsigt (kun online)](about-intelligent-cloud.md)
 ## Ofte stillede spørgsmål
 ### [Ofte stillede spørgsmål](across-faq.yml)
-### [Ofte stillede spørgsmål om Chat med Copilot (forhåndsversion)](chat-with-copilot-faq.md)
+### [Ofte stillede spørgsmål om chat med Copilot (forhåndsversion)](chat-with-copilot-faq.md)
 ### [Ofte stillede spørgsmål om Fortæl mig](ui-search-faq.md)
 ### [Ofte stillede spørgsmål om Søge og filtrere](ui-search-filter-faq.yml)
 ### [Ofte stillede spørgsmål om listevisninger](ui-views-faq.yml)
@@ -351,7 +351,7 @@ ms.service: dynamics-365-business-central
 #### [Oversigt over bankafstemning](bank-manage-bank-accounts.md)
 #### [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md)
 #### [Afstemme bankkonti med Copilot (forhåndsversion)](bank-reconciliation-with-copilot.md)
-#### [Udligne betalinger automatisk og afstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)
+#### [Udligning af betalinger automatisk og afstemning af bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 #### [Overføre bankbeløb](bank-how-transfer-bank-funds.md)
 #### [Oprette bankindskud](bank-create-bank-deposits.md)
 
@@ -446,12 +446,19 @@ ms.service: dynamics-365-business-central
 #### [Validere momsregistreringsnumre](finance-how-validate-vat-registration-number.md)
 #### [Konvertere servicekontrakter, der omfatter momsbeløb](service-how-to-convert-service-contracts.md)
 
-### Opsætning og brug af e-dokumenter
+### Opsætte og bruge af e-dokumenter
 #### [Oversigt over e-dokumenter](finance-edocuments-overview.md)
 #### [Opsætte e-dokumenter](finance-how-setup-edocuments.md)
-#### [Bruge e-dokumenter i salg og køb](finance-how-use-edocuments.md)
-#### [Indstil E-dokument-connectoren med eksterne slutpunkter](finance-how-setup-edocuments-external.md)
+#### [Bruge e-dokumenter i salg](finance-how-use-edocuments.md)
+#### [Bruge e-dokumenter i køb ](finance-how-use-edocuments-purchase.md)
+#### [Indstil connectoren til e-dokumenter med eksterne slutpunkter](finance-how-setup-edocuments-external.md)
 #### [Udvide e-dokumenters funktionalitet](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
+### Ledelse af bæredygtighed
+#### [Oversigt over Ledelse af bæredygtighed](finance-manage-sustainability.md)
+#### [Opsætning af bæredygtighed](finance-sustainability-setup.md)
+#### [Diagram over bæredygtighedskonti og finans](finance-sustainability-accounts-ledger.md)
+#### [Sådan kan du registrere drivhusgasudledninger (GHG)](finance-sustainability-journal.md)
 
 ### [Flere placeringer og internationale organisationer](finance-multi-site-organizations.md)
 #### Konsolidere finansielle data fra flere virksomheder
@@ -479,7 +486,7 @@ ms.service: dynamics-365-business-central
 #### [Analysere data med statistiske konti](bi-use-statistical-accounts.md)
 #### [Analysere data efter dimensioner](bi-how-analyze-data-dimension.md)
 
-<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+### [Ad hoc-analyse af finansdata](ad-hoc-analysis-finance.md)
 
 ### Indbyggede finansanalyseværktøjer
 #### [Analysere finansdata fra kontoplanen](finance-general-ledger.md)
@@ -549,7 +556,10 @@ ms.service: dynamics-365-business-central
 
 ## Lager
 ### [Oversigt over lager](inventory-manage-inventory.md)
-### [Lager- og lagerstedsrapporter](inventory-WMS-reports.md)
+### Lageranalyse 
+#### [Oversigt over lageranalyser](inventory-analytics-overview.md)
+#### [Ad hoc-analyse af lagerdata](ad-hoc-analysis-inventory.md)
+#### [Indbyggede lager- og lagerstedsrapporter](inventory-WMS-reports.md)
 ### [Registrere nye varer](inventory-how-register-new-items.md)
 ### [Arbejde med styklister](inventory-how-work-BOMs.md)
 ### [Kategorisere varer](inventory-how-categorize-items.md)
@@ -585,8 +595,10 @@ ms.service: dynamics-365-business-central
 
 ## Anlægsaktiver
 ### [Oversigt over anlægsaktiver](fa-manage.md)
+
 ### Analyse af anlægsaktiver
 #### [Oversigt over analyse af anlægsaktiver](fa-analytics-overview.md)
+#### [Ad hoc-analyse af data i anlægsaktiver](ad-hoc-analysis-fa.md)
 #### Indbyggede analyseværktøjer til anlægsaktiver
 ##### [Overvåge reparationsomkostninger](fa-how-maintain.md#to-monitor-maintenance-costs)
 ##### [Overvåge forsikringsdækning](fa-how-insure.md#to-monitor-insurance-coverage)
@@ -594,6 +606,7 @@ ms.service: dynamics-365-business-central
 ##### [Vise anlægsposter](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 ##### [Vise forventede salgsværdier](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 #### [Indbyggede anlægsrapporter](fa-reports.md)
+
 ### [Opsætte anlægsaktiver](fa-setup.md)
 ### [Afskrivningsmetoder](fa-depreciation-methods.md)
 ### [Administrere budgetter for anlægsaktiver](fa-how-manage-budgets.md)
@@ -776,6 +789,7 @@ ms.service: dynamics-365-business-central
 <!--LF-->
 ## Lokal funktionalitet
 ### [Oversigt over lokal funktionalitet](about-localization.md)
+### [Udvikling af validerede lokaliseringsapps](about-validated-localization-apps.md)
 
 ### Australien
 #### [Oversigt over den australske version](LocalFunctionality/Australia/australia-local-functionality.md)
@@ -1144,9 +1158,9 @@ ms.service: dynamics-365-business-central
 ###### [GST-input kreditregulering](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
 ###### [GST-udligning](LocalFunctionality/India/GST-Settelement.md)
 ###### [GST e-faktura](LocalFunctionality/India/GST-E-Invoice.md)
-##### GST cess
-###### [Grundlæggende opsætning af GST cess](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
-###### [Beregning af GST cess](LocalFunctionality/India/GST-Cess-Calculations.md)
+##### GST Cess
+###### [Grundlæggende opsætning af GST Cess](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
+###### [Beregning af GST Cess](LocalFunctionality/India/GST-Cess-Calculations.md)
 ##### GST i servicestyring
 ###### [GST i servicestyring](LocalFunctionality/India/GST-Service-Management.md)
 ##### GST-inputservicedistribution
@@ -1567,7 +1581,11 @@ ms.service: dynamics-365-business-central
 #### [Lokal funktionalitet i den amerikanske version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Skat
 ##### [Grundlæggende opsætning af moms](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Rapportering af salgsmoms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)  
+##### [Rapportering af salgsmoms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Introduktion til IRS 1099-formularerne og dens funktionalitet](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+##### [Konfigurer og brug IRS 1099-formularen til version 24 (udgivelsesbølge 1 i 2024)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
+#### [Brug IRS 1099-formularerne](LocalFunctionality/UnitedStates/how-to-1099-use.md)
+#### [Indsend og rapporter IRS 1099-formularerne](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
 ##### [Opsætte og bruge IRS 1099-formular](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Ændringer og detaljer i lovgivningsmæssigt 1099-format](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Opsætte og bruge IRS 1096-formular](LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md)
@@ -1802,8 +1820,14 @@ ms.service: dynamics-365-business-central
 # Analyse, Business Intelligence og rapportering 
 
 ## [Oversigt over analyse](reports-bi-reporting.md)
-## [Bruge nøgletal (KPI'er) til at overholde din virksomheds mål](./analytics-about-kpis.md)
-## [Bruge Financial Reporting](bi-how-work-account-schedule.md)
+## [Analyse efter funktionsområde](analytics-by-functional-area.md)
+
+## KPI'er, dashboards og økonomiske rapporter
+### [Bruge nøgletal (KPI'er) til at overholde din virksomheds mål](analytics-about-kpis.md)
+### [Introduktion til Business Central og Power BI](admin-powerbi.md)
+### [Arbejde med Power BI-rapporter](across-working-with-powerbi.md)
+### [Spore KPI'er med Power BI-målepunkter](track-kpis-with-power-bi-metrics.md)
+### [Bruge Financial Reporting](bi-how-work-account-schedule.md)
 
 ## Ad hoc-dataanalyse
 ### [Oversigt](reports-adhoc-analysis.md)
@@ -1812,12 +1836,7 @@ ms.service: dynamics-365-business-central
 ### [Analysere sidedata i Excel](across-work-with-excel.md)
 ### [Analysere rapportdata med Excel](report-analyze-excel.md)
 ### [Analysere liste- og forespørgselsdata med analysetilstand](analysis-mode.md)
-
-## Indbyggede analyseværktøjer
-### [Oversigt](reports-built-in-analytics.md)
-### [Arbejde med Power BI-rapporter](across-working-with-powerbi.md)
-### [Intelligent indsigt (i det lokale miljø)](about-intelligent-cloud.md)
-### [Telemetri for rapportforbrug](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+### [Ad hoc-dataanalyse efter funktionsområde](ad-hoc-data-analysis-by-functional-area.md)
 
 ## Bruge rapporter i det daglige arbejde
 ### [Oversigt](reports-use-reports.md)
@@ -1834,44 +1853,21 @@ ms.service: dynamics-365-business-central
 ## Indbyggede rapporter
 ### [Rapportoversigt](reports-available-reports.md)
 ### Finance
-#### [Økonomisk Business Intelligence](bi.md)
-#### [Analysere regnskabsopgørelser med Excel](finance-analyze-excel.md)
+#### [Klargøre Financial Rapportering](bi-how-work-account-schedule.md)
 #### [Vigtige finansielle rapporter](finance-reports.md)
 #### [Rapporter med tilgodehavender](receivables-reports.md)
 #### [Rapporter med leverandører](payables-reports.md)
-#### [Analyse af pengestrøm](finance-setup-cash-flow-analyses.md)
-#### [Konsolidere finansielle data fra flere virksomheder](finance-consolidated-company-reporting.md)
 
-### Salg
-#### [Salgsrapporter](sales-reports.md)
-#### [Status af rammesalgsordre](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
-#### [Pakkesporing](sales-how-track-packages.md)
-#### [Vise ikke-bogførte og bogførte rammesalgsordrelinjer](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
-
-### Køb
-#### [Købsrapporter](purchase-reports.md)
-#### [Vise alle indkøbsfinansposter](purchasing-how-record-purchases.md#viewing-ledger-entries)
-
-### Lager og lagersted
-#### [Lager- og lagerstedsrapporter](inventory-wms-reports.md)
-#### [Varedisponering](inventory-how-availability-overview.md)
-#### [Spore varer med serie-, lot- og pakkenumre](inventory-how-work-item-tracking.md)
-#### [Spore varer – sporede varer](inventory-how-to-trace-item-tracked-items.md)
-#### [Bruge afstemningen mellem lagerposterne og Finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [Vise varer til direkte afsendelse i leverancer og plukkladde](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+### [Salgsrapporter](sales-reports.md)
+### [Købsrapporter](purchase-reports.md)
+### [Lager- og lagerstedsrapporter](inventory-wms-reports.md)
 
 ### Projekt
 #### [Projektrapporter](project-reports.md)
 #### [Vise projektforbrug og -estimater](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
 #### [Overvåge status og ydeevne af projekt](projects-how-monitor-progress-performance.md)
 
-### Anlægsaktiver
-#### [Rapporter af anlægsaktiver](fa-reports.md)
-#### [Overvåge reparationsomkostninger](fa-how-maintain.md#to-monitor-maintenance-costs)
-#### [Overvåge forsikringsdækning](fa-how-insure.md#to-monitor-insurance-coverage)
-#### [Vise ændrede afskrivningsprofilværdier](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-#### [Vise anlægsposter](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-#### [Vise forventede salgsværdier](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+### [Rapporter af anlægsaktiver](fa-reports.md)
 
 ### Montagestyring
 #### [Montagestyringsrapporter](assembly-reports.md)
@@ -1887,6 +1883,9 @@ ms.service: dynamics-365-business-central
 #### [Oversigt over serviceordrer](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Oversigt over servicetilbud](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Oversigt over bogførte servicedokumenter](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+### [Telemetri for rapportforbrug](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
 
 ## Udvikle rapporter
 ### [Oversigt](reports-develop-reports.md)
@@ -1909,11 +1908,9 @@ ms.service: dynamics-365-business-central
 ## Analysere data i Business Intelligence-værktøjer
 ### [Oversigt](reports-external-analysis.md)
 ### [Microsoft Fabric og Business Central](admin-fabric.md)
-### [Bruge Power BI med Business Central](admin-powerbi.md)
-### [Analysere regnskabsopgørelser med Excel](finance-analyze-excel.md)
 ### [Udtrække data til datalagersteder eller Data Lake](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
 ### [Læse Business Central-data ved hjælp af API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
+### [Intelligent indsigt (i det lokale miljø)](about-intelligent-cloud.md)
 
 
 # Sikkerhed, overholdelse og beskyttelse af personlige oplysninger
@@ -2036,7 +2033,7 @@ ms.service: dynamics-365-business-central
 #### [Designoplysninger: Vareudligning](design-details-item-application.md)  
 #### [Designoplysninger: Kendt problem med vareudligning](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 #### [Designoplysninger: Beregningsregulering](design-details-cost-adjustment.md)  
-#### Designoplysninger: Bogføringsdato på post med reguleringsværdi
+#### Designoplysninger: Bogføringsdato på reguleringsværdipost
 #### [Designoplysninger: Bogføringsdato på post med reguleringsværdi](design-details-inventory-adjustment-value-entry-posting-date.md)  
 ##### [Fejlmeddelelse "Bogføringsdatoen er ikke inden for den tilladte bogføringsperiode"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
 ##### [Bogføringsdatoen for regulering af værdiposten sammenlignet med kildeposten](design-details-inventory-adjustment-value-entry-source-entry.md)  

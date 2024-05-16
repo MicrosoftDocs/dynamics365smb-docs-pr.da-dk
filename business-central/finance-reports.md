@@ -1,40 +1,39 @@
 ---
 title: Indbyggede finansrapporter i Business Central
-description: 'Se, hvilke finansrapporter der er tilgængelige i standardversionen af Business Central, så du kan holde styr på virksomheden. Brug rapport 38 til gevinst/tab (P/L)-rapportering.'
+description: Udforsk de indbyggede finansielle rapporter i standardversionen af Business Central.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 'Report_4, Report_6, Report_7, Report_9, Report_25, Report_38'
-ms.date: 12/19/2023
-ms.author: bholtorf
+ms.date: 05/03/2024
+ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
 # Indbyggede finansrapporter i Business Central
 
-[!INCLUDE [prod_short](includes/prod_short.md)] indeholder flere indbyggede rapporter, sporingsfunktioner og værktøjer, som kan hjælpe revisorer eller controllere, som er ansvarlige for at rapportere til finansafdelingen. 
+[!INCLUDE [prod_short](includes/prod_short.md)] indeholder flere indbyggede rapporter, sporingsfunktioner og værktøjer, som kan hjælpe revisorer eller controllere, som er ansvarlige for at rapportere til finansafdelingen.
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
+## Udforsk finansrapporter med Stifinder
+
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 ## Se også
 
-[Oprette omkostningsbudgetter](finance-create-cost-budgets.md)  
-[Rapportere moms til SKAT](finance-how-report-vat.md)  
-[Afslutning af år og perioder](year-close-years-periods.md)  
-[Bruge rapporter før afslutning](year-prepare-preclose-reports.md)  
-[Forberedelse af ultimoopgørelser](year-prepare-close-statement.md)  
-[Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md)  
-[Arbejde med dimensioner](finance-dimensions.md)  
 [Rapporter og analyser for debitor](receivables-reports.md)  
-[Rapporter og analyser for kreditor](payables-reports.md)  
+[Rapporter og analyser for skyldige beløb](payables-reports.md)  
 [Rapporter og analyser af anlægsaktiver](fa-reports.md)  
+[Ad hoc-analyse for finansdata](ad-hoc-analysis-finance.md)  
+[Økonomisk analyse](bi.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Finans](finance.md)  
-[Lokal funktionalitetsoversigt](about-localization.md)  
+[Oversigt over lokal funktionalitet](about-localization.md)  
 [Revisoroplevelser i [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

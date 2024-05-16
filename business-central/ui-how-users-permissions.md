@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
 ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
-ms.date: 02/21/2024
+ms.date: 05/03/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
@@ -17,7 +17,7 @@ ms.custom: bap-template
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
-Denne artikel beskriver, hvordan administratorer opretter brugere og definerer, hvem der kan logge på [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan også se, hvordan du kan tildele tilladelser til forskellige brugere i henhold til produktlicenserne.
+Denne artikel beskriver, hvordan administratorer opretter brugere og definerer, hvem der kan logge på [!INCLUDE[prod_short](includes/prod_short.md)]. Artiklen beskriver også, hvordan du kan tildele forskellige brugere i henhold til produktlicenserne.
 
 Når du opretter brugere i [!INCLUDE[prod_short](includes/prod_short.md)], giver du tilladelse til dem via tilladelsessæt. Du kan også organisere brugere i brugergrupper. Brugergrupper gør det nemmere at administrere tilladelser og andre indstillinger for flere brugere på én gang. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).  
 
@@ -32,7 +32,7 @@ Brugerkonti i [!INCLUDE[prod_short](includes/prod_short.md)] skal oprettes førs
 
 I onlineversionen af [!INCLUDE[prod_short](includes/prod_short.md)] definerer dit abonnement antallet af tilladte [!INCLUDE[prod_short](includes/prod_short.md)]-brugerlicenser, du har tilladelse til. Der føjes brugere til din lejer i Microsoft Partner Center, som regel af din Microsoft-partner. Du kan finde flere oplysninger i [Administration af Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
 
-Du tildeler licenser til brugere i henhold til den arbejdsgang, hver bruger vil bruge i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan tildele licenser på flere måder:
+Du tildeler licenser til brugere i henhold til den arbejdsgang, hver bruger gør i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan tildele licenser på flere måder:
 
 - Virksomhedens Microsoft 365-administrator kan gøre det i [Microsoft 365 Administration](https://admin.microsoft.com).. Du kan finde flere oplysninger i [Tilføje brugere enkeltvis eller samlet i Microsoft 365](/microsoft-365/admin/add-users/add-users).  
 - En Microsoft-partner kan tildele licenser i Microsoft 365 Administration eller i Microsoft Partnercenter. Du kan finde flere oplysninger i [Brugeradministrationsopgaver for debitorkonti](/partner-center/assign-licenses-to-users) i Hjælp til Microsoft Partnercenter.
@@ -80,13 +80,13 @@ Andre tilladelsessæt tilføjes automatisk på grundlag af de brugergrupper, der
 Hvis denne standardkonfiguration ikke er den korrekte opsætning for et bestemt miljø, kan administratoren ændre denne konfiguration. Tilpassede tilladelser har imidlertid kun indflydelse på nye brugere, som har fået tildelt licensen. Tilladelser til eksisterende brugere, der har fået tildelt licens, påvirkes ikke.  
 
 1. Log på [!INCLUDE[prod_short](includes/prod_short.md)] som administrator.  
-2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Licenskonfiguration**, og vælg derefter det relaterede link.  
+2. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Licenskonfiguration**, og vælg derefter det relaterede link.  
 
     <!--Alternatively, if you're already in the **Users** page, you can run the **Update Users from Microsoft 365** guide, and then, on the first page of the guide, choose the **Configure permissions per license** link.-->  
 3. På siden **Licenskonfiguration** skal du vælge den licens, du vil tilpasse, og derefter skal du vælge handlingen **Konfigurer**.  
-4. Vælg feltet **Tilpas tilladelser**, som du vil skifte til tilpasning af, og foretag derefter de relevante ændringer.  
+4. Vælg feltet **Tilpas tilladelser**, som du vil skifte til tilpasning af, og foretag derefter ændringerne.  
 
-    I eksemplet vil administratoren gerne fjerne tilladelsen til redigering i Excel, så de fjerner brugergruppen *Excel-eksporthandling* fra Team-medlemslicens. Nye brugere, der får tildelt licensen Team medlem, får ikke mulighed for at eksportere data til Excel. Hvis organisationen ændrer deres opfattelse af dette emne, kan du blot gå tilbage til siden **Licenskonfiguration** og deaktivere tilpasningen for den pågældende licenstype.  
+    I eksemplet vil administratoren gerne fjerne tilladelsen til redigering i Excel, så de fjerner brugergruppen *Excel-eksporthandling* fra Team-medlemslicens. Bagefter kan nye brugere, der får tildelt licensen Team medlem, ikke eksportere data til Excel. Hvis organisationen ændrer deres opfattelse af dette emne, kan du blot gå tilbage til siden **Licenskonfiguration** og deaktivere tilpasningen for den pågældende licenstype.  
 
 > [!IMPORTANT]
 > Denne tilpasning af tilladelser træder kun i kraft for nye brugere, som du tildeler den relevante licens. Eksisterende brugere opdateres ikke. Det anbefales, at du tilpasser tilladelserne, inden du begynder at tildele brugere licenser i Microsoft 365 Administrationscenter.
@@ -108,7 +108,7 @@ Når du har tilføjet brugere eller ændret brugeroplysninger i Microsoft 365 Ad
 > [!NOTE]
 > Vejledningen **Opdater brugere fra Microsoft 365** opdaterer ikke brugere, der ikke er tildelt en licens, f. eks. en person, der er Global administrator og Dynamics 365 administrator. Disse brugere opdateres næste gang, de logger på miljøet.
 
-For nye brugere er næste trin at tildele brugergrupper og tilladelser. Du kan finde flere oplysninger i [Tildele rettigheder til brugere og grupper](ui-define-granular-permissions.md). Hvis du opdaterer en bruger, og opdateringen indeholder en licens ændring, tildeles brugerne til den relevante brugergruppe, og deres tilladelsessæt bliver opdateret. Du kan finde flere oplysninger i [Administrere rettigheder gennem brugergrupper](ui-define-granular-permissions.md).  
+For nye brugere er næste trin at tildele brugergrupper og tilladelser. Du kan finde flere oplysninger i [Tildele rettigheder til brugere og grupper](ui-define-granular-permissions.md). Hvis du opdaterer en bruger med en licensændring, tildeler [!INCLUDE [prod_short](includes/prod_short.md)] brugerne til den relevante brugergruppe og opdaterer deres tilladelsessæt. Du kan finde flere oplysninger i [Administrere rettigheder gennem brugergrupper](ui-define-granular-permissions.md).  
 
 > [!NOTE]
 > Alle brugere i et miljø skal tildeles den samme licens, enten Essentials eller Premium. Hvis du vil have flere oplysninger om licenser, skal du gå til webstedet [Business Central](https://dynamics.microsoft.com/business-central/overview/).
@@ -135,9 +135,9 @@ Når du fjerner tildelingen af en licens til [!INCLUDE[prod_short](includes/prod
 - Administratoren kan tilføje brugeren ved at vælge handlingen **Opdater brugere fra Microsoft 365** på siden **Brugere** som beskrevet i afsnittet [Sådan tilføjer du en bruger eller opdaterer brugeroplysninger i Business Central](#adduser).
 - Licensoplysningerne opdateres automatisk, når brugeren logger på for første gang.
 
-I begge tilfælde anvendes der automatisk flere indstillinger. Disse indstillinger er angivet i den anden og tredje kolonne i nedenstående tabel.
+I begge tilfælde anvendes der automatisk flere indstillinger. Disse indstillinger er angivet i den anden og tredje kolonne i følgende tabel.
 
-Hvis du ændrer brugeroplysningerne i Microsoft 365, kan du opdatere [!INCLUDE[prod_short](includes/prod_short.md)], så de afspejler ændringen. Afhængigt af hvad du vil opdatere, skal du bruge en af handlingerne på siden **Brugere**. Handlingerne er beskrevet i de sidste to kolonner i nedenstående tabel.
+Hvis du ændrer brugeroplysningerne i Microsoft 365, kan du opdatere [!INCLUDE[prod_short](includes/prod_short.md)], så de afspejler ændringen. Afhængigt af hvad du vil opdatere, skal du bruge en af handlingerne på siden **Brugere**. Handlingerne er beskrevet i de sidste to kolonner i følgende tabel.
 
 |Hvad sker der, når:|Første bruger, første login|Brugere opdateres fra Microsoft 365|Brugerens standardbrugergrupper gendannes|
 |-|-|-|-|
@@ -147,7 +147,7 @@ Hvis du ændrer brugeroplysningerne i Microsoft 365, kan du opdatere [!INCLUDE[p
 |Synkroniser brugerplaner (licenser) med licenser og roller tildelt i Microsoft 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**|**X**|
 |Føj brugeren til brugergruppen i henhold til de aktuelle brugerplaner. Fjern SUPER-tilladelsessættet for alle andre brugere end den første bruger, der skal logge på, og [administratorer](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Der kræves mindst én SUPER.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**|**X**<br /><br />Fjerner manuelt tildelte brugergrupper og tilladelser.|
 
-Brugere kan få adgang til [!INCLUDE[prod_short](includes/prod_short.md)]-poster i Teams ved hjælp af deres Microsoft 365-licens. Når adgang aktiveres for et miljø, inkluderer synkronisering med **Opdater brugere Microsoft 365**-handlingen ikke brugere, der kun har en Microsoft 365-licens. Hvis du vil medtage disse brugere i synkroniseringen, skal du først opdatere miljø indstillingerne ved at tildele en sikkerhedsgruppe, der indeholder brugere med en [!INCLUDE[prod_short](includes/prod_short.md)]-licens, og brugere med kun en Microsoft 365-licens.
+Brugere kan få adgang til [!INCLUDE[prod_short](includes/prod_short.md)]-poster i Teams ved hjælp af deres Microsoft 365-licens. Når adgang aktiveres for et miljø, springer synkronisering med **Opdater brugere Microsoft 365**-handlingen over brugere, der kun har en Microsoft 365-licens. Hvis du vil medtage disse brugere i synkroniseringen, skal du først opdatere miljø indstillingerne ved at tildele en sikkerhedsgruppe, der indeholder brugere med en [!INCLUDE[prod_short](includes/prod_short.md)]-licens, og brugere med kun en Microsoft 365-licens.
 
 Få mere at vide om at sikre adgang til miljøer med sikkerhedsgrupper i [Administrer adgang med Microsoft Entra-grupper](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups).
 
@@ -171,9 +171,46 @@ I forbindelse med installationer i det lokale miljø opretter redigerer og slett
 >
 > Du kan finde flere oplysninger i [Godkendelse og typer af legitimationsoplysninger](/dynamics365/business-central/dev-itpro/administration/users-credential-types) i administrationens Hjælp til [!INCLUDE[prod_short](includes/prod_short.md)].
 
+## Analysér brugerstatus efter licenstype
+
+Du kan bruge funktionen **Dataanalyse** til at analysere data på [siden Brugere](https://businesscentral.dynamics.com/?page=9800) . Du behøver ikke at køre en rapport eller åbne et andet program, f.eks. Excel. Funktionen indeholder en interaktiv og alsidig måde at beregne, opsummere og gennemgå data på. I stedet for at køre rapporter med indstillinger og filtre kan du tilføje flere faner, der repræsenterer forskellige opgaver eller visninger på dataene. Nogle eksempler er "Brugere efter status" eller "Brugere efter licenstype" eller enhver anden visning, du kan forestille dig. Du kan få mere at vide om, hvordan du bruger funktionen **Dataanalyse** ved at gå til [Analysér liste og forespørge på data med analysetilstand](analysis-mode.md).
+
+### Scenarie med brugeranalyse
+
+Følgende afsnit indeholder eksempler på scenarier, hvor analyse af brugerlisten kan hjælpe dig med at overvåge status for dine brugere.
+
+| Område | Til... | Åbn denne side i analysetilstand | Brug af disse felter |
+| ---- | ----- | ------------------------------- |------------------- |
+| [Brugere efter status](#example-users-by-status) | Se en liste over brugere baseret på deres status (aktiveret/deaktiveret). | [Brugere](https://businesscentral.dynamics.com/?page=9800) | **Status**, **Brugernavn**, **Fulde navn**, **Autorisationsmail** og **Licenstype**. |
+| [Brugere efter licenstype](#example-users-by-license-type) | Se en liste over brugere baseret på deres status licenstype | [Brugere](https://businesscentral.dynamics.com/?page=9800) | **Licenstype**, **Status**,  **Brugernavn**, **Fulde navn** og **Autorisationsmail**. |
+
+### Eksempel: Brugere efter status
+
+Følg disse trin for at analysere brugere efter status:
+
+1. Åbn [Brugere](https://businesscentral.dynamics.com/?page=9800)-listen, og vælg :::image type="content" source="media/analysis-mode-icon.png" alt-text="Aktivér analysetilstand."::: ikon for at tænde for analysetilstand.
+1. Fjern alle kolonner i menuen **Kolonner** (markér feltet ud for feltet **Søg** i højre side).
+1. Træk felterne **Status** (bruger aktiveret/deaktiveret) og **Licenstype** til området **Rækkegrupper**.
+1. Vælg felterne **Brugernavn**, **Fulde navn** og **Autorisationsmail**.
+1. Omdøb din analysefane til **Brugere efter status** eller noget, der beskriver denne analyse.
+
+Følgende billede viser resultatet af disse trin.
+
+:::image type="content" source=" media/data-analysis-users.png" alt-text="Eksempel på, hvordan du udfører dataanalyse på siden Ændringslogposter (Hvem har ændret hvilke data hvornår)." lightbox="media/data-analysis-users.png":::
+
+### eksempel: Brugere efter licenstype
+
+Følg disse trin for at analysere brugere efter licenstype:
+
+1. Åbn [Brugere](https://businesscentral.dynamics.com/?page=9800)-listen, og vælg :::image type="content" source="media/analysis-mode-icon.png" alt-text="Aktivér analysetilstand."::: ikon for at tænde for analysetilstand.
+1. Fjern alle kolonner i menuen **Kolonner** (markér feltet ud for feltet **Søg** i højre side).
+1. Træk felterne **Licenstype** og **Status** (bruger aktiveret/deaktiveret) til området **Rækkegrupper**.
+1. Vælg felterne **Brugernavn**, **Fulde navn** og **Autorisationsmail**.
+1. Omdøb din analysefane til **Brugere efter licenstype** eller noget, der beskriver denne analyse.
+
 ## Se også
 
-[Tildel rettigheder til brugere og grupper](ui-define-granular-permissions.md)  
+[Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md)  
 [Administrere profiler](admin-users-profiles-roles.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
 [Tilpasning [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  

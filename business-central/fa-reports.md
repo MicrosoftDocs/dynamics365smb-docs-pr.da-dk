@@ -17,9 +17,15 @@ Som en hjælp til styring af anlægsaktiverne i [!INCLUDE [prod_short](includes/
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
+## Udforsk finansrapporter med Stifinder
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
+
 ## Se også
 
+[Ad hoc-analyse af data i anlægsaktiver](ad-hoc-analysis-fa.md)     
 [Oversigt over anlægsaktivsanalyser](fa-analytics-overview.md)   
+[Oversigt over økonomisk analyse](bi.md)   
 [Administrere anlægsaktiver](fa-manage.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

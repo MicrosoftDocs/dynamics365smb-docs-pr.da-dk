@@ -3,18 +3,18 @@ title: Administrere anlægsaktiver (indeholder video)
 description: 'Få mere at vide om funktionerne for anlægsaktiver, og få et overblik over, hvordan du arbejder med og administrerer anlægsaktiver.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'machinery, buildings'
 ms.search.form: '5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650'
-ms.date: 03/25/2024
+ms.date: 05/06/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
 # Administration af anlægsaktiver
 
-I Anlæg i [!INCLUDE[prod_short](includes/prod_short.md)] får du et overblik over anlægsaktiverne, og her sikres korrekt periodisk afskrivning. Funktionen hjælper dig ligeledes med at holde styr på reparationsomkostningerne, administrere forsikringspolicer, bogføre anlægstransaktioner og generere forskellige rapporter og statistikker.
+Anlægsaktiver i [!INCLUDE[prod_short](includes/prod_short.md)] giver dig et overblik over anlægsaktiverne, og sikre korrekt periodisk afskrivning. Funktionen hjælper dig ligeledes med at holde styr på reparationsomkostningerne, administrere forsikringspolicer, bogføre anlægstransaktioner og generere forskellige rapporter og statistikker.
 
 ## Videooversigt
 
@@ -22,59 +22,88 @@ Følgende video giver en grundlæggende beskrivelse af anlægsaktiver:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Oversigt over anlægsaktiver
+## Første oprettelse af anlægsaktiver
 
-For hvert anlægsaktiv skal du definere et kort med oplysninger om aktivet. Du kan angive bygninger eller produktionsudstyr som et hovedanlæg med en komponentliste, og du kan gruppere dem på forskellige måder, f.eks efter art, afdeling eller lokation. Derefter kan du begynde at anskaffe, vedligeholde og sælge anlægsaktiverne. Du kan også konfigurere budgetterede aktiver. Med budgettering kan du inkludere forventede anskaffelser og salg i rapporterne.
+Før du kan administrere anlægsaktiver, skal du udføre følgende opsætninger:
 
-> [!IMPORTANT]
-> Før du kan administrere anlægsaktiver, skal du udføre følgende opsætninger:
->
-> * Standardværdier
-> * Regnskab for anlægsaktiver
-> * Bogføringsgrupper
-> * Allokeringsnøgler
-> * Anlægskladder
->
-> Du kan finde flere oplysninger i [Konfigurere anlægsaktiver](fa-setup.md).
+- Standardværdier
+- Regnskab for anlægsaktiver
+- Bogføringsgrupper og -typer
+- Allokeringsnøgler
+- Anlægskladder
 
-For at holde styr på anlægsaktivers afskrivninger og andre finansielle transaktioner i relation til anlægsaktiver, skal du oprette en eller flere afskrivningsprofiler for hver. Afskrivning udføres ved at køre en rapport for at beregne den periodiske afskrivning og udfylde en kladde med de resulterende poster, og derefter bogføre kladden. [!INCLUDE[prod_short](includes/prod_short.md)] understøtter forskellige afskrivningsmetoder. Du kan finde flere oplysninger i [Afskrivningsmetoder](fa-depreciation-methods.md). Du kan definere flere afskrivningsprofiler pr. anlægsaktiv til forskellige formål, f.eks en til rapportering af moms og en anden til intern rapportering.
+Flere oplysninger i [Sådan konfigureres anlægsaktiver](fa-setup.md).
 
-For hvert aktiv kan du registrere reparationsomkostningerne og den næste servicedato. Sporing af omkostninger til sporing af vedligeholdelse er vigtige at holde styr på af hensyn til budgetteringen og for at kunne træffe beslutningen, om et anlægsaktiv skal udskiftes.
+## Analyse af anlægsaktiver
 
-Du kan knytte hvert anlægsaktiv til en eller flere forsikringspolicer og kontrollere, at forsikringspræmierne stemmer overens med værdien af aktiverne.
+I dette afsnit beskrives de analyseværktøjer, du kan bruge til at få indsigt i data om dine anlægsaktiver.
 
-> [!NOTE]  
-> Du kan registrere anlægstransaktioner på siden **Anlægskassekladde** eller på siden **Anlægskladde**, afhængigt af om transaktionerne, der er til financial reporting eller intern administration. Hjælp for Anlæg beskriver kun, hvordan du bruger siden **Anlægskassekladde**. Du kan finde flere oplysninger i [Konfigurere afskrivning af anlægsaktiver](fa-how-setup-depreciation.md).
+| Til... | Se |
+| --- | --- |
+| Få mere at vide om funktioner til analyse af anlægsaktiver. | [Oversigt over analyse af anlægsaktiver](fa-analytics-overview.md) |
+| Foretag ad hoc-analyser af data fra anlægsaktiver direkte på listesider og forespørgsler. | [Ad hoc-analyse af data i anlægsaktiver](ad-hoc-analysis-fa.md) |
+| Udforsk indbyggede rapporter til anlægsaktiver. | [Indbyggede anlægsrapporter](fa-reports.md) |
+| Overvåge reparationsomkostninger. | [Overvåge reparationsomkostninger](fa-how-maintain.md#to-monitor-maintenance-costs)|
+| Overvåge forsikringsdækning. | [Overvåge forsikringsdækning](fa-how-insure.md#to-monitor-insurance-coverage) |
+| Have vist salgsposter. | [Vise anlægsposter](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
+| Vis forventede salgsværdier. | [Vise forventede salgsværdier](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Forsikre anlægsaktiver
+## Registrer anlægsaktiver
 
-Den følgende tabel indeholder en opgavesekvens med links til de artikler, der rummer beskrivelserne af opgaverne.
+For hvert anlægsaktiv skal du definere et kort, der indeholder oplysninger om dem. Du kan f.eks. angive bygninger eller produktionsudstyr som et hovedanlæg med en komponentliste. Du kan gruppere anlæg på forskellige måder, f.eks. efter klasse, afdeling eller lokation. Derefter kan du anskaffe, vedligeholde og sælge anlægsaktiverne. Du kan også konfigurere budgetterede aktiver. Med budgettering kan du inkludere forventede anskaffelser og salg i rapporterne.
 
 | Til  | Se |
 | --- | --- |
-| Konfigurer forudsætninger for brug af anlægsaktiver (definition af standardværdier, anlægsregnskab, bogføringsgrupper, allokeringsnøgler, kladder og bogføringstyper). | [Opsætning af Anlægsaktiver](fa-setup.md)|
 | Administrere anlægsbudgetter, budgettere anskaffelsesomkostninger, salg af anlægsaktiver og afskrivning. |[Administrere budgetter for anlægsaktiver](fa-how-manage-budgets.md) |
 | Oprette anlægsaktiver, tilknytte afskrivningsmetoder, bogføre anskaffelser og skrapværdier og udskrive oversigter over anlægsaktiver. |[Anskaffe anlægsaktiver](fa-how-acquire.md) |
+
+## Konfigurer afskrivninger for dine anlægsaktiver
+
+For at holde styr på anlægsaktivers afskrivninger og andre finansielle transaktioner i relation til anlægsaktiver, skal du oprette en eller flere afskrivningsprofiler for hver. Det kræver nogle trin at afskrive aktiver:
+
+1. Lav en rapport for at beregne periodisk afskrivning.
+1. Udfyld kladde med resulterede poster.
+1. Bogfør journalen.
+
+[!INCLUDE[prod_short](includes/prod_short.md)] understøtter forskellige afskrivningsmetoder. Hvis du vil vide mere, skal du gå til [Afskrivningsmetoder](fa-depreciation-methods.md). Du kan definere flere afskrivningsprofiler for hvert anlægsaktiv til forskellige formål, f.eks en til rapportering af moms og en anden til intern rapportering.
+
+| Til  | Se |
+| --- | --- |
 | Få mere at vide om forskellige afskrivningsmetoder for anlægsaktiver. |[Afskrivningsmetoder](fa-depreciation-methods.md) |
 | Beregne afskrivning, bogføre afskrivning og analysere afskrivning i anlægsrapporter. |[Afskrive eller amortisere anlægsaktiver](fa-how-depreciate-amortize.md) |
-| Få mere at vide om indbyggede rapporterings- og analysefunktioner til anlægsaktiver. | [Oversigt over anlægsaktivsanalyser](fa-analytics-overview.md) |
+| Vis ændrede afskrivningsprofilværdier. | [Vise ændrede afskrivningsprofilværdier](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
+| Manuelt registrer anlægstransaktioner på siden **Anlægskassekladde** eller på siden **Anlægskladde**, afhængigt af om transaktionerne, der er til financiel rapportering eller intern administration. | [Konfigurere afskrivning på anlægsaktiver](fa-how-setup-depreciation.md) |
+
+## Vedligeholdelse og forsikring af anlægsaktiver
+
+Du kan registrere vedligeholdelsesomkostninger og den næste servicedato for hver aktiv. Sporing af omkostninger til sporing af vedligeholdelse er vigtige at holde styr på af hensyn til budgetteringen og for at kunne træffe beslutningen, om et anlægsaktiv skal udskiftes. Du kan knytte hvert anlægsaktiv til en eller flere forsikringspolicer og kontrollere, at forsikringspræmierne stemmer overens med værdien af aktiverne.
+
+| Til  | Se |
+| --- | --- |
 | Registrere servicebesøg, bogføre og overvåge reparationsomkostninger. |[Vedligeholde anlægsaktiver](fa-how-maintain.md) |
-| Opdatere forsikringsoplysninger, bogføre anskaffelsespriser til forsikringspolicer, ændre forsikringsdækning, få vist forsikringsstatistik og oversigter over forsikringspolicer. |[Forsikring af anlægsaktiver](fa-how-insure.md) |
+| Overvåge reparationsomkostninger. | [Overvåge reparationsomkostninger](fa-how-maintain.md#to-monitor-maintenance-costs)|
+| Opdatere forsikringsoplysninger, bogføre anskaffelsespriser til forsikringspolicer, ændre forsikringsdækning, få vist forsikringsstatistik og oversigter over forsikringspolicer. |[Forsikre anlægsaktiver](fa-how-insure.md) |
+| Overvåge forsikringsdækning. | [Overvåge forsikringsdækning](fa-how-insure.md#to-monitor-insurance-coverage) |
+
+## Ompostere, overføre, opdele/kombinere, regulere værdi, nedskrive og sælge anlægsaktiver
+
+| Til  | Se |
+| --- | --- |
 | Ompostere anlægsaktiver, overføre anlægsaktiver til forskellige lokationer, opdele eller kombinere anlæg. |[Overføre, opdele eller kombinere anlægsaktiver](fa-how-trans-split-combine.md) |
 | Regulere anlægsaktivernes værdier, bogføre opskrivnings- og nedskrivningstransaktioner. |[Omvurdere anlægsaktiver](fa-how-revalue.md) |
 | Bogføre salgstransaktioner, have vist salgsposter og bogføre delvist salg. |[Afhænde eller lade anlægsaktiver udgå](fa-how-dispose-retire.md) |
-
+| Have vist salgsposter. | [Vise anlægsposter](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
+| Vis forventede salgsværdier. | [Vise forventede salgsværdier](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
 ## Se også
 
 [Opsætning af Anlægsaktiver](fa-setup.md)  
-[Oversigt over anlægsaktivsanalyser](fa-analytics-overview.md)   
+[Oversigt over anlægsaktivsanalyser](fa-analytics-overview.md)  
 [Oversigt for Finance](finance.md)  
 [Blive køreklar til at foretage handler](ui-get-ready-business.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ændre, hvilke funktioner der vises](ui-experiences.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

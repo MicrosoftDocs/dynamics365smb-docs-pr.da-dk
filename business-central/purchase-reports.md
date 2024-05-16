@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 # Købsrapporter og analyser
 
-Købsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gør det muligt for indkøbs-og erhvervs medarbejdere at få indsigt i og statistikker om aktuelle og tidligere montageaktiviteter.  
+Købsrapportering giver indkøbs-og erhvervsmedarbejdere indsigt i og statistikker om aktuelle og tidligere montageaktiviteter.  
 
 ## Rapporter
 
@@ -20,13 +20,25 @@ Købsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gør det mul
 
 ## Opgaver
 
-I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med analyse af virksomhedens tilstand:
+I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med analyse af virksomhedens indkøb:
 
-* [Oprette analyserapporter](bi-how-create-analysis-views-reports.md)  
-* [Vise varedisponering](inventory-how-availability-overview.md)  
+- [Vise varer, der er disponible](inventory-how-availability-overview.md)  
+- [Beregne datoer for køb](purchasing-date-calculation-for-purchases.md)
+- [Vise alle indkøbsfinansposter](purchasing-how-record-purchases.md#viewing-ledger-entries)
+
+## Udforsk indkøbsrapporter med Stifinder
+
+Hvis du vil have et overblik over de rapporter, der er tilgængelige for indkøb, kan du vælge **Alle rapporter** på startsiden. Denne handling åbner Rollestifinder, som filtreres til funktionerne i indstillingen **Rapport og analyse**. Under overskriften **Indkøb** skal du vælge **Udforsk**.
+
+:::image type="content" source="media/report-explorer-purchasing.png" alt-text="Eksempel på rapporter om XXX-rollecenteret." lightbox="media/report-explorer-purchasing.png":::
+
+Flere oplysninger i [Søg efter rapporter med Rollestifinder](ui-role-explorer.md). 
 
 ## Se også
+
+[Ad hoc-analyse af indkøbsdata](ad-hoc-analysis-purchasing.md)  
+[Oversigt over indkøbsanalyse](purchasing-analytics-overview.md)   
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
-[Køb](purchasing-manage-purchasing.md)  
+[Indkøbsoversigt](purchasing-manage-purchasing.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

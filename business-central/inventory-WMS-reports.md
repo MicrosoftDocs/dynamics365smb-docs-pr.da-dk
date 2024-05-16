@@ -44,8 +44,20 @@ Når du har installeret appen, kan du bruge handlingen **Udskriv etiket** til at
 > [!NOTE]
 > Nogle printere og stregkode-/QR-kodeformater kræver en specifik implementering. Du skal muligvis overføre en anden Word-skabelon eller klone rapporten for at oprette din egen tilpassede version.
 
+
+## Udforsk lagerrapporter med Stifinder
+
+Hvis du vil have et overblik over de rapporter, der er tilgængelige for lageret, kan du vælge **Alle rapporter** på startsiden. Denne handling åbner Rollestifinder, som filtreres til funktionerne i indstillingen **Rapport og analyse**. Under overskriften **Salg og marketing** skal du vælge **Udforsk**.
+
+:::image type="content" source="media/report-explorer-sales.png" alt-text="Eksempel på rapporter om økonomirollecenteret." lightbox="media/report-explorer-sales.png":::
+
+Flere oplysninger i [Søg efter rapporter med Rollestifinder](ui-role-explorer.md).
+
+
 ## Se også
 
+[Ad hoc-analyse af lagerdata](ad-hoc-analysis-inventory.md)  
+[Oversigt over lageranalyser](inventory-analytics-overview.md)   
 [Opsætning af lagerbeholdning](inventory-setup-inventory.md)  
 [Lagerbeholdning](inventory-manage-inventory.md)  
 [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md)  

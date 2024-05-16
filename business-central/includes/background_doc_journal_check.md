@@ -1,19 +1,21 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/23/2022
+ms.date: 04/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-## <a name="check-data-in-documents-and-journals-while-you-work"></a>Kontrollér data i dokumenter og kladder under arbejdet
+## Kontrollér data i dokumenter og kladder under arbejdet
 
-I 2022 udgivelsesbølge 1 har vi introduceret en funktion, som validerer de data, du angiver i dokumenter og kladder, mens du indtaster den. Når du aktiverer denne funktion, kan du f. eks. undgå fejl i dataindtastning eller undlade at bogføre noget pga. en fejl. 
-
-Administratoren kan aktivere **Funktion: Kontrollér dokumenter og kladder, mens du arbejder** på siden **Funktionsstyring**. Derefter vil du modtage en besked, når du åbner en side for at starte arbejdet med et dokument eller en Journal. Hvis du vil begynde at bruge funktionen, skal du vælge linket **Aktivér denne for mig** i meddelelsen. 
+Din administrator kan aktivere [!INCLUDE [prod_short](prod_short.md)] validering af de data, du indtaster i dokumenter og kladder i realtid.
 
 Hvis du aktiverer funktionen, vises faktaboksruden enten et **check dokument** eller en faktaboks af typen **Check kladde**, afhængigt af den type dokument, du arbejder på. I faktaboksen vises fejlene på siden, så du hurtigt kan løse problemerne.
 
-Hvis du ikke har brug for funktionen, kan du slå den fra på to måder:
+Hvis du vil aktivere funktionen, skal du markere følgende afkrydsningsfelter på siden **Mine notifikationer**:
 
-* Deaktiver til/fra for kladder til **Aktivér datakontrol** i **Finanskladde**.
-* I forbindelse med dokumenter skal du fjerne **Vis faktaboksen Dokumentkontrol** på siden **Mine beskeder**.
+* For kladder skal du markere afkrydsningsfeltet **Aktiveret** for **Aktivér datakontrol**.
+* For dokumenter skal du markere afkrydsningsfeltet **Aktiveret** for **Vis faktaboksen Dokumentkontrol**.
+
+Følgende video forklarer datakontrol i realtid.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l0pR]

@@ -12,18 +12,21 @@ ms.service: dynamics-365-business-central
 ---
 # Rapporter og analyser for skyldige beløb
 
-Som en hjælp til styring af kreditorer i [!INCLUDE [prod_short](includes/prod_short.md)], standardrapporter og analyser er indbygget. Den flyttes udover traditionelle rapporterings begrænsninger for at gøre det nemmere at designe forskellige typer rapporter.  
+[!INCLUDE [prod_short](includes/prod_short.md)] har indbygget rapporter og analyser, der kan være en hjælp til styring af kreditorer. Værktøjerne rækker ud over traditionelle rapporteringsbegrænsninger og gør det nemmere at designe forskellige typer rapporter.  
 
 ## Rapporter
+
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
+
+## Udforsk finansrapporter med Stifinder
+
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 ## Se også
 
-[Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md)  
-[Arbejde med dimensioner](finance-dimensions.md)  
-[Administrere anlægsaktiver](fa-manage.md)  
-[Lokal funktionalitetsoversigt](about-localization.md)  
+[Ad hoc-analyse for finansdata](ad-hoc-analysis-finance.md)  
+[Økonomisk analyse](bi.md)  
+[Indkøbsanalyse](purchasing-analytics-overview.md)  
 [Revisoroplevelser i [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

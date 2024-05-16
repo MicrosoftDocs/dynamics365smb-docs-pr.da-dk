@@ -14,16 +14,23 @@ ms.service: dynamics-365-business-central
 
 Som en hjælp til styring af tilgodehavender i [!INCLUDE [prod_short](includes/prod_short.md)], standardrapporter og analyser er indbygget. Den flyttes udover traditionelle rapporterings begrænsninger for at gøre det nemmere at designe forskellige typer rapporter.  
 
+
 ## Rapporter
+
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
+
+
+## Udforsk finansrapporter med Stifinder
+
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
 
 ## Se også
 
-[Analysere regnskaber i Microsoft Excel](finance-analyze-excel.md)  
-[Arbejde med dimensioner](finance-dimensions.md)  
-[Administrere anlægsaktiver](fa-manage.md)  
-[Lokal funktionalitetsoversigt](about-localization.md)  
+[Vigtige finansielle rapporter](finance-reports.md)  
+[Ad hoc-analyse for finansdata](ad-hoc-analysis-finance.md)   
+[Økonomisk analyse](bi.md)   
+[Salgsanalyse](sales-analytics-overview.md)  
 [Revisoroplevelser i [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

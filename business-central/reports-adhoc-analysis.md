@@ -21,6 +21,13 @@ Nogle gange kan du have brug for at analysere data i [!INCLUDE[prod_short](inclu
 | Vise og analysere data fra et rapportdatasæt i Excel | [Analyse af rapportdata med Excel og XML](report-analyze-excel.md) |
 | Analysere listedata direkte fra en side |[Analysere listedata ved hjælp af dataanalysetilstand](analysis-mode.md)|
 
+## Ad-hoc dataanalyse efter funktionsområde
+
+Det generelle indhold om ad-hoc dataanalyse er også tilgængeligt i specielle versioner til mange af funktionsområderne i [!INCLUDE[prod_short](includes/prod_short.md)]. 
+
+[!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
+
+
 ## Se også
 
 [Oversigt over Business Intelligence og rapportering](ui-work-report.md)

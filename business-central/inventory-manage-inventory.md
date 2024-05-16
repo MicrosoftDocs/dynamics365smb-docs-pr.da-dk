@@ -24,6 +24,16 @@ Hvis du vil øge dit overblik over varerne og lettere kunne finde dem, kan du ka
 
 Planlægning af varer til opfyldelse af behov dækkes som en del af forsyningsplanlægningsfunktionaliteten. Få mere at vide i [Planlægning](production-planning.md).  
 
+## Lageranalyse
+
+I dette afsnit beskrives de analyseværktøjer, du kan bruge til at få indsigt i dine lagerdata.
+
+| Til... | Se |
+| --- | --- |
+| Få mere at vide om funktioner til analyse af lagerdata. | [Oversigt over salgsanalyse](inventory-analytics-overview.md) |
+| Foretag ad hoc-analyser af lagerdata direkte på listesider og forespørgsler. | [Ad hoc-analyse af lagerdata](ad-hoc-analysis-inventory.md) |
+| Udforsk indbyggede lagerrapporter. | [Indbygget lager og lagerrapporter](inventory-WMS-reports.md) |
+
 ## Lagerafstemning
 
 Når du bogfører lagertransaktioner, f.eks. salgsleverancer, købsfakturaer eller lagerreguleringer, registreres ændringen i varepriser i værdiposterne. For at afspejle ændringen af lagerværdien i dine finansielle regnskaber bogføres lagerværdien automatisk i de relaterede lagerkonti i finansbogholderiet. For hver lagertransaktion du bogfører, bogføres den relevante værdi på lagerkontoen, reguleringskontoen og vareforbrugskontoen i finansregnskabet. Flere oplysninger i [Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md).

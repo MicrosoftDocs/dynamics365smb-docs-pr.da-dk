@@ -40,7 +40,7 @@ Funktionen Finansrapporter giver dig indsigt i de finansielle data, der er gemt 
 
 :::image type="content" source="media/acc_schedule_13_columns.jpg" alt-text="Skærmbillede af en finansrapport." lightbox="media/acc_schedule_13_columns.jpg":::
 
-Dimensioner spiller en vigtig rolle i Business Intelligence. En dimension er data, som du kan føje til en post som en parameter. Dimensioner kan bruges til at gruppere poster med ens karakteristika, f.eks. debitorer, regioner, produkter og sælger, og disse grupper kan nemt hentes frem til analyse. Du kan blandt andre bruge dimensioner til at definere analysevisninger, og når du opretter finansrapporter. Flere oplysninger i [Arbejde med dimensioner](finance-dimensions.md).
+Dimensioner spiller en vigtig rolle i Business Intelligence. En dimension er data, som du kan føje til en post som en parameter. Med dimensioner kan du gruppere poster med ensartede egenskaber. For eksempel grupper af kunder, regioner, produkter og sælger. Grupper gør det nemmere at hente data til analyse. Du kan blandt andre bruge dimensioner til at definere analysevisninger, og når du opretter finansrapporter. Flere oplysninger i [Arbejde med dimensioner](finance-dimensions.md).
 
 Du kan få mere at vide om regnskabsopgørelser og KPI'er ved at gå til [Brug af finansrapporter til udarbejdelse af årsregnskaber og KPI'er](bi.md).
 
@@ -61,7 +61,7 @@ Du kan få mere at vide om KPI'er ved at gå til [Bruge nøgletal (KPI'er) til a
 
 ## Ad hoc-dataanalyse
 
-Nogle gange vil du måske bare tjekke, om tallene er korrekte, hurtigt bekræfte eller aflive en hypotese om virksomheden eller måske kigge efter uregelmæssigheder i dine økonomiske data. I forbindelse med ad hoc-analyser har du muligvis ikke en indbygget rapport, der hjælper dig med at besvare dine spørgsmål. Brug disse to funktioner til ad hoc-analyser:
+Du vil måske bare tjekke, om tallene er korrekte, hurtigt bekræfte eller aflive en hypotese om virksomheden eller måske kigge efter uregelmæssigheder i dine økonomiske data. I forbindelse med ad hoc-analyser har du muligvis ikke en indbygget rapport, der hjælper dig med at besvare dine spørgsmål. Brug disse to funktioner til ad hoc-analyser:
 
 - Dataanalyse på finanslistesider
 - Åbn i Excel
@@ -107,7 +107,7 @@ Følgende tabel indeholder artikler om, hvordan du bruger indbyggede rapporter i
 
 ## Eksterne business intelligence- og rapporteringsværktøjer
 
-Hvis du foretrækker at bruge business intelligence-værktøjer, der ikke er integreret i [!INCLUDE[prod_short](includes/prod_short.md)], indeholder følgende tabel links til vejledning om værktøjer og måder at bruge eksterne værktøjer på.
+Hvis du foretrækker det, kan du bruge business intelligence-værktøjer, der ikke er integreret i [!INCLUDE[prod_short](includes/prod_short.md)]. Følgende tabel indeholder links til vejledning og måder at bruge eksterne værktøjer på.
 
 | Til  | Se |
 | --- | --- |
@@ -116,6 +116,18 @@ Hvis du foretrækker at bruge business intelligence-værktøjer, der ikke er int
 | Udtrække data til datalagersteder eller Data Lake| [Sådan udtrækker du data til datalagre eller Data Lake](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses) |
 | Analysere Business Central-data med Microsoft Fabric| [Introduktion til Microsoft Fabric og Business Central](admin-fabric.md) |
 | Læse data fra Business Central ved hjælp af API'er | [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
+
+## Analytics efter funktionsområde
+
+Det generelle indhold om analyser er også tilgængeligt i specielle versioner til mange af funktionsområderne i [!INCLUDE[prod_short](includes/prod_short.md)].
+
+| Hvis du arbejder med... | Se |
+| --- | --- |
+| Finance | [Økonomisk analyse](bi.md) |
+| Salg | [Salgsanalyse](sales-analytics-overview.md) |
+| Indkøb | [Indkøbsanalyse](purchasing-analytics-overview.md) |
+| Administration af anlægsaktiver | [Analyse af anlægsaktiver](fa-analytics-overview.md) |
+
 
 ## Se også
 

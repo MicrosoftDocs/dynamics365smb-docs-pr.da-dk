@@ -1,6 +1,6 @@
 ---
-title: Konfiguration af rykkerbetingelser og -niveauer
-description: 'Få mere at vide om, hvordan du konfigurere Business Central, så du kan sende en påmindelse til kunden om en betaling, der er forfalden, og lægger gebyrer til betalingen på grund af forsinkelsen.'
+title: Konfigurere rykkerbetingelser og -niveauer
+description: 'Konfigurer Business Central, så du kan sende påmindelser om forfaldne betalinger og tilføje gebyrer eller gebyrer på grund af forsinkelsen.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
@@ -10,21 +10,21 @@ ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-reminder-terms-and-levels"></a>Konfiguration af rykkerbetingelser og -niveauer
+# Opsætte rykkerbetingelser og -niveauer
 
-Du kan bruge rykkere til at minde debitorer om forfaldne beløb og opkræve betaling. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
+Du kan bruge rykkere til at informere debitorer om forfaldne beløb og opkræve betaling. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
 > [!TIP]
 > Når du har oprettet betingelser og niveauer for rykkere, kan du medtage dem i automatiserede processer til oprettelse, udstedelse og afsendelse af rykkere. Du kan få mere at vide om den automatiserede proces ved at gå til [Automatisere påmindelser i samlinger](finance-automate-reminders.md).
 
-## <a name="reminder-terms"></a>Rykkerbetingelser
+## Rykkerbetingelser
 
 Hvis debitorer har forfaldne beløb, skal du afgøre, om der skal sendes en rykker. Desuden vil du evt. debitere deres konti for rente eller gebyrer. Du kan angive et hvilket som helst antal betingelser for rykkere.  
 
 > [!NOTE]
 > Hvis du vil beregne rente for forfaldne betalinger, kan du gøre det, når du opretter rykkere. Hvis du imidlertid bare vil beregne rente og informere debitorerne om dette uden at sende en rykker, kan du bruge en [rentenota](finance-setup-finance-charges.md). Du kan finde flere oplysninger i [Rykkere](receivables-collect-outstanding-balances.md#reminders) eller [Rentegebyrer](receivables-collect-outstanding-balances.md#finance-charges).
 
-### <a name="set-up-attachment-and-email-body-texts-for-communications"></a>Konfigurere vedhæftede filer og brødtekster til meddelelser
+### Konfigurere vedhæftede filer og brødtekster til meddelelser
 
 På siden **Opsætning af rykkervilkår** kan du konfigurere tekster til vedhæftede filer og standardmails, der enten skal bruges til alle rykkerniveauer eller oprette specifikke meddelelser for hvert niveau. Tonen eller indholdet i den meddelelse, du sender for det første rykkerniveau, kan f.eks. være anderledes end i anden eller tredje meddelelse. Hvis du vil oprette tekst til vedhæftede filer og mails til alle niveauer, skal du vælge **Debitorkommunikation** øverst på siden. Hvis du vil oprette meddelelser til bestemte linjer, skal du vælge en linje i oversigtspanelet **Rykkerniveau** og derefter vælge handlingen **Debitorkommunikation** i oversigtspanelet.
 
@@ -35,19 +35,19 @@ Når du sender en mail, er påmindelsen en rapport, du vedhæfter til mailen. Du
 > [!NOTE]
 > Kommunikation via mail direkte fra [!INCLUDE [prod_short](includes/prod_short.md)] kræver, at du er konfigureret til at gøre det. Du kan få mere at vide om, hvordan du knytter mailkonti til [!INCLUDE [prod_short](includes/prod_short.md)], ved at gå til [Konfigurere mail](admin-how-setup-email.md).
 
-### <a name="set-up-reminder-terms"></a>Konfigurere rykkerbetingelser
+### Konfigurere rykkerbetingelser
 
 1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rykkerbetingelser**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Hvis du vil bruge mere end én kombination af rykkerbetingelser, kan du angive en kode for hver enkelt.
 
-## <a name="reminder-levels"></a>Rykkerniveauer
+## Rykkerniveauer
 
 For hver rykkerbetingelse kan du definere et ubegrænset antal rykkerniveauer, selvom de fleste virksomheder kun bruger to eller tre niveauer. Første gang en rykker oprettes til en debitor, bruges indstillingen fra niveau 1. Når rykkeren er udstedt, registreres niveaunummeret på de rykkerposter, der er oprettet og sammenkædet med de individuelle debitorposter. Hvis det er nødvendigt at rykke debitoren igen, markeres alle de rykkerposter, der er sammenkædet med åbne debitorposter, så nummeret på det højeste niveau bliver fundet. Derefter vil betingelserne fra det næste niveaunummer blive brugt til den nye rykker.
 
 Hvis du opretter flere rykkere end du har defineret niveauer til, bruges betingelserne for det højeste niveau. Du kan oprette så mange rykkere, som tillades ifølge feltet **Maks. antal rykkere** under rykkerbetingelserne.
 
-### <a name="to-set-up-reminder-levels"></a>Sådan angives rykkerniveauer
+### Sådan angives rykkerniveauer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rykkerbetingelser**, og vælg derefter det relaterede link.  
 2. Vælg den linje med de betingelser, du vil oprette niveauer for, på siden **Rykkerbetingelser**, og vælg derefter handlingen **Niveauer**.  
@@ -58,9 +58,9 @@ Hvis du opretter flere rykkere end du har defineret niveauer til, bruges betinge
     >
     > For at angive, at renten skal beregnes, skal du vælge feltet **Beregn rente**.
 
-    Du kan også angive opkrævningsgebyrer i både RV og i udenlandsk valuta for hvert rykkerniveau. Du kan definere adskillige opkrævningsgebyrer i udenlandsk valuta for hver kode på siden **Rykkerniveauer**.  
+    Du kan også angive opkrævningsgebyrer i både lokal og udenlandsk valuta for hvert rykkerniveau. Du kan definere ekstra opkrævningsgebyrer i udenlandsk valuta for hver kode på siden **Rykkerniveauer**.  
 
-    Opkrævnings gebyrerne kan beregnes på tre forskellige måder, der er defineret af værdien i feltet **Tilføj gebyr beregnings type**.  
+    De ekstra opkrævningsgebyrer kan beregnes på tre forskellige måder, der er defineret af værdien i feltet **Tilføj gebyrberegningstype**.  
 
     - **Fast**
 
@@ -73,7 +73,7 @@ Hvis du opretter flere rykkere end du har defineret niveauer til, bruges betinge
         Gebyrer beregnes på grundlag af værdierne i felterne på siden **Konfiguration af opkrævningsgebyr** på de kombinerede linjer til selve rykkerniveauet.
 
 4. Vælg handlingen **Valutaer**.
-5. På siden **Valutaer til rykkerniveau** definerer du for hver rykkerniveaukode og tilsvarende rykkerniveaunummer en valutakode og et opkrævningsgebyr.
+5. På siden **Valutaer til rykkerniveau** definerer du for hver rykkerniveaukode og tilsvarende rykkerniveaunummer en valutakode og et opkrævningsgebyr og et ekstra gebyr.
 
     > [!NOTE]  
     > Når du opretter rykkere i en udenlandsk valuta, bruges betingelserne for udenlandsk valuta, som du angiver her, til automatisk at oprette rykkere. Hvis der ikke er defineret rykkerbetingelser i udenlandske valutaer, bruges de rykkerbetingelser, der er angivet på siden **Rykkerniveauer**, og derefter konverteres de til den relevante valuta.
@@ -107,7 +107,7 @@ Hvis du opretter flere rykkere end du har defineret niveauer til, bruges betinge
 
 Når du har oprettet rykkerbetingelserne, kan du knytte dem til debitorer på siderne med debitorkort. Du kan finde flere oplysninger i [Registrere nye debitorer](sales-how-register-new-customers.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Indhente udestående beløb](receivables-collect-outstanding-balances.md)  
 [Send rykkere til udestående saldi](receivables-send-reminders.md)  

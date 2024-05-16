@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 03/29/2024
+ms.date: 04/23/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Oversigt over styring af bæredygtighed
+# Oversigt over styring af bæredygtighed
 
 >[!IMPORTANT]
 >Denne funktion vil være tilgængelig i Business Central fra **2024 udgivelsesbølge 1**, og alle referencelinks aktiveres, når de er tilgængelige.
@@ -43,12 +43,12 @@ Se følgende artikler for at komme i gang med Sustainability Management.
 |[Sådan kan du registrere drivhusgas (GHG)-udledninger](finance-sustainability-journal.md) | Brug denne artikel til at lære, hvordan du arbejder med alle typer bæredygtighedstidsskrifter. |
 
 
-## <a name="see-also"></a>Se også
-[Opsætning af bæredygtighed](finance-sustainability-setup.md) 
-[Diagram over bæredygtighedskonti og finans](finance-sustainability-accounts-ledger.md) 
-[Sådan kan du registrere drivhusgas (GHG)-udledninger](finance-sustainability-journal.md)
-[Finance](finance.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Se også  
+[Opsætning af bæredygtighed](finance-sustainability-setup.md)   
+[Diagram over bæredygtighedskonti og finans](finance-sustainability-accounts-ledger.md)   
+[Sådan kan du registrere GHG-udledninger](finance-sustainability-journal.md)  
+[Finance](finance.md)    
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

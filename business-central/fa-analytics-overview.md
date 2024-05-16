@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="fixed-assets-analytics"></a>Analyse af anlægsaktiver
+# Analyse af anlægsaktiver
 
 Virksomheder med anlægsaktiver indsamler en masse data om dem under de daglige aktiviteter. Disse data understøtter værdifuld business intelligence (BI) for anlægsforvaltere:
 
@@ -36,7 +36,7 @@ Hver funktion har sine egne fordele og ulemper afhængigt af typen af dataanalys
 
 I denne artikel beskrives, hvordan du kan bruge disse analysefunktioner til at få indsigt i anlægsaktiverne.
 
-## <a name="analytics-needs-in-asset-management"></a>Analysebehov i aktivstyring
+## Analysebehov i aktivstyring
 
 Når man tænker på analysebehov inden for aktivstyring, kan det hjælpe at bruge en persona-baseret model, der beskriver deres analysebehov på et højt niveau.
 
@@ -52,14 +52,14 @@ Når det angå data, har personer i forskellige roller forskellige behov, og de 
 |Aktivstyring / Controller   | Tendenser, resuméer | Indbyggede administrative rapporter <br> Ad hoc-analyse      | 
 |Bogholder                      | Detaljerede data     | Indbyggede driftsrapporter <br> Opgavedata på skærmen |
 
-## <a name="asset-management-kpis"></a>Aktivstyring KPI'er
+## Aktivstyring KPI'er
 
 En KPI (Key Performance Indicator) er en målbar værdi, der viser, hvor effektivt du når dine mål. I aktivstyring bruger folk ofte følgende KPI'er til at overvåge deres organisations brug af aktiver:
 
 - Samlet anlægsomsætning
 - Afkast af aktiver
 
-## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-fixed-assets"></a>Brug financial Reporting til produktion af årsregnskaber og KPI'er relateret til faste aktiver
+## Brug financial Reporting til produktion af årsregnskaber og KPI'er relateret til faste aktiver
 
 Du kan bruge **Financial Reporting** til at få indsigt i de finansielle oplysninger, der er gemt i din kontoplan (COA). Du kan konfigurere finansrapporter til at analysere tal i finanskonti og sammenligner finansposter med budgetposter. Specielt til styring af aktiver kan du oprette finansielle rapporter på de finanskonti, som du bruger til at spore bogføring af anlægsaktiver.
 
@@ -67,13 +67,13 @@ Dimensioner spiller en vigtig rolle i Business Intelligence. En dimension er dat
 
 Flere oplysninger om finansrapporter i [Forberede finansielle rapporter med finansdata og kontokategorier](bi-how-work-account-schedule.md).
 
-## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-fixed-assets"></a>Økonomirapportering på tværs af afdelinger eller juridiske enheder (relateret til faste aktiver)
+## Økonomirapportering på tværs af afdelinger eller juridiske enheder (relateret til faste aktiver)
 
 Nogle organisationer bruger [!INCLUDE [prod_short](includes/prod_short.md)] i flere afdelinger eller juridiske enheder. Andre bruger [!INCLUDE [prod_short](includes/prod_short.md)] i datterselskaber, der skal rapportere til overordnede organisationer. [!INCLUDE [prod_short](includes/prod_short.md)] giver bogholdere værktøjer, der kan hjælpe dem med at overføre finansposter fra to eller flere regnskaber (datterselskaber) til et konsolideret regnskab. Specielt til styring af aktiver vil du måske konsolidere finansposter for dine anlægskonti for at kunne spore KPI'er for anlægsaktiver på tværs af forretningsenheder eller juridiske enheder.
 
 Flere oplysninger i [Virksomhedskonsolidering](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-fixed-assets-data"></a>Ad hoc-analyse af data i anlægsaktiver
+## Ad hoc-analyse af data i anlægsaktiver
 
 Nogle gange skal du bare kontrollere, om tallene tilføjes korrekt, eller hurtigt bekræfte et tal. Følgende funktioner er gode til ad hoc-analyser:
 
@@ -82,20 +82,19 @@ Nogle gange skal du bare kontrollere, om tallene tilføjes korrekt, eller hurtig
 
 Med dataanalysefunktionen kan du åbne næsten enhver listeside, f.eks. siderne **Finansposter** eller **Anlægsposter**, skifte til analysetilstand og derefter gruppere, filtrere og pivotere data efter behov.
 
-:::image type="content" source="media/data-analysis-gl-entries.png" alt-text="Eksempel på, hvordan du udfører dataanalyse på siden Finansposter." lightbox="media/data-analysis-gl-entries.png":::
+:::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Eksempel på, hvordan du kan udføre dataanalyse på siden Anlægsposter for at se værdien af et aktiv." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
 
 På samme måde kan du bruge handlingen **Åbn i Excel** til at åbne en listeside for finansposter, eventuelt filtrere listen til et undersæt af dataene og derefter bruge Excel til at arbejde med dataene. For eksempel ved at bruge funktioner som Analysér data, Hvad hvis-analyse eller Prognoseark.
 
-:::image type="content" source="media/open-in-excel-gl-entries.png" alt-text="Eksempel på, hvordan du udfører dataanalyse på siden Finansposter ved hjælp af Excel." lightbox="media/open-in-excel-gl-entries.png":::
+<!-- :::image type="content" source="media/open-in-excel-gl-entries.png" alt-text="Example of how to do data analysis on the G/L entries data using Excel." lightbox="media/open-in-excel-gl-entries.png"::: -->
 
 > [!TIP]
 > Hvis du konfigurerer OneDrive til systemfunktioner, åbnes Excel-projektmappen i browseren ved hjælp af Excel til World Wide Web. 
 
-<!-- Not ready yet
-For more information on how to do ad-hoc analysis on ledgers, see [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md). 
--->
+Du kan finde flere oplysninger om, hvordan du udfører ad hoc-analyser af anlægsposter, i [Ad hoc-analyse af anlægsdata](ad-hoc-analysis-fa.md).
 
-## <a name="built-in-reports-for-fixed-assets"></a>Indbyggede rapporter til anlægsaktiver
+
+## Indbyggede rapporter til anlægsaktiver
 
 [!INCLUDE [prod_short](includes/prod_short.md)] indeholder flere indbyggede rapporter, sporingsfunktioner og værktøjer, som kan hjælpe revisorer eller controllere, som rapporterer om faste aktiver.
 
@@ -110,7 +109,7 @@ Hvis du vil have et overblik over tilgængelige rapporter, kan du klikke på **A
 
 Yderligere oplysninger om rapporter, der er relevante for anlægsaktiver, finder du i [Indbyggede anlægsrapporter](fa-reports.md).
 
-## <a name="on-screen-fixed-assets-analytics"></a>Anlægsaktivers analyser på skærmen
+## Anlægsaktivers analyser på skærmen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] har flere sider, der giver dig oversigter over faste aktiver og opgaver at gøre. Her er nogle eksempler på, hvordan du kommer i gang:
 
@@ -121,7 +120,7 @@ Yderligere oplysninger om rapporter, der er relevante for anlægsaktiver, finder
 - [Vise anlægsposter](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 - [Vise forventede salgsværdier](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 
-### <a name="show-fixed-asset-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Vise poster til finanskladden for anlægsaktiver og saldi fra siden Kontoplan
+### Vise poster til finanskladden for anlægsaktiver og saldi fra siden Kontoplan
 
 Siden Kontoplan viser alle finanskonti med aggregerede tal i finansregnskabet. Fra denne side kan du f.eks. gøre følgende:  
 
@@ -135,7 +134,7 @@ Specielt for anlægsaktiver kan du oprette en visning på siden Kontoplan, der k
 
 Få mere at vide i [Forstå Kontoplanen](finance-general-ledger.md#the-chart-of-accounts).
 
-### <a name="analyze-data-by-dimensions-related-to-fixed-assets"></a>Analysere data efter dimensioner (relateret til anlægsaktiver)
+### Analysere data efter dimensioner (relateret til anlægsaktiver)
 
 Dimensioner er værdier, der kategoriserer poster, så du kan spore og analysere dem i dokumenter som f.eks. anlægskladder. Dimensioner kan f.eks. angive det projekt eller den afdeling eller lokation, en post kommer fra.  
 
@@ -143,11 +142,12 @@ I stedet for at oprette separate finanskonti for hver afdeling eller lokation ka
 
 Få mere at vide i [Analysere data efter dimensioner](bi-how-analyze-data-dimension.md)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Håndtere økonomirapportering på tværs af afdelinger eller juridiske enheder](finance-consolidated-company-reporting.md)  
 [Forberede finansrapporter med finansdata og kontokategorier](bi-how-work-account-schedule.md)  
 [Forstå kontoplaner](finance-general-ledger.md#the-chart-of-accounts)  
+[Ad hoc-analyse af data i anlægsaktiver](ad-hoc-analysis-fa.md)   
 [Indbyggede anlægsrapporter](fa-reports.md)  
 [Analyse, Business Intelligence og rapporteringsoversigt](reports-bi-reporting.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -1,6 +1,6 @@
 ---
 title: Introduktion til Business Central og Power BI
-description: 'Få over brug af Power BI for at få indsigt, business intelligence og KPI''er fra Business Central-data.'
+description: Få over brug af Power BI for at få indsigt og KPI'er fra Business Central-data.
 author: jswymer
 ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
@@ -25,7 +25,7 @@ Du kan arbejde med forskellige funktioner i [!INCLUDE[prod_short](includes/prod_
 
 |Funktion|Beskrivelse|Online|Det lokale miljø|Lær mere|
 |-------|-----------|--------------|-----------|----------------|
-|Se [!INCLUDE[prod_short](includes/prod_short.md)]-data i Power BI|Du kan få vist dine data fra [!INCLUDE[prod_short](includes/prod_short.md)] i rapporter i Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online indeholder nogle foruddefinerede Power BI-rapporter. Eller din organisation har måske oprettet nogle brugerdefinerede rapporter, som er tilgængelige for dig.|![Arbejder online.](media/check.png)|![Arbejder i det lokale miljø](media/check.png)|[Her...](across-working-with-powerbi.md)|
+|Se [!INCLUDE[prod_short](includes/prod_short.md)]-data i Power BI|Du kan få vist dine data fra [!INCLUDE[prod_short](includes/prod_short.md)] i rapporter i Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] online indeholder nogle foruddefinerede Power BI-rapporter. Eller din organisation har måske oprettet nogle brugerdefinerede rapporter.|![Arbejder online.](media/check.png)|![Arbejder i det lokale miljø](media/check.png)|[Her...](across-working-with-powerbi.md)|
 |Se Power BI-rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]-klienten.| Power BI-rapporter, der viser [!INCLUDE[prod_short](includes/prod_short.md)]-data, kan integreres direkte på dele af [!INCLUDE[prod_short](includes/prod_short.md)]-sider. Du kan ændre delen, så den viser enhver rapport, der er tilgængelig for dig. |![arbejder online.](media/check.png)|![Arbejder i det lokale miljø](media/check.png)<sup>[*](#onprem)</sup>|[Her...](across-working-with-powerbi.md).|
 |Opret rapporter og dashboards i Power BI, som viser [!INCLUDE[prod_short](includes/prod_short.md)]-data.|Brug Power BI Desktop til at oprette dine egne rapporter og dashboards. Du kan udgive rapporterne til din egen Power BI-tjeneste eller dele dem med andre i din organisation.|![Arbejder online.](media/check.png)|![arbejder i det lokale miljø](media/check.png)|[Her...](across-how-use-financials-data-source-powerbi.md)|
 |[!INCLUDE[prod_short](includes/prod_short.md)]-apps i Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publicerer tre apps til Power BI på Microsoft AppSource. Disse apps opretter detaljerede rapporter og dashboards i din Power BI-tjeneste, så du kan se [!INCLUDE[prod_short](includes/prod_short.md)]-data. Tilgængelige apps omfatter: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] - CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] - Sales </li></ul>  |![Arbejder online.](media/check.png)||[Her...](across-powerbi-business-central-apps.md)|
@@ -35,7 +35,7 @@ Du kan arbejde med forskellige funktioner i [!INCLUDE[prod_short](includes/prod_
 
 ## Gøre klar til at bruge Power BI
 
-Der er nogle få opgaver, der skal udføres, før du kan bruge Power BI sammen med [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> Opgaverne afhænger af din rolle i organisationen, og hvad du skal gøre med Power BI:
+Der er nogle få opgaver, der skal udføres, før du kan bruge Power BI sammen med [!INCLUDE[prod_short](includes/prod_short.md)].<!-- Some of the tasks are typically only done by administrators or super users.--> Opgaverne afhænger af din rolle i organisationen, og hvad du skal gøre med Power BI:
 
 - Som *forretningsbruger* kan du få vist Power BI-rapporter enten i Power BI-service eller i Business central
 - Som *administrator* har du ansvaret for styringen af de indstillinger, der gælder for hele organisationen, som styrer, hvordan Business Central Power BI fungerer.
@@ -48,25 +48,6 @@ Der er nogle få opgaver, der skal udføres, før du kan bruge Power BI sammen m
 |Vise Business Central-data i Power BI||![det er en markering.](media/check.png)|![endnu en markering](media/check.png)|[Vise data ved hjælp af API-sider eller OData-webtjenester](admin-powerbi-setup.md#exposedata)
 |Aktivér Power BI-integration<br />(kun lokalt)||![det er en markering.](media/check.png)||[Konfigurer Business Central lokalt til Power BI-integration](across-working-with-business-central-in-powerbi.md#setup)|
 
-## Spore forretnings-KPI'er med Power BI-metriske værdier
-
-Hvis du bruger Power BI til [!INCLUDE[prod_short](includes/prod_short.md)]-data, er det nemt at spore KPI'er eller metrikværdier, der er vigtige for dig. 
-
-Med metrikker i Power BI kan du få en oversigt over dine egne målinger og spore dem i forhold til vigtige forretningsmålsætninger i en enkelt rude. Denne funktion forbedrer datakulturen ved at fremme ansvarlighed, justering og synlighed for team og initiativer i organisationer. 
-
-Følg firetrinsprocesser for at konfigurere Power BI-målinger:
-
-1. Opret et scorecard i Power BI-tjenesten. Få mere at vide om at [oprette scorecards i Power BI](/power-bi/create-reports/service-goals-create).  
-2. Tilføj de _metrikker_, du vil spore, ved at oprette forbindelse til din Power BI-rapport om telemetri. Flere oplysninger i [Oprette tilknyttede metrikker](/power-bi/create-reports/service-goals-create-connected).  
-3. Hvis du vil tilføje en besked, skal du angive statusregler for metrikværdierne. Flere oplysninger [Oprette automatiske statusregler for metrikværdier](/power-bi/create-reports/service-metrics-status-rules).  
-
-    Dette trin automatiserer statusopdateringer baseret på regler, der bestemmer den pågældende metrikværdi. Regler udløser ændringer, der er baseret på værdi, procent af mål opfyldt, datobetingelser eller en kombination af de tre, hvilket gør reglerne så alsidig som muligt. For tilknyttede metrikværdier opdateres disse statusregler, hver gang dataene i score-kortet opdateres.
-4. Udfør til sidst målinger for at få påmindelser i Teams eller via mail. Flere oplysninger i [Følg din metrik](/power-bi/create-reports/service-metrics-follow).  
-
-Flere oplysninger om Power BI-metrikpunkter i [Introduktion til målepunkter i Power BI](/power-bi/create-reports/service-goals-introduction).
-
-> [!NOTE]
-> Fra og med Business Central-udgivelsesbølge 2 i 2023 er det muligt at integrere scorecards fra Power BI målinger i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## Næste trin
 
@@ -75,8 +56,8 @@ Flere oplysninger om Power BI-metrikpunkter i [Introduktion til målepunkter i P
 
 ## Se også
 
-[Business Intelligence](bi.md)  
-[Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Oversigt over analyse](reports-bi-reporting.md)   
+[Spore KPI'er med Power BI metrikværdier](track-kpis-with-power-bi-metrics.md)   
 [Brug af [!INCLUDE[prod_short](includes/prod_short.md)] som Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
 [Brug af [!INCLUDE[prod_short](includes/prod_short.md)] som Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
 [Brug [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
