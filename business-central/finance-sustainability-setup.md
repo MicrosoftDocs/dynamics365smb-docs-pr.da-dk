@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-setup"></a>Opsætning af bæredygtighed
+# Opsætning af bæredygtighed  
 
 For at få bæredygtighedsmodulet til at fungere korrekt skal du først oprette nogle grundlæggende kontroller og instruktioner relateret til hele funktionaliteten.  
 
@@ -53,7 +53,7 @@ Følg de næste trin for at oprette et bæredygtighedsmodul:
 >[!NOTE]
 > I version 24.0 understøtter [!INCLUDE[prod_short](includes/prod_short.md)] ikke rapportering til nogen myndighed. Så det felt, der er relateret til konfigurationen i oversigtspanelet **Rapportering** , vil blive brugt til fremtidige rapporteringsfunktioner, men det kan også bruges af partnere i oversatte versioner.
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Finans](finance.md)  
 [Oversigt over styring af bæredygtighed](finance-manage-sustainability.md)    
 [Diagram over bæredygtighedskonti og finans](finance-sustainability-accounts-ledger.md)    

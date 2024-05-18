@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Oversigt over styring af bæredygtighed
+# Oversigt over styring af bæredygtighed
 
 >[!IMPORTANT]
 >Denne funktion vil være tilgængelig i Business Central fra **2024 udgivelsesbølge 1**, og alle referencelinks aktiveres, når de er tilgængelige.
@@ -43,7 +43,7 @@ Se følgende artikler for at komme i gang med Sustainability Management.
 |[Sådan kan du registrere drivhusgas (GHG)-udledninger](finance-sustainability-journal.md) | Brug denne artikel til at lære, hvordan du arbejder med alle typer bæredygtighedstidsskrifter. |
 
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Opsætning af bæredygtighed](finance-sustainability-setup.md)   
 [Diagram over bæredygtighedskonti og finans](finance-sustainability-accounts-ledger.md)   
 [Sådan kan du registrere GHG-udledninger](finance-sustainability-journal.md)  
