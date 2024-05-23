@@ -11,9 +11,9 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Diagram over bæredygtighedskonti og finans
+# <a name="chart-of-sustainability-accounts-and-ledger"></a>Diagram over bæredygtighedskonti og finans
 
-## Diagram over bæredygtighedskonti
+## <a name="chart-of-sustainability-accounts"></a>Diagram over bæredygtighedskonti
 
 Planen for bæredygtighedsregnskaber (CoSA) udgør den grundlæggende strukturerede liste, der bruges til registrering af alle emissionsdata. Det fungerer som en ramme, der kategoriserer og organiserer bæredygtighedskonti baseret på deres attributter, såsom omfang eller andre grupperinger. Hver konto tildeles typisk en unik kode eller et unikt nummer for nem reference og sporing. Det har samme struktur som en traditionel kontoplan, men er tilpasset specifikt til at overvåge bæredygtighedsrelaterede data og målinger i en organisation.
 
@@ -36,7 +36,7 @@ Fra CoSA kan du gøre ting som:
 
 Du kan tilføje, ændre eller slette bæredygtighedskonti. For at undgå uoverensstemmelser kan du dog ikke slette en bæredygtighedskonto, hvis der er knyttet en eller flere poster til denne konto.
 
-### Tilføje eller ændre konti
+### <a name="add-or-change-accounts"></a>Tilføje eller ændre konti
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 3.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Diagram over bæredygtighedskonti**, og derefter vælge det relaterede link.
 2. På siden **Diagram over bæredygtighedskonti** kan du åbne hver bæredygtighedskonto og derefter tilføje eller ændre indstillinger. Placer markøren over et felt for at se en kort beskrivelse.
@@ -48,11 +48,11 @@ For kontoer af typen **Til-sum** udfyldes feltet **Sammentælling** automatisk a
 > [!IMPORTANT]
 > Indrykningsfunktionen overskriver værdien af alle felter for konti af typen **Til-sum**. Hvis du har angivet definitioner i felterne **Sammentælling** for **Til-sum**-omkostningssteder, før du kører indrykningsfunktionen, skal du angive dem igen.
 
-### Slet konti
+### <a name="delete-accounts"></a>Slet konti
 
 Du kan slette en bæredygtighedskonto. Du skal dog først kontrollere, at der ikke er knyttet nogen poster til den. Business Central forhindrer dig i at slette en bæredygtighedskonto, hvis der er knyttet en eller flere poster til denne konto.
 
-## Kontokategorier
+## <a name="account-categories"></a>Kontokategorier
 
 Brugere kan tilføje bæredygtighedskontokategorier og underkategorier for bæredygtighedskonti for at definere, hvordan systemet opfører sig. På denne måde kan de vælge dedikerede udledninger til sporing, udledningsfaktorer, formler og lignende konfigurationer.
 
@@ -93,7 +93,7 @@ Hvis du angiver feltet **Beregningsgrundlag** , forklares det i følgende tabel,
 | | Brugerdefineret | *Udledning* = *Brugerdefineret mængde* &times; *EF* | *Brugerdefineret beløb* = Hotelophold |
 | | Brændstof/elektricitet | *Udledning* = *Brændstof* &times; *EF* | *Brændstof* = Mængde brændstof brugt i firmabilen, lejebilen og så videre |
 
-## Kontoens underkategorier
+## <a name="account-subcategories"></a>Kontoens underkategorier
 
 Brugere kan tilføje bæredygtighedskonto-underkategori for hver bæredygtighedskonto. Denne underkategori definerer de emissionsfaktorer, der bruges i formlerne, baseret på valget af emissionssporing i kategorien bæredygtighedskonto.
 
@@ -113,7 +113,7 @@ Følg trinnene for at gennemgå underkategorier for bæredygtighedskonto:
 > [!NOTE]
 > Felterne **Importer data** og **Importer fra** er beregnet til potentiel integration med eksterne systemer, der bruges til at indsamle udledningsfaktorer. I **udgivelsesbølge 1 i 2024** kan disse felter dog ikke bruges som en funktion som standard.
 
-## Finansposter for bæredygtighed
+## <a name="sustainability-ledger-entries"></a>Finansposter for bæredygtighed
 
 Bæredygtighedsposten gemmer historikken over alle bogførte bæredygtighedstransaktioner og organiserer alle emissionsdata i henhold til Diagram over bæredygtighedskonti. Når en bruger bogfører bæredygtighedskladden, registreres alle vigtige data der. Alle aktive rapporter genereres på baggrund af bæredygtighedsposterne.
 
@@ -122,7 +122,7 @@ Hvis du vil åbne denne finanspost for en bestemt konto, skal du bruge handlinge
 > [!IMPORTANT]
 > Når du først har bogført dine data i bæredygtighedsregnskabet, kan du ikke slette dem. Hvis du har lavet en fejl, kan du bogføre den omvendte transaktion ved hjælp af de samme detaljer, men ved hjælp af det negative tegn for beløb.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Finans](finance.md)  
 [Oversigt over Ledelse af bæredygtighed](finance-manage-sustainability.md)  

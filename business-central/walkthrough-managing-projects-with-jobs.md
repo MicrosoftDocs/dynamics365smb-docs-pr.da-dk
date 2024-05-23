@@ -36,7 +36,7 @@ Denne gennemgang giver dig en introduktion til projektstyringsfunktioner. Du kan
 - Se, hvordan leverandør- og fakturaværdier bestemmes.  
 - Gøre plads til ekstraarbejde i planen, der ikke er faktureret.  
 
-### <a name="copying-a-job"></a>Kopiering af en sag
+### <a name="copying-a-project"></a>Kopiering af en sag
 
  Denne gennemgang fokuserer på, hvordan du kan kopiere en del af eller et komplet projekt for at reducere behovet for manuel indtastning af data og forbedre nøjagtigheden. Dette omfatter følgende:  
 
@@ -223,11 +223,11 @@ I den næste procedure opretter du en projektkladde for Tricia for at bogføre f
 
 Linjerne er nu bogført.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Oprette og bogføre en sagssalgsfaktura
+## <a name="creating-and-posting-a-project-sales-invoice"></a>Oprette og bogføre en sagssalgsfaktura
 
  Derefter kan Tina oprette en ny faktura for hele sagen eller for en del af en sag. Tricia kan også tilknytte fakturaen til en anden faktura til samme kunde for samme sag. I dette tilfælde fakturerer Tricia hele sagen, da projektet nu er færdigt.  
 
-### <a name="to-create-a-job-sales-invoice"></a>Sådan oprettes en sagssalgsfaktura
+### <a name="to-create-a-project-sales-invoice"></a>Sådan oprettes en sagssalgsfaktura
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
 2.  Vælg den sag, du oprettede tidligere, og vælg derefter handlingen **Opret salgsfaktura**.  
@@ -261,7 +261,7 @@ Linjerne er nu bogført.
 
  CRONUS er blevet bestilt til at oprette konferencerum. Som projektleder ønsker Per at have et godt overblik over de opgaver, der er påkrævet for sagen med de tilhørende budgetterede og realiserede omkostninger for hver sag. Derudover vil Prakash gerne kende den samlede kontraktpris for sagen og det beløb, der er faktureret indtil nu. De er nået frem til en aftale med kunden om faste priser for denne sag.  
 
-### <a name="to-manage-fixed-pricing-in-jobs"></a>Sådan håndteres faste priser i sager
+### <a name="to-manage-fixed-pricing-in-projects"></a>Sådan håndteres faste priser i sager
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sager**, og vælg derefter det relaterede link.  
 2. Vælg sagsnummeret **Svend Hansen Møbler**, og vælg derefter handlingen **Sagsopgavelinjer**.  

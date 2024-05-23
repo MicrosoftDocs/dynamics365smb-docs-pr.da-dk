@@ -11,7 +11,7 @@ ms.search.form: '7351,'
 ms.service: dynamics-365-business-central
 ---
 
-# Flytte varer i avancerede konfigurationer af lagersteder med styret læg-på-lager
+# <a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a>Flytte varer i avancerede konfigurationer af lagersteder med styret læg-på-lager
 
 Du kan flytte varer mellem placeringer uden et behov fra et kildedokument. Du kan f. eks. få brug for at gøre det som en del af følgende aktiviteter:
 
@@ -37,9 +37,9 @@ Siderne **Bevægelseskladden** , **Internt lagerpluk** og **Internt lager læg-p
 * Læg-på-lager bruger læg-på-lager-skabeloner
 * Ved pluk anvendes placeringsniveau og disponering
 
-## Lagerbevægelseskladde
+## <a name="warehouse-movement-worksheet"></a>Lagerbevægelseskladde
 
-### Sådan flyttes varer med lagerbevægelseskladden
+### <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Sådan flyttes varer med lagerbevægelseskladden
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bevægelseskladde**, og vælg derefter det relaterede link.  
 2. Udfyld felterne på kladdelinjerne manuelt, eller brug en af følgende fremgangsmåder for at udfylde linjerne automatisk:
@@ -56,7 +56,7 @@ Siderne **Bevægelseskladden** , **Internt lagerpluk** og **Internt lager læg-p
 
 3. Vælg handlingen **Opret bevægelse** for at oprette bevægelsen. Når flytningen er færdig, kan du registrere den.  
 
-### Sådan registreres lagerbevægelsen
+### <a name="to-register-the-warehouse-movement"></a>Sådan registreres lagerbevægelsen
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bevægelser**, og vælg derefter det relaterede link.  
 2. Åbne flytningsdokumentet, der skal registreres.  
@@ -72,9 +72,9 @@ Siderne **Bevægelseskladden** , **Internt lagerpluk** og **Internt lager læg-p
 > [!NOTE]  
 > For lokationer, der bruger styret læg-på-lager og pluk, kan du ikke manuelt flytte varer på placeringer af typen **Modtag**, fordi de endnu ikke betragtes som disponibel lagerbeholdning. Du skal lægge varerne på plads på placeringerne, før de kan bruges til bevægelser.
 
-## Internt pluk  
+## <a name="internal-pick"></a>Internt pluk
 
-### Sådan oprettes et internt pluk  
+### <a name="to-create-an-internal-pick"></a>Sådan oprettes et internt pluk
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Internt lagerpluk**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.
@@ -83,7 +83,7 @@ Siderne **Bevægelseskladden** , **Internt lagerpluk** og **Internt lager læg-p
 5. Vælg handlingen **Opret pluk**. Der er nu en lagerplukinstruktion klar til en lagermedarbejder. Alternativt kan du vælge handlingen **Frigiv** og oprette pluk (logistik) ved hjælp af **Plukkladde**. Du kan lære mere om plukkladder ved at gå til [Opret plukdokumenter samlet i plukkladden](warehouse-how-to-pick-items-for-warehouse-shipment.md#to-create-pick-documents-in-bulk-with-the-pick-worksheet).
 6. Når plukningen er færdig, kan du registrere den.  
 
-### Sådan registreres lagerplukningen
+### <a name="to-register-the-warehouse-pick"></a>Sådan registreres lagerplukningen
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk**, og vælg derefter det relaterede link.  
 
@@ -95,9 +95,9 @@ Siderne **Bevægelseskladden** , **Internt lagerpluk** og **Internt lager læg-p
 
 4. Når du har foretaget plukket og har placeret varerne på rette sted, skal du vælge handlingen **Registrer pluk**.  
 
-## Intern læg-på-lager  
+## <a name="internal-put-away"></a>Intern læg-på-lager
 
-### Sådan oprettes en intern læg-på-lager-aktivitet  
+### <a name="to-create-an-internal-put-away"></a>Sådan oprettes en intern læg-på-lager-aktivitet
 
 1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Intern læg-på-lager-aktivitet**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.
@@ -111,7 +111,7 @@ Siderne **Bevægelseskladden** , **Internt lagerpluk** og **Internt lager læg-p
 6. Vælg handlingen **Opret læg-på-lager**. Der er nu en læg-på-lager-instruktion klar til en lagermedarbejder. Alternativt kan du vælge handlingen **Frigiv** og oprette pluk (logistik) ved hjælp af **Plukkladde**. Du kan lære mere om plukkladder ved at gå til [Opret plukdokumenter samlet i plukkladden](warehouse-how-to-put-items-away-with-warehouse-put-aways.md#to-create-put-away-documents-in-bulk-with-the-put-away-worksheet).
 6. Når læg-på-lager er færdig, kan du registrere den.  
 
-### Fortsæt med at registrere læg-på-lager
+### <a name="to-register-the-warehouse-put-away"></a>Fortsæt med at registrere læg-på-lager
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **læg-på-lager**, og vælg derefter det relaterede link.
 2. Åbn den læg-på-lager-aktivitet, der er klar til håndtering.  
@@ -134,7 +134,7 @@ Siderne **Bevægelseskladden** , **Internt lagerpluk** og **Internt lager læg-p
 
 5. Vælg handlingen **Registrer læg-på-lager**, når du har placeret alle varer på de korrekte placeringer.  
 
-## Sådan registreres en bevægelse, der allerede er sket
+## <a name="to-register-a-movement-that-has-already-happened"></a>Sådan registreres en bevægelse, der allerede er sket
 
 Hvis du skal registrere, at varerne allerede er blevet flyttet til andre placeringer uden læg-på-lager, pluk eller bevægelse, kan du bruge siden **Lager-Bogf. Omposteringskladde** for at registrere bevægelsen.
 
@@ -142,7 +142,7 @@ Hvis du skal registrere, at varerne allerede er blevet flyttet til andre placeri
 2. Udfyld felterne **Varenr.**, **Fra zonekode**, **Fra placeringskode**, **Til zonekode** og **Til placeringskode**.  
 3. Vælg handlingen **Registrer**.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

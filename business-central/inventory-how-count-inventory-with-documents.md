@@ -11,7 +11,7 @@ ms.date: 04/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Tælle og regulere lageropgørelse ved hjælp af dokumenter
+# <a name="count-and-adjust-inventory-using-documents"></a>Tælle og regulere lageropgørelse ved hjælp af dokumenter
 
 Du kan udføre en status over dine varer på varelager ved hjælp af varelagerdokumenter og varelageroptællingsdokumenter. Siden **Varelageropgørelse** benyttes til at organisere det fulde varelageroptællingsprojekt, for eksempel en pr. lokation. Brug siden **Opgørelse af fysisk lager** til at registrere og kommunikere den faktiske optælling af varer. Du kan oprette flere registreringer på en ordre, f.eks. for at distribuere varegrupper til forskellige medarbejdere.
 
@@ -29,7 +29,7 @@ Optælling af varelager ved hjælp af dokumenter består af følgende overordned
 3. Indsæt antallet af optalte varer på nedskrivningen, som f.eks. registreret på udskrifter, og indstil den til **Afsluttet**.
 4. Gennemfør, og bogfør varelageropgørelsen.
 
-## Sådan oprettes en varelageropgørelse
+## <a name="to-create-a-physical-inventory-order"></a>Sådan oprettes en varelageropgørelse
 
 En varelageropgørelse er et komplet dokument, der består af et varelageropgørelsesoverskrift og ordrelinjer. Oplysningerne på et varelageropgørelseshoved beskriver, hvordan varelageret statusopgøres. Ordrelinjerne indeholder oplysninger om varerne og deres placeringer.
 
@@ -58,7 +58,7 @@ Du kan nu oprette en eller flere optællinger, som er instruktioner til medarbej
 >
 > Når du har valgt **Udfør** på siden **Lageropgørelsesordre**, beregner [!INCLUDE [prod_short](includes/prod_short.md)] differencer med hensyn til pakken og andre varesporingsdetaljer, og der foretages positive eller negative reguleringer.
 
-## Sådan oprettes en varelageroptælling.
+## <a name="to-create-a-physical-inventory-recording"></a>Sådan oprettes en varelageroptælling.
 
 For hver lageropgørelsesordre kan du oprette et eller flere dokumenter til registrering af lageropgørelsen, hvor medarbejderne indtaster de optalte mængder. Mængder kan indtastes manuelt eller vha. en scanningsenhed.
 
@@ -76,7 +76,7 @@ I tilfælde af manuel optælling kan du udskrive rapporten **Lageroptælling**, 
 8. Opret yderligere en linje for hvert lot-nummer eller serienummerkode for varer, der benytter varesporing, ved at vælge handlingen **Funktioner**, og derefter handlingen **Kopier linje**. Du kan få mere at vide ved at gå til [Håndtering af varesporing ved optælling af varelager](#handle-item-tracking-when-counting-inventory).  
 9. Vælg handlingen **Udskriv** for at forberede det fysiske dokument, som medarbejdere kan benytte til at skrive det antal, de tæller.
 
-## Sådan afsluttes en varelageroptælling.
+## <a name="to-finish-a-physical-inventory-recording"></a>Sådan afsluttes en varelageroptælling.
 
 Når medarbejderne har optalt antallet, skal du registrere mængderne i [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -91,7 +91,7 @@ Når medarbejderne har optalt antallet, skal du registrere mængderne i [!INCLUD
     > 
     > Hvis der ikke findes en matchende varelagerlinje, og hvis afkrydsningsfeltet **Tillad registrering uden ordre** er markeret, tilføjes der en ny linje, og afkrydsningsfeltet **Registreret uden ordre"** på den tilhørende lageropgørelsesordrelinje vælges. Eller vises en fejlmeddelelse, og processen annulleres. Hvis mere end en varelageroptællingslinje matcher en linje på lageroptællingsordren, vises der en meddelelse, og processen annulleres. Hvis to identiske varelageropgørelseslinjer af en eller anden grund ender på lageropgørelsesordren, kan du benytte en handling for at løse dette. Du kan få mere at vide ved at gå til [Sådan findes dobbeltoprettede linjer til varelageropgørelse](#to-find-duplicate-physical-inventory-order-lines).
 
-## Sådan afsluttes en varelageropgørelse
+## <a name="to-complete-a-physical-inventory-order"></a>Sådan afsluttes en varelageropgørelse
 
 Når du har afsluttet en varelageroptælling, opdateres feltet **Optælling af antal (basis)** på den tilhørende varelageropgørelse med de optalte (registrerede) værdier, og afkrydsningsfeltet **Registreret** er valgt. Hvis en optalt mængde afviger fra den forventede mængde, vises differencen i felterne **Positivt antal (basis)** og **Negativt antal (basis)**.
 
@@ -99,7 +99,7 @@ For at få adgang til det forventede antal og enhver registreret difference for 
 
 Du kan også vælge handlingen **Difference i lageropgørelsesordre** for at få vist eventuelle forskelle mellem det forventede antal og det optalte antal.
 
-### Sådan findes dobbeltoprettede linjer til varelageropgørelse
+### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Sådan findes dobbeltoprettede linjer til varelageropgørelse
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **lageropgørelsesordrer**, og vælg derefter det relaterede link.
 2. Åbn varelageropgørelsen, du vil have vist dobbelt oprettede linjer for.
@@ -107,7 +107,7 @@ Du kan også vælge handlingen **Difference i lageropgørelsesordre** for at få
 
 Dobbelt fysiske varelageropgørelseslinjer vises, så du kan slette dem og kun beholde en linje med et unikt værdisæt for de fire felter **Varenr.**, **Variantkode**, **Lokationskode**, og **Placeringskode**.
 
-### Sådan bogføres en varelageropgørelse
+### <a name="to-post-a-physical-inventory-order"></a>Sådan bogføres en varelageropgørelse
 
 Når du har færdigudarbejdet en varelageropgørelse og ændret dens status til **Afsluttet**, kan du bogføre den. Du kan kun ændre status for en varelageropgørelse til **Afsluttet** under følgende forhold:
 
@@ -128,7 +128,7 @@ Når du har færdigudarbejdet en varelageropgørelse og ændret dens status til 
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-### Sådan vises bogførte varelageropgørelser
+### <a name="to-view-posted-physical-inventory-orders"></a>Sådan vises bogførte varelageropgørelser
 
 Efter bogføringen slettes varelageropgørelsen, og du kan få vist og vurdere dokumentet som en bogført lageropgørelsesordre. Den bogførte ordre indeholder optællinger af det fysiske lager og eventuelle bemærkninger.
 
@@ -136,13 +136,13 @@ Efter bogføringen slettes varelageropgørelsen, og du kan få vist og vurdere d
 2. Vælg den bogførte lageropgørelsesordre, som du vil se, på siden **Bogførte varelageropgørelser**, og vælg så handlingen **Vis**.
 3. Vælg handlingen **Registreringer** for at åbne en liste over relaterede registreringer af varelageropgørelser.
 
-## Håndtering af varesporing ved optælling af varelager
+## <a name="handle-item-tracking-when-counting-inventory"></a>Håndtering af varesporing ved optælling af varelager
 
 Varesporing er relateret til serie- eller lotnumrene, der er tildelt varer. Når du tæller en vare, som opbevares i varelagerbeholdningen, f.eks. 10 forskellige lotnumre, skal medarbejderne kunne registrere, hvilke og hvor mange enheder af hver lotnummer der er på lager. Du kan finde flere oplysninger i [Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md).
 
 Afkrydsningsfeltet **Benyt varesporing** på varelageropgørelseslinjer vælges automatisk, hvis en varesporingskode er konfigureret til varen. Du kan markere eller fjerne markeringen i afkrydsningsfeltet manuelt.
 
-### Eksempel - Klargør en varelageroptælling for en vare-sporet vare
+### <a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a>Eksempel - Klargør en varelageroptælling for en vare-sporet vare
 
 En varelageropgørelse for vare A, der er lagerført som ti forskellige serienumre.
 
@@ -159,7 +159,7 @@ En varelageropgørelse for vare A, der er lagerført som ti forskellige serienum
 
 Bemærk, at rapporten **Lageropgørelsesregistrering** indeholder ti linjer for vare A, en for hvert serienummer.
 
-### Eksempel – Registrer og bogfør differencer i optalte lotnumre
+### <a name="example---record-and-post-counted-lot-number-differences"></a>Eksempel – Registrer og bogfør differencer i optalte lotnumre
 
 En lot-sporet vare er angivet i varelagerbeholdningen med "LOT"-nummerserier.
 
@@ -194,7 +194,7 @@ En lot-sporet vare er angivet i varelagerbeholdningen med "LOT"-nummerserier.
 
 På siden **Varelageropgørelse** indeholder feltet **Negativ beholdning (basis)** **8**. Siden **Varesporingsliste for lageropgørelse** viser den positive eller negative beholdning for de enkelte lotnumre for ordrelinjen.
 
-## Lageropgørelsesdokumenter
+## <a name="inventory-documents"></a>Lageropgørelsesdokumenter
 
 Følgende dokumenttyper er nyttige til administration af lagerstedet:
 
@@ -206,7 +206,7 @@ Du kan udskrive disse dokumenter på ethvert trin, frigive og åbne dem igen og 
 > [!NOTE]
 > Før du kan bruge disse dokumenter, skal du angive en nummerserie for at oprette deres id'er. Du kan få mere at vide ved at gå til [Sådan oprettes nummerering for lagerdokumenter](#to-set-up-numbering-for-inventory-documents).
 
-### Sådan oprettes nummerering for lagerdokumenter
+### <a name="to-set-up-numbering-for-inventory-documents"></a>Sådan oprettes nummerering for lagerdokumenter
 
 Følgende procedure viser, hvordan du konfigurerer nummerering for lageropgørelsesdokumenter.
 
@@ -218,7 +218,7 @@ Følgende procedure viser, hvordan du konfigurerer nummerering for lageropgørel
    - **Lagerleverancenumre**  
    - **Bogførte lagerleverancenumre**  
 
-### Sådan oprettes og bogføres et lagerdokument
+### <a name="to-create-and-post-an-inventory-document"></a>Sådan oprettes og bogføres et lagerdokument
 
 Følgende fremgangsmåde viser, hvordan du kan oprette, udskrive og bogføre en lagertilgang. Fremgangsmåden er den samme som for lagerleverancer.
 
@@ -234,7 +234,7 @@ Du kan vælge mellem følgende funktioner på siden **Lagermodtagelse**:
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Udskrivning af lageropgørelsesdokumenter
+## <a name="printing-inventory-documents"></a>Udskrivning af lageropgørelsesdokumenter
 
 Du kan angive, hvilke rapporter der skal udskrives i forskellige faser, ved at vælge en af følgende indstillinger i feltet **Forbrug** på siden **Rapportvalg - lager**:
 
@@ -246,7 +246,7 @@ Du kan angive, hvilke rapporter der skal udskrives i forskellige faser, ved at v
 > [!NOTE]
 > De tilgængelige rapporter kan variere afhængigt af dit lands/områdes lokalisering. Basisprogrammet indeholder ikke layoutelementer.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Tælle, justere og ompostere lagerbeholdning ved hjælp af kladder](inventory-how-count-adjust-reclassify.md)  
 [Arbejde med serienumre og lotnumre](inventory-how-work-item-tracking.md)  

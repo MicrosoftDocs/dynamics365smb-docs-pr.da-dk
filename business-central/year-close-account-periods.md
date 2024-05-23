@@ -10,11 +10,11 @@ ms.search.form: '100,'
 ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ---
-# Lukke regnskabsperioder
+# <a name="close-accounting-periods"></a>Lukke regnskabsperioder
 
 Når regnskabsåret er slut, skal du afslutte de perioder, det indeholder.
 
-## Sådan afsluttes regnskabsperioder
+## <a name="to-close-accounting-periods"></a>Sådan afsluttes regnskabsperioder
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Regnskabsperioder**, og vælg derefter det relaterede link.
 2. På siden **Regnskabsperioder** skal du vælge handlingen **Afslut år**.
@@ -31,7 +31,7 @@ Selvom et regnskabsår er afsluttet, kan du stadig bogføre finansposter i det. 
 
 Når et regnskabsår er afsluttet, skal du lukke resultatopgørelseskontiene og overføre årets resultat til resultatkontoen i balancen. Du kan gentage dette, hver gang du bogfører i det afsluttede regnskabsår.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Afslutningregnskab](year-close-books.md)  
 [Bogføre årsafslutningsposten](year-how-post-year-end-close-entry.md)  
