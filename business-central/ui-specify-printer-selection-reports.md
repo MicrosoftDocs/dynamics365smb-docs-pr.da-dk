@@ -3,7 +3,6 @@ title: Angive en standardprinter
 description: 'Få mere at vide om forskellige måder at konfigurere, hvilke printere der skal bruges som standard til udskriftsjob.'
 author: jswymer
 ms.topic: how-to
-ms.reviewer: na
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.search.keywords: 'online printing, email printing, cloud printing, Universal Print'
@@ -11,14 +10,14 @@ ms.search.form: '2650, 2750, 2752, 2753, 2754, 8900,'
 ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="specify-a-default-printer"></a><a name="default"></a>Angive en standardprinter
+# <a name="default"></a>Angive en standardprinter  
 
 Når der er oprettet printere i Business central, kan du angive, hvilken printer du vil bruge som standard. Du kan konfigurere, hvilke printere der skal bruges som standard til rapporter og andre udskriftsjobs. En standardprinter er nyttig, hvis du arbejder med forskellige rapporter, som kræver forskellige printere på grund af deres placering i virksomheden eller deres udskrivningsmuligheder.
 
 > [!IMPORTANT]
 > De eneste printere, som du kan angive som standard, er **Microsoft-udskrift til PDF** og cloudprintere, der allerede er indstillet til brug i Business central, f.eks. mailprintere og universelle udskriftsprintere. Cloud-printere konfigureres typisk af en administrator. Du kan finde flere oplysninger i [Printeropsætning og styring](admin-printer-setup-overview.md).   
 
-## <a name="set-a-printer-as-a-default-printer-for-all-print-jobs"></a>Angive en printer som standardprinter for alle udskriftsjob
+## Angive en printer som standardprinter for alle udskriftsjob
 
 På siden **Printerstyring** kan du konfigurere en printer som standardprinter for alle udskriftsjob. Du kan kun angive printeren som standardprinter for dig eller for alle brugere.
 
@@ -31,7 +30,7 @@ På siden **Printerstyring** kan du konfigurere en printer som standardprinter f
 > [!NOTE]
 > Hvis du angiver en standardprinter fra **Printerstyring**, tilføjes der en post i **Printervalg**.
 
-## <a name="set-a-default-printer-for-specific-reports"></a>Angive en standardprinter for specifikke rapporter
+## Angive en standardprinter for specifikke rapporter
 
 På siden **Printervalg** kan du angive den printer, som en rapport skal bruge som standard. Standardprintere er angivet på basis af brugerkonti. Du kan angive en standardprinter udelukkende for dig selv, en anden bruger eller alle brugere.
 
@@ -60,15 +59,15 @@ Du eller administratoren kan også bruge siden **Printervalg** til at angive and
 > [!NOTE]
 > Mere bestemte printervalg tilsidesætter mere generelle printervalg. Et printervalg, der har værdier i felterne **Bruger-id**, **Rapport-id**og **Printernavn**, har f.eks. højere prioritet end et printervalg, hvor der ikke er angivet værdier i felterne **Bruger-ID** eller **Rapport-ID**.
 
-## <a name="choosing-the-printer-when-running-a-report"></a>Vælge printeren, når en rapport køres
+## Vælge printeren, når en rapport køres
 
 I stedet for at bruge standardprinteren, når du kører en rapport, kan du tilsidesætte denne indstilling fra anmodningssiden. Du skal blot vælge den printer, du vil bruge til denne aktivering af rapporten, i rullemenuen **Printer**.
 
-## <a name="sizing-print-jobs"></a>Ændring af udskriftsjob
+## Ændring af udskriftsjob
 
 Cloud-udskrivning er udviklet til dokumenter med en rimelig størrelse. De fleste cloud-tjenester, herunder PrintNode og HP ePrint, har en begrænsning på 10 MB pr. job. Hvis du skal udskrive større rapporter, skal du muligvis opdele dem i flere udskrifter.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Printerstyring](admin-printer-setup-overview.md)  
 [Konfigurere printere til Universaludskrivning](admin-printer-setup-universal-print.md)  

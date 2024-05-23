@@ -3,7 +3,7 @@ title: Om produktionsordrer
 description: 'Flere oplysninger om produktionsordrer gør det muligt at styre produktionsprocessen, dvs. den proces, hvorved de indkøbte materialer forarbejdes til færdige varer.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917'
@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="about-production-orders"></a>Om produktionsordrer
+# Om produktionsordrer
 
 Produktionsordrer gør det muligt at styre produktionsprocessen, dvs. den proces, hvorved de indkøbte materialer forarbejdes til færdige varer. Produktionsordrer dirigerer arbejdet via ruter gennem forskellige arbejdscentre eller produktionsressourcer på produktionsstedet.  
 
@@ -32,7 +32,7 @@ Produktionsordrer er udgangspunktet for:
 - Overvågning af den igangværende produktion  
 - Sporing af afsluttet produktion  
 
-## <a name="production-order-creation"></a>Oprette produktionsordrer
+## Oprette produktionsordrer  
 
 Du kan manuelt oprette produktionsordrer på ordre til ordre-basis på siden **Produktionsordre** eller generere dem fra siderne **Salgsordreplanlægning** eller **Ordreplanlægning**. Du kan også oprette flere ordrer fra siden **Planlægningskladde**.  
 
@@ -44,7 +44,7 @@ Du kan oprette produktionsordrer med udgangspunkt i oplysninger fra:
 - Produktionsressourcer  
 - Arbejdscentre  
 
-## <a name="limitations-on-creating-production-orders"></a>Begrænsninger ved oprettelse af produktionsordrer
+## Begrænsninger ved oprettelse af produktionsordrer  
 
 Produktionsordrer reserveres automatisk og spores til kilden, når:  
 
@@ -57,18 +57,18 @@ Du kan finde flere oplysninger i [Spore relationer mellem behov og forsyning](pr
 
 Produktionsordrer, der oprettes på anden måde, reserveres og spores ikke automatisk.
 
-## <a name="production-order-status"></a>Produktionsordrestatus
+## Produktionsordrestatus  
 
 Produktionsordrestatus kontrollerer produktionsordrens vej gennem programmet. Produktionens form og indhold dikteres af ordrens status. Produktionsordrer vises i forskellige sider i henhold til deres status. Du kan ikke ændre status på en produktionsordre manuelt. Du skal bruge funktionen **Skift status** i den enkelte produktionsordre eller på siden **Skift prod. ordrestatus**.  
 
-### <a name="simulated-production-order"></a>Simuleret produktionsordre
+### Simuleret produktionsordre  
 
 En simuleret produktionsordre kendetegnes ved følgende:  
 
 - Som navnet antyder, er det en simulering, du kan bruge til tilbud og omkostninger. Det kan f.eks. være, hvis forsknings- og udviklingsafdelingen vil have et overslag over omkostningerne ved en foreslået vare. En simuleret produktionsordre fungerer som et eksempel på en produktionsordre.  
 - De påvirker ikke ordreplanlægningen. Planlægning (MPS og MRP) tager ikke højde for og påvirkes ikke af simulerede produktionsordrer. En simuleret produktionsordre kan heller ikke bruges som skabelon, fordi den forsvinder, når du ændrer dens status.  
 
-### <a name="planned-production-order"></a>Planlagt produktionsordre
+### Planlagt produktionsordre  
 
 En planlagt produktionsordre kendetegnes ved følgende:  
 
@@ -78,7 +78,7 @@ En planlagt produktionsordre kendetegnes ved følgende:
 - Når en planlagt produktionsordre oprettes som et led i planlægningen, udløser den et forslag til en "planlagt ordrefrigivelse", der omfatter antal, frigivelsesdato og forfaldsdato. Planlægningssystemet er baseret på genbestillingssystemet, genbestillingsmetoder og ordremodifikatorer, som det møder i forbindelse med planlægningen af nettobehov.  
 - Du kan se, hvordan de påvirker planlægningen, ved at se nærmere på belastningen for hvert enkelt arbejdscenter eller produktionsressource i den planlagte produktionsordres rute.  
 
-### <a name="firm-planned-production-order"></a>Fastlagt produktionsordre
+### Fastlagt produktionsordre  
 
 En fastlagt produktionsordre kendetegnes ved følgende:  
 
@@ -88,7 +88,7 @@ En fastlagt produktionsordre kendetegnes ved følgende:
 - Når en fastlagt produktionsordre oprettes som et led i planlægningen, udløser den en foreslået "planlagt ordrefrigivelse", der omfatter: antal, frigivelsesdato og forfaldsdato. Planlægningssystemet er baseret på genbestillingssystemet, genbestillingsmetoder og ordremodifikatorer, som det møder i forbindelse med planlægningen af nettobehov.  
 - Du kan se, hvordan de påvirker planlægningen, ved at se nærmere på belastningen for hvert enkelt arbejdscenter eller produktionsressource på den fastlagte produktionsordres rute.  
 
-### <a name="released-production-order"></a>Frigivet produktionsordre
+### Frigivet produktionsordre  
 
 En frigivet produktionsordre kendetegnes ved følgende:  
 
@@ -97,7 +97,7 @@ En frigivet produktionsordre kendetegnes ved følgende:
 - I virksomheder, der fremstiller til ordre, er det ikke usædvanligt, at der oprettes en frigivet produktionsordre umiddelbart efter, at salgsordren er registreret.  
 - Faktisk materialeforbrug og produktafgang kan registreres manuelt vha. en frigivet produktionsordre. Desuden sker der kun automatisk træk af forbrug og produktafgang for frigivne produktionsordrer.  
 
-### <a name="finished-production-order"></a>Færdig produktionsordre
+### Færdig produktionsordre  
 
 En færdig produktionsordre kendetegnes ved følgende:  
 
@@ -106,7 +106,7 @@ En færdig produktionsordre kendetegnes ved følgende:
 - Færdige produktionsordrer bruges til rapportering af statistiske oplysninger og er med til at gøre det muligt at spore oplysninger tilbage til andre ordrer (f.eks. salgs-, produktions- og købsordrer). Muligheden for at følge et spor tilbage til en færdig produktionsordre betyder, at du kan gennemgå detaljerede historikoplysninger.  
 - Færdige produktionsordre kan aldrig ændres.  
 
-## <a name="production-order-execution"></a>Udføre produktionsordrer
+## Udføre produktionsordrer  
 
 Når du har oprettet og planlagt en produktionsordre, skal den frigives til produktion, så den kan udføres. Under udførelsen af ordren kan du registrere:  
 
@@ -116,7 +116,7 @@ Når du har oprettet og planlagt en produktionsordre, skal den frigives til prod
 
 Du kan registrere disse oplysninger manuelt eller vha. automatisk rapportering. Metoden afhænger af opsætningen i feltet Trækmetode for varen og arbejdscentret.  
 
-### <a name="material-consumption"></a>Materialeforbrug
+### Materialeforbrug  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] indeholder forskellige muligheder for, hvordan materialeforbrug registreres. Materialeforbruget kan f.eks. registreres manuelt, hvilket kan være nyttigt, hvis flere forskellige komponenter bruges på skift, eller hvis flere dele end forventet går til spilde.  
 
@@ -133,7 +133,7 @@ Baglæns forbrugsrapportering registrerer det faktiske antal materialer, der ent
 
 Når produktionsordren fornys, kopieres trækmetoden fra varekortet. Eftersom trækmetoden for hver enkelt komponent på produktionsordren bestemmer, hvordan og hvor forbruget registreres, er det vigtigt at være opmærksom på, at du kan ændre trækmetoden for enkelte varer direkte i produktionsordren. Du kan finde flere oplysninger i [Udtrække komponenter i henhold til operationsafgang](production-how-to-flush-components-according-to-operation-output.md).
 
-### <a name="production-output"></a>Produktionsafgang
+### Produktionsafgang  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] giver dig mulighed for at spore, hvor meget tid der er gået med at arbejde på en produktionsordre, ud over registreringen af det producerede antal. Disse oplysninger gør det lettere at bestemme produktionsomkostningerne mere nøjagtigt. Produktionsvirksomheder, der bruger et standardsystem til kostprisberegning, vil måske også gerne registrere faktiske oplysninger, som kan gøre det nemmere at forbedre standarderne.  
 
@@ -145,13 +145,13 @@ Forlænsmetoden registrerer den forventede afgang (og tid), som registreres auto
 
 Baglænsmetoden registrerer den forventede afgang (og tid), som registreres automatisk ved færdiggørelsen af en produktionsordre. Rutebindingskoder er ikke en faktor, der indgår i det baglæns træk af afgangen.  
 
-### <a name="posting-consumption-and-output"></a>Bogføre forbrug og afgang
+### Bogføre forbrug og afgang  
 
 Du kan bruge en hvilken som helst kombination af automatisk træk og manuelt registrerede oplysninger til både forbrug og afgang. Du kan f.eks. trække komponenter automatisk, men stadig registrere spild i forbrugskladden. På samme måde kan du registrere afgang automatisk, men registrere spild for den samlede vare eller ekstra tid, der er brugt på ordren, i afgangskladden.  
 
 Hvis du registrerer forbrug og afgang manuelt, er du nødt til at vælge en rækkefølge at registrere disse oplysninger i. Du kan registrere forbrug først og bruge en genvejsmetode, når du skal registrere de oplysninger, der er baseret på forventet afgangsantal. Eller du kan angive afgang først ved at bruge funktionen **Udfold rute**. Derefter kan du registrere forbruget på basis af det faktiske afgangsantal.  
 
-### <a name="production-journal"></a>Produktionskladde
+### Produktionskladde  
 
 [Produktionskladden](production-how-to-register-consumption-and-output.md) er en kombination af funktionerne i forbrugskladden og afgangskladden. Du kan åbne produktionskladden direkte fra den frigivne produktionsordre.  
 
@@ -178,7 +178,7 @@ Men produktionskladden adskiller sig dog fra forbrugs- og afgangskladderne på f
 
 I produktionskladden bogføres forbrugsantal som negative vareposter, mens afgangsantal bogføres som positive vareposter, og tidsforbruget bogføres som kapacitetsposter.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Produktion](production-manage-manufacturing.md)
 [Konfigurere produktion](production-configure-production-processes.md)  

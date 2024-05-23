@@ -3,9 +3,9 @@ title: Fortryde en postering ved at bogføre en tilbageføringspost
 description: 'Hvis du finder fejl i en bogføring i finanskladden, kan du bruge funktionen Tilbagefør transaktion til at fortryde bogføringen med et korrekt revisionsspor.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/28/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -27,10 +27,8 @@ Du kan tilbageføre poster fra alle **Poster**-sider: Følgende procedure er bas
 
 > [!NOTE]
 > Din bogføring skal stamme fra en kladdepost.
->
-> Du kan heller ikke tilbageføre poster, der er bogført med oplysninger fra et projekt, eller som har realiserede gevinster og tab inden for samme transaktion.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Finansposter** , og vælg derefter det relaterede link.
+1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Finansposter** , og vælg derefter det relaterede link.
 2. Marker den post, du vil tilbageføre, og vælg derefter handlingen **Tilbagefør transaktion**.
 3. Vælg handlingen **Tilbagefør** på siden **Tilbagefør transaktionsposter**.
 4. Vælg **Ja** for at bekræfte tilbageførslen.
@@ -84,10 +82,21 @@ Fremgangsmåden er tilsvarende for bogførte returvaremodtagelser.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
+## Tilbageføre en debitor- og kreditorpost med en realiseret gevinst- eller tabspost
+
+Du kan bruge handlingen **Tilbagefør transaktion** til at tilbageføre betalinger, der er udlignet med poster, der stammer fra udenlandske valutaer, og som blev reguleret ved hjælp af kørslen Valutakursregulering. Funktionen fungerer til både køb og salg.
+
+Følgende er et simpelt scenarie, der illustrerer, hvordan det fungerer:
+
+1. Bogføre en salgsfaktura for en debitor med brug af en udenlandsk valuta.
+2. Juster valutakursen for den pågældende valuta.
+3. Bogføre en betaling, der er udlignet med fakturaen.
+4. Fortryde og tilbageføre betalingstransaktionen, f.eks. fra siden **Debitorposter** .
+
 ## Se også
 
-[Fortryde bogføring af montage](assembly-how-to-undo-assembly-posting.md)  
-[Bogføre transaktioner direkte i finansposterne](finance-how-post-transactions-directly.md)  
+[Bogføre fortryd montage](assembly-how-to-undo-assembly-posting.md)  
+[Bogføre transaktioner direkte i Finans](finance-how-post-transactions-directly.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Finans](finance.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

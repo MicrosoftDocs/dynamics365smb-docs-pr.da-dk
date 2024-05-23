@@ -3,7 +3,7 @@ title: Montage til projekt
 description: 'Få mere at vide om, hvordan du bruger montage til ordre til projekter.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'project management, task'
 ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
@@ -11,7 +11,7 @@ ms.date: 08/03/2022
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="assemble-to-project"></a>Montage til projekt
+# Montage til projekt
 
 Montage til projekt hjælper dig med at forbedre lagerstyringen ved kun at udføre montage til ordre, når det er nødvendigt.
 
@@ -19,7 +19,7 @@ Når du vælger en montage til ordre-vare på en projektplanlægningslinje, opre
 
 Montageordrer er reserveret til projekter, og [!INCLUDE [prod_short](includes/prod_short.md)] synkroniserer varesporing mellem projektplanlægningslinjer og montageordre.
 
-## <a name="integrate-with-warehouse-management"></a>Integrere med lagerstedsstyring
+## Integrere med lagerstedsstyring
 
 Montage til projekt integreres med lagerstyringsfunktioner for at gøre montage og forsendelse nemmere. Processen er også med til at sikre, at flowet fra projektmontage til levering forløber problemfrit i interne lagerstedsprocesser. Du kan få mere at vide om interne lagerflow for projekter ved at gå til [Flows til produktion, montage og sager](design-details-internal-warehouse-flows.md#flows-to-and-from-assembly-in-a-basic-warehouse-configuration).
 
@@ -31,7 +31,7 @@ I følgende tabel beskrives de lagerstedskonfigurationer, som montage til ordre 
 |**Lagerpluk**|Brug lagerpluk til at bogføre helt eller delvist forbrug. Afgang og forbrug af komponenter bogføres automatisk for montageordren.          |
 |**Lagerpluk**|Opret og registrer lagerpluk for komponenter, og brug derefter en projektkladde til at bogføre forbrug. [!INCLUDE [prod_short](includes/prod_short.md)] kontrollerer, om de forbrugte montagekomponenter blev plukket. Afgang og forbrug af komponenter bogføres automatisk for montageordren.         |
 
-## <a name="known-limitations"></a>Kendte begrænsninger
+## Kendte begrænsninger
 
 I dette afsnit beskrives kendte begrænsninger for montage til projekt.
 
@@ -42,7 +42,7 @@ I dette afsnit beskrives kendte begrænsninger for montage til projekt.
 * Du kan ikke angive et negativt antal i feltet **Antal til montage til ordre**.
 * Du kan ikke fortryde en montage.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Projektstyring](projects-manage-projects.md)  
 [Montagestyring](assembly-assemble-items.md)  

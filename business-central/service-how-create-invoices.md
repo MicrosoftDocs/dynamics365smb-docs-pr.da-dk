@@ -3,17 +3,17 @@ title: Oprette fakturaer eller -kreditnotaer for tjenester
 description: 'Få at vide, hvordan du opretter fakturaer og kreditnotaer for dine services.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/27/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-service-invoices-or-credit-memos"></a>Oprette servicefakturaer eller kreditnotaer
+# Oprette servicefakturaer eller kreditnotaer
 
 En nøgleegenskab i [!INCLUDE[prod_short](includes/prod_short.md)] er at gøre fakturering af serviceordrerne så let som mulig. Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)], så en feltservicetekniker kan oprette en faktura for en service, der ikke er tilknyttet en kontrakt eller en ordre. Du kan også vælge at konfigurere [!INCLUDE[prod_short](includes/prod_short.md)], så du fakturerer servicekontrakter med jævne mellemrum. Fakturaperioden for den enkelte kontrakt definerer, hvor ofte kontrakten faktureres.
 
-## <a name="to-invoice-several-service-contracts"></a>Sådan fakturerer du flere servicekontrakter
+## Sådan fakturerer du flere servicekontrakter
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opret servicekontraktfakturaer**, og vælg derefter det relaterede link.  
 2. Angiv de filtre, som du vil bruge.  
@@ -24,7 +24,7 @@ En nøgleegenskab i [!INCLUDE[prod_short](includes/prod_short.md)] er at gøre f
   
 Du kan også fakturere en servicekontrakt direkte fra siden **Servicekontrakt**, hvis den næste faktureringsdato på kontrakten ligger tidligere end arbejdsdatoen.
 
-## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Sådan faktureres en servicekontrakt fra siden Servicekontrakt
+## Sådan faktureres en servicekontrakt fra siden Servicekontrakt   
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Servicekontrakter**, og vælg derefter det relaterede link.  
 2. Vælg den servicekontrakt, der skal faktureres, og åbn kontraktkortet.  
@@ -34,7 +34,7 @@ Du kan også fakturere en servicekontrakt direkte fra siden **Servicekontrakt**,
   > [!NOTE]  
   > Du kan ikke oprette servicefakturaer for servicekontrakten, når værdien i feltet **Ændringsstatus** er indstillet til **Åben**.  
 
-## <a name="to-post-an-invoice-from-a-service-order"></a>Sådan bogføres fakturaer fra serviceordrer
+## Sådan bogføres fakturaer fra serviceordrer  
 
 I fremgangsmåden nedenfor er det beskrevet, hvordan du kan definere den del af en service, som kunden skal opkræves for.  
 
@@ -54,7 +54,7 @@ I fremgangsmåden nedenfor er det beskrevet, hvordan du kan definere den del af 
   
  Når du bogfører ordren vha. indstillingen **Fakturer**, oprettes der en bogført servicefaktura sammen med tilsvarende poster, og de relevante felter på servicelinjerne i ordren opdateres. Derudover opdateres leverancedokumenter, der tidligere er bogført, med det fakturerede antal. Hvis du vælger bogføringsindstillingen **Lever og fakturer**, oprettes der også en bogført leverance i programmet.
 
-## <a name="to-create-a-service-invoice-manually"></a>Sådan oprettes en servicefaktura manuelt
+## Sådan oprettes en servicefaktura manuelt  
 
 Når du har bogført en serviceordre vha. indstillingen **Fakturer** eller **Lever og fakturer**, oprettes der automatisk en servicefaktura. Du kan dog alligevel få brug for at skulle udstede en faktura, der ikke er knyttet til en servicekontrakt eller en serviceordre. I denne procedure redegøres for, hvordan du udsteder en faktura på samme tid, som kunden modtager servicen.  
 
@@ -73,7 +73,7 @@ Når du har bogført en serviceordre vha. indstillingen **Fakturer** eller **Lev
 6. I feltet **Bilagsdato** skal du angive en dato, der vises på den udskrevne faktura og anvendes til beregning af forfaldsdatoen.  
 7. Udfyld servicelinjerne i fakturaen. Udfyld felterne **Type**, **Nummer** og **Antal** for at registrere varer, ressourcer og omkostninger, der er anvendt til servicen.
 
-## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>Sådan opretter du en faktura, der kombinerer bogførte leverancelinjer fra en eller flere serviceordrer
+## Sådan opretter du en faktura, der kombinerer bogførte leverancelinjer fra en eller flere serviceordrer 
 
 Der kan være brug for at oprette en servicefaktura for en service, der allerede er leveret, ud fra en eller flere serviceordrer, men som endnu ikke er faktureret eller forbrugt. Du kan udfylde fakturalinjerne automatisk med de valgte bogførte leverancelinjer for en bestemt kunde.  
 
@@ -84,7 +84,7 @@ Der kan være brug for at oprette en servicefaktura for en service, der allerede
   
  Den bogførte servicefaktura og de tilsvarende poster oprettes. De leverancedokumenter, der tidligere er bogført, opdateres med de bogførte antal og antallene på servicelinjerne i kildeordrerne.  
 
-## <a name="to-create-a-service-credit-memo"></a>Sådan oprettes servicekreditnotaer
+## Sådan oprettes servicekreditnotaer  
 
 Du bruger typisk et servicekreditnotadokument, når en kunde returnerer en vare. Du kan dog også bruge det til at refundere en kunde eller til at rette en faktura, der var en fejl.  
 
@@ -93,7 +93,7 @@ Du bruger typisk et servicekreditnotadokument, når en kunde returnerer en vare.
 3. Felterne **Bogføringsdato** og **Bilagsdato** viser arbejdsdagen. Om nødvendigt kan du ændre den.    
 4. På kreditnotalinjerne skal du angive oplysninger om de varer, der er blevet returneret eller fjernet, eller den kompensation, som kunden vil få.  
 
-## <a name="correct-errors-in-service-invoices"></a>Rette fejl i servicefakturaer
+## Rette fejl i servicefakturaer
 
 Du kan slette servicefakturaer, hvor der er tilknyttet serviceposter. Det betyder, at du kan rette fejl eller foretage ændringer i servicefakturaer uden at sidde fast eller miste data. Hvis du f.eks. glemmer at tildele en produktbogføringsgruppe til en finanskonto, kan du tilføje den senere og oprette servicefakturaen igen.
 
@@ -109,7 +109,7 @@ Når du sletter en servicefaktura, sker der følgende:
 >
 > Du kan ikke slette en servicefaktura, hvis dens oplysninger, f.eks. faktureringsperioden eller til/fra-knappen **Forudbetalt**, er blevet ændret i den relaterede servicekontrakt. Sørg for at slette fakturaer, før du ændrer indstillinger i servicekontrakten.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bogføre servicefakturaer](service-how-to-post-service-orders.md)  
 [Konfigurere Service](service-setup-service.md)  

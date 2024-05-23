@@ -1,17 +1,17 @@
 ---
-title: Synkronisering og dataintegration | Microsoft Docs
+title: Synkronisering og dataintegration
 description: Synkroniseringen kopierer data mellem Microsoft Dataverse-tabeller og Business Central-poster og holder data i begge systemer opdateret.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 03/31/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
 ms.search.keywords: 'Dataverse, integration, sync, synchronize, mapping'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synkronisering af data i Business Central med Microsoft Dataverse
+# Synkronisering af data i Business Central med Microsoft Dataverse
 
 Når du integrerer [!INCLUDE[prod_short](includes/cds_long_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)], bliver du bedt om at synkronisere dataene i bestemte felter i [!INCLUDE[prod_short](includes/prod_short.md)]-records (f.eks. kunder, kontakter og sælgere) med tilsvarende rækker i [!INCLUDE[prod_short](includes/cds_long_md.md)] (f.eks. konti, kontakter og brugere). Afhængigt af række-typen kan du synkronisere data fra [!INCLUDE[prod_short](includes/cds_long_md.md)] til [!INCLUDE[prod_short](includes/prod_short.md)], eller omvendt. Du kan finde flere oplysninger i [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
@@ -35,7 +35,7 @@ Når synkroniseringen er konfigureret, du kan sammenkæde [!INCLUDE[prod_short](
 > [!NOTE]
 > Synkroniseringen mellem [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] er baseret på den planlagte kørsel af opgavekøposter og garanterer ikke data konsistens i realtid mellem to tjenester. I forbindelse med realtidsdata conistency du lære om [Virtuelle Business Central-tabeller](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) eller Business Central API'er.   
 
-## <a name="standard-table-mapping-for-synchronization"></a>Standard-tabeltilknytning til synkronisering
+## Standard-tabeltilknytning til synkronisering
 
 Tabeller i [!INCLUDE[prod_short](includes/cds_long_md.md)], f.eks. konti, er integreret med tabeller af samme type i [!INCLUDE[prod_short](includes/prod_short.md)], som f.eks. kunder. For at arbejde med [!INCLUDE[prod_short](includes/cds_long_md.md)]-data, opretter du links, kaldet sammenkædninger mellem tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
@@ -55,11 +55,11 @@ Følgende tabel viser standardtilknytningen mellem tabeller i [!INCLUDE[prod_sho
 > [!NOTE]
 > Disse **Dataverse**-handlinger vil ikke være tilgængelige på sider, f. eks. siden debitorkort, for poster, der ikke overholder tabel filteret i integrations tabel tilknytningen.
 
-### <a name="tip-for-admins-viewing-table-mappings"></a>Tip til administratorer: Visning af tabeltilknytninger
+### Tip til administratorer: Visning af tabeltilknytninger
 
 Du kan få vist tilknytningen mellem tabellerne i [!INCLUDE[prod_short](includes/cds_long_md.md)] og tabellerne i [!INCLUDE[prod_short](includes/prod_short.md)] på siden **Integrationstabeltilknytninger**, hvor du kan også anvende filtre. Du definerer tilknytningen mellem felterne i [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller og kolonnerne i [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabeller på siden **Integreret felttilknytning**, hvor du kan tilføje yderligere tilknytningslogik. Det kan f.eks. være nyttigt, hvis du har brug for fejlfinding i forbindelse med synkronisering.
 
-## <a name="use-virtual-tables-to-get-more-data"></a>Brug virtuelle tabeller til at få flere data
+## Brug virtuelle tabeller til at få flere data
 
 Når du konfigurerer din integration, kan du bruge virtuelle tabeller til at gøre flere data tilgængelige i [!INCLUDE[prod_short](includes/cds_long_md.md)] uden hjælp fra en udvikler.
 
@@ -71,7 +71,7 @@ En virtuel tabel er en brugerdefineret tabel, der har kolonner og rækker, der i
 Hvis du vil vide mere om virtuelle tabeller, skal du gå til følgende artikler:
 
 * [Oprette og redigere virtuelle tabeller, der indeholder data fra en ekstern datakilde](/power-apps/maker/data-platform/create-edit-virtual-entities) (Power Apps-dokumentation)
-* [Business Central-virtuel tabel til Microsoft Dataverse administratorreference](/business-central/dev-itpro/powerplatform/powerplat-admin-reference) ([!INCLUDE [prod_short](includes/prod_short.md)]-dokumentation)
+* [Business Central-virtuel tabel til Microsoft Dataverse administratorreference](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-admin-reference) ([!INCLUDE [prod_short](includes/prod_short.md)]-dokumentation)
 
 Hvis du vil bruge virtuelle tabeller, skal du installere **Business Central Virtual Entity-appen** fra [AppSource](https://appsource.microsoft.com/en-US/product/dynamics-365/microsoftdynsmb.businesscentral_virtualentity). 
 
@@ -81,11 +81,11 @@ Når du har installeret appen, kan du aktivere virtuelle tabeller fra en af føl
 * Fra siderne **Dataverse Forbindelsesopsætning**, **Virtuelle tabeller** og **Tilgængelige virtuelle tabeller**.  
 * Fra Power App Maker Portal.
 
-## <a name="synchronize-data-from-multiple-companies-or-environments"></a>Synkronisere data fra flere firmaer eller miljøer
+## Synkronisere data fra flere firmaer eller miljøer
 
 Du kan synkronisere data fra flere [!INCLUDE [prod_short](includes/prod_short.md)] firmaer eller miljøer med et [!INCLUDE[prod_short](includes/cds_long_md.md)] miljø. I synkroniseringsscenarier med flere firmaer er der flere ting, du skal overveje.
 
-### <a name="set-company-ids"></a>Angive firma-id'er
+### Angive firma-id'er
 
 Når du synkroniserer poster, angiver vi et firma-id på [!INCLUDE[prod_short](includes/cds_long_md.md)] objektet for at tydeliggøre, hvilket [!INCLUDE [prod_short](includes/prod_short.md)] firma posterne stammer fra. Integrationstabeltilknytninger har integrationstabelfilterfelter, der tager højde for firma-id'et. Hvis du vil medtage en tabeltilknytning i en opsætning af flere virksomheder, skal du markere afkrydsningsfeltet **Synkronisering aktiveret med flere firmaer på** siden **Integrering af tabeltilknytning**. Indstillingen optimerer den måde, integrationstabelfilterfelter filtrerer firma-id'er på i en opsætning med flere firmaer.
 
@@ -93,18 +93,18 @@ Hvis du markerer afkrydsningsfeltet Synkronisering aktiveret med flere firmaer, 
 
 For alle andre integrationstabeltilknytninger fjernes filteret på firma-id'et, hvis du markerer afkrydsningsfeltet **Synkronisering aktiveret flere firmaer**. Ved synkroniseringen tages der højde for relaterede enheder, uanset deres firma-id.
 
-### <a name="specify-the-synchronization-direction"></a>Angiv synkroniseringsretningen
+### Angiv synkroniseringsretningen
 
 Hvis du aktiverer understøttelse af flere virksomheder på en integrationstabeltilknytning, anbefales det, at du angiver retningen for tilknytningen til **FromIntegration**. Hvis du angiver retningen **ToIntegration** eller **Tovejs**, er det en god ide at bruge **Tabelfilter** og **Tabelfilter til integration** til at styre, hvilke enheder der synkroniseres med hvilken virksomhed. Det er også en god ide at bruge matchbaseret kobling for at undgå at oprette dublerede poster. Hvis du vil vide mere om matchbaseret sammenkædning, skal du gå til [Tilpas matchbaseret sammenkædning](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#customize-the-match-based-coupling).
 
-### <a name="use-unique-numbers"></a>Brug entydige numre
+### Brug entydige numre
 
 Hvis din nummerserie ikke garanterer, at de primære nøgleværdier er unikke for hver virksomhed, anbefaler vi, at du bruger præfikser. Hvis du vil begynde at bruge præfikser, skal du oprette en transformationsregel for tilknytningen af integrationsfeltet. Du kan få mere at vide om transformationsregler ved at gå til [Håndtere forskelle i feltværdier](admin-how-to-modify-table-mappings-for-synchronization.md#handle-differences-in-field-values).
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Sammenkæde og synkronisere poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md)   
-[Planlæg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
+[Planlægge en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [Integration med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

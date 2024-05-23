@@ -2,15 +2,16 @@
 title: Oprette nummerserie
 description: 'Lær, hvordan du konfigurerer nummerserier, der tildeler entydige ID-koder til konti og dokumenter i Business Central.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'numbers, numbering'
 ms.search.form: '456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31'
-ms.date: 02/26/2024
-ms.author: bholtorf
+ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="create-number-series"></a>Oprette nummerserie
+# Oprette nummerserie
 
 For hver af de virksomheder, som du opretter, skal du knytte entydige id-koder til ting som finanskonti, debitor- og kreditorkonti, fakturaer og andre dokumenter. Nummerering er ikke kun vigtig til identifikation. Et veludviklet nummereringssystem gør det også nemmere at administrere og foretage analyse i virksomheden og kan reducere antallet af dataindtastningsfejl.
 
@@ -31,11 +32,11 @@ Normalt vil du indstille dine nummerserier til automatisk at indsætte det næst
 
 Hvis du vil bruge mere end én nummerseriekode til en type stamdata - hvis du f.eks. vil bruge forskellige nummerserier til forskellige varekategorier - kan du bruge nummerserierelationer.
 
-## <a name="gaps-in-number-series"></a>Huller i nummerserier
+## Huller i nummerserier
 
 Ikke alle de poster, du opretter i [!INCLUDE[prod_short](includes/prod_short.md)], er økonomiske transaktioner, der skal bruge fortløbende nummerering. Debitorkort, salgstilbud og lageraktiviteter er eksempler på poster, der tildeles et nummer fra en nummerserie, men som ikke er underlagt økonomisk revision og/eller kan slettes. For disse nummerserier kan du markere afkrydsningsfeltet **Tillad huller i numre** på siden **Nummerserielinjer**. Denne indstilling kan også ændres, når nummerserien er oprettet. Du kan finde flere oplysninger i [Sådan opretter du en ny nummerserie](ui-create-number-series.md#to-create-a-new-number-series).
 
-## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Egenskaberne for feltet felt på dokumenter og kort
+## Egenskaberne for feltet felt på dokumenter og kort
 
 På salgs-, købs-, overførsels- og servicedokumenter og på alle kort kan **Nummer** felter kan udfyldes automatisk eller fra en foruddefineret nummerserie, eller du kan tilføje dem manuelt. Men i visse tilfælde er feltet **nr.** feltet er usynligt for at forhindre dig i at redigere det.  
 
@@ -59,7 +60,7 @@ Når du åbner et nyt dokument eller kort, der findes en nummerserie for, åbnes
 >
 > Det samme gælder, hvis du bruger funktioner til servicestyring. Du kan løse problemet ved at gå til siden **Serviceopsætning** og vælge feltet **Serviceartikelnumre** for at indstille nummerserien til **Manuel nummerering**.
 
-## <a name="to-create-a-new-number-series"></a>Sådan opretter du en ny nummerserie
+## Sådan opretter du en ny nummerserie
 
 1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Nummerserie**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**.  
@@ -73,7 +74,7 @@ Når du åbner et nyt dokument eller kort, der findes en nummerserie for, åbnes
 
 Du kan tildele nummerserier til de skabeloner, som du opretter til de forskellige typer debitorer og kreditorer, som dine sælgere og indkøbere oftest tilføjer. Hvis det er tilfældet, skal du oprette de relevante nummerserier, knytte dem gennem forhold og derefter tilføje den første nummerserie i den relevante relation til den relevante opsætningsside. Når en bruger opretter en kunde, vælger han derefter den relevante skabelon, og den nye debitor får et nummer, der er tildelt fra den nummerserie, der er defineret for den pågældende skabelon.  
 
-## <a name="to-create-relationships-between-number-series"></a>Sådan oprettes relationer mellem nummerserier
+## Sådan oprettes relationer mellem nummerserier
 
 Hvis du har oprettet mere end en nummerseriekode for samme slags grundlæggende oplysninger eller transaktioner, kan du oprette relationer mellem koderne. Denne funktion kan være en hjælp ved valg af koder, når du bruger et nummer. Når du forbinder en gruppe af nummerserier, knytter du alle de relaterede serier til den samme nummerseriekode. Du kan derefter angive koden i et felt i oversigtspanelet **Nummerering** på en af den relevante opsætningsside, f. eks **Salgsopsætning**.  
 
@@ -85,7 +86,7 @@ Hvis du har oprettet mere end en nummerseriekode for samme slags grundlæggende 
 
 Når du derefter opretter noget, der kræver et nummer, kan du bruge de relationer, du har oprettet, til at vælge mellem de relaterede nummerserier.
 
-## <a name="to-set-up-where-a-number-series-is-used"></a>Sådan definerer du, hvor en nummerserie skal bruges
+## Sådan definerer du, hvor en nummerserie skal bruges
 
 Følgende procedure viser, hvordan du konfigurerer nummerserieren for området Salg. Trinene er som for andre områder.  
 
@@ -94,7 +95,7 @@ Følgende procedure viser, hvordan du konfigurerer nummerserieren for området S
 
 Det valgte nummer bliver nu brugt til at udfylde feltet **Nummer** på det relevante kort eller dokument i overensstemmelse med de valgte indstillinger på nummerserielinjen.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

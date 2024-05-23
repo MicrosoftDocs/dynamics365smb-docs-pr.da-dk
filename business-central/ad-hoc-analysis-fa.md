@@ -34,7 +34,8 @@ Følgende afsnit indeholder eksempler på faste anlægsscenarier i [!INCLUDE [pr
 | Område | Til... | Åbn denne side i analysetilstand | Brug af disse felter |
 | ---- | ----- | ------------------------------- |------------------- |
 | [Anlægsaktiver (nutidsværdi)](#example-fixed-assets-current-value) | Spor aktivværdien, både på tværs af alle aktiver og på et enkelt aktiv. | [Anlægsfinansposter](https://businesscentral.dynamics.com/?page=5604) | **Afskrivningsprofil**, **Anlægsnr.**, **Bogføringsdato for anlæg**, **Anlægsbogføringstype** og **Beløb** |
-|[Eksempel: afskrivning af anlægsaktiver over tid](#example-fixed-asset-depreciations-over-time) | Spor afskrivninger over tid, både på tværs af alle aktiver og på et enkelt aktiv. | [Anlægsfinansposter](https://businesscentral.dynamics.com/?page=5604) | **Afskrivningsprofil**, **Anlægsnr.**, **Bogføringsdato for anlæg**, **Anlægsbogføringstype**, **Beløb** og **Anlægsbogføringstype** |
+| [Aktivværdien ændres over tid](#example-asset-value-changes-over-time) | Spor aktivværdien ændres over tid. | [Anlægsfinansposter](https://businesscentral.dynamics.com/?page=5604) | **Anlægsbogføringstype**, **Anlægsbogføringsdato** og **Beløb** |
+|[Afskrivning af anlægsaktiver over tid](#example-fixed-asset-depreciations-over-time) | Spor afskrivninger over tid, både på tværs af alle aktiver og på et enkelt aktiv. | [Anlægsfinansposter](https://businesscentral.dynamics.com/?page=5604) | **Afskrivningsprofil**, **Anlægsnr.**, **Bogføringsdato for anlæg**, **Anlægsbogføringstype**, **Beløb** og **Anlægsbogføringstype** |
 
 ### Eksempel: anlægsaktiver med nutidsværdi
 
@@ -51,13 +52,29 @@ Følgende billede viser resultatet af disse trin.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Eksempel på, hvordan du kan udføre dataanalyse på siden Anlægsposter for at se værdien af et aktiv." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
 
+### Eksempel: aktivværdien ændres over tid
+
+Følg disse trin for at spore ændringer i aktivværdien over tid:
+
+1. Åbn [Anlægsposter for varer](https://businesscentral.dynamics.com/?page=5604)-listen, og vælg :::image type="content" source="media/analysis-mode-icon.png" alt-text="Aktivér analysetilstand."::: tænd for analysetilstand.
+1. Gå til menuen **Kolonner**, og fjern alle kolonner (markér feltet ud for feltet **Søg** i højre side).
+1. Aktiver **Pivot-tilstand** (placeret direkte over **Søg** feltet i højre side).
+1. Træk feltet **Anlægsbogføringstype** til området **Rækkegruppe**.
+1. Træk felterne **Bogføringsår for anlæg** og **Bogføringsmåned for anlæg** til området **Kolonnenavne**.
+1. Træk feltet **Beløb** til området **Værdier**.
+1. Omdøb din analysefane til **Aktivværdien ændres over tid** eller noget, der beskriver denne analyse.
+
+Følgende billede viser resultatet af disse trin.
+
+:::image type="content" source="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png" alt-text="Eksempel på, hvordan du kan udføre dataanalyse på siden Anlægsposte over tid." lightbox="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png":::
+
 ### Eksempel: afskrivning af anlægsaktiver over tid
 
 Følg disse trin for at spore afskrivningen af et eller flere anlægsaktiver:
 
 1. Åbn [Anlægsposter for varer](https://businesscentral.dynamics.com/?page=5604)-listen, og vælg :::image type="content" source="media/analysis-mode-icon.png" alt-text="Aktivér analysetilstand."::: tænd for analysetilstand.
 1. Gå til menuen **Kolonner**, og fjern alle kolonner (markér feltet ud for feltet **Søg** i højre side).
-1. Aktiver **Pivot* tilstand** (placeret direkte over **Søg** feltet i højre side).
+1. Aktiver **Pivot-tilstand** (placeret direkte over **Søg** feltet i højre side).
 1. Træk **afskrivningsprofilen** og **anlægsnummeret** til området **Rækkegrupper**.
 1. Træk felterne **Bogføringsår for anlæg** og **Bogføringsmåned for anlæg** til området **Kolonnenavne**.
 1. Træk feltet **Beløb** til området **Værdier**.
@@ -72,10 +89,16 @@ Følgende billede viser resultatet af disse trin.
 
 Når du bogfører anlægskladder [!INCLUDE [prod_short](includes/prod_short.md)], oprettes der poster i tabellen **Anlægspost**. Derfor udføres ad hoc-analyser af anlægsaktiver typisk på siden [Anlægsposter](https://businesscentral.dynamics.com/?page=5604).
 
+## Bidragydere
+
+*Microsoft vedligeholder denne artikel. Dele af eksemplerne blev oprindeligt skrevet af følgende bidragyder.*
+
+* [Aldona Stec](https://www.linkedin.com/in/aldona-stec-25283bb1) | [!INCLUDE[prod_short](includes/prod_short.md)] Konsulent
+
 ## Se også
 
 [Analysere liste- og forespørgselsdata med analysetilstand](analysis-mode.md)  
-[Oversigt over anlægsaktivsanalyser](fa-analytics-overview.md)  
+[Oversigt over analyse af anlægsaktiver](fa-analytics-overview.md)  
 [Analyse, Business Intelligence og rapporteringsoversigt](reports-bi-reporting.md)  
 [Oversigt over anlægsaktiver](fa-manage.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

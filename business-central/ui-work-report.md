@@ -3,7 +3,7 @@ title: Køre og udskrive rapporter
 description: 'Få mere at vide om, hvordan du angiver en rapport i en opgavekø og planlægger, at den skal afvikles på en bestemt dato og tidspunkt.'
 author: jswymer
 ms.author: jswymer
-ms.reviewer: altotovi
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, Word, dataset'
 ms.search.form: null
@@ -11,20 +11,20 @@ ms.date: 09/04/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="run-and-print-reports"></a>Køre og udskrive rapporter
+# Køre og udskrive rapporter
 
 En rapport indsamler oplysninger baseret på et nærmere angivet sæt kriterier. Den organiserer og præsenterer oplysninger i det læsevenlige format, som du kan udskrive eller gemme som en fil. Der er mange rapporter, du kan få adgang til, i hele programmet. Rapporterne indeholder typisk oplysninger i forhold til konteksten for den viste side. For eksempel indeholder siden **Debitor** rapporter om de 10 bedste kunder, salgsstatistik og mere.
 
 > [!NOTE]
 > Kørsler og XMLporte udfører mere eller mindre det samme som rapporter, men som bruges med henblik på at udføre en proces eller eksportere data. F.eks. opretter kørslen **Opret rykkere** rykkerdokumenter til debitorer med forfaldne betalinger. I denne artikel omtales hovedsageligt "rapporter", men lignende oplysninger gælder for kørsler og XMLporte.
 
-## <a name="get-started"></a>Kom i gang
+## Kom i gang
 
 Du kan finde rapporter i menuen **Rapporter** på markerede sider, lister og kort, eller du kan bruge søgefunktionen ![Lightbulb, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"). for at finde rapporter efter navn. Du kan se en oversigt over indbyggede rapporter, som du kan bruge i [!INCLUDE[prod_short](includes/prod_short.md)]sorteret efter kategorier, i [Tilgængelige rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md).
 
 Når du vælger en rapport, får du typisk vist en anmodningsside - opkaldt efter rapportens navn - hvor du kan angive forskellige indstillinger og filtre, som bestemmer, hvilke data der skal inkluderes. I følgende afsnit forklares det, hvordan du kan bruge anmodningssiden til at oprette, få vist og udskrive en rapport.
 
-## <a name="using-default-valuesmdashpredefined-settings"></a><a name="SavedSettings"></a>Bruge standardværdier - foruddefinerede indstillinger
+## <a name="SavedSettings"></a>Bruge standardværdier - foruddefinerede indstillinger
 
 De fleste rapporter med anmodninger indeholder feltet **Brug standardværdier fra**. I dette felt kan du vælge foruddefinerede indstillinger for rapporten, som automatisk angiver indstillinger og filtre. Vælg en post på rullelisten, og du kan se indstillingerne og filtrene på anmodningssiden i overensstemmelse med ændringerne.
 
@@ -35,7 +35,7 @@ feltet **Brug standardværdier fra** giver en hurtig og pålidelig metode til at
 > [!NOTE]
 > De foruddefinerede indstillinger konfigureres typisk og administreres af en administrator. Flere oplysninger [Administrere gemte indstillinger for rapporter og kørsler](reports-saving-reusing-settings.md).
 
-## <a name="specifying-the-data-to-include-in-a-report"></a>Angive dataene, der skal medtages i rapporter
+## Angive dataene, der skal medtages i rapporter
 
 Brug felterne under **Indstillinger** og **Filtre** til at ændre eller begrænse de oplysninger, du vil have i rapporten. Du kan angive filtre i en rapport mere eller mindre på samme måde, som du angiver filtre på lister. Der er flere oplysninger i [Filtrering](ui-enter-criteria-filters.md#filtering)-afsnittet.
 
@@ -46,7 +46,7 @@ Brug felterne under **Indstillinger** og **Filtre** til at ændre eller begræns
 >
 > **Eksempel**: Når du bruger kørslen **Opret rykkere**, bliver et filter for feltet **Debitorposter** i **Niv. for sidst udstedte rykker** ignoreret, fordi filtrene er fastsat for kørslen.
 
-## <a name="previewing-a-report"></a>Visning af en rapport
+## Visning af en rapport
 
 Når du får vist et eksempel på en rapport, kan du se, hvordan rapporten vil se ud, før du udskriver den. Eksemplet er ikke baseret på, at der vælges en printer i feltet **Printer** på anmodningssiden. Det styres af browseren. Når du har vist eksemplet, kan du gå tilbage til anmodningssiden og foretage ændringer af indstillinger og filtre efter behov.
 
@@ -55,7 +55,7 @@ Vælg Forhåndsversionsvalgene på siden **Rapportanmodning** afhænger af rappo
 > [!NOTE]
 > Hvis du bruger Business Central 2020 udgivelsesbølge 1 eller ældre, vises kun knappen **Forhåndsversion**, som lukker anmodningssiden ved eksempelvisning, som beskrevet for **Forhåndsversion og luk**.
 
-### <a name="work-with-the-preview"></a>Arbejde med forhåndsversion
+### Arbejde med forhåndsversion
 
 Brug menulinjen i rapporteksemplet til at:
 
@@ -72,7 +72,7 @@ Brug menulinjen i rapporteksemplet til at:
 - Hent til en PDF-fil på din computer eller netværket.
 - Udskriv
 
-## <a name="saving-a-report-to-a-file"></a>Gemme en rapport i en fil
+## Gemme en rapport i en fil
 
 Du kan gemme en rapport som et PDF-dokument, Microsoft Word-dokument eller Microsoft Excel-projektmappe eller XML-dokument ved at vælge **Send til**, og derefter vælge den ønskede indstilling. En fil vil blive downloadet på din enhed.
 
@@ -83,7 +83,7 @@ Hvis organisationen har konfigureret OneDrive til systemfunktioner i stedet for 
 >
 > Du kan også bruge **Microsoft Excel-dokumentet (kun data)** til at oprette nye Excel-layout til en bestemt rapport. Flere oplysninger i [Arbejde med Excel-layouts](ui-excel-report-layouts.md).  
 
-## <a name="scheduling-a-report-to-run-later-or-periodically"></a><a name="ScheduleReport"></a>Planlægge senere eller periodisk kørsel af en rapport
+## <a name="ScheduleReport"></a> Planlægge senere eller periodisk kørsel af en rapport
 
 Du kan planlægge enkelt eller gentagne kørsel(ler) af en rapport på en bestemt dato og et bestemt klokkeslæt. Planlagte rapporter indsættes i jobkøen og behandles på det planlagte tidspunkt, ligesom andre job. Du vælger indstillingen **Skema**, når du har valgt knappen **Send til**, og derefter angiver du oplysninger som f.eks. printer og klokkeslæt og dato. Rapporten føjes derefter til opgavekøen og køres på det angivne tidspunkt. Når rapporten er behandlet, fjernes elementet fra jobkøen. Flere oplysninger under [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).  
 
@@ -91,7 +91,7 @@ Når du planlægger en rapport til kørsel, kan du angive, at den skal køre hve
 
 Du kan vælge at gemme den behandlede rapport i en fil (f.eks. Excel, Word eller PDF), udskrive den til den ønskede printer eller kun generere rapporten. Hvis du vælger at gemme rapporten i en fil, bliver den behandlede rapport sendt til området **Rapportindbakke** i dit rollecenter, hvor du kan se den. Flere oplysninger i [Dele og eksportere rapporter med rapportindbakken](ui-work-report-inbox.md)
 
-### <a name="manage-scheduled-recurring-reports"></a>Administrere planlagte gentagelsesrapporter
+### Administrere planlagte gentagelsesrapporter
 
 Planlagte rapporter genereres af batchjob, der administreres på siden **Opgavekøposter**. Du kan se status og andre oplysninger for hver rapport på siden, sætte en pause/genoptage rapport batchjobbet og generere rapporten efter behov.
 
@@ -106,13 +106,13 @@ Når du har redigeret rapportindstillingerne, skal du gentage de to første trin
 
 Få mere at vide om styring af jobkøer i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).  
 
-## <a name="printing-a-report"></a><a name="PrintReport"></a>Udskrive en rapport
+## <a name="PrintReport"></a>Udskrive en rapport
 
 Du kan udskrive en rapport ved at vælge **Udskriv** på rapportanmodningssiden eller på menulinjen på siden **Eksempel**.
 
 Når en rapport bruger Excel-layout, kan du ikke se feltet **Printer**, knappen **Udskriv** eller **Vis udskrift**. Der findes i stedet en knap **Download**. Hvis du vil udskrive, skal du vælge **Download** og derefter åbne den hentede fil i Excel og udskrive derfra.
 
-### <a name="printer"></a><a name="Printer"></a>Printer
+### <a name="Printer"></a>Printer
 
 Feltet **Printer** på rapportanmodningssiden viser navnet på den printer, rapporten sendes til. Hvis du vil ændre en printer, skal du blot vælge printeren på listen.
 
@@ -122,13 +122,13 @@ Feltet **Printer** på rapportanmodningssiden viser navnet på den printer, rapp
 > [!TIP]
 > Den printer, der er valgt som standard, er konfigureret på siden **Printervalg**. Få mere at vide om at ændre standardprinteren i [Konfigurere standardprintere](ui-specify-printer-selection-reports.md#default).
 
-### <a name="printing-reports-in-thai"></a>Udskrive rapporter på thailandsk
+### Udskrive rapporter på thailandsk
 
 Knappen **Udskriv** er specifik for Thai-versionen af [!INCLUDE[prod_short](includes/prod_short.md)], men kan ikke udskrive rapporter korrekt pga. begrænsninger i den tjeneste, der genererer PDF-filen, som kan udskrives. Du kan i stedet åbne rapporten i Word og derefter gemme rapporten som en PDF-fil, der kan udskrives.  
 
 Du kan også bede administratoren om at oprette et Word-rapportlayout til de mest anvendte rapporter. Flere oplysninger i [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md).  
 
-## <a name="switching-the-report-layout"></a>Skifte rapportlayoutet
+## Skifte rapportlayoutet
 
 Et rapportlayout bestemmer, hvad der skal vises i en rapport, hvordan det arrangeres, og hvilken typografi der anvendes. Dette kan gøres på et par måder:
 
@@ -137,7 +137,7 @@ Et rapportlayout bestemmer, hvad der skal vises i en rapport, hvordan det arrang
 
 Flere oplysninger [Angive det layout, der bruges af en rapport](ui-set-report-layout.md). Eller du kan tilpasse din egen rapportlayout, skal du se [Introduktion til oprettelse af layout](ui-get-started-layouts.md).
 
-## <a name="change-language-and-format-of-numbers-dates-and-times"></a>Ændre sprog og format for tal, datoer og klokkeslæt
+## Ændre sprog og format for tal, datoer og klokkeslæt
 
 Sproget i tal og format af tal, datoer og klokkeslæt er som standard baseret på dine indstillinger for arbejdssprog og område, der er defineret på siden **Mine indstillinger**. Du kan imidlertid ændre sproget og formatområdet i tilfælde af, hvordan du får vist, udskriver eller sender en rapport. Vælg **Sprog** på anmodningssiden, og angiv derefter indstillingerne for **Formatområde** efter behov. Du kan også angive det sprog- og områdeformat, der som standard skal bruges for debitorer og kreditorer på deres kortsider.
 
@@ -150,7 +150,7 @@ Afhængigt af hvor du har angivet sprog- og formatindstillingerne, bestemmer [!I
 
 Du kan finde flere oplysninger om **Mine indstillinger** ved at gå til [Ændre basisindstillinger](ui-change-basic-settings.md#region).
 
-## <a name="advanced-options"></a>Avancerede indstillinger
+## Avancerede indstillinger
 
 Felterne under oversigtspanelet **Avanceret** angiver begrænsninger for den genererede rapport til styring af printerressourcer. Du behøver normalt ikke at ændre disse indstillinger, medmindre du har en stor rapport. Hvis en rapport overskrider disse begrænsninger, når du prøver at få vist eller udskrive, vises der en meddelelse om, hvilken begrænsning der er overskredet. Du kan derefter ændre indstillingerne, så de passer til din rapport. Hvert felt har imidlertid en maksimumværdi, som du skal være opmærksom på:
 
@@ -163,7 +163,7 @@ Felterne under oversigtspanelet **Avanceret** angiver begrænsninger for den gen
 > [!NOTE]
 > De maksimale værdier kan være forskellige for [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, og en administrator kan ændre dem. Flere oplysninger i [Konfiguration af Business Central Server - Rapporter](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Du kan få vist en oversigt over rapportbegrænsninger i [!INCLUDE[prod_short](includes/prod_short.md)] online i [Driftsgrænser](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilgængelige rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
 [Bruge rapporter i dagligt arbejde](reports-use-reports.md)  

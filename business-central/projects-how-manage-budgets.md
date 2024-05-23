@@ -3,7 +3,7 @@ title: Konfigurere og administrere et budget for et projekt
 description: 'Beskriver, hvordan du planlægger ressourcer og estimerer og styrer omkostningerne for et projekt ved at oprette et budget for hvert projekt.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'project budget, forecast'
 ms.search.form: '1002, 1007'
@@ -11,13 +11,13 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="manage-project-budgets"></a>Administrere projektbudgetter
+# Administrere projektbudgetter
 
 Du kan oprette et budget for hvert projekt. Budgettet bruges til at planlægge de ressourcer, som du kan allokere til et projekt. Budgettet kan enten være generelt med få poster, eller det kan indeholde flere poster, der er inddelt i aktivitetsniveauer. Du kan derefter sammenligne de budgetterede beløb med det faktiske forbrug som registreret i projektkladden. Ved at overvåge forskellene mellem det faktiske forbrug og det budgetterede forbrug kan du kontrollere et igangværende projekt og forbedre kvaliteten af fremtidige projekter ved at reducere risikoen for at undervurdere omkostningerne.
 
 Følgende fremgangsmåde beskriver, hvordan du vurderer budgetterede omkostninger under planlægningen. Du kan finde oplysninger om registrering af budgetterede og faktiske projektpriser og -omkostninger i [Registrere forbrug for projekter](projects-how-record-job-usage.md).  
 
-## <a name="to-estimate-the-budgeted-costs-for-a-project"></a><a name="JobBudgetCosts"></a>Sådan vurderes de budgetterede omkostninger for et projekt
+## <a name="JobBudgetCosts"></a> Sådan vurderes de budgetterede omkostninger for et projekt
 
 Når en debitor vil have oplyst prisen for et projekt, som faktureres på basis af forbrug, skal du bestemme det budgetterede kostbeløb for projektet. Det gør du på siden **Projektopgavelinjer**.
 
@@ -44,7 +44,7 @@ På siden **Projektkort** , kan du nu se en oversigt over de samlede budgettered
 
 Du kan finde oplysninger om registrering af budgetterede og faktiske projektpriser og -omkostninger i [Registrere forbrug for projekter](projects-how-record-job-usage.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Projektstyring](projects-manage-projects.md)  
 [Finans](finance.md)  

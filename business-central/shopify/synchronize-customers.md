@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
 
-# <a name="synchronize-customers-and-companies"></a>Synkronisere debitorer og virksomheder
+# Synkronisere debitorer og virksomheder
 
 Når en ordre importeres fra Shopify, er oplysningerne om debitor nødvendig for at kunne behandle dokumentet yderligere i [!INCLUDE[prod_short](../includes/prod_short.md)]. Der findes to hovedindstillinger for dette og flere kombinationer:
 
@@ -30,7 +30,7 @@ Hvis du vil eksportere en debitor fra [!INCLUDE[prod_short](../includes/prod_sho
 * Eksportere en debitor som Shopify-debitor til DTC.
 * Eksportere en debitor som en virksomhed og et debitorpar til B2B-flowet.
 
-## <a name="important-settings-when-importing-dtc-customers-from-shopify"></a>Vigtige indstillinger, når du importerer DTC-debitorer fra Shopify
+## Vigtige indstillinger, når du importerer DTC-debitorer fra Shopify
 
 Uanset om du masseimporterer debitorer fra Shopify eller importerer ordrer, skal du bruge følgende indstillinger til at administrere processen:
 
@@ -42,7 +42,7 @@ Uanset om du masseimporterer debitorer fra Shopify eller importerer ordrer, skal
 |**Opret automatisk ukendte debitorer**| Marker dette felt, hvis du vil have connectoren til at oprette manglende kunder, når indstillingerne **pr. e-mail/telefon** eller **pr. faktureringsoplysninger** er valgt i feltet **Debitortilknytningstype**. Der oprettes en ny debitor ved hjælp af de importerede data og **kundeskabelonkoden**, der er defineret på siden med **Shopify-butikskort** eller **Shopify-debitorskabeloner**. Bemærk, at Shopify-debitor skal have mindst én adresse. Ordrer, der er oprettet via salgskanalen Shopify POS, mangler ofte adressedetaljer. Hvis denne indstilling ikke er aktiveret, skal du oprette debitoren manuelt og knytte den til Shopify-debitoren.|
 |**Skabelonkode for debitor/virksomhed**|Brug dette felt sammen med **Opret automatisk ukendte debitorer**.</br></br>Vælg den standardskabelon, der skal bruges til automatisk oprettede debitorer. Kontroller, at den valgte skabelon indeholder de obligatoriske felter, f.eks. **Virksomhedsbogføringsgruppe**, **Debitorbogføringsgruppe** og moms- eller skatterelaterede felter.</br></br>Du kan definere skabeloner pr. land/område på siden **Shopify-debitorskabeloner**, som er nyttige i forbindelse med beregning af afgifter.</br></br>Få flere oplysninger [Konfigurere moms](setup-taxes.md).|
 
-### <a name="customer-template-per-countryregion"></a>Debitorskabelon pr. land/område
+### Debitorskabelon pr. land/område
 
 Nogle indstillinger kan defineres på lande/regionalt niveau eller på niveauet stat/provins. Indstillingerne kan konfigureres i [Forsendelse og levering](https://www.shopify.com/admin/settings/shipping) på Shopify.
 
@@ -56,7 +56,7 @@ Du kan gøre følgende for hver kunde ved hjælp af **Shopify -kundeskabelonen**
 > [!NOTE]  
 > Landekoderne er ISO 3166-1 Alfa-2-landekoder. Flere oplysninger om [Landekode](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
 
-## <a name="important-settings-when-exporting-dtc-customers-to-shopify"></a>Vigtige indstillinger, når du eksporterer DTC-debitorer til Shopify
+## Vigtige indstillinger, når du eksporterer DTC-debitorer til Shopify
 
 Eksisterende kunder kan masseeksporteres til Shopify. I hvert tilfælde oprettes der en kunde og en standardadresse. Du kan bruge følgende indstillinger til at administrere processen:
 
@@ -79,7 +79,7 @@ Der er følgende krav til eksport af en debitor:
 
 Når du har oprettet debitorerne i Shopify, kan du sende dem direkte invitationer for at opfordre dem til at aktivere deres konti.
 
-### <a name="populate-customer-information-in-shopify"></a>Udfyld kundeoplysninger i Shopify
+### Udfyld kundeoplysninger i Shopify
 
 En debitor i Shopify har et fornavn, et efternavn, en mailadresse og/eller et telefonnummer. Du kan udfylde fornavn og efternavn baseret på dataene fra debitorkortet i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -98,9 +98,9 @@ En debitor i Shopify har også en standardadresse. Ud over fornavn, efternavn, m
 
 I forbindelse med adresser, hvor land/provins anvendes, skal du vælge **Kode** eller **Navn** i feltet **Navn på amt** på siden **Shopify Butikskort**. Koden eller navnet angiver den type data, der er gemt i [!INCLUDE[prod_short](../includes/prod_short.md)] i feltet **Land**. Husk at initialisere kundeskabeloner pr. land/område, så lande/områdekode/navnetilknytning er klar. 
 
-## <a name="export-dtc-customers-to-shopify"></a>Eksportere DTC-debitorer til Shopify
+## Eksportere DTC-debitorer til Shopify
 
-### <a name="initial-sync-of-customers-from-business-central-to-shopify"></a>Oprindelig synkronisering af debitorer fra Business Central til Shopify
+### Oprindelig synkronisering af debitorer fra Business Central til Shopify
 
 1. Gå til søgning ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify-kunder**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Tilføj debitor**.
@@ -113,7 +113,7 @@ De resulterende debitorer oprettes automatisk i Shopify med adresser.
 > [!NOTE]  
 > Indledende synkronisering af debitorer fra [!INCLUDE[prod_short](../includes/prod_short.md)] til Shopify anvender ikke indstillingen **Kan opdatere Shopify-debitorer**.
 
-### <a name="sync-customers"></a>Synkronisere debitorer
+### Synkronisere debitorer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify butik**, og vælg derefter det relaterede link.
 2. Marker den butik, som du vil synkronisere debitorer til.
@@ -123,11 +123,11 @@ Du kan også bruge handlingen **Start debitorsynkronisering** i vinduet **Shopif
 
 Du kan planlægge, at følgende tilbagevendende aktiviteter skal udføres automatisk. Få mere at vide, når du [planlægger tilbagevendende opgaver](background.md#to-schedule-recurring-tasks).
 
-## <a name="b2b-companies"></a>B2B-virksomheder
+## B2B-virksomheder
 
 Hvis du bruger B2B i Shopify, kan du ud over debitorer også oprette virksomheder. Du kan knytte en eller flere individuelle debitorer til en virksomhed. Du kan også definere betalingsbetingelser, lokationer og kataloger.
 
-## <a name="important-settings-when-importing-b2b-companies-from-shopify"></a>Vigtige indstillinger, når du importerer B2B-virksomheder fra Shopify
+## Vigtige indstillinger, når du importerer B2B-virksomheder fra Shopify
 
 Uanset om du masseimporterer virksomheder fra Shopify eller importerer ordrer, skal du bruge indstillinger i følgende tabel til at administrere processen.
 
@@ -144,7 +144,7 @@ Uanset om du masseimporterer virksomheder fra Shopify eller importerer ordrer, s
 > Der importeres kun én ældste lokation.
 > Kun den primære kontakten importeres.
 
-## <a name="important-settings-when-exporting-b2b-companies-to-shopify"></a>Vigtige indstillinger, når du eksporterer B2B-virksomheder til Shopify
+## Vigtige indstillinger, når du eksporterer B2B-virksomheder til Shopify
 
 Eksisterende debitorer kan masseeksporteres til Shopify som en virksomhed. I hvert tilfælde oprettes der en virksomhed og én standardlokation og en primær kontakt. Det er også muligt at oprette et katalog.
 
@@ -154,9 +154,9 @@ Eksisterende debitorer kan masseeksporteres til Shopify som en virksomhed. I hve
 |**Standardkontakttilladelser**| Angiv, hvilke tilladelser der skal tildeles den primære kontakt. Du kan vælge mellem **Ingen**, **Kun bestilling** og **Placeringsadministrator**.|
 |**Opret katalog automatisk**| Aktivér denne indstilling, hvis du vil oprette et katalog, der omfatter alle produkter. Der oprettes et katalog for hver eksporteret virksomhed.|
 
-## <a name="export-a-b2b-company-to-shopify"></a>Eksportere en B2B-virksomhed til Shopify
+## Eksportere en B2B-virksomhed til Shopify
 
-### <a name="initial-sync-of-b2b-companies-from-business-central-to-shopify"></a>Oprindelig synkronisering af B2B-virksomheder fra Business Central til Shopify
+### Oprindelig synkronisering af B2B-virksomheder fra Business Central til Shopify
 
 1. Gå til søgning ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , skriv **Shopify-virksomhed**, og vælg det relevante link.
 2. Vælg handlingen **Tilføj virksomhed**.
@@ -169,7 +169,7 @@ De resulterende virksomheder og debitorer oprettes automatisk i Shopify.
 > [!NOTE]  
 > Indledende synkronisering af virksomheder fra [!INCLUDE[prod_short](../includes/prod_short.md)] til Shopify anvender ikke indstillingen **Kan opdatere Shopify-virksomheder**.
 
-### <a name="sync-b2b-company"></a>Synkronisere B2B-virksomhed
+### Synkronisere B2B-virksomhed
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify butik**, og vælg derefter det relaterede link.
 2. Marker den butik, som du vil synkronisere debitorer til.
@@ -179,6 +179,6 @@ Du kan også bruge handlingen **Start synkronisering af virksomhed** på siden *
 
 Du kan planlægge, at opgaven skal udføres automatisk. Få mere at vide, når du [planlægger tilbagevendende opgaver](background.md#to-schedule-recurring-tasks).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Kom i gang med Connectoren til Shopify](get-started.md)  

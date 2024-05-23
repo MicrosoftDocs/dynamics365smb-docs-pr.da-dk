@@ -3,7 +3,7 @@ title: Oprette nye virksomheder ved hjælp af en assisterende opsætningsvejledn
 description: 'Det er nemt at oprette en ny, tom virksomhed i Business Central. En assisterede opsætningsvejledning hjælper dig gennem trinene, og du kan indlæse forretningsdata.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 03/08/2024
 ms.custom: bap-template
@@ -11,7 +11,7 @@ ms.search.keywords: 'company, setup wizard'
 ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-new-companies-in-"></a>Opret nye virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)]
+# Opret nye virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] bliver beholderen til forretningsdata, der hører til en afdeling eller en juridisk enhed, kaldet en *virksomhed*. Når du logger på [!INCLUDE[prod_short](includes/prod_short.md)], får du angivet et demoregnskab og en tom virksomhed, *Min virksomhed*. Det er nemt at skifte mellem virksomhederne: Du skal bare gå til **Mine indstillinger** og flytte til den anden virksomhed. Men du kan også oprette nye virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)], afhængigt af dine forretningsmæssige behov.  
 
@@ -22,7 +22,7 @@ Når du opretter en ny virksomhed, hjælper en assisterede opsætningsvejledning
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="choose-the-right-template"></a>Vælge den rigtige skabelon
+## Vælge den rigtige skabelon
 
 Hvis du vil indsætte en virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)], kan du bruge den assisterende opsætningsvejledning **Opret ny virksomhed** for at komme i gang. Opsætningsvejledningen er tilgængelig fra siden **Virksomheder** og fra opslag i feltet **Virksomhed** på siden **Mine indstillinger**.  
 
@@ -45,7 +45,7 @@ Under din 30-dages prøveperiode kan du oprette et ubegrænset antal nye virksom
 
 Administratoren kan få mere at vide om forsøg og abonnement [her](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
-## <a name="copy-a-company"></a>Kopiér virksomhed
+## Kopiér virksomhed
 
 På siden **Virksomheder** kan du bruge handlingen **Kopiér** til at oprette endnu en virksomhed baseret på indholdet af en eksisterende virksomhed. Det er f.eks. nyttigt at kopiere en virksomhed, hvis du vil teste en virksomhed uden at afbryde produktionsdata.
 
@@ -56,7 +56,7 @@ På siden **Virksomheder** kan du bruge handlingen **Kopiér** til at oprette en
 
 [!INCLUDE [dataverse-copy-company](includes/dataverse-copy-company.md)]
 
-## <a name="set-up-the-company"></a>Konfigurere virksomheden
+## Konfigurere virksomheden
 
 Når du logger på en ny virksomhed, vil den assisterede opsætningsguide **Virksomhedsopsætning** hjælpe dig i gang. Guiden vil bede dig om at angive oplysninger om virksomheden, f.eks. adresse, bankoplysninger og lagerets kostmetode. Disse oplysninger danner grundlag for mange områder i [!INCLUDE[prod_short](includes/prod_short.md)], så du ikke behøver at konfigurere dem manuelt.  
 
@@ -64,24 +64,24 @@ F.eks. omfatter [!INCLUDE [prod_short](includes/prod_short.md)] din firmaadresse
 
 Når du har styr på det grundlæggende, kan du oprette de resterende centrale områder. Du er klar til at tilføje forretningsdata, f.eks. debitorer og kreditorer. Du kan finde flere oplysninger i [Konfiguration [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## <a name="companies-and-environments"></a>Virksomheder og miljøer
+## Virksomheder og miljøer
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
 Du kan finde flere oplysninger i [Skifte til en anden virksomhed eller et andet miljø](ui-organization-switch.md). Du kan finde flere oplysninger om miljøer i [Beskrivelse af infrastruktur i Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology) (kun engelsk version).  
 
-## <a name="changing-a-companys-name"></a>Ændring af et virksomhedsnavn
+## Ændring af et virksomhedsnavn
 
 Når du opretter en virksomhed, kan du ikke ændre navnet. Men du kan ændre det **Visningsnavn**, som er tekst, der vises for virksomheden i hele programmet.  
 
 > [!TIP]
 > Du kan omdøbe et regnskab, hvis du bruger [!INCLUDE[prod_short](includes/prod_short.md)] lokalt.
 
-## <a name="add-contoso-coffee"></a>Tilføj Contoso Coffee
+## Tilføj Contoso Coffee
 
 Contoso Coffee-app indeholder demonstrationsdata, som du kan bruge til at undersøge de avancerede muligheder i [!INCLUDE [prod_short](includes/prod_short.md)]. Find appen i AppSource, og Installer den i en tom virksomhed, f. eks. en virksomhed i et sandkassemiljø. Du kan finde flere oplysninger i [Introduktion til Contoso Coffee - demodata](contoso-coffee/contoso-coffee-intro.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilpasse Business Central](ui-customizing-overview.md)  
 [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
