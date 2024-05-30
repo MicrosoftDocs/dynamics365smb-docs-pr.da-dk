@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analysis-of-sales-data"></a>Ad hoc-analyse af salgsdata
+# Ad hoc-analyse af salgsdata
 
 I artikel beskriver, hvordan du bruger funktionen **Dataanalyse** til at analysere salgsdata direkte fra listesider og forespørgsler. Du behøver ikke at køre en rapport eller skifte til et andet program, f.eks. Excel. Funktionen indeholder en interaktiv og alsidig måde at beregne, opsummere og gennemgå data på. I stedet for at køre rapporter med indstillinger og filtre kan du tilføje flere faner, der repræsenterer forskellige opgaver eller visninger på dataene. Nogle eksempler er "Mine debitorer" eller "Salgsstatistik" eller enhver anden visning, du kan forestille dig. Du kan få mere at vide om, hvordan du bruger funktionen **Dataanalyse** ved at gå til [Analysér liste og forespørge på data med analysetilstand](analysis-mode.md).
 
@@ -25,7 +25,7 @@ Brug følgende listesider til ad hoc-analyse af salgsprocesser:
 - Bogførte salgsfakturaer
 - Salgsreturordrer
 
-## <a name="sales-ad-hoc-analysis-scenarios"></a>Salgs ad hoc-analysescenarier
+## Salgs ad hoc-analysescenarier
 
 Brug funktionen **Dataanalyse** til hurtig faktatjek og ad hoc-analyse:
 
@@ -41,7 +41,7 @@ Følgende afsnit indeholder eksempler på salgsscenarier i [!INCLUDE [prod_short
 | [Salg (Debitorsalg efter mængde)](#example-sales-customer-sales-by-volume) | Få et overblik over, hvilke debitorer der køber mest eller skylder mest. | [Debitorposter](https://businesscentral.dynamics.com/?page=25) | **Debitornavn**, **Bilagsnr.**, **Beløb** og **Restbeløb**. |
 | [Finance (Tilgodehavender)](#example-finance-accounts-receivables) | Se, hvad dine kunder skylder dig, f.eks. opdelt i tidsintervaller for, hvornår beløb er forfaldne. | [Debitorposter](https://businesscentral.dynamics.com/?page=25) | **Debitornavn**, **Forfaldsdato** og **Restbeløb**. |
 
-## <a name="example-sales-expected-sales-volume"></a>Eksempel: Salg (forventet salgsmængde)
+## Eksempel: Salg (forventet salgsmængde)
 
 Hvis du vil analysere den forventede salgsmængde og salgsbeløbene for ikke-leverede ordrer for hver debitor efter år eller måned, skal du følge disse trin:
 
@@ -54,7 +54,7 @@ Hvis du vil analysere den forventede salgsmængde og salgsbeløbene for ikke-lev
 1. Hvis du vil udføre analysen for et givet år eller kvartal, skal du anvende et filter i menuen **Yderligere filtre**. Menuen er til højre på siden, lige under menuen **Kolonner**.
 1. Omdøb din analysefane til **Forventet salgsmængde** eller noget, der beskriver denne analyse for dig.
 
-## <a name="example-sales-customer-sales-by-volume"></a>Eksempel: Salg (Debitorsalg efter mængde)
+## Eksempel: Salg (Debitorsalg efter mængde)
 
 Følg disse trin, hvis du skal bruge et overblik over, hvilke kunder der køber mest eller skylder mest.
 
@@ -69,7 +69,7 @@ Følgende billede viser resultatet af disse trin.
 
 :::image type="content" source="media/data-analysis-customer-ledger-entries.png" alt-text="Eksempel på, hvordan du udfører dataanalyse på siden Finansposter." lightbox="media/data-analysis-customer-ledger-entries.png":::
 
-## <a name="example-finance-accounts-receivables"></a>Eksempel: Finance (Tilgodehavender)
+## Eksempel: Finance (Tilgodehavender)
 
 Se, hvad du dine debitorer skylder dig, eventuelt opdelt i tidsintervaller for, hvornår beløb er forfaldne ved at følge disse trin:
 
@@ -81,7 +81,7 @@ Se, hvad du dine debitorer skylder dig, eventuelt opdelt i tidsintervaller for, 
 1. Hvis du vil udføre analysen for et givet år eller kvartal, skal du anvende et filter i menuen **Yderligere filtre**. Menuen er til højre på siden, lige under menuen **Kolonner**.
 1. Omdøb din analysefane til **Aldersfordel gæld efter måned** eller noget, der beskriver denne analyse for dig.
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-sales"></a>Datagrundlag for ad-hoc analyse af salg
+## Datagrundlag for ad-hoc analyse af salg
 
 Når du har udfyldt med oplysninger i en salgsordre og tilføjet alle salgsordrelinjer, kan du bogføre ordren. Bogføring opretter en leverance og en faktura. [!INCLUDE [prod_short](includes/prod_short.md)] opdaterer kundens konto, finanskonto og vareposter:
 
@@ -90,7 +90,7 @@ Når du har udfyldt med oplysninger i en salgsordre og tilføjet alle salgsordre
 
 Hvis du vil vide mere om bogføring af salg, skal du [Bogføre salg](ui-post-sales.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bogføre salg](ui-post-sales.md)  
 [Analysere liste- og forespørgselsdata med analysetilstand](analysis-mode.md)  

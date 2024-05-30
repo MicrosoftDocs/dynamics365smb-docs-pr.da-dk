@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sales"></a>Salg
+# Salg
 
 Du opretter en salgsfaktura eller salgsordre for at registrere din aftale med en debitor om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser.
 
@@ -34,7 +34,7 @@ For alle salgsprocesser kan du inkorporere en godkendelsesarbejdsgang. En godken
 
 De følgende afsnit beskriver en opgavesekvens med links til de artikler, der dækker opgaverne.
 
-## <a name="get-started-with-sales-capabilities"></a>Introduktion til salgsfunktioner
+## Introduktion til salgsfunktioner
 
 Før du sælger, skal du angive, hvordan du vil administrere virksomhedens salgsprocesser.
 
@@ -43,7 +43,7 @@ Før du sælger, skal du angive, hvordan du vil administrere virksomhedens salgs
 | Opret et debitorkort for hver debitor, du sælger til.|[Registrere nye debitorer](sales-how-register-new-customers.md) |
 | Konfigurere den måde, du sælger på, f.eks. priser og rabatter, debitorpris- og rabatgrupper, sælgere, leveringsmetoder og agenter. | [Opsætte salg](sales-setup-sales.md) |
 
-## <a name="sales-analytics"></a>Salgsanalyse
+## Salgsanalyse
 
 I dette afsnit beskrives de analyseværktøjer, du kan bruge til at få indsigt i dine salgsdata.
 
@@ -53,7 +53,7 @@ I dette afsnit beskrives de analyseværktøjer, du kan bruge til at få indsigt 
 | Foretag ad hoc-analyser af salgsdata direkte på listesider og forespørgsler. | [Oprette salgsanalyserapporter](bi-how-create-analysis-views-reports.md) |
 | Udforsk indbyggede salgsrapporter. | [Indbyggede salgsrapporter](sales-reports.md) |
 
-## <a name="quote-to-order-to-sales-invoice"></a>Tilbud til ordre for salgsfaktura
+## Tilbud til ordre for salgsfaktura
 
 I følgende tabel kan du se, hvordan du bruger enkle salgsprocesser.
 
@@ -74,7 +74,7 @@ Hvis du har brug for mere komplekse salgsprocesser, indeholder følgende tabel a
 |Fakturer en kunde for flere leverancer én gang ved at samle leverancerne på samme faktura.|[Kombinere leverancer på én enkelt faktura](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Sælg montageelementer, der ikke er tilgængelige i øjeblikket, ved at oprette en tilknyttet montageordre. Montageordren kan levere hele eller en del af antallet på salgsordren.|[Sælge varer, der er monteret til ordre](assembly-how-to-sell-items-assembled-to-order.md)|
 
-## <a name="pick-and-ship"></a>Pluk og levering
+## Pluk og levering
 
 I følgende tabel beskrives, hvordan du plukker varer til en salgsordre og leverer dem til kunden.
 
@@ -86,7 +86,7 @@ I følgende tabel beskrives, hvordan du plukker varer til en salgsordre og lever
 |Informer debitorerne om ordreleveringsdatoer ved at beregne enten den første mulige afsendelsesdato eller disponibel til leverings-dato.|[Beregne ordrebekræftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)|
 | Få mere at vide om, hvordan du sporer en pakke fra en bogført salgsleverance. | [Spore pakker](sales-how-track-packages.md) |
 
-## <a name="canceled-orders-refunds-and-returns"></a>Annullerede ordrer, refusioner og returneringer
+## Annullerede ordrer, refusioner og returneringer
 
 I følgende tabel beskrives det, hvordan du håndterer annullerede ordrer, refusioner og returneringer af varer.
 
@@ -95,7 +95,7 @@ I følgende tabel beskrives det, hvordan du håndterer annullerede ordrer, refus
 | Udfør en handling på en ubetalt bogført salgsfaktura for automatisk at oprette en kreditnota og enten annullere salgsfakturaen eller gendanne den, så du kan foretage rettelser. |[Rette eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md) |
 | Opret en salgskreditnota for at tilbageføre en bestemt bogført salgsfaktura, så den afspejler, hvilke produkter Customer Returns, og hvilke indbetalte beløb der skal refunderes. |[Behandle salgsreturvarer eller annulleringer](sales-how-process-sales-returns-cancellations.md) |
 
-## <a name="other-processes-in-sales"></a>Øvrige processer i salg
+## Øvrige processer i salg
 
 I følgende tabel kan du se, hvordan du håndterer andre salgsprocesser.
 
@@ -103,7 +103,7 @@ I følgende tabel kan du se, hvordan du håndterer andre salgsprocesser.
 | --- | --- |
 |Løse forvirring, når der findes to eller flere poster for samme debitor.|[Flette dublerede poster](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere salg](sales-setup-sales.md)  
 [Registrere nye debitorer](sales-how-register-new-customers.md)  

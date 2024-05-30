@@ -9,7 +9,7 @@ ms.date: 05/07/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Tilbageføre kladdeposteringer og annullere modtagelser/leverancer
+# Tilbageføre kladdeposteringer og annullere modtagelser/leverancer
 
 Tilbageførsel af kladdeposteringer er nyttig f.eks. til at rette fejl og til at fjerne en gammel periodiseringspost, før der angives en ny. En tilbageførselpost er den samme som originalposten, men har et modsat tegn i feltet **Beløb**. Tilbageførselsposten skal have samme bilagsnummer og posteringsdato som den oprindelige post. Når du tilbagefører en post, skal du oprette den korrekte post.
 
@@ -21,7 +21,7 @@ Hvis du har bogført et forkert negativt antal, som f.eks. en købsordre med det
 
 Hvis du har bogført et forkert positivt antal som f.eks. en salgsleverance eller købsreturvare med det forkerte antal varer og bogført dem som leveret, men ikke faktureret, kan du annullere bogføringen.
 
-## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Sådan tilbageføres kladdepost på en finanspost
+## Sådan tilbageføres kladdepost på en finanspost
 
 Du kan tilbageføre poster fra alle **Poster**-sider: Følgende procedure er baseret på siden **Finansposter**.
 
@@ -33,7 +33,7 @@ Du kan tilbageføre poster fra alle **Poster**-sider: Følgende procedure er bas
 3. Vælg handlingen **Tilbagefør** på siden **Tilbagefør transaktionsposter**.
 4. Vælg **Ja** for at bekræfte tilbageførslen.
 
-## <a name="to-post-a-negative-entry"></a>Sådan bogføres en negativ post
+## Sådan bogføres en negativ post  
 
 Brug feltet **Rettelse** til at bogføre en negativ debet i stedet for kredit eller til at bogføre en negativ kredit i stedet for en debet på en konto. Feltet er som standard tilgængeligt i alle kladder. Felterne **Debetbeløb** og **Kreditbeløb** indeholdet både den oprindelige post og den rettede post. Disse felter har ingen indflydelse på kontosaldoen.  
 
@@ -43,7 +43,7 @@ Brug feltet **Rettelse** til at bogføre en negativ debet i stedet for kredit el
 4. I den kladdelinje, som du vil aktivere for negative poster, skal du markere afkrydsningsfeltet **Rettelse**.  
 5. Hvis du vil postere kladden, skal du vælge handlingen **Bogfør** og derefter vælge knappen **Ja**.
 
-## <a name="to-undo-a-quantity-on-a-posted-purchase-receipt"></a>Sådan fortrydes et bogført antal på en bogført købsmodtagelse
+## Sådan fortrydes et bogført antal på en bogført købsmodtagelse  
 
 Følgende trin beskriver, hvordan du kan fortryde en bogført modtagelse af vare eller ressourcer. Fremgangsmåden er tilsvarende for bogførte leverancer.
 
@@ -56,7 +56,7 @@ Der indsættes en korrektionslinje under den valgte modtagelseslinje. Hvis mæng
 
 Felterne **Modtaget (antal)** og **Modt. antal (ufakt.)** på den relaterede købsordre , der er angivet til nul.
 
-## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Sådan fortryder du og derefter annullerer et bogført antal på en bogført returvareleverance
+## Sådan fortryder du og derefter annullerer et bogført antal på en bogført returvareleverance
 
 Følgende trin beskriver, hvordan du kan:
 
@@ -82,7 +82,7 @@ Fremgangsmåden er tilsvarende for bogførte returvaremodtagelser.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-## <a name="reverse-a-customer-and-vendor-ledger-entry-with-a-realized-gain-or-loss-entry"></a>Tilbageføre en debitor- og kreditorpost med en realiseret gevinst- eller tabspost
+## Tilbageføre en debitor- og kreditorpost med en realiseret gevinst- eller tabspost
 
 Du kan bruge handlingen **Tilbagefør transaktion** til at tilbageføre betalinger, der er udlignet med poster, der stammer fra udenlandske valutaer, og som blev reguleret ved hjælp af kørslen Valutakursregulering. Funktionen fungerer til både køb og salg.
 
@@ -93,7 +93,7 @@ Følgende er et simpelt scenarie, der illustrerer, hvordan det fungerer:
 3. Bogføre en betaling, der er udlignet med fakturaen.
 4. Fortryde og tilbageføre betalingstransaktionen, f.eks. fra siden **Debitorposter** .
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bogføre fortryd montage](assembly-how-to-undo-assembly-posting.md)  
 [Bogføre transaktioner direkte i Finans](finance-how-post-transactions-directly.md)  
