@@ -26,7 +26,7 @@ Denne fejlmeddelelse angiver, at brugeren ikke har tilladelse til at bogføre po
 
 Brugeren har i dette tilfælde et tilladt bogføringsdatointerval fra 11. september til 30. september og må derfor ikke bogføre reguleringsværdiposten med bogføringsdatoen 10. september.  
 
-### <a name="overview-of-involved-posting-date-setup"></a>Oversigt over opsætning af den involverede bogføringsdato
+### <a name="overview-of-the-posting-date-setup"></a>Oversigt over opsætning af den involverede bogføringsdato
 
 #### <a name="inventory-periods"></a>Lagerperioder
 

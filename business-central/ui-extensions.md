@@ -9,7 +9,7 @@ ms.date: 09/27/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="customizing-business-central-online-with-apps"></a>Tilpasse Business Central Online med apps
+# <a name="customizing-business-central-online-using-apps"></a>Tilpasse Business Central Online med apps
 
 Du kan ændre [!INCLUDE[prod_short](includes/prod_short.md)] online ved at installere apps, der f.eks. tilføjer funktioner, ændrer funktionsmåder eller giver dig adgang til nye onlinetjenester. Disse apps kaldes også *udvidelser*, fordi de *udvider* [!INCLUDE [prod_short](includes/prod_short.md)].
 

@@ -142,7 +142,7 @@ Sådan begrænses bogføring for en bestemt bruger:
 3. Angiv den momsdato, du tillader bogføring fra, i feltet **Tillad bogføring fra**. Bogføring af et dokument eller en kladde med en momsdato før denne dato er ikke tilladt.
 4. Angiv den momsdato, du tillader bogføring indtil, i feltet **Tillad bogføring til**. Bogføring af et dokument eller en kladde med en momsdato efter denne dato er ikke tilladt.
 
-## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Konfigurere momsregistreringsnumre for dit land eller område
+## <a name="set-up-vat-registration-numbers-for-your-countryregion"></a>Konfigurere momsregistreringsnumre for dit land eller område
 
 For at sikre, at brugere angiver gyldige momsregistreringsnumre, kan du definere formater til momsregistreringsnumre, som bruges i de lande eller områder, hvor du handler. [!INCLUDE[prod_short](includes/prod_short.md)] viser en fejlmeddelelse, hvis en bruger laver en fejl eller bruger et format, der er forkert for landet eller området.
 
@@ -232,7 +232,7 @@ I følgende afsnit beskrives, hvordan du tildeler momsbogføringsgrupper til ind
     * Udvid oversigtspanelet **Fakturering** på **Ressource**-kortet.  
 3. Vælg momsproduktbogføringsgruppen.  
 
-## <a name="set-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Konfigurere klausuler, der forklarer momsfritagelse eller ikke-standard-momssatser
+## <a name="set-up-clauses-to-explain-vat-exemption-or-nonstandard-vat-rates"></a>Konfigurere klausuler, der forklarer momsfritagelse eller ikke-standard-momssatser
 
 Du konfigurerer en momsklausul til at beskrive oplysninger om den moms, der skal anvendes. Oplysningerne kan være påkrævet som påbudt af myndighederne. Når du har konfigureret en momsklausul og tilknyttet den til en momsbogføringsgruppe, vises momsklausulen på udskrevne salgsdokumenter, der bruger momsbogføringsopsætningsgruppen.
 
@@ -293,7 +293,7 @@ Når du vil konfigurere koder for importmoms, skal du gøre følgende:
 5. I feltet **Momsberegningstype** skal du vælge **Momskorrektion**.  
 6. Angiv den finanskonto, der skal bruges til bogføring af importmoms, i feltet **Købsmomskonto**. Alle andre konti er valgfrie.  
 
-## <a name="use-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Bruge modtagermoms for handel mellem EU-lande eller -områder
+## <a name="use-reverse-charge-vat-for-trade-between-eu-countriesregions"></a>Bruge modtagermoms for handel mellem EU-lande eller -områder
 
 Nogle virksomheder skal bruge modtagermoms, når de handler med andre virksomheder. Denne regel gælder f.eks. for køb fra EU-lande/områder og salg til EU-lande/områder.  
 
@@ -303,7 +303,7 @@ Nogle virksomheder skal bruge modtagermoms, når de handler med andre virksomhed
 > [!TIP]  
 > Du kan kontrollere, at en virksomhed er registreret som momspligtig i et andet EU-land/område ved hjælp af tjenesten til kontrol af SE/CVR-nr. for EU. Tjenesten er tilgængelig og gratis i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Kontrollere CVR-numre](finance-how-validate-vat-registration-number.md).
 
-### <a name="sales-to-eu-countries-or-regions"></a>Salg til EU-lande eller -områder
+### <a name="sales-to-eu-countriesregions"></a>Salg til EU-lande eller -områder
 
 Moms beregnes ikke på salg til momspligtige virksomheder i andre EU-lande/regioner. Du skal rapportere værdien af disse salg til EU-lande/områder separat på momsangivelsen.  
 

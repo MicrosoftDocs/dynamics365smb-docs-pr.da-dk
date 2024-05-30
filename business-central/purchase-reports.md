@@ -10,15 +10,15 @@ ms.search.form: 'Report_311, Report_312, Report_313, Report_320, Report_709, Rep
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# Købsrapporter og analyser
+# <a name="purchase-reporting-and-analytics"></a>Købsrapporter og analyser
 
 Købsrapportering giver indkøbs-og erhvervsmedarbejdere indsigt i og statistikker om aktuelle og tidligere montageaktiviteter.  
 
-## Rapporter
+## <a name="reports"></a>Rapporter
 
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## Opgaver
+## <a name="tasks"></a>Opgaver
 
 I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med analyse af virksomhedens indkøb:
 
@@ -26,7 +26,7 @@ I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med a
 - [Beregne datoer for køb](purchasing-date-calculation-for-purchases.md)
 - [Vise alle indkøbsfinansposter](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
-## Udforsk indkøbsrapporter med Stifinder
+## <a name="explore-purchase-reports-with-report-explorer"></a>Udforsk indkøbsrapporter med Stifinder
 
 Hvis du vil have et overblik over de rapporter, der er tilgængelige for indkøb, kan du vælge **Alle rapporter** på startsiden. Denne handling åbner Rollestifinder, som filtreres til funktionerne i indstillingen **Rapport og analyse**. Under overskriften **Indkøb** skal du vælge **Udforsk**.
 
@@ -34,7 +34,7 @@ Hvis du vil have et overblik over de rapporter, der er tilgængelige for indkøb
 
 Flere oplysninger i [Søg efter rapporter med Rollestifinder](ui-role-explorer.md). 
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Ad hoc-analyse af indkøbsdata](ad-hoc-analysis-purchasing.md)  
 [Oversigt over indkøbsanalyse](purchasing-analytics-overview.md)   

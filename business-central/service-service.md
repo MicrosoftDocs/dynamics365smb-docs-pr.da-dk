@@ -10,7 +10,7 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Service Management
+# <a name="service-management"></a>Service Management
 
 > [!NOTE]
 > Funktionaliteten, der beskrives i dette emne og underordnede emner, er kun synlige i brugergrænsefladen, hvis du har oplevelsen **Premium**. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
@@ -34,7 +34,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 |Oprette og administrere aftaler mellem dig og dine kunder.|[Opfylde servicekontrakter](service-fulfill-service-contracts.md)|  
 |Levere service til kunder og fakturere serviceordrer.|[Levering af service](service-deliver-service.md)|  
 
-## Se også  
+## <a name="see-also"></a>Se også
 
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Projekter](projects-how-create-jobs.md)  

@@ -10,7 +10,7 @@ ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Indkøb
+# <a name="purchasing"></a>Indkøb
 
 Du kan oprette en købsfaktura eller købsordre for at registrere omkostningerne ved køb og spore gæld. Hvis du vil styre en lagerbeholdning, benyttes købsfakturaer også til dynamisk at opdatere lagerniveauer, så du kan minimere lageromkostningerne og yde bedre kundeservice. Købsomkostningerne, herunder serviceudgifter og lagerværdier, der stammer fra bogføring af købsfakturaer, bidrager til avancebeløb og andre finansielle nøgletal i dit Rollecenter.
 
@@ -24,7 +24,7 @@ Ved alle indkøbsprocesser kan du inkludere et godkendelsesworkflow, f.eks. for 
 
 De følgende afsnit beskriver en opgavesekvens med links til de artikler, der dækker opgaverne.
 
-## Introduktion til købsfunktioner
+## <a name="get-started-with-purchase-capabilities"></a>Introduktion til købsfunktioner
 
 Før du køber varer, skal du angive, hvordan du vil administrere virksomhedens købsprocesser.
 
@@ -33,7 +33,7 @@ Før du køber varer, skal du angive, hvordan du vil administrere virksomhedens 
 | Konfigurere de regler og værdier, der definerer virksomhedens købsmetoder. | [Opsætte indkøb](purchasing-setup-purchasing.md) |
 | Registrer hver kreditor, som du køber fra, med et kreditorkort. | [Registrere nye kreditorer](purchasing-how-register-new-vendors.md) |
 
-## Købsanalyse
+## <a name="purchase-analytics"></a>Købsanalyse
 
 I dette afsnit beskrives de analyseværktøjer, du kan bruge til at få indsigt i dine købsprocesser.
 
@@ -43,7 +43,7 @@ I dette afsnit beskrives de analyseværktøjer, du kan bruge til at få indsigt 
 | Foretag ad hoc-analyser af købsdata direkte på listesider og forespørgsler. | [Ad hoc-analyse af indkøbsdata](ad-hoc-analysis-purchasing.md) |
 | Udforsk indbyggede købsrapporter. | [Indbyggede indkøbsrapporter](purchase-reports.md) |
 
-## Tilbud til ordre for købsfaktura
+## <a name="quote-to-order-to-purchase-invoice"></a>Tilbud til ordre for købsfaktura
 
 I følgende tabel kan du se, hvordan du bruger enkle købsprocesser.
 
@@ -64,7 +64,7 @@ Hvis du har brug for mere komplekse købsprocesser, indeholder følgende tabel a
 |Administrer dit tilsagn til en kreditor om at købe store mængder, der leveres i portioner over en periode.|[Arbejde med rammekøbsordrer](sales-how-to-create-blanket-sales-orders.md)|
 
 
-## Annullerede ordrer, refusioner og returneringer
+## <a name="canceled-orders-refunds-and-returns"></a>Annullerede ordrer, refusioner og returneringer
 
 I følgende tabel beskrives det, hvordan du håndterer annullerede ordrer, refusioner og returneringer af varer, du køber.
 
@@ -74,7 +74,7 @@ I følgende tabel beskrives det, hvordan du håndterer annullerede ordrer, refus
 |Konvertere eksempelvis elektroniske fakturaer fra dine leverandører til købsfakturaer i Business Central.|[Modtage og konvertere elektroniske dokumenter](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 
 
-## Øvrige processer i salg
+## <a name="other-processes-in-sales"></a>Øvrige processer i salg
 
 I følgende tabel kan du se, hvordan du håndterer andre købsprocesser.
 
@@ -83,11 +83,11 @@ I følgende tabel kan du se, hvordan du håndterer andre købsprocesser.
 |Løse forvirring, når der findes to eller flere poster for samme kreditor.|[Flette dublerede poster](sales-how-merge-duplicate-records.md)|
 
 
-## Eksterne bilagsnumre
+## <a name="external-document-numbers"></a>Eksterne bilagsnumre
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Opsætning af indkøb](purchasing-setup-purchasing.md)  
 [Registrere nye kreditorer](purchasing-how-register-new-vendors.md)  
