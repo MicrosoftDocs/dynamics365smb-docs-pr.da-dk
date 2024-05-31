@@ -10,7 +10,7 @@ ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Kombinere kvitteringer på én enkelt faktura
+# <a name="combine-receipts-on-a-single-invoice"></a>Kombinere kvitteringer på én enkelt faktura
 
 Hvis du vil fakturere mere end én købsleverance ad gangen, kan du vælge flere modtagelseslinjer på købsfakturaen.  
 
@@ -21,7 +21,7 @@ Når købsleverancer er samlet på en faktura og bogført, oprettes der en bogf�
 > [!NOTE]
 > Den købsfaktura, der oprettes, kan ikke senere rettes eller annulleres. Hvis du vil ændre en købsfaktura, der er oprettet på denne måde, skal du bruge købskreditnotaer. Du kan finde flere oplysninger i [Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
 
-## Sådan samles leverancer
+## <a name="to-combine-receipts"></a>Sådan samles leverancer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**. Du kan finde flere oplysninger i [Registrere køb](purchasing-how-record-purchases.md).  
@@ -31,7 +31,7 @@ Når købsleverancer er samlet på en faktura og bogført, oprettes der en bogf�
     Hvis du har valgt en forkert leverancelinje, eller hvis du vil begynde forfra, kan du bare slette linjerne på købsfakturaen og derefter bruge funktionen **Hent købsleverancelinjer** igen.  
 5. Vælg handlingen **Bogfør** for at fakturere kladden.  
 
-## Sådan fjernes åbne købsordrer efter bogføring af kombineret modtagelse
+## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Sådan fjernes åbne købsordrer efter bogføring af kombineret modtagelse
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Slet fakturerede købsordrer**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
@@ -41,7 +41,7 @@ Du kan også slette de individuelle ordrer manuelt.
 
 Gentag trin 1 til 3 for eventuelle andre berørte dokumenter, f.eks. rammekøbsordrer.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Køb](purchasing-manage-purchasing.md)  
 [Rette eller annullere ubetalte salgsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

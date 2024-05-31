@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Administrere kontakter
+# <a name="managing-contacts"></a>Administrere kontakter
 
 Medarbejderne i din virksomhed har regelmæssigt møder med mulige forretningsrelationer, der kan udvikle sig til formelle relationer. Alle disse eksterne kontaktpersoner og deres detaljerede oplysninger skal registreres i systemet, så kommunikationen bliver mere vellykket, og så de nemt kan konverteres til formelle kunde-, kreditor- eller bankrelationer.
 
@@ -26,7 +26,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 |Konfigurere profilspørgeskemaer, du vil bruge til indtastning af oplysninger om kontaktprofiler.|[Bruge profilspørgeskemaer til at klassificere forretningskontakter](marketing-create-contact-profile-questionnaire.md)|
 |Løse forvirring, når der findes to eller flere poster for samme kontakt.|[Flette dublerede poster](sales-how-merge-duplicate-records.md)|
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Sortere, søge og filtrere](ui-enter-criteria-filters.md)  

@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# Håndbevægelser til touch og pen til tablet og telefoner 
+# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Håndbevægelser til touch og pen til tablet og telefoner
 
 Denne artikel indeholder nogle af de specielle bevægelser, du kan bruge, når du arbejder med [!INCLUDE[prod_short](includes/prod_short.md)] fra en tablet eller en telefon.
 
@@ -29,7 +29,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Hurtig reference til genveje - på pc'er](keyboard-shortcuts-cheatsheet.md)  
 [Hjælpefunktioner](ui-accessibility.md)  

@@ -9,34 +9,34 @@ ms.date: 12/06/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Optimere Outlook til Business Central-indbakke 
+# <a name="optimize-outlook-for-your-business-inbox"></a>Optimere Outlook til Business Central-indbakke
 
 Denne artikel beskriver, hvad du kan gøre for at få den bedst mulige oplevelse med Business-indbakken i Microsoft Outlook. 
 
-## Opdatere Outlook
+## <a name="update-outlook"></a>Opdatere Outlook
 
 Opdater til Outlook version 2012 eller nyere.
 
 > [!NOTE]
 > Hvis du ikke kan opdatere Outlook til version 2012 eller nyere, skal du kontrollere, at du mindst opdaterer til version 1905. Dette forhindrer Outlook-tilføjelsesprogrammet i at køre med ældre Internet Explorer-komponenter
 
-### Sådan kontrolleres din version af Outlook
+### <a name="how-to-check-your-version-of-outlook"></a>Sådan kontrolleres din version af Outlook
 
 Uanset om du bruger Office 2019 eller Microsoft 365, skal du følge denne Microsoft Support vejledning for at kontrollere, hvilken version af Outlook du har:  
 
 [Om Office: Hvilken version af Office, bruger jeg?](https://support.microsoft.com/office/about-office-what-version-of-office-am-i-using-932788b8-a3ce-44bf-bb09-e334518b8b19)
 
-### Sådan opdateres Outlook
+### <a name="how-to-update-outlook"></a>Sådan opdateres Outlook
 
 Hvis du vil opdatere Outlook til den seneste version, skal du følge denne Microsoft Support vejledning eller kontakte administratoren:
 
 [Installere Office-opdateringer](https://support.microsoft.com/office/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)
 
-## Installer Microsoft Edge WebView2
+## <a name="install-microsoft-edge-webview2"></a>Installer Microsoft Edge WebView2
 
 Kontroller, at Microsoft Edge WebView2 er installeret på din enhed.
 
-### Sådan kontrollerer du, om Microsoft Edge WebView2 er installeret 
+### <a name="how-to-check-if-microsoft-edge-webview2-is-installed"></a>Sådan kontrollerer du, om Microsoft Edge WebView2 er installeret
 
 Hvis du vil kontrollere, om du har Microsoft Edge WebView2 installeret på en computer, skal du benytte følgende fremgangsmåde:
 
@@ -51,7 +51,7 @@ Fra kontrolpanel:
 2. Vælg **Programmer** > **Programmer og funktioner**.
 3. Skriv **WebView2** i søgefeltet. Hvis Microsoft Edge WebView2 er installeret, kan du se en post med navnet **Microsoft Edge WebView2 Runtime**.
 
-### Sådan installeres Microsoft Edge WebView2 
+### <a name="how-to-install-microsoft-edge-webview2"></a>Sådan installeres Microsoft Edge WebView2
 
 1. Brug browseren til at gå til [https://developer.microsoft.com/microsoft-edge/webview2/](https://developer.microsoft.com/microsoft-edge/webview2/).
 2. Vælg **Hent**.
@@ -61,11 +61,11 @@ Fra kontrolpanel:
 > [!NOTE]
 > Organisationen kan have begrænsninger for, hvilke komponenter der kan installeres på din enhed. Kontakt din administrator for at få hjælp.
 
-## Brug en understøttet browser
+## <a name="use-a-supported-browser"></a>Brug en understøttet browser
 
 Overvej at bruge Outlook til World Wide Web i en af de browsere, der understøttes af Business central. Du kan finde en liste over understøttede browsere under [Minimum krav til brug af Business Central](product-requirements.md#browsers).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Blive køreklar til at foretage handler](ui-get-ready-business.md)  
 [Få Business Central på min mobilenhed](install-mobile-app.md)  

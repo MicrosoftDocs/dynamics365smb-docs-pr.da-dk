@@ -10,11 +10,11 @@ ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Oprette tilbagevendende købslinjer
+# <a name="create-recurring-purchase-lines"></a>Oprette tilbagevendende købslinjer
 
 Hvis du ofte har brug at oprette købslinjer med næsten ens oplysninger, kan du oprette standardlinjer, som du derefter kan indsætte i tilbagevendende købsdokumenter, f.eks. for tilbagevendende genbestillingsordrer.
 
-## Konfigurer gentagne købslinjer
+## <a name="set-up-recurring-purchase-lines"></a>Konfigurer gentagne købslinjer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Tilbagevendende købslinjer**, og vælg derefter det relaterede link.
 2. På siden **Gentagne købslinjer** skal du vælge **Ny**.
@@ -26,7 +26,7 @@ Hvis du ofte har brug at oprette købslinjer med næsten ens oplysninger, kan du
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## Tildele tilbagevendende købslinjer til en kreditor
+## <a name="assign-recurring-purchase-lines-to-a-vendor"></a>Tildele tilbagevendende købslinjer til en kreditor
 
 Tildel en eller flere gentagne købslinjer til en kreditor, så de kan indsættes i købsdokumenter for den pågældende kreditor.
 
@@ -43,7 +43,7 @@ Tildel en eller flere gentagne købslinjer til en kreditor, så de kan indsætte
 |**Automatisk**|Hvis der findes flere gentagne købslinjer for kreditoren, får du en notifikation om, hvorfra du kan vælge den, der skal indsættes. Hvis der kun findes én gentagen købslinje, indsættes den automatisk.<br /><br />Dette fungerer kun, hvis det nye dokument blev oprettet fra en bilagsliste, f.eks. ved at vælge handlingen **Ny** på siden **Købsordrer**. Det fungerer ikke, hvis dokumentet blev oprettet på f.eks. et kreditorkort.|
 |**Spørg altid**|Der vises en meddelelse, og alle eksisterende tilbagevendende købslinjer vises, så du kan vælge én af dem.
 
-## Indsæt gentagne købslinjer på en købsfaktura
+## <a name="insert-recurring-purchase-lines-on-a-purchase-invoice"></a>Indsæt gentagne købslinjer på en købsfaktura
 
 Hvis der findes gentagne købslinjerne for kreditoren, kan du indsætte dem eller få dem automatisk indsat i alle typer købsdokumenter, f.eks. en købsfaktura. Hvis du har aktiveret indstillingen **Spørg altid**, når du tildeler gentagne købslinjer til kreditorer, får du besked, hvis der findes gentagne købslinjer.
 
@@ -53,7 +53,7 @@ Hvis der findes gentagne købslinjerne for kreditoren, kan du indsætte dem elle
 4. På siden **Tilbagevendende købslinjer** skal du vælge på opslagsknappen i feltet **Kode** og derefter vælge en række standardkøbslinjer.
 5. Vælg knappen **OK** for at indsætte standardkøbslinjerne på fakturaen, hvor du kan genbruge dem eller redigere oplysningerne.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Køb](purchasing-manage-purchasing.md)  
 [Konfigurere indkøb](purchasing-setup-purchasing.md)  

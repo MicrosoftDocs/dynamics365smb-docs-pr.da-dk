@@ -9,7 +9,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Designoplysninger: Design af varesporing
+# <a name="design-details-item-tracking-design"></a>Designoplysninger: Design af varesporing
 
 Varesporing i [!INCLUDE[prod_short](includes/prod_short.md)], der er startet med [!INCLUDE [navnow_md](includes/navnow_md.md)]. Varesporingsfunktionen findes i en separat objektstruktur med komplicerede links til bogførte dokumenter og vareposter, og den er integreret i reservationssystemet, som håndterer reservation, ordresporing og aktionsmeddelelser. Du kan få flere oplysninger i [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md) i designdetaljerne for Forsyningsplanlægning.  
 
@@ -32,7 +32,7 @@ Kodeenhed 22 **Varekladde – Bogfør linje** opdeler nu bogføringen i overenss
 
 Du kan finde flere oplysninger i [Designoplysninger: Bogføringsstruktur for varesporing](design-details-item-tracking-posting-structure.md).  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Designoplysninger: Varesporing](design-details-item-tracking.md)
 
