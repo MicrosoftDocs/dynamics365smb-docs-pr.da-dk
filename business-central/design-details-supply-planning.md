@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'design, supply, planning, reordering, replenishment'
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-supply-planning"></a>Designoplysninger: Forsyningsplanlægning
+# Designoplysninger: Forsyningsplanlægning
 
 Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges inden for forsyningsplanlægningsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -21,11 +21,11 @@ I artiklen forklares det, hvordan planlægningssystemet fungerer:
 * Beskriver logikken i den centrale mekanisme, som er forsyningsafstemt
 * Forklar, hvordan genbestillingspolitikker bruges i lagerplanlægning  
 
-## <a name="in-this-section"></a>Dette afsnit indeholder
+## Dette afsnit indeholder  
 
 [Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)  
 [Designoplysninger: Reservation, ordresporing og aktionsmeddelelser](design-details-reservation-order-tracking-and-action-messaging.md)  
-[Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)  
+[Designoplysninger: Afstemning mellem udbud og efterspørgsel](design-details-balancing-demand-and-supply.md)  
 [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)  
 [Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)  
 [Designoplysninger: Tabellen Planlægningsopgave](design-details-planning-assignment-table.md)  

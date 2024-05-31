@@ -10,26 +10,26 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-inventory-costing"></a>Designoplysninger: Lagerkostmetode
+# Designoplysninger: Lagerkostmetode
 
 Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges inden for lageromkostningsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Lagerkostmetode, også kendt som "omkostningsstyring", vedrører registrering og rapportering af virksomhedens driftsomkostninger.  
 
-## <a name="in-this-section"></a>Dette afsnit indeholder
+## Dette afsnit indeholder
 
 [Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
 [Designoplysninger: Vareudligning](design-details-item-application.md)  
 [Designoplysninger: Kendt problem med vareudligning](design-details-inventory-zero-level-open-item-ledger-entries.md)  
-[Designoplysninger: Omkostningsregulering](design-details-cost-adjustment.md)  
+[Designoplysninger: Beregningsregulering](design-details-cost-adjustment.md)  
 [Designoplysninger: Bogføringsdato på post med reguleringsværdi](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Designoplysninger: Bogføring af forventet kostpris](design-details-expected-cost-posting.md)  
 [Designoplysninger: Gennemsnitlig kostpris](design-details-average-cost.md)  
 [Designoplysninger: Afvigelse](design-details-variance.md)  
 [Designoplysninger: Afrunding](design-details-rounding.md)  
-[Designoplysninger: Omkosntingskomponenter](design-details-cost-components.md)  
+[Designoplysninger: Beregningskomponenter](design-details-cost-components.md)  
 [Designoplysninger: Lagerperioder](design-details-inventory-periods.md)  
-[Designoplysninger: Varekladde](design-details-inventory-posting.md)  
+[Designoplysninger: Lagerbogføring](design-details-inventory-posting.md)  
 [Designoplysninger: Bogføring af produktionsordre](design-details-production-order-posting.md)  
 [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md)  
 [Designoplysninger: Afstemning med Finans](design-details-reconciliation-with-the-general-ledger.md)  

@@ -10,15 +10,15 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Bogføringsdatoen for regulerings værdiposten sammenlignet med kildeposten
+# Bogføringsdatoen for regulerings værdiposten sammenlignet med kildeposten
 
 Denne artikel sammenligner bogføringsdatoen for regulerings værdiposten med bogføringsdatoen på posten, der medfører, at kørslen Reguler kostværdi - vareposter er blevet kørt, især et reguleringsscenarie og et varegebyrscenario.
 
 Kørslen **Reguler kostværdi - vareposter** behandler dine data, afhængigt af dit scenario og din konfiguration af [!INCLUDE[prod_short](includes/prod_short.md)]. I dette afsnit beskrives to separate processer, og hver af dem viser, hvilken type indflydelse kørslen Juster kostpris - vareposter har på dataene.
 
-## <a name="revaluation-scenario"></a>Værdireguleringsscenarie
+## Værdireguleringsscenarie
 
-### <a name="prerequisites"></a>Forudsætninger
+### Forudsætninger  
 
 Indtast følgende værdier:
 
@@ -44,7 +44,7 @@ Indtast følgende værdier:
 
 - Bogf. tilladt til = Tom  
 
-### <a name="to-test-the-scenario"></a>Sådan testes scenariet
+### Sådan testes scenariet
 
 Test dette scenario ved at udføre følgende trin.
 
@@ -108,8 +108,8 @@ Følgende **Varepost** og **Værdiposter** er bogført:
 
 |Løbenummer  |Varenr.  |Bogføringsdato  |Varepostløbenr.  |Vareposttype  |Postens type  |Bilagsnr.  |Varenummerpostens mængde  |Kostbeløb (faktisk)  |Bogført kostværdi  |Regulering  |Udligningspost  |Kildespor  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|376     |TEST|   2020-12-15    |317         |Køb         |Købspris         |T00001         |100         |1.000,00          |1.000,00    |Nej         |0         |ITEMNL         |
-|379     |TEST   |**2020-12-15**    |317         |Køb         |Regulering         |T04002         |0         |3.000,00         |3.000,00         |Nej         |0         |REVALINL         |
+|376     |TEST|   2020-12-15    |317         |Køb         |Købspris         |T00001         |100         |1.000,00          |1.000,00    |Nr.         |0         |ITEMNL         |
+|379     |TEST   |**2020-12-15**    |317         |Køb         |Regulering         |T04002         |0         |3.000,00         |3.000,00         |Nr.         |0         |REVALINL         |
 
 **Varepost - nedregulering, trin 3**  
 
@@ -121,7 +121,7 @@ Følgende **Varepost** og **Værdiposter** er bogført:
 
 |Løbenummer  |Varenr.  |Bogføringsdato  |Varepostløbenr.  |Vareposttype  |Postens type  |Bilagsnr.  |Varenummerpostens mængde  |Kostbeløb (faktisk)  |Bogført kostværdi til Finans  |Regulering  |Udligningspost  |Kildespor  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|377     |TEST|   2020-12-20    |318         |Nedregulering         |Købspris         |T00002         |-2         |-20          |-20    |Nej         |0         |ITEMNL         |
+|377     |TEST|   2020-12-20    |318         |Nedregulering         |Købspris         |T00002         |-2         |-20          |-20    |Nr.         |0         |ITEMNL         |
 |380     |TEST   |**2021-01-01**    |318         |Nedregulering         |Købspris         |T04002         |0         |-60         |-60         |Ja         |377         |INVTADAMT         |
 
 **Varepost - nedregulering, trin 4**  
@@ -134,7 +134,7 @@ Følgende **Varepost** og **Værdiposter** er bogført:
 
 |Løbenummer  |Varenr.  |Bogføringsdato  |Varepostløbenr.  |Vareposttype  |Postens type  |Bilagsnr.  |Varenummerpostens mængde  |Kostbeløb (faktisk)  |Bogført kostværdi til Finans  |Regulering  |Udligningspost  |Kildespor  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|378     |TEST|   2021-01-15    |319         |Nedregulering         |Købspris         |T00003         |-3         |-30          |-30    |Nej         |0         |ITEMNL         |
+|378     |TEST|   2021-01-15    |319         |Nedregulering         |Købspris         |T00003         |-3         |-30          |-30    |Nr.         |0         |ITEMNL         |
 |381     |TEST   |**2021-01-15**    |319         |Nedregulering         |Købspris         |T04003         |0         |-90         |-90         |Ja         |378         |INVTADAMT         |
 
 Kørslen **Juster kostpris - vareposter** har registreret en ændring i kostprisen og har justeret de negative reguleringer.  
@@ -149,15 +149,15 @@ Reguleringen, der er foretaget for nedreguleringen i trin 3 giver problemer. Den
 
 For at opnå regulering i december af nedreguleringen i trin 3, skal Opsætning af Finans i feltet Bogf. tilladt fra angive en dato i december.  
 
-### <a name="conclusion"></a>Konklusion
+### Konklusion
 
 Når du overvejer den mest velegnede opsætning for et firmas tilladte datointerval, kan det være en god idé at overveje følgende. Så længe ændringer i lagerværdien skal bogføres i en periode, f. eks. december, skal den opsætning, som firmaet bruger til at tillade bogføringsdato intervaller, justeres i henhold til denne beslutning. Bogf. tilladt fra i Opsætning af Finans angiver 1. december, og det tillader at, værdireguleringen foretaget i december kan sendes til berørte udgående poster i samme periode.  
 
 Brugergrupper, der ikke må bogføre i december, men i januar, hvilket sandsynligvis var beregnet til at være begrænset af Opsætning af Finans i dette scenarie, skal i stedet behandles via Brugeropsætning.  
 
-## <a name="item-charge-scenario"></a>Scenarie med varegebyr
+## Scenarie med varegebyr  
 
-### <a name="prerequisites-1"></a>Forudsætninger
+### Forudsætninger  
 
 Indtast følgende værdier:
 
@@ -183,7 +183,7 @@ Indtast følgende værdier:
 
 - Bogf. tilladt til = Tom  
 
-### <a name="to-test-the-scenario-1"></a>Sådan testes scenariet
+### Sådan testes scenariet  
 
 Test dette scenario ved at udføre følgende trin:
 
@@ -266,8 +266,8 @@ Test dette scenario ved at udføre følgende trin:
 
 |Løbenummer |Varenr.  |Bogføringsdato  |Varepostløbenr.  |Vareposttype  |Postens type  |Bilagsnr.  | Varegebyrnr.    |  Varepostmængde   |Kostbeløb (faktisk)     |Bogført kostværdi til Finans |Regulering |Udlign.postløbenr. |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|397      |GEBYR|   2020-12-15    |324         |Køb         |Købspris         |108029         |         |1          |100    |100         |NEJ         |0         |
-|399      |GEBYR   |2021-01-02    |324         |Køb         |Købspris         |108009         |JBFREIGHT         |0         |3         |3         |NEJ         |0         |
+|397      |GEBYR|   2020-12-15    |324         |Køb         |Købspris         |108029         |         |1          |100    |100         |NUMMER         |0         |
+|399      |GEBYR   |2021-01-02    |324         |Køb         |Købspris         |108009         |JBFREIGHT         |0         |3         |3         |NUMMER         |0         |
 
 **Statusvarepost for salg**:  
   
@@ -279,7 +279,7 @@ Test dette scenario ved at udføre følgende trin:
 
 |Løbenummer |Varenr.  |Bogføringsdato  |Varepostløbenr.  |Vareposttype  |Postens type  |Bilagsnr.  | Varegebyrnr.    |  Varepostmængde   |Kostbeløb (faktisk)     |Bogført kostværdi til Finans |Regulering |Udlign.postløbenr. |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|398      |GEBYR|   2020-12-16    |325         |Salg         |Købspris         |109024         |         |-1          |-100    |-100         |NEJ         |0         |
+|398      |GEBYR|   2020-12-16    |325         |Salg         |Købspris         |109024         |         |-1          |-100    |-100         |NUMMER         |0         |
 |400      |GEBYR   |2021-01-01    |325         |Salg         |Købspris         |109024         |         |0         |-3         |-3         |Ja         |398         |
 
 6.  På arbejdsdatoen 3. januar ankommer en købsfaktura, der indeholder et ekstra varegebyr for købet, der er oprettet i trin 2. Fakturaen er dateret 30. december og bogføres derfor med bogføringsdato 30. december 2020.  
@@ -315,9 +315,9 @@ Test dette scenario ved at udføre følgende trin:
 
 |Løbenr. |Varenr.  |Bogføringsdato  |Varepostløbenr.  |Vareposttype  |Postens type  |Bilagsnr.  | Varegebyrnr.    |  Varepostmængde   |Kostbeløb (faktisk)     |Bogført kostværdi til Finans |Regulering |Udlign.postløbenr. |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|397      |GEBYR   |2020-12-15    |324         |Køb         |Købspris         |108029         |            |1         |100    |100         |Nej         |0         |
-|399      |GEBYR   |2021-01-02    |324         |Køb         |Købspris         |108030         |JBFREIGHT   |0         |3         |3         |Nej         |0         |
-|401      |GEBYR   |**2020-12-30**    |324         |Køb         |Købspris         |108031         |JBFREIGHT   |0         |2         |2         |Nej         |0         |
+|397      |GEBYR   |2020-12-15    |324         |Køb         |Købspris         |108029         |            |1         |100    |100         |Nr.         |0         |
+|399      |GEBYR   |2021-01-02    |324         |Køb         |Købspris         |108030         |JBFREIGHT   |0         |3         |3         |Nr.         |0         |
+|401      |GEBYR   |**2020-12-30**    |324         |Køb         |Købspris         |108031         |JBFREIGHT   |0         |2         |2         |Nr.         |0         |
 
 **Statusvarepost for salg**:  
   
@@ -329,7 +329,7 @@ Test dette scenario ved at udføre følgende trin:
 
 |Løbenr. |Varenr.  |Bogføringsdato  |Varepostløbenr.  |Vareposttype  |Postens type  |Bilagsnr.  | Varegebyrnr.    |  Varepostmængde   |Kostbeløb (faktisk)     |Bogført kostværdi til Finans |Regulering |Udlign.postløbenr. |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|398      |GEBYR   |2020-12-16        |325         |Salg         |Købspris         |103024         |            |-1         |-100       |-100         |Nej         |0         |
+|398      |GEBYR   |2020-12-16        |325         |Salg         |Købspris         |103024         |            |-1         |-100       |-100         |Nr.         |0         |
 |400      |GEBYR   |2021-01-01        |325         |Salg         |Købspris         |103024         |            |0          |-3         |-3         |Ja         |398         |
 |402      |GEBYR   |**2021-01-01**    |325         |Salg         |Købspris         |103024         |            |0          |-2         |-2         |Ja         |398         |
 
@@ -349,7 +349,7 @@ Det er en udfordring, at rapporten Lagerværdi viser antal = 0, mens værdien er
 
 I dette scenarie kunne det være en mulighed at lade feltet Bogf. tilladt fra i Opsætning af Finans angive en dato i december i et par dage til, og lade bogføringen af det første varegebyr vente for at tillade, at alle omkostninger fra den forrige periode/det forrige regnskabsår blev genkendt i den periode, hvor de hører til, og køre kørslen Juster kostpris - vareposter og derefter flytte den tilladte bogføringsdato til den nye periode\/det nye regnskabsår. Den første varegebyr med bogføringsdatoen 2. januar kan derefter bogføres.  
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Designoplysninger: Bogføringsdato på post med reguleringsværdi](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)  

@@ -10,7 +10,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-rules-for-automatic-application-of-payments"></a>Konfigurere regler for automatisk udligning af betalinger
+# Konfigurere regler for automatisk udligning af betalinger
 
 Gå til siden **Regler for betalingsudligning**, og konfigurer regler til at styre, hvordan betalinger/banktransaktioner skal udlignes automatisk til deres relaterede åbne (ubetalte) fakturaer, kreditnotaer eller andre poster, når du bruger funktionen **Udlign automatisk** på siden **Betalingsudligningskladde**. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 
@@ -28,7 +28,7 @@ Udover afstemningskriterierne gælder følgende vedrørende fortegnet foran det 
 - I forbindelse med negative beløb foretages først en afstemning mod åbne poster, der repræsenterer debitorfakturaer, og derefter mod kreditnotaer for kreditorer.
 - I forbindelse med positive beløb foretages først en afstemning mod åbne poster, der repræsenterer kreditorfakturaer, og derefter mod kreditnotaer for debitorer.
 
-## <a name="to-set-up-a-payment-application-rule"></a>Sådan opretter du en udligningsregel for betaling
+## Sådan opretter du en udligningsregel for betaling
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Regler for betalingsudligning**, og vælg derefter det relaterede link.
 2. Definer en ny eller redigeret regel for betalingsudligning ved at udfylde felterne på en linje, som beskrevet i følgende tabel.
 
@@ -70,10 +70,10 @@ I følgende tabel beskrives standard betalings reglerne i [!INCLUDE[prod_short](
 | Lav              | 1        | Fuldt ud                 | Nej                             | Ingen afstemninger                     |
 | Lav              | 2        | Delvist             | Nej                             | Flere afstemninger               |
 | Lav              | 3        | Delvist             | Nej                             | Ingen afstemninger                     |
-| Lav              | 4        | Nej                    | Nej                             | En afstemning                      |
-| Lav              | 5        | Nej                    | Nej                             | Flere afstemninger               |
+| Lav              | 4        | Nr.                    | Nr.                             | En afstemning                      |
+| Lav              | 5        | Nr.                    | Nr.                             | Flere afstemninger               |
 
-## <a name="see-also"></a>Se også
+## Se også
 [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  

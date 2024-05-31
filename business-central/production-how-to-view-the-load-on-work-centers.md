@@ -9,18 +9,18 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="view-load-on-work-and-machine-centers"></a>Vise belastningen på arbejdscentre og produktionsressourcer
+# Vise belastningen på arbejdscentre og produktionsressourcer
 
 På siderne **Arbejdscenterkort** og **Prod.ress.kort** kan du få vist arbejdspladsbelastningen som følge af planlagte og frigivne produktionsordrer.  
 
-## <a name="to-view-the-load-on-work-centers"></a>Sådan vises belastningen af arbejdscentre
+## Sådan vises belastningen af arbejdscentre
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **arbejdscentre**, og vælg derefter det relaterede link.  
 2. Åbn det relevante **arbejdscenterkort** på listen, og vælg derefter handlingen **Belastning**.  
 
 Brug felterne **Vis efter** og **Vis som** i oversigtspanelet **Indstillinger** til at vælge den ønskede periode.  
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Produktion](production-manage-manufacturing.md)
 [Konfigurere produktion](production-configure-production-processes.md)  
 [Skabelon](production-planning.md)  

@@ -10,7 +10,7 @@ ms.date: 06/23/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="accessibility-and-keyboard-shortcuts"></a>Tilgængelighedsfunktioner og tastaturgenveje
+# Tilgængelighedsfunktioner og tastaturgenveje
 
 Dette emne indeholder oplysninger om de funktioner, der gør [!INCLUDE[prod_short](includes/prod_short.md)] direkte tilgængelig for personer med handicap. [!INCLUDE[prod_short](includes/prod_short.md)] understøtter følgende funktioner i Hjælp til handicappede:  
 
@@ -25,7 +25,7 @@ Dette emne indeholder oplysninger om de funktioner, der gør [!INCLUDE[prod_shor
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="navigation"></a><a name="Navigation"></a>Navigation
+## <a name="Navigation"></a> Navigation
   
 Du kan bruge forskellige kombinationer af tab, Skift og piletaster på tastaturet til at flytte mellem elementerne på en side. Elementer omfatter handlinger, felter og kolonner, dele og andre kontrolelementer. Vælg generelt <kbd>Tab</kbd> eller <kbd>Skift</kbd>+<kbd>Tab</kbd> for at flytte til næste eller forrige element.
 
@@ -33,29 +33,29 @@ Når du fokuserer på et område, der indeholder handlinger, f. eks. navigations
 
 Ved hjælp af fanerækkefølgen kan du også skifte mellem hovedbrowsersiden og dialogbokse, der anmoder om bekræftelse, for eksempel logonsiden.  
 
-## <a name="headings-in-content"></a><a name="Headings"></a>Overskrifter i indhold
+## <a name="Headings"></a> Overskrifter i indhold
 
 HTML-kilden til [!INCLUDE[prod_short](includes/prod_short.md)]-indhold bruger koder til at hjælpe brugerne af hjælpeteknologien med at forstå strukturen og indholdet af siden. På oversigtssider defineres kolonnerne f.eks. i TH-koder, og kolonneoverskrifterne oprettes med TITEL-attributten i koden. Tekster til elementer som oversigtspaneler, faktabokse og felter er inkluderet i overskriftskoder (H1 H2, H3 og H4).  
 
-## <a name="image-and-links"></a><a name="Images"></a>Billede og links
+## <a name="Images"></a> Billede og links
 
 En beskrivende tekst til billeder er angivet med attributten ALT i koden IMG. En beskrivende tekst til hyperlinkser angivet med attributten titel i koden A.  
 
-## <a name="assistive-technologies"></a><a name="AssistiveTech"></a>Hjælpeteknologier
+## <a name="AssistiveTech"></a> Hjælpeteknologier
 
 [!INCLUDE[prod_short](includes/prod_short.md)] understøtter forskellige hjælpeteknologier, f.eks. stor kontrast, skærmlæsere og talegenkendelsessoftware. Nogle hjælpeteknologier fungerer ikke sammen med bestemte elementer på [!INCLUDE[prod_short](includes/prod_short.md)]-sider.  
 
-## <a name="zoom"></a><a name="zoom"></a>Zoom
+## <a name="zoom"></a> Zoom
 
 De fleste browsere bruger standardtastaturgenveje til at zoome ind og ud på den aktuelle side. Disse tastaturgenveje er ikke specifikke for [!INCLUDE [prod_short](includes/prod_short.md)], men de fungerer, når du bruger [!INCLUDE [prod_short](includes/prod_short.md)] i en browser. Du kan få vist en liste over understøttede tastaturgenveje under [Tastaturgenveje til zoom ind og ud](keyboard-shortcuts.md#zoomshortcuts).
 
-## <a name="tooltips"></a>Værktøjstips
+## Værktøjstips
 
 Værktøjstip er tilgængelige på de fleste elementer i brugergrænsefladen, f. eks. sidefelter og kolonner, handlinger, køindikatorer og diagrammer. Et værktøjstip giver ekstra tekst, der forklarer et element, så du bedre kan forstå formålet. 
 
 Der kan opnås adgang til værktøjstip på forskellige måder, afhængigt af klienten (internettet eller mobil) og den enhed, som du arbejder med. Brug følgende tabel som reference. Nogle værktøjstip kan læses af skærmlæsere. Hvis det er tilfældet, kan du få adgang til værktøjstips som beskrevet i tabellen og derefter bruge skærmlæseren til at navigere til værktøjstippet på samme måde, som du kan med alle andre elementer.
 
-#### <a name="accessing-tooltips"></a>Få adgang til værktøjstips
+#### Få adgang til værktøjstips
 
 |Element|Musehandling for webklient|Genvejstast for webklient|Berøringsbevægelse på tablet/telefon for mobilapp|Skærmlæser-understøttelse|
 |-------|-----------------|------------|--------------------------|---------------------|
@@ -72,11 +72,11 @@ Der kan opnås adgang til værktøjstip på forskellige måder, afhængigt af kl
 
 -->
 
-## <a name="for-more-accessibility-information"></a>Flere oplysninger om tilgængelighedsfunktioner
+## Flere oplysninger om tilgængelighedsfunktioner
 
 Du kan finde flere oplysninger om tilgængelighedsfunktioner i Microsoft-produkter og hjælpeteknologier på webstedet [Microsoft Hjælp til handicappede](https://go.microsoft.com/fwlink/?LinkId=262160).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Blive køreklar](ui-get-ready-business.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

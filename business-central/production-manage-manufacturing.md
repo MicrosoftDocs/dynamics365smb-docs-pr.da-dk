@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="manufacturing"></a>Produktion
+# Produktion
 
 > [!NOTE]
 > Funktioner, der beskrives i dette emne og underordnede emner, er kun synlige i brugergrænsefladen, hvis du har oplevelsen **Premium**. Du kan finde flere oplysninger i [Ændre, hvilke funktioner der vises](ui-experiences.md).
@@ -38,7 +38,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Bruge siden **Kapacitetskladde** til at bogføre forbrugt kapacitet, der ikke er tilknyttet en produktionsordre, f.eks. vedligeholdelsesarbejde.|[Bogføre kapaciteter](production-how-to-post-capacities.md)|  
 |Beregne og justere prisen på færdigproducerede varer og forbrugte komponenter til økonomisk afstemning.|[Om de færdige produktionsomkostninger](finance-about-finished-production-order-costs.md)|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere produktion](production-configure-production-processes.md)  
 [Skabelon](production-planning.md)  

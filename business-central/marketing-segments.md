@@ -11,7 +11,7 @@ ms.date: 10/04/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-segments"></a>Administrere målgrupper
+# Administrere målgrupper
 Du opretter målgrupper for at vælge en gruppe kontaktpersoner i overensstemmelse med bestemte kriterier. F.eks. kan en målgruppe være den branche, som kontaktpersonerne arbejder i, eller dine forretningsmæssige relationer med kontaktpersonerne. Du kan oprette en målgruppe for at vælge de kontaktpersoner, som er målet med en kampagne.
 
 Der er to hovedopgaver i oprettelse af en målgruppe:
@@ -27,7 +27,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Administrere de kontakter, der er tildelt til målgrupper. |[Tilføje kontakter til målgrupper](marketing-add-contact-segment.md) |
 | Få mere at vide om brugen af interaktioner for målgrupper, herunder logføring. |[Administrere interaktioner for målgrupper](marketing-interaction-segments.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 [Administrere salgsleads](marketing-manage-sales-opportunities.md)  
 [Administrere kontakter](marketing-contacts.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -21,7 +21,7 @@ I den følgende tabel kan du se, hvordan du kan skrive dato og klokkeslæt, og h
 |11 12|11-løbende måned-løbende år 12:00:00|
 |1112 12|11-12-aktuelt år 12:00:00|
 |d eller dags dato|dags dato 00:00:00|
-|d tid|dags dato aktuelt klokkeslæt|
+|t tid|dags dato aktuelt klokkeslæt|
 |d 10:30|dags dato 10:30:00|
 |d 3:3:3|dags dato 03:03:03|
 |a eller arbejdsdato|arbejdsdato 00:00:00|

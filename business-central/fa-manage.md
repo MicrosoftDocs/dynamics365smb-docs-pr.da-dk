@@ -14,7 +14,33 @@ ms.custom: bap-template
 
 # Administration af anlægsaktiver
 
-Anlægsaktiver i [!INCLUDE[prod_short](includes/prod_short.md)] giver dig et overblik over anlægsaktiverne, og sikre korrekt periodisk afskrivning. Funktionen hjælper dig ligeledes med at holde styr på reparationsomkostningerne, administrere forsikringspolicer, bogføre anlægstransaktioner og generere forskellige rapporter og statistikker.
+Anlægsaktiver i [!INCLUDE[prod_short](includes/prod_short.md)] giver dig et overblik over anlægsaktiverne, og sikre korrekt periodisk afskrivning. Den hjælper dig også med at spore reparationsomkostninger, administrere forsikringspolicer, bogføre anlægstransaktioner og generere forskellige rapporter og statistikker.
+
+## Hvad er et anlægsaktiv?
+
+Anlægsaktiverne adskiller sig fra andre varer på lagerstedet. Et anlægsaktiv, også kendt som et kapitalaktiv, er et materielt stykke ejendom, anlæg eller udstyr (PP&E), som du ejer eller administrerer med forventning om, at det fortsat vil hjælpe med at generere indkomst. Et aktiv er fast, når det er en vare, som din virksomhed ikke vil forbruge, sælge eller konvertere til kontanter inden for det næste kalenderår. Anlægsaktiver adskiller sig fra omsætningsaktiver, som er kontante eller forventes konverteret til kontanter inden for de næste 12 måneder. Anlægsaktiverne adskiller sig også fra lagerbeholdningen, fordi lagerbeholdningen typisk forbruges inden for kort tid.
+
+## Typer af anlægsaktiver
+
+Virksomheder investerer typisk i nogle få typer anlægsaktiver. Nogle eksempler er:
+
+- Bygninger og faciliteter
+- Computerudstyr og software
+- Møbler og inventar
+- Maskineri
+- Biler
+
+## Forståelse af anlægsregnskab
+
+Anlægsregnskab betyder at føre præcise regnskaber over dine anlægsaktiver. Disse poster indeholder oplysninger om de fem faser i et aktivs livscyklus. Efter det første køb omfatter hvert anlægsaktivs livscyklus mindst tre af følgende faser:
+
+- Anskaffelse: Du føjer et nyt anlægsaktiv til dine regnskaber.
+- Afskrivning: Du registrerer et anlægs periodiske værdiforringelse, som du bruger en afskrivningsmetode til at beregne. Du kan få mere at vide ved at gå til [Anlægsafskrivningsberegning](LocalFunctionality/India/FA_Depreciation.md).
+- Værdiregulering: Du registrerer en vurdering af et aktivs aktuelle dagsværdi. Du kan få mere at vide ved at gå til [Værdiregulere anlægsaktiver](fa-how-revalue.md).
+- Værdiforringelse: Du registrerer en værdiforringelse på grund af begivenheder eller omstændigheder.
+- Salg: Du sælger, kasserer eller bruger anden måde til at bortskaffe et aktiv ved slutningen af dets levetid.
+
+Revision indgår også i den detaljerede kontrol af virksomhedens regnskaber efter regnskabsårets afslutning. Uanset om det er internt eller eksternt, er revisioner, hvor du måske bemærker uoverensstemmelser eller forskelle mellem dine noter og den faktiske tilstand af dine aktiver. Revisioner fremmer gennemsigtighed i dine aktiver og regnskab, hvis du mister flere penge end forventet.
 
 ## Videooversigt
 
@@ -61,7 +87,7 @@ For hvert anlægsaktiv skal du definere et kort, der indeholder oplysninger om d
 
 For at holde styr på anlægsaktivers afskrivninger og andre finansielle transaktioner i relation til anlægsaktiver, skal du oprette en eller flere afskrivningsprofiler for hver. Det kræver nogle trin at afskrive aktiver:
 
-1. Lav en rapport for at beregne periodisk afskrivning.
+1. Køre en rapport, der beregner periodisk afskrivning.
 1. Udfyld kladde med resulterede poster.
 1. Bogfør journalen.
 
@@ -95,10 +121,19 @@ Du kan registrere vedligeholdelsesomkostninger og den næste servicedato for hve
 | Have vist salgsposter. | [Vise anlægsposter](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Vis forventede salgsværdier. | [Vise forventede salgsværdier](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
+## Tips til forbedring af anlægsregnskabet
+
+Der er et par ting, du kan implementere i din regnskabsstrategi for anlægsaktiver, som kan hjælpe med at sikre, at du maksimerer din indtjening.
+
+- Opret en tærskel for kapitalisering. Når du køber en vare, skal du bestemme et fast beløb til kapitalisering. Beløbet er med til at sikre, at regnskabsbøgerne stemmer overens, og gør det nemmere for dig og dit team at få øje på regnskabsfejl.
+- Evaluer udstyrets livscyklus igen. Det er vigtigt at vurdere, hvor lang tid du kan bruge anlægsaktiverne til deres oprindelige formål. Da regnskab og afskrivning er afhængige af nøjagtige livscyklusestimater, skal du revurdere, når det er nødvendigt, fordi det kan ændre sig over tid.
+- Tag dine aktiver. Det er vigtigt at spore og tagge dine aktiver gennem hele deres livscyklus, fordi mange faktorer kan påvirke deres værdi. Mærkning hjælper med at spore dine varer gennem stadierne af deres livscyklus og hjælper med at forhindre tyveri, eliminere fejlplacering og understøtte økonomiske statistikker.
+- Automatiser indsigt med regnskabssoftware til anlægsaktiver. Automatisering af manuelle aktiviteter til sporing af dine data med software til anlægsregnskab gør processer lettere at fuldføre. Adgangskodebeskyttelse kan kun hjælpe med at give adgang til de mennesker, der har brug for det og er uddannet til det.
+
 ## Se også
 
 [Opsætning af Anlægsaktiver](fa-setup.md)  
-[Oversigt over anlægsaktivsanalyser](fa-analytics-overview.md)  
+[Oversigt over analyse af anlægsaktiver](fa-analytics-overview.md)  
 [Oversigt for Finance](finance.md)  
 [Blive køreklar til at foretage handler](ui-get-ready-business.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

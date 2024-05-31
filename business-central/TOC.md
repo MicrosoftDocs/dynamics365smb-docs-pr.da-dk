@@ -611,11 +611,11 @@ ms.service: dynamics-365-business-central
 ### [Afskrivningsmetoder](fa-depreciation-methods.md)
 ### [Administrere budgetter for anlægsaktiver](fa-how-manage-budgets.md)
 ### [Anskaffe anlægsaktiver](fa-how-acquire.md)
+### [Afskrive eller amortisere anlægsaktiver](fa-how-depreciate-amortize.md)
 ### [Vedligeholde anlægsaktiver](fa-how-maintain.md)
 ### [Forsikre anlægsaktiver](fa-how-insure.md)
 ### [Overføre, opdele eller kombinere anlægsaktiver](fa-how-trans-split-combine.md)
 ### [Omvurdere anlægsaktiver](fa-how-revalue.md)
-### [Afskrive eller amortisere anlægsaktiver](fa-how-depreciate-amortize.md)
 ### [Afhænde eller lade anlægsaktiver udgå](fa-how-dispose-retire.md)
 ### [Fejlfinde anlægsfinansposter](fa-troubleshooting-fa-ledger-entries.md)
 

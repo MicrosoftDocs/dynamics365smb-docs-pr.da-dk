@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Oprette en farvet indikator på køindikatorer for firmaet eller individuelle brugere
+# Oprette en farvet indikator på køindikatorer for firmaet eller individuelle brugere
 
 Som administrator kan du oprette køindikatorer, der vises i rollecentre for brugere, for at medtage en indikator, der skifter farve ud fra dataværdierne i køerne.  
 
@@ -19,7 +19,7 @@ Fra siden **Opsætning af køindikator** kan du konfigurere indikatorer for alle
 
 Hvis du vil konfigurere indikatoren, kan du angive op til to tærskelværdier, der definerer tre områder af dataværdier (lav, mellem og høj), hvor du kan anvende en anden farve (eller type).  
 
-### <a name="to-set-up-colored-indicators-on-cues"></a>Sådan opretter farveindikatorer på køindikatorer
+### Sådan opretter farveindikatorer på køindikatorer  
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Konfigurationskø**, og vælg derefter det relaterede link.  
 
      Siden **Opsætning af køindikator** vises. Siden viser de indikatorer, der aktuelt er konfigureret på køindikatorer. Indikatorer, der gælder for alle brugere i virksomheden, har et tomt **Brugernavn**-felt. Indikatorer, der gælder for en bestemt bruger, omfatter brugerens navn i feltet **Brugernavn**.  
@@ -56,7 +56,7 @@ Hvis du vil konfigurere indikatoren, kan du angive op til to tærskelværdier, d
     |**Tvetydig**|Gul|  
     |**Underordnet**|Grå|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
