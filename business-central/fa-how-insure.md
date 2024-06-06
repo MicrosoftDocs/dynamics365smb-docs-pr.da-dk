@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="insure-fixed-assets"></a>Forsikre anlægsaktiver
+# Forsikre anlægsaktiver
 
 Brug siden **Forsikringskort** til at oprette en forsikringspolice, der dækker et eller flere anlægsaktiver. Du kan knytte ét anlægsaktiv til én forsikringspolice eller flere anlægsaktiver til én forsikringspolice.
 
@@ -26,7 +26,7 @@ Du kan også knytte et anlægsaktiv til en forsikringspolice og oprette forsikri
 
 Når du har knyttet et anlægsaktiv til en forsikringspolice, står **·**  der **Ja i feltet Forsikret** på anlægskortet. Når du sælger anlægsaktivet, deaktiveres til/fra-knappen automatisk.
 
-## <a name="to-create-or-modify-an-insurance-card"></a>Sådan oprettes og redigeres et forsikringskort
+## Sådan oprettes og redigeres et forsikringskort
 
 Når du får oplysninger om ændringer i forsikringsbeløbet, kan du angive de nye oplysninger på siden **Forsikringskort** for at sikre dig, at du analyserer forsikringsposterne korrekt.  
 
@@ -34,7 +34,7 @@ Når du får oplysninger om ændringer i forsikringsbeløbet, kan du angive de n
 2. Vælge handlingen **By** for at oprette et nyt kort til en forsikringspolice. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Du kan også vælge den forsikringspolice, du vil ændre, og derefter vælge handlingen **Rediger**.
 
-## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal"></a>Sådan tildeles et anlægsaktiv til en forsikringspolice ved at bogføre forsikringskladden
+## Sådan tildeles et anlægsaktiv til en forsikringspolice ved at bogføre forsikringskladden
 
 Du tildeler et anlægsaktiv til en forsikringspolice ved at bogføre det til forsikringsposten.  
 
@@ -48,7 +48,7 @@ Følgende procedure beskriver, hvordan du kan oprette en forsikringskladdelinje 
     > [!NOTE]  
     > Posterne fra en forsikringskladde bogføres kun til forsikringsposterne.  
 
-## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>Sådan opdateres forsikringsværdien af et anlægsaktiv
+## Sådan opdateres forsikringsværdien af et anlægsaktiv
 
 Du kan bruge kørslen **Indekser forsikring** til at opdatere værdien af de anlægsaktiver, der er dækket af forsikringen.  
 
@@ -63,19 +63,19 @@ Du kan bruge kørslen **Indekser forsikring** til at opdatere værdien af de anl
 4. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Forsikringskladder**, og vælg derefter det relaterede link.  
 5. Åbn den relevante forsikringskladde, gennemse de oprettede værdier, og bogfør dem til forsikringsposterne.  
 
-## <a name="to-monitor-insurance-coverage"></a>Sådan overvåges forsikringsdækning
+## Sådan overvåges forsikringsdækning
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder dedikerede rapporter og statistiksider, så du kan analysere forsikringspolicerne og om anlægsaktiverne er over- eller underforsikrede.  
 
-### <a name="overview-of-insurance-policies"></a>Oversigt over forsikringspolicer
+### Oversigt over forsikringspolicer
 
 Hvis du vil have et overblik over dine forsikringspolicer, skal du åbne en eksempelvisning af rapporten **Forsikring - stamoplysninger** eller udskrive rapporten. Rapporten indeholder alle policer og de vigtigste felter fra forsikringskortene.  
 
-### <a name="insurance-coverage"></a>Forsikringsdækning
+### Forsikringsdækning
 
 Hvis du vil have vist, hvilke forsikringspolicer der dækker det enkelte anlægsaktiv og med hvilket beløb, kan du få vist eller udskrive rapporten **Forsikring - forsikret i alt**.  
 
-#### <a name="overunder-coverage"></a>Over/underforsikring
+#### Over/underforsikring
 
 Du kan kontrollere, om anlægsaktiverne er over- eller underforsikrede på følgende måder:  
 
@@ -84,18 +84,18 @@ Du kan kontrollere, om anlægsaktiverne er over- eller underforsikrede på følg
 * Rapporten **Over/underforsikring**.  
 * Rapporten **Forsikringsanalyse**.  
 
-### <a name="uninsured-fixed-assets"></a>Ikke-forsikrede anlægsaktiver
+### Ikke-forsikrede anlægsaktiver
 
 Hvis du vil kontrollere, om du har glemt at knytte et anlægsaktiv til en forsikringspolice, kan du udskrive eller få vist rapporten **Forsikring - ikke-fors. anlæg** . Denne rapport viser anlægsaktiver, som ikke bogfører beløb for til forsikringsposterne.  
 
-## <a name="to-view-insurance-coverage-ledger-entries"></a>Sådan får du vist forsikringsposter
+## Sådan får du vist forsikringsposter
 
 Du kan få vist de forsikringsposter, du har oprettet.  
 
 1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Forsikring**, og vælg derefter det relaterede link.  
 2. Vælg den relevante forsikringspolice, og vælg derefter handlingen **Forsikringsposter**.  
 
-## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>Sådan får du vist den samlede forsikringsværdi for anlægsaktiver
+## Sådan får du vist den samlede forsikringsværdi for anlægsaktiver
 
 En matrixside viser de forsikringsværdier, der er registreret for hver forsikringspolice for hvert anlægsaktiv, og som stammer fra bogførte forsikringsrelaterede beløb.  
 
@@ -105,7 +105,7 @@ En matrixside viser de forsikringsværdier, der er registreret for hver forsikri
 4. Vælg handlingen **Vis matrix**.  
 5. Hvis du vil se de underliggende forsikringsposter, skal du vælge en værdi i matrixen.  
 
-## <a name="to-correct-insurance-coverage-entries"></a>Sådan rettes forsikringsposter
+## Sådan rettes forsikringsposter
 
 Hvis et anlægsaktiv er knyttet til en forkert forsikringspolice, kan du rette det ved at oprette to omposteringsposter fra forsikringskladden.  
 
@@ -116,7 +116,7 @@ Hvis et anlægsaktiv er knyttet til en forkert forsikringspolice, kan du rette d
 
 Anlægsaktivet fjernes fra den forkerte forsikringspolice på anden linje. Aktivet knyttes til den korrekte forsikringspolice på første linje i kladden.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Anlægsaktiver](fa-manage.md)  
 [Opsætning af Anlægsaktiver](fa-setup.md)  

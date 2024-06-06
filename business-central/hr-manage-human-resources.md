@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="manage-human-resources"></a>Administrere personale
+# Administrere personale
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du føre detaljerede registre over dine medarbejdere. Du kan registrere og vedligeholde medarbejderoplysninger, f.eks. ansættelseskontrakter, fortrolige oplysninger, kvalifikationer og medarbejderkontakter.
 
@@ -25,7 +25,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Registrere nye medarbejder eller redigere poster for eksisterende medarbejdere og tilknytte relaterede oplysninger, f.eks kontrakter og udstyr. |[Registrere medarbejdere](hr-how-register-employees.md) |
 | Registrere medarbejdernes fravær og få vist fraværsstatistik ud fra forskellige filtre. |[Administrere medarbejderfravær](hr-how-manage-absence.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finans](finance.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="the-image-analyzer-extension"></a>Billedanalyseudvidelsen
+# Billedanalyseudvidelsen
 
 Billedanalyseudvidelsen bruger effektiv billedanalyse fra Computer Vision API'en til Azure Cognitive Services til at registrere attributter i de billeder, du importerer til varer og kontaktpersoner, så du let kan gennemse og tildele dem. For varer kan attributterne dreje sig om, hvorvidt varen er et bord eller en bil, og om den er rød eller blå. For kontaktpersoner kan attributterne vedrøre køn eller alder.
 
@@ -21,11 +21,11 @@ Billedanalyseudvidelsen er gratis i [!INCLUDE[prod_short](includes/prod_short.md
 
 Når du har aktiveret udvidelsen, kører billedanalysefunktionen, hver gang du importerer et billede til en vare eller kontaktperson. Du får vist attributter, tillidsniveau og oplysninger med det samme og kan beslutte, hvad der skal gøres med hver attribut. Hvis du har importeret billeder, før du aktiverede billedanalyseudvidelsen, skal du gå til varen eller kontakten og vælge handlingen **Analysér billede**.  
 
-## <a name="privacy-notice"></a>Erklæring om beskyttelse af personlige oplysninger
+## Erklæring om beskyttelse af personlige oplysninger
 
 Denne udvidelse bruger Computer Vision-API'en fra Azure Cognitive Services, som kan have forskellige niveauer af overensstemmelsesforpligtelser i forhold til [!INCLUDE[prod_short](includes/prod_short.md)]. Når du aktiverer udvidelsen Image Analyzer filtypen, sendes debitordata, f.eks. et billede af en kontaktperson, til Computer Vision-API'en. Ved at installere denne udvidelse, accepterer du, at dette begrænsede sæt af data sendes til Computer Vision-API'en. Bemærk, at du til enhver tid kan deaktivere og fjerne udvidelsen Image Analyzer for at afbryde brugen af denne funktion. Du kan finde flere oplysninger i [Microsofts sikkerhedscenter](https://go.microsoft.com/fwlink/?linkid=851463).
 
-## <a name="requirements"></a>Krav
+## Krav
 
 Der er nogle krav til billederne:
 
@@ -33,7 +33,7 @@ Der er nogle krav til billederne:
 * Maksimal filstørrelse: mindre end 4 MB  
 * Billeddimensioner: større end 50 x 50 pixel  
 
-## <a name="switch-on-the-image-analyzer-extension"></a>Aktiver billedanalyseudvidelsen
+## Aktiver billedanalyseudvidelsen
 
 Billedanalyseudvidelsen er indbygget i [!INCLUDE[prod_short](includes/prod_short.md)]. Du skal blot aktivere den.
 
@@ -48,7 +48,7 @@ Gør ét af følgende for at aktivere billedanalyseudvidelsen:
     > [!TIP]  
     > På siden **Opsætning af billedanalyse** kan du også ændre graden af tillid for attributforslag. Hvis du f.eks. ønsker en større grad af tillid, kan du angive en højere procentsats.
 
-## <a name="analyze-an-item-image"></a>Analysere et billede af en vare
+## Analysere et billede af en vare
 
 Nedenfor beskrives det, hvordan du kan analysere et billede, der er blevet indlæst, før du har aktiveret billedanalyseudvidelsen.  
 
@@ -68,7 +68,7 @@ Feltet **Handling, der skal udføres** har følgende muligheder:
 > [!NOTE]  
 > Som standard viser **Vareattributter** attributter, hvor **Tillidsscore** er større end **Tærsklen for tillidsscore %** defineret i **Opsætning af billedanalyse**. Hvis du vil se alle fundne attributter, skal du vælge handlingen **Vis alle attributter**.
 
-## <a name="analyze-a-contact-person-picture"></a>Analyse af billede af en kontaktperson
+## Analyse af billede af en kontaktperson
 
 Nedenfor beskrives det, hvordan du kan analysere et billede, der er blevet indlæst, før du har aktiveret billedanalyseudvidelsen.  
 
@@ -89,7 +89,7 @@ Nedenfor beskrives det, hvordan du kan analysere et billede, der er blevet indl�
     >
     > Computerens API returnerer ikke et tillidsniveau for alder og køn.
   
-## <a name="use-your-own-computer-vision-api-account"></a>Brug af din egen konto til Computer Vision API
+## Brug af din egen konto til Computer Vision API
 
 Du kan også bruge din egen konto til Computer Vision API'en, f.eks. hvis du vil analysere flere billeder, end standardintegrationen tillader.
 
@@ -99,21 +99,21 @@ Du kan også bruge din egen konto til Computer Vision API'en, f.eks. hvis du vil
     > [!NOTE]  
     > Du skal tilføje **/analysere** i slutningen af API-URI'en, hvis det ikke allerede står der. Eksempel: ```https://cronus.api.cognitive.microsoft.com/vision/v2.0/analyze```.
 
-## <a name="see-how-many-analyses-you-have-left-in-the-current-period"></a>Se, hvor mange analyser du har udfyldt i den aktuelle periode
+## Se, hvor mange analyser du har udfyldt i den aktuelle periode
 
 Du kan få vist antallet af analyser, du har udført, og hvor mange du stadig kan udføre, i den aktuelle periode.  
 
 1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af billedanalyse**, og vælg derefter det relaterede link.
 2. Felterne **Grænsetype**, **Grænseværdi** og **Udførte analyser** oplyser om forbruget.  
 
-## <a name="stop-using-the-image-analyzer-extension"></a>Afslut brug af billedanalyseudvidelsen
+## Afslut brug af billedanalyseudvidelsen
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Serviceforbindelser**, og vælg derefter **Opsætning af billedanalyse**.  
 2. Fjern markeringen i feltet **Aktiver billedanalyse**.  
 
 Du kan også fjerne udvidelsen fuldstændigt. Du kan altid hente den igen fra AppSource. Du kan finde flere oplysninger i [Installation og fjernelse af udvidelser i Business Central](ui-extensions-install-uninstall.md#uninstall-an-app).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbejde med vareattributter](inventory-how-work-item-attributes.md)  
 [Kategorisere varer](inventory-how-categorize-items.md)  

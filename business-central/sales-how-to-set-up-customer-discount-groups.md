@@ -7,13 +7,13 @@ ms.topic: article
 ms.date: 06/08/2022
 ms.author: bholtorf
 ---
-# <a name="set-up-customer-discount-groups"></a>Oprette debitorrabatgrupper
+# Oprette debitorrabatgrupper
 
 Du kan definere Salgslinjerabatter for en gruppe debitorer i stedet for at udligne dem individuelt.
 
 **Debitorrabatgrupper** fungerer på samme måde som [Debitorprisgrupper](sales-how-to-set-up-customer-price-groups.md), men kan kombineres med varerabatgrupper for hurtigt at angive linjerabatter til mange varer for udvalgte debitorer.
 
-## <a name="create-sales-line-discounts-for-a-customer-group"></a>Sådan oprettes salgslinjerabatter for en kundegruppe
+## Sådan oprettes salgslinjerabatter for en kundegruppe
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Debitorrabatgrupper**, og vælg derefter det relaterede link.
 2. Vælg **Ny** på siden **debitorrabatgrupper** for at oprette en ny rabatgruppe, og angive et navn under kolonnen **Kode** og tilføje en beskrivelse.
@@ -26,7 +26,7 @@ Du kan definere Salgslinjerabatter for en gruppe debitorer i stedet for at udlig
 
 Gentag trin 4-8 for hver vare eller varerabatgruppe, du vil oprette Salgslinjerabat for.
 
-## <a name="assign-a-customer-to-a-discount-group"></a>Knytte en kunde til en rabatgruppe
+## Knytte en kunde til en rabatgruppe
 
 Når du har oprettet kunderabatgrupper, kan du angive kunderabatgruppekoder på kundekortene.
 
@@ -34,7 +34,7 @@ Når du har oprettet kunderabatgrupper, kan du angive kunderabatgruppekoder på 
 2. Åbn det relevante **Kundekort** for en kunde, der skal være en del af en kunderabatgruppe.
 3. I oversigtspanelet **fakturering** skal du i feltet **Debitorrabatgruppe** vælge gruppekoden.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Salg](sales-manage-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  

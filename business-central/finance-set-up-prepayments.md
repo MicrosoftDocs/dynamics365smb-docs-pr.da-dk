@@ -9,7 +9,7 @@ ms.date: 10/27/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-prepayments"></a>Oprette forudbetalinger
+# Oprette forudbetalinger
 
 Hvis det er et krav, at dine kunder skal betale, før du leverer en ordre til dem, eller hvis din leverandør kræver, at du skal betale, før de sender en ordre til dig, kan du bruge forudbetalinger. Forudbetalingsfunktionen sætter dig i stand til at fakturere og opkræve depositum fra debitorer eller at sende depositummerne til kreditorer og til at sikre, at alle delvise betalinger bogføres i forhold til en faktura. Du kan finde flere oplysninger i [Oprette forudbetalingsfakturaer](finance-how-to-create-prepayment-invoices.md).
 
@@ -29,7 +29,7 @@ Eftersom det forudbetalte beløb tilhører køberen, indtil han har modtaget var
 
 [!INCLUDE[local-func-setup-link](includes/local-func-setup-link.md)]
 
-## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Sådan føjes forudbetalingskonti til bogføringsopsætning
+## Sådan føjes forudbetalingskonti til bogføringsopsætning  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogføringsopsætning**, og vælg derefter det relaterede link.
 2. På siden **Bogføringsopsætning** skal du udfylde følgende felter for de relevante linjer:  
@@ -42,7 +42,7 @@ Eftersom det forudbetalte beløb tilhører køberen, indtil han har modtaget var
 
 Hvis du ikke allerede har angivet finanskonti til forudbetalinger, kan du åbne siden **Finanskontooversigt** fra det relevante kontofelt.  
 
-## <a name="to-set-up-number-series-for-prepayment-documents"></a>Sådan oprettes nummerserier til forudbetalingsdokumenter
+## Sådan oprettes nummerserier til forudbetalingsdokumenter  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Salgsopsætning**, og vælg derefter det relaterede link.
 2. Udfyld følgende felter i oversigtspanelet **Nummerserie** på siden **Salgsopsætning**.  
@@ -59,7 +59,7 @@ Hvis du ikke allerede har angivet finanskonti til forudbetalinger, kan du åbne 
 > [!NOTE]  
 > Du kan bruge samme nummerserie til forudbetalingsfakturaer som til almindelige fakturaer, eller du kan bruge forskellige serier. Hvis du bruger forskellige serier, må der ikke være ens numre i serierne; dvs. numre, der optræder i begge serier.  
 
-## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Sådan opretter forudbetalingsprocenter til varer, debitorer og kreditorer
+## Sådan opretter forudbetalingsprocenter til varer, debitorer og kreditorer
 
 Hvis du opretter en standardforudbetalingsprocent til en vare, kan den bruges til alle kunder, en bestemt kunde eller en debitorprisgruppe. Hvis du ikke vil anvende den samme forudbetalingsprocent på alle debitorer, skal du angive, hvilke debitorer, eller hvilke debitorprisgrupper forudbetalingsprocenten gælder for.
 
@@ -77,7 +77,7 @@ Til en kunde eller leverandør kan du oprette én standardforudbetalingsprocent,
 > [!TIP]
 > Du kan også få adgang til siden **Forudbetalingsprocenter - salg** fra debitor-eller kreditorkortet.
 
-### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Sådan afgøres det, hvilken forudbetalingsprocent der har højeste prioritet
+### Sådan afgøres det, hvilken forudbetalingsprocent der har højeste prioritet  
 
 I en ordre kan der være én forudbetalingsprocent i salgshovedet og en anden procent for varerne på linjerne. For at afgøre, hvilken forudbetalingsprocent der gælder for hver enkelt salgslinje, søger systemet efter forudbetalingsprocenten i følgende rækkefølge, hvorefter den første standardprocent, der bliver fundet, anvendes:  
 
@@ -88,7 +88,7 @@ I en ordre kan der være én forudbetalingsprocent i salgshovedet og en anden pr
 
 Med andre ord bruges forudbetalingsprocenten på kundekortet kun, hvis der ikke er oprettet andre forudbetalingsprocenter for varen. Hvis du ændrer indholdet i feltet **Forudbetaling i %** i salgs- eller købshovedet, efter linjerne er oprettet, opdateres forudbetalingsprocenten dog på alle linjer. Det gør det nemt at oprette en ordre med en fast forudbetalingsprocent, uanset hvilken procent der er oprettet for varerne.
 
-## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Sådan frigives salgsordrer automatisk, når forudbetalinger anvendes
+## Sådan frigives salgsordrer automatisk, når forudbetalinger anvendes
 
 Du kan spare tid ved at oprette en Opgavekøpost, som automatisk frigiver salgsordrer, der kræver forudbetaling, efter at der er anvendt betalinger. Når du automatiserer processen, bliver du ved med at frigive salgsordren.
 
@@ -101,7 +101,7 @@ Du kan spare tid ved at oprette en Opgavekøpost, som automatisk frigiver salgso
 3. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Poster for jobkøer**, og vælg derefter det relaterede link.
 4. Konfigurer **Opdateret Afventer forudbetaling af Salg**-opgavekø, f. eks. ved at bruge indstillingerne i oversigtspanelet **Gentagelse** til at planlægge, hvor ofte den skal køres. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Fakturere forudbetalinger](finance-invoice-prepayments.md)  
 [Gennemgang: Opsætning og fakturering af salgsforudbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

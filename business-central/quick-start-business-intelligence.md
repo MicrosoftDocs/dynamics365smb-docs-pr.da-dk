@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="business-intelligence-quick-start"></a>Hurtig start af Business Intelligence
+# Hurtig start af Business Intelligence
 
 En uvurderlig del af virksomheden er at kunne indsamle og analysere de stadig stigende mængder data på en effektiv måde. [!INCLUDE[prod_short](includes/prod_short.md)] tilbyder mange forskellige business intelligence-værktøjer (BI) - både indbygget og integreret med andre tjenester - for at hjælpe virksomheden med at træffe beslutningsprocessen.
 
@@ -28,7 +28,7 @@ Forskellige roller i organisationer har ofte foretrukne måder at forbruge og an
 
 Du kan få flere oplysninger om analyser ved at gå til [Analyse af oversigt](reports-bi-reporting.md).
 
-## <a name="analytics-by-functional-area"></a>Analytics efter funktionsområde
+## Analytics efter funktionsområde
 
 Følgende tabel indeholder links til artikler, der beskriver, hvordan du arbejder med analyser inden for bestemte funktionsområder i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -39,7 +39,7 @@ Følgende tabel indeholder links til artikler, der beskriver, hvordan du arbejde
 | Indkøb | [Indkøbsanalyse](purchasing-analytics-overview.md) |
 | Administration af anlægsaktiver | [Analyse af anlægsaktiver](fa-analytics-overview.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversigt over analyse](reports-bi-reporting.md)  
 [Hurtig startvejledning til Business Central](quick-start-business-central.md)  

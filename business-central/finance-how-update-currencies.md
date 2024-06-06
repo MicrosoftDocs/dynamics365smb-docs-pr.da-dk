@@ -11,11 +11,11 @@ ms.date: 05/03/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="update-currency-exchange-rates"></a>Opdatere valutakurser
+# Opdatere valutakurser
 
 Hvis du handler i forskellige valutaer, skal du holde styr på ændringerne i valutakurserne. [!INCLUDE [prod_short](includes/prod_short.md)] hjælper dig med at holde styr på og opdatere valutakurserne manuelt eller automatisk og med at oprette en valutakurstjeneste.
 
-## <a name="currencies"></a>Valutaer
+## Valutaer
 
 > [!TIP]  
 > Du kan finde realtidsoplysninger om valutakurser (fx) eller historiske kurser under termen valuta i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Oprette en ekstra rapporteringsvaluta](finance-how-setup-additional-currencies.md).
@@ -24,11 +24,11 @@ Hvis du handler i forskellige valutaer, skal du holde styr på ændringerne i va
 
 Du kan angive valutakoder i **valutaerne**, herunder yderligere oplysninger og indstillinger, der er nødvendige for hver valutakode. Der er flere oplysninger i [Valutaer](finance-set-up-currencies.md#curr)
 
-### <a name="example-of-a-receivable-currency-transaction"></a>Eksempel på en valutapostering for tilgodehavender
+### Eksempel på en valutapostering for tilgodehavender
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="exchange-rates"></a>Valutakurser
+## Valutakurser
 
 Valutakurserne er værktøjet til beregning af den lokale valutaværdi (RV) for hver valuta transaktion. Siden **Valutakurser** indeholder følgende felter:
 
@@ -57,7 +57,7 @@ Reguleringsvalutakursbeløbet for reguleringsvalutakursen eller relations-regule
 >
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
-## <a name="adjust-exchange-rates"></a>Regulere valutakurser
+## Regulere valutakurser
 
 Fordi valutakurser svinger hele tiden, skal andre valutaer i systemet reguleres med jævne mellemrum. Hvis du ikke gør det, kan beløb, som du har omregnet fra udenlandske (eller andre) valutaer og bogført i finansregnskabet i lokal valuta, være forkerte. Du skal desuden opdatere daglige poster, der er bogført, før du angiver en daglig valutakurs.
 
@@ -78,36 +78,36 @@ Du kan også angive, hvordan dimensioner for justeringerne håndteres for gevins
 > [!IMPORTANT]
 > På grund af lokale krav i Schweiz anbefaler vi ikke, at du aktiverer **Funktionsopdatering: Aktivér brug af ny valutakursregulering, der kan udvides, herunder bogføringsgennemgang** i den schweiziske (CH) landeversion.
 
-## <a name="preview-the-effect-of-an-adjustment"></a>Få vist effekten af en justering
+## Få vist effekten af en justering
 
 Du kan få vist den effekt, som en justering af en valutakurs har ved bogføring, inden du bogfører ved at vælge **Forhåndsversion** på siden **Justering af kursvalutaer** (Report 596). På anmodningssiden kan du angive, hvad der skal medtages i eksemplet:
 
 * Hent en detaljeret bogføring på en finanspost efter bogføring.
 * Få en opsummeret bogføring efter valuta. Du skal blot vælge feltet **Reguler pr. post** i rapporten **Regulering af valutakurser**.
 
-### <a name="effect-on-customers-and-vendors"></a>Indflydelse på debitorer og kreditorer
+### Indflydelse på debitorer og kreditorer
 
 Det gælder for debitor- og kreditorkonti, at kørslen bruger den valuta, der er gældende på den bogføringsdato, der er angivet i kørslen, for at justere valutaen. Kørslen beregner forskellene i de enkelte valutaopgørelser og bogfører beløbene på den finanskonto, der er angivet i feltet **Urealiseret gevinstkonto** eller i feltet **Urealiseret tabskonto** på siden **Valutaer**. Modposteringer bogføres automatisk på samlekontoen i finansbogholderiet.
 
 Kørslen gennemgår alle åbne debitor- og kreditorposter. Hvis der er en kursdifference for en post, oprettes der en ny detaljeret debitor- eller leverandørpost. Den nye post afspejler det justerede beløb i debitor- eller kreditorposten.
 
-#### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensioner for debitor- og kreditorposter
+#### Dimensioner for debitor- og kreditorposter
 
 [!INCLUDE [prod_short](includes/prod_short.md)] tildeler dimensionerne fra debitor-/kreditorposter, og reguleringerne bogføres pr. kombination af dimensionsværdier.
 
-### <a name="effect-on-bank-accounts"></a>Indflydelse på bankkonti
+### Indflydelse på bankkonti
 
 Det gælder for bankkonti, at kørslen regulerer valutaen vha. den valutakurs, der er gældende på den bogføringsdato, der er angivet i kørslen. Kørslen beregner forskellene for hver bankkonto, der er blevet tildelt en valutakode, og bogfører beløbene på den finanskonto, der er angivet i feltet **Realiseret gevinstkonto** eller i feltet **Realiseret tabskonto** på siden **Valutaer**. Modposter bogføres automatisk på de finansbankkonti, der er angivet i bankbogføringsgrupperne. Kørslen beregner én post pr. valuta pr. bogføringsgruppe.
 
-#### <a name="dimensions-on-bank-account-entries"></a>Dimensioner for bankkontoposter
+#### Dimensioner for bankkontoposter
 
 Reguleringsposterne for bankkontoens finanskonto og for gevinst-/tabskontoen tildeles bankkontoens standarddimensioner.
 
-### <a name="effect-on-gl-accounts"></a>Indflydelse på finanskonti
+### Indflydelse på finanskonti
 
 Hvis du bogfører i en anden rapporteringsvaluta, kan kørslen oprette nye finansposter for kursreguleringer mellem den lokale valutaer og andre rapporteringsvalutaer. Batchjobbet beregner forskellene for hver hovedbogspost. Det beregner kladdeposten på finansbogholderiet, afhængigt af oplysningerne i feltet **Valutakursregulering** for hver finanskonto.
 
-#### <a name="dimensions-on-gl-account-entries"></a>Dimensioner for finanskontoposter
+#### Dimensioner for finanskontoposter
 
 Reguleringsposterne tildeles standarddimensionerne fra de konti, de bogføres på.
 
@@ -116,7 +116,7 @@ Reguleringsposterne tildeles standarddimensionerne fra de konti, de bogføres p�
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
-## <a name="set-up-a-currency-exchange-rate-service"></a>Konfigurere en valutakurstjeneste
+## Konfigurere en valutakurstjeneste
 
 Du kan bruge en ekstern tjeneste til at holde dine valutakurser opdaterede.
 
@@ -135,21 +135,21 @@ Du kan bruge en ekstern tjeneste til at holde dine valutakurser opdaterede.
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
-## <a name="update-currency-exchange-rates-through-a-service"></a>Opdater valutakurser fra en tjeneste
+## Opdater valutakurser fra en tjeneste
 
 Følg trinene for at opdatere valutakurserne gennem en tjeneste:
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **valutaer**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Opdater valutakurser**.
 
-## <a name="correct-mistakes"></a>Ret fejl
+## Ret fejl
 
 Nu og da skal du muligvis rette en fejl i en betalingstransaktion, der er forbundet med justeringer af gevinster og tab i udenlandsk valuta. Du kan bruge handlingen **Tilbagefør transaktion** på siderne **Bankposter**, **Debitorposter** og **Kreditorposter** til at fortryde og tilbageføre betalingstransaktionen.
 
 > [!NOTE]
 > Når du annullerer og tilbagefører en betaling for en post, der var genstand for valutakursreguleringer, bogføres tilbageførselsposter for reguleringerne. Du skal muligvis køre valutakursreguleringen igen for at få den korrekte aktuelle saldo.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [valutaer i Business Central](finance-currencies.md)  
 [Definere valutaer](finance-set-up-currencies.md)  

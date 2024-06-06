@@ -10,7 +10,7 @@ ms.date: 05/03/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="approval-workflow-notifications"></a>Meddelelser om godkendelsesworkflow
+# Meddelelser om godkendelsesworkflow
 
 Konfigurere workflows, så brugerne automatisk får besked, når de skal være opmærksomme på et trin i et workflow. Mange workflowsvar vedrører notifikationer til en bruger om, at der er forekommet en hændelse, som brugeren skal reagere på.
 
@@ -22,7 +22,7 @@ Du kan f. eks. angive, at bruger 2, godkender brugeren, modtager en besked, hver
 > [!IMPORTANT]  
 > Alle arbejdsgangsnotifikationer sendes via en opgavekø. Kontrollér, at opgavekøen i installationen er konfigureret til at håndtere arbejdsgangsnotifikationer, og at afkrydsningsfeltet **Start automatisk fra server** er markeret. Flere oplysninger under [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
 
-## <a name="set-up-notifications"></a>Opsætning af notifikationer.
+## Opsætning af notifikationer.
 
 Du kan konfigurere forskellige aspekter af arbejdsgangsnotifikationer følgende steder:  
 
@@ -51,7 +51,7 @@ Du kan konfigurere forskellige aspekter af arbejdsgangsnotifikationer følgende 
 
   I forbindelse med godkendelsesarbejdsprocesser skal du tilføje et trin i arbejdsgangs svaret for at give afsenderen besked, når anmodningen er godkendt eller afvist. Få mere at vide fra trin 9 i afsnittet [Opret workflows](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)  
 [Konfigurere brugere til workflow](across-how-to-set-up-workflow-users.md)  
