@@ -10,7 +10,7 @@ ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Modtage og konvertere elektroniske dokumenter
+# <a name="receive-and-convert-electronic-documents"></a>Modtage og konvertere elektroniske dokumenter
 
 > [!NOTE]
 > Indholdet i denne artikel gælder kun for versioner af Dynamics 365 Business Central, der blev udgivet før udgivelsesbølge 2 i 2023. I udgivelsesbølge 2 i 2023 er ny funktionalitet til E-dokumenter inkluderet. Du kan få mere at vide under [Konfiguration af e-dokumenter](finance-how-setup-edocuments.md). 
@@ -37,7 +37,7 @@ Kan du enten starte konverteringen af elektroniske dokumenter manuelt som beskre
 
 Følgende fremgangsmåde beskriver, hvordan du modtager en kreditorfaktura og konvertere den til en købsfaktura i [!INCLUDE[prod_short](includes/prod_short.md)]. Fremgangsmåden er den samme, når du konverterer en kreditorfaktura til en finanskladdelinje.  
 
-### Sådan modtages og konverteres en elektronisk faktura til en købsfaktura
+### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Sådan modtages og konverteres en elektronisk faktura til en købsfaktura
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Indgående bilag** og derefter vælge det relaterede link.  
 
@@ -55,7 +55,7 @@ Følgende fremgangsmåde beskriver, hvordan du modtager en kreditorfaktura og ko
 
     Valideringsfejl, der typisk vedrører forkerte eller manglende stamdata i [!INCLUDE[prod_short](includes/prod_short.md)], vises i oversigtspanelet **Fejlmeddelelser**.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Indgående bilag](across-income-documents.md)  

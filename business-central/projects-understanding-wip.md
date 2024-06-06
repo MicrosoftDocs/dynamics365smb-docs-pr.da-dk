@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Forstå via-metoder i projektstyring
+# <a name="understanding-wip-methods-in-project-management"></a>Forstå via-metoder i projektstyring
 
 Efterhånden som status for et projekt ændrer sig, forbruges der materialer, ressourcer og andre udgifter, og disse skal bogføres i projektet. Igangværende arbejde er en funktion, som giver dig mulighed for at estimere den økonomiske værdi af projekter i finansregnskabet under udførelsen af projektet. Du kan i mange tilfælde bogføre udgifterne for et projekt, før projektet faktureres. Hvis der kun er bogført udgifter, vil din regnskabsopgørelse ikke være helt korrekt.
 
@@ -27,7 +27,7 @@ Du kan beregne VIA og bogføre værdien i finansregnskabet for at spore værdien
 | Færdiggørelsesgrad |Realiserede omkostninger = Forbrug-kostbeløb<br /><br /> Realiseret indtægt = Fakturerbar salgspris x Færdiggørelsesgrad<br /><br /> Færdiggørelsesgrad = Forbrug-kostbeløb/Budget-kostbeløb<br /> (Hentet i feltet **Fuldførelse af omkostning i %** på projektopgavelinjer)<br /><br /> Igangværende arbejde salg = Realiseret salg - Fakturerbart faktureret salgsbeløb |I beregninger af færdiggørelsesgrad realiseres indtægt proportionalt baseret på færdiggørelsesgraden, dvs. Forbrug-kostbeløb over for Budgetomkostninger.<br /><br /> Denne beregning kræver, at det fakturerbare salgsbeløb og det budgetterede kostbeløb angives korrekt for hele projektet. |
 | Afsluttet kontrakt |VIA-beløb = VIA-kostbeløb = Forbrug (kostbeløb)<br /><br /> Igangværende arbejde - salgsbeløb = Fakturerbar (faktureret salg) |Afsluttet kontrakt realiserer ikke indtægter og omkostninger, før projektet er afsluttet. Du kan vælge denne metode, hvis der er stor tvivl omkring de anslåede kostbeløb og projektets omsætning.<br /><br /> Alt forbrug bogføres til kontoen til omkostninger for igangværende arbejde (aktiv), og alt faktureret salg bogføres til kontoen til faktureret salg af igangværende arbejde (kreditorkonto), indtil projektet er afsluttet. |
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Projektstyring](projects-manage-projects.md)  
 [Finans](finance.md)  

@@ -10,7 +10,7 @@ ms.date: 10/04/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Administrere og afstemme bankkonti
+# <a name="manage-and-reconcile-your-bank-accounts"></a>Administrere og afstemme bankkonti
 
 En bankafstemning skal udføres med jævne mellemrum for alle dine bankkonti for at sikre, at firmaets kontantposter er korrekte. Det gør du ved at sammenligne og afstemme poster på dine interne bankkonti med banktransaktioner i din bank og derefter bogføre saldi på dine interne bankkonti for at gøre totaler tilgængelige for økonomichefer. Bankafstemning er også en praktisk måde at opdage og løse manglende betalinger og bogføringsfejl på.
 
@@ -31,7 +31,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 > [!TIP]
 > Brug bankafstemning til at kontrollere, at dine bøger er opdaterede og ikke bogfører afstemningen, før du er tilfreds med afstemningen.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md)  

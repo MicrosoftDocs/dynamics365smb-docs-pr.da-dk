@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Oversigt over Ledelse af bæredygtighed
+# <a name="sustainability-management-overview"></a>Oversigt over Ledelse af bæredygtighed
 
 > [!IMPORTANT]
 > Denne funktion vil være tilgængelig i Business Central fra **udgivelsesbølge 1** i 2024. Alle referencelinks aktiveres, når de er tilgængelige.
@@ -42,7 +42,7 @@ Se følgende artikler for at komme i gang med bæredygtighedsstyring.
 | [Diagram over bæredygtighedskonti og finans](finance-sustainability-accounts-ledger.md) | Denne artikel indeholder oplysninger om, hvordan du konfigurerer diagram over bæredygtighedskonti (CoSA), kontokategorier og underkategorier korrekt, og hvordan du analyserer oplysninger i finansposter for bæredygtighed. |
 | [Registrer bæredygtighedsposter](finance-sustainability-journal.md) | Brug denne artikel til at lære, hvordan du arbejder med alle typer bæredygtighedskladder. |
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Opsætning af bæredygtighed](finance-sustainability-setup.md)  
 [Diagram over bæredygtighedskonti og finans](finance-sustainability-accounts-ledger.md)  

@@ -11,14 +11,14 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Ad-hoc dataanalyse efter funktionsområde
+# <a name="ad-hoc-data-analysis-by-functional-area"></a>Ad-hoc dataanalyse efter funktionsområde
 
 Det generelle indhold om ad-hoc dataanalyse er også tilgængeligt i specielle versioner til mange af funktionsområderne i [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 [!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Ad hoc-dataanalyse af oversigt](reports-adhoc-analysis.md)   
 [Oversigt over analyse](reports-bi-reporting.md)  

@@ -5,7 +5,7 @@ ms.date: 04/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-## Kontrollér data i dokumenter og kladder under arbejdet
+## <a name="check-data-in-documents-and-journals-while-you-work"></a>Kontrollér data i dokumenter og kladder under arbejdet
 
 Din administrator kan aktivere [!INCLUDE [prod_short](prod_short.md)] validering af de data, du indtaster i dokumenter og kladder i realtid.
 

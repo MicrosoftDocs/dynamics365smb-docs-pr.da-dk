@@ -9,12 +9,12 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Konfigurere kunder til OIOUBL
+# <a name="set-up-customers-for-oioubl"></a>Konfigurere kunder til OIOUBL
 Hvis du vil oprette OIOUBL-dokumenter (Offentlig Information Online UBL) for debitorer i den offentlige sektor, skal du tilføje OIOUBL-oplysninger for de relevante debitorer.  
 
  I dette emne beskrives kun de felter, der gælder for OIOUBL. Du kan finde flere oplysninger i [Registrere nye debitorer](../../sales-how-register-new-customers.md).  
 
-### Sådan konfigureres kunder til OIOUBL  
+### <a name="to-set-up-customers-for-oioubl"></a>Sådan konfigureres kunder til OIOUBL
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kunder**, og vælg derefter det relaterede link.  
 2.  Åbn den kunde, du vil konfigurere aktivere til OIOUBL.  
@@ -29,7 +29,7 @@ Hvis du vil oprette OIOUBL-dokumenter (Offentlig Information Online UBL) for deb
 
  Disse felter er specifikke for OIOUBL. De værdier, der bruges i alle OIOUBL-dokumenter, du opretter for denne kunde. Du kan finde flere oplysninger i [Oversigt over elektronisk OIOUBL-fakturering](oioubl-electronic-invoicing-overview.md).  
 
-## Se også  
+## <a name="see-also"></a>Se også
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
 [Registrere nye debitorer](../../sales-how-register-new-customers.md)   
 [Konfigurere OIOUBL](how-to-set-up-oioubl.md)   

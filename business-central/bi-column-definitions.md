@@ -12,11 +12,11 @@ ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
 
-# Kolonnedefinitioner i Financial Reporting
+# <a name="column-definitions-in-financial-reporting"></a>Kolonnedefinitioner i Financial Reporting
 
 Brug kolonnedefinitioner til at angive, hvilke kolonner der skal med i en rapport. Du kan f.eks. udforme en rapport til sammenligning af bevægelse og saldo til dato for den samme periode dette år og sidste år. Du kan have op til 15 kolonner i en kolonnedefinition. Du kan f.eks. bruge flere kolonner til visning af budgetter for 12 måneder med en kolonne, der viser totalen.
 
-## Oprette eller redigere en kolonnedefinition
+## <a name="create-or-edit-a-column-definition"></a>Oprette eller redigere en kolonnedefinition
 
 Opret eller rediger en kolonnedefinition ved at følge disse trin.
 
@@ -28,7 +28,7 @@ Opret eller rediger en kolonnedefinition ved at følge disse trin.
 1. Vælg **OK**.
 1. Åbn siden **Finansiel rapport** fra tid til anden for at kontrollere, at den nye kolonnedefinition fungerer korrekt.
 
-## Indbyggede kolonnedefinitioner
+## <a name="built-in-column-definitions"></a>Indbyggede kolonnedefinitioner
 
 [!INCLUDE[prod_short](includes/prod_short.md)] Indeholder eksempler på kolonnedefinitioner, der kan hjælpe dig med hurtigt at komme i gang med at oprette finansrapporter, der passer til dine behov.
 
@@ -41,7 +41,7 @@ Opret eller rediger en kolonnedefinition ved at følge disse trin.
 | TBA 4 | TBA 4 | TBA 4 |
 -->
 
-## Eksempel: Opret en kolonnedefinition for at beregne procenten
+## <a name="example-create-a-column-definition-to-calculate-percentages"></a>Eksempel: Opret en kolonnedefinition for at beregne procenten
 
 Du vil muligvis gerne medtage en kolonne i en finansiel rapport for at beregne procenter af et totalbeløb. Hvis du f.eks. har et antal rækker, som specificerer salg efter dimension, kan du have en kolonne, som angiver procenten af det samlede salg i hver række.
 
@@ -58,7 +58,7 @@ Du vil muligvis gerne medtage en kolonne i en finansiel rapport for at beregne p
     1. I feltet **Formel** skal du indtaste en formel for det beløb, som du vil beregne en procentdel for, efterfulgt af procenttegnet (%). Hvis kolonnenummer N f.eks. indeholder nettoændringen, indtastes **N %**.  
 1. Gentag trin 4 til 7 for alle de grupper af rækker, du vil specificere efter procent.
 
-## Sammenligne regnskabsperioder ved hjælp af periodeformler
+## <a name="comparing-accounting-periods-using-period-formulas"></a>Sammenligne regnskabsperioder ved hjælp af periodeformler
 
 Din finansielle rapport kan sammenligne resultaterne af forskellige regnskabsperioder, f.eks. sidste måned sammenlignet med samme måned sidste år. Hvis du vil gøre det, skal du åbne siden **Kolonnedefinition** og tilpasse den ved at tilføje feltet **Sammenligningsperiodeformel** som en kolonne. Flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md). Du kan derefter angive det pågældende felt til en periodeformel.  
 
@@ -94,7 +94,7 @@ Du kan finde flere oplysninger i [Arbejde med kalenderdatoer og klokkeslæt](ui-
 
 [!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs.md)]
 
-## Importere eller eksportere kolonnedefinitioner til finansrapport
+## <a name="import-or-export-financial-report-column-definitions"></a>Importere eller eksportere kolonnedefinitioner til finansrapport
 
 Fra og med udgivelsesbølge 1 i 2024 (version 24.1) kan du importere og eksportere kolonnedefinitioner af finansrapporter som RapidStart konfigurationspakker. Konfigurationspakker er f. eks. nyttige, når du vil dele oplysninger med andre firmaer. Pakken oprettes i en .rapidstart-fil, som komprimerer indholdet.
 
@@ -106,7 +106,7 @@ Følg disse trin for at importere eller eksportere kolonnedefinitioner af økono
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 4.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kolonnedefinitioner**, og vælg derefter det relaterede link.
 1. Vælg rækkedefinitionen, og vælg derefter **Importer kolonnedefinition** eller **Eksporter kolonnedefinition**, afhængigt af hvad du vil gøre.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Rækkedefinitioner i Financial Reporting](bi-row-definitions.md)  
 [Klargøre Financial Rapportering](bi-how-work-account-schedule.md)  
