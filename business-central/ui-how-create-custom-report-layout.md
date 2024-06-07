@@ -11,7 +11,7 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="legacy-create-and-modify-custom-report-layouts"></a>(Ældre) Sådan opretter og ændrer du brugerdefinerede rapportlayouts
+# (Ældre) Sådan opretter og ændrer du brugerdefinerede rapportlayouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -29,7 +29,7 @@ Når du har defineret dine tilpassede rapportlayouts, kan du vælge dem på debi
 
 Du kan også bruge brugerdefinerede rapportlayouts til at føje indhold til e-mailmeddelelser. Rapportlayout kan spare tid og være med til at sikre konsistensen ved at genbruge det samme indhold, når du kommunikerer med kunderne. Hvis du vil bruge brugerdefinerede rapportlayout med e-mail, skal det være et Word-filtypeformat: du kan ikke anvende RDLC-filtypen. Flere oplysninger [Konfigurere genanvendelige e-mailtekster og -layout](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
-## <a name="create-a-custom-layout"></a>Oprette et brugerdefineret layout
+## Oprette et brugerdefineret layout
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Valg af rapportlayout**, og vælg derefter det relaterede link.
 
@@ -54,11 +54,11 @@ Det brugerdefinerede layout er blevet oprettet, og du kan ændre det efter behov
 > [!TIP]
 > Du kan godt eksportere rapportresultaterne til en Microsoft Excel-fil, så du kan få vist hele datasættet, inklusive alle kolonner men uden layout. Excel-filen kan hjælpe dig med at kontrollere, at rapporten returnerer de forventede data eller diagnoseproblemer. Flere oplysninger [Analyse af rapportdata med Excel](report-analyze-excel.md).
 
-## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Redigere et brugerdefineret layout
+## <a name="ModifyCustomLayout"></a>Redigere et brugerdefineret layout
 
 Hvis du vil ændre et tilpasset rapportlayout, skal du først eksportere rapportlayoutet som en fil til en placering på din computer eller dit netværk. Åbn derefter det udlæste dokument, og foretag ændringerne. Når du er færdig med at foretage ændringerne, skal du importere rapportlayoutet.
 
-### <a name="modify-a-custom-layout"></a>Tilpasse et brugerdefineret layout
+### Tilpasse et brugerdefineret layout
 
 1. Eksporter et brugerdefineret layout på siden **Brugerdefinerede rapportlayouts**. Hvis siden ikke allerede er åben, skal du søge efter og åbne siden **Valg af rapportlayout**, vælge den rapport, der har det layout, du vil ændre, og derefter vælge handlingen **Brugerdefinerede layout**.  
 2. På siden **Brugerdefinerede rapportlayouts** skal du vælge det layout, du vil ændre, vælge handlingen **Eksportér layout** og derefter klikke på **Gem** eller **Gem som** for at gemme rapportlayoutdokumentet på en placering på din computer eller dit netværk.  
@@ -78,7 +78,7 @@ Hvis du vil ændre et tilpasset rapportlayout, skal du først eksportere rapport
 > Husk at indlæse det rapportlayout dokument, du har ændret. Ellers vil det nye rapportlayout ikke være tilgængeligt.
 
 <!--
-## <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a>Create and modify custom report layouts
+##  <a name="MakeChangesToLayout"></a> Create and modify custom report layouts
 
 To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word like you do with any Word document.
 
@@ -87,11 +87,11 @@ If you're designing a Word report layout from scratch or adding new data fields,
 > [!TIP]  
 > Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you're done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.
 
-### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Embedding fonts in Word layouts for consistency
+### Embedding fonts in Word layouts for consistency
 
 To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. Learn more about embedding fonts in Word at [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-### <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a>Removing label and data fields in Word layouts
+###  <a name="RemoveField"></a> Removing label and data fields in Word layouts
 
  Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
 
@@ -99,7 +99,7 @@ To ensure that reports always display and print with the intended fonts, whereve
 
  The name of the label or data field name displays in the content control. In the example, the field name is CompanyAddr1.  
 
-### <a name="to-remove-a-label-or-data-field"></a>To remove a label or data field
+### To remove a label or data field  
 
 1. Right-click the field you want to delete, then choose **Remove Content Control**.  
 
@@ -107,11 +107,11 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 2. Delete the remaining text as needed.  
 
-### <a name="adding-data-fields"></a>Adding data fields
+### Adding data fields
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administration af rapportlayout](ui-manage-report-layouts.md)  
 [Ændre det aktuelle rapportlayout](ui-how-change-layout-currently-used-report.md)  

@@ -9,11 +9,11 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-table-structure"></a>Designoplysninger: Tabelstruktur
+# Designoplysninger: Tabelstruktur
 
 Det er vigtigt at forstå tabelstrukturen for at forstå, hvordan dimensionsposter lagres og bogføres.  
 
-## <a name="table-480-dimension-set-entry"></a>Tabel 480, Dimensionsgruppepost
+## Tabel 480, Dimensionsgruppepost  
 
 Denne tabel kan ikke ændres. Når data er blevet skrevet i tabellen, kan du ikke slette eller redigere dem.
 
@@ -26,7 +26,7 @@ Denne tabel kan ikke ændres. Når data er blevet skrevet i tabellen, kan du ikk
 |5|**Dimensionsnavn**|Tekst 30|CalcField. Opslag i tabel 348.|  
 |6|**Dimensionsværdinavn**|Tekst 30|CalcField. Opslag i tabel 349.|  
 
-## <a name="table-481-dimension-set-tree-node"></a>Tabel 481, Trænode for dimensionsgruppe
+## Tabel 481, Trænode for dimensionsgruppe  
 Denne tabel kan ikke ændres. Det bruges til at søge efter en dimensionsgruppe. Hvis dimensionssættet ikke findes, oprettes et nyt sæt.  
 
 |Feltnr.|Feltnavn|Datatype|Kommentar|  
@@ -36,7 +36,7 @@ Denne tabel kan ikke ændres. Det bruges til at søge efter en dimensionsgruppe.
 |3|**Dimensionsgruppe-id**|Heltal|AutoIncrement. Bruges i felt 1 i tabel 480.|  
 |4|**I brug**|Boolesk|Falsk, hvis ikke i brug.|  
 
-## <a name="table-482-reclas-dimension-set-buffer"></a>Tabel 482 Ompost. dimensionsgruppebuffer
+## Tabel 482 Ompost. dimensionsgruppebuffer  
 Denne tabel bruges, når du ændrer en dimensionsværdikode, for eksempel i en varepost, ved hjælp af siden **Vareomposteringskladde**.  
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
@@ -50,14 +50,14 @@ Denne tabel bruges, når du ændrer en dimensionsværdikode, for eksempel i en v
 |7|**Dimensionsværdinavn**|Tekst 30|CalcField. Opslag i tabel 349.|  
 |8|**Nyt dimensionsværdinavn**|Tekst 30|CalcField. Opslag i tabel 349.|  
 
-## <a name="transaction-and-budget-tables"></a>Transaktion og budgettabeller
+## Transaktion og budgettabeller  
 Ud over de andre dimensionsfelter i tabellen er dette felt også vigtigt:  
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensionsgruppe-id**|Heltal|Refererer til felt 1 i tabel 480.|  
 
-### <a name="table-83-item-journal-line"></a>Tabel 83, Varekladdelinje
+### Tabel 83, Varekladdelinje  
 Ud over de andre dimensionsfelter i tabellen er disse felter også vigtige.  
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
@@ -65,14 +65,14 @@ Ud over de andre dimensionsfelter i tabellen er disse felter også vigtige.
 |480|**Dimensionsgruppe-id**|Heltal|Refererer til felt 1 i tabel 480.|  
 |481|**Nyt dimensionsgruppe-id**|Heltal|Refererer til felt 1 i tabel 480.|  
 
-### <a name="table-349-dimension-value"></a>Tabel 349, Dimensionsværdi
+### Tabel 349, Dimensionsværdi  
 Ud over de andre dimensionsfelter i tabellen er disse felter også vigtige.  
 
 |Feltnr.|Feltnavn|Datatype|Bemærkning|  
 |---------------|----------------|---------------|-------------|  
 |12|**Dimensionsværdi-id**|Heltal|AutoIncrement. Bruges til referencer i tabel 480 og 481.|  
 
-### <a name="tables-that-contain-the-dimension-set-id-field"></a>Tabeller, der indeholder feltet Dimensionsgruppe-id
+### Tabeller, der indeholder feltet Dimensionsgruppe-id
  Feltet **Dimensionsgruppe-id** (480), der findes i følgende tabeller. For de tabeller, der gemmer bogførte data, indeholder feltet kun en skrivebeskyttet visning af dimensioner, som er markeret som Detailudledning. For de tabeller, der gemmer arbejdsdokumenuer, kan feltet redigeres. De buffertabeller, der bruges internt, behøver ikke redigerbare eller ikke-redigerbare egenskaber.  
 
  Felt 480 kan ikke redigeres i følgende tabeller.  
@@ -175,7 +175,7 @@ Felt 480 findes i følgende buffertabeller.
 |5637|**Anl-finansbogf.buffer**|  
 |7136|**Varebudgetbuffer**|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversigt over dimensionsgruppeposter](design-details-dimension-set-entries-overview.md)  
 [Designoplysninger: Søgning efter dimensionskombinationer](design-details-searching-for-dimension-combinations.md)   

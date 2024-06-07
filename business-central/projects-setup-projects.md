@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="setting-up-project-management"></a>Konfigurere projektstyring
+# Konfigurere projektstyring
 
 Før du kan bruge [!INCLUDE[prod_short](includes/prod_short.md)] til at administrere projekter, skal du definere ressourcer, timesedler og projekter.
 
@@ -26,7 +26,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Aktiver ressourcer for at rapportere tidsforbrug for en person eller en maskine, og aktiver en leder for at gennemse forbruget og dets allokering. |[Opsætte timesedler](projects-how-setup-time-sheets.md) |
 | Opret projektkort, og forbered projektopgaver. Opret priser for projektvarer og projektressourcer, og definer projektbogføringsgrupper. |[Opsætte projekter](projects-how-setup-jobs.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere projekter](projects-manage-projects.md)  
 [Video: Sådan oprettes et projekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

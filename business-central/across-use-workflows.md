@@ -11,7 +11,7 @@ ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="use-approval-workflows"></a>Bruge godkendelsesworkflows
+# Bruge godkendelsesworkflows
 
 Et workflow er en række opgaver, der udløses af en handling, en betingelse eller en regel. Workflows implementeres som regel med henblik på at integrere forretningslogikken i en virksomhed, f. eks. adskillelse af opgaver, samling af opgaver eller anvendelse af bedste praksis.
 
@@ -64,7 +64,7 @@ Inden du kan bruge workflows, skal du oprette arbejdsgangbrugere, oprette workfl
 | Vis forekomsten af workflowtrin med statussen **Afsluttet**. | [Vise arkiverede forekomster af workflowtrin](across-how-to-view-archived-workflow-step-instances.md) |
 | Slet et godkendelsesworkflow, som du er sikker på ikke længere bruges. | [Slette godkendelsesworkflows](across-how-to-delete-workflows.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere godkendelsesworkflows](across-set-up-workflows.md)  
 [Arbejdsproces](across-workflow.md)  

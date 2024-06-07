@@ -11,14 +11,14 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Om montage til ordre og montage til lager
+# Om montage til ordre og montage til lager
 
 [!INCLUDE [prod_short](includes/prod_short.md)] gør det muligt at samle varer på følgende måder:
 
 * Montage til ordre  
 * Montage til lager  
 
-## <a name="assemble-to-order"></a>Montage til ordre
+## Montage til ordre
 
 Brug montage til ordre-processen for varer, som du ikke vil have på lager. F. eks. af følgende årsager:
 
@@ -44,7 +44,7 @@ Når du indtaster en montage til ordre-vare på en salgsordrelinje, bliver der a
 
 En vare, der er konfigureret til montage efter ordre, når feltet **montagepolitik** på **varekortet** indeholder **montage til ordre**.  
 
-## <a name="assemble-to-stock"></a>Montage til lager
+## Montage til lager
 
 Bruge montage til lager-processen til varer, som du samler og gemmer til fremtidige salg. Montage til lager-varer er standardvarer, f. eks. pakkede pakker, som du ikke kan tilpasse. Du kan også bruge disse varer som halvfabrikata. Varerne plukkes og behandles som en enkelt vare og behandles som en færdig produktionsvare. Hvis du vil vide mere om montageelementer, skal du gå til [montagevarer](assembly-how-to-assemble-items.md).  
 
@@ -55,7 +55,7 @@ Når du angiver en montage til lager-vare på en salgslinje, behandles varen som
 
 En vare, der er konfigureret til montage til ordre, når feltet **montagepolitik** på **varekortet** indeholder **montage til ordre**.  
 
-## <a name="combination-scenarios"></a>Kombinationsscenarier
+## Kombinationsscenarier
 
 Når montage til ordre og lagermængder kombineres på en salgsordrelinje, skal montage til ordre-mængder leveres før lagerbeholdning.  
 
@@ -97,7 +97,7 @@ Baseret på dette eksempel kan du kun ændre feltet **Antal til montage** som f�
 * Det mindste antal du kan angive er 1. Du skal mindst montere én enhed for at kunne sælge fire enheder, idet de resterende tre antages at være tilgængelig på lageret.  
 * Det maksimale antal du kan angive er 4. Denne grænse sikrer, at du ikke samler mere af varen, end du skal bruge til salget.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Montagestyring](assembly-assemble-items.md)  
 [Arbejde med montagestyklister](assembly-how-work-assembly-boms.md)  

@@ -9,15 +9,15 @@ ms.date: 05/03/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="sales-reports-and-analytics-in-business-central"></a>Salgsrapporter og analyser i Business Central
+# Salgsrapporter og analyser i Business Central
 
 Salgsrapportering gør det muligt for salgs- og erhvervsmedarbejdere at få indsigt i og statistikker om aktuelle og tidligere salgsaktiviteter.  
 
-## <a name="reports"></a>Rapporter
+## Rapporter
 
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## <a name="tasks"></a>Opgaver
+## Opgaver
 
 I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med analyse af salgstilstand:
 
@@ -27,7 +27,7 @@ I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med a
 * [Pakkesporing](sales-how-track-packages.md)
 * [Vise ikke-bogførte og bogførte rammesalgsordrelinjer](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
-## <a name="explore-sales-reports-with-report-explorer"></a>Udforsk salgsrapporter med Stifinder
+## Udforsk salgsrapporter med Stifinder
 
 Hvis du vil have et overblik over de rapporter, der er tilgængelige for salg, kan du vælge **Alle rapporter** på startsiden. Denne handling åbner Rollestifinder, som filtreres til funktionerne i indstillingen **Rapport og analyse**. Under overskriften **Salg og marketing** skal du vælge **Udforsk**.
 
@@ -35,7 +35,7 @@ Hvis du vil have et overblik over de rapporter, der er tilgængelige for salg, k
 
 Flere oplysninger i [Søg efter rapporter med Rollestifinder](ui-role-explorer.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Ad hoc-analyse af salgsdata](ad-hoc-analysis-sales.md)    
 [Oversigt over salgsanalyse](sales-analytics-overview.md)   

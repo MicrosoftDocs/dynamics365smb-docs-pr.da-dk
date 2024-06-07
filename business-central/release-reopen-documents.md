@@ -10,11 +10,11 @@ ms.custom: bap-template
 author: jswymer
 ---
 
-# <a name="release-and-reopen-sales-and-purchase-documents"></a>Frigive og genåbne salgs- og købsdokumenter
+# Frigive og genåbne salgs- og købsdokumenter
 
 I denne artikel kan du lære, hvordan du frigiver eller genåbner salgs- og købsdokumenter, f.eks. ordrer, fakturaer og tilbud. Du frigiver salgs- og købsdokumenter for at flytte dem til næste behandlingstrin, før de bogføres. Når en ordre frigives, bliver den inkluderet i alle disponeringsberegninger fra den dato, varerne forventes modtaget.
 
-## <a name="release-a-sales-or-purchase-document"></a>Frigiv et salgs- eller købsdokument
+## Frigiv et salgs- eller købsdokument
 
 1. Åbn dokumentet, du vil frigive, således:
 
@@ -25,7 +25,7 @@ I denne artikel kan du lære, hvordan du frigiver eller genåbner salgs- og køb
 
    Derefter ændres postens **Status** til **Frigivet**.
 
-## <a name="reopen-a-sales-or-purchase-document"></a>Åbn et salgs- eller købsdokument igen
+## Åbn et salgs- eller købsdokument igen
 
 Du kan foretage ændringer i en frigivet salgs- og købsdokument ved at åbne det igen.
 
@@ -43,7 +43,7 @@ Nu kan du foretage ændringer i dokumentet, før du frigiver det igen.
 > [!NOTE]
 > På dokumentlinjer, der allerede er håndteret på lageret, kan du kun foretag den ændring at redigere antallet.
 
-## <a name="see-also"></a>Se også
+## Se også
   
 [Salg](sales-manage-sales.md)  
 [Køb](purchasing-manage-purchasing.md)  

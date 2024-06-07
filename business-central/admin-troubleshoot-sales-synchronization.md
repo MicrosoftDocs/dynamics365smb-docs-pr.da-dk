@@ -11,7 +11,7 @@ ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="troubleshoot-synchronization-errors"></a>Fejlfinde synkroniseringsfejl
+# Fejlfinde synkroniseringsfejl
 
 Der skal flyttes mange forskellige dele, når [!INCLUDE[prod_short](includes/prod_short.md)] skal integreres med [!INCLUDE[prod_short](includes/cds_long_md.md)], og nogle gange går tingene forkert. Denne artikel beskrives nogle af de mest almindelige fejl, der opstår, og der angives oplysninger om, hvordan de kan løses.
 
@@ -33,7 +33,7 @@ Følgende værktøjer findes på siden integrations synkroniseringsfejl, som du 
 * Handlingerne **Slet poster, der er ældre end syv dage** og **Slet alle poster** rydder op på listen. Du bruger typisk disse handlinger, når du har fundet årsagen til en fejl, der påvirker mange poster. Men gå forsigtigt frem. Disse handlinger kan muligvis slette fejl, der stadig er relevante.
 * Handlingen **Vis stak af fejlkald** viser oplysninger, der kan hjælpe med at identificere årsagen til fejlen. Hvis du ikke kan løse problemet selv, og du beslutter dig for at sende en supportanmodning, skal du medtage oplysningerne i supportanmodningen.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Integration med Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Konfigurere brugerkonti til integration med Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  

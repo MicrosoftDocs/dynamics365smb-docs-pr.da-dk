@@ -9,13 +9,13 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="business-central-extensions-by-other-providers"></a>Business Central-udvidelser fra andre leverandører
+# Business Central-udvidelser fra andre leverandører
 
 På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du få udvidelser til [!INCLUDE[prod_short](includes/prod_short.md)]. Nogle udvidelser er fra Microsoft, mens andre udvidelser leveres af andre virksomheder. Vi henviser til disse virksomheders websteder, som indeholder yderligere oplysninger om de udvidelser, som ikke er udgivet af Microsoft. Du kan finde disse oplysninger på [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 Oversigten over udvidelserne fra andre firmaer vokser hver måned. Så hold øje med [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) og få apps, der kan hjælpe dig med at arbejde i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Blive køreklar](ui-get-ready-business.md)  

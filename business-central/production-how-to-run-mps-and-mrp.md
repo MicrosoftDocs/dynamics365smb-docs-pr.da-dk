@@ -10,7 +10,7 @@ ms.reviewer: bholtorf
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="run-full-planning-mps-or-mrp"></a>Køre fuld planlægning, MPS eller MRP
+# Køre fuld planlægning, MPS eller MRP
 
 De betingelser, der "kører planlægningskladden" eller "kører MRP" henviser til beregning af hovedproduktionsplanen og behovsprognosen. Beregningen er baseret på det faktiske og det prognosticerede behov. Planlægningssystemet kan beregne enten MPS (Master Production Schedule) eller MRP (Material Requirements Planning) efter anmodning, eller begge dele kan beregnes på én gang.  
 
@@ -23,7 +23,7 @@ Du kan spore links, som planlægningen opretter mellem behov og den levering på
 
 Et ordentligt planlægningsresultat afhænger af de valgte indstillinger til varekort, montagestyklister, produktionsstyklister og ruter.  
 
-## <a name="methods-for-generating-a-plan"></a>Metoder til oprettelse af en plan
+## Metoder til oprettelse af en plan  
 
 - **Beregn totalplan:** Behandl eller regenerer materialeplanen. Processen starter med at slette alle planlagte forsyningsordrer, der er indlæst i øjeblikket. Alle elementer i databasen planlægges om.  
 - **Beregn nettoplan**: Behandl en nettoændringsplan. Varerne indgår i nettoplanen fra to former for ændringer:  
@@ -38,7 +38,7 @@ Hver planlagt metode, genererer [!INCLUDE[prod_short](includes/prod_short.md)] k
 >
 > Du kan køre planen Hent aktionsmeddelelser mellem totalplanlægning og nettoplanlægning for at få et umiddelbart overblik over virkningen af ændringer i tidsplanen. Det er dog ikke meningen, at det skal erstatte de komplette regenerative eller nettoplanlægningsprocesser.  
 
-## <a name="to-calculate-the-planning-worksheet"></a>Sådan beregnes planlægningskladden
+## Sådan beregnes planlægningskladden
   
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Planlægningskladdeside**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Beregn totalplan** for at åbne siden **Beregn Plan**.  
@@ -58,7 +58,7 @@ Hver planlagt metode, genererer [!INCLUDE[prod_short](includes/prod_short.md)] k
 4. I oversigtspanelet **Vare** kan du indstille filtre for kørslen af planlægningsrutinerne baseret på vare, varebeskrivelse eller lokation.  
 5. Vælg knappen **OK**. Kørslen starter, og planlægningslinjerne indsættes i planlægningskladden.  
 
-## <a name="to-perform-action-messages"></a>Udføre aktionsmeddelelser
+## Udføre aktionsmeddelelser
   
 1. På siden **Planlægningskladde** skal du vælge handlingen **Udfør aktionsmeddelelse**.  
 2. Angiv, hvordan du opretter forsyninger i oversigtspanelet **Indstillinger**. Udfyld felterne som beskrevet i følgende tabel.  
@@ -77,7 +77,7 @@ Hver planlagt metode, genererer [!INCLUDE[prod_short](includes/prod_short.md)] k
 
 Kørslen sletter linjerne i planlægningskladden, når aktionsmeddelelsen er udført. De øvrige linjer bliver stående i planlægningskladden, indtil de enten accepteres på et senere tidspunkt eller slettes. Du kan også slette linjerne manuelt.  
 
-## <a name="action-messages"></a>Aktionsmeddelelser
+## Aktionsmeddelelser
   
 Aktionsmeddelelser udstedes af ordresporingssystemet, når der ikke kan registreres en saldo inden for det eksisterende ordrenetværk. Meddelelserne kan vises som forslag til procesændringer, der kan genskabe ligevægten mellem forsyning og behov.  
 
@@ -100,7 +100,7 @@ Hvis der ikke er overensstemmelse mellem forsyning og behov, oprettes følgende 
 |**Omplanlæg & ret antal.**|Hvis både datoer og antal i en ordre er ændret, er det nødvendigt at ændre planer, så der tages højde for begge dele. Der udstedes en aktionsmeddelelse, der dækker begge ændringer, **Omplanlæg og ret antal**, for at sikre at balancen i ordrenetværket genoprettes.|  
 |**Annuller**|Hvis et behov slettes, som ellers har været dækket fra ordre til ordre, udstedes der en aktionsmeddelelse med forslag om, at alle tilhørende forsyningsordrer annulleres. Hvis forholdet ikke er ordre-til-ordre, oprettes en aktionsmeddelelse med forslag om, at antallet bør rettes for at reducere forsyningen. Hvis det viser sig, at en forsyningsordre af andre årsager, f.eks. lagerreguleringer, ikke er nødvendig på det tidspunkt, hvor aktionsmeddelelserne oprettes af brugeren, opretter [!INCLUDE[prod_short](includes/prod_short.md)] en aktionsmeddelelse med forslag om **Annuller** i kladden.|  
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Skabelon](production-planning.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  

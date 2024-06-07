@@ -10,7 +10,7 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="set-up-approval-workflows"></a>Konfigurer godkendelsesworkflow
+# Konfigurer godkendelsesworkflow
 
 Du kan oprette og bruge arbejdsgange, der forbinder forretningsprocesopgaver, der udføres af forskellige brugere. Systemopgaver, f.eks automatisk bogføring, kan medtages som trin i arbejdsgange, med forudgående eller efterfølgende brugeropgaver. Anmodning om og tildeling af tilladelse til at oprette nye poster er typiske arbejdsgangstrin. Flere oplysninger i [Bruge godkendelsesworkflows](across-use-workflows.md).
 
@@ -35,14 +35,14 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 |Del workflows med andre [!INCLUDE[prod_short](includes/prod_short.md)]-databaser.|[Eksportere og importere godkendelsesworkflows](across-how-to-export-and-import-workflows.md)|  
 |Lær, hvordan du konfigurerer en arbejdsgang til godkendelse af salgsdokumenter ved at følge en hel procedure.|[Gennemgang: Opsætning og brug af workflow for godkendelse af køb](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## <a name="example-of-an-approval-workflow"></a>Eksempel på et godkendelsesworkflow
+## Eksempel på et godkendelsesworkflow
 
 Denne video viser, hvordan du konfigurerer et workflow, der kræver, at en bruger anmoder om en andens godkendelse, før vedkommende kan ændre oplysninger om en eksisterende kunde eller oprette en ny kunde.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bruge godkendelsesworkflows](across-use-workflows.md)  
 [Arbejdsproces](across-workflow.md)  
