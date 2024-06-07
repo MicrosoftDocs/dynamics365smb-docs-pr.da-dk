@@ -11,7 +11,7 @@ ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Oprette brugere i henhold til licenser
+# <a name="create-users-according-to-licenses"></a>Oprette brugere i henhold til licenser
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -26,7 +26,7 @@ Du kan finde flere oplysninger om de forskellige typer licenser, og hvordan lice
 > [!NOTE]
 > Processen med at administrere brugere og licenser afhænger af, om [!INCLUDE[prod_short](includes/prod_short.md)] er installeret online eller i det lokale miljø. For [!INCLUDE [prod_short](includes/prod_short.md)] online skal du tilføje brugere fra Microsoft 365. I lokale installationer kan du oprette, redigere og slette brugere direkte.  
 
-## Administrere brugere og licenser i onlinelejere
+## <a name="manage-users-and-licenses-in-online-tenants"></a>Administrere brugere og licenser i onlinelejere
 
 Brugerkonti i [!INCLUDE[prod_short](includes/prod_short.md)] skal oprettes først i Microsoft 365 Administration. Disse brugerkonti er ikke udelukkende til [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du abonnerer på andre planer, kan de bruges til at logge på andre programmer, f.eks. Power BI. Du kan finde oplysninger om oprettelse af brugere i Microsoft 365 Administration ved at gå til [Tilføj brugere i Microsoft Administration](/microsoft-365/admin/add-users/add-users).
 
@@ -61,7 +61,7 @@ Begge metoder har deres egne fordele, og du kan bruge dem samtidig. Hver fremgan
 
 Du kan finde flere oplysninger i [Delegeret administratoradgang til Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="licensespermissions"></a>Konfigurer tilladelser baseret på licenser
+### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Konfigurer tilladelser baseret på licenser
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -91,7 +91,7 @@ Hvis denne standardkonfiguration ikke er den korrekte opsætning for et bestemt 
 > [!IMPORTANT]
 > Denne tilpasning af tilladelser træder kun i kraft for nye brugere, som du tildeler den relevante licens. Eksisterende brugere opdateres ikke. Det anbefales, at du tilpasser tilladelserne, inden du begynder at tildele brugere licenser i Microsoft 365 Administrationscenter.
 
-### <a name="adduser"></a>Sådan tilføjer du en bruger eller opdaterer brugeroplysninger og licenstildelinger i Business Central
+### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Sådan tilføjer du en bruger eller opdaterer brugeroplysninger og licenstildelinger i Business Central
 
 Når du har tilføjet brugere eller ændret brugeroplysninger i Microsoft 365 Administration, kan du hurtigt importere bruger oplysningerne til [!INCLUDE[prod_short](includes/prod_short.md)]. Importen omfatter licenstildelinger.  
 
@@ -118,7 +118,7 @@ Du kan få flere oplysninger om synkronisering af brugeroplysninger med Microsof
 > [!NOTE]
 > Hvis du bruger en ekstern revisor til at administrere dine regnskaber og regnskabsaflæggelse, kan du invitere ham eller hende indenfor i din [!INCLUDE[prod_short](includes/prod_short.md)], så de kan samarbejde med dig om dine regnskabsdata. Du kan finde flere oplysninger i [Inviter din eksterne revisor til at deltage i din Business Central](finance-accounting.md#inviteaccountant).
 
-### Sådan fjernes en brugers adgang til systemet
+### <a name="to-remove-a-users-access-to-the-system"></a>Sådan fjernes en brugers adgang til systemet
 
 I onlineinstallationer kan du fjerne en brugers adgang til [!INCLUDE[prod_short](includes/prod_short.md)]. Alle referencer til brugeren bevares. Men brugeren kan ikke logge på og aktive sessioner for brugeren stoppes.
 
@@ -128,7 +128,7 @@ I onlineinstallationer kan du fjerne en brugers adgang til [!INCLUDE[prod_short]
 
 Du kan også fjerne licensen fra en bruger i Microsoft 365 Administration. Brugeren kan derefter ikke logge på. Du kan få flere oplysninger i [Fjerne licenser fra brugere](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="m365"></a>Synkronisering med Microsoft 365
+### <a name="synchronization-with-microsoft-365"></a><a name="m365"></a>Synkronisering med Microsoft 365
 
 Når du fjerner tildelingen af en licens til [!INCLUDE[prod_short](includes/prod_short.md)] for en bruger i Microsoft 365, kan du oprette brugeren i [!INCLUDE[prod_short](includes/prod_short.md)] på to måder.  
 
@@ -153,13 +153,13 @@ Få mere at vide om at sikre adgang til miljøer med sikkerhedsgrupper i [Admini
 
 Få et overblik over, hvordan du åbner [!INCLUDE[prod_short](includes/prod_short.md)] i Teams med Microsoft 365-licenser i [admin-access-with-m365-license](admin-access-with-m365-license.md).
 
-## Administrere brugere og licenser i Installationer på stedet
+## <a name="manage-users-and-licenses-in-on-premises-deployments"></a>Administrere brugere og licenser i Installationer på stedet
 
 I installationer i det lokale miljø er der angivet et antal brugerlicenser i licensfilen (.bclicense or .flf). Når en administrator eller Microsoft-partneren overfører licensfilen, kan de angive, hvilke brugere der kan logge på [!INCLUDE[prod_short](includes/prod_short.md)].
 
 I forbindelse med installationer i det lokale miljø opretter redigerer og sletter administratoren brugere direkte fra siden **Brugere.**
 
-### Sådan redigeres eller slettes en bruger i en lokal installation
+### <a name="to-edit-or-delete-a-user-in-an-on-premises-deployment"></a>Sådan redigeres eller slettes en bruger i en lokal installation
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugere**, og vælg derefter det relaterede link.
 2. Vælg den bruger, som du vil redigere, og vælg derefter handlingen **Rediger**.
@@ -171,11 +171,11 @@ I forbindelse med installationer i det lokale miljø opretter redigerer og slett
 >
 > Du kan finde flere oplysninger i [Godkendelse og typer af legitimationsoplysninger](/dynamics365/business-central/dev-itpro/administration/users-credential-types) i administrationens Hjælp til [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Analysér brugerstatus efter licenstype
+## <a name="analyze-user-status-by-license-type"></a>Analysér brugerstatus efter licenstype
 
 Du kan bruge funktionen **Dataanalyse** til at analysere data på [siden Brugere](https://businesscentral.dynamics.com/?page=9800) . Du behøver ikke at køre en rapport eller åbne et andet program, f.eks. Excel. Funktionen indeholder en interaktiv og alsidig måde at beregne, opsummere og gennemgå data på. I stedet for at køre rapporter med indstillinger og filtre kan du tilføje flere faner, der repræsenterer forskellige opgaver eller visninger på dataene. Nogle eksempler er "Brugere efter status" eller "Brugere efter licenstype" eller enhver anden visning, du kan forestille dig. Du kan få mere at vide om, hvordan du bruger funktionen **Dataanalyse** ved at gå til [Analysér liste og forespørge på data med analysetilstand](analysis-mode.md).
 
-### Scenarie med brugeranalyse
+### <a name="user-analysis-scenarios"></a>Scenarie med brugeranalyse
 
 Følgende afsnit indeholder eksempler på scenarier, hvor analyse af brugerlisten kan hjælpe dig med at overvåge status for dine brugere.
 
@@ -184,7 +184,7 @@ Følgende afsnit indeholder eksempler på scenarier, hvor analyse af brugerliste
 | [Brugere efter status](#example-users-by-status) | Se en liste over brugere baseret på deres status (aktiveret/deaktiveret). | [Brugere](https://businesscentral.dynamics.com/?page=9800) | **Status**, **Brugernavn**, **Fulde navn**, **Autorisationsmail** og **Licenstype**. |
 | [Brugere efter licenstype](#example-users-by-license-type) | Se en liste over brugere baseret på deres status licenstype | [Brugere](https://businesscentral.dynamics.com/?page=9800) | **Licenstype**, **Status**,  **Brugernavn**, **Fulde navn** og **Autorisationsmail**. |
 
-### Eksempel: Brugere efter status
+### <a name="example-users-by-status"></a>Eksempel: Brugere efter status
 
 Følg disse trin for at analysere brugere efter status:
 
@@ -198,7 +198,7 @@ Følgende billede viser resultatet af disse trin.
 
 :::image type="content" source=" media/data-analysis-users.png" alt-text="Eksempel på, hvordan du udfører dataanalyse på siden Ændringslogposter (Hvem har ændret hvilke data hvornår)." lightbox="media/data-analysis-users.png":::
 
-### eksempel: Brugere efter licenstype
+### <a name="example-users-by-license-type"></a>eksempel: Brugere efter licenstype
 
 Følg disse trin for at analysere brugere efter licenstype:
 
@@ -208,7 +208,7 @@ Følg disse trin for at analysere brugere efter licenstype:
 1. Vælg felterne **Brugernavn**, **Fulde navn** og **Autorisationsmail**.
 1. Omdøb din analysefane til **Brugere efter licenstype** eller noget, der beskriver denne analyse.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md)  
 [Administrere profiler](admin-users-profiles-roles.md)  

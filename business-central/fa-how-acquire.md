@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Anskaffe anlægsaktiver
+# <a name="acquire-fixed-assets"></a>Anskaffe anlægsaktiver
 
 Brug siden **Anlægskort** til at angive oplysninger om et anlægsaktiv. Du kan angive bygninger eller produktionsudstyr som et hovedanlæg med en komponentliste, og du kan gruppere dem på forskellige måder, f.eks efter art, afdeling eller lokation. Du skal oprette og tilknytte en afskrivningsprofil til hvert enkelt anlægsaktiv, før du kan erhverve det.
 
@@ -19,7 +19,7 @@ Når du har oprettet et anlægsaktiv og tilknyttet en afskrivningsprofil, skal d
 
 Indeksering bruges til at justere for ændringer af det generelle prisniveau.  **Bruge kørslen Indekser anlæg** til at beregne anskaffelser og udskiftningsomkostninger.
 
-## Føje et anlægsaktiv til listen over anlægsaktiver
+## <a name="add-a-fixed-asset-to-your-list-of-fixed-assets"></a>Føje et anlægsaktiv til listen over anlægsaktiver
 
 Før du kan anskaffe et anlægsaktiv, skal du føje det til oversigten over anlægsaktiver. Du kan føje anlægsaktiver til listen på flere måder:
 
@@ -30,7 +30,7 @@ Før du kan anskaffe et anlægsaktiv, skal du føje det til oversigten over anl�
 
 Når du har føjet anlægsaktiver til listen, er næste trin at anskaffe dem, så du kan bruge dem i transaktioner. Få mere at vide under [Erhverve et anlægsaktiv](#acquire-fixed-assets).
 
-### Tilføje et anlægsaktiv på siden Anlægskort
+### <a name="add-a-fixed-asset-on-the-fixed-asset-card-page"></a>Tilføje et anlægsaktiv på siden Anlægskort
 
 1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsaktiver**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny** handling, og udfyld felterne på oversigtspanelet **Generelt** efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -39,7 +39,7 @@ Når du har føjet anlægsaktiver til listen, er næste trin at anskaffe dem, s�
 
     Når du har udfyldt de obligatoriske felter, vises ikonet **Du er klar til at anskaffe anlægsaktivet.** Meddelelsen vises øverst på siden. Hvis du er klar til at erhverve aktivet nu, skal du vælge handlingen **Ansk** . Følg trinnene på **siden Assisteret anskaffelse af anlægsaktiver** for at fuldføre anskaffelsen. Hvis du ikke er klar, kan du altid erhverve aktivet senere.
 
-### Brug Rediger i Excel til at tilføje aktiver
+### <a name="use-edit-in-excel-to-add-assets"></a>Brug Rediger i Excel til at tilføje aktiver
 
 Hvis du vil tilføje adskillige anlægsaktiver, er Rediger i Excel et fantastisk værktøj at bruge. Værktøjet henter den aktuelle liste over aktiver i en kladde, der indeholder de fleste af de felter, der er tilgængelige på siden Anlægskort. Du kan udfylde nogle eller alle felterne på en række for hvert aktiv og publicere dine ændringer, så du kan føje dem til din liste [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du ikke kan udfylde alle obligatoriske felter, er det ok. Du kan opdatere dem [!INCLUDE [prod_short](includes/prod_short.md)] , når du er klar.
 
@@ -55,7 +55,7 @@ Hvis du vil tilføje adskillige anlægsaktiver, er Rediger i Excel et fantastisk
 
 4. Hvis du vil opdatere [!INCLUDE [prod_short](includes/prod_short.md)], skal du vælge **Microsoft Dynamics** Udgiv **i ruden**.
 
-### Tilføje et anlægsaktiv fra en købsordre eller faktura
+### <a name="add-a-fixed-asset-from-a-purchase-order-or-invoice"></a>Tilføje et anlægsaktiv fra en købsordre eller faktura
 
 I følgende procedure beskrives, hvordan du tilføjer et anlægsaktiv fra en købsordre. Fremgangsmåden er den samme for en købsfaktura.
 
@@ -66,7 +66,7 @@ I følgende procedure beskrives, hvordan du tilføjer et anlægsaktiv fra en kø
 5. I feltet **Nummer** Vælge et eksisterende anlægsaktiv for at tilføje en udgift eller vælge **Ny** for at tilføje et nyt aktiv.
 6. Når du har angivet oplysningerne for det nye aktiv og købsordren, skal du vælge **Bogfør**.
 
-## Anskaffe et anlægsaktiv ved hjælp af en anlægskassekladde
+## <a name="acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal"></a>Anskaffe et anlægsaktiv ved hjælp af en anlægskassekladde
 
 Følgende fremgangsmåde beskriver, hvordan du anskaffer ved at oprette og bogføre de nødvendige anlægskassekladdelinjer. Du kan også oprette og bogføre linjerne manuelt. Du kan få mere at vide ved at gå til [Anskaffe et anlægsaktiv ved hjælp af en anlægskassekladde](#acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal).
 
@@ -79,7 +79,7 @@ Følgende fremgangsmåde beskriver, hvordan du anskaffer ved at oprette og bogf�
 
 Når du vælger **Udfør**, udfyldes feltet **Bogført værdi** på **siden Anlægskort**, hvilket angiver, at anlægsaktivet er anskaffet til den angivne anskaffelsespris.  
 
-## Sådan bogføres en anskaffelse manuelt med en anlægskassekladde
+## <a name="to-post-a-fixed-asset-acquisition-manually-with-a-fixed-asset-gl-journal"></a>Sådan bogføres en anskaffelse manuelt med en anlægskassekladde
 
 Følgende fremgangsmåde bruges til at anskaffe et anlægsaktiv manuelt ved at oprette og bogføre linjerne på siden **Anlægsfinanskladde**. Du kan også erhverve et anlægsaktiv automatisk på siden **Anlægskort** ved at vælge handlingen Anskaf **anlæg** . Du kan få mere at vide ved at gå til [Erhverve et anlægsaktiv](#acquire-fixed-assets).
 
@@ -94,7 +94,7 @@ Følgende fremgangsmåde bruges til at anskaffe et anlægsaktiv manuelt ved at o
 > [!TIP]  
 > Hvis du udfylder feltet **Forsikringsnr.**  [!INCLUDE[prod_short](includes/prod_short.md)] Desuden bogføres anskaffelsesprisen for anlægsaktivet på forsikringsposterne. Du kan få mere at vide ved at gå til [Forsikre](fa-how-insure.md) anlæg.
 
-## Sådan konfigureres en komponentliste for et hovedanlæg
+## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Sådan konfigureres en komponentliste for et hovedanlæg
 
 Du kan gruppere anlægsaktiverne i hovedanlæg og de tilhørende komponenter. Du kan f.eks. have en produktionsmaskine, der består af flere dele, som du vil gruppere på denne måde.  
 
@@ -108,7 +108,7 @@ Du skal oprette hovedanlægget og alle dets komponenter som individuelle anlægs
 6. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsopsætning**, og vælg derefter det relaterede link.
 7. Aktivér til/fra-knappen **Tillad bogføring af hovedanlæg** .
 
-## Sådan annulleres bogføringen af en anskaffelsespris for et anlægsaktiv
+## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Sådan annulleres bogføringen af en anskaffelsespris for et anlægsaktiv
 
 Hvis du laver en fejl under bogføring af en anskaffelsespris, kan du fjerne posten vha. kørslen **Annuller anlægsposter** og derefter bogføre den korrekte anskaffelsespost. De forkerte poster overføres til siden **Anlægsfejlposter**.
 
@@ -124,7 +124,7 @@ Hvis du f.eks, bogfører en anskaffelse med den forkerte dato, skal du rette den
 5. Vælg **OK** for at eksekvere kørslen.
 6. Når den eller de forkerte poster annulleres, kan du fortsætte med at bogføre den korrekte anskaffelsespris.
 
-## Sådan bogføres skrapværdien sammen med anskaffelsesprisen
+## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Sådan bogføres skrapværdien sammen med anskaffelsesprisen
 
 Skrapværdien er restværdien af et anlæg, der ikke længere kan bruges. Du kan bogføre skrapværdien samtidigt med, at du bogfører anskaffelsesprisen. Du kan få mere at vide ved at gå til [Afskriv eller afskriv på anlæg](fa-how-depreciate-amortize.md).
 
@@ -141,7 +141,7 @@ Du kan bogføre skrapværdien sammen med anskaffelsesprisen fra en anlægskladde
 > [!NOTE]
 > Hvis der findes en skrapværdi for et anlægsaktiv, bruges denne værdi i afskrivningsbogføringen i stedet for værdien i feltet **Slutbogført værdi** på siden **Anlægsafskrivningsprofiler** . Du kan få mere at vide ved at gå til [Sådan administreres den slutbogførte værdi](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Anlægsaktiver](fa-manage.md)  
 [Opsætning af Anlægsaktiver](fa-setup.md)  

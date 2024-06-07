@@ -10,11 +10,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Kopiere eksisterende varer for at oprette nye varer
+# <a name="copy-existing-items-to-create-new-items"></a>Kopiere eksisterende varer for at oprette nye varer
 
 Når du tilføjer en ny vare, kan du spare tid ved at bruge funktionen **Kopiér vare** til at kopiere en eksisterende vare, der skal bruges som skabelon for en ny vare.  
 
-## Sådan kopieres en eksisterende vare til en ny vare
+## <a name="to-copy-an-existing-item-to-a-new-item"></a>Sådan kopieres en eksisterende vare til en ny vare
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
 2. Vælg den vare, du vil kopiere, og vælg derefter handlingen **Kopiér vare**.  
@@ -28,7 +28,7 @@ Når du tilføjer en ny vare, kan du spare tid ved at bruge funktionen **Kopiér
 
 4. Klik på knappen **OK** for at kopiere dine valg til den nye vare.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Opsætning af lagerbeholdning](inventory-setup-inventory.md)  

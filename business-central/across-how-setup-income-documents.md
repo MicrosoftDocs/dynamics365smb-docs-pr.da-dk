@@ -9,13 +9,13 @@ ms.date: 06/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Konfigurere indgående bilag
+# <a name="set-up-incoming-documents"></a>Konfigurere indgående bilag
 
 Hvis du opretter finanskladdelinjer fra indgående bilagsposter, skal du på siden **Konfiguration af indgående bilag** angive hvilken kladdetype og hvilket kladdenavn der skal bruges.
 
 Når funktionen **Indgående bilag** er konfigureret, kan du bruge forskellige funktioner til at gennemgå udgiftsbilag, administrere OCR-opgaver og konvertere indgående bilagsfiler, manuelt eller automatisk, til de relevante købs- og salgsbilag eller kladdelinjer. Eksterne filer kan tilknyttes i enhver procesfase, herunder til bogførte dokumenter og til de derved oprettede kreditor-, debitor- og finansposter. Du kan finde flere oplysninger i [Oprette indgående bilagsposter](across-how-create-income-document-records.md).
 
-## Sådan konfigureres funktionen for indgående bilag
+## <a name="to-set-up-the-incoming-documents-feature"></a>Sådan konfigureres funktionen for indgående bilag
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Konfiguration af indkommende dokumenter**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -24,13 +24,13 @@ Som en del af konfigurationen skal du beslutte, om du vil kræve godkendelse af 
 
 Hvis du bruger en OCR-tjeneste til at konvertere PDF- eller billedfiler, der repræsenterer indgående dokumenter, [skal du konfigurere den](#to-set-up-an-ocr-service). Ellers kan du også ignorere denne sektion.
 
-## Sådan konfigureres godkendere af indgående bilagsposter
+## <a name="to-set-up-approvers-of-incoming-document-records"></a>Sådan konfigureres godkendere af indgående bilagsposter
 
 Hvis du ikke ønsker, at brugere kan oprette fakturaer eller finanskladdelinjer fra indgående dokumentposter, medmindre dokumenterne godkendes, skal du konfigurere en godkendelsesproces til indkommende bilag. Godkendere af indgående bilag skal konfigureres som brugere i godkendelsesworkflow.
 
 Før du kan oprette workflows, der omfatter godkendelsestrin, skal du angive workflowbrugere, der er involveret i godkendelsesprocessen. På siden **Konfiguration af godkendelsesbruger** skal du også angive beløbsgrænser for bestemte typer anmodninger og angive stedfortrædende godkendere, som godkendelsesanmodninger skal uddelegeres til, når den oprindelige godkender er fraværende. Du kan finde flere oplysninger i [Konfigurere godkendelsesbrugere](across-how-to-set-up-approval-users.md)
 
-## Sådan konfigureres en OCR-tjeneste
+## <a name="to-set-up-an-ocr-service"></a>Sådan konfigureres en OCR-tjeneste
 
 Hvis du vil ændre PDF-og billedfiler til elektroniske dokumenter, som du kan konvertere til fakturaer, kreditnotaer eller kladdelinjer, skal du angive OCR-funktionen. Du kan også oprette poster manuelt, så de repræsenterer eksterne dokumenter.
 
@@ -42,7 +42,7 @@ Hvis du vil ændre PDF-og billedfiler til elektroniske dokumenter, som du kan ko
 
 Du kan finde flere oplysninger i [Bruge OCR til at gøre PDF- og billedfiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md).  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Indgående bilag](across-income-documents.md)  
 [Køb](purchasing-manage-purchasing.md)  

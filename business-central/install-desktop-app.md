@@ -10,11 +10,11 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Hent Business Central Desktop-app
+# <a name="get-the-business-central-desktop-app"></a>Hent Business Central Desktop-app
 
 Hvis du har en Windows-PC eller macOS-computer, kan du installere en [!INCLUDE [prod_short](includes/prod_short.md)]-app på computeren. Appen fungerer sammen med [!INCLUDE [prod_short](includes/prod_short.md)] online og on-premises.
 
-## Hvor bruge appen?
+## <a name="why-use-the-app"></a>Hvor bruge appen?
 
 [!INCLUDE [prod_short](includes/prod_short.md)]-appen ligner webklienten, men der er nogle få fordele som f. eks.:
 
@@ -25,11 +25,11 @@ Hvis du har en Windows-PC eller macOS-computer, kan du installere en [!INCLUDE [
 
      Når du åbner appen for bestemte miljøer, medtages miljø navnet i vinduets titel. Når du arbejder på tværs af flere [!INCLUDE[prod_short](includes/prod_short.md)]-miljøer, vises hvert programvindue separat. Navnet gør det nemmere at se, hvilke vinduer der er knyttet til de enkelte miljøer.
 
-## Se Installere appen til [!INCLUDE [prod_short](includes/prod_short.md)] online
+## <a name="install-the-app-for--online"></a>Se Installere appen til [!INCLUDE [prod_short](includes/prod_short.md)] online
 
 Du kan installere app til [!INCLUDE [prod_short](includes/prod_short.md)] online. Du kan installere det direkte fra browseren eller fra Microsoft store. Uanset hvilken fremgangsmåde du bruger, er det den samme app. Forskellen er, at ved installation fra browseren kan du installere app'en for hvert miljø, når der er mere end én.
 
-### Fra Microsoft store
+### <a name="from-microsoft-store"></a>Fra Microsoft store
 
 1. Gå til [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
 2. Vælg **Hent** > **Installation**. 
@@ -37,7 +37,7 @@ Du kan installere app til [!INCLUDE [prod_short](includes/prod_short.md)] online
 
 Næste gang du vil åbne appen, skal du søge efter den i menuen **Start**.
 
-### Fra browseren
+### <a name="from-the-browser"></a>Fra browseren
 
 1. Åbn [!INCLUDE[prod_short](includes/prod_short.md)]-webklienten i enten Microsoft Edge eller Google Chrome.
 
@@ -57,13 +57,13 @@ Næste gang du vil åbne appen, skal du søge efter den i menuen **Start**.
 
 Når appen er installeret, vises den i menuen **Start**. Hvis du har valgt et specifikt miljø for appen, føjes miljø navnet til App-navnet i menuen **Start**.
 
-## Sådan installerer app til [!INCLUDE [prod_short](includes/prod_short.md)] lokalt
+## <a name="install-the-app-for--on-premises"></a>Sådan installerer app til [!INCLUDE [prod_short](includes/prod_short.md)] lokalt
 
 Installation af desktop-app'en, når du bruger [!INCLUDE [prod_short](includes/prod_short.md)] lokalt direkte fra browseren, som [beskrevet ovenfor](#from-the-browser). Hvis du kun har én lejer, skal du blot åbne [!INCLUDE [prod_short](includes/prod_short.md)] i browseren og derefter vælge et ![ikon til installation af en app i Edge.](media/ui-edge-install-app-icon.png) **App tilgængelig. Installer Business central** eller ![ikonet for installation af en app i Chrome.](media/ui-chrome-install-app-icon.png) **Installer Business central** som vist ovenfor.
 
 Forskellen er, når du har flere arkitekturer. I modsætning til [!INCLUDE[prod_short](includes/prod_short.md)]-online, hvor du kan installere appen separat til forskellige miljøer, kan du kun installere appen for én lejer lokalt. Før du installerer app'en, når du har flere arkitekturer, skal du sørge for at skifte til den korrekte lejer. Når du har installeret app'en, vil den blive åbnet direkte, når du åbner appen.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Ofte stillede spørgsmål om mobilapps](ui-mobile-faq.yml)  
 [Blive køreklar til at foretage handler](ui-get-ready-business.md)  

@@ -10,7 +10,7 @@ ms.date: 12/20/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Analysere pengestrømme i din virksomhed
+# <a name="analyzing-cash-flow-in-your-company"></a>Analysere pengestrømme i din virksomhed
 Diagrammer i rollecenteret Regnskabsmedarbejder giver indsigt, som kan hjælpe dig med at træffe beslutninger vedrørende dine pengestrømme.  
 
 | For at besvare spørgsmål som de følgende | Skal du bruge dette diagram |
@@ -35,13 +35,13 @@ Hvis du vil undersøge prognosen ud over prognoseposter, kan du også se pengest
 * Fratrækker skyldige beløb og tilføjer tilgodehavender.  
 * Springer dubletter af salgsordrer og købsordrer over.  
 
-## Sådan vises en pengestrømskladde
+## <a name="to-view-a-cash-flow-worksheet"></a>Sådan vises en pengestrømskladde
 
 1. Søg efter **Pengestrømsprognoser**, og vælg derefter det relaterede link.  
 2. Vælg en pengestrømsprognose, og vælg derefter handlingen **Pengestrømskladde**.  
 3. På siden **Pengestrømskladde** skal du vælge handlingen **Foreslå kladdelinjer**.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
