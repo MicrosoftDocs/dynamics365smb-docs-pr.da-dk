@@ -10,13 +10,13 @@ ms.date: 05/23/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Konfigurere og rapportere Intrastat
+# <a name="set-up-and-report-intrastat"></a>Konfigurere og rapportere Intrastat
 
 Alle virksomheder i EU skal rapportere deres handel med andre EU-lande/områder. Du skal rapportere bevægelsen af varer til statistikmyndighederne i Danmark hver måned, og rapporten skal indleveres til skattemyndighederne. Dette omtales Intrastatrapportering. Du skal bruge siden **Intrastatkladde** til at udfærdige periodiske Intrastatrapporter.
 
 [!INCLUDE[intrastat-2022w2](includes/intrastat-2022w2.md)]
 
-## Krævede og valgfrie opsætninger
+## <a name="required-and-optional-setups"></a>Krævede og valgfrie opsætninger
 
 > [!IMPORTANT]
 > Debitorkort og kreditorkort indeholder et felt, **Intrastat-partnertype**, der har de samme indstillingsværdier som feltet **partnertype**-felt: *"" (tom)*, *firma* og *person*. Feltet **Intrastat-partnertype** har erstattet feltet **Partnertype** i Intrastat-rapportering. **Partnertype** bruges i SEPA til at definere SEPA Direct debet-skema (Core eller B2B). **Intrastat-partnertypen** bruges kun til Intrastat-rapportering. På den måde kan du angive forskellige værdier til de to felter, hvis det er nødvendigt.
@@ -46,7 +46,7 @@ Du kan også konfigurere:
 * **Områder**: Du kan bruge disse som supplement til oplysninger om lande og områder.  
 * **Indførsels-/ udførselssteder**: Brug disse til at angive de lokationer, hvor du kan sende eller modtage varer til eller fra andre lande/områder. Københavns Lufthavn er et eksempel på et indførsels-/udførselssted. Du kan angive indførsels-/udførselssteder i salgs- og købsdokumenter i oversigtspanelet **Udenrigshandel**. Oplysningerne kopieres også fra vareposterne, når du opretter Intrastatkladden.  
 
-### Sådan oprettes Intrastatkladdetyper og -kladdenavne
+### <a name="to-set-up-intrastat-templates-and-batches"></a>Sådan oprettes Intrastatkladdetyper og -kladdenavne
 
 I Intrastatkørslen medtages udelukkende vareposter, og ikke finansposter. Hvis du har finansposter, der bør Intrastatrapporteres, skal du indtaste dem manuelt. Hvis du f.eks. køber en computer fra et andet EU-land/en anden EU-region, placeres computeren ikke på lager, men bogføres på en finanskonto. Du skal indtaste denne type post manuelt i Intrastatkladden.  
 
@@ -63,12 +63,12 @@ Du kan eksportere posterne til en fil, du kan sende til Intrastat-myndighederne.
 > [!NOTE]
 > Angiv statistiskperioden i feltet **Statistikperiode** som et firecifret nummer, hvor de første to cifre angiver året og de næste to måneden. Skriv f.eks. 1706 for juni 2017.
 
-### Sådan defineres transportmåder
+### <a name="to-set-up-transport-methods"></a>Sådan defineres transportmåder
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Transportmåder**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### Sådan angiver du, hvilke Intrastatrapportfelter der skal udfyldes
+### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Sådan angiver du, hvilke Intrastatrapportfelter der skal udfyldes
 
 I nogle lande/områder, f.eks. Spanien og Storbritannien, kræver myndighederne, at Intrastatrapporter omfatter f.eks. leveringsformen for køb eller visse andre værdier, når salgsordren er over en bestemt grænse. På siden **Intrastat, opsætning** kan du vælge **Opsætning af kontrolliste** for at gøre felter obligatoriske på siden **Intrastatkladde**.
 
@@ -76,11 +76,11 @@ I nogle lande/områder, f.eks. Spanien og Storbritannien, kræver myndighederne,
 2. Vælge handlingen **Opsætning af Intrastatkontrolliste**.
 3. På siden **Opsætning af Intrastatkontrolliste** skal du vælge **Feltnavn** for at vælge det Intrastatrapportfelt, du vil gøre obligatorisk.
 
-### Tjekkiet
+### <a name="czechia"></a>Tjekkiet
 
 Specielt til tjekkiske virksomheder skal du også definere koder for varekoder og transaktioner.  
 
-#### Sådan angives varekoder
+#### <a name="to-set-up-commodity-codes"></a>Sådan angives varekoder
 
 Alle varer, du køber eller sælger, skal have en varekode.  
 
@@ -88,11 +88,11 @@ Alle varer, du køber eller sælger, skal have en varekode.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Hvis du vil tildele en varekode til en vare, skal du gå til siden **Varekort**, udvide oversigtspanelet **Omkostninger og bogføring** og derefter angive koden i feltet **Varekode**.
 
-### Italien
+### <a name="italy"></a>Italien
 
 Specielt til italienske virksomheder skal du også definere koder for varekoder og transaktioner.  
 
-#### Sådan konfigurerer du koder for transaktionsarter
+#### <a name="to-set-up-transaction-nature-codes"></a>Sådan konfigurerer du koder for transaktionsarter
 
 1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Koder for transaktionsarter**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -100,11 +100,11 @@ Specielt til italienske virksomheder skal du også definere koder for varekoder 
 > [!TIP]
 > Hvis du ofte bruger en bestemt transaktionsartskode, kan du gøre den til standardkode. For at gøre dette skal du gå til siden **Intrastat, opsætning** og vælge koden.
 
-## Sådan rapporteres Intrastat
+## <a name="to-report-intrastat"></a>Sådan rapporteres Intrastat
 
 Når du har udfyldt Intrastatkladden, kan du køre handlingen **Intrastat - kontrolliste** for at kontrollere, at alle oplysninger i kladden er korrekte. Obligatoriske felter, du har angivet i **Opsætning af Intrastatkontrolliste**, og som mangler værdier, vises i Fejl og advarsler-faktaboksen på siden **Intrastatkladde**. Herefter kan du udskrive en Intrastatrapport som en formular eller oprette en fil, som skal sendes til skattemyndighederne i dit land/område.  
 
-### Sådan udfyldes Intrastatkladder
+### <a name="to-fill-in-intrastat-journals"></a>Sådan udfyldes Intrastatkladder
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Intrastatkladde**, og vælg derefter det relaterede link.  
 2. På siden **Intrastatkladde** skal du vælge den relevante kladde i feltet **Kladdenavn** og derefter vælge **OK**.  
@@ -117,7 +117,7 @@ Kørslen henter alle vareposter i statistikperioden og indsætter dem som linjer
 > [!IMPORTANT]  
 > Kørslen henter kun de poster, der indeholder en lande-/regionskode, der er angivet en Intrastatkode for, på siden **Lande/regioner**. Derfor skal du angive Intrastatkoder for den landekode, som du udfører kørslen for. Kørslen angiver feltet **partnermoms-id** til *QV999999999999* for private personer eller ikke-momsregistrerede virksomheder (f. eks. med feltet **Intrastat-partnertype** sat til *person*), og det bruger værdien i feltet **Transaktionstype** i den bogførte varepost eller sagspost.
 
-### Sådan ændres kladdelinjer i Intrastat-kladden
+### <a name="to-modify-intrastat-journals-lines"></a>Sådan ændres kladdelinjer i Intrastat-kladden
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Intrastatkladde**, og vælg derefter det relaterede link.  
 2. På siden **Intrastatkladde** skal du vælge den relevante kladde i feltet **Kladdenavn** og derefter vælge **OK**.  
@@ -129,7 +129,7 @@ Kørslen henter alle vareposter i statistikperioden og indsætter dem som linjer
 > [!NOTE]
 > I [!INCLUDE[prod_short](includes/prod_short.md)]-versioner, der ikke understøtter [**Rediger i Excel**](across-work-with-excel.md#edit-in-excel) til kladder, kan du oprette konfigurationspakker for at eksportere og importere Intrastat-kladdelinjer til Excel. Du kan finde flere oplysninger i [Overførsel af lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsindholdet.
 
-### Rapportere Intrastat i en formular eller en fil
+### <a name="report-intrastat-on-a-form-or-a-file"></a>Rapportere Intrastat i en formular eller en fil
 
 Hvis du vil hente de oplysninger, der kræves på Intrastatblanketten fra de statistiske myndigheder, skal du udskrive rapporten **Intrastat – blanket**. Før du kan gøre dette, skal du forberede Intrastatkladden og udfylde den. Hvis du har både salgs- og købstransaktioner, skal du udfylde en separat blanket for hver type, så du skal udskrive rapporten to gange.  
 
@@ -140,7 +140,7 @@ Hvis du vil hente de oplysninger, der kræves på Intrastatblanketten fra de sta
 5. I oversigtspanelet **Intrastatkladdelinje** skal du tilføje et **Type** filter og derefter angive, om det er en **Modtagelse** eller **Afsendelse**.  
 6. Vælg **Send til** for at udskrive rapporten.  
 
-### Rapportere Intrastat i en fil
+### <a name="report-intrastat-in-a-file"></a>Rapportere Intrastat i en fil
 
 Du kan sende Intrastatrapporten som en fil. Før du opretter filen, kan du udskrive en kontrolliste, der indeholder de samme oplysninger som filens.  
 
@@ -155,7 +155,7 @@ Du kan sende Intrastatrapporten som en fil. Før du opretter filen, kan du udskr
 > [!NOTE]
 > Når en linje i Intrastat-rapporten har en supplerende enhed, vises varens vægt ikke, da denne værdi ikke er nødvendig.
 
-## Reorganisere Intrastatkladder
+## <a name="reorganize-intrastat-journals"></a>Reorganisere Intrastatkladder
 
 Da du skal sende en Intrastatrapport hver måned, og du opretter en ny kladde for hver rapport, vil du til sidst have mange kladder. Kladdelinjerne slettes ikke automatisk. Du vil muligvis reorganisere kladdenavne periodisk. Det gør du ved at slette kladder, der ikke længere er brug for. Kladdelinjerne i disse kørsler slettes også.  
 
@@ -163,13 +163,13 @@ Da du skal sende en Intrastatrapport hver måned, og du opretter en ny kladde fo
 2. Vælg feltet **Kladdenavn** for at få vist indstillingerne.  
 3. Vælg de kladder, der skal slettes, og vælg derefter knappen **Slet**.  
 
-## Varekoder
+## <a name="tariff-numbers"></a>Varekoder
 
 I mange lande/områder har Told·Skat-myndighederne etableret ottecifrede varekoder på de forskellige. For at vareposterne skal indeholde de relevante oplysninger, når de indlæses på Intrastatkladdelinjen, skal du have indtastet oplysningerne om brugstarifnummer på siden **Varekoder**. I dette hæfte skal du finde varekoderne på de varer, du handler med i virksomheden og indsætte dem på siden **Varekoder**.
 
 Du skal oprette alle de varekoder, du bruger, på siden **Varekoder**. Koderne skal indsættes på varekortet, før du begynder at bogføre. Når du har oprettet koderne, skal du indtaste dem i feltet **Varekode** felt på varekortet. Du skal også udfylde feltet **Nettovægt** på varekortet.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Økonomistyring](finance.md)
 

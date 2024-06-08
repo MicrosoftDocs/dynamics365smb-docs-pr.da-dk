@@ -9,14 +9,14 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Køre opgaver i baggrunden
+# <a name="run-tasks-in-the-background"></a>Køre opgaver i baggrunden
 
 Det er effektivt at køre nogle opgaver samtidig og på en automatiseret måde. Du kan udføre disse opgaver i baggrunden, og du kan også angive en tidsplan, når opgaverne skal afvikles automatisk. Der understøttes to tilstande for at udføre opgaver i baggrunden:
 
 - Manuelt udløste opgaver planlægges øjeblikkeligt via **Opgavekøposter**.
 - Tilbagevendende opgaver er planlagt i **Opgavekøposter**.
 
-## Udføre opgaver i baggrunden for et bestemt trykkeri
+## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Udføre opgaver i baggrunden for et bestemt trykkeri
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Shopify Butik**, og vælg det relevante link.
 2. Marker den butik, som du vil køre synkronisering i baggrunden for at åbne **Shopify Butikskort**-siden.
@@ -24,7 +24,7 @@ Det er effektivt at køre nogle opgaver samtidig og på en automatiseret måde. 
 
 Når synkroniseringshandlingen starter, skal du, i stedet for en opgave, der kører i forgrunden, vente. Når den er fuldført, kan du fortsætte til næste handling. Opgaven oprettes som en **Opgavekøpost** og starter straks.
 
-## Sådan planlægges tilbagevendende opgaver
+## <a name="to-schedule-recurring-tasks"></a>Sådan planlægges tilbagevendende opgaver
 
 Du kan planlægge, at følgende tilbagevendende aktiviteter skal udføres automatisk. Flere oplysninger om at planlægge opgaver under [Opgavekø](../admin-job-queues-schedule-tasks.md).
 
@@ -54,7 +54,7 @@ Du kan bruge **Shopify-ordrenr.** feltet til at identificere de salgsdokumenter,
 
 Hvis du vil vide mere om bogføring af salgsordrer i en batch, skal du gå til [Oprette en opgavekøpost for massebogføring af salgsordrer](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
-## Kontrollér status for synkronisering
+## <a name="to-check-the-status-of-synchronization"></a>Kontrollér status for synkronisering
 
 I rollecenteret **Business Manager** tilbyder **Shopify-aktiviteter** flere stikord, der kan hjælpe dig med hurtigt at identificere, om der er problemer med Shopify Connector.
 
@@ -65,6 +65,6 @@ I rollecenteret **Business Manager** tilbyder **Shopify-aktiviteter** flere stik
 - **Leveringsfejl**: Shopify Connector kunne ikke synkronisere bogførte salgsleverancer med Shopify.
 - **Synkroniseringsfejl**: Der er mislykkede opgavekøposter, som er relateret til synkronisering med Shopify.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Kom i gang med Shopify Connector](get-started.md)  

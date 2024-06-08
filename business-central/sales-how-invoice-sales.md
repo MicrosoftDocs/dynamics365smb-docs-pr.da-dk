@@ -10,7 +10,7 @@ ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Fakturasalg
+# <a name="invoice-sales"></a>Fakturasalg
 
 Du kan normalt oprette en salgsordre eller salgsfaktura for at registrere din aftale med en kunde om at sælge bestemte produkter på bestemte leverings- og betalingsbetingelser.  
 
@@ -24,7 +24,7 @@ I alle andre tilfælde fungerer salgsordrer og salgsfakturaer på samme måde. F
 
 Du kan forhandle med debitoren ved først at oprette et salgstilbud, som du kan konvertere til en salgsfaktura, når I har aftalt salget. Flere oplysninger i [Oprette salgstilbud](sales-how-make-offers.md).
 
-## Oprette salgsfakturaer
+## <a name="create-sales-invoices"></a>Oprette salgsfakturaer
 
 Hvis kunden beslutter at købe, bogfører du salgsfakturaen for at oprette det relaterede antal og værdiposterne. Når du bogfører salgsfakturaen, kan du også sende den som en vedhæftet PDF-fil i en mail. Du kan få brødteksten i mailen udfyldt med en oversigt over faktura- og betalingsoplysninger, f.eks. et link til PayPal. Flere oplysninger i [Afsende dokumenter med e-mail](ui-how-send-documents-email.md#to-send-documents-by-email). Når kunden derefter betaler fakturaen, kan du registrere betalingen på forskellige måder, afhængigt af størrelsen og de foretrukne arbejdsgange i organisationen. Flere oplysninger i afsnittet [Registrering af betalinger](#register-payments).  
 
@@ -32,7 +32,7 @@ Varekortet kan være af typen **Lager**, **Service** og **Ikke-lager** for at an
 
 Du kan udfylde debitorfelter i salgsfakturaen på en af to måder, afhængigt af om debitoren er registreret. Se trin 2 i følgende procedure.
 
-### Sådan oprettes en salgsfaktura
+### <a name="to-create-a-sales-invoice"></a>Sådan oprettes en salgsfaktura
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsfakturaer**, og vælg derefter det relaterede link.  
 2. I feltet **Debitornavn** skal du indtaste navnet på en eksisterende debitor. Hvis kunden imidlertid er ny og derfor ikke registreret, skal du benytte følgende fremgangsmåde til at udfylde standard debitoroplysninger på siden **Salgsfaktura**:
@@ -89,11 +89,11 @@ Dialogboksen **Bekræftelse af bogfør og send** viser debitorens foretrukne met
 
 De relaterede vare- og debitorposter oprettes nu i systemet, og salgsfakturaen udlæses som et PDF-dokument. Salgsfakturaen fjernes fra listen over salgsfakturaer og erstattes med et nyt bilag i oversigten over bogførte salgsfakturaer.  
 
-### Beregne fakturarabatter på salg
+### <a name="calculate-invoice-discounts-on-sales"></a>Beregne fakturarabatter på salg
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## Bogførte fakturaer
+## <a name="posted-invoices"></a>Bogførte fakturaer
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -101,7 +101,7 @@ Du kan nemt rette eller annullere en bogført salgsfaktura, før den sidste beta
 
 [Åbne listen **Bogførte salgsfakturaer**](https://businesscentral.dynamics.com/?page=143) i [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## Registrer betalinger
+## <a name="register-payments"></a>Registrer betalinger
 
 Afhængigt af dine forretningsmæssige behov kan du modtage betaling og registrere den på forskellige måder: manuelt, automatisk og ved hjælp af betalingstjenester.  
 
@@ -116,11 +116,11 @@ Du kan også oprette direkte betalte fakturaer for ikke-registrerede kunder ved 
 > [!TIP]
 > Hvis du vil sende rykkere til kunder om forfaldne betalinger, skal du oprette rykkerniveauer og-betingelser først. Flere oplysninger i [Oprette betingelser, niveauer og tekster for leveringsrykkere](finance-setup-reminders.md).  
 
-## Eksterne bilagsnumre
+## <a name="external-document-numbers"></a>Eksterne bilagsnumre
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
 [Konfigurere salg](sales-setup-sales.md)  

@@ -9,13 +9,13 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Slet omkostningsbudgetposter
+# <a name="delete-cost-budget-entries"></a>Slet omkostningsbudgetposter
 
 Du kan bruge kørslen **Slet omkostningsbudgetposter** til at annullere omkostningsbudgetposter fra omkostningsbudgetregistret.  
 
 Du kan ikke slette en enkelt post eller flere poster i midten af listen over journalposter i, for at undgå eventuelle mellemrum i omkostningsbudgetposter og omkostningsregisterposter.  
 
-## Sådan slettes en omkostningsbudgetpost  
+## <a name="to-delete-a-cost-budget-entry"></a>Sådan slettes en omkostningsbudgetpost
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Slet omkostningsbudgetposter**, og vælg derefter det relaterede link.  
 
@@ -27,7 +27,7 @@ Du kan ikke slette en enkelt post eller flere poster i midten af listen over jou
 > [!NOTE]  
 > Du kan lukke registrerposter for at undgå en utilsigtet sletning af omkostningsbudgetposter ved at markere linjerne som **Lukket** i feltet **Lukket** på siden **Omkostningsbudgetregistre**.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Regnskab for omkostninger](finance-manage-cost-accounting.md)
 [Oprette omkostningsbudgetter](finance-create-cost-budgets.md)  

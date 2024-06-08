@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Tilføje og se noter i poster
+# <a name="add-and-view-notes-on-records"></a>Tilføje og se noter i poster
  Du <!--OnPrem and your colleagues -->kan føje noter til poster i programmet. Mange sider, især dem, der viser en liste over poster, f.eks. siden **Salgsordrer**, omfatter handlingen **Noter** eller faktaboksen **Noter**. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
 
  > [!NOTE]  
@@ -21,7 +21,7 @@ ms.service: dynamics-365-business-central
 >  You can only select one recipient of the note.-->  
 
 <!--OnPrem
-## To work with notes on a record
+## <a name="to-work-with-notes-on-a-record"></a>To work with notes on a record
 
 1.  Open a list of records, such as the **Sales Orders** page, or a card, such as the **Sales Order** page.  
 
@@ -39,7 +39,7 @@ ms.service: dynamics-365-business-central
      If **Notify** is selected, the note will be sent as a notification to the user's **My Notifications** on the Role Center.  -->
 <!--OnPrem
 3.  Choose the **OK** button.  -->
-## Se også
+## <a name="see-also"></a>Se også
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

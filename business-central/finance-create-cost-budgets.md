@@ -9,7 +9,7 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Oprette omkostningsbudgetter
+# <a name="creating-cost-budgets"></a>Oprette omkostningsbudgetter
 
 Budgettering i omkostningsregnskab minder om budgettering i regnskabet. Et omkostningsbudget oprettes baseret på omkostningstyper, ligesom et budget for regnskabet oprettes baseret på finanskonti.  
 
@@ -25,7 +25,7 @@ Brug følgende sider til at oprette og analysere omkostningsbudgetter. Vælg ![L
 |Se omkostningsbudgetregistre og omkostningsbudgetposter.|Siden **Omkostningsbudgetregistre**|  
 |Udskrive omkostningsbudgetsammenligninger med forskellige rapporter.|Rapporten **Omk.regnskabssaldo/budget**<br /><br /> Rapporten **Omk.regnskabskontoudtog/budget**<br /><br /> Rapporten **Omkostningsbudget efter omkostningssted**<br /><br /> Rapporten **Omkostningsbudget efter omkostningsemne**|  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Regnskab for omkostninger](finance-manage-cost-accounting.md)  
 [Oprette Finansbudgetter](finance-how-create-budgets.md)  

@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Indbyggede finansrapporter i Business Central
+# <a name="built-in-finance-reports-in-business-central"></a>Indbyggede finansrapporter i Business Central
 
 [!INCLUDE [prod_short](includes/prod_short.md)] indeholder flere indbyggede rapporter, sporingsfunktioner og værktøjer, som kan hjælpe revisorer eller controllere, som er ansvarlige for at rapportere til finansafdelingen.
 
@@ -20,11 +20,11 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## Udforsk finansrapporter med Stifinder
+## <a name="explore-finance-reports-with-report-explorer"></a>Udforsk finansrapporter med Stifinder
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Rapporter og analyser for debitor](receivables-reports.md)  
 [Rapporter og analyser for skyldige beløb](payables-reports.md)  

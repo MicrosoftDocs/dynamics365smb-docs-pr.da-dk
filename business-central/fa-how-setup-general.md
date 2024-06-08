@@ -11,18 +11,18 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Opsætte generelle oplysninger om anlægsaktiver
+# <a name="set-up-general-fixed-assets-information"></a>Opsætte generelle oplysninger om anlægsaktiver
 
 Inden du kan arbejde med anlægsaktiver, skal du konfigurere standardfinanskonti, bogføringsgrupper, fordelingsnøgler, kladdetyper og batches samt genklassificere anlægsaktiver. Du skal også definere et klassifikationshierarki (klasser og underklasser) for at strukturere dine aktiver og om nødvendigt definere de lokationer, hvor du gemmer aktiver.
 
-## Sådan defineres generelle adfærd for funktionerne for anlægsaktiver
+## <a name="to-set-up-general-behavior-for-fixed-assets-functionality"></a>Sådan defineres generelle adfærd for funktionerne for anlægsaktiver
 
 Definér den generelle funktionsmåde eller anlægsaktivets funktion og oprette dokumentnummerserier på siden **Anlægsopsætning**.
 
 1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsopsætning**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Sådan oprettes anlægsbogføringsgrupper
+## <a name="to-set-up-fixed-asset-posting-groups"></a>Sådan oprettes anlægsbogføringsgrupper
 
 Bruge bogføringsgrupper til at definere grupper af anlægsaktiver. Disse bogføringsgruppers poster bogføres på samme finanskonti.
 
@@ -36,7 +36,7 @@ Bruge bogføringsgrupper til at definere grupper af anlægsaktiver. Disse bogfø
 
 Yderligere oplysninger om brug af handlingen **Indsæt anlægsmodkonto** til anlægskassekladdelinjer finder du under [Regulere anlægsaktiver](fa-how-revalue.md).
 
-## Sådan defineres anlægskladdetyper
+## <a name="to-set-up-fixed-asset-journal-templates"></a>Sådan defineres anlægskladdetyper
 
 En type er et foruddefineret format for en kladde. Typen indeholder oplysninger om sporingskoder, rapporter og nummerserier. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).
 
@@ -45,25 +45,25 @@ En type er et foruddefineret format for en kladde. Typen indeholder oplysninger 
 1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægskladdetyper**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 
-## Sådan angives anlægsklasse- og underklassekoder
+## <a name="to-set-up-fixed-asset-class-and-subclass-codes"></a>Sådan angives anlægsklasse- og underklassekoder
 
 I anlægssager kan du definere et klassifikationshierarki, der kan bruges til at gruppere aktiver. Hierarkiet har to niveauer: klasser og underklasser.
 
-### Anlægsklassekoder
+### <a name="fixed-asset-class-codes"></a>Anlægsklassekoder
 
 Anlægsklasser er poster på øverste niveau i det klassifikationshierarki, som du grupperer aktiver i. Brug f.eks. klasser til at opdele aktiver i materielle eller immaterielle aktiver. Der skal oprettes mindst én anlægsart i opsætningen.
 
 1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsarter**, og vælg derefter det relaterede link.
 2. Angiv koder og navne for de anlægsklasser, du vil oprette.
 
-### Anlægs-underklassekoder
+### <a name="fixed-asset-subclass-codes"></a>Anlægs-underklassekoder
 
 Anlægs-underklasser er poster på nr. to niveau i det klassifikationshierarki, som du grupperer aktiver i. Hver underklasse peger på en klasse på øverste niveau. Brug anlægsgruppekoder til at gruppere anlægsaktiver i kategorier, f.eks. bygninger, køretøjer, møbler eller maskiner. Der skal oprettes mindst én anlægsunderklasse i opsætningen.
 
 1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsgrupper**, og vælg derefter det relaterede link.
 2. Angiv koder og navne for de anlægsunderklasser, du vil oprette.
 
-## Begynd at registrere aktiver
+## <a name="start-to-register-assets"></a>Begynd at registrere aktiver
 
 Hvis det er første gang, du bruger modulet Anlæg i [!INCLUDE[prod_short](includes/prod_short.md)], skal du konfigurere finansmodulet, før du konfigurerer anlægsaktiver. Hvordan du gør dette afhænger af, om anlægsaktiverne er integreret med regnskabet.  
 
@@ -87,14 +87,14 @@ Følgende fremgangsmåde bruges, hvis anlægstransaktioner skal bogføres til fi
 
 Hvis anlægsaktiverne ikke er integreret med finansposterne, skal du springe trin seks og otte over.
 
-## Sådan angives anlægslokationskoder (valgfrit)
+## <a name="to-set-up-fixed-asset-location-codes-optional"></a>Sådan angives anlægslokationskoder (valgfrit)
 
 Lokationskoder for anlægsaktiver definerer identifikation for anlæggets lokation, f.eks. salgsafdelingen, receptionen, administrationen, produktionen eller lagerstedet. Du kan bruge dem til at registrere et anlægs lokation. Disse oplysninger er nyttige i forbindelse med forsikring og lagerstedet.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægslokationer**, og vælg derefter det relaterede link.
 2. Angiv koder og navne for de anlægslokationer, du vil oprette.
 
-## Sådan defineres allokeringsnøgler for anlægsaktiver (valgfrit)
+## <a name="to-set-up-fixed-asset-allocation-keys-optional"></a>Sådan defineres allokeringsnøgler for anlægsaktiver (valgfrit)
 
 Brug allokeringsnøgler til at allokere transaktioner på forskellige afdelinger eller projekter. Du kan f.eks. definere en allokeringsnøgle til at allokere afskrivningerne på køretøjer med 35 procent til administrationsafdelingen og 65 procent til salgsafdelingen. Du kan finde flere oplysninger i [Fordele omkostninger og indtægter](year-allocate-costs-income.md).
 
@@ -105,7 +105,7 @@ Allokeringsnøgler gælder for anlægsarter og ikke for de enkelte anlægsaktive
 3. På siden **Anlægsallokeringer** skal du udfylde felterne efter behov.
 4. Gentag trin 2 og 3 for hver bogføringstype, du vil definere allokeringsnøgler for.
 
-## Sådan defineres anlægsomposteringskladdenavne (valgfrit)
+## <a name="to-set-up-fixed-asset-journal-batches-optional"></a>Sådan defineres anlægsomposteringskladdenavne (valgfrit)
 
 Du kan angive flere kladdenavne, som er individuelle kladder for hver kladdetype. En medarbejder kan f.eks. have sin egen kladde, hvor medarbejderens initialer anvendes som kladdenavn. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).  
 
@@ -113,14 +113,14 @@ Du kan angive flere kladdenavne, som er individuelle kladder for hver kladdetype
 2. Markér den relevante kladdetype, og vælg derefter handlingen **Navne**.
 3. På siden **Anlægskladdenavne** skal du udfylde felterne efter behov.
 
-## Sådan defineres anlægsomposteringskladdetyper (valgfrit)
+## <a name="to-set-up-fixed-asset-reclassification-journal-templates-optional"></a>Sådan defineres anlægsomposteringskladdetyper (valgfrit)
 
 Brug dedikerede omposteringskladder til at overføre, opdele eller kombinere anlægsaktiver. [!INCLUDE[prod_short](includes/prod_short.md)] opretter automatisk en anlægsomposteringskladdetype, første gang du åbner siden **Anlægsompost.kladde**, men du kan definere andre omposteringskladdetyper. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Anlægsompost.kladdetype**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 
-## Sådan defineres anlægsomposteringskladdenavne (valgfrit)
+## <a name="to-set-up-fixed-asset-reclassification-journal-batches-optional"></a>Sådan defineres anlægsomposteringskladdenavne (valgfrit)
 
 Du kan angive flere kladdenavne, som er individuelle kladder for hver omposteringskladdetype. En medarbejder kan f.eks. have sin egen omposteringskladde, hvor medarbejderens initialer anvendes som omposteringskladdenavn. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).
 
@@ -128,7 +128,7 @@ Du kan angive flere kladdenavne, som er individuelle kladder for hver omposterin
 2. Markér den relevante kladdetype, og vælg derefter handlingen **Navne**.
 3. På siden **Anlægsompost.kld.navne** skal du udfylde felterne efter behov.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Opsætning af Anlægsaktiver](fa-setup.md)  
 [Oversigt over anlægsaktiver](fa-manage.md)  

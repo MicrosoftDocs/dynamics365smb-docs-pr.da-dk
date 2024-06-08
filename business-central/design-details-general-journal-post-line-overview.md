@@ -9,13 +9,13 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Oversigt over bogføringslinje i finanskladde
+# <a name="general-journal-post-line-overview"></a>Oversigt over bogføringslinje i finanskladde
 
 Codeunit 12 **Finanskladde-Bogføringslinje** er det vigtigste udligningsobjekt til finansbogføring og er det eneste sted at indsætte finans-, moms- og debitor-og kreditorposter. Denne codeunit bruges også til alle handlinger med Udlign, Annuller udligning og Tilbagefør.  
   
 I Microsoft Dynamics NAV 2013 R2 blev codeunit omdesignet, fordi den er blevet meget stor med ca. 7.600-kodelinjer. Med denne version af er arkitekturen ændret, og codeunit er gjort enklere og nemmere at vedligeholde. Denne dokumentation beskriver ændringerne og oplysninger, du skal bruge til opgradering.  
   
-## Gammel arkitektur  
+## <a name="old-architecture"></a>Gammel arkitektur
 Den gamle arkitektur havde følgende funktioner:  
   
 * Der var omfattende brug af globale variabler, som øgede risikoen for skjulte fejl pga. brug af variabler med det forkerte område.  
@@ -26,7 +26,7 @@ Den gamle arkitektur havde følgende funktioner:
 * En stor del af koden i codeunit 12, ca. 30 procent, der vedrører kontantrabat og toleranceberegninger, selvom disse funktioner ikke er nødvendige i mange lande eller områder.  
 * Bogføring, Udlign, Annuller udligning, Tilbagefør, Kontantrabat og Tolerance samt Valutakursregulering blev samlet i codeunit 12 ved hjælp af en lang liste af globale variabler.  
   
-### Ny arkitektur  
+### <a name="new-architecture"></a>Ny arkitektur
 I [!INCLUDE[prod_short](includes/prod_short.md)] har codeunit 12 følgende forbedringer:  
   
 * Codeunit 12 er blevet inddelt i mindre procedurer (alle under 100 kodelinjer).  
@@ -36,7 +36,7 @@ I [!INCLUDE[prod_short](includes/prod_short.md)] har codeunit 12 følgende forbe
 * Mange hjælpefunktioner, der er overført til tilsvarende debitor- og kreditorposttabeller.  
 * Brug af globale variabler er blevet minimeret, så hver enkelt procedure bruger parametre og indkapsler sin egen programlogik.  
   
-## Se også
+## <a name="see-also"></a>Se også
 
 [Designoplysninger: Bogføring af grænsefladestruktur](design-details-posting-interface-structure.md)  
 [Designoplysninger: Bogføringsprogramstruktur](design-details-posting-engine-structure.md)  

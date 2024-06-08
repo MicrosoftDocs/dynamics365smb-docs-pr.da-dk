@@ -9,7 +9,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gennemgang af forretningsprocesser
+# <a name="business-process-walkthroughs"></a>Gennemgang af forretningsprocesser
 
 Dette udvalg af gennemgange giver trinvise komplette forretningsprocesser, som du kan udføre ved hjælp af demovirksomheden CRONUS. Gennemgangene består af flere procedurer, hvoraf nogle normalt udføres af én bruger, mens andre indføjer flere forskellige brugerroller. Med henblik på at simulere arbejdsmiljøet, indeholder nogle af gennemgangene installationstrin, der er nødvendige for at gennemføre øvelserne som beskrevet. Disse trin kan give indblik i, hvilken type oplysninger brugerne skal dele med deres virksomheds it-teknikere.  
 
@@ -35,7 +35,7 @@ Dette udvalg af gennemgange giver trinvise komplette forretningsprocesser, som d
 <!-- |Put received items away in advanced warehouse configurations. **Requires complete sample data**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|   -->
 <!-- |Perform defects management. **Requires complete sample data** |[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)| -->
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
