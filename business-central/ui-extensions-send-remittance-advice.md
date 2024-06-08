@@ -9,7 +9,7 @@ ms.date: 07/06/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="send-remittance-advice"></a>Send remitteringsadvis
+# Send remitteringsadvis
 
 Når der anvendes remitteringsadvis til at underrette kreditorerne om betalinger, kan du nu sende mails med flere remitteringsadviser fra udbetalingskladden og sende igen, når der er foretaget betalinger fra kreditorposter, ved hjælp af dokumentafsendelsesprofiler.
 
@@ -21,7 +21,7 @@ Du kan sende remitteringsadvis på to forskellige måder:
 * På siden **Udbetalingskladde** skal du vælge **Relaterede**, **Betalinger**, **Send remitteringsadvis** for at maile remitteringsadvis til en eller flere udbetalingskladdelinjer
 * På siden **Kreditorposter** skal du vælge **Handlinger**, **Funktioner** og **Send remitteringsadvis** for at sende mails med remitteringsadvis efter bogføring af kreditorbetalinger for én eller flere kreditorposter
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Lav forslag](payables-how-suggest-vendor-payments.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  

@@ -10,7 +10,7 @@ ms.date: 03/27/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-workflows-from-workflow-templates"></a>Oprette workflows ud fra workflowskabeloner
+# Oprette workflows ud fra workflowskabeloner
 
 På siden **Workflow** opretter du et workflow ved at oprette en serie af workflowtrin på linjerne. Hvert trin består af en workflowhændelse (Når hændelse), begrænset af hændelsesbetingelser (På betingelse) og et workflowsvar (Så svar), begrænset af svarmuligheder. Felterne på workflowlinjer indeholder faste lister med hændelses- og svarværdier, der repræsenterer de scenarier, som [!INCLUDE [prod_short](includes/prod_short.md)] understøtter. Flere oplysninger i [Oprette workflows](across-how-to-create-workflows.md).
 
@@ -25,7 +25,7 @@ Hvis du ændrer en arbejdsprocesskabelon, men senere fortryder ændringen, skal 
 
 Du kan også hurtigt oprette en arbejdsproces ved at importere den, f.eks. hvis du har eksporteret den fra en anden forekomst af [!INCLUDE[prod_short](includes/prod_short.md)]. Flere oplysninger under [Eksport og import af workflows](across-how-to-export-and-import-workflows.md).  
 
-## <a name="to-create-a-workflow-from-a-workflow-template"></a>Sådan opretter du fra et workflow ud fra en workflowskabelon
+## Sådan opretter du fra et workflow ud fra en workflowskabelon
 
 1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Workflows**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Nyt workflow fra skabelon**. Siden **Workflowskabeloner** åbnes.  
@@ -34,7 +34,7 @@ Du kan også hurtigt oprette en arbejdsproces ved at importere den, f.eks. hvis 
    Siden **Workflow** åbnes for et nyt workflow, der indeholder alle oplysninger fra den valgte skabelon. Værdien i feltet **Kode** er udvidet med f.eks. "-01" for at angive, at dette er det første workflow, som oprettes ud fra workflowskabelonen.  
 4. Tilpas workflowet ved at redigere workflowtrinene eller tilføje nye trin. Flere oplysninger i [Oprette workflows](across-how-to-create-workflows.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprette godkendelsesworkflows](across-how-to-create-workflows.md)  
 [Eksportere og importere godkendelsesworkflows](across-how-to-export-and-import-workflows.md)  

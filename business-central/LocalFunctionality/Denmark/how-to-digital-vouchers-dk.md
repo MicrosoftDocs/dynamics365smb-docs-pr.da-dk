@@ -11,7 +11,7 @@ ms.date: 11/17/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-digital-vouchers-in-denmark"></a>Opsæt digitale bilag i Danmark
+# Opsæt digitale bilag i Danmark
 
 Administratorer kan bruge digital voucher-funktionalitet til at kræve, at dokumenter er knyttet til specifikke transaktioner, når de bogføres. Derfor giver denne funktionalitet mulighed for en kildedrevet tilgang og giver et bedre revisionsspor. Forskellige former for håndhævelse kan konfigureres til dette formål, afhængigt af dokumenter eller journaltyper.
 
@@ -20,7 +20,7 @@ Udtrykket *digitalt bilag* henviser til en digital eller elektronisk form for et
 > [!IMPORTANT]
 > Fra 1. juli 2024 vil denne funktion være aktiveret som standard i Danmark. Du vil derefter være begrænset fra at foretage yderligere konfiguration af købs- og salgsdokumenter. Denne begrænsning vil gælde, fordi den nye bogføringslov pålægger specifikke opsætninger, hvor du skal vedlægge minimumsbilag til købs- og salgsbilag. Før denne dato kan du aktivere denne funktion i **Funktionsstyring**.  
 
-## <a name="set-up-digital-vouchers"></a>Opsætte digitale bilag
+## Opsætte digitale bilag
 
 Du kan bruge forskellige opsætninger til følgende dokumenter og journaler.
 
@@ -40,7 +40,7 @@ Følg disse trin for at definere, hvordan din organisation bruger tvungne digita
 4. Vælg **Generer automatisk**-afkrydsningsfeltet for at generere den digitale voucher automatisk. For eksempel, hvis du ikke manuelt vil tilføje en salgsfaktura til din transaktion, skal du markere dette afkrydsningsfelt. Så skal du bare sende dokumentet. Systemet opretter automatisk dokumentet, baseret på dit rapportlayout, og vedhæfter det til transaktionen.
 5. Vælg **Spring over hvis tilføjet manuelt**-afkrydsningsfeltet, hvis du ikke ønsker at tilføje en automatisk genereret digital voucher, hvis brugeren allerede har tilføjet en manuel vedhæftning.
 
-### <a name="use-source-codes-for-setup"></a>Brug kildekoder til opsætning
+### Brug kildekoder til opsætning
 
 For at bruge håndhævelse for kladder, men ikke for alle transaktionstyper, skal du forbinde den specifikke kildekode for at identificere posteringstypen den generelle kladde, salgskladde eller indkøbskladde.
 
@@ -51,9 +51,9 @@ Følg denne vejledning for at konfigurere specifikke kildekoder til digitale vou
 3. Vælg de kildekoder, du vil konfigurere.
 4. Luk siden.
 
-## <a name="use-the-functionality"></a>Bruge funktionaliteten
+## Bruge funktionaliteten
 
-### <a name="purchase-documents"></a>Købsdokumenter
+### Købsdokumenter
 
 Åbn et af købsdokumenterne, og indstil de påkrævede felter. Før du bogfører dokumentet, skal du følge disse trin for at tilføje en digital voucher.
 
@@ -62,7 +62,7 @@ Følg denne vejledning for at konfigurere specifikke kildekoder til digitale vou
 
 Dokumentet vedhæftes faktaboksen **Indgående bilagspost**. For hver linje kan du finde dokumentets navn og type.
 
-### <a name="sales-documents"></a>Salgsdokumenter
+### Salgsdokumenter
 
 Åbn et af salgsdokumenterne, og indstil de påkrævede felter. For salgsdokumenter behøver du ikke at vedhæfte et dokument manuelt. Systemet opretter automatisk en vedhæftet fil, baseret på dit salgsdokumentlayout. Når du har bogført dokumentet, kan du finde den automatisk oprettede og vedhæftede voucher, der er baseret på din rapport.
 
@@ -72,13 +72,13 @@ Dokumentet vedhæftes faktaboksen **Indgående bilagspost**. For hver linje kan 
 > [!NOTE]
 > Hvis vedhæftning af et digitalt bilag er konfigureret som obligatorisk, og du forsøger at bogføre dokumenter eller kladder uden at vedhæfte et bilag, forhindrer systemet dig i at bogføre. Du får følgende fejlmeddelelse: "Ikke muligt at bogføre uden at vedhæfte den digitale voucher."
 
-### <a name="find-attached-vouchers-in-transactions"></a>Find vedhæftede værdibeviser i transaktioner
+### Find vedhæftede værdibeviser i transaktioner
 
 Du kan finde den vedhæftede fil fra det bogførte dokument eller fra siden **General Bogføring** ved at se i faktaboksen **Indgående dokumentfiler**.
 
 Du kan ikke slette et vedhæftet dokument, efter at bogføringen er afsluttet. Du kan dog tilføje flere vedhæftede filer, efter at indlægget er afsluttet.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Økonomistyring](../../finance.md)  
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  

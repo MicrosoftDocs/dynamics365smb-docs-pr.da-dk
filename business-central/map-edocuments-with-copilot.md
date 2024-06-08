@@ -12,7 +12,7 @@ ms.date: 04/10/2024
 ms.custom: bap-template
 ---
 
-# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>Knytte e-dokumenter til købsordrelinjer med Copilot (forhåndsversion)
+# Knytte e-dokumenter til købsordrelinjer med Copilot (forhåndsversion)
 
 Efterhånden som indkøbsprocesserne bliver mere digitale, spiller e-dokumentfunktionen i Business Central en central rolle i automatiseringen af modtagelsen og behandlingen af kreditorfakturaer. Copilot kan hjælpe med denne proces ved at forbedre tilknytningen og matchningen af kreditorfakturaer med købsordrer. Dette reducerer tidskrævende opgaver, der normalt ville indbefatte omfattende søgning, opslag og dataindtastning. Fordelen bliver større af det faktum, at kreditorfakturaer ofte ikke relateret præcist til indkøbsordrer, i hvilket tilfælde Copilot er bedre til at identificere de tilsvarende indkøbsordrer. Forbedrede matchingsfunktioner gavner især små og mellemstore organisationer, der har brug for effektiv dokumentsporing for indkøbsordrelinjer. Copilot er den AI-drevne assistent til arbejde, der øger kreativiteten og forbedrer produktiviteten for Business Central-brugere.
 
@@ -30,7 +30,7 @@ Du kan nu opdatere en eksisterende indkøbsordre i Business Central med de oplys
 > - This feature is available as a production-ready preview for production and sandbox environments in any country localization, with the exception of Canada. Production-ready previews are subject to supplemental terms of use. For more information, see [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2105274).
 > - AI-generated content may be incorrect.-->
 
-## <a name="to-activate-copilot"></a>Sådan aktiveres Copilot
+## Sådan aktiveres Copilot  
 
 Hvis du ikke aktiverede **Hjælp til matchning af e-dokumenter** Copilot, skal du gøre det manuelt. Følg trinene for at aktivere copiloten **Hjælp til matchning af e-dokumenter**: 
 
@@ -39,7 +39,7 @@ Hvis du ikke aktiverede **Hjælp til matchning af e-dokumenter** Copilot, skal d
 
 Du kan begynde at bruge Copilot, så snart den er aktiveret. 
 
-## <a name="identify-purchase-orders"></a>Identificere købsordrer
+## Identificere købsordrer
 
 Først kan du identificere de købsordrer, som du kan matche automatisk. Hvis din **leverandør** har konfigureret feltet **Modtag e-dokument** til at arbejde med **Købsordrer**, skal du gøre følgende, når det elektroniske dokument er oprettet i [!INCLUDE[prod_short](includes/prod_short.md)] (manuelt eller fra et eksternt slutpunkt) [!INCLUDE[prod_short](includes/prod_short.md)]:
 
@@ -47,7 +47,7 @@ Først kan du identificere de købsordrer, som du kan matche automatisk. Hvis di
 Dette link vil være synligt i feltet **Dokument** på dette specifikke **e-dokument**. Hvis du har brug for at ændre den **købsordre**, der er tilknyttet automatisk, kan du gøre det ved at udføre handlingen **Opdater købsordrelink** og manuelt vælge en af de eksisterende købsordrer for denne leverandør. Du kan kun gøre det, før linjerne mellem **E-dokument** og **købsordre** er matchet.  
 2. Hvis **indkøbsordren** for denne bestemte leverandør *findes, men der ikke er et indkøbsordrenummer* i filen til modtagelse af **e-dokument**-filen, hvis du har overført dette dokument manuelt, kan [!INCLUDE[prod_short](includes/prod_short.md)] give mulighed for at vælge en af eksisterende indkøbsordrer, når du åbner listen **Indkøbsordrer** fra de ordrer, du har modtaget fra leverandører, der kun indeholder **E-dokument**, hvor du kan vælge den **Købsordre**, du vil bruge, og vælge **OK**. Hvis du ikke har valgt den rigtige **Købsordre**, eller du automatisk har hentet **e-dokumentet** fra et eksternt slutpunkt ved hjælp af **opgavekøen**, vil det nye **e-dokument** ikke blive knyttet til noget købsdokument, og **Dokumentstatus** vil være **Fejl**, og **E-dokumentstatus** på undersiden **Servicestatus** vil være **Importeret dokumentbehandlingsfejl**. Hvis tilknytningen til **købsordren** er afsluttet, skal du vælge handlingen **Opdater link til købsordre** og vælge en af de eksisterende købsordrer for denne leverandør.  
 
-## <a name="map-lines"></a>Tilknytte linjer
+## Tilknytte linjer
 
 Copilot hjælper dig med automatisk at matche e-fakturalinjer med indkøbsordrelinjer og tilbyder ekstra matchende intelligens for at forbedre matchene.
 
@@ -101,7 +101,7 @@ Når du vil køre matchning fra købsordren, skal du vælge handlingen **Tilknyt
 > [!NOTE]
 > Analyse af pris/omkostninger og kontrol af tilgængeligt antal er en del af forbehandlingen. 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversigt over e-dokumenter](finance-edocuments-overview.md)    
 [Brug e-dokumenter i salg](finance-how-use-edocuments.md)    

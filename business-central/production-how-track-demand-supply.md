@@ -9,13 +9,13 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="track-relations-between-demand-and-supply"></a>Spore relationer mellem behov og forsyning
+# Spore relationer mellem behov og forsyning
 
 Fra ethvert forsynings- eller behovsdokument i det såkaldte ordrenetværk, kan du spore ordrebehov (sporet antal), forecast, rammesalgsordre eller planlægningsparameter (ikkesporet antal), der er årsag til den pågældende planlægningslinje.
 
 Planlægningskladderne indeholder også yderligere planlægningsoplysninger om ikke-ordreenheder for at hjælpe planlæggeren med at opnå den optimale forsyningsplan. Du kan finde flere oplysninger i [Ikke-sporede planlægningselementer](production-how-track-demand-supply.md#untracked-planning-elements).
 
-## <a name="to-track-linked-items"></a>Sådan spores tilknyttede varer
+## Sådan spores tilknyttede varer
 Ordresporing viser, hvordan salgsordrer, produktionsordrer og købsordrer er relaterede til produktionsordrer via planlægnings- og reservationssystemerne.
 
 Nedenstående beskrives, hvordan tilknyttede varer spores på en fastlagt produktionsordre. Trinene er de samme for alle andre typer og i forbindelse med planlægningskladdelinjer.
@@ -26,7 +26,7 @@ Nedenstående beskrives, hvordan tilknyttede varer spores på en fastlagt produk
 
 På linjerne i vinduet **Ordresporing** vises de bilag, der har relation til den aktuelle produktionsordrelinje.
 
-## <a name="untracked-planning-elements"></a>Ikke-sporede planlægningselementer
+## Ikke-sporede planlægningselementer
 Siden **Ikke-sporede planlægningselementer** åbnes, når du klikker på feltet **Ikke-sporet antal** på siden **Ordreplanlægning**. Det tjener to formål:
 
 1. Indeholde oplysninger om ikke-sporet antal, der vises, når brugeren slår op fra siden Ordresporing for at få vist ikke-sporede antal.
@@ -45,7 +45,7 @@ Siden indeholder poster for ikke-sporet overskud i ordresporingsnetværket. Diss
 - Oprundingsfaktor
 - Aktionsgrænse (% af lotstr.)
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Planlægning](production-planning.md)   
 [Konfigurere produktion](production-configure-production-processes.md)  
 [Produktion](production-manage-manufacturing.md)    

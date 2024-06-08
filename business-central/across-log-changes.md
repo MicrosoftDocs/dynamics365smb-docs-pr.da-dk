@@ -11,11 +11,11 @@ ms.date: 05/03/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="auditing-changes"></a>Overvåge ændringer
+# Overvåge ændringer
 
 En almindelig udfordring i mange forretningsstyringsprogrammer vil undgå uønskede ændringer i data. Det kan være alt fra et forkert kundetelefonnummer til en forkert postering i regnskabet. I denne artikel beskrives mulighederne for at finde ud af, hvad der er ændret, hvem der ændrede det, og hvornår ændringen blev foretaget.
 
-## <a name="about-the-change-log"></a>Om ændringslog
+## Om ændringslog
 
 Du kan bruge funktionaliteten i ændringsloggen til at spore alle direkte modifikationer, som en bruger foretager af data i databasen. Du skal for hver tabel og hvert felt angive, hvad der skal registreres i loggen. Derefter skal du aktivere ændringsloggen. Ændringsloggen er baseret på ændringer, der er foretaget i de tabeller, som du sporer. På siden **Ændringslogposter** registreres posterne i kronologisk rækkefølge og viser de ændringer, der er foretaget i værdierne i felterne på de angivne tabeller.
 
@@ -37,7 +37,7 @@ Af hensyn til ydeevnen er ændringsloggen deaktiveret under opgradering af [!INC
 > - Brugeren har valgt et andet regnskab eller Rollecenter.
 > - Bruger har logget af og på igen.
 
-## <a name="setting-up-the-change-log"></a>Indstilling af ændringsloggen
+## Indstilling af ændringsloggen
 
 Du aktiverer og deaktiverer ændringsloggen på siden **Opsætning af ændringslog**. Når du gør det, logføres aktiviteten, så du altid kan se, hvem der har foretaget ændringen.
 
@@ -48,11 +48,11 @@ Hvis du på siden **Opsætning af ændringslog** vælger handlingen **Tabeller**
 
 Når du har konfigureret ændringsloggen, aktiveret den og ændret data, kan du få vist og filtrere ændringerne på siden **Ændringslogposter**. Hvis du vil slette poster, skal du oprette en opbevaringspolitik, hvor du kan angive filtre, der er baseret på datoer og klokkeslæt. Du kan få mere at vide om opbevaringspolitikker i [Definere opbevaringspolitikker](admin-data-retention-policies.md).  
 
-## <a name="analyze-data-in-the-change-log"></a>Analysere data i ændringsloggen
+## Analysere data i ændringsloggen
 
 Du kan bruge funktionen **Dataanalyse** til at analysere data i ændringsloggen fra siden [Ændringslogposter](https://businesscentral.dynamics.com/?page=595). Du behøver ikke at køre en rapport eller åbne et andet program, f.eks. Excel. Funktionen indeholder en interaktiv og alsidig måde at beregne, opsummere og gennemgå data på. I stedet for at køre rapporter med indstillinger og filtre kan du tilføje flere faner, der repræsenterer forskellige opgaver eller visninger på dataene. Nogle eksempler er "Hvem ændrede hvilke data og hvornår" eller "Data ændres efter tabel/felt" eller enhver anden visning, du kan forestille dig. Du kan få mere at vide om, hvordan du bruger funktionen **Dataanalyse** ved at gå til [Analysér liste og forespørge på data med analysetilstand](analysis-mode.md).
 
-### <a name="change-log-ad-hoc-analysis-scenarios"></a>Ændre log ad hoc-analysescenarier
+### Ændre log ad hoc-analysescenarier
 
 Følgende afsnit indeholder eksempler på scenarier, hvor analyse af ændringsloggen kan hjælpe dig med at overvåge og registrere vigtige ændringer.
 
@@ -61,7 +61,7 @@ Følgende afsnit indeholder eksempler på scenarier, hvor analyse af ændringslo
 | [Hvem ændrede hvilke data og hvornår](#example-who-changed-what-data-and-when) | Se, hvem ændrede hvilke data. | [Ændringslogposter](https://businesscentral.dynamics.com/?page=595) | **Bruger-id**, **Dato og klokkeslæt**, **Tabeltitel**, **Felttekst**, **Primær nøgleværdi 2**, **Primær nøgleværdi 3**, **Ændringstype**, **Gammel værdi** og **Ny værdi**. |
 | [Dataændringer efter tabel/felt](#example-data-changes-by-tablefield) | Se dataændringer efter tabel/felt, og hvem der har foretaget ændringen. | [Ændringslogposter](https://businesscentral.dynamics.com/?page=595) | **Tabeltitel**, **Felttitel**, **Bruger-id**, **Dato og klokkeslæt**, **Primær nøgleværdi 2**, **Primær nøgleværdi 3**, **Ændringstype**, **Gammel værdi** og **Ny værdi**. |
 
-### <a name="example-who-changed-what-data-and-when"></a>Eksempel: Hvem ændrede hvilke data og hvornår
+### Eksempel: Hvem ændrede hvilke data og hvornår
 
 Følg disse trin for at analysere, hvem der har ændret hvilke data hvornår:
 
@@ -82,7 +82,7 @@ Følgende billede viser resultatet af disse trin.
 
 :::image type="content" source=" media/data-analysis-change-log-entries-Who-changed-What-data-When.png" alt-text="Eksempel på, hvordan du udfører dataanalyse på siden Ændringslogposter (Hvem har ændret hvilke data hvornår)." lightbox="media/data-analysis-change-log-entries-Who-changed-What-data-When.png":::
 
-### <a name="example-data-changes-by-tablefield"></a>Eksempel: dataændringer efter tabel/felt
+### Eksempel: dataændringer efter tabel/felt
 
 Følg disse trin for at analysere dataændringer efter tabel/felt:
 
@@ -102,22 +102,22 @@ Følgende billede viser resultatet af disse trin.
 
 :::image type="content" source=" media/data-analysis-change-log-entries-data-changes-by-table-field.png" alt-text="Eksempel på, hvordan du udfører dataanalyse på siden Ændringslogposter (dataændringer efter tabel/felt)." lightbox="media/data-analysis-change-log-entries-data-changes-by-table-field.png":::
 
-## <a name="about-activity-logs"></a>Om aktivitetslogfiler
+## Om aktivitetslogfiler
 
 Fra nogle sider i [!INCLUDE [prod_short](includes/prod_short.md)] kan du få vist en aktivitetslog, der viser status og eventuelle fejl i filer, som du eksporterer fra eller importerer til [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-### <a name="work-with-activity-logs"></a>Arbejde med aktivitetslogfiler
+### Arbejde med aktivitetslogfiler
 
 Oplysningerne vises på siden **Aktivitetslog** i overensstemmelse med den kontekst, de åbnes fra. Du kan f.eks. åbne siden fra siderne **Opsætning af dokumentudvekslingstjeneste**, **Indgående bilag**, **Bogført salgsfaktura** og **Bogført salgskreditnota**. Du kan tømme listen med logposter eller blot rydde oversigten over poster, der er ældre end syv dage.  
 
-## <a name="monitor-sensitive-fields"></a>Overvåge følsomme felter
+## Overvåge følsomme felter
 
 Det er vigtigt for de fleste virksomheder at holde følsomme data sikre og private. Hvis du vil tilføje et sikkerhedslag, kan du overvåge vigtige felter og få besked pr. e-mail, når nogen ændrer en værdi. Du kan f.eks. få besked, hvis nogen ændrer virksomhedens IBAN-nummer.
 
 > [!NOTE]
 > Hvis du sender meddelelser via e-mail, kræver det, at du konfigurerer e-mail-funktionen i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Konfigurer mail](admin-how-setup-email.md).
 
-### <a name="set-up-field-monitoring"></a>Konfigurer feltovervågning
+### Konfigurer feltovervågning
 
 Du kan bruge installationsprogrammet **Overvågning af klargøring af feltovervågning** til at angive de felter, der skal overvåges, på basis af filterkriterier, f.eks. klassificeringen af data følsomhed for felterne. Du kan finde flere oplysninger i [Klassificere datafølsomhed](admin-classifying-data-sensitivity.md). Du kan også bruge vejledningen til at angive den person, der skal modtage en e-mail-notifikation, når der sker ændringer, og den e-mail-konto, der sender besked-e-mailen. Angiv både brugermeddelelsen og den konto, som du vil sende notifikationen fra. Når du er færdig med guiden, kan du administrere indstillingerne for feltovervågning på siden **Opsætning af feltovervågning**.
 
@@ -133,7 +133,7 @@ Du kan administrere indstillingerne for felt overvågning, f.eks. om der skal se
 > [!NOTE]
 > Når du har tilføjet et eller flere felter og startet overvågning, skal du logge af [!INCLUDE[prod_short](includes/prod_short.md)] og logge på igen for at anvende dine indstillinger.
 
-### <a name="work-with-field-monitoring"></a>Arbejde med feltovervågning
+### Arbejde med feltovervågning
 
 Alle ændrede værdier for overvågede felter er tilgængelige på siden over **Overvågning af feltlogposter**. Indtast følgende oplysninger til dette eksempel:
 
@@ -143,18 +143,18 @@ Alle ændrede værdier for overvågede felter er tilgængelige på siden over **
 
 Hvis du vil undersøge en ændring, skal du vælge en værdi for at åbne den side, hvor den blev oprettet. Hvis du vil have vist en liste over alle poster, skal du vælge **Feltændringsposter**.
 
-### <a name="view-field-monitoring-telemetry"></a>Vise feltovervågningstelemetri
+### Vise feltovervågningstelemetri
 
 Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til at sende feltovervågningsaktivitet til en Application Insights-ressource i Microsoft Azure. Derefter kan du bruge Azure Monitor til at oprette rapporter og konfigurere påmindelser i de indsamlede data. Du kan finde flere oplysninger i følgende artikler i [!INCLUDE[prod_short](includes/prod_short.md)] hjælp til udviklere og it-eksperter:
 
 - [Overvåge og analysere telemetri - aktivere Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview?toc=/dynamics365/business-central/toc.json#enable)
 - [Analysere feltovervågningstelemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace?toc=/dynamics365/business-central/toc.json)
 
-## <a name="define-retention-policies"></a>Definere opbevaringspolitikker
+## Definere opbevaringspolitikker
 
 Du kan oprette opbevaringspolitikker for at slette unødvendige data i loggen efter en bestemt periode, du har angivet. Du kan f.eks. overskride antallet af poster i en log. Ved at rydde op i gamle poster kan du gøre det nemmere at fokusere på mere end nylig og dermed mere relevante poster. Du kan få mere at vide om opbevaringspolitikker i [Definere opbevaringspolitikker](admin-data-retention-policies.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Overvåge følsomme felter](across-log-changes.md#monitor-sensitive-fields)  
 [Analysere feltovervågningstelemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace?toc=/dynamics365/business-central/toc.json)  
