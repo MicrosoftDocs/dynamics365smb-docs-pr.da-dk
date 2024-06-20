@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Konfigurere elektronisk fakturering i NemHandel
+# <a name="set-up-electronic-invoicing-with-nemhandel"></a>Konfigurere elektronisk fakturering i NemHandel
 
 I Danmark kan du konfigurere dit e-fakturasystem til at fungere med NemHandel ved at bruge tredjeparts certificerede adgangspunkter. Før du begynder, skal du læse om, hvordan du kan [bruge e-dokumenter med eksterne tjenester](../../finance-how-setup-edocuments-external.md), og lav en kontrakt med en af ​​de understøttede eksterne certificerede adgangspunktudbydere.
 
@@ -25,7 +25,7 @@ Før du starter opsætningen, skal du åbne **Udvidelsesstyring**-siden, og kont
 
 I Dansk E-Dokumenter funktionalitet kan du vælge OIOUBL og PEPPOL BIS 3 som dokumentformater i **E-dokumenttjenester**.
 
-## E-dokumenttjenester-opsætning
+## <a name="e-document-services-setup"></a>E-dokumenttjenester-opsætning
 
 Hvis du vil konfigurere services, skal du udføre følgende trin:
 
@@ -46,7 +46,7 @@ Hvis du vil konfigurere services, skal du udføre følgende trin:
 
 For at konfigurere arbejdsgange, kunder og leverandører, se [Sådan konfigureres E-Documents](../../finance-how-setup-edocuments.md) og [Indstil E-Documents-forbindelsen med eksterne slutpunkter](../../finance-how-setup-edocuments-external.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
 [Sådan konfigureres e-dokumenter i Business Central](../../finance-how-setup-edocuments.md)  

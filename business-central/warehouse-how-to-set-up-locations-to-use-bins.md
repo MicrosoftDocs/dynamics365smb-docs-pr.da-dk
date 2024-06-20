@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Oprette lokationer til brug af placeringer
+# <a name="set-up-locations-to-use-bins"></a>Oprette lokationer til brug af placeringer
 
 Placeringer repræsenterer den grundlæggende lagerstruktur og kan foreslå, hvor varer skal lægges på. Når du har oprettet placeringerne, kan du meget præcist definere deres indhold, eller de kan fungere som løs placering uden angivet indhold.
 
@@ -28,7 +28,7 @@ Det næste trin er at designe varestrømmen på placeringen ved at angive placer
 > [!NOTE]  
 > Du skal oprette placeringskoder, før du kan angive dem på en lokation. Du kan finde flere oplysninger i [Oprette placeringer](warehouse-how-to-create-individual-bins.md).  
 
-## Sådan konfigureres en lokation til at bruge placeringer
+## <a name="to-set-up-a-location-to-use-bins"></a>Sådan konfigureres en lokation til at bruge placeringer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.  
 2. Vælg den lokation, hvor du vil bruge placeringer.  
@@ -46,13 +46,13 @@ Det næste trin er at designe varestrømmen på placeringen ved at angive placer
 9. Eventuelt: Udfyld felterne i oversigtspanelet **Placeringspolitikker**. De vigtigste felter er **Placeringskap.regel**, **Tillad nedbrydning** og **Læg-på-lager-skabelonkode**.  
 10. Vælg oversigtspanelet **Lagersted**, og udfyld felterne **Udgående lagerekspeditionstid**, **Indgående lagerekspeditionstid** og **Basiskalenderkode**. Du kan finde flere oplysninger i [Oprette basiskalendere](across-how-to-assign-base-calendars.md).
 
-## Udfylde forbrugsplaceringen
+## <a name="fill-in-the-consumption-bin"></a>Udfylde forbrugsplaceringen
 
 Følgende flow-diagram viser, hvordan feltet **Placeringskode** i produktionsordrekomponenter udfyldes i henhold til din lokationsopsætning.
 
 :::image type="content" source="media/binflow.png" alt-text="Placeringskodefeltet på produktionsordrekomponentlinjerne.":::
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

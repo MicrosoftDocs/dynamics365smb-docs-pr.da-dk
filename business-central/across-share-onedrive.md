@@ -9,7 +9,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Åbning og deling af Business Central-filer i Microsoft OneDrive
+# <a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a>Åbning og deling af Business Central-filer i Microsoft OneDrive
 
 [!INCLUDE[prod_short](includes/prod_short.md)] gør det nemt at gemme, administrere og dele filer med andre personer via Microsoft OneDrive for Business. På de fleste sider, hvor filer er tilgængelige, som f.eks. Rapportindbakke, eller når filer er vedhæftet poster, finder du **Åbn i OneDrive**- og **Del**-handlinger.
 
@@ -20,7 +20,7 @@ ms.reviewer: jswymer
 :::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="Handlingerne Åbn OneDrive, og del handlinger til vedhæftede filer":::
 
 
-## Åbne i OneDrive
+## <a name="open-in-onedrive"></a>Åbne i OneDrive
 
 Handlingen **Åbn i OneDrive** kopierer filen til din OneDrive og åbner filen i et program som f.eks. Microsoft Excel online, Microsoft Word online eller Microsoft PowerPoint online. 
 
@@ -32,7 +32,7 @@ Du kan bruge onlineversioner af disse programmer til at anmærke, redigere og sa
 
 I forbindelse med andre populære filtyper, f. eks. PDF-filer, tekstfiler og billeder, viser OneDrive filvisninger, som tilbyder funktioner til udskrivning, deling og mere. Hvis en fil ikke kan vises i OneDrive, kan du blive bedt om at hente den.
 
-## Fordeling
+## <a name="share"></a>Fordeling
 
 **Del**-handlingen kopierer filen til din OneDrive, så du kan se, hvem den allerede er delt med, og dele filen med andre personer. Når du vælger handlingen **Del**, åbnes følgende side.
 
@@ -54,7 +54,7 @@ Delings funktionen i Business Central er baseret på OneDrive. Du kan finde fler
 > [!NOTE]
 > Handlingen **Dele** er ikke tilgængelig i Business central-appen til mobilenheder.
 
-## Log på første gang fra Business central
+## <a name="first-time-sign-in-from-business-central"></a>Log på første gang fra Business central
 
 Når du bruger handlingen **Åbn i OneDrive** eller **Del** første gang, gør [!INCLUDE[prod_short](includes/prod_short.md)] følgende ting:
 
@@ -65,7 +65,7 @@ Når du bruger handlingen **Åbn i OneDrive** eller **Del** første gang, gør [
 
 Næste gang du bruger handlingen **Åbn i OneDrive** eller **Del**, kopierer og åbner [!INCLUDE[prod_short](includes/prod_short.md)] kun filen. 
 
-## Administrere flere kopier af en fil
+## <a name="managing-multiple-copies-of-a-file"></a>Administrere flere kopier af en fil
 
 Når du vælger **Åbn i OneDrive** eller **Del**, kopieres filen fra [!INCLUDE[prod_short](includes/prod_short.md)] til din mappe i OneDrive. Hvis du redigerer filen i OneDrive, vil filen være anderledes end [!INCLUDE[prod_short](includes/prod_short.md)]-filen. Hvis du vil opdatere [!INCLUDE[prod_short](includes/prod_short.md)] med den seneste filversion, skal du fjerne den eksisterende fil fra [!INCLUDE[prod_short](includes/prod_short.md)] og derefter overføre den seneste kopi.
 
@@ -83,7 +83,7 @@ Hvis der allerede findes en fil med dette navn i OneDrive, får du følgende mul
 
   Denne indstilling bevarer den eksisterende fil, som den er, og gemmer den fil, du har valgt i Business Central, under et andet navn. Det nye navn ligner det eksisterende navn, undtagen med et suffiksnummer, f.eks. "Varer (2).xlsx".
 
-## Om din Business Central-mappe på OneDrive
+## <a name="about-your-business-central-folder-on-onedrive"></a>Om din Business Central-mappe på OneDrive
 
 Mappen og dens indhold er private, indtil du beslutter dig for at dele dem med andre. Så du kan f.eks. beslutte at dele indhold med en eller flere af dine kolleger eller endda personer uden for organisationen. 
 
@@ -94,7 +94,7 @@ Du kan få adgang til OneDrive fra siden **Indstillinger** ved at klikke på hyp
 <!--## Extending the Connection to OneDrive
 You can create an extension and connect it to... For more information, see...-->
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Business Central og OneDrive-integration](across-onedrive-overview.md)  
 [Administration af OneDrive-integration med Business Central](admin-onedrive-integration.md)  

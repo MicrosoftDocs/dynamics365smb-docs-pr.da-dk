@@ -12,7 +12,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Udvidelser af skymigrering for migrering til Business Central Online
+# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Udvidelser af skymigrering for migrering til Business Central Online
 
 Afhængigt af løsningen i det lokale miljø, skal du bruge forskellige filtypenavne til at oprette forbindelse til dine data med [!INCLUDE[prod_short](includes/prod_short.md)] online for at kunne overflytte løsningen til skyen.  
 
@@ -20,22 +20,22 @@ Hvis du bruger et af de understøttede lokale produkter, kan du konfigurere dit 
 
 Du kan finde flere oplysninger i [Overførsel af lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrationsindholdet for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Business Central til det lokale miljø
+## <a name="business-central-on-premises"></a>Business Central til det lokale miljø
 
 Hvis du bruger en lokal installation af [!INCLUDE[prod_short](includes/prod_short.md)], skal du hente **Intelligent sky basis**-udvidelsen og **Intelligent sky i Business Central**-udvidelsen og derefter køre den assisterede opsætningsvejledning **Konfiguration af skymigrering**.  
 
-## Dynamics GP
+## <a name="dynamics-gp"></a>Dynamics GP
 
 Hvis du bruger Dynamics GP, skal du hente **Intelligent sky basisudvidelsen** og  **Dynamics GP Intelligent sky**-udvidelsen og derefter køre den assisterede opsætningsvejledning **Konfiguration af skymigrering**.  
 
 > [!IMPORTANT]
 > Overførsel fra Dynamics GP ved hjælp af vejledningen **Konfigurer skymigrering** som assisteret opsætning understøttes i øjeblikket kun på følgende markeder: USA, Canada, Storbritannien.
 
-## Dynamics SL
+## <a name="dynamics-sl"></a>Dynamics SL
 
 Hvis du bruger Dynamics SL, skal du hente udvidelsen **Intelligent cloudbase**, udvidelsen **Intelligent sky i Microsoft Dynamics SL** og udvidelsen **SmartLists for Microsoft Dynamics SL-historik** og derefter køre den assisterede opsætningsvejledning **Konfiguration af cloudmigrering**.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Udvidelser af skymigreringsbase](ui-extensions-intelligent-cloud.md)  
 [Overførsel af data i det lokale miljø til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  

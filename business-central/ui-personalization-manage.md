@@ -11,7 +11,7 @@ ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Tilpasse sider til profiler
+# <a name="customize-pages-for-profiles"></a>Tilpasse sider til profiler
 
 Business Central indeholder både [tilpasning](ui-personalization-user.md) for brugere og tilpasning for administratorer. Tilpasning giver brugerne mulighed for at skræddersy deres arbejdsområde ved at justere sidelayout, så de passer til deres egne præferencer. Administratorer kan tilpasse sidelayouts til en specifik profil i henhold til forretningsroller eller afdelinger, så alle de tildelte brugere kan se den tilpassede side. Mens tilpasning giver brugerne mulighed for at vise, skjule og flytte felter og handlinger på en side, giver tilpasning ekstra muligheder. Tilpasning giver dig f.eks. mulighed for at vise felter, der findes i sidens kildetabel eller udvidelsestabeller, men som ikke er defineret i sideobjektet – hvilket ikke er muligt at tilpasse dem.  <!--For more information, see [Personalize Your Workspace](ui-personalization-user.md).-->
 
@@ -22,13 +22,13 @@ Business Central indeholder både [tilpasning](ui-personalization-user.md) for b
 
 Sidetilpasningen begynder på siden **Profiler (roller)**, som er administratorens udgangspunkt for styring af brugerprofiler for individuelle profilkort. Ud over at tilpasse sidelayoutet kan du styre forskellige andre indstillinger for profiler på siden **Profil (rolle)** for hver profil. Du kan finde flere oplysninger i [Administrere profiler](admin-users-profiles-roles.md).
 
-## Forudsætninger
+## <a name="prerequisites"></a>Forudsætninger
 
 - Din Business Central-konto skal have angivet tilladelsen **D365-profilopsætningen** eller tilsvarende tilladelser. 
 
    Tilladelsessættet **D365-profilen Mgt.** omfatter kørselstilladelsen til systemobjektet **9026 Føj felt til tabel**. Hvis du ikke har denne tilladelse, har du ikke tilladelse til at tilføje felter på siden, medmindre de er defineret på sideobjektet. 
 
-## Tilpasse sider for en profil
+## <a name="customize-pages-for-a-profile"></a>Tilpasse sider for en profil
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Profiler (roller)**, og vælg derefter det relaterede link.
 2. Marker linjen for den profil, du vil tilpasse sider for, og vælg derefter handlingen **Rediger**.
@@ -46,7 +46,7 @@ Sidetilpasningen begynder på siden **Profiler (roller)**, som er administratore
 
 Tilpasningen af sider er nu registreret for profilen.
 
-## Vise alle tilpassede sider for en profil
+## <a name="view-all-customized-pages-for-a-profile"></a>Vise alle tilpassede sider for en profil
 
 Du kan få vist en oversigt over, hvilke sider der er tilpasset for en profil, f.eks. hvis du vil planlægge, hvilke sider, der skal tilpasses yderligere eller slettes.
 
@@ -54,7 +54,7 @@ Du kan få vist en oversigt over, hvilke sider der er tilpasset for en profil, f
 
 Du kan slette tilpasninger på siden **Brugerdefinerede sider**, og du kan foretage fejlfinding ved at søge efter mulige problemer.  
 
-## Slette alle tilpasninger for en profil
+## <a name="delete-all-customizations-for-a-profile"></a>Slette alle tilpasninger for en profil
 
 Du kan annullere alle tilpasninger, du har foretaget for en profil. Tilpasninger, som er introduceret med en udvidelse, og tilpasninger, der er udført af en bruger, slettes ikke. Du kan slette alle tilpasninger med en anden handling. Du kan finde flere oplysninger i [Sådan slettes alle tilpasninger, der er foretaget af en bruger](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
@@ -62,7 +62,7 @@ Du kan annullere alle tilpasninger, du har foretaget for en profil. Tilpasninger
 
 Layoutet på siderne i profilen nulstilles til standardlayoutet.  
 
-## Slette tilpasning af bestemte sider for en profil
+## <a name="delete-customization-for-specific-pages-for-a-profile"></a>Slette tilpasning af bestemte sider for en profil
 
 Du kan slette enkelte sidetilpasninger, du har foretaget for en profil. Tilpasninger, som er introduceret med en udvidelse, og tilpasninger, der er udført af en bruger, slettes ikke. Du kan slette bestemte sidetilpasninger med en anden handling. Du kan finde flere oplysninger i [Sådan slettes tilpasninger for bestemte sider](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
@@ -71,7 +71,7 @@ Du kan slette enkelte sidetilpasninger, du har foretaget for en profil. Tilpasni
 
 Layoutet på de valgte sider justeres til de ændringer, du har foretaget.
 
-## Tilføje et felt
+## <a name="add-a-field"></a>Tilføje et felt
 
 Du føjer felter til siden fra ruden **Føj felt til side**, som du kan åbne ved at vælge handlingen **+ Felt**, når du er i tilpasningstilstand. Det er vigtigt at forstå, at ruden **Føj felt til side** bruges til at vise felter, der allerede findes enten på siden og dens kildetabeller, men som i øjeblikket er skjult. Du kan ikke oprette nye felter.
 
@@ -92,7 +92,7 @@ Brug filterknappen over listen til at ændre, hvilken kategori af felter der vis
 
 :::image type="content" source="media/customization-filter.svg" alt-text="Viser filterknappen i ruden Tilføj et felt i tilpasningstilstand.":::
  
-### Tilføj tabelfelt, der ikke er på sideobjektet
+### <a name="add-table-field-thats-not-on-the-page-object"></a>Tilføj tabelfelt, der ikke er på sideobjektet
 
 Hvis du vil gøre et tabelfelt tilgængeligt på en side for brugerne, skal du først føje det til siden. Når du har tilføjet feltet, kan brugerne vælge at vise eller skjule feltet ved hjælp af tilpasning. Du kan tilføje et felt på flere måder.
 
@@ -104,7 +104,7 @@ Når feltet er tilføjet, skifter værktøjstippet til feltet i ruden **Føj fel
 > [!NOTE]
 > Det tilføjede felt er låst fra redigering og kan ikke låses op.
 
-## Fjerne et felt
+## <a name="remove-a-field"></a>Fjerne et felt
 
 Hvis du har tilføjet et tabelfelt, der oprindeligt ikke var på sideobjektet, kan du fjerne det igen. At fjerne et felt er anderledes end at skjule det. Når du skjuler et felt, kan brugerne stadig vise det på deres arbejdsområde via tilpasning. Men hvis du fjerner et felt, kan brugerne ikke længere vise eller skjule feltet. Hvis feltet aktuelt vises i en brugers arbejdsområde, forsvinder det fra brugerens arbejdsområde, når du fjerner det. 
 
@@ -113,7 +113,7 @@ Hvis du vil fjerne et felt, skal du markere pilespidsen på feltet på siden og 
 > [!IMPORTANT]
 > Når du fjerner et felt, slettes data, der er gemt i feltet, eller dets kildetabeller ikke. Det fjerner bare feltet fra visningen. 
 
-## Lås og lås op for redigering
+## <a name="lock-and-unlock-editing"></a>Lås og lås op for redigering
 
 Tilpasning giver dig mulighed for at låse (tillade redigering) eller låse op for redigering (forhindre redigering) af de fleste felter på en side. Hvis du vil låse eller låse redigering op, skal du markere feltet på siden, vælge pilespidsen og derefter vælge **Lås redigering** eller **Lås redigering op**. Det er vigtigt at huske på nogle få regler om låsning og oplåsning af felter:
 
@@ -123,13 +123,13 @@ Tilpasning giver dig mulighed for at låse (tillade redigering) eller låse op f
 
 
 <!--However, whatever option you choose for a field, users can always change the setting on their own workspace using personalization. For this reason, it's important to consider locking as a deterrence measure and not a preventative measure.--> 
-## Vigtig information og tips
+## <a name="important-information-and-tips"></a>Vigtig information og tips
 
 - Det er ikke sikkert, at alle tabelfelter kan tilpasses fra ruden **Føj felt til side**. Udvikleren af en tabel kan vælge at forhindre, at et felt vises i tilpasning, ved at angive feltets [AllowInCustomization-egenskab](/dynamics365/business-central/dev-itpro/developer/properties/devenv-allowincustomizations-property) til `Never`.
 - Du kan ikke tilpasse en side, der er i [analysetilstand](analysis-mode.md). Kontakten **Analysér** er deaktiveret. Hvis du skifter til tilpasningstilstand, mens siden er i analysetilstand, deaktiveres analysetilstand automatisk. 
 - Nogle sider har flere sidefelter, der er knyttet til den samme kildetabel. Ruden **Føj felt til side** viser alle disse sidefelter uafhængigt af hinanden. Du kan vise, skjule eller flytte disse felter uafhængigt af hinanden, uden at det påvirker de andre.
 - Hvis en del eller gruppe er skjult, kan du stadig identificere skjulte felter i delen eller gruppen, men du kan ikke tilføje, flytte eller vise felter i delen eller gruppen, før de er gjort synlige. 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Tilpasse arbejdsområdet](ui-personalization-user.md)  
 [Administrere profiler](admin-users-profiles-roles.md)  

@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Afstemme lagerværdier med finansregnskabet
+# <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Afstemme lagerværdier med finansregnskabet
 
 Når du bogfører lagertransaktioner, f.eks. salgsleverancer, købsfakturaer eller lagerreguleringer, registreres ændringen i varepriser i værdiposterne. For at afspejle ændringen af lagerværdien i dine finansielle regnskaber bogføres lagerværdien automatisk i de relaterede lagerkonti i finansbogholderiet. For hver lagertransaktion du bogfører, bogføres den relevante værdi på lagerkontoen, reguleringskontoen og vareforbrugskontoen i finansregnskabet.
 
@@ -19,7 +19,7 @@ Automatisk lagerværdibogføring er defineret i feltet **Aut. lagerværdibogfør
 
 Selvom lagerværdien automatisk bogføres i Finans, er det stadig nødvendigt at sikre, at værdien af varerne overføres til de relaterede udgående transaktioner, f.eks salg eller overflytninger. Dette er især vigtigt i de situationer, hvor du sælger varer, inden du fakturerer købet af varerne. Dette omtales som omkostningsregulering. Varepriser reguleres automatisk, når du bogfører transaktioner, men du kan også justere varepriser manuelt. Du kan finde flere oplysninger i [Regulere varepriser](inventory-how-adjust-item-costs.md).
 
-## Sådan bogføres lagerværdier manuelt
+## <a name="to-post-inventory-costs-manually"></a>Sådan bogføres lagerværdier manuelt
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bogfør lagerregulering**, og vælg derefter det relaterede link.
 2. Du kan bogføre lagerværdier i finansregnskabet ved at udføre kørslen. Når du udfører denne kørsel, oprettes finansposter ud fra værdiposterne. Du kan bogføre posterne, så de opsummeres pr. bogføringsgruppe.
@@ -31,7 +31,7 @@ Hvis du vil se en liste over fejl før kørslen af bogføringen, kan du køre ra
 
 Hvis du ganske enkelt vil have en oversigt over, hvilke værdier der kan bogføres i finansregnskabet uden at gennemføre bogføringen, kan du udføre kørslen **Bogfør lagerregulering** uden at bogføre værdierne i finansregnskabet. Dette kan du gøre ved at fjerne markeringen i feltet **Bogfør** på anmodningssiden. Når du derefter udfører kørslen, oprettes der kun en rapport, der viser de værdier, der er klar til at blive bogført i finansregnskabet, men de er ikke bogført.
 
-## Sådan reviderer du afstemningen mellem lagerposterne og finansposterne
+## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>Sådan reviderer du afstemningen mellem lagerposterne og finansposterne
 Siden **Lagerbeholdning - afstemning** indeholder følgende:
 
 - Vise afstemningsdifferencer ved at sammenligne det, der er registreret i finans, og det, der er registreret i lageropgørelsen (værdiposter).
@@ -64,7 +64,7 @@ De næste kolonner viser totalerne for de samme kontotyper beregnet ud fra finan
 
 Vælg beløbet i en af totalerne for at se de poster i lagerrapporten, der blev brugt til at beregne totalerne. For lagertotalerne er posterne i lagerrapporten summen af værdiposterne for varerne. For finanstotalerne er posterne i lagerrapporten summen fra finansposterne.
 
-## Rapportere omkostninger og afstemme med regnskabet
+## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Rapportere omkostninger og afstemme med regnskabet
 Andre rapporter, sporingsfunktioner og et særligt afstemnings værktøj er tilgængelige for den revisor eller controller, der er ansvarlig for at rapportere en korrekt og afstemt lagerværdi til finansafdelingen.
 
 Den følgende tabel beskriver dem.    
@@ -76,7 +76,7 @@ Den følgende tabel beskriver dem.
 |Have vist lagerværdien af valgte varer, herunder deres faktiske og forventede kostpris på den angivne dato.|**Lagerværdi – kostspecifikation**, rapport|  
 |Bruge en rapport til at analysere årsagerne til kostprisuoverensstemmelser eller få indsigt i vareforbruget for solgte varer.|**Grundlag for kostprisfordeling**, rapport|  
 
-## Se også  
+## <a name="see-also"></a>Se også
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Køb](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)    

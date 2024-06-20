@@ -10,21 +10,21 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Samle rapporter og analyser i Business Central
+# <a name="assembly-reports-and-analytics-in-business-central"></a>Samle rapporter og analyser i Business Central
 
 Samlingsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gør det muligt for produktions-og erhvervs medarbejdere at få indsigt i og statistikker om aktuelle og tidligere montageaktiviteter.  
 
-## Rapporter
+## <a name="reports"></a>Rapporter
 
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]
 
-## Opgaver
+## <a name="tasks"></a>Opgaver
 
 I følgende artikler beskrives nogle af de vigtigste opgaver i forbindelse med analyse af virksomhedens tilstand:
 
 * [Vise varedisponering](inventory-how-availability-overview.md)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Montagestyring](assembly-assemble-items.md)  
 [Arbejde med montagestyklister](assembly-how-work-assembly-boms.md)  

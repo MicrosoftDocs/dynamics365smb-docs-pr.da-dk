@@ -10,7 +10,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Tilmeld dig for at få en gratis Dynamics 365 Business Central-prøveversion
+# <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Tilmeld dig for at få en gratis Dynamics 365 Business Central-prøveversion
 
 Business Central tilbyder en gratis prøveperiode, som du kan finde på **[Dynamics 365 Business Central produktsiden](https://www.microsoft.com/en-us/dynamics-365/products/business-central)** . Efter en hurtig tilmelding har du adgang til mange af appens nøglefunktioner. Prøveversionen giver dig mulighed for at teste en app med eksempeldata. Hvis du vil afprøve tingene med dine egne data, kan du skifte til en gratis 30-dages prøveversion. [Få mere at vide om funktioner i Business Central](across-business-functionality.md).  
 
@@ -18,7 +18,7 @@ Business Central tilbyder en gratis prøveperiode, som du kan finde på **[Dynam
 
 [!INCLUDE [trial-get](includes/trial-get.md)]
 
-## Hvad du skal prøve
+## <a name="what-to-try"></a>Hvad du skal prøve
 
 Dit prøveversionsmiljø indeholder de samme funktioner som den betalte version. Følgende links vil guide dig igennem nogle af de vigtigste funktioner.
 
@@ -27,7 +27,7 @@ Dit prøveversionsmiljø indeholder de samme funktioner som den betalte version.
 - [Bliv produktiv](ui-work-product.md)  
 - [Hurtig startvejledninger](quick-start-business-central.md)  
 
-## Introduktion til et abonnement
+## <a name="get-started-with-a-subscription"></a>Introduktion til et abonnement
 
 Hver gang du logger på i prøveperioden, viser en meddelelse på en blå linje øverst den resterende tid. Hvis du beslutter dig for at abonnere, skal du kontakte en [!INCLUDE[prod_short](includes/prod_short.md)]-partner. Flere oplysninger i [Hvordan finder jeg en videresalgspartner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner). Videresalgspartneren kan hjælpe dig med opsætningen af [!INCLUDE[prod_short](includes/prod_short.md)], således at den passer til din virksomhed, herunder med at importere dataene fra dit forrige system. Du kan også tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved at tilføje apps fra [Microsoft Commercial Marketplace](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
@@ -40,7 +40,7 @@ Du kan også kontakte [[!INCLUDE[prod_short](includes/prod_short.md)]-salgsteame
 
 Du kan finde flere oplysninger om, hvad du kan gøre med [!INCLUDE [prod_short](includes/prod_short.md)], i afsnittet [Blive klar til at gøre forretninger](ui-get-ready-business.md) og [Forretningsfunktioner](across-business-functionality.md).  
 
-## Flere ressourcer
+## <a name="additional-resources"></a>Flere ressourcer
 
 - [Besøge vores videobibliotek](across-videos.md)  
 - [Prøveversion, ofte stillede spørgsmål](trial-faq.md)  

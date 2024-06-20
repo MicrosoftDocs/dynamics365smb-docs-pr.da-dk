@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Konfigurere salgsprocesser og -procesfaser for leads
+# <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Konfigurere salgsprocesser og -procesfaser for leads
 
 Før du begynder at bruge salgsleads, skal du definere salgsprocesser og salgsprocesfaser. En salgsproces består af en række faser, der går fra den første kontakt til afslutningen af et salg. Hvert trin kan have bestemte krav, der skal opfyldes, f.eks kræve et salgstilbud, før et lead kan gå til næste fase. Du kan også angive, om en fase kan springes over. Du kan oprette et ubegrænset antal salgsprocesser. Du kan oprette så mange Salgsprocesfaser, som det er nødvendigt, i en salgsproces.
 
@@ -19,25 +19,25 @@ Implementering af salgsprocesser for leads kræver, at du konfigurerer salgsproc
 
 Denne artikel beskriver også opsætning af opgaver og aktiviteter, og hvordan du kan tildele opgaver til aktiviteter. Du kan finde flere oplysninger i afsnittet [Sådan oprettes aktiviteter til opgaver](marketing-how-setup-opportunity-sales-cycles-stages.md#to-set-up-activities-with-tasks).
 
-## Sådan oprettes salgsproceskoder for leads
+## <a name="to-set-up-opportunity-sales-cycle-codes"></a>Sådan oprettes salgsproceskoder for leads
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **salgsprocesser**, og vælg derefter det relaterede link. Siden **Salgsprocesser** åbnes og viser de eksisterende salgsprocesser.
 2. Vælg handlingen **Ny**, og udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Gentag disse trin for hver salgsproces, du vil oprette. Når du har defineret salgsprocesser for leads, kan du definere de forskellige faser i hver proces.
 
-## Sådan defineres salgsprocesfaser for leads
+## <a name="to-define-opportunity-sales-cycle-stages"></a>Sådan defineres salgsprocesfaser for leads
 
 1. På siden **Salgsprocesser** skal du vælge den leadsalgsproces, som du vil definere faserne i, og derefter vælge handlingen **Faser**. Siden **Salgsprocesfaser** åbnes.
 2. Vælg handlingen **Ny** for at oprette en ny fase i salgsprocessen.
 
 Gentag disse trin for hver fase, du vil definere i salgsproces.
 
-## Sådan tildeles faser i salgsprocesser til leads
+## <a name="to-assign-stage-cycles-to-opportunities"></a>Sådan tildeles faser i salgsprocesser til leads
 
 Når du har tilføjet fasen i salgsprocessen for leads, kan du begynde at tilføje salgsprocesser og derefter tildele procesfasen til leads ved at angive feltet **Salgsproceskode**. Du kan finde flere oplysninger i [Oprette salgsleads](marketing-how-create-opportunities.md).
 
-## Sådan defineres aktiviteter til opgaver
+## <a name="to-set-up-activities-with-tasks"></a>Sådan defineres aktiviteter til opgaver
 
 Du kan samle flere opgaver, for eksempel opgaver, der hver repræsenterer et trin, i aktiviteter. Aktivitetsopgaver er forbundet med hinanden vha. en datoformel. Du kan tildele aktiviteter til leads, sælgere og kontaktpersoner.
 
@@ -45,7 +45,7 @@ Du kan samle flere opgaver, for eksempel opgaver, der hver repræsenterer et tri
 2. Vælg handlingen **Ny**, og udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 3. I oversigtspanelet **Linjer** skal du udfylde felterne efter behov for at definere en eller flere opgaver i aktiviteten.
 
-## Sådan tildeles opgaver eller aktiviteter til leads
+## <a name="to-assign-tasks-or-activities-of-tasks-to-opportunities"></a>Sådan tildeles opgaver eller aktiviteter til leads
 
 Når du har oprettet en opgave, kan du tildele den til et salgslead og dermed tildele aktiviteten, som opgaven tilhører.
 
@@ -65,7 +65,7 @@ Nedenfor beskrives, hvordan aktivitetsopgaver tildeles til leads. Trinene er de 
 6. På siden **Opgaveliste** skal du vælge den nye opgave og derefter vælge handlingen **Tildel aktiviteter**.
 7. På siden **Tildel aktivitet** skal du udfylde felterne efter behov, og derefter vælge knappen **OK**.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Behandling af salgsleads](marketing-processing-sales-opportunities.md)  
 [Salg](sales-manage-sales.md)  

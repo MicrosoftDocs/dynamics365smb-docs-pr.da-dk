@@ -7,7 +7,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-## Bedste fremgangsmåder for arbejde med kolonnedefinitioner
+## <a name="best-practices-for-working-with-column-definitions"></a>Bedste fremgangsmåder for arbejde med kolonnedefinitioner
 
 Kolonnedefinitioner versioneres ikke. Når du ændrer en kolonnedefinition, erstattes den gamle version, når ændringen gemmes i databasen. Følgende liste indeholder nogle anbefalede fremgangsmåder til at arbejde med kolonnedefinitioner.
 

@@ -13,7 +13,7 @@ ms.custom: bap-template
 ms.collection: bap-ai-copilot
 ---
 
-# Foreslå linjer på salgsdokumenter med Copilot (forhåndsversion)
+# <a name="suggest-lines-on-sales-documents-with-copilot-preview"></a>Foreslå linjer på salgsdokumenter med Copilot (forhåndsversion)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -21,7 +21,7 @@ I denne artikel forklares det, hvordan du hurtigere kan oprette salgsdokumenter 
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## Om forslag til salgslinje med Copilot
+## <a name="about-sales-line-suggestions-with-copilot"></a>Om forslag til salgslinje med Copilot
 
 Forslag til salgslinjer med Copilot kan hjælpe med at oprette linjer i salgsdokumenter, f.eks. salgstilbud, ordrer og fakturaer baseret på struktureret input eller naturligt sprog. Funktionen er ikke til generel chat, men en meget specifik og integreret oplevelse, som du kan bruge på salgsdokumenter. Funktionen tilbyder to forskellige færdigheder, der hjælper dig med at finde data om individuelle produkter eller hele dokumenter.
 
@@ -33,12 +33,12 @@ Forslag til salgslinjer med Copilot kan hjælpe med at oprette linjer i salgsdok
 
   Folk gentager ofte en tidligere ordre eller bruger den i det mindste som udgangspunkt. Men det kan være vanskeligt at finde den rigtige ordre i en bunke af ordrer. Du husker måske noget af ordrens id, som kan være et nummer tildelt af virksomheden eller et referencenummer, der er modtaget fra en kunde. Hvis du bruger prompter som f.eks. *Skal bruge faktura fra april*, kan det hjælpe dig med at finde en ordre hurtigere.
 
-## Forudsætninger
+## <a name="available-languages"></a>Forudsætninger
 
 * Salgslinjeforslag med Copilot muliggøres og aktiveres af en administrator. Du kan få mere at vide om, hvordan du aktiverer AI-funktioner, ved at gå til [Konfigurere Copilot- og AI-funktioner](enable-ai.md).
 * Du er fortrolig med oprettelse af salgsordrer.
 
-## Geografisk tilgængelighed
+## <a name="prerequisites"></a>Geografisk tilgængelighed
 
 Følgende tabel viser de geografiske Microsoft Azure-områder, hvor denne funktion er tilgængelig.
 
@@ -60,27 +60,27 @@ Følgende tabel viser de geografiske Microsoft Azure-områder, hvor denne funkti
 |Frankrig (central, syd)     |    Sverige eller Schweiz     |    Ja     |
 |Korea (central, syd)     |    USA     |    Ja     |
 
-## Eksempler på prompter
+## <a name="examples-of-prompts"></a>Eksempler på prompter
 
 Foreslå salgslinjer med Copilot kan håndtere en lang række promptinput. Dette afsnit indeholder nogle eksempler på prompter til forskellige scenarier, vi har testet.
 
-### Eksempelforespørgsel til gentagelse af det forrige dokument
+### <a name="sample-inquiry-to-repeat-the-past-document"></a>Eksempelforespørgsel til gentagelse af det forrige dokument
 
 Prompt: *Skal bruge alle produkterne fra faktura 103031*
 
-### Under telefonopkald skriver brugeren hurtigt en liste over ønskede produkter og mængder, ikke altid nøjagtige nok eller ved hjælp af interne produktnavne
+### <a name="during-phone-call-user-quickly-types-list-of-required-products-and-quantities-not-always-accurate-enough-or-using-internal-product-names"></a>Under telefonopkald skriver brugeren hurtigt en liste over ønskede produkter og mængder, ikke altid nøjagtige nok eller ved hjælp af interne produktnavne
 
 Prompt: *2 rød børncykle*
 
 Bemærk, at prompten virker, selv med flere stavefejl.
 
-### En bruger kopierer en forespørgsel fra indgående kommunikation og indsætter den på siden Forslag til salgslinjer
+### <a name="a-user-copies-an-inquiry-from-an-inbound-communication-and-pastes-it-to-the-sales-lines-suggestions-page"></a>En bruger kopierer en forespørgsel fra indgående kommunikation og indsætter den på siden Forslag til salgslinjer
 
 Prompt: *Hej, jeg er interesseret i at købe noget tilbehør til min XXXX Laptop, såsom en trådløs mus, et tastaturcover og en taske til den bærbare. Jeg spekulerer på, om du har nogen anbefalinger eller forslag til disse emner. Har I særlige tilbud eller rabatter til loyale kunder som mig? Med venlig hilsen M*
 
 Bemærk, at XXXX Laptop ikke er inkluderet i søgningen.
 
-## Foreslå linjer på et salgsdokument
+## <a name="suggest-lines-on-a-sales-document"></a>Foreslå linjer på et salgsdokument
 
 Denne proces beskriver, hvordan du foreslår linjer på en salgsordre. Trinene er de samme for salgstilbud og fakturaer.
 
@@ -89,7 +89,7 @@ Denne proces beskriver, hvordan du foreslår linjer på en salgsordre. Trinene e
 1. I oversigtspanelet **Linjer** skal du vælge **Hent forslag til linjer**.
 1. I vinduet **Foreslå linjer med Copilot** skal du indtaste din prompt eller vælge en fra promptguider.
 
-## Gennemse, gem, kassér eller generer forslag igen
+## <a name="review-save-discard-or-regenerate-suggestions"></a>Gennemse, gem, kassér eller generer forslag igen
 
 Når Copilot har foreslået de elementer, der skal føjes til linjerne, skal du gennemgå forslagene og beslutte, om de er, som du ønsker:
 
@@ -101,7 +101,7 @@ I feltet **Pålidelighed** vises scorerne **Høj (80+)**, **Medium (60-80)** og 
 
 Dette trin bekræfter, at du vil overføre linjerne til et salgsdokument. Du kan også slette eller redigere de overførte linjer dér eller slette hele dokumentet.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Ofte stillede spørgsmål om salgslinjeforslag med Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
 [Konfigurere Copilot- og AI-funktioner](enable-ai.md)
