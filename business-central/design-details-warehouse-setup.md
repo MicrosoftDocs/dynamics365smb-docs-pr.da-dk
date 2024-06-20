@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="design-details-warehouse-setup"></a>Designoplysninger: Opsætning af lager
+# Designoplysninger: Opsætning af lager
 
 Lagerfunktioner i [!INCLUDE[prod_short](includes/prod_short.md)] indeholder forskellige niveauer af kompleksitet, som defineret af licenstilladelser i de tilbudte moduler. Niveauet af kompleksitet i en løsning på lagerstedet defineres i høj grad af placeringsopsætningen på lokationskort, som til gengæld licensstyres, så adgang til placeringens opsætningsfelter er defineret af licensen. Desuden styrer programobjekter i licensen, hvilket UI-dokument der skal bruges til de understøttede lageraktiviteter.  
 <!--
@@ -43,7 +44,7 @@ Følgende tabel viser, hvilke moduler der er nødvendige for at definere forskel
 
 Se eksempler på, hvordan brugergrænsefladeelementer bruges afhængigt af kompleksitetsniveauet på lageret, i [Designoplysninger: Indgående lagerflow](design-details-inbound-warehouse-flow.md).  
 
-## <a name="bin-and-bin-content"></a>Placering og placeringsindhold
+## Placering og placeringsindhold
 
 En placering er en lagerenhed, der er beregnet til at indeholde adskilte dele. Det er den mindste containerenhed i [!INCLUDE[prod_short](includes/prod_short.md)]. Antal varer på placeringer kaldes placeringsindhold. Et opslag fra feltet **Vare** eller feltet **Placeringskode** i enhver lagerrelateret dokumentlinje viser den beregnede beholdning af varen på placeringen.  
 
@@ -60,7 +61,7 @@ Egenskaben for standardplacering bruges af systemet til at foreslå placeringer 
 
 Der kan kun være en standardplacering pr. vare pr. lokation.  
 
-## <a name="bin-type"></a>Placeringstype
+## Placeringstype
 
 I logistikinstallationer kan du begrænse de lageraktiviteter, der er tilladt for en placering, ved at tildele en placeringstype. Der findes følgende placeringstyper:  
 
@@ -78,7 +79,7 @@ For alle placeringstyper, undtagen PLUK, LPLPLUK og LÆGPÅLAGER, tillades ingen
 > [!NOTE]  
 > Kun bevægelse kan gøres på placeringer af typen MODTAG og KK. Ligeledes kan kun bevægelser foretages fra placeringer af typen LEVER og KK.  
 
-## <a name="bin-ranking"></a>Placeringsniveau
+## Placeringsniveau
 
 I avancerede lagerfunktioner kan du automatisere og optimere, hvordan varerne samles i læg-på-lager- og plukkladder ved at rangere placeringer, så varer foreslås taget eller anbragt i henhold til rangkriterier for at bruge lagerplads optimalt i avanceret logistik.  
 
@@ -86,7 +87,7 @@ Læg-på-lager-processer er optimeret efter placeringsniveau ved at foreslå pla
 
 Placeringsniveau sammen med placeringsindholdsoplysninger er de grundlæggende indstillinger, der gør det muligt for brugere at lægge varer på lageret.  
 
-## <a name="bin-setup"></a>Opsætning af placering
+## Opsætning af placering  
 I avanceret logistik kan placeringer konfigureres med værdier for kapacitet, f.eks. antal, samlede rummål og vægt, for at styre, hvor og hvordan varer opbevares på placeringen.  
 
 Du kan tildele en måleenhed for varen, f.eks. stykker, paller, liter, gram eller kasser, på hvert enkelt varekort. Du kan også have en grundlæggende enhed for en vare og angive større enheder, der er baseret på den. Du kan f.eks. definere, at en palle skal være lig med 16 stykker med sidstnævnte som den grundlæggende måleenhed.  
@@ -98,7 +99,7 @@ Før du kan angive kapacitetsbegrænsninger for placeringsindhold på en placeri
 > [!NOTE]  
 > Det er kun muligt at operere med flere måleenheder i logistikinstallationer. I alle andre konfigurationer kan placeringsindhold kun være i basismåleenheden. I alle transaktioner med en måleenhed, der er højere end varens grundlæggende måleenhed, konverteres antallet til den grundlæggende enhed.  
 
-## <a name="zone"></a>Zone
+## Zone
 
 Placeringer kan grupperes i zoner til at styre, hvordan arbejdsprocessen for lageraktiviteter ledes i avanceret logistik.  
 
@@ -106,18 +107,18 @@ En zone kan være en modtagelseszone eller en lagerzone, og hver zone kan bestå
 
 De fleste egenskaber, der er tildelt en zone, tildeles som standard den placering, der er oprettet fra denne zone.  
 
-## <a name="class"></a>Klasse
+## Klasse  
 Du kan tildele lagerklassekoder i avanceret logistik til varer, placeringer og zoner for at styre, hvor forskellige vareklasser gemmes som frosne varer. Du kan opdele en zone i flere lagerklasser. Varer på modtagelseszonen kan f.eks. gemmes som frosne, farlige eller andre kategorier.  
 
 Når du arbejder med lagerklasser og en standardplacering for modtagelse/afsendelse, skal du manuelt udfylde de korrekte placeringer for modtagelses- og leverancelinjer for lagerstedet.  
 
 Klassekoden fremhæves kun i indgående strømme på indgående linjer, hvor vareklassekoden ikke stemmer overens med standardmodtagelsesplacering. Hvis der ikke er tildelt korrekte standardplaceringer, kan antallet ikke modtages.  
 
-## <a name="location"></a>Lokation
+## Lokation
 
 En lokation er en fysisk struktur eller et sted, hvor lagerbeholdning modtages, opbevares og forsendes, muligvis organiseret efter placering. En lokation kan være et lagersted, en bil, et showroom, en fabrik eller et område på en fabrik.  
 
-## <a name="first-expired-first-out"></a>Først udløbet først ude
+## Først udløbet først ude
 
 Hvis du markerer afkrydsningsfeltet **Pluk i overensstemmelse med FEFO** i oversigtspanelet **Placeringsmetode** på lokationskortet, bliver varesporede varer plukket i henhold til deres udløbsdato. Varer med den tidligste udløbsdato plukkes først.  
 
@@ -125,11 +126,11 @@ Lageraktiviteter i alle pluk- og bevægelsesdokumenter er sorteret i overensstem
 
 Når der plukkes varer efter FEFO-metoden, samles de tilgængelige varer, der udløber først, på en midlertidig varesporingsliste, der er baseret på udløbsdatoen. Hvis der er to varer med samme udløbsdato, vælges varen med det laveste lot- eller serienummer. Hvis lot- eller serienumrene er ens, vælges den vare først, der blev registreret først. Standardkriterierne for udvælgelse af varer på plukplaceringer, f.eks. Placeringsniveau og Nedbrydning, anvendes på denne midlertidige FEFO-varesporingsliste.  
 
-## <a name="put-away-template"></a>Læg-på-lager-skabelon
+## Læg-på-lager-skabelon
 
 Læg-på-lager-skabelonen kan tildeles til en vare og en lokation. Læg-på-lager-skabelonen angiver en række prioriterede regler, der skal overholdes ved oprettelse af læg-på-lager-aktiviteter. En læg-på-lager-skabelon kan f.eks. kræve, at varen placeres på en placering med placeringsindhold, der svarer til enheden, og hvis der ikke findes en lignende placering med tilstrækkelig kapacitet, skal varen placeres på en tom placering.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
 [Designdetaljer: Tilgængelighed i lager](design-details-availability-in-the-warehouse.md)

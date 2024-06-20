@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Gennemgang: Modtagelse og placering på lager i avancerede lageropsætninger
+# Gennemgang: Modtagelse og placering på lager i avancerede lageropsætninger
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -26,7 +27,7 @@ Få mere at vide i [Udgående lagerstedsflow](design-details-inbound-warehouse-f
 
 Den følgende gennemgang viser metode D i forrige tabel.  
 
-## <a name="about-this-walkthrough"></a>Om denne gennemgang
+## Om denne gennemgang
 
 I avancerede lageropsætninger, hvor din lokation er opsat til at kræve modtagende behandling udover læg-på-lager-behandling, skal du bruge siden **Lagermodtagelse** til at registrere og bogføre modtagelsen af varer på flere indgående ordrer. Når lagermodtagelsen bogføres, oprettes der et eller flere læg-på-lager-dokumenter for at instruere lagermedarbejderne om at tage de modtagne varer og placere dem på de tildelte steder i henhold til placeringskonfiguration eller på andre placeringer. Den specifikke placering af varer registreres, når læg-på-lager-aktiviteten er registreret. Det indgående kildedokument kan være en købsordre, en salgsreturvareordre, en indgående overflytningsordre eller en montage- eller produktionsordre med afgang, der er klar til at blive lagt på lager. Hvis leverancen oprettes fra en indgående ordre, kan mere end ét indgående kildedokument være hentet til leverancen. Ved hjælp af denne metode kan du registrere mange varer, der ankommer fra forskellige indgående ordrer med én leverance.  
 
@@ -37,7 +38,7 @@ Denne gennemgang viser følgende opgaver:
 -   Oprettelse og bogføring af et lagermodtagelsesdokument for flere købsordrelinjer fra bestemte kreditorer.  
 -   Registrering af en læg-på-lager-aktivitet for de modtagne varer.  
 
-## <a name="roles"></a>Roller
+## Roller
 
 Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:  
 
@@ -46,7 +47,7 @@ Denne gennemgang viser de opgaver, der udføres af følgende brugerroller:
 -   Modtagermedarbejdere  
 -   Lagermedarbejder  
 
-## <a name="prerequisites"></a>Forudsætninger
+## Forudsætninger
 
 For at gennemføre denne gennemgang skal du bruge:  
 
@@ -58,15 +59,15 @@ For at gennemføre denne gennemgang skal du bruge:
 3.  Angiv HVID i feltet **Lokationskode**.  
 4.  Markér feltet **Standard**.  
 
-## <a name="story"></a>Historie
+## Historie
 
 Ellen, som er indkøbschef hos CRONUS, opretter to købsordrer for tilbehørsvarer fra kreditorerne 10000 og 20000, som skal leveres til lagerstedet HVID. Når leveringerne ankommer til lagerstedet, bruger Sammy, der er ansvarlig for modtagelse af varer fra kreditorerne 10000 og 20000, et filter til at oprette modtagelseslinjer til købsordrer, der ankommer fra de to kreditorer. Sammy bogfører varerne som modtaget på lageret i en lagermodtagelse, og varerne bliver tilgængelige til salg eller andre behov. John, lagermedarbejder, tager varerne fra den modtagende placering og lægger dem på lager. John lægger alle enheder på deres standardplaceringer, undtagen 40 ud af 100 modtagne hængsler, som lægges på lager i montageafdelingen ved at opdele læg-på-lager-linjen. Når John registrerer læg-på-lager, opdateres placeringsindholdet, varerne er gøres tilgængelige til pluk fra lagerstedet.  
 
-## <a name="reviewing-the-white-location-setup"></a>Gennemse lokationsopsætningen for HVID
+## Gennemse lokationsopsætningen for HVID
 
 Opsætningen af siden **Lokationskort** definerer flows i virksomheden.  
 
-### <a name="to-review-the-location-setup"></a>Sådan gennemgås lokationsopsætningen
+### Sådan gennemgås lokationsopsætningen  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.  
 2.  Åbn lokationskortet HVID.  
@@ -78,11 +79,11 @@ Opsætningen af siden **Lokationskort** definerer flows i virksomheden.
 
 Dette betyder, at når du opretter en lagermodtagelse, kopieres denne placeringskode automatisk til sidehovedet på lagermodtagelsesdokumentet og til linjerne på de resulterende læg-på-lager-dokumenter.  
 
-## <a name="creating-the-purchase-orders"></a>Oprettelse af købsordrer
+## Oprettelse af købsordrer
 
 Købsordrer er den mest almindelige type indgående kildedokument.  
 
-### <a name="to-create-the-purchase-orders"></a>Sådan oprettes købsordrerne
+### Sådan oprettes købsordrerne  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **købsordrer**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
@@ -111,11 +112,11 @@ Købsordrer er den mest almindelige type indgående kildedokument.
 
     Leveringerne af varer fra kreditor 10000 og 20000 er ankommet på lagerstedet HVID, og Sammy begynder at behandle købsleverancerne.  
 
-## <a name="receiving-the-items"></a>Modtagelse af varerne
+## Modtagelse af varerne
 
 På siden **Lagermodtagelse** kan du administrere flere indgående ordrer til kildedokumenter, f.eks. en købsordre.  
 
-### <a name="to-receive-the-items"></a>Sådan modtages varerne
+### Sådan modtages varerne  
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagermodtagelse**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Ny**.  
 3.  Angiv HVID i feltet **Lokationskode**.  
@@ -130,12 +131,12 @@ På siden **Lagermodtagelse** kan du administrere flere indgående ordrer til ki
 
     Positive vareposter oprettes, som afspejler de bogførte købsleverancer for tilbehør fra kreditorerne 10000 og 20000, og varerne er klar til at blive lagt på lager fra den modtagende placering.  
 
-## <a name="putting-the-items-away"></a>Lægge varerne på lager
+## Lægge varerne på lager
 
 På siden **Læg-på-lager (logistik)** kan du administrere læg-på-lager-aktiviteter for et bestemt lagermodtagelsesdokument, der dækker flere kildedokumenter. Ligesom alle lageraktivitetsdokumenter, er hver vare på læg-på-lager repræsenteret af en Hent-linje og en Placer-linje. I følgende procedure er placeringskoden på Hent-linjerne standardmodtagelsesplaceringen for lokationen HVID, W-08-0001.  
 
 
-### <a name="to-put-the-items-away"></a>Sådan lægges varerne på lager
+### Sådan lægges varerne på lager  
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Planlægge læg-på-lager-aktiviteter**, og vælg derefter det relaterede link.  
 2.  Vælg det eneste læg-på-lager-dokument i oversigten, og vælg derefter handlingen **Rediger**.  
 
@@ -156,7 +157,7 @@ På siden **Læg-på-lager (logistik)** kan du administrere læg-på-lager-aktiv
 
     Det modtagne tilbehør lægges nu væk på varernes standardplaceringer, og der placeres 40 hængsler i montageafdelingen. De modtagne varer er nu tilgængelige til pluk til interne behov, f.eks. montageordrer, eller til eksterne behov, f.eks. salgsleverancer.  
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Lægge varer på lager med Læg-på-lager (logistik)](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
  [Flytte varer i avancerede lageropsætninger](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Designoplysninger: Indgående lagerflow](design-details-inbound-warehouse-flow.md)   

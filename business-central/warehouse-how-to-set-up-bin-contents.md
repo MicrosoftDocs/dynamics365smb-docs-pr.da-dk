@@ -8,12 +8,13 @@ ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="create-bin-contents"></a>Oprette placeringsindhold
+# Oprette placeringsindhold
 
 Når du har oprettet placeringerne, kan du oprette placeringsindholdet. Du kan med andre ord sætte de varer op, som du vil opbevare på en bestemt placering, og angive regler, der styrer anbringelse af en bestemt vare på placeringen. Du kan gøre dette manuelt på siden **Placeringsindhold** eller automatisk med siden **Opret placeringsindholdskladde**.
 
-## <a name="to-create-bin-content-manually"></a>Sådan oprettes placeringsindhold manuelt
+## Sådan oprettes placeringsindhold manuelt
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.  
 2. Marker den lokation, hvor du vil konfigurere placeringsindhold, og vælg derefter handlingen **Placeringer**.  
@@ -30,7 +31,7 @@ Hvis du markerer feltet **Fast**, knytter du permanent varen til placeringen, hv
 > [!NOTE]  
 > Du kan oprette flere placeringsindhold ad gangen på siden **Opr.kladde til placeringsindh.**.  
 
-## <a name="to-create-bin-content-with-a-worksheet"></a>Sådan oprettes placeringsindhold med en kladde
+## Sådan oprettes placeringsindhold med en kladde
 
 Når du har oprettet placeringer, kan du angive, hvilke varer der skal opbevares på hver placering vha. en kladde.
 
@@ -48,7 +49,7 @@ Når du har oprettet placeringer, kan du angive, hvilke varer der skal opbevares
 
 I denne kladde kan du arbejde med placeringsindholdslinjer for flere placeringer ad gangen og på den måde få et godt overblik over, hvilke varer der lægges på de forskellige placeringer i en given zone, række eller hylde.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

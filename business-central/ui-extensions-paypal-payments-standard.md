@@ -9,8 +9,9 @@ ms.search.form: '1070, 1071, 1073, 1074'
 ms.date: 12/12/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="the-paypal-payments-standard-extension"></a>Udvidelsen PayPal Payments Standard
+# Udvidelsen PayPal Payments Standard
 
 Kunder kræver hele tiden bedre kundeservice, både med hensyn til produkternes kvalitet, men også med hensyn til leverings- og betalingsindstillinger. Tjenesten PayPal Payments Standard hjælper dig med at øge din kundeservice.
 
@@ -28,7 +29,7 @@ Tjenesten PayPal Payments Standard giver følgende fordele:
 
 Du kan finde flere oplysninger i [Aktivere debitorbetaling via PayPal](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Konfigurere salg](sales-setup-sales.md)  

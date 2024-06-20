@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 09/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 22.](../media/ui-search/search_small.png "Søg efter forstørrelsesglas") ikon, skriv **Varer**, og vælg derefter det relaterede link.  

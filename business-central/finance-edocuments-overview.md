@@ -9,9 +9,10 @@ ms.search.form: null
 ms.date: 04/10/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="e-documents-overview"></a>Oversigt over e-dokumenter
+# Oversigt over e-dokumenter
 
 Elektroniske dokumenter (e-dokumenter) er rygraden i moderne forretningstransaktioner. De omfatter vigtige dokumenter, såsom fakturaer og kvitteringer i begge retninger (levering og modtagelse). De tilføjer også funktioner til dokumentstatusrelaterede meddelelser mellem adgangspunkter.
 
@@ -34,7 +35,7 @@ Dokumentationen forklarer e-dokumenter i detaljer. Det viser appens muligheder o
 | [Udveksle data elektronisk](across-data-exchange.md) | Se, hvordan du kan bruge dataudvekslingsstrukturen til at håndtere udveksling af forretningsdokumenter som f.eks. bankfiler, valutakurser og andre datafiler med dine samarbejdspartnere. | 
 | [Knytte e-dokumenter til købsordrelinjer med Copilot (forhåndsversion)](map-edocuments-with-copilot.md) | Få mere at vide om, hvordan du bruger Copilot til at forbedre din effektivitet, når du arbejder med e-dokumenter. |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Økonomistyring](finance.md)    
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

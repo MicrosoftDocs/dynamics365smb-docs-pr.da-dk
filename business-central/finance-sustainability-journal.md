@@ -9,19 +9,20 @@ ms.search.form: '6216, 6219, 6220'
 ms.date: 05/07/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="record-sustainability-entries"></a>Registrer bæredygtighedsposter
+# Registrer bæredygtighedsposter
 
 I øjeblikket er den eneste måde at registrere drivhusgasudledninger (GHG) til finansposter for bæredygtighed på at bruge bæredygtighedskladder.
 
-## <a name="sustainability-journals"></a>Bæredygtighedskladder
+## Bæredygtighedskladder
 
 Bæredygtighedskladder er designet til at spore og registrere bæredygtighedsrelaterede aktiviteter ved hjælp af den samme brugeroplevelse som andre kladder i Business Central. Brugere, der har de nødvendige oplysninger, kan manuelt angive udledninger i en kladde. Alternativt, hvis de mangler disse oplysninger, kan de bruge indbyggede formler til nøjagtigt at beregne emissioner baseret på specifikke kendte parametre svarende til forskellige typer kilder og konti.
 
 De oplysninger, du angiver i en kladde, er midlertidige og kan ændres, mens de er i kladden. Når du bogfører kladden, overføres oplysningerne til finansposter for bæredygtighed på individuelle bæredygtighedskonti, hvor de ikke kan ændres. Du kan dog bogføre tilbageførsels- eller rettelsesposter.
 
-### <a name="use-journal-templates-and-batches"></a>Bruge kladdeskabeloner og -batches
+### Bruge kladdeskabeloner og -batches
 
 Der er som standard to bæredygtighedskladdetyper, standardskabelonen og den tilbagevendende skabelon.
 
@@ -30,13 +31,13 @@ For hver kladdetype kan du angive din egen private kladde som kladdenavn. For at
 > [!TIP]
 > Hvis du har mange linjer, kan du reducere risikoen for fejl ved at have en kladdekørsel for hver emissionstype. Alternativt kan du bruge den fælles batch til alle udledningstyper.
 
-### <a name="validate-sustainability-journals"></a>Validering af bæredygtighedskladder
+### Validering af bæredygtighedskladder
 
 Du kan aktivere en baggrundskontrol på siden **Opsætning af bæredygtighed**, som medvirker til at forhindre forsinkelser ved bogføring. Kontrollen giver dig besked, når der opstår fejl i bæredygtighedskladden, og den vil forhindre, at du arbejder med at bogføre kladden.
 
 Når du aktiverer valideringen, viser faktaboksen **Kladdekontrol** problemer på den aktuelle linje og på hele kørslen. Validering sker, når du indlæser et kladdenavn, og når du vælger en anden kladdelinje. Feltet **Antal i alt** i faktaboksen viser det samlede antal fundne problemer [!INCLUDE [prod_short](includes/prod_short.md)] . Du kan vælge feltet for at åbne en oversigt over problemerne.
 
-### <a name="work-with-sustainability-journals"></a>Arbejde med bæredygtighedskladder
+### Arbejde med bæredygtighedskladder
 
 Følg disse trin for at begynde at arbejde med bæredygtighedskladder:
 
@@ -57,7 +58,7 @@ Følg disse trin for at begynde at arbejde med bæredygtighedskladder:
 
 Hvis din formel er baseret på indstillingen **Beregn fra finans** i kategorien bæredygtighedskonto, skal du bruge handlingen **Indsaml beløb fra finansposter**, før du bogfører kladden, for at beregne udledninger baseret på denne datakilde. Hvis du har foretaget nogle ændringer i udledningsfaktorerne, efter at du har udfyldt kladdelinjerne, skal du desuden vælge handlingen **Genberegn** for at få den korrekte mængde i kladden.
 
-### <a name="recurring-journals"></a>Gentagelseskladder
+### Gentagelseskladder
 
 En gentagelseskladde er en bæredygtighedskladde med særlige felter til styring af transaktioner, som bogføres ofte med få eller ingen ændringer. For eksempel bæredygtighedstransaktioner som el, varme eller andre lignende transaktioner. Du kan bruge gentagelseskladder til at bogføre faste og variable beløb.
 
@@ -69,7 +70,7 @@ Feltet **Gentagelsesinterval** er også vigtigt og skal indstilles. Dette datofo
 
 Feltet **Udløbsdato** bestemmer, når linjen bliver bogført for sidste gang. Linjen bogføres ikke efter denne dato. Fordelen ved at bruge feltet **Udløbsdato** er, at linjen ikke slettes fra kladden med det samme. Du kan angive en senere dato, så du kan bruge linjen i fremtiden. Hvis feltet er tomt, bogføres linjen, hver gang du bogfører, indtil den slettes fra kladden.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finans](finance.md)  
 [Oversigt over Ledelse af bæredygtighed](finance-manage-sustainability.md)  

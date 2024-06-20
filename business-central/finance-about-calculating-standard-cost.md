@@ -8,8 +8,9 @@ ms.search.form: 5841
 ms.author: bholtorf
 ms.date: 10/10/2023
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="about-calculating-standard-cost"></a>Om beregning af standardomkostning
+# Om beregning af standardomkostning
 
 Mange produktionsvirksomheder vælger en værdiansættelse for standardkostpriser. Dette gælder også for virksomheder, der udfører let produktion som montage og kitting. Et system til standardkostpriser bestemmer lagerkostprisen på basis af nogle rimelige historiske eller forventede omkostninger. Undersøgelser af tidligere og fremtidige omkostningsdata kan derefter danne grundlag for standardkostpriser. Standardkostpriserne er fastfrosne, indtil der træffes en beslutning om, at de skal ændres. De faktiske omkostninger til at fremstille et produkt kan afvige fra de forventede standardomkostninger. Af hensyn til styringen sammenlignes den faktiske kostpris med standardkostprisen for en bestemt vare, og forskellene, eller *afvigelser*, identificeres og analyseres.  
 
@@ -21,7 +22,7 @@ Standardkostpriserne kan opretholdes for varer, der genopfyldes via indkøb, mon
 |**Montage**|Direkte materialeomkostninger, direkte eller faste arbejdsomkostninger og faste omkostninger.|  
 |**Prod.ordre**|Direkte materialeomkostninger, arbejdsomkostninger, underleverandøromkostninger og faste omkostninger.|  
 
-## <a name="setting-up-standard-costs"></a>Oprette standardkostpriser
+## Oprette standardkostpriser
 
 Da standardkostprisen for en fremstillet vare eller en montagevare kan bestå af flere kostelementer, herunder materialeomkostninger, kapacitetsomkostninger (arbejdskraft) og direkte og faste underleverandøromkostninger, skal der oprettes standardkostpriser for hvert af disse elementer.  
 
@@ -38,7 +39,7 @@ Følgende vigtigste omkostningselementer udgør den samlede direkte omkostning f
 - Kapacitetskostpris.  
 - Underleverandøromkostninger for kun producerede varer.  
 
-### <a name="material-costs"></a>Materialekostpriser
+### Materialekostpriser
 
 Materialekostpriser, der er forbundet med underordnede samlinger og indkøbte råvarer. Materialekostprisen kan bestå af direkte og indirekte kostelementer.  
 
@@ -56,7 +57,7 @@ Materialeomkostningerne for en fremstillet vare kan repræsenteres på to måder
 |Enkelt niveau|Produceret vare er lig med det samlede kostbeløb af alle varer, der er indkøbte eller underordnede samlinger, på denne vares produktionsstykliste.|  
 |Akkumuleret niveau eller flere niveauer|Den fremstillede vare er summen af materialeomkostningerne for alle underordnede samlinger på varens stykliste og omkostningerne for alle købte varer på varens produktionsstykliste.|  
 
-### <a name="capacity-costs"></a>Kapacitetsomkostninger
+### Kapacitetsomkostninger
 
 Kapacitetsomkostninger er omkostninger, der er knyttet til intern arbejdskraft og maskinomkostninger. Du skal angive disse omkostninger for hver ressource (i montagestyring) og arbejds- eller produktionscenter på ruten (i produktion). Som med materialer kan du identificere både direkte og indirekte elementer af kapacitetsomkostninger. Den direkte omkostning for et arbejdscenter kan f.eks. være den fastsatte produktionstakst for udførelse af en bestemt funktion. Den indirekte omkostning for et arbejdscenter kan repræsentere nogle generelle fremstillingsomkostninger, f.eks. lys, varme osv. Som med materialeomkostninger kan indirekte kapacitetsomkostninger udtrykkes som en indirekte omkostningsprocent eller en fast sats.  
 
@@ -81,13 +82,13 @@ Hvis du vil angive opstillingstiden på ruten af hensyn til planlægningen, men 
 
 På enkeltniveaubasis er det den arbejdsomkostning, der kræves til fremstilling af den færdige vare, og den angives på fremstillingsvarens rute. På akkumuleret niveau er dette den kapacitetsomkostning, der er angivet for hver enkelt fremstillet vare, der er medtaget på den overordnede vares stykliste.  
 
-### <a name="subcontractor-costs"></a>Underleverandøromkostninger
+### Underleverandøromkostninger
 
 Underleverandøromkostningerne er de omkostninger, der er knyttet til serviceydelser, der leveres af en virksomheds eksterne leverandører eller underleverandører. Ligesom for materiale- og kapacitetsomkostninger kan underleverandøromkostninger bestå af både direkte og indirekte omkostninger. Direkte underleverandøromkostninger repræsenterer det faktiske beløb for hver serviceenhed, der leveres. Faste underleverandøromkostninger kan f.eks. repræsentere fragtomkostninger og håndteringsomkostninger i forbindelse med en ordre til en underleverandør.  
 
 Da underleverandøropgaver er en udliciteret kapacitet, skal du oprette omkostningerne for både direkte og indirekte underleverandørtjenester på det arbejdscenterkort, der repræsenterer underleverandøroperationen.  
 
-## <a name="updating-standard-costs"></a>Opdatere standardkostpriser
+## Opdatere standardkostpriser
 
 Hvis du vil opdatere eller beregne standardkostprisen for montageelementer, skal du bruge funktionen fra varekortet.  
 
@@ -98,9 +99,9 @@ Processen med at opdatere eller beregne standardkostpriser består typisk af fø
 3.  Implementering af de standardkostpriser, der angives, når du kører de tidligere kørsler. Standardkostpriserne træder ikke i kraft, før de er implementeret. Med **Implementer std.kostprisændringer**-kørslen, der opdaterer ændringerne i standardkostprisen for varer med ændringerne i tabellen Standardkostpriskladde.  
 4.  Implementering af ændringer for at opdatere feltet **Kostpris** på varekortet og udførsel af lagerværdiregulering. Du kan finde flere oplysninger i [Regulere lagerbeholdningen](inventory-how-revalue-inventory.md).
 
-## <a name="use-batch-jobs-to-update-standard-costs"></a>Bruge kørsler til at opdatere standardkostpriser
+## Bruge kørsler til at opdatere standardkostpriser
 I følgende afsnit beskrives de kørsler, du kan bruge til at opdatere standardkostpriser.
-### <a name="suggest-item-standard-cost"></a>Foreslå kostpris (standard)
+### Foreslå kostpris (standard)
 
  Opretter forslag til ændring af kostpriser og kostprisfordelinger af kostpris (standard) på varekortene. Når kørslen er afsluttet, kan du se resultatet i vinduet Standardkostpriskladde.
 
@@ -108,7 +109,7 @@ I følgende afsnit beskrives de kørsler, du kan bruge til at opdatere standardk
 > Denne kørsel bruges kun til indkøbte varer. Hvis du vil opdatere en vare med en produktionsstykliste eller en montagestykliste, skal du først udfylde kladden med alle komponenterne og derefter udføre kørslen Akkum. standardkostpris.
 
 Med denne kørsel oprettes der kun forslag. De foreslåede ændringer implementeres ikke. Hvis du er tilfreds med forslagene og vil implementere dem, dvs. opdatere dem på varekortene og indføje dem i Værdireguleringskladde, så skal du klikke på Implementer std.kostprisændringer i vinduet Standardkostpriskladde.
-#### <a name="options"></a>Indstillinger
+#### Indstillinger
 
 **Kostpris (standard)**: Angiv den justeringsfaktor, du vil bruge til at opdatere standardkostprisen. Du kan også vælge en afrundingsmetode for den nye standardkostpris. Du skal udfylde feltet med en decimal for den procentvise stigning, f.eks. 1.1.
 
@@ -116,21 +117,21 @@ Med denne kørsel oprettes der kun forslag. De foreslåede ændringer implemente
 
 **IPO-bidrag**: Angiv den justeringsfaktor, du vil bruge til at opdatere IPO-bidraget. Du kan også vælge en afrundingsmetode for det nye IPO-bidrag. Du skal udfylde feltet med en decimal for den procentvise stigning, f.eks. 1.1.
 
-### <a name="suggest-workmach-ctr-std-cost"></a>Foreslå arb.ctr./prd.res.kostp
+### Foreslå arb.ctr./prd.res.kostp
 
 Opretter forslag til ændring af kostpriser og kostprisfordelinger af kostpris på arbejdscenter, produktionsressource eller ressourcekort. Når kørslen er afsluttet, kan du se resultatet i vinduet **Standardkostpriskladde**.
 
 Med denne kørsel oprettes der kun forslag. De foreslåede ændringer implementeres ikke. Hvis du er tilfreds med forslagene og vil implementere dem, dvs. opdatere dem på arbejdscenteret/produktionsressource og ressourcekortene og indføje dem i Værdireguleringskladde, så skal du klikke på **Implementer std.kostprisændringer** i vinduet **Standardkostpriskladde**.
 
 Når du har udført kørslen og ønsker at se, hvilken virkning den har på produktionen eller samleafdelinger, kan du udføre kørslen **Akkum. standardkostpris** for at opdatere kostpriserne (standard) på arbejdscentre, produktionsressourcer, montageressourcer, produktionsstyklister og montagestyklister.
-#### <a name="options-1"></a>Indstillinger
+#### Indstillinger
 **Kostpris (standard)**: Angiv den justeringsfaktor, du vil bruge til at opdatere standardkostprisen. Du kan også vælge en **afrundingsmetode** for den nye standardkostpris. Du skal udfylde feltet med en decimal for den procentvise stigning, f.eks. 1.1.
 
 **Indir. omkost.pct**: Angiv den justeringsfaktor, du vil bruge til at opdatere den indirekte omkostningsprocent. Du kan også vælge en afrundingsmetode for den nye indirekte omkostningsprocent. Du skal udfylde feltet med en decimal for den procentvise stigning, f.eks. 1.1.
 
 **IPO-bidrag**: Angiv den justeringsfaktor, du vil bruge til at opdatere IPO-bidraget. Du kan også vælge en afrundingsmetode for det nye IPO-bidrag. Du skal udfylde feltet med en decimal for den procentvise stigning, f.eks. 1.1.
 
-### <a name="post-inventory-cost-to-gl"></a>Bogfør lagerregulering til Finans
+### Bogfør lagerregulering til Finans
 
  Registrerer ændringen i antal og værdi for lageret i vareposterne og værdiposterne, når du bogfører lagertransaktioner som f.eks. salgsleverancer eller købsmodtagelser.
 
@@ -148,7 +149,7 @@ Hvis du vil sikre, at der ikke opstår fejl under en kørsel, kan du køre rappo
  
 > [!IMPORTANT]  
 > Inden du bruger kørslen, skal du udføre kørslen **Juster kostpris - vareposter**. Dette sikrer, at de kostpriser, der bogføres i finansregnskabet, er opdateret, når du har udført kørslen.
-#### <a name="options-2"></a>Indstillinger
+#### Indstillinger
 
 |Indstilling  |Beskrivelse  |
 |--------------|---------|
@@ -156,7 +157,7 @@ Hvis du vil sikre, at der ikke opstår fejl under en kørsel, kan du køre rappo
 |**Bilagsnr.**|I dette felt kan du angive et bilagsnummer, hvis du har markeret indstillingen Pr. varebogføringsgruppe. Bilagsnummeret vil fremgå af de bogførte poster.|
 |**Bogfør**|Markér dette felt, hvis batchjobbet skal bogføre til finanskontiene automatisk. Hvis du vælger ikke at bogføre lagerreguleringen, udskrives der kun en kontrolrapport, som viser de værdier, der kan bogføres i finansregnskabet, og rapporten indeholder teksten: **Kontroludskrift (er ikke bogført)**.|
 
-### <a name="roll-up-standard-cost"></a>Akkum. standardkostpris
+### Akkum. standardkostpris
 
 Akkumulerer standardkostpriser over samlede og fremstillede varer. Disse påvirkes af ændringen i standardkostprisen for komponenter, der foreslås af kørslen **Foreslå kostpris (standard)**. Desuden påvirkes de af ændringen i standardkostprisen for produktionskapacitets- og montageressourcer, der foreslås af kørslen **Foreslå arb.ctr./prd.res.kostp**.
 
@@ -166,14 +167,14 @@ Når du har udført en eller begge kørsler, og du foretager akkumuleringen, imp
 > Med denne funktion akkumuleres standardkostprisen kun på varekortene, ikke på lagerkortene.
 
 Med denne kørsel oprettes der kun forslag. De foreslåede ændringer implementeres ikke. Hvis du er tilfreds med forslagene og vil implementere dem, dvs. opdatere dem på varekortene og sætte dem ind i **værdireguleringskladden**, kan du udføre kørslen **Implementer standardkostprisændring**. Du har adgang til denne kørsel fra vinduet **Standardkostpriskladde**.
-#### <a name="options-3"></a>Indstillinger
+#### Indstillinger
 
 **Beregningsdato**: Angiv den dato, der gælder for den version af produktionsstyklisten, du vil foretage akkumuleringen for.
  
-### <a name="implement-standard-cost-change"></a>Implementer standardkostprisændring
+### Implementer standardkostprisændring
 
 Opdaterer ændringerne i standardkostprisen i tabellen **Vare** med ændringerne i tabellen **Standardkostpriskladde**. Du kan oprette forslagene til standardkostprisændringer med kørslen **Foreslå kostpris (standard)** og/eller kørslen **Foreslå arb.ctr./prd.res.kostp**, og de kan også ændres. Indholdet i alle felterne i forslagene til standardkostprisændringer overføres. Når du implementerer forslag til standardkostprisændringer, kan du se dem på varekortet og/eller på arbejdscenter- og produktionsressourcekortene. Der oprettes også en værdireguleringskladde, som du bruger til at opdatere værdien af det eksisterende lager.
-#### <a name="options-4"></a>Indstillinger
+#### Indstillinger
 
 **Bogføringsdato**: Angiv den dato, hvor værdireguleringen skal finde sted.
 
@@ -185,7 +186,7 @@ Opdaterer ændringerne i standardkostprisen i tabellen **Vare** med ændringerne
 
 Vælg **OK** for at starte kørslen. Hvis du ikke vil starte kørslen nu, skal du vælge **Annuller** for at lukke vinduet.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Designoplysninger: Beregningsmetoder](design-details-costing-methods.md)  
 [Opdatere kostpris (standard)](finance-how-to-update-standard-costs.md)  

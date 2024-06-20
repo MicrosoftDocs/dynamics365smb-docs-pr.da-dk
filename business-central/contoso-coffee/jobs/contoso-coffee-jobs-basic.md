@@ -7,8 +7,9 @@ ms.topic: how-to
 ms.date: 05/31/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="walkthrough-of-basic-jobs"></a>Gennemgang af grundlæggende job
+# Gennemgang af grundlæggende job
 
 Denne gennemgang viser flere centrale processer:
 
@@ -16,13 +17,13 @@ Denne gennemgang viser flere centrale processer:
 - Registrer tids- og materialeudgifter for et projekt
 - Fakturere et projekt
 
-## <a name="adding-a-project-task"></a>Tilføje en projektopgave
+## Tilføje en projektopgave
 
-### <a name="scenario"></a>Scenarie
+### Scenarie  
 
 Simon, projektlederen, vil gerne bruge rekordtid på at lære kunden, hvordan man bruger espressomaskineproduktet. Simon ønsker at bruge en separat opgave i jobbet til installation af en kommerciel maskine på stedet.
 
-### <a name="steps"></a>Trin
+### Trin
 
 1. Oprette projektopgaven.
 
@@ -38,17 +39,17 @@ Simon, projektlederen, vil gerne bruge rekordtid på at lære kunden, hvordan ma
    1. I området Opgaver skal du finde handlingen **Indryk projektopgaver**.
    2. Bekræft, at du vil indrykke opgaver ved at vælge **Ja**.
 
-### <a name="results"></a>Resultater
+### Resultater
 
  - Nu kan tid og udgifter registreres til den nye projektopgave
 
-## <a name="record-time-and-material-expenses-to-a-project"></a>Registrer tids- og materialeudgifter for et projekt
+## Registrer tids- og materialeudgifter for et projekt
 
-### <a name="scenario-1"></a>Scenarie
+### Scenarie  
 
 Edgin, den tekniker, der installerer maskinen, skal registrere sin tid og de materialer, der bruges under installationen, til jobbet til fakturering. Edgin har allerede tilføjet rejser og materialer, og nu skal han tilføje tid til lærerpersonalet, hvordan man bruger maskinen.
 
-### <a name="steps-1"></a>Trin
+### Trin
 
 1. Opret ekstra projektkladdelinjer.
 
@@ -64,20 +65,20 @@ Edgin, den tekniker, der installerer maskinen, skal registrere sin tid og de mat
    1. Vælg handlingen **Bogfør**.
    2. Bekræft, at du vil indrykke linjerne ved at vælge **Ja**.
 
-### <a name="results-1"></a>Resultater
+### Resultater
 
 - Der oprettes projektposter og ressourceposter af typen *Forbrug*.
 - Der oprettes vareposter for at justere lagerbeholdningen negativt.
 - På projektkortet afspejler omkostnings- og prisområdet i området Opgaver de nye saldi, der venter på at blive faktureret.
 - På projektkortet afspejler projektoplysninger-faktaboksen de samlede priser.
 
-## <a name="creating-a-sales-invoice-for-a-project"></a>Oprettelse af en salgsfaktura for et projekt
+## Oprettelse af en salgsfaktura for et projekt
 
-### <a name="scenario-2"></a>Scenarie
+### Scenarie  
 
 Simon skal oprette og bogføre en faktura, der skal sendes til kunden med hensyn til tid og udgifter fra projektet.
 
-### <a name="steps-2"></a>Trin
+### Trin
 
 1. Opret salgsfakturaen.
 
@@ -92,7 +93,7 @@ Simon skal oprette og bogføre en faktura, der skal sendes til kunden med hensyn
    2. Vælg den sidste faktura for at åbne den til gennemsyn.
    3. Vælg handlingen **Bogfør**.
 
-### <a name="results-2"></a>Resultater
+### Resultater
 
 - Der oprettes projektposter og ressourceposter af typen *Salg*.
 - På projektkortet afspejler omkostnings- og prisområdet i området Opgaver de nye fakturerede saldi.

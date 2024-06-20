@@ -6,9 +6,10 @@ ms.author: bholtorf
 ms.topic: conceptual
 ms.date: 12/12/2023
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="handling-missing-option-values"></a>Håndtering af manglende indstillingsværdier
+# Håndtering af manglende indstillingsværdier
 > [!NOTE]
 > I 2022 udgivelsesbølge 1 kan du oprette dine egne indstillingstilknytninger. Du kan finde flere oplysninger under [Tilpasse indstillingstilknytninger med Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). De nye funktioner kræver, at administratoren aktiverer **Funktionsopdatering: Tilknytning til grupperede indstillinger i Dataverse uden kode** på siden **Funktionshåndtering**. Du kan finde flere oplysninger i [Aktivere Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -81,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Alle førnævnte [!INCLUDE[prod_short](includes/prod_short.md)]-fasttekster er knyttet til grupperede indstillinger i [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-## <a name="extending-option-sets-in-"></a>Udvide grupperede indstillinger i [!INCLUDE[prod_short](includes/prod_short.md)]
+## Udvide grupperede indstillinger i [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Opret en ny AL-udvidelse.
 
 2. Tilføj en Fasttekst-udvidelse for de indstillinger, du vil udvide. Sørg for at bruge samme værdi. 
@@ -103,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > De første ti tegn i den nye indstillingsværdi og billedteksterne skal være entydige. De to indstillinger med navnet "Overfør 20 arbejdsdage" og "Overfør 20 kalenderdage" vil for eksempel forårsage en fejl, fordi begge har de samme første ti tegn, "Overførsel 2". Du kan f.eks. kalde dem for "TRF20 WD" og "TRF20 CD".
 
-## <a name="update--option-mapping"></a>Opdater [!INCLUDE[prod_short](includes/cds_long_md.md)]-indstillingstilknytning
+## Opdater [!INCLUDE[prod_short](includes/cds_long_md.md)]-indstillingstilknytning
 Nu kan du gendanne tilknytningen mellem [!INCLUDE[prod_short](includes/cds_long_md.md)]-indstillingerne og [!INCLUDE[prod_short](includes/prod_short.md)]-posterne.
 
 På siden **Integrationstabeltilknytning** skal du vælge linjen for tilknytningen **Betalingsbetingelser** og vælge handlingen **Synkroniser ændrede records**. Siden **Dataverse-indstillingstilknytning** opdateres med de yderligere poster nedenfor.
@@ -139,7 +140,7 @@ Tabellen **Betalingsbetingelser** i [!INCLUDE[prod_short](includes/prod_short.md
 | *NET60*      |                      |                           | 0.         | FALSK                         |                   |
 | ***OVERFØRSEL*** |                      |                           | 0.         | FALSK                         |                   |
 
-## <a name="see-also"></a>Se også
+## Se også
 [Tilknytning af tabeller og felter til synkronisering](admin-how-to-modify-table-mappings-for-synchronization.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

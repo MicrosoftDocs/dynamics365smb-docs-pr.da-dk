@@ -8,14 +8,15 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="design-details-searching-for-dimension-combinations"></a>Designoplysninger: Søgning efter dimensionskombinationer
+# Designoplysninger: Søgning efter dimensionskombinationer
 Når du lukker en side, efter du har redigeret et sæt dimensioner, evaluerer [!INCLUDE[prod_short](includes/prod_short.md)], om det redigerede sæt dimensioner findes. Hvis det ikke findes, oprettes der et nyt sæt, og dimensionens kombinations-ID returneres.  
 
-## <a name="building-search-tree"></a>Oprettelse af søgetræ
+## Oprettelse af søgetræ  
  Tabel 481 **Trænode for dimensionsgruppe** bruges, når [!INCLUDE[prod_short](includes/prod_short.md)] evaluerer, om der allerede findes et sæt dimensioner i tabel 480 **Dimensionsgruppepost**. Evalueringen udføres ved rekursivt at gennemgå søgningstræet startende på øverste niveau, der er nummereret 0. Det øverste niveau 0 repræsenterer et dimensionssæt uden nogen dimensionssætposter. Underordnede til denne dimensionsgruppe repræsenterer dimensionsgrupper med kun én dimensionsgruppepost. Underordnede til disse dimensionsgrupper repræsenterer dimensionsgruppe med to underordnede, osv.  
 
-### <a name="example-1"></a>Eksempel 1
+### Eksempel 1  
  I følgende diagram præsenteres et søgetræ med seks dimensionsgrupper. Kun den distinkte dimensionsopsætningspost vises i diagrammet.  
 
  ![Eksempel på dimensionstræstruktur.](media/nav2013_dimension_tree.png "Eksempel på dimensionstræstruktur")  
@@ -32,14 +33,14 @@ Når du lukker en side, efter du har redigeret et sæt dimensioner, evaluerer [!
 |Gruppe 5|AREA 40|  
 |Gruppe 6|AREA 40, PROJ VW|  
 
-### <a name="example-2"></a>Eksempel 2
+### Eksempel 2  
  Dette eksempel viser, hvordan [!INCLUDE[prod_short](includes/prod_short.md)] evaluerer, om en dimensionsgruppe, der består af dimensionsgruppeposterne AREA 40, DEPT PROD, findes.  
 
  Først opdaterer [!INCLUDE[prod_short](includes/prod_short.md)] også tabellen **Trænode for dimensionsgruppe** for at sikre, at søgetræet ligner følgende diagram. Dermed bliver dimensionsgruppe 7 underordnet dimensionsgruppe 5.  
 
  ![Eksempel på dimensionstræstruktur i NAV 2013.](media/nav2013_dimension_tree_example2.png "Eksempel på dimensionstræstruktur i NAV 2013")  
 
-### <a name="finding-dimension-set-id"></a>Søgning efter dimensionsgruppe-id
+### Søgning efter dimensionsgruppe-id  
  På et konceptuelt niveau kombineres og bruges **Overordnet id**, **Dimension** og **Dimensionsværdi** i søgetræet som den primære nøgle, fordi [!INCLUDE[prod_short](includes/prod_short.md)] gennemgår træet i samme rækkefølge som dimensionsposterne. Funktionen GET (post) bruges til at søge efter dimensionsgruppe-id. Følgende kodeeksempel viser, hvordan du kan finde dimensionsgruppe-id, når der er tre dimensionsværdier.  
 
 ```  
@@ -64,7 +65,7 @@ EXIT(DimSet.ID);
 
 ```  
 
-## <a name="see-also"></a>Se også
+## Se også
     
  [Designoplysninger: Dimensionsgruppeposter](/dynamics365/business-central/design-details-dimension-set-entries-overview)   
  [Oversigt over dimensionsgruppeposter](design-details-dimension-set-entries-overview.md)   

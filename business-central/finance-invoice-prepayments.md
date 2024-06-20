@@ -8,8 +8,9 @@ ms.search.form: '42, 42, 48, 50, 52, 9305, 9307'
 ms.date: 12/03/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="invoicing-prepayments"></a>Fakturere forudbetalinger
+# Fakturere forudbetalinger
 
 [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -28,7 +29,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Oprette en ordre, regulere forudbetalingsbeløb, og udstede en faktura for forudbetalingsbeløb.|[Oprette forudbetalingsfakturaer](finance-how-to-create-prepayment-invoices.md)|  
 |Udstede en supplerende forudbetalingsfaktura, enten for ekstra varer eller for et ekstra depositum til den oprindelige ordre, eller udstede en forudbetalingskreditnota.|[Rette forudbetalinger](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Gennemgang: Opsætning og fakturering af salgsforudbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finans](finance.md)  

@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 10/02/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Hvis du installerer mobilappen [!INCLUDE [prod_short](prod_short.md)] på din iOS- eller Android-mobilenhed, kan du bruge enhedens kamera til at scanne dine 1D- eller 2D-stregkoder for at opdatere oplysninger i [!INCLUDE [prod_short](prod_short.md)]. 

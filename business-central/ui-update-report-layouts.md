@@ -8,8 +8,9 @@ ms.search.form: '9652, 9650'
 ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="legacy-update-custom-report-layouts"></a>(Ældre) Opdater brugerdefinerede rapportlayouts
+# (Ældre) Opdater brugerdefinerede rapportlayouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -21,7 +22,7 @@ Du har også mulighed for at kontrollere opdateringer uden at anvende de nødven
 
 Ikke alle ændringer af rapportdatasæt kan opdateres automatisk i rapportlayout. Nogle ændringer kræver, at du manuelt redigere rapportlayout. Du kan finde flere oplysninger i [Begrænsninger for den brugerdefinerede rapport layoutopdatering](ui-update-report-layouts.md#UpdateLimitations).  
 
-## <a name="to-update-one-or-more-custom-report-layouts"></a>Sådan opdaterer du ét eller flere brugerdefinerede rapportlayout
+## Sådan opdaterer du ét eller flere brugerdefinerede rapportlayout  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
 
@@ -29,7 +30,7 @@ Ikke alle ændringer af rapportdatasæt kan opdateres automatisk i rapportlayout
 
 Hvis der ikke opstår fejl, anvendes opdateringerne på rapportlayout. Hvis der opstår fejl, vises en meddelelse, der indeholder de fejl, der er. Derefter skal du manuelt redigere brugerdefinerede rapportlayout for at rette fejlen. Du kan finde flere oplysninger i [Rettelse af fejl](ui-update-report-layouts.md#FixErrors).  
 
-## <a name="to-test-custom-report-layout-updates"></a>Sådan kontrollerer du opdateringer til brugerdefinerede rapportlayout
+## Sådan kontrollerer du opdateringer til brugerdefinerede rapportlayout  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
 
@@ -37,7 +38,7 @@ Hvis der ikke opstår fejl, anvendes opdateringerne på rapportlayout. Hvis der 
 
  Ændringer til de viste rapportlayout testes, men anvendes ikke på de faktiske rapportlayout. En **Log over rapportlayoutopdatering**-side åbnes og viser status for de mulig opdateringer til hver rapportlayout. Hvis der er fejl i et rapportlayout, kan du åbne rapportlayout direkte til redigering fra meddelelsen for at løse problemer. Du kan finde flere oplysninger i [Rettelse af fejl](ui-update-report-layouts.md#FixErrors).  
 
-## <a name="limitations-of-the-custom-report-layout-update"></a><a name="UpdateLimitations"></a>Begrænsninger for den brugerdefinerede rapport layoutopdatering
+##  <a name="UpdateLimitations"></a> Begrænsninger for den brugerdefinerede rapport layoutopdatering  
  Der er flere typer ændringer, som den automatisk opdatering kan anvende på brugerdefinerede rapportlayout, f.eks. er et felt, der bruges i layoutet, fjernet fra rapportens datasæt. Men den automatisk opdatering kan ikke håndtere følgende ændringer af et rapportdatasæt.  
 
 1.  Slettede felter, etiketter eller dataelementer.  
@@ -48,7 +49,7 @@ Hvis der ikke opstår fejl, anvendes opdateringerne på rapportlayout. Hvis der 
 
  Hvis der registreres et af disse problemer under opdateringen, kan opdateringen ikke anvendes. Du er nødt til at løse problemerne manuelt, f.eks. ved at redigere rapportlayoutet i Word, eller gennem programmering ved at bruge opgraderingskodeenheder.  
 
-## <a name="fixing-errors"></a><a name="FixErrors"></a>Rettelse af fejl
+##  <a name="FixErrors"></a> Rettelse af fejl  
  Hvis du får en fejlmeddelelse, når du opdaterer eller kontrollerer layoutopdateringer, skal du sandsynligvis ændre rapportens layout for at løse problemet. Læs fejlmeddelelsen for at finde årsagen til problemet.  
 
  Det mest almindelige problem opstår, når et felt, der bruges i layoutet, er blevet fjernet fra rapportens datasæt. I dette tilfælde vil du se en linje i den fejlmeddelelse, der angiver, at en vare er blevet fjernet. Du kan løse dette problem ved at ændre layoutet og fjerne det pågældende felt.  
@@ -57,7 +58,7 @@ Hvis der ikke opstår fejl, anvendes opdateringerne på rapportlayout. Hvis der 
 
 Når du ændrer layoutet, kan du prøve at opdatere layoutet igen.  
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Administration af rapportlayout](ui-manage-report-layouts.md)  
  [Arbejde med rapporter, kørsler og XMLporte](ui-work-report.md)  
 

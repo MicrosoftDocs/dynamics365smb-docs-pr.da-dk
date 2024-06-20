@@ -8,8 +8,9 @@ ms.search.form: '99000846, 99000850'
 ms.date: 03/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="batch-post-production-consumption"></a>Massebogføre produktionsforbrug
+# Massebogføre produktionsforbrug
 
 Hvis trækmetoden er **Manuel**, skal du bruge forbrugskladden til at bogføre komponenterne manuelt.  
 
@@ -18,7 +19,7 @@ Hvis trækmetoden er **Manuel**, skal du bruge forbrugskladden til at bogføre k
 
 Du kan også konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til automatisk at bogføre (*trække*) komponenterne, når du starter eller afslutter produktionsordrer. Du kan finde flere oplysninger i [Aktivere udtrækning af komponenter i henhold til operationsafgang](production-how-to-flush-components-according-to-operation-output.md).
 
-## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Sådan bogføres forbrug for en eller flere produktionsordrelinjer
+## Sådan bogføres forbrug for en eller flere produktionsordrelinjer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Forbrugskladde**, og vælg derefter det relaterede link.  
 2. Udfyld felterne med produktionsordredata og forbrugsdata. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -32,7 +33,7 @@ Du kan også konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til auto
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Produktion](production-manage-manufacturing.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  

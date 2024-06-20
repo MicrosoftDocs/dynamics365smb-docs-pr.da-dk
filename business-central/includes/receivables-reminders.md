@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Du kan bruge rykkere til at minde debitorer om forfaldne beløb. Du kan også bruge rykkere til at beregne renter eller gebyrer og inkludere dem på rykkeren.
 
@@ -20,7 +21,7 @@ En debitorpost, hvor feltet **Afvent** er markeret, vil ikke udløse oprettelse 
 
 Når du har oprettet rykkere og foretaget eventuelle nødvendige ændringer, kan du enten udskrive testrapporter eller udstede rykkere, typisk som mail.
 
-### <a name="to-create-a-reminder-automatically"></a>Sådan oprettes en rykker automatisk
+### Sådan oprettes en rykker automatisk
 
 En rykker svarer til en faktura. Når du opretter en rykker, skal et rykkerhoved og en eller flere rykkerlinjer udfyldes. Du kan bruge en funktion til at oprette rykkere for alle kunder automatisk.
 
@@ -29,7 +30,7 @@ En rykker svarer til en faktura. Når du opretter en rykker, skal et rykkerhoved
 3. På siden **Opret rykkere** skal du udfylde felterne for at angive, hvordan og hvem rykkerne oprettes til.
 4. Vælg knappen **OK**.
 
-### <a name="to-create-a-reminder-manually"></a>Sådan oprettes rykkere manuelt
+### Sådan oprettes rykkere manuelt
 
 På siden **Rykker** skal du udfylde oversigtspanelet **Generelt** manuelt og lade linjerne blive udfyldt automatisk.
 
@@ -46,7 +47,7 @@ På siden **Rykker** skal du udfylde oversigtspanelet **Generelt** manuelt og la
 
 8. Vælg knappen **OK**.
 
-### <a name="to-replace-reminder-texts"></a>Sådan erstattes rykkertekst
+### Sådan erstattes rykkertekst
 
 Du kan angive den tekst, der angives i rykkere, på flere måder. I nogle tilfælde kan du have brug for at erstatte start- og slutteksten, der er angivet for det aktuelle niveau, med tekst fra et andet niveau.
 
@@ -55,7 +56,7 @@ Du kan angive den tekst, der angives i rykkere, på flere måder. I nogle tilfæ
 3. Angiv det ønskede niveau i feltet **Rykkerniveau** på siden **Opdater rykkertekst**.
 4. Klik på **OK** for at opdatere start- og slutteksten.
 
-### <a name="to-issue-a-reminder"></a>Sådan udstedes en rykker
+### Sådan udstedes en rykker
 
 Når du har oprettet rykkere og foretaget eventuelle nødvendige ændringer, kan du enten udskrive testrapporter eller udstede rykkere.
 
@@ -80,7 +81,7 @@ Desuden kan udstedelse af en rykker medføre momsposteringer.
 
 Rykkeren udskrives enten eller sendes til en mail, der er angivet som en vedhæftet PDF-fil.
 
-### <a name="to-cancel-an-issued-reminder"></a>Sådan annulleres en udstedt rykker
+### Sådan annulleres en udstedt rykker
 
 Hvis rykkere er blevet udstedt ved en fejl, kan du annullere dem, før de sendes. Det kan du gøre enten en for en eller som en kørsel.
 

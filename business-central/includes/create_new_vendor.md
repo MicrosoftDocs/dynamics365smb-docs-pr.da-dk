@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 09/27/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 2.](../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Leverandører**, og vælg derefter det relaterede link.  

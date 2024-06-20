@@ -9,8 +9,9 @@ ms.search.form: '39, 251'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="post-transactions-directly-to-the-general-ledger"></a>Bogføre transaktioner direkte i finansposterne
+# Bogføre transaktioner direkte i finansposterne
 
 Du bruger finanskladder til at bogføre økonomiske transaktioner direkte på finanskonti og andre konti, f.eks. bank-, debitor-, kreditor- og medarbejderkonti.  
 
@@ -20,7 +21,7 @@ Finanskladder bogfører finansposteringer direkte på finanskonti og andre konti
 
 I modsætning til poster, der bogføres med dokumenter, som kræver en kreditnotaproces, kan du korrekt tilbageføre poster, der bogføres i finanskladden. Du kan finde flere oplysninger i [Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md).
 
-## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Sådan bogføres en transaktion direkte på en finanspostkonto
+## Sådan bogføres en transaktion direkte på en finanspostkonto
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Finanskladder**, og vælg derefter det relaterede link.
 2. Åbn det relevante finanskladdenavn. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).
@@ -34,7 +35,7 @@ I modsætning til poster, der bogføres med dokumenter, som kræver en kreditnot
     > Hvis du vil angive flere transaktionslinjer over én modkontolinje, f.eks. for én bankkonto, skal du markere afkrydsningsfeltet **Foreslå modkontobeløb** på linjen for kørslen på siden **Finanskladdenavne**. Feltet **Beløb** på modkontolinjen er forudfyldt automatisk med den værdi, der skal bruges til at afstemme posteringerne.
 5. Vælg handlingen **Bogfør** for at registrere transaktionerne på de angivne konti i Finans.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbejde med finanskladder](ui-work-general-journals.md)  
 [Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md)  

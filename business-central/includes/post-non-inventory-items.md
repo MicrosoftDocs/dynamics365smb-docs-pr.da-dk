@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 09/21/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Lagermedarbejdere kan sende og modtage ikke-lagervarer sammen med fysiske varer på salgs- og købsordrer. Ikke-lagerførte varer er immaterielle aktiver, f.eks. forsikring eller ekstraomkostninger.

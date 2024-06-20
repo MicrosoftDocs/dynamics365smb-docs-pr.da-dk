@@ -9,9 +9,10 @@ ms.date: 09/28/2023
 ms.author: bholtorf
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Administrere arbejde på tværs af flere regnskaber i virksomhedshub
+# Administrere arbejde på tværs af flere regnskaber i virksomhedshub
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -24,7 +25,7 @@ Du kan få adgang til firma hubben ved at skifte til rollen **Virksomhedshub** i
 > [!NOTE]
 > Du kan tilslutte virksomhedens hub til så mange virksomheder, du har brug for. Du kan dog kun tilslutte virksomhedens hub til virksomheder, der er værtsbaseret på [!INCLUDE [prod_short](includes/prod_short.md)]-internettet.
 
-## <a name="company-hub-home-page"></a>Hjemmeside for virksomhedshub
+## Hjemmeside for virksomhedshub
 
 Hvis du bruger **Virksomhedshub**-rollen, viser din startside en liste over virksomheder, du har adgang til, herunder oplysninger om nøglepunkter med interesse data og links til at åbne hvert regnskab. <!--You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.--> Vælg **Virksomhedshub** for at åbne den virksomheds hub, hvor du kan arbejde mere snævert sammen med de enkelte regnskaber.  
 
@@ -52,13 +53,13 @@ In the **Company Hub** page, you can see more information about each company by 
 
 Otherwise, close the details pane and continue to the next company.  -->
 
-## <a name="assigned-tasks"></a>Tildelte opgaver
+## Tildelte opgaver
 
 I [!INCLUDE [prod_short](includes/prod_short.md)] kan du tildele opgaver til dig selv og andre, og andre kan tildele opgaver til dig. Virksomhedhubben giver dig en oversigt over tildelte opgaver for hver virksomhed, og du kan også få vist en oversigt over alle tildelte opgaver ved at vælge **Mine brugeropgaver** på siden **Start**.  
 
 <!--In the client company, you also have cues that call out tasks assigned to you in this particular client.  -->
 
-### <a name="my-user-tasks"></a>Mine brugeropgaver
+### Mine brugeropgaver
 
 Listen **Mine brugeropgaver** hjælper dig med at prioritere din dag ved at vise yderligere oplysninger om opgaver, der er tildelt til dig på tværs af alle dine virksomheder.  
 
@@ -70,7 +71,7 @@ Når du har fuldført en opgave, skal du markere den som fuldført.
 
 Du kan finde flere oplysninger om virksomheder og miljøer i [Miljølinks](company-hub-add-company.md#environment-links).  
 
-## <a name="access-the-company-hub"></a>Få adgang til virksomhedshubben
+## Få adgang til virksomhedshubben
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -81,7 +82,7 @@ For at der kan opnås adgang til virksomhedens hub, skal du have adgang via ente
 
 Hvis du ikke kan finde virksomhedens hub, og du ved, at du har fået adgang til den, skal du kontakte administratoren, hvis den pågældende virksomheds hub står på siden **Administration af udvidelse**. Du kan finde flere oplysninger i [Tilpasse Business Central ved hjælp af udvidelser](ui-extensions.md).  
 
-## <a name="set-up-the-company-hub"></a>Konfigurere virksomhedshub
+## Konfigurere virksomhedshub
 
 Hvis du vil begynde at bruge virksomhedens hub, skal du tilføje et eller flere regnskaber til dit dashboard. Du kan finde flere oplysninger i [Tilføj firmaer til virksomhedshub](company-hub-add-company.md).  
 
@@ -91,7 +92,7 @@ Hvis du f.eks. er bogholder, kan dine klienter invitere dig til deres [!INCLUDE 
 
 Administratorer kan bruge den samme assisterede opsætningsvejledning til at føje dig til deres [!INCLUDE [prod_short](includes/prod_short.md)], eller de kan føje dig til den relevante Microsoft Entra-konto i Microsoft 365 Administration. Du kan finde flere oplysninger i [Administrere brugere og grupper](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilføj firmaer til virksomhedens hub](company-hub-add-company.md)  
 [Revisoroplevelser i Business Central](finance-accounting.md)  

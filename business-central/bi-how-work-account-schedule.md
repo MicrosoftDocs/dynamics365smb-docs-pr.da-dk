@@ -3,21 +3,21 @@ title: Opbygge finansrapporter med finansdata og kontokategorier
 description: 'Beskriver, hvordan du kan bruge finansrapporter til at oprette forskellige visninger og rapporter til analyse af data for finansiel ydeevne.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 03/27/2024
 ms.custom: bap-template
 ms.search.keywords: 'bi, power BI, analysis, KPI, account schedule, financial report'
-ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
+ms.search.form: 'Report_25, 103, 104, 108, 195, 196, 197, 198, 488, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
-# <a name="prepare-financial-reporting-with-financial-data-and-account-categories"></a>Forberede Financial Reporting med finansdata og kontokategorier
+# Forberede Financial Reporting med finansdata og kontokategorier
 
 Du kan bruge **finansrapporter** til at få indsigt i de finansielle oplysninger, der er gemt i din kontoplan (COA). Du kan konfigurere finansrapporter til at analysere tal i finanskonti og sammenligner finansposter med budgetposter. Resultaterne vises i diagrammer og rapporter på rollecenteret, f.eks. tabellen Likviditet og resultatopgørelsen og balancerapporterne. Du kan få adgang til disse to rapporter, f.eks. med handlingen **Regnskabsopgørelser** på hjemmesider Business Manager og Revisor.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder eksempler på finansrapporter, som du kan bruge med det samme som skabeloner. Du kan også oprette dine egne rapporter for at angive de tal, der skal sammenlignes. Du kan f.eks. oprette finansrapporter for at beregne avancer med dimensioner som afdelinger eller debitorgrupper. Antallet af finansielle rapporter, du kan oprette, er ubegrænset og kræver ingen involvering af en udvikler.  
 
-## <a name="prerequisites-for-financial-reporting"></a>Forudsætninger for regnskabsaflæggelse
+## Forudsætninger for regnskabsaflæggelse
 
 Oprettelse af finansrapporter kræver en forståelse af strukturen i din kontoplan. Der er tre nøglebegreber, som du sandsynligvis skal være opmærksom på, før du designer dine økonomiske rapporter:
 
@@ -31,7 +31,7 @@ Når du konfigurerer dimensioner, kan du opdele dine økonomiske data på måder
 
 Du kan f.eks. få vist finansposter som procenter af budgetposter, men det kræver, at du har oprettet budgetter. Flere oplysninger i [Oprette finansbudgetter](finance-how-create-budgets.md).
 
-## <a name="financial-reports"></a>Finansielle rapporter
+## Finansielle rapporter
 
 Finansielle rapporter arrangerer konti fra din kontoplan på en måde, der gør det nemmere at præsentere data. Du kan oprette forskellige layout for at definere de oplysninger, du vil uddrage af kontoplanen. Finansielle rapporter udfører også beregninger, der ikke kan foretages direkte i diagrammet for kassekonti. Du kan f. eks. oprette subtotaler for grupper af konti og derefter medtage denne total i andre totaler. Et andet eksempel er at beregne avancer på dimensioner som afdelinger eller debitorgrupper. Desuden kan finansposter og budgetposter filtreres, f.eks. efter nettobevægelse eller debitbeløb.
 
@@ -63,13 +63,13 @@ Du kan også bruge formler til at sammenligne to eller flere finansielle rapport
 - Oprette lige så mange finansielle rapporter, der er brug for, hver med et entydigt navn.
 - Oprette forskellige rapportlayout og udskrive rapporterne med de aktuelle tal.
 
-## <a name="learning-path-create-financial-reports-in-microsoft-dynamics-365-business-central"></a>Læringssti: Oprette finansrapporter i Microsoft Dynamics 365 Business Central
+## Læringssti: Oprette finansrapporter i Microsoft Dynamics 365 Business Central
 
 Vil du lære at oprette budgetter og derefter bruge finansielle rapporter, dimensioner og række- og kolonnedefinitioner til at generere de økonomiske rapporter, der typisk er nødvendige for de fleste virksomheder?
 
 Start med at lære i læringsstien [Oprette finansrapporter i Microsoft Dynamics 365 Business Central](/training/paths/create-financial-reports-dynamics-365-business-central).
 
-## <a name="create-a-new-financial-report"></a>Oprette en ny finansiel rapport
+## Oprette en ny finansiel rapport
 
 Du bruger finansielle rapporter til at analysere finanskonti eller sammenligne finansposter med budgetposter. Du kan f.eks. få vist finansposter som procenter af budgetposter.
 
@@ -91,25 +91,25 @@ De finansielle rapporter i standardversionen af [!INCLUDE[prod_short](includes/p
 > [!NOTE]
 > Når du åbner en økonomisk rapport i tilstanden Vis/Rediger, er filter ruden tilgængelig. Brug ikke Filterruden til at filtrere for data i rapporten. Sådanne filtre kan forårsage fejl, eller de filtrerer muligvis ikke dataene. Brug i stedet felterne i oversigtspanelerne **Indstillinger** og **Dimensioner** til at oprette filtre til rapporten.
 
-### <a name="create-or-edit-a-row-definition"></a>Oprette eller redigere en rækkedefinition
+### Oprette eller redigere en rækkedefinition
 
 Rækkedefinitioner i finansielle rapporter udfører beregninger, der ikke kan foretages direkte i diagrammet for kassekonti. Du kan f. eks. oprette subtotaler for grupper af konti og derefter medtage denne total i andre totaler. Du kan også beregne mellemliggende trin, der ikke vises i den endelige rapport.
 
 Du kan få mere at vide ved at gå til [Rækkedefinitioner i finansrapportering](bi-row-definitions.md).
 
-### <a name="create-or-edit-a-column-definition"></a>Oprette eller redigere en kolonnedefinition
+### Oprette eller redigere en kolonnedefinition
 
 Brug kolonnedefinitioner til at angive, hvilke kolonner der skal med i den rapport, der oprettes. Du kan f.eks. udforme en rapport til sammenligning af bevægelse og saldo til dato for den samme periode dette år og sidste år. Du kan have op til 15 kolonner i en kolonnedefinition. Du kan f.eks. bruge flere kolonner til visning af budgetter for 12 måneder med en kolonne, der viser totalen.
 
 Du kan få mere at vide ved at gå til [Kolonnedefinitioner i finansrapportering](bi-column-definitions.md).
 
-## <a name="using-dimensions-in-financial-reports"></a>Brug af dimensioner i økonomiske rapporter
+## Brug af dimensioner i økonomiske rapporter
 
 I finansielle analyser er en dimension data, som du kan føje til en post som en slags markør. Disse data bruges til at gruppere poster med ens karakteristika, f.eks. debitorer, regioner, produkter og sælger, og disse grupper kan nemt hentes frem til analyse. Du kan bruge dimensioner til poster i kladder, dokumenter og budgetter.
 
 Hver dimension beskriver analysens fokus. En todimensional analyse kan f.eks. være pr. område. Hvis du bruger mere end to dimensioner, når du opretter en post, kan du udføre en mere kompleks analyse. Et eksempel på en kompleks analyse er at undersøge salg pr. salgskampagne pr. kundegruppe pr. område. Så får du større indsigt i din forretning, så du kan evaluere oplysningerne, f.eks. om hvor godt din forretning kører, hvor den blomster og hvor det ikke gør det, og hvor der bør allokeres flere ressourcer. Denne indsigt hjælper dig med at træffe mere informerede forretningsbeslutninger. Hvis du vil vide mere, skal du gå til [Arbejde med dimensioner](finance-dimensions.md).
 
-## <a name="set-up-financial-reports-with-overviews"></a>Oprette finansielle rapporter med oversigter
+## Oprette finansielle rapporter med oversigter
 
 Du kan bruge en financiel rapport til at oprette en opgørelse, hvor tallene i finansposter sammenlignes med tallene i finansbudgettet.
 
@@ -127,11 +127,11 @@ Du kan bruge en financiel rapport til at oprette en opgørelse, hvor tallene i f
 
 Du kan nu kopiere og indsætte budgetoversigten i et regneark..  
 
-## <a name="integrate-financial-reports-with-excel"></a>Integrere finansielle rapporter med Excel
+## Integrere finansielle rapporter med Excel
 
 Du kan integrere en økonomisk rapport med en Excel-projektmappeskabelon, justere layoutet, så det passer til dine behov, og derefter opdatere Excel-skabelonen med data fra [!INCLUDE[prod_short](includes/prod_short.md)]. Denne integration gør det f.eks. nemmere at generere dine månedlige og årlige regnskaber i et format, der fungerer for dig.
 
-### <a name="set-up-excel-integration-for-a-financial-report-create-an-excel-template"></a>Konfigurere Excel-integration for en økonomisk rapport (oprette en Excel-skabelon)
+### Konfigurere Excel-integration for en økonomisk rapport (oprette en Excel-skabelon)
 
 Hvis du vil konfigurere Excel-integration for en økonomisk rapport, skal du følge disse trin for at oprette en Excel-skabelon til en rapport.
 
@@ -147,7 +147,7 @@ Hvis du vil konfigurere Excel-integration for en økonomisk rapport, skal du fø
 1. Gem projektmappen på OneDrive eller et lignende sted, hvor filen sikkerhedskopieres og versioneres.
 1. Luk projektmappen.
 
-### <a name="run-a-financial-report-with-an-excel-template"></a>Køre en økonomisk rapport med en Excel-skabelon
+### Køre en økonomisk rapport med en Excel-skabelon
 
 Hvis du vil køre en økonomisk rapport med en Excel-skabelon, skal du følge disse trin:
 
@@ -158,7 +158,7 @@ Hvis du vil køre en økonomisk rapport med en Excel-skabelon, skal du følge di
 1. På siden **Navn/værdiopslag** skal du vælge dataregnearket.
 1. [!INCLUDE[prod_short](includes/prod_short.md)] kører den økonomiske rapport og fletter de resulterende data med din Excel-skabelon.
 
-## <a name="print-and-save-financial-reports"></a>Udskrive og gemme finansielle rapporter
+## Udskrive og gemme finansielle rapporter
 
 Du kan udskrive finansielle rapporter ved at bruge enhedens udskrivningsservice. [!INCLUDE[prod_short](includes/prod_short.md)] giver også muligheder for at gemme rapporter som Excel-projektmapper, Word-dokumenter, PDF-filer og XML-filer.
 
@@ -169,7 +169,7 @@ Du kan udskrive finansielle rapporter ved at bruge enhedens udskrivningsservice.
     1. Indstillingen **(Håndteres af browseren)** angiver, at der ikke er en udvalgt printer til rapporten. I dette tilfælde vil browseren håndtere udskriften og vise en standard oplevelse, hvor du kan vælge en lokal printer, der er tilsluttet enheden. **(Håndteres af browseren)** er ikke tilgængelig i mobilappen [!INCLUDE[prod_short](includes/prod_short.md)] eller appen til Teams.
 1. Vælg handlingen **Udskriv**.
 
-### <a name="schedule-a-financial-report-or-save-as-a-pdf-word-or-excel-document"></a>Planlægge en finansiel rapport eller gemme som et PDF-, Word-eller Excel-dokument
+### Planlægge en finansiel rapport eller gemme som et PDF-, Word-eller Excel-dokument
 
 Du kan gemme en finansrapport i filformater som f.eks. PDF, XML, Word eller Excel. [!INCLUDE[prod_short](includes/prod_short.md)] kan også generere gentagne finansrapporter.
 
@@ -180,7 +180,7 @@ Du kan gemme en finansrapport i filformater som f.eks. PDF, XML, Word eller Exce
 1. Udfyld felterne for at oprette en planlagt eller tilbagevendende finansiel rapport. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>For tilbagevendende finansielle rapporter skal du angive felterne **Tidligste startdato/-klokkeslæt** og **Udløbsdato/-klokkeslæt** med den første og sidste dato for at oprette den finansielle rapport. Du kan også vælge, hvilke dage rapporten oprettes, ved at angive feltet **Datoformel for næste kørsel** efter det format, der er forklaret i sektionen [Bruge datoformler](ui-enter-date-ranges.md#use-date-formulas).
 
 
-## <a name="best-practices-for-working-with-financial-report-definitions"></a>Bedste fremgangsmåder for arbejde med definitioner af finansrapporter
+## Bedste fremgangsmåder for arbejde med definitioner af finansrapporter
 
 Definitioner af finansrapporter versioneres ikke. Når du ændrer en rapportdefinition, erstattes den gamle version, når ændringen gemmes i databasen. Følgende liste indeholder nogle anbefalede fremgangsmåder til at arbejde med definitioner af finansrapporter:
 
@@ -188,7 +188,7 @@ Definitioner af finansrapporter versioneres ikke. Når du ændrer en rapportdefi
 - Før du ændrer en rapportdefinition, kan du overveje at tage en kopi af den som sikkerhedskopi, hvis ændringen ikke fungerer som forventet. Du kan enten bare kopiere definitionen (give den et godt navn) eller eksportere den. Hvis du vil lære mere, skal du gå til [Importere eller eksportere definitioner for finansrapporter](#import-or-export-financial-report-definitions).
 - Hvis du har brug for en ny kopi af en definition, som [!INCLUDE[prod_short](includes/prod_short.md)] leverer, er en nem måde at få en på at oprette et nyt regnskab, der kun indeholder opsætningsdata. Du kan derefter eksportere definitionen og importere den i det regnskab, hvor definitionen skal opdateres.
 
-## <a name="import-or-export-financial-report-definitions"></a>Importere eller eksportere finansrapportdefinitioner
+## Importere eller eksportere finansrapportdefinitioner
 
 Du kan importere og eksportere finansrapportdefinitioner som RapidStart-konfigurationspakker. Konfigurationspakker er f. eks. nyttige, når du vil dele oplysninger med andre firmaer. Pakken oprettes i en .rapidstart-fil, som komprimerer indholdet.
 
@@ -205,7 +205,7 @@ Du kan få mere at vide om, hvordan du importerer eller eksporterer definitioner
 - [Importere eller eksportere rækkedefinitioner for finansrapporter](bi-row-definitions.md#import-or-export-financial-reporting-row-definitions) eller
 - [Importere eller eksportere kolonnedefinitioner til finansrapportering](bi-column-definitions.md#import-or-export-financial-report-column-definitions)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Rækkedefinitioner i Financial Reporting](bi-row-definitions.md)  
 [Kolonnedefinitioner i Financial Reporting](bi-column-definitions.md)  

@@ -8,8 +8,9 @@ ms.search.keywords: 99000886
 ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="subcontract-manufacturing"></a>Produktion hos underleverandør
+# Produktion hos underleverandør
 
 Det er almindeligt for mange produktionsvirksomheder at placere udvalgte operationer hos underleverandører. Det er normal procedure i mange produktionsvirksomheder, selvom det hos nogle virksomheder måske kun sker engang imellem, mens det hos andre er en integreret del af produktionsprocessen.
 
@@ -19,24 +20,24 @@ Det er almindeligt for mange produktionsvirksomheder at placere udvalgte operati
 - Arbejdscenteromkostninger baseret på enheder eller tid: Denne funktion giver dig mulighed for at angive, om de omkostninger, der er forbundet med arbejdscentret, er baseret på produktionstiden eller på en engangspris pr. enhed. Selvom underleverandører ofte bruger en engangspris pr. enhed som udgangspunkt, når de fakturerer deres arbejde, kan programmet håndtere begge indstillinger (produktionstid og engangspris pr. enhed).  
 - Underleverandørkladde: Denne funktion giver dig mulighed for at finde produktionsordrer med materiale, der allerede er parat til afsendelse til en underleverandør og automatisk oprette købsordrer på operationer fra produktionsordreruter, der skal udføres hos en underleverandør. Programmet bogfører derefter automatisk de udgifter, der er forbundet med købsordren, på produktionsordren i forbindelse med bogføringen af købsordren. Det er kun produktionsordrer med frigivet som status, der kan åbnes og bruges fra en underleverandørkladde.  
 
-## <a name="subcontract-work-centers"></a>Arbejdscentre til underleverance
+## Arbejdscentre til underleverance  
 Arbejdscentre til underleverance oprettes på samme måde som almindelige arbejdscentre – der kræves bare flere oplysninger. De knyttes til ruter på samme måde som andre arbejdscentre.  
 
-### <a name="subcontract-work-center-fields"></a>Felter for arbejdscenter til underleverance
+### Felter for arbejdscenter til underleverance  
 Dette felt med **underleverandør nr.** angiver arbejdscenter som underleverancearbejdscenter. Du kan angive nummeret på den underleverandør, der leverer til arbejdscentret. Feltet kan bruges til at administrere eksterne arbejdscentre, som udfører kontraktarbejde.  
 
 Hvis du aftaler prisen med leverandøren for hver proces for sig, kan du markere afkrydsningsfeltet **Specifik kostpris**. Det giver dig mulighed for at oprette en kostpris for hver rutelinje, så du undgår at bruge tid på at angive hver eneste købsordre igen. Kostprisen på rutelinjen bruges i behandlingen i stedet for kostprisen i arbejdscentrets kostprisfelter. Hvis du markerer feltet **Specifik kostpris**, beregnes kostpriser for leverandøren for hver ruteoperation.  
 
 Hvis du har aftalt én enkelt sats med hver leverandør, skal du ikke udfylde feltet **Specifik kostpris**. Kostpriserne oprettes i stedet, når du udfylder felterne **Købspris**, **Indir. omkost.pct.** og **IMO-bidrag**.  
 
-### <a name="routings-that-use-subcontract-work-centers"></a>Ruter, der bruger arbejdscentre til underleverancer
+### Ruter, der bruger arbejdscentre til underleverancer  
 Arbejdscentre til underleverance kan bruges til operationer på ruter på samme måde som almindelige arbejdscentre.  
 
 Du kan oprette en rute, der bruger et eksternt arbejdscenter som et standardoperationstrin. Du kan også redigere ruten for en bestemt produktionsordre, så den omfatter en ekstern operation. Dette kan være nødvendigt i en nødsituation, f.eks. en server, der ikke fungerer korrekt, eller en midlertidig periode med højere efterspørgsel, hvor det arbejde, der normalt udføres internt, skal sendes til en underleverandør.  
 
 Du kan finde flere oplysninger i [Oprette ruter](production-how-to-create-routings.md).  
 
-## <a name="calculate-subcontracting-worksheets-and-create-subcontract-purchase-orders"></a>Beregne underleverandørkladder og oprette købsordrer på underleverance
+## Beregne underleverandørkladder og oprette købsordrer på underleverance  
 Når du har beregnet underleverandørkladden, oprettes det relevante dokument, hvilket i dette tilfælde er en købsordre.  
 
 Siden **Underleverandørkladde** fungerer ligesom **Planlægningskladde** ved at beregne de nødvendige forsyninger, i dette tilfælde indkøbsordrer, som du kan gennemgå i regnearket og derefter oprette med funktionen **Udfør aktionsmeddelelse**.  
@@ -44,7 +45,7 @@ Siden **Underleverandørkladde** fungerer ligesom **Planlægningskladde** ved at
 > [!NOTE]  
 >  Det er kun produktionsordrer med **Frigivet** som status, der kan åbnes og bruges fra en underleverandørkladde.  
 
-### <a name="to-calculate-the-subcontracting-worksheet"></a>Sådan beregnes underleverandørkladden
+### Sådan beregnes underleverandørkladden  
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Underleverandørkladde**, og vælg derefter det relaterede link.  
 2.  Hvis du vil beregne kladden, skal du vælge handlingen **Beregn underleverancer**.  
 3.  Sæt filtre på underleverandøroperationer eller arbejdscentre, hvor de udføres, for kun at beregne de relevante produktionsordrer på siden **Beregn underleverancer**.  
@@ -52,7 +53,7 @@ Siden **Underleverandørkladde** fungerer ligesom **Planlægningskladde** ved at
 
     Gennemgå linjerne på siden **Underleverandørkladde**. Oplysningerne i kladden hentes fra produktionsordren og produktionsordrens rutelinjer og overføres til købsordren, når det dokument oprettes. Du kan slette en række, uden at det påvirker de oprindelige oplysninger, som du kan med andre kladder. Oplysningerne vises igen, næste gang du kører funktionen **Beregn underleverancer**.  
 
-### <a name="to-create-the-subcontract-purchase-order"></a>Sådan oprettes købsordre på underleverance
+### Sådan oprettes købsordre på underleverance  
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Underleverandørkladde**, og vælg derefter det relaterede link.  
 2.  Vælg handlingen **Udfør aktionsmeddelelse**.  
 3.  Vælg feltet **Udskriv ordrer**, hvis du vil udskrive købsordren, når den oprettes.  
@@ -62,10 +63,10 @@ Hvis alle underleveranceoperationer sendes til den samme leverandørlokation, op
 
 Den kladde, der nu udgør købsordren, slettes i kladden. Når en købsordre er oprettet, vises den ikke i regnearket igen.  
 
-## <a name="posting-subcontract-purchase-orders"></a>Bogføre købsordrer på underleverancer
+## Bogføre købsordrer på underleverancer  
 Når der er oprettet en købsordre på en underleverance, kan den bogføres. Når ordren modtages, bogføres en kapacitetspost på produktionsordren, og ved fakturering af ordren bogføres de direkte omkostninger, der er forbundet med købsordren, på produktionsordren.  
 
-## <a name="to-post-a-subcontract-purchase-order"></a>Sådan bogføres en købsordre på en underleverance
+## Sådan bogføres en købsordre på en underleverance  
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **købsordrer**, og vælg derefter det relaterede link.  
 2.  Åbn den købsordre, der er oprettet på basis af underleverandørkladden.  
 
@@ -82,7 +83,7 @@ Når købet er bogført som modtaget, bogføres en afgangskladdelinjepost automa
 
 Når købsordren er bogført som faktureret, bogføres den direkte omkostning for købsordren til produktionen.  
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Produktion](production-manage-manufacturing.md)    
 [Konfigurere produktion](production-configure-production-processes.md)  
 [Planlægning](production-planning.md)      

@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Hvis din virksomhed opererer i mere end ét land eller område, er det sandsynligvis vigtigt, at du kan gøre forretninger i mere end én valuta. Du definerer din lokale valuta (RV) på siden **Opsætning af Finans**. Derefter vil din lokale valuta blive repræsenteret som en tom valuta på dokumenter og transaktioner. Når feltet **Valuta** er tomt, er valutaen RV.
 

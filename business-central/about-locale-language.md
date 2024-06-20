@@ -9,8 +9,9 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="changing-language-and-region"></a>Ændre sprog og geografisk område
+# Ændre sprog og geografisk område
 
 [!INCLUDE[prod_short](includes/prod_short.md)] fås på mange markeder og sprog i hele verden. På de markeder, hvor [!INCLUDE[prod_short](includes/prod_short.md)] er tilgængelig, er der lovmæssige funktioner, som kan hjælpe virksomheder med lovmæssige forpligtelser. [!INCLUDE[prod_short](includes/prod_short.md)] kan vises på forskellige sprog. Du kan endda ændre det sprog, der bruges til at vise tekst. Ændringen sker med det samme, når du du automatisk er blevet logget af og på igen. Indstillingen gælder for dig og ikke for alle andre i virksomheden.  
 
@@ -28,7 +29,7 @@ Du kan ikke ændre de tekster, der er gemt som programdata. Eksempler på sådan
 > [!NOTE]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] understøtter kun et enkelt tegnsæt for data. Derfor kan der være nogle tegn, der ikke understøttes i dit miljø, og du kan opleve problemer ved hentning af data, der er angivet ved hjælp af et andet tegnsæt. Dit miljø understøtter f.eks. muligvis kun engelske og russiske tegn. Hvis du angiver data i et andet sprog, gemmes de derfor muligvis ikke korrekt. Du bør kontakte systemadministratoren for at sikre dig, at du ved, hvilke sprog der understøttes af din [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="changing-your-region-setting"></a>Ændre områdeopsætning
+## Ændre områdeopsætning
 
 Det geografiske område adskiller sig fra både sprog og lovgivningsmæssige krav på lokale markeder. Området bestemmer, hvordan dataene vises med hensyn til f.eks. kommaseparator, og hvordan teksten justeres til venstre eller højre. Området bestemmer også nogle af systemelementerne i browseren, f.eks. handlingen til at oprette en ny vare på en liste.  
 
@@ -39,28 +40,28 @@ Du kan ændre området under den browserfane, du bruger til at arbejde i [!INCLU
 
 Du kan ændre området ved at gå til siden **Mine indstillinger**. Du kan finde flere oplysninger i [Ændre grundlæggende indstillinger](ui-change-basic-settings.md).  
 
-## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Ændre områdeindstillinger for debitorer, kontakter og leverandører
+## Ændre områdeindstillinger for debitorer, kontakter og leverandører
 
 I nogle virksomheder bruges der en ekstern tjeneste, som validerer adresseoplysninger i deres land eller område. Når du har brug for at opdatere adresseoplysninger, er den strukturerede fremgangsmåde dog ikke altid lige noget for scenarierne. Business Central tilbyder en mere fleksibel måde at indtaste adresseoplysninger på.
 
 Hvis du på siden **Finansopsætning** aktiverer indstillingen **Kræv lande-/områdekode i adresse** til/fra vil ændringer i feltet **Lande-/områdekode** på adresser for debitorer, kontakter eller leverandører automatisk nulstille værdierne i andre adressefelter.
 
-## <a name="application-version"></a>Programversion
+## Programversion
 
 Du kan kontrollere, hvilken version af [!INCLUDE[prod_short](includes/prod_short.md)] din virksomhed er baseret på, på siden **Hjælp og support**. Hvis du vil basere en virksomhed på en anden version, kan administratoren oprette et nyt produktionsmiljø. Du kan finde flere oplysninger i [Oprette et nyt produktionsmiljø](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) i Indhold til udviklere og it-eksperter.  
 
-## <a name="languages-of-the--help"></a>Sprog i [!INCLUDE[prod_short](includes/prod_short.md)] Hjælp
+## Sprog i [!INCLUDE[prod_short](includes/prod_short.md)] Hjælp
 
 Hjælp-indholdet til standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] udgives til Microsoft Learn. Indholdet er tilgængeligt på forskellige sprog. Hvis du åbner dokumentationen fra [!INCLUDE[prod_short](includes/prod_short.md)], vises indholdet på dit eget sprog. Hvis en bestemt side som standard endnu ikke er tilgængelig på dit eget sprog, vises den på engelsk.
 
-### <a name="how-do-i-change-the-language-of-the-microsoft-learn-site"></a>Hvordan kan jeg ændre sproget for Microsoft Learn-webstedet?
+### Hvordan kan jeg ændre sproget for Microsoft Learn-webstedet?
 
 Det er nemt – rul til bunden af webbrowsersiden, og vælg globussymbolet i nederste venstre hjørne.
 
 > [!NOTE]  
 > Listen viser alle sprog, der understøttes af webstedet Microsoft Learn. [!INCLUDE[prod_short](includes/prod_short.md)] fås i et begrænset antal lande/områder, og indholdet i [!INCLUDE [prod_short](includes/prod_short.md)]-hjælpen er ikke tilgængelig på alle de sprog, som Microsoft Learn-webstedet understøtter.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Ressourcer til hjælp og support](product-help-and-support.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  

@@ -10,7 +10,7 @@ ms.search.form: '1002, 1007,'
 ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="invoice-projects"></a>Fakturere projekter
+# Fakturere projekter
 
 I løbet af projektet kan der akkumuleres projektomkostninger fra ressourceforbrug, materialer og projektrelaterede indkøb. Efterhånden som status for projektet ændrer sig, bogføres disse transaktioner i projektkladden. Det er vigtigt, at alle omkostninger er registreret i projektkladden, før du fakturerer kunden.
 
@@ -24,7 +24,7 @@ Du kan fakturere hele projektet fra siden **Projektopgavelinjer** eller kun fakt
 
 Du kan også fakturere en virksomhed, der ikke er slut debitor. Nogle gange adskiller den part, der er til projektet, sig fra den part, der betaler fakturaen. På siden **Projekter** kan du angive den kunde, der skal have fordel af projektet i felterne **Sælg til**, og den part, der skal faktureres, i felterne **Faktureres til**.
 
-## <a name="to-create-multiple-project-sales-invoices"></a>Sådan opretter du flere salgsfakturaer for projekter
+## Sådan opretter du flere salgsfakturaer for projekter
 
 Du kan oprette en faktura for et projekt eller for en eller flere projektopgaver for en debitor, når det arbejde, der skal faktureres, er udført, eller når den fakturadato, som er angivet i et fakturaskema, er nået.
 
@@ -40,7 +40,7 @@ Du kan gennemse og bogføre oprettede fakturaer i vinduet **Salgsfakturaer**.
 > [!NOTE]
 > Du kan også fakturere en kunde ved at markere projektet og derefter vælge handlingen **Opret salgsfaktura for projekt**. 
 
-## <a name="to-create-and-post-project-sales-invoice-from-project-planning-lines"></a>Sådan opretter og bogfører du salgsfakturaer for projekter fra projektplanlægningslinjer
+## Sådan opretter og bogfører du salgsfakturaer for projekter fra projektplanlægningslinjer
 
 Du kan oprette en faktura ud fra en projektplanlægningslinje og på det tidspunkt angive antallet af varen, ressourcen eller finanskontoen, som du vil fakturere.
 
@@ -59,7 +59,7 @@ Du kan oprette en faktura ud fra en projektplanlægningslinje og på det tidspun
 > [!NOTE]  
 > Ovenstående fremgangsmåde er ens for at oprette, gennemse og bogføre en projektrelateret salgskreditnota.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere projekter](projects-manage-projects.md)  
 [Finans](finance.md)  

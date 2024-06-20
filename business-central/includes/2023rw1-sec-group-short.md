@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/03/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Sikkerhedsgrupper er nye i Business Central i 2023 udgivelsesbølge 1. De svarer til de brugergrupper, som denne artikel nævner. Ligesom brugergrupper kan administratorer tildele tilladelserne til sikkerhedsgruppen om, at medlemmerne skal udføre deres job.

@@ -8,8 +8,9 @@ ms.search.keywords: 'document, status, quote, order, credit memo, released, open
 ms.search.form: null
 ms.date: 09/19/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
 ---
-# <a name="status-field-on-documents"></a>Statusfelt i dokumenter
+# Statusfelt i dokumenter
 
 Når du opretter et tilbud, en ordre eller en kreditnota, indeholder feltet **Status** i dokumenthovedet som standard statusangivelsen **Åben**.
 
@@ -22,11 +23,11 @@ Når du har udfyldt dokumentet, kan du frigive det, hvorefter [!INCLUDE[prod_sho
 | Afventer godkendelse   | At dokumentet venter på at blive godkendt. |
 | Afventer forudbetaling | Der er bogført en forudbetalingsfaktura for dokumentet. |
 
-## <a name="release-process"></a>Frigivelsesproces
+## Frigivelsesproces
 
 Du kan bruge frigivelsesproceduren til at lette forskellige normale arbejdsprocesser, f.eks. til at følge virksomhedens godkendelsesprocedurer eller starte lageraktiviteter.
 
-### <a name="approval-procedures"></a>Godkendelsesprocedurer
+### Godkendelsesprocedurer
 
 Virksomheden kan bruge frigivelsesproceduren til at angive, at en anden bruger har godkendt dokumentet, eller at en ekstern kontaktperson kan opfylde specifikationerne i dokumentet, som vist i følgende eksempler:
 
@@ -36,11 +37,11 @@ Virksomheden kan bruge frigivelsesproceduren til at angive, at en anden bruger h
 
 Få mere at vide om godkendelsesarbejdsgange ved hjælp af [arbejdsprocesser](across-use-workflows.md).
 
-### <a name="warehouse-activities"></a>Lageraktiviteter
+### Lageraktiviteter
 
 Hvis ordrestatus er **Åben**, vil lagerstedet hverken begynde at forberede leveringen eller forvente at modtage varerne på en købsordre. Når du frigiver ordren, angiver du, at ordren er færdiggjort, og at lagerstedet kan medtage den i sine aktiviteter.
 
-## <a name="reopen-a-released-order"></a>Genåbne en frigivet ordre
+## Genåbne en frigivet ordre
 
 Du kan foretage ændringer i en frigivet ordre ved at åbne den igen. Du kan imidlertid kun øge antallet på de linjer, der allerede er behandlet af lagerstedet.
 
@@ -51,7 +52,7 @@ Hvis du ændrer en frigivet ordre, skal du give lagerstedet besked om ændringer
 > [!NOTE]
 > Hvis du vil bogføre en enkelt åben ordre eller en kreditnota uden at frigive den først, udgiver [!INCLUDE [prod_short](includes/prod_short.md)] automatisk dokumentet, når du bogfører det. Hvis du bogfører ordrer eller kreditnotaer vha. funktionen **Massebogfør**, kan du vælge kun at bogføre de ordrer eller kreditnotaer, du har frigivet.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Sælge produkter med en debitorsalgsordre](sales-how-sell-products.md)  
 [Registrere køb med købsfakturaer](purchasing-how-record-purchases.md)  

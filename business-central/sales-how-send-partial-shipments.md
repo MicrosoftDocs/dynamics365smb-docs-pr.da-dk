@@ -7,8 +7,9 @@ ms.topic: conceptual
 ms.search.keywords: 'shipping advice, partial shipments, partial deliveries, trade, customer sales order'
 ms.date: 02/14/2024
 ms.author: bholtorf
+ms.reviewer: bholtorf
 ---
-# <a name="process-partial-shipments"></a>Behandle delleverancer
+# Behandle delleverancer
 
 I en delvis leverance bliver en ordre ikke leveret på én gang. Af en ordre på 100 enheder kan du f.eks. sende 40 med det samme og 60 senere. Der kan foretages et ubegrænset antal leverancer i en ordre.
 
@@ -18,7 +19,7 @@ Som standard angives [!INCLUDE [prod_short](includes/prod_short.md)] feltet på 
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Sælge produkter med en debitorsalgsordre](sales-how-sell-products.md)  
 [Afsende varer](warehouse-how-ship-items.md)  

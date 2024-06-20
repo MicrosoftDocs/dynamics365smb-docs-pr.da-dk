@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 04/01/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 [!INCLUDE[prod_short](prod_short.md)]-brugere understøtter undertiden mere end én afdeling eller underorganisation i en koncernvirksomhed. F.eks. kan en virksomhed have salgskontorer i flere og lande/områder, så den har oprettet en separat afdeling for hvert kontor. De kontorer, der befinder sig i samme land/område, oprettes som separate *virksomheder* i et delt *miljø*. Andre kontorer oprettes som virksomheder i separate miljøer, fordi de er geografisk baseret i andre lande/områder.
 

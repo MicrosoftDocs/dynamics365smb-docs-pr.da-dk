@@ -8,16 +8,17 @@ ms.search.keywords: 'hub-and-spoke, multi-site, headquarter, sites'
 ms.date: 10/01/2020
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central til internationale organisationer med flere lokationer
+# Business Central til internationale organisationer med flere lokationer
 Organisationer med flere lokationer bruger ofte en hub-and-spoke-forretningsmodel, hvor virksomheden eller hovedkontoret administrerer virksomhedens overordnede aktiviteter, mens hvert websted fungerer som en enkelt, selvstændig enhed. Websteder distribueres ofte geografisk og har forskellige behov for at dele oplysninger med hovedkvarteret. Desuden har websteder typisk ikke brug for det samme kompleksitetsniveau, og de mangler ofte ressourcerne til at opretholde et stort system.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] giver små og mellemstore virksomheder en løsning med forretningsstyring, der er let at bruge og for at sikre lave ejeromkostninger.
 
 I denne artikel beskrives nogle af de måder, som [!INCLUDE[prod_short](includes/prod_short.md)] understøtter en hub-and-spoke-forretningsmodel.
 
-## <a name="integrating-the-headquarter-company-and-the-sites"></a>Integration af hovedkvarter og flere lokationer
+## Integration af hovedkvarter og flere lokationer
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kan integreres med hovedkvarterets regnskabssystem, mens det opfylder forskellige websteders forskellige behov, uanset størrelse, placering eller virksomhedstype.
 
@@ -25,7 +26,7 @@ Følgende diagram er et eksempel på forskellige steder integreret med et hovedk
 
 ![Diagrambeskrivelse genereret automatisk.](media/multisite-headquarter-sites.png)
 
-## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Opfylde behovene på indenlandske og internationale lokationer
+## Opfylde behovene på indenlandske og internationale lokationer
 
 Virksomhedernes behov på steder er ofte forskellige afhængigt af industrien, forretningsmetoderne eller deres forhold til hovedkvarteret. [!INCLUDE[prod_short](includes/prod_short.md)] kan let tilpasses og udvides til forskellige typer virksomheder og standarder. Microsoft AppSource tilbyder en lang række apps fra Microsoft og vores partnere, og partnere kan hurtigt implementere [!INCLUDE[prod_short](includes/prod_short.md)] med minimal afbrydelse af daglige operationer.
 
@@ -44,7 +45,7 @@ Et netværk med mere end 4.000 Microsoft-partnere over hele verden tilbyder loka
 | Håndtere flere sprog og valutaer. | Understøttelsen af flere sprog og valutaer er med til at imødekomme lokale behov. | [Funktioner til flere sprog](about-locale-language.md)<br></br>[Funktioner til flere valutaer](finance-how-setup-additional-currencies.md) |
 
 
-## <a name="consolidate-financial-data"></a>Konsolidere finansielle data
+## Konsolidere finansielle data
 
 En kernefacet for hub-and-spoke-forretningsmodellen er evnen til at hovedkvarteret og afdelingerne udveksler økonomiske data, også når hovedkvarter og afdelingerne bruger forskellige systemer, regnskabsstrukturer, sprog og valutaer.
 
@@ -54,7 +55,7 @@ En kernefacet for hub-and-spoke-forretningsmodellen er evnen til at hovedkvarter
 | Integrere regnskabsstrukturer. | Overfør konsolideringsdata fra forskellige regnskabsstrukturer til dine egne. Indbygget filformat til F&O (fås med Wave 2, 2020) | [Import af virksomhedsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)<br></br>[Klargøre finanskonti til konsolidering](finance-consolidated-company-reporting-setup.md#glacc) |
 | Transaktion i flere valutaer. | Være med til at sikre, at regnskabsopgørelser i forskellige valutaer er nøjagtige og korrekte valutakurser. | [Opdatere valutakurser](finance-how-update-currencies.md) |
 
-## <a name="share-business-insight-with-integrated-analytics"></a>Dele forretningsindsigt med integreret analyse
+## Dele forretningsindsigt med integreret analyse
 
 Du kan tilpasse organisationen i forhold til forretningsmål ved at give dig en fælles forståelse af den aktuelle virkelighed. Integreret analyse kan hjælpe folk med at basere deres beslutninger på samme sæt oplysninger.
 
@@ -66,7 +67,7 @@ Du kan tilpasse organisationen i forhold til forretningsmål ved at give dig en 
 | Analysere data i Excel. | Find fakta, fejlfind og foretag ad hoc-analyser i Microsoft Excel. | [Analysere regnskabsopgørelser i Excel](finance-analyze-excel.md) |
 
 
-## <a name="exchange-data-using-apis-and-xmlports"></a>Udveksle data ved hjælp af API'er og XML-porte
+## Udveksle data ved hjælp af API'er og XML-porte
 
 API'er og XML-porte gør det nemmere at forbinde forekomster af [!INCLUDE[prod_short](includes/prod_short.md)], herunder dem, der er tilpasset til hvert websted.
 
@@ -81,7 +82,7 @@ API'er og XML-porte gør det nemmere at forbinde forekomster af [!INCLUDE[prod_s
 | Opret forbindelse til 3<sup>.</sup> partsløsninger og tjenester. | API'er opretter en punkt-til-punkt-forbindelse mellem Business Central og 3<sup>.</sup> parts løsninger og tjenester. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
-## <a name="promote-an-efficient-intercompany-supply-chain"></a>Forfremme en effektiv intern forsyningskæde
+## Forfremme en effektiv intern forsyningskæde
 
 Afdelingerne har ofte brug for adgang til forsyningskæden og muligheden for at håndtere visse aspekter af den. F. eks. kan afdelingerne bruge samme leverandør, men administrere deres aktiver og fysiske lokationer separat.
 
@@ -90,7 +91,7 @@ Afdelingerne har ofte brug for adgang til forsyningskæden og muligheden for at 
 | Behandle inter-divisionstransaktioner som normale salgs- og købstransaktioner. | Bruge intercompany-bogføringer til at oprette salgs-og købsdokumenter og finansposter for hele arbejdsgange og for mere end én virksomhed ad gangen for at fjerne dobbeltdata indtastning. | [Administrere Intercompany-transaktioner](intercompany-manage.md) |
 | Bruge processer, der ikke er på papir. | Undgå omkostningerne ved at sende, modtage og udskrive dokumenter. | [Indgående bilag](across-income-documents.md)<br><br> [Administrere vedhæftede filer, links og noter på kort og dokumenter](ui-how-add-link-to-record.md) |
 
-## <a name="respond-quickly-to-new-business-conditions"></a>Reagere hurtigt på nye forretningsbetingelser
+## Reagere hurtigt på nye forretningsbetingelser
 
 Hovedkvarteret skal kunne reagere hurtigt på forretningsændringer i hver afdeling. Kombineret med Power Automate kan [!INCLUDE[prod_short](includes/prod_short.md)] fungere som en tidlig advarselsmekanisme.
 
@@ -101,7 +102,7 @@ Hovedkvarteret skal kunne reagere hurtigt på forretningsændringer i hver afdel
 | Opret automatisk e-mailbeskeder. | Konfigurere påmindelser i Power Automate, der vil generere e-mails, der skal informere dig om vigtige forretningsbetingelser på steder eller i forsyningskædepartnere. | [Business Central og Power BI](admin-powerbi.md) |
 | Bruge standard- eller brugerdefinerede beskeder. | Brug 12 forskellige skabeloner, der følger med Business Central, eller opsætte egne beskeder, så de passer til din virksomhed. | [Bruge Business Central i et automatisk workflow](across-how-use-financials-data-source-flow.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 [Administrationsopgaver i Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

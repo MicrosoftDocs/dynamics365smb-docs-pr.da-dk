@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 06/11/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner
+# Bruge XML-skemaer til at forberede dataudvekslingsdefinitioner
 
 Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstrukturen i [!INCLUDE[prod_short](includes/prod_short.md)], kan du bruge XML-skemaer til at definere, hvilke dataelementer du vil udveksle med [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan udføre dette arbejde på siden **XML-skemafremviser** ved at indlæse XML-skemafilen, vælge de relevante dataelementer og derefter initialisere en dataudvekslingsdefinition.  
 
@@ -23,7 +24,7 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 
 - Sådan oprettes en dataudvekslingsdefinition, der er baseret på et XML-skema  
 
-## <a name="to-load-an-xml-schema-file"></a>Sådan indlæses en XML-skemafil
+## Sådan indlæses en XML-skemafil
 
 1. Sørg for, at den pågældende XML-skemafil er tilgængelig. Filtypenavnet er .xsd.  
 
@@ -47,7 +48,7 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
     > [!NOTE]  
     >  Som standard er træet for det indlæste indlæste XML-skema skjult. Udvid hver node ved at klikke på knappen **+** på noden. For at udvide alle noder skal du vælge **Udvid alle** på båndet.  
 
-### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Sådan markeres eller fjernes markeringen af noder i et XML-skema
+### Sådan markeres eller fjernes markeringen af noder i et XML-skema  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **XML-skemaviser**, og vælg derefter det relaterede link.  
 
@@ -85,7 +86,7 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 
      Feltet **Valg** angiver, om noden har to eller flere sidestillede noder, der fungerer som valgmuligheder.  
 
-### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Sådan oprettes en dataudvekslingsdefinition, der er baseret på et XML-skema
+### Sådan oprettes en dataudvekslingsdefinition, der er baseret på et XML-skema  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **XML-skemaer**, og vælg derefter det relaterede link.  
 
@@ -103,7 +104,7 @@ Hvis du vil aktivere import/eksport af data i XML-filer via dataudvekslingsstruk
 > [!NOTE]
 > I frigivelsesbølge 1 i 2019 og tidligere versioner kan du generere en XMLport, der er baseret på skemaet, og derefter indlæse den i løsningen. Dette understøttes ikke længere.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere dataudvekslingsdefinitioner](across-how-to-set-up-data-exchange-definitions.md)  
 [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

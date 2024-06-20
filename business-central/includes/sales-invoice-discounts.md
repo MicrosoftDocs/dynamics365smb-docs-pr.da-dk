@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 10/05/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Når du har indsat alle varer på linjerne, kan du beregne fakturarabatten for det samlede salgsdokument ved at vælge Handlinger og derefter vælge **Beregn fakturarabat**.
 

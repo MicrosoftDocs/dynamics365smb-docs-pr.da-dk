@@ -8,8 +8,9 @@ ms.search.form: '9652, 9650'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="legacy-import-and-export-custom-report-layouts"></a>(Ældre) Importere og eksportere brugerdefinerede rapportlayouts
+# (Ældre) Importere og eksportere brugerdefinerede rapportlayouts
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -18,7 +19,7 @@ Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som
 > [!IMPORTANT]  
 >  Du kan ikke importere eller eksportere indbyggede rapportlayout.  
 
-### <a name="to-export-a-report-layout-to-a-file"></a>Sådan eksporterer du et rapportlayout til en fil
+### Sådan eksporterer du et rapportlayout til en fil  
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Valg af rapportlayout**, og vælg derefter det relaterede link.  
 
@@ -28,7 +29,7 @@ Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som
 
 4.  Brug dialogboksen **Udlæs fil** til at vælge knappen **Gem**, og gem derefter filen til en placering på din computer eller netværket.  
 
-### <a name="to-import-a-report-layout-file"></a>Sådan importerer du en rapportlayoutfil
+### Sådan importerer du en rapportlayoutfil  
 
 1.  Sørg for, at den relevante fil, der definerer rapportens layout, er tilgængelig på din computer eller netværket.  
 
@@ -44,7 +45,7 @@ Du kan importere og eksportere et eksisterende brugerdefineret rapportlayout som
 
  Det oprindelige brugerdefinerede rapportlayout erstattes med det importerede rapportlayout.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprette og ændre et brugerdefineret rapportlayout](ui-how-create-custom-report-layout.md)   
 [Administrere rapport- og dokumentlayout](ui-manage-report-layouts.md)  

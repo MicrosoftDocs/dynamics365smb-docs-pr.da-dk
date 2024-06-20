@@ -9,9 +9,10 @@ ms.search.form: null
 ms.date: 05/08/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="sustainability-setup"></a>Opsætning af bæredygtighed
+# Opsætning af bæredygtighed
 
 For at få bæredygtighedsmodulet til at fungere korrekt skal du først oprette nogle grundlæggende kontroller og instruktioner relateret til hele funktionaliteten.
 
@@ -52,7 +53,7 @@ Følg de næste trin for at oprette et bæredygtighedsmodul:
     | **Nøjagtighed i afrunding af udledninger** | Angiv størrelsen på det interval, der bruges til afrunding af udledningsbeløb, når du rapporterer til myndigheder. |
     | **Type af udledningsafrunding** | Angiv, hvordan udledningsmængder afrundes, når du rapporterer til myndighederne. Du kan vælge mellem følgende indstillinger: **Nærmeste**, **Op** og **Ned**. |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finans](finance.md)  
 [Oversigt over Ledelse af bæredygtighed](finance-manage-sustainability.md)  

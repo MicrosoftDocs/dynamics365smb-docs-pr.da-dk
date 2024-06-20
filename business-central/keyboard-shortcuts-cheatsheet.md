@@ -4,16 +4,17 @@ description: 'Et udskriftsvenligt referenceark, der indeholder de mest populære
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 09/11/2023
+ms.date: 06/13/2024
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ms.reviewer: jswymer
 ---
 
-# <a name="keyboard-quick-reference---pc-only"></a>Hurtig reference til tastatur - kun pc'er
+# Hurtig reference til tastatur - kun pc'er
 
-#### <a name="general"></a>Generelt
+#### Generelt
 
 |Vælg disse taster|For at gøre følgende|  
 |-|-|
@@ -40,7 +41,7 @@ ms.custom: bap-template
 |<kbd>Tab</kbd>/<kbd>Skift</kbd>+<kbd>Tab</kbd>|Flytte fokus til næste/forrige element|
 |<kbd>F6</kbd>/<kbd>Skift</kbd>+<kbd>F6</kbd>|Flyt til næste oversigtspanel/del|
 
-#### <a name="navigate--select-rows"></a>Naviger og vælg rækker
+#### Naviger og vælg rækker
 
 |Vælg disse taster|For at gøre følgende|
 |-|-|
@@ -54,14 +55,14 @@ ms.custom: bap-template
 |<kbd>Skift</kbd>+<kbd>Side op</kbd>/<kbd>Ned</kbd>|Vælg synlige rækker over/under|
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Fokusere uden for listen|
 
-#### <a name="copy--paste"></a>Kopiér og sæt ind
+#### Kopiér og sæt ind
 
 |Vælg disse taster|For at gøre følgende|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Kopiér/Indsæt rækker|
 |<kbd>F8</kbd>|Kopiere feltet ovenover til den aktuelle række|
 
-#### <a name="search-filter--sort"></a>Søg, filtrer og sortér
+#### Søg, filtrer og sortér
 
 |Vælg disse taster|For at gøre følgende|
 |-|-|
@@ -72,20 +73,20 @@ ms.custom: bap-template
 |<kbd>Skift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Tilføje filter i markeret felt|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Skift</kbd>+<kbd>F3</kbd>|Nulstil filtre|
 
-#### <a name="quick-entry"></a>Genvej
+#### Genvej
 
 |Vælg disse taster|For at gøre følgende|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Skift</kbd>+<kbd>Enter</kbd>|Gå til næste genvejsfelt uden for en liste|
 |<kbd>Enter</kbd>/<kbd>Skift</kbd>+<kbd>Enter</kbd>|Gå til næste/forrige genvejsfelt|
 
-##### <a name="report-preview"></a>Visning af et rapporteksempel
+##### Visning af et rapporteksempel
 
 |Vælg disse taster|For at gøre følgende|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Start</kbd>/<kbd>End</kbd>|Gå til første/sidste side|
 
-#### <a name="numeric-keypad"></a>Numerisk tastatur
+#### Numerisk tastatur
 
 |Vælg disse taster|For at gøre følgende|  
 |-|-|
