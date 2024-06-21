@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Vi beklager, men indholdet er under konstruktion
+# <a name="sorry-this-content-is-under-construction"></a>Vi beklager, men indholdet er under konstruktion
 
 :::image type="content" source="media/helene/empty illustration_BCdocs.png" alt-text="Der er ikke noget her lige nu." border="false":::
 
@@ -21,7 +21,7 @@ Vi er hele tiden i færd med at tilføje og forbedre [!INCLUDE[prod_short](inclu
 
 Kom snart igen, og i mellemtiden kan du udforske andre emner på [Dynamics 365-kanalen på YouTube](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4).
 
-## Se også
+## <a name="see-also"></a>Se også
 [Besøge vores videobibliotek](across-videos.md)
 
  

@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Analysere data i Business Intelligence-værktøjer
+# <a name="analyze-data-in-business-intelligence-tools"></a>Analysere data i Business Intelligence-værktøjer
 
 Hvis du foretrækker at bruge Business Intelligence-værktøjer, som ikke er integreret i [!INCLUDE[prod_short](includes/prod_short.md)], gives denne side vejledning i værktøjer og metoder til at opnå dette.
 
@@ -22,7 +22,7 @@ Hvis du foretrækker at bruge Business Intelligence-værktøjer, som ikke er int
 |Udtrække data til datalagre eller Data Lake. |[Udtrække data til datalagre eller Data Lake](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)|
 |Læs Business Central-data ved hjælp af API.| [Business Central API](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)|
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversigt over Business Intelligence og rapportering](reports-use-reports.md)
 

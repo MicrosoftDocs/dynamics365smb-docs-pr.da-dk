@@ -9,10 +9,10 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Udskrive momsafstemningsrapporter
+# <a name="print-vat-reconciliation-reports"></a>Udskrive momsafstemningsrapporter
 I [!INCLUDE[prod_short](../../includes/prod_short.md)] kan du bruge rapporten **Momsafstemning** til at få vist en oversigt over finanskonti med deres grundlæggende beløb og momsbeløb. Momstyper grupperes efter disse beløb for at hjælpe med afstemningen for afregning af moms.  
 
-### Sådan udskrives en momsafstemningsrapport  
+### <a name="to-print-a-vat-reconciliation-report"></a>Sådan udskrives en momsafstemningsrapport
 
 1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **momsafstemning**, og derefter vælge det relaterede link.  
 2.  I oversigtspanelet **Indstillinger** skal du udfylde felterne som beskrevet i følgende tabel.  
@@ -25,7 +25,7 @@ I [!INCLUDE[prod_short](../../includes/prod_short.md)] kan du bruge rapporten **
 3.  I oversigtspanelet **Finanspost** skal du vælge de relevante filtre.  
 4.  Vælg **Udskriv** for at udskrive rapporten, eller vælg **Vis udskrift** for at se den på skærmen.  
 
-## Se også  
+## <a name="see-also"></a>Se også
  [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
 
 

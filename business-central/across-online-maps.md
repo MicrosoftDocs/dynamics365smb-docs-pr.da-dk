@@ -9,7 +9,7 @@ ms.date: 07/15/2022
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# Bruge online kort til at finde steder og vejledninger
+# <a name="use-online-maps-to-find-locations-and-directions"></a>Bruge online kort til at finde steder og vejledninger
 
 Du kan hente et kort fra din onlinekorttjeneste, der kan vise adresser og lokationer til debitor og kreditor eller genererer rutedirektioner til dem. Du kan få adgang til **Online Map**-funktioner på følgende kort i [!INCLUDE[prod_short](includes/prod_short.md)]:
 
@@ -26,14 +26,14 @@ Du kan hente et kort fra din onlinekorttjeneste, der kan vise adresser og lokati
 > [!NOTE]
 > Hvis der ikke er en kode i feltet **Lande-/områdekode**, kan onlinekortet ikke finde anvisninger.
 
-## Sådan finder du en lokation på et onlinekort
+## <a name="find-a-location-in-an-online-map"></a>Sådan finder du en lokation på et onlinekort
 
 1. Åbn et af kortene, der nævnes ovenfor.
 2. Vælg handlingen **Online Map** eller **Vis på kort**.
 3. Vælg feltet **Denne adresse** og derefter **OK**.
 4. Det konfigurerede onlinekort åbnes med den adresseplacering, der er defineret på kortet.
 
-## Hent ruteanvisninger fra din placering
+## <a name="get-route-directions-from-your-location"></a>Hent ruteanvisninger fra din placering
 
 1. Åbn et af kortene, der nævnes ovenfor.
 2. Vælg handlingen **Online Map** eller **Vis på kort**.
@@ -43,7 +43,7 @@ Du kan hente et kort fra din onlinekorttjeneste, der kan vise adresser og lokati
 > [!NOTE]
 > Onlinekortet åbnes i standardbrowseren eller -appen, hvilket kan anmode om adgang til enhedens placeringsdata.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Opsætning af onlinekort](across-online-maps-setup.md)  
 [Blive køreklar](ui-get-ready-business.md)  

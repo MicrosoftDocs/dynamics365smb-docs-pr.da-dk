@@ -11,11 +11,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Skifte til et andet firma eller miljø
+# <a name="switching-to-another-company-or-environment"></a>Skifte til et andet firma eller miljø
 
 [!INCLUDE [prod_short](includes/prod_short.md)] er tilgængelig i mange forskellige lande/områder og understøtter mange forskellige organisationstyper. Organisationen kan vælge at organisere arbejde i [!INCLUDE [prod_short](includes/prod_short.md)] i flere *firmaer* og *miljøer*. Denne artikel hjælper dig med at forstå de vigtigste forskelle og arbejde på tværs af dem.
 
-## Om virksomheder og miljøer
+## <a name="about-companies-and-environments"></a>Om virksomheder og miljøer
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
@@ -27,7 +27,7 @@ ms.reviewer: bholtorf
 <!--
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]-->
 
-## Funktioner til at skifte firma eller miljø
+## <a name="features-for-switching-company-or-environment"></a>Funktioner til at skifte firma eller miljø
 
 Der er nogle få funktioner, som du kan bruge til at skifte firma eller miljø, mens du arbejder. I følgende tabel sammenlignes funktionerne i funktionen, som forklares mere detaljeret i de efterfølgende afsnit.
 
@@ -38,7 +38,7 @@ Der er nogle få funktioner, som du kan bruge til at skifte firma eller miljø, 
 |[Mine indstillinger](#use-my-settings)|![markering](media/check.png "check")|||![markering](media/check.png "check")|
 |[Virksomhedshub](#use-company-hub)|![markering](media/check.png "check")|![markering](media/check.png "check")|![markering](media/check.png "check")||
 
-## Brug firmaskifter
+## <a name="use-the-company-switcher"></a>Brug firmaskifter
 
 Det er sandsynligvis den hurtigste og mest alsidige måde at skifte virksomhed på. Virksomhedsskifteren er en rude, som er nem at finde på alle sider. I ruden kan du få et overblik over alle regnskaber i alle de miljøer, du har adgang til, og du kan skifte direkte til en hvilken som helst af dem - enten i den samme webbrowser fane eller på en ny. Det er især nyttigt, når du arbejder i mange virksomheder på tværs af forskellige miljøer.
 
@@ -59,7 +59,7 @@ Det er sandsynligvis den hurtigste og mest alsidige måde at skifte virksomhed p
 > [!TIP]
 > Vælg <kbd>F5</kbd> for at opdatere listen over miljøer og regnskaber.
 
-## Bruge appstarter
+## <a name="use-the-app-launcher"></a>Bruge appstarter
 
 Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], er de miljøer, du har adgang til, tilgængelige på Microsoft 365.  
 
@@ -78,7 +78,7 @@ The following image shows tiles for accessing production and sandbox environment
 
 :::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
 -->
-## Bruge Mine indstillinger
+## <a name="use-my-settings"></a>Bruge Mine indstillinger
 
 Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], kan du hurtigt skifte til en anden virksomhed i samme miljø. Når du har foretaget skiftet, bliver den virksomhed, du vælger, din standardvirksomhed, som åbnes, næste gang du logger på.
 
@@ -93,13 +93,13 @@ Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], kan du hur
 > [!TIP]
 > En god metode til at gå direkte til din standardvirksomhed, når du logger på, og undgå at skulle angive et miljø, er at føje URL-adressen til listen over foretrukne, når du er logget på.
 
-## Bruge firmahub
+## <a name="use-company-hub"></a>Bruge firmahub
 
 *Firmahub* er et særdeles specialiseret rollecenter, der giver en økonomisk oversigt over virksomheder og miljøer. Tilgængelig som en [udvidelse](ui-extensions-company-hub.md) indeholder firmahubben et dashboard med oversigtsdata for hvert firma, du har adgang til. Startsiden viser de økonomiske nøgletal og en direkte forbindelse til de enkelte miljøer og firmaer. Du kan finde flere oplysninger i [Administrer arbejde på tværs af flere firmaer i virksomhedens hub](company-hub.md).
 
 [![Viser siden med virksomhedshub, der viser alle virksomheder.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oprettelse af nye virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Ændre grundlæggende indstillinger](ui-change-basic-settings.md)  

@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Salg, Hurtig start
+# <a name="sales-quick-start"></a>Salg, Hurtig start
 
 For at kunne købe produkter og tjenester skal du først oprette varer og debitorer. Når det er gjort, kan du begynde at registrere salgsordrer og sende fakturaer.
 
-## Sådan oprettes varer til salg
+## <a name="set-up-items-to-sell"></a>Sådan oprettes varer til salg
 
 Denne video viser, hvordan du opretter en vare, der skal sælges i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -22,13 +22,13 @@ Denne video viser, hvordan du opretter en vare, der skal sælges i [!INCLUDE[pro
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE47eLx?rel=0]
 
-### Opret en ny vare
+### <a name="set-up-a-new-item"></a>Opret en ny vare
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 Yderligere oplysninger og andre ting, du kan gøre, når du registrerer varer, finder du i [registrere nye varer](inventory-how-register-new-items.md).  
 
-## Sådan oprettes debitorer
+## <a name="set-up-customers"></a>Sådan oprettes debitorer
 
 I denne video kan du se, hvordan du opretter en ny debitor i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -36,17 +36,17 @@ I denne video kan du se, hvordan du opretter en ny debitor i [!INCLUDE[prod_shor
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-### Opret en ny debitor
+### <a name="set-up-a-new-customer"></a>Opret en ny debitor
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 Yderligere oplysninger og andre ting, du kan gøre, når du registrerer debitorer, finder du i [registrere nye debitorer](sales-how-register-new-customers.md)
 
-## Oprette en salgsordre  
+## <a name="create-a-sales-order"></a>Oprette en salgsordre
 
 Når du sælger noget til en debitor, har du to muligheder. Den første og den enkleste er blot at oprette en salgsfaktura. Men hvis salgsprocessen er mere kompleks, f. eks. Hvis du har situationer, hvor du kun vil levere dele af ordreantallet, skal du bruge en salgsordre.
 
-### Sådan oprettes en salgsordre  
+### <a name="to-create-a-sales-order"></a>Sådan oprettes en salgsordre
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 10.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsordrer**, og vælg derefter det relaterede link.
 2. Vælg **Ny** for at oprette en ny post.
@@ -76,11 +76,11 @@ Når du sælger noget til en debitor, har du to muligheder. Den første og den e
 
 Du kan finde flere oplysninger og yderligere ting, du kan gøre, når du opretter debitorsalgsordrer, i [salgsprodukter med en debitorsalgsordre](sales-how-sell-products.md).  
 
-## Opret en salgsfaktura
+## <a name="create-a-sales-invoice"></a>Opret en salgsfaktura
 
 Når du opretter og bogfører en salgsfaktura, opretter du ikke kun det fakturadokument, som du sender til debitoren. du kan også oprette de relaterede antal og værdiposter i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-### Sådan oprettes og bogføres en salgsfaktura  
+### <a name="to-create-and-post-a-sales-invoice"></a>Sådan oprettes og bogføres en salgsfaktura
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 20.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsfakturaer**, og vælg derefter det relaterede link.  
 
@@ -106,7 +106,7 @@ Når du opretter og bogfører en salgsfaktura, opretter du ikke kun det fakturad
 
 Du kan finde flere oplysninger og yderligere ting, du kan gøre, når du opretter debitorsalgsfakturaer, i afsnittet [fakturasalg](sales-how-invoice-sales.md)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Hurtig start af Business Central](quick-start-business-central.md)  
 [Salgsoversigt](sales-manage-sales.md)  

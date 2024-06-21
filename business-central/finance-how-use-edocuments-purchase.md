@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Bruge e-dokumenter i købsprocessen
+# <a name="use-e-documents-in-the-purchases-process"></a>Bruge e-dokumenter i købsprocessen
 
 Du kan bruge konfigurerede elektroniske dokumenter (e-dokumenter) sammen med købsdokumenter.
 
@@ -26,11 +26,11 @@ Du kan bruge følgende købsdokumenter med e-dokumenters funktioner:
 > [!NOTE]
 > Fra [!INCLUDE[prod_short](includes/prod_short.md)] version 24.0 er det muligt at forbinde **Købsordrer** med de modtagne **E-dokumenter**.  
 
-## E-dokumenter i køb
+## <a name="e-documents-in-purchases"></a>E-dokumenter i køb
 
 Modtagelse af køb af e-dokumenter i Dynamics 365 Business Central kan udføres som en kørsel eller manuelt.  
 
-### Sådan konfigureres kreditorer til at arbejde med forskellige købsdokumenter  
+### <a name="how-to-set-up-vendors-to-work-with-different-purchase-documents"></a>Sådan konfigureres kreditorer til at arbejde med forskellige købsdokumenter
 
 Følg trinnene for at konfigurere kreditorer til at arbejde korrekt med indgående elektroniske fakturaer: 
 
@@ -47,9 +47,9 @@ Følg trinnene for at konfigurere kreditorer til at arbejde korrekt med indgåen
 4. Vælg en af de indstillinger, du vil bruge til den valgte kreditor. 
 5. Luk siden.   
 
-### Arbejde med købsfakturaer  
+### <a name="to-work-with-purchase-invoices"></a>Arbejde med købsfakturaer
 
-#### Kør batchjobbet  
+#### <a name="run-the-batch-job"></a>Kør batchjobbet
 
 > [!NOTE]
 > Dette batchjob bruges til automatisk opkrævning af indgående fakturaer. Det kan kun fungere i et land eller område, hvor funktionaliteten findes.  
@@ -77,7 +77,7 @@ Der er to almindelige fejl:
 
 Når du har rettet fejlene og advarslerne, kan du manuelt angive, hvornår systemet skal oprette en købsfaktura baseret på din opsætning, ved at vælge **Opret dokument**.   
 
-#### Importer fakturaer manuelt  
+#### <a name="manually-import-invoices"></a>Importer fakturaer manuelt
 
 Følg disse trin for manuelt at importere eksterne e-dokumenter:
 
@@ -88,9 +88,9 @@ Følg disse trin for manuelt at importere eksterne e-dokumenter:
 5. Når du er færdig med at løse problemerne, skal du vælge **Opret dokument** i gruppen **Importér manuelt**.  
 6. Når dokumentet er oprettet i [!INCLUDE[prod_short](includes/prod_short.md)], ændres den måde, dokumentet vises på, ikke ved hjælp af en kørsel. 
 
-### E-dokumenter med købsordrer  
+### <a name="e-documents-with-purchase-orders"></a>E-dokumenter med købsordrer
 
-#### Knyt købsordrer til modtaget e-dokument
+#### <a name="to-link-purchase-orders-with-the-received-e-documents"></a>Knyt købsordrer til modtaget e-dokument
 
 Hvis din **leverandør** har konfigureret feltet **Modtag e-dokument** til at arbejde med **Købsordrer**, skal du gøre følgende, når det elektroniske dokument er oprettet i [!INCLUDE[prod_short](includes/prod_short.md)] (manuelt eller fra et eksternt slutpunkt) [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
@@ -100,7 +100,7 @@ Hvis din **leverandør** har konfigureret feltet **Modtag e-dokument** til at ar
 
 3. Hvis **indkøbsordren** for denne bestemte leverandør ikke findes på oprettelsestidspunktet, oprettes et nyt **e-dokument**, [!INCLUDE[prod_short](includes/prod_short.md)] opretter en ny **indkøbsordre** ved hjælp af den samme oprettelsesmodel, som allerede findes for nye **købsfakturaer**. **Dokumentstatus** for dette **e-dokument** vil blive **behandlet**, og **e-dokumentstatus** på undersiden **Servicestatus** vil være **Importeret dokument oprettet**. Dette link vil være synligt i feltet **Dokument** på dette specifikke **e-dokument**.   
 
-#### Matche linjer fra modtaget e-dokument med købsordre  
+#### <a name="matching-lines-from-received-e-document-with-purchase-order"></a>Matche linjer fra modtaget e-dokument med købsordre
 
 Du kan matche dine modtagne elektroniske dokumenter med købsordrelinjer fra to forskellige steder, fra siden: **E-dokument** eller fra siden **Købsordre**. Den nemmeste måde at finde de allerede sammenkædede **købsordrer** på er at bruge feltet **Sammenkædede købsordrer** som en del af **e-dokumentaktiviteter**. Alle ikke-sammenkædede dokumenter kan findes ved hjælp af feltet **Venter på købs-e-fakturaer**, hvor du har en liste over **e-dokumenter**, du skal gennemse.  
 
@@ -110,7 +110,7 @@ Du kan matche dine modtagne elektroniske dokumenter med købsordrelinjer fra to 
 > [!NOTE]
 > Hvis momsprocenten er forskellig mellem det indgående bilag og virksomhedens momsprocent, kan matchende dokumenter ikke bruges i et miljø med flere lande.  
 
-##### Matching af linjer fra købsordrer  
+##### <a name="matching-lines-from-purchase-order"></a>Matching af linjer fra købsordrer
 
 Du kan matche linjerne fra listen **Købsordrer** eller fra en af de åbne **købsordrer**. Det kan du gøre ved at benytte følgende fremgangsmåde:  
 
@@ -160,7 +160,7 @@ Hvis du vil tilføje en vis tolerance og tillade forskellen mellem linjerne i **
 3. Denne opsætning vil gælde for alle matchende linjer, men igen under hensyntagen til tolerance for det samlede beløb, som for **Købspris** sammen med anvendt **Linjerabatpct.**.  
 4. Luk siden.   
 
-##### Match af linjer fra e-dokument  
+##### <a name="matching-lines-from-e-document"></a>Match af linjer fra e-dokument
 
 Du kan matche linjerne på siden **E-dokument**. Brug følgende trin for at starte dette:  
 
@@ -169,7 +169,7 @@ Du kan matche linjerne på siden **E-dokument**. Brug følgende trin for at star
 3. Vælg handlingen **Match købsordre** for at åbne siden **Matchning af købsordrer**.  
 4. Gentag de samme trin, som du brugte, da du begyndte at matche fra købsordrer.
 
-### Hjælp til copilot-matchning af e-dokumenter  
+### <a name="e-document-matching-assistance-copilot"></a>Hjælp til copilot-matchning af e-dokumenter
 
 > [!NOTE]
 > I øjeblikket har copiloten **Hjælp til matching af e-dokument** status som produktionsklar forhåndsversion, og den er tilgængelig globalt undtagen i Canada. Det fungerer kun på engelsk. 
@@ -177,7 +177,7 @@ Du kan matche linjerne på siden **E-dokument**. Brug følgende trin for at star
 > [!NOTE]
 > Copilot er den AI-drevne assistent, der hjælper folk på tværs af din organisation med at frigøre deres kreativitet og automatisere kedelige opgaver. Copiloten **E-Document Matching Assistance** hjælper brugerne med nemt at matche deres modtagne elektroniske fakturaer med eksisterende indkøbsordrelinjer ved hjælp af LLM-modellen til matchning af linjer mellem to forskellige dokumenter. 
 
-#### Sådan aktiveres copiloten  
+#### <a name="to-activate-the-copilot"></a>Sådan aktiveres copiloten
 
 Hvis du ikke aktiverede **Hjælp til match af e-dokument**-copilot, skal du gøre det manuelt. Følg trinene for at aktivere copiloten **Hjælp til matchning af e-dokumenter**: 
 
@@ -186,7 +186,7 @@ Hvis du ikke aktiverede **Hjælp til match af e-dokument**-copilot, skal du gør
 
 Når copilot er aktiveret, kan du begynde at bruge den.
 
-#### Brug copilot-matchning af e-dokumenter 
+#### <a name="use-the-e-document-matching-assistance-copilot"></a>Brug copilot-matchning af e-dokumenter
 
 Hvis copilot er aktiveret, vil eksisterende handlinger **Tilknyt E-dokumentlinjer** på købte ordrer og **Match købsordre** på siden **E-dokument** få forskellige ikoner, der symboliserer AI-kapacitet. Du kan køre disse handlinger (samme som i tidligere eksempler fra listen over købsordrer), fra en af **købsordrer** eller fra **E-dokument**. Alle trin til løb er de samme, men når du kører denne handling, bliver resultatet anderledes, og du skal følge disse trin:  
 
@@ -231,7 +231,7 @@ Hvis copilot er aktiveret, vil eksisterende handlinger **Tilknyt E-dokumentlinje
 > [!NOTE]
 > Analyse af pris/omkostninger og kontrol af tilgængeligt antal er en del af forbehandlingen.   
 
-## Oversigt over e-dokumentstatusser
+## <a name="overview-of-e-document-statuses"></a>Oversigt over e-dokumentstatusser
 
 Hvis du vil have et bedre overblik over alle e-dokumenter i regnskabet, kan du vælge rollecenteret **Bogholder**, hvor der findes e-dokumentstatusser. Der kan du finde e-dokumentaktiviteter, der har følgende statusser:
 
@@ -242,7 +242,7 @@ Hvis du vil have et bedre overblik over alle e-dokumenter i regnskabet, kan du v
     - Fejl
 
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Opsætte e-dokumenter](finance-how-setup-edocuments.md)    
 [Bruge e-dokument i salgsprocessen](finance-how-use-edocuments.md)   

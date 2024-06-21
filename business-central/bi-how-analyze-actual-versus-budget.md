@@ -11,13 +11,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Analysere faktiske beløb sammenlignet med budgetterede beløb
+# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analysere faktiske beløb sammenlignet med budgetterede beløb
 
 Som et led i indsamling, analyse og deling af virksomhedens data kan du få vist faktiske beløb sammenlignet med budgetterede beløb for alle konti og for flere perioder.
 
 Hvis du vil analysere budgetterede beløb, skal du først oprette finansbudgetter. Flere oplysninger i [Oprette finansbudgetter](finance-how-create-budgets.md).
 
-## Vise et finansbudget
+## <a name="view-a-gl-budget"></a>Vise et finansbudget
 
 budget med dimensioner kan du filtrere poster og få vist et bestemt budget.
 
@@ -34,7 +34,7 @@ budget med dimensioner kan du filtrere poster og få vist et bestemt budget.
 > [!TIP]  
 > Brug handlingen **Rediger budget** for at redigere budgettet. Vælg et beløb på budgetsiden for at få vist de underliggende finansbudgetposter.
 
-## Vise aktuelle og budgetterede beløb for alle konti
+## <a name="view-actual-and-budgeted-amounts-for-all-accounts"></a>Vise aktuelle og budgetterede beløb for alle konti
 
 Du kan få vist finansbudgetter og sammenligne dem med faktiske tal i flere områder af [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -51,7 +51,7 @@ Den venstre kolonne indeholder kontoplanen. Af de fem kolonner i højre side, vi
 > [!TIP]  
 > Brug feltet **Vis efter** på siden **Finans - saldi/budget** til at vælge periodelængden. Brug feltet **Vis som** til at vælge den måde, beløbene beregnes på, enten **Bevægelse** eller **Saldo til dato**. Vælg handlingen **Forrige periode** eller **Næste periode** for at ændre perioden.  
 
-## Sådan får du vist aktuelle og budgetterede beløb for flere perioder  
+## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Sådan får du vist aktuelle og budgetterede beløb for flere perioder
 
 Du kan få vist et antal perioder for en enkelt konto i stedet for at få vist aktuelle og budgetterede beløb for alle beløb i en enkelt periode.  
 
@@ -60,7 +60,7 @@ Du kan få vist et antal perioder for en enkelt konto i stedet for at få vist a
 3. I oversigtspanelet **Indstillinger** skal du udfylde felterne efter behov for at definere, hvad der vises i tabellen.  
 4. I oversigtspanelet **Linjer** skal du hold markøren over et felt i tabellen for at læse en kort beskrivelse af det viste beløb.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Økonomisk Business Intelligence](bi.md)  
 [Arbejde med finansielle rapporter](bi-how-work-account-schedule.md)  

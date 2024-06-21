@@ -11,18 +11,18 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Eksportere en Positive Pay-fil
+# <a name="export-a-positive-pay-file"></a>Eksportere en Positive Pay-fil
 Du kan sikre dig, at din bank kun afregner validerede checks og beløb, ved at eksportere en Positive Pay-fil, der indeholder relevante betalingsoplysninger, checknummer og betalingsbeløb, som du sender til banken som reference, når du behandler betalinger.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er konfigureret til at understøtte Positive Pay-filer for Bank of America og City Bank.
 
-## Sådan konfigureres en bankkonto til Positive Pay
+## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Sådan konfigureres en bankkonto til Positive Pay
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.
 2. Åbn kortet for den bank, som du vil bruge Positive Pay til.
 3. I feltet **Eksportkode for Positive Pay** skal du angive POSPAYBANK.
 4. Luk siden.
 
-## Sådan eksporteres en Positive Pay-fil
+## <a name="to-export-a-positive-pay-file"></a>Sådan eksporteres en Positive Pay-fil
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, og vælg derefter det relaterede link.
 2. Vælg den bankkonto, du vil eksportere en Positive Pay-fil for.
 3. Vælg handlingen **Eksport af Positive Pay-betalingsposter**.
@@ -52,7 +52,7 @@ Sådan reeksporteres Positive Pay-filer
 4. Vælg den linje for den Positive Pay-eksportfil, som du vil reeksportere.
 5. På siden **Positive Pay-betalingsposter** skal du vælge handlingen **Reeksportér Positive Pay-betaling til fil**.
 
-## Se også
+## <a name="see-also"></a>Se også
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
 [Arbejde med finanskladder](ui-work-general-journals.md)  
