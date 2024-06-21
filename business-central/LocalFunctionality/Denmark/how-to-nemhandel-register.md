@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="notification-and-registration-for-the-nemhandelsregisteret-in-denmark"></a>Anmeldelse og tilmelding til NemHandelsregisteret i Danmark
+# Anmeldelse og tilmelding til NemHandelsregisteret i Danmark
 
 Ifølge dansk bogføringslov skal alle standardsystemer fra januar 2024 give brugerne besked om, at de kan tilmelde sig NemHandelsregisteret. De skal også oplyse om registreringsfunktionaliteten.
 
 Derudover, hvis virksomheden ikke er registreret i NemHandelsregisteret, vises en meddelelse øverst på siden med registreringsinstruktioner.
 
-## <a name="notification-about-not-being-registered"></a>Meddelelse om ikke at være tilmeldt
+## Meddelelse om ikke at være tilmeldt
 
 Hvis virksomheden ikke er registreret i NemHandelsregisteret, modtager du følgende meddelelse: "Dit regnskabsprogram er ikke registreret i Nemhandelsregisteret." Du kan gennemføre registreringsprocessen direkte fra meddelelsen ved at vælge enten linket **Tilmeld dig i Nemhandelsregisteret** eller linket **Åben tilmeldingsguide**. Begge links leder dig til det eksterne Nemhandel-indhold.
 
@@ -27,7 +27,7 @@ Hvis virksomheden allerede er registreret, og hvis et gyldigt CVR-nummer (Centra
 > [!NOTE]
 > En meddelelse vises på siden **Virksomhedsoplysninger** og på følgende rollecentre: Bogholder, Business Manager, Administration af brugere, sikkerhedsgrupper og tilladelser, Salgsordrebehandler og Salg og Forholdsmanager.
 
-## <a name="registration-with-the-nemhandelsregisteret"></a>Tilmelding til NemHandelsregisteret
+## Tilmelding til NemHandelsregisteret 
 
 > [!IMPORTANT]
 > Før du begynder registreringen, skal du indtaste et gyldigt CVR-nummer i feltet **Registreringsnr.** på siden **Virksomhedsoplysninger**.
@@ -36,7 +36,7 @@ For at starte registreringen skal du vælge linket **Tilmeld dig i Nemhandelsreg
 
 Efter du har gennemført tilmeldingen til NemHandelsregisteret, forsvinder den eksisterende anmeldelse, fordi Microsoft Dynamics 365 Business Central bekræfter, at virksomhedens CVR-nummer fra feltet **Registreringsnr.** på siden **Virksomhedsoplysninger** er blevet registreret i NemHandelsregisteret gennem API-kaldet. I Business Centrals interne registreringer har virksomheden status som **registreret i NemHandelsregisteret**.
 
-## <a name="other-important-facts"></a>Andre vigtige fakta
+## Andre vigtige fakta
 
 Hvis virksomheden er registreret i NemHandelsregisteret, og hvis den har indstillet felterne **Momsregistreringsnr.** og **Registreringsnr.** på siden **Virksomhedsoplysninger**, kan du ikke slette virksomheden fra siden **Virksomheder**. Denne begrænsning eksisterer, fordi virksomheden er en produktionsvirksomhed i dette tilfælde, og du kan ikke slette produktionstransaktioner.
 
@@ -47,7 +47,7 @@ Derudover, når du vælger **Kopier** på siden **Virksomheder**, oprettes det n
 >
 > Hvis du ikke indtaster et gyldigt CVR-nummer i feltet **Registreringsnr.**, kan du bruge e-dokumenter i Danmark.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Økonomistyring](../../finance.md)  
 [Oversigt over momsstyring](../../finance-manage-vat.md)  

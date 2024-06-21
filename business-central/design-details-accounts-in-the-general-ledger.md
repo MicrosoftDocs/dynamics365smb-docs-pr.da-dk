@@ -10,11 +10,11 @@ ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="design-details-accounts-in-the-general-ledger"></a>Designoplysninger: Konti i Finans
+# Designoplysninger: Konti i Finans
 
 For at afstemme lager og kapacitetsposterne med finansmodulet, bogføres de relaterede værdiposter til forskellige konti i finans. Du kan finde flere oplysninger i [Designoplysninger: Afstemning med Finans](design-details-reconciliation-with-the-general-ledger.md).  
 
-## <a name="from-the-inventory-ledger"></a>Fra lagerposten
+## Fra lagerposten  
 
 Følgende tabel viser forholdet mellem forskellige typer værdiposter for lager og konti og modkonti i finansmodulet.  
 
@@ -58,7 +58,7 @@ Følgende tabel viser forholdet mellem forskellige typer værdiposter for lager 
 |Montageafgang|Varians|Indirekte prod.kostpris|Nej|Lagerbeholdning|Indir. prod.kostprisafv.|  
 |Montageafgang|Afrunding||Nej|Lagerbeholdning|Lagerregulering|  
 
-## <a name="from-the-capacity-ledger"></a>Fra kapacitetsposten
+## Fra kapacitetsposten  
 
  Følgende tabel viser forholdet mellem forskellige typer værdiposter for kapacitet og konti og modkonti i finansmodulet. Kapacitetsposter repræsenterer arbejdstid i forbindelse med montage- eller produktionsarbejde.  
 
@@ -69,13 +69,13 @@ Følgende tabel viser forholdet mellem forskellige typer værdiposter for lager 
 |Produktion|Produktionsressource/Arbejdscenter|Købspris|VIA-konto|Tillagte direkte omkostninger|  
 |Produktion|Produktionsressource/Arbejdscenter|Indirekte omkostning|VIA-konto|Tillagte indir. prod.omkostn.|  
 
-## <a name="assembly-costs-are-always-actual"></a>Montageomkostninger er altid faktiske
+## Montageomkostninger er altid faktiske  
 
  Som vist i tabellen ovenfor, er bogføring af montage ikke repræsenteret i mellemregningskontoer. Dette skyldes, at begrebet igangværende arbejde ikke gælder i montageafgangsbogføring i modsætning til i produktionsafgangsbogføring. Montageomkostninger bogføres kun som faktiske omkostninger, aldrig som forventede omkostninger.  
 
  Du kan finde flere oplysninger i [Designoplysninger: Bogføring af montageordre](design-details-assembly-order-posting.md).  
 
-## <a name="calculating-the-amount-to-post-to-the-general-ledger"></a>Beregning af det beløb, der skal bogføres til Finans
+## Beregning af det beløb, der skal bogføres til Finans  
 
  Følgende felter i tabellen **Værdipost** bruges til at beregne det forventede kostbeløb, der bogføres i finans:  
 
@@ -91,7 +91,7 @@ Følgende tabel viser, hvordan beløbene, der skal bogføres i finansregnskabet,
 |Faktisk kostpris|Kostbeløb (Faktisk) – Bogført kostværdi|  
 |Forventet kostpris|Kostbeløb (Forventet) – Bogført forventet kostpris|  
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Designoplysninger: Lagerberegning](design-details-inventory-costing.md)  
 [Designoplysninger: Lagerbogføring](design-details-inventory-posting.md)  

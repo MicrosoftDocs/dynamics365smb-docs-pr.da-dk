@@ -10,7 +10,7 @@ ms.date: 04/30/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="built-in-analytics"></a>Indbygget analyse
+# Indbygget analyse
 
 [!INCLUDE[prod_short](includes/prod_short.md)] indeholder funktioner, der giver dig mulighed for at analysere data i en samlet formular. Du kan f.eks. bruge disse funktioner til at spore nøgletal (KPI'er) for din økonomi eller analysere regnskaber i Microsoft Excel. Følgende tabel indeholder links til artikler, der kan hjælpe dig med at lære, hvordan du bruger de indbyggede analyser.
 
@@ -19,7 +19,7 @@ ms.custom: bap-template
 |Analysere data med indbyggede Power BI-rapporter. | [Arbejde med Power BI-rapporter](across-working-with-powerbi.md) |
 |Få indblik i, hvilke rapporter brugerne skal bruge| [Telemetri for rapportforbrug](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversigt over analyse](reports-bi-reporting.md)
 

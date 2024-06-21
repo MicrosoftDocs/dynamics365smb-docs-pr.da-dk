@@ -11,13 +11,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# <a name="viewing-table-information"></a>Sådan ser du tabeloplysninger
+# Sådan ser du tabeloplysninger
 
 Siden **8700-tabeloplysninger** indeholder oplysninger om antallet af poster i alle system-og forretningstabeller i [!INCLUDE[prod_short](includes/prod_short.md)], og hvor mange data tabellen indeholder.
 
 Disse oplysninger kan være nyttige til fejlfinding i forbindelse med ydeevnen, da du kan se fordelingen af datastørrelse på tværs af tabeller.
 
-## <a name="view-table-information"></a>Vise tabeloplysninger
+## Vise tabeloplysninger
 
 Hvis du vil åbne denne side, skal du vælge ![Søg efter side eller rapport.](media/ui-search/search_small.png "Ikonet Søg efter side eller rapport") ikon, åbn **Tabeloplysninger**, og vælg derefter det relaterede link.
 
@@ -42,7 +42,7 @@ Følgende tabel indeholder en beskrivelse af de oplysninger, der er angivet for 
 > Siden **Tabeloplysninger** viser data og indeksstørrelser, og summen af tabelstørrelser vil ikke matche den samlede kapacitet, der bruges, fordi den viser datastørrelsen, ikke den faktiske tildelte størrelse. Allokeret plads er altid større end brugt plads for at undgå at skulle allokere plads på hver indsats, hvilket ville begrænse ydeevnen betydeligt
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Inspicere sider](across-inspect-page.md)  
 [Artikler om ydeevne til udviklere](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

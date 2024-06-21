@@ -12,7 +12,7 @@ ms.collection:
   - get-started
 ---
 
-# <a name="chat-with-copilot-preview"></a>Chat med Copilot (forhåndsversion)
+# Chat med Copilot (forhåndsversion)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ I denne artikel forklares det, hvordan du chatter med Copilot for at få svar om
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## <a name="about-chat-with-copilot"></a>Om chat med Copilot
+## Om chat med Copilot
 
 Microsoft Copilot er den AI-drevne assistent, der hjælper med at sætte gang i kreativiteten, øge produktiviteten og eliminere kedelige opgaver. Du kan chatte med Copilot i Business Central for at besvare spørgsmål og finde forretningsdata ved at udtrykke det, du leder efter, i et naturligt sprog. Du kan bruge chat til at:
 
@@ -34,13 +34,13 @@ Chat med Copilot omgår behovet for at navigere i brugergrænsefladen eller prod
   
 > [Se video](https://go.microsoft.com/fwlink/?linkid=2250609)
 
-## <a name="prerequisites"></a>Forudsætninger
+## Forudsætninger
 
 - Chat med Copilot-funktionen er aktiveret. Denne opgave udføres af en administrator. [Få mere at vide om konfigurering af Copilot- og AI-funktioner](enable-ai.md).
 - Visningssproget i Business Central er angivet til en af følgende engelske landestandarder: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Få flere oplysninger om, hvordan du ændrer sproget](ui-change-basic-settings.md#language).
 - Dit Business Central-miljø er i alle lande/områder undtagen Canada (denne funktion er endnu ikke tilgængelig i Canada).
 
-## <a name="get-started-using-chat-with-copilot"></a>Kom i gang med at bruge chat med Copilot
+## Kom i gang med at bruge chat med Copilot
 
 1. I øverste højre hjørne af skærmen skal du vælge ikonet ![Viser ikonet for chat med Copilot](media/chat-copilot-icon.png) **Copilot** ![Viser cllour nummer 1](media/callout-number-1.svg).
 
@@ -65,13 +65,13 @@ Chat med Copilot omgår behovet for at navigere i brugergrænsefladen eller prod
 
    Chat husker konteksten, hvilket betyder, at du ikke behøver at gentage nøglepunkter fra det oprindelige spørgsmål.
 
-## <a name="clear-chat-to-start-over"></a>Rydde chat for at starte forfra
+## Rydde chat for at starte forfra
 
 Hvis du vil skifte til et andet samtaleemne med Copilot, skal du vælge ikonet ![Viser ikonet Ryd chat](media/clear-chat-icon.png) **Start en ny Copilot-chatsession**-ikonet nederst i ruden Copilot over spørgsmålsfeltet. Denne handling rydder Copilots hukommelse for dine sidste par beskeder. Det er ofte nyttigt at starte forfra efter en lang samtale med mange beskeder, og det kan hjælpe Copilot med at levere mere præcise svar.
 
 Chatten ryddes også, hvis du lukker eller logger af Business Central.
 
-## <a name="tips-for-better-questions"></a>Få mest muligt ud af dine spørgsmål
+## <a name="tips"></a>Få mest muligt ud af dine spørgsmål
 
 Dette afsnit beskriver, hvordan du kan forbedre de svar, du får fra Copilot.
 
@@ -83,7 +83,7 @@ Dette afsnit beskriver, hvordan du kan forbedre de svar, du får fra Copilot.
 - Hvis det første svar ikke fuldt ud besvarer dine spørgsmål, skal du stille opfølgende spørgsmål eller omformulere det sidste spørgsmål.
 - Hvis du stiller et spørgsmål om et andet emne end det forrige spørgsmål, skal du rydde den aktuelle chatsession for at starte forfra.
 
-## <a name="example-prompts"></a>Eksempler på prompter
+## Eksempler på prompter
 
 Dine spørgsmål til Copilot varierer naturligvis afhængigt af din rolle, aktuelle opgave, de processer, som din organisation følger, og hvordan du udtrykker dig med ord. Følgende er eksempler, der viser forskellige måder at stille spørgsmål på i chatruden, som kan inspirere dig til at skrive dine egne spørgsmål baseret på din egen unikke situation.
 
@@ -103,7 +103,7 @@ Prompt: `How does I save my filterrings to do them later?`
 
 I dette eksempel beder du Copilot om vejledning i, hvordan du udfører en opgave i Business Central. Copilot kan normalt forstå hensigten med dit spørgsmål, selvom der er et par grammatiske fejl, stavefejl eller forkortelser.
 
-## <a name="provide-feedback-on-answers"></a>Giv feedback på svar
+## Giv feedback på svar
 
 Du kan bedømme de svar, du får fra Copilot, ved at bruge knappen Synes godt om (tommelfinger op) for god bedømmelse eller knappen Dislike (tommelfinger ned) for en dårlig bedømmelse. Når du vælger knappen Dislike, kan du vælge en årsag, herunder unøjagtig, upassende eller andet. Disse oplysninger kan hjælpe med at forbedre forslagene.
 
@@ -111,7 +111,7 @@ Du kan bedømme de svar, du får fra Copilot, ved at bruge knappen Synes godt om
 1. If you want help getting you're question started, select the prompts either from the **Find**, **Explain**, or **Guide** buttons at the top of the Coplit pane or use the **View Prompts** menu above **Ask a question** box at the bottom.
 
    Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.-->
-## <a name="see-also"></a>Se også
+## Se også
 
 [Fejlfinde Copilot- og AI-funktioner](ai-copilot-troubleshooting.md)  
 [Konfigurere Copilot- og AI-funktioner](enable-ai.md)  

@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="depreciation-methods-for-fixed-assets"></a>Metoder til afskrivning af anlægsaktiver
+# Metoder til afskrivning af anlægsaktiver
 
 [!INCLUDE [prod_short](includes/prod_short.md)] understøtter otte forskellige metoder til afskrivning af anlægsaktiver:
 
@@ -25,7 +25,7 @@ ms.service: dynamics-365-business-central
 * Manuel
 * Brugerdefineret afskrivning
 
-## <a name="straight-line-depreciation"></a>Lineær afskrivning
+## Lineær afskrivning
 
 Med lineær afskrivning udfaser du aktivværdien enten med en fast årlig procent eller med et fast årligt beløb over afskrivningsperioden. Når du bruger den lineære metode, skal du angive en af følgende indstillinger i anlægsafskrivningsprofilen:  
 
@@ -34,7 +34,7 @@ Med lineær afskrivning udfaser du aktivværdien enten med en fast årlig procen
 * Et fast årligt beløb  
 * Afskrivningsperiode  
 
-### <a name="depreciation-period"></a>Afskrivningsperiode
+### Afskrivningsperiode
 
 Hvis du angiver afskrivningsperioden (antal afskrivningsår, antal afskrivningsmåneder eller afskrivningsslutdatoen), beregner følgende formel afskrivningsbeløbet:  
 
@@ -44,19 +44,19 @@ De resterende afskrivningsdage beregnes som antallet af afskrivningsdage minus a
 
 Den bogførte værdi kan reduceres med beløb for bogført afskrivning, nedskrivning, bruger 1 og bruger 2, afhængigt af om feltet **Del af afskrivningsberegning** er deaktiveret, og om feltet **Del af bogført værdi** på siden **Anlægsbogf.typeopsætning** er aktiveret. Med denne beregning sikres det, at anlægsaktivet et fuldstændigt afskrevet ved slutdatoen for afskrivningen.  
 
-### <a name="fixed-yearly-percentage"></a>Fast årlig procentsats
+### Fast årlig procentsats
 
 Hvis du har angivet en fast årlig procent, bruger [!INCLUDE [prod_short](includes/prod_short.md)] følgende formel til at beregne afskrivningsbeløbet:  
 
 * Afskrivningsbeløb = (Lineær pct. x Afskrivningsgrundlag x Antal afskrivningsdage) / (100 x 360)*  
 
-### <a name="fixed-yearly-amount"></a>Fast årligt beløb
+### Fast årligt beløb
 
 Hvis du har angivet et fast årligt beløb, bruger [!INCLUDE [prod_short](includes/prod_short.md)] følgende formel til at beregne afskrivningsbeløbet:  
 
 * Afskrivningsbeløb = (Fast afskrivningsbeløb x Antal afskrivningsdage) / 360*  
 
-### <a name="example---straight-line-depreciation"></a>Eksempel – Lineær afskrivning
+### Eksempel – Lineær afskrivning
 
 Et anlægsaktiv har en anskaffelsespris på DKK 100.000. Den anslåede levetid er otte år. Kørslen **Beregn afskrivninger** køres to gange om året.  
 
@@ -73,7 +73,7 @@ I dette eksempel ser anlægsposten sådan ud:
 | 30-06-27 |Afskrivninger |180 |-6.250,00 |6,250.00  |
 | 31-12-27 |Afskrivninger |180 |-6.250,00 |0         |
 
-## <a name="declining-balance-1-depreciation"></a>Saldo 1-afskrivning
+## Saldo 1-afskrivning
 
 Denne afskrivningsmetode allokerer den største del af omkostningerne ved et aktiv til de første år af anlæggets nyttige levetid. Hvis du bruger denne metode, skal du angive en fast årlig procent.  
 
@@ -85,7 +85,7 @@ Afskrivningsgrundlaget beregnes som den bogførte værdi ved årets start. Antal
 
 Det bogførte afskrivningsbeløb kan indeholde poster med forskellige bogføringstyper (nedskrivning, bruger1 og bruger2) efter startdatoen på det aktuelle regnskabsår. Disse bogføringstyper er inkluderet i det bogførte afskrivningsbeløb, hvis afkrydsningsfelterne **Afskrivningstype** og **Del af bogført værdi** er markeret på siden **Anlægsbogf.typeopsætning**.  
 
-### <a name="example-1---declining-balance-1-depreciation"></a>Eksempel 1 – Saldo 1 afskrivning
+### Eksempel 1 – Saldo 1 afskrivning
 
 Et anlægsaktiv har en anskaffelsespris på DKK 100.000. Feltet **Saldopct.** er angivet til 25. Kørslen **Beregn afskrivninger** køres to gange om året.  
 
@@ -115,13 +115,13 @@ Beregningsmetode:
 
 Beregningen fortsætter, indtil den bogførte værdi er lig med det endelige afrundingsbeløb eller den skrapværdi, du har angivet.  
 
-### <a name="example-2---declining-balance-1-depreciation"></a>Eksempel 2 – Saldo 1 afskrivning
+### Eksempel 2 – Saldo 1 afskrivning
 
 Et anlægs bogførte værdi er 100.000 den 31.12.2022. Du bogfører en afskrivning på 1.778 den 2.2.2023, som er det forventede (proportionale) beløb for årets afskrivning den 32 dage. Hvis du kører afskrivning den 30.06.2023, foreslår [!INCLUDE [prod_short](includes/prod_short.md)] 8.222, fordi der er 148 dage fra 02.02.2023 til 30.06.2023. Den forventede afskrivning for 30.06.2023 beregnes ved hjælp af følgende formel:
 
 * *148/360 x 0,20 x 100.000 = 8.222*
 
-### <a name="example-3---declining-balance-1-depreciation"></a>Eksempel 3 – Saldo 1 afskrivning
+### Eksempel 3 – Saldo 1 afskrivning
 
 Hvis du bogfører et beløb, der ikke stemmer med afskrivningsmetoden saldo 1, f. eks. 5.000, foreslår [!INCLUDE [prod_short](includes/prod_short.md)] resten af det forventede beløb.
 
@@ -129,7 +129,7 @@ Et anlægs bogførte værdi er 100.000 den 31.12.2022. Du bogfører en afskrivni
 
 * *148/360 x 0,20 x 100.000 = 8.222*
 
-### <a name="example-4---declining-balance-1-depreciation"></a>Eksempel 4 – Saldo 1 afskrivning
+### Eksempel 4 – Saldo 1 afskrivning
 
 Et anlægs bogførte værdi er 100.000 den 31.12.2023. Du bogfører en afskrivning på 95.000 den 02.02.2023, hvilket overstiger det tilladte afskrivningsbeløb for året. Hvis du kører afskrivning den 30.06.2023, foreslår [!INCLUDE [prod_short](includes/prod_short.md)] 5.000, fordi der er 148 dage fra 02.02.2023 til 30.06.2023. Den forventede afskrivning for 30.06.2023 beregnes ved hjælp af følgende formel: 
 
@@ -137,11 +137,11 @@ Et anlægs bogførte værdi er 100.000 den 31.12.2023. Du bogfører en afskrivni
 
 Den resterende bogførte værdi er dog kun 5.000, så [!INCLUDE [prod_short](includes/prod_short.md)] foreslår 5.000, fordi en bogført værdi ikke kan være negativ.
 
-## <a name="declining-balance-2-depreciation"></a>Saldo 2-afskrivning
+## Saldo 2-afskrivning
 
 Med Saldo 1- og Saldo 2-metoderne beregnes det samme totale afskrivningsbeløb for hvert år. Men hvis du udfører kørslen **Beregn afskrivning** mere end én gang om året, vil Saldo 1-metoden resultere i lige store afskrivningsbeløb for hver afskrivningsperiode. Med Saldo 2-metoden bliver resultatet derimod afskrivningsbeløb, der bliver mindre og mindre for hver periode.  
 
-### <a name="example---declining-balance-2-depreciation"></a>Eksempel – Saldo 2 afskrivning
+### Eksempel – Saldo 2 afskrivning
 
 Et anlægsaktiv har en anskaffelsespris på DKK 100.000. Feltet **Saldopct.** er angivet til 25. Kørslen **Beregn afskrivninger** køres to gange om året. Anlægsposterne ser sådan ud:  
 
@@ -176,7 +176,7 @@ Afskrivningsværdierne er:
 | 31-12-21 |DA = 64.951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8.701,91  |
 | ...      |                                                            |
 
-## <a name="db1sl-depreciation"></a>DB1/SL-afskrivning
+## DB1/SL-afskrivning
 
 Saldo1/Lin. er et forkortet udtryk for Saldo 1 og Lineær. Beregningen fortsætter, indtil den bogførte værdi er lig med det endelige afrundingsbeløb eller den skrapværdi, du har angivet.  
 
@@ -191,7 +191,7 @@ Hvis du bruger denne metode, skal du angive den anslåede levetid og en saldopro
 >
 > I **rapporten Anlæg - forventet værdi** kan der fremskrives afskrivninger for flerårige perioder, hvilket kan være forvirrende sammenlignet med de resultater, du får, hvis du foretager afskrivninger over flere år ved hjælp af en af saldoafskrivningsmetoderne. 
 
-### <a name="example---db1-sl-depreciation"></a>Eksempel – Afskrivning med Saldo 1
+### Eksempel – Afskrivning med Saldo 1
 
 Et anlægsaktiv har en anskaffelsespris på DKK 100.000. På siden **Anlægsafskrivningsprofiler** står der 25 i feltet **Saldoprocent** og feltet **Antal afskrivningsår** indeholder **8**. Kørslen **Beregn afskrivninger** køres to gange om året.  
 
@@ -237,7 +237,7 @@ Beregningsmetode:
 
     Det lineære beløb anvendes, fordi det er det største af de to.  
 
-## <a name="half-year-convention-depreciation"></a>Half-Year Convention-afskrivning
+## Half-Year Convention-afskrivning
 
 Metoden med det halvårlige afskrivningsprincip anvendes kun, hvis du aktiverer til/fra-knappen **Brug halvårskonvention** for anlægsaktivet på siden **Anlægskort** .  
 
@@ -252,7 +252,7 @@ Når du anvender det halvårlige afskrivningsprincip, afskrives et anlægsaktiv 
 > [!NOTE]  
 > Den anslåede levetid, der er tilbage for anlægsaktivet efter det første regnskabsår, vil altid indeholde et halvår, hvor det halvårlige afskrivningsprincip anvendes. Når således det halvårlige afskrivningsprincip skal anvendes korrekt, skal feltet **Afskrivningsslutdato** på siden **Anlægsafskrivningsprofil** altid indeholde en dato, der ligger nøjagtigt seks måneder inden den sidste dag i det regnskabsår, hvor anlægsaktivet bliver helt afskrevet.  
 
-### <a name="example---half-year-convention-depreciation"></a>Eksempel – Half-Year Convention-afskrivning
+### Eksempel – Half-Year Convention-afskrivning
 
 Et anlægsaktiv har en anskaffelsespris på DKK 100.000. I **Afskriv fra den** er datoen 01-03-20 angivet. Den anslåede levetid er fem år, så **Afskriv til den** skal angives til 30-06-25. Kørslen **Beregn afskrivning** udføres en gang om året. Dette eksempel er baseret på et kalenderregnskabsår.  
 
@@ -268,7 +268,7 @@ Anlægsposterne ser sådan ud:
 | 31-12-24 |Afskrivninger |360 |-20.000,00 |10,000.00 |
 | 31-12-25 |Afskrivninger |180 |-10.000,00 |0.00 |
 
-## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Eksempel: Saldo1/Lineær afskrivning efter halvårsprincippet
+## Eksempel: Saldo1/Lineær afskrivning efter halvårsprincippet
 
 Et anlægsaktiv har en anskaffelsespris på DKK 100.000. I **Afskriv fra den** er datoen 01-11-20 angivet. Den anslåede levetid er fem år, så **Afskriv til den** skal angives til 30-06-25. På siden **Anlægsafskrivningsprofiler** står der 40 i feltet **Saldopct.**. Kørslen **Beregn afskrivning** udføres en gang om året. Dette eksempel er baseret på et kalenderregnskabsår.  
 
@@ -304,7 +304,7 @@ Beregningsmetode:
 
     Det lineære beløb anvendes, fordi det er det største af de to.  
 
-## <a name="duplicate-entries-to-other-depreciation-books"></a>Kopiering af poster til andre afskrivningsprofiler
+## Kopiering af poster til andre afskrivningsprofiler
 
 Hvis du har tre afskrivningsprofiler, B1, B2 og B3, og du vil kopiere poster fra B1 til B2 og B3, kan du aktivere afkrydsningsfeltet **Del af kopiliste** på afskrivningsprofilkortene for B2 og B3. Denne indstilling er f.eks. nyttig i følgende scenarier:
 
@@ -319,15 +319,15 @@ Når du indtaster en post i B1 i anlægskassekladden og aktivere afkrydsningsfel
 > [!NOTE]  
 > Du kan ikke bruge samme nummerserie i anlægskassekladden og anlægskladden. Når du bogfører poster i anlægskassekladden, skal feltet **Bilagsnr.** være tomt. Hvis du indtaster et tal i feltet, kopieres tallet i anlægskladden. Du skal manuelt ændre bilagsnummeret, før du kan bogføre kladden.  
 
-## <a name="manual-depreciation"></a>Manuel afskrivning
+## Manuel afskrivning
 
 Brug den manuelle metode til anlægsaktiver, der ikke afskrives, f.eks. jord. Du skal angive afskrivningen i anlægskassekladden. Kørslen **Beregn afskrivninger** medtager ikke de anlægsaktiver, hvor den manuelle afskrivningsmetode bruges.
 
-## <a name="user-defined-depreciation"></a>Brugerdefineret afskrivning
+## Brugerdefineret afskrivning
 
 Hvis de indbyggede afskrivningsmetoder ikke opfylder dine behov, kan du definere din egen afskrivningsmetode ved hjælp af afskrivningstabeller. Du kan finde flere oplysninger om anvendelse af en brugerdefineret afskrivningsmetode i [Konfigurere brugerdefineret afskrivningsmetode](fa-how-setup-user-defined-depreciation-method.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversigt over anlægsaktiver](fa-manage.md)  
 [Opsætning af Anlægsaktiver](fa-setup.md)  

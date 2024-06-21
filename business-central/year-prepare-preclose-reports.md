@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="use-pre-closing-reports"></a>Bruge rapporter før afslutning
+# Bruge rapporter før afslutning
 
 Der findes mange standardrapporter, som du kan bruge til at bekræfte nøjagtigheden af kontiene, inden du afslutter regnskaberne i slutningen af et år eller en periode. Du kan f.eks. bruge rapporten **Debitor - balance** til at bekræfte, at balancen for en debitorbogføringsgruppe er lig med balancen for den tilsvarende finanskonto på en bestemt dato.
 
@@ -30,7 +30,7 @@ Følgende tabel indeholder et antal rapporter, som kan være nyttige i denne pro
 
 Få vist en rapport ved at vælge ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv navnet, som det vises i tabellen, og vælg derefter det relaterede link.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Afslutning af år og perioder](year-close-years-periods.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

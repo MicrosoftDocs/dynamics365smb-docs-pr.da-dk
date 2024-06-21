@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration"></a>Gennemgang af indgående og udgående flow i blandet opsætning af lagersted
+# Gennemgang af indgående og udgående flow i blandet opsætning af lagersted
 
 Denne gennemgang viser, hvordan indgående og udgående flow kan fuldføres i Avanceret: Styret læg på lager og pluk-konfiguration. Du kan finde flere oplysninger i [Oversigt over forskellige konfigurationsindstillinger](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Forudsætninger
+## Forudsætninger  
 Fuldfør denne gennemgang, og gør dig selv til lagermedarbejder på lokationen *HVID* ved at følge disse trin:  
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lagermedarbejdere**, og vælg derefter det relaterede link.  
 2. Vælg feltet **Bruger-id**, og vælg din egen brugerkonto på siden **Brugere**.  
@@ -24,10 +24,10 @@ Fuldfør denne gennemgang, og gør dig selv til lagermedarbejder på lokationen 
 4. Aktiver **Standard** til/fra.
 
 
-## <a name="scenario"></a>Scenarie
+## Scenarie  
 Ellen, lagerchefen, bruger muligheder for direkte afsendelse og placeringsgenopfyldning for at øge modtagelses- og transporttiden.  
 
-## <a name="steps"></a>Trin
+## Trin
 
 1. Opret lagerleverance.  
 
@@ -136,7 +136,7 @@ Ellen, lagerchefen, bruger muligheder for direkte afsendelse og placeringsgenopf
     4. Bekræft indstillingen **Levering**.
 
 
-## <a name="results"></a>Resultater
+## Resultater
 - **Bogført lagerstedsmodtagelse** oprettes
 - **Bogf. læg-på-lager** oprettes    
 - **Bogført købsmodtagelse** oprettes    
@@ -150,7 +150,7 @@ Ellen, lagerchefen, bruger muligheder for direkte afsendelse og placeringsgenopf
 
 
 
-## <a name="see-also"></a>Se også
+## Se også
 [Modtag varer](../../warehouse-how-receive-items.md) 
 [Designdetaljer: Indgående lagerstedsflow](../../design-details-inbound-warehouse-flow.md) 
 [Lever varer](../../warehouse-how-ship-items.md) 

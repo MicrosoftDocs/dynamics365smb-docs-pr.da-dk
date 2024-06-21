@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="design-details-planning-assignment-table"></a>Designoplysninger: Tabellen Planlægningsopgave
+# Designoplysninger: Tabellen Planlægningsopgave
 Der skal foretages planlægning for alle varer, men der er ingen grund til at beregne en plan for en vare, medmindre der er sket en ændring i mønstret for behov eller forsyning, siden sidst en plan blev beregnet.  
 
 Hvis brugeren har angivet en ny salgsordre eller ændret en eksisterende, er der grund til at genberegne planen. Andre årsager omfatter en ændring i budgettet eller den ønskede mængde sikkerhedslager. Ændring af en stykliste ved at tilføje eller fjerne en komponent ville sandsynligvis angive en ændring, men kun for komponentvaren.  
@@ -55,7 +55,7 @@ Ved beregning af en hovedplan eller en MRP gælder følgende begrænsninger:
 * Hovedplan: Planlægningssystemet kontrollerer, at varen har en behovsprognose eller en salgsordre. Hvis ikke, medtages varen ikke i planen.  
 * MRP: Hvis planlægningssystemet registrerer, at varen genbestilles af en hovedplans planlægningslinje eller forsyningsordre, udelades varen i planlægningen. Et hvilket som helst behov fra relevante komponenter er imidlertid inkluderet.  
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)   
 [Designoplysninger: Håndtering af genbestillingsmetoder](design-details-handling-reordering-policies.md)   
 [Designoplysninger: Overførsler i planlægning](design-details-transfers-in-planning.md)   

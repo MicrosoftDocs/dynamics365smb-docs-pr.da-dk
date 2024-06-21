@@ -12,7 +12,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="managing-sales-opportunities"></a>Administrere salgsleads
+# Administrere salgsleads
 Alle indgående leads kan anses for at være et salgslead. Du kan oprette leads og knytte dem til en sælger, så du kan holde styr på muligt salg.
 
 Før du kan begynde at bruge leadadministration, skal du definere salgsprocesser og salgsprocesfaser. Efterhånden som du opretter leads, bør du angive oplysninger om kontaktperson, sælger, salgsproces og datoer samt dine anslåede værdier for salgsværdien af det pågældende lead og dit overslag over chancerne for vellykket gennemførelse.
@@ -25,7 +25,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 | Oprette salgs-leads, som du har fra dine kontakter. |[Oprette salgsmuligheder](marketing-how-create-opportunities.md) |
 | Flyt et salgslead via salgsprocessen til afslutning. |[Behandle salgsleads](marketing-processing-sales-opportunities.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 [Salg](sales-manage-sales.md)  
 [Oprette og administrere kontakter](marketing-contacts.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

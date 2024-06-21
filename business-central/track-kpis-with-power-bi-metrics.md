@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="track-your-business-kpis-with-power-bi-metrics"></a>Spore forretnings-KPI'er med Power BI-metriske værdier
+# Spore forretnings-KPI'er med Power BI-metriske værdier
 
 Hvis du bruger Power BI til [!INCLUDE[prod_short](includes/prod_short.md)]-data, er det nemt at spore KPI'er eller metrikværdier, der er vigtige for dig.
 
@@ -32,7 +32,7 @@ Flere oplysninger om Power BI-metrikpunkter i [Introduktion til målepunkter i P
 > [!NOTE]
 > Fra og med Business Central-udgivelsesbølge 2 i 2023 er det muligt at integrere scorecards fra Power BI målinger i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bruge nøgletal (KPI'er) til at overholde din virksomheds mål](analytics-about-kpis.md)  
 [Introduktion til Business Central og Power BI](admin-powerbi.md)  

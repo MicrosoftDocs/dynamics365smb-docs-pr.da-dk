@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Konfigurere varer og lokationer til styret læg-på-lager og pluk
+# Konfigurere varer og lokationer til styret læg-på-lager og pluk
 
 Når lagerlokationen kræver styret læg-på-lager og pluk, kan du bruge en ny funktion, der hjælper dig med at styre lagerstedet på den mest effektive måde. Hvis du vil have fuldt udbytte af denne funktion, skal du give yderligere oplysninger om varerne, som til gengæld hjælper med at foretage de nødvendige beregninger for at kunne give forslag til de mest effektive måder at styre lageraktiviteter på. 
 
-## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Sådan opsættes varer til styret læg-på-lager og pluk
+## Sådan opsættes varer til styret læg-på-lager og pluk  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
 2. Åbn kortet for den vare, som du vil konfigurere til styret læg-på-lager og pluk.
@@ -25,7 +25,7 @@ Når lagerlokationen kræver styret læg-på-lager og pluk, kan du bruge en ny f
 6. Vælg handlingen **Placeringsindhold**.
 7. På siden **Placeringsindhold** kan du definere de lokationer og placeringer, som varen skal tilknyttes. Feltet **Standard** bruges ikke, når lokationen kræver styret læg-på-lager og pluk.  
 
-## <a name="to-start-using-directed-put-away-and-pick"></a>Begynd at bruge styret læg-på-lager og pluk
+## Begynd at bruge styret læg-på-lager og pluk
 
 Styret læg-på-lager og pluk giver dig adgang til funktioner for avanceret lageropsætning, der kan medføre en væsentlig forbedring af effektiviteten og dataenes pålidelighed. Hvis du vil bruge disse funktioner, skal du først opsætte en række parametre i lagerlokationen.  
 
@@ -46,7 +46,7 @@ Du kan også definere lagerklassekoder, hvis der håndteres varer med specifikke
 
 Du er nu klar til at oprette zoner, hvis du ønsker det. Brugen af zoner nedsætter det antal felter, det er nødvendigt at udfylde, når du skal oprette placeringer, fordi de placeringer, der oprettes inden for en zone, automatisk overtager en række egenskaber fra denne. Zoner kan også gøre det nemmere for nye eller midlertidige medarbejdere at finde rundt på lagerstedet. Bemærk, at strømmen styres af placeringer. Det er derfor muligt at styre med placeringer og kun have én zone.  
 
-## <a name="to-set-up-a-zone-in-your-warehouse"></a>Sådan oprettes en zone på lagerstedet
+## Sådan oprettes en zone på lagerstedet  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Lokationer**, og vælg derefter det relaterede link.  
 2. Vælg den lokation, hvor du vil oprette zone, åbn lokationskortet, og vælg derefter handlingen **Zoner**.  
@@ -61,7 +61,7 @@ Det næste trin i opsætning af lagerstedet omfatter definition af placeringer. 
 
 Derudover skal du oprette læg-på-lager-skabeloner og optællingsperioder. Du kan finde flere oplysninger i [Konfigurere læg på lager-skabeloner](warehouse-how-to-set-up-put-away-templates.md).  
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Warehouse Management-oversigt](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

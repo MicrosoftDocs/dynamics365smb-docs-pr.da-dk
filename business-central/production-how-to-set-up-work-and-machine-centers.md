@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbejdscentre og produktionsressourcer
+# Konfigurere arbejdscentre og produktionsressourcer
 
 Programmet skelner mellem tre typer kapacitet. Disse er arrangeret hierarkisk. Hvert niveau indeholder underordnede niveauer.  
 
@@ -25,7 +25,7 @@ Tilgængeligheden er lagret i kalenderposter.
 > [!IMPORTANT]
 > Før du opretter arbejdscentre eller produktionsressourcer, skal du oprette produktionskalendere. Du kan finde flere oplysninger i [Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md).
 
-## <a name="to-set-up-a-work-center"></a>Sådan opsættes et arbejdscenter
+## Sådan opsættes et arbejdscenter
 
 Nedenstående beskrives primært, hvordan du opretter et arbejdscenter. Trinnene til at oprette en produktionsressourcekalender er identiske med undtagelse af oversigtspanelet **Ruteopsætning**.  
 
@@ -71,13 +71,13 @@ Nedenstående beskrives primært, hvordan du opretter et arbejdscenter. Trinnene
 > [!NOTE]
 > Brug køtid til at angive en buffer mellem den tid, en komponent ankommer til en produktionsressource eller et arbejdscenter, og hvornår driften faktisk starter. F. eks. leveres en del til en produktionsressource kl. 10:00, men det tager en time at montere det på maskinen, så driften kan ikke starte før kl. 11:00. For at kunne redegøre for den pågældende time skal køtiden være én time. Værdien i feltet **Køtid** på det specifikke produktionsressource- eller arbejdscenterkort plus summen af værdien i felterne **Opstillingstid**, **Driftstid**, **Ventetid** og **Transporttid** på varerutelinjen lægges sammen for at vise varens produktionstid. Dermed får du den nøjagtige overordnede produktionstid.  
 
-## <a name="considerations-about-capacity"></a>Overvejelser om kapacitet
+## Overvejelser om kapacitet
 
 Den kapacitet og effektivitet, der er angivet for et arbejds- og produktionsressource, påvirker ikke blot den tilgængelige kapacitet. De har også indflydelse på den samlede produktionstid, som består af opstillingstid og operationstid, som begge er defineret på rutelinjen.  
 
 Når en bestemt rutelinje er allokeret til en arbejdscenter-eller produktionsressource, beregner systemet, hvor meget kapacitet der er behov for, og hvor lang tid det tager at fuldføre operationen.  
 
-### <a name="run-time"></a>Operationstid
+### Operationstid
 
 For at beregne operationstiden allokerer systemet den nøjagtige tid, der er angivet i feltet **Operationstid på rutelinjen**. Hverken effektivitet eller kapacitet påvirker den allokerede tid. Hvis operationstiden f. eks. er defineret som 2 timer, er den tildelte tid to timer, uanset værdierne i felterne effektivitet og kapacitet i arbejdscentret.  
 
@@ -93,7 +93,7 @@ For at beregne operationstiden allokerer systemet den nøjagtige tid, der er ang
 
 Du kan være vanskelig med brøk kapaciteten, og vi gennemgår den senere. 
 
-### <a name="setup-time"></a>Opstillingstid
+### Opstillingstid
 
 Tidsfordelingen for opstillingstiden afhænger af kapaciteten og beregnes som *Opstillingstid * kapacitet*. Hvis kapaciteten f. eks. er angivet til *2*, fordobles den allokerede opstillingstid, fordi du skal konfigurere to computere til operationen.  
 
@@ -104,7 +104,7 @@ Tidsfordelingen for opstillingstiden afhænger af kapaciteten og beregnes som *O
 
 Den fraktale kapacitet er ikke noget at kende, og den anvendes i meget specifikke tilfælde.
 
-### <a name="work-center-processing-multiple-orders-simultaneously"></a>Arbejdscenterbehandling af flere ordrer samtidigt
+### Arbejdscenterbehandling af flere ordrer samtidigt
 
 Lad os bruge en forbrugsstand som eksempel. Den har samme opsætnings-og operationstid for hver behandlet Lot. Men hvert Lot kan indeholde flere enkelte ordrer, der er malet samtidigt.  
 
@@ -122,7 +122,7 @@ Den allokerede opstillingstid for hver enkelt ordre vil være i omvendt rækkef�
 I begge tilfælde er den samlede allokerede tid for alle ordrer to timer.
 
 
-### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a>Effektiv ressource kan dedikeres en del af deres arbejdsdato til produktiv arbejde
+### Effektiv ressource kan dedikeres en del af deres arbejdsdato til produktiv arbejde
 
 > [!NOTE]
 > Dette scenarie kan ikke anbefales. Det anbefales, at du bruger effektivitet i stedet. 
@@ -133,7 +133,7 @@ Den allokerede operationstid er to timer, og varigheden er fire timer.
 
 Brug ikke opstillingstid i sådanne scenarier, da systemet kun allokerer 50 % af tiden. Hvis opstillingstiden er angivet til *2*, er den allokerede opstillingstid én time, og varigheden er to timer.
 
-### <a name="consolidated-calendar"></a>Fælles kalender
+### Fælles kalender
 
 Når feltet **Fælles kalender** er markeret, har arbejdscentret ikke sin egen kapacitet. Dens kapacitet er i stedet lig med summen af kapaciteten for alle de produktionsressourcer, der er knyttet til arbejdscentret.  
 
@@ -145,7 +145,7 @@ Hvis du f. eks. har to produktionsressourcer med en effektivitet på henholdsvis
 > [!NOTE]
 >  Brug feltet **Fælles kalender**, når du strukturerer ruterne for at planlægge produktionsoperationer på produktionsressourceniveauet, ikke på arbejdscenter niveauet. Når du konsoliderer kalenderen, bliver **Arbejdscenterbelastning**-siden og -rapporter en oversigt over den samlede belastning i alle produktionsressourcer, der er knyttet til ressourcen.
 
-### <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Eksempel - Du kan knytte forskellige produktionsressourcer til et arbejdscenter
+### Eksempel - Du kan knytte forskellige produktionsressourcer til et arbejdscenter
 
 Det er vigtigt at planlægge, hvilke kapaciteter der udgør den samlede kapacitet, når der angives produktionsressourcer og arbejdscentre.
 
@@ -155,7 +155,7 @@ Hvis identiske produktionsressourcer, f.eks. 210 Pakkebord 1 og 220 Pakkebord 2,
 
 Hvis kapaciteter i arbejdscentre ikke skal bidrage til den samlede kapacitet, skal du angive effektivitet = 0.
 
-## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Hvis du vil oprette en produktionsressource eller et arbejdscenter med kapacitetsbegrænsning
+## Hvis du vil oprette en produktionsressource eller et arbejdscenter med kapacitetsbegrænsning
 
 Du skal oprette produktionsressourcer, som du betragter som kritiske, og udpege dem som i stand til at håndtere en begrænset belastning i stedet for den ubegrænsede belastning, som andre ressourcer kan håndtere. En kapacitetsbegrænset ressource kan f.eks. være et arbejdscenter eller en produktionsressource, der er identificeret som flaskehals, og som du derfor vil tildele en begrænset (endelig) belastning for.
 
@@ -174,7 +174,7 @@ Ved planlægning med kapacitetsbegrænsede ressourcer sikrer systemet, at der ik
 
 > I tilfælde af opdeling af operationen er opstillingstiden kun tildelt én gang, da det antages, at nogen manuel regulering er udført for at optimere planen.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opsætte produktionskalendere](production-how-to-create-work-center-calendars.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  

@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-banking"></a>Konfigurere banktransaktioner
+# Konfigurere banktransaktioner
 
 Når du bruger bankkontokort kan du holde styr på dine bankkonti i alle valutaer. Når du har oprettet bankkontiene, får du også mulighed for at udskrive check.
 
@@ -25,7 +25,7 @@ Hvis du vil bruge elektroniske tjenester til at indlæse bankkontoudtog og udlæ
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bankkontoafstemning](bank-manage-bank-accounts.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  

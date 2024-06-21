@@ -12,7 +12,7 @@ ms.search.form: '1826, 1827'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-company-consolidation"></a>Opsætte virksomhedskonsolidering
+# Opsætte virksomhedskonsolidering
 
 Før du kan konsolidere finansposterne fra to eller flere regnskaber (datterselskaber) til et konsolideret regnskab, skal du forberede kontoplanerne og det konsoliderede regnskab.  
 
@@ -23,7 +23,7 @@ Afhængigt af kompleksiteten af virksomhederne kan konsolideringen konfigureres 
   * I hver koncernvirksomhed skal du angive, hvilke finanskonti der skal indgå i konsolideringen samt konsolideringstransaktionsmetoden for hver konto.
   * Oprette et koncernvirksomhedskort i det konsoliderede regnskab for hvert regnskab, der skal medtages i konsolideringen. Dette kort indeholder oplysninger som f.eks. datoerne for koncernvirksomhedens regnskabsår, den procent af hvert regnskab, der skal indgå i konsolideringen.
 
-## <a name="simple-consolidation-setup"></a>Simpel konsolideringsopsætning
+## Simpel konsolideringsopsætning
 
 Hvis din konsolidering er enkel, f.eks. fordi du er eneejer af de koncernvirksomheder, der skal konsolideres, hjælper den assisterede opsætningsvejledning **Virksomhedskonsolidering** dig gennem følgende trin:
 
@@ -35,11 +35,11 @@ Hvis du vil bruge den assisterede opsætningsvejledning, skal du gøre følgende
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Assisteret opsætning** og vælg derefter det relaterede link.
 2. Vælg **Behandl konsolideringer**, og udfør derefter de enkelte trin i den assisterede opsætningsvejledning for firmakonsolidering.
 
-## <a name="advanced-consolidation-setup"></a>Avanceret konsolideringskonfiguration
+## Avanceret konsolideringskonfiguration
 
 Hvis du har brug for mere avancerede indstillinger til din konsolidering, kan du oprette konsolideringen manuelt. Hvis du f.eks. har virksomheder, som du kun ejer delvist, eller virksomheder, som du ikke vil have med i konsolideringen.  
 
-### <a name="set-up-the-consolidated-company"></a>Konfigurer det konsoliderede regnskab
+### Konfigurer det konsoliderede regnskab
 
 Du skal først konfigurere den konsoliderede virksomhed. Du opretter det konsoliderede regnskab på samme måde, som du opretter andre regnskaber. Du kan få mere at vide om, hvordan du konfigurerer en virksomhed, ved at gå til [Bliv klar til at gøre forretninger](ui-get-ready-business.md).  
 
@@ -63,7 +63,7 @@ Følgende liste illustrerer nøgleaspekter i det konsoliderede regnskab.
 
     Du kan finde flere oplysninger i afsnittet [Medtag og udeluk dimensioner](#dim).
 
-### <a name="add-business-units"></a><a name="busunit"></a>Tilføj virksomhedsenheder
+### <a name="busunit"></a>Tilføj virksomhedsenheder
 
 Oprette (i det konsoliderede regnskab) et koncernvirksomhedskort for hvert regnskab, der skal medtages i konsolideringen. Før du udfører en konsolidering og genererer konsolideringsrapporten, er det en god ide at kontrollere de økonomiske data i hver enkelt koncernvirksomhed.
 
@@ -75,7 +75,7 @@ En stor del af opsætningen af koncernvirksomheden er at angive, hvordan enheden
 > [!NOTE]
 > API-indstillingen giver dig også mulighed for at dele finansposter fra andre [!INCLUDE [prod_short](includes/prod_short.md)]-miljøer. Hvis du vil bruge API-indstillingen, skal den bruger, der konfigurerer konsolideringen, have tilladelse til at få adgang til finansposter. Tilladelsessættene D365 Basic og D365 Read giver f.eks. adgang.
 
-#### <a name="set-up-business-unit-currencies"></a>Opsæt valutaer for afdelinger
+#### Opsæt valutaer for afdelinger
 
 Når du udfører konsolidering for koncernvirksomheder, der bruger en fremmed valuta, skal du være særlig opmærksom på de valutakurser, som forskellige dele af processen bruger, og endnu mere, når du kører konsolideringen igen. Det gør du ved at bruge siden **Konfigurer valutaer for afdelinger** for koncernvirksomheder til nemt at holde styr på kurserne.
 
@@ -86,7 +86,7 @@ Du starter batchjobbet **Udfør konsolidering** fra listesiden **Koncernvirksomh
 > [!NOTE]
 > De sider til opsætning af valutakurser for gennemsnit, ultimokurs og seneste ultimokurs, der aktuelt er tilgængelige på **virksomhed**, udfases i en fremtidig version. Du kan dog stadig opretholde disse satser, hvis du har koncernvirksomheder, som du importerer via filer.
 
-#### <a name="create-a-business-unit"></a>Opret en afdeling
+#### Opret en afdeling
 
 1. Log på det konsoliderede regnskab.
 2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Forretningsenheder**, og vælg derefter det relaterede link.  
@@ -102,7 +102,7 @@ Du starter batchjobbet **Udfør konsolidering** fra listesiden **Koncernvirksomh
         Hvis du vil hente URL-adressen til slutpunktet i koncernvirksomhedsfirmaet [!INCLUDE [prod_short](includes/prod_short.md)], skal du åbne siden **Koncernvirksomhedskort** og vælge handlingen **Opsætning**. 
    * Hvis du vil eksportere en .xml-fil og dele den manuelt, skal du vælge **Filformat**.
 
-### <a name="prepare-general-ledger-accounts-for-consolidation"></a><a name="glacc"></a>Klargøre finanskonti til konsolidering
+### <a name="glacc"></a>Klargøre finanskonti til konsolidering
 
 Kontoplanen for et regnskab, der skal konsolideres, skal angive konti for konsolidering. Du skal angive den finanskonto i det konsoliderede regnskab, som saldoen skal overføres til ved konsolideringen, for alle bogføringsfinanskonti i de enkelte regnskaber. Med denne tilknytning kan du konsolidere regnskaber med forskellige kontoplaner.
 
@@ -117,7 +117,7 @@ Hvis kontoplanen i koncernvirksomheden er anderledes end det konsoliderede regns
 > [!TIP]
 > Der kan være situationer, hvor du ikke ønsker at medtage en konto i en konsolidering. Hvis koncernregnskabet f.eks. kun skal afspejle balancerne fra datterselskaberne. Hvis du vil udelukke en konto fra konsolidering, skal du aktivere til/fra-knappen **Udeluk fra konsolidering** for kontoen.
 
-### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Angiv kurser for konsolideringer
+### <a name="exchrates"></a>Angiv kurser for konsolideringer
 
 Hvis en koncernvirksomhed bruger en anden valuta end det konsoliderede regnskab, skal du angive valutakursmetoder for hver konto, før du konsoliderer. For hver konto bestemmer indholdet af feltet **Konsol. oversættelsesmetode** valutakursen. I den konsoliderede virksomhed skal du for hvert koncernvirksomhedskort angive i feltet **Valutakurstabel**, om konsolideringen skal bruge valutakurser fra koncernvirksomhedens regnskab eller det konsoliderede regnskab. Hvis du bruger valutakurser fra det konsoliderede regnskab, kan du ændre kurserne for en koncernvirksomhed. For koncernvirksomheder gælder: Hvis der i feltet **Valutakurstabel** på koncernvirksomhedskortet står **Lokal**, kan du ændre valutakursen fra koncernvirksomhedskortet. Valutakurserne kopieres fra tabellen **Valutakurs**, men du kan ændre dem inden kosolideringen.
 
@@ -138,7 +138,7 @@ Gør følgende for at angive valutakurser for en koncernvirksomhed:
 2. Vælg koncernvirksomheden på siden **Koncernvirksomhedsoversigt**, og vælg derefter handlingen **Valutakurser**.  
 3. På siden **Opsæt valutaer for afdelinger** skal du udfylde felterne efter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="include-or-exclude-dimensions"></a><a name="dim"></a>Medtag eller Udelad dimensioner
+### <a name="dim"></a>Medtag eller Udelad dimensioner
 
 Du kan konsolidere dimensionsoplysninger og finanskonti.
 
@@ -148,15 +148,15 @@ Du kan konsolidere dimensionsoplysninger og finanskonti.
   * Du skal kun udfylde feltet **Konsolideringskode**, når dimensionsværdikoden i koncernvirksomheden skal anses som værende forskellig fra dimensionsværdikoden i det konsoliderede regnskab.  
 * Føj de relevante dimensioner til de relevante finanskonti.
 
-### <a name="exclude-a-company-from-consolidation"></a><a name="exclude"></a>Udelukke en virksomhed fra konsolideringen
+### <a name="exclude"></a>Udelukke en virksomhed fra konsolideringen
 
 Hvis du ikke vil medtage en koncernvirksomhed i konsolideringen, kan du udelukke den. Gå til koncernvirksomhedskortet for at gøre dette, og fjern markeringen af afkrydsningsfeltet **Konsolideres**.
 
-### <a name="include-a-partially-owned-company-in-consolidation"></a><a name="include"></a>Inkludere en delvis ejet virksomhed i konsolideringen
+### <a name="include"></a>Inkludere en delvis ejet virksomhed i konsolideringen
 
 Hvis du kun ejer en del af en virksomhed, kan du medtage en procentdel af hver transaktion, der afspejler til den procentdel, du ejer. Hvis du f.eks. ejer 70 % af virksomheden, inkluderer konsolideringen $70 af en faktura på $100. Du angiver den procentdel af virksomheden, du ejer, ved at gå til koncernvirksomhedskortet og angive procentdelen i feltet **Konsolideringspct.**.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konsolidering af finansielle oplysninger fra flere regnskaber](finance-consolidated-company-reporting.md)  
 [Administrere Intercompany-transaktioner (IC)](intercompany-manage.md)  

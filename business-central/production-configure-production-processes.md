@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-manufacturing"></a>Konfigurere produktion
+# Konfigurere produktion
 
 Hvis du vil konvertere materialer til fremstillede færdigvarer, skal produktionsressourcer, f.eks. styklister, ruter, maskinoperatører og maskiner, konfigureres i systemet.
 
@@ -33,7 +33,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Brug standardoperationer til at forenkle oprettelsen af ruter ved hurtigt at knytte ekstra oplysninger til gentagne operationer.|[Konfigurere standardrutelinjer](production-how-set-up-standard-routing-lines.md)|  
 |Forbered arbejdscentre og ruter til at repræsentere underleverandørens produktionsoperationer.|[Produktion hos underleverandør](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Produktion](production-manage-manufacturing.md)  
 [Skabelon](production-planning.md)  

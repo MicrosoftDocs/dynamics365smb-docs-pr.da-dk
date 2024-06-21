@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="visit-our-video-library"></a>Besøg vores videobibliotek
+# Besøg vores videobibliotek
 
 Du har fundet vores dokumentation. Nogle foretrækker at se indhold i stedet for at læse det. Derfor giver vi dig korte, let-tilgængelige videoer. De fleste videoer supplerer vores assistance, og nogle af dem kan også ses selv.  
 
@@ -24,7 +24,7 @@ Du kan også få vist vores "Sådan gør du"-videoer samt meget andet indhold p�
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Blive køreklar](ui-get-ready-business.md)  
 [Dynamics 365-kanal på YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  

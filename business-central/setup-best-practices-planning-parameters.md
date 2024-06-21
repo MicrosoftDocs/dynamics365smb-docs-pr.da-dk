@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setup-best-practices-planning-parameters"></a>Oprette bedste fremgangsmåder: Planlægningsparametre
+# Oprette bedste fremgangsmåder: Planlægningsparametre
 
 Oversigtspanelet **Planlægning** på varekortet er midtpunktet i en virksomheds forsyningskæde. Det er meget vigtigt at angive de korrekte planlægningsparametre til omkostningseffektiv lagerstyring og høj kundeservice.  
 
@@ -34,7 +34,7 @@ Oversigtspanelet **Planlægning** på varekortet er midtpunktet i en virksomheds
 >
 > Hvis virksomheder planlægger med behov på forskellige lokationer, anbefales det kraftigt at definere lagervarer for hver lokation, og at alle behov oprettes ved hjælp af en værdi i feltet **Lokationskode**. Flere oplysninger i [Designdetaljer: Planlægge med eller uden lokationer](production-planning-with-without-locations.md).  
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
 [Designoplysninger: Forsyningsplanlægning](design-details-supply-planning.md)  
 [Opret komplekse moduler ved hjælp af bedste praksis](set-up-complex-application-areas-using-best-practices.md)  

@@ -9,7 +9,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Opsætte lagerværdi og kostprisberegning
+# Opsætte lagerværdi og kostprisberegning
 
 For at sikre, at lageromkostningerne registreres korrekt, skal du angive forskellige felter og sider, før du begynder at foretage varetransaktioner. Virksomheder vælger typisk en bestemt kostmetode og anvender den på lagervarer, f.eks. for at hjælpe dem med at spore værdien på lager.  
 
@@ -32,7 +32,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de emner, der rumm
 |Sørg for, at returneringer af køb udlignes til den oprindelige indgående transaktion for at bevare lagerværdi.|Feltet **Obl. præcis kostprisudligning** på siden **Køb og tilgodehavender**|
 |Definere afrundingsregler, der skal anvendes ved regulering af eller forslag til varepriser eller standardomkostninger.|Siden **Afrundingsmetode**|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Konfigurere generelle lageroplysninger](inventory-how-setup-general.md)  

@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="compliance-overview"></a>Oversigt over overholdelse
+# Oversigt over overholdelse
 
 Dette indhold indeholder oplysninger om overholdelse i relation til [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
