@@ -9,7 +9,7 @@ ms.search.form: '99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 990
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Oprette ruter
+# <a name="create-routings"></a>Oprette ruter
 
 Produktionsvirksomheder bruger ruter til at visualisere og styre produktionsprocessen.
 
@@ -22,7 +22,7 @@ Før du kan oprette en rute, skal følgende opsætninger være opfyldt:
 - Der er oprettet varekort for overordnede varer, der indgår i produktionen. Du kan få flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 - Produktionsressourcer er oprettet. Du kan finde flere oplysninger i [Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md).
 
-## Sådan oprettes en rute
+## <a name="to-create-a-routing"></a>Sådan oprettes en rute
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Rute**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -51,7 +51,7 @@ Før du kan oprette en rute, skal følgende opsætninger være opfyldt:
 > [!NOTE]  
 > Husk at genberegne varens standardkostpris fra **varekortet**. Vælg handlingen **Produktion** , handlingen **Beregn standardkostpris**, og vælg derefter handlingen **Alle niveauer**.  
 
-## Sådan oprettes rutebindinger
+## <a name="to-create-routing-links"></a>Sådan oprettes rutebindinger
 
 Du kan oprette rutebindinger til at knytte komponenter til bestemte operationer for at bevare deres relationer, selvom produktionsstyklisterne eller ruterne ændres. Ruteføring af link letter også just in time-træk af komponenter på det tidspunkt, hvor den angivne bundne operation starter, og ikke når hele produktionsordren frigives. Du kan få mere at vide i [Udtrække komponenter i henhold til operationsafgang](production-how-to-flush-components-according-to-operation-output.md).  
 
@@ -85,7 +85,7 @@ En anden vigtig fordel er, at bundne komponenter og operationer vises i en logis
 
 De valgte komponenter knyttes nu til de valgte operationer, når du opretter eller opdaterer en produktionsordre ved hjælp af produktionsstyklisten og ruten. Dette link er synligt på siden **Prod.ordrekomponenter** under produktionsordren. Du kan til enhver tid fjerne og tilføje rutebindingskoderne.
 
-## Sådan tildeles personale, værktøj og kvalitetsmål for ruteoperationer
+## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Sådan tildeles personale, værktøj og kvalitetsmål for ruteoperationer
 
 Hvis du skal bruge personer med særlige kvalifikationer, specialviden eller særlige tilladelser til en operation, kan du knytte dem til operationen her. Du kan også tildele værktøjer og kvalitetskrav til operationen. Denne procedure beskriver, hvordan du tildeler medarbejdere. Trinene er de samme for andre typer operationsoplysninger.
 
@@ -95,7 +95,7 @@ Hvis du skal bruge personer med særlige kvalifikationer, specialviden eller sæ
 4. Udfyld felterne på siden **Rute - Mandskab**.  
 5. Vælg knappen **OK** for at afslutte siden. De angivne værdier kopieres og knyttes til operationen.  
 
-## Sådan oprettes en ny version af ruter
+## <a name="to-create-a-new-version-of-a-routing"></a>Sådan oprettes en ny version af ruter
 
 Versionsprincippet gør det muligt for dig at styre flere versioner af en rute. Ruteversionens struktur svarer til rutens struktur, og den består af ruteversionshovedet og -linjerne. Startdatoen definerer den grundlæggende forskel.  
 
@@ -112,7 +112,7 @@ Versionsprincippet gør det muligt for dig at styre flere versioner af en rute. 
 
 7. Når du har udført ruteversionen i feltet **Status** skal du vælge **Certificeret**.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oprette produktionsstyklister](production-how-to-create-production-boms.md)  
 [Konfigurere produktion](production-configure-production-processes.md)  

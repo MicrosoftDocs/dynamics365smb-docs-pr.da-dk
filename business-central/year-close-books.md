@@ -11,12 +11,12 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Afslutte regnskaberne
+# <a name="closing-the-books"></a>Afslutte regnskaberne
 Når du har kontrolleret, at alle dine konti er opdaterede, og når du har allokeret omkostninger og indtægter, så kan du afslutte regnskabet for et regnskabsår eller en regnskabsperiode.
 
 Du behøver ikke at lukke et år, men hvis du gør det, bliver det nemmere at arbejde i systemet, da du vil kunne udnytte de filtreringsfunktioner, der er. Du vil heller ikke skulle bekymre dig om at miste transaktionsoplysninger, når du lukker, fordi alle detaljerne bevares, selv efter at du lukker året.
 
-## Regnskabsafslutningsproces
+## <a name="closing-book-process"></a>Regnskabsafslutningsproces
 Processen til afslutning af regnskabet omfatter disse hovedopgaver:
 
 1. Afslutning af regnskabsperioden.
@@ -38,7 +38,7 @@ Processen til afslutning af regnskabet omfatter disse hovedopgaver:
 
     Du kan finde flere oplysninger i [Bogføre årsafslutningsposten](year-how-post-year-end-close-entry.md).
 
-## Hvad der sker, når du afslutter
+## <a name="what-happens-when-you-close"></a>Hvad der sker, når du afslutter
 
 Når du lukker i slutningen af året, flytter systemet indtjeningen fra den beregnede indtjening, eller kontoen med den aktuelle indtjening, til en bogført konto eller resultatkontoen. Regnskabsåret mærkes også som "lukket", og alle posterne for det lukkede år som "poster fra tidligere år".
 
@@ -46,7 +46,7 @@ Der oprettes derefter en ultimopost, men posten bogføres ikke automatisk. Du f�
 
 Du kan bogføre i et tidligere regnskabsår, selv efter at resultatopgørelseskontiene er blevet lukket, hvis du udfører kørslen Nulstil resultatopgørelse igen bagefter.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Arbejde med regnskabsperioder og regnskabsår](finance-accounting-periods-and-fiscal-years.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

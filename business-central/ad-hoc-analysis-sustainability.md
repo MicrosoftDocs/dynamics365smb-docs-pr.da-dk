@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Ad hoc-analyse af bæredygtighedsdata
+# <a name="ad-hoc-analysis-of-sustainability-data"></a>Ad hoc-analyse af bæredygtighedsdata
 
 I artikel beskriver, hvordan du bruger funktionen **Dataanalyse** til at analysere bæredygtighedsdata direkte fra listesider og forespørgsler. Du behøver ikke at køre en rapport eller skifte til et andet program, f.eks. Excel. Funktionen indeholder en interaktiv og alsidig måde at beregne, opsummere og gennemgå data på. I stedet for at køre rapporter med indstillinger og filtre kan du tilføje flere faner, der repræsenterer forskellige opgaver eller visninger på dataene. Nogle eksempler er "Emissionsoversigt" eller "Emission efter omfang" eller enhver anden visning, du kan forestille dig. Du kan få mere at vide om, hvordan du bruger funktionen **Dataanalyse** ved at gå til [Analysér liste og forespørge på data med analysetilstand](analysis-mode.md).
 
@@ -20,7 +20,7 @@ Brug følgende listesider til ad hoc-analyse af bæredygtighedsdata:
 
 - [Finansposter for bæredygtighed](https://businesscentral.dynamics.com/?page=6220)
 
-## Ad hoc-analysescenarier for bæredygtighed
+## <a name="sustainability-ad-hoc-analysis-scenarios"></a>Ad hoc-analysescenarier for bæredygtighed
 
 Brug funktionen **Dataanalyse** til hurtig faktatjek og ad hoc-analyse:
 
@@ -36,7 +36,7 @@ Følgende afsnit indeholder eksempler på bæredygtighedsscenarier i [!INCLUDE [
 | [Gennemsnitlige emissioner pr. kategori](#example-average-emissions-by-category) | Analysér dine gennemsnitlige emissioner efter kategori. | [Finansposter for bæredygtighed](https://businesscentral.dynamics.com/?page=6220) | **Kontokategori**, **Kontonavn**, **Emission NH4**. **Emission CO2** og **Emission N2O**.|
 | [Emissioner efter omfang](#example-emissions-by-scope) | Analysér dine emissioner efter omfang. | [Finansposter for bæredygtighed](https://businesscentral.dynamics.com/?page=6220) | **Emissionsomfang**, **Kontokategori**, **Emission NH4**, **Emission CO2** og **Emission N2O**.|
 
-## Eksempel: Emissionsoversigt (sum efter kategori)
+## <a name="example-emission-overview-sum-by-category"></a>Eksempel: Emissionsoversigt (sum efter kategori)
 
 Følg disse trin for at analysere dine emissioner efter kategori:
 
@@ -51,7 +51,7 @@ Følgende billede viser resultatet af disse trin.
 
 :::image type="content" source="media/data-analysis-sustainability-entries.png" alt-text="Eksempel 1 på, hvordan du udfører dataanalyse på siden Finansposter for bæredygtighed." lightbox="media/data-analysis-sustainability-entries.png":::
 
-## Eksempel: Gennemsnitlige emissioner pr. kategori
+## <a name="example-average-emissions-by-category"></a>Eksempel: Gennemsnitlige emissioner pr. kategori
 
 Følg disse trin for at analysere dine gennemsnitlige emissioner efter kategori:
 
@@ -67,7 +67,7 @@ Følgende billede viser resultatet af disse trin.
 
 :::image type="content" source="media/data-analysis-sustainability-entries-avg.png" alt-text="Eksempel 2 på, hvordan du udfører dataanalyse på siden Finansposter for bæredygtighed." lightbox="media/data-analysis-sustainability-entries-avg.png":::
 
-## Eksempel: Emissioner efter omfang
+## <a name="example-emissions-by-scope"></a>Eksempel: Emissioner efter omfang
 
 Følg disse trin for at analysere dine emissioner efter omfang:
 
@@ -82,13 +82,13 @@ Følgende billede viser resultatet af disse trin.
 
 :::image type="content" source="media/data-analysis-sustainability-entries-scope.png" alt-text="Eksempel 3 på, hvordan du udfører dataanalyse på siden Finansposter for bæredygtighed." lightbox="media/data-analysis-sustainability-entries-scope.png":::
 
-## Datagrundlag for ad-hoc analyse af bæredygtighed
+## <a name="data-foundation-for-ad-hoc-analysis-on-sustainability"></a>Datagrundlag for ad-hoc analyse af bæredygtighed
 
 De oplysninger, du angiver i en bæredygtighedskladde, er midlertidige, og du kan ændre dem, mens de er i kladden. Når du bogfører en bæredygtighedskladde, overføres oplysningerne til finansposter for bæredygtighed på individuelle bæredygtighedskonti, hvor du ikke kan ændre dem. Du kan dog bogføre tilbageførsels- eller rettelsesposter.  [Listesiden Bæredygtighedsposter](https://businesscentral.dynamics.com/?page=6220) er den vigtigste datakilde til ad hoc-analyse af bæredygtighedsdata.
 
 Du kan få mere at vide om offentliggørelse af bæredygtighedsposter ved at gå til [Registrere bæredygtighedsposter](finance-sustainability-journal.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Registrer bæredygtighedsposter](finance-sustainability-journal.md)  
 [Indbyggede rapporter om bæredygtighed](sustainability-reports.md)   

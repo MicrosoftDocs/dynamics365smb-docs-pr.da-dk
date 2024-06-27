@@ -11,7 +11,7 @@ ms.search.form: '5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212, 5221, 5228'
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Administrere Human Ressources
+# <a name="manage-human-resources"></a>Administrere Human Ressources
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du føre detaljerede registre over dine medarbejdere. Du kan registrere og vedligeholde medarbejderoplysninger, f.eks. ansættelseskontrakter, fortrolige oplysninger, kvalifikationer og medarbejderkontakter.
 
@@ -26,7 +26,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 | Registrere nye medarbejder eller redigere poster for eksisterende medarbejdere og tilknytte relaterede oplysninger, f.eks kontrakter og udstyr. |[Registrere medarbejdere](hr-how-register-employees.md) |
 | Registrere medarbejdernes fravær og få vist fraværsstatistik ud fra forskellige filtre. |[Administrere medarbejderfravær](hr-how-manage-absence.md) |
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Finans](finance.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

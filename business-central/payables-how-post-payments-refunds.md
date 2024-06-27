@@ -11,7 +11,7 @@ ms.search.form: '256, 233, 624, 1228'
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Registrere indbetalinger og refusioner i udbetalingskladden
+# <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrere indbetalinger og refusioner i udbetalingskladden
 
 På siden **Udbetalingskladde** registrerer du betalinger, du foretager til leverandører, og refusioner, du foretager til kunder. Når du bogfører en udbetalingskladdelinje, registreres det betalte beløb i den angivne bankkonto. Du skal derefter sørge for at udføre den faktiske pengeoverførsel fra den relaterede bankkonto.  
 
@@ -29,7 +29,7 @@ Betalingskladder er en kassekladde, der er optimeret til betalinger. Du kan hurt
 
     Ud over at registrere, at betalingen er foretaget, kan du også bruge siden **Udbetalingskladde** til at sende betalingen til yderligere behandling i banken. Du kan få mere at vide i [Foretage betalinger med check](payables-how-work-checks.md) og [Foretage elektroniske betalinger](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## Foretage betalinger i udbetalingskladden
+## <a name="to-make-payments-in-the-payment-journal"></a>Foretage betalinger i udbetalingskladden
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udbetalingskladder**, og vælg derefter det relaterede link.
 2. Åbn det kladdenavn, du bruger til betalinger.
@@ -40,7 +40,7 @@ Betalingskladder er en kassekladde, der er optimeret til betalinger. Du kan hurt
 5. Du kan også bruge handlingen **Lav kreditorbetalingsforslag**. Alle udligningsoplysninger og -beløb angives derefter også på kladdelinjerne. Du kan få mere at vide ved at gå til [Lav kreditorbetalingsforslag](payables-how-suggest-vendor-payments.md).
 6. Når du har fuldført alle betalingskladdelinjer, skal du vælge handlingen **Bogfør**.
 
-## Sådan udstedes en refusionscheck
+## <a name="to-issue-a-refund-check"></a>Sådan udstedes en refusionscheck
 
 1. Vælg ikonet ![Elpære, der åbner funktionen Fortæl mig](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig"), angiv **Udbetalingskladder**, og vælg derefter det relaterede link.
 2. I feltet **Dokumenttype** skal du vælge **Refusion**.  
@@ -53,7 +53,7 @@ Betalingskladder er en kassekladde, der er optimeret til betalinger. Du kan hurt
 9. I feltet **Udligningsbilagsnr.** til at vælge de dokumenter, der kræver refusion.  
 10. Når du afslutter alle linjer i betalingskladden, skal du vælge handlingen **Bogfør/Udskriv**, derefter vælge handlingen **Bogfør og Udskriv** og derefter vælge **Ja**.  
   
-## Se også
+## <a name="see-also"></a>Se også
 
 [Foretage checkbetalinger](payables-how-work-checks.md)  
 [Foretage elektroniske betalinger](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

@@ -10,7 +10,7 @@ ms.search.form: '911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99
 ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
 ---
-# Oprette produktionsstyklister
+# <a name="create-production-boms"></a>Oprette produktionsstyklister
 
 En produktionsstykliste indeholder masterdata, som beskriver de komponenter og halvfabrikata, som anvendes til fremstilling af en vare. Når du opretter en produktionsordre for en vare, bestemmer dens produktionsstykliste beregningen af materialebehov, som repræsenteret på siden **Prod.ordrekomponenter**.
 
@@ -24,7 +24,7 @@ Før du kan oprette en rute, skal følgende opsætninger være opfyldt:
 - Der er oprettet varekort for overordnede varer, der indgår i produktionen. Du kan finde flere oplysninger i [Registrere nye varer](inventory-how-register-new-items.md).
 - Produktionsressourcer er oprettet. Du kan finde flere oplysninger i [Konfigurere arbejdscentre og produktionsressourcer](production-how-to-set-up-work-and-machine-centers.md).
 
-## Sådan oprettes en produktionsstykliste
+## <a name="to-create-a-production-bom"></a>Sådan oprettes en produktionsstykliste
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Produktionsstykliste**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -48,7 +48,7 @@ Før du kan oprette en rute, skal følgende opsætninger være opfyldt:
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Hvis du vil genberegne varens standardkostpris fra varekortet, skal du vælge handlingen **Produktion** og derefter vælge handlingen **Beregn standardkostpris**.  
 
-## Sådan oprettes en ny version af en produktionsstykliste
+## <a name="to-create-a-new-version-of-a-production-bom"></a>Sådan oprettes en ny version af en produktionsstykliste
 
 Brug f.eks. nye versioner af produktionsstyklister, når en vare erstattes, eller når en kunde bestiller en speciel version af et produkt. Versionsprincippet gør det muligt at administrere flere versioner af en produktionsstykliste. Ruteversionens struktur svarer til rutens struktur. Forskellen ligger i versionernes tidsmæssige gyldighed. Startdatoen bestemmes af gyldigheden.  
 
@@ -72,7 +72,7 @@ Gyldigheden i tid for versionen angives i feltet **Startdato**.
 >
 > Fantomstyklister anvendes til at strukturere produkter. Denne produktionsstyklistetype fører aldrig til et færdigt produkt, men anvendes udelukkende til at bestemme afhængige behov. Fantomstyklister har ikke deres egne stamdata for varer.
 
-## Beregningsformel for mængde på produktionsstyklister
+## <a name="quantity-calculation-formula-on-production-boms"></a>Beregningsformel for mængde på produktionsstyklister
 
 Mængden beregnes under hensyntagen til forskellige dimensioner, der også er angivet på produktionsstyklistens linjer. Dimensionerne henviser til en ordreenhed for den pågældende vare. Længde, bredde, dybde og vægt kan angives som dimensioner.  
 
@@ -90,13 +90,13 @@ Beregningsformlen definere relationen af de enkelte komponenter. Du kan vælge m
 > [!NOTE]
 > Formlen til beregning af **fast mængde** sikrer, at en komponents forbrug er den samme, uanset spild-eller afgangsantal. For produktionsordrekomponenter er værdien af feltet **Forventet antal** altid lig med feltet **Antal pr.**, når feltet **Beregningsformel** er indstillet til **Fast antal**. Den spildprocent, der er defineret på samme linje, ignoreres. Fast antal respekteres af rapporten **Disponering pr. stykliste**. Rapporten viser varen som flaskehals, hvis det disponible antal er mindre end antallet i feltet **Antal pr. overordnet**. Felterne **Muligheder for at gøre overordnet** og **kunne gøre de øverste vare** er altid tomme uanset det disponible antal. Fast antal indgår også i beregninger af standardkostpriser. Lotstørrelsen for den producerede vare påvirker den omkostning, der er tildelt én vare.
 
-### Eksempel
+### <a name="example"></a>Eksempel
 
 En produktionsstykliste kræver 70 metaldele med dimensionernes længde = 0,20 m og bredde = 0,15 m. Angiv værdierne sådan: Beregningsformel = Længde x bredde, længde = 20, bredde = 15, Antal pr. = 70.
 
 Antal pr. x længde * bredde, det vil sige, antal = 70 x 0,20 m x 0,15 m = 2,1 m2 angiver antallet.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oprette ruter](production-how-to-create-routings.md)  
 [Administrere produktvarianter](inventory-item-variants.md)  

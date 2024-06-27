@@ -9,17 +9,17 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
 
-# Gennemgang: Opret en fastlagt produktionsordre og ændr den
+# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Gennemgang: Opret en fastlagt produktionsordre og ændr den
 
 I denne artikel kommer vi igennem de trin, du skal benytte, når du skal arbejde med produktionsordrer fra Contoso Coffee.  
 
-## Scenarie
+## <a name="scenario"></a>Scenarie
 
 Eduardo, der er produktionsplanlægger hos Contoso Coffee, skal oprette en ny produktionsordre på 10 enheder af varen **SP-SCM1009, Airpot**, der skal betales den 28. april. Eduardo bagudretter planlægningen og bekræfter, at de kan starte ordren den 27. april.  
 
 Kort efter at han har afsluttet opgaven, bliver Eduardo bedt om at øge ordren til 50 enheder. Hvis det er tilfældet, skubber den bagudrettede planlægningsfunktion den første rækkefølge. Så Eduardo videresender ordren fra den 23. april for at fastlægge en mere realistisk slutdato.  
 
-## Trin
+## <a name="steps"></a>Trin
 
 1. Opret den første produktionsordre på 10 enheder af varen **SP-SCM1009, Airpot**.
 
@@ -59,6 +59,6 @@ Kort efter at han har afsluttet opgaven, bliver Eduardo bedt om at øge ordren t
 
 Den nye produktionsordre er nu oprettet, og Eduardos anmodning imødekommes.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Introduktion til demonstrationsdata for Contoso Coffee](../contoso-coffee-intro.md)  

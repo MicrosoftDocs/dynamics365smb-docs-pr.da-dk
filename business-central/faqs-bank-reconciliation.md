@@ -13,7 +13,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Ofte stillede spørgsmål om bankkontoafstemning med Copilot (forhåndsversion)
+# <a name="faq-for-bank-account-reconciliation-assist-with-copilot-preview"></a>Ofte stillede spørgsmål om bankkontoafstemning med Copilot (forhåndsversion)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -21,7 +21,7 @@ Disse ofte stillede spørgsmål (FAQ) beskriver AI-effekten af Microsoft Copilot
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Hvad er bankafstemningshjælp?
+## <a name="what-is-bank-reconciliation-assist"></a>Hvad er bankafstemningshjælp?
 
 Bankafstemning er en almindelig regnskabsopgave, hvor organisationer gennemgår deres bankkontoudtog for at identificere transaktioner, der skal registreres i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne opgave bruges f.eks. til at identificere periodiske bankgebyrer eller mindre medarbejderudgifter.
 
@@ -29,7 +29,7 @@ Bankafstemning er typisk en proces i flere trin. Først indlæses bankkontoudtog
 
 Copilot i [!INCLUDE[prod_short](includes/prod_short.md)] reducerer den manuelle indsats ved at matche flere transaktioner og foreslå finanskonti (G/L), som du kan bogføre til.
 
-## Hvad er funktionerne i bankafstemningshjælp?
+## <a name="what-are-the-capabilities-of-bank-reconciliation-assist"></a>Hvad er funktionerne i bankafstemningshjælp?
 
 Copilot yder AI-drevet assistance med to forskellige opgaver:
 
@@ -43,21 +43,21 @@ Copilot yder AI-drevet assistance med to forskellige opgaver:
 
 Copilot opretter ikke forbindelse til din bank for at hente eller sende transaktioner. Denne opgave forbliver fuldt ud inden for din kontrol. Det er en forudsætning for at bruge Copilots assistance, uanset om disse transaktioner føjes til [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af en digital bankforbindelse, importeres fra en bankkontoudtogsfil eller indtastes manuelt.
 
-## Hvad er den tilsigtede brug af bankafstemningshjælp?
+## <a name="what-is-the-intended-use-of-bank-reconciliation-assist"></a>Hvad er den tilsigtede brug af bankafstemningshjælp?
 
 Hjælp til bankkontoafstemning er designet til at forbedre nøjagtigheden af finansposter ved at hjælpe debitorerne med nye transaktioner, som de skal tage højde for i [!INCLUDE[prod_short](includes/prod_short.md)]. Den er ikke beregnet til at opdage svindel eller identificere, om kunderne har betalt til tiden.
 
-## Hvordan blev bankafstemningshjælp evalueret? Hvilke metrikværdier bruges til at måle ydeevnen?
+## <a name="how-was-bank-reconciliation-assist-evaluated-what-metrics-are-used-to-measure-performance"></a>Hvordan blev bankafstemningshjælp evalueret? Hvilke metrikværdier bruges til at måle ydeevnen?
 
 Hjælp til bankkontoafstemning blev testet ved at bruge en kombination af syntetiske banktransaktionsdata og lignende finanskonti og poster, der dækker de typiske variationer og datagrænser for hvert felt og på forskellige sprog. Testdata repræsenterer både typisk brug og brug af dårlige aktører. Ydeevnen blev målt sammenlignet med manuel afstemning af de samme data.
 
-## Hvad er begrænsningerne af bankafstemningshjælp? Hvordan kan brugere minimere disse begrænsninger, når de bruger systemet?
+## <a name="what-are-the-limitations-of-bank-reconciliation-assist-how-can-users-minimize-the-impact-of-these-limitations-when-they-use-the-system"></a>Hvad er begrænsningerne af bankafstemningshjælp? Hvordan kan brugere minimere disse begrænsninger, når de bruger systemet?
 
 Hjælp til afstemning af bankkonto fungerer bedst, når finanskontonavne, postbeskrivelser og banktransaktionsbeskrivelser alle er på samme sprog. Blandede sprog eller blandede sprog til transaktionsbeskrivelser resulterer ofte i færre matches og forslag.
 
 Foreslåede finanskonti klarer sig bedst på et af de understøttede sprog (se en liste over sprog i næste afsnit). Brugere kan opleve færre transaktionsmatch og færre foreslåede finanskonti på andre sprog.
 
-## I hvilke geografiske områder og på hvilke sprog er bankafstemningshjælp tilgængelig? 
+## <a name="in-which-geographies-and-languages-is-bank-reconciliation-assist-available"></a>I hvilke geografiske områder og på hvilke sprog er bankafstemningshjælp tilgængelig?
 
 - Tilgængelige geografiske områder
 
@@ -69,13 +69,13 @@ Foreslåede finanskonti klarer sig bedst på et af de understøttede sprog (se e
 
 Du kan finde flere oplysninger om sprog under det forrige spørgsmål om begrænsninger.
 
-## Hvad forventes der af systembrugere, når de bruger bankkontoafstemning?
+## <a name="what-is-expected-of-system-users-when-they-operate-bank-account-reconciliation-assist"></a>Hvad forventes der af systembrugere, når de bruger bankkontoafstemning?
 
-### Under bankkontoafstemning
+### <a name="during-bank-account-reconciliation"></a>Under bankkontoafstemning
 
 AI-drevne matches og forslag kan nogle gange være forkerte eller ufuldstændige. Brugere af bankkontoafstemningsassistance skal gennemgå nøjagtigheden af de matches og forslag, som Copilot leverer, før de vælger at beholde dem. Copilots matches og forslag gemmes ikke i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen, før du vælger knappen **Behold den** og lukker Copilot-vinduet. Du kan også redigere og rette eventuelle matches eller forslag, før du vælger at beholde dem.
 
-### Når bankkontoafstemning er fuldført
+### <a name="after-bank-account-reconciliation-is-completed"></a>Når bankkontoafstemning er fuldført
 
 Vi anbefaler, at brugerne også kontrollerer nøjagtigheden og retter eventuelle uoverensstemmelser, når de lukker Copilot-vinduet. Denne proces skal omfatte følgende aktiviteter:
 
@@ -84,20 +84,20 @@ Vi anbefaler, at brugerne også kontrollerer nøjagtigheden og retter eventuelle
 - Genåbne alle bogførte afstemninger ved hjælp af funktionen **Fortryd**.
 - Rette eventuelle fejlposter ved tilbageførsel af poster.
 
-## Hvad forventes der af administratorer og systembrugere, når de bruger bankkontoafstemning?
+## <a name="what-is-expected-of-administrators-and-system-users-when-they-operate-bank-account-reconciliation-assist"></a>Hvad forventes der af administratorer og systembrugere, når de bruger bankkontoafstemning?
 
 Systembrugere, såsom revisorer, kasserere eller andre, der arbejder med virksomhedsregnskab, bør altid gennemgå nøjagtigheden af matches og forslag, som Copilot leverer, før de vælger at beholde dem. Efter afstemning med Copilot anbefaler vi, at disse brugere gennemser afstemningstestrapporten for at bekræfte nøjagtigheden og identificere eventuelle uoverensstemmelser.
 
 Administratorer bør sikre, at de relevante regnskabsbrugere har adgang til denne funktion.
 
-## Er Copilot det eneste middel til at gennemføre bankkontoafstemning?
+## <a name="is-copilot-the-only-means-of-completing-bank-account-reconciliation"></a>Er Copilot det eneste middel til at gennemføre bankkontoafstemning?
 
 Nej Brug af Copilot er valgfrit. [!INCLUDE[prod_short](includes/prod_short.md)] tilbyder traditionelle, ikke-AI-drevne metoder til import af bankkontoudtog, kørsel af foruddefinerede matchregler og manuel anvendelse af matches og bogføring på relevante finanskonti. Både den traditionelle tilgang og Copilot kan bruges samtidigt i en organisation.
 
-## Hvordan giver jeg feedback om AI-genereret indhold?
+## <a name="how-do-i-give-feedback-about-ai-generated-content"></a>Hvordan giver jeg feedback om AI-genereret indhold?
 
 Hver gang Copilot leverer matches eller forslag, kan du give feedback til Microsoft direkte fra Copilot-vinduet ved hjælp af kontrolelementerne Synes godt om (tommelfinger opad) og Synes ikke op (tommelfinger nedad). Dit feedback forbliver anonymt, og vi bruger disse data til at evaluere og forbedre kvaliteten af tjenesten.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Afstemme bankkonti med Copilot (forhåndsversion)](bank-reconciliation-with-copilot.md)

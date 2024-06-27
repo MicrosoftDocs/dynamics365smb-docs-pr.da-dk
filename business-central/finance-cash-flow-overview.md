@@ -12,15 +12,15 @@ ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Oversigt over pengestrøm
+# <a name="cash-flow-overview"></a>Oversigt over pengestrøm
 
 Forståelse af indgående og udgående pengestrømme er nøglen til at drive en succesrig forretning. Du kan bruge likviditet til nemt for at oprette en kortfristet forecast, der forudsiger, hvordan og hvornår du kan forvente at modtage penge og skal betale penge i din virksomhed. Det er vigtigt at vide, at din virksomhed har nok penge til at betale gæld og udgifter, når de forfalder.
 
-## Definition af likviditet
+## <a name="definition-of-cash-flow"></a>Definition af likviditet
 
 Betegnelsen *likviditet* bruges til at angive indbetalinger minus kontantbetalinger over en valgt periode. Det er et skøn over det beløb, du forventer, vil flyde ind og ud af din virksomhed, og det omfatter alle de forventede indtægter og udgifter.
 
-## Arbejde med pengestrøm
+## <a name="work-with-cash-flow"></a>Arbejde med pengestrøm
 
 Følgende illustration viser en oversigt over, hvordan du kan arbejde med likviditet.
 
@@ -39,7 +39,7 @@ Følgende illustration viser en oversigt over, hvordan du kan arbejde med likvid
 - Brug en kørsel til at overføre oplysninger fra områderne finans, indkøb, salg, service og faste anlægsaktiver til pengestrømskladden. Du skal bruge kørslen til at lave en pengestrømsprognose.  
 - Du kan bruge forskellige sider, rapporter og diagrammer til at analysere og udskrive en likviditetsforecast, der vedrører tilgængelighed og oversigter på tidslinjen.  
 
-## Foretage likviditetsforecast
+## <a name="making-a-cash-flow-forecast"></a>Foretage likviditetsforecast
 
 Baseret på registrerede kladdelinjer kan du med jævne mellemrum foretage en likviditetsforecast. Følgende layout er et ofte anvendt layout for en likviditetsforecast. Layout indeholder tre sektioner:
 
@@ -67,7 +67,7 @@ Nettolikviditet eller kontanter i hånden beregnes som samlede indtægter minus 
 
 Du kan bruge budgettet som et internt beslutningsværktøj til ledelsen, som hjælper dig med at planlægge og foretage vigtige strategiske beslutninger om driften af virksomheden.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Opsætning af pengestrømsanalyse](finance-setup-cash-flow-analyses.md)  
 [Analysér pengestrøm](finance-analyze-cash-flow.md)  

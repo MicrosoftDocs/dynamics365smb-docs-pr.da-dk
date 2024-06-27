@@ -11,11 +11,11 @@ ms.search.form: '103, 104, 108, 488, 489, 490'
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Gennemgang: Udarbejd likviditetsforecast ved hjælp af finansrapporter
+# <a name="walkthrough-making-cash-flow-forecasts-using-financial-reports"></a>Gennemgang: Udarbejd likviditetsforecast ved hjælp af finansrapporter
 
 Denne gennemgang beskriver, hvordan du kan bruge kontoskemaer til at foretage likviditetsforecasts i Business Central. Finansrapporter udfører beregninger, der ikke kan foretages direkte i diagrammet for kassekonti. I kontoskemaerne kan du oprette subtotaler for likviditetsindbetalinger og -udbetalinger. Disse subtotaler kan medtages i nye totaler, der kan bruges i forbindelse med udarbejdelse af likviditetsforecasts.  
 
-## Om denne gennemgang
+## <a name="about-this-walkthrough"></a>Om denne gennemgang
 
 Denne gennemgang beskriver følgende opgaver:  
 
@@ -25,28 +25,28 @@ Denne gennemgang beskriver følgende opgaver:
 - Tildele en kolonnedefinition til en finansrapport.  
 - Visning og udskrift af likviditetsforecastet.  
 
-### Forudsætninger
+### <a name="prerequisites"></a>Forudsætninger
 
 For at gennemføre denne gennemgang skal du:  
 
 - [!INCLUDE[prod_short](includes/prod_short.md)]  
 - Likviditetskladde med registrerede linjer  
 
-## Roller
+## <a name="roles"></a>Roller
 
 Denne gennemgang viser de opgaver, der udføres af følgende brugerrolle:  
 
 - Controller  
 
-## Historie
+## <a name="story"></a>Historie
 
 Ken er controller hos CRONUS, der udarbejder månedlige likviditetsforecasts. Ken medtager økonomi, salg, køb og anlæg i budgettet, og derefter præsenterer han det for Økonomichefen Sara med henblik på brancheindsigt.  
 
-## Opsætning af et nyt finansrapportnavn
+## <a name="setting-up-a-new-financial-report-name"></a>Opsætning af et nyt finansrapportnavn
 
 Finansrapportnavnet er det navn, som du giver det likviditetsforecast, der indeholder en række definerede linjer og en kolonnedefinition.  
 
-### Opsætning af et nyt finansrapportnavn  
+### <a name="set-up-a-new-financial-report-name"></a>Opsætning af et nyt finansrapportnavn
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Finansrapporter**, og vælg derefter det relaterede link.  
 2. På siden **Finansrapporter** skal du vælge **Ny** for at oprette et nyt navn til Finansrapport for likviditet.  
@@ -54,11 +54,11 @@ Finansrapportnavnet er det navn, som du giver det likviditetsforecast, der indeh
 4. I feltet **Beskrivelse** skal du angive **Pengestrømsprognose**.  
 5. Lad felterne **rækkedefinition** og **kolonnedefinition** være tomme.
 
-## Opsætte rækkedefinitionslinjer
+## <a name="setting-up-row-definition-lines"></a>Opsætte rækkedefinitionslinjer
 
 Når der er oprettet et økonomisk rapportnavn, definerer Ken hver linje i den finansielle likviditetsrapport. Ken definerer linjer, der kan vises i rapporter, foruden de linjer, der kun er til beregning.  
 
-### Opsætte rækkedefinitionslinjer  
+### <a name="set-up-row-definition-lines"></a>Opsætte rækkedefinitionslinjer
 
 1. På siden **Finansrapporter** skal du vælge den nye **Prognose**-finansrapport, du har oprettet, og vælg **Rediger rækkedefinition**.  
 2. På siden **Rækkedefinition** skal du angive hver linje som vist i følgende tabel.  
@@ -94,7 +94,7 @@ Når der er oprettet et økonomisk rapportnavn, definerer Ken hver linje i den f
     > [!NOTE]
     > Rækkenummer R10 bruges til at registrere kontototaler for tilgodehavender. Rækkenummer R20 bruges til at beregne summen af alle indbetalinger. Rækkenummer R30 bruges til at registrere kontototaler for skyldige beløb. Rækkenummer R40 bruges til at beregne summen af alle kontante udbetalinger. Rækkenummer R50 bruges til at registrere summen af alle kontante overskud. Rækkenummer R60 bruges til at registrere de likvide midler. Rækkenummer R70 bruges til at beregne den budgetterede pengestrøm.
 
-## Opsætning af et nyt kolonneformat
+## <a name="setting-up-a-new-column-definition"></a>Opsætning af et nyt kolonneformat
 
 Før Ken kan udskrive likviditetsforecastet, skal han oprette kolonneformat for de numeriske oplysninger. I kolonnerne skal Ken definere de oplysninger, han ønsker at bruge fra linjerne.
 
@@ -103,7 +103,7 @@ Før Ken kan udskrive likviditetsforecastet, skal han oprette kolonneformat for 
 - Den tredje kolonne er nummeret *C30* med titlen **Hele året** og indeholder bevægelsen i saldiene for hele regnskabsåret.  
 - Endelig angiver Ken kolonnedefinitionen som standardindstillingen for finansrapporten **Prognose**.  
 
-### Opsætning af ny kolonnedefinition
+### <a name="set-up-a-new-column-definition"></a>Opsætning af ny kolonnedefinition
 
 1. På siden **Finansrapporter** skal du vælge den nye **Prognose**-finansrapport, du har oprettet. Under fanen **Startside** i gruppen **Proces** skal du vælge **Rediger kolonnedefinition**.
 
@@ -119,22 +119,22 @@ Før Ken kan udskrive likviditetsforecastet, skal han oprette kolonneformat for 
     |C20|Beløb til dato|Saldo til dato|Poster|Nettobeløb|Altid|  
     |C30|Hele regnskabsåret|Hele regnskabsåret|Poster|Nettobeløb|Altid|
 
-## Tildele en kolonnedefinition til en finansrapport
+## <a name="assigning-the-column-definition-to-the-financial-report-name"></a>Tildele en kolonnedefinition til en finansrapport
 
 Ken er nu klar til at tildele kolonnedefinition til finansrapportnavnet.  
 
-### Tildele en kolonnedefinition til en finansrapport
+### <a name="assign-the-column-definition-to-the-financial-report-name"></a>Tildele en kolonnedefinition til en finansrapport
 
 1. På siden **Finansrapporter** skal du vælge den nye **Prognose**-finansrapport, du har oprettet, og vælg **Rediger kolonnedefinition**.  
 2. I feltet **Navn** skal du vælge kolonnedefinitionen **Pengestrøm** for at angive det som standardkolonnedefinition.  
 
-## Visning og udskrift af likviditetsforecastet
+## <a name="view-and-print-the-cash-flow-forecast"></a>Visning og udskrift af likviditetsforecastet
 
 1. På siden **Finansrapporter** skal du vælge **Prognose**-finansrapport for at vise likviditetsforecast.  
 2. På siden **Finansrapport** kan du vælge et beløb og derefter få vist pengestrømsprognoseposterne, der udgør beløbet. Derudover kan du få vist den formel, der bruges til at beregne beløbet. Du kan også filtrere beløbene efter dato og dimension.  
 3. Vælg handlingen **Udskriv** for at udskrive pengestrømsprognosen.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Arbejde med finansielle rapporter](bi-how-work-account-schedule.md)  
 [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)  

@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Opret bankkonti
+# <a name="set-up-bank-accounts"></a>Opret bankkonti
 
 Brug bankkonti i [!INCLUDE[prod_short](includes/prod_short.md)] til at holde styr på dine banktransaktioner. Konti kan være i den lokale valuta eller i fremmed valuta. Når du har oprettet bankkonti, kan du også udskrive checks. Bankkontiene indeholder også ekstra funktionalitet til [afstemning af betaling](receivables-apply-payments-auto-reconcile-bank-accounts.md), [Bankafstemning](bank-how-reconcile-bank-accounts-separately.md) og import og eksport af bankfiler.
 
@@ -79,7 +79,7 @@ Følgende video viser de grundlæggende trin til oprettelse af en bankkonto i [!
 > [!WARNING]
 > Nogle felter kan indeholde følsomme data, f. eks. **Bankforgreningsnr.**, **bankkontonummer**, **SWIFT-kode** og **IBAN-kode**. Flere oplysninger i [Overvåge følsomme felter](across-log-changes.md#monitor-sensitive-fields).
 
-## Sådan oprettes bankkonti
+## <a name="to-set-up-bank-accounts"></a>Sådan oprettes bankkonti
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, vælg derefter det relaterede link.
 2. På siden **Bankkonti** skal du vælge handlingen **Ny**.
@@ -149,7 +149,7 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## Sådan angiver du en primosaldo
+## <a name="to-enter-an-opening-balance"></a>Sådan angiver du en primosaldo
 
 For at udfylde feltet **Saldo** med en startsaldo, skal du bogføre en bankkontopost med det pågældende beløb. Du bogfører posten via en bankkontoafstemning. Få mere at vide i [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md).  
 >
@@ -158,7 +158,7 @@ For at udfylde feltet **Saldo** med en startsaldo, skal du bogføre en bankkonto
 > [!IMPORTANT]
 > Du må ikke bogføre primosaldoen direkte i finansregnskabet. Poster i finanskontoen, der er bogført direkte til den, forhindrer typisk, at du kan afstemme bankkontoen. På bankkonti i udenlandsk valuta medfører direkte bogføring i differencer der akkumuleres, når du bogfører flere bankafstemninger. Du bogfører normalt primosaldoen direkte på bankkontoen, og beløbet havner derefter på finanskontoen. Alternativt kan du tilbageføre den senere fra den finanskonto, som du har brugt til at afstemme primosaldoen med finansbalancen. I begge tilfælde skal du udligne en direkte bogføring til finanskontoen, før du starter din første bankafstemning, og især hvis bankkontoen er i udenlandsk valuta.
 
-## Sådan oprettes bankkontoen for import eller eksport af bankfiler
+## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Sådan oprettes bankkontoen for import eller eksport af bankfiler
 
 Felterne er relateret til indlæsning og udlæsning af bankfeeds og -filer i oversigtspanelet **Overførsel** på siden **Bankkontokort**. Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md) og [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
@@ -211,13 +211,13 @@ Følgende illustration viser ruten af udgående betalinger. Tallene i beskrivels
   :::column-end:::
 :::row-end:::
 
-## Sådan konfigureres kreditorbankkonti til eksport af bankfiler
+## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Sådan konfigureres kreditorbankkonti til eksport af bankfiler
 
 Felter i oversigtspanelet **Overførsel** på siden **Kreditors bankkontokort** er relateret til udlæsning af bankfeeds og -filer. Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md) og [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## Ændre din bankkonto
+## <a name="changing-your-bank-account"></a>Ændre din bankkonto
 
 Hvis du vil bruge en anden bankkonto til din virksomhed, skal du oprette den nye bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)]. Det anbefales, at du ikke blot erstatter oplysninger om den konto, du bruger i øjeblikket, da det kan medføre forkerte data. Primosaldoen kan f. eks. være forkert, eller din bank-feed fungerer muligvis ikke korrekt. Det er vigtigt, at du holder de aktuelle og nye firmaer adskilt.
 
@@ -228,7 +228,7 @@ Når du har oprettet den nye bankkonto, skal du også oprette en ny Bankbogføri
 
 Hvis du vil have en mere kompakt oversigt over dine kontantkonti i financial reporting, skal du bruge kontiene **Fra-sum** og **Til-sum** i din kontoplan, rækkerne **Sammentælling** i finansrapporter eller finanskontoarter. Du kan finde flere oplysninger i afsnittet om [Business Intelligence og Financial Reporting](bi.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Konfigurere bogføringsgrupper](finance-posting-groups.md)  

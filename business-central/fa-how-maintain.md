@@ -11,7 +11,7 @@ ms.date: 05/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Vedligeholde anlægsaktiver
+# <a name="maintain-fixed-assets"></a>Vedligeholde anlægsaktiver
 
 Reparationsomkostninger er driftsudgifter til de ting, du gør for at bevare anlægsaktivernes tilstand. I modsætning til kapitalforbedringer øger vedligeholdelse ikke værdien af dine aktiver.
 
@@ -24,7 +24,7 @@ Hver gang du sender et anlægsaktiv til service, registrerer du alle relevante o
 
 Indeksering anvendes til at justere for ændringer af det generelle prisniveau. Brug handlingen **Indeksér anlæg** til at genberegne vedligeholdelsesomkostningerne.
 
-## Registrer et vedligeholdelsesarbejde direkte på et anlægsaktiv
+## <a name="record-a-maintenance-cost-directly-on-a-fixed-asset"></a>Registrer et vedligeholdelsesarbejde direkte på et anlægsaktiv
 
 Hver gang en vedligeholdelse udføres for et aktiv, f.eks. et servicebesøg, kan du registrere det for det pågældende anlægsaktiv på siden **Vedligeholdelsesregistreringer**.  
 
@@ -32,7 +32,7 @@ Hver gang en vedligeholdelse udføres for et aktiv, f.eks. et servicebesøg, kan
 2. Vælg det anlægsaktiv, du vil registrere vedligeholdelse for, og vælg derefter handlingen **Reparationsregistrering**.
 3. På siden **Reparationsregistrering** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Bogfør vedligeholdelsesomkostninger fra en anlægskassekladde
+## <a name="post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>Bogfør vedligeholdelsesomkostninger fra en anlægskassekladde
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Afskrivningsprofiloversigt**, og vælg derefter det relaterede link.  
 2. Vælg den afskrivningsprofil, der er tildelt anlægsaktivet, og vælg derefter handlingen **Rediger**.
@@ -46,7 +46,7 @@ Hver gang en vedligeholdelse udføres for et aktiv, f.eks. et servicebesøg, kan
     > Trin 7 fungerer kun, hvis du har angivet følgende: På siden **Anlægsbogføringsgruppekort** for bogføringsgruppen for anlægsaktivet indeholder feltet **Reparationskonto** finansdebetkontoen og feltet **Reparationsmodkonto** indeholder den finanskonto, hvor du vil bogføre modposter for opskrivning. Du kan finde flere oplysninger i [Sådan oprettes anlægsbogføringsgrupper](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 8. Vælg handlingen **Bogfør**.
 
-## Registrere vedligeholdelsesomkostninger fra en købsfaktura
+## <a name="record-maintenance-cost-from-a-purchase-invoice"></a>Registrere vedligeholdelsesomkostninger fra en købsfaktura
 
 I det følgende beskrives, hvordan du registrerer vedligeholdelsesomkostninger for et anlægsaktiv fra en købsfaktura. Fremgangsmåden er den samme for købsordrer.
 
@@ -57,7 +57,7 @@ I det følgende beskrives, hvordan du registrerer vedligeholdelsesomkostninger f
 5. I feltet **Anlægsbogføringstype** skal du vælge **Reparation**.
 6. Bogført købsfakturaen.
 
-## Følg op på servicebesøg
+## <a name="follow-up-on-service-visits"></a>Følg op på servicebesøg
 
 Du kan udskrive rapporten **Reparation - næste service** for at se, hvilke aktiver der er planlagt servicebesøg for. Du kan også bruge denne rapport, når du vil opdatere feltet **Næste servicedato** på anlægskort.  
 
@@ -65,7 +65,7 @@ Du kan udskrive rapporten **Reparation - næste service** for at se, hvilke akti
 2. Udfyld felterne **Startdato** og **Slutdato**  
 3. Vælg knappen **Udskriv** eller **Vis udskrift**.
 
-## Overvåge reparationsomkostninger
+## <a name="monitor-maintenance-costs"></a>Overvåge reparationsomkostninger
 
 Du kan få vist statistikker for at overvåge vedligeholdelsesomkostningerne.  
 
@@ -76,7 +76,7 @@ Du kan få vist statistikker for at overvåge vedligeholdelsesomkostningerne.
 
 Brug siden **Vedligeholdelsesposter** til at få vist de poster, som indgår i beløbet i feltet **Vedligeholdelse**.
 
-## Få du vist eller udskriver vedligeholdelsesomkostninger for flere anlægsaktiver
+## <a name="view-or-print-maintenance-costs-for-multiple-fixed-assets"></a>Få du vist eller udskriver vedligeholdelsesomkostninger for flere anlægsaktiver
 
 I rapporten **Vedligeholdelse - analyse** kan du vælge, om du vil have vist vedligeholdelse ud fra en, to eller tre Vedligeholdelseskoder på en bestemt dato eller i en bestemt periode. Rapporten kan vise totalen for alle valgte aktiver eller totalen for hvert enkelt aktiv.
 
@@ -84,7 +84,7 @@ I rapporten **Vedligeholdelse - analyse** kan du vælge, om du vil have vist ved
 2. Udfyld felterne efter behov.
 3. Vælg knappen **Udskriv** eller **Vis udskrift**.
 
-## Få vist vedligeholdelsesposter
+## <a name="view-maintenance-ledger-entries"></a>Få vist vedligeholdelsesposter
 
 Du kan også undersøge vedligeholdelsesomkostningerne ved at se på vedligeholdelsesposterne.  
 
@@ -92,7 +92,7 @@ Du kan også undersøge vedligeholdelsesomkostningerne ved at se på vedligehold
 2. Vælg det anlægsaktiv, du vil have vist poster for, og vælg derefter handlingen **Afskrivningsprofiler**.
 3. På siden **Anlægsafskrivningsprofiler** skal du vælge den relevante anlægsafskrivningsprofil og derefter vælge handlingen **Reparationsposter**.
 
-## Få du vist eller udskrive vedligeholdelsesposter for flere anlægsaktiver
+## <a name="view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a>Få du vist eller udskrive vedligeholdelsesposter for flere anlægsaktiver
 
 I feltet **Reparationsposter** kan du få vist eller udskrive reparationsposter for et eller flere anlægsaktiver.  
 
@@ -100,7 +100,7 @@ I feltet **Reparationsposter** kan du få vist eller udskrive reparationsposter 
 2. Udfyld felterne efter behov.
 3. Vælg knappen **Udskriv** eller **Vis udskrift**.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Anlægsaktiver](fa-manage.md)  
 [Opsætning af Anlægsaktiver](fa-setup.md)  

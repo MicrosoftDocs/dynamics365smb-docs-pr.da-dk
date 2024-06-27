@@ -11,7 +11,7 @@ ms.search.form: '5, 16,118, 483, 495'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Opsætte en ekstra rapporteringsvaluta
+# <a name="set-up-an-additional-reporting-currency"></a>Opsætte en ekstra rapporteringsvaluta
 
 Da virksomheder handler i stadig flere lande/områder, bliver det mere vigtigt, at de kan gennemgå eller rapportere finansielle oplysninger i mere end én valuta.
 
@@ -25,7 +25,7 @@ Finansprogrammet er konfigureret til at bruge den lokale valuta (RV), men du kan
 >
 > Du har f.eks. en stor mængde tilgodehavender i britiske pund (GBP), og du har oprettet din EV som GBP. I dette scenario reguleres beløb i de tilgodehavender, der benytter GBP, ikke for valutagevinster/-tab i EV, men kun beløbene i tilgodehavender i andre valutaer. Det betyder, at hvis du bruger EV til at rapportere dine regnskabsopgørelser, kan det medføre, at der er under-eller udestående saldi for tilgodehavender.
 
-## Visning af rapporter og beløb i EV
+## <a name="displaying-reports-and-amounts-in-acy"></a>Visning af rapporter og beløb i EV
 
 Brug af en EV kan være en hjælp i rapporteringsprocessen for en virksomhed i følgende tilfælde:
 
@@ -34,11 +34,11 @@ Brug af en EV kan være en hjælp i rapporteringsprocessen for en virksomhed i f
 
 Flere finansrapporter er baseret på finansposter. Hvis rapportdata skal vises i rapporten i EV, skal du markere feltet **Vis beløb i ekstra rapporteringsvaluta** på oversigtspanelet **Indstillinger** for den relevante finansrapport.
 
-## Valutakurser reguleres
+## <a name="adjusting-exchange-rates"></a>Valutakurser reguleres
 
 Fordi valutakurser svinger hele tiden, skal EV i systemet reguleres med jævne mellemrum. Hvis der ikke foretages reguleringer, kan de beløb, der er konverterede fra udenlandske (eller ekstra) valutaer, og som er bogførte i regnskabet i RV være vildledende. Derudover skal daglige poster, der er bogført før, en daglig valutakurs angives i programmet, opdateres, efter at de daglige oplysninger om valutakurser angives. Kørslen **Juster valutakurser** bruges til at regulere valutakursen for bogførte kunde-, leverandør- og bankkontoposter. Det kan også opdatere EV i finansposter. Du kan finde flere oplysninger i [Opdatere valutakurser](finance-how-update-currencies.md).
 
-## Opsætning af en EV
+## <a name="setting-up-an-acy"></a>Opsætning af en EV
 
 Udfør disse trin for at opsætte en EV:
 
@@ -47,7 +47,7 @@ Udfør disse trin for at opsætte en EV:
 - Angiv metoder til regulering af valutakurser for momsposter.  
 - Aktivér EV'en.  
 
-### Angiv finanskonti til bogføring af valutakursreguleringer  
+### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Angiv finanskonti til bogføring af valutakursreguleringer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **valutaer**, og vælg derefter det relaterede link.  
 2. På siden **Valutaer** skal du udfylde følgende felter for EV.  
@@ -64,7 +64,7 @@ Udfør disse trin for at opsætte en EV:
 
 For hver enkelt finanskonto skal du angive, hvordan bogførte beløb for kontoen skal reguleres, så der tages hensyn til udsving i valutakurserne mellem LV og EV.  
 
-### Sådan angives metoden til regulering af valutakurser for alle finanskonti
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Sådan angives metoden til regulering af valutakurser for alle finanskonti
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoplan**, og derefter vælge det relaterede link.  
 2. På siden **Kontoplan** skal du vælge den relevante konto og derefter vælge handlingen **Rediger**.  
@@ -82,7 +82,7 @@ For hver enkelt finanskonto skal du angive, hvordan bogførte beløb for kontoen
 
 4.  Luk siden **Finanskort**.  
 
-### Sådan angives metoder til regulering af valutakurser for momsposter
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Sådan angives metoder til regulering af valutakurser for momsposter
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Finans**, og vælg derefter det relaterede link.  
 2. På siden **Opsætning af Finans** skal du vælge den relevante metode i feltet **Valutakursregulering (moms)**.  
@@ -98,7 +98,7 @@ For hver enkelt finanskonto skal du angive, hvordan bogførte beløb for kontoen
     |**Reguler beløb**|LV-beløbet reguleres for alle kursgevinster eller -tab. Valutakursgevinster eller -tab bogføres i finanskontoen i feltet **Beløb** og i de konti, du angav til gevinster eller tab, i felterne **Realiseret finansgevinstkonto** og **Realiseret finanstabskonto** på siden **Valutaer**.|  
     |**Reguler ekstra valutabeløb**|EV reguleres for alle kursgevinster eller -tab. Valutakursgevinster eller -tab bogføres i finanskontoen i feltet **Ekstra valuta (beløb)** og i de konti, du angav til gevinster eller tab, i felterne **Realiseret finansgevinstkonto** og **Realiseret finanstabskonto** på siden **Valutaer**.|  
 
-### Sådan aktiverer du EV'en  
+### <a name="to-activate-the-acy"></a>Sådan aktiverer du EV'en
 
 1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Finans**, og vælg derefter det relaterede link.  
 2. På siden **Regnskabsopsætning** skal du i feltet **Ekstra rapporteringsvaluta** vælge den ekstra valuta, du vil rapportere i.  
@@ -125,7 +125,7 @@ Derudover vil beløbene i alle fremtidige poster af samme type være registreret
 > [!NOTE]  
 > Feltet **Ekstra rapporteringsvaluta** vil kun være aktiveret, efter at du har valgt knappen **OK** i kørslen **Reguler eks. rapport.valuta**.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Opdatere valutakurser](finance-how-update-currencies.md)  
 [Lukke år og perioder](year-close-years-periods.md)  

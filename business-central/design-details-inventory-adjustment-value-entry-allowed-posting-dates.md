@@ -10,7 +10,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Fejlmeddelelse: "Bogføringsdatoen er ikke inden for intervallet af tilladte bogføringsdatoer..."
+# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Fejlmeddelelse: "Bogføringsdatoen er ikke inden for intervallet af tilladte bogføringsdatoer..."
 
 Når du bruger kørslen **Reguler kostværdi - vareposter**, kan du starte med følgende fejlmeddelelse:
 
@@ -18,7 +18,7 @@ Når du bruger kørslen **Reguler kostværdi - vareposter**, kan du starte med f
 
 Denne meddelelse angiver, at du ikke har tilladelse til at bogføre poster for den dato, du indtastede. Du kan omgå dette problem ved at ændre din brugeropsætning.
 
-## Ændre Brugeropsætning  
+## <a name="change-the-user-setup"></a>Ændre Brugeropsætning
 
 |Bruger-id  |Bogføring tilladt fra  | Bogføring tilladt til  |
 |---------|---------|--------|
@@ -26,9 +26,9 @@ Denne meddelelse angiver, at du ikke har tilladelse til at bogføre poster for d
 
 I dette tilfælde har du tilladelse til at bogføre i datointervallet fra 11. sept. til 30. sept. Du kan dog ikke bogføre posten med en bogføringsdato d. 10. sept.  
 
-### Oversigt over opsætning af bogføringsdatoen
+### <a name="overview-of-the-posting-date-setup"></a>Oversigt over opsætning af bogføringsdatoen
 
-#### Lagerperioder
+#### <a name="inventory-periods"></a>Lagerperioder
 
 |Afslutningsdato  |Navn  |Lukket  |
 |---------|---------|---------|
@@ -45,7 +45,7 @@ I dette tilfælde har du tilladelse til at bogføre i datointervallet fra 11. se
 |2020-11-30     |November 2020   |         |
 |2020-12-31     |December 2020   |         |  
 
-#### Opsætning af Finans
+#### <a name="general-ledger-setup"></a>Opsætning af Finans
 
 |Felt|Værdi|
 |---------|---------|
@@ -54,7 +54,7 @@ I dette tilfælde har du tilladelse til at bogføre i datointervallet fra 11. se
 |Registrer tid:       |         |
 |Lokalt adresseformat:|   Postnr.      |  
 
-#### Brugeropsætning
+#### <a name="user-setup"></a>Brugeropsætning
 
 |Bruger-id  |Bogf. tilladt fra  | Bogføring tilladt til  |
 |---------|---------|--------|
@@ -62,7 +62,7 @@ I dette tilfælde har du tilladelse til at bogføre i datointervallet fra 11. se
 
 Hvis der tilknyttet et større område, hvor du tillader bogføring på siderne **Lagerperiode** eller **Opsætning af Finans** kan du undgå den konflikt, der forårsager fejlmeddelelsen. Det bredere interval giver dig f.eks. mulighed for at bogføre posten med reguleringsværdien med bogføringsdatoen d. 10. sept.
   
-## Se også  
+## <a name="see-also"></a>Se også
 
 [Designoplysninger: Bogføringsdato på post med reguleringsværdi](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)  

@@ -10,7 +10,7 @@ ms.date: 05/28/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Foretage direkte forsendelser
+# <a name="make-drop-shipments"></a>Foretage direkte forsendelser
 
 En direkte levering er en levering af varer fra en af dine leverandører direkte til din kunde.
 
@@ -19,7 +19,7 @@ Når en salgsordre er markeret til direkte levering, og du opretter en købsordr
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
 
-## Sådan oprettes en salgsordre til direkte levering
+## <a name="to-create-a-sales-order-for-drop-shipment"></a>Sådan oprettes en salgsordre til direkte levering
 
 Hvis du vil forberede en direkte levering, skal du oprette en salgsordre for en vare og angive på salgslinjen, at salget kræver direkte levering.
 
@@ -29,7 +29,7 @@ Hvis du vil forberede en direkte levering, skal du oprette en salgsordre for en 
 > [!TIP]
 > Som standard er afkrydsningsfeltet Direkte levering og Indkøbskodefeltet ikke tilgængeligt på linjerne. Hvis det ikke er tilfældet, kan du tilføje dem ved at tilpasse den sektionen af siden, der indeholder linjerne. Du kan finde flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
 
-## Sådan oprettes købsordren til direkte levering
+## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Sådan oprettes købsordren til direkte levering
 
 Hvis du vil forberede en direkte levering, skal du angive på købsordren, at den skal sendes til kunden og ikke til dig selv.
 
@@ -46,7 +46,7 @@ Du kan nu fortælle din leverandør, at varerne leveres direkte til kunden. Du k
 
 Hvis kreditoren angiver yderligere oplysninger, som f.eks. et sporingsnummer eller lignende oplysninger, kan du tilføje disse oplysninger på en købsordrelinje af typen bemærkning. Hvis du vil føje en bemærkning til en linje, skal du vælge **Bemærkning** i feltet **Type** og derefter angive oplysningerne i feltet **Beskrivelse** .  
 
-## Sådan oprettes flere købsordrer til direkte leveringer
+## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Sådan oprettes flere købsordrer til direkte leveringer
 
 Du kan også bruge indkøbskladden til at oprette købsordren. Fordelen ved at bruge indkøbskladden er, at den kan oprette købsordrer til alle udestående direkte leveringer, så du ikke behøver at oprette dem en ad gangen. Det betyder, at du ikke behøver at oprette hver ordre for sig.
 
@@ -56,11 +56,11 @@ Du kan også bruge indkøbskladden til at oprette købsordren. Fordelen ved at b
 4. Gennemgå købsordrelinjerne, og vælg den leverandør, der leverer varerne, i feltet **Leverandørnr.**.
 5. Vælg handlingen **Udfør aktionsmeddelelse** for at konvertere linjerne til en købsordre.
 
-## Sådan får du vist den tilknyttede købsordre fra salgsordren
+## <a name="to-view-the-linked-purchase-order-from-the-sales-order"></a>Sådan får du vist den tilknyttede købsordre fra salgsordren
 
 Markér salgsordrelinjen til direkte levering, vælg handlingen **Ordre**, vælg handlingen **Direkte levering**, og vælg derefter handlingen **Købsordre**.
 
-## Sådan bogfører du en direkte levering
+## <a name="to-post-a-drop-shipment"></a>Sådan bogfører du en direkte levering
 
 Når kreditoren har leveret varerne, kan du bogføre salgsordren som leveret. Du kan også bogføre købsordren, men kun med indstillingen **Modtag**, indtil salgsordren er faktureret.
 
@@ -73,7 +73,7 @@ Når kreditoren har leveret varerne, kan du bogføre salgsordren som leveret. Du
 > [!TIP]
 > Husk, at du skal bogføre købsordrefakturaen.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oprette specialordrer](sales-how-to-create-special-orders.md)  
 [Købe varer til et salg](purchasing-how-purchase-products-sale.md)  

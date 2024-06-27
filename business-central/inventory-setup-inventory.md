@@ -11,7 +11,7 @@ ms.search.form: '30, 461'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Opsætte lagerbeholdning
+# <a name="setting-up-inventory"></a>Opsætte lagerbeholdning
 
 Før du kan administrere lageraktiviteter og lageromkostningsberegning, skal du konfigurere de regler og værdier, der definerer virksomhedens lagerpolitikker.
 
@@ -33,7 +33,7 @@ Når du har oprettet dit lager, kan du administrere forskellige lagerprocesser i
 |Importér flere varebilleder i én omgang fra en zip-fil, hvor filerne er navngivet efter varenumre.|[Importere flere varebilleder](inventory-how-import-item-pictures.md)|
 |Angiv standardrapporter, der skal bruges til forskellige dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Administrere lager](inventory-manage-inventory.md)  
 [Administrere indkøb](purchasing-manage-purchasing.md)  

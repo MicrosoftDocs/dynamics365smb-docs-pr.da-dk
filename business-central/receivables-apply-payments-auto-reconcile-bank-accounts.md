@@ -11,7 +11,7 @@ ms.search.form: '1290, 1291, 1293, 1294'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Udligning af betalinger automatisk og afstemning af bankkonti
+# <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Udligning af betalinger automatisk og afstemning af bankkonti
 
 Rutinemæssigt skal du afstemme dine bank-, debet- og kreditkonti ved at udligne betalinger, der er registreret på din bankkonto, til deres relaterede åbne (ubetalte) fakturaer og kreditnotaer eller andre åbne poster i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -38,7 +38,7 @@ Den følgende tabel indeholder en opgavesekvens med links til artikler, der rumm
 | Sammenkæd teksten på betalinger til bestemte debitor-, kreditor- eller finanskonti for altid at bogføre tilbagevendende indbetalinger eller udgifter til disse konti, når der ikke findes nogen dokumenter at anvende dem på. |[Knytte tekst på tilbagevendende betalinger til automatisk udligning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Konfigurer de regler til at styre, hvordan betalinger/banktransaktioner skal udlignes automatisk til deres relaterede åbne poster, når du bruger funktionen **Udlign automatisk** på siden **Betalingsudligningskladde**.|[Konfigurere regler for automatisk udligning af betalinger](receivables-how-set-up-payment-application-rules.md)|
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  

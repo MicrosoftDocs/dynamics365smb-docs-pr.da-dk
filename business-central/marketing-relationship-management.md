@@ -11,7 +11,7 @@ ms.search.forms: '9076, 9026'
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Styre relationer
+# <a name="managing-relationships"></a>Styre relationer
 
 Relationsstyringsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)] hjælper dig med at styre og understøtte din salgsindsats. Med disse funktioner får du adgang til dækkende og præcise oplysninger, så du kan fokusere på interaktioner med dine foretrukne kunde-/kontaktmålgrupper.
 
