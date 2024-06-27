@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/06/2024
+ms.date: 06/10/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -28,15 +28,13 @@ Med Copilot kan du hurtigt få et tekstforslag, der bliver genereret automatisk 
 
 Copilot er designet til at spare dig tid og hjælpe dig med at skrive kreativ og engagerende tekst, der afspejler dit varemærke og stemmer overens med produktlinjen. Start med at generere et forslag, og ret derefter den foreslåede tekst efter behov.
 
+### Tilgængelige sprog
+
+[!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+
 ### Forudsætninger
 
-- Funktionen Forslag til marketingtekst er aktiveret i dit miljø. Denne opgave er udføres typisk af en administrator. Du kan finde flere oplysninger i [Konfigurere Copilot og AI-funktioner](enable-ai.md).
-- Du bruger et af de sprog, der aktuelt understøttes af forslagene til marketingtekster.
-
-  [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
-
-  Hvis du vil skifte sprog, skal du i øverste højre hjørne vælge ikonet **Indstillinger** ![Indstillinger.](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") > **Mine indstillinger** > **Sprog**. Du kan finde flere oplysninger i [Ændre grundlæggende indstillinger](ui-change-basic-settings.md#language).
-- Gennemgå [Ofte stillede spørgsmål for markedsføringstekstforslag](faqs-marketing-text.md) for at lære, hvordan AI anvendes.
+Funktionen Forslag til marketingtekst er aktiveret i dit miljø. Denne opgave er udføres typisk af en administrator. Du kan finde flere oplysninger i [Konfigurere Copilot og AI-funktioner](enable-ai.md).
 
 ### Oprette første kladde med Copilot
 
@@ -137,6 +135,6 @@ Tekst genereres altid på det sprog, der er defineret af dine bruger [indstillin
 
 [Oversigt over forslag til marketingtekst](ai-overview.md)  
 [Fejlfinde Copilot- og AI-funktioner](ai-copilot-troubleshooting.md)  
-[Ofte stillede spørgsmål til forslag til marketingtekst](faqs-marketing-text.md)  
+[Ofte stillede spørgsmål om forslag til marketingtekst](faqs-marketing-text.md)  
 [Konfigurere Copilot- og AI-funktioner](enable-ai.md)  
 [Registrere nye varer](inventory-how-register-new-items.md)  

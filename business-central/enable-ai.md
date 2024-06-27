@@ -1,5 +1,5 @@
 ---
-title: Konfigurer Copilot- og AI-funktioner
+title: Konfigurere Copilot- og AI-funktioner
 description: 'Denne artikel forklarer, hvordan du aktiverer Copilot i et miljø.'
 author: jswymer
 ms.author: jswymer
@@ -12,19 +12,21 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="configure-copilot-and-ai-capabilities"></a>Konfigurere Copilot- og AI-funktioner
+# Konfigurere Copilot- og AI-funktioner
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
 <!--This article explains how you can control the ability to create AI-powered item marketing text with Copilot for your organization. This task is done by an admin. There are two requirements that you must fulfill to make the feature available to users:-->
 
-I denne artikel forklares det, hvordan du styrer brugernes adgang til Copilot og andre AI-funktioner i Business Central. Denne opgave udføres af en administrator. Copilot er en systemfunktion og en integreret del af Business Central. I lighed med de fleste systemfunktioner giver du ikke adgang til individuelle brugere, og du kan heller ikke slå Copilot til eller fra. Copilot tilbyder dog datastyringskontrol og mulighed for at deaktivere individuelle Copilot- og AI-funktioner for hvert miljø. Der er forskellige niveauer af adgangskontrol til AI-funktioner, afhængigt af funktionen:
+I denne artikel forklares det, hvordan du styrer Microsoft Copilot og andre AI-funktioner i Dynamics 365 Business Central. En administrator skal afslutte disse opgaver.
+
+Copilot er en systemfunktion og en integreret del af Business Central. I lighed med de fleste systemfunktioner giver du ikke adgang til individuelle brugere, og du kan heller ikke slå Copilot til eller fra. Copilot tilbyder dog datastyringskontrol og mulighed for at deaktivere individuelle Copilot- og AI-funktioner for hvert miljø. Der er forskellige niveauer af adgangskontrol til AI-funktioner, afhængigt af funktionen:
 
 - Tillad dataflytning på tværs af geografiske områder.
 
-  Denne opgave kræves kun, hvis dit Business Central-miljø er i et andet geografisk område end den Azure OpenAI-tjeneste, det bruger. [Få mere at vide](#allow-data-movement-across-geographies)
+    Denne opgave kræves kun, hvis dit Business Central-miljø er i et andet geografisk område end den Azure OpenAI-tjeneste, det bruger. [Få mere at vide om denne opgave](#allow-data-movement-across-geographies).
 
-- Aktivér funktionen på siden **Copilot- og AI-funktioner**. [Få mere at vide](#activate-features)
+- Aktivér funktionen på siden **Copilot- og AI-funktioner**. [Få mere at vide om denne opgave](#activate-features).
 
 <!-- For 2024 there are no AI features governed by **Feature Management**, so this section is not shown
 - Enable the specific feature if it's governed by **Feature Management**.
@@ -37,27 +39,30 @@ I denne artikel forklares det, hvordan du styrer brugernes adgang til Copilot og
 
 Hvis nogle af disse krav ikke er opfyldt, kan funktionen ikke bruges.
 
-## <a name="prerequisites"></a>Forudsætninger
+## Forudsætninger
 
 - Du bruger Business Central Online.
 - Du er [administrator](#requirements-for-being-an-administrator) i Business Central.
 
-## <a name="allow-data-movement-across-geographies"></a>Tillade dataflytning på tværs af geografiske områder
+## Tillade dataflytning på tværs af geografiske områder
 
-Denne opgave gælder kun, hvis kontakten **Tillad dataflytning** vises øverst på siden **Copilot- og AI-funktioner**. Hvis linket **Hvordan styrer jeg mine copilotdata?** vises i stedet for **Tillad databevægelse** kontakten, skal du springe over dette trin.
+Denne opgave gælder kun, hvis valget **Tillad dataflytning** vises øverst på siden **Copilot- og AI-funktioner**. Hvis linket **Hvordan styrer jeg mine copilotdata?** vises i stedet for valget **Tillad databevægelse**, skal du springe denne opgave over.
 
-![Viser et skærmbillede af knappen Tillad databevægelse på Copilot & AI-egenskaber side.](media/allow-data-movement-v2.png)
+![Skærmbillede, der viser knappen Tillad databevægelse på siden Copilot og AI-egenskaber.](media/allow-data-movement-v2.png)
 
-Kontakten **Tillad dataflytning** angiver, at placeringen af dit Business Central-miljø - dvs. det geografiske område, hvor data behandles og lagres - ikke er det samme som det Azure OpenAI-tjenestegeografiske område, der bruges af Copilot. Hvis du vil aktivere Copilot, skal du tillade dataflytning mellem geografiske områder. Du kan få mere at vide om dataflytning ved at gå til [Copilot-dataflytning på tværs af geografiske områder](ai-copilot-data-movement.md). 
+Tilstedeværelsen af valget **Tillad dataflytning** angiver, at placeringen af dit Business Central-miljø (dvs. det geografiske område, hvor data behandles og lagres) er forskellige fra det geografiske Azure OpenAI-serviceområde, som Copilot bruger. Du aktiverer Copilot ved at tillade dataflytning mellem geografiske områder. [Få mere at vide om databevægelse](ai-copilot-data-movement.md).
 
-Hvis du vil tillade dataflytning uden for dit geografiske område, skal du udføre følgende trin:
+Følg disse trin for at tillade dataflytning uden for dit geografiske område:
 
-1. Søg, og åbn siden **Copilot- og AI-funktioner** i Business central.
-1. Aktivér kontakten **Tillad dataflytning**.
+1. Søg efter, og åbn siden **Copilot- og AI-funktioner** i Business Central.
+1. Aktivér valget **Tillad dataflytning**.
 
-   Kontakten **Tillad dataflytning** er som standard aktiveret for miljøer i Azure-områderne Vesteuropa og Nordeuropa.
+    > [!NOTE]
+    > For miljøer i Azure-områderne Vesteuropa og Nordeuropa er valget **Tillad dataflytning** som standard aktiveret. 
 
-Du kan fravælge dataflytning ved at slå kontakten **Tillad dataflytning** fra. Når en Azure OpenAI-tjeneste bliver tilgængelig i dit Business Central-miljøgeografi, forbindes dit miljø automatisk til den, og kontakten er ikke længere tilgængelig.
+Hvis du vil fravælge dataflytning, skal du slå valget **Tillad dataflytning** fra.
+
+Når en Azure OpenAI-service bliver tilgængelig i det geografiske område til dit Business Central-miljø, forbindes dit miljø automatisk til den. Nu vises valget **Tillad databevægelse** ikke længere på siden **Copilot og AI-egenskaber**.
 
 <!-- Don't review
 | Australia, United Kingdom, United States | Within the respective geographical region |
@@ -79,23 +84,22 @@ Meanwhile, customers with environments outside the United States can use Copilot
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
 
-## <a name="activate-features"></a>Aktivér funktioner
+## Aktivér funktioner
 
-Alle Copilot- og AI-funktioner er aktive som standard, når de gøres tilgængelige i forhåndsvisning eller bliver almindeligt tilgængelige. Ved hjælp af siden **Copilot- og AI-funktioner** kan du slå individuelle funktioner til eller fra for alle brugere.
+Alle Copilot- og AI-funktioner er aktive som standard, når de gøres tilgængelige i forhåndsvisning eller bliver almindeligt tilgængelige. På siden **Copilot- og AI-funktioner** kan du slå individuelle funktioner til eller fra for alle brugere.
 
-1. Søg, og åbn siden **Copilot- og AI-funktioner** i Business central.
+1. Søg efter, og åbn siden **Copilot- og AI-funktioner** i Business Central.
+1. Siden viser alle tilgængelige Copilot- og AI-relaterede funktioner og deres aktuelle status. (Status kan være *Aktiv* eller *Inaktiv*.) Funktionerne er opdelt i to sektioner: En sektion for funktioner i forhåndsversion og en anden for funktioner, der er generelt tilgængelige.
 
-1. Siden viser alle tilgængelige Copilot- og AI-relaterede funktioner og deres aktuelle status, som enten kan være aktiv eller inaktiv. Funktionerne er opdelt i to sektioner: En sektion for funktioner i forhåndsversion og en anden for funktioner, der er generelt tilgængelige. 
+    - Du slår en funktion til ved at vælge den på listen og derefter vælge **Aktivér**.
+    - Du slår en funktion fra ved at markere den på listen og derefter vælge **Deaktivér**.
 
-   [![Viser Business Central-rollecenter og kontrollisten til Copilot](media/copilot-and-ai-capabilties-page.svg)](media/copilot-and-ai-capabilties-page.svg#lightbox)
-
-   - Hvis du vil slå en funktion til, skal du vælge den på listen og derefter vælge handlingen **Aktivér**.
-   - Hvis du vil slå en funktion fra, skal du markere den og derefter vælge handlingen **Deaktivér**. 
+    [![Skærmbillede, der viser knapperne Aktivér og Deaktiver for funktionslisterne på siden Copilot- og AI-funktioner.](media/copilot-and-ai-capabilties-page.svg)](media/copilot-and-ai-capabilties-page.svg#lightbox)
 
 <!-- don't review 
 
 <!-- For 2024 there are no AI features governed by **Feature Management**, so this section is not shown
-## <a name="enable-feature-in-feature-management"></a>Enable feature in Feature Management
+## Enable feature in Feature Management
 
 When individual Copilot capabilities are released in Business Central minor updates, these capabilities are optional until the next major update. **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like marketing text suggestions. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -108,26 +112,26 @@ When individual Copilot capabilities are released in Business Central minor upda
 
    For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).-->
 
-## <a name="granting-user-access"></a>Tildele brugeradgang
+## Tildele brugeradgang
 
-Copilot- og AI-funktioner kan tilbyde funktionalitet beregnet til alle brugere på tværs af din organisation eller til specifikke brugerroller. De fleste Copilot- og AI-funktioner tilbyder adgangskontrol ved hjælp af tilladelser og tilladelsessæt i Business Centrals tilladelsesstyringssystem. [Få mere at vide om tilladelser og tilladelsessæt](ui-define-granular-permissions.md).
+Copilot- og AI-funktioner kan tilbyde funktionalitet, som er beregnet til alle brugere på tværs af din organisation eller til specifikke brugerroller. De fleste Copilot- og AI-funktioner tilbyder adgangskontrol gennem tilladelser og tilladelsessæt i Business Centrals tilladelsesstyringssystem. [Få mere at vide om tilladelser og tilladelsessæt](ui-define-granular-permissions.md).
 
-Følgende tabel viser de tilladelser, der kræves for at bruge Copilot-funktioner, der leveres af Business Central.
+Følgende tabel viser de tilladelser, der kræves for at bruge Copilot-funktioner, som Business Central leverer.
 
-|Copilot-funktioner|Nødvendige tilladelser|
-|-|-|
-|Analyseassistance|**DATA ANALYSIS - EXEC** tilladelsessæt eller udfør tilladelse til systemobjektet 9640 **Tillad dataanalysetilstand**. Det er de samme tilladelser, der kræves for at få adgang til analysetilstanden.|
-|Assistance til bankafstemning|Tilladelse på side 7250 **Bank Acc. Rec. AI Forslag** og side 7252 **Trans. Til GL Acc. AI-forslag**.|
-|Chat |Der er ingen tilladelser eller tilladelsessæt, der styrer adgangen til chat pr. bruger. Hvis chat er aktiveret, er den tilgængelig for alle brugere.|
-|Tilknyt e-dokumenter |Tilladelse på side 6166 **PO Copilot-forslag til e-dokument**|
-|Forslag til marketingtekst |Tilladelse på side 5836 **Copilot Marketing Text**|
-|Salgslinjeforslag |Tilladelse på side 7275 **Salgslinje AI-forslag** og side 7276 **Salgslinje AI-forslag Sub**|
+| Copilot-funktion | Nødvendige tilladelser |
+|---|---|
+| Analyseassistance | Tilladelsessættet **DATA ANALYSIS - EXEC** eller udfør tilladelse til systemobjekt 9640, **Tillad dataanalysetilstand**. Det er de samme tilladelser, der kræves for at få adgang til analysetilstanden. |
+| Assistance til bankafstemning | Tilladelse på side 7250, **Bankkontoafstem. AI-forslag**, og side 7252, **Trans. Til GL Acc. AI-forslag**. |
+| Chat | Der er ingen tilladelser eller tilladelsessæt, der styrer adgangen til chat pr. bruger. Hvis chat er aktiveret, er den tilgængelig for alle brugere. |
+| Tilknyt e-dokumenter | Tilladelse på side 6166, **PO Copilot-forslag til e-dokument**. |
+| Forslag til marketingtekst | Tilladelse på side 5836, **Copilot Marketing Text**. |
+| Salgslinjeforslag | Tilladelse på side 7275, **Salgslinje AI-forslag**, og side 7276, **Salgslinje AI-forslag Sub**. |
 
 For at give eller nægte adgang til specifikke ikke-Microsoft Copilot- og AI-funktioner skal du konsultere dokumentationen eller udgiveren af den funktion for at identificere, hvilke tilladelser der kræves.
 
-## <a name="requirements-for-being-an-administrator"></a>Krav til at være administrator
+## Krav til at være administrator
 
-Du skal enten have SUPER-tilladelser i Business Central-brugerkontoen eller en af følgende Business Central-licenser:
+Du skal enten have SUPER-tilladelser i din Business Central-brugerkonto eller en af følgende Business Central-licenser:
 
 - Stedfortræderadministrator
 - Delegeret helpdesk
@@ -137,18 +141,18 @@ Du skal enten have SUPER-tilladelser i Business Central-brugerkontoen eller en a
 
 Business Central tilbyder endnu ikke detaljerede tilladelser på objektniveau, så kun bestemte administratorer kan konfigurere Copilot.
 
-## <a name="next-steps"></a>Næste trin
+## Næste trin
 
-Når du har aktiveret og givet dit samtykke til funktionerne, er du klar til at prøve dem. Gå til:
+Når du har aktiveret og givet dit samtykke til funktionerne, er du klar til at prøve dem. Gå til følgende artikler:
 
 - [Tilføje marketingtekst til varer med Copilot](item-marketing-text.md)
-- [Analysere listedata med Copilot](analysis-assist.md)  
+- [Analysere listedata med Copilot](analysis-assist.md)
 - [Chatte med Copilot](chat-with-copilot.md)
 - [Knytte e-dokumenter til indkøbsordrelinjer med Copilot](map-edocuments-with-copilot.md)
 - [Afstemme bankkonti med Copilot](bank-reconciliation-with-copilot.md)
-- [Foreslå linjer på salgsordrer med Copilot](sales-suggest-sales-lines-with-copilot.md)  
+- [Foreslå linjer på salgsordrer med Copilot](sales-suggest-sales-lines-with-copilot.md)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Fejlfinde Copilot- og AI-funktioner](ai-copilot-troubleshooting.md)  
 [Ofte stillede spørgsmål om analyseassistance](faqs-analysis-assist.md)  
@@ -157,5 +161,4 @@ Når du har aktiveret og givet dit samtykke til funktionerne, er du klar til at 
 [Ofte stillede spørgsmål om tilknytning af e-dokumenter med købsordrer](faqs-map-edocuments.md)  
 [Ofte stillede spørgsmål om forslag til marketingtekst](faqs-marketing-text.md)  
 [Ofte stillede spørgsmål til forslag til salgslinje](faq-sales-suggest-sales-lines-with-copilot.md)  
-
-[Oversigt over forslag til marketingtekst](ai-overview.md)  
+[Oversigt over forslag til marketingtekst](ai-overview.md)

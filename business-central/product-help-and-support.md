@@ -1,16 +1,17 @@
 ---
-title: Hjælp og support
-description: 'Få hjælp til produkter, vejledning, tip til fejlfinding og assistance, og få mere at vide om teknisk support til Business Central.'
+title: Ressourcer til hjælp og support
+description: 'Få mere at vide om, hvordan du får hjælp og support til Business Central, herunder chat med Copilot, tip i produktet, ruden Hjælp, siden Hjælp og support, produktdokumentation og communityforummer.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
-ms.author: bholtorf
-ms.date: 02/27/2024
+ms.date: 06/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="resources-for-help-and-support"></a>Ressourcer til hjælp og support
+# Ressourcer til hjælp og support
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -21,21 +22,21 @@ Organisationer, der bruger [!INCLUDE[prod_long](includes/prod_long.md)], kan få
 - Flere oplysninger om [få mere at vide](#help-pane)
 - Få mere at vide om, hvordan du finder [de tekniske oplysninger](#help--support-page), du skal bruge for at sende en supportanmodning
 
-## <a name="chat-with-copilot"></a>Chat med Copilot
+## Chat med Copilot
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-Chat med Copilot er et AI-drevet værktøj, der besvarer spørgsmål og finder forretningsdata, der er relateret til Business Central. Det er tilgængeligt på alle sider via ikonet ![Viser ikonet for chat med Copilot](media/chat-copilot-icon.png) **Copilot** i øverste højre hjørne. [Få mere at vide mere om chat med Copilot](chat-with-copilot.md).
+Chat med Copilot er et AI-drevet værktøj, der besvarer spørgsmål og finder forretningsdata, der er relateret til Business Central. Du kan få adgang til den fra alle sider via ikonet ![Viser ikonet for chat med Copilot](media/chat-copilot-icon.png) **Copilot** i øverste højre hjørne. [Få mere at vide mere om chat med Copilot](chat-with-copilot.md).
 
-### <a name="help-with-fields"></a>Hjælp til felter
+### Hjælp til felter
 
-Copilot kan hjælpe dig med at forstå formålet med og den typiske brug af de enkelte felter. Når du vælger **Spørg Copilot** i et værktøjstip til et felt, åbnes chatten med prompten Forklar for feltnavnet, og Copilot giver oplysninger om det. Copilot linker til de artikler, den refererer til, så det er nemt at verificere beskrivelsen.
+Copilot kan hjælpe dig med at forstå formålet med og den typiske brug af de enkelte felter. Når du vælger **Spørg Copilot** i et værktøjstip til et felt, åbnes chatten med prompten Forklar for feltnavnet, og Copilot giver oplysninger om det. Copilot linker til de artikler, den refererer til, så du nemt kan verificere beskrivelsen.
 
-## <a name="in-product-tips"></a>Hjælp til produktet
+## Hjælp til produktet
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Disse links kan også få adgang til indhold fra andre websteder, f.eks. websteder hos udbydere af apps, der er del af din [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="help-pane"></a>Ruden hjælp
+## Ruden hjælp
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -46,13 +47,13 @@ Menupunktet Hjælp i [!INCLUDE [prod_short](includes/prod_short.md)], (spørgsm�
 Følgende liste beskriver, hvordan du kan få adgang til ruden hjælp, og om der er tilføjet kort til den:
 
 - Vælge menupunktet Hjælp (spørgsmålstegnet i øverste højre hjørne)
-- Brug tastaturgenvejen <kbd>Ctrl</kbd>+<kbd>F1</kbd> fra alle steder
+- Brug tastaturgenvejen <kbd>Ctrl</kbd>+<kbd>F1</kbd> fra alle steder i Business Central.
 - Vælg linket *Flere oplysninger* om et værktøjstip for et felt, hvis det er tilgængeligt. Linket *Få mere at vide* er kun tilgængeligt i mobilappen eller i brugerdefinerede felter (dvs. felter fra ikke-Microsoft-udvidelser) i webklienten.
 
 > [!TIP]
 > Når du vælger et hyperlink, åbnes destinations artiklen under en ny webbrowser fane. Du kan vælge at fjerne fanen browser, så du kan få vist de relevante oplysninger ved siden af hinanden med [!INCLUDE [prod_short](includes/prod_short.md)]. Ruden forbliver åben, mens du navigerer gennem [!INCLUDE [prod_short](includes/prod_short.md)], så det indhold, du har søgt efter, forbliver synligt.  
 
-## <a name="search-in-the-help-pane"></a>Søg i ruden hjælp
+## Søg i ruden hjælp
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
@@ -61,7 +62,7 @@ Brug feltet Søg øverst i ruden Hjælp til at søge efter vejledning i, hvordan
 > [!NOTE]
 > I den aktuelle version af [!INCLUDE [prod_short](includes/prod_short.md)] er feltet Søg i ruden Hjælp kun relevant for indhold, der udgives på [Dynamics 365 Business Central-dokumentation](/dynamics365/business-central) på Microsoft Learn.
 
-## <a name="help--support-page"></a>Siden Hjælp og support
+## Siden Hjælp og support
 
 Fra Hjælp-ruden kan du få adgang til siden **Hjælp & support** i [!INCLUDE [prod_short](includes/prod_short.md)], der indeholder nyttige links. Du kan også se, hvordan du kontakter teknisk support til din [!INCLUDE[prod_short](includes/prod_short.md)]  
 
@@ -75,17 +76,17 @@ Denne sektion beskriver den tilgængelige dokumentation i de forskellige sektion
 - [Få mere ud af din prøveversion](#do-more-with-your-trial)  
 - [Send feedback](#give-feedback)  
 - [Fejlfinding](#troubleshooting)  
-- [Rapporter et problem](#report-a-problem)  
+- [Rapportér et problem](#report-a-problem)  
 - [Supportkontrakter](#support-contacts)  
 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-### <a name="find-answers"></a>Finde svar
+### Finde svar
 
 Sektionen **Find det** har links til de mest almindelig steder, hvor du kan finde svar på dine spørgsmål. Disse links er inddelt i fire kategorier og er forklaret i de følgende undersektioner. Nogle af disse links kan konfigureres af din [!INCLUDE[prod_short](includes/prod_short.md)]-partner, og resultatet af konfigurationen kan således afvige en smule.  
 
-#### <a name="product-help"></a>Produkthjælp
+#### Produkthjælp
 
 Sektionen **Find det** indeholder to links til produkthjælp:
 
@@ -97,40 +98,40 @@ Sektionen **Find det** indeholder to links til produkthjælp:
 
   Funktionerne i standardversionen af [!INCLUDE[prod_short](includes/prod_short.md)] er beskrevet i [Dynamics 365 Business Central-dokumentationen](/dynamics365/business-central) Du kan finde flere oplysninger i afsnittet [Flere oplysninger om brug af produktdokumentationen](#learn-more-using-the-product-documentation). Du kan også udvide og tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] med apps fra AppSource. Alle apps har links til den relevante produkthjælp, så du altid kan finde vejledning til forskellig workflows i din version af [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-#### <a name="community"></a>Forum
+#### Forum
 
 I [Business Central Community Forum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04), kan du indsende spørgsmål og lære af andre [!INCLUDE[prod_short](includes/prod_short.md)]-forummedlemmer. Partnere og Microsoft-medarbejdere deltager i samtalerne.  
 
 Hvis du endnu ikke har en partner, kan forummet også hjælpe dig med at fjerne spærringen, hvis du har spørgsmål. Hvis du f.eks. har registreret dig som bruger af en prøveversion, kan forummet være et godt udgangspunkt.  
 
-#### <a name="blog"></a>Blog
+#### Blog
 
-Vi taler om nye funktioner på [Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/), herunder særlige overvejelser.  
+Vi taler om nye funktioner på [Dynamics 365-bloggen](https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/product/dynamics-365-business-central/), herunder særlige overvejelser.  
 
-#### <a name="capabilities-coming-soon"></a>Funktioner, der lanceres snart
+#### Funktioner, der lanceres snart
 
 [!INCLUDE[prod_short](includes/prod_short.md)] opdateres med større funktionalitetsopdateringer hver 6. måned og med månedlige serviceopdateringer. Vælg linket for at se de seneste frigivelsesplan. Du kan også få et overblik over kommende eller nyligt frigivne funktioner i [frigivelsesplanerne for hele Dynamics 365](/dynamics365/release-plans/).  
 
 Se [!INCLUDE[prod_short](includes/prod_short.md)] [roadmap page](https://dynamics.microsoft.com/roadmap/business-central/) for at få et langsigtet overblik, der viser generelle prioriteringer for [!INCLUDE[prod_short](includes/prod_short.md)] i de kommende år.  
 
-### <a name="do-more-with-your-trial"></a>Få mere ud af din prøveversion
+### Få mere ud af din prøveversion
 
 Denne sektion giver dig genveje til Microsoft handelsmarkedsplads, hvor du kan finde løsninger og tjenester fra [!INCLUDE[prod_short](includes/prod_short.md)]-partnere. Benyt links til at udforske de alle funktioner af [!INCLUDE[prod_short](includes/prod_short.md)], før du beslutter, om du vil købe et abonnement. Du kan også finde et link til at kontakt til salgsteamet
 
 > [!NOTE]
 > Denne sektion er kun tilgængelig i prøveversioner af [!INCLUDE[prod_short](includes/prod_short.md)] online. Hvis du allerede har købt [!INCLUDE[prod_short](includes/prod_short.md)], vises sektionen ikke længere.
 
-### <a name="give-feedback"></a>Send feedback
+### Send feedback
 
 Omtrent én gang i kvartalet indsamler [!INCLUDE [prod_short](includes/prod_short.md)]-teamet en tilbagemelding fra vores brugere om, hvor tilfreds de er med produktet. Ud over klassifikationer kan du også angive en skriftlig kommentar. Ved at give os specifikke og handlingsløse bemærkninger kan du hjælpe vores teknikere til at prioritere de produktforbedringer, vi investerer i. Du kan også få samtykke til at blive kontaktet om din kommentar. Hvis du gør det, bliver du inviteret til et Teams-møde på et tidspunkt, hvor det passer dig. Du kan når som helst give produktforslag på vores websted med [Dynamics 365 Ideas](https://aka.ms/bcideas).  
 
-### <a name="product-suggestions"></a>Produktforslag
+### Produktforslag
 
 På [Dynamics 365 Ideas-websted](https://aka.ms/bcideas), kan du komme med forslag til nye funktioner og egenskaber. Dit input sendes direkte til Business Centrals udviklings-backlog for at blive at blive nærmere undersøgt og prioriteringsvurderet.  
 
 Sørg for at søge listen over indsendte forslag igennem. Deter muligt, at nogen allerede har indsendt noget lignende, og indlægget kan allerede have modtaget stemmer. Stem på en ide, der allerede er indsendt, for at få den prioriteret.  
 
-### <a name="troubleshooting"></a>Fejlfinding
+### Fejlfinding
 
 Sektionen **Fejlfinding** viser teknisk information, som din administrator eller [!INCLUDE[prod_short](includes/prod_short.md)]-partner kan benytte for at give brugere adgang. Denne sektion omfatter information om den seneste fejlbesked, den nuværende version af dit [!INCLUDE[prod_short](includes/prod_short.md)] og et link til siden **Sideinspektion**. Se [Inspektion af sider i Business Central](across-inspect-page.md) for yderligere information.  
 
@@ -143,7 +144,7 @@ Som intern administrator har du adgang til administrationen, hvor du kan fortsæ
 - [Overvåge og analysere feltovervågningstelemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
 - [Aktivér afsendelse af telemetri til Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
-### <a name="report-a-problem"></a>Rapportér et problem
+### Rapportér et problem
 
 Din [!INCLUDE[prod_short](includes/prod_short.md)]-detailpartner kan hjælpe dig med teknisk support. Denne sektion gør det nemt for dig at kontakte din distributør, hvis de har angivet deres supportkontaktoplysninger. Hvis din [!INCLUDE[prod_short](includes/prod_short.md)]-partner ikke kan løse problemet, anmoder de Microsoft om hjælp.  
 
@@ -154,7 +155,7 @@ Du kan finde flere oplysninger i [Eskalere supportproblemer til Microsoft](/dyna
 >
 > Med [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø er dette afsnit kun tilgængeligt i 2020 udgivelsesbølge 2 (version 18) og nyere.
 
-### <a name="support-contacts"></a>Supportkontrakter
+### Supportkontrakter
 
 I afsnittet **Rapportér et problem** vises en mailadresse eller et hyperlink, som du kan bruge til at få kontakt med personen eller teamet hos kundesupport. Hvis du er [!INCLUDE[prod_short](includes/prod_short.md)]-detailforhandleren for en lejer, kan du angive dine foretrukne supportkontaktoplysninger i Administration. Du kan finde flere oplysninger i [Konfiguration af supportoplevelsen](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience) i administrationsindholdet.  
 
@@ -163,7 +164,7 @@ Hvis du vil advare din partner mod et problem, skal du vælge hyperlinket for en
 > [!NOTE]
 > Oplysningerne om supportkontakter er ikke tilgængelige med [!INCLUDE[prod_short](includes/prod_short.md)] i det lokale miljø.
 
-## <a name="learn-more-using-the-product-documentation"></a>Flere oplysninger om brug af produktdokumentationen
+## Flere oplysninger om brug af produktdokumentationen
 
 Basisversionen af [!INCLUDE [prod_short](includes/prod_short.md)] er udvidet og tilpasset af en stor gruppe af partnere. Hver partner og mange debitorer installerer deres egen Hjælp til deres eget websted. Men du kan altid gå til [Dynamics 365 Business Central-dokumentation](index.yml) for at få mere at vide. Webstedet er vært for forskellige typer indhold, f.eks. følgende indhold:
 
@@ -175,7 +176,7 @@ I dette afsnit kan du få mere at vide om, hvordan du kan navigere i forretnings
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-### <a name="content-on-the-site"></a>Indhold på webstedet
+### Indhold på webstedet
 
 [Denne sektion](welcome.md) i Microsoft Learn rummer indhold fra Microsoft, som udgør det faste element *Flere oplysninger* i brugerassistancemodellen. Indholdet af *Få mere at vide* besvarer til dels de spørgsmål, som brugergrænsefladen ikke kan besvare, f.eks. følgende liste:
 
@@ -187,14 +188,14 @@ Inde i produktet kan du få adgang til dette indhold enten via linket *Få mere 
 
 Navigationspanelet viser indholdsfortegnelsen, der grupperer artikler efter forretningsområde. Du kan f.eks. læse artiklen [Købe varer til et salg](purchasing-how-purchase-products-sale.md), og derefter viser indholdsfortegnelsen, at der også er en artikel, der hedder [Rette eller annullere ubetalte købsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md). Begge artikler er i gruppen *Indkøb*, som indeholder artikler med relation til modulet Indkøb i [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-Indholdsfortegnelsen omfatter en gruppe af indhold, der beskriver [lokal funktionalitet](about-localization.md) for de lande/områder, som Microsoft understøtter. Hvis du ikke kan se dit land eller område på listen, skyldes det sandsynligvis, at en partner har oversat for dit land eller område. Flere oplysninger i [Tilgængelighed i land/område og understøttede sprog](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
+Indholdsfortegnelsen omfatter en gruppe af indhold, der beskriver [lokal funktionalitet](about-localization.md) for de lande/områder, som Microsoft understøtter. Hvis du ikke kan se dit land/område på listen, skyldes det sandsynligvis, at en partner har oversat for dit land/område. Flere oplysninger i [Tilgængelighed i land/område og understøttede sprog](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations).  
 
 Det lokale indhold af funktionaliteten beskriver mulighederne i [!INCLUDE [prod_short](includes/prod_short.md)], der kan hjælpe med at være kompatible på de understøttede markeder, f.eks. selvangivelser og andre rapporter. I nogle tilfælde er forskellen mellem standardversionen og den lande/områdespecifikke version usynlig for brugerne. I andre tilfælde skal brugerne oprette rapportering eller elektronisk fakturering på en bestemt måde. Hvis du ikke kan finde en beskrivelse af en bestemt knap eller handling i den generelle sektion, kan du forhåbentlig finde den i sektionen *Lokal funktionalitet*.  
 
 > [!TIP]
 > På learn.microsoft.com og i feltet Søg i produkter samt i ruden Hjælp viser søgeresultatet kontekst til destinationsartiklen. Konteksten omfatter det link, der kan vise navnet på et land, eller en kort beskrivelse, der kalder en bestemt egenskab eller et land f. eks.
 
-### <a name="find-other-content"></a>Søge efter andet indhold
+### Find efter andet indhold
 
 Hvis du lander på en artikel, der ikke besvarer dit spørgsmål, kan du finde andet indhold på to måder i Microsoft Learn:
 
@@ -207,7 +208,7 @@ Hvis du lander på en artikel, der ikke besvarer dit spørgsmål, kan du finde a
 
   På den måde kan du søge efter et hvilket som helst udtryk. Webstedet vil derefter søge i alt indhold efter det pågældende ord eller udtryk. Søg efter *faktura* igen, og rul gennem listen over hundredvis af artikler i det [!INCLUDE [prod_short](includes/prod_short.md)]-indhold, der bruger det pågældende ord et sted i teksten.  
 
-### <a name="languages"></a>Sprog
+### Sprog
 
 Indhold om forretningsfunktionalitet publiceres på mange sprog. Når du lander på Microsoft Learn fra produktet, kan du se indholdet på samme sprog som det, du har angivet i [!INCLUDE [prod_short](includes/prod_short.md)], medmindre dette sprog ikke er tilgængeligt på Microsoft Learn.  
 
@@ -217,40 +218,40 @@ Indholdet oprettes på engelsk og publiceres til URL-adresser med *en-us* som sp
 
 For hvert sprog oversættes indholdsfortegnelsen, men indholdet i sektionen *Lokal funktionalitet* er på engelsk med undtagelse af det land eller område, der svarer til det aktuelle sprog. I den danske version af Microsoft Learn (`https://learn.microsoft.com/da-dk/dynamics365/business-central/`) kan du se posterne for den lokale australske funktionalitet på dansk i indholdsfortegnelsen, men artiklerne er på engelsk. Det er kun artiklerne for den lokale danske funktionalitet, der oversættes til dansk.  
 
-### <a name="recommended-content"></a>Anbefalet indhold
+### Anbefalet indhold
 
 På Microsoft Learn indeholder hver artikel en rude med hyperlinks til andre artikler. Sektionen **Anbefalet indhold** genereres automatisk, afhængigt af hvordan hver artikel bruges sammen med resten af webstedet. Linkene er ikke statiske og ændres med tiden.
 
-### <a name="tell-us-what-you-think"></a>Fortæl os, hvad du synes
+### Fortæl os, hvad du synes
 
 På Microsoft Learn har hver artikel to knapper nederst i artiklen. Knappen *Dette produkt* fører dig til webstedet Ideer, og med knappen **Denne side** kan du indsende feedback om indholdet via GitHub. I begge tilfælde skal du oprette en konto, hvis du ikke allerede har en. For *produktfeedback* skal du logge på med din arbejds- eller organisationsbaserede mailkonto. For *adgang til GitHub* kan du bruge en hvilken som helst mailadresse , når du opretter en konto.  
 
-Vi værdsætter dine bidrag, både som pull-anmodninger med forslag eller rettelser til indholdet, og som GitHub-problemer med fejl eller spørgsmål. Men vær opmærksom på, at feedback og bidrag til rapporten *dynamics365smb-docs* vedrører indholdet, ikke produktet.  
+Vi værdsætter dine bidrag, både som pull-anmodninger med forslag eller rettelser til indholdet, og som GitHub-problemer med fejl eller spørgsmål. Vær opmærksom på, at feedback og bidrag til rapporten *dynamics365smb-docs* vedrører indholdet, ikke produktet.  
 
 > [!IMPORTANT]
 > Microsoft accepterer kun pull-anmodninger til rapporten *dynamics365smb-docs*, ikke sprogspecifikke rapporter. Hvis du har feedback til oversættelser, kan du rapportere et GitHub-problem i den relevante rapport.  
 
-### <a name="navigate-to-other-parts-of-the-site"></a>Navigere til andre dele af webstedet
+### Navigere til andre dele af webstedet
 
 Microsoft Learn rummer indhold til andre produkter og andre typer indhold. Brug linkene øverst på webstedet til at navigere til eksempelvis [Microsoft-træning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)-webstedet eller til [Dynamics 365-udgivelsesplaner](/dynamics365/release-plans/). Du kan f.eks. også finde et link til webstedet [Dynamics 365-community](https://community.dynamics.com/).  
 
-## <a name="apps-and-other-solutions"></a>Apps og andre løsninger
+## Apps og andre løsninger
 
 Hvis [!INCLUDE [prod_short](includes/prod_short.md)] indeholder en funktionalitet, der ikke er leveret af Microsoft, leverer udbyderen af den pågældende funktionalitet også indholdet til *Få mere at vide* på deres eget websted. Du kan få adgang til indholdet på samme måde som i standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)], f.eks. ved hjælp af tastaturgenvejen <kbd>Ctrl</kbd>+<kbd>F1</kbd>.  
 
 Det samme gælder, hvis du bruger [!INCLUDE [prod_short](includes/prod_short.md)] i det lokale miljø.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Business Central-træning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
-[Hurtig startvejledning til Business Central](quick-start-business-central.md)  
-[Hvordan finder jeg en videresalgspartner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
-[Hjælp-system (kun tilgængeligt på engelsk)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
-[Giv os feedback.](/dynamics365/get-started/feedback)  
-[Blog post: Find de rigtige ressourcer, og giv feedback](https://community.dynamics.com/blogs/post/?postid=22e164ac-b804-4ac9-9e57-3e8c4fd24cbd)  
-[Business Central-udvikler- og administrationsdokumenter](/dynamics365/business-central/dev-itpro/)  
-[Hjælp og support for partnere](/dynamics365/business-central/dev-itpro/help-and-support)  
-[Teknisk support](/dynamics365/business-central/dev-itpro/technical-support)  
-[Microsoft Learn-websted](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+- [Business Central-træning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+- [Hurtig startvejledning til Business Central](quick-start-business-central.md)  
+- [Hvordan finder jeg en videresalgspartner?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
+- [Hjælp-system (kun tilgængeligt på engelsk)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
+- [Giv os feedback.](/dynamics365/get-started/feedback)  
+- [Blog post: Find de rigtige ressourcer, og giv feedback](https://community.dynamics.com/blogs/post/?postid=22e164ac-b804-4ac9-9e57-3e8c4fd24cbd)  
+- [Business Central-udvikler- og administrationsdokumenter](/dynamics365/business-central/dev-itpro/)  
+- [Hjælp og support for partnere](/dynamics365/business-central/dev-itpro/help-and-support)  
+- [Teknisk support](/dynamics365/business-central/dev-itpro/technical-support)  
+- [Microsoft Learn-websted](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

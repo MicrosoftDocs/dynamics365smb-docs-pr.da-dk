@@ -2,30 +2,28 @@
 title: Arbejde med montagestyklister
 description: 'Du opretter en montagestykliste for at angive de komponenter, der kræves for at sammensætte den vare, som styklisten repræsenterer.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'assembly bom, bills of material,'
 ms.search.form: '36, 5870, 5872, 5874'
-ms.date: 09/26/2022
-ms.author: bholtorf
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
 ---
-# <a name="work-with-assembly-boms"></a>Arbejde med montagestyklister
+# Arbejde med montagestyklister
 
 Du kan bruge montagestyklister til at strukturere overordnede varer, der skal samles ud fra komponenter med få eller ingen ressourcer. En montagestykliste kan f.eks. bruges til at sælge en overordnet vare som en pakke bestående af komponentvarer.
 
-Du kan bruge montageordrer til at oprette slutvarer fra komponenter i en enkel proces, der kan udføres af en eller flere grundlæggende ressourcer, som ikke er produktions- eller arbejdscentre, eller uden nogen ressourcer. En montageproces kunne f.eks. være at plukke to vinflasker og én kaffesæk og pakke dem som en gave.  
+Brug montageordrer til at oprette slutvarer fra komponenter i en enkel proces, at en eller flere grundlæggende ressourcer, som produktions- eller arbejdscentre ikke kan udføre, eller uden nogen ressourcer. En montageproces kunne f.eks. være at plukke to vinflasker og én kaffesæk og pakke dem som en gave.  
 
-En montagestykliste er masterdata, der definerer, hvilke komponentvarer der indgår i en monteret færdigvare, og hvilke ressourcer der bruges til at montere montageelementet. Når du angiver et montageelement og et antal i hovedet på en ny montageordre, udfyldes montageordrelinjerne automatisk i henhold til montagestyklisten med én montageordrelinje pr. komponent eller ressource. Flere oplysninger i [Montagestyring](assembly-assemble-items.md).
+En montagestykliste er masterdata, der definerer, hvilke komponentvarer der indgår i en monteret færdigvare, og hvilke ressourcer der bruges til at montere montageelementet. Når du angiver et montageelement og et antal på en montageordre, udfyldes montageordrelinjerne i overensstemmelse med montagestyklisten. Ordren indeholder én montageordrelinje pr. komponent eller ressource. Flere oplysninger i [Montagestyring](assembly-assemble-items.md).
 
-[!INCLUDE[prod_short](includes/prod_short.md)] understøtter også produktionsstyklister. Produktionsstyklister adskiller sig fra montagestyklister ved at involvere mere komplekse procedurer, herunder ressourceforbrug, produktionsrute og arbejdscentre eller produktionsressourcer. Få mere at vide om forskellene i [Arbejde med tyklister](inventory-how-work-BOMs.md) og [Oprette produktionsstyklister](production-how-to-create-production-boms.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] understøtter også produktionsstyklister. Produktionsstyklister adskiller sig fra montagestyklister, fordi de involverer mere komplekse procedurer, f.eks. ressourceforbrug, produktionsrute og arbejdscentre eller produktionsressourcer. Få mere at vide om forskellene i [Arbejde med tyklister](inventory-how-work-BOMs.md) og [Oprette produktionsstyklister](production-how-to-create-production-boms.md).
 
-## <a name="to-create-an-assembly-bom"></a>Sådan oprettes en montagestykliste
+## Sådan oprettes en montagestykliste
 
-For at definere en overordnet vare, der består af andre elementer og potentielt af ressourcer, der kræves for at sammensætte den overordnede vare, skal du oprette en montagestykliste.  
-
-Montagestyklister indeholder normalt varer, men kan også indeholde en eller flere ressourcer, der er påkrævet for at sammensætte montageelementet.
+For at definere en vare, der består af andre elementer og måske ressourcerne, der kræves for at montere varen, skal du oprette en montagestykliste.  
 
 Montagestyklister kan have flere niveauer, hvilket betyder, at en komponent på montagestyklisten selv kan være et montageelement. I så fald skal feltet **Montagestykliste** på montagestyklistelinjen vise **Ja**.
 
@@ -33,7 +31,7 @@ Der gælder særlige krav for varerne på montagestyklister for så vidt angår 
 
 Montagestyklister oprettes ad to omgange:
 
-- Oprette en ny vare
+- Oprette en ny vare.
 - Angive montageelementets styklistestruktur.
 
 1. Opret en ny vare. Flere oplysninger i [Registrere nye emner](inventory-how-register-new-items.md).
@@ -43,17 +41,17 @@ Montagestyklister oprettes ad to omgange:
 3. På siden **Montagestykliste** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> Montagevarer kan have forskellige varianter angivet i [!INCLUDE[prod_short](includes/prod_short.md)] ligesom alle andre varer, hvilket hjælper dig med at holde listen over tilgængelige produkter kortere. Få mere at vide om funktionen i [Administrer produktvarianter](inventory-item-variants.md).
+> Montagevarer kan have forskellige varianter angivet ligesom alle andre varer, hvilket hjælper dig med at holde listen over produkter kortere. Få mere at vide om funktionen i [Administrer produktvarianter](inventory-item-variants.md).
 
-## <a name="to-edit-assembly-boms"></a>Sådan redigeres montagestyklister
+## Sådan redigeres montagestyklister
 
-Du kan til enhver tid redigere linjerne på en montagestykliste. Men vær opmærksom på, at styklisten kan være i brug ved igangværende salg eller montager af den overordnede, som kan være påvirket af ændringen. Vælg **Indgår-i** for at se, hvilke varer den bruges i, og om salgs- eller montageordrer kan blive påvirket.
+Du kan til enhver tid redigere linjerne på en montagestykliste. Styklisten kan dog være i brug af løbende salg eller af modervirksomhedens samlinger. Hvis du ændrer styklisten, kan det påvirke disse aktiviteter. Vælg **Indgår-i** for at se de varer, den bruges i, og om salgs- eller montageordrer kan blive påvirket.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Varer**, og vælg derefter det relaterede link.
+1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Varer**, og vælg derefter det relaterede link.
 2. Vælg værdien **Ja**  i kolonnen **Montagestykliste**.
 3. Gå til siden **Montagestykliste**, vælg handlingen **Rediger liste**, og rediger derefter felter efter behov.
 
-## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Sådan får du vist komponenter og ressourcer indrykket i overensstemmelse med styklistestrukturen
+## Sådan får du vist komponenter og ressourcer indrykket i overensstemmelse med styklistestrukturen
 
 Fra siden **Montagestykliste** kan du åbne en separat side, der viser komponenterne og evt. ressourcer, der er indrykket i henhold til deres placering på styklisten under montageelementet.
 
@@ -62,14 +60,14 @@ Fra siden **Montagestykliste** kan du åbne en separat side, der viser komponent
 3. På siden **Varekort** skal du vælge handlingen **Montage** og derefter vælge handlingen **Montagestykliste**.
 4. På siden **Montagestykliste** skal du vælge handlingen **Vis stykliste**.
 
-## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Sådan erstattes montageelementet med dets komponenter på dokumentlinjer
+## Sådan erstattes montageelementet med dets komponenter på dokumentlinjer
 
-Du kan bruge en særlig funktion til at erstatte linjen for montageelementet med nye linjer til dets komponenter fra et salgs- og købsdokument, som indeholder et montageelement. Denne funktion er nyttig f.eks., hvis du vil sælge komponenterne som en pakke, der repræsenterer et montageelement.
+Du kan bruge en særlig handling til at erstatte linjen for montageelementet med nye linjer til dets komponenter fra et salgs- og købsdokument, som indeholder et montageelement. Denne handling er nyttig f.eks., hvis du vil sælge komponenterne som en pakke, der repræsenterer et montageelement.
 
 Funktionen **Udfold stykliste** er også tilgængelig på siden **Montagestykliste** og kan bruges til at se halvfabrikata på en montagestykliste.
 
 > [!CAUTION]  
-> Når du har brugt funktionen **Udfold stykliste**, er det svært at annullere den igen. Du skal slette de salgsordrelinjer, der repræsenterer komponenterne og derefter indsætte en salgsordrelinje for montageelementet igen.
+> Når du har brugt handlingen **Udfold stykliste**, er det svært at annullere den igen. Du skal slette de salgsordrelinjer, for komponenterne og derefter indsætte en salgsordrelinje for montageelementet igen.
 
 Følgende procedure er baseret på en salgsfaktura. Samme fremgangsmåde gælder for andre salgsdokumenter og alle købsdokumenter.
 
@@ -82,7 +80,7 @@ Alle felter på salgsfakturalinjen for montageelementet fjernes med undtagelse a
 > [!NOTE]
 > Rapporten **Plukliste efter ordre** ændres også til kun at vise komponenterne. Det betyder, at en lagermedarbejder, som plukker den overordnede vare (montageelementet), ikke kan se den på pluklisten. Få mere at vide i [Udskrive pluklisten](sales-how-print-picking-list.md).
 
-## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Sådan beregnes standardkostprisen et montageelement
+## Sådan beregnes standardkostprisen et montageelement
 
 Du kan beregne kostprisen for et montageelement ved at akkumulere kostprisen for hver komponent og ressource i elementets montagestykliste.
 
@@ -95,18 +93,18 @@ En montagestyklistes kostpris svarer altid til den samlede kostpris for dens kom
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for et montageelement. (Feltet **Montagestykliste** på siden **Varer** indeholder **Ja**).
-3. På siden **Varekort** skal du vælge handlingen **Montage** og derefter vælge handlingen **Montagestykliste**.
+3. På siden **Varekort** skal du vælge handlingen **Montagestykliste**.
 4. På siden **Montagestykliste** skal du vælge handlingen **Beregn kostpris**.
 5. Vælg en af følgende muligheder, og vælg derefter knappen **OK**.
 
 |Indstilling |Beskrivelse |
 |-------|------------|
 |**Øverste niveau**|Beregner montageelementets standardkostpris som kostbeløbet for alle elementer, der er købt eller monteret på montagestyklisten uanset eventuelle underliggende montagestyklister.|
-|**Alle niveauer**|Beregner montageelementets standardkostpris som summen af: 1) Den beregnede kostpris for alle underliggende montagestyklister på montagestyklisten. 2) Kostprisen for alle indkøbte varer på montagestyklisten.|
+|**Alle niveauer**|Beregner montageelementets standardkostpris som summen af:</br></br>* Den beregnede kostpris for alle underliggende montagestyklister på montagestyklisten.</br>* Kostprisen for alle indkøbte varer på montagestyklisten.|
 
 Omkostningerne ved de elementer, der udgør montagestyklisten, kopieres fra komponentvarekortene. Kostprisen på hver vare ganges med antallet, og den samlede kostpris vises i feltet **Kostpris** på varekortet.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Administrere produktvarianter](inventory-item-variants.md)  

@@ -1,60 +1,63 @@
 ---
-title: Oprette kort for varer eller tjenesteydelser (indeholder video)
+title: Oprette kort for varer eller tjenesteydelser
 description: 'Du kan oprette varekort til de servicer, du sælger som timer og fysiske produkter. Montageelementer og færdigvarer, som du sælger fra lagerbeholdningen.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'item, finished good, component, raw material, assembly item, item substitution'
 ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719'
-ms.date: 11/02/2022
-ms.author: bholtorf
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Registrere nye varer
 
-Varer er, blandt andre produkter, grundlaget for din virksomhed og de varer eller tjenester, som du handler med. Hver vare skal registreres som et varekort.
+Varer er de varer eller tjenester, som du køber, opbevarer, sælger, leverer og redegør for. Brug siden **Varekort** til at registrere oplysninger om følgende typer varer:
 
-Varekort indeholder de oplysninger, der kræves for at købe, opbevare, sælge, levere og føre regnskab med varer.
+* **Lagerbeholdning** angiver, at varen er en fysisk enhed, som du administrerer og sporer på lageret.
+* **Ikke-lager** er fysiske enheder, som du ikke administrerer eller sporer på lageret.
+* **Serviceartikler** er en arbejdstidsenhed, der typisk anvendes i servicestyring.
 
-Varekortet kan være af typen **Lager**, **Service** eller **Ikke-lager** for at angive, om varekortet repræsenterer en fysisk lagerenhed, en arbejdstidsenhed eller en fysisk enhed, der ikke spores på lageret. Du kan finde flere oplysninger i [Om varetyper](inventory-about-item-types.md).
+Du kan lære mere om disse typer af varer ved at gå til [Om varetyper](inventory-about-item-types.md).
 
-En vare kan struktureres som en overordnet vare med underliggende underordnede varer på en stykliste. Få mere at vide om montagestyklister og produktionsstyklister på [arbejde med styklister ](inventory-how-work-BOMs.md).
+> [!TIP]
+> Der findes også katalogvarer, som minder om ikke-lagervarer, idet det er varer, som du tilbyder kunderne, men som du ikke administrerer, før du sælger dem. Hvis du vil vide mere, skal du gå til [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md).  
 
-Hvis du køber den samme vare fra flere forskellige leverandører, kan du forbinde disse leverandører på varekortet. Leverandørerne vises derefter på siden **Vare/leverandører**, så du nemt kan vælge en anden leverandør.
+## Primære og alternative kreditorer
 
-*Katalogvarer*, som du tilbyder til dine kunder, men som du ikke vil administrere i dit system, før du begynder at sælge dem, kan oprettes som katalogvarer. Katalogvarer må ikke forveksles med almindelige varer af typen **Ikke-lager**. Flere oplysninger i [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md).  
+Hvis du køber den samme vare fra flere forskellige leverandører, kan du forbinde disse leverandører på varen. Brug handlingen **Kreditorer**på siden **Varekort** for at åbne siden **Vare/leverandører**  Siden viser de kreditorer, du køber varen af, så du nemt kan oprette eller vælge en alternativ leverandør, når du opretter en købsordre.
 
-> [!NOTE]  
-> Hvis der er en vareskabelon til forskellige varetyper, vises der en side, når du opretter et nyt varekort, hvorfra du kan vælge en passende skabelon. Hvis der kun er én vareskabelon, bruger nye varekort altid denne skabelon.
+## Bruge vareskabeloner
 
-Følgende fremgangsmåde beskriver, hvordan du opretter et varekort fra bunden. Du kan også oprette nye varekort ved at kopiere eksisterende kort. Du kan finde flere oplysninger i [Kopiere eksisterende elementer for at oprette nye varer](inventory-how-copy-items.md).  
+Hvis du vil genbruge indstillinger for forskellige typer varer, når du opretter nye varer, kan du gemme varer som vareskabeloner. Vareskabeloner hjælper med at fremskynde processen med at tilføje nye varer og øge konsistensen i dine varedata. Når du registrerer en ny vare, vises en side, hvor du kan vælge en skabelon. Når du har valgt en skabelon, udfyldes dens indstillinger for dig for det element, du opretter. Hvis du kun har én vareskabelon, bruger nye varer altid denne skabelon. Du kan få mere at vide om, hvordan du konfigurerer en vareskabelon, ved at gå til [Gemme et varekort som en vareskabelon](#save-an-item-card-as-an-item-template).
 
-<br />
+## Medtag varer i styklisterne
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
+Du kan strukturere hierarkier, der har en hovedvare med underliggende komponentvarer i montage- og produktionsstyklister. Hvis du vil vide mere om styklister, skal du gå til [Arbejde med styklister](inventory-how-work-BOMs.md).
 
 ## Sådan oprettes et nyt varekort
+
+Følgende video viser, hvordan du opsætter en vare på varekortet. Du kan imidlertid også oprette nye varer ved at kopiere eksisterende kort. Du kan få mere at vide i [Kopiere eksisterende elementer for at oprette nye varer](inventory-how-copy-items.md).  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 > [!NOTE]
-> I feltet **Kostmetode** skal du angive, hvordan varens kostpris beregnes på baggrund af antagelser om gennemstrømningen af fysiske varer i virksomheden. Fem kostmetoder er tilgængelige, afhængigt af varetypen. Du kan finde flere oplysninger i [Designoplysninger: Kostmetoder](design-details-costing-methods.md).
+> I feltet **Kostmetode** skal du angive, hvordan varens kostpris beregnes på baggrund af antagelser om gennemstrømningen af fysiske varer i virksomheden. Fem kostmetoder er tilgængelige, afhængigt af varetypen. Du kan få mere at vide om omkostningsberegning ved at gå til [Designoplysninger: Kostmetoder](design-details-costing-methods.md).
 >
-> Hvis du vælger **Gennemsnit**, beregnes en vares kostpris som den gennemsnitlige kostpris på hvert enkelt tidspunkt efter et køb. Lager værdiansættes ud fra den forudsætning, at alle lagerbeholdninger sælges samtidig. Med denne indstilling kan du vælge feltet **Kostpris** på siden **Oversigt over beregning af gns. kostpris** for at få vist en oversigt over transaktioner, som den gennemsnitlige kostpris beregnes ud fra.
+> Hvis du vælger **Gennemsnit**, beregnes en vares kostpris som den gennemsnitlige kostpris på hvert enkelt tidspunkt efter et køb. Lager værdiansættes ud fra den forudsætning, at alle lagerbeholdninger sælges samtidig. Med denne indstilling kan du vælge feltet **Kostpris** på siden **Oversigt over beregning af gns. kostpris** for at få vist de transaktioner, som blev brugt til at beregne den gennemsnitlige kostpris.
 
-Du kan se eller redigere specialpriser eller rabatter, som du tildeler til varen, eller som din leverandør giver dig, hvis bestemte kriterier opfyldes, f.eks. debitor, mindste ordrestørrelse eller slutdato. Det gør du ved at vælge handlingerne **Angiv særlige priser** eller **Angiv særlig rabat**. Hver række på eksempelvis siden **Salgspriser** repræsenterer en særlig pris. Hver kolonne repræsenterer et kriterium, der skal gælde for at tildele en debitor den specielle pris, som du angiver i feltet **Enhedspris** på siden **Salgspriser**. Du kan finde flere oplysninger i [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md) eller [Registrere særlige købspriser og rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+Du kan bruge særlige priser eller rabatter, som du eller din leverandør giver varen baseret på bestemte kriterier. Kriterierne omfatter f.eks. debitor, minimumsordreantal eller slutdato. Du opsætter en specialpris ved at vælge handlingerne **Angiv særlige priser** eller **Angiv særlig rabat**. Hver række på eksempelvis siden **Salgspriser** repræsenterer en særlig pris. Hver kolonne repræsenterer et kriterium, der skal gælde for at tildele en debitor den specielle pris, som du angiver i feltet **Enhedspris** på siden **Salgspriser**. Du kan få mere at vide om prisfastsættelse ved at gå til [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md) eller [Registrere særlige købspriser og rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
-Varen er nu registreret, og varekortet er klar til at blive brugt i købs- og salgsdokumenter.
+### Gem et varekort som en vareskabelon
 
-Hvis du vil bruge dette varekort som skabelon, når du opretter nye varekort, kan du gemme det som en skabelon. Du kan finde flere oplysninger i følgende afsnit.  
-
-### Sådan gemmes varekortet som en skabelon
-
-1. På siden **Varekort** skal du vælge handlingen **Gem som skabelon**. Siden **Vareskabelon** åbnes med varekortet som skabelon.
+1. På siden **Varekort** skal du vælge handlingen **Gem som skabelon**. Siden **Vareskabelon** viser varekortet som skabelon.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Hvis du vil genbruge dimensioner i kladder, skal du vælge handlingen **Dimensioner**. Siden **Skabeloner til dimensioner** åbnes med alle dimensionsværdikoder, der er konfigureret for varen.
-4. Rediger eller angiv dimensionskoder, der skal gælde for nye debitorkort, oprettes ved hjælp af skabelonen.
-5. Når du har fuldført skabelonen for den nye vare, skal du vælge knappen **OK**.
+
+> [!TIP]
+> Du kan også genbruge dimensioner til varer. Hvis du vil genbruge dimensioner i kladder, skal du vælge handlingen **Dimensioner**. Siden **Skabeloner til dimensioner** viser de dimensioner, der er konfigureret for varen. Rediger eller tilføj dimensioner, der gælder for nye varer, du opretter ud fra skabelonen.
 
 Vareskabelonen føjes til listen over vareskabeloner, så du kan bruge den til at oprette nye varekort.
 

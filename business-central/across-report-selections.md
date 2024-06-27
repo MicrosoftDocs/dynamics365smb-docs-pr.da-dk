@@ -2,27 +2,27 @@
 title: Rapportvalg i Business Central
 description: 'Få mere at vide om, hvordan du opretter de rapporter, som bruges til at udskrive forskellige typer dokumenter i Business Central.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'setup, reporting'
 ms.search.form: '306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917'
-ms.date: 06/09/2022
-ms.author: bholtorf
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
 ---
-# <a name="report-selection-for-documents-in-business-central"></a>Rapportvalg til dokumenter i Business Central
+# Rapportvalg til dokumenter i Business Central
 
-Du kan oprette standardrapporter, der skal bruges til at udskrive dokumenter til salg, køb og service, f.eks. ordrer, tilbud og fakturaer. Hvis du f.eks. har et bestemt layout til salgsfakturaer, kan du angive den rapport i **Rapportvalg - salg**-siden, så de bruges til at sende eller udskrive salgsfakturaer.  
+Du kan oprette standardrapporter, der skal bruges til at udskrive dokumenter til salg, køb og service, f.eks. ordrer, tilbud og fakturaer. Hvis du f.eks. har et bestemt layout til salgsfakturaer, kan du angive den rapport i **Rapportvalg - salg**-siden. Du kan derefter bruge rapporten, når du sender eller udskriver salgsfakturaer.  
 
-## <a name="available-report-selections"></a>Tilgængelige rapportvalg
+## Tilgængelige rapportvalg
 
-På **Rapportvalg**-siderne kan du angive, hvilken rapport der skal udskrives i forskellige situationer. [!INCLUDE [prod_short](includes/prod_short.md)] indeholder standardkonfigurationer, men du kan ændre dem efter behov. Du kan også tilføje rapporter til **Rapportvalg**-siderne, hvis du f.eks. vil udskrive mere end en rapport pr.dokumenttype. 
+På **Rapportvalg**-siderne kan du angive, de rapporter der skal udskrives i forskellige situationer. [!INCLUDE [prod_short](includes/prod_short.md)] indeholder standardkonfigurationer, men du kan ændre dem efter behov. Du kan også tilføje rapporter til **Rapportvalg**-siderne, hvis du f.eks. vil udskrive mere end en rapport pr.dokumenttype. 
 
 I følgende tabel beskrives det, hvor du kan finde oplysninger om de forskellige sider.  
 
 |Område eller en opgave  |Lær mere|
 |--------------|----------|
-|Eksempel på, hvordan rapportvalg fungerer (salg)|[Rapportvalg til salgsdokumenter](#example-report-selection-for-sales-documents) findes nedenfor|
+|Eksempel på, hvordan rapportvalg fungerer (salg)|[Rapportvalg til salgsdokumenter](#example-report-selection-for-sales-documents)|
 |Standardlayout for e-mails med salgs-og købsdokumenter  |[Angiv genanvendelig e-mailtekst og layout til salgs-og købsdokumenter](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts) |
 |Definere checklayout     |[Vælge et checklayout](finance-how-define-check-layouts.md) |
 |Definere rapporter til momsrapportering (Tyskland)|[Konfigurere rapporter til moms og Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
@@ -33,21 +33,23 @@ I følgende tabel beskrives det, hvor du kan finde oplysninger om de forskellige
 Standardversionen af [!INCLUDE [prod_short](includes/prod_short.md)] inkluderer følgende **Rapportvalg**-sider:
 
 * **Rapportvalg - salg**  
+* **Rapportvalg – Projekt**  
+* **Rapportvalg - service**
 * **Rapportvalg - køb**  
-* **Rapportvalg - lager**  
 * **Rapportvalg - pengestrøm**  
 * **Rapporten Valg - lager**  
+* **Rapportvalg - lager**  
 * **Rapportvalg - bankkonto**  
-* **Rapportvalg – sag**  
-* **Rapportvalg - service**
+* **Rapportvalg – produktionsordre**  
+* **Rapportvalg – Rykkere/rentenotaer**  
 
-## <a name="example-report-selection-for-sales-documents"></a>Eksempel: Rapportvalg til salgsdokumenter
+## Eksempel: Rapportvalg til salgsdokumenter
 
 **Rapportvalget - salg**-siden definerer de standardrapporter, der skal bruges i forskellige scenarier for hver relateret dokumenttype. Vælg en dokumenttype i feltet **Forbrug**, og tilføj eller gennemse rapportvalget. Du kan oprette mere end én rapport og angive den rækkefølge, som rapporter skal sendes eller udskrives i.  
 
 [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-Du kan sende alle typer dokumenter som vedhæftede filer i mail. Til dem indeholder siden **Rapportvalg** ekstra felter.  
+Du kan sende alle typer dokumenter som vedhæftede filer i mail. Til dokumenttyperne indeholder siden **Rapportvalg** ekstra felter.  
 
 På siderne **Rapportvalg - salg** og **Rapportvalg - køb** kan du f.eks. oprette mail med følgende felter:
 
@@ -57,7 +59,7 @@ På siderne **Rapportvalg - salg** og **Rapportvalg - køb** kan du f.eks. opret
 |**Brug til vedhæftet fil i mail**| Knyt det relaterede dokument til e-mailen.|
 |**Layoutbeskrivelse for brødtekst i mail**|Angiv det e-mailformat, der skal bruges. Det er typisk et brugerdefineret rapportlayout. |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere genanvendelige e-mailtekster og -layout](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Vælge et checklayout](finance-how-define-check-layouts.md)  

@@ -1,84 +1,90 @@
 ---
-title: Gennemgang - Administration af projekter med projekter
-description: 'Denne gennemgang introducerer funktionerne til projektstyring i opgaver, som giver dig mulighed for at planlægge brugen af virksomhedens ressourcer og meget mere.'
+title: Gennemgang – Administrere projekter med projekter
+description: 'Denne gennemgang introducerer funktionerne til projektstyring, som giver dig mulighed for at planlægge brugen af virksomhedens ressourcer.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/24/2021
+ms.date: 05/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="walkthrough-managing-projects"></a>Gennemgang: Administration af projekter
+# Gennemgang: administration af projekter
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-Denne gennemgang giver dig en introduktion til projektstyringsfunktioner. Du kan bruge modulet Projekter til at planlægge brugen af virksomhedens ressourcer og holde styr på de forskellige omkostninger, der er forbundet med ressourcerne på et bestemt projekt. Projekter inkluderer forbruget af medarbejdertimer, maskintimer, lagervarer og andre brugstyper, du ønsker at spore, efterhånden som et projekt skrider frem.  
+Denne gennemgang giver dig en introduktion til projektstyringsfunktioner. Du kan bruge modulet Projekter til at planlægge brugen af virksomhedens ressourcer og holde styr på de forskellige omkostninger, der er forbundet med ressourcerne på et bestemt projekt. Projekter involverer forbruget af medarbejdertimer, maskintimer, lagervarer og andre brugstyper, du måske vil spore, efterhånden som et projekt skrider frem.  
 
- Denne gennemgang beskriver opsætningen af et nyt projekt samt nogle af de almindelige opgaver, som f.eks. fastprishåndtering, betaling af afdrag, bogføring af fakturaer fra projekter og kopiering af projekter.  
+Denne gennemgang beskriver opsætningen af et nyt projekt og relaterede opgaver:
 
-## <a name="about-this-walkthrough"></a>Om denne gennemgang
+- Håndting af faste priser
+- Foretage betalinger af afdrag
+- Bogføre fakturaer fra projekter
+- Kopiere projekter
+
+## Om denne gennemgang
 
  Denne gennemgang viser følgende opgaver:  
 
-### <a name="setting-up-a-project"></a>Opsætning af et projekt
+### Opsætte et projekt
 
- Med den budgetstruktur, der er oprettet for projekter, er oprettelse af et projekt ligetil. Denne gennemgang omfatter følgende procedurer:  
+Med den budgetstruktur, der er oprettet for projekter, er oprettelse af et projekt ligetil. Denne gennemgang omfatter følgende procedurer:  
 
-- Konfiguration af projektopgavelinjer og planlægningslinjer.  
-- Oprettelse af projektspecifikke priser på varer, ressourcer og finanskonti.  
-- Fakturering fra et projekt.  
+- Opsætte projektopgavelinjer og planlægningslinjer.  
+- Oprette projektspecifikke priser på varer, ressourcer og finanskonti.  
+- Fakturere kunder for et projekt  
 
-### <a name="handling-fixed-prices"></a>Håndtere faste priser
+### Håndtere faste priser
 
- Du kan håndtere faste priser og priser på tjenester eller varer, der er aftalt med kunder i forvejen. I denne gennemgang kan du gøre følgende:  
+ Du kan håndtere faste priser og priser på tjenester eller varer, der er aftalt med kunder i forvejen. I denne gennemgang lærer du, hvordan du kan:  
 
 - Se, hvordan leverandør- og fakturaværdier bestemmes.  
 - Gøre plads til ekstraarbejde i planen, der ikke er faktureret.  
 
-### <a name="copying-a-project"></a>Kopiering af et projekt
+### Kopiere et projekt
 
- Denne gennemgang fokuserer på, hvordan du kan kopiere en del af eller et komplet projekt for at reducere behovet for manuel indtastning af data og forbedre nøjagtigheden. Dette omfatter følgende:  
+ Denne gennemgang fokuserer på, hvordan du kan kopiere en del af eller et komplet projekt for at reducere behovet for manuel indtastning af data og forbedre nøjagtigheden.
 
-- Kopiering af en del af et projekt til et nyt projekt.  
-- Kopiering af projektspecifikke priser.  
-- Kopiering af planlægningslinjer.  
+- Kopiere en del af et projekt til et nyt projekt.  
+- Kopiere projektspecifikke priser.  
+- Kopiere planlægningslinjer  
 
-### <a name="making-payment-by-installment"></a>Betaling af afdrag
+### Betaling af afdrag
 
  Når et stort, dyrt projekt varer længere tid, laver kunden ofte en aftale med virksomheden om at betale afdrag. Dette scenarie viser, hvordan du opretter betaling af afdrag håndteres og dækker følgende:  
 
-- Oprettelse af betaling af afdrag for et projekt.  
-- Fakturering af betalinger til debitorer.  
-- Kontering af forbrug i et projekt konfigureret til betaling af afdrag.  
+- Oprette betaling af afdrag for et projekt.  
+- Fakturere betalinger til kunder.  
+- Gøre rede for forbrug i et projekt konfigureret til betaling af afdrag.  
 
-## <a name="roles"></a>Roller
+## Roller
 
  Denne gennemgang indeholder opgaver for følgende roller:  
 
 - Projektleder  
 - Projektteammedlem  
 
-## <a name="prerequisites"></a>Forudsætninger
+## Forudsætninger
 
- Før du kan udføre opgaverne i denne gennemgang, skal du gøre følgende:  
+ Før du kan udføre opgaverne i denne gennemgang, skal du:  
 
 - Installer CRONUS-demonstrationsdatabasen.
 - Opret eksempeldata ved at bruge trinnene i følgende afsnit.  
 
-## <a name="story"></a>Historie
+## Historie
 
-Denne gennemgang fokuserer på CRONUS, et design- og konsulentfirma, der designer og tilpasser nye infrastrukturer, f.eks. konferencerum og kontorer, med møbler, tilbehør og lagerenheder. Det meste af firmaets arbejde er projektorienteret. Prakash, en projektleder hos CRONUS, bruger projekter til at få et overblik over igangværende projekter, som CRONUS har startet, samt de projekter, der er afsluttet. Det er normalt Per, der laver aftaler med kunderne og indgår i kernen af projektet, som er opgave- og planlægningslinjer ud over priser [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash konstaterer, at oprettelse, vedligeholdelse og gennemgang af oplysninger er ligetil. Prakash kan også lide, den måde [!INCLUDE[prod_short](includes/prod_short.md)] aktiverer kopiering af projekter og betaling af afdrag.
+Denne gennemgang fokuserer på CRONUS, som er et fiktivt design- og konsulentfirma, der designer og tilpasser nye infrastrukturer. For eksempel konferencerum og kontorer med møbler, tilbehør og lagerenheder. Det meste af firmaets arbejde er projektorienteret. Prakash, en projektleder hos CRONUS, bruger projekter til at få et overblik over igangværende projekter, som CRONUS har startet og afsluttet. Det er som regel Prakash, der indgår aftaler med kunderne og indtaster projektets hovedkomponenter, hvilket er opgave- og planlægningslinjer i [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash konstaterer, at oprettelse, vedligeholdelse og gennemgang af oplysninger er ligetil. Prakash kan også lide, den måde [!INCLUDE[prod_short](includes/prod_short.md)] aktiverer kopiering af projekter og betaling af afdrag.
 
- Tricia, der er medlem af projekttemaet og rapporterer til Prakash, er ansvarlig for overvågning af projektet dag for dag. Tricia angiver sit eget arbejde samt de arbejde, der udføres af teknikerne på hver opgave, herunder de varer, som de har brugt, og de omkostninger, som der er påløbet.  
+ Tricia, der er medlem af projekttemaet og rapporterer til Prakash, er ansvarlig for overvågning af projektet dag for dag. Tricia angiver det arbejde, der udføres af teknikerne på hver opgave, herunder de varer, som de har brugt, og de omkostninger, som der er påløbet.  
 
-## <a name="preparing-sample-data"></a>Klargøre eksempeldata
+## Klargøre eksempeldata
 
- Forbered denne gennemgang ved at tilføje Tina som en ny ressource.  
+Forbered denne gennemgang ved at tilføje Tricia som en ressource.  
 
-### <a name="to-prepare-the-sample-data"></a>Sådan klargøres eksempeldataene
+### Sådan klargøres eksempeldataene  
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourcer**, og vælg derefter det relaterede link.  
+1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Ressourcer**, og vælg derefter det relaterede link.  
 2. Klik på handlingen **Ny** for at oprette et nyt ressourcekort.  
 3. Indtast følgende oplysninger i oversigtspanelet **Generelt**:  
 
@@ -99,7 +105,7 @@ Denne gennemgang fokuserer på CRONUS, et design- og konsulentfirma, der designe
 
 I den næste procedure opretter du en projektkladde for Tricia for at bogføre forbruget.  
 
-### <a name="to-create-a-project-journal-batch"></a>Sådan oprettes et projektkladdenavn
+### Sådan oprettes et projektkladdenavn  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , skriv **Projektkladder**, og vælg derefter det relaterede link.  
 2. Vælg feltet **Kladdenavn** på siden **Projektkladde**. Siden **Projektkladdenavn** åbnes.  
@@ -111,11 +117,11 @@ I den næste procedure opretter du en projektkladde for Tricia for at bogføre f
 
 4. Vælg knappen **OK** for at gemme ændringerne.
 
-## <a name="setting-up-a-project-1"></a>Opsætning af et projekt
+## Opsætte et projekt
 
- I dette scenarie, har CRONUS vundet en kontrakt med en kunde, Progressive Home Furnishings, om at designe en konference- og spisesal. Kunden har base i USA, og projektet kræver specialsoftware. Projektlederen når frem til en aftale med kunden og opretter et projekt, der dækker aftalen.  
+I dette scenarie vandt CRONUS en kontrakt med en kunde, Progressive Home Furnishings, om at designe en konference- og spisesal. Kunden har base i USA, og projektet kræver specialsoftware. Projektlederen når frem til en aftale med kunden og opretter et projekt, der dækker aftalen.  
 
-### <a name="to-set-up-a-project"></a>Sådan konfigurerer du et projekt
+### Sådan konfigurerer du et projekt  
 
 1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Projekter**, og vælg derefter det relaterede link.  
 2. Klik på handlingen **Ny** for at oprette et nyt kort.  
@@ -133,9 +139,9 @@ I den næste procedure opretter du en projektkladde for Tricia for at bogføre f
 5. Gå til oversigtspanelet **Varighed**, angiv dags dato i felterne **Startdato** og **Slutdato**. Disse datoer hjælper med at anvende valutakonvertering, når projektet faktureres.  
 6. Gå til oversigtspanelet **Udenrigshandel**, indstil valutakoden til **USD**. Hvis du vælger USD i feltet **Faktureringsvalutakode**, faktureres projektet i US dollar og planlægges kun i den lokale valuta for CRONUS.  
 
- Du kan tilpasse priser for debitorer for de enkelte projekter, afhængigt af de aftaler du har indgået. I den næste procedure angiver projektlederen en pris for Tinas tid, angiver prisen for den nødvendige software og tilføjer rejseudgifter, som debitor har accepteret at betale.  
+ Du kan tilpasse priser for kunder for de enkelte projekter, afhængigt af de aftaler du har indgået. I den næste procedure angiver projektlederen en pris for Tricias tid, angiver prisen for den nødvendige software og tilføjer rejseudgifter, som kunden accepterer at betale.  
 
-### <a name="to-customize-pricing"></a>Tilpasse priser
+### Tilpasse priser  
 
 1. Gå til **Projektkort**, og vælg handlingen **Ressource**.  
 2. Indtast følgende oplysninger på siden **Projektressourcepriser**:  
@@ -152,7 +158,7 @@ I den næste procedure opretter du en projektkladde for Tricia for at bogføre f
 
 6. Luk siden.  
 7. Vælg handlingen **Finanskonto**.  
-8. På siden **Projektfinanskontopriser** skal du angive følgende oplysninger og prisen for rejsen, som debitor har accepteret at betale, plus 25 procent:  
+8. På siden **Projektfinanskontopriser** skal du angive følgende oplysninger og prisen for rejsen, som kunden accepterede at betale pris plus 25 procent:  
 
     1. **Finanskonto**: **8430 (rejse)**  
     2. **Kostprisfaktor**: **1,25**  
@@ -161,10 +167,10 @@ I den næste procedure opretter du en projektkladde for Tricia for at bogføre f
 
  De sidste trin i opsætning af et projekt tilføjer projektopgaver og de planlægningslinjer, der indgår i hver opgave. Planlægningslinjerne bestemmer, hvad kunden faktureres for.  
 
-### <a name="to-add-project-tasks"></a>Sådan tilføjes projektopgaver
+### Sådan tilføjes projektopgaver  
 
-1.   **På kortet Projekt** for det nye projekt skal du vælge handlingen **Projektopgavelinjer** .  
-2.  I følgende tabel beskrives de oplysninger, du skal angive i felterne.  
+1. På kortet **Projekt** for det nye projekt skal du vælge handlingen **Projektopgavelinjer**.  
+2. I følgende tabel beskrives de oplysninger, du skal angive i felterne.  
 
     |Projektopgavenr.|Beskrivelse|Projektopgavetype|  
     |------------------|---------------------------------------|-------------------|  
@@ -173,20 +179,19 @@ I den næste procedure opretter du en projektkladde for Tricia for at bogføre f
     |1020|Udvikling|Konto|  
     |1090|Konsulentydelse i alt|Til-sum|  
 
-3.  Vælg handlingen **Indryk projektopgaver** for at vise, at nogle opgaver er underkategorier til andre opgaver.  
+3. Vælg handlingen **Indryk projektopgaver** for at vise, at nogle opgaver er underkategorier til andre opgaver.  
 
- En planlægningslinje være en af følgende typer:  
+En planlægningslinje være en af følgende typer:  
 
 - **Budget**: Føjet til skemaet, men ikke faktureret.  
 - **Fakturerbar**: Faktureret, men ikke føjet til skemaet.  
 - **Både budget og fakturerbar**: faktureret og føjet til budgettet.  
 
- I denne gennemgang bruger projektleder **Både budget og fakturerbar**. De opretter tre planlægningslinjer for opgaven 1010 og to planlægningslinjer for opgave 1020.  
+I denne gennemgang bruger projektleder **Både budget og fakturerbar**. De opretter tre planlægningslinjer for opgaven 1010 og to planlægningslinjer for opgave 1020.  
 
-### <a name="to-create-planning-lines"></a>Sådan oprettes planlægningslinjer
+### Sådan oprettes planlægningslinjer  
 
 1. Vælg linje 1010, og vælg derefter handlingen **Projektplanlægningslinjer**.  
-
 2. Opret planlægningslinjer med følgende oplysninger:  
 
     | Linje | Linjetype | Planlægningsdato  | Type        | Nummer   | Antal | Enhedspris |
@@ -205,66 +210,66 @@ I den næste procedure opretter du en projektkladde for Tricia for at bogføre f
 
 4. Luk siden. Totaler opdateres på siden **Projektopgavelinjer**.  
 
-## <a name="calculating-remaining-usage"></a>Beregne resterede forbrug
+## Beregne resterede forbrug
 
- Tricia, der er medlem af projektteamet, har arbejdet på projektet i et stykke tid og ønsker at registrere deres timer og forbrug. Tricia har ikke arbejdet flere timer end aftalt med kunden i forvejen. Tricia bruger kørslen **Beregn resterede forbrug** til at beregne det resterende forbrug i en projektkladde. For hver opgave beregner kørslen forskellen mellem planlagt forbrug af varer, ressourcer og finansudgifter og det faktiske forbrug, der er bogført i finansposterne for projektet. Det resterende forbrug vises derefter i projektkladden, hvor hun kan bogføre det.  
+Tricia, der er medlem af projektteamet, har arbejdet på projektet i et stykke tid og ønsker at registrere deres timer og forbrug. Tricia arbejdede ikke flere timer end aftalt med kunden i forvejen. Tricia bruger kørslen **Beregn resterede forbrug** til at beregne det resterende forbrug i en projektkladde. For hver opgave beregner kørslen forskellen mellem planlagt forbrug af varer, ressourcer og finansudgifter og det faktiske forbrug, der er bogført i finansposterne for projektet. Det resterende forbrug vises derefter i projektkladden, og Tricia kan bogføre det.  
 
-### <a name="to-calculate-remaining-usage"></a>Sådan beregnes resterede forbrug
+### Sådan beregnes resterede forbrug  
 
 1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , skriv **Projektkladder**, og vælg derefter det relaterede link.  
 2. På siden **Projektkladde** og i feltet **Kladdenavn** skal du åbne listen **Projektkladdenavne**. Vælg projektkladdenavnet **Tricia**.  
 3. Vælg handlingen **Beregn resterende forbrug**.  
-4. På siden **Beregn resterende forbrug for projekt** i oversigtspanelet **Projektopgave** skal du vælge feltet **Projektnr.** og vælge det relevante sagsnummer, typisk job J00010.  
-5. Gå til oversigtspanelet **Indstillinger**, indtast **J00001** i feltet **Bilagsnr.**. Dette gør fremtidig sporing af bogføringer nemmere.  
+4. På siden **Beregn resterende forbrug for projekt** i oversigtspanelet **Projektopgave** skal du vælge feltet **Projektnr.** og vælge det relevante projektnummer, typisk projekt J00010.  
+5. Gå til oversigtspanelet **Indstillinger**, indtast **J00001** i feltet **Bilagsnr.**. Disse oplysninger gør fremtidig sporing af bogføringer nemmere.  
 6. Angiv dags dato som bogføringsdatoen.  
-7. Vælg knappen **OK**. Dermed oprettes der projektkladdelinjer baseret på de planlægningslinjer, som Prakash har oprettet.  
+7. Vælg knappen **OK**. Denne handling opretter projektkladdelinjer baseret på de planlægningslinjer, som Prakash har oprettet.  
 8. Vælg knappen **OK** på bekræftelsessiden. Genererede linjer føjes til projektkladden.  
 9. Kontroller, at alle bilagsnumre er J00001, og vælg derefter handlingen **Bogfør**. Vælg **Ja** for at bekræfte bogføringen.  
 
 Linjerne er nu bogført.  
 
-## <a name="creating-and-posting-a-project-sales-invoice"></a>Oprette og bogføre en projektsalgsfaktura
+## Oprette og bogføre en projektsalgsfaktura
 
- Dernæst kan Tina oprette en ny faktura for hele projektet eller for en del af et projekt. Tina kan også vedhæfte fakturaen til en anden faktura til samme kunde for samme projekt. I dette tilfælde fakturerer Tina hele projektet, fordi projektet nu er færdigt.  
+Derefter kan Tricia oprette en ny faktura for hele projektet eller for en del af et projekt. Tricia kan også tilknytte fakturaen til en anden faktura til samme kunde for samme projekt. I dette tilfælde fakturerer Tricia hele projektet, da projektet nu er færdigt.  
 
-### <a name="to-create-a-project-sales-invoice"></a>Sådan oprettes en projektsalgsfaktura
+### Sådan opretter du en projektsalgsfaktura  
 
-1.  Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Projekter**, og vælg derefter det relaterede link.  
-2.  Vælg det projekt, du oprettede tidligere, og vælg derefter handlingen **Opret projektsalgsfaktura** .  
-3.  Ryd alle filtre på **Projektopgavenr.** i oversigtspanelet **Projektopgave** for at fakturere sagen. I feltet **Projektnr.** skal du vælge det relevante job.  
-4.  Udfyld bogføringsdatoen, og angiv, om du vil oprette én faktura pr. opgave eller kun én enkelt faktura for alle opgaver, i oversigtspanelet **Indstillinger**.  
-5.  Vælg knappen **OK** for at oprette fakturaen, og vælg knappen **OK** på bekræftelsessiden.  
+1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Projekter**, og vælg derefter det relaterede link.  
+2. Vælg det projekt, du oprettede tidligere, og vælg derefter handlingen **Opret projektsalgsfaktura**.  
+3. Ryd alle filtre på **Projektopgavenr.** i oversigtspanelet **Projektopgave** for at fakturere projektet. I feltet **Projektnr.** skal du vælge det relevante projekt.  
+4. Udfyld bogføringsdatoen, og angiv, om du vil oprette én faktura pr. opgave eller kun én enkelt faktura for alle opgaver, i oversigtspanelet **Indstillinger**.  
+5. Vælg knappen **OK** for at oprette fakturaen, og vælg knappen **OK** på bekræftelsessiden.  
 
- Når Tricia har oprettet fakturaen, kan hun f.eks. få adgang til den fra rollecenteret **Salgsordrebehandler**. 
+Når Tricia opretter fakturaen, er den f.eks. tilgængelig fra rollecenteret **Salgsordrebehandler**.
 
-### <a name="to-post-a-new-sales-invoice"></a>Sådan bogføres en ny salgsfaktura
+### Sådan bogføres en ny salgsfaktura  
 
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsfakturaer**, og vælg derefter det relaterede link.  
-2.  Åbn fakturaen til kunde nr. 01445544. Du kan se de oplysninger, der er indtastet fra planlægningslinjerne.  
-3.  Vælg handlingen **Bogfør**. Vælg **Ja** for at bekræfte bogføringen.  
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Salgsfakturaer**, og vælg derefter det relaterede link.  
+2. Åbn fakturaen til kunde nr. 01445544. Du kan se de oplysninger, der er indtastet fra planlægningslinjerne.  
+3. Vælg handlingen **Bogfør**. Vælg **Ja** for at bekræfte bogføringen.  
 
-### <a name="to-view-the-posted-invoice"></a>Sådan vises den bogførte faktura
+### Sådan vises den bogførte faktura  
 
-1.  Åbn projektet, og vælg derefter handlingen **Projektplanlægningslinjer** .  
-2.  Markér en hvilken som helst faktureret planlægningslinje, og vælg derefter handlingen **Salgsfaktura/Kreditnota**.
-3. På siden **Projektfakturaer** skal du vælge handlingen **Åbn salgsfaktura/kreditnota** .  
+1. Åbn det relevante projekt, og vælg derefter handlingen **Projektplanlægningslinjer**.  
+2. Markér en hvilken som helst planlægningslinje, der blev faktureret, og vælg derefter handlingen **Salgsfaktura/Kreditnota**.
+3. På siden **Projektfakturaer** skal du vælge handlingen **Åbn salgsfaktura/kreditnota**.  
 
- Tina har et spørgsmål om priser, omkostninger og overskud, der er relevante for netop dette projekt, så Tina har adgang til disse oplysninger på **siden Statistik** .  
+Tricia har et spørgsmål ang. priser, omkostninger og indtjening, der er relevant for dette bestemte projekt, så hun får adgang til disse oplysninger på den nye side **Statistik**.  
 
-### <a name="to-open-the-statistics-page"></a>Sådan åbner du siden Statistik
-
-1.  Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Projekter**, og vælg derefter det relaterede link.  
-2.  Vælg handlingen **Statistik**. Du kan gennemse detaljerede oplysninger om projektets priser, omkostninger og avance i både lokal og udenlandsk valuta.  
-3.  Vælg knappen **Luk** for at lukke **siden Projektstatistik** .  
-
-## <a name="handling-fixed-prices-1"></a>Håndtere faste priser
-
- CRONUS er blevet bestilt til at oprette konferencerum. Som projektleder ønsker Per et godt overblik over de opgaver, der kræves til projektet med de tilhørende budgetterede og realiserede omkostninger for hver opgave. Derudover ønsker Per at kende den samlede kontraktpris for projektet og det beløb, der er faktureret indtil nu. De er nået til enighed med kunden om faste priser på projektet.  
-
-### <a name="to-manage-fixed-pricing-in-projects"></a>Sådan håndteres faste priser i projekter
+### Sådan åbner du siden Statistik  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Projekter**, og vælg derefter det relaterede link.  
-2. Vælg Guildford-projektnummeret **·**, og vælg derefter handlingen **Projektopgavelinjer** .  
+2. Vælg handlingen **Statistik**. Du kan gennemgå detaljerede oplysninger om projektpriser, omkostninger og avancer i både lokale og udenlandske valutaer.  
+3. Vælg knappen **Luk** for at lukke siden **Projektstatistik**.  
+
+## Håndtere faste priser
+
+CRONUS er bestilt til at oprette konferencerum. Som projektleder vil Prakash gerne have et godt overblik over de opgaver, der er påkrævet for projektet med de tilhørende budgetterede og realiserede omkostninger for hver sag. Derudover vil Prakash gerne kende den samlede kontraktpris for projektet og det beløb, der blev faktureret indtil nu. De har er nået frem til en aftale med kunden om faste priser for dette projekt.  
+
+### Sådan håndteres faste priser i projekter  
+
+1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Projekter**, og vælg derefter det relaterede link.  
+2. Vælg projektnummeret **Guildford**, og vælg derefter handlingen **Projektopgavelinjer**.  
 3. Vælg linje 1120, og højreklik på beløbet i feltet **Budget (kostpris)**, og vælg **Specificer**.  
 
      Ved at gennemse projektplanlægningslinjerne kan Prakash se, at han får brug for Tricia i 30 timer i denne fase af projektet. Prakash aftaler en fast pris med kunden.  
@@ -279,9 +284,9 @@ Linjerne er nu bogført.
 5. Højreklik i feltet **Budget (kostbeløb)**, og vælg **Specificer** igen på siden **Projektopgavelinjer**. Få vist ændringerne i tidsplanen. Du kan se, at de 30 timer er føjet til budgettet.  
 6. Luk siderne.  
 
-Når Tina er føjet til tidsplanen for denne opgavelinje, arbejder hun 25 timer på projektet og indtaster disse timer i projektkladden.  
+Når Tricia har føjet budgettet til denne opgavelinje, arbejder hun 25 timer på projektet. Disse timer kan angives i projektkladden.  
 
-### <a name="to-enter-hours-in-a-project-journal"></a>Sådan angives timer i en projektkladde
+### Sådan angives timer i en projektkladde  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , skriv **Projektkladder**, og vælg derefter det relaterede link.  
 2. Angiv følgende oplysninger på en ny linje:  
@@ -297,7 +302,7 @@ Når Tina er føjet til tidsplanen for denne opgavelinje, arbejder hun 25 timer 
 
 3. Vælg handlingen **Bogfør**.  
 
-     Nogle få dage senere, arbejder Tricia for at finde endnu en eller flere 10 timer på sagen, og har nu arbejdet 35 timer i alt. Da aftalen med kunden lyder på 30 timer, er det kun fem af disse timer, der vil blive faktureret kunden. Tricia vil føje de ekstra fem timer, som hun har arbejdet, manuelt til tidsplanen.  
+     Nogle få dage senere, arbejder Tricia for at finde flere 10 timer på projektet, og har arbejdet 35 timer i alt. Da aftalen med kunden lyder på 30 timer, er det kun fem af disse timer, der vil blive faktureret kunden. Tricia føjer manuelt de andre fem timer til budgettet.  
 
 4. På siden **Projektkladde** skal du vælge handlingen **Beregn resterende forbrug**.  
 5. På siden **Beregn resterende forbrug for projekt** skal du angive følgende oplysninger i oversigtspanelet **Indstillinger**:  
@@ -312,9 +317,9 @@ Når Tina er føjet til tidsplanen for denne opgavelinje, arbejder hun 25 timer 
 
 7. Vælg knappen **OK** for at køre beregningen.
 
-    Der mangler fem timers arbejde for Tina. Feltet **Linjetype** er tomt, hvilket indikerer, at det kun er forbruget, der mangler at blive bogført, da arbejdet allerede er budgetteret.  
+    Der mangler fem timers arbejde for Tina. Feltet **Linjetype** er tomt, hvilket indikerer, at det kun er forbruget, der mangler at blive bogført, da arbejdet allerede blev budgetteret.  
 
-8. Opret en ny linje med følgende oplysninger i **Projektkladde**. Sørg for, at begge projektnumre er i rækkefølge med dem, du allerede har brugt:  
+8. Opret en ny linje med følgende oplysninger i **Projektkladde**. Kontroller, at begge projektnumre er i fortløbende i forhold til de numre, du allerede har brugt:  
 
     - **Linjetype**: **Budget**  
     - **Projektnr.**: **Svend Hansen Møbler**  
@@ -323,26 +328,31 @@ Når Tina er føjet til tidsplanen for denne opgavelinje, arbejder hun 25 timer 
     - **Nr.**: **Tina**  
     - **Antal**: **5**  
 
-     Ved at bruge linjetypen **Budget** opdateres de budgetterede omkostninger og priser uden at opdatere de kontraktomkostninger og priser, der faktureres til kunden.  
+     Hvis du bruger linjetypen **Budget** opdateres de budgetterede omkostninger og priser uden at opdatere de kontraktomkostninger og priser, der faktureres til kunden.  
 
 9. Vælg handlingen **Bogfør**. Vælg knappen **OK** for at lukke siden.  
-10. Åbn listen **Projekter** .  
-11. Vælg sagen Svend Hansen Møbler, og vælg derefter linje 1120 i sektionen **Projektopgavelinjer**, og højreklik på beløbet i feltet **Budget (kostbeløb)**. Vælg **Specificer** for at få vist oplysningerne.  
+10. Åbn listen **Projekter**.  
+11. Vælg projektet GUILDFORD, og vælg derefter linje 1120 i sektionen **Projektopgavelinjer**, og højreklik på beløbet i feltet **Budget (kostbeløb)**. Vælg **Specificer** for at få vist oplysningerne.  
 
-     Ændringerne angives automatisk på linjen for Projektopgavenr. 1120. I de samlede omkostninger for budgetteret arbejde føjes fem ekstra timers arbejde for Tina til budgettet.  
+     Ændringerne angives automatisk på linjen for Projektopgavenr. 1120. I de samlede omkostninger for budgetteret arbejde føjes fem ekstra timers arbejde for Tricia til budgettet.  
 
 12. Vælg knappen **Luk** for at lukke siden.  
 13. Højreklik nu på beløbet i feltet **Kontrakt (kostbeløb)**, og vælg **Specificer** for at få vist oplysningerne.  
 
-Når du gennemser tabellen for den samlede kontraktpris, er det kun de oprindeligt kontraktaftalte 30 timer, der er inkluderet, da dette er det, der er aftalt med kunden.  
+I den samlede kontraktpris er det kun de oprindeligt kontraktaftalte 30 timer, der er inkluderet, som aftalt med kunde.  
 
-## <a name="copying-projects"></a>Kopiere projekter
+## Kopiere projekter
 
-Per er nået frem til en aftale med en kunder, Ravel Møbler, om at opsætte ti konferencerum. Aftalen ligner et tidligere projekt. Derfor sparer det tid at kopiere det tidligere projekt.  
+Prakash er nået frem til en aftale med en kunder, Selagorian Ltd,, om at opsætte 10 konferencerum. Aftalen ligner et tidligere projekt. Det sparer derfor tid at kopiere det tidligere projekt.  
 
- **På siden Kopier projekt** kan du vælge det projekt og de opgavelinjer, du vil kopiere. Du kan også vælge at kopiere kildeprojektposterne, som opretter planlægningslinjer baseret på det faktiske forbrug, eller du kan kopiere kildeprojektplanlægningslinjerne, som kopierer de oprindelige planlægningslinjer til det nye projekt. Du kan derefter vælge, hvilken planlægningslinje eller finanspostlinjetype du vil inkludere, ved kun at vælge det, der er relevant for det nye projekt. Til sidst kan du vælge det projekt, du vil kopiere til, og definere, om priser og antal også skal kopieres.  
+På siden **Kopier projekt** kan du vælge projektet og de opgavelinjer, du vil kopiere.
 
-### <a name="to-copy-a-project"></a>Sådan kopieres et projekt
+- Kopier kildeprojektposterne for at oprette planlægningslinjer baseret på det faktiske forbrug.
+- Kopier kildeprojektplanlægningslinjerne for at kopiere de oprindelige planlægningslinjer til det nye projekt.
+
+Du kan derefter vælge den planlægningslinje eller finanspostlinjetype, du vil inkludere, ved kun at vælge det, der er relevant for det nye projekt. Til sidst kan du vælge det projekt, som du vil kopiere til, og definere, om priser og antal også skal kopieres.  
+
+### Sådan kopieres et projekt  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Projekter**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny** for at oprette et nyt projekt. Angiv følgende oplysninger:  
@@ -362,30 +372,30 @@ Per er nået frem til en aftale med en kunder, Ravel Møbler, om at opsætte ti 
 
 5. Vælg knappen **OK** for at kopiere projektet, og vælg derefter knappen **OK** for at lukke bekræftelsessiden.  
 
-Ved at sammenligne priser, projektopgavelinjer og projektplanlægningslinjer for de to projekter kan du se, at oplysningerne blev kopieret korrekt.  
+Ved at sammenligne priser, projektopgavelinjer og projektplanlægningslinjer for de to projekter kan du se, at oplysninger er blevet kopieret.  
 
-## <a name="making-payments-by-installments"></a>Foretage betaling af afdrag
+## Foretage betalinger af afdrag
 
-CRONUS har lige fået et stort projekt hjem, der vil tage mere end et år at gennemføre. Da det kræver tildeling af en lang række ressourcer, opsætter projektlederen kontrakten på en sådan måde, at kunden betaler en del af prisen med det samme, en del, når projektet er halvvejs færdigt, og den sidste betaling ved færdiggørelsen.  
+CRONUS har lige fået et stort projekt hjem, der vil tage et år at gennemføre. Da det kræver mange ressourcer, opsætter projektlederen kontrakten på en sådan måde, at kunden betaler en del af prisen med det samme, en del, når projektet er halvvejs færdigt, og den sidste betaling ved færdiggørelsen.  
 
-### <a name="to-set-up-a-new-account"></a>Sådan oprettes et nyt konto
+### Sådan oprettes et nyt konto  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoplan**, og derefter vælge det relaterede link.  
 2. På siden **Kontoplan** skal du vælge handlingen **Ny** for at oprette et nyt kort.  
 3. Indtast følgende oplysninger på kortet **Ny finanskonto**:  
 
     - **Nr.**: **40255**  
-    - **Navn:** Projektbetaling **·**  
+    - **Navn**: **Projektbetaling**  
 
 4. Vælg **Tjenester** i feltet **Produktbogføringsgruppe** i oversigtspanelet **Bogføring**. Luk siden.  
 5. På siden **Kontoplan** skal du markere **Sagsbetaling nr 40255** og derefter vælge handlingen **Indryk kontoplan**. Vælg **Ja** for at bekræfte.  
 
-Følgende procedurer viser, hvordan du opretter et nyt projekt, angiver priser og derefter konfigurerer betaling af afdrag. På projektopgavelinjerne kan du oprette specifikke linjer, der er dedikeret til betaling af afdrag. Alt det færdiggjorte arbejde, der føjes til budgettet, angives på forbrugslinjerne. For hver betalingsopgavelinje på planlægningslinjerne er linjetypen **Fakturerbar**, hvilket betyder, at debitoren faktureres. Angiv en ny linje for Udbetalingen. På forbrugsopgavelinjen kan du indtaste oplysninger for de varer og ressourcer, der er brugt i dette projekt, hvilket vil øge tidsplanen, f.eks. medarbejdertimer og varer, der er anvendt på projektet.  
+Følgende procedurer viser, hvordan du opretter et nyt projekt, angiver priser og derefter oprette betaling af afdrag. På projektopgavelinjerne kan du oprette specifikke linjer, der er dedikeret til betaling af afdrag. Alt det færdiggjorte arbejde på projektet, der føjes til budgettet, angives på forbrugslinjerne. For hver betalingsopgavelinje på planlægningslinjerne er linjetypen **Fakturerbar**, hvilket betyder, at debitoren faktureres. Angiv en ny linje for Udbetalingen. På forbrugsopgavelinjen kan du indtaste oplysningerne for de varer og ressourcer, der er brugt i dette projekt, hvilket vil øge budgettet for f.eks. medarbejdertimer og varer, der er anvendt i projektet.  
 
-### <a name="to-make-a-payment-by-installment"></a>Sådan foretages betaling af afdrag
+### Sådan foretages betaling af afdrag  
 
 1. Opret et nyt projekt.  
-2. Udfyld følgende oplysninger på det nye **projektkort** :  
+2. Udfyld følgende oplysninger på det nye **Projekt**-kort:  
 
     - **Beskrivelse**: **Omdekoration af receptionsområde**  
     - **Faktureres til kundenr.**: **30000**  
@@ -399,7 +409,7 @@ Følgende procedurer viser, hvordan du opretter et nyt projekt, angiver priser o
 
      Luk siden.  
 
-4.  **Tilføj projektopgavelinjer i sektionen** Opgaver på kortet **Projekt** som beskrevet i følgende tabel:  
+4. Tilføj projektopgavelinjer på kortet **Projekt** i sektionen **Opgaver**, som beskrevet i følgende tabel:  
 
     | Linje | Projektopgavenr. | Beskrivelse          | Projektopgavetype |
     |------|--------------|----------------------|---------------|
@@ -443,23 +453,23 @@ Følgende procedurer viser, hvordan du opretter et nyt projekt, angiver priser o
 
  Nu, hvor opgave- og planlægningslinjerne er angivet, kan Per oprette en faktura for første betaling. Prakash gør dette fra projektopgavelinjerne for at sikre, at fakturaen kun indeholder linjer for den første betaling. Du kan åbne salgsorden fra planlægningslinjerne eller opgavelinjerne.  
 
-### <a name="to-create-an-invoice"></a>Sådan oprettes en faktura
+### Sådan oprettes en faktura  
 
-1.  På siden **Projektopgavelinjer** skal du markere linje 1000, og derefter vælge handlingen **Opret salgsfaktura**.  
-2.  Angiv dags dato som bogføringsdatoen på siden **Opret salgsfaktura**, angiv **Pr. opgave**, og vælg knappen **OK** for at oprette en faktura med standardoplysningerne. Vælg knappen **OK** for at gemme og lukke bekræftelsessiden.  
-3.  Vælg handlingen **Opret salgsfaktura/kreditnota**. På salgsfakturaen kan du se, at det kun er udbetalingen, der er inkluderet på fakturaen. Du kan nu sende den til kunden som aftalt.  
+1. På siden **Projektopgavelinjer** skal du markere linje 1000, og derefter vælge handlingen **Opret salgsfaktura**.  
+2. Angiv dags dato som bogføringsdatoen på siden **Opret salgsfaktura**, angiv **Pr. opgave**, og vælg knappen **OK** for at oprette en faktura med standardoplysningerne. Vælg knappen **OK** for at gemme og lukke bekræftelsessiden.  
+3. Vælg handlingen **Opret salgsfaktura/kreditnota**. På salgsfakturaen kan du se, at det kun er udbetalingen, der er inkluderet på fakturaen. Du kan nu sende den til kunden som aftalt.  
 
-## <a name="summary"></a>Efterfølgende trin
+## Oversigt
 
- Denne gennemgang har ført dig gennem nogle af de grundlæggende trin i arbejdet med projekter i [!INCLUDE[prod_short](includes/prod_short.md)]. Du har lært om, hvordan du opretter et nyt projekt, hvordan du kopierer et projekt, og hvordan du håndterer betalinger. Du har også fået vist en demonstration af, hvordan du kan registrere timer og oprette fakturaer.  
+Denne gennemgang har taget dig gennem nogle af de grundlæggende trin til at arbejde med projekter i [!INCLUDE[prod_short](includes/prod_short.md)]. Du har lært, hvordan du opretter et nyt projekt, kopierer et projekt, og hvordan du håndterer betalinger. Du har også fået vist en demonstration af, hvordan du kan registrere timer og oprette fakturaer.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
  [Gennemgang af forretningsprocesser](walkthrough-business-process-walkthroughs.md)  
  [Konfigurere projektstyring](projects-setup-projects.md)  
  [Bruge ressourcer](projects-how-use-resources.md)  
  [Overvåge status og udførelse](projects-how-monitor-progress-performance.md)  
- [Fakturere sager](projects-how-invoice-jobs.md)  
+ [Fakturere projekter](projects-how-invoice-jobs.md)  
  [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -2,14 +2,15 @@
 title: Designoplysningers omkostningsmetoder
 description: 'Dette emne beskriver, hvordan kostmetoden afgør, om en faktisk og budgetteret værdi føres som aktiv og bruges i beregningen af kostprisen.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 05/12/2023
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="design-details-costing-methods"></a>Designoplysninger: Kostmetoder
+# Designoplysningers omkostningsmetoder
 
 Kostmetoden afgør, om en faktisk eller en budgetteret værdi føres som aktiv og bruges i beregningen af kostprisen. Sammen med bogføringsdatoen og rækkefølgen har kostmetoden også indflydelse på, hvordan kostprisforløbet registreres.
 
@@ -20,17 +21,17 @@ Følgende metoder understøttes i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 | Kostmetode | Beskrivelse | Hvornår skal den bruges |
 |--|--|--|
-| FIFO | En vares kostpris er den faktiske værdi af alle modtagelser af varen, som vælges af FIFO-reglen.<br /><br /> I lagerværdien forudsættes det, at de første varer, der lægges på lager, bliver solgt først. | I virksomhedsmiljøer, hvor produktomkostninger er stabile.<br /><br /> (Når priser stiger, viser balancen højere værdi. Dette betyder, at skatteforpligtelserne øges, men kreditvurderinger og muligheden for at låne penge forbedres.)<br /><br /> For varer med en begrænset hyldelevetid, fordi de ældste varer skal sælges, inden de overskrider deres sidste salgsdato. |
-| LIFO | En vares kostpris er den faktiske værdi af alle modtagelser af varen, som vælges af LIFO-reglen.<br /><br /> I lagerværdien forudsættes det, at de sidste varer, der lægges på lager, bliver solgt først. | Forbudt i mange lande/områder, da det kan bruges til at holde avancen nede.<br /><br /> (Når priser stiger, falder værdien på resultatopgørelsen. Dette betyder, at skatteforpligtelserne reduceres, men muligheden for at låne penge forringes.) |
-| Gennemsnit | En vares kostpris beregnes som den gennemsnitlige kostpris på hvert enkelt tidspunkt efter et køb.<br /><br /> For værdiansættelse af lageret antages det, at alle lagerbeholdninger sælges samtidig. | I virksomhedsmiljøer, hvor produktomkostninger er ustabile.<br /><br /> Når lagre stables eller blandes sammen, og der ikke kan skelnes mellem dem, f.eks. kemikalier. |
-| Bestemt | En vares kostpris er den præcise kostpris, som den aktuelle enhed er modtaget til. | I produktion eller handel med varer, der nemt kan identificeres, med forholdsvis høje kostpriser.<br /><br /> For varer, der er omfattet af regulering.<br /><br /> For varer med serienumre. |
+| FIFO | En vares kostpris er den faktiske værdi af alle modtagelser af varen, som vælges af FIFO-reglen.<br /><br /> Lagerværdien antager, at de første varer, der lægges på lager, bliver solgt først. | I virksomhedsmiljøer, hvor produktomkostninger er stabile.<br /><br /> (Når priser stiger, viser balancen højere værdi. Dette betyder, at skatteforpligtelserne øges, men kreditvurderinger og muligheden for at låne penge forbedres.)<br /><br /> For varer med en begrænset hyldelevetid, fordi de ældste varer skal sælges, inden de overskrider deres sidste salgsdato. |
+| LIFO | En vares kostpris er den faktiske værdi af alle modtagelser af varen, som vælges af LIFO-reglen.<br /><br /> Lagerværdien antager, at de sidste varer, der lægges på lager, bliver solgt først. | Forbudt i mange lande/områder, da det kan bruges til at holde avancen nede.<br /><br /> (Når priser stiger, falder værdien på resultatopgørelsen. Dette betyder, at skatteforpligtelserne reduceres, men muligheden for at låne penge forringes.) |
+| Gennemsnit | En vares kostpris beregnes som den gennemsnitlige kostpris på hvert enkelt tidspunkt efter et køb.<br /><br /> Værdiansættelse af lageret antager, at alle lagerbeholdninger sælges samtidig. | I virksomhedsmiljøer, hvor produktomkostninger er ustabile.<br /><br /> Når lagre stables eller blandes sammen, og der ikke kan skelnes mellem dem, f.eks. kemikalier. |
+| Specifik | En vares kostpris er den præcise kostpris, som den aktuelle enhed er modtaget til. | I produktion eller handel med varer, der nemt kan identificeres, med forholdsvis høje kostpriser.<br /><br /> For varer, der er omfattet af regulering.<br /><br /> For varer med serienumre. |
 | Standard | En vares kostpris forudindstilles baseret på forventninger.<br /><br /> Når det faktiske kostbeløb realiseres senere, skal standardkostprisen reguleres til de faktiske omkostninger gennem variansværdier. | Hvor omkostningsstyring er afgørende.<br /><br /> I serieproduktion til at evaluere kostpriserne for direkte materialeomkostninger, arbejdsomkostninger og produktionsomkostninger.<br /><br /> Hvor der er disciplin og personale til at vedligeholde standarderne. |
 
 Følgende billede viser, hvordan omkostningerne passerer gennem lageret for hver kostmetode.  
 
 ![Omkostningsmetoder visualiseret.](media/design_details_inventory_costing_7_costing_methods.png "Omkostningsmetoder visualiseret")  
 
-Kostmetoder varierer i den måde, hvorpå de værdiansætter lagerreduceringer, og om de bruger faktiske omkostninger eller standardomkostninger som værdigrundlag. Den følgende tabel beskriver de forskellige karakteristika. (LIFO-metoden er udelukket, da den minder meget om FIFO-metoden).  
+Kostmetoder varierer i den måde, hvorpå de værdiansætter lagerreduceringer, og om de bruger faktiske omkostninger eller standardomkostninger som værdigrundlag. Den følgende tabel beskriver de forskellige karakteristika. (LIFO-metoden er udelukket, da den minder om FIFO-metoden).  
 <!--Old  table
 |Category|FIFO|Average|Standard|Specific|  
 |-|----------|-------------|--------------|--------------|  
@@ -46,9 +47,9 @@ Kostmetoder varierer i den måde, hvorpå de værdiansætter lagerreduceringer, 
 |**FIFO**     |Let at forstå|Udligning holder styr på **det resterende antal**.<br /><br /> Justering overfører omkostninger i henhold til antalsudligning. |Værdiregulerer kun fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|Hvis du baguddaterer en lagerreducering, bliver eksisterende poster IKKE genanvendt for at sikre et korrekt FIFO-omkostningsforløb.|
 |**Gennemsnit**     |Baseret på periodeindstillinger: **dag**/**uge**/**måned**/**kvartal**/**regnskabsperiode**.<br /><br /> Kan beregnes pr. vare eller pr. vare/lokation/variant.|Udligning holder styr på **det resterende antal**.<br /><br /> Omkostninger beregnes og overføres pr. **værdiansættelsesdato**. |Værdiregulerer kun fakturerede antal.<br /><br /> Kan kun foretages pr. vare.<br /><br /> Kan foretages bagudrettet. |Hvis du baguddaterer en lagerforøgelse eller -reducering, genberegnes den gennemsnitlige kostpris, og alle berørte poster justeres.<br /><br /> Hvis du ændrer perioden eller beregningstypen, skal alle berørte poster reguleres.|
 |**Standard**     |Let at bruge, men kræver kvalificeret vedligeholdelse.|Udligning holder styr på **det resterende antal**.<br /><br /> Udligning er baseret på FIFO.|Værdiregulerer fakturerede og ikke-fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|Brug siden **Standardkladde** til regelmæssigt at opdatere og akkumulere standardomkostninger.<br /><br /> Understøttes ikke pr. lagervare.<br /><br /> Der findes ingen historiske poster for standardomkostninger.|
-|**Specifik**     |Kræver varesporing på både indgående og udgående transaktion.<br /><br /> Bruges typisk til serienummererede varer.|Alle udligninger er faste.|Værdiregulerer kun fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|Du kan bruge specifik varesporing uden at bruge den specifikke kostmetode. Derefter følger prisen IKKE lotnummeret, men omkostningsforventningen for den valgte kostmetode.|
+|**Specifik**     |Kræver varesporing på både indgående og udgående transaktion.<br /><br /> Bruges typisk til serienummererede varer.|Alle udligninger er faste.|Værdiregulerer kun fakturerede antal.<br /><br /> Kan foretages pr. vare eller pr. varepost.<br /><br /> Kan foretages bagudrettet.|Du kan bruge specifik varesporing uden at bruge den specifikke kostmetode. Prisen følger ikke lotnummeret, men omkostningsforventningen for den valgte kostmetode.|
 
-## <a name="example"></a>Eksempel
+## Eksempel
 
 Dette afsnit indeholder eksempler på, hvordan forskellige kostmetoder påvirker lagerværdien.  
 
@@ -66,7 +67,7 @@ Følgende tabel viser lagerforøgelser og -reduceringer, som eksemplerne er base
 > [!NOTE]  
 > Det resulterende antal i lageret er nul. Derfor skal lagerværdien også være nul, uanset hvilken kostmetode der anvendes.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Kostmetoders indflydelse på værdiansættelse af lagerforøgelser
+### Kostmetoders indflydelse på værdiansættelse af lagerforøgelser  
 
 For varer med kostmetoder, der bruger de faktiske omkostninger som grundlag for værdiansættelsen (**FIFO**, **LIFO**, **Gennemsnit**, eller **Specifik**), værdiansættes lagerforøgelser til varens anskaffelsesomkostninger.  
 
@@ -74,11 +75,11 @@ For varer med kostmetoder, der bruger de faktiske omkostninger som grundlag for 
 
     For varer, der bruger kostmetoden **Standard**, værdiansættes lagerforøgelser til varens aktuelle standardkostpris.  
 
-#### <a name="standard"></a>Standard
+#### Standard  
 
 For varer, der bruger kostmetoden **Standard**, værdiansættes lagerforøgelser til varens aktuelle standardkostpris.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Kostmetoders indflydelse på værdiansættelse af lagerreduktioner
+### Kostmetoders indflydelse på værdiansættelse af lagerreduktioner
 
 - **FIFO**  
 
@@ -146,7 +147,7 @@ For varer, der bruger kostmetoden **Standard**, værdiansættes lagerforøgelser
     |03-01-20|-1|-10,00|**1**|5|  
     |04-01-20|-1|-30,00|**3**|6|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Designoplysninger: Lagerberegning](design-details-inventory-costing.md)  
 [Designoplysninger: Afvigelse](design-details-variance.md)  
@@ -156,6 +157,5 @@ For varer, der bruger kostmetoden **Standard**, værdiansættes lagerforøgelser
 [Finans](finance.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ordliste med termer i Dynamics 365 business processes](/dynamics365/guidance/business-processes/glossary)  
-[Definere oversigt over produkt-og serviceomkostninger](/dynamics365/guidance/business-processes/product-service-define-cost-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

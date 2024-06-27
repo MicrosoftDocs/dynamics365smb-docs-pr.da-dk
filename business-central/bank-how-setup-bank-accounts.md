@@ -1,29 +1,27 @@
 ---
-title: Oprette bankkonti (indeholder video)
+title: Opsætte bankkonti
 description: 'Få mere at vide om, hvordan bankkonti bruges i Business central, og hvordan du kan afstemme beløb med din bank.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'Yodlee, feed, stream'
 ms.search.form: '370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280'
-ms.date: 08/03/2023
+ms.date: 05/24/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-bank-accounts"></a>Sådan oprettes bankkonti
+# Opret bankkonti
 
-Brug bankkonti i [!INCLUDE[prod_short](includes/prod_short.md)] til at holde styr på dine banktransaktioner. Konti kan være i den lokale valuta eller i fremmed valuta. Når du har oprettet bankkonti, kan du også bruge funktionen til kontrol af udskrevne check. Bankkontiene indeholder ekstra funktionalitet til [afstemning af betaling](receivables-apply-payments-auto-reconcile-bank-accounts.md), [Bankafstemning](bank-how-reconcile-bank-accounts-separately.md) og import og eksport af bankfiler. Bankkonti kan også medtages i transaktioner i finanskladder. Hver bankkonto er knyttet til en konto i kontoplanen via den tildelte Bankbogføringsgruppe. Hvis du bruger en bankkonto i en betalingstransaktion, oprettes der automatisk en post på både bankkontoen og den tilknyttede finanskonto.  
+Brug bankkonti i [!INCLUDE[prod_short](includes/prod_short.md)] til at holde styr på dine banktransaktioner. Konti kan være i den lokale valuta eller i fremmed valuta. Når du har oprettet bankkonti, kan du også udskrive checks. Bankkontiene indeholder også ekstra funktionalitet til [afstemning af betaling](receivables-apply-payments-auto-reconcile-bank-accounts.md), [Bankafstemning](bank-how-reconcile-bank-accounts-separately.md) og import og eksport af bankfiler.
+
+Du kan medtage bankkonti i transaktioner i finanskladder. Hver bankkonto knytter til en konto i kontoplanen via den tildelte Bankbogføringsgruppe. Hvis du bruger en bankkonto i en betalingstransaktion, oprettes der automatisk en post på både bankkontoen og den tilknyttede finanskonto.  
 
 Bank konti fungerer forskelligt, afhængigt af om der er angivet en valutakode:
 
-- Hvis valutakoden er tom
-
-  Alle transaktioner i bankkontoen er i lokal valuta (RV) for det aktuelle regnskab. Hvis der foretages en transaktion til kontoen i en anden valuta, bogføres beløbene på kontoen i RV baseret på den relevante valutakurs. Alle checks, der udstedes fra denne konto, skal udstedes i den lokale valuta. Hvis bankkontoen bruges i en kladde, vil kladdelinjen automatisk arve den tomme valutakode.  
+- Hvis en valutakode ikke er angive, er alle transaktioner i bankkontoen i lokal valuta (LV) for det aktuelle regnskab. Hvis du foretager en transaktion til kontoen i en anden valuta, bogføres beløbene på kontoen i LV baseret på den relevante valutakurs. Alle checks, der udstedes fra denne konto, skal udstedes i LV. Hvis bankkontoen bruges i en kladde, bruger kladdelinjen automatisk den tomme valutakode.  
   
-- Angiver en valutakode.
-
-  Alle transaktioner til og checks udstedt fra kontoen skal være i samme valuta som angivet på kontoen.
+- Hvis en valutakode angives, skal alle transaktioner til denne konto og checks udstedt fra den bruge den samme valuta som kontoen.
 
 Du kan spare tid på dataindtastning ved at gøre en bankkonto til den valuta, der er angivet for kontoen. Hvis du gør det, tildeles kontoen salgs-og servicedokumenter, der bruger valutaen. Hvis kontoen skal være standard for salgs-og servicedokumenter, skal du aktivere funktionen **Brug som standard for valuta** på siden **bankkontokort**. Hvis det er nødvendigt, kan du vælge en anden konto, når du arbejder med et dokument.
 
@@ -31,22 +29,22 @@ En bankkonto er en integreret del af [!INCLUDE[prod_short](includes/prod_short.m
 
 ![Illustration af bankkonto relationer.](media/Set-Up-Bank-Accounts/Bank_Account_Relations.png)
 
-Du kan se, at oprettelse af en bankkonto gør den tilgængelig på alle de steder, der vises ovenfor, og som er afspejlet i den relevante finanskonto og på siden med **Virksomhedsoplysninger**.
+Når du opretter en bankkonto gøres den tilgængelig på alle de steder, der vises i illustrationen og er afspejlet i den relevante finanskonto og på siden **Virksomhedsoplysninger**.
 
-En bankkonto overvåges som regel dagligt for at sikre, at alle nye betalinger fra debitorer registreres så hurtigt som muligt. Dermed sikres det, at en kundes faktiske status afspejles i [!INCLUDE[prod_short](includes/prod_short.md)]. Det giver sælgere, bogholdere og andre medarbejdere adgang til de mest relevante og opdaterede oplysninger, så de undgår overflødige opkald til kunden om forfaldne fakturaer eller forsinkelser i leverancerne.  
+Bankkonti overvåges ofte dagligt for at sikre, at alle nye betalinger fra debitorer registreres så hurtigt som muligt. Registrering af betalinger hurtigt sikrer, at en kundes faktiske status afspejles i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis status for debitorbetalinger holdes opdateret, hjælper det sælgere, bogholdere og andre medarbejdere, der foretager unødvendige opkald vedrørende forfaldne fakturaer eller forsinkelser i forsendelser.  
 
 ![Illustration af bankbetaling.](media/Set-Up-Bank-Accounts/Bank-payment-flow.png)
 
-En anden opgave er at importere kreditorvalutabetalinger med de realiserede valutakurser for at sikre, at kreditorens faktiske status er opdateret. Det er nemmest at bruge [funktionen til afstemning af betalinger](receivables-apply-payments-auto-reconcile-bank-accounts.md). I **kladden til afstemning af betaling** kan du indlæse banktransaktioner direkte fra en online bank ansøgning og få dem bogført mere eller mindre automatisk. Kladden identificerer og bogfører automatisk følgende:  
+En anden opgave er at importere kreditorvalutabetalinger med de realiserede valutakurser for at sikre, at kreditorens faktiske status er opdateret. Det er nemmest at bruge [funktionen til afstemning af betalinger](receivables-apply-payments-auto-reconcile-bank-accounts.md). I **Kladde til afstemning af betaling** kan du indlæse banktransaktioner direkte fra en online bank ansøgning og bogføre dem mere eller mindre automatisk. Kladden identificerer og bogfører automatisk følgende transaktioner:  
 
-- Direkte debetbetalinger fra debitorer  
-- Debitorbetalinger af enkelt fakturaer  
+- Direkte debetbetalinger fra debitorer.  
+- Debitorbetalinger af enkelt fakturaer.  
 - Registrerer engangsbetalinger fra kunder.  
-- Debitorbetalinger i udenlandske valutaer  
-- Kreditorbetalinger  
-- Kreditorbetalinger i udenlandske valutaer  
-- Tilbagevendende kreditorbetalinger og abonnementer  
-- Bankgebyrer og-interesser  
+- Debitorbetalinger i udenlandske valutaer.  
+- Kreditorbetalinger.  
+- Kreditorbetalinger i udenlandske valutaer.  
+- Kreditorbetalinger og abonnementer, som er tilbagevende.  
+- Bankgebyrer og-interesser.  
 
 Betalingsafstemning giver store tidsbesparelser ved bogføring af indgående og udgående betalinger. Men transaktionerne på bankkontoen i [!INCLUDE[prod_short](includes/prod_short.md)] er ikke registreret som 100 % korrekte, før du starter en bankafstemning.  
 
@@ -54,15 +52,15 @@ Bankafstemning er den måde, du sørger for, at bankkontoen [!INCLUDE[prod_short
 
  ![Illustration af bankkontoafstemning.](media/Set-Up-Bank-Accounts/BankReconciliation.png)
 
-I illustrationen ovenfor repræsenterer venstre side bankkontoen i [!INCLUDE[prod_short](includes/prod_short.md)], og den højre side repræsenterer de transaktioner, der er indlæst fra banken gennem online-bankansøgningen. Diagrammet i midten viser transaktionerne fra begge sider, som er bankafstemningen.
+I illustrationen repræsenterer venstre side bankkontoen i [!INCLUDE[prod_short](includes/prod_short.md)], og den højre side repræsenterer de transaktioner, der er indlæst fra banken gennem online-bankansøgningen. Diagrammet i midten viser transaktionerne fra begge sider, som udgør bankafstemningen.
 
 Fra en bankkonto [!INCLUDE[prod_short](includes/prod_short.md)], skal de fleste transaktioner bekendtgøres til den fysiske bank. De få undtagelser omfatter følgende:  
 
-- Rettelser bogført i [!INCLUDE[prod_short](includes/prod_short.md)]  
-- Udstedte checks, der endnu ikke er blevet indløst 
-- Kreditorbetalinger, som ikke er godkendt af banken  
+- Rettelser bogført i [!INCLUDE[prod_short](includes/prod_short.md)].  
+- Udstedte checks, der ikke indløses.
+- Kreditorbetalinger, som ikke er godkendt af banken.  
 
-Transaktioner, der ikke blev identificeret i betalingsudligningskladden, modtages fra den fysiske konto i banken hele tiden, f.eks. følgende:  
+Transaktioner, der ikke blev identificeret i betalingsudligningskladden, modtages fra den fysiske konto i banken hele tiden, f.eks. følgende transaktioner:  
 
 - Nye kreditorabonnementer  
 - Debitorbetalinger uden beskrivelse
@@ -72,7 +70,7 @@ Transaktioner, der ikke blev identificeret i betalingsudligningskladden, modtage
 
 Jo bedre du tilknytter oplysninger i betalingsudligningskladden, jo flere transaktioner bogføres automatisk, og jo lettere bliver regelmæssig bankafstemning.
 
-Se i videoen herunder de grundlæggende trin til oprettelse af en bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)].
+Følgende video viser de grundlæggende trin til oprettelse af en bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 <br /><br />
 
@@ -81,13 +79,13 @@ Se i videoen herunder de grundlæggende trin til oprettelse af en bankkonto i [!
 > [!WARNING]
 > Nogle felter kan indeholde følsomme data, f. eks. **Bankforgreningsnr.**, **bankkontonummer**, **SWIFT-kode** og **IBAN-kode**. Flere oplysninger i [Overvåge følsomme felter](across-log-changes.md#monitor-sensitive-fields).
 
-## <a name="to-set-up-bank-accounts"></a>Sådan oprettes bankkonti
+## Sådan oprettes bankkonti
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonti**, vælg derefter det relaterede link.
 2. På siden **Bankkonti** skal du vælge handlingen **Ny**.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-    F.eks. forbindes feltet **Bogføringsgruppe til bankkonto** med bankkontoen til den underliggende finanskonto i balancen. Flere oplysninger i [Konfigurere bogføringsgrupper](finance-posting-groups.md).
+    Feltet **Bogføringsgruppe til bankkonto**, der f.eks forbindes med bankkontoen til den underliggende finanskonto i statusopgørelsen. Flere oplysninger i [Konfigurere bogføringsgrupper](finance-posting-groups.md).
 
 > [!TIP]
 > Nogle felter er skjult, indtil du vælger handlingen **Vis flere**, typisk fordi de bruges sjældent. Andre skal tilføjes via brugertilpasning. Flere oplysninger i [Tilpasse dit arbejdsområde](ui-personalization-user.md).
@@ -151,21 +149,21 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## <a name="to-enter-an-opening-balance"></a>Sådan angiver du en primosaldo
+## Sådan angiver du en primosaldo
 
-For at udfylde feltet **Saldo** med en primosaldo, skal du bogføre en bankkontopost med det pågældende beløb. Du kan gøre dette ved at udføre en afstemning af bankkontoen. Få mere at vide i [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md).  
+For at udfylde feltet **Saldo** med en startsaldo, skal du bogføre en bankkontopost med det pågældende beløb. Du bogfører posten via en bankkontoafstemning. Få mere at vide i [Afstemme bankkonti](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > Du kan også implementere primosaldoen som en del af oprettelse af generelle oplysninger i nye virksomheder ved hjælp af den assisterede opsætningsvejledning **Overflyt virksomhedsdata** . Flere oplysninger i [Blive køreklar](ui-get-ready-business.md).  
 
 > [!IMPORTANT]
-> Du må ikke bogføre primosaldoen direkte i finansregnskabet. Hvis der er poster i finanskontoen, der er bogført direkte til den, betyder det typisk, at du ikke kan afstemme bankkontoen. På bankkonti i udenlandsk valuta medfører en sådan metode, at der akkumuleres differencer, når du bogfører flere bankafstemninger. Du bogfører normalt primosaldoen direkte på bankkontoen, og beløbet havner derefter på finanskontoen. Alternativt kan du tilbageføre den senere fra den finanskonto, som du har brugt til at afstemme primosaldoen med finansbalancen. I begge tilfælde skal du udligne en direkte bogføring til finanskontoen, før du starter din første bankafstemning, og især hvis bankkontoen er i udenlandsk valuta.
+> Du må ikke bogføre primosaldoen direkte i finansregnskabet. Poster i finanskontoen, der er bogført direkte til den, forhindrer typisk, at du kan afstemme bankkontoen. På bankkonti i udenlandsk valuta medfører direkte bogføring i differencer der akkumuleres, når du bogfører flere bankafstemninger. Du bogfører normalt primosaldoen direkte på bankkontoen, og beløbet havner derefter på finanskontoen. Alternativt kan du tilbageføre den senere fra den finanskonto, som du har brugt til at afstemme primosaldoen med finansbalancen. I begge tilfælde skal du udligne en direkte bogføring til finanskontoen, før du starter din første bankafstemning, og især hvis bankkontoen er i udenlandsk valuta.
 
-## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Sådan oprettes bankkontoen for import eller eksport af bankfiler
+## Sådan oprettes bankkontoen for import eller eksport af bankfiler
 
 Felterne er relateret til indlæsning og udlæsning af bankfeeds og -filer i oversigtspanelet **Overførsel** på siden **Bankkontokort**. Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md) og [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md).
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 2.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Bankkonti**, vælg derefter det relaterede link.
-2. Åbn kortet for den bankkonto, du vil eksportere eller importere bankfiler for.
+2. Åbn kortet for bankkontoen for at eksportere eller importere bankfiler til.
 3. Udfyld felterne efter behov i oversigtspanelet **Overførsel**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
@@ -173,15 +171,15 @@ Felterne er relateret til indlæsning og udlæsning af bankfeeds og -filer i ove
 
 Felterne i oversigtspanelet **Transit** på bankkontoen tjener forskellige formål, afhængigt af om betalingen er indadgående eller udadgående.
 
-I illustrationen nedenfor vises ruten for indgående betalinger (tallene i beskrivelsen svarer til dem på illustrationen):
+Følgende illustration viser ruten af indgående betalinger. Tallene i beskrivelsen svarer til tallene i illustrationen.
 
 :::row:::
     :::column:::
 
 1. Transaktionerne udlæses fra bankkontoen i enten et personligt læsbart. csv-format eller bankens eget format.
-2. *Dataudvekslingsdefinition* knytter oplysningerne i filen til felterne i [!INCLUDE[prod_short](includes/prod_short.md)]. Flere oplysninger i [Opsætning af dataudveksling](across-set-up-data-exchange.md)
-3. I *opsætningen af dataeksport/import* defineres eksporten eller importen og links til dataudvekslingsdefinitionen.
-4. *Bankkontoudtogsimportformat* knytter importopsætningen til bankkontoen.
+2. Dataudvekslingsdefinition knytter oplysningerne i filen til felterne i [!INCLUDE[prod_short](includes/prod_short.md)]. Flere oplysninger i [Opsætning af dataudveksling](across-set-up-data-exchange.md)
+3. I opsætningen af dataeksport/import defineres eksporten eller importen og links til dataudvekslingsdefinitionen.
+4. Bankkontoudtogsimportformat knytter importopsætningen til bankkontoen.
 5. Betalingerne indlæses via **kladden til afstemning af betaling** eller **Bankkontoafstemning**.
 
   :::column-end:::
@@ -194,15 +192,15 @@ I illustrationen nedenfor vises ruten for indgående betalinger (tallene i beskr
 
 Indgående betalinger indlæses altid via **Betalingsudligningskladde** eller direkte på siden **Bankkontoafstemning**. Udgående betalinger kan derimod stamme fra enhver betalingskladde. Den eneste forudsætning er, at feltet **Tillad kontant eksport** i den relevante Udbetalingskladde navn skal markeres.
 
-I illustrationen nedenfor vises ruten for udgående betalinger (tallene i beskrivelsen svarer til dem på illustrationen):
+Følgende illustration viser ruten af udgående betalinger. Tallene i beskrivelsen svarer til tallene i illustrationen.
 
 :::row:::
     :::column:::
 
-6. Transaktionerne udfyldes i en udbetalingskladde, som er blevet forberedt til eksport af betalinger til fil.
-7. *Bankkontoudtogsimportformat* knytter importopsætningen til bankkontoen.
-8. I *opsætningen af dataeksport/import* defineres eksporten eller importen og links til dataudvekslingsdefinitionen.
-9. *Dataudvekslingsdefinition* knytter oplysningerne i filen til felterne i [!INCLUDE[prod_short](includes/prod_short.md)]. Flere oplysninger i [Opsætning af dataudveksling](across-set-up-data-exchange.md)
+6. Transaktionerne udfyldes i en udbetalingskladde, som blev forberedt til eksport af betalinger til fil.
+7. Bankkontoudtogsimportformat knytter importopsætningen til bankkontoen.
+8. I opsætningen af dataeksport/import defineres eksporten eller importen og links til dataudvekslingsdefinitionen.
+9. Dataudvekslingsdefinition knytter oplysningerne i filen til felterne i [!INCLUDE[prod_short](includes/prod_short.md)]. Flere oplysninger i [Opsætning af dataudveksling](across-set-up-data-exchange.md)
 10. Betalingerne udlæses fra udbetalingskladden og indlæses på bankkontoen.
 
   :::column-end:::
@@ -213,24 +211,24 @@ I illustrationen nedenfor vises ruten for udgående betalinger (tallene i beskri
   :::column-end:::
 :::row-end:::
 
-## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Sådan konfigureres kreditorbankkonti til eksport af bankfiler
+## Sådan konfigureres kreditorbankkonti til eksport af bankfiler
 
 Felter i oversigtspanelet **Overførsel** på siden **Kreditors bankkontokort** er relateret til udlæsning af bankfeeds og -filer. Du kan finde flere oplysninger i [Bruge AMC Banking 365 Fundamentals-udvidelsen](ui-extensions-amc-banking.md) og [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## <a name="changing-your-bank-account"></a>Ændre din bankkonto
+## Ændre din bankkonto
 
 Hvis du vil bruge en anden bankkonto til din virksomhed, skal du oprette den nye bankkonto i [!INCLUDE[prod_short](includes/prod_short.md)]. Det anbefales, at du ikke blot erstatter oplysninger om den konto, du bruger i øjeblikket, da det kan medføre forkerte data. Primosaldoen kan f. eks. være forkert, eller din bank-feed fungerer muligvis ikke korrekt. Det er vigtigt, at du holder de aktuelle og nye firmaer adskilt.
 
-Når du har oprettet den nye bankkonto, skal du også oprette en ny Bankbogføringsgruppe og knytte den til en ny finanskonto. Du kan genbruge en eksisterende Bankbogføringsgruppe, og bank transaktionerne bogføres til samme finanskonti som de andre bankkonti, der deler denne bankbogføringsgruppe. Det anbefales dog, at du opretter en ny Bankbogføringsgruppe og finanskonto, så det er nemmere at foretage afstemningen.
+Når du har oprettet den nye bankkonto, skal du også oprette en ny Bankbogføringsgruppe og knytte den til en ny finanskonto. Du kan genbruge en eksisterende Bankbogføringsgruppe, og bank transaktionerne er bogført til samme finanskonti som de andre bankkonti, der deler denne bankbogføringsgruppe. Det anbefales dog, at du opretter en ny Bankbogføringsgruppe og finanskonto, så det er nemmere at foretage afstemningen.
 
 > [!NOTE]
 > Bemærk, at bankkontooplysningerne på åbne salgsfakturaer stadig viser den oprindelige bankkonto. Derfor bogføres betalinger stadig på denne konto. Det anbefales, at du holder begge konti aktive i en periode efter ændringen.
 
 Hvis du vil have en mere kompakt oversigt over dine kontantkonti i financial reporting, skal du bruge kontiene **Fra-sum** og **Til-sum** i din kontoplan, rækkerne **Sammentælling** i finansrapporter eller finanskontoarter. Du kan finde flere oplysninger i afsnittet om [Business Intelligence og Financial Reporting](bi.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere banktransaktioner](bank-setup-banking.md)  
 [Konfigurere bogføringsgrupper](finance-posting-groups.md)  

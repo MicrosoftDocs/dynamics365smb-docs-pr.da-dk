@@ -1,25 +1,26 @@
 ---
-title: Oversigt over likviditet
+title: Oversigt over pengestrøm
 description: 'En oversigt over indgående og udgående pengestrømme, som medvirker til at forudsige penge, der skal modtages og betales.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments'
 ms.search.form: '841, 849, 1818'
-ms.date: 12/20/2021
-ms.author: bholtorf
+ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="cash-flow-overview"></a>Oversigt over likviditet
+# Oversigt over pengestrøm
 
 Forståelse af indgående og udgående pengestrømme er nøglen til at drive en succesrig forretning. Du kan bruge likviditet til nemt for at oprette en kortfristet forecast, der forudsiger, hvordan og hvornår du kan forvente at modtage penge og skal betale penge i din virksomhed. Det er vigtigt at vide, at din virksomhed har nok penge til at betale gæld og udgifter, når de forfalder.
 
-## <a name="definition-of-cash-flow"></a>Definition af likviditet
+## Definition af likviditet
 
 Betegnelsen *likviditet* bruges til at angive indbetalinger minus kontantbetalinger over en valgt periode. Det er et skøn over det beløb, du forventer, vil flyde ind og ud af din virksomhed, og det omfatter alle de forventede indtægter og udgifter.
 
-## <a name="work-with-cash-flow"></a>Arbejde med pengestrøm
+## Arbejde med pengestrøm
 
 Følgende illustration viser en oversigt over, hvordan du kan arbejde med likviditet.
 
@@ -36,9 +37,9 @@ Følgende illustration viser en oversigt over, hvordan du kan arbejde med likvid
   - Anlægsaktiver – oplysninger om planlagte bortskaffelser og budgetterede køb af anlæg.  
   - Manuelle indtægter og udgifter – administrer manuelle indtægter og udgifter og medtag dem i likviditetsforecastet.  
 - Brug en kørsel til at overføre oplysninger fra områderne finans, indkøb, salg, service og faste anlægsaktiver til pengestrømskladden. Du skal bruge kørslen til at lave en pengestrømsprognose.  
-- Du kan bruge forskellige vinduer, rapporter og diagrammer til at analysere og udskrive en likviditetsforecast, der vedrører tilgængelighed og oversigter på tidslinjen.  
+- Du kan bruge forskellige sider, rapporter og diagrammer til at analysere og udskrive en likviditetsforecast, der vedrører tilgængelighed og oversigter på tidslinjen.  
 
-## <a name="making-a-cash-flow-forecast"></a>Foretage likviditetsforecast
+## Foretage likviditetsforecast
 
 Baseret på registrerede kladdelinjer kan du med jævne mellemrum foretage en likviditetsforecast. Følgende layout er et ofte anvendt layout for en likviditetsforecast. Layout indeholder tre sektioner:
 
@@ -64,9 +65,9 @@ Nettolikviditet eller kontanter i hånden beregnes som samlede indtægter minus 
 
 *nettolikviditet* = *samlede indbetalinger* – *samlede kontante udbetalinger* + *likvide midler*
 
-Budgettet kan derefter bruges som et internt beslutningsværktøj til ledelsen, som hjælper dig med at planlægge og foretage vigtige strategiske beslutninger om driften af virksomheden.
+Du kan bruge budgettet som et internt beslutningsværktøj til ledelsen, som hjælper dig med at planlægge og foretage vigtige strategiske beslutninger om driften af virksomheden.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opsætning af pengestrømsanalyse](finance-setup-cash-flow-analyses.md)  
 [Analysér pengestrøm](finance-analyze-cash-flow.md)  

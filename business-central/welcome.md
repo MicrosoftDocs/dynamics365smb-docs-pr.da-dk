@@ -4,9 +4,11 @@ description: 'Få mere at vide om egenskaber og arbejdsscenarier i Business Cent
 author: jswymer
 ms.topic: landing-page
 ms.devlang: al
-ms.date: 05/22/2023
+ms.date: 05/23/2024
 ms.author: jswymer
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -36,7 +38,7 @@ Følgende afsnit peger på nøgleartikler, som du kan bruge til at få kendskab 
 
 ## Forretningsprocesser
 
-- [Blive køreklar](ui-get-ready-business.md)
+- [Blive køreklar til at foretage handler](ui-get-ready-business.md)
 - [Opsætning af [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)
 - [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 - [Opsætning](admin-setup-and-administration.md)
@@ -66,22 +68,38 @@ Følgende afsnit peger på nøgleartikler, som du kan bruge til at få kendskab 
 - [Udvikling og administration](/dynamics365/business-central/dev-itpro/index)
 - [Prøveversioner og abonnementer](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 - [Udvikling i AL](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
-- [AL-udviklingsmiljø](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
+- [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Regler og retningslinjer for AL-kode](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
+
+## Copilot- og AI-indhold
+
+- [Oversigt](copilot-overview.md)
+- Funktioner
+  - [Analysere data på lister med Copilot](analysis-assist.md)
+  - [Afstemme bankkonti med Copilot](bank-reconciliation-with-copilot.md)
+  - [Chatte med Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+  - [Oversigt over forslag til marketingtekst](ai-overview.md)
+  - [Foreslå linjer på salgsordrer med Copilot](sales-suggest-sales-lines-with-copilot.md)
+  - [Knytte e-dokumenter til indkøbsordrelinjer med Copilot](map-edocuments-with-copilot.md)
+- Opsætning
+  - [Konfigurere Copilot- og AI-funktioner](enable-ai.md)
+  - [Ofte stillede spørgsmål om ansvarlig AI](responsible-ai-overview.md)
+- Udvikling
+  - [Udvide Copilot i Business Central](/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page)
 
 ## Microsoft Learn-træning
 
 Find gratis e-learning-indhold til [!INCLUDE[prod_short](includes/prod_short.md)] på [Microsoft Learn-træning](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
-Du kan også se videoer af nye og ofte anvendte funktioner i vores videobibliotek. Du kan finde flere oplysninger i [Besøg vores videobibliotek](across-videos.md).  
+Du kan også se videoer af nye og ofte anvendte funktioner i vores videobibliotek. Hvis du vil vide mere, skal du gå til [Besøg vores videobibliotek](across-videos.md).  
 
 ## Community-ressourcer
 
 - [Microsoft Dynamics 365 Business Central Community forum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
-- [Microsoft Dynamics 365 Business Central på Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
+- [Microsoft Dynamics 365 Business Central på Dynamics 365-bloggen](https://www.microsoft.com/dynamics-365/blog/business-leader/product/dynamics-365-business-central/)  
 - [Microsoft Dynamics 365-udgivelsesplaner](/dynamics365/release-plans/)  
-- [Microsoft Dynamics 365 Business Central-oversigt](https://dynamics.microsoft.com/roadmap/business-central/)  
-- [Microsoft Partnernetværk \(kræver medlemskabskonto til Microsoft Partnernetværk\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)  
+- [Microsoft Dynamics 365 Business Central-frigivelsesplaner](https://releaseplans.microsoft.com/?app=Business+Central&group=dynamics-365&subgroup=dynamics-365-business-central) 
+- [Microsoft Partnernetværk \(kræver medlemskabskonto til Microsoft Partnernetværk\)](https://mspartner.microsoft.com)  
 
 ## Få besked om ændringer via en RSS-fødning
 
@@ -104,8 +122,8 @@ Du kan også se videoer af nye og ofte anvendte funktioner i vores videobibliote
 [Nyheder og ændringer](/dynamics365/business-central/dev-itpro/whatsnew/overview)  
 [Vigtige opdateringer og mindre opdateringer af Business Central Online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
 [Dokumentation til Dynamics 365](/dynamics365/)  
-[Dynamics 365 Business Central på microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
-[Udforske Dynamics 365 Business Central-funktioner](https://dynamics.microsoft.com/business-central/capabilities/)  
+[Dynamics 365 Business Central på microsoft.com](https://www.microsoft.com/dynamics-365/products/business-central/)  
+[Udforske Dynamics 365 Business Central-funktioner](https://www.microsoft.com/en-us/dynamics-365/products/business-central#Features)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 

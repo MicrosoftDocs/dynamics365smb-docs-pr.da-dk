@@ -1,16 +1,17 @@
 ---
-title: Organisere varer i kategorier (indeholder video) | Microsoft Docs
+title: Organisere varer i kategorier
 description: Du kan tildele vareattributter og organisere varerne i kategorier for at gøre det nemmere at søge efter og finde varer.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'category, search, attribute, facet'
 ms.search.form: '5730, 5733, 5401'
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="categorize-items"></a>Kategorisere varer
+# Kategorisere varer
 
 Hvis du vil have en oversigt over dine varer og hjælp til at sortere og finde varer, er det nyttigt at arrangere varerne i varekategorier.
 
@@ -19,7 +20,7 @@ Hvis du vil kunne finde varer ud fra egenskaber, kan du tildele vareattributter 
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo?rel=0]
 
-## <a name="to-create-an-item-category"></a>Sådan oprettes en varekategori
+## Sådan oprettes en varekategori
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varekategorier**, og vælg derefter det relaterede link.
 2. På siden **Varekategorier** skal du vælge handlingen **Ny**.
 3. Udfyld felterne efter behov på siden **Varekategorikort** i oversigtspanelet **Generelt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -31,19 +32,19 @@ Hvis du vil kunne finde varer ud fra egenskaber, kan du tildele vareattributter 
 > [!NOTE]  
 > Vareattributter, som du tildeler til en varekategori, anvendes automatisk til den vare, der er tildelt varekategorien.
 
-Hvis du ændrer mening om en varekategori, kan du slette den. Hvis den allerede er tildelt til en vare, skal du fjerne denne tildeling, før du kan slette varekategorien.
+Hvis du ændrer mening om en varekategori, kan du slette den. Hvis kategorien allerede er tildelt til en vare, skal du fjerne denne tildeling på forhånd.
 
-## <a name="to-assign-an-item-category-to-an-item"></a>Sådan tildeles en varekategori til en vare
+## Sådan tildeles en varekategori til en vare
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.
 2. Åbn kortet for den vare, du vil tildele til en varekategori.
 3. Vælg opslagsknappen i feltet **Kategorikode**, og vælg en eksisterende varekategori. Du kan også vælge handlingen **Ny** for først at oprette en ny varekategori som beskrevet i [Sådan oprettes en varekategori](inventory-how-categorize-items.md#to-create-an-item-category).
 
-## <a name="categories-attributes-and-variants"></a>Kategorier, attributter og varianter
+## Kategorier, attributter og varianter
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbejde med vareattributter](inventory-how-work-item-attributes.md)  
 [Administrere produktvarianter](inventory-item-variants.md)  

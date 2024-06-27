@@ -1,17 +1,18 @@
 ---
-title: Konfigurere moms
+title: Opsætte merværdiafgift (moms)
 description: 'Sørg for at beregne, bogføre og rapportere moms på køb og salg korrekt. Du anbefales at bruge den assisterede opsætningsvejledning, når du konfigurerer moms.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'VAT, posting, tax, value-added tax'
 ms.search.form: '10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,'
-ms.date: 01/31/2023
-ms.author: bholtorf
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Konfigurere beregnings- og bogføringsmetoder for moms
+# Opsætte beregnings- og bogføringsmetoder for moms
 
 Forbrugere og virksomheder betaler moms, når de køber varer eller tjenesteydelser. Momsbeløbet, der skal betales, kan variere afhængigt af flere faktorer. I [!INCLUDE[prod_short](includes/prod_short.md)] konfigurerer du moms til at angive de satser, der bruges til at beregne momsbeløb baseret på følgende parametre:
 
@@ -20,32 +21,32 @@ Forbrugere og virksomheder betaler moms, når de køber varer eller tjenesteydel
 * Hvad du sælger  
 * Hvad du køber.  
 
-Du kan konfigurere momsberegninger manuelt, men der kan være svært og tidskrævende. Det er nemt at bruge forskellige momssatser utilsigtet og gøre rapporter vedrørende moms unøjagtige. Det anbefales, at du bruger den assisterende **momsopsætnings**-vejledning i produktet for at gøre moms opsætningen nemmere. 
+Du kan konfigurere momsberegninger manuelt, men der kan være svært og tidskrævende. Det er nemt at bruge forskellige momssatser utilsigtet og gøre rapporter vedrørende moms unøjagtige. Vi anbefaler at bruge den assisterede vejledning **Momsopsætning**, når du konfigurerer moms.
 
-Hvis du selv vil konfigurere momsberegninger eller bare vil vide mere om de enkelte trin, indeholder i denne artikel beskrivelser af de enkelte trin:  
+Hvis du selv vil konfigurere momsberegninger eller bare vil vide mere om de enkelte trin, indeholder i denne artikel beskrivelser af de enkelte trin.  
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
-## <a name="set-up-vat-using-the-assisted-setup-guide-recommended"></a>Konfigurer moms ved hjælp af den assisterede momsopsætningsvejledning (anbefales)
+## Konfigurer moms ved hjælp af den assisterede momsopsætningsvejledning (anbefales)
 
 > [!NOTE]
-> Du kan kun bruge **momsopsætningsvejledningen**, hvis du har oprettet *Min virksomhed* og endnu ikke har bogført transaktioner, der omfatter moms.
+> Du kan kun bruge **Momsopsætningsvejledning**, hvis du har oprettet *Min virksomhed* og endnu ikke har bogført transaktioner, der omfatter moms. Du kan få mere at vide Min virksomhed ved at gå til [Oprette nye virksomheder i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).
 
 For at starte vejledningen skal du gøre følgende:
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, og skriv **Assisteret opsætning**. 
 2. Vælg **Konfigurer moms**, og fuldfør trinnene.
-3. Når du har fuldført den assisterede opsætning, skal du gå til siden **Momsbogf.opsætning** og kontrollere, om du er nødt til at udfylde flere felter i henhold til de landespecifikke krav for din version af [!INCLUDE [prod_short](includes/prod_short.md)]. Flere oplysninger i [Lokal funktionalitet i Business Central](about-localization.md).  
+3. Når du har afsluttet den assisterede opsætning, skal du gå til siden **Momsbogf.opsætning** og kontrollere, om du er nødt til at udfylde flere felter i henhold til de landespecifikke krav for din version af [!INCLUDE [prod_short](includes/prod_short.md)]. Flere oplysninger i [Lokal funktionalitet i Business Central](about-localization.md).  
 
-### <a name="check-the-vat-posting-setup"></a>Kontrollere momsbogføringsopsætningen
+### Kontrollere momsbogføringsopsætningen
 
-For at understøtte dig i hurtig start viser [!INCLUDE [prod_short](includes/prod_short.md)] notifikationer, hvis du mangler finanskonti i bogføringsgrupper eller bogføringsopsætninger, f. eks siden **Momsbogføringsopsætning**. Du kan skifte denne type notifikation til eller fra ved hjælp af *finanskonti, der mangler i bogføringsgruppe eller installationsmeddelelse* på siden **Mine notifikationer**. Gå til siden **Mine indstillinger**, og vælg *Ændr, når jeg modtager notifikationer.* link.  
+For at understøtte dig i hurtig start viser [!INCLUDE [prod_short](includes/prod_short.md)] notifikationer, hvis du mangler finanskonti i bogføringsgrupper eller bogføringsopsætninger, f. eks siden **Momsbogføringsopsætning**. Du kan skifte denne type notifikation til eller fra ved hjælp af **finanskonti, der mangler i bogføringsgruppe eller installationsmeddelelse** på siden **Mine notifikationer**. Gå til siden **Mine indstillinger**, og vælg linket **Ændr, når jeg modtager notifikationer**.  
 
-Hvis du vælger en sådan notifikation, opretter [!INCLUDE [prod_short](includes/prod_short.md)] automatisk disse bogføringsopsætninger på basis af bogføringsgrupperne i det dokument eller den kladde, du arbejder på.  
+Hvis du vælger notifikationen, opretter [!INCLUDE [prod_short](includes/prod_short.md)] automatisk disse bogføringsopsætninger på basis af bogføringsgrupperne i det dokument eller den kladde, du arbejder på.  
 
-På dette tidspunkt kan du nøjes med at udfylde de manglende finanskonti. Men når du senere indsnævrer installationen yderligere, kan du muligvis se, at denne første installation er forkert. Og [!INCLUDE [prod_short](includes/prod_short.md)] tillader ikke sletning af Momsbogføringsopsætning og Bogføringsopsætning, når der er oprettet poster, der er oprettet på baggrund af sådanne varianter. Så fra 2022 udgivelsesbølge 1 kan du bruge feltet **Spærret** på **Bogføringsopsætnings**-siden til at forhindre, at brugere kommer til at følge med en opsætning, der ikke længere er relevant for nye posteringer.
+På dette tidspunkt kan du nøjes med at udfylde de manglende finanskonti. Når du senere indsnævrer din installation yderligere, kan du muligvis se, at din første installation er forkert. [!INCLUDE [prod_short](includes/prod_short.md)] tillader ikke, at du sletter momsbogføringsopsætningen og bogføringsopsætningen, efter at de er brugt til at oprette poster. Hvis du vil forhindre, at brugere kommer til at følge med en opsætning, der ikke længere er relevant for nye posteringer, kan du bruge feltet **Spærret** på siden **Bogføringsopsætning**.
 
-## <a name="set-up-a-default-vat-date-for-documents-and-journals"></a>Oprette en standardmomsdato for dokumenter og kladder
+## Oprette en standardmomsdato for dokumenter og kladder
 
 Momsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] er baseret på **momsdatoen** for at medtage momsposter i momsrapporter i en momsperiode. Momsdatoen kan ændres på alle dokumenter og kladder, men du skal angive en standardværdi for momsdatoen.
 
@@ -61,34 +62,34 @@ Benyt følgende fremgangsmåde for at angive en standardværdi for en momsdato:
 > [!NOTE]
 > Som standard er **standardmomsdatoen** **bogføringsdatoen**.
 
-### <a name="enabling-or-disabling-the-vat-date-feature"></a>Aktivere eller deaktivere funktionen momsdato
+### Aktivere eller deaktivere funktionen momsdato
 
-Nogle lande/områder kræver, at virksomheder bruger en bestemt momsdato, men andre lande/områder ikke. Nogle lande/områder kræver også, at virksomheder ændrer momsdatoen i bestemte situationer, efter at de har bogført bilag, men andre lande tillader ikke ændringer af momsdatoer. Hvis du vil tillade forskellige kontekster, kan du vælge, om du vil bruge denne funktion, f. eks. i hvilken grad.
+Nogle lande/områder kræver, at virksomheder bruger en bestemt momsdato, men andre lande/områder ikke. Nogle lande/områder kræver også, at virksomheder ændrer momsdatoen i bestemte situationer, efter at de bogfører bilag, men andre lande/områder tillader ikke ændringer af momsdatoer. Hvis du vil tillade forskellige kontekster, kan du vælge, om du vil bruge denne funktion, f. eks. i hvilken grad.
 
 Benyt følgende fremgangsmåde for at angive niveauet for brug af momsdato:
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, og skriv **Opsætning af Finans**, og vælg derefter det relaterede link.  
 2. I oversigtspanelet **Generelt** i feltet **momsdatoforbrug** skal du angive, i hvilket omfang funktionen momsdato skal anvendes. Du kan vælge en af disse indstillinger:
 
-| Type | Beskrivlse |
-|--------------------|-----------------------------------------|
-| **Brug funktionaliteten til momskorrektionsdato** | Alt, der er relateret til **momsdato** fungerer som standard med den maksimale **momsdato**-funktionalitet. Du kan angive datoen, ændre den i bilag, rapportere på grundlag af den og ændre datoen efter bogføringen, så længe perioden ikke er lukket eller beskyttet med tilladte datoer for bogføring. |
-| **Anvend men tillad ikke ændringer** | Alt, der er relateret til **momsdatoen** fungerer som standard med én undtagelse. Du kan ikke ændre **momsdatoen** i **momsposter**. |
-| **Brug ikke momsdatofunktionalitet** | [!INCLUDE [prod_short](includes/prod_short.md)] skjuler og gør **momsdato**-felterne ikke tilgængelige for dokumenter, kladder og poster. **Standard momsdato** vil blive konfigureret som **Bogføringsdato**. |
+   | Type | Beskrivlse |
+   |--------------------|-----------------------------------------|
+   | **Brug funktionaliteten til momskorrektionsdato** | Alt, der er relateret til **momsdato** fungerer som standard med den maksimale **momsdato**-funktionalitet. Du kan angive datoen, ændre den i bilag, rapportere på grundlag af den og ændre datoen efter bogføringen, så længe perioden ikke er lukket eller beskyttet med tilladte datoer for bogføring. |
+   | **Anvend men tillad ikke ændringer** | Alt, der er relateret til **momsdatoen** fungerer som standard med én undtagelse. Du kan ikke ændre **momsdatoen** i **momsposter**. |
+   | **Brug ikke momsdatofunktionalitet** | [!INCLUDE [prod_short](includes/prod_short.md)] skjuler og gør **momsdato**-felterne ikke tilgængelige for dokumenter, kladder og poster. **Standard momsdato** vil blive konfigureret som **Bogføringsdato**. |
 
 3. Luk siden.
 
 > [!IMPORTANT]
 > Selvom du vælger indstillingen **Brug ikke momsdatofunktionen**, bruger [!INCLUDE [prod_short](includes/prod_short.md)] **momsdatoen** i baggrunden. Når **Standardmomsdatoen** er konfigureret som **Bogføringsdato**, og du kan ikke ændre den i så fald får du samme oplevelse som uden denne funktion. **Momsdato** felter fjernes fra alle sider, men dette felt findes stadig i tabeller og rapporter fungerer på baggrund af det.
 
-### <a name="limiting-periods-for-posting-and-changing-the-vat-date"></a>Begrænse perioder til bogføring og ændring af momsdatoen
+### Begrænse perioder til bogføring og ændring af momsdatoen
 
 Du kan forhindre, at personer bogfører eller ændrer momsposter inden for bestemte datointervaller. Du kan angive begrænsningen ved hjælp af to indstillinger:
 
 * Baseret på lukket **moms-returperiode**
 * Baseret på felterne **Tillad bogføring fra** og **Bogføring tilladt til**.
 
-#### <a name="to-limit-posting-based-on-vat-return-period"></a>Sådan begrænses bogføringen på basis af momsreturperiode
+#### Sådan begrænses bogføringen på basis af momsreturperiode
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 1.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Opsætning af Finans**, og vælg derefter det relaterede link.  
 2. I oversigtspanelet **Generelt** i feltet **Kontrol af momsperiode** skal du angive kontrol af momsreturperiode. Den følgende tabel beskriver indstillingerne.
@@ -100,12 +101,12 @@ Du kan forhindre, at personer bogfører eller ændrer momsposter inden for beste
 | **Advar ved bogføring i lukket periode** | Vis en advarsel, men blokér ikke bogføring, hvis du vil bogføre et dokument eller en kladde, der har en moms dato inden for en afsluttet **momsreturperiode**. |
 | **Deaktiveret** | Foretag ingen handlinger på basis af en afsluttet **momsreturperiode**. |
 
-#### <a name="limit-posting-based-on-allow-fromto-period"></a>Begrænsning af bogføring baseret på Tillad fra/til periode
+#### Begrænsning af bogføring baseret på Tillad fra/til periode
 
 > [!NOTE]
 > Fra og med Business Central version 23.1 ændres dette kontrolelement. I tidligere versioner var der kun ét kontrolelement på siden **Regnskabsopsætning** for både bogføringsdato og momsdato. Nu er disse kontrolelementer opdelt, så kontrolelementet på siden **Regnskabsopsætning** kun gælder **bogføringsdatoen**, og kontrolelementet **Momsopsætning** på siden kun er for **momsdatoen**. Der er også nye datokontroller på siden **Brugeropsætning**.  
 
-##### <a name="version-231-or-newer"></a>Version 23.1 eller nyere
+##### Version 23.1 eller nyere
 
 > [!IMPORTANT]
 > Når du opgraderer til en ny version, skal du være opmærksom på, at værdierne opgraderes i den nye **Tillad momsdato fra/til** på siden **Momsopsætning** baseret på værdierne i **Tillad bogføring Fra/Til** i **Regnskabsopsætning**. Hvis du vil bruge forskellige datokontroller, skal du åbne siden **Momsopsætning** og foretage ændringer.  
@@ -125,7 +126,7 @@ Sådan begrænses bogføring for en bestemt bruger:
 3. Angiv den momsdato, du tillader bogføring fra, i feltet **Tillad momsdato fra**. Bogføring af et dokument eller en kladde med en momsdato før denne dato er ikke tilladt. 
 4. Angiv den momsdato, du tillader bogføring indtil, i feltet **Tillad momsdato til**. Bogføring af et dokument eller en kladde med en momsdato efter denne dato er ikke tilladt.  
 
-##### <a name="versions-before-231"></a>Versioner før 23.1
+##### Versioner før 23.1 
 
 Du kan angive begrænsning for firmaet eller bestemte brugerniveauer.
 
@@ -142,9 +143,9 @@ Sådan begrænses bogføring for en bestemt bruger:
 3. Angiv den momsdato, du tillader bogføring fra, i feltet **Tillad bogføring fra**. Bogføring af et dokument eller en kladde med en momsdato før denne dato er ikke tilladt.
 4. Angiv den momsdato, du tillader bogføring indtil, i feltet **Tillad bogføring til**. Bogføring af et dokument eller en kladde med en momsdato efter denne dato er ikke tilladt.
 
-## <a name="set-up-vat-registration-numbers-for-your-countryregion"></a>Konfigurere momsregistreringsnumre for dit land eller område
+## Konfigurere momsregistreringsnumre for dit land/område
 
-For at sikre, at brugere angiver gyldige momsregistreringsnumre, kan du definere formater til momsregistreringsnumre, som bruges i de lande eller områder, hvor du handler. [!INCLUDE[prod_short](includes/prod_short.md)] viser en fejlmeddelelse, hvis en bruger laver en fejl eller bruger et format, der er forkert for landet eller området.
+For at sikre, at brugere angiver gyldige momsregistreringsnumre, kan du definere formater til momsregistreringsnumre, som bruges i de lande/områder, hvor du handler. [!INCLUDE[prod_short](includes/prod_short.md)] viser en fejlmeddelelse, hvis en bruger laver en fejl eller bruger et format, der er forkert for land/område.
 
 For at opsætte momsregistreringsnumre, skal du gøre følgende:
 
@@ -159,7 +160,7 @@ For at opsætte momsregistreringsnumre, skal du gøre følgende:
     > [!TIP]
     > Du kan bruge andre tegn, så længe de er altid findes i formatet for landet eller området. Hvis du f.eks. vil medtage et punktum eller en bindestreg mellem sæt af tal, kan du angive formatet som ##.####.### or @@-###-###.  
 
-## <a name="set-up-vat-business-posting-groups"></a>Konfigurere momsvirksomhedsbogføringsgrupper
+## Konfigurere momsvirksomhedsbogføringsgrupper
 
 Formålet med momsvirksomhedsbogføringsgrupper er at repræsentere de markeder, hvor du handler med debitorer og kreditorer, og definere, hvordan moms beregnes og bogføres på hvert enkelt marked. Eksempler på momsvirksomhedsbogføringsgrupper er **Danmark** og **Den Europæiske Union (EU)**.  
 
@@ -172,7 +173,7 @@ Når du vil oprette en momsvirksomhedsbogføringsgruppe, skal du gøre følgende
 
 Du kan oprette standardmomsvirksomhedsbogføringsgrupper ved at linke dem til virksomhedsbogføringsgrupper. [!INCLUDE[prod_short](includes/prod_short.md)] tildeler automatisk momsvirksomhedsbogføringsgruppen, når du tildeler virksomhedsbogføringsgruppen til en debitor, kreditor eller finanskonto.
 
-## <a name="set-up-vat-product-posting-groups"></a>Konfigurere momsproduktbogføringsgrupper
+## Konfigurere momsproduktbogføringsgrupper
 
 Momsproduktbogføringsgrupper repræsenterer de varer eller ressourcer, du køber eller sælger, og bestemmer, hvordan moms beregnes og bogføres i overensstemmelse med typen af vare eller ressource.
 
@@ -183,7 +184,7 @@ Når du vil oprette en momsvirksomhedsbogføringsgruppe, skal du gøre følgende
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 4.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Momsproduktbogf.grupper**, og vælg derefter det relaterede link.  
 2. Udfyld felterne efter behov.
 
-## <a name="combine-vat-posting-groups-in-vat-posting-setups"></a>Kombinere momsbogføringsgrupper i momsbogføringsopsætninger
+## Kombinere momsbogføringsgrupper i momsbogføringsopsætninger
 
 [!INCLUDE[prod_short](includes/prod_short.md)] beregner momsbeløb af køb og salg baseret på momsbogføringsgrupper, der er kombinationer af momsvirksomheds- og -produktbogføringsgrupper. For hver kombination kan du angive momsprocenten, momsberegningstypen og finanskontonumre for bogføring af købs-, salgs- og modtagermoms. Du kan også angive, om moms skal genberegnes, når en kontantrabat anvendes eller modtages.  
 
@@ -197,33 +198,33 @@ Hvis du vil kombinere momsbogføringsopsætninger, skal du gøre følgende:
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 5.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Momsbogf.opsætning**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Tildele momsbogføringsgrupper til flere enheder som standard
+## Tildele momsbogføringsgrupper til flere enheder som standard
 
-Hvis du vil anvende de samme momsbogføringsgrupper på flere enheder, kan du konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til at gøre det som standard. Dette kan gøres på flere måder:
+Hvis du vil anvende de samme momsbogføringsgrupper på flere enheder, kan du konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til at gøre det som standard.
 
-* Du kan tildele momsvirksomhedsbogføringsgrupper til generelle virksomhedsbogføringsgrupper eller debitor- eller kreditorskabeloner
-* Du kan tildele momsproduktbogføringsgrupper til generelle produktbogføringsgrupper  
+* Du kan tildele momsvirksomhedsbogføringsgrupper til generelle virksomhedsbogføringsgrupper eller debitor- eller kreditorskabeloner.
+* Du kan tildele momsproduktbogføringsgrupper til generelle produktbogføringsgrupper.  
 
 Momsvirksomheds- eller produktbogføringsgruppen tildeles, når du vælger en virksomheds- eller produktbogføringsgruppe til en debitor, kreditor, vare eller ressource.
 
-## <a name="assign-vat-posting-groups-to-accounts-customers-vendors-items-and-resources"></a>Tildele momsbogføringsgrupper til konti, debitorer, kreditorer, varer og ressourcer
+## Tildele momsbogføringsgrupper til konti, debitorer, kreditorer, varer og ressourcer
 
 I følgende afsnit beskrives, hvordan du tildeler momsbogføringsgrupper til individuelle poster.
 
-### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>Sådan tildeles momsbogføringsgrupper til individuelle finanskonti
+### Sådan tildeles momsbogføringsgrupper til individuelle finanskonti
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 6.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Kontoplan**, og derefter vælge det relaterede link.  
 2. Åbn **Finanskonto**-kortet for kontoen.  
 3. I oversigtspanelet **Bogføring** i feltet **Bogføringstype** skal du vælge enten **Salg** eller **Køb**.  
 4. Vælg de momsbogføringsgrupper, du vil bruge til salgs- eller købskontoen.  
 
-### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Sådan tildeles momsvirksomhedsbogføringsgrupper til debitorer og kreditorer
+### Sådan tildeles momsvirksomhedsbogføringsgrupper til debitorer og kreditorer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 7.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Debitor** eller **Kreditor**, og vælg derefter det relaterede link.  
 2. Udvid oversigtspanelet **Fakturering** på **Debitor**- eller **Kreditor**-kortet.  
 3. Vælg momsvirksomhedsbogføringsgruppen.  
 
-### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Sådan tildeles momsproduktbogføringsgrupper til individuelle varer og ressourcer
+### Sådan tildeles momsproduktbogføringsgrupper til individuelle varer og ressourcer
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 8.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Vare** eller **Ressource**, og vælg derefter det relaterede link.  
 2. Gør ét af følgende:  
@@ -232,17 +233,17 @@ I følgende afsnit beskrives, hvordan du tildeler momsbogføringsgrupper til ind
     * Udvid oversigtspanelet **Fakturering** på **Ressource**-kortet.  
 3. Vælg momsproduktbogføringsgruppen.  
 
-## <a name="set-up-clauses-to-explain-vat-exemption-or-nonstandard-vat-rates"></a>Konfigurere klausuler, der forklarer momsfritagelse eller ikke-standard-momssatser
+## Konfigurere klausuler, der forklarer momsfritagelse eller ikke-standard-momssatser
 
 Du konfigurerer en momsklausul til at beskrive oplysninger om den moms, der skal anvendes. Oplysningerne kan være påkrævet som påbudt af myndighederne. Når du har konfigureret en momsklausul og tilknyttet den til en momsbogføringsgruppe, vises momsklausulen på udskrevne salgsdokumenter, der bruger momsbogføringsopsætningsgruppen.
 
 Hvis det er nødvendigt, kan du også angive, hvordan momsklausuler skal oversættes til andre sprog. Når du derefter opretter og udskriver et salgsdokument, der indeholder et moms-id, vil det udskrevne dokument indeholde den oversatte momsklausul. Den sprogkode, der er angivet på debitorkortet, bestemmer sproget.
 
-Når ikke-standard-momssatsen anvendes i forskellige typer dokumenter, f.eks. fakturaer eller kreditnotaer, skal virksomheder normalt angive en fritagelsestekst (momsklausul) om, hvorfor der er beregnet en nedsat moms eller ingen moms. Du kan definere forskellige momsklausuler, der skal indgå i forretningsdokumenter, f.eks. faktura eller kreditnota. Dette gøres på siden **Momsklausuler efter dok.type**.
+Når du bruger ikke-standardiserede momssatser i forskellige typer dokumenter, f.eks. fakturaer eller kreditnotaer, skal du muligvis medtage en fritagelsestekst (momsklausul). Fritagelsesteksten angiver, hvorfor du beregnede en nedsat momssats eller nulmomssats. Du kan definere forskellige momsklausuler, der skal medtages i forretningsdokumenter for hver dokumenttype på siden **Momsklausuler efter bilagstype**.
 
-Du kan redigere eller slette en momsklausul, og dine ændringer afspejles i en genereret rapport. Men [!INCLUDE[prod_short](includes/prod_short.md)] bevarer ikke en oversigt over ændringen. På rapporten udskrives og vises momsklausulbeskrivelserne for alle linjer i rapporten sammen med momsbeløbet og momsgrundbeløbet. Hvis en momsklausul ikke er defineret for alle linjer i salgsdokumentet, så udelades hele sektionen, når rapporten udskrives.
+Du kan redigere eller slette en momsklausul, og dine ændringer afspejles i en genereret rapport. Men [!INCLUDE[prod_short](includes/prod_short.md)] bevarer ikke en oversigt over ændringen. På rapporten udskrives og vises momsklausulbeskrivelserne for alle linjer i rapporten sammen med momsbeløbet og momsgrundbeløbet. Hvis en momsklausul ikke er defineret for alle linjer i salgsdokumentet, så udelades hele sektionen, når du udskriver rapporten.
 
-### <a name="to-set-up-vat-clauses"></a>Sådan konfigureres momsklausuler
+### Sådan konfigureres momsklausuler
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 9.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Momsklausuler**, og vælg derefter det relaterede link.  
 2. Oprette en ny linje på siden **Momsklausuler**.  
@@ -253,19 +254,19 @@ Du kan redigere eller slette en momsklausul, og dine ændringer afspejles i en g
 7. Valgfrit: Hvis du vil tildele momsklausulen til en momsbogføringsopsætning med det samme, skal du vælge **Opsætning** og derefter vælge klausulen. Hvis du vil vente, kan du tildele klausulen senere på siden **Momsbogf.opsætning**.  
 8. Valgfrit: Hvis du vil angive, hvordan momsklausulen skal oversættes, skal du vælge handlingen **Oversættelser**.
 
-### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>Sådan tildeles en momsklausul til en momsbogføringsopsætning
+### Sådan tildeles en momsklausul til en momsbogføringsopsætning
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 10.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Momsbogf.opsætning**, og vælg derefter det relaterede link.  
 2. I kolonnen **Momsklausul** skal du vælge den klausul, der skal bruges til hver momsbogføringsopsætning, den gælder for.  
 
-### <a name="to-specify-translations-for-vat-clauses"></a>Sådan angives oversættelser af momsklausuler
+### Sådan angives oversættelser af momsklausuler
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 11.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Momsklausuler**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Oversættelser**.  
 3. I feltet **Sprogkode** skal du vælge det sprog, du vil oversætte til.  
 4. I felterne **Beskrivelse** og **Beskrivelse 2** skal du angive oversættelserne af beskrivelserne. Teksten vises i de oversatte momsrapportdokumenter.  
 
-### <a name="to-specify-extended-text-for-vat-clauses"></a>Sådan angives udvidet tekst til momsklausuler
+### Sådan angives udvidet tekst til momsklausuler
 
 > [!NOTE]  
 > Hvis dit land eller område kræver længere tekst til momsklausuler end standardversionen, kan du angive en længere tekst for moms delsætningen som *udvidet tekst*, så den udskrives på salgs-og købsrapporterne.  
@@ -280,9 +281,9 @@ Du kan redigere eller slette en momsklausul, og dine ændringer afspejles i en g
 8. Markér de relevante felter for de dokumenttyper, hvor den udvidede tekst skal udskrives.  
 9. Luk siden.  
 
-## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Oprette en momsbogføringsopsætning for at håndtere importmoms
+## Oprette en momsbogføringsopsætning for at håndtere importmoms
 
-Du kan bruge funktionen *Importmoms*, når du skal bogføre et dokument, hvor hele beløbet er moms. Du skal bruge funktionen, hvis du modtager en faktura fra skattemyndighederne for moms på importerede varer.  
+Brug funktionen *Importmoms*, når du skal bogføre et dokument, hvor hele beløbet er moms. Du skal bruge funktionen, hvis du modtager en faktura fra skattemyndighederne for moms på importerede varer.  
 
 Når du vil konfigurere koder for importmoms, skal du gøre følgende:  
 
@@ -293,7 +294,7 @@ Når du vil konfigurere koder for importmoms, skal du gøre følgende:
 5. I feltet **Momsberegningstype** skal du vælge **Momskorrektion**.  
 6. Angiv den finanskonto, der skal bruges til bogføring af importmoms, i feltet **Købsmomskonto**. Alle andre konti er valgfrie.  
 
-## <a name="use-reverse-charge-vat-for-trade-between-eu-countriesregions"></a>Bruge modtagermoms for handel mellem EU-lande eller -områder
+## Brug modtagermoms til handel mellem EU-lande/områder
 
 Nogle virksomheder skal bruge modtagermoms, når de handler med andre virksomheder. Denne regel gælder f.eks. for køb fra EU-lande/områder og salg til EU-lande/områder.  
 
@@ -303,33 +304,33 @@ Nogle virksomheder skal bruge modtagermoms, når de handler med andre virksomhed
 > [!TIP]  
 > Du kan kontrollere, at en virksomhed er registreret som momspligtig i et andet EU-land/område ved hjælp af tjenesten til kontrol af SE/CVR-nr. for EU. Tjenesten er tilgængelig og gratis i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger i [Kontrollere CVR-numre](finance-how-validate-vat-registration-number.md).
 
-### <a name="sales-to-eu-countriesregions"></a>Salg til EU-lande eller -områder
+### Salg til EU-lande/områder
 
 Moms beregnes ikke på salg til momspligtige virksomheder i andre EU-lande/regioner. Du skal rapportere værdien af disse salg til EU-lande/områder separat på momsangivelsen.  
 
 For at beregne moms på salg til EU-lande/områder korrekt, skal du:  
 
-* Opret linjer for salg med de samme oplysninger for køb. Hvis du allerede har oprettet linjer på siden **Momsbogf.opsætning** for køb fra EU-lande/områder, kan du også bruge disse linjer til salg.  
+* Opret linjer for salg med de samme oplysninger for køb. Hvis du har oprettet linjer på siden **Momsbogf.opsætning** for køb fra EU-lande/områder, kan du også bruge disse linjer til salg.  
 * Tildele momsvirksomhedsbogføringsgrupperne i feltet **Momsvirksomhedsbogf.gruppe** på oversigtspanelet **Fakturering** på kreditorkort for hver EU-kreditor. Du skal også angive debitorens CVR-nummer i feltet **SE/CVR-nr.** på oversigtspanelet **Udenrigshandel**.  
 
-Når du bogfører salg til en debitor i et andet EU-land/område, beregnes momsbeløbet, og der oprettes en momspost med oplysningerne om modtagermomsen og momsgrundbeløbet, som er det beløb, der bruges til at beregne momsbeløbet. Der bogføres ingen poster på momskontoen i finansposterne.
+Når du bogfører salg til en debitor i et andet EU-land/område, beregner [!INCLUDE [prod_short](includes/prod_short.md)] momsbeløbet, og der oprettes en momspost baseret på oplysningerne om modtagermomsen og momsgrundbeløbet. Dette beløb bruges til at beregne momsbeløbet. Der bogføres ingen poster på momskontoen i finansposterne.
 
 Hvis du vil bruge en kombination af momsvirksomheds- og momsproduktbogføringsgruppe til rapportering som tjenester i de periodiske momsrapporter, skal du markere feltet **EU-tjeneste**.
 
 > [!NOTE]  
 > Feltet **EU-tjeneste** gælder kun for momsrapporter. Feltet er ikke relateret til funktionerne **Servicedeklaration** eller **Intrastat for service** .
 
-## <a name="vat-rounding-for-documents"></a>Momsafrunding for bilag
+## Momsafrunding for bilag
 
-Beløb i de bilag, som endnu ikke er blevet bogført, afrundes og vises, så de svarer til de endelige afrundingsbeløb, som bogføres. Moms beregnes for et helt dokument, hvilket betyder, at moms, der beregnes, er baseret på summen af alle linjer med samme moms-id i dokumentet.  
+Beløb i de bilag, som endnu ikke er blevet bogført, afrundes og vises, så de svarer til de endelige afrundingsbeløb, som bogføres. [!INCLUDE [prod_short](includes/prod_short.md)] beregner moms for et fuldstændigt dokument. Momsberegningen er baseret på summen af alle linjerne i bilaget med det samme moms-id.  
 
-## <a name="set-up-vat-reporting"></a>Konfigurer momsrapportering
+## Konfigurer momsrapportering
 
-Du skal angive oplysninger om, hvordan skattemyndighederne i dit land kræver, at du indsender momsrapporter. Følgende fremgangsmåde viser de mest almindeligt brugte oplysninger. Dit land eller område kan dog kræve yderligere trin. Du kan finde flere oplysninger i den relevante artikel i afsnittet *lokal funktionalitet* i panelet til venstre.
+Du skal angive oplysninger om, hvordan skattemyndighederne i dit land kræver, at du indsender momsrapporter. Følgende fremgangsmåde viser de mest almindeligt brugte oplysninger. Dit land/område kan dog kræve yderligere trin. Du kan finde flere oplysninger i den relevante artikel i afsnittet *lokal funktionalitet* i panelet til venstre.
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere momsangivelsestyper og momsangivelsesnavne](finance-how-setup-vat-statement.md)  
 [Konfigurere ikke-realiseret moms](finance-setup-unrealized-vat.md)  

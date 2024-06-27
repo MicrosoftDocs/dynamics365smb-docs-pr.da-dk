@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'SMTP, mail, Microsoft 365, Outlook'
 ms.search.form: '1831, 1832'
-ms.date: 04/27/2022
+ms.date: 06/14/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="get-the-business-central-add-in-for-outlook"></a>Få Business Central-tilføjelsesprogram til Outlook
+# Hente Business Central-tilføjelsesprogram til Outlook
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du administrere forretningsinteraktioner med dine kunder og leverandører direkte i Microsoft Outlook. Med [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-tilføjelsesprogrammet kan du se økonomiske oplysninger om debitorer og kreditorer. Du kan også oprette og sende regnskabsdokumenter, f. eks. tilbud og fakturaer.  
 
@@ -21,7 +21,7 @@ Der er to måder at få installeret et Business Central-tilføjelsesprogram til 
 
 - Som enhver bruger kan du installere tilføjelsesprogrammet til eget brug, hvis din administrator ikke allerede har implementeret det for dig.
 
-## <a name="about-the-business-central-add-in-for-outlook"></a>Om Business Central-tilføjelsesprogram til Outlook
+## Om Business Central-tilføjelsesprogram til Outlook
 
 Tilføjelsesprogrammet Business Central til Outlook består af to mindre tilføjelsesprogrammer:
 
@@ -40,50 +40,51 @@ Hvert tilføjelsesprogrammet findes som en XML-fil, der kaldes et *manifest*, so
 > [!IMPORTANT]
 > Arbejde med forskellige miljøer? Tilføjelsesprogrammet Business Central til Outlook er beregnet til at fungere sammen med et enkelt Business Central-miljø. Når tilføjelsesprogrammet er installeret, er navnet på miljøet medtaget i tilføjelsesprogrammets manifest. Denne konfiguration betyder, at tilføjelsesprogrammet kun vil oprette forbindelse til det miljø, hvor det blev installeret. Hvis du vil bruge tilføjelsesprogrammet sammen med et andet miljø, skal du åbne miljøet og installere tilføjelsesprogrammet igen.
 
-## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Installere tilføjelsesprogrammet ved hjælp af centraliseret installation som administrator
+## Installere tilføjelsesprogrammet ved hjælp af centraliseret installation som administrator
 
 Centraliseret installation er en funktion i Microsoft 365 Administration, som du bruger til automatisk at installere tilføjelsesprogrammer i brugernes Office-apps, f.eks. Outlook. Det er den anbefalede måde, hvorpå administratorer kan installere til Office-tilføjelsesprogrammer til brugere og grupper i organisationen.
 
 > [!NOTE]
 > Du kan finde flere oplysninger om Business Central-lokalt i [Konfigurere tilføjelsesprogrammet til Outlook-integration med Business Central-lokalt](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) i administrationsindholdet (kun på engelsk).
 
-### <a name="prerequisites"></a>Forudsætninger
+### Forudsætninger
 
 - Et Microsoft 365-abonnement  
 - Brugere får tildelt en Microsoft 365-licens  
 - Din Microsoft 365-konto har rollen som *Global administrator* eller *Exchange-administrator*
 
-### <a name="deploy-the-add-in"></a>Anvende tilføjelsesprogrammet
+### Anvende tilføjelsesprogrammet
 
 1. I Business Central kan du vælge den ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Assisteret opsætning** og vælg derefter det relaterede link.
-2. Vælg **Centraliseret installation af Outlook-tilføjelsesprogrammet** for at starte vejledningen til installation af support.
-3. Gennemse den første side, og vælg **Næste** for at åbne siden til hentning af tilføjelsesprogrammerne.
-4. Marker afkrydsningsfeltet for de tilføjelsesprogrammer, du vil installere, i kolonnen **Installer**, og vælg derefter **Hent og Fortsæt**.
+1. Vælg **Centraliseret installation af Outlook-tilføjelsesprogrammet** for at starte vejledningen til installation af support.
+1. Gennemse den første side, og vælg **Næste** for at åbne siden til hentning af tilføjelsesprogrammerne.
+1. Marker afkrydsningsfeltet for de tilføjelsesprogrammer, du vil installere, i kolonnen **Installer**, og vælg derefter **Hent og Fortsæt**.
 
     En fil med navnet *OutlookAddins.zip* overføres til enheden.
 
-5. På dette tidspunkt er du færdig med det arbejde, du skal udføre i Business central, så du kan vælge **udført**.
+1. På dette tidspunkt er du færdig med det arbejde, du skal udføre i Business central, så du kan vælge **udført**.
 
    >[!TIP]
    > Før du vælger **næste**, skal du vælge **Gå til Microsoft 365 (åbnes i et nyt vindue)** for at åbne og logge på Microsoft 365 Administrationscenter i et nyt browservindue. Du skal alligevel gå til Microsoft 365 Administration Center senere.
 
-6. Gå til den mappe, hvor filen OutlookAddins. zip blev hentet, og Pak filerne **Contact Insights.xml** og **Document View. XML** fra. zip-filen ud til en mappe, du vælger.
+1. Gå til den mappe, hvor filen OutlookAddins. zip blev hentet, og Pak filerne **Contact Insights.xml** og **Document View. XML** fra. zip-filen ud til en mappe, du vælger.
 
     Du kan få flere oplysninger i [Pakke og pakke filer og mapper ud](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-7. Log på Microsoft 365 Administration, og gå til [Integrerede apps](https://go.microsoft.com/fwlink/?linkid=2163967).
+1. Log på Microsoft 365 Administration, og gå til [Integrerede apps](https://go.microsoft.com/fwlink/?linkid=2163967).
 
-8. Vælg **Overfør brugerdefinerede apps**.
-9. På siden **Overfør apps til installation** vælge **Overfør manifest-fil (.xml) fra enhed** > **Vælg fil**.
-10. Vælg en af de tilføjelsesfiler, du har trukket tidligere, f. eks **Contact Insights.xml**.
-11. Følg instruktionerne for at tildele brugere og installere tilføjelsesprogrammet.
-12. Gentag trin 9 til 11 for den anden tilføjelsesprogramfil, hvis du vil.
+1. Vælg **Overfør brugerdefinerede apps**.
+1.  På siden **Upload apps, der skal udrulles** skal du angive **Apptype** til **Office-tilføjelsesprogram**.
+1. Vælg **Upload manifestfil (.xml) fra enheden** > **Vælg fil**.
+1. Vælg en af de tilføjelsesprogramfiler **Context Insights.xml** eller **Documents.xml**, du har trukket tidligere.
+1. Følg instruktionerne for at tildele brugere og installere tilføjelsesprogrammet.
+1. Gentag trin 9 til 11 for den anden tilføjelsesprogramfil, hvis du vil.
 
 > [!IMPORTANT]
 > Der vises en grøn markering, når tilføjelsesprogrammet er installeret i Administrationscenter. Det kan tage op til 24 timer, før brugerne af tilføjelsesprogrammet installeres automatisk i Outlook af brugere. Det kan også være nødvendigt at genstarte Outlook.
 
 Når du er færdig, kan du altid ændre installationen i Microsoft 365 Administration, f.eks. ved at tildele flere brugere. Du kan finde flere oplysninger om installation af tilføjelsesprogrammer i Administration under [Installer tilføjelsesprogrammer i Administration](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installere tilføjelsesprogrammet til eget brug
+## <a name="install"></a>Installere tilføjelsesprogrammet til eget brug
 
 Hvis organisationen tillader det, kan du selv installere det Business Central-tilføjelsesprogram til virksomheden. Kontakt din administrator, hvis du ikke er sikker.
 
@@ -94,7 +95,7 @@ Hvis organisationen tillader det, kan du selv installere det Business Central-ti
 
 Business Central opretter forbindelse til e-mail-serveren og installerer tilføjelsesprogrammet i din Outlook. Det tager ikke lang tid. Du er nu klar til at begynde at bruge tilføjelsesprogrammet i Outlook.
 
-### <a name="for-business-central-on-premises"></a><a name="onprem"></a>Til Business Central i det lokale miljø
+### <a name="onprem"></a>Til Business Central i det lokale miljø
 
 Hvis du bruger Business Central lokalt, kan det være en smule anderledes at installere tilføjelsesprogrammet.
 
@@ -116,9 +117,9 @@ Hvis du bruger Business Central lokalt, kan det være en smule anderledes at ins
 
 Du er nu klar til at begynde at bruge tilføjelsesprogrammet i Outlook.
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Blive køreklar](ui-get-ready-business.md)  
+[Blive køreklar til at foretage handler](ui-get-ready-business.md)  
 [Få Business Central på min mobilenhed](install-mobile-app.md)  
 [Sende dokumenter som mail](ui-how-send-documents-email.md)  
 [Finans](finance.md)  

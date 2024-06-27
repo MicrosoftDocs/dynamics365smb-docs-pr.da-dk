@@ -1,11 +1,11 @@
 ---
-title: Oprette rapporter i Power BI Desktop for at vise Business Central-data | Microsoft Docs
+title: Oprette rapporter i Power BI Desktop til at vise Business Central-data
 description: Gøre dine data tilgængelige som en datakilde i Power BI og opbygge nyttige rapporter over status for din virksomhed.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysis'
-ms.date: 01/22/2024
+ms.date: 06/12/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -15,21 +15,19 @@ ms.reviewer: jswymer
 
 Du kan gøre dine [!INCLUDE[prod_long](includes/prod_long.md)]-data tilgængelige som datakilde i Power BI Desktop og opbygge nyttige rapporter over status for din virksomhed.
 
-Denne artikel beskriver, hvordan du kan komme i gang med at bruge Power BI Desktop til at oprette rapporter, der viser [!INCLUDE[prod_long](includes/prod_long.md)]-data.  Når du har oprettet rapporter, kan du udgive dem til din egen Power BI-tjeneste eller dele dem med andre brugere i din organisation. Når disse rapporter er i Power BI-tjenesten, kan de brugere, der er oprettet til den, se rapporterne i [!INCLUDE[prod_long](includes/prod_long.md)].
+Denne artikel beskriver, hvordan du kan komme i gang med at bruge Power BI Desktop til at oprette rapporter, der viser [!INCLUDE[prod_long](includes/prod_long.md)]-data. Når du har oprettet rapporter, kan du udgive dem til din egen Power BI-tjeneste eller dele dem med andre brugere i din organisation. Når rapporterne er i Power BI-tjenesten, kan de brugere, der er oprettet til den, se rapporterne i [!INCLUDE[prod_long](includes/prod_long.md)].
 
 ## Gør dig klar
 
 - Tilmeld dig Power BI-tjenesten.
 
-  Hvis du ikke allerede har tilmeldt dig, skal du gå til [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Når du tilmelder dig, skal du bruge din mailadresse og adgangskode.
+  Hvis du ikke har tilmeldt dig, skal du gå til [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Når du tilmelder dig, skal du bruge din mailadresse og adgangskode.
 
 - Download [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
   Power BI Desktop er et gratis program, du installerer på din lokale computer. Du kan finde flere oplysninger i [Hurtig start: Opret forbindelse til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
-- Sørg for, at de data, du vil bruge i rapporten, er tilgængelige som en API-side eller udgivet som en webtjeneste.
-
-  Du kan finde flere oplysninger i [Vise data ved hjælp af API-sider eller OData-webtjenester](admin-powerbi-setup.md#exposedata).
+- Sørg for, at de data, du vil bruge i rapporten, er tilgængelige som en API-side eller udgivet som en webtjeneste. Du kan finde flere oplysninger i [Vise data ved hjælp af API-sider eller OData-webtjenester](admin-powerbi-setup.md#exposedata).
 
 <!--- For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, get the following information:
 
@@ -71,9 +69,9 @@ Den første opgave i oprettelsen af rapporter er at tilføje [!INCLUDE[prod_shor
     > [!NOTE]  
     > Når du har oprettet forbindelse til [!INCLUDE[prod_short](includes/prod_short.md)], bliver du ikke bedt om at logge på igen. [Hvordan kan jeg ændre eller rydde den konto, jeg bruger for at oprette forbindelse til Business central fra Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
 
-6. Når forbindelsen er oprettet, kontakter Power BI til Business Central-service. **Navigations**-vinduerne vises, og der vises tilgængelige datakilder til oprettelse af rapporter. Vælg en mappe for at udvide den og få vist de tilgængelige datakilder. 
+6. Når du er tilsluttet, kontakter Power BI servicen [!INCLUDE [prod_short](includes/prod_short.md)]. Vinduet **Navigation** viser de datakilder, der tilgængelige til oprettelse af rapporter. Vælg en mappe for at udvide den og få vist de tilgængelige datakilder.
 
-   Disse datakilder repræsenterer de webtjenester og API'er, som du har publiceret fra for [!INCLUDE [prod_short](includes/prod_short.md)]. Datakilderne er inddelt i Business Central-miljøer og firmaer. Med Business central online har **Navigator** følgende struktur:
+   Disse datakilder repræsenterer de webtjenester og API'er, som du har publiceret for [!INCLUDE [prod_short](includes/prod_short.md)], grupperet efter miljøer og virksomheder. Med [!INCLUDE [prod_short](includes/prod_short.md)] online har **Navigering** følgende struktur:
 
     - **Miljønavn**
       - **Navn på virksomhed**
@@ -129,7 +127,7 @@ Når du har downloadet [!INCLUDE [prod_short](includes/prod_short.md)]-rapportte
 
 ## Udgive rapporter
 
-Når du har oprettet eller redigeret en rapport, kan du udgive rapporten til Power BI-tjenesten og dele den med andre i din organisation. Når den er udgivet, kan du se rapporten i Power BI. Rapporterne kan derefter også vælges i [!INCLUDE[prod_short](includes/prod_short.md)].
+Når du har oprettet eller redigeret en rapport, kan du udgive rapporten til Power BI-tjenesten og dele den med andre i din organisation. Når du har publiceret en rapport, er den tilgængelig i Power BI. Rapporterne kan derefter også vælges i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Hvis du vil udgive en rapport, skal du vælge **Udgiv** på fanen **Startside** på båndet eller i menuen **Filer**. Hvis du er logget på Power BI-tjenesten, udgives rapporten til denne tjeneste. Ellers bliver du bedt om at logge på. 
 
@@ -148,19 +146,28 @@ Du kan få rapporter ud til dine kolleger og andre på flere måder:
 
     Hvis du har en Power BI Pro-licens, kan du dele rapporten med andre direkte fra Power BI-servicen. Du kan finde flere oplysninger i [Power BI - Dele et dashboard eller en rapport](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
+## Sådan udarbejdes rapporter på tværs af virksomheder eller miljø-Power BI-rapporter
+
+ [!INCLUDE[prod_short](includes/prod_short.md)] API-slutpunkterne har alle præfikset `https://api.businesscentral.dynamics.com/v2.0/<environment_name>/api/v2.0` efterfulgt af `/companies({company_id})/accounts({id})`  (her bruger vi API'en `accounts` som illustration). Du kan bruge denne struktur til at oprette PowerQuery-forespørgsler, der indlæser data for flere firmaer eller miljøer, hvis den bruger, der læser data, kan få adgang til dem.
+
+Hvis du vil konfigurere en forespørgsel til indlæsning af data for flere firmaer, skal du følge disse trin:
+
+1. Tag PowerQuery-forespørgslen, der indlæser data for et enkelt firma. Konverter den til en brugerdefineret Power Query-funktion, der bruger firma-id'et (eller måske miljønavnet) som parametre. Du kan få mere at vide ved at gå til Brug af [brugerdefinerede Power Query-funktioner](/power-query/custom-function).
+1. Brug nu den nye brugerdefinerede funktion i en PowerQuery-forespørgsel, hvor du tilknytter funktionen over en liste over firmaer og derefter fletter datasættene ved hjælp af funktionen [Table.Combine](/powerquery-m/table-combine) Power Query.
+
 ## Løsning af problemer
 
 ### "Kan ikke indsætte en post. Den aktuelle forbindelsesmåde er skrivebeskyttet." Fejl ved oprettelse af forbindelse til brugerdefineret API-side
 
 > **GÆLDER FOR:** Business Central online
 
-Fra og med februar 2022 vil nye rapporter, der bruger Business Central-data, som standard oprette en skrivebeskyttet replika af Business Central-database. I sjældne tilfælde får du vist en fejlmeddelelse, når du forsøger at oprette forbindelse til og hente data fra siden, afhængigt af side designet.
+Fra og med februar 2022 vil nye rapporter, der bruger [!INCLUDE [prod_short](includes/prod_short.md)]-data, som standard oprette en skrivebeskyttet replika af [!INCLUDE [prod_short](includes/prod_short.md)]-database. I sjældne tilfælde får du vist en fejlmeddelelse, når du forsøger at oprette forbindelse til og hente data fra siden, afhængigt af side designet.
 
 1. Start Power BI Desktop.
 2. På båndet vælges **Hent data** > **Onlinetjenester**.
 3. I ruden **online tjenester** vælges **Dynamics 365 Business Central**, og klik derefter på **Opret forbindelse**.
 4. Vælg det API-slutpunkt, du vil indlæse data fra, i vinduet **Navigator**.
-5. I indholdsruden til højre vises følgende fejlmeddelelse:
+5. I indholdsruden vises følgende fejl:
 
    *Dynamics365BusinessCentral: Anmodningen mislykkedes: Fjernserveren returnerede en fejl: (400) forkert anmodning. (Kan ikke indsætte en post. Den aktuelle forbindelsesmåde er skrivebeskyttet. Korrelations-id: [...])".*
 

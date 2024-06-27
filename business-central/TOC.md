@@ -200,7 +200,7 @@ ms.service: dynamics-365-business-central
 #### [Bevægelser til berøring og pen](touch-gestures.md)
 ### [Fejlfinding: Adgang til kamera og placering](ui-troubleshooting-camera-location.md)
 ### [Intelligent indsigt (kun online)](about-intelligent-cloud.md)
-## Ofte stillede spørgsmål
+## Fejlfinding og ofte stillede spørgsmål
 ### [Ofte stillede spørgsmål](across-faq.yml)
 ### [Ofte stillede spørgsmål om chat med Copilot (forhåndsversion)](chat-with-copilot-faq.md)
 ### [Ofte stillede spørgsmål om Fortæl mig](ui-search-faq.md)
@@ -209,8 +209,9 @@ ms.service: dynamics-365-business-central
 ### [Ofte stillede spørgsmål om kopiering og indsætning](faq-copy-paste.yml)
 ### [Ofte stillede spørgsmål om mobilapps](ui-mobile-faq.yml)
 ### [Ofte stillede spørgsmål om Teams](teams-faq.md)
-### [Ofte stillede spørgsmål om elektronisk fakturering](faq-electronic-invoicing.yml)
+### [Ofte stillede spørgsmål om elektronisk faktura](faq-electronic-invoicing.yml)
 ### [Minimumkrav](product-requirements.md)
+### [Fejlfinding i Business Central](/troubleshoot/dynamics-365/business-central/welcome-business-central)
 
 ## Hjælp og support
 ### [Ressourcer til hjælp og support](product-help-and-support.md)
@@ -459,6 +460,11 @@ ms.service: dynamics-365-business-central
 #### [Opsætning af bæredygtighed](finance-sustainability-setup.md)
 #### [Diagram over bæredygtighedskonti og finans](finance-sustainability-accounts-ledger.md)
 #### [Sådan kan du registrere drivhusgasudledninger (GHG)](finance-sustainability-journal.md)
+#### Analyse af bæredygtighed
+##### [Ad hoc-analyse af bæredygtighedsdata](ad-hoc-analysis-sustainability.md)
+##### [Indbyggede rapporter om bæredygtighed](sustainability-reports.md)
+#### Bæredygtigheds-API'er
+##### [Bæredygtigheds-API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
 ### [Flere placeringer og internationale organisationer](finance-multi-site-organizations.md)
 #### Konsolidere finansielle data fra flere virksomheder
@@ -600,7 +606,7 @@ ms.service: dynamics-365-business-central
 #### [Oversigt over analyse af anlægsaktiver](fa-analytics-overview.md)
 #### [Ad hoc-analyse af data i anlægsaktiver](ad-hoc-analysis-fa.md)
 #### Indbyggede analyseværktøjer til anlægsaktiver
-##### [Overvåge reparationsomkostninger](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Overvåge reparationsomkostninger](fa-how-maintain.md#monitor-maintenance-costs)
 ##### [Overvåge forsikringsdækning](fa-how-insure.md#to-monitor-insurance-coverage)
 ##### [Vise ændrede afskrivningsprofilværdier](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [Vise anlægsposter](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
@@ -1857,6 +1863,7 @@ ms.service: dynamics-365-business-central
 #### [Vigtige finansielle rapporter](finance-reports.md)
 #### [Rapporter med tilgodehavender](receivables-reports.md)
 #### [Rapporter med leverandører](payables-reports.md)
+#### [Rapporter om bæredygtighed](sustainability-reports.md)
 
 ### [Salgsrapporter](sales-reports.md)
 ### [Købsrapporter](purchase-reports.md)

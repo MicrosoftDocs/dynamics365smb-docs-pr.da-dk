@@ -5,7 +5,7 @@ author: sorenfriisalexandersen
 ms.author: soalex
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 04/25/2023
+ms.date: 06/18/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -24,7 +24,7 @@ Hvis du udvikler [!INCLUDE [prod_short](../includes/prod_short.md)]-udvidelser, 
 
 ## Regnskabet behandler og styrer for at hjælpe med overholdelse
 
-Virksomhederne står over for stigende finansielle regnskabsmæssige udfordringer hvert år. Afhængigt af branche, markeder, geografisk placering og finansieringsbehov kan en organisation være underlagt lokale generelt accepterede bogføringsprincipper (GAAP) og en eller flere af:
+Virksomhederne står over for stigende finansielle regnskabsmæssige udfordringer hvert år. Afhængigt af branche, markeder, geografisk placering og finansieringsbehov kan en organisation være underlagt lokale generelt accepterede bogføringsprincipper<!--note from editor: I assume that "local" means that you're not talking about the standard adopted by the SEC in the US. If this is true, you don't want to use the abbreviation because GAAP is an actual standard, which will need to be spelled out with title caps at first mention.--> og en eller flere af følgende fremgangsmåder:
 
 - SOX (Sarbanes-Oxley Act) er en amerikansk lov, der trådte i kraft i 2002, til beskyttelse af investorer ved at forbedre nøjagtigheden og pålideligheden af virksomhedens oplysninger.
 - Afsnittet International Financial Reporting Standards i EU's internationale normer for regnskabsføring (IAS/IFRS), som trådte i kraft i 2005, angiver internationale normer for regnskabsføring med hensyn til registrering, måling, konsolidering og rapportering.
@@ -54,7 +54,7 @@ Integrerede oplysninger, justerede processer og let anvendelige værktøjer hjæ
 ### Skræddersy finansrapporter til dine behov
 
 - Definer strukturen i virksomhedens kontoplan baseret på forretningsbehov og gældende lovbestemte standarder.
-- Opret konti, og håndter komplekse processer, der er relateret til en række forretningsmæssige aktiviteter, herunder lagerværdi, udenlandske valutaer, segmentrapportering og afvigelser fra lokale GAAP'er.
+- Opret konti, og håndter komplekse processer, der er relateret til en række forretningsmæssige aktiviteter, herunder lagerværdi, udenlandske valutaer, segmentrapportering og afvigelser fra lokale GAAP'er (Generally Accepted Accounting Principles).
 - Styre detaljeringsniveauet for hver registreret transaktion, og vælg detaljerede registrering for bestemte typer transaktioner, f.eks. anlægsaktiver og kreditorer.
 - Skræddersy planlagte beregninger og visninger af finansiel rapportering, eller eksportér oplysningerne til Microsoft Excel for videre analyse.
 
@@ -62,7 +62,7 @@ Integrerede oplysninger, justerede processer og let anvendelige værktøjer hjæ
 
 - Konfigurer datafelter til kun at acceptere oplysninger i det korrekte format, f.eks. det korrekte antal decimaler eller alfanumeriske mønstre.
 - Hjælp med til at sikre at oplysninger er fuldstændige med programstyring, f.eks. krav om at et kreditorfakturanummer angives, før en købsordre kan bogføres.
-- Reducer risikoen for upræcise oplysninger eller uautoriseret adgang, så du beskytter følsomme oplysninger ved hjælp af adgang til oplysninger baseret på jobrolle.
+- Reducer risikoen for upræcise oplysninger    eller uautoriseret adgang, så du beskytter følsomme oplysninger ved hjælp af adgang til oplysninger baseret på jobrolle.
 - Forbyd adgang, give skrivebeskyttet adgang eller giv brugere med fuld adgang mulighed for at tilføje, redigere eller slette oplysningerne.
 - Identificer og løs uoverensstemmelser på en let måde med en afstemningsfunktion, der henter aktuelle bankkonto- og transaktionsoplysninger og sammenligner dem med finansposter.
 - Planlæg manuel eller automatisk sikkerhedskopiering for at beskytte oplysninger mod elektroniske fejl.
@@ -70,8 +70,8 @@ Integrerede oplysninger, justerede processer og let anvendelige værktøjer hjæ
 ### Få hurtigt overholdelse af anmodninger om registrering og rapporteringsbehov
 
 - Spar tid, når du opretter standardrapporter, der anvender fælles forretningsparametre og -kriterier til at opfylde typiske rapporteringsbehov, lige fra ordreoversigter til aldersfordelte tilgodehavender.
-- Udfør komplekse gennemgange med grundlæggende eller avancerede forretningsanalysefunktioner.
-- Oprette brugerdefinerede rapporter med både indbyggede værktøjer og integrationen med Microsoft Power BI.
+- Udfør komplekse gennemgange ved at bruge grundlæggende eller avancerede forretningsanalysefunktioner.
+- Oprette brugerdefinerede rapporter ved at bruge indbyggede værktøjer og integrationen med Microsoft Power BI.
 
 ### Hjælp til at sikre klare revisionsspor
 
@@ -82,19 +82,19 @@ Integrerede oplysninger, justerede processer og let anvendelige værktøjer hjæ
 
 ## Overholdelse og lokal funktionalitet
 
-Microsoft bygger lokaliserede versioner af Business Central med et begrænset antal markeder. Disse sprogversioner fokuserer primært på lovmæssige funktioner i momsområder og finansielle områder, men kan også omfatte andre dele af løsningen. Hvis du vil se, hvad der er omfattet af Microsofts lokaliserede versioner af Business Central, skal du se **Landespecifikke funktioner** i menuen på dette website og vælge et land/område. Få mere at vide i [Lokal funktionalitet](../about-localization.md).  
+Microsoft bygger lokaliserede versioner af Business Central med et begrænset antal markeder. Disse sprogversioner fokuserer primært på lovmæssige funktioner i momsområder og finansielle områder, men kan også omfatte andre dele af løsningen. Hvis du vil se, hvad der er omfattet af Microsofts lokaliserede versioner af Business Central, skal du se **Landespecifikke funktioner** i menuen på dette website og vælge et land/område. Få mere at vide i [Lokal funktionalitet](../about-localization.md). 
 
-> [!NOTE]  
-> **Sarbanes-Oxley: Validering af data og processer**  
-> Sarbanes-Oxley Act fastlægger standarder for bestyrelse, ledelse og revisionsfirmaer i alle amerikanske offentlige virksomheder, herunder evaluering og videregivelse af vurderingen af virksomhedens interne kontrol med finansiel rapportering. Dokumentation og test af kritiske manuelle og automatiserede kontrolfunktioner kræver et stort forbrug af tid og ressourcer af virksomhederne. Business Central er især egnet til datterselskaber af større virksomheder og kan hjælpe med til at understøtte små og mellemstore virksomheder i overholdelsen af Sarbanes-Oxley.
+#### Sarbanes-Oxley: Validering af data og processer
+ 
+Sarbanes-Oxley Act fastlægger standarder for bestyrelse, ledelse og revisionsfirmaer i alle amerikanske offentlige virksomheder, herunder evaluering og videregivelse af vurderingen af virksomhedens interne kontrol med finansiel rapportering. Dokumentation og test af kritiske manuelle og automatiserede kontrolfunktioner kræver et stort forbrug af tid og ressourcer af virksomhederne. Business Central er især egnet til datterselskaber af større virksomheder og kan hjælpe med til at understøtte små og mellemstore virksomheder i overholdelsen af Sarbanes-Oxley.
 
-> [!NOTE]  
-> **IAS/IFRS: Registrering og målingsstandarder**  
-> Afhængigt af de aktuelle lokale GAAP'er, der i øjeblikket bruges, er nogle af de vigtigste ændringer af registrering og måling til IAS/IFRS brugen af principper for markedspris i stedet for historisk kostpris. [!INCLUDE [prod_short](../includes/prod_short.md)] kan hjælpe virksomheder med beregne handelsværdi og nettonutidsværdi (NPV), der fokuserer på eksisterende og forventede pengestrømme i stedet for på historisk købspris. På rapportsiden tilbydes segmentrapportering efter afdeling og geografiske placering.
+#### IAS/IFRS: Registrering og målingsstandarder
+  
+Afhængigt af de aktuelle lokale GAAP'er, der i øjeblikket bruges, er nogle af de vigtigste ændringer af registrering og måling til IAS/IFRS brugen af principper for markedspris i stedet for historisk kostpris. [!INCLUDE [prod_short](../includes/prod_short.md)] kan hjælpe virksomheder med beregne handelsværdi og nettonutidsværdi (NPV), der fokuserer på eksisterende og forventede pengestrømme i stedet for på historisk købspris. På rapportsiden tilbydes segmentrapportering efter afdeling og geografiske placering.
 
-> [!NOTE]  
-> **Basel II: Konsekvenser for rapportering og analyse**  
-> Basel II, der er udviklet af Den Internationale Betalingsbank, hjælper med til at give sikkerhed i det finansielle system på tre vigtige områder: minimumskapitalkrav, proces med gennemgang af tilsynsførende og markedsdisciplin. Selvom aftalen gælder finansielle institutioner og ikke er målrettet mod små og mellemstore virksomheder, har Basel II muligvis nogle følger for disse organisationer med hensyn til rapportering og analyse.
+#### Basel II: Konsekvenser for rapportering og analyse
+
+Basel II, der er udviklet af Den Internationale Betalingsbank, hjælper med til at give sikkerhed i det finansielle system på tre vigtige områder: minimumskapitalkrav, proces med gennemgang af tilsynsførende og markedsdisciplin. Selvom aftalen gælder finansielle institutioner og ikke er målrettet mod små og mellemstore virksomheder, har Basel II muligvis nogle følger for disse organisationer med hensyn til rapportering og analyse.
 
 ## Se også
 
@@ -102,6 +102,6 @@ Microsoft bygger lokaliserede versioner af Business Central med et begrænset an
 [Tjenesteoverholdelse](compliance-service-compliance.md)  
 [Certificeringer](compliance-certifications.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## [!INCLUDE[free_trial_md](../includes/free_trial_md.md)]  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-banner](../includes/footer-banner.md)]

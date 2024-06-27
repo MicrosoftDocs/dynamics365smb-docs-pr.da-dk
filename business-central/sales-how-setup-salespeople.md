@@ -1,5 +1,5 @@
 ---
-title: Oprette en sælger (indeholder video) | Microsoft Docs
+title: Oprette en sælger | Microsoft Docs
 description: 'Du kan angive et id for hver af sælgerne, så du kan registrere sælgerens resultater eller knytte en sælger til en kontakt.'
 author: brentholtorf
 ms.topic: conceptual
@@ -8,8 +8,9 @@ ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="set-up-salespeople"></a>Konfigurere sælgere
+# Konfigurere sælgere
 
 I mange virksomheder er der behov for at kunne følge de enkelte medarbejderes (sælgeres) præstationer som grundlag for beregning af salgsprovision eller bonus. Se f.eks. rapporten **Salgsprovision**. Virksomheden kan også have behov for at knytte en sælger til hver kontakt.
 
@@ -17,14 +18,14 @@ Når du har oprettet en sælger på siden **Sælgere**, kan du vælge sælgeren 
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
-## <a name="to-set-up-a-salesperson-code"></a>Sådan defineres en sælgerkoder
+## Sådan defineres en sælgerkoder
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Sælgere**, og vælg derefter det relaterede link.
 2. På siden **Sælgere** skal du vælge handlingen **Ny**.
 
 Du kan bruge sælgere i forskelligt relationsstyrings- og marketingarbejde. F.eks. kan du tildele opgaver til sælgere, så opgaverne indgår i de salgsmuligheder, der er knyttet til sælgeren. Du kan finde flere oplysninger i [Konfigurere salgsprocesser og -procesfaser for leads](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  

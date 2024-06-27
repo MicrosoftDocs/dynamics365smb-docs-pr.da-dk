@@ -2,25 +2,25 @@
 title: Arbejde med indgående bilag
 description: 'Du kan administrere indgående eksterne virksomhedsdokumenter, f.eks. betalingskvitteringer eller PDF-filer, styre OCR-opgaver og konvertere filerne til elektroniske dokumenter og poster.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
-ms.date: 06/14/2022
-ms.author: bholtorf
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
 ---
-# <a name="incoming-documents"></a>Indgående bilag
+# Indgående bilag
 
 Eksterne forretningsbilag kan komme til din virksomhed som en vedhæftet fil i mail eller som en papirkopi, som du indscanne i en fil. Dette er typisk for køb, hvor sådanne indgående bilagsfiler repræsenterer betalingskvitteringer for udgifter eller mindre køb.
 
 På siden **Indgående bilag** kan du bruge forskellige funktioner til at gennemgå udgiftsbilag, administrere OCR-opgaver og konvertere indgående bilagsfiler, manuelt eller automatisk, til de relevante købs- og salgsdokumenter eller kladdelinjer. Eksterne filer kan tilknyttes i enhver procesfase, herunder til bogførte dokumenter og til de derved oprettede kreditor-, debitor- og finansposter.
 
-## <a name="usage-scenario"></a>Brugsscenarie
+## Brugsscenarie
 
 Du kan registrere filer eller papirkopier, der er modtaget fra samhandelspartnere, i [!INCLUDE[prod_short](includes/prod_short.md)] og oprette en bilagspost. F. eks. en købs-eller salgsfaktura, kreditnota eller en kladdelinje.
 
-Overfør de modtagne filer – eller brug enhedens kamera til at tage et billede – og Opret poster, der repræsenterer de eksterne bilag. Alternativt med PDF-filer eller billedfiler kan du få en ekstern OCR-tjeneste (Optical Character Recognition) til at oprette elektroniske dokumenter, som derefter kan konverteres til dokumentposter i [!INCLUDE[prod_short](includes/prod_short.md)].
+Overfør de modtagne filer – eller brug enhedens kamera til at tage et billede – og Opret poster, der repræsenterer de eksterne bilag. Alternativt med PDF-filer eller billedfiler kan du få en ekstern OCR-service (Optical Character Recognition) til at oprette elektroniske dokumenter, som derefter kan konverteres til dokumentposter i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!NOTE]
 > OCR-funktionen leveres af eksterne udbydere. Vælg en servicepakke, der passer til din organisation og/eller dit land/område. Find tjenester, der er kompatible med [!INCLUDE[prod_short](includes/prod_short.md)], og oplysninger om tilgængelige funktioner på [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
@@ -30,7 +30,7 @@ F.eks. når du modtager en faktura i PDF-format fra en leverandør, kan du sende
 > [!TIP]
 > Oprette indgående bilagsposter i [!INCLUDE[prod_short](includes/prod_short.md)] direkte fra e-mails, der er sendt af leverandører ved hjælp af Outlook-tilføjelsesprogrammet. Du kan finde flere oplysninger i [Brug Business Central som din virksomheds Indbakke i Outlook](work-outlook-addin.md).
 
-## <a name="incoming-document-features"></a>Indgående bilagsfunktioner
+## Indgående bilagsfunktioner
 
 Det indgående bilag kan bestå af følgende primære aktiviteter:
 
@@ -57,7 +57,7 @@ Det indgående bilag kan bestå af følgende primære aktiviteter:
 | Fra siderne **Kontoplan** og **Finansposter** skal du bruge en søgefunktionen til at finde finansposter for bogførte dokumenter, som ikke har indgående bilagsposter og derefter knytte centralt til eksisterende poster eller oprette nye med vedhæftede dokument filer. |[Finde bogførte dokumenter uden indgående bilagsposter](across-how-find-posted-documents-without-income-document-records.md) |
 | Få et større overblik ved at indstille indgående bilagsposter til *Behandlet* for at fjerne dem fra standardvisningen. |[Administrere mange indgående bilagsposter](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Køb](purchasing-manage-purchasing.md)  
 [Redigering af bogførte bilag](across-edit-posted-document.md)  

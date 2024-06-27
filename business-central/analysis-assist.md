@@ -5,37 +5,32 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/14/2024
+ms.date: 06/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
 # Analysere data på lister med hjælp fra Copilot (forhåndsversion)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 I denne artikel forklares det, hvordan du kan bruge *analyseassistenten* som en hjælp til at analysere data på listesider.
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Om analyseassistent
 
 Analyseassistent er en Copilot for [analysetilstanden](analysis-mode.md) på listesider i Business Central. Analysetilstand er en interaktiv og alsidig måde at beregne, opsummere og gennemgå data på. Hvis du vil analysere data i analysetilstand, skal du oprette en *analysefane*, hvor du transformerer dataene, så de viser de ønskede sammenlægninger og opsummeringer. Du kan f.eks. arrangere felter i rækker og kolonner, angive filtre, sortere kolonner og pivotere felter. Med analysehjælp opnår du i stedet for at udføre denne opgave manuelt meget af det samme&mdash;eller mindst som en start&mdash;ved at bruge ord. Ved at udtrykke den ønskede struktur i naturligt sprog, f.eks. "sorter efter mængde fra mindste til største" eller "vis gennemsnitlig pris pr. kategori", bruger analyseassistenten AI til at generere et foreslået layout på en analysefane.
 
+## Tilgængelige sprog
 
-<!-- 
+[!INCLUDE[analysis-assist-language-support](includes/analysis-assist-language-support.md)]
 
- However, the data analysis mode requires some understanding of how to structure fields to meet the desired aggregations and summarizations. It requires you to move fields around to the appropriate areas within analysis mode pane which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals. Analysis assist minimizes these requirments by enabling you to express the desired layout in words. , like "group which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals
---> 
 ## Forudsætninger
 
 - Analyseassistentfunktionen er aktiveret, og du får tilladelse til at bruge den. Denne opgave er udføres typisk af en administrator. [Du kan finde flere oplysninger i konfigurere Copilot og AI-funktioner](enable-ai.md).
-- Visningssproget i Business Central er angivet til en af følgende engelske landestandarder: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Få flere oplysninger om, hvordan du ændrer sproget](ui-change-basic-settings.md#language).
-- Dit Business Central-miljø er i alle lande/områder undtagen Canada (denne funktion er endnu ikke tilgængelig i Canada).
-
-<!--
-> [!NOTE]
-> You may notice some list pages that don't include the **Analyze** switch for changing to the analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.-->
+<!-- - The display language in Business Central is set to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn how to change the language](ui-change-basic-settings.md#language)-->
+<!-- - Your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).-->
 
 ## Kom i gang
 
@@ -48,7 +43,7 @@ Analyseassistent er en Copilot for [analysetilstanden](analysis-mode.md) på lis
     - På handlingslinjen øverst på siden skal du vælge ![Viser copilotikonet](media/copilot-icon.png) **Copilot** > **Analyze-listen**.
     - På handlingslinjen øverst på siden skal du vælge ![Viser ikonet for indtastningsanalysetilstand](media/analysis-mode-icon.png) **Skift til analysetilstand**, og vælg derefter ![Vis copilotikonet](media/copilot-icon.png) **Copilot** > **Opret ny analyse**.
 
-1. I vinduet **Analysér** med Copilot skal du indtaste en beskrivelse af det ønskede layout. Denne beskrivelse kaldes en *prompt*.
+1. I vinduet **Analysér varer** med Copilot skal du indtaste en beskrivelse af det ønskede layout. Denne beskrivelse kaldes en *prompt*.
 
     ![Viser analyseassistenten Copilot](media/analysis-assist.png)
 
@@ -61,7 +56,7 @@ Analyseassistent er en Copilot for [analysetilstanden](analysis-mode.md) på lis
    > [!NOTE]
    > Hvis du navigerer væk fra den nye analysefane (f.eks. går til en anden analysefane eller -side) eller foretager layoutændringer på fanen (f.eks. sorterer kolonner eller ændrer indstillinger under fanerne **Kolonner** og **Analysefiltre**), gemmes den nye analysefane automatisk, og Copilot lukkes.
 
-1. Hvis du vil ændre den genererede analyse, kan du udføre et af trinnene:
+1. Hvis du vil ændre den genererede analyse, kan du udføre et af disse trin:
 
    - Hvis du vil bygge videre på de tidligere instruktioner, skal du angive oplysningerne i feltet **Tilføj flere oplysninger om analysen** og derefter vælge ![Vis justeringspilen](media/analysis-assist-adjust-button.png) **Juster**-pilen. Copilot husker dine tidligere instruktioner og bruger dem til at foretage justeringer.
 
@@ -87,7 +82,7 @@ Følgende prompteksempler bruger analyseassistenten på listen **Elementer**. Si
 
 Prompt: `Show items by brand and unit of measure`
 
-Denne prompt forsøger at vise totaler for alle sumfelter, grupperet efter mærke og feltet **Basisenhed**. Men i dette tilfælde stemmer "brand" ikke overens med noget feltnavn, så Copilot kan sandsynligvis ikke finde et tilsvarende felt, så det beder dig om at omformulere prompten og prøve igen.
+Denne prompt forsøger at vise totaler for alle sumfelter, grupperet efter mærke og feltet **Basisenhed**. Men i dette tilfælde stemmer "brand" ikke overens med noget feltnavn, så Copilot kan sandsynligvis ikke finde et tilsvarende felt. Derefter bliver du bedt om at omformulere prompten og prøve igen.
 
 Prompt: `Show items by type and uom`
 

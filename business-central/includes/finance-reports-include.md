@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 09/22/2022
+ms.date: 06/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -9,10 +9,10 @@ ms.reviewer: bholtorf
 
 I følgende tabel beskrives nogle af nøglerapporterne.
 
-| Rapport | Beskrivelse | Id | 
+| Rapport | Beskrivelse | Id |
 |--|--|--|
 | [Balance](https://businesscentral.dynamics.com?report=6) | Viser kontoplanen med saldi og bevægelser. Du kan f.eks. vælge at få vist en råbalance for udvalgte dimensioner eller bruge rapporten ved afslutningen af en regnskabsperiode eller ved årsopgørelsen. | 6 |
-| [Råbalance efter periode](https://businesscentral.dynamics.com?report=38) | Viser primosaldoen efter finanskonto, bevægelserne i den valgte periode for måned, kvartal eller år og den resulterende ultimosaldo. <br>Tip: kan bruges til at vise avance og tab (P/L) med en total for hver måned.| 38 |
+| [Råbalance efter periode](https://businesscentral.dynamics.com?report=38) | Viser primosaldoen efter finanskonto, bevægelserne i den valgte periode for måned, kvartal eller år og den resulterende ultimosaldo. <br>Tip: Rapporten kan vise avance og tab (P/L) med en total for hver måned.| 38 |
 | [Balance/budget](https://businesscentral.dynamics.com?report=9) | Viser en balance, der sammenlignes med et budget. Du kan vælge at få vist en balance for udvalgte dimensioner. Brug denne rapport ved afslutningen af en regnskabsperiode eller ved årsafslutningen. | 9 |
 | [Detaljeret råbalance](https://businesscentral.dynamics.com?report=4) | Viser detaljeret råbalance for udvalgte finanskonti. Du kan angive, hvilke konti der skal med i rapporten, ved at sætte forskellige filtre. Brug denne rapport ved afslutningen af en regnskabsperiode eller ved årsafslutningen. | 4 |
 | [Balance/sidste år](https://businesscentral.dynamics.com?report=7) | Viser en balance, der sammenlignes med tallene fra sidste år. Du kan vælge at få vist en balance for udvalgte dimensioner. Brug denne rapport ved afslutningen af en regnskabsperiode eller ved årsafslutningen. *Sidste år* betyder samme periode i sidste kalenderår. | 7 | 
