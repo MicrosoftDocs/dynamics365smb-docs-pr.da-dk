@@ -6,13 +6,13 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 05/08/2024
+ms.date: 06/19/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="sustainability-management-overview"></a>Oversigt over Ledelse af bæredygtighed
+# Oversigt over Ledelse af bæredygtighed
 
 > [!IMPORTANT]
 > Denne funktion vil være tilgængelig i Business Central fra **udgivelsesbølge 1** i 2024. Alle referencelinks aktiveres, når de er tilgængelige.
@@ -39,16 +39,25 @@ Se følgende artikler for at komme i gang med bæredygtighedsstyring.
 
 | Artikel | Beskrivelse |
 |---------|-------------|
+| **Funktion** |             |
 | [Opsætning af bæredygtighed](finance-sustainability-setup.md) | Denne artikel indeholder oplysninger, der kan hjælpe dig med at konfigurere hele bæredygtighedsmodulet korrekt. |
-| [Diagram over bæredygtighedskonti og finans](finance-sustainability-accounts-ledger.md) | Denne artikel indeholder oplysninger om, hvordan du konfigurerer diagram over bæredygtighedskonti (CoSA), kontokategorier og underkategorier korrekt, og hvordan du analyserer oplysninger i finansposter for bæredygtighed. |
+| [Diagram over bæredygtighedskonti og finans](finance-sustainability-accounts-ledger.md) | Denne artikel indeholder oplysninger om, hvordan du konfigurerer diagrammer over bæredygtighedskonti, kontokategorier og underkategorier. Og også, hvordan man analyserer oplysninger i bæredygtighedsposter. |
 | [Registrer bæredygtighedsposter](finance-sustainability-journal.md) | Brug denne artikel til at lære, hvordan du arbejder med alle typer bæredygtighedskladder. |
+| **Rapportering** |             |
+| [Ad hoc-analyse af bæredygtighedsdata](ad-hoc-analysis-sustainability.md) | I artikel beskriver, hvordan du bruger ad-hoc analyse til at analysere bæredygtighedsdata direkte fra listesider og forespørgsler. |
+| [Bæredygtighedsrapporter og -analyser i Business Central](sustainability-reports.md) | Denne artikel indeholder oplysninger om, hvordan du bruger integrerede rapporter og analyser, der er relateret til bæredygtighed i Business Central. |
+| **Integrationer** |             |
+| [Bæredygtigheds-API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json) | Brug denne artikel til at få mere at vide om, hvordan du opretter forbundne apps, der opretter en punkt-til-punkt-forbindelse mellem Business Central og ikke-Microsoft sustainability-løsninger eller -tjenester ved hjælp af API'er. |
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Opsætning af bæredygtighed](finance-sustainability-setup.md)  
-[Diagram over bæredygtighedskonti og finans](finance-sustainability-accounts-ledger.md)  
-[Registrer bæredygtighedsposter](finance-sustainability-journal.md)  
-[Finans](finance.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Opsætning af bæredygtighed](finance-sustainability-setup.md)    
+[Diagram over bæredygtighedskonti og finans](finance-sustainability-accounts-ledger.md)    
+[Registrer bæredygtighedsposter](finance-sustainability-journal.md)    
+[Ad hoc-analyse af bæredygtighedsdata](ad-hoc-analysis-sustainability.md)    
+[Bæredygtighedsrapporter og -analyser i Business Central](sustainability-reports.md)   
+[Bæredygtigheds-API](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)    
+[Finance](finance.md)    
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

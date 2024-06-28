@@ -2127,6 +2127,7 @@ ms.service: dynamics-365-business-central
 ### [Ofte stillede spørgsmål om tilknytning af e-dokumenter med indkøbsordrer vha. Copilot](faqs-map-edocuments.md)
 # Ansvarlig kunstig intelligens
 ## [Oversigt](responsible-ai-overview.md)
+## [Ofte stillede spørgsmål om Copilots datasikkerhed og beskyttelse af personlige oplysninger](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [Ofte stillede spørgsmål om analyseassistent (forhåndsversion)](faqs-analysis-assist.md)
 ## [Ofte stillede spørgsmål om hjælp til bankafstemning (forhåndsversion)](faqs-bank-reconciliation.md)
 ## [Ofte stillede spørgsmål om chat med Copilot (forhåndsversion)](faqs-chat-with-copilot.md)
