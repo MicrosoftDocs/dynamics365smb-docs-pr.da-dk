@@ -11,7 +11,7 @@ ms.search.form: '1290, 1291, 1293, 1294'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Udligning af betalinger automatisk og afstemning af bankkonti
+# <a name="apply-payments-automatically-and-reconciling-bank-accounts"></a>Udligning af betalinger automatisk og afstemning af bankkonti
 
 Rutinemæssigt skal du afstemme dine bank-, debet- og kreditkonti ved at udligne betalinger, der er registreret på din bankkonto, til deres relaterede åbne (ubetalte) fakturaer og kreditnotaer eller andre åbne poster i [!INCLUDE[prod_short](includes/prod_short.md)].  
 

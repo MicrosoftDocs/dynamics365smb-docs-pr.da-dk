@@ -25,7 +25,7 @@ Når betalinger er behandlet, og banken har informeret om det, kan du bogføre b
 > [!NOTE]  
 > Hvis du vil samle betalinger ved hjælp af SEPA Direct Debit, skal valutaen på salgsfakturaen være i EURO.  
 
-## <a name="setting-up-sepa-direct-debit"></a>Konfigurere SEPA Direct Debit
+## <a name="how-to-set-up-sepa-direct-debit"></a>Konfigurere SEPA Direct Debit
 
 Fra siden **Direct Debit-opkrævninger** kan du eksportere instruktioner til din netbank for at udføre en direkte debiteringsopkrævning fra debitorens bankkonto til din bankkonto ifølge SEPA Direct Debit-format.
 

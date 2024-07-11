@@ -37,7 +37,7 @@ Hvis du ikke allerede har oprettet et brugerdefineret rapportlayout til dokument
 3. På siden **Dokumentlayouts** skal du på linjen for det rapportlayout, som du ønsker, skal bruge et brugerdefineret layout, vælge feltet **Beskrivelse af brugerdefineret layout**.
 4. På siden **Brugerdefinerede rapportlayouts** skal du vælge det specielle dokumentlayout, som du vil bruge til den pågældende salgsdokumenttype. Du kan finde flere oplysninger i [Oprette og ændre et brugerdefineret rapportlayouts](ui-how-create-custom-report-layout.md).
 
-## <a name="to-specify-which-contact-will-receive-which-document-layout-for-a-customer"></a>Sådan angives det, hvilken kontaktperson, der modtager et givent dokumentlayout for en debitor
+## <a name="to-specify-which-contact-receives-which-document-layout-for-a-customer"></a>Sådan angives det, hvilken kontaktperson, der modtager et givent dokumentlayout for en debitor
 
 Hvis du vil spare tid, når du sender dokumenter til kunde-og leverandør kontaktpersoner via e-mail, skal du angive deres e-mail-adresser på dokumentlayout. F.eks. kan du altid sende et kontoudtog til revisionskontakter og salgsordrer til din kundes indkøbere og købsordrer til leverandørernes sælgere.
 
