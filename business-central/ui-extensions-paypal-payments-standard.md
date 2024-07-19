@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Udvidelsen PayPal Payments Standard
+# <a name="the-paypal-payments-standard-extension"></a>Udvidelsen PayPal Payments Standard
 
 Standardudvidelsen PayPal Payments kan hjælpe dig med at øge dit kundeserviceniveau ved at gøre det nemmere for dine kunder at betale deres regninger.
 
@@ -29,7 +29,7 @@ Tjenesten PayPal Payments Standard giver følgende fordele:
 
 Du kan få mere at vide om, hvordan du konfigurerer udvidelsen, ved at gå til [Aktivér debitorbetaling via PayPal](sales-how-enable-payment-service-extensions.md).
 
-## Registrer betalinger automatisk for virksomhedskonti
+## <a name="register-payments-automatically-for-business-accounts"></a>Registrer betalinger automatisk for virksomhedskonti
 
 [!INCLUDE [prod_short](includes/prod_short.md)] kan registrere betalinger automatisk, hvis du har en Business Merchant-konto til PayPal Commerce Platform. Når dine kunder bruger PayPal sammenkæde til at betale en faktura, [!INCLUDE [prod_short](includes/prod_short.md)]  bogfører du posterne og lukker dokumentet.
 
@@ -38,7 +38,7 @@ Hvis du vil bruge denne funktion, **skal du aktivere** Til/fra-knappen Registrer
 > [!TIP]
 > Udviklere kan bruge sandkassekonti til at teste opsætningen. For at gøre det skal du ændre PayPal-URL'en til **sandbox.paypal.com**. [!INCLUDE [prod_short](includes/prod_short.md)] bruger PayPals IPN (Instant Payment Notification) via notify_url.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjælp af udvidelser](ui-extensions.md)  
 [Konfigurere salg](sales-setup-sales.md)  
