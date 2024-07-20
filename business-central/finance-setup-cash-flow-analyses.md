@@ -11,7 +11,7 @@ ms.search.form: '846, 847, 849, 851, 855, 862, 869, 1818'
 ms.date: 07/01/2024
 ms.service: dynamics-365-business-central
 ---
-# Opsætning af pengestrømsanalyse
+# <a name="setting-up-cash-flow-analysis"></a>Opsætning af pengestrømsanalyse
 
 Hvis du vil have hjælp til at beslutte, hvad du skal gøre med dine likvide midler, kan du få et overblik vha. diagrammerne i rollecenteret Regnskabsmedarbejder:
 
@@ -25,7 +25,7 @@ Denne artikel beskriver, hvor data i diagrammerne kommer fra, og om nødvendigt,
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mJhc?rel=0]
 
-## Diagrammerne Kassebeholdningsproces og Indtægter og udgifter
+## <a name="the-cash-cycle-and-income--expense-charts"></a>Diagrammerne Kassebeholdningsproces og Indtægter og udgifter
 
 Diagrammere **Kassebeholdningsproces** og **Indtægter og udgifter** er klar til brug, baseret på kontoplanen og finansrapporter. Kontiene er, hvor dataene kommer fra, og finansrapporterne beregner forholdet mellem salg og tilgodehavender. Der findes allerede nogle konti og finansrapporter. Du kan bruge dem, som der er, ændre dem og tilføje nye. Hvis du tilføjer finanskonti i kontoplanen, f.eks. ved at importere dem fra QuickBooks, skal du oprette en tilknytning til kontiene på siden **Finansrapporter** for følgende rapporter:
 
@@ -44,7 +44,7 @@ Angiv kontiene i feltet **Sammentælling** for **Nettoomsætning i alt**, **Tilg
 > [!TIP] 
 > Kontroller tilknytningen ved at vælge handlingen **Oversigt**.  
 
-## Konfigurere diagrammet Pengestrøm
+## <a name="set-up-the-cash-flow-chart"></a>Konfigurere diagrammet Pengestrøm
 
 Diagrammet Pengestrøm er baseret på:  
 
@@ -55,7 +55,7 @@ For at hjælpe dig i gang findes der i [!INCLUDE [prod_short](includes/prod_shor
 
 Du konfigurerer kontiene ved at søge efter **Pengestrømskonti**, vælge linket og derefter udfylde felterne. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Gentag disse trin for **Pengestrømsopsætning**.
 
-## Konfigurere pengestrømsprognoser
+## <a name="set-up-cash-flow-forecasts"></a>Konfigurere pengestrømsprognoser
 
 Diagrammet **Pengestrømsprognose** bruger pengestrømskonti, pengestrømsopsætninger og pengestrømsbudgetter. Nogle får du leveret, men du kan oprette dine egne ved hjælp af en assisteret opsætningsvejledning. Vejledningen hjælper dig med at angive ting som:
 
@@ -85,7 +85,7 @@ Sådan bruges en manuel proces:
 > [!TIP]  
 > Overvej længden på de perioder, som tjenesten skal bruge i beregningerne. Jo flere data du angiver, desto mere nøjagtige forudsigelser får du. Hold også øje med store variationer mellem perioderne. De kan også påvirke forudsigelserne. Hvis Azure AI ikke finder nok data, eller dataene varierer meget, opretter tjenesten ikke en forudsigelse.  
 
-## Designoplysninger
+## <a name="design-details"></a>Designoplysninger
 
 Abonnementer på [!INCLUDE[prod_short](includes/prod_short.md)] giver adgang til flere prognosewebtjenester i alle områder, hvor [!INCLUDE[prod_short](includes/prod_short.md)] er tilgængelig. Få mere at vide på Microsoft Dynamics 365 Business Central-licensvejledning. Denne vejledning kan hentes på webstedet for [Business Central](https://dynamics.microsoft.com/business-central/overview/).
 
@@ -95,11 +95,11 @@ Disse webtjenester har ingen status, hvilket betyder, at de kun bruger data til 
 >
 > Du kan bruge din egen prognosewebtjeneste. Du kan finde flere oplysninger i [Oprette og bruge din egen prognosewebtjeneste til pengestrømsprognoser](#AnchorText).
 
-### Data, der kræves i forbindelse med prognoser
+### <a name="data-required-for-forecast"></a>Data, der kræves i forbindelse med prognoser
 
 Webtjenester kræver historiske data fra tilgodehavender, skyldige beløb og skat for at udarbejde prognoser om fremtidige indtægter og udgifter.
 
-#### Tilgodehavender
+#### <a name="receivables"></a>Tilgodehavender
 
 Felterne **Forfaldsdato** og **Beløb (RV)** på siden **Debitorposter**, hvor:
 
@@ -108,7 +108,7 @@ Felterne **Forfaldsdato** og **Beløb (RV)** på siden **Debitorposter**, hvor:
 
 Før den bruger prognosewebtjenesten, komprimerer [!INCLUDE[prod_short](includes/prod_short.md)] transaktioner efter **Forfaldsdato** baseret på værdien i feltet **Periodetype** på siden **Pengestrømskonfiguration**.
 
-#### Gæld
+#### <a name="payables"></a>Gæld
 
 Felterne **Forfaldsdato** og **Beløb (RV)** på siden **Kreditorposter**, hvor:
 
@@ -117,7 +117,7 @@ Felterne **Forfaldsdato** og **Beløb (RV)** på siden **Kreditorposter**, hvor:
 
 Før den bruger prognosewebtjenesten, komprimerer [!INCLUDE[prod_short](includes/prod_short.md)] transaktioner efter **Forfaldsdato** baseret på værdien i feltet **Periodetype** på siden **Pengestrømskonfiguration**.
 
-#### Skat
+#### <a name="tax"></a>Skat
 
 Felterne **Dokumentdato** og **Beløb** på siden **Momsvareposter (skat)**, hvor:
 
@@ -126,7 +126,7 @@ Felterne **Dokumentdato** og **Beløb** på siden **Momsvareposter (skat)**, hvo
 
 Før den bruger prognosewebtjenesten, komprimerer [!INCLUDE[prod_short](includes/prod_short.md)] transaktioner efter **Dokumentdato** baseret på værdien i feltet **Periodetype** på siden **Pengestrømskonfiguration**.
 
-## <a name="AnchorText"></a>Oprette og bruge din egen prognosewebtjeneste til pengestrømsprognoser
+## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts"></a><a name="AnchorText"></a>Oprette og bruge din egen prognosewebtjeneste til pengestrømsprognoser
 
 For [!INCLUDE[prod_short](includes/prod_short.md)] online udgives modellen af Microsoft og er forbundet med Microsoft-abonnementet. Hvis du vil have andre udrulningsmuligheder, skal du oprette Machine Learning-ressourcer i dit eget Azure-abonnement. Du kan finde eksempeltrin i [prøvelager](https://github.com/microsoft/BCTech/tree/master/samples/MachineLearning). Formålet med denne opgave er at hente API-URI'en og API-nøglen.
 
@@ -134,7 +134,7 @@ For [!INCLUDE[prod_short](includes/prod_short.md)] online udgives modellen af Mi
 2. Udvid oversigtspanelet **Azure AI**, og Udfyld derefter felterne, herunder API-URL-adressen og API-nøglen fra Azure Machine Learning Studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. I Rollecenteret Regnskabsmedarbejder skal du vælge handlingen **Genberegn prognose** under diagrammet **Pengestrømsprognose**.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Analysere pengestrømme i din virksomhed](finance-analyze-cash-flow.md)  
 [Konfigurere Finans](finance-setup-finance.md)  

@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Administrere AppSource-apps
+# <a name="manage-appsource-apps"></a>Administrere AppSource-apps
  
 Indefra [!INCLUDE[prod_short](includes/prod_short.md)] kan du finde, se, sortere og filtrere tilgængelige AppSource-apps, der integreres med [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -27,6 +27,6 @@ På siden finder du følgende handlinger:
  
 Som med andre listesider får du f.eks. understøttelse af analysetilstand, så du kan gruppere apps efter udgiver. Brug Copilot til at designe en **analysetilstandsvisning** for dig.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Tilpasse Business Central Online ved brug af apps](ui-extensions.md)  
