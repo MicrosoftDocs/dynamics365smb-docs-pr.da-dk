@@ -5,53 +5,41 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 09/15/2023
+ms.date: 04/29/2024
 ms.custom: bap-template
 ms.search.form: '672, 673, 674, 671'
 ms.service: dynamics-365-business-central
 ---
-# <a name="use-job-queues-to-schedule-tasks"></a>Bruge sagskøer til at planlægge opgaver
+# Bruge sagskøer til at planlægge opgaver
 
 Brug siden **Opgavekøposter** til at planlægge og køre specifikke rapporter og kodeenheder. Du kan angive opgaver, der skal køres én gang eller gentagne gange. Du kan f.eks. køre rapporten **Sælger * salgsstatistik** hver uge for at spore salget pr. sælger, eller du kan køre codeunit **Uddeleger godkendelsesanmodninger** dagligt for at forhindre, at dokumenter hober sig op.
 
-Siden Opgavekøposter viser alle eksisterende sager. Hvis du tilføjer en ny opgavekøpost, der skal køres i en plan, skal du angive nogle oplysninger. Eksempler:
+Siden **Opgavekøposter** viser alle eksisterende sager. Hvis du tilføjer en ny opgavekøpost, der kører i en plan, skal du angive nogle oplysninger. Eksempler:
 
-* Den type objekt, der skal køres, f. eks. en rapport eller codeunit. Du skal have tilladelse til at køre den bestemte rapport eller codeunit.
+* Den type objekt, der skal køres, f. eks. en rapport eller codeunit. Du skal have tilladelse til at køre rapporten eller codeunit.
 * Navn og objekt-id for objektet.
 * Parametre for at angive funktionsmåden for opgavekøposten. Du kan f.eks. tilføje en parameter til kun at sende bogførte salgsordrer.
-* Når og hvor ofte, vil opgavekøposten køre.
+* Planen for, hvornår og hvor ofte opgavekøposten kører.
 
 > [!IMPORTANT]  
 > Hvis du er tildelt tilladelsessættet SUPER, der følger med [!INCLUDE[prod_short](includes/prod_short.md)], har du tilladelse til at køre alle objekter inden for licensen. Hvis du har rollen Stedfortræderadministrator, kan du oprette og planlægge opgavekøposter, men kun administratorer og licenserede brugere kan køre dem.
 
-Når opgavekøer er konfigureret og kører, kan status ændres på følgende måde i hver gentagede periode:
+Når en opgave er afsluttet korrekt, fjernes [!INCLUDE [prod_short](includes/prod_short.md)] fra listen over opgavekøposter, medmindre det er en tilbagevendende opgave. Hvis det er tilbagevendende opgaver, justeres feltet **Tidligste starttidspunkt** og vises, næste gang opgaven forventes at køre.
 
-* **I venteposition**  
-* **Klar**  
-* **Igangsat**  
-* **Fejl**  
-* **Færdig**  
-* **Afvent pga. inaktivitet**
-
-> [!NOTE]
-> Statussen **Sat på pause pga. inaktivitet** bruges primært til opgavekøposter, der planlægger synkronisering mellem [!INCLUDE [prod_short](includes/prod_short.md)] og et andet program, f.eks. [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Hvis du vil vide mere om denne status, skal du gå til [Om inaktivitets timeout](/dynamics365/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries#about-inactivity-timeouts).
-
-Når en opgave er afsluttet korrekt, fjernes den fra listen over opgavekøposter, medmindre det er en tilbagevendende opgave. Hvis det er tilbagevendende opgaver, justeres feltet **Tidligste starttidspunkt** og vises, næste gang opgaven forventes at køre. 
-
-## <a name="important-for-scheduling-recurring-jobs"></a>Vigtigt for at planlægge gentagne opgaver
+## Vigtigt for at planlægge gentagne opgaver
 
 > [!IMPORTANT]  
 > Tilbagevendende opgavekøer kan påvirke ydeevnen, så du bør ikke køre dem for ofte. Når du angiver, hvor ofte en gentaget opgave skal udføres, skal du prøve at angive det størst mulige tidsinterval. For eksempel, hvis du er ved at indstille en gentagelse på fem minutter, skal du overveje, om det kan være 15 minutter eller endda en gang i timen i stedet. Når du planlægger gentagne opgavekøer, skal du overveje, hvilke områder af programmet jobbet vil påvirke. Er det et område, hvor mange brugere arbejder og vil blive påvirket af kraftig aktivitet? Overvej længden af en enkelt jobkørsel og de forretningsmæssige motivationer for at køre job med en given kadence.
 
-## <a name="the-earliest-start-date"></a>Den tidligste startdato
+## Den tidligste startdato
 
 Værdien i feltet **Tidligste startdato/-tidspunkt** på siden **Kort til opgavekøpost** vises, næste gang opgaven køres. Der er flere faktorer, der kan påvirke, om en opgavekøpost rent faktisk kører på det pågældende tidspunkt.
 
-De mest almindelige faktorer er antallet af opgavekøposter i et miljø og det samlede antal planlagte opgaver. For at beskytte ydeevneniveauer er der operationelle grænser. Hvis der er mange poster i køen, og f.eks. en af dem mislykkes, eller posterne bare tager længere tid end forventet, starter den næste opgave muligvis ikke på det forventede tidspunkt. Hvis du har kodeenheder, der genererer 100.000 eller flere planlagte opgaver, bør du undersøge, om du rent faktisk har brug for alle disse opgaver. Du kan få adgang til listen over alle planlagte opgaver på siden **Planlagte opgaver**.
+De mest almindelige faktorer er antallet af opgavekøposter i et miljø og det samlede antal planlagte opgaver. For at beskytte ydeevneniveauer er der operationelle grænser. Hvis der er mange poster i køen, og f.eks. en af dem mislykkes, eller tager længere tid end forventet, starter den næste opgave muligvis ikke på det forventede tidspunkt. Hvis du har kodeenheder, der genererer 100.000 eller flere planlagte opgaver, bør du undersøge, om du rent faktisk har brug for alle disse opgaver. Du kan få adgang til listen over alle planlagte opgaver på siden **Planlagte opgaver**.
 
 Du kan få mere at vide om overvågning af status for opgavekøposter ved at gå til [Sådan får du vist status for en opgave](#to-view-status-for-any-job). Du kan få mere at vide om driftsgrænser ved at gå til [Asynkrone opgavegrænser](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Task).
 
-## <a name="monitor-status-or-errors-in-the-job-queue"></a>Overvåge status eller fejl i opgavekøen
+## Overvåge status eller fejl i opgavekøen
 
 Data, som jobkøen genererer gemmes, så du kan foretage fejlfinding.  
 
@@ -63,25 +51,28 @@ I følgende tabel beskrives værdierne i feltet **Status**.
 |--|--|
 | Klar | Jobkøposten er klar til at blive kørt. |
 | Igangsat | Opgavekøposten er i gang. Feltet opdateres, mens opgavekøen kører. |
-| I venteposition | Standardstatus for opgavekøposten, da den blev oprettet. Vælg **Angiv Status som Klar** for at ændre status til **Klar**. Vælg handlingen **Indstil som afvent** omdannes status til **Afvent**. Du kan finde flere oplysninger i [Om I venteposition](#about-on-hold).|
+| I venteposition | Standardstatus for opgavekøposten, da den blev oprettet. Vælg **Angiv Status som Klar** for at ændre status til **Klar**. Vælg handlingen **Indstil som afvent** omdannes status til **Afvent**. Du kan få mere at vide ved at gå til [Om I venteposition](#about-on-hold).|
+| Afvent pga. inaktivitet | Brugt primært til opgavekøposter, der planlægger synkronisering mellem [!INCLUDE [prod_short](includes/prod_short.md)] og et andet program, f.eks. [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Hvis du vil vide mere om denne status, skal du gå til [Om inaktivitets timeout](/dynamics365/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries#about-inactivity-timeouts). |
+|Venter | Kun relevant for opgavekøposter, der er tildelt en kategorikode. Angiver, at opgaven er planlagt, men at den underliggende planlagte opgave ikke er aktiv. Når den opgavekøpost, der aktuelt kører, og som er i samme kategori, er afsluttet, bliver status for den næste opgave i kategorien med statussen Venter til Klar. |
 | Fejl | Noget gik galt. Vælg **Vis fejl** for at se fejlmeddelelsen. |
 | Afsluttet | Opgavekøposten er fuldført. |
 
-> [!TIP]  
+ > [!TIP]  
 > Opgavekøposten holder op med at køre, når der er en fejl. Dette kan f. eks. være et problem, når en post opretter forbindelse til en ekstern tjeneste, f. eks. en arkføder. Hvis tjenesten midlertidigt ikke er tilgængelig, og opgavekøposten ikke kan oprette forbindelse, viser posten en fejl og stopper med at køre. Du skal genstarte opgavekøposten manuelt. Men **Maks. antal forsøg** og **Forsinkelse før genkørsel (sek.)** kan hjælpe dig med at undgå denne situation. Feltet **Maks. af feltet forsøg** giver dig mulighed for at angive, hvor mange gange opgavekøposten skal mislykkes, før det forsøges at køre. Feltet **Kør forsinkelse igen (sek.)** giver dig mulighed for at angive, hvor lang tid, der skal være mellem forsøg. Kombinationen af disse to felter kan holde opgavekøposten kørende, indtil den eksterne tjeneste bliver tilgængelig.
 
-### <a name="about-on-hold"></a>Om I venteposition
+### Om I venteposition
 
-Hvis du angiver en opgavekøpost til **I venteposition**, påvirker det ikke en løbetur, der allerede kører. Når en opgave er startet i opgavekøen, fortsætter den, indtil den er færdig, uanset eventuelle efterfølgende ændringer af opgavekøposten, f.eks. hvis den sættes i venteposition.<br><br>Status **I venteposition** bruges typisk til at forhindre, at et job starter automatisk, når det planlagte starttidspunkt nås. Det giver dig mulighed for midlertidigt at sætte udførelsen af et job på pause, før det begynder at blive behandlet. Men når et job allerede kører, vil ændring af status til "I venteposition" ikke afbryde eller påvirke jobbets udførelse.<br><br>Hvis du har brug for at stoppe eller annullere et igangværende job, kan du gøre det ved at gribe ind manuelt i processen, f.eks. ved at afslutte den tilsvarende session eller proces, der er ansvarlig for udførelsen af jobbet.
-### <a name="to-view-status-for-any-job"></a>Sådan får du vist status for en opgave
+Hvis du angiver en opgavekøpost til **I venteposition**, påvirker det ikke et job, der allerede kører. Når et job starter, fortsætter den, indtil den er færdig, uanset eventuelle efterfølgende ændringer af opgavekøposten, f.eks. hvis den sættes i venteposition.<br><br>Status **I venteposition** bruges typisk til at forhindre, at et job starter automatisk, når det planlagte starttidspunkt nås. Det giver dig mulighed for midlertidigt at sætte et job på pause, før det begynder at blive behandlet. <br><br>Hvis du har brug for at stoppe eller annullere et kørende job, kan du manuelt gribe ind i processen. Du kan f.eks. stoppe den tilsvarende session eller proces.
 
-1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Poster for jobkøer**, og vælg derefter det relaterede link.
+### Sådan får du vist status for en opgave
+
+1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, indtast **Poster for jobkøer**, og vælg derefter det relaterede link.
 2. På siden **Opgavekøposter** skal du vælge en opgavekøpost og derefter vælge **Logposter**-handlingen.  
 
 > [!TIP]
 > Du kan også få vist status for opgavekøposter ved hjælp af Application Insights i Microsoft Azure til mere dybdegående analyse baseret på telemetri. Hvis du vil vide mere om telemetri, skal du gå til [Overvåge og analysere telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) og [Analysere opgavekøens levetidssporing](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
 
-## <a name="view-scheduled-tasks"></a>Vis planlagte opgaver
+## Vis planlagte opgaver
 
 Siden **Planlagte opgaver** i [!INCLUDE [prod_short](includes/prod_short.md)] viser, hvilke opgaver der er klar til kørsel i opgavekøen. Siden indeholder også oplysninger om den virksomhed, som hver opgave er konfigureret til at køre i. Det er dog kun de opgaver, der er markeret som tilhørende det aktuelle miljø, der kan køres.  
 
@@ -90,7 +81,7 @@ F.eks. stoppes alle planlagte opgaver, hvis virksomheden er i et miljø, som er 
 > [!NOTE]
 > Interne administratorer og brugere med licens kan planlægge kørsel af opgaver. Stedfortræderadministratorer kan oprette og planlægge opgaver til kørsel, men kun licenserede brugere kan køre dem.
 
-## <a name="the-my-job-queue-part"></a>Min opgavekødel
+## Min opgavekødel
 
 **Min opgavekø**-delen i dit rollecenter viser de poster i opgavekøen, som du har startet, men som ikke er færdige endnu. Som standard vises delen ikke, men du kan føje den til dit rollecenter. Du kan finde flere oplysninger om tilpasning under [Tilpasse dit arbejdsområde](ui-personalization-user.md).  
 
@@ -101,28 +92,28 @@ Delen viser følgende oplysninger:
 
 Min opgavekø-del giver dig også mulighed for at annullere bogføringen af et dokument.
 
-### <a name="to-view-an-error-from-the-my-job-queue-part"></a>Se en fejl fra Min opgavekø
+### Se en fejl fra Min opgavekø
 
 1. I en post med status **Fejl** skal du vælge **Vis fejl**-handlingen.
 2. Gennemgå fejlmeddelelsen, og løs problemet.
 
-## <a name="examples-of-what-you-can-schedule-using-job-queue-entries"></a>Eksempler på, hvad der kan planlægges med jobkøelementer
+## Eksempler på, hvad der kan planlægges med jobkøelementer
 
-### <a name="schedule-reports"></a>Planlæg rapporter
+### Planlæg rapporter
 
 Du kan planlægge kørsel af en rapport eller et batchjob på en bestemt dato og et bestemt klokkeslæt. Planlagte rapporter og kørsler indsættes i jobkøen og behandles på det planlagte tidspunkt, ligesom andre job. Du vælger indstillingen **Skema**, når du har valgt knappen **Send til**, og derefter angiver du oplysninger som f.eks. printer og klokkeslæt og dato, gentagelse.  
 
 Hvis du vil vide mere om planlægning, skal du fortsætte med at [Planlægge, at rapporten skal køres](ui-work-report.md#ScheduleReport)
 
-### <a name="schedule-synchronization-between--and-includeprod_short"></a>Planlæg synkronisering mellem [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### Planlæg synkronisering mellem [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-Hvis du har integreret [!INCLUDE[prod_short](includes/prod_short.md)] i [!INCLUDE[prod_short](includes/cds_long_md.md)], kan du bruge opgavekøen til at planlægge, hvornår du skal synkronisere data. Afhængigt af den eller de regler, du har defineret, kan posten i opgavekøposten oprette poster i én app, så de svarer til poster i den anden app. Du kan f. eks. registrere en kontakt i [!INCLUDE[crm_md](includes/crm_md.md)], men posten i opgavekøposten kan angive den kontaktperson, du har angivet i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger om planlægning i [Planlægning af synkronisering mellem Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
+Hvis du integrerer [!INCLUDE[prod_short](includes/prod_short.md)] i [!INCLUDE[prod_short](includes/cds_long_md.md)], kan du bruge opgavekøen til at planlægge, hvornår du skal synkronisere data. Afhængigt af retningen og reglerne, du har defineret, kan posten i opgavekøposten oprette poster i én app, så de svarer til poster i den anden app. Du kan f. eks. registrere en kontakt i [!INCLUDE[crm_md](includes/crm_md.md)], men posten i opgavekøposten kan angive den kontaktperson, du har angivet i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan finde flere oplysninger om planlægning i [Planlægning af synkronisering mellem Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
-### <a name="schedule-when-to-post-sales-and-purchase-orders"></a>Planlægge bogføring af salgs-og købsordrer
+### Planlægge bogføring af salgs-og købsordrer
 
 Du kan bruge opgavekøposter til at planlægge forretningsprocesser, der skal køres i baggrunden. For eksempel er baggrundsopgaver nyttige, når flere bruger bogfører salgsordrer op samme tid, men hvor kun én ordre kan behandles ad gangen. Hvis du vil vide mere om bogføring af baggrunden, skal du gå til [Sådan konfigureres baggrundsbogføring med opgavekøer](ui-batch-posting.md#to-set-up-background-posting-with-job-queues).
 
-## <a name="handle-job-queue-entry-issues"></a>Håndter problemer med opgavekøposter
+## Håndter problemer med opgavekøposter
 
 Hvis en opgavekøpost viser en fejl, er den første mulighed for at løse problemet ved at genstarte opgavekøposten. Du kan angive status for opgavekøposten til **Venter** og derefter **Klar** eller bare genstarte.
 
@@ -140,13 +131,13 @@ Hvis du kontakter din Microsoft-partner eller Microsoft for at få support, skal
 > * Til tidligere versioner skal du angive et skærmbillede af siden **logposter i opgavekø**.
 > * Til senere versioner skal du bruge handlingen **Kopier detaljer** på siden logførte logposter i opgavekø til at kopiere oplysningerne (kø-id, tidsstempel og tidszone).
 
-## <a name="monitor-the-job-queue-with-telemetry"></a>Overvåge opgavekøen med telemetri
+## Overvåge opgavekøen med telemetri
 
 Administratorer kan bruge [Azure Application Insights](/azure/azure-monitor/app/app-insights-overview) til at indsamle og analysere telemetri, som kan hjælpe med at identificere problemer. Hvis du vil vide mere om telemetri, skal du gå til [Overvåge og analysere telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) og [Analysere opgavekøens levetidssporing](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
 
 Med telemetri får administratorer mulighed for at konfigurere påmindelser i forbindelse med jobkøer, der sender en SMS-besked, e-mail eller en meddelelse i grupper, hvis noget ikke er korrekt. Du kan få mere at vide om disse beskeder [Besked på telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-alert).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opsætning](admin-setup-and-administration.md)  
 [Konfigurere Business Central](setup.md)  

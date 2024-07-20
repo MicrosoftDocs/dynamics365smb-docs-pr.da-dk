@@ -10,17 +10,17 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="denmark-local-functionality"></a>Lokal funktionalitet for Danmark
+# Lokal funktionalitet for Danmark
 
 Følgende artikel beskriver den lokale funktionalitet i den danske version af [!INCLUDE[prod_short](../../includes/prod_short.md)].
 
-## <a name="feature-availability"></a>Funktionstilgængelighed
+## Funktionstilgængelighed
 
 * Overholdelse
 
     * [Overholdelse af bogføringsloven i Danmark](compliance-denmark.md) **Tilgængelig nu**
     * [5 år med dataoverholdelse](how-to-keep-data-5years.md) **Tilgængelig nu**
-    * [Obligatoriske digitale kuponer som vedhæftede filer](how-to-digital-vouchers-dk.md) **Tilgængelig nu**
+    * [Obligatoriske digitale bilag som vedhæftede filer](how-to-digital-vouchers-dk.md) **Tilgængelig nu**
 
 * Overvågning
 
@@ -55,11 +55,11 @@ Følgende artikel beskriver den lokale funktionalitet i den danske version af [!
 
     * [Definitioner af løndata (DK)](ui-extensions-payroll-data-definitions-dk.md) **Tilgængelig nu**
 
-## <a name="future-legislation-requirements-being-investigated"></a>Fremtidige lovgivningskrav, der undersøges
+## Fremtidige lovgivningskrav, der undersøges
 
 Der findes ingen yderligere kommende funktioner eller-krav, uden for den nye danske bogføringslovgivning, der allerede er nævnt i [**Funktionstilgængelighed**](#feature-availability). Hvis du har kendskab til yderligere kommende regler, skal du indsende en [Lovgivningsmæssige besked](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbejd med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Tilgængelighed i land/område og understøttede sprog](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)

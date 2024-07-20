@@ -3,16 +3,16 @@ title: Installere og afinstallere apps
 description: Få mere at vide om at installere og afinstallere apps i Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: solsen
 ms.topic: conceptual
-ms.date: 09/07/2023
+ms.date: 06/26/2024
 ms.custom: bap-template
 ms.search.keywords: 'app, add-in, manifest, customize, install, uninstall'
 ms.search.form: '2500, 2514, 20350'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="install-and-uninstall-extensions-apps-in-business-central"></a>Installere og fjerne udvidelser (apps) i Business Central
+# Installere og fjerne udvidelser (apps) i Business Central
 
 Du kan ændre [!INCLUDE[prod_short](includes/prod_short.md)] ved at installere apps, der f.eks. tilføjer funktioner, ændrer funktionsmåder eller giver dig adgang til nye onlinetjenester. Du kan finde flere oplysninger i [Tilpasse Business Central ved hjælp af udvidelser](ui-extensions.md).
 
@@ -23,7 +23,7 @@ Du kan ændre [!INCLUDE[prod_short](includes/prod_short.md)] ved at installere a
 
 Hvis du vil bruge et filtypenavn, skal du have fået tildelt de tilladelsessæt, der følger med.
 
-## <a name="install-an-extension"></a><a name="install"></a>Installér en udvidelse
+## <a name="install"></a>Installér en udvidelse
 
 Du kan administrere apps og udvidelser på siden **Udvidelsesstyring**. Du kan åbne siden fra Start. Alternativt kan du vælge ikonet **Søg efter side eller rapport** ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") Skriv **Udvidelse** i øverste højre hjørne , og vælg derefter det relaterede link.  
 
@@ -32,7 +32,7 @@ Du kan få nye apps fra markedspladsen på [AppSource.microsoft.com](https://go.
 > [!NOTE]  
 > Log på [AppSource.microsoft.com](https://appsource.microsoft.com/) ved hjælp af den mailkonto, du bruger til [!INCLUDE[prod_short](includes/prod_short.md)]. Brug den samme mailkonto til andre tjenester og produkter for at opnå en ensartet oplevelse.  
 
-Du kan også komme til AppSource fra [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Udvidelsesstyring** kan du se de apps, der er installeret, og du kan åbne siden **Markedsplads for udvidelse** for at se de apps til [!INCLUDE[prod_short](includes/prod_short.md)], der er tilgængelige i AppSource. Hvis du vælger linket *Flere apps*, åbnes [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Du kan også komme til AppSource fra [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Udvidelsesstyring** kan du se de apps, der er installeret, og du kan åbne siden **Microsoft AppSource Apps**, der viser [!INCLUDE[prod_short](includes/prod_short.md)]-apps, der aktuelt er tilgængelige i AppSource. Hvis du vælger handlingen **Vis AppSource**, vises [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Du kan finde flere oplysninger i [Administrere AppSource-apps](admin-manage-appsource-apps.md).  
 
 Vælg en app for at lære, hvad appen gør, og du kan få adgang til hjælp for at få mere at vide om appen. Når du vælger at hente en app, skal du acceptere vilkårene for anvendelse. Hvis du henter appen fra AppSource-webstedet, logges du på [!INCLUDE[prod_short](includes/prod_short.md)] for at fuldføre installationen.  
 
@@ -70,19 +70,19 @@ Microsoft tilbyder følgende apps:
 * [Udvidelse til britiske GetAddress.io-postnumre](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Send remitteringsadvis](ui-extensions-send-remittance-advice.md)
 
-## <a name="set-up-an-app"></a>Konfigurere en app
+## Konfigurere en app
 
 Når du har installeret en app, skal du muligvis konfigurere den. F. eks. skal du angive den PayPal-konto, der skal bruges, for **PayPal Payments Standard for [!INCLUDE[prod_short](includes/prod_short.md)]**-appen. Hvis det er tilfældet, bliver du spurgt, om du vil konfigurere appen med det samme, når installationen har fuldført [!INCLUDE[prod_short](includes/prod_short.md)]. Der kan kræves opsætninger, før appen kan fungere, eller eventuelt.
 
 Hvis du vælger at konfigurere din app med det samme, og den har en nødvendig installation, [!INCLUDE[prod_short](includes/prod_short.md)] åbnes den nødvendige installation. Opsætningen kan enten være en side, hvor du indtaster oplysninger, eller en assisteret opsætningsvejledning, der kan hjælpe dig gennem trinnene. Hvis du ikke fuldfører installationsprogrammet på én gang, kan du bruge **opsætningerne til _navnet på den app_**-side, som viser alle opsætninger for appen. Krævede opsætninger angivet med **fede bogstaver**.
 
-## <a name="upload-a-per-tenant-extension-pte"></a>Overfører en udvidelse pr. lejer (PTE)
+## Overfører en udvidelse pr. lejer (PTE)
 
 Du kan overføre en PTE ved hjælp af siden **styring af udvidelser**. Gå til **Administrer** på siden **udvidelsesstyring**, og vælg derefter **Overfør udvidelse**. Angiv den. programfil, der skal overføres, på siden **Overfør og installér udvidelse**. Hvis du vil fortsætte, skal du vælge knappen **Acceptér** og derefter knappen **Implementér** for at implementere PTE.
 
 Hvis PTE indeholder ændringer af skemaændringer, er det muligt at *gennemtvinge* overførslen. Hvis du vil gøre det, skal du vælge indstillingen **Gennemtving** i tilstanden **Skemasynkronisering**. Du får vist en bekræftelsesdialogboks, før du fortsætter.  
 
-## <a name="uninstall-an-app"></a>AfInstaller en app
+## AfInstaller en app
 
 Du fjerner en app via siden **Udvidelsesstyring**. Hvis du vil fjerne en app, skal du markere den på siden og derefter vælge handlingen til **afinstallation**. Hvis du fjerner en app, og du senere skifter mening, kan du installere appen igen.
 
@@ -95,10 +95,11 @@ Når du fjerner en app, som du har brugt dine data, er de som standard ikke slet
 
 Hvis du vil beholde dataene for en afinstalleret app, kan du slette dataene senere. Siden **Slet underordnede udvidelsesdata** viser de apps, du stadig har data til. Slet dataene ved at vælge appen og derefter vælge **Slet data**. 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilpasse Business Central](ui-customizing-overview.md)  
 [Business Central-udvidelser fra andre leverandører](ui-extensions-other.md)  
+[Administrere AppSource-apps](admin-manage-appsource-apps.md)  
 [Konfigurere tjenesten Envestnet Yodlee Bank Feeds](bank-how-setup-bank-statement-service.md)  
 [Aktivere debitorbetaling via PayPal](sales-how-enable-payment-service-extensions.md)  
 [Overføre Business Data fra andre økonomisystemer](across-import-data-configuration-packages.md)  
