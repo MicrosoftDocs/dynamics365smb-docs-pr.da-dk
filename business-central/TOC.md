@@ -930,6 +930,7 @@ ms.service: dynamics-365-business-central
 ##### [Moms-kontrolrapport](LocalFunctionality/Czech/vat-control-report.md)
 ##### [Momsrapporter](LocalFunctionality/Czech/vat-reports-cz.md)
 ##### [Momskorrektion i lokal valuta](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [Ikke-fradragsberettiget moms](LocalFunctionality/Czech/non-deductible-VAT.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
 ##### [Intrastat for tjekkisk (udvidelse)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Anlægsaktiver
@@ -1586,8 +1587,8 @@ ms.service: dynamics-365-business-central
 ### USA
 #### [Lokal funktionalitet i den amerikanske version](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Skat
-##### [Grundlæggende opsætning af moms](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Rapportering af salgsmoms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Grundlæggende opsætning af skat](LocalFunctionality/UnitedStates/us-tax-setup.md)  
+##### [Salgsmoms i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Introduktion til IRS 1099-formularerne og dens funktionalitet](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
 ##### [Konfigurer og brug IRS 1099-formularen til version 24 (udgivelsesbølge 1 i 2024)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 #### [Brug IRS 1099-formularerne](LocalFunctionality/UnitedStates/how-to-1099-use.md)
