@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="making-payments"></a>Foretage betalinger
+# <a name="make-payments"></a>Foretage betalinger
 
 Du betaler kreditorer eller debitorer eller refusioner dine medarbejdere ved at bogfører betalingslinjer på siden **Udbetalingskladde**. Betalingskladden er en kassekladde, der er optimeret til betalinger og tilbyder mange stærke handlinger. Det kan f.eks. være handlingen **Lav kreditorbetalingsforslag**, som finder forfaldne kreditorbetalinger, og rapporten **Kreditor - forfaldsoversigt**, der indeholder en oversigt over forfaldne kreditorbetalinger.  
 

@@ -50,7 +50,7 @@ Der oprettes helt udlignede kreditorposter og bankposter.
 > [!NOTE]  
 > Hvis du vil udskrive og betale checks i mere end én valuta fra forskellige bankkonti, skal du udføre kørslen **Udskriv check** separat for hver valuta og angive den korrekte bankkonto.
 
-## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Sådan annulleres udskrevne checks, der ikke er blevet bogført
+## <a name="to-cancel-printed-checks-that-arent-posted"></a>Sådan annulleres udskrevne checks, der ikke er blevet bogført
 
 Du kan annullere ikke-bogførte checks, når de er blevet udskrevet, ved hjælp af handlingen **Annuller check** på siden **Udbetalingskladde**.
 
