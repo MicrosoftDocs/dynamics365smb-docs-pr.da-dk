@@ -9,7 +9,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="closing-income-statement-accounts"></a>Nulstille resultatopgørelseskonti
+# <a name="close-income-statement-accounts"></a>Nulstille resultatopgørelseskonti
 
 Når regnskabsåret er slut, skal du afslutte de perioder, det indeholder. Brug kørslen **Nulstil resultatopgørelse** for at gøre dette. Denne kørsel overfører årets resultat til en konto i balancen og nulstiller resultatopgørelseskonti. Det gør du ved at oprette linjer i en kladde, som du derefter kan bogføre.
 

@@ -27,7 +27,7 @@ Du kan åbne siden **Indstillinger** på to måder: 1) fra meddelelsesboksen ell
 
    ![Indstillinger for Business Central fra meddelelsesboks.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Se også
+## <a name="related-information"></a>Se også
 
 [Oversigt over integrationen af Business Central og Microsoft Teams](across-teams-overview.md)  
 [Installere appen [!INCLUDE [prod_short](includes/prod_short.md)] til Microsoft Teams](across-install-app-for-teams.md)  

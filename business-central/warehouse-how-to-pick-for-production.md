@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.forms: '9330, 931, 990008, 89, 900, 902'
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-basic-warehouse-configurations"></a>Plukke til produktion, montage eller jobs i grundlæggende lageropsætninger
+# <a name="pick-for-production-assembly-or-projects-in-basic-warehouse-configurations"></a>Plukke til produktion, montage eller jobs i grundlæggende lageropsætninger
 
 Hvordan du skal lægge komponenter på lager til produktions-. sags eller montageordrer afhænger af den måde, som lagerstedet er sat op på som en lokation. Flere oplysninger i [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md).
 

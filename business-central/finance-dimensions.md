@@ -24,7 +24,7 @@ Som et andet eksempel kan du oprette en dimension med navnet *Afdeling* og bruge
 * Hvem, der solgte den.
 * Hvilken kunde har købt den.
 
-## <a name="analyzing-by-dimensions"></a>Analyse efter dimensioner
+## <a name="analyze-by-dimensions"></a>Analyse efter dimensioner
 
 Dimensioner spiller en vigtig rolle i business intelligence, f.eks. når du definerer analyser. Få mere at vide i [Analysere data efter dimensioner](bi-how-analyze-data-dimension.md).
 
@@ -40,7 +40,7 @@ En dimensionsgruppe er en entydig kombination af dimensionsværdier. De er gemt 
 
 Når du opretter en kladdelinje, et nyt bilagshoved eller en ny bilagslinje, kan du angive en kombination af dimensionsværdier. I stedet for at eksplicit at gemme hver dimensionsværdi i databasen, tildeles kladdelinjen, bilagshovedet eller bilagslinjen en dimensionsgruppe-id, der angiver dimensionsgruppen.  
 
-## <a name="setting-up-dimensions"></a>Oprette dimensioner
+## <a name="set-up-dimensions"></a>Oprette dimensioner
 
 Du kan definere dimensioner og dimensionsværdier for at kategorisere kladder og dokumenter, f.eks. salgsordrer og indkøbsordrer. Du kan oprette dimensioner på siden **Dimensioner**, hvor du opretter én linje for hver dimension, f.eks. *Projekt*, *Afdeling*, *Område* og *Sælger*.
 

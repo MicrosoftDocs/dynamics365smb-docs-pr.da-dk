@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Foreslå kreditorbetalinger
+# <a name="suggest-vendor-payments"></a>Foreslå kreditorbetalinger
 
 På siden **Udbetalingskladde** kan du bruge kørslen **Lav kreditorbetalingsforslag** til at foreslå betalingslinjer. Foreslår ud fra dine indstillinger [!INCLUDE [prod_short](includes/prod_short.md)]-linjer:
 
@@ -31,14 +31,14 @@ For at få det fulde udbytte af betalingsforslag skal du først prioritere dine 
 > * Forfaldne kreditorposter, der ikke er prioriteret.  
 > * Åbne kreditorposter, hvor der ydes kontantrabat. Posterne er ordnet efter kreditornummer.  
 
-## Bruge funktionen Lav kreditorbetalingsforslag
+## <a name="use-the-suggest-vendor-payments-action"></a>Bruge funktionen Lav kreditorbetalingsforslag
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Udbetalingskladder**, og vælg derefter det relaterede link.  
 2. Åbn kladden, og vælg derefter handlingen **Lav kreditorbetalingsforslag**.  
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Vælg knappen **OK**.  
 
-## Indsætte forfaldsdatoen som bogføringsdato på betalingskladdelinjer
+## <a name="insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Indsætte forfaldsdatoen som bogføringsdato på betalingskladdelinjer
 
 Når du udfører kørslen **Lav kreditorbetalingsforslag** til at oprette betalingslinjer for dine kreditorer, kan du udfylde to særlige felter for at sikre, at de genererede linjer bruger forfaldsdatoen til at beregne bogføringsdatoen. Disse felter er **Beregn bogføringsdato fra udligningsbilaget. Forfaldsdato** og **Udligningsbilag. Forskydning af forfaldsdato**.  
 
@@ -52,7 +52,7 @@ Du kan også manuelt oprette betalingslinjer ved at bruge forfaldsdatoen til at 
 > [!NOTE]  
 > Hvis købsfakturaen er overskredet, bliver bogføringsdatoen indstillet til arbejdsdatoen, og skrifttypen på linjen skifter til rød.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 - [Administrere skyldige beløb](payables-manage-payables.md)  
 - [Foretage betaling](payables-make-payments.md)  

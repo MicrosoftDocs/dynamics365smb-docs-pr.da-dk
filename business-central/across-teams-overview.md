@@ -76,7 +76,7 @@ Du kan finde flere oplysninger i [Tilføje en Business Central-fane i Teams](acr
 3. Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams. Se [Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen til Microsoft Teams](across-install-app-for-teams.md).
 4. Når appen er installeret, er du klar til at gå i gang. Du kan finde flere oplysninger i [Søge efter debitorer, kreditorer og andre kontakter fra Microsoft Teams](across-search-contacts-teams.md) og [Dele poster i Microsoft Teams](across-working-with-teams.md).
 
-## <a name="see-also"></a>Se også
+## <a name="related-information"></a>Se også
 
 [Teams, ofte stillede spørgsmål](teams-faq.md)  
 [Fejlfinding i Teams](admin-teams-troubleshooting.md)  

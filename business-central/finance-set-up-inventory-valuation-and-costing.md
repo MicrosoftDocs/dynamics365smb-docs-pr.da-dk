@@ -9,7 +9,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Opsætte lagerværdi og kostprisberegning
+# <a name="set-up-inventory-valuation-and-costing"></a>Opsætte lagerværdi og kostprisberegning
 
 For at sikre, at lageromkostningerne registreres korrekt, skal du angive forskellige felter og sider, før du begynder at foretage varetransaktioner. Virksomheder vælger typisk en bestemt kostmetode og anvender den på lagervarer, f.eks. for at hjælpe dem med at spore værdien på lager.  
 

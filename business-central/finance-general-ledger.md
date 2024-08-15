@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Forstå Finans og Kontoplan
+# <a name="understand-the-general-ledger-and-chart-of-accounts"></a>Forstå Finans og Kontoplan
 
 Finansregnskabet gemmer de finansielle data, og kontoplanen viser de konti, som alle finansposter bogføres til. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder en standardkontoplan, der er klar til at understøtte din virksomhed.
 

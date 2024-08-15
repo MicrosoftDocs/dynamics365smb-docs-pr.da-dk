@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Plukke til produktion, montage eller sager i avancerede konfigurationer af lagersted
+# <a name="pick-for-production-assembly-or-projects-in-advanced-warehouse-configurations"></a>Plukke til produktion, montage eller sager i avancerede konfigurationer af lagersted
 
 Hvordan du skal lægge komponenter på lager til produktions-. sags eller montageordrer afhænger af den måde, som lagerstedet er sat op på som en lokation. Flere oplysninger i [Sådan konfigureres Warehouse Management](warehouse-setup-warehouse.md).
 
@@ -113,7 +113,7 @@ Brug **Lagerpluk**-dokumenter til at plukke produktionskomponenter i forløbet t
 
 8. Vælg knappen **OK**.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Sådan plukkes varer til en produktionsordre, Montageordre, sag
+## <a name="to-pick-items-for-a-production-order-assembly-order-or-project"></a>Sådan plukkes varer til en produktionsordre, Montageordre, sag
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Pluk**, og vælg derefter det relaterede link.  
 

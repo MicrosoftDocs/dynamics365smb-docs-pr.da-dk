@@ -62,7 +62,7 @@ Benyt følgende fremgangsmåde for at angive en standardværdi for en momsdato:
 > [!NOTE]
 > Som standard er **standardmomsdatoen** **bogføringsdatoen**.
 
-### <a name="enabling-or-disabling-the-vat-date-feature"></a>Aktivere eller deaktivere funktionen momsdato
+### <a name="enable-or-disable-the-vat-date-feature"></a>Aktivere eller deaktivere funktionen momsdato
 
 Nogle lande/områder kræver, at virksomheder bruger en bestemt momsdato, men andre lande/områder ikke. Nogle lande/områder kræver også, at virksomheder ændrer momsdatoen i bestemte situationer, efter at de bogfører bilag, men andre lande/områder tillader ikke ændringer af momsdatoer. Hvis du vil tillade forskellige kontekster, kan du vælge, om du vil bruge denne funktion, f. eks. i hvilken grad.
 

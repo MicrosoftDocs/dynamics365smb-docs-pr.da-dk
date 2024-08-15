@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Knyt tekst om tilbagevendende betalinger til konti til automatisk afstemning
+# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Knyt tekst om tilbagevendende betalinger til konti til automatisk afstemning
 
 På siden **Tekst til kontotilknytning**, som du kan åbne fra siden **Betalingsudligningskladde**, kan du oprette tilknytninger mellem tekst på betalinger og specifikke debet-, kredit- og modkonti, så disse betalinger bliver bogført på de angivne konti, når du bogfører kladden til betalingsafstemning.
 
@@ -24,7 +24,7 @@ Betalinger, der er bogført baseret på tekst-til-kontotilknytning, udlignes ikk
 
 På en betalingsudligningskladdelinje, hvor betalingen er angivet til bogføring i overensstemmelse med tekst-til-kontotilknytning, indeholder feltet **Matchtillid** **Høj – Tekst-til-kontotilknytning**, og felterne **Kontotype** og **Kontonr.** indeholder de tilknyttede konti.
 
-## Sådan knytter du tekst på tilbagevendende betalinger til automatisk afstemning af konti
+## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Sådan knytter du tekst på tilbagevendende betalinger til automatisk afstemning af konti
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsudligningskladder**, og vælg derefter det relaterede link.
 2. Åbne en kladde til betalingsafstemning. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
@@ -44,7 +44,7 @@ På en betalingsudligningskladdelinje, hvor betalingen er angivet til bogføring
 
 Næste gang du importerer en bankkontofil eller vælge handlingen **Udlign automatisk** på siden **Betalingsudligningskladde**, vil kladdelinjerne til betalinger, der indeholder den angivne tilknytningstekst, indeholde tilknyttede konti i felterne **Kontotype** og **Kontonr.**. Feltet **Matchtillid** indeholder **Høj - Tilknytning af tekst til konto**. Det er på betingelse af, at den automatiske udligningsfunktion kun kan give en udligningstillid af **Lav** eller **Mellem**.
 
-## Eksempel: Tekst-til-konto-tilknytning for bankgebyrer
+## <a name="example-text-to-account-mapping-for-bank-fees"></a>Eksempel: Tekst-til-konto-tilknytning for bankgebyrer
 
 Hvis du altid vil bogføre udgifter, der er knyttet til gebyrer fra en bestemt bank, MyBank til finanskontoen for bankens gebyrer og gebyrer (konto 60400), skal du udfylde en linje på **siden til tilknytning af tekst til konto på** følgende måde.
 
@@ -52,7 +52,7 @@ Hvis du altid vil bogføre udgifter, der er knyttet til gebyrer fra en bestemt b
 | --- | --- | --- | --- | --- |
 | MyBank |TOM |60400|Finanskonto |TOM |
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  

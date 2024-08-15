@@ -25,13 +25,13 @@ Tabellen **Varepostrelation**, som bruges til at knytte en bogført dokumentlinj
   
 Funktionaliteten af det eksisterende **Løbenr.**-felt, som vedrører en varepost til en bogført dokumentlinje, håndterer den typiske én til én-relation, når der ikke findes nogen varesporingsnumre på den bogførte bilagslinje. Hvis der findes varesporingsnumre, så er feltet **Løbenr.** tomt, og en-til-mange-relationen håndteres af tabellen **Varepostrelation**. Hvis den bogførte bilagslinje indeholder varesporingsnumre, men kun vedrører en enkelt varepost, vil feltet **Løbenr.** håndtere relationen, og der oprettes ingen post i tabellen **Varepostrelation**.  
   
-## <a name="codeunits-80-and-90"></a>Kodeenheder 80 og 90
+## <a name="codeunits-80-sales-post--and-90-purch-post"></a>Kodeenheder 80 og 90
 Med henblik på at opdele vareposter ved bogføring indsættes koden i kodeenhed 80 og kodeenhed 90 i løkker, der kører gennem globale, midlertidige postvariabler. Denne kode kalder kodeenhed 22 med en varekladdelinje. Disse variabler er initialiseret, når der findes varesporingsnumre for dokumentlinjen. Denne løkkestruktur bruges altid for at bevare koden enkel. Hvis der ikke findes varesporingsnumre til bilagslinjen, vil en enkelt post indsættes, og løkken køres kun en gang.  
   
 ## <a name="posting-the-item-journal"></a>Bogføring af varekladden
 Varesporingsnumre overføres via reservationsposter, der vedrører en bestemt varepost, og gennemløbet af varesporingsnumre sker i codeunit 22. Dette begreb fungerer på samme måde, når en varekladdelinje indirekte bruges til at bogføre et salg eller en indkøbsordre, ligesom når en varekladdelinje bruges direkte. Når varekladden bruges direkte, peger feltet **Kilderække-id** på selve varekladdelinjen.  
   
-## <a name="code-unit-22"></a>Kodeenhed 22
+## <a name="code-unit-22--item-jnl-post-line"></a>Kodeenhed 22
 Kodeenheder 80 og 90 gentager kaldet fra kodenhed 22 under fakturabogføring af varesporingsnumre og under fakturering af eksisterende leverancer eller modtagelser.  
   
 Under antalsbogføring af varesporingsnumre, henter kodeenhed 22 varesporingsnumre fra posterne i T337, der vedrører bogføringen. Disse poster placeres direkte på varekladdelinjen.  

@@ -22,7 +22,7 @@ Standardkostpriserne kan opretholdes for varer, der genopfyldes via indkøb, mon
 |**Montage**|Direkte materialeomkostninger, direkte eller faste arbejdsomkostninger og faste omkostninger.|  
 |**Prod.ordre**|Direkte materialeomkostninger, arbejdsomkostninger, underleverandøromkostninger og faste omkostninger.|  
 
-## <a name="setting-up-standard-costs"></a>Oprette standardkostpriser
+## <a name="set-up-standard-costs"></a>Oprette standardkostpriser
 
 Da standardkostprisen for en fremstillet vare eller en montagevare kan bestå af flere kostelementer, herunder materialeomkostninger, kapacitetsomkostninger (arbejdskraft) og direkte og faste underleverandøromkostninger, skal der oprettes standardkostpriser for hvert af disse elementer.  
 
@@ -88,7 +88,7 @@ Underleverandøromkostningerne er de omkostninger, der er knyttet til serviceyde
 
 Da underleverandøropgaver er en udliciteret kapacitet, skal du oprette omkostningerne for både direkte og indirekte underleverandørtjenester på det arbejdscenterkort, der repræsenterer underleverandøroperationen.  
 
-## <a name="updating-standard-costs"></a>Opdatere standardkostpriser
+## <a name="update-standard-costs"></a>Opdatere standardkostpriser
 
 Hvis du vil opdatere eller beregne standardkostprisen for montageelementer, skal du bruge funktionen fra varekortet.  
 

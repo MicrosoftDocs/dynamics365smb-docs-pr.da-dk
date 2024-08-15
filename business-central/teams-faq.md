@@ -441,7 +441,7 @@ På nuværende tidspunkt er dele med Teams tilgængelig på desktop-webklienten,
 Handlingen **Del på Teams** kan findes i menuen **Del** på alle sider, f. eks. kort og dokumentsider, liste-eller regnearks sider, herunder brugerdefinerede sider. Handlingen er ikke tilgængelig i dialogbokse eller sider, der vises som dialogbokse, f. eks. opslagssider eller guider.
 
 ---
-## <a name="see-also"></a>Se også
+## <a name="related-information"></a>Se også
 
 [[!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams Oversigt over integration](across-teams-overview.md)  
 [Installere appen [!INCLUDE [prod_short](includes/prod_short.md)] til Microsoft Teams](across-install-app-for-teams.md)  

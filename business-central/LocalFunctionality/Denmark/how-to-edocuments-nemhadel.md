@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Konfigurere elektronisk fakturering i NemHandel
+# <a name="set-up-electronic-invoicing-with-nemhandel"></a>Konfigurere elektronisk fakturering i NemHandel
 
 I Danmark kan du konfigurere dit e-fakturasystem til at fungere med NemHandel ved at bruge tredjeparts certificerede adgangspunkter. Før du begynder, skal du læse om, hvordan du kan [bruge e-dokumenter med eksterne tjenester](../../finance-how-setup-edocuments-external.md), og lav en kontrakt med en af ​​de understøttede eksterne certificerede adgangspunktudbydere.
 
@@ -25,14 +25,14 @@ Før du starter opsætningen, skal du åbne **Udvidelsesstyring**-siden, og kont
 
 I Dansk E-Dokumenter funktionalitet kan du vælge OIOUBL og PEPPOL BIS 3 som dokumentformater i **E-dokumenttjenester**.
 
-## E-dokumenttjenester-opsætning
+## <a name="e-document-services-setup"></a>E-dokumenttjenester-opsætning
 
 > [!NOTE]
 > For at etablere disse forbindelser er det nødvendigt at kommunikere med eksterne tjenesteudbydere, som kan kræve yderligere betaling og kontrakter. Kontakt tjenesteudbyderne for at få alle de nødvendige legitimationsoplysninger.
 
 Hvis du vil konfigurere services, skal du udføre følgende trin:   
 
-### Sådan bruges OIOUBL-format  
+### <a name="to-use-oioubl-format"></a>Sådan bruges OIOUBL-format
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **e-dokumenttjeneste**, og vælg derefter det relaterede link.
 2. Vælg **Ny** for at oprette OIOUBL-tjenesten.
@@ -41,7 +41,7 @@ Hvis du vil konfigurere services, skal du udføre følgende trin:
 5. I **Serviceintegration** skal du angive det serviceadgangspunkt, du vil bruge.
 6. Vælg **Setup Service Integration**, og følg instruktionerne for [brug af E-Documents Connector med eksterne endepunkter](../../finance-how-setup-edocuments-external.md). Luk derefter siden.
 
-### Sådan bruges Peppol-format  
+### <a name="to-use-peppol-format"></a>Sådan bruges Peppol-format
 
 1. Vælg den ![pære, der åbner funktionen Fortæl mig det.](../../media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **e-dokumenttjeneste**, og vælg derefter det relaterede link.
 2. Vælg **Ny** for at oprette PEPPOL-tjenesten.
@@ -55,7 +55,7 @@ Hvis du vil konfigurere services, skal du udføre følgende trin:
 
 For at konfigurere arbejdsgange, kunder og leverandører, se [Sådan konfigureres E-Documents](../../finance-how-setup-edocuments.md) og [Indstil E-Documents-forbindelsen med eksterne slutpunkter](../../finance-how-setup-edocuments-external.md). 
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Lokal funktionalitet for Danmark](denmark-local-functionality.md)  
 [Sådan konfigureres e-dokumenter i Business Central](../../finance-how-setup-edocuments.md)  

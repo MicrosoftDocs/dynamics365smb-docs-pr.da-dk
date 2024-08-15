@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-cost-accounting"></a>Konfigurere omkostningsregnskab
+# <a name="set-up-cost-accounting"></a>Konfigurere omkostningsregnskab
 
 Før du begynder at arbejde med omkostningsregnskab, skal du udføre opsætningsopgaver.
 
@@ -24,7 +24,7 @@ På denne måde kan du oprette følgende regnskabsmæssige ligning:
 
 Når du udskriver diagrammet over pristyper, diagrammet over omkostningssteder og diagrammet over omkostningsobjekter, kan du analysere denne relation.
 
-## <a name="setting-up-cost-types"></a>Konfigurere Omkostningstyper
+## <a name="set-up-cost-types"></a>Konfigurere Omkostningstyper
 
 Diagrammet over omkostningstyper ligner kontoplanen i finansregnskabet. Du kan angive diagrammet over omkostningstyper på følgende måder:  
 

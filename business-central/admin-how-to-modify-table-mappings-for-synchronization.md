@@ -28,7 +28,7 @@ Når du opretter forbindelsen mellem appsene, opretter [!INCLUDE[prod_short](inc
 >
 > Du kan undgå langsom ydeevne ved at aktivere eller deaktivere hændelsesbaseret datasynkronisering for en hvilken som helst tabel på siden **integration af integrationstabel**. Som standard er hændelsesbaseret synkronisering aktiveret, så eksisterende integrationer ikke påvirkes. Administratoren kan slå funktionen til eller fra for bestemte tabeller.
 
-### <a name="additional-mappings"></a>Yderligere tilknytninger
+### <a name="add-table-and-field-mappings-to-existing-integration-tables"></a>Yderligere tilknytninger
 
 Betalingsbetingelser, leveringsformer og speditører kan ændres, og det kan være vigtigt at kunne justere dem. Hvis du aktiverer **Funktionsopdatering: Knyt til indstillinger i Dataverse uden kode**-funktionen på siden [funktionsstyring](https://businesscentral.dynamics.com/?page=2610), kan du manuelt tilføje tilknytninger til integrationstabeller for betalingsbetingelser (BETALINGSBETINGELSER), leveringsmetoder (LEVERINGSMETODE) og speditører (SPEDITØR). Denne tilknytning kan være med til at sikre, at dine politikker er de samme for disse opsætninger i [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 

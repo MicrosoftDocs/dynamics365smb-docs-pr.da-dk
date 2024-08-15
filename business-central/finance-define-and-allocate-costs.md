@@ -28,7 +28,7 @@ Du kan definere en fordelingsbasis for hvert fordelingsmål. Fordelingsbasis kan
 
 Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.
 
-## <a name="setting-up-allocation-source-and-targets"></a>Konfigurere fordelingskilde og mål
+## <a name="set-up-allocation-source-and-targets"></a>Konfigurere fordelingskilde og mål
 
 Hver allokering består af en fordelingskilde og en eller flere fordelingsmål. Fordelingskilden definerer, hvilke omkostninger, der vil blive tildelt. Fordelingsmålet bestemmer, hvortil omkostningerne fordeles.  
 
@@ -50,11 +50,11 @@ Hver allokering består af en fordelingskilde og en eller flere fordelingsmål. 
 > [!NOTE]  
 > Vælg afkrydsningsfeltet **Spærret** for at deaktivere fordelingsopsætningen.
 
-## <a name="setting-filters-for-dynamic-allocation-bases"></a>Indstilling af filtre for dynamiske allokeringsbaser
+## <a name="to-set-filters-for-dynamic-allocation-bases"></a>Indstilling af filtre for dynamiske allokeringsbaser
 
 Metoden til dynamisk fordeling er baseret på værdier, der kan ændres. For eksempel antal medarbejdere et omkostningssted eller antal solgte varer for et omkostningsobjekt i en bestemt tidsperiode. Der findes ni foruddefinerede fordelingsbaser og tolv dynamiske datointervaller. Du kan angive forskellige filtre, der er baseret på allokeringsbasen.  
 
-### <a name="setting-filters"></a>Indstiller filtre
+### <a name="set-filters"></a>Indstiller filtre
 
 Følgende tabel viser, hvilke filtre der er mulige for forskellige tildelingsbaser, og hvilke værdier der er gyldige i felterne **Nummerfilter** og **Gruppefilter**. Tryk på <kbd>F1</kbd> i feltet **Datofilterkode** for at læse detaljerede beskrivelser.  
 

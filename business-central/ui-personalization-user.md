@@ -27,7 +27,7 @@ Du kan udføre forskellige ændringer som at flytte eller skjule felter, kolonne
 > Administratorer kan udføre samme layoutændringer, efterhånden som brugerne kan tilpasse profilen (rolle), som tildeles til flere brugere. Hvis du vil vide mere om roller, skal du gå til [Tilpasse sider til roller](ui-personalization-manage.md)<br /><br />
 Administratorer kan også tilsidesætte eller deaktivere brugernes tilpasninger, og de kan også definere, hvilke funktioner brugerne skal kunne se i alle eller bestemte regnskaber. Du kan finde flere oplysninger i [Tilpasse Business Central](ui-customizing-overview.md).
 
-## <a name="video"></a>Video
+## <a name="video-and-training"></a>Video
 
 I følgende video vises nogle metoder til at tilpasse dit rollecenter.
 

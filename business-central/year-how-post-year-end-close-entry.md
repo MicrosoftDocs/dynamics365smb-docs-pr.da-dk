@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="posting-the-year-end-closing-entry"></a>Bogføring af årsafslutningsposten
+# <a name="post-the-year-end-closing-entry"></a>Bogføring af årsafslutningsposten
 
 Når du har udført kørslen **Nulstil resultatopgørelse** for at oprette årsafslutningens lukkepost eller -poster, skal du åbne den kladde, du angav i kørslen, og derefter gennemse og bogføre posterne.  
 

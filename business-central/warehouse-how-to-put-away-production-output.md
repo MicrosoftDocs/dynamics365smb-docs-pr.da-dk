@@ -33,7 +33,7 @@ Det første trin til at lægge afgange på lager er at oprette den indgående la
 > [!NOTE]  
 > Du kan også oprette en indgående lageranmodning ved at vælge feltet **Opret indgående anmodning**, når du opdaterer produktionsordren. Flere oplysninger i [Omplanlægge eller forny produktionsordrer direkte](production-how-to-replan-refresh-production-orders.md).  
 
-### <a name="to-put-output-away-with-an-inventory-put-away"></a>Sådan lægges afgang på lager med en læg-på-lager-aktivitet
+### <a name="to-put-away-output-with-an-inventory-put-away"></a>Sådan lægges afgang på lager med en læg-på-lager-aktivitet
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Læg-på-lager (lager)**, og vælg derefter det relaterede link.  
 2. Opret en ny læg-på-lager-aktivitet. Flere oplysninger i [Lægge varer på lager med Læg-på-lager (lager)](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
@@ -49,7 +49,7 @@ Når du bogfører læg-på-lager, antages det, at alle operationer er bogført i
 
 Hvis du kun har behov for at bogføre opstillings- og operationstid på den sidste operation, skal du angive afgangsantallet for den sidste operation til 0. Alternativt kan du vælge overhovedet ikke at bogføre den sidste linje ved simpelthen at slette den.
 
-## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>Plukke til montage eller produktion til lager i avancerede lageropsætninger
+## <a name="to-put-away-assembly-and-production-output-in-advanced-warehouse-configurations"></a>Plukke til montage eller produktion til lager i avancerede lageropsætninger
 
 Når du bogfører afgangen for produktion eller montageordre på det lagersted, der er sat op til at bruge styret læg-på-lager og pluk, placeres afgangen på den placering, der er defineret i produktions- eller montageordren. Få mere at vide om, hvordan du kan flytte varer på lagerstedet med avancerede konfigurationer, ved at gå til [Flytte varer i avancerede logistik konfigurationer](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet).
 

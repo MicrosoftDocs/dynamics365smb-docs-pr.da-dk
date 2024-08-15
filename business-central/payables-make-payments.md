@@ -11,7 +11,7 @@ ms.date: 07/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Foretage indbetalinger
+# <a name="make-payments"></a>Foretage indbetalinger
 
 Du betaler kreditorer eller debitorer eller refusioner dine medarbejdere ved at bogfører betalingslinjer på siden **Udbetalingskladde**. Betalingskladden er en kassekladde, der er optimeret til betalinger og tilbyder mange stærke handlinger. Det kan f.eks. være handlingen **Lav kreditorbetalingsforslag**, som finder forfaldne kreditorbetalinger, og rapporten **Kreditor - forfaldsoversigt**, der indeholder en oversigt over forfaldne kreditorbetalinger.  
 
@@ -35,7 +35,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 | Betale en kreditor med kontanter eller check og bogfører betalingen, når du bogfører fakturaen. |[Afregne købsfakturaer omgående](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Kontroller, at din bank kun afregner validerede checks og beløb, ved at sende banken en fil, der indeholder kreditor- check- og betalingsoplysninger. |[Eksportere en Positive Pay-fil](finance-how-positive-pay.md) |
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Køb](purchasing-manage-purchasing.md)  

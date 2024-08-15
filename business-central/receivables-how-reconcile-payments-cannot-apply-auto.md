@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Afstemme betalinger, der ikke kan anvendes automatisk
+# <a name="reconcile-payments-that-cant-be-applied-automatically"></a>Afstemme betalinger, der ikke kan anvendes automatisk
 Du kan nogle gange være nødt til at håndtere betalinger til din bankkonto, som ikke kan udlignes med en relateret åben debitor-, kreditor- eller bankkontopost. Det kan skyldes, at der ikke findes noget dokument, som [!INCLUDE[prod_short](includes/prod_short.md)] betalingen kan udlignes med, eller at det relaterede dokument indeholder [!INCLUDE[prod_short](includes/prod_short.md)] et andet beløb end transaktionsbeløbet, f.eks. pga. valutakurs.  **På siden Betalingsafstemningskladde** vises alle transaktionsbeløb for betalinger, der endnu ikke er udlignet **, i feltet Difference**, inklusive beløb, der ikke kan udlignes af årsager som ovenstående.
 
 Metoderne til løsning af disse typer ikke-udlignede betalinger:
@@ -29,7 +29,7 @@ Når du vil afstemme sådanne betalinger, kan du vælge handlingen **Overfør di
 > [!TIP]  
 >   Der findes lignende funktioner, som bruges til at konfigurere automatisk afstemning af tilbagevendende betalinger, der kan udlignes på relaterede åbne debitor-, kreditor- eller bankkontoposter. Du kan finde flere oplysninger i [Knytte tekst på tilbagevendende betalinger til automatisk afstemning af konti](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 
-## Sådan afstemmes betalinger, der ikke kan anvendes automatisk
+## <a name="to-reconcile-payments-that-cant-be-applied-automatically"></a>Sådan afstemmes betalinger, der ikke kan anvendes automatisk
 1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Betalingsudligningskladder**, og vælg derefter det relaterede link.
 2. Åbne en kladde til betalingsafstemning. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 3. Vælg **Overfør difference til konto**. Siden **Overfør difference til konto** åbnes.
@@ -42,7 +42,7 @@ Hvis værdien i feltet **Difference** er lig med værdien i feltet **Transaktion
 
 Hvis værdien i feltet **Difference** er lavere end værdien i feltet **Transaktionsbeløb**, oprettes der en ekstra kladdelinje med den samme tekst og dato og differencen indsættes i feltet **Transaktionsbeløb**. På den oprindelige kladdelinje fratrækkes differencen fra værdien i feltet **Transaktionsbeløb**, og betalingen vil forsat blive udlignet på den relaterede debitor-, kreditor- eller bankkontopost. Når du bogfører betalingsudligningskladden, bliver en del af betalingen bogført som en udlignet betaling. Den anden del af betalingen vil blive bogført direkte på den angivne konto.
 
-## Se også
+## <a name="see-also"></a>Se også
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

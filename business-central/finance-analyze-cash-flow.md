@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Analysere pengestrømme i din virksomhed
+# <a name="analyze-cash-flow-in-your-company"></a>Analysere pengestrømme i din virksomhed
 Diagrammer i rollecenteret Regnskabsmedarbejder giver indsigt, som kan hjælpe dig med at træffe beslutninger vedrørende dine pengestrømme.  
 
 | For at besvare spørgsmål som de følgende | Skal du bruge dette diagram |
