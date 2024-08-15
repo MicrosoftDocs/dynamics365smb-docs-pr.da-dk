@@ -7,10 +7,10 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'customer payment, debtor, balance due, AR'
-ms.date: 06/10/2024
+ms.date: 07/08/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-receivables"></a>Administrere tilgodehavender
+# Administrere tilgodehavender
 
 Et regelmæssigt skridt i enhver økonomisk rytme er at afstemme bankkonti. Hvis du vil lukke salgsfakturaer og købskreditnotaer som betalt, skal du udligne indgående betalinger med debitor- eller kreditorposter.
 
@@ -41,8 +41,7 @@ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der r
 |Angive en tolerance, som systemet lukker en faktura efter, også selvom betalingen, inklusive eventuel rabat, ikke fuldt ud dækker beløbet på fakturaen.|[Arbejde med betalingstolerancer og kontantrabattolerancer](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Forudsige, hvornår betalinger vil være foretaget for sent for salgsdokumenter. | [Forudsigelse af forsinket betaling-udvidelsen](ui-extensions-late-payment-prediction.md) |
 
-## <a name="see-also"></a>Se også
-
+## Se også
 [Salg](sales-manage-sales.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

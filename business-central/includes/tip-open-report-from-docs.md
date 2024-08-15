@@ -1,10 +1,6 @@
 ---
-author: brentholtorf
-ms.topic: include
-ms.date: 06/12/2024
-ms.author: bholtorf
-ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
+Forfatter: Brentholtorf ms.emne: inkludere <<<<<<< Opdateret opstrøms ms.dato: 06/12/2024 ======= ms.dato: 05/20/2024
+>>>>>>> Stashed ændringer ms.author: bholtorf ms.service: dynamics-365-business-central ms.reviewer: bholtorf
 ---
 
 > [!TIP]

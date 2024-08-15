@@ -1,17 +1,17 @@
 ---
-title: Regler for automatisk udligning af betalinger
+title: Regler for automatisk anvendelse af betalinger
 description: 'Læse om, hvordan du definerer regler for automatisk udligning af betalinger på siden betalingsudligningsregler.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'payment process, direct payment posting, reconcile payment, expenses, cash receipts'
 ms.search.form: '1290, 1294, 1287'
-ms.date: 06/25/2021
+ms.date: 06/03/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="set-up-rules-for-automatic-application-of-payments"></a>Konfigurere regler for automatisk udligning af betalinger
+# Oprette regler for automatisk anvendelse af betalinger
 
 Gå til siden **Regler for betalingsudligning**, og konfigurer regler til at styre, hvordan betalinger/banktransaktioner skal udlignes automatisk til deres relaterede åbne (ubetalte) fakturaer, kreditnotaer eller andre poster, når du bruger funktionen **Udlign automatisk** på siden **Betalingsudligningskladde**. Du kan finde flere oplysninger i [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md).
 
@@ -29,7 +29,7 @@ Udover afstemningskriterierne gælder følgende vedrørende fortegnet foran det 
 - I forbindelse med negative beløb foretages først en afstemning mod åbne poster, der repræsenterer debitorfakturaer, og derefter mod kreditnotaer for kreditorer.
 - I forbindelse med positive beløb foretages først en afstemning mod åbne poster, der repræsenterer kreditorfakturaer, og derefter mod kreditnotaer for debitorer.
 
-## <a name="to-set-up-a-payment-application-rule"></a>Sådan opretter du en udligningsregel for betaling
+## Sådan opretter du en udligningsregel for betaling
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Regler for betalingsudligning**, og vælg derefter det relaterede link.
 2. Definer en ny eller redigeret regel for betalingsudligning ved at udfylde felterne på en linje, som beskrevet i følgende tabel.
 
@@ -38,8 +38,8 @@ Udover afstemningskriterierne gælder følgende vedrørende fortegnet foran det 
 |**Matchtillid**|Angiver din tillid til udligningsreglen, du definerer på linjen. <br /></br>En værdi, du angiver i dette felt, vises i feltet i vinduet **Matchtillid** på siden **Betalingsudligningskladde** i henhold til kvaliteten af det automatiske betalingsprogram på kladdelinjen.|
 |**Prioritet**|Angiver prioriteten af udligningsreglen i forhold til andre udligningsregler, der er defineret som linjer på siden **Regler for betalingsudligning**. 1 repræsenterer den højeste prioritet.|
 |**Relateret part er matchet**|Angiver, hvor mange oplysninger om debitoren eller kreditoren, f.eks. adresse, bynavn og bankkontonummer, på kladdelinjen for betalingsafstemning, der skal matche oplysninger om den åbne post, før udligningsreglen bruges til automatisk at udligne betalingen til den åbne post.|
-|**Bilagsnr./Eksternt bilagsnr. er matchet**|Angiver, om teksten på betalingsudligningskladde skal stemme overens med værdien i feltet **Bilagsnr.** eller **Eksternt bilagsnr.** på den åbne post, før udligningsreglen udligner betalingen med den åbne post.|
-|**Matchende beløb inkl. tolerance**|Angiver, hvor mange poster for en debitor eller kreditor skal svare til beløbet, herunder betalingstolerance, før udligningsreglen skal bruges til automatisk at udligne en betaling til den åbne post.|
+|**Bilagsnr./Udv. bilagsnr. Matchede**|Angiver, om teksten på betalingsudligningskladde skal stemme overens med værdien i feltet **Bilagsnr.** eller **Eksternt bilagsnr.** på den åbne post, før udligningsreglen udligner betalingen med den åbne post.|
+|**Antal poster inden for funden beløbstolerance**|Angiver, hvor mange poster for en debitor eller kreditor skal svare til beløbet, herunder betalingstolerance, før udligningsreglen skal bruges til automatisk at udligne en betaling til den åbne post.|
 |**Gennemsyn er påkrævet**|Angiver, om den automatiske betalingsanmodning anbefales til manuel gennemgang, som brugeren havde før bogføringen. Valg af felter **Linjer, der skal gennemses** på siden **Betalingsudligningskladde** startes en automatiseret oplevelse, hvor du nemt kan få vist flere programmer i en rækkefølge på siden **Anmeldelse af betalingsansøgning**.|
 
 I følgende tabel beskrives standard betalings reglerne i [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -47,7 +47,7 @@ I følgende tabel beskrives standard betalings reglerne i [!INCLUDE[prod_short](
 > [!Important]
 > Betalingsudligningsregler kan være anderledes i din implementering af [!INCLUDE[prod_short](includes/prod_short.md)].
 
-| Matchtillid | Prioritet | Relateret part er matchet | Bilagsnr./Eksternt bilagsnr. Matchet | Matchende beløb inkl. tolerance |
+| Matchtillid | Prioritet | Relateret part er matchet | Bilagsnr./Eksternt bilagsnr. er matchet | Antal fundne poster inden for tolerancebeløb |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
 | Høj             | 1        | Fuldt ud                 | Ja - flere                 | En afstemning                      |
 | Høj             | 2        | Fuldt ud                 | Ja - flere                 | Flere afstemninger               |
@@ -74,7 +74,7 @@ I følgende tabel beskrives standard betalings reglerne i [!INCLUDE[prod_short](
 | Lav              | 4        | Nr.                    | Nr.                             | En afstemning                      |
 | Lav              | 5        | Nr.                    | Nr.                             | Flere afstemninger               |
 
-## <a name="see-also"></a>Se også
+## Se også
 [Afstemme betalinger ved hjælp af automatisk udligning](receivables-how-reconcile-payments-auto-application.md)  
 [Administrere tilgodehavender](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  

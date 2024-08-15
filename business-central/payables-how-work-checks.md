@@ -7,11 +7,11 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'payment journal, print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '256, 404,'
-ms.date: 05/07/2024
+ms.date: 07/17/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="make-check-payments"></a>Foretage checkbetalinger
+# Foretage checkbetalinger
 
 Du kan udstede elektroniske og manuelle check [!INCLUDE[prod_short](includes/prod_short.md)]. Udbetalingskladden bruges i begge tilfælde, når der udstedes checks til leverandører/kreditorer. Du kan også annullere checks og se checkposter.
 
@@ -20,7 +20,7 @@ Følgende procedure viser, hvordan du kan betale en kreditor med en computerchec
 Du kan betale med to checktyper. Ved begge typer skal feltet **Modkontotype** eller **Kontotype** indeholde **Bankkonto**.
 
 - **Computercheck**: Vælg denne mulighed, hvis du vil udskrive en check på beløbet fra udbetalingskladdelinjen. Du skal udskrive checkene, før du kan bogføre kladdelinjerne.
-- **Manuel check**: Vælg denne mulighed, hvis du har oprettet en check manuelt og vil oprette en tilsvarende checkpost på beløbet. Du kan ikke udskrive checken med denne indstilling.
+- **Manuel check**: Vælg denne mulighed, hvis du har oprettet en check manuelt og vil oprette en tilsvarende checkpost på beløbet. Hvis du bruger denne mulighed, kan du ikke udskrive checken.
 
 > [!NOTE]  
 > Du kan kontrollere, at din bank kun afregner validerede checks og beløb, ved at sende banken en fil, der indeholder kreditor- check- og betalingsoplysninger. Du kan finde flere oplysninger i [Eksportere en Positive Pay-fil](finance-how-positive-pay.md).
@@ -30,7 +30,7 @@ Du kan betale med to checktyper. Ved begge typer skal feltet **Modkontotype** el
 
 Du kan udskrive op til 10 fakturaer på en side til en checktalon. Hvis en check skal gælde for mere end 10 fakturaer, annullere vi checken på første side, når du udskriver talonen, og skriver ordet ANNULLERET på checken. Vi udskriver derefter resten af fakturaerne og det samlede checkbeløb på den anden side.
 
-## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Sådan betales en kreditorfaktura med en computercheck
+## Sådan betales en kreditorfaktura med en computercheck
 
 I følgende fremgangsmåde vises, hvordan du betaler en kreditor med check. Fremgangsmåden er den samme, hvis du vil refundere en debitor med check.
 
@@ -50,13 +50,13 @@ Der oprettes helt udlignede kreditorposter og bankposter.
 > [!NOTE]  
 > Hvis du vil udskrive og betale checks i mere end én valuta fra forskellige bankkonti, skal du udføre kørslen **Udskriv check** separat for hver valuta og angive den korrekte bankkonto.
 
-## <a name="to-cancel-printed-checks-that-arent-posted"></a>Sådan annulleres udskrevne checks, der ikke er blevet bogført
+## Sådan annulleres udskrevne checks, der ikke er bogført
 
 Du kan annullere ikke-bogførte checks, når de er blevet udskrevet, ved hjælp af handlingen **Annuller check** på siden **Udbetalingskladde**.
 
 1. På siden **Udbetalingskladde** skal du vælge **Annuller Check**, og vælg derefter hvilke checks der skal annulleres.
 
-## <a name="to-void-checks"></a>Sådan annulleres checks
+## Sådan annulleres checks
 
 Når checkbetalingen er blevet bogført, kan du kun annullere checks fra de resulterende bankposter.
 
@@ -69,14 +69,14 @@ Når checkbetalingen er blevet bogført, kan du kun annullere checks fra de resu
 4. Markér afkrydsningsfeltet **Kun annulleringskontrol**.
 5. Vælg knappen **OK**.
 
-## <a name="to-view-a-summary-of-posted-checks"></a>Sådan får du vist en oversigt over bogførte checks
+## Sådan får du vist en oversigt over bogførte checks
 
 Hvis du vil gennemse bogførte checks, for eksempel for at kontrollere flere checks, der er betalt til én kreditor, kan du bruge rapporten **Bankkonto - checkoplysninger**.
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankkonto - checkoplysninger**, og vælg derefter det relaterede link.
 2. Angiv filtre som relevante, og vælg derefter knappen **Eksempel**.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Foretage betaling](payables-make-payments.md)  
 [Administrere skyldige beløb](payables-manage-payables.md)  

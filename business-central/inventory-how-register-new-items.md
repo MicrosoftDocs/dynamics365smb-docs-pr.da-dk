@@ -11,9 +11,9 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="register-new-items"></a>Registrere nye varer
+# Registrere nye varer
 
-Varer er de varer eller tjenester, som du køber, opbevarer, sælger, leverer og redegør for. Brug siden **Varekort** til at registrere oplysninger om følgende typer varer:
+Varer, blandt andre produkter, er grundlaget for din virksomhed, de varer eller tjenester, du handler med. Hver vare skal registreres som et varekort.
 
 * **Lagerbeholdning** angiver, at varen er en fysisk enhed, som du administrerer og sporer på lageret.
 * **Ikke-lager** er fysiske enheder, som du ikke administrerer eller sporer på lageret.
@@ -24,19 +24,21 @@ Du kan lære mere om disse typer af varer ved at gå til [Om varetyper](inventor
 > [!TIP]
 > Der findes også katalogvarer, som minder om ikke-lagervarer, idet det er varer, som du tilbyder kunderne, men som du ikke administrerer, før du sælger dem. Hvis du vil vide mere, skal du gå til [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md).  
 
-## <a name="primary-and-alternate-vendors"></a>Primære og alternative kreditorer
+## Primære og alternative kreditorer
 
 Hvis du køber den samme vare fra flere forskellige leverandører, kan du forbinde disse leverandører på varen. Brug handlingen **Kreditorer**på siden **Varekort** for at åbne siden **Vare/leverandører**  Siden viser de kreditorer, du køber varen af, så du nemt kan oprette eller vælge en alternativ leverandør, når du opretter en købsordre.
 
-## <a name="use-item-templates"></a>Bruge vareskabeloner
+## Bruge vareskabeloner
 
 Hvis du vil genbruge indstillinger for forskellige typer varer, når du opretter nye varer, kan du gemme varer som vareskabeloner. Vareskabeloner hjælper med at fremskynde processen med at tilføje nye varer og øge konsistensen i dine varedata. Når du registrerer en ny vare, vises en side, hvor du kan vælge en skabelon. Når du har valgt en skabelon, udfyldes dens indstillinger for dig for det element, du opretter. Hvis du kun har én vareskabelon, bruger nye varer altid denne skabelon. Du kan få mere at vide om, hvordan du konfigurerer en vareskabelon, ved at gå til [Gemme et varekort som en vareskabelon](#save-an-item-card-as-an-item-template).
 
-## <a name="include-items-in-bills-of-materials"></a>Medtag varer i styklisterne
+<br/>
+
+## Medtag varer i styklisterne
 
 Du kan strukturere hierarkier, der har en hovedvare med underliggende komponentvarer i montage- og produktionsstyklister. Hvis du vil vide mere om styklister, skal du gå til [Arbejde med styklister](inventory-how-work-BOMs.md).
 
-## <a name="to-create-a-new-item-card"></a>Sådan oprettes et nyt varekort
+## Sådan oprettes et nyt varekort
 
 Følgende video viser, hvordan du opsætter en vare på varekortet. Du kan imidlertid også oprette nye varer ved at kopiere eksisterende kort. Du kan få mere at vide i [Kopiere eksisterende elementer for at oprette nye varer](inventory-how-copy-items.md).  
 
@@ -51,41 +53,41 @@ Følgende video viser, hvordan du opsætter en vare på varekortet. Du kan imidl
 
 Du kan bruge særlige priser eller rabatter, som du eller din leverandør giver varen baseret på bestemte kriterier. Kriterierne omfatter f.eks. debitor, minimumsordreantal eller slutdato. Du opsætter en specialpris ved at vælge handlingerne **Angiv særlige priser** eller **Angiv særlig rabat**. Hver række på eksempelvis siden **Salgspriser** repræsenterer en særlig pris. Hver kolonne repræsenterer et kriterium, der skal gælde for at tildele en debitor den specielle pris, som du angiver i feltet **Enhedspris** på siden **Salgspriser**. Du kan få mere at vide om prisfastsættelse ved at gå til [Registrere salgspris, rabat og betalingsaftaler](sales-how-record-sales-price-discount-payment-agreements.md) eller [Registrere særlige købspriser og rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
-### <a name="save-an-item-card-as-an-item-template"></a>Gem et varekort som en vareskabelon
+### Gem et varekort som en vareskabelon
 
 1. På siden **Varekort** skal du vælge handlingen **Gem som skabelon**. Siden **Vareskabelon** viser varekortet som skabelon.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-> [!TIP]
-> Du kan også genbruge dimensioner til varer. Hvis du vil genbruge dimensioner i kladder, skal du vælge handlingen **Dimensioner**. Siden **Skabeloner til dimensioner** viser de dimensioner, der er konfigureret for varen. Rediger eller tilføj dimensioner, der gælder for nye varer, du opretter ud fra skabelonen.
+3. Hvis du vil genbruge dimensioner i skabeloner, skal du vælge handlingen **Relateret**, derefter vælge **Vare** og derefter **Dimensioner**.  **Standarddimensioner** for den valgte vare åbnes og viser eventuelle dimensionskoder, der er defineret for varen.
+4. Rediger eller angiv dimensionskoder, der skal gælde for nye debitorkort, oprettes ved hjælp af skabelonen.
+5. Når du har fuldført skabelonen for den nye vare, skal du vælge knappen **OK**.
 
 Vareskabelonen føjes til listen over vareskabeloner, så du kan bruge den til at oprette nye varekort.
 
-### <a name="items-used-in-production-orders"></a>Varer, der bruges i produktionsordrer
+### Varer, der bruges i produktionsordrer
 
 Hvis du vil registrere varer, der derefter bruges i produktionsordrer, skal du angive genbestillingssystemet som *Prod.ordre* i oversigtspanelet **Genbestilling**. Du kan finde flere oplysninger i [Om produktionsordrer](production-about-production-orders.md).  
 
-## <a name="to-set-up-multiple-vendors-for-an-item"></a>Sådan oprettes flere leverandører af en vare
+## Sådan oprettes flere leverandører af en vare
 
 Hvis du køber den samme vare fra flere forskellige leverandører, skal du angive oplysninger om hver vareleverandør, f.eks. priser, leveringstid og rabatter.  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
 2. Markér den relevante vare, og vælg derefter handlingen **Rediger**.  
 3. Vælg handlingen **Leverandører**.  
-4. Vælg feltet **Kreditornr.**, og vælg derefter den kreditor, du vil konfigurere for varen.  
+4. Vælg ikonet **Nej.** Og derefter vælge den leverandør, du vil oprette for varen.  
 5. Det er valgfrit, om du vil udfylde de resterende felterne.  
 6. Gentag trin 2 til 5 for hver leverandør, du ønsker at købe varen fra.
 
 Leverandørerne vises nu på siden **Vare/leverandører**, som du åbner fra varekortet, så du nemt kan vælge en anden leverandør.
 
-## <a name="set-up-item-substitutions"></a>Konfigurere erstatningsvarer
+## Konfigurere erstatningsvarer
 
 Du kan definere, at varer skal have erstatningsvarer, f. eks. andre varer, der kan bruges i stedet for den oprindelige vare.
 
-### <a name="to-make-an-item-substitution"></a>Sådan gør du en vare en erstatning
+### Sådan gør du en vare en erstatning
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Varer**, og vælg derefter det relaterede link.  
-2. Find den relevante vare, og vælg derefter på **Varenr.** for at åbne varekortet.  
+2. Find det relevante element, og vælg derefter ikonet **Nej.** For at åbne Vare kort.  
 3. Vælg den **relaterede** handling, vælg **vare**, og klik derefter på **erstatninger** for at åbne siden **Erstatningsvarepost** .  
 4. Vælg feltet **Erstatningsnr.** feltet , og vælg derefter erstatningsvaren på listen.
 5. Udfylde eller ændre felterne på siden efter behov.
@@ -95,46 +97,46 @@ Når antallet af efterspurgte varer overstiger den mængde, der er tilgængelig 
 > [!NOTE]  
 > Vær opmærksom på, at erstatningsvarer ikke automatisk medfører, at en vare erstattes af en anden vare, f. eks. når der oprettes en salgsordre eller en stykliste. I stedet bliver du advaret om, at der er en erstatningsvare tilgængelig.
 
-## <a name="categories-attributes-and-variants"></a>Kategorier, attributter og varianter
+## Kategorier, attributter og varianter
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 Få mere at vide om varianter på [Administrer produktvarianter](inventory-item-variants.md).  
 
-## <a name="delete-item-cards"></a>Slette varekort
+## Slette varekort
 
 Hvis du har bogført en postering for en vare, kan du ikke slette kortet, da posterne muligvis er nødvendige med henblik på værdiansættelse eller revision af lageret. Hvis du vil slette varekort med poster, skal du kontakte Microsoft-partneren for at gøre dette via kode.  
 
-## <a name="manage-inventory-in-warehouses"></a>Administration af lager på lagersteder
+## Administration af lager på lagersteder
 
 Når du registrerer en ny vare, kan du se de felter, der er relateret til lagerstedsstyringen, især i oversigtspanelet **Lagersted**. Hvis organisationen ikke bruger warehouse management capabilities i [!INCLUDE [prod_short](includes/prod_short.md)], kan du ignorere disse felter.  
 
 Hvis organisationen på et senere tidspunkt opsætter logistik, anbefales det, at du sikrer dig, at hver eksisterende vare har de rette oplysninger i de forskellige felter. På den måde kan lagerprocesserne køre som forventet. Oplysningerne kan omfatte felter som **Lagerklassekode** eller **Læg på lager-skabelonkode**. Der er flere oplysninger under [Konfigurere lokalitetsstyring](warehouse-setup-warehouse.md).  
 
-## <a name="planning"></a>Skabelon
+## Skabelon
 
 Når din virksomhed bruger forsynings planlægnings processerne i [!INCLUDE [prod_short](includes/prod_short.md)], skal du udfylde de relevante felter i oversigtspanelet **Planlægning** . Du kan finde en introduktion til planlægnings området i [design oplysninger: centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md).  
 
 Du kan finde eksempler på, hvordan du kan bruge felterne i oversigtspanelet **Planlægning**, under [konfigurere bedste fremgangsmåder: planlægningsparametre](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Lagerbeholdning](inventory-manage-inventory.md)  
-[Konfigurere måleenheder](inventory-how-setup-units-of-measure.md)  
-[Administrere produktvarianter](inventory-item-variants.md)  
-[Oprette Intrastat-rapportering](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
-[Afstemme lageromkostninger med finansregnskabet](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
-[Oprette nummerserie](ui-create-number-series.md)  
-[Konfigurere bogføringsgrupper](finance-posting-groups.md)  
-[Køb](purchasing-manage-purchasing.md)  
-[Salg](sales-manage-sales.md)  
-[Om planlægningsfunktionen](production-about-planning-functionality.md)  
-[Oprette bedste fremgangsmåder: Planlægningsparametre](setup-best-practices-planning-parameters.md)  
-[Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)  
-[Designoplysninger: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)  
-[Designoplysninger: Afstemning mellem behov og forsyning](design-details-balancing-demand-and-supply.md)  
-[Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Lagerbeholdning](inventory-manage-inventory.md)    
+[Oprette enheder](inventory-how-setup-units-of-measure.md)    
+[Administrer produktvarianter](inventory-item-variants.md)    
+[Oprette Intrastat-rapportering](finance-how-setup-report-intrastat.md#other-intrastat-configurations)    
+[Afstemme lageromkostninger med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md)    
+[Opret nummerserie](ui-create-number-series.md)    
+[Oprette bogføringsgrupper](finance-posting-groups.md)    
+[Køb](purchasing-manage-purchasing.md)    
+[Salg](sales-manage-sales.md)    
+[Om planlægningsfunktioner](production-about-planning-functionality.md)    
+[Bedste fremgangsmåder for opsætning: Planlægningsparametre](setup-best-practices-planning-parameters.md)    
+[Konfigurere bedste fremgangsmåder: Forsyningsplanlægning](setup-best-practices-supply-planning.md)    
+[Designdetaljer: Centrale begreber i planlægningssystemet](design-details-central-concepts-of-the-planning-system.md)    
+[Designoplysninger: Afbalancering af behov og forsyning](design-details-balancing-demand-and-supply.md)    
+[Designoplysninger: Planlægningsparametre](design-details-planning-parameters.md)    
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,22 +1,23 @@
 ---
-title: Afregne købsfakturaer omgående
+title: Udlign købsfakturaer med det samme
 description: 'Hvis det er nødvendigt at betale kreditoren kontant eller med check, kan du få ordnet bogføringen, når du bogfører fakturaen.'
 author: brentholtorf
 ms.topic: conceptual
 ms.search.form: '51, 9308'
-ms.date: 04/01/2021
+ms.date: 07/18/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="settle-purchase-invoices-promptly"></a>Afregne købsfakturaer omgående
+
+# Udlign købsfakturaer med det samme
 
 Hvis det er nødvendigt at betale kreditoren kontant eller med check, kan du bogføre betalingen, når du bogfører fakturaen.  
 
 > [!NOTE]  
 > Hvis du ofte afregner købsfakturaer kontant, med check eller bankoverførsel, kan det muligvis svare sig at oprette en specifik betalingsform med en tilknyttet modkonto og angive betalingsformen i feltet **Betalingsform** på kreditorkortet. Modkontonummeret indsættes automatisk på fakturahovedet, hver gang du opretter en ny faktura. Du kan finde flere oplysninger i [Definere betalingsmetoder](finance-payment-methods.md).  
 
-## <a name="to-settle-purchase-invoices-promptly"></a>Sådan afregnes købsfakturaer omgående
+## Sådan afregnes købsfakturaer omgående
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Købsfakturaer**, og vælg derefter det relaterede link.  
 2. Vælg handlingen **Ny**.  
@@ -27,7 +28,7 @@ Hvis det er nødvendigt at betale kreditoren kontant eller med check, kan du bog
 >
 > Denne tilpasning er kun nødvendig, hvis du ikke angiver modkonti ved betalingsmetoderne som beskrevet ovenfor.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere skyldige beløb](payables-manage-payables.md)  
 [Køb](purchasing-manage-purchasing.md)  

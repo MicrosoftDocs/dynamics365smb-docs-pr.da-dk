@@ -11,23 +11,23 @@ ms.reviewer: bholtorf
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="accountant-experiences-in-"></a>Revisoroplevelser i [!INCLUDE[prod_long](includes/prod_long.md)]
+# Revisoroplevelser i [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Enhver virksomhed skal føre regnskab og godkende det. Nogle virksomheder benytter en ekstern revisor, mens andre har kvalificerede regnskabsmedarbejdere. Uanset hvilken type regnskabsmedarbejder, du er, kan du bruge rollecenteret **Regnskabsmedarbejder** som din startside i [!INCLUDE[prod_short](includes/prod_short.md)]. Herfra kan du få adgang til alle sider, du skal bruge i dit arbejde.  
 
-## <a name="accountant-role-center"></a>Rollecenteret Regnskabsmedarbejder
+## Rollecenteret Regnskabsmedarbejder
 
 Rollecenteret er et dashboard med aktivitetsfelter, der viser nøgletal i realtid og giver dig hurtig adgang til data. Båndet øverst på siden giver dig adgang til flere handlinger. Du kan f.eks. åbne finansielle rapporter og kontoudtog i Excel. I navigationsruden øverst kan du hurtigt skifte mellem de lister, du bruger mest. Her vises andre områder, f.eks. **Bogførte dokumenter** med de forskellige typer dokumenter, som firmaet har bogført.  
 
 Hvis du ikke kender [!INCLUDE[prod_short](includes/prod_short.md)], kan du åbne en liste over videoer direkte fra dit rollecenter. Du kan også starte en guide, som f.eks. **Introduktion**, der udpeger vigtige områder.  
 
-## <a name="company-hub"></a>Virksomhedshub
+## Virksomhedshub
 
 Hvis du arbejder i flere [!INCLUDE [prod_short](includes/prod_short.md)]-firmaer, kan det være nyttigt at bruge siden **Virksomhedshub** til at holde styr på arbejdet. Du kan finde flere oplysninger i [Administrer arbejde på tværs af flere firmaer i virksomhedens hub](company-hub.md).  
 
-## <a name="inviting-your-external-accountant-to-your-"></a><a name="inviteaccountant"></a>Inviter din eksterne revisor indenfor i din [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="inviteaccountant"></a>Inviter din eksterne revisor indenfor i din [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Hvis du bruger en ekstern revisor til at administrere dine regnskaber og financial reporting, kan din administrator invitere ham eller hende indenfor i din [!INCLUDE[prod_short](includes/prod_short.md)], så de kan samarbejde med dig om dine regnskabsdata. [!INCLUDE[prod_short](includes/prod_short.md)] indeholder tre licenser af typen Ekstern revisor. Du kan finde flere oplysninger om licenser ved at downloade [Licensvejledning til Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?LinkId=866544).
 
@@ -45,13 +45,13 @@ Det er nemt at Invitere din eksterne revisor.  Åbn siden **Brugere** og derefte
 > [!IMPORTANT]  
 > Revisorens mailadresse skal være en arbejdsadresse, der er baseret på Microsoft Entra ID. Hvis revisoren bruger en anden type mail, så kan invitationen ikke sendes.
 >
-> Denne opgave kræver adgang til at administrere brugere og licenser i Microsoft Entra ID. Den bruger, der sender denne invitation, skal tildeles rollen **Globale administrator** eller **Brugeradministrator** i Microsoft 365 Administration. Du kan flere oplysninger i [Om administratorroller](/microsoft-365/admin/add-users/about-admin-roles) i Microsoft 365 Administrator-indholdet.  
+> Denne opgave kræver adgang til at administrere brugere og licenser i Microsoft Entra ID. Den bruger, der sender denne invitation, skal som minimum tildeles rollen [Brugeradministrator](/entra/identity/role-based-access-control/permissions-reference#user-administrator) i Microsoft 365 Administration. Du kan flere oplysninger i [Om administratorroller](/microsoft-365/admin/add-users/about-admin-roles) i Microsoft 365 Administrator-indholdet.  
 
-### <a name="add-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Føj din revisor til Microsoft 365 i Azure-portalen
+### Føj din revisor til Microsoft 365 i Azure-portalen
 
 Hvis din administrator eller videresalgspartner ikke vil bruge guiden **Inviter ekstern revisor**, kan vedkommende tilføje en ekstern bruger på Azure-portalen og tildele denne bruger licensen til den *Eksterne revisor*. Du finder flere oplysninger under [Hurtig start: Tilføj gæstebrugere til dit katalog i Azure-portalen](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
-#### <a name="to-add-your-accountant-as-a-guest-user"></a>Sådan tilføjer du din revisor som gæstebruger
+#### Sådan tilføjer du din revisor som gæstebruger
 
 1. Åbn [Azure-portalen](https://portal.azure.com/).
 2. Gå til venstre rude, og vælg **Microsoft Entra ID**.
@@ -66,7 +66,7 @@ Hvis din administrator eller videresalgspartner ikke vil bruge guiden **Inviter 
 
 Derefter skal du tildele den nye gæstebruger en licens til [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-"></a>Sådan giver du din revisor adgang til [!INCLUDE[prod_short](includes/prod_short.md)]
+#### Sådan giver du din revisor adgang til [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Gå til Azure-portalen, og vælg **Profil**og derefter **Rediger** på den bruger, der netop er tilføjet.
 2. Opdater feltet **Brugsplacering** til det relevante land/område, og vælg derefter **Gem.**
@@ -80,11 +80,11 @@ Derefter skal du tildele den nye gæstebruger en licens til [!INCLUDE[prod_short
 
 Hvis det lykkes, tildeles licensen til gæstebrugeren, og gæstekontoen oprettes.
 
-### <a name="import-the-new-user-into-"></a>Import af den nye bruger til [!INCLUDE[prod_short](includes/prod_short.md)]
+### Import af den nye bruger til [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Revisoren modtager en mail, der giver vedkommende besked om, at han eller hun har fået adgang til dit Microsoft Entra ID. Derefter skal du give vedkommende adgang til den rigtige virksomhed i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### <a name="to-add-the-accountant-to-the-right-company"></a>Sådan føjes revisoren til den rigtige virksomhed
+#### Sådan føjes revisoren til den rigtige virksomhed
 
 1. Åbn den [!INCLUDE[prod_short](includes/prod_short.md)]-virksomhed, du vil give revisoren adgang til, på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Brugere**, og vælg derefter det relaterede link.  
@@ -94,7 +94,7 @@ Denne handling importerer den brugerkonto, som du oprettede på Azure-portalen, 
 
 Hvis du vil give adgang til flere virksomheder, skal du logge ind på hver virksomhed og gentage denne proces. Alternativt kan du opdatere rettighedsgrupperne for revisorens brugerprofil i [!INCLUDE[prod_short](includes/prod_short.md)], f.eks. ved at tildele dem *D365 Bus Premium*-brugergruppen. Du kan finde flere oplysninger i [Tildele tilladelser til brugere og grupper](ui-define-granular-permissions.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finans](finance.md)  
 [Konfigurere Finans](finance-setup-finance.md)  
