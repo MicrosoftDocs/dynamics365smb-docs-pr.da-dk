@@ -1,26 +1,27 @@
 ---
-title: Slet omkostningsbudgetposter
+title: Slette omkostningsbudgetposter
 description: Du kan bruge kørslen Slet omkostningsbudgetposter til at annullere omkostningsbudgetposter fra omkostningsbudgetregistret.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 1115
-ms.date: 04/01/2021
+ms.date: 07/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="delete-cost-budget-entries"></a>Slet omkostningsbudgetposter
+
+# Slette omkostningsbudgetposter
 
 Du kan bruge kørslen **Slet omkostningsbudgetposter** til at annullere omkostningsbudgetposter fra omkostningsbudgetregistret.  
 
-Du kan ikke slette en enkelt post eller flere poster i midten af listen over journalposter i, for at undgå eventuelle mellemrum i omkostningsbudgetposter og omkostningsregisterposter.  
+Hvis du vil undgå huller i kostbudgetposterne og omkostningsregisterposterne, kan du ikke slette en enkelt post eller en gruppe poster midt på listen over poster i journalen.  
 
-## <a name="to-delete-a-cost-budget-entry"></a>Sådan slettes en omkostningsbudgetpost
+## Sådan slettes en omkostningsbudgetpost  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Slet omkostningsbudgetposter**, og vælg derefter det relaterede link.  
 
-    Feltet **Til-journalnr.** indeholder nummeret på den sidste journalpost og kan ikke ændres.  
+    Feltet **Til-journalnr.** Dette felt indeholder løbenummeret på den sidste post i journalen og kan ikke ændres.  
 
     Du kan bruge feltet **Fra-journalnr.** til at vælge et journalpostnummer, hvorfra sletningen skal begynde.  
 2. Tryk på knappen **OK** for at slette de valgte omkostningsbudgetposter.  
@@ -28,11 +29,11 @@ Du kan ikke slette en enkelt post eller flere poster i midten af listen over jou
 > [!NOTE]  
 > Du kan lukke registrerposter for at undgå en utilsigtet sletning af omkostningsbudgetposter ved at markere linjerne som **Lukket** i feltet **Lukket** på siden **Omkostningsbudgetregistre**.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Regnskab for omkostninger](finance-manage-cost-accounting.md)
-[Oprette omkostningsbudgetter](finance-create-cost-budgets.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Kontering af omkostninger](finance-manage-cost-accounting.md)    
+[Oprette omkostningsbudgetter](finance-create-cost-budgets.md)    
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

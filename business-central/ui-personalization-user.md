@@ -8,10 +8,10 @@ ms.custom: bap-template
 ms.reviewer: jswymer
 ms.search.keywords: 'customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 01/15/2024
+ms.date: 07/26/2024
 ms.author: jswymer
 ---
-# <a name="personalize-your-workspace"></a>Tilpas arbejdsområdet
+# Tilpas arbejdsområdet
 
 Du kan tilpasse dit arbejdsområde, så det passer til dit arbejde og dine præferencer. Ændr sider, så der kun vises de oplysninger, du skal bruge, hvis du har brug for det. Tilpasning påvirker kun dit arbejdsområde. Den ændrer ikke, hvordan andre arbejder. Du kan tilpasse alle typer sider, herunder siden [Rollecenter](ui-change-basic-settings.md#role-center).
 
@@ -19,21 +19,23 @@ Du kan tilpasse dit arbejdsområde, så det passer til dit arbejde og dine præf
 > På grund af begrænsninger på designmuligheder i webklienten er det i øjeblikket ikke muligt at tilpasse eller tilpasse kontrollerne i `grid` og `fixed`-syntaksen.
 Det gælder for alle designtilstande, ikke kun personalisering.
 
-[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+<!--[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]-->
 
 Du kan udføre forskellige ændringer som at flytte eller skjule felter, kolonner, handlinger, hele dele og tilføje nye felter. De fleste tilpasninger skal foretages ved først at aktivere det **personlige** banner. Du kan foretage simple justeringer, f. eks. kolonnebredden, med det samme på en vilkårlig liste.
 
 > [!NOTE]
-> Administratorer kan udføre samme layoutændringer, efterhånden som brugerne kan tilpasse profilen (rolle), som tildeles til flere brugere. Hvis du vil vide mere om roller, skal du gå til [Tilpasse sider til roller](ui-personalization-manage.md)<br /><br />
+> Administratorer kan foretage de samme layoutændringer som brugere ved at tilpasse en profil (rolle), som kan tildeles flere brugere. Hvis du vil vide mere om roller, skal du gå til [Tilpasse sider til roller](ui-personalization-manage.md)<br /><br />
 Administratorer kan også tilsidesætte eller deaktivere brugernes tilpasninger, og de kan også definere, hvilke funktioner brugerne skal kunne se i alle eller bestemte regnskaber. Du kan finde flere oplysninger i [Tilpasse Business Central](ui-customizing-overview.md).
 
-## <a name="video-and-training"></a>Video
+## Video og træning
 
 I følgende video vises nogle metoder til at tilpasse dit rollecenter.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
-## <a name="change-the-width-of-a-column"></a>Ændre kolonnebredden
+Hvis du vil have onlineundervisning, skal du gå til [Tilpasse Microsoft-brugergrænsefladen Dynamics 365 Business Central](/training/modules/personalize-ui-dynamics-365-business-central/).
+
+## Ændre kolonnebredden
 
 Du kan nemt ændre kolonnestørrelsen på en vilkårlig liste. Træk blot i kanten mellem to kolonner mod venstre eller højre.  
 
@@ -42,7 +44,7 @@ Du kan nemt ændre kolonnestørrelsen på en vilkårlig liste. Træk blot i kant
 
 Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden, på din konto og vises, uanset hvilken enhed du logger på.
 
-## <a name="start-personalizing-by-using-the-personalization-mode"></a>Starte brugertilpasning ved hjælp af tilpasningstilstand
+## Starte brugertilpasning ved hjælp af tilpasningstilstand
 
 1. Åbn en side, du vil tilpasse.
 1. I øverste højre hjørne vælges ![Indstillinger.](media/ui-experience/settings_icon_small.png "Ikonet Indstillinger for rollecenter") ikon, og derefter handlingen **Tilpas**.
@@ -60,7 +62,7 @@ Som ved andre tilpasninger gemmes de ændringer, du foretager af kolonnebredden,
 
 Du kan finde flere oplysninger i [Hvad kan du tilpasse](#What).
 
-## <a name="what-you-can-personalize"></a><a name="What"></a>Hvad kan du tilpasse
+## <a name="What"></a>Hvad kan du tilpasse
 
 |Hvad vil du foretage dig?|Hvordan du gør det|Kommentarer|
 |----|------------|-------|
@@ -77,7 +79,7 @@ Du kan finde flere oplysninger i [Hvad kan du tilpasse](#What).
 |Føje en ny handling til en side eller en rapport i dit rollecenter.|Vælg bogmærkeikonet på rapportanmodningssiden eller i vinduet Fortæl mig på målsiden.|[Få flere oplysninger om bogmærker til sider og rapporter](ui-bookmarks.md)|
 |Starte altid en liste som udvidet eller skjult|Vælg **Udvid alle** eller **Skjul alle** i øverste venstre hjørne. Du kan også vælge funktionen **Udvid alle** eller **Skjul alle** i menuen til den første kolonne. |Gælder for hierarkilister, der kan skjules|
 
-## <a name="personalize-action-bar-and-menus"></a><a name="Actions"></a>Tilpasse handlingslinje og menuer
+## <a name="Actions"></a>Tilpasse handlingslinje og menuer
 
 Tilpasning gør det muligt at bestemme, hvilke handlinger der skal vises på navigations- handlingslinjerne samt i rollecentre, og hvor de skal vises. Du kan vise, skjule eller flytte individuelle handlinger eller handlingsgrupper.
 
@@ -96,7 +98,7 @@ En *fremhævet kategori* er en handlingsgruppe, der vises foran den lodrette lin
 > [!NOTE]  
 > Hvis du vil rydde tilpasningen, skal du markere pilespidsen omkring delens design menu og derefter vælge **Ryd tilpasning**.
 
-### <a name="remove-hide-and-show-actions-and-action-groups"></a>Fjerne, skjule og vise handlinger og handlingsgrupper
+### Fjerne, skjule og vise handlinger og handlingsgrupper
 
 Når du vil vise eller skjule en handling, definerer indstillingerne under pilespidsen, hvad du kan gøre, afhængigt af handlingstilstanden. 
 
@@ -109,7 +111,7 @@ Når du vil vise eller skjule en handling, definerer indstillingerne under piles
 |**Skjul**|Denne indstilling vises, hvis handlingen eller handlingsgruppen ikke er placeret andre steder på navigations- eller handlingslinjen. Som det er tilfældet med **Fjern**, forsvinder handlingen eller handlingsgruppen fra navigations- eller handlingslinjen, hvis du vælger denne indstilling. Men i tilpasningstilstand vises handlingen eller handlingsgruppen stadig på den aktuelle placering, bortset fra at den er nedtonet.|
 |**Vis**|Denne indstilling vises, hvis handlingen eller handlingsgruppen er skjult (nedtonet). Vælges denne indstilling, vises handlingen eller handlingsgruppen på navigations- eller handlingslinjen.|
 
-### <a name="move-actions-and-action-groups"></a>Flytte handlinger og handlingsgrupper
+### Flytte handlinger og handlingsgrupper
 
 Hvor du kan slippe handlinger eller handlingsgrupper, er angivet af en vandret linje mellem to handlinger eller en kant omkring en handlingsgruppe. Der findes følgende begrænsninger:
 
@@ -119,7 +121,7 @@ Hvor du kan slippe handlinger eller handlingsgrupper, er angivet af en vandret l
 1. Hvis du vil flytte en handling eller handlingsgruppe, skal du trække og slippe den på den ønskede placering på samme måde som med feltet og kolonner.
 2. Hvis du vil flytte en handling eller handlingsgruppe til en anden handlingsgruppe, der er tom, skal du trække handlingen eller handlingsgruppen og slippe den i feltet **Slip en handling her**.
 
-### <a name="about-the-automate-menu"></a>Om menuen Automatiser
+### Om menuen Automatiser
 
 - Du kan ikke skjule eller flytte menuen **Automatiser** eller **Power Automate**-undermenuen og dens handlinger.
 - Du kan flytte flows, der er medtaget under elementet **Automatiser**, men du kan ikke skjule dem ved hjælp af personlig tilpasning. Når flowet flyttes, kopieres flowet til destinationen, men den fjernes ikke fra elementet **Automatiser**.
@@ -127,7 +129,7 @@ Hvor du kan slippe handlinger eller handlingsgrupper, er angivet af en vandret l
 > [!TIP]
 > Som administrator kan du skjule elementet **Automatisering** fra brugere. Flere oplysninger i [Konfigurere Power Automate-integration](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="personalize-parts"></a><a name="Parts"></a>Tilpasning af dele
+## <a name="Parts"></a>Tilpasning af dele
 
 Peg på eller vælg <kbd>Alt</kbd>+<kbd>Pil op</kbd> - Dele er områder på en side, der typisk består af flere felter, diagrammer eller andet indhold. En del vises med en farvet ramme, når du fokuserer på delen. Et rollecenters startskærm har f.eks. flere dele. På grund af den veldefinerede grænse kan du tilpasse hele delen og dens indhold.
 
@@ -137,7 +139,7 @@ Peg på eller vælg <kbd>Alt</kbd>+<kbd>Pil op</kbd> - Dele er områder på en s
 
 Du kan fjerne alle de tilpasningsændringer, du har foretaget i en enkelt del, ved at vælge indstillingen **Fjern tilpasning** under delens pilespids. Hvis du fjerner markering af en del, påvirker det kun, om en del er ændret, ikke placeringen eller synligheden af delen på siden.  
 
-## <a name="work-with-fields-and-columns"></a><a name="fields"></a>Arbejde med felter og kolonner
+## <a name="fields"></a> Arbejde med felter og kolonner
 
 Når du tilpasser en side, bruger du ruden **Føj felt til side** for at inkludere felter eller kolonner på den side, der aktuelt er skjult fra visning. Du kan åbne denne rude ved at vælge handlingen **+ Felt** nær toppen af siden. I modsætning til andre skjulte elementer er skjulte felter ikke angivet på selve siden i tilpasningstilstand. Du kan dog identificere skjulte felter ved hjælp af ruden **Føj felt til side**.
 
@@ -152,7 +154,7 @@ Her vises nogle generelle retningslinjer, du skal følge, når du bruger ruden *
 - De felter, der er tilgængelige i ruden **Føj felt til side**, bestemmes af udvikleren af siden og dens kildetabel eller af en profiladministrator, der har [tilpasset siden](ui-personalization-manage.md). Du kan ikke oprette nye felter og kolonner.
 - Nogle sider har flere sidefelter, der er knyttet til den samme kildetabel. Ruden viser begge/alle disse sidefelter uafhængigt af hinanden. At vise/skjule/flytte disse felter er også uafhængigt, uden at det ene påvirker det andet.
 
-### <a name="add-a-field-so-its-visible-on-the-page"></a>Tilføj et felt, så det er synligt på siden
+### Tilføj et felt, så det er synligt på siden
 
 Fra ruden **Føj felt til side** kan du medtage et felt, der aktuelt er skjult på siden, på to måder:
 
@@ -162,7 +164,7 @@ Fra ruden **Føj felt til side** kan du medtage et felt, der aktuelt er skjult p
 > [!NOTE]
 > Nogle af de felter, du tilføjer, kan ikke redigeres på siden, når du er færdig med tilpasningen. Disse felter er enten oprindeligt designet på denne måde, eller en administrator har [tilpasset](ui-personalization-manage.md) siden for at forhindre dig i at redigere dem.
 
-## <a name="clear-personalization"></a>Fjern tilpasning
+## Fjern tilpasning
 
 På et tidspunkt ønsker du måske at fjerne nogle eller alle de tilpasningsændringer, du har foretaget på en side i tidens løb.
 
@@ -173,13 +175,13 @@ På et tidspunkt ønsker du måske at fjerne nogle eller alle de tilpasningsænd
 > Fjernelse af tilpasning ikke kan fortrydes.
 
 |Indstilling|Det gør den|
-|------|------------
+|------|------------|
 |**Kun menuen Navigation**|Fjerner alle tilpasningsændringer, du har foretaget i navigationsmenuen, som er delt på tværs af rollecenteret og andre sider. Sådanne ændringer omfatter alle nye handlinger, der er tilføjet som bogmærker, og eventuelle ændringer af links og grupper i menuen.|  
 |**Kun handlinger**|Fjerner alle de tilpasningsændringer, du nogensinde har foretaget på navigations- eller handlingslinjerne på siden.|
 |**Kun Felter og Kolonner**|Fjerner alle de tilpasningsændringer, du nogensinde har foretaget for siden undtagen ændringer på navigations- eller handlingslinjen. Sådanne ændringer omfatter ændringer af felter, kolonner, dele og fliser. |
 |**Alle**|Fjerner alle de tilpasningsændringer, du har foretaget på siden, så siden får sit oprindelige udseende. Sådanne ændringer omfatter ændringer af navigations- og handlingslinjer, felter, kolonner, dele og fliser.|
 
-## <a name="tips-and-other-points-of-interest"></a>Tips og andre punkter af interesse
+## Tips og andre punkter af interesse
 
 Her er nogle forslag, der kan hjælpe dig med at opnå en bedre forståelse.
 
@@ -190,7 +192,7 @@ Her er nogle forslag, der kan hjælpe dig med at opnå en bedre forståelse.
 - Nogle sider har flere sidefelter, der er knyttet til den samme kildetabel. Ruden viser begge/alle disse sidefelter uafhængigt af hinanden. At vise/skjule/flytte disse felter er også uafhængigt, uden at det ene påvirker det andet.
 - Hvis en del eller gruppe er skjult, vises spøgelsesfelter stadig inde i den, men du kan ikke trække og slippe eller tilføje/vise dette felt, før du gør gruppen/delen synlig.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilpasse sider til profiler](ui-personalization-manage.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

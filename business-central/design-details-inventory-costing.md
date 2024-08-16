@@ -1,25 +1,26 @@
 ---
-title: Designoplysninger - Lagerkostmetode
+title: Designdetaljer - Lageromkostninger
 description: 'Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges inden for lageromkostningsfunktionerne i Business Central.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'design, inventory, costing'
 ms.search.form: 8645
-ms.date: 06/08/2021
+ms.date: 07/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="design-details-inventory-costing"></a>Designoplysninger: Lagerkostmetode
+
+# Designoplysninger: Lagerberegning
 
 Denne dokumentation indeholder detaljeret teknisk indsigt i de begreber og principper, der bruges inden for lageromkostningsfunktionerne i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Lagerkostmetode, også kendt som "omkostningsstyring", vedrører registrering og rapportering af virksomhedens driftsomkostninger.  
 
-## <a name="in-this-section"></a>Dette afsnit indeholder
+## I dette afsnit
 
-[Designoplysninger: Kostmetoder](design-details-costing-methods.md)  
+[Designoplysninger: Beregningsmetoder](design-details-costing-methods.md)  
 [Designoplysninger: Vareudligning](design-details-item-application.md)  
 [Designoplysninger: Kendt problem med vareudligning](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Designoplysninger: Beregningsregulering](design-details-cost-adjustment.md)  

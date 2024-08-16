@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 07/08/2024
+ms.date: 08/12/2024
 ms.custom: bap-template
 ms.search.keywords: 'move, warehouse'
 ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755'
@@ -23,7 +23,7 @@ Du kan overføre lagervarer mellem lokationer ved at oprette overflytningsordrer
 
 Du kan levere den udgående overflytning fra én placering og modtage en indgående overflytning på destinationen. Du kan:
 
-* Spore et antal i transit
+* Spore et antal i transit.
 * Definere kalendere, ruter og indgående og udgående tid til datoberegning og planlægning. Flere oplysninger om planlægning i [Om planlægningsfunktionen](production-about-planning-functionality.md).
 * Brug forskellige lagerfunktioner for indgående og udgående lokationer.
 * Brug overflytningsordrer til direkte overførsler med nogle begrænsninger.
@@ -33,7 +33,7 @@ Du kan levere den udgående overflytning fra én placering og modtage en indgåe
 Du kan også bruge siden **Vareomposteringskladden** til at:
 
 * Direkte overførsel af varer mellem lokationer.
-* Flytte varer mellem placeringer. Hvis du vil vide mere om overflytning af varer mellem placeringer, skal du gå til [Flyt varer, der ikke er planlagt i basislagerkonfigurationer](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
+* Flytte varer mellem placeringer Du kan få mere at vide om overflytning af varer mellem placeringer ved at gå til [Flyt varer, der ikke er planlagt, i Grundlæggende lagerkonfigurationer](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 * Ændre et lot-eller serienummer til et nyt lot-eller serienummer. Hvis du vil vide mere om genklassificering af serie-og lotnumre, skal du gå til [Ompostere serie-eller lotnumre](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 * Ændre udløbsdatoen til en ny dato.
 * Ompostere varer fra en tom lokation til en aktuel placering.
@@ -45,7 +45,7 @@ Du kan også bruge siden **Vareomposteringskladden** til at:
 2. På siden **Overflytningsordre** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Hvis du har udfyldt felterne **Transitkode**, **Speditørkode** og **Speditørservice** på siden **Overflytningsrutespec.**, udfyldes de tilsvarende felter på overflytningsordren automatisk, når du opretter overflytningsruten.
+    > Hvis du har udfyldt felterne **Transitkode**, **Speditørkode** og **Speditørservice** på siden **Overflytningsrutespec.**, udfyldes de tilsvarende felter på overflytningsordren automatisk, når du opretter overflytningsruten.
 
     Når du udfylder feltet **Speditørservice** beregnes modtagelsesdatoen på den lokation, der overflyttes til, ved at lægge speditørens transporttid til afsendelsesdatoen.
 
@@ -63,6 +63,18 @@ Du kan også bruge siden **Vareomposteringskladden** til at:
 
     Fortsæt ved at modtage varerne som lagermedarbejder på den lokation, der overflyttes fra. Overflytningsordrelinjerne er de samme som ved levering og kan ikke redigeres.
 5. Vælg handlingen **Bogfør**, vælg indstillingen **Modtag**, og vælg derefter knappen **OK**.
+
+### Fortryde en overførselslevering
+
+Hvis du finder en fejl i et antal på en bogført overflytningsordre, så længe leverancen ikke modtages, kan du nemt rette antallet.  **På siden Bogført overflytningsleverance** oprettes der rettelseslinjer ved hjælp af **handlingen Annuller leverance** på følgende måde:
+
+* Værdien i feltet **Antal leveret** faldt med det antal, du har annulleret.
+* Værdien i feltet **Antal leveret** steg ifølge det antal, du har annulleret.
+* Afkrydsningsfeltet **Rettelse** markeres for linjerne.
+
+Hvis antallet er leveret i en lagerleverance, oprettes der en rettelseslinje i den bogførte lagerleverance.
+
+Hvis du vil fuldføre rettelsen, skal du åbne overflytningsordren igen, angive det korrekte antal og derefter bogføre ordren. Hvis du bruger en lagerleverance til levering af ordren, skal du oprette og bogføre en ny lagerleverance.
 
 ### Bogføre flere overflytningsordrer i en batch
 
@@ -104,6 +116,43 @@ Følgende procedure viser, hvordan du kan indstille rapporten **Massebogfør sal
 8. I feltet **Starttidspunkt** skal du angive **kl. 16**.
 9. Vælg handlingen **Angiv status til Klar**.
 
+### Sammenligning af forskellige indstillinger for overflytningsordrer
+
+Du kan bogføre overflytningsordrer i forskellige transportformer med eller uden en transitlokation. Deaktiver til/fra-knappen Direkte overførsel, og vælg den midlertidige placering i feltet **Transitkode** på siden **Overflytningsordre** . **·**  Når du bogfører leverancen af en overflytningsordre, der bruger transitlokationen, er varerne på linjen ikke længere tilgængelige på en af lokationerne, fordi de er i transit. Direkte bogføring sikrer, at der ikke bruges et transitsted, og at forsendelses- og modtagelsesprocessen behandles samtidigt. Den nøjagtige funktionsmåde for direkte bogføring kan være forskellig baseret på den værdi, der er valgt i **feltet Bogføring** af direkte overførsler på **siden Lageropsætning** .
+
+I følgende tabel beskrives, hvordan kombinationerne adskiller sig.
+
+|Kapacitet|Feltet **Direkte overførsel** er deaktiveret på siden **Overflytningsordre** |**Direkte overførsel** er aktiveret på siden **Overflytningsordre** </br>**Bogføring** af direkte overførsler er angivet til **Direkte overførsel** på **siden Lageropsætning** |**Direkte overførsel** er aktiveret på siden **Overflytningsordre** </br>**Bogføring** af direkte overførsler er angivet til **Modtagelse og levering** på **siden Lageropsætning** |
+|---|---|---|---|
+|Brug transitlokation|Ja|Nr.|Nr.|
+|Kan bogføre modtagelse uden levering.</br>Kan bruge **Annuller modtagelse**.|Ja|Nr.|Nr.|
+|Delvis bogføring|Ja|Nr.|Ja|
+|Vareposter|4:</br>Overførsel fra fra-placering,</br>Overførsel til transit,</br>Overførsel fra transit,</br>Overfør til Til-Lokation.|2:</br>Overførsel fra fra-placering,</br>Overfør til Til-Lokation.|4:</br>Overførsel fra fra-placering,</br>Overfør til *tom,*</br>Overfør fra *tom,*</br>Overfør til Til-Lokation.|
+|Bogførte dokumenter|Bogført overflytningsleverance,</br>Bogført overførselskvittering.|Bogført direkte overførsel|Bogført overflytningsleverance,</br>Bogført overførselskvittering.|
+|Reservation: ind- og udgående|Ja|Ja|Ja|
+|Varegebyrer - tildeles til bogført overflytningskvittering|Ja|Nr.|Ja|
+|Lagerhåndtering|Fuld|Nr.|Begrænset, se nedenfor|
+
+Lagerhåndteringsmatrix til konfiguration:Direkte overførsel **er aktiveret på siden Overflytningsordre**  **,**  og **Direkte overflytningsbogføring er angivet til** Direkte **overførsel** på **siden Lageropsætning** .
+
+|Fra \ Til|Til: Ingen lagerhåndtering|Til: Lagermodtagelse|Til: Læg-på-lager (lager)|Til: Styret læg-på-lager og pluk|
+|-|-|-|-|-|
+|**Fra: Ingen lagerhåndtering**|1|Ikke understøttet|1, 4|Ikke understøttet|
+|**Fra: Lagerleverance**|1, 2|Ikke understøttet|1,2,4|Ikke understøttet|
+|**Fra: Læg-på-lager (lager)**|1, 3|Ikke understøttet|1,3,4|Ikke understøttet|
+|**Fra: Styret læg-på-lager og pluk**|2|Ikke understøttet|2|Ikke understøttet|
+
+Tallene i cellerne viser de bogføringsindstillinger, der understøttes.
+
+1. Bogfør fra overflytningsordre. For nogle kombinationer skal du muligvis udfylde feltet **Lever** (antal).
+2. Oprette og bogføre en lagerleverance.
+3. Opret og bogfør et lagerpluk.
+4. Oprette og bogføre en læg-på-lager-aktivitet. For nogle kombinationer skal du muligvis udfylde feltet **Lever** (antal).
+
+Uanset metoden udføres forsendelses- og modtagelsestransaktionerne. Du kan f.eks. oprette en overflytningsordre fra en lokation, der kræver pluk fra lager, til en lokation, der kræver læg-på-lager. Du kan oprette og bogføre læg-på-lager, og både leverance- og modtagelsestransaktioner oprettes. Du kan også bogføre sådanne dokumenter fra en overflytningsordre eller fra et lagerpluk.  
+
+Du kan finde flere oplysninger om lagerstedshåndtering i [Oversigt](design-details-warehouse-management.md) over lagerstedsstyring.
+
 ## Sådan overflyttes varer i vareomposteringskladden
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Vareomposteringskladder**, og vælg derefter det relaterede link.
@@ -117,17 +166,6 @@ Følgende procedure viser, hvordan du kan indstille rapporten **Massebogfør sal
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Fortryde en overførselslevering
-
-Hvis du finder en fejl i et antal på en bogført overflytningsordre, så længe leverancen ikke modtages, kan du nemt rette antallet. På siden **Bogføre overførselsleverance** opretter handlingen **Fortryde leverance** korrigerende linjer på følgende måde:
-
-* Værdien i feltet **Antal leveret** faldt med det antal, du har annulleret.
-* Værdien i feltet **Antal leveret** steg ifølge det antal, du har annulleret.
-* Afkrydsningsfeltet **Rettelse** markeres for linjerne.
-
-Hvis mængden blev leveret i en lagerleverance, oprettes en korrektionslinje i den bogførte lagerleverance.
-
-Hvis du vil fuldføre rettelsen, skal du åbne overflytningsordren igen, angive det korrekte antal og derefter bogføre ordren. Hvis du bruger en lagerleverance til levering af ordren, skal du oprette og bogføre en ny lagerleverance.
 
 ## Se også
 

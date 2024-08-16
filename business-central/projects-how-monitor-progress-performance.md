@@ -1,17 +1,18 @@
 ---
-title: Overvåge projektstatus og -udførelse
-description: 'Beskriver, hvordan du kan oprette en metode for igangværende arbejde og beregne igangværende arbejde for at estimere den økonomiske værdi af projekter, der er igangværende.'
+title: Overvåge status og ydeevne af projekt
+description: 'Beskriver, hvordan du kan oprette en VIA-metode (work in progress) og beregne VIA for at estimere den økonomiske værdi af projekter, mens de er i gang.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 02/22/2024
+ms.date: 07/31/2024
 ms.custom: bap-template
 ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
 ms.service: dynamics-365-business-central
 ---
-# <a name="monitor-project-progress-and-performance"></a>Overvåge status og ydeevne af projekt
+
+# Overvåge status og ydeevne af projekt
 
 Med igangværende arbejde (WIP)-funktionen kan du estimere den økonomiske værdi af igangværende projekter i finansregnskabet.
 
@@ -28,28 +29,28 @@ Du kan beregne VIA baseret på følgende:
 <!--If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.-->
 <!--Unhide the above paragraph?-->
 
-## <a name="create-a-project-wip-method"></a>Oprette en projektmetode for igangværende arbejde
+## Oprette en projektmetode for igangværende arbejde
 
 Opret et projekt med igangværende arbejde-metode, der afspejler behovet i organisationen og angiver det som standard.  
 
 > [!NOTE]
 > Når du har brugt en ny metode til at oprette poster for igangværende arbejde, kan du ikke ændre eller slette metoden.  
 
-1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , skriv **projekt med igangværende arbejde-metoder**, og vælg derefter det relaterede link.  
+1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , angiv **Projekt VIA-metoder**, og vælg derefter den relaterede sammenkæde.  
 2. Vælg handlingen **Ny**, og udfyld derefter felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Luk siden.   
-4. Hvis du vil gøre den nye metode til standardmetoden, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , skrive **projektopsætning** og derefter vælge det relaterede link.  
+4. Hvis du vil gøre den nye metode til standardmetoden, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , angiv **Projektopsætning**, og vælg derefter den relaterede sammenkæde.  
 5. I feltet **Standard-VIA-metode** skal du vælge metoden fra listen.
 
-## <a name="define-a-wip-method-for-a-project"></a>Definere en metode for igangværende arbejde for et projekt
+## Definere en metode for igangværende arbejde for et projekt
 
 Når du opretter et nyt projekt, skal du angive, hvilken metode for igangværende arbejde der gælder. I nogle tilfælde er den igangværende arbejde-metode for projekter, du bruger, allerede angivet som standard.
 
 1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , angiv **Projekter**, og vælg derefter det relaterede link.
 2. Vælg handlingen **Ny**. Flere oplysninger i [Oprette projekter](projects-how-create-jobs.md).  
-3. På siden **Projektkort** i feltet **Metode for igangværende arbejde** skal du vælge en metode for igangværende arbejde. Hvis der er defineret en standardmetode, kan du vælge en anden indstilling, hvis det er nødvendigt.  
+3.  **Vælg en VIA-metode på listen i feltet**  **VIA-metode** i oversigtspanelet Bogføring på siden Projekt **kort** . Hvis der er defineret en standardmetode, kan du vælge en anden indstilling, hvis det er nødvendigt.  
 
-### <a name="define-a-wip-method-for-a-project-task"></a>Definere en metode for igangværende arbejde for en projektopgave
+### Definere en metode for igangværende arbejde for en projektopgave
 
 Du kan definere en igangværende arbejde-metode for en projektopgave, udelukke nogle projektopgaver fra igangværende arbejde-beregningen eller gruppere opgaver som beregnet. 
 
@@ -90,15 +91,15 @@ I følgende eksempel er projektopgaver inddelt i to grupper for igangværende ar
 
 Du bemærker følgende:
 
-* *1000* til *1299*: Igangværende arbejde beregnes separat for denne gruppe projektopgaver. Bemærk dog, at to af opgaverne, 1010 og 1110 ikke er omfattet af beregningen af igangværende arbejde, fordi den pågældende projektfunktion er **Bogføring**.
+* *1000* til *og med 1299*: VIA beregnes separat for denne gruppe projektopgaver. Bemærk dog, at to af opgaverne, 1010 og 1110 ikke er omfattet af beregningen af igangværende arbejde, fordi den pågældende projektfunktion er **Bogføring**.
 
-* *1300* til *1399*: Igangværende arbejde beregnes separat for denne gruppe projektopgaver.
+* *1300* til *og med 1399*: VIA beregnes separat for denne gruppe projektopgaver.
 
-## <a name="calculate-wip"></a>Beregn VIA
+## Beregn VIA
 
 Du kan fastlægge det beløb for VIA, der skal bogføres til balancekonti ved periodeafslutningsrapporteringen. Brug batchprojektet **Beregn igangværende arbejde for projekt** til at gøre det.  
 
-1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , skriv **beregn igangværende arbejde for projekt**, og vælg derefter det relaterede link.  
+1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , angiv **Beregn VIA** i projekt, og vælg derefter den relaterede sammenkæde.  
 2. Vælg handlingen **Beregn igangværende arbejde**.
 3. På siden **Beregn igangværende arbejde for projekt** skal du udfylde felterne efter behov.
 4. Vælg knappen **OK**.  
@@ -106,7 +107,7 @@ Du kan fastlægge det beløb for VIA, der skal bogføres til balancekonti ved pe
 > [!NOTE]  
 > Batchprojektet beregner kun igangværende arbejde, men det bogføres ikke. Hvis du vil bogføre, skal du udføre kørslen **Bogfør projektets igangværende arbejde til finans**, når du har beregnet igangværende arbejde. Der er flere oplysninger i følgende procedure.
 
-## <a name="post-wip"></a>Bogfør VIA
+## Bogfør VIA
 
 Når du har beregnet igangværende arbejde, kan du bogføre det til balancekontiene for periodeafslutningsrapporteringen. Det gør du ved at køre batchprojektet **Bogfør projektets igangværende arbejde til finans**.
 
@@ -114,24 +115,24 @@ Når du har beregnet igangværende arbejde, kan du bogføre det til balancekonti
 2. På siden **Bogfør projektets igangværende arbejde til finans** skal du udfylde felterne efter behov.  
 3. Vælg knappen **OK**.
 
-## <a name="calculate-and-post-project-completion-entries"></a>Beregn og bogfør projektafslutningsposter
+## Beregn og bogfør projektafslutningsposter
 
 Når du har fuldført alle aktiviteter for et projekt, inklusive bogføring og fakturering af forbrug, skal du opdatere projektets status til **Afsluttet**. Derefter skal du tilbageføre alt igangværende arbejde, som er blevet bogført i finansregnskabet.
 
 1. Vælg ikonet ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , angiv **Projekter**, og vælg derefter det relaterede link.  
 2. Vælg et åbent projekt, og vælg derefter handlingen **Rediger**.
-3. I feltet **Status** skal du vælge **Fuldført**.
+3. Gå til **oversigtspanelet Bogføring** og feltet **Status**, og vælg **Afsluttet**.
 4. Følg trinnene i hjælpen for at beregne og bogføre igangværende arbejde, eller følg trin 5 og 6 for at gøre det manuelt.  
 5. Vælg handlingen **Beregn igangværende arbejde**.
 6. På siden **Beregn igangværende arbejde for projekt** skal du udfylde felterne efter behov.  
 
-     Posterne for igangværende arbejde for projektet, som blev oprettet ved at udføre kørslen, vil nu være markeret i feltet **Projektet er fuldført** for at vise, at de er færdiggørelsesposter.  
+     De VIA-poster for projektet, som oprettes ved at udføre kørslen, markeres afkrydsningsfeltet **Projekt fuldført** for at vise, at de er færdiggørelsesposter.  
 7. Vælg handlingen **Bogfør igangværende arbejde til finans**.
 8. På siden **Bogfør projektets igangværende arbejde til finans** skal du udfylde felterne efter behov.  
 
-     Projektets finansposter for igangværende arbejde, som blev oprettet ved at udføre batchprojektet, vil nu være markeret i feltet **Projektet er fuldført** for at vise, at de er færdiggørelsesposter.
+     For de VIA-finansposter for projektet, der oprettes ved kørsel af batchprojektet, markeres afkrydsningsfeltet **Projekt fuldført** for at vise, at de er færdiggørelsesposter.
 
-## <a name="view-project-ledger-entries"></a>Få vist projektfinansposter
+## Få vist projektfinansposter
 
 Alle projektrelaterede poster er registreret i projektjournaler med fortløbende nummerering, hvor der startes med 1. Fra projektjournalen kan du få et overblik over alle projektposter.    
 
@@ -140,15 +141,15 @@ Alle projektrelaterede poster er registreret i projektjournaler med fortløbende
 
 På siden **Projektposter** kan du gennemse de poster, der er tilknyttet et projekt.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Gennemgang - Beregning af igangværende arbejder for et projekt](walkthrough-calculating-work-in-process-for-a-job.md)
-[Administrere projekter](projects-manage-projects.md)  
-[Administrere lageromkostninger](finance-manage-inventory-costs.md)  
-[Finans](finance.md)  
-[Køb](purchasing-manage-purchasing.md)  
-[Salg](sales-manage-sales.md)  
-[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Gennemgang – beregning af igangværende arbejder for et projekt](walkthrough-calculating-work-in-process-for-a-job.md)    
+[Administrere projekter](projects-manage-projects.md)    
+[Administrere lageromkostninger](finance-manage-inventory-costs.md)    
+[Finance](finance.md)    
+[Køb](purchasing-manage-purchasing.md)    
+[Salg](sales-manage-sales.md)    
+[Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

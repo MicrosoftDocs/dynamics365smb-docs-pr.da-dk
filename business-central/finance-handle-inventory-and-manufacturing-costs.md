@@ -1,22 +1,23 @@
 ---
-title: Håndter lager- og produktionsomkostninger
-description: 'Lære, hvordan et antal felter, sider og rapporter henvender sig til brugere, som direkte eller indirekte administrerer omkostningerne til varer eller operationer.'
+title: Håndtere lager- og produktionsomkostninger
+description: 'Lære, hvor mange felter, sider og rapporter der henvender sig til brugere, som direkte eller indirekte styrer varepriser eller operationer.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/16/2021
+ms.date: 07/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="handling-inventory-and-manufacturing-costs"></a>Håndtere lager- og produktionsomkostninger
 
-Selvom meget af funktionaliteten i omkostningsberegningen er udtrykt i underliggende processer, der ikke kræver brugermedvirken, f.eks. efterudligning og automatisk kostregulering, er en række felter, sider og rapporter beregnet til brugere, som direkte eller indirekte styrer varepriser eller drift.  
+# Håndtering af lager- og produktionsomkostninger
+
+Selvom meget af funktionaliteten i omkostningsberegningen er udtrykt i underliggende processer, der ikke kræver brugermedvirken, f.eks. efterudligning og automatisk kostregulering, er mange felter, sider og rapporter beregnet til brugere, som direkte eller indirekte styrer varepriser eller drift.  
 
  Tildeling af varegebyrer til købsdokumenter er et eksempel på en opgave til indirekte omkostningsberegning. Opdatering af kostprisen for montage eller produktionsstyklistevare er et eksempel på en opgave til en mere direkte omkostningsberegning.  
 
- Den følgende tabel indeholder en opgavesekvens med links til de emner, der rummer beskrivelserne af opgaverne.   
+ Den følgende tabel indeholder en opgavesekvens med links til de artikler, der rummer beskrivelserne af opgaverne.   
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
@@ -29,10 +30,10 @@ Selvom meget af funktionaliteten i omkostningsberegningen er udtrykt i underligg
 |Fortryde en vareudligning manuelt eller udligne automatisk oprettede vareposter igen.|[Fjerne og genanvende vareposter](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Brug feltet **Udlign fra-post** i varekladden til manuelt at oprette en fast udligning mellem en indgående transaktion og den oprindelige udgående transaktion.|[Lukke åbne vareposter, der fremkommer ved fast udligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Administrere lageromkostninger](finance-manage-inventory-costs.md)
-[Designoplysninger: Lagerkostmetode](design-details-inventory-costing.md)
+[Håndtere lageromkostninger](finance-manage-inventory-costs.md)    
+[Designoplysninger: Lagerberegning](design-details-inventory-costing.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

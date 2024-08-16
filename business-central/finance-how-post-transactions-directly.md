@@ -8,10 +8,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'direct posting, general ledger'
 ms.search.form: '39, 251'
-ms.date: 06/13/2024
+ms.date: 08/06/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="post-transactions-directly-to-the-general-ledger"></a>Bogføre transaktioner direkte i Finans
+
+# Bogføre transaktioner direkte i Finans
 
 Du bruger finanskladder til at bogføre økonomiske transaktioner direkte på finanskonti og andre konti, f.eks. bank-, debitor-, kreditor- og medarbejderkonti.  
 
@@ -21,7 +22,7 @@ Finanskladder bogfører finansposteringer direkte på finanskonti og andre konti
 
 Poster, som du bogfører med dokumenter, kræver en kreditnotaproces. Du kan dog tilbageføre poster, som du bogfører i finanskladden. Du kan finde flere oplysninger i [Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md).
 
-## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Sådan bogføres en transaktion direkte på en finanspostkonto
+## Sådan bogføres en transaktion direkte på en finanspostkonto
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Finanskladder**, og vælg derefter det relaterede link.
 2. Åbn finanskladdenavnet. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).
@@ -35,12 +36,12 @@ Poster, som du bogfører med dokumenter, kræver en kreditnotaproces. Du kan dog
     > Hvis du vil angive flere transaktionslinjer før én modkontolinje, f.eks. for én bankkonto, skal du markere afkrydsningsfeltet **Foreslå modkontobeløb** på linjen for kørslen på siden **Finanskladdenavne**. Feltet **Beløb** på modkontolinjen er forudfyldt automatisk med den værdi, der skal bruges til at afstemme posteringerne.
 5. Vælg handlingen **Bogfør** for at registrere transaktionerne på de angivne konti i Finans.
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Arbejde med finanskladder](ui-work-general-journals.md)  
-[Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md)  
-[Tilbageføre kladdeposteringer og annullere modtagelser/leverancer](finance-how-reverse-journal-posting.md)  
-[Finans](finance.md)  
+[Arbejde med finanskladder](ui-work-general-journals.md)    
+[Registrere og refundere medarbejdernes udgifter](finance-how-record-reimburse-employee-expenses.md)    
+[Tilbageføre kladdeposteringer og fortryde modtagelser/leverancer](finance-how-reverse-journal-posting.md)    
+[Finance](finance.md)    
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

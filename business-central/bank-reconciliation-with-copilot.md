@@ -12,7 +12,7 @@ ms.date: 06/13/2024
 ms.custom: bap-template
 ---
 
-# <a name="reconcile-bank-accounts-with-copilot-preview"></a>Afstemme bankkonti med Copilot (forhåndsversion)
+# Afstemme bankkonti med Copilot (forhåndsversion)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ I denne artikel forklares det, hvordan du kan bruge hjælp til afstemning af ban
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## <a name="about-bank-account-reconciliation-assist"></a>Om hjælp til afstemning af bankkonto
+## Om hjælp til afstemning af bankkonto
 
 Hjælp til bankkontoafstemning er et sæt funktioner, der drives af kunstig intelligens, og som hjælper dig med at afstemme bankkonti. Det tilbyder to forskellige opgaver gennem Copilot:
 
@@ -36,17 +36,17 @@ Hjælp til bankkontoafstemning er et sæt funktioner, der drives af kunstig inte
 
     [Få mere at vide om denne opgave](#post-unmatched-bank-transaction-amounts-to-suggested-gl-accounts).
 
-## <a name="available-languages"></a>Tilgængelige sprog
+## Tilgængelige sprog
 
 [!INCLUDE[bank-recon-assist-language-support](includes/bank-recon-assist-language-support.md)]
 
-## <a name="prerequisites"></a>Forudsætninger
+## Forudsætninger
 
 - Hjælp til afstemning af bankkonto er aktiveret. En administrator skal afslutte denne opgave. [Få mere at vide om, hvordan du konfigurerer Copilot- og AI-funktioner](enable-ai.md).
 - Bankkontiene i Business Central, som du vil afstemme, er knyttet til en onlinebankkonto, eller de er konfigureret med format til import af et bankkontoudtog.
 - Du kender bankkontoafstemning i Business Central som beskrevet i [Afstem bankkonti](bank-how-reconcile-bank-accounts-separately.md).
 
-## <a name="reconcile-bank-accounts-with-copilot"></a>Afstemme bankkonti med Copilot
+## Afstemme bankkonti med Copilot
 
 <!-- Similar to the **Match Automatically** capability on the **Bank Acc. Reconciliation** page, Bank account reconciliation assist can also automatically matches transactions in banks statements with bank entries. The difference is that **Match Automatically** uses a native rules-based algorithm, while Bank account reconciliation assist is based AI technology though Copilot. Bank account reconciliation assist is intended to supplement the **Match Automatically** capability. While **Match Automatically** is fairly successful at matching transactions, there are some instances where it can't&mdash;which is where Bank account reconciliation assist comes. By using the **Reconcile with Copilot** action on **Bank Acc. Reconciliation** page, you can find even more matches.-->
 
@@ -54,7 +54,7 @@ Copilot i bankkontoafstemning er beregnet som et supplement til automatchhandlin
 
 Du kan bruge to metoder til at afstemme bankkonti med Copilot:
 
-- Brug Copilot til at starte en ny afstemning af en bankkonto direkte fra listen **Bankkontoafstemning** .
+- Brug Copilot til at starte en ny afstemning af en bankkonto direkte fra **listen Bankkontoafstemninger** .
 - Brug Copilot på en ny eller eksisterende afstemning på et **bankkontoafstemningskort** .
 
 # [Fra listen Bankkontoafstemning](#tab/fromlist)
@@ -93,7 +93,7 @@ Til denne fremgangsmåde kan du bruge Copilot på en ny bankkontoafstemning, som
 1. Gennemse de foreslåede matches som beskrevet i næste afsnit.
 ---
 
-### <a name="review-save-or-discard-proposed-matches"></a>Gennemgå, gem eller kassér foreslåede matches
+### Gennemgå, gem eller kassér foreslåede matches
 
 Når du har kørt Copilot, viser vinduet **Afstem med Copilot** de detaljerede resultater, herunder eventuelle foreslåede matches. På nuværende tidspunkt er ingen match, som Copilot foreslog, blevet gemt. Derfor har du mulighed for at inspicere forslagene og gemme eller kassere dem, som du vil.
 
@@ -117,7 +117,7 @@ I afsnittet **Match forslag** skal du gennemgå de foreslåede matches linje for
 - Hvis du vil bogføre den fuldt matchede afstemning automatisk, når du gemmer den, skal du aktivere indstillingen **Bogfør, hvis den er fuldt udlignet**.
 - Hvis du vil gemme de matches, der aktuelt vises i vinduet **Afstem med Copilot**, skal du vælge **Behold det**.
 
-## <a name="post-unmatched-bank-transaction-amounts-to-suggested-gl-accounts"></a>Bogfør ikke-matchede banktransaktionsbeløb til foreslåede finanskonti (G/L)
+## Bogfør ikke-matchede banktransaktionsbeløb til foreslåede finanskonti (G/L)
 
 I dette afsnit beskrives, hvordan du bruger Copilot til at bogføre ikke-afstemte bankkontoudtogs linjebeløb (som angivet i feltet **Forskel**) i en finanskonto. Denne opgave kan kun udføres fra en eksisterende afstemning.
 
@@ -153,11 +153,11 @@ I dette afsnit beskrives, hvordan du bruger Copilot til at bogføre ikke-afstemt
 
          Dette trin bekræfter overførslen af de aktuelt valgte forslag fra bankkontoen til finanskontoen. Der bogføres nye betalinger på de foreslåede finanskonti, og der indsættes tilsvarende linjer i de oprettede bankkontoposter.
 
-## <a name="next-steps"></a>Næste trin
+## Næste trin
 
 [Validere din bankkontoafstemning](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Fejlfinde Copilot- og AI-funktioner](ai-copilot-troubleshooting.md)  
 [Ofte stillede spørgsmål om ansvarlig AI til hjælp til bankafstemning](faqs-bank-reconciliation.md)  

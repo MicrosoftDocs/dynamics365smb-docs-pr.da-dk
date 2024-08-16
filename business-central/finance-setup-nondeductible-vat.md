@@ -7,12 +7,12 @@ ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: 'VAT, non-deductible, setup'
 ms.search.form: '187, 472, 473'
-ms.date: 04/26/2023
+ms.date: 08/13/2024
 ms.custom: bap-template
 ms.reviewer: bholtorf
 ---
 
-# <a name="set-up-nondeductible-vat"></a>Konfigurere ikke-fradragsberettiget moms
+# Konfigurere ikke-fradragsberettiget moms
 
 Ikke-fradragsberettiget moms er den moms, der skal betales af en indkøber, men som ikke er fradragsberettiget for køberens eget momsansvar. Virksomheder kan som regel genoprette moms på køb af varer og tjenester, der vedrører deres forretningsaktiviteter. I nogle situationer er en virksomhed, der er inddraget moms, men som ikke er fradragsberettiget. Disse situationer vedrører typisk de lokale forskrifter og kan variere fra land/område til land/område. Modellen til brug af ikke-fradragsberettiget eller delvist fradragsberettiget moms er den samme. Du kan bruge proportional moms til at beregne moms, når der er fradragsberettiget og ikke-fradragsberettiget moms.
 
@@ -26,7 +26,7 @@ Da det kan være svært at vide, hvor og hvordan en vare bruges, skal du kontakt
 > [!IMPORTANT]
 > Denne globale funktion er tilgængelig i alle lande med aktiveret moms, **bortset fra Belgien, Italien og Norge**. Disse lokaliteter har allerede eksisterende lokal funktionalitet og opgraderes fremover. Du skal ikke køre denne funktion i disse lande, da opgraderingsproceduren ikke findes.
 
-## <a name="use-nondeductible-vat"></a>Bruge ikke-fradragsberettiget moms
+## Bruge ikke-fradragsberettiget moms
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 3.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Konfiguration af VAT** og vælg derefter det relaterede link.
 2. Vælg afkrydsningsfeltet **Aktiver ikke-fradragsberettiget moms**.
@@ -41,16 +41,16 @@ Da det kan være svært at vide, hvor og hvordan en vare bruges, skal du kontakt
     3. Marker afkrydsningsfeltet **Brug af sagsomkostninger** for at angive, at den ikke-fradragsberettigede moms skal lægges til projektomkostninger, når du køber varer til projektet. Ellers vil den ikke-fradragsberettigede moms ikke have indflydelse på projektomkostningerne, og hele beløbet registreres kun på finansniveau.
     4. Marker afkrydsningsfeltet **Vis ikke-fra. moms i linjer** for at angive, at den ikke-fradragsberettigede moms skal vises på sider med dokumentlinjer for at gøre det nemmere at manipulere momsbeløb.
 
-## <a name="use-the-nondeductible-vat-percentage"></a>Brug den ikke-fradragsberettigede momsprocent
+## Brug den ikke-fradragsberettigede momsprocent
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig 3.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Momsbogf.opsætning**, og vælg derefter det relaterede link.
 2. På siden **Momsbogf.opsætning** skal du udfylde felterne som beskrevet i følgende tabel.
 
     | Felt | Beskrivelse |
     |-------|-------------|
-    | Tillad ikke-fradragsberettiget moms | Angiv, om den ikke-fradragsberettigede moms tages i betragtning ved den aktuelle kombination af bogføringsgrupper for momsvirksomheder og momsprodukter. |
-    | Ikke-fradragsberettiget momsprocent | Angiv den procentdel af transaktionsbeløbet, som momsen ikke er anvendt med. |
-    | Ikke-fradragsberettiget købsmomskonto | Angiv den konto, der er knyttet til momsbeløbet, som ikke er fratrukket pga. typen af købte varer eller services. |
+    | **Tillad ikke-fradragsberettiget moms** | Angiv, om den ikke-fradragsberettigede moms tages i betragtning ved den aktuelle kombination af bogføringsgrupper for momsvirksomheder og momsprodukter. |
+    | **ikke-fradragsberettiget moms %** | Angiv den procentdel af transaktionsbeløbet, som momsen ikke er anvendt med. |
+    | **Ikke-fradragsberettiget købsmomskonto** | Angiv den konto, der er knyttet til momsbeløbet, som ikke er fratrukket pga. typen af købte varer eller services. |
 
     > [!NOTE]
     > Hvis du vil have finansposter, som bruger den dedikerede konto, i stedet for salgs- eller købskonti, skal du enten lade feltet **Ikke-fradragsberettiget købsmomskonto** være tomt eller angive **Finanskonto**-feltet.
@@ -62,7 +62,7 @@ Da det kan være svært at vide, hvor og hvordan en vare bruges, skal du kontakt
 >
 > Undlad at bruge den samme **Moms-id**-værdi for både normal moms, hvor feltet **Ikke-fradragsberettiget momsprocent** er indstillet til **0** (nul) og normal moms, hvor feltet **Ikke-fradragsberettiget momsprocent** er indstillet til en anden værdi end nul. Ellers vil det samlede ikke-fradragsberettigede momsbeløb blive beregnet forkert.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Økonomistyring](finance.md)  
 [Designoplysninger: Ikke-fradragsberettiget moms](design-details-nondeductible-vat.md)  
