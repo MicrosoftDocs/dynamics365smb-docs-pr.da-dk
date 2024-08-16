@@ -12,14 +12,14 @@ ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 57
 ms.service: dynamics-365-business-central
 ---
 
-# Overflytte lager mellem lokationer
+# <a name="transfer-inventory-between-locations"></a>Overflytte lager mellem lokationer
 
 Du kan overføre lagervarer mellem lokationer ved at oprette overflytningsordrer. Du kan også bruge vareomposteringskladden.
 
 > [!NOTE]
 > Hvis du vil overflytte varer, skal lokationer og overflytningsruter oprettes. Du kan få mere at vide om konfiguration af lokationer ved at gå til [Konfigurere lokationer](inventory-how-setup-locations.md). Du kan ikke bruge overflytningsordrer på *tomme* lokationer.
 
-## Overflytningsordrer
+## <a name="transfer-orders"></a>Overflytningsordrer
 
 Du kan levere den udgående overflytning fra én placering og modtage en indgående overflytning på destinationen. Du kan:
 
@@ -28,7 +28,7 @@ Du kan levere den udgående overflytning fra én placering og modtage en indgåe
 * Brug forskellige lagerfunktioner for indgående og udgående lokationer.
 * Brug overflytningsordrer til direkte overførsler med nogle begrænsninger.
 
-## Vareomposteringskladder
+## <a name="item-reclassification-journals"></a>Vareomposteringskladder
 
 Du kan også bruge siden **Vareomposteringskladden** til at:
 
@@ -39,7 +39,7 @@ Du kan også bruge siden **Vareomposteringskladden** til at:
 * Ompostere varer fra en tom lokation til en aktuel placering.
 * Oprette lagerposter, hvis du ikke administrerer lageraktiviteter.
 
-## Såden overflyttes varer med en overflytningsordre
+## <a name="to-transfer-items-with-a-transfer-order"></a>Såden overflyttes varer med en overflytningsordre
 
 1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **overflytningsordrer**, og vælg derefter det relaterede link.
 2. På siden **Overflytningsordre** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -64,7 +64,7 @@ Du kan også bruge siden **Vareomposteringskladden** til at:
     Fortsæt ved at modtage varerne som lagermedarbejder på den lokation, der overflyttes fra. Overflytningsordrelinjerne er de samme som ved levering og kan ikke redigeres.
 5. Vælg handlingen **Bogfør**, vælg indstillingen **Modtag**, og vælg derefter knappen **OK**.
 
-### Fortryde en overførselslevering
+### <a name="undo-a-transfer-shipment"></a>Fortryde en overførselslevering
 
 Hvis du finder en fejl i et antal på en bogført overflytningsordre, så længe leverancen ikke modtages, kan du nemt rette antallet.  **På siden Bogført overflytningsleverance** oprettes der rettelseslinjer ved hjælp af **handlingen Annuller leverance** på følgende måde:
 
@@ -76,7 +76,7 @@ Hvis antallet er leveret i en lagerleverance, oprettes der en rettelseslinje i d
 
 Hvis du vil fuldføre rettelsen, skal du åbne overflytningsordren igen, angive det korrekte antal og derefter bogføre ordren. Hvis du bruger en lagerleverance til levering af ordren, skal du oprette og bogføre en ny lagerleverance.
 
-### Bogføre flere overflytningsordrer i en batch
+### <a name="post-multiple-transfer-orders-in-a-batch"></a>Bogføre flere overflytningsordrer i en batch
 
 Følgende procedure beskriver, hvordan du kan bogføre flere købsordrer samlet.
 
@@ -96,7 +96,7 @@ Følgende procedure beskriver, hvordan du kan bogføre flere købsordrer samlet.
     > [!NOTE]
     > Det kan tage noget tid at bogføre flere dokumenter, og andre brugere vil blive blokeret. Overvej at aktivere baggrundsbogføring. Du kan finde flere oplysninger i [Bruge opgavekøer til at planlægge opgaver](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
-### Planlægge en opgavekøpost for at bogføre flere dokumenter i en batch
+### <a name="schedule-a-job-queue-entry-to-post-multiple-documents-in-a-batch"></a>Planlægge en opgavekøpost for at bogføre flere dokumenter i en batch
 
 Alternativt kan du bruge opgavekøen til at planlægge bogføringen til at finde sted på et tidspunkt, der passer til din organisation. F.eks. giver det måske mening i din virksomhed at køre visse rutiner, når de fleste af dataindtastningerne for den pågældende dag er afsluttede.
 
@@ -116,7 +116,7 @@ Følgende procedure viser, hvordan du kan indstille rapporten **Massebogfør sal
 8. I feltet **Starttidspunkt** skal du angive **kl. 16**.
 9. Vælg handlingen **Angiv status til Klar**.
 
-### Sammenligning af forskellige indstillinger for overflytningsordrer
+### <a name="comparison-of-different-settings-for-transfer-orders"></a>Sammenligning af forskellige indstillinger for overflytningsordrer
 
 Du kan bogføre overflytningsordrer i forskellige transportformer med eller uden en transitlokation. Deaktiver til/fra-knappen Direkte overførsel, og vælg den midlertidige placering i feltet **Transitkode** på siden **Overflytningsordre** . **·**  Når du bogfører leverancen af en overflytningsordre, der bruger transitlokationen, er varerne på linjen ikke længere tilgængelige på en af lokationerne, fordi de er i transit. Direkte bogføring sikrer, at der ikke bruges et transitsted, og at forsendelses- og modtagelsesprocessen behandles samtidigt. Den nøjagtige funktionsmåde for direkte bogføring kan være forskellig baseret på den værdi, der er valgt i **feltet Bogføring** af direkte overførsler på **siden Lageropsætning** .
 
@@ -153,7 +153,7 @@ Uanset metoden udføres forsendelses- og modtagelsestransaktionerne. Du kan f.ek
 
 Du kan finde flere oplysninger om lagerstedshåndtering i [Oversigt](design-details-warehouse-management.md) over lagerstedsstyring.
 
-## Sådan overflyttes varer i vareomposteringskladden
+## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Sådan overflyttes varer i vareomposteringskladden
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Vareomposteringskladder**, og vælg derefter det relaterede link.
 2. På siden **Vareomposteringskladder** skal du udfylde felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -167,7 +167,7 @@ Du kan finde flere oplysninger om lagerstedshåndtering i [Oversigt](design-deta
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Administrere lager](inventory-manage-inventory.md)  
 [Konfigurere lokationer](inventory-how-setup-locations.md)  

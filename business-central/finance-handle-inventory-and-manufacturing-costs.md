@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Håndtering af lager- og produktionsomkostninger
+# <a name="handling-inventory-and-manufacturing-costs"></a>Håndtering af lager- og produktionsomkostninger
 
 Selvom meget af funktionaliteten i omkostningsberegningen er udtrykt i underliggende processer, der ikke kræver brugermedvirken, f.eks. efterudligning og automatisk kostregulering, er mange felter, sider og rapporter beregnet til brugere, som direkte eller indirekte styrer varepriser eller drift.  
 
@@ -30,7 +30,7 @@ Selvom meget af funktionaliteten i omkostningsberegningen er udtrykt i underligg
 |Fortryde en vareudligning manuelt eller udligne automatisk oprettede vareposter igen.|[Fjerne og genanvende vareposter](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Brug feltet **Udlign fra-post** i varekladden til manuelt at oprette en fast udligning mellem en indgående transaktion og den oprindelige udgående transaktion.|[Lukke åbne vareposter, der fremkommer ved fast udligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Håndtere lageromkostninger](finance-manage-inventory-costs.md)    
 [Designoplysninger: Lagerberegning](design-details-inventory-costing.md)    
