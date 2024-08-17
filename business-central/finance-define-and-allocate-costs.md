@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="defining-and-allocating-costs"></a>Definere og allokere omkostninger
+# Definere og allokere omkostninger
 
 Allokering af omkostninger flytter omkostninger og indtægter mellem omkostningstyper, omkostningssteder og omkostningsobjekter. Du kan angive så mange tildelinger, som du har brug for. Hver allokering består af:  
 
@@ -29,11 +29,11 @@ Du kan definere en fordelingsbasis for hvert fordelingsmål. Fordelingsbasis kan
 
 Den følgende tabel indeholder en opgavesekvens med links til de artikler, der rummer beskrivelserne af opgaverne.
 
-## <a name="set-up-allocation-source-and-targets"></a>Oprette allokeringskilde og -mål
+## Oprette allokeringskilde og -mål
 
 Hver allokering består af en fordelingskilde og en eller flere fordelingsmål. Fordelingskilden definerer, hvilke omkostninger, der vil blive tildelt. Fordelingsmålet bestemmer, hvortil omkostningerne fordeles.  
 
-### <a name="to-set-up-cost-allocations"></a>Opsætning af omkostningsfordelinger
+### Opsætning af omkostningsfordelinger
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Omkostningsfordeling**, og vælg derefter det relaterede link.  
 2. På siden **Omkostningsfordeling** skal du vælge handlingen **Rediger**.  
@@ -51,11 +51,11 @@ Hver allokering består af en fordelingskilde og en eller flere fordelingsmål. 
 > [!NOTE]  
 > Vælg afkrydsningsfeltet **Spærret** for at deaktivere fordelingsopsætningen.
 
-## <a name="to-set-filters-for-dynamic-allocation-bases"></a>Sådan angives filtre for dynamiske allokeringsbaser
+## Sådan angives filtre for dynamiske allokeringsbaser
 
 Metoden til dynamisk fordeling er baseret på værdier, der kan ændres. For eksempel antal medarbejdere et omkostningssted eller antal solgte varer for et omkostningsobjekt i en bestemt tidsperiode. Der findes ni foruddefinerede fordelingsbaser og tolv dynamiske datointervaller. Du kan angive forskellige filtre, der er baseret på allokeringsbasen.  
 
-### <a name="set-filters"></a>Indstil filtre
+### Indstil filtre
 
 Følgende tabel viser, hvilke filtre der er mulige for forskellige tildelingsbaser, og hvilke værdier der er gyldige i felterne **Nummerfilter** og **Gruppefilter**. Tryk på <kbd>F1</kbd> i feltet **Datofilterkode** for at læse detaljerede beskrivelser.  
 
@@ -71,7 +71,7 @@ Følgende tabel viser, hvilke filtre der er mulige for forskellige tildelingsbas
 |Varer solgt (beløb)|Varenr.|Ja|Ja|Ja|Varebogføringsgruppe|  
 |Varer købt (beløb)|Varenr.|Ja|Ja|Ja|Lagerbogføringsgruppe|
 
-## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio"></a>Scenarie 1: Definition af statiske tildelinger baseret på allokeringsforhold
+## Scenarie 1: Definition af statiske tildelinger baseret på allokeringsforhold
 
 Metoden statisk allokering er baseret på en endelig værdi, for eksempel anvendt antal kvadratmeter eller et etableret fordelingsforhold såsom 5: 2: 4.  
 
@@ -80,7 +80,7 @@ I denne artikel beskrives, hvordan du definerer tre nye allokeringsmålkostpriso
 > [!NOTE]  
 > I eksemplet bruges demonstrationsdataene i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Sådan defineres fordelingskilden PROD-omkostningssted på oversigtspanelet Generelt
+### Sådan defineres fordelingskilden PROD-omkostningssted på oversigtspanelet Generelt  
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Omkostningsfordeling**, og vælg derefter det relaterede link.  
 2. På siden **Omkostningsfordeling** skal du vælge handlingen **Ny**.  
@@ -90,7 +90,7 @@ I denne artikel beskrives, hvordan du definerer tre nye allokeringsmålkostpriso
 6. I feltet **Omkostningsstedskode** skal du angive **PROD**.  
 7. Angiv omkostningstypen **9903** i feltet **Kredit til omkostningstype**.  
 
-### <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>Sådan angives fordelingsmålsomkostningsobjekter på oversigtspanelet Linjer
+### Sådan angives fordelingsmålsomkostningsobjekter på oversigtspanelet Linjer  
 
 1. Angiv **9903** i feltet **Målomkostningstype** på den første linje.  
 2. Vælg **TILBEHØR** i feltet **Målomkostningstype** på den første linje.  
@@ -111,14 +111,14 @@ I denne artikel beskrives, hvordan du definerer tre nye allokeringsmålkostpriso
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] beregner automatisk feltet **Procent** ved hjælp af en procentsats , der er afhængig af alle tre fordelingsforhold, der er angivet i feltet **Fordeling** for alle tre linjer.
 
-## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Scenarie 2: Definition af dynamiske allokeringer baseret på solgte varer
+## Scenarie 2: Definition af dynamiske allokeringer baseret på solgte varer
 
 I dette emne vises et eksempel på, hvordan du definerer allokeringer ved hjælp af metoden til dynamisk fordeling. I dette eksempel skal du ændre dynamisk fordeling af omkostningerne for omkostningsstedet SALES til understøttelse af det nye omkostningsobjekt IT-UDSTYR. IT_UDSTYR-pakker har varenumre i området fra 8904-W til 8924-W. Du bruger salgstal for det foregående år til at beregne det andelen. Allokeringen bogføres til hjælpeomkostningstypen 9903.  
 
 > [!NOTE]  
 > I eksemplet bruges demonstrationsdataene i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Sådan defineres dynamiske fordelinger baseret på varer, der er solgt i det foregående år
+### Sådan defineres dynamiske fordelinger baseret på varer, der er solgt i det foregående år  
 
 1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Omkostningsfordeling**, og vælg derefter det relaterede link.  
 2. På siden **Omkostningsfordeling** skal du vælge handlingen **Ny**.  
@@ -138,7 +138,7 @@ I dette emne vises et eksempel på, hvordan du definerer allokeringer ved hjælp
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] bruger salgstal fra de foregående år til at beregne andelen af 1596,50 RV med 100 procent for IT-UDSTYR-pakkerne. Det betyder, at alle varer, der er solgt sidste år, tildeles omkostningsobjektet IT-UDSTYR.
 
-## <a name="see-also"></a>Se også
+## Se også
 
  [Konfigurere omkostningsregnskab](finance-set-up-cost-accounting.md)  
  [Overføre og bogføre omkostningsposter](finance-transfer-and-post-cost-entries.md)  

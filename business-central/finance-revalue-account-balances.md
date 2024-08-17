@@ -11,11 +11,11 @@ ms.search.form: null
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="revalue-general-ledger-account-balances"></a>Revaluere finanskontosaldi
+# Revaluere finanskontosaldi
 
 Hvis du bruger finanskonti til at registrere balanceposter i udenlandske valutaer, bør du revaluere kontosaldi, før du udarbejder regnskaber. Valutakurser ændres ofte, og værdiregulering hjælper med at gøre dine regnskaber mere nøjagtige.
 
-## <a name="set-up-revaluations"></a>Konfigurer til værdievalueringer
+## Konfigurer til værdievalueringer
 
 Du definerer hver konto, som du vil medtage i reguleringer på siden **Finanskort**. Du kan vælge, om værdireguleringsreguleringer skal bogføres på realiserede eller urealiserede gevinst-/tabskonti. Bogføring af gevinster og tab under en valutakursregulering følger den normale bogføringsrutine. Du skal f.eks. gøre det for hver opsætning på siden **Valutaer**. Du kan få mere at vide om valutakursreguleringer ved at gå til [Opdater valutakurser](finance-how-update-currencies.md).
 
@@ -26,7 +26,7 @@ For at minimere fejl kan du i feltet **Bogføring af kildevaluta** oprette en va
 * Samme valuta
 * Lokal valuta
 
-## <a name="run-a-revaluation"></a>Kør en regulering
+## Kør en regulering
 
 Hvis du vil regulere beløbene i udenlandsk valuta i lokal valuta for finanskontosaldi, skal du bruge handlingen **Værdiregulering** af finansvaluta på siden **Kontoplan** til at starte en kørsel. Kørslen opretter reguleringsposter i den kladde, du vælger. Når du bogfører posterne, regulerer du saldoen i den lokale valuta (RV) for kontoen. De finanskonti, der altid vises i RV, afspejler nu ændringer i de valutaer, som posterne er bogført i. Denne værdiregulering giver dig mulighed for at oprette et mere nøjagtigt regnskab med mindre indsats.
 
@@ -38,7 +38,7 @@ Hvis du bruger en ekstra rapporteringsvaluta (EV), har finansværdireguleringspo
 > [!NOTE]
 > Værdiregulering giver ikke mulighed for at udligne eller annullere udligning af poster, som du kan med debitor- og kreditorposter. Reguleringer sker på saldo pr. valutabasis.
 
-## <a name="revaluate-accounts-vs-customer-and-vendor-exchange-rate-adjustments"></a>Revurdere konti vs. valutakursreguleringer for debitor og kreditor
+## Revurdere konti vs. valutakursreguleringer for debitor og kreditor
 
 Værdireguleringen gør det lettere at regulere saldi for finanskonti. Funktionen justerer saldoen pr. valuta pr. finanskonto på samme måde, som du gør ved reguleringer af finanskonti, der er knyttet til bankkonti. Hvis du bruger en finanskonto til at spore flere aktiver, kan du overveje at bruge en kreditor- eller debitorkonto i stedet.
 
@@ -56,7 +56,7 @@ Denne forskel er vigtig, når du vurderer, om finansværdiregulering er den rigt
 > [!TIP]
 > Vi anbefaler, at du spørger din revisor eller revisor, hvilken type konto der er bedst for din virksomhed. Der kan også være en app til [!INCLUDE [prod_short](includes/prod_short.md)] i [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=dynamics-365-business-central) , der passer lige til dine forretningsscenarier.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Gennemgå beløb i finanskonti](finance-review-accounts.md)    
 [Forstå Finans og Kontoplan](finance-general-ledger.md)  
