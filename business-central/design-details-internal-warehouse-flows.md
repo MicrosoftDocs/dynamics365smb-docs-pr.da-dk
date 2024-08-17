@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 08/12/2024
 ms.custom: bap-template
 ---
-# Flows til produktion, montage og projekter
+# <a name="flows-for-production-assembly-and-projects"></a>Flows til produktion, montage og projekter
 
 Interne flow, f. eks. pluk af komponenter og placering af varer på lager for montage, projekter og produktionsordrer ligner indgående eller udgående flow. Mange af processerne kan virke velkendte. Denne artikel indeholder oplysninger om, hvordan du kan arbejde med interne lagerflows med forskellige kompleksitetsniveauer.
 
-## Oversigt over forskellige konfigurationsindstillinger
+## <a name="overview-of-different-configuration-options"></a>Oversigt over forskellige konfigurationsindstillinger
 
 Du kan konfigurere lagerfunktioner på forskellige måder. Det er vigtigt, at de indstillinger, du vælger, forbedrer processerne uden at medføre spild. I følgende tabel beskrives standardkonfigurationer for håndtering af fysiske varer for produktion, projekter og montageordrer.
 
-### Indgående flow (læg-på-lager)
+### <a name="inbound-flow-put-away"></a>Indgående flow (læg-på-lager)
 
 |Kompleksitetsniveau|Beskrivlse|Indstillinger|Placeringskode|Indgående flow for produktionsordre|Indgående flow for montageordre|Indgående flow af projekter|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
@@ -28,7 +28,7 @@ Du kan konfigurere lagerfunktioner på forskellige måder. Det er vigtigt, at de
 
 Nogle konfigurationer tillader ikke, at du kan bruge dedikerede lagerdokumenter til at registrere læg-på-lager-aktiviteter. Men hvis lokationen bruger placeringer, kan du bruge standard bevægelses dokumenter til at flytte producerede eller monterede varer til lagerstedet. Flere oplysninger i [Flytte varer](warehouse-move-items.md).
 
-### Udgående flow (pluk)
+### <a name="outbound-flow-pick"></a>Udgående flow (pluk)
 
 |Kompleksitetsniveau|Beskrivelse|Indstillinger|Placeringskode|Udgående flow for produktionsordre|Udgående flow for montageordre|Udgående flow af projekter|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
@@ -37,7 +37,7 @@ Nogle konfigurationer tillader ikke, at du kan bruge dedikerede lagerdokumenter 
 |Avanceret|Konsoliderede plukaktiviteter for flere kildedokumenter.|Produktion, Montage, Projekter: Pluk (logistik)|Valgfri. Kontrolleret af Placeringskoden er obligatorisk til/fra|Produktionsordrer -> lagerpluk -> Forbrugskladde |Montageordrer -> lagerpluk| Projekt(er) -> Lagerpluk -> Projektkladde |
 |Avanceret|Samme som over + Styret pluk/læg-på-lager-aktiviteter|Styret pluk og læg-på-lager (afhængige Skift aktiveres automatisk)|Obligatorisk|Samme som ovenfor|Samme som ovenfor| Styret pluk og læg-på-lager understøttes ikke for projekter|
 
-## Lagersteder uden dedikeret lageraktivitet
+## <a name="warehouses-without-dedicated-warehouse-activity"></a>Lagersteder uden dedikeret lageraktivitet
 
 Selvom du ikke bruger dedikerede lageraktiviteter, kan det være en god ide at spore ting som forbrug og produktionsoutput. Følgende artikler indeholder oplysninger om, hvordan du behandler modtagelser af kildedokumenter.
 
@@ -45,9 +45,9 @@ Selvom du ikke bruger dedikerede lageraktiviteter, kan det være en god ide at s
 * [Montere varer](assembly-how-to-assemble-items.md)
 * [Registrere forbrug eller anvendelse af projekter](projects-how-record-job-usage.md)
 
-## Grundlæggende lageropsætninger
+## <a name="basic-warehouse-configuration"></a>Grundlæggende lageropsætninger
 
-### Flows til og fra produktion i en grundlæggende lageropsætning  
+### <a name="flows-to-and-from-production-in-a-basic-warehouse-configuration"></a>Flows til og fra produktion i en grundlæggende lageropsætning
 
 De indgående og udgående flows i en grundlæggende lageropsætning omfatter følgende indstillinger på siden **Lokationskort** siden for lokationen:
 
@@ -64,7 +64,7 @@ For lokationer, der bruger placeringer, er det især praktisk at trække lagerbe
 * Felterne **Til-produktionsplaceringskode**, **Fra-produktionsplaceringskode** og **Åben prod.placeringskode** på lokationskortet eller produktionsressource/arbejdscenterkortene definerer standardflow til og fra produktionsområder.
 * Styre bevægelsen af fremstillede varer på siden **Intern overførsel** uden en relation til en produktionsordre.
 
-### Flows til og fra montage i en grundlæggende lageropsætning  
+### <a name="flows-to-and-from-assembly-in-a-basic-warehouse-configuration"></a>Flows til og fra montage i en grundlæggende lageropsætning
 
 Det udgående flow i en grundlæggende lagerkonfiguration omfatter følgende indstillinger på siden Lokation **kort**  for lokationen:
 
@@ -83,7 +83,7 @@ Lokationer til brug af placeringer:
 
 [!INCLUDE [prod_short](includes/prod_short.md)] understøtter montage efter lager-og montage efter ordre-montage processer. Flere oplysninger i [Om montage til ordre og montage til lager](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock). I forbindelse med lokationsstyring er montage til lager en del af den interne lager strøm, og montage efter ordre er i den udgående lagergang. Flere oplysninger i [Håndtering af montage til ordre-varer med pluk](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-### Flows til projektstyring i en grundlæggende lageropsætning
+### <a name="flows-for-project-management-in-a-basic-warehouse-configuration"></a>Flows til projektstyring i en grundlæggende lageropsætning
 
 Det udgående flow i en grundlæggende lagerkonfiguration omfatter følgende indstillinger på siden Lokation **kort**  for lokationen:
 
@@ -93,9 +93,9 @@ Brug **Lagerpluk**-dokumenter til at plukke projektkomponenter i forløbet til p
 
 For en lokation, der bruger placeringer, definerer feltet **Til-projekt Placeringskode** på lokationen de standardstrømme, der skal bruges til projektstyringen.
 
-## Avancerede lageropsætninger  
+## <a name="advanced-warehouse-configurations"></a>Avancerede lageropsætninger
 
-### Flows til og fra produktion i en avanceret lageropsætning
+### <a name="flows-to-and-from-production-in-advanced-warehouse-configurations"></a>Flows til og fra produktion i en avanceret lageropsætning
 
 Det udgående flow i en avanceret lagerkonfiguration omfatter følgende indstillinger på siden Lokation **kort**  for lokationen:
 
@@ -112,7 +112,7 @@ Lokationer til brug af placeringer:
 * Felterne **Til-produktionsplaceringskode**, **Fra-produktionsplaceringskode** og **Åben prod.placeringskode** på lokationskortet eller produktionsressource/arbejdscenterkortene definerer standardflow til og fra produktionsområder. 
 * Styre bevægelsen af fremstillede varer på siderne **Bevægelseskladde** eller **Intern læg-på-lager-aktivitet** uden en relation til en produktionsordre.
 
-### Flows til og fra montage i en avanceret lageropsætning
+### <a name="flows-to-and-from-assembly-in-advanced-warehouse-configurations"></a>Flows til og fra montage i en avanceret lageropsætning
 
 Det udgående flow i en avanceret lagerkonfiguration omfatter følgende indstillinger på siden Lokation **kort**  for lokationen:
 
@@ -132,7 +132,7 @@ Lokationer til brug af placeringer:
 
 Montage til lager er en del af det interne lagerflow, og montage efter ordre er i det udgående lagerflow. Flere oplysninger i [Håndtering af montageordrevarer i lagerleverancer](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-### Flows til projektstyring i en avancerede lageropsætninger
+### <a name="flows-to-project-management-in-advanced-warehouse-configurations"></a>Flows til projektstyring i en avancerede lageropsætninger
 
 Det udgående flow i en avanceret lagerkonfiguration omfatter følgende indstillinger på siden Lokation **kort**  for lokationen:
 
@@ -142,7 +142,7 @@ Brug **Lagerpluk**-dokumenterne og siden **Plukkladde** til at plukke komponente
 
 For en lokation, der bruger placeringer, definerer feltet **Til-projekter Placeringskode** på lokationen de standardstrømme, der skal bruges til projektstyringen.
 
-## Se også  
+## <a name="see-also"></a>Se også
 
 [Oversigt over Warehouse Management](design-details-warehouse-management.md)
 

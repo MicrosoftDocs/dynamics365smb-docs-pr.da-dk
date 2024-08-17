@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Om lagerregulering
+# <a name="about-inventory-costing"></a>Om lagerregulering
 Administration af lagerkostmetoder vedrører registrering og rapportering af virksomhedens driftsomkostninger. Den omfatter rapportering af produktionsomkostninger og lageromkostninger, dvs. værdien af varer.  
 
  De centrale principper, der er vigtige at forstå, er, at kostmetoder definerer den måde, varer værdiansættes på, når de forlader lageret, at kostregulering opdaterer omkostningerne ved solgte varer med relaterede købsomkostninger bogført efter salget, og at lagerværdier skal bogføres til dedikerede finanskonti med regelmæssige mellemrum.  
@@ -32,7 +32,7 @@ Administration af lagerkostmetoder vedrører registrering og rapportering af vir
 |Læse, hvordan lagerperioder hjælper en virksomhed med at styre lagerværdi over tid, hvis der defineres kortere perioder, hvor der kan være lukket for bogføringer, efterhånden som regnskabsåret skrider frem.|[Arbejde med lagerperioder](finance-how-to-work-with-inventory-periods.md)|  
 |Forstå alle mekanismerne i prisberegningsprogrammet, herunder hvad der sker, når du bogfører montage og produktionstransaktioner.|[Designoplysninger: Lagerberegning](design-details-inventory-costing.md)|  
 
-## Se også
+## <a name="see-also"></a>Se også
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)    
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

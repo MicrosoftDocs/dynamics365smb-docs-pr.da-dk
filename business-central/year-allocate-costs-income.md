@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Fordele gentagende omkostninger og indtægter
+# <a name="allocate-recurring-costs-and-income"></a>Fordele gentagende omkostninger og indtægter
 
 Du kan allokere en post i en tilbagevendende finanskladde til flere forskellige konti, når du bogfører kladden. Du kan få mere at vide om gentagelseskladder ved at gå til [Arbejde med gentagelseskladder](ui-work-general-journals.md#work-with-recurring-journals). 
 
@@ -27,7 +27,7 @@ Allokeringsfunktionen kan bruges sammen med finansgentagelseskladder og i anlæg
 
 I følgende procedurer beskrives, hvordan du forbereder at allokere omkostninger i en finansgentagelseskladde ved at definere fordelingsnøgler. Når der er defineret fordelingsnøgler, skal du udfylde og bogføre kladden ligesom alle andre finansgentagelseskladder. Du kan finde flere oplysninger i [Arbejde med finanskladder](ui-work-general-journals.md).
 
-## Sådan konfigureres fordelingsnøgler
+## <a name="to-set-up-allocation-keys"></a>Sådan konfigureres fordelingsnøgler
 
 Du kan allokere en post i en finansgentagelseskladde til flere forskellige konti, når du bogfører kladden. Allokeringen kan foretages efter antal, procent eller beløb.  
 
@@ -45,14 +45,14 @@ Du kan allokere en post i en finansgentagelseskladde til flere forskellige konti
 10. Når du har angivet linjerne med fordelinger, skal du vælge **OK** for at gå tilbage til siden **Finansgentagelseskladde**. Feltet **Fordelt beløb (RV)** udfyldes og svarer til feltet **Beløb**.
 11. Bogfør journalen.
 
-## Sådan ændres en fordelingsnøgle, der allerede er oprettet
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Sådan ændres en fordelingsnøgle, der allerede er oprettet
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , angiv **Finansgentagelseskladder**, og vælg derefter den relaterede sammenkæde.
 2. Vælg kladden **med allokeringen på siden Finansgentagelseskladder** .
 3. Vælg linjen med fordelingen og vælg derefter handlingen **Fordelinger**.
 4. Rediger de relevante felter, og vælg derefter knappen **OK**.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Ultimoår og -perioder](year-close-years-periods.md)    
 [Arbejde med finanskladder](ui-work-general-journals.md)    

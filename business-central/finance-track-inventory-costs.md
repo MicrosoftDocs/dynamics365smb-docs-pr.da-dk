@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Spore vareprisreguleringer
+# <a name="track-item-cost-adjustments"></a>Spore vareprisreguleringer
 
 Det er vigtigt at holde vareomkostningerne nøjagtige og forkorte tiden mellem det tidspunkt, hvor du bogfører en post, og det tidspunkt, hvor finansbogholderiet afspejler prisen. Du kan spore resultaterne af omkostningsreguleringer for individuelle reguleringskørsler og varer. Hvis der opstår fejl, kan du identificere de varer, der har problemer, og foretage rettelser. Du kan f.eks. udelukke varerne fra beregningerne for at sikre, at reguleringerne ikke afbrydes for andre varer. Du kan regulere omkostningerne for enkelte varer eller oprette varekørsler og regulere dem alle på én gang.
 
-## Begynd at spore omkostningsreguleringer
+## <a name="start-tracking-cost-adjustments"></a>Begynd at spore omkostningsreguleringer
 
 Det er nemt at komme i gang. På siden **Lageropsætning** indeholder feltet **Logføring af omkostningsregulering** et par indstillinger:
 
@@ -29,11 +29,11 @@ Det er nemt at komme i gang. På siden **Lageropsætning** indeholder feltet **L
 
 Du skal også konfigurere opgavekøposten **Bogfør lagerregulering til Finans (1002)**. Denne opgavekøpost regulerer automatisk omkostningerne i henhold til en plan. Få mere at vide om poster på opgavekøer i [Bruge opgavekøer til at planlægge opgaver](admin-job-queues-schedule-tasks.md).
 
-## Håndtere omkostningsreguleringer
+## <a name="manage-cost-adjustments"></a>Håndtere omkostningsreguleringer
 
 Brug siden **Regulering af lageromkostninger** til at administrere og overvåge omkostningsreguleringsprocessen. På denne side vises varer sammen med deres omkostningsparametre og status for omkostningsregulering. Du kan filtrere listen for at fokusere på varer, der kræver regulering, eller som ikke er medtaget i omkostningsreguleringen.
 
-### Om varebatches
+### <a name="about-item-batches"></a>Om varebatches
 
 Du kan foretage omkostningsregulering for flere varer ved at gruppere dem i batches. Batches gør det nemt at regulere nogle varer separat, f.eks. fordi det tager længere tid at regulere dem. Batches kan også hjælpe med at identificere varer, der er problemer med.
 
@@ -54,7 +54,7 @@ Når en kørsel for en batch afsluttes, har batchen én af følgende statusser p
 
 > [TIP!] Hver batch kører i en separat session. Hvis du vil overvåge status, skal du bruge handlingen **Opdater**.
 
-### Kør omkostningsregulering
+### <a name="run-cost-adjustment"></a>Kør omkostningsregulering
 
 Brug siden **Regulering af lageromkostninger** til at foretage reguleringer.
 
@@ -69,7 +69,7 @@ Brug siden **Regulering af lageromkostninger** til at foretage reguleringer.
     
     Du kan få mere at vide om batches ved at gå til [Om varebatches](#about-item-batches).
 
-### Udforske varedetaljer
+### <a name="explore-item-details"></a>Udforske varedetaljer
 
 Brug menuen **Vare** til at få adgang til oplysninger om omkostningsreguleringer for en valgt vare.
 
@@ -78,24 +78,24 @@ Brug menuen **Vare** til at få adgang til oplysninger om omkostningsreguleringe
 * **Indgangspunkter til omkostningsregulering**: Åbn siden **Indf.sted, regl. gnsn. kostpr.**, som du primært bruger til at beregne den gennemsnitlige kostpris. Siden viser kombinationer af varer, lokationer, varianter og værdiansættelsesdatoer, hvor der er kørt eller skal køres omkostningsreguleringer.
 * **Ordrer til omkostningsregulering**: Åbn siden **Indtastningsordre til lagerregulering**, hvor du kan regulere produktions- og montageordrer. Den viser, at ordrerne er justeret eller skal justeres.
 
-### Få vist resultatet
+### <a name="view-the-outcome"></a>Få vist resultatet
 
 Brug menuen **Log pr.** til at få vist resultatet af omkostningsreguleringer:
 
 * **Kør**: Vis logfiler over omkostningsregulering for hver kørsel. Loggen indeholder data om varefilter, status (Fuldført/Mislykket/Timeout), start- og slutdato/-klokkeslæt, varighed og de omkostningsforskelle, der er opstået som følge af kørslen.
 * **Vare**: Vis detaljerede oplysninger om reguleringsprocessen for den valgte vare.
 
-### Medtag eller udelad varer fra reguleringer
+### <a name="include-or-exclude-items-from-adjustments"></a>Medtag eller udelad varer fra reguleringer
 
 Hvis der er fejl i en eller flere varer, kan du udelade varerne fra reguleringskørslen og derefter medtage dem i senere kørsler. Vælg en af følgende i menuen **Funktioner**:
 
 * **Udeluk vare fra regulering** og **Medtag element i regulering**: Midlertidigt deaktivere og derefter genaktivere kostregulering for en valgt vare. Omkostningsregulering fortsætter med at holde omkostningerne nøjagtige for andre varer, mens du undersøger et problem med en bestemt vare.
 
-## Bogføre regulerede kostpriser i finansbogholderiet
+## <a name="post-adjusted-costs-to-the-general-ledger"></a>Bogføre regulerede kostpriser i finansbogholderiet
 
 Nye værdiposter bogføres typisk i finansbogholderiet i overensstemmelse med tidsplanen for opgavekøposten **Bogfør lagerregulering til Finans (1002)**. Du kan dog bogføre reguleringer i finansbogholderiet med det samme fra siden **Regulering af lageromkostninger**. I menuen **Funktioner** skal du vælge **Bogfør lagerregulering til Finans**.
 
-## Fejlfinding af omkostningsreguleringer
+## <a name="troubleshoot-cost-adjustments"></a>Fejlfinding af omkostningsreguleringer
 
 Brug følgende indstillinger i menuen **Diagnostik** til at foretage fejlfinding af kørsler af omkostningsreguleringer.
 
@@ -105,7 +105,7 @@ Brug følgende indstillinger i menuen **Diagnostik** til at foretage fejlfinding
 * **Rapporten** Registrering af kostprisproblemer: Diagnosticer typiske dataproblemer, der forårsager beregningsfejl i kostberegningen. Det kontrolleres, om vareposter, værdiposter, vareudligningsposter og kapacitetsposter er korrekte.
 * **Slet varedata**: Ryd alle varerelaterede tabeller i databasen. Denne handling er kun tilgængelig i sandkassemiljøer eller evalueringsfirmaer.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Justere varepriser](inventory-how-adjust-item-costs.md)  
 [Designoplysninger: Beregningsregulering](design-details-cost-adjustment.md)  

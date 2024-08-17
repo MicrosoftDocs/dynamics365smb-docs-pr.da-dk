@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Regnskab for omkostninger
+# <a name="accounting-for-costs"></a>Regnskab for omkostninger
 Omkostningsregnskab bruges til at hjælpe dig med at forstå omkostningerne til drift af en virksomhed. Se følgende artikler for at introduktion til omkostningsregnskab.  
 
 |Til|Se|  
@@ -25,7 +25,7 @@ Omkostningsregnskab bruges til at hjælpe dig med at forstå omkostningerne til 
 |Lær om processerne ved oprettelse af omkostningsbudgetter.|[Oprette omkostningsbudgetter](finance-create-cost-budgets.md)|
 |Annullere omkostningsbudgetposter fra omkostningsbudgetregistret.|[Slette omkostningsbudgetposter](finance-how-to-delete-cost-budget-entries.md)|
 
-## Se også  
+## <a name="see-also"></a>Se også
 [Finans](finance.md)  
 [Administrere lageromkostninger](finance-manage-inventory-costs.md)  
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

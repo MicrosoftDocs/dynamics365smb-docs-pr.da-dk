@@ -11,7 +11,7 @@ ms.date: 08/12/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Om varetyper
+# <a name="about-item-types"></a>Om varetyper
 
 I feltet **Type** på siden **Varekort** kan du vælge, hvad varen bruges til i virksomheden, hvilket påvirker, hvordan du kan administrere varen i lageret. I følgende tabel vises og beskrives de tre typer varer, der er tilgængelige.
 
@@ -30,7 +30,7 @@ I feltet **Type** på siden **Varekort** kan du vælge, hvad varen bruges til i 
 |Ikke på lager|Ja|Ja|Ja|Ja|Ja|Ja|Nej|Nej|Nej|Nej|Nej|Nej|Nej|Nej|Nej|Nej|Ja|
 |Tjeneste|Ja|Ja|Ja|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Nr.|Ja|
 
-## Kostmetoder for varetyper
+## <a name="costing-methods-for-types-of-items"></a>Kostmetoder for varetyper
 
 Når du bogfører lagertransaktioner, registreres ændringer i antal og værdi på lageret i henholdsvis vareposterne og værdiposterne.
 
@@ -38,17 +38,17 @@ Du registrerer omkostningen af lagervarer i feltet **Kostbeløb (ikke-lager)** p
 
 For ikke-lager og serviceartikler registreres omkostningen i feltet **Kostbeløb (ikke-lager)** på siden **Værdiposter**. For ikke-lager og serviceartikler er omkostningen angivet i salgs-, montage- og produktionsbilag og kladder. Angiv standardkostprisen i feltet **Kostpris** på siderne **Varekort** og **Lagervare (pr. lok.)**. Kostpriser for disse typer af varer afstemmes ikke med Finans.
 
-## Katalog og serviceartikler
+## <a name="catalog-and-service-items"></a>Katalog og serviceartikler
 
 Du kan opsætte varer, som du tilbyder til dine kunder, men som du ikke vil administrere i dit system, før du begynder at sælge dem som katalogvarer. Selvom katalogvarer ligner almindelige varer af typen **Ikke-lager** i denne henseende, skal du ikke forveksle de to, fordi der er forskelle. Hvis du vil vide mere, skal du gå til [Arbejde med katalogvarer](inventory-how-work-nonstock-items.md).
 
 Debitorvarer, du udfører servicerer, f.eks. en printer, kaldes serviceartikler. Serviceartikler har intet at gøre med almindelige varer eller katalogvarer. Servicekomponenterne kan dog være almindelige varer. Du kan finde flere oplysninger i [Konfigurere serviceartikler og serviceartikelkomponenter](service-how-setup-service-items.md).
 
-## Ressourcer
+## <a name="resources"></a>Ressourcer
 
 Ud over varetypen *Vare* giver salgs- og købsdokumenter dig også mulighed for at bruge varetypen *Ressource*. Ligesom varer understøtter ressourcer dimensioner, prislister og måleenheder. <!--With introduction of types *Service* and *Non-Inventory* we do not have any intention to add any extra capabilities for type Resource in purchase and sales processes. We recommend using items of applicable type instead. Resources will continue get new functionality to track the time and effort that is involved with performing and providing services and will stay important part of project and service management. Because many partner solutions use resources, we do not plan to deprecate them in the sales or purchase documents.-->
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Opsætning af lagerbeholdning](inventory-setup-inventory.md)  
