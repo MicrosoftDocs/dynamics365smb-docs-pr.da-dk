@@ -1,5 +1,5 @@
 ---
-title: Oprette et projektkort for et projekt og angive opgaver
+title: Oprette en projekt kort for et projekt og angive opgaver
 description: 'Du kan oprette et projektkort, der viser projektopgaver og planlægningslinjer, så det er nemmere at administrere status og budgetter for et nyt projekt.'
 author: brentholtorf
 ms.author: bholtorf
@@ -7,11 +7,11 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: 'project management, task'
 ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
-ms.date: 02/22/2024
+ms.date: 08/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-projects"></a>Oprette projekter
+# Oprette projekter
 
 Når du starter et nyt projekt, skal du oprette et projektkort med integrerede projektopgaver og projektplanlægningslinjer, opdelt i to niveauer.  
 
@@ -24,37 +24,7 @@ Den lagdelte struktur giver dig mulighed for at opdele projektet i mindre opgave
 > [!TIP]
 > Vælg handlingen **Nyt projekt** i rollecenteret **Projektleder** for at starte en assisteret opsætningsvejledning, som fører dig gennem trinnene til oprettelse af et projekt med integrerede opgaver og planlægningslinjer. Følgende fremgangsmåde beskriver, hvordan trinnene udføres manuelt. <!-- For an example of how to create a project manually, go to [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).-->
 
-## <a name="invoice-one-or-more-customers-for-project-tasks"></a>Fakturere en eller flere debitorer for projektopgaver
-
-Nogle gange adskiller den part, der modtager en service, sig fra den part, der betaler fakturaen. Nogle gange kan det også være nødvendigt at fakturere flere debitorer for opgaver i projektet. På siden **Projektkort** skal du bruge feltet **Faktureringsmetode for opgave** til at angive, om du fakturerer én eller flere debitorer.
-
-Hvis den debitor, der modtager servicen, også skal betale regningen, skal du i felterne **Faktureres til** og **Leveres til** vælge **Standard (debitor)** og **Standard (kundeadresse)**.
-
-Hvis du fakturerer flere debitorer, kan du angive den debitor, der skal modtage servicen, og den debitor, der skal faktureres for hver opgave i projektet. Du kan også angive følgende oplysninger.
-
-* Hvor arbejdet skal foretages ved at vælge fra en liste over leveringsadresser for debitoren.
-* Tilføj oplysninger om eksterne referencer for at forenkle kommunikationen om projektet.
-* Overskriv projektets standardbetingelser.
-
-## <a name="invoice-one-customer-for-multiple-project-tasks"></a>Fakturere én debitor for flere projektopgaver
-
-Du kan forenkle faktureringsprocessen ved at sende én faktura til en debitor for flere projekter. Føj projektplanlægningslinjer fra flere projekter til en salgsfaktura på én gang. Denne proces svarer til at oprette en salgsfaktura fra en projektplanlægningslinje og angive en værdi i feltet **Føj til salgsfakturanr.**
-
-Her er en oversigt over processen.
-
-1. Opret en ny salgsordre, og udfyld feltet **Kundenummer** . Hvis det er nødvendigt, kan du også udfylde felterne **Faktureres til kundenr.** og **Valutakode**.
-2. I oversigtspanelet **Linjer** skal du vælge handlingen **Hent projektplanlægningslinjer**. Siden **Hent projektplanlægningslinjer** viser fakturerbare projektplanlægningslinjer fra projekter for kunden, debitoren og faktureringsvalutaen, hvor det antal, der skal faktureres, er større end nul. 
-3. Vælg de linjer, du vil føje til fakturaen, og vælg derefter **OK**.
-
-Gentag disse trin, hvis du vil tilføje endnu et sæt projektplanlægningslinjer. Du kan også slette fakturaen eller dens linjer og starte forfra.
-
-> [!NOTE]
-> Der er et par begrænsninger:
->
-> * Handlingen **Hent projektplanlægningslinjer** er ikke tilgængelig på salgsordrer eller salgstilbud.
-> * Du kan ikke filtrere på felterne **Leveringsadressekode** eller **Kontaktnummer** .
-
-## <a name="to-create-a-project-card"></a>Sådan oprettes et projektkort
+## Sådan oprettes et projektkort
 
 Du kan oprette et projektkort og derefter oprette projektopgavelinjer og projektplanlægningslinjer for det.
 
@@ -63,17 +33,20 @@ Du kan oprette et projektkort og derefter oprette projektopgavelinjer og projekt
 3. Hvis du vil basere projektet på oplysninger fra et andet projekt, skal du vælge handlingen **Kopier projekt**, udfylde felterne efter behov og derefter vælge knappen **OK**.
 
 > [!NOTE]  
-> Hvis du bruger timesedler i dit projekt, skal du også tildele en ansvarlig person. Denne person kan godkende timesedler for medarbejderopgaver, der er knyttet til projektet. Der er flere oplysninger i [Konfigurere timesedler](projects-how-setup-time-sheets.md).
+> Hvis du bruger timesedler med dit projekt, skal du også udpege en ansvarlig person. Denne person kan godkende timesedler for medarbejderopgaver, der er knyttet til projektet. Der er flere oplysninger i [Konfigurere timesedler](projects-how-setup-time-sheets.md).
 
-Du kan også vælge at markere handlinger på projekt som blokeret vha. feltet **spærret**. følgende tabel beskrives effekten af indstillingerne for dette felt.
+> [!NOTE]  
+> Til **/fra-knappen Anvend forbrug sammenkæde**  angiver, om projektposter er kædet sammen med projektplanlægningslinjer. Til **/fra-knappen Anvend forbrug sammenkæde**  aktiverer også lagerhåndtering, planlægning, montage efter ordre, varesporing og reservationsfunktioner for et projekt.
+
+Du kan også vælge at markere handlinger på projekt som blokeret vha. feltet **spærret**. I følgende tabel beskrives effekten af indstillingerne for dette felt.
 
 |Indstilling  |Beskrivelse  |
 |---------|---------|
 |Tom |Alle handlingerne er tilladt.|
-|Bogfører    |Du kan arbejde med planlægningslinjer, men projektet kan ikke bogføres. Hvis du vælger denne indstilling, kan du ikke bogføre forbrug eller salg for projektet.|
+|Bogfører    |Du kan arbejde med planlægningslinjer, men projektet kan ikke bogføres. Du kan ikke bogføre forbrug eller salg for projektet.|
 |Alle  |Alle handlingerne er blokeret.|
 
-## <a name="to-create-tasks-for-a-project"></a>Sådan oprettes opgaver for et projekt
+## Sådan oprettes opgaver for et projekt
 
 Når du opretter et projekt, skal du også angive de forskellige opgaver, som projektet indeholder. Du angiver opgaver ved at oprette en linje per opgave i oversigtspanelet **Opgaver** på siden **Projektkort**. Hvert projekt skal have mindst én opgave.
 
@@ -84,7 +57,33 @@ Når du opretter et projekt, skal du også angive de forskellige opgaver, som pr
 5. Gentag trin 3 og 4 for alle de opgaver, du skal bruge for projektet.
 6. For at angive projektopgaverne med oplysninger om andre projektopgaver skal du vælge handlingen **Kopier projektopgaver fra**, udfylde felterne efter behov og derefter vælge knappen **OK**.
 
-## <a name="to-create-planning-lines-for-a-project"></a>Sådan oprettes planlægningslinjer for et projekt
+## Fakturere en eller flere debitorer for projektopgaver
+
+Nogle gange adskiller den part, der modtager en service, sig fra den part, der betaler fakturaen. Nogle gange kan det også være nødvendigt at fakturere flere debitorer for opgaver i projektet. På siden **Projektkort** skal du bruge feltet **Faktureringsmetode for opgave** til at angive, om du fakturerer én eller flere debitorer.
+
+Hvis den debitor, der modtager servicen, også skal betale regningen, skal du i felterne **Faktureres til** og **Leveres til** vælge **Standard (debitor)** og **Standard (kundeadresse)**.
+
+Hvis du fakturerer flere debitorer, kan du angive den debitor, der skal modtage servicen, og den debitor, der skal faktureres for hver opgave i projektet. Du kan også angive følgende oplysninger.
+
+* Vælg leveringsadressen på den kunde, hvor arbejdet skal udføres.
+* Tilføj oplysninger om eksterne referencer for at forenkle kommunikationen om projektet.
+* Overskriv projektets standardbetingelser.
+
+## Angive en standardplacering for projektelementer
+
+Du kan spare tid på dataindtastning ved at angive en standardlokation og -placering for projekter på siden **Projektkort**. Når du opretter projektopgaver, projektplanlægningslinjer og projektkladdelinjer for projektet, tildeles standardlokationen og -placeringen automatisk. Du kan dog ændre lokationskoden og placeringen på opgaver og linjer, hvis det er nødvendigt.
+
+Hvis du definerer en **Til-projektplaceringskode** på lokationen, udfyldes placeringskoden, når du vælger lokationskoden. Hvis lagerstedsprocessen kræver lagerpluk, kan du også definere andre placeringer, som varerne skal forbruges fra.
+
+Disse felter er standardværdier, når du opretter projektopgaver. Eksisterende projektopgaver ændres ikke.
+
+Der er et par ting, du skal vide om brug af standardplaceringer:
+
+* Hvis du for projektopgaver definerer en **Til-projektplaceringskode** på lokationen, tildeles placeringskoden, når du vælger lokationskoden. Hvis lagerstedsprocessen kræver lagerpluk, kan du også definere andre placeringer, som varerne skal forbruges fra.
+* For projektplanlægningslinjer er **lokationskoden** baseret på den værdi, der er valgt på projektplanlægningslinjen, når du vælger en vare. Hvis der ikke er defineret en placeringskode for projektopgaven, vælges placeringen fra indholdet på standardplaceringen. Du kan ændre begge værdier manuelt.
+* For projektkladdelinjer er **lokationskoden** baseret på den værdi, der er valgt på projektkladdelinjen, når du vælger en vare. Hvis der ikke er defineret en placeringskode for projektopgaven, vælges placeringen fra indholdet på standardplaceringen. Du kan ændre begge værdier manuelt.
+
+## Sådan oprettes planlægningslinjer for et projekt
 
 Du kan begrænse dine nye projektopgaver på projektplanlægningslinjer. En planlægningslinje kan registrere de oplysninger, du vil spore for et projekt. Du kan f.eks. spore, hvilke ressourcer projektet kræver, eller de varer, der er nødvendige. Du kan f.eks. udføre en opgave for at få en kunde til at godkende et projekt. Du kan knytte den pågældende opgave til planlægningslinjer for varer, f.eks. et møde med kunden og tildele en ressource.  
 
@@ -105,7 +104,7 @@ En projektplanlægningslinje kan være en af følgende typer.
 4. På siden **Projektplanlægningslinjer** skal du udfylde felterne på en ny linje efter behov.
 5. Gentag trin 3 og 4 for alle planlægningslinjer, du skal bruge for projektopgaven.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Projektstyring](projects-manage-projects.md)  
 [Video: Sådan oprettes et projekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

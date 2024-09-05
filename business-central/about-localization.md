@@ -8,16 +8,16 @@ ms.topic: overview
 ms.search.keywords: 'availability, localization'
 ms.search.form: null
 ms.date: 09/05/2023
-ms.custom: bap-template
+ms.custom: 'bap-template, references_regions'
 ms.service: dynamics-365-business-central
 ---
-# <a name="what-is-local-functionality-in-"></a>Hvad er lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]?
+# Hvad er lokal funktionalitet i [!INCLUDE[prod_long](includes/prod_long.md)]?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] har en kombineret oversættelsesstrategi inklusive både Microsoft-styrede såvel som partnerstyrede modeller. I dette afsnit kan du se beskrivelser af funktioner, der gælder for de lande/områder, hvor Microsoft leverer overholdelse af lovmæssige krav og andre lokale funktioner.  
 
 Du kan finde en liste over de aktuelt understøttede markeder i [Tilgængelighed i land/område og understøttede sprog](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## <a name="local-functionality"></a>Lokal funktionalitet
+## Lokal funktionalitet
 
 Følgende tabel indeholder links til de artikler, hvor du kan få mere at vide om de lokale funktioner i hvert land/område.
 
@@ -48,11 +48,11 @@ Følgende tabel indeholder links til de artikler, hvor du kan få mere at vide o
 |        | Indien | [Lokal funktionalitet for Indien](LocalFunctionality/India/india-local-functionality.md) |
 |        | New Zealand | [Lokal funktionalitet for New Zealand](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### <a name="other-countriesregions"></a>Øvrige lande/områder
+### Øvrige lande/områder
 
 [!INCLUDE[prod_short](includes/prod_short.md)] findes også på andre markeder via oversættelsesapps. Hvis en Microsoft-partner har udviklet en oversættelsesapp til dit land/område, kan du finde den i [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oprette miljøer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Gør dig klar til at komme i gang](ui-get-ready-business.md)  
