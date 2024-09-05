@@ -21,7 +21,7 @@ Denne gennemgang viser flere centrale processer:
 - Udfyld tidsregistreringen for serviceordren
 - Bogføre og fakturere kontraktserviceordre
 
-## <a name="creation-of-service-items"></a>Oprette serviceartikler
+## <a name="create-service-items"></a>Oprette serviceartikler
 
 ### <a name="scenario"></a>Scenarie
 
@@ -45,7 +45,7 @@ Susan, der er ordrebehandler, bogfører en salgsordre, der sælger en vare, der 
 
 - Der oprettes en servicevare til Kunde 10000
 
-## <a name="invoicing-a-service-contract"></a>Fakturere en servicekontrakt
+## <a name="invoice-a-service-contract"></a>Fakturere en servicekontrakt
 
 ### <a name="scenario-1"></a>Scenarie
 

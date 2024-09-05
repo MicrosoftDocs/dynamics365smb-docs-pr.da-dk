@@ -11,7 +11,7 @@ ms.date: 08/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Konfigurere ressourcer for projekter
+# <a name="set-up-resources-for-projects"></a>Konfigurere ressourcer for projekter
 
 For at kunne administrere ressourceaktiviteterne korrekt skal du oprette ressourcerne og de tilhørende omkostninger og priser. De projektrelaterede pris-, rabat- og kostfaktorregler oprettes på projektkortet. Du kan angive omkostninger og priser for individuelle ressourcer, ressourcegrupper eller alle tilgængelige ressourcer i virksomheden.
 
@@ -22,7 +22,7 @@ Du kan angive standardbeløbet pr. time, når ressourcen oprettes. Hvis du f.eks
 > [!NOTE]
 > Du kan ikke købe eksterne ressourcer til et bestemt projekt. Vi anbefaler, at du bruger elementer af typen Service i stedet.
 
-## Sådan defineres en ressource
+## <a name="to-set-up-a-resource"></a>Sådan defineres en ressource
 
 Opret et kort for hver ressource, du vil bruge i projekter.
 
@@ -30,7 +30,7 @@ Opret et kort for hver ressource, du vil bruge i projekter.
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Sådan oprettes en ressourcegruppe
+## <a name="to-set-up-a-resource-group"></a>Sådan oprettes en ressourcegruppe
 
 Du kan samle flere forskellige ressourcer i en ressourcegruppe. Ressourcegruppens kapaciteter og budgetter bliver akkumuleret fra de enkelte ressourcer i gruppen. Du kan også indtaste kapaciteter for ressourcegrupper, enten uafhængigt af de akkumulerede værdier eller som supplement til dem.
 
@@ -38,7 +38,7 @@ Du kan samle flere forskellige ressourcer i en ressourcegruppe. Ressourcegruppen
 2. Vælg handlingen **Ny**.
 3. Udfyld felterne efter behov.
 
-## Sådan angives kapaciteten for en ressource
+## <a name="to-set-capacity-for-a-resource"></a>Sådan angives kapaciteten for en ressource
 
 For at beregne, hvor lang tid en ressource kan bruge på projekter, skal ressourcernes kapacitet først angives som disponibel tid pr. periode i arbejdskalenderen. Denne opsætning anvendes, når du udfylder projektplanlægningslinjer, som indeholder ressourcen. Du kan finde flere oplysninger i [Oprette projekter](projects-how-create-jobs.md).
 
@@ -51,7 +51,7 @@ For at beregne, hvor lang tid en ressource kan bruge på projekter, skal ressour
 7. Vælg handlingen **Opdater kapacitet**. Siden **Ressourcekapacitet** opdateres med den angivne kapacitet.
 8. Luk siden.
 
-## Sådan angives ressourcekostpriser
+## <a name="to-set-up-alternate-resource-costs"></a>Sådan angives ressourcekostpriser
 
 Udover de omkostninger, der er angivet på ressourcekortet, kan du oprette alternative omkostninger for hver ressource. Hvis en medarbejder f.eks. har en højere timesats for overarbejde, kan du i denne tabel oprette en ressourcekostpris for overtidsbetalingen. Den alternative kostpris, du angiver for ressourcen, tilsidesætter kostprisen på ressourcekortet, når du bruger ressourcen i ressourcekladden.
 
@@ -63,7 +63,7 @@ Udover de omkostninger, der er angivet på ressourcekortet, kan du oprette alter
 > [!NOTE]
 > Hvis du vil angive ressourcekostpriser, der gælder for alle ressourcer og ressourcegrupper, skal du åbne siden **Ressourcekostpriser** og udfylde felterne.
 
-## Sådan angives ressourcepriser
+## <a name="to-set-up-alternate-resource-prices"></a>Sådan angives ressourcepriser
 
 Udover den pris, der er angivet på ressourcekortet, kan du oprette alternative priser for hver ressource. Alternative priser kan være betingede. De kan være betinget af, om ressourcen anvendes med et bestemt projekt eller en bestemt arbejdstype.
 
@@ -72,7 +72,7 @@ Udover den pris, der er angivet på ressourcekortet, kan du oprette alternative 
 3. På siden **Ressourcesalgspriser** skal du udfylde felterne på en linje efter behov.
 4. Gentag trin 3 for hver alternativ ressourcepris, du vil oprette.
 
-## Sådan reguleres ressourcepriser
+## <a name="to-adjust-resource-prices"></a>Sådan reguleres ressourcepriser
 
 Hvis du vil ændre kost- eller salgspriser for et større antal ressourcer, kan du anvende en kørsel.  
 
@@ -82,7 +82,7 @@ Hvis du vil ændre kost- eller salgspriser for et større antal ressourcer, kan 
 > [!NOTE]  
 > Denne kørsel kan ikke bruges til at ændre eller oprette alternative salgs- eller købspriser for ressourcer. Den ændrer kun indholdet af feltet på ressourcekortet for feltet **Reguler felt**, som du har markeret i kørslen. Reguleringen træder i kraft med det samme for ressourcen, så du bør kontrollere reguleringsfaktorerne før kørslen.
 
-## Sådan hentes forslag til ændring af ressourcepriser ud fra eksisterende alternative priser
+## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>Sådan hentes forslag til ændring af ressourcepriser ud fra eksisterende alternative priser
 
 Hvis du allerede har angivet alternative ressourcepriser for nogle ressourcer, kan du bruge en kørsel til at angive flere alternative ressourcepriser.
 
@@ -91,7 +91,7 @@ Hvis du allerede har angivet alternative ressourcepriser for nogle ressourcer, k
 3. Vælg knappen **OK**.  
 4. Siden **Ressourceprisforslag** viser resultatet af kørslen, når den er færdig.
 
-## Sådan henter du forslag til ændring af ressourcepriser ud fra standardpriser
+## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Sådan henter du forslag til ændring af ressourcepriser ud fra standardpriser
 
 Hvis du vil angive flere alternative ressourcepriser ud fra standardpriserne på ressourcekortet, kan du anvende en kørsel.  
 
@@ -100,7 +100,7 @@ Hvis du vil angive flere alternative ressourcepriser ud fra standardpriserne på
 3. Vælg knappen **OK**.  
 4. Åbn siden **Ressourceprisforslag** for at se resultatet af kørslen, når den er færdig.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere projektstyring](projects-setup-projects.md)  
 [Projektstyring](projects-manage-projects.md)  

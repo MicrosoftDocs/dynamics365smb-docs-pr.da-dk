@@ -12,7 +12,7 @@ ms.search.form: '89, 92, 1010'
 ms.service: dynamics-365-business-central
 ---
 
-# Overvåge status og ydeevne af projekt
+# <a name="monitor-project-progress-and-performance"></a>Overvåge status og ydeevne af projekt
 
 Med igangværende arbejde (WIP)-funktionen kan du estimere den økonomiske værdi af igangværende projekter i finansregnskabet.
 
@@ -36,7 +36,7 @@ Hvis du vil have vist resultatet ved hjælp af en anden metode, skal du ændre m
 4. Hvis du vil gøre den nye metode til standardmetoden, skal du vælge den ![lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , angiv **Projektopsætning**, og vælg derefter den relaterede sammenkæde.  
 5. I feltet **Standard-VIA-metode** skal du vælge metoden fra listen.
 
-## Definere en metode for igangværende arbejde for et projekt
+## <a name="define-a-wip-method-for-a-project"></a>Definere en metode for igangværende arbejde for et projekt
 
 Når du opretter et nyt projekt, skal du angive, hvilken metode for igangværende arbejde der gælder. I nogle tilfælde er den igangværende arbejde-metode for projekter, du bruger, allerede angivet som standard.
 
@@ -44,7 +44,7 @@ Når du opretter et nyt projekt, skal du angive, hvilken metode for igangværend
 2. Vælg handlingen **Ny**. Flere oplysninger i [Oprette projekter](projects-how-create-jobs.md).  
 3.  **Vælg en VIA-metode på listen i feltet**  **VIA-metode** i oversigtspanelet Bogføring på siden Projekt **kort** . Hvis der er defineret en standardmetode, kan du vælge en anden indstilling, hvis det er nødvendigt.  
 
-### Definere en metode for igangværende arbejde for en projektopgave
+### <a name="define-a-wip-method-for-a-project-task"></a>Definere en metode for igangværende arbejde for en projektopgave
 
 Du kan definere en VIA-metode for en projektopgave, udelukke projektopgaver fra VIA-beregningen eller gruppere opgaver, der skal beregnes sammen.
 
@@ -87,7 +87,7 @@ Du bemærker:
 * For *projektopgaverne fra 1000* til *og med 1299* beregnes VIA separat for denne gruppe projektopgaver. Bemærk dog, at to af opgaverne, 1010 og 1110, udelades fra VIA-beregningen, fordi deres projektopgavetype er **Bogføring**.
 * For *projektopgaverne fra 1300* til *og med 1399* beregnes VIA separat for denne gruppe projektopgaver.
 
-## Beregn VIA
+## <a name="calculate-wip"></a>Beregn VIA
 
 Du kan bestemme det VIA-beløb, der skal bogføres på balancekonti for periodeafslutningsrapporteringen ved hjælp af **kørslen Beregn VIA** i projekt.  
 
@@ -99,7 +99,7 @@ Du kan bestemme det VIA-beløb, der skal bogføres på balancekonti for periodea
 > [!NOTE]  
 > Kørslen beregner kun VIA, men bogfører den ikke i finansregnskabet. Hvis du vil bogføre VIA, skal du udføre **kørslen Bogfør VIA**, når du har beregnet VIA. Der er flere oplysninger i følgende procedure.
 
-### Gennemgå advarsler
+### <a name="review-warnings"></a>Gennemgå advarsler
 
 Hvis VIA-beregningen *, der resulterer i, at VIA blev beregnet med en advarselsmeddelelse*, kan det være en god idé at gennemse advarslerne.
 
@@ -107,7 +107,7 @@ Hvis VIA-beregningen *, der resulterer i, at VIA blev beregnet med en advarselsm
 2. Vælg det projekt, du vil gennemse advarsler for. Til **/fra-knappen VIA-advarsler** er aktiveret for projekter, der har VIA-advarsler.
 3. Vælg handlingen **Vis advarsel** .
 
-### Slette VIA-poster
+### <a name="delete-wip-entries"></a>Slette VIA-poster
 
 Hvis du vil prøve forskellige VIA-metoder, får du muligvis vist fejlen *Projektopgaven kan ikke ændres, fordi projektet har en fejl med tilknyttede VIA-poster* i projektet. Du kan kontrollere VIA-metoden ved at slette eksisterende VIA-poster.
 
@@ -115,7 +115,7 @@ Hvis du vil prøve forskellige VIA-metoder, får du muligvis vist fejlen *Projek
 2. Vælg det projekt, du vil slette VIA-poster for.
 3. Vælg handlingen **Slet VIA-poster** .
 
-## Bogfør VIA
+## <a name="post-wip"></a>Bogfør VIA
 
 Når du beregner VIA, kan du bogføre den på balancekonti for periodeafslutningsrapporteringen.  **Brug kørslen Bogfør VIA for projekter** .
 
@@ -123,7 +123,7 @@ Når du beregner VIA, kan du bogføre den på balancekonti for periodeafslutning
 2. På siden **Bogfør projektets igangværende arbejde til finans** skal du udfylde felterne efter behov.  
 3. Vælg knappen **OK**.
 
-## Beregn og bogfør projektafslutningsposter
+## <a name="calculate-and-post-project-completion-entries"></a>Beregn og bogfør projektafslutningsposter
 
 Når du har fuldført alle aktiviteter for et projekt, herunder bogføring af forbrug og fakturering, skal du opdatere projektets status til **Afsluttet**. Derefter skal du tilbageføre alle VIA, der blev bogført i finansregnskabet.
 
@@ -140,7 +140,7 @@ Når du har fuldført alle aktiviteter for et projekt, herunder bogføring af fo
 
      I de VIA-finansposter for projektet, som oprettes ved kørsel af batchprojektet, er afkrydsningsfeltet **Projekt fuldført** markeret for at vise, at de er færdiggørelsesposter.
 
-## Få vist projektfinansposter
+## <a name="view-project-ledger-entries"></a>Få vist projektfinansposter
 
 Alle projektrelaterede poster er registreret i projektjournaler med fortløbende nummerering, hvor der startes med 1. Fra projektjournalen kan du få et overblik over alle projektposter.
 
@@ -149,7 +149,7 @@ Alle projektrelaterede poster er registreret i projektjournaler med fortløbende
 
 På siden **Projektposter** kan du gennemse de poster, der er knyttet til et projekt.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Gennemgang – beregning af igangværende arbejder for et projekt](walkthrough-calculating-work-in-process-for-a-job.md)    
 [Administrere projekter](projects-manage-projects.md)    

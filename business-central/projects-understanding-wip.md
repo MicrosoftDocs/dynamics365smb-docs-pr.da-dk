@@ -11,7 +11,7 @@ ms.date: 08/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Forståelse af VIA-metoder i projektledelse
+# <a name="understanding-wip-methods-in-project-management"></a>Forståelse af VIA-metoder i projektledelse
 
 Efterhånden som status for et projekt ændrer sig, forbruges der materialer, ressourcer og andre udgifter, og disse skal bogføres i projektet. Igangværende arbejde er en funktion, som giver dig mulighed for at estimere den økonomiske værdi af projekter i finansregnskabet under udførelsen af projektet. Du kan i mange tilfælde bogføre udgifterne for et projekt, før projektet faktureres. Når der kun bogføres udgifter, er din regnskabsopgørelse ikke korrekt.
 
@@ -29,7 +29,7 @@ Ud af kassen [!INCLUDE[prod_short](includes/prod_short.md)]  understøtter følg
 
 De nøjagtige formler og finanstransaktioner defineres ved udvælgelsen i felterne [**Registreret kostpris**](#recognized-cost) og [**Realiseret salg**](#recognized-sales) .
 
-## Oprette en projektmetode for igangværende arbejde
+## <a name="create-a-project-wip-method"></a>Oprette en projektmetode for igangværende arbejde
 
 Opret et projekt med igangværende arbejde-metode, der afspejler behovet i organisationen og angiver det som standard.  
 
@@ -42,7 +42,7 @@ Opret et projekt med igangværende arbejde-metode, der afspejler behovet i organ
 4. Hvis du vil gøre denne metode til standard, skal du vælge den ![pære, der åbner funktionen Fortæl mig det.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , angiv **Opsætning af projekter**, og vælg derefter den relaterede sammenkæde.  
 5. I feltet **Standard-VIA-metode** skal du vælge metoden fra listen.
 
-### Registreret omkostning
+### <a name="recognized-cost"></a>Registreret omkostning
 
 | Registreret omkostning | Formel til beregning af realiseret kostpris | Finansposter |
 | --- | --- | ---------- |
@@ -59,7 +59,7 @@ Konto **til realiserede omkostninger** Konto **til projektomkostninger**, Beløb
 > [!NOTE]
 > Afhængigt af valget i **feltet Anvendt** VIA-bogføringsmetode kan Varekostpris-anvendt konto **,** Ressourceomkostningsudlignet **konto** eller **Finansomkostningsanvendt konto** bruges i stedet for **Projektomkostningsanvendt konto**. Du kan finde flere oplysninger i [Projektbogføringsgrupper](projects-how-setup-jobs.md#to-set-general-information-for-projects).
 
-### Registreret salg
+### <a name="recognized-sales"></a>Registreret salg
 
 | Realiseret salg | Formel til beregning af realiseret salg | Finansposter |
 | --- | --- | ---------- |
@@ -74,7 +74,7 @@ Når projektets status ændres til Afsluttet, tilbagefører opgaven Beregn VIA *
 
 Dt **projektsalg anvendt konto** Cr **Realiseret salgskonto**, Beløb: **Faktureret (samlet pris)**
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Projektstyring](projects-manage-projects.md)  
 [Finans](finance.md)  

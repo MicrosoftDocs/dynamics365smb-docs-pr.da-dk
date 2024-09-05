@@ -11,7 +11,7 @@ ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ms.service: dynamics-365-business-central
 ---
-# Oprette projekter, priser og projektbogføringsgrupper
+# <a name="set-up-projects-prices-and-project-posting-groups"></a>Oprette projekter, priser og projektbogføringsgrupper
 
 Som projektleder kan du konfigurere hvert af de projekter, du administrerer i [!INCLUDE[prod_short](includes/prod_short.md)]. Brug siden **Projektopsætning** til at definere, hvordan du vil bruge projektfunktioner.
 
@@ -22,7 +22,7 @@ For hvert projekt skal du angive forskellige oplysninger:
 * Finanskonti for projekter
 * Projektbogføringsgrupper (påkrævet)
 
-## Sådan angives generelle oplysninger for projekter
+## <a name="to-set-general-information-for-projects"></a>Sådan angives generelle oplysninger for projekter
 
 1. Vælg det ![lyspæreikon, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") , angiv **Projektopsætning**, og vælg derefter det relaterede link.
 2. Udfyld felterne efter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ For hvert projekt skal du angive forskellige oplysninger:
 > [!NOTE]
 > Feltet **Anvend anvendelseslink som standard** på siden **Projektbogføringsgrupper** angiver, om der som standard knyttes projektposter til projektplanlægningslinjer. Slå til/fra-funktionen til for at anvende denne indstilling på alle nye projekter. Du kan aktivere eller deaktivere sporing af projektforbrug for et bestemt projekt ved at slå værdien i feltet **Anvend anvendelseslink** til/fra på siden **Projektkort**. Til **/fra-knappen Anvend forbrug sammenkæde**  aktiverer også lagerhåndtering, planlægning, montage efter ordre, varesporing og reservationsfunktioner for projektet.
 
-### Sådan definerer du projektforbrugssporing
+### <a name="to-set-up-project-usage-tracking"></a>Sådan definerer du projektforbrugssporing
 
 Når du ekspederer et aktivt projekt, kan du få flere oplysninger om forbruget i forhold til din plan. Det kan udforske forbruget ved at oprette en tilknytning mellem dine projektplanlægningslinjer og det faktiske forbrug. Du kan bruge hyperlinket til at spore omkostningerne og forstå, hvor meget arbejde der er tilbage. Som standard er projektplanlægningslinjetypen **Budget**, men brug af linjetypen **Både budget og fakturerbar** har samme virkning.
 
@@ -44,11 +44,11 @@ Når du har konfigureret forbrugssporing ved at vælge feltet **Anvend forbrugsl
 > [!IMPORTANT]
 > Hvis du ikke angiver en specifik værdi i feltet **Linjetype** på projektkladdelinjen eller linjen er tomt, oprettes der ingen projektplanlægningslinjer, når du bogfører projektkladden eller købsdokumentet.
 
-### Fakturere flere debitorer for projektopgaver
+### <a name="invoice-multiple-customers-for-project-tasks"></a>Fakturere flere debitorer for projektopgaver
 
 Når projekter involverer flere debitorer, kan det være en udfordring at fakturere de rigtige kunder for de rigtige opgaver. [!INCLUDE [prod_short](includes/prod_short.md)] gør fakturering mindre kompleks ved at give dig mulighed for at angive fakturer til- og sælg til-kunder på hver projektopgavelinje, så du automatisk kan generere fakturaer til de korrekte kunder.   **Brug feltet Standardfaktureringsmetode** for opgave til at angive, om du fakturerer én debitor eller flere kunder som standard. Du kan ændre opgavefaktureringsmetoden for et bestemt projekt ved at bruge feltet Metode til **opgavefakturering** på kort **siden for** projektet. Du kan få mere at vide om fakturering af flere kunder ved at gå til [Fakturere en eller flere debitorer for projektopgaver](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
-### Synkronisere prisen på brugte varer
+### <a name="synchronize-the-cost-of-used-items"></a>Synkronisere prisen på brugte varer
 
 Kostprisen på en vare (lagerværdi), som du køber og senere bruger i projektet, kan ændre sig i løbet af varens levetid. Det kan f.eks. være fordi en fragtpris føjes til købsprisen, når du har bogført forbruget af varen.
 
@@ -60,7 +60,7 @@ Hvis du vil sikre, at kostprisændringer automatisk justeres i et projekt, hver 
 
 Hvis du holder den nede, skal du huske at udføre **opgaven Opdater sagsprojektomkostninger** manuelt eller ved at bruge en opgavekøpost.
 
-## Konfigurere priser for ressourcer, varer og finanskonti for projekter
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-projects"></a>Konfigurere priser for ressourcer, varer og finanskonti for projekter
 
 > [!NOTE]
 > I 2020 udgivelsesbølge 2 har vi udgivet nye processer til opsætning og administration af priser og rabatter. Hvis du er ny kunde, bruger du den nye oplevelse. Hvis du allerede bruger den nye oplevelse, afhænger det af, om din administrator har aktiveret funktionsopdateringen **Ny vareprissætningsopdatering** i **Funktionsadministration**. Du kan finde flere oplysninger i [Aktivere Upcoming Features Ahead of Time](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -88,7 +88,7 @@ Når du vælger en ressource, vare eller finanskonto for et projekt, bruger [!IN
 
 ---
 
-## Sådan oprettes projektbogføringsgrupper
+## <a name="to-set-up-project-posting-groups"></a>Sådan oprettes projektbogføringsgrupper
 
 Et aspekt af planlægningsprojekter er at beslutte, hvilke bogføringskonti der skal bruges til projektomkostninger. Hvis du vil bogføre projekter, skal du oprette konti til bogføring for hver projektbogføringsgruppe. En bogføringsgruppe repræsenterer en kæde mellem projektet, og hvordan den bør behandles i Finans. Når du opretter et projekt, kan du angive en bogføringsgruppe, og som standard knyttes hver opgave, du opretter for projektet, til denne bogføringsgruppe. Når du opretter opgaver, kan du tilsidesætte standardindstillingen og vælge en bogføringsgruppe, der passer bedre.  
 
@@ -116,7 +116,7 @@ Et aspekt af planlægningsprojekter er at beslutte, hvilke bogføringskonti der 
 | **Konto til realiserede omkostninger** |Den udgiftskonto, som indeholder de registrerede omkostninger for projektet. Det er normalt en debetafrundingskonto. | Realiserede omkostninger|
 | **Konto til realiseret salg** |Den indtægtskonto, som indeholder den registrerede indtægt for projektet. Det er normalt en kreditafrundingskonto. | Realiseret salg|
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Opsætte projektstyring](projects-setup-projects.md)  
 [Video: Sådan oprettes et projekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

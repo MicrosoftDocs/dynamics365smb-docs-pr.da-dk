@@ -62,7 +62,7 @@ Når du har udfyldt **Intrastat-rapporten**, kan du køre handlingen **Kontrolli
 
 Kør rapporten **Tjekliste til Intrastat-rapport** for at kontrollere Intrastat-linjer, før de udlæses til det krævede format. Checket udføres i **Intrastat-rapporten**.
 
-## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Genberegne vægt eller supplerende måleenhed
+## <a name="recalculate-weight-or-supplementary-unit-of-measure"></a>Genberegne vægt eller supplerende måleenhed
 
 Hvis fejlmeddelelsen *"Samlet vægt" på Intrastat-rapportlinje må ikke være tom*, vises, skyldes det sikkert, at du ikke har angivet feltet **Nettovægt** på den anvendte kilde, vare eller anlægsaktiv. Hvis det er tilfældet, skal du søge efter varen eller anlægskortet og tilføje den påkrævede værdi. Derefter skal du blot åbne **Intrastat-rapporten** igen og følge disse trin:
 
