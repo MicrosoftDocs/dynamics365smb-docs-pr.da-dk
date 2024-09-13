@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Oversigt over momsstyring
+# <a name="vat-management-overview"></a>Oversigt over momsstyring
 Moms er en indirekte afgift af forbruget af varer og tjenesteydelser. Der opkræves moms på hvert enkelt trin af forsyningskæden, når der lægges værdi fra den første produktion til pos. Se følgende artikler for at komme i gang med momsadministration.  
 
 |  Artikel  |  Beskrivelse  |  
@@ -31,7 +31,7 @@ Moms er en indirekte afgift af forbruget af varer og tjenesteydelser. Der opkræ
 | [Flere momsregistreringsnumre](finance-how-use-multiple-vat-registrations.md) | Find ud af, hvordan du konfigurerer flere momsregistreringsnumre (som en alternativ momssats) for dine kunder, der opererer i forskellige lande. |
 
 
-## Se også 
+## <a name="see-also"></a>Se også
 [Finance](finance.md)    
 [Arbejd med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

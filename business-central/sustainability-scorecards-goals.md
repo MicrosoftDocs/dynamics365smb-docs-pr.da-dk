@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Oversigt over scorekort og mål for bæredygtighed
+# <a name="sustainability-scorecards-and-goals-overview"></a>Oversigt over scorekort og mål for bæredygtighed
 
 Denne artikel indeholder vejledning i, hvordan du opretter scorekort og mål, og hvordan du opdaterer status for mål. Scorecards og mål giver organisationer mulighed for at kuratere bæredygtighedsmålinger og spore dem mod vigtige forretningsmål. Mål kan oprettes baseret på aktuelle værdier og målværdier, så brugerne kan holde styr på fremskridtene for aktuelle emissioner sammenlignet med tidligere perioder.  
 
-## Oprette et scorecard  
+## <a name="create-a-scorecard"></a>Oprette et scorecard
 
 Følg trinnene for at oprette et *nyt resultatkort* for bæredygtighed:
 
@@ -26,7 +26,7 @@ Følg trinnene for at oprette et *nyt resultatkort* for bæredygtighed:
 
 > [BEMÆRK!] I feltet **Ejer** kan du kun vælge brugere, der har valgt **feltet Bæredygtighedschef** i tabellen **Brugeropsætning** . 
 
-## Opret mål  
+## <a name="create-goals"></a>Opret mål
 
 Følg trinnene for at oprette et *nyt bæredygtighedsmål*:
 
@@ -49,7 +49,7 @@ Hvis du har mange mål på siden, kan du bruge **handlingen Vis mine mål** til 
 > [!NOTE]
 > Brugere kan oprette forskellige kombinationer af mål for hele virksomheden, specifikke lande eller regioner og et ansvarscenter for et *resultatkort for bæredygtighed*. Brugere kan også bruge forskellige perioder til den samme sporingsmodel. 
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Opsætning af bæredygtighed](finance-sustainability-setup.md)    
 [Diagram over bæredygtighedskonti og finans](finance-sustainability-accounts-ledger.md)    

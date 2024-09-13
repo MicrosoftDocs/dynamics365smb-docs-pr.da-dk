@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: solsen
 ---
 
-# Arbejde med kulstofkredit  
+# <a name="work-with-carbon-credit"></a>Arbejde med kulstofkredit
 
 Når virksomheder ikke kan reducere deres emissioner af forskellige årsager, kan de købe kulstofkreditter for at kompensere for deres emissioner. Ved at købe kulstofkreditter kan en virksomhed stadig udlede den tilsvarende mængde gasser, mens den forbliver kulstofneutral. Disse kreditter købes fra specialiserede udbydere, hvilket tilskynder til emissionsreduktioner.  
 
 Generelt er kulstofkreditter tilladelser, der giver ejeren mulighed for at udlede en vis mængde kuldioxid (CO₂) eller andre drivhusgasser (GHG'er). En kulstofkredit repræsenterer typisk retten til at udlede et ton CO₂ eller en tilsvarende mængde af en anden drivhusgas, så det er vigtigt at aktivere denne mulighed for nogle organisationer.  
 
-## Konfigurer kulstofkreditten  
+## <a name="set-up-the-carbon-credit"></a>Konfigurer kulstofkreditten
 
 Kulstofkredit i [!INCLUDE[prod_short](includes/prod_short.md)] kan indstilles som **Vare**. Hvis du vil konfigurere **varen** som en kulstofkredit, skal du følge trinnene:
   
@@ -32,9 +32,9 @@ Kulstofkredit i [!INCLUDE[prod_short](includes/prod_short.md)] kan indstilles so
 > [!NOTE]
 > Du kan konfigurere enhver type vare, uanset om det er lager, service eller ikke-lager, som en kulstofkredit.  
 
-## At købe kulstofkredit 
+## <a name="to-purchase-carbon-credit"></a>At købe kulstofkredit
 
-### Købsdokumenter 
+### <a name="purchase-documents"></a>Købsdokumenter
 
 Hvis du vil arbejde med købsrelaterede dokumenter, skal du følge trinnene:
 
@@ -49,7 +49,7 @@ Hvis du vil arbejde med købsrelaterede dokumenter, skal du følge trinnene:
 > [!NOTE]
 > Selvom kulstofkredit reducerer værdien af poster, vil du se en positiv mængde værdi i udledningen af **CO2**. Men når du bogfører dokumentet, kan du se en værdi med en negativ log i bæredygtighedsposten med drivhusgaskreditten **som** bilagstype **.**  **·**  
 
-### Bæredygtighedskladder 
+### <a name="sustainability-journals"></a>Bæredygtighedskladder
 
 Følg trinene for at arbejde med **Sustainability Journal** :  
 
@@ -60,7 +60,7 @@ Følg trinene for at arbejde med **Sustainability Journal** :
 5. Vælg **Manuel indtastning**, og indtast den værdi, du vil bogføre som en kulstofkreditering i **feltet Emission CO2** .  
 6. Bogfør journalen.   
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Finance](finance.md)    
 [Registrer bæredygtighedsposter](finance-sustainability-journal.md)    

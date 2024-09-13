@@ -12,7 +12,7 @@ ms.date: 08/29/2024
 ms.custom: bap-template
 ---
 
-# Opret bankindskud
+# <a name="create-bank-deposits"></a>Opret bankindskud
 
 > [!NOTE]
 > Muligheden for at oprette bankindskud er ny i [!INCLUDE [prod_short](includes/prod_short.md)] 2022 udgivelsesbølge 1 for mange lande-/regionsversioner. Hvis du brugte [!INCLUDE [prod_short](includes/prod_short.md)] i USA, Canada eller Mexico før denne udgivelse, bruger du muligvis de tidligere funktioner. Du kan fortsætte, men de nye funktioner erstatter de gamle filer i en fremtidig udgivelse. Hvis du vil begynde at bruge de nye funktioner, der beskrives i denne artikel, kan administratoren gå til siden **Funktionsadministration** og aktivere **Funktionsopdatering: Standardiseret bankafstemning og indskud**.  
@@ -31,17 +31,17 @@ Når du har udfyldt indbetalingsoplysninger og -linjer, skal du bogføre den. N�
 
 rapporten **Bankindbetalinger** viser debitor- og kreditor indskud med det oprindelige indbetalings beløb, det depositumbeløb, der er åbent, og det udlignede beløb. Rapporten viser også det samlede bogførte depositumbeløb, der skal afstemmes.
 
-## Før du starter
+## <a name="before-you-start"></a>Før du starter
 
 Men, der er et par ting, du skal konfigurere, før du kan bruge bankindskud. Du skal have en nummerserie og kassekladdeskabelon klar. Du skal også angive, om bankindbetalingsbeløb skal bogføres som et engangsbeløb. Det er som summen af alle beløbene på indbetalingslinjerne. Ellers bogføres hver linje som en individuel post. Bogføring af en indbetaling som en enkelt bankpost kan gøre det nemmere at foretage bankafstemninger.
 
-### Nummerserie og indskud på engangsbeløb
+### <a name="number-series-and-lump-sum-deposits"></a>Nummerserie og indskud på engangsbeløb
 
 Du skal oprette en nummerserie til bankindbetalinger og derefter angive serien i feltet **Bankindbetalingsnumre** på **Salgsopsætning**-siden. Du kan finde flere oplysninger om nummerserier under [Oprette nummerserier](ui-create-number-series.md).
 
 På siden **Salgsopsætning** skal bogføre indskud som engangsbeløb i stedet for de enkelte linjer, skal du aktivere **Bogfør bankindskud som engangsbeløb**. Når en indbetaling bogføres som et engangsbeløb, og der oprettes en bankpost for det samlede depositum, kan det være nemmere at foretage bankafstemninger.
 
-### Finanskladdeskabeloner til bankindskud
+### <a name="general-journal-templates-for-bank-deposits"></a>Finanskladdeskabeloner til bankindskud
 
 Du skal også oprette en Finanskladdetype for indskud. Du kan bruge finanskladder til at bogføre transaktioner til finans-, bank-, debitor-, kreditor- og anlægskonti. Kladdetyperne bruges til at designe finanskladden, så den passer til dit arbejde. Det vil sige, at felterne på kladdetypen er netop dem, du har brug for.
 
@@ -49,14 +49,14 @@ Indbetalingerne er indbetalinger, så det kan være en god idé at genbruge numm
 
 Du skal også oprette en kørsel til skabelonen. Hvis du vil oprette et batchjob, skal du vælge **Batchnavne** på siden **Finanskladdetyper**. Du kan få mere at vide om navne ved at gå til [Brug af kladdetyper og -navne](ui-work-general-journals.md#use-journal-templates-and-batches).
 
-## Dimensioner på bankindbetalingslinjer
+## <a name="dimensions-on-bank-deposit-lines"></a>Dimensioner på bankindbetalingslinjer
 
 Linjerne på bankindbetalingen bruger de standarddimensioner, du har angivet i felterne Afdelingskode **og** **Debitorgruppekode** . Når du vælger **Debitor** eller **Kreditor i feltet** Kontotype **·**, erstatter dimensionerne for debitoren eller kreditoren standardindstillingerne. Du kan ændre dimensionerne på linjerne efter behov.
 
 > [!TIP]
 > Dimension på linjer angives ifølge standarddimensionsprioriteter. Linjedimensioner tilsidesætter overskriftsdimensioner. For at undgå konflikter kan du oprette regler, der prioriterer, når du skal bruge en dimension, der afhænger af kilden. Hvis du vil ændre den måde, dimensioner prioriteres på, kan du ændre deres niveauer på siden **Standarddimensionsprioriteter**. Du kan finde flere oplysninger i [Konfigurere standarddimensionsprioriteter](finance-dimensions.md#to-set-up-default-dimension-priorities).
 
-## Opret et bankindskud
+## <a name="create-a-bank-deposit"></a>Opret et bankindskud
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, skriv **Bankindskud**, og vælg derefter det relaterede link.
 2. Vælg **Ny** for at åbne **Bankindbetaling**-siden.
@@ -100,13 +100,13 @@ Linjerne på bankindbetalingen bruger de standarddimensioner, du har angivet i f
     > [!TIP]
     > Før du bogfører indbetalingen, kan du bruge handlingen **Testrapport** til at gennemgå dine data. Rapporten viser, om der er problemer, f.eks. manglende data, der kan forhindre bogføring.  
 
-## Find bogførte bankindskud
+## <a name="find-posted-bank-deposits"></a>Find bogførte bankindskud
 
 På siden **Bogførte bankindbetalinger** vises firmaets forrige indskud. På listen kan du gennemse de bemærkninger og dimensioner, der er angivet for indbetalingerne. Du kan åbne bank indbetalingen for at få vist flere detaljer, og derfra kan du undersøge dette. Du kan f. eks. vælge handlingen **Find poster** for at få vist de bogførte Bankposter. Fra bankposten kan du finde den tilhørende bogførte finanspost.
 
 Hvis du vil slå alle finansposter for de bogførte indbetalingslinjer op, skal du gå til siden **Finansjournal** og bruge handlingen **Finans**. Handlingen viser alle finansposter, herunder poster for debitorer og kreditorer.
 
-## Tilbageføre en bogført bankindbetaling
+## <a name="reverse-a-posted-bank-deposit"></a>Tilbageføre en bogført bankindbetaling
 
 Du kan tilbageføre en bogført bankindbetaling på flere måder:
 
@@ -116,7 +116,7 @@ Du kan tilbageføre en bogført bankindbetaling på flere måder:
 > [!NOTE]
 > Du kan kun tilbageføre en Journal, der indeholder en enkelt posttype. Det vil sige, at journalen kun skal indeholde debitorposter eller kreditorposter, men ikke begge dele. Hvis der er indsat et kasseapparat, skal du manuelt tilbageføre indbetalingen.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Finans](finance.md)  
 [Konfigurere Finans](finance.md)  

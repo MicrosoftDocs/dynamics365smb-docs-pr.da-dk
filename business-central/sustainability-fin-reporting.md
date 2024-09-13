@@ -10,11 +10,11 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Analyse af bæredygtighedsposter med finansielle rapporter 
+# <a name="analyzing-sustainability-entries-with-financial-reports"></a>Analyse af bæredygtighedsposter med finansielle rapporter
 
 Funktionen *Finansielle rapporter* giver dig indsigt i de finansielle data, der vises i din kontoplan. Du kan konfigurere finansrapporter til at analysere tal i finanskonti og sammenligner finansposter med budgetposter. Men du kan også analysere statistiske data og bæredygtighedsdata med den samme funktion og endda kombinere alle tre typer data.  
 
-## Forudsætninger for regnskabsaflæggelse  
+## <a name="prerequisites-for-financial-reporting"></a>Forudsætninger for regnskabsaflæggelse
 
 Oprettelse af finansielle rapporter kræver en forståelse af strukturen af de data, du vil analysere. Der er nogle nøglebegreber, som du sandsynligvis skal være opmærksom på, før du designer dine finansielle rapporter: 
 
@@ -36,7 +36,7 @@ Oprettelse af finansielle rapporter kræver en forståelse af strukturen af de d
 > [!NOTE]
 > Du kan finde flere oplysninger om brug af finansielle rapporter med finansielle data og kontoplan her [Oprette finansielle rapporter ved hjælp af finansielle data og kontokategorier](bi-how-work-account-schedule.md).   
 
-## Oprette en ny finansiel rapport  
+## <a name="create-a-new-financial-report"></a>Oprette en ny finansiel rapport
 
 Du kan starte med at kopiere en eksisterende finansiel rapport for hurtigt at oprette dine egne rapporter som beskrevet i trin 3 nedenfor. 
 
@@ -65,7 +65,7 @@ Følg trinnene for at oprette eller redigere en rækkedefinition:
 > [!NOTE]
 > Rækkedefinitioner versioneres ikke. Når du ændrer en rækkedefinition, erstattes den gamle version, og dine ændringer gemmes i databasen. 
 
-### Analyse af bæredygtighedsdata  
+### <a name="analyzing-sustainability-data"></a>Analyse af bæredygtighedsdata
 
 1. Angiv rækkenummeret **.** For at identificere din rå og tilføje **Beskrivelse** som en tekst, der vises på finansrapportlinjen. 
 2. I kolonnen Sammentællingstype skal du vælge Sust **. Mulighed for konti** .   
@@ -75,14 +75,14 @@ Følg trinnene for at oprette eller redigere en rækkedefinition:
    2. **CO2-gebyr** hvis du vil rapportere økonomisk ækvivalent (CO2-gebyr) fra feltet **CO2-gebyr** i **bæredygtighedsposterne**. 
 5. Hvis du vælger **Formel** som **Sammentællingstype**, kan du bruge matematiske formler i **kolonnen Sammentælling.**   
 
-### Analyse af statistiske data
+### <a name="analyzing-statistical-data"></a>Analyse af statistiske data
 
 1. Angiv rækkenummeret **.** For at identificere din række og tilføje **Beskrivelse** som en tekst, der vises på linjen i den finansielle rapport. 
 2.  **I kolonnen Sammentællingstype** skal du vælge **indstillingen Statistikkonti** .   
 3.  **I feltet Sammentælling** skal du vælge en eller flere bæredygtighedskonti ved hjælp af alle relevante filtre. 
 4. Hvis du vælger **Formel** som **Sammentællingstype**, kan du bruge matematiske formler i **kolonnen Sammentælling.**   
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversigt over bæredygtighedsstyring](finance-manage-sustainability.md)    
 [Bæredygtighedsrapporter og -analyser i Business Central](sustainability-reports.md)   

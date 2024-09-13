@@ -11,14 +11,14 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Flere momsregistreringsnumre 
+# <a name="multiple-vat-registration-numbers"></a>Flere momsregistreringsnumre
 
 For virksomheder med lagre i flere EU-lande kan det være en udfordring at administrere moms (moms), da hver lagerlokation kræver et andet momsnummer for at overholde de specifikke regler i hvert land. Denne artikel indeholder oplysninger om dette krav og forklarer funktionaliteten for momsregistreringsnumre. Denne funktion giver brugerne mulighed for at oprette momsregistreringsnumre for kunderne i forskellige lande/områder.  
 
 > [!NOTE]
 > Funktionaliteten *Flere momsnumre for debitorer* er kun tilgængelig fra Business Central 2024 udgivelsesbølge 2 (version 25).
 
-## Sådan defineres alternative momsregistreringsnumre  
+## <a name="how-to-set-up-the-alternative-vat-registration-numbers"></a>Sådan defineres alternative momsregistreringsnumre
 
 Hvis du vil konfigurere alternative momsregistreringsnumre for forskellige lande/områder, skal du følge disse trin: 
 
@@ -40,11 +40,11 @@ Følg trinnene for at oprette en alternativ adresse til din kunde:
 8. Der vises en meddelelse som en advarsel om, at du skal tilføje et nyt momsnummer. For at gøre dette skal du vælge handlingen **Tilføj** på meddelelsen, hvorefter **siden Alternativ debitormomsregistrering** åbnes. 
 9. På denne side udfyldes dit **debitornummer.** Og lande-/områdekoden **for** moms. Så du skal bare tilføje opsætning, som du vil bruge. 
 
-## Arbejde med salgsdokumenterne   
+## <a name="work-with-the-sales-documents"></a>Arbejde med salgsdokumenterne
 
 Du kan oprette en ny [salgsfaktura](sales-how-invoice-sales.md) eller [salgsordre](sales-how-sell-products.md) i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du har brug for at bruge en leveringsadresse, der er forskellig fra kundens adresse, og som befinder sig i et andet land, skal du følge trinnene:  
 
-### Alternativ leveringsadresse  
+### <a name="alternate-shipping-address"></a>Alternativ leveringsadresse
 
 1. Udvid oversigtspanelet **Levering og fakturering** .   
 2. I feltet Levering skal du vælge indstillingen **Alternativ leveringsadresse** . 
@@ -59,7 +59,7 @@ Du kan oprette en ny [salgsfaktura](sales-how-invoice-sales.md) eller [salgsordr
 7. Når du har bekræftet, overskrives værdierne med værdierne fra opsætningen af **alternativ debitormomsregistrering** . Du kan se alle momsrelaterede felter i **oversigtspanelet Fakturadetaljer** .  
 8. Bogfør dokumentet.  
 
-### Brugerdefineret adresse  
+### <a name="custom-address"></a>Brugerdefineret adresse
 
 Hvis du ikke har konfigureret leveringsadressen, men stadig vil bruge en anden adresse til forsendelse, kan du bruge denne mulighed.  
 
@@ -69,7 +69,7 @@ Hvis du ikke har konfigureret leveringsadressen, men stadig vil bruge en anden a
 4. Når du ændrer lande-/områdekoden, så den **svarer til lande-/områdekoden** for moms i den **alternative debitors momsregistrering**, vises siden Bekræft alternativ debitormomsregistrering **med en liste over felter,** der er blevet ændret. 
 5. [!INCLUDE[prod_short](includes/prod_short.md)] vil også ændre alle de momsrelaterede felter, der findes i **oversigtspanelet Fakturadetaljer** .  
 
-### Arbejde uden forsendelse 
+### <a name="work-with-no-shipment"></a>Arbejde uden forsendelse
 
 Hvis der ikke er nogen forsendelse som en proces, kan du stadig drage fordel af opsætningen af **alternativ debitormomsregistrering** .
 
@@ -77,11 +77,11 @@ I salgsordren eller fakturaen kan du finde lande-/områdekoden for **moms i** ov
 
 I denne situation kan du bogføre salgsfakturaen med det korrekte **SE/CVR-nr.** for din kunde, selvom du ikke sender varer med dette dokument. 
 
-### Arbejde med salgskreditnotaen  
+### <a name="work-with-the-sales-credit-memo"></a>Arbejde med salgskreditnotaen
 
 Når du bogfører fakturaen med en lande-/områdekode for **levering eller** moms, der har forskellige bogføringsdata, henter rettelsen **salgskreditnotaen**  **værdierne fra hovedet Bogført** salgsfaktura **, hvor disse værdier hentes fra** den alternative debitors momsregistrering **, så der kræves ingen andre** handlinger. 
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversigt over momsadministration](finance-manage-vat.md)    
 [Oprette moms](finance-setup-vat.md)    

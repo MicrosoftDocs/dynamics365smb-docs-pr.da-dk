@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Opsætning af bæredygtighedsmodul 
+# <a name="sustainability-module-setup"></a>Opsætning af bæredygtighedsmodul
 
 For at få bæredygtighedsmodulet til at fungere korrekt skal du først oprette nogle grundlæggende kontroller og instruktioner relateret til hele funktionaliteten.
 
 Følg de næste trin for at oprette et bæredygtighedsmodul:
 
-## Rollecenter  
+## <a name="role-center"></a>Rollecenter
 
 For personer, hvis primære ansvarsområder involverer bæredygtighedsprocesser, anbefales det at bruge rollecenteret *Bæredygtighedschef* . Følg trinnene for at konfigurere dette rollecenter:  
 
@@ -29,7 +29,7 @@ For personer, hvis primære ansvarsområder involverer bæredygtighedsprocesser,
 
  *Rollecenteret Sustainability Manager* faciliterer effektiv styring af alle nøgleområder relateret til bæredygtighed. Det omfatter centrale bæredygtighedsfunktioner samt finansierings- og indkøbsprocesser. Derudover giver det synlighed i de mest kritiske bæredygtighedsrelaterede KPI'er.
 
-## Opsætning af bæredygtighed  
+## <a name="sustainability-setup"></a>Opsætning af bæredygtighed
 
 1. Vælg ![Lightbulb, der åbner funktionen Fortæl mig.](media/ui-search/search_small.png "Fortæl mig, hvad du vil foretage dig") ikon, angiv **Opsætning af bæredygtighed**, og vælg derefter det relaterede link.
 2. I oversigtspanelet **Generelt**, konfigurer de obligatoriske felter, der er relateret til bæredygtighedsmodulet:
@@ -72,7 +72,7 @@ For personer, hvis primære ansvarsområder involverer bæredygtighedsprocesser,
     | **Nøjagtighed i afrunding af udledninger** | Angiv størrelsen på det interval, der bruges til afrunding af udledningsbeløb, når du rapporterer til myndigheder. |
     | **Type af udledningsafrunding** | Angiv, hvordan udledningsmængder afrundes, når du rapporterer til myndighederne. Du kan vælge mellem følgende indstillinger: **Nærmeste**, **Op** og **Ned**. |
 
-## Udledningsafgifter   
+## <a name="emission-fees"></a>Udledningsafgifter
 
 Hvis du vil spore interne kulstofgebyrer eller beregne dine emissioner ved hjælp af kuldioxidækvivalenter (CO2), skal du konfigurere **siden Emissionsgebyrer** . Følg disse trin for at konfigurere disse oplysninger:  
 
@@ -89,7 +89,7 @@ Hvis du vil spore interne kulstofgebyrer eller beregne dine emissioner ved hjæl
 
 Hvis du ikke konfigurerede **emissionsgebyrerne**, før du offentliggjorde dine bæredygtighedsposter, og du vil beregne dine kulstofgebyrer og CO2e med tilbagevirkende kraft, skal du køre handlingen **Beregn emissionsgebyrer** for at opdatere værdierne på **bæredygtighedsposterne**.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Finance](finance.md)    
 [Oversigt over styring af bæredygtighed](finance-manage-sustainability.md)    
